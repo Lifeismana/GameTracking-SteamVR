@@ -7,6 +7,17 @@ echo "Processing SteamVR..."
 
 ProcessDepot ".dll"
 ProcessDepot ".so"
+
+ProcessDepot "chmod_trace_marker"
+ProcessDepot "hello*"
+ProcessDepot "gpuvis"
+ProcessDepot "vr*"
+ProcessDepot "trace-cmd"
+ProcessDepot "restart-helper"
+ProcessDepot "overlay_viewer"
+ProcessDepot "open*"
+
+
 ProcessVPK
 ProcessToolAssetInfo
 FixUCS2

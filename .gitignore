@@ -7,6 +7,18 @@ Protobufs/google/
 *.vpk
 *.vpk.manifest.txt
 *.bin
+bin/linux64/qt/lib/
+!*.txt
+bin/linux64/libSDL2-2.0.so.0
+bin/linux64/libXpresent.so.1
+bin/linux64/chmod_trace_marker
+bin/linux64/hello*
+bin/linux64/gpuvis
+bin/linux64/vr*
+bin/linux64/trace-cmd
+bin/linux64/restart-helper
+bin/linux64/overlay_viewer
+bin/linux64/open*
 
 node_modules/
 package-lock.json
