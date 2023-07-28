@@ -22389,7 +22389,7 @@ static const TypeID IStatusAnimTag::MyTypeID()
 static const TypeID IToolObject::MyTypeID()
 static const TypeID Reflection::Object::MyTypeID()
 stats_highlight_interval
-std::_Function_base::_Base_manager<CNewParticleEffect::Restart()::{lambda()#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CNewParticleEffect::Restart()::{lambda()#1}> const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<CNewParticleEffect::Restart()::{lambda()#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<int (*)(panorama::IUIPanelClient const*, panorama::IUIPanelClient const*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<int (*)(panorama::IUIPanelClient*, panorama::IUIPanelClient*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<std::function<int (panorama::IUIPanelClient const*, panorama::IUIPanelClient const*)> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
