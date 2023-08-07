@@ -39,6 +39,7 @@ CLogCallback::~CLogCallback()
 CNullHmdLatest::Activate(unsigned int)
 CNullHmdLatest::CNullHmdLatest()
 CNullHmdLatest::ComputeDistortion(vr::EVREye, float, float)
+CNullHmdLatest::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
 CNullHmdLatest::Deactivate()
 CNullHmdLatest::DebugRequest(char const*, char*, unsigned int)
 CNullHmdLatest::EnterStandby()
@@ -88,7 +89,7 @@ IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
-IVRDisplayComponent_002
+IVRDisplayComponent_003
 IVRDriverDirectModeComponent_008
 IVRDriverLog_001
 IVRDriverManager_001
@@ -282,6 +283,7 @@ memmove
 memset
 modelNumber
 non-virtual thunk to CNullHmdLatest::ComputeDistortion(vr::EVREye, float, float)
+non-virtual thunk to CNullHmdLatest::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
 non-virtual thunk to CNullHmdLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
 non-virtual thunk to CNullHmdLatest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
 non-virtual thunk to CNullHmdLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)

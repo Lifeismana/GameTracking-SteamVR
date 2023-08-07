@@ -632,7 +632,7 @@
 
 "PairingWizard_CheckForDongles_Content" "Проверяване за достъпни безжичния приемници…"
 
-"PairingWizard_HelperAppFailed_Content" "Неуспешно повикване на помощното приложение — грешка: %1."
+"PairingWizard_HelperAppFailed_Content" "Неуспешно повикване на помощното приложение с грешка: %1."
 "PairingWizard_HelperAppFailed_Error_FailedToStart" "„Неуспешно стартиране“ (0)"
 "PairingWizard_HelperAppFailed_Error_Crashed" "„Срив“ (1)"
 "PairingWizard_HelperAppFailed_Error_Timedout" "„Просрочено време“ (2)"

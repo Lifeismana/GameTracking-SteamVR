@@ -151,7 +151,7 @@ CLog::s_pInstance
 CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*)
 CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*) [clone .cold]
 CLogCallback::~CLogCallback()
-CSWTCH.211
+CSWTCH.210
 CServerDriver_Gamepad::AddGameControllerByIndex(int)
 CServerDriver_Gamepad::Cleanup()
 CServerDriver_Gamepad::Cleanup_SDL()
@@ -294,7 +294,7 @@ IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
-IVRDisplayComponent_002
+IVRDisplayComponent_003
 IVRDriverDirectModeComponent_008
 IVRDriverInput_003
 IVRDriverLog_001

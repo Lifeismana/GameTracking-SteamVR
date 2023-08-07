@@ -172,6 +172,7 @@
  t CNullHmdLatest::Activate(unsigned int)
  t CNullHmdLatest::CNullHmdLatest()
  t CNullHmdLatest::ComputeDistortion(vr::EVREye, float, float)
+ t CNullHmdLatest::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
  t CNullHmdLatest::Deactivate()
  t CNullHmdLatest::DebugRequest(char const*, char*, unsigned int)
  t CNullHmdLatest::EnterStandby()
@@ -322,6 +323,7 @@
  t linear_search_fdes
  t linear_search_fdes.cold
  t non-virtual thunk to CNullHmdLatest::ComputeDistortion(vr::EVREye, float, float)
+ t non-virtual thunk to CNullHmdLatest::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
  t non-virtual thunk to CNullHmdLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
  t non-virtual thunk to CNullHmdLatest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
  t non-virtual thunk to CNullHmdLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)

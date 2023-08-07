@@ -713,7 +713,7 @@
  b CVRMsg_WritePropertyDataToFileResponse::default_instance_
  b CVRScreenshotsLatest::UpdateScreenshotProgress(unsigned int, float)::sflLastLog
  b CVRSystemLatest::GetRuntimeVersion()::s_sVersion
- b CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long)::bLogOnce
+ b CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*)::bLogOnce
  b CVRSystemLatest::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)::k_ulHapticRequestEnforcedDelayMS
  b CVRTrackedDevice_004::k_pchInterfaceName
  b CVRTrackedDevice_Latest::k_pchInterfaceName
@@ -766,7 +766,7 @@
  b InputConfig_t::IsDeviceIncludedInRestriction(unsigned long, unsigned long)::k_rightHand
  b InterfaceRegistrationBase::s_pFirst
  b IsDashboardVisibleInternal()::k_pathDashboardVisible
- b IsOverlayVisibleInternal(VRCompositor_OverlayState_t const&)::k_deviceWasDrawn
+ b IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&)::k_deviceWasDrawn
  b IsRunningInAppContainer()::s_bDeterminedAppContainerStatus
  b IsRunningInAppContainer()::s_bIsRunningInAppContainer
  b LiquidVR::sgVcetMotionEstimator
@@ -993,7 +993,7 @@
  b guard variable for InputConfig_t::IsDeviceIncludedInRestriction(unsigned long, unsigned long)::k_leftHand
  b guard variable for InputConfig_t::IsDeviceIncludedInRestriction(unsigned long, unsigned long)::k_rightHand
  b guard variable for IsDashboardVisibleInternal()::k_pathDashboardVisible
- b guard variable for IsOverlayVisibleInternal(VRCompositor_OverlayState_t const&)::k_deviceWasDrawn
+ b guard variable for IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&)::k_deviceWasDrawn
  b guard variable for OpenVR_ReadVersionFile(std::string&, unsigned int*)::s_CachedVersion
  b guard variable for SetDashboardVisibleInternal(bool)::k_pathDashboardVisible
  b guard variable for ShouldUpdateInputDebuggerForThisProcess()::k_pathInputDebuggerPid
@@ -1016,6 +1016,11 @@
  b guard variable for sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHead
  b guard variable for tinygltf::Value::Get(int) const::null_value
  b guard variable for vkh::BIsInstanceExtensionSupported(std::string)::vecProperties
+ b guard variable for vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_PathEmpty
+ b guard variable for vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2ButtonLeftPressed
+ b guard variable for vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2ButtonRightPressed
+ b guard variable for vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2LeftAxes
+ b guard variable for vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2RightAxes
  b hmd001
  b hmd002
  b hmd003
@@ -1580,6 +1585,12 @@
  b vkh::sg_vecOptionalInstanceExtensions
  b vkh::sg_vecRequiredDeviceExtensions
  b vkh::sg_vecRequiredInstanceExtensions
+ b vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_PathEmpty
+ b vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2ButtonLeftPressed
+ b vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2ButtonRightPressed
+ b vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2LeftAxes
+ b vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2RightAxes
+ b vr::IVRSteamPrivate_Version
  b vrIOBuffer001
  b vrMailbox001
  b vrOverlayView001
@@ -1590,6 +1601,15 @@
  b vrSteamPrivate003
  b vrSteamPrivate004
  b vrSteamPrivate005
+ b vrSteamPrivate006
+ b vrSteamPrivate007
+ b vrSteamPrivate008
+ b vrSteamPrivate009
+ b vrSteamPrivate010
+ b vrSteamPrivate011
+ b vrSteamPrivate012
+ b vrSteamPrivate013
+ b vrSteamPrivate014
  b vrWatchdogHost001
  b vrapplications001
  b vrapplications002
@@ -2177,6 +2197,7 @@
  d typeinfo for CVRDebug
  d typeinfo for CVRDisplayComponentAdapter
  d typeinfo for CVRDisplayComponent_001
+ d typeinfo for CVRDisplayComponent_002
  d typeinfo for CVRDisplayComponent_Latest
  d typeinfo for CVRDriverDirectModeComponentAdapter
  d typeinfo for CVRDriverDirectModeComponent_001
@@ -2448,6 +2469,15 @@
  d typeinfo for CVRSteamPrivate_003
  d typeinfo for CVRSteamPrivate_004
  d typeinfo for CVRSteamPrivate_005
+ d typeinfo for CVRSteamPrivate_006
+ d typeinfo for CVRSteamPrivate_007
+ d typeinfo for CVRSteamPrivate_008
+ d typeinfo for CVRSteamPrivate_009
+ d typeinfo for CVRSteamPrivate_010
+ d typeinfo for CVRSteamPrivate_011
+ d typeinfo for CVRSteamPrivate_012
+ d typeinfo for CVRSteamPrivate_013
+ d typeinfo for CVRSteamPrivate_014
  d typeinfo for CVRSystemLatest
  d typeinfo for CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}
  d typeinfo for CVRSystem_001
@@ -2510,6 +2540,7 @@
  d typeinfo for ComponentAdapterBaseNoParent<IVRVirtualDisplay001, &k_pchVirtualDisplayComponentPrefix, 1, CVRVirtualDisplayComponent_001>
  d typeinfo for ComponentAdapterBaseNoParent<vr::IVRControllerComponent, &k_pchControllerComponentPrefix, 1, CVRControllerComponent_Latest>
  d typeinfo for ComponentAdapterBaseWithParent<IVRCameraComponent002, &k_pchCameraComponentPrefix, 2, CVRCameraComponent_002, CVRCameraComponent_001>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDisplayComponent002, &k_pchDisplayComponentPrefix, 2, CVRDisplayComponent_002, CVRDisplayComponent_001>
  d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_001, &k_pchDriverDirectModeComponentPrefix, 1, CVRDriverDirectModeComponent_001, CVRDisplayComponent_001>
  d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_002, &k_pchDriverDirectModeComponentPrefix, 2, CVRDriverDirectModeComponent_002, CVRDriverDirectModeComponent_001>
  d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_003, &k_pchDriverDirectModeComponentPrefix, 3, CVRDriverDirectModeComponent_003, CVRDriverDirectModeComponent_002>
@@ -2518,7 +2549,7 @@
  d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_006, &k_pchDriverDirectModeComponentPrefix, 6, CVRDriverDirectModeComponent_006, CVRDriverDirectModeComponent_005>
  d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_007, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_007, CVRDriverDirectModeComponent_006>
  d typeinfo for ComponentAdapterBaseWithParent<vr::IVRCameraComponent, &k_pchCameraComponentPrefix, 3, CVRCameraComponent_Latest, CVRCameraComponent_002>
- d typeinfo for ComponentAdapterBaseWithParent<vr::IVRDisplayComponent, &k_pchDisplayComponentPrefix, 2, CVRDisplayComponent_Latest, CVRDisplayComponent_001>
+ d typeinfo for ComponentAdapterBaseWithParent<vr::IVRDisplayComponent, &k_pchDisplayComponentPrefix, 3, CVRDisplayComponent_Latest, CVRDisplayComponent_002>
  d typeinfo for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_007>
  d typeinfo for ComponentAdapterBaseWithParent<vr::IVRVirtualDisplay, &k_pchVirtualDisplayComponentPrefix, 2, CVRVirtualDisplayComponent_Latest, CVRVirtualDisplayComponent_001>
  d typeinfo for CompositorInterfaceRegistration<CVRCompositor_003>
@@ -2603,6 +2634,7 @@
  d typeinfo for IVRClientHandler
  d typeinfo for IVRClientInternal
  d typeinfo for IVRDisplayComponent001
+ d typeinfo for IVRDisplayComponent002
  d typeinfo for IVRDriverDirectModeComponent_001
  d typeinfo for IVRDriverDirectModeComponent_002
  d typeinfo for IVRDriverDirectModeComponent_003
@@ -2701,6 +2733,15 @@
  d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_003>
  d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_004>
  d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_006>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_007>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_008>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_009>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_010>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_011>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_012>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_013>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_014>
  d typeinfo for SystemInterfaceRegistration<CHmdSystem_001>
  d typeinfo for SystemInterfaceRegistration<CHmdSystem_004>
  d typeinfo for SystemInterfaceRegistration<CVRClientCore_001>
@@ -2875,7 +2916,7 @@
  d typeinfo for vr::IVRSharedResource
  d typeinfo for vr::IVRSharedSemaphore
  d typeinfo for vr::IVRSpatialAnchors
- d typeinfo for vr::IVRSteamPrivate_006
+ d typeinfo for vr::IVRSteamPrivate_015
  d typeinfo for vr::IVRSystem
  d typeinfo for vr::IVRTrackedCamera
  d typeinfo for vr::IVRTrackedCameraInternal
@@ -3067,6 +3108,7 @@
  d vtable for CVRDashboardManager_001
  d vtable for CVRDebug
  d vtable for CVRDisplayComponent_001
+ d vtable for CVRDisplayComponent_002
  d vtable for CVRDisplayComponent_Latest
  d vtable for CVRDriverDirectModeComponent_001
  d vtable for CVRDriverDirectModeComponent_002
@@ -3334,6 +3376,15 @@
  d vtable for CVRSteamPrivate_003
  d vtable for CVRSteamPrivate_004
  d vtable for CVRSteamPrivate_005
+ d vtable for CVRSteamPrivate_006
+ d vtable for CVRSteamPrivate_007
+ d vtable for CVRSteamPrivate_008
+ d vtable for CVRSteamPrivate_009
+ d vtable for CVRSteamPrivate_010
+ d vtable for CVRSteamPrivate_011
+ d vtable for CVRSteamPrivate_012
+ d vtable for CVRSteamPrivate_013
+ d vtable for CVRSteamPrivate_014
  d vtable for CVRSystemLatest
  d vtable for CVRSystem_001
  d vtable for CVRSystem_002
@@ -3529,6 +3580,15 @@
  d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_003>
  d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_004>
  d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_006>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_007>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_008>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_009>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_010>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_011>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_012>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_013>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_014>
  d vtable for SystemInterfaceRegistration<CHmdSystem_001>
  d vtable for SystemInterfaceRegistration<CHmdSystem_004>
  d vtable for SystemInterfaceRegistration<CVRClientCore_001>
@@ -3597,6 +3657,12 @@
  dlopen
  dlsym
  dup
+ eglGetCurrentContext
+ eglGetCurrentDisplay
+ eglGetCurrentSurface
+ eglGetProcAddress
+ eglMakeCurrent
+ eglQueryContext
  execvp
  exit
  expf
@@ -3678,6 +3744,7 @@
  operator new(unsigned long)
  operator new[](unsigned long)
  pclose
+ pipe2
  poll
  popen
  posix_memalign
@@ -3715,18 +3782,18 @@
  puts
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1870.0
- r C.1873.1
+ r C.1869.0
+ r C.1872.1
  r C.417.0
  r CSWTCH.16
- r CSWTCH.209
+ r CSWTCH.208
  r CSWTCH.221
  r CSWTCH.23
  r CSWTCH.25
  r CSWTCH.369
  r CSWTCH.522
- r CSWTCH.729
- r CSWTCH.776
+ r CSWTCH.747
+ r CSWTCH.795
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetDefaultValue<double>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -4271,6 +4338,7 @@
  r typeinfo name for CVRDebug
  r typeinfo name for CVRDisplayComponentAdapter
  r typeinfo name for CVRDisplayComponent_001
+ r typeinfo name for CVRDisplayComponent_002
  r typeinfo name for CVRDisplayComponent_Latest
  r typeinfo name for CVRDriverDirectModeComponentAdapter
  r typeinfo name for CVRDriverDirectModeComponent_001
@@ -4542,6 +4610,15 @@
  r typeinfo name for CVRSteamPrivate_003
  r typeinfo name for CVRSteamPrivate_004
  r typeinfo name for CVRSteamPrivate_005
+ r typeinfo name for CVRSteamPrivate_006
+ r typeinfo name for CVRSteamPrivate_007
+ r typeinfo name for CVRSteamPrivate_008
+ r typeinfo name for CVRSteamPrivate_009
+ r typeinfo name for CVRSteamPrivate_010
+ r typeinfo name for CVRSteamPrivate_011
+ r typeinfo name for CVRSteamPrivate_012
+ r typeinfo name for CVRSteamPrivate_013
+ r typeinfo name for CVRSteamPrivate_014
  r typeinfo name for CVRSystemLatest
  r typeinfo name for CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}
  r typeinfo name for CVRSystem_001
@@ -4604,6 +4681,7 @@
  r typeinfo name for ComponentAdapterBaseNoParent<IVRVirtualDisplay001, &k_pchVirtualDisplayComponentPrefix, 1, CVRVirtualDisplayComponent_001>
  r typeinfo name for ComponentAdapterBaseNoParent<vr::IVRControllerComponent, &k_pchControllerComponentPrefix, 1, CVRControllerComponent_Latest>
  r typeinfo name for ComponentAdapterBaseWithParent<IVRCameraComponent002, &k_pchCameraComponentPrefix, 2, CVRCameraComponent_002, CVRCameraComponent_001>
+ r typeinfo name for ComponentAdapterBaseWithParent<IVRDisplayComponent002, &k_pchDisplayComponentPrefix, 2, CVRDisplayComponent_002, CVRDisplayComponent_001>
  r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_001, &k_pchDriverDirectModeComponentPrefix, 1, CVRDriverDirectModeComponent_001, CVRDisplayComponent_001>
  r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_002, &k_pchDriverDirectModeComponentPrefix, 2, CVRDriverDirectModeComponent_002, CVRDriverDirectModeComponent_001>
  r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_003, &k_pchDriverDirectModeComponentPrefix, 3, CVRDriverDirectModeComponent_003, CVRDriverDirectModeComponent_002>
@@ -4612,7 +4690,7 @@
  r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_006, &k_pchDriverDirectModeComponentPrefix, 6, CVRDriverDirectModeComponent_006, CVRDriverDirectModeComponent_005>
  r typeinfo name for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_007, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_007, CVRDriverDirectModeComponent_006>
  r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRCameraComponent, &k_pchCameraComponentPrefix, 3, CVRCameraComponent_Latest, CVRCameraComponent_002>
- r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRDisplayComponent, &k_pchDisplayComponentPrefix, 2, CVRDisplayComponent_Latest, CVRDisplayComponent_001>
+ r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRDisplayComponent, &k_pchDisplayComponentPrefix, 3, CVRDisplayComponent_Latest, CVRDisplayComponent_002>
  r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_007>
  r typeinfo name for ComponentAdapterBaseWithParent<vr::IVRVirtualDisplay, &k_pchVirtualDisplayComponentPrefix, 2, CVRVirtualDisplayComponent_Latest, CVRVirtualDisplayComponent_001>
  r typeinfo name for CompositorInterfaceRegistration<CVRCompositor_003>
@@ -4697,6 +4775,7 @@
  r typeinfo name for IVRClientHandler
  r typeinfo name for IVRClientInternal
  r typeinfo name for IVRDisplayComponent001
+ r typeinfo name for IVRDisplayComponent002
  r typeinfo name for IVRDriverDirectModeComponent_001
  r typeinfo name for IVRDriverDirectModeComponent_002
  r typeinfo name for IVRDriverDirectModeComponent_003
@@ -4795,6 +4874,15 @@
  r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_003>
  r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_004>
  r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_006>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_007>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_008>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_009>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_010>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_011>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_012>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_013>
+ r typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_014>
  r typeinfo name for SystemInterfaceRegistration<CHmdSystem_001>
  r typeinfo name for SystemInterfaceRegistration<CHmdSystem_004>
  r typeinfo name for SystemInterfaceRegistration<CVRClientCore_001>
@@ -4970,7 +5058,7 @@
  r typeinfo name for vr::IVRSharedResource
  r typeinfo name for vr::IVRSharedSemaphore
  r typeinfo name for vr::IVRSpatialAnchors
- r typeinfo name for vr::IVRSteamPrivate_006
+ r typeinfo name for vr::IVRSteamPrivate_015
  r typeinfo name for vr::IVRSystem
  r typeinfo name for vr::IVRTrackedCamera
  r typeinfo name for vr::IVRTrackedCameraInternal
@@ -5004,13 +5092,15 @@
  sendmsg
  sendto
  setenv
- setpgid
  setpriority
  setrlimit
+ setsid
  shm_open
  shm_unlink
  shutdown
  sigaction
+ sigemptyset
+ sigprocmask
  sincos
  sincosf
  sinf
@@ -5284,7 +5374,6 @@
  t BCreateDirectoryRecursive(char const*)
  t BCreateDirectoryRecursive(char const*) [clone .cold]
  t BCreateProcess(char const*, char const**, unsigned int*, bool, std::string*)
- t BCreateProcess(char const*, char const**, unsigned int*, bool, std::string*) [clone .part.0]
  t BCreateProcess(std::string const&, std::string const&, std::string, unsigned int*, bool, std::string*)
  t BCreateProcess(std::string const&, std::string const&, std::string, unsigned int*, bool, std::string*) [clone .cold]
  t BCreateProcess(std::string const&, std::vector<std::string, std::allocator<std::string> > const&, std::string, unsigned int*, bool, std::string*)
@@ -5305,6 +5394,7 @@
  t BIsVidPresent(unsigned short)
  t BIsWorkshopBindingUri(std::string const&)
  t BIsWorkshopBindingUri(std::string const&) [clone .cold]
+ t BKeyboardIsOpen(VRSystemLayerState_t const*)
  t BKillProcess(char const*, bool)
  t BKillProcess(char const*, bool) [clone .cold]
  t BKillProcess(unsigned int)
@@ -5314,6 +5404,7 @@
  t BOSAssociateURI(char const*, char const*) [clone .cold]
  t BOSRelease(void**)
  t BOSSafeRelease(void**)
+ t BOverlayIsKeyboardImplementation(VRSystemLayerState_t const*, unsigned long, vr::EVRKeyboardImplementation*)
  t BPathSupportsInputOfType(std::string const&, EInputValueType)
  t BProcessRunning(char const*, bool)
  t BProcessRunning(char const*, bool) [clone .cold]
@@ -6459,10 +6550,11 @@
  t CPathManagerBase::WritePathBatch(unsigned long, vr::PathWrite_t*, unsigned int)
  t CPathManagerBase::WritePathBatch(unsigned long, vr::PathWrite_t*, unsigned int) [clone .cold]
  t CPathManagerBase::~CPathManagerBase()
- t CPathManager_Client::CPathManager_Client(CPropertyManager*, CVRClient*)
+ t CPathManager_Client::CPathManager_Client(CPropertyManager*, CVRClient*, vr::IVRCompositorSystemInternal*)
  t CPathManager_Client::HandleToString(unsigned long, char*, unsigned int, unsigned int*)
  t CPathManager_Client::HandleToString(unsigned long, char*, unsigned int, unsigned int*) [clone .cold]
  t CPathManager_Client::Init()
+ t CPathManager_Client::PostPathEvent(vr::EVREventType_Internal, unsigned long, unsigned long)
  t CPathManager_Client::StringToHandle(unsigned long*, char const*)
  t CPathManager_Client::StringToHandle(unsigned long*, char const*) [clone .cold]
  t CPathManager_Client::~CPathManager_Client()
@@ -6483,12 +6575,13 @@
  t CPathManager_Server::GetAllPathHandles() const [clone .cold]
  t CPathManager_Server::HandleToString(unsigned long, char*, unsigned int, unsigned int*)
  t CPathManager_Server::HandleToString(unsigned long, char*, unsigned int, unsigned int*) [clone .cold]
- t CPathManager_Server::Init()
+ t CPathManager_Server::Init(IVRServer*)
  t CPathManager_Server::IsAlias(std::string const&, std::string*, std::string*, bool*, bool*)
  t CPathManager_Server::IsAlias(std::string const&, std::string*, std::string*, bool*, bool*) [clone .cold]
  t CPathManager_Server::IsValidHandle(unsigned long)
  t CPathManager_Server::IsWildcard(std::string const&, CPathManager_Server::WildcardInfo_t*)
  t CPathManager_Server::IsWildcard(std::string const&, CPathManager_Server::WildcardInfo_t*) [clone .cold]
+ t CPathManager_Server::PostPathEvent(vr::EVREventType_Internal, unsigned long, unsigned long)
  t CPathManager_Server::PropertyIDToPathHandle(unsigned int)
  t CPathManager_Server::RecomputeWildcards()
  t CPathManager_Server::RecomputeWildcards() [clone .cold]
@@ -6499,6 +6592,8 @@
  t CPathManager_Server::StringToHandle(unsigned long*, char const*) [clone .cold]
  t CPathManager_Server::StringToPathPropertyContainer(std::string const&, std::string&, vr::IVRExternalProperties**)
  t CPathManager_Server::StringToPathPropertyContainer(std::string const&, std::string&, vr::IVRExternalProperties**) [clone .cold]
+ t CPathManager_Server::SuppressServerPathEvents(char const*)
+ t CPathManager_Server::SuppressServerPathEvents(unsigned long)
  t CPoseRecipe::AddReference(unsigned char)
  t CPoseRecipe::CPoseRecipe()
  t CPoseRecipe::CPoseRecipe() [clone .cold]
@@ -6861,13 +6956,15 @@
  t CSharedCountingSemaphoreLinux::Wait(unsigned long, vr::VRNativeDevice_t const*) [clone .cold]
  t CSharedCountingSemaphoreLinux::~CSharedCountingSemaphoreLinux()
  t CSharedImageLinux::CSharedImageLinux(vr::IVRIPCResourceManagerClient*)
- t CSharedImageLinux::CreateVulkanImage(VkDevice_T*, VkFormat, unsigned int, unsigned int, bool, bool, bool)
+ t CSharedImageLinux::CreateVulkanImage(VkDevice_T*, VkFormat, unsigned int, unsigned int, bool, bool, bool, unsigned int)
  t CSharedImageLinux::GetDeviceSize() const
  t CSharedImageLinux::GetDeviceSize() const [clone .cold]
  t CSharedImageLinux::GetFormat() const
  t CSharedImageLinux::GetFormat() const [clone .cold]
  t CSharedImageLinux::GetHeight() const
  t CSharedImageLinux::GetHeight() const [clone .cold]
+ t CSharedImageLinux::GetMipLevels() const
+ t CSharedImageLinux::GetMipLevels() const [clone .cold]
  t CSharedImageLinux::GetOGLTexture()
  t CSharedImageLinux::GetType() const
  t CSharedImageLinux::GetUsage() const
@@ -6897,9 +6994,9 @@
  t CSharedImageLinux::IsRenderable() const
  t CSharedImageLinux::IsRenderable() const [clone .cold]
  t CSharedImageLinux::PrepareForInterop()
- t CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
- t CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*) [clone .cold]
- t CSharedImageLinux::RequestSharedVulkanImage(VkFormat, unsigned int, unsigned int, bool, bool, bool)
+ t CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
+ t CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*) [clone .cold]
+ t CSharedImageLinux::RequestSharedVulkanImage(VkFormat, unsigned int, unsigned int, bool, bool, bool, unsigned int)
  t CSharedImageLinux::SetVulkanLayout(VkImageLayout)
  t CSharedImageLinux::SetVulkanLayout(VkImageLayout) [clone .cold]
  t CSharedImageLinux::SetVulkanQueueIndex(unsigned int)
@@ -7041,6 +7138,7 @@
  t CSxrCompositorOpenVR::CreateXrBinding(CSxrInstance*, SxrCommonBase const*) [clone .cold]
  t CSxrCompositorOpenVR::DiscardFrame(CFrameData*)
  t CSxrCompositorOpenVR::EndFrame(CFrameData*, XrFrameEndInfo const&)
+ t CSxrCompositorOpenVR::GetGraphicsRequirements(XrGraphicsRequirementsOpenGLESKHR*)
  t CSxrCompositorOpenVR::GetGraphicsRequirements(XrGraphicsRequirementsOpenGLKHR*)
  t CSxrCompositorOpenVR::GetGraphicsRequirements(XrGraphicsRequirementsVulkanKHR*)
  t CSxrCompositorOpenVR::GetNextOverlay(CFrameData*, unsigned long*)
@@ -7068,6 +7166,7 @@
  t CSxrCompositorPrism::CreateXrBinding(CSxrInstance*, SxrCommonBase const*) [clone .cold]
  t CSxrCompositorPrism::DiscardFrame(CFrameData*)
  t CSxrCompositorPrism::EndFrame(CFrameData*, XrFrameEndInfo const&)
+ t CSxrCompositorPrism::GetGraphicsRequirements(XrGraphicsRequirementsOpenGLESKHR*)
  t CSxrCompositorPrism::GetGraphicsRequirements(XrGraphicsRequirementsOpenGLKHR*)
  t CSxrCompositorPrism::GetGraphicsRequirements(XrGraphicsRequirementsVulkanKHR*)
  t CSxrCompositorPrism::GetVulkanDeviceExtensions()
@@ -7113,6 +7212,7 @@
  t CSxrGenericTrackerManager::TranslateViveTopLevelPath(unsigned long)
  t CSxrGenericTrackerManager::~CSxrGenericTrackerManager()
  t CSxrGraphicsBindingGLOpenVR::CGLContextLock::~CGLContextLock()
+ t CSxrGraphicsBindingGLOpenVR::CSxrGraphicsBindingGLOpenVR(CSxrInstance*, XrGraphicsBindingEGLMNDX const*)
  t CSxrGraphicsBindingGLOpenVR::CSxrGraphicsBindingGLOpenVR(CSxrInstance*, XrGraphicsBindingOpenGLXlibKHR const*)
  t CSxrGraphicsBindingGLOpenVR::CreateSwapchain(CSxrSession*, XrSwapchainCreateInfo const*)
  t CSxrGraphicsBindingGLOpenVR::CreateSwapchain(CSxrSession*, XrSwapchainCreateInfo const*) [clone .cold]
@@ -7122,6 +7222,7 @@
  t CSxrGraphicsBindingGLOpenVR::GetBindingType()
  t CSxrGraphicsBindingGLOpenVR::GetBlankTexture()
  t CSxrGraphicsBindingGLOpenVR::GetBlankTexture() [clone .cold]
+ t CSxrGraphicsBindingGLOpenVR::GetGLProcAddress(char const*)
  t CSxrGraphicsBindingGLOpenVR::GetSwapchainSupportedFormats()
  t CSxrGraphicsBindingGLOpenVR::Init(SxrCommonBase const*)
  t CSxrGraphicsBindingGLOpenVR::Init(SxrCommonBase const*) [clone .cold]
@@ -7130,7 +7231,6 @@
  t CSxrGraphicsBindingGLOpenVR::PreEndFrame()
  t CSxrGraphicsBindingGLOpenVR::RestoreContextInternal()
  t CSxrGraphicsBindingGLOpenVR::SetContextInternal()
- t CSxrGraphicsBindingGLOpenVR::SetContextInternal() [clone .part.0]
  t CSxrGraphicsBindingGLOpenVR::~CSxrGraphicsBindingGLOpenVR()
  t CSxrGraphicsBindingPrism::AddTextureFormatIfSupported(long)
  t CSxrGraphicsBindingPrism::CSxrGraphicsBindingPrism(CSxrInstance*, CSxrCompositorPrism*)
@@ -7743,7 +7843,6 @@
  t CVRChaperoneClient::AreBoundsVisible()
  t CVRChaperoneClient::BInit(CVRClient*)
  t CVRChaperoneClient::BInit(CVRClient*) [clone .cold]
- t CVRChaperoneClient::ClearChaperoneCaches()
  t CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile)
  t CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile) [clone .cold]
  t CVRChaperoneClient::ExportLiveToBuffer(char*, unsigned int*)
@@ -7977,8 +8076,8 @@
  t CVRCompositorClient::LockGLSharedTextureForAccess(void*)
  t CVRCompositorClient::NewSharedVulkanBuffer(unsigned long, unsigned int, unsigned long*)
  t CVRCompositorClient::NewSharedVulkanBuffer(unsigned long, unsigned int, unsigned long*) [clone .cold]
- t CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned long*)
- t CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned long*) [clone .cold]
+ t CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned long*)
+ t CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned long*) [clone .cold]
  t CVRCompositorClient::NewSharedVulkanSemaphore(unsigned long*)
  t CVRCompositorClient::NewSharedVulkanSemaphore(unsigned long*) [clone .cold]
  t CVRCompositorClient::PostPresentHandoff()
@@ -8246,7 +8345,6 @@
  t CVRCompositorSharedTextures::VulkanBackingImage_t::Release()
  t CVRCompositorSharedTextures::VulkanDeviceData_t* std::__uninitialized_copy<false>::__uninit_copy<CVRCompositorSharedTextures::VulkanDeviceData_t const*, CVRCompositorSharedTextures::VulkanDeviceData_t*>(CVRCompositorSharedTextures::VulkanDeviceData_t const*, CVRCompositorSharedTextures::VulkanDeviceData_t const*, CVRCompositorSharedTextures::VulkanDeviceData_t*)
  t CVRCompositorSharedTextures::VulkanDeviceData_t::Release()
- t CVRCompositorSharedTextures::VulkanDeviceData_t::VulkanDeviceData_t(CVRCompositorSharedTextures::VulkanDeviceData_t const&)
  t CVRCompositorSharedTextures::VulkanDeviceData_t::~VulkanDeviceData_t()
  t CVRCompositor_003::ClearLastSubmittedFrame()
  t CVRCompositor_003::ClearOverlay()
@@ -9173,6 +9271,8 @@
  t CVRControlPanel_005::WritePropertyDataToFile(char const*)
  t CVRControllerComponentAdapter* CVRControllerComponentAdapter::Create<CCompositorPluginProvider>(CCompositorPluginProvider*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
  t CVRControllerComponentAdapter* CVRControllerComponentAdapter::Create<vr::ITrackedDeviceServerDriver>(vr::ITrackedDeviceServerDriver*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+ t CVRControllerComponentAdapter* CreateLatestAdapter<CVRControllerComponent_Latest, CVRControllerComponentAdapter, CCompositorPluginProvider>(CCompositorPluginProvider*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&, char const*, char const*)
+ t CVRControllerComponentAdapter* CreateLatestAdapter<CVRControllerComponent_Latest, CVRControllerComponentAdapter, vr::ITrackedDeviceServerDriver>(vr::ITrackedDeviceServerDriver*, std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&, char const*, char const*)
  t CVRControllerComponent_Latest::GetControllerState()
  t CVRControllerComponent_Latest::TriggerHapticPulse(unsigned int, unsigned short)
  t CVRControllerComponent_Latest::~CVRControllerComponent_Latest()
@@ -9204,10 +9304,11 @@
  t CVRDashboardManager_001::GetAllOverlays(vr::DashboardOverlayState_t*, unsigned int)
  t CVRDashboardManager_001::GetDashboardOverlaysGeneration_Deleted()
  t CVRDashboardManager_001::GetDashboardOverlays_Deleted(vr::DashboardOverlayState_t*, unsigned int)
- t CVRDashboardManager_001::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, bool*, char*, int)
+ t CVRDashboardManager_001::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, bool*, char*, int, bool*)
  t CVRDashboardManager_001::GetKeyboardOverlayHandle(unsigned long*)
  t CVRDashboardManager_001::GetKeyboardOwnerOverlay(unsigned long*)
  t CVRDashboardManager_001::GetKeyboardStats(KeyboardStats_t*)
+ t CVRDashboardManager_001::GetKeyboardStatus(bool*, vr::EKeyboardFlags*)
  t CVRDashboardManager_001::GetMessageOverlayDetails(vr::VRMessageOverlayMessageDetails*)
  t CVRDashboardManager_001::GetNightModeEnabled(bool*)
  t CVRDashboardManager_001::GetNotificationPriority(char const*, unsigned int*)
@@ -9227,8 +9328,8 @@
  t CVRDashboardManager_001::SetDashboardManager_Deleted(unsigned long)
  t CVRDashboardManager_001::SetDashboardOverlayTextureRotation(unsigned long, float)
  t CVRDashboardManager_001::SetDashboardOverlayTransform(unsigned long, vr::HmdQuaternion_t, vr::HmdVector3_t)
+ t CVRDashboardManager_001::SetKeyboardImplementationOverlay(unsigned long)
  t CVRDashboardManager_001::SetKeyboardMetrics(vr::HmdVector2_t, float, vr::HmdVector2_t, float)
- t CVRDashboardManager_001::SetKeyboardOverlayHandle(unsigned long)
  t CVRDashboardManager_001::SetKeyboardOverlayRendererToThis()
  t CVRDashboardManager_001::SetKeyboardResultText(char const*)
  t CVRDashboardManager_001::SetKeyboardStats(KeyboardStats_t*)
@@ -9266,7 +9367,16 @@
  t CVRDisplayComponent_001::Present(void*)
  t CVRDisplayComponent_001::SubmitLayer(void**, vr::VRTextureBounds_t const (&) [2], vr::HmdMatrix34_t const*)
  t CVRDisplayComponent_001::~CVRDisplayComponent_001()
+ t CVRDisplayComponent_002::ComputeDistortion(vr::EVREye, float, float)
+ t CVRDisplayComponent_002::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+ t CVRDisplayComponent_002::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+ t CVRDisplayComponent_002::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+ t CVRDisplayComponent_002::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
+ t CVRDisplayComponent_002::IsDisplayOnDesktop()
+ t CVRDisplayComponent_002::IsDisplayRealDisplay()
+ t CVRDisplayComponent_002::~CVRDisplayComponent_002()
  t CVRDisplayComponent_Latest::ComputeDistortion(vr::EVREye, float, float)
+ t CVRDisplayComponent_Latest::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
  t CVRDisplayComponent_Latest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
  t CVRDisplayComponent_Latest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
  t CVRDisplayComponent_Latest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
@@ -9429,9 +9539,10 @@
  t CVRInputLatest::GetPoseActionDataRelativeToNow(unsigned long, vr::ETrackingUniverseOrigin, float, vr::InputPoseActionData_t*, unsigned int, unsigned long)
  t CVRInputLatest::GetPoseActionDataRelativeToNow(unsigned long, vr::ETrackingUniverseOrigin, float, vr::InputPoseActionData_t*, unsigned int, unsigned long) [clone .cold]
  t CVRInputLatest::GetPoseModification(unsigned long, vr::HmdMatrix34_t*)
- t CVRInputLatest::GetPoseModification(unsigned long, vr::HmdMatrix34_t*) [clone .cold]
  t CVRInputLatest::GetPoseModificationFromPath(unsigned long, vr::HmdMatrix34_t*, unsigned int*)
  t CVRInputLatest::GetPoseModificationFromPath(unsigned long, vr::HmdMatrix34_t*, unsigned int*) [clone .cold]
+ t CVRInputLatest::GetPoseModificationRestricted(unsigned long, vr::HmdMatrix34_t*, unsigned long)
+ t CVRInputLatest::GetPoseModificationRestricted(unsigned long, vr::HmdMatrix34_t*, unsigned long) [clone .cold]
  t CVRInputLatest::GetSkeletalActionData(unsigned long, vr::InputSkeletalActionData_t*, unsigned int)
  t CVRInputLatest::GetSkeletalActionData(unsigned long, vr::InputSkeletalActionData_t*, unsigned int) [clone .cold]
  t CVRInputLatest::GetSkeletalBoneData(unsigned long, vr::EVRSkeletalTransformSpace, vr::EVRSkeletalMotionRange, vr::VRBoneTransform_t*, unsigned int)
@@ -15332,9 +15443,9 @@
  t CVROverlayLatest::ShowDashboard(char const*)
  t CVROverlayLatest::ShowDashboard(char const*) [clone .cold]
  t CVROverlayLatest::ShowKeyboard(vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long)
+ t CVROverlayLatest::ShowKeyboard(vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long) [clone .cold]
  t CVROverlayLatest::ShowKeyboardForOverlay(unsigned long, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long)
- t CVROverlayLatest::ShowKeyboardInternal(unsigned long, EKeyboardState, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, char const*, unsigned int, char const*, unsigned int, unsigned long)
- t CVROverlayLatest::ShowKeyboardInternal(unsigned long, EKeyboardState, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, char const*, unsigned int, char const*, unsigned int, unsigned long) [clone .cold]
+ t CVROverlayLatest::ShowKeyboardForOverlay(unsigned long, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, unsigned int, char const*, unsigned int, char const*, unsigned long) [clone .cold]
  t CVROverlayLatest::ShowMessageOverlay(char const*, char const*, char const*, char const*, char const*, char const*)
  t CVROverlayLatest::ShowMessageOverlay(char const*, char const*, char const*, char const*, char const*, char const*) [clone .cold]
  t CVROverlayLatest::ShowOverlay(unsigned long)
@@ -17329,9 +17440,10 @@
  t CVRSettings_002::SetInt32(char const*, char const*, int, vr::EVRSettingsError*)
  t CVRSettings_002::SetString(char const*, char const*, char const*, vr::EVRSettingsError*)
  t CVRSettings_002::Sync(bool, vr::EVRSettingsError*)
- t CVRSharedGLTexture::CVRSharedGLTexture(CVRCompositorSharedTextures*, unsigned int, unsigned int, unsigned int, unsigned int, CVRCompositorSharedTextures::VulkanDeviceData_t*, IVRRenderer*, bool)
- t CVRSharedGLTexture::CVRSharedGLTexture(CVRCompositorSharedTextures*, unsigned int, unsigned int, unsigned int, unsigned int, CVRCompositorSharedTextures::VulkanDeviceData_t*, IVRRenderer*, bool) [clone .cold]
+ t CVRSharedGLTexture::CVRSharedGLTexture(CVRCompositorSharedTextures*, bool, unsigned int, unsigned int, unsigned int, unsigned int, CVRCompositorSharedTextures::VulkanDeviceData_t*, IVRRenderer*, bool)
+ t CVRSharedGLTexture::CVRSharedGLTexture(CVRCompositorSharedTextures*, bool, unsigned int, unsigned int, unsigned int, unsigned int, CVRCompositorSharedTextures::VulkanDeviceData_t*, IVRRenderer*, bool) [clone .cold]
  t CVRSharedGLTexture::CreateSemaphore()
+ t CVRSharedGLTexture::GetGLProcAddress(char const*)
  t CVRSharedGLTexture::GetHandle()
  t CVRSharedGLTexture::GetSemaphore()
  t CVRSharedGLTexture::GetSize(unsigned int&, unsigned int&)
@@ -17340,7 +17452,6 @@
  t CVRSharedGLTexture::IsSemaphoreInUse(CVRSharedGLTexture::VulkanInteropSemaphore_t*)
  t CVRSharedGLTexture::Update(void*, vr::VRTextureBounds_t*, unsigned int, unsigned int, CVRCompositorSharedTextures::CommandBuffer_t*)
  t CVRSharedGLTexture::~CVRSharedGLTexture()
- t CVRSharedGLTexture::~CVRSharedGLTexture() [clone .part.0]
  t CVRSharedState::BInit(CVRSharedState::SharedStatePermissions, unsigned int, std::string const&, std::string const&, bool)
  t CVRSharedState::BOpen(CVRSharedState::SharedStatePermissions, unsigned int, std::string const&, IPC::CIPCHandle const (&) [2], bool)
  t CVRSharedState::Cleanup()
@@ -17421,6 +17532,155 @@
  t CVRSteamPrivate_005::SetSubviewPosition(unsigned long, int, int)
  t CVRSteamPrivate_005::ShouldKillTheaterPancakeProcess(unsigned int)
  t CVRSteamPrivate_005::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_006::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_006::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_006::GetSteamOverlayFeatureFlags()
+ t CVRSteamPrivate_006::GetWebSharedSecret()
+ t CVRSteamPrivate_006::MicrotxnFinished()
+ t CVRSteamPrivate_006::OculusSDKAppStarted()
+ t CVRSteamPrivate_006::QuitProcess(unsigned int)
+ t CVRSteamPrivate_006::QuitSteamVR()
+ t CVRSteamPrivate_006::SetSubviewPosition(unsigned long, int, int)
+ t CVRSteamPrivate_006::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_006::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_007::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_007::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_007::GetSteamOverlayFeatureFlags()
+ t CVRSteamPrivate_007::GetWebSharedSecret()
+ t CVRSteamPrivate_007::MicrotxnFinished()
+ t CVRSteamPrivate_007::OculusSDKAppStarted()
+ t CVRSteamPrivate_007::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+ t CVRSteamPrivate_007::QuitProcess(unsigned int)
+ t CVRSteamPrivate_007::QuitSteamVR()
+ t CVRSteamPrivate_007::SetSubviewPosition(unsigned long, int, int)
+ t CVRSteamPrivate_007::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_007::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_008::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_008::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_008::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*)
+ t CVRSteamPrivate_008::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
+ t CVRSteamPrivate_008::GetSteamOverlayFeatureFlags()
+ t CVRSteamPrivate_008::GetWebSharedSecret()
+ t CVRSteamPrivate_008::MicrotxnFinished()
+ t CVRSteamPrivate_008::OculusSDKAppStarted()
+ t CVRSteamPrivate_008::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+ t CVRSteamPrivate_008::QuitProcess(unsigned int)
+ t CVRSteamPrivate_008::QuitSteamVR()
+ t CVRSteamPrivate_008::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
+ t CVRSteamPrivate_008::SetSubviewPosition(unsigned long, int, int)
+ t CVRSteamPrivate_008::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_008::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_009::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_009::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_009::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*)
+ t CVRSteamPrivate_009::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
+ t CVRSteamPrivate_009::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
+ t CVRSteamPrivate_009::GetSteamOverlayFeatureFlags()
+ t CVRSteamPrivate_009::GetWebSharedSecret()
+ t CVRSteamPrivate_009::MicrotxnFinished()
+ t CVRSteamPrivate_009::OculusSDKAppStarted()
+ t CVRSteamPrivate_009::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+ t CVRSteamPrivate_009::QuitProcess(unsigned int)
+ t CVRSteamPrivate_009::QuitSteamVR()
+ t CVRSteamPrivate_009::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
+ t CVRSteamPrivate_009::SetSubviewPosition(unsigned long, int, int)
+ t CVRSteamPrivate_009::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_009::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_010::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_010::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_010::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*)
+ t CVRSteamPrivate_010::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
+ t CVRSteamPrivate_010::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
+ t CVRSteamPrivate_010::GetSteamOverlayFeatureFlags()
+ t CVRSteamPrivate_010::GetWebSharedSecret()
+ t CVRSteamPrivate_010::MicrotxnFinished()
+ t CVRSteamPrivate_010::OculusSDKAppStarted()
+ t CVRSteamPrivate_010::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+ t CVRSteamPrivate_010::QuitProcess(unsigned int)
+ t CVRSteamPrivate_010::QuitSteamVR()
+ t CVRSteamPrivate_010::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
+ t CVRSteamPrivate_010::SetSubviewPosition(unsigned long, int, int)
+ t CVRSteamPrivate_010::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_010::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_010::TriggerOverlayHapticEffect(unsigned long, vr::VRHapticEffect)
+ t CVRSteamPrivate_011::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_011::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_011::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*)
+ t CVRSteamPrivate_011::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
+ t CVRSteamPrivate_011::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
+ t CVRSteamPrivate_011::GetSteamOverlayFeatureFlags()
+ t CVRSteamPrivate_011::GetWebSharedSecret()
+ t CVRSteamPrivate_011::MicrotxnFinished()
+ t CVRSteamPrivate_011::OculusSDKAppStarted()
+ t CVRSteamPrivate_011::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+ t CVRSteamPrivate_011::QuitProcess(unsigned int)
+ t CVRSteamPrivate_011::QuitSteamVR()
+ t CVRSteamPrivate_011::SendKeyboardText(char const*)
+ t CVRSteamPrivate_011::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
+ t CVRSteamPrivate_011::SetSubviewPosition(unsigned long, int, int)
+ t CVRSteamPrivate_011::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_011::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_011::TriggerOverlayHapticEffect(unsigned long, vr::VRHapticEffect)
+ t CVRSteamPrivate_012::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_012::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_012::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*)
+ t CVRSteamPrivate_012::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
+ t CVRSteamPrivate_012::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
+ t CVRSteamPrivate_012::GetSteamOverlayFeatureFlags()
+ t CVRSteamPrivate_012::GetWebSharedSecret()
+ t CVRSteamPrivate_012::MicrotxnFinished()
+ t CVRSteamPrivate_012::OculusSDKAppStarted()
+ t CVRSteamPrivate_012::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+ t CVRSteamPrivate_012::QuitProcess(unsigned int)
+ t CVRSteamPrivate_012::QuitSteamVR()
+ t CVRSteamPrivate_012::SendKeyboardDone()
+ t CVRSteamPrivate_012::SendKeyboardText(char const*)
+ t CVRSteamPrivate_012::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
+ t CVRSteamPrivate_012::SetSubviewPosition(unsigned long, int, int)
+ t CVRSteamPrivate_012::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_012::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_012::TriggerOverlayHapticEffect(unsigned long, vr::VRHapticEffect)
+ t CVRSteamPrivate_013::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_013::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_013::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*)
+ t CVRSteamPrivate_013::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
+ t CVRSteamPrivate_013::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
+ t CVRSteamPrivate_013::GetSteamOverlayFeatureFlags()
+ t CVRSteamPrivate_013::GetWebSharedSecret()
+ t CVRSteamPrivate_013::MicrotxnFinished()
+ t CVRSteamPrivate_013::OculusSDKAppStarted()
+ t CVRSteamPrivate_013::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+ t CVRSteamPrivate_013::QuitProcess(unsigned int)
+ t CVRSteamPrivate_013::QuitSteamVR()
+ t CVRSteamPrivate_013::SendKeyboardDone()
+ t CVRSteamPrivate_013::SendKeyboardText(char const*)
+ t CVRSteamPrivate_013::SetKeyboardImplementationOverlay(vr::EVRKeyboardImplementation, unsigned long)
+ t CVRSteamPrivate_013::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
+ t CVRSteamPrivate_013::SetSubviewPosition(unsigned long, int, int)
+ t CVRSteamPrivate_013::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_013::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_013::TriggerOverlayHapticEffect(unsigned long, vr::VRHapticEffect)
+ t CVRSteamPrivate_014::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
+ t CVRSteamPrivate_014::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+ t CVRSteamPrivate_014::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*)
+ t CVRSteamPrivate_014::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
+ t CVRSteamPrivate_014::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
+ t CVRSteamPrivate_014::GetSteamOverlayFeatureFlags()
+ t CVRSteamPrivate_014::GetWebSharedSecret()
+ t CVRSteamPrivate_014::MicrotxnFinished()
+ t CVRSteamPrivate_014::OculusSDKAppStarted()
+ t CVRSteamPrivate_014::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+ t CVRSteamPrivate_014::PropertyContainerToTrackedDevice(unsigned long)
+ t CVRSteamPrivate_014::QuitProcess(unsigned int)
+ t CVRSteamPrivate_014::QuitSteamVR()
+ t CVRSteamPrivate_014::SendKeyboardDone()
+ t CVRSteamPrivate_014::SendKeyboardText(char const*)
+ t CVRSteamPrivate_014::SetKeyboardImplementationOverlay(vr::EVRKeyboardImplementation, unsigned long)
+ t CVRSteamPrivate_014::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
+ t CVRSteamPrivate_014::SetSubviewPosition(unsigned long, int, int)
+ t CVRSteamPrivate_014::ShouldKillTheaterPancakeProcess(unsigned int)
+ t CVRSteamPrivate_014::ShouldSetAsOpenXrRuntime()
+ t CVRSteamPrivate_014::TriggerOverlayHapticEffect(unsigned long, vr::VRHapticEffect)
  t CVRSystemLatest::AcknowledgeQuit_Exiting()
  t CVRSystemLatest::AcknowledgeQuit_Exiting() [clone .cold]
  t CVRSystemLatest::AddSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
@@ -17532,11 +17792,12 @@
  t CVRSystemLatest::IsTrackedDeviceValid(unsigned int)
  t CVRSystemLatest::PerformFirmwareUpdate(unsigned int)
  t CVRSystemLatest::PollNextEvent(vr::VREvent_t*, unsigned int)
+ t CVRSystemLatest::PollNextEventInternal(vr::VREvent_t*, unsigned int, unsigned int*)
  t CVRSystemLatest::PollNextEventWithPose(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*)
- t CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long)
- t CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long) [clone .cold]
- t CVRSystemLatest::PollNextEventWithPoseWrapper(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long)
- t CVRSystemLatest::PollNextEventWithPoseWrapper(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long) [clone .cold]
+ t CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*)
+ t CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*) [clone .cold]
+ t CVRSystemLatest::PollNextEventWithPoseWrapper(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*)
+ t CVRSystemLatest::PollNextEventWithPoseWrapper(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*) [clone .cold]
  t CVRSystemLatest::PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int)
  t CVRSystemLatest::PostDriverEvent(vr::VREvent_t const&, unsigned int)
  t CVRSystemLatest::PostGlobalEvent(vr::VREvent_t const&, unsigned int)
@@ -18592,7 +18853,7 @@
  t CVkAllocator::ImportBuffer(VkBufferSharedData_t const&, char const*)
  t CVkAllocator::ImportImage(VkImageSharedData_t const&, char const*)
  t CVkAllocator::Initialize()
- t CVkBuffer::CmdCopyBuffer(CVkCommandBuffer*, CVkBuffer*, unsigned long)
+ t CVkBuffer::CmdCopyBuffer(CVkCommandBuffer*, CVkBuffer*, unsigned long, unsigned long)
  t CVkBuffer::CmdCopyImageToBuffer(CVkCommandBuffer*, CVkImage*, unsigned int, VkImageLayout)
  t CVkBuffer::CmdPipelineBarrier(CVkCommandBuffer*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, unsigned long)
  t CVkBuffer::PrepareForExport(VkBufferSharedData_t&, unsigned int)
@@ -18778,7 +19039,6 @@
  t CVulkanVRRenderer::CreateConstantBuffer(unsigned int, unsigned long*, VRRenderer::BufferUsage, unsigned int, bool)
  t CVulkanVRRenderer::CreateConstantBuffer(unsigned int, unsigned long*, VRRenderer::BufferUsage, unsigned int, bool) [clone .cold]
  t CVulkanVRRenderer::CreateDepthStencilState(VRRenderer::DepthStencilStateCreateInfo*)
- t CVulkanVRRenderer::CreateDynamicVertexBuffer(unsigned int, unsigned long*)
  t CVulkanVRRenderer::CreateEventQuery()
  t CVulkanVRRenderer::CreateGPUCountingSemaphore(unsigned long*, unsigned int)
  t CVulkanVRRenderer::CreateGPUCountingSemaphore(unsigned long*, unsigned int) [clone .cold]
@@ -18786,6 +19046,7 @@
  t CVulkanVRRenderer::CreateGPUSemaphore(unsigned long*, bool) [clone .cold]
  t CVulkanVRRenderer::CreateIndexBuffer(unsigned int, unsigned long*)
  t CVulkanVRRenderer::CreateIndexBuffer(unsigned int, unsigned long*) [clone .cold]
+ t CVulkanVRRenderer::CreateRWStructuredBuffer(unsigned int, void*)
  t CVulkanVRRenderer::CreateRasterizerState(VRRenderer::RasterizerStateCreateInfo*)
  t CVulkanVRRenderer::CreateSampler(VRRenderer::SamplerCreateInfo*)
  t CVulkanVRRenderer::CreateTexture(unsigned int, unsigned int, VRRenderer::TextureCreateInfo*)
@@ -18864,6 +19125,7 @@
  t CVulkanVRRenderer::ReleaseGPUSemaphore(VRRenderer::GPUSemaphoreBase**)
  t CVulkanVRRenderer::ReleaseGPUSemaphoreSharedResource(vr::IVRSharedSemaphore**)
  t CVulkanVRRenderer::ReleaseIndexBuffer(VRRenderer::IndexBufferBase**)
+ t CVulkanVRRenderer::ReleaseRWStructuredBuffer(VRRenderer::RWStructuredBufferBase**)
  t CVulkanVRRenderer::ReleaseRasterizerState(VRRenderer::RasterizerStateBase**)
  t CVulkanVRRenderer::ReleaseSampler(VRRenderer::SamplerBase**)
  t CVulkanVRRenderer::ReleaseSync(unsigned long)
@@ -18899,7 +19161,7 @@
  t CVulkanVRRenderer::UpdateGPUTimingCurrentCommandBuffer()
  t CVulkanVRRenderer::UpdateIndexBuffer(VRRenderer::IndexBufferBase*, void const*)
  t CVulkanVRRenderer::UpdateTexture(VRRenderer::TextureBase*, void const*, bool)
- t CVulkanVRRenderer::UpdateVertexBuffer(VRRenderer::VertexBufferBase*, void const*)
+ t CVulkanVRRenderer::UpdateVertexBuffer(VRRenderer::VertexBufferBase*, void const*, unsigned int)
  t CVulkanVRRenderer::Wait(VRRenderer::GPUCountingSemaphoreBase*, unsigned long, VRRenderer::QueueMode)
  t CVulkanVRRenderer::WaitForPresent()
  t CVulkanVRRenderer::WriteToDebugPngFile(VRRenderer::TextureBase*, std::string const&)
@@ -18942,15 +19204,17 @@
  t CleanupSharedResourceNamespace()
  t ClearChaperoneCaches()
  t ClearChaperoneData()
- t CloseKeyboard(TVRSharedState<VRSystemLayerState_t, false>*)
- t CloseKeyboard(TVRSharedState<VRSystemLayerState_t, false>*) [clone .cold]
+ t ClearOverlayTextureInternal(VRSystemLayerState_t*, unsigned long, bool)
+ t ClearOverlayTextureInternal(VRSystemLayerState_t*, unsigned long, bool) [clone .cold]
+ t CloseKeyboard(VRSystemLayerState_t*)
+ t CloseKeyboard(VRSystemLayerState_t*) [clone .cold]
  t CloseLog()
  t CollapseActionValues(std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t> > const&, std::function<bool (unsigned long)>)
  t CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&)
  t CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
  t CollapseInputValues(std::vector<VRInputValue_t, std::allocator<VRInputValue_t> > const&, bool)
  t CompareTrackedDeviceEntry(void const*, void const*)
- t ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_004, &k_pchDriverDirectModeComponentPrefix, 4, CVRDriverDirectModeComponent_004, CVRDriverDirectModeComponent_003>::CreateAdapter(void*, std::string const&)
+ t ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_003, &k_pchDriverDirectModeComponentPrefix, 3, CVRDriverDirectModeComponent_003, CVRDriverDirectModeComponent_002>::CreateAdapter(void*, std::string const&)
  t ComponentAdapterBaseWithParent<vr::IVRCameraComponent, &k_pchCameraComponentPrefix, 3, CVRCameraComponent_Latest, CVRCameraComponent_002>::CreateAdapter(void*, std::string const&)
  t ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_007>::CreateAdapter(void*, std::string const&)
  t ComposeDpadInputPath(std::string, std::string, std::string, std::string)
@@ -19007,7 +19271,9 @@
  t ComputeBindingCachePath(std::string const&, std::string const&) [clone .cold]
  t ComputeConeLineIntersection(vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, float, float*, float*)
  t ComputeOverlayIntersectionInternal(OverlayTransformDetails_t const&, vr::HmdVector3_t, vr::HmdVector3_t, vr::HmdVector2_t*, vr::HmdVector3_t*, vr::HmdVector3_t*, float*)
+ t ComputeOverlayPositionFromTextureUV(OverlayTransformDetails_t const&, vr::HmdVector2_t const&, vr::HmdVector3_t&)
  t ComputePaddedSize(unsigned int)
+ t ComputePanelFromOverlayUV(OverlayTransformDetails_t const&, vr::HmdVector2_t const&)
  t ComputeParallelProjection(vr::HmdMatrix33_t const&, float*, float*, float*, float*)
  t ComputeReadEventName(std::string const&, unsigned int)
  t ComputeReadEventName(std::string const&, unsigned int) [clone .cold]
@@ -19056,6 +19322,8 @@
  t DebugDriverLog(char const*, ...)
  t DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
  t DeclareCurrentThreadIsMainThread
+ t DestroyOverlayInternal(VRSystemLayerState_t*, unsigned long, bool)
+ t DestroyOverlayInternal(VRSystemLayerState_t*, unsigned long, bool) [clone .cold]
  t DirectX::XMMatrixInverse(DirectX::__vector4*, DirectX::XMMATRIX const&)
  t DriverCompare(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)
  t DriverLog(char const*, ...)
@@ -19119,6 +19387,7 @@
  t GetApplicationStringPropertyFromManifest(vr::EVRApplicationProperty, CVRMsg_ApplicationInfo_Manifest const&, vr::EVRApplicationError*, std::string&)
  t GetBacktraceStrings(std::vector<std::string, std::allocator<std::string> >&) [clone .constprop.0]
  t GetBacktraceStrings(std::vector<std::string, std::allocator<std::string> >&) [clone .constprop.0] [clone .cold]
+ t GetBestKeyboardImplementation(VRSystemLayerState_t*)
  t GetCommandLineArguments(std::vector<std::string, std::allocator<std::string> >&)
  t GetCommandLineArguments(std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
  t GetCommandOutput(std::string const&, std::string*, std::string*)
@@ -19142,6 +19411,7 @@
  t GetExtensionsAsVector(char const*, unsigned int, std::vector<std::string, std::allocator<std::string> >&) [clone .constprop.0] [clone .cold]
  t GetFileCreateTime(char const*, long*)
  t GetFileLength(char const*)
+ t GetFileWriteTime(char const*, long*)
  t GetFilenameTimeString()
  t GetGMUnixTime()
  t GetGMUnixTimeAtNextLocalTime(unsigned long, int, int, int)
@@ -19159,6 +19429,11 @@
  t GetInputSourceType(Json::Value const&, std::string)
  t GetInputSourceType(Json::Value const&, std::string) [clone .cold]
  t GetInputValueVisibilityFromString(char const*)
+ t GetKeyboardOverlay(VRSystemLayerState_t const*, vr::EVROverlayError*)
+ t GetKeyboardOverlay(VRSystemLayerState_t*, vr::EVROverlayError*)
+ t GetKeyboardOverlayHandle(VRSystemLayerState_t const*)
+ t GetKeyboardOverlayIndex(VRSystemLayerState_t const*, vr::EVROverlayError*)
+ t GetKeyboardStatus(VRSystemLayerState_t*, bool*, vr::EKeyboardFlags*)
  t GetLinuxBaseManifestPath()
  t GetLinuxBaseManifestPath() [clone .cold]
  t GetManifestPath()
@@ -22266,8 +22541,8 @@
  t IsOSUserAdmin()
  t IsOnLaptop()
  t IsOnMainBranch()
- t IsOverlayVisibleInternal(VRCompositor_OverlayState_t const&)
- t IsOverlayVisibleInternal(VRCompositor_OverlayState_t const&) [clone .cold]
+ t IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&)
+ t IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&) [clone .cold]
  t IsPosix()
  t IsRunningAsService()
  t IsRunningFromPerforce()
@@ -22805,6 +23080,8 @@
  t NvAPI::WaitForPresent(void*, unsigned int, unsigned int*)
  t NvAPI::WaitForVBlank(void*, unsigned int)
  t OSWaitForDebugger()
+ t OpenKeyboard(VRSystemLayerState_t*, unsigned long, EKeyboardState, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, char const*, unsigned int, char const*, unsigned int, unsigned long)
+ t OpenKeyboard(VRSystemLayerState_t*, unsigned long, EKeyboardState, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, char const*, unsigned int, char const*, unsigned int, unsigned long) [clone .cold]
  t OpenURL(char const*)
  t OpenURL(char const*) [clone .cold]
  t OpenVR_EnsurePathRegistryIntact(std::vector<std::string, std::allocator<std::string> >*)
@@ -23006,8 +23283,10 @@
  t SetEnvironmentVariable(char const*, char const*)
  t SetExtendedStorage(PropertyTableEntry_t*, unsigned int, unsigned int, unsigned int)
  t SetInitErrorIfHigherPriority(vr::EVRInitError*, int*, vr::EVRInitError)
+ t SetKeyboardImplementationOverlay(VRSystemLayerState_t*, vr::EVRKeyboardImplementation, unsigned long)
  t SetMaxLogLevel(ELogLevel)
  t SetOverlayFlagInternal(VRSystemLayerState_t*, unsigned long, vr::VROverlayFlags, bool)
+ t SetOverlayInteractionAffordanceInternal(VRSystemLayerState_t*, unsigned long, vr::VROverlayInteractionAffordances, bool)
  t SetOverlayTransformAbsoluteInternal(VRSystemLayerState_t*, unsigned long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*)
  t SetOverlayTransformTrackedDeviceRelativeInternal(VRSystemLayerState_t*, unsigned long, unsigned int, vr::HmdMatrix34_t const*)
  t SetProcessSchedulingPriorityClassRealtime(unsigned int)
@@ -23059,6 +23338,24 @@
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_004>::~SteamPrivateInterfaceRegistration()
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>::GetInterface()
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_006>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_006>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_007>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_007>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_008>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_008>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_009>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_009>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_010>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_010>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_011>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_011>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_012>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_012>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_013>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_013>::~SteamPrivateInterfaceRegistration()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_014>::GetInterface()
+ t SteamPrivateInterfaceRegistration<CVRSteamPrivate_014>::~SteamPrivateInterfaceRegistration()
  t SteamVRVersionAsString()
  t SteamVRVersionAsString() [clone .cold]
  t StringHasPrefix(std::string const&, std::string const&)
@@ -23170,6 +23467,8 @@
  t UnixTimeToDateAndTimeString(unsigned long)
  t UnixTimeToDateString(unsigned long)
  t UnlinkFile(char const*)
+ t UseKeyboardImplementation(VRSystemLayerState_t*, vr::EVRKeyboardImplementation)
+ t UseKeyboardImplementationInternal(VRSystemLayerState_t*, unsigned long)
  t VKDebugMessageCallback(unsigned int, VkDebugReportObjectTypeEXT, unsigned long, unsigned long, int, char const*, char const*, void*)
  t VRCompositor_OverlayBase_t::VRCompositor_OverlayBase_t()
  t VRCompositor_OverlayState_t::VRCompositor_OverlayState_t()
@@ -23879,9 +24178,11 @@
  t _GLOBAL__sub_I_vrinput.cpp
  t _GLOBAL__sub_I_vrinputsharedstate.cpp
  t _GLOBAL__sub_I_vriobuffer.cpp
+ t _GLOBAL__sub_I_vrkeyboard.cpp
  t _GLOBAL__sub_I_vrlog.cpp
  t _GLOBAL__sub_I_vrmailbox.cpp
  t _GLOBAL__sub_I_vrmailboxclient.cpp
+ t _GLOBAL__sub_I_vrmessageoverlaysharedstate.cpp
  t _GLOBAL__sub_I_vrnotifications.cpp
  t _GLOBAL__sub_I_vroverlay.cpp
  t _GLOBAL__sub_I_vroverlayinternal.cpp
@@ -23890,9 +24191,11 @@
  t _GLOBAL__sub_I_vrsettings.cpp
  t _GLOBAL__sub_I_vrspatialanchors.cpp
  t _GLOBAL__sub_I_vrsteamprivate.cpp
+ t _GLOBAL__sub_I_vrsystem.cpp
  t _GLOBAL__sub_I_vrsystemlayersharedstate.cpp
  t _GLOBAL__sub_I_vulkan.cpp
  t _GLOBAL__sub_I_vulkan.cpp.cold
+ t _GLOBAL__sub_I_vulkandevice.cpp
  t _GLOBAL__sub_I_vulkanrenderer.cpp
  t _GLOBAL__sub_I_vulkantools.cpp
  t _GLOBAL__sub_I_wire_format.cc
@@ -23960,6 +24263,8 @@
  t __register_frame_table
  t __tcf_0
  t __tcf_1
+ t __tcf_2
+ t __tcf_3
  t _findclose(long)
  t _findfirst(char const*, _finddata_t*)
  t _findnext(long, _finddata_t*)
@@ -23967,6 +24272,7 @@
  t _init
  t add_fdes
  t add_fdes.cold
+ t atexit
  t bf_read::CheckReadUBitLong(int)
  t bf_read::CompareBitsAt(int, bf_read*, int, int)
  t bf_read::ExciseBits(int, int)
@@ -24185,6 +24491,7 @@
  t classify_object_over_fdes
  t classify_object_over_fdes.cold
  t crc32(unsigned int, void const*, unsigned long)
+ t cryptor::string_encryptor<16ul>::decrypt() const
  t cryptor::string_encryptor<3ul>::decrypt() const
  t cryptor::string_encryptor<7ul>::decrypt() const
  t deregister_tm_clones
@@ -24561,6 +24868,8 @@
  t non-virtual thunk to CPathManager_Server::AliasRootAndLeafToFullPath(unsigned long, unsigned long)
  t non-virtual thunk to CPathManager_Server::GetAllPathHandles() const
  t non-virtual thunk to CPathManager_Server::PropertyIDToPathHandle(unsigned int)
+ t non-virtual thunk to CPathManager_Server::SuppressServerPathEvents(char const*)
+ t non-virtual thunk to CPathManager_Server::SuppressServerPathEvents(unsigned long)
  t non-virtual thunk to CPropertyManager::CreateFixedSizeContainerForRead(unsigned long*, void const*, unsigned int)
  t non-virtual thunk to CPropertyManager::CreateFixedSizeContainerForWrite(unsigned long*, void*, unsigned int)
  t non-virtual thunk to CPropertyManager::CreatePropertyContainer(unsigned long)
@@ -24665,7 +24974,6 @@
  t non-virtual thunk to CVRCameraComponent_Latest::StopVideoStream()
  t non-virtual thunk to CVRCameraComponent_Latest::~CVRCameraComponent_Latest()
  t non-virtual thunk to CVRChaperoneClient::ApplyZeroPose(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t)
- t non-virtual thunk to CVRChaperoneClient::ClearChaperoneCaches()
  t non-virtual thunk to CVRChaperoneClient::CommitWorkingCopy(vr::EChaperoneConfigFile)
  t non-virtual thunk to CVRChaperoneClient::ExportLiveToBuffer(char*, unsigned int*)
  t non-virtual thunk to CVRChaperoneClient::GetLiveCollisionBoundsInfo(vr::HmdQuad_t*, unsigned int*)
@@ -24693,7 +25001,7 @@
  t non-virtual thunk to CVRChaperoneClient::SetWorkingStandingZeroPoseToRawTrackingPose(vr::HmdMatrix34_t const*)
  t non-virtual thunk to CVRChaperoneClient::ShowWorkingSetPreview()
  t non-virtual thunk to CVRCompositorClient::NewSharedVulkanBuffer(unsigned long, unsigned int, unsigned long*)
- t non-virtual thunk to CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned long*)
+ t non-virtual thunk to CVRCompositorClient::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned long*)
  t non-virtual thunk to CVRCompositorClient::NewSharedVulkanSemaphore(unsigned long*)
  t non-virtual thunk to CVRCompositorClient::PredictPoses(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
  t non-virtual thunk to CVRCompositorClient::PredictRenderedFrame(int, float, float, vr::PredictedFrameInfo_t*)
@@ -24707,6 +25015,7 @@
  t non-virtual thunk to CVRControllerComponent_Latest::TriggerHapticPulse(unsigned int, unsigned short)
  t non-virtual thunk to CVRControllerComponent_Latest::~CVRControllerComponent_Latest()
  t non-virtual thunk to CVRDisplayComponent_Latest::ComputeDistortion(vr::EVREye, float, float)
+ t non-virtual thunk to CVRDisplayComponent_Latest::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
  t non-virtual thunk to CVRDisplayComponent_Latest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
  t non-virtual thunk to CVRDisplayComponent_Latest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
  t non-virtual thunk to CVRDisplayComponent_Latest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
@@ -24770,6 +25079,7 @@
  t non-virtual thunk to CVRInputLatest::GetPerInputTutorialActions(char const*, unsigned long*, vr::PerInputTutorialActions_t*, unsigned int)
  t non-virtual thunk to CVRInputLatest::GetPoseModification(unsigned long, vr::HmdMatrix34_t*)
  t non-virtual thunk to CVRInputLatest::GetPoseModificationFromPath(unsigned long, vr::HmdMatrix34_t*, unsigned int*)
+ t non-virtual thunk to CVRInputLatest::GetPoseModificationRestricted(unsigned long, vr::HmdMatrix34_t*, unsigned long)
  t non-virtual thunk to CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange)
  t non-virtual thunk to CVRInputLatest::IsActionBound(unsigned long)
  t non-virtual thunk to CVRInputLatest::IsInTutorialMode()
@@ -24805,6 +25115,7 @@
  t non-virtual thunk to CVRSystemLatest::HasRemoteFrameTiming()
  t non-virtual thunk to CVRSystemLatest::HasSystemBehaviorFlag(EVRInternalSystemBehaviorFlags)
  t non-virtual thunk to CVRSystemLatest::HasSystemBehaviorFlag(EVRInternalSystemBehaviorFlags) [clone .cold]
+ t non-virtual thunk to CVRSystemLatest::PollNextEventInternal(vr::VREvent_t*, unsigned int, unsigned int*)
  t non-virtual thunk to CVRSystemLatest::PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int)
  t non-virtual thunk to CVRSystemLatest::PostGlobalEvent(vr::VREvent_t const&, unsigned int)
  t non-virtual thunk to CVRSystemLatest::PostOverlayEvent(unsigned long, vr::VREvent_t const&)
@@ -25047,7 +25358,6 @@
  t std::_Deque_base<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::~_Deque_base()
  t std::_Deque_base<std::string, std::allocator<std::string> >::_M_initialize_map(unsigned long)
  t std::_Deque_base<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t> >::~_Deque_base()
- t std::_Deque_iterator<CVRCompositorSharedTextures::CommandBuffer_t*, CVRCompositorSharedTextures::CommandBuffer_t*&, CVRCompositorSharedTextures::CommandBuffer_t**> std::uninitialized_copy<std::_Deque_iterator<CVRCompositorSharedTextures::CommandBuffer_t*, CVRCompositorSharedTextures::CommandBuffer_t* const&, CVRCompositorSharedTextures::CommandBuffer_t* const*>, std::_Deque_iterator<CVRCompositorSharedTextures::CommandBuffer_t*, CVRCompositorSharedTextures::CommandBuffer_t*&, CVRCompositorSharedTextures::CommandBuffer_t**> >(std::_Deque_iterator<CVRCompositorSharedTextures::CommandBuffer_t*, CVRCompositorSharedTextures::CommandBuffer_t* const&, CVRCompositorSharedTextures::CommandBuffer_t* const*>, std::_Deque_iterator<CVRCompositorSharedTextures::CommandBuffer_t*, CVRCompositorSharedTextures::CommandBuffer_t* const&, CVRCompositorSharedTextures::CommandBuffer_t* const*>, std::_Deque_iterator<CVRCompositorSharedTextures::CommandBuffer_t*, CVRCompositorSharedTextures::CommandBuffer_t*&, CVRCompositorSharedTextures::CommandBuffer_t**>)
  t std::_Function_base::~_Function_base()
  t std::_Function_handler<XrResult (XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*), sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}>::_M_invoke(std::_Any_data const&, XrAction_T*&&, unsigned long&&, XrActionStateBoolean*&&, unsigned long*&&)
  t std::_Function_handler<XrResult (XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*), sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
@@ -25323,6 +25633,7 @@
  t std::_Rb_tree<tinyobj::vertex_index, std::pair<tinyobj::vertex_index const, unsigned int>, std::_Select1st<std::pair<tinyobj::vertex_index const, unsigned int> >, std::less<tinyobj::vertex_index>, std::allocator<std::pair<tinyobj::vertex_index const, unsigned int> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<tinyobj::vertex_index const, unsigned int> >, tinyobj::vertex_index const&)
  t std::_Rb_tree<tinyobj::vertex_index, std::pair<tinyobj::vertex_index const, unsigned int>, std::_Select1st<std::pair<tinyobj::vertex_index const, unsigned int> >, std::less<tinyobj::vertex_index>, std::allocator<std::pair<tinyobj::vertex_index const, unsigned int> > >::_M_get_insert_unique_pos(tinyobj::vertex_index const&)
  t std::_Rb_tree<tinyobj::vertex_index, std::pair<tinyobj::vertex_index const, unsigned int>, std::_Select1st<std::pair<tinyobj::vertex_index const, unsigned int> >, std::less<tinyobj::vertex_index>, std::allocator<std::pair<tinyobj::vertex_index const, unsigned int> > >::find(tinyobj::vertex_index const&)
+ t std::_Rb_tree<unsigned int*, unsigned int*, std::_Identity<unsigned int*>, std::less<unsigned int*>, std::allocator<unsigned int*> >::_M_erase(std::_Rb_tree_node<unsigned int*>*)
  t std::_Rb_tree<unsigned int, std::pair<unsigned int const, unsigned long>, std::_Select1st<std::pair<unsigned int const, unsigned long> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, unsigned long> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned int const, unsigned long> >*) [clone .isra.0]
  t std::_Rb_tree<unsigned int, std::pair<unsigned int const, unsigned long>, std::_Select1st<std::pair<unsigned int const, unsigned long> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, unsigned long> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned int const, unsigned long> >, unsigned int const&)
  t std::_Rb_tree<unsigned int, std::pair<unsigned int const, unsigned long>, std::_Select1st<std::pair<unsigned int const, unsigned long> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, unsigned long> > >::_M_get_insert_unique_pos(unsigned int const&)
@@ -25707,6 +26018,7 @@
  t std::deque<CAnimPose*, std::allocator<CAnimPose*> >::_M_reallocate_map(unsigned long, bool)
  t std::deque<CSxrInstance::XrEvent_t, std::allocator<CSxrInstance::XrEvent_t> >::_M_destroy_data(std::_Deque_iterator<CSxrInstance::XrEvent_t, CSxrInstance::XrEvent_t&, CSxrInstance::XrEvent_t*>, std::_Deque_iterator<CSxrInstance::XrEvent_t, CSxrInstance::XrEvent_t&, CSxrInstance::XrEvent_t*>, std::allocator<CSxrInstance::XrEvent_t> const&) [clone .isra.0]
  t std::deque<CSxrInstance::XrEvent_t, std::allocator<CSxrInstance::XrEvent_t> >::_M_erase(std::_Deque_iterator<CSxrInstance::XrEvent_t, CSxrInstance::XrEvent_t&, CSxrInstance::XrEvent_t*>, std::_Deque_iterator<CSxrInstance::XrEvent_t, CSxrInstance::XrEvent_t&, CSxrInstance::XrEvent_t*>)
+ t std::deque<CVRCompositorSharedTextures::CommandBuffer_t*, std::allocator<CVRCompositorSharedTextures::CommandBuffer_t*> >::deque(std::deque<CVRCompositorSharedTextures::CommandBuffer_t*, std::allocator<CVRCompositorSharedTextures::CommandBuffer_t*> > const&)
  t std::deque<CVkCommandBuffer*, std::allocator<CVkCommandBuffer*> >::_M_reallocate_map(unsigned long, bool)
  t std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_default_append(unsigned long)
  t std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_destroy_data_aux(std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>, std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>) [clone .isra.0]
@@ -25775,6 +26087,7 @@
  t std::pair<std::_Rb_tree_iterator<std::pair<unsigned long const, unsigned int> >, bool> std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned int>, std::_Select1st<std::pair<unsigned long const, unsigned int> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned int> > >::_M_emplace_unique<std::pair<unsigned long, unsigned int> >(std::pair<unsigned long, unsigned int>&&)
  t std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_insert_unique<std::string const&>(std::string const&)
  t std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_insert_unique<std::string>(std::string&&)
+ t std::pair<std::_Rb_tree_iterator<unsigned int*>, bool> std::_Rb_tree<unsigned int*, unsigned int*, std::_Identity<unsigned int*>, std::less<unsigned int*>, std::allocator<unsigned int*> >::_M_insert_unique<unsigned int* const&>(unsigned int* const&)
  t std::pair<std::_Rb_tree_iterator<unsigned long>, bool> std::_Rb_tree<unsigned long, unsigned long, std::_Identity<unsigned long>, std::less<unsigned long>, std::allocator<unsigned long> >::_M_insert_unique<unsigned long const&>(unsigned long const&)
  t std::pair<std::__detail::_Node_iterator<std::pair<std::string const, CVkExtensionEntry>, false, true>, bool> std::_Hashtable<std::string, std::pair<std::string const, CVkExtensionEntry>, std::allocator<std::pair<std::string const, CVkExtensionEntry> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_emplace<char const*&, char const*&>(std::integral_constant<bool, true>, char const*&, char const*&) [clone .isra.0]
  t std::pair<std::__detail::_Node_iterator<std::pair<std::string const, CVkExtensionEntry>, false, true>, bool> std::_Hashtable<std::string, std::pair<std::string const, CVkExtensionEntry>, std::allocator<std::pair<std::string const, CVkExtensionEntry> >, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_emplace<char const*&, char const*&>(std::integral_constant<bool, true>, char const*&, char const*&) [clone .isra.0] [clone .cold]
@@ -26027,6 +26340,8 @@
  t sxr_wrap_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)()) [clone .cold]
  t sxr_wrap_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*)
  t sxr_wrap_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*) [clone .cold]
+ t sxr_wrap_xrGetOpenGLESGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLESKHR*)
+ t sxr_wrap_xrGetOpenGLESGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLESKHR*) [clone .cold]
  t sxr_wrap_xrGetOpenGLGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLKHR*)
  t sxr_wrap_xrGetOpenGLGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLKHR*) [clone .cold]
  t sxr_wrap_xrGetReferenceSpaceBoundsRect(XrSession_T*, XrReferenceSpaceType, XrExtent2Df*)
@@ -26154,6 +26469,7 @@
  t sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())
  t sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)()) [clone .cold]
  t sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*)
+ t sxr_xrGetOpenGLESGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLESKHR*)
  t sxr_xrGetOpenGLGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLKHR*)
  t sxr_xrGetReferenceSpaceBoundsRect(XrSession_T*, XrReferenceSpaceType, XrExtent2Df*)
  t sxr_xrGetSystem(XrInstance_T*, XrSystemGetInfo const*, unsigned long*)
@@ -26460,6 +26776,8 @@
  t virtual thunk to CSharedImageLinux::GetFormat() const [clone .cold]
  t virtual thunk to CSharedImageLinux::GetHeight() const
  t virtual thunk to CSharedImageLinux::GetHeight() const [clone .cold]
+ t virtual thunk to CSharedImageLinux::GetMipLevels() const
+ t virtual thunk to CSharedImageLinux::GetMipLevels() const [clone .cold]
  t virtual thunk to CSharedImageLinux::GetOGLTexture()
  t virtual thunk to CSharedImageLinux::GetType() const
  t virtual thunk to CSharedImageLinux::GetUsage() const
@@ -26487,7 +26805,7 @@
  t virtual thunk to CSharedImageLinux::IsRenderable() const
  t virtual thunk to CSharedImageLinux::IsRenderable() const [clone .cold]
  t virtual thunk to CSharedImageLinux::PrepareForInterop()
- t virtual thunk to CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
+ t virtual thunk to CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
  t virtual thunk to CSharedImageLinux::SetVulkanLayout(VkImageLayout)
  t virtual thunk to CSharedImageLinux::SetVulkanLayout(VkImageLayout) [clone .cold]
  t virtual thunk to CSharedImageLinux::SetVulkanQueueIndex(unsigned int)
@@ -26956,6 +27274,7 @@
  t vr::CVROverlayInternalLatest::CVROverlayInternalLatest()
  t vr::CVROverlayInternalLatest::Cleanup()
  t vr::CVROverlayInternalLatest::CloseKeyboard()
+ t vr::CVROverlayInternalLatest::CloseKeyboard() [clone .cold]
  t vr::CVROverlayInternalLatest::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
  t vr::CVROverlayInternalLatest::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*) [clone .cold]
  t vr::CVROverlayInternalLatest::FreeToastImageMemory(vr::DashboardNotificationInfo_t*)
@@ -26963,15 +27282,21 @@
  t vr::CVROverlayInternalLatest::GetAllOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
  t vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int)
  t vr::CVROverlayInternalLatest::GetDashboardOverlays(vr::DashboardOverlayState_t*, unsigned int) [clone .cold]
- t vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int)
- t vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int) [clone .cold]
+ t vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int, bool*)
+ t vr::CVROverlayInternalLatest::GetKeyboardInputType(vr::EGamepadTextInputMode*, vr::EGamepadTextInputLineMode*, unsigned int*, unsigned int*, char*, int, bool*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetKeyboardOwnerOverlay(unsigned long*)
  t vr::CVROverlayInternalLatest::GetKeyboardOwnerOverlay(unsigned long*) [clone .cold]
+ t vr::CVROverlayInternalLatest::GetKeyboardStatus(bool*, vr::EKeyboardFlags*)
+ t vr::CVROverlayInternalLatest::GetKeyboardStatus(bool*, vr::EKeyboardFlags*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetMessageOverlayDetails(vr::VRMessageOverlayMessageDetails*)
  t vr::CVROverlayInternalLatest::GetMessageOverlayDetails(vr::VRMessageOverlayMessageDetails*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetNightModeEnabled(bool*)
  t vr::CVROverlayInternalLatest::GetNightModeEnabled(bool*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetNotificationPriority(char const*, unsigned int*)
+ t vr::CVROverlayInternalLatest::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*)
+ t vr::CVROverlayInternalLatest::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*) [clone .cold]
+ t vr::CVROverlayInternalLatest::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
+ t vr::CVROverlayInternalLatest::GetOverlayInteractionAffordances(unsigned long, unsigned int*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long)
  t vr::CVROverlayInternalLatest::GetParentHandleForOverlayHandle(unsigned long) [clone .cold]
  t vr::CVROverlayInternalLatest::GetPassthroughPortalEnabled()
@@ -26990,6 +27315,8 @@
  t vr::CVROverlayInternalLatest::HideDashboard(char const*) [clone .cold]
  t vr::CVROverlayInternalLatest::IsCameraRoomViewVisible()
  t vr::CVROverlayInternalLatest::IsCameraRoomViewVisible() [clone .cold]
+ t vr::CVROverlayInternalLatest::IsOverlayVisible(unsigned long, bool*, vr::EOverlayVisibilityFlags*)
+ t vr::CVROverlayInternalLatest::IsOverlayVisible(unsigned long, bool*, vr::EOverlayVisibilityFlags*) [clone .cold]
  t vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayResponse)
  t vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayResponse) [clone .cold]
  t vr::CVROverlayInternalLatest::SendKeyboardDone()
@@ -27001,13 +27328,15 @@
  t vr::CVROverlayInternalLatest::SetDashboardOverlayTextureRotation(unsigned long, float) [clone .cold]
  t vr::CVROverlayInternalLatest::SetDeprecatedSystemOverlayTransformType(unsigned long)
  t vr::CVROverlayInternalLatest::SetDeprecatedSystemOverlayTransformType(unsigned long) [clone .cold]
- t vr::CVROverlayInternalLatest::SetKeyboardOverlayHandle(unsigned long)
- t vr::CVROverlayInternalLatest::SetKeyboardOverlayHandle(unsigned long) [clone .cold]
+ t vr::CVROverlayInternalLatest::SetKeyboardImplementationOverlay(vr::EVRKeyboardImplementation, unsigned long)
+ t vr::CVROverlayInternalLatest::SetKeyboardImplementationOverlay(vr::EVRKeyboardImplementation, unsigned long) [clone .cold]
  t vr::CVROverlayInternalLatest::SetKeyboardResultText(char const*)
  t vr::CVROverlayInternalLatest::SetKeyboardResultText(char const*) [clone .cold]
  t vr::CVROverlayInternalLatest::SetNightModeEnabled(bool)
  t vr::CVROverlayInternalLatest::SetNightModeEnabled(bool) [clone .cold]
  t vr::CVROverlayInternalLatest::SetNotificationPriority(char const*, unsigned int)
+ t vr::CVROverlayInternalLatest::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
+ t vr::CVROverlayInternalLatest::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool) [clone .cold]
  t vr::CVROverlayInternalLatest::SetOverlayStereoscopy(unsigned long, EOverlayStereoscopy)
  t vr::CVROverlayInternalLatest::SetOverlayStereoscopy(unsigned long, EOverlayStereoscopy) [clone .cold]
  t vr::CVROverlayInternalLatest::SetPassthroughPortalEnabled(bool)
@@ -27018,6 +27347,7 @@
  t vr::CVROverlayInternalLatest::SetToastOverlayRendererToThis() [clone .cold]
  t vr::CVROverlayInternalLatest::ToggleCameraRoomView()
  t vr::CVROverlayInternalLatest::ToggleCameraRoomView() [clone .cold]
+ t vr::CVROverlayInternalLatest::TriggerOverlayHapticEffect(unsigned long, vr::VRHapticEffect)
  t vr::CVROverlayInternalLatest::~CVROverlayInternalLatest()
  t vr::CVRPathHelpers::GetStringPath(unsigned long, unsigned long, vr::ETrackedPropertyError*)
  t vr::CVRPathHelpers::HandleToString(unsigned long, std::string*)
@@ -27059,16 +27389,28 @@
  t vr::CVRSteamPrivateLatest::CreateSubviewOverlay(unsigned long, char const*, char const*, unsigned long*)
  t vr::CVRSteamPrivateLatest::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
  t vr::CVRSteamPrivateLatest::GameActionTaskChange(unsigned int, char const*, char const*, char const*) [clone .cold]
+ t vr::CVRSteamPrivateLatest::GetKeyboardStatus(bool*, vr::EKeyboardFlags*)
+ t vr::CVRSteamPrivateLatest::GetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool*)
+ t vr::CVRSteamPrivateLatest::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
+ t vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
+ t vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int) [clone .cold]
  t vr::CVRSteamPrivateLatest::GetSteamOverlayFeatureFlags()
  t vr::CVRSteamPrivateLatest::GetWebSharedSecret()
  t vr::CVRSteamPrivateLatest::MicrotxnFinished()
  t vr::CVRSteamPrivateLatest::OculusSDKAppStarted()
+ t vr::CVRSteamPrivateLatest::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+ t vr::CVRSteamPrivateLatest::PropertyContainerToTrackedDevice(unsigned long)
  t vr::CVRSteamPrivateLatest::QuitProcess(unsigned int)
  t vr::CVRSteamPrivateLatest::QuitSteamVR()
+ t vr::CVRSteamPrivateLatest::SendKeyboardDone()
+ t vr::CVRSteamPrivateLatest::SendKeyboardText(char const*)
+ t vr::CVRSteamPrivateLatest::SetKeyboardImplementationOverlay(vr::EVRKeyboardImplementation, unsigned long)
+ t vr::CVRSteamPrivateLatest::SetOverlayInteractionAffordance(unsigned long, vr::VROverlayInteractionAffordances, bool)
  t vr::CVRSteamPrivateLatest::SetSubviewPosition(unsigned long, int, int)
  t vr::CVRSteamPrivateLatest::ShouldKillTheaterPancakeProcess(unsigned int)
  t vr::CVRSteamPrivateLatest::ShouldKillTheaterPancakeProcess(unsigned int) [clone .cold]
  t vr::CVRSteamPrivateLatest::ShouldSetAsOpenXrRuntime()
+ t vr::CVRSteamPrivateLatest::TriggerOverlayHapticEffect(unsigned long, vr::VRHapticEffect)
  t vr::CVRSteamPrivateLatest::~CVRSteamPrivateLatest()
  t vr::CVRTrackedCamera::AcquireVideoStreamingService(unsigned int, unsigned long*)
  t vr::CVRTrackedCamera::AcquireVideoStreamingService(unsigned int, unsigned long*) [clone .cold]
@@ -27134,6 +27476,8 @@
  t vr::CVRTrackedCamera::~CVRTrackedCamera()
  t vr::ETrackedPropertyError vr::CVRPathHelpers::GetPathAsVector<VRInputValue_t>(unsigned long, unsigned long, unsigned int, std::vector<VRInputValue_t, std::allocator<VRInputValue_t> >*)
  t vr::ETrackedPropertyError vr::CVRPathHelpers::GetPathAsVector<vr::HmdQuad_t>(unsigned long, unsigned long, unsigned int, std::vector<vr::HmdQuad_t, std::allocator<vr::HmdQuad_t> >*)
+ t vr::GetBooleanInput(unsigned long, unsigned long)
+ t vr::GetScalarInput(unsigned long, unsigned long)
  t vr::IVRDriverDirectModeComponent::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
  t vr::IVRDriverDirectModeComponent::DestroySwapTextureSet(unsigned long)
  t vr::IVRDriverDirectModeComponent::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
@@ -27154,13 +27498,14 @@
  t vr::IVRSharedImage::GetVulkanMemoryHandleType() const
  t vr::IVRSharedImage::ImportOGLImage(unsigned long)
  t vr::IVRSharedImage::ImportVulkanImage(VkDevice_T*, unsigned long)
- t vr::IVRSharedImage::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
+ t vr::IVRSharedImage::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
  t vr::IVRSharedResource::CreateFD()
  t vr::IVRSharedSemaphore::GetOGLSemaphore()
  t vr::IVRSharedSemaphore::GetVulkanSemaphore() const
  t vr::IVRSharedSemaphore::ImportVulkanSemaphore(VkDevice_T*, unsigned long)
  t vr::IVRSharedSemaphore::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*)
  t vr::RoundTo(float, unsigned int)
+ t vr::SetBitInBitmask(unsigned int*, unsigned int, bool)
  t vr::VRMessageOverlayMessageDetails::Clear()
  t vr::VRMessageOverlayMessageDetails::CopyTo(vr::VRMessageOverlayMessageDetails&) const
  t vr::VRMessageOverlayMessageDetails::Set(unsigned int, char const*, char const*, char const**)
@@ -27168,6 +27513,7 @@
  t vr_internal::CVRPathHandle::operator unsigned long() const
  t vr_internal::CVRPathHandle::~CVRPathHandle()
  t vr_internal::CVRPathReads::IsValid() const
+ t vr_internal::CVRPathReads::NextBlob(void*, unsigned int, unsigned int)
  t vr_internal::CVRPathReads::NextBool(bool)
  t vr_internal::CVRPathReads::NextDouble(double)
  t vr_internal::CVRPathReads::NextFloat(float)
@@ -27175,8 +27521,27 @@
  t vr_internal::CVRPathReads::NextString(char const*)
  t vr_internal::CVRPathReads::NextUInt64(unsigned long)
  t vr_internal::CVRPathReads::ReadBatch(unsigned long)
+ t vr_internal::CVRPathReads::ReadBatch(unsigned long) [clone .cold]
  t vr_internal::CVRPathReads::ReadBatch(unsigned long, unsigned long const*, unsigned int)
  t vr_internal::CVRPathReads::ReadBatch(unsigned long, vr_internal::CVRPathHandle const*, unsigned int)
+ t vr_internal::CVRPathWrites::CVRPathWrites(unsigned int)
+ t vr_internal::CVRPathWrites::CVRPathWrites(unsigned int) [clone .cold]
+ t vr_internal::CVRPathWrites::CopyToBuffer(char const*)
+ t vr_internal::CVRPathWrites::Push(char const*, bool)
+ t vr_internal::CVRPathWrites::Push(char const*, char const*)
+ t vr_internal::CVRPathWrites::Push(char const*, double)
+ t vr_internal::CVRPathWrites::Push(char const*, float)
+ t vr_internal::CVRPathWrites::Push(char const*, int)
+ t vr_internal::CVRPathWrites::Push(char const*, unsigned long)
+ t vr_internal::CVRPathWrites::Push(unsigned long, bool)
+ t vr_internal::CVRPathWrites::Push(unsigned long, char const*)
+ t vr_internal::CVRPathWrites::Push(unsigned long, double)
+ t vr_internal::CVRPathWrites::Push(unsigned long, float)
+ t vr_internal::CVRPathWrites::Push(unsigned long, int)
+ t vr_internal::CVRPathWrites::Push(unsigned long, unsigned long)
+ t vr_internal::CVRPathWrites::PushWrite(char const*, unsigned int, unsigned int)
+ t vr_internal::CVRPathWrites::PushWrite(unsigned long, unsigned int, unsigned int)
+ t vr_internal::CVRPathWrites::Write(unsigned long)
  t vr_internal::GetResourceFullPath(std::string const&)
  t vr_internal::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
  t vr_internal::VRApplications()

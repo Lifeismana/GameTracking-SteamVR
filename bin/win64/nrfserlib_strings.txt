@@ -15,7 +15,6 @@
    Manufacturer: %s
    Service: %s
  !"#$%6666666666666666666&'()*+,-666666666666666666666666./012345
- $bh>nl:
  %41g
  A^A]A\^]
  A^_^
@@ -119,13 +118,11 @@
 *uXI;
 +9kdt	H
 +Xt@(
-+[yM1
 +o'q)}
 , H5 error count: 
 , defaulting to flow_control::none!
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
-,0S	_
 ,W5y+
 -1e+9999
 -Infinity
@@ -634,16 +631,16 @@
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727202913Z0/
+230714000000Z
+230807192750Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
 3333333
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -687,7 +684,6 @@
 :\u6L
 ;K }DH
 ;Q |	H
-<*J=)
 </u#H
 <0:08
 <= Exiting Context: (%.2f seconds)
@@ -698,6 +694,7 @@
 =rIQU
 >0<0:
 >Mp$d
+>aNLg
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -1148,11 +1145,11 @@ Descriptor discovery failed. (gatt_status: %s)
 Descriptor handle: %d, UUID: 0x%04X
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 Disconnected, reason: %s
 Disconnecting.
@@ -1276,6 +1273,7 @@ H+SpI
 H+WpA
 H+WpH
 H+WpI
+H-^Eu
 H90t#H
 H9Ahs
 H9C s(H
@@ -1518,6 +1516,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSiD
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1738,6 +1737,7 @@ XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
 Y9"SD
+Z(];	
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1841,6 +1841,7 @@ _strupr_s
 `.rdata
 `A_A^A\_^
 `A_A^_^]
+a7hIw
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1867,7 +1868,6 @@ blank
 bootloader
 buffer error
 c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
-cU	F9
 calloc
 close
 cntrl
@@ -1900,6 +1900,7 @@ h5_decode error, code: 0x
 h5_transport is in state 
 h5_transport received ack packet in state 
 hA_A^A\_^]
+hJD`DU?
 hardware
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -1952,6 +1953,7 @@ l$XE3
 l$pM+
 l$pM;
 l$xfD
+l2|X/gGe
 list<T> too long
 lower
 m0k0$
@@ -1967,6 +1969,7 @@ memcpy
 memmove
 memset
 mutex
+nFDL 
 need dictionary
 nrfserlib.dll
 ntelD
@@ -2095,7 +2098,6 @@ strstr
 strtok_s
 strtoul
 system
-sz8Zv
 t$ 92u
 t$ AVH
 t$ AWH

@@ -63,7 +63,6 @@
 ,9k0t%H
 ,9{0t%H
 ,W5y+
-,\Wo-
 -9k0t&H
 -9{0t%H
 -D9c0t%H
@@ -177,15 +176,15 @@
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727202905Z0/
+230714000000Z
+230807192739Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -215,7 +214,6 @@
 9k0tcH
 9l$Lt	E
 ;D$ht6
-<*J=)
 <0:08
 =ETLP
 =IBgC
@@ -336,11 +334,11 @@ D9{0tZD
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 ECameraHAL_OpenError_ToString
 Enabled
@@ -368,6 +366,7 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 H+C H;
+H-^Eu
 H93t	H
 H9D$@u
 H;C(v
@@ -470,10 +469,12 @@ PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+Q3ilV
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSF<
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -640,9 +641,11 @@ _register_onexit_function
 _seh_filter_dll
 _wchdir
 _wgetcwd
+`&&]iZ:
 `.rdata
 `A_A^A]A\_^]
 `A__^
+a7hIw
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -703,7 +706,6 @@ c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
-cU	F9
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
@@ -713,7 +715,6 @@ can't merge dc and ac
 corrupt
 cs_cs
 czech
-d!	Gov
 d$$E3
 d$(Hi
 d$<Mc
@@ -782,6 +783,7 @@ l$HuF
 l$TD;
 l$hA+
 l$hHc
+l2|X/gGe
 latam
 ldexp
 m0k0$
@@ -826,9 +828,11 @@ pA_A^A]A\[
 pl_pl
 polish
 portuguese
+ps]^c
 pt_br
 pt_pt
 pvBuffer != nullptr
+qEXt!
 rND9{0t
 read past buffer
 ro_ro
@@ -922,6 +926,7 @@ zlib corrupt
 |$PLc
 |$XH;
 |Lu?c
+}5f<?*
 }LuHO
 ~3LcD$(L
 ~6HcD$ I

@@ -855,7 +855,7 @@
  r (anonymous namespace)::k_nThresholdBytecode
  r (anonymous namespace)::k_nVertBytecode
  r CSWTCH.16
- r CSWTCH.209
+ r CSWTCH.208
  r CSWTCH.23
  r CVkDevice::CreateDevice(CreateDeviceDetails_t const&)::queuePriorities
  r IPC::crc32(unsigned int, void const*, unsigned long)::s_crc32
@@ -1136,8 +1136,8 @@
  t CDirIterator::Init(std::string const&)
  t CDirIterator::IsValid() const
  t CDirIterator::~CDirIterator()
- t CFrameHallucination::CFrameHallucination(CVkDevice*)
- t CFrameHallucination::CFrameHallucination(CVkDevice*) [clone .cold]
+ t CFrameHallucination::CFrameHallucination(CVkDevice*, CVkDescriptorLayoutCache*)
+ t CFrameHallucination::CFrameHallucination(CVkDevice*, CVkDescriptorLayoutCache*) [clone .cold]
  t CFrameHallucination::CmdFilterMotionVectors(CVkCommandBuffer*, vr::EVREye, float, unsigned long, CVkImage*, CVkImage*, unsigned long, unsigned long)
  t CFrameHallucination::CmdFilterMotionVectors(CVkCommandBuffer*, vr::EVREye, float, unsigned long, CVkImage*, CVkImage*, unsigned long, unsigned long) [clone .cold]
  t CFrameHallucination::CmdGenerateFrame(CVkCommandBuffer*, vr::EVREye, float, unsigned long, CFrameHallucination::IDestinationFrameInfo*, CFrameHallucination::FrameInfo_t const&, VkSampler_T*)
@@ -1169,14 +1169,15 @@
  t CFrameHallucination::InitThresholdPipeline()
  t CFrameHallucination::InitThresholdPipeline() [clone .cold]
  t CFrameHallucination::Initialize(CMotionEstimation*, CVkAllocator*)
+ t CFrameHallucination::Initialize(CMotionEstimation*, CVkAllocator*) [clone .cold]
  t CFrameHallucination::PerEyeData_t::~PerEyeData_t()
  t CFrameHallucination::RegisterDestinationImage(CFrameHallucination::FrameInfo_t const&, CVkAllocator*)
  t CFrameHallucination::RegisterDestinationImage(CFrameHallucination::FrameInfo_t const&, CVkAllocator*) [clone .cold]
  t CFrameHallucination::SetFov(vr::EVREye, glm::mat<4, 4, float, (glm::qualifier)0> const&, CVkAllocator*)
  t CFrameHallucination::SetFov(vr::EVREye, glm::mat<4, 4, float, (glm::qualifier)0> const&, CVkAllocator*) [clone .cold]
  t CFrameHallucination::Shutdown()
- t CFrameHallucination::UpdateBindings(CVkShaderPipeline&, vr::EVREye, std::vector<CVkImage*, std::allocator<CVkImage*> > const&)
- t CFrameHallucination::UpdateBindings(CVkShaderPipeline&, vr::EVREye, std::vector<CVkImage*, std::allocator<CVkImage*> > const&) [clone .cold]
+ t CFrameHallucination::UpdateBindings(CVkDescriptorBindings*, VkDescriptorSet_T*, std::vector<CVkImage*, std::allocator<CVkImage*> > const&)
+ t CFrameHallucination::UpdateBindings(CVkDescriptorBindings*, VkDescriptorSet_T*, std::vector<CVkImage*, std::allocator<CVkImage*> > const&) [clone .cold]
  t CFrameHallucination::~CFrameHallucination()
  t CIPCPipe::CIPCPipe()
  t CIPCPipe::ClosePipe()
@@ -1226,8 +1227,8 @@
  t CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*)
  t CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*) [clone .cold]
  t CLogCallback::~CLogCallback()
- t CMotionEstimation::CMotionEstimation(CVkDevice*)
- t CMotionEstimation::CMotionEstimation(CVkDevice*) [clone .cold]
+ t CMotionEstimation::CMotionEstimation(CVkDevice*, CVkDescriptorLayoutCache*)
+ t CMotionEstimation::CMotionEstimation(CVkDevice*, CVkDescriptorLayoutCache*) [clone .cold]
  t CMotionEstimation::CRenderPipeline::CRenderPipeline(CVkDevice*, char const*)
  t CMotionEstimation::CRenderPipeline::CRenderPipeline(CVkDevice*, char const*) [clone .cold]
  t CMotionEstimation::CRenderPipeline::CmdBindAndDraw(CVkCommandBuffer*, CMotionEstimation::CRenderPipeline::DrawInfo_t const&)
@@ -1266,8 +1267,8 @@
  t CMotionEstimation::Update(CVkAllocator*, OutLayerState_t*, OutLayerState_t*) [clone .cold]
  t CMotionEstimation::Usage(IMotionEstimator::ImageType_t::Value_t)
  t CMotionEstimation::~CMotionEstimation()
- t CMotionSmoothing::CMotionSmoothing(CVkDevice*, CVkAllocator*, ISwapchainImageProvider*)
- t CMotionSmoothing::CMotionSmoothing(CVkDevice*, CVkAllocator*, ISwapchainImageProvider*) [clone .cold]
+ t CMotionSmoothing::CMotionSmoothing(CVkDevice*, CVkDescriptorLayoutCache*, CVkAllocator*, ISwapchainImageProvider*)
+ t CMotionSmoothing::CMotionSmoothing(CVkDevice*, CVkDescriptorLayoutCache*, CVkAllocator*, ISwapchainImageProvider*) [clone .cold]
  t CMotionSmoothing::CreateCommandBatchPool(CMotionSmoothing::CommandSet_t const&, char const*)
  t CMotionSmoothing::CreateCommandBatchPool(CMotionSmoothing::CommandSet_t const&, char const*) [clone .cold]
  t CMotionSmoothing::CreateCommandBatchPools()
@@ -1300,9 +1301,13 @@
  t CPrism::CreateCommandPools()
  t CPrism::CreateComputeCommandBatchPool(char const*)
  t CPrism::CreateComputeCommandBatchPool(char const*) [clone .cold]
+ t CPrism::CreateCopyBindings()
+ t CPrism::CreateCopyBindings() [clone .cold]
  t CPrism::CreateDefaultSampler()
  t CPrism::CreateGraphicsCommandBatchPool(char const*)
  t CPrism::CreateGraphicsCommandBatchPool(char const*) [clone .cold]
+ t CPrism::CreateMainBindings()
+ t CPrism::CreateMainBindings() [clone .cold]
  t CPrism::CreateNullClientUniformBuffer()
  t CPrism::CreateRenderPass()
  t CPrism::CreateSwapChainFramebuffers()
@@ -1564,7 +1569,7 @@
  t CVkAllocator::ImportBuffer(VkBufferSharedData_t const&, char const*)
  t CVkAllocator::ImportImage(VkImageSharedData_t const&, char const*)
  t CVkAllocator::Initialize()
- t CVkBuffer::CmdCopyBuffer(CVkCommandBuffer*, CVkBuffer*, unsigned long)
+ t CVkBuffer::CmdCopyBuffer(CVkCommandBuffer*, CVkBuffer*, unsigned long, unsigned long)
  t CVkBuffer::CmdCopyImageToBuffer(CVkCommandBuffer*, CVkImage*, unsigned int, VkImageLayout)
  t CVkBuffer::CmdPipelineBarrier(CVkCommandBuffer*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, unsigned long)
  t CVkBuffer::PrepareForExport(VkBufferSharedData_t&, unsigned int)
@@ -1619,6 +1624,33 @@
  t CVkCommandBufferPool::Initialize(CVkDevice*, char const*, unsigned int) [clone .cold]
  t CVkCommandBufferPool::Release()
  t CVkCommandBufferPool::~CVkCommandBufferPool()
+ t CVkDescriptorAllocator::Allocate(VkDescriptorSet_T**, CVkDescriptorBindings const*)
+ t CVkDescriptorAllocator::CVkDescriptorAllocator(CVkDevice*, char const*)
+ t CVkDescriptorAllocator::CVkDescriptorAllocator(CVkDevice*, char const*) [clone .cold]
+ t CVkDescriptorAllocator::GetOrCreatePool(CVkDescriptorBindings const*)
+ t CVkDescriptorAllocator::GetOrCreatePool(CVkDescriptorBindings const*) [clone .cold]
+ t CVkDescriptorAllocator::Release()
+ t CVkDescriptorAllocator::ResetPools()
+ t CVkDescriptorAllocator::~CVkDescriptorAllocator()
+ t CVkDescriptorArrayBase::AllocateSets(VkDescriptorSet_T**, unsigned int)
+ t CVkDescriptorArrayBase::AllocateSets(VkDescriptorSet_T**, unsigned int) [clone .cold]
+ t CVkDescriptorArrayBase::CVkDescriptorArrayBase(CVkDevice*, CVkDescriptorBindings const*)
+ t CVkDescriptorArrayBase::Release()
+ t CVkDescriptorArrayBase::Reset()
+ t CVkDescriptorBindings::CVkDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t> > const&)
+ t CVkDescriptorBindings::CVkDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t> > const&) [clone .cold]
+ t CVkDescriptorBindings::WriteDescriptorSet(CVkDescriptorAllocator*) const
+ t CVkDescriptorBindings::WriteDescriptorSet(VkDescriptorSet_T*) const
+ t CVkDescriptorBindings::WriteDescriptorSet(VkDescriptorSet_T*) const [clone .cold]
+ t CVkDescriptorLayoutCache::CVkDescriptorLayoutCache(CVkDevice*, char const*)
+ t CVkDescriptorLayoutCache::CVkDescriptorLayoutCache(CVkDevice*, char const*) [clone .cold]
+ t CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)
+ t CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*) [clone .cold]
+ t CVkDescriptorLayoutCache::DescriptorLayoutInfo_t::hash() const
+ t CVkDescriptorLayoutCache::DescriptorLayoutInfo_t::operator==(CVkDescriptorLayoutCache::DescriptorLayoutInfo_t const&) const
+ t CVkDescriptorLayoutCache::Release()
+ t CVkDescriptorLayoutCache::Release() [clone .cold]
+ t CVkDescriptorLayoutCache::~CVkDescriptorLayoutCache()
  t CVkDevice::CVkDevice(char const*)
  t CVkDevice::CVkDevice(char const*) [clone .cold]
  t CVkDevice::ChoosePhysicalDevice()
@@ -1722,8 +1754,6 @@
  t CVkResourcePool<CVkCommandBuffer>::Grow(unsigned int)
  t CVkResourcePool<CVkCommandBuffer>::~CVkResourcePool()
  t CVkShaderPipeline::AddComputeStage(char const*, unsigned int const*, unsigned long, char const*)
- t CVkShaderPipeline::AddDescriptorSet(std::vector<CVkShaderPipeline::Binding_t, std::allocator<CVkShaderPipeline::Binding_t> > const&, unsigned int)
- t CVkShaderPipeline::AddDescriptorSet(std::vector<CVkShaderPipeline::Binding_t, std::allocator<CVkShaderPipeline::Binding_t> > const&, unsigned int) [clone .cold]
  t CVkShaderPipeline::AddFragmentStage(char const*, unsigned int const*, unsigned long, char const*)
  t CVkShaderPipeline::AddGeometryStage(char const*, unsigned int const*, unsigned long, char const*)
  t CVkShaderPipeline::AddStage(VkShaderStageFlagBits, char const*, unsigned int const*, unsigned long, char const*)
@@ -1733,21 +1763,16 @@
  t CVkShaderPipeline::AddVertexStage(char const*, std::vector<VkVertexInputBindingDescription, std::allocator<VkVertexInputBindingDescription> > const&, std::vector<VkVertexInputAttributeDescription, std::allocator<VkVertexInputAttributeDescription> > const&, unsigned int const*, unsigned long, char const*)
  t CVkShaderPipeline::AddViewport(VkExtent2D const&)
  t CVkShaderPipeline::CVkShaderPipeline(CVkDevice*, char const*)
- t CVkShaderPipeline::CmdBindAndDispatch(CVkCommandBuffer*, unsigned int, unsigned int, unsigned int, unsigned int) const
- t CVkShaderPipeline::CmdBindAndDraw(CVkCommandBuffer*, unsigned int, unsigned int, unsigned int) const
- t CVkShaderPipeline::CmdBindAndDrawIndexed(CVkCommandBuffer*, unsigned int, unsigned int, unsigned int) const
- t CVkShaderPipeline::CmdBindPipelineAndDescriptorSets(CVkCommandBuffer*, VkPipelineBindPoint, unsigned int) const
- t CVkShaderPipeline::CmdBindPipelineAndDescriptorSets(CVkCommandBuffer*, VkPipelineBindPoint, unsigned int) const [clone .cold]
- t CVkShaderPipeline::CopyDescriptorSets(CVkShaderPipeline const&)
- t CVkShaderPipeline::CopyDescriptorSets(CVkShaderPipeline const&) [clone .cold]
+ t CVkShaderPipeline::CmdBindAndDispatch(CVkCommandBuffer*, VkDescriptorSet_T*, unsigned int, unsigned int, unsigned int) const
+ t CVkShaderPipeline::CmdBindAndDraw(CVkCommandBuffer*, VkDescriptorSet_T*, unsigned int, unsigned int) const
+ t CVkShaderPipeline::CmdBindAndDrawIndexed(CVkCommandBuffer*, VkDescriptorSet_T*, unsigned int, unsigned int) const
+ t CVkShaderPipeline::CmdBindPipeline(CVkCommandBuffer*, VkPipelineBindPoint, VkDescriptorSet_T*) const
  t CVkShaderPipeline::CopyStages(CVkShaderPipeline const&)
  t CVkShaderPipeline::CopyStages(CVkShaderPipeline const&) [clone .cold]
- t CVkShaderPipeline::Initialize(unsigned int, std::vector<VkPushConstantRange, std::allocator<VkPushConstantRange> > const&, CVkShaderPipeline::RenderInfo_t const*)
- t CVkShaderPipeline::Initialize(unsigned int, std::vector<VkPushConstantRange, std::allocator<VkPushConstantRange> > const&, CVkShaderPipeline::RenderInfo_t const*) [clone .cold]
+ t CVkShaderPipeline::Initialize(std::vector<VkDescriptorSetLayout_T*, std::allocator<VkDescriptorSetLayout_T*> > const&, std::vector<VkPushConstantRange, std::allocator<VkPushConstantRange> > const&, CVkShaderPipeline::RenderInfo_t const*)
+ t CVkShaderPipeline::Initialize(std::vector<VkDescriptorSetLayout_T*, std::allocator<VkDescriptorSetLayout_T*> > const&, std::vector<VkPushConstantRange, std::allocator<VkPushConstantRange> > const&, CVkShaderPipeline::RenderInfo_t const*) [clone .cold]
  t CVkShaderPipeline::Shutdown()
  t CVkShaderPipeline::StageInfo_t::~StageInfo_t()
- t CVkShaderPipeline::WriteDescriptorSet(unsigned int, unsigned int) const
- t CVkShaderPipeline::WriteDescriptorSet(unsigned int, unsigned int) const [clone .cold]
  t CVkShaderPipeline::~CVkShaderPipeline()
  t CVkTimeline::CheckPhysicalDeviceCapabilities()
  t CVkTimeline::Create(CVkDevice*, char const*, VkTimelineCreationDetails_t const&)
@@ -2295,6 +2320,8 @@
  t LogDirect(ELogLevel, char const*, __va_list_tag (&) [1])
  t MillisecondsFromNanoseconds(unsigned long)
  t NanosecondsFromSystemTicks(unsigned long)
+ t NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t> > const&)
+ t NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t> > const&) [clone .cold]
  t PRISM_AcquireDisplay.cold
  t PRISM_CreateDisplayFactory.cold
  t PRISM_CreateInstance.cold
@@ -2646,6 +2673,9 @@
  t std::_Function_handler<void (ELogLevel, char const*, void*), CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
  t std::_Function_handler<void (ELogLevel, char const*, void*), void (*)(ELogLevel, char const*, void*)>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
  t std::_Function_handler<void (ELogLevel, char const*, void*), void (*)(ELogLevel, char const*, void*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Hashtable<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t, std::pair<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t const, VkDescriptorSetLayout_T*>, std::allocator<std::pair<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t const, VkDescriptorSetLayout_T*> >, std::__detail::_Select1st, std::equal_to<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t>, CVkDescriptorLayoutCache::DescriptorLayoutHash_t, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node(unsigned long, CVkDescriptorLayoutCache::DescriptorLayoutInfo_t const&, unsigned long) const
+ t std::_Hashtable<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t, std::pair<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t const, VkDescriptorSetLayout_T*>, std::allocator<std::pair<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t const, VkDescriptorSetLayout_T*> >, std::__detail::_Select1st, std::equal_to<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t>, CVkDescriptorLayoutCache::DescriptorLayoutHash_t, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+ t std::_Hashtable<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t, std::pair<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t const, VkDescriptorSetLayout_T*>, std::allocator<std::pair<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t const, VkDescriptorSetLayout_T*> >, std::__detail::_Select1st, std::equal_to<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t>, CVkDescriptorLayoutCache::DescriptorLayoutHash_t, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear()
  t std::_Hashtable<VkFormat, std::pair<VkFormat const, CFrameHallucination::Variant_t>, std::allocator<std::pair<VkFormat const, CFrameHallucination::Variant_t> >, std::__detail::_Select1st, std::equal_to<VkFormat>, std::hash<VkFormat>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&)
  t std::_Hashtable<char const*, std::pair<char const* const, IMotionEstimator* (*)()>, std::allocator<std::pair<char const* const, IMotionEstimator* (*)()> >, std::__detail::_Select1st, std::equal_to<char const*>, std::hash<char const*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::find(char const* const&)
  t std::_Hashtable<char const*, std::pair<char const* const, IPrismDisplayFactory* (*)()>, std::allocator<std::pair<char const* const, IPrismDisplayFactory* (*)()> >, std::__detail::_Select1st, std::equal_to<char const*>, std::hash<char const*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::find(char const* const&)
@@ -2692,11 +2722,14 @@
  t std::_Vector_base<CMotionEstimation::CRenderPipeline::PushConstantsInfo_t const*, std::allocator<CMotionEstimation::CRenderPipeline::PushConstantsInfo_t const*> >::~_Vector_base()
  t std::_Vector_base<CPrismDisplay_Vulkan::Factory::VulkanDisplay_t, std::allocator<CPrismDisplay_Vulkan::Factory::VulkanDisplay_t> >::~_Vector_base()
  t std::_Vector_base<CVkAllocator::MemoryTypeInfo_t*, std::allocator<CVkAllocator::MemoryTypeInfo_t*> >::~_Vector_base()
+ t std::_Vector_base<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t> >::~_Vector_base()
  t std::_Vector_base<CVkImage*, std::allocator<CVkImage*> >::~_Vector_base()
- t std::_Vector_base<CVkShaderPipeline::Binding_t, std::allocator<CVkShaderPipeline::Binding_t> >::~_Vector_base()
  t std::_Vector_base<CVkTimeline*, short_alloc<CVkTimeline*, 80ul, 8ul> >::~_Vector_base()
  t std::_Vector_base<VkDescriptorImageInfo, short_alloc<VkDescriptorImageInfo, 240ul, 8ul> >::~_Vector_base()
- t std::_Vector_base<VkDescriptorSet_T*, short_alloc<VkDescriptorSet_T*, 80ul, 8ul> >::~_Vector_base()
+ t std::_Vector_base<VkDescriptorPoolSize, std::allocator<VkDescriptorPoolSize> >::~_Vector_base()
+ t std::_Vector_base<VkDescriptorPool_T*, std::allocator<VkDescriptorPool_T*> >::~_Vector_base()
+ t std::_Vector_base<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> >::~_Vector_base()
+ t std::_Vector_base<VkDescriptorSetLayout_T*, std::allocator<VkDescriptorSetLayout_T*> >::~_Vector_base()
  t std::_Vector_base<VkDeviceMemory_T*, short_alloc<VkDeviceMemory_T*, 80ul, 8ul> >::~_Vector_base()
  t std::_Vector_base<VkDeviceQueueCreateInfo, short_alloc<VkDeviceQueueCreateInfo, 400ul, 8ul> >::~_Vector_base()
  t std::_Vector_base<VkDynamicState, short_alloc<VkDynamicState, 40ul, 4ul> >::~_Vector_base()
@@ -2723,6 +2756,7 @@
  t std::_Vector_base<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t> >::~_Vector_base()
  t std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
  t std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+ t std::__detail::_Map_base<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t, std::pair<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t const, VkDescriptorSetLayout_T*>, std::allocator<std::pair<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t const, VkDescriptorSetLayout_T*> >, std::__detail::_Select1st, std::equal_to<CVkDescriptorLayoutCache::DescriptorLayoutInfo_t>, CVkDescriptorLayoutCache::DescriptorLayoutHash_t, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](CVkDescriptorLayoutCache::DescriptorLayoutInfo_t const&)
  t std::__detail::_Map_base<VkFormat, std::pair<VkFormat const, CFrameHallucination::Variant_t>, std::allocator<std::pair<VkFormat const, CFrameHallucination::Variant_t> >, std::__detail::_Select1st, std::equal_to<VkFormat>, std::hash<VkFormat>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](VkFormat const&)
  t std::__detail::_Map_base<char const*, std::pair<char const* const, IMotionEstimator* (*)()>, std::allocator<std::pair<char const* const, IMotionEstimator* (*)()> >, std::__detail::_Select1st, std::equal_to<char const*>, std::hash<char const*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](char const* const&)
  t std::__detail::_Map_base<char const*, std::pair<char const* const, IPrismDisplayFactory* (*)()>, std::allocator<std::pair<char const* const, IPrismDisplayFactory* (*)()> >, std::__detail::_Select1st, std::equal_to<char const*>, std::hash<char const*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[](char const* const&)
@@ -2735,6 +2769,9 @@
  t std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8_utf16()
  t std::ctype<char>::do_widen(char) const
  t std::default_delete<CVkCommandBatch>::operator()(CVkCommandBatch*) const [clone .part.0]
+ t std::default_delete<CVkDescriptorArray<2u> >::operator()(CVkDescriptorArray<2u>*) const [clone .part.0]
+ t std::default_delete<CVkDescriptorArray<4u> >::operator()(CVkDescriptorArray<4u>*) const [clone .part.0]
+ t std::default_delete<CVkDescriptorBindings>::operator()(CVkDescriptorBindings*) const [clone .part.0]
  t std::default_delete<CVkExtensionInfo>::operator()(CVkExtensionInfo*) const [clone .part.0]
  t std::default_delete<CVkWriteDescriptorSet>::operator()(CVkWriteDescriptorSet*) const [clone .part.0]
  t std::deque<CVkCommandBuffer*, std::allocator<CVkCommandBuffer*> >::_M_reallocate_map(unsigned long, bool)
@@ -2772,11 +2809,9 @@
  t std::unique_ptr<CVkTimeline, CVkResourceDeleter<CVkTimeline> >::~unique_ptr()
  t std::unique_ptr<Json::StreamWriter, std::default_delete<Json::StreamWriter> >::~unique_ptr()
  t std::unique_ptr<facet::CVkTimestampQueryPool<2u>, CVkResourceDeleter<facet::CVkTimestampQueryPool<2u> > >::~unique_ptr()
- t std::vector<CVkShaderPipeline::Binding_t, std::allocator<CVkShaderPipeline::Binding_t> >::operator=(std::vector<CVkShaderPipeline::Binding_t, std::allocator<CVkShaderPipeline::Binding_t> > const&) [clone .isra.0]
- t std::vector<CVkShaderPipeline::Binding_t, std::allocator<CVkShaderPipeline::Binding_t> >::vector(std::initializer_list<CVkShaderPipeline::Binding_t>, std::allocator<CVkShaderPipeline::Binding_t> const&)
- t std::vector<CVkShaderPipeline::Binding_t, std::allocator<CVkShaderPipeline::Binding_t> >::~vector()
- t std::vector<VkDescriptorSet_T*, std::allocator<VkDescriptorSet_T*> >::_M_default_append(unsigned long)
- t std::vector<VkDescriptorSet_T*, std::allocator<VkDescriptorSet_T*> >::operator=(std::vector<VkDescriptorSet_T*, std::allocator<VkDescriptorSet_T*> > const&) [clone .isra.0]
+ t std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t> >::~vector()
+ t std::vector<VkDescriptorPoolSize, std::allocator<VkDescriptorPoolSize> >::reserve(unsigned long)
+ t std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> >::reserve(unsigned long)
  t std::vector<VkDisplayModePropertiesKHR, std::allocator<VkDisplayModePropertiesKHR> >::_M_default_append(unsigned long)
  t std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties> >::_M_default_append(unsigned long)
  t std::vector<VkFramebuffer_T*, std::allocator<VkFramebuffer_T*> >::_M_default_append(unsigned long)
@@ -2813,13 +2848,16 @@
  t uw_update_context_1.cold
  t vkGetDeviceProcAddrStub
  t vkGetInstanceProcAddrStub
- t void std::_Destroy_aux<false>::__destroy<CVkShaderPipeline::DescriptorSetInfo_t*>(CVkShaderPipeline::DescriptorSetInfo_t*, CVkShaderPipeline::DescriptorSetInfo_t*)
  t void std::__adjust_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>)
+ t void std::__adjust_heap<__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, long, VkDescriptorSetLayoutBinding, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::{lambda(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)#1}> >(__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, long, long, VkDescriptorSetLayoutBinding, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::{lambda(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)#1}>) [clone .constprop.0]
  t void std::__insertion_sort<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>)
+ t void std::__insertion_sort<__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::{lambda(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)#1}> >(__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, __gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::{lambda(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)#1}>) [clone .constprop.0]
  t void std::__introsort_loop<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>)
+ t void std::__introsort_loop<__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::{lambda(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)#1}> >(__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, __gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::{lambda(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)#1}>)
  t void std::__make_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>&)
  t void std::__pop_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>&)
  t void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}> >(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::{lambda(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)#1}>)
+ t void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, __gnu_cxx::__ops::_Val_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::{lambda(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)#1}> >(__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, __gnu_cxx::__ops::_Val_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::{lambda(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)#1}>) [clone .constprop.0]
  t void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
  t void std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_push_back_aux<Json::Reader::ErrorInfo const&>(Json::Reader::ErrorInfo const&)
  t void std::vector<BufferedLogMessage_t, std::allocator<BufferedLogMessage_t> >::_M_realloc_insert<BufferedLogMessage_t const&>(__gnu_cxx::__normal_iterator<BufferedLogMessage_t*, std::vector<BufferedLogMessage_t, std::allocator<BufferedLogMessage_t> > >, BufferedLogMessage_t const&)
@@ -2834,7 +2872,6 @@
  t void std::vector<CVkAllocator::MemoryTypeInfo_t*, std::allocator<CVkAllocator::MemoryTypeInfo_t*> >::_M_realloc_insert<CVkAllocator::MemoryTypeInfo_t* const&>(__gnu_cxx::__normal_iterator<CVkAllocator::MemoryTypeInfo_t**, std::vector<CVkAllocator::MemoryTypeInfo_t*, std::allocator<CVkAllocator::MemoryTypeInfo_t*> > >, CVkAllocator::MemoryTypeInfo_t* const&)
  t void std::vector<CVkAllocator::MemoryTypeInfo_t, std::allocator<CVkAllocator::MemoryTypeInfo_t> >::_M_realloc_insert<CVkAllocator::MemoryTypeInfo_t const&>(__gnu_cxx::__normal_iterator<CVkAllocator::MemoryTypeInfo_t*, std::vector<CVkAllocator::MemoryTypeInfo_t, std::allocator<CVkAllocator::MemoryTypeInfo_t> > >, CVkAllocator::MemoryTypeInfo_t const&)
  t void std::vector<CVkResourceBase*, std::allocator<CVkResourceBase*> >::_M_realloc_insert<CVkResourceBase* const&>(__gnu_cxx::__normal_iterator<CVkResourceBase**, std::vector<CVkResourceBase*, std::allocator<CVkResourceBase*> > >, CVkResourceBase* const&)
- t void std::vector<CVkShaderPipeline::DescriptorSetInfo_t, std::allocator<CVkShaderPipeline::DescriptorSetInfo_t> >::_M_realloc_insert<CVkShaderPipeline::DescriptorSetInfo_t>(__gnu_cxx::__normal_iterator<CVkShaderPipeline::DescriptorSetInfo_t*, std::vector<CVkShaderPipeline::DescriptorSetInfo_t, std::allocator<CVkShaderPipeline::DescriptorSetInfo_t> > >, CVkShaderPipeline::DescriptorSetInfo_t&&)
  t void std::vector<CVkShaderPipeline::StageInfo_t, std::allocator<CVkShaderPipeline::StageInfo_t> >::_M_realloc_insert<CVkShaderPipeline::StageInfo_t>(__gnu_cxx::__normal_iterator<CVkShaderPipeline::StageInfo_t*, std::vector<CVkShaderPipeline::StageInfo_t, std::allocator<CVkShaderPipeline::StageInfo_t> > >, CVkShaderPipeline::StageInfo_t&&)
  t void std::vector<CVkTimeline*, short_alloc<CVkTimeline*, 80ul, 8ul> >::_M_realloc_insert<CVkTimeline* const&>(__gnu_cxx::__normal_iterator<CVkTimeline**, std::vector<CVkTimeline*, short_alloc<CVkTimeline*, 80ul, 8ul> > >, CVkTimeline* const&)
  t void std::vector<CVkTimeline*, std::allocator<CVkTimeline*> >::_M_realloc_insert<CVkTimeline* const&>(__gnu_cxx::__normal_iterator<CVkTimeline**, std::vector<CVkTimeline*, std::allocator<CVkTimeline*> > >, CVkTimeline* const&)
@@ -2848,9 +2885,10 @@
  t void std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> >::_M_realloc_insert<PhysicalDeviceInfo_t>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t> > >, PhysicalDeviceInfo_t&&)
  t void std::vector<VkDescriptorImageInfo, short_alloc<VkDescriptorImageInfo, 240ul, 8ul> >::_M_realloc_insert<VkDescriptorImageInfo const&>(__gnu_cxx::__normal_iterator<VkDescriptorImageInfo*, std::vector<VkDescriptorImageInfo, short_alloc<VkDescriptorImageInfo, 240ul, 8ul> > >, VkDescriptorImageInfo const&)
  t void std::vector<VkDescriptorPoolSize, std::allocator<VkDescriptorPoolSize> >::_M_realloc_insert<VkDescriptorPoolSize>(__gnu_cxx::__normal_iterator<VkDescriptorPoolSize*, std::vector<VkDescriptorPoolSize, std::allocator<VkDescriptorPoolSize> > >, VkDescriptorPoolSize&&)
+ t void std::vector<VkDescriptorPool_T*, std::allocator<VkDescriptorPool_T*> >::_M_realloc_insert<VkDescriptorPool_T* const&>(__gnu_cxx::__normal_iterator<VkDescriptorPool_T**, std::vector<VkDescriptorPool_T*, std::allocator<VkDescriptorPool_T*> > >, VkDescriptorPool_T* const&)
+ t void std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> >::_M_realloc_insert<VkDescriptorSetLayoutBinding const&>(__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, VkDescriptorSetLayoutBinding const&)
  t void std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> >::_M_realloc_insert<VkDescriptorSetLayoutBinding>(__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding> > >, VkDescriptorSetLayoutBinding&&)
  t void std::vector<VkDescriptorSetLayout_T*, std::allocator<VkDescriptorSetLayout_T*> >::_M_realloc_insert<VkDescriptorSetLayout_T* const&>(__gnu_cxx::__normal_iterator<VkDescriptorSetLayout_T**, std::vector<VkDescriptorSetLayout_T*, std::allocator<VkDescriptorSetLayout_T*> > >, VkDescriptorSetLayout_T* const&)
- t void std::vector<VkDescriptorSet_T*, short_alloc<VkDescriptorSet_T*, 80ul, 8ul> >::_M_realloc_insert<VkDescriptorSet_T* const&>(__gnu_cxx::__normal_iterator<VkDescriptorSet_T**, std::vector<VkDescriptorSet_T*, short_alloc<VkDescriptorSet_T*, 80ul, 8ul> > >, VkDescriptorSet_T* const&)
  t void std::vector<VkDeviceMemory_T*, short_alloc<VkDeviceMemory_T*, 80ul, 8ul> >::_M_realloc_insert<VkDeviceMemory_T* const&>(__gnu_cxx::__normal_iterator<VkDeviceMemory_T**, std::vector<VkDeviceMemory_T*, short_alloc<VkDeviceMemory_T*, 80ul, 8ul> > >, VkDeviceMemory_T* const&)
  t void std::vector<VkDeviceQueueCreateInfo, short_alloc<VkDeviceQueueCreateInfo, 400ul, 8ul> >::_M_realloc_insert<VkDeviceQueueCreateInfo const&>(__gnu_cxx::__normal_iterator<VkDeviceQueueCreateInfo*, std::vector<VkDeviceQueueCreateInfo, short_alloc<VkDeviceQueueCreateInfo, 400ul, 8ul> > >, VkDeviceQueueCreateInfo const&)
  t void std::vector<VkDynamicState, short_alloc<VkDynamicState, 40ul, 4ul> >::_M_realloc_insert<VkDynamicState const&>(__gnu_cxx::__normal_iterator<VkDynamicState*, std::vector<VkDynamicState, short_alloc<VkDynamicState, 40ul, 4ul> > >, VkDynamicState const&)

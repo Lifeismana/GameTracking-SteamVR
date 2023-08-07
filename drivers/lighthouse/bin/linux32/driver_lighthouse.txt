@@ -870,7 +870,7 @@
  r CSWTCH.163
  r CSWTCH.180
  r CSWTCH.2094
- r CSWTCH.211
+ r CSWTCH.210
  r CSWTCH.224
  r CSWTCH.906
  r Four_2PIs
@@ -1539,15 +1539,17 @@
  t .L113
  t .L114
  t .L115
- t .L1151
- t .L1153
- t .L1154
- t .L1155
  t .L1156
  t .L1157
- t .L1158
  t .L1159
  t .L116
+ t .L1160
+ t .L1161
+ t .L1162
+ t .L1163
+ t .L1164
+ t .L1165
+ t .L1166
  t .L117
  t .L118
  t .L119
@@ -1913,17 +1915,17 @@
  t .L235
  t .L236
  t .L237
- t .L2374
- t .L2375
- t .L2377
- t .L2378
- t .L2379
  t .L238
- t .L2380
- t .L2381
  t .L239
+ t .L2393
+ t .L2394
+ t .L2396
+ t .L2397
+ t .L2398
+ t .L2399
  t .L24
  t .L240
+ t .L2400
  t .L241
  t .L242
  t .L243
@@ -2287,16 +2289,16 @@
  t .L456
  t .L457
  t .L458
- t .L4581
- t .L4582
- t .L4584
- t .L4585
- t .L4586
- t .L4587
- t .L4588
  t .L459
  t .L46
  t .L460
+ t .L4605
+ t .L4606
+ t .L4608
+ t .L4609
+ t .L4610
+ t .L4611
+ t .L4612
  t .L463
  t .L4653
  t .L4655
@@ -2610,6 +2612,7 @@
  t .L7111
  t .L7113
  t .L7114
+ t .L712
  t .L7127
  t .L7129
  t .L713
@@ -2617,8 +2620,6 @@
  t .L7131
  t .L7132
  t .L7133
- t .L714
- t .L715
  t .L7160
  t .L7162
  t .L7163
@@ -2730,25 +2731,25 @@
  t .L8329
  t .L8346
  t .L84
- t .L840
- t .L841
  t .L8415
  t .L8417
  t .L8418
  t .L8419
  t .L8420
- t .L843
  t .L8436
- t .L844
- t .L845
- t .L846
  t .L847
+ t .L848
  t .L85
+ t .L850
  t .L8508
+ t .L851
  t .L8511
  t .L8512
  t .L8513
+ t .L852
  t .L8529
+ t .L853
+ t .L854
  t .L86
  t .L8601
  t .L8603
@@ -3447,6 +3448,7 @@
  t CLighthouseHmdDriver::CLighthouseHmdDriver() [clone .cold]
  t CLighthouseHmdDriver::Cleanup()
  t CLighthouseHmdDriver::ComputeDistortion(vr::EVREye, float, float)
+ t CLighthouseHmdDriver::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
  t CLighthouseHmdDriver::ControllerBatteryStatus(float, bool)
  t CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, vortex::CVrController::EVrControllerType, vr::ETrackedControllerRole)
  t CLighthouseHmdDriver::CreateControllerState(vortex::ICVrControllerHapticWrapperClient*, CTrackedDeviceConfig const&, vortex::IControllerStateDriver*, vortex::CVrController::EVrControllerType, vr::ETrackedControllerRole) [clone .cold]
@@ -3885,6 +3887,9 @@
  t CTrackedDeviceConfig::clear() [clone .cold]
  t CTrackedDeviceConfig::from_json(Json::Value const&)
  t CTrackedDeviceConfig::from_json(Json::Value const&) [clone .cold]
+ t CTrackedDeviceConfig::from_json(std::string, std::string&)
+ t CTrackedDeviceConfig::from_json(std::string, std::string&) [clone .cold]
+ t CTrackedDeviceConfig::getRawJsonString() const
  t CTrackedDeviceConfig::parseCameraJson(Json::Value const&)
  t CTrackedDeviceConfig::parseCameraJson(Json::Value const&) [clone .cold]
  t CTrackedDeviceConfig::to_json() const
@@ -4267,6 +4272,7 @@
  t GetEnvironmentVariableAsBool(char const*, bool) [clone .cold]
  t GetFileCreateTime(char const*, long long*)
  t GetFileLength(char const*)
+ t GetFileWriteTime(char const*, long long*)
  t GetFilenameTimeString()
  t GetGMUnixTime()
  t GetGMUnixTimeAtNextLocalTime(unsigned long long, int, int, int)
@@ -4291,6 +4297,8 @@
  t GetUserDocumentsPath()
  t GetVRLog()
  t GetVRLogTimeString(bool)
+ t HashToBase64(unsigned long long)
+ t HashToHex(unsigned long long)
  t HiddenAreaFromInt(int)
  t HmdMatrix34_Init(math::Matrix33T<float> const&, math::Vec3T<float> const&)
  t ICeresFunctor<double>* CeresFunctorFactory<double, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0>::Dispatch<vortex::CLighthouseDirect::CStateAltBaseSwap<vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<31>::OverrideTraits> >, vortex::CLighthouseDirect::CStateAltBaseSwap<vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<37>::OverrideTraits> >, vortex::CLighthouseDirect::CStateAltBaseSwap<vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<43>::OverrideTraits> > >::_Create<vortex::CLighthouseDirect::CStateAltBaseSwap<vortex::CLighthouseModel::Functors<vortex::CLighthouseModel::Functors<vortex::CLighthouseDirect::CStateTraits>::AlternateBase<31>::OverrideTraits> >, bool (&) [3]>(bool (&) [3])
@@ -5427,6 +5435,7 @@
  t _init
  t add_fdes
  t add_fdes.cold
+ t atexit
  t base64_decode(std::string const&)
  t base64_decode(std::string const&) [clone .cold]
  t base64_encode(unsigned char const*, unsigned int)
@@ -6381,6 +6390,7 @@
  t non-virtual thunk to CBaseCamera::OnCameraCommandCompleted(CameraCommand_t*, int)
  t non-virtual thunk to CLighthouseHmdDriver::AudioDeviceChangeNotice(IVRAudioNotification::EAudioDeviceChangeNotice, std::string const&)
  t non-virtual thunk to CLighthouseHmdDriver::ComputeDistortion(vr::EVREye, float, float)
+ t non-virtual thunk to CLighthouseHmdDriver::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
  t non-virtual thunk to CLighthouseHmdDriver::ControllerBatteryStatus(float, bool)
  t non-virtual thunk to CLighthouseHmdDriver::GetCameraCompatibilityMode(vr::ECameraCompatibilityMode*)
  t non-virtual thunk to CLighthouseHmdDriver::GetCameraDistortion(unsigned int, float, float, float*, float*)
@@ -7294,7 +7304,7 @@
  t void CeresQuaternionRotationTo<double>(double const*, double const*, double*)
  t void CeresVectorNormalize<ceres::Jet<double, 49> >(ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
  t void DiscreteWhiteNoiseJerkCovariance<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false> >(Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, double, double)
- t void Distortion_Model::distort<double, double>(Distortion_Type, int, double, double&, double&, double const*, double const*)
+ t void Distortion_Model::distort<double, double>(Distortion_Type, int, double, bool, double&, double&, double const*, double const*)
  t void Eigen::internal::call_dense_assignment_loop<Eigen::Matrix<double, -1, -1, 0, -1, -1>, Eigen::Product<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, 1>, Eigen::internal::assign_op<double, double> >(Eigen::Matrix<double, -1, -1, 0, -1, -1>&, Eigen::Product<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, 1> const&, Eigen::internal::assign_op<double, double> const&)
  t void Eigen::internal::call_dense_assignment_loop<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, 0>, Eigen::Transpose<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false> >, 0> const, Eigen::Block<Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> > const, -1, -1, false> const>, Eigen::internal::assign_op<double, double> >(Eigen::Matrix<double, -1, -1, 1, -1, -1>&, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, 0>, Eigen::Transpose<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false> >, 0> const, Eigen::Block<Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> > const, -1, -1, false> const> const&, Eigen::internal::assign_op<double, double> const&)
  t void Eigen::internal::call_dense_assignment_loop<Eigen::Matrix<double, -1, -1, 1, -1, -1>, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false> >, 0> const, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> > const>, Eigen::internal::assign_op<double, double> >(Eigen::Matrix<double, -1, -1, 1, -1, -1>&, Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Product<Eigen::Product<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false>, Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, Eigen::Transpose<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, -1, -1, false> >, 0> const, Eigen::Ref<Eigen::Matrix<double, -1, -1, 1, -1, -1> const, 0, Eigen::OuterStride<-1> > const> const&, Eigen::internal::assign_op<double, double> const&)
@@ -7500,6 +7510,7 @@
  t void std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> >::_M_realloc_insert<vortex::lighthouse::SensorHit_s>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s> > >, vortex::lighthouse::SensorHit_s&&)
  t void std::vector<vr::HmdMatrix34_t, std::allocator<vr::HmdMatrix34_t> >::_M_realloc_insert<vr::HmdMatrix34_t const&>(__gnu_cxx::__normal_iterator<vr::HmdMatrix34_t*, std::vector<vr::HmdMatrix34_t, std::allocator<vr::HmdMatrix34_t> > >, vr::HmdMatrix34_t const&)
  t void std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> >::_M_realloc_insert<vr::PathRead_t>(__gnu_cxx::__normal_iterator<vr::PathRead_t*, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t> > >, vr::PathRead_t&&)
+ t void std::vector<vr::PathWrite_t, std::allocator<vr::PathWrite_t> >::_M_realloc_insert<vr::PathWrite_t const&>(__gnu_cxx::__normal_iterator<vr::PathWrite_t*, std::vector<vr::PathWrite_t, std::allocator<vr::PathWrite_t> > >, vr::PathWrite_t const&)
  t void std::vector<vr::VREvent_t, std::allocator<vr::VREvent_t> >::_M_realloc_insert<vr::VREvent_t const&>(__gnu_cxx::__normal_iterator<vr::VREvent_t*, std::vector<vr::VREvent_t, std::allocator<vr::VREvent_t> > >, vr::VREvent_t const&)
  t void tinygltf::SerializeNumberArrayProperty<double>(std::string const&, std::vector<double, std::allocator<double> > const&, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>&)
  t void tinygltf::SerializeNumberArrayProperty<double>(std::string const&, std::vector<double, std::allocator<double> > const&, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer>&) [clone .cold]
@@ -7749,6 +7760,7 @@
  t vortex::CHmdDisplay::InitDisplayDevices(vr::EVRInitError*)
  t vortex::CHmdDisplay::InitFromDeviceConfig(CTrackedDeviceConfig const&, bool, vortex::CHmdDisplay::CEyeViewport*, vortex::CHmdDisplay::CEyeProjection*)
  t vortex::CHmdDisplay::InitRecommendedRenderTarget(CTrackedDeviceConfig const&)
+ t vortex::CHmdDisplay::InverseEyeUndistortParams(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
  t vortex::CHmdDisplay::RecalcEyeProjections()
  t vortex::CHmdDisplay::~CHmdDisplay()
  t vortex::CImuOnlyTracker::CImuOnlyTracker(CTrackedDeviceConfig const&, vortex::IPoseTrackerDriver*)
@@ -8481,6 +8493,7 @@
  t vortex::CLighthouseThreadBase::CTime::TimeFromTimestamp(long long) const
  t vortex::CLighthouseThreadBase::CTime::TrackingTimeFromTimestamp(long long) const
  t vortex::CLighthouseThreadBase::CTime::UpdateTrackingTime(double, double, bool)
+ t vortex::CLighthouseThreadBase::CTime::UpdateTrackingTime(double, double, bool) [clone .cold]
  t vortex::CLighthouseThreadBase::CTime::UpdateUsbTime(double, double)
  t vortex::CLighthouseThreadBase::DeviceAttached()
  t vortex::CLighthouseThreadBase::GetKeepaliveTime()
@@ -8868,6 +8881,7 @@
  t vr_internal::CVRPathHandle::CVRPathHandle(char const*)
  t vr_internal::CVRPathHandle::~CVRPathHandle()
  t vr_internal::CVRPathReads::IsValid() const
+ t vr_internal::CVRPathReads::NextBlob(void*, unsigned int, unsigned int)
  t vr_internal::CVRPathReads::NextBool(bool)
  t vr_internal::CVRPathReads::NextDouble(double)
  t vr_internal::CVRPathReads::NextFloat(float)
@@ -8875,8 +8889,27 @@
  t vr_internal::CVRPathReads::NextString(char const*)
  t vr_internal::CVRPathReads::NextUInt64(unsigned long long)
  t vr_internal::CVRPathReads::ReadBatch(unsigned long long)
+ t vr_internal::CVRPathReads::ReadBatch(unsigned long long) [clone .cold]
  t vr_internal::CVRPathReads::ReadBatch(unsigned long long, unsigned long long const*, unsigned int)
  t vr_internal::CVRPathReads::ReadBatch(unsigned long long, vr_internal::CVRPathHandle const*, unsigned int)
+ t vr_internal::CVRPathWrites::CVRPathWrites(unsigned int)
+ t vr_internal::CVRPathWrites::CVRPathWrites(unsigned int) [clone .cold]
+ t vr_internal::CVRPathWrites::CopyToBuffer(char const*)
+ t vr_internal::CVRPathWrites::Push(char const*, bool)
+ t vr_internal::CVRPathWrites::Push(char const*, char const*)
+ t vr_internal::CVRPathWrites::Push(char const*, double)
+ t vr_internal::CVRPathWrites::Push(char const*, float)
+ t vr_internal::CVRPathWrites::Push(char const*, int)
+ t vr_internal::CVRPathWrites::Push(char const*, unsigned long long)
+ t vr_internal::CVRPathWrites::Push(unsigned long long, bool)
+ t vr_internal::CVRPathWrites::Push(unsigned long long, char const*)
+ t vr_internal::CVRPathWrites::Push(unsigned long long, double)
+ t vr_internal::CVRPathWrites::Push(unsigned long long, float)
+ t vr_internal::CVRPathWrites::Push(unsigned long long, int)
+ t vr_internal::CVRPathWrites::Push(unsigned long long, unsigned long long)
+ t vr_internal::CVRPathWrites::PushWrite(char const*, unsigned int, unsigned int)
+ t vr_internal::CVRPathWrites::PushWrite(unsigned long long, unsigned int, unsigned int)
+ t vr_internal::CVRPathWrites::Write(unsigned long long)
  t vr_internal::GetResourceFullPath(std::string const&)
  t vr_internal::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
  t vr_internal::VRApplications()

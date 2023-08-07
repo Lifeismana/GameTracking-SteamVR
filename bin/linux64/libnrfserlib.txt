@@ -270,7 +270,7 @@
  pthread_setspecific
  r CNRFSerLib::GetScanParameters()::s_ScanParameters
  r CSWTCH.164
- r CSWTCH.209
+ r CSWTCH.208
  r Json::Value::maxInt
  r Json::Value::maxInt64
  r Json::Value::maxLargestInt

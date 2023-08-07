@@ -274,9 +274,8 @@ $CVRMsg_SetApplicationOptionsResponse
 $CVRMsg_TrackedCamera_SetAutoExposure
 $CVRMsg_TrackedCamera_StopVideoStream
 $IL+Q
-$tI(knNhO=
+$tI(knN
 $u=Hi
-$u[Hi
 $u^Hi
 $w!Hc
 %%.%dg
@@ -571,11 +570,8 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%u`#
 ()$^.*+?[]|\-{},:=!
-(-~`#
-(52r#
-(5xY#
+(5)J)
 (9Q|uWH
 (;^,|
 (;s,|
@@ -1122,6 +1118,15 @@ $w!Hc
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_003@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_004@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_005@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_006@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_007@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_008@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_009@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_010@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_011@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_012@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_013@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_014@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -1626,6 +1631,15 @@ $w!Hc
 .?AVCVRSteamPrivate_003@@
 .?AVCVRSteamPrivate_004@@
 .?AVCVRSteamPrivate_005@@
+.?AVCVRSteamPrivate_006@@
+.?AVCVRSteamPrivate_007@@
+.?AVCVRSteamPrivate_008@@
+.?AVCVRSteamPrivate_009@@
+.?AVCVRSteamPrivate_010@@
+.?AVCVRSteamPrivate_011@@
+.?AVCVRSteamPrivate_012@@
+.?AVCVRSteamPrivate_013@@
+.?AVCVRSteamPrivate_014@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1745,7 +1759,7 @@ $w!Hc
 .?AVIVRSettings@vr@@
 .?AVIVRSettingsInternal@vr@@
 .?AVIVRSpatialAnchors@vr@@
-.?AVIVRSteamPrivate_006@vr@@
+.?AVIVRSteamPrivate_015@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -1878,7 +1892,8 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/5p@#
+/5f*(
+/5px#
 /9{0t'H
 /CVRMsg_ClientMailbox_SendMailboxMessageResponse
 /CVRMsg_CompositorSetDashboardVisibilityResponse" 
@@ -2077,8 +2092,13 @@ $w!Hc
 /user/hand/left/input/b/click
 /user/hand/left/input/b/touch
 /user/hand/left/input/back/click
+/user/hand/left/input/dpad_down/click
+/user/hand/left/input/dpad_left/click
+/user/hand/left/input/dpad_right/click
+/user/hand/left/input/dpad_up/click
 /user/hand/left/input/grip/click
 /user/hand/left/input/grip/pose
+/user/hand/left/input/grip/value
 /user/hand/left/input/joystick/click
 /user/hand/left/input/menu/click
 /user/hand/left/input/palm_ext/pose
@@ -2109,6 +2129,7 @@ $w!Hc
 /user/hand/left/input/trigger/click
 /user/hand/left/input/trigger/touch
 /user/hand/left/input/trigger/value
+/user/hand/left/input/view/click
 /user/hand/left/input/x
 /user/hand/left/input/x/click
 /user/hand/left/input/x/touch
@@ -2130,6 +2151,7 @@ $w!Hc
 /user/hand/right/input/back/click
 /user/hand/right/input/grip/click
 /user/hand/right/input/grip/pose
+/user/hand/right/input/grip/value
 /user/hand/right/input/joystick/click
 /user/hand/right/input/menu/click
 /user/hand/right/input/palm_ext/pose
@@ -2160,6 +2182,8 @@ $w!Hc
 /user/hand/right/input/trigger/click
 /user/hand/right/input/trigger/touch
 /user/hand/right/input/trigger/value
+/user/hand/right/input/x/click
+/user/hand/right/input/y/click
 /user/hand/right/output/haptic
 /user/hand/right/pose/raw
 /user/hand/secondary
@@ -2281,8 +2305,8 @@ $w!Hc
 22.CVRMsg_Input_GetActionBindingsResponse.LoadResult
 220323000000Z
 220801000000Z
-220921000000Z
-230727204153Z0/
+230714000000Z
+230807194105Z0/
 2333333
 24.CVRMsg_ComputeDistortionBatchedResponse.OutputCoord
 241009235959Z0a1
@@ -2294,16 +2318,15 @@ $w!Hc
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
 3333333
 333?E
+341013235959Z0H1
 360428235959Z0i1
 361.75
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
 3mq+<
-4--G9B
 416.16
 42HcF,
 440.97
@@ -2318,6 +2341,7 @@ $w!Hc
 6CVRMsg_CompositorGetScreenshotPropertyFilenameResponse
 6HiL$8
 6I]Dc
+6Mh@'	
 6OB,n_
 6p7M=:P_:}u
 70503
@@ -2362,7 +2386,6 @@ $w!Hc
 98t3H
 98tHH
 9;tC@8{
-9=$N@
 9A(~0H
 9A|6H
 9C s.H
@@ -2533,7 +2556,6 @@ $w!Hc
 < t+<
 <$A9~T
 <$HiL$p
-<*J=)
 <*tq</tm<
 <*ufH
 </u#H
@@ -2694,6 +2716,10 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
+@85\U6
+@8=P[6
+@8=s\6
+@8=~Z6
 @8I+@0H
 @8i(u
 @8k t
@@ -2708,11 +2734,13 @@ $w!Hc
 @8t$xu
 @8u$t0@8u#t*
 @8ugt
+@8w A
 @8|$0
 @8|$0u-L
 @8|$@t
 @8|$X
 @8|$Y
+@8|$x
 @8|$xu
 @@H+H0
 @@H+H0I
@@ -2733,6 +2761,7 @@ $w!Hc
 @A^_^
 @A^_^][
 @A_A\]
+@A_A\_
 @A_A]A\^[
 @A_A]_][
 @A_A^A\
@@ -2748,6 +2777,7 @@ $w!Hc
 @A_A^_
 @A_A^_^[
 @A_A^_^]
+@Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
 @HcQdH
 @LcqHD
 @SATAUAVAWH
@@ -2836,6 +2866,7 @@ $w!Hc
 @USWAUAVH
 @USWAUH
 @USWAVAWH
+@USWAVH
 @USWH
 @UVATAUAVH
 @UVATAVAWH
@@ -2843,6 +2874,7 @@ $w!Hc
 @UVATH
 @UVAUAWH
 @UVAUH
+@UVAVAWH
 @UVAVH
 @UVAWH
 @UVWATAUAVAWH
@@ -2853,7 +2885,6 @@ $w!Hc
 @UVWAUAWH
 @UVWAUH
 @UVWAVAWH
-@UVWAVH
 @UVWH
 @UWATAUAVH
 @UWATAUAWH
@@ -2900,7 +2931,6 @@ A84(u
 A8EPH
 A8L+A0H
 A8_yH
-A8~xt
 A9@(r"A
 A9A A
 A9B(A
@@ -2928,6 +2958,7 @@ A;L$8}
 A;O0}
 A;Q s?I
 A;Q }?I
+A;Ydr
 A;^H|
 A;^x|
 A;_h|
@@ -2977,6 +3008,7 @@ A^A\_]
 A^A\_^[]
 A^A\_^]
 A^A]A\[]
+A^A]A\]
 A^A]A\^]
 A^A]A\_[
 A^A]A\_]
@@ -2992,7 +3024,6 @@ A^A]_^]
 A^^[]
 A^_[]
 A^_^[]
-A^_^]
 A^_^][
 A_A\[]
 A_A\]
@@ -3051,6 +3082,7 @@ A_A^[]
 A_A^]
 A_A^^
 A_A^^H
+A_A^^]
 A_A^^][
 A_A^_
 A_A^_[]
@@ -3063,10 +3095,12 @@ A__[]
 A__^[
 A__^[]
 A__^[]H
+A__^]
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Aborting GetDeltas(%s) disjoint! (n=%d)
 Aborting GetDeltas(%s) event[%d]! (n=%d)
 Aborting due to fatal assertion failure.
+Aborting due to ignoring Quit event after %.1f seconds!
 Accessor
 Action %s reading %0.5f time %llu
 Action %s reading %0.5f, %0.5f time %llu, %llu
@@ -3079,7 +3113,6 @@ Action Set names may not be empty
 Action names may not be empty
 Action paths must take the form '/actions/<action set>/in|out/<action>'. "
 Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
-Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
 Active pri %u, device=%s
 AddAccessAllowedAce
 AddAccessAllowedAce failed for administrator. GetLastError returned: %d
@@ -3152,6 +3185,7 @@ B0L+B(H
 B84/u
 B9T	$t
 B9T	$u
+B9T!$t
 B@H+P0
 B@H+P0I
 BINORMAL
@@ -3196,13 +3230,16 @@ C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
 C,HcK(H
-C-vg1
+C-&12
+C-x7=
 C09w(~:L
 C0L9$
 C0L;E
 C0L;F
 C0L;G
 C4LcC0H
+C5WQ2
+C5y+$
 C8;C<
 C8;K<
 C8@8l$8t.
@@ -3314,10 +3351,10 @@ CL$@H
 CL$@L
 CL$@L;
 CL$PH
-CL$XL
 CL$`H
 CL$`H;
 CL$hH
+CL$hL
 CL$pH
 CL$pL;}
 COLOR
@@ -3426,10 +3463,10 @@ CT$HH
 CT$PH
 CT$PL+
 CT$XH
-CT$XI
 CT$`H
 CT$`L
 CT$`f
+CT$hH
 CT$hM
 CT$pH
 CT$xD
@@ -3690,7 +3727,6 @@ Compositor initialization succeeded, but overlay init failed (403)
 Compositor initialization succeeded, but screenshot init failed (404)
 Compositor requires mandatory firmware update (402)
 Compositor unable to create graphics device (405)
-Compressed from %0.2fMB to %0.2fMB dur=%fms
 Compute Client
 Config path could not be located (111)
 Connect to VR Server Failed (301)
@@ -3763,6 +3799,8 @@ D$ tIf
 D$ tSI
 D$ tX
 D$ u!H
+D$ wq
+D$"}ucsf
 D$$% B
 D$$E3
 D$(@88
@@ -3776,6 +3814,7 @@ D$(I;G
 D$(Lk
 D$(fH
 D$(fI
+D$*cduq
 D$,D;l$8
 D$0	H
 D$0% B
@@ -3795,7 +3834,6 @@ D$0L+
 D$0L+D$ A
 D$0L;
 D$0Lc
-D$0Mi
 D$0fD
 D$0fff
 D$0t	@
@@ -3860,7 +3898,6 @@ D$PL;D$Xu
 D$PM;
 D$PMc
 D$PfA
-D$TE3
 D$TE;
 D$TI;
 D$Tt.@
@@ -3916,6 +3953,7 @@ D$pHcH
 D$pI9V
 D$pI;
 D$pL;
+D$pM;
 D$pfA
 D$t2M
 D$xA;G
@@ -3937,10 +3975,12 @@ D8$/u
 D8$>u
 D8,0u
 D8,8u
+D8/u0
 D840u
 D84;u
 D8<0u
 D8<>u
+D8=*J?
 D8D$9t$
 D8D$hH
 D8`)t#E
@@ -3962,7 +4002,6 @@ D8{4t
 D8}gt$L
 D8}gu
 D8}guH
-D8~ A
 D90uGH
 D989D9XH
 D9>u:H
@@ -3971,7 +4010,9 @@ D9A }
 D9B }
 D9C ~FE
 D9C ~JE
+D9D)$u
 D9K8~sE
+D9L)$t
 D9Q ~)M
 D9Q(~3M
 D9Q8~)M
@@ -3984,6 +4025,7 @@ D9d$\u
 D9d$d
 D9d$xv
 D9d$|u
+D9l$\u
 D9l$x
 D9mpu
 D9p,~9I
@@ -3991,7 +4033,6 @@ D9s,u
 D9t$Hv
 D9t$Lu
 D9t$\u
-D9u ~
 D9u#u
 D9vtv-f
 D9x0r
@@ -4003,6 +4044,7 @@ D9{0tZD
 D9{H~7I
 D9{X~7I
 D9|$(fA
+D9}(t
 D;@ }
 D;A |
 D;A8|
@@ -4066,11 +4108,11 @@ Did not find any drivers!
 Did the application enable the required instance/device extensions?
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 Disabling advanced image processing of scene textures. Only enabled on latest OSs.
 Disabling texture compression on '%s' due to destination texture format.
@@ -4151,7 +4193,6 @@ EgH9Q@t
 EgH9S@t
 EgH;X
 EgI9V
-Eh+E 
 Empty escape sequence in string
 Empty file.
 Enabling LiquidVR fallback path due to missing extension: %s
@@ -4181,7 +4222,7 @@ Error vkEnumerateInstanceLayerProperties in %d
 Error while parsing option value for "
 Error! Cannot allocate %d bytes for full mip chain for %s
 Error! EventWriteString Severe: %s
-Error! Failed to create shader resource view for %s
+Error! Failed to create shader resource view for %s result %08x
 Error! Failed to load %s
 Error! Unable to load image %s: %s
 Error: LiquidVR CreateALVRDeviceExD3D11 failed (%d)
@@ -4246,6 +4287,7 @@ F0L;G
 F8I+F0H
 F9D	$
 F9D	$t
+F9D!$t
 F@;G t
 F@@8h)u
 FACET_VULKAN_VALIDATION
@@ -4341,7 +4383,9 @@ Failed to find entrypoint WINRT_WaitForPresent
 Failed to find interface '%s'
 Failed to find system resource manifest %s.
 Failed to get AllowSteamOverlays setting (%s). Allowing by default.
+Failed to get allowDesktopBPMWithVRGamepadUI setting (%s). Disallowing by default.
 Failed to get graphics adapter LUID for EDID VendorId=%#04X
+Failed to get steamMatchesHMDFramerate setting (%s). Allowing by default.
 Failed to import client event handle from pipe %s after connecting
 Failed to import server event handle from pipe %s after connecting
 Failed to init camera frame buffering for device index %u
@@ -4574,6 +4618,7 @@ G8$(u
 G8<1u
 G8@8n4t{H
 G8D8t$8t/A
+G8D9B
 G@A;A t
 G@H9A@t	E
 GHiVX
@@ -4717,6 +4762,7 @@ H+q@HcO,H
 H+t$ H
 H+t$@H
 H+|$ H
+H-^Eu
 H0Ic@,Hc
 H8H+H0H
 H8H+H0L
@@ -4729,8 +4775,6 @@ H92u&
 H92u,
 H93t	H
 H948t
-H95(KF
-H95jMF
 H98t	H
 H9;uAA
 H9A H
@@ -4820,11 +4864,14 @@ H;0t(H
 H;0u7
 H;0u8H
 H;0u:H
-H;5e2*
+H;5r7=
 H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
+H;= 12
+H;=4x>
+H;=Zx>
 H;A s
 H;Axt
 H;C(v
@@ -4881,7 +4928,7 @@ H;\$p
 H;] tDH
 H;]@t
 H;]Pt&
-H;^8t"
+H;^8t
 H;^8u
 H;_ t+H
 H;_ t,H
@@ -4893,7 +4940,6 @@ H;q s
 H;s(r
 H;t$`
 H;t$`A
-H;t$hu
 H;w s
 H;y s
 H;y(r
@@ -4952,7 +4998,6 @@ HcB,A
 HcB,H
 HcC(N
 HcC,H
-HcD$PH
 HcD$x
 HcD7,A
 HcE'H
@@ -4996,9 +5041,9 @@ HcOXH
 HcT$$
 HcT$xM
 HcUgA
-HcV|H
 HcW,H
 HcW,L
+HcW|H
 HcY(I
 Hc\$ 
 Hct$0
@@ -5008,6 +5053,7 @@ HeapAlloc
 HeapFree
 Hex and octal numbers must be integers.
 Hi Joe(D). Your text goes here
+HiD$8
 HiL$ 
 HiL$  
 Hmd DriverId is invalid (125)
@@ -5055,6 +5101,7 @@ I;Q s
 I;Q s?I
 I;T$ 
 I;V8r
+I;X s
 I;\$ t
 I;\$`I
 I;\$`u
@@ -5268,6 +5315,15 @@ IVRSteamPrivate_003
 IVRSteamPrivate_004
 IVRSteamPrivate_005
 IVRSteamPrivate_006
+IVRSteamPrivate_007
+IVRSteamPrivate_008
+IVRSteamPrivate_009
+IVRSteamPrivate_010
+IVRSteamPrivate_011
+IVRSteamPrivate_012
+IVRSteamPrivate_013
+IVRSteamPrivate_014
+IVRSteamPrivate_015
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID
@@ -5455,6 +5511,7 @@ KfD;3u
 KpH+KhH
 KpLcW4
 K}*n:	
+L (fD
 L#N0H
 L#O0H
 L#Q0L
@@ -5495,6 +5552,7 @@ L$ SWH
 L$ UATAUAVAWH
 L$ USAWH
 L$ UVWATAUAVAWH
+L$ UVWAWH
 L$ UWATAUAVAWH
 L$ UWAUAVAWH
 L$ UWAUAVH
@@ -5520,7 +5578,7 @@ L$0H3
 L$0H9
 L$0H;
 L$0H;L$xtKH
-L$0I+
+L$0Hc
 L$0I9H@t
 L$0M;
 L$0fE
@@ -5595,12 +5653,12 @@ L$`LcC,B
 L$`M;
 L$`fD
 L$`fH
+L$`fff
 L$h;^H
 L$hE3
 L$hH3
 L$hH;
 L$hM9
-L$p?H
 L$pE2
 L$pE3
 L$pH+
@@ -5627,13 +5685,12 @@ L+Q@I
 L8 9J
 L8$9J
 L9 t'H
-L9%/^'
 L9&u"
 L90t	H
 L92u'
 L93t	H
 L97u0H
-L9>u	H
+L9?u,H
 L9@ s
 L9A r
 L9B s
@@ -5669,9 +5726,7 @@ L9sHr]uSH
 L9t$0v.H
 L9t$@
 L9t$ht
-L9u(t
 L9u(u-H
-L9uht
 L9uoH
 L9v viI
 L9v8ukH
@@ -5732,6 +5787,7 @@ LABEL_REQUIRED
 LINEAR
 LITE_RUNTIME
 Label
+Language
 LastKnown
 LaunchApp
 Lc E3
@@ -5785,9 +5841,9 @@ M+HPI
 M,fff
 M8I;E
 M9 t13
-M91u?3
-M91uJ3
 M98u/
+M99u?3
+M99uI3
 M9<$vW
 M9H s
 M9M0t!
@@ -5796,8 +5852,6 @@ M9g M
 M9g8I
 M9oHu
 M9o`uQL
-M9w8t
-M9w8tJH
 M9x t
 M9x(t
 M9x0t
@@ -5809,6 +5863,9 @@ M9xXt
 M9x`t
 M9xht
 M9xpt
+M9|$0
+M9|$8t
+M9|$8tdH
 M;<$r
 M;A r
 M;C(s
@@ -5833,7 +5890,6 @@ Messages can't have default values!
 Messages can't have default values.
 MethodDescriptorProto
 MethodOptions
-Mh+M 
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Microsoft/Windows/OpenVR/controller
@@ -5899,6 +5955,7 @@ NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
 O(;H(}+I
 O(H9Q
 O0H9Q
+O8<\u
 OPAQUE
 OPENGL32.dll
 Object
@@ -5972,6 +6029,7 @@ PS_PANORAMA
 PS_QUAD
 PS_SAMPLESCENE
 PS_SAMPLESCENE0
+PS_STENCIL
 Parse error in system resource manifest %s.
 Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON file "%s" failed: %s
@@ -6198,7 +6256,6 @@ PropertyContainerCreation
 Protocol Buffer reflection usage error:
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
-Pt Ej
 Purging all shared textures because the connection to vrserver was lost
 Pz}b!
 Q H9P 
@@ -6454,6 +6511,7 @@ Skipping simulated trigger action %s(%d) because it doesn't have an output actio
 Skipping starting apps because we're in an app container
 Sleep
 SleepConditionVariableCS
+Software\Valve\Steam
 Software\Valve\Steam\ActiveProcess
 Somebody beat us to creating event %s to go with pipe %s in WaitForConnection
 Somebody else should have created event %s to go with pipe %s in WaitForConnection
@@ -6481,6 +6539,7 @@ SteamXR Interop Device
 String literals cannot cross line boundaries.
 StringOutputStream.
 Submit
+Submit: %s
 SubmitExplicitTimingData - Explicit timing mode not enabled, must be enabled to submit explicit timing data.
 Successfully changed app type
 Successfully reconnected to server
@@ -6576,6 +6635,7 @@ T$`E3
 T$`H9T$ht
 T$`H;
 T$dE3
+T$hE3
 T$hH;T$pu
 T$lL+
 T$pD;
@@ -6587,6 +6647,7 @@ T$xE3
 T$xH;
 T$xL+
 T$xL;
+T5_d'
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -7528,6 +7589,7 @@ VS_MAIN
 VS_MOTION
 VS_PANORAMA
 VS_QUAD
+VS_STENCIL
 VUUUH+M
 VWATAUAVH
 VWATAUAWH
@@ -7574,13 +7636,12 @@ VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared text
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
 W H;C
 W$H;C
-W%{U/
 W(H;C
 W(LcB
 W,H;C
 W0H;C
-W5<?%
-W5d[#
+W5Sm%
+W5|m%
 W8H+W`I
 W8H;C
 W<H;C
@@ -7637,6 +7698,7 @@ WebInterface
 WhH;C
 WideCharToMultiByte
 WlH;C
+Wn0q8
 WriteBooleanValue - %s, time= %llu, origin=%s
 WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
@@ -8036,10 +8098,12 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%EE#
-Y53K#
+Y%uq#
+Y5G9(
+Y5cw#
 Y9"SD
-Y=4K#
+Y=C[$
+Y=dw#
 Y>t$7?*
 YD$8E
 Yl$ M
@@ -8376,6 +8440,7 @@ ZvFailed to create fence %ls.
 \$PL9I(uA
 \$PfD
 \$Pu@
+\$TD;
 \$XE3
 \$XH;
 \$XHc
@@ -8406,7 +8471,6 @@ ZvFailed to create fence %ls.
 \$xHk
 \%03o
 \10I;
-\M%Or
 \U%08x
 \\.\pipe\
 \mfpmp.exe
@@ -8420,7 +8484,7 @@ ZvFailed to create fence %ls.
 ] is not a JSON object.
 ] name = "
 ] name = [
-]5(80
+]5({0
 ]9k0tVD
 ]@L9{(
 ]HH;]Pt8
@@ -8579,6 +8643,7 @@ _wstat64i32
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
 `x@SH
+a7hIw
 abort
 accessor[
 accessors
@@ -8599,6 +8664,7 @@ active
 activeActionSets
 activeOrigin
 actual_mailbox_name
+add_pending_release_texture
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
 aggregate_value
@@ -8606,6 +8672,7 @@ alias_info
 alias_info field exists, but it is not an object
 alias_name
 allowComments
+allowDesktopBPMWithVRGamepadUI
 allowDroppedNullPlaceholders
 allowNumericKeys
 allowSingleQuotes
@@ -8759,6 +8826,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openxr_utils.h
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\rendermodelmanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrkeyboard.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
@@ -8810,11 +8878,9 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\skeletalinpututils.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp
 c:\fake_app_container_config_path
 c@L+c8D
 cPL+cHI
-cU	F9
 camera
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -8844,7 +8910,6 @@ chaperone_info
 children
 chord_%d_%lu
 chords
-clear_overlay_texture
 clear_stage
 click
 click_activate_threshold
@@ -9483,6 +9548,7 @@ k_eControllerAxis_None
 k_eControllerAxis_TrackPad
 k_eControllerAxis_Trigger
 keyboard
+keyboard_vrwebui
 keylength >= 2^30
 khr_simple_controller
 knuckles
@@ -9535,6 +9601,7 @@ l$PI;
 l$PM9n
 l$TD;
 l$X9C
+l$XD+
 l$XH;
 l$XL+
 l$XM;
@@ -9551,6 +9618,7 @@ l$pM+
 l$xE3
 l$xHc
 l$xLc
+l2|X/gGe
 label
 language
 language_tag
@@ -9598,6 +9666,7 @@ m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_acquiredFrameIndices.size() > 0
 m_bIsInitialized
+m_data.details.hImportHandle.Valid()
 m_eMutexOwnership != MutexOwnership_t::D3D11
 m_eMutexOwnership != MutexOwnership_t::Vulkan
 m_eMutexOwnership == MutexOwnership_t::D3D11
@@ -9684,6 +9753,7 @@ mimeType
 minFilter
 minVersion
 minimum_required_version
+mip_levels
 mirror_actions
 missing
 missing binding_url in default binding
@@ -9709,6 +9779,7 @@ nNumCoordinates > 0
 nParentBoneIndex != k_unInvalidBoneIndex
 nProcessId == data->m_nSceneFocusProcessId
 nSampleCount > 0 && nSampleCount <= 64
+nSizeInBytes <= m_unSizeInBytes
 negative_int_value
 nested_type
 new_application_type
@@ -9755,6 +9826,7 @@ oD$0f
 oD$0fD
 oL$ f
 oT$0f
+oWRw4
 object
 object key
 object separator
@@ -9850,7 +9922,7 @@ pQueue->GetMetaContainerHandle() == ulExistingQueue
 pReport->m_nReportId != 0
 pResource
 pSourceBuffer
-pSourceBuffer->m_unSizeInBytes >= nSourceOffset + m_unSizeInBytes
+pSourceBuffer->m_unSizeInBytes >= nSourceOffset + nSizeInBytes
 pSrcVertices != nullptr && pDstVertices != nullptr
 pSwapchain
 pSwapchain != nullptr
@@ -10114,7 +10186,6 @@ shaders/d3d11/distort_ps.fxo
 shaders/d3d11/distort_ps_achromatic.fxo
 shaders/d3d11/distort_ps_achromatic_alphaed.fxo
 shaders/d3d11/distort_ps_achromatic_layered.fxo
-shaders/d3d11/distort_ps_achromatic_se1.fxo
 shaders/d3d11/distort_ps_achromatic_se2.fxo
 shaders/d3d11/distort_ps_gamma.fxo
 shaders/d3d11/distort_ps_gamma_mc.fxo
@@ -10269,7 +10340,6 @@ shaders/vulkan/distort_ps.spv
 shaders/vulkan/distort_ps_achromatic.spv
 shaders/vulkan/distort_ps_achromatic_alphaed.spv
 shaders/vulkan/distort_ps_achromatic_layered.spv
-shaders/vulkan/distort_ps_achromatic_se1.spv
 shaders/vulkan/distort_ps_achromatic_se2.spv
 shaders/vulkan/distort_ps_gamma.spv
 shaders/vulkan/distort_ps_gamma_mc.spv
@@ -10321,6 +10391,11 @@ shaders/vulkan/msaa_resolve_8x_ps.spv
 shaders/vulkan/msaa_resolve_vs.spv
 shaders/vulkan/panel_mask_ps.spv
 shaders/vulkan/panel_mask_vs.spv
+shaders/vulkan/portal_stencil_apply_disp_vs.spv
+shaders/vulkan/portal_stencil_estimate_disp_ps.spv
+shaders/vulkan/portal_stencil_estimate_disp_vs.spv
+shaders/vulkan/portal_stencil_ps.spv
+shaders/vulkan/portal_stencil_vs.spv
 shaders/vulkan/testgrid_cs.spv
 shaders/vulkan/tracked_camera_edgefilter_ps.spv
 shaders/vulkan/tracked_camera_edgefilter_vs.spv
@@ -10423,6 +10498,7 @@ statusicons
 steam.app.
 steam.exe
 steam.overlay.
+steamMatchesHMDFramerate
 steamtours.exe
 steamvr
 steamvr.vrsettings
@@ -10557,11 +10633,11 @@ t	9P A
 t	D82
 t	D;y0s
 t	L90
+t	M9>t
 t LcC
 t!HcO4E
 t!LcD$PH
 t";l$xs
-t"M9u
 t#@8(t
 t#HcO4D
 t#fff
@@ -10665,6 +10741,7 @@ t$XE3
 t$XH;
 t$`8Y
 t$`D;
+t$`E2
 t$`E3
 t$`H;
 t$`I+
@@ -10707,7 +10784,7 @@ t1fff
 t3fff
 t4L9P
 t7fff
-t8D8-	
+t8D8-
 t9fff
 t:fff
 t<Lc@xE
@@ -10722,6 +10799,7 @@ tFH;Y r@H
 tFfff
 tHI9t$
 tJL;y rDH
+tMM9>tH
 tNI;X rHI
 tQH95
 tRNS after IDAT
@@ -10732,6 +10810,7 @@ tUL9l$ptNH
 tXH+A
 tXfff
 t[H+A
+t`M9>t[
 target
 targets
 tb9l$Xt@9n$~;
@@ -10748,6 +10827,7 @@ texture
 texture0
 texture1
 texture2
+texture_handle
 textures
 tgfff
 th_th
@@ -10763,8 +10843,6 @@ thumbstick_settings
 thumbstick_settings_%s
 thumbstick_system_override
 ti<	u#
-tiL97td
-tiM9u
 timeBeginPeriod
 timeEndPeriod
 timeKillEvent
@@ -10842,6 +10920,7 @@ u4H9X s
 u5H9t$0u.H
 u9fff
 u<H9^xtLH
+u=L96u8A;
 u>D8}
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -10878,6 +10957,8 @@ unMyPID == data
 unProcessID
 unSamples == 1 && unArraySize >= 1
 unSize < 65536
+unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
+unSizeInBytes <= pVertexBuffer->unSize
 unable to allocate vkBuffer-associated memory
 uncbVREvent <= sizeof( vr::VREvent_t )
 unexpected 
@@ -10923,6 +11004,7 @@ value_type
 values
 valve.steam.desktop
 valve.steam.desktopgame.
+valve.steam.gamepadui.
 variant
 vb'vb'v
 vector1
@@ -11439,6 +11521,7 @@ vr-marker,frame_end,type,application
 vr_filename
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
+vr_internal::VRClientInternal()
 vr_internal::VRSettings() != nullptr
 vr_messages.proto
 vr_messages.proto"
@@ -11520,7 +11603,7 @@ xA]^[]
 xA^A\_^][
 xA_A^A]A\][
 xA_A^_^][
-xL97t
+xL9?t
 x_^][
 x_path
 xdigit
@@ -11663,8 +11746,8 @@ zh_tw
 zlib corrupt
 znear
 zuusA
-{ "type": "hide_keyboard" }
-{ "type": "show_keyboard" }
+{ "type": "keyboard_hidden" }
+{ "type": "keyboard_shown" }
 { AVH
 {%s}%s
 {,	u#
@@ -11713,6 +11796,7 @@ zuusA
 |$0Mc
 |$0ff
 |$0t@I
+|$0u)H
 |$0uDH
 |$0w1
 |$4$u
@@ -11743,6 +11827,7 @@ zuusA
 |$HI+
 |$HL+
 |$HL;
+|$HM9
 |$Hff
 |$L!u
 |$L!u	
@@ -11782,11 +11867,10 @@ zuusA
 |$xIi
 |$xIk
 |$xL;
-|$xMi
+|$|!u
 |8PH;
 |D8E t"H
 |Lu?c
-|OO<K
 |s;K(tnA
 }(Hcv4I
 }(M98t

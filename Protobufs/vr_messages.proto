@@ -385,6 +385,7 @@ message CVRMsg_CompositorNewSharedImage {
 	optional bool renderable = 4;
 	optional bool mappable = 5;
 	optional bool compute_access = 6;
+	optional uint32 mip_levels = 7;
 }
 
 message CVRMsg_CompositorNewSharedImageResponse {

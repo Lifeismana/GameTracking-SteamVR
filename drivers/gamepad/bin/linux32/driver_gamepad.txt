@@ -177,7 +177,7 @@
  pthread_setname_np
  pthread_setschedparam
  pthread_setspecific
- r CSWTCH.211
+ r CSWTCH.210
  r __FRAME_END__
  r crc32(unsigned int, void const*, unsigned int)::crcTable
  r terminator.3

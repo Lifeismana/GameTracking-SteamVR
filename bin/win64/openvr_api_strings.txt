@@ -4,6 +4,7 @@
 																																												
 	!s99
 	kE>fvw
+	s)=Kz
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
@@ -53,6 +54,7 @@
 !~?s5
 "e?<<<<<<l?
 "f9;t
+"r'^;~
 #])#	
 $+xvA
 $< t6<$t,<+t"<vt
@@ -72,7 +74,6 @@ $iMBm
 %m / %d / %y
 &<	x4;O
 &?PPPPPPP?
-&j}wW
 &uo r
 ' is not a number.
 ',=?k
@@ -126,7 +127,6 @@ $iMBm
 ,0<	w
 ,HR>O
 ,I<%w
-,KuXt
 ,W5y+
 ,t0D9J0v*L
 ,zeDo
@@ -359,6 +359,7 @@ $iMBm
 .xJ>Hf
 .xdata
 .xdata$x
+.~(n	
 /2GG>!B
 />58d%
 /user/ankle/left
@@ -400,7 +401,6 @@ $iMBm
 0A__^
 0A__^[]
 0X8b?~
-0Y]!o
 0iN>/
 0w0c1
 0}0i1
@@ -416,15 +416,15 @@ $iMBm
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727202845Z0/
+230714000000Z
+230807192709Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -502,11 +502,9 @@ $iMBm
 ;H9>&X
 ;I9}(tiH
 ;\$p|
-;pG	=]
 <	w	@
 < t;<	t7
 <%ufH
-<*J=)
 </u#H
 <0:08
 <:u/H
@@ -574,7 +572,6 @@ $iMBm
 @A_A^_^]
 @HcC(H
 @LcqHD
-@N<j%
 @SAUAVAWH
 @SAVAWH
 @SUVWATAUAVAWH
@@ -869,11 +866,11 @@ Device Calibration is invalid (207)
 Device is not calibrated (206)
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 Dl$8E
 Driver Failed (200)
 Driver Not Known (201)
@@ -1016,6 +1013,7 @@ H+WpA
 H+WpH
 H+\$0H
 H+|$8
+H-^Eu
 H3\$HH
 H97uWH
 H98t%H
@@ -1295,7 +1293,7 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-RSDSD
+R?5h\
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1316,6 +1314,7 @@ RtlVirtualUnwind
 S0Q0O
 S;\$0tH
 S>$hkDh$h>[2
+SA<kxE
 SA|X=G
 SHELL32.dll
 SHGetFolderPathW
@@ -1415,6 +1414,7 @@ UVWAUAWH
 UVWAVAWH
 UWATAVAWH
 UWAVH
+UfP2z,7Z
 UmsThreadYield
 Unable to connect to Oculus Runtime (1000)
 Unable to connect to Oculus Runtime, possible bad install (1114)
@@ -1433,7 +1433,6 @@ UnregisterWaitEx
 UpdateProcThreadAttribute
 User Canceled Init (116)
 User Config Directory Invalid (107)
-V6B"^y
 V6E>`"(5
 VATAVH
 VD$Pf
@@ -1699,7 +1698,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-VeP)" 
 VirtualAlloc
 VirtualFree
 VirtualProtect
@@ -1855,6 +1853,7 @@ _oD>Kg
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
+a7hIw
 a8&Y.
 abcdefghijklmnopqrstuvwxyz
 additional six characters expected to parse unicode surrogate pair.
@@ -1892,7 +1891,6 @@ c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
-cU	F9
 ceLfdfK3
 cg+tY
 collectComments
@@ -1993,6 +1991,7 @@ file too large
 filename too long
 floor
 frexp
+ft$&p
 function not supported
 generic
 gfe[D
@@ -2047,9 +2046,9 @@ jj@0HK4
 k0i0$
 kB0[/
 kC2\/
-kOnW!}
 kXL9sHu
 keylength >= 2^30
+kw	xwF
 l$ E3
 l$ H;
 l$ H=
@@ -2074,10 +2073,10 @@ l$`E;
 l$xM+
 l*$D+l*,tDD+l*(
 l*JHD
+l2|X/gGe
 ldexp
 log10
 lq%&1T
-m	gk1
 m0k0$
 map/set<T> too long
 message size
@@ -2136,6 +2135,7 @@ p WAVAWH
 p*E?(
 pA_A^A]A\_^[
 pA_A^A]A\_^]
+pBqO5!
 pContext
 pEvents
 pExecutionResource
@@ -2158,6 +2158,7 @@ r9D8v
 rB-<e*
 rBu/H
 rLp>B
+rU6'd&qK
 raB3G
 rcf9#b3
 read only file system
@@ -2329,6 +2330,7 @@ yH;YXtl
 y\PD>!
 y^QZ8(O*
 ygCH2
+zHC(#
 zY;>u:m	
 zwom}
 { ATAVAWH

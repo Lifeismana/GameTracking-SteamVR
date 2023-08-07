@@ -57,7 +57,6 @@
 (t$PL
 (unknown)
 )D$ L
-)eFh\P
 )t$ H
 +Xt@(
 +o'q)}
@@ -70,6 +69,7 @@
 ,W5y+
 -1e+9999
 -Infinity
+-TZ?T
 .  Does it exist?
 .  Max supported version is 
 .00cfg
@@ -163,8 +163,8 @@
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727203257Z0/
+230714000000Z
+230807193212Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -172,7 +172,7 @@
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-331121235959Z0F1
+341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -185,12 +185,10 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7mi0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;n9zt
-<*J=)
+;@]KHX
 <0:08
 =rIQU
 >0<0:
@@ -387,11 +385,11 @@ DeleteCriticalSection
 Destroying LoaderInstance = 
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 DisableThreadLibraryCalls
 Duplicate key: '
 E8,9u
@@ -413,6 +411,7 @@ Failed to find default runtime with RuntimeInterface::LoadRuntime()
 Failed to open dynamic library 
 FindFirstFileW
 FindNextFileW
+Fk1rl7
 FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
@@ -437,6 +436,7 @@ H+SpI
 H+WpH
 H+WpI
 H+WpJ
+H-^Eu
 H9Ahs
 H9E8u$H
 H9Qhv#H
@@ -446,10 +446,10 @@ H;Cxu
 H;Y t
 H;k u
 HA_A]_[
+I	iQd
 I#V0I
 I9Bhs
 I9W(t
-Ib1`p<
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Implicit layer 
 Infinity
@@ -529,7 +529,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSb
+RSDSo^Q;
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -665,7 +665,6 @@ Y9"SD
 \ApiLayers\Explicit
 \ApiLayers\Implicit
 \u=H;
-].|$-
 ]J<0"0i3
 _Cnd_broadcast
 _Cnd_destroy_in_situ
@@ -711,6 +710,7 @@ _unlock_file
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
+a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
 allowComments
@@ -729,11 +729,11 @@ api-ms-win-crt-string-l1-1-0.dll
 api_layer
 api_version
 application name missing NULL terminator.
+avjFh
 bad allocation
 bad array new length
 bad cast
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
-cU	F9
 collectComments
 d$ UAVAWH
 d$PE3
@@ -808,12 +808,14 @@ l$PH;1u;H;
 l$pE3
 l$ptNH
 l$pu!H
+l2|X/gGe
 labelInfo must be non-NULL
 layer 
 library_path
 list<T> too long
 localeconv
 m0k0$
+mF'4$m
 malloc
 map/set<T> too long
 memchr
@@ -824,6 +826,7 @@ memset
 must be non-NULL
 nfinity
 ntelD
+oD%cv"7
 openxr/
 openxr_loader.dll
 rejectDupKeys
@@ -860,9 +863,7 @@ t$HM;
 t$PH=
 t$`HcH
 t$xH;
-t918b
 t9H9h
-td9	:
 tmfff
 ungetc
 unknown type in properties
@@ -980,6 +981,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
+{[64L_ |
 {un'%
 |$ ATAVAWH
 |$ AVH

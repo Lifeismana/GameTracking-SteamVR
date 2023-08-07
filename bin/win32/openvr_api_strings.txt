@@ -71,6 +71,7 @@ $iMBm
 +S@H#
 +Xt@(
 +Z$cH
++[(.L
 +o'q)}
 +p$+p
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
@@ -420,7 +421,6 @@ $iMBm
 1e+9999
 1eaB@
 1q4~4
-1xM. 
 2 2$2(2,2024282D2H2L2P2T2X2l2p2t2x2
 2 2$24282<2@2D2L2d2t2x2
 2 2(202
@@ -451,8 +451,8 @@ $iMBm
 211007000000Z
 220323000000Z
 220801000000Z
-220921000000Z
-230727202635Z0/
+230714000000Z
+230807191750Z0/
 241009235959Z0a1
 242<2D2L2T2\2l2
 242B2I2O2t2
@@ -506,7 +506,7 @@ $iMBm
 303T3`3h3
 311109235959Z0b1
 323?3
-331121235959Z0F1
+341013235959Z0H1
 343@3`3h3t3
 343e3
 354U4b4%5
@@ -957,7 +957,6 @@ $iMBm
 <(<0<4<D<h<t<|<
 <)<:<u<
 <*<7<T<[<`<i<p<w<
-<*J=)
 <,<0<@<D<L<d<h<
 </<O<
 <0:08
@@ -1145,7 +1144,6 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
-B}SK_
 C WVP
 C$F;w
 C'db-N
@@ -1195,11 +1193,11 @@ Device Calibration is invalid (207)
 Device is not calibrated (206)
 DigiCert Assured ID Root CA0
 DigiCert Inc1
-DigiCert Timestamp 2022 - 20
+DigiCert Timestamp 20230
 DigiCert Trusted Root G40
+DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
-DigiCert1$0"
 Driver Failed (200)
 Driver Not Known (201)
 Driver Not Loaded (203)
@@ -1332,6 +1330,7 @@ Gh;G<
 Gl;Gx
 GrvD)
 GxVPR
+H-^Eu
 HH:mm:ss
 HMD Not Known (202)
 HMD already in use by another application (205)
@@ -1492,6 +1491,7 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
+RSDSg
 RWQSV
 R\hvv
 RaiseException
@@ -1969,6 +1969,7 @@ _tcPVj@
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
+a7hIw
 a8&Y.
 abcdefghijklmnopqrstuvwxyz
 additional six characters expected to parse unicode surrogate pair.
@@ -1999,8 +2000,8 @@ broken pipe
 c%;>7
 c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
 cD5U3#eF7v\NV5%J%
+cF:8z
 cRpp`
-cU	F9
 ceLfdfK3
 cg+tY
 collectComments
@@ -2077,7 +2078,6 @@ ios_base::failbit set
 iostream
 iostream stream error
 is a directory
-isU>{
 iu+-,
 j	PjYV
 j(h(!
@@ -2103,6 +2103,7 @@ kW$4k_(4
 keylength >= 2^30
 l*JHD
 l,kg<i
+l2|X/gGe
 ldexp
 log10
 lq%&1T
@@ -2111,7 +2112,6 @@ m1WY$
 map/set<T> too long
 message size
 n;w0tc
-nD=HXg
 nan(ind)
 nan(snan)
 network down
@@ -2166,7 +2166,6 @@ permission denied
 ppVirtualProcessorRoots
 protocol error
 protocol not supported
-pw+XS
 pwJt8
 q)]2<Mt
 qe^3!Y-
