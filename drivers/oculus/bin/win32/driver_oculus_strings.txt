@@ -71,10 +71,10 @@ $9^ t
 %UUUU
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
+%j!lT
 %s begin_ctx=%llu
 %s end_ctx=%llu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&uV&&
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -98,7 +98,6 @@ $9^ t
 (Unable to load LibOVR)
 (f*^[0
 )7m9>:X:
-)GGgO
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 +Xt@(
@@ -459,7 +458,7 @@ $9^ t
 220801000000Z
 222>2N2c2
 230714000000Z
-230807191942Z0/
+230817004405Z0/
 232;2R2Z2n2
 241009235959Z0a1
 293E3
@@ -512,7 +511,6 @@ $9^ t
 311109235959Z0b1
 31363;3@3E3J3O3T3Y3^3c3h3m3r3w3|3
 31393I3b3r3{3
-32!FH
 341013235959Z0H1
 343X3d3l3
 360428235959Z0i1
@@ -1116,7 +1114,6 @@ $9^ t
 ?J?h?m?u?{?
 ?L?j?o?w?}?
 ?POSITION
-?Vonr
 ?Y?~?
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
@@ -1462,6 +1459,7 @@ Oculus touch %s controller state %s.
 Oculus tracker %s %s.
 Oculus tracker driver rejected by vrserver
 Oculus\Support\oculus-runtime
+Og7d*
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenEventW
 OpenProcess
@@ -1485,7 +1483,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
 RPVhh
-RSDS9
+RSDS~i*
 RaiseException
 ResetEvent
 S0Q0O
@@ -1582,6 +1580,7 @@ WinVerifyTrust
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
+[7\$_
 [K]taM?
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -1598,6 +1597,7 @@ Y__^[
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [Qh@H
 [json.exception.
+\ l-h
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -1817,6 +1817,7 @@ const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 corrupt
 count
 cs_cs
+cy'Q["
 czech
 d3d11.dll
 d<h<l<p<t<
@@ -2207,6 +2208,7 @@ roundf
 ru_ru
 russian
 s(+CD
+s\GiM
 sampler
 samplers
 scale
@@ -2396,7 +2398,6 @@ t	_^2
 t$,RW
 t$j$h@L
 t?h4N
-tLhF-
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -2436,7 +2437,6 @@ u?jHQ
 uBf9C
 uCVj@
 uEVj@
-u^_2/
 ua_ua
 ukranian
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
@@ -2489,6 +2489,7 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
+{d#"0K
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png

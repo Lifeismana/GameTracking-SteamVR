@@ -12,10 +12,12 @@
  A__[
  A__^
  H3E H3E
+ QqO/E
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
+#^2rXX
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -181,7 +183,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230807194221Z0/
+230817005625Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -201,11 +203,13 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+82]/+&
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 9D$xu
 9D$|toH
+:p.U%&
 < t+<
 </u#H
 <0:08
@@ -650,6 +654,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
+O!Vfq
 OLEAUT32.dll
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
@@ -665,7 +670,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS&
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -794,6 +798,7 @@ WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
 Y9"SD
+Z(EbY
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -924,7 +929,6 @@ finnish
 fr_fr
 frame_time
 french
-gW^j/[
 german
 gfffffffH
 gfffffffI
@@ -1096,6 +1100,7 @@ zh_tw
 |$PL9~
 |$hH9>ueH
 |$pH+
+|F6xQg%
 |Lu?c
 }LuHO
 ~qj#k"

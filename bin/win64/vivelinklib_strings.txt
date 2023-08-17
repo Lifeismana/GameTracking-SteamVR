@@ -111,6 +111,7 @@
 +9kdt	H
 +Xt@(
 +o'q)}
+,3e-T
 ,W5y+
 -1e+9999
 -ADDR %s
@@ -228,7 +229,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230807192755Z0/
+230817004333Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -682,12 +683,10 @@ H;KPu
 H;OPu	
 H;^Ht
 H;^Pu	H
-H= ,d
 HA_A^A]A\_^][
 HA_^][
 HTC BS
 HcMxI
-I,".I
 I9Bhs
 I;4$L
 I@H9k8u
@@ -802,6 +801,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 PipeInit
 Progress: %d%% (%d/%d)
 Pz}b!
+Q;!CC
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -819,7 +819,6 @@ RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 Running
-R|,	T
 S0Q0O
 SA|X=G
 SCAN -NAME "%s" -T %X
@@ -920,6 +919,7 @@ VL2_Reset
 VL2_WriteCommand
 VL2_WriteWithResponse
 VL2_WriteWithoutResponse
+VO`;/
 VWATAUH
 VWATAVAWH
 VWAUAVAWH
@@ -1044,7 +1044,6 @@ Windows Vista
 Windows XP
 WriteFile
 XA]A\_^
-Y*'="
 Y9"SD
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1172,7 +1171,6 @@ fputs
 fread
 fseek
 ftell
-g:V*i,7
 gfffffffH
 gfffffffI
 gfffffffL
@@ -1213,7 +1211,6 @@ invalid window size
 isxdigit
 jj@0HK4
 k0i0$
-ksbrM
 l$ H;
 l$ H=
 l$ VWATAVAW
@@ -1240,7 +1237,6 @@ memmove
 memset
 need dictionary
 ntelD
-o98q#"
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
@@ -1332,6 +1328,7 @@ vivelink-driver.txt
 vivelink-output.txt
 vivelink.exe
 vivelinklib.dll
+w:H0o
 win64
 wn>Jj
 www.digicert.com1!0
@@ -1339,7 +1336,6 @@ www.digicert.com1$0"
 xA\^][
 xAtAL
 xdigit
-{'8pn
 {un'%
 {x\u!H
 {|?uWH

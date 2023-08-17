@@ -30,7 +30,6 @@
 		"useRawDepthHistory" : true,
 	!s99
 	#jT$
-	9kmL
 	CODE_SIZE
 	D$HA
 	Edid already edid_id %d and hdcp14legacycompat %d, no change needed
@@ -621,7 +620,6 @@ $w!Hc
 'D9c0t
 '[', '{', or a literal
 'f?FO-
-'nKr*6d
 'uri' is missing from non binary glTF file buffer.
 (;^,|
 (;s,|
@@ -1236,6 +1234,7 @@ $w!Hc
 .xdata
 .xdata$x
 /1v]H
+/5LF	
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1394,7 +1393,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230807193018Z0/
+230817004447Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1563,7 +1562,6 @@ $w!Hc
 : exception thrown in JSON library
 : one or more FS callback not set
 : ppm=
-:#193OL
 :0u(H
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
@@ -2970,6 +2968,7 @@ DuplicateHandle
 E$HcM H
 E(L9M
 E)eHD
+E+k	=F\
 E0H+E(H
 E0Lc$
 E8g(tDD8
@@ -3471,7 +3470,9 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=#7
+H;=C8
+H;=S7
+H;=[0
 H;Axt
 H;B0t
 H;C sAH
@@ -4411,7 +4412,6 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDS(
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4467,7 +4467,6 @@ RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S	[JD$
 S H9K
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
@@ -4987,6 +4986,8 @@ VK_NV_compute_shader_derivatives
 VR Path Registry node %s is not an array
 VRAudioDevices_Init
 VRC-%s
+VRInitError_Compositor_CannotConnectToDisplayServer
+VRInitError_Compositor_CannotDRMLeaseDisplay
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
 VRInitError_Compositor_CreateBackbufferDepth
@@ -5060,6 +5061,7 @@ VRInitError_Compositor_FailedToGetDXGIDeviceInterface
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_GnomeNoDRMLeasing
 VRInitError_Compositor_InvalidAdapterDesktop
 VRInitError_Compositor_InvalidDeviceProvided
 VRInitError_Compositor_InvalidHmdAttachment
@@ -6007,7 +6009,6 @@ eNUM_EYES
 ePIcD$ 
 eRender
 e_H9U
-eaS'!
 echo %127s
 effffff
 el_el
@@ -7175,12 +7176,13 @@ t~L9=~
 u	A;p(s
 u	A;y(s
 u	D;X
+u#9}(w	A
 u#D9A
-u'9}(u
 u(HcI(H
 u(K9<
 u)IcA,D
 u.fA9q
+u09}(u
 u0f;M
 u18E4t
 u2H9P s
@@ -7955,6 +7957,7 @@ zuusA
 }`H+}XH
 }o;Dr_
 }w;Dr_
+}{(Zh+A
 ~'HcB
 ~+fff
 ~-HcK,H+

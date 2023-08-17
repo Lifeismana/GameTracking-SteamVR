@@ -35,6 +35,7 @@
  sIE3
 !T$(H!T$ 
 !hn7!
+!v>"J_
 $+xvA
 $< t6<$t,<+t"<vt
 %.0Lf
@@ -45,6 +46,7 @@ $< t6<$t,<+t"<vt
 %d / %m / %y
 %m / %d / %y
 ',=?k
+'xD^u<C
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
 (A^A\_[
@@ -75,12 +77,12 @@ $< t6<$t,<+t"<vt
 )D$PH
 )D$PM
 )D$`I
-)]j13L
 )t$ A
 )t$ H
 )t$ I
 )t$0H
 )t$`H
+*AR9T9
 +J$D8M@
 +Xt@(
 +o'q)}
@@ -379,7 +381,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-230807192730Z0/
+230817004320Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -629,7 +631,6 @@ A4H;B4u*
 A4H;B4u1
 A4H;B4u4
 A8+A0
-A8j)G
 A;6}#I
 A;H$I
 A;H$s
@@ -932,7 +933,6 @@ G,9G$u
 G0LcGDI
 G89D$0u
 G8HcODI
-GYB6&xV
 Get ASIC register value failed
 GetCPInfo
 GetCurrentPackageId
@@ -1025,7 +1025,6 @@ IcI A
 IcJ 3
 IcJPHc
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
-Ind@?
 Index: 
 InitOnceExecuteOnce
 InitializeConditionVariable
@@ -1121,13 +1120,11 @@ PA__^[]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-Q,\EnQ
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSpZ9
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1257,6 +1254,7 @@ WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
 WakeConditionVariable
 Washington1
+Wemg,{]_z
 White Balance:			
 WideCharToMultiByte
 WinRTInitialization
@@ -1268,6 +1266,7 @@ Y9"SD
 Z(D9Z
 [@D8}oteH
 [K]taM?
+[cgn!s
 \$ UH
 \$ UVWAVAWH
 \$ UWAVH
@@ -1383,6 +1382,7 @@ bad message
 blank
 broken pipe
 c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
+cMfdx
 calloc
 cntrl
 connection aborted
@@ -1433,8 +1433,6 @@ fseek
 fsetpos
 function not supported
 fwrite
-gGkm9
-gK'"(
 generic
 graph
 h< t <$
@@ -1576,6 +1574,7 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
+sEAA[
 setlocale
 setvbuf
 space
@@ -1686,9 +1685,9 @@ x AVAWL
 x AVE3
 x AVH
 x UAVAWH
+xPVy~)
 xdigit
 yH;YXtl
-yg\AMZ
 { ATAVAWH
 { AVH
 { tjL

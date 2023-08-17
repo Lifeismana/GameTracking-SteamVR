@@ -4136,9 +4136,7 @@
               return d.createElement(
                 s.wx,
                 {
-                  parent_path: this.props.bGroupMode
-                    ? "/remote/spawnlocation"
-                    : this.state.sParent,
+                  parent_path: this.state.sParent,
                   transform: this.state.xfTransform,
                   id: "xf_widget",
                 },
@@ -5076,7 +5074,7 @@
           (0, i.gn)([a.ZP], U.prototype, "onScroll", null),
           (0, i.gn)([a.ZP], U.prototype, "onLeftButtonClick", null),
           (0, i.gn)([a.ZP], U.prototype, "onRightButtonClick", null);
-        let G = class extends d.Component {
+        let W = class extends d.Component {
           constructor(e) {
             super(e),
               (this.m_scrollWatcher = new L.cB()),
@@ -5151,11 +5149,11 @@
             );
           }
         };
-        (0, i.gn)([a.ZP], G.prototype, "buttonMouseEnter", null),
-          (0, i.gn)([a.ZP], G.prototype, "buttonMouseLeave", null),
-          (0, i.gn)([a.ZP], G.prototype, "onParentScrollStop", null),
-          (G = (0, i.gn)([f.Pi], G));
-        const W = () =>
+        (0, i.gn)([a.ZP], W.prototype, "buttonMouseEnter", null),
+          (0, i.gn)([a.ZP], W.prototype, "buttonMouseLeave", null),
+          (0, i.gn)([a.ZP], W.prototype, "onParentScrollStop", null),
+          (W = (0, i.gn)([f.Pi], W));
+        const G = () =>
             d.createElement("div", { className: "AppButton Placeholder" }),
           z = (e) => {
             var t;
@@ -5172,14 +5170,14 @@
                   d.createElement(
                     d.Fragment,
                     null,
-                    d.createElement(W, null),
-                    d.createElement(W, null),
-                    d.createElement(W, null),
-                    d.createElement(W, null)
+                    d.createElement(G, null),
+                    d.createElement(G, null),
+                    d.createElement(G, null),
+                    d.createElement(G, null)
                   ),
                 !r &&
                   o.map((e) =>
-                    d.createElement(G, Object.assign({ key: e.appkey }, e))
+                    d.createElement(W, Object.assign({ key: e.appkey }, e))
                   )
               )
             );
@@ -5704,9 +5702,8 @@
               (this.m_bQuickStoreShouldReturnToBigPicture = !1),
               (this.m_roomViewChangedEventHandle = null),
               (this.m_linkStreamActiveEventHandle = null),
-              (this.m_incognitoModeEventHandle = null),
-              (this.m_remoteStreamEventHandle = null),
               (this.m_dashboardThumbnailsChangedEventHandle = null),
+              (this.m_miscEventHandles = []),
               (this.state = {
                 bShown: !1,
                 sActiveOverlayID: null,
@@ -5803,18 +5800,6 @@
                   ? void 0
                   : VRHTML.RegisterForLinkStreamActiveEvents(
                       this.onLinkStreamActiveEvents
-                    )),
-              (this.m_incognitoModeEventHandle =
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.RegisterForIncognitoModeEvents(
-                      this.onIncognitoModeEvents
-                    )),
-              (this.m_remoteStreamEventHandle =
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.RegisterForRemoteStreamEvents(
-                      this.onRemoteStreamEvents
                     )),
               (this.m_dashboardThumbnailsChangedEventHandle =
                 null === VRHTML || void 0 === VRHTML
@@ -5944,7 +5929,7 @@
               e.setSiblingReferences(this.m_refDesktopView.current);
           }
           componentWillUnmount() {
-            var e, t, r, o;
+            var e, t;
             clearTimeout(this.m_timeoutHoverStateEnd),
               clearTimeout(this.m_timeoutPopoverMenuHide),
               this.m_appStateChangedAutorunDisposer &&
@@ -5963,17 +5948,9 @@
                 void 0 === e ||
                 e.unregister(),
               (this.m_linkStreamActiveEventHandle = null),
-              null === (t = this.m_incognitoModeEventHandle) ||
+              null === (t = this.m_dashboardThumbnailsChangedEventHandle) ||
                 void 0 === t ||
                 t.unregister(),
-              (this.m_incognitoModeEventHandle = null),
-              null === (r = this.m_remoteStreamEventHandle) ||
-                void 0 === r ||
-                r.unregister(),
-              (this.m_remoteStreamEventHandle = null),
-              null === (o = this.m_dashboardThumbnailsChangedEventHandle) ||
-                void 0 === o ||
-                o.unregister(),
               (this.m_dashboardThumbnailsChangedEventHandle = null);
           }
           static getDashboardDistance() {
@@ -6040,12 +6017,6 @@
           }
           onLinkStreamActiveEvents(e) {
             this.setState({ bLinkStreamActive: e });
-          }
-          onIncognitoModeEvents(e) {
-            this.setState({ eIncognitoMode: e });
-          }
-          onRemoteStreamEvents(e) {
-            this.setState({ bStreamVideo: e });
           }
           onGrabStart() {
             this.setState({ bGrabbed: !0 });
@@ -6656,7 +6627,7 @@
             return S.G3.settings.get(m.o1) == de.Screenshot_Only;
           }
           get isGroupMode() {
-            return this.state.eIncognitoMode == s.Qu.Off;
+            return !1;
           }
           getCollisionBoundsFadeVisualizationElements() {
             var e;
@@ -7030,8 +7001,8 @@
                 null !== (l = S.G3.settings.get(m.Av)) && void 0 !== l && l,
               U =
                 null !== (c = S.G3.settings.get(m.k_)) && void 0 !== c ? c : 0;
-            let G = F && U > 0,
-              W =
+            let W = F && U > 0,
+              G =
                 null !==
                   (u = S.G3.settings.get(
                     "/settings/dashboard/allowTheaterMode"
@@ -7039,7 +7010,7 @@
                 void 0 !== u &&
                 u,
               z = V || this.state.bLinkStreamActive;
-            this.state.bLinkStreamActive && ((W = !1), x && (G = !1));
+            this.state.bLinkStreamActive && ((G = !1), x && (W = !1));
             let K = { y: -0.25, z: 0 };
             return (
               this.isOverlayActive(m.gB) && (K = { y: -0.4, z: 0 }),
@@ -7218,29 +7189,9 @@
                           d.createElement(
                             T.dw,
                             { style: T.zk.Small },
-                            this.isGroupMode &&
-                              d.createElement(T.B8, {
-                                additionalClassNames:
-                                  "CenterImageLarge StreamVideoButton",
-                                imageUrl: this.state.bStreamVideo
-                                  ? "/dashboard/images/icons/svr_screen_share_local.svg"
-                                  : "/dashboard/images/icons/svr_screen_share_local_off.svg",
-                                label: "Share Screen",
-                                onClick: () => this.ToggleVideoStream(),
-                                active: this.state.bStreamVideo,
-                              }),
-                            this.showIncognitoMode() &&
-                              d.createElement(T.B8, {
-                                additionalClassNames:
-                                  "CenterImageLarge IncognitoButton",
-                                imageUrl: this.isGroupMode
-                                  ? "/dashboard/images/icons/svr_people_a.svg"
-                                  : "/dashboard/images/icons/svr_people_b.svg",
-                                label: "Friends",
-                                onClick: () => this.ToggleIncognitoMode(),
-                                active: this.isGroupMode,
-                              }),
-                            W &&
+                            !1,
+                            !1,
+                            G &&
                               d.createElement(T.B8, {
                                 imageUrl: this.state.bDarkMode
                                   ? "/dashboard/images/icons/svr_nightmode.svg"
@@ -7267,7 +7218,7 @@
                                 label: "Room Setup",
                                 onClick: this.onImmersiveRoomSetupClick,
                               }),
-                            G &&
+                            W &&
                               d.createElement(T.B8, {
                                 imageUrl: "/dashboard/images/icons/svr_eye.svg",
                                 label: (0, g.Xx)("#Toggle_Room_View"),
@@ -7371,12 +7322,9 @@
                   bDashboardShown: this.state.bShown,
                   bHasSceneApp:
                     y.H.Instance.SceneApplicationState !== s.xY.None,
-                  bCaptureVideo:
-                    this.state.bStreamVideo &&
-                    this.isGroupMode &&
-                    !this.state.bGrabbed,
+                  bCaptureVideo: !1,
                   bDarkMode: this.state.bDarkMode,
-                  bGroupMode: this.isGroupMode,
+                  bGroupMode: !1,
                   dockLocation: e.overlayState.dockLocation,
                   onDockOverlay: this.onDockOverlay,
                   sOverlayKey: e.sOverlayKey,
@@ -7867,10 +7815,10 @@
                   )) &&
                 void 0 !== o &&
                 o,
-              G = this.GetActiveOverlayAnchorIDs(),
-              W = a
+              W = this.GetActiveOverlayAnchorIDs(),
+              G = a
                 ? "VRGamepadUI-Header-Panel-TopCenter"
-                : G.strTopCenterAnchorID;
+                : W.strTopCenterAnchorID;
             return d.createElement(
               s.eK,
               {
@@ -7899,7 +7847,7 @@
                     !a &&
                       d.createElement(
                         s.wx,
-                        { parent_id: W, translation: { y: 0.008 } },
+                        { parent_id: G, translation: { y: 0.008 } },
                         d.createElement(
                           s.VW,
                           { color: l },
@@ -8162,8 +8110,6 @@
           ),
           (0, i.gn)([a.ak], me.prototype, "onRoomViewChanged", null),
           (0, i.gn)([a.ak], me.prototype, "onLinkStreamActiveEvents", null),
-          (0, i.gn)([a.ak], me.prototype, "onIncognitoModeEvents", null),
-          (0, i.gn)([a.ak], me.prototype, "onRemoteStreamEvents", null),
           (0, i.gn)([a.ak], me.prototype, "onGrabStart", null),
           (0, i.gn)([a.ak], me.prototype, "onGrabEnd", null),
           (0, i.gn)(
@@ -8204,9 +8150,7 @@
           (0, i.gn)([a.ak], me.prototype, "showPopoverMenu", null),
           (0, i.gn)([a.ak], me.prototype, "popoverMenuMouseLeave", null),
           (0, i.gn)([a.ak], me.prototype, "popoverMenuMouseUp", null),
-          (0, i.gn)([l.Fl], me.prototype, "isDarkMode", null),
           (0, i.gn)([l.Fl], me.prototype, "isScreenshotMode", null),
-          (0, i.gn)([l.Fl], me.prototype, "isGroupMode", null),
           (0, i.gn)([a.ak], me.prototype, "hasDashboardOverlay", null),
           (0, i.gn)(
             [a.ak],
@@ -9006,7 +8950,7 @@
                 "div",
                 { className: "Section" },
                 c.createElement(
-                  W,
+                  G,
                   {
                     onClick: f.f.Instance.toggleMicrophoneMute,
                     title: f.f.Instance.microphoneMuted
@@ -9020,7 +8964,7 @@
                       : "/dashboard/images/icons/svr_mic_active.svg",
                   })
                 ),
-                c.createElement(G, {
+                c.createElement(W, {
                   title: (0, y.Xx)("#MicrophoneVolume"),
                   value: f.f.Instance.microphoneVolume,
                   onChange: f.f.Instance.setMicrophoneVolume,
@@ -9041,7 +8985,7 @@
                   "div",
                   { className: "Section" },
                   c.createElement(
-                    W,
+                    G,
                     {
                       onClick: f.f.Instance.toggleMirrorMute,
                       enabled: this.enableAudioMirrorControls,
@@ -9056,7 +9000,7 @@
                         : "/dashboard/images/icons/svr_volume_mirror.svg",
                     })
                   ),
-                  c.createElement(G, {
+                  c.createElement(W, {
                     title: (0, y.Xx)("#AudioMirrorVolume"),
                     value: f.f.Instance.mirrorVolume,
                     enabled: this.enableAudioMirrorControls,
@@ -9077,7 +9021,7 @@
                 "div",
                 { className: "Section" },
                 c.createElement(
-                  W,
+                  G,
                   {
                     onClick: f.f.Instance.toggleMute,
                     title: f.f.Instance.muted
@@ -9091,7 +9035,7 @@
                       : "/dashboard/images/icons/svr_volume.svg",
                   })
                 ),
-                c.createElement(G, {
+                c.createElement(W, {
                   title: (0, y.Xx)("#HeadsetVolume"),
                   sliderRef: this.m_refSlider,
                   value: f.f.Instance.volume,
@@ -9114,7 +9058,7 @@
           (0, i.gn)([l.Fl], U.prototype, "showAudioMirrorControls", null),
           (0, i.gn)([l.Fl], U.prototype, "enableAudioMirrorControls", null),
           (U = (0, i.gn)([d.Pi], U));
-        let G = class extends c.Component {
+        let W = class extends c.Component {
           constructor(e) {
             super(e), (this.state = { bSliding: !1, bHover: !1 });
           }
@@ -9169,12 +9113,12 @@
             );
           }
         };
-        (0, i.gn)([a.ak], G.prototype, "onMouseEnter", null),
-          (0, i.gn)([a.ak], G.prototype, "onMouseLeave", null),
-          (0, i.gn)([a.ak], G.prototype, "onInteractionStart", null),
-          (0, i.gn)([a.ak], G.prototype, "onInteractionEnd", null),
-          (G = (0, i.gn)([d.Pi], G));
-        let W = class extends c.Component {
+        (0, i.gn)([a.ak], W.prototype, "onMouseEnter", null),
+          (0, i.gn)([a.ak], W.prototype, "onMouseLeave", null),
+          (0, i.gn)([a.ak], W.prototype, "onInteractionStart", null),
+          (0, i.gn)([a.ak], W.prototype, "onInteractionEnd", null),
+          (W = (0, i.gn)([d.Pi], W));
+        let G = class extends c.Component {
           constructor(e) {
             super(e), (this.m_refTooltip = c.createRef());
           }
@@ -9217,9 +9161,9 @@
             );
           }
         };
-        (0, i.gn)([a.ak], W.prototype, "onMouseEnter", null),
-          (0, i.gn)([a.ak], W.prototype, "onMouseLeave", null),
-          (W = (0, i.gn)([d.Pi], W));
+        (0, i.gn)([a.ak], G.prototype, "onMouseEnter", null),
+          (0, i.gn)([a.ak], G.prototype, "onMouseLeave", null),
+          (G = (0, i.gn)([d.Pi], G));
         let z = (n = class extends c.Component {
           constructor() {
             super(...arguments), (this.m_vecOriginalMousePosition = null);
@@ -9861,4 +9805,4 @@
   var n = o.O(void 0, [968, 683], () => o(1983));
   n = o.O(n);
 })();
-//# sourceMappingURL=settings_desktop.js.map?v=f48e86452563549699ed
+//# sourceMappingURL=settings_desktop.js.map?v=be28161a95df03e4af68

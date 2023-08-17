@@ -60,7 +60,6 @@ $Phdd
 %s: Timeout.
 %s: Unknown component type %d.
 %s: WriteFile failed! (%s)
-&wgx[
 ' is not a number.
 ',=?k
 ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
@@ -81,7 +80,6 @@ $Phdd
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
-+&}{k
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -236,7 +234,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-230807191824Z0/
+230817004312Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -323,7 +321,6 @@ $Phdd
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 5m6t6Z7a7
-5zN!b
 6	747_7
 6 686H6L6P6T6X6l6p6t6x6|6
 6'7,7
@@ -358,7 +355,6 @@ $Phdd
 7.7L7v7
 70503
 737:7S7
-7@3kP
 7@PVW
 7F8S8z8
 7V8n9
@@ -800,7 +796,6 @@ Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
 ODFU Post
-OX0$	
 OpenProcess
 Out of thread local storage!
 PAIR -NONCE %6.6d
@@ -813,7 +808,6 @@ PerformDFU
 Performing DFU:
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 PipeInit
-Poo} 
 Progress: %d%% (%d/%d)
 Pz}b!
 Q0;Q(t#
@@ -1077,6 +1071,7 @@ _wfopen_s
 _wfsopen
 _wstat64i32
 `.rdata
+a3E@y
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -1159,6 +1154,7 @@ j hLk
 j h\`
 j h`n
 j hxj
+j!IvP:
 j!hPJ
 j!htI
 j"hDM
@@ -1195,6 +1191,7 @@ memchr
 memcpy
 memmove
 memset
+nH9~y
 need dictionary
 ntdll.dll
 oversubscribed distance tree
@@ -1264,8 +1261,8 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
+z%*x|
 {L?uI
-{lVV$
 {un'%
 |	9A 
 |	;J 

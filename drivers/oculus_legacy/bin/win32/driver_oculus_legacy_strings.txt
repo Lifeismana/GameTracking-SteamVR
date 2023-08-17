@@ -74,7 +74,6 @@
 0"0*02070=0E0M0R0X0`0h0m0s0{0
 0'141U1Z1s1x1
 0+0-4D4
-0U74Q
 0w0c1
 0}0i1
 1!111A1K1U1`1m1
@@ -83,6 +82,7 @@
 1"1B1#262<2Z2`2n2
 1$1(1,1014181<1@1D1H1h1l1
 1%1*10181@1E1K1S1[1`1f1n1v1{1
+1(2L2x2
 130801120000Z
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
 2#2+23282>2F2N2S2Y2a2i2n2t2|2
@@ -92,14 +92,13 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230807191945Z0/
+230817004408Z0/
 241009235959Z0a1
 262~2
 2>4~4
 2C2t2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2L2x2
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 3!3+353?3I3S3]3g3q3{3
@@ -114,7 +113,7 @@
 3T4p4
 3mq+<
 3|3F4
-4 4$404H4X4\4l4p4t4|4
+4 4$4<4@4H4`4p4t4
 4#4/4>4T4Z4_4e4p4v4
 4%4/494C4M4W4a4k4z4
 4'4L4n4
@@ -209,6 +208,7 @@
 @.data
 @.reloc
 ADVAPI32.dll
+B;yaYh
 Bellevue1
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
@@ -294,15 +294,15 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSU
+RSDSm
 RaiseException
-Rb=\G
 S0Q0O
 SA|X=G
 SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
+SSD'|S
 SetEvent
 SetUnhandledExceptionFilter
 Sleep
@@ -461,7 +461,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-shb_`
 startup
 string too long
 strncpy
@@ -469,14 +468,13 @@ strncpy_s
 strstr
 tdh.dll
 terminate
-tz(@8
 u7j8Q
 uCVj@
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-z_&U6-
+zYXx/
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

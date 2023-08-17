@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	R.25
     Object[
     SessionLabel[
  "functions" section contains non-string values.
@@ -69,7 +70,6 @@
 ,W5y+
 -1e+9999
 -Infinity
--TZ?T
 .  Does it exist?
 .  Max supported version is 
 .00cfg
@@ -164,7 +164,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230807193212Z0/
+230817004615Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -177,6 +177,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4LP0~it
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -188,7 +189,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;@]KHX
 <0:08
 =rIQU
 >0<0:
@@ -411,7 +411,6 @@ Failed to find default runtime with RuntimeInterface::LoadRuntime()
 Failed to open dynamic library 
 FindFirstFileW
 FindNextFileW
-Fk1rl7
 FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
@@ -446,7 +445,6 @@ H;Cxu
 H;Y t
 H;k u
 HA_A]_[
-I	iQd
 I#V0I
 I9Bhs
 I9W(t
@@ -529,7 +527,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSo^Q;
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -643,6 +640,7 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
+YWMHV
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -729,7 +727,6 @@ api-ms-win-crt-string-l1-1-0.dll
 api_layer
 api_version
 application name missing NULL terminator.
-avjFh
 bad allocation
 bad array new length
 bad cast
@@ -815,7 +812,6 @@ library_path
 list<T> too long
 localeconv
 m0k0$
-mF'4$m
 malloc
 map/set<T> too long
 memchr
@@ -826,7 +822,6 @@ memset
 must be non-NULL
 nfinity
 ntelD
-oD%cv"7
 openxr/
 openxr_loader.dll
 rejectDupKeys
@@ -839,6 +834,7 @@ strcmp
 strictRoot
 string too long
 strncpy
+s|X@az
 t$ AVH
 t$ AWH
 t$ E3
@@ -981,7 +977,6 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
-{[64L_ |
 {un'%
 |$ ATAVAWH
 |$ AVH

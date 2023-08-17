@@ -29,7 +29,6 @@ $0.0C0k0
 $3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 $_^[]
 %.0Lf
-%AL=vR
 %H : %M
 %H : %M : %S
 %I : %M : %S %p
@@ -50,7 +49,6 @@ $_^[]
 +Xt@(
 +o'q)}
 +p$+p
-+t6G@#R
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,0I0\0
 ,W5y+
@@ -433,7 +431,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-230807191812Z0/
+230817004300Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -1233,6 +1231,7 @@ Bellevue1
 C$F;w
 C,H_^u
 C8;sx|
+CO/X6
 CVRCameraWindows Destructor...
 C\Qj 
 Camera Exception while adding configuration change handler to video stream: 
@@ -1374,6 +1373,7 @@ G @;G
 G(9_Lu8
 G,_^[
 G0_^]
+G1QU!
 G;~,|
 G;~P}
 G;~x|
@@ -1443,6 +1443,7 @@ K}*n:
 L?n(Zy&
 LCMapStringEx
 LCMapStringW
+LD1Ky
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryExW
@@ -1585,6 +1586,7 @@ WideCharToMultiByte
 WinRTInitialization
 Wj4XPV
 Writing failed at 0x%X/0x%X Bytes
+XQh{O
 XSVW3
 Y9"SD
 YYF;w,|
@@ -1859,6 +1861,7 @@ tCj'h
 tCj+h
 tP9xp~K
 tWVWj>
+tX	+V
 tX97uTj
 tX97uTj4
 t\QSV
@@ -1900,6 +1903,7 @@ www.digicert.com1$0"
 x(kP$4
 x,G;}
 x0c1l1
+xK.%|>
 x\SVW
 xdigit
 y'j h

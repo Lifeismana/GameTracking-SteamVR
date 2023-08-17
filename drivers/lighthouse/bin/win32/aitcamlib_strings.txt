@@ -1,6 +1,5 @@
 																																																																																																																
 	!s99
-	MHX-
  %41g
 !(0)"
 !9~ t
@@ -169,7 +168,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-230807191816Z0/
+230817004304Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -306,6 +305,7 @@ $9^ t
 ;(<s<
 ;-<x<
 ;[<l<}<
+;^F	V
 ;x<|<
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 < <%<,<5<<<B<G<R<Y<^<c<q<v<
@@ -332,7 +332,6 @@ $9^ t
 > >$>
 >">2>=>^>n>x>
 >0<0:
->>$xCJK
 >H?Z?`?g?r?
 >Mp$d
 >T>6?
@@ -365,7 +364,6 @@ $9^ t
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPA_W3AAPA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
-@	%	)
 @(Failed Enumeration)
 @.data
 ADVAPI32.dll
@@ -485,6 +483,7 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
+Nz$'e
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
@@ -572,6 +571,7 @@ TrackedCamera: Worker thread OpenCamera result: %s.
 UnhandledExceptionFilter
 Unknown
 Unknown exception
+Up9n<
 UuidFromStringA
 VCRUNTIME140.dll
 VID_%04X
@@ -653,6 +653,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+bO}(u
 bad AC huff
 bad APP len
 bad BMP
@@ -733,6 +734,7 @@ french
 fseek
 german
 greek
+hHOYuL
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -747,6 +749,7 @@ invalid decoded scanline length
 invalid filter
 it_it
 italian
+j<5k)LTD
 ja_jp
 japanese
 jj@0HK4
@@ -790,6 +793,7 @@ pt_br
 pt_pt
 pvBuffer != nullptr
 qdriver_lighthouse
+r6a|@3
 read past buffer
 ro_ro
 romanian
@@ -847,7 +851,6 @@ www.digicert.com1$0"
 zh_cn
 zh_tw
 zlib corrupt
-zpOh!XH
 {un'%
 |Lu?c
 }LuHO

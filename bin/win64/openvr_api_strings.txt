@@ -4,7 +4,6 @@
 																																												
 	!s99
 	kE>fvw
-	s)=Kz
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
@@ -34,7 +33,6 @@
  C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
- D;5:
  D;j0u
  H3E H3E
  Type Descriptor'
@@ -54,7 +52,6 @@
 !~?s5
 "e?<<<<<<l?
 "f9;t
-"r'^;~
 #])#	
 $+xvA
 $< t6<$t,<+t"<vt
@@ -359,7 +356,6 @@ $iMBm
 .xJ>Hf
 .xdata
 .xdata$x
-.~(n	
 /2GG>!B
 />58d%
 /user/ankle/left
@@ -417,7 +413,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-230807192709Z0/
+230817004307Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1018,16 +1014,15 @@ H3\$HH
 H97uWH
 H98t%H
 H99u{
-H9='G	
-H9=+T	
-H9=?N	
-H9=CV	
-H9=C[	
-H9=OS	
-H9=S[	
-H9=W\	
-H9=cJ	
-H9=sC	
+H9=#[	
+H9='\	
+H9=3J	
+H9=CC	
+H9=WI	
+H9=[V	
+H9=_W	
+H9=gB	
+H9=sE	
 H9A u
 H9Ahs
 H9D$@u
@@ -1205,7 +1200,7 @@ L(;E:
 L(<A:
 L+t$0
 L9"u&
-L9-O{
+L9-k{
 L9L$(D
 L9`8u'L
 L9l$0
@@ -1243,7 +1238,7 @@ Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 LrvD)O
 M H1E
-M(f95x
+M(f95H
 M98u/
 MB(iVR
 MM/dd/yy
@@ -1293,7 +1288,6 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-R?5h\
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1314,7 +1308,6 @@ RtlVirtualUnwind
 S0Q0O
 S;\$0tH
 S>$hkDh$h>[2
-SA<kxE
 SA|X=G
 SHELL32.dll
 SHGetFolderPathW
@@ -1414,7 +1407,6 @@ UVWAUAWH
 UVWAVAWH
 UWATAVAWH
 UWAVH
-UfP2z,7Z
 UmsThreadYield
 Unable to connect to Oculus Runtime (1000)
 Unable to connect to Oculus Runtime, possible bad install (1114)
@@ -1456,6 +1448,8 @@ VR system shutting down (119)
 VRClientCoreFactory
 VRControlPanel
 VRHeadsetView
+VRInitError_Compositor_CannotConnectToDisplayServer
+VRInitError_Compositor_CannotDRMLeaseDisplay
 VRInitError_Compositor_CreateAlphaBlendState
 VRInitError_Compositor_CreateAnisoSamplerState
 VRInitError_Compositor_CreateBackbufferDepth
@@ -1529,6 +1523,7 @@ VRInitError_Compositor_FailedToGetDXGIDeviceInterface
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
+VRInitError_Compositor_GnomeNoDRMLeasing
 VRInitError_Compositor_InvalidAdapterDesktop
 VRInitError_Compositor_InvalidDeviceProvided
 VRInitError_Compositor_InvalidHmdAttachment
@@ -1853,6 +1848,7 @@ _oD>Kg
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
+a,`}(
 a7hIw
 a8&Y.
 abcdefghijklmnopqrstuvwxyz
@@ -1991,13 +1987,13 @@ file too large
 filename too long
 floor
 frexp
-ft$&p
 function not supported
 generic
 gfe[D
 gfffA
 gfffL
 gfffffffH
+g}Ew$
 h VWATAVAWH
 h-y"3
 h< t <$
@@ -2005,6 +2001,7 @@ h>1my
 hA\_^[
 hA_A^A]A\_^][
 hPP`*
+hV)pZk
 host unreachable
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -2048,7 +2045,6 @@ kB0[/
 kC2\/
 kXL9sHu
 keylength >= 2^30
-kw	xwF
 l$ E3
 l$ H;
 l$ H=
@@ -2135,7 +2131,6 @@ p WAVAWH
 p*E?(
 pA_A^A]A\_^[
 pA_A^A]A\_^]
-pBqO5!
 pContext
 pEvents
 pExecutionResource
@@ -2147,6 +2142,7 @@ permission denied
 ppVirtualProcessorRoots
 protocol error
 protocol not supported
+p}\$+
 q(9qD~[E3
 q)]2<Mt
 qS>g?h3
@@ -2158,7 +2154,6 @@ r9D8v
 rB-<e*
 rBu/H
 rLp>B
-rU6'd&qK
 raB3G
 rcf9#b3
 read only file system
@@ -2326,11 +2321,11 @@ x`cot~
 xmZ8(N*
 xpxxxx
 xwpwpp
+y; [oe}
 yH;YXtl
 y\PD>!
 y^QZ8(O*
 ygCH2
-zHC(#
 zY;>u:m	
 zwom}
 { ATAVAWH
@@ -2380,9 +2375,11 @@ zwom}
 |TBc4
 |^4#W,
 |b=})>
+}?oVw
 }LuHO
 }o@8{
 ~ $s%r
+~'!!(N
 ~`D8I!t-
 ~qj#k"
 ~t&LN

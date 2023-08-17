@@ -22,7 +22,6 @@
 		{	// etc
 		} } },
 	!s99
-	IIHB
 	{ 0x%x, 0x%x, %d, %d, {
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
@@ -51,7 +50,9 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
+!;1,;h
 !IsInUse()
+!W]so
 !g_pSharedResourceNamespaceServer
 !hn7!
 !isnan( *pSecondsSinceVsync )
@@ -531,7 +532,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-230807192859Z0/
+230817004346Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1243,7 +1244,6 @@ LiquidVR: Failed to get present resource! Err=%d
 LiquidVR: Present resource is not a Vulkan image!
 LiquidVR: Present resource is null!
 LiquidVR: Unexpected EDID size: %d
-Lmi{(
 LoadLibraryA
 LoadLibraryExA
 LoadLibraryExW
@@ -1334,6 +1334,7 @@ NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
 O0H9Q
 OLEAUT32.dll
+OWGmj
 OpH9Q
 OpenEventA
 OpenFileMappingA
@@ -1423,7 +1424,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSs
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1671,7 +1671,6 @@ Yl$4E
 \mfpmp.exe
 ]J<0"0i3
 ]g@8yhu
-^Q_W^!q
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -2098,6 +2097,7 @@ uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S
 v=Y]Bv
+vNsAT
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long
 vkAcquireDrmDisplayEXT

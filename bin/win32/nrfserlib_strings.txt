@@ -82,6 +82,7 @@ $Vh&*
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
 +KL+SL_;
 +Xt@(
++[3fm
 +o'q)}
 , H5 error count: 
 , defaulting to flow_control::none!
@@ -89,6 +90,7 @@ $Vh&*
 , defaulting to stop_bits::one!
 ,W5y+
 -1e+9999
+-IKT;AF
 -Infinity
 -external
 -internal
@@ -708,7 +710,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-230807191820Z0/
+230817004307Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -890,7 +892,6 @@ $Vh&*
 5d7v7&:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-5kN(I
 6	7U7Z7_7~7
 6	7V<
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6
@@ -1232,7 +1233,6 @@ $Vh&*
 <G=j=v=
 <H=L=P=T=X=\=`=d=h=l=p=t=x=|=
 <O=]=k=y=
-<P*8~
 <X<\<`<d<h<l<p<t<x<|<
 <]<w<
 <b?i?
@@ -1581,6 +1581,7 @@ CreateFileA
 CreateIoCompletionPort
 Creating BLE Serial Transport on %s at %d.
 Culdn't duplicate handle
+D$'[>\.
 D3L3H6P6
 D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
 DFU Post
@@ -1749,7 +1750,6 @@ HTC BS
 HeapAlloc
 HeapFree
 IO_RESOURCES_UNAVAILABLE
-IX!GO
 Identify
 IdentifyContext
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
@@ -1777,7 +1777,6 @@ K(PQh
 K,+K(+
 K,PQh
 KERNEL32.dll
-KqLE%
 K}*n:	
 L0h364
 L?n(Zy&
@@ -2108,7 +2107,6 @@ Zipfile is corrupt or not a zipfile
 \Device Parameters
 ]J<0"0i3
 ^[0-9]+$
-^iNv#n
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -2292,6 +2290,7 @@ ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
+p:`z 
 print
 punct
 realloc
@@ -2473,7 +2472,6 @@ w(_^[]
 w0_^[
 wXtM=!N
 wcschr
-wd;'E
 winsock
 wn>Jj
 wt_^[
@@ -2484,7 +2482,6 @@ xdigit
 y4_^[
 {L?uI
 {un'%
-|*2Fq
 |Lu?c
 |cj#h
 }	jCh

@@ -1,6 +1,7 @@
 #!/bin/bash -x
 
-./vrsetup.sh
+VRBINDIR=$(cd $(dirname $0)/; pwd)
 
-exec ./vrstartup-internal.sh
+"$VRBINDIR/vrsetup.sh"
 
+exec "$VRBINDIR/vrstartup-helper.sh"
