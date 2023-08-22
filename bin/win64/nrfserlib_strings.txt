@@ -119,7 +119,6 @@
 +9kdt	H
 +Xt@(
 +o'q)}
-+vV+*}
 , H5 error count: 
 , defaulting to flow_control::none!
 , defaulting to parity::none!
@@ -633,7 +632,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230817004328Z0/
+230822003330Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -681,12 +680,10 @@
 9|$@u
 9|$Pt
 9|$`t
-::yB\
 :\u-L
 :\u6L
 ;K }DH
 ;Q |	H
-;|G{c
 </u#H
 <0:08
 <= Exiting Context: (%.2f seconds)
@@ -1336,6 +1333,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+KjMd(
 K}*n:	
 L$ H+
 L$ H;
@@ -1504,6 +1502,7 @@ PROGRAM LOGIC ERROR: app_ble_gap_adv_buf_register not called from context REQUES
 ParentIdPrefix
 Parity: 
 Parsing of JSON string "%s" failed: %s
+Pcq}#
 PerformDFUContext
 Performing DFU:
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -1659,6 +1658,7 @@ TlsGetValue
 TlsSetValue
 Trying to send packets to device when serial device is closed is not supported.
 Trying to send unknown control packet to device. 
+T~S"k
 UATAUAVAWH
 UATAVH
 UAVAWH
@@ -1936,6 +1936,7 @@ ioServiceThread already exists.... aborting.
 isxdigit
 jj@0HK4
 k0i0$
+kd:u(t
 l$ H=
 l$ VAVAWH
 l$ VWAVH
@@ -2176,6 +2177,7 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
+{WeX	
 {un'%
 {x\u!H
 {|?uWH
@@ -2211,6 +2213,8 @@ xdigit
 |$ps`H
 |Lu?c
 }LuHO
+}_;|R
 ~'HcB
+~TET$Icnh`
 ~qj#k"
 ~t&LN

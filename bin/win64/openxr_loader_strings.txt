@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	R.25
     Object[
     SessionLabel[
  "functions" section contains non-string values.
@@ -37,6 +36,7 @@
  is not supported
  layers enabled and runtime interface - created instance = 
  library 
+ o%J8i6Y
  requires a valid instance
  sJE3
  using interface version 
@@ -70,6 +70,7 @@
 ,W5y+
 -1e+9999
 -Infinity
+-y2Pz
 .  Does it exist?
 .  Max supported version is 
 .00cfg
@@ -164,7 +165,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230817004615Z0/
+230822003620Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -177,7 +178,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4LP0~it
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -186,6 +186,7 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8?,]v3@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -445,7 +446,9 @@ H;Cxu
 H;Y t
 H;k u
 HA_A]_[
+HVe]>
 I#V0I
+I+IotM'
 I9Bhs
 I9W(t
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
@@ -526,7 +529,9 @@ PA_A^_^]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+Qh'6x
 QueryPerformanceCounter
+RSDSnF5
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -640,7 +645,6 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-YWMHV
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -777,6 +781,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+h~ W$dNY
 implementation_version
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -824,6 +829,7 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
+r9P9g
 rejectDupKeys
 runtime
 s t#fff
@@ -834,7 +840,6 @@ strcmp
 strictRoot
 string too long
 strncpy
-s|X@az
 t$ AVH
 t$ AWH
 t$ E3

@@ -6,9 +6,9 @@
  A_^]
  A__^
  H3E H3E
- I-zB
 !hn7!
 !m_bIsConnected
+%YO]N4
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
@@ -118,13 +118,12 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230817004225Z0/
+230822003226Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3&Q":+8L]
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -154,6 +153,7 @@
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
+@ .>x
 @.data
 @.reloc
 @A^][
@@ -202,9 +202,9 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 E89D$Pu
+E9!T]
 E<9D$Tu
 EnterCriticalSection
-FASI4
 FormatMessageW
 GetCurrentProcessId
 GetCurrentThreadId
@@ -256,13 +256,14 @@ MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
+N>dN4Z&
 OLEAUT32.dll
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R	9$,
+RSDS.
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -317,7 +318,6 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
-Z98B{~
 [K]taM?
 \$ H;
 \$ UH
@@ -369,8 +369,7 @@ c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdi
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
-fJ,p:
-g[5Z6X9:
+etSDJ
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -400,7 +399,6 @@ t$PE3
 tXfff
 tYH9\$`t
 terminate
-uc3pI
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
 vector<T> too long

@@ -1,4 +1,5 @@
 	!s99
+	^3^(
  %41g
  A__^
  H3E H3E
@@ -66,7 +67,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/\>b]8
 /input/a/click
 /input/b/click
 /input/back/click
@@ -93,12 +93,13 @@
 0w0c1
 0}0i1
 130801120000Z
+2 e=l
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-230817004435Z0/
+230822003438Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -116,7 +117,6 @@
 6*f(_
 6I]Dc
 6OB,n_
-6k#tB
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -140,6 +140,7 @@ A_A^_
 A_A^_^]
 AuthD
 Bellevue1
+C_,VH
 CloseHandle
 CreateEventW
 D$8H9
@@ -153,6 +154,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+FPz?UY
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
@@ -294,7 +296,6 @@ _configure_narrow_argv
 _crt_atexit
 _execute_onexit_table
 _gUT^
-_i.6q 
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -303,7 +304,6 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-`].<;
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -334,6 +334,7 @@ t$ AVH
 t$ AWH
 t$ WH
 t$@H=
+t+YAVU
 tXfff
 terminate
 v=Y]Bv

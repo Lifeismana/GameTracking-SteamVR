@@ -35,7 +35,6 @@
  sIE3
 !T$(H!T$ 
 !hn7!
-!v>"J_
 $+xvA
 $< t6<$t,<+t"<vt
 %.0Lf
@@ -46,7 +45,6 @@ $< t6<$t,<+t"<vt
 %d / %m / %y
 %m / %d / %y
 ',=?k
-'xD^u<C
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
 (A^A\_[
@@ -82,7 +80,6 @@ $< t6<$t,<+t"<vt
 )t$ I
 )t$0H
 )t$`H
-*AR9T9
 +J$D8M@
 +Xt@(
 +o'q)}
@@ -381,7 +378,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-230817004320Z0/
+230822003323Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -433,6 +430,7 @@ $< t6<$t,<+t"<vt
 9_P~OE3
 9{D~H3
 :AM:am:PM:pm
+:Ciiy
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :K	t	H
 :L$"u
@@ -881,6 +879,7 @@ Exception constructing Camera:
 ExecuteUmsThread
 Exposure:			
 F(LcF I
+F-F,~
 Failed to AddFilter.
 Failed to AddToRot: 
 Failed to BindToObject.
@@ -1108,7 +1107,9 @@ No color stream to configure.
 No depth or color data. Cannot determine frame number.
 No depth stream to configure.
 O,D9O(vcH
+O@f4!
 OLEAUT32.dll
+ON-k	{
 P8fD;
 P@fD;
 PA^A\]
@@ -1254,7 +1255,6 @@ WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
 WakeConditionVariable
 Washington1
-Wemg,{]_z
 White Balance:			
 WideCharToMultiByte
 WinRTInitialization
@@ -1266,7 +1266,6 @@ Y9"SD
 Z(D9Z
 [@D8}oteH
 [K]taM?
-[cgn!s
 \$ UH
 \$ UVWAVAWH
 \$ UWAVH
@@ -1288,6 +1287,7 @@ Z(D9Z
 \$pE3
 ]J<0"0i3
 ]`u7H
+^1[N]
 _(H9n
 _CxxThrowException
 _Getdays
@@ -1382,7 +1382,6 @@ bad message
 blank
 broken pipe
 c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
-cMfdx
 calloc
 cntrl
 connection aborted
@@ -1574,7 +1573,6 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
-sEAA[
 setlocale
 setvbuf
 space
@@ -1685,7 +1683,6 @@ x AVAWL
 x AVE3
 x AVH
 x UAVAWH
-xPVy~)
 xdigit
 yH;YXtl
 { ATAVAWH
@@ -1724,6 +1721,7 @@ yH;YXtl
 |$rfD
 |Lu?c
 }LuHO
+}Q%lN
 ~`D8I!t-
 ~qj#k"
 ~t&LN

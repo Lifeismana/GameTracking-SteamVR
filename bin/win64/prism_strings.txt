@@ -22,6 +22,7 @@
 		{	// etc
 		} } },
 	!s99
+	W[Dryb
 	{ 0x%x, 0x%x, %d, %d, {
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
@@ -50,9 +51,8 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
-!;1,;h
 !IsInUse()
-!W]so
+!Wd:&
 !g_pSharedResourceNamespaceServer
 !hn7!
 !isnan( *pSecondsSinceVsync )
@@ -532,7 +532,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-230817004346Z0/
+230822003348Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -576,6 +576,7 @@ $9E0u
 <0:08
 <P)9Y
 <unknown>
+<ve40
 =rIQU
 >0<0:
 >Mp$d
@@ -974,6 +975,7 @@ D$pL;
 D$xD;
 D$xH;
 D$xL;
+D14r^
 D3D11CreateDevice
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
@@ -1334,7 +1336,6 @@ NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
 O0H9Q
 OLEAUT32.dll
-OWGmj
 OpH9Q
 OpenEventA
 OpenFileMappingA
@@ -1494,6 +1495,7 @@ Somebody else should have created event %s to go with pipe %s in WaitForConnecti
 Somebody locked a non-leaf shared memory %s while %s was already locked
 Submit: %s
 Swapchain
+T ZjO
 T$ E3
 T$ Hc
 T$ fI
@@ -1854,6 +1856,7 @@ fn != nullptr
 frameInfo.pImage != nullptr
 frameInfo.sampler != VK_NULL_HANDLE
 from.pPool != nullptr
+fxQ,6
 gfffffffA
 gfffffffH
 gfffffffH+
@@ -2097,7 +2100,6 @@ uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S
 v=Y]Bv
-vNsAT
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long
 vkAcquireDrmDisplayEXT

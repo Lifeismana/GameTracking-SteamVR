@@ -4296,8 +4296,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1843.367621
- r C.1846.367632
+ r C.1843.367625
+ r C.1846.367636
  r C.413.290188
  r CSWTCH.100
  r CSWTCH.16
@@ -22739,6 +22739,8 @@
  t StringHasSuffixCaseSensitive(std::string const&, std::string const&)
  t StringListToJson(std::vector<std::string, std::allocator<std::string> > const&, Json::Value&, char const*)
  t StringListToJson(std::vector<std::string, std::allocator<std::string> > const&, Json::Value&, char const*) [clone .cold]
+ t StringReplace(std::string const&, std::string const&, std::string const&)
+ t StringReplace(std::string const&, std::string const&, std::string const&) [clone .cold]
  t StringToLower(std::string const&)
  t StringToLower(std::string const&) [clone .cold]
  t StringToUint64(std::string const&)

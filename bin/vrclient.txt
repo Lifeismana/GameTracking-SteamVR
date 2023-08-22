@@ -4067,8 +4067,8 @@
  puts
  putwc
  qsort
- r C.1859.368852
- r C.1862.368863
+ r C.1859.368856
+ r C.1862.368867
  r C.427.290275
  r CSWTCH.101
  r CSWTCH.210
@@ -23544,6 +23544,8 @@
  t StringHasSuffixCaseSensitive(std::string const&, std::string const&)
  t StringListToJson(std::vector<std::string, std::allocator<std::string> > const&, Json::Value&, char const*)
  t StringListToJson(std::vector<std::string, std::allocator<std::string> > const&, Json::Value&, char const*) [clone .cold]
+ t StringReplace(std::string const&, std::string const&, std::string const&)
+ t StringReplace(std::string const&, std::string const&, std::string const&) [clone .cold]
  t StringToLower(std::string const&)
  t StringToLower(std::string const&) [clone .cold]
  t StringToUint64(std::string const&)

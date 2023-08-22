@@ -27,6 +27,7 @@
 $0,040<0P0X0`0h0p0|0
 $0.0C0k0
 $3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+$YXv!
 $_^[]
 %.0Lf
 %H : %M
@@ -431,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-230817004300Z0/
+230822003303Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -699,6 +700,7 @@ $_^[]
 7S8]8z8
 7Z8b8j8r8
 7`7R8
+7bY[	=<
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7i7 8
 8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
@@ -866,6 +868,7 @@ $_^[]
 :B;{;
 :G:Q:[:e:o:y:
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+:MW=v
 :O:_:
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
 :V;o;v;
@@ -1231,7 +1234,6 @@ Bellevue1
 C$F;w
 C,H_^u
 C8;sx|
-CO/X6
 CVRCameraWindows Destructor...
 C\Qj 
 Camera Exception while adding configuration change handler to video stream: 
@@ -1285,6 +1287,7 @@ CreateThreadpoolWait
 CreateThreadpoolWork
 CreateTimerQueue
 CreateTimerQueueTimer
+CtF,$r]
 DFailed to EnumPins.
 DecodePointer
 DeleteCriticalSection
@@ -1373,7 +1376,6 @@ G @;G
 G(9_Lu8
 G,_^[
 G0_^]
-G1QU!
 G;~,|
 G;~P}
 G;~x|
@@ -1443,7 +1445,6 @@ K}*n:
 L?n(Zy&
 LCMapStringEx
 LCMapStringW
-LD1Ky
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryExW
@@ -1467,8 +1468,10 @@ No Description
 No IPin available.
 No color stream to configure.
 No depth stream to configure.
+O%	XI
 O,9O(vV
 O0W0g0
+O:oP-b<;
 O@;K@u`
 OHPSQ
 OHSSVSSW
@@ -1586,7 +1589,6 @@ WideCharToMultiByte
 WinRTInitialization
 Wj4XPV
 Writing failed at 0x%X/0x%X Bytes
-XQh{O
 XSVW3
 Y9"SD
 YYF;w,|
@@ -1727,6 +1729,7 @@ fseek
 fsetpos
 function not supported
 fwrite
+gcQ_TV
 generic
 gfffSV
 gj h 
@@ -1815,6 +1818,7 @@ print
 protocol error
 protocol not supported
 punct
+qd#N?ls
 rLp>B
 raB3G
 read only file system
@@ -1861,7 +1865,6 @@ tCj'h
 tCj+h
 tP9xp~K
 tWVWj>
-tX	+V
 tX97uTj
 tX97uTj4
 t\QSV
@@ -1903,9 +1906,9 @@ www.digicert.com1$0"
 x(kP$4
 x,G;}
 x0c1l1
-xK.%|>
 x\SVW
 xdigit
+xiscfO+
 y'j h
 {L?uI
 {un'%

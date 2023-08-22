@@ -52,6 +52,7 @@
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
 "buffers" object not found in .gltf
+"fa>I
 "j$hl
 "nodes" object not found in .gltf
 "orthographic" is not a JSON object.
@@ -71,7 +72,6 @@ $9^ t
 %UUUU
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
-%j!lT
 %s begin_ctx=%llu
 %s end_ctx=%llu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -458,7 +458,7 @@ $9^ t
 220801000000Z
 222>2N2c2
 230714000000Z
-230817004405Z0/
+230822003407Z0/
 232;2R2Z2n2
 241009235959Z0a1
 293E3
@@ -1459,7 +1459,6 @@ Oculus touch %s controller state %s.
 Oculus tracker %s %s.
 Oculus tracker driver rejected by vrserver
 Oculus\Support\oculus-runtime
-Og7d*
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenEventW
 OpenProcess
@@ -1483,7 +1482,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
 RPVhh
-RSDS~i*
+RSDS0
 RaiseException
 ResetEvent
 S0Q0O
@@ -1542,6 +1541,7 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
+TxSAmjL
 UNNAMED
 Unable to create texture set for pid %u: %s
 Unable to destroy %d swap textures due to invalid session
@@ -1580,7 +1580,6 @@ WinVerifyTrust
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
-[7\$_
 [K]taM?
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -1597,7 +1596,6 @@ Y__^[
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [Qh@H
 [json.exception.
-\ l-h
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -1817,7 +1815,6 @@ const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 corrupt
 count
 cs_cs
-cy'Q["
 czech
 d3d11.dll
 d<h<l<p<t<
@@ -2191,6 +2188,7 @@ primitives
 pt_br
 pt_pt
 quest
+q|13;
 range
 read past buffer
 realloc
@@ -2208,7 +2206,6 @@ roundf
 ru_ru
 russian
 s(+CD
-s\GiM
 sampler
 samplers
 scale
@@ -2489,7 +2486,6 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
-{d#"0K
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png

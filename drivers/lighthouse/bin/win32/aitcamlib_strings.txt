@@ -168,7 +168,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-230817004304Z0/
+230822003306Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -225,6 +225,7 @@ $9^ t
 5d6h6l6p6t607
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
+5qs$ 
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
 6 6$6(6,6064686X8\8`8d8h8l8p8
 6!6-636B6K6Q6[6a6p6v6
@@ -305,7 +306,6 @@ $9^ t
 ;(<s<
 ;-<x<
 ;[<l<}<
-;^F	V
 ;x<|<
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 < <%<,<5<<<B<G<R<Y<^<c<q<v<
@@ -483,7 +483,6 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
-Nz$'e
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
@@ -504,6 +503,7 @@ RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
 ResumeCamera
+Rw{b8^
 S0Q0O
 SA|X=G
 SETUPAPI.dll
@@ -571,7 +571,6 @@ TrackedCamera: Worker thread OpenCamera result: %s.
 UnhandledExceptionFilter
 Unknown
 Unknown exception
-Up9n<
 UuidFromStringA
 VCRUNTIME140.dll
 VID_%04X
@@ -585,6 +584,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
+WTHoL4
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -598,6 +598,8 @@ Y__^[
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
+[VG=;
+[nAY3
 \2d2h2l2p2t2x2|2
 ]J<0"0i3
 _CIpow
@@ -653,7 +655,6 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-bO}(u
 bad AC huff
 bad APP len
 bad BMP
@@ -734,7 +735,6 @@ french
 fseek
 german
 greek
-hHOYuL
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -749,7 +749,6 @@ invalid decoded scanline length
 invalid filter
 it_it
 italian
-j<5k)LTD
 ja_jp
 japanese
 jj@0HK4
@@ -759,6 +758,7 @@ korean
 l2|X/gGe
 latam
 ldexp
+lx7?h
 m0k0$
 malloc
 map/set<T> too long
@@ -793,7 +793,6 @@ pt_br
 pt_pt
 pvBuffer != nullptr
 qdriver_lighthouse
-r6a|@3
 read past buffer
 ro_ro
 romanian

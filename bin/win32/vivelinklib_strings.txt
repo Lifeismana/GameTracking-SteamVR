@@ -234,7 +234,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-230817004312Z0/
+230822003314Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -293,6 +293,7 @@ $Phdd
 4T5l5u5
 4^4c4i4r4
 4d4h4l4p4t4x4|4
+4gLBy&
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5*545?5G5N5V5_5f5q5w5~5
 5 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6
@@ -387,6 +388,7 @@ $Phdd
 989c9
 9<: <r<
 9A0t+
+9AV#XJ
 9L=p=|=
 9LHB-u
 9M;R;v;{;
@@ -480,6 +482,7 @@ $Phdd
 ?!?8?G?P?[?b?
 ?(?,?0?4?<?T?X?p?
 ?(?4?<?\?
+?)n'$
 ?8?@?P?
 ?;?f?
 ?=?[?v?
@@ -660,6 +663,7 @@ DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
 DISCONNECT
+DLB4k
 DeleteCriticalSection
 DeleteFileW
 DigiCert Assured ID Root CA0
@@ -795,6 +799,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
+NxVG;
 ODFU Post
 OpenProcess
 Out of thread local storage!
@@ -819,6 +824,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDSvS
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1071,7 +1077,6 @@ _wfopen_s
 _wfsopen
 _wstat64i32
 `.rdata
-a3E@y
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -1154,7 +1159,6 @@ j hLk
 j h\`
 j h`n
 j hxj
-j!IvP:
 j!hPJ
 j!htI
 j"hDM
@@ -1191,7 +1195,6 @@ memchr
 memcpy
 memmove
 memset
-nH9~y
 need dictionary
 ntdll.dll
 oversubscribed distance tree
@@ -1253,6 +1256,7 @@ vivelink.exe
 vivelinklib.dll
 w(_^[]
 w0_^[
+wGi],-
 wd_^[
 win64
 wn>Jj
@@ -1261,7 +1265,6 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
-z%*x|
 {L?uI
 {un'%
 |	9A 
