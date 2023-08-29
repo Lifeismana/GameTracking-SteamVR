@@ -215,6 +215,7 @@ $Phdd
 1:2D2L2Z2u2
 1=3m3
 1B2s2
+1H;85
 1X2\2`2d2h2l2p2e3
 1c2|2
 1e+9999
@@ -234,7 +235,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-230822003314Z0/
+230829151923Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -293,7 +294,6 @@ $Phdd
 4T5l5u5
 4^4c4i4r4
 4d4h4l4p4t4x4|4
-4gLBy&
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5*545?5G5N5V5_5f5q5w5~5
 5 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6
@@ -388,7 +388,6 @@ $Phdd
 989c9
 9<: <r<
 9A0t+
-9AV#XJ
 9L=p=|=
 9LHB-u
 9M;R;v;{;
@@ -482,7 +481,6 @@ $Phdd
 ?!?8?G?P?[?b?
 ?(?,?0?4?<?T?X?p?
 ?(?4?<?\?
-?)n'$
 ?8?@?P?
 ?;?f?
 ?=?[?v?
@@ -663,7 +661,6 @@ DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
 DISCONNECT
-DLB4k
 DeleteCriticalSection
 DeleteFileW
 DigiCert Assured ID Root CA0
@@ -730,6 +727,7 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 GetVersionExA
+GzhdC
 H$;J$
 H-^Eu
 HTC BS
@@ -799,7 +797,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
-NxVG;
 ODFU Post
 OpenProcess
 Out of thread local storage!
@@ -824,7 +821,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSvS
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1076,6 +1072,7 @@ _strnicmp
 _wfopen_s
 _wfsopen
 _wstat64i32
+_z2xl_&
 `.rdata
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
@@ -1127,6 +1124,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+h}Z7R
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1183,6 +1181,7 @@ jj@0HK4
 k0i0$
 l2|X/gGe
 lighthouse
+lk1'`]w
 lower
 m0k0$
 malloc
@@ -1256,7 +1255,6 @@ vivelink.exe
 vivelinklib.dll
 w(_^[]
 w0_^[
-wGi],-
 wd_^[
 win64
 wn>Jj
@@ -1269,6 +1267,7 @@ y4_^[
 {un'%
 |	9A 
 |	;J 
+|;Q]W
 |Lu?c
 |cj#h
 }	jCh

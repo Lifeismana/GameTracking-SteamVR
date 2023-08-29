@@ -52,7 +52,6 @@
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
 "buffers" object not found in .gltf
-"fa>I
 "j$hl
 "nodes" object not found in .gltf
 "orthographic" is not a JSON object.
@@ -101,6 +100,7 @@ $9^ t
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 +Xt@(
++jX'BV
 +o'q)}
 , binary size = 
 , but got 
@@ -458,7 +458,7 @@ $9^ t
 220801000000Z
 222>2N2c2
 230714000000Z
-230822003407Z0/
+230829152017Z0/
 232;2R2Z2n2
 241009235959Z0a1
 293E3
@@ -660,6 +660,7 @@ $9^ t
 646X6d6l6
 676A6G6\6p6
 687t7
+6:E:c]
 6<6l6
 6A7t9
 6D9	;
@@ -1251,6 +1252,7 @@ DisableThreadLibraryCalls
 DuplicateHandle
 E ;E,
 E ;E,t
+E;|O9uIt@
 ERROR: Failed to dup handle!
 Empty escape sequence in string
 Empty file.
@@ -1411,8 +1413,10 @@ JSONuTS
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
+L.;'nt
 L0_0k0s0{0
 L?n(Zy&
+LA)Lj
 LINEAR
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
@@ -1482,7 +1486,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
 RPVhh
-RSDS0
 RaiseException
 ResetEvent
 S0Q0O
@@ -1541,7 +1544,6 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
-TxSAmjL
 UNNAMED
 Unable to create texture set for pid %u: %s
 Unable to destroy %d swap textures due to invalid session
@@ -1835,6 +1837,7 @@ doubleSided
 driver_oculus.dll
 driver_oculus.vrchap
 dxgi.dll
+e.(pov
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
@@ -2188,7 +2191,6 @@ primitives
 pt_br
 pt_pt
 quest
-q|13;
 range
 read past buffer
 realloc

@@ -19,7 +19,6 @@
 !(0)"
 !hn7!
 "9k0t
-"\*g	^
 #*1892+$
 #9i0t
 #?RADIANCE
@@ -51,6 +50,7 @@
 (t$PL
 (|$ H
 (|$@D
+)':8C
 )9k0t
 )D$0fD
 )L$ fD
@@ -58,8 +58,6 @@
 )t$0H
 )|$ H
 )|$@f
-**ZZa
-*Z>wK4x
 +Xt@(
 +o'q)}
 , last executing in 
@@ -180,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230822003326Z0/
+230829151936Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -295,8 +293,10 @@ Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
 AuthD
+B3:vT1
 BMP RLE
 Bellevue1
+C4!WL;
 C<unknown>
 CAMCMD_GET_OPENCAMERA_RESULT
 CT$ H
@@ -334,7 +334,6 @@ D9{0t
 D9{0t'H
 D9{0t?H
 D9{0tZD
-DB?#{
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -460,10 +459,8 @@ MainThrd
 MbP?{
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-NMY?S
 Not Available
 NotFound
-N{6rM
 Out of thread local storage!
 OutputDebugStringA
 PA^_^
@@ -479,7 +476,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSN
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -487,6 +483,7 @@ ResumeCamera
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S!%uK
 S0Q0O
 SATAUAVAWH
 SA|X=G
@@ -660,7 +657,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-bPZ>Xf
+bZ#2;
 bad AC huff
 bad APP len
 bad BMP
@@ -717,6 +714,7 @@ cameraFrameRate
 cameraISPSyncDivisor
 cameraSensorFrameRate
 can't merge dc and ac
+clD2q
 corrupt
 cs_cs
 czech
@@ -726,10 +724,12 @@ d$<Mc
 d$PfD
 d$`H=
 d$`fD
+dQ2Py
 da_da
 danish
 de_de
 deque<T> too long
+di[M'
 driver_lighthouse
 el_el
 en_us

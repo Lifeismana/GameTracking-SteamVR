@@ -36,12 +36,12 @@
  is not supported
  layers enabled and runtime interface - created instance = 
  library 
- o%J8i6Y
  requires a valid instance
  sJE3
  using interface version 
  was not found
  with error 
+!N|8o
 !hn7!
 %u.%u
 %u.%u.%u
@@ -70,7 +70,6 @@
 ,W5y+
 -1e+9999
 -Infinity
--y2Pz
 .  Does it exist?
 .  Max supported version is 
 .00cfg
@@ -165,7 +164,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230822003620Z0/
+230829152231Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -186,10 +185,10 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8?,]v3@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+9hBY!*
 <0:08
 =rIQU
 >0<0:
@@ -446,9 +445,7 @@ H;Cxu
 H;Y t
 H;k u
 HA_A]_[
-HVe]>
 I#V0I
-I+IotM'
 I9Bhs
 I9W(t
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
@@ -529,9 +526,7 @@ PA_A^_^]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-Qh'6x
 QueryPerformanceCounter
-RSDSnF5
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -775,13 +770,13 @@ gfffffffI
 gfffffffI+
 gfffffffL+
 gfffffffM
+go&4R
 hA_A^][
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-h~ W$dNY
 implementation_version
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -825,11 +820,11 @@ memcpy
 memmove
 memset
 must be non-NULL
+nadvv
 nfinity
 ntelD
 openxr/
 openxr_loader.dll
-r9P9g
 rejectDupKeys
 runtime
 s t#fff

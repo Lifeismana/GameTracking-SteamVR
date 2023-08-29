@@ -9,7 +9,7 @@
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()???????????????????*+,-./01????????????????????????????????23456789:;?<=>f
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
  %41g
  'L>[
  A9_ w
@@ -33,6 +33,7 @@
  C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
+ D;=x
  D;j0u
  H3E H3E
  Type Descriptor'
@@ -53,7 +54,6 @@
 "e?<<<<<<l?
 "f9;t
 #])#	
-$)k?9
 $+xvA
 $< t6<$t,<+t"<vt
 $C#9$"
@@ -326,7 +326,6 @@ $iMBm
 .CRT$XTA
 .CRT$XTZ
 .T(:"
-.X;Xi
 .data
 .data$r
 .edata
@@ -415,10 +414,11 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-230822003309Z0/
+230829151919Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2Q}g9
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -430,7 +430,6 @@ $iMBm
 3>fvw
 3A8A#
 3T$(H
-3]lw.
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -528,7 +527,6 @@ $iMBm
 ?7{KV
 ?8bunz8
 ?:kP<
-???????????????????????????????????????????????????????????????????????????????????????????????????
 ?@En[vP
 ?Cu0f9w
 ?D8d$@
@@ -599,6 +597,7 @@ $iMBm
 @VWAVH
 @b;zO]
 A valid JSON document must be either an array or an object value.
+A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A$+A,t\3
 A(9B(D
 A+B$+
@@ -622,6 +621,7 @@ A>l$/
 A>pP&
 AA,A$
 AA<Fu
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AK>(v
 ATAUAVH
@@ -1017,15 +1017,16 @@ H3\$HH
 H97uWH
 H98t%H
 H99u{
-H9=#[	
-H9='\	
-H9=3J	
-H9=CC	
-H9=WI	
-H9=[V	
-H9=_W	
-H9=gB	
-H9=sE	
+H9=#J	
+H9=3C	
+H9=GI	
+H9=KV	
+H9=OW	
+H9=WB	
+H9=cE	
+H9=oU	
+H9={@	
+H9={O	
 H9A u
 H9Ahs
 H9D$@u
@@ -1053,7 +1054,6 @@ H;D$pr
 H;XXs
 H;_Xt
 H;xXu5
-HH7rA
 HH:mm:ss
 HHtfH
 HMD Not Known (202)
@@ -1204,7 +1204,8 @@ L(;E:
 L(<A:
 L+t$0
 L9"u&
-L9-k{
+L9-[{
+L9-q~
 L9L$(D
 L9`8u'L
 L9l$0
@@ -1242,7 +1243,7 @@ Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 LrvD)O
 M H1E
-M(f95H
+M(f958
 M98u/
 MB(iVR
 MM/dd/yy
@@ -1284,16 +1285,16 @@ PeekNamedPipe
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pk7o`
 Pz}b!
+Q3d }#C
 Q5rHg,>
 QmqTMv
 Qn 0G
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-R$Uo;A
 R(1)Y9
 R0E8XAt
-RSDSL
+RSDSz
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1312,6 +1313,7 @@ RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 S0Q0O
+S0}T]
 S;\$0tH
 S>$hkDh$h>[2
 SA|X=G
@@ -1383,6 +1385,7 @@ T$pkD$x<
 TUUUU
 TargetOversubscriptionFactor
 TerminateProcess
+The current HMD requires an additional driver that is not installed (214)
 The requested interface is incompatible with the compositor and the compositor is running (122)
 This interface is not available to utility applications (123)
 Thursday
@@ -1736,6 +1739,7 @@ Z(D9Z
 Z\>z8
 Zod(^?
 [ 0@QT
+[";r 
 [*ncd>0
 [3F|}
 [@D8}oteH
@@ -1812,6 +1816,7 @@ _oD>Kg
 ` UAVAWH
 `+!]?
 `.rdata
+`=3Ma7D
 `A^_^
 `A_A^A]A\_^]
 `A_A^_^[
@@ -2004,7 +2009,6 @@ h< t <$
 h>1my
 hA\_^[
 hA_A^A]A\_^][
-hKKG50
 hPP`*
 host unreachable
 http://ocsp.digicert.com0A
@@ -2078,7 +2082,6 @@ ldexp
 log10
 lq%&1T
 m0k0$
-m8bts
 map/set<T> too long
 message size
 n03>Pu
@@ -2376,11 +2379,11 @@ zwom}
 |$h9w
 |Lu?c
 |TBc4
+|V%7{l
 |^4#W,
 |b=})>
 }LuHO
 }o@8{
-}{j.U:
 ~ $s%r
 ~`D8I!t-
 ~qj#k"

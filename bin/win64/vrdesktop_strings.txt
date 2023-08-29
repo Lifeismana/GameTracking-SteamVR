@@ -16,13 +16,10 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-"]D#Q
-$tSPIb
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
 ',=?k
-'lN0h
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -42,7 +39,6 @@ $tSPIb
 +o'q)}
 , last executing in 
 ,W5y+
--%T}+cH
 -1e+9999
 -Infinity
 -u-I;
@@ -163,19 +159,19 @@ $tSPIb
 0w0c1
 0}0i1
 130801120000Z
-1TkW2
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-230822004527Z0/
+230829153132Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2vV)|
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -193,6 +189,8 @@ $tSPIb
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+9WEi.
+;Usx;
 < t+<
 </u#H
 <0:08
@@ -404,6 +402,7 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
+F/h=<Mn,
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -791,7 +790,6 @@ deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
-eBp^8l
 el_el
 en_us
 english
@@ -845,7 +843,6 @@ l$ H=
 l$8E3
 l$PM9n
 l2|X/gGe
-l]I|1
 latam
 list<T> too long
 m0k0$
@@ -880,7 +877,6 @@ ro_ro
 romanian
 ru_ru
 russian
-rx'X}
 schinese
 shcore.dll
 shutdown
@@ -941,6 +937,7 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+zCd?	
 zh_cn
 zh_tw
 {un'%

@@ -1715,6 +1715,7 @@ $ hh@
 $&[HY
 $/H,9h]	1	
 $4DTdt
+$8Ek>
 $@M-[
 $CjS)[a
 $Eyk6
@@ -2986,7 +2987,6 @@ $wtpt
 ,0<6w(H
 ,0<6w/H
 ,1<5w
-,26X!
 ,3fZQ%
 ,9,n,
 ,:<>wmH
@@ -3163,6 +3163,7 @@ $wtpt
 -hald-clut
 -highlight-color
 -hough-lines
+-i	$^
 -iconGeometry
 -iconic
 -identify
@@ -3433,7 +3434,6 @@ $wtpt
 .H>Di
 .IEC 61966-2.1 Default RGB colour space - sRGB
 .Too many IDATs found
-.VYOT
 .W,`]
 .b(9["
 .data
@@ -3562,6 +3562,7 @@ $wtpt
 /W vC
 /Width %.20g
 /XObject << /Im%.20g %.20g 0 R >>
+/i>jd
 /m?$_m?e
 /mask_stream exch def
 /setpagedevice {pop} bind 1 index where {dup wcheck {3 1 roll put} {pop def} ifelse} {def} ifelse
@@ -3719,7 +3720,7 @@ $wtpt
 220323000000Z
 220801000000Z
 230714000000Z
-230822003613Z0/
+230829152223Z0/
 230x323
 2384x3370
 24 24
@@ -14515,6 +14516,7 @@ Zoom Select Status
 ^%b!5
 ^-1.0*
 ^-C%5
+^-URiP
 ^5KM0
 ^5NP0
 ^5TQ0
@@ -17574,7 +17576,6 @@ ku-iq
 ku-ir
 ku-tr
 kurtosis
-kzi^^
 l og 
 l!;b	F
 l$ 9X8
@@ -17953,14 +17954,12 @@ n2/t.
 n8L9e
 n= BGRt_= ZYXtN=rbCYt=H
 n?EKn?tzn?
-nA-2D
 nD	,H
 nD$ H
 nD$8f
 nD$pH
 nF1~P8wH*n_*
 nT$PH
-nZZM)iAK
 n\$Pf
 n]"{7
 n_WlYGh\Kj^N
@@ -18821,7 +18820,6 @@ s$fff
 s%	c %
 s%fff
 s(H;3|
-s*r5I
 s+D8l
 s0t*f
 s1 != NULL

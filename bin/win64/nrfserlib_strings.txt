@@ -625,6 +625,7 @@
 0w0c1
 0}0i1
 130801120000Z
+1`' A
 1e+9999
 2.0.0
 210429000000Z
@@ -632,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230822003330Z0/
+230829151940Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1333,7 +1334,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KjMd(
 K}*n:	
 L$ H+
 L$ H;
@@ -1502,7 +1502,6 @@ PROGRAM LOGIC ERROR: app_ble_gap_adv_buf_register not called from context REQUES
 ParentIdPrefix
 Parity: 
 Parsing of JSON string "%s" failed: %s
-Pcq}#
 PerformDFUContext
 Performing DFU:
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -1658,7 +1657,6 @@ TlsGetValue
 TlsSetValue
 Trying to send packets to device when serial device is closed is not supported.
 Trying to send unknown control packet to device. 
-T~S"k
 UATAUAVAWH
 UATAVH
 UAVAWH
@@ -1776,6 +1774,7 @@ Zipfile is corrupt or not a zipfile
 \u=H;
 ]J<0"0i3
 ]gfff
+^0{8*
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -1934,9 +1933,9 @@ invalid window size
 ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
+jR9sw*
 jj@0HK4
 k0i0$
-kd:u(t
 l$ H=
 l$ VAVAWH
 l$ VWAVH
@@ -1983,6 +1982,7 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
+qZoa'`
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2176,8 +2176,9 @@ x UATAUAVAWH
 xA\^][
 xA^A]_[
 xAtAL
+xEu81~
 xdigit
-{WeX	
+yT,OK
 {un'%
 {x\u!H
 {|?uWH
@@ -2213,8 +2214,6 @@ xdigit
 |$ps`H
 |Lu?c
 }LuHO
-}_;|R
 ~'HcB
-~TET$Icnh`
 ~qj#k"
 ~t&LN

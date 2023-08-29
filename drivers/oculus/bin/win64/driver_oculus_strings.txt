@@ -383,6 +383,7 @@ $w!Hc
 .tls$ZZZ
 .xdata
 .xdata$x
+/8Dw?
 /9{0t'H
 /=&s	
 /=Ft	
@@ -463,11 +464,12 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230822003551Z0/
+230829152201Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2NQ+<
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -498,6 +500,7 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+9&Paj
 9C s.H
 9T$Pu9A
 9T$XJ
@@ -510,7 +513,6 @@ $w!Hc
 9l$Lt	E
 9|$0u
 : one or more FS callback not set
-:9wj.
 ; expected 
 ; last read: '
 ;K sCH
@@ -904,6 +906,7 @@ D;l$0
 D;v(s
 D;z s
 D;}Tr
+DFi=J8
 DXGI_ERROR_DEVICE_HUNG
 DXGI_ERROR_DEVICE_REMOVED
 DXGI_ERROR_DEVICE_RESET
@@ -1262,7 +1265,6 @@ OpenProcess
 Orhographic camera description not found.
 OrthographicCamera
 Out of thread local storage!
-P-7uv
 PA^_^
 PA^_^][
 PA_A]A\_^
@@ -1287,7 +1289,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSX
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1329,6 +1330,7 @@ SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInterfaces
 SetupDiGetClassDevsA
 SetupDiGetDeviceInterfaceDetailA
+SlQ|YB
 Sleep
 SleepConditionVariableCS
 Spot light description not found.
@@ -1610,7 +1612,6 @@ _wstat64i32
 `sampler` field is missing in animation channels
 `samplers' does not contain an JSON object.
 `scenes' does not contain an JSON object.
-`scfC
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
 a7hIw
@@ -1816,7 +1817,6 @@ http://www.digicert.com/CPS0
 hu_hu
 hungarian
 ig@-?e
-ih`lqq4V
 illegal code in raster
 image/bmp
 image/gif
@@ -1967,6 +1967,7 @@ minFilter
 minVersion
 missing color table
 multiple IHDR
+n)Ym.
 n0_D@
 no IDAT
 no PLTE
@@ -1993,7 +1994,6 @@ o@@fD
 oD$ fD
 oD$0f
 oD$0fD
-oEnq@
 oL$ f
 oT$0f
 object
@@ -2170,7 +2170,6 @@ roundf
 ru_ru
 russian
 s fff
-sJ1Ua
 sampler
 samplers
 scale
@@ -2485,6 +2484,7 @@ wXH9w`t/H
 weights
 while parsing 
 width
+wlc6@
 wn>Jj
 wrapR
 wrapS
@@ -2555,6 +2555,7 @@ znear
 |$`M+
 |LL\t
 |Lu?c
+}	q,	
 }LuHO
 ~+fff
 ~3LcD$(L

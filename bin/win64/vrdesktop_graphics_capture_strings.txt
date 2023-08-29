@@ -35,7 +35,6 @@
 )t$0H
 )t$@H
 *uXI;
-+AgU.
 +Xt@(
 +o'q)}
 , last executing in 
@@ -148,6 +147,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/ZneL
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -182,7 +182,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230822004537Z0/
+230829153142Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -202,6 +202,7 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8=?U{
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -210,8 +211,6 @@
 < t+<
 </u#H
 <0:08
-<Di`5
-<P0;n,
 <unknown>
 =rIQU
 >0<0:
@@ -486,7 +485,7 @@ Failed to update pointer overlay for desktop %d.
 FormatMessageA
 FormatMessageW
 GDI32.dll
-GYv y
+G]{19$
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
@@ -523,7 +522,6 @@ GetWindowTextLengthW
 GetWindowTextW
 GetWindowThreadProcessId
 GraphicsCaptureSession is not supported.
-H	Zb5
 H!C@H
 H+SpI
 H+WpA
@@ -670,7 +668,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS|
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -811,6 +808,7 @@ Y9"SD
 \$hI;
 \$pI;
 \u=H;
+\xPh>
 ]J<0"0i3
 ]g@8yhu
 _Cnd_destroy
@@ -912,7 +910,6 @@ deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
-eT:lh
 el_el
 en_us
 enableWindowView
@@ -924,6 +921,7 @@ expecting another \u token to begin the second half of a unicode surrogate pair
 fD9&u
 fF94@u
 false
+fd'^C
 fffffff
 fi_fi
 finnish

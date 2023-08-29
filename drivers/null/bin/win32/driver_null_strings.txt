@@ -1,5 +1,7 @@
 	!s99
  %41g
+ ^0TA
+ zjcs
 !hn7!
 ',=?k
 (f*^[0
@@ -85,13 +87,12 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230822003403Z0/
+230829152012Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2ZM$M
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 3.3T3k3
@@ -102,6 +103,7 @@
 380115120000Z0b1
 3:3I3X3
 3mq+<
+3oGO6
 4	5(555?5I5V5c5i5s5}5
 4	5N5T5u5
 4*4d4m4~4
@@ -129,6 +131,7 @@
 9 9(9@9P9T9d9h9l9p9x9
 9"9)91999A9M9V9[9a9k9u9
 9"9+909@9J9S9\9n9s9}9
+98fVpA
 999~9
 : :(:@:P:T:d:h:p:
 :#:):/:5:;:A:G:M:S:Y:_:e:k:q:
@@ -151,6 +154,7 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
+@tbH"
 Bellevue1
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -164,9 +168,9 @@ GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
+H%StX/!
 H-^Eu
 HmdDriverFactory
-H{^6KD
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -198,7 +202,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS/
+R/4Bh
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -249,7 +253,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-b]y%.
+b*flyX
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
@@ -268,6 +272,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+h}G#Y
 jj@0HK4
 k0i0$
 l2|X/gGe
@@ -277,7 +282,6 @@ memcpy
 memmove
 memset
 modelNumber
-npEh%6
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons

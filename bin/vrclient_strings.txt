@@ -2312,7 +2312,6 @@ $
 0
 0 width
 0-pixel image
-00:31:18
 0123456789
 0123456789ABCDEF
 1
@@ -2397,6 +2396,7 @@ $
 14IHmdSystem_002
 14IHmdSystem_003
 14IVRLegacyInput
+15:17:55
 15CIOBufferCursor
 15CSyncLockThread
 15CVRIOBuffer_001
@@ -3025,6 +3025,7 @@ $
 A
 A protocol message was rejected because it was too big (more than
 A valid JSON document must be either an array or an object value.
+A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ACK
 AKST
@@ -3126,7 +3127,7 @@ Attempting to wait on a fence that has already been waited for. Current: %llx Wa
 Attempting to wait on a fence value that is too large. Current: %llx Wait: %llx
 Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %llx, Signaled: %llx
 Aug
-Aug 22 2023
+Aug 29 2023
 August
 AuthenticAMD
 AutosaveURL
@@ -22917,6 +22918,7 @@ TextureDownsampleResolve
 TextureDownsampleTemp
 TextureInfo
 TextureMsaaResolveRenderer
+The current HMD requires an additional driver that is not installed (214)
 The requested interface is incompatible with the compositor and the compositor is running (122)
 The total number of bytes read was
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.

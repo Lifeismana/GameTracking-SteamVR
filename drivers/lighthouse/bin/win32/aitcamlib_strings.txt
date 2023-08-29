@@ -99,6 +99,7 @@ $9^ t
 .tls$ZZZ
 .xdata$x
 /9s<u*
+/I'PHp$
 /delivery_rate
 /elapsed_time
 /format
@@ -168,7 +169,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-230822003306Z0/
+230829151915Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -225,7 +226,6 @@ $9^ t
 5d6h6l6p6t607
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-5qs$ 
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
 6 6$6(6,6064686X8\8`8d8h8l8p8
 6!6-636B6K6Q6[6a6p6v6
@@ -499,11 +499,11 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
+RSDSbvK
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
 ResumeCamera
-Rw{b8^
 S0Q0O
 SA|X=G
 SETUPAPI.dll
@@ -584,7 +584,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
-WTHoL4
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -598,8 +597,6 @@ Y__^[
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
-[VG=;
-[nAY3
 \2d2h2l2p2t2x2|2
 ]J<0"0i3
 _CIpow
@@ -701,6 +698,7 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
+c+\Ko
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
@@ -758,7 +756,6 @@ korean
 l2|X/gGe
 latam
 ldexp
-lx7?h
 m0k0$
 malloc
 map/set<T> too long
@@ -826,6 +823,7 @@ u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C
 uCVj@
 uEVj@
+u_Idw
 ua_ua
 ukranian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer

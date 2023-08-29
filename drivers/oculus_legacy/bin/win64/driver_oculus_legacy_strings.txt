@@ -6,6 +6,7 @@
  A__^
  H3E H3E
 !hn7!
+%R)(.
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -91,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230822003554Z0/
+230829152204Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -126,11 +127,9 @@
 ;k sAH
 ;k sDH
 <0:08
-=%b7Ll
 =rIQU
 >0<0:
 >Mp$d
-?N D={
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -250,6 +249,7 @@ LIBOVR_DLL_DIR
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
 LoadLibraryW
+Lp9>En
 M H1E
 M98u/
 MB(iVR
@@ -261,7 +261,6 @@ NPH9Q
 OD$DH
 OVR Runtime Init
 OVRRuntimeWindowThread
-O]V`!
 Oculus
 Out of thread local storage!
 PAq=?Mp#
@@ -270,6 +269,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDS00$
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -321,8 +321,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-Zm+%P
-ZqFcw
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -383,7 +381,6 @@ d$`H=
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
-eUCYuo
 effffff
 f9<Xu
 getenv
@@ -394,7 +391,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iI@puSQ
 jj@0HK4
 k0i0$
 l$8E3
@@ -474,7 +470,9 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+ysWQ<
 z(uMH
+zr2DN
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

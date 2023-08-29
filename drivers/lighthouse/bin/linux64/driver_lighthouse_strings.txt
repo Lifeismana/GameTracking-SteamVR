@@ -825,7 +825,6 @@ $@
 0-pixel image
 0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00:31:24
 0123456789
 0123456789ABCDEF
 0123456789abcdef
@@ -873,6 +872,7 @@ $@
 14CPreviewThread
 14CVRMailboxBase
 14IHandPoseLogic
+15:18:04
 15CVRAudioDevices
 15CVRReplyMailbox
 15CVkResourceBase
@@ -977,6 +977,7 @@ A
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than
 A valid JSON document must be either an array or an object value.
+A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 AHJzrJbk
 AITAPI_AitExtGet(void*, unsigned short, unsigned char*, unsigned long, unsigned long*)
@@ -1078,7 +1079,7 @@ Attempting HID Open %s: %s
 Audio
 AudioBridge
 Aug
-Aug 22 2023
+Aug 29 2023
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)
@@ -5610,6 +5611,7 @@ Target fw version:
 Task Suspended
 Test mode ena:
 TextureInfo
+The current HMD requires an additional driver that is not installed (214)
 The requested interface is incompatible with the compositor and the compositor is running (122)
 The total number of bytes read was
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.

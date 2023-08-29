@@ -9,6 +9,7 @@
 +o'q)}
 , last executing in 
 ,W5y+
+-`p.	&
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -92,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230822003411Z0/
+230829152019Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -119,7 +120,6 @@
 4'4L4n4
 4(414:4C4L4+5D5H5L5P5T5X5\5`5
 4/5C5M5X5}5
-4;3_n
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4j/hd
 5$5/5
@@ -136,7 +136,6 @@
 6*f(_
 696r6
 696~6
-6<M:d
 6A7J7Q7
 6I]Dc
 6OB,n_
@@ -274,7 +273,6 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-K+([6
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -290,13 +288,14 @@ Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
+Ot[D_
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS~w
+RSDS(
 RaiseException
 S0Q0O
 SA|X=G
@@ -335,6 +334,7 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+XH3@8
 Y9"SD
 Y__^[
 [K]taM?
@@ -383,7 +383,6 @@ _seh_filter_dll
 _stricmp
 `.rdata
 a7hIw
-a9JB2a
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -409,6 +408,7 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
+k4X'@
 l2|X/gGe
 m0k0$
 malloc
@@ -416,8 +416,8 @@ map/set<T> too long
 memcpy
 memmove
 memset
-n,	sF
 oculus
+of9rWJ
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
 ovr_ConfigureTracking
@@ -471,7 +471,6 @@ strncpy_s
 strstr
 tdh.dll
 terminate
-u)cLas
 u7j8Q
 uCVj@
 v=Y]Bv

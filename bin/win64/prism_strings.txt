@@ -22,7 +22,6 @@
 		{	// etc
 		} } },
 	!s99
-	W[Dryb
 	{ 0x%x, 0x%x, %d, %d, {
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
@@ -52,7 +51,6 @@
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
-!Wd:&
 !g_pSharedResourceNamespaceServer
 !hn7!
 !isnan( *pSecondsSinceVsync )
@@ -532,7 +530,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-230822003348Z0/
+230829151959Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -576,7 +574,6 @@ $9E0u
 <0:08
 <P)9Y
 <unknown>
-<ve40
 =rIQU
 >0<0:
 >Mp$d
@@ -904,6 +901,7 @@ ClientTimeline-%d
 CloseHandle
 CloseServiceHandle
 Closing pipe %s because it was broken from the other end
+CoCN2P)
 CoCreateFreeThreadedMarshaler
 CoIncrementMTAUsage
 CoTaskMemAlloc
@@ -975,7 +973,6 @@ D$pL;
 D$xD;
 D$xH;
 D$xL;
-D14r^
 D3D11CreateDevice
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
@@ -1425,6 +1422,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDS7Y
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1495,7 +1493,6 @@ Somebody else should have created event %s to go with pipe %s in WaitForConnecti
 Somebody locked a non-leaf shared memory %s while %s was already locked
 Submit: %s
 Swapchain
-T ZjO
 T$ E3
 T$ Hc
 T$ fI
@@ -1856,7 +1853,6 @@ fn != nullptr
 frameInfo.pImage != nullptr
 frameInfo.sampler != VK_NULL_HANDLE
 from.pPool != nullptr
-fxQ,6
 gfffffffA
 gfffffffH
 gfffffffH+
@@ -1945,6 +1941,7 @@ m_sortedClients.size() == m_importedClients.size()
 m_waitSemaphores.size() == m_waitSemaphoreStages.size()
 m_waitTimelines.size() == m_waitPoints.size()
 m_waitTimelines.size() == m_waitStages.size()
+ma6Rw
 malloc
 map/set<T> too long
 memcmp
@@ -1968,6 +1965,7 @@ nvcuda.dll
 ole32.dll
 ot$HH
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex
+otv5D0
 p WAVAWH
 pA]A\^
 pA_A^]
