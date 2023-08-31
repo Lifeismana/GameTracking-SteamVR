@@ -2464,7 +2464,6 @@ $tI
 14CPreviewThread
 14CVRMailboxBase
 14IHandPoseLogic
-15:17:55
 15CVRAudioDevices
 15CVRReplyMailbox
 15IStatePoseMaker
@@ -2475,6 +2474,7 @@ $tI
 17CFirmwareManifest
 17CImuTrackerThread
 17CLinuxVideoStream
+18:26:12
 18IUsbDeviceCallback
 19CWirelessDecoderWv2
 1e+9999
@@ -2646,7 +2646,7 @@ Attempting HID Open %s: %s
 Audio
 AudioBridge
 Aug
-Aug 29 2023
+Aug 31 2023
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)

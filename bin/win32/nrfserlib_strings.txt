@@ -708,7 +708,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-230829151919Z0/
+230831183211Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1221,6 +1221,7 @@ $Vh&*
 <<<D<L<T<\<l<t<|<
 <= Exiting Context: (%.2f seconds)
 <=<X<b<h<
+<=Cfp-
 <><v<
 <>=J=t=
 <?=h=
@@ -1801,7 +1802,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 MultiByteToWideChar
-N*=A'
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
 NRFError_DFUError_BaseNeedsPowerCycle
@@ -2104,7 +2104,6 @@ Zipfile is corrupt or not a zipfile
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
-^BM)>t
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -2201,7 +2200,6 @@ c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.
 calloc
 close
 cntrl
-d#]Y\<
 dat_file
 data error
 deque<T> too long
@@ -2481,11 +2479,9 @@ xdigit
 y4_^[
 {L?uI
 {un'%
-|KFAe@
 |Lu?c
 |cj#h
 }	jCh
-}=A_v
 }LuHO
 }qj<h
 ~L][u

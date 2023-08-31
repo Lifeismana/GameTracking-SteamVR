@@ -71,6 +71,7 @@ $9^ t
 %UUUU
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
+%jALMOk
 %s begin_ctx=%llu
 %s end_ctx=%llu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -100,7 +101,6 @@ $9^ t
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 +Xt@(
-+jX'BV
 +o'q)}
 , binary size = 
 , but got 
@@ -458,7 +458,7 @@ $9^ t
 220801000000Z
 222>2N2c2
 230714000000Z
-230829152017Z0/
+230831183309Z0/
 232;2R2Z2n2
 241009235959Z0a1
 293E3
@@ -660,12 +660,12 @@ $9^ t
 646X6d6l6
 676A6G6\6p6
 687t7
-6:E:c]
 6<6l6
 6A7t9
 6D9	;
 6H7p7
 6I]Dc
+6M3{N
 6O6p6:7^7
 6OB,n_
 6PjMjBh$m
@@ -918,6 +918,7 @@ $9^ t
 ;Y<h<
 ;\;e;r;
 ;\<b<}<
+;b} p
 ;e;^?
 ;f<F=,>
 ;g<n<
@@ -1173,6 +1174,7 @@ $9^ t
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@PBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
+?}d,m
 @.data
 @.reloc
 @.rsrc
@@ -1252,7 +1254,6 @@ DisableThreadLibraryCalls
 DuplicateHandle
 E ;E,
 E ;E,t
-E;|O9uIt@
 ERROR: Failed to dup handle!
 Empty escape sequence in string
 Empty file.
@@ -1413,10 +1414,8 @@ JSONuTS
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
-L.;'nt
 L0_0k0s0{0
 L?n(Zy&
-LA)Lj
 LINEAR
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
@@ -1484,10 +1483,12 @@ Q9F t
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RG@zM
 RPCRT4.dll
 RPVhh
 RaiseException
 ResetEvent
+Rm]qJ
 S0Q0O
 SA|X=G
 SCALAR
@@ -1582,6 +1583,7 @@ WinVerifyTrust
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
+ZZiy%
 [K]taM?
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -1837,7 +1839,6 @@ doubleSided
 driver_oculus.dll
 driver_oculus.vrchap
 dxgi.dll
-e.(pov
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
@@ -1992,6 +1993,7 @@ jj@0HK4
 joints
 jsonid
 k0i0$
+kFRDT
 ko_ko
 korean
 l2|X/gGe
@@ -2481,6 +2483,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+xHqet{
 y"h =
 yxxx+
 zh_cn

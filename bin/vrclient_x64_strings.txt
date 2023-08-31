@@ -12,6 +12,7 @@
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
 	D$HA
+	NaTJ
 	w=%d, h=%d, format=%d
 	|$HA
         Resource: InUse:%d name:%s
@@ -66,7 +67,6 @@
  H;\$xu
  L;uX
  at line 
- b`\y}
  failed to parse: 
  for action '
  for detail.
@@ -629,7 +629,6 @@ $w!Hc
 +L$@A
 +Xt@(
 +o'q)}
-+zAva/~
 , binary size = 
 , but got 
 , column 
@@ -2053,13 +2052,14 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230829153045Z0/
+230831184510Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3'a+a
 311109235959Z0b1
 333?E
 341013235959Z0H1
@@ -2071,6 +2071,7 @@ $w!Hc
 3mq+<
 416.16
 440.97
+4AE8LHv
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 528.49
 555555
@@ -2209,6 +2210,7 @@ $w!Hc
 =IBgC
 =SNRtt%
 =TADIt<=DNEI
+=\(W?
 =rIQU
 >"tVH
 >"taH
@@ -2738,7 +2740,6 @@ BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-BcY\/
 Begin
 BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
 BeginFrame called outside of a valid session.
@@ -5433,7 +5434,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSx
+RSDSCp
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6779,7 +6780,6 @@ X UVWH
 X UWATAUAWH
 X8Hc@@H
 X8Hc@@L
-X9L#m
 XA\_^[
 XA^A]A\]
 XA^A]^[
@@ -8217,6 +8217,7 @@ extensionsUsed
 external_drivers
 extras
 f(L9f@H
+f3[wn
 f9+t4
 f98tZH
 f98t\H
@@ -9002,6 +9003,7 @@ s$D;E
 s(HcEoH
 s=fff
 sButtonTexts
+sByq%a+
 sCaptionText
 sMessageText
 safe_mode_driver_whitelist.json
@@ -10561,6 +10563,7 @@ yxxxxxxxH+
 yxxxxxxxI
 yxxxxxxxL
 yxxxxxxxL+
+zc<FL>M
 zh_cn
 zh_tw
 zlib corrupt

@@ -69,6 +69,7 @@
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
 "9k0t
+";IxW
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
@@ -383,7 +384,6 @@ $w!Hc
 .tls$ZZZ
 .xdata
 .xdata$x
-/8Dw?
 /9{0t'H
 /=&s	
 /=Ft	
@@ -464,12 +464,11 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230829152201Z0/
+230831183610Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2NQ+<
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -500,7 +499,6 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9&Paj
 9C s.H
 9T$Pu9A
 9T$XJ
@@ -906,7 +904,6 @@ D;l$0
 D;v(s
 D;z s
 D;}Tr
-DFi=J8
 DXGI_ERROR_DEVICE_HUNG
 DXGI_ERROR_DEVICE_REMOVED
 DXGI_ERROR_DEVICE_RESET
@@ -1146,6 +1143,7 @@ IsDepthFormat( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
 JSON string too short.
+K.sBz
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1289,6 +1287,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS\
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1330,7 +1329,6 @@ SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInterfaces
 SetupDiGetClassDevsA
 SetupDiGetDeviceInterfaceDetailA
-SlQ|YB
 Sleep
 SleepConditionVariableCS
 Spot light description not found.
@@ -1444,6 +1442,7 @@ WAVAWH
 WINMM.dll
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
+W^|MxI
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -1798,6 +1797,7 @@ french
 fseek
 fsetpos
 fwrite
+fwvQB
 g9k0t_D
 generator
 german
@@ -1967,7 +1967,6 @@ minFilter
 minVersion
 missing color table
 multiple IHDR
-n)Ym.
 n0_D@
 no IDAT
 no PLTE
@@ -1986,6 +1985,7 @@ not GIF
 not HDR
 not PSD
 not enough pixels
+nqHVPb)
 ntelD
 null literal
 number literal
@@ -2484,7 +2484,6 @@ wXH9w`t/H
 weights
 while parsing 
 width
-wlc6@
 wn>Jj
 wrapR
 wrapS
@@ -2555,7 +2554,6 @@ znear
 |$`M+
 |LL\t
 |Lu?c
-}	q,	
 }LuHO
 ~+fff
 ~3LcD$(L

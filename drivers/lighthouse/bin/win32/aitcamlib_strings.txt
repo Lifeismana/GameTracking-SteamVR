@@ -13,6 +13,7 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
+&t&	A
 ',=?k
 '.5<=6/7>????????????????
 (2/2c2j2
@@ -27,9 +28,11 @@ $9^ t
 (f*^[0
 +3/3z4
 +Xt@(
++]^)WoO
 +o'q)}
 , last executing in 
 ,W5y+
+-!A9;
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -99,7 +102,6 @@ $9^ t
 .tls$ZZZ
 .xdata$x
 /9s<u*
-/I'PHp$
 /delivery_rate
 /elapsed_time
 /format
@@ -169,7 +171,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-230829151915Z0/
+230831183207Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -366,6 +368,8 @@ $9^ t
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 @(Failed Enumeration)
 @.data
+@od4e
+A8XeY
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -483,6 +487,7 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
+Od-YGRs
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
@@ -499,7 +504,6 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSbvK
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -698,7 +702,6 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c+\Ko
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
@@ -807,6 +810,7 @@ strtol
 sv_sv
 swedish
 t"Php
+t6Z^"[
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -823,7 +827,6 @@ u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C
 uCVj@
 uEVj@
-u_Idw
 ua_ua
 ukranian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer

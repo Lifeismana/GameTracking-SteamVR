@@ -41,8 +41,8 @@
  using interface version 
  was not found
  with error 
-!N|8o
 !hn7!
+#=0DM
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -57,8 +57,10 @@
 (t$ H
 (t$PL
 (unknown)
+)=Wy0
 )D$ L
 )t$ H
+*kEs$
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -146,6 +148,7 @@
 .xdata$x
 /api_layers/explicit.d
 /api_layers/implicit.d
+/fCpbvFe
 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
 0123456789abcdef
 0A^A\_
@@ -164,7 +167,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230829152231Z0/
+230831183644Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -188,7 +191,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-9hBY!*
 <0:08
 =rIQU
 >0<0:
@@ -324,6 +326,7 @@ Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C0L9<
+C8aA&
 CD$0D
 CD$0I
 CD$0f
@@ -563,6 +566,7 @@ Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
+Spjbe
 Syntax error: value, object or array expected.
 T$0H;
 T$HE3
@@ -729,6 +733,7 @@ application name missing NULL terminator.
 bad allocation
 bad array new length
 bad cast
+bdT'e9
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 collectComments
 d$ UAVAWH
@@ -770,7 +775,6 @@ gfffffffI
 gfffffffI+
 gfffffffL+
 gfffffffM
-go&4R
 hA_A^][
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -820,9 +824,9 @@ memcpy
 memmove
 memset
 must be non-NULL
-nadvv
 nfinity
 ntelD
+oAsow=
 openxr/
 openxr_loader.dll
 rejectDupKeys
@@ -977,6 +981,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
+zUIv!
 {un'%
 |$ ATAVAWH
 |$ AVH

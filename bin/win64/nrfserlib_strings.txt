@@ -625,7 +625,6 @@
 0w0c1
 0}0i1
 130801120000Z
-1`' A
 1e+9999
 2.0.0
 210429000000Z
@@ -633,7 +632,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230829151940Z0/
+230831183350Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -655,6 +654,7 @@
 6666666666666
 6I]Dc
 6OB,n_
+6j. wm
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8A^A]^]
@@ -681,6 +681,7 @@
 9|$@u
 9|$Pt
 9|$`t
+:.g"Y
 :\u-L
 :\u6L
 ;K }DH
@@ -1707,6 +1708,7 @@ Valve Corp.0
 Valve Corp.1
 VerSetConditionMask
 VerifyVersionInfoA
+W3*J-
 W@I9WHt
 WAKEUP
 WATAUAVAWH
@@ -1774,7 +1776,6 @@ Zipfile is corrupt or not a zipfile
 \u=H;
 ]J<0"0i3
 ]gfff
-^0{8*
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -1840,6 +1841,7 @@ _strupr_s
 `.rdata
 `A_A^A\_^
 `A_A^_^]
+a-Xz&
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -1933,7 +1935,6 @@ invalid window size
 ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
-jR9sw*
 jj@0HK4
 k0i0$
 l$ H=
@@ -1956,6 +1957,7 @@ l2|X/gGe
 list<T> too long
 lower
 m0k0$
+m4Crx
 malloc
 manifest
 manifest file %s parse error from %s
@@ -1982,7 +1984,7 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
-qZoa'`
+r]=K(5r
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2176,9 +2178,8 @@ x UATAUAVAWH
 xA\^][
 xA^A]_[
 xAtAL
-xEu81~
 xdigit
-yT,OK
+{eGz}
 {un'%
 {x\u!H
 {|?uWH

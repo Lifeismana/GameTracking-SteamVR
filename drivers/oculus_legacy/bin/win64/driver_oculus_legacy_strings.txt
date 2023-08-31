@@ -6,7 +6,7 @@
  A__^
  H3E H3E
 !hn7!
-%R)(.
+#@l~c
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -19,10 +19,12 @@
 )\$pD
 )d$`D
 )t$pu.H
+*[j!9
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
+-Sm.eV
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -92,7 +94,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230829152204Z0/
+230831183613Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -127,6 +129,7 @@
 ;k sAH
 ;k sDH
 <0:08
+=8VgU
 =rIQU
 >0<0:
 >Mp$d
@@ -177,6 +180,7 @@ D9@ s
 D9H s
 D;A s
 D;I s
+DH3a:
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -249,7 +253,6 @@ LIBOVR_DLL_DIR
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
 LoadLibraryW
-Lp9>En
 M H1E
 M98u/
 MB(iVR
@@ -269,7 +272,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS00$
+RSDSYR
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -367,6 +370,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`O?\09
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -379,6 +383,7 @@ c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\201
 camera
 d$`H=
 d3d11.dll
+dj_,"
 dk2_camera
 driver_oculus_legacy.dll
 effffff
@@ -470,9 +475,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-ysWQ<
 z(uMH
-zr2DN
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -485,6 +488,7 @@ zr2DN
 {un'%
 |$ AVH
 |$8I;
+|KqS'
 |Lu?c
 }LuHO
 ~qj#k"

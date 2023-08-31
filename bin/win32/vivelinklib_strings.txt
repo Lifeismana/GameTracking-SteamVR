@@ -14,6 +14,7 @@
  for detail.
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
 !0L0w0
+!C6AB
 !hn7!
 $Phdd
 %%.%dg
@@ -80,6 +81,7 @@ $Phdd
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
+++}2.on
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -215,7 +217,6 @@ $Phdd
 1:2D2L2Z2u2
 1=3m3
 1B2s2
-1H;85
 1X2\2`2d2h2l2p2e3
 1c2|2
 1e+9999
@@ -235,7 +236,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-230829151923Z0/
+230831183215Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -449,6 +450,7 @@ $Phdd
 <;<J<S<`<x<
 <;<m<
 <= Exiting Context: (%.2f seconds)
+<FED4
 <SVWj
 <\<l<
 <j<?>U>
@@ -727,7 +729,6 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 GetVersionExA
-GzhdC
 H$;J$
 H-^Eu
 HTC BS
@@ -1023,6 +1024,7 @@ Zip-bug: the anticipated size turned out wrong
 Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
+Zs/MZ
 [DFU]
 [K]taM?
 \\.\pipe\BaseStationFirmwareUpgrade
@@ -1072,7 +1074,6 @@ _strnicmp
 _wfopen_s
 _wfsopen
 _wstat64i32
-_z2xl_&
 `.rdata
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
@@ -1099,6 +1100,7 @@ bootloader
 buffer error
 c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
 calloc
+cl{j,t[
 cntrl
 dat_file
 data error
@@ -1124,7 +1126,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-h}Z7R
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1181,7 +1182,6 @@ jj@0HK4
 k0i0$
 l2|X/gGe
 lighthouse
-lk1'`]w
 lower
 m0k0$
 malloc
@@ -1267,7 +1267,6 @@ y4_^[
 {un'%
 |	9A 
 |	;J 
-|;Q]W
 |Lu?c
 |cj#h
 }	jCh

@@ -38,7 +38,6 @@ $_^[]
 %m / %d / %y
 &1V6|:^<
 ',=?k
-'wK		
 ()$^.*+?[]|\-{},:=!
 (f*^[0
 +A Vj$
@@ -54,6 +53,7 @@ $_^[]
 ,0I0\0
 ,W5y+
 .00cfg
+.5xs%!
 .?AUIAMovieSetup@@
 .?AUIBaseFilter@@
 .?AUIEnumMediaTypes@@
@@ -432,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-230829151911Z0/
+230831183204Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -1021,6 +1021,7 @@ $_^[]
 =F>U>
 =G=g=
 =T=t=
+=^"Rg
 =g>q>
 =rIQU
 =~>A?
@@ -1208,7 +1209,6 @@ $_^[]
 ?a?p?
 ?h?r?
 ?l?t?|?
-@%>o8
 @(;A(s
 @.data
 @SVW3
@@ -1370,7 +1370,6 @@ FreeLibrary
 FreeLibraryAndExitThread
 FreeLibraryWhenCallbackReturns
 Friendly Name: 
-Ft7j0
 G @;G
 G(9_Lu8
 G,_^[
@@ -1451,7 +1450,6 @@ LoadLibraryW
 LocalContextCacheSize
 Lock already taken
 M SVW
-M#zsp'H
 M$+E4@Pj
 MB(iVR
 MJPEG color format is not yet implemented.
@@ -1484,7 +1482,6 @@ Pz}b!
 Q$B@;
 Q;FD~R
 Q;FD~Z
-Q;~bS
 QQSVW
 QSVWj
 QVWjt
@@ -1494,7 +1491,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDS:c5g
+RSDS[
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1512,6 +1509,7 @@ SWSRP
 Saw DEVICE LOST event
 SchedulerKind
 SchedulingProtocol
+SdRC#
 Set Color Config: 
 SetEvent
 SetFileInformationByHandle
@@ -1600,6 +1598,7 @@ Y__^[
 [K]taM?
 [SPj"
 [tc9]
+\,S}l
 \SVW3
 ]J<0"0i3
 _$@;Ghr
@@ -1713,6 +1712,7 @@ directory not empty
 eventObject
 executable format error
 f	_$_^[
+fGgd:6J
 false
 fclose
 fflush
@@ -1739,7 +1739,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iQS=#
 identifier removed
 illegal byte sequence
 inappropriate io control operation
@@ -1818,6 +1817,7 @@ print
 protocol error
 protocol not supported
 punct
+qJYY,
 rLp>B
 raB3G
 read only file system
@@ -1870,6 +1870,7 @@ t\QSV
 t]VWj>
 t]WPR
 t^97uZjD
+t_!Y$
 terminate
 text file busy
 timed out
@@ -1914,5 +1915,6 @@ y'j h
 |SVWj
 }:;2|6
 }LuHO
+~.F.6U|
 ~qj#k"
 ~t&LN

@@ -147,7 +147,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/ZneL
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -182,7 +181,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230829153142Z0/
+230831184608Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -202,7 +201,6 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8=?U{
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -485,7 +483,6 @@ Failed to update pointer overlay for desktop %d.
 FormatMessageA
 FormatMessageW
 GDI32.dll
-G]{19$
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
@@ -668,6 +665,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS?I
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -808,7 +806,6 @@ Y9"SD
 \$hI;
 \$pI;
 \u=H;
-\xPh>
 ]J<0"0i3
 ]g@8yhu
 _Cnd_destroy
@@ -921,7 +918,6 @@ expecting another \u token to begin the second half of a unicode surrogate pair
 fD9&u
 fF94@u
 false
-fd'^C
 fffffff
 fi_fi
 finnish
@@ -958,6 +954,7 @@ invalid string position
 iswspace
 it_it
 italian
+j&Lz1>
 ja_jp
 japanese
 jj@0HK4
@@ -1048,6 +1045,7 @@ title
 tolower
 tr_tr
 turkish
+u!}Ls
 ua_ua
 ukranian
 update_debug_info

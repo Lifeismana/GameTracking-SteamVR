@@ -42,6 +42,7 @@ $iMBm
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
+&+Lvj
 &<	x4;O
 &?~YK|
 &uo r
@@ -451,7 +452,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-230829151858Z0/
+230831183152Z0/
 241009235959Z0a1
 262X2
 282\2
@@ -510,6 +511,7 @@ $iMBm
 3/3U3
 303P3X3d3
 311109235959Z0b1
+31]'?
 323=3B3G3b3l3
 323s3
 333y3
@@ -1008,7 +1010,6 @@ $iMBm
 <G<Z<
 <L=V=s=
 <N<i<
-<O_J3b
 <S<{<
 <U<Z<a<f<
 <X<f<s<
@@ -1055,7 +1056,6 @@ $iMBm
 =D=V=
 =M>U>
 =S?n?
-=TT2V
 =WIDATx
 =Y>r>y>
 =\uI=
@@ -1411,6 +1411,7 @@ IVRControlPanel_006
 IVRHeadsetView_001
 IVRPaths_001
 IVRVirtualDisplay_002
+IgWm)
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitOnceExecuteOnce
@@ -1435,7 +1436,6 @@ IsValidCodePage
 IsValidLocale
 IsValidLocaleName
 J0R0Z0
-J<$=s8
 J>@G_
 JBIh	i
 JX<$N
@@ -1480,7 +1480,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Monday
-Mu7?7
 MultiByteToWideChar
 N PSQ
 N(@PV
@@ -1496,6 +1495,7 @@ OH+O@
 OH+O@I
 OHPSQ
 OHSSVSSW
+O]GKHx
 O`j@SV
 October
 Od_^]
@@ -1532,7 +1532,6 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
-RSDS5
 RWQSV
 R\hvv
 RaiseException
@@ -1617,7 +1616,6 @@ TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
 T~OXu
-UAkwxE
 UQPXY]Y[
 URPQQh
 USB Service Busy (140)
@@ -2044,6 +2042,7 @@ bad exception
 bad file descriptor
 bad locale name
 bad message
+bf[kWB
 broken pipe
 c%;>7
 c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
@@ -2075,6 +2074,7 @@ eventObject
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
+f5r4M
 f90t	
 f99t/
 f99t7
@@ -2091,7 +2091,6 @@ function not supported
 generic
 gfe[D
 h-y"3
-h21IE
 h=l=p=t=x=|=
 hI{L[
 hPP`*
@@ -2218,7 +2217,6 @@ protocol not supported
 pwJt8
 q)]2<Mt
 qe^3!Y-
-r4	o;
 r7Yr7=
 rB-<e*
 rLp>B

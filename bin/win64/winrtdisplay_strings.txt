@@ -6,7 +6,6 @@
  A_^]
  A__^
  H3E H3E
-!$#mvM
 !hn7!
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
@@ -118,7 +117,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230829151838Z0/
+230831183250Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -131,7 +130,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4tOu$
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -142,6 +140,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+96ZU	
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
@@ -154,6 +153,7 @@
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
+?yb:+
 @.data
 @.reloc
 @A^][
@@ -192,6 +192,7 @@ D$`H;
 D$hH;
 D$pH;
 D3D11CreateDevice
+DL-\2
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -256,7 +257,6 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
 OLEAUT32.dll
-OY$Ps
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
@@ -277,6 +277,7 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
+TEkDv
 UVAWH
 UWAVH
 UnhandledExceptionFilter
@@ -317,7 +318,6 @@ WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
 [K]taM?
-[Ly1 L
 \$ H;
 \$ UH
 \$(H;
@@ -368,9 +368,6 @@ c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdi
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
-e3c7{#
-fIs(h
-hUbUW
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -378,7 +375,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 iswspace
 jj@0HK4
-k&v@+
 k0i0$
 l$ WH
 l2|X/gGe
@@ -388,6 +384,7 @@ malloc
 memcpy
 memmove
 memset
+nsR0'
 ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()
@@ -412,6 +409,7 @@ www.digicert.com1$0"
 |$0E3
 |$xMi
 |Lu?c
+|f_MF8C
 }LuHO
 ~qj#k"
 ~t&LN
