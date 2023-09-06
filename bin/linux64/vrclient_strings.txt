@@ -1545,7 +1545,7 @@ $0rpc $1(.$2) returns (.$3)
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:17:23
+22:02:00
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -2154,4 +2154,300 @@ Axis3
 Axis3_Value_e0
 Axis3_Value_e1
 Axis4
-Axis4_Value_e
+Axis4_Value_e0
+Axis4_Value_e1
+BCheckParentOverlayVisible_Recursive(unsigned long, VRSystemLayerState_t const*, int)
+BCreateDirectory(char const*)
+BCreateDirectoryRecursive(char const*)
+BCreateDirectoryRecursive(char const*) [clone .cold]
+BCreateProcess(char const*, char const**, unsigned int*, bool, std::string*)
+BCreateProcess(std::string const&, std::string const&, std::string, unsigned int*, bool, std::string*)
+BCreateProcess(std::string const&, std::string const&, std::string, unsigned int*, bool, std::string*) [clone .cold]
+BCreateProcess(std::string const&, std::vector<std::string, std::allocator<std::string> > const&, std::string, unsigned int*, bool, std::string*)
+BCreateProcess(std::string const&, std::vector<std::string, std::allocator<std::string> > const&, std::string, unsigned int*, bool, std::string*) [clone .cold]
+BDeleteFileIfExists(char const*)
+BFileExists(char const*)
+BGetOutputDevice(VkInstance_T*, VkPhysicalDevice_T**)
+BGetRequiredInstanceExtensions( vecRequiredExtensions )
+BITANGENT
+BInitVulkanDevice(VkPhysicalDevice_T*, char const*, unsigned int, VkDevice_T**, VkQueue_T**, unsigned int*)
+BInitVulkanDevice(VkPhysicalDevice_T*, char const*, unsigned int, VkDevice_T**, VkQueue_T**, unsigned int*) [clone .cold]
+BInitVulkanInstance(char const*, unsigned int, VkInstance_T**)
+BInitVulkanInstance(char const*, unsigned int, VkInstance_T**) [clone .cold]
+BInitializeLogging()::s_LogMutex
+BInitializeLogging()::s_bLogInitialized
+BIsCrashReportingDisabled()
+BIsCrashReportingDisabled() [clone .cold]
+BIsCrashReportingDisabled()::s_bFiguredOutIfDisabled
+BIsCrashReportingDisabled()::s_bIsReportingDisabled
+BIsHapticLoggingEnabled()::s_bIsHapticLogEnabled
+BIsHapticLoggingEnabled()::s_bNeedsRecheck
+BIsPidPresent(unsigned short, unsigned short)
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty) [clone .cold]
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeys
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
+BIsValidInputForChord(std::string const&, std::string const&)
+BIsVidPresent(unsigned short)
+BIsWorkshopBindingUri(std::string const&)
+BIsWorkshopBindingUri(std::string const&) [clone .cold]
+BKillProcess(char const*, bool)
+BKillProcess(char const*, bool) [clone .cold]
+BKillProcess(unsigned int)
+BMP RLE
+BOSAssociateExtension(char const*, char const*, char const*, char const*)
+BOSAssociateExtension(char const*, char const*, char const*, char const*) [clone .cold]
+BOSAssociateURI(char const*, char const*)
+BOSAssociateURI(char const*, char const*) [clone .cold]
+BOSRelease(void**)
+BOSSafeRelease(void**)
+BPathSupportsInputOfType(std::string const&, EInputValueType)
+BProcessRunning(char const*, bool)
+BProcessRunning(char const*, bool) [clone .cold]
+BProcessRunning(unsigned int)
+BRealtimeProcess()
+BRenameFile(char const*, char const*)
+BSharedResourceNamespaceAvailable()
+BSharedResourceNamespaceAvailable() [clone .cold]
+BSharedResourceNamespaceInTestMode()
+BSharedResourceNamespaceTryOneInit()
+BSharedResourceNamespaceTryOneInit() [clone .cold]
+BackUp() can only be called after Next().
+BackUp() can only be called after a successful Next().
+Bad Access flag on shared mem create: %s: %u
+Bad bo
+Bad dimensions
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Begin
+BeginFrame
+BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
+BeginFrame called outside of a valid session.
+BeginFrameRendering
+BeginRendering
+Binding config missing required 'bindings' member
+Binding config missing required 'controller_type' member
+Binding missing required "action" member
+Binding missing required "name" member
+Binding missing required "type" member
+Binding path for haptic action %s could not be read: %s
+Binding path for haptic action %s resulted in property type tag %u instead of %u
+BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory)
+BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingCurrentKey(std::string const&, EActionBindingCategory)
+BindingCurrentKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingNeedUploadKey(std::string const&, EActionBindingCategory)
+BindingNeedUploadKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingPreviousKey(std::string const&, EActionBindingCategory)
+BindingPreviousKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingURIToFileId(std::string const&)
+BindingURIToFileId(std::string const&) [clone .cold]
+Bindings from OpenXR
+BlankEyeBuffer
+BlockQueueHeaderMutex_
+BlockQueueHeader_
+BlockQueueInterfaceRegistration<CVRBlockQueue_001>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_001>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_002>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_002>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_003>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_003>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_004>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_004>::~BlockQueueInterfaceRegistration()
+Boolean default must be true or false.
+Bootstrapper init
+BorrowResource
+Bucket: size:%zu timeline:%s
+Bucket: size:%zu timeline:none
+Buffer
+BufferView
+BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&)
+BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&) [clone .cold]
+BuildFadeGridMessage(float, bool)
+BuildFadeGridMessage(float, bool) [clone .cold]
+BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
+BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
+C.1139.340883
+C.1142.340894
+C.413.288424
+CActionBinding::CActionBinding(CActionBinding const&)
+CActionBinding::FromJson(Json::Value const&, std::string*)
+CActionBinding::FromJson(Json::Value const&, std::string*) [clone .cold]
+CActionBinding::~CActionBinding()
+CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*)
+CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*) [clone .cold]
+CActionBindingConfig::HasControllerType(std::string const&) const
+CActionBindingConfig::~CActionBindingConfig()
+CActionBindingConfigGenerator::AddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, std::string, bool)
+CActionBindingConfigGenerator::AddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, std::string, bool) [clone .cold]
+CActionBindingConfigGenerator::AddBindingForSlot(Mode_t&, ModeSlot_t&, std::vector<std::string, std::allocator<std::string> > const&)
+CActionBindingConfigGenerator::AddBindingForSlot(Mode_t&, ModeSlot_t&, std::vector<std::string, std::allocator<std::string> > const&) [clone .cold]
+CActionBindingConfigGenerator::AddClickHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, bool)
+CActionBindingConfigGenerator::AddClickHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, bool) [clone .cold]
+CActionBindingConfigGenerator::AddFilter(Mode_t const&, ModeSlot_t const&, CActionFilter&)
+CActionBindingConfigGenerator::AddHapticPulseToInput(std::string const&, Mode_t const&, ModeSlot_t const&, float)
+CActionBindingConfigGenerator::AddHapticPulseToInput(std::string const&, Mode_t const&, ModeSlot_t const&, float) [clone .cold]
+CActionBindingConfigGenerator::AddPositionHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*)
+CActionBindingConfigGenerator::AddPositionHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*) [clone .cold]
+CActionBindingConfigGenerator::AddProgressIndicator(std::string const&, std::string const&, std::string const&)
+CActionBindingConfigGenerator::AddProgressIndicator(std::string const&, std::string const&, std::string const&) [clone .cold]
+CActionBindingConfigGenerator::AddSlot(std::vector<ModeSlot_t, std::allocator<ModeSlot_t> >*, std::string const&, std::string const&, bool)
+CActionBindingConfigGenerator::AddSlot(std::vector<ModeSlot_t, std::allocator<ModeSlot_t> >*, std::string const&, std::string const&, bool) [clone .cold]
+CActionBindingConfigGenerator::AddTouchHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*)
+CActionBindingConfigGenerator::AddTouchHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*) [clone .cold]
+CActionBindingConfigGenerator::Apply(CActionBindingConfig*, std::string*)
+CActionBindingConfigGenerator::Apply(CActionBindingConfig*, std::string*) [clone .cold]
+CActionBindingConfigGenerator::ComputeClickHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::string*)
+CActionBindingConfigGenerator::ComputeClickHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::string*) [clone .cold]
+CActionBindingConfigGenerator::DetermineSourceNodeForModeAndInputType(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*)
+CActionBindingConfigGenerator::DetermineSourceNodeForModeAndInputType(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*) [clone .cold]
+CActionBindingConfigGenerator::DetermineSourceNodeForModeAndInputType(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*)::s_vecXyx
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&) [clone .cold]
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputALen
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputBLen
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputXLen
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputYLen
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftLen
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unRightLen
+CActionBindingConfigGenerator::FindHapticForInput(std::string const&)
+CActionBindingConfigGenerator::FindHapticForInput(std::string const&) [clone .cold]
+CActionBindingConfigGenerator::FindInputSourcesOfType(std::string const&)
+CActionBindingConfigGenerator::FindInputSourcesOfType(std::string const&) [clone .cold]
+CActionBindingConfigGenerator::FinishClickHandler(Mode_t const&, ModeSlot_t const&, std::string, float)
+CActionBindingConfigGenerator::FinishClickHandler(Mode_t const&, ModeSlot_t const&, std::string, float) [clone .cold]
+CActionBindingConfigGenerator::GetInputSource(std::string const&)
+CActionBindingConfigGenerator::GetInputSourceType(std::string const&)
+CActionBindingConfigGenerator::GetInputSourceType(std::string const&) [clone .cold]
+CActionBindingConfigGenerator::GetOptionBool(std::string const&) const
+CActionBindingConfigGenerator::HasFilter(std::string const&)
+CActionBindingConfigGenerator::MakeInvertFilterForScalarInput(std::string const&, std::string const&, std::string const&, Mode_t const&)
+CActionBindingConfigGenerator::MakeInvertFilterForScalarInput(std::string const&, std::string const&, std::string const&, Mode_t const&) [clone .cold]
+CActionBindingConfigGenerator::MakeThreshHoldFilterForPositionInput(Mode_t const&, ModeSlot_t const&)
+CActionBindingConfigGenerator::MakeThreshHoldFilterForPositionInput(Mode_t const&, ModeSlot_t const&) [clone .cold]
+CActionBindingConfigGenerator::MakeThreshHoldFilterForScalarInput(std::string const&, Mode_t const&, ModeSlot_t const&)
+CActionBindingConfigGenerator::MakeThreshHoldFilterForScalarInput(std::string const&, Mode_t const&, ModeSlot_t const&) [clone .cold]
+CActionBindingConfigGenerator::MarkFilterForChords(Mode_t const&, ModeSlot_t const&, std::string const&)
+CActionBindingConfigGenerator::MarkFilterForChords(Mode_t const&, ModeSlot_t const&, std::string const&) [clone .cold]
+CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)
+CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*) [clone .cold]
+CActionBindingConfigGenerator::ParseHapticBindings(std::string const&, std::string*)
+CActionBindingConfigGenerator::ParseHapticBindings(std::string const&, std::string*) [clone .cold]
+CActionBindingConfigGenerator::ParseSimulatedActions(std::string*)
+CActionBindingConfigGenerator::ParseSimulatedActions(std::string*) [clone .cold]
+CActionBindingConfigGenerator::ParseSkeletonBindings(std::string const&, std::string*)
+CActionBindingConfigGenerator::ParseSkeletonBindings(std::string const&, std::string*) [clone .cold]
+CActionBindingConfigGenerator::PendingChordEntry_t::PendingChordEntry_t(CActionBindingConfigGenerator::PendingChordEntry_t const&)
+CActionBindingConfigGenerator::PendingChordEntry_t::~PendingChordEntry_t()
+CActionBindingConfigGenerator::SortFilters()
+CActionBindingConfigGenerator::SortFilters() [clone .cold]
+CActionBindingConfigGenerator::VerifyCanAddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&)
+CActionBindingConfigGenerator::~CActionBindingConfigGenerator()
+CActionBindingProgressIndicator::~CActionBindingProgressIndicator()
+CActionFilter::CActionFilter()
+CActionFilter::CActionFilter(CActionFilter const&)
+CActionFilter::FromJson(Json::Value const&, std::string*)
+CActionFilter::FromJson(Json::Value const&, std::string*) [clone .cold]
+CActionFilter::GetBoolParameter(std::string const&, bool) const
+CActionFilter::GetBoolParameter(std::string const&, bool) const [clone .cold]
+CActionFilter::GetFloatParameter(std::string const&, float) const
+CActionFilter::GetFloatParameter(std::string const&, float) const [clone .cold]
+CActionFilter::GetIntParameter(std::string const&, int) const
+CActionFilter::GetIntParameter(std::string const&, int) const [clone .cold]
+CActionFilter::GetStringParameter(std::string const&, std::string const&) const
+CActionFilter::GetStringParameter(std::string const&, std::string const&) const [clone .cold]
+CActionFilter::~CActionFilter()
+CAnimFactoryBase::CreateInternal(char const*, std::string const&) const
+CAnimFactoryBase::CreateInternal(unsigned int, std::string const&) const
+CAnimFactoryBase::GetDerivedIDFromBase(unsigned int) const
+CAnimFactoryBase::GetTypeNames() const
+CAnimFactoryBase::GetTypeNames() const [clone .cold]
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::GetTypeID() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::GetTypeName() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::IsDerivedFrom(unsigned int) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::Make(std::string const&) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::~CFactoryMakerT()
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::GetTypeID() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::GetTypeName() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::IsDerivedFrom(unsigned int) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::Make(std::string const&) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::~CFactoryMakerT()
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::GetTypeID() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::GetTypeName() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::IsDerivedFrom(unsigned int) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::Make(std::string const&) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::~CFactoryMakerT()
+CAnimPose::AddRef() const
+CAnimPose::CAnimPose()
+CAnimPose::CalculateModelSpaceTransforms()
+CAnimPose::CopyFrom(CSmartPtr<CAnimPose, CRefCountAccessor> const&)
+CAnimPose::GetBoneCount() const
+CAnimPose::GetLocalSpaceTransform(int) const
+CAnimPose::GetLocalSpaceTransformsPtr() const
+CAnimPose::GetModelSpaceTransform(int) const
+CAnimPose::GetModelSpaceTransformsPtr() const
+CAnimPose::GetRefCount() const
+CAnimPose::GetSkeleton() const
+CAnimPose::GetWritableLocalSpaceTransformsPtr()
+CAnimPose::Init(CAnimSkeleton const*, CAnimPosePool*)
+CAnimPose::InitToBindPose()
+CAnimPose::InitToIdentity()
+CAnimPose::Release() const
+CAnimPose::SetDirtyRecurs(int)
+CAnimPose::SetLocalSpaceTransform(int, CTransform const&)
+CAnimPose::SetModelSpaceTransform(int, CTransform const&)
+CAnimPosePool::AddNewBlock()
+CAnimPosePool::AddNewBlock() [clone .cold]
+CAnimPosePool::Alloc()
+CAnimPosePool::CAnimPosePool(CAnimSkeleton const*, unsigned int)
+CAnimPosePool::CAnimPosePool(CAnimSkeleton const*, unsigned int) [clone .cold]
+CAnimPosePool::Free(CAnimPose*)
+CAnimResource
+CAnimResource::CAnimResource(std::string const&)
+CAnimResource::CastToBase(int)
+CAnimResource::CastToBase(int) const
+CAnimResource::GetResourceName() const
+CAnimResource::GetTypeInfo() const
+CAnimResource::MyTypeID()::sID
+CAnimResource::MyTypeInfo()
+CAnimResource::m_typeInfoCAnimResource
+CAnimResourceFactory::CAnimResourceFactory()
+CAnimResourceFactory::CAnimResourceFactory() [clone .cold]
+CAnimResourceManager::CAnimResourceManager(vr::IVRResources*)
+CAnimResourceManager::CAnimResourceManager(vr::IVRResources*) [clone .cold]
+CAnimResourceManager::Get()
+CAnimResourceManager::GetResource(char const*, char const*, int, char const*)
+CAnimResourceManager::GetResource(char const*, char const*, int, char const*) [clone .cold]
+CAnimResourceManager::GetSharedUpdateResources(CAnimSkeleton const*)
+CAnimResourceManager::GetSharedUpdateResources(CAnimSkeleton const*) [clone .cold]
+CAnimResourceManager::Initialize(vr::IVRResources*)
+CAnimResourceManager::Initialize(vr::IVRResources*) [clone .cold]
+CAnimResourceManager::IsInitialized()
+CAnimResourceManager::Release()
+CAnimResourceManager::m_sInstance
+CAnimSkeleton const* CAnimResourceManager::GetResource<CAnimSkeleton>(char const*)
+CAnimSkeleton::CAnimSkeleton(std::string const&)
+CAnimSkeleton::CAnimSkeleton(std::string const&) [clone .cold]
+CAnimSkeleton::GetBindPoseLocalSpace(int) const
+CAnimSkeleton::GetBindPoseModelSpace(int) const
+CAnimSkeleton::GetBoneCount() const
+CAnimSkeleton::GetBoneIndex(std::string const&) const
+CAnimSkeleton::GetBoneName(int) const
+CAnimSkeleton::GetChildCount(int) const
+CAnimSkeleton::GetChildIndex(int, int) const
+CAnimSkeleton::GetParentIndex(int) const
+CAnimSkeleton::GetResourceTypeDir()
+CAnimSkeleton::GetSkeletonID() const
+CAnimSkeleton::Load(std::string const&)
+CAnimSkeleton::Load(std::string const&) [clone .cold]
+CAnimSkeleton::~CAnimSkeleton()
+CAsse
+CAssert::AddCallback(CAssertCallback*)
+CAssert::AddCallback(CAssertCallback*) [clone .cold]
+CAssert::AssertMsgImpl(char const*, unsigned int, bool, unsigned int, ...)
+CAssert::AssertMsgImpl(char const*, unsigned int, bool, unsigned int, ...) [clone .cold]
+CAssert::GetInstance()
+CAssert::GetInstance() [clone .cold]
+CAssert::RemoveCallback(CAssertCallback*)

@@ -1,334 +1,122 @@
 %%.%dg
+%.*Lf
+%H:%M
+%H:%M:%S
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
+%m/%d/%y
 %s%c%s
 %s: __pos (which is %zu) > this->size() (which is %zu)
 ' is not a number.
+(anonymous namespace)
+(anonymous namespace)::__new_handler
+(anonymous namespace)::c_locale
+(anonymous namespace)::c_locale_impl
+(anonymous namespace)::cache_vec
+(anonymous namespace)::codecvt_c
+(anonymous namespace)::codecvt_c16
+(anonymous namespace)::codecvt_c16_c8
+(anonymous namespace)::codecvt_c32
+(anonymous namespace)::codecvt_c32_c8
+(anonymous namespace)::codecvt_w
+(anonymous namespace)::collate_c
+(anonymous namespace)::collate_w
+(anonymous namespace)::ctype_c
+(anonymous namespace)::ctype_w
+(anonymous namespace)::emergency_pool
+(anonymous namespace)::facet_vec
+(anonymous namespace)::fopen_mode(std::_Ios_Openmode)
+(anonymous namespace)::generic_category_instance
+(anonymous namespace)::generic_error_category::message(int) const
+(anonymous namespace)::generic_error_category::name() const
+(anonymous namespace)::generic_error_category::~generic_error_category()
+(anonymous namespace)::get_global()::global
+(anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
+(anonymous namespace)::get_locale_mutex()
+(anonymous namespace)::get_locale_mutex()::locale_mutex
+(anonymous namespace)::messages_c
+(anonymous namespace)::messages_w
+(anonymous namespace)::money_get_c
+(anonymous namespace)::money_get_w
+(anonymous namespace)::money_put_c
+(anonymous namespace)::money_put_w
+(anonymous namespace)::moneypunct_cache_cf
+(anonymous namespace)::moneypunct_cache_ct
+(anonymous namespace)::moneypunct_cache_wf
+(anonymous namespace)::moneypunct_cache_wt
+(anonymous namespace)::moneypunct_cf
+(anonymous namespace)::moneypunct_ct
+(anonymous namespace)::moneypunct_wf
+(anonymous namespace)::moneypunct_wt
+(anonymous namespace)::name_c
+(anonymous namespace)::name_vec
+(anonymous namespace)::num_get_c
+(anonymous namespace)::num_get_w
+(anonymous namespace)::num_put_c
+(anonymous namespace)::num_put_w
+(anonymous namespace)::numpunct_c
+(anonymous namespace)::numpunct_cache_c
+(anonymous namespace)::numpunct_cache_w
+(anonymous namespace)::numpunct_w
+(anonymous namespace)::pool::allocate(unsigned long) [clone .constprop.0]
+(anonymous namespace)::pool::allocate(unsigned long) [clone .constprop.0] [clone .cold]
+(anonymous namespace)::pool::free(void*) [clone .constprop.0]
+(anonymous namespace)::pool::free(void*) [clone .constprop.0] [clone .cold]
+(anonymous namespace)::system_category_instance
+(anonymous namespace)::system_error_category::default_error_condition(int) const
+(anonymous namespace)::system_error_category::message(int) const
+(anonymous namespace)::system_error_category::name() const
+(anonymous namespace)::system_error_category::~system_error_category()
+(anonymous namespace)::time_get_c
+(anonymous namespace)::time_get_w
+(anonymous namespace)::time_put_c
+(anonymous namespace)::time_put_w
+(anonymous namespace)::timepunct_c
+(anonymous namespace)::timepunct_cache_c
+(anonymous namespace)::timepunct_cache_w
+(anonymous namespace)::timepunct_w
+(anonymous namespace)::xwrite(int, char const*, long)
+*N12_GLOBAL__N_121system_error_categoryE
+*N12_GLOBAL__N_122generic_error_categoryE
+-+xX0123456789abcdef0123456789ABCDEF
+-+xX0123456789abcdefABCDEF
+-0123456789
 -1e+9999
 -Infinity
 ./obj_openvr_api_linux64/release/libopenvr_api.so
-.LC10
-.LC100
-.LC101
-.LC102
-.LC103
-.LC104
-.LC105
-.LC106
-.LC107
-.LC108
-.LC109
-.LC11
-.LC110
-.LC111
-.LC112
-.LC113
-.LC114
-.LC115
-.LC116
-.LC117
-.LC118
-.LC119
-.LC12
-.LC120
-.LC121
-.LC122
-.LC123
-.LC124
-.LC125
-.LC126
-.LC127
-.LC128
-.LC129
-.LC13
-.LC130
-.LC131
-.LC132
-.LC133
-.LC134
-.LC135
-.LC136
-.LC137
-.LC138
-.LC139
-.LC14
-.LC140
-.LC141
-.LC142
-.LC143
-.LC144
-.LC145
-.LC146
-.LC147
-.LC148
-.LC149
-.LC15
-.LC150
-.LC151
-.LC152
-.LC153
-.LC154
-.LC155
-.LC156
-.LC157
-.LC158
-.LC159
-.LC16
-.LC160
-.LC161
-.LC162
-.LC163
-.LC164
-.LC165
-.LC166
-.LC167
-.LC168
-.LC169
-.LC17
-.LC170
-.LC171
-.LC172
-.LC173
-.LC174
-.LC175
-.LC176
-.LC177
-.LC178
-.LC179
-.LC18
-.LC180
-.LC181
-.LC182
-.LC183
-.LC184
-.LC185
-.LC186
-.LC187
-.LC188
-.LC189
-.LC19
-.LC190
-.LC191
-.LC192
-.LC193
-.LC194
-.LC195
-.LC196
-.LC197
-.LC198
-.LC199
-.LC20
-.LC200
-.LC201
-.LC202
-.LC203
-.LC204
-.LC205
-.LC206
-.LC207
-.LC208
-.LC209
-.LC21
-.LC210
-.LC211
-.LC213
-.LC214
-.LC215
-.LC216
-.LC217
-.LC218
-.LC219
-.LC22
-.LC220
-.LC221
-.LC222
-.LC223
-.LC224
-.LC225
-.LC226
-.LC227
-.LC228
-.LC229
-.LC23
-.LC230
-.LC231
-.LC232
-.LC233
-.LC234
-.LC235
-.LC236
-.LC237
-.LC238
-.LC239
-.LC24
-.LC240
-.LC241
-.LC242
-.LC243
-.LC244
-.LC245
-.LC246
-.LC247
-.LC248
-.LC249
-.LC25
-.LC250
-.LC251
-.LC252
-.LC253
-.LC254
-.LC255
-.LC256
-.LC257
-.LC258
-.LC259
-.LC26
-.LC260
-.LC261
-.LC262
-.LC263
-.LC264
-.LC265
-.LC266
-.LC267
-.LC268
-.LC269
-.LC27
-.LC270
-.LC271
-.LC272
-.LC273
-.LC274
-.LC275
-.LC276
-.LC277
-.LC278
-.LC279
-.LC28
-.LC280
-.LC281
-.LC282
-.LC283
-.LC284
-.LC285
-.LC286
-.LC287
-.LC288
-.LC289
-.LC29
-.LC290
-.LC291
-.LC292
-.LC293
-.LC294
-.LC295
-.LC296
-.LC297
-.LC298
-.LC299
-.LC30
-.LC300
-.LC301
-.LC302
-.LC303
-.LC304
-.LC305
-.LC306
-.LC307
-.LC308
-.LC309
-.LC31
-.LC32
-.LC33
-.LC34
-.LC35
-.LC36
-.LC37
-.LC38
-.LC39
-.LC40
-.LC41
-.LC42
-.LC43
-.LC44
-.LC45
-.LC46
-.LC47
-.LC48
-.LC49
-.LC50
-.LC51
-.LC52
-.LC53
-.LC54
-.LC55
-.LC56
-.LC57
-.LC58
-.LC59
-.LC60
-.LC61
-.LC62
-.LC63
-.LC64
-.LC65
-.LC66
-.LC67
-.LC68
-.LC69
-.LC70
-.LC71
-.LC72
-.LC73
-.LC74
-.LC75
-.LC76
-.LC77
-.LC78
-.LC79
-.LC80
-.LC81
-.LC82
-.LC83
-.LC84
-.LC85
-.LC86
-.LC87
-.LC88
-.LC89
-.LC90
-.LC91
-.LC92
-.LC93
-.LC94
-.LC95
-.LC96
-.LC97
-.LC98
-.LC99
 .config
 /data/src/common/vrcore/src/strtools_public.cpp
 /proc/self/exe
+0123456789
 0123456789ABCDEF
 1e+9999
 : exception thrown in JSON library
 <unknown>
 A valid JSON document must be either an array or an object value.
+ASCII
+ASCII//TRANSLIT
 ASSERT: "%s" at %s:%d.
 Another app was already launching (117)
 App info manager init failed (114)
+April
+August
 BCreateDirectory(char const*)
 BCreateDirectoryRecursive(char const*)
+BCreateDirectoryRecursive(char const*) [clone .cold]
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 CAssert::AddCallback(CAssertCallback*)
+CAssert::AddCallback(CAssertCallback*) [clone .cold]
 CAssert::AssertMsgImpl(char const*, unsigned int, bool, unsigned int, ...)
+CAssert::AssertMsgImpl(char const*, unsigned int, bool, unsigned int, ...) [clone .cold]
 CAssert::GetInstance()
+CAssert::GetInstance() [clone .cold]
 CAssert::RemoveCallback(CAssertCallback*)
 CAssert::m_mutex
 CAssert::m_pInstance
 CAssertCallback::Initialize(std::function<void (char const*, char const*, unsigned int, bool, void*, bool*)>, void*)
+CAssertCallback::Initialize(std::function<void (char const*, char const*, unsigned int, bool, void*, bool*)>, void*) [clone .cold]
 CAssertCallback::~CAssertCallback()
 CDirIterator::BCurrentIsDir() const
 CDirIterator::BCurrentIsHidden() const
@@ -338,6 +126,7 @@ CDirIterator::BCurrentIsSystem() const
 CDirIterator::BNextFile()
 CDirIterator::BValidFilename()
 CDirIterator::CDirIterator(char const*, char const*)
+CDirIterator::CDirIterator(char const*, char const*) [clone .cold]
 CDirIterator::CurrentFileCreateTime() const
 CDirIterator::CurrentFileLength() const
 CDirIterator::CurrentFileName()
@@ -346,31 +135,41 @@ CDirIterator::Init(std::string const&)
 CDirIterator::IsValid() const
 CDirIterator::~CDirIterator()
 CLog::AddCallback(CLogCallback*)
+CLog::AddCallback(CLogCallback*) [clone .cold]
 CLog::GetInstance()
+CLog::GetInstance() [clone .cold]
 CLog::Log(ELogLevel, char const*, ...)
 CLog::Log(ELogLevel, char const*, __va_list_tag (&) [1])
+CLog::Log(ELogLevel, char const*, __va_list_tag (&) [1]) [clone .cold]
 CLog::RemoveCallback(CLogCallback*)
 CLog::s_mutex
 CLog::s_pInstance
 CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*)
+CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*) [clone .cold]
 CLogCallback::~CLogCallback()
+CSWTCH.100
 CVRPathRegistry_Public::BLoadFromFile(std::string*)
+CVRPathRegistry_Public::BLoadFromFile(std::string*) [clone .cold]
 CVRPathRegistry_Public::BSaveToFile() const
+CVRPathRegistry_Public::BSaveToFile() const [clone .cold]
 CVRPathRegistry_Public::CVRPathRegistry_Public()
 CVRPathRegistry_Public::GetConfigPath() const
 CVRPathRegistry_Public::GetLogPath() const
 CVRPathRegistry_Public::GetOpenVRConfigPath()
+CVRPathRegistry_Public::GetOpenVRConfigPath() [clone .cold]
 CVRPathRegistry_Public::GetPaths(std::string*, std::string*, std::string*, char const*, char const*, std::vector<std::string, std::allocator<std::string> >*)
+CVRPathRegistry_Public::GetPaths(std::string*, std::string*, std::string*, char const*, char const*, std::vector<std::string, std::allocator<std::string> >*) [clone .cold]
 CVRPathRegistry_Public::GetRuntimePath() const
 CVRPathRegistry_Public::GetSteamAppId()
 CVRPathRegistry_Public::GetVRPathRegistryFilename()
+CVRPathRegistry_Public::GetVRPathRegistryFilename() [clone .cold]
 CVRPathRegistry_Public::InitSteamAppId()
+CVRPathRegistry_Public::InitSteamAppId() [clone .cold]
 CVRPathRegistry_Public::IsChildOfVRServer()
 CVRPathRegistry_Public::IsSteamVRMain()
 CVRPathRegistry_Public::ToJsonString(std::string&)
+CVRPathRegistry_Public::ToJsonString(std::string&) [clone .cold]
 CVRPathRegistry_Public::~CVRPathRegistry_Public()
-CXXABI_1.3
-CXXABI_1.3.9
 CharNeedsEscape_Component(char)
 CharNeedsEscape_FullPath(char)
 Compositor failed to find DX11 hardware (401)
@@ -382,7 +181,10 @@ Compositor unable to create graphics device (405)
 Config path could not be located (111)
 Connect to VR Server Failed (301)
 ConstIterator to Iterator should never be allowed.
+DW.ref._ZTIN10__cxxabiv115__forced_unwindE
+DW.ref._ZTISt9exception
 DW.ref.__gxx_personality_v0
+December
 Device Calibration is invalid (207)
 Device is not calibrated (206)
 Driver Failed (200)
@@ -396,6 +198,7 @@ Error from reader: %s
 Exceeded stackLimit in readValue().
 Extra non-whitespace after JSON value.
 Factory Function Not Found (104)
+February
 File Not Found (103)
 File path truncated
 FileSelect(dirent const*)
@@ -404,19 +207,19 @@ Firmware Recovery In Progress (139)
 Firmware Update In Progress (138)
 Format string parse failure
 Format(char const*, ...)
-GCC: (SteamRT 5.5.0-12+steamrt1.h.1+srthb1) 5.5.0 20171010
-GLIBCXX_3.4
-GLIBCXX_3.4.11
-GLIBCXX_3.4.14
-GLIBCXX_3.4.20
-GLIBCXX_3.4.21
-GLIBCXX_3.4.9
+Format(char const*, ...) [clone .cold]
+Friday
+GCC: (SteamRT 9.3.0-17+steamrt1.3+srt1) 9.3.1 20210309
 GLIBC_2.14
 GLIBC_2.2.5
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.4
 GetEnglishStringForHmdError(vr::EVRInitError)
 GetEnvironmentVariable(char const*)
 GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
 GetEnvironmentVariableAsBool(char const*, bool)
+GetEnvironmentVariableAsBool(char const*, bool) [clone .cold]
 GetIDForVRInitError(vr::EVRInitError)
 GetIDForVRInitError(vr::EVRInitError)::buf
 GetUserDocumentsPath()
@@ -457,7 +260,10 @@ Invalid Application Type (130)
 Invalid Interface (106)
 IpAndPortToString(unsigned int, unsigned short)
 IpToString(unsigned int)
+JArray
+January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
+Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
 Json::BuiltStyledStreamWriter::hasCommentForValue(Json::Value const&)
 Json::BuiltStyledStreamWriter::indent()
 Json::BuiltStyledStreamWriter::isMultineArray(Json::Value const&)
@@ -465,21 +271,31 @@ Json::BuiltStyledStreamWriter::pushValue(std::string const&)
 Json::BuiltStyledStreamWriter::unindent()
 Json::BuiltStyledStreamWriter::write(Json::Value const&, std::ostream*)
 Json::BuiltStyledStreamWriter::writeArrayValue(Json::Value const&)
+Json::BuiltStyledStreamWriter::writeArrayValue(Json::Value const&) [clone .cold]
 Json::BuiltStyledStreamWriter::writeCommentAfterValueOnSameLine(Json::Value const&)
+Json::BuiltStyledStreamWriter::writeCommentAfterValueOnSameLine(Json::Value const&) [clone .cold]
 Json::BuiltStyledStreamWriter::writeCommentBeforeValue(Json::Value const&)
+Json::BuiltStyledStreamWriter::writeCommentBeforeValue(Json::Value const&) [clone .cold]
 Json::BuiltStyledStreamWriter::writeIndent()
-Json::BuiltStyledStreamWriter::writeIndent() [clone .part.17] [clone .constprop.75]
+Json::BuiltStyledStreamWriter::writeIndent() [clone .part.0]
 Json::BuiltStyledStreamWriter::writeValue(Json::Value const&)
+Json::BuiltStyledStreamWriter::writeValue(Json::Value const&) [clone .cold]
 Json::BuiltStyledStreamWriter::writeWithIndent(std::string const&)
 Json::BuiltStyledStreamWriter::~BuiltStyledStreamWriter()
 Json::CharReaderBuilder::CharReaderBuilder()
+Json::CharReaderBuilder::CharReaderBuilder() [clone .cold]
 Json::CharReaderBuilder::newCharReader() const
+Json::CharReaderBuilder::newCharReader() const [clone .cold]
 Json::CharReaderBuilder::operator[](std::string)
 Json::CharReaderBuilder::setDefaults(Json::Value*)
+Json::CharReaderBuilder::setDefaults(Json::Value*) [clone .cold]
 Json::CharReaderBuilder::strictMode(Json::Value*)
+Json::CharReaderBuilder::strictMode(Json::Value*) [clone .cold]
 Json::CharReaderBuilder::validate(Json::Value*) const
+Json::CharReaderBuilder::validate(Json::Value*) const [clone .cold]
 Json::CharReaderBuilder::~CharReaderBuilder()
 Json::Exception::Exception(std::string const&)
+Json::Exception::Exception(std::string const&) [clone .cold]
 Json::Exception::what() const
 Json::Exception::~Exception()
 Json::FastWriter::FastWriter()
@@ -488,6 +304,7 @@ Json::FastWriter::enableYAMLCompatibility()
 Json::FastWriter::omitEndingLineFeed()
 Json::FastWriter::write(Json::Value const&)
 Json::FastWriter::writeValue(Json::Value const&)
+Json::FastWriter::writeValue(Json::Value const&) [clone .cold]
 Json::FastWriter::~FastWriter()
 Json::Features::Features()
 Json::Features::all()
@@ -498,89 +315,134 @@ Json::OurCharReader::parse(char const*, char const*, Json::Value*, std::string*)
 Json::OurCharReader::~OurCharReader()
 Json::OurFeatures::all()
 Json::OurReader::OurReader(Json::OurFeatures const&)
+Json::OurReader::OurReader(Json::OurFeatures const&) [clone .cold]
 Json::OurReader::addComment(char const*, char const*, Json::CommentPlacement)
+Json::OurReader::addComment(char const*, char const*, Json::CommentPlacement) [clone .cold]
 Json::OurReader::addError(std::string const&, Json::OurReader::Token&, char const*)
+Json::OurReader::addError(std::string const&, Json::OurReader::Token&, char const*) [clone .cold]
 Json::OurReader::addErrorAndRecover(std::string const&, Json::OurReader::Token&, Json::OurReader::TokenType)
 Json::OurReader::currentValue()
 Json::OurReader::decodeDouble(Json::OurReader::Token&)
+Json::OurReader::decodeDouble(Json::OurReader::Token&) [clone .cold]
 Json::OurReader::decodeDouble(Json::OurReader::Token&, Json::Value&)
+Json::OurReader::decodeDouble(Json::OurReader::Token&, Json::Value&) [clone .cold]
 Json::OurReader::decodeNumber(Json::OurReader::Token&)
+Json::OurReader::decodeNumber(Json::OurReader::Token&) [clone .cold]
 Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&)
+Json::OurReader::decodeNumber(Json::OurReader::Token&, Json::Value&) [clone .cold]
 Json::OurReader::decodeString(Json::OurReader::Token&)
+Json::OurReader::decodeString(Json::OurReader::Token&) [clone .cold]
 Json::OurReader::decodeString(Json::OurReader::Token&, std::string&)
+Json::OurReader::decodeString(Json::OurReader::Token&, std::string&) [clone .cold]
 Json::OurReader::decodeUnicodeCodePoint(Json::OurReader::Token&, char const*&, char const*, unsigned int&)
+Json::OurReader::decodeUnicodeCodePoint(Json::OurReader::Token&, char const*&, char const*, unsigned int&) [clone .cold]
 Json::OurReader::decodeUnicodeEscapeSequence(Json::OurReader::Token&, char const*&, char const*, unsigned int&)
+Json::OurReader::decodeUnicodeEscapeSequence(Json::OurReader::Token&, char const*&, char const*, unsigned int&) [clone .cold]
 Json::OurReader::getFormattedErrorMessages() const
+Json::OurReader::getFormattedErrorMessages() const [clone .cold]
 Json::OurReader::getLocationLineAndColumn(char const*) const
 Json::OurReader::getLocationLineAndColumn(char const*, int&, int&) const
 Json::OurReader::getNextChar()
 Json::OurReader::getStructuredErrors() const
+Json::OurReader::getStructuredErrors() const [clone .cold]
 Json::OurReader::good() const
 Json::OurReader::match(char const*, int)
 Json::OurReader::parse(char const*, char const*, Json::Value&, bool)
+Json::OurReader::parse(char const*, char const*, Json::Value&, bool) [clone .cold]
 Json::OurReader::pushError(Json::Value const&, std::string const&)
+Json::OurReader::pushError(Json::Value const&, std::string const&) [clone .cold]
 Json::OurReader::pushError(Json::Value const&, std::string const&, Json::Value const&)
+Json::OurReader::pushError(Json::Value const&, std::string const&, Json::Value const&) [clone .cold]
 Json::OurReader::readArray(Json::OurReader::Token&)
+Json::OurReader::readArray(Json::OurReader::Token&) [clone .cold]
 Json::OurReader::readCStyleComment()
 Json::OurReader::readComment()
 Json::OurReader::readCppStyleComment()
 Json::OurReader::readNumber(bool)
 Json::OurReader::readObject(Json::OurReader::Token&)
+Json::OurReader::readObject(Json::OurReader::Token&) [clone .cold]
 Json::OurReader::readString()
 Json::OurReader::readStringSingleQuote()
 Json::OurReader::readToken(Json::OurReader::Token&)
 Json::OurReader::readValue()
+Json::OurReader::readValue() [clone .cold]
 Json::OurReader::recoverFromError(Json::OurReader::TokenType)
 Json::OurReader::skipCommentTokens(Json::OurReader::Token&)
 Json::OurReader::skipSpaces()
 Json::Path::Path(std::string const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&)
+Json::Path::Path(std::string const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&, Json::PathArgument const&) [clone .cold]
 Json::Path::addPathInArg(std::string const&, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > const&, __gnu_cxx::__normal_iterator<Json::PathArgument const* const*, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > >&, Json::PathArgument::Kind)
 Json::Path::invalidPath(std::string const&, int)
 Json::Path::make(Json::Value&) const
 Json::Path::makePath(std::string const&, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > const&)
+Json::Path::makePath(std::string const&, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > const&) [clone .cold]
 Json::Path::resolve(Json::Value const&) const
 Json::Path::resolve(Json::Value const&, Json::Value const&) const
+Json::PathArgument const*& std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> >::emplace_back<Json::PathArgument const*>(Json::PathArgument const*&&)
+Json::PathArgument& std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::emplace_back<Json::PathArgument>(Json::PathArgument&&)
 Json::PathArgument::PathArgument()
 Json::PathArgument::PathArgument(char const*)
 Json::PathArgument::PathArgument(std::string const&)
 Json::PathArgument::PathArgument(unsigned int)
 Json::Reader::Reader()
+Json::Reader::Reader() [clone .cold]
 Json::Reader::Reader(Json::Features const&)
+Json::Reader::Reader(Json::Features const&) [clone .cold]
 Json::Reader::addComment(char const*, char const*, Json::CommentPlacement)
+Json::Reader::addComment(char const*, char const*, Json::CommentPlacement) [clone .cold]
 Json::Reader::addError(std::string const&, Json::Reader::Token&, char const*)
+Json::Reader::addError(std::string const&, Json::Reader::Token&, char const*) [clone .cold]
 Json::Reader::addErrorAndRecover(std::string const&, Json::Reader::Token&, Json::Reader::TokenType)
 Json::Reader::currentValue()
 Json::Reader::decodeDouble(Json::Reader::Token&)
+Json::Reader::decodeDouble(Json::Reader::Token&) [clone .cold]
 Json::Reader::decodeDouble(Json::Reader::Token&, Json::Value&)
+Json::Reader::decodeDouble(Json::Reader::Token&, Json::Value&) [clone .cold]
 Json::Reader::decodeNumber(Json::Reader::Token&)
+Json::Reader::decodeNumber(Json::Reader::Token&) [clone .cold]
 Json::Reader::decodeNumber(Json::Reader::Token&, Json::Value&)
+Json::Reader::decodeNumber(Json::Reader::Token&, Json::Value&) [clone .cold]
 Json::Reader::decodeString(Json::Reader::Token&)
+Json::Reader::decodeString(Json::Reader::Token&) [clone .cold]
 Json::Reader::decodeString(Json::Reader::Token&, std::string&)
+Json::Reader::decodeString(Json::Reader::Token&, std::string&) [clone .cold]
 Json::Reader::decodeUnicodeCodePoint(Json::Reader::Token&, char const*&, char const*, unsigned int&)
+Json::Reader::decodeUnicodeCodePoint(Json::Reader::Token&, char const*&, char const*, unsigned int&) [clone .cold]
 Json::Reader::decodeUnicodeEscapeSequence(Json::Reader::Token&, char const*&, char const*, unsigned int&)
+Json::Reader::decodeUnicodeEscapeSequence(Json::Reader::Token&, char const*&, char const*, unsigned int&) [clone .cold]
 Json::Reader::getFormatedErrorMessages() const
 Json::Reader::getFormattedErrorMessages() const
+Json::Reader::getFormattedErrorMessages() const [clone .cold]
 Json::Reader::getLocationLineAndColumn(char const*) const
 Json::Reader::getLocationLineAndColumn(char const*, int&, int&) const
 Json::Reader::getLocationSnippet(char const*) const
+Json::Reader::getLocationSnippet(char const*) const [clone .cold]
 Json::Reader::getNextChar()
 Json::Reader::getStructuredErrors() const
+Json::Reader::getStructuredErrors() const [clone .cold]
 Json::Reader::good() const
 Json::Reader::match(char const*, int)
 Json::Reader::parse(char const*, char const*, Json::Value&, bool)
+Json::Reader::parse(char const*, char const*, Json::Value&, bool) [clone .cold]
 Json::Reader::parse(std::istream&, Json::Value&, bool)
+Json::Reader::parse(std::istream&, Json::Value&, bool) [clone .cold]
 Json::Reader::parse(std::string const&, Json::Value&, bool)
 Json::Reader::pushError(Json::Value const&, std::string const&)
+Json::Reader::pushError(Json::Value const&, std::string const&) [clone .cold]
 Json::Reader::pushError(Json::Value const&, std::string const&, Json::Value const&)
+Json::Reader::pushError(Json::Value const&, std::string const&, Json::Value const&) [clone .cold]
 Json::Reader::readArray(Json::Reader::Token&)
+Json::Reader::readArray(Json::Reader::Token&) [clone .cold]
 Json::Reader::readCStyleComment()
 Json::Reader::readComment()
 Json::Reader::readCppStyleComment()
 Json::Reader::readNumber()
 Json::Reader::readObject(Json::Reader::Token&)
+Json::Reader::readObject(Json::Reader::Token&) [clone .cold]
 Json::Reader::readString()
 Json::Reader::readToken(Json::Reader::Token&)
 Json::Reader::readValue()
+Json::Reader::readValue() [clone .cold]
 Json::Reader::recoverFromError(Json::Reader::TokenType)
 Json::Reader::skipCommentTokens(Json::Reader::Token&)
 Json::Reader::skipSpaces()
@@ -590,12 +452,17 @@ Json::StreamWriter::Factory::~Factory()
 Json::StreamWriter::StreamWriter()
 Json::StreamWriter::~StreamWriter()
 Json::StreamWriterBuilder::StreamWriterBuilder()
+Json::StreamWriterBuilder::StreamWriterBuilder() [clone .cold]
 Json::StreamWriterBuilder::newStreamWriter() const
+Json::StreamWriterBuilder::newStreamWriter() const [clone .cold]
 Json::StreamWriterBuilder::operator[](std::string)
 Json::StreamWriterBuilder::setDefaults(Json::Value*)
+Json::StreamWriterBuilder::setDefaults(Json::Value*) [clone .cold]
 Json::StreamWriterBuilder::validate(Json::Value*) const
+Json::StreamWriterBuilder::validate(Json::Value*) const [clone .cold]
 Json::StreamWriterBuilder::~StreamWriterBuilder()
 Json::StyledStreamWriter::StyledStreamWriter(std::string)
+Json::StyledStreamWriter::StyledStreamWriter(std::string) [clone .cold]
 Json::StyledStreamWriter::hasCommentForValue(Json::Value const&)
 Json::StyledStreamWriter::indent()
 Json::StyledStreamWriter::isMultineArray(Json::Value const&)
@@ -603,26 +470,37 @@ Json::StyledStreamWriter::pushValue(std::string const&)
 Json::StyledStreamWriter::unindent()
 Json::StyledStreamWriter::write(std::ostream&, Json::Value const&)
 Json::StyledStreamWriter::writeArrayValue(Json::Value const&)
+Json::StyledStreamWriter::writeArrayValue(Json::Value const&) [clone .cold]
 Json::StyledStreamWriter::writeCommentAfterValueOnSameLine(Json::Value const&)
+Json::StyledStreamWriter::writeCommentAfterValueOnSameLine(Json::Value const&) [clone .cold]
 Json::StyledStreamWriter::writeCommentBeforeValue(Json::Value const&)
+Json::StyledStreamWriter::writeCommentBeforeValue(Json::Value const&) [clone .cold]
 Json::StyledStreamWriter::writeIndent()
 Json::StyledStreamWriter::writeValue(Json::Value const&)
+Json::StyledStreamWriter::writeValue(Json::Value const&) [clone .cold]
 Json::StyledStreamWriter::writeWithIndent(std::string const&)
 Json::StyledWriter::StyledWriter()
 Json::StyledWriter::hasCommentForValue(Json::Value const&)
 Json::StyledWriter::indent()
+Json::StyledWriter::indent() [clone .cold]
 Json::StyledWriter::isMultineArray(Json::Value const&)
 Json::StyledWriter::pushValue(std::string const&)
 Json::StyledWriter::unindent()
 Json::StyledWriter::write(Json::Value const&)
 Json::StyledWriter::writeArrayValue(Json::Value const&)
+Json::StyledWriter::writeArrayValue(Json::Value const&) [clone .cold]
 Json::StyledWriter::writeCommentAfterValueOnSameLine(Json::Value const&)
+Json::StyledWriter::writeCommentAfterValueOnSameLine(Json::Value const&) [clone .cold]
 Json::StyledWriter::writeCommentBeforeValue(Json::Value const&)
+Json::StyledWriter::writeCommentBeforeValue(Json::Value const&) [clone .cold]
 Json::StyledWriter::writeIndent()
 Json::StyledWriter::writeValue(Json::Value const&)
+Json::StyledWriter::writeValue(Json::Value const&) [clone .cold]
 Json::StyledWriter::writeWithIndent(std::string const&)
 Json::StyledWriter::~StyledWriter()
+Json::Value*& std::deque<Json::Value*, std::allocator<Json::Value*> >::emplace_back<Json::Value*>(Json::Value*&&)
 Json::Value::CZString::CZString(Json::Value::CZString const&)
+Json::Value::CZString::CZString(Json::Value::CZString const&) [clone .cold]
 Json::Value::CZString::CZString(Json::Value::CZString&&)
 Json::Value::CZString::CZString(char const*, unsigned int, Json::Value::CZString::DuplicationPolicy)
 Json::Value::CZString::CZString(unsigned int)
@@ -637,12 +515,14 @@ Json::Value::CZString::swap(Json::Value::CZString&)
 Json::Value::CZString::~CZString()
 Json::Value::CommentInfo::CommentInfo()
 Json::Value::CommentInfo::setComment(char const*, unsigned long)
+Json::Value::CommentInfo::setComment(char const*, unsigned long) [clone .cold]
 Json::Value::CommentInfo::~CommentInfo()
 Json::Value::Value(Json::StaticString const&)
 Json::Value::Value(Json::Value const&)
+Json::Value::Value(Json::Value const&) [clone .cold]
 Json::Value::Value(Json::Value&&)
 Json::Value::Value(Json::ValueType)
-Json::Value::Value(Json::ValueType) [clone .part.55]
+Json::Value::Value(Json::ValueType) [clone .part.0]
 Json::Value::Value(bool)
 Json::Value::Value(char const*)
 Json::Value::Value(char const*, char const*)
@@ -654,8 +534,10 @@ Json::Value::Value(std::string const&)
 Json::Value::Value(unsigned int)
 Json::Value::Value(unsigned long long)
 Json::Value::append(Json::Value const&)
+Json::Value::append(Json::Value const&) [clone .cold]
 Json::Value::asBool() const
 Json::Value::asCString() const
+Json::Value::asCString() const [clone .cold]
 Json::Value::asDouble() const
 Json::Value::asFloat() const
 Json::Value::asInt() const
@@ -668,17 +550,22 @@ Json::Value::asUInt64() const
 Json::Value::begin()
 Json::Value::begin() const
 Json::Value::clear()
+Json::Value::clear() [clone .cold]
 Json::Value::compare(Json::Value const&) const
 Json::Value::empty() const
 Json::Value::end()
 Json::Value::end() const
 Json::Value::find(char const*, char const*) const
+Json::Value::find(char const*, char const*) const [clone .cold]
 Json::Value::get(char const*, Json::Value const&) const
 Json::Value::get(char const*, char const*, Json::Value const&) const
+Json::Value::get(char const*, char const*, Json::Value const&) const [clone .cold]
 Json::Value::get(std::string const&, Json::Value const&) const
 Json::Value::get(unsigned int, Json::Value const&) const
+Json::Value::get(unsigned int, Json::Value const&) const [clone .cold]
 Json::Value::getComment(Json::CommentPlacement) const
 Json::Value::getMemberNames() const
+Json::Value::getMemberNames() const [clone .cold]
 Json::Value::getOffsetLimit() const
 Json::Value::getOffsetStart() const
 Json::Value::getString(char const**, char const**) const
@@ -687,6 +574,7 @@ Json::Value::initBasic(Json::ValueType, bool)
 Json::Value::isArray() const
 Json::Value::isBool() const
 Json::Value::isConvertibleTo(Json::ValueType) const
+Json::Value::isConvertibleTo(Json::ValueType) const [clone .cold]
 Json::Value::isDouble() const
 Json::Value::isInt() const
 Json::Value::isInt64() const
@@ -724,20 +612,30 @@ Json::Value::operator[](Json::StaticString const&)
 Json::Value::operator[](char const*)
 Json::Value::operator[](char const*) const
 Json::Value::operator[](int)
+Json::Value::operator[](int) [clone .cold]
 Json::Value::operator[](int) const
+Json::Value::operator[](int) const [clone .cold]
 Json::Value::operator[](std::string const&)
 Json::Value::operator[](std::string const&) const
 Json::Value::operator[](unsigned int)
+Json::Value::operator[](unsigned int) [clone .cold]
 Json::Value::operator[](unsigned int) const
+Json::Value::operator[](unsigned int) const [clone .cold]
 Json::Value::removeIndex(unsigned int, Json::Value*)
+Json::Value::removeIndex(unsigned int, Json::Value*) [clone .cold]
 Json::Value::removeMember(char const*)
+Json::Value::removeMember(char const*) [clone .cold]
 Json::Value::removeMember(char const*, Json::Value*)
 Json::Value::removeMember(char const*, char const*, Json::Value*)
+Json::Value::removeMember(char const*, char const*, Json::Value*) [clone .cold]
 Json::Value::removeMember(std::string const&)
 Json::Value::removeMember(std::string const&, Json::Value*)
 Json::Value::resize(unsigned int)
+Json::Value::resize(unsigned int) [clone .cold]
 Json::Value::resolveReference(char const*)
+Json::Value::resolveReference(char const*) [clone .cold]
 Json::Value::resolveReference(char const*, char const*)
+Json::Value::resolveReference(char const*, char const*) [clone .cold]
 Json::Value::setComment(char const*, Json::CommentPlacement)
 Json::Value::setComment(char const*, unsigned long, Json::CommentPlacement)
 Json::Value::setComment(std::string const&, Json::CommentPlacement)
@@ -747,6 +645,7 @@ Json::Value::size() const
 Json::Value::swap(Json::Value&)
 Json::Value::swapPayload(Json::Value&)
 Json::Value::toStyledString() const
+Json::Value::toStyledString() const [clone .cold]
 Json::Value::type() const
 Json::Value::~Value()
 Json::ValueConstIterator::ValueConstIterator()
@@ -755,6 +654,7 @@ Json::ValueConstIterator::ValueConstIterator(std::_Rb_tree_iterator<std::pair<Js
 Json::ValueConstIterator::operator=(Json::ValueIteratorBase const&)
 Json::ValueIterator::ValueIterator()
 Json::ValueIterator::ValueIterator(Json::ValueConstIterator const&)
+Json::ValueIterator::ValueIterator(Json::ValueConstIterator const&) [clone .cold]
 Json::ValueIterator::ValueIterator(Json::ValueIterator const&)
 Json::ValueIterator::ValueIterator(std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > const&)
 Json::ValueIterator::operator=(Json::ValueIterator const&)
@@ -768,21 +668,29 @@ Json::ValueIteratorBase::increment()
 Json::ValueIteratorBase::index() const
 Json::ValueIteratorBase::isEqual(Json::ValueIteratorBase const&) const
 Json::ValueIteratorBase::key() const
+Json::ValueIteratorBase::key() const [clone .cold]
 Json::ValueIteratorBase::memberName() const
 Json::ValueIteratorBase::memberName(char const**) const
 Json::ValueIteratorBase::name() const
 Json::Writer::~Writer()
 Json::duplicateAndPrefixStringValue(char const*, unsigned int)
+Json::duplicateAndPrefixStringValue(char const*, unsigned int) [clone .cold]
 Json::kNull
 Json::kNullRef
 Json::normalizeEOL(char const*, char const*)
+Json::normalizeEOL(char const*, char const*) [clone .cold]
 Json::operator<<(std::ostream&, Json::Value const&)
+Json::operator<<(std::ostream&, Json::Value const&) [clone .cold]
 Json::operator>>(std::istream&, Json::Value&)
+Json::operator>>(std::istream&, Json::Value&) [clone .cold]
 Json::parseFromStream(Json::CharReader::Factory const&, std::istream&, Json::Value*, std::string*)
+Json::parseFromStream(Json::CharReader::Factory const&, std::istream&, Json::Value*, std::string*) [clone .cold]
 Json::throwLogicError(std::string const&)
 Json::throwRuntimeError(std::string const&)
 Json::valueToQuotedString(char const*)
+Json::valueToQuotedString(char const*) [clone .cold]
 Json::valueToQuotedStringN(char const*, unsigned int)
+Json::valueToQuotedStringN(char const*, unsigned int) [clone .cold]
 Json::valueToString(bool)
 Json::valueToString(double)
 Json::valueToString(double, bool, unsigned int)
@@ -791,6 +699,19 @@ Json::valueToString(long long)
 Json::valueToString(unsigned int)
 Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
+Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
+LC_ADDRESS
+LC_COLLATE
+LC_CTYPE
+LC_IDENTIFICATION
+LC_MEASUREMENT
+LC_MESSAGES
+LC_MONETARY
+LC_NAME
+LC_NUMERIC
+LC_PAPER
+LC_TELEPHONE
+LC_TIME
 Line %d, Column %d
 LiquidVR
 Log path could not be located (112)
@@ -799,10 +720,22 @@ Log(char const*, ...)
 LogDirect(ELogLevel, char const*, __va_list_tag (&) [1])
 LogHelper(ELogLevel, char const*, __va_list_tag (&) [1])
 Low Power Watchdog Not Supported (129)
+March
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+Monday
+N10__cxxabiv115__forced_unwindE
+N10__cxxabiv117__class_type_infoE
+N10__cxxabiv117__pbase_type_infoE
+N10__cxxabiv119__foreign_exceptionE
+N10__cxxabiv119__pointer_type_infoE
+N10__cxxabiv120__function_type_infoE
+N10__cxxabiv120__si_class_type_infoE
+N10__cxxabiv121__vmi_class_type_infoE
+N10__cxxabiv123__fundamental_type_infoE
+N10__cxxabiv129__pointer_to_member_type_infoE
 N4Json10CharReader7FactoryE
 N4Json10CharReaderE
 N4Json10FastWriterE
@@ -817,56 +750,90 @@ N4Json19StreamWriterBuilderE
 N4Json23BuiltStyledStreamWriterE
 N4Json6WriterE
 N4Json9ExceptionE
+N9__gnu_cxx13stdio_filebufIcSt11char_traitsIcEEE
+N9__gnu_cxx13stdio_filebufIwSt11char_traitsIwEEE
+N9__gnu_cxx18stdio_sync_filebufIcSt11char_traitsIcEEE
+N9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE
+N9__gnu_cxx20recursive_init_errorE
+N9__gnu_cxx24__concurrence_lock_errorE
+N9__gnu_cxx26__concurrence_unlock_errorE
+NSt6locale5facetE
+NSt8ios_base7failureE
 No Error (0)
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
+November
+October
 On laptop, HMD detected over USB, but Monitor not found (213)
 PFbcE
-ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*) [clone .constprop.44]
+POSIX
+ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*)
+ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*) [clone .cold]
 Path_Compact(std::string const&, char)
+Path_Compact(std::string const&, char) [clone .cold]
 Path_DeleteDirectory(std::string const&, bool)
 Path_Exists(std::string const&)
 Path_FilePathToUrl(std::string const&, std::string const&)
+Path_FilePathToUrl(std::string const&, std::string const&) [clone .cold]
 Path_FindParentDirectoryRecursively(std::string const&, std::string const&)
+Path_FindParentDirectoryRecursively(std::string const&, std::string const&) [clone .cold]
 Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&)
+Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&) [clone .cold]
 Path_FixSlashes(std::string const&, char)
+Path_FixSlashes(std::string const&, char) [clone .cold]
 Path_GetExecutablePath()
 Path_GetExtension(std::string const&)
 Path_GetSlash()
 Path_GetTemporaryDirectory()
 Path_GetThisModulePath()
 Path_GetWorkingDirectory()
+Path_GetWorkingDirectory() [clone .cold]
 Path_IsAbsolute(std::string const&)
 Path_IsAppBundle(std::string const&)
 Path_IsDirectory(std::string const&)
+Path_IsDirectory(std::string const&) [clone .cold]
 Path_IsSamePath(std::string const&, std::string const&)
+Path_IsSamePath(std::string const&, std::string const&) [clone .cold]
 Path_Join(std::string const&, std::string const&, char)
+Path_Join(std::string const&, std::string const&, char) [clone .cold]
 Path_Join(std::string const&, std::string const&, std::string const&, char)
+Path_Join(std::string const&, std::string const&, std::string const&, char) [clone .cold]
 Path_Join(std::string const&, std::string const&, std::string const&, std::string const&, char)
+Path_Join(std::string const&, std::string const&, std::string const&, std::string const&, char) [clone .cold]
 Path_Join(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&, char)
+Path_Join(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&, char) [clone .cold]
 Path_MakeAbsolute(std::string const&, std::string const&)
+Path_MakeAbsolute(std::string const&, std::string const&) [clone .cold]
 Path_MakeWritable(std::string const&)
 Path_ReadBinaryFile(std::string const&)
+Path_ReadBinaryFile(std::string const&) [clone .cold]
 Path_ReadBinaryFile(std::string const&, int*)
 Path_ReadBinaryFile(std::string const&, unsigned char*, unsigned int)
 Path_ReadTextFile(std::string const&)
 Path_RemoveTrailingSlash(std::string const&, char)
+Path_RemoveTrailingSlash(std::string const&, char) [clone .cold]
 Path_SanitizeFilename(std::string const&)
+Path_SanitizeFilename(std::string const&) [clone .cold]
 Path_SetWorkingDirectory(std::string const&)
 Path_StripDirectory(std::string const&, char)
 Path_StripExtension(std::string const&)
 Path_StripFilename(std::string const&, char)
 Path_UnlinkFile(std::string const&)
 Path_UrlToFilePath(std::string const&)
+Path_UrlToFilePath(std::string const&) [clone .cold]
 Path_WriteBinaryFile(std::string const&, unsigned char*, unsigned int)
 Path_WriteStringToTextFile(std::string const&, char const*)
 Path_WriteStringToTextFileAtomic(std::string const&, char const*)
+Path_WriteStringToTextFileAtomic(std::string const&, char const*) [clone .cold]
 Rebooting In Progress (137)
 RepairUTF8(char const*, char const*, std::string&)
+RepairUTF8(char const*, char const*, std::string&) [clone .cold]
 RepairUTF8(std::string const&, std::string&)
 ReturnStdString(std::string const&, char*, unsigned int)
 STEAMVR_APPKEY
+Saturday
+September
 SetEnvironmentVariable(char const*, char const*)
 Settings manager init failed (118)
 Shared IPC Compositor Connect Failed (306)
@@ -881,30 +848,161 @@ Shared IPC State Init Failed (302)
 SharedLib_GetFunction(void*, char const*)
 SharedLib_Load(char const*, std::string*)
 SharedLib_Unload(void*)
+St10bad_typeid
+St10money_base
+St10moneypunctIcLb0EE
+St10moneypunctIcLb1EE
+St10moneypunctIwLb0EE
+St10moneypunctIwLb1EE
+St11__timepunctIcE
+St11__timepunctIwE
+St11logic_error
+St11range_error
+St12codecvt_base
 St12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
 St12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
+St12ctype_bynameIcE
+St12ctype_bynameIwE
+St12domain_error
+St12length_error
+St12out_of_range
+St12system_error
+St13bad_exception
+St13basic_filebufIcSt11char_traitsIcEE
+St13basic_filebufIwSt11char_traitsIwEE
+St13basic_fstreamIcSt11char_traitsIcEE
+St13basic_fstreamIwSt11char_traitsIwEE
+St13basic_istreamIwSt11char_traitsIwEE
+St13basic_ostreamIwSt11char_traitsIwEE
+St13messages_base
+St13runtime_error
+St14basic_ifstreamIcSt11char_traitsIcEE
+St14basic_ifstreamIwSt11char_traitsIwEE
+St14basic_iostreamIwSt11char_traitsIwEE
+St14basic_ofstreamIcSt11char_traitsIcEE
+St14basic_ofstreamIwSt11char_traitsIwEE
+St14codecvt_bynameIcc11__mbstate_tE
+St14codecvt_bynameIwc11__mbstate_tE
+St14collate_bynameIcE
+St14collate_bynameIwE
+St14overflow_error
+St15basic_streambufIcSt11char_traitsIcEE
+St15basic_streambufIwSt11char_traitsIwEE
+St15basic_stringbufIcSt11char_traitsIcESaIcEE
+St15basic_stringbufIwSt11char_traitsIwESaIwEE
+St15messages_bynameIcE
+St15messages_bynameIwE
+St15numpunct_bynameIcE
+St15numpunct_bynameIwE
+St15time_get_bynameIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+St15time_get_bynameIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+St15time_put_bynameIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+St15time_put_bynameIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+St15underflow_error
+St16__numpunct_cacheIcE
+St16__numpunct_cacheIwE
+St16invalid_argument
+St17__timepunct_cacheIcE
+St17__timepunct_cacheIwE
+St17bad_function_call
+St17moneypunct_bynameIcLb0EE
+St17moneypunct_bynameIcLb1EE
+St17moneypunct_bynameIwLb0EE
+St17moneypunct_bynameIwLb1EE
+St18__moneypunct_cacheIcLb0EE
+St18__moneypunct_cacheIcLb1EE
+St18__moneypunct_cacheIwLb0EE
+St18__moneypunct_cacheIwLb1EE
+St18basic_stringstreamIcSt11char_traitsIcESaIcEE
+St18basic_stringstreamIwSt11char_traitsIwESaIwEE
+St19__codecvt_utf8_baseIDiE
+St19__codecvt_utf8_baseIDsE
+St19__codecvt_utf8_baseIwE
+St19basic_istringstreamIcSt11char_traitsIcESaIcEE
+St19basic_istringstreamIwSt11char_traitsIwESaIwEE
+St19basic_ostringstreamIcSt11char_traitsIcESaIcEE
+St19basic_ostringstreamIwSt11char_traitsIwESaIwEE
+St20__codecvt_utf16_baseIDiE
+St20__codecvt_utf16_baseIDsE
+St20__codecvt_utf16_baseIwE
+St20bad_array_new_length
+St21__ctype_abstract_baseIcE
+St21__ctype_abstract_baseIwE
+St23__codecvt_abstract_baseIDiDu11__mbstate_tE
+St23__codecvt_abstract_baseIDic11__mbstate_tE
+St23__codecvt_abstract_baseIDsDu11__mbstate_tE
+St23__codecvt_abstract_baseIDsc11__mbstate_tE
+St23__codecvt_abstract_baseIcc11__mbstate_tE
+St23__codecvt_abstract_baseIwc11__mbstate_tE
+St25__codecvt_utf8_utf16_baseIDiE
+St25__codecvt_utf8_utf16_baseIDsE
+St25__codecvt_utf8_utf16_baseIwE
+St5ctypeIcE
+St5ctypeIwE
+St7codecvtIDiDu11__mbstate_tE
+St7codecvtIDic11__mbstate_tE
+St7codecvtIDsDu11__mbstate_tE
+St7codecvtIDsc11__mbstate_tE
+St7codecvtIcc11__mbstate_tE
+St7codecvtIwc11__mbstate_tE
+St7collateIcE
+St7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+St7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+St7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+St7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+St8bad_cast
+St8ios_base
+St8messagesIcE
+St8messagesIwE
+St8numpunctIcE
+St8numpunctIwE
+St8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+St8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+St8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+St8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+St9basic_iosIcSt11char_traitsIcEE
+St9basic_iosIwSt11char_traitsIwEE
+St9exception
+St9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE
+St9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE
+St9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE
+St9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE
+St9time_base
+St9type_info
 SteamAppId
 SteamGameId
 StringHasPrefix(std::string const&, std::string const&)
 StringHasPrefixCaseSensitive(std::string const&, std::string const&)
 StringHasSuffix(std::string const&, std::string const&)
 StringHasSuffixCaseSensitive(std::string const&, std::string const&)
-StringListToJson(std::vector<std::string, std::allocator<std::string> > const&, Json::Value&, char const*) [clone .constprop.43]
+StringListToJson(std::vector<std::string, std::allocator<std::string> > const&, Json::Value&, char const*)
+StringListToJson(std::vector<std::string, std::allocator<std::string> > const&, Json::Value&, char const*) [clone .cold]
 StringToLower(std::string const&)
+StringToLower(std::string const&) [clone .cold]
 StringToUint64(std::string const&)
 StringToUpper(std::string const&)
+StringToUpper(std::string const&) [clone .cold]
+Sunday
 Syntax error: value, object or array expected.
+TLS init function for
+TLS wrapper function for
 TMPDIR
 The requested interface is incompatible with the compositor and the compositor is running (122)
 This interface is not available to utility applications (123)
+Thursday
 TokenizeString(std::string const&, char)
+TokenizeString(std::string const&, char) [clone .cold]
 Too many tracked objects (120)
 TrimTrailingWhitespace(std::string const&)
+Tuesday
 USB Service Busy (140)
+UTF-8
 UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
 UTF16to8(wchar_t const*)
+UTF16to8(wchar_t const*) [clone .cold]
 UTF16to8(wchar_t const*)::s_converter
 UTF8to16(char const*)
+UTF8to16(char const*) [clone .cold]
 UTF8to16(char const*)::s_converter
 UTF8to16(std::string const&)
 Uint64ToString(unsigned long)
@@ -1155,44 +1253,86 @@ VRPaths
 VRVirtualDisplay
 VR_CONFIG_PATH
 VR_GetGenericInterface
+VR_GetGenericInterface.cold
 VR_GetInitToken
 VR_GetRuntimePath
+VR_GetRuntimePath.cold
 VR_GetStringForHmdError
 VR_GetVRInitErrorAsEnglishDescription
+VR_GetVRInitErrorAsEnglishDescription.cold
 VR_GetVRInitErrorAsSymbol
+VR_GetVRInitErrorAsSymbol.cold
 VR_InitInternal
 VR_InitInternal2
+VR_InitInternal2.cold
 VR_IsHmdPresent
+VR_IsHmdPresent.cold
 VR_IsInterfaceVersionValid
+VR_IsInterfaceVersionValid.cold
 VR_IsRuntimeInstalled
+VR_IsRuntimeInstalled.cold
 VR_LOG_PATH
 VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 VR_RuntimePath
 VR_RuntimePath::rchBuffer
 VR_ShutdownInternal
+VR_ShutdownInternal.cold
+VTT for
+VTT for std::basic_fstream<char, std::char_traits<char> >
+VTT for std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
+VTT for std::basic_ifstream<char, std::char_traits<char> >
+VTT for std::basic_ifstream<wchar_t, std::char_traits<wchar_t> >
+VTT for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
+VTT for std::basic_istream<wchar_t, std::char_traits<wchar_t> >
 VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+VTT for std::basic_istringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+VTT for std::basic_ofstream<char, std::char_traits<char> >
+VTT for std::basic_ofstream<wchar_t, std::char_traits<wchar_t> >
+VTT for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >
 VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+VTT for std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+VTT for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+VTT for std::iostream
+VTT for std::istream
+VTT for std::ostream
 V_StripExtension(std::string&)
 V_URLDecode(char*, int, char const*, int)
 V_URLDecodeInternal(char*, int, char const*, int, bool)
-V_URLDecodeInternal(char*, int, char const*, int, bool) [clone .part.19]
+V_URLDecodeInternal(char*, int, char const*, int, bool) [clone .part.0]
 V_URLDecodeNoPlusForSpace(char*, int, char const*, int)
 V_URLEncode(char*, int, char const*, int)
+V_URLEncode(char*, int, char const*, int) [clone .cold]
 V_URLEncodeFullPath(char*, int, char const*, int)
+V_URLEncodeFullPath(char*, int, char const*, int) [clone .cold]
 V_URLEncodeInternal(char*, int, char const*, int, bool, std::function<bool (char)>)
 V_URLEncodeNoPlusForSpace(char*, int, char const*, int)
+V_URLEncodeNoPlusForSpace(char*, int, char const*, int) [clone .cold]
 Watchdog disabled in settings (132)
+Wednesday
 XDG_CONFIG_HOME
+[abi:
+[clone
+_Accum
 _DYNAMIC
+_Fract
+_GLOBAL_
 _GLOBAL_OFFSET_TABLE_
-_GLOBAL__sub_I_json_value.cpp
+_GLOBAL__sub_I_eh_alloc.cc
+_GLOBAL__sub_I_locale_inst.cc
 _GLOBAL__sub_I_openvr_api.cpp
 _GLOBAL__sub_I_openvr_api_headers.cpp
 _GLOBAL__sub_I_strtools_public.cpp
+_GLOBAL__sub_I_system_error.cc
+_GLOBAL__sub_I_wlocale_inst.cc
+_ITM_RU1
+_ITM_RU8
+_ITM_addUserCommitAction
 _ITM_deregisterTMCloneTable
+_ITM_memcpyRnWt
+_ITM_memcpyRtWn
 _ITM_registerTMCloneTable
-_Jv_RegisterClasses
 _Unwind_Backtrace
 _Unwind_DebugHook
 _Unwind_DeleteException
@@ -1203,55 +1343,216 @@ _Unwind_ForcedUnwind_Phase2
 _Unwind_GetCFA
 _Unwind_GetDataRelBase
 _Unwind_GetGR
+_Unwind_GetGR.cold
 _Unwind_GetIP
 _Unwind_GetIPInfo
 _Unwind_GetLanguageSpecificData
 _Unwind_GetRegionStart
 _Unwind_GetTextRelBase
 _Unwind_IteratePhdrCallback
+_Unwind_IteratePhdrCallback.cold
 _Unwind_RaiseException
 _Unwind_RaiseException_Phase2
+_Unwind_RaiseException_Phase2.cold
 _Unwind_Resume
+_Unwind_Resume.cold
 _Unwind_Resume_or_Rethrow
+_Unwind_Resume_or_Rethrow.cold
 _Unwind_SetGR
+_Unwind_SetGR.cold
 _Unwind_SetIP
 __FRAME_END__
-__JCR_END__
-__JCR_LIST__
 __TMC_END__
 __TMC_LIST__
 __bss_start
+__ctype_get_mb_cur_max
+__cxa_allocate_dependent_exception
 __cxa_allocate_exception
 __cxa_atexit
+__cxa_bad_cast
+__cxa_bad_typeid
 __cxa_begin_catch
+__cxa_call_terminate
+__cxa_call_unexpected
+__cxa_call_unexpected.cold
+__cxa_current_exception_type
+__cxa_deleted_virtual
+__cxa_demangle
 __cxa_end_catch
 __cxa_finalize
+__cxa_free_dependent_exception
 __cxa_free_exception
+__cxa_get_exception_ptr
+__cxa_get_globals
+__cxa_get_globals_fast
 __cxa_guard_abort
 __cxa_guard_acquire
+__cxa_guard_acquire.cold
 __cxa_guard_release
+__cxa_init_primary_exception
 __cxa_pure_virtual
 __cxa_rethrow
 __cxa_throw
+__cxa_throw_bad_array_new_length
+__cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+__cxxabiv1::__class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+__cxxabiv1::__class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+__cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+__cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+__cxxabiv1::__class_type_info::~__class_type_info()
+__cxxabiv1::__forced_unwind::~__forced_unwind()
+__cxxabiv1::__foreign_exception::~__foreign_exception()
+__cxxabiv1::__function_type_info::__is_function_p() const
+__cxxabiv1::__function_type_info::~__function_type_info()
+__cxxabiv1::__fundamental_type_info::~__fundamental_type_info()
+__cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+__cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const::pm
+__cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const::pmf
+__cxxabiv1::__pbase_type_info::__pointer_catch(__cxxabiv1::__pbase_type_info const*, void**, unsigned int) const
+__cxxabiv1::__pbase_type_info::~__pbase_type_info()
+__cxxabiv1::__pointer_to_member_type_info::__pointer_catch(__cxxabiv1::__pbase_type_info const*, void**, unsigned int) const
+__cxxabiv1::__pointer_to_member_type_info::~__pointer_to_member_type_info()
+__cxxabiv1::__pointer_type_info::__is_pointer_p() const
+__cxxabiv1::__pointer_type_info::__pointer_catch(__cxxabiv1::__pbase_type_info const*, void**, unsigned int) const
+__cxxabiv1::__pointer_type_info::~__pointer_type_info()
+__cxxabiv1::__si_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+__cxxabiv1::__si_class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+__cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+__cxxabiv1::__si_class_type_info::~__si_class_type_info()
+__cxxabiv1::__terminate(void (*)())
+__cxxabiv1::__terminate(void (*)()) [clone .cold]
+__cxxabiv1::__terminate_handler
+__cxxabiv1::__unexpected(void (*)())
+__cxxabiv1::__unexpected_handler
+__cxxabiv1::__vmi_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+__cxxabiv1::__vmi_class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+__cxxabiv1::__vmi_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+__cxxabiv1::__vmi_class_type_info::~__vmi_class_type_info()
 __deregister_frame
 __deregister_frame_info
 __deregister_frame_info_bases
 __do_global_dtors_aux
 __do_global_dtors_aux_fini_array_entry
 __dso_handle
+__duplocale
+__dynamic_cast
 __errno_location
+__float128
+__fprintf_chk
 __frame_dummy_init_array_entry
 __frame_state_for
+__freelocale
+__fxstat64
+__gcclibcxx_demangle_callback
 __gmon_start__
+__gnu_cxx::__concat_size_t(char*, unsigned long, unsigned long)
+__gnu_cxx::__concurrence_lock_error
+__gnu_cxx::__concurrence_lock_error::what() const
+__gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+__gnu_cxx::__concurrence_unlock_error
+__gnu_cxx::__concurrence_unlock_error::what() const
+__gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+__gnu_cxx::__freeres()
+__gnu_cxx::__scoped_lock::~__scoped_lock()
+__gnu_cxx::__snprintf_lite(char*, unsigned long, char const*, __va_list_tag*)
+__gnu_cxx::__throw_concurrence_lock_error()
+__gnu_cxx::__throw_insufficient_space(char const*, char const*)
+__gnu_cxx::__verbose_terminate_handler()
+__gnu_cxx::__verbose_terminate_handler() [clone .cold]
+__gnu_cxx::__verbose_terminate_handler()::terminating
+__gnu_cxx::category_names
+__gnu_cxx::recursive_init_error::recursive_init_error()
+__gnu_cxx::recursive_init_error::~recursive_init_error()
+__gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::fd()
+__gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::file()
+__gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::stdio_filebuf()
+__gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::stdio_filebuf(_IO_FILE*, std::_Ios_Openmode, unsigned long)
+__gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::stdio_filebuf(int, std::_Ios_Openmode, unsigned long)
+__gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::swap(__gnu_cxx::stdio_filebuf<char, std::char_traits<char> >&)
+__gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::~stdio_filebuf()
+__gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::fd()
+__gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::file()
+__gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::stdio_filebuf()
+__gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::stdio_filebuf(_IO_FILE*, std::_Ios_Openmode, unsigned long)
+__gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::stdio_filebuf(int, std::_Ios_Openmode, unsigned long)
+__gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::swap(__gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >&)
+__gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::~stdio_filebuf()
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::file()
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::operator=(__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >&&)
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::overflow(int)
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::pbackfail(int)
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::seekoff(long, std::_Ios_Seekdir, std::_Ios_Openmode)
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::seekpos(std::fpos<__mbstate_t>, std::_Ios_Openmode)
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::stdio_sync_filebuf(_IO_FILE*)
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::stdio_sync_filebuf(__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >&&)
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::swap(__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >&)
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::sync()
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::uflow()
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow()
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::xsgetn(char*, long)
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::xsputn(char const*, long)
+__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::~stdio_sync_filebuf()
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::file()
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::operator=(__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >&&)
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::overflow(unsigned int)
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::pbackfail(unsigned int)
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::seekoff(long, std::_Ios_Seekdir, std::_Ios_Openmode)
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::seekpos(std::fpos<__mbstate_t>, std::_Ios_Openmode)
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::stdio_sync_filebuf(_IO_FILE*)
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::stdio_sync_filebuf(__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >&&)
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::swap(__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >&)
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::sync()
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::uflow()
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::underflow()
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::xsgetn(wchar_t*, long)
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::xsputn(wchar_t const*, long)
+__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::~stdio_sync_filebuf()
+__gnu_internal::buf_cerr
+__gnu_internal::buf_cerr_sync
+__gnu_internal::buf_cin
+__gnu_internal::buf_cin_sync
+__gnu_internal::buf_cout
+__gnu_internal::buf_cout_sync
+__gnu_internal::buf_wcerr
+__gnu_internal::buf_wcerr_sync
+__gnu_internal::buf_wcin
+__gnu_internal::buf_wcin_sync
+__gnu_internal::buf_wcout
+__gnu_internal::buf_wcout_sync
+__gxx_exception_cleanup(_Unwind_Reason_Code, _Unwind_Exception*)
 __gxx_personality_v0
+__gxx_personality_v0.cold
+__int128
+__iswctype_l
+__memcpy_chk
+__newlocale
+__nl_langinfo_l
 __pthread_key_create
 __register_frame
 __register_frame_info
-__register_frame_info.part.4
 __register_frame_info_bases
+__register_frame_info_bases.part.0
 __register_frame_info_table
 __register_frame_info_table_bases
 __register_frame_table
+__snprintf_chk
+__sprintf_chk
+__stack_chk_fail
+__strcoll_l
+__strftime_l
+__strtod_l
+__strtof_l
+__strxfrm_l
+__tls_get_addr
+__towlower_l
+__towupper_l
+__uselocale
+__vector(
+__vsnprintf_chk
+__wcscoll_l
+__wcsftime_l
+__wcsxfrm_l
+__wctype_l
 __xstat
 _edata
 _findclose(long)
@@ -1259,49 +1560,238 @@ _findfirst(char const*, _finddata_t*)
 _findnext(long, _finddata_t*)
 _fini
 _init
+_txnal_cow_string_C1_for_exceptions(void*, char const*, void*)
+_txnal_cow_string_C1_for_exceptions(void*, char const*, void*) [clone .cold]
+_txnal_cow_string_D1(void*)
+_txnal_cow_string_D1_commit(void*)
+_txnal_cow_string_c_str(void const*)
+_txnal_logic_error_get_msg(void*)
+_txnal_runtime_error_get_msg(void*)
 abort
 add_fdes
 additional six characters expected to parse unicode surrogate pair.
-adds.9001
+adds.10132
+alignof
+allocator
 allowComments
 allowDroppedNullPlaceholders
 allowNumericKeys
 allowSingleQuotes
 allowSpecialFloats
+alnum
+alpha
 alphasort
+any_objects_registered
 assert json failed
+auto:
+bad_function_call
 base_from_cb_data
+base_from_cb_data.cold
 base_from_object
+base_from_object.cold
 base_of_encoded_value
-basic_string::_M_replace_dispatch
+base_of_encoded_value(unsigned char, _Unwind_Context*)
+base_of_encoded_value(unsigned char, _Unwind_Context*) [clone .cold]
+base_of_encoded_value.cold
+basic_filebuf::_M_convert_to_external conversion error
+basic_filebuf::underflow codecvt::max_length() is not valid
+basic_filebuf::underflow error reading the file
+basic_filebuf::underflow incomplete character in file
+basic_filebuf::underflow invalid byte sequence in file
+basic_filebuf::xsgetn error reading the file
+basic_ios::clear
+basic_iostream
+basic_istream
+basic_ostream
+basic_string
+basic_string::_M_replace_aux
 basic_string::_S_construct null not valid
+basic_string::_S_create
+basic_string::append
+basic_string::assign
 basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
+basic_string::basic_string
+basic_string::compare
+basic_string::copy
 basic_string::erase
+basic_string::insert
+basic_string::replace
+basic_string::resize
 basic_string::substr
+bind_textdomain_codeset
+bindtextdomain
+blank
+bool __gnu_cxx::operator==<char const*, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string> const&, __gnu_cxx::__normal_iterator<char const*, std::string> const&)
+bool __gnu_cxx::operator==<char*, std::string>(__gnu_cxx::__normal_iterator<char*, std::string> const&, __gnu_cxx::__normal_iterator<char*, std::string> const&)
+bool __gnu_cxx::operator==<wchar_t const*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >(__gnu_cxx::__normal_iterator<wchar_t const*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&, __gnu_cxx::__normal_iterator<wchar_t const*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&)
+bool __gnu_cxx::operator==<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >(__gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&, __gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&)
+bool std::(anonymous namespace)::read_bom<char const, true, 3ul>(std::(anonymous namespace)::range<char const, true>&, unsigned char const (&) [3ul]) [clone .constprop.0]
+bool std::(anonymous namespace)::read_bom<char16_t const, false, 2ul>(std::(anonymous namespace)::range<char16_t const, false>&, unsigned char const (&) [2ul])
+bool std::(anonymous namespace)::read_bom<char8_t const, true, 3ul>(std::(anonymous namespace)::range<char8_t const, true>&, unsigned char const (&) [3ul]) [clone .constprop.0]
+bool std::(anonymous namespace)::write_utf16_bom<false>(std::(anonymous namespace)::range<char16_t, false>&, std::codecvt_mode)
+bool std::(anonymous namespace)::write_utf16_code_point<char16_t, false>(std::(anonymous namespace)::range<char16_t, false>&, char32_t, std::codecvt_mode)
+bool std::(anonymous namespace)::write_utf16_code_point<char16_t, true>(std::(anonymous namespace)::range<char16_t, true>&, char32_t, std::codecvt_mode) [clone .part.0]
+bool std::(anonymous namespace)::write_utf8_bom<char>(std::(anonymous namespace)::range<char, true>&, std::codecvt_mode) [clone .part.0]
+bool std::(anonymous namespace)::write_utf8_code_point<char8_t>(std::(anonymous namespace)::range<char8_t, true>&, char32_t)
+bool std::(anonymous namespace)::write_utf8_code_point<char>(std::(anonymous namespace)::range<char, true>&, char32_t)
+bool std::has_facet<std::__timepunct<char> >(std::locale const&)
+bool std::has_facet<std::__timepunct<wchar_t> >(std::locale const&)
+bool std::has_facet<std::codecvt<char, char, __mbstate_t> >(std::locale const&)
+bool std::has_facet<std::codecvt<wchar_t, char, __mbstate_t> >(std::locale const&)
+bool std::has_facet<std::collate<char> >(std::locale const&)
+bool std::has_facet<std::collate<wchar_t> >(std::locale const&)
+bool std::has_facet<std::ctype<char> >(std::locale const&)
+bool std::has_facet<std::ctype<wchar_t> >(std::locale const&)
+bool std::has_facet<std::messages<char> >(std::locale const&)
+bool std::has_facet<std::messages<wchar_t> >(std::locale const&)
+bool std::has_facet<std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > > >(std::locale const&)
+bool std::has_facet<std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > >(std::locale const&)
+bool std::has_facet<std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > > >(std::locale const&)
+bool std::has_facet<std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > >(std::locale const&)
+bool std::has_facet<std::moneypunct<char, false> >(std::locale const&)
+bool std::has_facet<std::moneypunct<wchar_t, false> >(std::locale const&)
+bool std::has_facet<std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > > >(std::locale const&)
+bool std::has_facet<std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > >(std::locale const&)
+bool std::has_facet<std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > > >(std::locale const&)
+bool std::has_facet<std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > >(std::locale const&)
+bool std::has_facet<std::numpunct<char> >(std::locale const&)
+bool std::has_facet<std::numpunct<wchar_t> >(std::locale const&)
+bool std::has_facet<std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > > >(std::locale const&)
+bool std::has_facet<std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > >(std::locale const&)
+bool std::has_facet<std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > > >(std::locale const&)
+bool std::has_facet<std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > > >(std::locale const&)
+boolean
+btowc
 cIntToHexDigit(int)
+call_gmon_start
+cannot create std::deque larger than max_size()
+char const* std::(anonymous namespace)::ucs4_span<char>(char const*, char const*, unsigned long, char32_t, std::codecvt_mode)
+char const* std::(anonymous namespace)::utf16_span<char>(char const*, char const*, unsigned long, char32_t, std::codecvt_mode)
+char* std::__add_grouping<char>(char*, char, char const*, unsigned long, char const*, char const*)
 char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
+char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char*, std::string> >(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
+char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag)
+char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) [clone .part.0]
 char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag)
+char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag) [clone .part.0]
+char16_t
+char32_t
+char32_t std::(anonymous namespace)::read_utf16_code_point<false>(std::(anonymous namespace)::range<char16_t const, false>&, unsigned long, std::codecvt_mode)
+char32_t std::(anonymous namespace)::read_utf8_code_point<char8_t>(std::(anonymous namespace)::range<char8_t const, true>&, unsigned long)
+char32_t std::(anonymous namespace)::read_utf8_code_point<char>(std::(anonymous namespace)::range<char const, true>&, unsigned long)
+char8_t
 chdir
+check_exception_spec(lsda_header_info*, std::type_info const*, void*, long)
 chmod
 classify_object_over_fdes
+cntrl
 collectComments
 commentStyle
 commentStyle must be 'All' or 'None'
-completed.6953
+completed.7953
+complex
 config
+const
+const_cast
+construction vtable for
+construction vtable for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
+construction vtable for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
+construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_ifstream<wchar_t, std::char_traits<wchar_t> >
+construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
+construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_istringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
+construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
+construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_ofstream<wchar_t, std::char_traits<wchar_t> >
+construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+construction vtable for std::iostream-in-std::basic_fstream<char, std::char_traits<char> >
+construction vtable for std::iostream-in-std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+construction vtable for std::istream-in-std::basic_fstream<char, std::char_traits<char> >
+construction vtable for std::istream-in-std::basic_ifstream<char, std::char_traits<char> >
+construction vtable for std::istream-in-std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+construction vtable for std::istream-in-std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+construction vtable for std::istream-in-std::iostream
+construction vtable for std::ostream-in-std::basic_fstream<char, std::char_traits<char> >
+construction vtable for std::ostream-in-std::basic_ofstream<char, std::char_traits<char> >
+construction vtable for std::ostream-in-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+construction vtable for std::ostream-in-std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+construction vtable for std::ostream-in-std::iostream
+covariant return thunk to
+cplus_demangle_builtin_types
+cplus_demangle_operators
+d_abi_tags
+d_append_buffer
+d_bare_function_type
+d_call_offset
+d_compact_number
+d_count_templates_scopes
+d_cv_qualifiers
+d_demangle_callback.constprop.0
+d_discriminator
+d_encoding
+d_expr_primary
+d_expression_1
+d_exprlist
+d_find_pack
+d_function_type
+d_growable_string_callback_adapter
+d_index_template_argument.part.0
+d_lookup_template_argument.isra.0
+d_make_comp
+d_maybe_print_fold_expression.isra.0
+d_name
+d_number.isra.0
+d_number_component
+d_operator_name
+d_parmlist
+d_print_array_type.isra.0
+d_print_comp
+d_print_comp_inner
+d_print_expr_op
+d_print_function_type.isra.0
+d_print_mod
+d_print_mod_list
+d_print_subexpr
+d_ref_qualifier
+d_source_name
+d_substitution
+d_template_arg
+d_template_args
+d_template_args_1
+d_template_param
+d_type
+d_type.cold
+d_unqualified_name
+decimal128
+decimal32
+decimal64
+decltype (
+decltype(auto)
+decltype(nullptr)
+delete
+delete[]
+deleted virtual method called
 deque::_M_new_elements_at_back
 deregister_tm_clones
+dgettext
+digit
 dl_iterate_phdr
 dladdr
 dlclose
 dlerror
 dlopen
 dlsym
+double
 dropNullPlaceholders
 dwarf_reg_size_table
+dynamic_cast
 enableYAMLCompatibility
 execute_cfa_program
+execute_cfa_program.cold
 execute_stack_op
+execute_stack_op.cold
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
 failIfExtra
@@ -1310,10 +1800,15 @@ fclose
 fde_mixed_encoding_compare
 fde_single_encoding_compare
 fde_unencoded_compare
+fdopen
+fflush
 file://
+fileno
+float
 fopen
+fopen64
 for detail.
-fprintf
+fputc
 fputs
 frame_downheap
 frame_dummy
@@ -1322,16 +1817,60 @@ frame_hdr_cache_head
 frame_heapsort
 fread
 fseek
+fseeko64
 ftell
+ftello64
 fwrite
+generic
+get_adjusted_ptr(std::type_info const*, std::type_info const*, void**)
 get_cie_encoding
+get_ttype_entry(lsda_header_info*, unsigned long)
+get_ttype_entry(lsda_header_info*, unsigned long) [clone .cold]
 getcwd
 getenv
+gettext
+getwc
+global constructors keyed to
+global destructors keyed to
+graph
+guard variable for
+guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
+guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
 guard variable for UTF16to8(wchar_t const*)::s_converter
 guard variable for UTF8to16(char const*)::s_converter
+guard variable for std::__timepunct<char>::id
+guard variable for std::__timepunct<wchar_t>::id
+guard variable for std::collate<char>::id
+guard variable for std::collate<wchar_t>::id
+guard variable for std::get_catalogs()::__catalogs
+guard variable for std::messages<char>::id
+guard variable for std::messages<wchar_t>::id
+guard variable for std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::moneypunct<char, false>::id
+guard variable for std::moneypunct<char, true>::id
+guard variable for std::moneypunct<wchar_t, false>::id
+guard variable for std::moneypunct<wchar_t, true>::id
+guard variable for std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::numpunct<char>::id
+guard variable for std::numpunct<wchar_t>::id
+guard variable for std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+hidden alias for
 http://
 https://
 iHexCharToInt(char)
+iconv
+iconv_close
+iconv_open
+imaginary
 in Json::Value::asCString(): requires stringValue
 in Json::Value::clear(): requires complex value
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
@@ -1349,320 +1888,31 @@ in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 indentation
 init_dwarf_reg_size_table
+int std::__int_to_char<char, unsigned long long>(char*, unsigned long long, char const*, std::_Ios_Fmtflags, bool)
+int std::__int_to_char<char, unsigned long>(char*, unsigned long, char const*, std::_Ios_Fmtflags, bool)
+int std::__int_to_char<wchar_t, unsigned long long>(wchar_t*, unsigned long long, wchar_t const*, std::_Ios_Fmtflags, bool)
+int std::__int_to_char<wchar_t, unsigned long>(wchar_t*, unsigned long, wchar_t const*, std::_Ios_Fmtflags, bool)
+ioctl
+ios_base::_M_grow_words allocation failed
+ios_base::_M_grow_words is not valid
+java Class for
+java resource
 jsonid
 keylength >= 2^30
 ld-linux-x86-64.so.2
-libGL.so.1
-libSDL2-2.0.so.0
 libc.so.6
 libdl.so.2
-libgomp.so.1
 libm.so.6
 libpthread.so.0
-librt.so.1
-libstdc++.so.6
-libz.so.1
 linear_search_fdes
 linux64
-malloc
-marker.8739
-memcmp
-memcpy
-memmove
-memset
-mkdir
-nfinity
-object_mutex
-once_regsizes.9114
-openvr
-openvr.component.vrserver
-openvrpaths.vrpath
-operator delete(void*)
-operator delete(void*, unsigned long)
-operator delete[](void*)
-operator delete[](void*, unsigned long)
-operator new(unsigned long)
-operator new[](unsigned long)
-precision
-pthread_mutex_lock
-pthread_mutex_unlock
-pthread_once
-read_encoded_value_with_base
-readlink
-register_tm_clones
-rejectDupKeys
-rename
-runtime
-scandir
-search_object
-seen_objects
-selectBuf
-setenv
-size_of_encoded_value
-snprintf
-sprintf
-sscanf
-stackDepth_g
-stackLimit
-std::_Deque_base<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_create_nodes(Json::OurReader::ErrorInfo**, Json::OurReader::ErrorInfo**) [clone .isra.104]
-std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_create_nodes(Json::Reader::ErrorInfo**, Json::Reader::ErrorInfo**) [clone .isra.87]
-std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_initialize_map(unsigned long)
-std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::_M_initialize_map(unsigned long)
-std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::~_Deque_base()
-std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_erase(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >*)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, Json::Value::CZString const&)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_get_insert_unique_pos(Json::Value::CZString const&)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::equal_range(Json::Value::CZString const&)
-std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::find(Json::Value::CZString const&)
-std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_erase(std::_Rb_tree_node<std::string>*)
-std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
-std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
-std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
-std::_Rb_tree_increment(std::_Rb_tree_node_base*)
-std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
-std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>&&, std::tuple<>&&)
-std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_insert_unique_<std::pair<Json::Value::CZString const, Json::Value>&, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, std::pair<Json::Value::CZString const, Json::Value>&, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node&)
-std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >* std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_copy<std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node>(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> > const*, std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >*, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node&)
-std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
-std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
-std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
-std::__codecvt_utf8_base<char32_t>::do_always_noconv() const
-std::__codecvt_utf8_base<char32_t>::do_encoding() const
-std::__codecvt_utf8_base<char32_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, char32_t*, char32_t*, char32_t*&) const
-std::__codecvt_utf8_base<char32_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
-std::__codecvt_utf8_base<char32_t>::do_max_length() const
-std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
-std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
-std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()
-std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const
-std::__codecvt_utf8_base<wchar_t>::do_encoding() const
-std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
-std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
-std::__codecvt_utf8_base<wchar_t>::do_max_length() const
-std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
-std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
-std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()
-std::__ioinit
-std::__throw_bad_alloc()
-std::__throw_bad_cast()
-std::__throw_bad_function_call()
-std::__throw_length_error(char const*)
-std::__throw_logic_error(char const*)
-std::__throw_out_of_range_fmt(char const*, ...)
-std::__throw_range_error(char const*)
-std::__throw_system_error(int)
-std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
-std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)
-std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_istringstream()
-std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::basic_ostringstream(std::_Ios_Openmode)
-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()
-std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, unsigned long, unsigned long)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_leak_hard()
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_mutate(unsigned long, unsigned long, unsigned long)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_replace_safe(unsigned long, unsigned long, wchar_t const*, unsigned long)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_M_destroy(std::allocator<wchar_t> const&)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_M_dispose(std::allocator<wchar_t> const&) [clone .part.10]
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_create(unsigned long, unsigned long, std::allocator<wchar_t> const&)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::allocator<wchar_t> const&)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
-std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::resize(unsigned long, wchar_t)
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned long, unsigned long)
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const
-std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
-std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
-std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
-std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
-std::ctype<char>::_M_widen_init() const
-std::ctype<char>::do_widen(char) const
-std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_default_append(unsigned long) [clone .part.153]
-std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_destroy_data_aux(std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>, std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>)
-std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_new_elements_at_back(unsigned long)
-std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_reallocate_map(unsigned long, bool)
-std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_default_append(unsigned long) [clone .part.151]
-std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_destroy_data_aux(std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>, std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>)
-std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_new_elements_at_back(unsigned long)
-std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_reallocate_map(unsigned long, bool)
-std::exception::~exception()
-std::ios_base::Init::Init()
-std::ios_base::Init::~Init()
-std::ios_base::ios_base()
-std::ios_base::~ios_base()
-std::istream& std::istream::_M_extract<double>(double&)
-std::locale::locale()
-std::locale::~locale()
-std::ostream::operator<<(int)
-std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*)
-std::pair<Json::Value::CZString const, Json::Value>::~pair()
-std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_insert_unique<std::string>(std::string&&)
-std::piecewise_construct
-std::string __gnu_cxx::__to_xstring<std::string, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...)
-std::string::_M_leak_hard()
-std::string::_M_mutate(unsigned long, unsigned long, unsigned long)
-std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long)
-std::string::_Rep::_M_destroy(std::allocator<char> const&)
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.0]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.1]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.2]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.5]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.7]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.8]
-std::string::_Rep::_M_dispose(std::allocator<char> const&) [clone .part.9]
-std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
-std::string::_Rep::_S_empty_rep_storage
-std::string::append(char const*, unsigned long)
-std::string::append(std::string const&)
-std::string::assign(char const*, unsigned long)
-std::string::assign(std::string const&)
-std::string::compare(char const*) const
-std::string::erase(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>)
-std::string::find_last_not_of(char const*, unsigned long, unsigned long) const
-std::string::insert(unsigned long, char const*, unsigned long)
-std::string::replace(unsigned long, unsigned long, char const*, unsigned long)
-std::string::reserve(unsigned long)
-std::string::resize(unsigned long, char)
-std::string::rfind(char, unsigned long) const
-std::string::swap(std::string&)
-std::vector<std::string, std::allocator<std::string> >::operator=(std::vector<std::string, std::allocator<std::string> > const&)
-std::vector<std::string, std::allocator<std::string> >::reserve(unsigned long)
-std::vector<std::string, std::allocator<std::string> >::~vector()
-std::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
-stderr
-strcasecmp
-strchr
-strcmp
-strcpy_safe(char*, unsigned long, char const*)
-stricmp(char const*, char const*)
-strictRoot
-strlen
-strncasecmp
-strncmp
-strncpy
-strnicmp(char const*, char const*, unsigned long)
-strpbrk
-strrchr
-strtol
-strtoull
-subs.9002
-terminator.8845
-tolower
-toupper
-typeinfo for Json::BuiltStyledStreamWriter
-typeinfo for Json::CharReader
-typeinfo for Json::CharReader::Factory
-typeinfo for Json::CharReaderBuilder
-typeinfo for Json::Exception
-typeinfo for Json::FastWriter
-typeinfo for Json::LogicError
-typeinfo for Json::OurCharReader
-typeinfo for Json::RuntimeError
-typeinfo for Json::StreamWriter
-typeinfo for Json::StreamWriter::Factory
-typeinfo for Json::StreamWriterBuilder
-typeinfo for Json::StyledWriter
-typeinfo for Json::Writer
-typeinfo for bool (*)(char)
-typeinfo for bool (char)
-typeinfo for std::__codecvt_utf8_base<char32_t>
-typeinfo for std::__codecvt_utf8_base<wchar_t>
-typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-typeinfo for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
-typeinfo for std::exception
-typeinfo name for Json::BuiltStyledStreamWriter
-typeinfo name for Json::CharReader
-typeinfo name for Json::CharReader::Factory
-typeinfo name for Json::CharReaderBuilder
-typeinfo name for Json::Exception
-typeinfo name for Json::FastWriter
-typeinfo name for Json::LogicError
-typeinfo name for Json::OurCharReader
-typeinfo name for Json::RuntimeError
-typeinfo name for Json::StreamWriter
-typeinfo name for Json::StreamWriter::Factory
-typeinfo name for Json::StreamWriterBuilder
-typeinfo name for Json::StyledWriter
-typeinfo name for Json::Writer
-typeinfo name for bool (*)(char)
-typeinfo name for bool (char)
-typeinfo name for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-typeinfo name for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
-unlink
-unseen_objects
-unsetenv
-useSpecialFloats
-uw_frame_state_for
-uw_init_context_1
-uw_install_context_1
-uw_update_context
-uw_update_context_1
-vector::_M_default_append
-vector::reserve
-version
-void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
-void std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_push_back_aux<Json::Reader::ErrorInfo const&>(Json::Reader::ErrorInfo const&)
-void std::deque<Json::Value*, std::allocator<Json::Value*> >::_M_push_back_aux<Json::Value*>(Json::Value*&&)
-void std::deque<Json::Value*, std::allocator<Json::Value*> >::emplace_back<Json::Value*>(Json::Value*&&)
-void std::vector<CAssertCallback*, std::allocator<CAssertCallback*> >::_M_emplace_back_aux<CAssertCallback* const&>(CAssertCallback* const&)
-void std::vector<CLogCallback*, std::allocator<CLogCallback*> >::_M_emplace_back_aux<CLogCallback* const&>(CLogCallback* const&)
-void std::vector<Json::OurReader::StructuredError, std::allocator<Json::OurReader::StructuredError> >::_M_emplace_back_aux<Json::OurReader::StructuredError const&>(Json::OurReader::StructuredError const&)
-void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> >::_M_emplace_back_aux<Json::PathArgument const*>(Json::PathArgument const*&&)
-void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> >::emplace_back<Json::PathArgument const*>(Json::PathArgument const*&&)
-void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::_M_emplace_back_aux<Json::PathArgument const&>(Json::PathArgument const&)
-void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::_M_emplace_back_aux<Json::PathArgument>(Json::PathArgument&&)
-void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::emplace_back<Json::PathArgument>(Json::PathArgument&&)
-void std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::StructuredError> >::_M_emplace_back_aux<Json::Reader::StructuredError const&>(Json::Reader::StructuredError const&)
-void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string const&>(std::string const&)
-void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string>(std::string&&)
-vr-input-workshop://
-vr::CleanupInternalInterfaces()
-vr::VR_LoadHmdSystemInternal()
-vr::g_mutexSystem
-vr::g_nVRToken
-vr::g_pHmdSystem
-vr::g_pLiquidVR
-vr::g_pVRControlPanel
-vr::g_pVRModule
-vr::g_pVRPaths
-vr::g_pVRVirtualDisplay
-vrclient Shared Lib Not Found (102)
-vrclient.so
-vrpathreg
-vrserver internal error (124)
-vsnprintf
-vtable for Json::BuiltStyledStreamWriter
-vtable for Json::CharReaderBuilder
-vtable for Json::Exception
-vtable for Json::FastWriter
-vtable for Json::LogicError
-vtable for Json::OurCharReader
-vtable for Json::RuntimeError
-vtable for Json::StreamWriter
-vtable for Json::StreamWriter::Factory
-vtable for Json::StreamWriterBuilder
-vtable for Json::StyledWriter
-vtable for Json::Writer
-vtable for __cxxabiv1::__class_type_info
-vtable for __cxxabiv1::__function_type_info
-vtable for __cxxabiv1::__pointer_type_info
-vtable for __cxxabiv1::__si_class_type_info
-vtable for std::basic_ios<char, std::char_traits<char> >
-vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_streambuf<char, std::char_traits<char> >
-vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
-wcslen
-wstring_convert::from_bytes
-wstring_convert::to_bytes
+locale::_Impl::_M_replace_facet
+locale::_S_normalize_category category not found
+locale::facet::_S_create_c_locale name not valid
+locale::facet::_S_lc_ctype_c_locale duplocale error
+locale::facet::_S_lc_ctype_c_locale newlocale error
+long double
+long long
+long std
+long std::__copy_streambufs<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*)
+long std::__copy_streambufs<wchar_t, std::char_traits<wchar_t> >(std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >*, std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >*)
