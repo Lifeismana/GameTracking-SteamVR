@@ -1786,43 +1786,4 @@ CChaperoneUniverse::FromJson(Json::Value const&)
 CChaperoneUniverse::GetPlayAreaSize(vr::HmdVector2_t*) const
 CChaperoneUniverse::GetSeatedOrigin(vr::HmdMatrix34_t*) const
 CChaperoneUniverse::GetSetupStandingOrigin(vr::HmdMatrix34_t*) const
-CChaperoneUniverse::GetStandingOrigin(vr::HmdMatrix34_t*) const
-CChaperoneUniverse::HasSaneTrackingOrigin() const
-CChaperoneUniverse::IsStandingOnly() const
-CChaperoneUniverse::SetRawTrackingFromOrigin(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const&)
-CChaperoneUniverse::SetSetupStandingOrigin(vr::HmdMatrix34_t const&)
-CChaperoneUniverse::ToJson() const
-CChaperoneUniverse::UpdateSaveTime()
-CChaperoneUniverse::WriteUniverseToPaths() const
-CChaperoneUniverse::~CChaperoneUniverse()
-CClientPropertyManager::BClientMode() const
-CCompositorPluginProvider::InitInternal(vr::IVRDriverContext*)
-CCompositorPluginProvider_Latest::Cleanup()
-CCompositorPluginProvider_Latest::GetComponent(char const*)
-CCompositorPluginProvider_Latest::GetInterfaceVersions()
-CCompositorPluginProvider_Latest::GetSourceVersion()
-CCompositorPluginProvider_Latest::Init(vr::IVRDriverContext*)
-CCompositorPluginProvider_Latest::~CCompositorPluginProvider_Latest()
-CCountedMutexWithLogCache::Log(char const*, ...)
-CDampedFloat::Update(float, float, float)
-CDampedVector::Reset(VectorAligned const&)
-CDampedVector::Update(VectorAligned const&, float, float)
-CDirIterator::BCurrentIsDir() const
-CDirIterator::BCurrentIsHidden() const
-CDirIterator::BCurrentIsMarkedForArchive() const
-CDirIterator::BCurrentIsReadOnly() const
-CDirIterator::BCurrentIsSystem() const
-CDirIterator::BNextFile()
-CDirIterator::BValidFilename()
-CDirIterator::CDirIterator(char const*, char const*)
-CDirIterator::CurrentFileCreateTime() const
-CDirIterator::CurrentFileLength() const
-CDirIterator::CurrentFileName[abi:cxx11]()
-CDirIterator::CurrentFileWriteTime() const
-CDirIterator::Init(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
-CDirIterator::IsValid() const
-CDirIterator::~CDirIterator()
-CDownsampleRenderer::Draw(vr::VRTextureBounds_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*, void*, bool, bool, unsigned int)
-CDownsampleRenderer::Draw(vr::VRTextureBounds_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*, void*, bool, bool, unsigned int)::s_flBeginTime
-CDownsampleRenderer::GrowResolveTextureIfNeeded(int, int)
-CDownsampleRenderer::GrowTempT
+CChaperoneUniverse::GetStandingOrigin(vr

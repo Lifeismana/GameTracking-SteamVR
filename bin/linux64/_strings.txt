@@ -179,6 +179,7 @@ $ttM9
 14CQOverlayImage
 15CQOverlayViewer
 15CVulkanRenderer
+19:42:57
 1D9&}@H)
 1OnBackgroundColor()
 1OnExitAction()
@@ -191,7 +192,6 @@ $ttM9
 1OnStatePollTimeout()
 1OnTableItemSelectionChanged()
 1e+9999
-22:02:00
 2ATUH
 2clicked()
 2itemSelectionChanged()
@@ -317,6 +317,7 @@ Alpha
 April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe
+Aug  8 2022
 August
 Auto Curve Distance Range
 B I9E @
@@ -685,7 +686,6 @@ InputValueVisibility_SteamVRInternal
 Invalid socket name parameters for shared fd
 JLuSUH
 January
-Jul 14 2022
 L$ H9
 L$ H;H
 L$(Hc
