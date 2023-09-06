@@ -163,9 +163,9 @@ $ttM9
 /tmp/.steam-sem-names
 /u%d-%s-ValveIPCSharedObj-SteamVR
 /u%d-Shm_%x
-00:49:22
 0123456789
 0123456789ABCDEF
+02:35:47
 0A\A]A^A_]
 0A\A]]
 0D9|$
@@ -197,7 +197,6 @@ $ttM9
 2timeout()
 2triggered()
 3333333
-7-*2~
 7H;U0
 8(tKL
 8[A\A]A^A_]
@@ -554,57 +553,54 @@ H9G0v
 H9p s
 H9r w
 H9s`t
-H;-em
+H;-Em
+H;-dm
 H;=!%
-H;="z
-H;=#H
 H;=#z
-H;=$1
-H;=$\	
+H;=$%
+H;=%x
 H;='U
-H;=+a
-H;=,5
-H;=/-
-H;=/R
-H;=/k
+H;=)m
+H;=,4
+H;=-%
+H;=.g
 H;=/}
-H;=4+
-H;=9o
-H;==0
+H;=1-
+H;=4	
+H;=8S	
 H;==K
 H;=>*
+H;=A`
+H;=BT
 H;=C+
-H;=D%
 H;=Dz
-H;=Ex
+H;=F%
 H;=Fd
 H;=I$
-H;=Im
 H;=Iz
-H;=L4
-H;=M%
-H;=Ng
-H;=Q-
+H;=M$
+H;=M*
+H;=M3
 H;=R&
 H;=SI
 H;=Sy
-H;=T	
+H;=TS	
 H;=V-
 H;=W%
 H;=WM
-H;=XS	
-H;=a`
-H;=bT
-H;=f%
+H;=WQ	
+H;=af
+H;=d/
 H;=f'
-H;=iz
-H;=m$
-H;=m*
-H;=m3
-H;=tS	
+H;=iP	
+H;=t#
+H;=t)
 H;=vY
-H;=wQ	
 H;=y!
+H;=z\
+H;=|F
+H;=}l
+H;=~w
 H;>t&H;z
 H;G0s0
 H;G0s0@
@@ -689,7 +685,6 @@ InputValueVisibility_Public
 InputValueVisibility_SteamVRInternal
 Invalid socket name parameters for shared fd
 JPuSUH
-Jan 10 2023
 January
 L$ H9
 L$ H;H
@@ -706,7 +701,7 @@ L9cXu
 L9t$xt
 L9t$xtrI
 L9|$x
-L;%Od
+L;%/d
 L;%\X
 L;%~X
 L;G t4L
@@ -750,6 +745,7 @@ M9}@@
 M9}@u	M
 MHt-H9
 Main Handle
+Mar  3 2023
 March
 Minidump comment truncated
 Missing ',' or ']' in array declaration
@@ -957,9 +953,13 @@ Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_SupportsAppThrottling_Bool
+Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
+Prop_Hmd_SupportsGpuBusMonitoring_Bool
 Prop_Hmd_SupportsHDCP14LegacyCompat_Bool
 Prop_Hmd_SupportsHDR10_Bool
 Prop_Hmd_SupportsMicMonitoring_Bool
+Prop_Hmd_SupportsRoomViewDirect_Bool
 Prop_IconPathName_String
 Prop_Identifiable_Bool
 Prop_ImageBridgeFirmwareVersion_Uint64
@@ -970,6 +970,8 @@ Prop_ImuFactoryGyroScale_Vector3
 Prop_ImuToHeadTransform_Matrix34
 Prop_InputProfilePath_String
 Prop_InstallPath_String
+Prop_IpdUIRangeMaxMeters_Float
+Prop_IpdUIRangeMinMeters_Float
 Prop_IsOnDesktop_Bool
 Prop_LensCenterLeftU_Float
 Prop_LensCenterLeftV_Float
@@ -1013,9 +1015,7 @@ Prop_SecondsFromVsyncToPhotons_Float
 Prop_SerialNumber_String
 Prop_StatusDisplayTransform_Matrix34
 Prop_SupportedButtons_Uint64
-Prop_SupportsAppThrottling_Bool
 Prop_SupportsRoomViewDepthProjection_Bool
-Prop_SupportsRoomViewDirect_Bool
 Prop_TrackingFirmwareVersion_String
 Prop_TrackingRangeMaximumMeters_Float
 Prop_TrackingRangeMinimumMeters_Float
@@ -8158,7 +8158,7 @@ terminate called without an active exception
 terminator.9976
 tgL9m
 th_th
-tjH;=#
+tjH;=
 tl_pLeafSharedState
 tl_pWatchdog
 tolower
