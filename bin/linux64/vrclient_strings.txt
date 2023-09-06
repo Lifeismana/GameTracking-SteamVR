@@ -1506,6 +1506,7 @@ $0rpc $1(.$2) returns (.$3)
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19InMemoryInputStream
 1e+9999
+20:47:10
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -1570,7 +1571,6 @@ $0rpc $1(.$2) returns (.$3)
 22IVRDisplayComponent001
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
-23:09:50
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -2237,4 +2237,55 @@ Binding missing required "name" member
 Binding missing required "type" member
 Binding path for haptic action %s could not be read: %s
 Binding path for haptic action %s resulted in property type tag %u instead of %u
-BindingAutosaveSettin
+BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory)
+BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingCurrentKey(std::string const&, EActionBindingCategory)
+BindingCurrentKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingNeedUploadKey(std::string const&, EActionBindingCategory)
+BindingNeedUploadKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingPreviousKey(std::string const&, EActionBindingCategory)
+BindingPreviousKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingURIToFileId(std::string const&)
+BindingURIToFileId(std::string const&) [clone .cold]
+Bindings from OpenXR
+BlankEyeBuffer
+BlockQueueHeaderMutex_
+BlockQueueHeader_
+BlockQueueInterfaceRegistration<CVRBlockQueue_001>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_001>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_002>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_002>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_003>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_003>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_004>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_004>::~BlockQueueInterfaceRegistration()
+Boolean default must be true or false.
+Bootstrapper init
+BorrowResource
+Bucket: size:%zu timeline:%s
+Bucket: size:%zu timeline:none
+Buffer
+BufferView
+BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&)
+BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&) [clone .cold]
+BuildFadeGridMessage(float, bool)
+BuildFadeGridMessage(float, bool) [clone .cold]
+BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
+BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
+BuildMatTextureDetails(float (*) [4][4], vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
+C.1831.365271
+C.1834.365282
+C.413.288424
+CActionBindi
+CActionBinding::CActionBinding(CActionBinding const&)
+CActionBinding::FromJson(Json::Value const&, std::string*)
+CActionBinding::FromJson(Json::Value const&, std::string*) [clone .cold]
+CActionBinding::~CActionBinding()
+CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*)
+CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*) [clone .cold]
+CActionBindingConfig::HasControllerType(std::string const&) const
+CActionBindingConfig::~CActionBindingConfig()
+CActionBindingConfigGenerator::AddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, std::string, bool)
+CActionBindingConfigGenerator::AddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, std::string, bool) [clone .cold]
+CActionBindingConfigGenerator::AddBindingForSlot(Mode_t&, ModeSlot_t&, std::vector<std::string, std::allocator<std::string> > const&)
