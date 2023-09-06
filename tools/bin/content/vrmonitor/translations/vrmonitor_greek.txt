@@ -1456,23 +1456,3 @@
 "[english]WorkshopUpload_Visibility"	"Visibility"
 "[english]WorkshopUpload_Visibility_FriendsOnly"	"Friends Only"
 "[english]WorkshopUpload_Visibility_Private"	"Private"
-"[english]WorkshopUpload_Visibility_Public"	"Public"
-"lang"
-.</b></html>"
-.\n\n
-.\n\n- 
-.\n\n2. 
-.\n\n3. 
-: %1 (%2 
-: %1 (%2%)\n"
-: %1 (%2)"
-: %1"
-: %1%\n"
-: %1\n"
-: %1s\n"
-\n  %1 
-\n %3 2 
-\n %4 3 
-\n %5 4 
-\n\n"
-t quite hooked up yet. If the error you are trying to diagnose persists, please visit the <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>SteamVR Developer Forums</a> for help."
