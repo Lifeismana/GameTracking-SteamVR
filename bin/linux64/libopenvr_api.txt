@@ -1811,3 +1811,117 @@
  t _GLOBAL__sub_I_openvr_api_headers.cpp
  t _GLOBAL__sub_I_strtools_public.cpp
  t _GLOBAL__sub_I_system_error.cc
+ t _GLOBAL__sub_I_wlocale_inst.cc
+ t _Unwind_Backtrace
+ t _Unwind_DebugHook
+ t _Unwind_DeleteException
+ t _Unwind_FindEnclosingFunction
+ t _Unwind_Find_FDE
+ t _Unwind_ForcedUnwind
+ t _Unwind_ForcedUnwind_Phase2
+ t _Unwind_GetCFA
+ t _Unwind_GetDataRelBase
+ t _Unwind_GetGR
+ t _Unwind_GetGR.cold
+ t _Unwind_GetIP
+ t _Unwind_GetIPInfo
+ t _Unwind_GetLanguageSpecificData
+ t _Unwind_GetRegionStart
+ t _Unwind_GetTextRelBase
+ t _Unwind_IteratePhdrCallback
+ t _Unwind_IteratePhdrCallback.cold
+ t _Unwind_RaiseException
+ t _Unwind_RaiseException_Phase2
+ t _Unwind_RaiseException_Phase2.cold
+ t _Unwind_Resume
+ t _Unwind_Resume.cold
+ t _Unwind_Resume_or_Rethrow
+ t _Unwind_Resume_or_Rethrow.cold
+ t _Unwind_SetGR
+ t _Unwind_SetGR.cold
+ t _Unwind_SetIP
+ t __cxa_call_unexpected.cold
+ t __cxa_guard_acquire.cold
+ t __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+ t __cxxabiv1::__class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+ t __cxxabiv1::__class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+ t __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+ t __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+ t __cxxabiv1::__class_type_info::~__class_type_info()
+ t __cxxabiv1::__forced_unwind::~__forced_unwind()
+ t __cxxabiv1::__foreign_exception::~__foreign_exception()
+ t __cxxabiv1::__function_type_info::__is_function_p() const
+ t __cxxabiv1::__function_type_info::~__function_type_info()
+ t __cxxabiv1::__fundamental_type_info::~__fundamental_type_info()
+ t __cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+ t __cxxabiv1::__pbase_type_info::__pointer_catch(__cxxabiv1::__pbase_type_info const*, void**, unsigned int) const
+ t __cxxabiv1::__pbase_type_info::~__pbase_type_info()
+ t __cxxabiv1::__pointer_to_member_type_info::__pointer_catch(__cxxabiv1::__pbase_type_info const*, void**, unsigned int) const
+ t __cxxabiv1::__pointer_to_member_type_info::~__pointer_to_member_type_info()
+ t __cxxabiv1::__pointer_type_info::__is_pointer_p() const
+ t __cxxabiv1::__pointer_type_info::__pointer_catch(__cxxabiv1::__pbase_type_info const*, void**, unsigned int) const
+ t __cxxabiv1::__pointer_type_info::~__pointer_type_info()
+ t __cxxabiv1::__si_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+ t __cxxabiv1::__si_class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+ t __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+ t __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+ t __cxxabiv1::__terminate(void (*)())
+ t __cxxabiv1::__terminate(void (*)()) [clone .cold]
+ t __cxxabiv1::__unexpected(void (*)())
+ t __cxxabiv1::__vmi_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+ t __cxxabiv1::__vmi_class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+ t __cxxabiv1::__vmi_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+ t __cxxabiv1::__vmi_class_type_info::~__vmi_class_type_info()
+ t __deregister_frame
+ t __deregister_frame_info
+ t __deregister_frame_info_bases
+ t __do_global_dtors_aux
+ t __frame_state_for
+ t __gnu_cxx::__concat_size_t(char*, unsigned long, unsigned long)
+ t __gnu_cxx::__concurrence_lock_error::what() const
+ t __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+ t __gnu_cxx::__concurrence_unlock_error::what() const
+ t __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+ t __gnu_cxx::__freeres()
+ t __gnu_cxx::__scoped_lock::~__scoped_lock()
+ t __gnu_cxx::__snprintf_lite(char*, unsigned long, char const*, __va_list_tag*)
+ t __gnu_cxx::__throw_concurrence_lock_error()
+ t __gnu_cxx::__throw_insufficient_space(char const*, char const*)
+ t __gnu_cxx::__verbose_terminate_handler()
+ t __gnu_cxx::__verbose_terminate_handler() [clone .cold]
+ t __gnu_cxx::recursive_init_error::recursive_init_error()
+ t __gnu_cxx::recursive_init_error::~recursive_init_error()
+ t __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::fd()
+ t __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::file()
+ t __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::stdio_filebuf()
+ t __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::stdio_filebuf(_IO_FILE*, std::_Ios_Openmode, unsigned long)
+ t __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::stdio_filebuf(int, std::_Ios_Openmode, unsigned long)
+ t __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::swap(__gnu_cxx::stdio_filebuf<char, std::char_traits<char> >&)
+ t __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >::~stdio_filebuf()
+ t __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::fd()
+ t __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::file()
+ t __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::stdio_filebuf()
+ t __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::stdio_filebuf(_IO_FILE*, std::_Ios_Openmode, unsigned long)
+ t __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::stdio_filebuf(int, std::_Ios_Openmode, unsigned long)
+ t __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::swap(__gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >&)
+ t __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >::~stdio_filebuf()
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::file()
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::operator=(__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >&&)
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::overflow(int)
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::pbackfail(int)
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::seekoff(long, std::_Ios_Seekdir, std::_Ios_Openmode)
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::seekpos(std::fpos<__mbstate_t>, std::_Ios_Openmode)
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::stdio_sync_filebuf(_IO_FILE*)
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::stdio_sync_filebuf(__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >&&)
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::swap(__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >&)
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::sync()
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::uflow()
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow()
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::xsgetn(char*, long)
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::xsputn(char const*, long)
+ t __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::~stdio_sync_filebuf()
+ t __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::file()
+ t __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::operator=(__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >&&)
+ t __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::overflow(unsigned int)
+ t __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::pbackfail(unsigned int)
+ t __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >::seekoff(long, std::_Ios_Seek

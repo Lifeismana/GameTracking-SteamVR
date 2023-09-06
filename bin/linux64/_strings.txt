@@ -164,7 +164,6 @@ $ttM9
 /tmp/.steam-sem-names
 /u%d-%s-ValveIPCSharedObj-SteamVR
 /u%d-Shm_%x
-00:04:21
 0123456789
 0123456789ABCDEF
 0A\A]A^A_]
@@ -192,6 +191,7 @@ $ttM9
 1OnStatePollTimeout()
 1OnTableItemSelectionChanged()
 1e+9999
+20:45:15
 2ATUH
 2clicked()
 2itemSelectionChanged()
