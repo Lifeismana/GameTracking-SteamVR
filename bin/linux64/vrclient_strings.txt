@@ -292,6 +292,7 @@ $0rpc $1(.$2) returns (.$3)
 %s: failed to submit frame to composition client
 %s: failed to submit graphics command
 %s: failed to submit graphics work
+%s: failed to submit texture set info %d error=%s
 %s: failed to tessellate %s
 %s: failed to wait for a timeline signal
 %s: failed to wait for semaphore
@@ -303,7 +304,9 @@ $0rpc $1(.$2) returns (.$3)
 %s: high priority compute requested, but %s is missing
 %s: id mismatch when registering client resources
 %s: incompatible vulkan version requested
+%s: index %d out of range %d
 %s: index required (size=%d)
+%s: invalid count %d
 %s: invalid device
 %s: invalid frame stage: %s
 %s: invalid instance
@@ -332,6 +335,7 @@ $0rpc $1(.$2) returns (.$3)
 %s: pre-submit failed
 %s: prism process not found
 %s: state %d must be set via CImage::Transition only
+%s: texture set not specified
 %s: too many verts; aborting
 %s: unknown vulkan message severity
 %s: unsupported graphics binding type: %d
@@ -1304,6 +1308,7 @@ $0rpc $1(.$2) returns (.$3)
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:08:37
 0123456789
 0123456789ABCDEF
 0123456789abcdef
@@ -1476,7 +1481,6 @@ $0rpc $1(.$2) returns (.$3)
 18CVRScreenshots_001
 18CVRSharedGLTexture
 18XrHandTrackerEXT_T
-19:49:13
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -2237,4 +2241,53 @@ Binding missing required "name" member
 Binding missing required "type" member
 Binding path for haptic action %s could not be read: %s
 Binding path for haptic action %s resulted in property type tag %u instead of %u
-BindingAutosaveSettin
+BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory)
+BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingCurrentKey(std::string const&, EActionBindingCategory)
+BindingCurrentKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingNeedUploadKey(std::string const&, EActionBindingCategory)
+BindingNeedUploadKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingPreviousKey(std::string const&, EActionBindingCategory)
+BindingPreviousKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingURIToFileId(std::string const&)
+BindingURIToFileId(std::string const&) [clone .cold]
+Bindings from OpenXR
+BlankEyeBuffer
+BlockQueueHeaderMutex_
+BlockQueueHeader_
+BlockQueueInterfaceRegistration<CVRBlockQueue_001>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_001>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_002>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_002>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_003>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_003>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_004>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_004>::~BlockQueueInterfaceRegistration()
+Boolean default must be true or false.
+Bootstrapper init
+BorrowResource
+Bucket: size:%zu timeline:%s
+Bucket: size:%zu timeline:none
+Buffer
+BufferView
+BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&)
+BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&) [clone .cold]
+BuildFadeGridMessage(float, bool)
+BuildFadeGridMessage(float, bool) [clone .cold]
+BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
+BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
+BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
+C.1831.365398
+C.1834.365409
+C.413.288424
+CActionBinding::CActionBinding(CActionBinding const&)
+CActionBinding::FromJson(Json::Value const&, std::string*)
+CActionBinding::FromJson(Json::Value const&, std::string*) [clone .cold]
+CActionBinding::~CActionBinding()
+CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*)
+CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*) [clone .cold]
+CActionBindingConfig::HasControllerType(std::string const&) const
+CActionBindingConfig::~CActionBindingConfig()
+CActionBindingConfigGenerator::AddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, std::string, bool)
+CActionBindingConfigGenerator::AddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, std::string, bool) [clone
