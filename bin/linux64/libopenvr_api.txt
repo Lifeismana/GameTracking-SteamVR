@@ -1,8 +1,6 @@
- B __bss_start
- B _edata
- B _end
- B std::codecvt<char16_t, char8_t, __mbstate_t>::id
- B std::codecvt<char32_t, char8_t, __mbstate_t>::id
+ D __bss_start
+ D _edata
+ D _end
  T LiquidVR
  T VRControlPanel
  T VRPaths
@@ -20,366 +18,34 @@
  T VR_IsRuntimeInstalled
  T VR_RuntimePath
  T VR_ShutdownInternal
- T __cxa_allocate_dependent_exception
- T __cxa_allocate_exception
- T __cxa_bad_cast
- T __cxa_bad_typeid
- T __cxa_begin_catch
- T __cxa_call_terminate
- T __cxa_call_unexpected
- T __cxa_current_exception_type
- T __cxa_deleted_virtual
- T __cxa_demangle
- T __cxa_end_catch
- T __cxa_free_dependent_exception
- T __cxa_free_exception
- T __cxa_get_exception_ptr
- T __cxa_get_globals
- T __cxa_get_globals_fast
- T __cxa_guard_abort
- T __cxa_guard_acquire
- T __cxa_guard_release
- T __cxa_init_primary_exception
- T __cxa_pure_virtual
- T __cxa_rethrow
- T __cxa_throw
- T __cxa_throw_bad_array_new_length
- T __dynamic_cast
- T __gcclibcxx_demangle_callback
- T __gxx_personality_v0
- T _fini
- T _init
- T _txnal_cow_string_C1_for_exceptions(void*, char const*, void*)
- T _txnal_cow_string_D1(void*)
- T _txnal_cow_string_D1_commit(void*)
- T _txnal_cow_string_c_str(void const*)
- T _txnal_logic_error_get_msg(void*)
- T _txnal_runtime_error_get_msg(void*)
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_always_noconv() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_encoding() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char16_t*, char16_t*, char16_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_max_length() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::~codecvt()
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_always_noconv() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_encoding() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char32_t*, char32_t*, char32_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_max_length() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::~codecvt()
- V typeinfo for __cxxabiv1::__class_type_info
- V typeinfo for __cxxabiv1::__forced_unwind
- V typeinfo for __cxxabiv1::__foreign_exception
- V typeinfo for __cxxabiv1::__function_type_info
- V typeinfo for __cxxabiv1::__fundamental_type_info
- V typeinfo for __cxxabiv1::__pbase_type_info
- V typeinfo for __cxxabiv1::__pointer_to_member_type_info
- V typeinfo for __cxxabiv1::__pointer_type_info
- V typeinfo for __cxxabiv1::__si_class_type_info
- V typeinfo for __cxxabiv1::__vmi_class_type_info
- V typeinfo for __float128
- V typeinfo for __float128 const*
- V typeinfo for __float128*
- V typeinfo for __gnu_cxx::__concurrence_lock_error
- V typeinfo for __gnu_cxx::__concurrence_unlock_error
- V typeinfo for __gnu_cxx::recursive_init_error
- V typeinfo for __int128
- V typeinfo for __int128 const*
- V typeinfo for __int128*
- V typeinfo for bool
  V typeinfo for bool (*)(char)
  V typeinfo for bool (char)
- V typeinfo for bool const*
- V typeinfo for bool*
- V typeinfo for char
- V typeinfo for char const*
- V typeinfo for char*
- V typeinfo for char16_t
- V typeinfo for char16_t const*
- V typeinfo for char16_t*
- V typeinfo for char32_t
- V typeinfo for char32_t const*
- V typeinfo for char32_t*
- V typeinfo for char8_t
- V typeinfo for char8_t const*
- V typeinfo for char8_t*
- V typeinfo for decimal128
- V typeinfo for decimal128 const*
- V typeinfo for decimal128*
- V typeinfo for decimal32
- V typeinfo for decimal32 const*
- V typeinfo for decimal32*
- V typeinfo for decimal64
- V typeinfo for decimal64 const*
- V typeinfo for decimal64*
- V typeinfo for decltype(nullptr)
- V typeinfo for decltype(nullptr) const*
- V typeinfo for decltype(nullptr)*
- V typeinfo for double
- V typeinfo for double const*
- V typeinfo for double*
- V typeinfo for float
- V typeinfo for float const*
- V typeinfo for float*
- V typeinfo for int
- V typeinfo for int const*
- V typeinfo for int*
- V typeinfo for long
- V typeinfo for long const*
- V typeinfo for long double
- V typeinfo for long double const*
- V typeinfo for long double*
- V typeinfo for long long
- V typeinfo for long long const*
- V typeinfo for long long*
- V typeinfo for long*
- V typeinfo for short
- V typeinfo for short const*
- V typeinfo for short*
- V typeinfo for signed char
- V typeinfo for signed char const*
- V typeinfo for signed char*
- V typeinfo for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V typeinfo for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V typeinfo for std::codecvt<char16_t, char8_t, __mbstate_t>
- V typeinfo for std::codecvt<char32_t, char8_t, __mbstate_t>
- V typeinfo for unsigned __int128
- V typeinfo for unsigned __int128 const*
- V typeinfo for unsigned __int128*
- V typeinfo for unsigned char
- V typeinfo for unsigned char const*
- V typeinfo for unsigned char*
- V typeinfo for unsigned int
- V typeinfo for unsigned int const*
- V typeinfo for unsigned int*
- V typeinfo for unsigned long
- V typeinfo for unsigned long const*
- V typeinfo for unsigned long long
- V typeinfo for unsigned long long const*
- V typeinfo for unsigned long long*
- V typeinfo for unsigned long*
- V typeinfo for unsigned short
- V typeinfo for unsigned short const*
- V typeinfo for unsigned short*
- V typeinfo for void
- V typeinfo for void const*
- V typeinfo for void*
- V typeinfo for wchar_t
- V typeinfo for wchar_t const*
- V typeinfo for wchar_t*
- V typeinfo name for __cxxabiv1::__class_type_info
- V typeinfo name for __cxxabiv1::__forced_unwind
- V typeinfo name for __cxxabiv1::__foreign_exception
- V typeinfo name for __cxxabiv1::__function_type_info
- V typeinfo name for __cxxabiv1::__fundamental_type_info
- V typeinfo name for __cxxabiv1::__pbase_type_info
- V typeinfo name for __cxxabiv1::__pointer_to_member_type_info
- V typeinfo name for __cxxabiv1::__pointer_type_info
- V typeinfo name for __cxxabiv1::__si_class_type_info
- V typeinfo name for __cxxabiv1::__vmi_class_type_info
- V typeinfo name for __float128
- V typeinfo name for __float128 const*
- V typeinfo name for __float128*
- V typeinfo name for __gnu_cxx::__concurrence_lock_error
- V typeinfo name for __gnu_cxx::__concurrence_unlock_error
- V typeinfo name for __gnu_cxx::recursive_init_error
- V typeinfo name for __int128
- V typeinfo name for __int128 const*
- V typeinfo name for __int128*
- V typeinfo name for bool
  V typeinfo name for bool (*)(char)
  V typeinfo name for bool (char)
- V typeinfo name for bool const*
- V typeinfo name for bool*
- V typeinfo name for char
- V typeinfo name for char const*
- V typeinfo name for char*
- V typeinfo name for char16_t
- V typeinfo name for char16_t const*
- V typeinfo name for char16_t*
- V typeinfo name for char32_t
- V typeinfo name for char32_t const*
- V typeinfo name for char32_t*
- V typeinfo name for char8_t
- V typeinfo name for char8_t const*
- V typeinfo name for char8_t*
- V typeinfo name for decimal128
- V typeinfo name for decimal128 const*
- V typeinfo name for decimal128*
- V typeinfo name for decimal32
- V typeinfo name for decimal32 const*
- V typeinfo name for decimal32*
- V typeinfo name for decimal64
- V typeinfo name for decimal64 const*
- V typeinfo name for decimal64*
- V typeinfo name for decltype(nullptr)
- V typeinfo name for decltype(nullptr) const*
- V typeinfo name for decltype(nullptr)*
- V typeinfo name for double
- V typeinfo name for double const*
- V typeinfo name for double*
- V typeinfo name for float
- V typeinfo name for float const*
- V typeinfo name for float*
- V typeinfo name for int
- V typeinfo name for int const*
- V typeinfo name for int*
- V typeinfo name for long
- V typeinfo name for long const*
- V typeinfo name for long double
- V typeinfo name for long double const*
- V typeinfo name for long double*
- V typeinfo name for long long
- V typeinfo name for long long const*
- V typeinfo name for long long*
- V typeinfo name for long*
- V typeinfo name for short
- V typeinfo name for short const*
- V typeinfo name for short*
- V typeinfo name for signed char
- V typeinfo name for signed char const*
- V typeinfo name for signed char*
- V typeinfo name for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V typeinfo name for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V typeinfo name for std::codecvt<char16_t, char8_t, __mbstate_t>
- V typeinfo name for std::codecvt<char32_t, char8_t, __mbstate_t>
- V typeinfo name for unsigned __int128
- V typeinfo name for unsigned __int128 const*
- V typeinfo name for unsigned __int128*
- V typeinfo name for unsigned char
- V typeinfo name for unsigned char const*
- V typeinfo name for unsigned char*
- V typeinfo name for unsigned int
- V typeinfo name for unsigned int const*
- V typeinfo name for unsigned int*
- V typeinfo name for unsigned long
- V typeinfo name for unsigned long const*
- V typeinfo name for unsigned long long
- V typeinfo name for unsigned long long const*
- V typeinfo name for unsigned long long*
- V typeinfo name for unsigned long*
- V typeinfo name for unsigned short
- V typeinfo name for unsigned short const*
- V typeinfo name for unsigned short*
- V typeinfo name for void
- V typeinfo name for void const*
- V typeinfo name for void*
- V typeinfo name for wchar_t
- V typeinfo name for wchar_t const*
- V typeinfo name for wchar_t*
- V vtable for __cxxabiv1::__class_type_info
- V vtable for __cxxabiv1::__forced_unwind
- V vtable for __cxxabiv1::__foreign_exception
- V vtable for __cxxabiv1::__function_type_info
- V vtable for __cxxabiv1::__fundamental_type_info
- V vtable for __cxxabiv1::__pbase_type_info
- V vtable for __cxxabiv1::__pointer_to_member_type_info
- V vtable for __cxxabiv1::__pointer_type_info
- V vtable for __cxxabiv1::__si_class_type_info
- V vtable for __cxxabiv1::__vmi_class_type_info
- V vtable for __gnu_cxx::__concurrence_lock_error
- V vtable for __gnu_cxx::__concurrence_unlock_error
- V vtable for __gnu_cxx::recursive_init_error
- V vtable for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V vtable for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V vtable for std::codecvt<char16_t, char8_t, __mbstate_t>
- V vtable for std::codecvt<char32_t, char8_t, __mbstate_t>
- _ITM_RU1
- _ITM_RU8
- _ITM_addUserCommitAction
+ VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+ VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
  _ITM_deregisterTMCloneTable
- _ITM_memcpyRnWt
- _ITM_memcpyRtWn
  _ITM_registerTMCloneTable
- __ctype_get_mb_cur_max
+ __cxa_allocate_exception
  __cxa_atexit
+ __cxa_begin_catch
+ __cxa_end_catch
  __cxa_finalize
- __duplocale
+ __cxa_free_exception
+ __cxa_guard_abort
+ __cxa_guard_acquire
+ __cxa_guard_release
+ __cxa_pure_virtual
+ __cxa_rethrow
+ __cxa_throw
  __errno_location
- __fprintf_chk
- __freelocale
- __fxstat64
  __gmon_start__
- __iswctype_l
- __memcpy_chk
- __newlocale
- __nl_langinfo_l
+ __gxx_personality_v0
+ __isoc99_sscanf
  __pthread_key_create
- __snprintf_chk
- __sprintf_chk
- __stack_chk_fail
- __strcoll_l
- __strftime_l
- __strtod_l
- __strtof_l
- __strxfrm_l
- __tls_get_addr
- __towlower_l
- __towupper_l
- __uselocale
- __vsnprintf_chk
- __wcscoll_l
- __wcsftime_l
- __wcsxfrm_l
- __wctype_l
  __xstat
  abort
  alphasort
- b (anonymous namespace)::__new_handler
- b (anonymous namespace)::c_locale
- b (anonymous namespace)::c_locale_impl
- b (anonymous namespace)::cache_vec
- b (anonymous namespace)::codecvt_c
- b (anonymous namespace)::codecvt_c16
- b (anonymous namespace)::codecvt_c16_c8
- b (anonymous namespace)::codecvt_c32
- b (anonymous namespace)::codecvt_c32_c8
- b (anonymous namespace)::codecvt_w
- b (anonymous namespace)::collate_c
- b (anonymous namespace)::collate_w
- b (anonymous namespace)::ctype_c
- b (anonymous namespace)::ctype_w
- b (anonymous namespace)::emergency_pool
- b (anonymous namespace)::facet_vec
- b (anonymous namespace)::get_global()::global
- b (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
- b (anonymous namespace)::get_locale_mutex()::locale_mutex
- b (anonymous namespace)::messages_c
- b (anonymous namespace)::messages_w
- b (anonymous namespace)::money_get_c
- b (anonymous namespace)::money_get_w
- b (anonymous namespace)::money_put_c
- b (anonymous namespace)::money_put_w
- b (anonymous namespace)::moneypunct_cache_cf
- b (anonymous namespace)::moneypunct_cache_ct
- b (anonymous namespace)::moneypunct_cache_wf
- b (anonymous namespace)::moneypunct_cache_wt
- b (anonymous namespace)::moneypunct_cf
- b (anonymous namespace)::moneypunct_ct
- b (anonymous namespace)::moneypunct_wf
- b (anonymous namespace)::moneypunct_wt
- b (anonymous namespace)::name_c
- b (anonymous namespace)::name_vec
- b (anonymous namespace)::num_get_c
- b (anonymous namespace)::num_get_w
- b (anonymous namespace)::num_put_c
- b (anonymous namespace)::num_put_w
- b (anonymous namespace)::numpunct_c
- b (anonymous namespace)::numpunct_cache_c
- b (anonymous namespace)::numpunct_cache_w
- b (anonymous namespace)::numpunct_w
- b (anonymous namespace)::time_get_c
- b (anonymous namespace)::time_get_w
- b (anonymous namespace)::time_put_c
- b (anonymous namespace)::time_put_w
- b (anonymous namespace)::timepunct_c
- b (anonymous namespace)::timepunct_cache_c
- b (anonymous namespace)::timepunct_cache_w
- b (anonymous namespace)::timepunct_w
  b CAssert::m_mutex
  b CAssert::m_pInstance
  b CLog::s_mutex
@@ -388,110 +54,21 @@
  b UTF16to8(wchar_t const*)::s_converter
  b UTF8to16(char const*)::s_converter
  b VR_RuntimePath::rchBuffer
- b __gnu_cxx::__verbose_terminate_handler()::terminating
- b __gnu_internal::buf_cerr
- b __gnu_internal::buf_cerr_sync
- b __gnu_internal::buf_cin
- b __gnu_internal::buf_cin_sync
- b __gnu_internal::buf_cout
- b __gnu_internal::buf_cout_sync
- b __gnu_internal::buf_wcerr
- b __gnu_internal::buf_wcerr_sync
- b __gnu_internal::buf_wcin
- b __gnu_internal::buf_wcin_sync
- b __gnu_internal::buf_wcout
- b __gnu_internal::buf_wcout_sync
  b any_objects_registered
- b completed.7953
+ b completed.0
  b dwarf_reg_size_table
  b frame_hdr_cache
  b frame_hdr_cache_head
- b guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
- b guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
  b guard variable for UTF16to8(wchar_t const*)::s_converter
  b guard variable for UTF8to16(char const*)::s_converter
- b guard variable for std::__timepunct<char>::id
- b guard variable for std::__timepunct<wchar_t>::id
- b guard variable for std::collate<char>::id
- b guard variable for std::collate<wchar_t>::id
- b guard variable for std::get_catalogs()::__catalogs
- b guard variable for std::messages<char>::id
- b guard variable for std::messages<wchar_t>::id
- b guard variable for std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
- b guard variable for std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b guard variable for std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
- b guard variable for std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b guard variable for std::moneypunct<char, false>::id
- b guard variable for std::moneypunct<char, true>::id
- b guard variable for std::moneypunct<wchar_t, false>::id
- b guard variable for std::moneypunct<wchar_t, true>::id
- b guard variable for std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
- b guard variable for std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b guard variable for std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
- b guard variable for std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b guard variable for std::numpunct<char>::id
- b guard variable for std::numpunct<wchar_t>::id
- b guard variable for std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
- b guard variable for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b guard variable for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
- b guard variable for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b marker.9870
+ b marker.4
  b object_mutex
- b once_regsizes.10235
+ b once_regsizes.0
  b seen_objects
  b selectBuf
  b stackDepth_g
  b std::__ioinit
- b std::__timepunct<char>::id
- b std::__timepunct<wchar_t>::id
- b std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
- b std::cerr
- b std::cin
- b std::clog
- b std::codecvt<char, char, __mbstate_t>::id
- b std::codecvt<char16_t, char, __mbstate_t>::id
- b std::codecvt<char32_t, char, __mbstate_t>::id
- b std::codecvt<wchar_t, char, __mbstate_t>::id
- b std::collate<char>::id
- b std::collate<wchar_t>::id
- b std::cout
- b std::ctype<char>::id
- b std::ctype<wchar_t>::id
- b std::get_catalogs()::__catalogs
- b std::ios_base::Init::_S_refcount
- b std::ios_base::xalloc()::_S_top
- b std::locale::_S_classic
- b std::locale::_S_global
- b std::locale::_S_once
- b std::locale::facet::_S_c_locale
- b std::locale::facet::_S_once
- b std::locale::id::_S_refcount
- b std::messages<char>::id
- b std::messages<wchar_t>::id
- b std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
- b std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
- b std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b std::moneypunct<char, false>::id
- b std::moneypunct<char, true>::id
- b std::moneypunct<wchar_t, false>::id
- b std::moneypunct<wchar_t, true>::id
- b std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
- b std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
- b std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b std::numpunct<char>::id
- b std::numpunct<wchar_t>::id
- b std::string::_Rep::_S_empty_rep_storage
- b std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
- b std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
- b std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
- b std::wcerr
- b std::wcin
- b std::wclog
- b std::wcout
- b subs.10133
+ b subs.2
  b unseen_objects
  b vr::g_nVRToken
  b vr::g_pHmdSystem
@@ -500,91 +77,20 @@
  b vr::g_pVRModule
  b vr::g_pVRPaths
  b vr::g_pVRVirtualDisplay
- bind_textdomain_codeset
- bindtextdomain
- btowc
  chdir
  chmod
- d (anonymous namespace)::generic_category_instance
- d (anonymous namespace)::system_category_instance
- d DW.ref._ZTIN10__cxxabiv115__forced_unwindE
- d DW.ref._ZTISt9exception
  d DW.ref.__gxx_personality_v0
  d Json::Value::null
  d Json::Value::nullRef
  d Json::kNullRef
- d VTT for std::basic_fstream<char, std::char_traits<char> >
- d VTT for std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
- d VTT for std::basic_ifstream<char, std::char_traits<char> >
- d VTT for std::basic_ifstream<wchar_t, std::char_traits<wchar_t> >
- d VTT for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
- d VTT for std::basic_istream<wchar_t, std::char_traits<wchar_t> >
- d VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
- d VTT for std::basic_istringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d VTT for std::basic_ofstream<char, std::char_traits<char> >
- d VTT for std::basic_ofstream<wchar_t, std::char_traits<wchar_t> >
- d VTT for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >
- d VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
- d VTT for std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
- d VTT for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d VTT for std::iostream
- d VTT for std::istream
- d VTT for std::ostream
  d _DYNAMIC
  d _GLOBAL_OFFSET_TABLE_
  d __TMC_END__
  d __TMC_LIST__
- d __cxxabiv1::__terminate_handler
- d __cxxabiv1::__unexpected_handler
  d __do_global_dtors_aux_fini_array_entry
  d __dso_handle
  d __frame_dummy_init_array_entry
- d __gnu_cxx::category_names
- d adds.10132
- d construction vtable for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
- d construction vtable for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
- d construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_ifstream<wchar_t, std::char_traits<wchar_t> >
- d construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
- d construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_istringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
- d construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
- d construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_ofstream<wchar_t, std::char_traits<wchar_t> >
- d construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d construction vtable for std::iostream-in-std::basic_fstream<char, std::char_traits<char> >
- d construction vtable for std::iostream-in-std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
- d construction vtable for std::istream-in-std::basic_fstream<char, std::char_traits<char> >
- d construction vtable for std::istream-in-std::basic_ifstream<char, std::char_traits<char> >
- d construction vtable for std::istream-in-std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
- d construction vtable for std::istream-in-std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
- d construction vtable for std::istream-in-std::iostream
- d construction vtable for std::ostream-in-std::basic_fstream<char, std::char_traits<char> >
- d construction vtable for std::ostream-in-std::basic_ofstream<char, std::char_traits<char> >
- d construction vtable for std::ostream-in-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
- d construction vtable for std::ostream-in-std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
- d construction vtable for std::ostream-in-std::iostream
- d cplus_demangle_builtin_types
- d cplus_demangle_operators
- d standard_subs
- d std::__num_base::_S_atoms_in
- d std::__num_base::_S_atoms_out
- d std::__timepunct_cache<char>::_S_timezones
- d std::__timepunct_cache<wchar_t>::_S_timezones
- d std::ios_base::Init::_S_synced_with_stdio
- d std::locale::_Impl::_S_facet_categories
- d std::locale::_Impl::_S_id_collate
- d std::locale::_Impl::_S_id_ctype
- d std::locale::_Impl::_S_id_messages
- d std::locale::_Impl::_S_id_monetary
- d std::locale::_Impl::_S_id_numeric
- d std::locale::_Impl::_S_id_time
- d std::locale::_S_categories
- d std::money_base::_S_atoms
- d typeinfo for (anonymous namespace)::generic_error_category
- d typeinfo for (anonymous namespace)::system_error_category
+ d adds.1
  d typeinfo for Json::BuiltStyledStreamWriter
  d typeinfo for Json::CharReader
  d typeinfo for Json::CharReader::Factory
@@ -599,139 +105,9 @@
  d typeinfo for Json::StreamWriterBuilder
  d typeinfo for Json::StyledWriter
  d typeinfo for Json::Writer
- d typeinfo for __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >
- d typeinfo for __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >
- d typeinfo for __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >
- d typeinfo for __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >
- d typeinfo for std::_V2::error_category
- d typeinfo for std::__codecvt_abstract_base<char, char, __mbstate_t>
- d typeinfo for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
- d typeinfo for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
- d typeinfo for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
- d typeinfo for std::__codecvt_utf16_base<char16_t>
- d typeinfo for std::__codecvt_utf16_base<char32_t>
- d typeinfo for std::__codecvt_utf16_base<wchar_t>
- d typeinfo for std::__codecvt_utf8_base<char16_t>
- d typeinfo for std::__codecvt_utf8_base<char32_t>
- d typeinfo for std::__codecvt_utf8_base<wchar_t>
- d typeinfo for std::__codecvt_utf8_utf16_base<char16_t>
- d typeinfo for std::__codecvt_utf8_utf16_base<char32_t>
- d typeinfo for std::__codecvt_utf8_utf16_base<wchar_t>
- d typeinfo for std::__ctype_abstract_base<char>
- d typeinfo for std::__ctype_abstract_base<wchar_t>
- d typeinfo for std::__moneypunct_cache<char, false>
- d typeinfo for std::__moneypunct_cache<char, true>
- d typeinfo for std::__moneypunct_cache<wchar_t, false>
- d typeinfo for std::__moneypunct_cache<wchar_t, true>
- d typeinfo for std::__numpunct_cache<char>
- d typeinfo for std::__numpunct_cache<wchar_t>
- d typeinfo for std::__timepunct<char>
- d typeinfo for std::__timepunct<wchar_t>
- d typeinfo for std::__timepunct_cache<char>
- d typeinfo for std::__timepunct_cache<wchar_t>
- d typeinfo for std::bad_alloc
- d typeinfo for std::bad_array_new_length
- d typeinfo for std::bad_cast
- d typeinfo for std::bad_exception
- d typeinfo for std::bad_function_call
- d typeinfo for std::bad_typeid
- d typeinfo for std::basic_filebuf<char, std::char_traits<char> >
- d typeinfo for std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >
- d typeinfo for std::basic_fstream<char, std::char_traits<char> >
- d typeinfo for std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
- d typeinfo for std::basic_ifstream<char, std::char_traits<char> >
- d typeinfo for std::basic_ifstream<wchar_t, std::char_traits<wchar_t> >
- d typeinfo for std::basic_ios<char, std::char_traits<char> >
- d typeinfo for std::basic_ios<wchar_t, std::char_traits<wchar_t> >
- d typeinfo for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
- d typeinfo for std::basic_istream<wchar_t, std::char_traits<wchar_t> >
- d typeinfo for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
- d typeinfo for std::basic_istringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d typeinfo for std::basic_ofstream<char, std::char_traits<char> >
- d typeinfo for std::basic_ofstream<wchar_t, std::char_traits<wchar_t> >
- d typeinfo for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >
- d typeinfo for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
- d typeinfo for std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d typeinfo for std::basic_streambuf<char, std::char_traits<char> >
- d typeinfo for std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >
- d typeinfo for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
- d typeinfo for std::basic_stringbuf<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d typeinfo for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
- d typeinfo for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d typeinfo for std::codecvt<char, char, __mbstate_t>
- d typeinfo for std::codecvt<char16_t, char, __mbstate_t>
- d typeinfo for std::codecvt<char32_t, char, __mbstate_t>
- d typeinfo for std::codecvt<wchar_t, char, __mbstate_t>
- d typeinfo for std::codecvt_base
- d typeinfo for std::codecvt_byname<char, char, __mbstate_t>
- d typeinfo for std::codecvt_byname<wchar_t, char, __mbstate_t>
  d typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
  d typeinfo for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
- d typeinfo for std::collate<char>
- d typeinfo for std::collate<wchar_t>
- d typeinfo for std::collate_byname<char>
- d typeinfo for std::collate_byname<wchar_t>
- d typeinfo for std::ctype<char>
- d typeinfo for std::ctype<wchar_t>
- d typeinfo for std::ctype_base
- d typeinfo for std::ctype_byname<char>
- d typeinfo for std::ctype_byname<wchar_t>
- d typeinfo for std::domain_error
- d typeinfo for std::exception
- d typeinfo for std::invalid_argument
- d typeinfo for std::ios_base
- d typeinfo for std::ios_base::failure
- d typeinfo for std::iostream
- d typeinfo for std::istream
- d typeinfo for std::length_error
- d typeinfo for std::locale::facet
- d typeinfo for std::logic_error
- d typeinfo for std::messages<char>
- d typeinfo for std::messages<wchar_t>
- d typeinfo for std::messages_base
- d typeinfo for std::messages_byname<char>
- d typeinfo for std::messages_byname<wchar_t>
- d typeinfo for std::money_base
- d typeinfo for std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- d typeinfo for std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d typeinfo for std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- d typeinfo for std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d typeinfo for std::moneypunct<char, false>
- d typeinfo for std::moneypunct<char, true>
- d typeinfo for std::moneypunct<wchar_t, false>
- d typeinfo for std::moneypunct<wchar_t, true>
- d typeinfo for std::moneypunct_byname<char, false>
- d typeinfo for std::moneypunct_byname<char, true>
- d typeinfo for std::moneypunct_byname<wchar_t, false>
- d typeinfo for std::moneypunct_byname<wchar_t, true>
- d typeinfo for std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- d typeinfo for std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d typeinfo for std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- d typeinfo for std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d typeinfo for std::numpunct<char>
- d typeinfo for std::numpunct<wchar_t>
- d typeinfo for std::numpunct_byname<char>
- d typeinfo for std::numpunct_byname<wchar_t>
- d typeinfo for std::ostream
- d typeinfo for std::out_of_range
- d typeinfo for std::overflow_error
- d typeinfo for std::range_error
- d typeinfo for std::runtime_error
- d typeinfo for std::system_error
- d typeinfo for std::time_base
- d typeinfo for std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- d typeinfo for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d typeinfo for std::time_get_byname<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- d typeinfo for std::time_get_byname<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d typeinfo for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- d typeinfo for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d typeinfo for std::time_put_byname<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- d typeinfo for std::time_put_byname<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d typeinfo for std::type_info
- d typeinfo for std::underflow_error
  d vr::g_mutexSystem
- d vtable for (anonymous namespace)::generic_error_category
- d vtable for (anonymous namespace)::system_error_category
  d vtable for Json::BuiltStyledStreamWriter
  d vtable for Json::CharReaderBuilder
  d vtable for Json::Exception
@@ -744,132 +120,8 @@
  d vtable for Json::StreamWriterBuilder
  d vtable for Json::StyledWriter
  d vtable for Json::Writer
- d vtable for __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >
- d vtable for __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >
- d vtable for __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >
- d vtable for __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >
- d vtable for std::_V2::error_category
- d vtable for std::__codecvt_abstract_base<char, char, __mbstate_t>
- d vtable for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
- d vtable for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
- d vtable for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
- d vtable for std::__codecvt_utf16_base<char16_t>
- d vtable for std::__codecvt_utf16_base<char32_t>
- d vtable for std::__codecvt_utf16_base<wchar_t>
- d vtable for std::__codecvt_utf8_base<char16_t>
- d vtable for std::__codecvt_utf8_base<char32_t>
- d vtable for std::__codecvt_utf8_base<wchar_t>
- d vtable for std::__codecvt_utf8_utf16_base<char16_t>
- d vtable for std::__codecvt_utf8_utf16_base<char32_t>
- d vtable for std::__codecvt_utf8_utf16_base<wchar_t>
- d vtable for std::__ctype_abstract_base<char>
- d vtable for std::__ctype_abstract_base<wchar_t>
- d vtable for std::__moneypunct_cache<char, false>
- d vtable for std::__moneypunct_cache<char, true>
- d vtable for std::__moneypunct_cache<wchar_t, false>
- d vtable for std::__moneypunct_cache<wchar_t, true>
- d vtable for std::__numpunct_cache<char>
- d vtable for std::__numpunct_cache<wchar_t>
- d vtable for std::__timepunct<char>
- d vtable for std::__timepunct<wchar_t>
- d vtable for std::__timepunct_cache<char>
- d vtable for std::__timepunct_cache<wchar_t>
- d vtable for std::bad_alloc
- d vtable for std::bad_array_new_length
- d vtable for std::bad_cast
- d vtable for std::bad_exception
- d vtable for std::bad_function_call
- d vtable for std::bad_typeid
- d vtable for std::basic_filebuf<char, std::char_traits<char> >
- d vtable for std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >
- d vtable for std::basic_fstream<char, std::char_traits<char> >
- d vtable for std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
- d vtable for std::basic_ifstream<char, std::char_traits<char> >
- d vtable for std::basic_ifstream<wchar_t, std::char_traits<wchar_t> >
- d vtable for std::basic_ios<char, std::char_traits<char> >
- d vtable for std::basic_ios<wchar_t, std::char_traits<wchar_t> >
- d vtable for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
- d vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >
- d vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
- d vtable for std::basic_istringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d vtable for std::basic_ofstream<char, std::char_traits<char> >
- d vtable for std::basic_ofstream<wchar_t, std::char_traits<wchar_t> >
- d vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >
- d vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
- d vtable for std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d vtable for std::basic_streambuf<char, std::char_traits<char> >
- d vtable for std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >
- d vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
- d vtable for std::basic_stringbuf<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
- d vtable for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- d vtable for std::codecvt<char, char, __mbstate_t>
- d vtable for std::codecvt<char16_t, char, __mbstate_t>
- d vtable for std::codecvt<char32_t, char, __mbstate_t>
- d vtable for std::codecvt<wchar_t, char, __mbstate_t>
- d vtable for std::codecvt_byname<char, char, __mbstate_t>
- d vtable for std::codecvt_byname<wchar_t, char, __mbstate_t>
  d vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
  d vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
- d vtable for std::collate<char>
- d vtable for std::collate<wchar_t>
- d vtable for std::collate_byname<char>
- d vtable for std::collate_byname<wchar_t>
- d vtable for std::ctype<char>
- d vtable for std::ctype<wchar_t>
- d vtable for std::ctype_byname<char>
- d vtable for std::ctype_byname<wchar_t>
- d vtable for std::domain_error
- d vtable for std::exception
- d vtable for std::invalid_argument
- d vtable for std::ios_base
- d vtable for std::ios_base::failure
- d vtable for std::iostream
- d vtable for std::istream
- d vtable for std::length_error
- d vtable for std::locale::facet
- d vtable for std::logic_error
- d vtable for std::messages<char>
- d vtable for std::messages<wchar_t>
- d vtable for std::messages_byname<char>
- d vtable for std::messages_byname<wchar_t>
- d vtable for std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- d vtable for std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d vtable for std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- d vtable for std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d vtable for std::moneypunct<char, false>
- d vtable for std::moneypunct<char, true>
- d vtable for std::moneypunct<wchar_t, false>
- d vtable for std::moneypunct<wchar_t, true>
- d vtable for std::moneypunct_byname<char, false>
- d vtable for std::moneypunct_byname<char, true>
- d vtable for std::moneypunct_byname<wchar_t, false>
- d vtable for std::moneypunct_byname<wchar_t, true>
- d vtable for std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- d vtable for std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d vtable for std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- d vtable for std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d vtable for std::numpunct<char>
- d vtable for std::numpunct<wchar_t>
- d vtable for std::numpunct_byname<char>
- d vtable for std::numpunct_byname<wchar_t>
- d vtable for std::ostream
- d vtable for std::out_of_range
- d vtable for std::overflow_error
- d vtable for std::range_error
- d vtable for std::runtime_error
- d vtable for std::system_error
- d vtable for std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- d vtable for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d vtable for std::time_get_byname<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- d vtable for std::time_get_byname<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d vtable for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- d vtable for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d vtable for std::time_put_byname<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- d vtable for std::time_put_byname<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- d vtable for std::type_info
- d vtable for std::underflow_error
- dgettext
  dl_iterate_phdr
  dladdr
  dlclose
@@ -877,48 +129,31 @@
  dlopen
  dlsym
  fclose
- fdopen
- fflush
- fileno
  fopen
- fopen64
- fputc
+ fprintf
  fputs
  fread
  free
  fseek
- fseeko64
  ftell
- ftello64
  fwrite
- getc
  getcwd
  getenv
- gettext
- getwc
- iconv
- iconv_close
- iconv_open
- ioctl
- lseek64
  malloc
- mbrtowc
- mbsnrtowcs
- mbsrtowcs
- memchr
  memcmp
  memcpy
  memmove
  memset
  mkdir
  modf
- poll
+ operator delete(void*, unsigned long)
+ operator delete[](void*)
+ operator delete[](void*, unsigned long)
+ operator new(unsigned long)
+ operator new[](unsigned long)
  pthread_mutex_lock
  pthread_mutex_unlock
  pthread_once
- putc
- putwc
- r CSWTCH.100
  r Json::Value::maxInt
  r Json::Value::maxInt64
  r Json::Value::maxLargestInt
@@ -930,83 +165,8 @@
  r Json::Value::minLargestInt
  r Json::kNull
  r __FRAME_END__
- r __cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const::pm
- r __cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const::pmf
- r std::(anonymous namespace)::utf16_bom
- r std::(anonymous namespace)::utf16le_bom
- r std::(anonymous namespace)::utf8_bom
- r std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_max_size
- r std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_terminal
- r std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::npos
- r std::ctype<char>::table_size
- r std::ctype_base::alnum
- r std::ctype_base::alpha
- r std::ctype_base::blank
- r std::ctype_base::cntrl
- r std::ctype_base::digit
- r std::ctype_base::graph
- r std::ctype_base::lower
- r std::ctype_base::print
- r std::ctype_base::punct
- r std::ctype_base::space
- r std::ctype_base::upper
- r std::ctype_base::xdigit
- r std::ios_base::adjustfield
- r std::ios_base::app
- r std::ios_base::ate
- r std::ios_base::badbit
- r std::ios_base::basefield
- r std::ios_base::beg
- r std::ios_base::binary
- r std::ios_base::boolalpha
- r std::ios_base::cur
- r std::ios_base::dec
- r std::ios_base::end
- r std::ios_base::eofbit
- r std::ios_base::failbit
- r std::ios_base::fixed
- r std::ios_base::floatfield
- r std::ios_base::goodbit
- r std::ios_base::hex
- r std::ios_base::in
- r std::ios_base::internal
- r std::ios_base::left
- r std::ios_base::oct
- r std::ios_base::out
- r std::ios_base::right
- r std::ios_base::scientific
- r std::ios_base::showbase
- r std::ios_base::showpoint
- r std::ios_base::showpos
- r std::ios_base::skipws
- r std::ios_base::trunc
- r std::ios_base::unitbuf
- r std::ios_base::uppercase
- r std::locale::all
- r std::locale::collate
- r std::locale::ctype
- r std::locale::facet::_S_c_name
- r std::locale::messages
- r std::locale::monetary
- r std::locale::none
- r std::locale::numeric
- r std::locale::time
- r std::money_base::_S_default_pattern
- r std::moneypunct<char, false>::intl
- r std::moneypunct<char, true>::intl
- r std::moneypunct<wchar_t, false>::intl
- r std::moneypunct<wchar_t, true>::intl
- r std::moneypunct_byname<char, false>::intl
- r std::moneypunct_byname<char, true>::intl
- r std::moneypunct_byname<wchar_t, false>::intl
- r std::moneypunct_byname<wchar_t, true>::intl
- r std::nothrow
- r std::string::_Rep::_S_max_size
- r std::string::_Rep::_S_terminal
- r std::string::npos
- r terminator.9976
- r typeinfo name for (anonymous namespace)::generic_error_category
- r typeinfo name for (anonymous namespace)::system_error_category
+ r std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int)::__digits
+ r terminator.3
  r typeinfo name for Json::BuiltStyledStreamWriter
  r typeinfo name for Json::CharReader
  r typeinfo name for Json::CharReader::Factory
@@ -1021,154 +181,98 @@
  r typeinfo name for Json::StreamWriterBuilder
  r typeinfo name for Json::StyledWriter
  r typeinfo name for Json::Writer
- r typeinfo name for __gnu_cxx::stdio_filebuf<char, std::char_traits<char> >
- r typeinfo name for __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >
- r typeinfo name for __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >
- r typeinfo name for __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >
- r typeinfo name for std::_V2::error_category
- r typeinfo name for std::__codecvt_abstract_base<char, char, __mbstate_t>
- r typeinfo name for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
- r typeinfo name for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
- r typeinfo name for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
- r typeinfo name for std::__codecvt_utf16_base<char16_t>
- r typeinfo name for std::__codecvt_utf16_base<char32_t>
- r typeinfo name for std::__codecvt_utf16_base<wchar_t>
- r typeinfo name for std::__codecvt_utf8_base<char16_t>
- r typeinfo name for std::__codecvt_utf8_base<char32_t>
- r typeinfo name for std::__codecvt_utf8_base<wchar_t>
- r typeinfo name for std::__codecvt_utf8_utf16_base<char16_t>
- r typeinfo name for std::__codecvt_utf8_utf16_base<char32_t>
- r typeinfo name for std::__codecvt_utf8_utf16_base<wchar_t>
- r typeinfo name for std::__ctype_abstract_base<char>
- r typeinfo name for std::__ctype_abstract_base<wchar_t>
- r typeinfo name for std::__moneypunct_cache<char, false>
- r typeinfo name for std::__moneypunct_cache<char, true>
- r typeinfo name for std::__moneypunct_cache<wchar_t, false>
- r typeinfo name for std::__moneypunct_cache<wchar_t, true>
- r typeinfo name for std::__numpunct_cache<char>
- r typeinfo name for std::__numpunct_cache<wchar_t>
- r typeinfo name for std::__timepunct<char>
- r typeinfo name for std::__timepunct<wchar_t>
- r typeinfo name for std::__timepunct_cache<char>
- r typeinfo name for std::__timepunct_cache<wchar_t>
- r typeinfo name for std::bad_alloc
- r typeinfo name for std::bad_array_new_length
- r typeinfo name for std::bad_cast
- r typeinfo name for std::bad_exception
- r typeinfo name for std::bad_function_call
- r typeinfo name for std::bad_typeid
- r typeinfo name for std::basic_filebuf<char, std::char_traits<char> >
- r typeinfo name for std::basic_filebuf<wchar_t, std::char_traits<wchar_t> >
- r typeinfo name for std::basic_fstream<char, std::char_traits<char> >
- r typeinfo name for std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
- r typeinfo name for std::basic_ifstream<char, std::char_traits<char> >
- r typeinfo name for std::basic_ifstream<wchar_t, std::char_traits<wchar_t> >
- r typeinfo name for std::basic_ios<char, std::char_traits<char> >
- r typeinfo name for std::basic_ios<wchar_t, std::char_traits<wchar_t> >
- r typeinfo name for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
- r typeinfo name for std::basic_istream<wchar_t, std::char_traits<wchar_t> >
- r typeinfo name for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
- r typeinfo name for std::basic_istringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- r typeinfo name for std::basic_ofstream<char, std::char_traits<char> >
- r typeinfo name for std::basic_ofstream<wchar_t, std::char_traits<wchar_t> >
- r typeinfo name for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >
- r typeinfo name for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
- r typeinfo name for std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- r typeinfo name for std::basic_streambuf<char, std::char_traits<char> >
- r typeinfo name for std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >
- r typeinfo name for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
- r typeinfo name for std::basic_stringbuf<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- r typeinfo name for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
- r typeinfo name for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
- r typeinfo name for std::codecvt<char, char, __mbstate_t>
- r typeinfo name for std::codecvt<char16_t, char, __mbstate_t>
- r typeinfo name for std::codecvt<char32_t, char, __mbstate_t>
- r typeinfo name for std::codecvt<wchar_t, char, __mbstate_t>
- r typeinfo name for std::codecvt_base
- r typeinfo name for std::codecvt_byname<char, char, __mbstate_t>
- r typeinfo name for std::codecvt_byname<wchar_t, char, __mbstate_t>
  r typeinfo name for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
  r typeinfo name for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
- r typeinfo name for std::collate<char>
- r typeinfo name for std::collate<wchar_t>
- r typeinfo name for std::collate_byname<char>
- r typeinfo name for std::collate_byname<wchar_t>
- r typeinfo name for std::ctype<char>
- r typeinfo name for std::ctype<wchar_t>
- r typeinfo name for std::ctype_base
- r typeinfo name for std::ctype_byname<char>
- r typeinfo name for std::ctype_byname<wchar_t>
- r typeinfo name for std::domain_error
- r typeinfo name for std::exception
- r typeinfo name for std::invalid_argument
- r typeinfo name for std::ios_base
- r typeinfo name for std::ios_base::failure
- r typeinfo name for std::iostream
- r typeinfo name for std::istream
- r typeinfo name for std::length_error
- r typeinfo name for std::locale::facet
- r typeinfo name for std::logic_error
- r typeinfo name for std::messages<char>
- r typeinfo name for std::messages<wchar_t>
- r typeinfo name for std::messages_base
- r typeinfo name for std::messages_byname<char>
- r typeinfo name for std::messages_byname<wchar_t>
- r typeinfo name for std::money_base
- r typeinfo name for std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- r typeinfo name for std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- r typeinfo name for std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- r typeinfo name for std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- r typeinfo name for std::moneypunct<char, false>
- r typeinfo name for std::moneypunct<char, true>
- r typeinfo name for std::moneypunct<wchar_t, false>
- r typeinfo name for std::moneypunct<wchar_t, true>
- r typeinfo name for std::moneypunct_byname<char, false>
- r typeinfo name for std::moneypunct_byname<char, true>
- r typeinfo name for std::moneypunct_byname<wchar_t, false>
- r typeinfo name for std::moneypunct_byname<wchar_t, true>
- r typeinfo name for std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- r typeinfo name for std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- r typeinfo name for std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- r typeinfo name for std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- r typeinfo name for std::numpunct<char>
- r typeinfo name for std::numpunct<wchar_t>
- r typeinfo name for std::numpunct_byname<char>
- r typeinfo name for std::numpunct_byname<wchar_t>
- r typeinfo name for std::ostream
- r typeinfo name for std::out_of_range
- r typeinfo name for std::overflow_error
- r typeinfo name for std::range_error
- r typeinfo name for std::runtime_error
- r typeinfo name for std::system_error
- r typeinfo name for std::time_base
- r typeinfo name for std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- r typeinfo name for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- r typeinfo name for std::time_get_byname<char, std::istreambuf_iterator<char, std::char_traits<char> > >
- r typeinfo name for std::time_get_byname<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- r typeinfo name for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- r typeinfo name for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- r typeinfo name for std::time_put_byname<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
- r typeinfo name for std::time_put_byname<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
- r typeinfo name for std::type_info
- r typeinfo name for std::underflow_error
- read
  readlink
- realloc
  rename
  scandir
  setenv
- setlocale
- setvbuf
  snprintf
- sscanf
+ sprintf
+ std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
+ std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+ std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
+ std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+ std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+ std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+ std::__codecvt_utf8_base<char32_t>::do_always_noconv() const
+ std::__codecvt_utf8_base<char32_t>::do_encoding() const
+ std::__codecvt_utf8_base<char32_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, char32_t*, char32_t*, char32_t*&) const
+ std::__codecvt_utf8_base<char32_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
+ std::__codecvt_utf8_base<char32_t>::do_max_length() const
+ std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
+ std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+ std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()
+ std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const
+ std::__codecvt_utf8_base<wchar_t>::do_encoding() const
+ std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
+ std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
+ std::__codecvt_utf8_base<wchar_t>::do_max_length() const
+ std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+ std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+ std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()
+ std::__throw_bad_alloc()
+ std::__throw_bad_cast()
+ std::__throw_bad_function_call()
+ std::__throw_length_error(char const*)
+ std::__throw_logic_error(char const*)
+ std::__throw_out_of_range_fmt(char const*, ...)
+ std::__throw_range_error(char const*)
+ std::__throw_system_error(int)
+ std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
+ std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)
+ std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_istringstream()
+ std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
+ std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()
+ std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
+ std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::allocator<char> const&)
+ std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
+ std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&, unsigned long, unsigned long)
+ std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(unsigned long, char, std::allocator<char> const&)
+ std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+ std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_leak_hard()
+ std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_M_destroy(std::allocator<wchar_t> const&)
+ std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
+ std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::allocator<wchar_t> const&)
+ std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
+ std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::resize(unsigned long, wchar_t)
+ std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_string()
+ std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned long, unsigned long)
+ std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
+ std::ctype<char>::_M_widen_init() const
+ std::exception::~exception()
+ std::ios_base::Init::Init()
+ std::ios_base::Init::~Init()
+ std::ios_base::ios_base()
+ std::ios_base::~ios_base()
+ std::istream& std::istream::_M_extract<double>(double&)
+ std::locale::locale()
+ std::locale::~locale()
+ std::ostream::operator<<(int)
+ std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char> >*)
+ std::string::_M_leak_hard()
+ std::string::_M_mutate(unsigned long, unsigned long, unsigned long)
+ std::string::_Rep::_M_destroy(std::allocator<char> const&)
+ std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
+ std::string::_Rep::_S_empty_rep_storage
+ std::string::append(char const*)
+ std::string::append(char const*, unsigned long)
+ std::string::append(std::string const&)
+ std::string::assign(char const*, unsigned long)
+ std::string::assign(std::string const&)
+ std::string::compare(char const*) const
+ std::string::erase(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>)
+ std::string::find_last_not_of(char const*, unsigned long, unsigned long) const
+ std::string::insert(unsigned long, char const*, unsigned long)
+ std::string::replace(unsigned long, unsigned long, char const*, unsigned long)
+ std::string::reserve(unsigned long)
+ std::string::resize(unsigned long, char)
+ std::string::rfind(char, unsigned long) const
+ std::string::swap(std::string&)
  stderr
- stdin
- stdout
  strcasecmp
  strchr
  strcmp
- strdup
- strerror
  strlen
  strncasecmp
  strncmp
@@ -1176,23 +280,7 @@
  strpbrk
  strrchr
  strtol
- strtold_l
  strtoull
- syscall
- t (anonymous namespace)::fopen_mode(std::_Ios_Openmode)
- t (anonymous namespace)::generic_error_category::message(int) const
- t (anonymous namespace)::generic_error_category::name() const
- t (anonymous namespace)::generic_error_category::~generic_error_category()
- t (anonymous namespace)::get_locale_mutex()
- t (anonymous namespace)::pool::allocate(unsigned long) [clone .constprop.0]
- t (anonymous namespace)::pool::allocate(unsigned long) [clone .constprop.0] [clone .cold]
- t (anonymous namespace)::pool::free(void*) [clone .constprop.0]
- t (anonymous namespace)::pool::free(void*) [clone .constprop.0] [clone .cold]
- t (anonymous namespace)::system_error_category::default_error_condition(int) const
- t (anonymous namespace)::system_error_category::message(int) const
- t (anonymous namespace)::system_error_category::name() const
- t (anonymous namespace)::system_error_category::~system_error_category()
- t (anonymous namespace)::xwrite(int, char const*, long)
  t BCreateDirectory(char const*)
  t BCreateDirectoryRecursive(char const*)
  t BCreateDirectoryRecursive(char const*) [clone .cold]
@@ -1284,7 +372,6 @@
  t Json::BuiltStyledStreamWriter::writeCommentBeforeValue(Json::Value const&)
  t Json::BuiltStyledStreamWriter::writeCommentBeforeValue(Json::Value const&) [clone .cold]
  t Json::BuiltStyledStreamWriter::writeIndent()
- t Json::BuiltStyledStreamWriter::writeIndent() [clone .part.0]
  t Json::BuiltStyledStreamWriter::writeValue(Json::Value const&)
  t Json::BuiltStyledStreamWriter::writeValue(Json::Value const&) [clone .cold]
  t Json::BuiltStyledStreamWriter::writeWithIndent(std::string const&)
@@ -1317,6 +404,7 @@
  t Json::Features::all()
  t Json::Features::strictMode()
  t Json::LogicError::LogicError(std::string const&)
+ t Json::LogicError::LogicError(std::string const&) [clone .cold]
  t Json::LogicError::~LogicError()
  t Json::OurCharReader::parse(char const*, char const*, Json::Value*, std::string*)
  t Json::OurCharReader::~OurCharReader()
@@ -1385,8 +473,6 @@
  t Json::Path::makePath(std::string const&, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > const&) [clone .cold]
  t Json::Path::resolve(Json::Value const&) const
  t Json::Path::resolve(Json::Value const&, Json::Value const&) const
- t Json::PathArgument const*& std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> >::emplace_back<Json::PathArgument const*>(Json::PathArgument const*&&)
- t Json::PathArgument& std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::emplace_back<Json::PathArgument>(Json::PathArgument&&)
  t Json::PathArgument::PathArgument()
  t Json::PathArgument::PathArgument(char const*)
  t Json::PathArgument::PathArgument(std::string const&)
@@ -1454,6 +540,7 @@
  t Json::Reader::skipCommentTokens(Json::Reader::Token&)
  t Json::Reader::skipSpaces()
  t Json::RuntimeError::RuntimeError(std::string const&)
+ t Json::RuntimeError::RuntimeError(std::string const&) [clone .cold]
  t Json::RuntimeError::~RuntimeError()
  t Json::StreamWriter::Factory::~Factory()
  t Json::StreamWriter::StreamWriter()
@@ -1505,7 +592,7 @@
  t Json::StyledWriter::writeValue(Json::Value const&) [clone .cold]
  t Json::StyledWriter::writeWithIndent(std::string const&)
  t Json::StyledWriter::~StyledWriter()
- t Json::Value*& std::deque<Json::Value*, std::allocator<Json::Value*> >::emplace_back<Json::Value*>(Json::Value*&&)
+ t Json::Value*& std::deque<Json::Value*, std::allocator<Json::Value*> >::emplace_back<Json::Value*>(Json::Value*&&) [clone .isra.0]
  t Json::Value::CZString::CZString(Json::Value::CZString const&)
  t Json::Value::CZString::CZString(Json::Value::CZString const&) [clone .cold]
  t Json::Value::CZString::CZString(Json::Value::CZString&&)
@@ -1529,7 +616,6 @@
  t Json::Value::Value(Json::Value const&) [clone .cold]
  t Json::Value::Value(Json::Value&&)
  t Json::Value::Value(Json::ValueType)
- t Json::Value::Value(Json::ValueType) [clone .part.0]
  t Json::Value::Value(bool)
  t Json::Value::Value(char const*)
  t Json::Value::Value(char const*, char const*)
@@ -1669,6 +755,8 @@
  t Json::ValueIteratorBase::memberName(char const**) const
  t Json::ValueIteratorBase::name() const
  t Json::Writer::~Writer()
+ t Json::codePointToUTF8(unsigned int)
+ t Json::codePointToUTF8(unsigned int) [clone .cold]
  t Json::duplicateAndPrefixStringValue(char const*, unsigned int)
  t Json::duplicateAndPrefixStringValue(char const*, unsigned int) [clone .cold]
  t Json::normalizeEOL(char const*, char const*)
@@ -1697,7 +785,6 @@
  t Log(ELogLevel, char const*, ...)
  t Log(char const*, ...)
  t LogDirect(ELogLevel, char const*, __va_list_tag (&) [1])
- t LogHelper(ELogLevel, char const*, __va_list_tag (&) [1])
  t ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*)
  t ParseStringListFromJson(std::vector<std::string, std::allocator<std::string> >*, Json::Value const&, char const*) [clone .cold]
  t Path_Compact(std::string const&, char)
@@ -1806,20 +893,19 @@
  t V_URLEncodeInternal(char*, int, char const*, int, bool, std::function<bool (char)>)
  t V_URLEncodeNoPlusForSpace(char*, int, char const*, int)
  t V_URLEncodeNoPlusForSpace(char*, int, char const*, int) [clone .cold]
- t _GLOBAL__sub_I_eh_alloc.cc
- t _GLOBAL__sub_I_locale_inst.cc
  t _GLOBAL__sub_I_openvr_api.cpp
  t _GLOBAL__sub_I_openvr_api_headers.cpp
  t _GLOBAL__sub_I_strtools_public.cpp
- t _GLOBAL__sub_I_system_error.cc
- t _GLOBAL__sub_I_wlocale_inst.cc
  t _Unwind_Backtrace
+ t _Unwind_Backtrace.cold
  t _Unwind_DebugHook
  t _Unwind_DeleteException
  t _Unwind_FindEnclosingFunction
  t _Unwind_Find_FDE
+ t _Unwind_Find_FDE.cold
  t _Unwind_ForcedUnwind
  t _Unwind_ForcedUnwind_Phase2
+ t _Unwind_ForcedUnwind_Phase2.cold
  t _Unwind_GetCFA
  t _Unwind_GetDataRelBase
  t _Unwind_GetGR
@@ -1832,6 +918,7 @@
  t _Unwind_IteratePhdrCallback
  t _Unwind_IteratePhdrCallback.cold
  t _Unwind_RaiseException
+ t _Unwind_RaiseException.cold
  t _Unwind_RaiseException_Phase2
  t _Unwind_RaiseException_Phase2.cold
  t _Unwind_Resume
@@ -1841,39 +928,133 @@
  t _Unwind_SetGR
  t _Unwind_SetGR.cold
  t _Unwind_SetIP
- t __cxa_call_unexpected.cold
- t __cxa_guard_acquire.cold
- t __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
- t __cxxabiv1::__class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
- t __cxxabiv1::__class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
- t __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
- t __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
- t __cxxabiv1::__class_type_info::~__class_type_info()
- t __cxxabiv1::__forced_unwind::~__forced_unwind()
- t __cxxabiv1::__foreign_exception::~__foreign_exception()
- t __cxxabiv1::__function_type_info::__is_function_p() const
- t __cxxabiv1::__function_type_info::~__function_type_info()
- t __cxxabiv1::__fundamental_type_info::~__fundamental_type_info()
- t __cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
- t __cxxabiv1::__pbase_type_info::__pointer_catch(__cxxabiv1::__pbase_type_info const*, void**, unsigned int) const
- t __cxxabiv1::__pbase_type_info::~__pbase_type_info()
- t __cxxabiv1::__pointer_to_member_type_info::__pointer_catch(__cxxabiv1::__pbase_type_info const*, void**, unsigned int) const
- t __cxxabiv1::__pointer_to_member_type_info::~__pointer_to_member_type_info()
- t __cxxabiv1::__pointer_type_info::__is_pointer_p() const
- t __cxxabiv1::__pointer_type_info::__pointer_catch(__cxxabiv1::__pbase_type_info const*, void**, unsigned int) const
- t __cxxabiv1::__pointer_type_info::~__pointer_type_info()
- t __cxxabiv1::__si_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
- t __cxxabiv1::__si_class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
- t __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
- t __cxxabiv1::__si_class_type_info::~__si_class_type_info()
- t __cxxabiv1::__terminate(void (*)())
- t __cxxabiv1::__terminate(void (*)()) [clone .cold]
- t __cxxabiv1::__unexpected(void (*)())
- t __cxxabiv1::__vmi_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
- t __cxxabiv1::__vmi_class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
- t __cxxabiv1::__vmi_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
- t __cxxabiv1::__vmi_class_type_info::~__vmi_class_type_info()
  t __deregister_frame
  t __deregister_frame_info
  t __deregister_frame_info_bases
- t __do_global_dtors_
+ t __do_global_dtors_aux
+ t __frame_state_for
+ t __register_frame
+ t __register_frame_info
+ t __register_frame_info_bases
+ t __register_frame_info_table
+ t __register_frame_info_table_bases
+ t __register_frame_table
+ t _findclose(long)
+ t _findfirst(char const*, _finddata_t*)
+ t _findnext(long, _finddata_t*)
+ t _fini
+ t _init
+ t add_fdes
+ t add_fdes.cold
+ t bool std::__do_str_codecvt<std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >, char, std::codecvt<wchar_t, char, __mbstate_t>, __mbstate_t, std::codecvt_base::result (std::codecvt<wchar_t, char, __mbstate_t>::*)(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const>(char const*, char const*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >&, std::codecvt<wchar_t, char, __mbstate_t> const&, __mbstate_t&, unsigned long&, std::codecvt_base::result (std::codecvt<wchar_t, char, __mbstate_t>::*)(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const)
+ t bool std::__do_str_codecvt<std::string, wchar_t, std::codecvt<wchar_t, char, __mbstate_t>, __mbstate_t, std::codecvt_base::result (std::codecvt<wchar_t, char, __mbstate_t>::*)(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const>(wchar_t const*, wchar_t const*, std::string&, std::codecvt<wchar_t, char, __mbstate_t> const&, __mbstate_t&, unsigned long&, std::codecvt_base::result (std::codecvt<wchar_t, char, __mbstate_t>::*)(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const)
+ t cIntToHexDigit(int)
+ t char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) [clone .isra.0]
+ t char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) [clone .part.0]
+ t classify_object_over_fdes
+ t classify_object_over_fdes.cold
+ t deregister_tm_clones
+ t execute_cfa_program
+ t execute_cfa_program.cold
+ t execute_stack_op
+ t execute_stack_op.cold
+ t fde_mixed_encoding_compare
+ t fde_mixed_encoding_compare.cold
+ t fde_single_encoding_compare
+ t fde_single_encoding_compare.cold
+ t fde_unencoded_compare
+ t frame_downheap
+ t frame_dummy
+ t frame_heapsort
+ t get_cie_encoding
+ t iHexCharToInt(char)
+ t init_dwarf_reg_size_table
+ t linear_search_fdes
+ t linear_search_fdes.cold
+ t read_encoded_value
+ t read_encoded_value.cold
+ t read_encoded_value_with_base
+ t read_encoded_value_with_base.cold
+ t register_tm_clones
+ t search_object
+ t search_object.cold
+ t std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_initialize_map(unsigned long)
+ t std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::_M_initialize_map(unsigned long)
+ t std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::~_Deque_base()
+ t std::_Function_base::~_Function_base()
+ t std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
+ t std::_Function_handler<bool (char), bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ t std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_erase(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >*) [clone .isra.0]
+ t std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, Json::Value::CZString const&)
+ t std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_get_insert_unique_pos(Json::Value::CZString const&)
+ t std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::equal_range(Json::Value::CZString const&)
+ t std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::find(Json::Value::CZString const&)
+ t std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string> >::_M_erase(std::_Rb_tree_node<std::string>*) [clone .isra.0]
+ t std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value> > std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_emplace_hint_unique<std::pair<Json::Value::CZString const, Json::Value>&>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, std::pair<Json::Value::CZString const, Json::Value>&)
+ t std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >* std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_copy<std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node>(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> > const*, std::_Rb_tree_node_base*, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node&) [clone .isra.0]
+ t std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >* std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_copy<std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node>(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> > const*, std::_Rb_tree_node_base*, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_Alloc_node&) [clone .isra.0] [clone .cold]
+ t std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
+ t std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+ t std::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ t std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+ t std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+ t std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
+ t std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
+ t std::ctype<char>::do_widen(char) const
+ t std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_default_append(unsigned long)
+ t std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_destroy_data_aux(std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>, std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>) [clone .isra.0]
+ t std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_new_elements_at_back(unsigned long)
+ t std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_reallocate_map(unsigned long, bool)
+ t std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_default_append(unsigned long)
+ t std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_erase_at_end(std::_Deque_iterator<Json::Reader::ErrorInfo, Json::Reader::ErrorInfo&, Json::Reader::ErrorInfo*>)
+ t std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_new_elements_at_back(unsigned long)
+ t std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_reallocate_map(unsigned long, bool)
+ t std::set<std::string, std::less<std::string>, std::allocator<std::string> >::insert(std::string&&)
+ t std::unique_ptr<Json::StreamWriter, std::default_delete<Json::StreamWriter> >::~unique_ptr()
+ t std::vector<std::string, std::allocator<std::string> >::reserve(unsigned long)
+ t std::vector<std::string, std::allocator<std::string> >::~vector()
+ t std::vector<unsigned char, std::allocator<unsigned char> >::_M_default_append(unsigned long)
+ t std::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
+ t strcpy_safe(char*, unsigned long, char const*)
+ t stricmp(char const*, char const*)
+ t strnicmp(char const*, char const*, unsigned long)
+ t uw_frame_state_for
+ t uw_frame_state_for.cold
+ t uw_init_context_1
+ t uw_init_context_1.cold
+ t uw_install_context_1
+ t uw_install_context_1.cold
+ t uw_update_context_1
+ t uw_update_context_1.cold
+ t void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
+ t void std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_push_back_aux<Json::Reader::ErrorInfo const&>(Json::Reader::ErrorInfo const&)
+ t void std::vector<CAssertCallback*, std::allocator<CAssertCallback*> >::_M_realloc_insert<CAssertCallback* const&>(__gnu_cxx::__normal_iterator<CAssertCallback**, std::vector<CAssertCallback*, std::allocator<CAssertCallback*> > >, CAssertCallback* const&)
+ t void std::vector<CLogCallback*, std::allocator<CLogCallback*> >::_M_realloc_insert<CLogCallback* const&>(__gnu_cxx::__normal_iterator<CLogCallback**, std::vector<CLogCallback*, std::allocator<CLogCallback*> > >, CLogCallback* const&)
+ t void std::vector<Json::OurReader::StructuredError, std::allocator<Json::OurReader::StructuredError> >::_M_realloc_insert<Json::OurReader::StructuredError const&>(__gnu_cxx::__normal_iterator<Json::OurReader::StructuredError*, std::vector<Json::OurReader::StructuredError, std::allocator<Json::OurReader::StructuredError> > >, Json::OurReader::StructuredError const&)
+ t void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> >::_M_realloc_insert<Json::PathArgument const*>(__gnu_cxx::__normal_iterator<Json::PathArgument const**, std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument const*> > >, Json::PathArgument const*&&)
+ t void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::_M_realloc_insert<Json::PathArgument const&>(__gnu_cxx::__normal_iterator<Json::PathArgument*, std::vector<Json::PathArgument, std::allocator<Json::PathArgument> > >, Json::PathArgument const&)
+ t void std::vector<Json::PathArgument, std::allocator<Json::PathArgument> >::_M_realloc_insert<Json::PathArgument>(__gnu_cxx::__normal_iterator<Json::PathArgument*, std::vector<Json::PathArgument, std::allocator<Json::PathArgument> > >, Json::PathArgument&&)
+ t void std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::StructuredError> >::_M_realloc_insert<Json::Reader::StructuredError const&>(__gnu_cxx::__normal_iterator<Json::Reader::StructuredError*, std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::StructuredError> > >, Json::Reader::StructuredError const&)
+ t void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
+ t void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string&&)
+ t vr::CleanupInternalInterfaces()
+ t vr::VR_LoadHmdSystemInternal()
+ t vr::VR_LoadHmdSystemInternal() [clone .cold]
+ tolower
+ toupper
+ typeinfo for std::__codecvt_utf8_base<char32_t>
+ typeinfo for std::__codecvt_utf8_base<wchar_t>
+ typeinfo for std::exception
+ unlink
+ unsetenv
+ vsnprintf
+ vtable for __cxxabiv1::__class_type_info
+ vtable for __cxxabiv1::__function_type_info
+ vtable for __cxxabiv1::__pointer_type_info
+ vtable for __cxxabiv1::__si_class_type_info
+ vtable for std::basic_ios<char, std::char_traits<char> >
+ vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+ vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+ vtable for std::basic_streambuf<char, std::char_traits<char> >
+ vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
+ wcslen

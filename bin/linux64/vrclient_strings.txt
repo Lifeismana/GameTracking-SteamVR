@@ -134,10 +134,7 @@ $0enum $1 {
 $0option $1;
 $0rpc $1(.$2) returns (.$3)
 %%.%dg
-%.*Lf
 %F-%H-%M-%S
-%H:%M
-%H:%M:%S
 %LocalAppData%
 %Y-%m-%d
 %Y-%m-%d %I:%M:%S %p
@@ -147,7 +144,6 @@ $0rpc $1(.$2) returns (.$3)
 %d.%d.%d
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
-%m/%d/%y
 %s %s
 %s %s startup with PID=%u, config=%s, runtime=%s
 %s (%X)-> %s
@@ -361,17 +357,13 @@ $0rpc $1(.$2) returns (.$3)
 ' value is not an integer type.
 '. Must be /action/<set>/in/<action> or /action/<set>/out/<action>.
 '[', '{', or a literal
-'action_sets' member found for legacy binding manifest. New action sets cannot be added.
 'action_sets' member is not an array
-'actions' member found for legacy binding manifest. New actions cannot be added.
 'actions' member is not an array
 'localization' member is not an array
 'out_location' must not be NULL
 'uri' is missing from non binary glTF file buffer.
-'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
 (Thumb)
-(anonymous namespace)
 (anonymous namespace)::CPackedBoneTransforms_descriptor_
 (anonymous namespace)::CPackedBoneTransforms_reflection_
 (anonymous namespace)::CVRMsg_AbortApplicationTransition_descriptor_
@@ -754,83 +746,14 @@ $0rpc $1(.$2) returns (.$3)
 (anonymous namespace)::CVRMsg_WritePropertyDataToFileResponse_reflection_
 (anonymous namespace)::CVRMsg_WritePropertyDataToFile_descriptor_
 (anonymous namespace)::CVRMsg_WritePropertyDataToFile_reflection_
-(anonymous namespace)::DeleteRenderModel(vr::RenderModel_t*)
-(anonymous namespace)::DeleteTexture(vr::RenderModel_TextureMap_t*)
-(anonymous namespace)::From(Compositor_OverlaySettings_004 const&, vr::IVRCompositor*) [clone .isra.0]
+(anonymous namespace)::From(Compositor_OverlaySettings_004 const&, vr::IVRCompositor*) [clone .constprop.0]
 (anonymous namespace)::GetChildPathHandle(unsigned long*, unsigned long*, char const*, Json::Value const&, vr::IVRPaths*)
 (anonymous namespace)::GetChildPathHandle(unsigned long*, unsigned long*, char const*, Json::Value const&, vr::IVRPaths*) [clone .cold]
 (anonymous namespace)::GetChildVector2d(double*, char const*, Json::Value const&)
-(anonymous namespace)::GetChildVector3d(vr::HmdVector3d_t*, char const*, Json::Value const&)
-(anonymous namespace)::ValidBounds(vr::VRTextureBounds_t const*)
+(anonymous namespace)::GetChildVector3d(vr::HmdVector3d_t*, char const*, Json::Value const&) [clone .part.0]
+(anonymous namespace)::ValidBounds(vr::VRTextureBounds_t const*) [clone .isra.0]
 (anonymous namespace)::ValidBounds(vr::VRTextureBounds_t const*)::__executeCount
-(anonymous namespace)::__new_handler
-(anonymous namespace)::c_locale
-(anonymous namespace)::c_locale_impl
-(anonymous namespace)::cache_vec
-(anonymous namespace)::codecvt_c
-(anonymous namespace)::codecvt_c16
-(anonymous namespace)::codecvt_c16_c8
-(anonymous namespace)::codecvt_c32
-(anonymous namespace)::codecvt_c32_c8
-(anonymous namespace)::codecvt_w
-(anonymous namespace)::collate_c
-(anonymous namespace)::collate_w
-(anonymous namespace)::ctype_c
-(anonymous namespace)::ctype_w
-(anonymous namespace)::emergency_pool
-(anonymous namespace)::facet_vec
-(anonymous namespace)::fopen_mode(std::_Ios_Openmode)
-(anonymous namespace)::generic_category_instance
-(anonymous namespace)::generic_error_category::message(int) const
-(anonymous namespace)::generic_error_category::name() const
-(anonymous namespace)::generic_error_category::~generic_error_category()
-(anonymous namespace)::get_global()::global
-(anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
-(anonymous namespace)::get_locale_mutex()
-(anonymous namespace)::get_locale_mutex()::locale_mutex
 (anonymous namespace)::k_debugUtilsLabelColors
-(anonymous namespace)::messages_c
-(anonymous namespace)::messages_w
-(anonymous namespace)::money_get_c
-(anonymous namespace)::money_get_w
-(anonymous namespace)::money_put_c
-(anonymous namespace)::money_put_w
-(anonymous namespace)::moneypunct_cache_cf
-(anonymous namespace)::moneypunct_cache_ct
-(anonymous namespace)::moneypunct_cache_wf
-(anonymous namespace)::moneypunct_cache_wt
-(anonymous namespace)::moneypunct_cf
-(anonymous namespace)::moneypunct_ct
-(anonymous namespace)::moneypunct_wf
-(anonymous namespace)::moneypunct_wt
-(anonymous namespace)::name_c
-(anonymous namespace)::name_vec
-(anonymous namespace)::num_get_c
-(anonymous namespace)::num_get_w
-(anonymous namespace)::num_put_c
-(anonymous namespace)::num_put_w
-(anonymous namespace)::numpunct_c
-(anonymous namespace)::numpunct_cache_c
-(anonymous namespace)::numpunct_cache_w
-(anonymous namespace)::numpunct_w
-(anonymous namespace)::pool::allocate(unsigned long) [clone .constprop.0]
-(anonymous namespace)::pool::allocate(unsigned long) [clone .constprop.0] [clone .cold]
-(anonymous namespace)::pool::free(void*) [clone .constprop.0]
-(anonymous namespace)::pool::free(void*) [clone .constprop.0] [clone .cold]
-(anonymous namespace)::system_category_instance
-(anonymous namespace)::system_error_category::default_error_condition(int) const
-(anonymous namespace)::system_error_category::message(int) const
-(anonymous namespace)::system_error_category::name() const
-(anonymous namespace)::system_error_category::~system_error_category()
-(anonymous namespace)::time_get_c
-(anonymous namespace)::time_get_w
-(anonymous namespace)::time_put_c
-(anonymous namespace)::time_put_w
-(anonymous namespace)::timepunct_c
-(anonymous namespace)::timepunct_cache_c
-(anonymous namespace)::timepunct_cache_w
-(anonymous namespace)::timepunct_w
-(anonymous namespace)::xwrite(int, char const*, long)
 (cannot determine missing fields for lite message)
 (does the path point to a directory?)
 (merge
@@ -839,8 +762,6 @@ $0rpc $1(.$2) returns (.$3)
 **** JUDDER **** expected %u got %u
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
-*N12_GLOBAL__N_121system_error_categoryE
-*N12_GLOBAL__N_122generic_error_categoryE
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN22CThreadWatchdogManager13InitWatchdogsEvEUlvE_EEEEEE
 *Z13InitDriverLogPN2vr12IVRDriverLogEEUl9ELogLevelPKcPvE_
 *Z17sxr_xrLocateViewsP11XrSession_TPK16XrViewLocateInfoP11XrViewStatejPjP6XrViewEUlRSt6vectorIS7_SaIS7_EEE_
@@ -881,9 +802,6 @@ $0rpc $1(.$2) returns (.$3)
 , requestedBytes
 - %30s %7.2lf %5.1lf%% %3.2lf %3.2lf %3.2lf %4u
 - Total                          %5.2lf
--+xX0123456789abcdef0123456789ABCDEF
--+xX0123456789abcdefABCDEF
--0123456789
 -1e+9999
 -Infinity
 -disablewatchdogs
@@ -904,7 +822,6 @@ $0rpc $1(.$2) returns (.$3)
 .PLACEHOLDER_VALUE
 .[\()*+?{|^$
 .[\*^$
-.config
 .desktop
 .dummy
 .foo = value".
@@ -914,7 +831,6 @@ $0rpc $1(.$2) returns (.$3)
 .previous.txt
 .thumb
 //==============================================================================================
-/Global\
 /a/click
 /a/touch
 /actions/
@@ -1026,12 +942,10 @@ $0rpc $1(.$2) returns (.$3)
 /filters/
 /force
 /generation
-/grip/pose
 /haptic
 /icon
 /input/
 /input/a
-/input/a/click
 /input/aim
 /input/aim/pose
 /input/application_menu
@@ -1057,21 +971,14 @@ $0rpc $1(.$2) returns (.$3)
 /input/menu/click
 /input/palm_ext
 /input/palm_ext/pose
-/input/select
-/input/squeeze
 /input/squeeze/click
-/input/squeeze/force
-/input/squeeze/touch
-/input/squeeze/value
 /input/system
 /input/system/click
-/input/thumbrest/touch
 /input/thumbstick
 /input/trackpad/click
 /input/trackpad/touch
 /input/trackpad/x
 /input/trackpad/y
-/input/trigger
 /input/trigger/click
 /input/trigger/value
 /input/view/click
@@ -1092,12 +999,10 @@ $0rpc $1(.$2) returns (.$3)
 /interaction_profiles/valve/index_controller
 /joystick/
 /legacy_debugger_pid
-/mailbox/
 /menu/click
 /openxr/1/api_layers/
 /out/
 /output/haptic
-/pose/
 /pose/grip
 /pose/openxr_aim
 /pose/openxr_grip
@@ -1111,7 +1016,6 @@ $0rpc $1(.$2) returns (.$3)
 /proc/self/exe
 /proc/self/status
 /progress
-/proximity
 /read_
 /result
 /role/camera
@@ -1135,12 +1039,10 @@ $0rpc $1(.$2) returns (.$3)
 /sys/kernel/debug/tracing/trace_marker
 /sys/kernel/tracing/trace_marker
 /system/click
-/system/steamvr/
 /thumbstick
 /thumbstick/
 /thumbstick/touch
 /tmp/.steam-sem-names
-/tmp/SteamVR-IPCControlFile-
 /touch
 /tracker_manager/show_ui
 /trackpad
@@ -1193,7 +1095,6 @@ $0rpc $1(.$2) returns (.$3)
 /user/hand/left/input/grip/click
 /user/hand/left/input/grip/pose
 /user/hand/left/input/joystick/click
-/user/hand/left/input/menu
 /user/hand/left/input/menu/click
 /user/hand/left/input/palm_ext/pose
 /user/hand/left/input/select/click
@@ -1245,7 +1146,6 @@ $0rpc $1(.$2) returns (.$3)
 /user/hand/right/input/grip/click
 /user/hand/right/input/grip/pose
 /user/hand/right/input/joystick/click
-/user/hand/right/input/menu
 /user/hand/right/input/menu/click
 /user/hand/right/input/palm_ext/pose
 /user/hand/right/input/select/click
@@ -1314,7 +1214,6 @@ $0rpc $1(.$2) returns (.$3)
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-0123456789
 0123456789ABCDEF
 0123456789abcdef
 1.0.3.16
@@ -1424,6 +1323,7 @@ $0rpc $1(.$2) returns (.$3)
 15CVRSettings_001
 15CVRSettings_002
 15CVRSystemLatest
+15CVkResourceBase
 15CVkResourcePoolI16CVkCommandBufferE
 16CHmdSystemLatest
 16CInputFilterBase
@@ -1534,7 +1434,6 @@ $0rpc $1(.$2) returns (.$3)
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:50:34
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1558,6 +1457,7 @@ $0rpc $1(.$2) returns (.$3)
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:28:09
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -2027,8 +1927,6 @@ A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than
 A valid JSON document must be either an array or an object value.
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
-ASCII
-ASCII//TRANSLIT
 ASSERT: "%s" at %s:%d.
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Aborting due to fatal assertion failure.
@@ -2087,3 +1985,194 @@ Alias
 AllocSharedMemory failed
 AllocateMemory
 AllocateMemoryFromType
+Already saw decimal point or exponent; can't have another one.
+And filters need at least one input in filter %s
+AnimUtils::AngleAboutAxis(VectorAligned const&, VectorAligned const&, VectorAligned const&)
+AnimUtils::AngleBetweenVectors(VectorAligned const&, VectorAligned const&)
+AnimUtils::Blend(float, BlendSettings_t const&)
+AnimUtils::Blend(float, EBlendType, float)
+AnimUtils::Blend2Poses(CPoseRecipe&, unsigned char, unsigned char, float)
+AnimUtils::ChangeRange(float, float, float, float, float)
+AnimUtils::CloseEnough(float, float, float)
+AnimUtils::ConvertFromGLTF(CTransform const&)
+AnimUtils::FromEulerAngles(vr::HmdVector3_t const&)
+AnimUtils::GetBarycentricCoords2D(vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, float*)
+AnimUtils::GetBias(float, float)
+AnimUtils::GetButtonStatus(unsigned long, unsigned long, vr::EVRButtonId)
+AnimUtils::GetGain(float, float)
+AnimUtils::RotationAboutAxis(VectorAligned const&, VectorAligned const&, VectorAligned const&)
+AnimUtils::RotationBetweenVectors(VectorAligned const&, VectorAligned const&)
+AnimUtils::ToEulerAngles(QuaternionAligned const&)
+AnimUtils::UpdateCycle(float, float, float, float, bool)
+AnimUtils::UpdateCycle(float, float, float, float, bool, int&, float&)
+AnimationChannel
+Another app was already launching (117)
+Another scene application is already running. SteamVR only supports one OpenXR or OpenVR scene application running at a time.
+App info manager init failed (114)
+App key after connect message:%s
+App submitted texture from wrong device!  Make sure app is configured to use the graphics card that your headset is plugged into.
+Application failed to call xrGetVulkanGraphicsDevice before xrCreateSession
+Application submitted two left scene textures for a single frame!
+Application submitted two right scene textures for a single frame!
+ApplicationsInterfaceRegistration<CVRApplications_001>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_001>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_002>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_002>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_003>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_003>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_004>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_004>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_005>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_005>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
+ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
+Array for decompressed transforms is too small.  Needed %u got %u
+Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
+Array length of `emissiveFactor` parameter in material must be 3, but got
+Array textures from OpenGL aren't supported on Linux yet.
+AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)
+AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*) [clone .cold]
+AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)::bMinidumpDisabled
+Asset
+Attempt to add alias root %s after a path handle was generated. That is not supported
+Attempt to init shared state %s twice
+Attempted to access vulkan array info for a non-vulkan texture
+Attempted to map already-mapped BO
+Attempted to map un-allocated BO
+Attempted to map un-mappable BO
+Attempted to read payload of %d bytes from pipe but failed
+Attempted to unmap un-allocated BO
+Attempted to unmap unmapped BO
+Attempted to write %zd bytes and ended up writing 0. Closing the pipe
+Attempting to load initial input config
+Attempting to wait on a fence that has already been waited for. Current: %lx Wait: %lx
+Attempting to wait on a fence value that is too large. Current: %lx Wait: %lx
+Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %lx, Signaled: %lx
+AuthenticAMD
+AutosaveURL
+BCheckParentOverlayVisible_Recursive(unsigned long, VRSystemLayerState_t const*, int)
+BCreateDirectory(char const*)
+BCreateDirectoryRecursive(char const*)
+BCreateDirectoryRecursive(char const*) [clone .cold]
+BCreateProcess(char const*, char const**, unsigned int*, bool, std::string*)
+BCreateProcess(char const*, char const**, unsigned int*, bool, std::string*) [clone .part.0]
+BCreateProcess(std::string const&, std::string const&, std::string, unsigned int*, bool, std::string*)
+BCreateProcess(std::string const&, std::string const&, std::string, unsigned int*, bool, std::string*) [clone .cold]
+BCreateProcess(std::string const&, std::vector<std::string, std::allocator<std::string> > const&, std::string, unsigned int*, bool, std::string*)
+BCreateProcess(std::string const&, std::vector<std::string, std::allocator<std::string> > const&, std::string, unsigned int*, bool, std::string*) [clone .cold]
+BDeleteFileIfExists(char const*)
+BFileExists(char const*)
+BGetOutputDevice(VkInstance_T*, VkPhysicalDevice_T**)
+BGetRequiredInstanceExtensions( vecRequiredExtensions )
+BITANGENT
+BInitVulkanDevice(VkPhysicalDevice_T*, char const*, unsigned int, VkDevice_T**, VkQueue_T**, unsigned int*)
+BInitVulkanDevice(VkPhysicalDevice_T*, char const*, unsigned int, VkDevice_T**, VkQueue_T**, unsigned int*) [clone .cold]
+BInitVulkanInstance(char const*, unsigned int, VkInstance_T**)
+BInitVulkanInstance(char const*, unsigned int, VkInstance_T**) [clone .cold]
+BInitializeLogging()::s_LogMutex
+BInitializeLogging()::s_bLogInitialized
+BIsCrashReportingDisabled()
+BIsCrashReportingDisabled() [clone .cold]
+BIsCrashReportingDisabled()::s_bFiguredOutIfDisabled
+BIsCrashReportingDisabled()::s_bIsReportingDisabled
+BIsHapticLoggingEnabled()::s_bIsHapticLogEnabled
+BIsHapticLoggingEnabled()::s_bNeedsRecheck
+BIsPidPresent(unsigned short, unsigned short)
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty) [clone .cold]
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeys
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
+BIsValidInputForChord(std::string const&, std::string const&)
+BIsVidPresent(unsigned short)
+BIsWorkshopBindingUri(std::string const&)
+BIsWorkshopBindingUri(std::string const&) [clone .cold]
+BKillProcess(char const*, bool)
+BKillProcess(char const*, bool) [clone .cold]
+BKillProcess(unsigned int)
+BMP RLE
+BOSAssociateExtension(char const*, char const*, char const*, char const*)
+BOSAssociateExtension(char const*, char const*, char const*, char const*) [clone .cold]
+BOSAssociateURI(char const*, char const*)
+BOSAssociateURI(char const*, char const*) [clone .cold]
+BOSRelease(void**)
+BOSSafeRelease(void**)
+BPathSupportsInputOfType(std::string const&, EInputValueType)
+BProcessRunning(char const*, bool)
+BProcessRunning(char const*, bool) [clone .cold]
+BProcessRunning(unsigned int)
+BRealtimeProcess()
+BRenameFile(char const*, char const*)
+BSharedResourceNamespaceAvailable()
+BSharedResourceNamespaceAvailable() [clone .cold]
+BSharedResourceNamespaceInTestMode()
+BSharedResourceNamespaceTryOneInit()
+Back-reference index exceeds current sub-expression count.
+Back-reference referred to an opened sub-expression.
+BackUp() can only be called after Next().
+BackUp() can only be called after a successful Next().
+Bad Access flag on shared mem create: %s: %u
+Bad bo
+Bad dimensions
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Begin
+BeginFrame
+BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
+BeginFrame called outside of a valid session.
+BeginFrameRendering
+BeginRendering
+Binding config missing required 'bindings' member
+Binding config missing required 'controller_type' member
+Binding missing required "action" member
+Binding missing required "name" member
+Binding missing required "type" member
+Binding path for haptic action %s could not be read: %s
+Binding path for haptic action %s resulted in property type tag %u instead of %u
+BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory)
+BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingCurrentKey(std::string const&, EActionBindingCategory)
+BindingCurrentKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingNeedUploadKey(std::string const&, EActionBindingCategory)
+BindingNeedUploadKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingPreviousKey(std::string const&, EActionBindingCategory)
+BindingPreviousKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingURIToFileId(std::string const&)
+BindingURIToFileId(std::string const&) [clone .cold]
+Bindings from OpenXR
+BlankEyeBuffer
+BlockQueueInterfaceRegistration<CVRBlockQueue_001>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_001>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_002>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_002>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_003>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_003>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_004>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_004>::~BlockQueueInterfaceRegistration()
+Boolean default must be true or false.
+Bootstrapper init
+BorrowResource
+Bucket: size:%zu timeline:%s
+Bucket: size:%zu timeline:none
+Buffer
+BufferView
+BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&)
+BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&) [clone .cold]
+BuildFadeGridMessage(float, bool)
+BuildFadeGridMessage(float, bool) [clone .cold]
+BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
+BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
+BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
+C.1857.0
+C.1860.1
+C.417.0
+CActionBinding::CActionBinding(CActionBinding const&)
+CActionBinding::FromJson(Json::Value const&, std::string*)
+CActionBinding::FromJson(Json::Value const&, std::string*) [clone .cold]
+CActionBinding::~CActionBinding()
+CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*)
+CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*) [clone .cold]
+CActionBindingConfig::HasControllerType(std::string const&) const
+CActionBindingConfig::~CActi
