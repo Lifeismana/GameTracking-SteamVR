@@ -1,53 +1,84 @@
-{
-	"language_tag": "ro_RO",
-	"/actions/system/in/OpenDashboard": "Deschide panoul de control",
-	"/actions/system/in/CloseDashboard": "Închide panoul de control",
-	"/actions/system/in/ToggleDashboard": "Comută panoul de control",
-	"/actions/system/in/TakeScreenshot": "Realizează o captură de ecran",
-	"/actions/system/in/ToggleRoomView": "Comută vederea încăperii",
-	"/actions/system/in/SystemButtonChord": "Modul de acțiune pentru sistem",
-	"/actions/system/in/ShowPowerMenu": "Arată meniul de alimentare",
-	"/actions/lasermouse/in/leftclick": "Clic stânga (mouse)",
-	"/actions/lasermouse/in/rightclick": "Clic dreapta (mouse)",
-	"/actions/lasermouse/in/lockmouseposition": "Blochează poziția mouse-ului",
-	"/actions/lasermouse/in/home": "Mergi către pagina principală",
-	"/actions/lasermouse/in/back": "Mergi înapoi",
-	"/actions/lasermouse/in/moveright": "Mișcă la dreapta",
-	"/actions/lasermouse/in/moveup": "Mișcă în sus",
-	"/actions/lasermouse/in/moveleft": "Mișcă la stânga",
-	"/actions/lasermouse/in/movedown": "Mișcă în jos",
-	"/actions/lasermouse/in/trackpadtouch": "Atingere - trackpad",
-	"/actions/lasermouse/in/trackpadvalue": "Mișcare - trackpad",
-	"/actions/lasermouse/in/switchgamepadfocus": "Schimbă panoul activ (gamepad)",
-	"/actions/lasermouse/in/trackpadscroll": "Derulează panoul",
-	"/actions/lasermouse/in/enter": "Intrare",
-	"/actions/lasermouse/in/pointer": "Mouse cu indicator laser",
-	"/actions/scroll_discrete/in/scroll": "Derulează panoul",
-	"/actions/scroll_smooth/in/scroll": "Derulează panoul",
-	"/actions/lasermouse_secondary/in/switchlaserhand": "Alege mâna activă",
-	"/actions/dualanalog/in/rightclick": "Clic - tastatura din dreapta",
-	"/actions/dualanalog/in/leftclick": "Clic - tastatura din stânga",
-	"/actions/dualanalog/in/righttouch": "Atingerea tastaturii drepte",
-	"/actions/dualanalog/in/lefttouch": "Atingerea tastaturii stângi",
-	"/actions/dualanalog/in/rightvalue": "Mișcarea tastaturii drepte",
-	"/actions/dualanalog/in/leftvalue": "Mișcarea tastaturii stângi",
-	"/actions/dualanalog/in/modeswitch1": "Arată majusculele",
-	"/actions/dualanalog/in/modeswitch2": "Arată simbolurile",
-	"/actions/dualanalog/in/cancel": "Închide tastatura",
-	"/actions/system/in/systembuttonchord": "Modul de acțiune al sistemului",
-	"/actions/system/in/toggleroomview": "Comută vederea încăperii",
-	"/actions/system/in/volumeup": "Volum +",
-	"/actions/system/in/volumedown": "Volum -",
-	"/actions/system/in/toggledashboard": "Comută panoul de control",
-	"/actions/system/in/showpowermenu": "Arată meniul de alimentare",
-	"/actions/system/in/takescreenshot": "Realizează o captură de ecran",
-	"/actions/system/in/mutemicrophone": "Amuțește microfonul",
-	"/actions/normal": "Operațiune normală",
 	"/actions/chord": "Comenzi rapide ale butonului de sistem",
+	"/actions/dualanalog": "Intrare tastatur
+	"/actions/dualanalog/in/cancel": "
+	"/actions/dualanalog/in/leftclick": "Clic - tastatura din st
+	"/actions/dualanalog/in/lefttouch": "Atingerea tastaturii st
+	"/actions/dualanalog/in/leftvalue": "Mi
+	"/actions/dualanalog/in/modeswitch1": "Arat
+	"/actions/dualanalog/in/modeswitch2": "Arat
+	"/actions/dualanalog/in/rightclick": "Clic - tastatura din dreapta",
+	"/actions/dualanalog/in/righttouch": "Atingerea tastaturii drepte",
+	"/actions/dualanalog/in/rightvalue": "Mi
 	"/actions/lasermouse": "Mouse cu laser",
+	"/actions/lasermouse/in/back": "Mergi 
+	"/actions/lasermouse/in/enter": "Intrare",
+	"/actions/lasermouse/in/home": "Mergi c
+	"/actions/lasermouse/in/leftclick": "Clic st
+	"/actions/lasermouse/in/lockmouseposition": "Blocheaz
+	"/actions/lasermouse/in/movedown": "Mi
+	"/actions/lasermouse/in/moveleft": "Mi
+	"/actions/lasermouse/in/moveright": "Mi
+	"/actions/lasermouse/in/moveup": "Mi
+	"/actions/lasermouse/in/pointer": "Mouse cu indicator laser",
+	"/actions/lasermouse/in/rightclick": "Clic dreapta (mouse)",
+	"/actions/lasermouse/in/switchgamepadfocus": "Schimb
+	"/actions/lasermouse/in/trackpadscroll": "Deruleaz
+	"/actions/lasermouse/in/trackpadtouch": "Atingere - trackpad",
+	"/actions/lasermouse/in/trackpadvalue": "Mi
 	"/actions/lasermouse_secondary": "Mouse secundar cu laser",
-	"/actions/dualanalog": "Intrare tastatură",
-	"/actions/system": "Acțiuni de sistem",
-	"/actions/scroll_discrete": "Derulare ca rotiță de mouse",
+	"/actions/lasermouse_secondary/in/switchlaserhand": "Alege m
+	"/actions/normal": "Opera
+	"/actions/scroll_discrete": "Derulare ca roti
+	"/actions/scroll_discrete/in/scroll": "Deruleaz
 	"/actions/scroll_smooth": "Derulare ca trackpad"
-}
+	"/actions/scroll_smooth/in/scroll": "Deruleaz
+	"/actions/system": "Ac
+	"/actions/system/in/CloseDashboard": "
+	"/actions/system/in/OpenDashboard": "Deschide panoul de control",
+	"/actions/system/in/ShowPowerMenu": "Arat
+	"/actions/system/in/SystemButtonChord": "Modul de ac
+	"/actions/system/in/TakeScreenshot": "Realizeaz
+	"/actions/system/in/ToggleDashboard": "Comut
+	"/actions/system/in/ToggleRoomView": "Comut
+	"/actions/system/in/mutemicrophone": "Amu
+	"/actions/system/in/showpowermenu": "Arat
+	"/actions/system/in/systembuttonchord": "Modul de ac
+	"/actions/system/in/takescreenshot": "Realizeaz
+	"/actions/system/in/toggledashboard": "Comut
+	"/actions/system/in/toggleroomview": "Comut
+	"/actions/system/in/volumedown": "Volum -",
+	"/actions/system/in/volumeup": "Volum +",
+	"language_tag": "ro_RO",
+ de ecran",
+ de mouse",
+ la dreapta",
+ la st
+ majusculele",
+ meniul de alimentare",
+ o captur
+ panoul activ (gamepad)",
+ panoul de control",
+ panoul",
+ pozi
+ simbolurile",
+ vederea 
+care - trackpad",
+carea tastaturii drepte",
+carea tastaturii st
+ia mouse-ului",
+iune al sistemului",
+iune normal
+iune pentru sistem",
+iuni de sistem",
+n jos",
+n sus",
+na activ
+napoi",
+nchide panoul de control",
+nchide tastatura",
+nga (mouse)",
+nga",
+ngi",
+perii",
+te microfonul",
+tre pagina principal

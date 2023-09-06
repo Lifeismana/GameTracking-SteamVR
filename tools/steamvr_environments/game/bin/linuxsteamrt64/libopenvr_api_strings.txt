@@ -1,15 +1,9 @@
-%llu
 %s: __pos (which is %zu) > this->size() (which is %zu)
 ' is not a number.
-*
-,
 .config
-.tmp
 /proc/self/exe
 0123456789ABCDEF
-:
 A valid JSON document must be either an array or an object value.
-All
 Another app was already launching (117)
 App info manager init failed (114)
 BCreateDirectory(char const*)
@@ -53,7 +47,6 @@ Error from reader: %s
 Exceeded stackLimit in readValue().
 Extra non-whitespace after JSON value.
 Factory Function Not Found (104)
-FbcE
 File Not Found (103)
 Firmware Recovery In Progress (139)
 Firmware Update In Progress (138)
@@ -68,7 +61,6 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 GetEnglishStringForHmdError(vr::EVRInitError)
 GetEnvironmentVariable(char const*)
 GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
@@ -517,7 +509,6 @@ Rebooting In Progress (137)
 RepairUTF8(char const*, char const*, std::string&)
 RepairUTF8(std::string const&, std::string&)
 ReturnStdString(std::string const&, char*, unsigned int)
-See
 SetEnvironmentVariable(char const*, char const*)
 Settings manager init failed (118)
 Shared IPC Compositor Connect Failed (306)
@@ -794,18 +785,6 @@ V_URLEncodeInternal(char*, int, char const*, int, bool, std::function<bool (char
 V_URLEncodeNoPlusForSpace(char*, int, char const*, int)
 Watchdog disabled in settings (132)
 XDG_CONFIG_HOME
-[
-[.
-[]
-\"
-\\
-\b
-\f
-\n
-\r
-\t
-\u
-]
 _DYNAMIC
 _GLOBAL_OFFSET_TABLE_
 _GLOBAL__sub_I_json_value.cpp
@@ -996,7 +975,6 @@ __stack_chk_fail@@GLIBC_2.4
 __xstat
 __xstat@@GLIBC_2.2.5
 _edata
-_end
 _fini
 _init
 abort
@@ -1017,7 +995,6 @@ basic_string::_S_construct null not valid
 basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
 basic_string::erase
 basic_string::substr
-bin
 cIntToHexDigit(int)
 call_gmon_start
 char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
@@ -1071,7 +1048,6 @@ frame_hdr_cache_head
 frame_heapsort
 fread
 fread@@GLIBC_2.2.5
-free
 free@@GLIBC_2.2.5
 fseek
 fseek@@GLIBC_2.2.5
@@ -1114,7 +1090,6 @@ libpthread.so.0
 libstdc++.so.6
 linear_search_fdes
 linux64
-log
 malloc
 malloc@@GLIBC_2.2.5
 marker.9290
@@ -1126,11 +1101,8 @@ memmove
 memmove@@GLIBC_2.2.5
 mkdir
 mkdir@@GLIBC_2.2.5
-modf
 modf@@GLIBC_2.2.5
 nfinity
-no
-null
 object_mutex
 once_regsizes.9654
 openvr
@@ -1146,7 +1118,6 @@ pthread_mutex_unlock
 pthread_mutex_unlock@@GLIBC_2.2.5
 pthread_once
 pthread_once@@GLIBC_2.2.5
-rb
 read_encoded_value_with_base
 readlink
 readlink@@GLIBC_2.2.5
@@ -1327,7 +1298,6 @@ tolower
 tolower@@GLIBC_2.2.5
 toupper
 toupper@@GLIBC_2.2.5
-true
 typeinfo for Json::BuiltStyledStreamWriter
 typeinfo for Json::CharReader
 typeinfo for Json::CharReader::Factory
@@ -1440,12 +1410,7 @@ vtable for std::basic_streambuf<char, std::char_traits<char> >
 vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
 vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
 vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
-w
-wb
 wcslen
 wcslen@@GLIBC_2.2.5
 wstring_convert::from_bytes
 wstring_convert::to_bytes
-yes
-{
-{}

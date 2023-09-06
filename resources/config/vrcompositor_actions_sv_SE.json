@@ -1,53 +1,84 @@
-{
-	"language_tag": "sv_SE",
-	"/actions/system/in/OpenDashboard": "Öppna instrumentpanel",
-	"/actions/system/in/CloseDashboard": "Stäng instrumentpanel",
-	"/actions/system/in/ToggleDashboard": "Öppna/stäng instrumentpanel",
-	"/actions/system/in/TakeScreenshot": "Ta skärmbild",
-	"/actions/system/in/ToggleRoomView": "Rumsvy på/av",
-	"/actions/system/in/SystemButtonChord": "Systemåtgärdsläge",
-	"/actions/system/in/ShowPowerMenu": "Visa strömmenyn",
-	"/actions/lasermouse/in/leftclick": "Vänster musklick",
-	"/actions/lasermouse/in/rightclick": "Höger musklick",
-	"/actions/lasermouse/in/lockmouseposition": "Lås musläge",
-	"/actions/lasermouse/in/home": "Gå till startsidan",
-	"/actions/lasermouse/in/back": "Gå tillbaka",
-	"/actions/lasermouse/in/moveright": "Flytta till höger",
-	"/actions/lasermouse/in/moveup": "Flytta upp",
-	"/actions/lasermouse/in/moveleft": "Flytta till vänster",
+	"/actions/chord": "Knappgenv
+	"/actions/dualanalog": "Tangentbordsinmatning",
+	"/actions/dualanalog/in/cancel": "St
+	"/actions/dualanalog/in/leftclick": "V
+	"/actions/dualanalog/in/lefttouch": "V
+	"/actions/dualanalog/in/leftvalue": "V
+	"/actions/dualanalog/in/modeswitch1": "Visa stora bokst
+	"/actions/dualanalog/in/modeswitch2": "Visa symboler",
+	"/actions/dualanalog/in/rightclick": "H
+	"/actions/dualanalog/in/righttouch": "H
+	"/actions/dualanalog/in/rightvalue": "H
+	"/actions/lasermouse": "Lasermus",
+	"/actions/lasermouse/in/back": "G
+	"/actions/lasermouse/in/enter": "Ange",
+	"/actions/lasermouse/in/home": "G
+	"/actions/lasermouse/in/leftclick": "V
+	"/actions/lasermouse/in/lockmouseposition": "L
 	"/actions/lasermouse/in/movedown": "Flytta ned",
-	"/actions/lasermouse/in/trackpadtouch": "Beröring av styrplatta",
-	"/actions/lasermouse/in/trackpadvalue": "Förflyttning av styrplatta",
+	"/actions/lasermouse/in/moveleft": "Flytta till v
+	"/actions/lasermouse/in/moveright": "Flytta till h
+	"/actions/lasermouse/in/moveup": "Flytta upp",
+	"/actions/lasermouse/in/pointer": "Lasermuspekare",
+	"/actions/lasermouse/in/rightclick": "H
 	"/actions/lasermouse/in/switchgamepadfocus": "Byt panelfokus (Spelkontroll)",
 	"/actions/lasermouse/in/trackpadscroll": "Skrolla panel",
-	"/actions/lasermouse/in/enter": "Ange",
-	"/actions/lasermouse/in/pointer": "Lasermuspekare",
-	"/actions/scroll_discrete/in/scroll": "Skrolla panel",
-	"/actions/scroll_smooth/in/scroll": "Skrolla panel",
-	"/actions/lasermouse_secondary/in/switchlaserhand": "Gör till aktiv hand",
-	"/actions/dualanalog/in/rightclick": "Höger tangentbordsklick",
-	"/actions/dualanalog/in/leftclick": "Vänster tangentbordsklick",
-	"/actions/dualanalog/in/righttouch": "Höger tangentbordsberöring",
-	"/actions/dualanalog/in/lefttouch": "Vänster tangentbordsberöring",
-	"/actions/dualanalog/in/rightvalue": "Höger tangentbordsförflyttning",
-	"/actions/dualanalog/in/leftvalue": "Vänster tangentbordsförflyttning",
-	"/actions/dualanalog/in/modeswitch1": "Visa stora bokstäver",
-	"/actions/dualanalog/in/modeswitch2": "Visa symboler",
-	"/actions/dualanalog/in/cancel": "Stäng tangentbord",
-	"/actions/system/in/systembuttonchord": "Systemåtgärdsläge",
-	"/actions/system/in/toggleroomview": "Rumsvy på/av",
-	"/actions/system/in/volumeup": "Höj volym",
-	"/actions/system/in/volumedown": "Sänk volym",
-	"/actions/system/in/toggledashboard": "Öppna/stäng instrumentpanel",
-	"/actions/system/in/showpowermenu": "Visa strömmenyn",
-	"/actions/system/in/takescreenshot": "Ta skärmbild",
-	"/actions/system/in/mutemicrophone": "Dämpa mikrofon",
+	"/actions/lasermouse/in/trackpadtouch": "Ber
+	"/actions/lasermouse/in/trackpadvalue": "F
+	"/actions/lasermouse_secondary": "Sekund
+	"/actions/lasermouse_secondary/in/switchlaserhand": "G
 	"/actions/normal": "Normal drift",
-	"/actions/chord": "Knappgenväg för system",
-	"/actions/lasermouse": "Lasermus",
-	"/actions/lasermouse_secondary": "Sekundär handhållen lasermus",
-	"/actions/dualanalog": "Tangentbordsinmatning",
-	"/actions/system": "Systemåtgärder",
 	"/actions/scroll_discrete": "Skrolla med mushjul",
+	"/actions/scroll_discrete/in/scroll": "Skrolla panel",
 	"/actions/scroll_smooth": "Skrolla med styrplatta"
-}
+	"/actions/scroll_smooth/in/scroll": "Skrolla panel",
+	"/actions/system": "System
+	"/actions/system/in/CloseDashboard": "St
+	"/actions/system/in/OpenDashboard": "
+	"/actions/system/in/ShowPowerMenu": "Visa str
+	"/actions/system/in/SystemButtonChord": "System
+	"/actions/system/in/TakeScreenshot": "Ta sk
+	"/actions/system/in/ToggleDashboard": "
+	"/actions/system/in/ToggleRoomView": "Rumsvy p
+	"/actions/system/in/mutemicrophone": "D
+	"/actions/system/in/showpowermenu": "Visa str
+	"/actions/system/in/systembuttonchord": "System
+	"/actions/system/in/takescreenshot": "Ta sk
+	"/actions/system/in/toggledashboard": "
+	"/actions/system/in/toggleroomview": "Rumsvy p
+	"/actions/system/in/volumedown": "S
+	"/actions/system/in/volumeup": "H
+	"language_tag": "sv_SE",
+ till startsidan",
+ tillbaka",
+/av",
+ger musklick",
+ger tangentbordsber
+ger tangentbordsf
+ger tangentbordsklick",
+ger",
+j volym",
+llen lasermus",
+mmenyn",
+mpa mikrofon",
+ng instrumentpanel",
+ng tangentbord",
+nk volym",
+nster musklick",
+nster tangentbordsber
+nster tangentbordsf
+nster tangentbordsklick",
+nster",
+ppna instrumentpanel",
+ppna/st
+r handh
+r system",
+r till aktiv hand",
+rder",
+rflyttning av styrplatta",
+rflyttning",
+ring av styrplatta",
+ring",
+rmbild",
+s musl
+ver",

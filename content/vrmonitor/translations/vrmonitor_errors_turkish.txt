@@ -1,952 +1,1336 @@
-"lang"
-{
-"Language" "turkish" 
-"Tokens"
-{
-
-"Error_NoHMDAvailable_Header" "Başlık Algılanmadı"
-"Error_NoHMDAvailable_Description" "Başlığınızın düzgün bir şekilde bağlı olduğundan emin olun ve SteamVR'ı yeniden başlatın."
-"Error_NoHMDAvailable_Action" "Ayrıntılı bilgi"
-"Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
-
-"Error_HMDDoesNotTrack_Header" "Aranıyor..."
-"Error_HMDDoesNotTrack_Description" "Başlığınızın bir takip istasyonunu gördüğünden emin olun."
-"Error_HMDDoesNotTrack_Action" "Ayrıntılı bilgi"
-"Error_HMDDoesNotTrack_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
-
-"Error_NoCompositorAvailable_Header" "SteamVR Hatası"
-"Error_NoCompositorAvailable_Description" "Hay aksi! SteamVR beklenmedik bir hata ile karşılaştı."
-"Error_NoCompositorAvailable_Action" "SteamVR'ı Yeniden Başlat"
-"Error_NoCompositorAvailable_ActionURL" "vrmonitor://restartsystem"
-
-"Error_NoChaperoneAvailable_Header" "Oda Kurulumu"
-"Error_NoChaperoneAvailable_Description" "Artık VR oyun alanınızı ve Chaperone sınırlarınızı ayarlama zamanı."
-"Error_NoChaperoneAvailable_Action" "Oda Kurulumunu Yapın"
-"Error_NoChaperoneAvailable_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"Error_CompositorNotFullscreen_Header" "Başlık Hatası"
-"Error_CompositorNotFullscreen_Description" "Başlığınızın ekranının tam ekran modunda olduğuna emin olun."
-"Error_CompositorNotFullscreen_Action" "Tam ekran modunu etkinleştir"
-"Error_CompositorNotFullscreen_ActionURL" "vrmonitor://makecompositorfullscreen"
-
-"Error_CompositorNotRunning_Header" "SteamVR Hatası"
-"Error_CompositorNotRunning_Description" "Olamaz! SteamVR beklenmeyen bir sorunla karşılaştı."
-"Error_CompositorNotRunning_Action" "SteamVR'ı Yeniden Başlat"
-"Error_CompositorNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_CompositorTooManyRunning_Header" "SteamVR Hatası"
-"Error_CompositorTooManyRunning_Description" "Olamaz! SteamVR beklenmeyen bir sorunla karşılaştı."
-"Error_CompositorTooManyRunning_Action" "SteamVR'ı yeniden başlat"
-"Error_CompositorTooManyRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_PrismNotRunning_Header" "SteamVR Hatası"
-"Error_PrismNotRunning_Description" "Olamaz! SteamVR beklenmeyen bir sorunla karşılaştı."
-"Error_PrismNotRunning_Action" "SteamVR'ı yeniden başlat"
-"Error_PrismNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_VRServerNotRunning_Header" "SteamVR Hatası"
-"Error_VRServerNotRunning_Description" "Olamaz! SteamVR beklenmeyen bir sorunla karşılaştı."
-"Error_VRServerNotRunning_Action" "SteamVR'ı Yeniden Başlat"
-"Error_VRServerNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_TrackingDevice_NotValid_Header" "Aygıt Bağlı Değil"
-"Error_TrackingDevice_NotValid_Description" "Açık olduğuna emin olun ve tekrar deneyin."
-"Error_TrackingDevice_NotValid_Action" "Yeniden bağlan"
-"Error_TrackingDevice_NotValid_ActionURL" "vrmonitor://restartsystem"
-
-"Error_TrackingDevice_NoPose_Header" "Aranıyor..."
-"Error_TrackingDevice_NoPose_Description" "Bu cihaz takip edilemiyor. Bir takip istasyonunun görüşünde olduğuna emin olun."
-"Error_TrackingDevice_NoPose_Action" "Ayrıntılı bilgi"
-"Error_TrackingDevice_NoPose_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
-
-"VRInitError_Unknown_Header" "SteamVR Hatası"
-"VRInitError_Unknown_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Unknown_Action" "Ayrıntılı bilgi"
-"VRInitError_Unknown_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_InstallationNotFound_Header" "SteamVR Hatası"
-"VRInitError_Init_InstallationNotFound_Description" "Bazı zaruri dosyaların eksik olduğunu fark ettik."
-"VRInitError_Init_InstallationNotFound_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_InstallationNotFound_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=81&return_nodeid=71"
-
-"VRInitError_Init_InstallationCorrupt_Header" "SteamVR Hatası"
-"VRInitError_Init_InstallationCorrupt_Description" "Bazı zaruri dosyaların eksik olduğunu fark ettik. Lütfen SteamVR'ı yeniden yükleyin."
-"VRInitError_Init_InstallationCorrupt_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_InstallationCorrupt_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"VRInitError_Init_VRClientDLLNotFound_Header" "SteamVR Hatası"
-"VRInitError_Init_VRClientDLLNotFound_Description" "Bazı zaruri dosyaların eksik olduğunu fark ettik. Lütfen SteamVR'ı yeniden yükleyin."
-"VRInitError_Init_VRClientDLLNotFound_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_VRClientDLLNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"VRInitError_Init_FileNotFound_Header" "SteamVR Hatası"
-"VRInitError_Init_FileNotFound_Description" "Bazı zaruri dosyaların eksik olduğunu fark ettik. Lütfen SteamVR'ı yeniden yükleyin."
-"VRInitError_Init_FileNotFound_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_FileNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"VRInitError_Init_FactoryNotFound_Header" "SteamVR Hatası"
-"VRInitError_Init_FactoryNotFound_Description" "Bazı zaruri dosyaların eksik olduğunu fark ettik. Lütfen SteamVR'ı yeniden yükleyin."
-"VRInitError_Init_FactoryNotFound_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_FactoryNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"VRInitError_Init_InterfaceNotFound_Header" "SteamVR Güncellemesi"
-"VRInitError_Init_InterfaceNotFound_Description" "SteamVR'ın güncellemeye ihtiyacı olduğunu fark ettik. Lütfen SteamVR'dan çıkın ve uygulamayı güncellemek için Steam İndirmeleri sekmesine gidin."
-"VRInitError_Init_InterfaceNotFound_Action" " "
-"VRInitError_Init_InterfaceNotFound_ActionURL" "
-"
-
-"VRInitError_Init_InvalidInterface_Header" "SteamVR Hatası"
-"VRInitError_Init_InvalidInterface_Description" "Beklenmedik bir problemle karşılaştık. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_InvalidInterface_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_InvalidInterface_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_UserConfigDirectoryInvalid_Header" "SteamVR Hatası"
-"VRInitError_Init_UserConfigDirectoryInvalid_Description" "SteamVR kurulumunuzda bir hata olduğunu fark ettik. Lütfen SteamVR yapılandırma dizinini belirleyin."
-"VRInitError_Init_UserConfigDirectoryInvalid_Action" "Yapılandırma Dizinini Belirle"
-"VRInitError_Init_UserConfigDirectoryInvalid_ActionURL" "vrmonitor://setconfig"
-
-"VRInitError_Init_HmdNotFound_Header" "Başlık algılanmadı"
-"VRInitError_Init_HmdNotFound_Description" "Başlığınızın düzgün bir şekilde bağlandığından emin olun ve aşağıdan sıfırlayın."
-"VRInitError_Init_HmdNotFound_FirstAction" "Başlığı sıfırla"
-"VRInitError_Init_HmdNotFound_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdNotFound_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_HmdNotFound_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Init_NotInitialized_Header" "SteamVR Hatası"
-"VRInitError_Init_NotInitialized_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_NotInitialized_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_NotInitialized_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=37&return_nodeid=71"
-
-"VRInitError_Init_PathRegistryNotFound_Header" "SteamVR Hatası"
-"VRInitError_Init_PathRegistryNotFound_Description" "Bazı zaruri dosyaların eksik olduğunu fark ettik. Lütfen yeniden deneyin."
-"VRInitError_Init_PathRegistryNotFound_Action" "Mevcut dizinden tekrar deneyin"
-"VRInitError_Init_PathRegistryNotFound_ActionURL" "vrmonitor://runfromcurrentdirectory"
-
-"VRInitError_Init_NoConfigPath_Header" "SteamVR Hatası"
-"VRInitError_Init_NoConfigPath_Description" "SteamVR kurulumunuzda bir hata olduğunu fark ettik. Lütfen SteamVR yapılandırma dizinini belirleyin."
-"VRInitError_Init_NoConfigPath_Action" "Yapılandırma Dizinini Belirle"
-"VRInitError_Init_NoConfigPath_ActionURL" "vrmonitor://setconfig"
-
-"VRInitError_Init_NoLogPath_Header" "SteamVR Hatası"
-"VRInitError_Init_NoLogPath_Description" "SteamVR kurulumunuzda bir hata olduğunu fark ettik. Lütfen SteamVR kayıt dizinini belirleyin."
-"VRInitError_Init_NoLogPath_Action" "Kayıt Dizinini Belirle"
-"VRInitError_Init_NoLogPath_ActionURL" "vrmonitor://setlog"
-
-"VRInitError_Init_PathRegistryNotWritable_Header" "SteamVR Hatası"
-"VRInitError_Init_PathRegistryNotWritable_Description" "SteamVR bilgiyi kaydedemedi. Lütfen bu bilgisayardaki kullanıcı izinlerinizi gözden geçirin."
-"VRInitError_Init_PathRegistryNotWritable_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_PathRegistryNotWritable_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_AppInfoInitFailed_Header" "SteamVR Hatası"
-"VRInitError_Init_AppInfoInitFailed_Description" "SteamVR'ın önemli bir bileşeni düzgün çalışmıyor. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_AppInfoInitFailed_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_AppInfoInitFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_Retry_Header" "SteamVR Hatası"
-"VRInitError_Init_Retry_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_Retry_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_Retry_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_InitCanceledByUser_Header" "SteamVR Hatası"
-"VRInitError_Init_InitCanceledByUser_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_InitCanceledByUser_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_InitCanceledByUser_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_AnotherAppLaunching_Header" "SteamVR Hatası"
-"VRInitError_Init_AnotherAppLaunching_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_AnotherAppLaunching_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_AnotherAppLaunching_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_SettingsInitFailed_Header" "SteamVR Hatası"
-"VRInitError_Init_SettingsInitFailed_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_SettingsInitFailed_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_SettingsInitFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_ShuttingDown_Header" "SteamVR Hatası"
-"VRInitError_Init_ShuttingDown_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_ShuttingDown_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_ShuttingDown_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_TooManyObjects_Header" "SteamVR Hatası"
-"VRInitError_Init_TooManyObjects_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_TooManyObjects_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_TooManyObjects_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NoServerForBackgroundApp_Header" "SteamVR Hatası"
-"VRInitError_Init_NoServerForBackgroundApp_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_NoServerForBackgroundApp_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NotSupportedWithCompositor_Header" "SteamVR Hatası"
-"VRInitError_Init_NotSupportedWithCompositor_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_NotSupportedWithCompositor_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NotAvailableToUtilityApps_Header" "SteamVR Hatası"
-"VRInitError_Init_NotAvailableToUtilityApps_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_NotAvailableToUtilityApps_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_NotAvailableToUtilityApps_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Internal_Header" "SteamVR Hatası"
-"VRInitError_Internal_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Internal_Action" "Ayrıntılı bilgi"
-"VRInitError_Internal_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_HmdDriverIdIsNone_Header" "Başlık algılanmadı"
-"VRInitError_Init_HmdDriverIdIsNone_Description" "Başlığınızın düzgün bir şekilde bağlandığından emin olun ve aşağıdan sıfırlayın."
-"VRInitError_Init_HmdDriverIdIsNone_FirstAction" "Başlığı Yeniden Başlat"
-"VRInitError_Init_HmdDriverIdIsNone_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdDriverIdIsNone_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_HmdDriverIdIsNone_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Init_HmdNotFoundPresenceFailed_Header" "Başlık algılanmadı"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Description" "Başlığınızın düzgün bir şekilde bağlandığından emin olun ve aşağıdan sıfırlayın."
-"VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction" "Başlığı Yeniden Başlat"
-"VRInitError_Init_HmdNotFoundPresenceFailed_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Action" "Ayrıntılı bilgi"
-"VRInitError_Init_HmdNotFoundPresenceFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Driver_Failed_Header" "SteamVR Hatası"
-"VRInitError_Driver_Failed_Description" "SteamVR bir hatayla karşılaştı. Lütfen bu bilgisayardaki kullanıcı izinlerinizi gözden geçirin. Veya kendiniz SteamVR sürücü klasörüne bir şeyler eklediyseniz lütfen kaldırın."
-"VRInitError_Driver_Failed_Action" "Ayrıntılı bilgi"
-"VRInitError_Driver_Failed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_Unknown_Header" "SteamVR Hatası"
-"VRInitError_Driver_Unknown_Description" "SteamVR bir cihaz hatasıyla karşılaştı."
-"VRInitError_Driver_Unknown_Action" "Düzeltin!"
-"VRInitError_Driver_Unknown_ActionURL" "vrmonitor://unsetforceddriver"
-
-"VRInitError_Driver_HmdUnknown_Header" "Başlık tanınamadı"
-"VRInitError_Driver_HmdUnknown_Description" "SteamVR bu başlığı tanımlarken sorun yaşıyor."
-"VRInitError_Driver_HmdUnknown_Action" "Düzeltin!"
-"VRInitError_Driver_HmdUnknown_ActionURL" "vrmonitor://unsetforcedhmd"
-
-"VRInitError_Driver_NotLoaded_Header" "SteamVR Hatası"
-"VRInitError_Driver_NotLoaded_Description" "SteamVR için gerekli olan bir sürücü düzgün bir şekilde yüklenmiyor. Lütfen SteamVR kurulumunuzu kontrol edin."
-"VRInitError_Driver_NotLoaded_Action" "Ayrıntılı bilgi"
-"VRInitError_Driver_NotLoaded_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"VRInitError_Driver_RuntimeOutOfDate_Header" "SteamVR Hatası"
-"VRInitError_Driver_RuntimeOutOfDate_Description" "Oculus yazılımınız güncel değil. Lütfen güncel sürümünü yükleyin."
-"VRInitError_Driver_RuntimeOutOfDate_Action" "oculus.com adresini ziyaret edin"
-"VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://www.oculus.com/rift-patch/"
-
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Windows 10 Güncellemesi"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "SteamVR'ı Windows Mixed Reality ile kullanmak için Windows'un son sürümünü yüklemeniz gerekmektedir."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Ayrıntılı bilgi edinin"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
-
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link Etkinleştirilmedi"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Quest 2 gibi tek başına kullanılabilen bir aygıt kullanıyorsanız, SteamVR başlatmadan önce başlıktan Link veya Air Link'i manuel olarak etkinleştirmelisiniz."
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "SteamVR'ı Yeniden Başlat"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "oculus.com adresine gidin"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
-
-"VRInitError_Driver_HmdInUse_Header" "SteamVR Hatası"
-"VRInitError_Driver_HmdInUse_Description" "Başlığınız başka bir uygulama tarafından kullanılıyor. Lütfen uygulamayı kapatın ve tekrar deneyin."
-"VRInitError_Driver_HmdInUse_Action" "Tekrar dene"
-"VRInitError_Driver_HmdInUse_ActionURL" "vrmonitor://refresh"
-
-"VRInitError_Driver_NotCalibrated_Header" "Cihaz Hatası"
-"VRInitError_Driver_NotCalibrated_Description" "SteamVR bir kalibrasyon dosyasını yüklerken sorun yaşıyor."
-"VRInitError_Driver_NotCalibrated_Action" "Ayrıntılı bilgi"
-"VRInitError_Driver_NotCalibrated_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_CalibrationInvalid_Header" "Başlık Hatası"
-"VRInitError_Driver_CalibrationInvalid_Description" "SteamVR, başlığınızın sürücülerini yüklerken sorun yaşıyor."
-"VRInitError_Driver_CalibrationInvalid_Action" "Ayrıntılı bilgi"
-"VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_HmdDisplayNotFound_Header" "Başlık Ekranının Bağlantısı Kesildi"
-"VRInitError_Driver_HmdDisplayNotFound_Description" "Lütfen video kablolarının güvenli bir şekilde bağlandığından emin olun. Başlığın ekranı bulunamadı."
-"VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Başlığı Yeniden Başlat"
-"VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
-"VRInitError_Driver_HmdDisplayNotFound_Action" "Ayrıntılı bilgi"
-"VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Dizüstü Bilgisayar: Başlığın Ekran Bağlantısı Kesildi"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Görüntü kablolarınızın dizüstü bilgisayarınıza güvenli bir şekilde bağlandığından emin olun. VR'ın dizüstü bilgisayarlarda çalışması için özel bir kurulum gerekebilir."
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Başlığı Yeniden Başlat"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "Ayrıntılı bilgi"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_HmdDisplayMirrored_Header" "Başlık görüntüsü ikizlendi"
-"VRInitError_Driver_HmdDisplayMirrored_Description" "Başlığın ekranı bulunamadı, ama yansıtılmış başka bir ekran tespit edildi. Lütfen başlığınızı yansıtılmış yerine genişletilmiş olarak ayarlayın."
-"VRInitError_Driver_HmdDisplayMirrored_FirstAction" "Görüntü özelliklerini göster"
-"VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
-"VRInitError_Driver_HmdDisplayMirrored_Action" "Ayrıntılı bilgi"
-"VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset&l=turkish"
-
-"VRInitError_Driver_PeerDriverNotInstalled_Header" "Eksik Sürücü"
-"VRInitError_Driver_PeerDriverNotInstalled_Description" "Mevcut başlık yüklü olmayan bir sürücüye ihtiyaç duyuyor."
-"VRInitError_Driver_PeerDriverNotInstalled_Action" "Daha fazla bilgi"
-"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Kablosuz Bağlantı Bekleniyor"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR, kablosuz bir başlığın bağlanmasını bekliyor..."
-"VRInitError_Init_PrismNeedsNewDrivers_Header" "Grafik sürücüsü güncellemesi"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Bilgisayarınızın grafik sürücüsünü güncelleştirmeli veya donanım hızlandırmalı GPU zamanlamasını etkinleştirmelisiniz."
-"VRInitError_Init_PrismNeedsNewDrivers_Action" "Daha fazla bilgi"
-"VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"VRInitError_Init_PrismStartupTimedOut_Header" "SteamVR Başlatma Sorunu"
-"VRInitError_Init_PrismStartupTimedOut_Description" "SteamVR'ın gerekli bileşenlerinden birinin başlaması çok uzun sürdü ve başlayamadı."
-"VRInitError_Init_PrismStartupTimedOut_Action" "SteamVR'ı yeniden başlat"
-"VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
-
-"VRInitError_Init_CouldNotStartPrism_Header" "SteamVR Başlatma Sorunu"
-"VRInitError_Init_CouldNotStartPrism_Description" "Steam VR'ın önemli bileşenlerinden biri bulunamadı. Steam'de SteamVR için \"Araç dosyalarının bütünlüğünü doğrula...\" seçeneğini deneyin."
-"VRInitError_Init_CouldNotStartPrism_Action" "Daha fazla bilgi"
-"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
-
-"VRInitError_Init_PrismClientInitFailed_Header" "SteamVR Başlatma Sorunu"
-"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_PrismClientInitFailed_Action" "Daha fazla bilgi"
-"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_PrismClientStartFailed_Header" "SteamVR Başlatma Sorunu"
-"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR beklenmedik bir sorunla karşılaştı. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_Init_PrismClientStartFailed_Action" "Daha fazla bilgi"
-"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR Hatası"
-"VRInitError_Init_PrismExitedUnexpectedly_Description" "SteamVR'ın önemli bir bileşeni çalışmıyor."
-"VRInitError_Init_PrismExitedUnexpectedly_Action" "SteamVR'ı Yeniden Başlat"
-"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
-
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Başlık algılanmadı"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Başlığınızın düzgün bir şekilde bağlandığından emin olun ve aşağıdan sıfırlayın."
-"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction" "Başlığı sıfırla"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Action" "Ayrıntılı bilgi"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header" "Cihaz Hatası"
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description" "Bu cihaz tarafından kullanılan sürücü SteamVR'ın bu sürümüyle uyumlu değil."
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "Ayrıntılı bilgi"
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues&l=turkish"
-
-"VRInitError_IPC_ServerInitFailed_Header" "SteamVR Yükleme Sorunu"
-"VRInitError_IPC_ServerInitFailed_Description" "SteamVR'ın temel bir bileşeni düzgün çalışmıyor. Lütfen SteamVR'ın düzgün bir yüklendiğini doğrulayın."
-"VRInitError_IPC_ServerInitFailed_Action" "Ayrıntılı bilgi"
-"VRInitError_IPC_ServerInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"VRInitError_IPC_ConnectFailed_Header" "SteamVR Hatası"
-"VRInitError_IPC_ConnectFailed_Description" "SteamVR'ın bir anahtar bileşeni düzgün bir şekilde çalışmıyor."
-"VRInitError_IPC_ConnectFailed_Action" "Ayrıntılı bilgi"
-"VRInitError_IPC_ConnectFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=40&return_nodeid=71"
-
-"VRInitError_IPC_SharedStateInitFailed_Header" "SteamVR Hatası"
-"VRInitError_IPC_SharedStateInitFailed_Description" "SteamVR'ın temel bir bileşeni düzgün bir şekilde çalışmıyor. Lütfen bilgisayarınızı yeniden başlatın ve tekrar deneyin."
-"VRInitError_IPC_SharedStateInitFailed_Action" "Ayrıntılı bilgi"
-"VRInitError_IPC_SharedStateInitFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_IPC_CompositorInitFailed_Header" "Bir şeyler yanlış gitti"
-"VRInitError_IPC_CompositorInitFailed_Description" "SteamVR'ın temel bir bileşeni düzgün çalışmıyor. Lütfen SteamVR'ı yeniden başlatın."
-"VRInitError_IPC_CompositorInitFailed_Action" "Ayrıntılı bilgi"
-"VRInitError_IPC_CompositorInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"VRInitError_IPC_MutexInitFailed_Header" "Bir şeyler yanlış gitti"
-"VRInitError_IPC_MutexInitFailed_Description" "SteamVR'ın temel bir bileşeni düzgün çalışmıyor. Lütfen SteamVR'ı yeniden başlatın."
-"VRInitError_IPC_MutexInitFailed_Action" "Ayrıntılı bilgi"
-"VRInitError_IPC_MutexInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"VRInitError_IPC_Failed_Header" "SteamVR Hatası"
-"VRInitError_IPC_Failed_Description" "Beklenmedik bir problem oluştu. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"VRInitError_IPC_Failed_Action" "Ayrıntılı bilgi"
-"VRInitError_IPC_Failed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=77&return_nodeid=71"
-
-"VRInitError_IPC_CompositorConnectFailed_Header" "SteamVR Hatası"
-"VRInitError_IPC_CompositorConnectFailed_Description" "SteamVR'ın temel bir bileşeni düzgün çalışmıyor. Lütfen SteamVR'ı kapatın, yeniden başlatmadan önce Görev Yöneticisi'ne gidin ve geri kalan SteamVR işlemlerini kapatın."
-"VRInitError_IPC_CompositorConnectFailed_Action" "Ayrıntılı bilgi"
-"VRInitError_IPC_CompositorConnectFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_CompositorInvalidConnectResponse_Header" "SteamVR Hatası"
-"VRInitError_IPC_CompositorInvalidConnectResponse_Description" "SteamVR'ın temel bir bileşeni düzgün çalışmıyor. Lütfen SteamVR'ı kapatın, yeniden başlatmadan önce Görev Yöneticisi'ne gidin ve geri kalan SteamVR işlemlerini kapatın."
-"VRInitError_IPC_CompositorInvalidConnectResponse_Action" "Ayrıntılı bilgi"
-"VRInitError_IPC_CompositorInvalidConnectResponse_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header" "SteamVR Hatası"
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description" "SteamVR'ın temel bir bileşeni düzgün çalışmıyor. Lütfen SteamVR'ı kapatın, yeniden başlatmadan önce Görev Yöneticisi'ne gidin ve geri kalan SteamVR işlemlerini kapatın."
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "Ayrıntılı bilgi"
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Header" "SteamVR Hatası"
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "SteamVR'ın temel bir bileşeni düzgün çalışmıyor. Lütfen SteamVR'ı yeniden başlatın."
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "Daha fazla bilgi"
-"VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_NamespaceUnavailable_Header" "SteamVR Hatası"
-"VRInitError_IPC_NamespaceUnavailable_Description" "SteamVR'ın temel bir bileşeni düzgün çalışmıyor. Lütfen SteamVR'ı yeniden başlatın."
-"VRInitError_IPC_NamespaceUnavailable_Action" "Daha fazla bilgi"
-"VRInitError_IPC_NamespaceUnavailable_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_Compositor_D3D11HardwareRequired_Header" "Sistemi Yükseltme Zamanı"
-"VRInitError_Compositor_D3D11HardwareRequired_Description" "SteamVR, DirectX 11 ile uyumlu donanım ya da sürücüleri tespit edemedi. Sisteminizi yükseltmeniz gerekebilir."
-"VRInitError_Compositor_D3D11HardwareRequired_Action" "Ayrıntılı bilgi"
-"VRInitError_Compositor_D3D11HardwareRequired_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Compositor_FirmwareRequiresUpdate_Header" "Güncelleme Zamanı"
-"VRInitError_Compositor_FirmwareRequiresUpdate_Description" "Başlığınız algılandı ancak düzgün çalışabilmesi için güncellemesi gerekli."
-"VRInitError_Compositor_FirmwareRequiresUpdate_Action" "Başlığı güncelleştir"
-"VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
-
-"VRInitError_Compositor_UnableToCreateDevice_Header" "SteamVR Grafik Hatası"
-"VRInitError_Compositor_UnableToCreateDevice_Description" "Bilgisayarınızın grafik sürücüsünü güncelleştirmeniz gerekmektedir."
-"VRInitError_Compositor_UnableToCreateDevice_Action" "Ayrıntılı bilgi"
-"VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR Hatası"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR, Oculus uygulaması ile bağlantı sağlayamadı. Lütfen en son sürümün yüklü olduğundan emin olun."
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "oculus.com adresini ziyaret edin"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
-
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "SteamVR Hatası"
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Oculus yüklemesiyle ilgili bir sorun meydana geldi. Lütfen yeniden başlatın ve Oculus yazılımının yüklü ve güncellenmiş olduğundan emin olun."
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Action" "oculus.com adresini ziyaret edin"
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_ActionURL" "https://www.oculus.com/setup/"
-
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Header" "USB Hatası"
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Description" "Başlığınızın USB bağlantısını kontrol edin ve tekrar deneyin."
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Action" "Ayrıntılı bilgi"
-"VRInitError_VendorSpecific_HmdFound_UserDataError_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "Başlık Hatası"
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description" "Başlığınız algılandı ama donanım ile ilgili bir problem var. Lütfen yardım için üreticiyle irtibat kurun."
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" "
-"
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
-
-"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Başlık Ekranı Yapılandırma Hatası"
-"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Başlık ekranı geçersiz bir yapılandırmaya sahip. Yardım almak için lütfen destekle irtibata geçin."
-"VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR Hatası"
-"VRInitError_Steam_SteamInstallationNotFound_Description" "SteamVR'ın düzgün çalışması için Steam'in yüklü olması gerekmektedir."
-"VRInitError_Steam_SteamInstallationNotFound_Action" "Steam'i yükle"
-"VRInitError_Steam_SteamInstallationNotFound_ActionURL" "vrmonitor://installsteam"
-
-"ChaperoneCalibrationState_Warning_Header" "Oda Kurulumu"
-"ChaperoneCalibrationState_Warning_Description" "Oyun alanınızı ve chaperone sınırlarınızı belirlemek için lütfen oda kurulumunu tamamlayın."
-"ChaperoneCalibrationState_Warning_Action" "Oda Kurulumunu Yapın"
-"ChaperoneCalibrationState_Warning_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header" "Oda Kurulumu"
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description" "Bir takip istasyonu taşınmış gibi görünüyor. Lütfen Oda Kurulumu'nu oyun alanınızı ve chaperone sınırlarını belirlemek için tamamlayın."
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action" "Oda Kurulumunu Yapın"
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Header" "Takip istasyonu kaldırıldı"
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description" "SteamVR takip istasyonlarınızdan birinin takibini kaybetti. Lütfen Oda Kurulumu'nu yeniden yapın."
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Action" "Oda Kurulumunu Yapın"
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header" "Oda Kurulumu"
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description" "Oturma pozisyonunuzu ayarlamak için lütfen oda kurulumunu tamamlayın."
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action" "Oda Kurulumunu Yapın"
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_Header" "Oda Kurulumu"
-"ChaperoneCalibrationState_Error_Description" "Oyun alanınızı ve chaperone sınırlarınızı belirlemek için lütfen oda kurulumunu tamamlayın."
-"ChaperoneCalibrationState_Error_Action" "Oda Kurulumunu Yapın"
+ Bekleniyor"
+ Bilgisayar: Ba
+ Denetimi) isteminden \"Evet\" butonuna t
+ Eklentiler Engellendi"
+ Ekran Kart
+ GPU y
+ GPU zamanlamas
+ Hesab
+ Kablosu 
+ Kesildi"
+ Sorunu"
+ SteamVR eklentileri engellendi.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=turkish'>Ayr
+ SteamVR'
+ Windows Mixed Reality ile kullanmak i
+ Yeniden Ba
+ ama donan
+ ancak d
+ anda %1 kanal
+ anda g
+ ayarlama zaman
+ beklemede"
+ bekliyor..."
+ belirlemek i
+ belirleyin"
+ bilgi edinin"
+ bilgi edinin</a>."
+ bilgi i
+ bilgi"
+ bilgisayar
+ bilgisayarlarda 
+ bir 
+ bir SteamVR s
+ bir USB kablosuyla ba
+ bir deneyime neden olabilir. Bu problem, sizin bilgisayar
+ bir giri
+ bulunamad
+ bulunuyor. L
+ cihazlar
+ da deneyebilirsiniz."
+ deneyin. <p> <b>HDCP 1.4 Legacy Compatibility modunu a
+ deneyin. Mevcutsa, ekran kart
+ deneyin. Varsa, ekran kart
+ deneyin."
+ destekliyor!<br>
+ devam ettirmek i
+ dosyalar
+ durumda. <b>%2</b> kare say
+ duyuyor."
+ engelleyen bir 
+ etkileyebilir veya ba
+ etkin"
+ etkinle
+ gerekir."
+ gereklidir."
+ gerekmektedir."
+ gibi g
+ gitti"
+ hareket ettirin."
+ hizmetin kurulumu i
+ ikizlendi"
+ ile ba
+ inceleyin."
+ izinlerinizi g
+ kablolar
+ kablosu 
+ kablosunu 
+ kablosuz olarak ba
+ kalmada sorun ya
+ kapat
+ kapatmay
+ klas
+ kontrol edin ve tekrar deneyin."
+ kontrol edin, g
+ kullan
+ kullanarak ba
+ kulland
+ kullanmak i
+ kullanmaya ba
+ kutlar
+ meydana geldi. E
+ olarak ayarlanmam
+ olarak ayarlay
+ oldu
+ olmas
+ olmayan bir s
+ sadece tek bir takip istasyonu ile 
+ son d
+ sonraki kullan
+ sorun geli
+ sorunlar
+ takip etmiyor. Ba
+ tespit etti. En iyi sonu
+ uygulamalar
+ var."
+ ve Chaperone s
+ ve adapt
+ ve ba
+ ve bir HDCP hatas
+ ve chaperone s
+ ve durumunu g
+ ve g
+ ve yeniden ba
+ verilmi
+ veya SteamVR'
+ ya da ba
+ yans
+ yapt
+ yeniden ba
+ yeniden belirlemek i
+ yeniden y
+ yenileme h
+ yerine geni
+ zaruri dosyalar
+"ChaperoneCalibrationState_Error_Action" "Oda Kurulumunu Yap
 "ChaperoneCalibrationState_Error_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Header" "Oda Kurulumu"
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Description" "SteamVR'ı kullanmaya başlamak için lütfen Oda Kurulumunu tamamlayın."
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Action" "Oda Kurulumunu Yapın"
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_BaseStationConflict_Header" "Oda Kurulumu"
-"ChaperoneCalibrationState_Error_BaseStationConflict_Description" "Oyun alanınızı ve chaperone sınırlarınızı yeniden belirlemek için lütfen oda kurulumunu tamamlayın."
-"ChaperoneCalibrationState_Error_BaseStationConflict_Action" "Oda Kurulumunu Yapın"
+"ChaperoneCalibrationState_Error_BaseStationConflict_Action" "Oda Kurulumunu Yap
 "ChaperoneCalibrationState_Error_BaseStationConflict_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "Oda Kurulumu"
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "Oyun alanınızı ve chaperone sınırlarınızı yeniden belirlemek için lütfen oda kurulumunu tamamlayın."
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Action" "Oda Kurulumunu Yapın"
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header" "Oda Kurulumu"
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description" "Oyun alanınızı ve chaperone sınırlarınızı yeniden belirlemek için lütfen oda kurulumunu tamamlayın."
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action" "Oda Kurulumunu Yapın"
+"ChaperoneCalibrationState_Error_BaseStationConflict_Description" "Oyun alan
+"ChaperoneCalibrationState_Error_BaseStationConflict_Header" "Oda Kurulumu"
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Action" "Oda Kurulumunu Yap
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Description" "SteamVR'
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Header" "Oda Kurulumu"
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action" "Oda Kurulumunu Yap
 "ChaperoneCalibrationState_Error_CollisionBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"Lighthouse_UnknownEvent_Header" "Takip İstasyonu Hatası"
-"Lighthouse_UnknownEvent_Description" "SteamVR İzleme'de bir şeyler ters gitti. Lütfen ayrıntılı bilgi için SteamVR Destek'i ziyaret edin."
-"Lighthouse_UnknownEvent_Action" "Ayrıntılı bilgi"
-"Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Lighthouse_BasestationFactoryError_Header" "Takip İstasyonu Hatası"
-"Lighthouse_BasestationFactoryError_Description" "Bu takip istasyonunda üretim hatası bulunuyor. Lütfen takip istasyonu değişimi için üreticiyle irtibat kurun."
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description" "Oyun alan
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header" "Oda Kurulumu"
+"ChaperoneCalibrationState_Error_Description" "Oyun alan
+"ChaperoneCalibrationState_Error_Header" "Oda Kurulumu"
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Action" "Oda Kurulumunu Yap
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "Oyun alan
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "Oda Kurulumu"
+"ChaperoneCalibrationState_Warning_Action" "Oda Kurulumunu Yap
+"ChaperoneCalibrationState_Warning_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action" "Oda Kurulumunu Yap
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description" "Bir takip istasyonu ta
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header" "Oda Kurulumu"
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Action" "Oda Kurulumunu Yap
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description" "SteamVR takip istasyonlar
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Header" "Takip istasyonu kald
+"ChaperoneCalibrationState_Warning_Description" "Oyun alan
+"ChaperoneCalibrationState_Warning_Header" "Oda Kurulumu"
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action" "Oda Kurulumunu Yap
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description" "Oturma pozisyonunuzu ayarlamak i
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header" "Oda Kurulumu"
+"Error_CompositorNotFullscreen_Action" "Tam ekran modunu etkinle
+"Error_CompositorNotFullscreen_ActionURL" "vrmonitor://makecompositorfullscreen"
+"Error_CompositorNotFullscreen_Description" "Ba
+"Error_CompositorNotFullscreen_Header" "Ba
+"Error_CompositorNotRunning_Action" "SteamVR'
+"Error_CompositorNotRunning_ActionURL" "vrmonitor://restartsystem"
+"Error_CompositorNotRunning_Description" "Olamaz! SteamVR beklenmeyen bir sorunla kar
+"Error_CompositorNotRunning_Header" "SteamVR Hatas
+"Error_CompositorTooManyRunning_Action" "SteamVR'
+"Error_CompositorTooManyRunning_ActionURL" "vrmonitor://restartsystem"
+"Error_CompositorTooManyRunning_Description" "Olamaz! SteamVR beklenmeyen bir sorunla kar
+"Error_CompositorTooManyRunning_Header" "SteamVR Hatas
+"Error_HMDDoesNotTrack_Action" "Ayr
+"Error_HMDDoesNotTrack_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
+"Error_HMDDoesNotTrack_Description" "Ba
+"Error_HMDDoesNotTrack_Header" "Aran
+"Error_NoChaperoneAvailable_Action" "Oda Kurulumunu Yap
+"Error_NoChaperoneAvailable_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"Error_NoChaperoneAvailable_Description" "Art
+"Error_NoChaperoneAvailable_Header" "Oda Kurulumu"
+"Error_NoCompositorAvailable_Action" "SteamVR'
+"Error_NoCompositorAvailable_ActionURL" "vrmonitor://restartsystem"
+"Error_NoCompositorAvailable_Description" "Hay aksi! SteamVR beklenmedik bir hata ile kar
+"Error_NoCompositorAvailable_Header" "SteamVR Hatas
+"Error_NoHMDAvailable_Action" "Ayr
+"Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+"Error_NoHMDAvailable_Description" "Ba
+"Error_NoHMDAvailable_Header" "Ba
+"Error_PrismNotRunning_Action" "SteamVR'
+"Error_PrismNotRunning_ActionURL" "vrmonitor://restartsystem"
+"Error_PrismNotRunning_Description" "Olamaz! SteamVR beklenmeyen bir sorunla kar
+"Error_PrismNotRunning_Header" "SteamVR Hatas
+"Error_TrackingDevice_NoPose_Action" "Ayr
+"Error_TrackingDevice_NoPose_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
+"Error_TrackingDevice_NoPose_Description" "Bu cihaz takip edilemiyor. Bir takip istasyonunun g
+"Error_TrackingDevice_NoPose_Header" "Aran
+"Error_TrackingDevice_NotValid_Action" "Yeniden ba
+"Error_TrackingDevice_NotValid_ActionURL" "vrmonitor://restartsystem"
+"Error_TrackingDevice_NotValid_Description" "A
+"Error_TrackingDevice_NotValid_Header" "Ayg
+"Error_VRServerNotRunning_Action" "SteamVR'
+"Error_VRServerNotRunning_ActionURL" "vrmonitor://restartsystem"
+"Error_VRServerNotRunning_Description" "Olamaz! SteamVR beklenmeyen bir sorunla kar
+"Error_VRServerNotRunning_Header" "SteamVR Hatas
+"Language" "turkish" 
 "Lighthouse_BasestationFactoryError_Action" "
-"
 "Lighthouse_BasestationFactoryError_ActionURL" " "
-
-"Lighthouse_BasestationInternalFault_01_Header" "Takip İstasyonu Hatası"
-"Lighthouse_BasestationInternalFault_01_Description" "Takip istasyonlarınızdan biri dâhili bir sorun geliştirdi. Kırmızı yanıp sönen gösterge ışığına sahip takip istasyonuna lütfen güç dönüşümü yaptırın. Eğer sorun devam ederse lütfen yardım için üretici ile irtibata geçin."
+"Lighthouse_BasestationFactoryError_Description" "Bu takip istasyonunda 
+"Lighthouse_BasestationFactoryError_Header" "Takip 
 "Lighthouse_BasestationInternalFault_01_Action" "
-"
 "Lighthouse_BasestationInternalFault_01_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_02_Header" "Takip İstasyonu Hatası"
-"Lighthouse_BasestationInternalFault_02_Description" "Bir takip istasyonu dâhili bir sorun geliştirdi. Kırmızı yanıp sönen gösterge ışığına sahip takip istasyonuna lütfen güç dönüşümü yaptırın. Eğer sorun devam ederse lütfen yardım için üretici ile irtibata geçin."
+"Lighthouse_BasestationInternalFault_01_Description" "Takip istasyonlar
+"Lighthouse_BasestationInternalFault_01_Header" "Takip 
 "Lighthouse_BasestationInternalFault_02_Action" "
-"
 "Lighthouse_BasestationInternalFault_02_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_03_Header" "Takip İstasyonu Hatası"
-"Lighthouse_BasestationInternalFault_03_Description" "Bir takip istasyonu dâhili bir sorun geliştirdi. Kırmızı yanıp sönen gösterge ışığına sahip takip istasyonuna lütfen güç dönüşümü yaptırın. Eğer sorun devam ederse lütfen yardım için üretici ile irtibata geçin."
+"Lighthouse_BasestationInternalFault_02_Description" "Bir takip istasyonu d
+"Lighthouse_BasestationInternalFault_02_Header" "Takip 
 "Lighthouse_BasestationInternalFault_03_Action" "
-"
 "Lighthouse_BasestationInternalFault_03_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_04_Header" "Takip İstasyonu Hatası"
-"Lighthouse_BasestationInternalFault_04_Description" "Bir takip istasyonu dâhili bir sorun geliştirdi. Kırmızı yanıp sönen gösterge ışığına sahip takip istasyonuna lütfen güç dönüşümü yaptırın. Eğer sorun devam ederse lütfen yardım için üretici ile irtibata geçin."
+"Lighthouse_BasestationInternalFault_03_Description" "Bir takip istasyonu d
+"Lighthouse_BasestationInternalFault_03_Header" "Takip 
 "Lighthouse_BasestationInternalFault_04_Action" "
-"
 "Lighthouse_BasestationInternalFault_04_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_05_Header" "Takip İstasyonu Hatası"
-"Lighthouse_BasestationInternalFault_05_Description" "Bir takip istasyonu bir iç sorun geliştirdi (arıza 5). Lütfen kırmızı yanıp sönen gösterge ışığıyla takip istasyonunu güçten söküp geri bağlayın. Eğer sorun devam ederse lütfen yardım için üretici ile irtibata geçin."
+"Lighthouse_BasestationInternalFault_04_Description" "Bir takip istasyonu d
+"Lighthouse_BasestationInternalFault_04_Header" "Takip 
 "Lighthouse_BasestationInternalFault_05_Action" "
-"
 "Lighthouse_BasestationInternalFault_05_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_06_Header" "Takip İstasyonu Hatası"
-"Lighthouse_BasestationInternalFault_06_Description" "Bir takip istasyonu dâhili bir sorun geliştirdi. Kırmızı yanıp sönen gösterge ışığına sahip takip istasyonuna lütfen güç dönüşümü yaptırın. Eğer sorun devam ederse lütfen yardım için üretici ile irtibata geçin."
+"Lighthouse_BasestationInternalFault_05_Description" "Bir takip istasyonu bir i
+"Lighthouse_BasestationInternalFault_05_Header" "Takip 
 "Lighthouse_BasestationInternalFault_06_Action" "
-"
 "Lighthouse_BasestationInternalFault_06_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_07_Header" "Takip İstasyonu kullanım dışı"
-"Lighthouse_BasestationInternalFault_07_Description" "Bir takip istasyonu dâhili bir sorun geliştirdi. Kırmızı yanıp sönen gösterge ışığına sahip takip istasyonuna lütfen güç dönüşümü yaptırın. Eğer sorun devam ederse lütfen yardım için üretici ile irtibata geçin."
+"Lighthouse_BasestationInternalFault_06_Description" "Bir takip istasyonu d
+"Lighthouse_BasestationInternalFault_06_Header" "Takip 
 "Lighthouse_BasestationInternalFault_07_Action" "
-"
 "Lighthouse_BasestationInternalFault_07_ActionURL" "
-"
-
-"Lighthouse_Disambiguator_TooManyBasestations_Header" "Çok Sayıda Takip İstasyonu"
-"Lighthouse_Disambiguator_TooManyBasestations_Description" "Lütfen başlığınıza ve kontrolcünüze sadece iki tane takip istasyonunun görünür olduğundan emin olun."
+"Lighthouse_BasestationInternalFault_07_Description" "Bir takip istasyonu d
+"Lighthouse_BasestationInternalFault_07_Header" "Takip 
+"Lighthouse_Disambiguator_TdmConfigurationError_Action" "Ayr
+"Lighthouse_Disambiguator_TdmConfigurationError_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
+"Lighthouse_Disambiguator_TdmConfigurationError_Description" "Takip istasyonlar
+"Lighthouse_Disambiguator_TdmConfigurationError_Header" "Takip 
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "Ayr
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "Takip 
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header" "Takip 
 "Lighthouse_Disambiguator_TooManyBasestations_Action" "Yeniden deneyin"
 "Lighthouse_Disambiguator_TooManyBasestations_ActionURL" "vrmonitor://lighthouse_check"
-
-"Lighthouse_Disambiguator_TdmConfigurationError_Header" "Takip İstasyonu Hatası"
-"Lighthouse_Disambiguator_TdmConfigurationError_Description" "Takip istasyonlarınız senkronize değil, lütfen düzgün ayarlandığından emin olun."
-"Lighthouse_Disambiguator_TdmConfigurationError_Action" "Ayrıntılı bilgi"
-"Lighthouse_Disambiguator_TdmConfigurationError_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
-
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header" "Takip İstasyonu Hatası"
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "Takip İstasyonlarınız \"A\" ve \"c\" modunda. Optik senkronizasyon için \"A\" istasyonunu \"b\" moduna alın."
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "Ayrıntılı bilgi"
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
-
-"Lighthouse_RecommendControllerUpgradeOverUsb_Header" "Kontrolcü Güncellemesi Gerekli"
-"Lighthouse_RecommendControllerUpgradeOverUsb_Description" "Bir kontrolcü kablosuz olarak bağlı kalmada sorun yaşıyor. Lütfen bu kontrolcüyü bir USB kablosuyla bağlayın ve ardından cihazı güncelleştirin."
-"Lighthouse_RecommendControllerUpgradeOverUsb_Action" "Kontrolcüyü güncelle"
+"Lighthouse_Disambiguator_TooManyBasestations_Description" "L
+"Lighthouse_Disambiguator_TooManyBasestations_Header" "
+"Lighthouse_RecommendControllerUpgradeOverUsb_Action" "Kontrolc
 "Lighthouse_RecommendControllerUpgradeOverUsb_ActionURL" "vrmonitor://firmwareupdate/"
-
-"Popover_Off_Invalid_Header" "Cihaz bağlı değil"
-"Popover_Off_HMD_Header" "Başlık algılanmadı"
-"Popover_Off_HMD_Description" "Düzgün bir şekilde bağlandığına emin olun."
-"Popover_Off_HMD_Action" "Ayrıntılı bilgi"
-"Popover_Off_HMD_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
-
-"Popover_Off_Controller_Header" "Kontrolcü algılanmadı"
-"Popover_Off_Controller_Description" "Açık ve yakınınızda olduğuna emin olun."
-"Popover_Off_Controller_Action" "Ayrıntılı bilgi"
-"Popover_Off_Controller_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#controllers"
-"Popover_Off_Controller_FirstAction" "Kontrolcüyü Eşleştir"
-"Popover_Off_Controller_FirstActionURL" "vrmonitor://pairingwizard"
-
-"Popover_Off_Base_Header" "Takip istasyonu algılanamadı"
-"Popover_Off_Base_Description" "Açık ve başlığınıza görünür olduğuna emin olun."
-"Popover_Off_Base_Action" "Ayrıntılı bilgi"
-"Popover_Off_Base_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
-
-"Popover_Off_Tracker_Header" "İzleyici algılanmadı"
-"Popover_Off_Tracker_Action" "Daha fazla bilgi"
-"Popover_Off_Tracker_ActionURL" "https://community.viveport.com/t5/Technical-Support/bd-p/technical-support"
-
-"Popover_NotReady_Invalid_Header" "Aygıt hazır değil"
-"Popover_NotReady_Invalid_Action" "Ayrıntılı bilgi"
-"Popover_NotReady_Invalid_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326"
-
-"Popover_NotReady_HMD_Header" "Başlık hazır değil"
-"Popover_NotReady_Controller_Header" "Kontrolcü hazır değil"
-"Popover_NotReady_Controller_Description" "Açık ve yakınınızda olduğuna emin olun."
-"Popover_NotReady_Base_Header" "Takip istasyonu hazır değil"
-"Popover_NotReady_Tracker_Header" "İzleyici hazır değil"
-"Popover_Pose_Invalid_Header" "Cihaz etkin"
-"Popover_Pose_Invalid_Description" "Tanınmayan aygıt izleme yapıyor."
-"Popover_Pose_Invalid_Action" "Daha fazla bilgi"
-"Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Popover_Pose_HMD_Header" "Başlık etkin"
-"Popover_Pose_HMD_Description" "Başlığınız şu anda takip ediliyor."
-"Popover_Pose_Controller_Header" "Kontrolcü etkin"
-"Popover_Pose_Controller_Description" "Bu kontrolcü şu anda takip ediliyor."
-"Popover_Pose_Controller_Action" "Kontrolcü belirleyin"
-"Popover_Pose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_Pose_Base_Header" "Takip istasyonu etkin"
-"Popover_Pose_Base_Description" "Bu takip istasyonu şu anda takip ediliyor."
-"Popover_Pose_Base_Action" "Takip istasyonunu belirle"
-"Popover_Pose_Base_ActionURL" "vrmonitor://identifybasestation/?index=%1"
-
-"Popover_Pose_Tracker_Header" "İzleyici etkin"
-"Popover_Pose_Tracker_Description" "Bu aygıt şu anda izleniyor."
-"Popover_NoPose_Invalid_Header" "İzlenmiyor"
-"Popover_NoPose_Invalid_Description" "Bu aygıt tanınmıyor ve şu anda izleme yapmıyor."
-"Popover_NoPose_Invalid_Action" "Daha fazla bilgi"
-"Popover_NoPose_Invalid_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
-
-"Popover_NoPose_HMD_Header" "Aranıyor..."
-"Popover_NoPose_HMD_Description" "Bu başlık şu anda takip edilmiyor. Bir takip istasyonunun görüşünde olduğuna emin olun."
-"Popover_NoPose_HMD_Action" "Daha fazla bilgi"
-"Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoPose_Controller_Header" "Aranıyor..."
-"Popover_NoPose_Controller_Description" "Bu kontrolcü şu anda izlenmiyor. Bir takip istasyonunun görüşünde olduğuna emin olun."
-"Popover_NoPose_Controller_Action" "Kontrolcü belirleyin"
-"Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_NoPose_Base_Header" "Aranıyor..."
-"Popover_NoPose_Base_Description" "Bu takip istasyonu şu anda hiçbir cihazı takip etmiyor. Başlığınızın görüşünde olduğuna emin olun."
-"Popover_NoPose_Base_Action" "Daha fazla bilgi"
-"Popover_NoPose_Base_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoPose_Tracker_Header" "Aranıyor..."
-"Popover_NoPose_Tracker_Description" "Bu cihaz şu anda izlenmiyor. Bir takip istasyonunun görüşünde olduğuna emin olun."
-"Popover_NoPose_Tracker_Action" "Daha fazla bilgi"
-"Popover_NoPose_Tracker_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Popover_Standby_Invalid_Header" "Beklemede"
-"Popover_Standby_Invalid_Description" "Aygıt beklemede."
-"Popover_Standby_HMD_Header" "Başlık beklemede"
-"Popover_Standby_HMD_Description" "Uyandırmak için başlığınızı hareket ettirin."
-"Popover_Standby_Controller_Header" "Kontrolcü beklemede"
-"Popover_Standby_Controller_Description" "Uyandırmak için kontrolcünüzü hareket ettirin."
-"Popover_Standby_Base_Header" "Takip istasyonu beklemede"
-"Popover_Standby_Base_Description" "Bu takip istasyonunu uyandırmak için VR'ı kullanmaya başlayın."
-"Popover_Standby_Tracker_Header" "İzleyici beklemede"
-"Popover_Standby_Tracker_Description" "Uyandırmak için izleyicinizi hareket ettirin."
-"Popover_LowBattery_HMD_Header" "Başlığın bataryası düşük"
-"Popover_LowBattery_HMD_Description" "Bu başlığın bataryası düşük."
-"Popover_LowBattery_Controller_Header" "Kontrolcünün bataryası düşük"
-"Popover_LowBattery_Controller_Description" "Bu kontrolcünün bataryası düşük."
-"Popover_LowBattery_Controller_Action" "Kontrolcüyü tanımla"
-"Popover_LowBattery_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_LowBattery_Tracker_Header" "İzleyicinin bataryası düşük"
-"Popover_LowBattery_Tracker_Description" "Bu izleyicinin bataryası düşük."
-"Popover_BaseStationNoPowerManagement_Header" "Güç Yönetimi"
-"Popover_BaseStationNoPowerManagement_Description" "Bu takip istasyonu uzaktan güç yönetimini destekleyecek şekilde tasarlanmamıştır."
+"Lighthouse_RecommendControllerUpgradeOverUsb_Description" "Bir kontrolc
+"Lighthouse_RecommendControllerUpgradeOverUsb_Header" "Kontrolc
+"Lighthouse_UnknownEvent_Action" "Ayr
+"Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Lighthouse_UnknownEvent_Description" "SteamVR 
+"Lighthouse_UnknownEvent_Header" "Takip 
 "Popover_BaseStationNoPowerManagement_Action" "Daha fazla bilgi"
 "Popover_BaseStationNoPowerManagement_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoSteamWarning_Header" "Steam Hatası"
-"Popover_NoSteamWarning_Description" "Steam'in yüklü olduğundan ve çalıştığından emin olun."
-"Popover_NoSteamWarning_Action" "Steam'i Başlat"
-"Popover_NoSteamWarning_ActionURL" "vrmonitor://startsteam"
-
-"Popover_FirmwareUpdateNeededWarning_Header" "Güncelleme Mevcut"
-"Popover_FirmwareUpdateNeededWarning_Description" "Bu cihazı güncelleştirme zamanı."
-"Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate" "Cihazı Güncelle"
-"Popover_FirmwareUpdateNeededWarning_Action" "Ayrıntılı bilgi"
-"Popover_FirmwareUpdateNeededWarning_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Popover_ConnectionRefusedBySteam_Header" "Steam Hatası"
-"Popover_ConnectionRefusedBySteam_Description" "SteamVR, Steam'e bağlanırken bir hatayla karşılaştı. Lütfen Steam'i yeniden başlatın ve tekrar deneyin."
-"Popover_ConnectionRefusedBySteam_Action" "Daha fazla bilgi"
-"Popover_ConnectionRefusedBySteam_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Popover_DirectModeDriverUpdate_Header" "Grafik Sürücülerini Güncelle"
-"Popover_DirectModeDriverUpdate_Description" "Direkt Gösterim Modu'nu etkinleştirmek için lütfen video sürücünüzü güncelleyin. Sürüm %1 kurulu ama Direkt Gösterim Modu için %2 sürümü gerekmektedir."
-"Popover_DirectModeDriverUpdate_Action" "Sürücüleri İndir"
-"Popover_DirectModeDriverUpdate_ActionURL_NVIDIA" "http://www.nvidia.com/Download/index.aspx"
-"Popover_DirectModeDriverUpdate_ActionURL_AMD" "http://support.amd.com/en-us/download"
-
-"Popover_BaseStationsTooFarApart_Header" "VR kurulum uyarısı"
-"Popover_BaseStationsTooFarApart_Description" "Takip istasyonlarınız %1 metre uzaktır. En iyi tecrübe için 5,5 metreden daha yakın bir konumda yeniden yerleştirin."
+"Popover_BaseStationNoPowerManagement_Description" "Bu takip istasyonu uzaktan g
+"Popover_BaseStationNoPowerManagement_Header" "G
 "Popover_BaseStationsTooFarApart_Action" "Daha fazla bilgi"
 "Popover_BaseStationsTooFarApart_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Popover_SeeOnlyOneBase_Header" "Sadece bir takip istasyonu görünür durumda"
-"Popover_SeeOnlyOneBase_Description" "Eğer SteamVR'ı sadece tek bir takip istasyonu ile çalıştırıyorsanız, bu istasyonu A moduna geçirmek daha iyi izlemeye neden olacaktır."
+"Popover_BaseStationsTooFarApart_Description" "Takip istasyonlar
+"Popover_BaseStationsTooFarApart_Header" "VR kurulum uyar
+"Popover_ConnectionRefusedBySteam_Action" "Daha fazla bilgi"
+"Popover_ConnectionRefusedBySteam_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Popover_ConnectionRefusedBySteam_Description" "SteamVR, Steam'e ba
+"Popover_ConnectionRefusedBySteam_Header" "Steam Hatas
+"Popover_DirectModeDriverUpdate_Action" "S
+"Popover_DirectModeDriverUpdate_ActionURL_AMD" "http://support.amd.com/en-us/download"
+"Popover_DirectModeDriverUpdate_ActionURL_NVIDIA" "http://www.nvidia.com/Download/index.aspx"
+"Popover_DirectModeDriverUpdate_Description" "Direkt G
+"Popover_DirectModeDriverUpdate_Header" "Grafik S
+"Popover_FirmwareUpdateNeededWarning_Action" "Ayr
+"Popover_FirmwareUpdateNeededWarning_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate" "Cihaz
+"Popover_FirmwareUpdateNeededWarning_Description" "Bu cihaz
+"Popover_FirmwareUpdateNeededWarning_Header" "G
+"Popover_LowBattery_Controller_Action" "Kontrolc
+"Popover_LowBattery_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_LowBattery_Controller_Description" "Bu kontrolc
+"Popover_LowBattery_Controller_Header" "Kontrolc
+"Popover_LowBattery_HMD_Description" "Bu ba
+"Popover_LowBattery_HMD_Header" "Ba
+"Popover_LowBattery_Tracker_Description" "Bu izleyicinin bataryas
+"Popover_LowBattery_Tracker_Header" "
+"Popover_NoPose_Base_Action" "Daha fazla bilgi"
+"Popover_NoPose_Base_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_Base_Description" "Bu takip istasyonu 
+"Popover_NoPose_Base_Header" "Aran
+"Popover_NoPose_Controller_Action" "Kontrolc
+"Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_NoPose_Controller_Description" "Bu kontrolc
+"Popover_NoPose_Controller_Header" "Aran
+"Popover_NoPose_HMD_Action" "Daha fazla bilgi"
+"Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_HMD_Description" "Bu ba
+"Popover_NoPose_HMD_Header" "Aran
+"Popover_NoPose_Invalid_Action" "Daha fazla bilgi"
+"Popover_NoPose_Invalid_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
+"Popover_NoPose_Invalid_Description" "Bu ayg
+"Popover_NoPose_Invalid_Header" "
+"Popover_NoPose_Tracker_Action" "Daha fazla bilgi"
+"Popover_NoPose_Tracker_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_Tracker_Description" "Bu cihaz 
+"Popover_NoPose_Tracker_Header" "Aran
+"Popover_NoSteamWarning_Action" "Steam'i Ba
+"Popover_NoSteamWarning_ActionURL" "vrmonitor://startsteam"
+"Popover_NoSteamWarning_Description" "Steam'in y
+"Popover_NoSteamWarning_Header" "Steam Hatas
+"Popover_NotReady_Base_Header" "Takip istasyonu haz
+"Popover_NotReady_Controller_Description" "A
+"Popover_NotReady_Controller_Header" "Kontrolc
+"Popover_NotReady_HMD_Header" "Ba
+"Popover_NotReady_Invalid_Action" "Ayr
+"Popover_NotReady_Invalid_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326"
+"Popover_NotReady_Invalid_Header" "Ayg
+"Popover_NotReady_Tracker_Header" "
+"Popover_Off_Base_Action" "Ayr
+"Popover_Off_Base_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
+"Popover_Off_Base_Description" "A
+"Popover_Off_Base_Header" "Takip istasyonu alg
+"Popover_Off_Controller_Action" "Ayr
+"Popover_Off_Controller_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#controllers"
+"Popover_Off_Controller_Description" "A
+"Popover_Off_Controller_FirstAction" "Kontrolc
+"Popover_Off_Controller_FirstActionURL" "vrmonitor://pairingwizard"
+"Popover_Off_Controller_Header" "Kontrolc
+"Popover_Off_HMD_Action" "Ayr
+"Popover_Off_HMD_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+"Popover_Off_HMD_Description" "D
+"Popover_Off_HMD_Header" "Ba
+"Popover_Off_Invalid_Header" "Cihaz ba
+"Popover_Off_Tracker_Action" "Daha fazla bilgi"
+"Popover_Off_Tracker_ActionURL" "https://community.viveport.com/t5/Technical-Support/bd-p/technical-support"
+"Popover_Off_Tracker_Header" "
+"Popover_Pose_Base_Action" "Takip istasyonunu belirle"
+"Popover_Pose_Base_ActionURL" "vrmonitor://identifybasestation/?index=%1"
+"Popover_Pose_Base_Description" "Bu takip istasyonu 
+"Popover_Pose_Base_Header" "Takip istasyonu etkin"
+"Popover_Pose_Controller_Action" "Kontrolc
+"Popover_Pose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_Pose_Controller_Description" "Bu kontrolc
+"Popover_Pose_Controller_Header" "Kontrolc
+"Popover_Pose_HMD_Description" "Ba
+"Popover_Pose_HMD_Header" "Ba
+"Popover_Pose_Invalid_Action" "Daha fazla bilgi"
+"Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Popover_Pose_Invalid_Description" "Tan
+"Popover_Pose_Invalid_Header" "Cihaz etkin"
+"Popover_Pose_Tracker_Description" "Bu ayg
+"Popover_Pose_Tracker_Header" "
 "Popover_SeeOnlyOneBase_Action" "Daha fazla bilgi"
 "Popover_SeeOnlyOneBase_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/"
-
-"Warning_DismissableWarning_RunTutorialAgain_Header" "Oda Kurulumu ve Eğitim"
-"Warning_DismissableWarning_RunTutorialAgain_Description" "SteamVR menüsünün altından Oda Kurulumunu ve Eğitimi istediğiniz zaman kullanabilirsiniz."
-"Warning_DismissableWarning_RunTutorialAgain_Action" "Ayrıntılı bilgi"
-"Warning_DismissableWarning_RunTutorialAgain_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_BasestationsTooFarApart_Header" "VR kurulum uyarısı"
-"Warning_DismissableWarning_BasestationsTooFarApart_Description" "Takip istasyonlarınız birbirlerine tavsiye edilenden daha uzağa konumlandırılmış. En iyi tecrübe için birbirlerinden 5,5 metreden (18 feet) fazla uzak olmayacak şekilde yeniden konumlandırmaya çalışın."
-"Warning_DismissableWarning_BasestationsTooFarApart_Action" "Daha fazla bilgi"
-"Warning_DismissableWarning_BasestationsTooFarApart_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Header" "Takip İstasyonu Hatası"
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description" "Takip istasyonlarınız arasındaki görüş açısını engelleyen bir şey olabilir. Eğer bu uyarı sonraki kullanımlarınızda da devam ederse, kablolu senkronizasyona geçmeyi dikkate alabilirsiniz."
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action" "Daha fazla bilgi"
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
-
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header" "Sadece bir tane takip istasyonu saptandı"
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "Eğer sadece bir tane takip istasyonu kullanıyorsanız, bu takip istasyonunda A modunu seçmek izleme kalitesini arttıracaktır."
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" "Daha fazla bilgi"
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/"
-
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Header" "Takip İstasyonu Kurulumu Hatası"
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description" "SteamVR birden fazla ana istasyonun aynı anda %1 kanalını kullandığını tespit etti. En iyi sonuçlar için bütün ana istasyonlarınızda aynı anda görülebilecek özgün kanalları kullanın."
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" "Yapılandır"
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" "vrmonitor://open/settings/bluetooth/configurechannels"
-
-"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Bazı Eklentiler Engellendi"
-"Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>En son</span> meydana gelen bir hata nedeniyle bazı SteamVR eklentileri engellendi.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=turkish'>Ayrıntılı bilgi edinin</a>."
-"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Eklentileri Yönet"
-"Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
-
-"Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR Güncellemesi"
-"Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR %2 sürümüne güncellendi."
-"Warning_DismissableWarning_SteamVRUpdated_Action" "Değişikliklere göz atın"
-"Warning_DismissableWarning_SteamVRUpdated_ActionURL" "%1"
-
-"Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Cihaz Bilgisi"
-"Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Her aygıtla ilgili ayrıntıları ve durumunu görmek için aşağıdaki simgelerin üzerine gelin. Eğer aygıt bir güncelleme gerektiriyorsa, ikonun üzerinde bir ( i ) simgesi göreceksiniz."
-"Warning_DismissableWarning_WarningsForTheFirstTime_Action" "Daha fazla bilgi"
-"Warning_DismissableWarning_WarningsForTheFirstTime_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_MissedFrames_Header" "Uygulama Hatası"
-"Warning_DismissableWarning_MissedFrames_Description" "Mevcut VR uygulaması çok yavaş çalıştığından kötü bir deneyime neden olabilir. Bu problem, sizin bilgisayarınızın yavaş çalışmasından veya uygulamanın çok yüksek sistem gereksinimlerine sahip olmasından kaynaklanıyor olabilir."
-"Warning_DismissableWarning_MissedFrames_Action" "Daha fazla bilgi"
-"Warning_DismissableWarning_MissedFrames_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header" "Bluetooth Hatası"
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description" "Link Box kurulumunun tamamlanması için bir sürücünün kurulu olması gerekir."
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action" "Bluetooth Ayarları"
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Header" "Bluetooth Hatası"
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Description" "Link Box kurulumunun tamamlanması için bir sürücünün güncellenmesi gerekiyor."
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Action" "Bluetooth Ayarları"
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header" "Bluetooth Hatası"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description" "Link Box bağlantılarını kontrol edin, güç kablosunu çıkartıp takın ve yeniden başlatın. Son olarak da SteamVR'ı yeniden başlatın."
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action" "Bluetooth Ayarları"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Header" "Bluetooth Hatası"
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Description" "SteamVR bazı zaruri dosyaların eksik olduğunu algıladı. Lütfen SteamVR'ı yeniden yükleyin."
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action" "Ayrıntılı bilgi"
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"Warning_DismissableWarning_BluetoothLinkServiceError_Header" "Bluetooth Hatası"
-"Warning_DismissableWarning_BluetoothLinkServiceError_Description" "SteamVR, Bluetooth sisteminde beklenmeyen sorun algıladı."
-"Warning_DismissableWarning_BluetoothLinkServiceError_Action" "Bluetooth Ayarları"
-"Warning_DismissableWarning_BluetoothLinkServiceError_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Header" "Ekran Hatası"
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Description" "Ekranınız, içeriğini kopyalamaya ayarlanmış. Bu, grafik performansınızı etkileyebilir veya başlık ekranını kullanılmaz hâle getirebilir."
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Action" "Görüntü Özellikleri"
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_ActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
-
-"Warning_DismissableWarning_UnknownHardwareDetected_Header" "Yeni Cihaz Algılandı"
-"Warning_DismissableWarning_UnknownHardwareDetected_Description" "Yeni donanımınızı kutlarız! SteamVR'ın düzgün bir şekilde algılaması için lütfen bu cihazın kurulum talimatlarını inceleyin."
-"Warning_DismissableWarning_UnknownHardwareDetected_Action" "Daha fazla bilgi"
-"Warning_DismissableWarning_UnknownHardwareDetected_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_WindowsAeroDisabled_Header" "Performans İyileştirmesi"
-"Warning_DismissableWarning_WindowsAeroDisabled_Description" "VR çalışırken en iyi performans için lütfen Windows Kişiselleştirme ayarlarından Aero temasına geçiş yapın."
-"Warning_DismissableWarning_WindowsAeroDisabled_Action" "Kişiselleştirme Ayarları"
-"Warning_DismissableWarning_WindowsAeroDisabled_ActionURL" "vrmonitor://controlpanel/Microsoft.Personalization"
-
-"Warning_DismissableWarning_Windows8_Header" "Windows'u güncelleştirme zamanı"
-"Warning_DismissableWarning_Windows8_Description" "SteamVR Windows 8'de desteklenmemektedir. En iyi sonuç için lütfen Windows 8.1 veya Windows 10'a yükseltin."
-"Warning_DismissableWarning_Windows8_Action" "Daha fazla bilgi"
-"Warning_DismissableWarning_Windows8_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_DisplayInExtendedMode_Header" "Başlık Uyarısı"
-"Warning_DismissableWarning_DisplayInExtendedMode_Description" "SteamVR başlığınızın bir monitör gibi çalıştığını algıladı. En iyi deneyim için lütfen Direkt Gösterim Modu'na geçiş yapın."
-"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Direkt Gösterim Modunu Etkinleştir"
-"Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
-
-"Warning_DismissableWarning_IssuesWithOneDongle_Header" "Başlık Hatası"
-"Warning_DismissableWarning_IssuesWithOneDongle_Description" "Başlığınızdaki kablosuz alıcılardan birisi algılanamadı. Bu, VR kontrolcülerinizle bağlantı sorunlarına neden olabilir."
-"Warning_DismissableWarning_IssuesWithOneDongle_Action" "Ayrıntılı bilgi"
-"Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#wireless-receivers"
-
-"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Kablosuz Alıcılar Algılanmadı"
-"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "Başlığınızdaki kablosuz alıcılar algılanmadı. Bu, VR kontrolcülerinizle bağlantı sorunlarına neden olabilir."
-"Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Ayrıntılı bilgi"
-"Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#wireless-receivers"
-
-"Warning_DismissableWarning_NewDriverInstalled_Header" "Cihaz Güncellemesi Bekliyor"
-"Warning_DismissableWarning_NewDriverInstalled_Description" "Güncellenmiş cihazlarınızı kullanmak için lütfen SteamVR'ı yeniden başlatın."
-"Warning_DismissableWarning_NewDriverInstalled_Action" "SteamVR'ı yeniden başlat"
-"Warning_DismissableWarning_NewDriverInstalled_ActionURL" "vrmonitor://restartsystem"
-
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Header" "Yanlış Ekran Kartı"
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Description" "Lütfen birincil monitör olarak kullandığınız ekran kartına başlığınızı bağlayın."
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Action" "Ayrıntılı bilgi"
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Header" "Ekran Kartı Sürücünüzü Güncelleştirin"
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Description" "SteamVR en iyi güncel ekran kartı sürücüleriyle çalışır. Sizinkini de güncelleştirmenizi tavsiye ediyoruz."
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Ayrıntılı bilgi"
-"Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues&l=turkish"
-
-"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Ekran Kartı Sürücünüzü Güncelleştirin"
-"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Mevcut ekran kartı sürücünüzde bilgisayarınızın kilitlenmesine neden olabilecek bilenen bir sorun var. Lütfen aşağıda bağlantısı verilmiş son düzeltmeyi yükleyin."
-"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Daha fazla bilgi"
-"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
-
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Başlığın Bağlantısı Kesildi"
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Başlığınızın görüntü kablosu çıktı. Lütfen başlığınızın bağlantılarını kontrol edin ve tekrar deneyin."
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Ayrıntılı bilgi"
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "Başlığın Bağlantı Kablosu Çıktı"
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Başlığınızın kablosu başlığınızdan çıktı. Lütfen yüz lastiğinin arkasındaki kablonun sıkıca bağlandığından emin olun."
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Ayrıntılı bilgi"
-"Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Başlık Bağlantısı Sorunu"
-"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Başlık bağlantısıyla ilgili bir sorun var. Lütfen başlığınızın görüntü kablosunu çıkarıp tekrar takın. SteamVR'ı yeniden başlatmayı da deneyebilirsiniz."
-"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "SteamVR'ı Yeniden Başlat"
-"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
-
-"Warning_DismissableWarning_HDCPError_Header" "SteamVR Hatası"
-"Warning_DismissableWarning_HDCPError_Description" "Ekran kartınız başlığınızla iletişim sorunu yaşadı ve bir HDCP hatası meydana geldi. Eğer kullanıyorsanız bütün uzatma kablolarını ve adaptörleri çıkartmayı deneyin. Mevcutsa, ekran kartınızın farklı bir girişini deneyin. <b>Ekran kartınızın tekrar denemesi için aşağıdaki yeniden başlatma butonunu kullanarak başlığınızı yeniden başlatın.</b>"
-"Warning_DismissableWarning_HDCPError_Action" "Başlığı Sıfırla"
-"Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
-
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "SteamVR Hatası"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>Sahip olduğunuz</span> ekran kartı başlığınızla iletişim kurmada sorun yaşıyor ve bu bir HDCP hatasına neden oluyor. Kullandığınız bütün kablo adaptörlerini ve uzatmaları çıkartmayı deneyin. Varsa, ekran kartınızın başka bir yuvasını deneyin. <p> <b>HDCP 1.4 Legacy Compatibility modunu açmak ve SteamVR'ı YENİDEN BAŞLATMAK için aşağıdaki butonu kullanın.</b>"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "Yeniden Başlat (HDCP)"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
-
-"Warning_DismissableWarning_OutOfVideoMemory_Header" "Yeterli Video Belleği Yok"
-"Warning_DismissableWarning_OutOfVideoMemory_Description" "Sisteminiz düşük video belleğinde çalışıyor. Bu da düşük performansa neden olabilir. Mevcut uygulamayı kapatmayı veya SteamVR'ı yeniden başlatmayı deneyin."
-"Warning_DismissableWarning_OutOfVideoMemory_Action" "Ayrıntılı bilgi"
-"Warning_DismissableWarning_OutOfVideoMemory_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Header" "Daha yüksek FPS (kare sayısına)'e geçilsin mi?"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Description" "Başlığınız farklı yenileme hızlarını destekliyor!<br>Şu anda <b>saniyede %1 kare</b> olarak ayarlanmış durumda. <b>%2</b> kare sayısına geçmek ister misiniz?<br><br><i>Aynı GPU yükünü devam ettirmek için %5 olan uygulama çözünürlüğü, %3% çözünürlüğünden %4% çözünürlüğüne geçecek. Bunu ve daha fazla seçeneği Ayarlar > Video kısmına giderek değiştirebilirsiniz.</i>"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Action" "Geç ve yeniden başlat"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL" "vrmonitor://refreshrate/switch"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended" "otomatik"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden" "özelleştirilmiş"
-
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Header" "Eksik Aygıt Güncellemesi"
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description" "Bir takip istasyonu güncellemesi kesintiye uğradı ya da başarısız oldu. Süreci başlatmak için lütfen \"Kurtar\" butonuna tıklayın."
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action" "Kurtar"
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
-
-"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header" "Aygıt Artık Desteklenmiyor"
-"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description" "<font color=#aaaa00>Üretim öncesi %1 cihazınız artık desteklenmemektedir.</font> <br><br> Bu cihaz artık yazılım güncelleştirmelerini almayacak ve işlevselliğini kaybetmesi olasıdır. Lütfen en kısa sürede yenisiyle değiştirin. <br><br>(hwid: %2)"
-"Warning_OpenXRDefaultRuntimePrompt_NotSet" "OpenXR çalışma zamanı şu anda ayarlı değil."
-"Warning_OpenXRDefaultRuntimePrompt_AnotherSteamVR" "OpenXR runtime'ı şu anda farklı bir SteamVR sürümüne ayarlı."
-
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header" "SteamVR, varsayılan OpenXR çalışma zamanı olarak ayarlanmamış."
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Description" "Bu, bazı uygulamaların düzgün çalışmamasına neden olabilir: %1"
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action" "Varsayılan olarak ayarla"
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL" "vrmonitor://openxr/makedefault"
-
-"Warning_DismissableWarning_EnableAppContainers_Header" "SteamVR'ın kendisini uygulama konteynerleri için ayarlamaya ihtiyacı var."
-"Warning_DismissableWarning_EnableAppContainers_Description" "İnternet tarayıcılarının başlığınızda içerik gösterebilmesi için bu gereklidir."
-"Warning_DismissableWarning_EnableAppContainers_Action" "İzinleri Güncelle"
-"Warning_DismissableWarning_EnableAppContainers_ActionURL" "vrmonitor://steamvr/setappcontainerpermissions"
-
-"Warning_DismissableWarning_InstallWMRPrompt_Header" "Windows Mixed Reality sürücüsünü yükle?"
-"Warning_DismissableWarning_InstallWMRPrompt_Description" "SteamVR'da Windows Mixed Reality başlıklarını çalıştırmak için bir sürücü gereklidir."
-"Warning_DismissableWarning_InstallWMRPrompt_Action" "Yükle"
-"Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
-
-"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Vive Pro 2 sürücüsü yüklensin mi?"
-"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "SteamVR'da Vive Pro 2 başlığını çalıştırmak için bir sürücü gereklidir."
-"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Yükle"
-"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
-
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Ekran Bağlantısı Sorunu"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ekran kartınız başlığınızın ekranına başarılı bir şekilde bağlanamıyor. Eğer kullanıyorsanız bütün kablo adaptörlerini ve uzatmaları çıkartmayı deneyin. Mevcutsa, ekran kartınızın farklı bir girişini deneyin. <b>Ekran kartınızın tekrar denemesi için aşağıdaki yeniden başlatma bağlantısını kullanarak başlığınızı yeniden başlatın.</b>"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Başlığı Yeniden Başlat"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action" "Daha fazla bilgi"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL" "https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=turkish"
-
-"SteamVRServiceNeedsInstallation_Header" "SteamVR Hizmeti Kurulumu"
-"SteamVRServiceNeedsInstallation_Description" "Yardımcı hizmetin kurulumu için izniniz gerekli. Lütfen aşağıdaki bağlantıya tıklayın ve UAC (Kullanıcı Hesabı Denetimi) isteminden \"Evet\" butonuna tıklayın."
-"SteamVRServiceNeedsInstallation_FirstAction" "Yükle"
-"SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
+"Popover_SeeOnlyOneBase_Description" "E
+"Popover_SeeOnlyOneBase_Header" "Sadece bir takip istasyonu g
+"Popover_Standby_Base_Description" "Bu takip istasyonunu uyand
+"Popover_Standby_Base_Header" "Takip istasyonu beklemede"
+"Popover_Standby_Controller_Description" "Uyand
+"Popover_Standby_Controller_Header" "Kontrolc
+"Popover_Standby_HMD_Description" "Uyand
+"Popover_Standby_HMD_Header" "Ba
+"Popover_Standby_Invalid_Description" "Ayg
+"Popover_Standby_Invalid_Header" "Beklemede"
+"Popover_Standby_Tracker_Description" "Uyand
+"Popover_Standby_Tracker_Header" "
 "SteamVRServiceNeedsInstallation_Action" "Daha fazla bilgi"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Oynarken lütfen kontrolcüleri çıkarın"
-"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Şarj kablosunu yamuk çekmek kontrolcüye hasar verebilir."
+"SteamVRServiceNeedsInstallation_Description" "Yard
+"SteamVRServiceNeedsInstallation_FirstAction" "Y
+"SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
+"SteamVRServiceNeedsInstallation_Header" "SteamVR Hizmeti Kurulumu"
+"Tokens"
+"VRInitError_Compositor_D3D11HardwareRequired_Action" "Ayr
+"VRInitError_Compositor_D3D11HardwareRequired_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Compositor_D3D11HardwareRequired_Description" "SteamVR, DirectX 11 ile uyumlu donan
+"VRInitError_Compositor_D3D11HardwareRequired_Header" "Sistemi Y
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action" "Daha fazla bilgi"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL" "https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=turkish"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ekran kart
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Ba
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Ekran Ba
+"VRInitError_Compositor_FirmwareRequiresUpdate_Action" "Ba
+"VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
+"VRInitError_Compositor_FirmwareRequiresUpdate_Description" "Ba
+"VRInitError_Compositor_FirmwareRequiresUpdate_Header" "G
+"VRInitError_Compositor_UnableToCreateDevice_Action" "Ayr
+"VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"VRInitError_Compositor_UnableToCreateDevice_Description" "Bilgisayar
+"VRInitError_Compositor_UnableToCreateDevice_Header" "SteamVR Grafik Hatas
+"VRInitError_Driver_CalibrationInvalid_Action" "Ayr
+"VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_CalibrationInvalid_Description" "SteamVR, ba
+"VRInitError_Driver_CalibrationInvalid_Header" "Ba
+"VRInitError_Driver_Failed_Action" "Ayr
+"VRInitError_Driver_Failed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_Failed_Description" "SteamVR bir hatayla kar
+"VRInitError_Driver_Failed_Header" "SteamVR Hatas
+"VRInitError_Driver_HmdDisplayMirrored_Action" "Ayr
+"VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset&l=turkish"
+"VRInitError_Driver_HmdDisplayMirrored_Description" "Ba
+"VRInitError_Driver_HmdDisplayMirrored_FirstAction" "G
+"VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
+"VRInitError_Driver_HmdDisplayMirrored_Header" "Ba
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "Ayr
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "G
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Ba
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Diz
+"VRInitError_Driver_HmdDisplayNotFound_Action" "Ayr
+"VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_HmdDisplayNotFound_Description" "L
+"VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Ba
+"VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
+"VRInitError_Driver_HmdDisplayNotFound_Header" "Ba
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Action" "Ayr
+"VRInitError_Driver_HmdDriverIdOutOfBounds_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Ba
+"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction" "Ba
+"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Ba
+"VRInitError_Driver_HmdInUse_Action" "Tekrar dene"
+"VRInitError_Driver_HmdInUse_ActionURL" "vrmonitor://refresh"
+"VRInitError_Driver_HmdInUse_Description" "Ba
+"VRInitError_Driver_HmdInUse_Header" "SteamVR Hatas
+"VRInitError_Driver_HmdUnknown_Action" "D
+"VRInitError_Driver_HmdUnknown_ActionURL" "vrmonitor://unsetforcedhmd"
+"VRInitError_Driver_HmdUnknown_Description" "SteamVR bu ba
+"VRInitError_Driver_HmdUnknown_Header" "Ba
+"VRInitError_Driver_NotCalibrated_Action" "Ayr
+"VRInitError_Driver_NotCalibrated_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_NotCalibrated_Description" "SteamVR bir kalibrasyon dosyas
+"VRInitError_Driver_NotCalibrated_Header" "Cihaz Hatas
+"VRInitError_Driver_NotLoaded_Action" "Ayr
+"VRInitError_Driver_NotLoaded_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"VRInitError_Driver_NotLoaded_Description" "SteamVR i
+"VRInitError_Driver_NotLoaded_Header" "SteamVR Hatas
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Daha fazla bilgi"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Mevcut ba
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Eksik S
+"VRInitError_Driver_RuntimeOutOfDate_Action" "oculus.com adresini ziyaret edin"
+"VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_Driver_RuntimeOutOfDate_Description" "Oculus yaz
+"VRInitError_Driver_RuntimeOutOfDate_Header" "SteamVR Hatas
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "Ayr
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues&l=turkish"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description" "Bu cihaz taraf
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header" "Cihaz Hatas
+"VRInitError_Driver_Unknown_Action" "D
+"VRInitError_Driver_Unknown_ActionURL" "vrmonitor://unsetforceddriver"
+"VRInitError_Driver_Unknown_Description" "SteamVR bir cihaz hatas
+"VRInitError_Driver_Unknown_Header" "SteamVR Hatas
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR, kablosuz bir ba
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "Kablosuz Ba
+"VRInitError_IPC_CompositorConnectFailed_Action" "Ayr
+"VRInitError_IPC_CompositorConnectFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_CompositorConnectFailed_Description" "SteamVR'
+"VRInitError_IPC_CompositorConnectFailed_Header" "SteamVR Hatas
+"VRInitError_IPC_CompositorInitFailed_Action" "Ayr
+"VRInitError_IPC_CompositorInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"VRInitError_IPC_CompositorInitFailed_Description" "SteamVR'
+"VRInitError_IPC_CompositorInitFailed_Header" "Bir 
+"VRInitError_IPC_CompositorInvalidConnectResponse_Action" "Ayr
+"VRInitError_IPC_CompositorInvalidConnectResponse_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_CompositorInvalidConnectResponse_Description" "SteamVR'
+"VRInitError_IPC_CompositorInvalidConnectResponse_Header" "SteamVR Hatas
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "Ayr
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description" "SteamVR'
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header" "SteamVR Hatas
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "Daha fazla bilgi"
+"VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "SteamVR'
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Header" "SteamVR Hatas
+"VRInitError_IPC_ConnectFailed_Action" "Ayr
+"VRInitError_IPC_ConnectFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=40&return_nodeid=71"
+"VRInitError_IPC_ConnectFailed_Description" "SteamVR'
+"VRInitError_IPC_ConnectFailed_Header" "SteamVR Hatas
+"VRInitError_IPC_Failed_Action" "Ayr
+"VRInitError_IPC_Failed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=77&return_nodeid=71"
+"VRInitError_IPC_Failed_Description" "Beklenmedik bir problem olu
+"VRInitError_IPC_Failed_Header" "SteamVR Hatas
+"VRInitError_IPC_MutexInitFailed_Action" "Ayr
+"VRInitError_IPC_MutexInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"VRInitError_IPC_MutexInitFailed_Description" "SteamVR'
+"VRInitError_IPC_MutexInitFailed_Header" "Bir 
+"VRInitError_IPC_NamespaceUnavailable_Action" "Daha fazla bilgi"
+"VRInitError_IPC_NamespaceUnavailable_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_NamespaceUnavailable_Description" "SteamVR'
+"VRInitError_IPC_NamespaceUnavailable_Header" "SteamVR Hatas
+"VRInitError_IPC_ServerInitFailed_Action" "Ayr
+"VRInitError_IPC_ServerInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"VRInitError_IPC_ServerInitFailed_Description" "SteamVR'
+"VRInitError_IPC_ServerInitFailed_Header" "SteamVR Y
+"VRInitError_IPC_SharedStateInitFailed_Action" "Ayr
+"VRInitError_IPC_SharedStateInitFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_IPC_SharedStateInitFailed_Description" "SteamVR'
+"VRInitError_IPC_SharedStateInitFailed_Header" "SteamVR Hatas
+"VRInitError_Init_AnotherAppLaunching_Action" "Ayr
+"VRInitError_Init_AnotherAppLaunching_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_AnotherAppLaunching_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_AnotherAppLaunching_Header" "SteamVR Hatas
+"VRInitError_Init_AppInfoInitFailed_Action" "Ayr
+"VRInitError_Init_AppInfoInitFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_AppInfoInitFailed_Description" "SteamVR'
+"VRInitError_Init_AppInfoInitFailed_Header" "SteamVR Hatas
+"VRInitError_Init_CouldNotStartPrism_Action" "Daha fazla bilgi"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+"VRInitError_Init_CouldNotStartPrism_Description" "Steam VR'
+"VRInitError_Init_CouldNotStartPrism_Header" "SteamVR Ba
+"VRInitError_Init_FactoryNotFound_Action" "Ayr
+"VRInitError_Init_FactoryNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"VRInitError_Init_FactoryNotFound_Description" "Baz
+"VRInitError_Init_FactoryNotFound_Header" "SteamVR Hatas
+"VRInitError_Init_FileNotFound_Action" "Ayr
+"VRInitError_Init_FileNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"VRInitError_Init_FileNotFound_Description" "Baz
+"VRInitError_Init_FileNotFound_Header" "SteamVR Hatas
+"VRInitError_Init_HmdDriverIdIsNone_Action" "Ayr
+"VRInitError_Init_HmdDriverIdIsNone_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdDriverIdIsNone_Description" "Ba
+"VRInitError_Init_HmdDriverIdIsNone_FirstAction" "Ba
+"VRInitError_Init_HmdDriverIdIsNone_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdDriverIdIsNone_Header" "Ba
+"VRInitError_Init_HmdNotFoundPresenceFailed_Action" "Ayr
+"VRInitError_Init_HmdNotFoundPresenceFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Description" "Ba
+"VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction" "Ba
+"VRInitError_Init_HmdNotFoundPresenceFailed_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Header" "Ba
+"VRInitError_Init_HmdNotFound_Action" "Ayr
+"VRInitError_Init_HmdNotFound_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdNotFound_Description" "Ba
+"VRInitError_Init_HmdNotFound_FirstAction" "Ba
+"VRInitError_Init_HmdNotFound_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdNotFound_Header" "Ba
+"VRInitError_Init_InitCanceledByUser_Action" "Ayr
+"VRInitError_Init_InitCanceledByUser_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_InitCanceledByUser_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_InitCanceledByUser_Header" "SteamVR Hatas
+"VRInitError_Init_InstallationCorrupt_Action" "Ayr
+"VRInitError_Init_InstallationCorrupt_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"VRInitError_Init_InstallationCorrupt_Description" "Baz
+"VRInitError_Init_InstallationCorrupt_Header" "SteamVR Hatas
+"VRInitError_Init_InstallationNotFound_Action" "Ayr
+"VRInitError_Init_InstallationNotFound_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=81&return_nodeid=71"
+"VRInitError_Init_InstallationNotFound_Description" "Baz
+"VRInitError_Init_InstallationNotFound_Header" "SteamVR Hatas
+"VRInitError_Init_InterfaceNotFound_Action" "
+"VRInitError_Init_InterfaceNotFound_ActionURL" "
+"VRInitError_Init_InterfaceNotFound_Description" "SteamVR'
+"VRInitError_Init_InterfaceNotFound_Header" "SteamVR G
+"VRInitError_Init_InvalidInterface_Action" "Ayr
+"VRInitError_Init_InvalidInterface_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_InvalidInterface_Description" "Beklenmedik bir problemle kar
+"VRInitError_Init_InvalidInterface_Header" "SteamVR Hatas
+"VRInitError_Init_NoConfigPath_Action" "Yap
+"VRInitError_Init_NoConfigPath_ActionURL" "vrmonitor://setconfig"
+"VRInitError_Init_NoConfigPath_Description" "SteamVR kurulumunuzda bir hata oldu
+"VRInitError_Init_NoConfigPath_Header" "SteamVR Hatas
+"VRInitError_Init_NoLogPath_Action" "Kay
+"VRInitError_Init_NoLogPath_ActionURL" "vrmonitor://setlog"
+"VRInitError_Init_NoLogPath_Description" "SteamVR kurulumunuzda bir hata oldu
+"VRInitError_Init_NoLogPath_Header" "SteamVR Hatas
+"VRInitError_Init_NoServerForBackgroundApp_Action" "Ayr
+"VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NoServerForBackgroundApp_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_NoServerForBackgroundApp_Header" "SteamVR Hatas
+"VRInitError_Init_NotAvailableToUtilityApps_Action" "Ayr
+"VRInitError_Init_NotAvailableToUtilityApps_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NotAvailableToUtilityApps_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_NotAvailableToUtilityApps_Header" "SteamVR Hatas
+"VRInitError_Init_NotInitialized_Action" "Ayr
+"VRInitError_Init_NotInitialized_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=37&return_nodeid=71"
+"VRInitError_Init_NotInitialized_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_NotInitialized_Header" "SteamVR Hatas
+"VRInitError_Init_NotSupportedWithCompositor_Action" "Ayr
+"VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NotSupportedWithCompositor_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_NotSupportedWithCompositor_Header" "SteamVR Hatas
+"VRInitError_Init_PathRegistryNotFound_Action" "Mevcut dizinden tekrar deneyin"
+"VRInitError_Init_PathRegistryNotFound_ActionURL" "vrmonitor://runfromcurrentdirectory"
+"VRInitError_Init_PathRegistryNotFound_Description" "Baz
+"VRInitError_Init_PathRegistryNotFound_Header" "SteamVR Hatas
+"VRInitError_Init_PathRegistryNotWritable_Action" "Ayr
+"VRInitError_Init_PathRegistryNotWritable_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PathRegistryNotWritable_Description" "SteamVR bilgiyi kaydedemedi. L
+"VRInitError_Init_PathRegistryNotWritable_Header" "SteamVR Hatas
+"VRInitError_Init_PrismClientInitFailed_Action" "Daha fazla bilgi"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_PrismClientInitFailed_Header" "SteamVR Ba
+"VRInitError_Init_PrismClientStartFailed_Action" "Daha fazla bilgi"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_PrismClientStartFailed_Header" "SteamVR Ba
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "SteamVR'
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "SteamVR'
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR Hatas
+"VRInitError_Init_PrismNeedsNewDrivers_Action" "Daha fazla bilgi"
+"VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Bilgisayar
+"VRInitError_Init_PrismNeedsNewDrivers_Header" "Grafik s
+"VRInitError_Init_PrismStartupTimedOut_Action" "SteamVR'
+"VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+"VRInitError_Init_PrismStartupTimedOut_Description" "SteamVR'
+"VRInitError_Init_PrismStartupTimedOut_Header" "SteamVR Ba
+"VRInitError_Init_Retry_Action" "Ayr
+"VRInitError_Init_Retry_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_Retry_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_Retry_Header" "SteamVR Hatas
+"VRInitError_Init_SettingsInitFailed_Action" "Ayr
+"VRInitError_Init_SettingsInitFailed_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_SettingsInitFailed_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_SettingsInitFailed_Header" "SteamVR Hatas
+"VRInitError_Init_ShuttingDown_Action" "Ayr
+"VRInitError_Init_ShuttingDown_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_ShuttingDown_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_ShuttingDown_Header" "SteamVR Hatas
+"VRInitError_Init_TooManyObjects_Action" "Ayr
+"VRInitError_Init_TooManyObjects_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_TooManyObjects_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Init_TooManyObjects_Header" "SteamVR Hatas
+"VRInitError_Init_UserConfigDirectoryInvalid_Action" "Yap
+"VRInitError_Init_UserConfigDirectoryInvalid_ActionURL" "vrmonitor://setconfig"
+"VRInitError_Init_UserConfigDirectoryInvalid_Description" "SteamVR kurulumunuzda bir hata oldu
+"VRInitError_Init_UserConfigDirectoryInvalid_Header" "SteamVR Hatas
+"VRInitError_Init_VRClientDLLNotFound_Action" "Ayr
+"VRInitError_Init_VRClientDLLNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"VRInitError_Init_VRClientDLLNotFound_Description" "Baz
+"VRInitError_Init_VRClientDLLNotFound_Header" "SteamVR Hatas
+"VRInitError_Internal_Action" "Ayr
+"VRInitError_Internal_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Internal_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Internal_Header" "SteamVR Hatas
+"VRInitError_Steam_SteamInstallationNotFound_Action" "Steam'i y
+"VRInitError_Steam_SteamInstallationNotFound_ActionURL" "vrmonitor://installsteam"
+"VRInitError_Steam_SteamInstallationNotFound_Description" "SteamVR'
+"VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR Hatas
+"VRInitError_Unknown_Action" "Ayr
+"VRInitError_Unknown_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Unknown_Description" "SteamVR beklenmedik bir sorunla kar
+"VRInitError_Unknown_Header" "SteamVR Hatas
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "USB Hatas
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header" "USB Hatas
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" "
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " "
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "Ba
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header" "USB Hatas
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header" "USB Hatas
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header" "USB Hatas
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header" "USB Hatas
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header" "USB Hatas
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header" "USB Hatas
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header" "USB Hatas
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header" "USB Hatas
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Ba
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header" "USB Hatas
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Action" "Ayr
+"VRInitError_VendorSpecific_HmdFound_UserDataError_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Description" "Ba
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Header" "USB Hatas
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "oculus.com adresine gidin"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Quest 2 gibi tek ba
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "SteamVR'
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link Etkinle
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Action" "oculus.com adresini ziyaret edin"
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_ActionURL" "https://www.oculus.com/setup/"
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Oculus y
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "SteamVR Hatas
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "oculus.com adresini ziyaret edin"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR, Oculus uygulamas
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR Hatas
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Ayr
+"VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "SteamVR'
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Windows 10 G
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Daha fazla bilgi"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Mevcut ekran kart
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Ekran Kart
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action" "Kurtar"
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description" "Bir takip istasyonu g
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Header" "Eksik Ayg
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" "Daha fazla bilgi"
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/"
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "E
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header" "Sadece bir tane takip istasyonu saptand
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" "Yap
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" "vrmonitor://open/settings/bluetooth/configurechannels"
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description" "SteamVR birden fazla ana istasyonun ayn
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Header" "Takip 
+"Warning_DismissableWarning_BasestationsTooFarApart_Action" "Daha fazla bilgi"
+"Warning_DismissableWarning_BasestationsTooFarApart_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_BasestationsTooFarApart_Description" "Takip istasyonlar
+"Warning_DismissableWarning_BasestationsTooFarApart_Header" "VR kurulum uyar
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action" "Bluetooth Ayarlar
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description" "Link Box kurulumunun tamamlanmas
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header" "Bluetooth Hatas
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Action" "Bluetooth Ayarlar
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Description" "Link Box kurulumunun tamamlanmas
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Header" "Bluetooth Hatas
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action" "Bluetooth Ayarlar
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description" "Link Box ba
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header" "Bluetooth Hatas
+"Warning_DismissableWarning_BluetoothLinkServiceError_Action" "Bluetooth Ayarlar
+"Warning_DismissableWarning_BluetoothLinkServiceError_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothLinkServiceError_Description" "SteamVR, Bluetooth sisteminde beklenmeyen sorun alg
+"Warning_DismissableWarning_BluetoothLinkServiceError_Header" "Bluetooth Hatas
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action" "Ayr
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Description" "SteamVR baz
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Header" "Bluetooth Hatas
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description" "<font color=#aaaa00>
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header" "Ayg
+"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Direkt G
+"Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
+"Warning_DismissableWarning_DisplayInExtendedMode_Description" "SteamVR ba
+"Warning_DismissableWarning_DisplayInExtendedMode_Header" "Ba
+"Warning_DismissableWarning_EnableAppContainers_Action" "
+"Warning_DismissableWarning_EnableAppContainers_ActionURL" "vrmonitor://steamvr/setappcontainerpermissions"
+"Warning_DismissableWarning_EnableAppContainers_Description" "
+"Warning_DismissableWarning_EnableAppContainers_Header" "SteamVR'
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "Yeniden Ba
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>Sahip oldu
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "SteamVR Hatas
+"Warning_DismissableWarning_HDCPError_Action" "Ba
+"Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
+"Warning_DismissableWarning_HDCPError_Description" "Ekran kart
+"Warning_DismissableWarning_HDCPError_Header" "SteamVR Hatas
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Ayr
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Ba
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Ba
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Ayr
+"Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Ba
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "Ba
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Y
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "SteamVR'da Vive Pro 2 ba
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Vive Pro 2 s
+"Warning_DismissableWarning_InstallWMRPrompt_Action" "Y
+"Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+"Warning_DismissableWarning_InstallWMRPrompt_Description" "SteamVR'da Windows Mixed Reality ba
+"Warning_DismissableWarning_InstallWMRPrompt_Header" "Windows Mixed Reality s
+"Warning_DismissableWarning_IssuesWithOneDongle_Action" "Ayr
+"Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#wireless-receivers"
+"Warning_DismissableWarning_IssuesWithOneDongle_Description" "Ba
+"Warning_DismissableWarning_IssuesWithOneDongle_Header" "Ba
+"Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Ayr
+"Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#wireless-receivers"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "Ba
+"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Kablosuz Al
+"Warning_DismissableWarning_MissedFrames_Action" "Daha fazla bilgi"
+"Warning_DismissableWarning_MissedFrames_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_MissedFrames_Description" "Mevcut VR uygulamas
+"Warning_DismissableWarning_MissedFrames_Header" "Uygulama Hatas
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Action" "Ge
+"Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL" "vrmonitor://refreshrate/switch"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Description" "Ba
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Header" "Daha y
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden" "
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended" "otomatik"
+"Warning_DismissableWarning_NewDriverInstalled_Action" "SteamVR'
+"Warning_DismissableWarning_NewDriverInstalled_ActionURL" "vrmonitor://restartsystem"
+"Warning_DismissableWarning_NewDriverInstalled_Description" "G
+"Warning_DismissableWarning_NewDriverInstalled_Header" "Cihaz G
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action" "Varsay
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL" "vrmonitor://openxr/makedefault"
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Description" "Bu, baz
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header" "SteamVR, varsay
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action" "Daha fazla bilgi"
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#base-stations"
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description" "Takip istasyonlar
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Header" "Takip 
+"Warning_DismissableWarning_OutOfVideoMemory_Action" "Ayr
+"Warning_DismissableWarning_OutOfVideoMemory_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_OutOfVideoMemory_Description" "Sisteminiz d
+"Warning_DismissableWarning_OutOfVideoMemory_Header" "Yeterli Video Belle
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "SteamVR'
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Ba
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Ba
+"Warning_DismissableWarning_RunTutorialAgain_Action" "Ayr
+"Warning_DismissableWarning_RunTutorialAgain_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_RunTutorialAgain_Description" "SteamVR men
+"Warning_DismissableWarning_RunTutorialAgain_Header" "Oda Kurulumu ve E
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Action" "Ayr
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Description" "L
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Header" "Yanl
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Action" "G
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_ActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Description" "Ekran
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Header" "Ekran Hatas
+"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Eklentileri Y
+"Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+"Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>En son</span> meydana gelen bir hata nedeniyle baz
+"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Baz
+"Warning_DismissableWarning_SteamVRUpdated_Action" "De
+"Warning_DismissableWarning_SteamVRUpdated_ActionURL" "%1"
+"Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR %2 s
+"Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR G
+"Warning_DismissableWarning_UnknownHardwareDetected_Action" "Daha fazla bilgi"
+"Warning_DismissableWarning_UnknownHardwareDetected_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_UnknownHardwareDetected_Description" "Yeni donan
+"Warning_DismissableWarning_UnknownHardwareDetected_Header" "Yeni Cihaz Alg
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Ayr
+"Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues&l=turkish"
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Description" "SteamVR en iyi g
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Header" "Ekran Kart
+"Warning_DismissableWarning_WarningsForTheFirstTime_Action" "Daha fazla bilgi"
+"Warning_DismissableWarning_WarningsForTheFirstTime_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Her ayg
+"Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Cihaz Bilgisi"
+"Warning_DismissableWarning_Windows8_Action" "Daha fazla bilgi"
+"Warning_DismissableWarning_Windows8_ActionURL" "https://help.steampowered.com/tr/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_Windows8_Description" "SteamVR Windows 8'de desteklenmemektedir. En iyi sonu
+"Warning_DismissableWarning_Windows8_Header" "Windows'u g
+"Warning_DismissableWarning_WindowsAeroDisabled_Action" "Ki
+"Warning_DismissableWarning_WindowsAeroDisabled_ActionURL" "vrmonitor://controlpanel/Microsoft.Personalization"
+"Warning_DismissableWarning_WindowsAeroDisabled_Description" "VR 
+"Warning_DismissableWarning_WindowsAeroDisabled_Header" "Performans 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Daha Fazla Detay"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
-
-}
-}
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Oynarken l
+"Warning_OpenXRDefaultRuntimePrompt_AnotherSteamVR" "OpenXR runtime'
+"Warning_OpenXRDefaultRuntimePrompt_NotSet" "OpenXR 
+"lang"
+, %3% 
+, ama yans
+. Bu, VR kontrolc
+. Bu, grafik performans
+. En iyi deneyim i
+. En iyi tecr
+. Steam'de SteamVR i
+DEN BA
+LATMAK i
+a konumland
+abilmesi i
+arj kablosunu yamuk 
+bir cihaz
+ca ba
+da Takip 
+da ba
+daki ba
+daki butonu kullan
+daki simgelerin 
+daki yeniden ba
+dan s
+ecek. Bunu ve daha fazla se
+ekilde 
+ekilde alg
+ekilde ba
+ekilde tasarlanmam
+ekilde y
+ekilde yeniden konumland
+ekmek kontrolc
+eni d
+enlerinden biri bulunamad
+enlerinden birinin ba
+er SteamVR'
+er ayg
+er bu uyar
+er kullan
+er sadece bir tane takip istasyonu kullan
+er sorun devam ederse l
+erik g
+ersiz bir yap
+ey olabilir. E
+eyler eklediyseniz l
+eyler ters gitti. L
+eyler yanl
+hili bir sorun geli
+i Ayarlar > Video k
+i Yok"
+ikliklere g
+il, l
+il. L
+ilsin mi?"
+im kurmada sorun ya
+im sorunu ya
+imi i
+in %2 s
+in %5 olan uygulama 
+in 5,5 metreden daha yak
+in Steam 
+in Steam'in y
+in SteamVR Destek'i ziyaret edin."
+in VR'
+in Windows'un son s
+in \"A\" istasyonunu \"b\" moduna al
+in \"Ara
+in ayarlamaya ihtiyac
+in ba
+in bir s
+in birbirlerinden 5,5 metreden (18 feet) fazla uzak olmayacak 
+in bu gereklidir."
+in gerekli olan bir s
+in izleyicinizi hareket ettirin."
+in izniniz gerekli. L
+in kontrolc
+in tamamlay
+inde 
+ini deneyin. <b>Ekran kart
+ini deneyin."
+ini do
+ini kaybetmesi olas
+ini kopyalamaya ayarlanm
+inin arkas
+iniz zaman kullanabilirsiniz."
+irin. Veya kendiniz SteamVR s
+irin."
+irmek daha iyi izlemeye neden olacakt
+iselle
+itim"
+itimi istedi
+k Alg
+k Desteklenmiyor"
+k Ekran
+k Hatas
+k Uyar
+k VR oyun alan
+k alg
+k beklemede"
+k desteklenmemektedir.</font> <br><br> Bu cihaz art
+k ekran
+k etkin"
+k haz
+k oldu
+k performansa neden olabilir. Mevcut uygulamay
+k tan
+k ve ba
+k ve yak
+k video belle
+k yaz
+ka bir ekran tespit edildi. L
+ka bir uygulama taraf
+ka bir yuvas
+kartmay
+kle?"
+kleme Sorunu"
+klemeniz gerekmektedir."
+klemesiyle ilgili bir sorun meydana geldi. L
+klendi
+klenmiyor. L
+klensin mi?"
+klerken sorun ya
+kleyin."
+ksek FPS (kare say
+ksek sistem gereksinimlerine sahip olmas
+kseltin."
+kseltme Zaman
+kseltmeniz gerekebilir."
+ktan Link veya Air Link'i manuel olarak etkinle
+labilen bir ayg
+lamak i
+lamas
+lan OpenXR 
+lan olarak ayarla"
+lan s
+lanam
+lanamad
+lanmad
+lanmas
+lar Alg
+lar alg
+lar i
+lardan birisi alg
+lat (HDCP)"
+latma Sorunu"
+latma ba
+latma butonunu kullanarak ba
+latmadan 
+latmak i
+latmay
+layamad
+le getirebilir."
+lebilecek 
+lemlerini kapat
+leri 
+leri tespit edemedi. Sisteminizi y
+lerini G
+lerini y
+lerinizle ba
+leriyle 
+letilmi
+levselli
+lmaz h
+m %1 kurulu ama Direkt G
+m almak i
+m ile ilgili bir problem var. L
+m ya da s
+ma zaman
+mak ve SteamVR'
+mamas
+mek ister misiniz?<br><br><i>Ayn
+mek izleme kalitesini artt
+meyi dikkate alabilirsiniz."
+mlarken sorun ya
+n Ekran Ba
+n USB ba
+n alt
+n ana istasyonlar
+n ayarland
+n bataryas
+n bir 
+n bir anahtar bile
+n bir konumda yeniden yerle
+n bir monit
+n bir takip istasyonunu g
+n bir y
+n bu s
+n diz
+n ekran
+n eksik oldu
+n farkl
+n gerekli bile
+n grafik s
+n kablo adapt
+n kablosu ba
+n kanallar
+n kendisini uygulama konteynerleri i
+n kilitlenmesine neden olabilecek bilenen bir sorun var. L
+n kurulu olmas
+n kurulum talimatlar
+n tam ekran modunda oldu
+n tekrar denemesi i
+n temel bir bile
+n uzatma kablolar
+n ve Oculus yaz
+n ve UAC (Kullan
+n ve ard
+n ve tekrar deneyin."
+n ve uygulamay
+n ve yeniden ba
+n yava
+n, yeniden ba
+n. Son olarak da SteamVR'
+n. SteamVR'
+n.</b>"
+na ba
+na emin olun."
+na ge
+na giderek de
+na kullan
+na neden olabilir."
+na neden olabilir: %1"
+na neden oluyor. Kulland
+na sahip takip istasyonuna l
+na)'e ge
+namad
+nce G
+nce ba
+ncel de
+ncel ekran kart
+ncel s
+ncelle
+ncelle"
+ncelleme Mevcut"
+ncelleme Zaman
+ncelleme gerektiriyorsa, ikonun 
+ncellemek i
+ncellemesi Bekliyor"
+ncellemesi Gerekli"
+ncellemesi gerekli."
+ncellemesi kesintiye u
+ncellemesi"
+ncellemeye ihtiyac
+ncellendi."
+ncellenmesi gerekiyor."
+ncellenmi
+ncelleyin. S
+ncesi %1 cihaz
+ndaki g
+ndaki kablonun s
+ndan Aero temas
+ndan Oda Kurulumunu ve E
+ndan cihaz
+ndan emin olun ve a
+ndan emin olun. Ba
+ndan emin olun. VR'
+ndan emin olun."
+ndan k
+ndan kaynaklan
+ndan kullan
+ndan veya uygulaman
+nde oldu
+nden %4% 
+nden emin olun."
+ndir"
+ndirmeleri sekmesine gidin."
+ne ayarl
+ne bir 
+ne ge
+nemli bile
+nemli bir bile
+nen g
+neticisi'ne gidin ve geri kalan SteamVR i
+netimi"
+netimini destekleyecek 
+nmayan ayg
+nternet taray
+ok Say
+ok uzun s
+ok yava
+p geri ba
+p tak
+p tekrar tak
+r durumda"
+r gibi 
+r olarak kulland
+r oldu
+r. En iyi tecr
+r. Sizinkini de g
+racakt
+receksiniz."
+reci ba
+rede yenisiyle de
+retici ile irtibata ge
+reticiyle irtibat kurun."
+retim 
+retim hatas
+rev Y
+rken bir hatayla kar
+rken en iyi performans i
+rleri 
+rlerini ve uzatmalar
+rma Dizinini Belirle"
+rma Hatas
+rma dizinini belirleyin."
+rmak i
+rmaya 
+rmaya sahip. Yard
+rmek i
+rula...\" se
+rulay
+stasyonlar
+stasyonu Hatas
+stasyonu Kurulumu Hatas
+stasyonu kullan
+stasyonu"
+ster"
+sterebilmesi i
+sterge 
+sterim Modu i
+sterim Modu'na ge
+sterim Modu'nu etkinle
+sterim Modunu Etkinle
+t Art
+t Dizinini Belirle"
+t beklemede."
+t bir g
+t dizinini belirleyin."
+t haz
+t izleme yap
+t kullan
+t tan
+ten s
+tfen Direkt G
+tfen Oda Kurulumu'nu oyun alan
+tfen Oda Kurulumu'nu yeniden yap
+tfen Oda Kurulumunu tamamlay
+tfen Steam'i yeniden ba
+tfen SteamVR kay
+tfen SteamVR kurulumunuzu kontrol edin."
+tfen SteamVR yap
+tfen SteamVR'
+tfen SteamVR'dan 
+tfen Windows 8.1 veya Windows 10'a y
+tfen Windows Ki
+tfen \"Kurtar\" butonuna t
+tfen a
+tfen ayr
+tfen ba
+tfen bilgisayar
+tfen birincil monit
+tfen bu bilgisayardaki kullan
+tfen bu cihaz
+tfen bu kontrolc
+tfen d
+tfen destekle irtibata ge
+tfen en k
+tfen en son s
+tfen g
+tfen k
+tfen kald
+tfen kontrolc
+tfen oda kurulumunu tamamlay
+tfen takip istasyonu de
+tfen uygulamay
+tfen video kablolar
+tfen video s
+tfen y
+tfen yard
+tfen yeniden ba
+tfen yeniden deneyin."
+tirdi (ar
+tirdi. K
+tirebilirsiniz.</i>"
+tirilmedi"
+tirilmi
+tirin"
+tirin. <br><br>(hwid: %2)"
+tirin."
+tirme Ayarlar
+tirme ayarlar
+tirme zaman
+tirmek i
+tirmelerini almayacak ve i
+tirmeli veya donan
+tirmelisiniz."
+tirmeniz gerekmektedir."
+tirmenizi tavsiye ediyoruz."
+tirmesi"
+tla ilgili ayr
+tu. L
+u anda <b>saniyede %1 kare</b> olarak ayarlanm
+u anda ayarl
+u anda farkl
+u anda hi
+u anda izleme yapm
+u anda izleniyor."
+u anda izlenmiyor. Bir takip istasyonunun g
+u anda takip ediliyor."
+u anda takip edilmiyor. Bir takip istasyonunun g
+una emin olun ve tekrar deneyin."
+una emin olun."
+undan emin olun ve SteamVR'
+undan emin olun."
+undan ve 
+unu alg
+unu fark ettik. L
+unu fark ettik."
+unuz</span> ekran kart
+venli bir 
+ye hasar verebilir."
+ye ihtiya
+yla ilgili bir sorun var. L
+yla kar
+yla takip istasyonunu g
+yle uyumlu de
+yor olabilir."
+yor ve 
+yor ve bu bir HDCP hatas
+yor. Bu da d
+yor. E
+yor. L
+yor."
+yor..."
+yorsan
+z %1 metre uzakt
+z \"A\" ve \"c\" modunda. Optik senkronizasyon i
+z alg
+z aras
+z art
+z birbirlerine tavsiye edilenden daha uza
+z ekran kart
+z farkl
+z lasti
+z oldu. S
+z senkronize de
+z! SteamVR'
+z, SteamVR ba
+z, bu istasyonu A moduna ge
+z, bu takip istasyonunda A modunu se
+za 5). L
+za ve kontrolc
+zda ayn
+zda da devam ederse, kablolu senkronizasyona ge
+zda i
+zda oldu
+zdaki kablosuz al
+zdan 
+zdan biri d
+zdan birinin takibini kaybetti. L
+zde bilgisayar
+zden ge
+ze sadece iki tane takip istasyonunun g
+zel bir kurulum gerekebilir."
+zelle
+zellikleri"
+zelliklerini g
+zeltin!"
+zeltmeyi y
+zerinde bir ( i ) simgesi g
+zerine gelin. E
+zinleri G
+zla ileti
+zland
+zleme'de bir 
+zlenmiyor"
+zleyici alg
+zleyici beklemede"
+zleyici etkin"
+zleyici haz
+zleyicinin bataryas

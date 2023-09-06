@@ -1,370 +1,610 @@
-{
-	"language": "brazilian",
-	"VRMonitor_Nav_Overview": "Visão geral",
-	"VRMonitor_Nav_Settings": "Configurações",
-	"VRMonitor_Nav_Help": "Ajuda",
-	"VRMonitor_Nav_Developer": "Desenvolvedor",
-	"Settings_ControllerSettings": "Configuração de controles",
-	"Settings_Controller_ShowBindingCallouts": "Exibir comandos nos controles",
-	"Settings_Controller_ShowBindingCalloutsInVR": "Exibir comandos nos controles na RV",
-	"Settings_Controller_AdvancedControllerSettings": "Gerenciar comandos de controles",
-	"Settings_Controller_ControllerBindingPrompt": "Comandos do controle",
-	"Settings_Controller_DefaultBinding": "Padrão",
-	"Settings_Controller_CustomBinding": "Personalizado",
-	"Settings_ThumbstickDeadzone_Text": "Zona morta da alavanca analógica",
-	"Settings_ThumbstickDeadzone_Desc": "Ajustar a zona morta em todas as alavancas analógicas.",
-	"Settings_DominantHand": "Mão dominante",
-	"Settings_DominantHand_Left": "Esquerda",
-	"Settings_DominantHand_Right": "Direita",
-	"Settings_Loading_CurrentBinding": "Carregando comandos atuais...",
-	"Settings_NeedSteamTo_ViewAndEditBindings": "Iniciar Steam para visualizar e editar comandos.",
-	"VRMonitor_Overview_SystemStatus_Title": "Estado do sistema",
-	"VRMonitor_Overview_DeviceStatus_Title": "Estado do dispositivo",
-	"VRMonitor_Overview_Notifications_Title": "Notificações",
-	"VRMonitor_Overview_QuickLinks_Title": "Links rápidos",
-	"VRMonitor_Overview_QuickLinks_Knock": "Toc toc",
-	"VRMonitor_Overview_QuickLinks_Knock_Desc": "Chamar a atenção do utilizador do headset",
-	"VRMonitor_Overview_QuickLinks_RoomSetup": "Preparação de cômodo",
-	"VRMonitor_Overview_QuickLinks_RoomSetup_Desc": "Configurar os limites do Chaperone",
-	"VRMonitor_Overview_QuickLinks_Tutorial": "Tutorial do SteamVR",
-	"VRMonitor_Overview_QuickLinks_Tutorial_Desc": "Aprenda a usar o seu headset de RV",
-	"SystemStatus_FrameRate_Good": "Boa taxa de quadros",
-	"SystemStatus_FrameRate_MissedFrames": "Quadros perdidos",
-	"SystemStatus_FrameRate_now": "agora",
-	"SystemStatus_FrameRate_7sec": "7 seg",
-	"SystemStatus_FrameRate_15sec": "15 seg",
-	"VRDevFiles_PathHandles": "Path Handles",
-	"VRDevFiles_JSON": "JSON",
-	"VRDevFiles_Logging": "Registro",
-	"VRDevFiles_Configuration": "Configuração",
-	"VRDevFiles_USBDevices": "Dispositivos USB",
-	"VRDevConsole_ShowLogName": "Exibir nome do registro",
-	"VRDevConsole_Showtimestamp": "Exibir horário",
-	"VRMonitor_DevNav_Console": "Console",
-	"VRMonitor_DevNav_RoomOverview": "Visão geral do cômodo",
-	"VRMonitor_DevNav_Files": "Arquivos",
-	"Settings_SelectAnOption": "Selecionar uma opção...",
-	"Settings_BluetoothSettings": "Configurações de Bluetooth",
-	"Settings_BaseStationSettings": "Configurações da estação base",
-	"Settings_Audio_Playback_Automatic_Label": "Dispositivo de saída de áudio",
-	"Settings_Audio_Recording_Automatic_Label": "Dispositivo de entrada de áudio",
-	"Settings_Audio_Headset": "Headset",
-	"Settings_Audio_Manual": "Manual",
-	"Settings_Audio_Mirroring_Label": "Espelhamento de áudio",
-	"Settings_Audio_Mirroring_Independent_Volume_Label": "Controlar o volume do espelhamento separadamente (Beta)",
-	"Settings_Audio_Default": "Sistema-padrão",
-	"Settings_Audio_Current_Setting_Unknown": "(O dispositivo selecionado não está presente)",
-	"Settings_Audio_HDMIGain": "Redução de ganho no áudio HDMI do VIVE",
-	"Settings_Audio_SpeakerJackOutput": "Saída de alto-falante/conector de fones de ouvido de 3,5 mm",
-	"Settings_Audio_SpeakerJackOutput_Title": "Permite simultaneamente o áudio pelo conector de fones de ouvido 3,5 mm e pelos alto-falantes do headset",
-	"Settings_Audio_Single": "Única",
-	"Settings_Audio_Dual": "Dupla",
-	"Settings_Audio_MicMonitor": "Monitoramento do mic.",
-	"Settings_Audio_Active": "Ativado",
-	"Settings_Audio_Muted": "Silenciado",
-	"Settings_SectionTitle_Advanced": "Avançado",
-	"Settings_SectionTitle_Developer": "Desenvolvedor",
-	"Settings_SectionTitle_Dashboard": "Painel",
-	"Settings_SectionTitle_General": "Geral",
-	"Settings_SectionTitle_Applications": "Aplicativos",
-	"Settings_SectionTitle_Audio": "Áudio",
-	"Settings_SectionTitle_Video": "Vídeo",
-	"Settings_SectionTitle_Camera": "Câmera",
-	"Settings_SectionTitle_Bluetooth": "Bluetooth",
-	"Settings_SectionTitle_Power": "Energia",
-	"Settings_SectionTitle_StartupShutdown": "Iniciar / Desligar",
-	"Settings_SectionTitle_Home": "Página inicial",
-	"Settings_SectionTitle_PlayArea": "Área de jogo",
-	"Settings_SectionTitle_BaseStation": "Estações base",
-	"Settings_SectionTitle_Controller": "Controles",
-	"Advanced_AllowSavingOfTimingInfo": "Permitir salvamento de informações de tempo",
-	"Advanced_AutoSaveTimingInfoOnExit": "Salvar informações de tempo automaticamente ao sair",
-	"Settings_EnableWebHelperDebugger": "Ativar depurador de Web Helper",
-	"Settings_EnableWebHelperDebuggerDesc": "Ativa o servidor de depuração para anexar as ferramentas de desenvolvedor e depurador de Chromium a páginas de Chromium integradas. Sempre ativo em versões Perforce.",
-	"Advanced_PerfGraphInHMD": "Mostrar gráfico de desempenho da placa de vídeo no headset",
+	"Advanced_AllowSavingOfTimingInfo": "Permitir salvamento de informa
+	"Advanced_Appearance": "Apar
+	"Advanced_AutoSaveTimingInfoOnExit": "Salvar informa
+	"Advanced_GlobalActionSetPriority": "Permitir entrada global de interfaces (Experimental)",
+	"Advanced_PerfGraphInHMD": "Mostrar gr
 	"Advanced_SaveFrameDataNow": "Salvar dados de quadro",
-	"Explanation_DisableEnhancedPowerManagement": "Desative o Gerenciador Avançado de Energia do Windows para dispositivos USB SteamVR caso enfrente perda misteriosa de rastreamento ou impossibilidade de pareamento de controles sem fio. ",
-	"Explanation_QuickCalibrate": "Redefinir rapidamente a preparação do cômodo. Para RV na posição em pé e no cômodo completo, novos limites serão estabelecidos no chão do seu cômodo e centralizados a partir do seu headset.",
-	"Explanation_RebootVive": "Reinicia o headset — isto pode resolver problemas relacionados com USB.",
-	"Explanation_RemoveAllSteamVRUSBDevices": "Remove todos os dispositivos relacionados ao USB do sistema para reinstalação dos drivers.",
-	"Explanation_ResetDismissableWarnings": "Os avisos descartados serão exibidos novamente quando ocorrerem.",
+	"CameraTest": "Teste da c
+	"CameraTestStatus_Evaluating": "Verificando",
+	"CameraTestStatus_Failure": "Falha",
+	"CameraTestStatus_Success": "Sucesso",
+	"CameraTest_CameraFailed": "A comunica
+	"CameraTest_CheckingCamera": "Verificar c
+	"CameraTest_CheckingTracking": "Verificando rastreamento com a c
+	"CameraTest_Success": "A c
+	"CameraTest_TrackingFailed": "Falha no rastreamento com a c
+	"Explanation_DisableEnhancedPowerManagement": "Desative o Gerenciador Avan
+	"Explanation_QuickCalibrate": "Redefinir rapidamente a prepara
+	"Explanation_RebootVive": "Reinicia o headset 
+	"Explanation_RemoveAllSteamVRUSBDevices": "Remove todos os dispositivos relacionados ao USB do sistema para reinstala
+	"Explanation_ResetDismissableWarnings": "Os avisos descartados ser
+	"Explanation_Supersampling": "*Alguns aplicativos precisam ser reiniciados para que a altera
+	"Explanation_SupersamplingFiltering": "Op
+	"Explanation_Supersampling_Header": "O SteamVR define a resolu
+	"Explanation_Supersampling_ResolutionPerEye": "Resolu
 	"MenuAction_DisableEnhancedPowerManagement": "Desativar Gerenciador de Energia",
-	"MenuAction_QuickCalibrate": "Calibração rápida",
+	"MenuAction_QuickCalibrate": "Calibra
 	"MenuAction_RebootVive": "Reiniciar headset",
 	"MenuAction_RecordTrackingData": "Gravar dados de rastreio",
 	"MenuAction_RemoveAllSteamVRUSBDevices": "Remover todos os dispositivos USB do SteamVR",
 	"MenuAction_ResetDismissableWarnings": "Descartar avisos",
-	"MenuAction_SetConfigDirectory": "Criar diretório de configuração",
-	"MenuAction_SetLogDirectory": "Criar diretório de registros",
-	"Settings_Advanced_AllowSupersampleFiltering": "Filtragem de superamostragem avançada",
-	"Settings_Video_HDCP14LegacyCompatibility": "Compatibilidade com HDCP 1.4",
+	"MenuAction_SetConfigDirectory": "Criar diret
+	"MenuAction_SetLogDirectory": "Criar diret
+	"OpenXR_AnotherSteamVR": "Outra c
+	"OpenXR_Error": "Erro ao buscar componente",
+	"OpenXR_None": "Nenhum",
+	"OpenXR_OculusRuntime": "Oculus",
+	"OpenXR_SteamVR": "SteamVR",
+	"OpenXR_WindowsMixedReality": "Windows Mixed Reality",
+	"SettingsTime_10m": "10 minutos",
+	"SettingsTime_1h": "1 hora",
+	"SettingsTime_1m": "1 minuto",
+	"SettingsTime_20m": "20 minutos",
+	"SettingsTime_30m": "30 minutos",
+	"SettingsTime_30s": "30 segundos",
+	"SettingsTime_5m": "5 minutos",
+	"SettingsTime_5s": "5 segundos",
+	"SettingsTime_Never": "Nunca",
+	"Settings_2D": "2D",
+	"Settings_3D": "3D",
+	"Settings_ActiveBinding": "Comando ativo",
+	"Settings_ActiveController": "Controle ativo",
+	"Settings_ActiveControllerBinding": "Comando do controle ativo",
+	"Settings_AdvancedSettings": "Configura
+	"Settings_Advanced_AllowSupersampleFiltering": "Filtragem de superamostragem avan
+	"Settings_Advanced_MotionSmoothing_Description": "Sintetiza quadros novos para manter a qualidade da experi
+	"Settings_Advanced_MotionSmoothing_Disabled": "A suaviza
+	"Settings_Advanced_MotionSmoothing_Disabled_Win7": "A suaviza
+	"Settings_Advanced_MotionSmoothing_Header": "Suaviza
 	"Settings_Advanced_Paths_Header": "Caminhos",
 	"Settings_Advanced_Reset_Header": "Reiniciar",
-	"Settings_Advanced_Status_Header": "Verificação de estado",
-	"Settings_ShowSettingsInDashboard": "Mostrar aba de configurações",
-	"Settings_ShowPowerMenu": "Exibir opções de energia",
+	"Settings_Advanced_Status_Header": "Verifica
+	"Settings_Advanced_Supersampline_ResolutionPerEye": "Resolu
+	"Settings_Advanced_SupersamplingManualOverride": "Ativar ajustes de resolu
+	"Settings_Advanced_Supersampling_Auto": "Autom
+	"Settings_Advanced_Supersampling_Custom": "Personalizada",
+	"Settings_Advanced_Supersampling_Header": "Resolu
+	"Settings_Advanced_Supersampling_Warning": "A configura
+	"Settings_Advanced_Supersampling_WidthByHeight": "%1$s 
 	"Settings_AllowAppQuitting": "Permitir fechar aplicativos a partir do painel",
-	"Settings_ShowDesktopViews": "Exibir abas da área de trabalho",
+	"Settings_Animations": "Anima
+	"Settings_Appearance_Background": "Imagem de fundo",
+	"Settings_Appearance_BackgroundDesc": "Selecione uma imagem de fundo para o espa
+	"Settings_Appearance_Background_NoSteam": "Iniciar Steam para ver quaisquer imagens de fundo adicionais.",
+	"Settings_Appearance_Background_Select": "Alterar imagem de fundo",
+	"Settings_Appearance_Base": "Alterar o modelo da esta
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Sempre exibir limites do ch
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
+	"Settings_Appearance_Controller": "Alterar o modelo de controle",
+	"Settings_Appearance_CycleBackgroundImageTimeSec": "Alterar imagem de fundo ap
+	"Settings_Appearance_DomeCameraHeight": "Altura da c
+	"Settings_Appearance_DomeCameraHeightDesc": "Ajustar a altura da c
+	"Settings_Appearance_DomeCameraRadius": "Raio da c
+	"Settings_Appearance_DomeCameraRadiusDesc": "Alterar o tamanho da c
+	"Settings_Appearance_Environment": "Alterar o ambiente inicial",
+	"Settings_Appearance_MoreEnvironments": "Mais ambientes para o Lar do SteamVR",
+	"Settings_Appearance_PlayAreaColorDesc": "Ajuste o estilo da sua 
+	"Settings_Appearance_PlayArea_FloorColor": "Cor do ch
+	"Settings_Appearance_ResetDomeProjectionSettings": "Restabelecer proje
+	"Settings_Appearance_UseDomeProjection": "Usar proje
+	"Settings_Appearance_UseDomeProjectionDesc": "Altera o estilo de proje
+	"Settings_Audio_Active": "Ativado",
+	"Settings_Audio_Current_Setting_Unknown": "(O dispositivo selecionado n
+	"Settings_Audio_Default": "Sistema-padr
+	"Settings_Audio_Dual": "Dupla",
+	"Settings_Audio_HDMIGain": "Redu
+	"Settings_Audio_Headset": "Headset",
+	"Settings_Audio_Manual": "Manual",
+	"Settings_Audio_MicMonitor": "Monitoramento do mic.",
+	"Settings_Audio_Mirroring_Independent_Volume_Label": "Controlar o volume do espelhamento separadamente (Beta)",
+	"Settings_Audio_Mirroring_Label": "Espelhamento de 
+	"Settings_Audio_Muted": "Silenciado",
+	"Settings_Audio_Playback_Automatic_Label": "Dispositivo de sa
+	"Settings_Audio_Recording_Automatic_Label": "Dispositivo de entrada de 
+	"Settings_Audio_Single": "
+	"Settings_Audio_SpeakerJackOutput": "Sa
+	"Settings_Audio_SpeakerJackOutput_Title": "Permite simultaneamente o 
+	"Settings_Auto": "Auto",
+	"Settings_Auto_Parenthesized": "Auto. (%1$s)",
+	"Settings_BaseStationSettings": "Configura
+	"Settings_BluetoothSettings": "Configura
+	"Settings_CameraTest": "Testar c
+	"Settings_Camera_AllowCameraForChaperoneBounds": "Exibir c
+	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
+	"Settings_Camera_AllowCameraForRoomView": "Visualiza
+	"Settings_Camera_AllowCameraForRoomView_Desc": "Clique duas vezes no bot
+	"Settings_Camera_Compatibility": "Taxa de c
+	"Settings_Camera_CompatibilityExplanation": "Caso enfrente perda de rastreamento, tente usar uma taxa diferente, desativar a c
+	"Settings_Camera_EnableCamera": "Ativar c
+	"Settings_Camera_Rate_Hz": "Taxa da c
+	"Settings_Camera_RoomView3D_Experimental": "A visualiza
+	"Settings_Camera_RoomView3D_Unsupported": "A configura
+	"Settings_Camera_RoomViewStyle": "Estilo da visualiza
+	"Settings_Camera_RoomViewStyle_EdgeA": "Silhuetas coloridas",
+	"Settings_Camera_RoomViewStyle_EdgeB": "Fantasmas coloridos",
+	"Settings_Camera_RoomViewStyle_VideoOpaque": "Opaco",
+	"Settings_Camera_RoomViewStyle_VideoTranslucent": "Transl
+	"Settings_Camera_ShowOnController": "Exibir c
+	"Settings_Camera_ShowOnController_Desc": "Ativa a janela de uma c
+	"Settings_Chaperone_ActivationDistance": "Dist
+	"Settings_Chaperone_BoundsColor": "Cor",
+	"Settings_Chaperone_BoundsTransparency": "Transpar
+	"Settings_Chaperone_Color": "Cor",
+	"Settings_Chaperone_Style": "Estilo do chaperone",
+	"Settings_Chaperone_Style_0": "Grade (densa)",
+	"Settings_Chaperone_Style_1": "Grade (m
+	"Settings_Chaperone_Style_2": "Quadrados",
+	"Settings_Chaperone_Style_3": "Grade (esparsa)",
+	"Settings_Chaperone_Style_4": "Apenas ch
+	"Settings_Chaperone_SuitableForLarge": "Apropriado para 
+	"Settings_Chaperone_SuitableForMedium": "Apropriado para 
+	"Settings_Chaperone_SuitableForSmall": "Apropriado para 
+	"Settings_Chaperone_WallHeight": "Altura das paredes (m)",
 	"Settings_CheckForSteam": "Verificar Steam",
-	"Settings_DebugInputBindings": "Ativar opções de depuração na interface de configuração de entrada",
-	"Advanced_GlobalActionSetPriority": "Permitir entrada global de interfaces (Experimental)",
+	"Settings_ChooseStartupOverlayApps": "Escolher aplicativos de interface ao iniciar",
+	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "Nenhum aplicativo de interface foi encontrado",
+	"Settings_Classic": "Cl
+	"Settings_ConnectAnHMD": "Conecte um headset.",
+	"Settings_ControllerSettings": "Configura
+	"Settings_Controller_AdvancedControllerSettings": "Gerenciar comandos de controles",
+	"Settings_Controller_ControllerBindingPrompt": "Comandos do controle",
+	"Settings_Controller_CustomBinding": "Personalizado",
+	"Settings_Controller_DefaultBinding": "Padr
+	"Settings_Controller_ShowBindingCallouts": "Exibir comandos nos controles",
+	"Settings_Controller_ShowBindingCalloutsInVR": "Exibir comandos nos controles na RV",
+	"Settings_CreateSystemReport_Button": "Criar relat
+	"Settings_CurrentOpenXRRuntime": "Componente de tempo de execu
+	"Settings_CurrentOpenXRRuntime_None": "Nenhum",
+	"Settings_Dark": "Escuro",
+	"Settings_DashboardScale": "Escala do painel",
+	"Settings_Dashboard_Position": "Posi
+	"Settings_Dashboard_ShowProgressIndicator": "Indicador de progresso de pressionar longo",
+	"Settings_DebugInputBindings": "Ativar op
+	"Settings_DesktopDarkMode": "Modo escuro na 
+	"Settings_DesktopScale": "Escala da 
+	"Settings_DominantHand": "M
+	"Settings_DominantHand_Left": "Esquerda",
+	"Settings_DominantHand_Right": "Direita",
+	"Settings_Drivers_Header": "Gerenciar m
+	"Settings_Drivers_Number_Blocked": "Bloqueados: %1$s",
+	"Settings_Drivers_Number_Disabled": "Desativados: %1$s",
+	"Settings_Drivers_ShowDriverManagerUI": "Gerenciar m
+	"Settings_Drivers_SomeBlocked": "Devido a um travamento recente, alguns m
+	"Settings_Drivers_Unblock": "Desbloquear",
+	"Settings_Drivers_UnblockAll": "Desbloquear todos",
+	"Settings_Drivers_UnblockAllTip": "AVISO: recomendamos desbloquear e testar um m
+	"Settings_EditBinding": "Editar este comando",
+	"Settings_EditBinding_ChooseAnother": "Escolher outro",
+	"Settings_EnableDashboard": "Associar painel da RV ao bot
+	"Settings_EnableDashboardDesc": "Permite que o painel da RV seja aberto ao pressionar o bot
+	"Settings_EnableWebHelperDebugger": "Ativar depurador de Web Helper",
+	"Settings_EnableWebHelperDebuggerDesc": "Ativa o servidor de depura
 	"Settings_FadeToGrid": "Exibir grade quando o aplicativo trava",
-	"Settings_EnableDashboard": "Associar painel da RV ao botão \"System\"",
-	"Settings_EnableDashboardDesc": "Permite que o painel da RV seja aberto ao pressionar o botão \"System\".",
+	"Settings_Far": "Distante",
+	"Settings_General_CalibrateThumbstick": "Calibrar alavanca anal
+	"Settings_General_CalibrateThumbstick_ConnectAController": "Conectar um controle com uma alavanca anal
+	"Settings_General_Cancel": "Cancelar",
+	"Settings_General_Close": "Fechar",
+	"Settings_General_Confirm": "Confirmar",
+	"Settings_General_InviteMoreSamples": "Foi calculado um 
+	"Settings_General_LeftThumbstickAngle": "
+	"Settings_General_LeftThumbstickAngle_NoValue": "
+	"Settings_General_NotEnoughSamples": "Pressione a alavanca anal
+	"Settings_General_Notifications_Label": "Notifica
+	"Settings_General_Notifications_Text": "Permitir notifica
+	"Settings_General_RightThumbstickAngle": "
+	"Settings_General_RightThumbstickAngle_NoValue": "
+	"Settings_General_ShowBindingUI": "Editar comandos de controle",
+	"Settings_General_ShowTrackerUI": "Gerenciar rastreadores do Vive",
+	"Settings_Header_SteamVR": "Configura
+	"Settings_Hide": "Ocultar",
+	"Settings_High": "Alta",
 	"Settings_HomeAppCheck": "Lar do SteamVR",
 	"Settings_HomeAppDesc": "Desfrute de ambientes virtuais, recursos sociais e muito mais.",
-	"Settings_LargeSpace": "Cômodo grande",
+	"Settings_KnockKnock_Button": "Toc toc",
+	"Settings_KnockKnock_Desc": "Permite que pessoas fora da RV chamem a aten
+	"Settings_LargeSpace": "C
+	"Settings_Loading": "Carregando...",
+	"Settings_Loading_CurrentBinding": "Carregando comandos atuais...",
 	"Settings_LockedModeCheck": "Modo bloqueado",
-	"Settings_LockedModeDesc": "Permitir renderização para o headset mesmo com o computador bloqueado.",
-	"Settings_PauseOnStandby": "Pausar RV quando o headset não estiver em uso",
-	"Settings_PauseOnLocked": "Pausar RV quando o computador estiver bloqueado",
-	"Settings_OverlayRenderQuality": "Qualidade de renderização de interfaces",
-	"Settings_Auto_Parenthesized": "Auto. (%1$s)",
-	"Settings_Auto": "Auto",
-	"Settings_High": "Alta",
-	"Settings_Medium": "Média",
+	"Settings_LockedModeDesc": "Permitir renderiza
 	"Settings_Low": "Baixa",
-	"Settings_Animations": "Animações",
-	"Settings_MediumSpace": "Cômodo médio",
+	"Settings_ManageControllerBindingSettingsForApp": "Gerenciar comandos de controle para:",
+	"Settings_ManageVideoSettingsForApp": "Gerenciar configura
+	"Settings_Medium": "M
+	"Settings_MediumSpace": "C
+	"Settings_Middle": "Meio",
+	"Settings_MimeTypes_Pancake_Header": "Seleciona em qual aplicativo iniciar aplica
+	"Settings_MustQuitApp_Description": "
+	"Settings_MustQuitApp_QuitCurrentGame_Button": "Sair do jogo",
+	"Settings_MustRestart_Description": "O SteamVR precisa ser reiniciado para que algumas altera
+	"Settings_MustRestart_RestartSteamVR_Button": "Reiniciar SteamVR",
+	"Settings_Near": "Pr
+	"Settings_NeedSteamTo_ViewAndEditBindings": "Iniciar Steam para visualizar e editar comandos.",
 	"Settings_NightModeCheck": "Modo noturno",
-	"Settings_NightModeDesc": "Reduz o brilho do headset até as 5h (ou até o SteamVR ser reiniciado).",
-	"Settings_ShowPlaylistMenu": "Exibir menu de reprodução",
-	"Settings_SmallSpace": "Cômodo pequeno",
+	"Settings_NightModeDesc": "Reduz o brilho do headset at
+	"Settings_NotSupported": "Incompat
+	"Settings_Number_Selected": "Selecionados: %1$s",
+	"Settings_OverlayRenderQuality": "Qualidade de renderiza
+	"Settings_PauseOnLocked": "Pausar RV quando o computador estiver bloqueado",
+	"Settings_PauseOnStandby": "Pausar RV quando o headset n
+	"Settings_PerApplication_AppResHeader": "Esta configura
+	"Settings_PerApplication_AppResTitle": "Multiplicador de resolu
+	"Settings_PerApplication_ChooseApplication": "Selecione um aplicativo",
+	"Settings_PerApplication_CustomSuffix": "(personalizado)",
+	"Settings_PerApplication_DashboardSuffix": "(aplicativo de sobreposi
+	"Settings_PerApplication_FovScale_Description": "Tamb
+	"Settings_PerApplication_FovScale_Label": "Campo de vis
+	"Settings_PerApplication_FovScale_Multiplier": "Dimens
+	"Settings_PerApplication_MotionSmoothing_AlwaysOn": "Usar sempre",
+	"Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc": "Aviso: a taxa de quadros do aplicativo ser
+	"Settings_PerApplication_MotionSmoothing_Checkbox": "Ativar suaviza
+	"Settings_PerApplication_MotionSmoothing_Description": "Use a caixa de sele
+	"Settings_PerApplication_MotionSmoothing_Global": "Usar configura
+	"Settings_PerApplication_MotionSmoothing_Header": "Suaviza
+	"Settings_PerApplication_MotionSmoothing_Off": "Desativada",
+	"Settings_PerApplication_MotionSmoothing_On": "Ativada",
+	"Settings_PerApplication_OverlayVisibleCheckbox": "Iniciar aplicativo de sobreposi
+	"Settings_PerApplication_OverlayVisibleHeader": "Aplicativos de sobreposi
+	"Settings_PerApplication_RefreshRateOverride_Checkbox": "Substituir taxa de atualiza
+	"Settings_PerApplication_Reprojection_Checkbox": "Usar modo de reproje
+	"Settings_PerApplication_Reprojection_Description": "Marcar esta op
+	"Settings_PerApplication_Reprojection_Header": "Reproje
+	"Settings_PerApplication_ThrottlingOverride_Description": "O limite de quadros por segundo e a previs
+	"Settings_PerApplication_ThrottlingOverride_Framerate": "Limitar taxa de quadros (QPS) do aplicativo a:",
+	"Settings_PerApplication_ThrottlingOverride_Label": "Limite de taxa de quadros",
+	"Settings_PerApplication_ThrottlingOverride_Prediction": "Previs
+	"Settings_PerApplication_ThrottlingOverride_Toggle": "Ao selecionar uma taxa de quadros fixa aqui, a limita
+	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "Autom
+	"Settings_PerApplication_ThrottlingOverride_Toggle_On": "Fixo",
+	"Settings_PerApplication_VideoSettings": "Configura
+	"Settings_PerApplication_WorldScale_Description": "Substitua o dimensionamento do aplicativo ao ajustar o movimento da cabe
+	"Settings_PerApplication_WorldScale_Extreme": "Extrema",
+	"Settings_PerApplication_WorldScale_Fine": "Pequena",
+	"Settings_PerApplication_WorldScale_Label": "Substituir dimens
+	"Settings_PerApplication_WorldScale_Normal": "Normal",
+	"Settings_PerApplication_WorldScale_Off": "Desativado",
+	"Settings_PerApplication_WorldScale_Range": "[%1$s% a %2$s%]",
+	"Settings_PerApplication_WorldScale_Warning": "Aviso: essas altera
+	"Settings_Perapplication_RefreshRateOverride_Description": "Marcar esta op
+	"Settings_Power_ControllerOffOnExit": "Desligar controles ao sair do SteamVR",
+	"Settings_Power_ReturnToWatchdogTimeout": "Sair do SteamVR ap
+	"Settings_Power_TurnOffControllersTimeout": "Desligar controles ap
+	"Settings_Power_TurnOffScreensTimeout": "Desligar telas ap
+	"Settings_ResetPageToDefault": "Restaurar p
+	"Settings_ResetToDefault": "Restaurar padr
+	"Settings_SectionTitle_Advanced": "Avan
+	"Settings_SectionTitle_Applications": "Aplicativos",
+	"Settings_SectionTitle_Audio": "
+	"Settings_SectionTitle_BaseStation": "Esta
+	"Settings_SectionTitle_Bluetooth": "Bluetooth",
+	"Settings_SectionTitle_Camera": "C
+	"Settings_SectionTitle_Controller": "Controles",
+	"Settings_SectionTitle_Dashboard": "Painel",
+	"Settings_SectionTitle_Developer": "Desenvolvedor",
+	"Settings_SectionTitle_General": "Geral",
+	"Settings_SectionTitle_Home": "P
+	"Settings_SectionTitle_PlayArea": "
+	"Settings_SectionTitle_Power": "Energia",
+	"Settings_SectionTitle_StartupShutdown": "Iniciar / Desligar",
+	"Settings_SectionTitle_Video": "V
+	"Settings_SelectAnOption": "Selecionar uma op
+	"Settings_SetAsOpenXRRuntime": "Usar SteamVR como componente de tempo de execu
+	"Settings_Show": "Exibir",
+	"Settings_ShowDesktopViews": "Exibir abas da 
+	"Settings_ShowOldBindingUI": "Exibir interface de comandos antiga",
+	"Settings_ShowPlaylistMenu": "Exibir menu de reprodu
+	"Settings_ShowPowerMenu": "Exibir op
+	"Settings_ShowSettingsInDashboard": "Mostrar aba de configura
+	"Settings_ShowThumbstickSettings": "Editar configura
+	"Settings_SmallSpace": "C
+	"Settings_StartCameraTest": "Iniciar teste",
+	"Settings_StartTheseOverlayAppsOnLaunch": "Abrir estes aplicativos de interface ao iniciar:",
 	"Settings_StatusWindowAlwaysOnTop_Info": " ",
 	"Settings_StatusWindowAlwaysOnTop_Text": "SteamVR sempre no topo",
 	"Settings_StatusWindowMinimizeToTray_Text": "Minimizar a janela de estado do SteamVR na bandeja do sistema",
 	"Settings_SuppressWarnings_Text": "Suprimir avisos e alertas quando o estado do SteamVR for minimizado",
+	"Settings_ThumbstickDeadzone_Desc": "Ajustar a zona morta em todas as alavancas anal
+	"Settings_ThumbstickDeadzone_Text": "Zona morta da alavanca anal
+	"Settings_ThumbstickSettings": "Configura
+	"Settings_ToggleButton_Disable": "Desativar",
+	"Settings_ToggleButton_Enable": "Ativar",
+	"Settings_ToggleButton_Off": "Desativada",
+	"Settings_ToggleButton_On": "Ativada",
+	"Settings_ToggleDarkMode": "(Des)ativar modo escuro",
+	"Settings_Video_AppResFooter": "A configura
+	"Settings_Video_HDCP14LegacyCompatibility": "Compatibilidade com HDCP 1.4",
+	"Settings_Video_RefreshRate_EnableDirectModeAction": "Ativar modo direto",
+	"Settings_Video_RefreshRate_Header": "Taxa de atualiza
+	"Settings_Video_RefreshRate_HzSuffix": " Hz",
+	"Settings_Video_RefreshRate_Label_Hz": "Taxa de atualiza
+	"Settings_Video_RefreshRate_NotAvailableExtended": "O seu headset 
+	"Settings_Video_RefreshRate_NotFound": "O seu headset 
+	"Settings_Video_RefreshRate_OneSupported": "O seu sistema 
+	"Settings_ViewLogs_Button": "Ver registros",
+	"Settings_ViveTracker": "Rastreador do Vive",
+	"Settings_ViveTracker_Connected": "Conectado",
+	"Settings_ViveTracker_Disconnected": "Desconectado",
+	"Settings_ViveTracker_Hand": "M
+	"Settings_ViveTracker_Identify_NotConnected": "Rastreador Vive n
+	"Settings_ViveTracker_Identify_NotIdentifiable": "Rastreador Vive n
+	"Settings_ViveTracker_Role": "Fun
+	"Settings_ViveTrackers": "Rastreadores do Vive",
 	"StatusCheckInterval_Never": "Nunca",
 	"StatusCheckInterval_Normal": "Normal (1s)",
 	"StatusCheckInterval_Often": "Frequentemente (100ms)",
 	"StatusCheckInterval_Seldom": "Raramente (5s)",
-	"Settings_KnockKnock_Button": "Toc toc",
-	"Settings_KnockKnock_Desc": "Permite que pessoas fora da RV chamem a atenção do usuário",
-	"Settings_CreateSystemReport_Button": "Criar relatório de sistema",
-	"Settings_ViewLogs_Button": "Ver registros",
-	"Settings_Video_RefreshRate_Header": "Taxa de atualização",
-	"Settings_Video_RefreshRate_HzSuffix": " Hz",
-	"Settings_Video_RefreshRate_Label_Hz": "Taxa de atualização (Hz)",
-	"Settings_Video_RefreshRate_NotFound": "O seu headset é compatível com outras taxas de atualização, mas as mesmas não foram detectadas pela placa de vídeo. Verifique se o firmware e a placa de vídeo do seu headset estão atualizados.",
-	"Settings_Video_RefreshRate_NotAvailableExtended": "O seu headset é compatível com outras taxas de atualização, mas o SteamVR não pode geri-las quando o headset está em modo estendido.",
-	"Settings_Video_RefreshRate_EnableDirectModeAction": "Ativar modo direto",
-	"Settings_Video_RefreshRate_OneSupported": "O seu sistema é compatível com apenas uma taxa de atualização.",
-	"Settings_Video_AppResFooter": "A configuração atual renderiza uma imagem a %1$s para cada olho",
-	"Settings_Advanced_MotionSmoothing_Header": "Suavização de movimento",
-	"Settings_Advanced_MotionSmoothing_Description": "Sintetiza quadros novos para manter a qualidade da experiência quando o aplicativo em uso não é capaz de manter uma taxa de quadros aceitável.",
-	"Settings_Advanced_MotionSmoothing_Disabled": "A suavização de movimento não é compatível com esta placa de vídeo/versão de driver — é necessária a compatibilidade com a reprojeção assíncrona.",
-	"Settings_Advanced_MotionSmoothing_Disabled_Win7": "A suavização de movimento não é compatível com versões anteriores do Windows.",
-	"Settings_Advanced_Supersampling_Auto": "Automática",
-	"Settings_Advanced_Supersampling_Custom": "Personalizada",
-	"Settings_Advanced_Supersampling_Header": "Resolução de renderização",
-	"Settings_Advanced_Supersampling_Warning": "A configuração abaixo substituirá a configuração automática e afetará todos os aplicativos. Para alterar a resolução de um aplicativo em específico, acesse as configurações de aplicativos.",
-	"Settings_Advanced_Supersampling_WidthByHeight": "%1$s × %2$s",
-	"Settings_Advanced_SupersamplingManualOverride": "Ativar ajustes de resolução",
-	"Settings_Advanced_Supersampline_ResolutionPerEye": "Resolução por olho",
-	"Explanation_Supersampling_Header": "O SteamVR define a resolução do aplicativo automaticamente baseado no desempenho da sua placa de vídeo.",
-	"Explanation_Supersampling": "*Alguns aplicativos precisam ser reiniciados para que a alteração seja aplicada.",
-	"Explanation_SupersamplingFiltering": "Opções de filtragem de superamostragem:",
-	"Explanation_Supersampling_ResolutionPerEye": "Resolução por olho",
-	"Settings_PerApplication_ChooseApplication": "Selecione um aplicativo",
-	"Settings_PerApplication_AppResTitle": "Multiplicador de resolução personalizado",
-	"Settings_PerApplication_AppResHeader": "Esta configuração funciona como um multiplicador sobre a configuração de resolução global de aplicativos na aba %1$s à direita. O aplicativo pode precisar ser reiniciado para as configurações serem aplicadas. (Padrão: 100%)",
-	"Settings_PerApplication_OverlayVisibleHeader": "Aplicativos de sobreposição estão disponíveis como abas no painel do SteamVR.",
-	"Settings_PerApplication_OverlayVisibleCheckbox": "Iniciar aplicativo de sobreposição juntamente com o SteamVR.",
-	"Settings_PerApplication_DashboardSuffix": "(aplicativo de sobreposição)",
-	"Settings_PerApplication_CustomSuffix": "(personalizado)",
-	"Settings_PerApplication_MotionSmoothing_Header": "Suavização de movimento",
-	"Settings_PerApplication_MotionSmoothing_Description": "Use a caixa de seleção abaixo para substituir a configuração global de suavização de movimento para este aplicativo. (A configuração global de suavização de movimento é <font color=#eeeeee>%1</font>)",
-	"Settings_PerApplication_MotionSmoothing_Global": "Usar configuração global",
-	"Settings_PerApplication_MotionSmoothing_On": "Ativada",
-	"Settings_PerApplication_MotionSmoothing_Off": "Desativada",
-	"Settings_PerApplication_MotionSmoothing_AlwaysOn": "Usar sempre",
-	"Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc": "Aviso: a taxa de quadros do aplicativo será reduzida pela metade",
-	"Settings_PerApplication_MotionSmoothing_Checkbox": "Ativar suavização de movimento para este aplicativo",
-	"Settings_PerApplication_Reprojection_Header": "Reprojeção",
-	"Settings_PerApplication_Reprojection_Checkbox": "Usar modo de reprojeção clássico",
-	"Settings_PerApplication_Reprojection_Description": "Marcar esta opção desativará a reprojeção assíncrona para este título.",
-	"Settings_PerApplication_RefreshRateOverride_Checkbox": "Substituir taxa de atualização",
-	"Settings_Perapplication_RefreshRateOverride_Description": "Marcar esta opção permitirá especificar uma taxa de atualização diferente da configuração global para este aplicativo.",
-	"Settings_PerApplication_ThrottlingOverride_Description": "O limite de quadros por segundo e a previsão de quadros são aplicados automaticamente conforme o desempenho medido, mas alguns aplicativos podem se beneficiar da execução em uma taxa de quadros fixa em prol de uma experiência mais suave.",
-	"Settings_PerApplication_ThrottlingOverride_Label": "Limite de taxa de quadros",
-	"Settings_PerApplication_ThrottlingOverride_Toggle": "Ao selecionar uma taxa de quadros fixa aqui, a limitação automática da taxa será desativada para este aplicativo.",
-	"Settings_PerApplication_ThrottlingOverride_Toggle_On": "Fixo",
-	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "Automático",
-	"Settings_PerApplication_ThrottlingOverride_Framerate": "Limitar taxa de quadros (QPS) do aplicativo a:",
-	"Settings_PerApplication_ThrottlingOverride_Prediction": "Previsão adicional (ms):",
-	"Settings_PerApplication_WorldScale_Description": "Substitua o dimensionamento do aplicativo ao ajustar o movimento da cabeça e a separação dos olhos.",
-	"Settings_PerApplication_WorldScale_Label": "Substituir dimensão do mundo",
-	"Settings_PerApplication_WorldScale_Off": "Desativado",
-	"Settings_PerApplication_WorldScale_Fine": "Pequena",
-	"Settings_PerApplication_WorldScale_Normal": "Normal",
-	"Settings_PerApplication_WorldScale_Extreme": "Extrema",
-	"Settings_PerApplication_WorldScale_Range": "[%1$s% a %2$s%]",
-	"Settings_PerApplication_WorldScale_Warning": "Aviso: essas alterações podem exigir a reinicialização do aplicativo e/ou modificar interações de formas inesperadas. Dependendo do aplicativo, alguns recursos (como lançamento de objetos) podem ser afetados.",
-	"Settings_PerApplication_FovScale_Description": "Também há a opção de reduzir o campo de visão no aplicativo, abdicando da visão periférica para melhorar a clareza. Aviso: em muitos casos, o aplicativo precisará ser reiniciado para que a alteração seja devidamente aplicada.",
-	"Settings_PerApplication_FovScale_Label": "Campo de visão",
-	"Settings_PerApplication_FovScale_Multiplier": "Dimensão personalizada",
-	"Settings_MimeTypes_Pancake_Header": "Seleciona em qual aplicativo iniciar aplicações 2D",
-	"Settings_Camera_EnableCamera": "Ativar câmera",
-	"Settings_Camera_ShowOnController": "Exibir câmera no controle",
-	"Settings_Camera_ShowOnController_Desc": "Ativa a janela de uma câmara anexada ao seu controle quando o menu principal estiver aberto.",
-	"Settings_Camera_AllowCameraForChaperoneBounds": "Exibir câmera nos limites do cômodo",
-	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
-	"Settings_Camera_AllowCameraForRoomView": "Visualização de cômodo",
-	"Settings_Camera_AllowCameraForRoomView_Desc": "Clique duas vezes no botão \"System\" a qualquer momento para acessar a visualização de cômodo",
-	"Settings_Camera_Compatibility": "Taxa de câmara",
-	"Settings_Camera_Rate_Hz": "Taxa da câmara (Hz)",
-	"Settings_Camera_CompatibilityExplanation": "Caso enfrente perda de rastreamento, tente usar uma taxa diferente, desativar a câmera ou conectar a outra porta USB.",
-	"Settings_Camera_RoomViewStyle": "Estilo da visualização de cômodo",
-	"Settings_Camera_RoomViewStyle_EdgeA": "Silhuetas coloridas",
-	"Settings_Camera_RoomViewStyle_EdgeB": "Fantasmas coloridos",
-	"Settings_Camera_RoomViewStyle_VideoTranslucent": "Translúcido",
-	"Settings_Camera_RoomViewStyle_VideoOpaque": "Opaco",
-	"Settings_Camera_RoomView3D_Experimental": "A visualização de cômodo 3D é experimental.",
-	"Settings_Camera_RoomView3D_Unsupported": "A configuração do headset ou do sistema operacional não é compatível com a visualização de cômodo 3D.",
-	"Settings_CameraTest": "Testar câmera e desempenho",
-	"Settings_StartCameraTest": "Iniciar teste",
-	"CameraTest_CheckingCamera": "Verificar câmera...",
-	"CameraTest_CheckingTracking": "Verificando rastreamento com a câmera...",
-	"CameraTest_CameraFailed": "A comunicação com a câmara falhou",
-	"CameraTest_TrackingFailed": "Falha no rastreamento com a câmera ativada",
-	"CameraTest_Success": "A câmera passou no teste",
-	"CameraTest": "Teste da câmara",
-	"CameraTestStatus_Evaluating": "Verificando",
-	"CameraTestStatus_Success": "Sucesso",
-	"CameraTestStatus_Failure": "Falha",
-	"Advanced_Appearance": "Aparência",
-	"Settings_Appearance_Background": "Imagem de fundo",
-	"Settings_Appearance_Background_NoSteam": "Iniciar Steam para ver quaisquer imagens de fundo adicionais.",
-	"Settings_Appearance_Background_Select": "Alterar imagem de fundo",
-	"Settings_Appearance_BackgroundDesc": "Selecione uma imagem de fundo para o espaço padrão",
-	"Settings_Appearance_UseDomeProjection": "Usar projeção em cúpula",
-	"Settings_Appearance_UseDomeProjectionDesc": "Altera o estilo de projeção da imagem de fundo. Algumas imagens de fundo usam este recurso para criar uma experiência mais imersiva. Caso a imagem de fundo que tenha escolhido esteja distorcida, ative esta opção",
-	"Settings_Appearance_DomeCameraHeight": "Altura da câmera",
-	"Settings_Appearance_DomeCameraHeightDesc": "Ajustar a altura da câmera em relação à imagem de fundo",
-	"Settings_Appearance_DomeCameraRadius": "Raio da cúpula",
-	"Settings_Appearance_DomeCameraRadiusDesc": "Alterar o tamanho da cúpula.",
-	"Settings_Appearance_ResetDomeProjectionSettings": "Restabelecer projeção da cúpula para valores-padrão",
-	"Settings_Appearance_PlayAreaColorDesc": "Ajuste o estilo da sua área de jogo. Você verá isto durante o carregamento dos jogos ou se tiver desativado Lar do SteamVR (Beta)",
-	"Settings_Appearance_PlayArea_FloorColor": "Cor do chão da área de jogo",
-	"Settings_Appearance_MoreEnvironments": "Mais ambientes para o Lar do SteamVR",
-	"Settings_Power_ReturnToWatchdogTimeout": "Sair do SteamVR após",
-	"Settings_Power_TurnOffScreensTimeout": "Desligar telas após",
-	"Settings_Power_TurnOffControllersTimeout": "Desligar controles após",
-	"Settings_Power_ControllerOffOnExit": "Desligar controles ao sair do SteamVR",
-	"Settings_General_Notifications_Label": "Notificações",
-	"Settings_General_Notifications_Text": "Permitir notificações enquanto estiver na RV",
-	"Settings_General_ShowBindingUI": "Editar comandos de controle",
-	"Settings_General_ShowTrackerUI": "Gerenciar rastreadores do Vive",
-	"Settings_General_Cancel": "Cancelar",
-	"Settings_General_Confirm": "Confirmar",
-	"Settings_General_Close": "Fechar",
-	"Settings_General_CalibrateThumbstick": "Calibrar alavanca analógica",
-	"Settings_General_CalibrateThumbstick_ConnectAController": "Conectar um controle com uma alavanca analógica.",
-	"Settings_General_NotEnoughSamples": "Pressione a alavanca analógica, pelo menos, %1$s vez(es) para completar a calibração.",
-	"Settings_General_InviteMoreSamples": "Foi calculado um ângulo de %1$s°. Continue a pressionar para cima para otimizar o valor ou clique em Confirmar para aceitar esta calibração.",
-	"Settings_General_LeftThumbstickAngle": "Ângulo da alavanca analógica esquerda: %1$s°",
-	"Settings_General_RightThumbstickAngle": "Ângulo da alavanca analógica direita: %1$s°",
-	"Settings_General_LeftThumbstickAngle_NoValue": "Ângulo da alavanca analógica esquerda",
-	"Settings_General_RightThumbstickAngle_NoValue": "Ângulo da alavanca analógica direita",
-	"Settings_Dashboard_ShowProgressIndicator": "Indicador de progresso de pressionar longo",
-	"Settings_Dashboard_Position": "Posição do painel",
-	"Settings_Classic": "Clássica",
-	"Settings_Near": "Próximo",
-	"Settings_Middle": "Meio",
-	"Settings_Far": "Distante",
-	"Settings_DesktopScale": "Escala da área de trabalho",
-	"Settings_DashboardScale": "Escala do painel",
-	"Settings_DesktopDarkMode": "Modo escuro na área de trabalho",
-	"Settings_ToggleDarkMode": "(Des)ativar modo escuro",
-	"Settings_Dark": "Escuro",
-	"SettingsTime_5s": "5 segundos",
-	"SettingsTime_30s": "30 segundos",
-	"SettingsTime_1m": "1 minuto",
-	"SettingsTime_5m": "5 minutos",
-	"SettingsTime_10m": "10 minutos",
-	"SettingsTime_20m": "20 minutos",
-	"SettingsTime_30m": "30 minutos",
-	"SettingsTime_1h": "1 hora",
-	"SettingsTime_Never": "Nunca",
-	"Settings_Appearance_CycleBackgroundImageTimeSec": "Alterar imagem de fundo após:",
-	"Settings_Chaperone_BoundsColor": "Cor",
-	"Settings_Chaperone_BoundsTransparency": "Transparência",
-	"Settings_Chaperone_Color": "Cor",
-	"Settings_Chaperone_ActivationDistance": "Distância de ativação (m)",
-	"Settings_Chaperone_WallHeight": "Altura das paredes (m)",
-	"Settings_Chaperone_SuitableForSmall": "Apropriado para áreas de jogo pequenas. Cuidado.",
-	"Settings_Chaperone_SuitableForMedium": "Apropriado para áreas de jogo médias.",
-	"Settings_Chaperone_SuitableForLarge": "Apropriado para áreas de jogo grandes.",
-	"Settings_Chaperone_Style": "Estilo do chaperone",
-	"Settings_Chaperone_Style_0": "Grade (densa)",
-	"Settings_Chaperone_Style_1": "Grade (média)",
-	"Settings_Chaperone_Style_2": "Quadrados",
-	"Settings_Chaperone_Style_3": "Grade (esparsa)",
-	"Settings_Chaperone_Style_4": "Apenas chão",
-	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Sempre exibir limites do chão",
-	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
-	"Settings_Appearance_Controller": "Alterar o modelo de controle",
-	"Settings_Appearance_Base": "Alterar o modelo da estação base",
-	"Settings_Appearance_Environment": "Alterar o ambiente inicial",
-	"Settings_ConnectAnHMD": "Conecte um headset.",
-	"Settings_Loading": "Carregando...",
-	"Settings_ResetToDefault": "Restaurar padrões",
-	"Settings_ResetPageToDefault": "Restaurar página para o padrão",
-	"Settings_ToggleButton_On": "Ativada",
-	"Settings_ToggleButton_Off": "Desativada",
-	"Settings_ToggleButton_Disable": "Desativar",
-	"Settings_ToggleButton_Enable": "Ativar",
-	"Settings_2D": "2D",
-	"Settings_3D": "3D",
-	"Settings_Header_SteamVR": "Configurações do SteamVR",
-	"Settings_MustRestart_Description": "O SteamVR precisa ser reiniciado para que algumas alterações sejam implementadas.",
-	"Settings_MustRestart_RestartSteamVR_Button": "Reiniciar SteamVR",
-	"Settings_MustQuitApp_Description": "É preciso sair do jogo atual para que as alterações sejam implementadas.",
-	"Settings_MustQuitApp_QuitCurrentGame_Button": "Sair do jogo",
-	"Settings_NotSupported": "Incompatível",
-	"Settings_AdvancedSettings": "Configurações avançadas",
-	"Settings_Show": "Exibir",
-	"Settings_Hide": "Ocultar",
-	"Settings_ViveTracker": "Rastreador do Vive",
-	"Settings_ViveTrackers": "Rastreadores do Vive",
-	"Settings_ViveTracker_Role": "Função do rastreador",
-	"Settings_ViveTracker_Hand": "Mão",
-	"Settings_ViveTracker_Identify_NotConnected": "Rastreador Vive não está conectado.",
-	"Settings_ViveTracker_Identify_NotIdentifiable": "Rastreador Vive não é capaz de identificar.",
-	"Settings_ViveTracker_Connected": "Conectado",
-	"Settings_ViveTracker_Disconnected": "Desconectado",
-	"Settings_PerApplication_VideoSettings": "Configurações de vídeo por aplicativo",
-	"Settings_ChooseStartupOverlayApps": "Escolher aplicativos de interface ao iniciar",
-	"Settings_StartTheseOverlayAppsOnLaunch": "Abrir estes aplicativos de interface ao iniciar:",
-	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "Nenhum aplicativo de interface foi encontrado",
-	"Settings_ActiveController": "Controle ativo",
-	"Settings_EditBinding": "Editar este comando",
-	"Settings_EditBinding_ChooseAnother": "Escolher outro",
-	"Settings_ShowOldBindingUI": "Exibir interface de comandos antiga",
-	"Settings_ManageVideoSettingsForApp": "Gerenciar configurações de vídeo para:",
-	"Settings_ManageControllerBindingSettingsForApp": "Gerenciar comandos de controle para:",
-	"Settings_ActiveControllerBinding": "Comando do controle ativo",
-	"Settings_ActiveBinding": "Comando ativo",
-	"Settings_ShowThumbstickSettings": "Editar configurações da alavanca analógica",
-	"Settings_ThumbstickSettings": "Configurações da alavanca analógica",
-	"Settings_Number_Selected": "Selecionados: %1$s",
-	"Settings_Drivers_ShowDriverManagerUI": "Gerenciar módulos",
-	"Settings_Drivers_Number_Blocked": "Bloqueados: %1$s",
-	"Settings_Drivers_Number_Disabled": "Desativados: %1$s",
-	"Settings_Drivers_Header": "Gerenciar módulos do SteamVR",
-	"Settings_Drivers_Unblock": "Desbloquear",
-	"Settings_Drivers_UnblockAll": "Desbloquear todos",
-	"Settings_Drivers_UnblockAllTip": "AVISO: recomendamos desbloquear e testar um módulo por vez.",
-	"Settings_Drivers_SomeBlocked": "Devido a um travamento recente, alguns módulos do SteamVR foram bloqueados automaticamente.",
-	"Settings_CurrentOpenXRRuntime_None": "Nenhum",
-	"Settings_CurrentOpenXRRuntime": "Componente de tempo de execução do OpenXR em uso:",
-	"Settings_SetAsOpenXRRuntime": "Usar SteamVR como componente de tempo de execução do OpenXR",
-	"OpenXR_AnotherSteamVR": "Outra cópia do SteamVR",
-	"OpenXR_SteamVR": "SteamVR",
-	"OpenXR_None": "Nenhum",
-	"OpenXR_Error": "Erro ao buscar componente",
-	"OpenXR_OculusRuntime": "Oculus",
-	"OpenXR_WindowsMixedReality": "Windows Mixed Reality",
+	"SystemStatus_FrameRate_15sec": "15 seg",
+	"SystemStatus_FrameRate_7sec": "7 seg",
+	"SystemStatus_FrameRate_Good": "Boa taxa de quadros",
+	"SystemStatus_FrameRate_MissedFrames": "Quadros perdidos",
+	"SystemStatus_FrameRate_now": "agora",
 	"TestControllerTitle": "Teste do controle %1$s em andamento",
-	"TestController_NoController": "Ligue um controle para testá-lo."
-}
+	"TestController_NoController": "Ligue um controle para test
+	"VRDevConsole_ShowLogName": "Exibir nome do registro",
+	"VRDevConsole_Showtimestamp": "Exibir hor
+	"VRDevFiles_Configuration": "Configura
+	"VRDevFiles_JSON": "JSON",
+	"VRDevFiles_Logging": "Registro",
+	"VRDevFiles_PathHandles": "Path Handles",
+	"VRDevFiles_USBDevices": "Dispositivos USB",
+	"VRMonitor_DevNav_Console": "Console",
+	"VRMonitor_DevNav_Files": "Arquivos",
+	"VRMonitor_DevNav_RoomOverview": "Vis
+	"VRMonitor_Nav_Developer": "Desenvolvedor",
+	"VRMonitor_Nav_Help": "Ajuda",
+	"VRMonitor_Nav_Overview": "Vis
+	"VRMonitor_Nav_Settings": "Configura
+	"VRMonitor_Overview_DeviceStatus_Title": "Estado do dispositivo",
+	"VRMonitor_Overview_Notifications_Title": "Notifica
+	"VRMonitor_Overview_QuickLinks_Knock": "Toc toc",
+	"VRMonitor_Overview_QuickLinks_Knock_Desc": "Chamar a aten
+	"VRMonitor_Overview_QuickLinks_RoomSetup": "Prepara
+	"VRMonitor_Overview_QuickLinks_RoomSetup_Desc": "Configurar os limites do Chaperone",
+	"VRMonitor_Overview_QuickLinks_Title": "Links r
+	"VRMonitor_Overview_QuickLinks_Tutorial": "Tutorial do SteamVR",
+	"VRMonitor_Overview_QuickLinks_Tutorial_Desc": "Aprenda a usar o seu headset de RV",
+	"VRMonitor_Overview_SystemStatus_Title": "Estado do sistema",
+	"language": "brazilian",
+ %2$s",
+ <font color=#eeeeee>%1</font>)",
+ a configura
+ a op
+ a reproje
+ as 5h (ou at
+ capaz de identificar.",
+ capaz de manter uma taxa de quadros aceit
+ compat
+ conectado.",
+ desativada para este aplicativo.",
+ direita. O aplicativo pode precisar ser reiniciado para as configura
+ e no c
+ em modo estendido.",
+ especificar uma taxa de atualiza
+ experimental.",
+ imagem de fundo",
+ isto durante o carregamento dos jogos ou se tiver desativado Lar do SteamVR (Beta)",
+ isto pode resolver problemas relacionados com USB.",
+ necess
+ o SteamVR ser reiniciado).",
+ preciso sair do jogo atual para que as altera
+ presente)",
+ reduzida pela metade",
+ ser reiniciado para que a altera
+ todos os aplicativos. Para alterar a resolu
+-lo."
+. Continue a pressionar para cima para otimizar o valor ou clique em Confirmar para aceitar esta calibra
+a e a separa
+ada",
+adas",
+ado de Energia do Windows para dispositivos USB SteamVR caso enfrente perda misteriosa de rastreamento ou impossibilidade de pareamento de controles sem fio. ",
+ado",
+amento de objetos) podem ser afetados.",
+cido",
+da de 
+da de alto-falante/conector de fones de ouvido de 3,5 mm",
+deo do seu headset est
+deo no headset",
+deo para:",
+deo por aplicativo",
+deo",
+deo. Verifique se o firmware e a placa de v
+deo.",
+deo/vers
+dia",
+dia)",
+dias.",
+dio",
+dulo por vez.",
+dulos do SteamVR foram bloqueados automaticamente.",
+dulos do SteamVR",
+dulos",
+es 2D",
+es Perforce.",
+es anteriores do Windows.",
+es avan
+es base",
+es da alavanca anal
+es da esta
+es de Bluetooth",
+es de aplicativos.",
+es de depura
+es de energia",
+es de filtragem de superamostragem:",
+es de formas inesperadas. Dependendo do aplicativo, alguns recursos (como lan
+es de tempo automaticamente ao sair",
+es de tempo",
+es de v
+es do SteamVR",
+es enquanto estiver na RV",
+es podem exigir a reinicializa
+es sejam implementadas.",
+es serem aplicadas. (Padr
+fico de desempenho da placa de v
+fico, acesse as configura
+gica direita",
+gica direita: %1$s
+gica esquerda",
+gica esquerda: %1$s
+gica",
+gica, pelo menos, %1$s vez(es) para completar a calibra
+gica.",
+gicas.",
+gina inicial",
+gina para o padr
+ginas de Chromium integradas. Sempre ativo em vers
+mara (Hz)",
+mara anexada ao seu controle quando o menu principal estiver aberto.",
+mara falhou",
+mara",
+mera ativada",
+mera e desempenho",
+mera em rela
+mera no controle",
+mera nos limites do c
+mera ou conectar a outra porta USB.",
+mera passou no teste",
+mera",
+mera...",
+modo 3D 
+modo 3D.",
+modo completo, novos limites ser
+modo e centralizados a partir do seu headset.",
+modo grande",
+modo m
+modo pequeno",
+modo",
+modo. Para RV na posi
+ncia de ativa
+ncia mais imersiva. Caso a imagem de fundo que tenha escolhido esteja distorcida, ative esta op
+ncia mais suave.",
+ncia quando o aplicativo em uso n
+ncia",
+ncrona para este t
+ncrona.",
+ngulo da alavanca anal
+ngulo de %1$s
+nica",
+o (Hz)",
+o (m)",
+o \"System\" a qualquer momento para acessar a visualiza
+o \"System\"",
+o \"System\".",
+o abaixo para substituir a configura
+o abaixo substituir
+o adicional (ms):",
+o aplicados automaticamente conforme o desempenho medido, mas alguns aplicativos podem se beneficiar da execu
+o ass
+o atual renderiza uma imagem a %1$s para cada olho",
+o atualizados.",
+o autom
+o base",
+o com a c
+o da 
+o da c
+o da imagem de fundo. Algumas imagens de fundo usam este recurso para criar uma experi
+o de c
+o de controles",
+o de driver 
+o de entrada",
+o de estado",
+o de ganho no 
+o de interfaces",
+o de movimento 
+o de movimento n
+o de movimento para este aplicativo",
+o de movimento para este aplicativo. (A configura
+o de movimento",
+o de quadros s
+o de reduzir o campo de vis
+o de renderiza
+o de resolu
+o de um aplicativo em espec
+o desativar
+o diferente da configura
+o dispon
+o do OpenXR em uso:",
+o do OpenXR",
+o do aplicativo automaticamente baseado no desempenho da sua placa de v
+o do aplicativo e/ou modificar intera
+o do c
+o do headset ou do sistema operacional n
+o do mundo",
+o do painel",
+o do rastreador",
+o do seu c
+o do usu
+o do utilizador do headset",
+o dominante",
+o dos drivers.",
+o dos olhos.",
+o em c
+o em p
+o em uma taxa de quadros fixa em prol de uma experi
+o est
+o estabelecidos no ch
+o estiver em uso",
+o exibidos novamente quando ocorrerem.",
+o foram detectadas pela placa de v
+o funciona como um multiplicador sobre a configura
+o geral do c
+o geral",
+o global de aplicativos na aba %1$s 
+o global de suaviza
+o global para este aplicativo.",
+o global",
+o juntamente com o SteamVR.",
+o na interface de configura
+o no aplicativo, abdicando da vis
+o padr
+o para anexar as ferramentas de desenvolvedor e depurador de Chromium a p
+o para o headset mesmo com o computador bloqueado.",
+o perif
+o permitir
+o personalizada",
+o personalizado",
+o pode geri-las quando o headset est
+o por olho",
+o seja aplicada.",
+o seja devidamente aplicada.",
+o, mas as mesmas n
+o, mas o SteamVR n
+o...",
+o: 100%)",
+pia do SteamVR",
+pida",
+pidos",
+pula para valores-padr
+pula",
+pula.",
+rea de jogo",
+rea de jogo. Voc
+rea de trabalho",
+reas de jogo grandes.",
+reas de jogo m
+reas de jogo pequenas. Cuidado.",
+ria a compatibilidade com a reproje
+rica para melhorar a clareza. Aviso: em muitos casos, o aplicativo precisar
+rio de configura
+rio de registros",
+rio de sistema",
+rio",
+ssica",
+ssico",
+tica da taxa ser
+tica e afetar
+tica",
+tico",
+tulo.",
+udio HDMI do VIVE",
+udio pelo conector de fones de ouvido 3,5 mm e pelos alto-falantes do headset",
+udio",
+veis como abas no painel do SteamVR.",
+vel com a visualiza
+vel com apenas uma taxa de atualiza
+vel com esta placa de v
+vel com outras taxas de atualiza
+vel com vers
+vel",
+vel.",
+ximo",

@@ -1,53 +1,75 @@
-{
-	"language_tag": "hu_HU",
-	"/actions/system/in/OpenDashboard": "Műszerfal megnyitása",
-	"/actions/system/in/CloseDashboard": "Műszerfal bezárása",
-	"/actions/system/in/ToggleDashboard": "Műszerfal ki-/bekapcsolása",
-	"/actions/system/in/TakeScreenshot": "Képernyőmentés",
-	"/actions/system/in/ToggleRoomView": "Szobanézet ki/be",
-	"/actions/system/in/SystemButtonChord": "Rendszerművelet mód",
-	"/actions/system/in/ShowPowerMenu": "Energia menü mutatása",
-	"/actions/lasermouse/in/leftclick": "Bal egérgomb kattintás",
-	"/actions/lasermouse/in/rightclick": "Jobb egérgomb kattintás",
-	"/actions/lasermouse/in/lockmouseposition": "Egérpozíció rögzítése",
-	"/actions/lasermouse/in/home": "Kezdőoldalra",
-	"/actions/lasermouse/in/back": "Vissza",
-	"/actions/lasermouse/in/moveright": "Mozgás jobbra",
-	"/actions/lasermouse/in/moveup": "Mozgás fel",
-	"/actions/lasermouse/in/moveleft": "Mozgás balra",
-	"/actions/lasermouse/in/movedown": "Mozgás le",
-	"/actions/lasermouse/in/trackpadtouch": "Trackpad érintés",
-	"/actions/lasermouse/in/trackpadvalue": "Trackpad mozgás",
-	"/actions/lasermouse/in/switchgamepadfocus": "Panelfókusz váltása (gamepad)",
-	"/actions/lasermouse/in/trackpadscroll": "Panel görgetése",
-	"/actions/lasermouse/in/enter": "Enter",
-	"/actions/lasermouse/in/pointer": "Lézer egérmutató",
-	"/actions/scroll_discrete/in/scroll": "Panel görgetése",
-	"/actions/scroll_smooth/in/scroll": "Panel görgetése",
-	"/actions/lasermouse_secondary/in/switchlaserhand": "Legyen az aktív kéz",
-	"/actions/dualanalog/in/rightclick": "Jobb billentyűzet kattintás",
-	"/actions/dualanalog/in/leftclick": "Bal billentyűzet kattintás",
-	"/actions/dualanalog/in/righttouch": "Jobb billentyűzet érintés",
-	"/actions/dualanalog/in/lefttouch": "Bal billentyűzet érintés",
-	"/actions/dualanalog/in/rightvalue": "Jobb billentyűzet mozgás",
-	"/actions/dualanalog/in/leftvalue": "Bal billentyűzet mozgás",
-	"/actions/dualanalog/in/modeswitch1": "Nagybetűk mutatása",
-	"/actions/dualanalog/in/modeswitch2": "Írásjelek mutatása",
-	"/actions/dualanalog/in/cancel": "Billentyűzet bezárása",
-	"/actions/system/in/systembuttonchord": "Rendszerművelet mód",
-	"/actions/system/in/toggleroomview": "Szobanézet ki/be",
-	"/actions/system/in/volumeup": "Hangosítás",
-	"/actions/system/in/volumedown": "Halkítás",
-	"/actions/system/in/toggledashboard": "Műszerfal ki-/bekapcsolása",
-	"/actions/system/in/showpowermenu": "Energia menü mutatása",
-	"/actions/system/in/takescreenshot": "Képernyőmentés",
-	"/actions/system/in/mutemicrophone": "Mikrofon némítása",
-	"/actions/normal": "Normál működés",
 	"/actions/chord": "Rendszergomb-akkordok",
-	"/actions/lasermouse": "Lézer egér",
-	"/actions/lasermouse_secondary": "Balkezes lézer egér",
-	"/actions/dualanalog": "Billentyűzetes bevitel",
-	"/actions/system": "Rendszerműveletek",
-	"/actions/scroll_discrete": "Egérgörgő stílusú görgetés",
-	"/actions/scroll_smooth": "Trackpad stílusú görgetés"
-}
+	"/actions/dualanalog": "Billenty
+	"/actions/dualanalog/in/cancel": "Billenty
+	"/actions/dualanalog/in/leftclick": "Bal billenty
+	"/actions/dualanalog/in/lefttouch": "Bal billenty
+	"/actions/dualanalog/in/leftvalue": "Bal billenty
+	"/actions/dualanalog/in/modeswitch1": "Nagybet
+	"/actions/dualanalog/in/modeswitch2": "
+	"/actions/dualanalog/in/rightclick": "Jobb billenty
+	"/actions/dualanalog/in/righttouch": "Jobb billenty
+	"/actions/dualanalog/in/rightvalue": "Jobb billenty
+	"/actions/lasermouse": "L
+	"/actions/lasermouse/in/back": "Vissza",
+	"/actions/lasermouse/in/enter": "Enter",
+	"/actions/lasermouse/in/home": "Kezd
+	"/actions/lasermouse/in/leftclick": "Bal eg
+	"/actions/lasermouse/in/lockmouseposition": "Eg
+	"/actions/lasermouse/in/movedown": "Mozg
+	"/actions/lasermouse/in/moveleft": "Mozg
+	"/actions/lasermouse/in/moveright": "Mozg
+	"/actions/lasermouse/in/moveup": "Mozg
+	"/actions/lasermouse/in/pointer": "L
+	"/actions/lasermouse/in/rightclick": "Jobb eg
+	"/actions/lasermouse/in/switchgamepadfocus": "Panelf
+	"/actions/lasermouse/in/trackpadscroll": "Panel g
+	"/actions/lasermouse/in/trackpadtouch": "Trackpad 
+	"/actions/lasermouse/in/trackpadvalue": "Trackpad mozg
+	"/actions/lasermouse_secondary": "Balkezes l
+	"/actions/lasermouse_secondary/in/switchlaserhand": "Legyen az akt
+	"/actions/normal": "Norm
+	"/actions/scroll_discrete": "Eg
+	"/actions/scroll_discrete/in/scroll": "Panel g
+	"/actions/scroll_smooth": "Trackpad st
+	"/actions/scroll_smooth/in/scroll": "Panel g
+	"/actions/system": "Rendszerm
+	"/actions/system/in/CloseDashboard": "M
+	"/actions/system/in/OpenDashboard": "M
+	"/actions/system/in/ShowPowerMenu": "Energia men
+	"/actions/system/in/SystemButtonChord": "Rendszerm
+	"/actions/system/in/TakeScreenshot": "K
+	"/actions/system/in/ToggleDashboard": "M
+	"/actions/system/in/ToggleRoomView": "Szoban
+	"/actions/system/in/mutemicrophone": "Mikrofon n
+	"/actions/system/in/showpowermenu": "Energia men
+	"/actions/system/in/systembuttonchord": "Rendszerm
+	"/actions/system/in/takescreenshot": "K
+	"/actions/system/in/toggledashboard": "M
+	"/actions/system/in/toggleroomview": "Szoban
+	"/actions/system/in/volumedown": "Halk
+	"/actions/system/in/volumeup": "Hangos
+	"language_tag": "hu_HU",
+ mutat
+k mutat
+kusz v
+oldalra",
+perny
+rgomb kattint
+rmutat
+s balra",
+s fel",
+s jobbra",
+s le",
+sa (gamepad)",
+sjelek mutat
+szerfal bez
+szerfal ki-/bekapcsol
+szerfal megnyit
+velet m
+veletek",
+zer eg
+zet bez
+zet kattint
+zet ki/be",
+zet mozg
+zetes bevitel",

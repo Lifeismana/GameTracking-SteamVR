@@ -1,955 +1,1152 @@
-"lang"
-{
-"Language" "swedish" 
-"Tokens"
-{
-
-"Error_NoHMDAvailable_Header" "Headset hittades ej"
-"Error_NoHMDAvailable_Description" "Se till att ditt headset är ordentligt anslutet och starta sedan om SteamVR."
-"Error_NoHMDAvailable_Action" "Mer information"
-"Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#headset"
-
-"Error_HMDDoesNotTrack_Header" "Söker ..."
-"Error_HMDDoesNotTrack_Description" "Se till att ditt headset är inom synhåll av en basstation."
-"Error_HMDDoesNotTrack_Action" "Mer information"
-"Error_HMDDoesNotTrack_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#tracking-issues"
-
-"Error_NoCompositorAvailable_Header" "SteamVR-fel"
-"Error_NoCompositorAvailable_Description" "Åh nej! SteamVR har stött på ett oväntat problem."
-"Error_NoCompositorAvailable_Action" "Starta om SteamVR"
-"Error_NoCompositorAvailable_ActionURL" "vrmonitor://restartsystem"
-
-"Error_NoChaperoneAvailable_Header" "Rumskonfiguration"
-"Error_NoChaperoneAvailable_Description" "Det verkar vara dags att konfigurera ditt VR-spelområde och dina chaperone-gränser."
-"Error_NoChaperoneAvailable_Action" "Utför rumskonfiguration"
-"Error_NoChaperoneAvailable_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"Error_CompositorNotFullscreen_Header" "Headset-fel"
-"Error_CompositorNotFullscreen_Description" "Se till att ditt headsets skärm är i helskärmsläge."
-"Error_CompositorNotFullscreen_Action" "Aktivera helskärmsläge"
+ Headsetsk
+ SteamVR."
+ Windows 8. Var god uppgradera till Windows 8.1 eller Windows 10 f
+ anslutning av ett tr
+ att GPU:n f
+ att SteamVR kan hitta den."
+ att applikationen 
+ basstationen"
+ basstationer kan ses av ditt headset och kontroller."
+ denna dator."
+ din GPU om du har en tillg
+ din GPU om en finns tillg
+ din GPU, om det finns n
+ din dator att l
+ din handkontroll f
+ din headset."
+ din sp
+ ditt headset det f
+ en ny basstation."
+ ett fel med enheten."
+ ett fel vid anslutningen till Steam. Starta om Steam och f
+ ett fel."
+ ett ov
+ grafikminne"
+ grafikminne, vilket leder till d
+ grund av</span> en nylig krasch har vissa till
+ i Steam f
+ kanal %1. F
+ programvaruuppdateringar, och avtagande funktionalitet f
+ snart som m
+ till Aktivitetshanteraren och avsluta alla aktiviteter kopplade till SteamVR innan du startar om applikationen."
+ till oculus.com"
+"ChaperoneCalibrationState_Error_Action" "Utf
+"ChaperoneCalibrationState_Error_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_BaseStationConflict_Action" "Utf
+"ChaperoneCalibrationState_Error_BaseStationConflict_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_BaseStationConflict_Description" "Utf
+"ChaperoneCalibrationState_Error_BaseStationConflict_Header" "Rumskonfiguration"
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Action" "Utf
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Description" "Utf
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Header" "Rumskonfiguration"
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action" "Utf
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description" "Utf
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header" "Rumskonfiguration"
+"ChaperoneCalibrationState_Error_Description" "K
+"ChaperoneCalibrationState_Error_Header" "Rumskonfiguration"
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Action" "Utf
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "Utf
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "Rumskonfiguration"
+"ChaperoneCalibrationState_Warning_Action" "K
+"ChaperoneCalibrationState_Warning_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action" "Utf
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description" "Det verkar som en basstation har flyttats. Utf
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header" "Rumskonfiguration"
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Action" "K
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description" "SteamVR f
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Header" "Basstationen togs bort"
+"ChaperoneCalibrationState_Warning_Description" "Utf
+"ChaperoneCalibrationState_Warning_Header" "Rumskonfiguration"
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action" "Utf
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description" "Utf
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header" "Rumskonfiguration"
+"Error_CompositorNotFullscreen_Action" "Aktivera helsk
 "Error_CompositorNotFullscreen_ActionURL" "vrmonitor://makecompositorfullscreen"
-
-"Error_CompositorNotRunning_Header" "SteamVR-fel"
-"Error_CompositorNotRunning_Description" "Åh nej! SteamVR har stött på ett oväntat problem."
+"Error_CompositorNotFullscreen_Description" "Se till att ditt headsets sk
+"Error_CompositorNotFullscreen_Header" "Headset-fel"
 "Error_CompositorNotRunning_Action" "Starta om SteamVR"
 "Error_CompositorNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_CompositorTooManyRunning_Header" "SteamVR-fel"
-"Error_CompositorTooManyRunning_Description" "Åh nej! SteamVR har stött på ett oväntat problem."
+"Error_CompositorNotRunning_Description" "
+"Error_CompositorNotRunning_Header" "SteamVR-fel"
 "Error_CompositorTooManyRunning_Action" "Starta om SteamVR"
 "Error_CompositorTooManyRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_PrismNotRunning_Header" "SteamVR misslyckades"
-"Error_PrismNotRunning_Description" "Åh nej! SteamVR har stött på ett oväntat problem."
+"Error_CompositorTooManyRunning_Description" "
+"Error_CompositorTooManyRunning_Header" "SteamVR-fel"
+"Error_HMDDoesNotTrack_Action" "Mer information"
+"Error_HMDDoesNotTrack_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#tracking-issues"
+"Error_HMDDoesNotTrack_Description" "Se till att ditt headset 
+"Error_HMDDoesNotTrack_Header" "S
+"Error_NoChaperoneAvailable_Action" "Utf
+"Error_NoChaperoneAvailable_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"Error_NoChaperoneAvailable_Description" "Det verkar vara dags att konfigurera ditt VR-spelomr
+"Error_NoChaperoneAvailable_Header" "Rumskonfiguration"
+"Error_NoCompositorAvailable_Action" "Starta om SteamVR"
+"Error_NoCompositorAvailable_ActionURL" "vrmonitor://restartsystem"
+"Error_NoCompositorAvailable_Description" "
+"Error_NoCompositorAvailable_Header" "SteamVR-fel"
+"Error_NoHMDAvailable_Action" "Mer information"
+"Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#headset"
+"Error_NoHMDAvailable_Description" "Se till att ditt headset 
+"Error_NoHMDAvailable_Header" "Headset hittades ej"
 "Error_PrismNotRunning_Action" "Starta om SteamVR"
 "Error_PrismNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_VRServerNotRunning_Header" "SteamVR-fel"
-"Error_VRServerNotRunning_Description" "Åh nej! SteamVR har stött på ett oväntat problem."
-"Error_VRServerNotRunning_Action" "Starta om SteamVR"
-"Error_VRServerNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_TrackingDevice_NotValid_Header" "Enhet ej ansluten"
-"Error_TrackingDevice_NotValid_Description" "Se till att den är påslagen och försök igen."
-"Error_TrackingDevice_NotValid_Action" "Återanslut"
-"Error_TrackingDevice_NotValid_ActionURL" "vrmonitor://restartsystem"
-
-"Error_TrackingDevice_NoPose_Header" "Söker ..."
-"Error_TrackingDevice_NoPose_Description" "Denna enhet utför inte spårning just nu. Se till att den är inom synhåll av en basstation."
+"Error_PrismNotRunning_Description" "
+"Error_PrismNotRunning_Header" "SteamVR misslyckades"
 "Error_TrackingDevice_NoPose_Action" "Mer information"
 "Error_TrackingDevice_NoPose_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#tracking-issues"
-
-"VRInitError_Unknown_Header" "SteamVR-fel"
-"VRInitError_Unknown_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Unknown_Action" "Mer information"
-"VRInitError_Unknown_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_InstallationNotFound_Header" "SteamVR-fel"
-"VRInitError_Init_InstallationNotFound_Description" "Vi har upptäckt att några viktiga filer verkar saknas."
-"VRInitError_Init_InstallationNotFound_Action" "Mer information"
-"VRInitError_Init_InstallationNotFound_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=81&return_nodeid=71"
-
-"VRInitError_Init_InstallationCorrupt_Header" "SteamVR-fel"
-"VRInitError_Init_InstallationCorrupt_Description" "Vi har upptäckt att några viktiga filer verkar saknas. Installera om SteamVR."
-"VRInitError_Init_InstallationCorrupt_Action" "Mer information"
-"VRInitError_Init_InstallationCorrupt_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
-
-"VRInitError_Init_VRClientDLLNotFound_Header" "SteamVR-fel"
-"VRInitError_Init_VRClientDLLNotFound_Description" "Vi har upptäckt att några viktiga filer verkar saknas. Installera om SteamVR."
-"VRInitError_Init_VRClientDLLNotFound_Action" "Mer information"
-"VRInitError_Init_VRClientDLLNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
-
-"VRInitError_Init_FileNotFound_Header" "SteamVR-fel"
-"VRInitError_Init_FileNotFound_Description" "Vi har upptäckt att några viktiga filer verkar saknas. Installera om SteamVR."
-"VRInitError_Init_FileNotFound_Action" "Mer information"
-"VRInitError_Init_FileNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
-
-"VRInitError_Init_FactoryNotFound_Header" "SteamVR-fel"
-"VRInitError_Init_FactoryNotFound_Description" "Vi har upptäckt att några viktiga filer verkar saknas. Installera om SteamVR."
-"VRInitError_Init_FactoryNotFound_Action" "Mer information"
-"VRInitError_Init_FactoryNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
-
-"VRInitError_Init_InterfaceNotFound_Header" "SteamVR-uppdatering"
-"VRInitError_Init_InterfaceNotFound_Description" "Vi har upptäckt att SteamVR behöver uppdateras. Avsluta SteamVR och besök Steam-nedladdningar för att uppdatera appen."
-"VRInitError_Init_InterfaceNotFound_Action" "
-"
-"VRInitError_Init_InterfaceNotFound_ActionURL" "
-"
-
-"VRInitError_Init_InvalidInterface_Header" "SteamVR-fel"
-"VRInitError_Init_InvalidInterface_Description" "Vi har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_InvalidInterface_Action" "Mer information"
-"VRInitError_Init_InvalidInterface_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_UserConfigDirectoryInvalid_Header" "SteamVR-fel"
-"VRInitError_Init_UserConfigDirectoryInvalid_Description" "Vi har upptäckt ett fel med din SteamVR-installation. Lokalisera din konfigurationskatalog för SteamVR."
-"VRInitError_Init_UserConfigDirectoryInvalid_Action" "Välj konfig-mapp"
-"VRInitError_Init_UserConfigDirectoryInvalid_ActionURL" "vrmonitor://setconfig"
-
-"VRInitError_Init_HmdNotFound_Header" "Headset hittades ej"
-"VRInitError_Init_HmdNotFound_Description" "Se till att ditt headset är ordentligt anslutet och starta sedan om det."
-"VRInitError_Init_HmdNotFound_FirstAction" "Återställ headset"
-"VRInitError_Init_HmdNotFound_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdNotFound_Action" "Mer information"
-"VRInitError_Init_HmdNotFound_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Init_NotInitialized_Header" "SteamVR-fel"
-"VRInitError_Init_NotInitialized_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_NotInitialized_Action" "Mer information"
-"VRInitError_Init_NotInitialized_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=37&return_nodeid=71"
-
-"VRInitError_Init_PathRegistryNotFound_Header" "SteamVR-fel"
-"VRInitError_Init_PathRegistryNotFound_Description" "Vi har upptäckt att några viktiga filer verkar saknas. Försök igen."
-"VRInitError_Init_PathRegistryNotFound_Action" "Försök igen från nuvarande mapp"
-"VRInitError_Init_PathRegistryNotFound_ActionURL" "vrmonitor://runfromcurrentdirectory"
-
-"VRInitError_Init_NoConfigPath_Header" "SteamVR-fel"
-"VRInitError_Init_NoConfigPath_Description" "Vi har upptäckt ett fel med din SteamVR-installation. Lokalisera din konfigurationskatalog för SteamVR."
-"VRInitError_Init_NoConfigPath_Action" "Ange konfigurationskatalog"
-"VRInitError_Init_NoConfigPath_ActionURL" "vrmonitor://setconfig"
-
-"VRInitError_Init_NoLogPath_Header" "SteamVR-fel"
-"VRInitError_Init_NoLogPath_Description" "Vi upptäckte ett fel med din SteamVR-installation. Lokalisera din loggkatalog för SteamVR."
-"VRInitError_Init_NoLogPath_Action" "Ange loggkatalog"
-"VRInitError_Init_NoLogPath_ActionURL" "vrmonitor://setlog"
-
-"VRInitError_Init_PathRegistryNotWritable_Header" "SteamVR-fel"
-"VRInitError_Init_PathRegistryNotWritable_Description" "SteamVR kan inte spara information. Granska dina användarbehörigheter på denna dator."
-"VRInitError_Init_PathRegistryNotWritable_Action" "Mer information"
-"VRInitError_Init_PathRegistryNotWritable_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_AppInfoInitFailed_Header" "SteamVR-fel"
-"VRInitError_Init_AppInfoInitFailed_Description" "En kritisk komponent av SteamVR fungerar inte ordentligt. Besök SteamVR Support för mer information."
-"VRInitError_Init_AppInfoInitFailed_Action" "Mer information"
-"VRInitError_Init_AppInfoInitFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_Retry_Header" "SteamVR-fel"
-"VRInitError_Init_Retry_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_Retry_Action" "Mer information"
-"VRInitError_Init_Retry_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_InitCanceledByUser_Header" "SteamVR-fel"
-"VRInitError_Init_InitCanceledByUser_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_InitCanceledByUser_Action" "Mer information"
-"VRInitError_Init_InitCanceledByUser_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_AnotherAppLaunching_Header" "SteamVR-fel"
-"VRInitError_Init_AnotherAppLaunching_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_AnotherAppLaunching_Action" "Mer information"
-"VRInitError_Init_AnotherAppLaunching_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_SettingsInitFailed_Header" "SteamVR-fel"
-"VRInitError_Init_SettingsInitFailed_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_SettingsInitFailed_Action" "Mer information"
-"VRInitError_Init_SettingsInitFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_ShuttingDown_Header" "SteamVR-fel"
-"VRInitError_Init_ShuttingDown_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_ShuttingDown_Action" "Mer information"
-"VRInitError_Init_ShuttingDown_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_TooManyObjects_Header" "SteamVR-fel"
-"VRInitError_Init_TooManyObjects_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_TooManyObjects_Action" "Mer information"
-"VRInitError_Init_TooManyObjects_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NoServerForBackgroundApp_Header" "SteamVR-fel"
-"VRInitError_Init_NoServerForBackgroundApp_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_NoServerForBackgroundApp_Action" "Mer information"
-"VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NotSupportedWithCompositor_Header" "SteamVR-fel"
-"VRInitError_Init_NotSupportedWithCompositor_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_NotSupportedWithCompositor_Action" "Mer information"
-"VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NotAvailableToUtilityApps_Header" "SteamVR-fel"
-"VRInitError_Init_NotAvailableToUtilityApps_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_NotAvailableToUtilityApps_Action" "Mer information"
-"VRInitError_Init_NotAvailableToUtilityApps_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Internal_Header" "SteamVR-fel"
-"VRInitError_Internal_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Internal_Action" "Mer information"
-"VRInitError_Internal_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_HmdDriverIdIsNone_Header" "Headset hittades ej"
-"VRInitError_Init_HmdDriverIdIsNone_Description" "Se till att ditt headset är ordentligt anslutet och återställ det sedan nedanför."
-"VRInitError_Init_HmdDriverIdIsNone_FirstAction" "Återställ headset"
-"VRInitError_Init_HmdDriverIdIsNone_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdDriverIdIsNone_Action" "Mer information"
-"VRInitError_Init_HmdDriverIdIsNone_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Init_HmdNotFoundPresenceFailed_Header" "Headset hittades ej"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Description" "Se till att ditt headset är ordentligt anslutet och starta sedan om det."
-"VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction" "Återställ headset"
-"VRInitError_Init_HmdNotFoundPresenceFailed_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Action" "Mer information"
-"VRInitError_Init_HmdNotFoundPresenceFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Driver_Failed_Header" "SteamVR-fel"
-"VRInitError_Driver_Failed_Description" "Det uppstod ett internt fel. Granska din användarbehörighet för denna dator. Eller ta bort allt du har lagt till manuellt i SteamVRs drivrutinkatalog."
-"VRInitError_Driver_Failed_Action" "Mer information"
-"VRInitError_Driver_Failed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_Unknown_Header" "SteamVR-fel"
-"VRInitError_Driver_Unknown_Description" "SteamVR har stött på ett fel med enheten."
-"VRInitError_Driver_Unknown_Action" "Fixa det här!"
-"VRInitError_Driver_Unknown_ActionURL" "vrmonitor://unsetforceddriver"
-
-"VRInitError_Driver_HmdUnknown_Header" "Headset känns inte igen"
-"VRInitError_Driver_HmdUnknown_Description" "SteamVR kan inte identifiera detta headset."
-"VRInitError_Driver_HmdUnknown_Action" "Fixa det här!"
-"VRInitError_Driver_HmdUnknown_ActionURL" "vrmonitor://unsetforcedhmd"
-
-"VRInitError_Driver_NotLoaded_Header" "SteamVR-fel"
-"VRInitError_Driver_NotLoaded_Description" "En drivrutin för SteamVR läses inte in korrekt. Kontrollera din SteamVR-installation."
-"VRInitError_Driver_NotLoaded_Action" "Mer information"
-"VRInitError_Driver_NotLoaded_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
-
-"VRInitError_Driver_RuntimeOutOfDate_Header" "SteamVR-fel"
-"VRInitError_Driver_RuntimeOutOfDate_Description" "Din Oculus-mjukvara tycks vara inaktuell. Du bör uppdatera till den senaste versionen."
-"VRInitError_Driver_RuntimeOutOfDate_Action" "Besök oculus.com"
-"VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://www.oculus.com/rift-patch/"
-
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Windows 10-uppdatering"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "Du måste installera den senaste Windows-uppdateringen för att använda SteamVR med Windows Mixed Reality."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Läs mer"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
-
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link är inte aktiverat"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Om du använder Quest 2 eller en annan fristående enhet måste du manuellt aktivera Link eller Air Link i headsetet innan du startar SteamVR."
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Starta om SteamVR"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Gå till oculus.com"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
-
-"VRInitError_Driver_HmdInUse_Header" "SteamVR-fel"
-"VRInitError_Driver_HmdInUse_Description" "Headsetet används av en annan applikation. Stäng ned den appen och försök igen."
-"VRInitError_Driver_HmdInUse_Action" "Försök igen"
-"VRInitError_Driver_HmdInUse_ActionURL" "vrmonitor://refresh"
-
-"VRInitError_Driver_NotCalibrated_Header" "Enhetsfel"
-"VRInitError_Driver_NotCalibrated_Description" "SteamVR har problem med att ladda en kalibreringsfil."
-"VRInitError_Driver_NotCalibrated_Action" "Mer information"
-"VRInitError_Driver_NotCalibrated_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_CalibrationInvalid_Header" "Headset-fel"
-"VRInitError_Driver_CalibrationInvalid_Description" "SteamVR har problem med att installera drivrutinerna för ditt headset."
-"VRInitError_Driver_CalibrationInvalid_Action" "Mer information"
-"VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_HmdDisplayNotFound_Header" "Headset-skärm frånkopplad"
-"VRInitError_Driver_HmdDisplayNotFound_Description" "Se till att dina videokablar är inkopplade ordentligt. Headsetets skärm kunde inte hittas."
-"VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Återställ headset"
-"VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
-"VRInitError_Driver_HmdDisplayNotFound_Action" "Mer information"
-"VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Laptop: Headset-skärm frånkopplad"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Se till att dina videokablar är ordentligt anslutna till din laptop. Laptops kan kräva speciella konfigurationer för att fungera med VR."
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Återställ headset"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "Mer info"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/se/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_HmdDisplayMirrored_Header" "Headset-skärm speglad"
-"VRInitError_Driver_HmdDisplayMirrored_Description" "Headsetets skärm hittades inte, men en speglad skärm upptäcktes. Ställ in ditt headset på utökat läge istället för speglat."
-"VRInitError_Driver_HmdDisplayMirrored_FirstAction" "Visa skärmegenskaper"
-"VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
-"VRInitError_Driver_HmdDisplayMirrored_Action" "Mer information"
-"VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
-
-"VRInitError_Driver_PeerDriverNotInstalled_Header" "Drivrutin saknas"
-"VRInitError_Driver_PeerDriverNotInstalled_Description" "Headsetet kräver en drivrutin som inte är installerad."
-"VRInitError_Driver_PeerDriverNotInstalled_Action" "Mer information"
-"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Väntar på trådlös anslutning"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR väntar på anslutning av ett trådlöst headset ..."
-"VRInitError_Init_PrismNeedsNewDrivers_Header" "Uppdatering av grafikdrivrutin"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Du måste uppdatera din dators grafikdrivrutiner, eller aktivera maskinvaruaccelererad GPU-schemaläggning."
-"VRInitError_Init_PrismNeedsNewDrivers_Action" "Mer information"
-"VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
-
-"VRInitError_Init_PrismStartupTimedOut_Header" "Startproblem med SteamVR"
-"VRInitError_Init_PrismStartupTimedOut_Description" "En nyckelkomponent i SteamVR tog för lång tid att starta och stötte på ett fel."
-"VRInitError_Init_PrismStartupTimedOut_Action" "Starta om SteamVR"
-"VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
-
-"VRInitError_Init_CouldNotStartPrism_Header" "Startproblem med SteamVR"
-"VRInitError_Init_CouldNotStartPrism_Description" "En avgörande komponent till SteamVR hittades inte. Prova ”Verifiera integriteten hos verktygsfiler ...” i Steam för SteamVR."
-"VRInitError_Init_CouldNotStartPrism_Action" "Mer information"
-"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
-
-"VRInitError_Init_PrismClientInitFailed_Header" "Startproblem med SteamVR"
-"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_PrismClientInitFailed_Action" "Mer information"
-"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_PrismClientStartFailed_Header" "Startproblem med SteamVR"
-"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR har stött på ett oväntat problem. Besök SteamVR Support för mer information."
-"VRInitError_Init_PrismClientStartFailed_Action" "Mer information"
-"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR-fel"
-"VRInitError_Init_PrismExitedUnexpectedly_Description" "En avgörande komponent till SteamVR fungerar inte korrekt."
-"VRInitError_Init_PrismExitedUnexpectedly_Action" "Starta om SteamVR"
-"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
-
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Headset hittades ej"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Se till att ditt headset är ordentligt anslutet och starta sedan om det."
-"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction" "Återställ headset"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Action" "Mer information"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header" "Enhetsfel"
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description" "Drivrutinen som används av denna enhet är inte kompatibel med denna version av SteamVR"
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "Mer information"
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
-
-"VRInitError_IPC_ServerInitFailed_Header" "Installationsproblem med SteamVR"
-"VRInitError_IPC_ServerInitFailed_Description" "En avgörande komponent till SteamVR fungerar inte som den ska. Kontrollera att SteamVR är korrekt installerat."
-"VRInitError_IPC_ServerInitFailed_Action" "Mer information"
-"VRInitError_IPC_ServerInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
-
-"VRInitError_IPC_ConnectFailed_Header" "SteamVR-fel"
-"VRInitError_IPC_ConnectFailed_Description" "En avgörande komponent till SteamVR fungerar inte korrekt."
-"VRInitError_IPC_ConnectFailed_Action" "Mer information"
-"VRInitError_IPC_ConnectFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=40&return_nodeid=71"
-
-"VRInitError_IPC_SharedStateInitFailed_Header" "SteamVR-fel"
-"VRInitError_IPC_SharedStateInitFailed_Description" "En huvudkomponent till SteamVR fungerar inte korrekt. Starta om din dator och försök igen."
-"VRInitError_IPC_SharedStateInitFailed_Action" "Mer information"
-"VRInitError_IPC_SharedStateInitFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_IPC_CompositorInitFailed_Header" "Något är fel"
-"VRInitError_IPC_CompositorInitFailed_Description" "En avgörande komponent till SteamVR fungerar inte korrekt. Du bör ominstallera SteamVR."
-"VRInitError_IPC_CompositorInitFailed_Action" "Mer information"
-"VRInitError_IPC_CompositorInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
-
-"VRInitError_IPC_MutexInitFailed_Header" "Något är fel"
-"VRInitError_IPC_MutexInitFailed_Description" "En huvudkomponent till SteamVR fungerar inte korrekt. Installera om SteamVR."
-"VRInitError_IPC_MutexInitFailed_Action" "Mer information"
-"VRInitError_IPC_MutexInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
-
-"VRInitError_IPC_Failed_Header" "SteamVR-fel"
-"VRInitError_IPC_Failed_Description" "Ett oväntat fel uppstod. Besök SteamVR Support för mer information."
-"VRInitError_IPC_Failed_Action" "Mer information"
-"VRInitError_IPC_Failed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=77&return_nodeid=71"
-
-"VRInitError_IPC_CompositorConnectFailed_Header" "SteamVR-fel"
-"VRInitError_IPC_CompositorConnectFailed_Description" "En avgörande komponent i SteamVR fungerar inte korrekt. Lämna SteamVR, gå till Aktivitetshanteraren och avsluta alla aktiviteter kopplade till SteamVR innan du startar om applikationen."
-"VRInitError_IPC_CompositorConnectFailed_Action" "Mer information"
-"VRInitError_IPC_CompositorConnectFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_CompositorInvalidConnectResponse_Header" "SteamVR-fel"
-"VRInitError_IPC_CompositorInvalidConnectResponse_Description" "En avgörande komponent i SteamVR fungerar inte korrekt. Lämna SteamVR, gå till Aktivitetshanteraren och avsluta alla aktiviteter kopplade till SteamVR innan du startar om applikationen."
-"VRInitError_IPC_CompositorInvalidConnectResponse_Action" "Mer information"
-"VRInitError_IPC_CompositorInvalidConnectResponse_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header" "SteamVR-fel"
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description" "En avgörande komponent i SteamVR fungerar inte korrekt. Lämna SteamVR, gå till Aktivitetshanteraren och avsluta alla aktiviteter kopplade till SteamVR innan du startar om applikationen."
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "Mer information"
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Header" "SteamVR-fel"
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "En viktig komponent i SteamVR fungerar ej som den ska. Starta om SteamVR."
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "Mer information"
-"VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_NamespaceUnavailable_Header" "SteamVR-fel"
-"VRInitError_IPC_NamespaceUnavailable_Description" "En huvudkomponent i SteamVR fungerar inte som den ska. Starta om SteamVR."
-"VRInitError_IPC_NamespaceUnavailable_Action" "Mer information"
-"VRInitError_IPC_NamespaceUnavailable_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_Compositor_D3D11HardwareRequired_Header" "Dags att uppgradera"
-"VRInitError_Compositor_D3D11HardwareRequired_Description" "SteamVR lyckades inte hitta hårdvara eller drivrutiner kompatibla med DirectX 11. Du behöver eventuellt uppgradera ditt system."
-"VRInitError_Compositor_D3D11HardwareRequired_Action" "Mer information"
-"VRInitError_Compositor_D3D11HardwareRequired_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Compositor_FirmwareRequiresUpdate_Header" "Dags att uppdatera"
-"VRInitError_Compositor_FirmwareRequiresUpdate_Description" "Ditt headset upptäcktes, men kräver en uppdatering för att garantera att det fungerar korrekt."
-"VRInitError_Compositor_FirmwareRequiresUpdate_Action" "Uppdatera headset"
-"VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
-
-"VRInitError_Compositor_UnableToCreateDevice_Header" "SteamVR-grafikfel"
-"VRInitError_Compositor_UnableToCreateDevice_Description" "Du kan behöva uppdatera din dators grafikdrivrutiner."
-"VRInitError_Compositor_UnableToCreateDevice_Action" "Mer information"
-"VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
-
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR-fel"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR kunde ej ansluta till Oculus-appen. Se till att du har senaste versionen installerad."
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Besök oculus.com"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
-
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "SteamVR-fel"
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Ett problem har uppstått med körtiden för Oculus-installationen. Starta om och verifiera att mjukvaran för Oculus är installerad och uppdaterad."
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Action" "Besök oculus.com"
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_ActionURL" "https://www.oculus.com/setup/"
-
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Header" "USB-fel"
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Description" "Kontrollera ditt headsets USB-koppling och försök igen."
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Action" "Mer information"
-"VRInitError_VendorSpecific_HmdFound_UserDataError_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "Headset-fel"
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description" "Ditt headset upptäcktes, men ett problem med hårdvaran hittades. Kontakta tillverkaren för assistans."
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" "
-"
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " 
-"
-
-"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Konfigurationsfel – Headsetskärm"
-"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Headsetets skärm har en ogiltig konfiguration. Kontakta kundtjänst för ytterligare hjälp."
-"VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR-fel"
-"VRInitError_Steam_SteamInstallationNotFound_Description" "Steam måste vara installerat för att SteamVR ska fungera korrekt."
-"VRInitError_Steam_SteamInstallationNotFound_Action" "Installera Steam"
-"VRInitError_Steam_SteamInstallationNotFound_ActionURL" "vrmonitor://installsteam"
-
-"ChaperoneCalibrationState_Warning_Header" "Rumskonfiguration"
-"ChaperoneCalibrationState_Warning_Description" "Utför rumskonfigurationen för att definiera ditt spelområde och dina chaperone-gränser."
-"ChaperoneCalibrationState_Warning_Action" "Kör rumskonfigurationen"
-"ChaperoneCalibrationState_Warning_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header" "Rumskonfiguration"
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description" "Det verkar som en basstation har flyttats. Utför rumskonfigurationen för att definiera ditt spelområde och dina chaperone-gränser."
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action" "Utför rumskonfigurationen"
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Header" "Basstationen togs bort"
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description" "SteamVR förlorade anslutningen med en av basstationerna, kör rumskonfigurationen igen."
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Action" "Kör rumskonfigurationen"
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header" "Rumskonfiguration"
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description" "Utför rumskonfigurationen för att definiera din sittande position."
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action" "Utför rumskonfigurationen"
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_Header" "Rumskonfiguration"
-"ChaperoneCalibrationState_Error_Description" "Kör rumskonfigurationen för att definera spelområde och chaperone-gränser."
-"ChaperoneCalibrationState_Error_Action" "Utför rumskonfigurationen"
-"ChaperoneCalibrationState_Error_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Header" "Rumskonfiguration"
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Description" "Utför rumskonfigurationen för att börja använda SteamVR."
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Action" "Utför rumskonfigurationen"
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_BaseStationConflict_Header" "Rumskonfiguration"
-"ChaperoneCalibrationState_Error_BaseStationConflict_Description" "Utför rumskonfigurationen för att omdefiniera ditt spelområde och dina chaperone-gränser."
-"ChaperoneCalibrationState_Error_BaseStationConflict_Action" "Utför rumskonfigurationen"
-"ChaperoneCalibrationState_Error_BaseStationConflict_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "Rumskonfiguration"
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "Utför rumskonfigurationen för att omdefiniera ditt spelområde och dina chaperone-gränser."
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Action" "Utför rumskonfigurationen"
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header" "Rumskonfiguration"
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description" "Utför rumskonfigurationen för att definiera ditt spelområde och dina chaperone-gränser."
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action" "Utför rumskonfigurationen"
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"Lighthouse_UnknownEvent_Header" "Fel på basstationen"
-"Lighthouse_UnknownEvent_Description" "Något är fel med din SteamVR-spårning. Besök SteamVR Support för mer information."
-"Lighthouse_UnknownEvent_Action" "Mer information"
-"Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Lighthouse_BasestationFactoryError_Header" "Fel på basstationen"
-"Lighthouse_BasestationFactoryError_Description" "Denna basstation har ett tillverkningsfel, kontakta tillverkaren för att få en ny basstation."
+"Error_TrackingDevice_NoPose_Description" "Denna enhet utf
+"Error_TrackingDevice_NoPose_Header" "S
+"Error_TrackingDevice_NotValid_Action" "
+"Error_TrackingDevice_NotValid_ActionURL" "vrmonitor://restartsystem"
+"Error_TrackingDevice_NotValid_Description" "Se till att den 
+"Error_TrackingDevice_NotValid_Header" "Enhet ej ansluten"
+"Error_VRServerNotRunning_Action" "Starta om SteamVR"
+"Error_VRServerNotRunning_ActionURL" "vrmonitor://restartsystem"
+"Error_VRServerNotRunning_Description" "
+"Error_VRServerNotRunning_Header" "SteamVR-fel"
+"Language" "swedish" 
 "Lighthouse_BasestationFactoryError_Action" "
-"
 "Lighthouse_BasestationFactoryError_ActionURL" " 
-"
-
-"Lighthouse_BasestationInternalFault_01_Header" "Fel på basstationen"
-"Lighthouse_BasestationInternalFault_01_Description" "Ett internt problem har uppstått i en basstation. Vänligen starta om basstationen med det röda blinkande indikationsljuset. Om tillståndet kvarstår, vänligen kontakta tillverkaren för assistans."
+"Lighthouse_BasestationFactoryError_Description" "Denna basstation har ett tillverkningsfel, kontakta tillverkaren f
+"Lighthouse_BasestationFactoryError_Header" "Fel p
 "Lighthouse_BasestationInternalFault_01_Action" " 
-"
 "Lighthouse_BasestationInternalFault_01_ActionURL" " 
-"
-
-"Lighthouse_BasestationInternalFault_02_Header" "Fel på basstationen"
-"Lighthouse_BasestationInternalFault_02_Description" "Ett internt problem har uppstått i en basstation. Vänligen starta om basstationen med det röda blinkande indikationsljuset. Om tillståndet kvarstår, vänligen kontakta tillverkaren för assistans."
+"Lighthouse_BasestationInternalFault_01_Description" "Ett internt problem har uppst
+"Lighthouse_BasestationInternalFault_01_Header" "Fel p
 "Lighthouse_BasestationInternalFault_02_Action" " 
-"
 "Lighthouse_BasestationInternalFault_02_ActionURL" " 
-"
-
-"Lighthouse_BasestationInternalFault_03_Header" "Fel på basstationen"
-"Lighthouse_BasestationInternalFault_03_Description" "Ett internt problem har uppstått i en basstation. Vänligen starta om basstationen med det röda blinkande indikationsljuset. Om tillståndet kvarstår, vänligen kontakta tillverkaren för assistans."
+"Lighthouse_BasestationInternalFault_02_Description" "Ett internt problem har uppst
+"Lighthouse_BasestationInternalFault_02_Header" "Fel p
 "Lighthouse_BasestationInternalFault_03_Action" " 
-"
 "Lighthouse_BasestationInternalFault_03_ActionURL" " 
-"
-
-"Lighthouse_BasestationInternalFault_04_Header" "Fel på basstationen"
-"Lighthouse_BasestationInternalFault_04_Description" "Ett internt problem har uppstått i en basstation. Vänligen starta om basstationen med det röda blinkande indikationsljuset. Om tillståndet kvarstår, vänligen kontakta tillverkaren för assistans."
+"Lighthouse_BasestationInternalFault_03_Description" "Ett internt problem har uppst
+"Lighthouse_BasestationInternalFault_03_Header" "Fel p
 "Lighthouse_BasestationInternalFault_04_Action" " 
-"
 "Lighthouse_BasestationInternalFault_04_ActionURL" " 
-"
-
-"Lighthouse_BasestationInternalFault_05_Header" "Fel på basstationen"
-"Lighthouse_BasestationInternalFault_05_Description" "Ett internt problem (fel 05) har uppstått i en basstation. Vänligen starta om basstationen med det röda blinkande indikationsljuset. Om tillståndet kvarstår, vänligen kontakta tillverkaren för assistans."
+"Lighthouse_BasestationInternalFault_04_Description" "Ett internt problem har uppst
+"Lighthouse_BasestationInternalFault_04_Header" "Fel p
 "Lighthouse_BasestationInternalFault_05_Action" " 
-"
 "Lighthouse_BasestationInternalFault_05_ActionURL" " 
-"
-
-"Lighthouse_BasestationInternalFault_06_Header" "Fel på basstationen"
-"Lighthouse_BasestationInternalFault_06_Description" "Ett internt problem har uppstått med en basstation. Koppla från, och koppla sedan till basstationen med det röda blinkande indikationsljuset. Om problemet kvarstår, kontakta tillverkaren för assistans."
+"Lighthouse_BasestationInternalFault_05_Description" "Ett internt problem (fel 05) har uppst
+"Lighthouse_BasestationInternalFault_05_Header" "Fel p
 "Lighthouse_BasestationInternalFault_06_Action" "
-"
 "Lighthouse_BasestationInternalFault_06_ActionURL" " 
-"
-
-"Lighthouse_BasestationInternalFault_07_Header" "Basstation oanvändbar"
-"Lighthouse_BasestationInternalFault_07_Description" "Ett internt problem har uppstått med en basstation. Koppla från, och koppla sedan till basstationen med det röda blinkande indikationsljuset. Om problemet kvarstår, kontakta tillverkaren för assistans."
+"Lighthouse_BasestationInternalFault_06_Description" "Ett internt problem har uppst
+"Lighthouse_BasestationInternalFault_06_Header" "Fel p
 "Lighthouse_BasestationInternalFault_07_Action" "
-"
 "Lighthouse_BasestationInternalFault_07_ActionURL" " 
-"
-
-"Lighthouse_Disambiguator_TooManyBasestations_Header" "För många basstationer"
-"Lighthouse_Disambiguator_TooManyBasestations_Description" "Se till att endast två basstationer kan ses av ditt headset och kontroller."
-"Lighthouse_Disambiguator_TooManyBasestations_Action" "Försök igen"
-"Lighthouse_Disambiguator_TooManyBasestations_ActionURL" "vrmonitor://lighthouse_check"
-
-"Lighthouse_Disambiguator_TdmConfigurationError_Header" "Fel på basstationen"
-"Lighthouse_Disambiguator_TdmConfigurationError_Description" "Dina basstationer synkar inte, vänligen se till att de är korrekt installerade."
+"Lighthouse_BasestationInternalFault_07_Description" "Ett internt problem har uppst
+"Lighthouse_BasestationInternalFault_07_Header" "Basstation oanv
 "Lighthouse_Disambiguator_TdmConfigurationError_Action" "Mer information"
 "Lighthouse_Disambiguator_TdmConfigurationError_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#base-stations"
-
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header" "Fel på basstationen"
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "Dina basstationer är i läge A och C. Byt A-basen till läge B för optisk synkronisering."
+"Lighthouse_Disambiguator_TdmConfigurationError_Description" "Dina basstationer synkar inte, v
+"Lighthouse_Disambiguator_TdmConfigurationError_Header" "Fel p
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "Mer information"
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#base-stations"
-
-"Lighthouse_RecommendControllerUpgradeOverUsb_Header" "Uppdatering av kontroll krävs"
-"Lighthouse_RecommendControllerUpgradeOverUsb_Description" "En kontroll har svårigheter att hålla kontakten via trådlös anslutning. Anslut din kontroll med en USB-kabel, och uppdatera sedan enheten."
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "Dina basstationer 
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header" "Fel p
+"Lighthouse_Disambiguator_TooManyBasestations_Action" "F
+"Lighthouse_Disambiguator_TooManyBasestations_ActionURL" "vrmonitor://lighthouse_check"
+"Lighthouse_Disambiguator_TooManyBasestations_Description" "Se till att endast tv
+"Lighthouse_Disambiguator_TooManyBasestations_Header" "F
 "Lighthouse_RecommendControllerUpgradeOverUsb_Action" "Uppdatera handkontroll"
 "Lighthouse_RecommendControllerUpgradeOverUsb_ActionURL" "vrmonitor://firmwareupdate/"
-
-"Popover_Off_Invalid_Header" "Enhet ej ansluten"
-"Popover_Off_HMD_Header" "Headset hittades ej"
-"Popover_Off_HMD_Description" "Se till att det är korrekt inkopplat."
-"Popover_Off_HMD_Action" "Mer information"
-"Popover_Off_HMD_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#headset"
-
-"Popover_Off_Controller_Header" "Kontrollen hittades inte"
-"Popover_Off_Controller_Description" "Se till att den är igång och i närheten."
-"Popover_Off_Controller_Action" "Mer information"
-"Popover_Off_Controller_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#controllers"
-"Popover_Off_Controller_FirstAction" "Para ihop kontroller"
-"Popover_Off_Controller_FirstActionURL" "vrmonitor://pairingwizard"
-
-"Popover_Off_Base_Header" "Basstation hittades ej"
-"Popover_Off_Base_Description" "Se till att den är igång och inom synhåll av ditt headset."
-"Popover_Off_Base_Action" "Mer information"
-"Popover_Off_Base_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#base-stations"
-
-"Popover_Off_Tracker_Header" "Spårare hittades inte"
-"Popover_Off_Tracker_Action" "Mer information"
-"Popover_Off_Tracker_ActionURL" "https://community.viveport.com/t5/Technical-Support/bd-p/technical-support"
-
-"Popover_NotReady_Invalid_Header" "Enheten är inte redo"
-"Popover_NotReady_Invalid_Action" "Mer information"
-"Popover_NotReady_Invalid_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish"
-
-"Popover_NotReady_HMD_Header" "Headsetet är inte redo"
-"Popover_NotReady_Controller_Header" "Kontroll är inte redo"
-"Popover_NotReady_Controller_Description" "Se till att den är igång och i närheten."
-"Popover_NotReady_Base_Header" "Basstationen är inte redo"
-"Popover_NotReady_Tracker_Header" "Spårare ej redo"
-"Popover_Pose_Invalid_Header" "Enhet aktiv"
-"Popover_Pose_Invalid_Description" "Denna okända enhet spårar för närvarande."
-"Popover_Pose_Invalid_Action" "Mer information"
-"Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Popover_Pose_HMD_Header" "Headsetet är aktivt"
-"Popover_Pose_HMD_Description" "Ditt headset utför spårning just nu."
-"Popover_Pose_Controller_Header" "Handkontroll är aktiv"
-"Popover_Pose_Controller_Description" "Denna kontroll utför spårning just nu."
-"Popover_Pose_Controller_Action" "Identifiera kontroller"
-"Popover_Pose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_Pose_Base_Header" "Basstation aktiv"
-"Popover_Pose_Base_Description" "Denna basstation spårar för närvarande."
-"Popover_Pose_Base_Action" "Identifiera basstation"
-"Popover_Pose_Base_ActionURL" "vrmonitor://identifybasestation/?index=%1"
-
-"Popover_Pose_Tracker_Header" "Spårare aktiv"
-"Popover_Pose_Tracker_Description" "Denna enhet utför spårning just nu."
-"Popover_NoPose_Invalid_Header" "Spåras ej"
-"Popover_NoPose_Invalid_Description" "Denna enhet är okänd och spårar inte för närvarande."
-"Popover_NoPose_Invalid_Action" "Mer information"
-"Popover_NoPose_Invalid_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
-
-"Popover_NoPose_HMD_Header" "Söker ..."
-"Popover_NoPose_HMD_Description" "Detta headset utför inte spårning just nu. Se till att det är inom synhåll av en basstation."
-"Popover_NoPose_HMD_Action" "Mer information"
-"Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoPose_Controller_Header" "Söker ..."
-"Popover_NoPose_Controller_Description" "Denna kontroll utför inte spårning just nu. Se till att den är inom synhåll av en basstation."
-"Popover_NoPose_Controller_Action" "Identifiera kontroller"
-"Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_NoPose_Base_Header" "Söker ..."
-"Popover_NoPose_Base_Description" "Denna basstation utför för närvarande ingen spårning av enheter. Se till att den är inom synhåll av ditt headset."
-"Popover_NoPose_Base_Action" "Mer information"
-"Popover_NoPose_Base_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoPose_Tracker_Header" "Söker ..."
-"Popover_NoPose_Tracker_Description" "Denna enhet utför inte spårning just nu. Se till att den är inom synhåll av en basstation."
-"Popover_NoPose_Tracker_Action" "Mer information"
-"Popover_NoPose_Tracker_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Popover_Standby_Invalid_Header" "I viloläge"
-"Popover_Standby_Invalid_Description" "Denna enhet är i viloläge."
-"Popover_Standby_HMD_Header" "Headsetet är i viloläge"
-"Popover_Standby_HMD_Description" "Rör på ditt headset det för att väcka det."
-"Popover_Standby_Controller_Header" "Kontrollen är i viloläge"
-"Popover_Standby_Controller_Description" "Rör på din handkontroll för att väcka den."
-"Popover_Standby_Base_Header" "Basstationen är i viloläge"
-"Popover_Standby_Base_Description" "Börja använda VR för att väcka denna basstation."
-"Popover_Standby_Tracker_Header" "Spåraren är i viloläge"
-"Popover_Standby_Tracker_Description" "Rör på din spårare för att väcka den."
-"Popover_LowBattery_HMD_Header" "Headsetet har låg batterinivå"
-"Popover_LowBattery_HMD_Description" "Detta headset har låg batterinivå."
-"Popover_LowBattery_Controller_Header" "Kontrollen har låg batterinivå"
-"Popover_LowBattery_Controller_Description" "Denna kontroll har låg batterinivå."
-"Popover_LowBattery_Controller_Action" "Identifiera kontroll"
-"Popover_LowBattery_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_LowBattery_Tracker_Header" "Spåraren har låg batterinivå"
-"Popover_LowBattery_Tracker_Description" "Denna spårare har låg batterinivå."
-"Popover_BaseStationNoPowerManagement_Header" "Strömhantering"
-"Popover_BaseStationNoPowerManagement_Description" "Denna basstation är inte designad till att ta del av fjärrströmstyrning."
+"Lighthouse_RecommendControllerUpgradeOverUsb_Description" "En kontroll har sv
+"Lighthouse_RecommendControllerUpgradeOverUsb_Header" "Uppdatering av kontroll kr
+"Lighthouse_UnknownEvent_Action" "Mer information"
+"Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Lighthouse_UnknownEvent_Description" "N
+"Lighthouse_UnknownEvent_Header" "Fel p
 "Popover_BaseStationNoPowerManagement_Action" "Mer information"
 "Popover_BaseStationNoPowerManagement_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoSteamWarning_Header" "Steam-fel"
-"Popover_NoSteamWarning_Description" "Se till att Steam är installerat och körs."
-"Popover_NoSteamWarning_Action" "Starta Steam"
-"Popover_NoSteamWarning_ActionURL" "vrmonitor://startsteam"
-
-"Popover_FirmwareUpdateNeededWarning_Header" "Uppdatering tillgänglig"
-"Popover_FirmwareUpdateNeededWarning_Description" "Det är dags att uppdatera denna enhet."
-"Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate" "Uppdatera enhet"
-"Popover_FirmwareUpdateNeededWarning_Action" "Mer information"
-"Popover_FirmwareUpdateNeededWarning_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Popover_ConnectionRefusedBySteam_Header" "Steam-fel"
-"Popover_ConnectionRefusedBySteam_Description" "SteamVR har stött på ett fel vid anslutningen till Steam. Starta om Steam och försök igen."
-"Popover_ConnectionRefusedBySteam_Action" "Mer information"
-"Popover_ConnectionRefusedBySteam_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Popover_DirectModeDriverUpdate_Header" "Uppdatera grafikdrivrutiner"
-"Popover_DirectModeDriverUpdate_Description" "För att aktivera Direct Display-läge måste du uppdatera dina videodrivrutiner. Version %1 är installerad, men Direct Display kräver version %2"
-"Popover_DirectModeDriverUpdate_Action" "Ladda ned drivrutiner"
-"Popover_DirectModeDriverUpdate_ActionURL_NVIDIA" "http://www.nvidia.com/Download/index.aspx"
-"Popover_DirectModeDriverUpdate_ActionURL_AMD" "http://support.amd.com/en-us/download"
-
-"Popover_BaseStationsTooFarApart_Header" "Notis om VR-installation"
-"Popover_BaseStationsTooFarApart_Description" "Avståndet mellan basstationerna är %1 meter. För bästa upplevelse bör dina basstationer inte vara mer än 5,5 meter ifrån varandra."
+"Popover_BaseStationNoPowerManagement_Description" "Denna basstation 
+"Popover_BaseStationNoPowerManagement_Header" "Str
 "Popover_BaseStationsTooFarApart_Action" "Mer information"
 "Popover_BaseStationsTooFarApart_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Popover_SeeOnlyOneBase_Header" "Endast en basstation är synlig"
-"Popover_SeeOnlyOneBase_Description" "Om du kör SteamVR med bara en basstation får du bättre spårning om du byter basstationens läge till A."
+"Popover_BaseStationsTooFarApart_Description" "Avst
+"Popover_BaseStationsTooFarApart_Header" "Notis om VR-installation"
+"Popover_ConnectionRefusedBySteam_Action" "Mer information"
+"Popover_ConnectionRefusedBySteam_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Popover_ConnectionRefusedBySteam_Description" "SteamVR har st
+"Popover_ConnectionRefusedBySteam_Header" "Steam-fel"
+"Popover_DirectModeDriverUpdate_Action" "Ladda ned drivrutiner"
+"Popover_DirectModeDriverUpdate_ActionURL_AMD" "http://support.amd.com/en-us/download"
+"Popover_DirectModeDriverUpdate_ActionURL_NVIDIA" "http://www.nvidia.com/Download/index.aspx"
+"Popover_DirectModeDriverUpdate_Description" "F
+"Popover_DirectModeDriverUpdate_Header" "Uppdatera grafikdrivrutiner"
+"Popover_FirmwareUpdateNeededWarning_Action" "Mer information"
+"Popover_FirmwareUpdateNeededWarning_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate" "Uppdatera enhet"
+"Popover_FirmwareUpdateNeededWarning_Description" "Det 
+"Popover_FirmwareUpdateNeededWarning_Header" "Uppdatering tillg
+"Popover_LowBattery_Controller_Action" "Identifiera kontroll"
+"Popover_LowBattery_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_LowBattery_Controller_Description" "Denna kontroll har l
+"Popover_LowBattery_Controller_Header" "Kontrollen har l
+"Popover_LowBattery_HMD_Description" "Detta headset har l
+"Popover_LowBattery_HMD_Header" "Headsetet har l
+"Popover_LowBattery_Tracker_Description" "Denna sp
+"Popover_LowBattery_Tracker_Header" "Sp
+"Popover_NoPose_Base_Action" "Mer information"
+"Popover_NoPose_Base_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_Base_Description" "Denna basstation utf
+"Popover_NoPose_Base_Header" "S
+"Popover_NoPose_Controller_Action" "Identifiera kontroller"
+"Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_NoPose_Controller_Description" "Denna kontroll utf
+"Popover_NoPose_Controller_Header" "S
+"Popover_NoPose_HMD_Action" "Mer information"
+"Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_HMD_Description" "Detta headset utf
+"Popover_NoPose_HMD_Header" "S
+"Popover_NoPose_Invalid_Action" "Mer information"
+"Popover_NoPose_Invalid_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
+"Popover_NoPose_Invalid_Description" "Denna enhet 
+"Popover_NoPose_Invalid_Header" "Sp
+"Popover_NoPose_Tracker_Action" "Mer information"
+"Popover_NoPose_Tracker_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_Tracker_Description" "Denna enhet utf
+"Popover_NoPose_Tracker_Header" "S
+"Popover_NoSteamWarning_Action" "Starta Steam"
+"Popover_NoSteamWarning_ActionURL" "vrmonitor://startsteam"
+"Popover_NoSteamWarning_Description" "Se till att Steam 
+"Popover_NoSteamWarning_Header" "Steam-fel"
+"Popover_NotReady_Base_Header" "Basstationen 
+"Popover_NotReady_Controller_Description" "Se till att den 
+"Popover_NotReady_Controller_Header" "Kontroll 
+"Popover_NotReady_HMD_Header" "Headsetet 
+"Popover_NotReady_Invalid_Action" "Mer information"
+"Popover_NotReady_Invalid_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish"
+"Popover_NotReady_Invalid_Header" "Enheten 
+"Popover_NotReady_Tracker_Header" "Sp
+"Popover_Off_Base_Action" "Mer information"
+"Popover_Off_Base_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#base-stations"
+"Popover_Off_Base_Description" "Se till att den 
+"Popover_Off_Base_Header" "Basstation hittades ej"
+"Popover_Off_Controller_Action" "Mer information"
+"Popover_Off_Controller_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#controllers"
+"Popover_Off_Controller_Description" "Se till att den 
+"Popover_Off_Controller_FirstAction" "Para ihop kontroller"
+"Popover_Off_Controller_FirstActionURL" "vrmonitor://pairingwizard"
+"Popover_Off_Controller_Header" "Kontrollen hittades inte"
+"Popover_Off_HMD_Action" "Mer information"
+"Popover_Off_HMD_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#headset"
+"Popover_Off_HMD_Description" "Se till att det 
+"Popover_Off_HMD_Header" "Headset hittades ej"
+"Popover_Off_Invalid_Header" "Enhet ej ansluten"
+"Popover_Off_Tracker_Action" "Mer information"
+"Popover_Off_Tracker_ActionURL" "https://community.viveport.com/t5/Technical-Support/bd-p/technical-support"
+"Popover_Off_Tracker_Header" "Sp
+"Popover_Pose_Base_Action" "Identifiera basstation"
+"Popover_Pose_Base_ActionURL" "vrmonitor://identifybasestation/?index=%1"
+"Popover_Pose_Base_Description" "Denna basstation sp
+"Popover_Pose_Base_Header" "Basstation aktiv"
+"Popover_Pose_Controller_Action" "Identifiera kontroller"
+"Popover_Pose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_Pose_Controller_Description" "Denna kontroll utf
+"Popover_Pose_Controller_Header" "Handkontroll 
+"Popover_Pose_HMD_Description" "Ditt headset utf
+"Popover_Pose_HMD_Header" "Headsetet 
+"Popover_Pose_Invalid_Action" "Mer information"
+"Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Popover_Pose_Invalid_Description" "Denna ok
+"Popover_Pose_Invalid_Header" "Enhet aktiv"
+"Popover_Pose_Tracker_Description" "Denna enhet utf
+"Popover_Pose_Tracker_Header" "Sp
 "Popover_SeeOnlyOneBase_Action" "Mer information"
 "Popover_SeeOnlyOneBase_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/"
-
-"Warning_DismissableWarning_RunTutorialAgain_Header" "Rumskonfiguration och handledning"
-"Warning_DismissableWarning_RunTutorialAgain_Description" "Du kan köra rumskonfigurationen eller handledningen närsomhelst från SteamVR-menyn nedan."
-"Warning_DismissableWarning_RunTutorialAgain_Action" "Mer information"
-"Warning_DismissableWarning_RunTutorialAgain_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_BasestationsTooFarApart_Header" "Notis om VR-installation"
-"Warning_DismissableWarning_BasestationsTooFarApart_Description" "Dina basstationer är längre ifrån varandra än rekommenderat. För bästa upplevelse bör dina basstationer inte vara mer än 5,5 meter ifrån varandra."
-"Warning_DismissableWarning_BasestationsTooFarApart_Action" "Mer information"
-"Warning_DismissableWarning_BasestationsTooFarApart_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Header" "Fel på basstationen"
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description" "Siktlinjen mellan basstationerna kanske blockeras av något. Om denna varning kvarstår mellan sessioner bör du överväga att byta till trådad synkronisering."
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action" "Mer information"
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#base-stations"
-
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header" "Endast en basstation upptäcktes"
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "Om du enbart använder en basstation förbättras spårningskvalitén om du ändrar basstationens läge till A."
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" "Mer information"
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/"
-
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Header" "Fel vid förberedelse av basstation"
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description" "SteamVR har upptäckt flera basstationer på kanal %1. För bästa resultat, använd unika kanaler för alla basstationer som kan synas samtidigt."
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" "Konfigurera"
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" "vrmonitor://open/settings/basestation/configurechannels"
-
-"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Vissa tillägg är blockerade"
-"Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>På grund av</span> en nylig krasch har vissa tillägg i SteamVR blockerats.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Läs mer</a>."
-"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Hantera tillägg"
-"Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
-
-"Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-uppdatering"
-"Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR har uppdaterats till version %2."
-"Warning_DismissableWarning_SteamVRUpdated_Action" "Se vad som ändrats"
-"Warning_DismissableWarning_SteamVRUpdated_ActionURL" "%1"
-
-"Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Enhetsinformation"
-"Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Håll muspekaren över ikonerna nedan för att se detaljer och status för varje enhet. Om din enhet behöver uppdateras kommer du se ett (i) över ikonen."
-"Warning_DismissableWarning_WarningsForTheFirstTime_Action" "Mer information"
-"Warning_DismissableWarning_WarningsForTheFirstTime_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_MissedFrames_Header" "Applikationsfel"
-"Warning_DismissableWarning_MissedFrames_Description" "Den nuvarande VR-applikationen körs för sakta, vilket kan ge dig en sämre upplevelse. Detta kan bero på att applikationen är för krävande eller att din dator är för långsam."
-"Warning_DismissableWarning_MissedFrames_Action" "Mer info"
-"Warning_DismissableWarning_MissedFrames_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header" "Bluetooth-fel"
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description" "En drivrutin måste installeras för att slutföra installationen av Link Box."
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action" "Bluetooth-inställningar"
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Header" "Bluetooth-fel"
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Description" "En drivrutin måste installeras för att slutföra installationen av Link Box."
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Action" "Bluetooth-inställningar"
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header" "Bluetooth-fel"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description" "Kontrollera anslutningen till Link Box. Koppla ur och koppla in enheten till Link box för att återställa den, starta sedan om SteamVR."
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action" "Bluetooth-inställningar"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Header" "Bluetooth-fel"
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Description" "SteamVR har upptäckt att vissa nödvändiga filer saknas. Vänligen ominstallera SteamVR."
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action" "Mer information"
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
-
-"Warning_DismissableWarning_BluetoothLinkServiceError_Header" "Bluetooth-fel"
-"Warning_DismissableWarning_BluetoothLinkServiceError_Description" "SteamVR har stött på ett oväntat fel i Bluetooth-systemet."
-"Warning_DismissableWarning_BluetoothLinkServiceError_Action" "Bluetooth-inställningar"
-"Warning_DismissableWarning_BluetoothLinkServiceError_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Header" "Skärmfel"
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Description" "Dina skärmar verkar ha ställts in för att duplicera dess innehåll. Detta kan påverka den grafiska prestandan eller göra headsetets skärm oanvändbar."
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Action" "Skärmegenskaper"
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_ActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
-
-"Warning_DismissableWarning_UnknownHardwareDetected_Header" "Ny enhet upptäckt"
-"Warning_DismissableWarning_UnknownHardwareDetected_Description" "Grattis till din nya hårdvara! Granska inställningsintruktionerna för denna enhet så att SteamVR kan hitta den."
-"Warning_DismissableWarning_UnknownHardwareDetected_Action" "Mer info"
-"Warning_DismissableWarning_UnknownHardwareDetected_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_WindowsAeroDisabled_Header" "Optimering av prestanda"
-"Warning_DismissableWarning_WindowsAeroDisabled_Description" "För bästa prestanda när du kör VR, växla till ett Aero-tema i Windows inställningar för personanpassning."
-"Warning_DismissableWarning_WindowsAeroDisabled_Action" "Personanpassningsinställningar"
-"Warning_DismissableWarning_WindowsAeroDisabled_ActionURL" "vrmonitor://controlpanel/Microsoft.Personalization"
-
-"Warning_DismissableWarning_Windows8_Header" "Dags att uppdatera Windows"
-"Warning_DismissableWarning_Windows8_Description" "SteamVR stöds ej på Windows 8. Var god uppgradera till Windows 8.1 eller Windows 10 för bästa resultat."
-"Warning_DismissableWarning_Windows8_Action" "More information"
-"Warning_DismissableWarning_Windows8_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_DisplayInExtendedMode_Header" "Notis om headset"
-"Warning_DismissableWarning_DisplayInExtendedMode_Description" "SteamVR har upptäckt att ditt headset är i skärmläge. Byt till direkt skärmläge för bästa resultat."
-"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Aktivera direkt skärmläge"
-"Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
-
-"Warning_DismissableWarning_IssuesWithOneDongle_Header" "Headset-fel"
-"Warning_DismissableWarning_IssuesWithOneDongle_Description" "En av de trådlösa mottagarna i ditt headset upptäcktes ej. Detta kan orsaka anslutningsproblem med dina VR-kontroller."
-"Warning_DismissableWarning_IssuesWithOneDongle_Action" "Mer information"
-"Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#wireless-receivers"
-
-"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Trådlösa mottagare ej upptäckta"
-"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "De trådlösa mottagarna i ditt headset upptäcktes ej. Detta kan orsaka anslutningsproblem med dina VR-kontroller."
-"Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Mer information"
-"Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#wireless-receivers"
-
-"Warning_DismissableWarning_NewDriverInstalled_Header" "Enhetsuppdatering väntar"
-"Warning_DismissableWarning_NewDriverInstalled_Description" "Starta om SteamVR för att använda din uppdaterade enhet."
-"Warning_DismissableWarning_NewDriverInstalled_Action" "Starta om SteamVR"
-"Warning_DismissableWarning_NewDriverInstalled_ActionURL" "vrmonitor://restartsystem"
-
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Header" "Fel grafikkort"
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Description" "Koppla in ditt headset i samma grafikkort som din primära bildskärm."
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Action" "Mer information"
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Header" "Uppdatera grafikdrivrutin"
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Description" "SteamVR fungerar bäst med en uppdaterad grafikdrivrutin. Vi rekommenderar att du uppdaterar din nu."
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Mer information"
-"Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues	"
-
-"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Uppdatera grafikdrivrutin"
-"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Din nuvarande grafikdrivrutin har ett känt problem som kan få din dator att låsas. Installera den senaste snabbkorrigeringen nu. Länken finns här nedanför."
-"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Mer information"
-"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
-
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Headsetet är frånkopplat"
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Ditt headsets bildkabel har frånkopplats. Kontrollera ditt headsets anslutningar och försök igen."
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Mer information"
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "Kabel frånkopplad vid headset"
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Ditt headsets kabel har frånkopplats vid headsetet. Kontrollera att anslutningen bakom ansiktskudden sitter stadigt."
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "More information"
-"Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Problem med headsetets anslutning"
-"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Ett problem har uppstått med skärmanslutningen. Koppla loss headsetet och anslut det igen. Du kan även prova att starta om SteamVR"
-"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Starta om SteamVR"
-"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
-
-"Warning_DismissableWarning_HDCPError_Header" "SteamVR-fel"
-"Warning_DismissableWarning_HDCPError_Description" "<span>Din</span> grafikprocessor (GPU) har problem med att kommunicera med ditt headset (HMD), vilket resulterar i ett HDCP-fel. Prova att ta bort de kabeladaptrar och förlängningskablar du använder. Prova en annan port på din GPU, om det finns någon tillgänglig. <b>Använd länken nedan för att återställa HMD:n så att GPU:n försöker igen.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>Läs mer</a>."
-"Warning_DismissableWarning_HDCPError_Action" "Återställ headsetet"
-"Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
-
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "SteamVR-fel"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>Din</span> GPU har problem med att kommunicera med ditt headset, vilket orsakar ett HDCP-fel. Ta bort eventuella kabeladaptrar eller förlängare du använder. Testa en annan port på din GPU om en finns tillgänglig. <p> <b>Använd knappen nedan för att aktivera bakåtkompatibla HDCP 1.4 och STARTA OM SteamVR.</b>"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "Starta om (HDCP)"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
-
-"Warning_DismissableWarning_OutOfVideoMemory_Header" "Slut på grafikminne"
-"Warning_DismissableWarning_OutOfVideoMemory_Description" "Din dator har brist på grafikminne, vilket leder till dålig prestanda. Pröva att avsluta det nuvarande programmet eller starta om SteamVR."
-"Warning_DismissableWarning_OutOfVideoMemory_Action" "Mer information"
-"Warning_DismissableWarning_OutOfVideoMemory_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Header" "Byt till en högre bildfrekvens?"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Description" "Ditt headset stöder flera uppdateringsintervall!<br>Det är för närvarande inställt till <b>%1 bildrutor per sekund</b>. Vill du byta till <b>%2</b>?<br><br><i>För att bibehålla samma GPU-laddning kommer upplösningen för %5 att justeras från %3% till %4%. Du kan alltid ställa in detta och annat i Inställningar > Grafik.</i>"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Action" "Byt och starta om"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL" "vrmonitor://refreshrate/switch"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended" "automatisk"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden" "din anpassade"
-
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Header" "Ofullständig enhetsuppdatering"
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description" "En basstationsuppdatering avbröts eller kunde inte slutföras. Klicka på Återställning för att påbörja proceduren."
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action" "Återställning"
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
-
-"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header" "Enheten stöds inte längre"
-"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description" "<font color=#aaaa00>Din enhet %1 stöds inte längre.</font> <br><br> Denna enhet kommer inte längre få programvaruuppdateringar, och avtagande funktionalitet förväntas. Ersätt enheten så snart som möjligt. <br><br>(hwid: %2)"
-"Warning_OpenXRDefaultRuntimePrompt_NotSet" "OpenXR-runtime är ännu inte inställd."
-"Warning_OpenXRDefaultRuntimePrompt_AnotherSteamVR" "OpenXR-runtime är för närvarande inställd för en annan version av SteamVR."
-
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header" "SteamVR är inte inställd som standard för OpenXR-runtime."
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Description" "Detta kan förhindra att vissa applikationer startas korrekt. %1"
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action" "Ange som standardinställning"
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL" "vrmonitor://openxr/makedefault"
-
-"Warning_DismissableWarning_EnableAppContainers_Header" "SteamVR måste konfigureras för appbehållare."
-"Warning_DismissableWarning_EnableAppContainers_Description" "Detta är nödvändigt för att webbläsare ska kunna visa innehåll på din headset."
-"Warning_DismissableWarning_EnableAppContainers_Action" "Uppdatera behörigheter"
-"Warning_DismissableWarning_EnableAppContainers_ActionURL" "vrmonitor://steamvr/setappcontainerpermissions"
-
-"Warning_DismissableWarning_InstallWMRPrompt_Header" "Installera Windows Mixed Reality-drivrutin?"
-"Warning_DismissableWarning_InstallWMRPrompt_Description" "En drivrutin krävs för att köra Windows Mixed Reality-headset på SteamVR."
-"Warning_DismissableWarning_InstallWMRPrompt_Action" "Installera"
-"Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
-
-"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Installera drivrutin för Vive Pro 2?"
-"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "En drivrutin krävs för att köra Vive Pro 2-headsetet på SteamVR."
-"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installera"
-"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
-
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Anslutningsproblem med skärmen"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ditt grafikkort lyckas inte ansluta till din HMD-display. Prova att ta bort eventuella kabeladaptrar eller förlängningssladdar. Prova en annan port på din GPU om du har en tillgänglig. <b>Använd återställningslänken nedan för att starta om din HMD så att GPU:n försöker igen.</b>"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Återställ headset"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action" "Mer information"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL" "https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
-
-"SteamVRServiceNeedsInstallation_Header" "Installation av SteamVR-tjänst"
-"SteamVRServiceNeedsInstallation_Description" "Ditt tillstånd krävs för att installera hjälptjänsten. Klicka på länken nedan och välj sedan Ja vid UAC-uppmaningen."
-"SteamVRServiceNeedsInstallation_FirstAction" "Installera"
-"SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
+"Popover_SeeOnlyOneBase_Description" "Om du k
+"Popover_SeeOnlyOneBase_Header" "Endast en basstation 
+"Popover_Standby_Base_Description" "B
+"Popover_Standby_Base_Header" "Basstationen 
+"Popover_Standby_Controller_Description" "R
+"Popover_Standby_Controller_Header" "Kontrollen 
+"Popover_Standby_HMD_Description" "R
+"Popover_Standby_HMD_Header" "Headsetet 
+"Popover_Standby_Invalid_Description" "Denna enhet 
+"Popover_Standby_Invalid_Header" "I vilol
+"Popover_Standby_Tracker_Description" "R
+"Popover_Standby_Tracker_Header" "Sp
 "SteamVRServiceNeedsInstallation_Action" "Mer information"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Koppla från kontrollerna vid spel"
-"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Om laddningskabeln dras ut i en vinkel kan kontrollen skadas."
+"SteamVRServiceNeedsInstallation_Description" "Ditt tillst
+"SteamVRServiceNeedsInstallation_FirstAction" "Installera"
+"SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
+"SteamVRServiceNeedsInstallation_Header" "Installation av SteamVR-tj
+"Tokens"
+"VRInitError_Compositor_D3D11HardwareRequired_Action" "Mer information"
+"VRInitError_Compositor_D3D11HardwareRequired_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Compositor_D3D11HardwareRequired_Description" "SteamVR lyckades inte hitta h
+"VRInitError_Compositor_D3D11HardwareRequired_Header" "Dags att uppgradera"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action" "Mer information"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL" "https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ditt grafikkort lyckas inte ansluta till din HMD-display. Prova att ta bort eventuella kabeladaptrar eller f
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Anslutningsproblem med sk
+"VRInitError_Compositor_FirmwareRequiresUpdate_Action" "Uppdatera headset"
+"VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
+"VRInitError_Compositor_FirmwareRequiresUpdate_Description" "Ditt headset uppt
+"VRInitError_Compositor_FirmwareRequiresUpdate_Header" "Dags att uppdatera"
+"VRInitError_Compositor_UnableToCreateDevice_Action" "Mer information"
+"VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
+"VRInitError_Compositor_UnableToCreateDevice_Description" "Du kan beh
+"VRInitError_Compositor_UnableToCreateDevice_Header" "SteamVR-grafikfel"
+"VRInitError_Driver_CalibrationInvalid_Action" "Mer information"
+"VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_CalibrationInvalid_Description" "SteamVR har problem med att installera drivrutinerna f
+"VRInitError_Driver_CalibrationInvalid_Header" "Headset-fel"
+"VRInitError_Driver_Failed_Action" "Mer information"
+"VRInitError_Driver_Failed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_Failed_Description" "Det uppstod ett internt fel. Granska din anv
+"VRInitError_Driver_Failed_Header" "SteamVR-fel"
+"VRInitError_Driver_HmdDisplayMirrored_Action" "Mer information"
+"VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#headset"
+"VRInitError_Driver_HmdDisplayMirrored_Description" "Headsetets sk
+"VRInitError_Driver_HmdDisplayMirrored_FirstAction" "Visa sk
+"VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
+"VRInitError_Driver_HmdDisplayMirrored_Header" "Headset-sk
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "Mer info"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/se/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Se till att dina videokablar 
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Laptop: Headset-sk
+"VRInitError_Driver_HmdDisplayNotFound_Action" "Mer information"
+"VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_HmdDisplayNotFound_Description" "Se till att dina videokablar 
+"VRInitError_Driver_HmdDisplayNotFound_FirstAction" "
+"VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
+"VRInitError_Driver_HmdDisplayNotFound_Header" "Headset-sk
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Action" "Mer information"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Se till att ditt headset 
+"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction" "
+"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Headset hittades ej"
+"VRInitError_Driver_HmdInUse_Action" "F
+"VRInitError_Driver_HmdInUse_ActionURL" "vrmonitor://refresh"
+"VRInitError_Driver_HmdInUse_Description" "Headsetet anv
+"VRInitError_Driver_HmdInUse_Header" "SteamVR-fel"
+"VRInitError_Driver_HmdUnknown_Action" "Fixa det h
+"VRInitError_Driver_HmdUnknown_ActionURL" "vrmonitor://unsetforcedhmd"
+"VRInitError_Driver_HmdUnknown_Description" "SteamVR kan inte identifiera detta headset."
+"VRInitError_Driver_HmdUnknown_Header" "Headset k
+"VRInitError_Driver_NotCalibrated_Action" "Mer information"
+"VRInitError_Driver_NotCalibrated_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_NotCalibrated_Description" "SteamVR har problem med att ladda en kalibreringsfil."
+"VRInitError_Driver_NotCalibrated_Header" "Enhetsfel"
+"VRInitError_Driver_NotLoaded_Action" "Mer information"
+"VRInitError_Driver_NotLoaded_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
+"VRInitError_Driver_NotLoaded_Description" "En drivrutin f
+"VRInitError_Driver_NotLoaded_Header" "SteamVR-fel"
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "Mer information"
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Headsetet kr
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Drivrutin saknas"
+"VRInitError_Driver_RuntimeOutOfDate_Action" "Bes
+"VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_Driver_RuntimeOutOfDate_Description" "Din Oculus-mjukvara tycks vara inaktuell. Du b
+"VRInitError_Driver_RuntimeOutOfDate_Header" "SteamVR-fel"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "Mer information"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#tracking-issues"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description" "Drivrutinen som anv
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header" "Enhetsfel"
+"VRInitError_Driver_Unknown_Action" "Fixa det h
+"VRInitError_Driver_Unknown_ActionURL" "vrmonitor://unsetforceddriver"
+"VRInitError_Driver_Unknown_Description" "SteamVR har st
+"VRInitError_Driver_Unknown_Header" "SteamVR-fel"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "SteamVR v
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "V
+"VRInitError_IPC_CompositorConnectFailed_Action" "Mer information"
+"VRInitError_IPC_CompositorConnectFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_CompositorConnectFailed_Description" "En avg
+"VRInitError_IPC_CompositorConnectFailed_Header" "SteamVR-fel"
+"VRInitError_IPC_CompositorInitFailed_Action" "Mer information"
+"VRInitError_IPC_CompositorInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
+"VRInitError_IPC_CompositorInitFailed_Description" "En avg
+"VRInitError_IPC_CompositorInitFailed_Header" "N
+"VRInitError_IPC_CompositorInvalidConnectResponse_Action" "Mer information"
+"VRInitError_IPC_CompositorInvalidConnectResponse_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_CompositorInvalidConnectResponse_Description" "En avg
+"VRInitError_IPC_CompositorInvalidConnectResponse_Header" "SteamVR-fel"
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "Mer information"
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description" "En avg
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header" "SteamVR-fel"
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "Mer information"
+"VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "En viktig komponent i SteamVR fungerar ej som den ska. Starta om SteamVR."
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Header" "SteamVR-fel"
+"VRInitError_IPC_ConnectFailed_Action" "Mer information"
+"VRInitError_IPC_ConnectFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=40&return_nodeid=71"
+"VRInitError_IPC_ConnectFailed_Description" "En avg
+"VRInitError_IPC_ConnectFailed_Header" "SteamVR-fel"
+"VRInitError_IPC_Failed_Action" "Mer information"
+"VRInitError_IPC_Failed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=77&return_nodeid=71"
+"VRInitError_IPC_Failed_Description" "Ett ov
+"VRInitError_IPC_Failed_Header" "SteamVR-fel"
+"VRInitError_IPC_MutexInitFailed_Action" "Mer information"
+"VRInitError_IPC_MutexInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
+"VRInitError_IPC_MutexInitFailed_Description" "En huvudkomponent till SteamVR fungerar inte korrekt. Installera om SteamVR."
+"VRInitError_IPC_MutexInitFailed_Header" "N
+"VRInitError_IPC_NamespaceUnavailable_Action" "Mer information"
+"VRInitError_IPC_NamespaceUnavailable_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_NamespaceUnavailable_Description" "En huvudkomponent i SteamVR fungerar inte som den ska. Starta om SteamVR."
+"VRInitError_IPC_NamespaceUnavailable_Header" "SteamVR-fel"
+"VRInitError_IPC_ServerInitFailed_Action" "Mer information"
+"VRInitError_IPC_ServerInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
+"VRInitError_IPC_ServerInitFailed_Description" "En avg
+"VRInitError_IPC_ServerInitFailed_Header" "Installationsproblem med SteamVR"
+"VRInitError_IPC_SharedStateInitFailed_Action" "Mer information"
+"VRInitError_IPC_SharedStateInitFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_IPC_SharedStateInitFailed_Description" "En huvudkomponent till SteamVR fungerar inte korrekt. Starta om din dator och f
+"VRInitError_IPC_SharedStateInitFailed_Header" "SteamVR-fel"
+"VRInitError_Init_AnotherAppLaunching_Action" "Mer information"
+"VRInitError_Init_AnotherAppLaunching_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_AnotherAppLaunching_Description" "SteamVR har st
+"VRInitError_Init_AnotherAppLaunching_Header" "SteamVR-fel"
+"VRInitError_Init_AppInfoInitFailed_Action" "Mer information"
+"VRInitError_Init_AppInfoInitFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_AppInfoInitFailed_Description" "En kritisk komponent av SteamVR fungerar inte ordentligt. Bes
+"VRInitError_Init_AppInfoInitFailed_Header" "SteamVR-fel"
+"VRInitError_Init_CouldNotStartPrism_Action" "Mer information"
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335"
+"VRInitError_Init_CouldNotStartPrism_Description" "En avg
+"VRInitError_Init_CouldNotStartPrism_Header" "Startproblem med SteamVR"
+"VRInitError_Init_FactoryNotFound_Action" "Mer information"
+"VRInitError_Init_FactoryNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
+"VRInitError_Init_FactoryNotFound_Description" "Vi har uppt
+"VRInitError_Init_FactoryNotFound_Header" "SteamVR-fel"
+"VRInitError_Init_FileNotFound_Action" "Mer information"
+"VRInitError_Init_FileNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
+"VRInitError_Init_FileNotFound_Description" "Vi har uppt
+"VRInitError_Init_FileNotFound_Header" "SteamVR-fel"
+"VRInitError_Init_HmdDriverIdIsNone_Action" "Mer information"
+"VRInitError_Init_HmdDriverIdIsNone_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdDriverIdIsNone_Description" "Se till att ditt headset 
+"VRInitError_Init_HmdDriverIdIsNone_FirstAction" "
+"VRInitError_Init_HmdDriverIdIsNone_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdDriverIdIsNone_Header" "Headset hittades ej"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Action" "Mer information"
+"VRInitError_Init_HmdNotFoundPresenceFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Description" "Se till att ditt headset 
+"VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction" "
+"VRInitError_Init_HmdNotFoundPresenceFailed_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Header" "Headset hittades ej"
+"VRInitError_Init_HmdNotFound_Action" "Mer information"
+"VRInitError_Init_HmdNotFound_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdNotFound_Description" "Se till att ditt headset 
+"VRInitError_Init_HmdNotFound_FirstAction" "
+"VRInitError_Init_HmdNotFound_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdNotFound_Header" "Headset hittades ej"
+"VRInitError_Init_InitCanceledByUser_Action" "Mer information"
+"VRInitError_Init_InitCanceledByUser_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_InitCanceledByUser_Description" "SteamVR har st
+"VRInitError_Init_InitCanceledByUser_Header" "SteamVR-fel"
+"VRInitError_Init_InstallationCorrupt_Action" "Mer information"
+"VRInitError_Init_InstallationCorrupt_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
+"VRInitError_Init_InstallationCorrupt_Description" "Vi har uppt
+"VRInitError_Init_InstallationCorrupt_Header" "SteamVR-fel"
+"VRInitError_Init_InstallationNotFound_Action" "Mer information"
+"VRInitError_Init_InstallationNotFound_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=81&return_nodeid=71"
+"VRInitError_Init_InstallationNotFound_Description" "Vi har uppt
+"VRInitError_Init_InstallationNotFound_Header" "SteamVR-fel"
+"VRInitError_Init_InterfaceNotFound_Action" "
+"VRInitError_Init_InterfaceNotFound_ActionURL" "
+"VRInitError_Init_InterfaceNotFound_Description" "Vi har uppt
+"VRInitError_Init_InterfaceNotFound_Header" "SteamVR-uppdatering"
+"VRInitError_Init_InvalidInterface_Action" "Mer information"
+"VRInitError_Init_InvalidInterface_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_InvalidInterface_Description" "Vi har st
+"VRInitError_Init_InvalidInterface_Header" "SteamVR-fel"
+"VRInitError_Init_NoConfigPath_Action" "Ange konfigurationskatalog"
+"VRInitError_Init_NoConfigPath_ActionURL" "vrmonitor://setconfig"
+"VRInitError_Init_NoConfigPath_Description" "Vi har uppt
+"VRInitError_Init_NoConfigPath_Header" "SteamVR-fel"
+"VRInitError_Init_NoLogPath_Action" "Ange loggkatalog"
+"VRInitError_Init_NoLogPath_ActionURL" "vrmonitor://setlog"
+"VRInitError_Init_NoLogPath_Description" "Vi uppt
+"VRInitError_Init_NoLogPath_Header" "SteamVR-fel"
+"VRInitError_Init_NoServerForBackgroundApp_Action" "Mer information"
+"VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NoServerForBackgroundApp_Description" "SteamVR har st
+"VRInitError_Init_NoServerForBackgroundApp_Header" "SteamVR-fel"
+"VRInitError_Init_NotAvailableToUtilityApps_Action" "Mer information"
+"VRInitError_Init_NotAvailableToUtilityApps_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NotAvailableToUtilityApps_Description" "SteamVR har st
+"VRInitError_Init_NotAvailableToUtilityApps_Header" "SteamVR-fel"
+"VRInitError_Init_NotInitialized_Action" "Mer information"
+"VRInitError_Init_NotInitialized_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=37&return_nodeid=71"
+"VRInitError_Init_NotInitialized_Description" "SteamVR har st
+"VRInitError_Init_NotInitialized_Header" "SteamVR-fel"
+"VRInitError_Init_NotSupportedWithCompositor_Action" "Mer information"
+"VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NotSupportedWithCompositor_Description" "SteamVR har st
+"VRInitError_Init_NotSupportedWithCompositor_Header" "SteamVR-fel"
+"VRInitError_Init_PathRegistryNotFound_Action" "F
+"VRInitError_Init_PathRegistryNotFound_ActionURL" "vrmonitor://runfromcurrentdirectory"
+"VRInitError_Init_PathRegistryNotFound_Description" "Vi har uppt
+"VRInitError_Init_PathRegistryNotFound_Header" "SteamVR-fel"
+"VRInitError_Init_PathRegistryNotWritable_Action" "Mer information"
+"VRInitError_Init_PathRegistryNotWritable_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PathRegistryNotWritable_Description" "SteamVR kan inte spara information. Granska dina anv
+"VRInitError_Init_PathRegistryNotWritable_Header" "SteamVR-fel"
+"VRInitError_Init_PrismClientInitFailed_Action" "Mer information"
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PrismClientInitFailed_Description" "SteamVR har st
+"VRInitError_Init_PrismClientInitFailed_Header" "Startproblem med SteamVR"
+"VRInitError_Init_PrismClientStartFailed_Action" "Mer information"
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PrismClientStartFailed_Description" "SteamVR har st
+"VRInitError_Init_PrismClientStartFailed_Header" "Startproblem med SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Starta om SteamVR"
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "En avg
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR-fel"
+"VRInitError_Init_PrismNeedsNewDrivers_Action" "Mer information"
+"VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Du m
+"VRInitError_Init_PrismNeedsNewDrivers_Header" "Uppdatering av grafikdrivrutin"
+"VRInitError_Init_PrismStartupTimedOut_Action" "Starta om SteamVR"
+"VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+"VRInitError_Init_PrismStartupTimedOut_Description" "En nyckelkomponent i SteamVR tog f
+"VRInitError_Init_PrismStartupTimedOut_Header" "Startproblem med SteamVR"
+"VRInitError_Init_Retry_Action" "Mer information"
+"VRInitError_Init_Retry_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_Retry_Description" "SteamVR har st
+"VRInitError_Init_Retry_Header" "SteamVR-fel"
+"VRInitError_Init_SettingsInitFailed_Action" "Mer information"
+"VRInitError_Init_SettingsInitFailed_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_SettingsInitFailed_Description" "SteamVR har st
+"VRInitError_Init_SettingsInitFailed_Header" "SteamVR-fel"
+"VRInitError_Init_ShuttingDown_Action" "Mer information"
+"VRInitError_Init_ShuttingDown_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_ShuttingDown_Description" "SteamVR har st
+"VRInitError_Init_ShuttingDown_Header" "SteamVR-fel"
+"VRInitError_Init_TooManyObjects_Action" "Mer information"
+"VRInitError_Init_TooManyObjects_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_TooManyObjects_Description" "SteamVR har st
+"VRInitError_Init_TooManyObjects_Header" "SteamVR-fel"
+"VRInitError_Init_UserConfigDirectoryInvalid_Action" "V
+"VRInitError_Init_UserConfigDirectoryInvalid_ActionURL" "vrmonitor://setconfig"
+"VRInitError_Init_UserConfigDirectoryInvalid_Description" "Vi har uppt
+"VRInitError_Init_UserConfigDirectoryInvalid_Header" "SteamVR-fel"
+"VRInitError_Init_VRClientDLLNotFound_Action" "Mer information"
+"VRInitError_Init_VRClientDLLNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#steamvr-issues"
+"VRInitError_Init_VRClientDLLNotFound_Description" "Vi har uppt
+"VRInitError_Init_VRClientDLLNotFound_Header" "SteamVR-fel"
+"VRInitError_Internal_Action" "Mer information"
+"VRInitError_Internal_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Internal_Description" "SteamVR har st
+"VRInitError_Internal_Header" "SteamVR-fel"
+"VRInitError_Steam_SteamInstallationNotFound_Action" "Installera Steam"
+"VRInitError_Steam_SteamInstallationNotFound_ActionURL" "vrmonitor://installsteam"
+"VRInitError_Steam_SteamInstallationNotFound_Description" "Steam m
+"VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR-fel"
+"VRInitError_Unknown_Action" "Mer information"
+"VRInitError_Unknown_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Unknown_Description" "SteamVR har st
+"VRInitError_Unknown_Header" "SteamVR-fel"
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "USB-fel"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header" "USB-fel"
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" "
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" " 
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description" "Ditt headset uppt
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "Headset-fel"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header" "USB-fel"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header" "USB-fel"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header" "USB-fel"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header" "USB-fel"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header" "USB-fel"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header" "USB-fel"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header" "USB-fel"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header" "USB-fel"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Headsetets sk
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Konfigurationsfel 
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header" "USB-fel"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Action" "Mer information"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Description" "Kontrollera ditt headsets USB-koppling och f
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Header" "USB-fel"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "G
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Om du anv
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Starta om SteamVR"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link 
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Action" "Bes
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_ActionURL" "https://www.oculus.com/setup/"
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Ett problem har uppst
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "SteamVR-fel"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Bes
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR kunde ej ansluta till Oculus-appen. Se till att du har senaste versionen installerad."
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR-fel"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "L
+"VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "Du m
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Windows 10-uppdatering"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Mer information"
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Din nuvarande grafikdrivrutin har ett k
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Uppdatera grafikdrivrutin"
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action" "
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description" "En basstationsuppdatering avbr
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Header" "Ofullst
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" "Mer information"
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/"
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "Om du enbart anv
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header" "Endast en basstation uppt
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" "Konfigurera"
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" "vrmonitor://open/settings/basestation/configurechannels"
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description" "SteamVR har uppt
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Header" "Fel vid f
+"Warning_DismissableWarning_BasestationsTooFarApart_Action" "Mer information"
+"Warning_DismissableWarning_BasestationsTooFarApart_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_BasestationsTooFarApart_Description" "Dina basstationer 
+"Warning_DismissableWarning_BasestationsTooFarApart_Header" "Notis om VR-installation"
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action" "Bluetooth-inst
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description" "En drivrutin m
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header" "Bluetooth-fel"
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Action" "Bluetooth-inst
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Description" "En drivrutin m
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Header" "Bluetooth-fel"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action" "Bluetooth-inst
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description" "Kontrollera anslutningen till Link Box. Koppla ur och koppla in enheten till Link box f
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header" "Bluetooth-fel"
+"Warning_DismissableWarning_BluetoothLinkServiceError_Action" "Bluetooth-inst
+"Warning_DismissableWarning_BluetoothLinkServiceError_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothLinkServiceError_Description" "SteamVR har st
+"Warning_DismissableWarning_BluetoothLinkServiceError_Header" "Bluetooth-fel"
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action" "Mer information"
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Description" "SteamVR har uppt
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Header" "Bluetooth-fel"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description" "<font color=#aaaa00>Din enhet %1 st
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header" "Enheten st
+"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Aktivera direkt sk
+"Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
+"Warning_DismissableWarning_DisplayInExtendedMode_Description" "SteamVR har uppt
+"Warning_DismissableWarning_DisplayInExtendedMode_Header" "Notis om headset"
+"Warning_DismissableWarning_EnableAppContainers_Action" "Uppdatera beh
+"Warning_DismissableWarning_EnableAppContainers_ActionURL" "vrmonitor://steamvr/setappcontainerpermissions"
+"Warning_DismissableWarning_EnableAppContainers_Description" "Detta 
+"Warning_DismissableWarning_EnableAppContainers_Header" "SteamVR m
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "Starta om (HDCP)"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>Din</span> GPU har problem med att kommunicera med ditt headset, vilket orsakar ett HDCP-fel. Ta bort eventuella kabeladaptrar eller f
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "SteamVR-fel"
+"Warning_DismissableWarning_HDCPError_Action" "
+"Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
+"Warning_DismissableWarning_HDCPError_Description" "<span>Din</span> grafikprocessor (GPU) har problem med att kommunicera med ditt headset (HMD), vilket resulterar i ett HDCP-fel. Prova att ta bort de kabeladaptrar och f
+"Warning_DismissableWarning_HDCPError_Header" "SteamVR-fel"
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Mer information"
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Ditt headsets bildkabel har fr
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Headsetet 
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "More information"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "Ditt headsets kabel har fr
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "Kabel fr
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Installera"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "En drivrutin kr
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Installera drivrutin f
+"Warning_DismissableWarning_InstallWMRPrompt_Action" "Installera"
+"Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+"Warning_DismissableWarning_InstallWMRPrompt_Description" "En drivrutin kr
+"Warning_DismissableWarning_InstallWMRPrompt_Header" "Installera Windows Mixed Reality-drivrutin?"
+"Warning_DismissableWarning_IssuesWithOneDongle_Action" "Mer information"
+"Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#wireless-receivers"
+"Warning_DismissableWarning_IssuesWithOneDongle_Description" "En av de tr
+"Warning_DismissableWarning_IssuesWithOneDongle_Header" "Headset-fel"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Mer information"
+"Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#wireless-receivers"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "De tr
+"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Tr
+"Warning_DismissableWarning_MissedFrames_Action" "Mer info"
+"Warning_DismissableWarning_MissedFrames_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_MissedFrames_Description" "Den nuvarande VR-applikationen k
+"Warning_DismissableWarning_MissedFrames_Header" "Applikationsfel"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Action" "Byt och starta om"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL" "vrmonitor://refreshrate/switch"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Description" "Ditt headset st
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Header" "Byt till en h
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden" "din anpassade"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended" "automatisk"
+"Warning_DismissableWarning_NewDriverInstalled_Action" "Starta om SteamVR"
+"Warning_DismissableWarning_NewDriverInstalled_ActionURL" "vrmonitor://restartsystem"
+"Warning_DismissableWarning_NewDriverInstalled_Description" "Starta om SteamVR f
+"Warning_DismissableWarning_NewDriverInstalled_Header" "Enhetsuppdatering v
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action" "Ange som standardinst
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL" "vrmonitor://openxr/makedefault"
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Description" "Detta kan f
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header" "SteamVR 
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action" "Mer information"
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=swedish#base-stations"
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description" "Siktlinjen mellan basstationerna kanske blockeras av n
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Header" "Fel p
+"Warning_DismissableWarning_OutOfVideoMemory_Action" "Mer information"
+"Warning_DismissableWarning_OutOfVideoMemory_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_OutOfVideoMemory_Description" "Din dator har brist p
+"Warning_DismissableWarning_OutOfVideoMemory_Header" "Slut p
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Starta om SteamVR"
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Ett problem har uppst
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Problem med headsetets anslutning"
+"Warning_DismissableWarning_RunTutorialAgain_Action" "Mer information"
+"Warning_DismissableWarning_RunTutorialAgain_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_RunTutorialAgain_Description" "Du kan k
+"Warning_DismissableWarning_RunTutorialAgain_Header" "Rumskonfiguration och handledning"
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Action" "Mer information"
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Description" "Koppla in ditt headset i samma grafikkort som din prim
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Header" "Fel grafikkort"
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Action" "Sk
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_ActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Description" "Dina sk
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Header" "Sk
+"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Hantera till
+"Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+"Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>P
+"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Vissa till
+"Warning_DismissableWarning_SteamVRUpdated_Action" "Se vad som 
+"Warning_DismissableWarning_SteamVRUpdated_ActionURL" "%1"
+"Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR har uppdaterats till version %2."
+"Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR-uppdatering"
+"Warning_DismissableWarning_UnknownHardwareDetected_Action" "Mer info"
+"Warning_DismissableWarning_UnknownHardwareDetected_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_UnknownHardwareDetected_Description" "Grattis till din nya h
+"Warning_DismissableWarning_UnknownHardwareDetected_Header" "Ny enhet uppt
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Mer information"
+"Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues	"
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Description" "SteamVR fungerar b
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Header" "Uppdatera grafikdrivrutin"
+"Warning_DismissableWarning_WarningsForTheFirstTime_Action" "Mer information"
+"Warning_DismissableWarning_WarningsForTheFirstTime_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_WarningsForTheFirstTime_Description" "H
+"Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Enhetsinformation"
+"Warning_DismissableWarning_Windows8_Action" "More information"
+"Warning_DismissableWarning_Windows8_ActionURL" "https://help.steampowered.com/sv/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_Windows8_Description" "SteamVR st
+"Warning_DismissableWarning_Windows8_Header" "Dags att uppdatera Windows"
+"Warning_DismissableWarning_WindowsAeroDisabled_Action" "Personanpassningsinst
+"Warning_DismissableWarning_WindowsAeroDisabled_ActionURL" "vrmonitor://controlpanel/Microsoft.Personalization"
+"Warning_DismissableWarning_WindowsAeroDisabled_Description" "F
+"Warning_DismissableWarning_WindowsAeroDisabled_Header" "Optimering av prestanda"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Fler detaljer"
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
-
-}
-}
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Om laddningskabeln dras ut i en vinkel kan kontrollen skadas."
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Koppla fr
+"Warning_OpenXRDefaultRuntimePrompt_AnotherSteamVR" "OpenXR-runtime 
+"Warning_OpenXRDefaultRuntimePrompt_NotSet" "OpenXR-runtime 
+"lang"
+Verifiera integriteten hos verktygsfiler ...
+cka den."
+cka denna basstation."
+cka det."
+ckt att SteamVR beh
+ckt att ditt headset 
+ckt att n
+ckt att vissa n
+ckt ett fel med din SteamVR-installation. Lokalisera din konfigurationskatalog f
+ckt flera basstationer p
+ckta"
+ckte ett fel med din SteamVR-installation. Lokalisera din loggkatalog f
+cktes ej. Detta kan orsaka anslutningsproblem med dina VR-kontroller."
+cktes"
+cktes, men ett problem med h
+cktes, men kr
+cktes. St
+da blinkande indikationsljuset. Om problemet kvarst
+da blinkande indikationsljuset. Om tillst
+dad synkronisering."
+de och chaperone-gr
+de och dina chaperone-gr
+der flera uppdateringsintervall!<br>Det 
+ds ej p
+ds inte l
+ende enhet m
+g batteriniv
+ga att byta till tr
+ge A och C. Byt A-basen till l
+ge B f
+ge ist
+ge till A."
+ge. Byt till direkt sk
+gg i SteamVR blockerats.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>L
+ggning."
+gon tillg
+got. Om denna varning kvarst
+gra viktiga filer verkar saknas. F
+gra viktiga filer verkar saknas. Installera om SteamVR."
+gra viktiga filer verkar saknas."
+gre bildfrekvens?"
+h nej! SteamVR har st
+jligt. <br><br>(hwid: %2)"
+k Steam-nedladdningar f
+k SteamVR Support f
+k igen fr
+k igen"
+k igen."
+k oculus.com"
+kat l
+ker ..."
+ker igen.</b>"
+ker igen.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237'>L
+lig prestanda. Pr
+lj konfig-mapp"
+lj sedan Ja vid UAC-uppmaningen."
+ll av ditt headset."
+ll av en basstation."
+ll det sedan nedanf
+ll headset"
+ll headsetet"
+ll in ditt headset p
+ll muspekaren 
+ll. Detta kan p
+lla HMD:n s
+lla den, starta sedan om SteamVR."
+lla in detta och annat i Inst
+lla kontakten via tr
+lla samma GPU-laddning kommer uppl
+llare."
+lld f
+lld som standard f
+lld."
+llet f
+llning f
+llning"
+llningar > Grafik.</i>"
+llningar f
+llningar"
+llningsintruktionerna f
+llningsl
+llt till <b>%1 bildrutor per sekund</b>. Vill du byta till <b>%2</b>?<br><br><i>F
+llts in f
+mhantering"
+mna SteamVR, g
+mre upplevelse. Detta kan bero p
+mstyrning."
+n %3% till %4%. Du kan alltid st
+n 5,5 meter ifr
+n SteamVR-menyn nedan."
+n kontrollerna vid spel"
+n nuvarande mapp"
+n om du 
+n rekommenderat. F
+n varandra 
+n varandra."
+n, och koppla sedan till basstationen med det r
+nd knappen nedan f
+nd kr
+nd och sp
+nd unika kanaler f
+nda SteamVR med Windows Mixed Reality."
+nda SteamVR."
+nda VR f
+nda din uppdaterade enhet."
+nda enhet sp
+ndarbeh
+ndbar"
+ndbar."
+nder Quest 2 eller en annan frist
+nder en basstation f
+nder. Prova en annan port p
+nder. Testa en annan port p
+ndet kvarst
+ndet mellan basstationerna 
+ndig enhetsuppdatering"
+ndiga filer saknas. V
+ndigt f
+ndrar basstationens l
+ndrats"
+nds av denna enhet 
+nds av en annan applikation. St
+ng ned den appen och f
+ng och i n
+ng och inom synh
+ng tid att starta och st
+nga basstationer"
+ngare du anv
+nglig"
+nglig. <b>Anv
+nglig. <p> <b>Anv
+ngningskablar du anv
+ngningssladdar. Prova en annan port p
+ngre f
+ngre ifr
+ngre"
+ngre.</font> <br><br> Denna enhet kommer inte l
+ngsam."
+nken finns h
+nken nedan f
+nken nedan och v
+nkopplad vid headset"
+nkopplad"
+nkopplat"
+nkopplats vid headsetet. Kontrollera att anslutningen bakom ansiktskudden sitter stadigt."
+nkopplats. Kontrollera ditt headsets anslutningar och f
+nligen kontakta tillverkaren f
+nligen ominstallera SteamVR."
+nligen se till att de 
+nligen starta om basstationen med det r
+nns inte igen"
+nnu inte inst
+nser."
+nst f
+nsten. Klicka p
+nt problem som kan f
+ntar p
+ntar"
+ntas. Ers
+ntat fel i Bluetooth-systemet."
+ntat fel uppstod. Bes
+ntat problem. Bes
+ntat problem."
+r %1 meter. F
+r %5 att justeras fr
+r Oculus 
+r Oculus-installationen. Starta om och verifiera att mjukvaran f
+r OpenXR-runtime."
+r SteamVR l
+r SteamVR med bara en basstation f
+r SteamVR."
+r VR, v
+r Vive Pro 2?"
+r aktiv"
+r aktivt"
+r alla basstationer som kan synas samtidigt."
+r appbeh
+r assistans."
+r att 
+r att SteamVR ska fungera korrekt."
+r att aktivera Direct Display-l
+r att aktivera bak
+r att anv
+r att b
+r att bibeh
+r att definera spelomr
+r att definiera din sittande position."
+r att definiera ditt spelomr
+r att duplicera dess inneh
+r att f
+r att fungera med VR."
+r att garantera att det fungerar korrekt."
+r att installera hj
+r att k
+r att omdefiniera ditt spelomr
+r att p
+r att se detaljer och status f
+r att slutf
+r att starta om din HMD s
+r att uppdatera appen."
+r att v
+r att webbl
+r blockerade"
+r dags att uppdatera denna enhet."
+r denna dator. Eller ta bort allt du har lagt till manuellt i SteamVRs drivrutinkatalog."
+r denna enhet s
+r dina basstationer inte vara mer 
+r ditt headset."
+r du 
+r du b
+r du k
+r en annan version av SteamVR."
+r fel med din SteamVR-sp
+r fel"
+r i helsk
+r i l
+r i sk
+r i vilol
+r inkopplade ordentligt. Headsetets sk
+r inom synh
+r installerad och uppdaterad."
+r installerad, men Direct Display kr
+r installerad."
+r installerat och k
+r inte aktiverat"
+r inte designad till att ta del av fj
+r inte inst
+r inte kompatibel med denna version av SteamVR"
+r inte redo"
+r inte sp
+r korrekt inkopplat."
+r korrekt installerade."
+r korrekt installerat."
+r mellan sessioner b
+r mer information."
+r nedanf
+r ominstallera SteamVR."
+r optisk synkronisering."
+r ordentligt anslutet och 
+r ordentligt anslutet och starta sedan om SteamVR."
+r ordentligt anslutet och starta sedan om det."
+r ordentligt anslutna till din laptop. Laptops kan kr
+r personanpassning."
+r rumskonfiguration"
+r rumskonfigurationen f
+r rumskonfigurationen igen."
+r rumskonfigurationen"
+r sakta, vilket kan ge dig en s
+r speglat."
+r synlig"
+r uppdatera till den senaste versionen."
+r varje enhet. Om din enhet beh
+r ytterligare hj
+r, kontakta tillverkaren f
+ra Vive Pro 2-headsetet p
+ra Windows Mixed Reality-headset p
+ra bildsk
+ra headsetets sk
+ra installationen av Link Box."
+ra rumskonfigurationen eller handledningen n
+rande komponent i SteamVR fungerar inte korrekt. L
+rande komponent till SteamVR fungerar inte korrekt. Du b
+rande komponent till SteamVR fungerar inte korrekt."
+rande komponent till SteamVR fungerar inte som den ska. Kontrollera att SteamVR 
+rande komponent till SteamVR hittades inte. Prova 
+rar f
+rar inte f
+rare aktiv"
+rare ej redo"
+rare f
+rare har l
+rare hittades inte"
+raren 
+raren har l
+ras ej"
+ras. Klicka p
+rberedelse av basstation"
+rdvara eller drivrutiner kompatibla med DirectX 11. Du beh
+rdvara! Granska inst
+rdvaran hittades. Kontakta tillverkaren f
+rheten."
+rhindra att vissa applikationer startas korrekt. %1"
+righet f
+righeter att h
+righeter p
+righeter"
+rja anv
+rja proceduren."
+rlorade anslutningen med en av basstationerna, k
+rm fr
+rm har en ogiltig konfiguration. Kontakta kundtj
+rm hittades inte, men en speglad sk
+rm kunde inte hittas."
+rm oanv
+rm speglad"
+rm uppt
+rmanslutningen. Koppla loss headsetet och anslut det igen. Du kan 
+rmar verkar ha st
+rmegenskaper"
+rmen"
+rmfel"
+rning av enheter. Se till att den 
+rning just nu. Se till att den 
+rning just nu. Se till att det 
+rning just nu."
+rning om du byter basstationens l
+rning. Bes
+rningskvalit
+rrstr
+rsomhelst fr
+rtiden f
+rvarande ingen sp
+rvarande inst
+rvarande."
+s anslutning"
+s anslutning. Anslut din kontroll med en USB-kabel, och uppdatera sedan enheten."
+s mer"
+s mer</a>."
+sa mottagare ej uppt
+sa mottagarna i ditt headset uppt
+sare ska kunna visa inneh
+sas. Installera den senaste snabbkorrigeringen nu. L
+ses inte in korrekt. Kontrollera din SteamVR-installation."
+slagen och f
+sningen f
+st headset ..."
+st med en uppdaterad grafikdrivrutin. Vi rekommenderar att du uppdaterar din nu."
+sta prestanda n
+sta resultat, anv
+sta resultat."
+sta upplevelse b
+ste du manuellt aktivera Link eller Air Link i headsetet innan du startar SteamVR."
+ste du uppdatera dina videodrivrutiner. Version %1 
+ste installera den senaste Windows-uppdateringen f
+ste installeras f
+ste konfigureras f
+ste uppdatera din dators grafikdrivrutiner, eller aktivera maskinvaruaccelererad GPU-schemal
+ste vara installerat f
+teranslut"
+terst
+tkompatibla HDCP 1.4 och STARTA OM SteamVR.</b>"
+ts eller kunde inte slutf
+tt enheten s
+tt i en basstation. V
+tt med en basstation. Koppla fr
+tt med k
+tt med sk
+tte p
+ttras sp
+ttre sp
+va att avsluta det nuvarande programmet eller starta om SteamVR."
+va speciella konfigurationer f
+va uppdatera din dators grafikdrivrutiner."
+vande eller att din dator 
+ven prova att starta om SteamVR"
+ver en drivrutin som inte 
+ver en uppdatering f
+ver eventuellt uppgradera ditt system."
+ver ikonen."
+ver ikonerna nedan f
+ver uppdateras kommer du se ett (i) 
+ver uppdateras. Avsluta SteamVR och bes
+ver version %2"
+verka den grafiska prestandan eller g
+xla till ett Aero-tema i Windows inst

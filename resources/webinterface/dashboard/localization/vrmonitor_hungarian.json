@@ -1,370 +1,887 @@
-{
-	"language": "hungarian",
-	"VRMonitor_Nav_Overview": "Áttekintés",
-	"VRMonitor_Nav_Settings": "Beállítások",
-	"VRMonitor_Nav_Help": "Segítség",
-	"VRMonitor_Nav_Developer": "Fejlesztő",
-	"Settings_ControllerSettings": "Játékvezérlő-beállítások",
-	"Settings_Controller_ShowBindingCallouts": "Kiosztás mutatása a játékvezérlőkön",
-	"Settings_Controller_ShowBindingCalloutsInVR": "Kiosztás mutatása a játékvezérlőkön VR-ben",
-	"Settings_Controller_AdvancedControllerSettings": "Játékvezérlő-kiosztás kezelése",
-	"Settings_Controller_ControllerBindingPrompt": "Játékvezérlő-kiosztás",
-	"Settings_Controller_DefaultBinding": "Alapértelmezett",
-	"Settings_Controller_CustomBinding": "Egyedi",
-	"Settings_ThumbstickDeadzone_Text": "Botkormány-holtsáv",
-	"Settings_ThumbstickDeadzone_Desc": "A holtsáv állítása mindegyik botkormányon.",
-	"Settings_DominantHand": "Domináns kéz",
-	"Settings_DominantHand_Left": "Bal",
-	"Settings_DominantHand_Right": "Jobb",
-	"Settings_Loading_CurrentBinding": "Jelenlegi kiosztás betöltése...",
-	"Settings_NeedSteamTo_ViewAndEditBindings": "A kiosztások megnézéséghez és szerkesztéséhez indítsd el a Steamet.",
-	"VRMonitor_Overview_SystemStatus_Title": "Rendszerállapot",
-	"VRMonitor_Overview_DeviceStatus_Title": "Eszközállapot",
-	"VRMonitor_Overview_Notifications_Title": "Értesítések",
-	"VRMonitor_Overview_QuickLinks_Title": "Gyors hivatkozások",
-	"VRMonitor_Overview_QuickLinks_Knock": "Kopp-kopp",
-	"VRMonitor_Overview_QuickLinks_Knock_Desc": "A fejszetthasználó figyelmének felhívása.",
-	"VRMonitor_Overview_QuickLinks_RoomSetup": "Szobabeállítás",
-	"VRMonitor_Overview_QuickLinks_RoomSetup_Desc": "Chaperone korlátok beállítása",
-	"VRMonitor_Overview_QuickLinks_Tutorial": "SteamVR oktatás",
-	"VRMonitor_Overview_QuickLinks_Tutorial_Desc": "Tanuld meg VR fejszetted használatát",
-	"SystemStatus_FrameRate_Good": "Jó képfrissítés",
-	"SystemStatus_FrameRate_MissedFrames": "Kimaradt képkockák",
-	"SystemStatus_FrameRate_now": "most",
-	"SystemStatus_FrameRate_7sec": "7 mp",
-	"SystemStatus_FrameRate_15sec": "15 mp",
-	"VRDevFiles_PathHandles": "Útvonalleírók",
-	"VRDevFiles_JSON": "JSON",
-	"VRDevFiles_Logging": "Naplózás",
-	"VRDevFiles_Configuration": "Konfiguráció",
-	"VRDevFiles_USBDevices": "USB-eszközök",
-	"VRDevConsole_ShowLogName": "Naplónév mutatása",
-	"VRDevConsole_Showtimestamp": "Időbélyegző mutatása",
-	"VRMonitor_DevNav_Console": "Konzol",
-	"VRMonitor_DevNav_RoomOverview": "Szobaáttekintés",
-	"VRMonitor_DevNav_Files": "Fájlok",
-	"Settings_SelectAnOption": "Válassz lehetőséget...",
-	"Settings_BluetoothSettings": "Bluetooth-beállítások",
-	"Settings_BaseStationSettings": "Bázisállomás beállítások",
-	"Settings_Audio_Playback_Automatic_Label": "Hangkimeneti eszköz",
-	"Settings_Audio_Recording_Automatic_Label": "Hangbemeneti eszköz",
-	"Settings_Audio_Headset": "Fejszett",
-	"Settings_Audio_Manual": "Kézi",
-	"Settings_Audio_Mirroring_Label": "Hangtükrözés",
-	"Settings_Audio_Mirroring_Independent_Volume_Label": "Tükrözési hangerő külön vezérlése (béta)",
-	"Settings_Audio_Default": "Rendszer-alapértelmezett",
-	"Settings_Audio_Current_Setting_Unknown": "(A jelenleg kiválasztott eszköz nincs jelen)",
-	"Settings_Audio_HDMIGain": "Erősítéscsökkentés a VIVE HDMI hangon",
-	"Settings_Audio_SpeakerJackOutput": "Hangszóró / 3,5 mm-es csatlakozókimenet",
-	"Settings_Audio_SpeakerJackOutput_Title": "Engedélyezi a 3,5 mm-es csatlakozón és a fület nem érintő fejhallgatón keresztüli egyidejű hangot.",
-	"Settings_Audio_Single": "Egyedüli",
-	"Settings_Audio_Dual": "Kettős",
-	"Settings_Audio_MicMonitor": "Mikrofonfigyelés (önhang)",
-	"Settings_Audio_Active": "Aktív",
-	"Settings_Audio_Muted": "Némítva",
-	"Settings_SectionTitle_Advanced": "Haladó",
-	"Settings_SectionTitle_Developer": "Fejlesztői",
-	"Settings_SectionTitle_Dashboard": "Műszerfal",
-	"Settings_SectionTitle_General": "Általános",
-	"Settings_SectionTitle_Applications": "Alkalmazások",
-	"Settings_SectionTitle_Audio": "Hang",
-	"Settings_SectionTitle_Video": "Kép",
-	"Settings_SectionTitle_Camera": "Kamera",
-	"Settings_SectionTitle_Bluetooth": "Bluetooth",
-	"Settings_SectionTitle_Power": "Energia",
-	"Settings_SectionTitle_StartupShutdown": "Indítás / Leállítás",
-	"Settings_SectionTitle_Home": "Főmenü",
-	"Settings_SectionTitle_PlayArea": "Játékterület",
-	"Settings_SectionTitle_BaseStation": "Bázisállomások",
-	"Settings_SectionTitle_Controller": "Játékvezérlők",
-	"Advanced_AllowSavingOfTimingInfo": "Időzítési információk mentésének engedélyezése",
-	"Advanced_AutoSaveTimingInfoOnExit": "Időzítési információk automatikus mentése kilépéskor",
-	"Settings_EnableWebHelperDebugger": "Web helper hibakereső bekapcsolása",
-	"Settings_EnableWebHelperDebuggerDesc": "Bekapcsolja a hibakereső szervert Chromium fejlesztőeszközök és hibakereső csatlakoztatására beágyazott Chromium oldalakhoz. A Perforce buildeken mindig be van kapcsolva.",
-	"Advanced_PerfGraphInHMD": "GPU teljesítménygrafikon mutatása a fejszettben",
-	"Advanced_SaveFrameDataNow": "Képkockaadatok mentése",
-	"Explanation_DisableEnhancedPowerManagement": "Kapcsold ki a Windows továbbfejlesztett energiagazdálkodást a SteamVR USB-eszközöknél, ha a követés rejtélyes elvesztését észleled, vagy nem tudod párosítani a vezeték nélküli játékvezérlőket.",
-	"Explanation_QuickCalibrate": "Szobaelrendezésed gyors visszaállítása. Álló és szobaléptékű VR-hez az új határok közepe a padlón, a területed közepén levő fejszetted lesz.",
-	"Explanation_RebootVive": "Állítsd vissza a fejszettedet. Ez javíthat USB-vel kapcsolatos fejszett-problémákat.",
-	"Explanation_RemoveAllSteamVRUSBDevices": "Távolítsd el az összes SteamVR-ral kapcsolatos USB-eszközt ebből a rendszerből azok illesztőprogramjainak újratelepítéséhez.",
-	"Explanation_ResetDismissableWarnings": "Az ideiglenes figyelmeztetések visszaállítódtak, és szükség esetén újra megjelennek.",
-	"MenuAction_DisableEnhancedPowerManagement": "Energiagazdálkodás kikapcsolása",
-	"MenuAction_QuickCalibrate": "Gyors kalibrálás",
-	"MenuAction_RebootVive": "Fejszett visszaállítása",
-	"MenuAction_RecordTrackingData": "Követési adatok rögzítése",
-	"MenuAction_RemoveAllSteamVRUSBDevices": "Összes SteamVR USB-eszköz eltávolítása",
-	"MenuAction_ResetDismissableWarnings": "Figyelmeztetések visszaállítása",
-	"MenuAction_SetConfigDirectory": "Konfigurációs könyvtár beállítása",
-	"MenuAction_SetLogDirectory": "Naplókönyvtár beállítása",
-	"Settings_Advanced_AllowSupersampleFiltering": "Fejlett többletmintavételezés szűrés",
-	"Settings_Video_HDCP14LegacyCompatibility": "1.4-es hagyományos HDCP-kompatibilitás",
-	"Settings_Advanced_Paths_Header": "Útvonalak",
-	"Settings_Advanced_Reset_Header": "Alaphelyzet",
-	"Settings_Advanced_Status_Header": "Állapotellenőrzés",
-	"Settings_ShowSettingsInDashboard": "Beállítások fül mutatása",
-	"Settings_ShowPowerMenu": "Energiagazdálkodási lehetőségek mutatása",
-	"Settings_AllowAppQuitting": "Alkalmazás kilépésének engedélyezése a műszerfalon",
-	"Settings_ShowDesktopViews": "Asztalfülek mutatása",
-	"Settings_CheckForSteam": "Steam keresése",
-	"Settings_DebugInputBindings": "Hibaelhárítási lehetőségek engedélyezése a bemenetkiosztási kezelőfelületen",
-	"Advanced_GlobalActionSetPriority": "Globális bevitel engedélyezése átfedésekből (Kísérleti)",
-	"Settings_FadeToGrid": "Alkalmazásbefagyáskor ráccsá halványulás",
-	"Settings_EnableDashboard": "VR műszerfal a Rendszer gombon",
-	"Settings_EnableDashboardDesc": "A VR műszerfal behívásának engedélyezése a Rendszer gomb megnyomásakor.",
-	"Settings_HomeAppCheck": "SteamVR Otthon",
-	"Settings_HomeAppDesc": "Élvezz virtuális környezeteket, közösségi funkciókat és sok mást.",
-	"Settings_LargeSpace": "Nagy tér",
-	"Settings_LockedModeCheck": "Zárolt mód",
-	"Settings_LockedModeDesc": "Engedélyezi a fejszettre renderelést, miközben a számítógép zárolva van.",
-	"Settings_PauseOnStandby": "VR felfüggesztése, amikor a fejszett tétlen",
-	"Settings_PauseOnLocked": "VR felfüggesztése, amikor a számítógép zárolva van",
-	"Settings_OverlayRenderQuality": "Átfedés megjelenítési minősége",
-	"Settings_Auto_Parenthesized": "Automatikus (%1$s)",
-	"Settings_Auto": "Automatikus",
-	"Settings_High": "Magas",
-	"Settings_Medium": "Közepes",
-	"Settings_Low": "Alacsony",
-	"Settings_Animations": "Animációk",
-	"Settings_MediumSpace": "Közepes tér",
-	"Settings_NightModeCheck": "Éjszakai mód",
-	"Settings_NightModeDesc": "Reggel öt óráig (vagy a SteamVR újraindításáig) leveszi a fejszett fényerejét.",
-	"Settings_ShowPlaylistMenu": "Lejátszólista menü mutatása",
-	"Settings_SmallSpace": "Kis tér",
-	"Settings_StatusWindowAlwaysOnTop_Info": " ",
-	"Settings_StatusWindowAlwaysOnTop_Text": "A SteamVR mindig felül",
-	"Settings_StatusWindowMinimizeToTray_Text": "Minimalizáláskor a SteamVR állapot minimalizálódik a tálcára",
-	"Settings_SuppressWarnings_Text": "Figyelmeztetések és értesítések némítása, amikor a SteamVR állapot minimalizált",
-	"StatusCheckInterval_Never": "Soha",
-	"StatusCheckInterval_Normal": "Normál (1 mp)",
-	"StatusCheckInterval_Often": "Gyakori (100 ms)",
-	"StatusCheckInterval_Seldom": "Ritka (5 mp)",
-	"Settings_KnockKnock_Button": "Kopp-kopp",
-	"Settings_KnockKnock_Desc": "Ezzel a VR-en kívülről is felkelthető a fejszetthasználó figyelme.",
-	"Settings_CreateSystemReport_Button": "Rendszerjelentés készítése",
-	"Settings_ViewLogs_Button": "Naplók megnézése",
-	"Settings_Video_RefreshRate_Header": "Frissítési frekvencia",
-	"Settings_Video_RefreshRate_HzSuffix": " Hz",
-	"Settings_Video_RefreshRate_Label_Hz": "Frissítési frekvencia (Hz)",
-	"Settings_Video_RefreshRate_NotFound": "HMD-d további képfrissítési frekvenciákat is támogat, de a grafikus illesztőprogram nem észlelte azokat. Ellenőrizd, hogy fejszetted firmware-je és grafikus illesztőprogramjaid naprakészek-e.",
-	"Settings_Video_RefreshRate_NotAvailableExtended": "HMD-d további képfrissítési frekvenciákat is támogat, de a SteamVR nem tudja kezelni a képfrissítési frekvenciákat, amikor a HMD kiterjesztett módban van.",
-	"Settings_Video_RefreshRate_EnableDirectModeAction": "Közvetlen mód engedélyezése",
-	"Settings_Video_RefreshRate_OneSupported": "Rendszereden csak egy frissítési frekvencia támogatott.",
-	"Settings_Video_AppResFooter": "A jelenlegi beállítás mindkét szemhez %1$s",
-	"Settings_Advanced_MotionSmoothing_Header": "Mozgássimítás",
-	"Settings_Advanced_MotionSmoothing_Description": "Új képkockákat szintetizál a megfelelő élmény fenntartására, amikor a futó alkalmazás nem tudja tartani a lépést.",
-	"Settings_Advanced_MotionSmoothing_Disabled": "A mozgássimítás ezen a videokártyán / illesztőprogram-verzión nem támogatott (az aszinkron újravetítés támogatását igényli).",
-	"Settings_Advanced_MotionSmoothing_Disabled_Win7": "A mozgássimítás a Windows régebbi verzióin nem támogatott.",
-	"Settings_Advanced_Supersampling_Auto": "Automatikus",
-	"Settings_Advanced_Supersampling_Custom": "Egyedi",
-	"Settings_Advanced_Supersampling_Header": "Képalkotási felbontás",
-	"Settings_Advanced_Supersampling_Warning": "Az alábbi beállítás felülírja az automatikus beállítást, és kihat minden alkalmazásra. Egy konkrét alkalmazás felbontásának megváltoztatásához látogasd meg az alkalmazásbeállításokat.",
-	"Settings_Advanced_Supersampling_WidthByHeight": "%1$s × %2$s",
-	"Settings_Advanced_SupersamplingManualOverride": "Felbontásállítás engedélyezése",
-	"Settings_Advanced_Supersampline_ResolutionPerEye": "Szemenkénti felbontás",
-	"Explanation_Supersampling_Header": "A SteamVR a videokártyád teljesítményétől függően automatikusan beállítja az alkalmazás felbontását.",
-	"Explanation_Supersampling": "*Lehet, hogy egyes alkalmazásokat újra kell indítani a beállítások érvénybe lépéséhez.",
-	"Explanation_SupersamplingFiltering": "Többletmintavételezés szűrési beállítások:",
-	"Explanation_Supersampling_ResolutionPerEye": "Szemenkénti felbontás",
-	"Settings_PerApplication_ChooseApplication": "Válassz alkalmazást",
-	"Settings_PerApplication_AppResTitle": "Egyedi felbontás-szorzó",
-	"Settings_PerApplication_AppResHeader": "Ez a beállítás egy szorzó a jelenlegi globális alkalmazásfelbontáson túl a bal oldalt levő %1$s fülön. Lehet, hogy a beállítás érvénybe lépéséhez újra kell indítani ezt az alkalmazást. (Alapérték: 100%)",
-	"Settings_PerApplication_OverlayVisibleHeader": "Az átfedés alkalmazások fülekként érhetők el a SteamVR műszerfalon.",
-	"Settings_PerApplication_OverlayVisibleCheckbox": "Ezen átfedés alkalmazás elindítása a SteamVR indulásakor.",
-	"Settings_PerApplication_DashboardSuffix": "(Átfedés alkalmazás)",
-	"Settings_PerApplication_CustomSuffix": "(Egyéni)",
-	"Settings_PerApplication_MotionSmoothing_Header": "Mozgássimítás",
-	"Settings_PerApplication_MotionSmoothing_Description": "Használd az alábbi jelölőnégyzetet a mozgássimítás globális beállításának felülírásához ezen alkalmazáshoz. (A mozgássimítás globális beállítása jelenleg <font color=#eeeeee>%1</font>.)",
-	"Settings_PerApplication_MotionSmoothing_Global": "Globális beállítás használata",
-	"Settings_PerApplication_MotionSmoothing_On": "Bekapcsolva",
-	"Settings_PerApplication_MotionSmoothing_Off": "Kikapcsolva",
-	"Settings_PerApplication_MotionSmoothing_AlwaysOn": "Kényszerített „mindig be”",
-	"Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc": "Figyelem: az alkalmazás feleakkora képfrissítési ütemmel fog futni.",
-	"Settings_PerApplication_MotionSmoothing_Checkbox": "Mozgássimítás engedélyezése ehhez az alkalmazáshoz",
-	"Settings_PerApplication_Reprojection_Header": "Újravetítés",
-	"Settings_PerApplication_Reprojection_Checkbox": "Hagyományos újravetítési mód használata",
-	"Settings_PerApplication_Reprojection_Description": "E lehetőség bejelölése kikapcsolja az aszinkron újravetítést ennél az alkalmazásnál.",
-	"Settings_PerApplication_RefreshRateOverride_Checkbox": "Frissítési frekvencia felülbírálás",
-	"Settings_Perapplication_RefreshRateOverride_Description": "E lehetőség bejelölése lehetővé teszi a globálistól eltérő frissítési frekvencia megadását ehhez az alkalmazáshoz.",
-	"Settings_PerApplication_ThrottlingOverride_Description": "A teljesítményszabályzás és a predikció a számított teljesítmény alapján automatikusan van kezelve, egyes alkalmazásoknak azonban jót tehet egy kényszerített, fix, lassabb értéken futtatás az összességében simább élmény biztosítása érdekében.",
-	"Settings_PerApplication_ThrottlingOverride_Label": "Teljesítményszabályzási viselkedés",
-	"Settings_PerApplication_ThrottlingOverride_Toggle": "A fix teljesítményszabályzási érték választása kikapcsolja az automatikus teljesítményszabályzást ehhez az alkalmazáshoz.",
-	"Settings_PerApplication_ThrottlingOverride_Toggle_On": "Fix",
-	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "Automatikus",
-	"Settings_PerApplication_ThrottlingOverride_Framerate": "Alkalmazás képkockaszámának zárolása erre (max. FPS):",
-	"Settings_PerApplication_ThrottlingOverride_Prediction": "További predikció (ms):",
-	"Settings_PerApplication_WorldScale_Description": "Az alkalmazás érzékelt léptékének felülbírálása a fejmozgás és szemtávolság állításával.",
-	"Settings_PerApplication_WorldScale_Label": "Világlépték felülbírálása",
-	"Settings_PerApplication_WorldScale_Off": "Ki",
-	"Settings_PerApplication_WorldScale_Fine": "Finom",
-	"Settings_PerApplication_WorldScale_Normal": "Normál",
-	"Settings_PerApplication_WorldScale_Extreme": "Extrém",
-	"Settings_PerApplication_WorldScale_Range": "[%1$s% - %2$s%]",
-	"Settings_PerApplication_WorldScale_Warning": "Megjegyzés: A változtatások az alkalmazás újraindítását igényelhetik, illetve váratlan módon módosíthatják az interakciókat. Az alkalmazástól függően olyan funkciókra lehet hatással, mint a dobás.",
-	"Settings_PerApplication_FovScale_Description": "Opcionálisan csökkentsd az alkalmazás látómezejét, a periférikus látást tisztaságra cserélve. Megjegyzés: a változtatás megfelelő életbe lépéséhez az alkalmazást számos esetben újra kell indítani.",
-	"Settings_PerApplication_FovScale_Label": "Látómező",
-	"Settings_PerApplication_FovScale_Multiplier": "Egyedi méret",
-	"Settings_MimeTypes_Pancake_Header": "Válassz alkalmazást a 2D-s alkalmazások futtatásához",
-	"Settings_Camera_EnableCamera": "Kamera bekapcsolása",
-	"Settings_Camera_ShowOnController": "Kamera mutatása a játékvezérlőn",
-	"Settings_Camera_ShowOnController_Desc": "Bekapcsol egy, a játékvezérlődhöz kapcsolt kameraablakot, amikor a Műszerfal fel van hozva.",
-	"Settings_Camera_AllowCameraForChaperoneBounds": "Kamera mutatása a szoba szélén",
-	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
-	"Settings_Camera_AllowCameraForRoomView": "Szobanézet",
-	"Settings_Camera_AllowCameraForRoomView_Desc": "A szobanézethez bármikor hozzáférhetsz a Rendszer gombot duplán megnyomva.",
-	"Settings_Camera_Compatibility": "Kamerafrissítés",
-	"Settings_Camera_Rate_Hz": "Kamerafrissítés (Hz)",
-	"Settings_Camera_CompatibilityExplanation": "Ha követésvesztést tapasztalsz, lehet, hogy csökkenteni kell a kamera frissítési sebességét, kikapcsolni a kamerát, vagy kipróbálni egy másik USB-portot.",
-	"Settings_Camera_RoomViewStyle": "Szobanézet stílusa",
-	"Settings_Camera_RoomViewStyle_EdgeA": "Színes szélek",
-	"Settings_Camera_RoomViewStyle_EdgeB": "Színes sziluettek",
-	"Settings_Camera_RoomViewStyle_VideoTranslucent": "Átlátszó áteresztés",
-	"Settings_Camera_RoomViewStyle_VideoOpaque": "Nem átlátszó áteresztés",
-	"Settings_Camera_RoomView3D_Experimental": "A 3D szobanézet kísérleti jellegű.",
-	"Settings_Camera_RoomView3D_Unsupported": "A 3D szobanézet nem támogatott ezen a fejszetten, illetve rendszerkonfiguráción.",
-	"Settings_CameraTest": "Kamera és teljesítmény tesztelése",
-	"Settings_StartCameraTest": "Teszt megkezdése",
-	"CameraTest_CheckingCamera": "Kamera ellenőrzése...",
-	"CameraTest_CheckingTracking": "Kamerával való követés ellenőrzése...",
-	"CameraTest_CameraFailed": "A kamerakommunikáció sikertelen",
-	"CameraTest_TrackingFailed": "Sikertelen követés bekapcsolt kamerával",
-	"CameraTest_Success": "Sikeres kamerateszt",
+	"Advanced_AllowSavingOfTimingInfo": "Id
+	"Advanced_Appearance": "Megjelen
+	"Advanced_AutoSaveTimingInfoOnExit": "Id
+	"Advanced_GlobalActionSetPriority": "Glob
+	"Advanced_PerfGraphInHMD": "GPU teljes
+	"Advanced_SaveFrameDataNow": "K
 	"CameraTest": "Kamerateszt",
-	"CameraTestStatus_Evaluating": "Ellenőrzés",
-	"CameraTestStatus_Success": "Sikeres",
+	"CameraTestStatus_Evaluating": "Ellen
 	"CameraTestStatus_Failure": "Sikertelen",
-	"Advanced_Appearance": "Megjelenés",
-	"Settings_Appearance_Background": "Háttér",
-	"Settings_Appearance_Background_NoSteam": "Bármilyen további háttér megnézéséhez indítsd el a Steamet.",
-	"Settings_Appearance_Background_Select": "Háttérváltoztatás",
-	"Settings_Appearance_BackgroundDesc": "Válassz hátteret az alapértelmezett térhez.",
-	"Settings_Appearance_UseDomeProjection": "Kupolavetítés használata",
-	"Settings_Appearance_UseDomeProjectionDesc": "Megváltoztatja a háttérkép vetítési stílusát. Egyes hátterek ezt a funkciót használják, hogy magával ragadóbb élményt nyújtsanak. Ha a kiválasztott háttér torznak tűnik, próbáld meg ezt bekapcsolni.",
-	"Settings_Appearance_DomeCameraHeight": "Kameramagasság",
-	"Settings_Appearance_DomeCameraHeightDesc": "A kamera háttérhez viszonyított magasságát állítja.",
-	"Settings_Appearance_DomeCameraRadius": "Kupolasugár",
-	"Settings_Appearance_DomeCameraRadiusDesc": "Megváltoztatja a kupola méretét.",
-	"Settings_Appearance_ResetDomeProjectionSettings": "Kupolavetítés alapbeállításokra",
-	"Settings_Appearance_PlayAreaColorDesc": "Beállítja a játékterületed stílusát. Ezt akkor fogod látni, amikor a játékok betöltenek, vagy ha kikapcsoltad a SteamVR Otthon bétát.",
-	"Settings_Appearance_PlayArea_FloorColor": "Játéktéri padlószín",
-	"Settings_Appearance_MoreEnvironments": "További SteamVR Otthon környezetek beszerzése",
-	"Settings_Power_ReturnToWatchdogTimeout": "Kilépés a SteamVR-ből ennyi idő után",
-	"Settings_Power_TurnOffScreensTimeout": "Kijelzők kikapcsolása ennyi idő után",
-	"Settings_Power_TurnOffControllersTimeout": "Játékvezérlők kikapcsolása ennyi idő után",
-	"Settings_Power_ControllerOffOnExit": "Játékvezérlők kikapcsolása a SteamVR-ből kilépéskor",
-	"Settings_General_Notifications_Label": "Értesítések",
-	"Settings_General_Notifications_Text": "Értesítések engedélyezése a virtuális valóságban",
-	"Settings_General_ShowBindingUI": "Játékvezérlő-kiosztás szerkesztése",
-	"Settings_General_ShowTrackerUI": "Vive követők kezelése",
-	"Settings_General_Cancel": "Mégse",
-	"Settings_General_Confirm": "Megerősít",
-	"Settings_General_Close": "Bezár",
-	"Settings_General_CalibrateThumbstick": "Botkormány kalibrálása",
-	"Settings_General_CalibrateThumbstick_ConnectAController": "Csatlakoztass egy botkormánnyal rendelkező játékvezérlőt.",
-	"Settings_General_NotEnoughSamples": "Kérjük, döntsd fölfelé a botkormányt még legalább %1$s alkalommal a kalibrálás befejezéséhez.",
-	"Settings_General_InviteMoreSamples": "A szög számított értéke %1$s°. Folytasd a fölfelé döntést az érték finomításához, vagy nyomj Megerősítést e kalibrálás elfogadásához.",
-	"Settings_General_LeftThumbstickAngle": "Bal botkormány szöge: %1$s°",
-	"Settings_General_RightThumbstickAngle": "Jobb botkormány szöge: %1$s°",
-	"Settings_General_LeftThumbstickAngle_NoValue": "Bal botkormány szöge",
-	"Settings_General_RightThumbstickAngle_NoValue": "Jobb botkormány szöge",
-	"Settings_Dashboard_ShowProgressIndicator": "Hosszú lenyomás haladásjelző",
-	"Settings_Dashboard_Position": "Műszerfal pozíciója",
-	"Settings_Classic": "Klasszikus",
-	"Settings_Near": "Közel",
-	"Settings_Middle": "Középen",
-	"Settings_Far": "Távol",
-	"Settings_DesktopScale": "Asztal mérete",
-	"Settings_DashboardScale": "Műszerfal mérete",
-	"Settings_DesktopDarkMode": "Sötét módú műszerfal",
-	"Settings_ToggleDarkMode": "Sötét mód be/ki",
-	"Settings_Dark": "Sötét",
-	"SettingsTime_5s": "5 másodperc",
-	"SettingsTime_30s": "30 másodperc",
-	"SettingsTime_1m": "1 perc",
-	"SettingsTime_5m": "5 perc",
+	"CameraTestStatus_Success": "Sikeres",
+	"CameraTest_CameraFailed": "A kamerakommunik
+	"CameraTest_CheckingCamera": "Kamera ellen
+	"CameraTest_CheckingTracking": "Kamer
+	"CameraTest_Success": "Sikeres kamerateszt",
+	"CameraTest_TrackingFailed": "Sikertelen k
+	"Explanation_DisableEnhancedPowerManagement": "Kapcsold ki a Windows tov
+	"Explanation_QuickCalibrate": "Szobaelrendez
+	"Explanation_RebootVive": "
+	"Explanation_RemoveAllSteamVRUSBDevices": "T
+	"Explanation_ResetDismissableWarnings": "Az ideiglenes figyelmeztet
+	"Explanation_Supersampling": "*Lehet, hogy egyes alkalmaz
+	"Explanation_SupersamplingFiltering": "T
+	"Explanation_Supersampling_Header": "A SteamVR a videok
+	"Explanation_Supersampling_ResolutionPerEye": "Szemenk
+	"MenuAction_DisableEnhancedPowerManagement": "Energiagazd
+	"MenuAction_QuickCalibrate": "Gyors kalibr
+	"MenuAction_RebootVive": "Fejszett vissza
+	"MenuAction_RecordTrackingData": "K
+	"MenuAction_RemoveAllSteamVRUSBDevices": "
+	"MenuAction_ResetDismissableWarnings": "Figyelmeztet
+	"MenuAction_SetConfigDirectory": "Konfigur
+	"MenuAction_SetLogDirectory": "Napl
+	"OpenXR_AnotherSteamVR": "A SteamVR egy m
+	"OpenXR_Error": "Hiba a fut
+	"OpenXR_None": "Nincs",
+	"OpenXR_OculusRuntime": "Oculus",
+	"OpenXR_SteamVR": "SteamVR",
+	"OpenXR_WindowsMixedReality": "Windows Mixed Reality",
 	"SettingsTime_10m": "10 perc",
+	"SettingsTime_1h": "1 
+	"SettingsTime_1m": "1 perc",
 	"SettingsTime_20m": "20 perc",
 	"SettingsTime_30m": "30 perc",
-	"SettingsTime_1h": "1 óra",
+	"SettingsTime_30s": "30 m
+	"SettingsTime_5m": "5 perc",
+	"SettingsTime_5s": "5 m
 	"SettingsTime_Never": "Soha",
-	"Settings_Appearance_CycleBackgroundImageTimeSec": "Ennyi idő után változtasson hátteret:",
-	"Settings_Chaperone_BoundsColor": "Szín",
-	"Settings_Chaperone_BoundsTransparency": "Áttetszőség",
-	"Settings_Chaperone_Color": "Szín",
-	"Settings_Chaperone_ActivationDistance": "Aktiválási távolság (m)",
-	"Settings_Chaperone_WallHeight": "Falmagasság (m)",
-	"Settings_Chaperone_SuitableForSmall": "Kis játékterekhez megfelelő. Légy óvatos.",
-	"Settings_Chaperone_SuitableForMedium": "Közepes játékterekhez megfelelő.",
-	"Settings_Chaperone_SuitableForLarge": "Nagy játékterekhez megfelelő.",
-	"Settings_Chaperone_Style": "Chaperone stílusa",
-	"Settings_Chaperone_Style_0": "Rács (sűrű)",
-	"Settings_Chaperone_Style_1": "Rács (közepes)",
-	"Settings_Chaperone_Style_2": "Négyzetek",
-	"Settings_Chaperone_Style_3": "Rács (ritka)",
-	"Settings_Chaperone_Style_4": "Csak a padlón",
-	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Mindig mutassa a padlóhatárokat",
-	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
-	"Settings_Appearance_Controller": "Játékvezérlő-modelled megváltoztatása",
-	"Settings_Appearance_Base": "Bázisállomás-modelled megváltoztatása",
-	"Settings_Appearance_Environment": "Otthoni környezeted megváltoztatása",
-	"Settings_ConnectAnHMD": "Csatlakoztass egy fejszettet.",
-	"Settings_Loading": "Betöltés...",
-	"Settings_ResetToDefault": "Alapbeállításokra",
-	"Settings_ResetPageToDefault": "Oldal alapértékekre állítása",
-	"Settings_ToggleButton_On": "Be",
-	"Settings_ToggleButton_Off": "Ki",
-	"Settings_ToggleButton_Disable": "Kikapcsolás",
-	"Settings_ToggleButton_Enable": "Bekapcsolás",
 	"Settings_2D": "2D",
 	"Settings_3D": "3D",
-	"Settings_Header_SteamVR": "SteamVR beállítások",
-	"Settings_MustRestart_Description": "Néhány változtatás érvénybe lépéséhez újra kell indítani a SteamVR-t.",
-	"Settings_MustRestart_RestartSteamVR_Button": "SteamVR újraindítása",
-	"Settings_MustQuitApp_Description": "A változások életbe lépéséhez kérjük, lépj ki a játékból.",
-	"Settings_MustQuitApp_QuitCurrentGame_Button": "Kilépés a játékból",
-	"Settings_NotSupported": "Nem támogatott",
-	"Settings_AdvancedSettings": "Haladó beállítások",
-	"Settings_Show": "Mutatás",
-	"Settings_Hide": "Elrejtés",
-	"Settings_ViveTracker": "Vive követő",
-	"Settings_ViveTrackers": "Vive követők",
-	"Settings_ViveTracker_Role": "Követő szerepe",
-	"Settings_ViveTracker_Hand": "Kéz",
-	"Settings_ViveTracker_Identify_NotConnected": "Nincs Vive követő csatlakoztatva.",
-	"Settings_ViveTracker_Identify_NotIdentifiable": "A Vive követő nem képes azonosításra.",
-	"Settings_ViveTracker_Connected": "Csatlakoztatva",
-	"Settings_ViveTracker_Disconnected": "Leválasztva",
-	"Settings_PerApplication_VideoSettings": "Alkalmazásonkénti képbeállítások",
-	"Settings_ChooseStartupOverlayApps": "Induláskori átfedés-alkalmazások kiválasztása",
-	"Settings_StartTheseOverlayAppsOnLaunch": "Ezen átfedés-alkalmazások indítása induláskor:",
-	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "Nem található átfedés-alkalmazás.",
-	"Settings_ActiveController": "Aktív játékvezérlő",
-	"Settings_EditBinding": "E kiosztás szerkesztése",
-	"Settings_EditBinding_ChooseAnother": "Másik választása",
-	"Settings_ShowOldBindingUI": "Régi kiosztási kezelőfelület mutatása",
-	"Settings_ManageVideoSettingsForApp": "Képbeállítások kezelése ehhez:",
-	"Settings_ManageControllerBindingSettingsForApp": "Játékvezérlő-kiosztás kezelése ehhez:",
-	"Settings_ActiveControllerBinding": "Aktív játékvezérlő-kiosztás",
-	"Settings_ActiveBinding": "Aktív kiosztás",
-	"Settings_ShowThumbstickSettings": "Botkormány-beállítások szerkesztése",
-	"Settings_ThumbstickSettings": "Botkormány-beállítások",
-	"Settings_Number_Selected": "%1$s kiválasztva",
-	"Settings_Drivers_ShowDriverManagerUI": "Kiegészítők kezelése",
+	"Settings_ActiveBinding": "Akt
+	"Settings_ActiveController": "Akt
+	"Settings_ActiveControllerBinding": "Akt
+	"Settings_AdvancedSettings": "Halad
+	"Settings_Advanced_AllowSupersampleFiltering": "Fejlett t
+	"Settings_Advanced_MotionSmoothing_Description": "
+	"Settings_Advanced_MotionSmoothing_Disabled": "A mozg
+	"Settings_Advanced_MotionSmoothing_Disabled_Win7": "A mozg
+	"Settings_Advanced_MotionSmoothing_Header": "Mozg
+	"Settings_Advanced_Paths_Header": "
+	"Settings_Advanced_Reset_Header": "Alaphelyzet",
+	"Settings_Advanced_Status_Header": "
+	"Settings_Advanced_Supersampline_ResolutionPerEye": "Szemenk
+	"Settings_Advanced_SupersamplingManualOverride": "Felbont
+	"Settings_Advanced_Supersampling_Auto": "Automatikus",
+	"Settings_Advanced_Supersampling_Custom": "Egyedi",
+	"Settings_Advanced_Supersampling_Header": "K
+	"Settings_Advanced_Supersampling_Warning": "Az al
+	"Settings_Advanced_Supersampling_WidthByHeight": "%1$s 
+	"Settings_AllowAppQuitting": "Alkalmaz
+	"Settings_Animations": "Anim
+	"Settings_Appearance_Background": "H
+	"Settings_Appearance_BackgroundDesc": "V
+	"Settings_Appearance_Background_NoSteam": "B
+	"Settings_Appearance_Background_Select": "H
+	"Settings_Appearance_Base": "B
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Mindig mutassa a padl
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
+	"Settings_Appearance_Controller": "J
+	"Settings_Appearance_CycleBackgroundImageTimeSec": "Ennyi id
+	"Settings_Appearance_DomeCameraHeight": "Kameramagass
+	"Settings_Appearance_DomeCameraHeightDesc": "A kamera h
+	"Settings_Appearance_DomeCameraRadius": "Kupolasug
+	"Settings_Appearance_DomeCameraRadiusDesc": "Megv
+	"Settings_Appearance_Environment": "Otthoni k
+	"Settings_Appearance_MoreEnvironments": "Tov
+	"Settings_Appearance_PlayAreaColorDesc": "Be
+	"Settings_Appearance_PlayArea_FloorColor": "J
+	"Settings_Appearance_ResetDomeProjectionSettings": "Kupolavet
+	"Settings_Appearance_UseDomeProjection": "Kupolavet
+	"Settings_Appearance_UseDomeProjectionDesc": "Megv
+	"Settings_Audio_Active": "Akt
+	"Settings_Audio_Current_Setting_Unknown": "(A jelenleg kiv
+	"Settings_Audio_Default": "Rendszer-alap
+	"Settings_Audio_Dual": "Kett
+	"Settings_Audio_HDMIGain": "Er
+	"Settings_Audio_Headset": "Fejszett",
+	"Settings_Audio_Manual": "K
+	"Settings_Audio_MicMonitor": "Mikrofonfigyel
+	"Settings_Audio_Mirroring_Independent_Volume_Label": "T
+	"Settings_Audio_Mirroring_Label": "Hangt
+	"Settings_Audio_Muted": "N
+	"Settings_Audio_Playback_Automatic_Label": "Hangkimeneti eszk
+	"Settings_Audio_Recording_Automatic_Label": "Hangbemeneti eszk
+	"Settings_Audio_Single": "Egyed
+	"Settings_Audio_SpeakerJackOutput": "Hangsz
+	"Settings_Audio_SpeakerJackOutput_Title": "Enged
+	"Settings_Auto": "Automatikus",
+	"Settings_Auto_Parenthesized": "Automatikus (%1$s)",
+	"Settings_BaseStationSettings": "B
+	"Settings_BluetoothSettings": "Bluetooth-be
+	"Settings_CameraTest": "Kamera 
+	"Settings_Camera_AllowCameraForChaperoneBounds": "Kamera mutat
+	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
+	"Settings_Camera_AllowCameraForRoomView": "Szoban
+	"Settings_Camera_AllowCameraForRoomView_Desc": "A szoban
+	"Settings_Camera_Compatibility": "Kamerafriss
+	"Settings_Camera_CompatibilityExplanation": "Ha k
+	"Settings_Camera_EnableCamera": "Kamera bekapcsol
+	"Settings_Camera_Rate_Hz": "Kamerafriss
+	"Settings_Camera_RoomView3D_Experimental": "A 3D szoban
+	"Settings_Camera_RoomView3D_Unsupported": "A 3D szoban
+	"Settings_Camera_RoomViewStyle": "Szoban
+	"Settings_Camera_RoomViewStyle_EdgeA": "Sz
+	"Settings_Camera_RoomViewStyle_EdgeB": "Sz
+	"Settings_Camera_RoomViewStyle_VideoOpaque": "Nem 
+	"Settings_Camera_RoomViewStyle_VideoTranslucent": "
+	"Settings_Camera_ShowOnController": "Kamera mutat
+	"Settings_Camera_ShowOnController_Desc": "Bekapcsol egy, a j
+	"Settings_Chaperone_ActivationDistance": "Aktiv
+	"Settings_Chaperone_BoundsColor": "Sz
+	"Settings_Chaperone_BoundsTransparency": "
+	"Settings_Chaperone_Color": "Sz
+	"Settings_Chaperone_Style": "Chaperone st
+	"Settings_Chaperone_Style_0": "R
+	"Settings_Chaperone_Style_1": "R
+	"Settings_Chaperone_Style_2": "N
+	"Settings_Chaperone_Style_3": "R
+	"Settings_Chaperone_Style_4": "Csak a padl
+	"Settings_Chaperone_SuitableForLarge": "Nagy j
+	"Settings_Chaperone_SuitableForMedium": "K
+	"Settings_Chaperone_SuitableForSmall": "Kis j
+	"Settings_Chaperone_WallHeight": "Falmagass
+	"Settings_CheckForSteam": "Steam keres
+	"Settings_ChooseStartupOverlayApps": "Indul
+	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "Nem tal
+	"Settings_Classic": "Klasszikus",
+	"Settings_ConnectAnHMD": "Csatlakoztass egy fejszettet.",
+	"Settings_ControllerSettings": "J
+	"Settings_Controller_AdvancedControllerSettings": "J
+	"Settings_Controller_ControllerBindingPrompt": "J
+	"Settings_Controller_CustomBinding": "Egyedi",
+	"Settings_Controller_DefaultBinding": "Alap
+	"Settings_Controller_ShowBindingCallouts": "Kioszt
+	"Settings_Controller_ShowBindingCalloutsInVR": "Kioszt
+	"Settings_CreateSystemReport_Button": "Rendszerjelent
+	"Settings_CurrentOpenXRRuntime": "Jelenlegi OpenXR fut
+	"Settings_CurrentOpenXRRuntime_None": "Nincs",
+	"Settings_Dark": "S
+	"Settings_DashboardScale": "M
+	"Settings_Dashboard_Position": "M
+	"Settings_Dashboard_ShowProgressIndicator": "Hossz
+	"Settings_DebugInputBindings": "Hibaelh
+	"Settings_DesktopDarkMode": "S
+	"Settings_DesktopScale": "Asztal m
+	"Settings_DominantHand": "Domin
+	"Settings_DominantHand_Left": "Bal",
+	"Settings_DominantHand_Right": "Jobb",
+	"Settings_Drivers_Header": "SteamVR kieg
 	"Settings_Drivers_Number_Blocked": "%1$s blokkolva",
 	"Settings_Drivers_Number_Disabled": "%1$s kikapcsolva",
-	"Settings_Drivers_Header": "SteamVR kiegészítők kezelése",
-	"Settings_Drivers_Unblock": "Feloldás",
-	"Settings_Drivers_UnblockAll": "Összes feloldása",
-	"Settings_Drivers_UnblockAllTip": "MEGJEGYZÉS: egyszerre egy kiegészítő feloldása és tesztelése javasolt.",
-	"Settings_Drivers_SomeBlocked": "Egy közelmúltbeli összeomlás miatt néhány SteamVR kiegészítő automatikusan blokkolva lett.",
-	"Settings_CurrentOpenXRRuntime_None": "Nincs",
-	"Settings_CurrentOpenXRRuntime": "Jelenlegi OpenXR futásidejű:",
-	"Settings_SetAsOpenXRRuntime": "SteamVR beállítása OpenXR futásidejűként",
-	"OpenXR_AnotherSteamVR": "A SteamVR egy másolata",
-	"OpenXR_SteamVR": "SteamVR",
-	"OpenXR_None": "Nincs",
-	"OpenXR_Error": "Hiba a futásidejű keresésekor",
-	"OpenXR_OculusRuntime": "Oculus",
-	"OpenXR_WindowsMixedReality": "Windows Mixed Reality",
-	"TestControllerTitle": "%1$s játékvezérlő tesztelése",
-	"TestController_NoController": "A teszteléshez kapcsolj be egy játékvezérlőt."
-}
+	"Settings_Drivers_ShowDriverManagerUI": "Kieg
+	"Settings_Drivers_SomeBlocked": "Egy k
+	"Settings_Drivers_Unblock": "Felold
+	"Settings_Drivers_UnblockAll": "
+	"Settings_Drivers_UnblockAllTip": "MEGJEGYZ
+	"Settings_EditBinding": "E kioszt
+	"Settings_EditBinding_ChooseAnother": "M
+	"Settings_EnableDashboard": "VR m
+	"Settings_EnableDashboardDesc": "A VR m
+	"Settings_EnableWebHelperDebugger": "Web helper hibakeres
+	"Settings_EnableWebHelperDebuggerDesc": "Bekapcsolja a hibakeres
+	"Settings_FadeToGrid": "Alkalmaz
+	"Settings_Far": "T
+	"Settings_General_CalibrateThumbstick": "Botkorm
+	"Settings_General_CalibrateThumbstick_ConnectAController": "Csatlakoztass egy botkorm
+	"Settings_General_Cancel": "M
+	"Settings_General_Close": "Bez
+	"Settings_General_Confirm": "Meger
+	"Settings_General_InviteMoreSamples": "A sz
+	"Settings_General_LeftThumbstickAngle": "Bal botkorm
+	"Settings_General_LeftThumbstickAngle_NoValue": "Bal botkorm
+	"Settings_General_NotEnoughSamples": "K
+	"Settings_General_Notifications_Label": "
+	"Settings_General_Notifications_Text": "
+	"Settings_General_RightThumbstickAngle": "Jobb botkorm
+	"Settings_General_RightThumbstickAngle_NoValue": "Jobb botkorm
+	"Settings_General_ShowBindingUI": "J
+	"Settings_General_ShowTrackerUI": "Vive k
+	"Settings_Header_SteamVR": "SteamVR be
+	"Settings_Hide": "Elrejt
+	"Settings_High": "Magas",
+	"Settings_HomeAppCheck": "SteamVR Otthon",
+	"Settings_HomeAppDesc": "
+	"Settings_KnockKnock_Button": "Kopp-kopp",
+	"Settings_KnockKnock_Desc": "Ezzel a VR-en k
+	"Settings_LargeSpace": "Nagy t
+	"Settings_Loading": "Bet
+	"Settings_Loading_CurrentBinding": "Jelenlegi kioszt
+	"Settings_LockedModeCheck": "Z
+	"Settings_LockedModeDesc": "Enged
+	"Settings_Low": "Alacsony",
+	"Settings_ManageControllerBindingSettingsForApp": "J
+	"Settings_ManageVideoSettingsForApp": "K
+	"Settings_Medium": "K
+	"Settings_MediumSpace": "K
+	"Settings_Middle": "K
+	"Settings_MimeTypes_Pancake_Header": "V
+	"Settings_MustQuitApp_Description": "A v
+	"Settings_MustQuitApp_QuitCurrentGame_Button": "Kil
+	"Settings_MustRestart_Description": "N
+	"Settings_MustRestart_RestartSteamVR_Button": "SteamVR 
+	"Settings_Near": "K
+	"Settings_NeedSteamTo_ViewAndEditBindings": "A kioszt
+	"Settings_NightModeCheck": "
+	"Settings_NightModeDesc": "Reggel 
+	"Settings_NotSupported": "Nem t
+	"Settings_Number_Selected": "%1$s kiv
+	"Settings_OverlayRenderQuality": "
+	"Settings_PauseOnLocked": "VR felf
+	"Settings_PauseOnStandby": "VR felf
+	"Settings_PerApplication_AppResHeader": "Ez a be
+	"Settings_PerApplication_AppResTitle": "Egyedi felbont
+	"Settings_PerApplication_ChooseApplication": "V
+	"Settings_PerApplication_CustomSuffix": "(Egy
+	"Settings_PerApplication_DashboardSuffix": "(
+	"Settings_PerApplication_FovScale_Description": "Opcion
+	"Settings_PerApplication_FovScale_Label": "L
+	"Settings_PerApplication_FovScale_Multiplier": "Egyedi m
+	"Settings_PerApplication_MotionSmoothing_AlwaysOn": "K
+	"Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc": "Figyelem: az alkalmaz
+	"Settings_PerApplication_MotionSmoothing_Checkbox": "Mozg
+	"Settings_PerApplication_MotionSmoothing_Description": "Haszn
+	"Settings_PerApplication_MotionSmoothing_Global": "Glob
+	"Settings_PerApplication_MotionSmoothing_Header": "Mozg
+	"Settings_PerApplication_MotionSmoothing_Off": "Kikapcsolva",
+	"Settings_PerApplication_MotionSmoothing_On": "Bekapcsolva",
+	"Settings_PerApplication_OverlayVisibleCheckbox": "Ezen 
+	"Settings_PerApplication_OverlayVisibleHeader": "Az 
+	"Settings_PerApplication_RefreshRateOverride_Checkbox": "Friss
+	"Settings_PerApplication_Reprojection_Checkbox": "Hagyom
+	"Settings_PerApplication_Reprojection_Description": "E lehet
+	"Settings_PerApplication_Reprojection_Header": "
+	"Settings_PerApplication_ThrottlingOverride_Description": "A teljes
+	"Settings_PerApplication_ThrottlingOverride_Framerate": "Alkalmaz
+	"Settings_PerApplication_ThrottlingOverride_Label": "Teljes
+	"Settings_PerApplication_ThrottlingOverride_Prediction": "Tov
+	"Settings_PerApplication_ThrottlingOverride_Toggle": "A fix teljes
+	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "Automatikus",
+	"Settings_PerApplication_ThrottlingOverride_Toggle_On": "Fix",
+	"Settings_PerApplication_VideoSettings": "Alkalmaz
+	"Settings_PerApplication_WorldScale_Description": "Az alkalmaz
+	"Settings_PerApplication_WorldScale_Extreme": "Extr
+	"Settings_PerApplication_WorldScale_Fine": "Finom",
+	"Settings_PerApplication_WorldScale_Label": "Vil
+	"Settings_PerApplication_WorldScale_Normal": "Norm
+	"Settings_PerApplication_WorldScale_Off": "Ki",
+	"Settings_PerApplication_WorldScale_Range": "[%1$s% - %2$s%]",
+	"Settings_PerApplication_WorldScale_Warning": "Megjegyz
+	"Settings_Perapplication_RefreshRateOverride_Description": "E lehet
+	"Settings_Power_ControllerOffOnExit": "J
+	"Settings_Power_ReturnToWatchdogTimeout": "Kil
+	"Settings_Power_TurnOffControllersTimeout": "J
+	"Settings_Power_TurnOffScreensTimeout": "Kijelz
+	"Settings_ResetPageToDefault": "Oldal alap
+	"Settings_ResetToDefault": "Alapbe
+	"Settings_SectionTitle_Advanced": "Halad
+	"Settings_SectionTitle_Applications": "Alkalmaz
+	"Settings_SectionTitle_Audio": "Hang",
+	"Settings_SectionTitle_BaseStation": "B
+	"Settings_SectionTitle_Bluetooth": "Bluetooth",
+	"Settings_SectionTitle_Camera": "Kamera",
+	"Settings_SectionTitle_Controller": "J
+	"Settings_SectionTitle_Dashboard": "M
+	"Settings_SectionTitle_Developer": "Fejleszt
+	"Settings_SectionTitle_General": "
+	"Settings_SectionTitle_Home": "F
+	"Settings_SectionTitle_PlayArea": "J
+	"Settings_SectionTitle_Power": "Energia",
+	"Settings_SectionTitle_StartupShutdown": "Ind
+	"Settings_SectionTitle_Video": "K
+	"Settings_SelectAnOption": "V
+	"Settings_SetAsOpenXRRuntime": "SteamVR be
+	"Settings_Show": "Mutat
+	"Settings_ShowDesktopViews": "Asztalf
+	"Settings_ShowOldBindingUI": "R
+	"Settings_ShowPlaylistMenu": "Lej
+	"Settings_ShowPowerMenu": "Energiagazd
+	"Settings_ShowSettingsInDashboard": "Be
+	"Settings_ShowThumbstickSettings": "Botkorm
+	"Settings_SmallSpace": "Kis t
+	"Settings_StartCameraTest": "Teszt megkezd
+	"Settings_StartTheseOverlayAppsOnLaunch": "Ezen 
+	"Settings_StatusWindowAlwaysOnTop_Info": " ",
+	"Settings_StatusWindowAlwaysOnTop_Text": "A SteamVR mindig fel
+	"Settings_StatusWindowMinimizeToTray_Text": "Minimaliz
+	"Settings_SuppressWarnings_Text": "Figyelmeztet
+	"Settings_ThumbstickDeadzone_Desc": "A holts
+	"Settings_ThumbstickDeadzone_Text": "Botkorm
+	"Settings_ThumbstickSettings": "Botkorm
+	"Settings_ToggleButton_Disable": "Kikapcsol
+	"Settings_ToggleButton_Enable": "Bekapcsol
+	"Settings_ToggleButton_Off": "Ki",
+	"Settings_ToggleButton_On": "Be",
+	"Settings_ToggleDarkMode": "S
+	"Settings_Video_AppResFooter": "A jelenlegi be
+	"Settings_Video_HDCP14LegacyCompatibility": "1.4-es hagyom
+	"Settings_Video_RefreshRate_EnableDirectModeAction": "K
+	"Settings_Video_RefreshRate_Header": "Friss
+	"Settings_Video_RefreshRate_HzSuffix": " Hz",
+	"Settings_Video_RefreshRate_Label_Hz": "Friss
+	"Settings_Video_RefreshRate_NotAvailableExtended": "HMD-d tov
+	"Settings_Video_RefreshRate_NotFound": "HMD-d tov
+	"Settings_Video_RefreshRate_OneSupported": "Rendszereden csak egy friss
+	"Settings_ViewLogs_Button": "Napl
+	"Settings_ViveTracker": "Vive k
+	"Settings_ViveTracker_Connected": "Csatlakoztatva",
+	"Settings_ViveTracker_Disconnected": "Lev
+	"Settings_ViveTracker_Hand": "K
+	"Settings_ViveTracker_Identify_NotConnected": "Nincs Vive k
+	"Settings_ViveTracker_Identify_NotIdentifiable": "A Vive k
+	"Settings_ViveTracker_Role": "K
+	"Settings_ViveTrackers": "Vive k
+	"StatusCheckInterval_Never": "Soha",
+	"StatusCheckInterval_Normal": "Norm
+	"StatusCheckInterval_Often": "Gyakori (100 ms)",
+	"StatusCheckInterval_Seldom": "Ritka (5 mp)",
+	"SystemStatus_FrameRate_15sec": "15 mp",
+	"SystemStatus_FrameRate_7sec": "7 mp",
+	"SystemStatus_FrameRate_Good": "J
+	"SystemStatus_FrameRate_MissedFrames": "Kimaradt k
+	"SystemStatus_FrameRate_now": "most",
+	"TestControllerTitle": "%1$s j
+	"TestController_NoController": "A tesztel
+	"VRDevConsole_ShowLogName": "Napl
+	"VRDevConsole_Showtimestamp": "Id
+	"VRDevFiles_Configuration": "Konfigur
+	"VRDevFiles_JSON": "JSON",
+	"VRDevFiles_Logging": "Napl
+	"VRDevFiles_PathHandles": "
+	"VRDevFiles_USBDevices": "USB-eszk
+	"VRMonitor_DevNav_Console": "Konzol",
+	"VRMonitor_DevNav_Files": "F
+	"VRMonitor_DevNav_RoomOverview": "Szoba
+	"VRMonitor_Nav_Developer": "Fejleszt
+	"VRMonitor_Nav_Help": "Seg
+	"VRMonitor_Nav_Overview": "
+	"VRMonitor_Nav_Settings": "Be
+	"VRMonitor_Overview_DeviceStatus_Title": "Eszk
+	"VRMonitor_Overview_Notifications_Title": "
+	"VRMonitor_Overview_QuickLinks_Knock": "Kopp-kopp",
+	"VRMonitor_Overview_QuickLinks_Knock_Desc": "A fejszetthaszn
+	"VRMonitor_Overview_QuickLinks_RoomSetup": "Szobabe
+	"VRMonitor_Overview_QuickLinks_RoomSetup_Desc": "Chaperone korl
+	"VRMonitor_Overview_QuickLinks_Title": "Gyors hivatkoz
+	"VRMonitor_Overview_QuickLinks_Tutorial": "SteamVR oktat
+	"VRMonitor_Overview_QuickLinks_Tutorial_Desc": "Tanuld meg VR fejszetted haszn
+	"VRMonitor_Overview_SystemStatus_Title": "Rendszer
+	"language": "hungarian",
+ %1$s f
+ %2$s",
+ (ms):",
+ / 3,5 mm-es csatlakoz
+ VR-hez az 
+ a botkorm
+ a fejszetthaszn
+ a jelenlegi glob
+ a sz
+ alkalmaz
+ automatikusan blokkolva lett.",
+ bekapcsol
+ csatlakoztat
+ csatlakoztatva.",
+ fejhallgat
+ fejszetted lesz.",
+ felold
+ figyelm
+ figyelme.",
+ friss
+ halv
+ hangot.",
+ keres
+ lenyom
+ mutat
+ nem k
+ sikertelen",
+ szerepe",
+ szervert Chromium fejleszt
+ teszi a glob
+ tesztel
+-kioszt
+-modelled megv
+. Folytasd a f
+S: egyszerre egy kieg
+bb %1$s alkalommal a kalibr
+bbfejlesztett energiagazd
+bbi SteamVR Otthon k
+bbi be
+bbi h
+bbi jel
+bbi k
+bbi predikci
+bbletmintav
+ben sim
+ben.",
+cs (k
+cs (ritka)",
+cs (s
+d be/ki",
+d enged
+d haszn
+d teljes
+dban van.",
+dik a t
+don m
+dtak, 
+en automatikusan be
+en olyan funkci
+g (m)",
+g bejel
+g eset
+g legal
+gban",
+ge: %1$s
+gebbi verzi
+gek enged
+gek mutat
+get...",
+ggeszt
+ghez 
+gi funkci
+gi kioszt
+gra cser
+gse",
+gyazott Chromium oldalakhoz. A Perforce buildeken mindig be van kapcsolva.",
+gyzetek",
+gyzetet a mozg
+hez az alkalmaz
+hez ind
+hez k
+hez.",
+hoz ezen alkalmaz
+hoz l
+hoz",
+hoz, vagy nyomj Meger
+hoz.",
+ig (vagy a SteamVR 
+ig) leveszi a fejszett f
+in nem t
+j hat
+jlok",
+jra kell ind
+jra megjelennek.",
+jraind
+jratelep
+jravet
+jszakai m
+jtsanak. Ha a kiv
+k automatikus ment
+k az interakci
+k el a SteamVR m
+k fel
+k finom
+k kezel
+k kikapcsol
+k megn
+k ment
+k, hogy mag
+k: 100%)",
+kat is t
+kat szintetiz
+kat, amikor a HMD kiterjesztett m
+kat. Az alkalmaz
+kat.",
+ke %1$s
+kekre 
+kelt l
+ken futtat
+ket.",
+kimenet",
+kkent
+kkenteni kell a kamera friss
+kkentsd az alkalmaz
+kok bet
+kra lehet hat
+kterekhez megfelel
+l (1 mp)",
+l a bal oldalt lev
+l a megfelel
+l a rendszerb
+l az alkalmaz
+l azok illeszt
+l elt
+l ennyi id
+l is felkelthet
+l kil
+l mutat
+l, ha a k
+lassz alkalmaz
+lassz h
+lassz lehet
+laszt
+lasztott eszk
+lasztott h
+lasztva",
+lata",
+ld az al
+ld meg ezt bekapcsolni.",
+lek mutat
+lek",
+let mutat
+let nem 
+let",
+letbe l
+leted k
+leted st
+leten",
+li egyidej
+lis alkalmaz
+lis be
+lis bevitel enged
+lis k
+lis val
+lisan cs
+lista men
+llapot minimaliz
+llapot",
+llapotellen
+lni egy m
+ltbeli 
+ltenek, vagy ha kikapcsoltad a SteamVR Otthon b
+ltoztasson h
+ltoztat
+ltoztatja a h
+ltoztatja a kupola m
+lusa",
+lve. Megjegyz
+lvezz virtu
+lyegz
+lyes elveszt
+lyezi a 3,5 mm-es csatlakoz
+lyezi a fejszettre renderel
+mezej
+mindig be
+mogat
+mogat, de a SteamVR nem tudja kezelni a k
+mogat, de a grafikus illeszt
+mogatott (az aszinkron 
+mogatott ezen a fejszetten, illetve rendszerkonfigur
+mogatott",
+mogatott.",
+mos esetben 
+n / illeszt
+n VR-ben",
+n automatikusan van kezelve, egyes alkalmaz
+n kereszt
+n lev
+n megnyomva.",
+n nem t
+n vez
+n, a ter
+n. Lehet, hogy a be
+nak enged
+nak fel
+nak megv
+nak z
+nek enged
+nek fel
+nek felh
+nes sz
+nes sziluettek",
+nhang)",
+ni)",
+nik, pr
+nnyal rendelkez
+nos",
+nti felbont
+nti k
+ntsd f
+ny SteamVR kieg
+ny alapj
+ny biztos
+ny fenntart
+ny kalibr
+ny sz
+ny tesztel
+ny-be
+ny-holts
+nybe l
+nyelhetik, illetve v
+nyerej
+nygrafikon mutat
+nyli).",
+nyon.",
+nyos 
+nyos HDCP-kompatibilit
+nyszab
+nyszer
+nyt m
+nyt ny
+p vet
+palkot
+pen",
+pes azonos
+pfriss
+pj ki a j
+pkock
+pkockaadatok ment
+pkockasz
+program nem 
+program-verzi
+programjaid naprak
+programjainak 
+r megn
+r torznak t
+ra be
+ra, amikor a fut
+ratlan m
+ret",
+rete",
+rhetsz a Rendszer gombot dupl
+rhez viszony
+rhez.",
+ri padl
+rikus l
+rizd, hogy fejszetted firmware-je 
+rja az automatikus be
+rleti jelleg
+rleti)",
+rmikor hozz
+rmilyen tov
+rnyezeted megv
+rnyezetek beszerz
+rnyezeteket, k
+rok k
+rokat",
+rolt m
+rolva van",
+rolva van.",
+rtelmezett t
+rtelmezett",
+s (Hz)",
+s / Le
+s a SteamVR-b
+s a VIVE HDMI hangon",
+s a Windows r
+s a f
+s a j
+s a predikci
+s alapbe
+s alkalmaz
+s az 
+s befejez
+s bekapcsolt kamer
+s bet
+s egy szorz
+s elfogad
+s elind
+s ellen
+s enged
+s ezen a videok
+s fel
+s felbont
+s feleakkora k
+s glob
+s grafikus illeszt
+s halad
+s haszn
+s hibakeres
+s kezel
+s kihat minden alkalmaz
+s kikapcsol
+s kil
+s megfelel
+s megjelen
+s miatt n
+s mindk
+s mutat
+s nem tudja tartani a l
+s rejt
+s sok m
+s szemt
+s szerkeszt
+s szobal
+s teljes
+s tesztel
+s-alkalmaz
+s-modelled megv
+s-szorz
+s...",
+s: A v
+s: a v
+sa OpenXR fut
+sa a SteamVR indul
+sa a SteamVR-b
+sa a fejmozg
+sa a fejszettben",
+sa a j
+sa a szoba sz
+sa ennyi id
+sa erre (max. FPS):",
+sa indul
+sa jelenleg <font color=#eeeeee>%1</font>.)",
+sa kikapcsolja az automatikus teljes
+sa mindegyik botkorm
+sa, amikor a SteamVR 
+sa.",
+sakor.",
+sbefagy
+se (b
+se a Rendszer gomb megnyom
+se a bemenetkioszt
+se a m
+se a virtu
+se ehhez az alkalmaz
+se ehhez:",
+se javasolt.",
+se kikapcsolja az aszinkron 
+se kil
+se lehet
+se, amikor a fejszett t
+se, amikor a sz
+se...",
+sed gyors vissza
+sek enged
+sek n
+sek vissza
+sek",
+sekor",
+sfelbont
+shez kapcsolj be egy j
+shoz",
+shoz. (A mozg
+shoz.",
+si adatok r
+si be
+si felbont
+si frekvenci
+si frekvencia (Hz)",
+si frekvencia fel
+si frekvencia megad
+si frekvencia t
+si frekvencia",
+si hanger
+si inform
+si kezel
+si lehet
+si min
+si sebess
+si st
+si viselked
+sidej
+sik USB-portot.",
+sik v
+sjelz
+skor a SteamVR 
+skor r
+skor",
+skor:",
+skori 
+sodperc",
+sok az alkalmaz
+sok f
+sok futtat
+sok ind
+sok kezel
+sok kiv
+sok megn
+sok szerkeszt
+sok",
+sok:",
+sokat 
+sokat.",
+soknak azonban j
+sokra",
+solata",
+son t
+sra. Egy konkr
+sra.",
+ssal, mint a dob
+sszeoml
+sszes SteamVR USB-eszk
+sszes SteamVR-ral kapcsolatos USB-eszk
+sszes felold
+sszess
+st a 2D-s alkalmaz
+st a SteamVR USB-eszk
+st az 
+st e kalibr
+st ehhez az alkalmaz
+st enn
+st sz
+st tapasztalsz, lehet, hogy cs
+st tisztas
+st, mik
+st. (Alap
+st.",
+sveszt
+szek-e.",
+szerfal a Rendszer gombon",
+szerfal beh
+szerfal fel van hozva.",
+szerfal m
+szerfal poz
+szerfal",
+szerfalon",
+szerfalon.",
+szleled, vagy nem tudod p
+szlelte azokat. Ellen
+t alkalmaz
+t ehhez az alkalmaz
+t haszn
+t szemhez %1$s",
+t tehet egy k
+t, a perif
+t, kikapcsolni a kamer
+t, vagy kipr
+t. Egyes h
+t. Ezt akkor fogod l
+ta)",
+tani a SteamVR-t.",
+tani a be
+tani a vezet
+tani ezt az alkalmaz
+tani.",
+telez
+temmel fog futni.",
+tereszt
+tett 
+tett, fix, lassabb 
+that USB-vel kapcsolatos fejszett-probl
+thatj
+tja a j
+tja az alkalmaz
+tja.",
+tlen",
+tni, amikor a j
+togasd meg az alkalmaz
+tok be
+tott 
+tott magass
+tott teljes
+tsd el a Steamet.",
+tsd el az 
+tsd vissza a fejszettedet. Ez jav
+ttekint
+tterek ezt a funkci
+tteret az alap
+tteret:",
+ttetsz
+tva",
+tvonalak",
+tvonalle
+v kioszt
+v mutat
+val ragad
+val val
+val",
+val.",
+vatos.",
+vol",
+z elt
+z kapcsolt kameraablakot, amikor a M
+z nincs jelen)",
+zben a sz
+zel",
+zepe a padl
+zepes j
+zepes t
+zepes",
+zepes)",
+zet k
+zet nem t
+zet st
+zet",
+zethez b
+zt ebb
+zvetlen m

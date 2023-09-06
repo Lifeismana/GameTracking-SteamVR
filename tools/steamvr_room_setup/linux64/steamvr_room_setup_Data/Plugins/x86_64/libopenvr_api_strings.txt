@@ -1,27 +1,16 @@
-
 %Y-%m-%d
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
-%p
 %s %s
-%s -
 %s%c%s
 ' is not a number.
-*
-*.*
-,
-..
 .config
-.tmp
 /e%s%s
 /proc
 /proc/%d/status
 /proc/%u/stat
 /tmp/.steam-sem-names
-:
->jm
 A valid JSON document must be either an array or an object value.
-All
 Another app was already launching (117)
 App info manager init failed (114)
 BCreateDirectory(char const*)
@@ -138,7 +127,6 @@ GLIBC_2.2.5
 GLIBC_2.3.2
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 GetEnglishStringForHmdError(vr::EVRInitError)
 GetEnglishStringForHmdError(vr::EVRInitError)::buf
 GetEnvironmentVariable(char const*)
@@ -578,13 +566,11 @@ Log(LogLevel, char const*, ...)
 Log(char const*, ...)
 LogIncremental(LogLevel, char const*, ...)
 LogIncremental(char const*, ...)
-MGiI
 MakeFileWriteable(char const*)
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-N
 N16SteamThreadTools7CThreadE
 N4Json10CharReader7FactoryE
 N4Json10CharReaderE
@@ -734,7 +720,6 @@ Prop_WillDriftInYaw_Bool
 ReapChildProcesses(int)
 ReleaseThreadHandle
 SecondsToSystemTicks(double)
-See
 SetEnvironmentVariable(char const*, char const*)
 SetMaxLogLevel(LogLevel)
 Settings manager init failed (118)
@@ -880,7 +865,6 @@ TrackedDeviceClass_GenericTracker
 TrackedDeviceClass_HMD
 TrackedDeviceClass_Invalid
 TrackedDeviceClass_TrackingReference
-USER
 Unable to connect to Oculus Runtime (1000)
 Unable to create path registry directory %s
 Unable to determine VR Path Registry filename
@@ -1327,22 +1311,9 @@ VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<ch
 VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
 WillLog(LogLevel)
 XDG_CONFIG_HOME
-[
-[.
 [System] No OS path for config available
 [System] No OS path for logs available
 [System] No Steam Path available.
-[]
-\"
-\\
-\b
-\f
-\n
-\r
-\t
-\u
-]
-_
 _DYNAMIC
 _GLOBAL_OFFSET_TABLE_
 _GLOBAL__sub_I_json_value.cpp
@@ -1513,7 +1484,6 @@ __xstat64
 __xstat64@@GLIBC_2.2.5
 __xstat@@GLIBC_2.2.5
 _edata
-_end
 _exit
 _exit@@GLIBC_2.2.5
 _findclose(long)
@@ -1537,7 +1507,6 @@ base_from_cb_data.isra.4
 base_from_object.isra.3
 basic_string::_S_construct null not valid
 basic_string::erase
-bin
 call_gmon_start
 char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
 char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag)
@@ -1599,7 +1568,6 @@ filetools.cpp
 fopen
 fopen@@GLIBC_2.2.5
 for detail.
-fork
 fork@@GLIBC_2.2.5
 fputs
 fputs@@GLIBC_2.2.5
@@ -1610,7 +1578,6 @@ frame_hdr_cache_head
 frame_heapsort
 fread
 fread@@GLIBC_2.2.5
-free
 free@@GLIBC_2.2.5
 fseek
 fseek@@GLIBC_2.2.5
@@ -1701,8 +1668,6 @@ linear_search_fdes
 linux64
 localtime
 localtime@@GLIBC_2.2.5
-log
-logs
 malloc
 malloc@@GLIBC_2.2.5
 marker.8723
@@ -1718,12 +1683,10 @@ mkdir
 mkdir@@GLIBC_2.2.5
 mktime
 mktime@@GLIBC_2.2.5
-modf
 modf@@GLIBC_2.2.5
 nanosleep
 nanosleep@@GLIBC_2.2.5
 nfinity
-null
 object_mutex
 once_regsizes.9087
 opendir
@@ -1789,7 +1752,6 @@ pthread_setschedparam
 pthread_setschedparam@@GLIBC_2.2.5
 pthread_setspecific
 pthread_setspecific@@GLIBC_2.2.5
-rb
 read_encoded_value_with_base
 read_sleb128
 readdir
@@ -1952,14 +1914,12 @@ systemBaseTicks
 systemSecondsPerTick
 systemTicksPerSecond
 systemTimeInitialized
-t
 terminator.8829
 threadtools.cpp
 time@@GLIBC_2.2.5
 timeutils.cpp
 toupper
 toupper@@GLIBC_2.2.5
-true
 typeinfo for Json::BuiltStyledStreamWriter
 typeinfo for Json::CharReader
 typeinfo for Json::CharReader::Factory
@@ -2064,9 +2024,5 @@ vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator
 vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
 vtable for std::basic_streambuf<char, std::char_traits<char> >
 vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
-w
 waitpid
 waitpid@@GLIBC_2.2.5
-wb
-{
-{}

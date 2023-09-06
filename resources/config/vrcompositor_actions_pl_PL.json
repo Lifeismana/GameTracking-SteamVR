@@ -1,53 +1,75 @@
-{
-	"language_tag": "pl_PL",
-	"/actions/system/in/OpenDashboard": "Otwórz panel główny",
-	"/actions/system/in/CloseDashboard": "Zamknij panel główny",
-	"/actions/system/in/ToggleDashboard": "Przełącz panel główny",
-	"/actions/system/in/TakeScreenshot": "Wykonaj zrzut ekranu",
-	"/actions/system/in/ToggleRoomView": "Przełącz widok pokoju",
-	"/actions/system/in/SystemButtonChord": "Tryb działań systemowych",
-	"/actions/system/in/ShowPowerMenu": "Pokaż menu zasilania",
-	"/actions/lasermouse/in/leftclick": "Kliknięcie lewym przyciskiem myszy",
-	"/actions/lasermouse/in/rightclick": "Kliknięcie prawym przyciskiem myszy",
-	"/actions/lasermouse/in/lockmouseposition": "Zablokuj pozycję myszy",
-	"/actions/lasermouse/in/home": "Powrót do strony głównej",
-	"/actions/lasermouse/in/back": "Powrót",
-	"/actions/lasermouse/in/moveright": "Ruch w prawo",
-	"/actions/lasermouse/in/moveup": "Ruch w górę",
-	"/actions/lasermouse/in/moveleft": "Ruch w lewo",
-	"/actions/lasermouse/in/movedown": "Ruch w dół",
-	"/actions/lasermouse/in/trackpadtouch": "Dotknięcie panelu dotykowego",
-	"/actions/lasermouse/in/trackpadvalue": "Ruch po panelu dotykowym",
-	"/actions/lasermouse/in/switchgamepadfocus": "Przełącz aktywny panel (gamepad)",
-	"/actions/lasermouse/in/trackpadscroll": "Przewijanie panelem",
-	"/actions/lasermouse/in/enter": "Wprowadzanie",
-	"/actions/lasermouse/in/pointer": "Wskaźnik myszy laserowej",
-	"/actions/scroll_discrete/in/scroll": "Przewiń panel",
-	"/actions/scroll_smooth/in/scroll": "Przewiń panel",
-	"/actions/lasermouse_secondary/in/switchlaserhand": "Uczyń aktywną ręką",
-	"/actions/dualanalog/in/rightclick": "Kliknięcie prawej klawiatury",
-	"/actions/dualanalog/in/leftclick": "Klinkięcie lewej klawiatury",
-	"/actions/dualanalog/in/righttouch": "Dotknięcie prawej klawiatury",
-	"/actions/dualanalog/in/lefttouch": "Dotknięcie lewej klawiatury",
-	"/actions/dualanalog/in/rightvalue": "Ruch prawej klawiatury",
-	"/actions/dualanalog/in/leftvalue": "Ruch lewej klawiatury",
-	"/actions/dualanalog/in/modeswitch1": "Pokaż wielkie litery",
-	"/actions/dualanalog/in/modeswitch2": "Pokaż symbole",
-	"/actions/dualanalog/in/cancel": "Zamknij klawiaturę",
-	"/actions/system/in/systembuttonchord": "Tryb działań systemowych",
-	"/actions/system/in/toggleroomview": "Przełącz widok pokoju",
-	"/actions/system/in/volumeup": "Zwiększ głośność",
-	"/actions/system/in/volumedown": "Zmniejsz głośność",
-	"/actions/system/in/toggledashboard": "Przełącz panel główny",
-	"/actions/system/in/showpowermenu": "Pokaż menu zasilania",
-	"/actions/system/in/takescreenshot": "Wykonaj zrzut ekranu",
-	"/actions/system/in/mutemicrophone": "Wycisz mikrofon",
-	"/actions/normal": "Normalne działanie",
 	"/actions/chord": "Kombinacje systemowe",
-	"/actions/lasermouse": "Mysz laserowa",
-	"/actions/lasermouse_secondary": "Pomocnicza mysz laserowa",
 	"/actions/dualanalog": "Wprowadzanie klawiaturowe",
-	"/actions/system": "Działania systemowe",
-	"/actions/scroll_discrete": "Przewijanie w stylu kółka myszy",
+	"/actions/dualanalog/in/cancel": "Zamknij klawiatur
+	"/actions/dualanalog/in/leftclick": "Klinki
+	"/actions/dualanalog/in/lefttouch": "Dotkni
+	"/actions/dualanalog/in/leftvalue": "Ruch lewej klawiatury",
+	"/actions/dualanalog/in/modeswitch1": "Poka
+	"/actions/dualanalog/in/modeswitch2": "Poka
+	"/actions/dualanalog/in/rightclick": "Klikni
+	"/actions/dualanalog/in/righttouch": "Dotkni
+	"/actions/dualanalog/in/rightvalue": "Ruch prawej klawiatury",
+	"/actions/lasermouse": "Mysz laserowa",
+	"/actions/lasermouse/in/back": "Powr
+	"/actions/lasermouse/in/enter": "Wprowadzanie",
+	"/actions/lasermouse/in/home": "Powr
+	"/actions/lasermouse/in/leftclick": "Klikni
+	"/actions/lasermouse/in/lockmouseposition": "Zablokuj pozycj
+	"/actions/lasermouse/in/movedown": "Ruch w d
+	"/actions/lasermouse/in/moveleft": "Ruch w lewo",
+	"/actions/lasermouse/in/moveright": "Ruch w prawo",
+	"/actions/lasermouse/in/moveup": "Ruch w g
+	"/actions/lasermouse/in/pointer": "Wska
+	"/actions/lasermouse/in/rightclick": "Klikni
+	"/actions/lasermouse/in/switchgamepadfocus": "Prze
+	"/actions/lasermouse/in/trackpadscroll": "Przewijanie panelem",
+	"/actions/lasermouse/in/trackpadtouch": "Dotkni
+	"/actions/lasermouse/in/trackpadvalue": "Ruch po panelu dotykowym",
+	"/actions/lasermouse_secondary": "Pomocnicza mysz laserowa",
+	"/actions/lasermouse_secondary/in/switchlaserhand": "Uczy
+	"/actions/normal": "Normalne dzia
+	"/actions/scroll_discrete": "Przewijanie w stylu k
+	"/actions/scroll_discrete/in/scroll": "Przewi
 	"/actions/scroll_smooth": "Przewijanie w stylu panelu dotykowego"
-}
+	"/actions/scroll_smooth/in/scroll": "Przewi
+	"/actions/system": "Dzia
+	"/actions/system/in/CloseDashboard": "Zamknij panel g
+	"/actions/system/in/OpenDashboard": "Otw
+	"/actions/system/in/ShowPowerMenu": "Poka
+	"/actions/system/in/SystemButtonChord": "Tryb dzia
+	"/actions/system/in/TakeScreenshot": "Wykonaj zrzut ekranu",
+	"/actions/system/in/ToggleDashboard": "Prze
+	"/actions/system/in/ToggleRoomView": "Prze
+	"/actions/system/in/mutemicrophone": "Wycisz mikrofon",
+	"/actions/system/in/showpowermenu": "Poka
+	"/actions/system/in/systembuttonchord": "Tryb dzia
+	"/actions/system/in/takescreenshot": "Wykonaj zrzut ekranu",
+	"/actions/system/in/toggledashboard": "Prze
+	"/actions/system/in/toggleroomview": "Prze
+	"/actions/system/in/volumedown": "Zmniejsz g
+	"/actions/system/in/volumeup": "Zwi
+	"language_tag": "pl_PL",
+ aktywn
+ menu zasilania",
+ myszy",
+ panel",
+ symbole",
+ systemowych",
+ wielkie litery",
+ania systemowe",
+anie",
+cie lewej klawiatury",
+cie lewym przyciskiem myszy",
+cie panelu dotykowego",
+cie prawej klawiatury",
+cie prawym przyciskiem myszy",
+cz aktywny panel (gamepad)",
+cz panel g
+cz widok pokoju",
+ka myszy",
+ksz g
+nik myszy laserowej",
+rz panel g
+t do strony g
+wnej",
+wny",

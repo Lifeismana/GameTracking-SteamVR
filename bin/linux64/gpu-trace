@@ -1,0 +1,284 @@
+#!/bin/bash
+
+set -e
+set -o pipefail
+set -o nounset
+
+function pVerbose () {
+    if [ "${VERBOSE}" == "1" ]; then
+        echo $@
+    fi
+}
+
+function pErr () {
+    local msg="$@"
+
+    if [ "${GUI}" == "1" ]; then
+        notify-send $(basename $0) "$msg" --icon=dialog-error
+    fi
+
+    echo -e "$msg"
+}
+
+function die () {
+    if [ $# -ne 0 ]; then
+        pErr $@
+    fi
+    exit 1
+}
+
+function pushTrap () {
+    local newHandler=$1; shift;
+    local signals=$@;
+
+    for signal in $signals; do
+        local currHandler=$(trap -p $signal)
+        currHandler=${currHandler#*\'}
+        currHandler=${currHandler%\' $signal}
+
+        trap "$newHandler; $currHandler" $signal
+    done
+}
+
+function waitForProcess () {
+    local pid="$1"; shift;
+    local pidFile="/proc/$pid"
+
+    if [ ! -e ${pidFile} ]; then
+        pErr "Could not find process: $pid. Did it already exit?"
+        return
+    fi
+
+    pVerbose "Waiting for process: $pid"
+
+    # Can't do event based wait for PID unless it is a child PID
+    # We are most likely interested in an external PID
+    while [ -e /proc/$pid ]; do
+        sleep ${PID_POLL_PRECISION};
+    done
+
+    pVerbose "Finished waiting for process: $pid"
+}
+
+# Accumulator for root commands
+function runAsRoot () {
+    echo "$@" >> "${ROOT_COMMANDS_FILE}"
+}
+
+# One shot execution of root commands
+function runAsRootFlush () {
+    if [ -e ${ROOT_COMMANDS_FILE} ]; then
+        xterm -e "echo Commands to be executed for SteamVR GPU profiling setup:; \
+            cat ${ROOT_COMMANDS_FILE}; \
+            echo Enter your password to setup SteamVR GPU profiling:; \
+            sudo bash ${ROOT_COMMANDS_FILE};"
+            echo SteamVR GPU profiling setup complete; \
+    fi
+
+    # Trim
+    echo > "${ROOT_COMMANDS_FILE}"
+}
+
+# Set the suid bit for path
+function setSuid () {
+    local path="$1"; shift;
+    if [ ! -u "$path" ]; then
+        pVerbose "Setting $path as suid"
+        runAsRoot chmod 4755 "$path"
+    fi
+}
+
+# Make root take ownership of path
+function rootChown () {
+    local path="$1"; shift;
+    local owner="$(stat -c %U ${path})"
+
+    if [ "${owner}" != "root" ]; then
+        pVerbose "Setting $path ownership root:root"
+        runAsRoot chown root:root ${path}
+    fi
+}
+
+# helper variables
+UNINIT="UNINITMAGIC"
+TRACEFS_ROOT=""
+export TMPDIR="$(mktemp -d)"
+ROOT_COMMANDS_FILE="$(mktemp)"
+pushTrap "rm -rf $TMPDIR" EXIT
+
+# parameter defaults
+VERBOSE=0
+REPORT_SIG=10
+PID="${UNINIT}"
+PID_POLL_PRECISION="0.1"
+TRACE_OUTPUT="steamvr-trace.dat"
+GUI=0
+TRACE_CMD="./trace-cmd" # trace-cmd with fixes from mikesart (don't use system version)
+GPUVIS_CMD="./gpuvis"
+CHMOD_TRACE_MARKER_CMD="./chmod_trace_marker"
+
+function printUsage() {
+    pErr "Usage: $(basename $0) [options]"
+    pErr
+    pErr "Options:"
+    pErr "    -p, --wait-for-pid <pid>  Trace for the lifetime of <pid>"
+    pErr "    -s, --wait-for-signal <n> Produce a report whenever signal <n> is received (default: ${REPORT_SIG})"
+    pErr "        --gpuvis <path>       Specify gpuvis binary path"
+    pErr "    -o, --output <path>       Specify output file location"
+    pErr "    -g, --gui                 Run in a GUI friendly environment"
+    pErr "    -v, --verbose             Verbose Output"
+    pErr "    -h, --help                Print this help menu and exit"
+}
+
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        -v|--verbose) VERBOSE=1; shift ;;
+        -p|--wait-for-pid) PID=$2; shift 2 ;;
+        -s|--wait-for-signal) REPORT_SIG=$2; shift 2 ;;
+        -o|--output) TRACE_OUTPUT="$2"; shift 2 ;;
+        -g|--gui) GUI=1; shift ;;
+        --gpuvis) GPUVIS_CMD=$2; shift 2 ;;
+        -h|--help) printUsage; exit ;;
+        *) echo "Unknown option $1"; printUsage; die;;
+    esac
+done
+
+if [ "$PID" == "${UNINIT}" ]; then
+    printUsage
+    die
+fi
+
+rm ${ROOT_COMMANDS_FILE}
+
+function startTrace () {
+
+    local traceEvents=""
+
+    pVerbose "Starting trace"
+
+    # https://github.com/mikesart/gpuvis/wiki/TechDocs-Linux-Scheduler
+    traceEvents+=" -e sched:sched_switch"
+    traceEvents+=" -e sched:sched_process_fork"
+    traceEvents+=" -e sched:sched_process_exec"
+    traceEvents+=" -e sched:sched_process_exit"
+
+    traceEvents+=" -e drm:drm_vblank_event"
+    traceEvents+=" -e drm:drm_vblank_event_queued"
+    traceEvents+=" -e drm:drm_vblank_event_delivered"
+
+    # https://github.com/mikesart/gpuvis/wiki/TechDocs-AMDGpu
+    traceEvents+=" -e amdgpu:amdgpu_vm_flush"
+    traceEvents+=" -e amdgpu:amdgpu_cs_ioctl"
+    traceEvents+=" -e amdgpu:amdgpu_sched_run_job"
+    traceEvents+=" -e amdgpu:amdgpu_ttm_bo_move"
+    traceEvents+=" -e *fence:*fence_signaled"
+
+    # https://github.com/mikesart/gpuvis/wiki/TechDocs-Intel
+    #
+    # NOTE: the i915_gem_request_submit, i915_gem_request_in, i915_gem_request_out
+    # tracepoints require the CONFIG_DRM_I915_LOW_LEVEL_TRACEPOINTS Kconfig option to
+    # be enabled.
+    traceEvents+=" -e i915:i915_flip_request"
+    traceEvents+=" -e i915:i915_flip_complete"
+    traceEvents+=" -e i915:intel_gpu_freq_change"
+    traceEvents+=" -e i915:i915_gem_request_add"
+    traceEvents+=" -e i915:i915_gem_request_submit"
+    traceEvents+=" -e i915:i915_gem_request_in"
+    traceEvents+=" -e i915:i915_gem_request_out"
+    traceEvents+=" -e i915:intel_engine_notify"
+    traceEvents+=" -e i915:i915_gem_request_wait_begin"
+    traceEvents+=" -e i915:i915_gem_request_wait_end"
+
+    ${TRACE_CMD} reset
+    ${TRACE_CMD} start -b 8000 -D -i ${traceEvents}
+}
+
+function stopTrace () {
+    local tracingOn="$(cat ${TRACEFS_ROOT}/tracing_on)"
+
+    if [ "${tracingOn}" != "1" ]; then
+        return
+    fi
+
+    pVerbose "Stopping trace"
+
+    ${TRACE_CMD} reset
+    ${TRACE_CMD} snapshot -f
+}
+
+function captureTrace () {
+    pVerbose "Capturing trace"
+
+    ${TRACE_CMD} stop
+    ${TRACE_CMD} extract -k -o ${TRACE_OUTPUT}
+    ${TRACE_CMD} clear
+    ${TRACE_CMD} restart
+}
+
+function reportTrace () {
+    pVerbose "Reporting trace"
+    ${GPUVIS_CMD} ${TRACE_OUTPUT} &
+}
+
+function printTraceStatus () {
+    local owner="$(stat -c %U ${TRACE_CMD})"
+
+    if [ -u "${TRACE_CMD}" ]; then
+        pVerbose "${TRACE_CMD} setuid set for '$owner'"
+    else
+        pErr "${TRACE_CMD} setuid not set"
+    fi
+
+    if egrep -q "tracefs" /proc/mounts; then
+        pVerbose "${TRACEFS_ROOT} mounted"
+    else
+        pErr "${TRACEFS_ROOT} not mounted"
+    fi
+
+    if [ -w "${TRACEFS_ROOT}/trace_marker" ]; then
+        pVerbose "${TRACEFS_ROOT}/trace_marker writable"
+    else
+        pErr "${TRACEFS_ROOT}/trace_marker not writable"
+    fi
+
+    if [ "${VERBOSE}" == "1" ]; then
+        ${TRACE_CMD} stat
+    fi
+}
+
+function setupTraceCmd () {
+    local chmodRetries=10
+
+    rootChown "${TRACE_CMD}"
+    setSuid "${TRACE_CMD}"
+
+    rootChown "${CHMOD_TRACE_MARKER_CMD}"
+    setSuid "${CHMOD_TRACE_MARKER_CMD}"
+
+    runAsRootFlush
+
+    # Invoking trace-cmd will mount tracefs if not mounted
+    ${TRACE_CMD} stat > /dev/null
+    TRACEFS_ROOT=$(mount | grep tracefs | head -1 | awk '{ print $3 }')
+
+    # CHMOD_TRACE_MARKER_CMD might need a few tries to setup
+    # the nested mount permissions
+    while [ ! -r "${TRACEFS_ROOT}/trace_marker" ]; do
+        ${CHMOD_TRACE_MARKER_CMD} ${TRACEFS_ROOT}
+        chmodRetries=$[$chmodRetries - 1]
+        if [ "$chmodRetries" == "0" ]; then
+            break
+        fi
+    done
+
+    printTraceStatus ${TRACEFS_ROOT}
+}
+
+setupTraceCmd
+
+pushTrap "captureTrace; reportTrace" $REPORT_SIG
+pushTrap "stopTrace" EXIT
+startTrace
+
+# Keep tracing as long as the specified PID is alive
+waitForProcess $PID

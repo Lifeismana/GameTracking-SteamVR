@@ -1,383 +1,180 @@
-:root
-{
+		flex-direction: column;
+	--framerate-dropped-color: rgb(255,42,25);
+	--framerate-mispresented-color: rgb(178,113,0);
+	--framerate-presented-color: rgb(102,137,174); /*rgb(181,204,20);*/
+	--framerate-presented-dirty-color: rgb(255,161,0);
+	--log-color-vrclient-steam: rgb(204, 204, 204);
+	--log-color-vrclient-vrcompositor: rgb(255, 188, 218);
+	--log-color-vrclient-vrdashboard: rgb(255, 218, 188);
+	--log-color-vrclient-vrmonitor: rgb(255, 240, 188);
+	--log-color-vrclient-vrwebhelper: rgb(204, 204, 204);
+	--log-color-vrcompositor: rgb(188, 248, 255);
+	--log-color-vrdashboard: rgb(228, 188, 255);
+	--log-color-vrmonitor: rgb(188, 255, 214);
+	--log-color-vrserver: rgb(188, 199, 255);
 	--roomview-border-color: rgb(102,137,174);
 	--roomview-border-width: .7rem;
 	--roomview-update-rate: 300ms;
-
-	--framerate-presented-color: rgb(102,137,174); /*rgb(181,204,20);*/
-	--framerate-dropped-color: rgb(255,42,25);
-	--framerate-mispresented-color: rgb(178,113,0);
-	--framerate-presented-dirty-color: rgb(255,161,0);
-
-	--log-color-vrserver: rgb(188, 199, 255);
-	--log-color-vrcompositor: rgb(188, 248, 255);
-	--log-color-vrclient-vrcompositor: rgb(255, 188, 218);
-	--log-color-vrdashboard: rgb(228, 188, 255);
-	--log-color-vrclient-vrdashboard: rgb(255, 218, 188);
-	--log-color-vrmonitor: rgb(188, 255, 214);
-	--log-color-vrclient-vrmonitor: rgb(255, 240, 188);
-	--log-color-vrclient-steam: rgb(204, 204, 204);
-	--log-color-vrclient-vrwebhelper: rgb(204, 204, 204);
-
-}
-
-#root
-{
-	height: auto;
-}
-
-.FullPage
-{
-	width: 100%;
-	height: 100%;
-}
-
-.FullWidth
-{
-	width: 100%;
-}
-
-.ModalHeader
-{
-	width: 100%;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 2rem;
-}
-
-.AllCaps
-{
-	text-transform: uppercase;
-}
-
-.FlexFullWidthRowCentered
-{
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	flex-direction: row;
-}
-
-.DeviceStatusRow {
-	display: flex;
-	flex-direction: row;
-	margin: 0.2rem 0 0.2rem 0.5rem;
-	color: var(--text-color);
-}
-
-
-.DeviceStatusRow.Disconnected .Label {
-	color: var(--disabledtext);
-}
-
-.DeviceStatusRow .StateIcon {
-	width: 2.5rem;
-	margin-right: 0.3rem;
-}
-
-.DeviceStatusRow .StateIcon img {
-	width: 100%;
-	max-height: 2.5rem;
-	max-width: 2.5rem;
-}
-
-
-.DeviceStatusRow .BatteryIcon {
-	width: 1rem;
-	margin-right: 0.3rem;
-}
-
-.DeviceStatusRow .BatteryIcon img {
-	width: 100%;
-}
-
-.DeviceStatusRow .Actions {
-
-	text-align: right;
-}
-
-.DeviceStatusRow .Actions > div {
-	display: inline-block;
-}
-
-.DeviceStatusRow .Status {
-	width: 100%;
-}
-
-.Label.Description
-{
-	font-size: 0.8rem;
-	color: var(--descriptiontext);
-}
-
-.Label.Title
-{
-	font-size: 1.5rem;
-	color: var(--descriptiontext);
-}
-
-.Label.SubLabel {
-	font-size: 0.7rem;
-}
-
-.StatusItem {
-
-	flex: 1 1;
-	margin: 1em
-}
-
-.QuickLink {
-	margin: 0.2rem 0 0.2rem 1rem;
+	.FlexRow.ResponsiveColumn {
+	/*border: 0.05em solid var(--framerate-presented-color);*/
 	align-self: auto;
-
-}
-
-.SystemStateRow  {
-	display: flex;
-	flex-direction: row;
-	margin: 0.2rem 0 0.2rem 0.5rem;
-	color: var(--text-color);
-}
-
-.SystemStateRow.Disconnected {
-	color: var(--disabledtext);
-}
-
-.SystemStateRow .StateIcon {
-	width: 1rem;
-	margin-right: 0.5rem;
-}
-
-.SystemStateRow .StateIcon img {
-	width: 100%;
-}
-
-.FrameGraph {
-	height: 1rem;
-}
-
-.FrameGraph .Frame {
-	background-color: green;
-	height: 0.3rem;
-	flex: 1 1;
 	align-self: flex-end;
-	border-radius: 0.2rem;
-
-}
-
-.FrameGraph .Frame.Missed {
+	background-color: green;
 	background-color: red;
-	height: 1rem;
-}
-
-.NotificationRow {
+	border-left: 0.05em solid var(--disabledtext);
+	border-left: none;
+	border-radius: 0.2rem;
+	color: #fff;
+	color: var(--bindinglistheaders);
+	color: var(--descriptiontext);
+	color: var(--disabledtext);
+	color: var(--framerate-mispresented-color);
+	color: var(--framerate-presented-color);
+	color: var(--log-color-vrclient-steam);
+	color: var(--log-color-vrclient-vrcompositor);
+	color: var(--log-color-vrclient-vrdashboard);
+	color: var(--log-color-vrclient-vrmonitor);
+	color: var(--log-color-vrclient-vrwebhelper);
+	color: var(--log-color-vrcompositor);
+	color: var(--log-color-vrdashboard);
+	color: var(--log-color-vrmonitor);
+	color: var(--log-color-vrserver);
+	color: var(--text-color);
 	display: flex;
+	display: inline-block;
 	flex-direction: column;
-}
-
-.NotificationRow .NotificationDescription {
-	color: var(--bindinglistheaders);
-	margin-top: 0.2rem;
-}
-
-.NotificationRow .NotificationTimestamp {
-	color: var(--bindinglistheaders);
-	margin-top: 0.4rem;
-}
-
-.RoomOverviewContainer {
-
-	padding: 1rem;
-	position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-	height: calc(100% - 15rem);
-
-
-
-}
-
-.RoomOverviewContainer > .ImageCenterer {
-	position: absolute;
-
-}
-
-.RoomOverviewContainer > .ImageCenterer > img {
-	transform: translate3d(-50%, -50%, 0);
-}
-
-.RoomOverview {
-	width: 100%;
+	flex-direction: row;
+	flex-shrink: 0;
+	flex: 1 1;
+	font-size: 0.7em;
+	font-size: 0.7rem;
+	font-size: 0.8rem;
+	font-size: 1.5rem;
+	font-size: 2rem;
+	height: 0.3rem;
 	height: 100%;
-}
-
-
-
-.RoomOverview .ChaperoneBoundary {
-	stroke-width: var(--roomview-border-width);
-	stroke: var(--roomview-border-color);
+	height: 15px;
+	height: 1rem;
+	height: 2em;
+	height: auto;
+	height: calc(100% - 15rem);
+	justify-content: center;
+	left: 0;
+	left: 50%;
+	left: auto;
+	margin-left: 3rem;
+	margin-right: 0.3rem;
+	margin-right: 0.5rem;
+	margin-top: 0.2rem;
+	margin-top: 0.4rem;
+	margin: 0.2rem 0 0.2rem 0.5rem;
+	margin: 0.2rem 0 0.2rem 1rem;
+	margin: 0.5em;
+	margin: 1em
+	max-height: 2.5rem;
+	max-height: 80vh;
+	max-width: 2.5rem;
+	overflow-y: scroll;
+	padding-left: 0.4em;
+	padding: 0 1rem;
+	padding: 0.5em;
+	padding: 1rem;
+	padding: 2em;
+	position: absolute;
+	position: fixed;
+	position: relative;
+	right: 0;
 	stroke-linecap: round;
-}
-
-.RoomOverview .DirectionLine {
 	stroke-width: var(--roomview-border-width);
 	stroke: var(--bindinglistcurrentsectionborder);
-	stroke-linecap: round;
-}
-
-.FrameDroppedLine {
 	stroke: var(--framerate-dropped-color);
-}
-
-.FrameMispresentedLine {
 	stroke: var(--framerate-mispresented-color);
-}
-
-.FramePresentedLine {
 	stroke: var(--framerate-presented-color);
-}
-
-.FramePresentedLine.Dirty {
 	stroke: var(--framerate-presented-dirty-color);
-}
-
-.FramerateWidget {
-	width: 100%;
-	height: 2em;
-}
-
-.FramerateWidgetContainer {
-	padding: 0.5em;
-	margin: 0.5em;
-	/*border: 0.05em solid var(--framerate-presented-color);*/
-}
-
-.FramerateWidgetContainer .FrameRateLabels {
-	position: relative;
-	height: 15px;
-}
-
-.FramerateWidgetContainer .FrameRateLabels > div {
-	border-left: 0.05em solid var(--disabledtext);
-	color: var(--disabledtext);
-	font-size: 0.7em;
-	position: absolute;
+	stroke: var(--roomview-border-color);
+	text-align: center;
+	text-align: right;
+	text-transform: uppercase;
 	top: 0;
-	padding-left: 0.4em;
-
-}
-
-.FramerateWidgetContainer .FrameRateLabels .sec60 {
-	left: 0;
-}
-
-.FramerateWidgetContainer .FrameRateLabels .sec30 {
-	left: 50%;
-}
-
-.FramerateWidgetContainer .FrameRateLabels .secnow {
-	right: 0;
-	left: auto;
-	border-left: none;
-
-}
-
-
-.LogLine {
-	color: #fff;
-	display: flex;
-	flex-direction: row;
-}
-
-.ConsoleOptions > div {
-	padding: 0 1rem;
-}
-
-.ConsoleContainer {
-	overflow-y: scroll;
-	padding: 1rem;
-	position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-	height: calc(100% - 15rem);
-	word-break: break-all;
+	transform: translate3d(-50%, -50%, 0);
 	user-select: text;
-}
-
-.LogSource {
+	width: 100%;
 	width: 11em;
-	flex-shrink: 0;
-}
-.LogTime {
 	width: 16em;
-	flex-shrink: 0;
-}
-
-.LogLine.vrserver {
-	color: var(--log-color-vrserver);
-}
-.LogLine.vrcompositor {
-	color: var(--log-color-vrcompositor);
-}
-.LogLine.vrclient_vrcompositor {
-	color: var(--log-color-vrclient-vrcompositor);
-}
-.LogLine.vrdashboard {
-	color: var(--log-color-vrdashboard);
-}
-.LogLine.vrclient_vrdashboard {
-	color: var(--log-color-vrclient-vrdashboard);
-}
-.LogLine.vrmonitor {
-	color: var(--log-color-vrmonitor);
-}
-.LogLine.vrclient_vrmonitor {
-	color: var(--log-color-vrclient-vrmonitor);
-}
-.LogLine.vrclient_Steam {
-	color: var(--log-color-vrclient-steam);
-}
-.LogLine.vrclient_vrwebhelper {
-	color: var(--log-color-vrclient-vrwebhelper);
-}
-
-.DevFiles {
-	padding: 2em;
-}
-
-.DevFiles a, .DevFiles a:visited, .DevFiles a:active {
+	width: 1rem;
+	width: 2.5rem;
+	word-break: break-all;
+    bottom: 0;
+    left: 0;
+    right: 0;
  color: inherit;
-}
-
-.Label.FramerateMissed {
-	color: var(--framerate-mispresented-color);
-}
-
+#root
+.AllCaps
+.ConsoleContainer {
+.ConsoleOptions > div {
+.DevFiles a, .DevFiles a:visited, .DevFiles a:active {
+.DevFiles {
+.DeviceStatusRow .Actions > div {
+.DeviceStatusRow .Actions {
+.DeviceStatusRow .BatteryIcon img {
+.DeviceStatusRow .BatteryIcon {
+.DeviceStatusRow .StateIcon img {
+.DeviceStatusRow .StateIcon {
+.DeviceStatusRow .Status {
+.DeviceStatusRow {
+.DeviceStatusRow.Disconnected .Label {
+.FlexFullWidthRowCentered
+.FrameDroppedLine {
+.FrameGraph .Frame {
+.FrameGraph .Frame.Missed {
+.FrameGraph {
+.FrameMispresentedLine {
+.FramePresentedLine {
+.FramePresentedLine.Dirty {
+.FramerateWidget {
+.FramerateWidgetContainer .FrameRateLabels .sec30 {
+.FramerateWidgetContainer .FrameRateLabels .sec60 {
+.FramerateWidgetContainer .FrameRateLabels .secnow {
+.FramerateWidgetContainer .FrameRateLabels > div {
+.FramerateWidgetContainer .FrameRateLabels {
+.FramerateWidgetContainer {
+.FullPage
+.FullWidth
+.Label.Description
 .Label.FramerateGood {
-	color: var(--framerate-presented-color);
-}
-
-
+.Label.FramerateMissed {
+.Label.SubLabel {
+.Label.Title
+.LogLine {
+.LogLine.vrclient_Steam {
+.LogLine.vrclient_vrcompositor {
+.LogLine.vrclient_vrdashboard {
+.LogLine.vrclient_vrmonitor {
+.LogLine.vrclient_vrwebhelper {
+.LogLine.vrcompositor {
+.LogLine.vrdashboard {
+.LogLine.vrmonitor {
+.LogLine.vrserver {
+.LogSource {
+.LogTime {
+.ModalHeader
+.NotificationRow .NotificationDescription {
+.NotificationRow .NotificationTimestamp {
+.NotificationRow {
+.QuickLink {
+.RoomOverview .ChaperoneBoundary {
+.RoomOverview .DirectionLine {
+.RoomOverview {
+.RoomOverviewContainer > .ImageCenterer > img {
+.RoomOverviewContainer > .ImageCenterer {
+.RoomOverviewContainer {
+.StatusItem {
+.SystemStateRow  {
+.SystemStateRow .StateIcon img {
+.SystemStateRow .StateIcon {
+.SystemStateRow.Disconnected {
 .USBChild {
-	margin-left: 3rem;
-}
-
 .USBTopologyContainer {
-	max-height: 80vh;
-	overflow-y: scroll;
-}
-
-
 /* Responsive */
-
-
-
+:root
 @media screen and ( max-width: 660px )
-{
-	.FlexRow.ResponsiveColumn {
-		flex-direction: column;
-	}
-
-}

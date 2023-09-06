@@ -1,370 +1,610 @@
-{
-	"language": "finnish",
-	"VRMonitor_Nav_Overview": "Yleiskatsaus",
-	"VRMonitor_Nav_Settings": "Asetukset",
-	"VRMonitor_Nav_Help": "Tuki",
-	"VRMonitor_Nav_Developer": "Kehittäjä",
-	"Settings_ControllerSettings": "Ohjainasetukset",
-	"Settings_Controller_ShowBindingCallouts": "Näytä ohjainten määritykset",
-	"Settings_Controller_ShowBindingCalloutsInVR": "Näytä ohjainten määritykset VR:ssä",
-	"Settings_Controller_AdvancedControllerSettings": "Hallinnoi ohjainten määrityksiä",
-	"Settings_Controller_ControllerBindingPrompt": "Ohjaimen määritykset",
-	"Settings_Controller_DefaultBinding": "Oletus",
-	"Settings_Controller_CustomBinding": "Mukautettu",
-	"Settings_ThumbstickDeadzone_Text": "Ohjainsauvan kuollut alue",
-	"Settings_ThumbstickDeadzone_Desc": "Säädä kaikkien ohjainsauvojen kuollutta aluetta.",
-	"Settings_DominantHand": "Dominoiva käsi",
-	"Settings_DominantHand_Left": "Vasen",
-	"Settings_DominantHand_Right": "Oikea",
-	"Settings_Loading_CurrentBinding": "Ladataan nykyisiä määrityksiä...",
-	"Settings_NeedSteamTo_ViewAndEditBindings": "Käynnistä Steam, jotta voit katsoa ja muokata määrityksiä.",
-	"VRMonitor_Overview_SystemStatus_Title": "Järjestelmän tila",
-	"VRMonitor_Overview_DeviceStatus_Title": "Laitteen tila",
-	"VRMonitor_Overview_Notifications_Title": "Ilmoitukset",
-	"VRMonitor_Overview_QuickLinks_Title": "Pikalinkit",
-	"VRMonitor_Overview_QuickLinks_Knock": "Kop kop",
-	"VRMonitor_Overview_QuickLinks_Knock_Desc": "Herätä VR-lasien käyttäjän huomio",
-	"VRMonitor_Overview_QuickLinks_RoomSetup": "Huoneen asetukset",
-	"VRMonitor_Overview_QuickLinks_RoomSetup_Desc": "Määritä virtuaaliesteen rajat",
-	"VRMonitor_Overview_QuickLinks_Tutorial": "SteamVR-tutoriaali",
-	"VRMonitor_Overview_QuickLinks_Tutorial_Desc": "Opettele käyttämään VR-laseja",
-	"SystemStatus_FrameRate_Good": "Hyvä kuvataajuus",
-	"SystemStatus_FrameRate_MissedFrames": "Puuttuvia ruutuja",
-	"SystemStatus_FrameRate_now": "nyt",
-	"SystemStatus_FrameRate_7sec": "7 sekuntia",
-	"SystemStatus_FrameRate_15sec": "15 sekuntia",
-	"VRDevFiles_PathHandles": "Liikeradan käsittely",
-	"VRDevFiles_JSON": "JSON",
-	"VRDevFiles_Logging": "Kirjautuminen",
-	"VRDevFiles_Configuration": "Määritys",
-	"VRDevFiles_USBDevices": "USB-laitteet",
-	"VRDevConsole_ShowLogName": "Näytä lokinimi",
-	"VRDevConsole_Showtimestamp": "Näytä aikaleima",
-	"VRMonitor_DevNav_Console": "Konsoli",
-	"VRMonitor_DevNav_RoomOverview": "Yleiskuva huoneesta",
-	"VRMonitor_DevNav_Files": "Tiedostot",
-	"Settings_SelectAnOption": "Valitse vaihtoehto...",
-	"Settings_BluetoothSettings": "Bluetooth-asetukset",
-	"Settings_BaseStationSettings": "Tukiaseman asetukset",
-	"Settings_Audio_Playback_Automatic_Label": "Äänen ulostulolaite",
-	"Settings_Audio_Recording_Automatic_Label": "Äänen sisääntulolaite",
-	"Settings_Audio_Headset": "VR-lasit",
-	"Settings_Audio_Manual": "Manuaalinen",
-	"Settings_Audio_Mirroring_Label": "Äänen peilaus",
-	"Settings_Audio_Mirroring_Independent_Volume_Label": "Kontrolloi äänen peilauksen äänenvoimakkuutta erikseen (beta)",
-	"Settings_Audio_Default": "Järjestelmän oletus",
-	"Settings_Audio_Current_Setting_Unknown": "(Valittua laitetta ei pystytä havaitsemaan)",
-	"Settings_Audio_HDMIGain": "VIVE HDMI -äänen vahvistuksen vähennys",
-	"Settings_Audio_SpeakerJackOutput": "Kaiutin/kuulokeliitäntä: 3,5 mm",
-	"Settings_Audio_SpeakerJackOutput_Title": "Mahdollistaa äänen yhtäaikaa 3,5-millisen liitännän ja off-ear-kaiuttimien kautta.",
-	"Settings_Audio_Single": "Yksittäinen",
-	"Settings_Audio_Dual": "Pari",
-	"Settings_Audio_MicMonitor": "Mikrofoniseuranta (sivuääni)",
-	"Settings_Audio_Active": "Aktiivinen",
-	"Settings_Audio_Muted": "Mykistetty",
-	"Settings_SectionTitle_Advanced": "Lisäasetukset",
-	"Settings_SectionTitle_Developer": "Kehittäjä",
-	"Settings_SectionTitle_Dashboard": "Työpöytä",
-	"Settings_SectionTitle_General": "Yleistä",
-	"Settings_SectionTitle_Applications": "Sovellukset",
-	"Settings_SectionTitle_Audio": "Ääni",
-	"Settings_SectionTitle_Video": "Video",
-	"Settings_SectionTitle_Camera": "Kamera",
-	"Settings_SectionTitle_Bluetooth": "Bluetooth",
-	"Settings_SectionTitle_Power": "Virta",
-	"Settings_SectionTitle_StartupShutdown": "Käynnistys / sammutus",
-	"Settings_SectionTitle_Home": "Koti",
-	"Settings_SectionTitle_PlayArea": "Pelialue",
-	"Settings_SectionTitle_BaseStation": "Tukiasemat",
-	"Settings_SectionTitle_Controller": "Ohjaimet",
 	"Advanced_AllowSavingOfTimingInfo": "Salli ajoitustietojen tallennus",
+	"Advanced_Appearance": "Ulkoasu",
 	"Advanced_AutoSaveTimingInfoOnExit": "Tallenna ajoitustiedot automaattisesti poistuttaessa",
-	"Settings_EnableWebHelperDebugger": "Ota käyttöön Web Helper -virheenkorjaus",
-	"Settings_EnableWebHelperDebuggerDesc": "Käynnistää virheenkorjauspalvelimen, jotta kehittäjän Chromium-työkalut ja virheenkorjaus yhdistetään upotettuihn Chromium-sivuihin. Se on aina päällä Perforce-kokoonpanoille.",
-	"Advanced_PerfGraphInHMD": "Näytä GPU-suorituskykykaavio VR-laseissa",
+	"Advanced_GlobalActionSetPriority": "Aktivoi globaali sy
+	"Advanced_PerfGraphInHMD": "N
 	"Advanced_SaveFrameDataNow": "Tallenna kehystieto",
-	"Explanation_DisableEnhancedPowerManagement": "Poista käytöstä Windowsin parannettu virranhallinta SteamVR-USB-laitteista, jos havaitset outoja seurannan tai langattomien ohjaimien yhteysongelmia. ",
-	"Explanation_QuickCalibrate": "Nollaa nopeasti huoneen asetukset. Uudet seisomisen ja huoneen laajuisen virtuaalitodellisuuden rajat keskistetään lattialla, tilasi keskellä oleviin virtuaalitodellisuuslaseihin.",
-	"Explanation_RebootVive": "Käynnistä VR-lasit uudelleen. Se voi korjata lasien USB-liitosongelmat.",
-	"Explanation_RemoveAllSteamVRUSBDevices": "Poista järjestelmästä kaikki SteamVR:n USB-laitteet asentaaksesi niiden ajurit uudelleen.",
-	"Explanation_ResetDismissableWarnings": "Väliaikaiset varoitukset on nollattu, ja ne näytetään tarvittaessa uudelleen.",
-	"MenuAction_DisableEnhancedPowerManagement": "Poista virranhallinta käytöstä",
+	"CameraTest": "Kameratesti",
+	"CameraTestStatus_Evaluating": "Tarkistetaan",
+	"CameraTestStatus_Failure": "Ep
+	"CameraTestStatus_Success": "Onnistui",
+	"CameraTest_CameraFailed": "Kamerakommunikaatio ep
+	"CameraTest_CheckingCamera": "Tarkistetaan kameraa...",
+	"CameraTest_CheckingTracking": "Tarkistetaan j
+	"CameraTest_Success": "Kameratesti l
+	"CameraTest_TrackingFailed": "J
+	"Explanation_DisableEnhancedPowerManagement": "Poista k
+	"Explanation_QuickCalibrate": "Nollaa nopeasti huoneen asetukset. Uudet seisomisen ja huoneen laajuisen virtuaalitodellisuuden rajat keskistet
+	"Explanation_RebootVive": "K
+	"Explanation_RemoveAllSteamVRUSBDevices": "Poista j
+	"Explanation_ResetDismissableWarnings": "V
+	"Explanation_Supersampling": "*Osa sovelluksista on k
+	"Explanation_SupersamplingFiltering": "Supers
+	"Explanation_Supersampling_Header": "SteamVR m
+	"Explanation_Supersampling_ResolutionPerEye": "Resoluutio per silm
+	"MenuAction_DisableEnhancedPowerManagement": "Poista virranhallinta k
 	"MenuAction_QuickCalibrate": "Pikakalibrointi",
-	"MenuAction_RebootVive": "Käynnistä VR-lasit uudelleen.",
+	"MenuAction_RebootVive": "K
 	"MenuAction_RecordTrackingData": "Nauhoita seurantatiedot",
 	"MenuAction_RemoveAllSteamVRUSBDevices": "Poista kaikki SteamVR-USB-laitteet",
 	"MenuAction_ResetDismissableWarnings": "Nollaa varoitukset",
-	"MenuAction_SetConfigDirectory": "Määritä määrityshakemisto",
-	"MenuAction_SetLogDirectory": "Määritä logihakemisto",
-	"Settings_Advanced_AllowSupersampleFiltering": "Edistynyt supersämpläyksen suodatus",
-	"Settings_Video_HDCP14LegacyCompatibility": "HDCP 1.4 legacy -yhteensopivuus",
+	"MenuAction_SetConfigDirectory": "M
+	"MenuAction_SetLogDirectory": "M
+	"OpenXR_AnotherSteamVR": "Toinen SteamVR:n kopio",
+	"OpenXR_Error": "Runtimea ei l
+	"OpenXR_None": "Ei mit
+	"OpenXR_OculusRuntime": "Oculus",
+	"OpenXR_SteamVR": "SteamVR",
+	"OpenXR_WindowsMixedReality": "Windows Mixed Reality",
+	"SettingsTime_10m": "10 minuuttia",
+	"SettingsTime_1h": "Tunti",
+	"SettingsTime_1m": "Minuutti",
+	"SettingsTime_20m": "20 minuuttia",
+	"SettingsTime_30m": "30 minuuttia",
+	"SettingsTime_30s": "30 sekuntia",
+	"SettingsTime_5m": "5 minuuttia",
+	"SettingsTime_5s": "5 sekuntia",
+	"SettingsTime_Never": "Ei koskaan",
+	"Settings_2D": "2D",
+	"Settings_3D": "3D",
+	"Settings_ActiveBinding": "Aktiivinen m
+	"Settings_ActiveController": "Aktiivinen ohjain",
+	"Settings_ActiveControllerBinding": "Aktiivinen ohjainm
+	"Settings_AdvancedSettings": "Lis
+	"Settings_Advanced_AllowSupersampleFiltering": "Edistynyt supers
+	"Settings_Advanced_MotionSmoothing_Description": "Syntetisoi uudet ruudut hyv
+	"Settings_Advanced_MotionSmoothing_Disabled": "Liikkeen pehmennyst
+	"Settings_Advanced_MotionSmoothing_Disabled_Win7": "Liikkeen pehmennyst
+	"Settings_Advanced_MotionSmoothing_Header": "Liikkeen pehmennys",
 	"Settings_Advanced_Paths_Header": "Polut",
 	"Settings_Advanced_Reset_Header": "Nollaus",
 	"Settings_Advanced_Status_Header": "Tilan tarkistus",
-	"Settings_ShowSettingsInDashboard": "Näytä Asetus-välilehti",
-	"Settings_ShowPowerMenu": "Näytä Virranhallinnan asetukset",
-	"Settings_AllowAppQuitting": "Salli sovelluksen sulkeminen työpöydältä",
-	"Settings_ShowDesktopViews": "Näytä työpöydän välilehdet",
-	"Settings_CheckForSteam": "Tarkista Steam",
-	"Settings_DebugInputBindings": "Ota vianetsintäasetukset käyttöön syötemäärityksen käyttöliittymässä",
-	"Advanced_GlobalActionSetPriority": "Aktivoi globaali syöte peitetasoista (kokeelllinen)",
-	"Settings_FadeToGrid": "Häivytä ruudukkonäkymään, jos sovellus jumiutuu",
-	"Settings_EnableDashboard": "VR-työpöytä järjestelmäpainikkeesta",
-	"Settings_EnableDashboardDesc": "Tuo VR-työpöytä esiin, kun järjestelmäpainiketta painetaan.",
-	"Settings_HomeAppCheck": "SteamVR Home",
-	"Settings_HomeAppDesc": "Nauti virtuaaliympäristöistä, sosiaalisista toiminnoista ja muusta!",
-	"Settings_LargeSpace": "Suuri tila",
-	"Settings_LockedModeCheck": "Lukittu tila",
-	"Settings_LockedModeDesc": "Salli VR-laseihin renderöinti, kun tietokone on lukittuna.",
-	"Settings_PauseOnStandby": "Keskeytä VR, kun VR-lasit ovat toimettomina",
-	"Settings_PauseOnLocked": "Keskeytä VR, kun tietokone on lukittu",
-	"Settings_OverlayRenderQuality": "Näytön renderöintilaatu",
-	"Settings_Auto_Parenthesized": "Automaattinen (%1$s)",
-	"Settings_Auto": "Automaattinen",
-	"Settings_High": "Korkea",
-	"Settings_Medium": "Keskitaso",
-	"Settings_Low": "Matala",
+	"Settings_Advanced_Supersampline_ResolutionPerEye": "Resoluutio per silm
+	"Settings_Advanced_SupersamplingManualOverride": "Ota k
+	"Settings_Advanced_Supersampling_Auto": "Automaattinen",
+	"Settings_Advanced_Supersampling_Custom": "Mukautettu",
+	"Settings_Advanced_Supersampling_Header": "Render
+	"Settings_Advanced_Supersampling_Warning": "Asetukset alla korvaavat automaattiset asetukset ja vaikuttavat kaikkiin sovelluksiin. Mene sovellusten asetuksiin vaihtaaksesi tietyn sovelluksen kuvatarkkuutta.",
+	"Settings_Advanced_Supersampling_WidthByHeight": "%1$s 
+	"Settings_AllowAppQuitting": "Salli sovelluksen sulkeminen ty
 	"Settings_Animations": "Animaatiot",
+	"Settings_Appearance_Background": "Tausta",
+	"Settings_Appearance_BackgroundDesc": "Valitse taustakuva oletustilaan.",
+	"Settings_Appearance_Background_NoSteam": "K
+	"Settings_Appearance_Background_Select": "Vaihda tausta",
+	"Settings_Appearance_Base": "Vaihda tukiaseman mallia",
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "N
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
+	"Settings_Appearance_Controller": "Vaihda ohjainmallia",
+	"Settings_Appearance_CycleBackgroundImageTimeSec": "Vaihda tausta, kun on kulunut",
+	"Settings_Appearance_DomeCameraHeight": "Kameran korkeus",
+	"Settings_Appearance_DomeCameraHeightDesc": "S
+	"Settings_Appearance_DomeCameraRadius": "Kuvun s
+	"Settings_Appearance_DomeCameraRadiusDesc": "Vaihtaa kuvun kokoa.",
+	"Settings_Appearance_Environment": "Vaihda kotiymp
+	"Settings_Appearance_MoreEnvironments": "Hanki lis
+	"Settings_Appearance_PlayAreaColorDesc": "Muokkaa pelialueesi tyyli
+	"Settings_Appearance_PlayArea_FloorColor": "Pelialueen lattian v
+	"Settings_Appearance_ResetDomeProjectionSettings": "Palauta kupuprojektion oletusarvot",
+	"Settings_Appearance_UseDomeProjection": "K
+	"Settings_Appearance_UseDomeProjectionDesc": "Vaihtaa taustakuvan heijastustyyli
+	"Settings_Audio_Active": "Aktiivinen",
+	"Settings_Audio_Current_Setting_Unknown": "(Valittua laitetta ei pystyt
+	"Settings_Audio_Default": "J
+	"Settings_Audio_Dual": "Pari",
+	"Settings_Audio_HDMIGain": "VIVE HDMI -
+	"Settings_Audio_Headset": "VR-lasit",
+	"Settings_Audio_Manual": "Manuaalinen",
+	"Settings_Audio_MicMonitor": "Mikrofoniseuranta (sivu
+	"Settings_Audio_Mirroring_Independent_Volume_Label": "Kontrolloi 
+	"Settings_Audio_Mirroring_Label": "
+	"Settings_Audio_Muted": "Mykistetty",
+	"Settings_Audio_Playback_Automatic_Label": "
+	"Settings_Audio_Recording_Automatic_Label": "
+	"Settings_Audio_Single": "Yksitt
+	"Settings_Audio_SpeakerJackOutput": "Kaiutin/kuulokeliit
+	"Settings_Audio_SpeakerJackOutput_Title": "Mahdollistaa 
+	"Settings_Auto": "Automaattinen",
+	"Settings_Auto_Parenthesized": "Automaattinen (%1$s)",
+	"Settings_BaseStationSettings": "Tukiaseman asetukset",
+	"Settings_BluetoothSettings": "Bluetooth-asetukset",
+	"Settings_CameraTest": "Testaa kameraa ja suorituskyky
+	"Settings_Camera_AllowCameraForChaperoneBounds": "N
+	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
+	"Settings_Camera_AllowCameraForRoomView": "Huonen
+	"Settings_Camera_AllowCameraForRoomView_Desc": "P
+	"Settings_Camera_Compatibility": "Kameran kuvataajuus",
+	"Settings_Camera_CompatibilityExplanation": "Jos seuranta ei toimi, kannattaa joko s
+	"Settings_Camera_EnableCamera": "Ota kamera k
+	"Settings_Camera_Rate_Hz": "Kameran p
+	"Settings_Camera_RoomView3D_Experimental": "3D-huonen
+	"Settings_Camera_RoomView3D_Unsupported": "3D-huonen
+	"Settings_Camera_RoomViewStyle": "Huonen
+	"Settings_Camera_RoomViewStyle_EdgeA": "V
+	"Settings_Camera_RoomViewStyle_EdgeB": "V
+	"Settings_Camera_RoomViewStyle_VideoOpaque": "L
+	"Settings_Camera_RoomViewStyle_VideoTranslucent": "L
+	"Settings_Camera_ShowOnController": "N
+	"Settings_Camera_ShowOnController_Desc": "K
+	"Settings_Chaperone_ActivationDistance": "Aktivoitumiset
+	"Settings_Chaperone_BoundsColor": "V
+	"Settings_Chaperone_BoundsTransparency": "L
+	"Settings_Chaperone_Color": "V
+	"Settings_Chaperone_Style": "Chaperonen tyyli",
+	"Settings_Chaperone_Style_0": "Ruudukko (tihe
+	"Settings_Chaperone_Style_1": "Ruudukko (keskitihe
+	"Settings_Chaperone_Style_2": "Ruudut",
+	"Settings_Chaperone_Style_3": "Ruudukko (harva)",
+	"Settings_Chaperone_Style_4": "Vain lattia",
+	"Settings_Chaperone_SuitableForLarge": "Sopii suurille pelitiloille.",
+	"Settings_Chaperone_SuitableForMedium": "Sopii keskikokoisille pelitiloille.",
+	"Settings_Chaperone_SuitableForSmall": "Sopii pienille pelitiloille. Muista varovaisuus.",
+	"Settings_Chaperone_WallHeight": "Sein
+	"Settings_CheckForSteam": "Tarkista Steam",
+	"Settings_ChooseStartupOverlayApps": "Valitse peitetasosovellukset k
+	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "Peitetason sovelluksia ei l
+	"Settings_Classic": "Klassinen",
+	"Settings_ConnectAnHMD": "Yhdist
+	"Settings_ControllerSettings": "Ohjainasetukset",
+	"Settings_Controller_AdvancedControllerSettings": "Hallinnoi ohjainten m
+	"Settings_Controller_ControllerBindingPrompt": "Ohjaimen m
+	"Settings_Controller_CustomBinding": "Mukautettu",
+	"Settings_Controller_DefaultBinding": "Oletus",
+	"Settings_Controller_ShowBindingCallouts": "N
+	"Settings_Controller_ShowBindingCalloutsInVR": "N
+	"Settings_CreateSystemReport_Button": "Luo j
+	"Settings_CurrentOpenXRRuntime": "Nykyinen OpenXR Runtime:",
+	"Settings_CurrentOpenXRRuntime_None": "Ei mit
+	"Settings_Dark": "Tumma",
+	"Settings_DashboardScale": "Ty
+	"Settings_Dashboard_Position": "Ty
+	"Settings_Dashboard_ShowProgressIndicator": "Pitkien painallusten edistymisen ilmaisin",
+	"Settings_DebugInputBindings": "Ota vianetsint
+	"Settings_DesktopDarkMode": "Ty
+	"Settings_DesktopScale": "Ty
+	"Settings_DominantHand": "Dominoiva k
+	"Settings_DominantHand_Left": "Vasen",
+	"Settings_DominantHand_Right": "Oikea",
+	"Settings_Drivers_Header": "Hallinnoi SteamVR-lis
+	"Settings_Drivers_Number_Blocked": "%1$s estetty",
+	"Settings_Drivers_Number_Disabled": "%1$s pois k
+	"Settings_Drivers_ShowDriverManagerUI": "Hallinnoi lis
+	"Settings_Drivers_SomeBlocked": "Viimeaikaisen kaatumisongelman vuoksi jotkut SteamVR-lis
+	"Settings_Drivers_Unblock": "Poista esto",
+	"Settings_Drivers_UnblockAll": "Poista esto kaikista",
+	"Settings_Drivers_UnblockAllTip": "HUOMAA: suosittelemme, ett
+	"Settings_EditBinding": "Muokkaa t
+	"Settings_EditBinding_ChooseAnother": "Valitse toinen",
+	"Settings_EnableDashboard": "VR-ty
+	"Settings_EnableDashboardDesc": "Tuo VR-ty
+	"Settings_EnableWebHelperDebugger": "Ota k
+	"Settings_EnableWebHelperDebuggerDesc": "K
+	"Settings_FadeToGrid": "H
+	"Settings_Far": "Kaukana",
+	"Settings_General_CalibrateThumbstick": "Kalibroi ohjainsauva",
+	"Settings_General_CalibrateThumbstick_ConnectAController": "Yhdist
+	"Settings_General_Cancel": "Peruuta",
+	"Settings_General_Close": "Sulje",
+	"Settings_General_Confirm": "Vahvista",
+	"Settings_General_InviteMoreSamples": "Laskettu kulma: %1$s
+	"Settings_General_LeftThumbstickAngle": "Vasemman ohjaimen kulma: %1$s astetta",
+	"Settings_General_LeftThumbstickAngle_NoValue": "Vasemman ohjaimen kulma",
+	"Settings_General_NotEnoughSamples": "Paina ohjainsauvalla yl
+	"Settings_General_Notifications_Label": "Ilmoitukset",
+	"Settings_General_Notifications_Text": "N
+	"Settings_General_RightThumbstickAngle": "Oikean ohjaimen kulma: %1$s astetta",
+	"Settings_General_RightThumbstickAngle_NoValue": "Oikean ohjaimen kulma",
+	"Settings_General_ShowBindingUI": "Muokkaa ohjaimen m
+	"Settings_General_ShowTrackerUI": "Hallinnoi Vive Tracker -j
+	"Settings_Header_SteamVR": "SteamVR-asetukset",
+	"Settings_Hide": "Piilota",
+	"Settings_High": "Korkea",
+	"Settings_HomeAppCheck": "SteamVR Home",
+	"Settings_HomeAppDesc": "Nauti virtuaaliymp
+	"Settings_KnockKnock_Button": "Koputus",
+	"Settings_KnockKnock_Desc": "N
+	"Settings_LargeSpace": "Suuri tila",
+	"Settings_Loading": "Ladataan...",
+	"Settings_Loading_CurrentBinding": "Ladataan nykyisi
+	"Settings_LockedModeCheck": "Lukittu tila",
+	"Settings_LockedModeDesc": "Salli VR-laseihin render
+	"Settings_Low": "Matala",
+	"Settings_ManageControllerBindingSettingsForApp": "Hallinnoi ohjainten m
+	"Settings_ManageVideoSettingsForApp": "Hallinnoi videoasetuksia sovellukselle:",
+	"Settings_Medium": "Keskitaso",
 	"Settings_MediumSpace": "Keskikokoinen tila",
-	"Settings_NightModeCheck": "Yötila",
-	"Settings_NightModeDesc": "Himmennä VR-lasit kello 5.00 (tai SteamVR:n uudelleenkäynnistymiseen) asti.",
-	"Settings_ShowPlaylistMenu": "Näytä toistolistavalikko",
+	"Settings_Middle": "Keskell
+	"Settings_MimeTypes_Pancake_Header": "Valitse sovellus, jotta voit k
+	"Settings_MustQuitApp_Description": "Sulje peli, jotta muutokset tulevat voimaan.",
+	"Settings_MustQuitApp_QuitCurrentGame_Button": "Sulje peli",
+	"Settings_MustRestart_Description": "SteamVR t
+	"Settings_MustRestart_RestartSteamVR_Button": "K
+	"Settings_Near": "L
+	"Settings_NeedSteamTo_ViewAndEditBindings": "K
+	"Settings_NightModeCheck": "Y
+	"Settings_NightModeDesc": "Himmenn
+	"Settings_NotSupported": "Ei tuettu",
+	"Settings_Number_Selected": "%1$s valittu",
+	"Settings_OverlayRenderQuality": "N
+	"Settings_PauseOnLocked": "Keskeyt
+	"Settings_PauseOnStandby": "Keskeyt
+	"Settings_PerApplication_AppResHeader": "T
+	"Settings_PerApplication_AppResTitle": "Mukautettu resoluutiokerroin",
+	"Settings_PerApplication_ChooseApplication": "Valitse sovellus",
+	"Settings_PerApplication_CustomSuffix": "(R
+	"Settings_PerApplication_DashboardSuffix": "(Pelinaikainen yhteis
+	"Settings_PerApplication_FovScale_Description": "Voit vaihtoehtoisesti pienent
+	"Settings_PerApplication_FovScale_Label": "N
+	"Settings_PerApplication_FovScale_Multiplier": "Mukautettu skaalaus",
+	"Settings_PerApplication_MotionSmoothing_AlwaysOn": "Pakota aina p
+	"Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc": "Huom! Sovellus py
+	"Settings_PerApplication_MotionSmoothing_Checkbox": "Ota k
+	"Settings_PerApplication_MotionSmoothing_Description": "Rastita alla oleva ruutu ohittaaksesi liikkeen pehmennyksen yleisasetukset t
+	"Settings_PerApplication_MotionSmoothing_Global": "K
+	"Settings_PerApplication_MotionSmoothing_Header": "Liikkeen pehmennys",
+	"Settings_PerApplication_MotionSmoothing_Off": "Ei k
+	"Settings_PerApplication_MotionSmoothing_On": "K
+	"Settings_PerApplication_OverlayVisibleCheckbox": "K
+	"Settings_PerApplication_OverlayVisibleHeader": "Pelinaikaisen yhteis
+	"Settings_PerApplication_RefreshRateOverride_Checkbox": "P
+	"Settings_PerApplication_Reprojection_Checkbox": "K
+	"Settings_PerApplication_Reprojection_Description": "T
+	"Settings_PerApplication_Reprojection_Header": "Uudelleenprojektio",
+	"Settings_PerApplication_ThrottlingOverride_Description": "Rajoittaminen ja ennakointi mukautuvat automaattisesti mitatun suorituskyvyn mukaan, mutta jotkin sovellukset saattavat toimia paremmin, jos m
+	"Settings_PerApplication_ThrottlingOverride_Framerate": "Rajaa sovelluksen kuvataajuus 
+	"Settings_PerApplication_ThrottlingOverride_Label": "Rajoitusm
+	"Settings_PerApplication_ThrottlingOverride_Prediction": "Lis
+	"Settings_PerApplication_ThrottlingOverride_Toggle": "M
+	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "Automaattinen",
+	"Settings_PerApplication_ThrottlingOverride_Toggle_On": "Korjattu",
+	"Settings_PerApplication_VideoSettings": "Sovelluskohtaiset videoasetukset",
+	"Settings_PerApplication_WorldScale_Description": "Ohita sovelluksen nykyinen skaalaus s
+	"Settings_PerApplication_WorldScale_Extreme": "Suuri",
+	"Settings_PerApplication_WorldScale_Fine": "Pieni",
+	"Settings_PerApplication_WorldScale_Label": "Ohita virtuaalimaailman skaalaus",
+	"Settings_PerApplication_WorldScale_Normal": "Normaali",
+	"Settings_PerApplication_WorldScale_Off": "Pois k
+	"Settings_PerApplication_WorldScale_Range": "[%1$s
+	"Settings_PerApplication_WorldScale_Warning": "Huomaa, ett
+	"Settings_Perapplication_RefreshRateOverride_Description": "T
+	"Settings_Power_ControllerOffOnExit": "Sammuta ohjaimet, kun poistutaan SteamVR:st
+	"Settings_Power_ReturnToWatchdogTimeout": "Poistu SteamVR:st
+	"Settings_Power_TurnOffControllersTimeout": "Sammuta ohjaimet, kun on kulunut",
+	"Settings_Power_TurnOffScreensTimeout": "Sammuta n
+	"Settings_ResetPageToDefault": "Palauta sivun oletukset",
+	"Settings_ResetToDefault": "Palauta oletusarvot",
+	"Settings_SectionTitle_Advanced": "Lis
+	"Settings_SectionTitle_Applications": "Sovellukset",
+	"Settings_SectionTitle_Audio": "
+	"Settings_SectionTitle_BaseStation": "Tukiasemat",
+	"Settings_SectionTitle_Bluetooth": "Bluetooth",
+	"Settings_SectionTitle_Camera": "Kamera",
+	"Settings_SectionTitle_Controller": "Ohjaimet",
+	"Settings_SectionTitle_Dashboard": "Ty
+	"Settings_SectionTitle_Developer": "Kehitt
+	"Settings_SectionTitle_General": "Yleist
+	"Settings_SectionTitle_Home": "Koti",
+	"Settings_SectionTitle_PlayArea": "Pelialue",
+	"Settings_SectionTitle_Power": "Virta",
+	"Settings_SectionTitle_StartupShutdown": "K
+	"Settings_SectionTitle_Video": "Video",
+	"Settings_SelectAnOption": "Valitse vaihtoehto...",
+	"Settings_SetAsOpenXRRuntime": "Aseta SteamVR OpenXR Runtimeen",
+	"Settings_Show": "N
+	"Settings_ShowDesktopViews": "N
+	"Settings_ShowOldBindingUI": "N
+	"Settings_ShowPlaylistMenu": "N
+	"Settings_ShowPowerMenu": "N
+	"Settings_ShowSettingsInDashboard": "N
+	"Settings_ShowThumbstickSettings": "Muokkaa ohjainsauvan asetuksia",
 	"Settings_SmallSpace": "Pieni tila",
+	"Settings_StartCameraTest": "Aloita testi",
+	"Settings_StartTheseOverlayAppsOnLaunch": "K
 	"Settings_StatusWindowAlwaysOnTop_Info": " ",
-	"Settings_StatusWindowAlwaysOnTop_Text": "SteamVR aina päällimmäisenä",
-	"Settings_StatusWindowMinimizeToTray_Text": "SteamVR-tila pienenee järjestelmätarjottimelle, kun se on kutistettu.",
-	"Settings_SuppressWarnings_Text": "Älä näytä varoituksia ja hälytyksiä, kun SteamVR-tilaikkuna on pienennetty",
+	"Settings_StatusWindowAlwaysOnTop_Text": "SteamVR aina p
+	"Settings_StatusWindowMinimizeToTray_Text": "SteamVR-tila pienenee j
+	"Settings_SuppressWarnings_Text": "
+	"Settings_ThumbstickDeadzone_Desc": "S
+	"Settings_ThumbstickDeadzone_Text": "Ohjainsauvan kuollut alue",
+	"Settings_ThumbstickSettings": "Ohjainsauvan asetukset",
+	"Settings_ToggleButton_Disable": "Poista k
+	"Settings_ToggleButton_Enable": "Ota k
+	"Settings_ToggleButton_Off": "Pois p
+	"Settings_ToggleButton_On": "P
+	"Settings_ToggleDarkMode": "Vaihda tumma tila",
+	"Settings_Video_AppResFooter": "Nykyasetukset render
+	"Settings_Video_HDCP14LegacyCompatibility": "HDCP 1.4 legacy -yhteensopivuus",
+	"Settings_Video_RefreshRate_EnableDirectModeAction": "Ota suora tila k
+	"Settings_Video_RefreshRate_Header": "P
+	"Settings_Video_RefreshRate_HzSuffix": " Hz",
+	"Settings_Video_RefreshRate_Label_Hz": "P
+	"Settings_Video_RefreshRate_NotAvailableExtended": "Virtuaalitodellisuuslasisi tukevat lis
+	"Settings_Video_RefreshRate_NotFound": "Virtuaalitodellisuuslasisi tukevat lis
+	"Settings_Video_RefreshRate_OneSupported": "J
+	"Settings_ViewLogs_Button": "N
+	"Settings_ViveTracker": "Vive Tracker",
+	"Settings_ViveTracker_Connected": "Yhdistetty",
+	"Settings_ViveTracker_Disconnected": "Yhteys katkaistu",
+	"Settings_ViveTracker_Hand": "K
+	"Settings_ViveTracker_Identify_NotConnected": "Vive Tracker -j
+	"Settings_ViveTracker_Identify_NotIdentifiable": "Vive Tracker ei pysty tunnistamaan.",
+	"Settings_ViveTracker_Role": "J
+	"Settings_ViveTrackers": "Vive Trackerit",
 	"StatusCheckInterval_Never": "Ei koskaan",
 	"StatusCheckInterval_Normal": "Normaali (1 s)",
 	"StatusCheckInterval_Often": "Usein (100 ms)",
 	"StatusCheckInterval_Seldom": "Harvoin (5 s)",
-	"Settings_KnockKnock_Button": "Koputus",
-	"Settings_KnockKnock_Desc": "Näin muut ihmiset saavat VR-lasien käyttäjän huomion.",
-	"Settings_CreateSystemReport_Button": "Luo järjestelmäraportti",
-	"Settings_ViewLogs_Button": "Näytä lokit",
-	"Settings_Video_RefreshRate_Header": "Päivitystiheys",
-	"Settings_Video_RefreshRate_HzSuffix": " Hz",
-	"Settings_Video_RefreshRate_Label_Hz": "Päivitystiheys (hz)",
-	"Settings_Video_RefreshRate_NotFound": "Virtuaalitodellisuuslasisi tukevat lisäpäivitystiheyttä, mutta grafiikka-ajurisi ei pysty havaitsemaan sitä. Varmista, että virtuaalitodellisuuslasisi laiteohjelmisto ja grafiikka-ajurisi ovat ajan tasalla.",
-	"Settings_Video_RefreshRate_NotAvailableExtended": "Virtuaalitodellisuuslasisi tukevat lisäpäivitystiheyttä, mutta SteamVR ei voi hallinnoida päivitystiheyttä, kun virtuaalitodellisuuslasit ovat jatketussa tilassa.",
-	"Settings_Video_RefreshRate_EnableDirectModeAction": "Ota suora tila käyttöön",
-	"Settings_Video_RefreshRate_OneSupported": "Järjestelmäsi tukee vain yhtä päivitystiheyttä.",
-	"Settings_Video_AppResFooter": "Nykyasetukset renderöivät kunkin silmän tarkkuudella %1$s.",
-	"Settings_Advanced_MotionSmoothing_Header": "Liikkeen pehmennys",
-	"Settings_Advanced_MotionSmoothing_Description": "Syntetisoi uudet ruudut hyvän katselukokemuksen säilyttämiseksi, kun käynnissä olevat sovellukset eivät pysy mukana.",
-	"Settings_Advanced_MotionSmoothing_Disabled": "Liikkeen pehmennystä ei tueta tällä näytönohjain-/ajuriversiolla (vaatii asynkronisen uudelleenprojektion tuen).",
-	"Settings_Advanced_MotionSmoothing_Disabled_Win7": "Liikkeen pehmennystä ei tueta Windowsin vanhemmilla versioilla.",
-	"Settings_Advanced_Supersampling_Auto": "Automaattinen",
-	"Settings_Advanced_Supersampling_Custom": "Mukautettu",
-	"Settings_Advanced_Supersampling_Header": "Renderöinnin resoluutio",
-	"Settings_Advanced_Supersampling_Warning": "Asetukset alla korvaavat automaattiset asetukset ja vaikuttavat kaikkiin sovelluksiin. Mene sovellusten asetuksiin vaihtaaksesi tietyn sovelluksen kuvatarkkuutta.",
-	"Settings_Advanced_Supersampling_WidthByHeight": "%1$s × %2$s",
-	"Settings_Advanced_SupersamplingManualOverride": "Ota käyttöön kuvatarkkuuden hienosäädöt.",
-	"Settings_Advanced_Supersampline_ResolutionPerEye": "Resoluutio per silmä",
-	"Explanation_Supersampling_Header": "SteamVR määrittää automaattisesti sovelluksesi resoluution grafiikkasuorittimesi suorituskyvyn perusteella.",
-	"Explanation_Supersampling": "*Osa sovelluksista on käynnistettävä uudelleen, jotta määritykset astuvat voimaan.",
-	"Explanation_SupersamplingFiltering": "Supersämpläyksen suodatusasetukset:",
-	"Explanation_Supersampling_ResolutionPerEye": "Resoluutio per silmä",
-	"Settings_PerApplication_ChooseApplication": "Valitse sovellus",
-	"Settings_PerApplication_AppResTitle": "Mukautettu resoluutiokerroin",
-	"Settings_PerApplication_AppResHeader": "Tämä määritys on kerroin nykyisille sovellusresoluutioasetuksille, jotka ovat vasemmalla olevalla välilehdellä: %1$s. Sovellus on käynnistettävä uudelleen, jotta asetukset astuvat voimaan (oletuksena 100 %).",
-	"Settings_PerApplication_OverlayVisibleHeader": "Pelinaikaisen yhteisön sovellukset ovat käytettävissä SteamVR-työpöydän välilehtinä.",
-	"Settings_PerApplication_OverlayVisibleCheckbox": "Käynnistä pelinaikaisen yhteisön sovellus, kun SteamVR käynnistyy.",
-	"Settings_PerApplication_DashboardSuffix": "(Pelinaikainen yhteisön sovellus)",
-	"Settings_PerApplication_CustomSuffix": "(Räätälöity)",
-	"Settings_PerApplication_MotionSmoothing_Header": "Liikkeen pehmennys",
-	"Settings_PerApplication_MotionSmoothing_Description": "Rastita alla oleva ruutu ohittaaksesi liikkeen pehmennyksen yleisasetukset tämän sovelluksen kohdalla. (Liikkeen pehmennyksen yleisasetukset ovat <font color=#eeeeee>%1</font>.)",
-	"Settings_PerApplication_MotionSmoothing_Global": "Käytä yleisasetuksia",
-	"Settings_PerApplication_MotionSmoothing_On": "Käytössä",
-	"Settings_PerApplication_MotionSmoothing_Off": "Ei käytössä",
-	"Settings_PerApplication_MotionSmoothing_AlwaysOn": "Pakota aina päälle.",
-	"Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc": "Huom! Sovellus pyörii puolella kuvataajuudella.",
-	"Settings_PerApplication_MotionSmoothing_Checkbox": "Ota käyttöön liikkeen pehmennys tälle sovellukselle.",
-	"Settings_PerApplication_Reprojection_Header": "Uudelleenprojektio",
-	"Settings_PerApplication_Reprojection_Checkbox": "Käytä legacy-uudelleenprojektiotilaa",
-	"Settings_PerApplication_Reprojection_Description": "Tämän asetuksen valitseminen poistaa asynkronisen uudelleenprojektion tältä peliltä.",
-	"Settings_PerApplication_RefreshRateOverride_Checkbox": "Päivitystiheyden ohitus",
-	"Settings_Perapplication_RefreshRateOverride_Description": "Tämän asetuksen valitseminen mahdollistaa eri päivitystiheyden määrittelyn sovellukselle yleisistä asetuksista.",
-	"Settings_PerApplication_ThrottlingOverride_Description": "Rajoittaminen ja ennakointi mukautuvat automaattisesti mitatun suorituskyvyn mukaan, mutta jotkin sovellukset saattavat toimia paremmin, jos määrität pysyvän alhaisemman rajan.",
-	"Settings_PerApplication_ThrottlingOverride_Label": "Rajoitusmääritykset",
-	"Settings_PerApplication_ThrottlingOverride_Toggle": "Määrittämällä pysyvän rajoittamisarvon poistat käytöstä automaattisen rajoittamisen tälle sovellukselle.",
-	"Settings_PerApplication_ThrottlingOverride_Toggle_On": "Korjattu",
-	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "Automaattinen",
-	"Settings_PerApplication_ThrottlingOverride_Framerate": "Rajaa sovelluksen kuvataajuus – FPS enintään:",
-	"Settings_PerApplication_ThrottlingOverride_Prediction": "Lisäennakointi (ms):",
-	"Settings_PerApplication_WorldScale_Description": "Ohita sovelluksen nykyinen skaalaus säätämällä pään liikettä ja silmäväliä.",
-	"Settings_PerApplication_WorldScale_Label": "Ohita virtuaalimaailman skaalaus",
-	"Settings_PerApplication_WorldScale_Off": "Pois käytöstä",
-	"Settings_PerApplication_WorldScale_Fine": "Pieni",
-	"Settings_PerApplication_WorldScale_Normal": "Normaali",
-	"Settings_PerApplication_WorldScale_Extreme": "Suuri",
-	"Settings_PerApplication_WorldScale_Range": "[%1$s–%2$s %]",
-	"Settings_PerApplication_WorldScale_Warning": "Huomaa, että muutokset saattavat vaikuttaa pelikokemukseen odottamattomilla tavoilla ja vaatia sovelluksen uudelleenkäynnistämisen. Toiminnot, kuten objektin heittäminen, saattavat toimia arvaamattomasti.",
-	"Settings_PerApplication_FovScale_Description": "Voit vaihtoehtoisesti pienentää sovelluksen näkökenttää, jolloin saat kapeamman ääreisnäön, mutta tarkemman kuvanlaadun. Huomaa, että useimmissa tapauksissa sovellus pitää käynnistää uudelleen, jotta muutokset toimivat kunnolla.",
-	"Settings_PerApplication_FovScale_Label": "Näkökenttä",
-	"Settings_PerApplication_FovScale_Multiplier": "Mukautettu skaalaus",
-	"Settings_MimeTypes_Pancake_Header": "Valitse sovellus, jotta voit käynnistää 2D-sovellukset",
-	"Settings_Camera_EnableCamera": "Ota kamera käyttöön",
-	"Settings_Camera_ShowOnController": "Näytä kamera ohjaimessa",
-	"Settings_Camera_ShowOnController_Desc": "Käynnistää ohjaimeesi liitetyn kameranäkymän, kun työpöytä on käytössä.",
-	"Settings_Camera_AllowCameraForChaperoneBounds": "Näytä kamera huoneen reunalla",
-	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
-	"Settings_Camera_AllowCameraForRoomView": "Huonenäkymä",
-	"Settings_Camera_AllowCameraForRoomView_Desc": "Pääset milloin tahansa huonenäkymään kaksoisklikkaamalla järjestelmäpainiketta.",
-	"Settings_Camera_Compatibility": "Kameran kuvataajuus",
-	"Settings_Camera_Rate_Hz": "Kameran päivitystiheys (hz)",
-	"Settings_Camera_CompatibilityExplanation": "Jos seuranta ei toimi, kannattaa joko säätää kameran nopeutta alemmaksi, poistaa kamera käytöstä tai kokeilla toista USB-porttia.",
-	"Settings_Camera_RoomViewStyle": "Huonenäkymän tyyli",
-	"Settings_Camera_RoomViewStyle_EdgeA": "Värilliset rajat",
-	"Settings_Camera_RoomViewStyle_EdgeB": "Värilliset siluetit",
-	"Settings_Camera_RoomViewStyle_VideoTranslucent": "Läpikuultava tila",
-	"Settings_Camera_RoomViewStyle_VideoOpaque": "Läpikuultamaton tila",
-	"Settings_Camera_RoomView3D_Experimental": "3D-huonenäkymä on kokeellinen.",
-	"Settings_Camera_RoomView3D_Unsupported": "3D-huonenäkymää ei tueta näillä VR-laseilla tai järjestelmämäärityksillä.",
-	"Settings_CameraTest": "Testaa kameraa ja suorituskykyä",
-	"Settings_StartCameraTest": "Aloita testi",
-	"CameraTest_CheckingCamera": "Tarkistetaan kameraa...",
-	"CameraTest_CheckingTracking": "Tarkistetaan jäljitystä kameralla...",
-	"CameraTest_CameraFailed": "Kamerakommunikaatio epäonnistui",
-	"CameraTest_TrackingFailed": "Jäljitys kameran ollessa päällä epäonnistui",
-	"CameraTest_Success": "Kameratesti läpäisty",
-	"CameraTest": "Kameratesti",
-	"CameraTestStatus_Evaluating": "Tarkistetaan",
-	"CameraTestStatus_Success": "Onnistui",
-	"CameraTestStatus_Failure": "Epäonnistui",
-	"Advanced_Appearance": "Ulkoasu",
-	"Settings_Appearance_Background": "Tausta",
-	"Settings_Appearance_Background_NoSteam": "Käynnistä Steam, jotta voit nähdä lisää taustavaihtoehtoja.",
-	"Settings_Appearance_Background_Select": "Vaihda tausta",
-	"Settings_Appearance_BackgroundDesc": "Valitse taustakuva oletustilaan.",
-	"Settings_Appearance_UseDomeProjection": "Käytä kupuprojektiota",
-	"Settings_Appearance_UseDomeProjectionDesc": "Vaihtaa taustakuvan heijastustyyliä. Toimintoa käytetään tietyissä taustakuvissa, millä tavoitellaan mukaansatempaavaa kokemusta. Poista se käytöstä, jos valitsemasi taustakuva näyttää vääristyneeltä.",
-	"Settings_Appearance_DomeCameraHeight": "Kameran korkeus",
-	"Settings_Appearance_DomeCameraHeightDesc": "Säätää kameran korkeutta suhteessa taustakuvaan",
-	"Settings_Appearance_DomeCameraRadius": "Kuvun säde",
-	"Settings_Appearance_DomeCameraRadiusDesc": "Vaihtaa kuvun kokoa.",
-	"Settings_Appearance_ResetDomeProjectionSettings": "Palauta kupuprojektion oletusarvot",
-	"Settings_Appearance_PlayAreaColorDesc": "Muokkaa pelialueesi tyyliä. Saat tämän näkymän, kun pelejä ladataan tai olet poistanut käytöstä SteamVR Home -betaversion.",
-	"Settings_Appearance_PlayArea_FloorColor": "Pelialueen lattian väri",
-	"Settings_Appearance_MoreEnvironments": "Hanki lisää SteamVR Home -ympäristöjä",
-	"Settings_Power_ReturnToWatchdogTimeout": "Poistu SteamVR:stä, kun on kulunut",
-	"Settings_Power_TurnOffScreensTimeout": "Sammuta näytöt, kun on kulunut",
-	"Settings_Power_TurnOffControllersTimeout": "Sammuta ohjaimet, kun on kulunut",
-	"Settings_Power_ControllerOffOnExit": "Sammuta ohjaimet, kun poistutaan SteamVR:stä",
-	"Settings_General_Notifications_Label": "Ilmoitukset",
-	"Settings_General_Notifications_Text": "Näytä ilmoitukset VR-tilassa",
-	"Settings_General_ShowBindingUI": "Muokkaa ohjaimen määrityksiä",
-	"Settings_General_ShowTrackerUI": "Hallinnoi Vive Tracker -jäljittimiä",
-	"Settings_General_Cancel": "Peruuta",
-	"Settings_General_Confirm": "Vahvista",
-	"Settings_General_Close": "Sulje",
-	"Settings_General_CalibrateThumbstick": "Kalibroi ohjainsauva",
-	"Settings_General_CalibrateThumbstick_ConnectAController": "Yhdistä ohjain ohjainsauvaan.",
-	"Settings_General_NotEnoughSamples": "Paina ohjainsauvalla ylöspäin vielä vähintään %1$s kertaa suorittaaksesi kalibroinnin loppuun.",
-	"Settings_General_InviteMoreSamples": "Laskettu kulma: %1$s°. Jatka painamista ylöspäin, jotta voit säätää kulman arvoa tai hyväksy tämä kalibrointi painamalla \"Hyväksy\".",
-	"Settings_General_LeftThumbstickAngle": "Vasemman ohjaimen kulma: %1$s astetta",
-	"Settings_General_RightThumbstickAngle": "Oikean ohjaimen kulma: %1$s astetta",
-	"Settings_General_LeftThumbstickAngle_NoValue": "Vasemman ohjaimen kulma",
-	"Settings_General_RightThumbstickAngle_NoValue": "Oikean ohjaimen kulma",
-	"Settings_Dashboard_ShowProgressIndicator": "Pitkien painallusten edistymisen ilmaisin",
-	"Settings_Dashboard_Position": "Työpöydän sijainti",
-	"Settings_Classic": "Klassinen",
-	"Settings_Near": "Lähellä",
-	"Settings_Middle": "Keskellä",
-	"Settings_Far": "Kaukana",
-	"Settings_DesktopScale": "Työpöydän skaala",
-	"Settings_DashboardScale": "Työpöydän skaala",
-	"Settings_DesktopDarkMode": "Työpöydän tumma tila",
-	"Settings_ToggleDarkMode": "Vaihda tumma tila",
-	"Settings_Dark": "Tumma",
-	"SettingsTime_5s": "5 sekuntia",
-	"SettingsTime_30s": "30 sekuntia",
-	"SettingsTime_1m": "Minuutti",
-	"SettingsTime_5m": "5 minuuttia",
-	"SettingsTime_10m": "10 minuuttia",
-	"SettingsTime_20m": "20 minuuttia",
-	"SettingsTime_30m": "30 minuuttia",
-	"SettingsTime_1h": "Tunti",
-	"SettingsTime_Never": "Ei koskaan",
-	"Settings_Appearance_CycleBackgroundImageTimeSec": "Vaihda tausta, kun on kulunut",
-	"Settings_Chaperone_BoundsColor": "Väri",
-	"Settings_Chaperone_BoundsTransparency": "Läpinäkyvyys",
-	"Settings_Chaperone_Color": "Väri",
-	"Settings_Chaperone_ActivationDistance": "Aktivoitumisetäisyys (m)",
-	"Settings_Chaperone_WallHeight": "Seinäkorkeus (m)",
-	"Settings_Chaperone_SuitableForSmall": "Sopii pienille pelitiloille. Muista varovaisuus.",
-	"Settings_Chaperone_SuitableForMedium": "Sopii keskikokoisille pelitiloille.",
-	"Settings_Chaperone_SuitableForLarge": "Sopii suurille pelitiloille.",
-	"Settings_Chaperone_Style": "Chaperonen tyyli",
-	"Settings_Chaperone_Style_0": "Ruudukko (tiheä)",
-	"Settings_Chaperone_Style_1": "Ruudukko (keskitiheä)",
-	"Settings_Chaperone_Style_2": "Ruudut",
-	"Settings_Chaperone_Style_3": "Ruudukko (harva)",
-	"Settings_Chaperone_Style_4": "Vain lattia",
-	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Näytä lattiarajat aina",
-	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
-	"Settings_Appearance_Controller": "Vaihda ohjainmallia",
-	"Settings_Appearance_Base": "Vaihda tukiaseman mallia",
-	"Settings_Appearance_Environment": "Vaihda kotiympäristöä",
-	"Settings_ConnectAnHMD": "Yhdistä VR-lasit.",
-	"Settings_Loading": "Ladataan...",
-	"Settings_ResetToDefault": "Palauta oletusarvot",
-	"Settings_ResetPageToDefault": "Palauta sivun oletukset",
-	"Settings_ToggleButton_On": "Päällä",
-	"Settings_ToggleButton_Off": "Pois päältä",
-	"Settings_ToggleButton_Disable": "Poista käytöstä",
-	"Settings_ToggleButton_Enable": "Ota käyttöön",
-	"Settings_2D": "2D",
-	"Settings_3D": "3D",
-	"Settings_Header_SteamVR": "SteamVR-asetukset",
-	"Settings_MustRestart_Description": "SteamVR täytyy käynnistää uudelleen, jotta jotkut asetukset tulevat voimaan.",
-	"Settings_MustRestart_RestartSteamVR_Button": "Käynnistä SteamVR uudelleen",
-	"Settings_MustQuitApp_Description": "Sulje peli, jotta muutokset tulevat voimaan.",
-	"Settings_MustQuitApp_QuitCurrentGame_Button": "Sulje peli",
-	"Settings_NotSupported": "Ei tuettu",
-	"Settings_AdvancedSettings": "Lisäasetukset",
-	"Settings_Show": "Näytä",
-	"Settings_Hide": "Piilota",
-	"Settings_ViveTracker": "Vive Tracker",
-	"Settings_ViveTrackers": "Vive Trackerit",
-	"Settings_ViveTracker_Role": "Jäljittimen rooli",
-	"Settings_ViveTracker_Hand": "Käsi",
-	"Settings_ViveTracker_Identify_NotConnected": "Vive Tracker -jäljitintä ei ole yhdistetty.",
-	"Settings_ViveTracker_Identify_NotIdentifiable": "Vive Tracker ei pysty tunnistamaan.",
-	"Settings_ViveTracker_Connected": "Yhdistetty",
-	"Settings_ViveTracker_Disconnected": "Yhteys katkaistu",
-	"Settings_PerApplication_VideoSettings": "Sovelluskohtaiset videoasetukset",
-	"Settings_ChooseStartupOverlayApps": "Valitse peitetasosovellukset käynnistäessä",
-	"Settings_StartTheseOverlayAppsOnLaunch": "Käynnistä nämä peitetason sovellukset käynnistyksen yhteydessä:",
-	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "Peitetason sovelluksia ei löytynyt",
-	"Settings_ActiveController": "Aktiivinen ohjain",
-	"Settings_EditBinding": "Muokkaa tätä määritystä",
-	"Settings_EditBinding_ChooseAnother": "Valitse toinen",
-	"Settings_ShowOldBindingUI": "Näytä vanha määritysten käyttöliittymä",
-	"Settings_ManageVideoSettingsForApp": "Hallinnoi videoasetuksia sovellukselle:",
-	"Settings_ManageControllerBindingSettingsForApp": "Hallinnoi ohjainten määrityksiä sovellukselle:",
-	"Settings_ActiveControllerBinding": "Aktiivinen ohjainmääritys",
-	"Settings_ActiveBinding": "Aktiivinen määritys",
-	"Settings_ShowThumbstickSettings": "Muokkaa ohjainsauvan asetuksia",
-	"Settings_ThumbstickSettings": "Ohjainsauvan asetukset",
-	"Settings_Number_Selected": "%1$s valittu",
-	"Settings_Drivers_ShowDriverManagerUI": "Hallinnoi lisäosia",
-	"Settings_Drivers_Number_Blocked": "%1$s estetty",
-	"Settings_Drivers_Number_Disabled": "%1$s pois käytöstä",
-	"Settings_Drivers_Header": "Hallinnoi SteamVR-lisäosia",
-	"Settings_Drivers_Unblock": "Poista esto",
-	"Settings_Drivers_UnblockAll": "Poista esto kaikista",
-	"Settings_Drivers_UnblockAllTip": "HUOMAA: suosittelemme, että poistat yhden eston ja testaat yhden lisäosan kerrallaan.",
-	"Settings_Drivers_SomeBlocked": "Viimeaikaisen kaatumisongelman vuoksi jotkut SteamVR-lisäosat on automaattisesti estetty.",
-	"Settings_CurrentOpenXRRuntime_None": "Ei mitään",
-	"Settings_CurrentOpenXRRuntime": "Nykyinen OpenXR Runtime:",
-	"Settings_SetAsOpenXRRuntime": "Aseta SteamVR OpenXR Runtimeen",
-	"OpenXR_AnotherSteamVR": "Toinen SteamVR:n kopio",
-	"OpenXR_SteamVR": "SteamVR",
-	"OpenXR_None": "Ei mitään",
-	"OpenXR_Error": "Runtimea ei löydy",
-	"OpenXR_OculusRuntime": "Oculus",
-	"OpenXR_WindowsMixedReality": "Windows Mixed Reality",
+	"SystemStatus_FrameRate_15sec": "15 sekuntia",
+	"SystemStatus_FrameRate_7sec": "7 sekuntia",
+	"SystemStatus_FrameRate_Good": "Hyv
+	"SystemStatus_FrameRate_MissedFrames": "Puuttuvia ruutuja",
+	"SystemStatus_FrameRate_now": "nyt",
 	"TestControllerTitle": "Testataan ohjainta %1$s",
-	"TestController_NoController": "Laita ohjain päälle testataksesi sitä."
-}
+	"TestController_NoController": "Laita ohjain p
+	"VRDevConsole_ShowLogName": "N
+	"VRDevConsole_Showtimestamp": "N
+	"VRDevFiles_Configuration": "M
+	"VRDevFiles_JSON": "JSON",
+	"VRDevFiles_Logging": "Kirjautuminen",
+	"VRDevFiles_PathHandles": "Liikeradan k
+	"VRDevFiles_USBDevices": "USB-laitteet",
+	"VRMonitor_DevNav_Console": "Konsoli",
+	"VRMonitor_DevNav_Files": "Tiedostot",
+	"VRMonitor_DevNav_RoomOverview": "Yleiskuva huoneesta",
+	"VRMonitor_Nav_Developer": "Kehitt
+	"VRMonitor_Nav_Help": "Tuki",
+	"VRMonitor_Nav_Overview": "Yleiskatsaus",
+	"VRMonitor_Nav_Settings": "Asetukset",
+	"VRMonitor_Overview_DeviceStatus_Title": "Laitteen tila",
+	"VRMonitor_Overview_Notifications_Title": "Ilmoitukset",
+	"VRMonitor_Overview_QuickLinks_Knock": "Kop kop",
+	"VRMonitor_Overview_QuickLinks_Knock_Desc": "Her
+	"VRMonitor_Overview_QuickLinks_RoomSetup": "Huoneen asetukset",
+	"VRMonitor_Overview_QuickLinks_RoomSetup_Desc": "M
+	"VRMonitor_Overview_QuickLinks_Title": "Pikalinkit",
+	"VRMonitor_Overview_QuickLinks_Tutorial": "SteamVR-tutoriaali",
+	"VRMonitor_Overview_QuickLinks_Tutorial_Desc": "Opettele k
+	"VRMonitor_Overview_SystemStatus_Title": "J
+	"language": "finnish",
+ %2$s",
+ 2D-sovellukset",
+ Asetus-v
+ FPS enint
+ GPU-suorituskykykaavio VR-laseissa",
+ Perforce-kokoonpanoille.",
+ Steam, jotta voit katsoa ja muokata m
+ Steam, jotta voit n
+ SteamVR Home -betaversion.",
+ SteamVR Home -ymp
+ SteamVR uudelleen",
+ SteamVR-ty
+ VR, kun VR-lasit ovat toimettomina",
+ VR, kun tietokone on lukittu",
+ VR-laseilla tai j
+ VR-lasien k
+ VR-lasit kello 5.00 (tai SteamVR:n uudelleenk
+ VR-lasit uudelleen. Se voi korjata lasien USB-liitosongelmat.",
+ VR-lasit uudelleen.",
+ VR-lasit.",
+ Virranhallinnan asetukset",
+ Windowsin parannettu virranhallinta SteamVR-USB-laitteista, jos havaitset outoja seurannan tai langattomien ohjaimien yhteysongelmia. ",
+ aikaleima",
+ asetuksista.",
+ automaattisen rajoittamisen t
+ automaattisesti sovelluksesi resoluution grafiikkasuorittimesi suorituskyvyn perusteella.",
+ ei ole yhdistetty.",
+ ei tueta Windowsin vanhemmilla versioilla.",
+ ei tueta n
+ ei tueta t
+ esiin, kun j
+ havaitsemaan)",
+ ilmoitukset VR-tilassa",
+ ja silm
+ kaikki SteamVR:n USB-laitteet asentaaksesi niiden ajurit uudelleen.",
+ kaikkien ohjainsauvojen kuollutta aluetta.",
+ kalibrointi painamalla \"Hyv
+ kamera huoneen reunalla",
+ kamera ohjaimessa",
+ kameralla...",
+ kameran korkeutta suhteessa taustakuvaan",
+ kameran nopeutta alemmaksi, poistaa kamera k
+ kulman arvoa tai hyv
+ kupuprojektiota",
+ kuvataajuus",
+ ladataan tai olet poistanut k
+ lattiarajat aina",
+ legacy-uudelleenprojektiotilaa",
+ logihakemisto",
+ lokinimi",
+ lokit",
+ muutokset saattavat vaikuttaa pelikokemukseen odottamattomilla tavoilla ja vaatia sovelluksen uudelleenk
+ ohjaimeesi liitetyn kameran
+ ohjain ohjainsauvaan.",
+ ohjainten m
+ olevat sovellukset eiv
+ oleviin virtuaalitodellisuuslaseihin.",
+ on k
+ on kokeellinen.",
+ peitetason sovellukset k
+ pelilt
+ pelinaikaisen yhteis
+ poistat yhden eston ja testaat yhden lis
+ pysyv
+ ruudukkon
+ sovellukselle:",
+ sovelluksen n
+ tai kokeilla toista USB-porttia.",
+ taustakuvissa, mill
+ taustavaihtoehtoja.",
+ tavoitellaan mukaansatempaavaa kokemusta. Poista se k
+ toistolistavalikko",
+ useimmissa tapauksissa sovellus pit
+ uudelleen, jotta asetukset astuvat voimaan (oletuksena 100 %).",
+ uudelleen, jotta jotkut asetukset tulevat voimaan.",
+ uudelleen, jotta m
+ uudelleen, jotta muutokset toimivat kunnolla.",
+ vanha m
+ varoituksia ja h
+ virheenkorjauspalvelimen, jotta kehitt
+ virtuaaliesteen rajat",
+ virtuaalitodellisuuslasisi laiteohjelmisto ja grafiikka-ajurisi ovat ajan tasalla.",
+ yleisasetuksia",
+%2$s %]",
+, jolloin saat kapeamman 
+, jos valitsemasi taustakuva n
+, kun SteamVR-tilaikkuna on pienennetty",
+, kun on kulunut",
+, kun virtuaalitodellisuuslasit ovat jatketussa tilassa.",
+, mutta SteamVR ei voi hallinnoida p
+, mutta grafiikka-ajurisi ei pysty havaitsemaan sit
+, sosiaalisista toiminnoista ja muusta!",
+. Jatka painamista yl
+. Saat t
+. Toimintoa k
+. Varmista, ett
+...",
+: %1$s. Sovellus on k
+: 3,5 mm",
+aikaa 3,5-millisen liit
+asetukset k
+asetukset",
+ennakointi (ms):",
+hennys",
+ilytt
+in muut ihmiset saavat VR-lasien k
+in viel
+in, jotta voit s
+inen",
+innin resoluutio",
+inti, kun tietokone on lukittuna.",
+intilaatu",
+isty",
+isyys (m)",
+ity)",
+ivitystiheyden m
+ivitystiheyden ohitus",
+ivitystiheys (hz)",
+ivitystiheys",
+ivitystiheytt
+kalut ja virheenkorjaus yhdistet
+kentt
+korkeus (m)",
+ksy t
+ksy\".",
+kyvyys",
+liaikaiset varoitukset on nollattu, ja ne n
+liittym
+lilehdell
+lilehdet",
+lilehti",
+lilehtin
+ljitint
+ljittimen rooli",
+ljittimi
+ljitys kameran ollessa p
+ljityst
+lle sovellukselle.",
+lle testataksesi sit
+lle.",
+llimm
+lytyksi
+minen, saattavat toimia arvaamattomasti.",
+miseksi, kun k
+misen. Toiminnot, kuten objektin heitt
+n %1$s kertaa suorittaaksesi kalibroinnin loppuun.",
+n Chromium-ty
+n VR-laseja",
+n Web Helper -virheenkorjaus",
+n alhaisemman rajan.",
+n asetuksen valitseminen mahdollistaa eri p
+n asetuksen valitseminen poistaa asynkronisen uudelleenprojektion t
+n huomio",
+n huomion.",
+n ja off-ear-kaiuttimien kautta.",
+n kaksoisklikkaamalla j
+n katselukokemuksen s
+n kuvatarkkuuden hienos
+n lattialla, tilasi keskell
+n liikett
+n liikkeen pehmennys t
+n oletus",
+n rajoittamisarvon poistat k
+n render
+n sijainti",
+n skaala",
+n sovelluksen kohdalla. (Liikkeen pehmennyksen yleisasetukset ovat <font color=#eeeeee>%1</font>.)",
+n sovellukset ovat k
+n sovellus)",
+n sovellus, kun SteamVR k
+n tarkkuudella %1$s.",
+n tarvittaessa uudelleen.",
+n tietyiss
+n tila",
+n tumma tila",
+n tyyli",
+n upotettuihn Chromium-sivuihin. Se on aina p
+n, jos sovellus jumiutuu",
+n, kun pelej
+n, kun ty
+n, mutta tarkemman kuvanlaadun. Huomaa, ett
+nen peilauksen 
+nen peilaus",
+nen sis
+nen ulostulolaite",
+nen vahvistuksen v
+nen yht
+nenvoimakkuutta erikseen (beta)",
+ni)",
+nohjain-/ajuriversiolla (vaatii asynkronisen uudelleenprojektion tuen).",
+ntulolaite",
+onnistui",
+osan kerrallaan.",
+osat on automaattisesti estetty.",
+osia",
+painiketta painetaan.",
+painiketta.",
+painikkeesta",
+pikuultamaton tila",
+pikuultava tila",
+raportti",
+reisn
+rii puolella kuvataajuudella.",
+rilliset rajat",
+rilliset siluetit",
+ristyneelt
+rittelyn sovellukselle yleisist
+rityksen k
+ritykset VR:ss
+ritykset astuvat voimaan.",
+ritykset",
+rityksi
+rityksill
+ritys on kerroin nykyisille sovellusresoluutioasetuksille, jotka ovat vasemmalla olevalla v
+ritys",
+rityshakemisto",
+rityst
+ritysten k
+rjestelm
+set milloin tahansa huonen
+si tukee vain yht
+sittely",
+t kunkin silm
+t pysy mukana.",
+t pysyv
+t, kun on kulunut",
+tarjottimelle, kun se on kutistettu.",
+te peitetasoista (kokeelllinen)",
+tila",
+ydy",
+yksen suodatus",
+yksen suodatusasetukset:",
+ynniss
+ynnist
+ynnistett
+ynnistyksen yhteydess
+ynnistymiseen) asti.",
+ynnistys / sammutus",
+ynnistyy.",
+ytett
+ytynyt",
+ytyy k

@@ -1,1239 +1,1550 @@
-"lang"
-{
-"Language" "norwegian"
-"Tokens"
-{
-
-"VRController_NoDriver" "Ingen driver"
-"VRController_NoDisplay" "Ingen skjerm"
-"SteamUniverse_NoSteamAvailable" "Steam-feil"
-"SteamUniverse_InvalidSteamUniverse" "Ugyldig Steam Universe"
-"SteamUniverse_Public" "Offentlig"
-"SteamUniverse_Beta" "Beta"
-"SteamUniverse_Internal" "Intern"
-"SteamUniverse_Dev" "Dev"
-"CompositorError_NoCompositorRequested" "SteamVR-feil"
-"CompositorError_Running" "Kjører"
-"VRState_Off" "Av"
-"VRState_Searching" "Søker …"
-"VRState_SearchingWithAlert" "Søker …"
-"VRState_Ready" "Klar"
-"VRState_Standby" "Ventemodus"
-"Startup_OpenGLIsNotInstalled" "Installer OpenGL før du bruker SteamVR."
-"Startup_DisplayLinkIsInstalled" "DisplayLink er ikke er kompatibelt med SteamVR. Avinstaller DisplayLink-drivere og -programvare fra datamaskinen, og start på nytt før du bruker SteamVR."
-
-"StatusError_NoHMDAvailable" "Hodesett utilgjengelig."
-"StatusError_HMDDoesNotTrack" "Hodesettet sporer ikke."
-"StatusError_NoCompositorAvailable" "En nøkkelkomponent i SteamVR fungerer ikke ordentlig."
-"StatusError_CompositorNotFullscreen" "En nøkkelkomponent i SteamVR fungerer ikke ordentlig."
-"StatusError_CompositorNotRunning" "En nøkkelkomponent i SteamVR fungerer ikke ordentlig."
-"StatusError_CompositorTooManyRunning" "En nøkkelkomponent i SteamVR fungerer ikke ordentlig."
-"StatusError_PrismNotRunning" "En nøkkelkomponent i SteamVR fungerer ikke ordentlig."
-"StatusError_VRServerNotRunning" "En nøkkelkomponent i SteamVR fungerer ikke ordentlig."
-"StatusError_TrackingDevice_NotValid" "Enheten gjenkjennes ikke."
-"StatusError_Chaperone_Error" "SteamVR støtte på en feil med Chaperone-systemet."
-"StatusError_LighthouseEvent" "SteamVR støtte på en feil i sporingssystemet."
-"StatusError_SteamVRServiceNotInstalled" "SteamVRs hjelpertjeneste er ikke installert."
-"StatusError_UnknownError" "Ukjent feil (%1)" 
-
-"StatusWarning_System_NoSteamAvailable" "Start Steam"
-"StatusWarning_System_Chaperone_Warning" "Utfør romoppsettet"
-"StatusWarning_TrackingDevice_FirmwareUpdateNeeded" "Enhetsoppdateringer kreves"
-"StatusWarning_TrackingDevice_NoPose" "Søker …"
-"StatusWarning_System_ConnectionRefusedBySteam" "Steam har problemer med å koble til …"
-"StatusWarning_System_NeedDirectModeGraphicsDriverUpdate" "Oppdater datamaskinens skjermdriver"
-"StatusWarning_UnknownWarning" "Ukjent advarsel (0x%1)"
-
-"DismissableWarning_DismissButton" "Avvis"
-"DismissableWarning_RunTutorialAgain" "Begynn opplæring (0x0001)"
-"DismissableWarning_BasestationsTooFarApart" "Basestasjonene er for langt fra hverandre (0x0002)"
-"DismissableWarning_OpticalBasestationSyncWarning" "Basestasjonsadvarsel (0x0004)"
-"DismissableWarning_BasestationSingleBaseModeHint" "Basestasjonshint (0x0008)"
-"DismissableWarning_WarningsForTheFirstTime" "Førstegangsadvarsler (0x0010)"
-"DismissableWarning_MissedFrames" "Tapte bilder (0x0020)"
-"DismissableWarning_PowerSchemeIsNotHighPerformance" "Ytelsesfeil (0x0040)"
-"DismissableWarning_BluetoothDriverNeedsInstallation" "Bluetooth-driver kreves (0x0080)"
-"DismissableWarning_BluetoothDriverNeedsUpdate" "Bluetooth-driver må oppdateres (0x0100)"
-"DismissableWarning_BluetoothLinkServiceNotFound" "Bluetooth ikke tilgjengelig (0x0200)"
-"DismissableWarning_BluetoothLinkServiceError" "Bluetooth ikke tilgjengelig (0x0400)"
-"DismissableWarning_BluetoothLinkCommunicationFailed" "Bluetooth-kommunikasjon mislyktes (0x0800)"
-"DismissableWarning_SomeDisplaysAreMirroring" "Noen skjermer bruker speiling (0x1000)"
-"DismissableWarning_UnknownHardwareDetected" "Ny enhet oppdaget (0x2000)"
-"DismissableWarning_WindowsAeroDisabled" "Skjermadvarsel (0x4000)"
-"DismissableWarning_Windows8" "Windows 8 (0x8000)"
-"DismissableWarning_DisplayInExtendedMode" "Skjermadvarsel (0x10000)"
-"DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Basestasjonskonflikt (0x400000)"
-"DismissableWarning_SteamVRInSafeMode" "SteamVR i sikkermodus (0x1000000)"
-
-"DismissableWarning_Detected" "Oppdaget"
-"DismissableWarning_TimeFormat" "HH:mm"
-
-"TrackedDeviceClass_Invalid" "Ugyldig"
-"TrackedDeviceClass_HMD" "Hodesett"
-"TrackedDeviceClass_Controller" "Kontroller"
-"TrackedDeviceClass_TrackingReference" "Basestasjon"
-"TrackedDeviceClass_GenericTracker" "Sporingsenhet"
-"TrackedDeviceClass_Unknown"  "Ukjent sporet enhet"
-"StatusCheckInterval_Never" "Aldri"
-"StatusCheckInterval_Seldom" "Sjelden (5 sek)"
-"StatusCheckInterval_Normal" "Normal (1 sek)"
-"StatusCheckInterval_Often" "Ofte (100 ms)"
-"Log_Window_Title" "Logg – %1"
-"Log_Button_Clear" "Tøm"
-"Log_Button_ShowInExplorer" "Vis i utforsker"
-"Log_Button_LoadCompleteFile" "Last inn hele filen"
-"Log_Text_MoreLineInTheActualFile" "FLERE LINJER I DEN EGENTLIGE FILEN\n\n"
-
-"Status_Title" "SteamVR-status"
-"Status_MenuButton_SteamVR" "STEAMVR"
-"Status_MenuButton_SteamVR_Branch" "STEAMVR %1"
-"Status_HMD" "Hodesett"
-"Status_Controller" "Kontroller"
-"Status_Base" "Basestasjon"
-"Status_Starting" "Starter"
-"Status_Quitting" "Avslutter"
-
-"ShutdownWhileAppRunning_Title" "Avslutt SteamVR?"
-"ShutdownWhileAppRunning_Format" "Dette vil også avslutte «%1». Vil du fortsette nå?"
-
-"RebootWhileAppRunning_Title" "Start SteamVR på nytt?"
-"RebootWhileAppRunning_Format" "Dette vil også avslutte «%1». Vil du starte på nytt nå?"
-
-"FrameTiming_Title" "Bildetiming"
-"FrameTiming_Idle" "Uvirksom"
-"FrameTiming_Vsync" "Vsync"
-"FrameTiming_Compositor" "Komposisjonsbehandler"
-"FrameTiming_PreSubmit" "Program (scene)"
-"FrameTiming_PostSubmit" "Program (annet)"
-"FrameTiming_MisPresented" " – Omprojiserte"
-"FrameTiming_FirstView" " – Først sett"
-"FrameTiming_ReadyForUse" " – Klar til bruk"
-"FrameTiming_Other" "Annet"
-"FrameTiming_LateStart" "Sen start"
-"FrameTiming_Presented" " – Nåværende (antall)"
-"FrameTiming_Predicted" " – Forutsi (ekstra)"
-"FrameTiming_Throttled" " – Begrensede (bilder)"
-"FrameTiming_Pause" "Sett på pause"
-"FrameTiming_Raw" "Detaljer"
-"FrameTiming_ShowInHeadset" "Vis i hodesett"
-"FrameTiming_Remote" "Ekstern"
-
-"FrameTiming_5sStats" "Tap de siste %1s:\n %2 enkelt bilde\n %3 2 bilder\n %4 3 bilder\n %5 4 eller flere\n Totalt %6\n"
-"FrameTiming_Config" "Varsle hvis vi over %3s ser\n  %1 enkelte bilder tapt\n  eller %2 tap av flere bilder"
-
-"SteamVRSystemState_Off" "Av"
-"SteamVRSystemState_Ready" "Spiller nå"
-"SteamVRSystemState_Connecting" "Søker …"
-"SteamVRSystemState_Standby" "I ventemodus"
-"SteamVRSystemState_Shutdown" "Avslutter VR …"
-"SteamVRSystemState_Installing" "Maskinvareoppsett i gang …"
-"SteamVRSystemState_Restart" "Starter SteamVR på nytt …"
-"SteamVRSystemState_Startup" "Starter VR …"
-"SteamVRSystemState_ShutdownRequested" "Avslutter VR …"
-"SteamVRSystemState_PauseRequested" "Setter på pause …"
-"SteamVRSystemState_Paused" "Satt på pause"
-"SteamVRSystemState_UnpauseRequested" "Starter …"
-"SteamVRSystemState_Paused_FirmwareUpdate" "Oppdaterer enheter …"
-"SteamVRSystemState_PseudoState_Waiting" "Venter …"
-"SteamVRSystemState_PseudoState_Welcome" "Velkommen"
-
-"SteamVRSystemState_Ready_Application" "%1"
-"SteamVRSystemState_Connecting_Application_Lighthouse" "Sørg for at hodesettet kan se basestasjonene"
-"SteamVRSystemState_Connecting_Application_InsideOutCamera" "Sørg for at hodesettet kan se spilleområdet"
-"SteamVRSystemState_Connecting_Application_OutsideInCamera" "Sørg for at sporingskameraene kan se hodesettet"
-"SteamVRSystemState_Standby_Application" "Ta på deg hodesettet for å vekke VR"
-"SteamVRSystemState_PseudoState_Welcome_Application" "Koble til VR-hodesettet"
-
-"MenuAction_StatusBar" "Status"
-"MenuAction_RoomOverview" "Vis romoversikt"
-"MenuAction_Settings" "Innstillinger"
-"MenuAction_LegacySettings" "Utviklerinnstillinger"
-"MenuAction_BluetoothSettings" "Bluetooth-innstillinger"
-"MenuAction_BaseStationSettings" "Basestasjonsinnstillinger"
-"MenuAction_DiagnosticsMenu" "Diagnostikk"
-"MenuAction_MainPlaylistMenu" "Spillelister"
-"MenuAction_PlaylistEditor" "Spillelistebehandling"
-"MenuAction_PlaylistPlayer" "Spillelistespiller"
-"MenuAction_RunPlaylist" "Kjør spilleliste"
-"MenuAction_RecentPlaylist" "Nylig"
-"MenuAction_ClearRecentPlaylist" "Fjern nylig spilleliste"
-"MenuAction_Quit" "Avslutt"
-"MenuAction_About_vrmonitor" "Om SteamVR"
-"MenuAction_AboutQt" "Om Qt"
-"MenuAction_Help" "Hjelp"
-"MenuAction_Devices" "Enheter"
-"MenuAction_Developer" "Utvikler"
-"MenuAction_WebDevTools" "Webutviklingsverktøy"
-"MenuAction_SteamVRWebsite" "SteamVR-støtte"
-"MenuAction_SteamVRCommunity" "SteamVR-samfunn"
-"MenuAction_SteamVRHardwareDiscussions" "SteamVR-maskinvarediskusjoner"
-"MenuAction_SteamVRDeveloperSupport" "SteamVR-utviklerstøtte"
-"MenuAction_SteamWorksDeveloperSupport" "SteamWorks-utviklerstøtte"
-"MenuAction_CreateSystemReport" "Opprett systemrapport"
-"MenuAction_ResetSeatedPosition" "Tilbakestill sittende posisjon"
-"MenuAction_SystemReportViewer" "Systemrapportvisning"
-"MenuAction_DisplayFrameTiming" "Avansert bildetiming"
-"MenuAction_RecordTrackingData" "Ta opp sporingsdata"
-"MenuAction_StopRecording" "Stopp innspilling"
-"MenuAction_Crash" "Krasj"
-"MenuAction_RefreshStatusNow" "Oppdater status nå"
-"MenuAction_ViewLogDirectory" "Vis logger"
-"MenuAction_ShowLogDirectory" "Vis loggmappe"
-"MenuAction_ShowConfigDirectory" "Vis konfigurasjonsmappe"
-"MenuAction_ShowRuntimeDirectory" "Vis kjøretidsmappe"
-"MenuAction_RunRoomSetup" "Romoppsett"
-"MenuAction_RunTutorial" "Opplæring"
-"MenuAction_RunMediaPlayer" "Mediespiller"
-"MenuAction_RecentPlaylists" "Nylige spillelister"
-"MenuAction_Diagnostics" "Avansert"
-"MenuAction_Directories" "Mapper"
-"MenuAction_LogFiles" "Loggfiler"
-"MenuAction_More" "Mer"
-"MenuAction_CouldNotReadLogFiles" "Kunne ikke lese loggfiler"
-"MenuAction_PairingWizard" "Tilknytt kontroller"
-"MenuAction_FirmwareUpdate" "Oppdater enhet"
-"MenuAction_SetLogDirectory" "Angi loggmappe"
-"MenuAction_SetConfigDirectory" "Angi konfigurasjonsmappe"
-"MenuAction_ShowDisplayMirror" "Vis VR-visning"
-"MenuAction_HideDisplayMirror" "Skjul VR-visning"
-"MenuAction_DisplayMirror" "Vis VR-visning"
-"MenuAction_PerformanceGraph" "Vis ytelsesgraf"
-"MenuAction_ShowControllerBinding" "Kontrollerinnstillinger"
-"MenuAction_ShowManageTrackers" "Behandle sporingsenheter"
-"MenuAction_UpdateFirmware" "Oppdater enhet"
-"MenuAction_ForceFirmware" "Tving fastvare"
-"MenuAction_DirectMode" "Direkte skjermmodus"
-"MenuAction_EnableDirectMode" "Slå på direkte skjermmodus"
-"MenuAction_DisableDirectMode" "Slå av direkte skjermmodus"
-"MenuAction_PairController" "Tilknytt kontroller"
-"MenuAction_PowerOffController" "Slå av kontroller"
-"MenuAction_IdentifyBaseStation" "Identifiser basestasjon"
-"MenuAction_Workshop" "Workshop"
-"MenuAction_Workshop_UploadItem" "Last opp ny bakgrunn"
-"MenuAction_Workshop_EditItem" "Rediger eksisterende bakgrunn"
-"MenuAction_Workshop_RunTools" "Opprett/rediger en omgivelse"
-"MenuAction_Workshop_ViewWiki" "SteamVR-omgivelser – Wiki"
-"MenuAction_Workshop_Browse" "Bla gjennom Workshop"
-"MenuAction_ModelDirectory_Browse" "Bla gjennom modellmappe"
-"MenuAction_WakeupAllBaseStations" "Vekk basestasjoner"
-"MenuAction_KnockKnock" "Bank på"
-"MenuAction_PairTracker" "Tilknytt sporingsenhet"
-"MenuAction_PowerOffTracker" "Slå av sporingsenhet"
-"MenuAction_ReportABug" "Rapporter en feil"
-"MenuAction_WebConsole" "Nettkonsoll"
-"MenuAction_OverlayViewer" "Overleggvisning"
-"MenuAction_DebugCommands" "Feilsøkingskommandoer"
-"MenuAction_WebDevToolsPlaceholder" "Fant ingen forekomster"
-
-
-"MonitorController_SwitchDirectMode_Header" "Direkte skjermmodus"
-"MonitorController_EnableDirectMode_Text" "SteamVR startes på nytt etter at direkte skjermmodus slås på. Vil du fortsette?"
-"MonitorController_DisableDirectMode_Text" "ADVARSEL: Skjermene i hodesettet utvides til skrivebordet, hvis du slår av direkte skjermmodus, og anbefales ikke. Er du sikker på at du vil slå av direkte skjermmodus? SteamVR startes på nytt etter at denne endringen utføres."
-
-"MonitorController_SwitchSafeMode_Header" "Sikkermodus"
-"MonitorController_EnableSafeMode_Text" "<span>Sikkermodus</span> kan brukes til å begrense SteamVR-prosesser til kun det som er nødvendig, når det oppstår kompatibilitetsproblemer.<p>Er du sikker på at du vil slå på sikkermodus? SteamVR startes på nytt etter at denne endringen utføres.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Les mer</a>."
-
-"TrayIcon_Tooltip_vrmonitor" "SteamVR-status"
-"MonitorController_SelectRecordingDirectory" "Velg innspillingsmappe"
-"MonitorController_LoadPlaylist" "Last inn spilleliste"
-"MonitorController_Information_Title" "SteamVR"
-"MonitorController_RestartSystemNotPossible" "SteamVR kan ikke startes på nytt automatisk på akkurat n[. \nAvslutt SteamVR og prøv igjen. Hvis dette ikke hjelper, start datamaskinen på nytt."
-"MonitorController_NotAbleToMakeCompositorFullscreen" "SteamVR har problemer med å aktivere fullskjermmodus."
-"MonitorController_ApplicationsInterfaceNotAvailable" "Kunne ikke starte %1. Programmets grensesnitt er ikke tilgjengelig."
-"MonitorController_ApplicationCouldNotStart" "Kunne ikke starte %1: %2."
-"MonitorController_Version" "Versjon %1"
-"MonitorController_ResetCompleteSetup_Text" "Dette vil fullstendig tilbakestille installasjonen av SteamVR og starte programmet på nytt."
-"Settings_Title" "SteamVR-innstillinger"
-"Settings_Bluetooth_Title" "Bluetooth-innstillinger"
-"Settings_BaseStations_Title" "Basestasjonsinnstillinger"
-"Settings_Developer_Title" "Utviklerinnstillinger"
-"Settings_Checks" "Sjekker"
-"Settings_Notifications" "Varsler"
-"Settings_Applications" "Program"
-"Settings_DisplayMode" "Visningsmodus"
-"Settings_DisplayMode_Extend" "Utvid skrivebord til skjerm"
-"Settings_DisplayMode_MirrorWindow" "VR-visning"
-"Settings_OpenVRPaths" "OpenVR-stier"
-"Settings_Reset" "Tilbakestill"
-"Settings_PerfCheck" "PerfCheck"
-"Settings_CheckForSteam" "Sjekk etter Steam"
-"Settings_CheckStatus" "Sjekk status"
-"Settings_Firmware_UpdateAvailable" "Oppdatering tilgjengelig"
-"Settings_NotAvailableAtThisTime" "Alle innstillingene er ikke tilgjengelige akkurat nå"
-"Settings_EnableLinuxGPUProfiling" "Slå på GPU-profilering"
-"Settings_EnableDashboard" "Slå på VR-dashbord"
-"Settings_ArcadeMode" "Slå på arkademodus"
-"Settings_PauseOnStandby" "Sett gjengivelse på pause når hodesettet er uvirksomt"
-"Settings_DebugInputBindings" "Slå på feilsøkingsalternativer i grensesnittet for inndatabinding"
-"Settings_DoNotFadeToGrid" "Ikke skift til rutenett når programmet ikke svarer"
-
-"Settings_ShowPlaylistMenu" "Vis spillelistemeny"
-"Settings_StartSteamVROnAppLaunch" "Start SteamVR når et VR-program startes"
-
-"Settings_RestartText" "<html><B>Start miljøet på nytt etter at du endrer disse stiene.</b></html>"
-"Settings_RuntimePath" "Kjøresti:"
-"Settings_Set" "Angi …"
-"Settings_ConfigPath" "Konfigurasjonssti:"
-"Settings_LogPath" "Loggsti:"
-"Settings_Refresh" "Oppdater"
-"Settings_SetSelectedPaths" "Angi valgte stier"
-"Settings_SelectRuntimePath" "Velg kjøresti"
-"Settings_SelectConfigPath" "Velg konfigurasjonssti"
-"Settings_SelectLogPath" "Velg loggsti"
-"Settings_ResetQtSettings" "Tilbakestill Qt-innstillinger"
-"Settings_ResetRuntimeAndQuit" "Tilbakestill kjøretiden basert på SteamVR-plasseringen og start på nytt"
-"Settings_ResetCompleteSetupAndQuit" "Tilbakestill hele oppsettet og start på nytt"
-"Settings_ResetChaperoneToHeadsetInMiddleOfFloor" "Tilbakestill Chaperone til hodesettet midt på gulvet"
-"Settings_SmallSpace" "Lite område"
-"Settings_MediumSpace" "Middels område"
-"Settings_LargeSpace" "Stort område"
-"Settings_GiganticSpace" "Gigantisk område"
-"Settings_RemoveAllUSBDevices" "Fjern alle SteamVR-USB-enheter"
-"Settings_ResetChaperoneToDK2Default" "Tilbakestill Chaperone til standard for Oculus Rift DK2"
-
-"Settings_Information_Title" "SteamVR"
-"Settings_ResetQtSettings_Text" "Du vil tilbakestille Qt-innstillingene.\n\nEr du sikker?"
-"Settings_ResetRuntimeBasedOnVRMonitorAndQuit_Text" "Dette vil tilbakestille SteamVR-stien basert på plasseringen til SteamVRs programfil, og starte SteamVR på nytt. \n\nEr du sikker?"
-"Settings_RemoveAllRelevantUSBDevices_Text" "Dette vil fjerne alle SteamVR-USB-enheter fra systemet. Du må koble enhetene ut og inn igjen, slik at systemet installerer drivere.\n\nEr du sikker?"
-"Settings_RemoveAllRelevantUSBDevices_FailToStart" "Hjelpeprogrammet for å fjerne USB-enheter kunne ikke starte.\nSørg for at du kjører programmet som en administrator.\n"
-"Settings_RemoveAllRelevantUSBDevices_Crash" "Hjelpeprogrammet for å fjerne USB-enheter krasjet.\nPrøv igjen.\n"
-"Settings_RemoveAllRelevantUSBDevices_Success" "Alle relevante USB-enheter er fjernet. Koble fra eventuelle USB-kabler for VR, og start datamaskinen på nytt. Deretter koble til enhetene igjen.\n"
-"Settings_RemoveAllRelevantUSBDevices_PartialSuccess" "Noen relevante USB-enheter kunne ikke fjernes. Prøv igjen.\n"
-"Settings_DisableEnhancedPowerManagement_FailToStart" "Hjelpeprogrammet kunne ikke starte.\nSørg for at du kjører programmet som en administrator.\n"
-"Settings_DisableEnhancedPowerManagement_Crash" "Hjelpeprogrammet krasjet.\nPrøv igjen.\n"
-"Settings_DisableEnhancedPowerManagement_Success" "Forbedret strømstyring i Windows er slått av for installerte SteamVR-USB-enheter.\n\nDu må koble USB-enhetene ut og inn igjen for at endringene skal tre i kraft.\n"
-"Settings_NotificationDoNotDisturb_Info" "  "
-"Settings_NotificationDoNotDisturb_Text" "Ikke forstyrr – skjul Steam-varsler i VR"
-"Settings_NotificationKnockKnock_Text" "Vis «Bank på»"
-"Settings_NotificationKnockKnock_Info" "Dette lar andre få oppmerksomheten til personen som er i VR."
-
-"Settings_Developer_Text" "Utviklerinnstillinger"
-"Settings_Developer_Info" "Viser avanserte innstillinger og alternativer for utviklere"
-"Settings_StatusWindowAlwaysOnTop_Info" " "
-"Settings_StatusWindowAlwaysOnTop_Text" "Alltid vis øverst"
-"Settings_StatusWindowMinimizeToTray_Text" "Minimer til systemstatusfeltet"
-"Settings_StatusWindowHidePopups_Text" "Skjul VR-advarsler og varsler når minimert"
-"Settings_HomeAppCheck" "Bruk SteamVR Home"
-"Settings_HomeAppDesc" "Dra nytte av virtuelle omgivelser, sosiale funksjoner og mer."
-"Settings_NightModeCheck" "Nattmodus"
-"Settings_NightModeDesc" "Demp lyset i hodesettet frem til kl. 05.00 (eller frem til SteamVR startes på nytt)."
-"Settings_LockedModeCheck" "Slå på hodesettet mens datamaskinen er låst"
-"Settings_LockedModeDesc" "
-"
-
-"Settings_Dashboard_Explanation" "Disse programmene vil være tilgjengelige som overlegg i VR-dashbordet."
-"Settings_BaseStationsWakeUpAll" "Vekk alle basestasjoner"
-"Settings_BaseStationsWakeUpAll_Explanation" "Vekker alle basestasjonene som er en del av den trådløse strømstyringen."
-"Settings_EnableScreenshots_Info" "Bruk systemknapp + avtrekker for å ta et skjermbilde"
-"Settings_EnableScreenshots_Text" "Slå på skjermbilder (BETA)"
-"Settings_DefaultScreenshotType_Text" "Skjermbildetype"
-"Settings_DefaultScreenshotType_Info" "Velg standardtypen til skjermbilder. Merk at noen VR-programmer muligens ikke støtter valgt type, og vil nedgradere til stereoskopisk."
-"Settings_DefaultScreenshotType_Mono" "Vanlig"
-"Settings_DefaultScreenshotType_Stereo" "Stereoskopisk"
-"Settings_DefaultScreenshotType_Cubemap" "Cubemap"
-"Settings_DefaultScreenshotType_MonoPanorama" "Mono-panorama"
-"Settings_DefaultScreenshotType_StereoPanorama" "Stereo-panorama"
-
-"Settings_UseBluetoothLink_Text" "Slå på Bluetooth"
-"Settings_UseBluetoothLink_Info" "Få tilgang til trådløs strømstyring av basestasjoner og enhetsoppdateringer med Bluetooth. Dette kan også aktiverer flere funksjoner for noen VR-enheter."
-
-"Settings_Bluetooth_ServicesNotAvailable" "Bluetooth er ikke tilgjengelig"
-"Settings_Bluetooth_Driver_Install" "Installer Bluetooth-driver"
-"Settings_Bluetooth_Driver_Install_Description"	"Installer Bluetooth-driveren til koblingsboksen for å aktivere trådløse funksjoner for Bluetooth-kommunikasjon. Dette krever administratorrettigheter."
-"Settings_Bluetooth_Driver_Update" "Oppdater Bluetooth-driver"
-"Settings_Bluetooth_Driver_Update_Description" "Oppdater Bluetooth-driveren til koblingsboksen for å aktivere funksjoner for Bluetooth-kommunikasjon. Dette krever administratorrettigheter."
-"Settings_Bluetooth_RetryConnection" "Prøv på nytt"
-
-"Settings_BaseStation_BluetoothBusy" "Venter på Bluetooth …"
-"Settings_BaseStation_BluetoothRequired" "Slå på Bluetooth for å få tilgang til trådløse funksjoner, slik som strømstyring av basestasjoner og oppdateringer."
-"Settings_BaseStation_OpenSettingsBluetooth" "Vis Bluetooth-innstillinger"
-"Settings_BaseStation_PowerManagement" "Strømstyring"
-"Settings_BaseStation_PowerManagement_Explanation" "Vekk og sett basestasjoner i ventemodus, basert på bruken av SteamVR."
-"Settings_BaseStation_ScanForBaseStations" "Skann etter basestasjoner"
-"Settings_BaseStation_ScanForBaseStations_Explanation" "Finn kjente basestasjoner som kringkaster Bluetooth-signalene sine."
-"Settings_BaseStation_ConfigureBaseStations" "Konfigurer kanaler på basestasjoner"
-"Settings_BaseStation_ConfigureBaseStations_Explanation" "Finn basestasjoner og konfigurer kanalene deres for å unngå konflikter."
-"Settings_BaseStation_BaseStation10" "Basestasjon 1.0"
-"Settings_BaseStation_BaseStation20" "Basestasjon 2.0"
-"Settings_BaseStation_ContinueBaseStationUpdate" "Gjenopprett fra en ufullstendig oppdatering"
-"Settings_BaseStation_ContinueBaseStationUpdate_Explanation" "Reparer en avbrutt oppdatering, som forhindrer basestasjonen fra å spore normalt."
-
-"Settings_USB_Component_Hub" "Hub"
-"Settings_USB_Component_HubController" "Hub-kontroller"
-"Settings_USB_Component_HubBluetooth" "Bluetooth"
-"Settings_USB_Component_WatchmanBoard" "Sporingskort"
-"Settings_USB_Component_Camera" "Kamera"
-"Settings_USB_Component_Audio" "Lydenhet"
-"Settings_USB_Component_HTCBoard" "Hovedkort"
-"Settings_USB_Component_Dongle1" "Trådløs mottaker 1"
-"Settings_USB_Component_Dongle2" "Trådløs mottaker 2"
-
-"Settings_USB_ViveDevices" "<b>Enheter</b>"
-"Settings_USB_PressRefresh" "<b>Trykk «Oppdater» for å se etter tilkoblede enheter …</b>"
-"Settings_USB_LookingForConnections" "<b>Ser etter tilkoblede enheter …</b>"
-"Settings_USB_NoDevicesFound" "<font color=red><b>Ingen tilkoblede Vive-enheter.</b></font>"
-
-"Settings_USB_ViveLinkBoxHeader" "<b>Vive-koblingsboks</b>"
-"Settings_USB_ViveHeadsetHeader" "<b>Hodesett</b>"
-
-"Settings_USB_EnhancedStatus" "Vis detaljer"
-"Settings_USB_Refresh" "Oppdater"
-
-"Settings_Developer_General_Header" "Utvikler"
-"Settings_Advanced_Status_Header" "Statussjekk"
-"Settings_Advanced_RoomAndTracking_Header" "Rom og sporing"
-"Settings_Advanced_Reset_Header" "Tilbakestill"
-"Settings_Advanced_Paths_Header" "Stier"
-"Settings_Advanced_DirectMode_Header" "Direkte skjermmodus"
-"Settings_Advanced_MotionSmoothing_Header" "Bevegelsesutjevning"
-"Settings_Advanced_MotionSmoothing_Description" "Syntetiserer nye bilder for å sørge for en god opplevelse, når det kjøres programmer som ikke kan holde følge."
-"Settings_Advanced_MotionSmoothing" "Slå på bevegelsesutjevning"
-"Settings_Advanced_MotionSmoothing_Disabled" "Bevegelsesutjevning støttes ikke på dette skjermkortet, eller så er driverne utdaterte."
-"Settings_Advanced_MotionSmoothing_Disabled_Win7" "Bevegelsesutjevning støttes ikke på eldre versjoner av Windows."
-
-"Settings_Advanced_RefreshRate_Header" "Oppdateringsfrekvens"
-"Settings_Advanced_RefreshRate_HzSuffix" "Hz"
-"Settings_Advanced_RefreshRate_NotFound" "<b>MERK:</b> Ytterligere oppdateringsfrekvenser støttes av hodesettet, men de ble ikke registrert av skjermdriveren. Bekreft at fastvaren til hodesettet og skjermdriverne er oppdaterte."
-"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>MERK:</b> Ytterligere oppdateringsfrekvenser støttes av hodesettet, men SteamVR kan ikke behandle oppdateringsfrekvenser når hodesettet er i utvidet modus. <a href='vrmonitor://directmode/enable'><span style='color:white;'>Slå på direkte skjermmodus.</span></a>"
-"Settings_Advanced_Restart" "<i>Denne avventende endringen trer i kraft når du <a href='vrmonitor://restartsystem'><span style='color:white;'>starter SteamVR på nytt</span></a></i>"
-
-"Settings_Advanced_Supersampling_Header" "Programoppløsning"
-"Settings_Advanced_AllowSupersampleFiltering" "Slå på avansert supersamplingsfiltrering" 
-"Settings_Advanced_Supersampling_Warning" "<b>ADVARSEL:</b> Oppløsningsinnstillingen nedenfor vil påvirke alle programmer. Gå til programfanen for å endre oppløsningen til et bestemt program."
-"Settings_Advanced_SupersamplingManualOverride" "Slå på tilpasset oppløsning"
-"Explanation_Supersampling_Header" "SteamVR stiller automatisk inn programoppløsningen basert på skjermkortets ytelse."
-"Explanation_Supersampling" "*Noen programmer krever en omstart for at de nye innstillingene skal tre i kraft."
-"Explanation_SupersamplingFiltering" "Innstillinger for supersamplingsfiltrering"
-
-"Settings_GpuInfo_Header" "Maskinvare"
-"Settings_GpuInfo_Headset" "Hodesett"
-"Settings_GpuInfo_NoHeadset" "Fant intet hodesett"
-"Settings_GpuInfo_GpuName" "Skjermkort"
-"Settings_GpuInfo_GpuDriver" "Skjermdriver"
-"Settings_GpuInfo_GpuSpeed" "Målt GPU-hastighet"
-"Settings_GpuInfo_Current" "Den gjeldende innstillingen gjengir hvert øye i"
-"Settings_GpuInfo_Recommended" "Den anbefalte innstillingen for skjermkortet og hodesettet er"
-
-"Settings_PerApplication_Header" "Bruk dette til å opprette unike innstillinger per program"
-"Settings_PerApplication_AppResTitle" "Tilpasset oppløsning"
-"Settings_PerApplication_AppResHeader" "Denne innstillingen er en multiplikator for programoppløsningen i videoinnstillingene (standard er 100%). Dette programmet må muligens startes på nytt for at innstillingen skal tre i kraft."
-"Settings_PerApplication_AppResFooter" "Den gjeldende innstillingen gjengir hvert øye i <font color=#eeeeee>%1x%2</font>"
-"Settings_PerApplication_OverlayVisibleHeader" "Overleggsprogram er tilgjengelige som faner i SteamVR-dashbordet."
-"Settings_PerApplication_OverlayVisibleCheckbox" "Start dette overleggsprogrammet når SteamVR startes."
-"Settings_PerApplication_DashboardSuffix" "(overleggsprogram)"
-"Settings_PerApplication_CustomSuffix" "(tilpasset)"
-
-"Settings_PerApplication_MotionSmoothing_Header" "Bevegelsesutjevning"
-"Settings_PerApplication_MotionSmoothing_On" "Slått på"
-"Settings_PerApplication_MotionSmoothing_Off" "Slått av"
-"Settings_PerApplication_MotionSmoothing_Checkbox_Default" "Bruk global innstilling (for øyeblikket %1)"
-"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOn" "Slå alltid på"
-"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOff" "Slå alltid av"
-"Settings_PerApplication_MotionSmoothing_Checkbox_AlwaysOn" "Tving alltid på (ADVARSEL: Programmet vil kjøre med halv bildefrekvens)"
-
-"Settings_PerApplication_Reprojection_Header" "Omprojeksjon"
-"Settings_PerApplication_Reprojection_Checkbox" "Bruk klassisk omprojeksjon"
-"Settings_PerApplication_Reprojection_Description" "Hvis du velger dette alternativet, slås asynkron omprojeksjon av for dette produktet."
-
-"Settings_Audio_Device_HMD"  "VR-hodesett"
-"Settings_Audio_Device_Other"  "Annen"
-"Settings_Audio_AudioPlay"  "Utdataenhet"
-"Settings_Audio_AudioRecord"  "Inndataenhet"
-"Settings_Audio_HDMIGain"  "Slå på forsterkningsreduksjon på VIVE HDMI-lyd"
-"Settings_Audio_Default"  "Standard"
-"Settings_Audio_AudioMirrorPlay"  "Speil lyd til enhet"
-"Settings_Audio_AudioMirrorUnsupported"  "Lydspeiling støttes ikke på denne datamaskinen"
-"Settings_Audio_AudioMirrorEnable"  "Slå på lydspeiling"
-
-"BaseStation_Channel_Text" "Kanal %1"
-"BaseStation_Mode_Text" "Modus %1"
-
-"SystemReport_Issues" "Problemer"
-"SystemReport_Main" "Generelt"
-"SystemReport_Devices" "Enheter"
-"SystemReport_USB" "USB"
-"SystemReport_Logs" "Logger"
-"SystemReport_Configuration" "Konfigurasjon"
-"SystemReport_System" "System"
-"SystemReport_Chaperone" "Chaperone"
-"SystemReport_LighthouseDB" "LighthouseDB"
-"SystemReport_Raw" "Råformat"
-
-"SystemReport_Title" "Systemrapport"
-"SystemReport_Refresh" "Oppdater"
-"SystemReport_CopyToClipboard" "Kopier til utklippstavle"
-"SystemReport_SaveToFile" "Lagre til fil"
-"SystemReport_SaveSystemReport" "Lagre systemrapport"
-"SystemReport_UnableToOpenFile" "Kunne ikke åpne fil"
-"SystemReport_Data" "Data"
-"SystemReport_RawText" "Råtekst"
-"SystemReport_Entry_SteamVR" "SteamVR"
-"SystemReport_Progress_ParseReport" "Analyser rapport"
-
-"SystemReport_PrepareReport" "Forbereder rapport"
-"SystemReport_DiscoverIssues" "Søker etter problemer"
-"SystemReport_DiscoverDisplays" "Søker etter skjermer"
-"SystemReport_DiscoverDevices" "Søker etter enheter"
-"SystemReport_DiscoverUSB" "Søker etter USB"
-"SystemReport_PrepareLogs" "Forbereder logger"
-"SystemReport_DiscoverConfiguration" "Søker etter konfigurasjon"
-"SystemReport_DiscoverChaperone" "Søker etter Chaperone"
-"SystemReport_DiscoverLighthouseDB" "Søker etter LighthouseDB"
-
-
-"Main_Systray_Error_Title" "Systemstatusfelt"
-"Main_Systray_Error_Message" "Denne datamaskinen har ikke et systemstatusfelt."
-"Main_Information_Title" "SteamVR"
-"Main_CanSetInstallationPath_Message" "Fant ikke installasjonsstien.\n\nSteamVR kan angi en installasjonssti basert på sin gjeldende kjørbare sti."
-"Main_JumplistEntry_RunFirstApplication" "Første program"
-"Main_JumplistEntry_RunRoomSetup" "Romoppsett"
-"Main_JumplistEntry_RunTutorial" "Opplæring"
-"Main_JumplistEntry_Settings" "Innstillinger"
-"Main_JumplistEntry_Advanced" "Avansert"
-"Main_JumplistEntry_SystemReport" "Systemrapport"
-"Main_JumplistEntry_Quit" "Avslutt"
-"Main_RuntimeFailed_Message" "Kjøretiden kunne ikke starte.\n\n%1\n\nDu kan tilbakestille den gjeldende kjøretiden\n%2\nbasert på SteamVRs kjørbare sti\n%3\n"
-
-"VRManifest_Imported_Title" "OpenVR-manifestfil importert"
-"VRManifest_Imported_Message" "OpenVR-manifestfil importert: \n %1"
-
-"MenuAction_Compositor_ShowMirror" "Vis VR-visning"
-"MenuAction_Compositor_HideMirror" "Skjul VR-visning"
-"MenuAction_IdentifyController" "Identifiser kontroller"
-"MenuAction_IdentifyTracker" "Identifiser sporingsenhet"
-"MenuAction_QuickCalibrate" "Hurtigkalibrering"
-"Explanation_QuickCalibrate" "Hurtig tilbakestilling av romoppsettet. For stående VR og VR i romskala, sentreres nye grenser på hodesettet på gulvet i midten av området."
-"MenuAction_ResetRuntimeAndQuit" "Tilbakestill SteamVR-stien"
-"Explanation_ResetRuntimeAndQuit" "Tilbakestill SteamVR-stien basert på mappen som SteamVR startes fra."
-"MenuAction_RemoveAllSteamVRUSBDevices" "Fjern alle SteamVR-USB-enheter"
-"Explanation_RemoveAllSteamVRUSBDevices" "Fjern alle USB-enheter relatert til SteamVR fra dette systemet for å installere driverne på nytt."
-"MenuAction_DisableEnhancedPowerManagement" "Slå av strømstyring"
-"Explanation_DisableEnhancedPowerManagement" "Slå av forbedret strømstyring i Windows for SteamVR-USB-enheter, hvis du opplever uforklarlige forstyrrelser av sporingen eller ikke kan tilknytte trådløse kontrollere."
-"MenuAction_ResetAllSettingsAndQuit" "Tilbakestill alle innstillinger og start om"
-"MenuAction_RebootVive" "Start hodesettet på nytt"
-"Explanation_RebootVive" "USB-relaterte problemer kan løses av å starte hodesettet på nytt."
-"MenuAction_RestartSteamVR" "Start SteamVR på nytt"
-"Explanation_RestartSteamVR" "USB-relaterte problemer kan løses av å starte SteamVR på nytt."
-"MenuAction_ResetDismissableWarnings" "Tilbakestill advarsler"
-"Explanation_ResetDismissableWarnings" "Midlertidige advarsler er tilbakestilt og vises på nytt når det trengs."
-
-"QuickCalibrate_SmallSpace" "Lite område"
-"QuickCalibrate_MediumSpace" "Middels område"
-"QuickCalibrate_LargeSpace" "Stort område"
-"QuickCalibrate_GiganticSpace" "Gigantisk område"
-"QuickCalibrate_CabalSpace" "Romområde"
-"QuickCalibrate_StandingSpace" "Stående område"
-"QuickCalibrate_DK2Default" "DK2-standard"
-
-"Advanced_Title" "Avansert"
-"Advanced_Advanced" "Avansert"
-"Advanced_Developer" "Utvikler"
-"Advanced_General" "Generelt"
-"Advanced_Applications" "Programmer"
-"Advanced_Audio" "Lyd"
-"Advanced_Devices" "Enheter"
-"Advanced_RoomOverview" "Chaperone"
-"Advanced_Compositor" "I hodesett"
-"Advanced_Paths" "Stier"
-"Advanced_Reset" "Tilbakestill"
-"Advanced_Performance" "Video"
-"Advanced_Camera" "Kamera"
-"Advanced_Bluetooth" "Bluetooth"
-"Advanced_BaseStation" "Basestasjon"
-"Advanced_USB" "USB"
-
-"Advanced_HMD" "Hodesett"
-"Advanced_Controller" "Kontroller"
-"Advanced_Generic_Tracker" "Sporingsenhet"
-"Advanced_Base" "Base"
-
-"Advanced_RuntimePath" "SteamVR-sti:"
-"Advanced_ConfigPath" "Konfigurasjonssti:"
-"Advanced_LogPath" "Loggsti:"
-"Advanced_ApplyPathsAndRestart" "Bruk stier og start på nytt"
-"Advanced_SetNewPath" "Angi ny sti …"
-
-"Advanced_PerfGraphInHMD" "Vis GPU-ytelsesgraf i hodesettet"
-
-"Advanced_AllowSavingOfTimingInfo" "Tillat lagring av timinginfo"
-"Advanced_AutoSaveTimingInfoOnExit" "Lagre timinginfo automatisk ved avslutning"
-"Advanced_SaveFrameDataNow" "Lagre bildedata"
-
-"Advanced_DrawingCompositor" "Komposisjonsbehandler"
-"Advanced_DrawingApp" "Program"
-"Advanced_DrawingCompShouldBeApp" "Komposisjonsbehandler"
-"Advanced_DrawingUnclear" "Ukjent"
-
-"Advanced_BoundsDrawing" "Chaperone-grenser på"
-"Advanced_BoundsNotDrawing" "Chaperone-grenser av"
-
-"Advanced_ReprojectionOn" "Omprojeksjon på"
-"Advanced_ReprojectionOff" "Omprojeksjon av"
-
-"Advanced_AsyncActive" "Asynk. omprojeksjon på"
-"Advanced_AsyncNotActive" "Asynk. omprojeksjon av"
-"Advanced_DirectModeDisabled" "Direkte skjermmodus av"
-
-"Advanced_MotionEstimationActive" "Bevegelsesutjevning på"
-"Advanced_MotionEstimationNotActive" "Bevegelsesutjevning av"
-"Advanced_MotionEstimationDisabled" "Bevegelsesutjevning ikke tilgjengelig"
-
-"Advanced_NormalFrame" "Normalt bilde"
-"Advanced_MotionSmoothedFrame" "Omprojisert med bevegelsesutjevning"
-"Advanced_ReprojectedFrame" "Omprojisert uten bevegelsesutjevning"
-"Advanced_OneThirdFramerate" "En tredjedels bildefrekvens"
-"Advanced_DroppedFrame" "Skjermfeil"
-"Advanced_AppRequestedThrottling" "App forespurte begrensning (CPU-bundet)"
-
-"Advanced_DashboardUp" "Dashbord på"
-"Advanced_DashboardDown" "Dashbord av"
-
-"MessageBox_OK" "OK"
-"MessageBox_Cancel" "Avbryt"
-"MessageBox_Exit" "Avslutt"
-"MessageBox_SetAndRestart" "Angi og start på nytt"
-"MessageBox_Continue" "Fortsett"
-"MessageBox_Yes" "Ja"
-"MessageBox_RestartSteamVR" "Starter SteamVR på nytt …"
-"MessageBox_Retry" "Prøv på nytt"
-"MessageBox_Done" "Ferdig"
-"MessageBox_RestartNow" "Start SteamVR på nytt"
-"MessageBox_RestartLater" "Start på nytt senere"
-"MessageBox_Next" "Neste"
-"MessageBox_Submit" "Send"
-"MessageBox_Stop" "Stopp"
-"MessageBox_Forget" "Glem"
-"MessageBox_RefreshAll" "Oppdater alle"
-"MessageBox_OpenWirelessSettings" "Bluetooth-innstillinger"
-"MessageBox_RemindMeLater" "Påminn meg senere"
-
-"MonitorController_NotAbleToStartSteam" "Kan ikke starte Steam."
-
-"Advanced_Header_CollisionBounds" "Chaperone-grenser"
-"Advanced_Explanation_CollisionBounds" "Chaperone-grenser dukker opp når du nærmer deg kantene av det tilgjengelige området."
-"Advanced_FloorBoundsAlwaysOn" "Alltid vis gulvgrensen"
-"Button_ResetCollisionBounds" "Tilbakestill til standard"
-"CollisionBounds_Beginner" "Nybegynner"
-"CollisionBounds_Intermediate" "Middels"
-"CollisionBounds_Squares" "Kvadrater"
-"CollisionBounds_Advanced" "Avansert"
-"CollisionBounds_Developer" "Utvikler"
-
-"CompositorBackground_Header"		"Bakgrunnsstil"
-"CompositorBackground_Color"		"Farge"
-"CompositorBackground_Image"		"Bilde"
-"Compositor_SelectImage"			"Velg bilde …"
-"Compositor_SelectColorHeader"		"Velg en farge til bakgrunnen i hodesettet."
-"Compositor_SelectImageHeader"		"Velg et bilde til bakgrunnen i hodesettet."
-"Compositor_ResetToDefault" 		"Tilbakestill til standard"
-
-"Info_UnknownURL_Title" "SteamVR"
-"Info_UnknownURL_Message" "Den lenken fungerer ikke helt ennå. Hvis problemet du feilsøker vedvarer, gå til <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>SteamVR-utviklerforumene</a> for å få hjelp."
-
-"PairingWizard_CheckForDongles_Content" "Søk etter tilgjengelige trådløse mottakere …"
-
-"PairingWizard_HelperAppFailed_Content" "Kall til hjelpeprogrammet mislyktes med feilen: %1."
-"PairingWizard_HelperAppFailed_Error_FailedToStart" "«Kunne ikke starte» (0)"
-"PairingWizard_HelperAppFailed_Error_Crashed" "«Krasjet» (1)"
-"PairingWizard_HelperAppFailed_Error_Timedout" "«Tidsavbrudd» (2)"
-"PairingWizard_HelperAppFailed_Error_ReadError" "«Lesefeil» (3)"
-"PairingWizard_HelperAppFailed_Error_WriteError" "«Skrivefeil» (4)"
-"PairingWizard_HelperAppFailed_Error_UnknownError" "«UkjentFeil» (5)"
-
-"PairingWizard_HelperAppFailed_MoreInfo" "Mer info"
-"PairingWizard_HelperAppFailed_MoreInfo_URL" "http://www.valvesoftware.com"
-
-"PairingWizard_NoDonglesAvailable_Title" "To kontrollere er allerede i bruk"
-"PairingWizard_NoDonglesAvailable_Header" "
-
-
-
-
-
-"
-"PairingWizard_NoDonglesAvailable_Content" "Minst én av kontrollerne må være slått av for å tilknytte ytterligere kontrollere. Kun to kontrollere kan være tilkoblet samtidig."
-
-"PairingWizard_NoDonglesDetected_Title" "Fant intet hodesett"
-"PairingWizard_NoDonglesDetected_Header" "
-"
-"PairingWizard_NoDonglesDetected_Content" "Hodesettet må være koblet til ordentlig for å kunne tilknytte nye kontrollere."
-
-"PairingWizard_PairController_Title" "Tilknytt en ny kontroller"
-"PairingWizard_PairController_Success_Title" "Vellykket!"
-"PairingWizard_PairAnotherController" "Tilknytt en annen kontroller"
-
-"PairingWizard_LookingForControllers_Header" "Søker etter kontroller …"
-"PairingWizard_LookingForControllers_Content" "Trykk og hold app- og systemknappene til den spiller av en lyd.\n\nKontrollerens lys bør begynne å blinke blått for å indikere at den er i sammenkoblingsmodus."
-"PairingWizard_TimeoutHappened_Header" "Fant ingen kontroller"
-"PairingWizard_TimeoutHappened_Content" "Sørg for at kontrolleren er oppladet og befinner seg i nærheten av hodesettet under tilknytning."
-"PairingWizard_PairingFailed_Header" "Tilknytning mislyktes"
-"PairingWizard_PairingFailed_Content" "Sørg for at kontrolleren er oppladet og befinner seg i nærheten av hodesettet under tilknytning."
-"PairingWizard_Success_MoreDonglesAvailable_Header" "Kontroller tilknyttet!"
-"PairingWizard_Success_MoreDonglesAvailable_Content" "Kontrolleren er tilknyttet og klar."
-"PairingWizard_Success_NoMoreDonglesAvailable_Header" "Kontroller tilknyttet!"
-"PairingWizard_Success_NoMoreDonglesAvailable_Content" "Kontrolleren er tilknyttet og klar til bruk."
-
-"FirmwareWizard_UpdateMoreFirmware" "Oppdater flere enheter"
-
-"FirmwareWizard_Nag_Title" "Anbefalt enhetsoppdatering"
-
-"FirmwareWizard_Shutdown_Title" "Oppdater enhet"
-"FirmwareWizard_Shutdown_TextContent" "Vi må avslutte alle kjørende VR-programmer for å oppdatere enheten.\n\nVil du fortsette?"
-"FirmwareWizard_WaitingForShutdown_TextContent" "Forbereder systemet på enhetsoppdatering …"
-"FirmwareWizard_ShutdownForRecovery_TextContent" "En komponent i maskinvaren krever en enhetsoppdatering for å gjenopprettes til en funksjonsdyktig tilstand.\n\nVil du fortsette?"
-"FirmwareWizard_ShutdownForMandatoryUpdate_TextContent" "Hodesettet krever en enhetsoppdatering for å kunne bruke SteamVR.\n\nVil du fortsette?"
-"FirmwareWizard_DeviceOverview_Title" "Oppdater enhet"
-"FirmwareWizard_DeviceOverview_Nagging_Title" "Enhetsoppdateringer kreves"
-"FirmwareWizard_DeviceOverview_TextContent" "Hvilken enhet vil du oppdatere?"
-"FirmwareWizard_DeviceOverview_TextContent_Nag" "Nødvendige enhetsoppdateringer er tilgjengelige. Velg en enhet som skal oppdateres."
-"FirmwareWizard_DeviceOverview_UpdateAvailable" "Oppdatering tilgjengelig"
-"FirmwareWizard_DeviceOverview_UpToDate" "Oppdatert"
-"FirmwareWizard_DeviceOverview_NoUpdateDataAvailable" "Ingen oppdateringsdata tilgjengelig"
-"FirmwareWizard_DeviceOverview_FailedToUpdate" "Kunne ikke oppdatere"
-"FirmwareWizard_DeviceOverview_LookingForDevice" "Søker etter enhet …"
-"FirmwareWizard_DeviceOverview_WirelessServicesRequired" "Denne oppdateringen krever trådløse tjenester"
-
-"FirmwareWizard_UpdateHeadset_Start_Title" "Oppdater hodesett"
-"FirmwareWizard_UpdateHeadset_Start_UpperText" "­"
-"FirmwareWizard_UpdateHeadset_Start_MiddleText" "Koble til hodesettet i datamaskinen."
-"FirmwareWizard_UpdateHeadset_Start_LowerText" "\nOppdateringen startes automatisk når hodesettet oppdages."
-
-"FirmwareWizard_UpdateHeadset_Progress_Title" "Oppdater hodesett"
-"FirmwareWizard_UpdateHeadset_Progress_UpperText" "­"
-"FirmwareWizard_UpdateHeadset_Progress_MiddleText" "Oppdaterer hodesettet. Dette kan ta flere minutter …"
-"FirmwareWizard_UpdateHeadset_Progress_LowerText" "ADVARSEL: Ikke koble ut hodesettet, koble til andre enheter eller gjør andre systemendringer, mens enheten oppdateres. Dette kan resultere i at hodesettet blir ubrukelig."
-
-"FirmwareWizard_UpdateHeadset_Fail_Title" "Enhetsoppdatering mislyktes"
-"FirmwareWizard_UpdateHeadset_Fail_UpperText" "Enhetsoppdatering mislyktes."
-"FirmwareWizard_UpdateHeadset_Fail_MiddleText" "Sørg for at hodesettet er koblet til riktig og trygt. Hvis dette fortsetter å mislykkes, avslutt SteamVR og koble ut hodesettets strømkabel. Koble deretter hodesettet inn igjen, start SteamVR og prøv igjen."
-"FirmwareWizard_UpdateHeadset_Fail_LowerText" "
-"
-
-"FirmwareWizard_UpdateHeadset_Success_Title" "Oppdater hodesett"
-"FirmwareWizard_UpdateHeadset_Success_UpperText" "Vellykket!"
-"FirmwareWizard_UpdateHeadset_Success_MiddleText" "Hodesettet ble oppdatert. Du må kanskje koble ut og inn igjen hodesettets strømkabel, før den registreres som oppdatert."
-"FirmwareWizard_UpdateHeadset_Success_LowerText"  " "
-
-"FirmwareWizard_UpdateController_Start_Title" "Oppdater kontroller"
-"FirmwareWizard_UpdateController_Start_MiddleText" "Koble til denne kontrolleren i datamaskinen med en micro-USB-kabel. Du kan bruke den samme kabelen som brukes til å lade opp kontrollerne."
-"FirmwareWizard_UpdateController_Start_LowerText" "Oppdateringen startes automatisk når kontrolleren oppdages."
-
-"FirmwareWizard_UpdateController_Progress_Title" "Oppdater kontroller"
-"FirmwareWizard_UpdateController_Progress_UpperText" "­" 
-"FirmwareWizard_UpdateController_Progress_MiddleText" "Oppdaterer kontroller. Dette kan ta flere minutter …"
-"FirmwareWizard_UpdateController_Progress_LowerText" "ADVARSEL: Ikke koble ut kontrolleren, koble til andre enheter eller gjør andre systemendringer, mens enheten oppdateres. Dette kan føre til at kontrolleren blir ubrukelig."
-
-"FirmwareWizard_UpdateController_Fail_Title" "Enhetsoppdatering mislyktes"
-"FirmwareWizard_UpdateController_Fail_UpperText" "Kontrolleroppdatering mislyktes."
-"FirmwareWizard_UpdateController_Fail_MiddleText" "Sørg for at kontrolleren er trygt koblet til datamaskinen med micro-USB. Hvis dette fortsetter å mislykkes, avslutt SteamVR. Hvis kontrolleren ikke slår seg av, slå den av ved å holde nede systemknappen. Start deretter SteamVR og prøv igjen."
-"FirmwareWizard_UpdateController_Fail_LowerText" "Trykk «Prøv på nytt» nedenfor for å prøve igjen."
-
-"FirmwareWizard_UpdateController_Success_Title" "Oppdater kontroller"
-"FirmwareWizard_UpdateController_Success_UpperText" "Vellykket!"
-"FirmwareWizard_UpdateController_Success_MiddleText" "Kontrolleren ble oppdatert. Du må kanskje slå av og på kontrolleren igjen, før den registreres som oppdatert."
-"FirmwareWizard_UpdateController_Success_LowerText" "  "
-
-"FirmwareWizard_UpdateGenericTracker_Start_Title" "Oppdater sporingsenhet"
-"FirmwareWizard_UpdateGenericTracker_Start_MiddleText" "Koble til denne sporingsenheten i datamaskinen med en micro-USB-kabel. Du kan bruke den samme kabelen som brukes til å lade opp sporingsenheten."
-"FirmwareWizard_UpdateGenericTracker_Start_LowerText" "Oppdateringen startes automatisk når sporingsenheten oppdages."
 					  
-"FirmwareWizard_UpdateGenericTracker_Progress_Title" "Oppdater sporingsenhet"
-"FirmwareWizard_UpdateGenericTracker_Progress_MiddleText" "Oppdaterer sporingsenhet. Dette kan ta flere minutter …"
-"FirmwareWizard_UpdateGenericTracker_Progress_LowerText" "ADVARSEL: Ikke koble ut sporingsenheten, koble til andre enheter eller gjør andre systemendringer, mens enheten oppdateres. Dette kan resultere i at sporingsenheten blir ubrukelig."
-					  
-"FirmwareWizard_UpdateGenericTracker_Fail_Title" "Enhetsoppdatering mislyktes"
-"FirmwareWizard_UpdateGenericTracker_Fail_UpperText" "Enhetsoppdatering mislyktes."
-"FirmwareWizard_UpdateGenericTracker_Fail_MiddleText" "Sørg for at sporingsenheten er trygt koblet til datamaskinen med micro-USB. Hvis dette fortsetter å mislykkes, avslutt SteamVR. Hvis sporingsenheten ikke slår seg av, slå den av ved å holde nede systemknappen. Start deretter SteamVR og prøv igjen."
-"FirmwareWizard_UpdateGenericTracker_Fail_LowerText" "Trykk «Prøv på nytt» nedenfor for å prøve igjen."
-					  
-"FirmwareWizard_UpdateGenericTracker_Success_Title" "Oppdater sporingsenhet"
-"FirmwareWizard_UpdateGenericTracker_Success_UpperText" "Vellykket!"
-"FirmwareWizard_UpdateGenericTracker_Success_MiddleText" "Sporingsenheten ble oppdatert. Du må kanskje slå av og på sporingsenheten igjen, før den registreres som oppdatert."
-"FirmwareWizard_UpdateGenericTracker_Success_LowerText" "  "
-
-"FirmwareWizard_UpdateBasestation_Start_Title" "Oppdater basestasjon"
-"FirmwareWizard_UpdateBasestation_Start_UpperText" "­"
-"FirmwareWizard_UpdateBasestation_Start_MiddleText" "1. Ta ned og koble ut strømkabelen til basestasjonen.\n\n2. Bruk en micro-USB-kabel for å koble basestasjonen til en USB-port i datamaskinen. Du kan bruke den samme kabelen som brukes til å lade opp kontrollerne.\n\n3. Sett inn strømkabelen i basestasjonen, mens du holder nede kanalknappen på baksiden av basestasjonen."
-"FirmwareWizard_UpdateBasestation_Start_LowerText" "4. Oppdateringen startes automatisk når basestasjonen oppdages, og da kan du slippe kanalknappen."
-
-"FirmwareWizard_UpdateBasestation_Choice_Title" "Oppdater basestasjon"
-"FirmwareWizard_UpdateBasestation_Choice_MiddleText" "Oppdateringen kan skje manuelt eller trådløst."
-"FirmwareWizard_UpdateBasestation_Wireless_Title" "Oppdater basestasjon"
-"FirmwareWizard_UpdateBasestation_Wireless_UpperText" "
-"
-"FirmwareWizard_UpdateBasestation_Wireless_MiddleText" "Denne oppdateringen skjer trådlåst. Ikke koble ut basestasjonene mens de blir oppdaterte."
-"FirmwareWizard_UpdateBasestation_Wireless_LowerText" "
-"
-
-"FirmwareWizard_UpdateBasestation_Progress_Title" "Oppdater basestasjon"
-"FirmwareWizard_UpdateBasestation_Progress_UpperText" "­"
-"FirmwareWizard_UpdateBasestation_Progress_MiddleText" "Oppdaterer basestasjon. Dette kan ta flere minutter …"
-"FirmwareWizard_UpdateBasestation_Progress_LowerText" "ADVARSEL: Ikke koble ut basestasjonen, koble til andre enheter eller gjør andre systemendringer, mens enheten oppdateres. Dette kan resultere i at basestasjonen blir ubrukelig."
-
-"FirmwareWizard_UpdateBasestation_WirelessProgress_Title" "Oppdater basestasjon"
-"FirmwareWizard_UpdateBasestation_WirelessProgress_MiddleText" "Oppdaterer basestasjon. Dette kan ta flere minutter …"
-"FirmwareWizard_UpdateBasestation_WirelessProgress_LowerText" "ADVARSEL: Ikke koble ut basestasjonen, koble til andre enheter eller gjør andre systemendringer, mens enheten oppdateres. Dette kan føre til at basestasjonen blir ubrukelig."
-
-"FirmwareWizard_UpdateBasestation_Fail_Title" "Basestasjonsoppdatering mislyktes"
-"FirmwareWizard_UpdateBasestation_Fail_UpperText" "Denne enhetsoppdateringen mislyktes."
-"FirmwareWizard_UpdateBasestation_Fail_MiddleText" "Sørg for at basestasjonen er trygt koblet til datamaskinen med micro-USB. Hvis dette fortsetter å mislykkes, avslutt SteamVR og trekk ut støpselet til basestasjonen. Start deretter SteamVR og prøv igjen."
-"FirmwareWizard_UpdateBasestation_Fail_LowerText" "Trykk «Prøv på nytt» nedenfor for å prøve igjen."
-
-"FirmwareWizard_UpdateBasestationWireless_Fail_Title" "Basestasjonsoppdatering mislyktes"
-"FirmwareWizard_UpdateBasestationWireless_Fail_UpperText" "Denne enhetsoppdateringen mislyktes."
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox" "Hvis det fremdeles oppstår feil med enhetsoppdateringen:<ul><li>Avslutt SteamVR.<li>Koble ut og inn igjen strømkabelen til koblingsboksen.<li>Koble ut og inn igjen strømkabelen til basestasjonen.<li>Start SteamVR og prøv igjen.</ul>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "Hvis det fremdeles oppstår feil med enhetsoppdateringen:<ul><li>Avslutt SteamVR.<li>Koble ut og inn igjen strømkabelen til basestasjonen.<li>Start SteamVR og prøv igjen.</ul>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "Denne basestasjonen må oppdages igjen optisk ved å starte SteamVR på nytt, før oppdateringen kan fortsette."
-"FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "Denne basestasjonen må startes på nytt og oppdages igjen optisk ved å starte SteamVR på nytt, før oppdateringen kan fortsette. Koble ut og inn igjen basestasjonens strømkabel."
-"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "Denne basestasjonen har en nyere versjon av oppdateringen og har avvist den. Koble ut og inn igjen basestasjonens strømkabel."
-"FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "En uventet USB-tilkobling til basestasjonen forhindrer den trådløse oppdateringen.<br><br><font color=#aaaa00>Koble fra USB-kabelen, som er koblet til i basestasjonen.</font>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_BaseStuckInDFU" "En uventet USB-tilkobling til basestasjonen hindrer den trådløse oppdateringen fra å bli ferdig.<ul><li><font color=#aaaa00>Trekk ut basestasjonens strømkabel.<li>Koble fra USB-kabelen som er koblet til i basestasjonen.<li>Koble til igjen basestasjonens strømkabel.<li>Vent i 30 sekunder, slik at basestasjonen gjør seg ferdig med den interne oppdateringen.</font></ul><br>Basestasjonens lys er muligens slått av under den interne oppdateringen.<br>Ikke koble fra eller til noen annet i basestasjonen, mens oppdateringen pågår."
-"FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle" "Denne basestasjonen må startes på nytt før oppdateringen kan fortsette.<br><br><font color=#aaaa00>Koble ut og inn igjen basestasjonens strømkabel før du går videre.</font>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Trykk «Prøv på nytt» nedenfor for å prøve igjen."
-"FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Trykk «Avbryt» nedenfor for å starte SteamVR på nytt."
-
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20" "Hvis det fremdeles oppstår feil med enhetsoppdateringen:<ul><li>Avslutt SteamVR.<li>Koble ut eventuelle USB-kabler fra basestasjonen.<li>IKKE koble til USB-tilkoblinger i basestasjonen.<li>Koble ut og inn igjen strømkabelen til koblingsboksen.<li>Koble ut og inn igjen strømkabelen til basestasjonen.<li>Start SteamVR og prøv igjen.</ul>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20" "Hvis det fremdeles oppstår feil med enhetsoppdateringen:<ul><li>Avslutt SteamVR.<li>Koble ut eventuelle USB-kabler fra basestasjonen.<li>IKKE koble til USB-tilkoblinger i basestasjonen.<li>Koble ut og inn igjen strømkabelen til basestasjonen.<li>Start SteamVR og prøv igjen.</ul>"
-
-"FirmwareWizard_UpdateBasestation_Success_Title" "Oppdater basestasjon"
-"FirmwareWizard_UpdateBasestation_Success_UpperText" "Vellykket!"
-"FirmwareWizard_UpdateBasestation_Success_MiddleText" "Basestasjonen ble oppdatert. Du må kanskje koble ut og inn igjen basestasjonens strømkabel, før den registreres som oppdatert."
-"FirmwareWizard_UpdateBasestation_Success_LowerText" "Når du monterer den igjen, så pass på at du ikke endrer kanalene til basestasjonene."
-
-"FirmwareWizard_UpdateBasestationWireless_Success_Title" "Oppdater basestasjon"
-"FirmwareWizard_UpdateBasestationWireless_Success_UpperText" "Vellykket!"
-"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS10" "Basestasjonen ble oppdatert. Du må kanskje koble ut og inn igjen basestasjonens strømkabel, før den registreres som oppdatert."
-"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS20" "Basestasjonen ble oppdatert."
-"FirmwareWizard_Information_Title" "Enhetsoppdatering"
-"FirmwareWizard_WizardIsAlreadyBusy_Message" "Denne oppdateringen kan ikke startes akkurat nå, siden det allerede er en enhetsoppdatering i gang."
-
-"FirmwareWizard_WirelessServicesRequired_Title" "Oppdater basestasjon"
-"FirmwareWizard_WirelessServicesRequired" "Bluetooth-tjenester må slås på for å oppdatere denne basestasjonen trådløst.\n\nSlå på Bluetooth-tjenesten for SteamVR.\n"
-
-"FirmwareWizard_ProgressTextLeft" "("
-"FirmwareWizard_ProgressTextRight" ")"
-"FirmwareWizard_ProgressTextMiddle" "av"
-"FirmwareWizard_ProgressPercent" "[ %1% ]"
-"FirmwareWizard_ProgressPercentStarting" "[ Starter … ]"
-"FirmwareWizard_ProgressPercentFinishing" "[ Fullfører … ]"
-
-"FirmwareWizard_WatchmanUpdate" "Sporingskortoppdatering"		
-"FirmwareWizard_WatchmanFPGAUpdate" "Sporingskortoppdatering"
-"FirmwareWizard_WatchmanRecovery" "Sporingskortoppdatering"
-"FirmwareWizard_DongleUpdate" "Oppdatering av trådløs mottaker"
-"FirmwareWizard_CameraUpdate" "Kameraoppdatering"
-"FirmwareWizard_CameraRecovery" "Kameraoppdatering"
-"FirmwareWizard_RadioUpdate" "Radiooppdatering"
-"FirmwareWizard_VRCUpdate" "Enhetsoppdatering"
-"FirmwareWizard_DisplayUpdate" "Skjermoppdatering"
-"FirmwareWizard_DisplayFPGAUpdate" "Skjermoppdatering"
-"FirmwareWizard_AudioUpdate" "Lydoppdatering"
-"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate" "Ekstern enhetsoppdatering"
-
-"FirmwareWizard_EnterBootloaderMode" "Forbereder oppdatering …"
-"FirmwareWizard_ExitBootloaderMode" "Fullfører oppdatering …"
-"FirmwareWizard_WatchmanDiskUpdate" "Enhetsoppdatering"
-"FirmwareWizard_BaseStationBluetoothBootloaderUpdate" "Enhetsoppdatering"
-"FirmwareWizard_BaseStationBluetoothRadioUpdate" "Enhetsoppdatering"
-"FirmwareWizard_BaseStationBluetoothMCUUpdate" "Enhetsoppdatering"
-"FirmwareWizard_AudioBridgeUpdate" "Enhetsoppdatering"
-"FirmwareWizard_ImageBridgeUpdate" "Enhetsoppdatering"
-
-"FirmwareWizard_UpdateBasestation_Manual" "USB"
-"FirmwareWizard_UpdateBasestation_Bluetooth" "Trådløs"
-"FirmwareWizard_UpdateBasestation_Continue" "Fortsett"
-
-"RebootHelper_ServiceStatus" "Status: %1"
-"RebootHelper_ServiceError" "Feil: %1"
-"RebootHelper_StartingSteamVRShutdown" "Avslutter …"
-"RebootHelper_RebootingVive" "Starter SteamVR på nytt …"
-"RebootHelper_ConnectingToVive" "Kobler til hodesettet …"
-"RebootHelper_RestartingSteamVR" "Starter SteamVR på nytt …"
-"RebootHelper_Cancel" "Avbryt"
-"RebootHelper_Status_WaitingForDevice" "Venter på enhet …"
-"RebootHelper_Status_Connected" "Tilkoblet!"
-
-"MenuAction_SteamVRWebsite_URL" "http://steamvr.steampowered.com"
-"MenuAction_SteamVRCommunity_URL" "http://steamcommunity.com/app/250820/discussions/"
-"MenuAction_SteamVRHardwareDiscussions_URL" "http://steamcommunity.com/app/358720/discussions/"
-"MenuAction_SteamVRDeveloperSupport_URL" "https://developer.valvesoftware.com/wiki/SteamVR"
-"MenuAction_SteamWorksDeveloperSupport_URL" "http://steamcommunity.com/groups/steamworks/discussions"
-
-"BluetoothLinkStatus_Unknown" "Ukjent"
-"BluetoothLinkStatus_ViveLinkNotAccessible" "Bluetooth-feil"
-"BluetoothLinkStatus_SemaphoreFileNotAccessible" "Bluetooth-feil"
-"BluetoothLinkStatus_WrongToken" "Bluetooth-feil"
-"BluetoothLinkStatus_Running" "Kjører"
-"BluetoothLinkStatus_StoppedOrPaused" "Stoppet"
-"BluetoothLinkStatus_Transient" "Endrer"
-
-"BluetoothControllerStatus_Unknown"							"Ukjent"
-"BluetoothControllerStatus_ServiceNotFound"					"Fant ikke Bluetooth-funksjonalitet. Kontroller installasjonen av SteamVR."
-"BluetoothControllerStatus_ServiceError"					"Bluetooth-feil: BT-%1"
-"BluetoothControllerStatus_LinkBoxNotDetected"				"Fant ingen koblingsboks med Bluetooth-funksjonalitet. Sjekk tilkoblinger til koblingsboksen, koble ut og inn igjen støpselet til koblingsboksen for å tilbakestille den, og start deretter SteamVR på nytt."
-"BluetoothControllerStatus_NoBluetoothDevice"				"Fant ingen Bluetooth-funksjonalitet."
-"BluetoothControllerStatus_NoBluetoothDeviceUpdateNeeded"	"Fant ingen Bluetooth-funksjonalitet. Det kreves en enhetsoppdatering for å bruke denne funksjonen. Hold over hodesett-ikonet og velg oppdater enhet."
-"BluetoothControllerStatus_BluetoothDriverNotInstalled"		"Bluetooth-driveren til koblingsboksen er ikke installert."
-"BluetoothControllerStatus_BluetoothDriverNeedsUpdate"		"Bluetooth-driveren til koblingsboksen må oppdateres."
-"BluetoothControllerStatus_BluetoothDriverInstalling"		"Installerer Bluetooth-driver …"
-"BluetoothControllerStatus_Connecting"						"Kobler til …"
-"BluetoothControllerStatus_Disconnecting"					"Kobler fra …"
-"BluetoothControllerStatus_FailedConnection"				"Bluetooth-tilkobling mislyktes. Sjekk tilkoblinger til koblingsboksen, koble ut og inn igjen støpselet til koblingsboksen for å tilbakestille den, og start deretter SteamVR på nytt."
-"BluetoothControllerStatus_Connected"						"Bluetooth tilkoblet"
-
-"NeedRoomSetupNoLaunch_Message" "Dette programmet kan ikke kjøres før romoppsettet er utført. Vil du utføre romoppsettet nå?"
-
-"WorkshopUpload_DialogTitle"	"Opplastingsverktøy til SteamVR Workshop"
-"WorkshopUpload_NoItem"			"(Ny)"
-"WorkshopUpload_SelectExisting"	"Rediger"
-"WorkshopUpload_SelectContentType"	"Type"
-"WorkshopUpload_SelectContentType_Background"	"Bakgrunn"
-"WorkshopUpload_SelectContentType_Environment"	"Omgivelsesmodell"
-"WorkshopUpload_SelectContentType_Controller"	"Kontrollermodell"
-"WorkshopUpload_SelectContentType_Camera"		"Kameramodell"
-"WorkshopUpload_SelectContentType_Basestation"	"Basestasjonsmodell"
-"WorkshopUpload_Title"			"Navn"
-"WorkshopUpload_Desc"			"Beskrivelse"
-"WorkshopUpload_Thumbnail"		"Miniatyrbildefil (400x300, maks 1 MB)"
-"WorkshopUpload_MainFile"		"Fil"
-"WorkshopUpload_Cancel"			"Avbryt"
-"WorkshopUpload_Upload"			"Send inn"
-"WorkshopUpload_SelectImage"	"Velg bilde"
-"WorkshopUpload_ImagesFilter"	"Bilder (*.jpg *.png)"
-"WorkshopUpload_ObjFilter"		"Modeller (*.obj)"
-"WorkshopUpload_Visibility"			"Synlighet"
-"WorkshopUpload_Visibility_Public"			"Offentlig"
-"WorkshopUpload_Visibility_FriendsOnly"		"Kun venner"
-"WorkshopUpload_Visibility_Private"			"Privat"
-"WorkshopUpload_Tags"							"Merkelapper"
-"WorkshopUpload_Tag_Nature"						"Natur"
-"WorkshopUpload_Tag_Tech"						"Teknologi"
-"WorkshopUpload_Tag_City"						"By"
-"WorkshopUpload_Tag_Space"						"Rom"
-"WorkshopUpload_Tag_Game"						"Spill"
-"WorkshopUpload_Tag_Abstract"					"Abstrakt"
-"WorkshopUpload_Error"			"Feil"
-"WorkshopUpload_Error_SteamClientNotFound"	"Kan ikke starte opplastingsverktøyet til SteamVR Workshop, fordi Steam-klienten ikke kjører."
-"WorkshopUpload_Error_NoTitle"	"Skriv inn et navn"
-"WorkshopUpload_Error_NoDesc"		"Skriv inn en beskrivelse"
-"WorkshopUpload_Error_DescTooLong"	"Beskrivelsen kan ikke inneholde flere enn 8000 tegn."
-"WorkshopUpload_Error_NoFile_Thumbnail"		"Velg et gyldig miniatyrbilde"
-"WorkshopUpload_Error_NoFile_MainFile"		"Velg en gyldig fil"
-"WorkshopUpload_Error_TooLarge_Thumbnail"		"Miniatyrbildet må være mindre enn 1 MB"
-"WorkshopUpload_Error_TooLarge_MainFile"		"Filer kan ikke være større enn 1 GB"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Background"	"Miniatyrbilder må være enten png- eller jpg-filer"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Environment"	"Miniatyrbilder må være enten png- eller jpg-filer"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Controller"	"Miniatyrbilder må være enten png- eller jpg-filer"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Camera"	"Miniatyrbilder må være enten png- eller jpg-filer"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Basestation"	"Miniatyrbilder må være enten png- eller jpg-filer"
-"WorkshopUpload_Error_InvalidType_MainFile_Background"		"Bakgrunnsbilder må være enten png- eller jpg-filer"
-"WorkshopUpload_Error_InvalidType_MainFile_Environment"		"Omgivelsesmodeller må være av filtypen obj"
-"WorkshopUpload_Error_InvalidType_MainFile_Controller"		"Kontrollermodeller må være av filtypen obj"
-"WorkshopUpload_Error_InvalidType_MainFile_Camera"			"Kameramodeller må være av filtypen obj"
-"WorkshopUpload_Error_InvalidType_MainFile_Basestation"		"Basestasjonsmodeller må være av filtypen obj"
-"WorkshopUpload_Error_LimitExceeded"	"Steam-feil: «Grense overskredet». Sørg for at miniatyrbildet er mindre enn 1 MB."
-"WorkshopUpload_Error_CannotCreateUploadDir"		"Kunne ikke opprette midlertidig opplastingsmappe!"
-"WorkshopUpload_Error_Generic"		"Det oppstod et problem med å laste opp filen. Prøv igjen senere."
-"WorkshopUpload_Error_NoItemsToEdit"	"Fant ingen eksisterende filer å redigere!"
-"WorkshopUpload_Progress_Title"		"SteamVR Workshop"
-"WorkshopUpload_Progress_Start"		"Kontakter SteamVR Workshop …"
-"WorkshopUpload_Progress_PreparingConfig"		"Forbereder konfigurasjon …"
-"WorkshopUpload_Progress_PreparingContent"		"Behandler filer …"
-"WorkshopUpload_Progress_UploadingContent"		"Laster opp filer …"
-"WorkshopUpload_Progress_UploadingPreview"		"Laster opp forhåndsvisningsfil …"
-"WorkshopUpload_Progress_CommittingChanges"		"Fullfører …"
-
-"KnockKnock_Title" "Vil du ha min oppmerksomhet?"
-"KnockKnock_Text" "Jeg er i VR akkurat nå. Hvis du vil ha oppmerksomheten min, kan du trykke på knappen nedenfor eller trykke «%1»."
-"KnockKnock_Button" "Bank på"
-"KnockKnock_Notification_Text" "Bank, bank\nNoen utenfor VR vil ha oppmerksomheten din."
-
-"About_Title" "Om SteamVR"
+ (%1)"
+ (0)"
+ (1)"
+ (2)"
+ (3)"
+ (4)"
+ (5)"
+ (ADVARSEL: Programmet vil kj
+ Begrensede (bilder)"
+ Bluetooth 
+ Bluetooth for 
+ Bluetooth"
+ Bluetooth-kommunikasjon i innstillingene."
+ Bluetooth-tjenesten for SteamVR.\n"
+ Forh
+ Forutsi (ekstra)"
+ GPU-profilering"
+ Klar til bruk"
+ Omprojiserte"
+ Steam-kontoen for 
+ SteamVR-plasseringen og start p
+ SteamVRs kj
+ VIVE HDMI-lyd"
+ VR-dashbord"
+ Wiki"
+ akkurat n[. \nAvslutt SteamVR og pr
+ aktivere fullskjermmodus."
+ aktivere funksjoner for Bluetooth-kommunikasjon. Dette krever administratorrettigheter."
+ aktivere tr
+ aktiverer flere funksjoner for noen VR-enheter."
+ alltid av"
+ alltid p
+ arkademodus"
+ at du ikke endrer kanalene til basestasjonene."
+ at du vil sl
+ av direkte skjermmodus"
+ av direkte skjermmodus? SteamVR startes p
+ av forbedret str
+ av kontroller"
+ av og p
+ av sporingsenhet"
+ av str
+ avansert supersamplingsfiltrering" 
+ avslutte 
+ avslutte alle kj
+ avslutte fullskjerm"
+ baksiden av basestasjonen."
+ basestasjoner"
+ begrense SteamVR-prosesser til kun det som er n
+ bevegelsesutjevning"
+ bli ferdig.<ul><li><font color=#aaaa00>Trekk ut basestasjonens str
+ blinke bl
+ bruke denne funksjonen. Hold over hodesett-ikonet og velg oppdater enhet."
+ bruken av SteamVR."
+ de vekkes raskere n
+ deg hodesettet for 
+ den av ved 
+ denne datamaskinen"
+ dette skjermkortet, eller s
+ direkte skjermmodus"
+ direkte skjermmodus.</span></a>"
+ e-post straks."
+ eldre versjoner av Windows."
+ en feil i sporingssystemet."
+ en feil med Chaperone-systemet."
+ en kanal for 
+ en kanallenke for mer informasjon."
+ endre den."
+ endre oppl
+ enhet 
+ enhetsidentifikasjon."
+ enhetsoppdatering 
+ er driverne utdaterte."
+ et direkte svar. G
+ feils
+ fjerne USB-enheter krasjet.\nPr
+ fjerne USB-enheter kunne ikke starte.\nS
+ for 
+ forbedre SteamVR.\n\nDette feilrapporteringsverkt
+ forsterkningsreduksjon p
+ fortsette."
+ fortsette.</font>"
+ gjenopprettes til en funksjonsdyktig tilstand.\n\nVil du fortsette?"
+ gulvet i midten av omr
+ gulvet"
+ hjelp."
+ hodesettet mens datamaskinen er l
+ hodesettet p
+ holde nede systemknappen. Start deretter SteamVR og pr
+ i denne sporings
+ identifisere basestasjon."
+ indikere at den er i sammenkoblingsmodus."
+ installere driverne p
+ kalibrert."
+ kanal %1"
+ kanal %2"
+ kanallenken for 
+ kanskje koble ut og inn igjen basestasjonens str
+ kanskje koble ut og inn igjen hodesettets str
+ kanskje sl
+ knappen nedenfor eller trykke 
+ koble USB-enhetene ut og inn igjen for at endringene skal tre i kraft.\n"
+ koble basestasjonen til en USB-port i datamaskinen. Du kan bruke den samme kabelen som brukes til 
+ koble enhetene ut og inn igjen, slik at systemet installerer drivere.\n\nEr du sikker?"
+ koble til 
+ konflikter."
+ kontrolleren igjen, f
+ kunne bruke SteamVR.\n\nVil du fortsette?"
+ kunne bruke kanalkonfigurasjon."
+ kunne l
+ kunne tilknytte nye kontrollere."
+ lade opp kontrollerne."
+ lade opp kontrollerne.\n\n3. Sett inn str
+ lade opp sporingsenheten."
+ laste opp filen. Pr
+ lydspeiling"
+ mappen som SteamVR startes fra."
+ mislykkes, avslutt SteamVR og koble ut hodesettets str
+ mislykkes, avslutt SteamVR og trekk ut st
+ mislykkes, avslutt SteamVR. Hvis kontrolleren ikke sl
+ mislykkes, avslutt SteamVR. Hvis sporingsenheten ikke sl
+ muligens konfigurere kanalene manuelt."
+ muligens startes p
+ nedenfor for 
+ neste"
+ neste:"
+ nytt
+ nytt 
+ nytt automatisk p
+ nytt etter at denne endringen utf
+ nytt etter at direkte skjermmodus sl
+ nytt etter at du endrer disse stiene.</b></html>"
+ nytt f
+ nytt for at innstillingen skal tre i kraft."
+ nytt n
+ nytt og oppdages igjen optisk ved 
+ nytt senere"
+ nytt"
+ nytt)."
+ nytt, f
+ nytt. Deretter koble til enhetene igjen.\n"
+ nytt. Fortsett og l
+ nytt. \n\nEr du sikker?"
+ nytt."
+ nytt.\n\nFeil: BR-%1\n"
+ nytt</span></a></i>"
+ nytt?"
+ oppdages igjen optisk ved 
+ oppdatere denne basestasjonen tr
+ oppdatere enheten.\n\nVil du fortsette?"
+ oppdateres (0x0100)"
+ oppdateres."
+ oppmerksomheten til personen som er i VR."
+ opprette unike innstillinger per program"
+ pass p
+ pause 
+ pause n
+ pause"
+ personlig SteamVR-st
+ plasseringen til SteamVRs programfil, og starte SteamVR p
+ potensielle sporingskonflikter."
+ rapportere en feil."
+ redigere!"
+ se etter tilkoblede enheter 
+ sende inn p
+ sikkermodus? SteamVR startes p
+ sin gjeldende kj
+ skjermbilder (BETA)"
+ skjermkortets ytelse."
+ skjul Steam-varsler i VR"
+ spore normalt."
+ sporingsenheten igjen, f
+ starte SteamVR p
+ starte hodesettet p
+ startes p
+ ta et skjermbilde"
+ til <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>SteamVR-utviklerforumene</a> for 
+ til f
+ til programfanen for 
+ til st
+ tilbakestille den, og start deretter SteamVR p
+ tildele kanalene p
+ tilgang til tr
+ tilknytte ytterligere kontrollere. Kun to kontrollere kan v
+ tilpasset oppl
+ unng
+ vekke VR"
+"About_BuiltPrefix" "Bygget %1"
 "About_DateString" "d. MMM yyyy %1 hh:mm"
 "About_DateString_Argument" "kl."
-"About_BuiltPrefix" "Bygget %1"
+"About_Title" "Om SteamVR"
 "About_VersionPrefix" "Versjon %1"
-
-"MenuAction_CalibrateController" "Kalibrer kontroller"
-"CalibrateControllerTrackpad_Title" "Kalibrer kontrollerens styreplate"
-"CalibrateControllerTrackpad_Start_UpperText" "Dette vil kalibrere kontrollerens styreplate. Du bør kalibrere styreplaten om den virker upresis eller du opplever uventede bevegelser."
-"CalibrateControllerTrackpad_Start_LowerText" "Sørg for at du ikke berører styreplaten og trykk Neste for å fortsette."
-"CalibrateControllerTrackpad_Progress_UpperText" "Kalibrerer styreplate …"
-"CalibrateControllerTrackpad_Success" "Vellykket!"
-"CalibrateControllerTrackpad_End_UpperText" "Kontrollerens styreplate er nå kalibrert."
-"CalibrateControllerTrackpad_End_LowerText" "
-"
-
-"PlaylistEntryDefaultName" "Oppføring"
-"PlaylistListDefaultName" "Spilleliste"
-
-"PlaylistEditor_WindowTitle" "Spillelistebehandling"
-"PlaylistEditor_New" "Ny"
-"PlaylistEditor_Load" "Åpne"
-"PlaylistEditor_Save" "Lagre"
-"PlaylistEditor_SaveAs" "Lagre som"
-"PlaylistEditor_FileName_Label" "Filnavn:"
-"PlaylistEditor_Name_Label" "Navn:"
-"PlaylistEditor_Entries_Tab" "Oppføringer"
-"PlaylistEditor_Placecard_Tab" "Plasseringskort"
-"PlaylistEditor_General_Tab" "Generelt"
-"PlaylistEditor_Detail_Name_Label" "Navn:"
-"PlaylistEditor_Detail_Entry_Text" "Oppføring"
-"PlaylistEditor_Detail_Executable_Label" "Kjørbar fil:"
-"PlaylistEditor_Detail_DotDotDot_Label" "…"
-"PlaylistEditor_Detail_Arguments_Label" "Argumenter:"
-"PlaylistEditor_Detail_Environment_Label" "Miljø:"
-"PlaylistEditor_Detail_WorkingDirectory_Label" "Arbeidsmappe:"
-"PlaylistEditor_Detail_UseCompositor_Checkbox" "Bruk komposisjonsbehandler"
-"PlaylistEditor_Detail_Total_Label" "Totalt:"
-"PlaylistEditor_Detail_WaitForNext_Checkbox" "Vent på neste"
-"PlaylistEditor_Detail_PrerollPlacecard_Label" "Forspillplasseringskort:"
-"PlaylistEditor_Detail_NothingSet_Text" "Ingenting angitt."
-"PlaylistEditor_Detail_PrerollDuration_Label" "Forspillvarighet:"
-"PlaylistEditor_Detail_PostrollDuration_Label" "Etterspillvarighet:"
-"PlaylistEditor_Detail_AudioVolume_Label" "Lydstyrke:"
-"PlaylistEditor_Detail_AudioVolumeInPercent_Label" " i % "
-"PlaylistEditor_Detail_AudioVolumeOverride_Checkbox" "Overstyr"
-"PlaylistEditor_Header_Length" "Lengde"
-"PlaylistEditor_Header_Durations" "Varigheter"
-"PlaylistEditor_Header_Name" "Navn"
-"PlaylistEditor_Plus_Button" "+"
-"PlaylistEditor_Minus_Button" "-"
-"PlaylistEditor_Duration_Label" "Varighet:"
-"PlaylistEditor_Play_Button" "Spill"
-"PlaylistEditor_Placecard_Test_Button" "Test"
-"PlaylistEditor_Placecard_Clear_Button" "Tøm"
-"PlaylistEditor_Placecard_Load_Button" "Åpne"
-"PlaylistEditor_Placecard_WidthInMeters_Label" "Bredde i meter:"
-"PlaylistEditor_Placecard_OffsetX_Label" "Forskyvning X:"
-"PlaylistEditor_Placecard_OffsetY_Label" "Forskyvning Y:"
-"PlaylistEditor_Placecard_OffsetZ_Label" "Forskyvning Z:"
-"PlaylistEditor_General_Environment_Label" "Miljø:"
-"PlaylistEditor_General_WorkingDirectory_Label" "Arbeidsmappe:"
-"PlaylistEditor_General_DotDotDot_Label" "…"
-"PlaylistEditor_General_ForceAudioVolume_Label" "Tving lydstyrke:"
-"PlaylistEditor_General_PlaySoundBeforeEnd_Label" "Spill av lyd før slutt:"
-"PlaylistEditor_General_Seconds_Label" "sekunder"
-"PlaylistEditor_General_WaitForNext_Label" "Vent på neste:"
-"PlaylistEditor_NotSavedYet_Text" "Ikke lagret ennå."
-"PlaylistEditor_AddEntry_Text" "Oppføring %1"
-"PlaylistEditor_LoadPlaylist_FileSelector" "Åpne spilleliste"
-"PlaylistEditor_SavePlaylist_FileSelector" "Lagre spilleliste"
-"PlaylistEditor_SelectExecutable_FileSelector" "Velg kjørbar sti"
-"PlaylistEditor_SelectWorkingDirectory_FileSelector" "Velg arbeidsmappe"
-"PlaylistEditor_SelectPrerollPlacecard_FileSelector" "Velg forspillplasseringskort"
-"PlaylistEditor_SelectImageForPlacecard_FileSelector" "Velg bilde til plasseringskort"
-
-"PlaylistPlayer_WindowTitle" "Spillelistespiller"
-"PlaylistPlayer_WindowTitle_WithName" "Spillelistespiller – %1"
-"PlaylistPlayer_All_Checkbox" "Alle"
-"PlaylistPlayer_ForceSoundVolume_Checkbox" "Tving lydstyrke"
-"PlaylistPlayer_PlaySoundBeforeEnd_Checkbox" "Spill av lyd før oppføringen slutter (i sekunder)"
-"PlaylistPlayer_ManualNext_Checkbox" "Manuelt neste"
-"PlaylistPlayer_Length_Header" "Lengde"
-"PlaylistPlayer_Durations_Header" "Varigheter"
-"PlaylistPlayer_Name_Header" "Navn"
-"PlaylistPlayer_Total_Label" "Totalt:"
-"PlaylistPlayer_RunSelected_Button" "Kjør valgte"
-"PlaylistPlayer_RunSingle_Button" "Kjør enkelt"
-"PlaylistPlayer_RemoteControlInHeadset_Checkbox" "Fjernkontroll i hodesettet"
-"PlaylistPlayer_Next_Label" "Neste:"
-"PlaylistPlayer_Current_Label" "Gjeldende:"
-"PlaylistPlayer_Overall_Label" "Samlet:"
-"PlaylistPlayer_PlaySound_Button" "Spill av lyd"
-"PlaylistPlayer_Run_Button" "Kjør"
-"PlaylistPlayer_Stop_Button" "Stopp"
-"PlaylistPlayer_PauseTimer_Button" "Sett på pause"
-"PlaylistPlayer_Next_Button" "Neste"
-"PlaylistPlayer_MasterVolume_Label" "Hovedvolum"
-"PlaylistPlayer_Continue_Button" "Fortsett"
-"PlaylistPlayer_State_NotRunning" "Kjører ikke"
-"PlaylistPlayer_State_Starting" "Starter"
-"PlaylistPlayer_State_Running" "Kjører"
-"PlaylistPlayer_State_Unknown" "Ukjent tilstand"
-"PlaylistPlayer_ProcessError_FailedToStart" "Kunne ikke starte"
-"PlaylistPlayer_ProcessError_Crashed" "Krasjet"
-"PlaylistPlayer_ProcessError_Timeout" "Tidsavbrudd"
-"PlaylistPlayer_ProcessError_WriteError" "Skrivefeil"
-"PlaylistPlayer_ProcessError_ReadError" "Lesefeil"
-"PlaylistPlayer_ProcessError_Unknown" "
-"
-"PlaylistPlayer_StatusOfCurrentDemo_Text" "Status for gjeldende demo: %1 %2"
-"PlaylistPlayer_PrerollState_Text" "Forspill "
-"PlaylistPlayer_PostrollState_Text" "Etterspill "
-"PlaylistPlayer_StatusOfCurrentEntryPause_Text" "%1Status for gjeldende oppføring: Pause"
-"PlaylistPlayer_StatusOfCurrentEntryNone_Text" "Ingen statusinformasjon for gjeldende oppføring."
-
-"PlaylistOverlay_Title" "Spillelistens fjernkontroll"
-"PlaylistOverlay_NextEntry" "Neste oppføring"
-"PlaylistOverlay_PauseTimer" "Sett på pause"
-"PlaylistOverlay_GotoFirstEntry" "Gå til første oppføring"
-
-"BugReporter_Title"	"Rapporter en feil"
-"BugReporter_Explanation" "Takk for at du hjelper Valve med å forbedre SteamVR.\n\nDette feilrapporteringsverktøyet oppretter en systemrapport av SteamVR, som samler opplysninger om systemet, miljøet og SteamVR-loggføring som kan brukes av Valve for diagnostikk."
-"BugReporter_ForPersonalSupport" "Dette er ikke en støtteforespørsel, og du vil ikke få et direkte svar. Gå til støttesiden for å få personlig SteamVR-støtte fra en medarbeider."
-"BugReporter_SteamVRSupport" "SteamVR-støtte"
-"BugReporter_Subject" "Emne:"
+"Advanced_Advanced" "Avansert"
+"Advanced_AllowSavingOfTimingInfo" "Tillat lagring av timinginfo"
+"Advanced_AppRequestedThrottling" "App forespurte begrensning (CPU-bundet)"
+"Advanced_Applications" "Programmer"
+"Advanced_ApplyPathsAndRestart" "Bruk stier og start p
+"Advanced_AsyncActive" "Asynk. omprojeksjon p
+"Advanced_AsyncNotActive" "Asynk. omprojeksjon av"
+"Advanced_Audio" "Lyd"
+"Advanced_AutoSaveTimingInfoOnExit" "Lagre timinginfo automatisk ved avslutning"
+"Advanced_Base" "Base"
+"Advanced_BaseStation" "Basestasjon"
+"Advanced_Bluetooth" "Bluetooth"
+"Advanced_BoundsDrawing" "Chaperone-grenser p
+"Advanced_BoundsNotDrawing" "Chaperone-grenser av"
+"Advanced_Camera" "Kamera"
+"Advanced_Compositor" "I hodesett"
+"Advanced_ConfigPath" "Konfigurasjonssti:"
+"Advanced_Controller" "Kontroller"
+"Advanced_DashboardDown" "Dashbord av"
+"Advanced_DashboardUp" "Dashbord p
+"Advanced_Developer" "Utvikler"
+"Advanced_Devices" "Enheter"
+"Advanced_DirectModeDisabled" "Direkte skjermmodus av"
+"Advanced_DrawingApp" "Program"
+"Advanced_DrawingCompShouldBeApp" "Komposisjonsbehandler"
+"Advanced_DrawingCompositor" "Komposisjonsbehandler"
+"Advanced_DrawingUnclear" "Ukjent"
+"Advanced_DroppedFrame" "Skjermfeil"
+"Advanced_Explanation_CollisionBounds" "Chaperone-grenser dukker opp n
+"Advanced_FloorBoundsAlwaysOn" "Alltid vis gulvgrensen"
+"Advanced_General" "Generelt"
+"Advanced_Generic_Tracker" "Sporingsenhet"
+"Advanced_HMD" "Hodesett"
+"Advanced_Header_CollisionBounds" "Chaperone-grenser"
+"Advanced_LogPath" "Loggsti:"
+"Advanced_MotionEstimationActive" "Bevegelsesutjevning p
+"Advanced_MotionEstimationDisabled" "Bevegelsesutjevning ikke tilgjengelig"
+"Advanced_MotionEstimationNotActive" "Bevegelsesutjevning av"
+"Advanced_MotionSmoothedFrame" "Omprojisert med bevegelsesutjevning"
+"Advanced_NormalFrame" "Normalt bilde"
+"Advanced_OneThirdFramerate" "En tredjedels bildefrekvens"
+"Advanced_Paths" "Stier"
+"Advanced_PerfGraphInHMD" "Vis GPU-ytelsesgraf i hodesettet"
+"Advanced_Performance" "Video"
+"Advanced_ReprojectedFrame" "Omprojisert uten bevegelsesutjevning"
+"Advanced_ReprojectionOff" "Omprojeksjon av"
+"Advanced_ReprojectionOn" "Omprojeksjon p
+"Advanced_Reset" "Tilbakestill"
+"Advanced_RoomOverview" "Chaperone"
+"Advanced_RuntimePath" "SteamVR-sti:"
+"Advanced_SaveFrameDataNow" "Lagre bildedata"
+"Advanced_SetNewPath" "Angi ny sti 
+"Advanced_Title" "Avansert"
+"Advanced_USB" "USB"
+"BS20_ConfigureChannel_Apply"								"Bruk"	
+"BS20_ConfigureChannel_AutoConfigContinue"					"Det er %1 potensielle kanalkonflikter som automatisk kan l
+"BS20_ConfigureChannel_AutoConfig_Incomplete"				"Automatisk konfigurasjon utf
+"BS20_ConfigureChannel_AutoConfig_NoChannelConflictsFound"	"Det er ingen kanalkonflikter."
+"BS20_ConfigureChannel_AutoConfig_NoFreeChannels"			"Det er ingen ledige kanaler for 
+"BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"Det er kun nok ledige kanaler til 
+"BS20_ConfigureChannel_AutoConfig_SuccessfulCompletion"		"Automatisk konfigurasjon utf
+"BS20_ConfigureChannel_AutoConfig_UnknownChannels"			"Det er %1 basestasjoner med kanaler som ikke kunne fastsl
+"BS20_ConfigureChannel_AutomaticConfiguration"				"Automatisk konfigurasjon"
+"BS20_ConfigureChannel_BaseStationName"						"Konfigurerer %1 p
+"BS20_ConfigureChannel_BluetoothRequired"					"Kanalkonfigurasjon krever Bluetooth-kommunikasjon.\n\nSl
+"BS20_ConfigureChannel_CancelledConnection"					"Forbindelsen til %1 ble avbrutt. Trykk p
+"BS20_ConfigureChannel_Channel"								"Kanal: %1"
+"BS20_ConfigureChannel_ChannelConfigurationFailure"			"%1 kunne ikke godta 
+"BS20_ConfigureChannel_ConflictLegend"						"Kanalkonflikt med en annen basestasjon."
+"BS20_ConfigureChannel_ConflictOnChannel"					"Potensiell konflikt p
+"BS20_ConfigureChannel_ConflictWarning"						"%1 bruker samme kanal som en annen basestasjon."
+"BS20_ConfigureChannel_Connecting"							"Kobler til 
+"BS20_ConfigureChannel_ConnectionFailure"					"%1 kunne ikke koble til."
+"BS20_ConfigureChannel_Description"							"Velg en ubrukt kanal til denne basestasjonen for 
+"BS20_ConfigureChannel_ErrorLegend"							"Trykk p
+"BS20_ConfigureChannel_FailedToConnectRetry"				"%1 kunne ikke koble til. Trykk 
+"BS20_ConfigureChannel_FirmwareUpdateRequired"				"%1 krever en enhetsoppdatering for 
+"BS20_ConfigureChannel_Identify"							"Trykk for 
+"BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"		"%1 krever en enhetsoppdatering for 
+"BS20_ConfigureChannel_InUseByPrefix"						"Brukes for 
+"BS20_ConfigureChannel_Legend"								"Angir en kanal som brukes av andre basestasjoner innen rekkevidde."
+"BS20_ConfigureChannel_NoConflictOnChannel"					"Ingen konflikt p
+"BS20_ConfigureChannel_ObservedInTracking"					"Observert i en tidligere sporings
+"BS20_ConfigureChannel_ProgressCancelling"					"\nAvbryter 
+"BS20_ConfigureChannel_ProgressConnecting"					"\nKobler til basestasjoner 
+"BS20_ConfigureChannel_ProgressScanComplete"				"Skann fullf
+"BS20_ConfigureChannel_ProgressScanNoStationsFound"			"Skann fullf
+"BS20_ConfigureChannel_ProgressScanning"					"Skanner etter basestasjoner 
+"BS20_ConfigureChannel_ProgressWritingChannel"				"\nSkriver kanal 
+"BS20_ConfigureChannel_RSSI"								"RSSI: %1"
+"BS20_ConfigureChannel_ScanForMore"							"Skann etter flere"
+"BS20_ConfigureChannel_Title"								"Kanalkonfigurasjon av basestasjon 2.0"
+"BS20_ConfigureChannel_VisibleNowInTracking"				"Synlig n
+"BS20_UpdateRecovery_BluetoothRequired"						"Gjenoppretting av oppdatering krever Bluetooth-kommunikasjon.\n\nSl
+"BS20_UpdateRecovery_FoundStations"							"Skann fullf
+"BS20_UpdateRecovery_Incomplete"							"Skanner etter basestasjoner 
+"BS20_UpdateRecovery_NoStationsFound"						"Skann fullf
+"BS20_UpdateRecovery_Refresh"								"Skann p
+"BS20_UpdateRecovery_Scanning"								"Skanner etter basestasjoner 
+"BS20_UpdateRecovery_Title"									"Gjenoppretting av oppdatering til basestasjon 2.0"
+"BS20_UpdateRecovery_UpdateDevice"							"Gjenopprett enhet"
+"BS_PowerManagement_BaseStations"							"Styrte basestasjoner"
+"BS_PowerManagement_ConnectionFailureLegend"				"Feil med forbindelsen. Trykk 
+"BS_PowerManagement_Enable"									"Sl
+"BS_PowerManagement_Enable_Explanation"						"Str
+"BS_PowerManagement_Enable_Warning"							"<font color=#ffffff>* ANBEFALES IKKE for sporingsomr
+"BS_PowerManagement_FailedToConnectRefresh"					"%1 kunne ikke opprette en forbindelse. Trykk 
+"BS_PowerManagement_ForgetBase"								"Glem denne enheten"
+"BS_PowerManagement_FullStandby"							"Hvilemodus"
+"BS_PowerManagement_FullStandby_Explanation"				"Basestasjoner sl
+"BS_PowerManagement_Identify"								"Trykk for 
+"BS_PowerManagement_IdentifyRequiresFirmareUpdate"			"%1 krever en enhetsoppdatering for 
+"BS_PowerManagement_ObservedInTracking"						"Observert i en tidligere sporings
+"BS_PowerManagement_PartialStandby"							"Ventemodus" 
+"BS_PowerManagement_PartialStandby_Explanation"				"Basestasjoner sl
+"BS_PowerManagement_PartialStandby_HybridExplanation"		"Basestasjoner 2.0 sl
+"BS_PowerManagement_RefreshLink"							"Oppdater"
+"BS_PowerManagement_Title"									"Str
+"BS_PowerManagement_VisibleNowInTracking"					"Synlig n
+"BS_PromotePowerManagement_Enable"							"Sl
+"BS_PromotePowerManagement_ExitNow"							"Avslutt n
+"BS_PromotePowerManagement_Explanation"						"SteamVR kan h
+"BS_PromotePowerManagement_Explanation2"					"<br><font color=#ffffff>* ANBEFALES IKKE for sporingsomr
+"BS_PromotePowerManagement_Title"							"SteamVR"
+"BaseStation_Channel_Text" "Kanal %1"
+"BaseStation_Mode_Text" "Modus %1"
+"BluetoothControllerStatus_BluetoothDriverInstalling"		"Installerer Bluetooth-driver 
+"BluetoothControllerStatus_BluetoothDriverNeedsUpdate"		"Bluetooth-driveren til koblingsboksen m
+"BluetoothControllerStatus_BluetoothDriverNotInstalled"		"Bluetooth-driveren til koblingsboksen er ikke installert."
+"BluetoothControllerStatus_Connected"						"Bluetooth tilkoblet"
+"BluetoothControllerStatus_Connecting"						"Kobler til 
+"BluetoothControllerStatus_Disconnecting"					"Kobler fra 
+"BluetoothControllerStatus_FailedConnection"				"Bluetooth-tilkobling mislyktes. Sjekk tilkoblinger til koblingsboksen, koble ut og inn igjen st
+"BluetoothControllerStatus_LinkBoxNotDetected"				"Fant ingen koblingsboks med Bluetooth-funksjonalitet. Sjekk tilkoblinger til koblingsboksen, koble ut og inn igjen st
+"BluetoothControllerStatus_NoBluetoothDevice"				"Fant ingen Bluetooth-funksjonalitet."
+"BluetoothControllerStatus_NoBluetoothDeviceUpdateNeeded"	"Fant ingen Bluetooth-funksjonalitet. Det kreves en enhetsoppdatering for 
+"BluetoothControllerStatus_ServiceError"					"Bluetooth-feil: BT-%1"
+"BluetoothControllerStatus_ServiceNotFound"					"Fant ikke Bluetooth-funksjonalitet. Kontroller installasjonen av SteamVR."
+"BluetoothControllerStatus_Unknown"							"Ukjent"
+"BluetoothLinkStatus_Running" "Kj
+"BluetoothLinkStatus_SemaphoreFileNotAccessible" "Bluetooth-feil"
+"BluetoothLinkStatus_StoppedOrPaused" "Stoppet"
+"BluetoothLinkStatus_Transient" "Endrer"
+"BluetoothLinkStatus_Unknown" "Ukjent"
+"BluetoothLinkStatus_ViveLinkNotAccessible" "Bluetooth-feil"
+"BluetoothLinkStatus_WrongToken" "Bluetooth-feil"
 "BugReporter_CharactersRemaining" "%1 tegn igjen"
 "BugReporter_Description" "Beskrivelse:"
+"BugReporter_DescriptionRequired" "Angi en beskrivelse."
+"BugReporter_Explanation" "Takk for at du hjelper Valve med 
+"BugReporter_FailedToCreateZip" "Kunne ikke opprette ZIP-vedlegg."
+"BugReporter_ForPersonalSupport" "Dette er ikke en st
+"BugReporter_IncludeCrashDumps" "Inkluder krasjdumper"
+"BugReporter_IncludeReportAndLogs" "Inkluder systemrapport og loggfiler"
+"BugReporter_InitializationFailure" "Feilrapporteringen kunne ikke initialiseres.\n\nFeil: BR-%1"
+"BugReporter_NotAvailable" "Feilrapportering er ikke tilgjengelig i denne versjonen av SteamVR."
+"BugReporter_Owner"	"Eier:"
+"BugReporter_PreviewReport" "Forh
+"BugReporter_PreviewReportTitle" "Rapporter en feil 
+"BugReporter_Priority" "Prioritet:"
+"BugReporter_ProgressSubmitting" "Sender inn 
+"BugReporter_ProgressSubmittingPercent" "Sender inn 
 "BugReporter_ReportType"	"Rapporttype:"
 "BugReporter_ReportType_Bug" "Feil"
 "BugReporter_ReportType_FeatureRequest" "Forslag til funksjon"
 "BugReporter_ReportType_Feedback" "Tilbakemelding"
-"BugReporter_Owner"	"Eier:"
-"BugReporter_Priority" "Prioritet:"
-"BugReporter_PreviewReport" "Forhåndsvis rapport"
-"BugReporter_IncludeReportAndLogs" "Inkluder systemrapport og loggfiler"
-"BugReporter_IncludeCrashDumps" "Inkluder krasjdumper"
+"BugReporter_SteamLoginRequired" "Du m
+"BugReporter_SteamVRSupport" "SteamVR-st
+"BugReporter_Subject" "Emne:"
 "BugReporter_SubjectRequired" "Angi et emne."
-"BugReporter_DescriptionRequired" "Angi en beskrivelse."
-"BugReporter_FailedToCreateZip" "Kunne ikke opprette ZIP-vedlegg."
-"BugReporter_SteamLoginRequired" "Du må være logget inn på Steam-kontoen for å rapportere en feil."
-"BugReporter_NotAvailable" "Feilrapportering er ikke tilgjengelig i denne versjonen av SteamVR."
-"BugReporter_InitializationFailure" "Feilrapporteringen kunne ikke initialiseres.\n\nFeil: BR-%1"
-"BugReporter_SubmissionSuccess"	"Rapporten ble sendt.\n\nDu bør motta en bekreftelse på e-post straks."
-"BugReporter_SubmissionFailure"	"Rapporten ble ikke sendt.\n\nFeilverktøyet er muligens opptatt. Prøv gjerne å sende inn på nytt.\n\nFeil: BR-%1\n"
-"BugReporter_SubmissionTimeout" "Innsendingen ble tidsavbrutt.\n\nOpplastingen tar lenger tid enn forventet. Prøv gjerne igjen senere.\n"
-"BugReporter_PreviewReportTitle" "Rapporter en feil – Forhåndsvis rapport"
-"BugReporter_ProgressSubmitting" "Sender inn …"
-"BugReporter_ProgressSubmittingPercent" "Sender inn …%1 %"
-
-"ScanForBaseStations_Scanning"	"Skanner etter basestasjoner …\n\n%1 sekunder igjen."
-"ScanForBaseStation_Incomplete" "Skanner etter basestasjoner …\n\nIkke fullført."
-"ScanForBaseStation_FoundStations" "Skann fullført"
-"ScanForBaseStation_NoKnownStations" "Skann fullført\n\nDet er basestasjoner som kringkaster i nærheten, men ingen av dem er blitt brukt til sporing ennå."
-"ScanForBaseStation_NoStationsFound" "Skann fullført\n\nDet er ingen basestasjoner som kringkaster i nærheten."
-"ScanForBaseStations_Refresh" "Skann på nytt"
-
-"BS20_ConfigureChannel_Title"								"Kanalkonfigurasjon av basestasjon 2.0"
-"BS20_ConfigureChannel_BluetoothRequired"					"Kanalkonfigurasjon krever Bluetooth-kommunikasjon.\n\nSlå på Bluetooth-kommunikasjon i innstillingene."
-"BS20_ConfigureChannel_BaseStationName"						"Konfigurerer %1 på kanal %2"
-"BS20_ConfigureChannel_Description"							"Velg en ubrukt kanal til denne basestasjonen for å unngå potensielle sporingskonflikter."
-"BS20_ConfigureChannel_InUseByPrefix"						"Brukes for øyeblikket av:"
-"BS20_ConfigureChannel_Legend"								"Angir en kanal som brukes av andre basestasjoner innen rekkevidde."
-"BS20_ConfigureChannel_AutomaticConfiguration"				"Automatisk konfigurasjon"
-"BS20_ConfigureChannel_AutoConfig_NoChannelConflictsFound"	"Det er ingen kanalkonflikter."
-"BS20_ConfigureChannel_AutoConfig_NoFreeChannels"			"Det er ingen ledige kanaler for å kunne løse %1 potensielle kanalkonflikter. Du må muligens konfigurere kanalene manuelt."
-"BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"Det er kun nok ledige kanaler til å løse %1 av %2 potensielle kanalkonflikter. Fortsett og løs konflikter?"
-"BS20_ConfigureChannel_AutoConfigContinue"					"Det er %1 potensielle kanalkonflikter som automatisk kan løses ved å tildele kanalene på nytt. Fortsett og løs konflikter?"
-"BS20_ConfigureChannel_AutoConfig_SuccessfulCompletion"		"Automatisk konfigurasjon utført.\n\nDet er ingen kanalkonflikter."
-"BS20_ConfigureChannel_AutoConfig_Incomplete"				"Automatisk konfigurasjon utført.\n\nDet er %1 potensielle kanalkonflikter igjen. Du må muligens konfigurere kanalene manuelt."
-"BS20_ConfigureChannel_AutoConfig_UnknownChannels"			"Det er %1 basestasjoner med kanaler som ikke kunne fastslås, og som kan føre til potensielle kanalkonflikter.\n"
-"BS20_ConfigureChannel_ChannelConfigurationFailure"			"%1 kunne ikke godta ønsket kanalkonfigurasjon."
-"BS20_ConfigureChannel_ScanForMore"							"Skann etter flere"
-"BS20_ConfigureChannel_Apply"								"Bruk"	
-"BS20_ConfigureChannel_Connecting"							"Kobler til …"
-"BS20_ConfigureChannel_Channel"								"Kanal: %1"
-"BS20_ConfigureChannel_ConnectionFailure"					"%1 kunne ikke koble til."
-"BS20_ConfigureChannel_FirmwareUpdateRequired"				"%1 krever en enhetsoppdatering for å kunne bruke kanalkonfigurasjon."
-"BS20_ConfigureChannel_ConflictWarning"						"%1 bruker samme kanal som en annen basestasjon."
-"BS20_ConfigureChannel_FailedToConnectRetry"				"%1 kunne ikke koble til. Trykk «Prøv på nytt» for å prøve igjen."
-"BS20_ConfigureChannel_ConflictOnChannel"					"Potensiell konflikt på kanal %1"
-"BS20_ConfigureChannel_NoConflictOnChannel"					"Ingen konflikt på kanal %1"
-"BS20_ConfigureChannel_ProgressScanComplete"				"Skann fullført.\n\nTrykk på en kanal for å endre den."
-"BS20_ConfigureChannel_ProgressScanNoStationsFound"			"Skann fullført.\n\nDet er ingen 2.0-basestasjoner som kringkaster i nærheten."
-"BS20_ConfigureChannel_ProgressScanning"					"Skanner etter basestasjoner …\n\n%1 sekunder igjen."
-"BS20_ConfigureChannel_ProgressConnecting"					"\nKobler til basestasjoner …\n"
-"BS20_ConfigureChannel_ProgressWritingChannel"				"\nSkriver kanal …\n"
-"BS20_ConfigureChannel_ProgressCancelling"					"\nAvbryter …\n"
-"BS20_ConfigureChannel_VisibleNowInTracking"				"Synlig nå i denne sporingsøkten."
-"BS20_ConfigureChannel_ObservedInTracking"					"Observert i en tidligere sporingsøkt."
-"BS20_ConfigureChannel_Identify"							"Trykk for å identifisere basestasjon."
-"BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"		"%1 krever en enhetsoppdatering for å slå på enhetsidentifikasjon."
-"BS20_ConfigureChannel_RSSI"								"RSSI: %1"
-"BS20_ConfigureChannel_ConflictLegend"						"Kanalkonflikt med en annen basestasjon."
-"BS20_ConfigureChannel_ErrorLegend"							"Trykk på en kanallenke for mer informasjon."
-"BS20_ConfigureChannel_CancelledConnection"					"Forbindelsen til %1 ble avbrutt. Trykk på kanallenken for å prøve igjen."
-
-"BS_PowerManagement_Title"									"Strømstyring av basestasjoner"
-"BS_PowerManagement_Enable"									"Slå på strømstyring *"
-"BS_PowerManagement_Enable_Explanation"						"Strømstyrte basestasjoner går i ventemodus når SteamVR ikke er i bruk, og våkner når SteamVR starter.\n"
-"BS_PowerManagement_Enable_Warning"							"<font color=#ffffff>* ANBEFALES IKKE for sporingsområder, som deles med flere SteamVR-brukere.</font>"
-"BS_PowerManagement_PartialStandby"							"Ventemodus" 
-"BS_PowerManagement_PartialStandby_Explanation"				"Basestasjoner slår kun av laserne, så de vekkes raskere når SteamVR starter."
-"BS_PowerManagement_PartialStandby_HybridExplanation"		"Basestasjoner 2.0 slår kun av laserne, så de vekkes raskere når SteamVR starter."
-"BS_PowerManagement_FullStandby"							"Hvilemodus"
-"BS_PowerManagement_FullStandby_Explanation"				"Basestasjoner slår av laserne og motorene."
-"BS_PowerManagement_RefreshLink"							"Oppdater"
-"BS_PowerManagement_ForgetBase"								"Glem denne enheten"
-"BS_PowerManagement_BaseStations"							"Styrte basestasjoner"
-"BS_PowerManagement_VisibleNowInTracking"					"Synlig nå i denne sporingsøkten."
-"BS_PowerManagement_ObservedInTracking"						"Observert i en tidligere sporingsøkt."
-"BS_PowerManagement_Identify"								"Trykk for å identifisere basestasjon."
-"BS_PowerManagement_IdentifyRequiresFirmareUpdate"			"%1 krever en enhetsoppdatering for å slå på enhetsidentifikasjon."
-"BS_PowerManagement_FailedToConnectRefresh"					"%1 kunne ikke opprette en forbindelse. Trykk «Oppdater» for å prøve igjen."
-"BS_PowerManagement_ConnectionFailureLegend"				"Feil med forbindelsen. Trykk «Oppdater» for å prøve igjen."
-
-"BS20_UpdateRecovery_Title"									"Gjenoppretting av oppdatering til basestasjon 2.0"
-"BS20_UpdateRecovery_BluetoothRequired"						"Gjenoppretting av oppdatering krever Bluetooth-kommunikasjon.\n\nSlå på Bluetooth-kommunikasjon i innstillingene."
-"BS20_UpdateRecovery_Scanning"								"Skanner etter basestasjoner …\n\n%1 sekunder igjen."
-"BS20_UpdateRecovery_Incomplete"							"Skanner etter basestasjoner …\n\nIkke fullført."
-"BS20_UpdateRecovery_FoundStations"							"Skann fullført.<br><br><font color=#ffffff>Disse basestasjonene har ufullstendige oppdateringer.<br><br>Velg en basestasjon og trykk «Gjenopprett enhet» for å fortsette.</font>"
-"BS20_UpdateRecovery_NoStationsFound"						"Skann fullført.\n\nDet er ingen basestasjoner i nærheten, som kringkaster og trenger gjenoppretting."
-"BS20_UpdateRecovery_Refresh"								"Skann på nytt"
-"BS20_UpdateRecovery_UpdateDevice"							"Gjenopprett enhet"
-
-"BS_PromotePowerManagement_Title"							"SteamVR"
-"BS_PromotePowerManagement_Explanation"						"SteamVR kan håndtere strømstyring av basestasjoner.<br><br>Strømstyrte basestasjoner går i ventemodus når SteamVR ikke er i bruk, og våkner når SteamVR starter.<br>"
-"BS_PromotePowerManagement_Enable"							"Slå på strømstyring av basestasjoner *"
-"BS_PromotePowerManagement_Explanation2"					"<br><font color=#ffffff>* ANBEFALES IKKE for sporingsområder, som deles med flere SteamVR-brukere.</font>"
-"BS_PromotePowerManagement_ExitNow"							"Avslutt nå (%1)"
-
-"Monitor_SpontaneousQuitDialog_Title" "Uventet SteamVR-feil"
-"Monitor_SpontaneousQuitDialog_Message" "Det har oppstått en kritisk feil med SteamVR."
-"Monitor_SpontaneousQuitDialog_Restart" "Start SteamVR på nytt"
-"Monitor_SpontaneousQuitDialog_Quit" "Avslutt SteamVR"
-
-"Monitor_RestartRequestedDialog_Title" "Start driveren %1 på nytt"
-"Monitor_RestartRequestedDialog_MessageNoReason" "Driveren %1 må starte SteamVR på nytt."
-"Monitor_RestartRequestedDialog_Message" "%1"
-"Monitor_RestartRequestedDialog_Restart" "Start SteamVR på nytt"
-"Monitor_RestartRequestedDialog_Quit" "Avslutt SteamVR"
-
-"oculus_display_lost" "Oculus-systemet har mistet forbindelsen til skjermen. Sjekk hodesettets tilkobling og start deretter på nytt."
-"oculus_requested_quit" "Oculus-systemet ba om at SteamVR avsluttes."
-
-"Monitor_WakingBaseStations" "Basestasjoner vekkes …"
-"Monitor_PuttingBaseStationsInStandby" "Basestasjoner går i ventemodus …"
-
-"VRApplicationError_None" "Ingen feil"
-
-"VRApplicationError_AppKeyAlreadyExists" "Programmet er allerede registrert"
-"VRApplicationError_NoManifest" "Intet programmanifest"
-"VRApplicationError_NoApplication" "Intet program"
-"VRApplicationError_InvalidIndex" "Ugyldig indeks"
-"VRApplicationError_UnknownApplication" "Ukjent program"
-"VRApplicationError_IPCFailed" "Kan ikke be om program"
-"VRApplicationError_ApplicationAlreadyRunning" "Programmet kjører allerede"
-"VRApplicationError_InvalidManifest" "Ugyldig manifest"
-"VRApplicationError_InvalidApplication" "Programmet var ugyldig"
-"VRApplicationError_LaunchFailed" "Programoppstart mislyktes"
-"VRApplicationError_ApplicationAlreadyStarting" "Programmet skulle allerede starte opp"
-"VRApplicationError_LaunchInProgress" "Et annet program skulle allerede starte opp"
-"VRApplicationError_OldApplicationQuitting" "Et annet program skulle allerede avslutte"
-"VRApplicationError_TransitionAborted" "Programoppstart ble avbrutt av bruker"
-"VRApplicationError_IsTemplate" "Dette er en programmal"
-"VRApplicationError_SteamVRIsExiting" "SteamVR skal avsluttes"
-
-"VRApplicationError_BufferTooSmall" "Angitt buffer var for liten"
-"VRApplicationError_PropertyNotSet" "Egenskap ble ikke angitt"
-"VRApplicationError_UnknownProperty" "Ukjent egenskap"
-"VRApplicationError_InvalidParameter" "Ugyldig parameter"
-
-"Key_Escape_Abbreviation" "ESC"
-
-"HeadsetView_Title" "VR-visning"
-"HeadsetView_MenuLabel" "Meny"
-"HeadsetView_PressKeyToExit" "Trykk %1 for å avslutte fullskjerm"
-"HeadsetView_FullscreenButtonLabel" "Fullskjerm"
+"BugReporter_SubmissionFailure"	"Rapporten ble ikke sendt.\n\nFeilverkt
+"BugReporter_SubmissionSuccess"	"Rapporten ble sendt.\n\nDu b
+"BugReporter_SubmissionTimeout" "Innsendingen ble tidsavbrutt.\n\nOpplastingen tar lenger tid enn forventet. Pr
+"BugReporter_Title"	"Rapporter en feil"
+"Button_ResetCollisionBounds" "Tilbakestill til standard"
+"CalibrateControllerTrackpad_End_LowerText" "
+"CalibrateControllerTrackpad_End_UpperText" "Kontrollerens styreplate er n
+"CalibrateControllerTrackpad_Progress_UpperText" "Kalibrerer styreplate 
+"CalibrateControllerTrackpad_Start_LowerText" "S
+"CalibrateControllerTrackpad_Start_UpperText" "Dette vil kalibrere kontrollerens styreplate. Du b
+"CalibrateControllerTrackpad_Success" "Vellykket!"
+"CalibrateControllerTrackpad_Title" "Kalibrer kontrollerens styreplate"
+"CollisionBounds_Advanced" "Avansert"
+"CollisionBounds_Beginner" "Nybegynner"
+"CollisionBounds_Developer" "Utvikler"
+"CollisionBounds_Intermediate" "Middels"
+"CollisionBounds_Squares" "Kvadrater"
+"CompositorBackground_Color"		"Farge"
+"CompositorBackground_Header"		"Bakgrunnsstil"
+"CompositorBackground_Image"		"Bilde"
+"CompositorError_NoCompositorRequested" "SteamVR-feil"
+"CompositorError_Running" "Kj
+"Compositor_ResetToDefault" 		"Tilbakestill til standard"
+"Compositor_SelectColorHeader"		"Velg en farge til bakgrunnen i hodesettet."
+"Compositor_SelectImage"			"Velg bilde 
+"Compositor_SelectImageHeader"		"Velg et bilde til bakgrunnen i hodesettet."
+"DismissableWarning_BasestationSingleBaseModeHint" "Basestasjonshint (0x0008)"
+"DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Basestasjonskonflikt (0x400000)"
+"DismissableWarning_BasestationsTooFarApart" "Basestasjonene er for langt fra hverandre (0x0002)"
+"DismissableWarning_BluetoothDriverNeedsInstallation" "Bluetooth-driver kreves (0x0080)"
+"DismissableWarning_BluetoothDriverNeedsUpdate" "Bluetooth-driver m
+"DismissableWarning_BluetoothLinkCommunicationFailed" "Bluetooth-kommunikasjon mislyktes (0x0800)"
+"DismissableWarning_BluetoothLinkServiceError" "Bluetooth ikke tilgjengelig (0x0400)"
+"DismissableWarning_BluetoothLinkServiceNotFound" "Bluetooth ikke tilgjengelig (0x0200)"
+"DismissableWarning_Detected" "Oppdaget"
+"DismissableWarning_DismissButton" "Avvis"
+"DismissableWarning_DisplayInExtendedMode" "Skjermadvarsel (0x10000)"
+"DismissableWarning_MissedFrames" "Tapte bilder (0x0020)"
+"DismissableWarning_OpticalBasestationSyncWarning" "Basestasjonsadvarsel (0x0004)"
+"DismissableWarning_PowerSchemeIsNotHighPerformance" "Ytelsesfeil (0x0040)"
+"DismissableWarning_RunTutorialAgain" "Begynn oppl
+"DismissableWarning_SomeDisplaysAreMirroring" "Noen skjermer bruker speiling (0x1000)"
+"DismissableWarning_SteamVRInSafeMode" "SteamVR i sikkermodus (0x1000000)"
+"DismissableWarning_TimeFormat" "HH:mm"
+"DismissableWarning_UnknownHardwareDetected" "Ny enhet oppdaget (0x2000)"
+"DismissableWarning_WarningsForTheFirstTime" "F
+"DismissableWarning_Windows8" "Windows 8 (0x8000)"
+"DismissableWarning_WindowsAeroDisabled" "Skjermadvarsel (0x4000)"
+"Explanation_DisableEnhancedPowerManagement" "Sl
+"Explanation_QuickCalibrate" "Hurtig tilbakestilling av romoppsettet. For st
+"Explanation_RebootVive" "USB-relaterte problemer kan l
+"Explanation_RemoveAllSteamVRUSBDevices" "Fjern alle USB-enheter relatert til SteamVR fra dette systemet for 
+"Explanation_ResetDismissableWarnings" "Midlertidige advarsler er tilbakestilt og vises p
+"Explanation_ResetRuntimeAndQuit" "Tilbakestill SteamVR-stien basert p
+"Explanation_RestartSteamVR" "USB-relaterte problemer kan l
+"Explanation_Supersampling" "*Noen programmer krever en omstart for at de nye innstillingene skal tre i kraft."
+"Explanation_SupersamplingFiltering" "Innstillinger for supersamplingsfiltrering"
+"Explanation_Supersampling_Header" "SteamVR stiller automatisk inn programoppl
+"FirmwareWizard_AudioBridgeUpdate" "Enhetsoppdatering"
+"FirmwareWizard_AudioUpdate" "Lydoppdatering"
+"FirmwareWizard_BaseStationBluetoothBootloaderUpdate" "Enhetsoppdatering"
+"FirmwareWizard_BaseStationBluetoothMCUUpdate" "Enhetsoppdatering"
+"FirmwareWizard_BaseStationBluetoothRadioUpdate" "Enhetsoppdatering"
+"FirmwareWizard_CameraRecovery" "Kameraoppdatering"
+"FirmwareWizard_CameraUpdate" "Kameraoppdatering"
+"FirmwareWizard_DeviceOverview_FailedToUpdate" "Kunne ikke oppdatere"
+"FirmwareWizard_DeviceOverview_LookingForDevice" "S
+"FirmwareWizard_DeviceOverview_Nagging_Title" "Enhetsoppdateringer kreves"
+"FirmwareWizard_DeviceOverview_NoUpdateDataAvailable" "Ingen oppdateringsdata tilgjengelig"
+"FirmwareWizard_DeviceOverview_TextContent" "Hvilken enhet vil du oppdatere?"
+"FirmwareWizard_DeviceOverview_TextContent_Nag" "N
+"FirmwareWizard_DeviceOverview_Title" "Oppdater enhet"
+"FirmwareWizard_DeviceOverview_UpToDate" "Oppdatert"
+"FirmwareWizard_DeviceOverview_UpdateAvailable" "Oppdatering tilgjengelig"
+"FirmwareWizard_DeviceOverview_WirelessServicesRequired" "Denne oppdateringen krever tr
+"FirmwareWizard_DisplayFPGAUpdate" "Skjermoppdatering"
+"FirmwareWizard_DisplayUpdate" "Skjermoppdatering"
+"FirmwareWizard_DongleUpdate" "Oppdatering av tr
+"FirmwareWizard_EnterBootloaderMode" "Forbereder oppdatering 
+"FirmwareWizard_ExitBootloaderMode" "Fullf
+"FirmwareWizard_ImageBridgeUpdate" "Enhetsoppdatering"
+"FirmwareWizard_Information_Title" "Enhetsoppdatering"
+"FirmwareWizard_Nag_Title" "Anbefalt enhetsoppdatering"
+"FirmwareWizard_ProgressPercent" "[ %1% ]"
+"FirmwareWizard_ProgressPercentFinishing" "[ Fullf
+"FirmwareWizard_ProgressPercentStarting" "[ Starter 
+"FirmwareWizard_ProgressTextLeft" "("
+"FirmwareWizard_ProgressTextMiddle" "av"
+"FirmwareWizard_ProgressTextRight" ")"
+"FirmwareWizard_RadioUpdate" "Radiooppdatering"
+"FirmwareWizard_ShutdownForMandatoryUpdate_TextContent" "Hodesettet krever en enhetsoppdatering for 
+"FirmwareWizard_ShutdownForRecovery_TextContent" "En komponent i maskinvaren krever en enhetsoppdatering for 
+"FirmwareWizard_Shutdown_TextContent" "Vi m
+"FirmwareWizard_Shutdown_Title" "Oppdater enhet"
+"FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle" "Denne basestasjonen m
+"FirmwareWizard_UpdateBasestationWireless_Fail_BaseStuckInDFU" "En uventet USB-tilkobling til basestasjonen hindrer den tr
+"FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Trykk 
+"FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Trykk 
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "Hvis det fremdeles oppst
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20" "Hvis det fremdeles oppst
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox" "Hvis det fremdeles oppst
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20" "Hvis det fremdeles oppst
+"FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "Denne basestasjonen m
+"FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "Denne basestasjonen m
+"FirmwareWizard_UpdateBasestationWireless_Fail_Title" "Basestasjonsoppdatering mislyktes"
+"FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "En uventet USB-tilkobling til basestasjonen forhindrer den tr
+"FirmwareWizard_UpdateBasestationWireless_Fail_UpperText" "Denne enhetsoppdateringen mislyktes."
+"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "Denne basestasjonen har en nyere versjon av oppdateringen og har avvist den. Koble ut og inn igjen basestasjonens str
+"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS10" "Basestasjonen ble oppdatert. Du m
+"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS20" "Basestasjonen ble oppdatert."
+"FirmwareWizard_UpdateBasestationWireless_Success_Title" "Oppdater basestasjon"
+"FirmwareWizard_UpdateBasestationWireless_Success_UpperText" "Vellykket!"
+"FirmwareWizard_UpdateBasestation_Bluetooth" "Tr
+"FirmwareWizard_UpdateBasestation_Choice_MiddleText" "Oppdateringen kan skje manuelt eller tr
+"FirmwareWizard_UpdateBasestation_Choice_Title" "Oppdater basestasjon"
+"FirmwareWizard_UpdateBasestation_Continue" "Fortsett"
+"FirmwareWizard_UpdateBasestation_Fail_LowerText" "Trykk 
+"FirmwareWizard_UpdateBasestation_Fail_MiddleText" "S
+"FirmwareWizard_UpdateBasestation_Fail_Title" "Basestasjonsoppdatering mislyktes"
+"FirmwareWizard_UpdateBasestation_Fail_UpperText" "Denne enhetsoppdateringen mislyktes."
+"FirmwareWizard_UpdateBasestation_Manual" "USB"
+"FirmwareWizard_UpdateBasestation_Progress_LowerText" "ADVARSEL: Ikke koble ut basestasjonen, koble til andre enheter eller gj
+"FirmwareWizard_UpdateBasestation_Progress_MiddleText" "Oppdaterer basestasjon. Dette kan ta flere minutter 
+"FirmwareWizard_UpdateBasestation_Progress_Title" "Oppdater basestasjon"
+"FirmwareWizard_UpdateBasestation_Progress_UpperText" "
+"FirmwareWizard_UpdateBasestation_Start_LowerText" "4. Oppdateringen startes automatisk n
+"FirmwareWizard_UpdateBasestation_Start_MiddleText" "1. Ta ned og koble ut str
+"FirmwareWizard_UpdateBasestation_Start_Title" "Oppdater basestasjon"
+"FirmwareWizard_UpdateBasestation_Start_UpperText" "
+"FirmwareWizard_UpdateBasestation_Success_LowerText" "N
+"FirmwareWizard_UpdateBasestation_Success_MiddleText" "Basestasjonen ble oppdatert. Du m
+"FirmwareWizard_UpdateBasestation_Success_Title" "Oppdater basestasjon"
+"FirmwareWizard_UpdateBasestation_Success_UpperText" "Vellykket!"
+"FirmwareWizard_UpdateBasestation_WirelessProgress_LowerText" "ADVARSEL: Ikke koble ut basestasjonen, koble til andre enheter eller gj
+"FirmwareWizard_UpdateBasestation_WirelessProgress_MiddleText" "Oppdaterer basestasjon. Dette kan ta flere minutter 
+"FirmwareWizard_UpdateBasestation_WirelessProgress_Title" "Oppdater basestasjon"
+"FirmwareWizard_UpdateBasestation_Wireless_LowerText" "
+"FirmwareWizard_UpdateBasestation_Wireless_MiddleText" "Denne oppdateringen skjer tr
+"FirmwareWizard_UpdateBasestation_Wireless_Title" "Oppdater basestasjon"
+"FirmwareWizard_UpdateBasestation_Wireless_UpperText" "
+"FirmwareWizard_UpdateController_Fail_LowerText" "Trykk 
+"FirmwareWizard_UpdateController_Fail_MiddleText" "S
+"FirmwareWizard_UpdateController_Fail_Title" "Enhetsoppdatering mislyktes"
+"FirmwareWizard_UpdateController_Fail_UpperText" "Kontrolleroppdatering mislyktes."
+"FirmwareWizard_UpdateController_Progress_LowerText" "ADVARSEL: Ikke koble ut kontrolleren, koble til andre enheter eller gj
+"FirmwareWizard_UpdateController_Progress_MiddleText" "Oppdaterer kontroller. Dette kan ta flere minutter 
+"FirmwareWizard_UpdateController_Progress_Title" "Oppdater kontroller"
+"FirmwareWizard_UpdateController_Progress_UpperText" "
+"FirmwareWizard_UpdateController_Start_LowerText" "Oppdateringen startes automatisk n
+"FirmwareWizard_UpdateController_Start_MiddleText" "Koble til denne kontrolleren i datamaskinen med en micro-USB-kabel. Du kan bruke den samme kabelen som brukes til 
+"FirmwareWizard_UpdateController_Start_Title" "Oppdater kontroller"
+"FirmwareWizard_UpdateController_Success_LowerText" "  "
+"FirmwareWizard_UpdateController_Success_MiddleText" "Kontrolleren ble oppdatert. Du m
+"FirmwareWizard_UpdateController_Success_Title" "Oppdater kontroller"
+"FirmwareWizard_UpdateController_Success_UpperText" "Vellykket!"
+"FirmwareWizard_UpdateGenericTracker_Fail_LowerText" "Trykk 
+"FirmwareWizard_UpdateGenericTracker_Fail_MiddleText" "S
+"FirmwareWizard_UpdateGenericTracker_Fail_Title" "Enhetsoppdatering mislyktes"
+"FirmwareWizard_UpdateGenericTracker_Fail_UpperText" "Enhetsoppdatering mislyktes."
+"FirmwareWizard_UpdateGenericTracker_Progress_LowerText" "ADVARSEL: Ikke koble ut sporingsenheten, koble til andre enheter eller gj
+"FirmwareWizard_UpdateGenericTracker_Progress_MiddleText" "Oppdaterer sporingsenhet. Dette kan ta flere minutter 
+"FirmwareWizard_UpdateGenericTracker_Progress_Title" "Oppdater sporingsenhet"
+"FirmwareWizard_UpdateGenericTracker_Start_LowerText" "Oppdateringen startes automatisk n
+"FirmwareWizard_UpdateGenericTracker_Start_MiddleText" "Koble til denne sporingsenheten i datamaskinen med en micro-USB-kabel. Du kan bruke den samme kabelen som brukes til 
+"FirmwareWizard_UpdateGenericTracker_Start_Title" "Oppdater sporingsenhet"
+"FirmwareWizard_UpdateGenericTracker_Success_LowerText" "  "
+"FirmwareWizard_UpdateGenericTracker_Success_MiddleText" "Sporingsenheten ble oppdatert. Du m
+"FirmwareWizard_UpdateGenericTracker_Success_Title" "Oppdater sporingsenhet"
+"FirmwareWizard_UpdateGenericTracker_Success_UpperText" "Vellykket!"
+"FirmwareWizard_UpdateHeadset_Fail_LowerText" "
+"FirmwareWizard_UpdateHeadset_Fail_MiddleText" "S
+"FirmwareWizard_UpdateHeadset_Fail_Title" "Enhetsoppdatering mislyktes"
+"FirmwareWizard_UpdateHeadset_Fail_UpperText" "Enhetsoppdatering mislyktes."
+"FirmwareWizard_UpdateHeadset_Progress_LowerText" "ADVARSEL: Ikke koble ut hodesettet, koble til andre enheter eller gj
+"FirmwareWizard_UpdateHeadset_Progress_MiddleText" "Oppdaterer hodesettet. Dette kan ta flere minutter 
+"FirmwareWizard_UpdateHeadset_Progress_Title" "Oppdater hodesett"
+"FirmwareWizard_UpdateHeadset_Progress_UpperText" "
+"FirmwareWizard_UpdateHeadset_Start_LowerText" "\nOppdateringen startes automatisk n
+"FirmwareWizard_UpdateHeadset_Start_MiddleText" "Koble til hodesettet i datamaskinen."
+"FirmwareWizard_UpdateHeadset_Start_Title" "Oppdater hodesett"
+"FirmwareWizard_UpdateHeadset_Start_UpperText" "
+"FirmwareWizard_UpdateHeadset_Success_LowerText"  " "
+"FirmwareWizard_UpdateHeadset_Success_MiddleText" "Hodesettet ble oppdatert. Du m
+"FirmwareWizard_UpdateHeadset_Success_Title" "Oppdater hodesett"
+"FirmwareWizard_UpdateHeadset_Success_UpperText" "Vellykket!"
+"FirmwareWizard_UpdateMoreFirmware" "Oppdater flere enheter"
+"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate" "Ekstern enhetsoppdatering"
+"FirmwareWizard_VRCUpdate" "Enhetsoppdatering"
+"FirmwareWizard_WaitingForShutdown_TextContent" "Forbereder systemet p
+"FirmwareWizard_WatchmanDiskUpdate" "Enhetsoppdatering"
+"FirmwareWizard_WatchmanFPGAUpdate" "Sporingskortoppdatering"
+"FirmwareWizard_WatchmanRecovery" "Sporingskortoppdatering"
+"FirmwareWizard_WatchmanUpdate" "Sporingskortoppdatering"		
+"FirmwareWizard_WirelessServicesRequired" "Bluetooth-tjenester m
+"FirmwareWizard_WirelessServicesRequired_Title" "Oppdater basestasjon"
+"FirmwareWizard_WizardIsAlreadyBusy_Message" "Denne oppdateringen kan ikke startes akkurat n
+"FrameTiming_5sStats" "Tap de siste %1s:\n %2 enkelt bilde\n %3 2 bilder\n %4 3 bilder\n %5 4 eller flere\n Totalt %6\n"
+"FrameTiming_Compositor" "Komposisjonsbehandler"
+"FrameTiming_Config" "Varsle hvis vi over %3s ser\n  %1 enkelte bilder tapt\n  eller %2 tap av flere bilder"
+"FrameTiming_FirstView" " 
+"FrameTiming_Idle" "Uvirksom"
+"FrameTiming_LateStart" "Sen start"
+"FrameTiming_MisPresented" " 
+"FrameTiming_Other" "Annet"
+"FrameTiming_Pause" "Sett p
+"FrameTiming_PostSubmit" "Program (annet)"
+"FrameTiming_PreSubmit" "Program (scene)"
+"FrameTiming_Predicted" " 
+"FrameTiming_Presented" " 
+"FrameTiming_Raw" "Detaljer"
+"FrameTiming_ReadyForUse" " 
+"FrameTiming_Remote" "Ekstern"
+"FrameTiming_ShowInHeadset" "Vis i hodesett"
+"FrameTiming_Throttled" " 
+"FrameTiming_Title" "Bildetiming"
+"FrameTiming_Vsync" "Vsync"
+"HeadsetView_DebugCommands" "
 "HeadsetView_DockButtonLabel" "Fest VR-visning"
-"HeadsetView_UndockButtonLabel" "Løsne VR-visning"
+"HeadsetView_EyeMode_Both" "Begge 
+"HeadsetView_EyeMode_BothLeftDominant" "Begge 
+"HeadsetView_EyeMode_BothRightDominant" "Begge 
+"HeadsetView_EyeMode_Left" "Venstre 
+"HeadsetView_EyeMode_Right" "H
+"HeadsetView_FullscreenButtonLabel" "Fullskjerm"
 "HeadsetView_HideButtonLabel" "Skjul VR-visning"
-"HeadsetView_EyeMode_Both" "Begge øyne"
-"HeadsetView_EyeMode_Left" "Venstre øye"
-"HeadsetView_EyeMode_Right" "Høyre øye"
-"HeadsetView_EyeMode_BothLeftDominant" "Begge øyne (venstredominant)"
-"HeadsetView_EyeMode_BothRightDominant" "Begge øyne (høyredominant)"
-"HeadsetView_DebugCommands" "Åpne feilsøkingskommandoer"
-}
-}
+"HeadsetView_MenuLabel" "Meny"
+"HeadsetView_PressKeyToExit" "Trykk %1 for 
+"HeadsetView_Title" "VR-visning"
+"HeadsetView_UndockButtonLabel" "L
+"Info_UnknownURL_Message" "Den lenken fungerer ikke helt enn
+"Info_UnknownURL_Title" "SteamVR"
+"Key_Escape_Abbreviation" "ESC"
+"KnockKnock_Button" "Bank p
+"KnockKnock_Notification_Text" "Bank, bank\nNoen utenfor VR vil ha oppmerksomheten din."
+"KnockKnock_Text" "Jeg er i VR akkurat n
+"KnockKnock_Title" "Vil du ha min oppmerksomhet?"
+"Language" "norwegian"
+"Log_Button_Clear" "T
+"Log_Button_LoadCompleteFile" "Last inn hele filen"
+"Log_Button_ShowInExplorer" "Vis i utforsker"
+"Log_Text_MoreLineInTheActualFile" "FLERE LINJER I DEN EGENTLIGE FILEN\n\n"
+"Log_Window_Title" "Logg 
+"Main_CanSetInstallationPath_Message" "Fant ikke installasjonsstien.\n\nSteamVR kan angi en installasjonssti basert p
+"Main_Information_Title" "SteamVR"
+"Main_JumplistEntry_Advanced" "Avansert"
+"Main_JumplistEntry_Quit" "Avslutt"
+"Main_JumplistEntry_RunFirstApplication" "F
+"Main_JumplistEntry_RunRoomSetup" "Romoppsett"
+"Main_JumplistEntry_RunTutorial" "Oppl
+"Main_JumplistEntry_Settings" "Innstillinger"
+"Main_JumplistEntry_SystemReport" "Systemrapport"
+"Main_RuntimeFailed_Message" "Kj
+"Main_Systray_Error_Message" "Denne datamaskinen har ikke et systemstatusfelt."
+"Main_Systray_Error_Title" "Systemstatusfelt"
+"MenuAction_AboutQt" "Om Qt"
+"MenuAction_About_vrmonitor" "Om SteamVR"
+"MenuAction_BaseStationSettings" "Basestasjonsinnstillinger"
+"MenuAction_BluetoothSettings" "Bluetooth-innstillinger"
+"MenuAction_CalibrateController" "Kalibrer kontroller"
+"MenuAction_ClearRecentPlaylist" "Fjern nylig spilleliste"
+"MenuAction_Compositor_HideMirror" "Skjul VR-visning"
+"MenuAction_Compositor_ShowMirror" "Vis VR-visning"
+"MenuAction_CouldNotReadLogFiles" "Kunne ikke lese loggfiler"
+"MenuAction_Crash" "Krasj"
+"MenuAction_CreateSystemReport" "Opprett systemrapport"
+"MenuAction_DebugCommands" "Feils
+"MenuAction_Developer" "Utvikler"
+"MenuAction_Devices" "Enheter"
+"MenuAction_Diagnostics" "Avansert"
+"MenuAction_DiagnosticsMenu" "Diagnostikk"
+"MenuAction_DirectMode" "Direkte skjermmodus"
+"MenuAction_Directories" "Mapper"
+"MenuAction_DisableDirectMode" "Sl
+"MenuAction_DisableEnhancedPowerManagement" "Sl
+"MenuAction_DisplayFrameTiming" "Avansert bildetiming"
+"MenuAction_DisplayMirror" "Vis VR-visning"
+"MenuAction_EnableDirectMode" "Sl
+"MenuAction_FirmwareUpdate" "Oppdater enhet"
+"MenuAction_ForceFirmware" "Tving fastvare"
+"MenuAction_Help" "Hjelp"
+"MenuAction_HideDisplayMirror" "Skjul VR-visning"
+"MenuAction_IdentifyBaseStation" "Identifiser basestasjon"
+"MenuAction_IdentifyController" "Identifiser kontroller"
+"MenuAction_IdentifyTracker" "Identifiser sporingsenhet"
+"MenuAction_KnockKnock" "Bank p
+"MenuAction_LegacySettings" "Utviklerinnstillinger"
+"MenuAction_LogFiles" "Loggfiler"
+"MenuAction_MainPlaylistMenu" "Spillelister"
+"MenuAction_ModelDirectory_Browse" "Bla gjennom modellmappe"
+"MenuAction_More" "Mer"
+"MenuAction_OverlayViewer" "Overleggvisning"
+"MenuAction_PairController" "Tilknytt kontroller"
+"MenuAction_PairTracker" "Tilknytt sporingsenhet"
+"MenuAction_PairingWizard" "Tilknytt kontroller"
+"MenuAction_PerformanceGraph" "Vis ytelsesgraf"
+"MenuAction_PlaylistEditor" "Spillelistebehandling"
+"MenuAction_PlaylistPlayer" "Spillelistespiller"
+"MenuAction_PowerOffController" "Sl
+"MenuAction_PowerOffTracker" "Sl
+"MenuAction_QuickCalibrate" "Hurtigkalibrering"
+"MenuAction_Quit" "Avslutt"
+"MenuAction_RebootVive" "Start hodesettet p
+"MenuAction_RecentPlaylist" "Nylig"
+"MenuAction_RecentPlaylists" "Nylige spillelister"
+"MenuAction_RecordTrackingData" "Ta opp sporingsdata"
+"MenuAction_RefreshStatusNow" "Oppdater status n
+"MenuAction_RemoveAllSteamVRUSBDevices" "Fjern alle SteamVR-USB-enheter"
+"MenuAction_ReportABug" "Rapporter en feil"
+"MenuAction_ResetAllSettingsAndQuit" "Tilbakestill alle innstillinger og start om"
+"MenuAction_ResetDismissableWarnings" "Tilbakestill advarsler"
+"MenuAction_ResetRuntimeAndQuit" "Tilbakestill SteamVR-stien"
+"MenuAction_ResetSeatedPosition" "Tilbakestill sittende posisjon"
+"MenuAction_RestartSteamVR" "Start SteamVR p
+"MenuAction_RoomOverview" "Vis romoversikt"
+"MenuAction_RunMediaPlayer" "Mediespiller"
+"MenuAction_RunPlaylist" "Kj
+"MenuAction_RunRoomSetup" "Romoppsett"
+"MenuAction_RunTutorial" "Oppl
+"MenuAction_SetConfigDirectory" "Angi konfigurasjonsmappe"
+"MenuAction_SetLogDirectory" "Angi loggmappe"
+"MenuAction_Settings" "Innstillinger"
+"MenuAction_ShowConfigDirectory" "Vis konfigurasjonsmappe"
+"MenuAction_ShowControllerBinding" "Kontrollerinnstillinger"
+"MenuAction_ShowDisplayMirror" "Vis VR-visning"
+"MenuAction_ShowLogDirectory" "Vis loggmappe"
+"MenuAction_ShowManageTrackers" "Behandle sporingsenheter"
+"MenuAction_ShowRuntimeDirectory" "Vis kj
+"MenuAction_StatusBar" "Status"
+"MenuAction_SteamVRCommunity" "SteamVR-samfunn"
+"MenuAction_SteamVRCommunity_URL" "http://steamcommunity.com/app/250820/discussions/"
+"MenuAction_SteamVRDeveloperSupport" "SteamVR-utviklerst
+"MenuAction_SteamVRDeveloperSupport_URL" "https://developer.valvesoftware.com/wiki/SteamVR"
+"MenuAction_SteamVRHardwareDiscussions" "SteamVR-maskinvarediskusjoner"
+"MenuAction_SteamVRHardwareDiscussions_URL" "http://steamcommunity.com/app/358720/discussions/"
+"MenuAction_SteamVRWebsite" "SteamVR-st
+"MenuAction_SteamVRWebsite_URL" "http://steamvr.steampowered.com"
+"MenuAction_SteamWorksDeveloperSupport" "SteamWorks-utviklerst
+"MenuAction_SteamWorksDeveloperSupport_URL" "http://steamcommunity.com/groups/steamworks/discussions"
+"MenuAction_StopRecording" "Stopp innspilling"
+"MenuAction_SystemReportViewer" "Systemrapportvisning"
+"MenuAction_UpdateFirmware" "Oppdater enhet"
+"MenuAction_ViewLogDirectory" "Vis logger"
+"MenuAction_WakeupAllBaseStations" "Vekk basestasjoner"
+"MenuAction_WebConsole" "Nettkonsoll"
+"MenuAction_WebDevTools" "Webutviklingsverkt
+"MenuAction_WebDevToolsPlaceholder" "Fant ingen forekomster"
+"MenuAction_Workshop" "Workshop"
+"MenuAction_Workshop_Browse" "Bla gjennom Workshop"
+"MenuAction_Workshop_EditItem" "Rediger eksisterende bakgrunn"
+"MenuAction_Workshop_RunTools" "Opprett/rediger en omgivelse"
+"MenuAction_Workshop_UploadItem" "Last opp ny bakgrunn"
+"MenuAction_Workshop_ViewWiki" "SteamVR-omgivelser 
+"MessageBox_Cancel" "Avbryt"
+"MessageBox_Continue" "Fortsett"
+"MessageBox_Done" "Ferdig"
+"MessageBox_Exit" "Avslutt"
+"MessageBox_Forget" "Glem"
+"MessageBox_Next" "Neste"
+"MessageBox_OK" "OK"
+"MessageBox_OpenWirelessSettings" "Bluetooth-innstillinger"
+"MessageBox_RefreshAll" "Oppdater alle"
+"MessageBox_RemindMeLater" "P
+"MessageBox_RestartLater" "Start p
+"MessageBox_RestartNow" "Start SteamVR p
+"MessageBox_RestartSteamVR" "Starter SteamVR p
+"MessageBox_Retry" "Pr
+"MessageBox_SetAndRestart" "Angi og start p
+"MessageBox_Stop" "Stopp"
+"MessageBox_Submit" "Send"
+"MessageBox_Yes" "Ja"
+"MonitorController_ApplicationCouldNotStart" "Kunne ikke starte %1: %2."
+"MonitorController_ApplicationsInterfaceNotAvailable" "Kunne ikke starte %1. Programmets grensesnitt er ikke tilgjengelig."
+"MonitorController_DisableDirectMode_Text" "ADVARSEL: Skjermene i hodesettet utvides til skrivebordet, hvis du sl
+"MonitorController_EnableDirectMode_Text" "SteamVR startes p
+"MonitorController_EnableSafeMode_Text" "<span>Sikkermodus</span> kan brukes til 
+"MonitorController_Information_Title" "SteamVR"
+"MonitorController_LoadPlaylist" "Last inn spilleliste"
+"MonitorController_NotAbleToMakeCompositorFullscreen" "SteamVR har problemer med 
+"MonitorController_NotAbleToStartSteam" "Kan ikke starte Steam."
+"MonitorController_ResetCompleteSetup_Text" "Dette vil fullstendig tilbakestille installasjonen av SteamVR og starte programmet p
+"MonitorController_RestartSystemNotPossible" "SteamVR kan ikke startes p
+"MonitorController_SelectRecordingDirectory" "Velg innspillingsmappe"
+"MonitorController_SwitchDirectMode_Header" "Direkte skjermmodus"
+"MonitorController_SwitchSafeMode_Header" "Sikkermodus"
+"MonitorController_Version" "Versjon %1"
+"Monitor_PuttingBaseStationsInStandby" "Basestasjoner g
+"Monitor_RestartRequestedDialog_Message" "%1"
+"Monitor_RestartRequestedDialog_MessageNoReason" "Driveren %1 m
+"Monitor_RestartRequestedDialog_Quit" "Avslutt SteamVR"
+"Monitor_RestartRequestedDialog_Restart" "Start SteamVR p
+"Monitor_RestartRequestedDialog_Title" "Start driveren %1 p
+"Monitor_SpontaneousQuitDialog_Message" "Det har oppst
+"Monitor_SpontaneousQuitDialog_Quit" "Avslutt SteamVR"
+"Monitor_SpontaneousQuitDialog_Restart" "Start SteamVR p
+"Monitor_SpontaneousQuitDialog_Title" "Uventet SteamVR-feil"
+"Monitor_WakingBaseStations" "Basestasjoner vekkes 
+"NeedRoomSetupNoLaunch_Message" "Dette programmet kan ikke kj
+"PairingWizard_CheckForDongles_Content" "S
+"PairingWizard_HelperAppFailed_Content" "Kall til hjelpeprogrammet mislyktes med feilen: %1."
+"PairingWizard_HelperAppFailed_Error_Crashed" "
+"PairingWizard_HelperAppFailed_Error_FailedToStart" "
+"PairingWizard_HelperAppFailed_Error_ReadError" "
+"PairingWizard_HelperAppFailed_Error_Timedout" "
+"PairingWizard_HelperAppFailed_Error_UnknownError" "
+"PairingWizard_HelperAppFailed_Error_WriteError" "
+"PairingWizard_HelperAppFailed_MoreInfo" "Mer info"
+"PairingWizard_HelperAppFailed_MoreInfo_URL" "http://www.valvesoftware.com"
+"PairingWizard_LookingForControllers_Content" "Trykk og hold app- og systemknappene til den spiller av en lyd.\n\nKontrollerens lys b
+"PairingWizard_LookingForControllers_Header" "S
+"PairingWizard_NoDonglesAvailable_Content" "Minst 
+"PairingWizard_NoDonglesAvailable_Header" "
+"PairingWizard_NoDonglesAvailable_Title" "To kontrollere er allerede i bruk"
+"PairingWizard_NoDonglesDetected_Content" "Hodesettet m
+"PairingWizard_NoDonglesDetected_Header" "
+"PairingWizard_NoDonglesDetected_Title" "Fant intet hodesett"
+"PairingWizard_PairAnotherController" "Tilknytt en annen kontroller"
+"PairingWizard_PairController_Success_Title" "Vellykket!"
+"PairingWizard_PairController_Title" "Tilknytt en ny kontroller"
+"PairingWizard_PairingFailed_Content" "S
+"PairingWizard_PairingFailed_Header" "Tilknytning mislyktes"
+"PairingWizard_Success_MoreDonglesAvailable_Content" "Kontrolleren er tilknyttet og klar."
+"PairingWizard_Success_MoreDonglesAvailable_Header" "Kontroller tilknyttet!"
+"PairingWizard_Success_NoMoreDonglesAvailable_Content" "Kontrolleren er tilknyttet og klar til bruk."
+"PairingWizard_Success_NoMoreDonglesAvailable_Header" "Kontroller tilknyttet!"
+"PairingWizard_TimeoutHappened_Content" "S
+"PairingWizard_TimeoutHappened_Header" "Fant ingen kontroller"
+"PlaylistEditor_AddEntry_Text" "Oppf
+"PlaylistEditor_Detail_Arguments_Label" "Argumenter:"
+"PlaylistEditor_Detail_AudioVolumeInPercent_Label" " i % "
+"PlaylistEditor_Detail_AudioVolumeOverride_Checkbox" "Overstyr"
+"PlaylistEditor_Detail_AudioVolume_Label" "Lydstyrke:"
+"PlaylistEditor_Detail_DotDotDot_Label" "
+"PlaylistEditor_Detail_Entry_Text" "Oppf
+"PlaylistEditor_Detail_Environment_Label" "Milj
+"PlaylistEditor_Detail_Executable_Label" "Kj
+"PlaylistEditor_Detail_Name_Label" "Navn:"
+"PlaylistEditor_Detail_NothingSet_Text" "Ingenting angitt."
+"PlaylistEditor_Detail_PostrollDuration_Label" "Etterspillvarighet:"
+"PlaylistEditor_Detail_PrerollDuration_Label" "Forspillvarighet:"
+"PlaylistEditor_Detail_PrerollPlacecard_Label" "Forspillplasseringskort:"
+"PlaylistEditor_Detail_Total_Label" "Totalt:"
+"PlaylistEditor_Detail_UseCompositor_Checkbox" "Bruk komposisjonsbehandler"
+"PlaylistEditor_Detail_WaitForNext_Checkbox" "Vent p
+"PlaylistEditor_Detail_WorkingDirectory_Label" "Arbeidsmappe:"
+"PlaylistEditor_Duration_Label" "Varighet:"
+"PlaylistEditor_Entries_Tab" "Oppf
+"PlaylistEditor_FileName_Label" "Filnavn:"
+"PlaylistEditor_General_DotDotDot_Label" "
+"PlaylistEditor_General_Environment_Label" "Milj
+"PlaylistEditor_General_ForceAudioVolume_Label" "Tving lydstyrke:"
+"PlaylistEditor_General_PlaySoundBeforeEnd_Label" "Spill av lyd f
+"PlaylistEditor_General_Seconds_Label" "sekunder"
+"PlaylistEditor_General_Tab" "Generelt"
+"PlaylistEditor_General_WaitForNext_Label" "Vent p
+"PlaylistEditor_General_WorkingDirectory_Label" "Arbeidsmappe:"
+"PlaylistEditor_Header_Durations" "Varigheter"
+"PlaylistEditor_Header_Length" "Lengde"
+"PlaylistEditor_Header_Name" "Navn"
+"PlaylistEditor_Load" "
+"PlaylistEditor_LoadPlaylist_FileSelector" "
+"PlaylistEditor_Minus_Button" "-"
+"PlaylistEditor_Name_Label" "Navn:"
+"PlaylistEditor_New" "Ny"
+"PlaylistEditor_NotSavedYet_Text" "Ikke lagret enn
+"PlaylistEditor_Placecard_Clear_Button" "T
+"PlaylistEditor_Placecard_Load_Button" "
+"PlaylistEditor_Placecard_OffsetX_Label" "Forskyvning X:"
+"PlaylistEditor_Placecard_OffsetY_Label" "Forskyvning Y:"
+"PlaylistEditor_Placecard_OffsetZ_Label" "Forskyvning Z:"
+"PlaylistEditor_Placecard_Tab" "Plasseringskort"
+"PlaylistEditor_Placecard_Test_Button" "Test"
+"PlaylistEditor_Placecard_WidthInMeters_Label" "Bredde i meter:"
+"PlaylistEditor_Play_Button" "Spill"
+"PlaylistEditor_Plus_Button" "+"
+"PlaylistEditor_Save" "Lagre"
+"PlaylistEditor_SaveAs" "Lagre som"
+"PlaylistEditor_SavePlaylist_FileSelector" "Lagre spilleliste"
+"PlaylistEditor_SelectExecutable_FileSelector" "Velg kj
+"PlaylistEditor_SelectImageForPlacecard_FileSelector" "Velg bilde til plasseringskort"
+"PlaylistEditor_SelectPrerollPlacecard_FileSelector" "Velg forspillplasseringskort"
+"PlaylistEditor_SelectWorkingDirectory_FileSelector" "Velg arbeidsmappe"
+"PlaylistEditor_WindowTitle" "Spillelistebehandling"
+"PlaylistEntryDefaultName" "Oppf
+"PlaylistListDefaultName" "Spilleliste"
+"PlaylistOverlay_GotoFirstEntry" "G
+"PlaylistOverlay_NextEntry" "Neste oppf
+"PlaylistOverlay_PauseTimer" "Sett p
+"PlaylistOverlay_Title" "Spillelistens fjernkontroll"
+"PlaylistPlayer_All_Checkbox" "Alle"
+"PlaylistPlayer_Continue_Button" "Fortsett"
+"PlaylistPlayer_Current_Label" "Gjeldende:"
+"PlaylistPlayer_Durations_Header" "Varigheter"
+"PlaylistPlayer_ForceSoundVolume_Checkbox" "Tving lydstyrke"
+"PlaylistPlayer_Length_Header" "Lengde"
+"PlaylistPlayer_ManualNext_Checkbox" "Manuelt neste"
+"PlaylistPlayer_MasterVolume_Label" "Hovedvolum"
+"PlaylistPlayer_Name_Header" "Navn"
+"PlaylistPlayer_Next_Button" "Neste"
+"PlaylistPlayer_Next_Label" "Neste:"
+"PlaylistPlayer_Overall_Label" "Samlet:"
+"PlaylistPlayer_PauseTimer_Button" "Sett p
+"PlaylistPlayer_PlaySoundBeforeEnd_Checkbox" "Spill av lyd f
+"PlaylistPlayer_PlaySound_Button" "Spill av lyd"
+"PlaylistPlayer_PostrollState_Text" "Etterspill "
+"PlaylistPlayer_PrerollState_Text" "Forspill "
+"PlaylistPlayer_ProcessError_Crashed" "Krasjet"
+"PlaylistPlayer_ProcessError_FailedToStart" "Kunne ikke starte"
+"PlaylistPlayer_ProcessError_ReadError" "Lesefeil"
+"PlaylistPlayer_ProcessError_Timeout" "Tidsavbrudd"
+"PlaylistPlayer_ProcessError_Unknown" "
+"PlaylistPlayer_ProcessError_WriteError" "Skrivefeil"
+"PlaylistPlayer_RemoteControlInHeadset_Checkbox" "Fjernkontroll i hodesettet"
+"PlaylistPlayer_RunSelected_Button" "Kj
+"PlaylistPlayer_RunSingle_Button" "Kj
+"PlaylistPlayer_Run_Button" "Kj
+"PlaylistPlayer_State_NotRunning" "Kj
+"PlaylistPlayer_State_Running" "Kj
+"PlaylistPlayer_State_Starting" "Starter"
+"PlaylistPlayer_State_Unknown" "Ukjent tilstand"
+"PlaylistPlayer_StatusOfCurrentDemo_Text" "Status for gjeldende demo: %1 %2"
+"PlaylistPlayer_StatusOfCurrentEntryNone_Text" "Ingen statusinformasjon for gjeldende oppf
+"PlaylistPlayer_StatusOfCurrentEntryPause_Text" "%1Status for gjeldende oppf
+"PlaylistPlayer_Stop_Button" "Stopp"
+"PlaylistPlayer_Total_Label" "Totalt:"
+"PlaylistPlayer_WindowTitle" "Spillelistespiller"
+"PlaylistPlayer_WindowTitle_WithName" "Spillelistespiller 
+"QuickCalibrate_CabalSpace" "Romomr
+"QuickCalibrate_DK2Default" "DK2-standard"
+"QuickCalibrate_GiganticSpace" "Gigantisk omr
+"QuickCalibrate_LargeSpace" "Stort omr
+"QuickCalibrate_MediumSpace" "Middels omr
+"QuickCalibrate_SmallSpace" "Lite omr
+"QuickCalibrate_StandingSpace" "St
+"RebootHelper_Cancel" "Avbryt"
+"RebootHelper_ConnectingToVive" "Kobler til hodesettet 
+"RebootHelper_RebootingVive" "Starter SteamVR p
+"RebootHelper_RestartingSteamVR" "Starter SteamVR p
+"RebootHelper_ServiceError" "Feil: %1"
+"RebootHelper_ServiceStatus" "Status: %1"
+"RebootHelper_StartingSteamVRShutdown" "Avslutter 
+"RebootHelper_Status_Connected" "Tilkoblet!"
+"RebootHelper_Status_WaitingForDevice" "Venter p
+"RebootWhileAppRunning_Format" "Dette vil ogs
+"RebootWhileAppRunning_Title" "Start SteamVR p
+"ScanForBaseStation_FoundStations" "Skann fullf
+"ScanForBaseStation_Incomplete" "Skanner etter basestasjoner 
+"ScanForBaseStation_NoKnownStations" "Skann fullf
+"ScanForBaseStation_NoStationsFound" "Skann fullf
+"ScanForBaseStations_Refresh" "Skann p
+"ScanForBaseStations_Scanning"	"Skanner etter basestasjoner 
+"Settings_Advanced_AllowSupersampleFiltering" "Sl
+"Settings_Advanced_DirectMode_Header" "Direkte skjermmodus"
+"Settings_Advanced_MotionSmoothing" "Sl
+"Settings_Advanced_MotionSmoothing_Description" "Syntetiserer nye bilder for 
+"Settings_Advanced_MotionSmoothing_Disabled" "Bevegelsesutjevning st
+"Settings_Advanced_MotionSmoothing_Disabled_Win7" "Bevegelsesutjevning st
+"Settings_Advanced_MotionSmoothing_Header" "Bevegelsesutjevning"
+"Settings_Advanced_Paths_Header" "Stier"
+"Settings_Advanced_RefreshRate_Header" "Oppdateringsfrekvens"
+"Settings_Advanced_RefreshRate_HzSuffix" "Hz"
+"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>MERK:</b> Ytterligere oppdateringsfrekvenser st
+"Settings_Advanced_RefreshRate_NotFound" "<b>MERK:</b> Ytterligere oppdateringsfrekvenser st
+"Settings_Advanced_Reset_Header" "Tilbakestill"
+"Settings_Advanced_Restart" "<i>Denne avventende endringen trer i kraft n
+"Settings_Advanced_RoomAndTracking_Header" "Rom og sporing"
+"Settings_Advanced_Status_Header" "Statussjekk"
+"Settings_Advanced_SupersamplingManualOverride" "Sl
+"Settings_Advanced_Supersampling_Header" "Programoppl
+"Settings_Advanced_Supersampling_Warning" "<b>ADVARSEL:</b> Oppl
+"Settings_Applications" "Program"
+"Settings_ArcadeMode" "Sl
+"Settings_Audio_AudioMirrorEnable"  "Sl
+"Settings_Audio_AudioMirrorPlay"  "Speil lyd til enhet"
+"Settings_Audio_AudioMirrorUnsupported"  "Lydspeiling st
+"Settings_Audio_AudioPlay"  "Utdataenhet"
+"Settings_Audio_AudioRecord"  "Inndataenhet"
+"Settings_Audio_Default"  "Standard"
+"Settings_Audio_Device_HMD"  "VR-hodesett"
+"Settings_Audio_Device_Other"  "Annen"
+"Settings_Audio_HDMIGain"  "Sl
+"Settings_BaseStation_BaseStation10" "Basestasjon 1.0"
+"Settings_BaseStation_BaseStation20" "Basestasjon 2.0"
+"Settings_BaseStation_BluetoothBusy" "Venter p
+"Settings_BaseStation_BluetoothRequired" "Sl
+"Settings_BaseStation_ConfigureBaseStations" "Konfigurer kanaler p
+"Settings_BaseStation_ConfigureBaseStations_Explanation" "Finn basestasjoner og konfigurer kanalene deres for 
+"Settings_BaseStation_ContinueBaseStationUpdate" "Gjenopprett fra en ufullstendig oppdatering"
+"Settings_BaseStation_ContinueBaseStationUpdate_Explanation" "Reparer en avbrutt oppdatering, som forhindrer basestasjonen fra 
+"Settings_BaseStation_OpenSettingsBluetooth" "Vis Bluetooth-innstillinger"
+"Settings_BaseStation_PowerManagement" "Str
+"Settings_BaseStation_PowerManagement_Explanation" "Vekk og sett basestasjoner i ventemodus, basert p
+"Settings_BaseStation_ScanForBaseStations" "Skann etter basestasjoner"
+"Settings_BaseStation_ScanForBaseStations_Explanation" "Finn kjente basestasjoner som kringkaster Bluetooth-signalene sine."
+"Settings_BaseStationsWakeUpAll" "Vekk alle basestasjoner"
+"Settings_BaseStationsWakeUpAll_Explanation" "Vekker alle basestasjonene som er en del av den tr
+"Settings_BaseStations_Title" "Basestasjonsinnstillinger"
+"Settings_Bluetooth_Driver_Install" "Installer Bluetooth-driver"
+"Settings_Bluetooth_Driver_Install_Description"	"Installer Bluetooth-driveren til koblingsboksen for 
+"Settings_Bluetooth_Driver_Update" "Oppdater Bluetooth-driver"
+"Settings_Bluetooth_Driver_Update_Description" "Oppdater Bluetooth-driveren til koblingsboksen for 
+"Settings_Bluetooth_RetryConnection" "Pr
+"Settings_Bluetooth_ServicesNotAvailable" "Bluetooth er ikke tilgjengelig"
+"Settings_Bluetooth_Title" "Bluetooth-innstillinger"
+"Settings_CheckForSteam" "Sjekk etter Steam"
+"Settings_CheckStatus" "Sjekk status"
+"Settings_Checks" "Sjekker"
+"Settings_ConfigPath" "Konfigurasjonssti:"
+"Settings_Dashboard_Explanation" "Disse programmene vil v
+"Settings_DebugInputBindings" "Sl
+"Settings_DefaultScreenshotType_Cubemap" "Cubemap"
+"Settings_DefaultScreenshotType_Info" "Velg standardtypen til skjermbilder. Merk at noen VR-programmer muligens ikke st
+"Settings_DefaultScreenshotType_Mono" "Vanlig"
+"Settings_DefaultScreenshotType_MonoPanorama" "Mono-panorama"
+"Settings_DefaultScreenshotType_Stereo" "Stereoskopisk"
+"Settings_DefaultScreenshotType_StereoPanorama" "Stereo-panorama"
+"Settings_DefaultScreenshotType_Text" "Skjermbildetype"
+"Settings_Developer_General_Header" "Utvikler"
+"Settings_Developer_Info" "Viser avanserte innstillinger og alternativer for utviklere"
+"Settings_Developer_Text" "Utviklerinnstillinger"
+"Settings_Developer_Title" "Utviklerinnstillinger"
+"Settings_DisableEnhancedPowerManagement_Crash" "Hjelpeprogrammet krasjet.\nPr
+"Settings_DisableEnhancedPowerManagement_FailToStart" "Hjelpeprogrammet kunne ikke starte.\nS
+"Settings_DisableEnhancedPowerManagement_Success" "Forbedret str
+"Settings_DisplayMode" "Visningsmodus"
+"Settings_DisplayMode_Extend" "Utvid skrivebord til skjerm"
+"Settings_DisplayMode_MirrorWindow" "VR-visning"
+"Settings_DoNotFadeToGrid" "Ikke skift til rutenett n
+"Settings_EnableDashboard" "Sl
+"Settings_EnableLinuxGPUProfiling" "Sl
+"Settings_EnableScreenshots_Info" "Bruk systemknapp + avtrekker for 
+"Settings_EnableScreenshots_Text" "Sl
+"Settings_Firmware_UpdateAvailable" "Oppdatering tilgjengelig"
+"Settings_GiganticSpace" "Gigantisk omr
+"Settings_GpuInfo_Current" "Den gjeldende innstillingen gjengir hvert 
+"Settings_GpuInfo_GpuDriver" "Skjermdriver"
+"Settings_GpuInfo_GpuName" "Skjermkort"
+"Settings_GpuInfo_GpuSpeed" "M
+"Settings_GpuInfo_Header" "Maskinvare"
+"Settings_GpuInfo_Headset" "Hodesett"
+"Settings_GpuInfo_NoHeadset" "Fant intet hodesett"
+"Settings_GpuInfo_Recommended" "Den anbefalte innstillingen for skjermkortet og hodesettet er"
+"Settings_HomeAppCheck" "Bruk SteamVR Home"
+"Settings_HomeAppDesc" "Dra nytte av virtuelle omgivelser, sosiale funksjoner og mer."
+"Settings_Information_Title" "SteamVR"
+"Settings_LargeSpace" "Stort omr
+"Settings_LockedModeCheck" "Sl
+"Settings_LockedModeDesc" "
+"Settings_LogPath" "Loggsti:"
+"Settings_MediumSpace" "Middels omr
+"Settings_NightModeCheck" "Nattmodus"
+"Settings_NightModeDesc" "Demp lyset i hodesettet frem til kl. 05.00 (eller frem til SteamVR startes p
+"Settings_NotAvailableAtThisTime" "Alle innstillingene er ikke tilgjengelige akkurat n
+"Settings_NotificationDoNotDisturb_Info" "  "
+"Settings_NotificationDoNotDisturb_Text" "Ikke forstyrr 
+"Settings_NotificationKnockKnock_Info" "Dette lar andre f
+"Settings_NotificationKnockKnock_Text" "Vis 
+"Settings_Notifications" "Varsler"
+"Settings_OpenVRPaths" "OpenVR-stier"
+"Settings_PauseOnStandby" "Sett gjengivelse p
+"Settings_PerApplication_AppResFooter" "Den gjeldende innstillingen gjengir hvert 
+"Settings_PerApplication_AppResHeader" "Denne innstillingen er en multiplikator for programoppl
+"Settings_PerApplication_AppResTitle" "Tilpasset oppl
+"Settings_PerApplication_CustomSuffix" "(tilpasset)"
+"Settings_PerApplication_DashboardSuffix" "(overleggsprogram)"
+"Settings_PerApplication_Header" "Bruk dette til 
+"Settings_PerApplication_MotionSmoothing_Checkbox_AlwaysOn" "Tving alltid p
+"Settings_PerApplication_MotionSmoothing_Checkbox_Default" "Bruk global innstilling (for 
+"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOff" "Sl
+"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOn" "Sl
+"Settings_PerApplication_MotionSmoothing_Header" "Bevegelsesutjevning"
+"Settings_PerApplication_MotionSmoothing_Off" "Sl
+"Settings_PerApplication_MotionSmoothing_On" "Sl
+"Settings_PerApplication_OverlayVisibleCheckbox" "Start dette overleggsprogrammet n
+"Settings_PerApplication_OverlayVisibleHeader" "Overleggsprogram er tilgjengelige som faner i SteamVR-dashbordet."
+"Settings_PerApplication_Reprojection_Checkbox" "Bruk klassisk omprojeksjon"
+"Settings_PerApplication_Reprojection_Description" "Hvis du velger dette alternativet, sl
+"Settings_PerApplication_Reprojection_Header" "Omprojeksjon"
+"Settings_PerfCheck" "PerfCheck"
+"Settings_Refresh" "Oppdater"
+"Settings_RemoveAllRelevantUSBDevices_Crash" "Hjelpeprogrammet for 
+"Settings_RemoveAllRelevantUSBDevices_FailToStart" "Hjelpeprogrammet for 
+"Settings_RemoveAllRelevantUSBDevices_PartialSuccess" "Noen relevante USB-enheter kunne ikke fjernes. Pr
+"Settings_RemoveAllRelevantUSBDevices_Success" "Alle relevante USB-enheter er fjernet. Koble fra eventuelle USB-kabler for VR, og start datamaskinen p
+"Settings_RemoveAllRelevantUSBDevices_Text" "Dette vil fjerne alle SteamVR-USB-enheter fra systemet. Du m
+"Settings_RemoveAllUSBDevices" "Fjern alle SteamVR-USB-enheter"
+"Settings_Reset" "Tilbakestill"
+"Settings_ResetChaperoneToDK2Default" "Tilbakestill Chaperone til standard for Oculus Rift DK2"
+"Settings_ResetChaperoneToHeadsetInMiddleOfFloor" "Tilbakestill Chaperone til hodesettet midt p
+"Settings_ResetCompleteSetupAndQuit" "Tilbakestill hele oppsettet og start p
+"Settings_ResetQtSettings" "Tilbakestill Qt-innstillinger"
+"Settings_ResetQtSettings_Text" "Du vil tilbakestille Qt-innstillingene.\n\nEr du sikker?"
+"Settings_ResetRuntimeAndQuit" "Tilbakestill kj
+"Settings_ResetRuntimeBasedOnVRMonitorAndQuit_Text" "Dette vil tilbakestille SteamVR-stien basert p
+"Settings_RestartText" "<html><B>Start milj
+"Settings_RuntimePath" "Kj
+"Settings_SelectConfigPath" "Velg konfigurasjonssti"
+"Settings_SelectLogPath" "Velg loggsti"
+"Settings_SelectRuntimePath" "Velg kj
+"Settings_Set" "Angi 
+"Settings_SetSelectedPaths" "Angi valgte stier"
+"Settings_ShowPlaylistMenu" "Vis spillelistemeny"
+"Settings_SmallSpace" "Lite omr
+"Settings_StartSteamVROnAppLaunch" "Start SteamVR n
+"Settings_StatusWindowAlwaysOnTop_Info" " "
+"Settings_StatusWindowAlwaysOnTop_Text" "Alltid vis 
+"Settings_StatusWindowHidePopups_Text" "Skjul VR-advarsler og varsler n
+"Settings_StatusWindowMinimizeToTray_Text" "Minimer til systemstatusfeltet"
+"Settings_Title" "SteamVR-innstillinger"
+"Settings_USB_Component_Audio" "Lydenhet"
+"Settings_USB_Component_Camera" "Kamera"
+"Settings_USB_Component_Dongle1" "Tr
+"Settings_USB_Component_Dongle2" "Tr
+"Settings_USB_Component_HTCBoard" "Hovedkort"
+"Settings_USB_Component_Hub" "Hub"
+"Settings_USB_Component_HubBluetooth" "Bluetooth"
+"Settings_USB_Component_HubController" "Hub-kontroller"
+"Settings_USB_Component_WatchmanBoard" "Sporingskort"
+"Settings_USB_EnhancedStatus" "Vis detaljer"
+"Settings_USB_LookingForConnections" "<b>Ser etter tilkoblede enheter 
+"Settings_USB_NoDevicesFound" "<font color=red><b>Ingen tilkoblede Vive-enheter.</b></font>"
+"Settings_USB_PressRefresh" "<b>Trykk 
+"Settings_USB_Refresh" "Oppdater"
+"Settings_USB_ViveDevices" "<b>Enheter</b>"
+"Settings_USB_ViveHeadsetHeader" "<b>Hodesett</b>"
+"Settings_USB_ViveLinkBoxHeader" "<b>Vive-koblingsboks</b>"
+"Settings_UseBluetoothLink_Info" "F
+"Settings_UseBluetoothLink_Text" "Sl
+"ShutdownWhileAppRunning_Format" "Dette vil ogs
+"ShutdownWhileAppRunning_Title" "Avslutt SteamVR?"
+"Startup_DisplayLinkIsInstalled" "DisplayLink er ikke er kompatibelt med SteamVR. Avinstaller DisplayLink-drivere og -programvare fra datamaskinen, og start p
+"Startup_OpenGLIsNotInstalled" "Installer OpenGL f
+"StatusCheckInterval_Never" "Aldri"
+"StatusCheckInterval_Normal" "Normal (1 sek)"
+"StatusCheckInterval_Often" "Ofte (100 ms)"
+"StatusCheckInterval_Seldom" "Sjelden (5 sek)"
+"StatusError_Chaperone_Error" "SteamVR st
+"StatusError_CompositorNotFullscreen" "En n
+"StatusError_CompositorNotRunning" "En n
+"StatusError_CompositorTooManyRunning" "En n
+"StatusError_HMDDoesNotTrack" "Hodesettet sporer ikke."
+"StatusError_LighthouseEvent" "SteamVR st
+"StatusError_NoCompositorAvailable" "En n
+"StatusError_NoHMDAvailable" "Hodesett utilgjengelig."
+"StatusError_PrismNotRunning" "En n
+"StatusError_SteamVRServiceNotInstalled" "SteamVRs hjelpertjeneste er ikke installert."
+"StatusError_TrackingDevice_NotValid" "Enheten gjenkjennes ikke."
+"StatusError_UnknownError" "Ukjent feil (%1)" 
+"StatusError_VRServerNotRunning" "En n
+"StatusWarning_System_Chaperone_Warning" "Utf
+"StatusWarning_System_ConnectionRefusedBySteam" "Steam har problemer med 
+"StatusWarning_System_NeedDirectModeGraphicsDriverUpdate" "Oppdater datamaskinens skjermdriver"
+"StatusWarning_System_NoSteamAvailable" "Start Steam"
+"StatusWarning_TrackingDevice_FirmwareUpdateNeeded" "Enhetsoppdateringer kreves"
+"StatusWarning_TrackingDevice_NoPose" "S
+"StatusWarning_UnknownWarning" "Ukjent advarsel (0x%1)"
+"Status_Base" "Basestasjon"
+"Status_Controller" "Kontroller"
+"Status_HMD" "Hodesett"
+"Status_MenuButton_SteamVR" "STEAMVR"
+"Status_MenuButton_SteamVR_Branch" "STEAMVR %1"
+"Status_Quitting" "Avslutter"
+"Status_Starting" "Starter"
+"Status_Title" "SteamVR-status"
+"SteamUniverse_Beta" "Beta"
+"SteamUniverse_Dev" "Dev"
+"SteamUniverse_Internal" "Intern"
+"SteamUniverse_InvalidSteamUniverse" "Ugyldig Steam Universe"
+"SteamUniverse_NoSteamAvailable" "Steam-feil"
+"SteamUniverse_Public" "Offentlig"
+"SteamVRSystemState_Connecting" "S
+"SteamVRSystemState_Connecting_Application_InsideOutCamera" "S
+"SteamVRSystemState_Connecting_Application_Lighthouse" "S
+"SteamVRSystemState_Connecting_Application_OutsideInCamera" "S
+"SteamVRSystemState_Installing" "Maskinvareoppsett i gang 
+"SteamVRSystemState_Off" "Av"
+"SteamVRSystemState_PauseRequested" "Setter p
+"SteamVRSystemState_Paused" "Satt p
+"SteamVRSystemState_Paused_FirmwareUpdate" "Oppdaterer enheter 
+"SteamVRSystemState_PseudoState_Waiting" "Venter 
+"SteamVRSystemState_PseudoState_Welcome" "Velkommen"
+"SteamVRSystemState_PseudoState_Welcome_Application" "Koble til VR-hodesettet"
+"SteamVRSystemState_Ready" "Spiller n
+"SteamVRSystemState_Ready_Application" "%1"
+"SteamVRSystemState_Restart" "Starter SteamVR p
+"SteamVRSystemState_Shutdown" "Avslutter VR 
+"SteamVRSystemState_ShutdownRequested" "Avslutter VR 
+"SteamVRSystemState_Standby" "I ventemodus"
+"SteamVRSystemState_Standby_Application" "Ta p
+"SteamVRSystemState_Startup" "Starter VR 
+"SteamVRSystemState_UnpauseRequested" "Starter 
+"SystemReport_Chaperone" "Chaperone"
+"SystemReport_Configuration" "Konfigurasjon"
+"SystemReport_CopyToClipboard" "Kopier til utklippstavle"
+"SystemReport_Data" "Data"
+"SystemReport_Devices" "Enheter"
+"SystemReport_DiscoverChaperone" "S
+"SystemReport_DiscoverConfiguration" "S
+"SystemReport_DiscoverDevices" "S
+"SystemReport_DiscoverDisplays" "S
+"SystemReport_DiscoverIssues" "S
+"SystemReport_DiscoverLighthouseDB" "S
+"SystemReport_DiscoverUSB" "S
+"SystemReport_Entry_SteamVR" "SteamVR"
+"SystemReport_Issues" "Problemer"
+"SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Logs" "Logger"
+"SystemReport_Main" "Generelt"
+"SystemReport_PrepareLogs" "Forbereder logger"
+"SystemReport_PrepareReport" "Forbereder rapport"
+"SystemReport_Progress_ParseReport" "Analyser rapport"
+"SystemReport_Raw" "R
+"SystemReport_RawText" "R
+"SystemReport_Refresh" "Oppdater"
+"SystemReport_SaveSystemReport" "Lagre systemrapport"
+"SystemReport_SaveToFile" "Lagre til fil"
+"SystemReport_System" "System"
+"SystemReport_Title" "Systemrapport"
+"SystemReport_USB" "USB"
+"SystemReport_UnableToOpenFile" "Kunne ikke 
+"Tokens"
+"TrackedDeviceClass_Controller" "Kontroller"
+"TrackedDeviceClass_GenericTracker" "Sporingsenhet"
+"TrackedDeviceClass_HMD" "Hodesett"
+"TrackedDeviceClass_Invalid" "Ugyldig"
+"TrackedDeviceClass_TrackingReference" "Basestasjon"
+"TrackedDeviceClass_Unknown"  "Ukjent sporet enhet"
+"TrayIcon_Tooltip_vrmonitor" "SteamVR-status"
+"VRApplicationError_AppKeyAlreadyExists" "Programmet er allerede registrert"
+"VRApplicationError_ApplicationAlreadyRunning" "Programmet kj
+"VRApplicationError_ApplicationAlreadyStarting" "Programmet skulle allerede starte opp"
+"VRApplicationError_BufferTooSmall" "Angitt buffer var for liten"
+"VRApplicationError_IPCFailed" "Kan ikke be om program"
+"VRApplicationError_InvalidApplication" "Programmet var ugyldig"
+"VRApplicationError_InvalidIndex" "Ugyldig indeks"
+"VRApplicationError_InvalidManifest" "Ugyldig manifest"
+"VRApplicationError_InvalidParameter" "Ugyldig parameter"
+"VRApplicationError_IsTemplate" "Dette er en programmal"
+"VRApplicationError_LaunchFailed" "Programoppstart mislyktes"
+"VRApplicationError_LaunchInProgress" "Et annet program skulle allerede starte opp"
+"VRApplicationError_NoApplication" "Intet program"
+"VRApplicationError_NoManifest" "Intet programmanifest"
+"VRApplicationError_None" "Ingen feil"
+"VRApplicationError_OldApplicationQuitting" "Et annet program skulle allerede avslutte"
+"VRApplicationError_PropertyNotSet" "Egenskap ble ikke angitt"
+"VRApplicationError_SteamVRIsExiting" "SteamVR skal avsluttes"
+"VRApplicationError_TransitionAborted" "Programoppstart ble avbrutt av bruker"
+"VRApplicationError_UnknownApplication" "Ukjent program"
+"VRApplicationError_UnknownProperty" "Ukjent egenskap"
+"VRController_NoDisplay" "Ingen skjerm"
+"VRController_NoDriver" "Ingen driver"
+"VRManifest_Imported_Message" "OpenVR-manifestfil importert: \n %1"
+"VRManifest_Imported_Title" "OpenVR-manifestfil importert"
+"VRState_Off" "Av"
+"VRState_Ready" "Klar"
+"VRState_Searching" "S
+"VRState_SearchingWithAlert" "S
+"VRState_Standby" "Ventemodus"
+"WorkshopUpload_Cancel"			"Avbryt"
+"WorkshopUpload_Desc"			"Beskrivelse"
+"WorkshopUpload_DialogTitle"	"Opplastingsverkt
+"WorkshopUpload_Error"			"Feil"
+"WorkshopUpload_Error_CannotCreateUploadDir"		"Kunne ikke opprette midlertidig opplastingsmappe!"
+"WorkshopUpload_Error_DescTooLong"	"Beskrivelsen kan ikke inneholde flere enn 8000 tegn."
+"WorkshopUpload_Error_Generic"		"Det oppstod et problem med 
+"WorkshopUpload_Error_InvalidType_MainFile_Background"		"Bakgrunnsbilder m
+"WorkshopUpload_Error_InvalidType_MainFile_Basestation"		"Basestasjonsmodeller m
+"WorkshopUpload_Error_InvalidType_MainFile_Camera"			"Kameramodeller m
+"WorkshopUpload_Error_InvalidType_MainFile_Controller"		"Kontrollermodeller m
+"WorkshopUpload_Error_InvalidType_MainFile_Environment"		"Omgivelsesmodeller m
+"WorkshopUpload_Error_InvalidType_Thumbnail_Background"	"Miniatyrbilder m
+"WorkshopUpload_Error_InvalidType_Thumbnail_Basestation"	"Miniatyrbilder m
+"WorkshopUpload_Error_InvalidType_Thumbnail_Camera"	"Miniatyrbilder m
+"WorkshopUpload_Error_InvalidType_Thumbnail_Controller"	"Miniatyrbilder m
+"WorkshopUpload_Error_InvalidType_Thumbnail_Environment"	"Miniatyrbilder m
+"WorkshopUpload_Error_LimitExceeded"	"Steam-feil: 
+"WorkshopUpload_Error_NoDesc"		"Skriv inn en beskrivelse"
+"WorkshopUpload_Error_NoFile_MainFile"		"Velg en gyldig fil"
+"WorkshopUpload_Error_NoFile_Thumbnail"		"Velg et gyldig miniatyrbilde"
+"WorkshopUpload_Error_NoItemsToEdit"	"Fant ingen eksisterende filer 
+"WorkshopUpload_Error_NoTitle"	"Skriv inn et navn"
+"WorkshopUpload_Error_SteamClientNotFound"	"Kan ikke starte opplastingsverkt
+"WorkshopUpload_Error_TooLarge_MainFile"		"Filer kan ikke v
+"WorkshopUpload_Error_TooLarge_Thumbnail"		"Miniatyrbildet m
+"WorkshopUpload_ImagesFilter"	"Bilder (*.jpg *.png)"
+"WorkshopUpload_MainFile"		"Fil"
+"WorkshopUpload_NoItem"			"(Ny)"
+"WorkshopUpload_ObjFilter"		"Modeller (*.obj)"
+"WorkshopUpload_Progress_CommittingChanges"		"Fullf
+"WorkshopUpload_Progress_PreparingConfig"		"Forbereder konfigurasjon 
+"WorkshopUpload_Progress_PreparingContent"		"Behandler filer 
+"WorkshopUpload_Progress_Start"		"Kontakter SteamVR Workshop 
+"WorkshopUpload_Progress_Title"		"SteamVR Workshop"
+"WorkshopUpload_Progress_UploadingContent"		"Laster opp filer 
+"WorkshopUpload_Progress_UploadingPreview"		"Laster opp forh
+"WorkshopUpload_SelectContentType"	"Type"
+"WorkshopUpload_SelectContentType_Background"	"Bakgrunn"
+"WorkshopUpload_SelectContentType_Basestation"	"Basestasjonsmodell"
+"WorkshopUpload_SelectContentType_Camera"		"Kameramodell"
+"WorkshopUpload_SelectContentType_Controller"	"Kontrollermodell"
+"WorkshopUpload_SelectContentType_Environment"	"Omgivelsesmodell"
+"WorkshopUpload_SelectExisting"	"Rediger"
+"WorkshopUpload_SelectImage"	"Velg bilde"
+"WorkshopUpload_Tag_Abstract"					"Abstrakt"
+"WorkshopUpload_Tag_City"						"By"
+"WorkshopUpload_Tag_Game"						"Spill"
+"WorkshopUpload_Tag_Nature"						"Natur"
+"WorkshopUpload_Tag_Space"						"Rom"
+"WorkshopUpload_Tag_Tech"						"Teknologi"
+"WorkshopUpload_Tags"							"Merkelapper"
+"WorkshopUpload_Thumbnail"		"Miniatyrbildefil (400x300, maks 1 MB)"
+"WorkshopUpload_Title"			"Navn"
+"WorkshopUpload_Upload"			"Send inn"
+"WorkshopUpload_Visibility"			"Synlighet"
+"WorkshopUpload_Visibility_FriendsOnly"		"Kun venner"
+"WorkshopUpload_Visibility_Private"			"Privat"
+"WorkshopUpload_Visibility_Public"			"Offentlig"
+"lang"
+"oculus_display_lost" "Oculus-systemet har mistet forbindelsen til skjermen. Sjekk hodesettets tilkobling og start deretter p
+"oculus_requested_quit" "Oculus-systemet ba om at SteamVR avsluttes."
+, siden det allerede er en enhetsoppdatering i gang."
+. Hvis du vil ha oppmerksomheten min, kan du trykke p
+. Hvis problemet du feils
+. Vil du fortsette n
+. Vil du fortsette?"
+. Vil du starte p
+</b>"
+Avbryt
+Bank p
+Gjenopprett enhet
+Grense overskredet
+Krasjet
+Kunne ikke starte
+Lesefeil
+Oppdater
+Skrivefeil
+Tidsavbrudd
+UkjentFeil
+\n\n%1 sekunder igjen."
+\n\nIkke fullf
+der, som deles med flere SteamVR-brukere.</font>"
+det."
+dvendig, n
+dvendige enhetsoppdateringer er tilgjengelige. Velg en enhet som skal oppdateres."
+ende VR og VR i romskala, sentreres nye grenser p
+ende omr
+et og SteamVR-loggf
+format"
+k etter tilgjengelige tr
+ker etter Chaperone"
+ker etter LighthouseDB"
+ker etter USB"
+ker etter enhet 
+ker etter enheter"
+ker etter konfigurasjon"
+ker etter kontroller 
+ker etter problemer"
+ker etter skjermer"
+ker vedvarer, g
+kingsalternativer i grensesnittet for inndatabinding"
+kingskommandoer"
+kkelkomponent i SteamVR fungerer ikke ordentlig."
+kner n
+kten."
+lge."
+lt GPU-hastighet"
+minn meg senere"
+mkabel f
+mkabel, f
+mkabel. Koble deretter hodesettet inn igjen, start SteamVR og pr
+mkabel."
+mkabel.<li>Koble fra USB-kabelen som er koblet til i basestasjonen.<li>Koble til igjen basestasjonens str
+mkabel.<li>Vent i 30 sekunder, slik at basestasjonen gj
+mkabelen i basestasjonen, mens du holder nede kanalknappen p
+mkabelen til basestasjonen.<li>Start SteamVR og pr
+mkabelen til basestasjonen.\n\n2. Bruk en micro-USB-kabel for 
+mkabelen til koblingsboksen.<li>Koble ut og inn igjen str
+mstyring *"
+mstyring av basestasjoner *"
+mstyring av basestasjoner og enhetsoppdateringer med Bluetooth. Dette kan ogs
+mstyring av basestasjoner og oppdateringer."
+mstyring av basestasjoner"
+mstyring av basestasjoner.<br><br>Str
+mstyring i Windows er sl
+mstyring i Windows for SteamVR-USB-enheter, hvis du opplever uforklarlige forstyrrelser av sporingen eller ikke kan tilknytte tr
+mstyring"
+mstyringen."
+mstyrte basestasjoner g
+n av kontrollerne m
+ndsvis rapport"
+ndsvisningsfil 
+ndtere str
+nsket kanalkonfigurasjon."
+pne feils
+pne fil"
+pne spilleliste"
+pselet til basestasjonen. Start deretter SteamVR og pr
+pselet til koblingsboksen for 
+r SteamVR ikke er i bruk, og v
+r SteamVR starter."
+r SteamVR starter.<br>"
+r SteamVR starter.\n"
+r SteamVR startes."
+r andre systemendringer, mens enheten oppdateres. Dette kan f
+r andre systemendringer, mens enheten oppdateres. Dette kan resultere i at basestasjonen blir ubrukelig."
+r andre systemendringer, mens enheten oppdateres. Dette kan resultere i at hodesettet blir ubrukelig."
+r andre systemendringer, mens enheten oppdateres. Dette kan resultere i at sporingsenheten blir ubrukelig."
+r av direkte skjermmodus, og anbefales ikke. Er du sikker p
+r av laserne og motorene."
+r basestasjonen oppdages, og da kan du slippe kanalknappen."
+r begynne 
+r den registreres som oppdatert."
+r det kj
+r det oppst
+r det trengs."
+r du <a href='vrmonitor://restartsystem'><span style='color:white;'>starter SteamVR p
+r du bruker SteamVR."
+r du g
+r du monterer den igjen, s
+r du n
+r enkelt"
+r et VR-program startes"
+r feil med enhetsoppdateringen:<ul><li>Avslutt SteamVR.<li>Koble ut eventuelle USB-kabler fra basestasjonen.<li>IKKE koble til USB-tilkoblinger i basestasjonen.<li>Koble ut og inn igjen str
+r feil med enhetsoppdateringen:<ul><li>Avslutt SteamVR.<li>Koble ut og inn igjen str
+r hodesettet er i utvidet modus. <a href='vrmonitor://directmode/enable'><span style='color:white;'>Sl
+r hodesettet er uvirksomt"
+r hodesettet oppdages."
+r i ventemodus 
+r i ventemodus n
+r kalibrere styreplaten om den virker upresis eller du opplever uventede bevegelser."
+r kompatibilitetsproblemer.<p>Er du sikker p
+r kontrolleren oppdages."
+r kun av laserne, s
+r minimert"
+r motta en bekreftelse p
+r oppdateringen kan fortsette. Koble ut og inn igjen basestasjonens str
+r oppdateringen kan fortsette."
+r oppdateringen kan fortsette.<br><br><font color=#aaaa00>Koble ut og inn igjen basestasjonens str
+r oppf
+r programmet ikke svarer"
+r romoppsettet er utf
+r romoppsettet"
+r seg av, sl
+r seg ferdig med den interne oppdateringen.</font></ul><br>Basestasjonens lys er muligens sl
+r slutt:"
+r spilleliste"
+r sporingsenheten oppdages."
+r valgte"
+r videre.</font>"
+rbar fil:"
+rbar sti"
+rbare sti."
+rbare sti\n%3\n"
+re av filtypen obj"
+re enten png- eller jpg-filer"
+re koblet til ordentlig for 
+re logget inn p
+re med halv bildefrekvens)"
+re mindre enn 1 MB"
+re romoppsettet n
+re sl
+re st
+re til at basestasjonen blir ubrukelig."
+re til at kontrolleren blir ubrukelig."
+re til potensielle kanalkonflikter.\n"
+re tilgjengelige som overlegg i VR-dashbordet."
+re tilkoblet samtidig."
+rende (antall)"
+rende VR-programmer for 
+rer allerede"
+rer ikke"
+rer oppdatering 
+rer programmet som en administrator.\n"
+rer styreplaten og trykk Neste for 
+rer."
+res f
+res programmer som ikke kan holde f
+res."
+res.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Les mer</a>."
+resti"
+resti:"
+retiden basert p
+retiden kunne ikke starte.\n\n%1\n\nDu kan tilbakestille den gjeldende kj
+retiden\n%2\nbasert p
+retidsmappe"
+rg for at basestasjonen er trygt koblet til datamaskinen med micro-USB. Hvis dette fortsetter 
+rg for at du ikke ber
+rg for at du kj
+rg for at hodesettet er koblet til riktig og trygt. Hvis dette fortsetter 
+rg for at hodesettet kan se basestasjonene"
+rg for at hodesettet kan se spilleomr
+rg for at kontrolleren er oppladet og befinner seg i n
+rg for at kontrolleren er trygt koblet til datamaskinen med micro-USB. Hvis dette fortsetter 
+rg for at miniatyrbildet er mindre enn 1 MB."
+rg for at sporingsenheten er trygt koblet til datamaskinen med micro-USB. Hvis dette fortsetter 
+rg for at sporingskameraene kan se hodesettet"
+rge for en god opplevelse, n
+rheten av hodesettet under tilknytning."
+rheten, men ingen av dem er blitt brukt til sporing enn
+rheten, som kringkaster og trenger gjenoppretting."
+rheten."
+ring %1"
+ring (0x0001)"
+ring som kan brukes av Valve for diagnostikk."
+ring"
+ring."
+ring: Pause"
+ringen slutter (i sekunder)"
+ringer"
+rmer deg kantene av det tilgjengelige omr
+rre enn 1 GB"
+rsel, og du vil ikke f
+rst sett"
+rste oppf
+rste program"
+rstegangsadvarsler (0x0010)"
+rt. Vil du utf
+rt.<br><br><font color=#ffffff>Disse basestasjonene har ufullstendige oppdateringer.<br><br>Velg en basestasjon og trykk 
+rt.\n\nDet er %1 potensielle kanalkonflikter igjen. Du m
+rt.\n\nDet er ingen 2.0-basestasjoner som kringkaster i n
+rt.\n\nDet er ingen basestasjoner i n
+rt.\n\nDet er ingen kanalkonflikter."
+rt.\n\nTrykk p
+rt\n\nDet er basestasjoner som kringkaster i n
+rt\n\nDet er ingen basestasjoner som kringkaster i n
+s asynkron omprojeksjon av for dette produktet."
+s konflikter?"
+s mottaker 1"
+s mottaker 2"
+s mottaker"
+s str
+s, og som kan f
+se %1 av %2 potensielle kanalkonflikter. Fortsett og l
+se %1 potensielle kanalkonflikter. Du m
+se funksjoner for Bluetooth-kommunikasjon. Dette krever administratorrettigheter."
+se funksjoner, slik som str
+se kontrollere."
+se mottakere 
+se oppdateringen fra 
+se oppdateringen.<br><br><font color=#aaaa00>Koble fra USB-kabelen, som er koblet til i basestasjonen.</font>"
+se str
+se tjenester"
+ses av 
+ses ved 
+sne VR-visning"
+sning"
+sningen basert p
+sningen i videoinnstillingene (standard er 100%). Dette programmet m
+sningen til et bestemt program."
+sningsinnstillingen nedenfor vil p
+st. Ikke koble ut basestasjonene mens de blir oppdaterte."
+st.\n\nSl
+tekst"
+tt av for 
+tt av for installerte SteamVR-USB-enheter.\n\nDu m
+tt av under den interne oppdateringen.<br>Ikke koble fra eller til noen annet i basestasjonen, mens oppdateringen p
+tt av"
+tt en kritisk feil med SteamVR."
+tt for 
+tte fra en medarbeider."
+tte p
+tteforesp
+tter valgt type, og vil nedgradere til stereoskopisk."
+ttes av hodesettet, men SteamVR kan ikke behandle oppdateringsfrekvenser n
+ttes av hodesettet, men de ble ikke registrert av skjermdriveren. Bekreft at fastvaren til hodesettet og skjermdriverne er oppdaterte."
+ttes ikke p
+ttesiden for 
+v gjerne 
+v gjerne igjen senere.\n"
+v igjen senere."
+v igjen. Hvis dette ikke hjelper, start datamaskinen p
+v igjen."
+v igjen.</ul>"
+v igjen.\n"
+ve igjen."
+verst"
+virke alle programmer. G
+y til SteamVR Workshop"
+ye i <font color=#eeeeee>%1x%2</font>"
+ye i"
+yeblikket %1)"
+yeblikket av:"
+yet er muligens opptatt. Pr
+yet oppretter en systemrapport av SteamVR, som samler opplysninger om systemet, milj
+yet til SteamVR Workshop, fordi Steam-klienten ikke kj
+yne (h
+yne (venstredominant)"
+yredominant)"

@@ -1,1226 +1,1732 @@
-"lang"
-{
-"Language" "finnish"
-"Tokens"
-{
-
-"VRController_NoDriver" "Ei ajuria"
-"VRController_NoDisplay" "Ei näyttöä"
-"SteamUniverse_NoSteamAvailable" "Steam-virhe"
-"SteamUniverse_InvalidSteamUniverse" "Virheellinen Steam Universe"
-"SteamUniverse_Public" "Julkinen"
-"SteamUniverse_Beta" "Beta"
-"SteamUniverse_Internal" "Sisäinen"
-"SteamUniverse_Dev" "Dev"
-"CompositorError_NoCompositorRequested" "SteamVR-virhe"
-"CompositorError_Running" "Käynnissä"
-"CompositorError_FailedToStartButNoError" "Latojan käynnistys epäonnistui, mutta ei virhettä"
-"VRState_Off" "Pois käytöstä"
-"VRState_Searching" "Haetaan..."
-"VRState_SearchingWithAlert" "Haetaan..."
-"VRState_Ready" "Valmis"
-"VRState_Standby" "Valmiustilassa"
-"Startup_OpenGLIsNotInstalled" "Asenna OpenGL ennen kuin käytät SteamVR:ää."
-"Startup_DisplayLinkIsInstalled" "DisplayLink ei ole yhteensopiva SteamVR:n kanssa. Poista DisplayLink-ajurit sekä ohjelmisto tietokoneeltasi ja käynnistä se uudelleen ennen SteamVR:n käyttöä."
-
-"StatusError_NoHMDAvailable" "VR-laseja ei käytössä."
-"StatusError_HMDDoesNotTrack" "VR-lasit eivät seuraa."
-"StatusError_NoCompositorAvailable" "SteamVR:lle oleellinen osa ei toimi oikein."
-"StatusError_CompositorNotFullscreen" "SteamVR:lle oleellinen osa ei toimi oikein."
-"StatusError_CompositorNotRunning" "SteamVR:lle oleellinen osa ei toimi oikein."
-"StatusError_CompositorTooManyRunning" "SteamVR:lle oleellinen osa ei toimi oikein."
-"StatusError_PrismNotRunning" "SteamVR:lle oleellinen osa ei toimi oikein."
-"StatusError_VRServerNotRunning" "SteamVR:lle oleellinen osa ei toimi oikein."
-"StatusError_TrackingDevice_NotValid" "Laitetta ei tunnistettu."
-"StatusError_Chaperone_Error" "Chaperone-järjestelmässä tapahtui virhe."
-"StatusError_LighthouseEvent" "Seurantajärjestelmässä tapahtui virhe."
-"StatusError_SteamVRServiceNotInstalled" "SteamVR-apuohjelmaa ei ole asennettu."
-"StatusError_UnknownError" "Tuntematon virhe (%1)" 
-
-"StatusWarning_System_NoSteamAvailable" "Käynnistä Steam"
-"StatusWarning_System_Chaperone_Warning" "Kartoita huone"
-"StatusWarning_TrackingDevice_FirmwareUpdateNeeded" "Laite on päivitettävä"
-"StatusWarning_TrackingDevice_NoPose" "Haetaan..."
-"StatusWarning_System_ConnectionRefusedBySteam" "Ongelmia yhteyden muodostamisessa..."
-"StatusWarning_System_NeedDirectModeGraphicsDriverUpdate" "Päivitä tietokoneen näytönohjaimen ajuri"
-"StatusWarning_UnknownWarning" "Tuntematon varoitus (0x%1)"
-
-"DismissableWarning_DismissButton" "Hylkää"
-"DismissableWarning_None" " "
-"DismissableWarning_RunTutorialAgain" "Aloita tutoriaali uudelleen (0x0001)"
-"DismissableWarning_BasestationsTooFarApart" "Tukiasemat liian kaukana toisistaan (0x0002)"
-"DismissableWarning_OpticalBasestationSyncWarning" "Tukiasemavaroitus (0x0004)"
-"DismissableWarning_BasestationSingleBaseModeHint" "Tukiasemavinkki (0x0008)"
-"DismissableWarning_WarningsForTheFirstTime" "Ensimmäiset varoitukset (0x0010)"
-"DismissableWarning_MissedFrames" "Ohitetut ruudut (0x0020)"
-"DismissableWarning_PowerSchemeIsNotHighPerformance" "Suorituskykyvirhe (0x0040)"
-"DismissableWarning_BluetoothDriverNeedsInstallation" "Vaaditaan Bluetooth-ajuri (0x0080)"
-"DismissableWarning_BluetoothDriverNeedsUpdate" "Vaaditaan Bluetooth-ajurin päivitys (0x0100)"
-"DismissableWarning_BluetoothLinkServiceNotFound" "Bluetooth ei saatavilla (0x0200)"
-"DismissableWarning_BluetoothLinkServiceError" "Bluetooth ei saatavilla (0x0400)"
-"DismissableWarning_BluetoothLinkCommunicationFailed" "Bluetooth-yhteys epäonnistui (0x0800)"
-"DismissableWarning_SomeDisplaysAreMirroring" "Jotkut näytöt peilaavat (0x1000)"
-"DismissableWarning_UnknownHardwareDetected" "Uusi laite havaittu (0x2000)"
-"DismissableWarning_WindowsAeroDisabled" "Näyttövaroitus (0x4000)"
-"DismissableWarning_Windows8" "Windows 8 (0x8000)"
-"DismissableWarning_DisplayInExtendedMode" "Näyttövaroitus (0x10000)"
-"DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Tukiasemavirhe (0x400000)"
-"DismissableWarning_SteamVRInSafeMode" "SteamVR vikasietotilassa (0x1000000)"
-
-"DismissableWarning_Detected" "Tunnistettu"
-"DismissableWarning_TimeFormat" "h.mm"
-
-"TrackedDeviceClass_Invalid" "Virheellinen"
-"TrackedDeviceClass_HMD" "VR-lasit"
-"TrackedDeviceClass_Controller" "Ohjain"
-"TrackedDeviceClass_TrackingReference" "Tukiasema"
-"TrackedDeviceClass_GenericTracker" "Jäljitin"
-"TrackedDeviceClass_Unknown"  "Tuntematon seurattu laite"
-"StatusCheckInterval_Never" "Ei koskaan"
-"StatusCheckInterval_Seldom" "Harvoin (5 s)"
-"StatusCheckInterval_Normal" "Normaali (1 s)"
-"StatusCheckInterval_Often" "Usein (100 ms)"
-"Log_Window_Title" "Loki - %1"
-"Log_Button_Clear" "Tyhjennä"
-"Log_Button_ShowInExplorer" "Näytä resurssienhallinnassa"
-"Log_Button_LoadCompleteFile" "Lataa valmis tiedosto"
-"Log_Text_MoreLineInTheActualFile" "LISÄÄ RIVEJÄ VARSINAISESSA TIEDOSTOSSA\n\n"
-
-"Status_Title" "SteamVR-tila"
-"Status_MenuButton_SteamVR" "SteamVR"
-"Status_MenuButton_SteamVR_Branch" "SteamVR %1"
-"Status_HMD" "VR-lasit"
-"Status_Controller" "Ohjain"
-"Status_Base" "Tukiasema"
-"Status_Starting" "Käynnistetään"
-"Status_Quitting" "Suljetaan"
-
-"ShutdownWhileAppRunning_Title" "Suljetaanko SteamVR?"
-"ShutdownWhileAppRunning_Format" "Sulkee myös sovelluksen %1. Haluatko sulkea nyt?"
-
-"RebootWhileAppRunning_Title" "Käynnistetäänkö SteamVR uudelleen?"
-"RebootWhileAppRunning_Format" "Sulkee myös sovelluksen %1. Haluatko käynnistää uudelleen nyt?"
-
-"FrameTiming_Title" "Ruutuajastus"
-"FrameTiming_Idle" "Toimeton"
-"FrameTiming_Vsync" "Pystysynkronointi"
-"FrameTiming_Compositor" "Latoja"
-"FrameTiming_PreSubmit" "Sovellus (kohtaus)"
-"FrameTiming_PostSubmit" "Sovellus (muu)"
-"FrameTiming_MisPresented" " --- Uudelleenprojisoitu"
-"FrameTiming_FirstView" " --- Ensin näytetty"
-"FrameTiming_ReadyForUse" " --- Valmiina käyttöön"
-"FrameTiming_Other" "Muu"
-"FrameTiming_LateStart" "Käynnistysviive"
-"FrameTiming_Presented" " --- Nykyinen (lukumäärä)"
-"FrameTiming_Predicted" " --- Ennusta (extra)"
-"FrameTiming_Throttled" " --- Rajoita (ruudut)"
-"FrameTiming_Pause" "Keskeytä"
-"FrameTiming_Raw" "Lisätiedot"
-"FrameTiming_ShowInHeadset" "Näytä VR-laseissa"
-"FrameTiming_Remote" "Etä"
-
-"FrameTiming_5sStats" "Puuttuvat ruudut edellisen %1s aikana:\n %2 1 ruutu\n %3 2 ruutua\n %4 3 ruutua \n %5 4 tai useampi\n Yhteensä %6\n"
-"FrameTiming_Config" "Varoita, jos %3s aikana puuttuu \n %1 yksittäistä ruutua\n tai %2 useampaa ruutua"
-
-"SteamVRSystemState_Off" "Pois käytöstä"
-"SteamVRSystemState_Ready" "Nyt pelissä"
-"SteamVRSystemState_NotReady" " "
-"SteamVRSystemState_Connecting" "Haetaan..."
-"SteamVRSystemState_Standby" "Valmiustilassa"
-"SteamVRSystemState_Shutdown" "VR suljetaan..."
-"SteamVRSystemState_Installing" "Laitteiston asennus käynnissä..."
-"SteamVRSystemState_Restart" "Käynnistetään SteamVR uudelleen..."
-"SteamVRSystemState_Startup" "Käynnistetään VR..."
-"SteamVRSystemState_ShutdownRequested" "VR suljetaan..."
-"SteamVRSystemState_PauseRequested" "Pysäytetään..."
-"SteamVRSystemState_Paused" "Pysäytetty"
-"SteamVRSystemState_UnpauseRequested" "Käynnistetään..."
-"SteamVRSystemState_Paused_FirmwareUpdate" "Päivitetään laitteita..."
-"SteamVRSystemState_PseudoState_Waiting" "Odottaa..."
-"SteamVRSystemState_PseudoState_Welcome" "Tervetuloa"
-
-"SteamVRSystemState_Ready_Application" "%1"
-"SteamVRSystemState_Connecting_Application_Lighthouse" "Varmista, että VR-lasit näkevät tukiasemat"
-"SteamVRSystemState_Connecting_Application_InsideOutCamera" "Varmista, että VR-lasit näkevät pelialueen"
-"SteamVRSystemState_Connecting_Application_OutsideInCamera" "Varmista, että seurantakamerat näkevät VR-lasit"
-"SteamVRSystemState_Standby_Application" "Herätä VR-lasit laittamalla ne päähän"
-"SteamVRSystemState_PseudoState_Welcome_Application" "Kytke VR-lasisi"
-
-"MenuAction_StatusBar" "Tila"
-"MenuAction_RoomOverview" "Näytä huoneen yleiskatsaus"
-"MenuAction_Settings" "Asetukset"
-"MenuAction_LegacySettings" "Kehittäjäasetukset"
-"MenuAction_BluetoothSettings" "Bluetooth-asetukset"
-"MenuAction_BaseStationSettings" "Tukiaseman asetukset"
-"MenuAction_DiagnosticsMenu" "Diagnostiikka"
-"MenuAction_MainPlaylistMenu" "Toistolistat"
-"MenuAction_PlaylistEditor" "Toistolistan editori"
-"MenuAction_PlaylistPlayer" "Mediatoistin"
-"MenuAction_RunPlaylist" "Käynnistä toistolista"
-"MenuAction_RecentPlaylist" "Viimeisimmät"
-"MenuAction_ClearRecentPlaylist" "Tyhjennä edelliset toistolistat"
-"MenuAction_Quit" "Sulje"
-"MenuAction_About_vrmonitor" "Tietoja SteamVR:stä"
-"MenuAction_AboutQt" "Tietoja Qt:stä"
-"MenuAction_Help" "Tuki"
-"MenuAction_Devices" "Laitteet"
-"MenuAction_Developer" "Kehittäjä"
-"MenuAction_WebDevTools" "Web-kehitystyökalut"
-"MenuAction_SteamVRWebsite" "SteamVR-tuki"
-"MenuAction_SteamVRCommunity" "SteamVR-yhteisö"
-"MenuAction_SteamVRHardwareDiscussions" "SteamVR-laitteistokeskustelu"
-"MenuAction_SteamVRDeveloperSupport" "SteamVR-kehittäjätuki"
-"MenuAction_SteamWorksDeveloperSupport" "Steamworks-kehittäjätuki"
-"MenuAction_CreateSystemReport" "Luo järjestelmäraportti"
-"MenuAction_ResetSeatedPosition" "Nollaa istuva asento"
-"MenuAction_SystemReportViewer" "Järjestelmäraportin katseluohjelma"
-"MenuAction_DisplayFrameTiming" "Edistynyt ruutuajastus"
-"MenuAction_RecordTrackingData" "Nauhoita seurantatiedot"
-"MenuAction_StopRecording" "Lopeta tallennus"
-"MenuAction_Crash" "Kaatuminen"
-"MenuAction_RefreshStatusNow" "Päivitä tila nyt"
-"MenuAction_ViewLogDirectory" "Näytä loki"
-"MenuAction_ShowLogDirectory" "Näytä lokihakemisto"
-"MenuAction_ShowConfigDirectory" "Näytä asetushakemisto"
-"MenuAction_ShowRuntimeDirectory" "Näytä ajonaikainen hakemisto"
-"MenuAction_RunRoomSetup" "Huoneen kartoitus"
-"MenuAction_RunTutorial" "Tutoriaali"
-"MenuAction_RunMediaPlayer" "Media Player"
-"MenuAction_RecentPlaylists" "Viimeisimmät toistolistat"
-"MenuAction_Diagnostics" "Lisäasetukset"
-"MenuAction_Directories" "Hakemistot"
-"MenuAction_LogFiles" "Lokitiedostot"
-"MenuAction_More" "Lisää"
-"MenuAction_CouldNotReadLogFiles" "Lokitiedostojen avaus epäonnistui"
-"MenuAction_PairingWizard" "Pariliitä ohjain"
-"MenuAction_FirmwareUpdate" "Päivitä laite"
-"MenuAction_SetLogDirectory" "Aseta lokihakemisto"
-"MenuAction_SetConfigDirectory" "Aseta config-hakemisto"
-"MenuAction_ShowDisplayMirror" "Näytä VR-näkymä"
-"MenuAction_HideDisplayMirror" "Piilota VR-näkymä"
-"MenuAction_DisplayMirror" "Näytä VR-näkymä"
-"MenuAction_PerformanceGraph" "Näytä suorituskykykaavio"
-"MenuAction_ShowControllerBinding" "Ohjainasetukset"
-"MenuAction_ShowManageTrackers" "Hallinnoi jäljittimiä"
-"MenuAction_UpdateFirmware" "Päivitä laite"
-"MenuAction_ForceFirmware" "Pakota laiteohjelmiston päivitys"
-"MenuAction_DirectMode" "Suora näyttötila"
-"MenuAction_EnableDirectMode" "Ota suora näyttötila käyttöön"
-"MenuAction_DisableDirectMode" "Poista suora näyttötila käytöstä"
-"MenuAction_PairController" "Pariliitä ohjain"
-"MenuAction_PowerOffController" "Sammuta ohjain"
-"MenuAction_IdentifyBaseStation" "Tunnista tukiasema"
-"MenuAction_Workshop" "Workshop"
-"MenuAction_Workshop_UploadItem" "Lähetä uusi taustakuva"
-"MenuAction_Workshop_EditItem" "Muokkaa nykyistä taustakuvaa"
-"MenuAction_Workshop_RunTools" "Luo/muokkaa ympäristöä"
-"MenuAction_Workshop_ViewWiki" "SteamVR-ympäristöjen wiki"
-"MenuAction_Workshop_Browse" "Selaa Workshopia"
-"MenuAction_ModelDirectory_Browse" "Selaa mallihakemistoa"
-"MenuAction_WakeupAllBaseStations" "Herätä tukiasemat"
-"MenuAction_KnockKnock" "Kop kop"
-"MenuAction_PairTracker" "Pariliitä jäljitin"
-"MenuAction_PowerOffTracker" "Sammuta jäljitin"
-"MenuAction_ReportABug" "Ilmoita bugista"
-"MenuAction_WebConsole" "Web-konsoli"
-"MenuAction_OverlayViewer" "Peitetason näkymä"
-"MenuAction_DebugCommands" "Virheenkorjauskomennot"
-"MenuAction_WebDevToolsPlaceholder" "Instansseja ei löytynyt"
-
-
-"MonitorController_SwitchDirectMode_Header" "Suora näyttötila"
-"MonitorController_EnableDirectMode_Text" "SteamVR käynnistyy uudelleen suoran näyttötilan käyttöönoton jälkeen. Haluatko jatkaa?"
-"MonitorController_DisableDirectMode_Text" "VAROITUS: Suoran näyttötilan poistaminen käytöstä laajentaa VR-lasien näkymän työpöydälle, eikä tätä suositella. Haluatko varmasti poistaa suoran näyttötilan käytöstä? SteamVR käynnistyy uudelleen muutoksen jälkeen."
-
-"MonitorController_SwitchSafeMode_Header" "Vikasietotila"
-"MonitorController_EnableSafeMode_Text" "<span>Vikasietotilaa</span> voidaan käyttää rajoittamaan SteamVR:n prosesseja olennaisiin ominaisuuksiin yhteensopivuusongelmien esiintyessä.<p>Haluatko varmasti ottaa vikasietotilan pois käytöstä? SteamVR käynnistyy uudelleen tämän muutoksen jälkeen.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Lisätietoja</a>."
-
-"TrayIcon_Tooltip_vrmonitor" "SteamVR-tila"
-"MonitorController_SelectRecordingDirectory" "Valitse tallennuskansio"
-"MonitorController_LoadPlaylist" "Lataa toistolista"
-"MonitorController_Information_Title" "SteamVR"
-"MonitorController_RestartSystemNotPossible" "SteamVR:ää ei voida käynnistää uudelleen automaattisesti juuri nyt. \nSulje SteamVR ja käynnistä se uudelleen. Jos tämä ei auta, käynnistä tietokoneesi uudelleen."
-"MonitorController_NotAbleToMakeCompositorFullscreen" "SteamVR:llä on ongelmia kokoruututilan käyttöönotossa."
-"MonitorController_ApplicationsInterfaceNotAvailable" "%1 ei käynnistynyt. Sovelluksen käyttöliittymä ei ole käytettävissä."
-"MonitorController_ApplicationCouldNotStart" "%1 ei käynnistynyt: %2."
-"MonitorController_Version" "Versio %1"
-"MonitorController_ResetCompleteSetup_Text" "Tämä nollaa SteamVR:n koko asennuksen ja käynnistää sovelluksen uudelleen."
-"Settings_Title" "SteamVR-asetukset"
-"Settings_Bluetooth_Title" "Bluetooth-asetukset"
-"Settings_BaseStations_Title" "Tukiaseman asetukset"
-"Settings_Developer_Title" "Kehittäjäasetukset"
-"Settings_Checks" "Tarkistukset"
-"Settings_Notifications" "Ilmoitukset"
-"Settings_Applications" "Sovellus"
-"Settings_DisplayMode" "Näyttötila"
-"Settings_DisplayMode_Extend" "Laajenna työpöytä näyttöön"
-"Settings_DisplayMode_MirrorWindow" "VR-näkymä"
-"Settings_OpenVRPaths" "OpenVR-polut"
-"Settings_Reset" "Nollaa"
-"Settings_PerfCheck" "Tarkista suorituskyky"
-"Settings_CheckForSteam" "Tarkista Steam"
-"Settings_CheckStatus" "Tarkista tila"
-"Settings_Firmware_UpdateAvailable" "Päivitys saatavilla"
-"Settings_NotAvailableAtThisTime" "Kaikki asetukset eivät ole saatavilla tällä hetkellä"
-"Settings_EnableLinuxGPUProfiling" "Ota näytönohjainprofilointi käyttöön"
-"Settings_EnableDashboard" "Ota SteamVR-työpöytä käyttöön"
-"Settings_ArcadeMode" "Ota arcade-tila käyttöön"
-"Settings_PauseOnStandby" "Keskeytä renderöinti, kun VR-lasit ovat toimettomina"
-"Settings_DebugInputBindings" "Ota vianetsintäasetukset käyttöön syötemäärityksen käyttöliittymässä"
-"Settings_DoNotFadeToGrid" "Älä näytä ruudukkoa, kun sovellus jää jumiin."
-
-"Settings_ShowPlaylistMenu" "Näytä toistolistavalikko"
-"Settings_StartSteamVROnAppLaunch" "Käynnistä SteamVR VR-sovelluksen käynnistyessä"
-
-"Settings_RestartText" "<html><B>Käynnistä ympäristö uudelleen muutettuasi näitä polkuja.</b></html>"
-"Settings_RuntimePath" "Käynnistyspolku:"
-"Settings_Set" "Aseta..."
-"Settings_ConfigPath" "Asetuspolku:"
-"Settings_LogPath" "Lokipolku:"
-"Settings_Refresh" "Päivitä"
-"Settings_SetSelectedPaths" "Aseta valitut polut"
-"Settings_SelectRuntimePath" "Valitse käynnistyspolku"
-"Settings_SelectConfigPath" "Valitse asetuspolku"
-"Settings_SelectLogPath" "Valitse lokipolku"
-"Settings_ResetQtSettings" "Nollaa Qt-asetukset"
-"Settings_ResetRuntimeAndQuit" "Nollaa käynnistyspolku SteamVR:n sijaintiin ja käynnistä uudelleen"
-"Settings_ResetCompleteSetupAndQuit" "Nollaa kaikki asetukset ja käynnistä uudelleen"
-"Settings_ResetChaperoneToHeadsetInMiddleOfFloor" "Nollaa Chaperone VR-laseihin keskelle lattiaa"
-"Settings_SmallSpace" "Pieni tila"
-"Settings_MediumSpace" "Keskikokoinen tila"
-"Settings_LargeSpace" "Suuri tila"
-"Settings_GiganticSpace" "Valtava tila"
-"Settings_RemoveAllUSBDevices" "Poista kaikki SteamVR:n USB-laitteet"
-"Settings_ResetChaperoneToDK2Default" "Nollaa Chaperone-tiedot Oculus Rift DK2-oletustiedoiksi"
-
-"Settings_Information_Title" "SteamVR"
-"Settings_ResetQtSettings_Text" "Olet nollaamassa Qt-asetuksia.\n\nOletko varma?"
-"Settings_ResetRuntimeBasedOnVRMonitorAndQuit_Text" "Tämä nollaa SteamVR-polun SteamVR-ajotiedoston sijainnin perusteella ja käynnistää SteamVR:n uudelleen. \n\nHaluatko varmasti jatkaa?"
-"Settings_RemoveAllRelevantUSBDevices_Text" "Tämä poistaa kaikki SteamVR:n USB-laitteet järjestelmästä. Laitteet täytyy irrottaa virtalähteestä ja yhdistää uudelleen, jotta järjestelmä asentaa ajurit.\n\nHaluatko varmasti jatkaa?"
-"Settings_RemoveAllRelevantUSBDevices_FailToStart" "USB-laitteiden poiston apuohjelma ei käynnistynyt.\nVarmistathan, että voit käynnistää sovelluksen ylläpitäjänä.\n"
-"Settings_RemoveAllRelevantUSBDevices_Crash" "USB-laitteiden poiston apuohjelma kaatui.\nYritä uudelleen.\n"
-"Settings_RemoveAllRelevantUSBDevices_Success" "Kaikki USB-laitteet on poistettu. Irrota kaikki VR:n USB-kaapelit ja käynnistä tietokoneesi uudelleen. Kytke tämän jälkeen laitteet uudelleen.\n"
-"Settings_RemoveAllRelevantUSBDevices_PartialSuccess" "Kaikkia USB-laitteita ei voitu poistaa. Yritä uudelleen.\n"
-"Settings_DisableEnhancedPowerManagement_FailToStart" "Apuohjelmaa ei voitu käynnistää.\nVarmista, että voit suorittaa tämän ohjelman järjestelmänvalvojana.\n"
-"Settings_DisableEnhancedPowerManagement_Crash" "Apuohjelma kaatui.\nYritä uudelleen.\n"
-"Settings_DisableEnhancedPowerManagement_Success" "Windowsin parannettu virranhallinta on poistettu käytöstä asennetuille SteamVR USB-laitteille.\n\n\nKytke USB-laitteet uudelleen, jotta muutokset tulevat voimaan.\n"
-"Settings_NotificationDoNotDisturb_Info" " "
-"Settings_NotificationDoNotDisturb_Text" "Älä häiritse – estä Steam-ilmoitukset VR:ssä"
-"Settings_NotificationKnockKnock_Text" "Näytä koputus"
-"Settings_NotificationKnockKnock_Info" "Koputtamalla toiset saavat VR-lasien käyttäjän huomion."
-
-"Settings_Developer_Text" "Kehittäjäasetukset"
-"Settings_Developer_Info" "Näytä lisäasetukset ja -valinnat kehittäjille"
-"Settings_StatusWindowAlwaysOnTop_Info" " "
-"Settings_StatusWindowAlwaysOnTop_Text" "Näyttö aina päällimmäisenä"
-"Settings_StatusWindowMinimizeToTray_Text" "Pienennä ilmaisinalueelle"
-"Settings_StatusWindowHidePopups_Text" "Hiljennä varoitukset ja ilmoitukset, kun tämä on pienennetty"
-"Settings_HomeAppCheck" "Käytä SteamVR Home -käyttöliittymää"
-"Settings_HomeAppDesc" "Nauti virtuaalisista ympäristöistä, sosiaalisista toiminnoista ja muusta."
-"Settings_NightModeCheck" "Yötila"
-"Settings_NightModeDesc" "Himmennä VR-lasit kello 5.00 saakka (tai kunnes SteamVR on käynnistetty uudelleen)."
-"Settings_LockedModeCheck" "Ota VR-lasit käyttöön, kun tietokone on lukittu"
-"Settings_Dashboard_Explanation" "Nämä sovellukset ovat käytettävissä heijastusnäyttöinä työpöydällä."
-"Settings_BaseStationsWakeUpAll" "Herätä kaikki tukiasemat"
-"Settings_BaseStationsWakeUpAll_Explanation" "Herättää kaikki virranhallinnassa olevat, seurattavat tukiasemat."
-"Settings_EnableScreenshots_Info" "Paina Järjestelmä-painiketta ja vedä liipaisinta ottaaksesi kuvakaappauksen."
-"Settings_EnableScreenshots_Text" "Ota kuvakaappaukset käyttöön (BETA)"
-"Settings_DefaultScreenshotType_Text" "Kuvakaappaustyyppi:"
-"Settings_DefaultScreenshotType_Info" "Valitse kuvakaappauksille oletustyyppi. Huomaa, etteivät monet VR-sovellukset ehkä tue pyydettyä tyyppiä ja muuntavat kuvan stereoskooppiseksi."
-"Settings_DefaultScreenshotType_Mono" "Normaali"
-"Settings_DefaultScreenshotType_Stereo" "Stereoskooppinen"
-"Settings_DefaultScreenshotType_Cubemap" "Cubemap"
-"Settings_DefaultScreenshotType_MonoPanorama" "Mono-panoraama"
-"Settings_DefaultScreenshotType_StereoPanorama" "Stereo-panoraama"
-
-"Settings_UseBluetoothLink_Text" "Ota Bluetooth käyttöön"
-"Settings_UseBluetoothLink_Info" "Bluetoothin kautta pääset tukiasemien langattomaan virranhallintaan, laitteistopäivityksiin ja VR-laitteistojen lisätoimintoihin."
-
-"Settings_Bluetooth_ServicesNotAvailable" "Bluetooth ei ole käytettävissä"
-"Settings_Bluetooth_Driver_Install" "Asenna Bluetooth-ajuri"
-"Settings_Bluetooth_Driver_Install_Description"	"Asenna linkkilaatikon Bluetooth-ajuri ottaaksesi langaton Bluetooth-yhteys käyttöön. Tämä vaatii järjestelmänvalvojan oikeudet."
-"Settings_Bluetooth_Driver_Update" "Päivitä Bluetooth-ajuri"
-"Settings_Bluetooth_Driver_Update_Description" "Päivitä linkkilaatikon Bluetooth-ajuri ottaaksesi langaton Bluetooth-yhteys käyttöön. Tämä vaatii järjestelmänvalvojan oikeudet."
-"Settings_Bluetooth_RetryConnection" "Yritä muodostaa yhteys uudelleen"
-
-"Settings_BaseStation_BluetoothBusy" "Odotetaan Bluetoothia..."
-"Settings_BaseStation_BluetoothRequired" "Laita Bluetooth päälle käyttääksesi langattomia toimintoja, kuten tukiaseman virranhallintaa ja päivityksiä."
-"Settings_BaseStation_OpenSettingsBluetooth" "Näytä Bluetooth-asetukset"
-"Settings_BaseStation_PowerManagement" "Virranhallinta"
-"Settings_BaseStation_PowerManagement_Explanation" "Herätä ja määritä tukiasemat lepotilaan SteamVR:n käyttösi perusteella."
-"Settings_BaseStation_ScanForBaseStations" "Etsi tukiasemia"
-"Settings_BaseStation_ScanForBaseStations_Explanation" "Löydä tuttuja tukiasemia, jotka lähettävät Bluetooth-tavoitettavuutensa."
-"Settings_BaseStation_ConfigureBaseStations" "Määritä tukiaseman kanavat"
-"Settings_BaseStation_ConfigureBaseStations_Explanation" "Löydä tukiasemia ja määritä niiden kanavat välttääksesi ongelmia."
-"Settings_BaseStation_BaseStation10" "Tukiasema 1.0"
-"Settings_BaseStation_BaseStation20" "Tukiasema 2.0"
-"Settings_BaseStation_ContinueBaseStationUpdate" "Palautus keskeytyneen päivityksen vuoksi"
-"Settings_BaseStation_ContinueBaseStationUpdate_Explanation" "Korjaa tukiaseman normaalia seurantaa häiritsevä keskeytetty tai peruutettu päivitys."
-
-"Settings_USB_Component_Hub" "Keskus"
-"Settings_USB_Component_HubController" "USB-hubin ohjain"
-"Settings_USB_Component_HubBluetooth" "Bluetooth"
-"Settings_USB_Component_WatchmanBoard" "Jäljitysvalikko"
-"Settings_USB_Component_Camera" "Kamera"
-"Settings_USB_Component_Audio" "Äänilaite"
-"Settings_USB_Component_HTCBoard" "Pääpiirilevy"
-"Settings_USB_Component_Dongle1" "Langaton vastaanotin 1"
-"Settings_USB_Component_Dongle2" "Langaton vastaanotin 2"
-
-"Settings_USB_ViveDevices" "<b>Laitteet:</b>"
-"Settings_USB_PressRefresh" "<b>Klikkaa Päivitä tarkistaaksesi laitteiden kytkennät...</b>"
-"Settings_USB_LookingForConnections" "<b>Tarkistetaan laitteiden kytkentöjä...</b>"
-"Settings_USB_NoDevicesFound" "<font color=red><b>Vive-laitteita ei ole kytketty.</b></font>"
-
-"Settings_USB_ViveLinkBoxHeader" "<b>Vive-linkkilaatikko</b>"
-"Settings_USB_ViveHeadsetHeader" "<b>VR-lasit</b>"
-
-"Settings_USB_EnhancedStatus" "Näytä tiedot"
-"Settings_USB_Refresh" "Päivitä"
-
-"Settings_Developer_General_Header" "Kehittäjä"
-"Settings_Advanced_Status_Header" "Tilan tarkistus"
-"Settings_Advanced_RoomAndTracking_Header" "Huone ja seuranta"
-"Settings_Advanced_Reset_Header" "Nollaus"
-"Settings_Advanced_Paths_Header" "Polut"
-"Settings_Advanced_DirectMode_Header" "Suora näyttötila"
-"Settings_Advanced_MotionSmoothing_Header" "Liikkeen pehmennys"
-"Settings_Advanced_MotionSmoothing_Description" "Syntetisoi uusia ruutuja, jotta katselu pysyy miellyttävänä, kun päällä oleva sovellus ei saavuta riittävää ruudunpäivitysnopeutta."
-"Settings_Advanced_MotionSmoothing" "Ota liikkeen pehmennys käyttöön"
-"Settings_Advanced_MotionSmoothing_Disabled" "Näytönohjain ei tue liikkeen pehmennystä, tai ajurit ovat vanhentuneita."
-"Settings_Advanced_MotionSmoothing_Disabled_Win7" "Windowsin vanhemmat versiot eivät tue liikkeen pehmennystä."
-
-"Settings_Advanced_RefreshRate_Header" "Virkistystaajuus"
-"Settings_Advanced_RefreshRate_HzSuffix" "Hz"
-"Settings_Advanced_RefreshRate_NotFound" "<b>HUOMAA:</b> VR-lasit tukevat muita virkistystaajuuksia, mutta näytönohjaimen ajuri ei havaitse niitä. Varmista, että VR-lasien laiteohjelmisto ja näytönohjaimen ajurit ovat ajan tasalla."
-"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>HUOMAA:</b> VR-lasit tukevat muita virkistystaajuuksia, mutta SteamVR ei voi hallinnoida virkistystaajuutta, kun VR-lasit ovat jatketussa tilassa. <a href='vrmonitor://directmode/enable'><span style='color:white;'>Ota suora tila käyttöön.</span></a>"
-"Settings_Advanced_Restart" "<i>Vireillä oleva muutos astuu voimaan, <a href='vrmonitor://restartsystem'><span style='color:white;'>kun käynnistät SteamVR:n uudelleen</span></a></i>"
-
-"Settings_Advanced_Supersampling_Header" "Sovelluksen kuvatarkkuus"
-"Settings_Advanced_AllowSupersampleFiltering" "Ota edistynyt supersampling-suodatus käyttöön" 
-"Settings_Advanced_Supersampling_Warning" "<b>VAROITUS:</b> Näytöntarkkuusasetus vaikuttaa kaikkiin sovelluksiin. Vaihtaaksesi yksittäisen ohjelman resoluutiota käytä vasemmalla olevaa Sovellukset-välilehteä."
-"Settings_Advanced_SupersamplingManualOverride" "Ota mukautettu resoluutio käyttöön"
-"Explanation_Supersampling_Header" "SteamVR asettaa automaattisesti sovellustesi resoluution näytönohjaimesi suorituskyvyn mukaan."
-"Explanation_Supersampling" "*Osa sovelluksista on käynnistettävä uudelleen, jotta asetukset astuvat voimaan."
-"Explanation_SupersamplingFiltering" "Supersampling-suodatusasetukset"
-
-"Settings_GpuInfo_Header" "Laitteisto"
-"Settings_GpuInfo_Headset" "VR-lasit"
-"Settings_GpuInfo_NoHeadset" "VR-laseja ei löydetty"
-"Settings_GpuInfo_GpuName" "Näytönohjaimen nimi"
-"Settings_GpuInfo_GpuDriver" "Näytönohjaimen ajuri"
-"Settings_GpuInfo_GpuSpeed" "Näytönohjaimen mitattu nopeus"
-"Settings_GpuInfo_Current" "Nykyisillä asetuksilla renderöidään molemmat silmät"
-"Settings_GpuInfo_Recommended" "Suositusasetukset näytönohjaimelle ja virtuaalitodellisuuslaseille ovat"
-
-"Settings_PerApplication_Header" "Käytä näitä asetuksia luodaksesi sovelluskohtaiset asetukset"
-"Settings_PerApplication_AppResTitle" "Mukautettu resoluutio"
-"Settings_PerApplication_AppResHeader" "Tämä asetus on kertoja, jota käytetään videosovellusten resoluutioasetusten kanssa. Sovellus täytyy ehkä käynnistää uudelleen, jotta asetus tulee voimaan. (Oletuksena on 100 %.)"
-"Settings_PerApplication_AppResFooter" "Tämänhetkisillä asetuksilla kumpikin silmä renderöidään tarkkuudella: <font color=#eeeeee>%1x%2</font>"
-"Settings_PerApplication_OverlayVisibleHeader" "Peitetasosovellukset näkyvät välilehtinä SteamVR-työpöydällä."
-"Settings_PerApplication_OverlayVisibleCheckbox" "Käynnistä peitetasosovellus, kun SteamVR käynnistyy."
-"Settings_PerApplication_DashboardSuffix" "(Peitetasosovellus)"
-"Settings_PerApplication_CustomSuffix" "(Mukautettu)"
-
-"Settings_PerApplication_MotionSmoothing_Header" "Liikkeen pehmennys"
-"Settings_PerApplication_MotionSmoothing_On" "Päällä"
-"Settings_PerApplication_MotionSmoothing_Off" "Poistettu käytöstä"
-"Settings_PerApplication_MotionSmoothing_Checkbox_Default" "Käytä yleisasetuksia (tällä hetkellä  %1)"
-"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOn" "Aina käytössä"
-"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOff" "Aina pois päältä"
-"Settings_PerApplication_MotionSmoothing_Checkbox_AlwaysOn" "Pakota aina päälle (Huomaa! Sovellusten kuvataajuus puolittuu)"
-
-"Settings_PerApplication_Reprojection_Header" "Uudelleenprojisointi"
-"Settings_PerApplication_Reprojection_Checkbox" "Käytä legacy-uudelleenprojektiotilaa"
-"Settings_PerApplication_Reprojection_Description" "Valinta poistaa peliltä asynkronisen uudelleenprojektion."
-
-"Settings_Audio_Device_HMD"  "VR-lasit"
-"Settings_Audio_Device_Other"  "Muut"
-"Settings_Audio_AudioPlay"  "Äänen ulostulolaite"
-"Settings_Audio_AudioRecord"  "Äänitulolaite"
-"Settings_Audio_HDMIGain"  "Ota käyttöön vahvistuksen vähennys VIVE HDMI -ulostulossa"
-"Settings_Audio_Default"  "Oletus"
-"Settings_Audio_AudioMirrorPlay"  "Peilaa ääni laitteeseen"
-"Settings_Audio_AudioMirrorUnsupported"  "Äänen peilausta ei tueta tällä tietokoneella"
-"Settings_Audio_AudioMirrorEnable"  "Ota äänen peilaus käyttöön"
-
+					  
+  %1)"
+ %6\n"
+ 2.0 tukiasemia."
+ Bluetooth-ajuri"
+ Bluetooth-asetukset"
+ RIVEJ
+ Sovellus- ja J
+ Steam"
+ Steam-ilmoitukset VR:ss
+ SteamVR Home -k
+ SteamVR VR-sovelluksen k
+ SteamVR Workshopiin..."
+ SteamVR ja yrit
+ SteamVR suljetaan."
+ SteamVR uudelleen ennen kuin p
+ SteamVR uudelleen"
+ SteamVR uudelleen."
+ SteamVR uudelleen?"
+ SteamVR-ty
+ SteamVR-versiossa ei voi l
+ SteamVR:n uudelleen. \n\nHaluatko varmasti jatkaa?"
+ USB:t
+ VARSINAISESSA TIEDOSTOSSA\n\n"
+ VR-laseissa"
+ VR-laseista k
+ VR-lasejasi, kun muodostat pariliitosta."
+ VR-lasien johdot on kytketty kunnolla. Jos toiminto ei viel
+ VR-lasien laiteohjelmisto ja n
+ VR-lasit kello 5.00 saakka (tai kunnes SteamVR on k
+ VR-lasit laittamalla ne p
+ VR-lasit n
+ VR-lasit uudelleen"
+ VR-lasit"
+ VR-n
+ VR-tilassa. Jos sinulla on asiaa, klikkaa painiketta alla tai paina %1-n
+ Windowsin parannettu virranhallinta asennetuille SteamVR USB-laitteille, jos havaitset ongelmia seurannassa tai langattomien ohjaimien pariliit
+ aihe."
+ aina p
+ ajastin"
+ ajonaikainen hakemisto"
+ asennetuille SteamVR USB-laitteille.\n\n\nKytke USB-laitteet uudelleen, jotta muutokset tulevat voimaan.\n"
+ asentaa ajurit.\n\nHaluatko varmasti jatkaa?"
+ asentaaksesi niiden ajurit uudelleen."
+ asetuksia luodaksesi sovelluskohtaiset asetukset"
+ asetuksilla kumpikin silm
+ asetuksilla render
+ asetus on kertoja, jota k
+ asetushakemisto"
+ asynkronisen uudelleenprojektion."
+ autat Valvea kehitt
+ bugiraportti luo SteamVR-j
+ dominoiva"
+ edelliset toistolistat"
+ ei auta, k
+ ei havaittu l
+ ei k
+ ei l
+ ei ole k
+ ei ole konflikteja."
+ ei ole tukipyynt
+ ei ole viel
+ ei tunnistettu, joten tarkista sen kytkenn
+ ei voida k
+ ei voitu aloittaa, koska toinen p
+ ei voitu k
+ ei voitu suorittaa loppuun.<br><br>Valitse tukiasema ja klikkaa Palauta laite jatkaaksesi.</font>"
+ ennen huoneen kartoitusta. Haluatko kartoittaa huoneen nyt?"
+ esikatselukuvan koko on alle 1 Mt."
+ heijastusn
+ hetkell
+ huoneen yleiskatsaus"
+ ilmaisinalueelle"
+ irrota VR-lasejasi, yhdist
+ irrota j
+ irrota ohjainta, yhdist
+ irrota tukiasemaa ohjelmiston p
+ irrota tukiasemaa, yhdist
+ irrota tukiaseman virtajohtoa tai yrit
+ irti CHANNEL-painikkeesta."
+ ja m
+ ja muuntavat kuvan stereoskooppiseksi."
+ ja valitse Seuraava jatkaaksesi."
+ ja yhdist
+ ja yrit
+ jatketaan. Irrota ja kytke tukiaseman virtajohto uudelleen ennen kuin jatkat."
+ jatketaan."
+ jatketaan.<br><br><font color=#aaaa00>Irrota ja kytke tukiaseman virtajohto uudelleen ennen kuin jatkat.</font>"
+ jumiin."
+ kaapelia."
+ kaapelia.\n\n3. Samalla kun painat tukiaseman k
+ kaikki tukiasemat"
+ kaikki virranhallinnassa olevat, seurattavat tukiasemat."
+ kaikki"
+ kalibroi ohjaimesi kosketuslevyn. Kosketuslevy tulee kalibroida, jos se aiheuttaa t
+ kanavat manuaalisesti."
+ keskeytetty tai peruutettu p
+ koputus"
+ kytke
+ laajentaa VR-lasien n
+ laite"
+ laite."
+ laitteen haluaisit p
+ laitteet, SteamVR:n pit
+ laitteistop
+ laitteita"
+ langattoman p
+ langattomasti.\n\nOta SteamVR Bluetooth -palvelu k
+ latojaa"
+ lattialla olevia VR-lasejasi tilasi keskipisteen
+ legacy-uudelleenprojektiotilaa"
+ liipaisinta ottaaksesi kuvakaappauksen."
+ linkki ei ole viel
+ linkkilaatikon Bluetooth-ajuri ottaaksesi langaton Bluetooth-yhteys k
+ loki"
+ lokihakemisto"
+ mainitut toimenpiteet voivat muuttaa j
+ manuaalisesti."
+ muita laitteita tai tee mit
+ mukaan j
+ mukaan kaatumisvedokset"
+ muodostaa yhteys uudelleen"
+ niiden kanavat uudelleen. Jatketaanko ja ratkaistaanko ongelmat?"
+ niiden kanavat v
+ nollaa SteamVR-polun SteamVR-ajotiedoston sijainnin perusteella ja k
+ nollaa SteamVR:n koko asennuksen ja k
+ odotettua kauemmin. Yrit
+ ohjaimesi on ladattu ja l
+ ohjaimesta k
+ ohjaimia sinun t
+ ohjain on kytketty kunnolla tietokoneeseen micro-USB-kaapelilla. Jos toiminto ei viel
+ ohjain tietokoneeseesi micro-USB-kaapelilla. Voit k
+ ohjain"
+ ohjainten lataamiseen k
+ ohjelmisto tietokoneeltasi ja k
+ oikea silm
+ oleva muutos astuu voimaan, <a href='vrmonitor://restartsystem'><span style='color:white;'>kun k
+ oleva paikkavaraus"
+ oleva paikkavaraus:"
+ oleva sovellus ei saavuta riitt
+ olevan tilan reunoja."
+ olevat VR-ohjelmat.\n\nHaluatko jatkaa?"
+ olevien tukiasemien k
+ on %1 mahdollista kanavakonfliktia. Sinun pit
+ on mallisovelluspohja"
+ on ongelmia kokoruututilan k
+ on pienennetty"
+ on tilassa, jossa sovelletaan seurantateknologiaa</font>"
+ peitetasosovellus, kun SteamVR k
+ perui sovelluksen k
+ pian uudelleen.\n\nVirhe: BR-%1\n"
+ pohjassa. K
+ pois p
+ poistaa kaikki SteamVR:n USB-laitteet j
+ polkuja.</b></html>"
+ radioet
+ rajoittamaan SteamVR:n prosesseja olennaisiin ominaisuuksiin yhteensopivuusongelmien esiintyess
+ raportin esikatselu"
+ raportti"
+ render
+ resurssienhallinnassa"
+ ruudukkoa, kun sovellus j
+ ruudunp
+ ruutua\n tai %2 useampaa ruutua"
+ saa siihen vastausta. Jos kaipaat henkil
+ saada huomiosi."
+ saatavilla. Valitse p
+ saattaa aiheuttaa konflikteja kanavien v
+ saattaa olla varattu. Yrit
+ samaa kanavaa toisen tukiaseman kanssa."
+ se uudelleen ennen SteamVR:n k
+ se uudelleen. Jos t
+ seurantaistunnossa."
+ seurantakamerat n
+ siihen mit
+ sitten SteamVR ja yrit
+ sovelluksen uudelleen."
+ sovelluksen yll
+ sovellukset ovat k
+ sovellusta ei voida k
+ sulkea k
+ suorituskykykaavio"
+ suositella. Haluatko varmasti poistaa suoran n
+ tai huomaat sen rekister
+ tallennettu."
+ tapahtui virhe. Yrit
+ tapahtui virhe."
+ tarkistaaksesi laitteiden kytkenn
+ taustakuvaa"
+ tiedot"
+ tietokoneella"
+ tietokoneen n
+ tietokoneesi uudelleen. Kytke t
+ tietokoneesi uudelleen."
+ tietokoneesta puuttuu ilmaisinalue."
+ tila nyt"
+ toimet voivat tehd
+ toinen ohjain"
+ toistolista"
+ toistolistavalikko"
+ tue pyydetty
+ tukiasema on kytketty kunnolla tietokoneeseen mikro-USB-kaapelilla. Jos toiminto ei viel
+ tukiasema pit
+ tukiasema"
+ tukiasemaa, joka tarvitsisi palautusta."
+ tukiasemaa."
+ tukiasemaan.<li>Irrota ja kytke linkkilaatikon virtajohto uudelleen.<li>Irrota ja kytke tukiaseman virtajohto uudelleen.<li>K
+ tukiasemaan.<li>Irrota ja kytke tukiaseman virtajohto uudelleen.<li>K
+ tukiaseman kanavat"
+ tukiaseman sis
+ tukiasemassa on jo asennettuna uudempi p
+ tukiasemasta k
+ tukiasemat lepotilaan SteamVR:n k
+ tukiasemat"
+ tukiasemia ja m
+ tukiasemia, mutta niit
+ tuttuja tukiasemia, jotka l
+ tyyppi
+ useita minuutteja..."
+ uudelleen automaattisesti juuri nyt. \nSulje SteamVR ja k
+ uudelleen ennen kuin p
+ uudelleen ja se pit
+ uudelleen muutettuasi n
+ uudelleen my
+ uudelleen nyt?"
+ uudelleen optisesti k
+ uudelleen"
+ uudelleen' jatkaaksesi."
+ uudelleen, jotta asetukset astuvat voimaan."
+ uudelleen, jotta asetus tulee voimaan. (Oletuksena on 100 %.)"
+ uudelleen, jotta j
+ uudelleen, kun SteamVR k
+ uudelleen, kun olet tarkistanut VR-lasiesi kytkenn
+ uudelleen."
+ uudelleen.</ul>"
+ uudelleen.\n"
+ uudelleen\" yritt
+ uudelleen\""
+ uudelleenk
+ uusi ohjain"
+ uusi taustakuva"
+ vaati, ett
+ vaatii j
+ vaihda tukiaseman kanavia."
+ varoitukset ja ilmoitukset, kun t
+ varten..."
+ vasemmalla olevaa Sovellukset-v
+ vasen silm
+ virheraportteja."
+ voi kest
+ voit k
+ voit suorittaa t
+ yhdist
+ yleisasetuksia (t
+"About_BuiltPrefix" "Koontiversio %1"
+"About_DateString" "d. MMM yyyy %1 hh.mm"
+"About_DateString_Argument" "klo"
+"About_Title" "Tietoja SteamVR:st
+"About_VersionPrefix" "Versio %1"
+"Advanced_Advanced" "Lis
+"Advanced_AllowSavingOfTimingInfo" "Salli ajoitustiedon tallennus"
+"Advanced_AppRequestedThrottling" "Sovellus vaati rajoittamista (prosessorin rajoittama)"
+"Advanced_Applications" "Sovellukset"
+"Advanced_ApplyPathsAndRestart" "Hyv
+"Advanced_AsyncActive" "Asynkroninen uudelleenprojektio p
+"Advanced_AsyncNotActive" "Asynkroninen uudelleenprojektio pois p
+"Advanced_Audio" "
+"Advanced_AutoSaveTimingInfoOnExit" "Tallenna ajoitustieto automaattisesti suljettaessa"
+"Advanced_Base" "Tukiasema"
+"Advanced_BaseStation" "Tukiasema"
+"Advanced_Bluetooth" "Bluetooth"
+"Advanced_BoundsDrawing" "Chaperonen rajat k
+"Advanced_BoundsNotDrawing" "Chaperonen rajat pois k
+"Advanced_Camera" "Kamera"
+"Advanced_Compositor" "VR-laseissa"
+"Advanced_ConfigPath" "Asetuspolku:"
+"Advanced_Controller" "Ohjain"
+"Advanced_DashboardDown" "Ty
+"Advanced_DashboardUp" "Ty
+"Advanced_Developer" "Kehitt
+"Advanced_Devices" "Laitteet"
+"Advanced_DirectModeDisabled" "Suora tila pois k
+"Advanced_DrawingApp" "Sovellus"
+"Advanced_DrawingCompShouldBeApp" "Latoja"
+"Advanced_DrawingCompositor" "Latoja"
+"Advanced_DrawingUnclear" "Tuntematon"
+"Advanced_DroppedFrame" "N
+"Advanced_Explanation_CollisionBounds" "Chaperonen rajat ilmestyv
+"Advanced_FloorBoundsAlwaysOn" "Lattiarajat aina k
+"Advanced_General" "Yleisasetukset"
+"Advanced_Generic_Tracker" "J
+"Advanced_HMD" "VR-lasit"
+"Advanced_Header_CollisionBounds" "Chaperonen rajat"
+"Advanced_LogPath" "Lokipolku:"
+"Advanced_MotionEstimationActive" "Liikkeen pehmennys k
+"Advanced_MotionEstimationDisabled" "Liikkeen pehmennys ei k
+"Advanced_MotionEstimationNotActive" "Liikkeen pehmennys ei k
+"Advanced_MotionSmoothedFrame" "Uudelleenprojektoitu liikkeen pehmennyksell
+"Advanced_NormalFrame" "Normaali ruutu"
+"Advanced_OneThirdFramerate" "1/3-kuvataajuus"
+"Advanced_Paths" "Polut"
+"Advanced_PerfGraphInHMD" "N
+"Advanced_Performance" "Video"
+"Advanced_ReprojectedFrame" "Uudelleenprojektoitu ilman liikkeen pehmennyst
+"Advanced_ReprojectionOff" "Uudelleenprojektio pois p
+"Advanced_ReprojectionOn" "Uudelleenprojektio p
+"Advanced_Reset" "Nollaa"
+"Advanced_RoomOverview" "Chaperone-virtuaalieste"
+"Advanced_RuntimePath" "SteamVR-polku:"
+"Advanced_SaveFrameDataNow" "Tallenna kehystieto"
+"Advanced_SetNewPath" "Aseta uusi polku..."
+"Advanced_Title" "Lis
+"Advanced_USB" "USB"
+"BS20_ConfigureChannel_Apply"								"K
+"BS20_ConfigureChannel_AutoConfigContinue"					"%1 mahdollista kanavakonfliktia voidaan ratkaista automaattisesti m
+"BS20_ConfigureChannel_AutoConfig_Incomplete"				"Automaattim
+"BS20_ConfigureChannel_AutoConfig_NoChannelConflictsFound"	"Kanavien v
+"BS20_ConfigureChannel_AutoConfig_NoFreeChannels"			"Ei vapaita kanavia, joilla voi ratkaista %1 mahdollista kanavakonfliktia. Kanavat t
+"BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"Vapaat kanavat riitt
+"BS20_ConfigureChannel_AutoConfig_SuccessfulCompletion"		"Automaattim
+"BS20_ConfigureChannel_AutoConfig_UnknownChannels"			"%1:n tukiaseman kanavia ei voitu m
+"BS20_ConfigureChannel_AutomaticConfiguration"				"Automaattim
+"BS20_ConfigureChannel_BaseStationName"						"M
+"BS20_ConfigureChannel_BluetoothRequired"					"Kanavien m
+"BS20_ConfigureChannel_CancelledConnection"					"%1 yhteys peruttu. Klikkaa kanavan linkki
+"BS20_ConfigureChannel_Channel"								"Kanava: %1"
+"BS20_ConfigureChannel_ChannelConfigurationFailure"			"%1 ei hyv
+"BS20_ConfigureChannel_ConflictLegend"						"Kanavakonflikti toisen tukiaseman kanssa."
+"BS20_ConfigureChannel_ConflictOnChannel"					"Mahdollinen konflikti kanavalla %1"
+"BS20_ConfigureChannel_ConflictWarning"						"Tukiasema %1 k
+"BS20_ConfigureChannel_Connecting"							"Yhdistet
+"BS20_ConfigureChannel_ConnectionFailure"					"Tukiaseman %1 yhdist
+"BS20_ConfigureChannel_Description"							"Valitse k
+"BS20_ConfigureChannel_ErrorLegend"							"Saat lis
+"BS20_ConfigureChannel_FailedToConnectRetry"				"Tukiaseman %1 yhdist
+"BS20_ConfigureChannel_FirmwareUpdateRequired"				"%1 vaatii laitteistop
+"BS20_ConfigureChannel_Identify"							"Klikkaa tunnistaaksesi tukiaseman."
+"BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"		"%1 vaatii laitteistop
+"BS20_ConfigureChannel_InUseByPrefix"						"Parhaillaan k
+"BS20_ConfigureChannel_Legend"								"N
+"BS20_ConfigureChannel_NoConflictOnChannel"					"Ei konflikteja kanavalla %1"
+"BS20_ConfigureChannel_ObservedInTracking"					"Havaittu aiemmassa seurantaistunnossa."
+"BS20_ConfigureChannel_ProgressCancelling"					"\nPeruutetaan...\n"
+"BS20_ConfigureChannel_ProgressConnecting"					"\nYhdistet
+"BS20_ConfigureChannel_ProgressScanComplete"				"Skannaus suoritettu.\n\nKlikkaa kanavan linkki
+"BS20_ConfigureChannel_ProgressScanNoStationsFound"			"Haku valmis.\n\nL
+"BS20_ConfigureChannel_ProgressScanning"					"Etsit
+"BS20_ConfigureChannel_ProgressWritingChannel"				"\nKirjoitetaan kanavaa...\n"
+"BS20_ConfigureChannel_RSSI"								"RSSI: %1"
+"BS20_ConfigureChannel_ScanForMore"							"Etsi lis
+"BS20_ConfigureChannel_Title"								"Tukiasema 2.0:n kanavien m
+"BS20_ConfigureChannel_VisibleNowInTracking"				"Tukiasemat n
+"BS20_UpdateRecovery_BluetoothRequired"						"P
+"BS20_UpdateRecovery_FoundStations"							"Haku valmis.<br><br><font color=#ffffff>Tukiasemien p
+"BS20_UpdateRecovery_Incomplete"							"Etsit
+"BS20_UpdateRecovery_NoStationsFound"						"Haku valmis.\n\nL
+"BS20_UpdateRecovery_Refresh"								"Hae uudelleen"
+"BS20_UpdateRecovery_Scanning"								"Etsit
+"BS20_UpdateRecovery_Title"									"Tukiasema 2.0, p
+"BS20_UpdateRecovery_UpdateDevice"							"Palauta laite"
+"BS_PowerManagement_BaseStations"							"Hallinnoidut tukiasemat"
+"BS_PowerManagement_ConnectionFailureLegend"				"Yhteyden muodostus ep
+"BS_PowerManagement_Enable"									"Ota virranhallinta k
+"BS_PowerManagement_Enable_Explanation"						"Kun SteamVR:
+"BS_PowerManagement_Enable_Warning"							"<font color=#ffffff>* EI SUOSITELLA, jos useita SteamVR-k
+"BS_PowerManagement_FailedToConnectRefresh"					"%1 ep
+"BS_PowerManagement_ForgetBase"								"Unohda t
+"BS_PowerManagement_FullStandby"							"Lepotila"
+"BS_PowerManagement_FullStandby_Explanation"				"Tukiasemat sammuttavat laserit ja moottorit."
+"BS_PowerManagement_Identify"								"Klikkaa tunnistaaksesi tukiaseman."
+"BS_PowerManagement_IdentifyRequiresFirmareUpdate"			"%1 vaatii laitteistop
+"BS_PowerManagement_ObservedInTracking"						"Havaittu aiemmassa seurantaistunnossa."
+"BS_PowerManagement_PartialStandby"							"Valmiustila" 
+"BS_PowerManagement_PartialStandby_Explanation"				"Tukiasemat sammuttavat ainoastaan laserit, jotta her
+"BS_PowerManagement_PartialStandby_HybridExplanation"		"Tukiasema 2.0 sammuttaa ainoastaan laserit, jotta her
+"BS_PowerManagement_RefreshLink"							"P
+"BS_PowerManagement_Title"									"Tukiaseman virranhallinta"
+"BS_PowerManagement_VisibleNowInTracking"					"Tukiasemat n
+"BS_PromotePowerManagement_Enable"							"Ota tukiaseman virranhallinta k
+"BS_PromotePowerManagement_ExitNow"							"Poistu nyt (%1)"
+"BS_PromotePowerManagement_Explanation"						"SteamVR voi hallita tukiasemiesi virtaa.<br><br>Virranhallinnan avulla tukiasema menee lepotilaan, kun SteamVR ei ole k
+"BS_PromotePowerManagement_Explanation2"					"<br><font color=#ffffff>* EI SUOSITELLA, jos useita SteamVR-k
+"BS_PromotePowerManagement_Title"							"SteamVR"
 "BaseStation_Channel_Text" "Kanava %1"
 "BaseStation_Mode_Text" "Tila %1"
-
-"SystemReport_Issues" "Ongelmat"
-"SystemReport_Main" "Yleinen"
-"SystemReport_Devices" "Laitteet"
-"SystemReport_USB" "USB"
-"SystemReport_Logs" "Lokitiedostot"
-"SystemReport_Configuration" "Määritykset"
-"SystemReport_System" "Järjestelmä"
-"SystemReport_Chaperone" "Chaperone"
-"SystemReport_LighthouseDB" "LighthouseDB"
-"SystemReport_Raw" "Raaka"
-
-"SystemReport_Title" "Järjestelmäraportti"
-"SystemReport_Refresh" "Päivitä"
-"SystemReport_CopyToClipboard" "Kopioi leikepöydälle"
-"SystemReport_SaveToFile" "Tallenna tiedostoon"
-"SystemReport_SaveSystemReport" "Tallenna järjestelmäraportti"
-"SystemReport_UnableToOpenFile" "Tiedostoa ei voitu avata"
-"SystemReport_Data" "Data"
-"SystemReport_RawText" "Raakateksti"
-"SystemReport_Entry_SteamVR" "SteamVR"
-"SystemReport_Progress_ParseReport" "Jäsennä raportti"
-
-"SystemReport_PrepareReport" "Valmistellaan raporttia"
-"SystemReport_DiscoverIssues" "Etsitään ongelmia"
-"SystemReport_DiscoverDisplays" "Etsitään näyttöjä"
-"SystemReport_DiscoverDevices" "Etsitään laitteita"
-"SystemReport_DiscoverUSB" "Etsitään USB-laitteita"
-"SystemReport_PrepareLogs" "Valmistellaan lokitiedostoja"
-"SystemReport_DiscoverConfiguration" "Etsitään määrityksiä"
-"SystemReport_DiscoverChaperone" "Etsitään Chaperonea"
-"SystemReport_DiscoverLighthouseDB" "Etsitään LighthouseDB:tä"
-
-
-"Main_Systray_Error_Title" "Ilmaisinalue"
-"Main_Systray_Error_Message" "Tästä tietokoneesta puuttuu ilmaisinalue."
+"BluetoothControllerStatus_BluetoothDriverInstalling"		"Asennetaan Bluetooth-ajuria..."
+"BluetoothControllerStatus_BluetoothDriverNeedsUpdate"		"Linkkilaatikon Bluetooth-ajuri t
+"BluetoothControllerStatus_BluetoothDriverNotInstalled"		"Linkkilaatikon Bluetooth-ajuria ei ole asennettu."
+"BluetoothControllerStatus_Connected"						"Bluetooth yhdistetty"
+"BluetoothControllerStatus_Connecting"						"Yhdistet
+"BluetoothControllerStatus_Disconnecting"					"Katkaistaan yhteytt
+"BluetoothControllerStatus_FailedConnection"				"Bluetooth-yhteys ep
+"BluetoothControllerStatus_LinkBoxNotDetected"				"Linkkilaatikon Bluetooth-yhteytt
+"BluetoothControllerStatus_NoBluetoothDevice"				"Bluetooth-ominaisuutta ei l
+"BluetoothControllerStatus_NoBluetoothDeviceUpdateNeeded"	"Bluetooth-ominaisuutta ei l
+"BluetoothControllerStatus_ServiceError"					"Bluetooth-virhe: BT-%1"
+"BluetoothControllerStatus_ServiceNotFound"					"Bluetooth-ominaisuutta ei l
+"BluetoothControllerStatus_Unknown"							"Tuntematon"
+"BluetoothLinkStatus_Running" "K
+"BluetoothLinkStatus_SemaphoreFileNotAccessible" "Bluetooth-virhe"
+"BluetoothLinkStatus_StoppedOrPaused" "Pys
+"BluetoothLinkStatus_Transient" "Vaihdetaan"
+"BluetoothLinkStatus_Unknown" "Tuntematon"
+"BluetoothLinkStatus_ViveLinkNotAccessible" "Bluetooth-virhe"
+"BluetoothLinkStatus_WrongToken" "Bluetooth-virhe"
+"BugReporter_CharactersRemaining" "%1 merkki
+"BugReporter_Description" "Kuvaus:"
+"BugReporter_DescriptionRequired" "Kirjoita kuvaus."
+"BugReporter_Explanation" "Kiitos, ett
+"BugReporter_FailedToCreateZip" "Zip-liitteen luominen ep
+"BugReporter_ForPersonalSupport" "T
+"BugReporter_IncludeCrashDumps" "Liit
+"BugReporter_IncludeReportAndLogs" "Liit
+"BugReporter_InitializationFailure" "Virheraportin alustus ep
+"BugReporter_NotAvailable" "T
+"BugReporter_Owner"	"Omistaja:"
+"BugReporter_PreviewReport" "Esikatsele raportti"
+"BugReporter_PreviewReportTitle" "Virheraportti 
+"BugReporter_Priority" "T
+"BugReporter_ProgressSubmitting" "L
+"BugReporter_ProgressSubmittingPercent" "L
+"BugReporter_ReportType"	"Raportin tyyppi:"
+"BugReporter_ReportType_Bug" "Bugi"
+"BugReporter_ReportType_FeatureRequest" "Ominaisuuspyynt
+"BugReporter_ReportType_Feedback" "Palaute"
+"BugReporter_SteamLoginRequired" "Sinun tulee olla kirjautuneena Steam-tilillesi, jotta voit raportoida bugin."
+"BugReporter_SteamVRSupport" "SteamVR-tuki"
+"BugReporter_Subject" "Aihe:"
+"BugReporter_SubjectRequired" "Sy
+"BugReporter_SubmissionFailure"	"L
+"BugReporter_SubmissionSuccess"	"L
+"BugReporter_SubmissionTimeout" "L
+"BugReporter_Title"	"Raportoi bugi"
+"Button_ResetCollisionBounds" "Nollaa oletukseksi"
+"CalibrateControllerTrackpad_End_UpperText" "Ohjaimesi kosketuslevy on nyt kalibroitu."
+"CalibrateControllerTrackpad_Progress_UpperText" "Kalibroidaan kosketuslevy
+"CalibrateControllerTrackpad_Start_LowerText" "Varmista, ettet kosketa kosketuslevy
+"CalibrateControllerTrackpad_Start_UpperText" "T
+"CalibrateControllerTrackpad_Success" "Onnistui!"
+"CalibrateControllerTrackpad_Title" "Kalibroi ohjaimen kosketuslevy"
+"CollisionBounds_Advanced" "Edistynyt"
+"CollisionBounds_Beginner" "Aloittelija"
+"CollisionBounds_Developer" "Kehitt
+"CollisionBounds_Intermediate" "Keskitaso"
+"CollisionBounds_Squares" "Ruudut"
+"CompositorBackground_Color"		"V
+"CompositorBackground_Header"		"Taustan tyyli"
+"CompositorBackground_Image"		"Kuva"
+"CompositorError_FailedToStartButNoError" "Latojan k
+"CompositorError_NoCompositorRequested" "SteamVR-virhe"
+"CompositorError_Running" "K
+"Compositor_ResetToDefault" 		"Nollaa oletukseksi"
+"Compositor_SelectColorHeader"		"Valitse VR-lasien taustav
+"Compositor_SelectImage"			"Valitse kuva..."
+"Compositor_SelectImageHeader"		"Valitse VR-lasien taustakuva."
+"DismissableWarning_BasestationSingleBaseModeHint" "Tukiasemavinkki (0x0008)"
+"DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Tukiasemavirhe (0x400000)"
+"DismissableWarning_BasestationsTooFarApart" "Tukiasemat liian kaukana toisistaan (0x0002)"
+"DismissableWarning_BluetoothDriverNeedsInstallation" "Vaaditaan Bluetooth-ajuri (0x0080)"
+"DismissableWarning_BluetoothDriverNeedsUpdate" "Vaaditaan Bluetooth-ajurin p
+"DismissableWarning_BluetoothLinkCommunicationFailed" "Bluetooth-yhteys ep
+"DismissableWarning_BluetoothLinkServiceError" "Bluetooth ei saatavilla (0x0400)"
+"DismissableWarning_BluetoothLinkServiceNotFound" "Bluetooth ei saatavilla (0x0200)"
+"DismissableWarning_Detected" "Tunnistettu"
+"DismissableWarning_DismissButton" "Hylk
+"DismissableWarning_DisplayInExtendedMode" "N
+"DismissableWarning_MissedFrames" "Ohitetut ruudut (0x0020)"
+"DismissableWarning_None" " "
+"DismissableWarning_OpticalBasestationSyncWarning" "Tukiasemavaroitus (0x0004)"
+"DismissableWarning_PowerSchemeIsNotHighPerformance" "Suorituskykyvirhe (0x0040)"
+"DismissableWarning_RunTutorialAgain" "Aloita tutoriaali uudelleen (0x0001)"
+"DismissableWarning_SomeDisplaysAreMirroring" "Jotkut n
+"DismissableWarning_SteamVRInSafeMode" "SteamVR vikasietotilassa (0x1000000)"
+"DismissableWarning_TimeFormat" "h.mm"
+"DismissableWarning_UnknownHardwareDetected" "Uusi laite havaittu (0x2000)"
+"DismissableWarning_WarningsForTheFirstTime" "Ensimm
+"DismissableWarning_Windows8" "Windows 8 (0x8000)"
+"DismissableWarning_WindowsAeroDisabled" "N
+"Explanation_DisableEnhancedPowerManagement" "Poista k
+"Explanation_QuickCalibrate" "Kartoita huoneesi nopeasti uudelleen. Uudet rajat seisovan asennon ja koko huoneen VR:lle keskitet
+"Explanation_RebootVive" "VR-lasien uudelleenk
+"Explanation_RemoveAllSteamVRUSBDevices" "Poista kaikki SteamVR:n USB-laitteet t
+"Explanation_ResetDismissableWarnings" "V
+"Explanation_ResetRuntimeAndQuit" "Palauta SteamVR-polku SteamVR:n k
+"Explanation_RestartSteamVR" "SteamVR uudelleenk
+"Explanation_Supersampling" "*Osa sovelluksista on k
+"Explanation_SupersamplingFiltering" "Supersampling-suodatusasetukset"
+"Explanation_Supersampling_Header" "SteamVR asettaa automaattisesti sovellustesi resoluution n
+"FirmwareWizard_AudioBridgeUpdate" "Laitteistop
+"FirmwareWizard_AudioUpdate" "
+"FirmwareWizard_BaseStationBluetoothBootloaderUpdate" "Laitteistop
+"FirmwareWizard_BaseStationBluetoothMCUUpdate" "Laitteistop
+"FirmwareWizard_BaseStationBluetoothRadioUpdate" "Laitteistop
+"FirmwareWizard_CameraRecovery" "Kameran p
+"FirmwareWizard_CameraUpdate" "Kameran p
+"FirmwareWizard_DeviceOverview_FailedToUpdate" "P
+"FirmwareWizard_DeviceOverview_LookingForDevice" "Etsit
+"FirmwareWizard_DeviceOverview_Nagging_Title" "Vaatii laitteistop
+"FirmwareWizard_DeviceOverview_NoUpdateDataAvailable" "Ei p
+"FirmwareWizard_DeviceOverview_TextContent" "Mink
+"FirmwareWizard_DeviceOverview_TextContent_Nag" "Vaadittuja laitteistop
+"FirmwareWizard_DeviceOverview_Title" "P
+"FirmwareWizard_DeviceOverview_UpToDate" "Ajan tasalla"
+"FirmwareWizard_DeviceOverview_UpdateAvailable" "P
+"FirmwareWizard_DeviceOverview_WirelessServicesRequired" "P
+"FirmwareWizard_DisplayFPGAUpdate" "N
+"FirmwareWizard_DisplayUpdate" "N
+"FirmwareWizard_DongleUpdate" "Langattoman vastaanottimen p
+"FirmwareWizard_EnterBootloaderMode" "Valmistellaan p
+"FirmwareWizard_ExitBootloaderMode" "Viimeistell
+"FirmwareWizard_ImageBridgeUpdate" "Laitteistop
+"FirmwareWizard_Information_Title" "Laitteistop
+"FirmwareWizard_Nag_Title" "Suositeltu laitteistop
+"FirmwareWizard_ProgressPercent" "[ %1% ]"
+"FirmwareWizard_ProgressPercentFinishing" "[ Viimeistelee... ]"
+"FirmwareWizard_ProgressPercentStarting" "[ K
+"FirmwareWizard_ProgressTextLeft" "("
+"FirmwareWizard_ProgressTextMiddle" "/"
+"FirmwareWizard_ProgressTextRight" ")"
+"FirmwareWizard_RadioUpdate" "Radiol
+"FirmwareWizard_ShutdownForMandatoryUpdate_TextContent" "Jotta voit jatkaa SteamVR:n k
+"FirmwareWizard_ShutdownForRecovery_TextContent" "Jotta laitteistosi toimisi kunnolla, sen osa on p
+"FirmwareWizard_Shutdown_TextContent" "Jotta voit p
+"FirmwareWizard_Shutdown_Title" "P
+"FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle" "T
+"FirmwareWizard_UpdateBasestationWireless_Fail_BaseStuckInDFU" "Odottamaton USB-yhteys tukiasemassa est
+"FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Klikkaa alta \"Peruuta\", niin SteamVR k
+"FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Jatka klikkaamalla alta \"Yrit
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "Jos laitteistop
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20" "Jos laitteistop
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox" "Jos laitteistop
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20" "Jos laitteistop
+"FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "T
+"FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "T
+"FirmwareWizard_UpdateBasestationWireless_Fail_Title" "Tukiaseman p
+"FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "Odottamaton USB-yhteys tukiasemassa est
+"FirmwareWizard_UpdateBasestationWireless_Fail_UpperText" "Laitteen p
+"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "P
+"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS10" "Tukiasema p
+"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS20" "Tukiaseman p
+"FirmwareWizard_UpdateBasestationWireless_Success_Title" "P
+"FirmwareWizard_UpdateBasestationWireless_Success_UpperText" "Onnistui!"
+"FirmwareWizard_UpdateBasestation_Bluetooth" "Langattomasti"
+"FirmwareWizard_UpdateBasestation_Choice_MiddleText" "P
+"FirmwareWizard_UpdateBasestation_Choice_Title" "P
+"FirmwareWizard_UpdateBasestation_Continue" "Jatka"
+"FirmwareWizard_UpdateBasestation_Fail_LowerText" "Valitse 'Yrit
+"FirmwareWizard_UpdateBasestation_Fail_MiddleText" "Varmista, ett
+"FirmwareWizard_UpdateBasestation_Fail_Title" "Tukiaseman p
+"FirmwareWizard_UpdateBasestation_Fail_UpperText" "Laitteen p
+"FirmwareWizard_UpdateBasestation_Manual" "USB"
+"FirmwareWizard_UpdateBasestation_Progress_LowerText" "VAROITUS: 
+"FirmwareWizard_UpdateBasestation_Progress_MiddleText" "P
+"FirmwareWizard_UpdateBasestation_Progress_Title" "P
+"FirmwareWizard_UpdateBasestation_Progress_UpperText" "
+"FirmwareWizard_UpdateBasestation_Start_LowerText" "4. P
+"FirmwareWizard_UpdateBasestation_Start_MiddleText" "1. Irrota tukiasemasi virtajohto ja tukiasema jalustaltaan.\n\n2. Kytke tukiasema tietokoneeseesi USB-porttiin mikro-USB-kaapelilla. Voit k
+"FirmwareWizard_UpdateBasestation_Start_Title" "P
+"FirmwareWizard_UpdateBasestation_Start_UpperText" "
+"FirmwareWizard_UpdateBasestation_Success_LowerText" "Kun asennat tukiasemat takaisin paikoilleen, 
+"FirmwareWizard_UpdateBasestation_Success_MiddleText" "Tukiasema p
+"FirmwareWizard_UpdateBasestation_Success_Title" "P
+"FirmwareWizard_UpdateBasestation_Success_UpperText" "Onnistui!"
+"FirmwareWizard_UpdateBasestation_WirelessProgress_LowerText" "VAROITUS: 
+"FirmwareWizard_UpdateBasestation_WirelessProgress_MiddleText" "P
+"FirmwareWizard_UpdateBasestation_WirelessProgress_Title" "P
+"FirmwareWizard_UpdateBasestation_Wireless_LowerText" "
+"FirmwareWizard_UpdateBasestation_Wireless_MiddleText" "P
+"FirmwareWizard_UpdateBasestation_Wireless_Title" "P
+"FirmwareWizard_UpdateBasestation_Wireless_UpperText" "
+"FirmwareWizard_UpdateController_Fail_LowerText" "Valitse 'Yrit
+"FirmwareWizard_UpdateController_Fail_MiddleText" "Varmista, ett
+"FirmwareWizard_UpdateController_Fail_Title" "Laitteen p
+"FirmwareWizard_UpdateController_Fail_UpperText" "Ohjaimen p
+"FirmwareWizard_UpdateController_Progress_LowerText" "VAROITUS: 
+"FirmwareWizard_UpdateController_Progress_MiddleText" "P
+"FirmwareWizard_UpdateController_Progress_Title" "P
+"FirmwareWizard_UpdateController_Progress_UpperText" "
+"FirmwareWizard_UpdateController_Start_LowerText" "P
+"FirmwareWizard_UpdateController_Start_MiddleText" "Kytke t
+"FirmwareWizard_UpdateController_Start_Title" "P
+"FirmwareWizard_UpdateController_Start_UpperText" "
+"FirmwareWizard_UpdateController_Success_LowerText" "&nbsp"
+"FirmwareWizard_UpdateController_Success_MiddleText" "Ohjain p
+"FirmwareWizard_UpdateController_Success_Title" "P
+"FirmwareWizard_UpdateController_Success_UpperText" "Onnistui!"
+"FirmwareWizard_UpdateGenericTracker_Fail_LowerText" "Valitse alta \"Yrit
+"FirmwareWizard_UpdateGenericTracker_Fail_MiddleText" "Varmista, ett
+"FirmwareWizard_UpdateGenericTracker_Fail_Title" "Laitteen p
+"FirmwareWizard_UpdateGenericTracker_Fail_UpperText" "J
+"FirmwareWizard_UpdateGenericTracker_Progress_LowerText" "VAROITUS: 
+"FirmwareWizard_UpdateGenericTracker_Progress_MiddleText" "P
+"FirmwareWizard_UpdateGenericTracker_Progress_Title" "P
+"FirmwareWizard_UpdateGenericTracker_Start_LowerText" "P
+"FirmwareWizard_UpdateGenericTracker_Start_MiddleText" "Kytke t
+"FirmwareWizard_UpdateGenericTracker_Start_Title" "P
+"FirmwareWizard_UpdateGenericTracker_Success_LowerText" " "
+"FirmwareWizard_UpdateGenericTracker_Success_MiddleText" "J
+"FirmwareWizard_UpdateGenericTracker_Success_Title" "P
+"FirmwareWizard_UpdateGenericTracker_Success_UpperText" "Onnistui!"
+"FirmwareWizard_UpdateHeadset_Fail_LowerText" "&nbsp"
+"FirmwareWizard_UpdateHeadset_Fail_MiddleText" "Varmista, ett
+"FirmwareWizard_UpdateHeadset_Fail_Title" "Laitteen p
+"FirmwareWizard_UpdateHeadset_Fail_UpperText" "Laitteen p
+"FirmwareWizard_UpdateHeadset_Progress_LowerText" "VAROITUS: 
+"FirmwareWizard_UpdateHeadset_Progress_MiddleText" "P
+"FirmwareWizard_UpdateHeadset_Progress_Title" "P
+"FirmwareWizard_UpdateHeadset_Progress_UpperText" "
+"FirmwareWizard_UpdateHeadset_Start_LowerText" "\nP
+"FirmwareWizard_UpdateHeadset_Start_MiddleText" "Kytke VR-lasit tietokoneeseesi."
+"FirmwareWizard_UpdateHeadset_Start_Title" "P
+"FirmwareWizard_UpdateHeadset_Start_UpperText" "
+"FirmwareWizard_UpdateHeadset_Success_LowerText"  "&nbsp"
+"FirmwareWizard_UpdateHeadset_Success_MiddleText" "VR-lasit p
+"FirmwareWizard_UpdateHeadset_Success_Title" "P
+"FirmwareWizard_UpdateHeadset_Success_UpperText" "Onnistui!"
+"FirmwareWizard_UpdateMoreFirmware" "P
+"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate" "Oheislaitteen p
+"FirmwareWizard_VRCUpdate" "Laitteistop
+"FirmwareWizard_WaitingForShutdown_TextContent" "Valmistellaan j
+"FirmwareWizard_WatchmanDiskUpdate" "Laitteistop
+"FirmwareWizard_WatchmanFPGAUpdate" "J
+"FirmwareWizard_WatchmanRecovery" "J
+"FirmwareWizard_WatchmanUpdate" "J
+"FirmwareWizard_WirelessServicesRequired" "Bluetooth-palvelun tulee olla k
+"FirmwareWizard_WirelessServicesRequired_Title" "P
+"FirmwareWizard_WizardIsAlreadyBusy_Message" "P
+"FrameTiming_5sStats" "Puuttuvat ruudut edellisen %1s aikana:\n %2 1 ruutu\n %3 2 ruutua\n %4 3 ruutua \n %5 4 tai useampi\n Yhteens
+"FrameTiming_Compositor" "Latoja"
+"FrameTiming_Config" "Varoita, jos %3s aikana puuttuu \n %1 yksitt
+"FrameTiming_FirstView" " --- Ensin n
+"FrameTiming_Idle" "Toimeton"
+"FrameTiming_LateStart" "K
+"FrameTiming_MisPresented" " --- Uudelleenprojisoitu"
+"FrameTiming_Other" "Muu"
+"FrameTiming_Pause" "Keskeyt
+"FrameTiming_PostSubmit" "Sovellus (muu)"
+"FrameTiming_PreSubmit" "Sovellus (kohtaus)"
+"FrameTiming_Predicted" " --- Ennusta (extra)"
+"FrameTiming_Presented" " --- Nykyinen (lukum
+"FrameTiming_Raw" "Lis
+"FrameTiming_ReadyForUse" " --- Valmiina k
+"FrameTiming_Remote" "Et
+"FrameTiming_ShowInHeadset" "N
+"FrameTiming_Throttled" " --- Rajoita (ruudut)"
+"FrameTiming_Title" "Ruutuajastus"
+"FrameTiming_Vsync" "Pystysynkronointi"
+"HeadsetView_DebugCommands" "Avaa virheenkorjauskomennot"
+"HeadsetView_DockButtonLabel" "Kiinnit
+"HeadsetView_EyeMode_Both" "Molemmat silm
+"HeadsetView_EyeMode_BothLeftDominant" "Molemmat silm
+"HeadsetView_EyeMode_BothRightDominant" "Molemmat silm
+"HeadsetView_EyeMode_Left" "Vasen silm
+"HeadsetView_EyeMode_Right" "Oikea silm
+"HeadsetView_FullscreenButtonLabel" "Kokoruutu"
+"HeadsetView_HideButtonLabel" "Piilota VR-n
+"HeadsetView_MenuLabel" "Valikko"
+"HeadsetView_PressKeyToExit" "Paina %1 poistuaksesi koko ruudun tilasta"
+"HeadsetView_Title" "VR-n
+"HeadsetView_UndockButtonLabel" "Irrota VR-n
+"Info_UnknownURL_Message" "T
+"Info_UnknownURL_Title" "SteamVR"
+"Key_Escape_Abbreviation" "ESC"
+"KnockKnock_Button" "Kop kop"
+"KnockKnock_Notification_Text" "Kop kop.\nJoku VR:n ulkopuolelta yritt
+"KnockKnock_Text" "Olen t
+"KnockKnock_Title" "Onko sinulla asiaa?"
+"Language" "finnish"
+"Log_Button_Clear" "Tyhjenn
+"Log_Button_LoadCompleteFile" "Lataa valmis tiedosto"
+"Log_Button_ShowInExplorer" "N
+"Log_Text_MoreLineInTheActualFile" "LIS
+"Log_Window_Title" "Loki - %1"
+"Main_CanSetInstallationPath_Message" "Asennuspolkua ei l
 "Main_Information_Title" "SteamVR"
-"Main_CanSetInstallationPath_Message" "Asennuspolkua ei löytynyt.\n\nSteamVR voi asettaa asennuspolun sen tämänhetkisen suorituspolun perusteella."
-"Main_JumplistEntry_RunFirstApplication" "Ensimmäinen sovellus"
+"Main_JumplistEntry_Advanced" "Lis
+"Main_JumplistEntry_Quit" "Sulje"
+"Main_JumplistEntry_RunFirstApplication" "Ensimm
 "Main_JumplistEntry_RunRoomSetup" "Huoneen kartoitus"
 "Main_JumplistEntry_RunTutorial" "Tutoriaali"
 "Main_JumplistEntry_Settings" "Asetukset"
-"Main_JumplistEntry_Advanced" "Lisäasetukset"
-"Main_JumplistEntry_SystemReport" "Järjestelmäraportti"
-"Main_JumplistEntry_Quit" "Sulje"
-"Main_RuntimeFailed_Message" "Suorituspalvelu ei käynnistynyt.\n\n%1\n\nVoit nollata tämänhetkisen suorituspalvelun\n%2\nSteamVR:n suorituspolun perusteella\n%3\n"
-
-"VRManifest_Imported_Title" "OpenVR Manifest-tiedosto tuotu"
-"VRManifest_Imported_Message" "OpenVR Manifest-tiedosto tuotu: \n %1"
-
-"MenuAction_Compositor_ShowMirror" "Näytä VR-näkymä"
-"MenuAction_Compositor_HideMirror" "Piilota VR-näkymä"
-"MenuAction_IdentifyController" "Tunnista ohjain"
-"MenuAction_IdentifyTracker" "Tunnista jäljitin"
-"MenuAction_QuickCalibrate" "Pikakalibrointi"
-"Explanation_QuickCalibrate" "Kartoita huoneesi nopeasti uudelleen. Uudet rajat seisovan asennon ja koko huoneen VR:lle keskitetään käyttämällä lattialla olevia VR-lasejasi tilasi keskipisteenä."
-"MenuAction_ResetRuntimeAndQuit" "Palauta SteamVR-polku"
-"Explanation_ResetRuntimeAndQuit" "Palauta SteamVR-polku SteamVR:n käynnistyshakemiston perusteella."
-"MenuAction_RemoveAllSteamVRUSBDevices" "Poista kaikki SteamVR:n USB-laitteet"
-"Explanation_RemoveAllSteamVRUSBDevices" "Poista kaikki SteamVR:n USB-laitteet tästä järjestelmästä asentaaksesi niiden ajurit uudelleen."
-"MenuAction_DisableEnhancedPowerManagement" "Poista virranhallinta käytöstä"
-"Explanation_DisableEnhancedPowerManagement" "Poista käytöstä Windowsin parannettu virranhallinta asennetuille SteamVR USB-laitteille, jos havaitset ongelmia seurannassa tai langattomien ohjaimien pariliitännässä."
-"MenuAction_ResetAllSettingsAndQuit" "Nollaa kaikki asetukset ja käynnistä uudelleen"
-"MenuAction_RebootVive" "Käynnistä VR-lasit uudelleen"
-"Explanation_RebootVive" "VR-lasien uudelleenkäynnistys saattaa korjata USB-ongelmat."
-"MenuAction_RestartSteamVR" "Käynnistä SteamVR uudelleen"
-"Explanation_RestartSteamVR" "SteamVR uudelleenkäynnistäminen saattaa korjata VR-lasien USB-ongelmat."
-"MenuAction_ResetDismissableWarnings" "Nollaa varoitukset"
-"Explanation_ResetDismissableWarnings" "Väliaikaiset varoitukset on nollattu, ja ne näytetään tarvittaessa uudelleen."
-
-"QuickCalibrate_SmallSpace" "Pieni tila"
-"QuickCalibrate_MediumSpace" "Keskikokoinen tila"
-"QuickCalibrate_LargeSpace" "Suuri tila"
-"QuickCalibrate_GiganticSpace" "Valtava tila"
-"QuickCalibrate_CabalSpace" "Huonetila"
-"QuickCalibrate_StandingSpace" "Seisomatila"
-"QuickCalibrate_DK2Default" "DK2-oletus"
-
-"Advanced_Title" "Lisäasetukset"
-"Advanced_Advanced" "Lisäasetukset"
-"Advanced_Developer" "Kehittäjä"
-"Advanced_General" "Yleisasetukset"
-"Advanced_Applications" "Sovellukset"
-"Advanced_Audio" "Ääni"
-"Advanced_Devices" "Laitteet"
-"Advanced_RoomOverview" "Chaperone-virtuaalieste"
-"Advanced_Compositor" "VR-laseissa"
-"Advanced_Paths" "Polut"
-"Advanced_Reset" "Nollaa"
-"Advanced_Performance" "Video"
-"Advanced_Camera" "Kamera"
-"Advanced_Bluetooth" "Bluetooth"
-"Advanced_BaseStation" "Tukiasema"
-"Advanced_USB" "USB"
-
-"Advanced_HMD" "VR-lasit"
-"Advanced_Controller" "Ohjain"
-"Advanced_Generic_Tracker" "Jäljitin"
-"Advanced_Base" "Tukiasema"
-
-"Advanced_RuntimePath" "SteamVR-polku:"
-"Advanced_ConfigPath" "Asetuspolku:"
-"Advanced_LogPath" "Lokipolku:"
-"Advanced_ApplyPathsAndRestart" "Hyväksy polut ja käynnistä uudelleen"
-"Advanced_SetNewPath" "Aseta uusi polku..."
-
-"Advanced_PerfGraphInHMD" "Näytä näytönohjaimen (GPU) suorituskyky VR-laseissa"
-
-"Advanced_AllowSavingOfTimingInfo" "Salli ajoitustiedon tallennus"
-"Advanced_AutoSaveTimingInfoOnExit" "Tallenna ajoitustieto automaattisesti suljettaessa"
-"Advanced_SaveFrameDataNow" "Tallenna kehystieto"
-
-"Advanced_DrawingCompositor" "Latoja"
-"Advanced_DrawingApp" "Sovellus"
-"Advanced_DrawingCompShouldBeApp" "Latoja"
-"Advanced_DrawingUnclear" "Tuntematon"
-
-"Advanced_BoundsDrawing" "Chaperonen rajat käytössä"
-"Advanced_BoundsNotDrawing" "Chaperonen rajat pois käytöstä"
-
-"Advanced_ReprojectionOn" "Uudelleenprojektio päällä"
-"Advanced_ReprojectionOff" "Uudelleenprojektio pois päältä"
-
-"Advanced_AsyncActive" "Asynkroninen uudelleenprojektio päällä"
-"Advanced_AsyncNotActive" "Asynkroninen uudelleenprojektio pois päältä"
-"Advanced_DirectModeDisabled" "Suora tila pois käytöstä"
-
-"Advanced_MotionEstimationActive" "Liikkeen pehmennys käytössä"
-"Advanced_MotionEstimationNotActive" "Liikkeen pehmennys ei käytössä"
-"Advanced_MotionEstimationDisabled" "Liikkeen pehmennys ei käytössä"
-
-"Advanced_NormalFrame" "Normaali ruutu"
-"Advanced_MotionSmoothedFrame" "Uudelleenprojektoitu liikkeen pehmennyksellä"
-"Advanced_ReprojectedFrame" "Uudelleenprojektoitu ilman liikkeen pehmennystä"
-"Advanced_OneThirdFramerate" "1/3-kuvataajuus"
-"Advanced_DroppedFrame" "Näyttövirhe"
-"Advanced_AppRequestedThrottling" "Sovellus vaati rajoittamista (prosessorin rajoittama)"
-
-"Advanced_DashboardUp" "Työpöytä päällä"
-"Advanced_DashboardDown" "Työpöytä pois päältä"
-
-"MessageBox_OK" "OK"
-"MessageBox_Cancel" "Peruuta"
-"MessageBox_Exit" "Lopeta"
-"MessageBox_SetAndRestart" "Aseta ja käynnistä uudelleen"
-"MessageBox_Continue" "Jatka"
-"MessageBox_Yes" "Kyllä"
-"MessageBox_RestartSteamVR" "Käynnistetään SteamVR uudelleen..."
-"MessageBox_Retry" "Yritä uudelleen"
-"MessageBox_Done" "Valmis"
-"MessageBox_RestartNow" "Käynnistä SteamVR uudelleen"
-"MessageBox_RestartLater" "Käynnistä uudelleen myöhemmin"
-"MessageBox_Next" "Seuraava"
-"MessageBox_Submit" "Lähetä"
-"MessageBox_Stop" "Pysäytä"
-"MessageBox_Forget" "Unohda"
-"MessageBox_RefreshAll" "Päivitä kaikki"
-"MessageBox_OpenWirelessSettings" "Bluetooth-asetukset"
-"MessageBox_RemindMeLater" "Muistuta myöhemmin"
-
-"MonitorController_NotAbleToStartSteam" "Steamiä ei voitu käynnistää."
-
-"Advanced_Header_CollisionBounds" "Chaperonen rajat"
-"Advanced_Explanation_CollisionBounds" "Chaperonen rajat ilmestyvät näkyviin, kun lähestyt käytössä olevan tilan reunoja."
-"Advanced_FloorBoundsAlwaysOn" "Lattiarajat aina käyötssä"
-"Button_ResetCollisionBounds" "Nollaa oletukseksi"
-"CollisionBounds_Beginner" "Aloittelija"
-"CollisionBounds_Intermediate" "Keskitaso"
-"CollisionBounds_Squares" "Ruudut"
-"CollisionBounds_Advanced" "Edistynyt"
-"CollisionBounds_Developer" "Kehittäjä"
-
-"CompositorBackground_Header"		"Taustan tyyli"
-"CompositorBackground_Color"		"Väri"
-"CompositorBackground_Image"		"Kuva"
-"Compositor_SelectImage"			"Valitse kuva..."
-"Compositor_SelectColorHeader"		"Valitse VR-lasien taustaväri."
-"Compositor_SelectImageHeader"		"Valitse VR-lasien taustakuva."
-"Compositor_ResetToDefault" 		"Nollaa oletukseksi"
-
-"Info_UnknownURL_Title" "SteamVR"
-"Info_UnknownURL_Message" "Tämä linkki ei ole vielä käytössä. Jos kokemasi ongelma jatkuu, tutustu <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>SteamVR-kehittäjien foorumeihin</a> saadaksesi apua."
-
-"PairingWizard_CheckForDongles_Content" "Etsitään langattomia vastaanottimia..."
-
-"PairingWizard_HelperAppFailed_Content" "Apuohjelman kutsuminen epäonnistui. Virhe: %1."
-"PairingWizard_HelperAppFailed_Error_FailedToStart" "'Käynnistäminen epäonnistui' (0)"
-"PairingWizard_HelperAppFailed_Error_Crashed" "'Kaatui' (1)"
-"PairingWizard_HelperAppFailed_Error_Timedout" "'Aikakatkaistu' (2)"
-"PairingWizard_HelperAppFailed_Error_ReadError" "'Lukuvirhe' (3)"
-"PairingWizard_HelperAppFailed_Error_WriteError" "'Kirjoitusvirhe' (4)"
-"PairingWizard_HelperAppFailed_Error_UnknownError" "'Tuntematon virhe' (5)"
-
-"PairingWizard_HelperAppFailed_MoreInfo" "Lisätietoja"
-"PairingWizard_HelperAppFailed_MoreInfo_URL" "http://www.valvesoftware.com"
-
-"PairingWizard_NoDonglesAvailable_Title" "Kaksi ohjainta jo käytössä"
-"PairingWizard_NoDonglesAvailable_Header" " "
-"PairingWizard_NoDonglesAvailable_Content" "Pariliittääksesi lisää ohjaimia sinun täytyy sammuttaa ainakin yksi ohjaimistasi. Vain kaksi ohjainta voi olla yhdistettynä yhtäaikaa."
-
-"PairingWizard_NoDonglesDetected_Title" "VR-laseja ei tunnistettu"
-"PairingWizard_NoDonglesDetected_Header" " "
-"PairingWizard_NoDonglesDetected_Content" "VR-lasien täytyy olla kytketty kunnolla, jotta pariliitos voidaan muodostaa uusiin ohjaimiin."
-
-"PairingWizard_PairController_Title" "Pariliitä uusi ohjain"
-"PairingWizard_PairController_Success_Title" "Onnistui!"
-"PairingWizard_PairAnotherController" "Pariliitä toinen ohjain"
-
-"PairingWizard_LookingForControllers_Header" "Etsitään ohjainta..."
-"PairingWizard_LookingForControllers_Content" "Paina ja pidä Sovellus- ja Järjestelmä-painikkeita pohjassa, kunnes kuulet ohjaimen äänimerkin.\n\nOhjaimen valon pitäisi alkaa vilkkua sinisenä, kun ohjaimen voi pariliittää."
-"PairingWizard_TimeoutHappened_Header" "Ohjainta ei tunnistettu"
-"PairingWizard_TimeoutHappened_Content" "Varmista, että ohjaimesi on ladattu ja lähellä VR-lasejasi, kun muodostat pariliitosta."
-"PairingWizard_PairingFailed_Header" "Pariliitos epäonnistui"
-"PairingWizard_PairingFailed_Content" "Varmista, että ohjaimesi on ladattu ja lähellä VR-lasejasi, kun muodostat pariliitosta."
-"PairingWizard_Success_MoreDonglesAvailable_Header" "Ohjaimen pariliitos onnistui!"
-"PairingWizard_Success_MoreDonglesAvailable_Content" "Ohjaimesi on pariliitetty ja käyttövalmiina."
-"PairingWizard_Success_NoMoreDonglesAvailable_Header" "Ohjaimen pariliitos on muodostettu!"
-"PairingWizard_Success_NoMoreDonglesAvailable_Content" "Ohjaimesi on pariliitetty ja käyttövalmiina."
-
-"FirmwareWizard_UpdateMoreFirmware" "Päivitä lisää laitteita"
-
-"FirmwareWizard_Nag_Title" "Suositeltu laitteistopäivitys"
-
-"FirmwareWizard_Shutdown_Title" "Päivitä laite"
-"FirmwareWizard_Shutdown_TextContent" "Jotta voit päivittää laitteet, SteamVR:n pitää sulkea käynnissä olevat VR-ohjelmat.\n\nHaluatko jatkaa?"
-"FirmwareWizard_WaitingForShutdown_TextContent" "Valmistellaan järjestelmää laitteistopäivitystä varten..."
-"FirmwareWizard_ShutdownForRecovery_TextContent" "Jotta laitteistosi toimisi kunnolla, sen osa on päivitettävä.\n\nTahdotko jatkaa?"
-"FirmwareWizard_ShutdownForMandatoryUpdate_TextContent" "Jotta voit jatkaa SteamVR:n käyttöä, VR-lasit on päivitettävä.\n\nHaluatko jatkaa?"
-"FirmwareWizard_DeviceOverview_Title" "Päivitä laite"
-"FirmwareWizard_DeviceOverview_Nagging_Title" "Vaatii laitteistopäivityksen"
-"FirmwareWizard_DeviceOverview_TextContent" "Minkä laitteen haluaisit päivittää?"
-"FirmwareWizard_DeviceOverview_TextContent_Nag" "Vaadittuja laitteistopäivityksiä saatavilla. Valitse päivitettävä laite."
-"FirmwareWizard_DeviceOverview_UpdateAvailable" "Päivitys saatavilla"
-"FirmwareWizard_DeviceOverview_UpToDate" "Ajan tasalla"
-"FirmwareWizard_DeviceOverview_NoUpdateDataAvailable" "Ei päivitystietoja saatavilla"
-"FirmwareWizard_DeviceOverview_FailedToUpdate" "Päivitys epäonnistui"
-"FirmwareWizard_DeviceOverview_LookingForDevice" "Etsitään laitetta...."
-"FirmwareWizard_DeviceOverview_WirelessServicesRequired" "Päivitys vaatii langatonta yhteyttä"
-
-"FirmwareWizard_UpdateHeadset_Start_Title" "Päivitä VR-lasit"
-"FirmwareWizard_UpdateHeadset_Start_UpperText" " "
-"FirmwareWizard_UpdateHeadset_Start_MiddleText" "Kytke VR-lasit tietokoneeseesi."
-"FirmwareWizard_UpdateHeadset_Start_LowerText" "\nPäivitys alkaa automaattisesti VR-lasiesi tunnistamisen jälkeen."
-
-"FirmwareWizard_UpdateHeadset_Progress_Title" "Päivitä VR-lasit"
-"FirmwareWizard_UpdateHeadset_Progress_UpperText" " "
-"FirmwareWizard_UpdateHeadset_Progress_MiddleText" "Päivitetään VR-laseja. Tämä voi kestää useita minuutteja..."
-"FirmwareWizard_UpdateHeadset_Progress_LowerText" "VAROITUS: Älä irrota VR-lasejasi, yhdistä muita laitteita tai tee mitään järjestelmän muutoksia laitteen päivittyessä. Nämä toimet voivat tehdä VR-laseista käyttökelvottomat."
-
-"FirmwareWizard_UpdateHeadset_Fail_Title" "Laitteen päivitys epäonnistui"
-"FirmwareWizard_UpdateHeadset_Fail_UpperText" "Laitteen päivitys epäonnistui."
-"FirmwareWizard_UpdateHeadset_Fail_MiddleText" "Varmista, että VR-lasien johdot on kytketty kunnolla. Jos toiminto ei vieläkään onnistu, sulje SteamVR ja irrota virtajohto VR-laseistasi. Kytke sitten virtajohto takaisin, käynnistä SteamVR ja yritä uudelleen."
-"FirmwareWizard_UpdateHeadset_Fail_LowerText" "&nbsp"
-
-"FirmwareWizard_UpdateHeadset_Success_Title" "Päivitä VR-lasit"
-"FirmwareWizard_UpdateHeadset_Success_UpperText" "Onnistui!"
-"FirmwareWizard_UpdateHeadset_Success_MiddleText" "VR-lasit päivittettiin onnistuneesti. Saatat joutua irrottamaan ja kytkemään VR-lasien virtajohdon uudelleen ennen kuin päivitykset rekisteröityvät."
-"FirmwareWizard_UpdateHeadset_Success_LowerText"  "&nbsp"
-
-"FirmwareWizard_UpdateController_Start_Title" "Päivitä ohjain"
-"FirmwareWizard_UpdateController_Start_UpperText" " "
-"FirmwareWizard_UpdateController_Start_MiddleText" "Kytke tämä ohjain tietokoneeseesi micro-USB-kaapelilla. Voit käyttää ohjainten lataamiseen käytettävää kaapelia."
-"FirmwareWizard_UpdateController_Start_LowerText" "Päivitys alkaa automaattisesti, kun ohjain on tunnistettu."
-
-"FirmwareWizard_UpdateController_Progress_Title" "Päivitä ohjain"
-"FirmwareWizard_UpdateController_Progress_UpperText" " " 
-"FirmwareWizard_UpdateController_Progress_MiddleText" "Päivitetään ohjainta. Tämä voi kestää useita minuutteja..."
-"FirmwareWizard_UpdateController_Progress_LowerText" "VAROITUS: Älä irrota ohjainta, yhdistä muita laitteita tai tee mitään järjestelmän muutoksia laitteen päivittyessä. Nämä toimet voivat tehdä ohjaimesta käyttökelvottoman."
-
-"FirmwareWizard_UpdateController_Fail_Title" "Laitteen päivitys epäonnistui"
-"FirmwareWizard_UpdateController_Fail_UpperText" "Ohjaimen päivitys epäonnistui."
-"FirmwareWizard_UpdateController_Fail_MiddleText" "Varmista, että ohjain on kytketty kunnolla tietokoneeseen micro-USB-kaapelilla. Jos toiminto ei vieläkään onnistu, sulje SteamVR. Jos ohjain ei sammunut, sammuta se painamalla Järjestelmä-painiketta. Käynnistä sitten SteamVR ja yritä uudelleen."
-"FirmwareWizard_UpdateController_Fail_LowerText" "Valitse 'Yritä uudelleen' jatkaaksesi."
-
-"FirmwareWizard_UpdateController_Success_Title" "Päivitä ohjain"
-"FirmwareWizard_UpdateController_Success_UpperText" "Onnistui!"
-"FirmwareWizard_UpdateController_Success_MiddleText" "Ohjain päivitettiin onnistuneesti. Saatat joutua sammuttamaan ja käynnistämään ohjaimen uudelleen ennen kuin päivitykset rekisteröityvät."
-"FirmwareWizard_UpdateController_Success_LowerText" "&nbsp"
-
-"FirmwareWizard_UpdateGenericTracker_Start_Title" "Päivitä jäljitin"
-"FirmwareWizard_UpdateGenericTracker_Start_MiddleText" "Kytke tämä jäljitin tietokoneeseesi micro-USB-kaapelilla. Voit käyttää jäljittimen lataamiseen käytettävää kaapelia."
-"FirmwareWizard_UpdateGenericTracker_Start_LowerText" "Päivitys käynnistyy automaattisesti, kun jäljittimesi tunnistetaan."
-					  
-"FirmwareWizard_UpdateGenericTracker_Progress_Title" "Päivitä jäljitin"
-"FirmwareWizard_UpdateGenericTracker_Progress_MiddleText" "Päivitetään jäljitintä. Tämä voi kestää useita minuutteja..."
-"FirmwareWizard_UpdateGenericTracker_Progress_LowerText" "VAROITUS: Älä irrota jäljitintä, lisää muita laitteita tai tee mitään muutoksia järjestelmään laitteen päivittyessä. Edellä mainitut toimenpiteet voivat muuttaa jäljittimen käyttökelvottomaksi."
-					  
-"FirmwareWizard_UpdateGenericTracker_Fail_Title" "Laitteen päivitys epäonnistui"
-"FirmwareWizard_UpdateGenericTracker_Fail_UpperText" "Jäljittimen päivitys epäonnistui."
-"FirmwareWizard_UpdateGenericTracker_Fail_MiddleText" "Varmista, että jäljitin on yhdistetty kunnolla tietokoneeseen mikro-USB-kaapelilla. Jos toiminto ei vieläkään onnistu, sulje SteamVR. Jos jäljitin ei sammunut, sammuta se painamalla Järjestelmä-painiketta ja pitämällä sitä pohjassa. Käynnistä sitten SteamVR ja yritä uudelleen."
-"FirmwareWizard_UpdateGenericTracker_Fail_LowerText" "Valitse alta \"Yritä uudelleen\" yrittääksesi uudelleen."
-					  
-"FirmwareWizard_UpdateGenericTracker_Success_Title" "Päivitä jäljitin"
-"FirmwareWizard_UpdateGenericTracker_Success_UpperText" "Onnistui!"
-"FirmwareWizard_UpdateGenericTracker_Success_MiddleText" "Jäljitin päivitettiin onnistuneesti. Saatat joutua sammuttamaan ja käynnistämään jäljittimen uudelleen, jotta päivitys rekisteröityy."
-"FirmwareWizard_UpdateGenericTracker_Success_LowerText" " "
-
-"FirmwareWizard_UpdateBasestation_Start_Title" "Päivitä tukiasema"
-"FirmwareWizard_UpdateBasestation_Start_UpperText" " "
-"FirmwareWizard_UpdateBasestation_Start_MiddleText" "1. Irrota tukiasemasi virtajohto ja tukiasema jalustaltaan.\n\n2. Kytke tukiasema tietokoneeseesi USB-porttiin mikro-USB-kaapelilla. Voit käyttää ohjainten lataamiseen käytettävää kaapelia.\n\n3. Samalla kun painat tukiaseman kääntöpuolen CHANNEL-painikkeen pohjaan, kytke tukiaseman virtajohto."
-"FirmwareWizard_UpdateBasestation_Start_LowerText" "4. Päivitys käynnistyy automaattisesti, kun tukiasemasi on tunnistettu. Voit päästää irti CHANNEL-painikkeesta."
-
-"FirmwareWizard_UpdateBasestation_Choice_Title" "Päivitä tukiasema"
-"FirmwareWizard_UpdateBasestation_Choice_MiddleText" "Päivitys voi tapahtua manuaalisesti tai langattomasti."
-"FirmwareWizard_UpdateBasestation_Wireless_Title" "Päivitä tukiasema"
-"FirmwareWizard_UpdateBasestation_Wireless_UpperText" " "
-"FirmwareWizard_UpdateBasestation_Wireless_MiddleText" "Päivitys tapahtuu langattomasti. Älä irrota tukiasemaa ohjelmiston päivittyessä."
-"FirmwareWizard_UpdateBasestation_Wireless_LowerText" " "
-
-"FirmwareWizard_UpdateBasestation_Progress_Title" "Päivitä tukiasema"
-"FirmwareWizard_UpdateBasestation_Progress_UpperText" " "
-"FirmwareWizard_UpdateBasestation_Progress_MiddleText" "Päivitetään tukiasemaa. Tämä voi kestää useita minuutteja..."
-"FirmwareWizard_UpdateBasestation_Progress_LowerText" "VAROITUS: Älä irrota tukiasemaa, yhdistä muita laitteita tai tee mitään järjestelmän muutoksia laitteen päivittyessä. Nämä toimet voivat tehdä tukiasemasta käyttökelvottoman."
-
-"FirmwareWizard_UpdateBasestation_WirelessProgress_Title" "Päivitä tukiasema"
-"FirmwareWizard_UpdateBasestation_WirelessProgress_MiddleText" "Päivitetään tukiasemaa. Tämä voi kestää useita minuutteja..."
-"FirmwareWizard_UpdateBasestation_WirelessProgress_LowerText" "VAROITUS: Älä irrota tukiasemaa, yhdistä muita laitteita tai tee mitään järjestelmän muutoksia laitteen päivittyessä. Nämä toimet voivat tehdä tukiasemasta käyttökelvottoman."
-
-"FirmwareWizard_UpdateBasestation_Fail_Title" "Tukiaseman päivitys epäonnistui"
-"FirmwareWizard_UpdateBasestation_Fail_UpperText" "Laitteen päivitys epäonnistui."
-"FirmwareWizard_UpdateBasestation_Fail_MiddleText" "Varmista, että tukiasema on kytketty kunnolla tietokoneeseen mikro-USB-kaapelilla. Jos toiminto ei vieläkään onnistu, sulje SteamVR ja irrota tukiaseman virtajohto. Käynnistä sitten SteamVR ja yritä uudelleen."
-"FirmwareWizard_UpdateBasestation_Fail_LowerText" "Valitse 'Yritä uudelleen' jatkaaksesi."
-
-"FirmwareWizard_UpdateBasestationWireless_Fail_Title" "Tukiaseman päivitys epäonnistui"
-"FirmwareWizard_UpdateBasestationWireless_Fail_UpperText" "Laitteen päivitys epäonnistui."
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox" "Jos laitteistopäivitys ei edelleenkään onnistu: <ul><li>Sulje SteamVR.<li>Irrota ja kytke linkkilaatikon virtajohto uudelleen.<li>Irrota ja kytke tukiaseman virtajohto uudelleen.<li>Käynnistä SteamVR ja yritä uudelleen.</ul>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "Jos laitteistopäivitys ei edelleenkään onnistu: <ul><li>Sulje SteamVR.<li>Irrota ja kytke tukiaseman virtajohto uudelleen.<li>Käynnistä SteamVR ja yritä uudelleen.</ul>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "Tämä tukiasema pitää löytää uudelleen optisesti käynnistämällä SteamVR uudelleen ennen kuin päivitystä jatketaan."
-"FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "Tämä tukiasema pitää käynnistää uudelleen ja se pitää löytää uudelleen optisesti käynnistämällä SteamVR uudelleen ennen kuin päivitystä jatketaan. Irrota ja kytke tukiaseman virtajohto uudelleen ennen kuin jatkat."
-"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "Päivitys keskeytetty. Tässä tukiasemassa on jo asennettuna uudempi päivitys. Irrota ja kytke tukiaseman virtajohto uudelleen."
-"FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "Odottamaton USB-yhteys tukiasemassa estää langattoman päivityksen.<br><br><font color=#aaaa00>Irrota tukiasemaan liitetty USB-johto.</font>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_BaseStuckInDFU" "Odottamaton USB-yhteys tukiasemassa estää langattoman päivityksen.<ul><li><font color=#aaaa00>Irrota tukiaseman virtajohto.<li>Irrota tukiasemaan kytketty USB-johto.<li>Kytke vain tukiaseman virtajohto uudelleen.<li>Odota 30 sekuntia, että tukiaseman sisäinen päivitys on valmis.</font></ul><br>Tukiaseman LED saattaa sammua sisäisen päivityksen ajaksi.<br>Älä irrota tukiaseman virtajohtoa tai yritä kytkeä siihen mitään päivityksen aikana."
-"FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle" "Tämä tukiasema pitää käynnistää uudelleen ennen kuin päivitystä jatketaan.<br><br><font color=#aaaa00>Irrota ja kytke tukiaseman virtajohto uudelleen ennen kuin jatkat.</font>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Jatka klikkaamalla alta \"Yritä uudelleen\""
-"FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Klikkaa alta \"Peruuta\", niin SteamVR käynnistyy uudelleen."
-
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20" "Jos laitteistopäivitys ei edelleenkään onnistu: <ul><li>Sulje SteamVR.<li>Irrota kaikki tukiasemaan kytketyt USB-johdot.<li>ÄLÄ yhdistä USB:tä tukiasemaan.<li>Irrota ja kytke linkkilaatikon virtajohto uudelleen.<li>Irrota ja kytke tukiaseman virtajohto uudelleen.<li>Käynnistä SteamVR ja yritä uudelleen.</ul>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20" "Jos laitteistopäivitys ei edelleenkään onnistu: <ul><li>Sulje SteamVR.<li>Irrota kaikki tukiasemaan kytketyt USB-johdot.<li>ÄLÄ yhdistä USB:tä tukiasemaan.<li>Irrota ja kytke tukiaseman virtajohto uudelleen.<li>Käynnistä SteamVR ja yritä uudelleen.</ul>"
-
-"FirmwareWizard_UpdateBasestation_Success_Title" "Päivitä tukiasema"
-"FirmwareWizard_UpdateBasestation_Success_UpperText" "Onnistui!"
-"FirmwareWizard_UpdateBasestation_Success_MiddleText" "Tukiasema päivitettiin onnistuneesti. Saatat joutua irrottamaan ja kytkemään tukiaseman virtajohdon uudelleen ennen kuin päivitykset rekisteröityvät."
-"FirmwareWizard_UpdateBasestation_Success_LowerText" "Kun asennat tukiasemat takaisin paikoilleen, älä vaihda tukiaseman kanavia."
-
-"FirmwareWizard_UpdateBasestationWireless_Success_Title" "Päivitä tukiasema"
-"FirmwareWizard_UpdateBasestationWireless_Success_UpperText" "Onnistui!"
-"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS10" "Tukiasema päivitetty onnistuneesti. Saatat joutua sammuttamaan ja käynnistämään tukiaseman uudelleen ennen kuin päivitykset rekisteröityvät."
-"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS20" "Tukiaseman päivitys onnistui."
-"FirmwareWizard_Information_Title" "Laitteistopäivitys"
-"FirmwareWizard_WizardIsAlreadyBusy_Message" "Päivitystä ei voitu aloittaa, koska toinen päivitys on jo käynnissä."
-
-"FirmwareWizard_WirelessServicesRequired_Title" "Päivitä tukiasema"
-"FirmwareWizard_WirelessServicesRequired" "Bluetooth-palvelun tulee olla käytössä, jotta tukiasema voidaan päivittää langattomasti.\n\nOta SteamVR Bluetooth -palvelu käyttöön.\n"
-
-"FirmwareWizard_ProgressTextLeft" "("
-"FirmwareWizard_ProgressTextRight" ")"
-"FirmwareWizard_ProgressTextMiddle" "/"
-"FirmwareWizard_ProgressPercent" "[ %1% ]"
-"FirmwareWizard_ProgressPercentStarting" "[ Käynnistyy... ]"
-"FirmwareWizard_ProgressPercentFinishing" "[ Viimeistelee... ]"
-
-"FirmwareWizard_WatchmanUpdate" "Jäljityslaitteen päivitys"		
-"FirmwareWizard_WatchmanFPGAUpdate" "Jäljityslaitteen päivitys"
-"FirmwareWizard_WatchmanRecovery" "Jäljityslaitteen päivitys"
-"FirmwareWizard_DongleUpdate" "Langattoman vastaanottimen päivitys"
-"FirmwareWizard_CameraUpdate" "Kameran päivitys"
-"FirmwareWizard_CameraRecovery" "Kameran päivitys"
-"FirmwareWizard_RadioUpdate" "Radiolähettimen päivitys"
-"FirmwareWizard_VRCUpdate" "Laitteistopäivitys"
-"FirmwareWizard_DisplayUpdate" "Näytön päivitys"
-"FirmwareWizard_DisplayFPGAUpdate" "Näytön päivitys"
-"FirmwareWizard_AudioUpdate" "Äänikortin päivitys"
-"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate" "Oheislaitteen päivitys"
-
-"FirmwareWizard_EnterBootloaderMode" "Valmistellaan päivitystä..."
-"FirmwareWizard_ExitBootloaderMode" "Viimeistellään päivitystä..."
-"FirmwareWizard_WatchmanDiskUpdate" "Laitteistopäivitys"
-"FirmwareWizard_BaseStationBluetoothBootloaderUpdate" "Laitteistopäivitys"
-"FirmwareWizard_BaseStationBluetoothRadioUpdate" "Laitteistopäivitys"
-"FirmwareWizard_BaseStationBluetoothMCUUpdate" "Laitteistopäivitys"
-"FirmwareWizard_AudioBridgeUpdate" "Laitteistopäivitys"
-"FirmwareWizard_ImageBridgeUpdate" "Laitteistopäivitys"
-
-"FirmwareWizard_UpdateBasestation_Manual" "USB"
-"FirmwareWizard_UpdateBasestation_Bluetooth" "Langattomasti"
-"FirmwareWizard_UpdateBasestation_Continue" "Jatka"
-
-"RebootHelper_ServiceStatus" "Tila: %1"
-"RebootHelper_ServiceError" "Virhe: %1"
-"RebootHelper_StartingSteamVRShutdown" "Sammutetaan..."
-"RebootHelper_RebootingVive" "Käynnistetään SteamVR uudelleen..."
-"RebootHelper_ConnectingToVive" "Yhdistetään VR-laseihin..."
-"RebootHelper_RestartingSteamVR" "Käynnistetään SteamVR uudelleen..."
-"RebootHelper_Cancel" "Peruuta"
-"RebootHelper_Status_WaitingForDevice" "Odottaa laitetta..."
-"RebootHelper_Status_Connected" "Yhdistetty!"
-
-"MenuAction_SteamVRWebsite_URL" "https://www.steamvr.com/fi/"
-"MenuAction_SteamVRCommunity_URL" "http://steamcommunity.com/app/250820/discussions/"
-"MenuAction_SteamVRHardwareDiscussions_URL" "http://steamcommunity.com/app/358720/discussions/"
-"MenuAction_SteamVRDeveloperSupport_URL" "https://developer.valvesoftware.com/wiki/SteamVR"
-"MenuAction_SteamWorksDeveloperSupport_URL" "http://steamcommunity.com/groups/steamworks/discussions"
-
-"BluetoothLinkStatus_Unknown" "Tuntematon"
-"BluetoothLinkStatus_ViveLinkNotAccessible" "Bluetooth-virhe"
-"BluetoothLinkStatus_SemaphoreFileNotAccessible" "Bluetooth-virhe"
-"BluetoothLinkStatus_WrongToken" "Bluetooth-virhe"
-"BluetoothLinkStatus_Running" "Käynnissä"
-"BluetoothLinkStatus_StoppedOrPaused" "Pysäytetty"
-"BluetoothLinkStatus_Transient" "Vaihdetaan"
-
-"BluetoothControllerStatus_Unknown"							"Tuntematon"
-"BluetoothControllerStatus_ServiceNotFound"					"Bluetooth-ominaisuutta ei löydetty. Tarkista SteamVR-asennuksesi."
-"BluetoothControllerStatus_ServiceError"					"Bluetooth-virhe: BT-%1"
-"BluetoothControllerStatus_LinkBoxNotDetected"				"Linkkilaatikon Bluetooth-yhteyttä ei tunnistettu, joten tarkista sen kytkennät. Irrota ja kytke virtajohdot nollataksesi linkkilaatikko ja käynnistä SteamVR uudelleen."
-"BluetoothControllerStatus_NoBluetoothDevice"				"Bluetooth-ominaisuutta ei löydetty."
-"BluetoothControllerStatus_NoBluetoothDeviceUpdateNeeded"	"Bluetooth-ominaisuutta ei löydetty. Laitteistopäivitys edellytetään toiminnon käyttöönottamiseksi. Siirry VR-lasien kuvakkeen päälle  ja valitse Päivitä laite."
-"BluetoothControllerStatus_BluetoothDriverNotInstalled"		"Linkkilaatikon Bluetooth-ajuria ei ole asennettu."
-"BluetoothControllerStatus_BluetoothDriverNeedsUpdate"		"Linkkilaatikon Bluetooth-ajuri täytyy päivittää."
-"BluetoothControllerStatus_BluetoothDriverInstalling"		"Asennetaan Bluetooth-ajuria..."
-"BluetoothControllerStatus_Connecting"						"Yhdistetään..."
-"BluetoothControllerStatus_Disconnecting"					"Katkaistaan yhteyttä..."
-"BluetoothControllerStatus_FailedConnection"				"Bluetooth-yhteys epäonnistui. Tarkista linkkilaatikon kytkennät, irrota ja kytke virtajohto ja käynnistä SteamVR uudelleen."
-"BluetoothControllerStatus_Connected"						"Bluetooth yhdistetty"
-
-"NeedRoomSetupNoLaunch_Message" "Tätä sovellusta ei voida käynnistää ennen huoneen kartoitusta. Haluatko kartoittaa huoneen nyt?"
-
-"WorkshopUpload_DialogTitle"	"SteamVR Workshop -lähetystyökalu"
-"WorkshopUpload_NoItem"			"(Uusi)"
-"WorkshopUpload_SelectExisting"	"Muokkaa"
-"WorkshopUpload_SelectContentType"	"Tyyppi"
-"WorkshopUpload_SelectContentType_Background"	"Tausta"
-"WorkshopUpload_SelectContentType_Environment"	"Ympäristömalli"
-"WorkshopUpload_SelectContentType_Controller"	"Ohjainmalli"
-"WorkshopUpload_SelectContentType_Camera"		"Kameramalli"
-"WorkshopUpload_SelectContentType_Basestation"	"Tukiasemamalli"
-"WorkshopUpload_Title"			"Nimi"
-"WorkshopUpload_Desc"			"Kuvaus"
-"WorkshopUpload_Thumbnail"		"Esikatselutiedosto (400 x 300, enintään 1 Mt)"
-"WorkshopUpload_MainFile"		"Tiedosto"
-"WorkshopUpload_Cancel"			"Peruuta"
-"WorkshopUpload_Upload"			"Lähetä"
-"WorkshopUpload_SelectImage"	"Valitse kuva"
-"WorkshopUpload_ImagesFilter"	"Kuvat (*.jpg *.png)"
-"WorkshopUpload_ObjFilter"		"Mallit (*.obj)"
-"WorkshopUpload_Visibility"			"Näkyvyys"
-"WorkshopUpload_Visibility_Public"			"Julkinen"
-"WorkshopUpload_Visibility_FriendsOnly"		"Vain kavereille"
-"WorkshopUpload_Visibility_Private"			"Yksityinen"
-"WorkshopUpload_Tags"							"Tunnisteet"
-"WorkshopUpload_Tag_Nature"						"Luonto"
-"WorkshopUpload_Tag_Tech"						"Teknologia"
-"WorkshopUpload_Tag_City"						"Kaupunki"
-"WorkshopUpload_Tag_Space"						"Avaruus"
-"WorkshopUpload_Tag_Game"						"Peli"
-"WorkshopUpload_Tag_Abstract"					"Abstrakti"
-"WorkshopUpload_Error"			"Virhe"
-"WorkshopUpload_Error_SteamClientNotFound"	"SteamVR Workshop -lähetystyökalua ei voitu käynnistää, koska Steam-asiakasohjelma ei ole käynnissä."
-"WorkshopUpload_Error_NoTitle"	"Anna nimi"
-"WorkshopUpload_Error_NoDesc"		"Anna kuvaus"
-"WorkshopUpload_Error_DescTooLong"	"Kuvaus saa olla korkeintaan 8 000 merkkiä."
-"WorkshopUpload_Error_NoFile_Thumbnail"		"Valitse kelvollinen esikatselukuva"
-"WorkshopUpload_Error_NoFile_MainFile"		"Valitse kelvollinen tiedosto"
-"WorkshopUpload_Error_TooLarge_Thumbnail"		"Esikatselukuvan koon tulee olla alle 1 Mt"
-"WorkshopUpload_Error_TooLarge_MainFile"		"Tiedostot saavat olla kooltaan korkeintaan 1 Gt"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Background"	"Esikatselukuvien täytyy olla .png tai .jpg -tiedostoja"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Environment"	"Esikatselukuvien täytyy olla .png tai .jpg-tiedostoja"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Controller"	"Esikatselukuvien täytyy olla .png tai .jpg -tiedostoja"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Camera"	"Esikatselukuvien täytyy olla .png tai .jpg -tiedostoja"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Basestation"	"Esikatselukuvien täytyy olla .png tai .jpg -tiedostoja"
-"WorkshopUpload_Error_InvalidType_MainFile_Background"		"Taustakuvien täytyy olla .png tai .jpg -tiedostoja"
-"WorkshopUpload_Error_InvalidType_MainFile_Environment"		"Ympäristömallitiedostojen täytyy olla .obj-tiedostoja"
-"WorkshopUpload_Error_InvalidType_MainFile_Controller"		"Ohjaimen mallitiedostojen täytyy olla .obj-tiedostoja"
-"WorkshopUpload_Error_InvalidType_MainFile_Camera"			"Kameran mallitiedoston täytyy olla .obj-tiedosto"
-"WorkshopUpload_Error_InvalidType_MainFile_Basestation"		"Tukiaseman mallitiedoston täytyy olla .obj-tiedosto"
-"WorkshopUpload_Error_LimitExceeded"	"Steam-virhe: kokoraja ylitetty. Varmista, että esikatselukuvan koko on alle 1 Mt."
-"WorkshopUpload_Error_CannotCreateUploadDir"		"Väliaikaisen lähetyshakemiston luonti epäonnistui!"
-"WorkshopUpload_Error_Generic"		"Tiedoston lähettämisessä tapahtui virhe. Yritä myöhemmin uudelleen."
-"WorkshopUpload_Error_NoItemsToEdit"	"Muokattavia tiedostoja ei löytynyt."
-"WorkshopUpload_Progress_Title"		"SteamVR Workshop"
-"WorkshopUpload_Progress_Start"		"Luodaan yhteyttä SteamVR Workshopiin..."
-"WorkshopUpload_Progress_PreparingConfig"		"Valmistellaan määrityksiä..."
-"WorkshopUpload_Progress_PreparingContent"		"Käsitellään tiedostoja..."
-"WorkshopUpload_Progress_UploadingContent"		"Lähetetään tiedostoja..."
-"WorkshopUpload_Progress_UploadingPreview"		"Lähetetään esikatselutiedostoa..."
-"WorkshopUpload_Progress_CommittingChanges"		"Viimeistellään..."
-
-"KnockKnock_Title" "Onko sinulla asiaa?"
-"KnockKnock_Text" "Olen tällä hetkellä VR-tilassa. Jos sinulla on asiaa, klikkaa painiketta alla tai paina %1-näppäintä."
-"KnockKnock_Button" "Kop kop"
-"KnockKnock_Notification_Text" "Kop kop.\nJoku VR:n ulkopuolelta yrittää saada huomiosi."
-
-"About_Title" "Tietoja SteamVR:stä"
-"About_DateString" "d. MMM yyyy %1 hh.mm"
-"About_DateString_Argument" "klo"
-"About_BuiltPrefix" "Koontiversio %1"
-"About_VersionPrefix" "Versio %1"
-
+"Main_JumplistEntry_SystemReport" "J
+"Main_RuntimeFailed_Message" "Suorituspalvelu ei k
+"Main_Systray_Error_Message" "T
+"Main_Systray_Error_Title" "Ilmaisinalue"
+"MenuAction_AboutQt" "Tietoja Qt:st
+"MenuAction_About_vrmonitor" "Tietoja SteamVR:st
+"MenuAction_BaseStationSettings" "Tukiaseman asetukset"
+"MenuAction_BluetoothSettings" "Bluetooth-asetukset"
 "MenuAction_CalibrateController" "Kalibroi ohjain"
-"CalibrateControllerTrackpad_Title" "Kalibroi ohjaimen kosketuslevy"
-"CalibrateControllerTrackpad_Start_UpperText" "Tämä kalibroi ohjaimesi kosketuslevyn. Kosketuslevy tulee kalibroida, jos se aiheuttaa tärinää tai huomaat sen rekisteröivän odottamattomia kosketuksia."
-"CalibrateControllerTrackpad_Start_LowerText" "Varmista, ettet kosketa kosketuslevyä ja valitse Seuraava jatkaaksesi."
-"CalibrateControllerTrackpad_Progress_UpperText" "Kalibroidaan kosketuslevyä..."
-"CalibrateControllerTrackpad_Success" "Onnistui!"
-"CalibrateControllerTrackpad_End_UpperText" "Ohjaimesi kosketuslevy on nyt kalibroitu."
-"PlaylistEntryDefaultName" "Valinta"
-"PlaylistListDefaultName" "Toistolista"
-
-"PlaylistEditor_WindowTitle" "Toistolistan editori"
-"PlaylistEditor_New" "Uusi"
-"PlaylistEditor_Load" "Lataa"
-"PlaylistEditor_Save" "Tallenna"
-"PlaylistEditor_SaveAs" "Tallenna nimellä"
-"PlaylistEditor_FileName_Label" "Tiedostonimi:"
-"PlaylistEditor_Name_Label" "Nimi:"
-"PlaylistEditor_Entries_Tab" "Valinnat"
-"PlaylistEditor_Placecard_Tab" "Paikkavaraus"
-"PlaylistEditor_General_Tab" "Yleinen"
-"PlaylistEditor_Detail_Name_Label" "Nimi:"
-"PlaylistEditor_Detail_Entry_Text" "Valinta"
-"PlaylistEditor_Detail_Executable_Label" "Suoritettava tiedosto:"
-"PlaylistEditor_Detail_DotDotDot_Label" "..."
+"MenuAction_ClearRecentPlaylist" "Tyhjenn
+"MenuAction_Compositor_HideMirror" "Piilota VR-n
+"MenuAction_Compositor_ShowMirror" "N
+"MenuAction_CouldNotReadLogFiles" "Lokitiedostojen avaus ep
+"MenuAction_Crash" "Kaatuminen"
+"MenuAction_CreateSystemReport" "Luo j
+"MenuAction_DebugCommands" "Virheenkorjauskomennot"
+"MenuAction_Developer" "Kehitt
+"MenuAction_Devices" "Laitteet"
+"MenuAction_Diagnostics" "Lis
+"MenuAction_DiagnosticsMenu" "Diagnostiikka"
+"MenuAction_DirectMode" "Suora n
+"MenuAction_Directories" "Hakemistot"
+"MenuAction_DisableDirectMode" "Poista suora n
+"MenuAction_DisableEnhancedPowerManagement" "Poista virranhallinta k
+"MenuAction_DisplayFrameTiming" "Edistynyt ruutuajastus"
+"MenuAction_DisplayMirror" "N
+"MenuAction_EnableDirectMode" "Ota suora n
+"MenuAction_FirmwareUpdate" "P
+"MenuAction_ForceFirmware" "Pakota laiteohjelmiston p
+"MenuAction_Help" "Tuki"
+"MenuAction_HideDisplayMirror" "Piilota VR-n
+"MenuAction_IdentifyBaseStation" "Tunnista tukiasema"
+"MenuAction_IdentifyController" "Tunnista ohjain"
+"MenuAction_IdentifyTracker" "Tunnista j
+"MenuAction_KnockKnock" "Kop kop"
+"MenuAction_LegacySettings" "Kehitt
+"MenuAction_LogFiles" "Lokitiedostot"
+"MenuAction_MainPlaylistMenu" "Toistolistat"
+"MenuAction_ModelDirectory_Browse" "Selaa mallihakemistoa"
+"MenuAction_More" "Lis
+"MenuAction_OverlayViewer" "Peitetason n
+"MenuAction_PairController" "Pariliit
+"MenuAction_PairTracker" "Pariliit
+"MenuAction_PairingWizard" "Pariliit
+"MenuAction_PerformanceGraph" "N
+"MenuAction_PlaylistEditor" "Toistolistan editori"
+"MenuAction_PlaylistPlayer" "Mediatoistin"
+"MenuAction_PowerOffController" "Sammuta ohjain"
+"MenuAction_PowerOffTracker" "Sammuta j
+"MenuAction_QuickCalibrate" "Pikakalibrointi"
+"MenuAction_Quit" "Sulje"
+"MenuAction_RebootVive" "K
+"MenuAction_RecentPlaylist" "Viimeisimm
+"MenuAction_RecentPlaylists" "Viimeisimm
+"MenuAction_RecordTrackingData" "Nauhoita seurantatiedot"
+"MenuAction_RefreshStatusNow" "P
+"MenuAction_RemoveAllSteamVRUSBDevices" "Poista kaikki SteamVR:n USB-laitteet"
+"MenuAction_ReportABug" "Ilmoita bugista"
+"MenuAction_ResetAllSettingsAndQuit" "Nollaa kaikki asetukset ja k
+"MenuAction_ResetDismissableWarnings" "Nollaa varoitukset"
+"MenuAction_ResetRuntimeAndQuit" "Palauta SteamVR-polku"
+"MenuAction_ResetSeatedPosition" "Nollaa istuva asento"
+"MenuAction_RestartSteamVR" "K
+"MenuAction_RoomOverview" "N
+"MenuAction_RunMediaPlayer" "Media Player"
+"MenuAction_RunPlaylist" "K
+"MenuAction_RunRoomSetup" "Huoneen kartoitus"
+"MenuAction_RunTutorial" "Tutoriaali"
+"MenuAction_SetConfigDirectory" "Aseta config-hakemisto"
+"MenuAction_SetLogDirectory" "Aseta lokihakemisto"
+"MenuAction_Settings" "Asetukset"
+"MenuAction_ShowConfigDirectory" "N
+"MenuAction_ShowControllerBinding" "Ohjainasetukset"
+"MenuAction_ShowDisplayMirror" "N
+"MenuAction_ShowLogDirectory" "N
+"MenuAction_ShowManageTrackers" "Hallinnoi j
+"MenuAction_ShowRuntimeDirectory" "N
+"MenuAction_StatusBar" "Tila"
+"MenuAction_SteamVRCommunity" "SteamVR-yhteis
+"MenuAction_SteamVRCommunity_URL" "http://steamcommunity.com/app/250820/discussions/"
+"MenuAction_SteamVRDeveloperSupport" "SteamVR-kehitt
+"MenuAction_SteamVRDeveloperSupport_URL" "https://developer.valvesoftware.com/wiki/SteamVR"
+"MenuAction_SteamVRHardwareDiscussions" "SteamVR-laitteistokeskustelu"
+"MenuAction_SteamVRHardwareDiscussions_URL" "http://steamcommunity.com/app/358720/discussions/"
+"MenuAction_SteamVRWebsite" "SteamVR-tuki"
+"MenuAction_SteamVRWebsite_URL" "https://www.steamvr.com/fi/"
+"MenuAction_SteamWorksDeveloperSupport" "Steamworks-kehitt
+"MenuAction_SteamWorksDeveloperSupport_URL" "http://steamcommunity.com/groups/steamworks/discussions"
+"MenuAction_StopRecording" "Lopeta tallennus"
+"MenuAction_SystemReportViewer" "J
+"MenuAction_UpdateFirmware" "P
+"MenuAction_ViewLogDirectory" "N
+"MenuAction_WakeupAllBaseStations" "Her
+"MenuAction_WebConsole" "Web-konsoli"
+"MenuAction_WebDevTools" "Web-kehitysty
+"MenuAction_WebDevToolsPlaceholder" "Instansseja ei l
+"MenuAction_Workshop" "Workshop"
+"MenuAction_Workshop_Browse" "Selaa Workshopia"
+"MenuAction_Workshop_EditItem" "Muokkaa nykyist
+"MenuAction_Workshop_RunTools" "Luo/muokkaa ymp
+"MenuAction_Workshop_UploadItem" "L
+"MenuAction_Workshop_ViewWiki" "SteamVR-ymp
+"MessageBox_Cancel" "Peruuta"
+"MessageBox_Continue" "Jatka"
+"MessageBox_Done" "Valmis"
+"MessageBox_Exit" "Lopeta"
+"MessageBox_Forget" "Unohda"
+"MessageBox_Next" "Seuraava"
+"MessageBox_OK" "OK"
+"MessageBox_OpenWirelessSettings" "Bluetooth-asetukset"
+"MessageBox_RefreshAll" "P
+"MessageBox_RemindMeLater" "Muistuta my
+"MessageBox_RestartLater" "K
+"MessageBox_RestartNow" "K
+"MessageBox_RestartSteamVR" "K
+"MessageBox_Retry" "Yrit
+"MessageBox_SetAndRestart" "Aseta ja k
+"MessageBox_Stop" "Pys
+"MessageBox_Submit" "L
+"MessageBox_Yes" "Kyll
+"MonitorController_ApplicationCouldNotStart" "%1 ei k
+"MonitorController_ApplicationsInterfaceNotAvailable" "%1 ei k
+"MonitorController_DisableDirectMode_Text" "VAROITUS: Suoran n
+"MonitorController_EnableDirectMode_Text" "SteamVR k
+"MonitorController_EnableSafeMode_Text" "<span>Vikasietotilaa</span> voidaan k
+"MonitorController_Information_Title" "SteamVR"
+"MonitorController_LoadPlaylist" "Lataa toistolista"
+"MonitorController_NotAbleToMakeCompositorFullscreen" "SteamVR:ll
+"MonitorController_NotAbleToStartSteam" "Steami
+"MonitorController_ResetCompleteSetup_Text" "T
+"MonitorController_RestartSystemNotPossible" "SteamVR:
+"MonitorController_SelectRecordingDirectory" "Valitse tallennuskansio"
+"MonitorController_SwitchDirectMode_Header" "Suora n
+"MonitorController_SwitchSafeMode_Header" "Vikasietotila"
+"MonitorController_Version" "Versio %1"
+"Monitor_PuttingBaseStationsInStandby" "Tukiasemat siirtyv
+"Monitor_RestartRequestedDialog_Message" "%1"
+"Monitor_RestartRequestedDialog_MessageNoReason" "Ajuri %1 vaatii SteamVR:n uudelleenk
+"Monitor_RestartRequestedDialog_Quit" "Sulje SteamVR"
+"Monitor_RestartRequestedDialog_Restart" "K
+"Monitor_RestartRequestedDialog_Title" "Ajurin %1 k
+"Monitor_SpontaneousQuitDialog_Message" "SteamVR kohtasi vakavan virheen."
+"Monitor_SpontaneousQuitDialog_Quit" "Sulje SteamVR"
+"Monitor_SpontaneousQuitDialog_Restart" "K
+"Monitor_SpontaneousQuitDialog_Title" "Tuntematon SteamVR-virhe"
+"Monitor_WakingBaseStations" "Tukiasemat her
+"NeedRoomSetupNoLaunch_Message" "T
+"PairingWizard_CheckForDongles_Content" "Etsit
+"PairingWizard_HelperAppFailed_Content" "Apuohjelman kutsuminen ep
+"PairingWizard_HelperAppFailed_Error_Crashed" "'Kaatui' (1)"
+"PairingWizard_HelperAppFailed_Error_FailedToStart" "'K
+"PairingWizard_HelperAppFailed_Error_ReadError" "'Lukuvirhe' (3)"
+"PairingWizard_HelperAppFailed_Error_Timedout" "'Aikakatkaistu' (2)"
+"PairingWizard_HelperAppFailed_Error_UnknownError" "'Tuntematon virhe' (5)"
+"PairingWizard_HelperAppFailed_Error_WriteError" "'Kirjoitusvirhe' (4)"
+"PairingWizard_HelperAppFailed_MoreInfo" "Lis
+"PairingWizard_HelperAppFailed_MoreInfo_URL" "http://www.valvesoftware.com"
+"PairingWizard_LookingForControllers_Content" "Paina ja pid
+"PairingWizard_LookingForControllers_Header" "Etsit
+"PairingWizard_NoDonglesAvailable_Content" "Pariliitt
+"PairingWizard_NoDonglesAvailable_Header" "
+"PairingWizard_NoDonglesAvailable_Title" "Kaksi ohjainta jo k
+"PairingWizard_NoDonglesDetected_Content" "VR-lasien t
+"PairingWizard_NoDonglesDetected_Header" "
+"PairingWizard_NoDonglesDetected_Title" "VR-laseja ei tunnistettu"
+"PairingWizard_PairAnotherController" "Pariliit
+"PairingWizard_PairController_Success_Title" "Onnistui!"
+"PairingWizard_PairController_Title" "Pariliit
+"PairingWizard_PairingFailed_Content" "Varmista, ett
+"PairingWizard_PairingFailed_Header" "Pariliitos ep
+"PairingWizard_Success_MoreDonglesAvailable_Content" "Ohjaimesi on pariliitetty ja k
+"PairingWizard_Success_MoreDonglesAvailable_Header" "Ohjaimen pariliitos onnistui!"
+"PairingWizard_Success_NoMoreDonglesAvailable_Content" "Ohjaimesi on pariliitetty ja k
+"PairingWizard_Success_NoMoreDonglesAvailable_Header" "Ohjaimen pariliitos on muodostettu!"
+"PairingWizard_TimeoutHappened_Content" "Varmista, ett
+"PairingWizard_TimeoutHappened_Header" "Ohjainta ei tunnistettu"
+"PlaylistEditor_AddEntry_Text" "Valinta %1"
 "PlaylistEditor_Detail_Arguments_Label" "Argumentit:"
-"PlaylistEditor_Detail_Environment_Label" "Ympäristö:"
-"PlaylistEditor_Detail_WorkingDirectory_Label" "Työhakemisto:"
-"PlaylistEditor_Detail_UseCompositor_Checkbox" "Käytä latojaa"
-"PlaylistEditor_Detail_Total_Label" "Yhteensä:"
-"PlaylistEditor_Detail_WaitForNext_Checkbox" "Odota seuraavaa"
-"PlaylistEditor_Detail_PrerollPlacecard_Label" "Edessä oleva paikkavaraus:"
-"PlaylistEditor_Detail_NothingSet_Text" "Tyhjä"
-"PlaylistEditor_Detail_PrerollDuration_Label" "Aloituksen kesto:"
-"PlaylistEditor_Detail_PostrollDuration_Label" "Lopetuksen kesto:"
-"PlaylistEditor_Detail_AudioVolume_Label" "Äänenvoimakkuus:"
 "PlaylistEditor_Detail_AudioVolumeInPercent_Label" "% "
 "PlaylistEditor_Detail_AudioVolumeOverride_Checkbox" "Ohita"
-"PlaylistEditor_Header_Length" "Pituus"
-"PlaylistEditor_Header_Durations" "Kestot"
-"PlaylistEditor_Header_Name" "Nimi"
-"PlaylistEditor_Plus_Button" "+"
-"PlaylistEditor_Minus_Button" "–"
+"PlaylistEditor_Detail_AudioVolume_Label" "
+"PlaylistEditor_Detail_DotDotDot_Label" "..."
+"PlaylistEditor_Detail_Entry_Text" "Valinta"
+"PlaylistEditor_Detail_Environment_Label" "Ymp
+"PlaylistEditor_Detail_Executable_Label" "Suoritettava tiedosto:"
+"PlaylistEditor_Detail_Name_Label" "Nimi:"
+"PlaylistEditor_Detail_NothingSet_Text" "Tyhj
+"PlaylistEditor_Detail_PostrollDuration_Label" "Lopetuksen kesto:"
+"PlaylistEditor_Detail_PrerollDuration_Label" "Aloituksen kesto:"
+"PlaylistEditor_Detail_PrerollPlacecard_Label" "Edess
+"PlaylistEditor_Detail_Total_Label" "Yhteens
+"PlaylistEditor_Detail_UseCompositor_Checkbox" "K
+"PlaylistEditor_Detail_WaitForNext_Checkbox" "Odota seuraavaa"
+"PlaylistEditor_Detail_WorkingDirectory_Label" "Ty
 "PlaylistEditor_Duration_Label" "Kesto:"
-"PlaylistEditor_Play_Button" "Toista"
-"PlaylistEditor_Placecard_Test_Button" "Testaa"
-"PlaylistEditor_Placecard_Clear_Button" "Tyhjennä"
+"PlaylistEditor_Entries_Tab" "Valinnat"
+"PlaylistEditor_FileName_Label" "Tiedostonimi:"
+"PlaylistEditor_General_DotDotDot_Label" "..."
+"PlaylistEditor_General_Environment_Label" "Ymp
+"PlaylistEditor_General_ForceAudioVolume_Label" "Pakota 
+"PlaylistEditor_General_PlaySoundBeforeEnd_Label" "Anna 
+"PlaylistEditor_General_Seconds_Label" "sekuntia"
+"PlaylistEditor_General_Tab" "Yleinen"
+"PlaylistEditor_General_WaitForNext_Label" "Odota seuraavaa:"
+"PlaylistEditor_General_WorkingDirectory_Label" "Ty
+"PlaylistEditor_Header_Durations" "Kestot"
+"PlaylistEditor_Header_Length" "Pituus"
+"PlaylistEditor_Header_Name" "Nimi"
+"PlaylistEditor_Load" "Lataa"
+"PlaylistEditor_LoadPlaylist_FileSelector" "Lataa toistolista"
+"PlaylistEditor_Minus_Button" "
+"PlaylistEditor_Name_Label" "Nimi:"
+"PlaylistEditor_New" "Uusi"
+"PlaylistEditor_NotSavedYet_Text" "Ei viel
+"PlaylistEditor_Placecard_Clear_Button" "Tyhjenn
 "PlaylistEditor_Placecard_Load_Button" "Lataa"
-"PlaylistEditor_Placecard_WidthInMeters_Label" "Leveys metreinä:"
 "PlaylistEditor_Placecard_OffsetX_Label" "X-akselin poikkeama:"
 "PlaylistEditor_Placecard_OffsetY_Label" "Y-akselin poikkeama:"
 "PlaylistEditor_Placecard_OffsetZ_Label" "Z-akselin poikkeama:"
-"PlaylistEditor_General_Environment_Label" "Ympäristö:"
-"PlaylistEditor_General_WorkingDirectory_Label" "Työhakemisto:"
-"PlaylistEditor_General_DotDotDot_Label" "..."
-"PlaylistEditor_General_ForceAudioVolume_Label" "Pakota äänenvoimakkuus:"
-"PlaylistEditor_General_PlaySoundBeforeEnd_Label" "Anna äänimerkki ennen loppua:"
-"PlaylistEditor_General_Seconds_Label" "sekuntia"
-"PlaylistEditor_General_WaitForNext_Label" "Odota seuraavaa:"
-"PlaylistEditor_NotSavedYet_Text" "Ei vielä tallennettu."
-"PlaylistEditor_AddEntry_Text" "Valinta %1"
-"PlaylistEditor_LoadPlaylist_FileSelector" "Lataa toistolista"
+"PlaylistEditor_Placecard_Tab" "Paikkavaraus"
+"PlaylistEditor_Placecard_Test_Button" "Testaa"
+"PlaylistEditor_Placecard_WidthInMeters_Label" "Leveys metrein
+"PlaylistEditor_Play_Button" "Toista"
+"PlaylistEditor_Plus_Button" "+"
+"PlaylistEditor_Save" "Tallenna"
+"PlaylistEditor_SaveAs" "Tallenna nimell
 "PlaylistEditor_SavePlaylist_FileSelector" "Tallenna toistolista"
-"PlaylistEditor_SelectExecutable_FileSelector" "Valitse käynnistystiedoston polku"
-"PlaylistEditor_SelectWorkingDirectory_FileSelector" "Valitse työhakemisto"
-"PlaylistEditor_SelectPrerollPlacecard_FileSelector" "Valitse edessä oleva paikkavaraus"
+"PlaylistEditor_SelectExecutable_FileSelector" "Valitse k
 "PlaylistEditor_SelectImageForPlacecard_FileSelector" "Valitse paikkavarauksen kuva"
-
-"PlaylistPlayer_WindowTitle" "Mediatoistin"
-"PlaylistPlayer_WindowTitle_WithName" "Mediatoistin – %1"
-"PlaylistPlayer_All_Checkbox" "Kaikki"
-"PlaylistPlayer_ForceSoundVolume_Checkbox" "Pakota äänenvoimakkuus"
-"PlaylistPlayer_PlaySoundBeforeEnd_Checkbox" "Anna äänimerkki ennen valinnan loppua (sekunnissa)"
-"PlaylistPlayer_ManualNext_Checkbox" "Manuaalisesti seuraava"
-"PlaylistPlayer_Length_Header" "Pituus"
-"PlaylistPlayer_Durations_Header" "Kestot"
-"PlaylistPlayer_Name_Header" "Nimi"
-"PlaylistPlayer_Total_Label" "Yhteensä:"
-"PlaylistPlayer_RunSelected_Button" "Suorita valitut"
-"PlaylistPlayer_RunSingle_Button" "Suorita yksittäinen"
-"PlaylistPlayer_RemoteControlInHeadset_Checkbox" "Etäohjaus VR-laseissa"
-"PlaylistPlayer_Next_Label" "Seuraava:"
-"PlaylistPlayer_Current_Label" "Nykyinen:"
-"PlaylistPlayer_Overall_Label" "Yhteensä:"
-"PlaylistPlayer_PlaySound_Button" "Toista ääni"
-"PlaylistPlayer_Run_Button" "Suorita"
-"PlaylistPlayer_Stop_Button" "Pysäytä"
-"PlaylistPlayer_PauseTimer_Button" "Pysäytä ajastin"
-"PlaylistPlayer_Next_Button" "Seuraava"
-"PlaylistPlayer_MasterVolume_Label" "Äänenvoimakkuus"
-"PlaylistPlayer_Continue_Button" "Jatka"
-"PlaylistPlayer_State_NotRunning" "Ei käynnissä"
-"PlaylistPlayer_State_Starting" "Käynnistetään"
-"PlaylistPlayer_State_Running" "Käynnissä"
-"PlaylistPlayer_State_Unknown" "Tuntematon tila"
-"PlaylistPlayer_ProcessError_FailedToStart" "Käynnistys epäonnistui"
-"PlaylistPlayer_ProcessError_Crashed" "Kaatui"
-"PlaylistPlayer_ProcessError_Timeout" "Aikakatkaisu"
-"PlaylistPlayer_ProcessError_WriteError" "Kirjoitusvirhe"
-"PlaylistPlayer_ProcessError_ReadError" "Lukuvirhe"
-"PlaylistPlayer_ProcessError_Unknown" " "
-"PlaylistPlayer_StatusOfCurrentDemo_Text" "Nykyisen demon tila: %1 %2"
-"PlaylistPlayer_PrerollState_Text" "Aloitus "
-"PlaylistPlayer_PostrollState_Text" "Lopetus"
-"PlaylistPlayer_StatusOfCurrentEntryPause_Text" "%1Tämänhetkisen valinnan tila: keskeytetty"
-"PlaylistPlayer_StatusOfCurrentEntryNone_Text" "Tämänhetkiselle valinnalle ei ole tilatietoja."
-
-"PlaylistOverlay_Title" "Toistolistan etäohjaus"
+"PlaylistEditor_SelectPrerollPlacecard_FileSelector" "Valitse edess
+"PlaylistEditor_SelectWorkingDirectory_FileSelector" "Valitse ty
+"PlaylistEditor_WindowTitle" "Toistolistan editori"
+"PlaylistEntryDefaultName" "Valinta"
+"PlaylistListDefaultName" "Toistolista"
+"PlaylistOverlay_GotoFirstEntry" "Siirry ensimm
 "PlaylistOverlay_NextEntry" "Seuraava"
-"PlaylistOverlay_PauseTimer" "Pysäytä ajastin"
-"PlaylistOverlay_GotoFirstEntry" "Siirry ensimmäiseen valintaan."
-
-"BugReporter_Title"	"Raportoi bugi"
-"BugReporter_Explanation" "Kiitos, että autat Valvea kehittämään SteamVR:ää.\n\nTämä bugiraportti luo SteamVR-järjestelmäraportin, jota Valve käyttää järjestelmän, ympäristön ja SteamVR:n lokitietojen keräämiseen niiden diagnosointia varten."
-"BugReporter_ForPersonalSupport" "Tämä ei ole tukipyyntö, etkä saa siihen vastausta. Jos kaipaat henkilökohtaista SteamVR-tukea, käy tukisivustollamme."
-"BugReporter_SteamVRSupport" "SteamVR-tuki"
-"BugReporter_Subject" "Aihe:"
-"BugReporter_CharactersRemaining" "%1 merkkiä jäljellä"
-"BugReporter_Description" "Kuvaus:"
-"BugReporter_ReportType"	"Raportin tyyppi:"
-"BugReporter_ReportType_Bug" "Bugi"
-"BugReporter_ReportType_FeatureRequest" "Ominaisuuspyyntö"
-"BugReporter_ReportType_Feedback" "Palaute"
-"BugReporter_Owner"	"Omistaja:"
-"BugReporter_Priority" "Tärkeysaste:"
-"BugReporter_PreviewReport" "Esikatsele raportti"
-"BugReporter_IncludeReportAndLogs" "Liitä mukaan järjestelmäraportti ja lokitiedot"
-"BugReporter_IncludeCrashDumps" "Liitä mukaan kaatumisvedokset"
-"BugReporter_SubjectRequired" "Syötä aihe."
-"BugReporter_DescriptionRequired" "Kirjoita kuvaus."
-"BugReporter_FailedToCreateZip" "Zip-liitteen luominen epäonnistui."
-"BugReporter_SteamLoginRequired" "Sinun tulee olla kirjautuneena Steam-tilillesi, jotta voit raportoida bugin."
-"BugReporter_NotAvailable" "Tässä SteamVR-versiossa ei voi lähettää virheraportteja."
-"BugReporter_InitializationFailure" "Virheraportin alustus epäonnistui.\n\nVirhekoodi: BR-%1"
-"BugReporter_SubmissionSuccess"	"Lähetys onnistui.\n\nSaat pian vahvistusviestin sähköpostiisi."
-"BugReporter_SubmissionFailure"	"Lähetys epäonnistui.\n\nBugien kerääjä saattaa olla varattu. Yritä pian uudelleen.\n\nVirhe: BR-%1\n"
-"BugReporter_SubmissionTimeout" "Lähetys epäonnistui.\n\nVerkkoon lataaminen kestää odotettua kauemmin. Yritä myöhemmin uudelleen.\n"
-"BugReporter_PreviewReportTitle" "Virheraportti – raportin esikatselu"
-"BugReporter_ProgressSubmitting" "Lähetetään..."
-"BugReporter_ProgressSubmittingPercent" "Lähetetään... %1%"
-
-"ScanForBaseStations_Scanning"	"Haetaan tukiasemia...\n\n%1 sekuntia jäljellä."
-"ScanForBaseStation_Incomplete" "Etsitään tukiasemia...\n\nHaku kesken."
+"PlaylistOverlay_PauseTimer" "Pys
+"PlaylistOverlay_Title" "Toistolistan et
+"PlaylistPlayer_All_Checkbox" "Kaikki"
+"PlaylistPlayer_Continue_Button" "Jatka"
+"PlaylistPlayer_Current_Label" "Nykyinen:"
+"PlaylistPlayer_Durations_Header" "Kestot"
+"PlaylistPlayer_ForceSoundVolume_Checkbox" "Pakota 
+"PlaylistPlayer_Length_Header" "Pituus"
+"PlaylistPlayer_ManualNext_Checkbox" "Manuaalisesti seuraava"
+"PlaylistPlayer_MasterVolume_Label" "
+"PlaylistPlayer_Name_Header" "Nimi"
+"PlaylistPlayer_Next_Button" "Seuraava"
+"PlaylistPlayer_Next_Label" "Seuraava:"
+"PlaylistPlayer_Overall_Label" "Yhteens
+"PlaylistPlayer_PauseTimer_Button" "Pys
+"PlaylistPlayer_PlaySoundBeforeEnd_Checkbox" "Anna 
+"PlaylistPlayer_PlaySound_Button" "Toista 
+"PlaylistPlayer_PostrollState_Text" "Lopetus"
+"PlaylistPlayer_PrerollState_Text" "Aloitus "
+"PlaylistPlayer_ProcessError_Crashed" "Kaatui"
+"PlaylistPlayer_ProcessError_FailedToStart" "K
+"PlaylistPlayer_ProcessError_ReadError" "Lukuvirhe"
+"PlaylistPlayer_ProcessError_Timeout" "Aikakatkaisu"
+"PlaylistPlayer_ProcessError_Unknown" "
+"PlaylistPlayer_ProcessError_WriteError" "Kirjoitusvirhe"
+"PlaylistPlayer_RemoteControlInHeadset_Checkbox" "Et
+"PlaylistPlayer_RunSelected_Button" "Suorita valitut"
+"PlaylistPlayer_RunSingle_Button" "Suorita yksitt
+"PlaylistPlayer_Run_Button" "Suorita"
+"PlaylistPlayer_State_NotRunning" "Ei k
+"PlaylistPlayer_State_Running" "K
+"PlaylistPlayer_State_Starting" "K
+"PlaylistPlayer_State_Unknown" "Tuntematon tila"
+"PlaylistPlayer_StatusOfCurrentDemo_Text" "Nykyisen demon tila: %1 %2"
+"PlaylistPlayer_StatusOfCurrentEntryNone_Text" "T
+"PlaylistPlayer_StatusOfCurrentEntryPause_Text" "%1T
+"PlaylistPlayer_Stop_Button" "Pys
+"PlaylistPlayer_Total_Label" "Yhteens
+"PlaylistPlayer_WindowTitle" "Mediatoistin"
+"PlaylistPlayer_WindowTitle_WithName" "Mediatoistin 
+"QuickCalibrate_CabalSpace" "Huonetila"
+"QuickCalibrate_DK2Default" "DK2-oletus"
+"QuickCalibrate_GiganticSpace" "Valtava tila"
+"QuickCalibrate_LargeSpace" "Suuri tila"
+"QuickCalibrate_MediumSpace" "Keskikokoinen tila"
+"QuickCalibrate_SmallSpace" "Pieni tila"
+"QuickCalibrate_StandingSpace" "Seisomatila"
+"RebootHelper_Cancel" "Peruuta"
+"RebootHelper_ConnectingToVive" "Yhdistet
+"RebootHelper_RebootingVive" "K
+"RebootHelper_RestartingSteamVR" "K
+"RebootHelper_ServiceError" "Virhe: %1"
+"RebootHelper_ServiceStatus" "Tila: %1"
+"RebootHelper_StartingSteamVRShutdown" "Sammutetaan..."
+"RebootHelper_Status_Connected" "Yhdistetty!"
+"RebootHelper_Status_WaitingForDevice" "Odottaa laitetta..."
+"RebootWhileAppRunning_Format" "Sulkee my
+"RebootWhileAppRunning_Title" "K
 "ScanForBaseStation_FoundStations" "Haku valmis."
-"ScanForBaseStation_NoKnownStations" "Haku valmis.\n\nLäheltä löytyi lähettäviä tukiasemia, mutta niitä ei ole vielä käytetty seurantaan."
-"ScanForBaseStation_NoStationsFound" "Haku valmis.\n\nLäheltä ei löytynyt yhtään lähettävää tukiasemaa."
+"ScanForBaseStation_Incomplete" "Etsit
+"ScanForBaseStation_NoKnownStations" "Haku valmis.\n\nL
+"ScanForBaseStation_NoStationsFound" "Haku valmis.\n\nL
 "ScanForBaseStations_Refresh" "Hae uudelleen"
-
-"BS20_ConfigureChannel_Title"								"Tukiasema 2.0:n kanavien määritykset"
-"BS20_ConfigureChannel_BluetoothRequired"					"Kanavien määritys vaatii Bluetooth-yhteyden.\n\nOta Bluetooth-yhteys käyttöön asetuksista."
-"BS20_ConfigureChannel_BaseStationName"						"Määritellään tukiasemaa %1 kanavalle %2"
-"BS20_ConfigureChannel_Description"							"Valitse käyttämätön kanava tälle tukiasemalle välttääksesi mahdolliset jäljitysongelmat."
-"BS20_ConfigureChannel_InUseByPrefix"						"Parhaillaan käytössä käyttäjällä:"
-"BS20_ConfigureChannel_Legend"								"Näyttää radioetäisyydellä olevien tukiasemien käyttämät kanavat."
-"BS20_ConfigureChannel_AutomaticConfiguration"				"Automaattimääritys"
-"BS20_ConfigureChannel_AutoConfig_NoChannelConflictsFound"	"Kanavien välillä ei ole konflikteja."
-"BS20_ConfigureChannel_AutoConfig_NoFreeChannels"			"Ei vapaita kanavia, joilla voi ratkaista %1 mahdollista kanavakonfliktia. Kanavat täytyy ehkä määritellä manuaalisesti."
-"BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"Vapaat kanavat riittävät ratkaisemaan vain %1/%2 mahdollista kanavakonfliktia. Jatketaanko ja ratkaistaanko ongelmat?"
-"BS20_ConfigureChannel_AutoConfigContinue"					"%1 mahdollista kanavakonfliktia voidaan ratkaista automaattisesti määrittämällä niiden kanavat uudelleen. Jatketaanko ja ratkaistaanko ongelmat?"
-"BS20_ConfigureChannel_AutoConfig_SuccessfulCompletion"		"Automaattimääritys tehty.\n\nKanavien välillä ei ole konflikteja."
-"BS20_ConfigureChannel_AutoConfig_Incomplete"				"Automaattimääritys tehty.\n\nJäljellä on %1 mahdollista kanavakonfliktia. Sinun pitää ehkä määritellä kanavat manuaalisesti."
-"BS20_ConfigureChannel_AutoConfig_UnknownChannels"			"%1:n tukiaseman kanavia ei voitu määrittää. Tämä saattaa aiheuttaa konflikteja kanavien välillä.\n"
-"BS20_ConfigureChannel_ChannelConfigurationFailure"			"%1 ei hyväksynyt vaadittua kanavan määritystä."
-"BS20_ConfigureChannel_ScanForMore"							"Etsi lisää"
-"BS20_ConfigureChannel_Apply"								"Käytä"	
-"BS20_ConfigureChannel_Connecting"							"Yhdistetään..."
-"BS20_ConfigureChannel_Channel"								"Kanava: %1"
-"BS20_ConfigureChannel_ConnectionFailure"					"Tukiaseman %1 yhdistäminen epäonnistui."
-"BS20_ConfigureChannel_FirmwareUpdateRequired"				"%1 vaatii laitteistopäivityksen kanava-asetusten määrittämiseksi."
-"BS20_ConfigureChannel_ConflictWarning"						"Tukiasema %1 käyttää samaa kanavaa toisen tukiaseman kanssa."
-"BS20_ConfigureChannel_FailedToConnectRetry"				"Tukiaseman %1 yhdistäminen epäonnistui. Klikkaa Yritä uudelleen."
-"BS20_ConfigureChannel_ConflictOnChannel"					"Mahdollinen konflikti kanavalla %1"
-"BS20_ConfigureChannel_NoConflictOnChannel"					"Ei konflikteja kanavalla %1"
-"BS20_ConfigureChannel_ProgressScanComplete"				"Skannaus suoritettu.\n\nKlikkaa kanavan linkkiä, jotta voit muuttaa sitä."
-"BS20_ConfigureChannel_ProgressScanNoStationsFound"			"Haku valmis.\n\nLähellä ei havaittu lähettäviä 2.0 tukiasemia."
-"BS20_ConfigureChannel_ProgressScanning"					"Etsitään tukiasemia...\n\n%1 sekuntia jäljellä."
-"BS20_ConfigureChannel_ProgressConnecting"					"\nYhdistetään tukiasemiin...\n"
-"BS20_ConfigureChannel_ProgressWritingChannel"				"\nKirjoitetaan kanavaa...\n"
-"BS20_ConfigureChannel_ProgressCancelling"					"\nPeruutetaan...\n"
-"BS20_ConfigureChannel_VisibleNowInTracking"				"Tukiasemat näkyvät nyt tässä seurantaistunnossa."
-"BS20_ConfigureChannel_ObservedInTracking"					"Havaittu aiemmassa seurantaistunnossa."
-"BS20_ConfigureChannel_Identify"							"Klikkaa tunnistaaksesi tukiaseman."
-"BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"		"%1 vaatii laitteistopäivityksen, jotta laitteen tunnistusta voidaan käyttää."
-"BS20_ConfigureChannel_RSSI"								"RSSI: %1"
-"BS20_ConfigureChannel_ConflictLegend"						"Kanavakonflikti toisen tukiaseman kanssa."
-"BS20_ConfigureChannel_ErrorLegend"							"Saat lisätietoa klikkaamalla kanavan linkkiä."
-"BS20_ConfigureChannel_CancelledConnection"					"%1 yhteys peruttu. Klikkaa kanavan linkkiä ja yritä uudelleen."
-
-"BS_PowerManagement_Title"									"Tukiaseman virranhallinta"
-"BS_PowerManagement_Enable"									"Ota virranhallinta käyttöön *"
-"BS_PowerManagement_Enable_Explanation"						"Kun SteamVR:ää ei käytetä, virranhallintaa käyttävät tukiasemat siirtyvät lepotilaan. Tukiasemat aktivoituvat uudelleen, kun SteamVR käynnistetään."
-"BS_PowerManagement_Enable_Warning"							"<font color=#ffffff>* EI SUOSITELLA, jos useita SteamVR-käyttäjiä on tilassa, jossa sovelletaan seurantateknologiaa</font>"
-"BS_PowerManagement_PartialStandby"							"Valmiustila" 
-"BS_PowerManagement_PartialStandby_Explanation"				"Tukiasemat sammuttavat ainoastaan laserit, jotta herääminen käy nopeammin."
-"BS_PowerManagement_PartialStandby_HybridExplanation"		"Tukiasema 2.0 sammuttaa ainoastaan laserit, jotta herääminen käy nopeammin."
-"BS_PowerManagement_FullStandby"							"Lepotila"
-"BS_PowerManagement_FullStandby_Explanation"				"Tukiasemat sammuttavat laserit ja moottorit."
-"BS_PowerManagement_RefreshLink"							"Päivitä"
-"BS_PowerManagement_ForgetBase"								"Unohda tämä laite"
-"BS_PowerManagement_BaseStations"							"Hallinnoidut tukiasemat"
-"BS_PowerManagement_VisibleNowInTracking"					"Tukiasemat näkyvät nyt tässä seurantaistunnossa."
-"BS_PowerManagement_ObservedInTracking"						"Havaittu aiemmassa seurantaistunnossa."
-"BS_PowerManagement_Identify"								"Klikkaa tunnistaaksesi tukiaseman."
-"BS_PowerManagement_IdentifyRequiresFirmareUpdate"			"%1 vaatii laitteistopäivityksen, jotta laitteen tunnistusta voidaan käyttää."
-"BS_PowerManagement_FailedToConnectRefresh"					"%1 epäonnistui yhteyden muodostamisessa. Klikkaa Päivitä ja yritä uudelleen."
-"BS_PowerManagement_ConnectionFailureLegend"				"Yhteyden muodostus epäonnistui. Klikkaa Päivitä ja yritä uudelleen."
-
-"BS20_UpdateRecovery_Title"									"Tukiasema 2.0, päivitysprosessin palautus"
-"BS20_UpdateRecovery_BluetoothRequired"						"Päivityksen palauttaminen vaatii Bluetooth-yhteyden.\n\nOta Bluetooth-yhteys käyttöön asetuksista."
-"BS20_UpdateRecovery_Scanning"								"Etsitään tukiasemia...\n\n%1 sekuntia jäljellä."
-"BS20_UpdateRecovery_Incomplete"							"Etsitään tukiasemia...\n\nHaku kesken."
-"BS20_UpdateRecovery_FoundStations"							"Haku valmis.<br><br><font color=#ffffff>Tukiasemien päivityksiä ei voitu suorittaa loppuun.<br><br>Valitse tukiasema ja klikkaa Palauta laite jatkaaksesi.</font>"
-"BS20_UpdateRecovery_NoStationsFound"						"Haku valmis.\n\nLäheltä ei löydy lähetettävää tukiasemaa, joka tarvitsisi palautusta."
-"BS20_UpdateRecovery_Refresh"								"Hae uudelleen"
-"BS20_UpdateRecovery_UpdateDevice"							"Palauta laite"
-
-"BS_PromotePowerManagement_Title"							"SteamVR"
-"BS_PromotePowerManagement_Explanation"						"SteamVR voi hallita tukiasemiesi virtaa.<br><br>Virranhallinnan avulla tukiasema menee lepotilaan, kun SteamVR ei ole käytössä, ja herää uudelleen, kun SteamVR kännistyy.<br>"
-"BS_PromotePowerManagement_Enable"							"Ota tukiaseman virranhallinta käyttöön *"
-"BS_PromotePowerManagement_Explanation2"					"<br><font color=#ffffff>* EI SUOSITELLA, jos useita SteamVR-käyttäjiä on tilassa, jossa sovelletaan seurantateknologiaa</font>"
-"BS_PromotePowerManagement_ExitNow"							"Poistu nyt (%1)"
-
-"Monitor_SpontaneousQuitDialog_Title" "Tuntematon SteamVR-virhe"
-"Monitor_SpontaneousQuitDialog_Message" "SteamVR kohtasi vakavan virheen."
-"Monitor_SpontaneousQuitDialog_Restart" "Käynnistä SteamVR uudelleen"
-"Monitor_SpontaneousQuitDialog_Quit" "Sulje SteamVR"
-
-"Monitor_RestartRequestedDialog_Title" "Ajurin %1 käyttöönotto edellyttää uudelleenkäynnistystä"
-"Monitor_RestartRequestedDialog_MessageNoReason" "Ajuri %1 vaatii SteamVR:n uudelleenkäynnistämisen."
-"Monitor_RestartRequestedDialog_Message" "%1"
-"Monitor_RestartRequestedDialog_Restart" "Käynnistä SteamVR uudelleen"
-"Monitor_RestartRequestedDialog_Quit" "Sulje SteamVR"
-
-"oculus_display_lost" "Oculuksen yhteys näyttöön katkesi. Käynnistä uudelleen, kun olet tarkistanut VR-lasiesi kytkennät."
-"oculus_requested_quit" "Oculus-järjestelmä vaati, että SteamVR suljetaan."
-
-"Monitor_WakingBaseStations" "Tukiasemat heräilemässä..."
-"Monitor_PuttingBaseStationsInStandby" "Tukiasemat siirtyvät lepotilaan..."
-
-"VRApplicationError_None" "Ei virhettä"
-
-"VRApplicationError_AppKeyAlreadyExists" "Sovellus on jo rekisteröity"
-"VRApplicationError_NoManifest" "Sovelluksen manifesti puuttuu"
-"VRApplicationError_NoApplication" "Ei sovellusta"
-"VRApplicationError_InvalidIndex" "Virheellinen hakemisto"
-"VRApplicationError_UnknownApplication" "Tuntematon sovellus"
-"VRApplicationError_IPCFailed" "Sovellukseen ei saada yhteyttä"
-"VRApplicationError_ApplicationAlreadyRunning" "Sovellus on jo käynnissä"
-"VRApplicationError_InvalidManifest" "Virheellinen manifesti"
-"VRApplicationError_InvalidApplication" "Virheellinen sovellus"
-"VRApplicationError_LaunchFailed" "Sovelluksen käynnistäminen epäonnistui"
-"VRApplicationError_ApplicationAlreadyStarting" "Sovellus oli jo käynnistymässä"
-"VRApplicationError_LaunchInProgress" "Toinen sovellus oli jo käynnistymässä"
-"VRApplicationError_OldApplicationQuitting" "Toinen sovellus oli jo sulkeutumassa"
-"VRApplicationError_TransitionAborted" "Käyttäjä perui sovelluksen käynnistyksen"
-"VRApplicationError_IsTemplate" "Tämä on mallisovelluspohja"
-"VRApplicationError_SteamVRIsExiting" "SteamVR sulkeutuu"
-
+"ScanForBaseStations_Scanning"	"Haetaan tukiasemia...\n\n%1 sekuntia j
+"Settings_Advanced_AllowSupersampleFiltering" "Ota edistynyt supersampling-suodatus k
+"Settings_Advanced_DirectMode_Header" "Suora n
+"Settings_Advanced_MotionSmoothing" "Ota liikkeen pehmennys k
+"Settings_Advanced_MotionSmoothing_Description" "Syntetisoi uusia ruutuja, jotta katselu pysyy miellytt
+"Settings_Advanced_MotionSmoothing_Disabled" "N
+"Settings_Advanced_MotionSmoothing_Disabled_Win7" "Windowsin vanhemmat versiot eiv
+"Settings_Advanced_MotionSmoothing_Header" "Liikkeen pehmennys"
+"Settings_Advanced_Paths_Header" "Polut"
+"Settings_Advanced_RefreshRate_Header" "Virkistystaajuus"
+"Settings_Advanced_RefreshRate_HzSuffix" "Hz"
+"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>HUOMAA:</b> VR-lasit tukevat muita virkistystaajuuksia, mutta SteamVR ei voi hallinnoida virkistystaajuutta, kun VR-lasit ovat jatketussa tilassa. <a href='vrmonitor://directmode/enable'><span style='color:white;'>Ota suora tila k
+"Settings_Advanced_RefreshRate_NotFound" "<b>HUOMAA:</b> VR-lasit tukevat muita virkistystaajuuksia, mutta n
+"Settings_Advanced_Reset_Header" "Nollaus"
+"Settings_Advanced_Restart" "<i>Vireill
+"Settings_Advanced_RoomAndTracking_Header" "Huone ja seuranta"
+"Settings_Advanced_Status_Header" "Tilan tarkistus"
+"Settings_Advanced_SupersamplingManualOverride" "Ota mukautettu resoluutio k
+"Settings_Advanced_Supersampling_Header" "Sovelluksen kuvatarkkuus"
+"Settings_Advanced_Supersampling_Warning" "<b>VAROITUS:</b> N
+"Settings_Applications" "Sovellus"
+"Settings_ArcadeMode" "Ota arcade-tila k
+"Settings_Audio_AudioMirrorEnable"  "Ota 
+"Settings_Audio_AudioMirrorPlay"  "Peilaa 
+"Settings_Audio_AudioMirrorUnsupported"  "
+"Settings_Audio_AudioPlay"  "
+"Settings_Audio_AudioRecord"  "
+"Settings_Audio_Default"  "Oletus"
+"Settings_Audio_Device_HMD"  "VR-lasit"
+"Settings_Audio_Device_Other"  "Muut"
+"Settings_Audio_HDMIGain"  "Ota k
+"Settings_BaseStation_BaseStation10" "Tukiasema 1.0"
+"Settings_BaseStation_BaseStation20" "Tukiasema 2.0"
+"Settings_BaseStation_BluetoothBusy" "Odotetaan Bluetoothia..."
+"Settings_BaseStation_BluetoothRequired" "Laita Bluetooth p
+"Settings_BaseStation_ConfigureBaseStations" "M
+"Settings_BaseStation_ConfigureBaseStations_Explanation" "L
+"Settings_BaseStation_ContinueBaseStationUpdate" "Palautus keskeytyneen p
+"Settings_BaseStation_ContinueBaseStationUpdate_Explanation" "Korjaa tukiaseman normaalia seurantaa h
+"Settings_BaseStation_OpenSettingsBluetooth" "N
+"Settings_BaseStation_PowerManagement" "Virranhallinta"
+"Settings_BaseStation_PowerManagement_Explanation" "Her
+"Settings_BaseStation_ScanForBaseStations" "Etsi tukiasemia"
+"Settings_BaseStation_ScanForBaseStations_Explanation" "L
+"Settings_BaseStationsWakeUpAll" "Her
+"Settings_BaseStationsWakeUpAll_Explanation" "Her
+"Settings_BaseStations_Title" "Tukiaseman asetukset"
+"Settings_Bluetooth_Driver_Install" "Asenna Bluetooth-ajuri"
+"Settings_Bluetooth_Driver_Install_Description"	"Asenna linkkilaatikon Bluetooth-ajuri ottaaksesi langaton Bluetooth-yhteys k
+"Settings_Bluetooth_Driver_Update" "P
+"Settings_Bluetooth_Driver_Update_Description" "P
+"Settings_Bluetooth_RetryConnection" "Yrit
+"Settings_Bluetooth_ServicesNotAvailable" "Bluetooth ei ole k
+"Settings_Bluetooth_Title" "Bluetooth-asetukset"
+"Settings_CheckForSteam" "Tarkista Steam"
+"Settings_CheckStatus" "Tarkista tila"
+"Settings_Checks" "Tarkistukset"
+"Settings_ConfigPath" "Asetuspolku:"
+"Settings_Dashboard_Explanation" "N
+"Settings_DebugInputBindings" "Ota vianetsint
+"Settings_DefaultScreenshotType_Cubemap" "Cubemap"
+"Settings_DefaultScreenshotType_Info" "Valitse kuvakaappauksille oletustyyppi. Huomaa, etteiv
+"Settings_DefaultScreenshotType_Mono" "Normaali"
+"Settings_DefaultScreenshotType_MonoPanorama" "Mono-panoraama"
+"Settings_DefaultScreenshotType_Stereo" "Stereoskooppinen"
+"Settings_DefaultScreenshotType_StereoPanorama" "Stereo-panoraama"
+"Settings_DefaultScreenshotType_Text" "Kuvakaappaustyyppi:"
+"Settings_Developer_General_Header" "Kehitt
+"Settings_Developer_Info" "N
+"Settings_Developer_Text" "Kehitt
+"Settings_Developer_Title" "Kehitt
+"Settings_DisableEnhancedPowerManagement_Crash" "Apuohjelma kaatui.\nYrit
+"Settings_DisableEnhancedPowerManagement_FailToStart" "Apuohjelmaa ei voitu k
+"Settings_DisableEnhancedPowerManagement_Success" "Windowsin parannettu virranhallinta on poistettu k
+"Settings_DisplayMode" "N
+"Settings_DisplayMode_Extend" "Laajenna ty
+"Settings_DisplayMode_MirrorWindow" "VR-n
+"Settings_DoNotFadeToGrid" "
+"Settings_EnableDashboard" "Ota SteamVR-ty
+"Settings_EnableLinuxGPUProfiling" "Ota n
+"Settings_EnableScreenshots_Info" "Paina J
+"Settings_EnableScreenshots_Text" "Ota kuvakaappaukset k
+"Settings_Firmware_UpdateAvailable" "P
+"Settings_GiganticSpace" "Valtava tila"
+"Settings_GpuInfo_Current" "Nykyisill
+"Settings_GpuInfo_GpuDriver" "N
+"Settings_GpuInfo_GpuName" "N
+"Settings_GpuInfo_GpuSpeed" "N
+"Settings_GpuInfo_Header" "Laitteisto"
+"Settings_GpuInfo_Headset" "VR-lasit"
+"Settings_GpuInfo_NoHeadset" "VR-laseja ei l
+"Settings_GpuInfo_Recommended" "Suositusasetukset n
+"Settings_HomeAppCheck" "K
+"Settings_HomeAppDesc" "Nauti virtuaalisista ymp
+"Settings_Information_Title" "SteamVR"
+"Settings_LargeSpace" "Suuri tila"
+"Settings_LockedModeCheck" "Ota VR-lasit k
+"Settings_LogPath" "Lokipolku:"
+"Settings_MediumSpace" "Keskikokoinen tila"
+"Settings_NightModeCheck" "Y
+"Settings_NightModeDesc" "Himmenn
+"Settings_NotAvailableAtThisTime" "Kaikki asetukset eiv
+"Settings_NotificationDoNotDisturb_Info" " "
+"Settings_NotificationDoNotDisturb_Text" "
+"Settings_NotificationKnockKnock_Info" "Koputtamalla toiset saavat VR-lasien k
+"Settings_NotificationKnockKnock_Text" "N
+"Settings_Notifications" "Ilmoitukset"
+"Settings_OpenVRPaths" "OpenVR-polut"
+"Settings_PauseOnStandby" "Keskeyt
+"Settings_PerApplication_AppResFooter" "T
+"Settings_PerApplication_AppResHeader" "T
+"Settings_PerApplication_AppResTitle" "Mukautettu resoluutio"
+"Settings_PerApplication_CustomSuffix" "(Mukautettu)"
+"Settings_PerApplication_DashboardSuffix" "(Peitetasosovellus)"
+"Settings_PerApplication_Header" "K
+"Settings_PerApplication_MotionSmoothing_Checkbox_AlwaysOn" "Pakota aina p
+"Settings_PerApplication_MotionSmoothing_Checkbox_Default" "K
+"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOff" "Aina pois p
+"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOn" "Aina k
+"Settings_PerApplication_MotionSmoothing_Header" "Liikkeen pehmennys"
+"Settings_PerApplication_MotionSmoothing_Off" "Poistettu k
+"Settings_PerApplication_MotionSmoothing_On" "P
+"Settings_PerApplication_OverlayVisibleCheckbox" "K
+"Settings_PerApplication_OverlayVisibleHeader" "Peitetasosovellukset n
+"Settings_PerApplication_Reprojection_Checkbox" "K
+"Settings_PerApplication_Reprojection_Description" "Valinta poistaa pelilt
+"Settings_PerApplication_Reprojection_Header" "Uudelleenprojisointi"
+"Settings_PerfCheck" "Tarkista suorituskyky"
+"Settings_Refresh" "P
+"Settings_RemoveAllRelevantUSBDevices_Crash" "USB-laitteiden poiston apuohjelma kaatui.\nYrit
+"Settings_RemoveAllRelevantUSBDevices_FailToStart" "USB-laitteiden poiston apuohjelma ei k
+"Settings_RemoveAllRelevantUSBDevices_PartialSuccess" "Kaikkia USB-laitteita ei voitu poistaa. Yrit
+"Settings_RemoveAllRelevantUSBDevices_Success" "Kaikki USB-laitteet on poistettu. Irrota kaikki VR:n USB-kaapelit ja k
+"Settings_RemoveAllRelevantUSBDevices_Text" "T
+"Settings_RemoveAllUSBDevices" "Poista kaikki SteamVR:n USB-laitteet"
+"Settings_Reset" "Nollaa"
+"Settings_ResetChaperoneToDK2Default" "Nollaa Chaperone-tiedot Oculus Rift DK2-oletustiedoiksi"
+"Settings_ResetChaperoneToHeadsetInMiddleOfFloor" "Nollaa Chaperone VR-laseihin keskelle lattiaa"
+"Settings_ResetCompleteSetupAndQuit" "Nollaa kaikki asetukset ja k
+"Settings_ResetQtSettings" "Nollaa Qt-asetukset"
+"Settings_ResetQtSettings_Text" "Olet nollaamassa Qt-asetuksia.\n\nOletko varma?"
+"Settings_ResetRuntimeAndQuit" "Nollaa k
+"Settings_ResetRuntimeBasedOnVRMonitorAndQuit_Text" "T
+"Settings_RestartText" "<html><B>K
+"Settings_RuntimePath" "K
+"Settings_SelectConfigPath" "Valitse asetuspolku"
+"Settings_SelectLogPath" "Valitse lokipolku"
+"Settings_SelectRuntimePath" "Valitse k
+"Settings_Set" "Aseta..."
+"Settings_SetSelectedPaths" "Aseta valitut polut"
+"Settings_ShowPlaylistMenu" "N
+"Settings_SmallSpace" "Pieni tila"
+"Settings_StartSteamVROnAppLaunch" "K
+"Settings_StatusWindowAlwaysOnTop_Info" " "
+"Settings_StatusWindowAlwaysOnTop_Text" "N
+"Settings_StatusWindowHidePopups_Text" "Hiljenn
+"Settings_StatusWindowMinimizeToTray_Text" "Pienenn
+"Settings_Title" "SteamVR-asetukset"
+"Settings_USB_Component_Audio" "
+"Settings_USB_Component_Camera" "Kamera"
+"Settings_USB_Component_Dongle1" "Langaton vastaanotin 1"
+"Settings_USB_Component_Dongle2" "Langaton vastaanotin 2"
+"Settings_USB_Component_HTCBoard" "P
+"Settings_USB_Component_Hub" "Keskus"
+"Settings_USB_Component_HubBluetooth" "Bluetooth"
+"Settings_USB_Component_HubController" "USB-hubin ohjain"
+"Settings_USB_Component_WatchmanBoard" "J
+"Settings_USB_EnhancedStatus" "N
+"Settings_USB_LookingForConnections" "<b>Tarkistetaan laitteiden kytkent
+"Settings_USB_NoDevicesFound" "<font color=red><b>Vive-laitteita ei ole kytketty.</b></font>"
+"Settings_USB_PressRefresh" "<b>Klikkaa P
+"Settings_USB_Refresh" "P
+"Settings_USB_ViveDevices" "<b>Laitteet:</b>"
+"Settings_USB_ViveHeadsetHeader" "<b>VR-lasit</b>"
+"Settings_USB_ViveLinkBoxHeader" "<b>Vive-linkkilaatikko</b>"
+"Settings_UseBluetoothLink_Info" "Bluetoothin kautta p
+"Settings_UseBluetoothLink_Text" "Ota Bluetooth k
+"ShutdownWhileAppRunning_Format" "Sulkee my
+"ShutdownWhileAppRunning_Title" "Suljetaanko SteamVR?"
+"Startup_DisplayLinkIsInstalled" "DisplayLink ei ole yhteensopiva SteamVR:n kanssa. Poista DisplayLink-ajurit sek
+"Startup_OpenGLIsNotInstalled" "Asenna OpenGL ennen kuin k
+"StatusCheckInterval_Never" "Ei koskaan"
+"StatusCheckInterval_Normal" "Normaali (1 s)"
+"StatusCheckInterval_Often" "Usein (100 ms)"
+"StatusCheckInterval_Seldom" "Harvoin (5 s)"
+"StatusError_Chaperone_Error" "Chaperone-j
+"StatusError_CompositorNotFullscreen" "SteamVR:lle oleellinen osa ei toimi oikein."
+"StatusError_CompositorNotRunning" "SteamVR:lle oleellinen osa ei toimi oikein."
+"StatusError_CompositorTooManyRunning" "SteamVR:lle oleellinen osa ei toimi oikein."
+"StatusError_HMDDoesNotTrack" "VR-lasit eiv
+"StatusError_LighthouseEvent" "Seurantaj
+"StatusError_NoCompositorAvailable" "SteamVR:lle oleellinen osa ei toimi oikein."
+"StatusError_NoHMDAvailable" "VR-laseja ei k
+"StatusError_PrismNotRunning" "SteamVR:lle oleellinen osa ei toimi oikein."
+"StatusError_SteamVRServiceNotInstalled" "SteamVR-apuohjelmaa ei ole asennettu."
+"StatusError_TrackingDevice_NotValid" "Laitetta ei tunnistettu."
+"StatusError_UnknownError" "Tuntematon virhe (%1)" 
+"StatusError_VRServerNotRunning" "SteamVR:lle oleellinen osa ei toimi oikein."
+"StatusWarning_System_Chaperone_Warning" "Kartoita huone"
+"StatusWarning_System_ConnectionRefusedBySteam" "Ongelmia yhteyden muodostamisessa..."
+"StatusWarning_System_NeedDirectModeGraphicsDriverUpdate" "P
+"StatusWarning_System_NoSteamAvailable" "K
+"StatusWarning_TrackingDevice_FirmwareUpdateNeeded" "Laite on p
+"StatusWarning_TrackingDevice_NoPose" "Haetaan..."
+"StatusWarning_UnknownWarning" "Tuntematon varoitus (0x%1)"
+"Status_Base" "Tukiasema"
+"Status_Controller" "Ohjain"
+"Status_HMD" "VR-lasit"
+"Status_MenuButton_SteamVR" "SteamVR"
+"Status_MenuButton_SteamVR_Branch" "SteamVR %1"
+"Status_Quitting" "Suljetaan"
+"Status_Starting" "K
+"Status_Title" "SteamVR-tila"
+"SteamUniverse_Beta" "Beta"
+"SteamUniverse_Dev" "Dev"
+"SteamUniverse_Internal" "Sis
+"SteamUniverse_InvalidSteamUniverse" "Virheellinen Steam Universe"
+"SteamUniverse_NoSteamAvailable" "Steam-virhe"
+"SteamUniverse_Public" "Julkinen"
+"SteamVRSystemState_Connecting" "Haetaan..."
+"SteamVRSystemState_Connecting_Application_InsideOutCamera" "Varmista, ett
+"SteamVRSystemState_Connecting_Application_Lighthouse" "Varmista, ett
+"SteamVRSystemState_Connecting_Application_OutsideInCamera" "Varmista, ett
+"SteamVRSystemState_Installing" "Laitteiston asennus k
+"SteamVRSystemState_NotReady" " "
+"SteamVRSystemState_Off" "Pois k
+"SteamVRSystemState_PauseRequested" "Pys
+"SteamVRSystemState_Paused" "Pys
+"SteamVRSystemState_Paused_FirmwareUpdate" "P
+"SteamVRSystemState_PseudoState_Waiting" "Odottaa..."
+"SteamVRSystemState_PseudoState_Welcome" "Tervetuloa"
+"SteamVRSystemState_PseudoState_Welcome_Application" "Kytke VR-lasisi"
+"SteamVRSystemState_Ready" "Nyt peliss
+"SteamVRSystemState_Ready_Application" "%1"
+"SteamVRSystemState_Restart" "K
+"SteamVRSystemState_Shutdown" "VR suljetaan..."
+"SteamVRSystemState_ShutdownRequested" "VR suljetaan..."
+"SteamVRSystemState_Standby" "Valmiustilassa"
+"SteamVRSystemState_Standby_Application" "Her
+"SteamVRSystemState_Startup" "K
+"SteamVRSystemState_UnpauseRequested" "K
+"SystemReport_Chaperone" "Chaperone"
+"SystemReport_Configuration" "M
+"SystemReport_CopyToClipboard" "Kopioi leikep
+"SystemReport_Data" "Data"
+"SystemReport_Devices" "Laitteet"
+"SystemReport_DiscoverChaperone" "Etsit
+"SystemReport_DiscoverConfiguration" "Etsit
+"SystemReport_DiscoverDevices" "Etsit
+"SystemReport_DiscoverDisplays" "Etsit
+"SystemReport_DiscoverIssues" "Etsit
+"SystemReport_DiscoverLighthouseDB" "Etsit
+"SystemReport_DiscoverUSB" "Etsit
+"SystemReport_Entry_SteamVR" "SteamVR"
+"SystemReport_Issues" "Ongelmat"
+"SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Logs" "Lokitiedostot"
+"SystemReport_Main" "Yleinen"
+"SystemReport_PrepareLogs" "Valmistellaan lokitiedostoja"
+"SystemReport_PrepareReport" "Valmistellaan raporttia"
+"SystemReport_Progress_ParseReport" "J
+"SystemReport_Raw" "Raaka"
+"SystemReport_RawText" "Raakateksti"
+"SystemReport_Refresh" "P
+"SystemReport_SaveSystemReport" "Tallenna j
+"SystemReport_SaveToFile" "Tallenna tiedostoon"
+"SystemReport_System" "J
+"SystemReport_Title" "J
+"SystemReport_USB" "USB"
+"SystemReport_UnableToOpenFile" "Tiedostoa ei voitu avata"
+"Tokens"
+"TrackedDeviceClass_Controller" "Ohjain"
+"TrackedDeviceClass_GenericTracker" "J
+"TrackedDeviceClass_HMD" "VR-lasit"
+"TrackedDeviceClass_Invalid" "Virheellinen"
+"TrackedDeviceClass_TrackingReference" "Tukiasema"
+"TrackedDeviceClass_Unknown"  "Tuntematon seurattu laite"
+"TrayIcon_Tooltip_vrmonitor" "SteamVR-tila"
+"VRApplicationError_AppKeyAlreadyExists" "Sovellus on jo rekister
+"VRApplicationError_ApplicationAlreadyRunning" "Sovellus on jo k
+"VRApplicationError_ApplicationAlreadyStarting" "Sovellus oli jo k
 "VRApplicationError_BufferTooSmall" "Annettu puskuri oli liian pieni"
-"VRApplicationError_PropertyNotSet" "Ominaisuutta ei ole asetettu"
-"VRApplicationError_UnknownProperty" "Tunnistamaton ominaisuus"
+"VRApplicationError_IPCFailed" "Sovellukseen ei saada yhteytt
+"VRApplicationError_InvalidApplication" "Virheellinen sovellus"
+"VRApplicationError_InvalidIndex" "Virheellinen hakemisto"
+"VRApplicationError_InvalidManifest" "Virheellinen manifesti"
 "VRApplicationError_InvalidParameter" "Virheellinen parametri"
-
-"Key_Escape_Abbreviation" "ESC"
-
-"HeadsetView_Title" "VR-näkymä"
-"HeadsetView_MenuLabel" "Valikko"
-"HeadsetView_PressKeyToExit" "Paina %1 poistuaksesi koko ruudun tilasta"
-"HeadsetView_FullscreenButtonLabel" "Kokoruutu"
-"HeadsetView_DockButtonLabel" "Kiinnitä VR-näkymä"
-"HeadsetView_UndockButtonLabel" "Irrota VR-näkymä"
-"HeadsetView_HideButtonLabel" "Piilota VR-näkymä"
-"HeadsetView_EyeMode_Both" "Molemmat silmät"
-"HeadsetView_EyeMode_Left" "Vasen silmä"
-"HeadsetView_EyeMode_Right" "Oikea silmä"
-"HeadsetView_EyeMode_BothLeftDominant" "Molemmat silmät – vasen silmä dominoiva"
-"HeadsetView_EyeMode_BothRightDominant" "Molemmat silmät – oikea silmä dominoiva"
-"HeadsetView_DebugCommands" "Avaa virheenkorjauskomennot"
-}
-}
+"VRApplicationError_IsTemplate" "T
+"VRApplicationError_LaunchFailed" "Sovelluksen k
+"VRApplicationError_LaunchInProgress" "Toinen sovellus oli jo k
+"VRApplicationError_NoApplication" "Ei sovellusta"
+"VRApplicationError_NoManifest" "Sovelluksen manifesti puuttuu"
+"VRApplicationError_None" "Ei virhett
+"VRApplicationError_OldApplicationQuitting" "Toinen sovellus oli jo sulkeutumassa"
+"VRApplicationError_PropertyNotSet" "Ominaisuutta ei ole asetettu"
+"VRApplicationError_SteamVRIsExiting" "SteamVR sulkeutuu"
+"VRApplicationError_TransitionAborted" "K
+"VRApplicationError_UnknownApplication" "Tuntematon sovellus"
+"VRApplicationError_UnknownProperty" "Tunnistamaton ominaisuus"
+"VRController_NoDisplay" "Ei n
+"VRController_NoDriver" "Ei ajuria"
+"VRManifest_Imported_Message" "OpenVR Manifest-tiedosto tuotu: \n %1"
+"VRManifest_Imported_Title" "OpenVR Manifest-tiedosto tuotu"
+"VRState_Off" "Pois k
+"VRState_Ready" "Valmis"
+"VRState_Searching" "Haetaan..."
+"VRState_SearchingWithAlert" "Haetaan..."
+"VRState_Standby" "Valmiustilassa"
+"WorkshopUpload_Cancel"			"Peruuta"
+"WorkshopUpload_Desc"			"Kuvaus"
+"WorkshopUpload_DialogTitle"	"SteamVR Workshop -l
+"WorkshopUpload_Error"			"Virhe"
+"WorkshopUpload_Error_CannotCreateUploadDir"		"V
+"WorkshopUpload_Error_DescTooLong"	"Kuvaus saa olla korkeintaan 8 000 merkki
+"WorkshopUpload_Error_Generic"		"Tiedoston l
+"WorkshopUpload_Error_InvalidType_MainFile_Background"		"Taustakuvien t
+"WorkshopUpload_Error_InvalidType_MainFile_Basestation"		"Tukiaseman mallitiedoston t
+"WorkshopUpload_Error_InvalidType_MainFile_Camera"			"Kameran mallitiedoston t
+"WorkshopUpload_Error_InvalidType_MainFile_Controller"		"Ohjaimen mallitiedostojen t
+"WorkshopUpload_Error_InvalidType_MainFile_Environment"		"Ymp
+"WorkshopUpload_Error_InvalidType_Thumbnail_Background"	"Esikatselukuvien t
+"WorkshopUpload_Error_InvalidType_Thumbnail_Basestation"	"Esikatselukuvien t
+"WorkshopUpload_Error_InvalidType_Thumbnail_Camera"	"Esikatselukuvien t
+"WorkshopUpload_Error_InvalidType_Thumbnail_Controller"	"Esikatselukuvien t
+"WorkshopUpload_Error_InvalidType_Thumbnail_Environment"	"Esikatselukuvien t
+"WorkshopUpload_Error_LimitExceeded"	"Steam-virhe: kokoraja ylitetty. Varmista, ett
+"WorkshopUpload_Error_NoDesc"		"Anna kuvaus"
+"WorkshopUpload_Error_NoFile_MainFile"		"Valitse kelvollinen tiedosto"
+"WorkshopUpload_Error_NoFile_Thumbnail"		"Valitse kelvollinen esikatselukuva"
+"WorkshopUpload_Error_NoItemsToEdit"	"Muokattavia tiedostoja ei l
+"WorkshopUpload_Error_NoTitle"	"Anna nimi"
+"WorkshopUpload_Error_SteamClientNotFound"	"SteamVR Workshop -l
+"WorkshopUpload_Error_TooLarge_MainFile"		"Tiedostot saavat olla kooltaan korkeintaan 1 Gt"
+"WorkshopUpload_Error_TooLarge_Thumbnail"		"Esikatselukuvan koon tulee olla alle 1 Mt"
+"WorkshopUpload_ImagesFilter"	"Kuvat (*.jpg *.png)"
+"WorkshopUpload_MainFile"		"Tiedosto"
+"WorkshopUpload_NoItem"			"(Uusi)"
+"WorkshopUpload_ObjFilter"		"Mallit (*.obj)"
+"WorkshopUpload_Progress_CommittingChanges"		"Viimeistell
+"WorkshopUpload_Progress_PreparingConfig"		"Valmistellaan m
+"WorkshopUpload_Progress_PreparingContent"		"K
+"WorkshopUpload_Progress_Start"		"Luodaan yhteytt
+"WorkshopUpload_Progress_Title"		"SteamVR Workshop"
+"WorkshopUpload_Progress_UploadingContent"		"L
+"WorkshopUpload_Progress_UploadingPreview"		"L
+"WorkshopUpload_SelectContentType"	"Tyyppi"
+"WorkshopUpload_SelectContentType_Background"	"Tausta"
+"WorkshopUpload_SelectContentType_Basestation"	"Tukiasemamalli"
+"WorkshopUpload_SelectContentType_Camera"		"Kameramalli"
+"WorkshopUpload_SelectContentType_Controller"	"Ohjainmalli"
+"WorkshopUpload_SelectContentType_Environment"	"Ymp
+"WorkshopUpload_SelectExisting"	"Muokkaa"
+"WorkshopUpload_SelectImage"	"Valitse kuva"
+"WorkshopUpload_Tag_Abstract"					"Abstrakti"
+"WorkshopUpload_Tag_City"						"Kaupunki"
+"WorkshopUpload_Tag_Game"						"Peli"
+"WorkshopUpload_Tag_Nature"						"Luonto"
+"WorkshopUpload_Tag_Space"						"Avaruus"
+"WorkshopUpload_Tag_Tech"						"Teknologia"
+"WorkshopUpload_Tags"							"Tunnisteet"
+"WorkshopUpload_Thumbnail"		"Esikatselutiedosto (400 x 300, enint
+"WorkshopUpload_Title"			"Nimi"
+"WorkshopUpload_Upload"			"L
+"WorkshopUpload_Visibility"			"N
+"WorkshopUpload_Visibility_FriendsOnly"		"Vain kavereille"
+"WorkshopUpload_Visibility_Private"			"Yksityinen"
+"WorkshopUpload_Visibility_Public"			"Julkinen"
+"lang"
+"oculus_display_lost" "Oculuksen yhteys n
+"oculus_requested_quit" "Oculus-j
+, VR-lasit on p
+, etk
+, ja her
+, jotta tukiasema voidaan p
+, jotta voit muuttaa sit
+, koska Steam-asiakasohjelma ei ole k
+, kun ohjaimen voi pariliitt
+, kun p
+, lis
+, sosiaalisista toiminnoista ja muusta."
+, tai ajurit ovat vanhentuneita."
+, virranhallintaa k
+-painiketta ja pit
+-painiketta ja ved
+-painiketta. K
+-painikkeita pohjassa, kunnes kuulet ohjaimen 
+. Edell
+. Jos kokemasi ongelma jatkuu, tutustu <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>SteamVR-kehitt
+. Laitteet t
+. Varmista, ett
+...</b>"
+.<p>Haluatko varmasti ottaa vikasietotilan pois k
+.\nVarmista, ett
+.\n\nHaluatko jatkaa?"
+.\n\nT
+.\n\nTahdotko jatkaa?"
+? SteamVR k
+aikaa."
+asetukset ja -valinnat kehitt
+asetukset k
+asetukset"
+hakemisto"
+hakemisto:"
+hemmin uudelleen."
+hemmin uudelleen.\n"
+hemmin"
+hennys VIVE HDMI -ulostulossa"
+hestyt k
+hetet
+hetett
+hettimen p
+hetys ep
+hetys onnistui.\n\nSaat pian vahvistusviestin s
+hetyshakemiston luonti ep
+hetysty
+hteest
+inen p
+inen sovellus"
+inen"
+inti, kun VR-lasit ovat toimettomina"
+iritse 
+iritsev
+iseen valintaan."
+isen ohjelman resoluutiota k
+isen p
+iset varoitukset (0x0010)"
+isi alkaa vilkkua sinisen
+isyydell
+ityy."
+ivitet
+ivitett
+ivitettiin onnistuneesti. Saatat joutua irrottamaan ja kytkem
+ivitettiin onnistuneesti. Saatat joutua sammuttamaan ja k
+ivitetty onnistuneesti. Saatat joutua sammuttamaan ja k
+ivitt
+ivittettiin onnistuneesti. Saatat joutua irrottamaan ja kytkem
+ivittyess
+ivityksen aikana."
+ivityksen ajaksi.<br>
+ivityksen kanava-asetusten m
+ivityksen palauttaminen vaatii Bluetooth-yhteyden.\n\nOta Bluetooth-yhteys k
+ivityksen vuoksi"
+ivityksen"
+ivityksen, jotta laitteen tunnistusta voidaan k
+ivityksen.<br><br><font color=#aaaa00>Irrota tukiasemaan liitetty USB-johto.</font>"
+ivityksen.<ul><li><font color=#aaaa00>Irrota tukiaseman virtajohto.<li>Irrota tukiasemaan kytketty USB-johto.<li>Kytke vain tukiaseman virtajohto uudelleen.<li>Odota 30 sekuntia, ett
+ivitykset rekister
+ivityksi
+ivityksiin ja VR-laitteistojen lis
+ivitys (0x0100)"
+ivitys alkaa automaattisesti VR-lasiesi tunnistamisen j
+ivitys alkaa automaattisesti, kun ohjain on tunnistettu."
+ivitys edellytet
+ivitys ei edelleenk
+ivitys ep
+ivitys k
+ivitys keskeytetty. T
+ivitys on jo k
+ivitys on valmis.</font></ul><br>Tukiaseman LED saattaa sammua sis
+ivitys onnistui."
+ivitys rekister
+ivitys saatavilla"
+ivitys tapahtuu langattomasti. 
+ivitys vaatii langatonta yhteytt
+ivitys voi tapahtua manuaalisesti tai langattomasti."
+ivitys"
+ivitys"		
+ivitys. Irrota ja kytke tukiaseman virtajohto uudelleen."
+ivitys."
+ivitysnopeutta."
+ivitysprosessin palautus"
+ivityst
+ivitystietoja saatavilla"
+jen wiki"
+jien foorumeihin</a> saadaksesi apua."
+jille"
+kalu"
+kalua ei voitu k
+kalut"
+kelvottomaksi."
+kelvottoman."
+kelvottomat."
+kohtaista SteamVR-tukea, k
+ksesi langattomia toimintoja, kuten tukiaseman virranhallintaa ja p
+ksesi lis
+ksesi mahdolliset j
+ksesi ongelmia."
+ksesi uudelleen."
+ksy polut ja k
+ksynyt vaadittua kanavan m
+kyviin, kun l
+kyvyys"
+liaikaisen l
+liaikaiset varoitukset on nollattu, ja ne n
+liittym
+lilehte
+lilehtin
+ljell
+ljitin ei sammunut, sammuta se painamalla J
+ljitin on yhdistetty kunnolla tietokoneeseen mikro-USB-kaapelilla. Jos toiminto ei viel
+ljitin p
+ljitin tietokoneeseesi micro-USB-kaapelilla. Voit k
+ljitin"
+ljitint
+ljittimen k
+ljittimen lataamiseen k
+ljittimen p
+ljittimen uudelleen, jotta p
+ljittimesi tunnistetaan."
+ljittimi
+ljityslaitteen p
+ljitysongelmat."
+ljitysvalikko"
+lkeen laitteet uudelleen.\n"
+lkeen. Haluatko jatkaa?"
+lkeen."
+lkeen.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Lis
+lle  ja valitse P
+lle (Huomaa! Sovellusten kuvataajuus puolittuu)"
+lle k
+lle tukiasemalle v
+lle, eik
+llimm
+malli"
+mallitiedostojen t
+minen ep
+minen k
+minen saattaa korjata VR-lasien USB-ongelmat."
+miseen niiden diagnosointia varten."
+miseksi."
+misen."
+misess
+n (BETA)"
+n 1 Mt)"
+n Chaperonea"
+n LighthouseDB:t
+n SteamVR uudelleen..."
+n SteamVR:
+n USB-laitteita"
+n VR-laseihin..."
+n VR-laseja. T
+n VR-lasien virtajohdon uudelleen ennen kuin p
+n VR..."
+n asetuksista."
+n esikatselutiedostoa..."
+n huomion."
+n ja SteamVR:n lokitietojen ker
+n kanava t
+n katkesi. K
+n laitetta...."
+n laitteen p
+n laitteita"
+n laitteita..."
+n langattomia vastaanottimia..."
+n molemmat silm
+n muutoksen j
+n muutoksia j
+n muutoksia laitteen p
+n odottamattomia kosketuksia."
+n ohjaimen uudelleen ennen kuin p
+n ohjainta. T
+n ohjainta..."
+n ohjelman j
+n ongelmia"
+n onnistu, sulje SteamVR ja irrota tukiaseman virtajohto. K
+n onnistu, sulje SteamVR ja irrota virtajohto VR-laseistasi. Kytke sitten virtajohto takaisin, k
+n onnistu, sulje SteamVR. Jos j
+n onnistu, sulje SteamVR. Jos ohjain ei sammunut, sammuta se painamalla J
+n onnistu: <ul><li>Sulje SteamVR.<li>Irrota ja kytke linkkilaatikon virtajohto uudelleen.<li>Irrota ja kytke tukiaseman virtajohto uudelleen.<li>K
+n onnistu: <ul><li>Sulje SteamVR.<li>Irrota ja kytke tukiaseman virtajohto uudelleen.<li>K
+n onnistu: <ul><li>Sulje SteamVR.<li>Irrota kaikki tukiasemaan kytketyt USB-johdot.<li>
+n tarkkuudella: <font color=#eeeeee>%1x%2</font>"
+n tarvittaessa uudelleen."
+n tiedostoja..."
+n toiminnon k
+n tukiasemaa %1 kanavalle %2"
+n tukiasemaa. T
+n tukiaseman uudelleen ennen kuin p
+n tukiaseman virtajohdon uudelleen ennen kuin p
+n tukiasemia...\n\n%1 sekuntia j
+n tukiasemia...\n\nHaku kesken."
+n tukiasemiin...\n"
+n vahvistuksen v
+n videosovellusten resoluutioasetusten kanssa. Sovellus t
+n, kun tietokone on lukittu"
+n, ymp
+n... %1%"
+n..."
+n.</span></a>"
+n.\n"
+nen peilaus k
+nen peilausta ei tueta t
+nen ulostulolaite"
+nenvoimakkuus"
+nenvoimakkuus:"
+nhetkiselle valinnalle ei ole tilatietoja."
+nhetkisen suorituspalvelun\n%2\nSteamVR:n suorituspolun perusteella\n%3\n"
+nhetkisen suorituspolun perusteella."
+nhetkisen valinnan tila: keskeytetty"
+nhetkisill
+ni laitteeseen"
+nikortin p
+nilaite"
+nimerkin.\n\nOhjaimen valon pit
+nimerkki ennen loppua:"
+nimerkki ennen valinnan loppua (sekunnissa)"
+nitulolaite"
+nnistyy.<br>"
+nohjaimelle ja virtuaalitodellisuuslaseille ovat"
+nohjaimen (GPU) suorituskyky VR-laseissa"
+nohjaimen ajuri ei havaitse niit
+nohjaimen ajuri"
+nohjaimen ajurit ovat ajan tasalla."
+nohjaimen mitattu nopeus"
+nohjaimen nimi"
+nohjaimesi suorituskyvyn mukaan."
+nohjain ei tue liikkeen pehmennyst
+nohjainprofilointi k
+noton j
+notossa."
+nottamiseksi. Siirry VR-lasien kuvakkeen p
+notto edellytt
+ntarkkuusasetus vaikuttaa kaikkiin sovelluksiin. Vaihtaaksesi yksitt
+nvalvojan oikeudet."
+nvalvojana.\n"
+ohjaus VR-laseissa"
+ohjaus"
+onnistui (0x0800)"
+onnistui yhteyden muodostamisessa. Klikkaa P
+onnistui!"
+onnistui"
+onnistui' (0)"
+onnistui, mutta ei virhett
+onnistui. Klikkaa P
+onnistui. Klikkaa Yrit
+onnistui. Tarkista linkkilaatikon kytkenn
+onnistui. Virhe: %1."
+onnistui."
+onnistui.\n\nBugien ker
+onnistui.\n\nVerkkoon lataaminen kest
+onnistui.\n\nVirhekoodi: BR-%1"
+piirilevy"
+postiisi."
+puolen CHANNEL-painikkeen pohjaan, kytke tukiaseman virtajohto."
+raportin katseluohjelma"
+raportin, jota Valve k
+raportti ja lokitiedot"
+raportti"
+ritell
+rityksen k
+ritykset"
+rityksi
+ritys tehty.\n\nJ
+ritys tehty.\n\nKanavien v
+ritys vaatii Bluetooth-yhteyden.\n\nOta Bluetooth-yhteys k
+ritys"
+rityst
+rjestelm
+rkeysaste:"
+s sovelluksen %1. Haluatko k
+s sovelluksen %1. Haluatko sulkea nyt?"
+set tukiasemien langattomaan virranhallintaan, laitteistop
+si perusteella."
+sitell
+t Bluetooth-tavoitettavuutensa."
+t SteamVR:
+t SteamVR:n uudelleen</span></a></i>"
+t VR-lasit"
+t kanavat."
+t lepotilaan. Tukiasemat aktivoituvat uudelleen, kun SteamVR k
+t lepotilaan..."
+t monet VR-sovellukset ehk
+t nyt t
+t ole saatavilla t
+t peilaavat (0x1000)"
+t pelialueen"
+t ratkaisemaan vain %1/%2 mahdollista kanavakonfliktia. Jatketaanko ja ratkaistaanko ongelmat?"
+t seuraa."
+t toistolistat"
+t tue liikkeen pehmennyst
+t tukiasemat siirtyv
+t tukiasemat"
+t, irrota ja kytke virtajohto ja k
+t. Irrota ja kytke virtajohdot nollataksesi linkkilaatikko ja k
+t...</b>"
+tiedot"
+tietoa klikkaamalla kanavan linkki
+tietoja"
+tietoja</a>."
+tila k
+tila"
+tilan k
+tilan poistaminen k
+toimintoihin."
+tuki"
+valmiina."
+varoitus (0x10000)"
+varoitus (0x4000)"
+virhe"
+y nopeammin."
+y tukisivustollamme."
+ydetty"
+ydetty. Laitteistop
+ydetty. Tarkista SteamVR-asennuksesi."
+ydetty."
+ydy l
+ynniss
+ynnist
+ynnistet
+ynnistett
+ynnistetty uudelleen)."
+ynnistyess
+ynnistyksen"
+ynnistym
+ynnistynyt. Sovelluksen k
+ynnistynyt.\nVarmistathan, ett
+ynnistynyt.\n\n%1\n\nVoit nollata t
+ynnistynyt: %2."
+ynnistys ep
+ynnistys saattaa korjata USB-ongelmat."
+ynnistyshakemiston perusteella."
+ynnistyspolku SteamVR:n sijaintiin ja k
+ynnistyspolku"
+ynnistyspolku:"
+ynnistyst
+ynnistystiedoston polku"
+ynnistysviive"
+ynnistyy automaattisesti, kun j
+ynnistyy automaattisesti, kun tukiasemasi on tunnistettu. Voit p
+ynnistyy uudelleen muutoksen j
+ynnistyy uudelleen suoran n
+ynnistyy uudelleen t
+ynnistyy uudelleen."
+ynnistyy."
+ynnistyy... ]"
+ytett
+ytetty seurantaan."
+ytetty"
+ytyi l
+ytynyt yht
+ytynyt"
+ytynyt."
+ytynyt.\n\nSteamVR voi asettaa asennuspolun sen t
+ytyy ehk
+ytyy irrottaa virtal
+ytyy olla .obj-tiedosto"
+ytyy olla .obj-tiedostoja"
+ytyy olla .png tai .jpg -tiedostoja"
+ytyy olla .png tai .jpg-tiedostoja"
+ytyy olla kytketty kunnolla, jotta pariliitos voidaan muodostaa uusiin ohjaimiin."
+ytyy p
+ytyy sammuttaa ainakin yksi ohjaimistasi. Vain kaksi ohjainta voi olla yhdistettyn

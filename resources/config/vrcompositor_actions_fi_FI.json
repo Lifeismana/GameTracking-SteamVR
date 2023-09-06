@@ -1,53 +1,68 @@
-{
-	"language_tag": "fi_FI",
-	"/actions/system/in/OpenDashboard": "Avaa työpöytä",
-	"/actions/system/in/CloseDashboard": "Sulje työpöytä",
-	"/actions/system/in/ToggleDashboard": "Työpöytä ON/OFF",
-	"/actions/system/in/TakeScreenshot": "Ota kuvakaappaus",
-	"/actions/system/in/ToggleRoomView": "Huonenäkymä ON/OFF",
-	"/actions/system/in/SystemButtonChord": "Järjestelmän toimintatila",
-	"/actions/system/in/ShowPowerMenu": "Näytä virranhallintavalikko",
-	"/actions/lasermouse/in/leftclick": "Hiiren vasen klikkaus",
-	"/actions/lasermouse/in/rightclick": "Hiiren oikea klikkaus",
-	"/actions/lasermouse/in/lockmouseposition": "Lukitse hiiren sijainti",
-	"/actions/lasermouse/in/home": "Alkuun",
+	"/actions/chord": "J
+	"/actions/dualanalog": "N
+	"/actions/dualanalog/in/cancel": "Sulje n
+	"/actions/dualanalog/in/leftclick": "N
+	"/actions/dualanalog/in/lefttouch": "Vasen n
+	"/actions/dualanalog/in/leftvalue": "Vasen n
+	"/actions/dualanalog/in/modeswitch1": "N
+	"/actions/dualanalog/in/modeswitch2": "N
+	"/actions/dualanalog/in/rightclick": "N
+	"/actions/dualanalog/in/righttouch": "Oikea n
+	"/actions/dualanalog/in/rightvalue": "Oikea n
+	"/actions/lasermouse": "Laserhiiri",
 	"/actions/lasermouse/in/back": "Takaisin",
-	"/actions/lasermouse/in/moveright": "Siirry oikealle",
-	"/actions/lasermouse/in/moveup": "Siirry ylös",
-	"/actions/lasermouse/in/moveleft": "Siirry vasemmalle",
+	"/actions/lasermouse/in/enter": "Anna",
+	"/actions/lasermouse/in/home": "Alkuun",
+	"/actions/lasermouse/in/leftclick": "Hiiren vasen klikkaus",
+	"/actions/lasermouse/in/lockmouseposition": "Lukitse hiiren sijainti",
 	"/actions/lasermouse/in/movedown": "Siirry alas",
-	"/actions/lasermouse/in/trackpadtouch": "Kosketuslevyn kosketus",
-	"/actions/lasermouse/in/trackpadvalue": "Kosketuslevyn liike",
+	"/actions/lasermouse/in/moveleft": "Siirry vasemmalle",
+	"/actions/lasermouse/in/moveright": "Siirry oikealle",
+	"/actions/lasermouse/in/moveup": "Siirry yl
+	"/actions/lasermouse/in/pointer": "Laserhiiren osoitin",
+	"/actions/lasermouse/in/rightclick": "Hiiren oikea klikkaus",
 	"/actions/lasermouse/in/switchgamepadfocus": "Vaihda paneelin kohdistusta (Gamepad)",
 	"/actions/lasermouse/in/trackpadscroll": "Vierityspaneeli",
-	"/actions/lasermouse/in/enter": "Anna",
-	"/actions/lasermouse/in/pointer": "Laserhiiren osoitin",
-	"/actions/scroll_discrete/in/scroll": "Vierityspaneeli",
-	"/actions/scroll_smooth/in/scroll": "Vierityspaneeli",
-	"/actions/lasermouse_secondary/in/switchlaserhand": "Aktiivinen käsi (muutos)",
-	"/actions/dualanalog/in/rightclick": "Näppäimistön oikea klikkaus",
-	"/actions/dualanalog/in/leftclick": "Näppäimistön vasen klikkaus",
-	"/actions/dualanalog/in/righttouch": "Oikea näppäimistön kosketus",
-	"/actions/dualanalog/in/lefttouch": "Vasen näppäimistön kosketus",
-	"/actions/dualanalog/in/rightvalue": "Oikea näppäimistön liike",
-	"/actions/dualanalog/in/leftvalue": "Vasen näppäimistön liike",
-	"/actions/dualanalog/in/modeswitch1": "Näytä isot kirjaimet",
-	"/actions/dualanalog/in/modeswitch2": "Näytä erikoismerkit",
-	"/actions/dualanalog/in/cancel": "Sulje näppäimistö",
-	"/actions/system/in/systembuttonchord": "Järjestelmän toimintatila",
-	"/actions/system/in/toggleroomview": "Huonenäkymä ON/OFF",
-	"/actions/system/in/volumeup": "Lisää äänenvoim.",
-	"/actions/system/in/volumedown": "Pienennä äänenvoim.",
-	"/actions/system/in/toggledashboard": "Työpöytä ON/OFF",
-	"/actions/system/in/showpowermenu": "Näytä virranhallintavalikko",
-	"/actions/system/in/takescreenshot": "Ota kuvakaappaus",
-	"/actions/system/in/mutemicrophone": "Mykistä mikrofoni",
-	"/actions/normal": "Normaalitila",
-	"/actions/chord": "Järjestelmän yhdistelmäpainikkeet",
-	"/actions/lasermouse": "Laserhiiri",
+	"/actions/lasermouse/in/trackpadtouch": "Kosketuslevyn kosketus",
+	"/actions/lasermouse/in/trackpadvalue": "Kosketuslevyn liike",
 	"/actions/lasermouse_secondary": "Erikoislaserhiiri",
-	"/actions/dualanalog": "Näppäimistösyöte",
-	"/actions/system": "Järjestelmätoiminnot",
+	"/actions/lasermouse_secondary/in/switchlaserhand": "Aktiivinen k
+	"/actions/normal": "Normaalitila",
 	"/actions/scroll_discrete": "Hiirirullan kaltainen vieritys",
+	"/actions/scroll_discrete/in/scroll": "Vierityspaneeli",
 	"/actions/scroll_smooth": "Kosketuslevyn kaltainen vieritys"
-}
+	"/actions/scroll_smooth/in/scroll": "Vierityspaneeli",
+	"/actions/system": "J
+	"/actions/system/in/CloseDashboard": "Sulje ty
+	"/actions/system/in/OpenDashboard": "Avaa ty
+	"/actions/system/in/ShowPowerMenu": "N
+	"/actions/system/in/SystemButtonChord": "J
+	"/actions/system/in/TakeScreenshot": "Ota kuvakaappaus",
+	"/actions/system/in/ToggleDashboard": "Ty
+	"/actions/system/in/ToggleRoomView": "Huonen
+	"/actions/system/in/mutemicrophone": "Mykist
+	"/actions/system/in/showpowermenu": "N
+	"/actions/system/in/systembuttonchord": "J
+	"/actions/system/in/takescreenshot": "Ota kuvakaappaus",
+	"/actions/system/in/toggledashboard": "Ty
+	"/actions/system/in/toggleroomview": "Huonen
+	"/actions/system/in/volumedown": "Pienenn
+	"/actions/system/in/volumeup": "Lis
+	"language_tag": "fi_FI",
+ ON/OFF",
+ erikoismerkit",
+ isot kirjaimet",
+ mikrofoni",
+ virranhallintavalikko",
+imist
+n kosketus",
+n liike",
+n oikea klikkaus",
+n toimintatila",
+n vasen klikkaus",
+n yhdistelm
+nenvoim.",
+painikkeet",
+rjestelm
+si (muutos)",
+toiminnot",

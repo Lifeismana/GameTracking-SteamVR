@@ -1,53 +1,51 @@
-{
+	"/actions/chord": "
+	"/actions/dualanalog": "
+	"/actions/dualanalog/in/cancel": "
+	"/actions/dualanalog/in/leftclick": "
+	"/actions/dualanalog/in/lefttouch": "
+	"/actions/dualanalog/in/leftvalue": "
+	"/actions/dualanalog/in/modeswitch1": "
+	"/actions/dualanalog/in/modeswitch2": "
+	"/actions/dualanalog/in/rightclick": "
+	"/actions/dualanalog/in/righttouch": "
+	"/actions/dualanalog/in/rightvalue": "
+	"/actions/lasermouse": "
+	"/actions/lasermouse/in/back": "
+	"/actions/lasermouse/in/enter": "
+	"/actions/lasermouse/in/home": "
+	"/actions/lasermouse/in/leftclick": "
+	"/actions/lasermouse/in/lockmouseposition": "
+	"/actions/lasermouse/in/movedown": "
+	"/actions/lasermouse/in/moveleft": "
+	"/actions/lasermouse/in/moveright": "
+	"/actions/lasermouse/in/moveup": "
+	"/actions/lasermouse/in/pointer": "
+	"/actions/lasermouse/in/rightclick": "
+	"/actions/lasermouse/in/switchgamepadfocus": "
+	"/actions/lasermouse/in/trackpadscroll": "
+	"/actions/lasermouse/in/trackpadtouch": "
+	"/actions/lasermouse/in/trackpadvalue": "
+	"/actions/lasermouse_secondary": "
+	"/actions/lasermouse_secondary/in/switchlaserhand": "
+	"/actions/normal": "
+	"/actions/scroll_discrete": "
+	"/actions/scroll_discrete/in/scroll": "
+	"/actions/scroll_smooth": "
+	"/actions/scroll_smooth/in/scroll": "
+	"/actions/system": "
+	"/actions/system/in/CloseDashboard": "
+	"/actions/system/in/OpenDashboard": "
+	"/actions/system/in/ShowPowerMenu": "
+	"/actions/system/in/SystemButtonChord": "
+	"/actions/system/in/TakeScreenshot": "
+	"/actions/system/in/ToggleDashboard": "
+	"/actions/system/in/ToggleRoomView": "
+	"/actions/system/in/mutemicrophone": "
+	"/actions/system/in/showpowermenu": "
+	"/actions/system/in/systembuttonchord": "
+	"/actions/system/in/takescreenshot": "
+	"/actions/system/in/toggledashboard": "
+	"/actions/system/in/toggleroomview": "
+	"/actions/system/in/volumedown": "
+	"/actions/system/in/volumeup": "
 	"language_tag": "bg_BG",
-	"/actions/system/in/OpenDashboard": "Отваряне на таблото",
-	"/actions/system/in/CloseDashboard": "Затваряне на таблото",
-	"/actions/system/in/ToggleDashboard": "Превключване на таблото",
-	"/actions/system/in/TakeScreenshot": "Направа на снимка",
-	"/actions/system/in/ToggleRoomView": "Превключване на стаен изглед",
-	"/actions/system/in/SystemButtonChord": "Режим за системна дейност",
-	"/actions/system/in/ShowPowerMenu": "Показване на менюто за захранване",
-	"/actions/lasermouse/in/leftclick": "Ляв клик с мишка",
-	"/actions/lasermouse/in/rightclick": "Десен клик с мишка",
-	"/actions/lasermouse/in/lockmouseposition": "Заключване на позицията на мишката",
-	"/actions/lasermouse/in/home": "Към началото",
-	"/actions/lasermouse/in/back": "Назад",
-	"/actions/lasermouse/in/moveright": "Надясно",
-	"/actions/lasermouse/in/moveup": "Нагоре",
-	"/actions/lasermouse/in/moveleft": "Наляво",
-	"/actions/lasermouse/in/movedown": "Надолу",
-	"/actions/lasermouse/in/trackpadtouch": "Допир на тракпад",
-	"/actions/lasermouse/in/trackpadvalue": "Движение на тракпад",
-	"/actions/lasermouse/in/switchgamepadfocus": "Превключване на фокуса за панела (геймпад)",
-	"/actions/lasermouse/in/trackpadscroll": "Скролиране на панела",
-	"/actions/lasermouse/in/enter": "Въвеждане",
-	"/actions/lasermouse/in/pointer": "Показател на лазерна мишка",
-	"/actions/scroll_discrete/in/scroll": "Скролиране на панела",
-	"/actions/scroll_smooth/in/scroll": "Скролиране на панела",
-	"/actions/lasermouse_secondary/in/switchlaserhand": "Ставане на активна ръка",
-	"/actions/dualanalog/in/rightclick": "Кликване по дясна клавиатура",
-	"/actions/dualanalog/in/leftclick": "Кликване по лява клавиатура",
-	"/actions/dualanalog/in/righttouch": "Допир по дясна клавиатура",
-	"/actions/dualanalog/in/lefttouch": "Допир по лява клавиатура",
-	"/actions/dualanalog/in/rightvalue": "Движение по дясна клавиатура",
-	"/actions/dualanalog/in/leftvalue": "Движение по лява клавиатура",
-	"/actions/dualanalog/in/modeswitch1": "Показване на главни",
-	"/actions/dualanalog/in/modeswitch2": "Показване на символи",
-	"/actions/dualanalog/in/cancel": "Затваряне на клавиатура",
-	"/actions/system/in/systembuttonchord": "Режим за системна дейност",
-	"/actions/system/in/toggleroomview": "Превключване на стаен изглед",
-	"/actions/system/in/volumeup": "Увеличаване на звука",
-	"/actions/system/in/volumedown": "Намаляване на звука",
-	"/actions/system/in/toggledashboard": "Превключване на таблото",
-	"/actions/system/in/showpowermenu": "Показване на менюто за захранване",
-	"/actions/system/in/takescreenshot": "Направа на снимка",
-	"/actions/system/in/mutemicrophone": "Заглушаване на микрофона",
-	"/actions/normal": "Нормална функционалност",
-	"/actions/chord": "Системни бутонни акорди",
-	"/actions/lasermouse": "Лазерна мишка",
-	"/actions/lasermouse_secondary": "Спомагателна лазерна мишка",
-	"/actions/dualanalog": "Въвеждане с клавиатура",
-	"/actions/system": "Системни дейности",
-	"/actions/scroll_discrete": "Скролиране в стил колело на мишка",
-	"/actions/scroll_smooth": "Скролиране в стил тракпад"
-}

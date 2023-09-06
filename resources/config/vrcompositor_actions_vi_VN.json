@@ -1,53 +1,65 @@
-{
+	"/actions/chord": "T
+	"/actions/dualanalog": "Nh
+	"/actions/dualanalog/in/cancel": "
+	"/actions/dualanalog/in/leftclick": "Nh
+	"/actions/dualanalog/in/lefttouch": "Ch
+	"/actions/dualanalog/in/leftvalue": "Di chuy
+	"/actions/dualanalog/in/modeswitch1": "Hi
+	"/actions/dualanalog/in/modeswitch2": "Hi
+	"/actions/dualanalog/in/rightclick": "Nh
+	"/actions/dualanalog/in/righttouch": "Ch
+	"/actions/dualanalog/in/rightvalue": "Di chuy
+	"/actions/lasermouse": "Chu
+	"/actions/lasermouse/in/back": "Quay l
+	"/actions/lasermouse/in/enter": "Nh
+	"/actions/lasermouse/in/home": "V
+	"/actions/lasermouse/in/leftclick": "Nh
+	"/actions/lasermouse/in/lockmouseposition": "Kh
+	"/actions/lasermouse/in/movedown": "
+	"/actions/lasermouse/in/moveleft": "Qua tr
+	"/actions/lasermouse/in/moveright": "Qua ph
+	"/actions/lasermouse/in/moveup": "L
+	"/actions/lasermouse/in/pointer": "Con tr
+	"/actions/lasermouse/in/rightclick": "Nh
+	"/actions/lasermouse/in/switchgamepadfocus": "Chuy
+	"/actions/lasermouse/in/trackpadscroll": "Cu
+	"/actions/lasermouse/in/trackpadtouch": "Ch
+	"/actions/lasermouse/in/trackpadvalue": "Di chuy
+	"/actions/lasermouse_secondary": "Chu
+	"/actions/lasermouse_secondary/in/switchlaserhand": "Tr
+	"/actions/normal": "Ho
+	"/actions/scroll_discrete": "Cu
+	"/actions/scroll_discrete/in/scroll": "Cu
+	"/actions/scroll_smooth": "Cu
+	"/actions/scroll_smooth/in/scroll": "Cu
+	"/actions/system": "Ho
+	"/actions/system/in/CloseDashboard": "
+	"/actions/system/in/OpenDashboard": "M
+	"/actions/system/in/ShowPowerMenu": "Hi
+	"/actions/system/in/SystemButtonChord": "Ch
+	"/actions/system/in/TakeScreenshot": "Ch
+	"/actions/system/in/ToggleDashboard": "B
+	"/actions/system/in/ToggleRoomView": "B
+	"/actions/system/in/mutemicrophone": "T
+	"/actions/system/in/showpowermenu": "Hi
+	"/actions/system/in/systembuttonchord": "Ch
+	"/actions/system/in/takescreenshot": "Ch
+	"/actions/system/in/toggledashboard": "B
+	"/actions/system/in/toggleroomview": "B
+	"/actions/system/in/volumedown": "Gi
+	"/actions/system/in/volumeup": "T
 	"language_tag": "vi_VN",
-	"/actions/system/in/OpenDashboard": "Mở trang tổng quan",
-	"/actions/system/in/CloseDashboard": "Đóng trang tổng quan",
-	"/actions/system/in/ToggleDashboard": "Bật tắt trang tổng quan",
-	"/actions/system/in/TakeScreenshot": "Chụp ảnh",
-	"/actions/system/in/ToggleRoomView": "Bật tắt hiển thị phòng",
-	"/actions/system/in/SystemButtonChord": "Chế độ hoạt động hệ thống",
-	"/actions/system/in/ShowPowerMenu": "Hiện trình đơn điện năng",
-	"/actions/lasermouse/in/leftclick": "Nhấp chuột trái",
-	"/actions/lasermouse/in/rightclick": "Nhấp chuột phải",
-	"/actions/lasermouse/in/lockmouseposition": "Khóa vị trí chuột",
-	"/actions/lasermouse/in/home": "Về trang chủ",
-	"/actions/lasermouse/in/back": "Quay lại",
-	"/actions/lasermouse/in/moveright": "Qua phải",
-	"/actions/lasermouse/in/moveup": "Lên trên",
-	"/actions/lasermouse/in/moveleft": "Qua trái",
-	"/actions/lasermouse/in/movedown": "Đi xuống",
-	"/actions/lasermouse/in/trackpadtouch": "Chạm bàn cảm ứng",
-	"/actions/lasermouse/in/trackpadvalue": "Di chuyển bàn cảm ứng",
-	"/actions/lasermouse/in/switchgamepadfocus": "Chuyển đổi trọng tâm bảng (Tay cầm)",
-	"/actions/lasermouse/in/trackpadscroll": "Cuộn bảng",
-	"/actions/lasermouse/in/enter": "Nhập",
-	"/actions/lasermouse/in/pointer": "Con trỏ chuột laser",
-	"/actions/scroll_discrete/in/scroll": "Cuộn bảng",
-	"/actions/scroll_smooth/in/scroll": "Cuộn bảng",
-	"/actions/lasermouse_secondary/in/switchlaserhand": "Trở thành tay hoạt động",
-	"/actions/dualanalog/in/rightclick": "Nhấp phải bàn phím",
-	"/actions/dualanalog/in/leftclick": "Nhấp trái bàn phím",
-	"/actions/dualanalog/in/righttouch": "Chạm phải bàn phím",
-	"/actions/dualanalog/in/lefttouch": "Chạm trái bàn phím",
-	"/actions/dualanalog/in/rightvalue": "Di chuyển phải bàn phím",
-	"/actions/dualanalog/in/leftvalue": "Di chuyển trái bàn phím",
-	"/actions/dualanalog/in/modeswitch1": "Hiện chữ in hoa",
-	"/actions/dualanalog/in/modeswitch2": "Hiện biểu tượng",
-	"/actions/dualanalog/in/cancel": "Đóng bàn phím",
-	"/actions/system/in/systembuttonchord": "Chế độ hoạt động hệ thống",
-	"/actions/system/in/toggleroomview": "Bật tắt hiển thị phòng",
-	"/actions/system/in/volumeup": "Tăng âm lượng",
-	"/actions/system/in/volumedown": "Giảm âm lượng",
-	"/actions/system/in/toggledashboard": "Bật tắt trang tổng quan",
-	"/actions/system/in/showpowermenu": "Hiện trình đơn điện năng",
-	"/actions/system/in/takescreenshot": "Chụp ảnh",
-	"/actions/system/in/mutemicrophone": "Tắt mic",
-	"/actions/normal": "Hoạt động bình thường",
-	"/actions/chord": "Tổ hợp phím hệ thống",
-	"/actions/lasermouse": "Chuột laser",
-	"/actions/lasermouse_secondary": "Chuột lade tay nghịch",
-	"/actions/dualanalog": "Nhập dữ liệu bàn phím",
-	"/actions/system": "Hoạt động hệ thống",
-	"/actions/scroll_discrete": "Cuộn kiểu nút cuộn chuột",
-	"/actions/scroll_smooth": "Cuộn kiểu bàn cảm ứng"
-}
+ in hoa",
+ trang ch
+ trang t
+n chu
+ng (Tay c
+ng quan",
+ng trang t
+nh tay ho
+nh th
+p chu
+t lade tay ngh
+t laser",
+t mic",
+t trang t

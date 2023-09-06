@@ -1,11 +1,10 @@
-<root>
-	<styles>
+		<DestinationsTutorialPanel id="DestinationsTutorialPanel" />
+		<SteamToursContentBrowser id="SteamToursContentBrowser" />
 		<include src="s2r://panorama/styles/base_styles.vcss_c" />
 	</styles>
-
 	<ClientUIDialogPanel>
-		<SteamToursContentBrowser id="SteamToursContentBrowser" />
-		<DestinationsTutorialPanel id="DestinationsTutorialPanel" />
+	<styles>
  		<DestinationsSettingsPanel id="DestinationsSettingsPanel" />
  	</ClientUIDialogPanel>
 </root>
+<root>

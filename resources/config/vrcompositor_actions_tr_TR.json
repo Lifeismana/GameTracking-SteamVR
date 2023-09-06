@@ -1,53 +1,76 @@
-{
-	"language_tag": "tr_TR",
-	"/actions/system/in/OpenDashboard": "Panoyu Aç",
-	"/actions/system/in/CloseDashboard": "Panoyu Kapat",
-	"/actions/system/in/ToggleDashboard": "Panoyu Aç/Kapat",
-	"/actions/system/in/TakeScreenshot": "Ekran Görüntüsü Al",
-	"/actions/system/in/ToggleRoomView": "Oda Görüntüsünü Aç/Kapat",
-	"/actions/system/in/SystemButtonChord": "Sistem Eylem Modu",
-	"/actions/system/in/ShowPowerMenu": "Güç Menüsünü Göster",
-	"/actions/lasermouse/in/leftclick": "Sol Fare Tıklaması",
-	"/actions/lasermouse/in/rightclick": "Sağ Fare Tıklaması",
-	"/actions/lasermouse/in/lockmouseposition": "Fare Konumu Kilitle",
-	"/actions/lasermouse/in/home": "Ana Sayfaya Git",
-	"/actions/lasermouse/in/back": "Geri Dön",
-	"/actions/lasermouse/in/moveright": "Sağa Hareket Et",
-	"/actions/lasermouse/in/moveup": "Yukarı Hareket Et",
-	"/actions/lasermouse/in/moveleft": "Sola Hareket Et",
-	"/actions/lasermouse/in/movedown": "Aşağı Hareket Et",
-	"/actions/lasermouse/in/trackpadtouch": "Yön Kumandası Dokunuşu",
-	"/actions/lasermouse/in/trackpadvalue": "Yön Kumandası Hareketi",
-	"/actions/lasermouse/in/switchgamepadfocus": "Panel Odağını Değiştir (Oyun Kumandası)",
-	"/actions/lasermouse/in/trackpadscroll": "Panel Değiştir",
-	"/actions/lasermouse/in/enter": "Gir",
-	"/actions/lasermouse/in/pointer": "Lazer Fare İşaretçisi",
-	"/actions/scroll_discrete/in/scroll": "Kaydırma Paneli",
-	"/actions/scroll_smooth/in/scroll": "Kaydırma Paneli",
-	"/actions/lasermouse_secondary/in/switchlaserhand": "Aktif El Olsun",
-	"/actions/dualanalog/in/rightclick": "Sağ Klavye Tıklaması",
-	"/actions/dualanalog/in/leftclick": "Sol Klavye Tıklaması",
-	"/actions/dualanalog/in/righttouch": "Sağ Klavye Dokunması",
-	"/actions/dualanalog/in/lefttouch": "Sol Klavye Dokunması",
-	"/actions/dualanalog/in/rightvalue": "Sağ Klavye Hareketi",
-	"/actions/dualanalog/in/leftvalue": "Sol Klavye Hareketi",
-	"/actions/dualanalog/in/modeswitch1": "Büyük Harfleri Göster",
-	"/actions/dualanalog/in/modeswitch2": "Simgeleri Göster",
-	"/actions/dualanalog/in/cancel": "Klavyeyi Kapat",
-	"/actions/system/in/systembuttonchord": "Sistem Eylem Modu",
-	"/actions/system/in/toggleroomview": "Oda Görüntüsünü Aç/Kapat",
-	"/actions/system/in/volumeup": "Ses Yükseltme",
-	"/actions/system/in/volumedown": "Ses Azaltma",
-	"/actions/system/in/toggledashboard": "Panoyu Aç/Kapat",
-	"/actions/system/in/showpowermenu": "Güç Menüsünü Göster",
-	"/actions/system/in/takescreenshot": "Ekran Görüntüsü Al",
-	"/actions/system/in/mutemicrophone": "Mikrofonun Sesini Kapat",
-	"/actions/normal": "Normal işleyiş",
-	"/actions/chord": "Sistem Tuşu Kısayolları",
-	"/actions/lasermouse": "Lazer Fare",
-	"/actions/lasermouse_secondary": "İkincil Eldeki Lazer Fare",
+	"/actions/chord": "Sistem Tu
 	"/actions/dualanalog": "Klavye Girdisi",
+	"/actions/dualanalog/in/cancel": "Klavyeyi Kapat",
+	"/actions/dualanalog/in/leftclick": "Sol Klavye T
+	"/actions/dualanalog/in/lefttouch": "Sol Klavye Dokunmas
+	"/actions/dualanalog/in/leftvalue": "Sol Klavye Hareketi",
+	"/actions/dualanalog/in/modeswitch1": "B
+	"/actions/dualanalog/in/modeswitch2": "Simgeleri G
+	"/actions/dualanalog/in/rightclick": "Sa
+	"/actions/dualanalog/in/righttouch": "Sa
+	"/actions/dualanalog/in/rightvalue": "Sa
+	"/actions/lasermouse": "Lazer Fare",
+	"/actions/lasermouse/in/back": "Geri D
+	"/actions/lasermouse/in/enter": "Gir",
+	"/actions/lasermouse/in/home": "Ana Sayfaya Git",
+	"/actions/lasermouse/in/leftclick": "Sol Fare T
+	"/actions/lasermouse/in/lockmouseposition": "Fare Konumu Kilitle",
+	"/actions/lasermouse/in/movedown": "A
+	"/actions/lasermouse/in/moveleft": "Sola Hareket Et",
+	"/actions/lasermouse/in/moveright": "Sa
+	"/actions/lasermouse/in/moveup": "Yukar
+	"/actions/lasermouse/in/pointer": "Lazer Fare 
+	"/actions/lasermouse/in/rightclick": "Sa
+	"/actions/lasermouse/in/switchgamepadfocus": "Panel Oda
+	"/actions/lasermouse/in/trackpadscroll": "Panel De
+	"/actions/lasermouse/in/trackpadtouch": "Y
+	"/actions/lasermouse/in/trackpadvalue": "Y
+	"/actions/lasermouse_secondary": "
+	"/actions/lasermouse_secondary/in/switchlaserhand": "Aktif El Olsun",
+	"/actions/normal": "Normal i
+	"/actions/scroll_discrete": "Fare tekerle
+	"/actions/scroll_discrete/in/scroll": "Kayd
+	"/actions/scroll_smooth": "Y
+	"/actions/scroll_smooth/in/scroll": "Kayd
 	"/actions/system": "Sistem Eylemleri",
-	"/actions/scroll_discrete": "Fare tekerleği gibi kaydırma",
-	"/actions/scroll_smooth": "Yön kumandası gibi kaydırma"
-}
+	"/actions/system/in/CloseDashboard": "Panoyu Kapat",
+	"/actions/system/in/OpenDashboard": "Panoyu A
+	"/actions/system/in/ShowPowerMenu": "G
+	"/actions/system/in/SystemButtonChord": "Sistem Eylem Modu",
+	"/actions/system/in/TakeScreenshot": "Ekran G
+	"/actions/system/in/ToggleDashboard": "Panoyu A
+	"/actions/system/in/ToggleRoomView": "Oda G
+	"/actions/system/in/mutemicrophone": "Mikrofonun Sesini Kapat",
+	"/actions/system/in/showpowermenu": "G
+	"/actions/system/in/systembuttonchord": "Sistem Eylem Modu",
+	"/actions/system/in/takescreenshot": "Ekran G
+	"/actions/system/in/toggledashboard": "Panoyu A
+	"/actions/system/in/toggleroomview": "Oda G
+	"/actions/system/in/volumedown": "Ses Azaltma",
+	"/actions/system/in/volumeup": "Ses Y
+	"language_tag": "tr_TR",
+ Al",
+ Dokunu
+ Fare T
+ Hareket Et",
+ Hareketi",
+ Klavye Dokunmas
+ Klavye Hareketi",
+ Klavye T
+ gibi kayd
+/Kapat",
+a Hareket Et",
+i gibi kayd
+isi",
+k Harfleri G
+kincil Eldeki Lazer Fare",
+klamas
+kseltme",
+n Kumandas
+n kumandas
+rma Paneli",
+rma",
+sayollar
+ster",
+tir (Oyun Kumandas
+tir",

@@ -1,4 +1,3 @@
-$tI
 %%.%if%s
 %*s%s %s --> %d blocks = %s (%s larger)
 %*s%s %s --> %d blocks = %s (new)
@@ -11,17 +10,12 @@ $tI
 %d frames sampled for %.2f seconds
 %d validator nodes, %d nodes larger than %s
 %d.%d.%d.%d:%d
-%i%s
-%lf
-%p
 %s %i %s
 %s (%d) :
 %s --> %d blocks = %s
 %s/.steam/steam
-%u
 (%zu) Descend: %s, (%s), %s
 (%zu) readdir failed to find '%s' in '%s'
-*
 ***** OUT OF MEMORY! attempted allocation size: %zu ****
 - file:%s, line:%u ,time:%04u%02u%02u%02u%02u%02u
 -- Hierarchical Call Graph --
@@ -41,8 +35,6 @@ $tI
 -nocrashdialog
 -stack=
 -steamos
-.
-/
 /e%s%s
 /home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/threadtools.h
 /home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/vprof.h
@@ -61,7 +53,6 @@ $tI
 <unknown>
 AllocateCrashMemoryReserve
 Anonymous mutex cannot have bAllAccess == true
-Apr
 Apr  9 2018
 AreStackTrackingFiltersEnabledAtStart
 Assert( %s ):%s:%d
@@ -102,7 +93,6 @@ Assertion Failed: ret == 0
 Assertion Failed: stack%2d: %s
 Assertion Failed: stack%2d: 0x%llX
 Attempting to create a named event with a null name
-Aug
 AuthenticAMD
 Average %.2f fps, %.2f ms per frame
 Avg Time/Frame (ms)
@@ -174,10 +164,8 @@ CreateInterface
 CreateSimpleProcess
 CreateVProfile
 DBG_PATHMATCH
-DLog
 DONT_BREAK_ON_ASSERT
 DWarning
-Dec
 DeclareCurrentThreadIsMainThread
 Deleting thread object from the thread, this is bad
 DoNewAssertDialog
@@ -190,10 +178,8 @@ Failed to generate callstack
 Fatal Assertion Failed: %s
 Fatal assert
 Fatal assert failed: %s, line %d.  Application exiting.
-Feb
 FileSystem
 FreeCrashMemoryReserve
-GB
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
 GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
 GLIBCXX_3.4
@@ -206,7 +192,6 @@ GLIBC_2.3.2
 GLIBC_2.3.3
 GLIBC_2.3.4
 GLIBC_2.4
-GNU
 GameOverlayUI
 GetAvailableRAM
 GetCPUInformation()
@@ -223,10 +208,7 @@ GetSpewAndLogLevel
 GetSpewAndLogLevelByGroupIndex
 GetSpewOutputFunc
 GetStackTrackingFilter
-GiB
-HOME
 HasStackTrackingFilters
-IPC
 IVALIDATE001
 Ignoring resume of count %d
 Illegal termination of worker thread '%s'
@@ -240,38 +222,24 @@ IsInAssert
 IsLogActive
 IsSpewActive
 IsStackTrackingFiltered
-Jan
 Jobs/Coroutines
-Jul
-Jun
-KB
-KiB
-Log
 Logger
 Logical bytes allocated (no heap overhead/fragmentation, but includes sbh block size overhead): %s
 Lowered '%s' -> '%s'
-MB
-Mar
 Matched '%s' -> '%s'
-May
 MemFree:
 MemTotal:
-MiB
 MiniDumpUnlock
 Minidumps written:
-Msg
 Network
 No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
 No samples during profile period.
 No tracked allocs currently in use. Total %d
-Nov
 OUT OF MEMORY
-Oct
 Only thread can stop self: Use a higher-level protocol
 Out of thread local storage!
 OverlayInput
 OverlayRendering
-P2P
 POSIX does not support inheriting full mutexes
 Peak %.2f ms frame
 Plat_AbsoluteTime
@@ -319,11 +287,9 @@ RealGetCallStack
 RealPrintCallStack
 RealPrintRawCallStack
 ReleaseThreadHandle
-Root
 RunCallbacks
 Scope                                                      Calls  Time+Child    Pct        Time    Pct   Avg+Child         Avg        Peak
 Semaphore name (%s) is longer than POSIX can handle, truncating.
-Sep
 ServerMain
 SetAssertDumpStack
 SetAssertFailedNotifyFunc
@@ -534,11 +500,9 @@ Total bytes allocated counted: %s
 TracerPid:
 Tracked allocs currently in use. %d Total %d
 Tried to create a thread that has already been created!
-USER
 Unable to determine CPU Frequency. Try defining CPU_MHZ.
 Unaccounted
 Unmatched %s
-VGUI
 VPROF Report for Thread: %d - %s
 Validate Failed: Leaked connection %u
 Validate Failed: Leaked file %p
@@ -642,7 +606,6 @@ __xstat64
 __xstat64@@GLIBC_2.2.5
 __xstat@@GLIBC_2.2.5
 _edata
-_end
 _exit@@GLIBC_2.2.5
 _fini
 _init
@@ -657,7 +620,6 @@ backtrace@@GLIBC_2.2.5
 backtrace_symbols
 backtrace_symbols@@GLIBC_2.2.5
 bytes
-ceil
 ceil@@GLIBC_2.2.5
 ceilf
 ceilf@@GLIBC_2.2.5
@@ -702,11 +664,9 @@ fopen
 fopen64
 fopen64@@GLIBC_2.2.5
 fopen@@GLIBC_2.2.5
-fork
 fork@@GLIBC_2.2.5
 fputs
 fputs@@GLIBC_2.2.5
-free
 free@@GLIBC_2.2.5
 freopen
 freopen@@GLIBC_2.2.5
@@ -774,7 +734,6 @@ mkdir
 mkdir@@GLIBC_2.2.5
 mkfifo
 mkfifo@@GLIBC_2.2.5
-mmap
 mmap@@GLIBC_2.2.5
 mount
 mount@@GLIBC_2.2.5
@@ -785,7 +744,6 @@ munmap@@GLIBC_2.2.5
 nanosleep
 nanosleep@@GLIBC_2.2.5
 nattypeprobe.so
-nice
 nice@@GLIBC_2.2.5
 open64@@GLIBC_2.2.5
 open@@GLIBC_2.2.5
@@ -967,7 +925,6 @@ threadtools.cpp
 time@@GLIBC_2.2.5
 timegm@@GLIBC_2.2.5
 timezone@@GLIBC_2.2.5
-true
 typeinfo for SteamThreadTools::CThread
 typeinfo for int
 typeinfo name for SteamThreadTools::CThread
@@ -991,11 +948,8 @@ vtable for SteamThreadTools::CThread
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtune
-wa+
 waitpid
 waitpid@@GLIBC_2.2.5
 x86_64
 xlocale
 xmemory
-zD
-|

@@ -1,1247 +1,2100 @@
-"lang"
-{
-"Language" "czech"
-"Tokens"
-{
-
-"VRController_NoDriver" "Chybí ovladač"
-"VRController_NoDisplay" "Chybí displej"
-"SteamUniverse_NoSteamAvailable" "Chyba klienta služby Steam"
-"SteamUniverse_InvalidSteamUniverse" "Neplatný klient služby Steam"
-"SteamUniverse_Public" "Veřejný"
-"SteamUniverse_Beta" "Beta"
-"SteamUniverse_Internal" "Neveřejný"
-"SteamUniverse_Dev" "Vývojářský"
-"CompositorError_NoCompositorRequested" "Chyba režimu SteamVR"
-"CompositorError_Running" "Spuštěno"
-"VRState_Off" "Vypnuto"
-"VRState_Searching" "Vyhledávání..."
-"VRState_SearchingWithAlert" "Vyhledávání..."
-"VRState_Ready" "Připraveno"
-"VRState_Standby" "V režimu standby"
-"Startup_OpenGLIsNotInstalled" "Před používáním režimu SteamVR nainstalujte OpenGL."
-"Startup_DisplayLinkIsInstalled" "DisplayLink není kompatibilní s režimem SteamVR. Odinstalujte jeho ovladače a software ze svého počítače a před dalším používáním režimu SteamVR počítač restartujte."
-
-"StatusError_NoHMDAvailable" "Není dostupný žádný headset."
-"StatusError_HMDDoesNotTrack" "Pohyb Vašeho headsetu není sledován."
-"StatusError_NoCompositorAvailable" "Klíčový komponent režimu SteamVR nepracuje správně."
-"StatusError_CompositorNotFullscreen" "Klíčový komponent režimu SteamVR nepracuje správně."
-"StatusError_CompositorNotRunning" "Klíčový komponent režimu SteamVR nepracuje správně."
-"StatusError_CompositorTooManyRunning" "Klíčový komponent režimu SteamVR nepracuje správně."
-"StatusError_PrismNotRunning" "Klíčový komponent režimu SteamVR nepracuje správně."
-"StatusError_VRServerNotRunning" "Klíčový komponent režimu SteamVR nepracuje správně."
-"StatusError_TrackingDevice_NotValid" "Toto zařízení nebylo rozpoznáno."
-"StatusError_Chaperone_Error" "Režim SteamVR se potýká s chybou systému Chaperone."
-"StatusError_LighthouseEvent" "Režim SteamVR se potýká s chybou systému Lighthouse."
-"StatusError_SteamVRServiceNotInstalled" "Pomocná služba režimu SteamVR není nainstalována."
-"StatusError_UnknownError" "Neznámá chyba (%1)" 
-
-"StatusWarning_System_NoSteamAvailable" "Spusťte klienta služby Steam"
-"StatusWarning_System_Chaperone_Warning" "Proveďte přípravu místnosti"
-"StatusWarning_TrackingDevice_FirmwareUpdateNeeded" "Je vyžadována aktualizace zařízení"
-"StatusWarning_TrackingDevice_NoPose" "Vyhledávání..."
-"StatusWarning_System_ConnectionRefusedBySteam" "Klient služby Steam má problémy s připojením..."
-"StatusWarning_System_NeedDirectModeGraphicsDriverUpdate" "Aktualizujte ovladač grafické karty"
-"StatusWarning_UnknownWarning" "Neznámé upozornění (0x%1)"
-
-"DismissableWarning_DismissButton" "Zavřít"
-"DismissableWarning_RunTutorialAgain" "Opětovné spuštění tutoriálu (0x0001)"
-"DismissableWarning_BasestationsTooFarApart" "Základní stanice jsou od sebe příliš daleko (0x0002)"
-"DismissableWarning_OpticalBasestationSyncWarning" "Upozornění základní stanice (0x0004)"
-"DismissableWarning_BasestationSingleBaseModeHint" "Nápověda základní stanice (0x0008)"
-"DismissableWarning_WarningsForTheFirstTime" "Obnovení upozornění (0x0010)"
-"DismissableWarning_MissedFrames" "Vypadlé snímky (0x0020)"
-"DismissableWarning_PowerSchemeIsNotHighPerformance" "Problém s výkonem (0x0040)"
-"DismissableWarning_BluetoothDriverNeedsInstallation" "Je vyžadován ovladač Bluetooth (0x0080)"
-"DismissableWarning_BluetoothDriverNeedsUpdate" "Je vyžadována aktualizace ovladače Bluetooth (0x0100)"
-"DismissableWarning_BluetoothLinkServiceNotFound" "Bluetooth není dostupné (0x0200)"
-"DismissableWarning_BluetoothLinkServiceError" "Bluetooth není dostupné (0x0400)"
-"DismissableWarning_BluetoothLinkCommunicationFailed" "Komunikace přes Bluetooth selhala (0x0800)"
-"DismissableWarning_SomeDisplaysAreMirroring" "Některé displeje jsou zrcadleny (0x1000)"
-"DismissableWarning_UnknownHardwareDetected" "Bylo nalezeno nové zařízení (0x2000)"
-"DismissableWarning_WindowsAeroDisabled" "Upozornění displeje (0x4000)"
-"DismissableWarning_Windows8" "Windows 8 (0x8000)"
-"DismissableWarning_DisplayInExtendedMode" "Upozornění displeje (0x10000)"
-"DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Konflikt základních stanic (0x400000)"
-"DismissableWarning_SteamVRInSafeMode" "Režim SteamVR je spuštěn v bezpečném režimu (0x1000000)"
-
-"DismissableWarning_Detected" "Zjištěno"
-"DismissableWarning_TimeFormat" "h.mm:ss"
-
-"TrackedDeviceClass_Invalid" "Neplatná"
-"TrackedDeviceClass_HMD" "Headset"
-"TrackedDeviceClass_Controller" "Ovladač"
-"TrackedDeviceClass_TrackingReference" "Základní stanice"
-"TrackedDeviceClass_GenericTracker" "Sledovací zařízení"
-"TrackedDeviceClass_Unknown"  "Neznámé sledované zařízení"
-"StatusCheckInterval_Never" "Nikdy"
-"StatusCheckInterval_Seldom" "Zřídka (po 5 s)"
-"StatusCheckInterval_Normal" "Občas (po 1 s)"
-"StatusCheckInterval_Often" "Často (po 100 ms)"
-"Log_Window_Title" "Záznam – %1"
-"Log_Button_Clear" "Smazat"
-"Log_Button_ShowInExplorer" "Zobrazit v Průzkumníkovi"
-"Log_Button_LoadCompleteFile" "Načíst kompletní soubor"
-"Log_Text_MoreLineInTheActualFile" "KLIKNĚTE PRO ZOBRAZENÍ ZBYLÝCH ŘÁDKŮ\n\n"
-
-"Status_Title" "Stav režimu SteamVR"
-"Status_MenuButton_SteamVR" "STEAMVR"
-"Status_MenuButton_SteamVR_Branch" "STEAMVR – %1"
-"Status_HMD" "Headset"
-"Status_Controller" "Ovladač"
-"Status_Base" "Základní stanice"
-"Status_Starting" "Spouštění"
-"Status_Quitting" "Ukončování"
-
-"ShutdownWhileAppRunning_Title" "Ukončit režim SteamVR?"
-"ShutdownWhileAppRunning_Format" "Ukončením režimu SteamVR ukončíte také „%1“. Opravdu chcete pokračovat?"
-
-"RebootWhileAppRunning_Title" "Restartovat režim SteamVR?"
-"RebootWhileAppRunning_Format" "Restartováním režimu SteamVR ukončíte „%1“. Opravdu chcete pokračovat?"
-
-"FrameTiming_Title" "Časování snímků"
-"FrameTiming_Idle" "Nečinnost"
-"FrameTiming_Vsync" "V. synch"
-"FrameTiming_Compositor" "Kompozitor"
-"FrameTiming_PreSubmit" "Aplikace (scenérie)"
-"FrameTiming_PostSubmit" "Aplikace (jiná)"
-"FrameTiming_MisPresented" " – reprojekce"
-"FrameTiming_FirstView" " – poprvé použité"
-"FrameTiming_ReadyForUse" " – připravené k použití"
-"FrameTiming_Other" "Jiné"
-"FrameTiming_LateStart" "Opožděný start"
-"FrameTiming_Presented" " – použité (počet)"
-"FrameTiming_Predicted" " – předpokládané (navíc)"
-"FrameTiming_Throttled" " – omezené (snímky)"
-"FrameTiming_Pause" "Pauza"
-"FrameTiming_Raw" "Podrobnosti"
-"FrameTiming_ShowInHeadset" "Zobrazit v headsetu"
-"FrameTiming_Remote" "Vzdálené"
-
-"FrameTiming_5sStats" "Výpadků v posledních %1s:\n %2× jeden snímek\n %3× dva snímky\n %4× tři snímky\n %5× čtyři nebo více snímků\nCelkem %6\n"
-"FrameTiming_Config" "Upozornit, pokud budou v %3s zaznamenány výpadky\n %1 jednotlivých snímků\n nebo %2 snímků za sebou"
-
-"SteamVRSystemState_Off" "Vypnuto"
-"SteamVRSystemState_Ready" "Ve hře"
-"SteamVRSystemState_Connecting" "Vyhledávání..."
-"SteamVRSystemState_Standby" "V režimu standby"
-"SteamVRSystemState_Shutdown" "Ukončování VR..."
-"SteamVRSystemState_Installing" "Probíhá nastavování hardwaru..."
-"SteamVRSystemState_Restart" "Restartování režimu SteamVR..."
-"SteamVRSystemState_Startup" "Spouštění VR..."
-"SteamVRSystemState_ShutdownRequested" "Ukončování VR..."
-"SteamVRSystemState_PauseRequested" "Pozastavování..."
-"SteamVRSystemState_Paused" "Pozastaveno"
-"SteamVRSystemState_UnpauseRequested" "Spouštění..."
-"SteamVRSystemState_Paused_FirmwareUpdate" "Aktualizování zařízení..."
-"SteamVRSystemState_PseudoState_Waiting" "Čekání..."
-"SteamVRSystemState_PseudoState_Welcome" "Vítejte"
-
-"SteamVRSystemState_Ready_Application" "%1"
-"SteamVRSystemState_Connecting_Application_Lighthouse" "Zajistěte, aby headset viděl základní stanice"
-"SteamVRSystemState_Connecting_Application_InsideOutCamera" "Zajistěte, aby headset viděl oblast pro hraní"
-"SteamVRSystemState_Connecting_Application_OutsideInCamera" "Zajistěte, aby sledovací kamery viděly headset"
-"SteamVRSystemState_Standby_Application" "Nasaďte si headset a probuďte tak virtuální realitu"
-"SteamVRSystemState_PseudoState_Welcome_Application" "Připojte svůj VR headset"
-
-"MenuAction_StatusBar" "Stav"
-"MenuAction_RoomOverview" "Přehled místnosti"
-"MenuAction_Settings" "Nastavení"
-"MenuAction_LegacySettings" "Nastavení pro vývojáře"
-"MenuAction_BluetoothSettings" "Nastavení Bluetooth"
-"MenuAction_BaseStationSettings" "Nastavení základních stanic"
-"MenuAction_DiagnosticsMenu" "Diagnostika"
-"MenuAction_MainPlaylistMenu" "Seznamy"
-"MenuAction_PlaylistEditor" "Editor seznamů"
-"MenuAction_PlaylistPlayer" "Přehrávač seznamů"
-"MenuAction_RunPlaylist" "Přehrát seznam"
-"MenuAction_RecentPlaylist" "Nedávné"
-"MenuAction_ClearRecentPlaylist" "Smazat nedávný seznam"
-"MenuAction_Quit" "Konec"
-"MenuAction_About_vrmonitor" "O režimu SteamVR"
-"MenuAction_AboutQt" "O nástrojové sadě Qt"
-"MenuAction_Help" "Nápověda"
-"MenuAction_Devices" "Zařízení"
-"MenuAction_Developer" "Pro vývojáře"
-"MenuAction_WebDevTools" "Webové nástroje pro vývojáře"
-"MenuAction_SteamVRWebsite" "Podpora pro SteamVR"
-"MenuAction_SteamVRCommunity" "Komunita režimu SteamVR"
-"MenuAction_SteamVRHardwareDiscussions" "Diskuze o SteamVR hardwaru"
-"MenuAction_SteamVRDeveloperSupport" "Podpora režimu SteamVR"
-"MenuAction_SteamWorksDeveloperSupport" "Podpora systému Steamworks"
-"MenuAction_CreateSystemReport" "Vyvolat informace o systému"
-"MenuAction_ResetSeatedPosition" "Resetovat pozici vsedě"
-"MenuAction_SystemReportViewer" "Informace o systému"
-"MenuAction_DisplayFrameTiming" "Pokročilé časování snímků"
-"MenuAction_RecordTrackingData" "Nahrát data sledování"
-"MenuAction_StopRecording" "Zastavit nahrávání"
-"MenuAction_Crash" "Pád"
-"MenuAction_RefreshStatusNow" "Obnovit stav"
-"MenuAction_ViewLogDirectory" "Zobrazit záznamy"
-"MenuAction_ShowLogDirectory" "Zobrazit adresář záznamů"
-"MenuAction_ShowConfigDirectory" "Zobrazit adresář nastavení"
-"MenuAction_ShowRuntimeDirectory" "Zobrazit adresář runtimů"
-"MenuAction_RunRoomSetup" "Příprava místnosti"
-"MenuAction_RunTutorial" "Tutoriál"
-"MenuAction_RunMediaPlayer" "Spustit přehrávač"
-"MenuAction_RecentPlaylists" "Nedávné seznamy"
-"MenuAction_Diagnostics" "Pokročilé"
-"MenuAction_Directories" "Adresáře"
-"MenuAction_LogFiles" "Soubory záznamů"
-"MenuAction_More" "Více"
-"MenuAction_CouldNotReadLogFiles" "Nepodařilo se přečíst soubory záznamů"
-"MenuAction_PairingWizard" "Spárovat ovladač"
-"MenuAction_FirmwareUpdate" "Aktualizovat zařízení"
-"MenuAction_SetLogDirectory" "Nastavit adresář záznamů"
-"MenuAction_SetConfigDirectory" "Nastavit adresář nastavení"
-"MenuAction_ShowDisplayMirror" "Povolit VR pohled"
-"MenuAction_HideDisplayMirror" "Zakázat VR pohled"
-"MenuAction_DisplayMirror" "VR pohled"
-"MenuAction_PerformanceGraph" "Zobrazit graf výkonu"
-"MenuAction_ShowControllerBinding" "Nastavení ovladače"
-"MenuAction_ShowManageTrackers" "Spravovat sledovací zařízení"
-"MenuAction_UpdateFirmware" "Aktualizovat zařízení"
-"MenuAction_ForceFirmware" "Vynutit aktualizaci firmwaru"
-"MenuAction_DirectMode" "Přímý zobrazovací režim"
-"MenuAction_EnableDirectMode" "Zapnout přímý zobr. režim"
-"MenuAction_DisableDirectMode" "Vypnout přímý zobr. režim"
-"MenuAction_PairController" "Spárovat ovladač"
-"MenuAction_PowerOffController" "Vypnout ovladač"
-"MenuAction_IdentifyBaseStation" "Rozpoznat základní stanici"
-"MenuAction_Workshop" "Workshop"
-"MenuAction_Workshop_UploadItem" "Nahrát nové pozadí"
-"MenuAction_Workshop_EditItem" "Upravit stávající pozadí"
-"MenuAction_Workshop_RunTools" "Vytvořit/upravit prostředí"
-"MenuAction_Workshop_ViewWiki" "Wiki k prostředím SteamVR"
-"MenuAction_Workshop_Browse" "Procházet workshop"
-"MenuAction_ModelDirectory_Browse" "Procházet adresář modelu"
-"MenuAction_WakeupAllBaseStations" "Probudit základní stanice"
-"MenuAction_KnockKnock" "Ťuky ťuk"
-"MenuAction_PairTracker" "Spárovat sledovací zařízení"
-"MenuAction_PowerOffTracker" "Vypnout sledovací zařízení"
-"MenuAction_ReportABug" "Nahlásit chybu"
-"MenuAction_WebConsole" "Webová konzole"
-"MenuAction_OverlayViewer" "Prohlížeč překrytí"
-"MenuAction_DebugCommands" "Příkazy pro debuggování"
-"MenuAction_WebDevToolsPlaceholder" "Nebyla nalezena žádná instance"
-
-
-"MonitorController_SwitchDirectMode_Header" "Přímý zobrazovací režim"
-"MonitorController_EnableDirectMode_Text" "Po zapnutí přímého zobrazovacího režimu se režim SteamVR restartuje. Opravdu chcete pokračovat?"
-"MonitorController_DisableDirectMode_Text" "UPOZORNĚNÍ: Po vypnutí přímého zobrazovacího režimu bude plocha rozšířena do headsetu – tato možnost se nedoporučuje. Opravdu chcete vypnout přímý zobrazovací režim? Po této změně dojde k restartu režimu SteamVR."
-
-"MonitorController_SwitchSafeMode_Header" "Bezpečný režim"
-"MonitorController_EnableSafeMode_Text" "<span>Bezpečný režim</span> může v případě problémů s kompatibilitou omezit procesy režimu SteamVR pouze na ty nejdůležitější.<p>Opravdu chcete zapnout bezpečný režim? Režim SteamVR bude restartován.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Více informací</a>"
-
-"TrayIcon_Tooltip_vrmonitor" "Stav režimu SteamVR"
-"MonitorController_SelectRecordingDirectory" "Vyberte adresář pro uložení nahrávání"
-"MonitorController_LoadPlaylist" "Načíst seznam"
-"MonitorController_Information_Title" "SteamVR"
-"MonitorController_RestartSystemNotPossible" "Režim SteamVR momentálně není možné restartovat automaticky. \nUkončete režim SteamVR a zkuste to znovu. Pokud to nevyřeší Váš problém, restartujte celý počítač."
-"MonitorController_NotAbleToMakeCompositorFullscreen" "Nedaří se povolit režim celé obrazovky."
-"MonitorController_ApplicationsInterfaceNotAvailable" "Nepodařilo se spustit %1. Rozhraní aplikací není dostupné."
-"MonitorController_ApplicationCouldNotStart" "Nepodařilo se spustit %1: %2"
-"MonitorController_Version" "Verze %1"
-"MonitorController_ResetCompleteSetup_Text" "Tato možnost resetuje režim SteamVR a restartuje aplikaci."
-"Settings_Title" "Nastavení režimu SteamVR"
-"Settings_Bluetooth_Title" "Nastavení Bluetooth"
-"Settings_BaseStations_Title" "Nastavení základních stanic"
-"Settings_Developer_Title" "Nastavení pro vývojáře"
-"Settings_Checks" "Kontroly"
-"Settings_Notifications" "Upozornění"
-"Settings_Applications" "Aplikace"
-"Settings_DisplayMode" "Režim displeje"
-"Settings_DisplayMode_Extend" "Roztáhnout plochu na displej"
-"Settings_DisplayMode_MirrorWindow" "VR pohled"
-"Settings_OpenVRPaths" "Cesty rozhraní OpenVR"
-"Settings_Reset" "Reset"
-"Settings_PerfCheck" "PerfCheck"
-"Settings_CheckForSteam" "Kontrolovat přítomnost klienta služby Steam"
-"Settings_CheckStatus" "Opakování kontroly"
-"Settings_Firmware_UpdateAvailable" "Je dostupná aktualizace"
-"Settings_NotAvailableAtThisTime" "V tuto chvíli nejsou dostupná všechna nastavení"
-"Settings_EnableLinuxGPUProfiling" "Povolit profilování GPU"
-"Settings_EnableDashboard" "Povolit hlavní obrazovku"
-"Settings_ArcadeMode" "Povolit režim pro herny"
-"Settings_PauseOnStandby" "Pozastavit renderování, když je headset nečinný"
-"Settings_DebugInputBindings" "Povolit debuggování v rozhraní k přiřazování vstupních signálů"
-"Settings_DoNotFadeToGrid" "Zakázat přechod na mřížku, když aplikace nereaguje"
-
-"Settings_ShowPlaylistMenu" "Povolit nabídku seznamů"
-"Settings_StartSteamVROnAppLaunch" "Spustit režim SteamVR společně s VR aplikací"
-
-"Settings_RestartText" "<html><B>Pokud provedete změny v těchto cestách, restartujte celé rozhraní.</b></html>"
-"Settings_RuntimePath" "Cesta runtimů:"
-"Settings_Set" "Nastavit..."
-"Settings_ConfigPath" "Cesta nastavení:"
-"Settings_LogPath" "Cesta záznamů:"
-"Settings_Refresh" "Obnovit"
-"Settings_SetSelectedPaths" "Nastavit vybrané cesty"
-"Settings_SelectRuntimePath" "Vybrat cestu runtimů"
-"Settings_SelectConfigPath" "Vybrat cestu nastavení"
-"Settings_SelectLogPath" "Vybrat cestu záznamů"
-"Settings_ResetQtSettings" "Resetovat nastavení sady Qt"
-"Settings_ResetRuntimeAndQuit" "Resetovat runtime založený na umístění režimu SteamVR a také samotný režim"
-"Settings_ResetCompleteSetupAndQuit" "Resetovat veškerá nastavení a také samotný režim"
-"Settings_ResetChaperoneToHeadsetInMiddleOfFloor" "Resetovat systém Chaperone na prostředek dle headsetu"
-"Settings_SmallSpace" "Malý prostor"
-"Settings_MediumSpace" "Středně velký prostor"
-"Settings_LargeSpace" "Velký prostor"
-"Settings_GiganticSpace" "Obrovský prostor"
-"Settings_RemoveAllUSBDevices" "Odebrat všechna USB zařízení"
-"Settings_ResetChaperoneToDK2Default" "Resetovat data systému Chaperone na výchozí (Oculus Rift DK2)"
-
-"Settings_Information_Title" "SteamVR"
-"Settings_ResetQtSettings_Text" "Tato možnost resetuje nastavení sady Qt.\n\nOpravdu chcete pokračovat?"
-"Settings_ResetRuntimeBasedOnVRMonitorAndQuit_Text" "Tato možnost resetuje cestu SteamVR založenou na umístění spustitelného souboru režimu SteamVR a také samotný režim. \n\nOpravdu chcete pokračovat?"
-"Settings_RemoveAllRelevantUSBDevices_Text" "Tato možnost odebere všechna USB zařízení režimu SteamVR. Abyste je mohli znovu použít, budete je muset vytáhnout a opětovně zasunout, aby systém znovu nainstaloval jejich ovladače.\n\nOpravdu chcete pokračovat?"
-"Settings_RemoveAllRelevantUSBDevices_FailToStart" "Nepodařilo se spustit pomocnou aplikaci pro odebrání USB zařízení.\nUjistěte se, že máte dostatečná správcovská práva.\n"
-"Settings_RemoveAllRelevantUSBDevices_Crash" "Pomocná aplikace pro odebrání USB zařízení spadla.\nZkuste to znovu.\n"
-"Settings_RemoveAllRelevantUSBDevices_Success" "Byla odebrána všechna související USB zařízení. Nyní odpojte USB kabely VR zařízení, restartujte svůj počítač a vše znovu připojte.\n"
-"Settings_RemoveAllRelevantUSBDevices_PartialSuccess" "Některá související USB zařízení se nepodařilo odebrat. Zkuste to znovu.\n"
-"Settings_DisableEnhancedPowerManagement_FailToStart" "Nepodařilo se spustit pomocnou aplikaci.\nUjistěte se, že tuto aplikaci můžete spustit jako správce.\n"
-"Settings_DisableEnhancedPowerManagement_Crash" "Pomocná aplikace spadla.\nZkuste to znovu.\n"
-"Settings_DisableEnhancedPowerManagement_Success" "Pro USB zařízení režimu SteamVR bylo zakázáno pokročilé řízení napájení.\n\nAby se tyto změny projevily, musíte USB zařízení odpojit a znovu zapojit.\n"
-"Settings_NotificationDoNotDisturb_Info" "
-"
-"Settings_NotificationDoNotDisturb_Text" "Nerušit – potlačí ve virtuální realitě oznámení služby Steam"
-"Settings_NotificationKnockKnock_Text" "Povolit funkci Ťuky ťuk"
-"Settings_NotificationKnockKnock_Info" "Umožňuje lidem z reálného světa požádat návštěvníka virtuální reality o pozornost."
-
-"Settings_Developer_Text" "Nastavení pro vývojáře"
-"Settings_Developer_Info" "Povolit pokročilá nastavení a možnosti pro vývojáře"
-"Settings_StatusWindowAlwaysOnTop_Info" " "
-"Settings_StatusWindowAlwaysOnTop_Text" "Zobrazovat vždy navrchu"
-"Settings_StatusWindowMinimizeToTray_Text" "Po minimalizování stáhnout na lištu i režim SteamVR"
-"Settings_StatusWindowHidePopups_Text" "Když je režim SteamVR minimalizovaný, potlačovat upozornění"
-"Settings_HomeAppCheck" "Použít virtuální domov"
-"Settings_HomeAppDesc" "Užijte si virtuální prostředí, komunitní funkce a více."
-"Settings_NightModeCheck" "Noční režim"
-"Settings_NightModeDesc" "Ztmaví headset do 5.00 ráno (nebo do restartování režimu SteamVR)."
-"Settings_LockedModeCheck" "Povolit headset i ve chvíli, kdy je počítač uzamčen"
-"Settings_LockedModeDesc" "
-"
-
-"Settings_Dashboard_Explanation" "Tyto aplikace budou dostupné jako překrytí na hlavní obrazovce."
-"Settings_BaseStationsWakeUpAll" "Probudit všechny základní stanice"
-"Settings_BaseStationsWakeUpAll_Explanation" "Probudí všechny základní stanice s řízeným napájením."
-"Settings_EnableScreenshots_Info" "Umožní při držení tlačítka „System“ a současném stisknutí spouště pořídit snímek."
-"Settings_EnableScreenshots_Text" "Povolit snímky obrazovky (BETA)"
-"Settings_DefaultScreenshotType_Text" "Typ snímků"
-"Settings_DefaultScreenshotType_Info" "Vyberte výchozí typ pořizovaných snímků. Pozor, mnoho VR aplikací požadovaný typ nemusí podporovat a použije stereoskopický typ."
-"Settings_DefaultScreenshotType_Mono" "Normální"
-"Settings_DefaultScreenshotType_Stereo" "Stereoskopický"
-"Settings_DefaultScreenshotType_Cubemap" "Cubemapový"
-"Settings_DefaultScreenshotType_MonoPanorama" "Mono-panoramatický"
-"Settings_DefaultScreenshotType_StereoPanorama" "Stereo-panoramatický"
-
-"Settings_UseBluetoothLink_Text" "Povolit Bluetooth"
-"Settings_UseBluetoothLink_Info" "Umožní bezdrátové řízení napájení a aktualizování základní stanic pomocí Bluetooth. Některá VR zařízení mohou díky této možnosti získat také další funkce."
-
-"Settings_Bluetooth_ServicesNotAvailable" "Bluetooth není dostupné"
-"Settings_Bluetooth_Driver_Install" "Nainstalovat ovladač Bluetooth"
-"Settings_Bluetooth_Driver_Install_Description"	"Nainstaluje do Link Boxu ovladač Bluetooth a umožní používat funkce spojené s bezdrátovou komunikací. Vyžaduje povolení správce."
-"Settings_Bluetooth_Driver_Update" "Aktualizovat ovladač Bluetooth"
-"Settings_Bluetooth_Driver_Update_Description" "Aktualizuje ovladač Bluetooth Link Boxu a umožní používat funkce spojené s bezdrátovou komunikací. Vyžaduje povolení správce."
-"Settings_Bluetooth_RetryConnection" "Opakovat spojení"
-
-"Settings_BaseStation_BluetoothBusy" "Čeká se na Bluetooth..."
-"Settings_BaseStation_BluetoothRequired" "Pro přístup k bezdrátovému řízení napájení a aktualizování základních stanic musíte povolit Bluetooth."
-"Settings_BaseStation_OpenSettingsBluetooth" "Nastavení Bluetooth"
-"Settings_BaseStation_PowerManagement" "Řízení napájení"
-"Settings_BaseStation_PowerManagement_Explanation" "Základní stanice se v závislosti na stavu režimu SteamVR automaticky probudí a přepnou do režimu standby."
-"Settings_BaseStation_ScanForBaseStations" "Vyhledat základní stanice"
-"Settings_BaseStation_ScanForBaseStations_Explanation" "Vyhledá známé základní stanice, které přes Bluetooth vysílají svůj stav."
-"Settings_BaseStation_ConfigureBaseStations" "Nastavit kanály základních stanic"
-"Settings_BaseStation_ConfigureBaseStations_Explanation" "Vyhledá základní stanice a nastaví jejich kanály, aby nedocházelo ke konfliktům."
-"Settings_BaseStation_BaseStation10" "Základní stanice 1.0"
-"Settings_BaseStation_BaseStation20" "Základní stanice 2.0"
-"Settings_BaseStation_ContinueBaseStationUpdate" "Obnovit po nedokončené aktualizaci"
-"Settings_BaseStation_ContinueBaseStationUpdate_Explanation" "Opraví přerušenou nebo zrušenou aktualizaci základní stanice, která jí brání ve správném sledování."
-
-"Settings_USB_Component_Hub" "USB hub"
-"Settings_USB_Component_HubController" "Ovladač USB hubu"
-"Settings_USB_Component_HubBluetooth" "Bluetooth"
-"Settings_USB_Component_WatchmanBoard" "Sledovací zařízení"
-"Settings_USB_Component_Camera" "Kamera"
-"Settings_USB_Component_Audio" "Zvukové zařízení"
-"Settings_USB_Component_HTCBoard" "Hlavní deska"
-"Settings_USB_Component_Dongle1" "Hardwarový klíč 1"
-"Settings_USB_Component_Dongle2" "Hardwarový klíč 2"
-
-"Settings_USB_ViveDevices" "<b>Komponenty</b>"
-"Settings_USB_PressRefresh" "<b>Klikněte na „Obnovit“, abyste zkontrolovali komponenty...</b>"
-"Settings_USB_LookingForConnections" "<b>Kontrolování komponentů...</b>"
-"Settings_USB_NoDevicesFound" "<font color=red><b>Nejsou připojené žádné komponenty Vive.</b></font>"
-
-"Settings_USB_ViveLinkBoxHeader" "<b>Vive – Link Box</b>"
-"Settings_USB_ViveHeadsetHeader" "<b>Headset</b>"
-
-"Settings_USB_EnhancedStatus" "Zobrazit detaily"
-"Settings_USB_Refresh" "Obnovit"
-
-"Settings_Developer_General_Header" "Pro vývojáře"
-"Settings_Advanced_Status_Header" "Kontrola stavu"
-"Settings_Advanced_RoomAndTracking_Header" "Místnost a sledování"
-"Settings_Advanced_Reset_Header" "Reset"
-"Settings_Advanced_Paths_Header" "Cesty"
-"Settings_Advanced_DirectMode_Header" "Přímý zobrazovací režim"
-"Settings_Advanced_MotionSmoothing_Header" "Vyhlazování pohybu"
-"Settings_Advanced_MotionSmoothing_Description" "Vytváří nové snímky a zabraňuje ve zhoršení kvality, pokud spuštěná aplikace nestíhá."
-"Settings_Advanced_MotionSmoothing" "Zapnout vyhlazování pohybu"
-"Settings_Advanced_MotionSmoothing_Disabled" "Vyhlazování pohybu není dostupné pro tuto grafickou kartu, nebo je třeba aktualizovat její ovladače."
-"Settings_Advanced_MotionSmoothing_Disabled_Win7" "Vyhlazování pohybu není dostupné pro starší verze systému Windows."
-
-"Settings_Advanced_RefreshRate_Header" "Obnovovací frekvence"
-"Settings_Advanced_RefreshRate_HzSuffix" "Hz"
-"Settings_Advanced_RefreshRate_NotFound" "<b>POZNÁMKA:</b> Váš headset podporuje i jiné obnovovací frekvence, ale ovladač Vaší grafické karty ne. Ověřte, zdali máte nainstalovaný nejnovější firmware headsetu a ovladač grafické karty."
-"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>POZNÁMKA:</b> Váš headset podporuje i jiné obnovovací frekvence, ale při režimu rozšíření je není možné spravovat. <a href='vrmonitor://directmode/enable'><span style='color:white;'>Zapněte proto přímý zobrazovací režim.</span></a>"
-"Settings_Advanced_Restart" "<i>Tato změna se projeví až po <a href='vrmonitor://restartsystem'><span style='color:white;'>restartu režimu SteamVR</span></a></i>"
-
-"Settings_Advanced_Supersampling_Header" "Rozlišení aplikace"
-"Settings_Advanced_AllowSupersampleFiltering" "Povolit pokročilý supersampling" 
-"Settings_Advanced_Supersampling_Warning" "<b>UPOZORNĚNÍ:</b> Možnost níže ovlivní všechny aplikace. Pokud chcete změnit rozlišení jedné vybrané aplikace, přejděte do záložky „Aplikace“."
-"Settings_Advanced_SupersamplingManualOverride" "Povolit vlastní rozlišení"
-"Explanation_Supersampling_Header" "Režim SteamVR automaticky nastaví rozlišení aplikací v závislosti na výkonu Vaší grafické karty."
-"Explanation_Supersampling" "* Některé aplikace může být nutné restartovat, aby se projevily změny."
-"Explanation_SupersamplingFiltering" "Možnosti supersamplingu"
-
-"Settings_GpuInfo_Header" "Hardware"
-"Settings_GpuInfo_Headset" "Headset"
-"Settings_GpuInfo_NoHeadset" "Nebyl nalezen headset"
-"Settings_GpuInfo_GpuName" "Název GPU"
-"Settings_GpuInfo_GpuDriver" "Ovladač GPU"
-"Settings_GpuInfo_GpuSpeed" "Rychlost GPU"
-"Settings_GpuInfo_Current" "Aktuálně je obraz renderován pro každé oko v rozlišení"
-"Settings_GpuInfo_Recommended" "Doporučené nastavení pro Váš headset a GPU je"
-
-"Settings_PerApplication_Header" "Vytvořte rozdílná nastavení pro specifické aplikace"
-"Settings_PerApplication_AppResTitle" "Vlastní rozlišení"
-"Settings_PerApplication_AppResHeader" "Toto nastavení je násobičem překrývajícím aktuální nastavení určené v záložce „Obraz“. Změny se mohou projevit až po restartování aplikace. Výchozí nastavení je 100 %."
-"Settings_PerApplication_AppResFooter" "Aktuálně je obraz renderován pro každé oko v rozlišení <font color=#eeeeee>%1×%2</font>"
-"Settings_PerApplication_OverlayVisibleHeader" "Aplikace překrytí jsou dostupné z hlavní obrazovky režimu SteamVR."
-"Settings_PerApplication_OverlayVisibleCheckbox" "Spustit tuto aplikaci překrytí společně s režimem SteamVR."
-"Settings_PerApplication_DashboardSuffix" "(aplikace překrytí)"
-"Settings_PerApplication_CustomSuffix" "(vlastní)"
-
-"Settings_PerApplication_MotionSmoothing_Header" "Vyhlazování pohybu"
-"Settings_PerApplication_MotionSmoothing_On" "Zapnuto"
-"Settings_PerApplication_MotionSmoothing_Off" "Vypnuto"
-"Settings_PerApplication_MotionSmoothing_Checkbox_Default" "Použít globální nastavení (%1)"
-"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOn" "Vždy zapnout"
-"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOff" "Vždy vypnout"
-"Settings_PerApplication_MotionSmoothing_Checkbox_AlwaysOn" "Vždy vynutit zapnutí (UPOZORNĚNÍ: Aplikace poběží s polovičním FPS)"
-
-"Settings_PerApplication_Reprojection_Header" "Reprojekce"
-"Settings_PerApplication_Reprojection_Checkbox" "Použít starší režim reprojekce"
-"Settings_PerApplication_Reprojection_Description" "Zaškrtnutím této možnosti zakážete pro tuto aplikaci asynchronní reprojekci."
-
-"Settings_Audio_Device_HMD"  "VR headset"
-"Settings_Audio_Device_Other"  "Jiné"
-"Settings_Audio_AudioPlay"  "Výstupní zvukové zařízení"
-"Settings_Audio_AudioRecord"  "Vstupní zvukové zařízení"
-"Settings_Audio_HDMIGain"  "Povolit redukci signálu na HTC VIVE – HDMI audio"
-"Settings_Audio_Default"  "Výchozí"
-"Settings_Audio_AudioMirrorPlay"  "Přehrávat zvuk do zařízení"
-"Settings_Audio_AudioMirrorUnsupported"  "Přehrávání zvuku do zařízení není na tomto počítači podporováno."
-"Settings_Audio_AudioMirrorEnable"  "Povolit zrcadlení zvuku"
-
-"BaseStation_Channel_Text" "Kanál %1"
-"BaseStation_Mode_Text" "Mód %1"
-
-"SystemReport_Issues" "Problémy"
-"SystemReport_Main" "Hlavní"
-"SystemReport_Devices" "Zařízení"
-"SystemReport_USB" "USB"
-"SystemReport_Logs" "Záznamy"
-"SystemReport_Configuration" "Konfigurace"
-"SystemReport_System" "Systém"
-"SystemReport_Chaperone" "Chaperone"
-"SystemReport_LighthouseDB" "LighthouseDB"
-"SystemReport_Raw" "Vše"
-
-"SystemReport_Title" "Informace o systému"
-"SystemReport_Refresh" "Obnovit"
-"SystemReport_CopyToClipboard" "Kopírovat do schránky"
-"SystemReport_SaveToFile" "Uložit do souboru"
-"SystemReport_SaveSystemReport" "Uložit informace o systému"
-"SystemReport_UnableToOpenFile" "Nepodařilo se otevřít soubor"
-"SystemReport_Data" "Data"
-"SystemReport_RawText" "Prostý text"
-"SystemReport_Entry_SteamVR" "SteamVR"
-"SystemReport_Progress_ParseReport" "Syntaktická analýza"
-
-"SystemReport_PrepareReport" "Příprava informací"
-"SystemReport_DiscoverIssues" "Zjišťování problémů"
-"SystemReport_DiscoverDisplays" "Zjišťování displejů"
-"SystemReport_DiscoverDevices" "Zjišťování zařízení"
-"SystemReport_DiscoverUSB" "Zjišťování USB"
-"SystemReport_PrepareLogs" "Příprava záznamů"
-"SystemReport_DiscoverConfiguration" "Zjišťování konfigurací"
-"SystemReport_DiscoverChaperone" "Zjišťování nastavení systému Chaperone"
-"SystemReport_DiscoverLighthouseDB" "Zjišťování nastavení systému LighthouseDB"
-
-
-"Main_Systray_Error_Title" "Nástrojová lišta"
-"Main_Systray_Error_Message" "Na tomto počítači se nepodařilo nalézt nástrojovou lištu."
-"Main_Information_Title" "SteamVR"
-"Main_CanSetInstallationPath_Message" "Nepodařilo se nalézt cestu instalace.\n\nRežim SteamVR může cestu instalace nastavit podle současné cesty svého spustitelného souboru."
-"Main_JumplistEntry_RunFirstApplication" "Úvodní aplikace"
-"Main_JumplistEntry_RunRoomSetup" "Příprava místnosti"
-"Main_JumplistEntry_RunTutorial" "Tutoriál"
-"Main_JumplistEntry_Settings" "Nastavení"
-"Main_JumplistEntry_Advanced" "Pokročilé"
-"Main_JumplistEntry_SystemReport" "Informace o systému"
-"Main_JumplistEntry_Quit" "Konec"
-"Main_RuntimeFailed_Message" "Nepodařilo se spustit runtime.\n\n%1\n\nMomentálně nastavený runtime založený\n%2\nna spustitelném souboru režimu SteamVR však můžete resetovat\n%3\n"
-
-"VRManifest_Imported_Title" "Import záznamového souboru rozhraní OpenVR"
-"VRManifest_Imported_Message" "Záznamový soubor rozhraní OpenVR byl importován: \n %1"
-
-"MenuAction_Compositor_ShowMirror" "Povolit VR pohled"
-"MenuAction_Compositor_HideMirror" "Zakázat VR pohled"
-"MenuAction_IdentifyController" "Rozpoznat ovladač"
-"MenuAction_IdentifyTracker" "Identifikovat zařízení"
-"MenuAction_QuickCalibrate" "Rychlá kalibrace"
-"Explanation_QuickCalibrate" "Rychlý reset přípravy místnosti. Nové hranice budou vycentrovány dle momentální pozice headsetu."
-"MenuAction_ResetRuntimeAndQuit" "Resetovat cestu SteamVR"
-"Explanation_ResetRuntimeAndQuit" "Resetuje cestu SteamVR založenou na umístění souborů režimu."
-"MenuAction_RemoveAllSteamVRUSBDevices" "Odebrat všechna USB zařízení"
-"Explanation_RemoveAllSteamVRUSBDevices" "Odebere ze systému všechna USB zařízení související s režimem SteamVR, aby mohlo dojít k opětovné instalaci jejich ovladačů."
-"MenuAction_DisableEnhancedPowerManagement" "Zakázat řízení napájení"
-"Explanation_DisableEnhancedPowerManagement" "Pokud se potýkáte s výpadky při sledování pohybu nebo se Vám nedaří spárovat bezdrátové ovladače, zkuste pro USB zařízení režimu SteamVR zakázat pokročilé řízení napájení."
-"MenuAction_ResetAllSettingsAndQuit" "Resetovat veškerá nastavení a také samotný režim"
-"MenuAction_RebootVive" "Restartovat headset"
-"Explanation_RebootVive" "Restartování headsetu může vyřešit problémy s USB."
-"MenuAction_RestartSteamVR" "Restartovat režim SteamVR"
-"Explanation_RestartSteamVR" "Restartování režimu SteamVR může vyřešit problémy s USB."
-"MenuAction_ResetDismissableWarnings" "Obnovit upozornění"
-"Explanation_ResetDismissableWarnings" "Obnoví dříve přečtená upozornění, takže se znovu zobrazí."
-
-"QuickCalibrate_SmallSpace" "Malý prostor"
-"QuickCalibrate_MediumSpace" "Střední prostor"
-"QuickCalibrate_LargeSpace" "Velký prostor"
-"QuickCalibrate_GiganticSpace" "Obrovský prostor"
-"QuickCalibrate_CabalSpace" "Prostor celé místnosti"
-"QuickCalibrate_StandingSpace" "Prostor pro stání"
-"QuickCalibrate_DK2Default" "Výchozí (DK2)"
-
-"Advanced_Title" "Pokročilé"
-"Advanced_Advanced" "Pokročilé"
-"Advanced_Developer" "Pro vývojáře"
-"Advanced_General" "Obecné"
-"Advanced_Applications" "Aplikace"
-"Advanced_Audio" "Zvuk"
-"Advanced_Devices" "Zařízení"
-"Advanced_RoomOverview" "Chaperone"
-"Advanced_Compositor" "Vnitřek headsetu"
-"Advanced_Paths" "Cesty"
-"Advanced_Reset" "Reset"
-"Advanced_Performance" "Obraz"
-"Advanced_Camera" "Kamera"
-"Advanced_Bluetooth" "Bluetooth"
-"Advanced_BaseStation" "Základní stanice"
-"Advanced_USB" "USB"
-
-"Advanced_HMD" "Headset"
-"Advanced_Controller" "Ovladač"
-"Advanced_Generic_Tracker" "Sledovací zařízení"
-"Advanced_Base" "Stanice"
-
-"Advanced_RuntimePath" "Cesta SteamVR:"
-"Advanced_ConfigPath" "Cesta nastavení:"
-"Advanced_LogPath" "Cesta záznamů:"
-"Advanced_ApplyPathsAndRestart" "Použít cesty a restartovat"
-"Advanced_SetNewPath" "Nastavit novou cestu..."
-
-"Advanced_PerfGraphInHMD" "Zobrazit graf výkonu GPU v headsetu"
-
-"Advanced_AllowSavingOfTimingInfo" "Povolit ukládání časování"
-"Advanced_AutoSaveTimingInfoOnExit" "Automatické ukládání časování po ukončení"
-"Advanced_SaveFrameDataNow" "Uložit časování"
-
-"Advanced_DrawingCompositor" "Kompozitor"
-"Advanced_DrawingApp" "Aplikace"
-"Advanced_DrawingCompShouldBeApp" "Kompozitor"
-"Advanced_DrawingUnclear" "Neznámý"
-
-"Advanced_BoundsDrawing" "Kolizní hranice zapnuty"
-"Advanced_BoundsNotDrawing" "Kolizní hranice vypnuty"
-
-"Advanced_ReprojectionOn" "Reprojekce zapnuta"
-"Advanced_ReprojectionOff" "Reprojekce vypnuta"
-
-"Advanced_AsyncActive" "Asynchronní reprojekce zapnuta"
-"Advanced_AsyncNotActive" "Asynchronní reprojekce vypnuta"
-"Advanced_DirectModeDisabled" "Přímý zobrazovací režim vypnut"
-
-"Advanced_MotionEstimationActive" "Vyhlazování pohybu zapnuto"
-"Advanced_MotionEstimationNotActive" "Vyhlazování pohybu vypnuto"
-"Advanced_MotionEstimationDisabled" "Vyhlazování pohybu není dostupné"
-
-"Advanced_NormalFrame" "Běžný snímek"
-"Advanced_MotionSmoothedFrame" "Reprojekce s vyhlazováním pohybu"
-"Advanced_ReprojectedFrame" "Reprojekce bez vyhlazování pohybu"
-"Advanced_OneThirdFramerate" "1/3 snímku"
-"Advanced_DroppedFrame" "Chyba displeje"
-"Advanced_AppRequestedThrottling" "Aplikace vyžádala omezení (spojené s CPU)"
-
-"Advanced_DashboardUp" "Hlavní obrazovka zapnuta"
-"Advanced_DashboardDown" "Hlavní obrazovka vypnuta"
-
-"MessageBox_OK" "OK"
-"MessageBox_Cancel" "Zrušit"
-"MessageBox_Exit" "Konec"
-"MessageBox_SetAndRestart" "Nastavit a restartovat"
-"MessageBox_Continue" "Pokračovat"
-"MessageBox_Yes" "Ano"
-"MessageBox_RestartSteamVR" "Restartování režimu SteamVR..."
-"MessageBox_Retry" "Zkusit znovu"
-"MessageBox_Done" "OK"
-"MessageBox_RestartNow" "Restartovat režim SteamVR"
-"MessageBox_RestartLater" "Restartovat později"
-"MessageBox_Next" "Další"
-"MessageBox_Submit" "Odeslat"
-"MessageBox_Stop" "Zastavit"
-"MessageBox_Forget" "Zapomenout"
-"MessageBox_RefreshAll" "Obnovit všechny"
-"MessageBox_OpenWirelessSettings" "Nastavení Bluetooth"
-"MessageBox_RemindMeLater" "Připomenout později"
-
-"MonitorController_NotAbleToStartSteam" "Nepodařilo se spustit klienta služby Steam."
-
-"Advanced_Header_CollisionBounds" "Kolizní hranice"
-"Advanced_Explanation_CollisionBounds" "Kolizní hranice se objeví, když se přiblížíte k okraji Vašeho volného prostoru."
-"Advanced_FloorBoundsAlwaysOn" "Vždy zobrazovat hranice na podlaze"
-"Button_ResetCollisionBounds" "Nastavit na výchozí"
-"CollisionBounds_Beginner" "Pro začátečníky"
-"CollisionBounds_Intermediate" "Pro pokročilé"
-"CollisionBounds_Squares" "Čtverce"
-"CollisionBounds_Advanced" "Pokročilé"
-"CollisionBounds_Developer" "Pro vývojáře"
-
-"CompositorBackground_Header"		"Styl pozadí"
-"CompositorBackground_Color"		"Barva"
-"CompositorBackground_Image"		"Obrázek"
-"Compositor_SelectImage"			"Vybrat obrázek..."
-"Compositor_SelectColorHeader"		"Vyberte barvu pozadí vnitřku headsetu."
-"Compositor_SelectImageHeader"		"Vyberte obrázek pozadí vnitřku headsetu."
-"Compositor_ResetToDefault" 		"Nastavit na výchozí"
-
-"Info_UnknownURL_Title" "SteamVR"
-"Info_UnknownURL_Message" "Tento odkaz prozatím nikam nevede. Pokud Váš problém přetrvává, zkonzultujte jej prosím s <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>fóry vývojářů režimu SteamVR</a>."
-
-"PairingWizard_CheckForDongles_Content" "Vyhledat dostupné hardwarové klíče..."
-
-"PairingWizard_HelperAppFailed_Content" "Vyvolávání pomocné aplikace skončilo chybou %1."
-"PairingWizard_HelperAppFailed_Error_FailedToStart" "„Aplikaci se nepodařilo spustit“ (0)"
-"PairingWizard_HelperAppFailed_Error_Crashed" "„Aplikace spadla“ (1)"
-"PairingWizard_HelperAppFailed_Error_Timedout" "„Vypršel časový limit aplikace“ (2)"
-"PairingWizard_HelperAppFailed_Error_ReadError" "„Chyba čtení“ (3)"
-"PairingWizard_HelperAppFailed_Error_WriteError" "„Chyba zápisu“ (4)"
-"PairingWizard_HelperAppFailed_Error_UnknownError" "„Neznámá chyba“ (5)"
-
-"PairingWizard_HelperAppFailed_MoreInfo" "Více informací"
-"PairingWizard_HelperAppFailed_MoreInfo_URL" "http://www.valvesoftware.com"
-
-"PairingWizard_NoDonglesAvailable_Title" "Již jsou používány dva ovladače"
-"PairingWizard_NoDonglesAvailable_Header" "
-"
-"PairingWizard_NoDonglesAvailable_Content" "Abyste mohli spárovat další ovladače, musíte nejméně jeden z používaných vypnout. V jednu chvíli totiž mohou být připojeny pouze dva ovladače."
-
-"PairingWizard_NoDonglesDetected_Title" "Nebyl nalezen headset"
-"PairingWizard_NoDonglesDetected_Header" "
-"
-"PairingWizard_NoDonglesDetected_Content" "Abyste mohli spárovat nové ovladače, musíte mít správně připojený headset."
-
-"PairingWizard_PairController_Title" "Spárování nového ovladače"
-"PairingWizard_PairController_Success_Title" "Povedlo se!"
-"PairingWizard_PairAnotherController" "Spárovat další ovladač"
-
-"PairingWizard_LookingForControllers_Header" "Hledání ovladače..."
-"PairingWizard_LookingForControllers_Content" "Stiskněte a podržte tlačítka „App“ a „System“, dokud ovladač nezavrní.\n\nTaké by měla začít modře blikat LED kontrolka, což značí režim párování ovladače."
-"PairingWizard_TimeoutHappened_Header" "Nebyl nalezen ovladač"
-"PairingWizard_TimeoutHappened_Content" "Ujistěte se, že je Váš ovladač nabitý a při párování je v dohledu headsetu."
-"PairingWizard_PairingFailed_Header" "Spárování se nezdařilo"
-"PairingWizard_PairingFailed_Content" "Ujistěte se, že je Váš ovladač nabitý a při párování je v dohledu headsetu."
-"PairingWizard_Success_MoreDonglesAvailable_Header" "Ovladač byl spárován!"
-"PairingWizard_Success_MoreDonglesAvailable_Content" "Váš ovladač je spárovaný a připravený k použití."
-"PairingWizard_Success_NoMoreDonglesAvailable_Header" "Ovladač byl spárován!"
-"PairingWizard_Success_NoMoreDonglesAvailable_Content" "Váš ovladač je spárovaný a připravený k použití."
-
-"FirmwareWizard_UpdateMoreFirmware" "Aktualizovat další"
-
-"FirmwareWizard_Nag_Title" "Doporučená aktualizace zařízení"
-
-"FirmwareWizard_Shutdown_Title" "Aktualizace zařízení"
-"FirmwareWizard_Shutdown_TextContent" "Aby mohlo být zařízení aktualizováno, režim SteamVR bude muset ukončit veškeré spuštěné VR aplikace.\n\nOpravdu chcete pokračovat?"
-"FirmwareWizard_WaitingForShutdown_TextContent" "Příprava systému na aktualizaci..."
-"FirmwareWizard_ShutdownForRecovery_TextContent" "Komponent Vašeho headsetu vyžaduje pro navrácení do funkčního stavu aktualizaci.\n\nOpravdu chcete pokračovat?"
-"FirmwareWizard_ShutdownForMandatoryUpdate_TextContent" "Váš headset vyžaduje pro další používání režimu SteamVR aktualizaci.\n\nOpravdu chcete pokračovat?"
-"FirmwareWizard_DeviceOverview_Title" "Aktualizace zařízení"
-"FirmwareWizard_DeviceOverview_Nagging_Title" "Vyžadované aktualizace zařízení"
-"FirmwareWizard_DeviceOverview_TextContent" "Které zařízení byste si přáli aktualizovat?"
-"FirmwareWizard_DeviceOverview_TextContent_Nag" "Jsou dostupné vyžadované aktualizace. Vyberte zařízení pro aktualizaci."
-"FirmwareWizard_DeviceOverview_UpdateAvailable" "Je dostupná aktualizace"
-"FirmwareWizard_DeviceOverview_UpToDate" "Aktuální"
-"FirmwareWizard_DeviceOverview_NoUpdateDataAvailable" "Nejsou dostupná data o aktualizacích"
-"FirmwareWizard_DeviceOverview_FailedToUpdate" "Aktualizace se nezdařila"
-"FirmwareWizard_DeviceOverview_LookingForDevice" "Hledání zařízení...."
-"FirmwareWizard_DeviceOverview_WirelessServicesRequired" "Tato aktualizace vyžaduje bezdrátové připojení"
-
-"FirmwareWizard_UpdateHeadset_Start_Title" "Aktualizace headsetu"
-"FirmwareWizard_UpdateHeadset_Start_UpperText" "
-"
-"FirmwareWizard_UpdateHeadset_Start_MiddleText" "Připojte headset ke svému počítači."
-"FirmwareWizard_UpdateHeadset_Start_LowerText" "\nAktualizace začne automaticky, jakmile bude nalezen Váš headset."
-
-"FirmwareWizard_UpdateHeadset_Progress_Title" "Aktualizace headsetu"
-"FirmwareWizard_UpdateHeadset_Progress_UpperText" "
-"
-"FirmwareWizard_UpdateHeadset_Progress_MiddleText" "Probíhá aktualizace headsetu. To může trvat několik minut..."
-"FirmwareWizard_UpdateHeadset_Progress_LowerText" "UPOZORNĚNÍ: Během aktualizace neodpojujte svůj headset, nepřipojujte žádná další zařízení a neprovádějte ani žádné jiné změny v systému. Mohli byste tím pokazit aktualizaci, a tím i celý headset."
-
-"FirmwareWizard_UpdateHeadset_Fail_Title" "Aktualizace zařízení se nezdařila"
-"FirmwareWizard_UpdateHeadset_Fail_UpperText" "Aktualizace zařízení se nezdařila."
-"FirmwareWizard_UpdateHeadset_Fail_MiddleText" "Ujistěte se, že je headset správně připojen k počítači. Pokud tomu tak je a aktualizace i přesto selhává, ukončete režim SteamVR a odpojte headset od zdroje. Následně jej opětovně ke zdroji připojte, spusťte režim SteamVR a aktualizaci opakujte."
-"FirmwareWizard_UpdateHeadset_Fail_LowerText" "
-"
-
-"FirmwareWizard_UpdateHeadset_Success_Title" "Aktualizace headsetu dokončena"
-"FirmwareWizard_UpdateHeadset_Success_UpperText" "Povedlo se!"
-"FirmwareWizard_UpdateHeadset_Success_MiddleText" "Headset byl úspěšně aktualizován. Aby však zaznamenal změnu, bude jej možná nutné odpojit a znovu připojit ke zdroji."
-"FirmwareWizard_UpdateHeadset_Success_LowerText"  "
-"
-
-"FirmwareWizard_UpdateController_Start_Title" "Aktualizace ovladače"
-"FirmwareWizard_UpdateController_Start_UpperText" "
-"
-"FirmwareWizard_UpdateController_Start_MiddleText" "Připojte tento ovladač ke svému počítači pomocí kabelu micro-USB. Můžete použít stejný kabel, který používáte k nabíjení ovladačů."
-"FirmwareWizard_UpdateController_Start_LowerText" "Aktualizace začne automaticky, jakmile bude nalezen Váš ovladač."
-
-"FirmwareWizard_UpdateController_Progress_Title" "Aktualizace ovladače"
-"FirmwareWizard_UpdateController_Progress_UpperText" "
-" 
-"FirmwareWizard_UpdateController_Progress_MiddleText" "Probíhá aktualizace ovladače. To může trvat několik minut..."
-"FirmwareWizard_UpdateController_Progress_LowerText" "UPOZORNĚNÍ: Během aktualizace neodpojujte svůj ovladač, nepřipojujte žádná další zařízení a neprovádějte ani žádné jiné změny v systému. Mohli byste tím pokazit aktualizaci, a tím i celý ovladač."
-
-"FirmwareWizard_UpdateController_Fail_Title" "Aktualizace zařízení se nezdařila"
-"FirmwareWizard_UpdateController_Fail_UpperText" "Aktualizace ovladače se nezdařila."
-"FirmwareWizard_UpdateController_Fail_MiddleText" "Ujistěte se, že je ovladač správně připojen k počítači kabelem micro-USB. Pokud tomu tak je a aktualizace i přesto selhává, ukončete režim SteamVR. V případě, že se Váš ovladač nevypne sám, jej vypněte stisknutím a podržením tlačítka „System“. Následně režim SteamVR znovu spusťte a aktualizaci opakujte."
-"FirmwareWizard_UpdateController_Fail_LowerText" "Pokračujte kliknutím na tlačítko „Zkusit znovu“ níže."
-
-"FirmwareWizard_UpdateController_Success_Title" "Aktualizace ovladače dokončena"
-"FirmwareWizard_UpdateController_Success_UpperText" "Povedlo se!"
-"FirmwareWizard_UpdateController_Success_MiddleText" "Ovladač byl úspěšně aktualizován. Aby však zaznamenal změnu, bude jej možná nutné vypnout a zapnout."
-"FirmwareWizard_UpdateController_Success_LowerText" "
-"
-
-"FirmwareWizard_UpdateGenericTracker_Start_Title" "Aktualizace sledovacího zařízení"
-"FirmwareWizard_UpdateGenericTracker_Start_MiddleText" "Připojte toto sledovací zařízení ke svému počítači pomocí kabelu micro-USB. Můžete použít stejný kabel, který používáte k nabíjení sledovacího zařízení."
-"FirmwareWizard_UpdateGenericTracker_Start_LowerText" "Aktualizace začne automaticky, jakmile bude nalezeno Vaše sledovací zařízení."
 					  
-"FirmwareWizard_UpdateGenericTracker_Progress_Title" "Aktualizace sledovacího zařízení"
-"FirmwareWizard_UpdateGenericTracker_Progress_MiddleText" "Probíhá aktualizace sledovacího zařízení. To může trvat několik minut..."
-"FirmwareWizard_UpdateGenericTracker_Progress_LowerText" "UPOZORNĚNÍ: Během aktualizace neodpojujte svoje sledovací zařízení, nepřipojujte žádná další zařízení a neprovádějte ani žádné jiné změny v systému. Mohli byste tím pokazit aktualizaci, a tím i celé sledovací zařízení."
-					  
-"FirmwareWizard_UpdateGenericTracker_Fail_Title" "Aktualizace zařízení se nezdařila"
-"FirmwareWizard_UpdateGenericTracker_Fail_UpperText" "Aktualizace sledovacího zařízení se nezdařila."
-"FirmwareWizard_UpdateGenericTracker_Fail_MiddleText" "Ujistěte se, že je sledovací zařízení správně připojeno k počítači kabelem micro-USB. Pokud tomu tak je a aktualizace i přesto selhává, ukončete režim SteamVR a případně manuálně (jestliže se nevypne automaticky) vypněte sledovací zařízení. Následně režim SteamVR znovu spusťte a aktualizaci opakujte."
-"FirmwareWizard_UpdateGenericTracker_Fail_LowerText" "Pokračujte kliknutím na tlačítko „Zkusit znovu“ níže."
-					  
-"FirmwareWizard_UpdateGenericTracker_Success_Title" "Aktualizace sledovacího zařízení dokončena"
-"FirmwareWizard_UpdateGenericTracker_Success_UpperText" "Povedlo se!"
-"FirmwareWizard_UpdateGenericTracker_Success_MiddleText" "Sledovací zařízení bylo úspěšně aktualizováno. Aby však zaznamenalo změnu, bude jej možná nutné vypnout a zapnout."
-"FirmwareWizard_UpdateGenericTracker_Success_LowerText" "
-"
-
-"FirmwareWizard_UpdateBasestation_Start_Title" "Aktualizace základní stanice"
-"FirmwareWizard_UpdateBasestation_Start_UpperText" "
-"
-"FirmwareWizard_UpdateBasestation_Start_MiddleText" "1. Odmontujte a odpojte svoji základní stanici.\n\n2. Připojte stanici ke svému počítači pomocí kabelu micro-USB. Můžete použít stejný kabel, který používáte k nabíjení ovladačů.\n\n3. Držte stisknuté tlačítko pro změnu kanálu na zadní straně základní stanice a připojte k ní napájecí kabel."
-"FirmwareWizard_UpdateBasestation_Start_LowerText" "4. Aktualizace začne automaticky, jakmile bude nalezena Vaše základní stanice. Poté budete moci pustit tlačítko pro změnu kanálu."
-
-"FirmwareWizard_UpdateBasestation_Choice_Title" "Aktualizace základní stanice"
-"FirmwareWizard_UpdateBasestation_Choice_MiddleText" "Aktualizaci lze provést manuálně nebo bezdrátově."
-"FirmwareWizard_UpdateBasestation_Wireless_Title" "Aktualizace základní stanice"
-"FirmwareWizard_UpdateBasestation_Wireless_UpperText" "
-"
-"FirmwareWizard_UpdateBasestation_Wireless_MiddleText" "K nahrání aktualizace dojde bezdrátově. Neodpojujte základní stanice, zatímco jsou aktualizovány."
-"FirmwareWizard_UpdateBasestation_Wireless_LowerText" "
-"
-
-"FirmwareWizard_UpdateBasestation_Progress_Title" "Aktualizace základní stanice"
-"FirmwareWizard_UpdateBasestation_Progress_UpperText" "
-"
-"FirmwareWizard_UpdateBasestation_Progress_MiddleText" "Probíhá aktualizace základní stanice. To může trvat několik minut..."
-"FirmwareWizard_UpdateBasestation_Progress_LowerText" "UPOZORNĚNÍ: Během aktualizace neodpojujte svoji základní stanici, nepřipojujte žádná další zařízení a neprovádějte ani žádné jiné změny v systému. Mohli byste tím pokazit aktualizaci, a tím i celou základní stanici."
-
-"FirmwareWizard_UpdateBasestation_WirelessProgress_Title" "Aktualizace základní stanice"
-"FirmwareWizard_UpdateBasestation_WirelessProgress_MiddleText" "Probíhá aktualizace základní stanice. To může trvat několik minut..."
-"FirmwareWizard_UpdateBasestation_WirelessProgress_LowerText" "UPOZORNĚNÍ: Během aktualizace neodpojujte svoji základní stanici, nepřipojujte žádná další zařízení a neprovádějte ani žádné jiné změny v systému. Mohli byste tím pokazit aktualizaci, a tím i celou základní stanici."
-
-"FirmwareWizard_UpdateBasestation_Fail_Title" "Aktualizace základní stanice se nezdařila"
-"FirmwareWizard_UpdateBasestation_Fail_UpperText" "Aktualizace zařízení se nezdařila."
-"FirmwareWizard_UpdateBasestation_Fail_MiddleText" "Ujistěte se, že je základní stanice správně připojena k počítači kabelem micro-USB. Pokud tomu tak je a aktualizace i přesto selhává, ukončete režim SteamVR a odpojte stanici od zdroje. Následně režim SteamVR znovu spusťte a aktualizaci opakujte."
-"FirmwareWizard_UpdateBasestation_Fail_LowerText" "Pokračujte kliknutím na tlačítko „Zkusit znovu“ níže."
-
-"FirmwareWizard_UpdateBasestationWireless_Fail_Title" "Aktualizace základní stanice se nezdařila"
-"FirmwareWizard_UpdateBasestationWireless_Fail_UpperText" "Aktualizace zařízení se nezdařila."
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox" "Pokud se aktualizace nezdaří několikrát za sebou...<ul><li>Ukončete režim SteamVR.<li>Odpojte a znovu zapojte napájecí kabely pro Link Box.<li>Odpojte a znovu zapojte napájecí kabel základní stanice.<li>Znovu spusťte režim SteamVR a opakujte aktualizaci.</ul>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "Pokud se aktualizace nezdaří několikrát za sebou...<ul><li>Ukončete režim SteamVR.<li>Odpojte a znovu zapojte napájecí kabel základní stanice.<li>Znovu spusťte režim SteamVR a opakujte aktualizaci.</ul>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "Tuto základní stanici je nutné restartováním režimu SteamVR znovu opticky najít, jinak nebude možné pokračovat v aktualizaci."
-"FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "Tuto základní stanici je nutné vypnout a zapnout a následně ji restartováním režimu SteamVR znovu opticky najít, jinak nebude možné pokračovat v aktualizaci. Odpojte proto stanici od zdroje a opětovně ji připojte."
-"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "Tato základní stanice již disponuje novější verzí aktualizace, takže tuto verzi nepřijala. Odpojte proto stanici od zdroje a opětovně ji připojte."
-"FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "Bezdrátové aktualizaci brání neočekávané USB spojení základní stanice.<br><br><font color=#aaaa00>Odpojte prosím USB kabel zapojený do základní stanice.</font>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_BaseStuckInDFU" "Dokončení bezdrátové aktualizace brání neočekávané USB spojení základní stanice.<ul><li><font color=#aaaa00>Odpojte základní stanici od zdroje.<li>Odpojte USB kabel zapojený do základní stanice.<li>Opětovně připojte základní stanici ke zdroji.<li>Vyčkejte 30 sekund, dokud základní stanice nedokončí svoji interní aktualizaci.</font></ul><br>LED kontrolka základní stanice nemusí během interní aktualizace svítit.<br>V průběhu aktualizace stanici neodpojujte ani k ní nepřipojujte žádná další zařízení."
-"FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle" "Tuto základní stanici je nutné vypnout a zapnout, aby mohla pokračovat v aktualizaci.<br><br><font color=#aaaa00>Odpojte proto stanici od zdroje a opětovně ji připojte.</font>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Pokračujte kliknutím na tlačítko „Zkusit znovu“ níže."
-"FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Kliknutím na tlačítko „Zrušit“ restartujete režim SteamVR."
-
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20" "Pokud se aktualizace nezdaří několikrát za sebou...<ul><li>Ukončete režim SteamVR.<li>Odpojte všechny USB kabely zapojené do základní stanice.<li>USB kabely znovu NEZAPOJUJTE.<li>Odpojte a znovu zapojte napájecí kabely pro Link Box.<li>Odpojte a znovu zapojte napájecí kabel základní stanice.<li>Znovu spusťte režim SteamVR a opakujte aktualizaci.</ul>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20" "Pokud se aktualizace nezdaří několikrát za sebou...<ul><li>Ukončete režim SteamVR.<li>Odpojte všechny USB kabely zapojené do základní stanice.<li>USB kabely znovu NEZAPOJUJTE.<li>Odpojte a znovu zapojte napájecí kabel základní stanice.<li>Znovu spusťte režim SteamVR a opakujte aktualizaci.</ul>"
-
-"FirmwareWizard_UpdateBasestation_Success_Title" "Aktualizace základní stanice dokončena"
-"FirmwareWizard_UpdateBasestation_Success_UpperText" "Povedlo se!"
-"FirmwareWizard_UpdateBasestation_Success_MiddleText" "Základní stanice byla úspěšně aktualizována. Aby však zaznamenala změnu, bude ji možná nutné odpojit a znovu připojit ke zdroji."
-"FirmwareWizard_UpdateBasestation_Success_LowerText" "Po přemístění stanic se ujistěte, že jste nezměnili jejich kanály."
-
-"FirmwareWizard_UpdateBasestationWireless_Success_Title" "Aktualizace základní stanice dokončena"
-"FirmwareWizard_UpdateBasestationWireless_Success_UpperText" "Povedlo se!"
-"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS10" "Základní stanice byla úspěšně aktualizována. Aby však zaznamenala změnu, bude ji možná nutné odpojit a znovu připojit ke zdroji."
-"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS20" "Základní stanice byla úspěšně aktualizována."
-"FirmwareWizard_Information_Title" "Aktualizace zařízení"
-"FirmwareWizard_WizardIsAlreadyBusy_Message" "Tuto aktualizaci momentálně není možné zahájit, protože již probíhá jiná aktualizace."
-
-"FirmwareWizard_WirelessServicesRequired_Title" "Aktualizace základní stanice"
-"FirmwareWizard_WirelessServicesRequired" "Pro bezdrátovou aktualizaci této základní stanice musí být povoleny služby spojené s Bluetooth.\n\nPovolte Bluetooth režimu SteamVR.\n"
-
-"FirmwareWizard_ProgressTextLeft" "("
-"FirmwareWizard_ProgressTextRight" ")"
-"FirmwareWizard_ProgressTextMiddle" "ze"
-"FirmwareWizard_ProgressPercent" "[ %1% ]"
-"FirmwareWizard_ProgressPercentStarting" "[ Zahajování... ]"
-"FirmwareWizard_ProgressPercentFinishing" "[ Dokončování... ]"
-
-"FirmwareWizard_WatchmanUpdate" "Aktulizace sledovacího zařízení"		
-"FirmwareWizard_WatchmanFPGAUpdate" "Aktualizace sledovacího zařízení"
-"FirmwareWizard_WatchmanRecovery" "Aktualizace sledovacího zařízení"
-"FirmwareWizard_DongleUpdate" "Aktualizace hardwarového klíče"
-"FirmwareWizard_CameraUpdate" "Aktualizace kamery"
-"FirmwareWizard_CameraRecovery" "Aktualizace kamery"
-"FirmwareWizard_RadioUpdate" "Aktualizace pásma"
-"FirmwareWizard_VRCUpdate" "Aktualizace zařízení"
-"FirmwareWizard_DisplayUpdate" "Aktualizace displeje"
-"FirmwareWizard_DisplayFPGAUpdate" "Aktualizace displeje"
-"FirmwareWizard_AudioUpdate" "Aktualizace zvuku"
-"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate" "Aktualizace periferního zařízení"
-
-"FirmwareWizard_EnterBootloaderMode" "Příprava na aktualizaci..."
-"FirmwareWizard_ExitBootloaderMode" "Dokončování aktualizace..."
-"FirmwareWizard_WatchmanDiskUpdate" "Aktualizace zařízení"
-"FirmwareWizard_BaseStationBluetoothBootloaderUpdate" "Aktualizace zařízení"
-"FirmwareWizard_BaseStationBluetoothRadioUpdate" "Aktualizace zařízení"
-"FirmwareWizard_BaseStationBluetoothMCUUpdate" "Aktualizace zařízení"
-"FirmwareWizard_AudioBridgeUpdate" "Aktualizace zařízení"
-"FirmwareWizard_ImageBridgeUpdate" "Aktualizace zařízení"
-
-"FirmwareWizard_UpdateBasestation_Manual" "USB"
-"FirmwareWizard_UpdateBasestation_Bluetooth" "Bezdrátová"
-"FirmwareWizard_UpdateBasestation_Continue" "Pokračovat"
-
-"RebootHelper_ServiceStatus" "Stav: %1"
-"RebootHelper_ServiceError" "Chyba: %1"
-"RebootHelper_StartingSteamVRShutdown" "Ukončování..."
-"RebootHelper_RebootingVive" "Restartování režimu SteamVR..."
-"RebootHelper_ConnectingToVive" "Připojování k headsetu..."
-"RebootHelper_RestartingSteamVR" "Restartování režimu SteamVR..."
-"RebootHelper_Cancel" "Zrušit"
-"RebootHelper_Status_WaitingForDevice" "Čeká se na zařízení..."
-"RebootHelper_Status_Connected" "Připojeno!"
-
-"MenuAction_SteamVRWebsite_URL" "http://steamvr.steampowered.com"
-"MenuAction_SteamVRCommunity_URL" "http://steamcommunity.com/app/250820/discussions/"
-"MenuAction_SteamVRHardwareDiscussions_URL" "http://steamcommunity.com/app/358720/discussions/"
-"MenuAction_SteamVRDeveloperSupport_URL" "https://developer.valvesoftware.com/wiki/SteamVR"
-"MenuAction_SteamWorksDeveloperSupport_URL" "http://steamcommunity.com/groups/steamworks/discussions"
-
-"BluetoothLinkStatus_Unknown" "Neznámý"
-"BluetoothLinkStatus_ViveLinkNotAccessible" "Chyba Bluetooth"
-"BluetoothLinkStatus_SemaphoreFileNotAccessible" "Chyba Bluetooth"
-"BluetoothLinkStatus_WrongToken" "Chyba Bluetooth"
-"BluetoothLinkStatus_Running" "Spuštěno"
-"BluetoothLinkStatus_StoppedOrPaused" "Zastaveno"
-"BluetoothLinkStatus_Transient" "Probíhá změna"
-
-"BluetoothControllerStatus_Unknown"							"Neznámý"
-"BluetoothControllerStatus_ServiceNotFound"					"Nebyla zjištěna schopnost komunikace přes Bluetooth. Zkontrolujte instalaci režimu SteamVR."
-"BluetoothControllerStatus_ServiceError"					"Chyba Bluetooth: BT–%1"
-"BluetoothControllerStatus_LinkBoxNotDetected"				"Nebyl nalezen Link Box schopný komunikace přes Bluetooth. Zkontrolujte připojení Link Boxu, restartujte jej odpojením a opětovným zapojením napájecího kabelu a následně restartujte také režim SteamVR."
-"BluetoothControllerStatus_NoBluetoothDevice"				"Nebyla zjištěna schopnost komunikace přes Bluetooth."
-"BluetoothControllerStatus_NoBluetoothDeviceUpdateNeeded"	"Nebyla zjištěna schopnost komunikace přes Bluetooth. Pro její získání je nutné aktualizovat zařízení. Najeďte na ikonu headsetu a vyberte možnost „Aktualizovat zařízení“."
-"BluetoothControllerStatus_BluetoothDriverNotInstalled"		"Link Box nemá nainstalovaný ovladač Bluetooth."
-"BluetoothControllerStatus_BluetoothDriverNeedsUpdate"		"Ovladač Bluetooth Link Boxu je nutné aktualizovat."
-"BluetoothControllerStatus_BluetoothDriverInstalling"		"Probíhá instalace ovladače Bluetooth..."
-"BluetoothControllerStatus_Connecting"						"Připojování..."
-"BluetoothControllerStatus_Disconnecting"					"Odpojování..."
-"BluetoothControllerStatus_FailedConnection"				"Spojení přes Bluetooth selhalo. Zkontrolujte připojení Link Boxu, restartujte jej odpojením a opětovným zapojením napájecího kabelu a následně restartujte také režim SteamVR."
-"BluetoothControllerStatus_Connected"						"Bluetooth připraveno"
-
-"NeedRoomSetupNoLaunch_Message" "Tuto aplikaci nelze spustit, dokud nebude dokončena příprava místnosti. Chcete nyní spustit přípravu místnosti?"
-
-"WorkshopUpload_DialogTitle"	"Nástroj workshopu režimu SteamVR"
-"WorkshopUpload_NoItem"			"(Nová)"
-"WorkshopUpload_SelectExisting"	"Upravit"
-"WorkshopUpload_SelectContentType"	"Typ"
-"WorkshopUpload_SelectContentType_Background"	"Pozadí"
-"WorkshopUpload_SelectContentType_Environment"	"Model prostředí"
-"WorkshopUpload_SelectContentType_Controller"	"Model ovladače"
-"WorkshopUpload_SelectContentType_Camera"		"Model kamery"
-"WorkshopUpload_SelectContentType_Basestation"	"Model základní stanice"
-"WorkshopUpload_Title"			"Název"
-"WorkshopUpload_Desc"			"Popis"
-"WorkshopUpload_Thumbnail"		"Soubor náhledu (400×300, max. 1 MB)"
-"WorkshopUpload_MainFile"		"Soubor"
-"WorkshopUpload_Cancel"			"Zrušit"
-"WorkshopUpload_Upload"			"Odeslat"
-"WorkshopUpload_SelectImage"	"Vybrat obrázek"
-"WorkshopUpload_ImagesFilter"	"Obrázky (*.jpg *.png)"
-"WorkshopUpload_ObjFilter"		"Modely (*.obj)"
-"WorkshopUpload_Visibility"			"Viditelnost"
-"WorkshopUpload_Visibility_Public"			"Veřejná"
-"WorkshopUpload_Visibility_FriendsOnly"		"Pouze pro přátele"
-"WorkshopUpload_Visibility_Private"			"Soukromá"
-"WorkshopUpload_Tags"							"Značky"
-"WorkshopUpload_Tag_Nature"						"Příroda"
-"WorkshopUpload_Tag_Tech"						"Technika"
-"WorkshopUpload_Tag_City"						"Město"
-"WorkshopUpload_Tag_Space"						"Vesmír"
-"WorkshopUpload_Tag_Game"						"Hra"
-"WorkshopUpload_Tag_Abstract"					"Abstraktní"
-"WorkshopUpload_Error"			"Chyba"
-"WorkshopUpload_Error_SteamClientNotFound"	"Nelze spustit nástroj workshopu režimu SteamVR, protože není spuštěn klient služby Steam."
-"WorkshopUpload_Error_NoTitle"	"Zadejte název"
-"WorkshopUpload_Error_NoDesc"		"Zadejte popis"
-"WorkshopUpload_Error_DescTooLong"	"Popis nemůže být delší než 8000 znaků."
-"WorkshopUpload_Error_NoFile_Thumbnail"		"Vyberte platný náhledový obrázek"
-"WorkshopUpload_Error_NoFile_MainFile"		"Vyberte platný soubor"
-"WorkshopUpload_Error_TooLarge_Thumbnail"		"Náhledový obrázek musí být menší než 1 MB"
-"WorkshopUpload_Error_TooLarge_MainFile"		"Soubor nesmí být větší než 1 GB"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Background"	"Náhledové obrázky musí být formátu PNG nebo JPG"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Environment"	"Náhledové obrázky musí být formátu PNG nebo JPG"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Controller"	"Náhledové obrázky musí být formátu PNG nebo JPG"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Camera"	"Náhledové obrázky musí být formátu PNG nebo JPG"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Basestation"	"Náhledové obrázky musí být formátu PNG nebo JPG"
-"WorkshopUpload_Error_InvalidType_MainFile_Background"		"Obrázky pozadí musí být formátu PNG nebo JPG"
-"WorkshopUpload_Error_InvalidType_MainFile_Environment"		"Soubory modelu prostředí musí být formátu OBJ"
-"WorkshopUpload_Error_InvalidType_MainFile_Controller"		"Soubory modelu ovladače musí být formátu OBJ"
-"WorkshopUpload_Error_InvalidType_MainFile_Camera"			"Soubory modelu kamery musí být formátu OBJ"
-"WorkshopUpload_Error_InvalidType_MainFile_Basestation"		"Soubory modelu základní stanice musí být formátu OBJ"
-"WorkshopUpload_Error_LimitExceeded"	"Klient služby Steam nahlásil chybu „Byl překročen limit“. Ujistěte se, že je náhledový obrázek menší než 1 MB."
-"WorkshopUpload_Error_CannotCreateUploadDir"		"Nepodařilo se vytvořit dočasný adresář pro nahrávání!"
-"WorkshopUpload_Error_Generic"		"Při nahrávání souboru došlo k chybě. Zkuste to později znovu."
-"WorkshopUpload_Error_NoItemsToEdit"	"Nebyly nalezeny žádné upravitelné stávající soubory!"
-"WorkshopUpload_Progress_Title"		"Workshop režimu SteamVR"
-"WorkshopUpload_Progress_Start"		"Navazování spojení s workshopem..."
-"WorkshopUpload_Progress_PreparingConfig"		"Příprava konfigurace..."
-"WorkshopUpload_Progress_PreparingContent"		"Zpracovávání souborů..."
-"WorkshopUpload_Progress_UploadingContent"		"Nahrávání souborů..."
-"WorkshopUpload_Progress_UploadingPreview"		"Nahrávání souboru náhledu..."
-"WorkshopUpload_Progress_CommittingChanges"		"Dokončování..."
-
-"KnockKnock_Title" "Shání mě někdo?"
-"KnockKnock_Text" "Momentálně jsem ve virtuální realitě. Pokud mě nutně potřebujete, klikněte na tlačítko níže nebo stiskněte klávesu „%1“."
-"KnockKnock_Button" "Ťuky ťuk"
-"KnockKnock_Notification_Text" "Ťuky ťuk\nNěkdo z reálného světa si žádá Vaši pozornost."
-
-"About_Title" "O režimu SteamVR"
+ %1 znak
+ (%1)"
+ (0)"
+ (0x%1)"
+ (0x0010)"
+ (0x0200)"
+ (0x0400)"
+ (0x2000)"
+ (1)"
+ (2)"
+ (3)"
+ (4)"
+ (5)"
+ (DK2)"
+ (Oculus Rift DK2)"
+ (UPOZORN
+ (jestli
+ (nav
+ (spojen
+ 1 GB"
+ 1 MB"
+ 1 MB."
+ 8000 znak
+ <font color=#eeeeee>%1
+ Bluetooth (0x0080)"
+ Bluetooth Link Boxu a umo
+ Bluetooth Link Boxu je nutn
+ Bluetooth a umo
+ Bluetooth"
+ Bluetooth. N
+ Bluetooth."
+ GPU"
+ HDMI audio"
+ Link Box</b>"
+ Link Boxu, restartujte jej odpojen
+ OpenVR byl importov
+ OpenVR"
+ USB hubu"
+ USB spojen
+ USB za
+ USB"
+ VR aplikace.\n\nOpravdu chcete pokra
+ VR za
+ VR..."
+ ZBYL
+ a aktualizov
+ a mo
+ a neprov
+ a re
+ a sou
+ a tak
+ adres
+ aktualizace br
+ aktualizace dojde bezdr
+ aktualizace headsetu. To m
+ aktualizace ovlada
+ aktualizace sledovac
+ aktualizace sv
+ aktualizace z
+ aktualizace za
+ aktualizace"
+ aktualizace, tak
+ aktualizace. Vyberte za
+ aktualizace."
+ aktualizace..."
+ aktualizaci br
+ aktualizaci"
+ aktualizaci.</font></ul><br>LED kontrolka z
+ aktualizov
+ aktualizovat za
+ aktualizovat."
+ anal
+ aplikac
+ aplikace m
+ aplikace nereaguje"
+ aplikace nest
+ aplikace pro odebr
+ aplikace skon
+ aplikace spadla.\nZkuste to znovu.\n"
+ aplikace"
+ aplikace, p
+ aplikace. V
+ bezdr
+ budete moci pustit tla
+ budete muset nakonfigurovat ru
+ budete muset vy
+ by m
+ by vy
+ byl 
+ byl sp
+ bylo 
+ bylo p
+ byste si p
+ cesty sv
+ cesty"
+ chyb generuje pro 
+ chyba
+ chyba (%1)" 
+ chyby 
+ chyby mus
+ chyby"
+ daleko (0x0002)"
+ data o aktualizac
+ deska"
+ displej
+ displej"
+ displeje (0x10000)"
+ displeje (0x4000)"
+ displeje jsou zrcadleny (0x1000)"
+ disponuje nov
+ do funk
+ do z
+ dojde k restartu re
+ dokon
+ domov"
+ dostupn
+ dva sn
+ e-mail."
+ firmware headsetu a ovlada
+ frekvence"
+ frekvence, ale ovlada
+ frekvence, ale p
+ funkce a v
+ funkce."
+ grafick
+ hardwarov
+ hardwaru..."
+ headset a GPU je"
+ headset do 5.00 r
+ headset podporuje i jin
+ headset vy
+ headset."
+ headsetu m
+ hranice budou vycentrov
+ hranice se objev
+ hranice vypnuty"
+ hranice zapnuty"
+ hranice"
+ instalace ovlada
+ instalaci jejich ovlada
+ instance"
+ jak z
+ jako p
+ je 100 %."
+ je headset ne
+ je n
+ je nen
+ je nutn
+ je obraz renderov
+ je re
+ je sp
+ je v dohledu headsetu."
+ jeden sn
+ jeden z pou
+ jedn
+ jej op
+ jejich kan
+ ji p
+ ji restartov
+ jinou z
+ jsem ve virtu
+ jsou dostupn
+ jsou pou
+ k headsetu..."
+ k necht
+ k pou
+ kabel z
+ kabel, kter
+ kabel."
+ kabelu micro-USB. M
+ kabely pro Link Box.<li>Odpojte a znovu zapojte nap
+ kalibrace trackpadu ..."
+ kalibrace"
+ kamery vid
+ karty ne. Ov
+ karty"
+ karty."
+ ke sv
+ ke zdroji p
+ klient slu
+ kompatibiln
+ komponent
+ komponent re
+ komponenty Vive.</b></font>"
+ komunikace p
+ konfigurac
+ konfigurace dokon
+ konfigurace"
+ konflikty (%1). Kan
+ konflikty mezi kan
+ konflikty."
+ kontroly"
+ konzole"
+ kvality, pokud spu
+ limit aplikace
+ lze automaticky vy
+ manu
+ modelu"
+ mohou b
+ mohou d
+ na hlavn
+ na tomto po
+ na um
+ nabit
+ nahl
+ nahr
+ nainstalov
+ nainstalovan
+ nastaven
+ nastavov
+ nebo bezdr
+ nebylo rozpozn
+ nejnov
+ nevypne s
+ nevytvo
+ nezavrn
+ nutn
+ obnovovac
+ obrazovce."
+ obrazovka vypnuta"
+ obrazovka zapnuta"
+ obrazovku"
+ obrazovky re
+ obrazovky."
+ odpojit a znovu p
+ odpojit a znovu zapojit.\n"
+ odpojte USB kabely VR za
+ oko v rozli
+ omezen
+ ovlada
+ po <a href='vrmonitor://restartsystem'><span style='color:white;'>restartu re
+ po restartov
+ po ukon
+ podporovat a pou
+ pohybu nebo se V
+ pohybu nen
+ pohybu vypnuto"
+ pohybu zapnuto"
+ pohybu"
+ pokra
+ pomocn
+ poprv
+ potla
+ pozad
+ pozice headsetu."
+ pro V
+ pro aktualizaci."
+ pro nahr
+ pro specifick
+ pro star
+ pro tuto grafickou kartu, nebo je t
+ pro ulo
+ pro v
+ prob
+ probl
+ prost
+ prostor"
+ realit
+ realitu"
+ reality o pozornost."
+ reprojekce vypnuta"
+ reprojekce zapnuta"
+ reprojekce"
+ reprojekci."
+ reset p
+ restartov
+ restartovat automaticky. \nUkon
+ restartovat, aby se projevily zm
+ restartujete re
+ restartujte tak
+ restartujte."
+ rozhran
+ rozli
+ runtim
+ runtime zalo
+ s Bluetooth.\n\nPovolte Bluetooth re
+ s CPU)"
+ s VR aplikac
+ s bezdr
+ s chybou syst
+ s kompatibilitou omezit procesy re
+ s polovi
+ s re
+ s workshopem..."
+ sady Qt"
+ sady Qt.\n\nOpravdu chcete pokra
+ samotn
+ se na Bluetooth..."
+ se na za
+ se nepoda
+ se nezda
+ se p
+ se povolit re
+ sekund: %1"
+ seznam
+ seznam"
+ seznamu"
+ seznamy"
+ sledov
+ sledovac
+ sledovan
+ soubor
+ soubor rozhran
+ soubor"
+ soubor:"
+ souboru do
+ souboru n
+ soubory!"
+ souvisej
+ spadla.\nZkuste to znovu.\n"
+ spojen
+ spole
+ spou
+ spravovat. <a href='vrmonitor://directmode/enable'><span style='color:white;'>Zapn
+ spustit p
+ spustiteln
+ stanic
+ stanic pomoc
+ stanic se ujist
+ stanice (0x0004)"
+ stanice (0x0008)"
+ stanice 1.0"
+ stanice 2.0"
+ stanice a nastav
+ stanice a p
+ stanice byla 
+ stanice dokon
+ stanice ji
+ stanice jsou od sebe p
+ stanice mus
+ stanice nedokon
+ stanice nemus
+ stanice s 
+ stanice se nezda
+ stanice se v z
+ stanice spr
+ stanice"
+ stanice, ale 
+ stanice, kter
+ stanice, zat
+ stanice. Pot
+ stanice. To m
+ stanice."
+ stanice.</font>"
+ stanice.<br><br><font color=#aaaa00>Odpojte pros
+ stanice.<li>Op
+ stanice.<li>USB kabely znovu NEZAPOJUJTE.<li>Odpojte a znovu zapojte nap
+ stanice.<li>Znovu spus
+ stanice.<ul><li><font color=#aaaa00>Odpojte z
+ stanici je nutn
+ stanici ke zdroji.<li>Vy
+ stanici od zdroje.<li>Odpojte USB kabel zapojen
+ stanici"
+ stanici, nep
+ stanici."
+ stanici.\n\n2. P
+ start"
+ stav"
+ stran
+ supersampling" 
+ svoji intern
+ syst
+ tato mo
+ text"
+ tutori
+ typ nemus
+ typ po
+ typ."
+ upozorn
+ upraviteln
+ uzam
+ v dosahu."
+ v posledn
+ v rozhran
+ vazba"
+ ve spr
+ ve virtu
+ velk
+ verz
+ verze syst
+ vnit
+ voln
+ vstupn
+ vybran
+ vyhled
+ vypnout a zapnout a n
+ vypnout a zapnout, aby mohla pokra
+ vypnout a zapnout."
+ z headsetu"
+ z hlavn
+ z nich zat
+ za sebou"
+ zasunout, aby syst
+ zobr. re
+ zobrazovac
+ zvukov
+ zvuku do za
+ zvuku"
+"About_BuiltPrefix" "Sestaveno %1"
 "About_DateString" "d. MMM yyyy %1 hh.mm"
 "About_DateString_Argument" "v"
-"About_BuiltPrefix" "Sestaveno %1"
+"About_Title" "O re
 "About_VersionPrefix" "Verze %1"
-
-"MenuAction_CalibrateController" "Zkalibrovat ovladač"
-"CalibrateControllerTrackpad_Title" "Zkalibrovat trackpad ovladače"
-"CalibrateControllerTrackpad_Start_UpperText" "Tato funkce zkalibruje trackpad Vašeho ovladače. Trackpad je třeba zkalibrovat v případě, že nefunguje plynule nebo dochází k nechtěným dotykům."
-"CalibrateControllerTrackpad_Start_LowerText" "Ujistěte se, že se nedotýkáte trackpadu a klikněte na tlačítko „Další“."
-"CalibrateControllerTrackpad_Progress_UpperText" "Probíhá kalibrace trackpadu ..."
-"CalibrateControllerTrackpad_Progress_LowerText" "
-"
-"CalibrateControllerTrackpad_Success" "Povedlo se!"
-"CalibrateControllerTrackpad_End_UpperText" "Trackpad Vašeho ovladače byl zkalibrován."
+"Advanced_Advanced" "Pokro
+"Advanced_AllowSavingOfTimingInfo" "Povolit ukl
+"Advanced_AppRequestedThrottling" "Aplikace vy
+"Advanced_Applications" "Aplikace"
+"Advanced_ApplyPathsAndRestart" "Pou
+"Advanced_AsyncActive" "Asynchronn
+"Advanced_AsyncNotActive" "Asynchronn
+"Advanced_Audio" "Zvuk"
+"Advanced_AutoSaveTimingInfoOnExit" "Automatick
+"Advanced_Base" "Stanice"
+"Advanced_BaseStation" "Z
+"Advanced_Bluetooth" "Bluetooth"
+"Advanced_BoundsDrawing" "Kolizn
+"Advanced_BoundsNotDrawing" "Kolizn
+"Advanced_Camera" "Kamera"
+"Advanced_Compositor" "Vnit
+"Advanced_ConfigPath" "Cesta nastaven
+"Advanced_Controller" "Ovlada
+"Advanced_DashboardDown" "Hlavn
+"Advanced_DashboardUp" "Hlavn
+"Advanced_Developer" "Pro v
+"Advanced_Devices" "Za
+"Advanced_DirectModeDisabled" "P
+"Advanced_DrawingApp" "Aplikace"
+"Advanced_DrawingCompShouldBeApp" "Kompozitor"
+"Advanced_DrawingCompositor" "Kompozitor"
+"Advanced_DrawingUnclear" "Nezn
+"Advanced_DroppedFrame" "Chyba displeje"
+"Advanced_Explanation_CollisionBounds" "Kolizn
+"Advanced_FloorBoundsAlwaysOn" "V
+"Advanced_General" "Obecn
+"Advanced_Generic_Tracker" "Sledovac
+"Advanced_HMD" "Headset"
+"Advanced_Header_CollisionBounds" "Kolizn
+"Advanced_LogPath" "Cesta z
+"Advanced_MotionEstimationActive" "Vyhlazov
+"Advanced_MotionEstimationDisabled" "Vyhlazov
+"Advanced_MotionEstimationNotActive" "Vyhlazov
+"Advanced_MotionSmoothedFrame" "Reprojekce s vyhlazov
+"Advanced_NormalFrame" "B
+"Advanced_OneThirdFramerate" "1/3 sn
+"Advanced_Paths" "Cesty"
+"Advanced_PerfGraphInHMD" "Zobrazit graf v
+"Advanced_Performance" "Obraz"
+"Advanced_ReprojectedFrame" "Reprojekce bez vyhlazov
+"Advanced_ReprojectionOff" "Reprojekce vypnuta"
+"Advanced_ReprojectionOn" "Reprojekce zapnuta"
+"Advanced_Reset" "Reset"
+"Advanced_RoomOverview" "Chaperone"
+"Advanced_RuntimePath" "Cesta SteamVR:"
+"Advanced_SaveFrameDataNow" "Ulo
+"Advanced_SetNewPath" "Nastavit novou cestu..."
+"Advanced_Title" "Pokro
+"Advanced_USB" "USB"
+"BS20_ConfigureChannel_Apply"								"Pou
+"BS20_ConfigureChannel_AutoConfigContinue"					"Bylo zji
+"BS20_ConfigureChannel_AutoConfig_Incomplete"				"Automatick
+"BS20_ConfigureChannel_AutoConfig_NoChannelConflictsFound"	"Nebyly zji
+"BS20_ConfigureChannel_AutoConfig_NoFreeChannels"			"Nejsou k dispozici 
+"BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"Je k dispozici tolik voln
+"BS20_ConfigureChannel_AutoConfig_SuccessfulCompletion"		"Automatick
+"BS20_ConfigureChannel_AutoConfig_UnknownChannels"			"Je p
+"BS20_ConfigureChannel_AutomaticConfiguration"				"Automatick
+"BS20_ConfigureChannel_BaseStationName"						"Konfigurace stanice %1 na %2. kan
+"BS20_ConfigureChannel_BluetoothRequired"					"Pro konfiguraci kan
+"BS20_ConfigureChannel_Channel"								"Kan
+"BS20_ConfigureChannel_ChannelConfigurationFailure"			"Stanice %1 nep
+"BS20_ConfigureChannel_Connecting"							"P
+"BS20_ConfigureChannel_ConnectionFailure"					"Stanice %1 se ne
+"BS20_ConfigureChannel_Description"							"Pro p
+"BS20_ConfigureChannel_InUseByPrefix"						"Moment
+"BS20_ConfigureChannel_Legend"								"Ozna
+"BS20_ConfigureChannel_ScanForMore"							"Vyhledat dal
+"BS20_ConfigureChannel_Title"								"Konfigurace kan
+"BaseStation_Channel_Text" "Kan
+"BaseStation_Mode_Text" "M
+"BluetoothControllerStatus_BluetoothDriverInstalling"		"Prob
+"BluetoothControllerStatus_BluetoothDriverNeedsUpdate"		"Ovlada
+"BluetoothControllerStatus_BluetoothDriverNotInstalled"		"Link Box nem
+"BluetoothControllerStatus_Connected"						"Bluetooth p
+"BluetoothControllerStatus_Connecting"						"P
+"BluetoothControllerStatus_Disconnecting"					"Odpojov
+"BluetoothControllerStatus_FailedConnection"				"Spojen
+"BluetoothControllerStatus_LinkBoxNotDetected"				"Nebyl nalezen Link Box schopn
+"BluetoothControllerStatus_NoBluetoothDevice"				"Nebyla zji
+"BluetoothControllerStatus_NoBluetoothDeviceUpdateNeeded"	"Nebyla zji
+"BluetoothControllerStatus_ServiceError"					"Chyba Bluetooth: BT
+"BluetoothControllerStatus_ServiceNotFound"					"Nebyla zji
+"BluetoothControllerStatus_Unknown"							"Nezn
+"BluetoothLinkStatus_Running" "Spu
+"BluetoothLinkStatus_SemaphoreFileNotAccessible" "Chyba Bluetooth"
+"BluetoothLinkStatus_StoppedOrPaused" "Zastaveno"
+"BluetoothLinkStatus_Transient" "Prob
+"BluetoothLinkStatus_Unknown" "Nezn
+"BluetoothLinkStatus_ViveLinkNotAccessible" "Chyba Bluetooth"
+"BluetoothLinkStatus_WrongToken" "Chyba Bluetooth"
+"BugReporter_CharactersRemaining" "Zb
+"BugReporter_Description" "Popis:"
+"BugReporter_DescriptionRequired" "Zadejte popis."
+"BugReporter_Explanation" "D
+"BugReporter_FailedToCreateZip" "Nepoda
+"BugReporter_ForPersonalSupport" "Touto akc
+"BugReporter_IncludeCrashDumps" "Zahrnout soubory s v
+"BugReporter_IncludeReportAndLogs" "Zahrnout informace o syst
+"BugReporter_InitializationFailure" "Nepoda
+"BugReporter_NotAvailable" "V t
+"BugReporter_Owner"	"Vlastn
+"BugReporter_PreviewReport" "N
+"BugReporter_PreviewReportTitle" "Nahl
+"BugReporter_Priority" "Priorita:"
+"BugReporter_ProgressSubmitting" "Odes
+"BugReporter_ProgressSubmittingPercent" "Odes
+"BugReporter_ReportType"	"Typ zpr
+"BugReporter_ReportType_Bug" "Chyba"
+"BugReporter_ReportType_FeatureRequest" "N
+"BugReporter_ReportType_Feedback" "Zp
+"BugReporter_SteamLoginRequired" "Pro nahl
+"BugReporter_SteamVRSupport" "Podpora re
+"BugReporter_Subject" "P
+"BugReporter_SubjectRequired" "Zadejte p
+"BugReporter_SubmissionFailure"	"Zpr
+"BugReporter_SubmissionSuccess"	"Zpr
+"BugReporter_SubmissionTimeout" "Vypr
+"BugReporter_Title"	"Nahl
+"Button_ResetCollisionBounds" "Nastavit na v
 "CalibrateControllerTrackpad_End_LowerText" "
-"
-
-"PlaylistEntryDefaultName" "Záznam"
-"PlaylistListDefaultName" "Seznam"
-
-"PlaylistEditor_WindowTitle" "Editor seznamů"
-"PlaylistEditor_New" "Nový"
-"PlaylistEditor_Load" "Načíst"
-"PlaylistEditor_Save" "Uložit"
-"PlaylistEditor_SaveAs" "Uložit jako"
-"PlaylistEditor_FileName_Label" "Soubor:"
-"PlaylistEditor_Name_Label" "Název:"
-"PlaylistEditor_Entries_Tab" "Záznamy"
-"PlaylistEditor_Placecard_Tab" "Cedulka"
-"PlaylistEditor_General_Tab" "Obecné"
-"PlaylistEditor_Detail_Name_Label" "Název:"
-"PlaylistEditor_Detail_Entry_Text" "Záznam"
-"PlaylistEditor_Detail_Executable_Label" "Spustitelný soubor:"
-"PlaylistEditor_Detail_DotDotDot_Label" "..."
+"CalibrateControllerTrackpad_End_UpperText" "Trackpad Va
+"CalibrateControllerTrackpad_Progress_LowerText" "
+"CalibrateControllerTrackpad_Progress_UpperText" "Prob
+"CalibrateControllerTrackpad_Start_LowerText" "Ujist
+"CalibrateControllerTrackpad_Start_UpperText" "Tato funkce zkalibruje trackpad Va
+"CalibrateControllerTrackpad_Success" "Povedlo se!"
+"CalibrateControllerTrackpad_Title" "Zkalibrovat trackpad ovlada
+"CollisionBounds_Advanced" "Pokro
+"CollisionBounds_Beginner" "Pro za
+"CollisionBounds_Developer" "Pro v
+"CollisionBounds_Intermediate" "Pro pokro
+"CollisionBounds_Squares" "
+"CompositorBackground_Color"		"Barva"
+"CompositorBackground_Header"		"Styl pozad
+"CompositorBackground_Image"		"Obr
+"CompositorError_NoCompositorRequested" "Chyba re
+"CompositorError_Running" "Spu
+"Compositor_ResetToDefault" 		"Nastavit na v
+"Compositor_SelectColorHeader"		"Vyberte barvu pozad
+"Compositor_SelectImage"			"Vybrat obr
+"Compositor_SelectImageHeader"		"Vyberte obr
+"DismissableWarning_BasestationSingleBaseModeHint" "N
+"DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Konflikt z
+"DismissableWarning_BasestationsTooFarApart" "Z
+"DismissableWarning_BluetoothDriverNeedsInstallation" "Je vy
+"DismissableWarning_BluetoothDriverNeedsUpdate" "Je vy
+"DismissableWarning_BluetoothLinkCommunicationFailed" "Komunikace p
+"DismissableWarning_BluetoothLinkServiceError" "Bluetooth nen
+"DismissableWarning_BluetoothLinkServiceNotFound" "Bluetooth nen
+"DismissableWarning_Detected" "Zji
+"DismissableWarning_DismissButton" "Zav
+"DismissableWarning_DisplayInExtendedMode" "Upozorn
+"DismissableWarning_MissedFrames" "Vypadl
+"DismissableWarning_OpticalBasestationSyncWarning" "Upozorn
+"DismissableWarning_PowerSchemeIsNotHighPerformance" "Probl
+"DismissableWarning_RunTutorialAgain" "Op
+"DismissableWarning_SomeDisplaysAreMirroring" "N
+"DismissableWarning_SteamVRInSafeMode" "Re
+"DismissableWarning_TimeFormat" "h.mm:ss"
+"DismissableWarning_UnknownHardwareDetected" "Bylo nalezeno nov
+"DismissableWarning_WarningsForTheFirstTime" "Obnoven
+"DismissableWarning_Windows8" "Windows 8 (0x8000)"
+"DismissableWarning_WindowsAeroDisabled" "Upozorn
+"Explanation_DisableEnhancedPowerManagement" "Pokud se pot
+"Explanation_QuickCalibrate" "Rychl
+"Explanation_RebootVive" "Restartov
+"Explanation_RemoveAllSteamVRUSBDevices" "Odebere ze syst
+"Explanation_ResetDismissableWarnings" "Obnov
+"Explanation_ResetRuntimeAndQuit" "Resetuje cestu SteamVR zalo
+"Explanation_RestartSteamVR" "Restartov
+"Explanation_Supersampling" "* N
+"Explanation_SupersamplingFiltering" "Mo
+"Explanation_Supersampling_Header" "Re
+"FirmwareWizard_AudioBridgeUpdate" "Aktualizace za
+"FirmwareWizard_AudioUpdate" "Aktualizace zvuku"
+"FirmwareWizard_BaseStationBluetoothBootloaderUpdate" "Aktualizace za
+"FirmwareWizard_BaseStationBluetoothMCUUpdate" "Aktualizace za
+"FirmwareWizard_BaseStationBluetoothRadioUpdate" "Aktualizace za
+"FirmwareWizard_CameraRecovery" "Aktualizace kamery"
+"FirmwareWizard_CameraUpdate" "Aktualizace kamery"
+"FirmwareWizard_DeviceOverview_FailedToUpdate" "Aktualizace se nezda
+"FirmwareWizard_DeviceOverview_LookingForDevice" "Hled
+"FirmwareWizard_DeviceOverview_Nagging_Title" "Vy
+"FirmwareWizard_DeviceOverview_NoUpdateDataAvailable" "Nejsou dostupn
+"FirmwareWizard_DeviceOverview_TextContent" "Kter
+"FirmwareWizard_DeviceOverview_TextContent_Nag" "Jsou dostupn
+"FirmwareWizard_DeviceOverview_Title" "Aktualizace za
+"FirmwareWizard_DeviceOverview_UpToDate" "Aktu
+"FirmwareWizard_DeviceOverview_UpdateAvailable" "Je dostupn
+"FirmwareWizard_DeviceOverview_WirelessServicesRequired" "Tato aktualizace vy
+"FirmwareWizard_DisplayFPGAUpdate" "Aktualizace displeje"
+"FirmwareWizard_DisplayUpdate" "Aktualizace displeje"
+"FirmwareWizard_DongleUpdate" "Aktualizace hardwarov
+"FirmwareWizard_EnterBootloaderMode" "P
+"FirmwareWizard_ExitBootloaderMode" "Dokon
+"FirmwareWizard_ImageBridgeUpdate" "Aktualizace za
+"FirmwareWizard_Information_Title" "Aktualizace za
+"FirmwareWizard_Nag_Title" "Doporu
+"FirmwareWizard_ProgressPercent" "[ %1% ]"
+"FirmwareWizard_ProgressPercentFinishing" "[ Dokon
+"FirmwareWizard_ProgressPercentStarting" "[ Zahajov
+"FirmwareWizard_ProgressTextLeft" "("
+"FirmwareWizard_ProgressTextMiddle" "ze"
+"FirmwareWizard_ProgressTextRight" ")"
+"FirmwareWizard_RadioUpdate" "Aktualizace p
+"FirmwareWizard_ShutdownForMandatoryUpdate_TextContent" "V
+"FirmwareWizard_ShutdownForRecovery_TextContent" "Komponent Va
+"FirmwareWizard_Shutdown_TextContent" "Aby mohlo b
+"FirmwareWizard_Shutdown_Title" "Aktualizace za
+"FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle" "Tuto z
+"FirmwareWizard_UpdateBasestationWireless_Fail_BaseStuckInDFU" "Dokon
+"FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Kliknut
+"FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Pokra
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "Pokud se aktualizace nezda
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20" "Pokud se aktualizace nezda
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox" "Pokud se aktualizace nezda
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20" "Pokud se aktualizace nezda
+"FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "Tuto z
+"FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "Tuto z
+"FirmwareWizard_UpdateBasestationWireless_Fail_Title" "Aktualizace z
+"FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "Bezdr
+"FirmwareWizard_UpdateBasestationWireless_Fail_UpperText" "Aktualizace za
+"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "Tato z
+"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS10" "Z
+"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS20" "Z
+"FirmwareWizard_UpdateBasestationWireless_Success_Title" "Aktualizace z
+"FirmwareWizard_UpdateBasestationWireless_Success_UpperText" "Povedlo se!"
+"FirmwareWizard_UpdateBasestation_Bluetooth" "Bezdr
+"FirmwareWizard_UpdateBasestation_Choice_MiddleText" "Aktualizaci lze prov
+"FirmwareWizard_UpdateBasestation_Choice_Title" "Aktualizace z
+"FirmwareWizard_UpdateBasestation_Continue" "Pokra
+"FirmwareWizard_UpdateBasestation_Fail_LowerText" "Pokra
+"FirmwareWizard_UpdateBasestation_Fail_MiddleText" "Ujist
+"FirmwareWizard_UpdateBasestation_Fail_Title" "Aktualizace z
+"FirmwareWizard_UpdateBasestation_Fail_UpperText" "Aktualizace za
+"FirmwareWizard_UpdateBasestation_Manual" "USB"
+"FirmwareWizard_UpdateBasestation_Progress_LowerText" "UPOZORN
+"FirmwareWizard_UpdateBasestation_Progress_MiddleText" "Prob
+"FirmwareWizard_UpdateBasestation_Progress_Title" "Aktualizace z
+"FirmwareWizard_UpdateBasestation_Progress_UpperText" "
+"FirmwareWizard_UpdateBasestation_Start_LowerText" "4. Aktualizace za
+"FirmwareWizard_UpdateBasestation_Start_MiddleText" "1. Odmontujte a odpojte svoji z
+"FirmwareWizard_UpdateBasestation_Start_Title" "Aktualizace z
+"FirmwareWizard_UpdateBasestation_Start_UpperText" "
+"FirmwareWizard_UpdateBasestation_Success_LowerText" "Po p
+"FirmwareWizard_UpdateBasestation_Success_MiddleText" "Z
+"FirmwareWizard_UpdateBasestation_Success_Title" "Aktualizace z
+"FirmwareWizard_UpdateBasestation_Success_UpperText" "Povedlo se!"
+"FirmwareWizard_UpdateBasestation_WirelessProgress_LowerText" "UPOZORN
+"FirmwareWizard_UpdateBasestation_WirelessProgress_MiddleText" "Prob
+"FirmwareWizard_UpdateBasestation_WirelessProgress_Title" "Aktualizace z
+"FirmwareWizard_UpdateBasestation_Wireless_LowerText" "
+"FirmwareWizard_UpdateBasestation_Wireless_MiddleText" "K nahr
+"FirmwareWizard_UpdateBasestation_Wireless_Title" "Aktualizace z
+"FirmwareWizard_UpdateBasestation_Wireless_UpperText" "
+"FirmwareWizard_UpdateController_Fail_LowerText" "Pokra
+"FirmwareWizard_UpdateController_Fail_MiddleText" "Ujist
+"FirmwareWizard_UpdateController_Fail_Title" "Aktualizace za
+"FirmwareWizard_UpdateController_Fail_UpperText" "Aktualizace ovlada
+"FirmwareWizard_UpdateController_Progress_LowerText" "UPOZORN
+"FirmwareWizard_UpdateController_Progress_MiddleText" "Prob
+"FirmwareWizard_UpdateController_Progress_Title" "Aktualizace ovlada
+"FirmwareWizard_UpdateController_Progress_UpperText" "
+"FirmwareWizard_UpdateController_Start_LowerText" "Aktualizace za
+"FirmwareWizard_UpdateController_Start_MiddleText" "P
+"FirmwareWizard_UpdateController_Start_Title" "Aktualizace ovlada
+"FirmwareWizard_UpdateController_Start_UpperText" "
+"FirmwareWizard_UpdateController_Success_LowerText" "
+"FirmwareWizard_UpdateController_Success_MiddleText" "Ovlada
+"FirmwareWizard_UpdateController_Success_Title" "Aktualizace ovlada
+"FirmwareWizard_UpdateController_Success_UpperText" "Povedlo se!"
+"FirmwareWizard_UpdateGenericTracker_Fail_LowerText" "Pokra
+"FirmwareWizard_UpdateGenericTracker_Fail_MiddleText" "Ujist
+"FirmwareWizard_UpdateGenericTracker_Fail_Title" "Aktualizace za
+"FirmwareWizard_UpdateGenericTracker_Fail_UpperText" "Aktualizace sledovac
+"FirmwareWizard_UpdateGenericTracker_Progress_LowerText" "UPOZORN
+"FirmwareWizard_UpdateGenericTracker_Progress_MiddleText" "Prob
+"FirmwareWizard_UpdateGenericTracker_Progress_Title" "Aktualizace sledovac
+"FirmwareWizard_UpdateGenericTracker_Start_LowerText" "Aktualizace za
+"FirmwareWizard_UpdateGenericTracker_Start_MiddleText" "P
+"FirmwareWizard_UpdateGenericTracker_Start_Title" "Aktualizace sledovac
+"FirmwareWizard_UpdateGenericTracker_Success_LowerText" "
+"FirmwareWizard_UpdateGenericTracker_Success_MiddleText" "Sledovac
+"FirmwareWizard_UpdateGenericTracker_Success_Title" "Aktualizace sledovac
+"FirmwareWizard_UpdateGenericTracker_Success_UpperText" "Povedlo se!"
+"FirmwareWizard_UpdateHeadset_Fail_LowerText" "
+"FirmwareWizard_UpdateHeadset_Fail_MiddleText" "Ujist
+"FirmwareWizard_UpdateHeadset_Fail_Title" "Aktualizace za
+"FirmwareWizard_UpdateHeadset_Fail_UpperText" "Aktualizace za
+"FirmwareWizard_UpdateHeadset_Progress_LowerText" "UPOZORN
+"FirmwareWizard_UpdateHeadset_Progress_MiddleText" "Prob
+"FirmwareWizard_UpdateHeadset_Progress_Title" "Aktualizace headsetu"
+"FirmwareWizard_UpdateHeadset_Progress_UpperText" "
+"FirmwareWizard_UpdateHeadset_Start_LowerText" "\nAktualizace za
+"FirmwareWizard_UpdateHeadset_Start_MiddleText" "P
+"FirmwareWizard_UpdateHeadset_Start_Title" "Aktualizace headsetu"
+"FirmwareWizard_UpdateHeadset_Start_UpperText" "
+"FirmwareWizard_UpdateHeadset_Success_LowerText"  "
+"FirmwareWizard_UpdateHeadset_Success_MiddleText" "Headset byl 
+"FirmwareWizard_UpdateHeadset_Success_Title" "Aktualizace headsetu dokon
+"FirmwareWizard_UpdateHeadset_Success_UpperText" "Povedlo se!"
+"FirmwareWizard_UpdateMoreFirmware" "Aktualizovat dal
+"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate" "Aktualizace perifern
+"FirmwareWizard_VRCUpdate" "Aktualizace za
+"FirmwareWizard_WaitingForShutdown_TextContent" "P
+"FirmwareWizard_WatchmanDiskUpdate" "Aktualizace za
+"FirmwareWizard_WatchmanFPGAUpdate" "Aktualizace sledovac
+"FirmwareWizard_WatchmanRecovery" "Aktualizace sledovac
+"FirmwareWizard_WatchmanUpdate" "Aktulizace sledovac
+"FirmwareWizard_WirelessServicesRequired" "Pro bezdr
+"FirmwareWizard_WirelessServicesRequired_Title" "Aktualizace z
+"FirmwareWizard_WizardIsAlreadyBusy_Message" "Tuto aktualizaci moment
+"FrameTiming_5sStats" "V
+"FrameTiming_Compositor" "Kompozitor"
+"FrameTiming_Config" "Upozornit, pokud budou v %3s zaznamen
+"FrameTiming_FirstView" " 
+"FrameTiming_Idle" "Ne
+"FrameTiming_LateStart" "Opo
+"FrameTiming_MisPresented" " 
+"FrameTiming_Other" "Jin
+"FrameTiming_Pause" "Pauza"
+"FrameTiming_PostSubmit" "Aplikace (jin
+"FrameTiming_PreSubmit" "Aplikace (scen
+"FrameTiming_Predicted" " 
+"FrameTiming_Presented" " 
+"FrameTiming_Raw" "Podrobnosti"
+"FrameTiming_ReadyForUse" " 
+"FrameTiming_Remote" "Vzd
+"FrameTiming_ShowInHeadset" "Zobrazit v headsetu"
+"FrameTiming_Throttled" " 
+"FrameTiming_Title" "
+"FrameTiming_Vsync" "V. synch"
+"Info_UnknownURL_Message" "Tento odkaz prozat
+"Info_UnknownURL_Title" "SteamVR"
+"KnockKnock_Button" "
+"KnockKnock_Notification_Text" "
+"KnockKnock_Text" "Moment
+"KnockKnock_Title" "Sh
+"Language" "czech"
+"Log_Button_Clear" "Smazat"
+"Log_Button_LoadCompleteFile" "Na
+"Log_Button_ShowInExplorer" "Zobrazit v Pr
+"Log_Text_MoreLineInTheActualFile" "KLIKN
+"Log_Window_Title" "Z
+"Main_CanSetInstallationPath_Message" "Nepoda
+"Main_Information_Title" "SteamVR"
+"Main_JumplistEntry_Advanced" "Pokro
+"Main_JumplistEntry_Quit" "Konec"
+"Main_JumplistEntry_RunFirstApplication" "
+"Main_JumplistEntry_RunRoomSetup" "P
+"Main_JumplistEntry_RunTutorial" "Tutori
+"Main_JumplistEntry_Settings" "Nastaven
+"Main_JumplistEntry_SystemReport" "Informace o syst
+"Main_RuntimeFailed_Message" "Nepoda
+"Main_Systray_Error_Message" "Na tomto po
+"Main_Systray_Error_Title" "N
+"MenuAction_AboutQt" "O n
+"MenuAction_About_vrmonitor" "O re
+"MenuAction_BaseStationSettings" "Nastaven
+"MenuAction_BluetoothSettings" "Nastaven
+"MenuAction_CalibrateController" "Zkalibrovat ovlada
+"MenuAction_ClearRecentPlaylist" "Smazat ned
+"MenuAction_Compositor_HideMirror" "Zak
+"MenuAction_Compositor_ShowMirror" "Povolit VR pohled"
+"MenuAction_CouldNotReadLogFiles" "Nepoda
+"MenuAction_Crash" "P
+"MenuAction_CreateSystemReport" "Vyvolat informace o syst
+"MenuAction_DebugCommands" "P
+"MenuAction_Developer" "Pro v
+"MenuAction_Devices" "Za
+"MenuAction_Diagnostics" "Pokro
+"MenuAction_DiagnosticsMenu" "Diagnostika"
+"MenuAction_DirectMode" "P
+"MenuAction_Directories" "Adres
+"MenuAction_DisableDirectMode" "Vypnout p
+"MenuAction_DisableEnhancedPowerManagement" "Zak
+"MenuAction_DisplayFrameTiming" "Pokro
+"MenuAction_DisplayMirror" "VR pohled"
+"MenuAction_EnableDirectMode" "Zapnout p
+"MenuAction_FirmwareUpdate" "Aktualizovat za
+"MenuAction_ForceFirmware" "Vynutit aktualizaci firmwaru"
+"MenuAction_Help" "N
+"MenuAction_HideDisplayMirror" "Zak
+"MenuAction_IdentifyBaseStation" "Rozpoznat z
+"MenuAction_IdentifyController" "Rozpoznat ovlada
+"MenuAction_IdentifyTracker" "Identifikovat za
+"MenuAction_KnockKnock" "
+"MenuAction_LegacySettings" "Nastaven
+"MenuAction_LogFiles" "Soubory z
+"MenuAction_MainPlaylistMenu" "Seznamy"
+"MenuAction_ModelDirectory_Browse" "Proch
+"MenuAction_More" "V
+"MenuAction_OverlayViewer" "Prohl
+"MenuAction_PairController" "Sp
+"MenuAction_PairTracker" "Sp
+"MenuAction_PairingWizard" "Sp
+"MenuAction_PerformanceGraph" "Zobrazit graf v
+"MenuAction_PlaylistEditor" "Editor seznam
+"MenuAction_PlaylistPlayer" "P
+"MenuAction_PowerOffController" "Vypnout ovlada
+"MenuAction_PowerOffTracker" "Vypnout sledovac
+"MenuAction_QuickCalibrate" "Rychl
+"MenuAction_Quit" "Konec"
+"MenuAction_RebootVive" "Restartovat headset"
+"MenuAction_RecentPlaylist" "Ned
+"MenuAction_RecentPlaylists" "Ned
+"MenuAction_RecordTrackingData" "Nahr
+"MenuAction_RefreshStatusNow" "Obnovit stav"
+"MenuAction_RemoveAllSteamVRUSBDevices" "Odebrat v
+"MenuAction_ReportABug" "Nahl
+"MenuAction_ResetAllSettingsAndQuit" "Resetovat ve
+"MenuAction_ResetDismissableWarnings" "Obnovit upozorn
+"MenuAction_ResetRuntimeAndQuit" "Resetovat cestu SteamVR"
+"MenuAction_ResetSeatedPosition" "Resetovat pozici vsed
+"MenuAction_RestartSteamVR" "Restartovat re
+"MenuAction_RoomOverview" "P
+"MenuAction_RunMediaPlayer" "Spustit p
+"MenuAction_RunPlaylist" "P
+"MenuAction_RunRoomSetup" "P
+"MenuAction_RunTutorial" "Tutori
+"MenuAction_SetConfigDirectory" "Nastavit adres
+"MenuAction_SetLogDirectory" "Nastavit adres
+"MenuAction_Settings" "Nastaven
+"MenuAction_ShowConfigDirectory" "Zobrazit adres
+"MenuAction_ShowControllerBinding" "Nastaven
+"MenuAction_ShowDisplayMirror" "Povolit VR pohled"
+"MenuAction_ShowLogDirectory" "Zobrazit adres
+"MenuAction_ShowManageTrackers" "Spravovat sledovac
+"MenuAction_ShowRuntimeDirectory" "Zobrazit adres
+"MenuAction_StatusBar" "Stav"
+"MenuAction_SteamVRCommunity" "Komunita re
+"MenuAction_SteamVRCommunity_URL" "http://steamcommunity.com/app/250820/discussions/"
+"MenuAction_SteamVRDeveloperSupport" "Podpora re
+"MenuAction_SteamVRDeveloperSupport_URL" "https://developer.valvesoftware.com/wiki/SteamVR"
+"MenuAction_SteamVRHardwareDiscussions" "Diskuze o SteamVR hardwaru"
+"MenuAction_SteamVRHardwareDiscussions_URL" "http://steamcommunity.com/app/358720/discussions/"
+"MenuAction_SteamVRWebsite" "Podpora pro SteamVR"
+"MenuAction_SteamVRWebsite_URL" "http://steamvr.steampowered.com"
+"MenuAction_SteamWorksDeveloperSupport" "Podpora syst
+"MenuAction_SteamWorksDeveloperSupport_URL" "http://steamcommunity.com/groups/steamworks/discussions"
+"MenuAction_StopRecording" "Zastavit nahr
+"MenuAction_SystemReportViewer" "Informace o syst
+"MenuAction_UpdateFirmware" "Aktualizovat za
+"MenuAction_ViewLogDirectory" "Zobrazit z
+"MenuAction_WakeupAllBaseStations" "Probudit z
+"MenuAction_WebConsole" "Webov
+"MenuAction_WebDevTools" "Webov
+"MenuAction_WebDevToolsPlaceholder" "Nebyla nalezena 
+"MenuAction_Workshop" "Workshop"
+"MenuAction_Workshop_Browse" "Proch
+"MenuAction_Workshop_EditItem" "Upravit st
+"MenuAction_Workshop_RunTools" "Vytvo
+"MenuAction_Workshop_UploadItem" "Nahr
+"MenuAction_Workshop_ViewWiki" "Wiki k prost
+"MessageBox_Cancel" "Zru
+"MessageBox_Continue" "Pokra
+"MessageBox_Done" "OK"
+"MessageBox_Exit" "Konec"
+"MessageBox_Forget" "Zapomenout"
+"MessageBox_Next" "Dal
+"MessageBox_OK" "OK"
+"MessageBox_OpenWirelessSettings" "Nastaven
+"MessageBox_RefreshAll" "Obnovit v
+"MessageBox_RemindMeLater" "P
+"MessageBox_RestartLater" "Restartovat pozd
+"MessageBox_RestartNow" "Restartovat re
+"MessageBox_RestartSteamVR" "Restartov
+"MessageBox_Retry" "Zkusit znovu"
+"MessageBox_SetAndRestart" "Nastavit a restartovat"
+"MessageBox_Stop" "Zastavit"
+"MessageBox_Submit" "Odeslat"
+"MessageBox_Yes" "Ano"
+"MonitorController_ApplicationCouldNotStart" "Nepoda
+"MonitorController_ApplicationsInterfaceNotAvailable" "Nepoda
+"MonitorController_DisableDirectMode_Text" "UPOZORN
+"MonitorController_EnableDirectMode_Text" "Po zapnut
+"MonitorController_EnableSafeMode_Text" "<span>Bezpe
+"MonitorController_Information_Title" "SteamVR"
+"MonitorController_LoadPlaylist" "Na
+"MonitorController_NotAbleToMakeCompositorFullscreen" "Neda
+"MonitorController_NotAbleToStartSteam" "Nepoda
+"MonitorController_ResetCompleteSetup_Text" "Tato mo
+"MonitorController_RestartSystemNotPossible" "Re
+"MonitorController_SelectRecordingDirectory" "Vyberte adres
+"MonitorController_SwitchDirectMode_Header" "P
+"MonitorController_SwitchSafeMode_Header" "Bezpe
+"MonitorController_Version" "Verze %1"
+"NeedRoomSetupNoLaunch_Message" "Tuto aplikaci nelze spustit, dokud nebude dokon
+"PairingWizard_CheckForDongles_Content" "Vyhledat dostupn
+"PairingWizard_HelperAppFailed_Content" "Vyvol
+"PairingWizard_HelperAppFailed_Error_Crashed" "
+"PairingWizard_HelperAppFailed_Error_FailedToStart" "
+"PairingWizard_HelperAppFailed_Error_ReadError" "
+"PairingWizard_HelperAppFailed_Error_Timedout" "
+"PairingWizard_HelperAppFailed_Error_UnknownError" "
+"PairingWizard_HelperAppFailed_Error_WriteError" "
+"PairingWizard_HelperAppFailed_MoreInfo" "V
+"PairingWizard_HelperAppFailed_MoreInfo_URL" "http://www.valvesoftware.com"
+"PairingWizard_LookingForControllers_Content" "Stiskn
+"PairingWizard_LookingForControllers_Header" "Hled
+"PairingWizard_NoDonglesAvailable_Content" "Abyste mohli sp
+"PairingWizard_NoDonglesAvailable_Header" "
+"PairingWizard_NoDonglesAvailable_Title" "Ji
+"PairingWizard_NoDonglesDetected_Content" "Abyste mohli sp
+"PairingWizard_NoDonglesDetected_Header" "
+"PairingWizard_NoDonglesDetected_Title" "Nebyl nalezen headset"
+"PairingWizard_PairAnotherController" "Sp
+"PairingWizard_PairController_Success_Title" "Povedlo se!"
+"PairingWizard_PairController_Title" "Sp
+"PairingWizard_PairingFailed_Content" "Ujist
+"PairingWizard_PairingFailed_Header" "Sp
+"PairingWizard_Success_MoreDonglesAvailable_Content" "V
+"PairingWizard_Success_MoreDonglesAvailable_Header" "Ovlada
+"PairingWizard_Success_NoMoreDonglesAvailable_Content" "V
+"PairingWizard_Success_NoMoreDonglesAvailable_Header" "Ovlada
+"PairingWizard_TimeoutHappened_Content" "Ujist
+"PairingWizard_TimeoutHappened_Header" "Nebyl nalezen ovlada
+"PlaylistEditor_AddEntry_Text" "Z
 "PlaylistEditor_Detail_Arguments_Label" "Argumenty:"
-"PlaylistEditor_Detail_Environment_Label" "Prostředí:"
-"PlaylistEditor_Detail_WorkingDirectory_Label" "Pracovní adresář:"
-"PlaylistEditor_Detail_UseCompositor_Checkbox" "Použít kompozitor"
-"PlaylistEditor_Detail_Total_Label" "Celkem:"
-"PlaylistEditor_Detail_WaitForNext_Checkbox" "Počkat na další"
-"PlaylistEditor_Detail_PrerollPlacecard_Label" "Cedulka v úvodu:"
-"PlaylistEditor_Detail_NothingSet_Text" "Nic jste nenastavili."
-"PlaylistEditor_Detail_PrerollDuration_Label" "Trvání úvodu:"
-"PlaylistEditor_Detail_PostrollDuration_Label" "Trvání závěru:"
-"PlaylistEditor_Detail_AudioVolume_Label" "Hlasitost zvuku:"
 "PlaylistEditor_Detail_AudioVolumeInPercent_Label" " v % "
-"PlaylistEditor_Detail_AudioVolumeOverride_Checkbox" "Přepsat"
-"PlaylistEditor_Header_Length" "Délka"
-"PlaylistEditor_Header_Durations" "Trvání"
-"PlaylistEditor_Header_Name" "Název"
-"PlaylistEditor_Plus_Button" "+"
-"PlaylistEditor_Minus_Button" "−"
-"PlaylistEditor_Duration_Label" "Trvání:"
-"PlaylistEditor_Play_Button" "Přehrát"
-"PlaylistEditor_Placecard_Test_Button" "Otestovat"
+"PlaylistEditor_Detail_AudioVolumeOverride_Checkbox" "P
+"PlaylistEditor_Detail_AudioVolume_Label" "Hlasitost zvuku:"
+"PlaylistEditor_Detail_DotDotDot_Label" "..."
+"PlaylistEditor_Detail_Entry_Text" "Z
+"PlaylistEditor_Detail_Environment_Label" "Prost
+"PlaylistEditor_Detail_Executable_Label" "Spustiteln
+"PlaylistEditor_Detail_Name_Label" "N
+"PlaylistEditor_Detail_NothingSet_Text" "Nic jste nenastavili."
+"PlaylistEditor_Detail_PostrollDuration_Label" "Trv
+"PlaylistEditor_Detail_PrerollDuration_Label" "Trv
+"PlaylistEditor_Detail_PrerollPlacecard_Label" "Cedulka v 
+"PlaylistEditor_Detail_Total_Label" "Celkem:"
+"PlaylistEditor_Detail_UseCompositor_Checkbox" "Pou
+"PlaylistEditor_Detail_WaitForNext_Checkbox" "Po
+"PlaylistEditor_Detail_WorkingDirectory_Label" "Pracovn
+"PlaylistEditor_Duration_Label" "Trv
+"PlaylistEditor_Entries_Tab" "Z
+"PlaylistEditor_FileName_Label" "Soubor:"
+"PlaylistEditor_General_DotDotDot_Label" "..."
+"PlaylistEditor_General_Environment_Label" "Prost
+"PlaylistEditor_General_ForceAudioVolume_Label" "Vynutit hlasitost zvuku:"
+"PlaylistEditor_General_PlaySoundBeforeEnd_Label" "P
+"PlaylistEditor_General_Seconds_Label" "sekund"
+"PlaylistEditor_General_Tab" "Obecn
+"PlaylistEditor_General_WaitForNext_Label" "Po
+"PlaylistEditor_General_WorkingDirectory_Label" "Pracovn
+"PlaylistEditor_Header_Durations" "Trv
+"PlaylistEditor_Header_Length" "D
+"PlaylistEditor_Header_Name" "N
+"PlaylistEditor_Load" "Na
+"PlaylistEditor_LoadPlaylist_FileSelector" "Na
+"PlaylistEditor_Minus_Button" "
+"PlaylistEditor_Name_Label" "N
+"PlaylistEditor_New" "Nov
+"PlaylistEditor_NotSavedYet_Text" "Prozat
 "PlaylistEditor_Placecard_Clear_Button" "Smazat"
-"PlaylistEditor_Placecard_Load_Button" "Načíst"
-"PlaylistEditor_Placecard_WidthInMeters_Label" "Šířka v metrech:"
+"PlaylistEditor_Placecard_Load_Button" "Na
 "PlaylistEditor_Placecard_OffsetX_Label" "Ofset na ose X:"
 "PlaylistEditor_Placecard_OffsetY_Label" "Ofset na ose Y:"
 "PlaylistEditor_Placecard_OffsetZ_Label" "Ofset na ose Z:"
-"PlaylistEditor_General_Environment_Label" "Prostředí:"
-"PlaylistEditor_General_WorkingDirectory_Label" "Pracovní adresář:"
-"PlaylistEditor_General_DotDotDot_Label" "..."
-"PlaylistEditor_General_ForceAudioVolume_Label" "Vynutit hlasitost zvuku:"
-"PlaylistEditor_General_PlaySoundBeforeEnd_Label" "Přehrát zvuk před skončením:"
-"PlaylistEditor_General_Seconds_Label" "sekund"
-"PlaylistEditor_General_WaitForNext_Label" "Počkat na další:"
-"PlaylistEditor_NotSavedYet_Text" "Prozatím neuloženo."
-"PlaylistEditor_AddEntry_Text" "Záznam „%1“"
-"PlaylistEditor_LoadPlaylist_FileSelector" "Načíst seznam"
-"PlaylistEditor_SavePlaylist_FileSelector" "Uložit seznam"
+"PlaylistEditor_Placecard_Tab" "Cedulka"
+"PlaylistEditor_Placecard_Test_Button" "Otestovat"
+"PlaylistEditor_Placecard_WidthInMeters_Label" "
+"PlaylistEditor_Play_Button" "P
+"PlaylistEditor_Plus_Button" "+"
+"PlaylistEditor_Save" "Ulo
+"PlaylistEditor_SaveAs" "Ulo
+"PlaylistEditor_SavePlaylist_FileSelector" "Ulo
 "PlaylistEditor_SelectExecutable_FileSelector" "Vybrat cestu ke spust. souboru"
-"PlaylistEditor_SelectWorkingDirectory_FileSelector" "Vybrat pracovní adresář"
-"PlaylistEditor_SelectPrerollPlacecard_FileSelector" "Vybrat cedulku v úvodu"
-"PlaylistEditor_SelectImageForPlacecard_FileSelector" "Vybrat obrázek pro cedulku"
-
-"PlaylistPlayer_WindowTitle" "Přehrávač seznamů"
-"PlaylistPlayer_WindowTitle_WithName" "Přehrávač seznamů – %1"
-"PlaylistPlayer_All_Checkbox" "Vše"
-"PlaylistPlayer_ForceSoundVolume_Checkbox" "Vynutit hlasitost zvuku"
-"PlaylistPlayer_PlaySoundBeforeEnd_Checkbox" "Přehrát zvuk před skončením záznamu (v sekundách)"
-"PlaylistPlayer_ManualNext_Checkbox" "Na další přejít manuálně"
-"PlaylistPlayer_Length_Header" "Délka"
-"PlaylistPlayer_Durations_Header" "Trvání"
-"PlaylistPlayer_Name_Header" "Název"
-"PlaylistPlayer_Total_Label" "Celkem:"
-"PlaylistPlayer_RunSelected_Button" "Přehrát vybrané"
-"PlaylistPlayer_RunSingle_Button" "Přehrát jeden"
-"PlaylistPlayer_RemoteControlInHeadset_Checkbox" "Dálkové ovládání z headsetu"
-"PlaylistPlayer_Next_Label" "Další:"
-"PlaylistPlayer_Current_Label" "Aktuální:"
-"PlaylistPlayer_Overall_Label" "Celkem:"
-"PlaylistPlayer_PlaySound_Button" "Přehrát zvuk"
-"PlaylistPlayer_Run_Button" "Spustit"
-"PlaylistPlayer_Stop_Button" "Zastavit"
-"PlaylistPlayer_PauseTimer_Button" "Pozastavit"
-"PlaylistPlayer_Next_Button" "Další"
-"PlaylistPlayer_MasterVolume_Label" "Hlasitost"
-"PlaylistPlayer_Continue_Button" "Pokračovat"
-"PlaylistPlayer_State_NotRunning" "Není spuštěno"
-"PlaylistPlayer_State_Starting" "Spouští se"
-"PlaylistPlayer_State_Running" "Je spuštěno"
-"PlaylistPlayer_State_Unknown" "Neznámý stav"
-"PlaylistPlayer_ProcessError_FailedToStart" "Spuštění se nezdařilo"
-"PlaylistPlayer_ProcessError_Crashed" "Došlo k pádu"
-"PlaylistPlayer_ProcessError_Timeout" "Vypršel čas"
-"PlaylistPlayer_ProcessError_WriteError" "Chyba zápisu"
-"PlaylistPlayer_ProcessError_ReadError" "Chyba čtení"
-"PlaylistPlayer_ProcessError_Unknown" "
-"
-"PlaylistPlayer_StatusOfCurrentDemo_Text" "Stav aktuálního dema: %1 %2"
-"PlaylistPlayer_PrerollState_Text" "Úvod – "
-"PlaylistPlayer_PostrollState_Text" "Závěr – "
-"PlaylistPlayer_StatusOfCurrentEntryPause_Text" "%1Status aktuálního záznamu: Pozastaven"
-"PlaylistPlayer_StatusOfCurrentEntryNone_Text" "Pro aktuální záznam nejsou k dispozici informace o stavu."
-
-"PlaylistOverlay_Title" "Dálkové ovládání seznamu"
-"PlaylistOverlay_NextEntry" "Další záznam"
+"PlaylistEditor_SelectImageForPlacecard_FileSelector" "Vybrat obr
+"PlaylistEditor_SelectPrerollPlacecard_FileSelector" "Vybrat cedulku v 
+"PlaylistEditor_SelectWorkingDirectory_FileSelector" "Vybrat pracovn
+"PlaylistEditor_WindowTitle" "Editor seznam
+"PlaylistEntryDefaultName" "Z
+"PlaylistListDefaultName" "Seznam"
+"PlaylistOverlay_GotoFirstEntry" "P
+"PlaylistOverlay_NextEntry" "Dal
 "PlaylistOverlay_PauseTimer" "Pozastavit"
-"PlaylistOverlay_GotoFirstEntry" "Přejít na první"
-
-"BugReporter_Title"	"Nahlášení chyby"
-"BugReporter_Explanation" "Děkujeme, že nám pomáháte zlepšovat režim SteamVR.\n\nTento nástroj pro nahlášení chyb generuje pro účely diagnostiky informace o systému zahrnující jak záznamy systému, tak prostředí a režimu SteamVR."
-"BugReporter_ForPersonalSupport" "Touto akcí nevytvoříte žádost na podporu a neobdržíte přímou odpověď. Abyste získali pomoc od našeho zaměstnance, přejděte přímo na stránky podpory."
-"BugReporter_SteamVRSupport" "Podpora režimu SteamVR"
-"BugReporter_Subject" "Předmět:"
-"BugReporter_CharactersRemaining" "Zbývá %1 znaků"
-"BugReporter_Description" "Popis:"
-"BugReporter_ReportType"	"Typ zprávy:"
-"BugReporter_ReportType_Bug" "Chyba"
-"BugReporter_ReportType_FeatureRequest" "Návrh na vylepšení"
-"BugReporter_ReportType_Feedback" "Zpětná vazba"
-"BugReporter_Owner"	"Vlastník:"
-"BugReporter_Priority" "Priorita:"
-"BugReporter_PreviewReport" "Náhled zprávy"
-"BugReporter_IncludeReportAndLogs" "Zahrnout informace o systému a záznamy"
-"BugReporter_IncludeCrashDumps" "Zahrnout soubory s výpisy"
-"BugReporter_SubjectRequired" "Zadejte předmět."
-"BugReporter_DescriptionRequired" "Zadejte popis."
-"BugReporter_FailedToCreateZip" "Nepodařilo se vytvořit přílohu ve formátu ZIP."
-"BugReporter_SteamLoginRequired" "Pro nahlášení chyby musíte být přihlášeni ke svému účtu služby Steam."
-"BugReporter_NotAvailable" "V této verzi režimu SteamVR není možné nahlásit chybu."
-"BugReporter_InitializationFailure" "Nepodařilo se načíst průvodce nahlášením chyby.\n\nChyba: BR–%1"
-"BugReporter_SubmissionSuccess"	"Zpráva byla odeslána.\n\nZa okamžik obdržíte potvrzovací e-mail."
-"BugReporter_SubmissionFailure"	"Zprávu se nepodařilo odeslat.\n\nServer může být zaneprázdněn. Zkuste to znovu.\n\nChyba: BR–%1\n"
-"BugReporter_SubmissionTimeout" "Vypršel čas pro odeslání zprávy.\n\nNahrání trvá déle, než bylo předpokládáno. Zkuste to později znovu.\n"
-"BugReporter_PreviewReportTitle" "Nahlášení chyby – náhled zprávy"
-"BugReporter_ProgressSubmitting" "Odesílání..."
-"BugReporter_ProgressSubmittingPercent" "Odesílání...%1%"
-
-"ScanForBaseStations_Scanning"	"Probíhá vyhledávání základních stanic...\n\nZbývá sekund: %1"
-"ScanForBaseStation_Incomplete" "Probíhá vyhledávání základních stanic...\n\nNedokončeno."
-"ScanForBaseStation_FoundStations" "Vyhledávání dokončeno"
-"ScanForBaseStation_NoKnownStations" "Vyhledávání dokončeno\n\nVe Vaší blízkosti se nachází vysílající základní stanice, ale žádná z nich zatím nebyla použita pro sledování."
-"ScanForBaseStation_NoStationsFound" "Vyhledávání dokončeno\n\nVe Vaší blízkosti se nenachází žádné vysílající základní stanice."
-"ScanForBaseStations_Refresh" "Opakovat hledání"
-
-"BS20_ConfigureChannel_Title"								"Konfigurace kanálu základní stanice 2.0"
-"BS20_ConfigureChannel_BluetoothRequired"					"Pro konfiguraci kanálu je vyžadováno spojení přes Bluetooth.\n\nBluetooth můžete povolit v „Nastavení“."
-"BS20_ConfigureChannel_BaseStationName"						"Konfigurace stanice %1 na %2. kanálu"
-"BS20_ConfigureChannel_Description"							"Pro předejití případným konfliktům mezi stanicemi vyberte nepoužitý kanál."
-"BS20_ConfigureChannel_InUseByPrefix"						"Momentálně používá:"
-"BS20_ConfigureChannel_Legend"								"Označuje kanál používaný jinou základní stanicí v dosahu."
-"BS20_ConfigureChannel_AutomaticConfiguration"				"Automatická konfigurace"
-"BS20_ConfigureChannel_AutoConfig_NoChannelConflictsFound"	"Nebyly zjištěny žádné konflikty mezi kanály."
-"BS20_ConfigureChannel_AutoConfig_NoFreeChannels"			"Nejsou k dispozici žádné volné kanály, které by vyřešily potenciální konflikty (%1). Kanály možná budete muset nakonfigurovat ručně."
-"BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"Je k dispozici tolik volných kanálů, že může být vyřešeno %1/%2 potenciálních konfliktů. Chcete pokračovat a vyřešit konflikty?"
-"BS20_ConfigureChannel_AutoConfigContinue"					"Bylo zjištěno několik (%1) potenciálních konfliktů, které lze automaticky vyřešit přeřazením kanálů. Chcete pokračovat a vyřešit konflikty?"
-"BS20_ConfigureChannel_AutoConfig_SuccessfulCompletion"		"Automatická konfigurace dokončena.\n\nNebyly zjištěny žádné konflikty."
-"BS20_ConfigureChannel_AutoConfig_Incomplete"				"Automatická konfigurace dokončena.\n\nStále je přítomno několik (%1) potenciálních konfliktů, které možná budete muset vyřešit ruční konfigurací kanálů."
-"BS20_ConfigureChannel_AutoConfig_UnknownChannels"			"Je přítomno několik (%1) základních stanic, jejichž kanály nelze určit, a mohou potenciálně způsobit konflikt.\n"
-"BS20_ConfigureChannel_ChannelConfigurationFailure"			"Stanice %1 nepřijala požadovanou konfiguraci kanálu."
-"BS20_ConfigureChannel_ScanForMore"							"Vyhledat další"
-"BS20_ConfigureChannel_Apply"								"Použít"	
-"BS20_ConfigureChannel_Connecting"							"Připojování..."
-"BS20_ConfigureChannel_Channel"								"Kanál: %1"
-"BS20_ConfigureChannel_ConnectionFailure"					"Stanice %1 se nepřipojila."
-"BS20_ConfigureChannel_FirmwareUpdateRequired"				"Stanice %1 vyžaduje pro konfiguraci kanálu aktualizaci."
-"BS20_ConfigureChannel_ConflictWarning"						"Stanice %1 používá stejný kanál jako jiná základní stanice."
-"BS20_ConfigureChannel_FailedToConnectRetry"				"Stanice %1 se nepřipojila. Klikněte na „Zkusit znovu“ níže."
-"BS20_ConfigureChannel_ConflictOnChannel"					"Potenciální konflikt na %1. kanálu"
-"BS20_ConfigureChannel_NoConflictOnChannel"					"Žádný konflikt na %1. kanálu"
-"BS20_ConfigureChannel_ProgressScanComplete"				"Vyhledávání dokončeno.\n\nPro změnu kanálu na něj klikněte."
-"BS20_ConfigureChannel_ProgressScanNoStationsFound"			"Vyhledávání dokončeno.\n\nVe Vaší blízkosti se nenachází žádné vysílající základní stanice 2.0."
-"BS20_ConfigureChannel_ProgressScanning"					"Probíhá vyhledávání základních stanic...\n\nZbývá sekund: %1"
-"BS20_ConfigureChannel_ProgressConnecting"					"\nPřipojování k základním stanicím...\n"
-"BS20_ConfigureChannel_ProgressWritingChannel"				"\nZapisování kanálu...\n"
-"BS20_ConfigureChannel_ProgressCancelling"					"\nRušení...\n"
-"BS20_ConfigureChannel_VisibleNowInTracking"				"Viditelná v této relaci."
-"BS20_ConfigureChannel_ObservedInTracking"					"Sledovaná v předchozí relaci."
-"BS20_ConfigureChannel_Identify"							"Klikněte pro rozpoznání stanice."
-"BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"		"Stanice %1 vyžaduje pro rozpoznání aktualizaci."
-"BS20_ConfigureChannel_RSSI"								"RSSI: %1"
-"BS20_ConfigureChannel_ConflictLegend"						"Konflikt kanálů mezi základními stanicemi."
-"BS20_ConfigureChannel_ErrorLegend"							"Pro více informací klikněte na daný kanál."
-"BS20_ConfigureChannel_CancelledConnection"					"Spojení „%1“ bylo zrušeno. Klikněte na daný kanál pro opakování."
-
-"BS_PowerManagement_Title"									"Řízení napájení základní stanice"
-"BS_PowerManagement_Enable"									"Povolit řízení napájení*"
-"BS_PowerManagement_Enable_Explanation"						"Pokud není režim SteamVR používán, přepnou se základní stanice s řízeným napájením automaticky do režimu standby a probudí se až při používání režimu SteamVR.\n"
-"BS_PowerManagement_Enable_Warning"							"<font color=#ffffff>* NENÍ DOPORUČENO pro sdílené prostory s více uživateli režimu SteamVR.</font>"
-"BS_PowerManagement_PartialStandby"							"Standby" 
-"BS_PowerManagement_PartialStandby_Explanation"				"Základní stanice vypnou pouze své lasery, takže budou použitelné takřka okamžitě po spuštění režimu SteamVR."
-"BS_PowerManagement_PartialStandby_HybridExplanation"		"Základní stanice 2.0 vypnou pouze své lasery, takže budou použitelné takřka okamžitě po spuštění režimu SteamVR."
-"BS_PowerManagement_FullStandby"							"Spánek"
-"BS_PowerManagement_FullStandby_Explanation"				"Základní stanice vypnou své lasery i motorky."
-"BS_PowerManagement_RefreshLink"							"Obnovit"
-"BS_PowerManagement_ForgetBase"								"Zapomenout zařízení"
-"BS_PowerManagement_BaseStations"							"Spravované základní stanice"
-"BS_PowerManagement_VisibleNowInTracking"					"Viditelná v této relaci."
-"BS_PowerManagement_ObservedInTracking"						"Sledovaná v předchozí relaci."
-"BS_PowerManagement_Identify"								"Klikněte pro rozpoznání stanice."
-"BS_PowerManagement_IdentifyRequiresFirmareUpdate"			"Stanice %1 vyžaduje pro rozpoznání aktualizaci."
-"BS_PowerManagement_FailedToConnectRefresh"					"Stanice %1 se nepřipojila. Klikněte na „Obnovit“."
-"BS_PowerManagement_ConnectionFailureLegend"				"Došlo k selhání spojení. Klikněte na „Obnovit“."
-
-"BS20_UpdateRecovery_Title"									"Obnovení základní stanice 2.0"
-"BS20_UpdateRecovery_BluetoothRequired"						"Pro obnovení je vyžadováno spojení přes Bluetooth.\n\nBluetooth můžete povolit v „Nastavení“."
-"BS20_UpdateRecovery_Scanning"								"Probíhá vyhledávání základních stanic...\n\nZbývá sekund: %1"
-"BS20_UpdateRecovery_Incomplete"							"Probíhá vyhledávání základních stanic...\n\nNedokončeno."
-"BS20_UpdateRecovery_FoundStations"							"Vyhledávání dokončeno.<br><br><font color=#ffffff>Tyto základní stanice mají problém s nedokončenou aktualizací.<br><br>Vyberte základní stanici a pokračujte kliknutím na tlačítko „Obnovit zařízení“.</font>"
-"BS20_UpdateRecovery_NoStationsFound"						"Vyhledávání dokončeno.\n\nVe Vaší blízkosti se nenachází žádné základní stanice vyžadující obnovení."
-"BS20_UpdateRecovery_Refresh"								"Opakovat hledání"
-"BS20_UpdateRecovery_UpdateDevice"							"Obnovit zařízení"
-
-"BS_PromotePowerManagement_Title"							"SteamVR"
-"BS_PromotePowerManagement_Explanation"						"Režim SteamVR umí nově řídit napájení základních stanic.<br><br>Pokud není režim SteamVR používán, stanice s řízeným napájením se automaticky přepnou do režimu standby a probudí se až při používání režimu SteamVR.<br>"
-"BS_PromotePowerManagement_Enable"							"Povolit řízení napájení základní stanice*"
-"BS_PromotePowerManagement_Explanation2"					"<br><font color=#ffffff>* NENÍ DOPORUČENO pro sdílené prostory s více uživateli režimu SteamVR.</font>"
-"BS_PromotePowerManagement_ExitNow"							"Ukončit nyní (%1)"
-
-"Monitor_SpontaneousQuitDialog_Title" "Neočekávaná chyba režimu SteamVR"
-"Monitor_SpontaneousQuitDialog_Message" "Došlo ke kritické chybě režimu SteamVR."
-"Monitor_SpontaneousQuitDialog_Restart" "Restartovat režim SteamVR"
-"Monitor_SpontaneousQuitDialog_Quit" "Ukončit režim SteamVR"
-
-"Monitor_RestartRequestedDialog_Title" "Ovladač „%1“ vyžaduje restart režimu SteamVR"
-"Monitor_RestartRequestedDialog_MessageNoReason" "Ovladač „%1“ potřebuje restartovat režim SteamVR."
-"Monitor_RestartRequestedDialog_Message" "%1"
-"Monitor_RestartRequestedDialog_Restart" "Restartovat režim SteamVR"
-"Monitor_RestartRequestedDialog_Quit" "Ukončit režim SteamVR"
-
-"oculus_display_lost" "Systém Oculus ztratil spojení s displejem. Zkontrolujte připojení headsetu a proveďte restart."
-"oculus_requested_quit" "Systém Oculus si vyžádal ukončení režimu SteamVR."
-
-"Monitor_WakingBaseStations" "Probouzení základních stanic..."
-"Monitor_PuttingBaseStationsInStandby" "Uspávání základních stanic..."
-
-"VRApplicationError_None" "Žádná chyba"
-
-"VRApplicationError_AppKeyAlreadyExists" "Aplikace už je zaregistrována"
-"VRApplicationError_NoManifest" "Chybí záznam aplikace"
-"VRApplicationError_NoApplication" "Aplikace nebyla nalezena"
-"VRApplicationError_InvalidIndex" "Neplatný index"
-"VRApplicationError_UnknownApplication" "Neznámá aplikace"
-"VRApplicationError_IPCFailed" "Nepodařilo se vyžádat aplikaci"
-"VRApplicationError_ApplicationAlreadyRunning" "Aplikace je již spuštěna"
-"VRApplicationError_InvalidManifest" "Neplatný záznam"
-"VRApplicationError_InvalidApplication" "Neplatná aplikace"
-"VRApplicationError_LaunchFailed" "Spouštění aplikace se nezdařilo"
-"VRApplicationError_ApplicationAlreadyStarting" "Aplikace už byla spouštěna"
-"VRApplicationError_LaunchInProgress" "Už byla spouštěna jiná aplikace"
-"VRApplicationError_OldApplicationQuitting" "Už byla ukončována jiná aplikace"
-"VRApplicationError_TransitionAborted" "Spouštění aplikace bylo přerušeno uživatelem"
-"VRApplicationError_IsTemplate" "Tato aplikace je pouze ukázková"
-"VRApplicationError_SteamVRIsExiting" "Je ukončován režim SteamVR"
-
-"VRApplicationError_BufferTooSmall" "Poskytnutý buffer byl příliš malý"
-"VRApplicationError_PropertyNotSet" "Vlastnost nebyla nastavena"
-"VRApplicationError_UnknownProperty" "Neznámá vlastnost"
-"VRApplicationError_InvalidParameter" "Neplatný parametr"
-
-"Key_Escape_Abbreviation" "ESC"
-
-"HeadsetView_Title" "VR pohled"
-"HeadsetView_MenuLabel" "Nabídka"
-"HeadsetView_PressKeyToExit" "Stiskněte „%1“ pro ukončení režimu celé obrazovky"
-"HeadsetView_FullscreenButtonLabel" "Celá obrazovka"
-"HeadsetView_DockButtonLabel" "Spojit se stavem"
-"HeadsetView_UndockButtonLabel" "Odpojit od stavu"
-"HeadsetView_HideButtonLabel" "Skrýt VR pohled"
-"HeadsetView_EyeMode_Both" "Obě oči"
-"HeadsetView_EyeMode_Left" "Levé oko"
-"HeadsetView_EyeMode_Right" "Pravé oko"
-"HeadsetView_EyeMode_BothLeftDominant" "Obě oči – levé dominantní"
-"HeadsetView_EyeMode_BothRightDominant" "Obě oči – pravé dominantní"
-"HeadsetView_DebugCommands" "Otevřít příkazy pro debuggování"
-}
-}
+"PlaylistOverlay_Title" "D
+"PlaylistPlayer_All_Checkbox" "V
+"PlaylistPlayer_Continue_Button" "Pokra
+"PlaylistPlayer_Current_Label" "Aktu
+"PlaylistPlayer_Durations_Header" "Trv
+"PlaylistPlayer_ForceSoundVolume_Checkbox" "Vynutit hlasitost zvuku"
+"PlaylistPlayer_Length_Header" "D
+"PlaylistPlayer_ManualNext_Checkbox" "Na dal
+"PlaylistPlayer_MasterVolume_Label" "Hlasitost"
+"PlaylistPlayer_Name_Header" "N
+"PlaylistPlayer_Next_Button" "Dal
+"PlaylistPlayer_Next_Label" "Dal
+"PlaylistPlayer_Overall_Label" "Celkem:"
+"PlaylistPlayer_PauseTimer_Button" "Pozastavit"
+"PlaylistPlayer_PlaySoundBeforeEnd_Checkbox" "P
+"PlaylistPlayer_PlaySound_Button" "P
+"PlaylistPlayer_PostrollState_Text" "Z
+"PlaylistPlayer_PrerollState_Text" "
+"PlaylistPlayer_ProcessError_Crashed" "Do
+"PlaylistPlayer_ProcessError_FailedToStart" "Spu
+"PlaylistPlayer_ProcessError_ReadError" "Chyba 
+"PlaylistPlayer_ProcessError_Timeout" "Vypr
+"PlaylistPlayer_ProcessError_Unknown" "
+"PlaylistPlayer_ProcessError_WriteError" "Chyba z
+"PlaylistPlayer_RemoteControlInHeadset_Checkbox" "D
+"PlaylistPlayer_RunSelected_Button" "P
+"PlaylistPlayer_RunSingle_Button" "P
+"PlaylistPlayer_Run_Button" "Spustit"
+"PlaylistPlayer_State_NotRunning" "Nen
+"PlaylistPlayer_State_Running" "Je spu
+"PlaylistPlayer_State_Starting" "Spou
+"PlaylistPlayer_State_Unknown" "Nezn
+"PlaylistPlayer_StatusOfCurrentDemo_Text" "Stav aktu
+"PlaylistPlayer_StatusOfCurrentEntryNone_Text" "Pro aktu
+"PlaylistPlayer_StatusOfCurrentEntryPause_Text" "%1Status aktu
+"PlaylistPlayer_Stop_Button" "Zastavit"
+"PlaylistPlayer_Total_Label" "Celkem:"
+"PlaylistPlayer_WindowTitle" "P
+"PlaylistPlayer_WindowTitle_WithName" "P
+"QuickCalibrate_CabalSpace" "Prostor cel
+"QuickCalibrate_DK2Default" "V
+"QuickCalibrate_GiganticSpace" "Obrovsk
+"QuickCalibrate_LargeSpace" "Velk
+"QuickCalibrate_MediumSpace" "St
+"QuickCalibrate_SmallSpace" "Mal
+"QuickCalibrate_StandingSpace" "Prostor pro st
+"RebootHelper_Cancel" "Zru
+"RebootHelper_ConnectingToVive" "P
+"RebootHelper_RebootingVive" "Restartov
+"RebootHelper_RestartingSteamVR" "Restartov
+"RebootHelper_ServiceError" "Chyba: %1"
+"RebootHelper_ServiceStatus" "Stav: %1"
+"RebootHelper_StartingSteamVRShutdown" "Ukon
+"RebootHelper_Status_Connected" "P
+"RebootHelper_Status_WaitingForDevice" "
+"RebootWhileAppRunning_Format" "Restartov
+"RebootWhileAppRunning_Title" "Restartovat re
+"ScanForBaseStation_FoundStations" "Vyhled
+"ScanForBaseStation_Incomplete" "Prob
+"ScanForBaseStation_NoKnownStations" "Vyhled
+"ScanForBaseStation_NoStationsFound" "Vyhled
+"ScanForBaseStations_Refresh" "Opakovat hled
+"ScanForBaseStations_Scanning"	"Prob
+"Settings_Advanced_AllowSupersampleFiltering" "Povolit pokro
+"Settings_Advanced_DirectMode_Header" "P
+"Settings_Advanced_MotionSmoothing" "Zapnout vyhlazov
+"Settings_Advanced_MotionSmoothing_Description" "Vytv
+"Settings_Advanced_MotionSmoothing_Disabled" "Vyhlazov
+"Settings_Advanced_MotionSmoothing_Disabled_Win7" "Vyhlazov
+"Settings_Advanced_MotionSmoothing_Header" "Vyhlazov
+"Settings_Advanced_Paths_Header" "Cesty"
+"Settings_Advanced_RefreshRate_Header" "Obnovovac
+"Settings_Advanced_RefreshRate_HzSuffix" "Hz"
+"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>POZN
+"Settings_Advanced_RefreshRate_NotFound" "<b>POZN
+"Settings_Advanced_Reset_Header" "Reset"
+"Settings_Advanced_Restart" "<i>Tato zm
+"Settings_Advanced_RoomAndTracking_Header" "M
+"Settings_Advanced_Status_Header" "Kontrola stavu"
+"Settings_Advanced_SupersamplingManualOverride" "Povolit vlastn
+"Settings_Advanced_Supersampling_Header" "Rozli
+"Settings_Advanced_Supersampling_Warning" "<b>UPOZORN
+"Settings_Applications" "Aplikace"
+"Settings_ArcadeMode" "Povolit re
+"Settings_Audio_AudioMirrorEnable"  "Povolit zrcadlen
+"Settings_Audio_AudioMirrorPlay"  "P
+"Settings_Audio_AudioMirrorUnsupported"  "P
+"Settings_Audio_AudioPlay"  "V
+"Settings_Audio_AudioRecord"  "Vstupn
+"Settings_Audio_Default"  "V
+"Settings_Audio_Device_HMD"  "VR headset"
+"Settings_Audio_Device_Other"  "Jin
+"Settings_Audio_HDMIGain"  "Povolit redukci sign
+"Settings_BaseStation_BaseStation10" "Z
+"Settings_BaseStation_BaseStation20" "Z
+"Settings_BaseStation_BluetoothBusy" "
+"Settings_BaseStation_BluetoothRequired" "Pro p
+"Settings_BaseStation_ConfigureBaseStations" "Nastavit kan
+"Settings_BaseStation_ConfigureBaseStations_Explanation" "Vyhled
+"Settings_BaseStation_ContinueBaseStationUpdate" "Obnovit po nedokon
+"Settings_BaseStation_ContinueBaseStationUpdate_Explanation" "Oprav
+"Settings_BaseStation_OpenSettingsBluetooth" "Nastaven
+"Settings_BaseStation_PowerManagement" "
+"Settings_BaseStation_PowerManagement_Explanation" "Z
+"Settings_BaseStation_ScanForBaseStations" "Vyhledat z
+"Settings_BaseStation_ScanForBaseStations_Explanation" "Vyhled
+"Settings_BaseStationsWakeUpAll" "Probudit v
+"Settings_BaseStationsWakeUpAll_Explanation" "Probud
+"Settings_BaseStations_Title" "Nastaven
+"Settings_Bluetooth_Driver_Install" "Nainstalovat ovlada
+"Settings_Bluetooth_Driver_Install_Description"	"Nainstaluje do Link Boxu ovlada
+"Settings_Bluetooth_Driver_Update" "Aktualizovat ovlada
+"Settings_Bluetooth_Driver_Update_Description" "Aktualizuje ovlada
+"Settings_Bluetooth_RetryConnection" "Opakovat spojen
+"Settings_Bluetooth_ServicesNotAvailable" "Bluetooth nen
+"Settings_Bluetooth_Title" "Nastaven
+"Settings_CheckForSteam" "Kontrolovat p
+"Settings_CheckStatus" "Opakov
+"Settings_Checks" "Kontroly"
+"Settings_ConfigPath" "Cesta nastaven
+"Settings_Dashboard_Explanation" "Tyto aplikace budou dostupn
+"Settings_DebugInputBindings" "Povolit debuggov
+"Settings_DefaultScreenshotType_Cubemap" "Cubemapov
+"Settings_DefaultScreenshotType_Info" "Vyberte v
+"Settings_DefaultScreenshotType_Mono" "Norm
+"Settings_DefaultScreenshotType_MonoPanorama" "Mono-panoramatick
+"Settings_DefaultScreenshotType_Stereo" "Stereoskopick
+"Settings_DefaultScreenshotType_StereoPanorama" "Stereo-panoramatick
+"Settings_DefaultScreenshotType_Text" "Typ sn
+"Settings_Developer_General_Header" "Pro v
+"Settings_Developer_Info" "Povolit pokro
+"Settings_Developer_Text" "Nastaven
+"Settings_Developer_Title" "Nastaven
+"Settings_DisableEnhancedPowerManagement_Crash" "Pomocn
+"Settings_DisableEnhancedPowerManagement_FailToStart" "Nepoda
+"Settings_DisableEnhancedPowerManagement_Success" "Pro USB za
+"Settings_DisplayMode" "Re
+"Settings_DisplayMode_Extend" "Rozt
+"Settings_DisplayMode_MirrorWindow" "VR pohled"
+"Settings_DoNotFadeToGrid" "Zak
+"Settings_EnableDashboard" "Povolit hlavn
+"Settings_EnableLinuxGPUProfiling" "Povolit profilov
+"Settings_EnableScreenshots_Info" "Umo
+"Settings_EnableScreenshots_Text" "Povolit sn
+"Settings_Firmware_UpdateAvailable" "Je dostupn
+"Settings_GiganticSpace" "Obrovsk
+"Settings_GpuInfo_Current" "Aktu
+"Settings_GpuInfo_GpuDriver" "Ovlada
+"Settings_GpuInfo_GpuName" "N
+"Settings_GpuInfo_GpuSpeed" "Rychlost GPU"
+"Settings_GpuInfo_Header" "Hardware"
+"Settings_GpuInfo_Headset" "Headset"
+"Settings_GpuInfo_NoHeadset" "Nebyl nalezen headset"
+"Settings_GpuInfo_Recommended" "Doporu
+"Settings_HomeAppCheck" "Pou
+"Settings_HomeAppDesc" "U
+"Settings_Information_Title" "SteamVR"
+"Settings_LargeSpace" "Velk
+"Settings_LockedModeCheck" "Povolit headset i ve chv
+"Settings_LockedModeDesc" "
+"Settings_LogPath" "Cesta z
+"Settings_MediumSpace" "St
+"Settings_NightModeCheck" "No
+"Settings_NightModeDesc" "Ztmav
+"Settings_NotAvailableAtThisTime" "V tuto chv
+"Settings_NotificationDoNotDisturb_Info" "
+"Settings_NotificationDoNotDisturb_Text" "Neru
+"Settings_NotificationKnockKnock_Info" "Umo
+"Settings_NotificationKnockKnock_Text" "Povolit funkci 
+"Settings_Notifications" "Upozorn
+"Settings_OpenVRPaths" "Cesty rozhran
+"Settings_PauseOnStandby" "Pozastavit renderov
+"Settings_PerApplication_AppResFooter" "Aktu
+"Settings_PerApplication_AppResHeader" "Toto nastaven
+"Settings_PerApplication_AppResTitle" "Vlastn
+"Settings_PerApplication_CustomSuffix" "(vlastn
+"Settings_PerApplication_DashboardSuffix" "(aplikace p
+"Settings_PerApplication_Header" "Vytvo
+"Settings_PerApplication_MotionSmoothing_Checkbox_AlwaysOn" "V
+"Settings_PerApplication_MotionSmoothing_Checkbox_Default" "Pou
+"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOff" "V
+"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOn" "V
+"Settings_PerApplication_MotionSmoothing_Header" "Vyhlazov
+"Settings_PerApplication_MotionSmoothing_Off" "Vypnuto"
+"Settings_PerApplication_MotionSmoothing_On" "Zapnuto"
+"Settings_PerApplication_OverlayVisibleCheckbox" "Spustit tuto aplikaci p
+"Settings_PerApplication_OverlayVisibleHeader" "Aplikace p
+"Settings_PerApplication_Reprojection_Checkbox" "Pou
+"Settings_PerApplication_Reprojection_Description" "Za
+"Settings_PerApplication_Reprojection_Header" "Reprojekce"
+"Settings_PerfCheck" "PerfCheck"
+"Settings_Refresh" "Obnovit"
+"Settings_RemoveAllRelevantUSBDevices_Crash" "Pomocn
+"Settings_RemoveAllRelevantUSBDevices_FailToStart" "Nepoda
+"Settings_RemoveAllRelevantUSBDevices_PartialSuccess" "N
+"Settings_RemoveAllRelevantUSBDevices_Success" "Byla odebr
+"Settings_RemoveAllRelevantUSBDevices_Text" "Tato mo
+"Settings_RemoveAllUSBDevices" "Odebrat v
+"Settings_Reset" "Reset"
+"Settings_ResetChaperoneToDK2Default" "Resetovat data syst
+"Settings_ResetChaperoneToHeadsetInMiddleOfFloor" "Resetovat syst
+"Settings_ResetCompleteSetupAndQuit" "Resetovat ve
+"Settings_ResetQtSettings" "Resetovat nastaven
+"Settings_ResetQtSettings_Text" "Tato mo
+"Settings_ResetRuntimeAndQuit" "Resetovat runtime zalo
+"Settings_ResetRuntimeBasedOnVRMonitorAndQuit_Text" "Tato mo
+"Settings_RestartText" "<html><B>Pokud provedete zm
+"Settings_RuntimePath" "Cesta runtim
+"Settings_SelectConfigPath" "Vybrat cestu nastaven
+"Settings_SelectLogPath" "Vybrat cestu z
+"Settings_SelectRuntimePath" "Vybrat cestu runtim
+"Settings_Set" "Nastavit..."
+"Settings_SetSelectedPaths" "Nastavit vybran
+"Settings_ShowPlaylistMenu" "Povolit nab
+"Settings_SmallSpace" "Mal
+"Settings_StartSteamVROnAppLaunch" "Spustit re
+"Settings_StatusWindowAlwaysOnTop_Info" " "
+"Settings_StatusWindowAlwaysOnTop_Text" "Zobrazovat v
+"Settings_StatusWindowHidePopups_Text" "Kdy
+"Settings_StatusWindowMinimizeToTray_Text" "Po minimalizov
+"Settings_Title" "Nastaven
+"Settings_USB_Component_Audio" "Zvukov
+"Settings_USB_Component_Camera" "Kamera"
+"Settings_USB_Component_Dongle1" "Hardwarov
+"Settings_USB_Component_Dongle2" "Hardwarov
+"Settings_USB_Component_HTCBoard" "Hlavn
+"Settings_USB_Component_Hub" "USB hub"
+"Settings_USB_Component_HubBluetooth" "Bluetooth"
+"Settings_USB_Component_HubController" "Ovlada
+"Settings_USB_Component_WatchmanBoard" "Sledovac
+"Settings_USB_EnhancedStatus" "Zobrazit detaily"
+"Settings_USB_LookingForConnections" "<b>Kontrolov
+"Settings_USB_NoDevicesFound" "<font color=red><b>Nejsou p
+"Settings_USB_PressRefresh" "<b>Klikn
+"Settings_USB_Refresh" "Obnovit"
+"Settings_USB_ViveDevices" "<b>Komponenty</b>"
+"Settings_USB_ViveHeadsetHeader" "<b>Headset</b>"
+"Settings_USB_ViveLinkBoxHeader" "<b>Vive 
+"Settings_UseBluetoothLink_Info" "Umo
+"Settings_UseBluetoothLink_Text" "Povolit Bluetooth"
+"ShutdownWhileAppRunning_Format" "Ukon
+"ShutdownWhileAppRunning_Title" "Ukon
+"Startup_DisplayLinkIsInstalled" "DisplayLink nen
+"Startup_OpenGLIsNotInstalled" "P
+"StatusCheckInterval_Never" "Nikdy"
+"StatusCheckInterval_Normal" "Ob
+"StatusCheckInterval_Often" "
+"StatusCheckInterval_Seldom" "Z
+"StatusError_Chaperone_Error" "Re
+"StatusError_CompositorNotFullscreen" "Kl
+"StatusError_CompositorNotRunning" "Kl
+"StatusError_CompositorTooManyRunning" "Kl
+"StatusError_HMDDoesNotTrack" "Pohyb Va
+"StatusError_LighthouseEvent" "Re
+"StatusError_NoCompositorAvailable" "Kl
+"StatusError_NoHMDAvailable" "Nen
+"StatusError_PrismNotRunning" "Kl
+"StatusError_SteamVRServiceNotInstalled" "Pomocn
+"StatusError_TrackingDevice_NotValid" "Toto za
+"StatusError_UnknownError" "Nezn
+"StatusError_VRServerNotRunning" "Kl
+"StatusWarning_System_Chaperone_Warning" "Prove
+"StatusWarning_System_ConnectionRefusedBySteam" "Klient slu
+"StatusWarning_System_NeedDirectModeGraphicsDriverUpdate" "Aktualizujte ovlada
+"StatusWarning_System_NoSteamAvailable" "Spus
+"StatusWarning_TrackingDevice_FirmwareUpdateNeeded" "Je vy
+"StatusWarning_TrackingDevice_NoPose" "Vyhled
+"StatusWarning_UnknownWarning" "Nezn
+"Status_Base" "Z
+"Status_Controller" "Ovlada
+"Status_HMD" "Headset"
+"Status_MenuButton_SteamVR" "STEAMVR"
+"Status_MenuButton_SteamVR_Branch" "STEAMVR 
+"Status_Quitting" "Ukon
+"Status_Starting" "Spou
+"Status_Title" "Stav re
+"SteamUniverse_Beta" "Beta"
+"SteamUniverse_Dev" "V
+"SteamUniverse_Internal" "Neve
+"SteamUniverse_InvalidSteamUniverse" "Neplatn
+"SteamUniverse_NoSteamAvailable" "Chyba klienta slu
+"SteamUniverse_Public" "Ve
+"SteamVRSystemState_Connecting" "Vyhled
+"SteamVRSystemState_Connecting_Application_InsideOutCamera" "Zajist
+"SteamVRSystemState_Connecting_Application_Lighthouse" "Zajist
+"SteamVRSystemState_Connecting_Application_OutsideInCamera" "Zajist
+"SteamVRSystemState_Installing" "Prob
+"SteamVRSystemState_Off" "Vypnuto"
+"SteamVRSystemState_PauseRequested" "Pozastavov
+"SteamVRSystemState_Paused" "Pozastaveno"
+"SteamVRSystemState_Paused_FirmwareUpdate" "Aktualizov
+"SteamVRSystemState_PseudoState_Waiting" "
+"SteamVRSystemState_PseudoState_Welcome" "V
+"SteamVRSystemState_PseudoState_Welcome_Application" "P
+"SteamVRSystemState_Ready" "Ve h
+"SteamVRSystemState_Ready_Application" "%1"
+"SteamVRSystemState_Restart" "Restartov
+"SteamVRSystemState_Shutdown" "Ukon
+"SteamVRSystemState_ShutdownRequested" "Ukon
+"SteamVRSystemState_Standby" "V re
+"SteamVRSystemState_Standby_Application" "Nasa
+"SteamVRSystemState_Startup" "Spou
+"SteamVRSystemState_UnpauseRequested" "Spou
+"SystemReport_Chaperone" "Chaperone"
+"SystemReport_Configuration" "Konfigurace"
+"SystemReport_CopyToClipboard" "Kop
+"SystemReport_Data" "Data"
+"SystemReport_Devices" "Za
+"SystemReport_DiscoverChaperone" "Zji
+"SystemReport_DiscoverConfiguration" "Zji
+"SystemReport_DiscoverDevices" "Zji
+"SystemReport_DiscoverDisplays" "Zji
+"SystemReport_DiscoverIssues" "Zji
+"SystemReport_DiscoverLighthouseDB" "Zji
+"SystemReport_DiscoverUSB" "Zji
+"SystemReport_Entry_SteamVR" "SteamVR"
+"SystemReport_Issues" "Probl
+"SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Logs" "Z
+"SystemReport_Main" "Hlavn
+"SystemReport_PrepareLogs" "P
+"SystemReport_PrepareReport" "P
+"SystemReport_Progress_ParseReport" "Syntaktick
+"SystemReport_Raw" "V
+"SystemReport_RawText" "Prost
+"SystemReport_Refresh" "Obnovit"
+"SystemReport_SaveSystemReport" "Ulo
+"SystemReport_SaveToFile" "Ulo
+"SystemReport_System" "Syst
+"SystemReport_Title" "Informace o syst
+"SystemReport_USB" "USB"
+"SystemReport_UnableToOpenFile" "Nepoda
+"Tokens"
+"TrackedDeviceClass_Controller" "Ovlada
+"TrackedDeviceClass_GenericTracker" "Sledovac
+"TrackedDeviceClass_HMD" "Headset"
+"TrackedDeviceClass_Invalid" "Neplatn
+"TrackedDeviceClass_TrackingReference" "Z
+"TrackedDeviceClass_Unknown"  "Nezn
+"TrayIcon_Tooltip_vrmonitor" "Stav re
+"VRController_NoDisplay" "Chyb
+"VRController_NoDriver" "Chyb
+"VRManifest_Imported_Message" "Z
+"VRManifest_Imported_Title" "Import z
+"VRState_Off" "Vypnuto"
+"VRState_Ready" "P
+"VRState_Searching" "Vyhled
+"VRState_SearchingWithAlert" "Vyhled
+"VRState_Standby" "V re
+"WorkshopUpload_Cancel"			"Zru
+"WorkshopUpload_Desc"			"Popis"
+"WorkshopUpload_DialogTitle"	"N
+"WorkshopUpload_Error"			"Chyba"
+"WorkshopUpload_Error_CannotCreateUploadDir"		"Nepoda
+"WorkshopUpload_Error_DescTooLong"	"Popis nem
+"WorkshopUpload_Error_Generic"		"P
+"WorkshopUpload_Error_InvalidType_MainFile_Background"		"Obr
+"WorkshopUpload_Error_InvalidType_MainFile_Basestation"		"Soubory modelu z
+"WorkshopUpload_Error_InvalidType_MainFile_Camera"			"Soubory modelu kamery mus
+"WorkshopUpload_Error_InvalidType_MainFile_Controller"		"Soubory modelu ovlada
+"WorkshopUpload_Error_InvalidType_MainFile_Environment"		"Soubory modelu prost
+"WorkshopUpload_Error_InvalidType_Thumbnail_Background"	"N
+"WorkshopUpload_Error_InvalidType_Thumbnail_Basestation"	"N
+"WorkshopUpload_Error_InvalidType_Thumbnail_Camera"	"N
+"WorkshopUpload_Error_InvalidType_Thumbnail_Controller"	"N
+"WorkshopUpload_Error_InvalidType_Thumbnail_Environment"	"N
+"WorkshopUpload_Error_LimitExceeded"	"Klient slu
+"WorkshopUpload_Error_NoDesc"		"Zadejte popis"
+"WorkshopUpload_Error_NoFile_MainFile"		"Vyberte platn
+"WorkshopUpload_Error_NoFile_Thumbnail"		"Vyberte platn
+"WorkshopUpload_Error_NoItemsToEdit"	"Nebyly nalezeny 
+"WorkshopUpload_Error_NoTitle"	"Zadejte n
+"WorkshopUpload_Error_SteamClientNotFound"	"Nelze spustit n
+"WorkshopUpload_Error_TooLarge_MainFile"		"Soubor nesm
+"WorkshopUpload_Error_TooLarge_Thumbnail"		"N
+"WorkshopUpload_ImagesFilter"	"Obr
+"WorkshopUpload_MainFile"		"Soubor"
+"WorkshopUpload_NoItem"			"(Nov
+"WorkshopUpload_ObjFilter"		"Modely (*.obj)"
+"WorkshopUpload_Progress_CommittingChanges"		"Dokon
+"WorkshopUpload_Progress_PreparingConfig"		"P
+"WorkshopUpload_Progress_PreparingContent"		"Zpracov
+"WorkshopUpload_Progress_Start"		"Navazov
+"WorkshopUpload_Progress_Title"		"Workshop re
+"WorkshopUpload_Progress_UploadingContent"		"Nahr
+"WorkshopUpload_Progress_UploadingPreview"		"Nahr
+"WorkshopUpload_SelectContentType"	"Typ"
+"WorkshopUpload_SelectContentType_Background"	"Pozad
+"WorkshopUpload_SelectContentType_Basestation"	"Model z
+"WorkshopUpload_SelectContentType_Camera"		"Model kamery"
+"WorkshopUpload_SelectContentType_Controller"	"Model ovlada
+"WorkshopUpload_SelectContentType_Environment"	"Model prost
+"WorkshopUpload_SelectExisting"	"Upravit"
+"WorkshopUpload_SelectImage"	"Vybrat obr
+"WorkshopUpload_Tag_Abstract"					"Abstraktn
+"WorkshopUpload_Tag_City"						"M
+"WorkshopUpload_Tag_Game"						"Hra"
+"WorkshopUpload_Tag_Nature"						"P
+"WorkshopUpload_Tag_Space"						"Vesm
+"WorkshopUpload_Tag_Tech"						"Technika"
+"WorkshopUpload_Tags"							"Zna
+"WorkshopUpload_Thumbnail"		"Soubor n
+"WorkshopUpload_Title"			"N
+"WorkshopUpload_Upload"			"Odeslat"
+"WorkshopUpload_Visibility"			"Viditelnost"
+"WorkshopUpload_Visibility_FriendsOnly"		"Pouze pro p
+"WorkshopUpload_Visibility_Private"			"Soukrom
+"WorkshopUpload_Visibility_Public"			"Ve
+"lang"
+%1\n"
+%2</font>"
+, abyste zkontrolovali komponenty...</b>"
+, dokud ovlada
+, kdy
+, komunitn
+, kter
+, nep
+, potla
+, restartujte sv
+, tak
+, ukon
+, zkonzultujte jej pros
+. Abyste z
+. Chcete pokra
+. Naje
+. Neodpojujte z
+. Nyn
+. Opravdu chcete pokra
+. Pokud m
+. Pozor, mnoho VR aplikac
+. To m
+. Ujist
+. Zkuste to pozd
+... ]"
+...%1%"
+...."
+...</b>"
+.</b></html>"
+.<p>Opravdu chcete zapnout bezpe
+.\nUjist
+.\n\n3. Dr
+.\n\nAby se tyto zm
+.\n\nTak
+300, max. 1 MB)"
+: Aplikace pob
+: Po vypnut
+:</b> Mo
+</a>"
+Aktualizovat za
+Aplikace
+Aplikace spadla
+Aplikaci se nepoda
+Byl p
+Chyba 
+Chyba z
+MKA:</b> V
+Nastaven
+Obnovit
+Obraz
+System
+TE PRO ZOBRAZEN
+Zkusit znovu
+\n nebo %2 sn
+\n%2\nna spustiteln
+\nCelkem %6\n"
+\n\n"
+adovan
+adovanou konfiguraci kan
+aduje bezdr
+aduje povolen
+aduje pro dal
+aduje pro navr
+ak zaznamenal zm
+ak zaznamenala zm
+ak zaznamenalo zm
+as (po 1 s)"
+as pro odesl
+asto (po 100 ms)"
+ba re
+by Steam m
+by Steam nahl
+by Steam"
+by Steam."
+by spojen
+ce informac
+ce sn
+ch %1s:\n %2
+ch kan
+ch konflikt
+ch sign
+ch sn
+ch stanic (0x400000)"
+ch stanic mus
+ch stanic"
+ch stanic, jejich
+ch stanic...\n\nNedokon
+ch stanic...\n\nZb
+ch vypnout. V jednu chv
+ch, restartujte cel
+chto cest
+d %1"
+dala omezen
+dat n
+dit sn
+dka (po 5 s)"
+dku seznam
+dost na podporu a neobdr
+dy navrchu"
+dy vynutit zapnut
+dy vypnout"
+dy zapnout"
+dy zobrazovat hranice na podlaze"
+e Bluetooth (0x0100)"
+e Bluetooth..."
+e a p
+e a software ze sv
+e blikat LED kontrolka, co
+e byl zkalibrov
+e cestu instalace nastavit podle sou
+e dokon
+e je V
+e je headset spr
+e je n
+e je ovlada
+e je sledovac
+e je z
+e jste nezm
+e mus
+e nebo stiskn
+e nefunguje plynule nebo doch
+e nen
+e ovlivn
+e se V
+e se nedot
+e se nevypne automaticky) vypn
+e se nezda
+e se znovu zobraz
+e sledovac
+e trvat n
+e tuto aplikaci m
+e tuto verzi nep
+e v p
+e znovu p
+e, mus
+e, zkuste pro USB za
+e. To m
+e. Trackpad je t
+e..."
+e.\n\nOpravdu chcete pokra
+eba aktualizovat jej
+eba zkalibrovat v p
+ebujete, klikn
+echna USB za
+echna nastaven
+echna souvisej
+echny USB kabely zapojen
+echny aplikace. Pokud chcete zm
+echny z
+echny"
+echod na m
+ed dal
+ed pou
+ed skon
+edejit
+edek dle headsetu"
+edpokl
+ehled m
+eho headsetu nen
+eho headsetu vy
+eho ovlada
+eho voln
+eho zam
+ek headsetu"
+ekryt
+ely diagnostiky informace o syst
+en limit
+ena do headsetu 
+ena p
+ena.\n\nNebyly zji
+ena.\n\nSt
+eni ke sv
+eno %1/%2 potenci
+eno."
+eno\n\nVe Va
+enou aktualizaci z
+enou na um
+enou nebo zru
+epnou do re
+epsat"
+es Bluetooth selhala (0x0800)"
+es Bluetooth selhalo. Zkontrolujte p
+es Bluetooth vys
+es Bluetooth. Pro jej
+es Bluetooth. Zkontrolujte instalaci re
+es Bluetooth. Zkontrolujte p
+es Bluetooth."
+es Bluetooth.\n\nBluetooth m
+esto selh
+ete pou
+ete povolit v 
+ete pro tuto aplikaci asynchronn
+ete re
+ete resetovat\n%3\n"
+ete spustit jako spr
+hem aktualizace neodpojujte sv
+hem aktualizace neodpojujte svoje sledovac
+hem aktualizace neodpojujte svoji z
+hem intern
+hled zpr
+hledov
+hledu (400
+hledu..."
+hnout a op
+hnout na li
+hnout plochu na displej"
+ho dema: %1 %2"
+ho kabelu a n
+ho kl
+ho ovlada
+ho po
+ho prostoru."
+ho re
+ho souboru re
+ho souboru rozhran
+ho souboru."
+ho spustiteln
+ho stavu aktualizaci.\n\nOpravdu chcete pokra
+ho sv
+ho za
+ho zobrazovac
+hu aktualizace stanici neodpojujte ani k n
+i kabelem micro-USB. Pokud tomu tak je a aktualizace i p
+i nahr
+i nebo v
+i podporov
+i pomoc
+i pozornost."
+i se nepoda
+i sledov
+i. Pokud tomu tak je a aktualizace i p
+ijala po
+ijala. Odpojte proto stanici od zdroje a op
+ije stereoskopick
+ijte si virtu
+ik obdr
+ila."
+ilo chybou %1."
+ilo nal
+ilo odebrat. Zkuste to znovu.\n"
+ilo odeslat.\n\nServer m
+ilo se na
+ilo se nal
+ilo se otev
+ilo se p
+ilo se spustit %1. Rozhran
+ilo se spustit %1: %2"
+ilo se spustit klienta slu
+ilo se spustit pomocnou aplikaci pro odebr
+ilo se spustit pomocnou aplikaci.\nUjist
+ilo se spustit runtime.\n\n%1\n\nMoment
+ilo se vytvo
+ilo spustit
+ily potenci
+im SteamVR a aktualizaci opakujte."
+im SteamVR a odpojte headset od zdroje. N
+im SteamVR a odpojte stanici od zdroje. N
+im SteamVR a opakujte aktualizaci.</ul>"
+im SteamVR a p
+im SteamVR a restartuje aplikaci."
+im SteamVR a zkuste to znovu. Pokud to nevy
+im SteamVR automaticky nastav
+im SteamVR bude muset ukon
+im SteamVR bude restartov
+im SteamVR je spu
+im SteamVR m
+im SteamVR minimalizovan
+im SteamVR moment
+im SteamVR restartuje. Opravdu chcete pokra
+im SteamVR se pot
+im SteamVR spole
+im SteamVR znovu spus
+im SteamVR"
+im SteamVR. V p
+im SteamVR."
+im SteamVR.<li>Odpojte a znovu zapojte nap
+im SteamVR.<li>Odpojte v
+im SteamVR.\n\nTento n
+im SteamVR?"
+im cel
+im displeje"
+im pro herny"
+im reprojekce"
+im vypnut"
+im. \n\nOpravdu chcete pokra
+im.</span></a>"
+im</span> m
+im? Po t
+im? Re
+imem SteamVR, aby mohlo doj
+imem SteamVR. Odinstalujte jeho ovlada
+imem SteamVR."
+imu (0x1000000)"
+imu SteamVR a tak
+imu SteamVR aktualizaci.\n\nOpravdu chcete pokra
+imu SteamVR automaticky probud
+imu SteamVR bylo zak
+imu SteamVR m
+imu SteamVR nainstalujte OpenGL."
+imu SteamVR nen
+imu SteamVR nepracuje spr
+imu SteamVR po
+imu SteamVR pouze na ty nejd
+imu SteamVR ukon
+imu SteamVR v
+imu SteamVR zak
+imu SteamVR znovu opticky naj
+imu SteamVR"
+imu SteamVR)."
+imu SteamVR, proto
+imu SteamVR. Abyste je mohli znovu pou
+imu SteamVR."
+imu SteamVR..."
+imu SteamVR.\n"
+imu SteamVR</a>."
+imu SteamVR</span></a></i>"
+imu bude plocha roz
+imu roz
+imu se re
+imu standby"
+imu standby."
+imu."
+innost"
+ipojen
+ipojen k po
+ipojena k po
+ipojeno k po
+ipojeno!"
+ipojeny pouze dva ovlada
+ipojit ke zdroji."
+ipojov
+ipojte headset ke sv
+ipojte k n
+ipojte stanici ke sv
+ipojte sv
+ipojte tento ovlada
+ipojte toto sledovac
+ipojte z
+ipojte, spus
+ipojte."
+ipojte.</font>"
+ipojte.\n"
+ipojujte 
+ipomenout pozd
+ipraven
+ipraveno"
+it do
+it do souboru"
+it informace o syst
+it jako"
+it konflikty?"
+it probl
+it re
+it ru
+it seznam"
+it ve
+it, a mohou potenci
+it/upravit prost
+ita pro sledov
+izovan
+j VR headset"
+j headset, nep
+j ovlada
+j stav."
+ji znovu."
+ji znovu.\n"
+jit, proto
+jte ani 
+ka v metrech:"
+ka virtu
+kat na dal
+kazy pro debuggov
+kdo z re
+kdo?"
+kejte 30 sekund, dokud z
+kladn
+kolik (%1) potenci
+kolik (%1) z
+kolik minut..."
+kolikr
+konem (0x0040)"
+konu GPU v headsetu"
+konu Va
+konu"
+kovi"
+krtnut
+ku headsetu."
+ku, kdy
+kujeme, 
+l %1"
+l oblast pro hran
+l pou
+l: %1"
+la za
+le je p
+le, ne
+li aktualizovat?"
+li nejsou dostupn
+li toti
+li, kdy je po
+lo k chyb
+lo k p
+lohu ve form
+lu (0x0001)"
+lu je vy
+lu na HTC VIVE 
+lu na zadn
+ly headset"
+ly mo
+ly nelze ur
+ly, aby nedoch
+ly, kter
+m Chaperone na prost
+m FPS)"
+m SteamVR"
+m USB kabel zapojen
+m a op
+m a podr
+m aktu
+m chyby.\n\nChyba: BR
+m dotyk
+m i cel
+m i celou z
+m kan
+m konflikt
+m mezi stanicemi vyberte nepou
+m na tla
+m nap
+m nebyla pou
+m neda
+m neulo
+m nikam nevede. Pokud V
+m pohybu"
+m pokazit aktualizaci, a t
+m pom
+m pou
+m s <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>f
+m s v
+m sledov
+m souboru re
+m stisknut
+m tla
+m zapojen
+m znovu nainstaloval jejich ovlada
+m, jej vypn
+m, restartujte cel
+m..."
+mco jsou aktualizov
+mek."
+mek\n %3
+mky (0x0020)"
+mky a zabra
+mky obrazovky (BETA)"
+mky)"
+mky\n %4
+mky\n %5
+mo na str
+mou odpov
+mu Chaperone na v
+mu Chaperone"
+mu Chaperone."
+mu Lighthouse."
+mu LighthouseDB"
+mu Steamworks"
+mu Windows."
+mu a z
+mu na aktualizaci..."
+mu po
+mu zahrnuj
+mu, tak prost
+mu. Mohli byste t
+my s USB."
+my s p
+n klient slu
+n ovlada
+n pro ka
+n v bezpe
+n. Aby v
+n. Zkuste to znovu.\n\nChyba: BR
+n.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>V
+n: \n %1"
+na aktualizace ovlada
+na aktualizace za
+na schopnost komunikace p
+na se projev
+na. Aby v
+na.\n\nZa okam
+ne automaticky, jakmile bude nalezen V
+ne automaticky, jakmile bude nalezena Va
+ne automaticky, jakmile bude nalezeno Va
+nili jejich kan
+nit rozli
+nky podpory."
+no (nebo do restartov
+no pokro
+no spojen
+no, re
+no. Aby v
+no. Zkuste to pozd
+nost 
+nost n
+nost odebere v
+nost resetuje cestu SteamVR zalo
+nost resetuje nastaven
+nost resetuje re
+nost se nedoporu
+nosti pro v
+nosti supersamplingu"
+nosti z
+nosti zak
+nu kan
+nu, bude jej mo
+nu, bude ji mo
+ny dle moment
+ny dva ovlada
+ny projevily, mus
+ny se mohou projevit a
+ny v syst
+ny v t
+ovat a vy
+ovat re
+ovat upozorn
+ovat v aktualizaci. Odpojte proto stanici od zdroje a op
+ovat v aktualizaci."
+ovat v aktualizaci.<br><br><font color=#aaaa00>Odpojte proto stanici od zdroje a op
+ovat"
+ovat?"
+padky p
+padky\n %1 jednotliv
+pisu"
+pisy"
+prava informac
+prava konfigurace..."
+prava m
+prava na aktualizaci..."
+prava syst
+prava z
+pravu m
+pravy m
+rie)"
+roda"
+rovan
+rovat bezdr
+rovat dal
+rovat do schr
+rovat nov
+rovat ovlada
+rovat sledovac
+sil chybu 
+sit chybu"
+sit chybu."
+skali pomoc od na
+skat tak
+sledn
+sobit konflikt.\n"
+st kompletn
+st manu
+st pr
+st seznam"
+st soubory z
+stnance, p
+stnost a sledov
+stnosti"
+stnosti. Chcete nyn
+stnosti. Nov
+stnosti?"
+stroj pro nahl
+stroj workshopu re
+stroje pro v
+strojov
+strojovou li
+stup k bezdr
+stupn
+t cesty a restartovat"
+t data sledov
+t del
+t form
+t glob
+t jeden"
+t k op
+t kompozitor"
+t manu
+t men
+t mod
+t na prvn
+t nov
+t nutn
+t povoleny slu
+t seznam"
+t soubor"
+t spr
+t star
+t stejn
+t virtu
+t vybran
+t za sebou...<ul><li>Ukon
+t zanepr
+t zvuk p
+t zvuk"
+t, budete je muset vyt
+t, jinak nebude mo
+ta po
+ta si 
+te USB za
+te a aktualizaci opakujte."
+te a podr
+te do z
+te dostate
+te k nab
+te k okraji Va
+te kl
+te klienta slu
+te na 
+te na ikonu headsetu a vyberte mo
+te na tla
+te nainstalovan
+te nejm
+te potvrzovac
+te povolit Bluetooth."
+te proto p
+te re
+te rozd
+te s v
+te se, 
+te si headset a probu
+te sledovac
+te stisknut
+te tak
+te tak virtu
+te tla
+te trackpadu a klikn
+te zlep
+te, aby headset vid
+te, aby sledovac
+te, zdali m
+tejte"
+tele"
+tit.<br>V pr
+tko n
+tko pro zm
+to mo
+to verzi re
+to zm
+tomno n
+tomnost klienta slu
+tovou aktualizaci t
+tovou komunikac
+tu OBJ"
+tu PNG nebo JPG"
+tu ZIP."
+tu i re
+tu slu
+tverce"
+uje kan
+uje lidem z re
+uje ve zhor
+uje. Opravdu chcete vypnout p
+ujte kliknut
+uk\nN
+va byla odesl
+va.\n"
+vat funkce spojen
+vat zvuk do za
+vce."
+vce.\n"
+vcovsk
+vesu 
+vislosti na stavu re
+vislosti na v
+vodce nahl
+vodu"
+vodu:"
+vrh na vylep
+vu se nepoda
+vy.\n\nNahr
+zat VR pohled"
+zat p
+zat pokro
+zek men
+zek mus
+zek pozad
+zek pro cedulku"
+zek..."
+zelo ke konflikt
+zet adres
+zet workshop"
+zev GPU"
+zev:"
+zkosti se nach
+zkosti se nenach
+zkumn
+zky (*.jpg *.png)"
+zky mus
+zky pozad
+znam 
+znam nejsou k dispozici informace o stavu."
+znam"
+znamov
+znamu (v sekund
+znamu: Pozastaven"
+znamy syst
+znamy"
+zt cestu instalace.\n\nRe

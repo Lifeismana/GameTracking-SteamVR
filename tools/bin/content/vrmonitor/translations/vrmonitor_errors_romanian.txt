@@ -1,809 +1,1129 @@
-﻿"lang"
-{
-"Language"	"romanian"
-"Tokens"
-{
-"Error_NoHMDAvailable_Header"	"Headsetul nu a fost găsit"
-"[english]Error_NoHMDAvailable_Header"	"Headset not found"
-"Error_NoHMDAvailable_Description"	"Headsetul tău nu a fost găsit. Asigură-te că este conectat corespunzător și repornește SteamVR."
-"[english]Error_NoHMDAvailable_Description"	"Your headset was not found. Make sure it is connected properly and restart SteamVR."
-"Error_NoHMDAvailable_Action"	"Depanare"
-"[english]Error_NoHMDAvailable_Action"	"Troubleshooting"
-"Error_HMDDoesNotTrack_Header"	"Headsetul nu este urmărit"
-"[english]Error_HMDDoesNotTrack_Header"	"Headset not tracking"
-"Error_HMDDoesNotTrack_Description"	"Acest headset este conectat dar nu este urmărit. Asigură-te că poate vedea o stație de bază."
-"[english]Error_HMDDoesNotTrack_Description"	"This headset is connected but not tracking. Make sure it can see a base station. "
+ - apas
+ Aero prin clic-dreapta pe desktop 
+ Preg
+ Serverul VR"
+ Steam este instalat 
+ Steam"
+ a fost 
+ a fost detectat
+ a fost detectat. Te rug
+ a fost mi
+ a fost mutat
+ aceast
+ aceasta e
+ actualizezi la Windows 8.1 sau Windows 10 pentru rezultatele cele mai bune."
+ adresa de config"
+ adresa de jurnal"
+ ai conectat bine cablurile HDMI, apoi reporne
+ ai ultima versiune instalat
+ aplica
+ are o eroare de fabrica
+ au pierdut sincronizarea optic
+ avertizare persist
+ baza \"A\" 
+ blocheze linia de vedere dintre cele dou
+ compozitorul pe 
+ compozitorul"
+ contactezi HTC pentru o 
+ controller"
+ controllerul"
+ corect, te rug
+ corespunz
+ creezi un raport de sistem 
+ cu aria de joc"
+ cu sistemul t
+ de la headset sau un controller."
+ developer.oculus.com"
+ din SteamVR nu func
+ din nou din directorul actual"
+ din nou pentru a continua."
+ din nou"
+ din nou."
+ directorul cu configura
+ doar dou
+ drivere"
+ driverele grafice"
+ esen
+ este 
+ este alimentat
+ este alimentat 
+ este conectat corect 
+ este conectat corespunz
+ este de %1 metrii, distan
+ este de sub 5,5 metrii."
+ este inutilizabil
+ este nevalid
+ este vizibil
+ este vizibil de c
+ fie instalat pentru ca SteamVR s
+ fie mai departe de 5,5m unele de altele."
+ fie pe 
+ fie."
+ folose
+ headsetul este conectat corespunz
+ headsetul t
+ htcvive.com/support"
+ iei 
+ iei leg
+ instalarea cu succes."
+ instalezi ultima versiune."
+ intern
+ la conexiunea cu Steam. Reporne
+ la hardware. Va trebui s
+ la headset"
+ la preg
+ la setarea sta
+ la ultima versiune de SteamVR prin Steam."
+ lips
+ mai jos pentru mai multe informa
+ modul direct"
+ necesite o repornire pentru a activa comunicarea. Reporne
+ nepl
+ nu a fost configurat
+ nu a fost detectat
+ nu ar trebui s
+ nu este preg
+ nu este urm
+ nu poate fi scris - acesta este necesar pentru ca SteamVR s
+ nu poate participa la administrarea energiei."
+ nu se sincronizeaz
+ o sta
+ oglindeasc
+ optim
+ pe A."
+ pentru SteamVR nu func
+ poate vedea o sta
+ porne
+ prea 
+ prea mul
+ prea multe resurse sau computerul t
+ preg
+ raportul de sistem"
+ repari asta"
+ ruleaz
+ rulez
+ ruleze corect."
+ ruleze corespunz
+ rulezi Preg
+ rulezi SteamVR 
+ rulezi \"Preg
+ sau Tutorialul, din nou, oric
+ schimbi 
+ schimbi modul de la aceast
+ schimbi pe o tem
+ setezi HMD la \"extins\", 
+ site-ul web HTC"
+ stabilim una nou
+ sunt configurate corespunz
+ sunt prea 
+ sunt setate s
+ sunt vizibile headsetului 
+ te asiguri c
+ te asiguri de conexiunea corespunz
+ te reconectezi"
+ toate dispozitivele USB legate de SteamVR din sistem pentru a le instala driverele din nou."
+ trimi
+ tutorial"
+ unde ne a
+ utilizezi SteamVR"
+ vede o sta
+ verifici c
+ verifici instalarea SteamVR"
+ verifici instalarea SteamVR, apoi reporne
+ verifici instalarea SteamVR."
+ versiune de SteamVR este prea veche, actualizeaz
+ versiune de SteamVR."
+ versiunea %1, dar modul direct necesit
+ versiunea %2"
+"ChaperoneCalibrationState_Error_Action"	"Porne
+"ChaperoneCalibrationState_Error_BaseStationConflict_Action"	"Porne
+"ChaperoneCalibrationState_Error_BaseStationConflict_Description"	"Aria ta de joc trebuie configurat
+"ChaperoneCalibrationState_Error_BaseStationConflict_Header"	"Problem
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Action"	"Porne
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Description"	"Te rug
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Header"	"Camera nu este preg
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action"	"Porne
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description"	"Grani
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header"	"Grani
+"ChaperoneCalibrationState_Error_Description"	"Te rug
+"ChaperoneCalibrationState_Error_Header"	"Preg
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Action"	"Porne
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description"	"Aria ta de joc trebuie configurat
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header"	"Aria de joc nu este setat
+"ChaperoneCalibrationState_Warning_Action"	"Porne
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action"	"Porne
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description"	"Se pare c
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header"	"Sta
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Action"	"Porne
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description"	"Am pierdut leg
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Header"	"Sta
+"ChaperoneCalibrationState_Warning_Description"	"Te rug
+"ChaperoneCalibrationState_Warning_Header"	"Preg
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action"	"Porne
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description"	"Pozi
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header"	"Nicio pozi
+"Error_CompositorNotFullscreen_Action"	"Ruleaz
+"Error_CompositorNotFullscreen_Description"	"Ai nevoie ca acesta s
+"Error_CompositorNotFullscreen_Header"	"Compozitorul nu este pe 
+"Error_CompositorNotRunning_Action"	"Porne
+"Error_CompositorNotRunning_Description"	"Ai nevoie de acesta pentru ca SteamVR s
+"Error_CompositorNotRunning_Header"	"Compozitorul nu ruleaz
+"Error_CompositorTooManyRunning_Action"	"Reporne
+"Error_CompositorTooManyRunning_Description"	"Doar un singur compozitor poate func
+"Error_CompositorTooManyRunning_Header"	"Ruleaz
 "Error_HMDDoesNotTrack_Action"	"Depanare"
-"[english]Error_HMDDoesNotTrack_Action"	"Troubleshooting"
+"Error_HMDDoesNotTrack_Description"	"Acest headset este conectat dar nu este urm
+"Error_HMDDoesNotTrack_Header"	"Headsetul nu este urm
+"Error_NoChaperoneAvailable_Action"	"Lanseaz
+"Error_NoChaperoneAvailable_Description"	"Preg
+"Error_NoChaperoneAvailable_Header"	"Camera nu este preg
+"Error_NoCompositorAvailable_Action"	"Lanseaz
+"Error_NoCompositorAvailable_Description"	"Ai nevoie de acesta pentru ca SteamVR s
 "Error_NoCompositorAvailable_Header"	"Compozitorul nu este disponibil"
-"[english]Error_NoCompositorAvailable_Header"	"Compositor is not available"
-"Error_NoCompositorAvailable_Description"	"Ai nevoie de acesta pentru ca SteamVR să ruleze corespunzător."
-"[english]Error_NoCompositorAvailable_Description"	"You'll need this to run SteamVR to work correctly."
-"Error_NoCompositorAvailable_Action"	"Lansează compozitorul"
-"[english]Error_NoCompositorAvailable_Action"	"Launch Compositor"
-"Error_NoChaperoneAvailable_Header"	"Camera nu este pregătită"
-"[english]Error_NoChaperoneAvailable_Header"	"Room is not set up"
-"Error_NoChaperoneAvailable_Description"	"Pregătește camera pentru ca SteamVR să ruleze corect."
-"[english]Error_NoChaperoneAvailable_Description"	"Set your room up for SteamVR to work correctly."
-"Error_NoChaperoneAvailable_Action"	"Lansează Pregătirea pentru Cameră"
-"[english]Error_NoChaperoneAvailable_Action"	"Launch Room Setup"
-"Error_CompositorNotFullscreen_Header"	"Compozitorul nu este pe întreg ecranul"
-"[english]Error_CompositorNotFullscreen_Header"	"Compositor is not fullscreen"
-"Error_CompositorNotFullscreen_Description"	"Ai nevoie ca acesta să fie pe întreg ecranul pentru ca SteamVR să ruleze corespunzător."
-"[english]Error_CompositorNotFullscreen_Description"	"You'll need this to be fullscreen for SteamVR to work correctly."
-"Error_CompositorNotFullscreen_Action"	"Rulează compozitorul pe întreg ecranul"
-"[english]Error_CompositorNotFullscreen_Action"	"Make Compositor fullscreen"
-"Error_CompositorNotRunning_Header"	"Compozitorul nu rulează"
-"[english]Error_CompositorNotRunning_Header"	"Compositor is not running"
-"Error_CompositorNotRunning_Description"	"Ai nevoie de acesta pentru ca SteamVR să ruleze corespunzător."
-"[english]Error_CompositorNotRunning_Description"	"You'll need this for SteamVR to work correctly."
-"Error_CompositorNotRunning_Action"	"Pornește compozitorul"
-"[english]Error_CompositorNotRunning_Action"	"Launch Compositor"
-"Error_CompositorTooManyRunning_Header"	"Rulează prea mulți compozitori"
-"[english]Error_CompositorTooManyRunning_Header"	"Too many compositors running"
-"Error_CompositorTooManyRunning_Description"	"Doar un singur compozitor poate funcționa pentru ca SteamVR să ruleze corespunzător."
-"[english]Error_CompositorTooManyRunning_Description"	"Only one compositor can run for SteamVR to work correctly."
-"Error_CompositorTooManyRunning_Action"	"Repornește SteamVR"
-"[english]Error_CompositorTooManyRunning_Action"	"Restart SteamVR"
-"Error_VRServerNotRunning_Header"	"Serverul VR nu rulează"
-"[english]Error_VRServerNotRunning_Header"	"VR Server is not running"
-"Error_VRServerNotRunning_Description"	"Ai nevoie de acesta pentru ca SteamVR să ruleze corespunzător."
-"[english]Error_VRServerNotRunning_Description"	"You'll need this for SteamVR to work correctly."
-"Error_VRServerNotRunning_Action"	"Lansează Serverul VR"
-"[english]Error_VRServerNotRunning_Action"	"Launch VR Server"
-"Error_TrackingDevice_NotValid_Header"	"Dispozitivul nu este conectat"
-"[english]Error_TrackingDevice_NotValid_Header"	"Device is not connected"
-"Error_TrackingDevice_NotValid_Description"	"Nu putem găsi acest dispozitiv. Asigură-te că este conectat corect și încearcă din nou."
-"[english]Error_TrackingDevice_NotValid_Description"	"We can't find this device. Make sure it is connected correctly and try again."
-"Error_TrackingDevice_NotValid_Action"	"Încearcă să te reconectezi"
-"[english]Error_TrackingDevice_NotValid_Action"	"Try to reconnect"
-"Error_TrackingDevice_NoPose_Header"	"Dispozitivul nu este urmărit"
-"[english]Error_TrackingDevice_NoPose_Header"	"Device is not tracking"
-"Error_TrackingDevice_NoPose_Description"	"Acest dispozitiv nu este urmărit. Asigură-te că este vizibil de către o stație de bază."
-"[english]Error_TrackingDevice_NoPose_Description"	"This device is not tracking. Make sure it is visible from the base stations."
+"Error_NoHMDAvailable_Action"	"Depanare"
+"Error_NoHMDAvailable_Description"	"Headsetul t
+"Error_NoHMDAvailable_Header"	"Headsetul nu a fost g
 "Error_TrackingDevice_NoPose_Action"	"Depanare"
-"[english]Error_TrackingDevice_NoPose_Action"	"Troubleshooting"
-"VRInitError_Unknown_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Unknown_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Unknown_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_Unknown_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Unknown_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Unknown_Action"	"Check SteamVR Support"
-"VRInitError_Init_InstallationNotFound_Header"	"Fișiere lipsă"
-"[english]VRInitError_Init_InstallationNotFound_Header"	"Missing files"
-"VRInitError_Init_InstallationNotFound_Description"	"Unele fișiere nu se află unde ne așteptam să fie."
-"[english]VRInitError_Init_InstallationNotFound_Description"	"Some files aren't where where we thought they were."
-"VRInitError_Init_InstallationNotFound_Action"	"Încearcă din nou din directorul actual"
-"[english]VRInitError_Init_InstallationNotFound_Action"	"Try again from the current directory"
-"VRInitError_Init_InstallationCorrupt_Header"	"Fișiere lipsă"
-"[english]VRInitError_Init_InstallationCorrupt_Header"	"Missing files"
-"VRInitError_Init_InstallationCorrupt_Description"	"Unele fișiere necesare pentru SteamVR lipsesc, te rugăm să verifici instalarea SteamVR."
-"[english]VRInitError_Init_InstallationCorrupt_Description"	"Some files we need for SteamVR are missing, please check your SteamVR installation."
-"VRInitError_Init_InstallationCorrupt_Action"	"Depanare"
-"[english]VRInitError_Init_InstallationCorrupt_Action"	"Troubleshooting"
-"VRInitError_Init_VRClientDLLNotFound_Header"	"Fișier lipsă"
-"[english]VRInitError_Init_VRClientDLLNotFound_Header"	"Missing file"
-"VRInitError_Init_VRClientDLLNotFound_Description"	"Un fișier necesar pentru SteamVR lipsește, te rugăm să verifici instalarea SteamVR."
-"[english]VRInitError_Init_VRClientDLLNotFound_Description"	"A file we need for SteamVR is missing, please check your SteamVR installation."
-"VRInitError_Init_VRClientDLLNotFound_Action"	"Depanare"
-"[english]VRInitError_Init_VRClientDLLNotFound_Action"	"Troubleshooting"
-"VRInitError_Init_FileNotFound_Header"	"Fișier lipsă"
-"[english]VRInitError_Init_FileNotFound_Header"	"Missing file"
-"VRInitError_Init_FileNotFound_Description"	"Un fișier de care avem nevoie pentru SteamVR lipsește, te rugăm să verifici instalarea SteamVR."
-"[english]VRInitError_Init_FileNotFound_Description"	"A file we need for SteamVR is missing, please check your SteamVR installation."
-"VRInitError_Init_FileNotFound_Action"	"Depanare"
-"[english]VRInitError_Init_FileNotFound_Action"	"Troubleshooting"
-"VRInitError_Init_FactoryNotFound_Header"	"Fișier lipsă"
-"[english]VRInitError_Init_FactoryNotFound_Header"	"Missing file"
-"VRInitError_Init_FactoryNotFound_Description"	"Un fișier de care avem nevoie pentru SteamVR lipsește, te rugăm să verifici instalarea SteamVR."
-"[english]VRInitError_Init_FactoryNotFound_Description"	"A file we need for SteamVR is missing, please check your SteamVR installation."
-"VRInitError_Init_FactoryNotFound_Action"	"Depanare"
-"[english]VRInitError_Init_FactoryNotFound_Action"	"Troubleshooting"
-"VRInitError_Init_InterfaceNotFound_Header"	"SteamVR nu este actualizat"
-"[english]VRInitError_Init_InterfaceNotFound_Header"	"SteamVR is out of date"
-"VRInitError_Init_InterfaceNotFound_Description"	"Această versiune de SteamVR este prea veche, actualizează la ultima versiune de SteamVR prin Steam."
-"[english]VRInitError_Init_InterfaceNotFound_Description"	"This version of SteamVR is too old, update to the latest version of SteamVR through Steam."
-"VRInitError_Init_InterfaceNotFound_Action"	" "
-"[english]VRInitError_Init_InterfaceNotFound_Action"	""
-"VRInitError_Init_InvalidInterface_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Init_InvalidInterface_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Init_InvalidInterface_Description"	"A apărut o problemă neașteptă. Te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_InvalidInterface_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Init_InvalidInterface_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_InvalidInterface_Action"	"Check SteamVR Support"
-"VRInitError_Init_UserConfigDirectoryInvalid_Header"	"Ceva este în neregulă"
-"[english]VRInitError_Init_UserConfigDirectoryInvalid_Header"	"Something is wrong"
-"VRInitError_Init_UserConfigDirectoryInvalid_Description"	"Nu putem găsi directorul cu configurații și trebuie să setăm unul nou."
-"[english]VRInitError_Init_UserConfigDirectoryInvalid_Description"	"We can't find your config directory and need to set a new one."
-"VRInitError_Init_UserConfigDirectoryInvalid_Action"	"Setează directorul cu configurații"
-"[english]VRInitError_Init_UserConfigDirectoryInvalid_Action"	"Set Config Directory"
-"VRInitError_Init_HmdNotFound_Header"	"Headsetul nu a fost detectat"
-"[english]VRInitError_Init_HmdNotFound_Header"	"Headset not detected"
-"VRInitError_Init_HmdNotFound_Description"	"Asigură-te că headsetul este conectat corespunzător, apoi repornește-l printr-un clic mai jos."
-"[english]VRInitError_Init_HmdNotFound_Description"	"Make sure your headset is connected properly, then reboot it by clicking below."
-"VRInitError_Init_HmdNotFound_Action"	"Depanare"
-"[english]VRInitError_Init_HmdNotFound_Action"	"Troubleshooting"
-"VRInitError_Init_NotInitialized_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Init_NotInitialized_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Init_NotInitialized_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_NotInitialized_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Init_NotInitialized_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_NotInitialized_Action"	"Check SteamVR Support"
-"VRInitError_Init_PathRegistryNotFound_Header"	"Fișiere lipsă"
-"[english]VRInitError_Init_PathRegistryNotFound_Header"	"Missing files"
-"VRInitError_Init_PathRegistryNotFound_Description"	"Unele fișiere nu se află unde ne așteptam să fie."
-"[english]VRInitError_Init_PathRegistryNotFound_Description"	"Some files aren't where we thought they were."
-"VRInitError_Init_PathRegistryNotFound_Action"	"Încearcă din nou din directorul actual"
-"[english]VRInitError_Init_PathRegistryNotFound_Action"	"Try again from the current directory"
-"VRInitError_Init_NoConfigPath_Header"	"Adresă lipsă"
-"[english]VRInitError_Init_NoConfigPath_Header"	"Missing path"
-"VRInitError_Init_NoConfigPath_Description"	"Nu găsim adresa configului și trebuie să stabilim una nouă."
-"[english]VRInitError_Init_NoConfigPath_Description"	"We can't find your config path and need to set a new one."
-"VRInitError_Init_NoConfigPath_Action"	"Setează adresa de config"
-"[english]VRInitError_Init_NoConfigPath_Action"	"Set Config Path"
-"VRInitError_Init_NoLogPath_Header"	"Adresă lipsă"
-"[english]VRInitError_Init_NoLogPath_Header"	"Missing path"
-"VRInitError_Init_NoLogPath_Description"	"Nu găsim adresa jurnalului și trebuie să stabilim una nouă."
-"[english]VRInitError_Init_NoLogPath_Description"	"We can't find your log path and need to set a new one."
-"VRInitError_Init_NoLogPath_Action"	"Setează adresa de jurnal"
-"[english]VRInitError_Init_NoLogPath_Action"	"Set Log Path"
-"VRInitError_Init_PathRegistryNotWritable_Header"	"Ceva este în neregulă"
-"[english]VRInitError_Init_PathRegistryNotWritable_Header"	"Something is wrong"
-"VRInitError_Init_PathRegistryNotWritable_Description"	"Registrul tău de adresă nu poate fi scris - acesta este necesar pentru ca SteamVR să ruleze corespunzător."
-"[english]VRInitError_Init_PathRegistryNotWritable_Description"	"Your path registry is not writable - this is necessary for SteamVR to work correctly."
-"VRInitError_Init_PathRegistryNotWritable_Action"	"Depanare"
-"[english]VRInitError_Init_PathRegistryNotWritable_Action"	"Troubleshooting"
-"VRInitError_Init_AppInfoInitFailed_Header"	"Ceva este în neregulă"
-"[english]VRInitError_Init_AppInfoInitFailed_Header"	"Something is wrong"
-"VRInitError_Init_AppInfoInitFailed_Description"	"O componentă internă din SteamVR nu funcționează corespunzător. Te rugăm să creezi un raport de sistem și să îl trimți către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_AppInfoInitFailed_Description"	"An internal component of SteamVR isn't working properly. Please check SteamVR Support for help."
-"VRInitError_Init_AppInfoInitFailed_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_AppInfoInitFailed_Action"	"Check SteamVR Support"
-"VRInitError_Init_Retry_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Init_Retry_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Init_Retry_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_Retry_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Init_Retry_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_Retry_Action"	"Check SteamVR Support"
-"VRInitError_Init_InitCanceledByUser_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Init_InitCanceledByUser_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Init_InitCanceledByUser_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_InitCanceledByUser_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Init_InitCanceledByUser_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_InitCanceledByUser_Action"	"Check SteamVR Support"
-"VRInitError_Init_AnotherAppLaunching_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Init_AnotherAppLaunching_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Init_AnotherAppLaunching_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_AnotherAppLaunching_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Init_AnotherAppLaunching_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_AnotherAppLaunching_Action"	"Check SteamVR Support"
-"VRInitError_Init_SettingsInitFailed_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Init_SettingsInitFailed_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Init_SettingsInitFailed_Description"	"A apărut o problemă neașteptată. te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_SettingsInitFailed_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Init_SettingsInitFailed_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_SettingsInitFailed_Action"	"Check SteamVR Support"
-"VRInitError_Init_ShuttingDown_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Init_ShuttingDown_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Init_ShuttingDown_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_ShuttingDown_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Init_ShuttingDown_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_ShuttingDown_Action"	"Check SteamVR Support"
-"VRInitError_Init_TooManyObjects_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Init_TooManyObjects_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Init_TooManyObjects_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_TooManyObjects_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Init_TooManyObjects_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_TooManyObjects_Action"	"Check SteamVR Support"
-"VRInitError_Init_NoServerForBackgroundApp_Header"	"Hmm, tasta nu trebuia să se întâmple."
-"[english]VRInitError_Init_NoServerForBackgroundApp_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Init_NoServerForBackgroundApp_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_NoServerForBackgroundApp_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Init_NoServerForBackgroundApp_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_NoServerForBackgroundApp_Action"	"Check SteamVR Support"
-"VRInitError_Init_NotSupportedWithCompositor_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Init_NotSupportedWithCompositor_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Init_NotSupportedWithCompositor_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_NotSupportedWithCompositor_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Init_NotSupportedWithCompositor_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_NotSupportedWithCompositor_Action"	"Check SteamVR Support"
-"VRInitError_Driver_Failed_Header"	"Ceva este în neregulă"
-"[english]VRInitError_Driver_Failed_Header"	"Something is wrong"
-"VRInitError_Driver_Failed_Description"	"A apărut e eroare internă - apasă mai jos pentru mai multe informații."
-"[english]VRInitError_Driver_Failed_Description"	"There was an internal error - Click below for more info."
-"VRInitError_Driver_Failed_Action"	"Depanare"
-"[english]VRInitError_Driver_Failed_Action"	"Troubleshooting"
-"VRInitError_Driver_Unknown_Header"	"Ceva este în neregulă"
-"[english]VRInitError_Driver_Unknown_Header"	"Something is wrong"
-"VRInitError_Driver_Unknown_Description"	"Un driver configurat în setări nu este valid."
-"[english]VRInitError_Driver_Unknown_Description"	"A driver configured in settings isn't valid."
-"VRInitError_Driver_Unknown_Action"	"Încearcă să repari asta"
-"[english]VRInitError_Driver_Unknown_Action"	"Try to fix this"
-"VRInitError_Driver_HmdUnknown_Header"	"Headsetul nu este recunoscut"
-"[english]VRInitError_Driver_HmdUnknown_Header"	"Headset not recognized"
-"VRInitError_Driver_HmdUnknown_Description"	"Acest headset nu este recunoscut. Te rugăm să te asiguri că folosești un headset valid."
-"[english]VRInitError_Driver_HmdUnknown_Description"	"This headset is not recognized. Please make sure you are using a valid headset."
-"VRInitError_Driver_HmdUnknown_Action"	"Încearcă să repari asta"
-"[english]VRInitError_Driver_HmdUnknown_Action"	"Try to fix this"
-"VRInitError_Driver_NotLoaded_Header"	"Fișierul nu se încarcă"
-"[english]VRInitError_Driver_NotLoaded_Header"	"File not loading"
-"VRInitError_Driver_NotLoaded_Description"	"Un driver necesar pentru SteamVR nu se încarcă corect, te rugăm să verifici instalarea SteamVR."
-"[english]VRInitError_Driver_NotLoaded_Description"	"A driver required for SteamVR isn't loading correctly, please check your SteamVR installation."
-"VRInitError_Driver_NotLoaded_Action"	"Depanare"
-"[english]VRInitError_Driver_NotLoaded_Action"	"Troubleshooting"
-"VRInitError_Driver_RuntimeOutOfDate_Header"	"Oculus software nu este actualizat"
-"[english]VRInitError_Driver_RuntimeOutOfDate_Header"	"Oculus software is out of date"
-"VRInitError_Driver_RuntimeOutOfDate_Description"	"Oculus runtime este învechit, te rugăm să instalezi ultima versiune."
-"[english]VRInitError_Driver_RuntimeOutOfDate_Description"	"The Oculus runtime is out of date, please install the latest version."
-"VRInitError_Driver_RuntimeOutOfDate_Action"	"Vizitează developer.oculus.com"
-"[english]VRInitError_Driver_RuntimeOutOfDate_Action"	"Visit developer.oculus.com"
-"VRInitError_Driver_HmdInUse_Header"	"Headsetul este folosit"
-"[english]VRInitError_Driver_HmdInUse_Header"	"Headset in use"
-"VRInitError_Driver_HmdInUse_Description"	"Headsetul este utilizat de altă aplicație. Te rugăm să închizi orice alte aplicații VR pentru a continua."
-"[english]VRInitError_Driver_HmdInUse_Description"	"The headset is being used by another application. Please quit any other VR apps to continue."
-"VRInitError_Driver_HmdInUse_Action"	"Încearcă din nou"
-"[english]VRInitError_Driver_HmdInUse_Action"	"Try again"
-"VRInitError_Driver_NotCalibrated_Header"	"Driverul nu este calibrat"
-"[english]VRInitError_Driver_NotCalibrated_Header"	"Driver not calibrated"
-"VRInitError_Driver_NotCalibrated_Description"	"Avem probleme la încărcarea unui fișier de calibrare."
-"[english]VRInitError_Driver_NotCalibrated_Description"	"We are having trouble loading a calibration file."
-"VRInitError_Driver_NotCalibrated_Action"	"Depanare"
-"[english]VRInitError_Driver_NotCalibrated_Action"	"Troubleshooting"
-"VRInitError_Driver_CalibrationInvalid_Header"	"Calibrarea driverului a eșuat"
-"[english]VRInitError_Driver_CalibrationInvalid_Header"	"Driver calibration failed"
-"VRInitError_Driver_CalibrationInvalid_Description"	"Avem probleme la încărcarea unui fișier de calibrare."
-"[english]VRInitError_Driver_CalibrationInvalid_Description"	"We are having trouble loading a calibration file."
-"VRInitError_Driver_CalibrationInvalid_Action"	"Depanare"
-"[english]VRInitError_Driver_CalibrationInvalid_Action"	"Troubleshooting"
-"VRInitError_Driver_HmdDisplayNotFound_Header"	"Headsetul nu este conectat corespunzător"
-"[english]VRInitError_Driver_HmdDisplayNotFound_Header"	"Headset not connected properly"
-"VRInitError_Driver_HmdDisplayNotFound_Description"	"Afișajul headsetului nu a fost găsit, te rugăm să te asiguri că ai conectat bine cablurile HDMI, apoi repornește-l printr-un clic mai jos."
-"[english]VRInitError_Driver_HmdDisplayNotFound_Description"	"The headset's display was not found, please make sure your HDMI cables are securely connected, then reboot it by clicking below."
-"VRInitError_Driver_HmdDisplayNotFound_Action"	"Depanare"
-"[english]VRInitError_Driver_HmdDisplayNotFound_Action"	"Troubleshooting"
-"VRInitError_IPC_ServerInitFailed_Header"	"Ceva este în neregulă"
-"[english]VRInitError_IPC_ServerInitFailed_Header"	"Something is wrong"
-"VRInitError_IPC_ServerInitFailed_Description"	"O componentă esențială pentru SteamVR nu funcționează corespunzător, te rugăm să verifici instalarea SteamVR, apoi repornește headsetul printr-un clic mai jos."
-"[english]VRInitError_IPC_ServerInitFailed_Description"	"A key component of SteamVR isn't working properly, please check your SteamVR installation, then reboot your headset by clicking below."
-"VRInitError_IPC_ServerInitFailed_Action"	"Depanare"
-"[english]VRInitError_IPC_ServerInitFailed_Action"	"Troubleshooting"
-"VRInitError_IPC_ConnectFailed_Header"	"Conectarea a eșuat"
-"[english]VRInitError_IPC_ConnectFailed_Header"	"Connect Failed"
-"VRInitError_IPC_ConnectFailed_Description"	"O componentă esențială din SteamVR nu funcționează corespunzător."
-"[english]VRInitError_IPC_ConnectFailed_Description"	"A key component of SteamVR isn't working properly."
-"VRInitError_IPC_ConnectFailed_Action"	"Depanare"
-"[english]VRInitError_IPC_ConnectFailed_Action"	"Troubleshooting"
-"VRInitError_IPC_SharedStateInitFailed_Header"	"Inițializarea a eșuat"
-"[english]VRInitError_IPC_SharedStateInitFailed_Header"	"Init Failed"
-"VRInitError_IPC_SharedStateInitFailed_Description"	"O componentă esențială din SteamVR nu funcționează corespunzător."
-"[english]VRInitError_IPC_SharedStateInitFailed_Description"	"A key component of SteamVR isn't working properly."
-"VRInitError_IPC_SharedStateInitFailed_Action"	"Depanare"
-"[english]VRInitError_IPC_SharedStateInitFailed_Action"	"Troubleshooting"
-"VRInitError_IPC_CompositorInitFailed_Header"	"Ceva este în neregulă"
-"[english]VRInitError_IPC_CompositorInitFailed_Header"	"Something is wrong"
-"VRInitError_IPC_CompositorInitFailed_Description"	"O componentă esențiala din SteamVR nu funcționează corespunzător, te rugăm să verifici instalarea SteamVR"
-"[english]VRInitError_IPC_CompositorInitFailed_Description"	"A key component of SteamVR isn't working correctly, please check your SteamVR installation"
-"VRInitError_IPC_CompositorInitFailed_Action"	"Depanare"
-"[english]VRInitError_IPC_CompositorInitFailed_Action"	"Troubleshooting"
-"VRInitError_IPC_MutexInitFailed_Header"	"Ceva este în neregulă"
-"[english]VRInitError_IPC_MutexInitFailed_Header"	"Something is wrong"
-"VRInitError_IPC_MutexInitFailed_Description"	"O componentă esențială din SteamVR nu funcționează corespunzător, te rugăm să verifici instalarea SteamVR."
-"[english]VRInitError_IPC_MutexInitFailed_Description"	"A key component of SteamVR isn't working correctly, please check your SteamVR installation"
-"VRInitError_IPC_MutexInitFailed_Action"	"Depanare"
-"[english]VRInitError_IPC_MutexInitFailed_Action"	"Troubleshooting"
-"VRInitError_IPC_Failed_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_IPC_Failed_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_IPC_Failed_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport de sistem către steamvr@valvesoftware.com."
-"[english]VRInitError_IPC_Failed_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_IPC_Failed_Action"	"Creează raportul de sistem"
-"[english]VRInitError_IPC_Failed_Action"	"Check SteamVR Support"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header"	"Nu se poate realiza conexiunea către Oculus runtime"
-"[english]VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header"	"Unable to connect to Oculus runtime"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description"	"SteamVR nu s-a putut conecta la Oculus runtime. Te rugăm să te asiguri că ai ultima versiune instalată."
-"[english]VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description"	"SteamVR was unable to connect to the Oculus runtime. Please make sure you have the latest version installed."
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action"	"Vizitează developer.oculus.com"
-"[english]VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action"	"Visit developer.oculus.com"
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description"	"Headsetul tău este detectat, dar a apărut o problemă."
-"[english]VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description"	"Headsetul tău este detectat, dar a apărut o eroare."
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description"	"Headsetul tău este detectat, dar a apărut o problemă."
-"[english]VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description"	"Headsetul tău este detectat, dar a apărut o problemă."
-"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description"	"Headsetul tău este detectat, dar a apărut o problemă."
-"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description"	"Headsetul tău este detectat, dar a apărut o problemă."
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description"	"Headsetul tău este detectat, dar a apărut o problemă."
-"[english]VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description"	"Headsetul tău este detectat, dar a apărut o problemă."
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description"	"Headsetul tău este detectat, dar a apărut o problemă."
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description"	"Headsetul tău este detectat, dar a apărut o problemă."
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description"	"Headsetul tău este detectat, dar a apărut o problemă."
-"[english]VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Header"	"Eroare USB"
-"[english]VRInitError_VendorSpecific_HmdFound_UserDataError_Header"	"USB Error"
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Description"	"Headsetul tău e detectat, dar a apărut o problemă."
-"[english]VRInitError_VendorSpecific_HmdFound_UserDataError_Description"	"Your headset is detected, but there is a problem."
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Action"	"Depanare"
-"[english]VRInitError_VendorSpecific_HmdFound_UserDataError_Action"	"Troubleshooting"
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header"	"Ceva este în neregulă"
-"[english]VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header"	"Something is wrong"
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description"	"Headsetul este detectat, dar a apărut o problemă la hardware. Va trebui să iei legătura cu HTC."
-"[english]VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description"	"Your headset is detected, but there is a problem with the hardware. You will need to contact HTC."
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action"	"Vizitează site-ul web HTC"
-"[english]VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action"	"Visits HTC Website"
-"VRInitError_Steam_SteamInstallationNotFound_Header"	"Steam nu este detectat"
-"[english]VRInitError_Steam_SteamInstallationNotFound_Header"	"Steam not detected"
-"VRInitError_Steam_SteamInstallationNotFound_Description"	"Steam trebuie să fie instalat pentru ca SteamVR să ruleze corespunzător."
-"[english]VRInitError_Steam_SteamInstallationNotFound_Description"	"Steam needs to be installed for SteamVR to work correctly."
-"VRInitError_Steam_SteamInstallationNotFound_Action"	"Instalează Steam"
-"[english]VRInitError_Steam_SteamInstallationNotFound_Action"	"Install Steam"
-"ChaperoneCalibrationState_Warning_Header"	"Pregătirea pentru cameră este nevalidă"
-"[english]ChaperoneCalibrationState_Warning_Header"	"Room Setup is invalid"
-"ChaperoneCalibrationState_Warning_Description"	"Te rugăm să pornești Pregătirea pentru Cameră din nou."
-"[english]ChaperoneCalibrationState_Warning_Description"	"Please run Room Setup again."
-"ChaperoneCalibrationState_Warning_Action"	"Pornește Pregătirea pentru Cameră"
-"[english]ChaperoneCalibrationState_Warning_Action"	"Run Room Setup"
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header"	"Stația de bază a fost mișcată"
-"[english]ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header"	"Base station moved"
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description"	"Se pare că o stație de bază a fost mutată, te rugăm să rulezi Pregătirea pentru Cameră."
-"[english]ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description"	"It looks like a base station might have moved, please run Room Setup."
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action"	"Pornește Pregătirea pentru Cameră"
-"[english]ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action"	"Run Room Setup"
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Header"	"Stația de bază a fost îndepărtată"
-"[english]ChaperoneCalibrationState_Warning_BaseStationRemoved_Header"	"Base station removed"
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description"	"Am pierdut legătura cu una dintre stațiile de bază, te rugăm să ruleză Pregătirea pentru Cameră."
-"[english]ChaperoneCalibrationState_Warning_BaseStationRemoved_Description"	"We lost track of one of the base stations, please run Room Setup."
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Action"	"Pornește Pregătirea pentru Cameră"
-"[english]ChaperoneCalibrationState_Warning_BaseStationRemoved_Action"	"Run Room Setup"
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header"	"Nicio poziție șezândă"
-"[english]ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header"	"No seated position"
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description"	"Poziția șezândă nu a fost configurată încă."
-"[english]ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description"	"Seated position hasn't been set up yet."
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action"	"Pornește Pregătirea pentru Cameră"
-"[english]ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action"	"Run Room Setup"
-"ChaperoneCalibrationState_Error_Header"	"Pregătirea pentru Cameră este nevalidă"
-"[english]ChaperoneCalibrationState_Error_Header"	"Room Setup is invalid"
-"ChaperoneCalibrationState_Error_Description"	"Te rugăm să pornești Pregătirea pentru Cameră din nou."
-"[english]ChaperoneCalibrationState_Error_Description"	"Please run Room Setup again."
-"ChaperoneCalibrationState_Error_Action"	"Pornește Pregătirea pentru Cameră"
-"[english]ChaperoneCalibrationState_Error_Action"	"Run Room Setup"
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Header"	"Camera nu este pregătită"
-"[english]ChaperoneCalibrationState_Error_BaseStationUninitialized_Header"	"Room is not set up"
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Description"	"Te rugăm să rulezi \"Pregătirea pentru Cameră\" pentru a putea începe să utilizezi SteamVR"
-"[english]ChaperoneCalibrationState_Error_BaseStationUninitialized_Description"	"Please run Room Setup to begin using SteamVR."
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Action"	"Pornește Pregătirea pentru Cameră"
-"[english]ChaperoneCalibrationState_Error_BaseStationUninitialized_Action"	"Run Room Setup"
-"ChaperoneCalibrationState_Error_BaseStationConflict_Header"	"Problemă cu aria de joc"
-"[english]ChaperoneCalibrationState_Error_BaseStationConflict_Header"	"Problem with play area"
-"ChaperoneCalibrationState_Error_BaseStationConflict_Description"	"Aria ta de joc trebuie configurată din nou pentru a continua."
-"[english]ChaperoneCalibrationState_Error_BaseStationConflict_Description"	"Your play area needs to be set up again to continue."
-"ChaperoneCalibrationState_Error_BaseStationConflict_Action"	"Pornește Pregătirea pentru Cameră"
-"[english]ChaperoneCalibrationState_Error_BaseStationConflict_Action"	"Run Room Setup"
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header"	"Aria de joc nu este setată"
-"[english]ChaperoneCalibrationState_Error_PlayAreaInvalid_Header"	"Play area not set up"
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description"	"Aria ta de joc trebuie configurată înainte de a continua."
-"[english]ChaperoneCalibrationState_Error_PlayAreaInvalid_Description"	"Your play area needs to be set up to continue."
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Action"	"Pornește Pregătirea pentru Cameră"
-"[english]ChaperoneCalibrationState_Error_PlayAreaInvalid_Action"	"Run Room Setup"
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header"	"Granițele de coliziune nu sunt configurate"
-"[english]ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header"	"Collision bounds not set up"
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description"	"Granițele tale de coliziune trebuie configurate pentru a continua."
-"[english]ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description"	"Your collision bounds need to be set to continue."
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action"	"Pornește Pregătirea pentru Cameră"
-"[english]ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action"	"Run Room Setup"
-"Lighthouse_UnknownEvent_Header"	"Eroare Lighthouse"
-"[english]Lighthouse_UnknownEvent_Header"	"Lighthouse error"
-"Lighthouse_UnknownEvent_Description"	"Ceva este în neregulă cu sistemul tău Lighthouse. Te rugăm trimiți raport de sistem către steamvr@valvesoftware.com"
-"[english]Lighthouse_UnknownEvent_Description"	"Something is wrong with your Lighthouse system. Please check SteamVR Support for help."
-"Lighthouse_UnknownEvent_Action"	"Creează raportul de sistem"
-"[english]Lighthouse_UnknownEvent_Action"	"Check SteamVR Support"
-"Lighthouse_BasestationFactoryError_Header"	"Stația de bază este inutilizabilă"
-"[english]Lighthouse_BasestationFactoryError_Header"	"Base station unusable"
-"Lighthouse_BasestationFactoryError_Description"	"Această stație de bază are o eroare de fabricație, te rugăm să contactezi HTC pentru o înlocuire a stației de bază."
-"[english]Lighthouse_BasestationFactoryError_Description"	"This base station has a manufacturing error, please contact HTC for a replacement base station."
-"Lighthouse_BasestationFactoryError_Action"	"Vizitează htcvive.com/support"
-"[english]Lighthouse_BasestationFactoryError_Action"	"Visit htcvive.com/support"
-"Lighthouse_Disambiguator_TooManyBasestations_Header"	"Prea multe stații de bază"
-"[english]Lighthouse_Disambiguator_TooManyBasestations_Header"	"Too many base stations"
-"Lighthouse_Disambiguator_TooManyBasestations_Description"	"Te rugăm să te asiguri că doar două stații de bază sunt vizibile headsetului și controllerelor tale."
-"[english]Lighthouse_Disambiguator_TooManyBasestations_Description"	"Please make sure only two base stations are visible to your headset and controllers."
-"Lighthouse_Disambiguator_TooManyBasestations_Action"	"Verifică din nou"
-"[english]Lighthouse_Disambiguator_TooManyBasestations_Action"	"Check Again"
-"Lighthouse_Disambiguator_TdmConfigurationError_Header"	"Problemă la pregătirea stației de bază"
-"[english]Lighthouse_Disambiguator_TdmConfigurationError_Header"	"Base station setup problem"
-"Lighthouse_Disambiguator_TdmConfigurationError_Description"	"Stațiile tale de bază nu se sincronizează, te rugăm să verifici că sunt configurate corespunzător."
-"[english]Lighthouse_Disambiguator_TdmConfigurationError_Description"	"Your base stations are not syncing, please make sure they are set up properly."
+"Error_TrackingDevice_NoPose_Description"	"Acest dispozitiv nu este urm
+"Error_TrackingDevice_NoPose_Header"	"Dispozitivul nu este urm
+"Error_TrackingDevice_NotValid_Action"	"
+"Error_TrackingDevice_NotValid_Description"	"Nu putem g
+"Error_TrackingDevice_NotValid_Header"	"Dispozitivul nu este conectat"
+"Error_VRServerNotRunning_Action"	"Lanseaz
+"Error_VRServerNotRunning_Description"	"Ai nevoie de acesta pentru ca SteamVR s
+"Error_VRServerNotRunning_Header"	"Serverul VR nu ruleaz
+"Explanation_RemoveAllSteamVRUSBDevices"	"
+"Explanation_ResetDismissableWarnings"	"Avertiz
+"Language"	"romanian"
+"Lighthouse_BasestationFactoryError_Action"	"Viziteaz
+"Lighthouse_BasestationFactoryError_Description"	"Aceast
+"Lighthouse_BasestationFactoryError_Header"	"Sta
 "Lighthouse_Disambiguator_TdmConfigurationError_Action"	"Depanare"
-"[english]Lighthouse_Disambiguator_TdmConfigurationError_Action"	"Troubleshooting"
-"Popover_Off_Invalid_Header"	"Dispozitivul nevalid nu e conectat"
-"[english]Popover_Off_Invalid_Header"	"Invalid Device not connected"
-"Popover_Off_HMD_Header"	"Headsetul nu este conectat"
-"[english]Popover_Off_HMD_Header"	"Headset not connected"
-"Popover_Off_HMD_Description"	"Asigură-te că este alimentat și conectat corespunzător."
-"[english]Popover_Off_HMD_Description"	"Make sure it is powered and connected properly."
-"Popover_Off_HMD_Action"	"Depanare"
-"[english]Popover_Off_HMD_Action"	"Troubleshooting"
-"Popover_Off_Controller_Header"	"Controllerul nu este conectat"
-"[english]Popover_Off_Controller_Header"	"Controller not connected"
-"Popover_Off_Controller_Description"	"Asigură-te că este alimentat și în apropiere."
-"[english]Popover_Off_Controller_Description"	"Make sure it is powered on and nearby."
-"Popover_Off_Controller_Action"	"Depanare"
-"[english]Popover_Off_Controller_Action"	"Troubleshooting"
-"Popover_Off_Base_Header"	"Stația de bază nu a fost detectată"
-"[english]Popover_Off_Base_Header"	"Base station not detected"
-"Popover_Off_Base_Description"	"Asigură-te că este alimentată și conectată."
-"[english]Popover_Off_Base_Description"	"Make sure it is powered and connected."
-"Popover_Off_Base_Action"	"Depanare"
-"[english]Popover_Off_Base_Action"	"Troubleshooting"
-"Popover_Off_Other_Header"	"Altul nu este conectat"
-"[english]Popover_Off_Other_Header"	"Other not connected"
-"Popover_NotReady_Invalid_Header"	"Dispozitivul nu este pregătit"
-"[english]Popover_NotReady_Invalid_Header"	"Device is not ready"
-"Popover_NotReady_Invalid_Action"	"Depanare"
-"[english]Popover_NotReady_Invalid_Action"	"Troubleshooting"
-"Popover_NotReady_HMD_Header"	"Headsetul nu este pregătit"
-"[english]Popover_NotReady_HMD_Header"	"Headset is not ready"
-"Popover_NotReady_Controller_Header"	"Controllerul nu este pregătit"
-"[english]Popover_NotReady_Controller_Header"	"Controller is not ready"
-"Popover_NotReady_Controller_Description"	"Asigură-te că este alimentat și în apropiere."
-"[english]Popover_NotReady_Controller_Description"	"Make sure it is powered on and nearby."
-"Popover_NotReady_Base_Header"	"Stația de bază nu este pregătită"
-"[english]Popover_NotReady_Base_Header"	"Base station is not ready"
-"Popover_NotReady_Other_Header"	"Altul nu este pregătit"
-"[english]Popover_NotReady_Other_Header"	"Other not ready"
-"Popover_Pose_Invalid_Header"	"Dispozitiv nevalid pregătit"
-"[english]Popover_Pose_Invalid_Header"	"Invalid Device Ready"
-"Popover_Pose_HMD_Header"	"Headset pregătit"
-"[english]Popover_Pose_HMD_Header"	"Headset ready"
-"Popover_Pose_HMD_Description"	"Acest headset este conectat și urmărit."
-"[english]Popover_Pose_HMD_Description"	"This headset is connected and tracking."
-"Popover_Pose_Controller_Header"	"Controller pregătit"
-"[english]Popover_Pose_Controller_Header"	"Controller ready"
-"Popover_Pose_Controller_Description"	"Acest controller este conectat și urmărit."
-"[english]Popover_Pose_Controller_Description"	"This controller is connected and tracking."
-"Popover_Pose_Controller_Action"	"Identifică controller"
-"[english]Popover_Pose_Controller_Action"	"Identify controller"
-"Popover_Pose_Base_Header"	"Stație de bază pregătită"
-"[english]Popover_Pose_Base_Header"	"Base station ready"
-"Popover_Pose_Base_Description"	"Această stație de bază este alimentată și urmărită."
-"[english]Popover_Pose_Base_Description"	"This base station is powered and tracking."
-"Popover_Pose_Other_Header"	"Altul pregătit"
-"[english]Popover_Pose_Other_Header"	"Other ready"
-"Popover_Pose_Other_Description"	"Dispozitivul este conectat și urmărit."
-"[english]Popover_Pose_Other_Description"	"This device is connected and tracking."
-"Popover_NoPose_Invalid_Header"	"Dispozitivul nevalid nu este urmărit"
-"[english]Popover_NoPose_Invalid_Header"	"Invalid device not tracking"
-"Popover_NoPose_HMD_Header"	"Headsetul nu este urmărit"
-"[english]Popover_NoPose_HMD_Header"	"Headset not tracking"
-"Popover_NoPose_HMD_Description"	"Acest headset este conectat, dar nu este urmărit. Asigură-te că vede o stație de bază."
-"[english]Popover_NoPose_HMD_Description"	"This headset is connected but not tracking. Make sure it can see a base station. "
-"Popover_NoPose_Controller_Header"	"Controllerul nu este urmărit"
-"[english]Popover_NoPose_Controller_Header"	"Controller not tracking"
-"Popover_NoPose_Controller_Description"	"Acest controller este conectat dar nu este urmărit. Asigură-te că vede o stație de bază."
-"[english]Popover_NoPose_Controller_Description"	"This controller is connected but not tracking. Make sure it can see a base station. "
-"Popover_NoPose_Controller_Action"	"Identifică controller"
-"[english]Popover_NoPose_Controller_Action"	"Identify controller"
-"Popover_NoPose_Base_Header"	"Stația de bază nu este urmărită"
-"[english]Popover_NoPose_Base_Header"	"Base station not tracking"
-"Popover_NoPose_Base_Description"	"Această stație de bază este alimentată, dar nu este urmărită. Asigură-te că este vizibilă de la headset sau un controller."
-"[english]Popover_NoPose_Base_Description"	"This base station is powered but not tracking. Make sure it is visible from your headset or a controller."
-"Popover_NoPose_Other_Header"	"Altul nu este urmărit"
-"[english]Popover_NoPose_Other_Header"	"Other not tracking"
-"Popover_NoPose_Other_Description"	"Acest dispozitiv este conectat, dar nu este urmărit."
-"[english]Popover_NoPose_Other_Description"	"This device is connected but not tracking."
-"Popover_NoSteamWarning_Header"	"Steam nu este detectat"
-"[english]Popover_NoSteamWarning_Header"	"Steam not detected"
-"Popover_NoSteamWarning_Description"	"Asigură-te că Steam este instalat și rulează."
-"[english]Popover_NoSteamWarning_Description"	"Make sure Steam is installed and running."
-"Popover_NoSteamWarning_Action"	"Pornește Steam"
-"[english]Popover_NoSteamWarning_Action"	"Start Steam"
-"Popover_FirmwareUpdateNeededWarning_Header"	"Firmware-ul nu este actualizat"
-"[english]Popover_FirmwareUpdateNeededWarning_Header"	"Firmware out of date"
-"Popover_FirmwareUpdateNeededWarning_Description"	"Firmware-ul tău nu este actualizat, te rugăm să îl actualizezi pentru a asigura funcționarea corespunzătoare a dispozitivului."
-"[english]Popover_FirmwareUpdateNeededWarning_Description"	"Your firmware is out of date, please update it to ensure your device works correctly."
-"Popover_FirmwareUpdateNeededWarning_Action"	"Depanare"
-"[english]Popover_FirmwareUpdateNeededWarning_Action"	"Troubleshooting"
-"Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate"	"Actualizare disponibilă"
-"[english]Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate"	"Update available"
-"Popover_ConnectionRefusedBySteam_Header"	"Nu s-a putut realiza conexiunea la Steam"
-"[english]Popover_ConnectionRefusedBySteam_Header"	"Can not connect to Steam"
-"Popover_ConnectionRefusedBySteam_Description"	"A apărut o problemă la conexiunea cu Steam. Repornește clientul Steam pentru remediere."
-"[english]Popover_ConnectionRefusedBySteam_Description"	"There is a problem in the connection to Steam. Restart the Steam Client to fix."
-"Popover_DirectModeDriverUpdate_Header"	"Actualizează driverele grafice"
-"[english]Popover_DirectModeDriverUpdate_Header"	"Update graphics drivers"
-"Popover_DirectModeDriverUpdate_Description"	"Pentru a activa modul de afișare directă, te rugăm să îți actualizezi driverele video. Este instalată versiunea %1, dar modul direct necesită versiunea %2"
-"[english]Popover_DirectModeDriverUpdate_Description"	"To enable direct display mode, please update your video drivers. Version %1 is installed, but direct mode requires version %2"
-"Popover_DirectModeDriverUpdate_Action"	"Descarcă drivere"
-"[english]Popover_DirectModeDriverUpdate_Action"	"Download Drivers"
-"VRInitError_Init_InterfaceNotFound_ActionURL"	" "
-"[english]VRInitError_Init_InterfaceNotFound_ActionURL"	""
-"Warning_DismissableWarning_RunTutorialAgain_Header"	"Pregătirea pentru Cameră și Tutorial"
-"[english]Warning_DismissableWarning_RunTutorialAgain_Header"	"Room Setup and Tutorial"
-"Warning_DismissableWarning_RunTutorialAgain_Description"	"Poți porni Pregătirea pentru Cameră sau Tutorialul, din nou, oricând, din meniul SteamVR de mai jos."
-"[english]Warning_DismissableWarning_RunTutorialAgain_Description"	"You can run Room Setup or the Tutorial again anytime from the SteamVR menu below."
-"Warning_DismissableWarning_RunTutorialAgain_Action"	"Rulează tutorial"
-"[english]Warning_DismissableWarning_RunTutorialAgain_Action"	"Run Tutorial"
-"Warning_DismissableWarning_BasestationsTooFarApart_Header"	"Stațiile de bază sunt prea îndepărtate"
-"[english]Warning_DismissableWarning_BasestationsTooFarApart_Header"	"Base stations are too far apart"
-"Warning_DismissableWarning_BasestationsTooFarApart_Description"	"Pentru experiență optimă, stațiile tale de bază nu ar trebui să fie mai departe de 5,5m unele de altele."
-"[english]Warning_DismissableWarning_BasestationsTooFarApart_Description"	"For the best experience, your base stations should not be more than 5.5 meters apart."
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Header"	"Stațiile de bază au pierdut sincronizarea optică"
-"[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Header"	"Base stations lost optical sync"
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description"	"Se poate ca ceva să blocheze linia de vedere dintre cele două stații. Dacă această avertizare persistă între ședințe, ar fi bine să iei în considerare trecerea pe sincronizare prin cablu."
-"[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Description"	"There may be something blocking line of sight between the two base stations. If this warning persists between sessions you might consider switching to cabled sync."
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header"	"Doar o stație de bază a fost detectată"
-"[english]Warning_DismissableWarning_BasestationSingleBaseModeHint_Header"	"Only one base station detected"
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description"	"Dacă folosești doar o stație de bază, calitatea urmăririi se va îmbunătăți dacă schimbi modul de la această stație de bază pe A."
-"[english]Warning_DismissableWarning_BasestationSingleBaseModeHint_Description"	"If you are only using one base station, tracking quality will improve if you switch this basestation to mode A."
-"VRInitError_Init_NotAvailableToUtilityApps_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Init_NotAvailableToUtilityApps_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Init_NotAvailableToUtilityApps_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport către steamvr@valvesoftware.com."
-"[english]VRInitError_Init_NotAvailableToUtilityApps_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Init_NotAvailableToUtilityApps_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Init_NotAvailableToUtilityApps_Action"	"Check SteamVR Support"
-"Warning_DismissableWarning_WarningsForTheFirstTime_Header"	"Avertizări pentru prima dată"
-"[english]Warning_DismissableWarning_WarningsForTheFirstTime_Header"	"Warnings for the first time"
-"Warning_DismissableWarning_MissedFrames_Header"	"Aplicația rulează prea încet"
-"[english]Warning_DismissableWarning_MissedFrames_Header"	"Application running too slowly"
-"Explanation_RemoveAllSteamVRUSBDevices"	"Înlătură toate dispozitivele USB legate de SteamVR din sistem pentru a le instala driverele din nou."
-"[english]Explanation_RemoveAllSteamVRUSBDevices"	"Remove all USB devices related to SteamVR from this system to reinstall their drivers."
-"Explanation_ResetDismissableWarnings"	"Avertizările temporare vor fi resetate și vor apărea din nou în funcție de necesitate."
-"[english]Explanation_ResetDismissableWarnings"	"Temporary warnings are reset and will show again as needed."
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action"	"Mai multe informații"
-"[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Action"	"More info"
-"Warning_DismissableWarning_MissedFrames_Description"	"Aplicația VR curentă rulează prea încet, ceea ce îți poate oferi o experiență neplăcută. Aceasta poate avea ca motiv faptul că aplicația necesită prea multe resurse sau computerul tău este prea lent."
-"[english]Warning_DismissableWarning_MissedFrames_Description"	"The current VR application runs too slowly, which can give you a bad experience. This may be because the application is too demanding, or your computer is too slow."
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header"	"Driver Bluetooth"
-"[english]Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header"	"Bluetooth Driver"
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description"	"Un driver trebuie instalat pentru a finaliza instalarea Link Boxului. SteamVR trebuie pornit din nou după instalarea cu succes."
-"[english]Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description"	"A driver needs to be installed to complete Link Box installation. SteamVR needs to be restarted after successful installation."
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action"	"Instalează"
-"[english]Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action"	"Install"
-"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Header"	"Instalarea driverului bluetooth a eșuat"
-"[english]Warning_DismissableWarning_BluetoothDriverFailedInstallation_Header"	"Bluetooth Driver installation failed"
-"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Description"	"Un driver trebuie instalat pentru a finaliza instalarea Link Boxului. Repornește SteamVR și încearcă din nou."
-"[english]Warning_DismissableWarning_BluetoothDriverFailedInstallation_Description"	"A driver needs to be installed to complete Link Box installation. Restart SteamVR and try again."
-"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Action"	"Încearcă din nou"
-"[english]Warning_DismissableWarning_BluetoothDriverFailedInstallation_Action"	"Retry"
-"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Header"	"Link Bluetooth"
-"[english]Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Header"	"Bluetooth Link"
-"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Description"	"Bluetooth Link trebuie instalat pentru a activa comunicarea Link Box."
-"[english]Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Description"	"Bluetooth Link needs to be installed to enable Link Box communication."
-"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Action"	"Instalează"
-"[english]Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Action"	"Install"
-"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Header"	"Instalarea Bluetooth Linkului a eșuat"
-"[english]Warning_DismissableWarning_BluetoothLinkFailedInstallation_Header"	"Bluetooth Link installation failed"
-"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Description"	"Bluetooth Link trebuie instalat pentru a activa comunicarea Link Box. Repornește SteamVR și încearcă din nou."
-"[english]Warning_DismissableWarning_BluetoothLinkFailedInstallation_Description"	"Bluetooth Link needs to be installed to enable Link Box communication. Restart SteamVR and try again."
-"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Action"	"Încearcă din nou"
-"[english]Warning_DismissableWarning_BluetoothLinkFailedInstallation_Action"	"Retry"
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header"	"Problemă la setarea stației de bază"
-"[english]Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header"	"Base station setup problem"
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description"	"Bazele sunt în modurile \"A\" și \"c\". Schimbă baza \"A\" în modul \"b\" pentru sincronizare optică."
-"[english]Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description"	"Your bases are in modes 'A' and 'c'.  Switch 'A' base to mode 'b' for optical sync."
+"Lighthouse_Disambiguator_TdmConfigurationError_Description"	"Sta
+"Lighthouse_Disambiguator_TdmConfigurationError_Header"	"Problem
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action"	"Depanare"
-"[english]Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action"	"Troubleshooting"
-"Popover_LowBattery_Controller_Header"	"Controllerul pregătit este cu baterie aproape descărcată"
-"[english]Popover_LowBattery_Controller_Header"	"Controller ready with low battery"
-"Popover_LowBattery_Controller_Description"	"Acest controller este conectat și urmărește, dar bateria este aproape descărcată."
-"[english]Popover_LowBattery_Controller_Description"	"This controller is connected and tracking but the battery is low."
-"Popover_LowBattery_Controller_Action"	"Identifică controller"
-"[english]Popover_LowBattery_Controller_Action"	"Identify controller"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header"	"Comunicarea Bluetooth Link a eșuat"
-"[english]Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header"	"Bluetooth Link communication failed"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description"	"S-ar putea ca Bluetooth Link să necesite o repornire pentru a activa comunicarea. Repornește SteamVR dacă aceasta eșuează."
-"[english]Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description"	"Bluetooth Link might need to restart to enable Link Box communication. Restart SteamVR if this fails."
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action"	"Repornește"
-"[english]Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action"	"Restart"
-"Popover_Pose_Base_Action"	"Identifică stația de bază"
-"[english]Popover_Pose_Base_Action"	"Identify base station"
-"Popover_BaseStationsTooFarApart_Header"	"Stațiile de bază sunt prea îndepărtate"
-"[english]Popover_BaseStationsTooFarApart_Header"	"Base Stations too far apart"
-"Popover_BaseStationsTooFarApart_Description"	"Distanța dintre stațiile de bază este de %1 metrii, distanța recomandată este de sub 5,5 metrii."
-"[english]Popover_BaseStationsTooFarApart_Description"	"The distance between the base stations is %1 meters, the recommended distance is less than 5.5 meters."
-"Popover_SeeOnlyOneBase_Header"	"Doar o stație de bază este vizibilă"
-"[english]Popover_SeeOnlyOneBase_Header"	"Only one Base Station visible"
-"Popover_SeeOnlyOneBase_Description"	"Dacă rulezi SteamVR în mod intenționat cu o singură stație de bază, schimbarea modului stației în \"A\" va avea rezultate mai bune la urmărire."
-"[english]Popover_SeeOnlyOneBase_Description"	"If you are running SteamVR with only one base station on purpose, switching this base to mode A will have better tracking results."
-"Settings_PowerOffControllers_Text"	"Închide controllerele când se iese din SteamVR"
-"[english]Settings_PowerOffControllers_Text"	"Turn off Controllers when SteamVR exits"
-"Settings_PowerOffBaseStations_Text"	"Pune stația de bază în mod de așteptare când VR nu este utilizat"
-"[english]Settings_PowerOffBaseStations_Text"	"Put Base Station in Standby mode when VR is not in use"
-"WorkshopUpload_Error_SteamClientNotFound"	"Nu s-a putut porni \"Unealta SteamVR pentru încărcare în atelier\", deoarece clientul Steam nu rulează."
-"[english]WorkshopUpload_Error_SteamClientNotFound"	"Cannot start the SteamVR Workshop Upload Tool because the Steam Client is not running."
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description"	"Bazele sunt 
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header"	"Problem
+"Lighthouse_Disambiguator_TooManyBasestations_Action"	"Verific
+"Lighthouse_Disambiguator_TooManyBasestations_Description"	"Te rug
+"Lighthouse_Disambiguator_TooManyBasestations_Header"	"Prea multe sta
+"Lighthouse_UnknownEvent_Action"	"Creeaz
+"Lighthouse_UnknownEvent_Description"	"Ceva este 
+"Lighthouse_UnknownEvent_Header"	"Eroare Lighthouse"
+"Popover_BaseStationNoPowerManagement_Description"	"Aceast
 "Popover_BaseStationNoPowerManagement_Header"	"Nicio administrare a energiei"
-"[english]Popover_BaseStationNoPowerManagement_Header"	"No power management"
-"Popover_BaseStationNoPowerManagement_Description"	"Această stație de bază nu poate participa la administrarea energiei."
-"[english]Popover_BaseStationNoPowerManagement_Description"	"This base station can not participate in the power management."
-"VRInitError_Internal_Header"	"Hmm, asta nu trebuia să se întâmple."
-"[english]VRInitError_Internal_Header"	"Hmm, that shouldn't have happened."
-"VRInitError_Internal_Description"	"A apărut o problemă neașteptată. Te rugăm să trimiți un raport către steamvr@valvesoftware.com."
-"[english]VRInitError_Internal_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
-"VRInitError_Internal_Action"	"Creează raportul de sistem"
-"[english]VRInitError_Internal_Action"	"Check SteamVR Support"
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Header"	"Oglindirea afișajelor"
-"[english]Warning_DismissableWarning_SomeDisplaysAreMirroring_Header"	"Mirroring Displays"
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Description"	"Unele afișaje se pare că sunt setate să oglindească conținutul. Aceasta ar putea afecta performanțele grafice sau face afișajul headsetului inutilizabil."
-"[english]Warning_DismissableWarning_SomeDisplaysAreMirroring_Description"	"Some displays seemed to be set to mirror its content. This might impact your graphics performance, or renders the headset display unusable."
-"Warning_DismissableWarning_UnknownHardwareDetected_Header"	"A fost detectat hardware necunoscut"
-"[english]Warning_DismissableWarning_UnknownHardwareDetected_Header"	"Unknown Hardware Detected"
-"Warning_DismissableWarning_UnknownHardwareDetected_Description"	"Manifestul de la firmware nu are înregistrări pentru o parte din hardware-ul detectat."
-"[english]Warning_DismissableWarning_UnknownHardwareDetected_Description"	"The firmware manifest has no entries for some of the detected hardware."
-"Warning_DismissableWarning_WindowsAeroDisabled_Header"	"Windows Aero a fost dezactivat"
-"[english]Warning_DismissableWarning_WindowsAeroDisabled_Header"	"Windows Aero disabled"
-"Warning_DismissableWarning_WindowsAeroDisabled_Description"	"Pentru performanțe optime când rulezi VR, te rugăm să schimbi pe o temă Aero prin clic-dreapta pe desktop și selectarea \"Personalizează\" din listă."
-"[english]Warning_DismissableWarning_WindowsAeroDisabled_Description"	"For best performance when running VR, please switch to an Aero Theme by right-clicking on desktop and selecting Personalize in the drop-down."
-"Popover_Standby_Invalid_Header"	"Dispozitivul nevalid este în așteptare"
-"[english]Popover_Standby_Invalid_Header"	"Invalid device is in standby"
-"Popover_Standby_HMD_Header"	"Headsetul este în așteptare"
-"[english]Popover_Standby_HMD_Header"	"Headset is in standby"
-"Popover_Standby_HMD_Description"	"Acest headset este în mod de așteptare. Mișcă-l pentru a-l trezi."
-"[english]Popover_Standby_HMD_Description"	"This headset is in standby mode. Move it to wake it up."
-"Popover_Standby_Controller_Header"	"Controllerul este în așteptare"
-"[english]Popover_Standby_Controller_Header"	"Controller is in standby"
-"Popover_Standby_Controller_Description"	"Acest controller este în mod de așteptare. Mișcă-l pentru a-l trezi."
-"[english]Popover_Standby_Controller_Description"	"This controller is in standby mode. Move it to wake it up."
-"Popover_Standby_Base_Header"	"Stația de bază este în așteptare"
-"[english]Popover_Standby_Base_Header"	"Base station is in standby"
-"Popover_Standby_Base_Description"	"Această stație de bază este în mod de așteptare."
-"[english]Popover_Standby_Base_Description"	"This base station is in standby mode."
-"Popover_Standby_Other_Header"	"Dispozitivul este în mod de așteptare"
-"[english]Popover_Standby_Other_Header"	"Device is in standby"
-"Popover_Standby_Other_Description"	"Acest dispozitiv este în mod de așteptare."
-"[english]Popover_Standby_Other_Description"	"This device is in standby."
-"VRInitError_Init_HmdNotFound_FirstAction"	"Repornește headsetul"
-"[english]VRInitError_Init_HmdNotFound_FirstAction"	"Reboot Headset"
-"VRInitError_Driver_HmdDisplayNotFound_FirstAction"	"Repornește headsetul"
-"[english]VRInitError_Driver_HmdDisplayNotFound_FirstAction"	"Reboot Headset"
-"VRInitError_IPC_ServerInitFailed_FirstAction"	"Repornește headsetul"
-"[english]VRInitError_IPC_ServerInitFailed_FirstAction"	"Reboot Headset"
-"Popover_Off_Controller_FirstAction"	"Asociază controllerul"
-"[english]Popover_Off_Controller_FirstAction"	"Pair Controller"
-"Warning_DismissableWarning_Windows8_Header"	"Windows 8 detectat"
-"[english]Warning_DismissableWarning_Windows8_Header"	"Windows 8 detected"
-"Warning_DismissableWarning_Windows8_Description"	"SteamVR nu este suportat de Windows 8. Te rugăm să actualizezi la Windows 8.1 sau Windows 10 pentru rezultatele cele mai bune."
-"[english]Warning_DismissableWarning_Windows8_Description"	"SteamVR is not supported on Windows 8. Please upgrade to Windows 8.1 or Windows 10 for the best results."
-"Warning_DismissableWarning_DisplayInExtendedMode_Header"	"SteamVR este în mod extins"
-"[english]Warning_DismissableWarning_DisplayInExtendedMode_Header"	"SteamVR is in Extended Mode"
-"Warning_DismissableWarning_DisplayInExtendedMode_Description"	"Modul extins nu este recomandat. Pentru cele mai bune rezultate, te rugăm să schimbi în modul direct."
-"[english]Warning_DismissableWarning_DisplayInExtendedMode_Description"	"Extended Mode is not recommended. For the best results, please switch to Direct Mode."
-"Warning_DismissableWarning_DisplayInExtendedMode_Action"	"Activează modul direct"
-"[english]Warning_DismissableWarning_DisplayInExtendedMode_Action"	"Enable Direct Mode"
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header"	"Driver incompatibil"
-"[english]VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header"	"Driver Not Compatible"
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description"	"Driverul folosit de acest headset nu este compatibil cu această versiune de SteamVR."
-"[english]VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description"	"The driver used by this headset is not compatible with this version of SteamVR."
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action"	"Depanare"
-"[english]VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action"	"Troubleshooting"
-"VRInitError_Init_HmdDriverIdIsNone_Header"	"Headsetul nu este detectat"
-"[english]VRInitError_Init_HmdDriverIdIsNone_Header"	"Headset not detected"
-"VRInitError_Init_HmdDriverIdIsNone_Description"	"Asigură-te că headsetul este conectat corespunzător, apoi repornește-l printr-un clic mai jos."
-"[english]VRInitError_Init_HmdDriverIdIsNone_Description"	"Make sure your headset is connected properly, then reboot it by clicking below."
-"VRInitError_Init_HmdDriverIdIsNone_FirstAction"	"Repornește headsetul"
-"[english]VRInitError_Init_HmdDriverIdIsNone_FirstAction"	"Reboot Headset"
-"VRInitError_Init_HmdDriverIdIsNone_Action"	"Depanare"
-"[english]VRInitError_Init_HmdDriverIdIsNone_Action"	"Troubleshooting"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Header"	"Headsetul nu este detectat"
-"[english]VRInitError_Init_HmdNotFoundPresenceFailed_Header"	"Headset not detected"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Description"	"Asigură-te că headsetul tău este conectat corespunzător, apoi repornește-l printr-un clic mai jos."
-"[english]VRInitError_Init_HmdNotFoundPresenceFailed_Description"	"Make sure your headset is connected properly, then reboot it by clicking below."
-"VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction"	"Repornește headsetul"
-"[english]VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction"	"Reboot Headset"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Action"	"Depanare"
-"[english]VRInitError_Init_HmdNotFoundPresenceFailed_Action"	"Troubleshooting"
-"VRInitError_Driver_HmdDisplayNotFoundAfterFix_Header"	"Headsetul nu este conectat corespunzaător"
-"[english]VRInitError_Driver_HmdDisplayNotFoundAfterFix_Header"	"Headset not connected properly"
-"VRInitError_Driver_HmdDisplayNotFoundAfterFix_Description"	"Afișajul headsetului nu a fost găsit, te rugăm să te asiguri de conexiunea corespunzătoare a cablurilor HDMI, iar apoi repornește printr-un clic mai jos."
-"[english]VRInitError_Driver_HmdDisplayNotFoundAfterFix_Description"	"The headset's display was not found, please make sure your HDMI cables are securely connected, then reboot it by clicking below."
-"VRInitError_Driver_HmdDisplayNotFoundAfterFix_FirstAction"	"Repornește headset"
-"[english]VRInitError_Driver_HmdDisplayNotFoundAfterFix_FirstAction"	"Reboot Headset"
-"VRInitError_Driver_HmdDisplayNotFoundAfterFix_Action"	"Depanare"
-"[english]VRInitError_Driver_HmdDisplayNotFoundAfterFix_Action"	"Troubleshooting"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Header"	"Headsetul nu a fost detectat"
-"[english]VRInitError_Driver_HmdDriverIdOutOfBounds_Header"	"Headset not detected"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Description"	"Asigură-te că headsetul este conectat corespunzător, apoi repornește-l printr-un clic mai jos."
-"[english]VRInitError_Driver_HmdDriverIdOutOfBounds_Description"	"Make sure your headset is connected properly, then reboot it by clicking below."
-"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction"	"Repornește headsetul"
-"[english]VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction"	"Reboot Headset"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Action"	"Depanare"
-"[english]VRInitError_Driver_HmdDriverIdOutOfBounds_Action"	"Troubleshooting"
-"VRInitError_IPC_CompositorConnectFailed_Header"	"Conectarea a eșuat"
-"[english]VRInitError_IPC_CompositorConnectFailed_Header"	"Connect Failed"
-"VRInitError_IPC_CompositorConnectFailed_Description"	"O componentă esențială din SteamVR nu funcționează corespunzător."
-"[english]VRInitError_IPC_CompositorConnectFailed_Description"	"A key component of SteamVR isn't working properly."
-"VRInitError_IPC_CompositorConnectFailed_Action"	"Depanare"
-"[english]VRInitError_IPC_CompositorConnectFailed_Action"	"Troubleshooting"
-"VRInitError_IPC_CompositorInvalidConnectResponse_Header"	"Conectarea a eșuat"
-"[english]VRInitError_IPC_CompositorInvalidConnectResponse_Header"	"Connect Failed"
-"VRInitError_IPC_CompositorInvalidConnectResponse_Description"	"O componentă esențială din SteamVR nu funcționează corespunzător."
-"[english]VRInitError_IPC_CompositorInvalidConnectResponse_Description"	"A key component of SteamVR isn't working properly."
-"VRInitError_IPC_CompositorInvalidConnectResponse_Action"	"Depanare"
-"[english]VRInitError_IPC_CompositorInvalidConnectResponse_Action"	"Troubleshooting"
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header"	"Conectarea a eșuat"
-"[english]VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header"	"Connect Failed"
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description"	"O componentă esențială din SteamVR nu funcționează corespunzător."
-"[english]VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description"	"A key component of SteamVR isn't working properly."
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action"	"Depanare"
-"[english]VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action"	"Troubleshooting"
-"Warning_DismissableWarning_IssuesWithDongles_Header"	"Probleme cu dongles"
-"[english]Warning_DismissableWarning_IssuesWithDongles_Header"	"Issues with Dongles"
-"Warning_DismissableWarning_IssuesWithDongles_Description"	"Sunt probleme cu dongle-urile din headsetul tău Vive."
-"[english]Warning_DismissableWarning_IssuesWithDongles_Description"	"There are issues with the dongles in your Vive Headset."
-"Warning_DismissableWarning_IssuesWithDongles_Action"	"Mai multe informații"
-"[english]Warning_DismissableWarning_IssuesWithDongles_Action"	"More Information"
-"Warning_DismissableWarning_IssuesWithOneDongle_Header"	"Receptorul wireless nu a fost detectat"
-"[english]Warning_DismissableWarning_IssuesWithOneDongle_Header"	"Wireless Receiver Not Detected"
-"Warning_DismissableWarning_IssuesWithOneDongle_Description"	"Unul dintre receptorii wireless din headsetul tău Vive nu a fost detectat."
-"[english]Warning_DismissableWarning_IssuesWithOneDongle_Description"	"One of the wireless receivers in your Vive Headset was not detected."
-"Warning_DismissableWarning_IssuesWithOneDongle_Action"	"Depanare"
-"[english]Warning_DismissableWarning_IssuesWithOneDongle_Action"	"Troubleshooting"
-"Warning_DismissableWarning_IssuesWithTwoDongles_Header"	"Receptorii wireless nu au fost găsiți"
-"[english]Warning_DismissableWarning_IssuesWithTwoDongles_Header"	"Wireless Receivers Not Detected"
-"Warning_DismissableWarning_IssuesWithTwoDongles_Description"	"Receptorii wireless din headsetul tău Vive nu au fost detectați."
-"[english]Warning_DismissableWarning_IssuesWithTwoDongles_Description"	"The wireless receivers in your Vive Headset were not detected."
-"Warning_DismissableWarning_IssuesWithTwoDongles_Action"	"Depanare"
-"[english]Warning_DismissableWarning_IssuesWithTwoDongles_Action"	"Troubleshooting"
-"VRInitError_Driver_HmdDisplayMirrored_Header"	"Afișaj în oglindă la headset"
-"[english]VRInitError_Driver_HmdDisplayMirrored_Header"	"Headset display mirrored"
-"VRInitError_Driver_HmdDisplayMirrored_Description"	"Afișajul headsetului nu a fost găsit, dar un afișaj în oglindă a fost detectat. Te rugăm să setezi HMD la \"extins\", în loc de \"în oglindă\"."
-"[english]VRInitError_Driver_HmdDisplayMirrored_Description"	"The headset's display was not found, but a mirrored display was detected.  Please set the HMD to extended rather than mirrored."
-"VRInitError_Driver_HmdDisplayMirrored_FirstAction"	"Deschide proprietățile afișajului"
-"[english]VRInitError_Driver_HmdDisplayMirrored_FirstAction"	"Open Display Properties"
+"Popover_BaseStationsTooFarApart_Description"	"Distan
+"Popover_BaseStationsTooFarApart_Header"	"Sta
+"Popover_ConnectionRefusedBySteam_Description"	"A ap
+"Popover_ConnectionRefusedBySteam_Header"	"Nu s-a putut realiza conexiunea la Steam"
+"Popover_DirectModeDriverUpdate_Action"	"Descarc
+"Popover_DirectModeDriverUpdate_Description"	"Pentru a activa modul de afi
+"Popover_DirectModeDriverUpdate_Header"	"Actualizeaz
+"Popover_FirmwareUpdateNeededWarning_Action"	"Depanare"
+"Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate"	"Actualizare disponibil
+"Popover_FirmwareUpdateNeededWarning_Description"	"Firmware-ul t
+"Popover_FirmwareUpdateNeededWarning_Header"	"Firmware-ul nu este actualizat"
+"Popover_LowBattery_Controller_Action"	"Identific
+"Popover_LowBattery_Controller_Description"	"Acest controller este conectat 
+"Popover_LowBattery_Controller_Header"	"Controllerul preg
+"Popover_NoPose_Base_Description"	"Aceast
+"Popover_NoPose_Base_Header"	"Sta
+"Popover_NoPose_Controller_Action"	"Identific
+"Popover_NoPose_Controller_Description"	"Acest controller este conectat dar nu este urm
+"Popover_NoPose_Controller_Header"	"Controllerul nu este urm
+"Popover_NoPose_HMD_Description"	"Acest headset este conectat, dar nu este urm
+"Popover_NoPose_HMD_Header"	"Headsetul nu este urm
+"Popover_NoPose_Invalid_Header"	"Dispozitivul nevalid nu este urm
+"Popover_NoPose_Other_Description"	"Acest dispozitiv este conectat, dar nu este urm
+"Popover_NoPose_Other_Header"	"Altul nu este urm
+"Popover_NoSteamWarning_Action"	"Porne
+"Popover_NoSteamWarning_Description"	"Asigur
+"Popover_NoSteamWarning_Header"	"Steam nu este detectat"
+"Popover_NotReady_Base_Header"	"Sta
+"Popover_NotReady_Controller_Description"	"Asigur
+"Popover_NotReady_Controller_Header"	"Controllerul nu este preg
+"Popover_NotReady_HMD_Header"	"Headsetul nu este preg
+"Popover_NotReady_Invalid_Action"	"Depanare"
+"Popover_NotReady_Invalid_Header"	"Dispozitivul nu este preg
+"Popover_NotReady_Other_Header"	"Altul nu este preg
+"Popover_Off_Base_Action"	"Depanare"
+"Popover_Off_Base_Description"	"Asigur
+"Popover_Off_Base_Header"	"Sta
+"Popover_Off_Controller_Action"	"Depanare"
+"Popover_Off_Controller_Description"	"Asigur
+"Popover_Off_Controller_FirstAction"	"Asociaz
+"Popover_Off_Controller_Header"	"Controllerul nu este conectat"
+"Popover_Off_HMD_Action"	"Depanare"
+"Popover_Off_HMD_Description"	"Asigur
+"Popover_Off_HMD_Header"	"Headsetul nu este conectat"
+"Popover_Off_Invalid_Header"	"Dispozitivul nevalid nu e conectat"
+"Popover_Off_Other_Header"	"Altul nu este conectat"
+"Popover_Pose_Base_Action"	"Identific
+"Popover_Pose_Base_Description"	"Aceast
+"Popover_Pose_Base_Header"	"Sta
+"Popover_Pose_Controller_Action"	"Identific
+"Popover_Pose_Controller_Description"	"Acest controller este conectat 
+"Popover_Pose_Controller_Header"	"Controller preg
+"Popover_Pose_HMD_Description"	"Acest headset este conectat 
+"Popover_Pose_HMD_Header"	"Headset preg
+"Popover_Pose_Invalid_Header"	"Dispozitiv nevalid preg
+"Popover_Pose_Other_Description"	"Dispozitivul este conectat 
+"Popover_Pose_Other_Header"	"Altul preg
+"Popover_SeeOnlyOneBase_Description"	"Dac
+"Popover_SeeOnlyOneBase_Header"	"Doar o sta
+"Popover_Standby_Base_Description"	"Aceast
+"Popover_Standby_Base_Header"	"Sta
+"Popover_Standby_Controller_Description"	"Acest controller este 
+"Popover_Standby_Controller_Header"	"Controllerul este 
+"Popover_Standby_HMD_Description"	"Acest headset este 
+"Popover_Standby_HMD_Header"	"Headsetul este 
+"Popover_Standby_Invalid_Header"	"Dispozitivul nevalid este 
+"Popover_Standby_Other_Description"	"Acest dispozitiv este 
+"Popover_Standby_Other_Header"	"Dispozitivul este 
+"Settings_PowerOffBaseStations_Text"	"Pune sta
+"Settings_PowerOffControllers_Text"	"
+"Tokens"
+"VRInitError_Driver_CalibrationInvalid_Action"	"Depanare"
+"VRInitError_Driver_CalibrationInvalid_Description"	"Avem probleme la 
+"VRInitError_Driver_CalibrationInvalid_Header"	"Calibrarea driverului a e
+"VRInitError_Driver_Failed_Action"	"Depanare"
+"VRInitError_Driver_Failed_Description"	"A ap
+"VRInitError_Driver_Failed_Header"	"Ceva este 
 "VRInitError_Driver_HmdDisplayMirrored_Action"	"Depanare"
-"[english]VRInitError_Driver_HmdDisplayMirrored_Action"	"Troubleshooting"
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Action"	"Deschide proprietățile afișajului"
-"[english]Warning_DismissableWarning_SomeDisplaysAreMirroring_Action"	"Open Display Properties"
+"VRInitError_Driver_HmdDisplayMirrored_Description"	"Afi
+"VRInitError_Driver_HmdDisplayMirrored_FirstAction"	"Deschide propriet
+"VRInitError_Driver_HmdDisplayMirrored_Header"	"Afi
+"VRInitError_Driver_HmdDisplayNotFoundAfterFix_Action"	"Depanare"
+"VRInitError_Driver_HmdDisplayNotFoundAfterFix_Description"	"Afi
+"VRInitError_Driver_HmdDisplayNotFoundAfterFix_FirstAction"	"Reporne
+"VRInitError_Driver_HmdDisplayNotFoundAfterFix_Header"	"Headsetul nu este conectat corespunza
+"VRInitError_Driver_HmdDisplayNotFound_Action"	"Depanare"
+"VRInitError_Driver_HmdDisplayNotFound_Description"	"Afi
+"VRInitError_Driver_HmdDisplayNotFound_FirstAction"	"Reporne
+"VRInitError_Driver_HmdDisplayNotFound_Header"	"Headsetul nu este conectat corespunz
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Action"	"Depanare"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Description"	"Asigur
+"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction"	"Reporne
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Header"	"Headsetul nu a fost detectat"
+"VRInitError_Driver_HmdInUse_Action"	"
+"VRInitError_Driver_HmdInUse_Description"	"Headsetul este utilizat de alt
+"VRInitError_Driver_HmdInUse_Header"	"Headsetul este folosit"
+"VRInitError_Driver_HmdUnknown_Action"	"
+"VRInitError_Driver_HmdUnknown_Description"	"Acest headset nu este recunoscut. Te rug
+"VRInitError_Driver_HmdUnknown_Header"	"Headsetul nu este recunoscut"
+"VRInitError_Driver_NotCalibrated_Action"	"Depanare"
+"VRInitError_Driver_NotCalibrated_Description"	"Avem probleme la 
+"VRInitError_Driver_NotCalibrated_Header"	"Driverul nu este calibrat"
+"VRInitError_Driver_NotLoaded_Action"	"Depanare"
+"VRInitError_Driver_NotLoaded_Description"	"Un driver necesar pentru SteamVR nu se 
+"VRInitError_Driver_NotLoaded_Header"	"Fi
+"VRInitError_Driver_RuntimeOutOfDate_Action"	"Viziteaz
+"VRInitError_Driver_RuntimeOutOfDate_Description"	"Oculus runtime este 
+"VRInitError_Driver_RuntimeOutOfDate_Header"	"Oculus software nu este actualizat"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action"	"Depanare"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description"	"Driverul folosit de acest headset nu este compatibil cu aceast
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header"	"Driver incompatibil"
+"VRInitError_Driver_Unknown_Action"	"
+"VRInitError_Driver_Unknown_Description"	"Un driver configurat 
+"VRInitError_Driver_Unknown_Header"	"Ceva este 
+"VRInitError_IPC_CompositorConnectFailed_Action"	"Depanare"
+"VRInitError_IPC_CompositorConnectFailed_Description"	"O component
+"VRInitError_IPC_CompositorConnectFailed_Header"	"Conectarea a e
+"VRInitError_IPC_CompositorInitFailed_Action"	"Depanare"
+"VRInitError_IPC_CompositorInitFailed_Description"	"O component
+"VRInitError_IPC_CompositorInitFailed_Header"	"Ceva este 
+"VRInitError_IPC_CompositorInvalidConnectResponse_Action"	"Depanare"
+"VRInitError_IPC_CompositorInvalidConnectResponse_Description"	"O component
+"VRInitError_IPC_CompositorInvalidConnectResponse_Header"	"Conectarea a e
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action"	"Depanare"
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description"	"O component
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header"	"Conectarea a e
+"VRInitError_IPC_ConnectFailed_Action"	"Depanare"
+"VRInitError_IPC_ConnectFailed_Description"	"O component
+"VRInitError_IPC_ConnectFailed_Header"	"Conectarea a e
+"VRInitError_IPC_Failed_Action"	"Creeaz
+"VRInitError_IPC_Failed_Description"	"A ap
+"VRInitError_IPC_Failed_Header"	"Hmm, asta nu trebuia s
+"VRInitError_IPC_MutexInitFailed_Action"	"Depanare"
+"VRInitError_IPC_MutexInitFailed_Description"	"O component
+"VRInitError_IPC_MutexInitFailed_Header"	"Ceva este 
+"VRInitError_IPC_ServerInitFailed_Action"	"Depanare"
+"VRInitError_IPC_ServerInitFailed_Description"	"O component
+"VRInitError_IPC_ServerInitFailed_FirstAction"	"Reporne
+"VRInitError_IPC_ServerInitFailed_Header"	"Ceva este 
+"VRInitError_IPC_SharedStateInitFailed_Action"	"Depanare"
+"VRInitError_IPC_SharedStateInitFailed_Description"	"O component
+"VRInitError_IPC_SharedStateInitFailed_Header"	"Ini
+"VRInitError_Init_AnotherAppLaunching_Action"	"Creeaz
+"VRInitError_Init_AnotherAppLaunching_Description"	"A ap
+"VRInitError_Init_AnotherAppLaunching_Header"	"Hmm, asta nu trebuia s
+"VRInitError_Init_AppInfoInitFailed_Action"	"Creeaz
+"VRInitError_Init_AppInfoInitFailed_Description"	"O component
+"VRInitError_Init_AppInfoInitFailed_Header"	"Ceva este 
+"VRInitError_Init_FactoryNotFound_Action"	"Depanare"
+"VRInitError_Init_FactoryNotFound_Description"	"Un fi
+"VRInitError_Init_FactoryNotFound_Header"	"Fi
+"VRInitError_Init_FileNotFound_Action"	"Depanare"
+"VRInitError_Init_FileNotFound_Description"	"Un fi
+"VRInitError_Init_FileNotFound_Header"	"Fi
+"VRInitError_Init_HmdDriverIdIsNone_Action"	"Depanare"
+"VRInitError_Init_HmdDriverIdIsNone_Description"	"Asigur
+"VRInitError_Init_HmdDriverIdIsNone_FirstAction"	"Reporne
+"VRInitError_Init_HmdDriverIdIsNone_Header"	"Headsetul nu este detectat"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Action"	"Depanare"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Description"	"Asigur
+"VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction"	"Reporne
+"VRInitError_Init_HmdNotFoundPresenceFailed_Header"	"Headsetul nu este detectat"
+"VRInitError_Init_HmdNotFound_Action"	"Depanare"
+"VRInitError_Init_HmdNotFound_Description"	"Asigur
+"VRInitError_Init_HmdNotFound_FirstAction"	"Reporne
+"VRInitError_Init_HmdNotFound_Header"	"Headsetul nu a fost detectat"
+"VRInitError_Init_InitCanceledByUser_Action"	"Creeaz
+"VRInitError_Init_InitCanceledByUser_Description"	"A ap
+"VRInitError_Init_InitCanceledByUser_Header"	"Hmm, asta nu trebuia s
+"VRInitError_Init_InstallationCorrupt_Action"	"Depanare"
+"VRInitError_Init_InstallationCorrupt_Description"	"Unele fi
+"VRInitError_Init_InstallationCorrupt_Header"	"Fi
+"VRInitError_Init_InstallationNotFound_Action"	"
+"VRInitError_Init_InstallationNotFound_Description"	"Unele fi
+"VRInitError_Init_InstallationNotFound_Header"	"Fi
+"VRInitError_Init_InterfaceNotFound_Action"	"
+"VRInitError_Init_InterfaceNotFound_ActionURL"	"
+"VRInitError_Init_InterfaceNotFound_Description"	"Aceast
+"VRInitError_Init_InterfaceNotFound_Header"	"SteamVR nu este actualizat"
+"VRInitError_Init_InvalidInterface_Action"	"Creeaz
+"VRInitError_Init_InvalidInterface_Description"	"A ap
+"VRInitError_Init_InvalidInterface_Header"	"Hmm, asta nu trebuia s
+"VRInitError_Init_NoConfigPath_Action"	"Seteaz
+"VRInitError_Init_NoConfigPath_Description"	"Nu g
+"VRInitError_Init_NoConfigPath_Header"	"Adres
+"VRInitError_Init_NoLogPath_Action"	"Seteaz
+"VRInitError_Init_NoLogPath_Description"	"Nu g
+"VRInitError_Init_NoLogPath_Header"	"Adres
+"VRInitError_Init_NoServerForBackgroundApp_Action"	"Creeaz
+"VRInitError_Init_NoServerForBackgroundApp_Description"	"A ap
+"VRInitError_Init_NoServerForBackgroundApp_Header"	"Hmm, tasta nu trebuia s
+"VRInitError_Init_NotAvailableToUtilityApps_Action"	"Creeaz
+"VRInitError_Init_NotAvailableToUtilityApps_Description"	"A ap
+"VRInitError_Init_NotAvailableToUtilityApps_Header"	"Hmm, asta nu trebuia s
+"VRInitError_Init_NotInitialized_Action"	"Creeaz
+"VRInitError_Init_NotInitialized_Description"	"A ap
+"VRInitError_Init_NotInitialized_Header"	"Hmm, asta nu trebuia s
+"VRInitError_Init_NotSupportedWithCompositor_Action"	"Creeaz
+"VRInitError_Init_NotSupportedWithCompositor_Description"	"A ap
+"VRInitError_Init_NotSupportedWithCompositor_Header"	"Hmm, asta nu trebuia s
+"VRInitError_Init_PathRegistryNotFound_Action"	"
+"VRInitError_Init_PathRegistryNotFound_Description"	"Unele fi
+"VRInitError_Init_PathRegistryNotFound_Header"	"Fi
+"VRInitError_Init_PathRegistryNotWritable_Action"	"Depanare"
+"VRInitError_Init_PathRegistryNotWritable_Description"	"Registrul t
+"VRInitError_Init_PathRegistryNotWritable_Header"	"Ceva este 
+"VRInitError_Init_Retry_Action"	"Creeaz
+"VRInitError_Init_Retry_Description"	"A ap
+"VRInitError_Init_Retry_Header"	"Hmm, asta nu trebuia s
+"VRInitError_Init_SettingsInitFailed_Action"	"Creeaz
+"VRInitError_Init_SettingsInitFailed_Description"	"A ap
+"VRInitError_Init_SettingsInitFailed_Header"	"Hmm, asta nu trebuia s
+"VRInitError_Init_ShuttingDown_Action"	"Creeaz
+"VRInitError_Init_ShuttingDown_Description"	"A ap
+"VRInitError_Init_ShuttingDown_Header"	"Hmm, asta nu trebuia s
+"VRInitError_Init_TooManyObjects_Action"	"Creeaz
+"VRInitError_Init_TooManyObjects_Description"	"A ap
+"VRInitError_Init_TooManyObjects_Header"	"Hmm, asta nu trebuia s
+"VRInitError_Init_UserConfigDirectoryInvalid_Action"	"Seteaz
+"VRInitError_Init_UserConfigDirectoryInvalid_Description"	"Nu putem g
+"VRInitError_Init_UserConfigDirectoryInvalid_Header"	"Ceva este 
+"VRInitError_Init_VRClientDLLNotFound_Action"	"Depanare"
+"VRInitError_Init_VRClientDLLNotFound_Description"	"Un fi
+"VRInitError_Init_VRClientDLLNotFound_Header"	"Fi
+"VRInitError_Internal_Action"	"Creeaz
+"VRInitError_Internal_Description"	"A ap
+"VRInitError_Internal_Header"	"Hmm, asta nu trebuia s
+"VRInitError_Steam_SteamInstallationNotFound_Action"	"Instaleaz
+"VRInitError_Steam_SteamInstallationNotFound_Description"	"Steam trebuie s
+"VRInitError_Steam_SteamInstallationNotFound_Header"	"Steam nu este detectat"
+"VRInitError_Unknown_Action"	"Creeaz
+"VRInitError_Unknown_Description"	"A ap
+"VRInitError_Unknown_Header"	"Hmm, asta nu trebuia s
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action"	"Viziteaz
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description"	"Headsetul este detectat, dar a ap
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header"	"Ceva este 
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Action"	"Depanare"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Description"	"Headsetul t
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Header"	"Eroare USB"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action"	"Viziteaz
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description"	"SteamVR nu s-a putut conecta la Oculus runtime. Te rug
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header"	"Nu se poate realiza conexiunea c
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description"	"Dac
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header"	"Doar o sta
+"Warning_DismissableWarning_BasestationsTooFarApart_Description"	"Pentru experien
+"Warning_DismissableWarning_BasestationsTooFarApart_Header"	"Sta
+"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Action"	"
+"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Description"	"Un driver trebuie instalat pentru a finaliza instalarea Link Boxului. Reporne
+"Warning_DismissableWarning_BluetoothDriverFailedInstallation_Header"	"Instalarea driverului bluetooth a e
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action"	"Instaleaz
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description"	"Un driver trebuie instalat pentru a finaliza instalarea Link Boxului. SteamVR trebuie pornit din nou dup
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header"	"Driver Bluetooth"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action"	"Reporne
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description"	"S-ar putea ca Bluetooth Link s
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header"	"Comunicarea Bluetooth Link a e
+"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Action"	"
+"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Description"	"Bluetooth Link trebuie instalat pentru a activa comunicarea Link Box. Reporne
+"Warning_DismissableWarning_BluetoothLinkFailedInstallation_Header"	"Instalarea Bluetooth Linkului a e
+"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Action"	"Instaleaz
+"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Description"	"Bluetooth Link trebuie instalat pentru a activa comunicarea Link Box."
+"Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Header"	"Link Bluetooth"
+"Warning_DismissableWarning_DisplayInExtendedMode_Action"	"Activeaz
+"Warning_DismissableWarning_DisplayInExtendedMode_Description"	"Modul extins nu este recomandat. Pentru cele mai bune rezultate, te rug
+"Warning_DismissableWarning_DisplayInExtendedMode_Header"	"SteamVR este 
+"Warning_DismissableWarning_IssuesWithDongles_Action"	"Mai multe informa
+"Warning_DismissableWarning_IssuesWithDongles_Description"	"Sunt probleme cu dongle-urile din headsetul t
+"Warning_DismissableWarning_IssuesWithDongles_Header"	"Probleme cu dongles"
+"Warning_DismissableWarning_IssuesWithOneDongle_Action"	"Depanare"
+"Warning_DismissableWarning_IssuesWithOneDongle_Description"	"Unul dintre receptorii wireless din headsetul t
+"Warning_DismissableWarning_IssuesWithOneDongle_Header"	"Receptorul wireless nu a fost detectat"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Action"	"Depanare"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Description"	"Receptorii wireless din headsetul t
+"Warning_DismissableWarning_IssuesWithTwoDongles_Header"	"Receptorii wireless nu au fost g
+"Warning_DismissableWarning_MissedFrames_Description"	"Aplica
+"Warning_DismissableWarning_MissedFrames_Header"	"Aplica
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action"	"Mai multe informa
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description"	"Se poate ca ceva s
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Header"	"Sta
+"Warning_DismissableWarning_RunTutorialAgain_Action"	"Ruleaz
+"Warning_DismissableWarning_RunTutorialAgain_Description"	"Po
+"Warning_DismissableWarning_RunTutorialAgain_Header"	"Preg
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Action"	"Deschide propriet
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Description"	"Unele afi
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Header"	"Oglindirea afi
+"Warning_DismissableWarning_UnknownHardwareDetected_Description"	"Manifestul de la firmware nu are 
+"Warning_DismissableWarning_UnknownHardwareDetected_Header"	"A fost detectat hardware necunoscut"
+"Warning_DismissableWarning_WarningsForTheFirstTime_Header"	"Avertiz
+"Warning_DismissableWarning_Windows8_Description"	"SteamVR nu este suportat de Windows 8. Te rug
+"Warning_DismissableWarning_Windows8_Header"	"Windows 8 detectat"
 "Warning_DismissableWarning_WindowsAeroDisabled_Action"	"Deschide personalizarea"
+"Warning_DismissableWarning_WindowsAeroDisabled_Description"	"Pentru performan
+"Warning_DismissableWarning_WindowsAeroDisabled_Header"	"Windows Aero a fost dezactivat"
+"WorkshopUpload_Error_SteamClientNotFound"	"Nu s-a putut porni \"Unealta SteamVR pentru 
+"[english]ChaperoneCalibrationState_Error_Action"	"Run Room Setup"
+"[english]ChaperoneCalibrationState_Error_BaseStationConflict_Action"	"Run Room Setup"
+"[english]ChaperoneCalibrationState_Error_BaseStationConflict_Description"	"Your play area needs to be set up again to continue."
+"[english]ChaperoneCalibrationState_Error_BaseStationConflict_Header"	"Problem with play area"
+"[english]ChaperoneCalibrationState_Error_BaseStationUninitialized_Action"	"Run Room Setup"
+"[english]ChaperoneCalibrationState_Error_BaseStationUninitialized_Description"	"Please run Room Setup to begin using SteamVR."
+"[english]ChaperoneCalibrationState_Error_BaseStationUninitialized_Header"	"Room is not set up"
+"[english]ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action"	"Run Room Setup"
+"[english]ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description"	"Your collision bounds need to be set to continue."
+"[english]ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header"	"Collision bounds not set up"
+"[english]ChaperoneCalibrationState_Error_Description"	"Please run Room Setup again."
+"[english]ChaperoneCalibrationState_Error_Header"	"Room Setup is invalid"
+"[english]ChaperoneCalibrationState_Error_PlayAreaInvalid_Action"	"Run Room Setup"
+"[english]ChaperoneCalibrationState_Error_PlayAreaInvalid_Description"	"Your play area needs to be set up to continue."
+"[english]ChaperoneCalibrationState_Error_PlayAreaInvalid_Header"	"Play area not set up"
+"[english]ChaperoneCalibrationState_Warning_Action"	"Run Room Setup"
+"[english]ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action"	"Run Room Setup"
+"[english]ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description"	"It looks like a base station might have moved, please run Room Setup."
+"[english]ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header"	"Base station moved"
+"[english]ChaperoneCalibrationState_Warning_BaseStationRemoved_Action"	"Run Room Setup"
+"[english]ChaperoneCalibrationState_Warning_BaseStationRemoved_Description"	"We lost track of one of the base stations, please run Room Setup."
+"[english]ChaperoneCalibrationState_Warning_BaseStationRemoved_Header"	"Base station removed"
+"[english]ChaperoneCalibrationState_Warning_Description"	"Please run Room Setup again."
+"[english]ChaperoneCalibrationState_Warning_Header"	"Room Setup is invalid"
+"[english]ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action"	"Run Room Setup"
+"[english]ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description"	"Seated position hasn't been set up yet."
+"[english]ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header"	"No seated position"
+"[english]Error_CompositorNotFullscreen_Action"	"Make Compositor fullscreen"
+"[english]Error_CompositorNotFullscreen_Description"	"You'll need this to be fullscreen for SteamVR to work correctly."
+"[english]Error_CompositorNotFullscreen_Header"	"Compositor is not fullscreen"
+"[english]Error_CompositorNotRunning_Action"	"Launch Compositor"
+"[english]Error_CompositorNotRunning_Description"	"You'll need this for SteamVR to work correctly."
+"[english]Error_CompositorNotRunning_Header"	"Compositor is not running"
+"[english]Error_CompositorTooManyRunning_Action"	"Restart SteamVR"
+"[english]Error_CompositorTooManyRunning_Description"	"Only one compositor can run for SteamVR to work correctly."
+"[english]Error_CompositorTooManyRunning_Header"	"Too many compositors running"
+"[english]Error_HMDDoesNotTrack_Action"	"Troubleshooting"
+"[english]Error_HMDDoesNotTrack_Description"	"This headset is connected but not tracking. Make sure it can see a base station. "
+"[english]Error_HMDDoesNotTrack_Header"	"Headset not tracking"
+"[english]Error_NoChaperoneAvailable_Action"	"Launch Room Setup"
+"[english]Error_NoChaperoneAvailable_Description"	"Set your room up for SteamVR to work correctly."
+"[english]Error_NoChaperoneAvailable_Header"	"Room is not set up"
+"[english]Error_NoCompositorAvailable_Action"	"Launch Compositor"
+"[english]Error_NoCompositorAvailable_Description"	"You'll need this to run SteamVR to work correctly."
+"[english]Error_NoCompositorAvailable_Header"	"Compositor is not available"
+"[english]Error_NoHMDAvailable_Action"	"Troubleshooting"
+"[english]Error_NoHMDAvailable_Description"	"Your headset was not found. Make sure it is connected properly and restart SteamVR."
+"[english]Error_NoHMDAvailable_Header"	"Headset not found"
+"[english]Error_TrackingDevice_NoPose_Action"	"Troubleshooting"
+"[english]Error_TrackingDevice_NoPose_Description"	"This device is not tracking. Make sure it is visible from the base stations."
+"[english]Error_TrackingDevice_NoPose_Header"	"Device is not tracking"
+"[english]Error_TrackingDevice_NotValid_Action"	"Try to reconnect"
+"[english]Error_TrackingDevice_NotValid_Description"	"We can't find this device. Make sure it is connected correctly and try again."
+"[english]Error_TrackingDevice_NotValid_Header"	"Device is not connected"
+"[english]Error_VRServerNotRunning_Action"	"Launch VR Server"
+"[english]Error_VRServerNotRunning_Description"	"You'll need this for SteamVR to work correctly."
+"[english]Error_VRServerNotRunning_Header"	"VR Server is not running"
+"[english]Explanation_RemoveAllSteamVRUSBDevices"	"Remove all USB devices related to SteamVR from this system to reinstall their drivers."
+"[english]Explanation_ResetDismissableWarnings"	"Temporary warnings are reset and will show again as needed."
+"[english]Lighthouse_BasestationFactoryError_Action"	"Visit htcvive.com/support"
+"[english]Lighthouse_BasestationFactoryError_Description"	"This base station has a manufacturing error, please contact HTC for a replacement base station."
+"[english]Lighthouse_BasestationFactoryError_Header"	"Base station unusable"
+"[english]Lighthouse_Disambiguator_TdmConfigurationError_Action"	"Troubleshooting"
+"[english]Lighthouse_Disambiguator_TdmConfigurationError_Description"	"Your base stations are not syncing, please make sure they are set up properly."
+"[english]Lighthouse_Disambiguator_TdmConfigurationError_Header"	"Base station setup problem"
+"[english]Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action"	"Troubleshooting"
+"[english]Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description"	"Your bases are in modes 'A' and 'c'.  Switch 'A' base to mode 'b' for optical sync."
+"[english]Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header"	"Base station setup problem"
+"[english]Lighthouse_Disambiguator_TooManyBasestations_Action"	"Check Again"
+"[english]Lighthouse_Disambiguator_TooManyBasestations_Description"	"Please make sure only two base stations are visible to your headset and controllers."
+"[english]Lighthouse_Disambiguator_TooManyBasestations_Header"	"Too many base stations"
+"[english]Lighthouse_UnknownEvent_Action"	"Check SteamVR Support"
+"[english]Lighthouse_UnknownEvent_Description"	"Something is wrong with your Lighthouse system. Please check SteamVR Support for help."
+"[english]Lighthouse_UnknownEvent_Header"	"Lighthouse error"
+"[english]Popover_BaseStationNoPowerManagement_Description"	"This base station can not participate in the power management."
+"[english]Popover_BaseStationNoPowerManagement_Header"	"No power management"
+"[english]Popover_BaseStationsTooFarApart_Description"	"The distance between the base stations is %1 meters, the recommended distance is less than 5.5 meters."
+"[english]Popover_BaseStationsTooFarApart_Header"	"Base Stations too far apart"
+"[english]Popover_ConnectionRefusedBySteam_Description"	"There is a problem in the connection to Steam. Restart the Steam Client to fix."
+"[english]Popover_ConnectionRefusedBySteam_Header"	"Can not connect to Steam"
+"[english]Popover_DirectModeDriverUpdate_Action"	"Download Drivers"
+"[english]Popover_DirectModeDriverUpdate_Description"	"To enable direct display mode, please update your video drivers. Version %1 is installed, but direct mode requires version %2"
+"[english]Popover_DirectModeDriverUpdate_Header"	"Update graphics drivers"
+"[english]Popover_FirmwareUpdateNeededWarning_Action"	"Troubleshooting"
+"[english]Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate"	"Update available"
+"[english]Popover_FirmwareUpdateNeededWarning_Description"	"Your firmware is out of date, please update it to ensure your device works correctly."
+"[english]Popover_FirmwareUpdateNeededWarning_Header"	"Firmware out of date"
+"[english]Popover_LowBattery_Controller_Action"	"Identify controller"
+"[english]Popover_LowBattery_Controller_Description"	"This controller is connected and tracking but the battery is low."
+"[english]Popover_LowBattery_Controller_Header"	"Controller ready with low battery"
+"[english]Popover_NoPose_Base_Description"	"This base station is powered but not tracking. Make sure it is visible from your headset or a controller."
+"[english]Popover_NoPose_Base_Header"	"Base station not tracking"
+"[english]Popover_NoPose_Controller_Action"	"Identify controller"
+"[english]Popover_NoPose_Controller_Description"	"This controller is connected but not tracking. Make sure it can see a base station. "
+"[english]Popover_NoPose_Controller_Header"	"Controller not tracking"
+"[english]Popover_NoPose_HMD_Description"	"This headset is connected but not tracking. Make sure it can see a base station. "
+"[english]Popover_NoPose_HMD_Header"	"Headset not tracking"
+"[english]Popover_NoPose_Invalid_Header"	"Invalid device not tracking"
+"[english]Popover_NoPose_Other_Description"	"This device is connected but not tracking."
+"[english]Popover_NoPose_Other_Header"	"Other not tracking"
+"[english]Popover_NoSteamWarning_Action"	"Start Steam"
+"[english]Popover_NoSteamWarning_Description"	"Make sure Steam is installed and running."
+"[english]Popover_NoSteamWarning_Header"	"Steam not detected"
+"[english]Popover_NotReady_Base_Header"	"Base station is not ready"
+"[english]Popover_NotReady_Controller_Description"	"Make sure it is powered on and nearby."
+"[english]Popover_NotReady_Controller_Header"	"Controller is not ready"
+"[english]Popover_NotReady_HMD_Header"	"Headset is not ready"
+"[english]Popover_NotReady_Invalid_Action"	"Troubleshooting"
+"[english]Popover_NotReady_Invalid_Header"	"Device is not ready"
+"[english]Popover_NotReady_Other_Header"	"Other not ready"
+"[english]Popover_Off_Base_Action"	"Troubleshooting"
+"[english]Popover_Off_Base_Description"	"Make sure it is powered and connected."
+"[english]Popover_Off_Base_Header"	"Base station not detected"
+"[english]Popover_Off_Controller_Action"	"Troubleshooting"
+"[english]Popover_Off_Controller_Description"	"Make sure it is powered on and nearby."
+"[english]Popover_Off_Controller_FirstAction"	"Pair Controller"
+"[english]Popover_Off_Controller_Header"	"Controller not connected"
+"[english]Popover_Off_HMD_Action"	"Troubleshooting"
+"[english]Popover_Off_HMD_Description"	"Make sure it is powered and connected properly."
+"[english]Popover_Off_HMD_Header"	"Headset not connected"
+"[english]Popover_Off_Invalid_Header"	"Invalid Device not connected"
+"[english]Popover_Off_Other_Header"	"Other not connected"
+"[english]Popover_Pose_Base_Action"	"Identify base station"
+"[english]Popover_Pose_Base_Description"	"This base station is powered and tracking."
+"[english]Popover_Pose_Base_Header"	"Base station ready"
+"[english]Popover_Pose_Controller_Action"	"Identify controller"
+"[english]Popover_Pose_Controller_Description"	"This controller is connected and tracking."
+"[english]Popover_Pose_Controller_Header"	"Controller ready"
+"[english]Popover_Pose_HMD_Description"	"This headset is connected and tracking."
+"[english]Popover_Pose_HMD_Header"	"Headset ready"
+"[english]Popover_Pose_Invalid_Header"	"Invalid Device Ready"
+"[english]Popover_Pose_Other_Description"	"This device is connected and tracking."
+"[english]Popover_Pose_Other_Header"	"Other ready"
+"[english]Popover_SeeOnlyOneBase_Description"	"If you are running SteamVR with only one base station on purpose, switching this base to mode A will have better tracking results."
+"[english]Popover_SeeOnlyOneBase_Header"	"Only one Base Station visible"
+"[english]Popover_Standby_Base_Description"	"This base station is in standby mode."
+"[english]Popover_Standby_Base_Header"	"Base station is in standby"
+"[english]Popover_Standby_Controller_Description"	"This controller is in standby mode. Move it to wake it up."
+"[english]Popover_Standby_Controller_Header"	"Controller is in standby"
+"[english]Popover_Standby_HMD_Description"	"This headset is in standby mode. Move it to wake it up."
+"[english]Popover_Standby_HMD_Header"	"Headset is in standby"
+"[english]Popover_Standby_Invalid_Header"	"Invalid device is in standby"
+"[english]Popover_Standby_Other_Description"	"This device is in standby."
+"[english]Popover_Standby_Other_Header"	"Device is in standby"
+"[english]Settings_PowerOffBaseStations_Text"	"Put Base Station in Standby mode when VR is not in use"
+"[english]Settings_PowerOffControllers_Text"	"Turn off Controllers when SteamVR exits"
+"[english]VRInitError_Driver_CalibrationInvalid_Action"	"Troubleshooting"
+"[english]VRInitError_Driver_CalibrationInvalid_Description"	"We are having trouble loading a calibration file."
+"[english]VRInitError_Driver_CalibrationInvalid_Header"	"Driver calibration failed"
+"[english]VRInitError_Driver_Failed_Action"	"Troubleshooting"
+"[english]VRInitError_Driver_Failed_Description"	"There was an internal error - Click below for more info."
+"[english]VRInitError_Driver_Failed_Header"	"Something is wrong"
+"[english]VRInitError_Driver_HmdDisplayMirrored_Action"	"Troubleshooting"
+"[english]VRInitError_Driver_HmdDisplayMirrored_Description"	"The headset's display was not found, but a mirrored display was detected.  Please set the HMD to extended rather than mirrored."
+"[english]VRInitError_Driver_HmdDisplayMirrored_FirstAction"	"Open Display Properties"
+"[english]VRInitError_Driver_HmdDisplayMirrored_Header"	"Headset display mirrored"
+"[english]VRInitError_Driver_HmdDisplayNotFoundAfterFix_Action"	"Troubleshooting"
+"[english]VRInitError_Driver_HmdDisplayNotFoundAfterFix_Description"	"The headset's display was not found, please make sure your HDMI cables are securely connected, then reboot it by clicking below."
+"[english]VRInitError_Driver_HmdDisplayNotFoundAfterFix_FirstAction"	"Reboot Headset"
+"[english]VRInitError_Driver_HmdDisplayNotFoundAfterFix_Header"	"Headset not connected properly"
+"[english]VRInitError_Driver_HmdDisplayNotFound_Action"	"Troubleshooting"
+"[english]VRInitError_Driver_HmdDisplayNotFound_Description"	"The headset's display was not found, please make sure your HDMI cables are securely connected, then reboot it by clicking below."
+"[english]VRInitError_Driver_HmdDisplayNotFound_FirstAction"	"Reboot Headset"
+"[english]VRInitError_Driver_HmdDisplayNotFound_Header"	"Headset not connected properly"
+"[english]VRInitError_Driver_HmdDriverIdOutOfBounds_Action"	"Troubleshooting"
+"[english]VRInitError_Driver_HmdDriverIdOutOfBounds_Description"	"Make sure your headset is connected properly, then reboot it by clicking below."
+"[english]VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction"	"Reboot Headset"
+"[english]VRInitError_Driver_HmdDriverIdOutOfBounds_Header"	"Headset not detected"
+"[english]VRInitError_Driver_HmdInUse_Action"	"Try again"
+"[english]VRInitError_Driver_HmdInUse_Description"	"The headset is being used by another application. Please quit any other VR apps to continue."
+"[english]VRInitError_Driver_HmdInUse_Header"	"Headset in use"
+"[english]VRInitError_Driver_HmdUnknown_Action"	"Try to fix this"
+"[english]VRInitError_Driver_HmdUnknown_Description"	"This headset is not recognized. Please make sure you are using a valid headset."
+"[english]VRInitError_Driver_HmdUnknown_Header"	"Headset not recognized"
+"[english]VRInitError_Driver_NotCalibrated_Action"	"Troubleshooting"
+"[english]VRInitError_Driver_NotCalibrated_Description"	"We are having trouble loading a calibration file."
+"[english]VRInitError_Driver_NotCalibrated_Header"	"Driver not calibrated"
+"[english]VRInitError_Driver_NotLoaded_Action"	"Troubleshooting"
+"[english]VRInitError_Driver_NotLoaded_Description"	"A driver required for SteamVR isn't loading correctly, please check your SteamVR installation."
+"[english]VRInitError_Driver_NotLoaded_Header"	"File not loading"
+"[english]VRInitError_Driver_RuntimeOutOfDate_Action"	"Visit developer.oculus.com"
+"[english]VRInitError_Driver_RuntimeOutOfDate_Description"	"The Oculus runtime is out of date, please install the latest version."
+"[english]VRInitError_Driver_RuntimeOutOfDate_Header"	"Oculus software is out of date"
+"[english]VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action"	"Troubleshooting"
+"[english]VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description"	"The driver used by this headset is not compatible with this version of SteamVR."
+"[english]VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header"	"Driver Not Compatible"
+"[english]VRInitError_Driver_Unknown_Action"	"Try to fix this"
+"[english]VRInitError_Driver_Unknown_Description"	"A driver configured in settings isn't valid."
+"[english]VRInitError_Driver_Unknown_Header"	"Something is wrong"
+"[english]VRInitError_IPC_CompositorConnectFailed_Action"	"Troubleshooting"
+"[english]VRInitError_IPC_CompositorConnectFailed_Description"	"A key component of SteamVR isn't working properly."
+"[english]VRInitError_IPC_CompositorConnectFailed_Header"	"Connect Failed"
+"[english]VRInitError_IPC_CompositorInitFailed_Action"	"Troubleshooting"
+"[english]VRInitError_IPC_CompositorInitFailed_Description"	"A key component of SteamVR isn't working correctly, please check your SteamVR installation"
+"[english]VRInitError_IPC_CompositorInitFailed_Header"	"Something is wrong"
+"[english]VRInitError_IPC_CompositorInvalidConnectResponse_Action"	"Troubleshooting"
+"[english]VRInitError_IPC_CompositorInvalidConnectResponse_Description"	"A key component of SteamVR isn't working properly."
+"[english]VRInitError_IPC_CompositorInvalidConnectResponse_Header"	"Connect Failed"
+"[english]VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action"	"Troubleshooting"
+"[english]VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description"	"A key component of SteamVR isn't working properly."
+"[english]VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header"	"Connect Failed"
+"[english]VRInitError_IPC_ConnectFailed_Action"	"Troubleshooting"
+"[english]VRInitError_IPC_ConnectFailed_Description"	"A key component of SteamVR isn't working properly."
+"[english]VRInitError_IPC_ConnectFailed_Header"	"Connect Failed"
+"[english]VRInitError_IPC_Failed_Action"	"Check SteamVR Support"
+"[english]VRInitError_IPC_Failed_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_IPC_Failed_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_IPC_MutexInitFailed_Action"	"Troubleshooting"
+"[english]VRInitError_IPC_MutexInitFailed_Description"	"A key component of SteamVR isn't working correctly, please check your SteamVR installation"
+"[english]VRInitError_IPC_MutexInitFailed_Header"	"Something is wrong"
+"[english]VRInitError_IPC_ServerInitFailed_Action"	"Troubleshooting"
+"[english]VRInitError_IPC_ServerInitFailed_Description"	"A key component of SteamVR isn't working properly, please check your SteamVR installation, then reboot your headset by clicking below."
+"[english]VRInitError_IPC_ServerInitFailed_FirstAction"	"Reboot Headset"
+"[english]VRInitError_IPC_ServerInitFailed_Header"	"Something is wrong"
+"[english]VRInitError_IPC_SharedStateInitFailed_Action"	"Troubleshooting"
+"[english]VRInitError_IPC_SharedStateInitFailed_Description"	"A key component of SteamVR isn't working properly."
+"[english]VRInitError_IPC_SharedStateInitFailed_Header"	"Init Failed"
+"[english]VRInitError_Init_AnotherAppLaunching_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_AnotherAppLaunching_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Init_AnotherAppLaunching_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Init_AppInfoInitFailed_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_AppInfoInitFailed_Description"	"An internal component of SteamVR isn't working properly. Please check SteamVR Support for help."
+"[english]VRInitError_Init_AppInfoInitFailed_Header"	"Something is wrong"
+"[english]VRInitError_Init_FactoryNotFound_Action"	"Troubleshooting"
+"[english]VRInitError_Init_FactoryNotFound_Description"	"A file we need for SteamVR is missing, please check your SteamVR installation."
+"[english]VRInitError_Init_FactoryNotFound_Header"	"Missing file"
+"[english]VRInitError_Init_FileNotFound_Action"	"Troubleshooting"
+"[english]VRInitError_Init_FileNotFound_Description"	"A file we need for SteamVR is missing, please check your SteamVR installation."
+"[english]VRInitError_Init_FileNotFound_Header"	"Missing file"
+"[english]VRInitError_Init_HmdDriverIdIsNone_Action"	"Troubleshooting"
+"[english]VRInitError_Init_HmdDriverIdIsNone_Description"	"Make sure your headset is connected properly, then reboot it by clicking below."
+"[english]VRInitError_Init_HmdDriverIdIsNone_FirstAction"	"Reboot Headset"
+"[english]VRInitError_Init_HmdDriverIdIsNone_Header"	"Headset not detected"
+"[english]VRInitError_Init_HmdNotFoundPresenceFailed_Action"	"Troubleshooting"
+"[english]VRInitError_Init_HmdNotFoundPresenceFailed_Description"	"Make sure your headset is connected properly, then reboot it by clicking below."
+"[english]VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction"	"Reboot Headset"
+"[english]VRInitError_Init_HmdNotFoundPresenceFailed_Header"	"Headset not detected"
+"[english]VRInitError_Init_HmdNotFound_Action"	"Troubleshooting"
+"[english]VRInitError_Init_HmdNotFound_Description"	"Make sure your headset is connected properly, then reboot it by clicking below."
+"[english]VRInitError_Init_HmdNotFound_FirstAction"	"Reboot Headset"
+"[english]VRInitError_Init_HmdNotFound_Header"	"Headset not detected"
+"[english]VRInitError_Init_InitCanceledByUser_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_InitCanceledByUser_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Init_InitCanceledByUser_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Init_InstallationCorrupt_Action"	"Troubleshooting"
+"[english]VRInitError_Init_InstallationCorrupt_Description"	"Some files we need for SteamVR are missing, please check your SteamVR installation."
+"[english]VRInitError_Init_InstallationCorrupt_Header"	"Missing files"
+"[english]VRInitError_Init_InstallationNotFound_Action"	"Try again from the current directory"
+"[english]VRInitError_Init_InstallationNotFound_Description"	"Some files aren't where where we thought they were."
+"[english]VRInitError_Init_InstallationNotFound_Header"	"Missing files"
+"[english]VRInitError_Init_InterfaceNotFound_Action"	""
+"[english]VRInitError_Init_InterfaceNotFound_ActionURL"	""
+"[english]VRInitError_Init_InterfaceNotFound_Description"	"This version of SteamVR is too old, update to the latest version of SteamVR through Steam."
+"[english]VRInitError_Init_InterfaceNotFound_Header"	"SteamVR is out of date"
+"[english]VRInitError_Init_InvalidInterface_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_InvalidInterface_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Init_InvalidInterface_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Init_NoConfigPath_Action"	"Set Config Path"
+"[english]VRInitError_Init_NoConfigPath_Description"	"We can't find your config path and need to set a new one."
+"[english]VRInitError_Init_NoConfigPath_Header"	"Missing path"
+"[english]VRInitError_Init_NoLogPath_Action"	"Set Log Path"
+"[english]VRInitError_Init_NoLogPath_Description"	"We can't find your log path and need to set a new one."
+"[english]VRInitError_Init_NoLogPath_Header"	"Missing path"
+"[english]VRInitError_Init_NoServerForBackgroundApp_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_NoServerForBackgroundApp_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Init_NoServerForBackgroundApp_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Init_NotAvailableToUtilityApps_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_NotAvailableToUtilityApps_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Init_NotAvailableToUtilityApps_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Init_NotInitialized_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_NotInitialized_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Init_NotInitialized_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Init_NotSupportedWithCompositor_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_NotSupportedWithCompositor_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Init_NotSupportedWithCompositor_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Init_PathRegistryNotFound_Action"	"Try again from the current directory"
+"[english]VRInitError_Init_PathRegistryNotFound_Description"	"Some files aren't where we thought they were."
+"[english]VRInitError_Init_PathRegistryNotFound_Header"	"Missing files"
+"[english]VRInitError_Init_PathRegistryNotWritable_Action"	"Troubleshooting"
+"[english]VRInitError_Init_PathRegistryNotWritable_Description"	"Your path registry is not writable - this is necessary for SteamVR to work correctly."
+"[english]VRInitError_Init_PathRegistryNotWritable_Header"	"Something is wrong"
+"[english]VRInitError_Init_Retry_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_Retry_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Init_Retry_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Init_SettingsInitFailed_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_SettingsInitFailed_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Init_SettingsInitFailed_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Init_ShuttingDown_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_ShuttingDown_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Init_ShuttingDown_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Init_TooManyObjects_Action"	"Check SteamVR Support"
+"[english]VRInitError_Init_TooManyObjects_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Init_TooManyObjects_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Init_UserConfigDirectoryInvalid_Action"	"Set Config Directory"
+"[english]VRInitError_Init_UserConfigDirectoryInvalid_Description"	"We can't find your config directory and need to set a new one."
+"[english]VRInitError_Init_UserConfigDirectoryInvalid_Header"	"Something is wrong"
+"[english]VRInitError_Init_VRClientDLLNotFound_Action"	"Troubleshooting"
+"[english]VRInitError_Init_VRClientDLLNotFound_Description"	"A file we need for SteamVR is missing, please check your SteamVR installation."
+"[english]VRInitError_Init_VRClientDLLNotFound_Header"	"Missing file"
+"[english]VRInitError_Internal_Action"	"Check SteamVR Support"
+"[english]VRInitError_Internal_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Internal_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_Steam_SteamInstallationNotFound_Action"	"Install Steam"
+"[english]VRInitError_Steam_SteamInstallationNotFound_Description"	"Steam needs to be installed for SteamVR to work correctly."
+"[english]VRInitError_Steam_SteamInstallationNotFound_Header"	"Steam not detected"
+"[english]VRInitError_Unknown_Action"	"Check SteamVR Support"
+"[english]VRInitError_Unknown_Description"	"There was an unexpected problem. Please check SteamVR Support for help."
+"[english]VRInitError_Unknown_Header"	"Hmm, that shouldn't have happened."
+"[english]VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action"	"Visits HTC Website"
+"[english]VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description"	"Your headset is detected, but there is a problem with the hardware. You will need to contact HTC."
+"[english]VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header"	"Something is wrong"
+"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_HmdFound_UserDataError_Action"	"Troubleshooting"
+"[english]VRInitError_VendorSpecific_HmdFound_UserDataError_Description"	"Your headset is detected, but there is a problem."
+"[english]VRInitError_VendorSpecific_HmdFound_UserDataError_Header"	"USB Error"
+"[english]VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action"	"Visit developer.oculus.com"
+"[english]VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description"	"SteamVR was unable to connect to the Oculus runtime. Please make sure you have the latest version installed."
+"[english]VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header"	"Unable to connect to Oculus runtime"
+"[english]Warning_DismissableWarning_BasestationSingleBaseModeHint_Description"	"If you are only using one base station, tracking quality will improve if you switch this basestation to mode A."
+"[english]Warning_DismissableWarning_BasestationSingleBaseModeHint_Header"	"Only one base station detected"
+"[english]Warning_DismissableWarning_BasestationsTooFarApart_Description"	"For the best experience, your base stations should not be more than 5.5 meters apart."
+"[english]Warning_DismissableWarning_BasestationsTooFarApart_Header"	"Base stations are too far apart"
+"[english]Warning_DismissableWarning_BluetoothDriverFailedInstallation_Action"	"Retry"
+"[english]Warning_DismissableWarning_BluetoothDriverFailedInstallation_Description"	"A driver needs to be installed to complete Link Box installation. Restart SteamVR and try again."
+"[english]Warning_DismissableWarning_BluetoothDriverFailedInstallation_Header"	"Bluetooth Driver installation failed"
+"[english]Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action"	"Install"
+"[english]Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description"	"A driver needs to be installed to complete Link Box installation. SteamVR needs to be restarted after successful installation."
+"[english]Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header"	"Bluetooth Driver"
+"[english]Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action"	"Restart"
+"[english]Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description"	"Bluetooth Link might need to restart to enable Link Box communication. Restart SteamVR if this fails."
+"[english]Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header"	"Bluetooth Link communication failed"
+"[english]Warning_DismissableWarning_BluetoothLinkFailedInstallation_Action"	"Retry"
+"[english]Warning_DismissableWarning_BluetoothLinkFailedInstallation_Description"	"Bluetooth Link needs to be installed to enable Link Box communication. Restart SteamVR and try again."
+"[english]Warning_DismissableWarning_BluetoothLinkFailedInstallation_Header"	"Bluetooth Link installation failed"
+"[english]Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Action"	"Install"
+"[english]Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Description"	"Bluetooth Link needs to be installed to enable Link Box communication."
+"[english]Warning_DismissableWarning_BluetoothLinkNeedsInstallation_Header"	"Bluetooth Link"
+"[english]Warning_DismissableWarning_DisplayInExtendedMode_Action"	"Enable Direct Mode"
+"[english]Warning_DismissableWarning_DisplayInExtendedMode_Description"	"Extended Mode is not recommended. For the best results, please switch to Direct Mode."
+"[english]Warning_DismissableWarning_DisplayInExtendedMode_Header"	"SteamVR is in Extended Mode"
+"[english]Warning_DismissableWarning_IssuesWithDongles_Action"	"More Information"
+"[english]Warning_DismissableWarning_IssuesWithDongles_Description"	"There are issues with the dongles in your Vive Headset."
+"[english]Warning_DismissableWarning_IssuesWithDongles_Header"	"Issues with Dongles"
+"[english]Warning_DismissableWarning_IssuesWithOneDongle_Action"	"Troubleshooting"
+"[english]Warning_DismissableWarning_IssuesWithOneDongle_Description"	"One of the wireless receivers in your Vive Headset was not detected."
+"[english]Warning_DismissableWarning_IssuesWithOneDongle_Header"	"Wireless Receiver Not Detected"
+"[english]Warning_DismissableWarning_IssuesWithTwoDongles_Action"	"Troubleshooting"
+"[english]Warning_DismissableWarning_IssuesWithTwoDongles_Description"	"The wireless receivers in your Vive Headset were not detected."
+"[english]Warning_DismissableWarning_IssuesWithTwoDongles_Header"	"Wireless Receivers Not Detected"
+"[english]Warning_DismissableWarning_MissedFrames_Description"	"The current VR application runs too slowly, which can give you a bad experience. This may be because the application is too demanding, or your computer is too slow."
+"[english]Warning_DismissableWarning_MissedFrames_Header"	"Application running too slowly"
+"[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Action"	"More info"
+"[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Description"	"There may be something blocking line of sight between the two base stations. If this warning persists between sessions you might consider switching to cabled sync."
+"[english]Warning_DismissableWarning_OpticalBasestationSyncWarning_Header"	"Base stations lost optical sync"
+"[english]Warning_DismissableWarning_RunTutorialAgain_Action"	"Run Tutorial"
+"[english]Warning_DismissableWarning_RunTutorialAgain_Description"	"You can run Room Setup or the Tutorial again anytime from the SteamVR menu below."
+"[english]Warning_DismissableWarning_RunTutorialAgain_Header"	"Room Setup and Tutorial"
+"[english]Warning_DismissableWarning_SomeDisplaysAreMirroring_Action"	"Open Display Properties"
+"[english]Warning_DismissableWarning_SomeDisplaysAreMirroring_Description"	"Some displays seemed to be set to mirror its content. This might impact your graphics performance, or renders the headset display unusable."
+"[english]Warning_DismissableWarning_SomeDisplaysAreMirroring_Header"	"Mirroring Displays"
+"[english]Warning_DismissableWarning_UnknownHardwareDetected_Description"	"The firmware manifest has no entries for some of the detected hardware."
+"[english]Warning_DismissableWarning_UnknownHardwareDetected_Header"	"Unknown Hardware Detected"
+"[english]Warning_DismissableWarning_WarningsForTheFirstTime_Header"	"Warnings for the first time"
+"[english]Warning_DismissableWarning_Windows8_Description"	"SteamVR is not supported on Windows 8. Please upgrade to Windows 8.1 or Windows 10 for the best results."
+"[english]Warning_DismissableWarning_Windows8_Header"	"Windows 8 detected"
 "[english]Warning_DismissableWarning_WindowsAeroDisabled_Action"	"Open Personalization"
-}
-}
+"[english]Warning_DismissableWarning_WindowsAeroDisabled_Description"	"For best performance when running VR, please switch to an Aero Theme by right-clicking on desktop and selecting Personalize in the drop-down."
+"[english]Warning_DismissableWarning_WindowsAeroDisabled_Header"	"Windows Aero disabled"
+"[english]WorkshopUpload_Error_SteamClientNotFound"	"Cannot start the SteamVR Workshop Upload Tool because the Steam Client is not running."
+"lang"
+, calitatea urm
+, dar nu este urm
+, schimbarea modului sta
+, sta
+, te rug
+-l pentru a-l trezi."
+-te c
+. Aceasta poate avea ca motiv faptul c
+. Asigur
+. Te rug
+. te rug
+\" din list
+\" pentru a putea 
+a dintre sta
+a recomandat
+aje se pare c
+ajelor"
+ajul headsetului inutilizabil."
+ajul headsetului nu a fost g
+ajului"
+are direct
+e optime c
+e, ar fi bine s
+ele de coliziune nu sunt configurate"
+ele grafice sau face afi
+ele tale de coliziune trebuie configurate pentru a continua."
+i Tutorial"
+i \"c\". Schimb
+i actualizezi driverele video. Este instalat
+i compozitori"
+i conectat
+i conectat corespunz
+i controllerelor tale."
+i dac
+i poate oferi o experien
+i porni Preg
+i raport de sistem c
+i reporne
+i ruleaz
+i selectarea \"Personalizeaz
+i trebuie s
+i un raport c
+i un raport de sistem c
+i urm
+i vor ap
+ia VR curent
+ia de baz
+ia necesit
+ia ruleaz
+iala din SteamVR nu func
+ializarea a e
+ie de baz
+ie de necesitate."
+ie, te rug
+ie. Te rug
+iei de baz
+ier de calibrare."
+ier de care avem nevoie pentru SteamVR lipse
+ier lips
+ier necesar pentru SteamVR lipse
+iere lips
+iere necesare pentru SteamVR lipsesc, te rug
+iere nu se afl
+ierul nu se 
+ii VR pentru a continua."
+ii de baz
+ii. Dac
+iile de baz
+iile tale de baz
+ile afi
+inutul. Aceasta ar putea afecta performan
+iona pentru ca SteamVR s
+ionarea corespunz
+ionat cu o singur
+ioneaz
+l actualizezi pentru a asigura func
+l trim
+m trimi
+m unul nou."
+mple."
+n \"A\" va avea rezultate mai bune la urm
+n apropiere."
+n atelier\", deoarece clientul Steam nu ruleaz
+n considerare trecerea pe sincronizare prin cablu."
+n func
+n loc de \"
+n mod de a
+n mod extins"
+n mod inten
+n modul \"b\" pentru sincronizare optic
+n modul direct."
+n modurile \"A\" 
+n neregul
+n oglind
+n set
+nainte de a continua."
+ncarc
+ncearc
+ncepe s
+ncet"
+ncet, ceea ce 
+nchide controllerele c
+nchizi orice alte aplica
+nd VR nu este utilizat"
+nd rulezi VR, te rug
+nd se iese din SteamVR"
+nd, din meniul SteamVR de mai jos."
+nlocuire a sta
+nregistr
+ntre 
+ntreg ecranul pentru ca SteamVR s
+ntreg ecranul"
+nvechit, te rug
+rcare 
+rcarea unui fi
+rea din nou 
+ri nu este valid."
+ri pentru o parte din hardware-ul detectat."
+ri pentru prima dat
+rile temporare vor fi resetate 
+rire."
+ririi se va 
+rit. Asigur
+rit."
+rtate"
+rut e eroare intern
+rut o eroare."
+rut o problem
+si acest dispozitiv. Asigur
+si directorul cu configura
+sim adresa configului 
+sim adresa jurnalului 
+sit, dar un afi
+sit, te rug
+sit. Asigur
+te Preg
+te Steam"
+te SteamVR 
+te SteamVR dac
+te SteamVR"
+te SteamVR."
+te camera pentru ca SteamVR s
+te clientul Steam pentru remediere."
+te compozitorul"
+te headset"
+te headsetul printr-un clic mai jos."
+te headsetul"
+te printr-un clic mai jos."
+te, dar bateria este aproape desc
+te, te rug
+te-l printr-un clic mai jos."
+teptam s
+teptare c
+teptare"
+teptare. Mi
+teptare."
+teptat
+ti Preg
+ti doar o sta
+ti un headset valid."
+tirea pentru Camer
+tirea pentru camer
+tirea sta
+tit este cu baterie aproape desc
+toare a cablurilor HDMI, iar apoi reporne
+toare a dispozitivului."
+tor, apoi reporne
+tor, te rug
+tor. Te rug
+tor."
+tre Oculus runtime"
+tre o sta
+tre steamvr@valvesoftware.com"
+tre steamvr@valvesoftware.com."
+tura cu HTC."
+tura cu una dintre sta
+u Lighthouse. Te rug
+u Vive nu a fost detectat."
+u Vive nu au fost detecta
+u Vive."
+u de adres
+u e detectat, dar a ap
+u este conectat corespunz
+u este detectat, dar a ap
+u este prea lent."
+u nu a fost g
+u nu este actualizat, te rug

@@ -1,53 +1,52 @@
-{
-	"language_tag": "el_GR",
-	"/actions/system/in/OpenDashboard": "Άνοιγμα μπάρας",
-	"/actions/system/in/CloseDashboard": "Κλείσιμο μπάρας",
-	"/actions/system/in/ToggleDashboard": "Εναλλαγή μπάρας",
-	"/actions/system/in/TakeScreenshot": "Λήψη στιγμιότυπου",
-	"/actions/system/in/ToggleRoomView": "Εναλλαγή προβολής δωματίου",
-	"/actions/system/in/SystemButtonChord": "Λειτουργία δράσης συστήματος",
-	"/actions/system/in/ShowPowerMenu": "Εμφάνιση μενού ενέργειας",
-	"/actions/lasermouse/in/leftclick": "Αριστερό πάτημα ποντικιού",
-	"/actions/lasermouse/in/rightclick": "Δεξί πάτημα ποντικιού",
-	"/actions/lasermouse/in/lockmouseposition": "Κλείδωμα θέσης ποντικιού",
-	"/actions/lasermouse/in/home": "Μετάβαση στην αρχική",
-	"/actions/lasermouse/in/back": "Μετάβαση πίσω",
-	"/actions/lasermouse/in/moveright": "Μετάβαση δεξιά",
-	"/actions/lasermouse/in/moveup": "Μετάβαση πάνω",
-	"/actions/lasermouse/in/moveleft": "Μετάβαση αριστερά",
-	"/actions/lasermouse/in/movedown": "Μετάβαση κάτω",
-	"/actions/lasermouse/in/trackpadtouch": "Άγγιγμα επιφάνειας αφής",
-	"/actions/lasermouse/in/trackpadvalue": "Κίνηση επιφάνειας αφής",
-	"/actions/lasermouse/in/switchgamepadfocus": "Εναλλαγή εστιασμού πίνακα (χειριστήριο)",
-	"/actions/lasermouse/in/trackpadscroll": "Κύλιση πίνακα",
+	"/actions/chord": "
+	"/actions/dualanalog": "
+	"/actions/dualanalog/in/cancel": "
+	"/actions/dualanalog/in/leftclick": "
+	"/actions/dualanalog/in/lefttouch": "
+	"/actions/dualanalog/in/leftvalue": "
+	"/actions/dualanalog/in/modeswitch1": "
+	"/actions/dualanalog/in/modeswitch2": "
+	"/actions/dualanalog/in/rightclick": "
+	"/actions/dualanalog/in/righttouch": "
+	"/actions/dualanalog/in/rightvalue": "
+	"/actions/lasermouse": "
+	"/actions/lasermouse/in/back": "
 	"/actions/lasermouse/in/enter": "Enter",
-	"/actions/lasermouse/in/pointer": "Δείκτης ποντικιού λέιζερ",
-	"/actions/scroll_discrete/in/scroll": "Κύλιση πίνακα",
-	"/actions/scroll_smooth/in/scroll": "Κύλιση πίνακα",
-	"/actions/lasermouse_secondary/in/switchlaserhand": "Ορισμός ενεργού χεριού",
-	"/actions/dualanalog/in/rightclick": "Δεξί πάτημα πληκτρολογίου",
-	"/actions/dualanalog/in/leftclick": "Αριστερό πάτημα πληκτρολογίου",
-	"/actions/dualanalog/in/righttouch": "Δεξί άγγιγμα πληκτρολογίου",
-	"/actions/dualanalog/in/lefttouch": "Αριστερό άγγιγμα πληκτρολογίου",
-	"/actions/dualanalog/in/rightvalue": "Δεξιά κίνηση πληκτρολογίου",
-	"/actions/dualanalog/in/leftvalue": "Αριστερή κίνηση πληκτρολογίου",
-	"/actions/dualanalog/in/modeswitch1": "Εμφάνιση κεφαλαίων",
-	"/actions/dualanalog/in/modeswitch2": "Εμφάνιση συμβόλων",
-	"/actions/dualanalog/in/cancel": "Κλείσιμο πληκτρολογίου",
-	"/actions/system/in/systembuttonchord": "Λειτουργία δράσης συστήματος",
-	"/actions/system/in/toggleroomview": "Εναλλαγή προβολής δωματίου",
-	"/actions/system/in/volumeup": "Αύξηση έντασης",
-	"/actions/system/in/volumedown": "Μείωση έντασης",
-	"/actions/system/in/toggledashboard": "Εναλλαγή μπάρας",
-	"/actions/system/in/showpowermenu": "Εμφάνιση μενού ενέργειας",
-	"/actions/system/in/takescreenshot": "Λήψη στιγμιότυπου",
-	"/actions/system/in/mutemicrophone": "Σίγαση μικροφώνου",
-	"/actions/normal": "Κανονική λειτουργία",
-	"/actions/chord": "Συνδυασμοί κουμπιών συστήματος",
-	"/actions/lasermouse": "Ποντίκι λέιζερ",
-	"/actions/lasermouse_secondary": "Δευτερεύον ποντίκι λέιζερ",
-	"/actions/dualanalog": "Είσοδος πληκτρολογίου",
-	"/actions/system": "Ενέργειες συστήματος",
-	"/actions/scroll_discrete": "Κύλιση σαν ροδέλα ποντικιού",
-	"/actions/scroll_smooth": "Κύλιση σαν Trackpad"
-}
+	"/actions/lasermouse/in/home": "
+	"/actions/lasermouse/in/leftclick": "
+	"/actions/lasermouse/in/lockmouseposition": "
+	"/actions/lasermouse/in/movedown": "
+	"/actions/lasermouse/in/moveleft": "
+	"/actions/lasermouse/in/moveright": "
+	"/actions/lasermouse/in/moveup": "
+	"/actions/lasermouse/in/pointer": "
+	"/actions/lasermouse/in/rightclick": "
+	"/actions/lasermouse/in/switchgamepadfocus": "
+	"/actions/lasermouse/in/trackpadscroll": "
+	"/actions/lasermouse/in/trackpadtouch": "
+	"/actions/lasermouse/in/trackpadvalue": "
+	"/actions/lasermouse_secondary": "
+	"/actions/lasermouse_secondary/in/switchlaserhand": "
+	"/actions/normal": "
+	"/actions/scroll_discrete": "
+	"/actions/scroll_discrete/in/scroll": "
+	"/actions/scroll_smooth": "
+	"/actions/scroll_smooth/in/scroll": "
+	"/actions/system": "
+	"/actions/system/in/CloseDashboard": "
+	"/actions/system/in/OpenDashboard": "
+	"/actions/system/in/ShowPowerMenu": "
+	"/actions/system/in/SystemButtonChord": "
+	"/actions/system/in/TakeScreenshot": "
+	"/actions/system/in/ToggleDashboard": "
+	"/actions/system/in/ToggleRoomView": "
+	"/actions/system/in/mutemicrophone": "
+	"/actions/system/in/showpowermenu": "
+	"/actions/system/in/systembuttonchord": "
+	"/actions/system/in/takescreenshot": "
+	"/actions/system/in/toggledashboard": "
+	"/actions/system/in/toggleroomview": "
+	"/actions/system/in/volumedown": "
+	"/actions/system/in/volumeup": "
+	"language_tag": "el_GR",
+ Trackpad"

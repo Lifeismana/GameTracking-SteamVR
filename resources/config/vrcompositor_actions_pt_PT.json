@@ -1,53 +1,61 @@
-{
-	"language_tag": "pt_PT",
-	"/actions/system/in/OpenDashboard": "Abrir Painel",
-	"/actions/system/in/CloseDashboard": "Fechar Painel",
-	"/actions/system/in/ToggleDashboard": "Abrir/fechar Painel",
-	"/actions/system/in/TakeScreenshot": "Tirar captura de ecrã",
-	"/actions/system/in/ToggleRoomView": "Alternar vista da divisão",
-	"/actions/system/in/SystemButtonChord": "Modo de ações do sistema",
-	"/actions/system/in/ShowPowerMenu": "Mostrar menu de energia",
-	"/actions/lasermouse/in/leftclick": "Clique esquerdo do rato",
-	"/actions/lasermouse/in/rightclick": "Clique direito do rato",
-	"/actions/lasermouse/in/lockmouseposition": "Bloquear posição do rato",
-	"/actions/lasermouse/in/home": "Ir para o Início",
+	"/actions/chord": "Atalhos do sistema",
+	"/actions/dualanalog": "Entrada de teclado",
+	"/actions/dualanalog/in/cancel": "Fechar teclado",
+	"/actions/dualanalog/in/leftclick": "Clique de teclado esquerdo",
+	"/actions/dualanalog/in/lefttouch": "Toque de teclado esquerdo",
+	"/actions/dualanalog/in/leftvalue": "Movimento de teclado esquerdo",
+	"/actions/dualanalog/in/modeswitch1": "Mostrar mai
+	"/actions/dualanalog/in/modeswitch2": "Mostrar s
+	"/actions/dualanalog/in/rightclick": "Clique de teclado direito",
+	"/actions/dualanalog/in/righttouch": "Toque de teclado direito",
+	"/actions/dualanalog/in/rightvalue": "Movimento de teclado direito",
+	"/actions/lasermouse": "Rato laser",
 	"/actions/lasermouse/in/back": "Voltar",
+	"/actions/lasermouse/in/enter": "Enter",
+	"/actions/lasermouse/in/home": "Ir para o In
+	"/actions/lasermouse/in/leftclick": "Clique esquerdo do rato",
+	"/actions/lasermouse/in/lockmouseposition": "Bloquear posi
+	"/actions/lasermouse/in/movedown": "Ir para baixo",
+	"/actions/lasermouse/in/moveleft": "Ir para a esquerda",
 	"/actions/lasermouse/in/moveright": "Ir para a direita",
 	"/actions/lasermouse/in/moveup": "Ir para cima",
-	"/actions/lasermouse/in/moveleft": "Ir para a esquerda",
-	"/actions/lasermouse/in/movedown": "Ir para baixo",
-	"/actions/lasermouse/in/trackpadtouch": "Toque no trackpad",
-	"/actions/lasermouse/in/trackpadvalue": "Movimento do trackpad",
+	"/actions/lasermouse/in/pointer": "Apontador laser de rato",
+	"/actions/lasermouse/in/rightclick": "Clique direito do rato",
 	"/actions/lasermouse/in/switchgamepadfocus": "Trocar o foco do painel (Comando)",
 	"/actions/lasermouse/in/trackpadscroll": "Deslocar painel",
-	"/actions/lasermouse/in/enter": "Enter",
-	"/actions/lasermouse/in/pointer": "Apontador laser de rato",
+	"/actions/lasermouse/in/trackpadtouch": "Toque no trackpad",
+	"/actions/lasermouse/in/trackpadvalue": "Movimento do trackpad",
+	"/actions/lasermouse_secondary": "Rato laser secund
+	"/actions/lasermouse_secondary/in/switchlaserhand": "Tornar m
+	"/actions/normal": "Opera
+	"/actions/scroll_discrete": "Desloca
 	"/actions/scroll_discrete/in/scroll": "Deslocar painel",
+	"/actions/scroll_smooth": "Desloca
 	"/actions/scroll_smooth/in/scroll": "Deslocar painel",
-	"/actions/lasermouse_secondary/in/switchlaserhand": "Tornar mão ativa",
-	"/actions/dualanalog/in/rightclick": "Clique de teclado direito",
-	"/actions/dualanalog/in/leftclick": "Clique de teclado esquerdo",
-	"/actions/dualanalog/in/righttouch": "Toque de teclado direito",
-	"/actions/dualanalog/in/lefttouch": "Toque de teclado esquerdo",
-	"/actions/dualanalog/in/rightvalue": "Movimento de teclado direito",
-	"/actions/dualanalog/in/leftvalue": "Movimento de teclado esquerdo",
-	"/actions/dualanalog/in/modeswitch1": "Mostrar maiúsculas",
-	"/actions/dualanalog/in/modeswitch2": "Mostrar símbolos",
-	"/actions/dualanalog/in/cancel": "Fechar teclado",
-	"/actions/system/in/systembuttonchord": "Modo de ações do sistema",
-	"/actions/system/in/toggleroomview": "Alternar vista da divisão",
-	"/actions/system/in/volumeup": "Volume (+)",
-	"/actions/system/in/volumedown": "Volume (-)",
-	"/actions/system/in/toggledashboard": "Abrir/fechar Painel",
-	"/actions/system/in/showpowermenu": "Mostrar menu de energia",
-	"/actions/system/in/takescreenshot": "Tirar captura de ecrã",
+	"/actions/system": "A
+	"/actions/system/in/CloseDashboard": "Fechar Painel",
+	"/actions/system/in/OpenDashboard": "Abrir Painel",
+	"/actions/system/in/ShowPowerMenu": "Mostrar menu de energia",
+	"/actions/system/in/SystemButtonChord": "Modo de a
+	"/actions/system/in/TakeScreenshot": "Tirar captura de ecr
+	"/actions/system/in/ToggleDashboard": "Abrir/fechar Painel",
+	"/actions/system/in/ToggleRoomView": "Alternar vista da divis
 	"/actions/system/in/mutemicrophone": "Silenciar microfone",
-	"/actions/normal": "Operação normal",
-	"/actions/chord": "Atalhos do sistema",
-	"/actions/lasermouse": "Rato laser",
-	"/actions/lasermouse_secondary": "Rato laser secundário",
-	"/actions/dualanalog": "Entrada de teclado",
-	"/actions/system": "Ações do sistema",
-	"/actions/scroll_discrete": "Deslocação tipo roda de rato",
-	"/actions/scroll_smooth": "Deslocação tipo trackpad"
-}
+	"/actions/system/in/showpowermenu": "Mostrar menu de energia",
+	"/actions/system/in/systembuttonchord": "Modo de a
+	"/actions/system/in/takescreenshot": "Tirar captura de ecr
+	"/actions/system/in/toggledashboard": "Abrir/fechar Painel",
+	"/actions/system/in/toggleroomview": "Alternar vista da divis
+	"/actions/system/in/volumedown": "Volume (-)",
+	"/actions/system/in/volumeup": "Volume (+)",
+	"language_tag": "pt_PT",
+cio",
+es do sistema",
+mbolos",
+o ativa",
+o do rato",
+o normal",
+o tipo roda de rato",
+o tipo trackpad"
+rio",
+sculas",

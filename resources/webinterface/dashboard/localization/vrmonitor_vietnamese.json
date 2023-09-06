@@ -1,370 +1,688 @@
-{
-	"language": "vietnamese",
-	"VRMonitor_Nav_Overview": "Tổng quan",
-	"VRMonitor_Nav_Settings": "Thiết lập",
-	"VRMonitor_Nav_Help": "Trợ giúp",
-	"VRMonitor_Nav_Developer": "Nhà phát triển",
-	"Settings_ControllerSettings": "Thiết lập tay cầm",
-	"Settings_Controller_ShowBindingCallouts": "Hiện cấu hình nút bộ tay cầm",
-	"Settings_Controller_ShowBindingCalloutsInVR": "Hiện cấu hình nút bộ tay cầm trong VR",
-	"Settings_Controller_AdvancedControllerSettings": "Quản lý cấu hình nút tay cầm",
-	"Settings_Controller_ControllerBindingPrompt": "Thiết lập cấu hình nút tay cầm",
-	"Settings_Controller_DefaultBinding": "Mặc định",
-	"Settings_Controller_CustomBinding": "Tùy biến",
-	"Settings_ThumbstickDeadzone_Text": "Vùng chết thumbstick",
-	"Settings_ThumbstickDeadzone_Desc": "Điều chỉnh vùng chết cho tất cả thumbstick.",
-	"Settings_DominantHand": "Tay thuận",
-	"Settings_DominantHand_Left": "Trái",
-	"Settings_DominantHand_Right": "Phải",
-	"Settings_Loading_CurrentBinding": "Đang tải cấu hình nút hiện tại...",
-	"Settings_NeedSteamTo_ViewAndEditBindings": "Khởi động Steam để xem và sửa cấu hình nút.",
-	"VRMonitor_Overview_SystemStatus_Title": "Trạng thái hệ thống",
-	"VRMonitor_Overview_DeviceStatus_Title": "Trạng thái thiết bị",
-	"VRMonitor_Overview_Notifications_Title": "Thông báo",
-	"VRMonitor_Overview_QuickLinks_Title": "Liên kết nhanh",
-	"VRMonitor_Overview_QuickLinks_Knock": "Cốc cốc",
-	"VRMonitor_Overview_QuickLinks_Knock_Desc": "Gây sự chú ý tới người dùng mũ chụp",
-	"VRMonitor_Overview_QuickLinks_RoomSetup": "Cài đặt phòng",
-	"VRMonitor_Overview_QuickLinks_RoomSetup_Desc": "Thiết lập tường bao Chaperone",
-	"VRMonitor_Overview_QuickLinks_Tutorial": "Hướng dẫn SteamVR",
-	"VRMonitor_Overview_QuickLinks_Tutorial_Desc": "Học cách dùng mũ chụp VR của bạn",
-	"SystemStatus_FrameRate_Good": "Tốc độ khung hình tốt",
-	"SystemStatus_FrameRate_MissedFrames": "Thiếu hụt khung hình",
-	"SystemStatus_FrameRate_now": "bây giờ",
-	"SystemStatus_FrameRate_7sec": "7 giây",
-	"SystemStatus_FrameRate_15sec": "15 giây",
-	"VRDevFiles_PathHandles": "Đường dẫn handle",
-	"VRDevFiles_JSON": "JSON",
-	"VRDevFiles_Logging": "Nhật ký",
-	"VRDevFiles_Configuration": "Cấu hình",
-	"VRDevFiles_USBDevices": "Thiết bị USB",
-	"VRDevConsole_ShowLogName": "Hiện tên nhật ký",
-	"VRDevConsole_Showtimestamp": "Hiện mốc thời gian",
-	"VRMonitor_DevNav_Console": "Console",
-	"VRMonitor_DevNav_RoomOverview": "Tổng quan phòng",
-	"VRMonitor_DevNav_Files": "Tập tin",
-	"Settings_SelectAnOption": "Lấy một tùy chọn...",
-	"Settings_BluetoothSettings": "Thiết lập Bluetooth",
-	"Settings_BaseStationSettings": "Thiết lập trạm theo dõi",
-	"Settings_Audio_Playback_Automatic_Label": "Thiết bị phát âm thanh",
-	"Settings_Audio_Recording_Automatic_Label": "Thiết bị nhận âm thanh",
-	"Settings_Audio_Headset": "Mũ chụp",
-	"Settings_Audio_Manual": "Thủ công",
-	"Settings_Audio_Mirroring_Label": "Lặp lại âm thanh",
-	"Settings_Audio_Mirroring_Independent_Volume_Label": "Điều khiển âm lượng âm thanh lặp riêng biệt (beta)",
-	"Settings_Audio_Default": "Mặc định cho hệ thống",
-	"Settings_Audio_Current_Setting_Unknown": "(Thiết bị được chọn hiện tại không có)",
-	"Settings_Audio_HDMIGain": "Giảm khuếch đại trên VIVE HDMI Audio",
-	"Settings_Audio_SpeakerJackOutput": "Phát âm cả loa / jack âm thanh 3.5mm",
-	"Settings_Audio_SpeakerJackOutput_Title": "Cho phép âm thanh từ cả 2 tín hiệu ra với bộ loa cách tai và jack âm thanh 3.5mm",
-	"Settings_Audio_Single": "Đơn",
-	"Settings_Audio_Dual": "Đôi",
-	"Settings_Audio_MicMonitor": "Theo dõi mic (sidetone)",
-	"Settings_Audio_Active": "Hoạt động",
-	"Settings_Audio_Muted": "Tắt tiếng",
-	"Settings_SectionTitle_Advanced": "Nâng cao",
-	"Settings_SectionTitle_Developer": "Nhà phát triển",
-	"Settings_SectionTitle_Dashboard": "Trang tổng quan",
-	"Settings_SectionTitle_General": "Tổng quát",
-	"Settings_SectionTitle_Applications": "Ứng dụng",
-	"Settings_SectionTitle_Audio": "Âm thanh",
-	"Settings_SectionTitle_Video": "Video",
-	"Settings_SectionTitle_Camera": "Camera",
-	"Settings_SectionTitle_Bluetooth": "Bluetooth",
-	"Settings_SectionTitle_Power": "Điện năng",
-	"Settings_SectionTitle_StartupShutdown": "Khởi động / Tắt",
-	"Settings_SectionTitle_Home": "Trang chủ",
-	"Settings_SectionTitle_PlayArea": "Không gian chơi",
-	"Settings_SectionTitle_BaseStation": "Trạm theo dõi",
-	"Settings_SectionTitle_Controller": "Bộ tay cầm",
-	"Advanced_AllowSavingOfTimingInfo": "Cho phép lưu thông tin thời gian",
-	"Advanced_AutoSaveTimingInfoOnExit": "Tự động lưu thông tin thời gian khi thoát",
-	"Settings_EnableWebHelperDebugger": "Bật debugger cho web helper",
-	"Settings_EnableWebHelperDebuggerDesc": "Bật máy chủ debugging để gắn với công cụ phát triển và gỡ lỗi của Chromium tới các trang được đính trên Chromium. Nó luôn được kích hoạt trên các bản dựng Perforce.",
-	"Advanced_PerfGraphInHMD": "Hiện đồ thị hiệu năng GPU trong mũ chụp",
-	"Advanced_SaveFrameDataNow": "Lưu dữ liệu khung hình",
-	"Explanation_DisableEnhancedPowerManagement": "Tắt Windows Enhanced Power Management cho thiết bị USB SteamVR nếu bạn gặp một hiện tượng mất khả năng theo dõi không giải thích được hoặc không thể bắt cặp bộ điều khiển không dây. ",
-	"Explanation_QuickCalibrate": "Nhanh chóng đặt lại cài đặt phòng bạn có. Với trải nghiệm VR đứng và tỷ lệ phòng, khu vực giới hạn sẽ lấy tâm như sau: Mũ chụp của bạn đặt trên sàn, ngay giữa không gian của bạn.",
-	"Explanation_RebootVive": "Khởi động lại mũ chụp của tôi - tác động này có thể sửa vấn đề USB liên quan đến mũ chụp.",
-	"Explanation_RemoveAllSteamVRUSBDevices": "Để cài lại driver, vui lòng gỡ bỏ mọi thiết bị USB liên quan đến SteamVR khỏi máy này.",
-	"Explanation_ResetDismissableWarnings": "Các cảnh báo tạm được đặt lại và sẽ hiện lần nữa nếu cần.",
-	"MenuAction_DisableEnhancedPowerManagement": "Tắt quản lý điện năng",
-	"MenuAction_QuickCalibrate": "Hiệu chỉnh nhanh",
-	"MenuAction_RebootVive": "Khởi động lại mũ chụp",
-	"MenuAction_RecordTrackingData": "Lưu dữ liệu theo dõi",
-	"MenuAction_RemoveAllSteamVRUSBDevices": "Gỡ bỏ mọi thiết bị USB của SteamVR",
-	"MenuAction_ResetDismissableWarnings": "Đặt lại cảnh báo",
-	"MenuAction_SetConfigDirectory": "Đặt thư mục thiết lập",
-	"MenuAction_SetLogDirectory": "Đặt thư mục nhật ký",
-	"Settings_Advanced_AllowSupersampleFiltering": "Tính năng lọc Supersample nâng cao",
-	"Settings_Video_HDCP14LegacyCompatibility": "Tương thích với HDCP 1.4 cũ",
-	"Settings_Advanced_Paths_Header": "Đường dẫn",
-	"Settings_Advanced_Reset_Header": "Đặt lại",
-	"Settings_Advanced_Status_Header": "Kiểm tra trạng thái",
-	"Settings_ShowSettingsInDashboard": "Hiển thẻ thiết lập",
-	"Settings_ShowPowerMenu": "Hiện tùy chọn điện năng",
-	"Settings_AllowAppQuitting": "Cho phép thoát ứng dụng từ trang tổng quan",
-	"Settings_ShowDesktopViews": "Hiện thẻ desktop",
-	"Settings_CheckForSteam": "Kiểm tra Steam",
-	"Settings_DebugInputBindings": "Bật tùy chọn debug trong giao diện gán phím tương tác",
-	"Advanced_GlobalActionSetPriority": "Cho phép tương tác chung từ lớp phủ (Thử nghiệm)",
-	"Settings_FadeToGrid": "Ẩn về lưới khi ứng dụng treo",
-	"Settings_EnableDashboard": "Trang tổng quan VR trên nút System",
-	"Settings_EnableDashboardDesc": "Cho phép Trang tổng quan VR xuất hiện khi ấn nút System.",
-	"Settings_HomeAppCheck": "SteamVR Home",
-	"Settings_HomeAppDesc": "Tận hưởng môi trường ảo, tính năng xã hội, và nhiều thứ khác.",
-	"Settings_LargeSpace": "Không gian lớn",
-	"Settings_LockedModeCheck": "Chế độ khóa",
-	"Settings_LockedModeDesc": "Cho phép dựng khung hình tới mũ chụp khi máy tính đang khóa.",
-	"Settings_PauseOnStandby": "Ngừng VR khi mũ chụp ở trạng thái nhàn rỗi (idle)",
-	"Settings_PauseOnLocked": "Tạm dừng VR khi máy tính bị khóa",
-	"Settings_OverlayRenderQuality": "Chất lượng dựng lớp phủ",
-	"Settings_Auto_Parenthesized": "Tự động (%1$s)",
-	"Settings_Auto": "Tự động",
-	"Settings_High": "Cao",
-	"Settings_Medium": "Trung bình",
-	"Settings_Low": "Thấp",
-	"Settings_Animations": "Chuyển động",
-	"Settings_MediumSpace": "Không gian vừa",
-	"Settings_NightModeCheck": "Chế độ ban đêm",
-	"Settings_NightModeDesc": "Giảm độ sáng mũ chụp đến 5 giờ sáng (hoặc đến khi khởi động lại SteamVR).",
-	"Settings_ShowPlaylistMenu": "Hiển thị trình đơn danh sách phát",
-	"Settings_SmallSpace": "Không gian nhỏ",
-	"Settings_StatusWindowAlwaysOnTop_Info": " ",
-	"Settings_StatusWindowAlwaysOnTop_Text": "SteamVR luôn nằm trên đầu",
-	"Settings_StatusWindowMinimizeToTray_Text": "Khi thu nhỏ, cửa sổ trạng thái SteamVR sẽ được thu về thanh hệ thống",
-	"Settings_SuppressWarnings_Text": "Hạn chế các cảnh báo và thông báo khi cửa sổ SteamVR Status đang được thu nhỏ",
-	"StatusCheckInterval_Never": "Không bao giờ",
-	"StatusCheckInterval_Normal": "Thường (1 giây)",
-	"StatusCheckInterval_Often": "Thường xuyên (100 mili giây)",
-	"StatusCheckInterval_Seldom": "Thi thoảng (5 giây)",
-	"Settings_KnockKnock_Button": "Cốc cốc",
-	"Settings_KnockKnock_Desc": "Tính năng này cho phép người ở ngoài môi trường VR gây chú ý tới người đang đội mũ chụp",
-	"Settings_CreateSystemReport_Button": "Tạo báo cáo hệ thống",
-	"Settings_ViewLogs_Button": "Xem nhật ký",
-	"Settings_Video_RefreshRate_Header": "Tốc độ cập nhật khung hình",
-	"Settings_Video_RefreshRate_HzSuffix": " Hz",
-	"Settings_Video_RefreshRate_Label_Hz": "Tốc độ cập nhật khung hình (Hz)",
-	"Settings_Video_RefreshRate_NotFound": "Mũ chụp của bạn có hỗ trợ thêm các tốc độ cập nhật khung hình khác, nhưng không được nhận bởi driver card màn hình. Vui lòng kiểm tra lại firmware mũ chụp của bạn và driver card màn hình đã cập nhật phiên bản mới nhất.",
-	"Settings_Video_RefreshRate_NotAvailableExtended": "Mũ chụp của bạn có hỗ trợ thêm các tốc độ cập nhật khung hình khác, nhưng SteamVR không thể quản lý tốc độ khung hình khi mũ chụp ở chế độ mở rộng.",
-	"Settings_Video_RefreshRate_EnableDirectModeAction": "Bật chế độ trực tiếp",
-	"Settings_Video_RefreshRate_OneSupported": "Hệ thống của bạn chỉ hỗ trợ một tốc độ làm mới khung hình.",
-	"Settings_Video_AppResFooter": "Thiết lập hiện tại dựng khung hình cho mỗi mắt ở mức %1$s",
-	"Settings_Advanced_MotionSmoothing_Header": "Làm mượt chuyển động",
-	"Settings_Advanced_MotionSmoothing_Description": "Tổng hợp khung hình mới để duy trì trải nghiệm tốt khi ứng dụng đang chạy không thể bắt kịp.",
-	"Settings_Advanced_MotionSmoothing_Disabled": "Làm mượt chuyển động không được hỗ trợ trên GPU / phiên bản driver này (yêu cầu có hỗ trợ đệm thêm phi đồng bộ).",
-	"Settings_Advanced_MotionSmoothing_Disabled_Win7": "Làm mượt chuyển động không được hỗ trợ trong các phiên bản Windows cũ.",
-	"Settings_Advanced_Supersampling_Auto": "Tự động",
-	"Settings_Advanced_Supersampling_Custom": "Tùy biến",
-	"Settings_Advanced_Supersampling_Header": "Độ phân giải dựng hình",
-	"Settings_Advanced_Supersampling_Warning": "Thiết lập dưới đây ghi đè thiết lập tự động hóa và ảnh hưởng tới mọi ứng dụng. Để thay đổi độ phân giải cho một ứng dụng cụ thể, hãy đến mục thiết lập ứng dụng.",
-	"Settings_Advanced_Supersampling_WidthByHeight": "%1$s × %2$s",
-	"Settings_Advanced_SupersamplingManualOverride": "Bật điều chỉnh độ phân giải",
-	"Settings_Advanced_Supersampline_ResolutionPerEye": "Độ phân giải mỗi mắt",
-	"Explanation_Supersampling_Header": "SteamVR tự động đặt độ phân giải cho ứng dụng của bạn dựa trên khả năng GPU bạn có.",
-	"Explanation_Supersampling": "*Một số ứng dụng cần phải khởi động lại để thiết lập mới có hiệu lực.",
-	"Explanation_SupersamplingFiltering": "Tùy chọn bộ lọc từ độ phân giải cao hơn:",
-	"Explanation_Supersampling_ResolutionPerEye": "Độ phân giải mỗi mắt",
-	"Settings_PerApplication_ChooseApplication": "Chọn một ứng dụng",
-	"Settings_PerApplication_AppResTitle": "Hệ số độ phân giải tùy biến",
-	"Settings_PerApplication_AppResHeader": "Cài đặt này là một hệ số áp dụng lên các cài đặt độ phân giải ứng dụng trên thẻ %1$s bên trái. Có thể cần khởi động lại ứng dụng để cài đặt này có hiệu lực. (Giá trị mặc định là 100%)",
-	"Settings_PerApplication_OverlayVisibleHeader": "Các ứng dụng lớp phủ hiện tại các thẻ trong trang tổng quan SteamVR.",
-	"Settings_PerApplication_OverlayVisibleCheckbox": "Chạy ứng dụng lớp phủ này khi SteamVR khởi chạy.",
-	"Settings_PerApplication_DashboardSuffix": "(Ứng dụng lớp phủ)",
-	"Settings_PerApplication_CustomSuffix": "(Tùy biến)",
-	"Settings_PerApplication_MotionSmoothing_Header": "Làm mượt chuyển động",
-	"Settings_PerApplication_MotionSmoothing_Description": "Dùng ô chọn dưới đây để ghi đè thiết lập chung của làm mượt chuyển động cho ứng dụng này. (Thiết lập chung của làm mượt chuyển động là <font color=#eeeeee>%1</font>)",
-	"Settings_PerApplication_MotionSmoothing_Global": "Dùng thiết lập chung",
-	"Settings_PerApplication_MotionSmoothing_On": "Bật",
-	"Settings_PerApplication_MotionSmoothing_Off": "Tắt",
-	"Settings_PerApplication_MotionSmoothing_AlwaysOn": "Ép luôn luôn bật",
-	"Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc": "Cảnh báo: Ứng dụng sẽ chạy với nửa tốc độ khung hình",
-	"Settings_PerApplication_MotionSmoothing_Checkbox": "Bật làm mượt chuyển động cho ứng dụng này",
-	"Settings_PerApplication_Reprojection_Header": "Đệm thêm khung hình",
-	"Settings_PerApplication_Reprojection_Checkbox": "Dùng đệm thêm khung hình kiểu cũ",
-	"Settings_PerApplication_Reprojection_Description": "Đánh dấu tùy chọn này sẽ tắt đệm thêm phi đồng bộ cho sản phẩm này.",
-	"Settings_PerApplication_RefreshRateOverride_Checkbox": "Ghi đè tốc độ cập nhật",
-	"Settings_Perapplication_RefreshRateOverride_Description": "Lựa chọn này cho phép xác định tốc độ làm mới khung hình khác với thiết lập chung cho ứng dụng này.",
-	"Settings_PerApplication_ThrottlingOverride_Description": "Điều chỉnh và dự đoán được xử lý tự động dựa trên hiệu năng đo được, tuy nhiên, một số ứng dụng sẽ phù hợp bị ép hoạt động ở tốc độ chậm hơn để mang lại trải nghiệm mượt hơn.",
-	"Settings_PerApplication_ThrottlingOverride_Label": "Hành vi điều chỉnh",
-	"Settings_PerApplication_ThrottlingOverride_Toggle": "Chọn một giá trị điều chỉnh cố định ở đây sẽ tắt hành vi điều chỉnh tự động cho ứng dụng này.",
-	"Settings_PerApplication_ThrottlingOverride_Toggle_On": "Cố định",
-	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "Tự động",
-	"Settings_PerApplication_ThrottlingOverride_Framerate": "Khóa lượng khung hình ứng dụng tới (fps tối đa):",
-	"Settings_PerApplication_ThrottlingOverride_Prediction": "Khoảng dự đoán thêm (ms):",
-	"Settings_PerApplication_WorldScale_Description": "Ghi đè giá trị tỉ lệ nhận được bằng cách điểu chỉnh chuyển động đầu và khoảng cách mắt.",
-	"Settings_PerApplication_WorldScale_Label": "Ghi đè tỉ lệ thế giới",
-	"Settings_PerApplication_WorldScale_Off": "Tắt",
-	"Settings_PerApplication_WorldScale_Fine": "Cực thấp",
-	"Settings_PerApplication_WorldScale_Normal": "Bình thường",
-	"Settings_PerApplication_WorldScale_Extreme": "Cực cao",
-	"Settings_PerApplication_WorldScale_Range": "[%1$s% tới %2$s%]",
-	"Settings_PerApplication_WorldScale_Warning": "Lưu ý: Để thay đổi, có thể cần khởi động lại ứng dụng, và/hoặc điều chỉnh tương tác theo cách không mong muốn. Tùy thuộc vào ứng dụng, các tính năng như chuyển động ném có thể bị ảnh hưởng.",
-	"Settings_PerApplication_FovScale_Description": "Có thể tùy chỉnh vùng nhìn của ứng dụng để đổi tầm nhìn ngoại vi lấy độ rõ nét. Lưu ý: Trong một vài trường hợp, ứng dụng sẽ phải khởi động lại để các thay đổi được thực hiện chính xác.",
-	"Settings_PerApplication_FovScale_Label": "Tầm nhìn",
-	"Settings_PerApplication_FovScale_Multiplier": "Tỉ lệ tùy chọn",
-	"Settings_MimeTypes_Pancake_Header": "Chọn một ứng dụng để chạy cùng với các ứng dụng 2D",
-	"Settings_Camera_EnableCamera": "Bật camera",
-	"Settings_Camera_ShowOnController": "Hiện camera trên tay cầm",
-	"Settings_Camera_ShowOnController_Desc": "Bật một cửa sổ camera được gắn vào bộ điều khiển của bạn khi hiện trang tổng quan.",
-	"Settings_Camera_AllowCameraForChaperoneBounds": "Hiện camera ở góc phòng",
-	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
-	"Settings_Camera_AllowCameraForRoomView": "Chế độ nhìn phòng",
-	"Settings_Camera_AllowCameraForRoomView_Desc": "Truy cập hiển thị phòng bất kỳ lúc nào khi nhấp đôi nút System",
-	"Settings_Camera_Compatibility": "Tốc độ camera",
-	"Settings_Camera_Rate_Hz": "Tốc độ camera (Hz)",
-	"Settings_Camera_CompatibilityExplanation": "Nếu bạn gặp hiện tượng mất khả năng theo dõi định vị, hãy thử hạ thấp tốc độ camera, tắt nó đi, hoặc thử cổng USB khác.",
-	"Settings_Camera_RoomViewStyle": "Kiểu chế độ nhìn phòng",
-	"Settings_Camera_RoomViewStyle_EdgeA": "Màu các cạnh",
-	"Settings_Camera_RoomViewStyle_EdgeB": "Màu mảng mờ ảo",
-	"Settings_Camera_RoomViewStyle_VideoTranslucent": "Trong suốt có thể xuyên qua",
-	"Settings_Camera_RoomViewStyle_VideoOpaque": "Cản quang có thể xuyên qua",
-	"Settings_Camera_RoomView3D_Experimental": "Chế độ nhìn phòng 3D đang thử nghiệm.",
-	"Settings_Camera_RoomView3D_Unsupported": "Nhìn phòng 3D không được hỗ trợ trên cấu hình mũ chụp / hệ thống này.",
-	"Settings_CameraTest": "Kiểm tra camera và hiệu suất",
-	"Settings_StartCameraTest": "Bắt đầu thử",
-	"CameraTest_CheckingCamera": "Kiểm tra camera...",
-	"CameraTest_CheckingTracking": "Kiểm tra việc theo dõi với camera...",
-	"CameraTest_CameraFailed": "Giao tiếp với camera không thành công",
-	"CameraTest_TrackingFailed": "Theo dõi không thành công với camera đã bật",
-	"CameraTest_Success": "Vượt qua bài kiểm tra camera",
-	"CameraTest": "Kiểm tra camera",
-	"CameraTestStatus_Evaluating": "Đang kiểm tra",
-	"CameraTestStatus_Success": "Thành công",
-	"CameraTestStatus_Failure": "Thất bại",
-	"Advanced_Appearance": "Diện mạo",
-	"Settings_Appearance_Background": "Hình nền",
-	"Settings_Appearance_Background_NoSteam": "Khởi động Steam để xem hình nền bổ sung bất kỳ.",
-	"Settings_Appearance_Background_Select": "Đổi ảnh nền",
-	"Settings_Appearance_BackgroundDesc": "Chọn một hình nền cho không gian mặc định",
-	"Settings_Appearance_UseDomeProjection": "Dùng hình chiếu mái vòm",
-	"Settings_Appearance_UseDomeProjectionDesc": "Thay đổi cách chiếu của ảnh nền. Một số ảnh nền dùng tính năng này để tạo trải nghiệm đê mê hơn. Nếu ảnh nền của bạn có vẻ méo mó, hãy thử bật tính năng này",
-	"Settings_Appearance_DomeCameraHeight": "Chiều cao camera",
-	"Settings_Appearance_DomeCameraHeightDesc": "Chỉnh chiều cao camera so với ảnh nền",
-	"Settings_Appearance_DomeCameraRadius": "Bán kính mái vòm",
-	"Settings_Appearance_DomeCameraRadiusDesc": "Đổi kích thước mái vòm.",
-	"Settings_Appearance_ResetDomeProjectionSettings": "Cài đặt hình chiếu mái vòm về mặc định",
-	"Settings_Appearance_PlayAreaColorDesc": "Chỉnh phong cách cho không gian chơi của bạn. Bạn sẽ thấy nó khi trò chơi đang được nạp, hoặc khi không bật trang chủ beta SteamVR",
-	"Settings_Appearance_PlayArea_FloorColor": "Màu sàn khu vực chơi",
-	"Settings_Appearance_MoreEnvironments": "Lấy thêm các môi trường nhà khác cho SteamVR",
-	"Settings_Power_ReturnToWatchdogTimeout": "Thoát SteamVR sau",
-	"Settings_Power_TurnOffScreensTimeout": "Tắt màn hình sau",
-	"Settings_Power_TurnOffControllersTimeout": "Tắt bộ điều khiển sau",
-	"Settings_Power_ControllerOffOnExit": "Tắt bộ điều khiển khi thoát SteamVR",
-	"Settings_General_Notifications_Label": "Thông báo",
-	"Settings_General_Notifications_Text": "Cho phép thông báo khi dùng VR",
-	"Settings_General_ShowBindingUI": "Sửa gán nút tay cầm",
-	"Settings_General_ShowTrackerUI": "Quản lý Vive Tracker",
-	"Settings_General_Cancel": "Hủy",
-	"Settings_General_Confirm": "Xác nhận",
-	"Settings_General_Close": "Đóng",
-	"Settings_General_CalibrateThumbstick": "Căn chỉnh Thumbstick",
-	"Settings_General_CalibrateThumbstick_ConnectAController": "Kết nối tay cầm với thumbstick.",
-	"Settings_General_NotEnoughSamples": "Vui lòng kéo thumbstick lên ít nhất %1$s lần nữa để hoàn thiện căn chỉnh.",
-	"Settings_General_InviteMoreSamples": "Góc đã tính toán: %1$s°. Tiếp tục kéo lên để tinh chỉnh giá trị đó hoặc nhấn nút Xác nhận để chấp nhận giá trị căn chỉnh này.",
-	"Settings_General_LeftThumbstickAngle": "Góc thumbstick trái: %1$s°",
-	"Settings_General_RightThumbstickAngle": "Góc thumbstick phải: %1$s°",
-	"Settings_General_LeftThumbstickAngle_NoValue": "Góc thumbstick trái",
-	"Settings_General_RightThumbstickAngle_NoValue": "Góc thumbstick phải",
-	"Settings_Dashboard_ShowProgressIndicator": "Thanh quá trình ấn giữ",
-	"Settings_Dashboard_Position": "Vị trí trang tổng quan",
-	"Settings_Classic": "Cổ điển",
-	"Settings_Near": "Gần",
-	"Settings_Middle": "Giữa",
-	"Settings_Far": "Xa",
-	"Settings_DesktopScale": "Tỷ lệ desktop",
-	"Settings_DashboardScale": "Tỷ lệ trang tổng quan",
-	"Settings_DesktopDarkMode": "Desktop chế độ tối",
-	"Settings_ToggleDarkMode": "Bật tắt chế độ tối",
-	"Settings_Dark": "Tối",
-	"SettingsTime_5s": "5 giây",
-	"SettingsTime_30s": "30 giây",
-	"SettingsTime_1m": "1 phút",
-	"SettingsTime_5m": "5 phút",
-	"SettingsTime_10m": "10 phút",
-	"SettingsTime_20m": "20 phút",
-	"SettingsTime_30m": "30 phút",
-	"SettingsTime_1h": "1 giờ",
-	"SettingsTime_Never": "Không bao giờ",
-	"Settings_Appearance_CycleBackgroundImageTimeSec": "Đổi ảnh nền sau:",
-	"Settings_Chaperone_BoundsColor": "Màu sắc",
-	"Settings_Chaperone_BoundsTransparency": "Độ trong suốt",
-	"Settings_Chaperone_Color": "Màu sắc",
-	"Settings_Chaperone_ActivationDistance": "Khoảng cách kích hoạt (m)",
-	"Settings_Chaperone_WallHeight": "Chiều cao tường (m)",
-	"Settings_Chaperone_SuitableForSmall": "Phù hợp không gian chơi nhỏ. Xin hãy cẩn thận.",
-	"Settings_Chaperone_SuitableForMedium": "Dành cho không gian chơi vừa.",
-	"Settings_Chaperone_SuitableForLarge": "Dành cho không gian chơi lớn.",
-	"Settings_Chaperone_Style": "Kiểu Chaperone",
-	"Settings_Chaperone_Style_0": "Lưới (Dày)",
-	"Settings_Chaperone_Style_1": "Lưới (Trung bình)",
-	"Settings_Chaperone_Style_2": "Ô vuông",
-	"Settings_Chaperone_Style_3": "Lưới (Thưa)",
-	"Settings_Chaperone_Style_4": "Chỉ hiện ở sàn",
-	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Luôn hiện giới hạn sàn",
-	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
-	"Settings_Appearance_Controller": "Thay đổi mô hình bộ điều khiển của bạn",
-	"Settings_Appearance_Base": "Thay đổi mô hình trạm theo dõi của bạn",
-	"Settings_Appearance_Environment": "Thay đổi môi trường trang chủ của bạn",
-	"Settings_ConnectAnHMD": "Xin hãy kết nối với mũ chụp.",
-	"Settings_Loading": "Đang tải...",
-	"Settings_ResetToDefault": "Đặt lại về mặc định",
-	"Settings_ResetPageToDefault": "Đặt lại trang về mặc định",
-	"Settings_ToggleButton_On": "Bật",
-	"Settings_ToggleButton_Off": "Tắt",
-	"Settings_ToggleButton_Disable": "Tắt",
-	"Settings_ToggleButton_Enable": "Bật",
+	"Advanced_AllowSavingOfTimingInfo": "Cho ph
+	"Advanced_Appearance": "Di
+	"Advanced_AutoSaveTimingInfoOnExit": "T
+	"Advanced_GlobalActionSetPriority": "Cho ph
+	"Advanced_PerfGraphInHMD": "Hi
+	"Advanced_SaveFrameDataNow": "L
+	"CameraTest": "Ki
+	"CameraTestStatus_Evaluating": "
+	"CameraTestStatus_Failure": "Th
+	"CameraTestStatus_Success": "Th
+	"CameraTest_CameraFailed": "Giao ti
+	"CameraTest_CheckingCamera": "Ki
+	"CameraTest_CheckingTracking": "Ki
+	"CameraTest_Success": "V
+	"CameraTest_TrackingFailed": "Theo d
+	"Explanation_DisableEnhancedPowerManagement": "T
+	"Explanation_QuickCalibrate": "Nhanh ch
+	"Explanation_RebootVive": "Kh
+	"Explanation_RemoveAllSteamVRUSBDevices": "
+	"Explanation_ResetDismissableWarnings": "C
+	"Explanation_Supersampling": "*M
+	"Explanation_SupersamplingFiltering": "T
+	"Explanation_Supersampling_Header": "SteamVR t
+	"Explanation_Supersampling_ResolutionPerEye": "
+	"MenuAction_DisableEnhancedPowerManagement": "T
+	"MenuAction_QuickCalibrate": "Hi
+	"MenuAction_RebootVive": "Kh
+	"MenuAction_RecordTrackingData": "L
+	"MenuAction_RemoveAllSteamVRUSBDevices": "G
+	"MenuAction_ResetDismissableWarnings": "
+	"MenuAction_SetConfigDirectory": "
+	"MenuAction_SetLogDirectory": "
+	"OpenXR_AnotherSteamVR": "M
+	"OpenXR_Error": "L
+	"OpenXR_None": "Kh
+	"OpenXR_OculusRuntime": "Oculus",
+	"OpenXR_SteamVR": "SteamVR",
+	"OpenXR_WindowsMixedReality": "Windows Mixed Reality",
+	"SettingsTime_10m": "10 ph
+	"SettingsTime_1h": "1 gi
+	"SettingsTime_1m": "1 ph
+	"SettingsTime_20m": "20 ph
+	"SettingsTime_30m": "30 ph
+	"SettingsTime_30s": "30 gi
+	"SettingsTime_5m": "5 ph
+	"SettingsTime_5s": "5 gi
+	"SettingsTime_Never": "Kh
 	"Settings_2D": "2D",
 	"Settings_3D": "3D",
-	"Settings_Header_SteamVR": "Thiết lập SteamVR",
-	"Settings_MustRestart_Description": "Phải khởi động lại SteamVR để một số thay đổi có hiệu lực.",
-	"Settings_MustRestart_RestartSteamVR_Button": "Khởi động lại SteamVR",
-	"Settings_MustQuitApp_Description": "Xin thoát trò đang chơi để các thay đổi được thực hiện.",
-	"Settings_MustQuitApp_QuitCurrentGame_Button": "Thoát trò chơi",
-	"Settings_NotSupported": "Không được hỗ trợ",
-	"Settings_AdvancedSettings": "Thiết lập nâng cao",
-	"Settings_Show": "Hiện",
-	"Settings_Hide": "Ẩn",
+	"Settings_ActiveBinding": "C
+	"Settings_ActiveController": "Tay c
+	"Settings_ActiveControllerBinding": "G
+	"Settings_AdvancedSettings": "Thi
+	"Settings_Advanced_AllowSupersampleFiltering": "T
+	"Settings_Advanced_MotionSmoothing_Description": "T
+	"Settings_Advanced_MotionSmoothing_Disabled": "L
+	"Settings_Advanced_MotionSmoothing_Disabled_Win7": "L
+	"Settings_Advanced_MotionSmoothing_Header": "L
+	"Settings_Advanced_Paths_Header": "
+	"Settings_Advanced_Reset_Header": "
+	"Settings_Advanced_Status_Header": "Ki
+	"Settings_Advanced_Supersampline_ResolutionPerEye": "
+	"Settings_Advanced_SupersamplingManualOverride": "B
+	"Settings_Advanced_Supersampling_Auto": "T
+	"Settings_Advanced_Supersampling_Custom": "T
+	"Settings_Advanced_Supersampling_Header": "
+	"Settings_Advanced_Supersampling_Warning": "Thi
+	"Settings_Advanced_Supersampling_WidthByHeight": "%1$s 
+	"Settings_AllowAppQuitting": "Cho ph
+	"Settings_Animations": "Chuy
+	"Settings_Appearance_Background": "H
+	"Settings_Appearance_BackgroundDesc": "Ch
+	"Settings_Appearance_Background_NoSteam": "Kh
+	"Settings_Appearance_Background_Select": "
+	"Settings_Appearance_Base": "Thay 
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Lu
+	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
+	"Settings_Appearance_Controller": "Thay 
+	"Settings_Appearance_CycleBackgroundImageTimeSec": "
+	"Settings_Appearance_DomeCameraHeight": "Chi
+	"Settings_Appearance_DomeCameraHeightDesc": "Ch
+	"Settings_Appearance_DomeCameraRadius": "B
+	"Settings_Appearance_DomeCameraRadiusDesc": "
+	"Settings_Appearance_Environment": "Thay 
+	"Settings_Appearance_MoreEnvironments": "L
+	"Settings_Appearance_PlayAreaColorDesc": "Ch
+	"Settings_Appearance_PlayArea_FloorColor": "M
+	"Settings_Appearance_ResetDomeProjectionSettings": "C
+	"Settings_Appearance_UseDomeProjection": "D
+	"Settings_Appearance_UseDomeProjectionDesc": "Thay 
+	"Settings_Audio_Active": "Ho
+	"Settings_Audio_Current_Setting_Unknown": "(Thi
+	"Settings_Audio_Default": "M
+	"Settings_Audio_Dual": "
+	"Settings_Audio_HDMIGain": "Gi
+	"Settings_Audio_Headset": "M
+	"Settings_Audio_Manual": "Th
+	"Settings_Audio_MicMonitor": "Theo d
+	"Settings_Audio_Mirroring_Independent_Volume_Label": "
+	"Settings_Audio_Mirroring_Label": "L
+	"Settings_Audio_Muted": "T
+	"Settings_Audio_Playback_Automatic_Label": "Thi
+	"Settings_Audio_Recording_Automatic_Label": "Thi
+	"Settings_Audio_Single": "
+	"Settings_Audio_SpeakerJackOutput": "Ph
+	"Settings_Audio_SpeakerJackOutput_Title": "Cho ph
+	"Settings_Auto": "T
+	"Settings_Auto_Parenthesized": "T
+	"Settings_BaseStationSettings": "Thi
+	"Settings_BluetoothSettings": "Thi
+	"Settings_CameraTest": "Ki
+	"Settings_Camera_AllowCameraForChaperoneBounds": "Hi
+	"Settings_Camera_AllowCameraForChaperoneBounds_Desc": " ",
+	"Settings_Camera_AllowCameraForRoomView": "Ch
+	"Settings_Camera_AllowCameraForRoomView_Desc": "Truy c
+	"Settings_Camera_Compatibility": "T
+	"Settings_Camera_CompatibilityExplanation": "N
+	"Settings_Camera_EnableCamera": "B
+	"Settings_Camera_Rate_Hz": "T
+	"Settings_Camera_RoomView3D_Experimental": "Ch
+	"Settings_Camera_RoomView3D_Unsupported": "Nh
+	"Settings_Camera_RoomViewStyle": "Ki
+	"Settings_Camera_RoomViewStyle_EdgeA": "M
+	"Settings_Camera_RoomViewStyle_EdgeB": "M
+	"Settings_Camera_RoomViewStyle_VideoOpaque": "C
+	"Settings_Camera_RoomViewStyle_VideoTranslucent": "Trong su
+	"Settings_Camera_ShowOnController": "Hi
+	"Settings_Camera_ShowOnController_Desc": "B
+	"Settings_Chaperone_ActivationDistance": "Kho
+	"Settings_Chaperone_BoundsColor": "M
+	"Settings_Chaperone_BoundsTransparency": "
+	"Settings_Chaperone_Color": "M
+	"Settings_Chaperone_Style": "Ki
+	"Settings_Chaperone_Style_0": "L
+	"Settings_Chaperone_Style_1": "L
+	"Settings_Chaperone_Style_2": "
+	"Settings_Chaperone_Style_3": "L
+	"Settings_Chaperone_Style_4": "Ch
+	"Settings_Chaperone_SuitableForLarge": "D
+	"Settings_Chaperone_SuitableForMedium": "D
+	"Settings_Chaperone_SuitableForSmall": "Ph
+	"Settings_Chaperone_WallHeight": "Chi
+	"Settings_CheckForSteam": "Ki
+	"Settings_ChooseStartupOverlayApps": "Ch
+	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "Kh
+	"Settings_Classic": "C
+	"Settings_ConnectAnHMD": "Xin h
+	"Settings_ControllerSettings": "Thi
+	"Settings_Controller_AdvancedControllerSettings": "Qu
+	"Settings_Controller_ControllerBindingPrompt": "Thi
+	"Settings_Controller_CustomBinding": "T
+	"Settings_Controller_DefaultBinding": "M
+	"Settings_Controller_ShowBindingCallouts": "Hi
+	"Settings_Controller_ShowBindingCalloutsInVR": "Hi
+	"Settings_CreateSystemReport_Button": "T
+	"Settings_CurrentOpenXRRuntime": "Th
+	"Settings_CurrentOpenXRRuntime_None": "Kh
+	"Settings_Dark": "T
+	"Settings_DashboardScale": "T
+	"Settings_Dashboard_Position": "V
+	"Settings_Dashboard_ShowProgressIndicator": "Thanh qu
+	"Settings_DebugInputBindings": "B
+	"Settings_DesktopDarkMode": "Desktop ch
+	"Settings_DesktopScale": "T
+	"Settings_DominantHand": "Tay thu
+	"Settings_DominantHand_Left": "Tr
+	"Settings_DominantHand_Right": "Ph
+	"Settings_Drivers_Header": "Qu
+	"Settings_Drivers_Number_Blocked": "
+	"Settings_Drivers_Number_Disabled": "
+	"Settings_Drivers_ShowDriverManagerUI": "Qu
+	"Settings_Drivers_SomeBlocked": "M
+	"Settings_Drivers_Unblock": "M
+	"Settings_Drivers_UnblockAll": "M
+	"Settings_Drivers_UnblockAllTip": "L
+	"Settings_EditBinding": "S
+	"Settings_EditBinding_ChooseAnother": "Ch
+	"Settings_EnableDashboard": "Trang t
+	"Settings_EnableDashboardDesc": "Cho ph
+	"Settings_EnableWebHelperDebugger": "B
+	"Settings_EnableWebHelperDebuggerDesc": "B
+	"Settings_FadeToGrid": "
+	"Settings_Far": "Xa",
+	"Settings_General_CalibrateThumbstick": "C
+	"Settings_General_CalibrateThumbstick_ConnectAController": "K
+	"Settings_General_Cancel": "H
+	"Settings_General_Close": "
+	"Settings_General_Confirm": "X
+	"Settings_General_InviteMoreSamples": "G
+	"Settings_General_LeftThumbstickAngle": "G
+	"Settings_General_LeftThumbstickAngle_NoValue": "G
+	"Settings_General_NotEnoughSamples": "Vui l
+	"Settings_General_Notifications_Label": "Th
+	"Settings_General_Notifications_Text": "Cho ph
+	"Settings_General_RightThumbstickAngle": "G
+	"Settings_General_RightThumbstickAngle_NoValue": "G
+	"Settings_General_ShowBindingUI": "S
+	"Settings_General_ShowTrackerUI": "Qu
+	"Settings_Header_SteamVR": "Thi
+	"Settings_Hide": "
+	"Settings_High": "Cao",
+	"Settings_HomeAppCheck": "SteamVR Home",
+	"Settings_HomeAppDesc": "T
+	"Settings_KnockKnock_Button": "C
+	"Settings_KnockKnock_Desc": "T
+	"Settings_LargeSpace": "Kh
+	"Settings_Loading": "
+	"Settings_Loading_CurrentBinding": "
+	"Settings_LockedModeCheck": "Ch
+	"Settings_LockedModeDesc": "Cho ph
+	"Settings_Low": "Th
+	"Settings_ManageControllerBindingSettingsForApp": "Qu
+	"Settings_ManageVideoSettingsForApp": "Qu
+	"Settings_Medium": "Trung b
+	"Settings_MediumSpace": "Kh
+	"Settings_Middle": "Gi
+	"Settings_MimeTypes_Pancake_Header": "Ch
+	"Settings_MustQuitApp_Description": "Xin tho
+	"Settings_MustQuitApp_QuitCurrentGame_Button": "Tho
+	"Settings_MustRestart_Description": "Ph
+	"Settings_MustRestart_RestartSteamVR_Button": "Kh
+	"Settings_Near": "G
+	"Settings_NeedSteamTo_ViewAndEditBindings": "Kh
+	"Settings_NightModeCheck": "Ch
+	"Settings_NightModeDesc": "Gi
+	"Settings_NotSupported": "Kh
+	"Settings_Number_Selected": "
+	"Settings_OverlayRenderQuality": "Ch
+	"Settings_PauseOnLocked": "T
+	"Settings_PauseOnStandby": "Ng
+	"Settings_PerApplication_AppResHeader": "C
+	"Settings_PerApplication_AppResTitle": "H
+	"Settings_PerApplication_ChooseApplication": "Ch
+	"Settings_PerApplication_CustomSuffix": "(T
+	"Settings_PerApplication_DashboardSuffix": "(
+	"Settings_PerApplication_FovScale_Description": "C
+	"Settings_PerApplication_FovScale_Label": "T
+	"Settings_PerApplication_FovScale_Multiplier": "T
+	"Settings_PerApplication_MotionSmoothing_AlwaysOn": "
+	"Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc": "C
+	"Settings_PerApplication_MotionSmoothing_Checkbox": "B
+	"Settings_PerApplication_MotionSmoothing_Description": "D
+	"Settings_PerApplication_MotionSmoothing_Global": "D
+	"Settings_PerApplication_MotionSmoothing_Header": "L
+	"Settings_PerApplication_MotionSmoothing_Off": "T
+	"Settings_PerApplication_MotionSmoothing_On": "B
+	"Settings_PerApplication_OverlayVisibleCheckbox": "Ch
+	"Settings_PerApplication_OverlayVisibleHeader": "C
+	"Settings_PerApplication_RefreshRateOverride_Checkbox": "Ghi 
+	"Settings_PerApplication_Reprojection_Checkbox": "D
+	"Settings_PerApplication_Reprojection_Description": "
+	"Settings_PerApplication_Reprojection_Header": "
+	"Settings_PerApplication_ThrottlingOverride_Description": "
+	"Settings_PerApplication_ThrottlingOverride_Framerate": "Kh
+	"Settings_PerApplication_ThrottlingOverride_Label": "H
+	"Settings_PerApplication_ThrottlingOverride_Prediction": "Kho
+	"Settings_PerApplication_ThrottlingOverride_Toggle": "Ch
+	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "T
+	"Settings_PerApplication_ThrottlingOverride_Toggle_On": "C
+	"Settings_PerApplication_VideoSettings": "Thi
+	"Settings_PerApplication_WorldScale_Description": "Ghi 
+	"Settings_PerApplication_WorldScale_Extreme": "C
+	"Settings_PerApplication_WorldScale_Fine": "C
+	"Settings_PerApplication_WorldScale_Label": "Ghi 
+	"Settings_PerApplication_WorldScale_Normal": "B
+	"Settings_PerApplication_WorldScale_Off": "T
+	"Settings_PerApplication_WorldScale_Range": "[%1$s% t
+	"Settings_PerApplication_WorldScale_Warning": "L
+	"Settings_Perapplication_RefreshRateOverride_Description": "L
+	"Settings_Power_ControllerOffOnExit": "T
+	"Settings_Power_ReturnToWatchdogTimeout": "Tho
+	"Settings_Power_TurnOffControllersTimeout": "T
+	"Settings_Power_TurnOffScreensTimeout": "T
+	"Settings_ResetPageToDefault": "
+	"Settings_ResetToDefault": "
+	"Settings_SectionTitle_Advanced": "N
+	"Settings_SectionTitle_Applications": "
+	"Settings_SectionTitle_Audio": "
+	"Settings_SectionTitle_BaseStation": "Tr
+	"Settings_SectionTitle_Bluetooth": "Bluetooth",
+	"Settings_SectionTitle_Camera": "Camera",
+	"Settings_SectionTitle_Controller": "B
+	"Settings_SectionTitle_Dashboard": "Trang t
+	"Settings_SectionTitle_Developer": "Nh
+	"Settings_SectionTitle_General": "T
+	"Settings_SectionTitle_Home": "Trang ch
+	"Settings_SectionTitle_PlayArea": "Kh
+	"Settings_SectionTitle_Power": "
+	"Settings_SectionTitle_StartupShutdown": "Kh
+	"Settings_SectionTitle_Video": "Video",
+	"Settings_SelectAnOption": "L
+	"Settings_SetAsOpenXRRuntime": "
+	"Settings_Show": "Hi
+	"Settings_ShowDesktopViews": "Hi
+	"Settings_ShowOldBindingUI": "Hi
+	"Settings_ShowPlaylistMenu": "Hi
+	"Settings_ShowPowerMenu": "Hi
+	"Settings_ShowSettingsInDashboard": "Hi
+	"Settings_ShowThumbstickSettings": "Thay 
+	"Settings_SmallSpace": "Kh
+	"Settings_StartCameraTest": "B
+	"Settings_StartTheseOverlayAppsOnLaunch": "Ch
+	"Settings_StatusWindowAlwaysOnTop_Info": " ",
+	"Settings_StatusWindowAlwaysOnTop_Text": "SteamVR lu
+	"Settings_StatusWindowMinimizeToTray_Text": "Khi thu nh
+	"Settings_SuppressWarnings_Text": "H
+	"Settings_ThumbstickDeadzone_Desc": "
+	"Settings_ThumbstickDeadzone_Text": "V
+	"Settings_ThumbstickSettings": "Thi
+	"Settings_ToggleButton_Disable": "T
+	"Settings_ToggleButton_Enable": "B
+	"Settings_ToggleButton_Off": "T
+	"Settings_ToggleButton_On": "B
+	"Settings_ToggleDarkMode": "B
+	"Settings_Video_AppResFooter": "Thi
+	"Settings_Video_HDCP14LegacyCompatibility": "T
+	"Settings_Video_RefreshRate_EnableDirectModeAction": "B
+	"Settings_Video_RefreshRate_Header": "T
+	"Settings_Video_RefreshRate_HzSuffix": " Hz",
+	"Settings_Video_RefreshRate_Label_Hz": "T
+	"Settings_Video_RefreshRate_NotAvailableExtended": "M
+	"Settings_Video_RefreshRate_NotFound": "M
+	"Settings_Video_RefreshRate_OneSupported": "H
+	"Settings_ViewLogs_Button": "Xem nh
 	"Settings_ViveTracker": "Vive Tracker",
-	"Settings_ViveTrackers": "Vive Tracker",
-	"Settings_ViveTracker_Role": "Vai trò của Tracker",
+	"Settings_ViveTracker_Connected": "
+	"Settings_ViveTracker_Disconnected": "
 	"Settings_ViveTracker_Hand": "Tay",
-	"Settings_ViveTracker_Identify_NotConnected": "Vive Tracker chưa kết nối.",
-	"Settings_ViveTracker_Identify_NotIdentifiable": "Không thể nhận diện Vive Tracker.",
-	"Settings_ViveTracker_Connected": "Đã kết nối",
-	"Settings_ViveTracker_Disconnected": "Đã ngắt kết nối",
-	"Settings_PerApplication_VideoSettings": "Thiết lập video cho từng ứng dụng",
-	"Settings_ChooseStartupOverlayApps": "Chọn ứng dụng lớp phủ khi khởi động",
-	"Settings_StartTheseOverlayAppsOnLaunch": "Chạy những ứng dụng lớp phủ này khi khởi động:",
-	"Settings_ChooseStartupOverlayApps_NoOverlayAppsInstalled": "Không tìm thấy ứng dụng lớp phủ",
-	"Settings_ActiveController": "Tay cầm đang hoạt động",
-	"Settings_EditBinding": "Sửa cấu hình nút này",
-	"Settings_EditBinding_ChooseAnother": "Chọn cấu hình nút khác",
-	"Settings_ShowOldBindingUI": "Hiện giao diện tạo cấu hình nút cũ",
-	"Settings_ManageVideoSettingsForApp": "Quản lý thiết lập video cho:",
-	"Settings_ManageControllerBindingSettingsForApp": "Quản lý cấu hình nút tay cầm cho:",
-	"Settings_ActiveControllerBinding": "Gán nút tay cầm đang hoạt động",
-	"Settings_ActiveBinding": "Cấu hình nút đang hoạt động",
-	"Settings_ShowThumbstickSettings": "Thay đổi thiết lập thumbstick",
-	"Settings_ThumbstickSettings": "Thiết lập thumbstick",
-	"Settings_Number_Selected": "Đã chọn %1$s",
-	"Settings_Drivers_ShowDriverManagerUI": "Quản lý tiện ích",
-	"Settings_Drivers_Number_Blocked": "Đã chặn %1$s",
-	"Settings_Drivers_Number_Disabled": "Đã tắt %1$s",
-	"Settings_Drivers_Header": "Quản lý tiện ích SteamVR",
-	"Settings_Drivers_Unblock": "Mở chặn",
-	"Settings_Drivers_UnblockAll": "Mở chặn tất cả",
-	"Settings_Drivers_UnblockAllTip": "LƯU Ý: khuyến nghị nên mở chặn và kiểm tra từng tiện ích một.",
-	"Settings_Drivers_SomeBlocked": "Một số tiện ích SteamVR đã tự động bị chặn vì có sự cố treo/sập gần đây.",
-	"Settings_CurrentOpenXRRuntime_None": "Không",
-	"Settings_CurrentOpenXRRuntime": "Thời gian chạy OpenXR hiện tại:",
-	"Settings_SetAsOpenXRRuntime": "Đặt SteamVR làm thời gian chạy OpenXR",
-	"OpenXR_AnotherSteamVR": "Một bản SteamVR khác",
-	"OpenXR_SteamVR": "SteamVR",
-	"OpenXR_None": "Không",
-	"OpenXR_Error": "Lỗi tìm thời gian chạy",
-	"OpenXR_OculusRuntime": "Oculus",
-	"OpenXR_WindowsMixedReality": "Windows Mixed Reality",
-	"TestControllerTitle": "Đang kiểm tra tay cầm %1$s",
-	"TestController_NoController": "Bật một tay cầm để kiểm tra."
-}
+	"Settings_ViveTracker_Identify_NotConnected": "Vive Tracker ch
+	"Settings_ViveTracker_Identify_NotIdentifiable": "Kh
+	"Settings_ViveTracker_Role": "Vai tr
+	"Settings_ViveTrackers": "Vive Tracker",
+	"StatusCheckInterval_Never": "Kh
+	"StatusCheckInterval_Normal": "Th
+	"StatusCheckInterval_Often": "Th
+	"StatusCheckInterval_Seldom": "Thi tho
+	"SystemStatus_FrameRate_15sec": "15 gi
+	"SystemStatus_FrameRate_7sec": "7 gi
+	"SystemStatus_FrameRate_Good": "T
+	"SystemStatus_FrameRate_MissedFrames": "Thi
+	"SystemStatus_FrameRate_now": "b
+	"TestControllerTitle": "
+	"TestController_NoController": "B
+	"VRDevConsole_ShowLogName": "Hi
+	"VRDevConsole_Showtimestamp": "Hi
+	"VRDevFiles_Configuration": "C
+	"VRDevFiles_JSON": "JSON",
+	"VRDevFiles_Logging": "Nh
+	"VRDevFiles_PathHandles": "
+	"VRDevFiles_USBDevices": "Thi
+	"VRMonitor_DevNav_Console": "Console",
+	"VRMonitor_DevNav_Files": "T
+	"VRMonitor_DevNav_RoomOverview": "T
+	"VRMonitor_Nav_Developer": "Nh
+	"VRMonitor_Nav_Help": "Tr
+	"VRMonitor_Nav_Overview": "T
+	"VRMonitor_Nav_Settings": "Thi
+	"VRMonitor_Overview_DeviceStatus_Title": "Tr
+	"VRMonitor_Overview_Notifications_Title": "Th
+	"VRMonitor_Overview_QuickLinks_Knock": "C
+	"VRMonitor_Overview_QuickLinks_Knock_Desc": "G
+	"VRMonitor_Overview_QuickLinks_RoomSetup": "C
+	"VRMonitor_Overview_QuickLinks_RoomSetup_Desc": "Thi
+	"VRMonitor_Overview_QuickLinks_Title": "Li
+	"VRMonitor_Overview_QuickLinks_Tutorial": "H
+	"VRMonitor_Overview_QuickLinks_Tutorial_Desc": "H
+	"VRMonitor_Overview_SystemStatus_Title": "Tr
+	"language": "vietnamese",
+ %1$s b
+ %2$s",
+ 100%)",
+ <font color=#eeeeee>%1</font>)",
+ SteamVR Status 
+ USB SteamVR n
+ USB c
+ USB li
+ USB",
+ Vive Tracker",
+ ban 
+ beta SteamVR",
+ camera 
+ camera (Hz)",
+ camera",
+ camera, t
+ cho s
+ chuy
+ debugging 
+ desktop",
+ driver card m
+ duy tr
+ ghi 
+ jack 
+ khi kh
+ khi tr
+ khung h
+ loa / jack 
+ loa c
+ mang l
+ nghi
+ sau: M
+ sung b
+ tay c
+ thanh h
+ thay 
+ thumbstick.",
+ tinh ch
+ trang t
+ treo/s
+ trong c
+ trong su
+ trong trang t
+ xem h
+ xem v
+. Xin h
+: Trong m
+: khuy
+a Chromium t
+a SteamVR",
+a Tracker",
+a):",
+ang ch
+ang ho
+ang kh
+ang ki
+ang t
+ang th
+c %1$s",
+c Supersample n
+c cao",
+c cho SteamVR",
+c chung t
+c khi kh
+c phi
+c thay 
+c theo c
+c theo d
+c thi
+c thu nh
+c thu v
+c thumbstick ph
+c thumbstick tr
+c trang 
+c, nh
+c, tuy nhi
+c. (Gi
+ch SteamVR 
+ch SteamVR",
+ch chi
+ch cho kh
+ch ho
+ch kh
+ch ph
+ch tai v
+ch th
+i %2$s%]",
+i (Th
+i (Trung b
+i (fps t
+i (idle)",
+i - t
+i HDCP 1.4 c
+i SteamVR 
+i SteamVR s
+i SteamVR",
+i SteamVR).",
+i camera 
+i camera kh
+i camera...",
+i cao h
+i cho 
+i cho m
+i driver card m
+i driver, vui l
+i firmware m
+i gian ch
+i gian khi tho
+i gian",
+i khi 
+i khung h
+i mic (sidetone)",
+i nghi
+i tay c
+i thi
+i thumbstick.",
+i trang v
+i vi l
+i, ho
+i...",
+i: %1$s
+m %1$s",
+m (ms):",
+m VR 
+m cho:",
+m khu
+m khung h
+m phi 
+m thanh 3.5mm",
+m thanh l
+m thanh t
+m thanh",
+m theo d
+m tra Steam",
+m tra camera v
+m tra camera",
+m tra camera...",
+m tra l
+m tra t
+m tra tay c
+m tra tr
+m tra vi
+m tra",
+m tra."
+m trong VR",
+n %1$s",
+n (100 mili gi
+n 5 gi
+n Chromium. N
+n GPU / phi
+n SteamVR kh
+n SteamVR",
+n VIVE HDMI Audio",
+n Vive Tracker.",
+n Windows c
+n camera 
+n camera tr
+n cho kh
+n danh s
+n debug trong giao di
+n driver n
+n giao di
+n handle",
+n khi 
+n khi hi
+n khi kh
+n khi tho
+n khu v
+n ngh
+n ngo
+n qua",
+n quan 
+n quang c
+n sau",
+n sau:",
+n tay c
+n thi
+n trang t
+n, ngay gi
+n...",
+n: %1$s
+ng (%1$s)",
+ng (1 gi
+ng (5 gi
+ng (ho
+ng (m)",
+ng / T
+ng 2D",
+ng 3D 
+ng 3D kh
+ng GPU b
+ng GPU trong m
+ng Perforce.",
+ng Steam 
+ng SteamVR kh
+ng USB kh
+ng VR g
+ng VR khi m
+ng VR",
+ng bao Chaperone",
+ng bao gi
+ng bi
+ng cao",
+ng ch
+ng cho 
+ng gi
+ng gian c
+ng gian ch
+ng gian l
+ng gian m
+ng gian nh
+ng gian v
+ng kh
+ng khung h
+ng ki
+ng mong mu
+ng nh
+ng qu
+ng quan SteamVR.",
+ng quan VR tr
+ng quan VR xu
+ng quan ph
+ng quan",
+ng quan.",
+ng th
+ng theo d
+ng thi
+ng ti
+ng tin th
+ng tr
+ng trang ch
+ng treo",
+ng xuy
+ng, c
+ng, khu v
+ng, v
+ng.",
+ng:",
+nh (Hz)",
+nh Thumbstick",
+nh chi
+nh cho h
+nh cho kh
+nh cho m
+nh chuy
+nh gi
+nh kh
+nh khi m
+nh ki
+nh nhanh",
+nh phong c
+nh sau",
+nh th
+nh to
+nh tr
+nh vi 
+nh)",
+nh. Vui l
+nh.",
+o khi c
+o khi d
+o khi nh
+o thumbstick l
+p / h
+p Bluetooth",
+p SteamVR",
+p Trang t
+p VR c
+p chung c
+p chung cho 
+p chung",
+p khi m
+p khung h
+p tay c
+p tho
+p thumbstick",
+p tin",
+p video cho t
+p video cho:",
+p, ho
+t %1$s l
+t %1$s",
+t (beta)",
+t (m)",
+t SteamVR l
+t SteamVR sau",
+t SteamVR",
+t System",
+t System.",
+t Windows Enhanced Power Management cho thi
+t camera",
+t cho t
+t chuy
+t debugger cho web helper",
+t khi 
+t khung h
+t nhanh",
+t phi
+t qua b
+t tay c
+t thumbstick",
+t trang ch
+t tri
+u Chaperone",
+u cao camera so v
+u cao camera",
+u cao t
+u khi
+u khung h
+u ra v
+u theo d
+y OpenXR hi
+y OpenXR",
+y cho ph
+y ghi 
+y khi SteamVR kh
+y khi kh
+y thu
+y. ",
+y. (Thi

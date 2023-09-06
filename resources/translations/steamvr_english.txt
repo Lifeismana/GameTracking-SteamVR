@@ -1,14 +1,8 @@
-﻿"lang"
-{
+"Header_Developer"			"Developer"
+"Header_Diagnostics"		"Diagnostics"
+"Header_Help" 				"Help"
+"Header_Overview"			"Overview"
+"Header_Settings"			"Settings"
 "Language" "English"
 "Tokens"
-{
-
-"Header_Overview"			"Overview"
-"Header_Diagnostics"		"Diagnostics"
-"Header_Settings"			"Settings"
-"Header_Help" 				"Help"
-"Header_Developer"			"Developer"
-
-}
-}
+"lang"

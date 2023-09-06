@@ -1,1248 +1,1735 @@
-"lang"
-{
-"Language" "portuguese"
-"Tokens"
-{
-
-"VRController_NoDriver" "Sem driver"
-"VRController_NoDisplay" "Sem ecrã"
-"SteamUniverse_NoSteamAvailable" "Erro do Steam"
-"SteamUniverse_InvalidSteamUniverse" "Universo Steam Inválido"
-"SteamUniverse_Public" "Público"
-"SteamUniverse_Beta" "Beta"
-"SteamUniverse_Internal" "Interno"
-"SteamUniverse_Dev" "Dev"
-"CompositorError_NoCompositorRequested" "Erro do SteamVR"
-"CompositorError_Running" "Em execução"
-"VRState_Off" "Desligado"
-"VRState_Searching" "A procurar..."
-"VRState_SearchingWithAlert" "A procurar..."
-"VRState_Ready" "Pronto"
-"VRState_Standby" "Em modo de espera"
-"Startup_OpenGLIsNotInstalled" "Por favor, instala o OpenGL antes de usares o SteamVR."
-"Startup_DisplayLinkIsInstalled" "O DisplayLink é incompatível com o SteamVR. Desinstala os drivers e o software do DisplayLink do teu computador e reinicia-o antes de usares o SteamVR."
-
-"StatusError_NoHMDAvailable" "Nenhum headset disponível."
-"StatusError_HMDDoesNotTrack" "O headset não está a detetar nada."
-"StatusError_NoCompositorAvailable" "Um componente crucial do SteamVR não está a funcionar devidamente."
-"StatusError_CompositorNotFullscreen" "Um componente crucial do SteamVR não está a funcionar devidamente."
-"StatusError_CompositorNotRunning" "Um componente crucial do SteamVR não está a funcionar devidamente."
-"StatusError_CompositorTooManyRunning" "Um componente crucial do SteamVR não está a funcionar devidamente."
-"StatusError_PrismNotRunning" "Um componente crucial do SteamVR não está a funcionar devidamente."
-"StatusError_VRServerNotRunning" "Um componente crucial do SteamVR não está a funcionar devidamente."
-"StatusError_TrackingDevice_NotValid" "Este dispositivo não é reconhecido."
-"StatusError_Chaperone_Error" "O SteamVR encontrou um erro com o sistema Chaperone."
-"StatusError_LighthouseEvent" "O SteamVR encontrou um erro com o sistema de deteção."
-"StatusError_SteamVRServiceNotInstalled" "O serviço de ajuda do SteamVR não está instalado."
-"StatusError_UnknownError" "Erro desconhecido (%1)" 
-
-"StatusWarning_System_NoSteamAvailable" "Por favor, inicia o Steam"
-"StatusWarning_System_Chaperone_Warning" "Por favor, realiza a configuração da divisão"
-"StatusWarning_TrackingDevice_FirmwareUpdateNeeded" "Atualização de dispositivo necessária"
-"StatusWarning_TrackingDevice_NoPose" "A procurar..."
-"StatusWarning_System_ConnectionRefusedBySteam" "O Steam está a ter problemas com a ligação..."
-"StatusWarning_System_NeedDirectModeGraphicsDriverUpdate" "Por favor, atualiza os drivers da placa gráfica do teu computador"
-"StatusWarning_UnknownWarning" "Aviso desconhecido (0x%1)"
-
-"DismissableWarning_DismissButton" "Descartar"
-"DismissableWarning_RunTutorialAgain" "Inicia o tutorial (0x0001)"
-"DismissableWarning_BasestationsTooFarApart" "Estações-base demasiado longe uma da outra (0x0002)"
-"DismissableWarning_OpticalBasestationSyncWarning" "Alerta de estações-base (0x0004)"
-"DismissableWarning_BasestationSingleBaseModeHint" "Aviso de estação-base (0x0008)"
-"DismissableWarning_WarningsForTheFirstTime" "Alertas pela primeira vez (0x0010)"
-"DismissableWarning_MissedFrames" "Frames perdidas (0x0020)"
-"DismissableWarning_PowerSchemeIsNotHighPerformance" "Erro de desempenho (0x0040)"
-"DismissableWarning_BluetoothDriverNeedsInstallation" "Requer driver de Bluetooth (0x0080)"
-"DismissableWarning_BluetoothDriverNeedsUpdate" "Requer atualização de driver de Bluetooth (0x0100)"
-"DismissableWarning_BluetoothLinkServiceNotFound" "Bluetooth indisponível (0x0200)"
-"DismissableWarning_BluetoothLinkServiceError" "Bluetooth indisponível (0x0400)"
-"DismissableWarning_BluetoothLinkCommunicationFailed" "Falha na comunicação por Bluetooth (0x0800)"
-"DismissableWarning_SomeDisplaysAreMirroring" "Alguns ecrãs estão no modo de espelhamento (0x1000)"
-"DismissableWarning_UnknownHardwareDetected" "Novo dispositivo encontrado (0x2000)"
-"DismissableWarning_WindowsAeroDisabled" "Alerta de ecrã (0x4000)"
-"DismissableWarning_Windows8" "Windows 8 (0x8000)"
-"DismissableWarning_DisplayInExtendedMode" "Alerta de ecrã (0x10000)"
-"DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Conflito de estações-base (0x400000)"
-"DismissableWarning_SteamVRInSafeMode" "SteamVR em modo de segurança (0x1000000)"
-
-"DismissableWarning_Detected" "Detetado"
-"DismissableWarning_TimeFormat" "h:mm"
-
-"TrackedDeviceClass_Invalid" "Inválido"
-"TrackedDeviceClass_HMD" "Headset"
-"TrackedDeviceClass_Controller" "Comando"
-"TrackedDeviceClass_TrackingReference" "Estação-base"
-"TrackedDeviceClass_GenericTracker" "Detetor"
-"TrackedDeviceClass_Unknown"  "Dispositivo detetado desconhecido"
-"StatusCheckInterval_Never" "Nunca"
-"StatusCheckInterval_Seldom" "Raramente (5 seg)"
-"StatusCheckInterval_Normal" "Normal (1 seg)"
-"StatusCheckInterval_Often" "Frequentemente (100 mseg)"
-"Log_Window_Title" "Relatório - %1"
-"Log_Button_Clear" "Limpar"
-"Log_Button_ShowInExplorer" "Ver no Explorador"
-"Log_Button_LoadCompleteFile" "Carregar ficheiro completo"
-"Log_Text_MoreLineInTheActualFile" "MAIS LINHAS NO FICHEIRO\n\n"
-
-"Status_Title" "Estado - SteamVR"
-"Status_MenuButton_SteamVR" "STEAMVR"
-"Status_MenuButton_SteamVR_Branch" "STEAMVR - %1"
-"Status_HMD" "Headset"
-"Status_Controller" "Comando"
-"Status_Base" "Estação-base"
-"Status_Starting" "A iniciar"
-"Status_Quitting" "A sair"
-
-"ShutdownWhileAppRunning_Title" "Sair do SteamVR?"
-"ShutdownWhileAppRunning_Format" "Isto também irá encerrar \"%1\". Pretendes sair agora?"
-
-"RebootWhileAppRunning_Title" "Reiniciar o SteamVR?"
-"RebootWhileAppRunning_Format" "Isto também irá encerrar \"%1\". Pretendes reiniciar?"
-
-"FrameTiming_Title" "Tempos das frames"
-"FrameTiming_Idle" "Parado"
-"FrameTiming_Vsync" "Sinc. vertical"
-"FrameTiming_Compositor" "Compositor"
-"FrameTiming_PreSubmit" "Aplicação (cena)"
-"FrameTiming_PostSubmit" "Aplicação (outra)"
-"FrameTiming_MisPresented" " --- Reprojetado"
-"FrameTiming_FirstView" " --- Visto pela 1ª vez"
-"FrameTiming_ReadyForUse" " --- Pronto para uso"
-"FrameTiming_Other" "Outro"
-"FrameTiming_LateStart" "Início tardio"
-"FrameTiming_Presented" " --- Presente (número)"
-"FrameTiming_Predicted" " --- Previsto (extra)"
-"FrameTiming_Throttled" " --- Limite (frames)"
-"FrameTiming_Pause" "Pausa"
-"FrameTiming_Raw" "Detalhes"
-"FrameTiming_ShowInHeadset" "Mostrar no headset"
-"FrameTiming_Remote" "Remoto"
-
-"FrameTiming_5sStats" "Perdas nos últimos %1s:\n %2 - 1 frame\n %3 - 2 frames\n %4 - 3 frames\n %5 - 4 ou mais\n Total: %6\n"
-"FrameTiming_Config" "Avisar se durante %3s ocorrerem\n %1 perdas de frames únicas\n ou %2 perdas de várias frames"
-
-"SteamVRSystemState_Off" "Desligado"
-"SteamVRSystemState_Ready" "Em execução"
-"SteamVRSystemState_Connecting" "A procurar..."
-"SteamVRSystemState_Standby" "Em modo de espera"
-"SteamVRSystemState_Shutdown" "A sair da realidade virtual..."
-"SteamVRSystemState_Installing" "Configuração do hardware a decorrer..."
-"SteamVRSystemState_Restart" "A reiniciar o SteamVR..."
-"SteamVRSystemState_Startup" "A iniciar RV..."
-"SteamVRSystemState_ShutdownRequested" "A sair da realidade virtual..."
-"SteamVRSystemState_PauseRequested" "A pausar..."
-"SteamVRSystemState_Paused" "Em pausa"
-"SteamVRSystemState_UnpauseRequested" "A iniciar..."
-"SteamVRSystemState_Paused_FirmwareUpdate" "A atualizar dispositivos..."
-"SteamVRSystemState_PseudoState_Waiting" "À espera..."
-"SteamVRSystemState_PseudoState_Welcome" "Bem-vindo(a)"
-
-"SteamVRSystemState_Ready_Application" "%1"
-"SteamVRSystemState_Connecting_Application_Lighthouse" "Assegura-te de que o headset pode ver as bases"
-"SteamVRSystemState_Connecting_Application_InsideOutCamera" "Assegura-te de que o headset pode ver a área de jogo"
-"SteamVRSystemState_Connecting_Application_OutsideInCamera" "Assegura-te de que as câmaras de deteção podem ver o headset"
-"SteamVRSystemState_Standby_Application" "Equipa o teu headset para despertares o modo de R.V."
-"SteamVRSystemState_PseudoState_Welcome_Application" "Conecta o teu headset de R.V."
-
-"MenuAction_StatusBar" "Estado"
-"MenuAction_RoomOverview" "Vista geral do espaço"
-"MenuAction_Settings" "Definições"
-"MenuAction_LegacySettings" "Definições de developer"
-"MenuAction_BluetoothSettings" "Definições de Bluetooth"
-"MenuAction_BaseStationSettings" "Definições de estações-base"
-"MenuAction_DiagnosticsMenu" "Diagnóstico"
-"MenuAction_MainPlaylistMenu" "Listas de reprodução"
-"MenuAction_PlaylistEditor" "Editor de listas"
-"MenuAction_PlaylistPlayer" "Reprodutor de listas"
-"MenuAction_RunPlaylist" "Iniciar lista"
-"MenuAction_RecentPlaylist" "Recentes"
-"MenuAction_ClearRecentPlaylist" "Limpar listas recentes"
-"MenuAction_Quit" "Sair"
-"MenuAction_About_vrmonitor" "Sobre o SteamVR"
-"MenuAction_AboutQt" "Sobre o Qt"
-"MenuAction_Help" "Ajuda"
-"MenuAction_Devices" "Dispositivos"
-"MenuAction_Developer" "Developer"
-"MenuAction_WebDevTools" "Ferramentas Web Dev"
-"MenuAction_SteamVRWebsite" "SteamVR - Apoio Técnico"
-"MenuAction_SteamVRCommunity" "Comunidade SteamVR"
-"MenuAction_SteamVRHardwareDiscussions" "Discussões de hardware SteamVR"
-"MenuAction_SteamVRDeveloperSupport" "Apoio a developers SteamVR"
-"MenuAction_SteamWorksDeveloperSupport" "Apoio a developers Steamworks"
-"MenuAction_CreateSystemReport" "Criar relatório de sistema"
-"MenuAction_ResetSeatedPosition" "Repor posição sentada"
-"MenuAction_SystemReportViewer" "Visualizador de relatórios de sistema"
-"MenuAction_DisplayFrameTiming" "Tempos das frames (Avançado)"
-"MenuAction_RecordTrackingData" "Gravar dados de deteção"
-"MenuAction_StopRecording" "Parar gravação"
-"MenuAction_Crash" "Crash"
-"MenuAction_RefreshStatusNow" "Atualizar estado"
-"MenuAction_ViewLogDirectory" "Ver relatórios"
-"MenuAction_ShowLogDirectory" "Mostrar diretório de relatórios"
-"MenuAction_ShowConfigDirectory" "Mostrar diretório das config."
-"MenuAction_ShowRuntimeDirectory" "Mostrar diretório do runtime"
-"MenuAction_RunRoomSetup" "Configuração da divisão"
-"MenuAction_RunTutorial" "Tutorial"
-"MenuAction_RunMediaPlayer" "Media Player"
-"MenuAction_RecentPlaylists" "Listas recentes"
-"MenuAction_Diagnostics" "Avançado"
-"MenuAction_Directories" "Diretórios"
-"MenuAction_LogFiles" "Ficheiros de relatórios"
-"MenuAction_More" "Mais"
-"MenuAction_CouldNotReadLogFiles" "Não foi possível ler os ficheiros dos relatórios"
-"MenuAction_PairingWizard" "Emparelhar comando"
-"MenuAction_FirmwareUpdate" "Atualizar dispositivo"
-"MenuAction_SetLogDirectory" "Definir diretório de relatórios"
-"MenuAction_SetConfigDirectory" "Definir diretório de config."
-"MenuAction_ShowDisplayMirror" "Mostrar vista de R.V."
-"MenuAction_HideDisplayMirror" "Ocultar vista de R.V."
-"MenuAction_DisplayMirror" "Ecrã com vista de R.V."
-"MenuAction_PerformanceGraph" "Mostrar gráfico de desempenho"
-"MenuAction_ShowControllerBinding" "Definições de comandos"
-"MenuAction_ShowManageTrackers" "Gerir detetores"
-"MenuAction_UpdateFirmware" "Atualizar dispositivo"
-"MenuAction_ForceFirmware" "Forçar firmware"
-"MenuAction_DirectMode" "Modo de Visualização Direta"
-"MenuAction_EnableDirectMode" "Visualização Direta"
-"MenuAction_DisableDirectMode" "Desativar Visualiz. Direta"
-"MenuAction_PairController" "Emparelhar comando"
-"MenuAction_PowerOffController" "Desligar comando"
-"MenuAction_IdentifyBaseStation" "Identificar estação-base"
-"MenuAction_Workshop" "Workshop"
-"MenuAction_Workshop_UploadItem" "Enviar nova imagem de fundo"
-"MenuAction_Workshop_EditItem" "Modificar imagem de fundo existente"
-"MenuAction_Workshop_RunTools" "Criar/modificar um ambiente"
-"MenuAction_Workshop_ViewWiki" "Wiki dos Ambientes SteamVR"
-"MenuAction_Workshop_Browse" "Procurar no Workshop"
-"MenuAction_ModelDirectory_Browse" "Abrir diretório de modelos"
-"MenuAction_WakeupAllBaseStations" "Despertar estações-base"
-"MenuAction_KnockKnock" "Truz-truz"
-"MenuAction_PairTracker" "Emparelhar detetor"
-"MenuAction_PowerOffTracker" "Desligar detetor"
-"MenuAction_ReportABug" "Relatar um bug"
-"MenuAction_WebConsole" "Consola Web"
-"MenuAction_OverlayViewer" "Visualizador de sobreposição"
-"MenuAction_DebugCommands" "Comandos de debug"
-"MenuAction_WebDevToolsPlaceholder" "Nenhuma instância encontrada"
-
-
-"MonitorController_SwitchDirectMode_Header" "Modo de Visualização Direta"
-"MonitorController_EnableDirectMode_Text" "O SteamVR será reiniciado depois da ativação do Modo de Visualização Direta. Pretendes continuar?"
-"MonitorController_DisableDirectMode_Text" "AVISO: Desativar o Modo de Visualização Direta fará com que o ecrã do headset seja visto como um monitor normal, o que não é recomendado. Tens a certeza de que queres desativar o Modo de Visualização Direta? O SteamVR irá reiniciar para que esta alteração entre em efeito."
-
-"MonitorController_SwitchSafeMode_Header" "Modo de segurança"
-"MonitorController_EnableSafeMode_Text" "<span>O modo de segurança</span> pode ser usado para limitar os processos do SteamVR quando ocorrerem problemas de compatibilidade.<p>Tens a certeza de que queres ativar o modo de segurança? (Isto irá reiniciar o SteamVR)<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Mais informações aqui</a>."
-
-"TrayIcon_Tooltip_vrmonitor" "Estado - SteamVR"
-"MonitorController_SelectRecordingDirectory" "Selecionar diretório de gravação"
-"MonitorController_LoadPlaylist" "Carregar lista"
-"MonitorController_Information_Title" "SteamVR"
-"MonitorController_RestartSystemNotPossible" "Neste momento, o SteamVR não pode ser reiniciado automaticamente. \nSai do SteamVR e tenta de novo. Se o problema persistir, reinicia o teu computador."
-"MonitorController_NotAbleToMakeCompositorFullscreen" "O SteamVR está a ter problemas em ativar o modo de ecrã completo."
-"MonitorController_ApplicationsInterfaceNotAvailable" "Não foi possível iniciar %1. A interface desta aplicação não está disponível."
-"MonitorController_ApplicationCouldNotStart" "Não foi possível iniciar %1: %2."
-"MonitorController_Version" "Versão %1"
-"MonitorController_ResetCompleteSetup_Text" "Isto irá repor completamente a tua instalação do SteamVR e reiniciar a aplicação."
-"Settings_Title" "Definições do SteamVR"
-"Settings_Bluetooth_Title" "Definições de Bluetooth"
-"Settings_BaseStations_Title" "Definições de estações-base"
-"Settings_Developer_Title" "Definições de developer"
-"Settings_Checks" "Verificações"
-"Settings_Notifications" "Notificações"
-"Settings_Applications" "Aplicação"
-"Settings_DisplayMode" "Modo de apresentação"
-"Settings_DisplayMode_Extend" "Expandir área de trabalho ao ecrã"
-"Settings_DisplayMode_MirrorWindow" "Vista de R.V."
-"Settings_OpenVRPaths" "Diretórios do OpenVR"
-"Settings_Reset" "Restaurar"
-"Settings_PerfCheck" "PerfCheck"
-"Settings_CheckForSteam" "Procurar Steam"
-"Settings_CheckStatus" "Verificar estado"
-"Settings_Firmware_UpdateAvailable" "Atualização disponível"
-"Settings_NotAvailableAtThisTime" "Nem todas as definições estão disponíveis de momento"
-"Settings_EnableLinuxGPUProfiling" "Ativar estatísticas da GPU"
-"Settings_EnableDashboard" "Ativar Painel de R.V."
-"Settings_ArcadeMode" "Ativar modo Arcade"
-"Settings_PauseOnStandby" "Pausar renderização se headset estiver inativo"
-"Settings_DebugInputBindings" "Ativar opções de debug na interface de designação de botões"
-"Settings_DoNotFadeToGrid" "Não mostrar grelha se aplicação encravar"
-
-"Settings_ShowPlaylistMenu" "Mostrar menu de reprodução"
-"Settings_StartSteamVROnAppLaunch" "Iniciar o SteamVR ao abrir uma aplicação de R.V."
-
-"Settings_RestartText" "<html><B>Reiniciar o ambiente após alterar estes diretórios.</b></html>"
-"Settings_RuntimePath" "Diretório do runtime:"
-"Settings_Set" "Definir..."
-"Settings_ConfigPath" "Diretório das configurações:"
-"Settings_LogPath" "Diretório dos relatórios:"
-"Settings_Refresh" "Atualizar"
-"Settings_SetSelectedPaths" "Definir diretórios selecionados"
-"Settings_SelectRuntimePath" "Selecionar diretório do runtime"
-"Settings_SelectConfigPath" "Selecionar diretório das config."
-"Settings_SelectLogPath" "Selecionar diretório dos relatórios"
-"Settings_ResetQtSettings" "Usar predefinições do Qt"
-"Settings_ResetRuntimeAndQuit" "Redefinir runtime com base na localização do SteamVR e reiniciar"
-"Settings_ResetCompleteSetupAndQuit" "Restaurar a configuração completa e reiniciar"
-"Settings_ResetChaperoneToHeadsetInMiddleOfFloor" "Redefinir Chaperone para o headset no meio do chão"
-"Settings_SmallSpace" "Espaço pequeno"
-"Settings_MediumSpace" "Espaço médio"
-"Settings_LargeSpace" "Espaço grande"
-"Settings_GiganticSpace" "Espaço gigantesco"
-"Settings_RemoveAllUSBDevices" "Remover dispositivos USB"
-"Settings_ResetChaperoneToDK2Default" "Redefinir dados do Chaperone para as predefinições do Oculus Rift DK2"
-
-"Settings_Information_Title" "SteamVR"
-"Settings_ResetQtSettings_Text" "Pretendes passar a usar as predefinições do Qt.\n\nContinuar?"
-"Settings_ResetRuntimeBasedOnVRMonitorAndQuit_Text" "Isto irá redefinir o caminho do SteamVR com base na localização do ficheiro executável do SteamVR e vai reiniciá-lo.\n\nContinuar?"
-"Settings_RemoveAllRelevantUSBDevices_Text" "Isto irá remover todos os dispositivos USB do SteamVR do sistema. Vais ter de desconectar e conectar novamente os dispositivos para que o sistema instale os drivers.\n\nContinuar?"
-"Settings_RemoveAllRelevantUSBDevices_FailToStart" "Não foi possível iniciar a aplicação auxiliar para remoção dos dispositivos USB.\nCertifica-te de que podes iniciar esta aplicação como administrador.\n"
-"Settings_RemoveAllRelevantUSBDevices_Crash" "A aplicação auxiliar para remoção dos dispositivos USB deixou de funcionar.\nPor favor, tenta de novo.\n"
-"Settings_RemoveAllRelevantUSBDevices_Success" "Todos os dispositivos USB relevantes foram removidos. Desconecta todos os cabos USB de R.V. presentes e reinicia o teu computador, e depois conecta os teus dispositivos novamente.\n"
-"Settings_RemoveAllRelevantUSBDevices_PartialSuccess" "Não foi possível remover alguns dispositivos USB relevantes. Por favor, tenta de novo.\n"
-"Settings_DisableEnhancedPowerManagement_FailToStart" "A aplicação auxiliar não pôde ser iniciada.\nCertifica-te de que podes executar esta aplicação como administrador.\n"
-"Settings_DisableEnhancedPowerManagement_Crash" "A aplicação auxiliar deixou de funcionar.\nTenta de novo.\n"
-"Settings_DisableEnhancedPowerManagement_Success" "A definição de Melhor Gestão de Energia do Windows foi desativada para dispositivos USB do SteamVR instalados.\nTens de desligar e voltar a ligar estes dispositivos USB para as alterações entrarem em efeito.\n"
-"Settings_NotificationDoNotDisturb_Info" "
-"
-"Settings_NotificationDoNotDisturb_Text" "Não Incomodar - Suprimir notificações do Steam na R.V."
-"Settings_NotificationKnockKnock_Text" "Notificação \"Truz-truz\""
-"Settings_NotificationKnockKnock_Info" "Isto permite que outras pessoas chamem a atenção de um utilizador que esteja na realidade virtual."
-
-"Settings_Developer_Text" "Definições de developer"
-"Settings_Developer_Info" "Mostra definições e opções avançadas para developers"
-"Settings_StatusWindowAlwaysOnTop_Info" " "
-"Settings_StatusWindowAlwaysOnTop_Text" "Janela sempre no topo"
-"Settings_StatusWindowMinimizeToTray_Text" "Minimizar para a área de notificação"
-"Settings_StatusWindowHidePopups_Text" "Suprimir avisos e alertas de R.V. quando minimizado"
-"Settings_HomeAppCheck" "Usar SteamVR Home"
-"Settings_HomeAppDesc" "Desfruta de ambientes virtuais, funcionalidades sociais e muito mais."
-"Settings_NightModeCheck" "Modo noturno"
-"Settings_NightModeDesc" "Reduz o brilho do headset até às 5:00 (ou até o SteamVR ser reiniciado)."
-"Settings_LockedModeCheck" "Permitir uso de headset enquanto computador estiver bloqueado"
-"Settings_LockedModeDesc" "
-"
-
-"Settings_Dashboard_Explanation" "Estas aplicações estarão acessíveis como sobreposições no painel de realidade virtual."
-"Settings_BaseStationsWakeUpAll" "Acordar todas as estações-base"
-"Settings_BaseStationsWakeUpAll_Explanation" "Desperta todas as estações-base participantes na gestão remota de energia."
-"Settings_EnableScreenshots_Info" "Pressiona o botão System e o gatilho ao mesmo tempo para capturares o ecrã"
-"Settings_EnableScreenshots_Text" "Permitir capturas de ecrã (BETA)"
-"Settings_DefaultScreenshotType_Text" "Tipo de captura de ecrã"
-"Settings_DefaultScreenshotType_Info" "Tipo padrão a usar. Atenção: Muitas aplicações de R.V. podem não conseguir usar o tipo definido e irão usar automaticamente o tipo estereoscópico."
-"Settings_DefaultScreenshotType_Mono" "Normal"
-"Settings_DefaultScreenshotType_Stereo" "Estereoscópico"
-"Settings_DefaultScreenshotType_Cubemap" "Cubemap"
-"Settings_DefaultScreenshotType_MonoPanorama" "Panorama mono"
-"Settings_DefaultScreenshotType_StereoPanorama" "Panorama estéreo"
-
-"Settings_UseBluetoothLink_Text" "Permitir Bluetooth"
-"Settings_UseBluetoothLink_Info" "Usa a tecnologia sem fios Bluetooth para controlares as opções de gestão de energia das estações-base e atualizá-las remotamente. Isto também possibilita o uso de mais funcionalidades de certos headsets de realidade virtual."
-
-"Settings_Bluetooth_ServicesNotAvailable" "Bluetooth indisponível"
-"Settings_Bluetooth_Driver_Install" "Instalar driver do Bluetooth"
-"Settings_Bluetooth_Driver_Install_Description"	"Instala o driver Bluetooth da Link Box para permitir funcionalidades de comunicação sem fios por Bluetooth. Requer credenciais de administrador."
-"Settings_Bluetooth_Driver_Update" "Atualizar driver do Bluetooth"
-"Settings_Bluetooth_Driver_Update_Description" "Atualiza o driver Bluetooth da Link Box para permitir funcionalidades de comunicação sem fios por Bluetooth. Requer credenciais de administrador."
-"Settings_Bluetooth_RetryConnection" "Tentar novamente"
-
-"Settings_BaseStation_BluetoothBusy" "À espera de Bluetooth..."
-"Settings_BaseStation_BluetoothRequired" "Ativa o Bluetooth para poderes aceder a funcionalidades sem fios, tais como a atualização e gestão de energia de estações-base."
-"Settings_BaseStation_OpenSettingsBluetooth" "Ver definições de Bluetooth"
-"Settings_BaseStation_PowerManagement" "Gestão de energia"
-"Settings_BaseStation_PowerManagement_Explanation" "Desperta e coloca estações-base em modo de espera com base na tua utilização do SteamVR."
-"Settings_BaseStation_ScanForBaseStations" "Procurar estações-base"
-"Settings_BaseStation_ScanForBaseStations_Explanation" "Descobre estações-base transmissoras de presença Bluetooth que foram usadas anteriormente."
-"Settings_BaseStation_ConfigureBaseStations" "Configurar canais das estações-base"
-"Settings_BaseStation_ConfigureBaseStations_Explanation" "Descobre estações-base e configura os seus canais para evitar conflitos."
-"Settings_BaseStation_BaseStation10" "Estação-base 1.0"
-"Settings_BaseStation_BaseStation20" "Estação-base 2.0"
-"Settings_BaseStation_ContinueBaseStationUpdate" "Recuperar de atualização incompleta"
-"Settings_BaseStation_ContinueBaseStationUpdate_Explanation" "Repara uma atualização interrompida ou cancelada de uma estação-base que a esteja a impedir de detetar devidamente."
-
-"Settings_USB_Component_Hub" "Hub"
-"Settings_USB_Component_HubController" "Controlador central"
-"Settings_USB_Component_HubBluetooth" "Bluetooth"
-"Settings_USB_Component_WatchmanBoard" "Placa de deteção"
-"Settings_USB_Component_Camera" "Câmara"
-"Settings_USB_Component_Audio" "Dispositivo de áudio"
-"Settings_USB_Component_HTCBoard" "Placa principal"
-"Settings_USB_Component_Dongle1" "Recetor sem fios 1"
-"Settings_USB_Component_Dongle2" "Recetor sem fios 2"
-
-"Settings_USB_ViveDevices" "<b>Dispositivos</b>"
-"Settings_USB_PressRefresh" "<b>Clica em 'Atualizar' para verificares ligações a dispositivos...</b>"
-"Settings_USB_LookingForConnections" "<b>A verificar ligações a dispositivos...</b>"
-"Settings_USB_NoDevicesFound" "<font color=red><b>Nenhum Dispositivo Vive ligado.</b></font>"
-
-"Settings_USB_ViveLinkBoxHeader" "<b>Link Box do Vive</b>"
-"Settings_USB_ViveHeadsetHeader" "<b>Headset</b>"
-
-"Settings_USB_EnhancedStatus" "Mostrar detalhes"
-"Settings_USB_Refresh" "Atualizar"
-
-"Settings_Developer_General_Header" "Developer"
-"Settings_Advanced_Status_Header" "Verificação do estado"
-"Settings_Advanced_RoomAndTracking_Header" "Divisão e deteção"
-"Settings_Advanced_Reset_Header" "Restaurar"
-"Settings_Advanced_Paths_Header" "Diretórios"
-"Settings_Advanced_DirectMode_Header" "Modo de Visualização Direta"
-"Settings_Advanced_MotionSmoothing_Header" "Suavização de movimento"
-"Settings_Advanced_MotionSmoothing_Description" "Sintetiza frames novas de forma a garantir uma boa experiência quando a aplicação em uso não consegue manter um desempenho aceitável."
-"Settings_Advanced_MotionSmoothing" "Ativar suavização de movimento"
-"Settings_Advanced_MotionSmoothing_Disabled" "A suavização de movimento não é compatível com esta placa gráfica ou os drivers estão desatualizados."
-"Settings_Advanced_MotionSmoothing_Disabled_Win7" "A suavização de movimento não é compatível com versões mais antigas do Windows."
-
-"Settings_Advanced_RefreshRate_Header" "Taxa de atualização"
-"Settings_Advanced_RefreshRate_HzSuffix" "hz"
-"Settings_Advanced_RefreshRate_NotFound" "<b>ATENÇÃO:</b> O teu headset é compatível com outras taxas de atualização, mas não foram detetadas pelo driver da placa gráfica. Por favor, verifica se o firmware e os drivers da placa gráfica estão atualizados."
-"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>ATENÇÃO:</b> O teu headset é compatível com outras taxas de atualização, mas o SteamVR não pode geri-las quando o headset está no modo expandido. <a href='vrmonitor://directmode/enable'><span style='color:white;'>Ativa o modo direto.</span></a>"
-"Settings_Advanced_Restart" "<i>Esta alteração pendente entrará em efeito assim que <a href='vrmonitor://restartsystem'><span style='color:white;'>reiniciares o SteamVR</span></a></i>"
-
-"Settings_Advanced_Supersampling_Header" "Resolução da aplicação"
-"Settings_Advanced_AllowSupersampleFiltering" "Ativar filtragem de super-sampling avançada" 
-"Settings_Advanced_Supersampling_Warning" "<b>AVISO:</b> A definição de resolução abaixo irá afetar todas as aplicações. Para alterares a resolução de uma aplicação específica, acede ao separador Aplicações."
-"Settings_Advanced_SupersamplingManualOverride" "Usar resolução personalizada"
-"Explanation_Supersampling_Header" "O SteamVR define automaticamente a resolução da tua aplicação com base no desempenho do teu GPU."
-"Explanation_Supersampling" "*Algumas aplicações poderão ter de ser reiniciadas para que novas definições entrem em efeito."
-"Explanation_SupersamplingFiltering" "Opções de filtragem de super-sampling"
-
-"Settings_GpuInfo_Header" "Hardware"
-"Settings_GpuInfo_Headset" "Headset"
-"Settings_GpuInfo_NoHeadset" "Nenhum headset encontrado"
-"Settings_GpuInfo_GpuName" "Nome do GPU"
-"Settings_GpuInfo_GpuDriver" "Driver do GPU"
-"Settings_GpuInfo_GpuSpeed" "Velocidade medida do GPU"
-"Settings_GpuInfo_Current" "A definição atual renderiza cada olho a"
-"Settings_GpuInfo_Recommended" "A definição recomendada para o teu GPU e headset é"
-
-"Settings_PerApplication_Header" "Usa estas opções para criares definições diferentes para cada aplicação"
-"Settings_PerApplication_AppResTitle" "Resolução personalizada"
-"Settings_PerApplication_AppResHeader" "Esta definição é um multiplicador que afeta as tuas definições de resolução de aplicações de vídeo. Esta aplicação poderá ter de ser reiniciada para que alterações entrem em efeito (100% por predefinição)."
-"Settings_PerApplication_AppResFooter" "A definição atual renderiza a <font color=#eeeeee>%1x%2</font> para cada olho"
-"Settings_PerApplication_OverlayVisibleHeader" "Aplicações de interface estão disponíveis como separadores no Painel do SteamVR."
-"Settings_PerApplication_OverlayVisibleCheckbox" "Iniciar esta aplicação de interface juntamente com o SteamVR."
-"Settings_PerApplication_DashboardSuffix" "(Aplicação de interface)"
-"Settings_PerApplication_CustomSuffix" "(Personalizado)"
-
-"Settings_PerApplication_MotionSmoothing_Header" "Suavização de movimento"
-"Settings_PerApplication_MotionSmoothing_On" "Ativada"
-"Settings_PerApplication_MotionSmoothing_Off" "Desativada"
-"Settings_PerApplication_MotionSmoothing_Checkbox_Default" "Usar definição global (Atualmente %1)"
-"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOn" "Ativar sempre"
-"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOff" "Desativar sempre"
-"Settings_PerApplication_MotionSmoothing_Checkbox_AlwaysOn" "Usar sempre (AVISO: A taxa de frames da aplicação será reduzida para metade)"
-
-"Settings_PerApplication_Reprojection_Header" "Reprojeção"
-"Settings_PerApplication_Reprojection_Checkbox" "Usar modo de reprojeção clássico"
-"Settings_PerApplication_Reprojection_Description" "Marcar esta opção irá desativar a reprojeção assíncrona neste jogo."
-
-"Settings_Audio_Device_HMD"  "Headset de R.V."
-"Settings_Audio_Device_Other"  "Outro"
-"Settings_Audio_AudioPlay"  "Dispositivo de saída de áudio"
-"Settings_Audio_AudioRecord"  "Dispositivo de entrada de áudio"
-"Settings_Audio_HDMIGain"  "Ativar redução de ganho no áudio HDMI do VIVE"
-"Settings_Audio_Default"  "Padrão"
-"Settings_Audio_AudioMirrorPlay"  "Reencaminhar áudio para dispositivo"
-"Settings_Audio_AudioMirrorUnsupported"  "Não é possível reencaminhar o áudio neste computador"
-"Settings_Audio_AudioMirrorEnable"  "Ativar reencaminhamento de áudio"
-
-"BaseStation_Channel_Text" "Canal %1"
-"BaseStation_Mode_Text" "Modo %1"
-
-"SystemReport_Issues" "Problemas"
-"SystemReport_Main" "Principal"
-"SystemReport_Devices" "Dispositivos"
-"SystemReport_USB" "USB"
-"SystemReport_Logs" "Registos"
-"SystemReport_Configuration" "Configuração"
-"SystemReport_System" "Sistema"
-"SystemReport_Chaperone" "Chaperone"
-"SystemReport_LighthouseDB" "LighthouseDB"
-"SystemReport_Raw" "Dados em bruto"
-
-"SystemReport_Title" "Relatório do sistema"
-"SystemReport_Refresh" "Atualizar"
-"SystemReport_CopyToClipboard" "Copiar p/ área de transferência"
-"SystemReport_SaveToFile" "Guardar em ficheiro"
-"SystemReport_SaveSystemReport" "Guardar relatório do sistema"
-"SystemReport_UnableToOpenFile" "Não foi possível abrir ficheiro"
-"SystemReport_Data" "Dados"
-"SystemReport_RawText" "Texto simples"
-"SystemReport_Entry_SteamVR" "SteamVR"
-"SystemReport_Progress_ParseReport" "Relatório de análise"
-
-"SystemReport_PrepareReport" "A preparar relatório"
-"SystemReport_DiscoverIssues" "A analisar problemas"
-"SystemReport_DiscoverDisplays" "A analisar ecrãs"
-"SystemReport_DiscoverDevices" "A analisar dispositivos"
-"SystemReport_DiscoverUSB" "A analisar portas USB"
-"SystemReport_PrepareLogs" "A preparar registos"
-"SystemReport_DiscoverConfiguration" "A analisar configuração"
-"SystemReport_DiscoverChaperone" "A analisar Chaperone"
-"SystemReport_DiscoverLighthouseDB" "A analisar LighthouseDB"
-
-
-"Main_Systray_Error_Title" "Área de notificação"
-"Main_Systray_Error_Message" "Este computador não possui uma área de notificação (system tray)."
-"Main_Information_Title" "SteamVR"
-"Main_CanSetInstallationPath_Message" "Não foi possível encontrar o diretório de instalação.\n\nO SteamVR pode definir um diretório de instalação com base no diretório atual do ficheiro executável."
-"Main_JumplistEntry_RunFirstApplication" "Primeira aplicação"
-"Main_JumplistEntry_RunRoomSetup" "Configuração da divisão"
-"Main_JumplistEntry_RunTutorial" "Tutorial"
-"Main_JumplistEntry_Settings" "Definições"
-"Main_JumplistEntry_Advanced" "Avançado"
-"Main_JumplistEntry_SystemReport" "Relatório do sistema"
-"Main_JumplistEntry_Quit" "Sair"
-"Main_RuntimeFailed_Message" "Não foi possível iniciar o runtime.\n\n%1\n\nÉ possível redefinir o runtime atual\n%2\ncom base no diretório do ficheiro executável do SteamVR\n%3\n"
-
-"VRManifest_Imported_Title" "Ficheiro de manifesto do OpenVR importado"
-"VRManifest_Imported_Message" "Ficheiro de manifesto do OpenVR importado: \n %1"
-
-"MenuAction_Compositor_ShowMirror" "Mostrar vista de R.V."
-"MenuAction_Compositor_HideMirror" "Ocultar vista de R.V."
-"MenuAction_IdentifyController" "Identificar comando"
-"MenuAction_IdentifyTracker" "Identificar detetor"
-"MenuAction_QuickCalibrate" "Calibração rápida"
-"Explanation_QuickCalibrate" "Redefine rapidamente a configuração da divisão. Para configurações em pé e à escala da divisão, novos limites serão centrados no teu headset no chão no centro do espaço."
-"MenuAction_ResetRuntimeAndQuit" "Redefinir caminho do SteamVR"
-"Explanation_ResetRuntimeAndQuit" "Redefinir o caminho do SteamVR com base no diretório de onde o SteamVR foi iniciado."
-"MenuAction_RemoveAllSteamVRUSBDevices" "Remover dispositivos USB"
-"Explanation_RemoveAllSteamVRUSBDevices" "Remove os dispositivos USB relacionados com o SteamVR para que os drivers sejam reinstalados."
-"MenuAction_DisableEnhancedPowerManagement" "Desativar gestão de energia"
-"Explanation_DisableEnhancedPowerManagement" "Desativa a \"Melhor Gestão de Energia\" do Windows para os dispositivos USB do SteamVR caso haja perdas de deteção ou não consigas emparelhar comandos sem fios."
-"MenuAction_ResetAllSettingsAndQuit" "Restaurar todas as definições e reiniciar"
-"MenuAction_RebootVive" "Reiniciar headset"
-"Explanation_RebootVive" "Reiniciar o teu headset Vive poderá solucionar problemas relacionados com USB."
-"MenuAction_RestartSteamVR" "Reiniciar SteamVR"
-"Explanation_RestartSteamVR" "Reiniciar o SteamVR pode solucionar problemas relacionados com USB."
-"MenuAction_ResetDismissableWarnings" "Repor avisos"
-"Explanation_ResetDismissableWarnings" "Esta opção irá mostrar de novo todos os avisos anteriormente dispensados quando ocorrerem."
-
-"QuickCalibrate_SmallSpace" "Espaço pequeno"
-"QuickCalibrate_MediumSpace" "Espaço médio"
-"QuickCalibrate_LargeSpace" "Espaço grande"
-"QuickCalibrate_GiganticSpace" "Espaço gigantesco"
-"QuickCalibrate_CabalSpace" "Espaço \"Cabal\""
-"QuickCalibrate_StandingSpace" "Espaço de pé"
-"QuickCalibrate_DK2Default" "Predefinições DK2"
-
-"Advanced_Title" "Avançado"
-"Advanced_Advanced" "Avançado"
-"Advanced_Developer" "Developer"
-"Advanced_General" "Geral"
-"Advanced_Applications" "Aplicações"
-"Advanced_Audio" "Áudio"
-"Advanced_Devices" "Dispositivos"
-"Advanced_RoomOverview" "Chaperone"
-"Advanced_Compositor" "No headset"
-"Advanced_Paths" "Diretórios"
-"Advanced_Reset" "Restaurar"
-"Advanced_Performance" "Vídeo"
-"Advanced_Camera" "Câmara"
-"Advanced_Bluetooth" "Bluetooth"
-"Advanced_BaseStation" "Estação-base"
-"Advanced_USB" "USB"
-
-"Advanced_HMD" "Headset"
-"Advanced_Controller" "Comando"
-"Advanced_Generic_Tracker" "Detetor"
-"Advanced_Base" "Base"
-
-"Advanced_RuntimePath" "Diretório do SteamVR:"
-"Advanced_ConfigPath" "Diretório das configurações:"
-"Advanced_LogPath" "Diretório dos relatórios:"
-"Advanced_ApplyPathsAndRestart" "Confirmar e reiniciar"
-"Advanced_SetNewPath" "Definir novo diretório..."
-
-"Advanced_PerfGraphInHMD" "Mostrar gráfico de desempenho do GPU no headset"
-
+					  
+ %1 esta
+ %1 poss
+ (0x10000)"
+ (0x4000)"
+ (BETA)"
+ Link Box para reinici
+ a demorar mais do que o esperado. Por favor, tenta de novo mais tarde.\n"
+ a detetar nada."
+ a encerrar"
+ a funcionar devidamente."
+ a impedir que a atualiza
+ a ser usado e s
+ a ter problemas com a liga
+ a ter problemas em ativar o modo de ecr
+ a usar o mesmo canal que outra esta
+ afetar todas as aplica
+ agora calibrado."
+ atualiza
+ canais em conflito."
+ canais livres para resolver %1 poss
+ canais livres suficientes para resolver %1 dos %2 poss
+ carregado e permanece perto do teu headset durante o emparelhamento."
+ carregado e perto do teu headset durante o emparelhamento."
+ com que o ecr
+ com vista de R.V."
+ come
+ compat
+ completo"
+ completo."
+ conflitos entre canais."
+ desativar a reproje
+ devida e firmemente conectado. Se este processo continuar a falhar, sai do SteamVR e desliga o teu headset da corrente. Depois conecta-o novamente, inicia o SteamVR e tenta de novo."
+ dispon
+ do headset seja visto como um monitor normal, o que n
+ em efeito assim que <a href='vrmonitor://restartsystem'><span style='color:white;'>reiniciares o SteamVR</span></a></i>"
+ em execu
+ em modo de emparelhamento."
+ em uso"
+ emparelhado e pronto."
+ encerrar \"%1\". Pretendes reiniciar?"
+ encerrar \"%1\". Pretendes sair agora?"
+ entrada"
+ equipa de apoio t
+ escala da divis
+ espera de Bluetooth..."
+ espera de dispositivo..."
+ espera..."
+ esta
+ estava a ser encerrada"
+ estava a ser iniciada"
+ estava em execu
+ existe uma atualiza
+ firmemente conectada ao teu computador com um cabo micro-USB. Se este processo continuar a falhar, sai do SteamVR e desconecta o cabo de alimenta
+ firmemente conectado ao teu computador com um cabo micro-USB. Se este processo continuar a falhar, sai do SteamVR. Se o teu comando n
+ firmemente conectado ao teu computador via micro-USB. Se este processo continuar a falhar, sai do SteamVR. Se o teu detetor n
+ gerado um relat
+ incompat
+ iniciado.<br>"
+ iniciado.\n"
+ instalado."
+ maior do que 1 MB."
+ mostrar de novo todos os avisos anteriormente dispensados quando ocorrerem."
+ necess
+ no modo expandido. <a href='vrmonitor://directmode/enable'><span style='color:white;'>Ativa o modo direto.</span></a>"
+ o SteamVR ser reiniciado)."
+ os respetivos lasers para despertarem mais r
+ ouvires um som do teu comando.\n\nAs luzes do comando dever
+ para amigos"
+ porta USB da esta
+ poss
+ procura de comando..."
+ procura de dispositivo...."
+ procura de esta
+ que a configura
+ recomendado. Tens a certeza de que queres desativar o Modo de Visualiza
+ reconhecido."
+ redefinir o caminho do SteamVR com base na localiza
+ reduzida para metade)"
+ registada"
+ reiniciado depois da ativa
+ reiniciar o SteamVR)<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Mais informa
+ reiniciar para que esta altera
+ remover todos os dispositivos USB do SteamVR do sistema. Vais ter de desconectar e conectar novamente os dispositivos para que o sistema instale os drivers.\n\nContinuar?"
+ repor completamente a tua instala
+ ser necess
+ solucionar problemas relacionados com USB."
+ ter de ser reiniciada para que altera
+ um modelo"
+ um multiplicador que afeta as tuas defini
+ um pedido de ajuda 
+ vez"
+"About_BuiltPrefix" "Compilado em %1"
+"About_DateString" "d de MMM de yyyy %1 hh:mm"
+"About_DateString_Argument" "
+"About_Title" "Sobre o SteamVR"
+"About_VersionPrefix" "Vers
+"Advanced_Advanced" "Avan
 "Advanced_AllowSavingOfTimingInfo" "Permitir que dados dos tempos sejam guardados"
+"Advanced_AppRequestedThrottling" "A app solicitou limita
+"Advanced_Applications" "Aplica
+"Advanced_ApplyPathsAndRestart" "Confirmar e reiniciar"
+"Advanced_AsyncActive" "Reproj. ass
+"Advanced_AsyncNotActive" "Reproj. ass
+"Advanced_Audio" "
 "Advanced_AutoSaveTimingInfoOnExit" "Guardar automaticamente dados dos tempos ao sair"
-"Advanced_SaveFrameDataNow" "Guardar dados agora"
-
-"Advanced_DrawingCompositor" "Compositor"
-"Advanced_DrawingApp" "Aplicação"
-"Advanced_DrawingCompShouldBeApp" "Compositor"
-"Advanced_DrawingUnclear" "Desconhecido"
-
+"Advanced_Base" "Base"
+"Advanced_BaseStation" "Esta
+"Advanced_Bluetooth" "Bluetooth"
 "Advanced_BoundsDrawing" "Limites do Chaperone - On"
 "Advanced_BoundsNotDrawing" "Limites do Chaperone - Off"
-
-"Advanced_ReprojectionOn" "Reprojeção ativada"
-"Advanced_ReprojectionOff" "Reprojeção desativada"
-
-"Advanced_AsyncActive" "Reproj. assínc. ON"
-"Advanced_AsyncNotActive" "Reproj. assínc. OFF"
-"Advanced_DirectModeDisabled" "Modo Direto desativado"
-
-"Advanced_MotionEstimationActive" "Suav. de mov. - Ativa"
-"Advanced_MotionEstimationNotActive" "Suav. de mov. - Desativada"
-"Advanced_MotionEstimationDisabled" "Suaviz. de mov. indisponível"
-
-"Advanced_NormalFrame" "Frame normal"
-"Advanced_MotionSmoothedFrame" "Reprojetado com suav. de movimento"
-"Advanced_ReprojectedFrame" "Reprojetado sem suav. de movimento"
-"Advanced_OneThirdFramerate" "1/3 da taxa de frames"
-"Advanced_DroppedFrame" "Erro de apresentação"
-"Advanced_AppRequestedThrottling" "A app solicitou limitação (pelo processador)"
-
-"Advanced_DashboardUp" "Painel - On"
+"Advanced_Camera" "C
+"Advanced_Compositor" "No headset"
+"Advanced_ConfigPath" "Diret
+"Advanced_Controller" "Comando"
 "Advanced_DashboardDown" "Painel - Off"
-
-"MessageBox_OK" "OK"
-"MessageBox_Cancel" "Cancelar"
-"MessageBox_Exit" "Sair"
-"MessageBox_SetAndRestart" "Definir e reiniciar"
-"MessageBox_Continue" "Continuar"
-"MessageBox_Yes" "Sim"
-"MessageBox_RestartSteamVR" "A reiniciar SteamVR..."
-"MessageBox_Retry" "Tentar novamente"
-"MessageBox_Done" "OK"
-"MessageBox_RestartNow" "Reiniciar SteamVR"
-"MessageBox_RestartLater" "Reiniciar depois"
-"MessageBox_Next" "Seguinte"
-"MessageBox_Submit" "Enviar"
-"MessageBox_Stop" "Parar"
-"MessageBox_Forget" "Esquecer"
-"MessageBox_RefreshAll" "Atualizar tudo"
-"MessageBox_OpenWirelessSettings" "Definições de Bluetooth"
-"MessageBox_RemindMeLater" "Lembrar-me mais tarde"
-
-"MonitorController_NotAbleToStartSteam" "Não é possível iniciar o Steam."
-
+"Advanced_DashboardUp" "Painel - On"
+"Advanced_Developer" "Developer"
+"Advanced_Devices" "Dispositivos"
+"Advanced_DirectModeDisabled" "Modo Direto desativado"
+"Advanced_DrawingApp" "Aplica
+"Advanced_DrawingCompShouldBeApp" "Compositor"
+"Advanced_DrawingCompositor" "Compositor"
+"Advanced_DrawingUnclear" "Desconhecido"
+"Advanced_DroppedFrame" "Erro de apresenta
+"Advanced_Explanation_CollisionBounds" "Os limites do Chaperone aparecem sempre que te aproximas dos limites do teu espa
+"Advanced_FloorBoundsAlwaysOn" "Limites do ch
+"Advanced_General" "Geral"
+"Advanced_Generic_Tracker" "Detetor"
+"Advanced_HMD" "Headset"
 "Advanced_Header_CollisionBounds" "Limites do Chaperone"
-"Advanced_Explanation_CollisionBounds" "Os limites do Chaperone aparecem sempre que te aproximas dos limites do teu espaço disponível."
-"Advanced_FloorBoundsAlwaysOn" "Limites do chão sempre ligados"
-"Button_ResetCollisionBounds" "Usar predefinições"
-"CollisionBounds_Beginner" "Iniciante"
-"CollisionBounds_Intermediate" "Intermédio"
-"CollisionBounds_Squares" "Quadrados"
-"CollisionBounds_Advanced" "Avançado"
-"CollisionBounds_Developer" "Developer"
-
-"CompositorBackground_Header"		"Estilo do fundo"
-"CompositorBackground_Color"		"Cor"
-"CompositorBackground_Image"		"Imagem"
-"Compositor_SelectImage"			"Selecionar imagem..."
-"Compositor_SelectColorHeader"		"Seleciona uma cor para o plano de fundo no headset."
-"Compositor_SelectImageHeader"		"Seleciona uma imagem para o plano de fundo no headset."
-"Compositor_ResetToDefault" 		"Usar predefinições"
-
-"Info_UnknownURL_Title" "SteamVR"
-"Info_UnknownURL_Message" "O link ainda não funciona devidamente. Se o erro que estás a tentar diagnosticar persistir, visita os <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>Fóruns de desenvolvimento do SteamVR </a> para obteres ajuda."
-
-"PairingWizard_CheckForDongles_Content" "Procurar recetores sem fios disponíveis..."
-
-"PairingWizard_HelperAppFailed_Content" "Falha ao comunicar com a aplicação auxiliar: erro %1."
-"PairingWizard_HelperAppFailed_Error_FailedToStart" "'Falha ao iniciar' (0)"
-"PairingWizard_HelperAppFailed_Error_Crashed" "'Crash' (1)"
-"PairingWizard_HelperAppFailed_Error_Timedout" "'Tempo esgotado' (2)"
-"PairingWizard_HelperAppFailed_Error_ReadError" "'Erro de leitura' (3)"
-"PairingWizard_HelperAppFailed_Error_WriteError" "'Erro de escrita' (4)"
-"PairingWizard_HelperAppFailed_Error_UnknownError" "'Erro desconhecido' (5)"
-
-"PairingWizard_HelperAppFailed_MoreInfo" "Mais informações"
-"PairingWizard_HelperAppFailed_MoreInfo_URL" "http://www.valvesoftware.com"
-
-"PairingWizard_NoDonglesAvailable_Title" "Dois comandos já em uso"
-"PairingWizard_NoDonglesAvailable_Header" "
-"
-"PairingWizard_NoDonglesAvailable_Content" "Para emparelhar comandos adicionais, pelo menos um dos teus comandos deve ser desligado. Apenas 2 comandos podem estar conectados simultaneamente."
-
-"PairingWizard_NoDonglesDetected_Title" "Nenhum headset encontrado"
-"PairingWizard_NoDonglesDetected_Header" "
-"
-"PairingWizard_NoDonglesDetected_Content" "O teu headset deve estar conectado devidamente para poderes emparelhar comandos novos."
-
-"PairingWizard_PairController_Title" "Emparelhar novo comando"
-"PairingWizard_PairController_Success_Title" "Sucesso!"
-"PairingWizard_PairAnotherController" "Emparelhar outro comando"
-
-"PairingWizard_LookingForControllers_Header" "À procura de comando..."
-"PairingWizard_LookingForControllers_Content" "Mantém premidos os botões App e System até ouvires um som do teu comando.\n\nAs luzes do comando deverão começar a piscar a azul para indicar que está em modo de emparelhamento."
-"PairingWizard_TimeoutHappened_Header" "Nenhum comando detetado"
-"PairingWizard_TimeoutHappened_Content" "Certifica-te de que o teu comando está carregado e perto do teu headset durante o emparelhamento."
-"PairingWizard_PairingFailed_Header" "O emparelhamento falhou"
-"PairingWizard_PairingFailed_Content" "Certifica-te de que o teu comando está carregado e permanece perto do teu headset durante o emparelhamento."
-"PairingWizard_Success_MoreDonglesAvailable_Header" "Comando emparelhado!"
-"PairingWizard_Success_MoreDonglesAvailable_Content" "O teu comando está emparelhado e pronto."
-"PairingWizard_Success_NoMoreDonglesAvailable_Header" "Comando emparelhado!"
-"PairingWizard_Success_NoMoreDonglesAvailable_Content" "O teu comando está emparelhado e pronto."
-
-"FirmwareWizard_UpdateMoreFirmware" "Atualizar mais dispositivos"
-
-"FirmwareWizard_Nag_Title" "Atualização de dispositivo recomendada"
-
-"FirmwareWizard_Shutdown_Title" "Atualizar dispositivo"
-"FirmwareWizard_Shutdown_TextContent" "Para atualizar o teu dispositivo, o SteamVR vai ter de encerrar todas as aplicações de V.R. em execução.\n\nQueres continuar?"
-"FirmwareWizard_WaitingForShutdown_TextContent" "A preparar sistema para atualização de dispositivo..."
-"FirmwareWizard_ShutdownForRecovery_TextContent" "Um componente do teu hardware necessita de uma atualização de dispositivo para voltar a funcionar.\n\nPretendes continuar?"
-"FirmwareWizard_ShutdownForMandatoryUpdate_TextContent" "O teu headset precisa de uma atualização para continuar a usar o SteamVR.\n\nPretendes continuar?"
-"FirmwareWizard_DeviceOverview_Title" "Atualizar dispositivo"
-"FirmwareWizard_DeviceOverview_Nagging_Title" "Atualizações de dispositivo necessárias"
-"FirmwareWizard_DeviceOverview_TextContent" "Que dispositivo queres atualizar?"
-"FirmwareWizard_DeviceOverview_TextContent_Nag" "Há atualizações necessárias disponíveis. Seleciona um dispositivo para atualizá-lo."
-"FirmwareWizard_DeviceOverview_UpdateAvailable" "Atualização disponível"
-"FirmwareWizard_DeviceOverview_UpToDate" "Atualizado"
-"FirmwareWizard_DeviceOverview_NoUpdateDataAvailable" "Nenhuma atualização disponível"
-"FirmwareWizard_DeviceOverview_FailedToUpdate" "Falha na atualização"
-"FirmwareWizard_DeviceOverview_LookingForDevice" "À procura de dispositivo...."
-"FirmwareWizard_DeviceOverview_WirelessServicesRequired" "Esta atualização requer serviços sem fios"
-
-"FirmwareWizard_UpdateHeadset_Start_Title" "Atualizar headset"
-"FirmwareWizard_UpdateHeadset_Start_UpperText" "
-"
-"FirmwareWizard_UpdateHeadset_Start_MiddleText" "Liga o headset ao teu computador."
-"FirmwareWizard_UpdateHeadset_Start_LowerText" "\nA atualização irá começar automaticamente assim que o teu headset for detetado."
-
-"FirmwareWizard_UpdateHeadset_Progress_Title" "Atualizar headset"
-"FirmwareWizard_UpdateHeadset_Progress_UpperText" "
-"
-"FirmwareWizard_UpdateHeadset_Progress_MiddleText" "A atualizar o headset. Isto pode demorar alguns minutos..."
-"FirmwareWizard_UpdateHeadset_Progress_LowerText" "AVISO: Não desconectes o headset, não conectes nenhum outro dispositivo, nem faças nenhuma alteração de sistema enquanto este dispositivo estiver a ser atualizado. Ao fazê-lo, poderás tornar este headset inutilizável."
-
-"FirmwareWizard_UpdateHeadset_Fail_Title" "A atualização do dispositivo falhou"
-"FirmwareWizard_UpdateHeadset_Fail_UpperText" "A atualização do dispositivo falhou."
-"FirmwareWizard_UpdateHeadset_Fail_MiddleText" "Assegura-te de que o teu headset está devida e firmemente conectado. Se este processo continuar a falhar, sai do SteamVR e desliga o teu headset da corrente. Depois conecta-o novamente, inicia o SteamVR e tenta de novo."
-"FirmwareWizard_UpdateHeadset_Fail_LowerText" "
-"
-
-"FirmwareWizard_UpdateHeadset_Success_Title" "Atualizar headset"
-"FirmwareWizard_UpdateHeadset_Success_UpperText" "Sucesso!"
-"FirmwareWizard_UpdateHeadset_Success_MiddleText" "O headset foi atualizado com êxito. Poderás ter de desligar e ligar o cabo de alimentação do teu headset para que a atualização seja registada."
-"FirmwareWizard_UpdateHeadset_Success_LowerText"  "
-"
-
-"FirmwareWizard_UpdateController_Start_Title" "Atualizar comando"
-"FirmwareWizard_UpdateController_Start_UpperText" "
-"
-"FirmwareWizard_UpdateController_Start_MiddleText" "Liga este comando ao teu computador com um cabo micro-USB. Podes usar o mesmo cabo que usas para carregar os teus comandos."
-"FirmwareWizard_UpdateController_Start_LowerText" "A atualização irá começar automaticamente assim que o comando for detetado."
-
-"FirmwareWizard_UpdateController_Progress_Title" "Atualizar comando"
-"FirmwareWizard_UpdateController_Progress_UpperText" "
-" 
-"FirmwareWizard_UpdateController_Progress_MiddleText" "A atualizar comando. Isto pode demorar alguns minutos..."
-"FirmwareWizard_UpdateController_Progress_LowerText" "AVISO: Não desconectes o comando, não conectes nenhum outro dispositivo, nem faças nenhuma alteração de sistema enquanto este dispositivo estiver a ser atualizado. Ao fazê-lo, poderás tornar este comando inutilizável."
-
-"FirmwareWizard_UpdateController_Fail_Title" "A atualização do dispositivo falhou"
-"FirmwareWizard_UpdateController_Fail_UpperText" "A atualização do comando falhou."
-"FirmwareWizard_UpdateController_Fail_MiddleText" "Assegura-te de que o teu comando está firmemente conectado ao teu computador com um cabo micro-USB. Se este processo continuar a falhar, sai do SteamVR. Se o teu comando não se desligou, desliga-o mantendo pressionado o botão System. Depois inicia o SteamVR e tenta de novo."
-"FirmwareWizard_UpdateController_Fail_LowerText" "Clica em \"Tentar novamente\" para tentares de novo."
-
-"FirmwareWizard_UpdateController_Success_Title" "Atualizar comando"
-"FirmwareWizard_UpdateController_Success_UpperText" "Sucesso!"
-"FirmwareWizard_UpdateController_Success_MiddleText" "O comando foi atualizado com êxito. Poderás ter de desligar e ligar o comando para que a atualização seja registada."
-"FirmwareWizard_UpdateController_Success_LowerText" "
-"
-
-"FirmwareWizard_UpdateGenericTracker_Start_Title" "Atualizar detetor"
-"FirmwareWizard_UpdateGenericTracker_Start_MiddleText" "Liga este detetor ao teu computador com um cabo micro-USB. Podes usar o mesmo cabo que usas para carregar o teu detetor."
-"FirmwareWizard_UpdateGenericTracker_Start_LowerText" "A atualização irá começar automaticamente assim que o detetor for reconhecido."
-					  
-"FirmwareWizard_UpdateGenericTracker_Progress_Title" "Atualizar detetor"
-"FirmwareWizard_UpdateGenericTracker_Progress_MiddleText" "A atualizar detetor. Isto pode demorar vários minutos..."
-"FirmwareWizard_UpdateGenericTracker_Progress_LowerText" "AVISO: Não desconectes o detetor, não conectes nenhum outro dispositivo, nem faças nenhuma alteração de sistema enquanto este dispositivo estiver a ser atualizado. Ao fazê-lo, poderás tornar este detetor inutilizável."
-					  
-"FirmwareWizard_UpdateGenericTracker_Fail_Title" "A atualização do dispositivo falhou"
-"FirmwareWizard_UpdateGenericTracker_Fail_UpperText" "A atualização do detetor falhou."
-"FirmwareWizard_UpdateGenericTracker_Fail_MiddleText" "Assegura-te de que o teu detetor está firmemente conectado ao teu computador via micro-USB. Se este processo continuar a falhar, sai do SteamVR. Se o teu detetor não se desligou, desliga-o mantendo premido o botão System. De seguida, inicia o SteamVR e tenta de novo."
-"FirmwareWizard_UpdateGenericTracker_Fail_LowerText" "Clica em \"Tentar novamente\" para tentares de novo."
-					  
-"FirmwareWizard_UpdateGenericTracker_Success_Title" "Atualizar detetor"
-"FirmwareWizard_UpdateGenericTracker_Success_UpperText" "Sucesso!"
-"FirmwareWizard_UpdateGenericTracker_Success_MiddleText" "O detetor foi atualizado com êxito. Poderás ter de desligar e ligar o detetor para que a atualização seja registada."
-"FirmwareWizard_UpdateGenericTracker_Success_LowerText" "
-"
-
-"FirmwareWizard_UpdateBasestation_Start_Title" "Atualizar estação-base"
-"FirmwareWizard_UpdateBasestation_Start_UpperText" "
-"
-"FirmwareWizard_UpdateBasestation_Start_MiddleText" "1. Desmonta e desliga o cabo de alimentação da estação-base.\n\n2. Liga a estação-base ao teu computador usando um cabo micro-USB. Podes usar o mesmo cabo que usas para carregar os teus comandos.\n\n3. Liga o cabo de alimentação à estação-base enquanto manténs premido o botão Channel, situado na parte de trás da mesma."
-"FirmwareWizard_UpdateBasestation_Start_LowerText" "4. A atualização irá começar automaticamente assim que a estação-base for reconhecida e poderás então deixar de manter premido o botão Channel."
-
-"FirmwareWizard_UpdateBasestation_Choice_Title" "Atualizar estação-base"
-"FirmwareWizard_UpdateBasestation_Choice_MiddleText" "A atualização pode ser feita manualmente ou por uma rede sem fios."
-"FirmwareWizard_UpdateBasestation_Wireless_Title" "Atualizar estação-base"
-"FirmwareWizard_UpdateBasestation_Wireless_UpperText" "
-"
-"FirmwareWizard_UpdateBasestation_Wireless_MiddleText" "A atualização vai ser efetuada sem fios. Não desligues as tuas estações-base da tomada durante a atualização."
-"FirmwareWizard_UpdateBasestation_Wireless_LowerText" "
-"
-
-"FirmwareWizard_UpdateBasestation_Progress_Title" "Atualizar estação-base"
-"FirmwareWizard_UpdateBasestation_Progress_UpperText" "
-"
-"FirmwareWizard_UpdateBasestation_Progress_MiddleText" "A atualizar estação-base. Isto pode demorar alguns minutos..."
-"FirmwareWizard_UpdateBasestation_Progress_LowerText" "AVISO: Não desconectes a estação-base, não conectes nenhum outro dispositivo, nem faças nenhuma alteração de sistema enquanto este dispositivo estiver a ser atualizado. Ao fazê-lo, poderás tornar esta estação-base inutilizável."
-
-"FirmwareWizard_UpdateBasestation_WirelessProgress_Title" "Atualizar estação-base"
-"FirmwareWizard_UpdateBasestation_WirelessProgress_MiddleText" "A atualizar estação-base. Isto pode demorar alguns minutos..."
-"FirmwareWizard_UpdateBasestation_WirelessProgress_LowerText" "AVISO: Não desconectes a estação-base, não conectes nenhum outro dispositivo, nem faças nenhuma alteração de sistema enquanto este dispositivo estiver a ser atualizado. Ao fazê-lo, poderás tornar esta estação-base inutilizável."
-
-"FirmwareWizard_UpdateBasestation_Fail_Title" "A atualização da estação-base falhou"
-"FirmwareWizard_UpdateBasestation_Fail_UpperText" "A atualização deste dispositivo falhou."
-"FirmwareWizard_UpdateBasestation_Fail_MiddleText" "Assegura-te de que a tua estação-base está firmemente conectada ao teu computador com um cabo micro-USB. Se este processo continuar a falhar, sai do SteamVR e desconecta o cabo de alimentação da tua estação-base. Depois inicia o SteamVR e tenta de novo."
-"FirmwareWizard_UpdateBasestation_Fail_LowerText" "Clica em \"Tentar novamente\" para tentares de novo."
-
-"FirmwareWizard_UpdateBasestationWireless_Fail_Title" "A atualização de estação-base falhou"
-"FirmwareWizard_UpdateBasestationWireless_Fail_UpperText" "A atualização deste dispositivo falhou."
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox" "Se a atualização deste dispositivo continuar a falhar sem que haja progresso:<ul><li>Sai do SteamVR.<li>Desliga e volta a ligar o cabo de alimentação da Link Box.<li>Desliga e volta a ligar o cabo de alimentação da estação-base.<li>Inicia o SteamVR e tenta de novo.</ul>
-"
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "Se a atualização deste dispositivo continuar a falhar sem que haja progresso:<ul><li>Sai do SteamVR.<li>Desliga e volta a ligar o cabo de alimentação da estação-base.<li>Inicia o SteamVR e tenta de novo.</ul>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "Esta estação-base precisa de voltar a ser reconhecida visualmente ao reiniciar o SteamVR para que a atualização possa continuar."
-"FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "Esta estação-base precisa primeiro de ser desligada e ligada novamente, e depois voltar a ser reconhecida visualmente ao reiniciar o SteamVR para que a atualização possa continuar. Por favor, desliga o cabo de alimentação da estação-base e depois volta a ligá-lo."
-"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "Esta estação-base tem uma versão mais recente da atualização, a qual foi rejeitada. Por favor, desliga e volta a ligar o cabo de alimentação da estação-base."
-"FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "Uma ligação USB inesperada à estação-base está a impedir que a atualização sem fios seja realizada.<br><br><font color=#aaaa00>Desliga o cabo USB ligado à estação-base.</font>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_BaseStuckInDFU" "Uma ligação USB inesperada à estação-base está a impedir que a atualização sem fios seja concluída.<ul><li><font color=#aaaa00>Desliga o cabo de alimentação da estação-base.<li>Desliga o cabo USB ligado à estação-base.<li>Volta a ligar apenas o cabo de alimentação da estação-base.<li>Aguarda 30 segundos para que a estação-base termine a sua atualização interna.</font></ul><br>A luz da estação-base pode estar desligada durante a atualização interna.<br>Não desligues nem ligues alguma coisa à estação-base durante a atualização."
-"FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle" "Esta estação-base precisa primeiro de ser desligada e ligada novamente para continuar com a atualização.<br><br><font color=#aaaa00>Por favor, desliga e volta a ligar o cabo de alimentação da estação-base antes de continuares.</font>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Clica em \"Tentar novamente\" para tentares de novo."
-"FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Clica em \"Cancelar\" para reiniciares o SteamVR."
-
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20" "Se a atualização deste dispositivo continuar a falhar sem que haja progresso:<ul><li>Sai do SteamVR.<li>Desliga qualquer cabo USB que esteja ligado à estação-base.<li>NÃO ligues nada à porta USB da estação-base.<li>Desliga e volta a ligar o cabo de alimentação da Link Box.<li>Desliga e volta a ligar o cabo de alimentação da estação-base.<li>Inicia o SteamVR e tenta de novo.</ul>"
-"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20" "Se a atualização deste dispositivo continuar a falhar sem que haja progresso:<ul><li>Sai do SteamVR.<li>Desliga qualquer cabo USB que esteja ligado à estação-base.<li>NÃO ligues nada à porta USB da estação-base.<li>Desliga e volta a ligar o cabo de alimentação da estação-base.<li>Inicia o SteamVR e tenta de novo.</ul>"
-
-"FirmwareWizard_UpdateBasestation_Success_Title" "Atualizar estação-base"
-"FirmwareWizard_UpdateBasestation_Success_UpperText" "Sucesso!"
-"FirmwareWizard_UpdateBasestation_Success_MiddleText" "A estação-base foi atualizada com êxito. Poderás ter de desligar e ligar o cabo de alimentação da tua estação-base para que a atualização seja registada."
-"FirmwareWizard_UpdateBasestation_Success_LowerText" "Ao remontar, assegura-te de que não alteras os canais das tuas estações-base."
-
-"FirmwareWizard_UpdateBasestationWireless_Success_Title" "Atualização de estação-base"
-"FirmwareWizard_UpdateBasestationWireless_Success_UpperText" "Sucesso!"
-"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS10" "A estação-base foi atualizada com êxito. Poderás ter de desligar e ligar o cabo de alimentação da tua estação-base para que a atualização seja registada."
-"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS20" "A estação-base foi atualizada com êxito."
-"FirmwareWizard_Information_Title" "Atualização de dispositivo"
-"FirmwareWizard_WizardIsAlreadyBusy_Message" "Esta atualização não pode ser iniciada neste momento, porque já existe uma atualização de dispositivo a decorrer."
-
-"FirmwareWizard_WirelessServicesRequired_Title" "Atualizar estação-base"
-"FirmwareWizard_WirelessServicesRequired" "Serviços Bluetooth precisam de estar ativos para que esta estação-base possa ser atualizada remotamente.\n\nPor favor, ativa o Serviço Bluetooth do SteamVR.\n"
-
-"FirmwareWizard_ProgressTextLeft" "("
-"FirmwareWizard_ProgressTextRight" ")"
-"FirmwareWizard_ProgressTextMiddle" "de"
-"FirmwareWizard_ProgressPercent" "[ %1% ]"
-"FirmwareWizard_ProgressPercentStarting" "[ A iniciar... ]"
-"FirmwareWizard_ProgressPercentFinishing" "[ A terminar... ]"
-
-"FirmwareWizard_WatchmanUpdate" "Atualização de dispositivo de deteção"		
-"FirmwareWizard_WatchmanFPGAUpdate" "Atualização de dispositivo de deteção"
-"FirmwareWizard_WatchmanRecovery" "Atualização de dispositivo de deteção"
-"FirmwareWizard_DongleUpdate" "Atualização do recetor sem fios"
-"FirmwareWizard_CameraUpdate" "Atualização da Câmara"
-"FirmwareWizard_CameraRecovery" "Atualização da câmara"
-"FirmwareWizard_RadioUpdate" "Atualização do rádio"
-"FirmwareWizard_VRCUpdate" "Atualização de dispositvo"
-"FirmwareWizard_DisplayUpdate" "Atualização de ecrã"
-"FirmwareWizard_DisplayFPGAUpdate" "Atualização de ecrã"
-"FirmwareWizard_AudioUpdate" "Atualização de áudio"
-"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate" "Atualização de periférico"
-
-"FirmwareWizard_EnterBootloaderMode" "A preparar a atualização..."
-"FirmwareWizard_ExitBootloaderMode" "A terminar atualização..."
-"FirmwareWizard_WatchmanDiskUpdate" "Atualização de dispositivo"
-"FirmwareWizard_BaseStationBluetoothBootloaderUpdate" "Atualização de dispositivo"
-"FirmwareWizard_BaseStationBluetoothRadioUpdate" "Atualização de dispositivo"
-"FirmwareWizard_BaseStationBluetoothMCUUpdate" "Atualização de dispositivo"
-"FirmwareWizard_AudioBridgeUpdate" "Atualização de dispositivo"
-"FirmwareWizard_ImageBridgeUpdate" "Atualização de dispositivo"
-
-"FirmwareWizard_UpdateBasestation_Manual" "USB"
-"FirmwareWizard_UpdateBasestation_Bluetooth" "Sem fios"
-"FirmwareWizard_UpdateBasestation_Continue" "Continuar"
-
-"RebootHelper_ServiceStatus" "Estado: %1"
-"RebootHelper_ServiceError" "Erro: %1"
-"RebootHelper_StartingSteamVRShutdown" "A encerrar..."
-"RebootHelper_RebootingVive" "A reiniciar o SteamVR..."
-"RebootHelper_ConnectingToVive" "A estabelecer ligação ao headset..."
-"RebootHelper_RestartingSteamVR" "A reiniciar o SteamVR..."
-"RebootHelper_Cancel" "Cancelar"
-"RebootHelper_Status_WaitingForDevice" "À espera de dispositivo..."
-"RebootHelper_Status_Connected" "Conectado!"
-
-"MenuAction_SteamVRWebsite_URL" "http://steamvr.steampowered.com"
-"MenuAction_SteamVRCommunity_URL" "http://steamcommunity.com/app/250820/discussions/"
-"MenuAction_SteamVRHardwareDiscussions_URL" "http://steamcommunity.com/app/358720/discussions/"
-"MenuAction_SteamVRDeveloperSupport_URL" "https://developer.valvesoftware.com/wiki/SteamVR"
-"MenuAction_SteamWorksDeveloperSupport_URL" "http://steamcommunity.com/groups/steamworks/discussions"
-
-"BluetoothLinkStatus_Unknown" "Desconhecido"
-"BluetoothLinkStatus_ViveLinkNotAccessible" "Erro de Bluetooth"
-"BluetoothLinkStatus_SemaphoreFileNotAccessible" "Erro de Bluetooth"
-"BluetoothLinkStatus_WrongToken" "Erro de Bluetooth"
-"BluetoothLinkStatus_Running" "Em execução"
-"BluetoothLinkStatus_StoppedOrPaused" "Parado"
-"BluetoothLinkStatus_Transient" "A mudar"
-
-"BluetoothControllerStatus_Unknown"							"Desconhecido"
-"BluetoothControllerStatus_ServiceNotFound"					"Capacidades Bluetooth não encontradas. Por favor, verifica a tua instalação do SteamVR."
-"BluetoothControllerStatus_ServiceError"					"Erro de Bluetooth: BT-%1"
-"BluetoothControllerStatus_LinkBoxNotDetected"				"Link Box com função Bluetooth não encontrada. Verifica as conexões da Link Box, desliga e volta a ligar o cabo de alimentação à Link Box para reiniciá-la, e depois reinicia o SteamVR."
-"BluetoothControllerStatus_NoBluetoothDevice"				"Função Bluetooth não encontrada."
-"BluetoothControllerStatus_NoBluetoothDeviceUpdateNeeded"	"Capacidades Bluetooth não encontradas. É necessária uma atualização de dispositivo para ativar esta função. Passa o cursor do rato por cima do ícone do headset e seleciona \"Atualizar dispositivo\"."
-"BluetoothControllerStatus_BluetoothDriverNotInstalled"		"Driver Bluetooth da Link Box não instalado."
-"BluetoothControllerStatus_BluetoothDriverNeedsUpdate"		"O driver Bluetooth da Link Box necessita de atualização."
+"Advanced_LogPath" "Diret
+"Advanced_MotionEstimationActive" "Suav. de mov. - Ativa"
+"Advanced_MotionEstimationDisabled" "Suaviz. de mov. indispon
+"Advanced_MotionEstimationNotActive" "Suav. de mov. - Desativada"
+"Advanced_MotionSmoothedFrame" "Reprojetado com suav. de movimento"
+"Advanced_NormalFrame" "Frame normal"
+"Advanced_OneThirdFramerate" "1/3 da taxa de frames"
+"Advanced_Paths" "Diret
+"Advanced_PerfGraphInHMD" "Mostrar gr
+"Advanced_Performance" "V
+"Advanced_ReprojectedFrame" "Reprojetado sem suav. de movimento"
+"Advanced_ReprojectionOff" "Reproje
+"Advanced_ReprojectionOn" "Reproje
+"Advanced_Reset" "Restaurar"
+"Advanced_RoomOverview" "Chaperone"
+"Advanced_RuntimePath" "Diret
+"Advanced_SaveFrameDataNow" "Guardar dados agora"
+"Advanced_SetNewPath" "Definir novo diret
+"Advanced_Title" "Avan
+"Advanced_USB" "USB"
+"BS20_ConfigureChannel_Apply"								"Aplicar"	
+"BS20_ConfigureChannel_AutoConfigContinue"					"H
+"BS20_ConfigureChannel_AutoConfig_Incomplete"				"Configura
+"BS20_ConfigureChannel_AutoConfig_NoChannelConflictsFound"	"N
+"BS20_ConfigureChannel_AutoConfig_NoFreeChannels"			"N
+"BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"S
+"BS20_ConfigureChannel_AutoConfig_SuccessfulCompletion"		"Configura
+"BS20_ConfigureChannel_AutoConfig_UnknownChannels"			"H
+"BS20_ConfigureChannel_AutomaticConfiguration"				"Configura
+"BS20_ConfigureChannel_BaseStationName"						"A configurar %1 no canal %2"
+"BS20_ConfigureChannel_BluetoothRequired"					"A configura
+"BS20_ConfigureChannel_CancelledConnection"					"Liga
+"BS20_ConfigureChannel_Channel"								"Canal: %1"
+"BS20_ConfigureChannel_ChannelConfigurationFailure"			"%1 falhou ao aceitar a configura
+"BS20_ConfigureChannel_ConflictLegend"						"Conflito de canais com outra esta
+"BS20_ConfigureChannel_ConflictOnChannel"					"Poss
+"BS20_ConfigureChannel_ConflictWarning"						"%1 est
+"BS20_ConfigureChannel_Connecting"							"A conectar..."
+"BS20_ConfigureChannel_ConnectionFailure"					"%1 - Falha na conex
+"BS20_ConfigureChannel_Description"							"Seleciona um canal n
+"BS20_ConfigureChannel_ErrorLegend"							"Clica no link do canal para mais informa
+"BS20_ConfigureChannel_FailedToConnectRetry"				"%1 - Falha na conex
+"BS20_ConfigureChannel_FirmwareUpdateRequired"				"%1 requer uma atualiza
+"BS20_ConfigureChannel_Identify"							"Clica para identificar esta
+"BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"		"%1 requer uma atualiza
+"BS20_ConfigureChannel_InUseByPrefix"						"Em uso por:"
+"BS20_ConfigureChannel_Legend"								"Indica um canal usado por outras esta
+"BS20_ConfigureChannel_NoConflictOnChannel"					"Nenhum conflito no canal %1"
+"BS20_ConfigureChannel_ObservedInTracking"					"Observado numa sess
+"BS20_ConfigureChannel_ProgressCancelling"					"\nA cancelar...\n"
+"BS20_ConfigureChannel_ProgressConnecting"					"\nA conectar a esta
+"BS20_ConfigureChannel_ProgressScanComplete"				"Procura conclu
+"BS20_ConfigureChannel_ProgressScanNoStationsFound"			"Procura conclu
+"BS20_ConfigureChannel_ProgressScanning"					"
+"BS20_ConfigureChannel_ProgressWritingChannel"				"\nA gravar canal...\n"
+"BS20_ConfigureChannel_RSSI"								"RSSI: %1"
+"BS20_ConfigureChannel_ScanForMore"							"Procurar mais"
+"BS20_ConfigureChannel_Title"								"Esta
+"BS20_ConfigureChannel_VisibleNowInTracking"				"Vis
+"BS20_UpdateRecovery_BluetoothRequired"						"A recupera
+"BS20_UpdateRecovery_FoundStations"							"Procura conclu
+"BS20_UpdateRecovery_Incomplete"							"
+"BS20_UpdateRecovery_NoStationsFound"						"Procura conclu
+"BS20_UpdateRecovery_Refresh"								"Procurar de novo"
+"BS20_UpdateRecovery_Scanning"								"
+"BS20_UpdateRecovery_Title"									"Esta
+"BS20_UpdateRecovery_UpdateDevice"							"Recuperar dispositivo"
+"BS_PowerManagement_BaseStations"							"Esta
+"BS_PowerManagement_ConnectionFailureLegend"				"Falha na liga
+"BS_PowerManagement_Enable"									"Ativar gest
+"BS_PowerManagement_Enable_Explanation"						"Esta
+"BS_PowerManagement_Enable_Warning"							"<font color=#ffffff>* N
+"BS_PowerManagement_FailedToConnectRefresh"					"Falha na liga
+"BS_PowerManagement_ForgetBase"								"Esquecer este dispositivo"
+"BS_PowerManagement_FullStandby"							"Suspens
+"BS_PowerManagement_FullStandby_Explanation"				"As esta
+"BS_PowerManagement_Identify"								"Clica para identificar esta
+"BS_PowerManagement_IdentifyRequiresFirmareUpdate"			"%1 requer uma atualiza
+"BS_PowerManagement_ObservedInTracking"						"Observado numa sess
+"BS_PowerManagement_PartialStandby"							"Modo de espera" 
+"BS_PowerManagement_PartialStandby_Explanation"				"As esta
+"BS_PowerManagement_PartialStandby_HybridExplanation"		"As esta
+"BS_PowerManagement_RefreshLink"							"Atualizar"
+"BS_PowerManagement_Title"									"Gest
+"BS_PowerManagement_VisibleNowInTracking"					"Vis
+"BS_PromotePowerManagement_Enable"							"Ativar gest
+"BS_PromotePowerManagement_ExitNow"							"Sair agora (%1)"
+"BS_PromotePowerManagement_Explanation"						"O SteamVR pode fazer a gest
+"BS_PromotePowerManagement_Explanation2"					"<br><font color=#ffffff>* N
+"BS_PromotePowerManagement_Title"							"SteamVR"
+"BaseStation_Channel_Text" "Canal %1"
+"BaseStation_Mode_Text" "Modo %1"
 "BluetoothControllerStatus_BluetoothDriverInstalling"		"A instalar driver do Bluetooth..."
+"BluetoothControllerStatus_BluetoothDriverNeedsUpdate"		"O driver Bluetooth da Link Box necessita de atualiza
+"BluetoothControllerStatus_BluetoothDriverNotInstalled"		"Driver Bluetooth da Link Box n
+"BluetoothControllerStatus_Connected"						"Liga
 "BluetoothControllerStatus_Connecting"						"A conectar..."
 "BluetoothControllerStatus_Disconnecting"					"A desconectar..."
-"BluetoothControllerStatus_FailedConnection"				"A ligação Bluetooth falhou. Verifica as conexões da Link Box, desliga e volta a ligar o cabo de alimentação à Link Box para reiniciá-la, e depois reinicia o SteamVR."
-"BluetoothControllerStatus_Connected"						"Ligação Bluetooth pronta"
-
-"NeedRoomSetupNoLaunch_Message" "Esta aplicação não pode ser executada até que a configuração da divisão seja realizada. Gostarias de iniciar a configuração da divisão agora?"
-
-"WorkshopUpload_DialogTitle"	"Ferramenta de envio - Workshop do SteamVR"
-"WorkshopUpload_NoItem"			"(Novo)"
-"WorkshopUpload_SelectExisting"	"Editar"
-"WorkshopUpload_SelectContentType"	"Tipo"
-"WorkshopUpload_SelectContentType_Background"	"Fundo"
-"WorkshopUpload_SelectContentType_Environment"	"Modelo de ambiente"
-"WorkshopUpload_SelectContentType_Controller"	"Modelo de comando"
-"WorkshopUpload_SelectContentType_Camera"		"Modelo de câmara"
-"WorkshopUpload_SelectContentType_Basestation"	"Modelo de estação-base"
-"WorkshopUpload_Title"			"Nome"
-"WorkshopUpload_Desc"			"Descrição"
-"WorkshopUpload_Thumbnail"		"Ficheiro de miniatura (400x300, máx. 1 MB)"
-"WorkshopUpload_MainFile"		"Ficheiro"
-"WorkshopUpload_Cancel"			"Cancelar"
-"WorkshopUpload_Upload"			"Enviar"
-"WorkshopUpload_SelectImage"	"Selecionar imagem"
-"WorkshopUpload_ImagesFilter"	"Imagens (*.jpg *.png)"
-"WorkshopUpload_ObjFilter"		"Modelos (*.obj)"
-"WorkshopUpload_Visibility"			"Visibilidade"
-"WorkshopUpload_Visibility_Public"			"Público"
-"WorkshopUpload_Visibility_FriendsOnly"		"Só para amigos"
-"WorkshopUpload_Visibility_Private"			"Privado"
-"WorkshopUpload_Tags"							"Marcadores"
-"WorkshopUpload_Tag_Nature"						"Natureza"
-"WorkshopUpload_Tag_Tech"						"Tecnologia"
-"WorkshopUpload_Tag_City"						"Cidade"
-"WorkshopUpload_Tag_Space"						"Espaço"
-"WorkshopUpload_Tag_Game"						"Jogo"
-"WorkshopUpload_Tag_Abstract"					"Abstrato"
-"WorkshopUpload_Error"			"Erro"
-"WorkshopUpload_Error_SteamClientNotFound"	"Não foi possível iniciar a ferramenta de envio porque a aplicação Steam não está em execução."
-"WorkshopUpload_Error_NoTitle"	"Introduz um nome"
-"WorkshopUpload_Error_NoDesc"		"Introduz uma descrição"
-"WorkshopUpload_Error_DescTooLong"	"A descrição não pode ter mais do que 8000 caracteres."
-"WorkshopUpload_Error_NoFile_Thumbnail"		"Por favor, seleciona uma miniatura válida"
-"WorkshopUpload_Error_NoFile_MainFile"		"Seleciona um ficheiro válido"
-"WorkshopUpload_Error_TooLarge_Thumbnail"		"A miniatura não pode ser maior do que 1 MB"
-"WorkshopUpload_Error_TooLarge_MainFile"		"Os ficheiros não podem ser maiores do que 1 GB"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Background"	"As miniaturas devem ser ficheiros png ou jpg"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Environment"	"As miniaturas devem ser ficheiros png ou jpg"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Controller"	"As miniaturas devem ser ficheiros png ou jpg"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Camera"	"As miniaturas devem ser ficheiros png ou jpg"
-"WorkshopUpload_Error_InvalidType_Thumbnail_Basestation"	"As miniaturas devem ser ficheiros png ou jpg"
-"WorkshopUpload_Error_InvalidType_MainFile_Background"		"As imagens de fundo devem ser ficheiros png ou jpg"
-"WorkshopUpload_Error_InvalidType_MainFile_Environment"		"Os ficheiros de modelo de ambiente devem ser do tipo obj"
-"WorkshopUpload_Error_InvalidType_MainFile_Controller"		"Os ficheiros de modelo de comando devem ser do tipo obj"
-"WorkshopUpload_Error_InvalidType_MainFile_Camera"			"O ficheiro de modelo de câmara deve ser do tipo obj"
-"WorkshopUpload_Error_InvalidType_MainFile_Basestation"		"O ficheiro de modelo de estação-base deve ser do tipo obj"
-"WorkshopUpload_Error_LimitExceeded"	"Erro do Steam: \"Limite excedido\". Certifica-te de que a miniatura não é maior do que 1 MB."
-"WorkshopUpload_Error_CannotCreateUploadDir"		"Não foi possível criar o diretório de envio temporário!"
-"WorkshopUpload_Error_Generic"		"Ocorreu um problema ao enviar o ficheiro. Tenta de novo mais tarde."
-"WorkshopUpload_Error_NoItemsToEdit"	"Não foram encontrados ficheiros para editar!"
-"WorkshopUpload_Progress_Title"		"Workshop do SteamVR"
-"WorkshopUpload_Progress_Start"		"A contactar o Workshop do SteamVR..."
-"WorkshopUpload_Progress_PreparingConfig"		"A preparar configuração..."
-"WorkshopUpload_Progress_PreparingContent"		"A processar ficheiros..."
-"WorkshopUpload_Progress_UploadingContent"		"A enviar ficheiros..."
-"WorkshopUpload_Progress_UploadingPreview"		"A enviar ficheiro de prévia..."
-"WorkshopUpload_Progress_CommittingChanges"		"A concluir..."
-
-"KnockKnock_Title" "Queres a minha atenção?"
-"KnockKnock_Text" "Estou na R.V. neste momento. Para chamares a minha atenção, carrega no botão abaixo ou pressiona a tecla \"%1\"."
-"KnockKnock_Button" "Truz-truz"
-"KnockKnock_Notification_Text" "Truz-truz!\nAlguém fora da R.V. quer a tua atenção."
-
-"About_Title" "Sobre o SteamVR"
-"About_DateString" "d de MMM de yyyy %1 hh:mm"
-"About_DateString_Argument" "às"
-"About_BuiltPrefix" "Compilado em %1"
-"About_VersionPrefix" "Versão %1"
-
-"MenuAction_CalibrateController" "Calibrar comando"
-"CalibrateControllerTrackpad_Title" "Calibrar trackpad do comando"
-"CalibrateControllerTrackpad_Start_UpperText" "Isto vai calibrar o trackpad do teu comando. Deves calibrar o trackpad se o movimento não te parecer suave ou se acontecerem toques inesperados."
-"CalibrateControllerTrackpad_Start_LowerText" "Certifica-te de que não estás a tocar no trackpad e clica em Seguinte para continuar."
-"CalibrateControllerTrackpad_Progress_UpperText" "A calibrar o trackpad..."
-"CalibrateControllerTrackpad_Progress_LowerText" "
-"
-"CalibrateControllerTrackpad_Success" "Sucesso!"
-"CalibrateControllerTrackpad_End_UpperText" "O trackpad do teu comando está agora calibrado."
+"BluetoothControllerStatus_FailedConnection"				"A liga
+"BluetoothControllerStatus_LinkBoxNotDetected"				"Link Box com fun
+"BluetoothControllerStatus_NoBluetoothDevice"				"Fun
+"BluetoothControllerStatus_NoBluetoothDeviceUpdateNeeded"	"Capacidades Bluetooth n
+"BluetoothControllerStatus_ServiceError"					"Erro de Bluetooth: BT-%1"
+"BluetoothControllerStatus_ServiceNotFound"					"Capacidades Bluetooth n
+"BluetoothControllerStatus_Unknown"							"Desconhecido"
+"BluetoothLinkStatus_Running" "Em execu
+"BluetoothLinkStatus_SemaphoreFileNotAccessible" "Erro de Bluetooth"
+"BluetoothLinkStatus_StoppedOrPaused" "Parado"
+"BluetoothLinkStatus_Transient" "A mudar"
+"BluetoothLinkStatus_Unknown" "Desconhecido"
+"BluetoothLinkStatus_ViveLinkNotAccessible" "Erro de Bluetooth"
+"BluetoothLinkStatus_WrongToken" "Erro de Bluetooth"
+"BugReporter_CharactersRemaining" "%1 caracteres restantes"
+"BugReporter_Description" "Descri
+"BugReporter_DescriptionRequired" "Por favor, inclui uma descri
+"BugReporter_Explanation" "Agradecemos-te por ajudares a Valve a melhorar o SteamVR.\n\nAqui 
+"BugReporter_FailedToCreateZip" "Falha ao criar anexo ZIP."
+"BugReporter_ForPersonalSupport" "Isto n
+"BugReporter_IncludeCrashDumps" "Incluir \"crash dumps\""
+"BugReporter_IncludeReportAndLogs" "Incluir registos e relat
+"BugReporter_InitializationFailure" "N
+"BugReporter_NotAvailable" "N
+"BugReporter_Owner"	"Propriet
+"BugReporter_PreviewReport" "Pr
+"BugReporter_PreviewReportTitle" "Relatar um bug - Pr
+"BugReporter_Priority" "Prioridade:"
+"BugReporter_ProgressSubmitting" "A enviar..."
+"BugReporter_ProgressSubmittingPercent" "A enviar...%1%"
+"BugReporter_ReportType"	"Tipo de relato:"
+"BugReporter_ReportType_Bug" "Bug"
+"BugReporter_ReportType_FeatureRequest" "Sugest
+"BugReporter_ReportType_Feedback" "Feedback"
+"BugReporter_SteamLoginRequired" "Precisas de ter a sess
+"BugReporter_SteamVRSupport" "SteamVR - Apoio T
+"BugReporter_Subject" "Assunto:"
+"BugReporter_SubjectRequired" "Por favor, inclui um assunto."
+"BugReporter_SubmissionFailure"	"Envio malsucedido.\n\nO analisador de dados pode estar ocupado. Tenta enviar de novo.\n\nErro: BR-%1\n"
+"BugReporter_SubmissionSuccess"	"Envio bem-sucedido.\n\nDeves receber em breve um e-mail de confirma
+"BugReporter_SubmissionTimeout" "O envio falhou.\n\nO envio para a rede est
+"BugReporter_Title"	"Relatar um bug"
+"Button_ResetCollisionBounds" "Usar predefini
 "CalibrateControllerTrackpad_End_LowerText" "
-"
-
-"PlaylistEntryDefaultName" "Entrada"
-"PlaylistListDefaultName" "Lista de reprodução"
-
-"PlaylistEditor_WindowTitle" "Editor de listas de reprodução"
-"PlaylistEditor_New" "Nova"
-"PlaylistEditor_Load" "Carregar"
-"PlaylistEditor_Save" "Guardar"
-"PlaylistEditor_SaveAs" "Guardar como"
-"PlaylistEditor_FileName_Label" "Ficheiro:"
-"PlaylistEditor_Name_Label" "Nome:"
-"PlaylistEditor_Entries_Tab" "Entradas"
-"PlaylistEditor_Placecard_Tab" "Placa"
-"PlaylistEditor_General_Tab" "Geral"
-"PlaylistEditor_Detail_Name_Label" "Nome:"
-"PlaylistEditor_Detail_Entry_Text" "Entrada"
-"PlaylistEditor_Detail_Executable_Label" "Executável:"
-"PlaylistEditor_Detail_DotDotDot_Label" "..."
+"CalibrateControllerTrackpad_End_UpperText" "O trackpad do teu comando est
+"CalibrateControllerTrackpad_Progress_LowerText" "
+"CalibrateControllerTrackpad_Progress_UpperText" "A calibrar o trackpad..."
+"CalibrateControllerTrackpad_Start_LowerText" "Certifica-te de que n
+"CalibrateControllerTrackpad_Start_UpperText" "Isto vai calibrar o trackpad do teu comando. Deves calibrar o trackpad se o movimento n
+"CalibrateControllerTrackpad_Success" "Sucesso!"
+"CalibrateControllerTrackpad_Title" "Calibrar trackpad do comando"
+"CollisionBounds_Advanced" "Avan
+"CollisionBounds_Beginner" "Iniciante"
+"CollisionBounds_Developer" "Developer"
+"CollisionBounds_Intermediate" "Interm
+"CollisionBounds_Squares" "Quadrados"
+"CompositorBackground_Color"		"Cor"
+"CompositorBackground_Header"		"Estilo do fundo"
+"CompositorBackground_Image"		"Imagem"
+"CompositorError_NoCompositorRequested" "Erro do SteamVR"
+"CompositorError_Running" "Em execu
+"Compositor_ResetToDefault" 		"Usar predefini
+"Compositor_SelectColorHeader"		"Seleciona uma cor para o plano de fundo no headset."
+"Compositor_SelectImage"			"Selecionar imagem..."
+"Compositor_SelectImageHeader"		"Seleciona uma imagem para o plano de fundo no headset."
+"DismissableWarning_BasestationSingleBaseModeHint" "Aviso de esta
+"DismissableWarning_BasestationsSyncOnBeamChannelConflict" "Conflito de esta
+"DismissableWarning_BasestationsTooFarApart" "Esta
+"DismissableWarning_BluetoothDriverNeedsInstallation" "Requer driver de Bluetooth (0x0080)"
+"DismissableWarning_BluetoothDriverNeedsUpdate" "Requer atualiza
+"DismissableWarning_BluetoothLinkCommunicationFailed" "Falha na comunica
+"DismissableWarning_BluetoothLinkServiceError" "Bluetooth indispon
+"DismissableWarning_BluetoothLinkServiceNotFound" "Bluetooth indispon
+"DismissableWarning_Detected" "Detetado"
+"DismissableWarning_DismissButton" "Descartar"
+"DismissableWarning_DisplayInExtendedMode" "Alerta de ecr
+"DismissableWarning_MissedFrames" "Frames perdidas (0x0020)"
+"DismissableWarning_OpticalBasestationSyncWarning" "Alerta de esta
+"DismissableWarning_PowerSchemeIsNotHighPerformance" "Erro de desempenho (0x0040)"
+"DismissableWarning_RunTutorialAgain" "Inicia o tutorial (0x0001)"
+"DismissableWarning_SomeDisplaysAreMirroring" "Alguns ecr
+"DismissableWarning_SteamVRInSafeMode" "SteamVR em modo de seguran
+"DismissableWarning_TimeFormat" "h:mm"
+"DismissableWarning_UnknownHardwareDetected" "Novo dispositivo encontrado (0x2000)"
+"DismissableWarning_WarningsForTheFirstTime" "Alertas pela primeira vez (0x0010)"
+"DismissableWarning_Windows8" "Windows 8 (0x8000)"
+"DismissableWarning_WindowsAeroDisabled" "Alerta de ecr
+"Explanation_DisableEnhancedPowerManagement" "Desativa a \"Melhor Gest
+"Explanation_QuickCalibrate" "Redefine rapidamente a configura
+"Explanation_RebootVive" "Reiniciar o teu headset Vive poder
+"Explanation_RemoveAllSteamVRUSBDevices" "Remove os dispositivos USB relacionados com o SteamVR para que os drivers sejam reinstalados."
+"Explanation_ResetDismissableWarnings" "Esta op
+"Explanation_ResetRuntimeAndQuit" "Redefinir o caminho do SteamVR com base no diret
+"Explanation_RestartSteamVR" "Reiniciar o SteamVR pode solucionar problemas relacionados com USB."
+"Explanation_Supersampling" "*Algumas aplica
+"Explanation_SupersamplingFiltering" "Op
+"Explanation_Supersampling_Header" "O SteamVR define automaticamente a resolu
+"FirmwareWizard_AudioBridgeUpdate" "Atualiza
+"FirmwareWizard_AudioUpdate" "Atualiza
+"FirmwareWizard_BaseStationBluetoothBootloaderUpdate" "Atualiza
+"FirmwareWizard_BaseStationBluetoothMCUUpdate" "Atualiza
+"FirmwareWizard_BaseStationBluetoothRadioUpdate" "Atualiza
+"FirmwareWizard_CameraRecovery" "Atualiza
+"FirmwareWizard_CameraUpdate" "Atualiza
+"FirmwareWizard_DeviceOverview_FailedToUpdate" "Falha na atualiza
+"FirmwareWizard_DeviceOverview_LookingForDevice" "
+"FirmwareWizard_DeviceOverview_Nagging_Title" "Atualiza
+"FirmwareWizard_DeviceOverview_NoUpdateDataAvailable" "Nenhuma atualiza
+"FirmwareWizard_DeviceOverview_TextContent" "Que dispositivo queres atualizar?"
+"FirmwareWizard_DeviceOverview_TextContent_Nag" "H
+"FirmwareWizard_DeviceOverview_Title" "Atualizar dispositivo"
+"FirmwareWizard_DeviceOverview_UpToDate" "Atualizado"
+"FirmwareWizard_DeviceOverview_UpdateAvailable" "Atualiza
+"FirmwareWizard_DeviceOverview_WirelessServicesRequired" "Esta atualiza
+"FirmwareWizard_DisplayFPGAUpdate" "Atualiza
+"FirmwareWizard_DisplayUpdate" "Atualiza
+"FirmwareWizard_DongleUpdate" "Atualiza
+"FirmwareWizard_EnterBootloaderMode" "A preparar a atualiza
+"FirmwareWizard_ExitBootloaderMode" "A terminar atualiza
+"FirmwareWizard_ImageBridgeUpdate" "Atualiza
+"FirmwareWizard_Information_Title" "Atualiza
+"FirmwareWizard_Nag_Title" "Atualiza
+"FirmwareWizard_ProgressPercent" "[ %1% ]"
+"FirmwareWizard_ProgressPercentFinishing" "[ A terminar... ]"
+"FirmwareWizard_ProgressPercentStarting" "[ A iniciar... ]"
+"FirmwareWizard_ProgressTextLeft" "("
+"FirmwareWizard_ProgressTextMiddle" "de"
+"FirmwareWizard_ProgressTextRight" ")"
+"FirmwareWizard_RadioUpdate" "Atualiza
+"FirmwareWizard_ShutdownForMandatoryUpdate_TextContent" "O teu headset precisa de uma atualiza
+"FirmwareWizard_ShutdownForRecovery_TextContent" "Um componente do teu hardware necessita de uma atualiza
+"FirmwareWizard_Shutdown_TextContent" "Para atualizar o teu dispositivo, o SteamVR vai ter de encerrar todas as aplica
+"FirmwareWizard_Shutdown_Title" "Atualizar dispositivo"
+"FirmwareWizard_UpdateBasestationWireless_Fail_BaseNeedsPowerCycle" "Esta esta
+"FirmwareWizard_UpdateBasestationWireless_Fail_BaseStuckInDFU" "Uma liga
+"FirmwareWizard_UpdateBasestationWireless_Fail_ClickCancel" "Clica em \"Cancelar\" para reiniciares o SteamVR."
+"FirmwareWizard_UpdateBasestationWireless_Fail_ClickRetry" "Clica em \"Tentar novamente\" para tentares de novo."
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText" "Se a atualiza
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_BS20" "Se a atualiza
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox" "Se a atualiza
+"FirmwareWizard_UpdateBasestationWireless_Fail_MiddleText_UsingLinkBox_BS20" "Se a atualiza
+"FirmwareWizard_UpdateBasestationWireless_Fail_NonceRejected" "Esta esta
+"FirmwareWizard_UpdateBasestationWireless_Fail_PairingLockout" "Esta esta
+"FirmwareWizard_UpdateBasestationWireless_Fail_Title" "A atualiza
+"FirmwareWizard_UpdateBasestationWireless_Fail_USBConnected" "Uma liga
+"FirmwareWizard_UpdateBasestationWireless_Fail_UpperText" "A atualiza
+"FirmwareWizard_UpdateBasestationWireless_Fail_VersionRejected" "Esta esta
+"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS10" "A esta
+"FirmwareWizard_UpdateBasestationWireless_Success_MiddleText_BS20" "A esta
+"FirmwareWizard_UpdateBasestationWireless_Success_Title" "Atualiza
+"FirmwareWizard_UpdateBasestationWireless_Success_UpperText" "Sucesso!"
+"FirmwareWizard_UpdateBasestation_Bluetooth" "Sem fios"
+"FirmwareWizard_UpdateBasestation_Choice_MiddleText" "A atualiza
+"FirmwareWizard_UpdateBasestation_Choice_Title" "Atualizar esta
+"FirmwareWizard_UpdateBasestation_Continue" "Continuar"
+"FirmwareWizard_UpdateBasestation_Fail_LowerText" "Clica em \"Tentar novamente\" para tentares de novo."
+"FirmwareWizard_UpdateBasestation_Fail_MiddleText" "Assegura-te de que a tua esta
+"FirmwareWizard_UpdateBasestation_Fail_Title" "A atualiza
+"FirmwareWizard_UpdateBasestation_Fail_UpperText" "A atualiza
+"FirmwareWizard_UpdateBasestation_Manual" "USB"
+"FirmwareWizard_UpdateBasestation_Progress_LowerText" "AVISO: N
+"FirmwareWizard_UpdateBasestation_Progress_MiddleText" "A atualizar esta
+"FirmwareWizard_UpdateBasestation_Progress_Title" "Atualizar esta
+"FirmwareWizard_UpdateBasestation_Progress_UpperText" "
+"FirmwareWizard_UpdateBasestation_Start_LowerText" "4. A atualiza
+"FirmwareWizard_UpdateBasestation_Start_MiddleText" "1. Desmonta e desliga o cabo de alimenta
+"FirmwareWizard_UpdateBasestation_Start_Title" "Atualizar esta
+"FirmwareWizard_UpdateBasestation_Start_UpperText" "
+"FirmwareWizard_UpdateBasestation_Success_LowerText" "Ao remontar, assegura-te de que n
+"FirmwareWizard_UpdateBasestation_Success_MiddleText" "A esta
+"FirmwareWizard_UpdateBasestation_Success_Title" "Atualizar esta
+"FirmwareWizard_UpdateBasestation_Success_UpperText" "Sucesso!"
+"FirmwareWizard_UpdateBasestation_WirelessProgress_LowerText" "AVISO: N
+"FirmwareWizard_UpdateBasestation_WirelessProgress_MiddleText" "A atualizar esta
+"FirmwareWizard_UpdateBasestation_WirelessProgress_Title" "Atualizar esta
+"FirmwareWizard_UpdateBasestation_Wireless_LowerText" "
+"FirmwareWizard_UpdateBasestation_Wireless_MiddleText" "A atualiza
+"FirmwareWizard_UpdateBasestation_Wireless_Title" "Atualizar esta
+"FirmwareWizard_UpdateBasestation_Wireless_UpperText" "
+"FirmwareWizard_UpdateController_Fail_LowerText" "Clica em \"Tentar novamente\" para tentares de novo."
+"FirmwareWizard_UpdateController_Fail_MiddleText" "Assegura-te de que o teu comando est
+"FirmwareWizard_UpdateController_Fail_Title" "A atualiza
+"FirmwareWizard_UpdateController_Fail_UpperText" "A atualiza
+"FirmwareWizard_UpdateController_Progress_LowerText" "AVISO: N
+"FirmwareWizard_UpdateController_Progress_MiddleText" "A atualizar comando. Isto pode demorar alguns minutos..."
+"FirmwareWizard_UpdateController_Progress_Title" "Atualizar comando"
+"FirmwareWizard_UpdateController_Progress_UpperText" "
+"FirmwareWizard_UpdateController_Start_LowerText" "A atualiza
+"FirmwareWizard_UpdateController_Start_MiddleText" "Liga este comando ao teu computador com um cabo micro-USB. Podes usar o mesmo cabo que usas para carregar os teus comandos."
+"FirmwareWizard_UpdateController_Start_Title" "Atualizar comando"
+"FirmwareWizard_UpdateController_Start_UpperText" "
+"FirmwareWizard_UpdateController_Success_LowerText" "
+"FirmwareWizard_UpdateController_Success_MiddleText" "O comando foi atualizado com 
+"FirmwareWizard_UpdateController_Success_Title" "Atualizar comando"
+"FirmwareWizard_UpdateController_Success_UpperText" "Sucesso!"
+"FirmwareWizard_UpdateGenericTracker_Fail_LowerText" "Clica em \"Tentar novamente\" para tentares de novo."
+"FirmwareWizard_UpdateGenericTracker_Fail_MiddleText" "Assegura-te de que o teu detetor est
+"FirmwareWizard_UpdateGenericTracker_Fail_Title" "A atualiza
+"FirmwareWizard_UpdateGenericTracker_Fail_UpperText" "A atualiza
+"FirmwareWizard_UpdateGenericTracker_Progress_LowerText" "AVISO: N
+"FirmwareWizard_UpdateGenericTracker_Progress_MiddleText" "A atualizar detetor. Isto pode demorar v
+"FirmwareWizard_UpdateGenericTracker_Progress_Title" "Atualizar detetor"
+"FirmwareWizard_UpdateGenericTracker_Start_LowerText" "A atualiza
+"FirmwareWizard_UpdateGenericTracker_Start_MiddleText" "Liga este detetor ao teu computador com um cabo micro-USB. Podes usar o mesmo cabo que usas para carregar o teu detetor."
+"FirmwareWizard_UpdateGenericTracker_Start_Title" "Atualizar detetor"
+"FirmwareWizard_UpdateGenericTracker_Success_LowerText" "
+"FirmwareWizard_UpdateGenericTracker_Success_MiddleText" "O detetor foi atualizado com 
+"FirmwareWizard_UpdateGenericTracker_Success_Title" "Atualizar detetor"
+"FirmwareWizard_UpdateGenericTracker_Success_UpperText" "Sucesso!"
+"FirmwareWizard_UpdateHeadset_Fail_LowerText" "
+"FirmwareWizard_UpdateHeadset_Fail_MiddleText" "Assegura-te de que o teu headset est
+"FirmwareWizard_UpdateHeadset_Fail_Title" "A atualiza
+"FirmwareWizard_UpdateHeadset_Fail_UpperText" "A atualiza
+"FirmwareWizard_UpdateHeadset_Progress_LowerText" "AVISO: N
+"FirmwareWizard_UpdateHeadset_Progress_MiddleText" "A atualizar o headset. Isto pode demorar alguns minutos..."
+"FirmwareWizard_UpdateHeadset_Progress_Title" "Atualizar headset"
+"FirmwareWizard_UpdateHeadset_Progress_UpperText" "
+"FirmwareWizard_UpdateHeadset_Start_LowerText" "\nA atualiza
+"FirmwareWizard_UpdateHeadset_Start_MiddleText" "Liga o headset ao teu computador."
+"FirmwareWizard_UpdateHeadset_Start_Title" "Atualizar headset"
+"FirmwareWizard_UpdateHeadset_Start_UpperText" "
+"FirmwareWizard_UpdateHeadset_Success_LowerText"  "
+"FirmwareWizard_UpdateHeadset_Success_MiddleText" "O headset foi atualizado com 
+"FirmwareWizard_UpdateHeadset_Success_Title" "Atualizar headset"
+"FirmwareWizard_UpdateHeadset_Success_UpperText" "Sucesso!"
+"FirmwareWizard_UpdateMoreFirmware" "Atualizar mais dispositivos"
+"FirmwareWizard_UpdateType_WatchmanV3PeripheralUpdate" "Atualiza
+"FirmwareWizard_VRCUpdate" "Atualiza
+"FirmwareWizard_WaitingForShutdown_TextContent" "A preparar sistema para atualiza
+"FirmwareWizard_WatchmanDiskUpdate" "Atualiza
+"FirmwareWizard_WatchmanFPGAUpdate" "Atualiza
+"FirmwareWizard_WatchmanRecovery" "Atualiza
+"FirmwareWizard_WatchmanUpdate" "Atualiza
+"FirmwareWizard_WirelessServicesRequired" "Servi
+"FirmwareWizard_WirelessServicesRequired_Title" "Atualizar esta
+"FirmwareWizard_WizardIsAlreadyBusy_Message" "Esta atualiza
+"FrameTiming_5sStats" "Perdas nos 
+"FrameTiming_Compositor" "Compositor"
+"FrameTiming_Config" "Avisar se durante %3s ocorrerem\n %1 perdas de frames 
+"FrameTiming_FirstView" " --- Visto pela 1
+"FrameTiming_Idle" "Parado"
+"FrameTiming_LateStart" "In
+"FrameTiming_MisPresented" " --- Reprojetado"
+"FrameTiming_Other" "Outro"
+"FrameTiming_Pause" "Pausa"
+"FrameTiming_PostSubmit" "Aplica
+"FrameTiming_PreSubmit" "Aplica
+"FrameTiming_Predicted" " --- Previsto (extra)"
+"FrameTiming_Presented" " --- Presente (n
+"FrameTiming_Raw" "Detalhes"
+"FrameTiming_ReadyForUse" " --- Pronto para uso"
+"FrameTiming_Remote" "Remoto"
+"FrameTiming_ShowInHeadset" "Mostrar no headset"
+"FrameTiming_Throttled" " --- Limite (frames)"
+"FrameTiming_Title" "Tempos das frames"
+"FrameTiming_Vsync" "Sinc. vertical"
+"HeadsetView_DebugCommands" "Abrir comandos de debug"
+"HeadsetView_DockButtonLabel" "Juntar vista de R.V."
+"HeadsetView_EyeMode_Both" "Ambos os olhos"
+"HeadsetView_EyeMode_BothLeftDominant" "Ambos os olhos - Esquerdo dominante"
+"HeadsetView_EyeMode_BothRightDominant" "Ambos os olhos - Direito dominante"
+"HeadsetView_EyeMode_Left" "Olho esquerdo"
+"HeadsetView_EyeMode_Right" "Olho direito"
+"HeadsetView_FullscreenButtonLabel" "Ecr
+"HeadsetView_HideButtonLabel" "Ocultar vista de R.V."
+"HeadsetView_MenuLabel" "Menu"
+"HeadsetView_PressKeyToExit" "Pressiona %1 para sair de ecr
+"HeadsetView_Title" "Vista de R.V."
+"HeadsetView_UndockButtonLabel" "Separar vista de R.V."
+"Info_UnknownURL_Message" "O link ainda n
+"Info_UnknownURL_Title" "SteamVR"
+"Key_Escape_Abbreviation" "ESC"
+"KnockKnock_Button" "Truz-truz"
+"KnockKnock_Notification_Text" "Truz-truz!\nAlgu
+"KnockKnock_Text" "Estou na R.V. neste momento. Para chamares a minha aten
+"KnockKnock_Title" "Queres a minha aten
+"Language" "portuguese"
+"Log_Button_Clear" "Limpar"
+"Log_Button_LoadCompleteFile" "Carregar ficheiro completo"
+"Log_Button_ShowInExplorer" "Ver no Explorador"
+"Log_Text_MoreLineInTheActualFile" "MAIS LINHAS NO FICHEIRO\n\n"
+"Log_Window_Title" "Relat
+"Main_CanSetInstallationPath_Message" "N
+"Main_Information_Title" "SteamVR"
+"Main_JumplistEntry_Advanced" "Avan
+"Main_JumplistEntry_Quit" "Sair"
+"Main_JumplistEntry_RunFirstApplication" "Primeira aplica
+"Main_JumplistEntry_RunRoomSetup" "Configura
+"Main_JumplistEntry_RunTutorial" "Tutorial"
+"Main_JumplistEntry_Settings" "Defini
+"Main_JumplistEntry_SystemReport" "Relat
+"Main_RuntimeFailed_Message" "N
+"Main_Systray_Error_Message" "Este computador n
+"Main_Systray_Error_Title" "
+"MenuAction_AboutQt" "Sobre o Qt"
+"MenuAction_About_vrmonitor" "Sobre o SteamVR"
+"MenuAction_BaseStationSettings" "Defini
+"MenuAction_BluetoothSettings" "Defini
+"MenuAction_CalibrateController" "Calibrar comando"
+"MenuAction_ClearRecentPlaylist" "Limpar listas recentes"
+"MenuAction_Compositor_HideMirror" "Ocultar vista de R.V."
+"MenuAction_Compositor_ShowMirror" "Mostrar vista de R.V."
+"MenuAction_CouldNotReadLogFiles" "N
+"MenuAction_Crash" "Crash"
+"MenuAction_CreateSystemReport" "Criar relat
+"MenuAction_DebugCommands" "Comandos de debug"
+"MenuAction_Developer" "Developer"
+"MenuAction_Devices" "Dispositivos"
+"MenuAction_Diagnostics" "Avan
+"MenuAction_DiagnosticsMenu" "Diagn
+"MenuAction_DirectMode" "Modo de Visualiza
+"MenuAction_Directories" "Diret
+"MenuAction_DisableDirectMode" "Desativar Visualiz. Direta"
+"MenuAction_DisableEnhancedPowerManagement" "Desativar gest
+"MenuAction_DisplayFrameTiming" "Tempos das frames (Avan
+"MenuAction_DisplayMirror" "Ecr
+"MenuAction_EnableDirectMode" "Visualiza
+"MenuAction_FirmwareUpdate" "Atualizar dispositivo"
+"MenuAction_ForceFirmware" "For
+"MenuAction_Help" "Ajuda"
+"MenuAction_HideDisplayMirror" "Ocultar vista de R.V."
+"MenuAction_IdentifyBaseStation" "Identificar esta
+"MenuAction_IdentifyController" "Identificar comando"
+"MenuAction_IdentifyTracker" "Identificar detetor"
+"MenuAction_KnockKnock" "Truz-truz"
+"MenuAction_LegacySettings" "Defini
+"MenuAction_LogFiles" "Ficheiros de relat
+"MenuAction_MainPlaylistMenu" "Listas de reprodu
+"MenuAction_ModelDirectory_Browse" "Abrir diret
+"MenuAction_More" "Mais"
+"MenuAction_OverlayViewer" "Visualizador de sobreposi
+"MenuAction_PairController" "Emparelhar comando"
+"MenuAction_PairTracker" "Emparelhar detetor"
+"MenuAction_PairingWizard" "Emparelhar comando"
+"MenuAction_PerformanceGraph" "Mostrar gr
+"MenuAction_PlaylistEditor" "Editor de listas"
+"MenuAction_PlaylistPlayer" "Reprodutor de listas"
+"MenuAction_PowerOffController" "Desligar comando"
+"MenuAction_PowerOffTracker" "Desligar detetor"
+"MenuAction_QuickCalibrate" "Calibra
+"MenuAction_Quit" "Sair"
+"MenuAction_RebootVive" "Reiniciar headset"
+"MenuAction_RecentPlaylist" "Recentes"
+"MenuAction_RecentPlaylists" "Listas recentes"
+"MenuAction_RecordTrackingData" "Gravar dados de dete
+"MenuAction_RefreshStatusNow" "Atualizar estado"
+"MenuAction_RemoveAllSteamVRUSBDevices" "Remover dispositivos USB"
+"MenuAction_ReportABug" "Relatar um bug"
+"MenuAction_ResetAllSettingsAndQuit" "Restaurar todas as defini
+"MenuAction_ResetDismissableWarnings" "Repor avisos"
+"MenuAction_ResetRuntimeAndQuit" "Redefinir caminho do SteamVR"
+"MenuAction_ResetSeatedPosition" "Repor posi
+"MenuAction_RestartSteamVR" "Reiniciar SteamVR"
+"MenuAction_RoomOverview" "Vista geral do espa
+"MenuAction_RunMediaPlayer" "Media Player"
+"MenuAction_RunPlaylist" "Iniciar lista"
+"MenuAction_RunRoomSetup" "Configura
+"MenuAction_RunTutorial" "Tutorial"
+"MenuAction_SetConfigDirectory" "Definir diret
+"MenuAction_SetLogDirectory" "Definir diret
+"MenuAction_Settings" "Defini
+"MenuAction_ShowConfigDirectory" "Mostrar diret
+"MenuAction_ShowControllerBinding" "Defini
+"MenuAction_ShowDisplayMirror" "Mostrar vista de R.V."
+"MenuAction_ShowLogDirectory" "Mostrar diret
+"MenuAction_ShowManageTrackers" "Gerir detetores"
+"MenuAction_ShowRuntimeDirectory" "Mostrar diret
+"MenuAction_StatusBar" "Estado"
+"MenuAction_SteamVRCommunity" "Comunidade SteamVR"
+"MenuAction_SteamVRCommunity_URL" "http://steamcommunity.com/app/250820/discussions/"
+"MenuAction_SteamVRDeveloperSupport" "Apoio a developers SteamVR"
+"MenuAction_SteamVRDeveloperSupport_URL" "https://developer.valvesoftware.com/wiki/SteamVR"
+"MenuAction_SteamVRHardwareDiscussions" "Discuss
+"MenuAction_SteamVRHardwareDiscussions_URL" "http://steamcommunity.com/app/358720/discussions/"
+"MenuAction_SteamVRWebsite" "SteamVR - Apoio T
+"MenuAction_SteamVRWebsite_URL" "http://steamvr.steampowered.com"
+"MenuAction_SteamWorksDeveloperSupport" "Apoio a developers Steamworks"
+"MenuAction_SteamWorksDeveloperSupport_URL" "http://steamcommunity.com/groups/steamworks/discussions"
+"MenuAction_StopRecording" "Parar grava
+"MenuAction_SystemReportViewer" "Visualizador de relat
+"MenuAction_UpdateFirmware" "Atualizar dispositivo"
+"MenuAction_ViewLogDirectory" "Ver relat
+"MenuAction_WakeupAllBaseStations" "Despertar esta
+"MenuAction_WebConsole" "Consola Web"
+"MenuAction_WebDevTools" "Ferramentas Web Dev"
+"MenuAction_WebDevToolsPlaceholder" "Nenhuma inst
+"MenuAction_Workshop" "Workshop"
+"MenuAction_Workshop_Browse" "Procurar no Workshop"
+"MenuAction_Workshop_EditItem" "Modificar imagem de fundo existente"
+"MenuAction_Workshop_RunTools" "Criar/modificar um ambiente"
+"MenuAction_Workshop_UploadItem" "Enviar nova imagem de fundo"
+"MenuAction_Workshop_ViewWiki" "Wiki dos Ambientes SteamVR"
+"MessageBox_Cancel" "Cancelar"
+"MessageBox_Continue" "Continuar"
+"MessageBox_Done" "OK"
+"MessageBox_Exit" "Sair"
+"MessageBox_Forget" "Esquecer"
+"MessageBox_Next" "Seguinte"
+"MessageBox_OK" "OK"
+"MessageBox_OpenWirelessSettings" "Defini
+"MessageBox_RefreshAll" "Atualizar tudo"
+"MessageBox_RemindMeLater" "Lembrar-me mais tarde"
+"MessageBox_RestartLater" "Reiniciar depois"
+"MessageBox_RestartNow" "Reiniciar SteamVR"
+"MessageBox_RestartSteamVR" "A reiniciar SteamVR..."
+"MessageBox_Retry" "Tentar novamente"
+"MessageBox_SetAndRestart" "Definir e reiniciar"
+"MessageBox_Stop" "Parar"
+"MessageBox_Submit" "Enviar"
+"MessageBox_Yes" "Sim"
+"MonitorController_ApplicationCouldNotStart" "N
+"MonitorController_ApplicationsInterfaceNotAvailable" "N
+"MonitorController_DisableDirectMode_Text" "AVISO: Desativar o Modo de Visualiza
+"MonitorController_EnableDirectMode_Text" "O SteamVR ser
+"MonitorController_EnableSafeMode_Text" "<span>O modo de seguran
+"MonitorController_Information_Title" "SteamVR"
+"MonitorController_LoadPlaylist" "Carregar lista"
+"MonitorController_NotAbleToMakeCompositorFullscreen" "O SteamVR est
+"MonitorController_NotAbleToStartSteam" "N
+"MonitorController_ResetCompleteSetup_Text" "Isto ir
+"MonitorController_RestartSystemNotPossible" "Neste momento, o SteamVR n
+"MonitorController_SelectRecordingDirectory" "Selecionar diret
+"MonitorController_SwitchDirectMode_Header" "Modo de Visualiza
+"MonitorController_SwitchSafeMode_Header" "Modo de seguran
+"MonitorController_Version" "Vers
+"Monitor_PuttingBaseStationsInStandby" "Esta
+"Monitor_RestartRequestedDialog_Message" "%1"
+"Monitor_RestartRequestedDialog_MessageNoReason" "O driver %1 necessita que o SteamVR seja reiniciado."
+"Monitor_RestartRequestedDialog_Quit" "Sair do SteamVR"
+"Monitor_RestartRequestedDialog_Restart" "Reiniciar SteamVR"
+"Monitor_RestartRequestedDialog_Title" "Reinicializa
+"Monitor_SpontaneousQuitDialog_Message" "O SteamVR encontrou um erro cr
+"Monitor_SpontaneousQuitDialog_Quit" "Sair do SteamVR"
+"Monitor_SpontaneousQuitDialog_Restart" "Reiniciar SteamVR"
+"Monitor_SpontaneousQuitDialog_Title" "Erro inesperado no SteamVR"
+"Monitor_WakingBaseStations" "A despertar esta
+"NeedRoomSetupNoLaunch_Message" "Esta aplica
+"PairingWizard_CheckForDongles_Content" "Procurar recetores sem fios dispon
+"PairingWizard_HelperAppFailed_Content" "Falha ao comunicar com a aplica
+"PairingWizard_HelperAppFailed_Error_Crashed" "'Crash' (1)"
+"PairingWizard_HelperAppFailed_Error_FailedToStart" "'Falha ao iniciar' (0)"
+"PairingWizard_HelperAppFailed_Error_ReadError" "'Erro de leitura' (3)"
+"PairingWizard_HelperAppFailed_Error_Timedout" "'Tempo esgotado' (2)"
+"PairingWizard_HelperAppFailed_Error_UnknownError" "'Erro desconhecido' (5)"
+"PairingWizard_HelperAppFailed_Error_WriteError" "'Erro de escrita' (4)"
+"PairingWizard_HelperAppFailed_MoreInfo" "Mais informa
+"PairingWizard_HelperAppFailed_MoreInfo_URL" "http://www.valvesoftware.com"
+"PairingWizard_LookingForControllers_Content" "Mant
+"PairingWizard_LookingForControllers_Header" "
+"PairingWizard_NoDonglesAvailable_Content" "Para emparelhar comandos adicionais, pelo menos um dos teus comandos deve ser desligado. Apenas 2 comandos podem estar conectados simultaneamente."
+"PairingWizard_NoDonglesAvailable_Header" "
+"PairingWizard_NoDonglesAvailable_Title" "Dois comandos j
+"PairingWizard_NoDonglesDetected_Content" "O teu headset deve estar conectado devidamente para poderes emparelhar comandos novos."
+"PairingWizard_NoDonglesDetected_Header" "
+"PairingWizard_NoDonglesDetected_Title" "Nenhum headset encontrado"
+"PairingWizard_PairAnotherController" "Emparelhar outro comando"
+"PairingWizard_PairController_Success_Title" "Sucesso!"
+"PairingWizard_PairController_Title" "Emparelhar novo comando"
+"PairingWizard_PairingFailed_Content" "Certifica-te de que o teu comando est
+"PairingWizard_PairingFailed_Header" "O emparelhamento falhou"
+"PairingWizard_Success_MoreDonglesAvailable_Content" "O teu comando est
+"PairingWizard_Success_MoreDonglesAvailable_Header" "Comando emparelhado!"
+"PairingWizard_Success_NoMoreDonglesAvailable_Content" "O teu comando est
+"PairingWizard_Success_NoMoreDonglesAvailable_Header" "Comando emparelhado!"
+"PairingWizard_TimeoutHappened_Content" "Certifica-te de que o teu comando est
+"PairingWizard_TimeoutHappened_Header" "Nenhum comando detetado"
+"PlaylistEditor_AddEntry_Text" "Entrada %1"
 "PlaylistEditor_Detail_Arguments_Label" "Argumentos:"
-"PlaylistEditor_Detail_Environment_Label" "Ambiente:"
-"PlaylistEditor_Detail_WorkingDirectory_Label" "Diretório de uso:"
-"PlaylistEditor_Detail_UseCompositor_Checkbox" "Usar compositor"
-"PlaylistEditor_Detail_Total_Label" "Total:"
-"PlaylistEditor_Detail_WaitForNext_Checkbox" "Esperar seguinte"
-"PlaylistEditor_Detail_PrerollPlacecard_Label" "Placa de pre-roll:"
-"PlaylistEditor_Detail_NothingSet_Text" "Nada definido."
-"PlaylistEditor_Detail_PrerollDuration_Label" "Duração do pre-roll:"
-"PlaylistEditor_Detail_PostrollDuration_Label" "Duração do post-roll:"
-"PlaylistEditor_Detail_AudioVolume_Label" "Volume do áudio:"
 "PlaylistEditor_Detail_AudioVolumeInPercent_Label" " em % "
 "PlaylistEditor_Detail_AudioVolumeOverride_Checkbox" "Sobrepor"
-"PlaylistEditor_Header_Length" "Duração"
-"PlaylistEditor_Header_Durations" "Durações"
+"PlaylistEditor_Detail_AudioVolume_Label" "Volume do 
+"PlaylistEditor_Detail_DotDotDot_Label" "..."
+"PlaylistEditor_Detail_Entry_Text" "Entrada"
+"PlaylistEditor_Detail_Environment_Label" "Ambiente:"
+"PlaylistEditor_Detail_Executable_Label" "Execut
+"PlaylistEditor_Detail_Name_Label" "Nome:"
+"PlaylistEditor_Detail_NothingSet_Text" "Nada definido."
+"PlaylistEditor_Detail_PostrollDuration_Label" "Dura
+"PlaylistEditor_Detail_PrerollDuration_Label" "Dura
+"PlaylistEditor_Detail_PrerollPlacecard_Label" "Placa de pre-roll:"
+"PlaylistEditor_Detail_Total_Label" "Total:"
+"PlaylistEditor_Detail_UseCompositor_Checkbox" "Usar compositor"
+"PlaylistEditor_Detail_WaitForNext_Checkbox" "Esperar seguinte"
+"PlaylistEditor_Detail_WorkingDirectory_Label" "Diret
+"PlaylistEditor_Duration_Label" "Dura
+"PlaylistEditor_Entries_Tab" "Entradas"
+"PlaylistEditor_FileName_Label" "Ficheiro:"
+"PlaylistEditor_General_DotDotDot_Label" "..."
+"PlaylistEditor_General_Environment_Label" "Ambiente:"
+"PlaylistEditor_General_ForceAudioVolume_Label" "For
+"PlaylistEditor_General_PlaySoundBeforeEnd_Label" "Soar antes do fim:"
+"PlaylistEditor_General_Seconds_Label" "segundos"
+"PlaylistEditor_General_Tab" "Geral"
+"PlaylistEditor_General_WaitForNext_Label" "Esperar seguinte:"
+"PlaylistEditor_General_WorkingDirectory_Label" "Diret
+"PlaylistEditor_Header_Durations" "Dura
+"PlaylistEditor_Header_Length" "Dura
 "PlaylistEditor_Header_Name" "Nome"
-"PlaylistEditor_Plus_Button" "+"
+"PlaylistEditor_Load" "Carregar"
+"PlaylistEditor_LoadPlaylist_FileSelector" "Carregar lista"
 "PlaylistEditor_Minus_Button" "-"
-"PlaylistEditor_Duration_Label" "Duração:"
-"PlaylistEditor_Play_Button" "Reproduzir"
-"PlaylistEditor_Placecard_Test_Button" "Testar"
+"PlaylistEditor_Name_Label" "Nome:"
+"PlaylistEditor_New" "Nova"
+"PlaylistEditor_NotSavedYet_Text" "Ainda n
 "PlaylistEditor_Placecard_Clear_Button" "Limpar"
 "PlaylistEditor_Placecard_Load_Button" "Carregar"
-"PlaylistEditor_Placecard_WidthInMeters_Label" "Largura em metros:"
 "PlaylistEditor_Placecard_OffsetX_Label" "Desloc. horiz.:"
 "PlaylistEditor_Placecard_OffsetY_Label" "Desloc. vert.:"
 "PlaylistEditor_Placecard_OffsetZ_Label" "Desloc. prof.:"
-"PlaylistEditor_General_Environment_Label" "Ambiente:"
-"PlaylistEditor_General_WorkingDirectory_Label" "Diretório de uso:"
-"PlaylistEditor_General_DotDotDot_Label" "..."
-"PlaylistEditor_General_ForceAudioVolume_Label" "Forçar volume áudio:"
-"PlaylistEditor_General_PlaySoundBeforeEnd_Label" "Soar antes do fim:"
-"PlaylistEditor_General_Seconds_Label" "segundos"
-"PlaylistEditor_General_WaitForNext_Label" "Esperar seguinte:"
-"PlaylistEditor_NotSavedYet_Text" "Ainda não guardada."
-"PlaylistEditor_AddEntry_Text" "Entrada %1"
-"PlaylistEditor_LoadPlaylist_FileSelector" "Carregar lista"
+"PlaylistEditor_Placecard_Tab" "Placa"
+"PlaylistEditor_Placecard_Test_Button" "Testar"
+"PlaylistEditor_Placecard_WidthInMeters_Label" "Largura em metros:"
+"PlaylistEditor_Play_Button" "Reproduzir"
+"PlaylistEditor_Plus_Button" "+"
+"PlaylistEditor_Save" "Guardar"
+"PlaylistEditor_SaveAs" "Guardar como"
 "PlaylistEditor_SavePlaylist_FileSelector" "Guardar lista"
-"PlaylistEditor_SelectExecutable_FileSelector" "Selecionar caminho do executável"
-"PlaylistEditor_SelectWorkingDirectory_FileSelector" "Selecionar diretório de uso"
-"PlaylistEditor_SelectPrerollPlacecard_FileSelector" "Selecionar placa de pre-roll"
+"PlaylistEditor_SelectExecutable_FileSelector" "Selecionar caminho do execut
 "PlaylistEditor_SelectImageForPlacecard_FileSelector" "Selecionar imagem da placa"
-
-"PlaylistPlayer_WindowTitle" "Reprodutor de listas de reprodução"
-"PlaylistPlayer_WindowTitle_WithName" "Reprodutor de listas de reprodução - %1"
-"PlaylistPlayer_All_Checkbox" "Todas"
-"PlaylistPlayer_ForceSoundVolume_Checkbox" "Forçar volume"
-"PlaylistPlayer_PlaySoundBeforeEnd_Checkbox" "Som antes fim da entrada (seg)"
-"PlaylistPlayer_ManualNext_Checkbox" "Seg. manual"
-"PlaylistPlayer_Length_Header" "Duração"
-"PlaylistPlayer_Durations_Header" "Durações"
-"PlaylistPlayer_Name_Header" "Nome"
-"PlaylistPlayer_Total_Label" "Total:"
-"PlaylistPlayer_RunSelected_Button" "Abrir selec."
-"PlaylistPlayer_RunSingle_Button" "Abrir 1"
-"PlaylistPlayer_RemoteControlInHeadset_Checkbox" "Controlo remoto no headset"
-"PlaylistPlayer_Next_Label" "Seguinte:"
-"PlaylistPlayer_Current_Label" "Atual:"
-"PlaylistPlayer_Overall_Label" "Geral:"
-"PlaylistPlayer_PlaySound_Button" "Tocar som"
-"PlaylistPlayer_Run_Button" "Iniciar"
-"PlaylistPlayer_Stop_Button" "Parar"
-"PlaylistPlayer_PauseTimer_Button" "Pausar"
-"PlaylistPlayer_Next_Button" "Seguinte"
-"PlaylistPlayer_MasterVolume_Label" "Volume geral"
-"PlaylistPlayer_Continue_Button" "Continuar"
-"PlaylistPlayer_State_NotRunning" "Não está em execução"
-"PlaylistPlayer_State_Starting" "A iniciar"
-"PlaylistPlayer_State_Running" "Em execução"
-"PlaylistPlayer_State_Unknown" "Estado desconhecido"
-"PlaylistPlayer_ProcessError_FailedToStart" "Falha ao iniciar"
-"PlaylistPlayer_ProcessError_Crashed" "\"Crash\""
-"PlaylistPlayer_ProcessError_Timeout" "Tempo esgotado"
-"PlaylistPlayer_ProcessError_WriteError" "Erro de escrita"
-"PlaylistPlayer_ProcessError_ReadError" "Erro de leitura"
-"PlaylistPlayer_ProcessError_Unknown" "
-"
-"PlaylistPlayer_StatusOfCurrentDemo_Text" "Estado da demo atual: %1 %2"
-"PlaylistPlayer_PrerollState_Text" "Pre-roll "
-"PlaylistPlayer_PostrollState_Text" "Post-roll "
-"PlaylistPlayer_StatusOfCurrentEntryPause_Text" "%1Estado da entrada atual: Em pausa"
-"PlaylistPlayer_StatusOfCurrentEntryNone_Text" "Não existem informações de estado sobre a entrada atual."
-
-"PlaylistOverlay_Title" "Controlo remoto da lista"
+"PlaylistEditor_SelectPrerollPlacecard_FileSelector" "Selecionar placa de pre-roll"
+"PlaylistEditor_SelectWorkingDirectory_FileSelector" "Selecionar diret
+"PlaylistEditor_WindowTitle" "Editor de listas de reprodu
+"PlaylistEntryDefaultName" "Entrada"
+"PlaylistListDefaultName" "Lista de reprodu
+"PlaylistOverlay_GotoFirstEntry" "Ir para 1
 "PlaylistOverlay_NextEntry" "Entrada seguinte"
 "PlaylistOverlay_PauseTimer" "Pausar"
-"PlaylistOverlay_GotoFirstEntry" "Ir para 1ª entrada"
-
-"BugReporter_Title"	"Relatar um bug"
-"BugReporter_Explanation" "Agradecemos-te por ajudares a Valve a melhorar o SteamVR.\n\nAqui é gerado um relatório de sistema que recolhe dados sobre o sistema, ambiente e registos do SteamVR para fins de diagnóstico pela Valve."
-"BugReporter_ForPersonalSupport" "Isto não é um pedido de ajuda à equipa de apoio técnico e não receberás uma resposta direta. Para uma assistência personalizada por parte de um agente, visita o site de apoio técnico."
-"BugReporter_SteamVRSupport" "SteamVR - Apoio Técnico"
-"BugReporter_Subject" "Assunto:"
-"BugReporter_CharactersRemaining" "%1 caracteres restantes"
-"BugReporter_Description" "Descrição:"
-"BugReporter_ReportType"	"Tipo de relato:"
-"BugReporter_ReportType_Bug" "Bug"
-"BugReporter_ReportType_FeatureRequest" "Sugestão de recurso"
-"BugReporter_ReportType_Feedback" "Feedback"
-"BugReporter_Owner"	"Proprietário:"
-"BugReporter_Priority" "Prioridade:"
-"BugReporter_PreviewReport" "Pré-visualizar relato"
-"BugReporter_IncludeReportAndLogs" "Incluir registos e relatório do sistema"
-"BugReporter_IncludeCrashDumps" "Incluir \"crash dumps\""
-"BugReporter_SubjectRequired" "Por favor, inclui um assunto."
-"BugReporter_DescriptionRequired" "Por favor, inclui uma descrição."
-"BugReporter_FailedToCreateZip" "Falha ao criar anexo ZIP."
-"BugReporter_SteamLoginRequired" "Precisas de ter a sessão iniciada na tua conta Steam para relatares um bug."
-"BugReporter_NotAvailable" "Não é possível relatar bugs nesta versão do SteamVR."
-"BugReporter_InitializationFailure" "Não foi possível relatar um bug.\n\nErro: BR-%1"
-"BugReporter_SubmissionSuccess"	"Envio bem-sucedido.\n\nDeves receber em breve um e-mail de confirmação."
-"BugReporter_SubmissionFailure"	"Envio malsucedido.\n\nO analisador de dados pode estar ocupado. Tenta enviar de novo.\n\nErro: BR-%1\n"
-"BugReporter_SubmissionTimeout" "O envio falhou.\n\nO envio para a rede está a demorar mais do que o esperado. Por favor, tenta de novo mais tarde.\n"
-"BugReporter_PreviewReportTitle" "Relatar um bug - Pré-visualização"
-"BugReporter_ProgressSubmitting" "A enviar..."
-"BugReporter_ProgressSubmittingPercent" "A enviar...%1%"
-
-"ScanForBaseStations_Scanning"	"À procura de estações-base...\n\n%1 segundos restantes."
-"ScanForBaseStation_Incomplete" "À procura de estações-base...\n\nIncompleto."
-"ScanForBaseStation_FoundStations" "Procura concluída"
-"ScanForBaseStation_NoKnownStations" "Procura concluída\n\nHá estações-base transmissoras por perto, mas nenhuma delas foi ainda usada para deteção de movimentos."
-"ScanForBaseStation_NoStationsFound" "Procura concluída\n\nNão há estações-base transmissoras por perto."
+"PlaylistOverlay_Title" "Controlo remoto da lista"
+"PlaylistPlayer_All_Checkbox" "Todas"
+"PlaylistPlayer_Continue_Button" "Continuar"
+"PlaylistPlayer_Current_Label" "Atual:"
+"PlaylistPlayer_Durations_Header" "Dura
+"PlaylistPlayer_ForceSoundVolume_Checkbox" "For
+"PlaylistPlayer_Length_Header" "Dura
+"PlaylistPlayer_ManualNext_Checkbox" "Seg. manual"
+"PlaylistPlayer_MasterVolume_Label" "Volume geral"
+"PlaylistPlayer_Name_Header" "Nome"
+"PlaylistPlayer_Next_Button" "Seguinte"
+"PlaylistPlayer_Next_Label" "Seguinte:"
+"PlaylistPlayer_Overall_Label" "Geral:"
+"PlaylistPlayer_PauseTimer_Button" "Pausar"
+"PlaylistPlayer_PlaySoundBeforeEnd_Checkbox" "Som antes fim da entrada (seg)"
+"PlaylistPlayer_PlaySound_Button" "Tocar som"
+"PlaylistPlayer_PostrollState_Text" "Post-roll "
+"PlaylistPlayer_PrerollState_Text" "Pre-roll "
+"PlaylistPlayer_ProcessError_Crashed" "\"Crash\""
+"PlaylistPlayer_ProcessError_FailedToStart" "Falha ao iniciar"
+"PlaylistPlayer_ProcessError_ReadError" "Erro de leitura"
+"PlaylistPlayer_ProcessError_Timeout" "Tempo esgotado"
+"PlaylistPlayer_ProcessError_Unknown" "
+"PlaylistPlayer_ProcessError_WriteError" "Erro de escrita"
+"PlaylistPlayer_RemoteControlInHeadset_Checkbox" "Controlo remoto no headset"
+"PlaylistPlayer_RunSelected_Button" "Abrir selec."
+"PlaylistPlayer_RunSingle_Button" "Abrir 1"
+"PlaylistPlayer_Run_Button" "Iniciar"
+"PlaylistPlayer_State_NotRunning" "N
+"PlaylistPlayer_State_Running" "Em execu
+"PlaylistPlayer_State_Starting" "A iniciar"
+"PlaylistPlayer_State_Unknown" "Estado desconhecido"
+"PlaylistPlayer_StatusOfCurrentDemo_Text" "Estado da demo atual: %1 %2"
+"PlaylistPlayer_StatusOfCurrentEntryNone_Text" "N
+"PlaylistPlayer_StatusOfCurrentEntryPause_Text" "%1Estado da entrada atual: Em pausa"
+"PlaylistPlayer_Stop_Button" "Parar"
+"PlaylistPlayer_Total_Label" "Total:"
+"PlaylistPlayer_WindowTitle" "Reprodutor de listas de reprodu
+"PlaylistPlayer_WindowTitle_WithName" "Reprodutor de listas de reprodu
+"QuickCalibrate_CabalSpace" "Espa
+"QuickCalibrate_DK2Default" "Predefini
+"QuickCalibrate_GiganticSpace" "Espa
+"QuickCalibrate_LargeSpace" "Espa
+"QuickCalibrate_MediumSpace" "Espa
+"QuickCalibrate_SmallSpace" "Espa
+"QuickCalibrate_StandingSpace" "Espa
+"RebootHelper_Cancel" "Cancelar"
+"RebootHelper_ConnectingToVive" "A estabelecer liga
+"RebootHelper_RebootingVive" "A reiniciar o SteamVR..."
+"RebootHelper_RestartingSteamVR" "A reiniciar o SteamVR..."
+"RebootHelper_ServiceError" "Erro: %1"
+"RebootHelper_ServiceStatus" "Estado: %1"
+"RebootHelper_StartingSteamVRShutdown" "A encerrar..."
+"RebootHelper_Status_Connected" "Conectado!"
+"RebootHelper_Status_WaitingForDevice" "
+"RebootWhileAppRunning_Format" "Isto tamb
+"RebootWhileAppRunning_Title" "Reiniciar o SteamVR?"
+"ScanForBaseStation_FoundStations" "Procura conclu
+"ScanForBaseStation_Incomplete" "
+"ScanForBaseStation_NoKnownStations" "Procura conclu
+"ScanForBaseStation_NoStationsFound" "Procura conclu
 "ScanForBaseStations_Refresh" "Procurar de novo"
-
-"BS20_ConfigureChannel_Title"								"Estação-base 2.0 - Configuração do canal"
-"BS20_ConfigureChannel_BluetoothRequired"					"A configuração do canal requer comunicação por Bluetooth.\n\nAtiva a comunicação por Bluetooth nas Definições."
-"BS20_ConfigureChannel_BaseStationName"						"A configurar %1 no canal %2"
-"BS20_ConfigureChannel_Description"							"Seleciona um canal não usado para esta estação-base para evitar possíveis conflitos de deteção."
-"BS20_ConfigureChannel_InUseByPrefix"						"Em uso por:"
-"BS20_ConfigureChannel_Legend"								"Indica um canal usado por outras estações-base próximas."
-"BS20_ConfigureChannel_AutomaticConfiguration"				"Configuração automática"
-"BS20_ConfigureChannel_AutoConfig_NoChannelConflictsFound"	"Não há canais em conflito."
-"BS20_ConfigureChannel_AutoConfig_NoFreeChannels"			"Não há canais livres para resolver %1 possíveis conflitos entre canais. Poderá ser necessário configurar os canais manualmente."
-"BS20_ConfigureChannel_AutoConfig_NotEnoughFreeChannels"	"Só há canais livres suficientes para resolver %1 dos %2 possíveis conflitos entre canais. Continuar e resolver os conflitos?"
-"BS20_ConfigureChannel_AutoConfigContinue"					"Há %1 possíveis conflitos entre canais que podem ser resolvidos automaticamente ao reatribuir os respetivos canais. Continuar e resolver os conflitos?"
-"BS20_ConfigureChannel_AutoConfig_SuccessfulCompletion"		"Configuração automática concluída.\n\nNão há conflitos entre canais."
-"BS20_ConfigureChannel_AutoConfig_Incomplete"				"Configuração automática concluída.\n\nHá %1 possíveis conflitos entre canais. Poderá ser necessário configurar os canais manualmente."
-"BS20_ConfigureChannel_AutoConfig_UnknownChannels"			"Há %1 estações-base cujos canais não puderam ser determinados, o que pode resultar em possíveis conflitos entre canais.\n"
-"BS20_ConfigureChannel_ChannelConfigurationFailure"			"%1 falhou ao aceitar a configuração de canal solicitada."
-"BS20_ConfigureChannel_ScanForMore"							"Procurar mais"
-"BS20_ConfigureChannel_Apply"								"Aplicar"	
-"BS20_ConfigureChannel_Connecting"							"A conectar..."
-"BS20_ConfigureChannel_Channel"								"Canal: %1"
-"BS20_ConfigureChannel_ConnectionFailure"					"%1 - Falha na conexão."
-"BS20_ConfigureChannel_FirmwareUpdateRequired"				"%1 requer uma atualização para possibilitar a configuração de canais."
-"BS20_ConfigureChannel_ConflictWarning"						"%1 está a usar o mesmo canal que outra estação-base."
-"BS20_ConfigureChannel_FailedToConnectRetry"				"%1 - Falha na conexão. Clica em \"Tentar novamente\" para tentares de novo."
-"BS20_ConfigureChannel_ConflictOnChannel"					"Possível conflito no canal %1"
-"BS20_ConfigureChannel_NoConflictOnChannel"					"Nenhum conflito no canal %1"
-"BS20_ConfigureChannel_ProgressScanComplete"				"Procura concluída.\n\nClica no link do canal para alterá-lo."
-"BS20_ConfigureChannel_ProgressScanNoStationsFound"			"Procura concluída.\n\nNão há estações-base 2.0 transmissoras por perto."
-"BS20_ConfigureChannel_ProgressScanning"					"À procura de estações-base...\n\n%1 segundos restantes."
-"BS20_ConfigureChannel_ProgressConnecting"					"\nA conectar a estações-base...\n"
-"BS20_ConfigureChannel_ProgressWritingChannel"				"\nA gravar canal...\n"
-"BS20_ConfigureChannel_ProgressCancelling"					"\nA cancelar...\n"
-"BS20_ConfigureChannel_VisibleNowInTracking"				"Visível agora nesta sessão de deteção."
-"BS20_ConfigureChannel_ObservedInTracking"					"Observado numa sessão de deteção anterior."
-"BS20_ConfigureChannel_Identify"							"Clica para identificar estação-base."
-"BS20_ConfigureChannel_IdentifyRequiresFirmareUpdate"		"%1 requer uma atualização para possibilitar a identificação."
-"BS20_ConfigureChannel_RSSI"								"RSSI: %1"
-"BS20_ConfigureChannel_ConflictLegend"						"Conflito de canais com outra estação-base."
-"BS20_ConfigureChannel_ErrorLegend"							"Clica no link do canal para mais informações."
-"BS20_ConfigureChannel_CancelledConnection"					"Ligação a \"%1\" cancelada. Clica no link do canal para tentares de novo."
-
-"BS_PowerManagement_Title"									"Gestão de energia das estações-base"
-"BS_PowerManagement_Enable"									"Ativar gestão de energia *"
-"BS_PowerManagement_Enable_Explanation"						"Estações-base afetadas pela gestão de energia entram no modo de espera quando o SteamVR não está a ser usado e são despertadas quando o SteamVR é iniciado.\n"
-"BS_PowerManagement_Enable_Warning"							"<font color=#ffffff>* NÃO RECOMENDADO para espaços partilhados por vários utilizadores do SteamVR.</font>"
-"BS_PowerManagement_PartialStandby"							"Modo de espera" 
-"BS_PowerManagement_PartialStandby_Explanation"				"As estações-base vão desligar só os respetivos lasers para despertarem mais rápido quando o SteamVR iniciar."
-"BS_PowerManagement_PartialStandby_HybridExplanation"		"As estações-base 2.0 vão desligar só os respetivos lasers para despertarem mais rápido quando o SteamVR iniciar."
-"BS_PowerManagement_FullStandby"							"Suspensão"
-"BS_PowerManagement_FullStandby_Explanation"				"As estações-base vão desligar os respetivos lasers e motores."
-"BS_PowerManagement_RefreshLink"							"Atualizar"
-"BS_PowerManagement_ForgetBase"								"Esquecer este dispositivo"
-"BS_PowerManagement_BaseStations"							"Estações-base geridas"
-"BS_PowerManagement_VisibleNowInTracking"					"Visível agora nesta sessão de deteção."
-"BS_PowerManagement_ObservedInTracking"						"Observado numa sessão de deteção anterior."
-"BS_PowerManagement_Identify"								"Clica para identificar estação-base."
-"BS_PowerManagement_IdentifyRequiresFirmareUpdate"			"%1 requer uma atualização para possibilitar a identificação."
-"BS_PowerManagement_FailedToConnectRefresh"					"Falha na ligação de \"%1\". Clica em \"Atualizar\" para tentares de novo."
-"BS_PowerManagement_ConnectionFailureLegend"				"Falha na ligação. Clica em \"Atualizar\" para tentares de novo."
-
-"BS20_UpdateRecovery_Title"									"Estação-base 2.0 - Recuperação de atualização"
-"BS20_UpdateRecovery_BluetoothRequired"						"A recuperação de atualizações requer comunicação por Bluetooth.\n\nAtiva a comunicação por Bluetooth nas Definições."
-"BS20_UpdateRecovery_Scanning"								"À procura de estações-base...\n\n%1 segundos restantes."
-"BS20_UpdateRecovery_Incomplete"							"À procura de estações-base...\n\nIncompleto."
-"BS20_UpdateRecovery_FoundStations"							"Procura concluída.<br><br><font color=#ffffff>Estas estações-base têm atualizações inacabadas.<br><br>Por favor, seleciona uma estação-base e clica em 'Recuperar dispositivo' para continuar.</font>"
-"BS20_UpdateRecovery_NoStationsFound"						"Procura concluída.\n\nNão há estações-base transmissoras por perto a precisar de recuperação."
-"BS20_UpdateRecovery_Refresh"								"Procurar de novo"
-"BS20_UpdateRecovery_UpdateDevice"							"Recuperar dispositivo"
-
-"BS_PromotePowerManagement_Title"							"SteamVR"
-"BS_PromotePowerManagement_Explanation"						"O SteamVR pode fazer a gestão de energia das tuas estações-base.<br><br>Estações-base afetadas pela gestão de energia entram no modo de espera quando o SteamVR não está a ser usado e são despertadas quando o SteamVR é iniciado.<br>"
-"BS_PromotePowerManagement_Enable"							"Ativar gestão de energia das estações-base *"
-"BS_PromotePowerManagement_Explanation2"					"<br><font color=#ffffff>* NÃO RECOMENDADO para espaços partilhados por vários utilizadores do SteamVR.</font>"
-"BS_PromotePowerManagement_ExitNow"							"Sair agora (%1)"
-
-"Monitor_SpontaneousQuitDialog_Title" "Erro inesperado no SteamVR"
-"Monitor_SpontaneousQuitDialog_Message" "O SteamVR encontrou um erro crítico."
-"Monitor_SpontaneousQuitDialog_Restart" "Reiniciar SteamVR"
-"Monitor_SpontaneousQuitDialog_Quit" "Sair do SteamVR"
-
-"Monitor_RestartRequestedDialog_Title" "Reinicialização necessária para driver %1"
-"Monitor_RestartRequestedDialog_MessageNoReason" "O driver %1 necessita que o SteamVR seja reiniciado."
-"Monitor_RestartRequestedDialog_Message" "%1"
-"Monitor_RestartRequestedDialog_Restart" "Reiniciar SteamVR"
-"Monitor_RestartRequestedDialog_Quit" "Sair do SteamVR"
-
-"oculus_display_lost" "O sistema Oculus não consegue estabelecer ligação com o ecrã. Verifica a conexão do teu headset e depois reinicia."
-"oculus_requested_quit" "O sistema Oculus pediu o encerramento do SteamVR."
-
-"Monitor_WakingBaseStations" "A despertar estações-base..."
-"Monitor_PuttingBaseStationsInStandby" "Estações-base em modo de espera..."
-
-"VRApplicationError_None" "Sem erros"
-
-"VRApplicationError_AppKeyAlreadyExists" "Aplicação já registada"
-"VRApplicationError_NoManifest" "Sem manifesto de aplicação"
-"VRApplicationError_NoApplication" "Nenhuma aplicação"
-"VRApplicationError_InvalidIndex" "Índice inválido"
-"VRApplicationError_UnknownApplication" "Aplicação desconhecida"
-"VRApplicationError_IPCFailed" "Não foi possível solicitar aplicação"
-"VRApplicationError_ApplicationAlreadyRunning" "Aplicação já em execução"
-"VRApplicationError_InvalidManifest" "Manifesto inválido"
-"VRApplicationError_InvalidApplication" "Aplicação inválida"
-"VRApplicationError_LaunchFailed" "Arranque de aplicação falhou"
-"VRApplicationError_ApplicationAlreadyStarting" "Aplicação já estava em execução"
-"VRApplicationError_LaunchInProgress" "Outra aplicação já estava a ser iniciada"
-"VRApplicationError_OldApplicationQuitting" "Outra aplicação já estava a ser encerrada"
-"VRApplicationError_TransitionAborted" "Início de aplicação cancelado por utilizador"
-"VRApplicationError_IsTemplate" "Esta aplicação é um modelo"
-"VRApplicationError_SteamVRIsExiting" "O SteamVR está a encerrar"
-
+"ScanForBaseStations_Scanning"	"
+"Settings_Advanced_AllowSupersampleFiltering" "Ativar filtragem de super-sampling avan
+"Settings_Advanced_DirectMode_Header" "Modo de Visualiza
+"Settings_Advanced_MotionSmoothing" "Ativar suaviza
+"Settings_Advanced_MotionSmoothing_Description" "Sintetiza frames novas de forma a garantir uma boa experi
+"Settings_Advanced_MotionSmoothing_Disabled" "A suaviza
+"Settings_Advanced_MotionSmoothing_Disabled_Win7" "A suaviza
+"Settings_Advanced_MotionSmoothing_Header" "Suaviza
+"Settings_Advanced_Paths_Header" "Diret
+"Settings_Advanced_RefreshRate_Header" "Taxa de atualiza
+"Settings_Advanced_RefreshRate_HzSuffix" "hz"
+"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>ATEN
+"Settings_Advanced_RefreshRate_NotFound" "<b>ATEN
+"Settings_Advanced_Reset_Header" "Restaurar"
+"Settings_Advanced_Restart" "<i>Esta altera
+"Settings_Advanced_RoomAndTracking_Header" "Divis
+"Settings_Advanced_Status_Header" "Verifica
+"Settings_Advanced_SupersamplingManualOverride" "Usar resolu
+"Settings_Advanced_Supersampling_Header" "Resolu
+"Settings_Advanced_Supersampling_Warning" "<b>AVISO:</b> A defini
+"Settings_Applications" "Aplica
+"Settings_ArcadeMode" "Ativar modo Arcade"
+"Settings_Audio_AudioMirrorEnable"  "Ativar reencaminhamento de 
+"Settings_Audio_AudioMirrorPlay"  "Reencaminhar 
+"Settings_Audio_AudioMirrorUnsupported"  "N
+"Settings_Audio_AudioPlay"  "Dispositivo de sa
+"Settings_Audio_AudioRecord"  "Dispositivo de entrada de 
+"Settings_Audio_Default"  "Padr
+"Settings_Audio_Device_HMD"  "Headset de R.V."
+"Settings_Audio_Device_Other"  "Outro"
+"Settings_Audio_HDMIGain"  "Ativar redu
+"Settings_BaseStation_BaseStation10" "Esta
+"Settings_BaseStation_BaseStation20" "Esta
+"Settings_BaseStation_BluetoothBusy" "
+"Settings_BaseStation_BluetoothRequired" "Ativa o Bluetooth para poderes aceder a funcionalidades sem fios, tais como a atualiza
+"Settings_BaseStation_ConfigureBaseStations" "Configurar canais das esta
+"Settings_BaseStation_ConfigureBaseStations_Explanation" "Descobre esta
+"Settings_BaseStation_ContinueBaseStationUpdate" "Recuperar de atualiza
+"Settings_BaseStation_ContinueBaseStationUpdate_Explanation" "Repara uma atualiza
+"Settings_BaseStation_OpenSettingsBluetooth" "Ver defini
+"Settings_BaseStation_PowerManagement" "Gest
+"Settings_BaseStation_PowerManagement_Explanation" "Desperta e coloca esta
+"Settings_BaseStation_ScanForBaseStations" "Procurar esta
+"Settings_BaseStation_ScanForBaseStations_Explanation" "Descobre esta
+"Settings_BaseStationsWakeUpAll" "Acordar todas as esta
+"Settings_BaseStationsWakeUpAll_Explanation" "Desperta todas as esta
+"Settings_BaseStations_Title" "Defini
+"Settings_Bluetooth_Driver_Install" "Instalar driver do Bluetooth"
+"Settings_Bluetooth_Driver_Install_Description"	"Instala o driver Bluetooth da Link Box para permitir funcionalidades de comunica
+"Settings_Bluetooth_Driver_Update" "Atualizar driver do Bluetooth"
+"Settings_Bluetooth_Driver_Update_Description" "Atualiza o driver Bluetooth da Link Box para permitir funcionalidades de comunica
+"Settings_Bluetooth_RetryConnection" "Tentar novamente"
+"Settings_Bluetooth_ServicesNotAvailable" "Bluetooth indispon
+"Settings_Bluetooth_Title" "Defini
+"Settings_CheckForSteam" "Procurar Steam"
+"Settings_CheckStatus" "Verificar estado"
+"Settings_Checks" "Verifica
+"Settings_ConfigPath" "Diret
+"Settings_Dashboard_Explanation" "Estas aplica
+"Settings_DebugInputBindings" "Ativar op
+"Settings_DefaultScreenshotType_Cubemap" "Cubemap"
+"Settings_DefaultScreenshotType_Info" "Tipo padr
+"Settings_DefaultScreenshotType_Mono" "Normal"
+"Settings_DefaultScreenshotType_MonoPanorama" "Panorama mono"
+"Settings_DefaultScreenshotType_Stereo" "Estereosc
+"Settings_DefaultScreenshotType_StereoPanorama" "Panorama est
+"Settings_DefaultScreenshotType_Text" "Tipo de captura de ecr
+"Settings_Developer_General_Header" "Developer"
+"Settings_Developer_Info" "Mostra defini
+"Settings_Developer_Text" "Defini
+"Settings_Developer_Title" "Defini
+"Settings_DisableEnhancedPowerManagement_Crash" "A aplica
+"Settings_DisableEnhancedPowerManagement_FailToStart" "A aplica
+"Settings_DisableEnhancedPowerManagement_Success" "A defini
+"Settings_DisplayMode" "Modo de apresenta
+"Settings_DisplayMode_Extend" "Expandir 
+"Settings_DisplayMode_MirrorWindow" "Vista de R.V."
+"Settings_DoNotFadeToGrid" "N
+"Settings_EnableDashboard" "Ativar Painel de R.V."
+"Settings_EnableLinuxGPUProfiling" "Ativar estat
+"Settings_EnableScreenshots_Info" "Pressiona o bot
+"Settings_EnableScreenshots_Text" "Permitir capturas de ecr
+"Settings_Firmware_UpdateAvailable" "Atualiza
+"Settings_GiganticSpace" "Espa
+"Settings_GpuInfo_Current" "A defini
+"Settings_GpuInfo_GpuDriver" "Driver do GPU"
+"Settings_GpuInfo_GpuName" "Nome do GPU"
+"Settings_GpuInfo_GpuSpeed" "Velocidade medida do GPU"
+"Settings_GpuInfo_Header" "Hardware"
+"Settings_GpuInfo_Headset" "Headset"
+"Settings_GpuInfo_NoHeadset" "Nenhum headset encontrado"
+"Settings_GpuInfo_Recommended" "A defini
+"Settings_HomeAppCheck" "Usar SteamVR Home"
+"Settings_HomeAppDesc" "Desfruta de ambientes virtuais, funcionalidades sociais e muito mais."
+"Settings_Information_Title" "SteamVR"
+"Settings_LargeSpace" "Espa
+"Settings_LockedModeCheck" "Permitir uso de headset enquanto computador estiver bloqueado"
+"Settings_LockedModeDesc" "
+"Settings_LogPath" "Diret
+"Settings_MediumSpace" "Espa
+"Settings_NightModeCheck" "Modo noturno"
+"Settings_NightModeDesc" "Reduz o brilho do headset at
+"Settings_NotAvailableAtThisTime" "Nem todas as defini
+"Settings_NotificationDoNotDisturb_Info" "
+"Settings_NotificationDoNotDisturb_Text" "N
+"Settings_NotificationKnockKnock_Info" "Isto permite que outras pessoas chamem a aten
+"Settings_NotificationKnockKnock_Text" "Notifica
+"Settings_Notifications" "Notifica
+"Settings_OpenVRPaths" "Diret
+"Settings_PauseOnStandby" "Pausar renderiza
+"Settings_PerApplication_AppResFooter" "A defini
+"Settings_PerApplication_AppResHeader" "Esta defini
+"Settings_PerApplication_AppResTitle" "Resolu
+"Settings_PerApplication_CustomSuffix" "(Personalizado)"
+"Settings_PerApplication_DashboardSuffix" "(Aplica
+"Settings_PerApplication_Header" "Usa estas op
+"Settings_PerApplication_MotionSmoothing_Checkbox_AlwaysOn" "Usar sempre (AVISO: A taxa de frames da aplica
+"Settings_PerApplication_MotionSmoothing_Checkbox_Default" "Usar defini
+"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOff" "Desativar sempre"
+"Settings_PerApplication_MotionSmoothing_Checkbox_ForceOn" "Ativar sempre"
+"Settings_PerApplication_MotionSmoothing_Header" "Suaviza
+"Settings_PerApplication_MotionSmoothing_Off" "Desativada"
+"Settings_PerApplication_MotionSmoothing_On" "Ativada"
+"Settings_PerApplication_OverlayVisibleCheckbox" "Iniciar esta aplica
+"Settings_PerApplication_OverlayVisibleHeader" "Aplica
+"Settings_PerApplication_Reprojection_Checkbox" "Usar modo de reproje
+"Settings_PerApplication_Reprojection_Description" "Marcar esta op
+"Settings_PerApplication_Reprojection_Header" "Reproje
+"Settings_PerfCheck" "PerfCheck"
+"Settings_Refresh" "Atualizar"
+"Settings_RemoveAllRelevantUSBDevices_Crash" "A aplica
+"Settings_RemoveAllRelevantUSBDevices_FailToStart" "N
+"Settings_RemoveAllRelevantUSBDevices_PartialSuccess" "N
+"Settings_RemoveAllRelevantUSBDevices_Success" "Todos os dispositivos USB relevantes foram removidos. Desconecta todos os cabos USB de R.V. presentes e reinicia o teu computador, e depois conecta os teus dispositivos novamente.\n"
+"Settings_RemoveAllRelevantUSBDevices_Text" "Isto ir
+"Settings_RemoveAllUSBDevices" "Remover dispositivos USB"
+"Settings_Reset" "Restaurar"
+"Settings_ResetChaperoneToDK2Default" "Redefinir dados do Chaperone para as predefini
+"Settings_ResetChaperoneToHeadsetInMiddleOfFloor" "Redefinir Chaperone para o headset no meio do ch
+"Settings_ResetCompleteSetupAndQuit" "Restaurar a configura
+"Settings_ResetQtSettings" "Usar predefini
+"Settings_ResetQtSettings_Text" "Pretendes passar a usar as predefini
+"Settings_ResetRuntimeAndQuit" "Redefinir runtime com base na localiza
+"Settings_ResetRuntimeBasedOnVRMonitorAndQuit_Text" "Isto ir
+"Settings_RestartText" "<html><B>Reiniciar o ambiente ap
+"Settings_RuntimePath" "Diret
+"Settings_SelectConfigPath" "Selecionar diret
+"Settings_SelectLogPath" "Selecionar diret
+"Settings_SelectRuntimePath" "Selecionar diret
+"Settings_Set" "Definir..."
+"Settings_SetSelectedPaths" "Definir diret
+"Settings_ShowPlaylistMenu" "Mostrar menu de reprodu
+"Settings_SmallSpace" "Espa
+"Settings_StartSteamVROnAppLaunch" "Iniciar o SteamVR ao abrir uma aplica
+"Settings_StatusWindowAlwaysOnTop_Info" " "
+"Settings_StatusWindowAlwaysOnTop_Text" "Janela sempre no topo"
+"Settings_StatusWindowHidePopups_Text" "Suprimir avisos e alertas de R.V. quando minimizado"
+"Settings_StatusWindowMinimizeToTray_Text" "Minimizar para a 
+"Settings_Title" "Defini
+"Settings_USB_Component_Audio" "Dispositivo de 
+"Settings_USB_Component_Camera" "C
+"Settings_USB_Component_Dongle1" "Recetor sem fios 1"
+"Settings_USB_Component_Dongle2" "Recetor sem fios 2"
+"Settings_USB_Component_HTCBoard" "Placa principal"
+"Settings_USB_Component_Hub" "Hub"
+"Settings_USB_Component_HubBluetooth" "Bluetooth"
+"Settings_USB_Component_HubController" "Controlador central"
+"Settings_USB_Component_WatchmanBoard" "Placa de dete
+"Settings_USB_EnhancedStatus" "Mostrar detalhes"
+"Settings_USB_LookingForConnections" "<b>A verificar liga
+"Settings_USB_NoDevicesFound" "<font color=red><b>Nenhum Dispositivo Vive ligado.</b></font>"
+"Settings_USB_PressRefresh" "<b>Clica em 'Atualizar' para verificares liga
+"Settings_USB_Refresh" "Atualizar"
+"Settings_USB_ViveDevices" "<b>Dispositivos</b>"
+"Settings_USB_ViveHeadsetHeader" "<b>Headset</b>"
+"Settings_USB_ViveLinkBoxHeader" "<b>Link Box do Vive</b>"
+"Settings_UseBluetoothLink_Info" "Usa a tecnologia sem fios Bluetooth para controlares as op
+"Settings_UseBluetoothLink_Text" "Permitir Bluetooth"
+"ShutdownWhileAppRunning_Format" "Isto tamb
+"ShutdownWhileAppRunning_Title" "Sair do SteamVR?"
+"Startup_DisplayLinkIsInstalled" "O DisplayLink 
+"Startup_OpenGLIsNotInstalled" "Por favor, instala o OpenGL antes de usares o SteamVR."
+"StatusCheckInterval_Never" "Nunca"
+"StatusCheckInterval_Normal" "Normal (1 seg)"
+"StatusCheckInterval_Often" "Frequentemente (100 mseg)"
+"StatusCheckInterval_Seldom" "Raramente (5 seg)"
+"StatusError_Chaperone_Error" "O SteamVR encontrou um erro com o sistema Chaperone."
+"StatusError_CompositorNotFullscreen" "Um componente crucial do SteamVR n
+"StatusError_CompositorNotRunning" "Um componente crucial do SteamVR n
+"StatusError_CompositorTooManyRunning" "Um componente crucial do SteamVR n
+"StatusError_HMDDoesNotTrack" "O headset n
+"StatusError_LighthouseEvent" "O SteamVR encontrou um erro com o sistema de dete
+"StatusError_NoCompositorAvailable" "Um componente crucial do SteamVR n
+"StatusError_NoHMDAvailable" "Nenhum headset dispon
+"StatusError_PrismNotRunning" "Um componente crucial do SteamVR n
+"StatusError_SteamVRServiceNotInstalled" "O servi
+"StatusError_TrackingDevice_NotValid" "Este dispositivo n
+"StatusError_UnknownError" "Erro desconhecido (%1)" 
+"StatusError_VRServerNotRunning" "Um componente crucial do SteamVR n
+"StatusWarning_System_Chaperone_Warning" "Por favor, realiza a configura
+"StatusWarning_System_ConnectionRefusedBySteam" "O Steam est
+"StatusWarning_System_NeedDirectModeGraphicsDriverUpdate" "Por favor, atualiza os drivers da placa gr
+"StatusWarning_System_NoSteamAvailable" "Por favor, inicia o Steam"
+"StatusWarning_TrackingDevice_FirmwareUpdateNeeded" "Atualiza
+"StatusWarning_TrackingDevice_NoPose" "A procurar..."
+"StatusWarning_UnknownWarning" "Aviso desconhecido (0x%1)"
+"Status_Base" "Esta
+"Status_Controller" "Comando"
+"Status_HMD" "Headset"
+"Status_MenuButton_SteamVR" "STEAMVR"
+"Status_MenuButton_SteamVR_Branch" "STEAMVR - %1"
+"Status_Quitting" "A sair"
+"Status_Starting" "A iniciar"
+"Status_Title" "Estado - SteamVR"
+"SteamUniverse_Beta" "Beta"
+"SteamUniverse_Dev" "Dev"
+"SteamUniverse_Internal" "Interno"
+"SteamUniverse_InvalidSteamUniverse" "Universo Steam Inv
+"SteamUniverse_NoSteamAvailable" "Erro do Steam"
+"SteamUniverse_Public" "P
+"SteamVRSystemState_Connecting" "A procurar..."
+"SteamVRSystemState_Connecting_Application_InsideOutCamera" "Assegura-te de que o headset pode ver a 
+"SteamVRSystemState_Connecting_Application_Lighthouse" "Assegura-te de que o headset pode ver as bases"
+"SteamVRSystemState_Connecting_Application_OutsideInCamera" "Assegura-te de que as c
+"SteamVRSystemState_Installing" "Configura
+"SteamVRSystemState_Off" "Desligado"
+"SteamVRSystemState_PauseRequested" "A pausar..."
+"SteamVRSystemState_Paused" "Em pausa"
+"SteamVRSystemState_Paused_FirmwareUpdate" "A atualizar dispositivos..."
+"SteamVRSystemState_PseudoState_Waiting" "
+"SteamVRSystemState_PseudoState_Welcome" "Bem-vindo(a)"
+"SteamVRSystemState_PseudoState_Welcome_Application" "Conecta o teu headset de R.V."
+"SteamVRSystemState_Ready" "Em execu
+"SteamVRSystemState_Ready_Application" "%1"
+"SteamVRSystemState_Restart" "A reiniciar o SteamVR..."
+"SteamVRSystemState_Shutdown" "A sair da realidade virtual..."
+"SteamVRSystemState_ShutdownRequested" "A sair da realidade virtual..."
+"SteamVRSystemState_Standby" "Em modo de espera"
+"SteamVRSystemState_Standby_Application" "Equipa o teu headset para despertares o modo de R.V."
+"SteamVRSystemState_Startup" "A iniciar RV..."
+"SteamVRSystemState_UnpauseRequested" "A iniciar..."
+"SystemReport_Chaperone" "Chaperone"
+"SystemReport_Configuration" "Configura
+"SystemReport_CopyToClipboard" "Copiar p/ 
+"SystemReport_Data" "Dados"
+"SystemReport_Devices" "Dispositivos"
+"SystemReport_DiscoverChaperone" "A analisar Chaperone"
+"SystemReport_DiscoverConfiguration" "A analisar configura
+"SystemReport_DiscoverDevices" "A analisar dispositivos"
+"SystemReport_DiscoverDisplays" "A analisar ecr
+"SystemReport_DiscoverIssues" "A analisar problemas"
+"SystemReport_DiscoverLighthouseDB" "A analisar LighthouseDB"
+"SystemReport_DiscoverUSB" "A analisar portas USB"
+"SystemReport_Entry_SteamVR" "SteamVR"
+"SystemReport_Issues" "Problemas"
+"SystemReport_LighthouseDB" "LighthouseDB"
+"SystemReport_Logs" "Registos"
+"SystemReport_Main" "Principal"
+"SystemReport_PrepareLogs" "A preparar registos"
+"SystemReport_PrepareReport" "A preparar relat
+"SystemReport_Progress_ParseReport" "Relat
+"SystemReport_Raw" "Dados em bruto"
+"SystemReport_RawText" "Texto simples"
+"SystemReport_Refresh" "Atualizar"
+"SystemReport_SaveSystemReport" "Guardar relat
+"SystemReport_SaveToFile" "Guardar em ficheiro"
+"SystemReport_System" "Sistema"
+"SystemReport_Title" "Relat
+"SystemReport_USB" "USB"
+"SystemReport_UnableToOpenFile" "N
+"Tokens"
+"TrackedDeviceClass_Controller" "Comando"
+"TrackedDeviceClass_GenericTracker" "Detetor"
+"TrackedDeviceClass_HMD" "Headset"
+"TrackedDeviceClass_Invalid" "Inv
+"TrackedDeviceClass_TrackingReference" "Esta
+"TrackedDeviceClass_Unknown"  "Dispositivo detetado desconhecido"
+"TrayIcon_Tooltip_vrmonitor" "Estado - SteamVR"
+"VRApplicationError_AppKeyAlreadyExists" "Aplica
+"VRApplicationError_ApplicationAlreadyRunning" "Aplica
+"VRApplicationError_ApplicationAlreadyStarting" "Aplica
 "VRApplicationError_BufferTooSmall" "O buffer concedido era demasiado pequeno"
-"VRApplicationError_PropertyNotSet" "Propriedade não definida"
+"VRApplicationError_IPCFailed" "N
+"VRApplicationError_InvalidApplication" "Aplica
+"VRApplicationError_InvalidIndex" "
+"VRApplicationError_InvalidManifest" "Manifesto inv
+"VRApplicationError_InvalidParameter" "Par
+"VRApplicationError_IsTemplate" "Esta aplica
+"VRApplicationError_LaunchFailed" "Arranque de aplica
+"VRApplicationError_LaunchInProgress" "Outra aplica
+"VRApplicationError_NoApplication" "Nenhuma aplica
+"VRApplicationError_NoManifest" "Sem manifesto de aplica
+"VRApplicationError_None" "Sem erros"
+"VRApplicationError_OldApplicationQuitting" "Outra aplica
+"VRApplicationError_PropertyNotSet" "Propriedade n
+"VRApplicationError_SteamVRIsExiting" "O SteamVR est
+"VRApplicationError_TransitionAborted" "In
+"VRApplicationError_UnknownApplication" "Aplica
 "VRApplicationError_UnknownProperty" "Propriedade desconhecida"
-"VRApplicationError_InvalidParameter" "Parâmetro inválido"
-
-"Key_Escape_Abbreviation" "ESC"
-
-"HeadsetView_Title" "Vista de R.V."
-"HeadsetView_MenuLabel" "Menu"
-"HeadsetView_PressKeyToExit" "Pressiona %1 para sair de ecrã completo"
-"HeadsetView_FullscreenButtonLabel" "Ecrã completo"
-"HeadsetView_DockButtonLabel" "Juntar vista de R.V."
-"HeadsetView_UndockButtonLabel" "Separar vista de R.V."
-"HeadsetView_HideButtonLabel" "Ocultar vista de R.V."
-"HeadsetView_EyeMode_Both" "Ambos os olhos"
-"HeadsetView_EyeMode_Left" "Olho esquerdo"
-"HeadsetView_EyeMode_Right" "Olho direito"
-"HeadsetView_EyeMode_BothLeftDominant" "Ambos os olhos - Esquerdo dominante"
-"HeadsetView_EyeMode_BothRightDominant" "Ambos os olhos - Direito dominante"
-"HeadsetView_DebugCommands" "Abrir comandos de debug"
-}
-}
+"VRController_NoDisplay" "Sem ecr
+"VRController_NoDriver" "Sem driver"
+"VRManifest_Imported_Message" "Ficheiro de manifesto do OpenVR importado: \n %1"
+"VRManifest_Imported_Title" "Ficheiro de manifesto do OpenVR importado"
+"VRState_Off" "Desligado"
+"VRState_Ready" "Pronto"
+"VRState_Searching" "A procurar..."
+"VRState_SearchingWithAlert" "A procurar..."
+"VRState_Standby" "Em modo de espera"
+"WorkshopUpload_Cancel"			"Cancelar"
+"WorkshopUpload_Desc"			"Descri
+"WorkshopUpload_DialogTitle"	"Ferramenta de envio - Workshop do SteamVR"
+"WorkshopUpload_Error"			"Erro"
+"WorkshopUpload_Error_CannotCreateUploadDir"		"N
+"WorkshopUpload_Error_DescTooLong"	"A descri
+"WorkshopUpload_Error_Generic"		"Ocorreu um problema ao enviar o ficheiro. Tenta de novo mais tarde."
+"WorkshopUpload_Error_InvalidType_MainFile_Background"		"As imagens de fundo devem ser ficheiros png ou jpg"
+"WorkshopUpload_Error_InvalidType_MainFile_Basestation"		"O ficheiro de modelo de esta
+"WorkshopUpload_Error_InvalidType_MainFile_Camera"			"O ficheiro de modelo de c
+"WorkshopUpload_Error_InvalidType_MainFile_Controller"		"Os ficheiros de modelo de comando devem ser do tipo obj"
+"WorkshopUpload_Error_InvalidType_MainFile_Environment"		"Os ficheiros de modelo de ambiente devem ser do tipo obj"
+"WorkshopUpload_Error_InvalidType_Thumbnail_Background"	"As miniaturas devem ser ficheiros png ou jpg"
+"WorkshopUpload_Error_InvalidType_Thumbnail_Basestation"	"As miniaturas devem ser ficheiros png ou jpg"
+"WorkshopUpload_Error_InvalidType_Thumbnail_Camera"	"As miniaturas devem ser ficheiros png ou jpg"
+"WorkshopUpload_Error_InvalidType_Thumbnail_Controller"	"As miniaturas devem ser ficheiros png ou jpg"
+"WorkshopUpload_Error_InvalidType_Thumbnail_Environment"	"As miniaturas devem ser ficheiros png ou jpg"
+"WorkshopUpload_Error_LimitExceeded"	"Erro do Steam: \"Limite excedido\". Certifica-te de que a miniatura n
+"WorkshopUpload_Error_NoDesc"		"Introduz uma descri
+"WorkshopUpload_Error_NoFile_MainFile"		"Seleciona um ficheiro v
+"WorkshopUpload_Error_NoFile_Thumbnail"		"Por favor, seleciona uma miniatura v
+"WorkshopUpload_Error_NoItemsToEdit"	"N
+"WorkshopUpload_Error_NoTitle"	"Introduz um nome"
+"WorkshopUpload_Error_SteamClientNotFound"	"N
+"WorkshopUpload_Error_TooLarge_MainFile"		"Os ficheiros n
+"WorkshopUpload_Error_TooLarge_Thumbnail"		"A miniatura n
+"WorkshopUpload_ImagesFilter"	"Imagens (*.jpg *.png)"
+"WorkshopUpload_MainFile"		"Ficheiro"
+"WorkshopUpload_NoItem"			"(Novo)"
+"WorkshopUpload_ObjFilter"		"Modelos (*.obj)"
+"WorkshopUpload_Progress_CommittingChanges"		"A concluir..."
+"WorkshopUpload_Progress_PreparingConfig"		"A preparar configura
+"WorkshopUpload_Progress_PreparingContent"		"A processar ficheiros..."
+"WorkshopUpload_Progress_Start"		"A contactar o Workshop do SteamVR..."
+"WorkshopUpload_Progress_Title"		"Workshop do SteamVR"
+"WorkshopUpload_Progress_UploadingContent"		"A enviar ficheiros..."
+"WorkshopUpload_Progress_UploadingPreview"		"A enviar ficheiro de pr
+"WorkshopUpload_SelectContentType"	"Tipo"
+"WorkshopUpload_SelectContentType_Background"	"Fundo"
+"WorkshopUpload_SelectContentType_Basestation"	"Modelo de esta
+"WorkshopUpload_SelectContentType_Camera"		"Modelo de c
+"WorkshopUpload_SelectContentType_Controller"	"Modelo de comando"
+"WorkshopUpload_SelectContentType_Environment"	"Modelo de ambiente"
+"WorkshopUpload_SelectExisting"	"Editar"
+"WorkshopUpload_SelectImage"	"Selecionar imagem"
+"WorkshopUpload_Tag_Abstract"					"Abstrato"
+"WorkshopUpload_Tag_City"						"Cidade"
+"WorkshopUpload_Tag_Game"						"Jogo"
+"WorkshopUpload_Tag_Nature"						"Natureza"
+"WorkshopUpload_Tag_Space"						"Espa
+"WorkshopUpload_Tag_Tech"						"Tecnologia"
+"WorkshopUpload_Tags"							"Marcadores"
+"WorkshopUpload_Thumbnail"		"Ficheiro de miniatura (400x300, m
+"WorkshopUpload_Title"			"Nome"
+"WorkshopUpload_Upload"			"Enviar"
+"WorkshopUpload_Visibility"			"Visibilidade"
+"WorkshopUpload_Visibility_FriendsOnly"		"S
+"WorkshopUpload_Visibility_Private"			"Privado"
+"WorkshopUpload_Visibility_Public"			"P
+"lang"
+"oculus_display_lost" "O sistema Oculus n
+"oculus_requested_quit" "O sistema Oculus pediu o encerramento do SteamVR."
+-la, e depois reinicia o SteamVR."
+-las remotamente. Isto tamb
+-lo, poder
+-lo."
+-lo.\n\nContinuar?"
+-visualiza
+-visualizar relato"
+. Verifica a conex
+O RECOMENDADO para espa
+O ligues nada 
+O:</b> O teu headset 
+a (0x1000000)"
+a Bluetooth que foram usadas anteriormente."
+a</span> pode ser usado para limitar os processos do SteamVR quando ocorrerem problemas de compatibilidade.<p>Tens a certeza de que queres ativar o modo de seguran
+a? (Isto ir
+ada" 
+adas para developers"
+ado)"
+ar a piscar a azul para indicar que est
+ar automaticamente assim que a esta
+ar automaticamente assim que o comando for detetado."
+ar automaticamente assim que o detetor for reconhecido."
+ar automaticamente assim que o teu headset for detetado."
+ar firmware"
+ar volume 
+ar volume"
+as nenhuma altera
+blico"
+cio de aplica
+cio tardio"
+cnico e n
+cnico"
+cnico."
+cone do headset e seleciona \"Atualizar dispositivo\"."
+da de 
+da.<br><br><font color=#ffffff>Estas esta
+da.<ul><li><font color=#aaaa00>Desliga o cabo de alimenta
+da.\n\nClica no link do canal para alter
+da.\n\nH
+da.\n\nN
+da\n\nH
+da\n\nN
+de ser iniciada.\nCertifica-te de que podes executar esta aplica
+deo. Esta aplica
+es App e System at
+es DK2"
+es a dispositivos...</b>"
+es aqui</a>."
+es avan
+es da Link Box, desliga e volta a ligar o cabo de alimenta
+es de Bluetooth"
+es de R.V. podem n
+es de V.R. em execu
+es de comandos"
+es de debug na interface de designa
+es de developer"
+es de dispositivo necess
+es de esta
+es de estado sobre a entrada atual."
+es de filtragem de super-sampling"
+es de gest
+es de hardware SteamVR"
+es de interface est
+es de resolu
+es de v
+es diferentes para cada aplica
+es do Oculus Rift DK2"
+es do Qt"
+es do Qt.\n\nContinuar?"
+es do Steam na R.V."
+es do SteamVR"
+es e op
+es e reiniciar"
+es em p
+es entrarem em efeito.\n"
+es entrem em efeito (100% por predefini
+es entrem em efeito."
+es est
+es estar
+es inacabadas.<br><br>Por favor, seleciona uma esta
+es mais antigas do Windows."
+es necess
+es no painel de realidade virtual."
+es para criares defini
+es poder
+es requer comunica
+es-base (0x0004)"
+es-base (0x400000)"
+es-base *"
+es-base 2.0 transmissoras por perto."
+es-base 2.0 v
+es-base afetadas pela gest
+es-base cujos canais n
+es-base da tomada durante a atualiza
+es-base demasiado longe uma da outra (0x0002)"
+es-base e atualiz
+es-base e configura os seus canais para evitar conflitos."
+es-base em modo de espera com base na tua utiliza
+es-base em modo de espera..."
+es-base geridas"
+es-base participantes na gest
+es-base pr
+es-base t
+es-base transmissoras de presen
+es-base transmissoras por perto a precisar de recupera
+es-base transmissoras por perto, mas nenhuma delas foi ainda usada para dete
+es-base transmissoras por perto."
+es-base v
+es-base"
+es-base."
+es-base..."
+es-base...\n"
+es-base...\n\n%1 segundos restantes."
+es-base...\n\nIncompleto."
+es-base.<br><br>Esta
+es. Para alterares a resolu
+fica do teu computador"
+fica est
+fica ou os drivers est
+fica, acede ao separador Aplica
+fica. Por favor, verifica se o firmware e os drivers da placa gr
+fico de desempenho do GPU no headset"
+fico de desempenho"
+lida"
+lido"
+lise"
+ltimos %1s:\n %2 - 1 frame\n %3 - 2 frames\n %4 - 3 frames\n %5 - 4 ou mais\n Total: %6\n"
+m atualiza
+m fora da R.V. quer a tua aten
+m possibilita o uso de mais funcionalidades de certos headsets de realidade virtual."
+m premidos os bot
+mara deve ser do tipo obj"
+mara"
+maras de dete
+mero)"
+metro inv
+nc. OFF"
+nc. ON"
+ncia encontrada"
+ncia personalizada por parte de um agente, visita o site de apoio t
+ncia quando a aplica
+ncia"
+ncrona neste jogo."
+ndice inv
+nicas\n ou %2 perdas de v
+ns premido o bot
+o %1"
+o (cena)"
+o (outra)"
+o (pelo processador)"
+o (system tray)."
+o - %1"
+o Bluetooth do SteamVR.\n"
+o Bluetooth falhou. Verifica as conex
+o Bluetooth n
+o Bluetooth pronta"
+o Channel, situado na parte de tr
+o Channel."
+o Direta far
+o Direta"
+o Direta. Pretendes continuar?"
+o Direta? O SteamVR ir
+o Incomodar - Suprimir notifica
+o Steam n
+o System e o gatilho ao mesmo tempo para capturares o ecr
+o System. De seguida, inicia o SteamVR e tenta de novo."
+o System. Depois inicia o SteamVR e tenta de novo."
+o USB inesperada 
+o \"Cabal\""
+o \"Truz-truz\""
+o a \"%1\" cancelada. Clica no link do canal para tentares de novo."
+o a usar. Aten
+o abaixo ir
+o abaixo ou pressiona a tecla \"%1\"."
+o acess
+o agora?"
+o alteras os canais das tuas esta
+o anterior."
+o ao headset..."
+o ass
+o ativada"
+o atual renderiza a <font color=#eeeeee>%1x%2</font> para cada olho"
+o atual renderiza cada olho a"
+o atualizados."
+o autom
+o auxiliar deixou de funcionar.\nTenta de novo.\n"
+o auxiliar n
+o auxiliar para remo
+o auxiliar: erro %1."
+o cancelado por utilizador"
+o centrados no teu headset no ch
+o com base no desempenho do teu GPU."
+o com base no diret
+o com o ecr
+o come
+o como administrador.\n"
+o completa e reiniciar"
+o conectes nenhum outro dispositivo, nem fa
+o consegue estabelecer liga
+o consegue manter um desempenho aceit
+o conseguir usar o tipo definido e ir
+o consigas emparelhar comandos sem fios."
+o da C
+o da Link Box.<li>Desliga e volta a ligar o cabo de alimenta
+o da aplica
+o da c
+o da divis
+o da esta
+o da tua aplica
+o da tua esta
+o de 
+o de Energia do Windows foi desativada para dispositivos USB do SteamVR instalados.\nTens de desligar e voltar a ligar estes dispositivos USB para as altera
+o de Energia\" do Windows para os dispositivos USB do SteamVR caso haja perdas de dete
+o de Melhor Gest
+o de R.V."
+o de \"%1\". Clica em \"Atualizar\" para tentares de novo."
+o de ajuda do SteamVR n
+o de aplica
+o de atualiza
+o de bot
+o de canais."
+o de canal solicitada."
+o de dete
+o de dispositivo a decorrer."
+o de dispositivo de dete
+o de dispositivo necess
+o de dispositivo para ativar esta fun
+o de dispositivo para voltar a funcionar.\n\nPretendes continuar?"
+o de dispositivo recomendada"
+o de dispositivo"
+o de dispositivo..."
+o de dispositvo"
+o de driver de Bluetooth (0x0100)"
+o de ecr
+o de energia *"
+o de energia das esta
+o de energia das tuas esta
+o de energia de esta
+o de energia entram no modo de espera quando o SteamVR n
+o de energia"
+o de esta
+o de ganho no 
+o de interface juntamente com o SteamVR."
+o de interface)"
+o de movimento n
+o de movimento"
+o de movimentos."
+o de p
+o de perif
+o de recurso"
+o de resolu
+o de sistema enquanto este dispositivo estiver a ser atualizado. Ao faz
+o de um utilizador que esteja na realidade virtual."
+o de uma aplica
+o definida"
+o deixar de manter premido o bot
+o desativada"
+o desatualizados."
+o desconectes a esta
+o desconectes o comando, n
+o desconectes o detetor, n
+o desconectes o headset, n
+o desconhecida"
+o desligar os respetivos lasers e motores."
+o desligar s
+o desligues as tuas esta
+o desligues nem ligues alguma coisa 
+o despertadas quando o SteamVR 
+o deste dispositivo continuar a falhar sem que haja progresso:<ul><li>Sai do SteamVR.<li>Desliga e volta a ligar o cabo de alimenta
+o deste dispositivo continuar a falhar sem que haja progresso:<ul><li>Sai do SteamVR.<li>Desliga qualquer cabo USB que esteja ligado 
+o deste dispositivo falhou."
+o dispon
+o do Modo de Visualiza
+o do SteamVR e reiniciar a aplica
+o do SteamVR e reiniciar"
+o do SteamVR."
+o do canal requer comunica
+o do canal"
+o do comando falhou."
+o do detetor falhou."
+o do dispositivo falhou"
+o do dispositivo falhou."
+o do estado"
+o do ficheiro execut
+o do hardware a decorrer..."
+o do post-roll:"
+o do pre-roll:"
+o do r
+o do recetor sem fios"
+o do teu headset e depois reinicia."
+o do teu headset para que a atualiza
+o dos dispositivos USB deixou de funcionar.\nPor favor, tenta de novo.\n"
+o dos dispositivos USB.\nCertifica-te de que podes iniciar esta aplica
+o e dete
+o e gest
+o em uso n
+o encontrada. Verifica as conex
+o encontrada."
+o encontradas. 
+o encontradas. Por favor, verifica a tua instala
+o encravar"
+o entre em efeito."
+o espec
+o est
+o existem informa
+o falhou"
+o foi poss
+o foram detetadas pelo driver da placa gr
+o foram encontrados ficheiros para editar!"
+o funciona devidamente. Se o erro que est
+o gigantesco"
+o global (Atualmente %1)"
+o grande"
+o guardada."
+o incompleta"
+o iniciada na tua conta Steam para relatares um bug."
+o instalado."
+o interna.</font></ul><br>A luz da esta
+o interna.<br>N
+o interrompida ou cancelada de uma esta
+o inv
+o mais recente da atualiza
+o mostrar grelha se aplica
+o necess
+o no centro do espa
+o no modo de espelhamento (0x1000)"
+o ou n
+o para continuar a usar o SteamVR.\n\nPretendes continuar?"
+o para possibilitar a configura
+o para possibilitar a identifica
+o pendente entrar
+o pequeno"
+o personalizada"
+o pode geri-las quando o headset est
+o pode ser executada at
+o pode ser feita manualmente ou por uma rede sem fios."
+o pode ser iniciada neste momento, porque j
+o pode ser maior do que 1 MB"
+o pode ser reiniciado automaticamente. \nSai do SteamVR e tenta de novo. Se o problema persistir, reinicia o teu computador."
+o pode ter mais do que 8000 caracteres."
+o podem ser maiores do que 1 GB"
+o podem ver o headset"
+o poder
+o por Bluetooth (0x0800)"
+o por Bluetooth nas Defini
+o por Bluetooth.\n\nAtiva a comunica
+o possa continuar. Por favor, desliga o cabo de alimenta
+o possa continuar."
+o possui uma 
+o puderam ser determinados, o que pode resultar em poss
+o receber
+o recomendada para o teu GPU e headset 
+o remota de energia."
+o requer servi
+o se desligou, desliga-o mantendo premido o bot
+o se desligou, desliga-o mantendo pressionado o bot
+o se headset estiver inativo"
+o seja realizada. Gostarias de iniciar a configura
+o seja registada."
+o sem fios por Bluetooth. Requer credenciais de administrador."
+o sem fios seja conclu
+o sem fios seja realizada.<br><br><font color=#aaaa00>Desliga o cabo USB ligado 
+o sempre ligados"
+o sentada"
+o ser
+o te parecer suave ou se acontecerem toques inesperados."
+o ter de ser reiniciadas para que novas defini
+o usado para esta esta
+o usar automaticamente o tipo estereosc
+o vai ser efetuada sem fios. N
+o, a qual foi rejeitada. Por favor, desliga e volta a ligar o cabo de alimenta
+o, carrega no bot
+o, mas n
+o, mas o SteamVR n
+o, novos limites ser
+o-base (0x0008)"
+o-base 1.0"
+o-base 2.0 - Configura
+o-base 2.0 - Recupera
+o-base 2.0"
+o-base antes de continuares.</font>"
+o-base ao teu computador usando um cabo micro-USB. Podes usar o mesmo cabo que usas para carregar os teus comandos.\n\n3. Liga o cabo de alimenta
+o-base deve ser do tipo obj"
+o-base durante a atualiza
+o-base e clica em 'Recuperar dispositivo' para continuar.</font>"
+o-base e depois volta a lig
+o-base enquanto mant
+o-base est
+o-base falhou"
+o-base foi atualizada com 
+o-base for reconhecida e poder
+o-base inutiliz
+o-base para evitar poss
+o-base para que a atualiza
+o-base pode estar desligada durante a atualiza
+o-base possa ser atualizada remotamente.\n\nPor favor, ativa o Servi
+o-base precisa de voltar a ser reconhecida visualmente ao reiniciar o SteamVR para que a atualiza
+o-base precisa primeiro de ser desligada e ligada novamente para continuar com a atualiza
+o-base precisa primeiro de ser desligada e ligada novamente, e depois voltar a ser reconhecida visualmente ao reiniciar o SteamVR para que a atualiza
+o-base que a esteja a impedir de detetar devidamente."
+o-base tem uma vers
+o-base termine a sua atualiza
+o-base"
+o-base, n
+o-base. Depois inicia o SteamVR e tenta de novo."
+o-base. Isto pode demorar alguns minutos..."
+o-base."
+o-base.</font>"
+o-base.<li>Aguarda 30 segundos para que a esta
+o-base.<li>Desliga e volta a ligar o cabo de alimenta
+o-base.<li>Desliga o cabo USB ligado 
+o-base.<li>Inicia o SteamVR e tenta de novo.</ul>
+o-base.<li>Inicia o SteamVR e tenta de novo.</ul>"
+o-base.<li>N
+o-base.<li>Volta a ligar apenas o cabo de alimenta
+o-base.\n\n2. Liga a esta
+o. Clica em \"Atualizar\" para tentares de novo."
+o. Clica em \"Tentar novamente\" para tentares de novo."
+o. Para configura
+o. Passa o cursor do rato por cima do 
+o..."
+o.<br><br><font color=#aaaa00>Por favor, desliga e volta a ligar o cabo de alimenta
+o.\n\nO SteamVR pode definir um diret
+o.\n\nQueres continuar?"
+o: Muitas aplica
+os Bluetooth precisam de estar ativos para que esta esta
+os partilhados por v
+os sem fios"
+pico"
+pico."
+pida"
+pido quando o SteamVR iniciar."
+rea de jogo"
+rea de notifica
+rea de trabalho ao ecr
+rea de transfer
+ria para driver %1"
+ria uma atualiza
+rias dispon
+rias frames"
+rias"
+rico"
+rio - %1"
+rio atual do ficheiro execut
+rio configurar os canais manualmente."
+rio das config."
+rio das configura
+rio de an
+rio de config."
+rio de envio tempor
+rio de grava
+rio de instala
+rio de modelos"
+rio de onde o SteamVR foi iniciado."
+rio de relat
+rio de sistema que recolhe dados sobre o sistema, ambiente e registos do SteamVR para fins de diagn
+rio de sistema"
+rio de uso"
+rio de uso:"
+rio do SteamVR:"
+rio do ficheiro execut
+rio do runtime"
+rio do runtime:"
+rio do sistema"
+rio dos relat
+rio!"
+rio..."
+rio:"
+rios de sistema"
+rios do OpenVR"
+rios minutos..."
+rios selecionados"
+rios utilizadores do SteamVR.</font>"
+rios"
+rios.</b></html>"
+rios:"
+runs de desenvolvimento do SteamVR </a> para obteres ajuda."
+s 5:00 (ou at
+s a tentar diagnosticar persistir, visita os <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>F
+s a tocar no trackpad e clica em Seguinte para continuar."
+s alterar estes diret
+s da mesma."
+s ent
+s est
+s ter de desligar e ligar o cabo de alimenta
+s ter de desligar e ligar o comando para que a atualiza
+s ter de desligar e ligar o detetor para que a atualiza
+s tornar esta esta
+s tornar este comando inutiliz
+s tornar este detetor inutiliz
+s tornar este headset inutiliz
+s uma resposta direta. Para uma assist
+ssico"
+sticas da GPU"
+stico pela Valve."
+stico"
+tica conclu
+tica"
+tico."
+udio HDMI do VIVE"
+udio neste computador"
+udio para dispositivo"
+udio"
+udio:"
+veis como separadores no Painel do SteamVR."
+veis como sobreposi
+veis conflitos de dete
+veis conflitos entre canais que podem ser resolvidos automaticamente ao reatribuir os respetivos canais. Continuar e resolver os conflitos?"
+veis conflitos entre canais. Continuar e resolver os conflitos?"
+veis conflitos entre canais. Poder
+veis conflitos entre canais.\n"
+veis de momento"
+veis. Seleciona um dispositivo para atualiz
+veis..."
+vel (0x0200)"
+vel (0x0400)"
+vel abrir ficheiro"
+vel agora nesta sess
+vel com esta placa gr
+vel com o SteamVR. Desinstala os drivers e o software do DisplayLink do teu computador e reinicia-o antes de usares o SteamVR."
+vel com outras taxas de atualiza
+vel com vers
+vel conflito no canal %1"
+vel criar o diret
+vel do SteamVR e vai reinici
+vel do SteamVR\n%3\n"
+vel encontrar o diret
+vel iniciar %1. A interface desta aplica
+vel iniciar %1: %2."
+vel iniciar a aplica
+vel iniciar a ferramenta de envio porque a aplica
+vel iniciar o Steam."
+vel iniciar o runtime.\n\n%1\n\n
+vel ler os ficheiros dos relat
+vel redefinir o runtime atual\n%2\ncom base no diret
+vel reencaminhar o 
+vel relatar bugs nesta vers
+vel relatar um bug.\n\nErro: BR-%1"
+vel remover alguns dispositivos USB relevantes. Por favor, tenta de novo.\n"
+vel solicitar aplica
+vel."
+vel:"
+via..."
+x. 1 MB)"
+ximas."
+xito. Poder
+xito."

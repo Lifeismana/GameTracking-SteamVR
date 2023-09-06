@@ -14,7 +14,6 @@
  Error
  GetSpewOutputFunc
  Is64BitOS
- Msg
  Plat_GetExecutablePathUTF8
  Plat_GetProcessArgv
  Plat_OutputDebugString

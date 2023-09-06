@@ -1,955 +1,1382 @@
-"lang"
-{
-"Language" "hungarian" 
-"Tokens"
-{
-
-"Error_NoHMDAvailable_Header" "Fejszett nem észlelhető"
-"Error_NoHMDAvailable_Description" "Győződj meg róla, hogy a fejszetted megfelelően van csatlakoztatva, majd indítsd újra a SteamVR-t."
-"Error_NoHMDAvailable_Action" "Több infó"
-"Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#headset"
-
-"Error_HMDDoesNotTrack_Header" "Keresés..."
-"Error_HMDDoesNotTrack_Description" "Győződj meg róla, hogy fejszetted egy bázisállomás látóterében van."
-"Error_HMDDoesNotTrack_Action" "Több infó"
-"Error_HMDDoesNotTrack_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#tracking-issues"
-
-"Error_NoCompositorAvailable_Header" "SteamVR hiba"
-"Error_NoCompositorAvailable_Description" "Jaj, ne! A SteamVR váratlan problémába ütközött."
-"Error_NoCompositorAvailable_Action" "SteamVR újraindítása"
-"Error_NoCompositorAvailable_ActionURL" "vrmonitor://restartsystem"
-
-"Error_NoChaperoneAvailable_Header" "Szobaelrendező"
-"Error_NoChaperoneAvailable_Description" "Úgy tűnik, ideje beállítani VR játékterületedet és chaperone határaidat."
-"Error_NoChaperoneAvailable_Action" "Szobaelrendezés elvégzése"
-"Error_NoChaperoneAvailable_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"Error_CompositorNotFullscreen_Header" "Fejszetthiba"
-"Error_CompositorNotFullscreen_Description" "Győződj meg róla, hogy fejszetted kijelzője teljes képernyős módban van."
-"Error_CompositorNotFullscreen_Action" "Teljes képernyős mód bekapcsolása"
-"Error_CompositorNotFullscreen_ActionURL" "vrmonitor://makecompositorfullscreen"
-
-"Error_CompositorNotRunning_Header" "SteamVR hiba"
-"Error_CompositorNotRunning_Description" "Jaj, ne! A SteamVR váratlan problémába ütközött."
-"Error_CompositorNotRunning_Action" "SteamVR újraindítása"
-"Error_CompositorNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_CompositorTooManyRunning_Header" "SteamVR hiba"
-"Error_CompositorTooManyRunning_Description" "Jaj, ne! A SteamVR váratlan problémába ütközött."
-"Error_CompositorTooManyRunning_Action" "SteamVR újraindítása"
-"Error_CompositorTooManyRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_PrismNotRunning_Header" "SteamVR hiba"
-"Error_PrismNotRunning_Description" "Jaj, ne! A SteamVR váratlan problémába ütközött."
-"Error_PrismNotRunning_Action" "SteamVR újraindítása"
-"Error_PrismNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_VRServerNotRunning_Header" "SteamVR hiba"
-"Error_VRServerNotRunning_Description" "Jaj, ne! A SteamVR váratlan problémába ütközött."
-"Error_VRServerNotRunning_Action" "SteamVR újraindítása"
-"Error_VRServerNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_TrackingDevice_NotValid_Header" "Az eszköz nincs csatlakoztatva"
-"Error_TrackingDevice_NotValid_Description" "Győződj meg róla, hogy be van kapcsolva, és próbáld újra."
-"Error_TrackingDevice_NotValid_Action" "Újracsatlakozás"
-"Error_TrackingDevice_NotValid_ActionURL" "vrmonitor://restartsystem"
-
-"Error_TrackingDevice_NoPose_Header" "Keresés..."
-"Error_TrackingDevice_NoPose_Description" "Ez az eszköz nem követ. Győződj meg róla, hogy egy bázisállomás látóterében van."
-"Error_TrackingDevice_NoPose_Action" "Több infó"
-"Error_TrackingDevice_NoPose_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#tracking-issues"
-
-"VRInitError_Unknown_Header" "SteamVR hiba"
-"VRInitError_Unknown_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Unknown_Action" "Több infó"
-"VRInitError_Unknown_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_InstallationNotFound_Header" "SteamVR hiba"
-"VRInitError_Init_InstallationNotFound_Description" "Felfedeztük, hogy néhány létfontosságú fájl mintha hiányozna."
-"VRInitError_Init_InstallationNotFound_Action" "Több infó"
-"VRInitError_Init_InstallationNotFound_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=81&return_nodeid=71"
-
-"VRInitError_Init_InstallationCorrupt_Header" "SteamVR hiba"
-"VRInitError_Init_InstallationCorrupt_Description" "Felfedeztük, hogy néhány létfontosságú fájl mintha hiányozna. Kérjük, telepítsd újra a SteamVR-t."
-"VRInitError_Init_InstallationCorrupt_Action" "Több infó"
-"VRInitError_Init_InstallationCorrupt_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"VRInitError_Init_VRClientDLLNotFound_Header" "SteamVR hiba"
-"VRInitError_Init_VRClientDLLNotFound_Description" "Felfedeztük, hogy néhány létfontosságú fájl mintha hiányozna. Kérjük, telepítsd újra a SteamVR-t."
-"VRInitError_Init_VRClientDLLNotFound_Action" "Több infó"
-"VRInitError_Init_VRClientDLLNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"VRInitError_Init_FileNotFound_Header" "SteamVR hiba"
-"VRInitError_Init_FileNotFound_Description" "Felfedeztük, hogy néhány létfontosságú fájl mintha hiányozna. Kérjük, telepítsd újra a SteamVR-t."
-"VRInitError_Init_FileNotFound_Action" "Több infó"
-"VRInitError_Init_FileNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"VRInitError_Init_FactoryNotFound_Header" "SteamVR hiba"
-"VRInitError_Init_FactoryNotFound_Description" "Felfedeztük, hogy néhány létfontosságú fájl mintha hiányozna. Kérjük, telepítsd újra a SteamVR-t."
-"VRInitError_Init_FactoryNotFound_Action" "Több infó"
-"VRInitError_Init_FactoryNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"VRInitError_Init_InterfaceNotFound_Header" "SteamVR frissítés"
-"VRInitError_Init_InterfaceNotFound_Description" "Felfedeztük, hogy a SteamVR frissítést igényel. Kérjük, lépj ki a SteamVR-ből és válts a Steam Letöltések nézetére az alkalmazás frissítéséhez."
-"VRInitError_Init_InterfaceNotFound_Action" "
-"
-"VRInitError_Init_InterfaceNotFound_ActionURL" "
-"
-
-"VRInitError_Init_InvalidInterface_Header" "SteamVR hiba"
-"VRInitError_Init_InvalidInterface_Description" "Váratlan problémával találkoztunk. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_InvalidInterface_Action" "Több infó"
-"VRInitError_Init_InvalidInterface_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_UserConfigDirectoryInvalid_Header" "SteamVR hiba"
-"VRInitError_Init_UserConfigDirectoryInvalid_Description" "Hibát fedeztünk fel SteamVR telepítésednél. Kérjük, keresd meg SteamVR konfigurációs könyvtáradat."
-"VRInitError_Init_UserConfigDirectoryInvalid_Action" "Konfigurációs könyvtár beállítása"
-"VRInitError_Init_UserConfigDirectoryInvalid_ActionURL" "vrmonitor://setconfig"
-
-"VRInitError_Init_HmdNotFound_Header" "Fejszett nem észlelhető"
-"VRInitError_Init_HmdNotFound_Description" "Győződj meg róla, hogy a fejszetted megfelelően van csatlakoztatva, majd alább állítsd alaphelyzetbe."
-"VRInitError_Init_HmdNotFound_FirstAction" "Fejszett alaphelyzetbe"
-"VRInitError_Init_HmdNotFound_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdNotFound_Action" "Több infó"
-"VRInitError_Init_HmdNotFound_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Init_NotInitialized_Header" "SteamVR hiba"
-"VRInitError_Init_NotInitialized_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_NotInitialized_Action" "Több infó"
-"VRInitError_Init_NotInitialized_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=37&return_nodeid=71"
-
-"VRInitError_Init_PathRegistryNotFound_Header" "SteamVR hiba"
-"VRInitError_Init_PathRegistryNotFound_Description" "Felfedeztük, hogy néhány létfontosságú fájl mintha hiányozna. Kérjük, próbáld újra."
-"VRInitError_Init_PathRegistryNotFound_Action" "Újrapróbálás a jelenlegi könyvtárból"
-"VRInitError_Init_PathRegistryNotFound_ActionURL" "vrmonitor://runfromcurrentdirectory"
-
-"VRInitError_Init_NoConfigPath_Header" "SteamVR hiba"
-"VRInitError_Init_NoConfigPath_Description" "Hibát fedeztünk fel SteamVR telepítésednél. Kérjük, keresd meg SteamVR konfigurációs könyvtáradat."
-"VRInitError_Init_NoConfigPath_Action" "Konfigurációs könyvtár beállítása"
-"VRInitError_Init_NoConfigPath_ActionURL" "vrmonitor://setconfig"
-
-"VRInitError_Init_NoLogPath_Header" "SteamVR hiba"
-"VRInitError_Init_NoLogPath_Description" "Hibát fedeztünk fel SteamVR telepítésednél. Kérjük, keresd meg SteamVR konfigurációs könyvtáradat."
-"VRInitError_Init_NoLogPath_Action" "Naplókönyvtár beállítása"
-"VRInitError_Init_NoLogPath_ActionURL" "vrmonitor://setlog"
-
-"VRInitError_Init_PathRegistryNotWritable_Header" "SteamVR hiba"
-"VRInitError_Init_PathRegistryNotWritable_Description" "A SteamVR nem tud információkat menteni. Kérjük, ellenőrizd felhasználói jogosultságaidat ezen a számítógépen."
-"VRInitError_Init_PathRegistryNotWritable_Action" "Több infó"
-"VRInitError_Init_PathRegistryNotWritable_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_AppInfoInitFailed_Header" "SteamVR hiba"
-"VRInitError_Init_AppInfoInitFailed_Description" "A SteamVR egyik fontos összetevője nem működik megfelelően. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_AppInfoInitFailed_Action" "Több infó"
-"VRInitError_Init_AppInfoInitFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_Retry_Header" "SteamVR hiba"
-"VRInitError_Init_Retry_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_Retry_Action" "Több infó"
-"VRInitError_Init_Retry_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_InitCanceledByUser_Header" "SteamVR hiba"
-"VRInitError_Init_InitCanceledByUser_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_InitCanceledByUser_Action" "Több infó"
-"VRInitError_Init_InitCanceledByUser_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_AnotherAppLaunching_Header" "SteamVR hiba"
-"VRInitError_Init_AnotherAppLaunching_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_AnotherAppLaunching_Action" "Több infó"
-"VRInitError_Init_AnotherAppLaunching_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_SettingsInitFailed_Header" "SteamVR hiba"
-"VRInitError_Init_SettingsInitFailed_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_SettingsInitFailed_Action" "Több infó"
-"VRInitError_Init_SettingsInitFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_ShuttingDown_Header" "SteamVR hiba"
-"VRInitError_Init_ShuttingDown_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_ShuttingDown_Action" "Több infó"
-"VRInitError_Init_ShuttingDown_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_TooManyObjects_Header" "SteamVR hiba"
-"VRInitError_Init_TooManyObjects_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_TooManyObjects_Action" "Több infó"
-"VRInitError_Init_TooManyObjects_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NoServerForBackgroundApp_Header" "SteamVR hiba"
-"VRInitError_Init_NoServerForBackgroundApp_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_NoServerForBackgroundApp_Action" "Több infó"
-"VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NotSupportedWithCompositor_Header" "SteamVR hiba"
-"VRInitError_Init_NotSupportedWithCompositor_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_NotSupportedWithCompositor_Action" "Több infó"
-"VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NotAvailableToUtilityApps_Header" "SteamVR hiba"
-"VRInitError_Init_NotAvailableToUtilityApps_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_NotAvailableToUtilityApps_Action" "Több infó"
-"VRInitError_Init_NotAvailableToUtilityApps_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Internal_Header" "SteamVR hiba"
-"VRInitError_Internal_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Internal_Action" "Több infó"
-"VRInitError_Internal_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_HmdDriverIdIsNone_Header" "Fejszett nem észlelhető"
-"VRInitError_Init_HmdDriverIdIsNone_Description" "Győződj meg róla, hogy a fejszetted megfelelően van csatlakoztatva, majd alább állítsd alaphelyzetbe."
-"VRInitError_Init_HmdDriverIdIsNone_FirstAction" "Fejszett alaphelyzetbe"
-"VRInitError_Init_HmdDriverIdIsNone_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdDriverIdIsNone_Action" "Több infó"
-"VRInitError_Init_HmdDriverIdIsNone_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Init_HmdNotFoundPresenceFailed_Header" "Fejszett nem észlelhető"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Description" "Győződj meg róla, hogy a fejszetted megfelelően van csatlakoztatva, majd alább állítsd alaphelyzetbe."
-"VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction" "Fejszett alaphelyzetbe"
-"VRInitError_Init_HmdNotFoundPresenceFailed_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Action" "Több infó"
-"VRInitError_Init_HmdNotFoundPresenceFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Driver_Failed_Header" "SteamVR hiba"
-"VRInitError_Driver_Failed_Description" "A SteamVR hibába ütközött. Kérjük, ellenőrizd felhasználói jogosultságaidat ezen a számítógépen, vagy, ha manuálisan adtál valamit a SteamVR illesztőprogram-könyvtárához, távolítsd el."
-"VRInitError_Driver_Failed_Action" "Több infó"
-"VRInitError_Driver_Failed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_Unknown_Header" "SteamVR hiba"
-"VRInitError_Driver_Unknown_Description" "A SteamVR eszközhibába ütközött."
-"VRInitError_Driver_Unknown_Action" "Javítás!"
-"VRInitError_Driver_Unknown_ActionURL" "vrmonitor://unsetforceddriver"
-
-"VRInitError_Driver_HmdUnknown_Header" "Fejszett nem ismerhető fel"
-"VRInitError_Driver_HmdUnknown_Description" "A SteamVR nehézségbe ütközött e fejszett azonosításakor."
-"VRInitError_Driver_HmdUnknown_Action" "Javítás!"
-"VRInitError_Driver_HmdUnknown_ActionURL" "vrmonitor://unsetforcedhmd"
-
-"VRInitError_Driver_NotLoaded_Header" "SteamVR hiba"
-"VRInitError_Driver_NotLoaded_Description" "A SteamVR-hez szükséges egyik illesztőprogram nem töltődik be megfelelően. Kérjük, ellenőrizd a SteamVR telepítésedet."
-"VRInitError_Driver_NotLoaded_Action" "Több infó"
-"VRInitError_Driver_NotLoaded_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"VRInitError_Driver_RuntimeOutOfDate_Header" "SteamVR hiba"
-"VRInitError_Driver_RuntimeOutOfDate_Description" "Oculus szoftvered elavultnak tűnik. Kérjük, telepítsd a legújabb verziót."
-"VRInitError_Driver_RuntimeOutOfDate_Action" "Látogasd meg az oculus.com oldalt"
-"VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://www.oculus.com/rift-patch/"
-
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Windows 10 frissítés"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "A SteamVR Windows Mixed Realityvel való használatához telepítened kell a legújabb Windows frissítést."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Tudj meg többet"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
-
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Az Oculus Link nincs engedélyezve"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Ha Quest 2 vagy más különálló eszközt használsz, a SteamVR indítása előtt manuálisan engedélyezned kell a Linket vagy Air Linket a fejszettben."
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "SteamVR újraindítása"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Látogasd meg az oculus.com oldalt"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
-
-"VRInitError_Driver_HmdInUse_Header" "SteamVR hiba"
-"VRInitError_Driver_HmdInUse_Description" "A fejszettedet egy másik alkalmazás használja. Kérjük, lépj ki abból az alkalmazásból, majd próbáld újra."
-"VRInitError_Driver_HmdInUse_Action" "Próbáld újra"
-"VRInitError_Driver_HmdInUse_ActionURL" "vrmonitor://refresh"
-
-"VRInitError_Driver_NotCalibrated_Header" "Eszközhiba"
-"VRInitError_Driver_NotCalibrated_Description" "A SteamVR-nek nehézsége támadt egy kalibrációs fájl betöltésekor."
-"VRInitError_Driver_NotCalibrated_Action" "Több infó"
-"VRInitError_Driver_NotCalibrated_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_CalibrationInvalid_Header" "Fejszetthiba"
-"VRInitError_Driver_CalibrationInvalid_Description" "A SteamVR-nek nehézsége támadt az illesztőprogramok telepítésével a fejszettedhez."
-"VRInitError_Driver_CalibrationInvalid_Action" "Több infó"
-"VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_HmdDisplayNotFound_Header" "Fejszettkijelző lecsatlakoztatva"
-"VRInitError_Driver_HmdDisplayNotFound_Description" "Kérjük, biztosítsd a videókábelek stabil csatlakoztatását. A fejszett kijelzője nem található."
-"VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Fejszett alaphelyzetbe"
-"VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
-"VRInitError_Driver_HmdDisplayNotFound_Action" "Több infó"
-"VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Laptop: Fejszettkijelző lecsatlakoztatva"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Kérjük, biztosítsd a videókábelek laptopodhoz való stabil csatlakoztatását. A laptopok speciális beállításokat igényelhetnek, hogy működjenek a VR-rel."
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Fejszett alaphelyzetbe"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "Több infó"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_HmdDisplayMirrored_Header" "Fejszett-kijelző tükrözve"
-"VRInitError_Driver_HmdDisplayMirrored_Description" "A fejszett kijelzője nem található, de egy tükrözött kijelző észlelhető. Állítsd a fejszettet tükrözött helyett kiterjesztett módba."
-"VRInitError_Driver_HmdDisplayMirrored_FirstAction" "Kijelzőtulajdonságok megnézése"
-"VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
-"VRInitError_Driver_HmdDisplayMirrored_Action" "Több infó"
-"VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#headset"
-
-"VRInitError_Driver_PeerDriverNotInstalled_Header" "Hiányzó illesztőprogram"
-"VRInitError_Driver_PeerDriverNotInstalled_Description" "Az aktuális HMD olyan illesztőprogramot igényel, ami nincs telepítve."
-"VRInitError_Driver_PeerDriverNotInstalled_Action" "Több infó"
-"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Várakozás vezeték nélküli kapcsolatra"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "A SteamVR vezeték nélküli fejszett csatlakozására várakozik..."
-"VRInitError_Init_PrismNeedsNewDrivers_Header" "Video-illesztőprogram frissítés"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Frissítened kell a számítógéped video-illesztőprogramját, vagy engedélyezned a hardveres gyorsítású GPU-ütemezést."
-"VRInitError_Init_PrismNeedsNewDrivers_Action" "Több infó"
-"VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"VRInitError_Init_PrismStartupTimedOut_Header" "SteamVR indítási probléma"
-"VRInitError_Init_PrismStartupTimedOut_Description" "A SteamVR egyik kulcsösszetevőjének indulása túl sokáig tartott, így sikertelen volt."
-"VRInitError_Init_PrismStartupTimedOut_Action" "SteamVR újraindítása"
-"VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
-
-"VRInitError_Init_CouldNotStartPrism_Header" "SteamVR indítási probléma"
-"VRInitError_Init_CouldNotStartPrism_Description" "A SteamVR egy kulcsfontosságú összetevője nem található. Próbáld meg a „Kellékfájlok épségének ellenőrzése...” lehetőséget a Steamen a SteamVR-hez."
-"VRInitError_Init_CouldNotStartPrism_Action" "Több infó"
-"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=hungarian"
-
-"VRInitError_Init_PrismClientInitFailed_Header" "SteamVR indítási probléma"
-"VRInitError_Init_PrismClientInitFailed_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_PrismClientInitFailed_Action" "Több infó"
-"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_PrismClientStartFailed_Header" "SteamVR indítási probléma"
-"VRInitError_Init_PrismClientStartFailed_Description" "A SteamVR váratlan problémába ütközött. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_Init_PrismClientStartFailed_Action" "Több infó"
-"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR hiba"
-"VRInitError_Init_PrismExitedUnexpectedly_Description" "A SteamVR egyik kulcsösszetevője hibába ütközött."
-"VRInitError_Init_PrismExitedUnexpectedly_Action" "SteamVR újraindítása"
-"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
-
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Fejszett nem észlelhető"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Győződj meg róla, hogy a fejszetted megfelelően van csatlakoztatva, majd alább állítsd alaphelyzetbe."
-"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction" "Fejszett alaphelyzetbe"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Action" "Több infó"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header" "Eszközhiba"
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description" "Az ezen eszköz által használt illesztőprogram nem kompatibilis a SteamVR ezen verziójával."
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "Több infó"
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#tracking-issues"
-
-"VRInitError_IPC_ServerInitFailed_Header" "SteamVR telepítési probléma"
-"VRInitError_IPC_ServerInitFailed_Description" "A SteamVR egyik kulcsösszetevője nem működik megfelelően. Kérjük, ellenőrizd, hogy a SteamVR helyesen van telepítve."
-"VRInitError_IPC_ServerInitFailed_Action" "Több infó"
-"VRInitError_IPC_ServerInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"VRInitError_IPC_ConnectFailed_Header" "SteamVR hiba"
-"VRInitError_IPC_ConnectFailed_Description" "A SteamVR egyik kulcsösszetevője nem működik megfelelően."
-"VRInitError_IPC_ConnectFailed_Action" "Több infó"
-"VRInitError_IPC_ConnectFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=40&return_nodeid=71"
-
-"VRInitError_IPC_SharedStateInitFailed_Header" "SteamVR hiba"
-"VRInitError_IPC_SharedStateInitFailed_Description" "A SteamVR egyik kulcsösszetevője nem működik megfelelően. Kérjük, indítsd újra a számítógéped, majd próbáld újra."
-"VRInitError_IPC_SharedStateInitFailed_Action" "Több infó"
-"VRInitError_IPC_SharedStateInitFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_IPC_CompositorInitFailed_Header" "Valami baj van"
-"VRInitError_IPC_CompositorInitFailed_Description" "A SteamVR egyik kulcsösszetevője nem működik megfelelően. Kérjük, telepítsd újra a SteamVR-t."
-"VRInitError_IPC_CompositorInitFailed_Action" "Több infó"
-"VRInitError_IPC_CompositorInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"VRInitError_IPC_MutexInitFailed_Header" "Valami baj van"
-"VRInitError_IPC_MutexInitFailed_Description" "A SteamVR egyik kulcsösszetevője nem működik megfelelően. Kérjük, telepítsd újra a SteamVR-t."
-"VRInitError_IPC_MutexInitFailed_Action" "Több infó"
-"VRInitError_IPC_MutexInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"VRInitError_IPC_Failed_Header" "SteamVR hiba"
-"VRInitError_IPC_Failed_Description" "Váratlan probléma adódott. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"VRInitError_IPC_Failed_Action" "Több infó"
-"VRInitError_IPC_Failed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=77&return_nodeid=71"
-
-"VRInitError_IPC_CompositorConnectFailed_Header" "SteamVR hiba"
-"VRInitError_IPC_CompositorConnectFailed_Description" "A SteamVR egyik kulcsösszetevője nem működik megfelelően. Kérjük, lépj ki a SteamVR-ből, indítsd el a Feladatkezelőt, és állíts le minden egyéb SteamVR folyamatot, mielőtt újraindítanád az alkalmazást."
-"VRInitError_IPC_CompositorConnectFailed_Action" "Több infó"
-"VRInitError_IPC_CompositorConnectFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_CompositorInvalidConnectResponse_Header" "SteamVR hiba"
-"VRInitError_IPC_CompositorInvalidConnectResponse_Description" "A SteamVR egyik kulcsösszetevője nem működik megfelelően. Kérjük, lépj ki a SteamVR-ből, indítsd el a Feladatkezelőt, és állíts le minden egyéb SteamVR folyamatot, mielőtt újraindítanád az alkalmazást."
-"VRInitError_IPC_CompositorInvalidConnectResponse_Action" "Több infó"
-"VRInitError_IPC_CompositorInvalidConnectResponse_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header" "SteamVR hiba"
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description" "A SteamVR egyik kulcsösszetevője nem működik megfelelően. Kérjük, lépj ki a SteamVR-ből, indítsd el a Feladatkezelőt, és állíts le minden egyéb SteamVR folyamatot, mielőtt újraindítanád az alkalmazást."
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "Több infó"
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Header" "SteamVR hiba"
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "A SteamVR egyik kulcsösszetevője nem működik megfelelően. Kérjük, indítsd újra a SteamVR-t."
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "Több infó"
-"VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_NamespaceUnavailable_Header" "SteamVR hiba"
-"VRInitError_IPC_NamespaceUnavailable_Description" "A SteamVR egyik kulcsösszetevője nem működik megfelelően. Kérjük, indítsd újra a SteamVR-t."
-"VRInitError_IPC_NamespaceUnavailable_Action" "Több infó"
-"VRInitError_IPC_NamespaceUnavailable_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_Compositor_D3D11HardwareRequired_Header" "Ideje fejleszteni"
-"VRInitError_Compositor_D3D11HardwareRequired_Description" "A SteamVR nem talált DirectX 11 kompatibilis hardvert vagy illesztőprogramokat. Lehet, hogy frissítened kell a rendszeredet."
-"VRInitError_Compositor_D3D11HardwareRequired_Action" "Több infó"
-"VRInitError_Compositor_D3D11HardwareRequired_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Compositor_FirmwareRequiresUpdate_Header" "Ideje frissíteni"
-"VRInitError_Compositor_FirmwareRequiresUpdate_Description" "A fejszetted észlelhető, de frissítésre van szüksége a megfelelő működés biztosításához."
-"VRInitError_Compositor_FirmwareRequiresUpdate_Action" "Fejszett frissítése"
-"VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
-
-"VRInitError_Compositor_UnableToCreateDevice_Header" "SteamVR grafikai hiba"
-"VRInitError_Compositor_UnableToCreateDevice_Description" "Lehet, hogy frissítened kell számítógéped video-illesztőprogramját."
-"VRInitError_Compositor_UnableToCreateDevice_Action" "Több infó"
-"VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR hiba"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "A SteamVR nem tudott csatlakozni az Oculus alkalmazáshoz. Győződj meg róla, hogy a legújabb verzió van telepítve."
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Látogasd meg az oculus.com oldalt"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
-
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "SteamVR hiba"
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Probléma van az Oculus runtime telepítéssel. Kérjük, indítsd újra és ellenőrizd, hogy az Oculus szoftver telepítve és frissítve van-e."
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Action" "Látogasd meg az oculus.com oldalt"
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_ActionURL" "https://www.oculus.com/setup/"
-
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Header" "USB-hiba"
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Description" "Kérjük, ellenőrizd fejszetted USB-kapcsolatát, és próbáld újra."
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Action" "Több infó"
-"VRInitError_VendorSpecific_HmdFound_UserDataError_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "Fejszetthiba"
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description" "A fejszetted észlelhető, de probléma van a hardverével. Kérjük, lépj kapcsolatba a gyártóval segítségért."
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" "
-"
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "
-"
-
-"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Fejszettkijelző konfigurációs hiba"
-"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "A fejszettkijelző konfigurációja érvénytelen. Kérjük, vedd fel a kapcsolatot a támogatással további segítségért."
-"VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR hiba"
-"VRInitError_Steam_SteamInstallationNotFound_Description" "A SteamVR helyes működéséhez a Steamnek telepítve kell lennie."
-"VRInitError_Steam_SteamInstallationNotFound_Action" "Steam telepítése"
-"VRInitError_Steam_SteamInstallationNotFound_ActionURL" "vrmonitor://installsteam"
-
-"ChaperoneCalibrationState_Warning_Header" "Szobaelrendező"
-"ChaperoneCalibrationState_Warning_Description" "Kérjük, végezd el a szobaelrendezést játékterületed és chaperone határaid megadásához."
-"ChaperoneCalibrationState_Warning_Action" "Szobaelrendezés elvégzése"
-"ChaperoneCalibrationState_Warning_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header" "Szobaelrendező"
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description" "Úgy tűnik, egy bázisállomás elmozdult. Kérjük, végezd el a szobaelrendezést játékterületed és chaperone határaid újbóli beállításához."
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action" "Szobaelrendezés elvégzése"
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Header" "Eltávolított bázisállomás"
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description" "A SteamVR elvesztette a kapcsolatot az egyik bázisállomásoddal. Kérjük, végezd el újra a szobaelrendezést."
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Action" "Szobaelrendezés elvégzése"
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_Room Setup"
-
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header" "Szobaelrendező"
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description" "Kérjük, végezd el a szobaelrendezést ülő pozíciód beállításához."
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action" "Szobaelrendezés elvégzése"
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_Header" "Szobaelrendező"
-"ChaperoneCalibrationState_Error_Description" "Kérjük, végezd el a szobaelrendezést játékterületed és chaperone határaid beállításához."
-"ChaperoneCalibrationState_Error_Action" "Szobaelrendezés elvégzése"
+ %1 eszk
+ GPU-
+ a fejszetted 
+ a lenti ikonokra, hogy megn
+ akkumul
+ azonos
+ blokkolva lett.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian'>Tov
+ elind
+ eszk
+ fel"
+ friss
+ gombra."
+ haszn
+ hivatkoz
+ illeszt
+ is teheti fejszetted kijelz
+ jelenleg a SteamVR egy m
+ jelenleg k
+ jelenleg nem k
+ jelenleg nincs be
+ jelz
+ konfigur
+ lecsatlakoztatva"
+ lehet
+ nehezen tudja fenntartani a vezet
+ nem 
+ nem k
+ nincs k
+ probl
+ stabil csatlakoztat
+ szolg
+ van telep
+"ChaperoneCalibrationState_Error_Action" "Szobaelrendez
 "ChaperoneCalibrationState_Error_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Header" "Szobaelrendező"
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Description" "Kérjük, végezd el a szobaelrendezést a SteamVR használatának megkezdéséhez."
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Action" "Szobaelrendezés elvégzése"
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_BaseStationConflict_Header" "Szobaelrendező"
-"ChaperoneCalibrationState_Error_BaseStationConflict_Description" "Kérjük, végezd el a szobaelrendezést játékterületed és chaperone határaid újbóli beállításához."
-"ChaperoneCalibrationState_Error_BaseStationConflict_Action" "Szobaelrendezés elvégzése"
+"ChaperoneCalibrationState_Error_BaseStationConflict_Action" "Szobaelrendez
 "ChaperoneCalibrationState_Error_BaseStationConflict_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "Szobaelrendező"
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "Kérjük, végezd el a szobaelrendezést játékterületed és chaperone határaid újbóli beállításához."
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Action" "Szobaelrendezés elvégzése"
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header" "Szobaelrendező"
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description" "Kérjük, végezd el a szobaelrendezést játékterületed és chaperone határaid újbóli beállításához."
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action" "Szobaelrendezés elvégzése"
+"ChaperoneCalibrationState_Error_BaseStationConflict_Description" "K
+"ChaperoneCalibrationState_Error_BaseStationConflict_Header" "Szobaelrendez
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Action" "Szobaelrendez
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Description" "K
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Header" "Szobaelrendez
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action" "Szobaelrendez
 "ChaperoneCalibrationState_Error_CollisionBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"Lighthouse_UnknownEvent_Header" "Bázisállomás-hiba"
-"Lighthouse_UnknownEvent_Description" "Valami baj van a SteamVR követéssel. További információért, kérjük, keresd fel a SteamVR Támogatást."
-"Lighthouse_UnknownEvent_Action" "Több infó"
-"Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Lighthouse_BasestationFactoryError_Header" "Bázisállomás-hiba"
-"Lighthouse_BasestationFactoryError_Description" "Ez a bázisállomás gyári hibás. Kérjük, lépj kapcsolatba a gyártóval csere-bázisállomásért."
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description" "K
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header" "Szobaelrendez
+"ChaperoneCalibrationState_Error_Description" "K
+"ChaperoneCalibrationState_Error_Header" "Szobaelrendez
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Action" "Szobaelrendez
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "K
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "Szobaelrendez
+"ChaperoneCalibrationState_Warning_Action" "Szobaelrendez
+"ChaperoneCalibrationState_Warning_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action" "Szobaelrendez
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description" "
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header" "Szobaelrendez
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Action" "Szobaelrendez
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_Room Setup"
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description" "A SteamVR elvesztette a kapcsolatot az egyik b
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Header" "Elt
+"ChaperoneCalibrationState_Warning_Description" "K
+"ChaperoneCalibrationState_Warning_Header" "Szobaelrendez
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action" "Szobaelrendez
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description" "K
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header" "Szobaelrendez
+"Error_CompositorNotFullscreen_Action" "Teljes k
+"Error_CompositorNotFullscreen_ActionURL" "vrmonitor://makecompositorfullscreen"
+"Error_CompositorNotFullscreen_Description" "Gy
+"Error_CompositorNotFullscreen_Header" "Fejszetthiba"
+"Error_CompositorNotRunning_Action" "SteamVR 
+"Error_CompositorNotRunning_ActionURL" "vrmonitor://restartsystem"
+"Error_CompositorNotRunning_Description" "Jaj, ne! A SteamVR v
+"Error_CompositorNotRunning_Header" "SteamVR hiba"
+"Error_CompositorTooManyRunning_Action" "SteamVR 
+"Error_CompositorTooManyRunning_ActionURL" "vrmonitor://restartsystem"
+"Error_CompositorTooManyRunning_Description" "Jaj, ne! A SteamVR v
+"Error_CompositorTooManyRunning_Header" "SteamVR hiba"
+"Error_HMDDoesNotTrack_Action" "T
+"Error_HMDDoesNotTrack_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#tracking-issues"
+"Error_HMDDoesNotTrack_Description" "Gy
+"Error_HMDDoesNotTrack_Header" "Keres
+"Error_NoChaperoneAvailable_Action" "Szobaelrendez
+"Error_NoChaperoneAvailable_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"Error_NoChaperoneAvailable_Description" "
+"Error_NoChaperoneAvailable_Header" "Szobaelrendez
+"Error_NoCompositorAvailable_Action" "SteamVR 
+"Error_NoCompositorAvailable_ActionURL" "vrmonitor://restartsystem"
+"Error_NoCompositorAvailable_Description" "Jaj, ne! A SteamVR v
+"Error_NoCompositorAvailable_Header" "SteamVR hiba"
+"Error_NoHMDAvailable_Action" "T
+"Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#headset"
+"Error_NoHMDAvailable_Description" "Gy
+"Error_NoHMDAvailable_Header" "Fejszett nem 
+"Error_PrismNotRunning_Action" "SteamVR 
+"Error_PrismNotRunning_ActionURL" "vrmonitor://restartsystem"
+"Error_PrismNotRunning_Description" "Jaj, ne! A SteamVR v
+"Error_PrismNotRunning_Header" "SteamVR hiba"
+"Error_TrackingDevice_NoPose_Action" "T
+"Error_TrackingDevice_NoPose_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#tracking-issues"
+"Error_TrackingDevice_NoPose_Description" "Ez az eszk
+"Error_TrackingDevice_NoPose_Header" "Keres
+"Error_TrackingDevice_NotValid_Action" "
+"Error_TrackingDevice_NotValid_ActionURL" "vrmonitor://restartsystem"
+"Error_TrackingDevice_NotValid_Description" "Gy
+"Error_TrackingDevice_NotValid_Header" "Az eszk
+"Error_VRServerNotRunning_Action" "SteamVR 
+"Error_VRServerNotRunning_ActionURL" "vrmonitor://restartsystem"
+"Error_VRServerNotRunning_Description" "Jaj, ne! A SteamVR v
+"Error_VRServerNotRunning_Header" "SteamVR hiba"
+"Language" "hungarian" 
 "Lighthouse_BasestationFactoryError_Action" "
-"
 "Lighthouse_BasestationFactoryError_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_01_Header" "Bázisállomás-hiba"
-"Lighthouse_BasestationInternalFault_01_Description" "Az egyik bázisállomásodnál belső probléma adódott. Kérjük, húzd ki, majd dugd be a pirosan villogó jelzőfényű bázisállomást. Ha az állapot továbbra is fennáll, vedd fel a kapcsolatot a gyártóval segítségért."
+"Lighthouse_BasestationFactoryError_Description" "Ez a b
+"Lighthouse_BasestationFactoryError_Header" "B
 "Lighthouse_BasestationInternalFault_01_Action" "
-"
 "Lighthouse_BasestationInternalFault_01_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_02_Header" "Bázisállomás-hiba"
-"Lighthouse_BasestationInternalFault_02_Description" "Az egyik bázisállomásnál belső probléma adódott. Kérjük, húzd ki, majd dugd be a pirosan villogó jelzőfényű bázisállomást. Ha az állapot továbbra is fennáll, vedd fel a kapcsolatot a gyártóval segítségért."
+"Lighthouse_BasestationInternalFault_01_Description" "Az egyik b
+"Lighthouse_BasestationInternalFault_01_Header" "B
 "Lighthouse_BasestationInternalFault_02_Action" "
-"
 "Lighthouse_BasestationInternalFault_02_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_03_Header" "Bázisállomás-hiba"
-"Lighthouse_BasestationInternalFault_03_Description" "Az egyik bázisállomásnál belső probléma adódott. Kérjük, húzd ki, majd dugd be a pirosan villogó jelzőfényű bázisállomást. Ha az állapot továbbra is fennáll, vedd fel a kapcsolatot a gyártóval segítségért."
+"Lighthouse_BasestationInternalFault_02_Description" "Az egyik b
+"Lighthouse_BasestationInternalFault_02_Header" "B
 "Lighthouse_BasestationInternalFault_03_Action" "
-"
 "Lighthouse_BasestationInternalFault_03_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_04_Header" "Bázisállomás-hiba"
-"Lighthouse_BasestationInternalFault_04_Description" "Az egyik bázisállomásnál belső probléma adódott. Kérjük, húzd ki, majd dugd be a pirosan villogó jelzőfényű bázisállomást. Ha az állapot továbbra is fennáll, vedd fel a kapcsolatot a gyártóval segítségért."
+"Lighthouse_BasestationInternalFault_03_Description" "Az egyik b
+"Lighthouse_BasestationInternalFault_03_Header" "B
 "Lighthouse_BasestationInternalFault_04_Action" "
-"
 "Lighthouse_BasestationInternalFault_04_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_05_Header" "Bázisállomás-hiba"
-"Lighthouse_BasestationInternalFault_05_Description" "Az egyik bázisállomásnál belső probléma adódott (05-ös hiba). Kérjük, húzd ki, majd dugd be a pirosan villogó jelzőfényű bázisállomást. Ha az állapot továbbra is fennáll, vedd fel a kapcsolatot a gyártóval segítségért."
+"Lighthouse_BasestationInternalFault_04_Description" "Az egyik b
+"Lighthouse_BasestationInternalFault_04_Header" "B
 "Lighthouse_BasestationInternalFault_05_Action" "
-"
 "Lighthouse_BasestationInternalFault_05_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_06_Header" "Bázisállomás-hiba"
-"Lighthouse_BasestationInternalFault_06_Description" "Az egyik bázisállomásnál belső probléma adódott. Kérjük, húzd ki, majd dugd be a pirosan villogó jelzőfényű bázisállomást. Ha az állapot továbbra is fennáll, vedd fel a kapcsolatot a gyártóval segítségért."
+"Lighthouse_BasestationInternalFault_05_Description" "Az egyik b
+"Lighthouse_BasestationInternalFault_05_Header" "B
 "Lighthouse_BasestationInternalFault_06_Action" "
-"
 "Lighthouse_BasestationInternalFault_06_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_07_Header" "Bázisállomás használhatatlan"
-"Lighthouse_BasestationInternalFault_07_Description" "Az egyik bázisállomásnál belső probléma adódott. Kérjük, húzd ki, majd dugd be a pirosan villogó jelzőfényű bázisállomást. Ha az állapot továbbra is fennáll, vedd fel a kapcsolatot a gyártóval segítségért."
+"Lighthouse_BasestationInternalFault_06_Description" "Az egyik b
+"Lighthouse_BasestationInternalFault_06_Header" "B
 "Lighthouse_BasestationInternalFault_07_Action" "
-"
 "Lighthouse_BasestationInternalFault_07_ActionURL" "
-"
-
-"Lighthouse_Disambiguator_TooManyBasestations_Header" "Túl sok bázisállomás"
-"Lighthouse_Disambiguator_TooManyBasestations_Description" "Győződj meg róla, hogy csak két bázisállomás látható a fejszetted és a játékvezérlők számára."
-"Lighthouse_Disambiguator_TooManyBasestations_Action" "Próbáld újra"
-"Lighthouse_Disambiguator_TooManyBasestations_ActionURL" "vrmonitor://lighthouse_check"
-
-"Lighthouse_Disambiguator_TdmConfigurationError_Header" "Bázisállomás-hiba"
-"Lighthouse_Disambiguator_TdmConfigurationError_Description" "A bázisállomásaid nem szinkronizálnak,  győződj meg róla, hogy megfelelően vannak beállítva."
-"Lighthouse_Disambiguator_TdmConfigurationError_Action" "Több infó"
+"Lighthouse_BasestationInternalFault_07_Description" "Az egyik b
+"Lighthouse_BasestationInternalFault_07_Header" "B
+"Lighthouse_Disambiguator_TdmConfigurationError_Action" "T
 "Lighthouse_Disambiguator_TdmConfigurationError_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#base-stations"
-
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header" "Bázisállomás-hiba"
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "A bázisállomásaid „A” és „c” módban vannak. Váltsd át az „A” bázist „b” módra az optikai szinkronizáláshoz."
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "Több infó"
+"Lighthouse_Disambiguator_TdmConfigurationError_Description" "A b
+"Lighthouse_Disambiguator_TdmConfigurationError_Header" "B
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "T
 "Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#base-stations"
-
-"Lighthouse_RecommendControllerUpgradeOverUsb_Header" "Játékvezérlő-frissítés szükséges"
-"Lighthouse_RecommendControllerUpgradeOverUsb_Description" "Egy játékvezérlő nehezen tudja fenntartani a vezeték nélküli kapcsolatot. Csatlakoztasd ezt a játékvezérlőt USB-kábellel, majd frissítsd az eszközt."
-"Lighthouse_RecommendControllerUpgradeOverUsb_Action" "Játékvezérlő frissítése"
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "A b
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header" "B
+"Lighthouse_Disambiguator_TooManyBasestations_Action" "Pr
+"Lighthouse_Disambiguator_TooManyBasestations_ActionURL" "vrmonitor://lighthouse_check"
+"Lighthouse_Disambiguator_TooManyBasestations_Description" "Gy
+"Lighthouse_Disambiguator_TooManyBasestations_Header" "T
+"Lighthouse_RecommendControllerUpgradeOverUsb_Action" "J
 "Lighthouse_RecommendControllerUpgradeOverUsb_ActionURL" "vrmonitor://firmwareupdate/"
-
-"Popover_Off_Invalid_Header" "Az eszköz nincs csatlakozva"
-"Popover_Off_HMD_Header" "Fejszett nem észlelhető"
-"Popover_Off_HMD_Description" "Győződj meg róla, hogy megfelelően van csatlakoztatva."
-"Popover_Off_HMD_Action" "Több infó"
-"Popover_Off_HMD_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#headset"
-
-"Popover_Off_Controller_Header" "A játékvezérlő nem észlelhető"
-"Popover_Off_Controller_Description" "Győződj meg róla, hogy be van kapcsolva és a közelben van."
-"Popover_Off_Controller_Action" "Több infó"
-"Popover_Off_Controller_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#controllers"
-"Popover_Off_Controller_FirstAction" "Játékvezérlő párosítása"
-"Popover_Off_Controller_FirstActionURL" "vrmonitor://pairingwizard"
-
-"Popover_Off_Base_Header" "A bázisállomás nem észlelhető"
-"Popover_Off_Base_Description" "Győződj meg róla, hogy be van kapcsolva és látja a fejszettedet."
-"Popover_Off_Base_Action" "Több infó"
-"Popover_Off_Base_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#base-stations"
-
-"Popover_Off_Tracker_Header" "Követő nem észlelhető"
-"Popover_Off_Tracker_Action" "Több infó"
-"Popover_Off_Tracker_ActionURL" "https://community.viveport.com/t5/Technical-Support/bd-p/technical-support"
-
-"Popover_NotReady_Invalid_Header" "Az eszköz nincs kész"
-"Popover_NotReady_Invalid_Action" "Több infó"
-"Popover_NotReady_Invalid_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian"
-
-"Popover_NotReady_HMD_Header" "A fejszett nincs kész"
-"Popover_NotReady_Controller_Header" "A játékvezérlő nincs kész"
-"Popover_NotReady_Controller_Description" "Győződj meg róla, hogy be van kapcsolva és a közelben van."
-"Popover_NotReady_Base_Header" "A bázisállomás nincs kész"
-"Popover_NotReady_Tracker_Header" "A követő nem kész"
-"Popover_Pose_Invalid_Header" "Eszköz aktív"
-"Popover_Pose_Invalid_Description" "Ez a fel nem ismert eszköz jelenleg követ."
-"Popover_Pose_Invalid_Action" "Több infó"
-"Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Popover_Pose_HMD_Header" "Fejszett aktív"
-"Popover_Pose_HMD_Description" "A fejszetted jelenleg követ."
-"Popover_Pose_Controller_Header" "Játékvezérlő aktív"
-"Popover_Pose_Controller_Description" "Ez a játékvezérlő jelenleg követ."
-"Popover_Pose_Controller_Action" "Játékvezérlő azonosítása"
-"Popover_Pose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_Pose_Base_Header" "Bázisállomás aktív"
-"Popover_Pose_Base_Description" "Ez a bázisállomás jelenleg követ."
-"Popover_Pose_Base_Action" "Bázisállomás azonosítása"
-"Popover_Pose_Base_ActionURL" "vrmonitor://identifybasestation/?index=%1"
-
-"Popover_Pose_Tracker_Header" "Követő aktív"
-"Popover_Pose_Tracker_Description" "Ez az eszköz jelenleg követ."
-"Popover_NoPose_Invalid_Header" "Nem követ"
-"Popover_NoPose_Invalid_Description" "Ez az eszköz nincs felismerve és jelenleg nem követ."
-"Popover_NoPose_Invalid_Action" "Több infó"
-"Popover_NoPose_Invalid_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
-
-"Popover_NoPose_HMD_Header" "Keresés..."
-"Popover_NoPose_HMD_Description" "Ez a fejszett jelenleg nem követ. Győződj meg róla, hogy egy bázisállomás látóterében van."
-"Popover_NoPose_HMD_Action" "Több infó"
-"Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoPose_Controller_Header" "Keresés..."
-"Popover_NoPose_Controller_Description" "Ez a játékvezérlő jelenleg nem követ. Győződj meg róla, hogy egy bázisállomás látóterében van."
-"Popover_NoPose_Controller_Action" "Játékvezérlő azonosítása"
-"Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_NoPose_Base_Header" "Keresés..."
-"Popover_NoPose_Base_Description" "Ez a bázisállomás jelenleg nem követ eszközt. Győződj meg róla, hogy a fejszetted a látóterében van."
-"Popover_NoPose_Base_Action" "Több infó"
-"Popover_NoPose_Base_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoPose_Tracker_Header" "Keresés..."
-"Popover_NoPose_Tracker_Description" "Ez az eszköz jelenleg nem követ. Győződj meg róla, hogy egy bázisállomás látóterében van."
-"Popover_NoPose_Tracker_Action" "Több infó"
-"Popover_NoPose_Tracker_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Popover_Standby_Invalid_Header" "Készenlétben"
-"Popover_Standby_Invalid_Description" "Ez az eszköz készenlétben áll."
-"Popover_Standby_HMD_Header" "Fejszett készenlétben"
-"Popover_Standby_HMD_Description" "Mozgasd meg fejszettedet annak felébresztéséhez."
-"Popover_Standby_Controller_Header" "Játékvezérlő készenlétben"
-"Popover_Standby_Controller_Description" "Mozgasd meg játékvezérlőd a felébresztéséhez."
-"Popover_Standby_Base_Header" "Bázisállomás készenlétben"
-"Popover_Standby_Base_Description" "E bázisállomás felébresztéséhez kezdd használni a VR-t."
-"Popover_Standby_Tracker_Header" "Követő készenlétben"
-"Popover_Standby_Tracker_Description" "Mozgasd meg követődet annak felébresztéséhez."
-"Popover_LowBattery_HMD_Header" "Fejszett töltöttség alacsony"
-"Popover_LowBattery_HMD_Description" "E fejszett akkumulátortöltöttsége alacsony."
-"Popover_LowBattery_Controller_Header" "Játékvezérlő töltöttség alacsony"
-"Popover_LowBattery_Controller_Description" "E játékvezérlő akkumulátortöltöttsége alacsony."
-"Popover_LowBattery_Controller_Action" "Játékvezérlő azonosítása"
-"Popover_LowBattery_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_LowBattery_Tracker_Header" "Követő töltöttség alacsony"
-"Popover_LowBattery_Tracker_Description" "E követő akkumulátortöltöttsége alacsony."
-"Popover_BaseStationNoPowerManagement_Header" "Energiagazdálkodás"
-"Popover_BaseStationNoPowerManagement_Description" "Ezt a bázisállomást nem távvezérelt energiagazdálkodás támogatásához tervezték."
-"Popover_BaseStationNoPowerManagement_Action" "Több infó"
+"Lighthouse_RecommendControllerUpgradeOverUsb_Description" "Egy j
+"Lighthouse_RecommendControllerUpgradeOverUsb_Header" "J
+"Lighthouse_UnknownEvent_Action" "T
+"Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Lighthouse_UnknownEvent_Description" "Valami baj van a SteamVR k
+"Lighthouse_UnknownEvent_Header" "B
+"Popover_BaseStationNoPowerManagement_Action" "T
 "Popover_BaseStationNoPowerManagement_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoSteamWarning_Header" "Steam hiba"
-"Popover_NoSteamWarning_Description" "Győződj meg róla, hogy a Steam telepítve van és fut."
-"Popover_NoSteamWarning_Action" "Steam indítása"
-"Popover_NoSteamWarning_ActionURL" "vrmonitor://startsteam"
-
-"Popover_FirmwareUpdateNeededWarning_Header" "Frissítés érhető el"
-"Popover_FirmwareUpdateNeededWarning_Description" "Ideje frissíteni ezt az eszközt."
-"Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate" "Eszköz frissítése"
-"Popover_FirmwareUpdateNeededWarning_Action" "Több infó"
-"Popover_FirmwareUpdateNeededWarning_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Popover_ConnectionRefusedBySteam_Header" "Steam hiba"
-"Popover_ConnectionRefusedBySteam_Description" "A SteamVR problémába ütközött a Steamhez kapcsolódáskor. Kérjük, indítsd újra a Steamet és próbáld újra."
-"Popover_ConnectionRefusedBySteam_Action" "Több infó"
-"Popover_ConnectionRefusedBySteam_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Popover_DirectModeDriverUpdate_Header" "Video-illesztőprogram frissítése"
-"Popover_DirectModeDriverUpdate_Description" "A közvetlen megjelenítési mód bekapcsolásához frissítsd videó-illesztőprogramjaidat. A(z) %1 verzió van telepítve, de a közvetlen megjelenítési mód a(z) %2 verziót igényli."
-"Popover_DirectModeDriverUpdate_Action" "Illesztőprogramok letöltése"
-"Popover_DirectModeDriverUpdate_ActionURL_NVIDIA" "http://www.nvidia.com/Download/index.aspx"
-"Popover_DirectModeDriverUpdate_ActionURL_AMD" "http://support.amd.com/en-us/download"
-
-"Popover_BaseStationsTooFarApart_Header" "VR-elrendezési figyelmeztetés"
-"Popover_BaseStationsTooFarApart_Description" "A bázisállomásaid %1 méterre vannak egymástól. A legjobb eredmény érdekében vedd fontolóra az áthelyezésüket, hogy ne legyenek egymástól 5,5 méternél távolabb."
-"Popover_BaseStationsTooFarApart_Action" "Több infó"
+"Popover_BaseStationNoPowerManagement_Description" "Ezt a b
+"Popover_BaseStationNoPowerManagement_Header" "Energiagazd
+"Popover_BaseStationsTooFarApart_Action" "T
 "Popover_BaseStationsTooFarApart_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Popover_SeeOnlyOneBase_Header" "Csak egy bázisállomás látható"
-"Popover_SeeOnlyOneBase_Description" "Ha csak egy bázisállomással használod a SteamVR-t, e bázis „A” módra váltása jobb követési eredményt ad."
-"Popover_SeeOnlyOneBase_Action" "Több infó"
+"Popover_BaseStationsTooFarApart_Description" "A b
+"Popover_BaseStationsTooFarApart_Header" "VR-elrendez
+"Popover_ConnectionRefusedBySteam_Action" "T
+"Popover_ConnectionRefusedBySteam_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Popover_ConnectionRefusedBySteam_Description" "A SteamVR probl
+"Popover_ConnectionRefusedBySteam_Header" "Steam hiba"
+"Popover_DirectModeDriverUpdate_Action" "Illeszt
+"Popover_DirectModeDriverUpdate_ActionURL_AMD" "http://support.amd.com/en-us/download"
+"Popover_DirectModeDriverUpdate_ActionURL_NVIDIA" "http://www.nvidia.com/Download/index.aspx"
+"Popover_DirectModeDriverUpdate_Description" "A k
+"Popover_DirectModeDriverUpdate_Header" "Video-illeszt
+"Popover_FirmwareUpdateNeededWarning_Action" "T
+"Popover_FirmwareUpdateNeededWarning_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate" "Eszk
+"Popover_FirmwareUpdateNeededWarning_Description" "Ideje friss
+"Popover_FirmwareUpdateNeededWarning_Header" "Friss
+"Popover_LowBattery_Controller_Action" "J
+"Popover_LowBattery_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_LowBattery_Controller_Description" "E j
+"Popover_LowBattery_Controller_Header" "J
+"Popover_LowBattery_HMD_Description" "E fejszett akkumul
+"Popover_LowBattery_HMD_Header" "Fejszett t
+"Popover_LowBattery_Tracker_Description" "E k
+"Popover_LowBattery_Tracker_Header" "K
+"Popover_NoPose_Base_Action" "T
+"Popover_NoPose_Base_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_Base_Description" "Ez a b
+"Popover_NoPose_Base_Header" "Keres
+"Popover_NoPose_Controller_Action" "J
+"Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_NoPose_Controller_Description" "Ez a j
+"Popover_NoPose_Controller_Header" "Keres
+"Popover_NoPose_HMD_Action" "T
+"Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_HMD_Description" "Ez a fejszett jelenleg nem k
+"Popover_NoPose_HMD_Header" "Keres
+"Popover_NoPose_Invalid_Action" "T
+"Popover_NoPose_Invalid_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
+"Popover_NoPose_Invalid_Description" "Ez az eszk
+"Popover_NoPose_Invalid_Header" "Nem k
+"Popover_NoPose_Tracker_Action" "T
+"Popover_NoPose_Tracker_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_Tracker_Description" "Ez az eszk
+"Popover_NoPose_Tracker_Header" "Keres
+"Popover_NoSteamWarning_Action" "Steam ind
+"Popover_NoSteamWarning_ActionURL" "vrmonitor://startsteam"
+"Popover_NoSteamWarning_Description" "Gy
+"Popover_NoSteamWarning_Header" "Steam hiba"
+"Popover_NotReady_Base_Header" "A b
+"Popover_NotReady_Controller_Description" "Gy
+"Popover_NotReady_Controller_Header" "A j
+"Popover_NotReady_HMD_Header" "A fejszett nincs k
+"Popover_NotReady_Invalid_Action" "T
+"Popover_NotReady_Invalid_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian"
+"Popover_NotReady_Invalid_Header" "Az eszk
+"Popover_NotReady_Tracker_Header" "A k
+"Popover_Off_Base_Action" "T
+"Popover_Off_Base_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#base-stations"
+"Popover_Off_Base_Description" "Gy
+"Popover_Off_Base_Header" "A b
+"Popover_Off_Controller_Action" "T
+"Popover_Off_Controller_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#controllers"
+"Popover_Off_Controller_Description" "Gy
+"Popover_Off_Controller_FirstAction" "J
+"Popover_Off_Controller_FirstActionURL" "vrmonitor://pairingwizard"
+"Popover_Off_Controller_Header" "A j
+"Popover_Off_HMD_Action" "T
+"Popover_Off_HMD_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#headset"
+"Popover_Off_HMD_Description" "Gy
+"Popover_Off_HMD_Header" "Fejszett nem 
+"Popover_Off_Invalid_Header" "Az eszk
+"Popover_Off_Tracker_Action" "T
+"Popover_Off_Tracker_ActionURL" "https://community.viveport.com/t5/Technical-Support/bd-p/technical-support"
+"Popover_Off_Tracker_Header" "K
+"Popover_Pose_Base_Action" "B
+"Popover_Pose_Base_ActionURL" "vrmonitor://identifybasestation/?index=%1"
+"Popover_Pose_Base_Description" "Ez a b
+"Popover_Pose_Base_Header" "B
+"Popover_Pose_Controller_Action" "J
+"Popover_Pose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_Pose_Controller_Description" "Ez a j
+"Popover_Pose_Controller_Header" "J
+"Popover_Pose_HMD_Description" "A fejszetted jelenleg k
+"Popover_Pose_HMD_Header" "Fejszett akt
+"Popover_Pose_Invalid_Action" "T
+"Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Popover_Pose_Invalid_Description" "Ez a fel nem ismert eszk
+"Popover_Pose_Invalid_Header" "Eszk
+"Popover_Pose_Tracker_Description" "Ez az eszk
+"Popover_Pose_Tracker_Header" "K
+"Popover_SeeOnlyOneBase_Action" "T
 "Popover_SeeOnlyOneBase_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/?l=hungarian"
-
-"Warning_DismissableWarning_RunTutorialAgain_Header" "Szobaelrendező és Oktatás"
-"Warning_DismissableWarning_RunTutorialAgain_Description" "A Szobaelrendezőt vagy az Oktatást bármikor újra használhatod az alábbi SteamVR menüből."
-"Warning_DismissableWarning_RunTutorialAgain_Action" "Több infó"
-"Warning_DismissableWarning_RunTutorialAgain_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_BasestationsTooFarApart_Header" "VR-elrendezési figyelmeztetés"
-"Warning_DismissableWarning_BasestationsTooFarApart_Description" "Bázisállomásaid a javasoltnál távolabb vannak egymástól. A legjobb eredmény érdekében vedd fontolóra az áthelyezésüket, hogy ne legyenek egymástól 5,5 méternél távolabb."
-"Warning_DismissableWarning_BasestationsTooFarApart_Action" "Több infó"
-"Warning_DismissableWarning_BasestationsTooFarApart_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Header" "Bázisállomás-hiba"
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description" "Lehet, hogy valami blokkolja a láthatóságot a bázisállomásaid között. Ha ez a figyelmeztetés továbbra is fennáll munkameneteid között, érdemes megfontolni a kábeles szinkronizálásra váltást."
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action" "Több infó"
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#base-stations"
-
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header" "Csak egy bázisállomás észlelhető"
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "Ha csak egy bázisállomást használsz, a követési minőség javulni fog, ha átváltod e bázisállomást „A” módba."
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" "Több infó"
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/?l=hungarian"
-
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Header" "Bázisállomás-beállítási hiba"
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description" "A SteamVR több bázisállomást észlelt a(z) %1 csatornára állítva. A legjobb eredményhez használj egyedi csatornát minden olyan bázisállomáshoz, amely egyszerre látható."
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" "Konfigurálás"
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" "vrmonitor://open/settings/basestation/configurechannels"
-
-"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Egyes kiegészítők blokkolva"
-"Warning_DismissableWarning_SteamVRInSafeMode_Description" "Egy közelmúltbeli összeomlás <span>miatt</span> néhány SteamVR kiegészítő blokkolva lett.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian'>További információ</a>."
-"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Kiegészítők kezelése"
-"Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
-
-"Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR frissítés"
-"Warning_DismissableWarning_SteamVRUpdated_Description" "A SteamVR frissítve lett a(z) %2 verzióra."
-"Warning_DismissableWarning_SteamVRUpdated_Action" "Változások megnézése"
-"Warning_DismissableWarning_SteamVRUpdated_ActionURL" "%1"
-
-"Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Eszközinformáció"
-"Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Mutass rá a lenti ikonokra, hogy megnézd az adatokat és állapotot minden eszközről. Ha az eszközöd frissítést igényel, egy (i) fog megjelenni az ikon fölött."
-"Warning_DismissableWarning_WarningsForTheFirstTime_Action" "Több infó"
-"Warning_DismissableWarning_WarningsForTheFirstTime_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_MissedFrames_Header" "Alkalmazáshiba"
-"Warning_DismissableWarning_MissedFrames_Description" "A jelenlegi VR alkalmazás túl lassan fut, ami elégtelen élményt eredményezhet. Ez lehet azért, mert az alkalmazás megterhelő, vagy mert a számítógéped túl lassú."
-"Warning_DismissableWarning_MissedFrames_Action" "Több infó"
-"Warning_DismissableWarning_MissedFrames_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header" "Bluetooth-hiba"
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description" "A Link Box telepítésének befejezéséhez telepíteni kell egy illesztőprogramot."
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action" "Bluetooth-beállítások"
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Header" "Bluetooth-hiba"
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Description" "A Link Box telepítésének befejezéséhez frissíteni kell egy illesztőprogramot."
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Action" "Bluetooth-beállítások"
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header" "Bluetooth-hiba"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description" "Ellenőrizd a Link Box csatlakozásait, húzd ki és dugd be a tápkábelt a Link Boxba annak alaphelyzetbe állításához, majd indítsd újra a SteamVR-t."
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action" "Bluetooth-beállítások"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Header" "Bluetooth-hiba"
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Description" "A SteamVR felfedezte, hogy néhány létfontosságú fájl mintha hiányozna. Kérjük, telepítsd újra a SteamVR-t."
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action" "Több infó"
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"Warning_DismissableWarning_BluetoothLinkServiceError_Header" "Bluetooth-hiba"
-"Warning_DismissableWarning_BluetoothLinkServiceError_Description" "A SteamVR váratlan hibát észlelt a Bluetooth rendszerben."
-"Warning_DismissableWarning_BluetoothLinkServiceError_Action" "Bluetooth-beállítások"
-"Warning_DismissableWarning_BluetoothLinkServiceError_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Header" "Kijelzőhiba"
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Description" "Úgy tűnik, kijelződ a tartalmának tükrözésére van állítva. Ez hathat grafikai teljesítményedre, vagy akár használhatatlanná is teheti fejszetted kijelzőjét."
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Action" "Kijelzőtulajdonságok"
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_ActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
-
-"Warning_DismissableWarning_UnknownHardwareDetected_Header" "Új eszköz észlelve"
-"Warning_DismissableWarning_UnknownHardwareDetected_Description" "Gratulálunk új hardveredhez! Kérjük, nézd át az eszköz telepítési útmutatóját, hogy a SteamVR megfelelően észlelni tudja."
-"Warning_DismissableWarning_UnknownHardwareDetected_Action" "Több infó"
-"Warning_DismissableWarning_UnknownHardwareDetected_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_WindowsAeroDisabled_Header" "Teljesítményoptimalizálás"
-"Warning_DismissableWarning_WindowsAeroDisabled_Description" "A legjobb teljesítményhez VR futtatásakor válts Aero témára a Windows Személyre szabás beállításaiban."
-"Warning_DismissableWarning_WindowsAeroDisabled_Action" "Személyre szabási beállítások"
-"Warning_DismissableWarning_WindowsAeroDisabled_ActionURL" "vrmonitor://controlpanel/Microsoft.Personalization"
-
-"Warning_DismissableWarning_Windows8_Header" "Ideje frissíteni a Windowst"
-"Warning_DismissableWarning_Windows8_Description" "A SteamVR nem támogatott Windows 8-on. Kérjük, frissíts Windows 8.1-re vagy Windows 10-re a legjobb eredményhez."
-"Warning_DismissableWarning_Windows8_Action" "Több infó"
-"Warning_DismissableWarning_Windows8_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_DisplayInExtendedMode_Header" "Megjegyzés a fejszetthez"
-"Warning_DismissableWarning_DisplayInExtendedMode_Description" "A SteamVR azt észlelte, hogy fejszetted monitorként működik. A legjobb eredményhez kérjük, válts közvetlen megjelenítési módra."
-"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Közvetlen megjelenítési mód engedélyezése"
-"Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
-
-"Warning_DismissableWarning_IssuesWithOneDongle_Header" "Fejszetthiba"
-"Warning_DismissableWarning_IssuesWithOneDongle_Description" "Az egyik vezeték nélküli vevőegység a fejszettedben nem észlelhető. Ez kapcsolati problémákat okozhat VR játékvezérlőidnél."
-"Warning_DismissableWarning_IssuesWithOneDongle_Action" "Több infó"
-"Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#wireless-receivers"
-
-"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Vezeték nélküli vevőegységek nem találhatók"
-"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "A vezeték nélküli vevőegységek a fejszettedben nem észlelhetők. Ez kapcsolati problémákat okozhat VR játékvezérlőidnél."
-"Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Több infó"
-"Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#wireless-receivers"
-
-"Warning_DismissableWarning_NewDriverInstalled_Header" "Függő eszközfrissítés"
-"Warning_DismissableWarning_NewDriverInstalled_Description" "Frissített eszközöd használatához indítsd újra a SteamVR-t."
-"Warning_DismissableWarning_NewDriverInstalled_Action" "SteamVR újraindítása"
-"Warning_DismissableWarning_NewDriverInstalled_ActionURL" "vrmonitor://restartsystem"
-
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Header" "Helytelen videokártya"
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Description" "Kérjük, fejszettedet ugyanahhoz a videokártyához csatlakoztasd, mint az elsődleges kijelződet."
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Action" "Több infó"
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Header" "Video-illesztőprogram frissítése"
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Description" "A SteamVR naprakész video-illesztőprogramokkal működik a legjobban. Javasoljuk, hogy frissítsd most a rendszeredet."
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Több infó"
-"Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
-
-"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Video-illesztőprogram frissítése"
-"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Jelenlegi video-illesztőprogramodnak olyan ismert problémája van, ami lefagyaszthatja a PC-det. Kérjük, telepítsd az alább hivatkozott legújabb gyorsjavítást."
-"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Több infó"
-"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
-
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Fejszett lecsatlakoztatva"
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Fejszetted kijelzőkábele kihúzódott. Ellenőrizd fejszetted csatlakozását, majd próbáld újra."
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Több infó"
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "Kábel a fejszettnél leválasztva"
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "A fejszetted kábele leválasztódott a fejszettnél. Kérjük, biztosítsd az arcpárna mögötti csatlakozás megfelelő rögzítését."
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Több infó"
-"Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Fejszettkapcsolódási hiba"
-"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Probléma van a kijelzőkapcsolattal. Kérjük, csatlakoztasd le a fejszetted, majd csatlakoztasd újra. Megpróbálhatod újraindítani a SteamVR-t is."
-"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "SteamVR újraindítása"
-"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
-
-"Warning_DismissableWarning_HDCPError_Header" "SteamVR hiba"
-"Warning_DismissableWarning_HDCPError_Description" "A <span>GPU</span>-d nem tud kommunikálni a HMD-vel, ami HDCP-hibát okoz. Próbáld eltávolítani a kábeladaptereket vagy -hosszabbítókat, ha használsz ilyet. Próbálj meg egy másik portot a GPU-don, ha van rajta. <b>Használd a lenti alaphelyzetbe állítás gombot a HMD alaphelyzetbe állításához, hogy a GPU újrapróbálja a kapcsolódást.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=hungarian'>További információ</a>."
-"Warning_DismissableWarning_HDCPError_Action" "Fejszett alaphelyzetbe"
-"Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
-
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "SteamVR hiba"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "A <span>GPU</span>-d nem tud kommunikálni a HMD-vel, ami HDCP-hibát okoz. Próbáld eltávolítani a kábeladaptereket vagy -hosszabbítókat, ha használsz ilyet. Próbálj meg egy másik portot a GPU-don, ha van rajta.<p><b>Használd a lenti gombot az 1.4-es hagyományos HDCP kompatibilitási módra váltáshoz és a SteamVR ÚJRAINDÍTÁSÁHOZ.</b>"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "Újraindítás (HDCP)"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
-
-"Warning_DismissableWarning_OutOfVideoMemory_Header" "Kevés a videomemória"
-"Warning_DismissableWarning_OutOfVideoMemory_Description" "A rendszered videomemóriája fogytán van, ami gyenge teljesítményt eredményez. Próbálj kilépni a jelenlegi alkalmazásból, vagy indítsd újra a SteamVR-t."
-"Warning_DismissableWarning_OutOfVideoMemory_Action" "Több infó"
-"Warning_DismissableWarning_OutOfVideoMemory_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Header" "Magasabb képfrissítési ütemre váltasz?"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Description" "Fejszetted több képfrissítési ütemet is támogat!<br>Jelenleg <b>másodpercenként %1 képkockára</b> van beállítva. Szeretnél <b>%2</b> FPS-re váltani?<br><br><i>Hogy a GPU terhelése ne változzon, a(z) %5 alkalmazás felbontása %3% értékről %4% értékre lesz változtatva. Ezt és mást is megváltoztathatsz a Beállítások > Kép menüben.</i>"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Action" "Váltás és újraindítás"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL" "vrmonitor://refreshrate/switch"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended" "automatikus"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden" "egyedi"
-
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Header" "Befejezetlen eszközfrissítés"
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description" "Egy bázisállomás-frissítés megszakadt vagy nem fejeződött be. Az eljárás megkezdéséhez kattints a „Helyreállítás” gombra."
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action" "Helyreállítás"
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
-
-"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header" "Az eszköz már nem támogatott"
-"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description" "<font color=#aaaa00>Gyártás-előkészítő %1 eszközöd már nem támogatott.</font> <br><br> Ez az eszköz többet nem fog firmware-frissítéseket kapni, és csökkent működőképesség várható. Kérjük, cseréld ki, amint tudod. <br><br>(Hardverazonosító: %2)"
-"Warning_OpenXRDefaultRuntimePrompt_NotSet" "Az OpenXR futásidejű jelenleg nincs beállítva."
-"Warning_OpenXRDefaultRuntimePrompt_AnotherSteamVR" "Az OpenXR futásidejű jelenleg a SteamVR egy másik verziójára van beállítva."
-
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header" "A SteamVR nincs beállítva alapértelmezett OpenXR futásidejűként."
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Description" "Ez megakadályozhatja egyes alkalmazások megfelelő elindítását. %1"
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action" "Alapértelmezettre"
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL" "vrmonitor://openxr/makedefault"
-
-"Warning_DismissableWarning_EnableAppContainers_Header" "A SteamVR-nek be kell állítania magát az alkalmazástárolókhoz."
-"Warning_DismissableWarning_EnableAppContainers_Description" "Ez szükséges ahhoz, hogy engedélyezhesd a webböngészőknek tartalmak mutatását fejszetted kijelzőjén."
-"Warning_DismissableWarning_EnableAppContainers_Action" "Engedélyek frissítése"
-"Warning_DismissableWarning_EnableAppContainers_ActionURL" "vrmonitor://steamvr/setappcontainerpermissions"
-
-"Warning_DismissableWarning_InstallWMRPrompt_Header" "Windows Mixed Reality illesztőprogram telepítése?"
-"Warning_DismissableWarning_InstallWMRPrompt_Description" "A Windows Mixed Reality fejszettek SteamVR-en működtetéséhez illesztőprogram szükséges."
-"Warning_DismissableWarning_InstallWMRPrompt_Action" "Telepítés"
-"Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
-
-"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "VIVE Pro 2 illesztőprogam telepítése?"
-"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "A VIVE Pro 2 fejszett SteamVR-en működtetéséhez illesztőprogram szükséges."
-"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Telepítés"
-"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
-
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Kijelzőcsatlakozási probléma"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Videokártyád nem tud csatlakozni HMD kijelződhöz. Próbáld meg eltávolítani a használt kábeladaptereket vagy -hosszabbítókat. Próbálj ki egy másik csatlakozót a videokártyádon, ha van. <b>Használd a lenti alaphelyzetbe állító hivatkozást a HMD alaphelyzetbe állításához, hogy a videokártya újrapróbálja.</b>"
+"Popover_SeeOnlyOneBase_Description" "Ha csak egy b
+"Popover_SeeOnlyOneBase_Header" "Csak egy b
+"Popover_Standby_Base_Description" "E b
+"Popover_Standby_Base_Header" "B
+"Popover_Standby_Controller_Description" "Mozgasd meg j
+"Popover_Standby_Controller_Header" "J
+"Popover_Standby_HMD_Description" "Mozgasd meg fejszettedet annak fel
+"Popover_Standby_HMD_Header" "Fejszett k
+"Popover_Standby_Invalid_Description" "Ez az eszk
+"Popover_Standby_Invalid_Header" "K
+"Popover_Standby_Tracker_Description" "Mozgasd meg k
+"Popover_Standby_Tracker_Header" "K
+"SteamVRServiceNeedsInstallation_Action" "T
+"SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"SteamVRServiceNeedsInstallation_Description" "Az enged
+"SteamVRServiceNeedsInstallation_FirstAction" "Telep
+"SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
+"SteamVRServiceNeedsInstallation_Header" "SteamVR szolg
+"Tokens"
+"VRInitError_Compositor_D3D11HardwareRequired_Action" "T
+"VRInitError_Compositor_D3D11HardwareRequired_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Compositor_D3D11HardwareRequired_Description" "A SteamVR nem tal
+"VRInitError_Compositor_D3D11HardwareRequired_Header" "Ideje fejleszteni"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action" "T
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL" "https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=hungarian"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Videok
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Fejszett alaphelyzetbe"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action" "Több infó"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL" "https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=hungarian"
-
-"SteamVRServiceNeedsInstallation_Header" "SteamVR szolgáltatás telepítése"
-"SteamVRServiceNeedsInstallation_Description" "Az engedélyedre van szükség a segítő szolgáltatás telepítéséhez. Kérjük, kattints az alábbi hivatkozásra, majd válaszd az „Igent” a „Felhasználó fiókok felügyelete” kérdésére."
-"SteamVRServiceNeedsInstallation_FirstAction" "Telepítés"
-"SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
-"SteamVRServiceNeedsInstallation_Action" "Több infó"
-"SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Kérjük, játék közben húzd ki a játékvezérlőket."
-"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "A töltőkábel ferdén kihúzása a játékvezérlő károsodását okozhatja."
-"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "További részletek"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Kijelz
+"VRInitError_Compositor_FirmwareRequiresUpdate_Action" "Fejszett friss
+"VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
+"VRInitError_Compositor_FirmwareRequiresUpdate_Description" "A fejszetted 
+"VRInitError_Compositor_FirmwareRequiresUpdate_Header" "Ideje friss
+"VRInitError_Compositor_UnableToCreateDevice_Action" "T
+"VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"VRInitError_Compositor_UnableToCreateDevice_Description" "Lehet, hogy friss
+"VRInitError_Compositor_UnableToCreateDevice_Header" "SteamVR grafikai hiba"
+"VRInitError_Driver_CalibrationInvalid_Action" "T
+"VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_CalibrationInvalid_Description" "A SteamVR-nek neh
+"VRInitError_Driver_CalibrationInvalid_Header" "Fejszetthiba"
+"VRInitError_Driver_Failed_Action" "T
+"VRInitError_Driver_Failed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_Failed_Description" "A SteamVR hib
+"VRInitError_Driver_Failed_Header" "SteamVR hiba"
+"VRInitError_Driver_HmdDisplayMirrored_Action" "T
+"VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#headset"
+"VRInitError_Driver_HmdDisplayMirrored_Description" "A fejszett kijelz
+"VRInitError_Driver_HmdDisplayMirrored_FirstAction" "Kijelz
+"VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
+"VRInitError_Driver_HmdDisplayMirrored_Header" "Fejszett-kijelz
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "T
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "K
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Fejszett alaphelyzetbe"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Laptop: Fejszettkijelz
+"VRInitError_Driver_HmdDisplayNotFound_Action" "T
+"VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_HmdDisplayNotFound_Description" "K
+"VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Fejszett alaphelyzetbe"
+"VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
+"VRInitError_Driver_HmdDisplayNotFound_Header" "Fejszettkijelz
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Action" "T
+"VRInitError_Driver_HmdDriverIdOutOfBounds_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Gy
+"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction" "Fejszett alaphelyzetbe"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Fejszett nem 
+"VRInitError_Driver_HmdInUse_Action" "Pr
+"VRInitError_Driver_HmdInUse_ActionURL" "vrmonitor://refresh"
+"VRInitError_Driver_HmdInUse_Description" "A fejszettedet egy m
+"VRInitError_Driver_HmdInUse_Header" "SteamVR hiba"
+"VRInitError_Driver_HmdUnknown_Action" "Jav
+"VRInitError_Driver_HmdUnknown_ActionURL" "vrmonitor://unsetforcedhmd"
+"VRInitError_Driver_HmdUnknown_Description" "A SteamVR neh
+"VRInitError_Driver_HmdUnknown_Header" "Fejszett nem ismerhet
+"VRInitError_Driver_NotCalibrated_Action" "T
+"VRInitError_Driver_NotCalibrated_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_NotCalibrated_Description" "A SteamVR-nek neh
+"VRInitError_Driver_NotCalibrated_Header" "Eszk
+"VRInitError_Driver_NotLoaded_Action" "T
+"VRInitError_Driver_NotLoaded_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"VRInitError_Driver_NotLoaded_Description" "A SteamVR-hez sz
+"VRInitError_Driver_NotLoaded_Header" "SteamVR hiba"
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "T
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Az aktu
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Hi
+"VRInitError_Driver_RuntimeOutOfDate_Action" "L
+"VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_Driver_RuntimeOutOfDate_Description" "Oculus szoftvered elavultnak t
+"VRInitError_Driver_RuntimeOutOfDate_Header" "SteamVR hiba"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "T
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#tracking-issues"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description" "Az ezen eszk
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header" "Eszk
+"VRInitError_Driver_Unknown_Action" "Jav
+"VRInitError_Driver_Unknown_ActionURL" "vrmonitor://unsetforceddriver"
+"VRInitError_Driver_Unknown_Description" "A SteamVR eszk
+"VRInitError_Driver_Unknown_Header" "SteamVR hiba"
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "A SteamVR vezet
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "V
+"VRInitError_IPC_CompositorConnectFailed_Action" "T
+"VRInitError_IPC_CompositorConnectFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_CompositorConnectFailed_Description" "A SteamVR egyik kulcs
+"VRInitError_IPC_CompositorConnectFailed_Header" "SteamVR hiba"
+"VRInitError_IPC_CompositorInitFailed_Action" "T
+"VRInitError_IPC_CompositorInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"VRInitError_IPC_CompositorInitFailed_Description" "A SteamVR egyik kulcs
+"VRInitError_IPC_CompositorInitFailed_Header" "Valami baj van"
+"VRInitError_IPC_CompositorInvalidConnectResponse_Action" "T
+"VRInitError_IPC_CompositorInvalidConnectResponse_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_CompositorInvalidConnectResponse_Description" "A SteamVR egyik kulcs
+"VRInitError_IPC_CompositorInvalidConnectResponse_Header" "SteamVR hiba"
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "T
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description" "A SteamVR egyik kulcs
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header" "SteamVR hiba"
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "T
+"VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "A SteamVR egyik kulcs
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Header" "SteamVR hiba"
+"VRInitError_IPC_ConnectFailed_Action" "T
+"VRInitError_IPC_ConnectFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=40&return_nodeid=71"
+"VRInitError_IPC_ConnectFailed_Description" "A SteamVR egyik kulcs
+"VRInitError_IPC_ConnectFailed_Header" "SteamVR hiba"
+"VRInitError_IPC_Failed_Action" "T
+"VRInitError_IPC_Failed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=77&return_nodeid=71"
+"VRInitError_IPC_Failed_Description" "V
+"VRInitError_IPC_Failed_Header" "SteamVR hiba"
+"VRInitError_IPC_MutexInitFailed_Action" "T
+"VRInitError_IPC_MutexInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"VRInitError_IPC_MutexInitFailed_Description" "A SteamVR egyik kulcs
+"VRInitError_IPC_MutexInitFailed_Header" "Valami baj van"
+"VRInitError_IPC_NamespaceUnavailable_Action" "T
+"VRInitError_IPC_NamespaceUnavailable_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_NamespaceUnavailable_Description" "A SteamVR egyik kulcs
+"VRInitError_IPC_NamespaceUnavailable_Header" "SteamVR hiba"
+"VRInitError_IPC_ServerInitFailed_Action" "T
+"VRInitError_IPC_ServerInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"VRInitError_IPC_ServerInitFailed_Description" "A SteamVR egyik kulcs
+"VRInitError_IPC_ServerInitFailed_Header" "SteamVR telep
+"VRInitError_IPC_SharedStateInitFailed_Action" "T
+"VRInitError_IPC_SharedStateInitFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_IPC_SharedStateInitFailed_Description" "A SteamVR egyik kulcs
+"VRInitError_IPC_SharedStateInitFailed_Header" "SteamVR hiba"
+"VRInitError_Init_AnotherAppLaunching_Action" "T
+"VRInitError_Init_AnotherAppLaunching_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_AnotherAppLaunching_Description" "A SteamVR v
+"VRInitError_Init_AnotherAppLaunching_Header" "SteamVR hiba"
+"VRInitError_Init_AppInfoInitFailed_Action" "T
+"VRInitError_Init_AppInfoInitFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_AppInfoInitFailed_Description" "A SteamVR egyik fontos 
+"VRInitError_Init_AppInfoInitFailed_Header" "SteamVR hiba"
+"VRInitError_Init_CouldNotStartPrism_Action" "T
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=hungarian"
+"VRInitError_Init_CouldNotStartPrism_Description" "A SteamVR egy kulcsfontoss
+"VRInitError_Init_CouldNotStartPrism_Header" "SteamVR ind
+"VRInitError_Init_FactoryNotFound_Action" "T
+"VRInitError_Init_FactoryNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"VRInitError_Init_FactoryNotFound_Description" "Felfedezt
+"VRInitError_Init_FactoryNotFound_Header" "SteamVR hiba"
+"VRInitError_Init_FileNotFound_Action" "T
+"VRInitError_Init_FileNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"VRInitError_Init_FileNotFound_Description" "Felfedezt
+"VRInitError_Init_FileNotFound_Header" "SteamVR hiba"
+"VRInitError_Init_HmdDriverIdIsNone_Action" "T
+"VRInitError_Init_HmdDriverIdIsNone_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdDriverIdIsNone_Description" "Gy
+"VRInitError_Init_HmdDriverIdIsNone_FirstAction" "Fejszett alaphelyzetbe"
+"VRInitError_Init_HmdDriverIdIsNone_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdDriverIdIsNone_Header" "Fejszett nem 
+"VRInitError_Init_HmdNotFoundPresenceFailed_Action" "T
+"VRInitError_Init_HmdNotFoundPresenceFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Description" "Gy
+"VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction" "Fejszett alaphelyzetbe"
+"VRInitError_Init_HmdNotFoundPresenceFailed_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Header" "Fejszett nem 
+"VRInitError_Init_HmdNotFound_Action" "T
+"VRInitError_Init_HmdNotFound_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdNotFound_Description" "Gy
+"VRInitError_Init_HmdNotFound_FirstAction" "Fejszett alaphelyzetbe"
+"VRInitError_Init_HmdNotFound_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdNotFound_Header" "Fejszett nem 
+"VRInitError_Init_InitCanceledByUser_Action" "T
+"VRInitError_Init_InitCanceledByUser_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_InitCanceledByUser_Description" "A SteamVR v
+"VRInitError_Init_InitCanceledByUser_Header" "SteamVR hiba"
+"VRInitError_Init_InstallationCorrupt_Action" "T
+"VRInitError_Init_InstallationCorrupt_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"VRInitError_Init_InstallationCorrupt_Description" "Felfedezt
+"VRInitError_Init_InstallationCorrupt_Header" "SteamVR hiba"
+"VRInitError_Init_InstallationNotFound_Action" "T
+"VRInitError_Init_InstallationNotFound_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=81&return_nodeid=71"
+"VRInitError_Init_InstallationNotFound_Description" "Felfedezt
+"VRInitError_Init_InstallationNotFound_Header" "SteamVR hiba"
+"VRInitError_Init_InterfaceNotFound_Action" "
+"VRInitError_Init_InterfaceNotFound_ActionURL" "
+"VRInitError_Init_InterfaceNotFound_Description" "Felfedezt
+"VRInitError_Init_InterfaceNotFound_Header" "SteamVR friss
+"VRInitError_Init_InvalidInterface_Action" "T
+"VRInitError_Init_InvalidInterface_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_InvalidInterface_Description" "V
+"VRInitError_Init_InvalidInterface_Header" "SteamVR hiba"
+"VRInitError_Init_NoConfigPath_Action" "Konfigur
+"VRInitError_Init_NoConfigPath_ActionURL" "vrmonitor://setconfig"
+"VRInitError_Init_NoConfigPath_Description" "Hib
+"VRInitError_Init_NoConfigPath_Header" "SteamVR hiba"
+"VRInitError_Init_NoLogPath_Action" "Napl
+"VRInitError_Init_NoLogPath_ActionURL" "vrmonitor://setlog"
+"VRInitError_Init_NoLogPath_Description" "Hib
+"VRInitError_Init_NoLogPath_Header" "SteamVR hiba"
+"VRInitError_Init_NoServerForBackgroundApp_Action" "T
+"VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NoServerForBackgroundApp_Description" "A SteamVR v
+"VRInitError_Init_NoServerForBackgroundApp_Header" "SteamVR hiba"
+"VRInitError_Init_NotAvailableToUtilityApps_Action" "T
+"VRInitError_Init_NotAvailableToUtilityApps_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NotAvailableToUtilityApps_Description" "A SteamVR v
+"VRInitError_Init_NotAvailableToUtilityApps_Header" "SteamVR hiba"
+"VRInitError_Init_NotInitialized_Action" "T
+"VRInitError_Init_NotInitialized_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=37&return_nodeid=71"
+"VRInitError_Init_NotInitialized_Description" "A SteamVR v
+"VRInitError_Init_NotInitialized_Header" "SteamVR hiba"
+"VRInitError_Init_NotSupportedWithCompositor_Action" "T
+"VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NotSupportedWithCompositor_Description" "A SteamVR v
+"VRInitError_Init_NotSupportedWithCompositor_Header" "SteamVR hiba"
+"VRInitError_Init_PathRegistryNotFound_Action" "
+"VRInitError_Init_PathRegistryNotFound_ActionURL" "vrmonitor://runfromcurrentdirectory"
+"VRInitError_Init_PathRegistryNotFound_Description" "Felfedezt
+"VRInitError_Init_PathRegistryNotFound_Header" "SteamVR hiba"
+"VRInitError_Init_PathRegistryNotWritable_Action" "T
+"VRInitError_Init_PathRegistryNotWritable_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PathRegistryNotWritable_Description" "A SteamVR nem tud inform
+"VRInitError_Init_PathRegistryNotWritable_Header" "SteamVR hiba"
+"VRInitError_Init_PrismClientInitFailed_Action" "T
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PrismClientInitFailed_Description" "A SteamVR v
+"VRInitError_Init_PrismClientInitFailed_Header" "SteamVR ind
+"VRInitError_Init_PrismClientStartFailed_Action" "T
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PrismClientStartFailed_Description" "A SteamVR v
+"VRInitError_Init_PrismClientStartFailed_Header" "SteamVR ind
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "SteamVR 
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "A SteamVR egyik kulcs
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "SteamVR hiba"
+"VRInitError_Init_PrismNeedsNewDrivers_Action" "T
+"VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Friss
+"VRInitError_Init_PrismNeedsNewDrivers_Header" "Video-illeszt
+"VRInitError_Init_PrismStartupTimedOut_Action" "SteamVR 
+"VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+"VRInitError_Init_PrismStartupTimedOut_Description" "A SteamVR egyik kulcs
+"VRInitError_Init_PrismStartupTimedOut_Header" "SteamVR ind
+"VRInitError_Init_Retry_Action" "T
+"VRInitError_Init_Retry_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_Retry_Description" "A SteamVR v
+"VRInitError_Init_Retry_Header" "SteamVR hiba"
+"VRInitError_Init_SettingsInitFailed_Action" "T
+"VRInitError_Init_SettingsInitFailed_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_SettingsInitFailed_Description" "A SteamVR v
+"VRInitError_Init_SettingsInitFailed_Header" "SteamVR hiba"
+"VRInitError_Init_ShuttingDown_Action" "T
+"VRInitError_Init_ShuttingDown_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_ShuttingDown_Description" "A SteamVR v
+"VRInitError_Init_ShuttingDown_Header" "SteamVR hiba"
+"VRInitError_Init_TooManyObjects_Action" "T
+"VRInitError_Init_TooManyObjects_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_TooManyObjects_Description" "A SteamVR v
+"VRInitError_Init_TooManyObjects_Header" "SteamVR hiba"
+"VRInitError_Init_UserConfigDirectoryInvalid_Action" "Konfigur
+"VRInitError_Init_UserConfigDirectoryInvalid_ActionURL" "vrmonitor://setconfig"
+"VRInitError_Init_UserConfigDirectoryInvalid_Description" "Hib
+"VRInitError_Init_UserConfigDirectoryInvalid_Header" "SteamVR hiba"
+"VRInitError_Init_VRClientDLLNotFound_Action" "T
+"VRInitError_Init_VRClientDLLNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"VRInitError_Init_VRClientDLLNotFound_Description" "Felfedezt
+"VRInitError_Init_VRClientDLLNotFound_Header" "SteamVR hiba"
+"VRInitError_Internal_Action" "T
+"VRInitError_Internal_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Internal_Description" "A SteamVR v
+"VRInitError_Internal_Header" "SteamVR hiba"
+"VRInitError_Steam_SteamInstallationNotFound_Action" "Steam telep
+"VRInitError_Steam_SteamInstallationNotFound_ActionURL" "vrmonitor://installsteam"
+"VRInitError_Steam_SteamInstallationNotFound_Description" "A SteamVR helyes m
+"VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR hiba"
+"VRInitError_Unknown_Action" "T
+"VRInitError_Unknown_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Unknown_Description" "A SteamVR v
+"VRInitError_Unknown_Header" "SteamVR hiba"
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "T
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description" "K
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "USB-hiba"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action" "T
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description" "K
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header" "USB-hiba"
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" "
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description" "A fejszetted 
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "Fejszetthiba"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action" "T
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description" "K
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header" "USB-hiba"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action" "T
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description" "K
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header" "USB-hiba"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action" "T
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description" "K
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header" "USB-hiba"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action" "T
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description" "K
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header" "USB-hiba"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action" "T
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description" "K
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header" "USB-hiba"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action" "T
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description" "K
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header" "USB-hiba"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action" "T
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description" "K
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header" "USB-hiba"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action" "T
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description" "K
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header" "USB-hiba"
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "A fejszettkijelz
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Fejszettkijelz
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action" "T
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description" "K
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header" "USB-hiba"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Action" "T
+"VRInitError_VendorSpecific_HmdFound_UserDataError_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Description" "K
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Header" "USB-hiba"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "L
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Ha Quest 2 vagy m
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "SteamVR 
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Az Oculus Link nincs enged
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Action" "L
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_ActionURL" "https://www.oculus.com/setup/"
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Probl
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "SteamVR hiba"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "L
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "A SteamVR nem tudott csatlakozni az Oculus alkalmaz
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR hiba"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Tudj meg t
+"VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "A SteamVR Windows Mixed Realityvel val
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Windows 10 friss
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "T
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Jelenlegi video-illeszt
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Video-illeszt
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action" "Helyre
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description" "Egy b
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Header" "Befejezetlen eszk
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" "T
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/?l=hungarian"
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "Ha csak egy b
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header" "Csak egy b
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" "Konfigur
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" "vrmonitor://open/settings/basestation/configurechannels"
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description" "A SteamVR t
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Header" "B
+"Warning_DismissableWarning_BasestationsTooFarApart_Action" "T
+"Warning_DismissableWarning_BasestationsTooFarApart_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_BasestationsTooFarApart_Description" "B
+"Warning_DismissableWarning_BasestationsTooFarApart_Header" "VR-elrendez
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action" "Bluetooth-be
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description" "A Link Box telep
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header" "Bluetooth-hiba"
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Action" "Bluetooth-be
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Description" "A Link Box telep
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Header" "Bluetooth-hiba"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action" "Bluetooth-be
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description" "Ellen
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header" "Bluetooth-hiba"
+"Warning_DismissableWarning_BluetoothLinkServiceError_Action" "Bluetooth-be
+"Warning_DismissableWarning_BluetoothLinkServiceError_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothLinkServiceError_Description" "A SteamVR v
+"Warning_DismissableWarning_BluetoothLinkServiceError_Header" "Bluetooth-hiba"
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action" "T
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Description" "A SteamVR felfedezte, hogy n
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Header" "Bluetooth-hiba"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description" "<font color=#aaaa00>Gy
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header" "Az eszk
+"Warning_DismissableWarning_DisplayInExtendedMode_Action" "K
+"Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
+"Warning_DismissableWarning_DisplayInExtendedMode_Description" "A SteamVR azt 
+"Warning_DismissableWarning_DisplayInExtendedMode_Header" "Megjegyz
+"Warning_DismissableWarning_EnableAppContainers_Action" "Enged
+"Warning_DismissableWarning_EnableAppContainers_ActionURL" "vrmonitor://steamvr/setappcontainerpermissions"
+"Warning_DismissableWarning_EnableAppContainers_Description" "Ez sz
+"Warning_DismissableWarning_EnableAppContainers_Header" "A SteamVR-nek be kell 
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "A <span>GPU</span>-d nem tud kommunik
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "SteamVR hiba"
+"Warning_DismissableWarning_HDCPError_Action" "Fejszett alaphelyzetbe"
+"Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
+"Warning_DismissableWarning_HDCPError_Description" "A <span>GPU</span>-d nem tud kommunik
+"Warning_DismissableWarning_HDCPError_Header" "SteamVR hiba"
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "T
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Fejszetted kijelz
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Fejszett lecsatlakoztatva"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "T
+"Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "A fejszetted k
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "K
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Telep
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "A VIVE Pro 2 fejszett SteamVR-en m
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "VIVE Pro 2 illeszt
+"Warning_DismissableWarning_InstallWMRPrompt_Action" "Telep
+"Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+"Warning_DismissableWarning_InstallWMRPrompt_Description" "A Windows Mixed Reality fejszettek SteamVR-en m
+"Warning_DismissableWarning_InstallWMRPrompt_Header" "Windows Mixed Reality illeszt
+"Warning_DismissableWarning_IssuesWithOneDongle_Action" "T
+"Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#wireless-receivers"
+"Warning_DismissableWarning_IssuesWithOneDongle_Description" "Az egyik vezet
+"Warning_DismissableWarning_IssuesWithOneDongle_Header" "Fejszetthiba"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Action" "T
+"Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#wireless-receivers"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "A vezet
+"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Vezet
+"Warning_DismissableWarning_MissedFrames_Action" "T
+"Warning_DismissableWarning_MissedFrames_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_MissedFrames_Description" "A jelenlegi VR alkalmaz
+"Warning_DismissableWarning_MissedFrames_Header" "Alkalmaz
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Action" "V
+"Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL" "vrmonitor://refreshrate/switch"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Description" "Fejszetted t
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Header" "Magasabb k
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden" "egyedi"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended" "automatikus"
+"Warning_DismissableWarning_NewDriverInstalled_Action" "SteamVR 
+"Warning_DismissableWarning_NewDriverInstalled_ActionURL" "vrmonitor://restartsystem"
+"Warning_DismissableWarning_NewDriverInstalled_Description" "Friss
+"Warning_DismissableWarning_NewDriverInstalled_Header" "F
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action" "Alap
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL" "vrmonitor://openxr/makedefault"
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Description" "Ez megakad
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header" "A SteamVR nincs be
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action" "T
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#base-stations"
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description" "Lehet, hogy valami blokkolja a l
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Header" "B
+"Warning_DismissableWarning_OutOfVideoMemory_Action" "T
+"Warning_DismissableWarning_OutOfVideoMemory_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_OutOfVideoMemory_Description" "A rendszered videomem
+"Warning_DismissableWarning_OutOfVideoMemory_Header" "Kev
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "SteamVR 
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Probl
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Fejszettkapcsol
+"Warning_DismissableWarning_RunTutorialAgain_Action" "T
+"Warning_DismissableWarning_RunTutorialAgain_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_RunTutorialAgain_Description" "A Szobaelrendez
+"Warning_DismissableWarning_RunTutorialAgain_Header" "Szobaelrendez
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Action" "T
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Description" "K
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Header" "Helytelen videok
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Action" "Kijelz
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_ActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Description" "
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Header" "Kijelz
+"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Kieg
+"Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+"Warning_DismissableWarning_SteamVRInSafeMode_Description" "Egy k
+"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Egyes kieg
+"Warning_DismissableWarning_SteamVRUpdated_Action" "V
+"Warning_DismissableWarning_SteamVRUpdated_ActionURL" "%1"
+"Warning_DismissableWarning_SteamVRUpdated_Description" "A SteamVR friss
+"Warning_DismissableWarning_SteamVRUpdated_Header" "SteamVR friss
+"Warning_DismissableWarning_UnknownHardwareDetected_Action" "T
+"Warning_DismissableWarning_UnknownHardwareDetected_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_UnknownHardwareDetected_Description" "Gratul
+"Warning_DismissableWarning_UnknownHardwareDetected_Header" "
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "T
+"Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Description" "A SteamVR naprak
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Header" "Video-illeszt
+"Warning_DismissableWarning_WarningsForTheFirstTime_Action" "T
+"Warning_DismissableWarning_WarningsForTheFirstTime_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Mutass r
+"Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Eszk
+"Warning_DismissableWarning_Windows8_Action" "T
+"Warning_DismissableWarning_Windows8_ActionURL" "https://help.steampowered.com/hu/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_Windows8_Description" "A SteamVR nem t
+"Warning_DismissableWarning_Windows8_Header" "Ideje friss
+"Warning_DismissableWarning_WindowsAeroDisabled_Action" "Szem
+"Warning_DismissableWarning_WindowsAeroDisabled_ActionURL" "vrmonitor://controlpanel/Microsoft.Personalization"
+"Warning_DismissableWarning_WindowsAeroDisabled_Description" "A legjobb teljes
+"Warning_DismissableWarning_WindowsAeroDisabled_Header" "Teljes
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Tov
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643&l=hungarian#wired-controller-usage"
-
-}
-}
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "A t
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "K
+"Warning_OpenXRDefaultRuntimePrompt_AnotherSteamVR" "Az OpenXR fut
+"Warning_OpenXRDefaultRuntimePrompt_NotSet" "Az OpenXR fut
+"lang"
+, de egy t
+, de friss
+, de probl
+, vagy mert a sz
+-friss
+-illeszt
+. Ez kapcsolati probl
+: %2)"
+</a>."
+Felhaszn
+HOZ.</b>"
+Helyre
+Igent
+JRAIND
+b SteamVR folyamatot, miel
+bb hivatkozott leg
+bb inf
+bbet nem fog firmware-friss
+bbet"
+bbi SteamVR men
+bbi hivatkoz
+bbi inform
+bbi r
+bbi seg
+bbra is fenn
+bel a fejszettn
+bel ferd
+beladaptereket vagy -hosszabb
+bele kih
+bele lev
+belek laptopodhoz val
+belek stabil csatlakoztat
+beles szinkroniz
+bellel, majd friss
+belt a Link Boxba annak alaphelyzetbe 
+ben van."
+ben vedd fontol
+ben.</i>"
+breszt
+csatlakoz
+d a fel
+d a tartalm
+d a(z) %2 verzi
+d az alkalmaz
+d bekapcsol
+d enged
+d friss
+d haszn
+d nem tud csatlakozni HMD kijelz
+dba."
+dban van."
+dban vannak. V
+det annak fel
+det."
+dik a legjobban. Javasoljuk, hogy friss
+dik be megfelel
+dik megfelel
+dik. A legjobb eredm
+dj meg r
+djenek a VR-rel."
+dleges kijelz
+don, ha van. <b>Haszn
+dott (05-
+dott a fejszettn
+dott. Ellen
+dott. K
+dott. Tov
+dra az optikai szinkroniz
+dra v
+dra."
+en van csatlakoztatva, majd al
+en van csatlakoztatva, majd ind
+en van csatlakoztatva."
+en vannak be
+en. K
+en. Tov
+g a fejszettedben nem 
+g a seg
+g alacsony"
+g javulni fog, ha 
+gaidat ezen a sz
+ge a megfelel
+ge alacsony."
+gek a fejszettedben nem 
+gek nem tal
+ges ahhoz, hogy enged
+ges egyik illeszt
+ges."
+get a Steamen a SteamVR-hez."
+gezd el 
+gezd el a szobaelrendez
+gok megn
+got a b
+gtelen 
+gy sikertelen volt."
+gyelete
+hez a Steamnek telep
+hez friss
+hez illeszt
+hez kattints a 
+hez kezdd haszn
+hez telep
+hez. K
+hez."
+hiba"
+hoz csatlakoztasd, mint az els
+hoz friss
+hoz ind
+hoz telep
+hoz tervezt
+hoz, hogy a GPU 
+hoz, hogy a videok
+hoz, majd ind
+hoz, t
+hoz."
+i jogosults
+ig tartott, 
+j eszk
+j hardveredhez! K
+ja fogyt
+ja van, ami lefagyaszthatja a PC-det. K
+jabb Windows friss
+jabb gyorsjav
+jabb verzi
+je hib
+je nem m
+je nem tal
+je teljes k
+jl bet
+jl mintha hi
+jlok 
+jra a SteamVR-t."
+jra a Steamet 
+jra a sz
+jra a szobaelrendez
+jra haszn
+jra. Megpr
+jra."
+jracsatlakoz
+jraind
+jrapr
+k blokkolva"
+k kezel
+k, biztos
+k, csatlakoztasd le a fejszetted, majd csatlakoztasd 
+k, cser
+k, ellen
+k, fejszettedet ugyanahhoz a videok
+k, friss
+k, hogy a SteamVR friss
+k, hogy n
+k, ind
+k, kattints az al
+k, keresd fel a SteamVR T
+k, keresd meg SteamVR konfigur
+k, pr
+k, telep
+k, vedd fel a kapcsolatot a t
+k. Ez kapcsolati probl
+kapcsolattal. K
+kat menteni. K
+kat okozhat VR j
+kat, ha haszn
+kat. Pr
+ket, hogy ne legyenek egym
+ket."
+khoz."
+kkent m
+knek tartalmak mutat
+kok fel
+kre lesz v
+l %4% 
+l 5,5 m
+l <b>%2</b> FPS-re v
+l az alkalmaz
+l bels
+l lass
+l lassan fut, ami el
+l lev
+l sok
+l sok b
+l valamit a SteamVR illeszt
+l, ind
+l, majd pr
+l, vagy ind
+l. A legjobb eredm
+l. Ha az eszk
+la, hogy a Steam telep
+la, hogy a fejszetted a l
+la, hogy a fejszetted megfelel
+la, hogy a leg
+la, hogy be van kapcsolva 
+la, hogy be van kapcsolva, 
+la, hogy csak k
+la, hogy egy b
+la, hogy fejszetted egy b
+la, hogy fejszetted kijelz
+la, hogy megfelel
+laszd az 
+laszt
+lasztva"
+ld a lenti alaphelyzetbe 
+ld a lenti gombot az 1.4-es hagyom
+ld elt
+ld ki, amint tudod. <br><br>(Hardverazonos
+ld meg a 
+ld meg elt
+leted 
+letedet 
+lhatatlan"
+lhatatlann
+lhatod 
+lhatod az al
+li be
+li fejszett csatlakoz
+li kapcsolatot. Csatlakoztasd ezt a j
+li kapcsolatra"
+li vev
+lis HMD olyan illeszt
+lis be
+lisan adt
+lisan enged
+lj egyedi csatorn
+lj ki egy m
+lj kil
+lj meg egy m
+lja a kapcsol
+lja. K
+lja.</b>"
+lkoztunk. Tov
+ll munkameneteid k
+ll, vedd fel a kapcsolatot a gy
+llapot tov
+llapotot minden eszk
+lnak,  gy
+lni a HMD-vel, ami HDCP-hib
+lni a VR-t."
+lod a SteamVR-t, e b
+lsz ilyet. Pr
+lsz, a SteamVR ind
+lsz, a k
+lt DirectX 11 kompatibilis hardvert vagy illeszt
+lt illeszt
+ltal haszn
+ltani?<br><br><i>Hogy a GPU terhel
+ltasz?"
+ltbeli 
+ltod e b
+ltoztathatsz a Be
+ltoztatva. Ezt 
+ltozzon, a(z) %5 alkalmaz
+lts Aero t
+lts a Steam Let
+lts k
+ltsd 
+lunk 
+lyedre van sz
+lyek friss
+lyezhesd a webb
+lyezned a hardveres gyors
+lyezned kell a Linket vagy Air Linket a fejszettben."
+lyezve"
+lyozhatja egyes alkalmaz
+lyre szab
+ma ad
+ma van a hardver
+ma van a kijelz
+ma van az Oculus runtime telep
+madt az illeszt
+madt egy kalibr
+mogat
+mogat!<br>Jelenleg <b>m
+mogatott Windows 8-on. K
+mogatott"
+mogatott.</font> <br><br> Ez az eszk
+n kih
+n van, ami gyenge teljes
+nak megkezd
+nak t
+nek befejez
+nek ellen
+nek indul
+nik, egy b
+nik, ideje be
+nik, kijelz
+nik. K
+nk fel SteamVR telep
+nt %1 k
+ny SteamVR kieg
+nyedre, vagy ak
+nyel, ami nincs telep
+nyel, egy (i) fog megjelenni az ikon f
+nyel. K
+nyelhetnek, hogy m
+nyez. Pr
+nyezhet. Ez lehet az
+nyhez VR futtat
+nyhez haszn
+nyhez k
+nyhez."
+nyli."
+nyoptimaliz
+nyos HDCP kompatibilit
+nyozna. K
+nyozna."
+nyt ad."
+nyt eredm
+nytelen. K
+p men
+ped t
+ped video-illeszt
+ped, majd pr
+pen, vagy, ha manu
+pen."
+perny
+pfriss
+pj kapcsolatba a gy
+pj ki a SteamVR-b
+pj ki abb
+pkock
+pni a jelenlegi alkalmaz
+progam telep
+program friss
+program nem kompatibilis a SteamVR ezen verzi
+program nem t
+program sz
+program telep
+program"
+program-k
+programj
+programjaidat. A(z) %1 verzi
+programodnak olyan ismert probl
+programok let
+programok telep
+programokat. Lehet, hogy friss
+programokkal m
+programot ig
+programot."
+r haszn
+r nem t
+ra a Windows Szem
+ra az 
+ra van be
+ra</b> van be
+radat."
+raid 
+raid be
+raid megad
+raidat."
+rakoz
+rakozik..."
+ratlan hib
+ratlan probl
+rdemes megfontolni a k
+re az alkalmaz
+re van 
+relt energiagazd
+ri hib
+rizd a Link Box csatlakoz
+rizd a SteamVR telep
+rizd fejszetted USB-kapcsolat
+rizd fejszetted csatlakoz
+rizd felhaszn
+rizd, hogy a SteamVR helyesen van telep
+rizd, hogy az Oculus szoftver telep
+rmikor 
+rna m
+rosod
+rt, k
+rt, mert az alkalmaz
+rtelmezett OpenXR fut
+rtelmezettre"
+rtya 
+rtya"
+s (HDCP)"
+s <span>miatt</span> n
+s Oktat
+s a SteamVR 
+s a fejszetthez"
+s a j
+s a jelenlegi k
+s a k
+s a videomem
+s akt
+s azonos
+s biztos
+s chaperone hat
+s dugd be a t
+s ellen
+s elmozdult. K
+s elv
+s fel
+s felbont
+s friss
+s fut."
+s gombot a HMD alaphelyzetbe 
+s haszn
+s hiba"
+s hiba). K
+s jelenleg k
+s jelenleg nem k
+s megfelel
+s megkezd
+s megszakadt vagy nem fejez
+s megterhel
+s nem 
+s nincs k
+s telep
+s tov
+s vezet
+s-friss
+s-hiba"
+s..."
+sa %3% 
+sa a j
+sa el
+sa jobb k
+saiban."
+said 
+said %1 m
+said a javasoltn
+said k
+said nem szinkroniz
+sait, h
+sakor v
+sakor."
+se ne v
+se...
+sedet."
+sek n
+seket kapni, 
+sekor."
+shiba"
+shoz 
+shoz, amely egyszerre l
+shoz. Gy
+shoz."
+si be
+si eredm
+si figyelmeztet
+si hiba"
+si min
+si probl
+sidej
+sik alkalmaz
+sik csatlakoz
+sik portot a GPU-don, ha van rajta. <b>Haszn
+sik portot a GPU-don, ha van rajta.<p><b>Haszn
+sik verzi
+skor. K
+soddal. K
+sodpercenk
+sok > K
+sok megfelel
+sok megn
+sokat ig
+sra v
+sra, majd v
+sre van sz
+ssal haszn
+ssal tov
+ssel. K
+ssel. Tov
+sszeoml
+sszetev
+st a HMD alaphelyzetbe 
+st a SteamVR haszn
+st haszn
+st ig
+st is megv
+st nem t
+st. Ha az 
+st.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=hungarian'>Tov
+sz video-illeszt
+szenl
+szlelhet
+szlelni tudja."
+szlelt a Bluetooth rendszerben."
+szlelt a(z) %1 csatorn
+szlelte, hogy fejszetted monitork
+szlelve"
+szletek"
+t USB-k
+t a videok
+t az 
+t az alkalmaz
+t az eszk
+t fedezt
+t fejszetted kijelz
+t minden olyan b
+t okoz. Pr
+t okozhatja."
+t vagy az Oktat
+t, hogy a SteamVR megfelel
+t, majd pr
+t, vagy enged
+t. %1"
+t. A fejszett kijelz
+t. A laptopok speci
+tani VR j
+tani a SteamVR-t is."
+tani a haszn
+tani a k
+tania mag
+tben 
+tben"
+temet is t
+temez
+temre v
+tened kell a leg
+tened kell a rendszeredet."
+tened kell a sz
+tened kell sz
+teni a Windowst"
+teni ezt az eszk
+teni kell egy illeszt
+teni"
+terre vannak egym
+tett eszk
+tfontoss
+thelyez
+tja a fejszettedet."
+tmutat
+togasd meg az oculus.com oldalt"
+tott b
+ts Windows 8.1-re vagy Windows 10-re a legjobb eredm
+ts le minden egy
+tsd a fejszettet t
+tsd a leg
+tsd a vide
+tsd alaphelyzetbe."
+tsd az al
+tsd az arcp
+tsd az eszk
+tsd el a Feladatkezel
+tsd el."
+tsd most a rendszeredet."
+tsd vide
+tt a Steamhez kapcsol
+tt be. Az elj
+tt e fejszett azonos
+tt helyett kiterjesztett m
+tt kijelz
+tt manu
+tt. Ha ez a figyelmeztet
+tt. K
+tt. Tov
+tti csatlakoz
+tulajdons
+tva alap
+tva. A legjobb eredm
+tva. Ez hathat grafikai teljes
+tva. Szeretn
+tva."
+tve kell lennie."
+tve lett a(z) %2 verzi
+tve van 
+tve van-e."
+tve, de a k
+tve."
+val csere-b
+val seg
+val tal
+val."
+vel a fejszettedhez."
+vel. K
+vet eszk
+vet. Gy
+vet."
+volabb vannak egym
+volabb."
+z akt
+z friss
+z jelenleg k
+z jelenleg nem k
+z nem k
+z nincs csatlakoztatva"
+z nincs csatlakozva"
+z nincs felismerve 
+z nincs k
+z telep
+z. Pr
+zben h
+zd az adatokat 
+zd ki 
+zd ki a j
+zd ki, majd dugd be a pirosan villog
+zelben van."
+zfriss
+zhiba"
+zinform
+zist 
+zt haszn
+zt. Gy
+zvetlen megjelen

@@ -1,955 +1,1328 @@
-"lang"
-{
-"Language" "czech" 
-"Tokens"
-{
-
-"Error_NoHMDAvailable_Header" "Headset nebyl nalezen"
-"Error_NoHMDAvailable_Description" "Ujistěte se, že je headset správně připojen a restartujte režim SteamVR."
-"Error_NoHMDAvailable_Action" "Více informací"
-"Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#headset"
-
-"Error_HMDDoesNotTrack_Header" "Vyhledávání..."
-"Error_HMDDoesNotTrack_Description" "Zajistěte, aby byl headset v dohledu základní stanice."
-"Error_HMDDoesNotTrack_Action" "Více informací"
-"Error_HMDDoesNotTrack_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#tracking-issues"
-
-"Error_NoCompositorAvailable_Header" "Selhání režimu SteamVR"
-"Error_NoCompositorAvailable_Description" "Ale ne! Došlo k neočekávané chybě režimu SteamVR."
-"Error_NoCompositorAvailable_Action" "Restartovat režim SteamVR"
-"Error_NoCompositorAvailable_ActionURL" "vrmonitor://restartsystem"
-
-"Error_NoChaperoneAvailable_Header" "Příprava místnosti"
-"Error_NoChaperoneAvailable_Description" "Je potřeba nastavit Vaši oblast pro hraní a kolizní hranice."
-"Error_NoChaperoneAvailable_Action" "Spustit přípravu místnosti"
-"Error_NoChaperoneAvailable_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"Error_CompositorNotFullscreen_Header" "Chyba headsetu"
-"Error_CompositorNotFullscreen_Description" "Ujistěte se, že je displej Vašeho headsetu v režimu celé obrazovky."
-"Error_CompositorNotFullscreen_Action" "Povolit režim celé obrazovky"
+ %1 ji
+ (pokud je dostupn
+ Aero."
+ Bluetooth"
+ Bluetooth."
+ FPS?"
+ GPU s hardwarovou akcelerac
+ Link Boxu, restartujte jej odpojen
+ OpenXR runtime."
+ Steam. Restartujte klienta slu
+ USB kabelu a aktualizujte jej."
+ USB"
+ a aktualizovan
+ a headsetu jsou pouze dv
+ a kolizn
+ a nach
+ a zkuste to znovu."
+ adapt
+ aktivov
+ aktivovat Oculus Link nebo Air Link."
+ aktualizace firmwaru a nen
+ aktualizace za
+ aktualizace"
+ aplikace b
+ aplikace nebo n
+ aplikace nemus
+ aplikace upraveno z %3% na %4%. Tyto a dal
+ aplikace. Ukon
+ bezdr
+ blikaj
+ blokov
+ bude m
+ budete muset aktualizovat ovlada
+ budete muset upgradovat."
+ chyb
+ co nejlep
+ detekovat."
+ displej je nastaven tak, aby zrcadlil sv
+ displej. Pro vy
+ displeje. Odpojte a znovu p
+ dlouho a nakonec selhal."
+ dopl
+ funk
+ grafick
+ headset byl nalezen, ale do
+ headset byl nalezen, ale k zaru
+ headset je pou
+ headset podporuje v
+ headset vy
+ headset, tak
+ headset."
+ headsetu a zkuste to znovu."
+ headsetu"
+ hodnoty m
+ hotfix odk
+ hranice."
+ instalace Link Boxu mus
+ instalace runtimu Oculus. Restartujte re
+ instalaci."
+ jako prim
+ je aktivn
+ je doporu
+ je m
+ je sledov
+ je t
+ je v re
+ jeho hardwaru. Kontaktujte proto jeho v
+ ji p
+ kabelu. Zajist
+ kart
+ karta"
+ karty bude %5 rozli
+ karty nebo povolen
+ karty se pot
+ karty"
+ karty. Je nainstalovan
+ karty."
+ kompatibiln
+ komponent re
+ maskou headsetu."
+ mezi z
+ mnoho z
+ monitor."
+ na jeho ikonku. Pokud za
+ na p
+ na re
+ na syst
+ na tomto po
+ nainstalov
+ nainstalovat ovlada
+ naleznete na str
+ nastaven
+ nastaven jako v
+ nastaven na <b>%1 sn
+ nastaven pro jinou verzi re
+ nastaven."
+ nastavit pro kontejnery aplikac
+ nastavte pozici vsed
+ nebyl nalezen"
+ nebylo nalezeno"
+ nejnov
+ neobdr
+ obrazovky"
+ obrazovky."
+ optick
+ ovlada
+ podporov
+ pohybu pou
+ pomalu, kv
+ pomoc
+ pomoc kontaktujte podporu."
+ pomocn
+ port GPU. <b>Kliknut
+ port GPU. <p> <b>Kliknut
+ pracovat s headsetem Vive Pro 2, je vy
+ pracovat s headsety hybridn
+ pro Vive Pro 2?"
+ pro Windows Mixed Reality?"
+ pro re
+ probl
+ procesy s n
+ prohl
+ prove
+ realitou obecn
+ reality (Windows Mixed Reality), je vy
+ reality, abyste stanici probudili."
+ restartujte tak
+ rozpoznat tento headset."
+ s DirectX 11. Pravd
+ s chybou, kter
+ s headsetem, co
+ s intern
+ s jednou ze z
+ s touto verz
+ s virtu
+ samostatn
+ se na bezdr
+ se nepoda
+ se v dohledu headsetu."
+ se ve Va
+ se za
+ se, 
+ si ji po
+ sledov
+ sleduje pohyb."
+ soubor."
+ soubory. P
+ soubory. Zkuste to znovu."
+ soubory."
+ spojen
+ spustit. %1"
+ stanice byla odebr
+ stanice byla p
+ stanice je aktivn
+ stanice je nepou
+ stanice je v re
+ stanice jsou nastaveny v re
+ stanice jsou od sebe %1 metr
+ stanice jsou od sebe d
+ stanice m
+ stanice nen
+ stanice nepodporuje 
+ stanice nesleduje 
+ stanice se nesynchronizuj
+ stanice se pot
+ stanice sleduje pohyb."
+ stanice trp
+ stanice"
+ stanice."
+ stanici vlastn
+ stanici"
+ stanici, je vhodn
+ stanici. Pokud probl
+ stanici."
+ stejn
+ synchroniza
+ synchronizace p
+ ukon
+ v headsetu"
+ v oblasti za t
+ v po
+ vadou. Kontaktujte proto jej
+ verze %1, nicm
+ verze za
+ verzi syst
+ verzi."
+ viditeln
+ za sekundu</b>. Chcete tuto hodnotu zm
+ zapnut
+ zaru
+ znovu p
+ znovu ur
+ zobrazovac
+!<br>Headset je moment
+"ChaperoneCalibrationState_Error_Action" "Spustit p
+"ChaperoneCalibrationState_Error_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_BaseStationConflict_Action" "Spustit p
+"ChaperoneCalibrationState_Error_BaseStationConflict_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_BaseStationConflict_Description" "Spus
+"ChaperoneCalibrationState_Error_BaseStationConflict_Header" "P
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Action" "Spustit p
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Description" "P
+"ChaperoneCalibrationState_Error_BaseStationUninitialized_Header" "P
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action" "Spustit p
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description" "Spus
+"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header" "P
+"ChaperoneCalibrationState_Error_Description" "Spus
+"ChaperoneCalibrationState_Error_Header" "P
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Action" "Spustit p
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "Spus
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "P
+"ChaperoneCalibrationState_Warning_Action" "Spustit p
+"ChaperoneCalibrationState_Warning_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action" "Spustit p
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description" "Zd
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header" "P
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Action" "Spustit p
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description" "Re
+"ChaperoneCalibrationState_Warning_BaseStationRemoved_Header" "Z
+"ChaperoneCalibrationState_Warning_Description" "Spus
+"ChaperoneCalibrationState_Warning_Header" "P
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action" "Spustit p
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description" "Spus
+"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header" "P
+"Error_CompositorNotFullscreen_Action" "Povolit re
 "Error_CompositorNotFullscreen_ActionURL" "vrmonitor://makecompositorfullscreen"
-
-"Error_CompositorNotRunning_Header" "Selhání režimu SteamVR"
-"Error_CompositorNotRunning_Description" "Ale ne! Došlo k neočekávané chybě režimu SteamVR."
-"Error_CompositorNotRunning_Action" "Restartovat režim SteamVR"
+"Error_CompositorNotFullscreen_Description" "Ujist
+"Error_CompositorNotFullscreen_Header" "Chyba headsetu"
+"Error_CompositorNotRunning_Action" "Restartovat re
 "Error_CompositorNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_CompositorTooManyRunning_Header" "Selhání režimu SteamVR"
-"Error_CompositorTooManyRunning_Description" "Ale ne! Došlo k neočekávané chybě režimu SteamVR."
-"Error_CompositorTooManyRunning_Action" "Restartovat režim SteamVR"
+"Error_CompositorNotRunning_Description" "Ale ne! Do
+"Error_CompositorNotRunning_Header" "Selh
+"Error_CompositorTooManyRunning_Action" "Restartovat re
 "Error_CompositorTooManyRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_PrismNotRunning_Header" "Selhání režimu SteamVR"
-"Error_PrismNotRunning_Description" "Ale ne! Došlo k neočekávané chybě režimu SteamVR."
-"Error_PrismNotRunning_Action" "Restartovat režim SteamVR"
+"Error_CompositorTooManyRunning_Description" "Ale ne! Do
+"Error_CompositorTooManyRunning_Header" "Selh
+"Error_HMDDoesNotTrack_Action" "V
+"Error_HMDDoesNotTrack_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#tracking-issues"
+"Error_HMDDoesNotTrack_Description" "Zajist
+"Error_HMDDoesNotTrack_Header" "Vyhled
+"Error_NoChaperoneAvailable_Action" "Spustit p
+"Error_NoChaperoneAvailable_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
+"Error_NoChaperoneAvailable_Description" "Je pot
+"Error_NoChaperoneAvailable_Header" "P
+"Error_NoCompositorAvailable_Action" "Restartovat re
+"Error_NoCompositorAvailable_ActionURL" "vrmonitor://restartsystem"
+"Error_NoCompositorAvailable_Description" "Ale ne! Do
+"Error_NoCompositorAvailable_Header" "Selh
+"Error_NoHMDAvailable_Action" "V
+"Error_NoHMDAvailable_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#headset"
+"Error_NoHMDAvailable_Description" "Ujist
+"Error_NoHMDAvailable_Header" "Headset nebyl nalezen"
+"Error_PrismNotRunning_Action" "Restartovat re
 "Error_PrismNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_VRServerNotRunning_Header" "Selhání režimu SteamVR"
-"Error_VRServerNotRunning_Description" "Ale ne! Došlo k neočekávané chybě režimu SteamVR."
-"Error_VRServerNotRunning_Action" "Restartovat režim SteamVR"
-"Error_VRServerNotRunning_ActionURL" "vrmonitor://restartsystem"
-
-"Error_TrackingDevice_NotValid_Header" "Zařízení není připojeno"
-"Error_TrackingDevice_NotValid_Description" "Ujistěte se, že je zařízení zapnuté a zkuste to znovu."
+"Error_PrismNotRunning_Description" "Ale ne! Do
+"Error_PrismNotRunning_Header" "Selh
+"Error_TrackingDevice_NoPose_Action" "V
+"Error_TrackingDevice_NoPose_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#tracking-issues"
+"Error_TrackingDevice_NoPose_Description" "Toto za
+"Error_TrackingDevice_NoPose_Header" "Vyhled
 "Error_TrackingDevice_NotValid_Action" "Znovu vyhledat"
 "Error_TrackingDevice_NotValid_ActionURL" "vrmonitor://restartsystem"
-
-"Error_TrackingDevice_NoPose_Header" "Vyhledávání..."
-"Error_TrackingDevice_NoPose_Description" "Toto zařízení není sledováno. Zajistěte, aby bylo v dohledu základní stanice."
-"Error_TrackingDevice_NoPose_Action" "Více informací"
-"Error_TrackingDevice_NoPose_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#tracking-issues"
-
-"VRInitError_Unknown_Header" "Selhání režimu SteamVR"
-"VRInitError_Unknown_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Unknown_Action" "Více informací"
-"VRInitError_Unknown_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_InstallationNotFound_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_InstallationNotFound_Description" "Chybí některé důležité soubory."
-"VRInitError_Init_InstallationNotFound_Action" "Více informací"
-"VRInitError_Init_InstallationNotFound_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=81&return_nodeid=71"
-
-"VRInitError_Init_InstallationCorrupt_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_InstallationCorrupt_Description" "Chybí některé důležité soubory. Přeinstalujte režim SteamVR."
-"VRInitError_Init_InstallationCorrupt_Action" "Více informací"
-"VRInitError_Init_InstallationCorrupt_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"VRInitError_Init_VRClientDLLNotFound_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_VRClientDLLNotFound_Description" "Chybí některé důležité soubory. Přeinstalujte režim SteamVR."
-"VRInitError_Init_VRClientDLLNotFound_Action" "Více informací"
-"VRInitError_Init_VRClientDLLNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"VRInitError_Init_FileNotFound_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_FileNotFound_Description" "Chybí některé důležité soubory. Přeinstalujte režim SteamVR."
-"VRInitError_Init_FileNotFound_Action" "Více informací"
-"VRInitError_Init_FileNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"VRInitError_Init_FactoryNotFound_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_FactoryNotFound_Description" "Chybí některé důležité soubory. Přeinstalujte režim SteamVR."
-"VRInitError_Init_FactoryNotFound_Action" "Více informací"
-"VRInitError_Init_FactoryNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"VRInitError_Init_InterfaceNotFound_Header" "Aktualizace režimu SteamVR"
-"VRInitError_Init_InterfaceNotFound_Description" "Režim SteamVR vyžaduje aktualizaci. Ukončete jej proto a prostřednictvím klienta služby Steam proveďte aktualizaci."
-"VRInitError_Init_InterfaceNotFound_Action" "
-"
-"VRInitError_Init_InterfaceNotFound_ActionURL" "
-"
-
-"VRInitError_Init_InvalidInterface_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_InvalidInterface_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_InvalidInterface_Action" "Více informací"
-"VRInitError_Init_InvalidInterface_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_UserConfigDirectoryInvalid_Header" "Chyba režimu SteamVR"
-"VRInitError_Init_UserConfigDirectoryInvalid_Description" "Vaše instalace režimu SteamVR není v pořádku. Určete adresář nastavení."
-"VRInitError_Init_UserConfigDirectoryInvalid_Action" "Určit adresář nastavení"
-"VRInitError_Init_UserConfigDirectoryInvalid_ActionURL" "vrmonitor://setconfig"
-
-"VRInitError_Init_HmdNotFound_Header" "Headset nebyl nalezen"
-"VRInitError_Init_HmdNotFound_Description" "Ujistěte se, že je headset správně připojen a restartujte jej."
-"VRInitError_Init_HmdNotFound_FirstAction" "Restartovat headset"
-"VRInitError_Init_HmdNotFound_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdNotFound_Action" "Více informací"
-"VRInitError_Init_HmdNotFound_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Init_NotInitialized_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_NotInitialized_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_NotInitialized_Action" "Více informací"
-"VRInitError_Init_NotInitialized_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=37&return_nodeid=71"
-
-"VRInitError_Init_PathRegistryNotFound_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_PathRegistryNotFound_Description" "Chybí některé důležité soubory. Zkuste to znovu."
-"VRInitError_Init_PathRegistryNotFound_Action" "Pokusit se spustit znovu ze současného adresáře"
-"VRInitError_Init_PathRegistryNotFound_ActionURL" "vrmonitor://runfromcurrentdirectory"
-
-"VRInitError_Init_NoConfigPath_Header" "Chyba režimu SteamVR"
-"VRInitError_Init_NoConfigPath_Description" "Vaše instalace režimu SteamVR není v pořádku. Určete adresář nastavení."
-"VRInitError_Init_NoConfigPath_Action" "Určit adresář nastavení"
-"VRInitError_Init_NoConfigPath_ActionURL" "vrmonitor://setconfig"
-
-"VRInitError_Init_NoLogPath_Header" "Chyba režimu SteamVR"
-"VRInitError_Init_NoLogPath_Description" "Vaše instalace režimu SteamVR není v pořádku. Určete adresář záznamů."
-"VRInitError_Init_NoLogPath_Action" "Určit adresář záznamů"
-"VRInitError_Init_NoLogPath_ActionURL" "vrmonitor://setlog"
-
-"VRInitError_Init_PathRegistryNotWritable_Header" "Chyba režimu SteamVR"
-"VRInitError_Init_PathRegistryNotWritable_Description" "Režimu SteamVR se nedaří ukládat informace. Zkontrolujte svá oprávnění na tomto počítači."
-"VRInitError_Init_PathRegistryNotWritable_Action" "Více informací"
-"VRInitError_Init_PathRegistryNotWritable_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_AppInfoInitFailed_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_AppInfoInitFailed_Description" "Klíčový komponent režimu SteamVR nepracuje správně. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_AppInfoInitFailed_Action" "Více informací"
-"VRInitError_Init_AppInfoInitFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_Retry_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_Retry_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_Retry_Action" "Více informací"
-"VRInitError_Init_Retry_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_InitCanceledByUser_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_InitCanceledByUser_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_InitCanceledByUser_Action" "Více informací"
-"VRInitError_Init_InitCanceledByUser_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_AnotherAppLaunching_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_AnotherAppLaunching_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_AnotherAppLaunching_Action" "Více informací"
-"VRInitError_Init_AnotherAppLaunching_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_SettingsInitFailed_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_SettingsInitFailed_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_SettingsInitFailed_Action" "Více informací"
-"VRInitError_Init_SettingsInitFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_ShuttingDown_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_ShuttingDown_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_ShuttingDown_Action" "Více informací"
-"VRInitError_Init_ShuttingDown_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_TooManyObjects_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_TooManyObjects_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_TooManyObjects_Action" "Více informací"
-"VRInitError_Init_TooManyObjects_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NoServerForBackgroundApp_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_NoServerForBackgroundApp_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_NoServerForBackgroundApp_Action" "Více informací"
-"VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NotSupportedWithCompositor_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_NotSupportedWithCompositor_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_NotSupportedWithCompositor_Action" "Více informací"
-"VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_NotAvailableToUtilityApps_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_NotAvailableToUtilityApps_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_NotAvailableToUtilityApps_Action" "Více informací"
-"VRInitError_Init_NotAvailableToUtilityApps_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Internal_Header" "Selhání režimu SteamVR"
-"VRInitError_Internal_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Internal_Action" "Více informací"
-"VRInitError_Internal_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_HmdDriverIdIsNone_Header" "Headset nebyl nalezen"
-"VRInitError_Init_HmdDriverIdIsNone_Description" "Ujistěte se, že je headset správně připojen a restartujte jej."
-"VRInitError_Init_HmdDriverIdIsNone_FirstAction" "Restartovat headset"
-"VRInitError_Init_HmdDriverIdIsNone_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdDriverIdIsNone_Action" "Více informací"
-"VRInitError_Init_HmdDriverIdIsNone_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Init_HmdNotFoundPresenceFailed_Header" "Headset nebyl nalezen"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Description" "Ujistěte se, že je headset správně připojen a restartujte jej."
-"VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction" "Restartovat headset"
-"VRInitError_Init_HmdNotFoundPresenceFailed_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Init_HmdNotFoundPresenceFailed_Action" "Více informací"
-"VRInitError_Init_HmdNotFoundPresenceFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Driver_Failed_Header" "Chyba režimu SteamVR"
-"VRInitError_Driver_Failed_Description" "Došlo k chybě režimu SteamVR. Zkontrolujte svá oprávnění na tomto počítači. Pokud jste navíc ručně něco přidali do adresáře s ovladači, odstraňte to."
-"VRInitError_Driver_Failed_Action" "Více informací"
-"VRInitError_Driver_Failed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_Unknown_Header" "Chyba režimu SteamVR"
-"VRInitError_Driver_Unknown_Description" "Došlo k chybě se zařízením."
-"VRInitError_Driver_Unknown_Action" "Opravit!"
-"VRInitError_Driver_Unknown_ActionURL" "vrmonitor://unsetforceddriver"
-
-"VRInitError_Driver_HmdUnknown_Header" "Headset nebyl rozpoznán"
-"VRInitError_Driver_HmdUnknown_Description" "Režimu SteamVR se nedaří rozpoznat tento headset."
-"VRInitError_Driver_HmdUnknown_Action" "Opravit!"
-"VRInitError_Driver_HmdUnknown_ActionURL" "vrmonitor://unsetforcedhmd"
-
-"VRInitError_Driver_NotLoaded_Header" "Chyba režimu SteamVR"
-"VRInitError_Driver_NotLoaded_Description" "Ovladač vyžadovaný pro režim SteamVR se nenačetl správně. Zkontrolujte instalaci režimu SteamVR."
-"VRInitError_Driver_NotLoaded_Action" "Více informací"
-"VRInitError_Driver_NotLoaded_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"VRInitError_Driver_RuntimeOutOfDate_Header" "Chyba režimu SteamVR"
-"VRInitError_Driver_RuntimeOutOfDate_Description" "Aplikace Oculus je zastaralá. Nainstalujte si její nejnovější verzi."
-"VRInitError_Driver_RuntimeOutOfDate_Action" "Přejít na oculus.com"
-"VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://www.oculus.com/rift-patch/"
-
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Aktualizace systému Windows 10"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "Aby bylo možné použít režim SteamVR se softwarem Windows Mixed Reality, musíte mít nainstalovanou aktuální verzi systému Windows."
-"VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "Více informací"
-"VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
-
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link není aktivován"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Pokud používáte Quest 2 nebo jiné samostatné zařízení, musíte v headsetu ještě před spuštěním režimu SteamVR ručně aktivovat Oculus Link nebo Air Link."
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Restartovat režim SteamVR"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "Přejít na oculus.com"
-"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
-
-"VRInitError_Driver_HmdInUse_Header" "Chyba režimu SteamVR"
-"VRInitError_Driver_HmdInUse_Description" "Heaset momentálně používá jiná aplikace. Ukončete tuto aplikaci a zkuste to znovu."
-"VRInitError_Driver_HmdInUse_Action" "Zkusit znovu"
-"VRInitError_Driver_HmdInUse_ActionURL" "vrmonitor://refresh"
-
-"VRInitError_Driver_NotCalibrated_Header" "Chyba zařízení"
-"VRInitError_Driver_NotCalibrated_Description" "Režimu SteamVR se nedaří načíst kalibrační soubor."
-"VRInitError_Driver_NotCalibrated_Action" "Více informací"
-"VRInitError_Driver_NotCalibrated_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_CalibrationInvalid_Header" "Chyba headsetu"
-"VRInitError_Driver_CalibrationInvalid_Description" "Režimu SteamVR se nedaří nainstalovat ovladače pro Váš headset."
-"VRInitError_Driver_CalibrationInvalid_Action" "Více informací"
-"VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Driver_HmdDisplayNotFound_Header" "Displej headsetu není připojen"
-"VRInitError_Driver_HmdDisplayNotFound_Description" "Displej headsetu nebyl nalezen. Ujistěte se, že máte řádně připojeny kabely."
-"VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Restartovat headset"
-"VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
-"VRInitError_Driver_HmdDisplayNotFound_Action" "Více informací"
-"VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Displej headsetu není připojen (notebook)"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Ujistěte se, že máte ke svému notebooku řádně připojeny všechny kabely. Notebooky mohou pro fungování s virtuální realitou obecně vyžadovat speciální instalaci."
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Restartovat headset"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "Více informací"
-"VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_HmdDisplayMirrored_Header" "Displej headsetu je zrcadlen"
-"VRInitError_Driver_HmdDisplayMirrored_Description" "Displej headsetu nebyl nalezen. Byl však nalezen zrcadlený displej. Pro vyřešení problému přepněte režim zrcadlení na režim rozšíření."
-"VRInitError_Driver_HmdDisplayMirrored_FirstAction" "Otevřít vlastnosti displeje"
-"VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
-"VRInitError_Driver_HmdDisplayMirrored_Action" "Více informací"
-"VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#headset"
-
-"VRInitError_Driver_PeerDriverNotInstalled_Header" "Chybí ovladač"
-"VRInitError_Driver_PeerDriverNotInstalled_Description" "Používaný headset vyžaduje ovladač, který není nainstalován."
-"VRInitError_Driver_PeerDriverNotInstalled_Action" "Více informací"
-"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
-
-"VRInitError_Driver_WirelessHmdNotConnected_Header" "Čeká se na bezdrátové spojení"
-"VRInitError_Driver_WirelessHmdNotConnected_Description" "Režim SteamVR čeká na připojení bezdrátového headsetu..."
-"VRInitError_Init_PrismNeedsNewDrivers_Header" "Aktualizace ovladače grafické karty"
-"VRInitError_Init_PrismNeedsNewDrivers_Description" "Je vyžadována aktualizace ovladače grafické karty nebo povolení plánování GPU s hardwarovou akcelerací."
-"VRInitError_Init_PrismNeedsNewDrivers_Action" "Více informací"
-"VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"VRInitError_Init_PrismStartupTimedOut_Header" "Chyba spouštění režimu SteamVR"
-"VRInitError_Init_PrismStartupTimedOut_Description" "Klíčový komponent režimu SteamVR se spouštěl příliš dlouho a nakonec selhal."
-"VRInitError_Init_PrismStartupTimedOut_Action" "Restartovat režim SteamVR"
-"VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
-
-"VRInitError_Init_CouldNotStartPrism_Header" "Chyba spouštění režimu SteamVR"
-"VRInitError_Init_CouldNotStartPrism_Description" "Klíčový komponent režimu SteamVR nebyl nalezen. Zkuste v klientu služby Steam ve vlastnostech režimu SteamVR vybrat možnost „Ověřit integritu souborů nástroje...“."
-"VRInitError_Init_CouldNotStartPrism_Action" "Více informací"
-"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=czech"
-
-"VRInitError_Init_PrismClientInitFailed_Header" "Chyba spouštění režimu SteamVR"
-"VRInitError_Init_PrismClientInitFailed_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_PrismClientInitFailed_Action" "Více informací"
-"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_PrismClientStartFailed_Header" "Chyba spouštění režimu SteamVR"
-"VRInitError_Init_PrismClientStartFailed_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_Init_PrismClientStartFailed_Action" "Více informací"
-"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Init_PrismExitedUnexpectedly_Header" "Selhání režimu SteamVR"
-"VRInitError_Init_PrismExitedUnexpectedly_Description" "Klíčový komponent režimu SteamVR selhal."
-"VRInitError_Init_PrismExitedUnexpectedly_Action" "Restartovat režim SteamVR"
-"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
-
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Headset nebyl nalezen"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Ujistěte se, že je headset správně připojen a restartujte jej."
-"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction" "Restartovat headset"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_Action" "Více informací"
-"VRInitError_Driver_HmdDriverIdOutOfBounds_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
-
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header" "Chyba zařízení"
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description" "Ovladač používaný tímto zařízením není kompatibilní s touto verzí režimu SteamVR."
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "Více informací"
-"VRInitError_Driver_TrackedDeviceInterfaceUnknown_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#tracking-issues"
-
-"VRInitError_IPC_ServerInitFailed_Header" "Problém s režimem SteamVR"
-"VRInitError_IPC_ServerInitFailed_Description" "Klíčový komponent režimu SteamVR nepracuje správně. Zkontrolujte, zdali je režim SteamVR správně nainstalován."
-"VRInitError_IPC_ServerInitFailed_Action" "Více informací"
-"VRInitError_IPC_ServerInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"VRInitError_IPC_ConnectFailed_Header" "Selhání režimu SteamVR"
-"VRInitError_IPC_ConnectFailed_Description" "Klíčový komponent režimu SteamVR nepracuje správně."
-"VRInitError_IPC_ConnectFailed_Action" "Více informací"
-"VRInitError_IPC_ConnectFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=40&return_nodeid=71"
-
-"VRInitError_IPC_SharedStateInitFailed_Header" "Selhání režimu SteamVR"
-"VRInitError_IPC_SharedStateInitFailed_Description" "Klíčový komponent režimu SteamVR nepracuje správně. Restartujte svůj počítač a zkuste to znovu."
-"VRInitError_IPC_SharedStateInitFailed_Action" "Více informací"
-"VRInitError_IPC_SharedStateInitFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_IPC_CompositorInitFailed_Header" "Něco se pokazilo"
-"VRInitError_IPC_CompositorInitFailed_Description" "Klíčový komponent režimu SteamVR nepracuje správně. Přeinstalujte režim SteamVR."
-"VRInitError_IPC_CompositorInitFailed_Action" "Více informací"
-"VRInitError_IPC_CompositorInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"VRInitError_IPC_MutexInitFailed_Header" "Něco se pokazilo"
-"VRInitError_IPC_MutexInitFailed_Description" "Klíčový komponent režimu SteamVR nepracuje správně. Přeinstalujte režim SteamVR."
-"VRInitError_IPC_MutexInitFailed_Action" "Více informací"
-"VRInitError_IPC_MutexInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"VRInitError_IPC_Failed_Header" "Selhání režimu SteamVR"
-"VRInitError_IPC_Failed_Description" "Došlo k neočekávané chybě režimu SteamVR. Více informací naleznete na stránkách podpory režimu SteamVR."
-"VRInitError_IPC_Failed_Action" "Více informací"
-"VRInitError_IPC_Failed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=77&return_nodeid=71"
-
-"VRInitError_IPC_CompositorConnectFailed_Header" "Selhání režimu SteamVR"
-"VRInitError_IPC_CompositorConnectFailed_Description" "Klíčový komponent režimu SteamVR nepracuje správně. Ukončete režim SteamVR, otevřete Správce úloh a před opětovným spuštěním režimu SteamVR ručně ukončete zbývající procesy s ním související."
-"VRInitError_IPC_CompositorConnectFailed_Action" "Více informací"
-"VRInitError_IPC_CompositorConnectFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_CompositorInvalidConnectResponse_Header" "Selhání režimu SteamVR"
-"VRInitError_IPC_CompositorInvalidConnectResponse_Description" "Klíčový komponent režimu SteamVR nepracuje správně. Ukončete režim SteamVR, otevřete Správce úloh a před opětovným spuštěním režimu SteamVR ručně ukončete zbývající procesy s ním související."
-"VRInitError_IPC_CompositorInvalidConnectResponse_Action" "Více informací"
-"VRInitError_IPC_CompositorInvalidConnectResponse_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header" "Selhání režimu SteamVR"
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description" "Klíčový komponent režimu SteamVR nepracuje správně. Ukončete režim SteamVR, otevřete Správce úloh a před opětovným spuštěním režimu SteamVR ručně ukončete zbývající procesy s ním související."
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "Více informací"
-"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Header" "Selhání režimu SteamVR"
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "Klíčový komponent režimu SteamVR nepracuje správně. Restartujte režim SteamVR."
-"VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "Více informací"
-"VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_IPC_NamespaceUnavailable_Header" "Selhání režimu SteamVR"
-"VRInitError_IPC_NamespaceUnavailable_Description" "Klíčový komponent režimu SteamVR nepracuje správně. Restartujte režim SteamVR."
-"VRInitError_IPC_NamespaceUnavailable_Action" "Více informací"
-"VRInitError_IPC_NamespaceUnavailable_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
-
-"VRInitError_Compositor_D3D11HardwareRequired_Header" "Je třeba upgradovat"
-"VRInitError_Compositor_D3D11HardwareRequired_Description" "Režimu SteamVR se nepodařilo nalézt hardware nebo ovladače kompatibilní s DirectX 11. Pravděpodobně budete muset upgradovat."
-"VRInitError_Compositor_D3D11HardwareRequired_Action" "Více informací"
-"VRInitError_Compositor_D3D11HardwareRequired_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_Compositor_FirmwareRequiresUpdate_Header" "Je třeba aktualizovat"
-"VRInitError_Compositor_FirmwareRequiresUpdate_Description" "Váš headset byl nalezen, ale k zaručení správné funkčnosti je vyžadována aktualizace."
-"VRInitError_Compositor_FirmwareRequiresUpdate_Action" "Aktualizovat headset"
-"VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
-
-"VRInitError_Compositor_UnableToCreateDevice_Header" "Chyba režimu SteamVR"
-"VRInitError_Compositor_UnableToCreateDevice_Description" "Pravděpodobně budete muset aktualizovat ovladač grafické karty."
-"VRInitError_Compositor_UnableToCreateDevice_Action" "Více informací"
-"VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Chyba režimu SteamVR"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "Režimu SteamVR se nepodařilo připojit k aplikaci Oculus. Ujistěte se, že máte nainstalovanou její nejnovější verzi."
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Přejít na oculus.com"
-"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
-
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "Chyba režimu SteamVR"
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Došlo k chybě instalace runtimu Oculus. Restartujte režim SteamVR a ujistěte se, že je Vaše aplikace Oculus nainstalovaná a aktualizovaná."
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Action" "Přejít na oculus.com"
-"VRInitError_VendorSpecific_OculusRuntimeBadInstall_ActionURL" "https://www.oculus.com/setup/"
-
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Header" "Chyba rozhraní USB"
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Description" "Zkontrolujte USB připojení headsetu a zkuste to znovu."
-"VRInitError_VendorSpecific_HmdFound_UserDataError_Action" "Více informací"
-"VRInitError_VendorSpecific_HmdFound_UserDataError_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "Chyba headsetu"
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description" "Váš headset byl nalezen, ale došlo k chybě jeho hardwaru. Kontaktujte proto jeho výrobce."
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" "
-"
-"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "
-"
-
-"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Chyba konfigurace displeje headsetu"
-"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Displej headsetu disponuje neplatnou konfigurací. Pro další pomoc kontaktujte podporu."
-"VRInitError_Steam_SteamInstallationNotFound_Header" "Chyba režimu SteamVR"
-"VRInitError_Steam_SteamInstallationNotFound_Description" "Pro správnou funkci režimu SteamVR je potřeba mít nainstalovaného klienta služby Steam."
-"VRInitError_Steam_SteamInstallationNotFound_Action" "Nainstalovat klienta"
-"VRInitError_Steam_SteamInstallationNotFound_ActionURL" "vrmonitor://installsteam"
-
-"ChaperoneCalibrationState_Warning_Header" "Příprava místnosti"
-"ChaperoneCalibrationState_Warning_Description" "Spusťte přípravu místnosti a s její pomocí určete oblast pro hraní a kolizní hranice."
-"ChaperoneCalibrationState_Warning_Action" "Spustit přípravu místnosti"
-"ChaperoneCalibrationState_Warning_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header" "Příprava místnosti"
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description" "Zdá se, že základní stanice byla přemístěna. Spusťte přípravu místnosti a s její pomocí znovu určete oblast pro hraní a kolizní hranice."
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action" "Spustit přípravu místnosti"
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Header" "Základní stanice byla odebrána"
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Description" "Režim SteamVR ztratil spojení s jednou ze základních stanic. Spusťte znovu přípravu místnosti."
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_Action" "Spustit přípravu místnosti"
-"ChaperoneCalibrationState_Warning_BaseStationRemoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Header" "Příprava místnosti"
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Description" "Spusťte přípravu místnosti a s její pomocí nastavte pozici vsedě."
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_Action" "Spustit přípravu místnosti"
-"ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_Header" "Příprava místnosti"
-"ChaperoneCalibrationState_Error_Description" "Spusťte přípravu místnosti a s její pomocí určete oblast pro hraní a kolizní hranice."
-"ChaperoneCalibrationState_Error_Action" "Spustit přípravu místnosti"
-"ChaperoneCalibrationState_Error_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Header" "Příprava místnosti"
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Description" "Před používáním režimu SteamVR je třeba provést přípravu místnosti."
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_Action" "Spustit přípravu místnosti"
-"ChaperoneCalibrationState_Error_BaseStationUninitialized_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_BaseStationConflict_Header" "Příprava místnosti"
-"ChaperoneCalibrationState_Error_BaseStationConflict_Description" "Spusťte přípravu místnosti a s její pomocí znovu určete oblast pro hraní a kolizní hranice."
-"ChaperoneCalibrationState_Error_BaseStationConflict_Action" "Spustit přípravu místnosti"
-"ChaperoneCalibrationState_Error_BaseStationConflict_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "Příprava místnosti"
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "Spusťte přípravu místnosti a s její pomocí znovu určete oblast pro hraní a kolizní hranice."
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Action" "Spustit přípravu místnosti"
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Header" "Příprava místnosti"
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Description" "Spusťte přípravu místnosti a s její pomocí znovu určete oblast pro hraní a kolizní hranice."
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_Action" "Spustit přípravu místnosti"
-"ChaperoneCalibrationState_Error_CollisionBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
-
-"Lighthouse_UnknownEvent_Header" "Chyba základní stanice"
-"Lighthouse_UnknownEvent_Description" "Se systémem SteamVR Tracking je něco v nepořádku. Více informací naleznete na stránkách podpory režimu SteamVR."
-"Lighthouse_UnknownEvent_Action" "Více informací"
-"Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Lighthouse_BasestationFactoryError_Header" "Chyba základní stanice"
-"Lighthouse_BasestationFactoryError_Description" "Tato základní stanice trpí výrobní vadou. Kontaktujte proto jejího výrobce a zažádejte o náhradní stanici."
+"Error_TrackingDevice_NotValid_Description" "Ujist
+"Error_TrackingDevice_NotValid_Header" "Za
+"Error_VRServerNotRunning_Action" "Restartovat re
+"Error_VRServerNotRunning_ActionURL" "vrmonitor://restartsystem"
+"Error_VRServerNotRunning_Description" "Ale ne! Do
+"Error_VRServerNotRunning_Header" "Selh
+"Language" "czech" 
 "Lighthouse_BasestationFactoryError_Action" "
-"
 "Lighthouse_BasestationFactoryError_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_01_Header" "Chyba základní stanice"
-"Lighthouse_BasestationInternalFault_01_Description" "Jedna z Vašich základních stanic se potýká s interním problémem. Odpojte a znovu zapojte červeně blikající základní stanici. Pokud problém přetrvává, kontaktujte jejího výrobce."
+"Lighthouse_BasestationFactoryError_Description" "Tato z
+"Lighthouse_BasestationFactoryError_Header" "Chyba z
 "Lighthouse_BasestationInternalFault_01_Action" "
-"
 "Lighthouse_BasestationInternalFault_01_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_02_Header" "Chyba základní stanice"
-"Lighthouse_BasestationInternalFault_02_Description" "Základní stanice se potýká s interním problémem. Odpojte a znovu zapojte červeně blikající základní stanici. Pokud problém přetrvává, kontaktujte jejího výrobce."
+"Lighthouse_BasestationInternalFault_01_Description" "Jedna z Va
+"Lighthouse_BasestationInternalFault_01_Header" "Chyba z
 "Lighthouse_BasestationInternalFault_02_Action" "
-"
 "Lighthouse_BasestationInternalFault_02_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_03_Header" "Chyba základní stanice"
-"Lighthouse_BasestationInternalFault_03_Description" "Základní stanice se potýká s interním problémem. Odpojte a znovu zapojte červeně blikající základní stanici. Pokud problém přetrvává, kontaktujte jejího výrobce."
+"Lighthouse_BasestationInternalFault_02_Description" "Z
+"Lighthouse_BasestationInternalFault_02_Header" "Chyba z
 "Lighthouse_BasestationInternalFault_03_Action" "
-"
 "Lighthouse_BasestationInternalFault_03_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_04_Header" "Chyba základní stanice"
-"Lighthouse_BasestationInternalFault_04_Description" "Základní stanice se potýká s interním problémem. Odpojte a znovu zapojte červeně blikající základní stanici. Pokud problém přetrvává, kontaktujte jejího výrobce."
+"Lighthouse_BasestationInternalFault_03_Description" "Z
+"Lighthouse_BasestationInternalFault_03_Header" "Chyba z
 "Lighthouse_BasestationInternalFault_04_Action" "
-"
 "Lighthouse_BasestationInternalFault_04_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_05_Header" "Chyba základní stanice"
-"Lighthouse_BasestationInternalFault_05_Description" "Základní stanice se potýká s interním problémem (chyba č. 5). Odpojte a znovu zapojte červeně blikající základní stanici. Pokud problém přetrvává, kontaktujte jejího výrobce."
+"Lighthouse_BasestationInternalFault_04_Description" "Z
+"Lighthouse_BasestationInternalFault_04_Header" "Chyba z
 "Lighthouse_BasestationInternalFault_05_Action" "
-"
 "Lighthouse_BasestationInternalFault_05_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_06_Header" "Chyba základní stanice"
-"Lighthouse_BasestationInternalFault_06_Description" "Základní stanice se potýká s interním problémem. Odpojte a znovu zapojte červeně blikající základní stanici. Pokud problém přetrvává, kontaktujte jejího výrobce."
+"Lighthouse_BasestationInternalFault_05_Description" "Z
+"Lighthouse_BasestationInternalFault_05_Header" "Chyba z
 "Lighthouse_BasestationInternalFault_06_Action" "
-"
 "Lighthouse_BasestationInternalFault_06_ActionURL" "
-"
-
-"Lighthouse_BasestationInternalFault_07_Header" "Základní stanice je nepoužitelná"
-"Lighthouse_BasestationInternalFault_07_Description" "Základní stanice se potýká s interním problémem. Odpojte a znovu zapojte červeně blikající základní stanici. Pokud problém přetrvává, kontaktujte jejího výrobce."
+"Lighthouse_BasestationInternalFault_06_Description" "Z
+"Lighthouse_BasestationInternalFault_06_Header" "Chyba z
 "Lighthouse_BasestationInternalFault_07_Action" "
-"
 "Lighthouse_BasestationInternalFault_07_ActionURL" "
-"
-
-"Lighthouse_Disambiguator_TooManyBasestations_Header" "Příliš mnoho základních stanic"
-"Lighthouse_Disambiguator_TooManyBasestations_Description" "Ujistěte se, že v dohledu Vašich ovladačů a headsetu jsou pouze dvě základní stanice."
+"Lighthouse_BasestationInternalFault_07_Description" "Z
+"Lighthouse_BasestationInternalFault_07_Header" "Z
+"Lighthouse_Disambiguator_TdmConfigurationError_Action" "V
+"Lighthouse_Disambiguator_TdmConfigurationError_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#base-stations"
+"Lighthouse_Disambiguator_TdmConfigurationError_Description" "Va
+"Lighthouse_Disambiguator_TdmConfigurationError_Header" "Chyba z
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "V
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#base-stations"
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "Va
+"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header" "Chyba z
 "Lighthouse_Disambiguator_TooManyBasestations_Action" "Zkusit znovu"
 "Lighthouse_Disambiguator_TooManyBasestations_ActionURL" "vrmonitor://lighthouse_check"
-
-"Lighthouse_Disambiguator_TdmConfigurationError_Header" "Chyba základní stanice"
-"Lighthouse_Disambiguator_TdmConfigurationError_Description" "Vaše základní stanice se nesynchronizují. Ujistěte se, že jsou správně nastavené."
-"Lighthouse_Disambiguator_TdmConfigurationError_Action" "Více informací"
-"Lighthouse_Disambiguator_TdmConfigurationError_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#base-stations"
-
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Header" "Chyba základní stanice"
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Description" "Vaše základní stanice jsou nastaveny v režimech „A“ a „c“. Pro zajištění optické synchronizace přepněte stanici s „A“ na „b“."
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_Action" "Více informací"
-"Lighthouse_Disambiguator_TdmMasterBaseInSlaveMode_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#base-stations"
-
-"Lighthouse_RecommendControllerUpgradeOverUsb_Header" "Ovladač vyžaduje aktualizaci"
-"Lighthouse_RecommendControllerUpgradeOverUsb_Description" "Ovladač má problémy s bezdrátovým připojením. Připojte proto ovladač pomocí USB kabelu a aktualizujte jej."
-"Lighthouse_RecommendControllerUpgradeOverUsb_Action" "Aktualizovat ovladač"
+"Lighthouse_Disambiguator_TooManyBasestations_Description" "Ujist
+"Lighthouse_Disambiguator_TooManyBasestations_Header" "P
+"Lighthouse_RecommendControllerUpgradeOverUsb_Action" "Aktualizovat ovlada
 "Lighthouse_RecommendControllerUpgradeOverUsb_ActionURL" "vrmonitor://firmwareupdate/"
-
-"Popover_Off_Invalid_Header" "Zařízení není připojeno"
-"Popover_Off_HMD_Header" "Headset nebyl nalezen"
-"Popover_Off_HMD_Description" "Ujistěte se, že je headset správně připojen."
-"Popover_Off_HMD_Action" "Více informací"
-"Popover_Off_HMD_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#headset"
-
-"Popover_Off_Controller_Header" "Ovladač nebyl nalezen"
-"Popover_Off_Controller_Description" "Ujistěte se, že je ovladač zapnutý a nachází se ve Vaší blízkosti."
-"Popover_Off_Controller_Action" "Více informací"
-"Popover_Off_Controller_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#controllers"
-"Popover_Off_Controller_FirstAction" "Spárovat ovladač"
-"Popover_Off_Controller_FirstActionURL" "vrmonitor://pairingwizard"
-
-"Popover_Off_Base_Header" "Nebyla nalezena základní stanice"
-"Popover_Off_Base_Description" "Ujistěte se, že je stanice zapnutá a nachází se v dohledu headsetu."
-"Popover_Off_Base_Action" "Více informací"
-"Popover_Off_Base_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#base-stations"
-
-"Popover_Off_Tracker_Header" "Sledovací zařízení nebylo nalezeno"
-"Popover_Off_Tracker_Action" "Více informací"
-"Popover_Off_Tracker_ActionURL" "https://community.viveport.com/t5/Technical-Support/bd-p/technical-support"
-
-"Popover_NotReady_Invalid_Header" "Zařízení není připraveno"
-"Popover_NotReady_Invalid_Action" "Více informací"
-"Popover_NotReady_Invalid_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech"
-
-"Popover_NotReady_HMD_Header" "Headset není připraven"
-"Popover_NotReady_Controller_Header" "Ovladač není připraven"
-"Popover_NotReady_Controller_Description" "Ujistěte se, že je ovladač zapnutý a nachází se ve Vaší blízkosti."
-"Popover_NotReady_Base_Header" "Základní stanice není připravena"
-"Popover_NotReady_Tracker_Header" "Sledovací zařízení není připraveno"
-"Popover_Pose_Invalid_Header" "Zařízení je aktivní"
-"Popover_Pose_Invalid_Description" "Pohyb tohoto neznámého zařízení je sledován."
-"Popover_Pose_Invalid_Action" "Více informací"
-"Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Popover_Pose_HMD_Header" "Headset je aktivní"
-"Popover_Pose_HMD_Description" "Pohyb Vašeho headsetu je sledován."
-"Popover_Pose_Controller_Header" "Ovladač je aktivní"
-"Popover_Pose_Controller_Description" "Pohyb tohoto ovladače je sledován."
-"Popover_Pose_Controller_Action" "Rozpoznat ovladač"
-"Popover_Pose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_Pose_Base_Header" "Základní stanice je aktivní"
-"Popover_Pose_Base_Description" "Tato základní stanice sleduje pohyb."
-"Popover_Pose_Base_Action" "Rozpoznat základní stanici"
-"Popover_Pose_Base_ActionURL" "vrmonitor://identifybasestation/?index=%1"
-
-"Popover_Pose_Tracker_Header" "Sledovací zařízení je aktivní"
-"Popover_Pose_Tracker_Description" "Toto zařízení sleduje pohyb."
-"Popover_NoPose_Invalid_Header" "Nesleduje pohyb"
-"Popover_NoPose_Invalid_Description" "Toto neznámé zařízení není sledováno."
-"Popover_NoPose_Invalid_Action" "Více informací"
-"Popover_NoPose_Invalid_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
-
-"Popover_NoPose_HMD_Header" "Vyhledávání..."
-"Popover_NoPose_HMD_Description" "Tento headset není sledován. Zajistěte, aby byl v dohledu základní stanice."
-"Popover_NoPose_HMD_Action" "Více informací"
-"Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoPose_Controller_Header" "Vyhledávání..."
-"Popover_NoPose_Controller_Description" "Tento ovladač není sledován. Zajistěte, aby byl v dohledu základní stanice."
-"Popover_NoPose_Controller_Action" "Rozpoznat ovladač"
-"Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_NoPose_Base_Header" "Vyhledávání..."
-"Popover_NoPose_Base_Description" "Tato základní stanice nesleduje žádné zařízení. Zajistěte, aby byla v dohledu Vašeho headsetu."
-"Popover_NoPose_Base_Action" "Více informací"
-"Popover_NoPose_Base_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoPose_Tracker_Header" "Vyhledávání..."
-"Popover_NoPose_Tracker_Description" "Toto zařízení není sledováno. Zajistěte, aby bylo v dohledu základní stanice."
-"Popover_NoPose_Tracker_Action" "Více informací"
-"Popover_NoPose_Tracker_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Popover_Standby_Invalid_Header" "V režimu standby"
-"Popover_Standby_Invalid_Description" "Toto zařízení je v režimu standby."
-"Popover_Standby_HMD_Header" "Headset je v režimu standby"
-"Popover_Standby_HMD_Description" "Pohněte headsetem, abyste jej probudili."
-"Popover_Standby_Controller_Header" "Ovladač je v režimu standby"
-"Popover_Standby_Controller_Description" "Pohněte ovladačem, abyste jej probudili."
-"Popover_Standby_Base_Header" "Základní stanice je v režimu standby"
-"Popover_Standby_Base_Description" "Přejděte do virtuální reality, abyste stanici probudili."
-"Popover_Standby_Tracker_Header" "Sledovací zařízení je v režimu standby"
-"Popover_Standby_Tracker_Description" "Pohněte sledovacím zařízením, abyste jej probudili."
-"Popover_LowBattery_HMD_Header" "Headset je málo nabitý"
-"Popover_LowBattery_HMD_Description" "Tento headset je třeba nabít."
-"Popover_LowBattery_Controller_Header" "Ovladač je málo nabitý"
-"Popover_LowBattery_Controller_Description" "Tento ovladač je třeba nabít."
-"Popover_LowBattery_Controller_Action" "Rozpoznat ovladač"
-"Popover_LowBattery_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
-
-"Popover_LowBattery_Tracker_Header" "Sledovací zařízení je málo nabité"
-"Popover_LowBattery_Tracker_Description" "Toto sledovací zařízení je třeba nabít."
-"Popover_BaseStationNoPowerManagement_Header" "Řízení napájení"
-"Popover_BaseStationNoPowerManagement_Description" "Tato základní stanice nepodporuje řízení napájení."
-"Popover_BaseStationNoPowerManagement_Action" "Více informací"
+"Lighthouse_RecommendControllerUpgradeOverUsb_Description" "Ovlada
+"Lighthouse_RecommendControllerUpgradeOverUsb_Header" "Ovlada
+"Lighthouse_UnknownEvent_Action" "V
+"Lighthouse_UnknownEvent_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Lighthouse_UnknownEvent_Description" "Se syst
+"Lighthouse_UnknownEvent_Header" "Chyba z
+"Popover_BaseStationNoPowerManagement_Action" "V
 "Popover_BaseStationNoPowerManagement_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Popover_NoSteamWarning_Header" "Chyba klienta služby Steam"
-"Popover_NoSteamWarning_Description" "Ujistěte se, že máte nainstalovaného a spuštěného klienta služby Steam."
+"Popover_BaseStationNoPowerManagement_Description" "Tato z
+"Popover_BaseStationNoPowerManagement_Header" "
+"Popover_BaseStationsTooFarApart_Action" "V
+"Popover_BaseStationsTooFarApart_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Popover_BaseStationsTooFarApart_Description" "Va
+"Popover_BaseStationsTooFarApart_Header" "Pozn
+"Popover_ConnectionRefusedBySteam_Action" "V
+"Popover_ConnectionRefusedBySteam_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Popover_ConnectionRefusedBySteam_Description" "Re
+"Popover_ConnectionRefusedBySteam_Header" "Chyba slu
+"Popover_DirectModeDriverUpdate_Action" "St
+"Popover_DirectModeDriverUpdate_ActionURL_AMD" "http://support.amd.com/en-us/download"
+"Popover_DirectModeDriverUpdate_ActionURL_NVIDIA" "http://www.nvidia.com/Download/index.aspx"
+"Popover_DirectModeDriverUpdate_Description" "Pro aktivaci p
+"Popover_DirectModeDriverUpdate_Header" "Aktualizace ovlada
+"Popover_FirmwareUpdateNeededWarning_Action" "V
+"Popover_FirmwareUpdateNeededWarning_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate" "Aktualizovat za
+"Popover_FirmwareUpdateNeededWarning_Description" "Je na
+"Popover_FirmwareUpdateNeededWarning_Header" "Je dostupn
+"Popover_LowBattery_Controller_Action" "Rozpoznat ovlada
+"Popover_LowBattery_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_LowBattery_Controller_Description" "Tento ovlada
+"Popover_LowBattery_Controller_Header" "Ovlada
+"Popover_LowBattery_HMD_Description" "Tento headset je t
+"Popover_LowBattery_HMD_Header" "Headset je m
+"Popover_LowBattery_Tracker_Description" "Toto sledovac
+"Popover_LowBattery_Tracker_Header" "Sledovac
+"Popover_NoPose_Base_Action" "V
+"Popover_NoPose_Base_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_Base_Description" "Tato z
+"Popover_NoPose_Base_Header" "Vyhled
+"Popover_NoPose_Controller_Action" "Rozpoznat ovlada
+"Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_NoPose_Controller_Description" "Tento ovlada
+"Popover_NoPose_Controller_Header" "Vyhled
+"Popover_NoPose_HMD_Action" "V
+"Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_HMD_Description" "Tento headset nen
+"Popover_NoPose_HMD_Header" "Vyhled
+"Popover_NoPose_Invalid_Action" "V
+"Popover_NoPose_Invalid_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
+"Popover_NoPose_Invalid_Description" "Toto nezn
+"Popover_NoPose_Invalid_Header" "Nesleduje pohyb"
+"Popover_NoPose_Tracker_Action" "V
+"Popover_NoPose_Tracker_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Popover_NoPose_Tracker_Description" "Toto za
+"Popover_NoPose_Tracker_Header" "Vyhled
 "Popover_NoSteamWarning_Action" "Spustit klienta"
 "Popover_NoSteamWarning_ActionURL" "vrmonitor://startsteam"
-
-"Popover_FirmwareUpdateNeededWarning_Header" "Je dostupná aktualizace"
-"Popover_FirmwareUpdateNeededWarning_Description" "Je načase aktualizovat toto zařízení."
-"Popover_FirmwareUpdateNeededWarning_Action_AutomaticUpdate" "Aktualizovat zařízení"
-"Popover_FirmwareUpdateNeededWarning_Action" "Více informací"
-"Popover_FirmwareUpdateNeededWarning_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Popover_ConnectionRefusedBySteam_Header" "Chyba služby Steam"
-"Popover_ConnectionRefusedBySteam_Description" "Režimu SteamVR se nepodařilo připojit ke službě Steam. Restartujte klienta služby Steam a zkuste to znovu."
-"Popover_ConnectionRefusedBySteam_Action" "Více informací"
-"Popover_ConnectionRefusedBySteam_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Popover_DirectModeDriverUpdate_Header" "Aktualizace ovladačů grafické karty"
-"Popover_DirectModeDriverUpdate_Description" "Pro aktivaci přímého zobrazovacího režimu aktualizujte ovladače grafické karty. Je nainstalovaná verze %1, nicméně přímý zobrazovací režim vyžaduje verzi %2."
-"Popover_DirectModeDriverUpdate_Action" "Stáhnout ovladače"
-"Popover_DirectModeDriverUpdate_ActionURL_NVIDIA" "http://www.nvidia.com/Download/index.aspx"
-"Popover_DirectModeDriverUpdate_ActionURL_AMD" "http://support.amd.com/en-us/download"
-
-"Popover_BaseStationsTooFarApart_Header" "Poznámka režimu SteamVR"
-"Popover_BaseStationsTooFarApart_Description" "Vaše základní stanice jsou od sebe %1 metrů. Pro dosažení co nejlepší funkčnosti by od sebe základní stanice měly být nejvíce 5,5 metru."
-"Popover_BaseStationsTooFarApart_Action" "Více informací"
-"Popover_BaseStationsTooFarApart_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Popover_SeeOnlyOneBase_Header" "Je vidět pouze na jednu základní stanici"
-"Popover_SeeOnlyOneBase_Description" "Pokud pro sledování pohybu používáte pouze jednu základní stanici, je vhodné ji přepnout do módu „A“."
-"Popover_SeeOnlyOneBase_Action" "Více informací"
+"Popover_NoSteamWarning_Description" "Ujist
+"Popover_NoSteamWarning_Header" "Chyba klienta slu
+"Popover_NotReady_Base_Header" "Z
+"Popover_NotReady_Controller_Description" "Ujist
+"Popover_NotReady_Controller_Header" "Ovlada
+"Popover_NotReady_HMD_Header" "Headset nen
+"Popover_NotReady_Invalid_Action" "V
+"Popover_NotReady_Invalid_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech"
+"Popover_NotReady_Invalid_Header" "Za
+"Popover_NotReady_Tracker_Header" "Sledovac
+"Popover_Off_Base_Action" "V
+"Popover_Off_Base_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#base-stations"
+"Popover_Off_Base_Description" "Ujist
+"Popover_Off_Base_Header" "Nebyla nalezena z
+"Popover_Off_Controller_Action" "V
+"Popover_Off_Controller_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#controllers"
+"Popover_Off_Controller_Description" "Ujist
+"Popover_Off_Controller_FirstAction" "Sp
+"Popover_Off_Controller_FirstActionURL" "vrmonitor://pairingwizard"
+"Popover_Off_Controller_Header" "Ovlada
+"Popover_Off_HMD_Action" "V
+"Popover_Off_HMD_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#headset"
+"Popover_Off_HMD_Description" "Ujist
+"Popover_Off_HMD_Header" "Headset nebyl nalezen"
+"Popover_Off_Invalid_Header" "Za
+"Popover_Off_Tracker_Action" "V
+"Popover_Off_Tracker_ActionURL" "https://community.viveport.com/t5/Technical-Support/bd-p/technical-support"
+"Popover_Off_Tracker_Header" "Sledovac
+"Popover_Pose_Base_Action" "Rozpoznat z
+"Popover_Pose_Base_ActionURL" "vrmonitor://identifybasestation/?index=%1"
+"Popover_Pose_Base_Description" "Tato z
+"Popover_Pose_Base_Header" "Z
+"Popover_Pose_Controller_Action" "Rozpoznat ovlada
+"Popover_Pose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+"Popover_Pose_Controller_Description" "Pohyb tohoto ovlada
+"Popover_Pose_Controller_Header" "Ovlada
+"Popover_Pose_HMD_Description" "Pohyb Va
+"Popover_Pose_HMD_Header" "Headset je aktivn
+"Popover_Pose_Invalid_Action" "V
+"Popover_Pose_Invalid_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Popover_Pose_Invalid_Description" "Pohyb tohoto nezn
+"Popover_Pose_Invalid_Header" "Za
+"Popover_Pose_Tracker_Description" "Toto za
+"Popover_Pose_Tracker_Header" "Sledovac
+"Popover_SeeOnlyOneBase_Action" "V
 "Popover_SeeOnlyOneBase_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/?l=czech"
-
-"Warning_DismissableWarning_RunTutorialAgain_Header" "Příprava místnosti a tutoriál"
-"Warning_DismissableWarning_RunTutorialAgain_Description" "Přípravu místnosti nebo tutoriál můžete z nabídky režimu SteamVR kdykoli spustit znovu."
-"Warning_DismissableWarning_RunTutorialAgain_Action" "Více informací"
-"Warning_DismissableWarning_RunTutorialAgain_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_BasestationsTooFarApart_Header" "Poznámka režimu SteamVR"
-"Warning_DismissableWarning_BasestationsTooFarApart_Description" "Vaše základní stanice jsou od sebe dál, než je doporučeno. Pro dosažení co nejlepší funkčnosti by od sebe základní stanice měly být nejvíce 5,5 metru."
-"Warning_DismissableWarning_BasestationsTooFarApart_Action" "Více informací"
-"Warning_DismissableWarning_BasestationsTooFarApart_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Header" "Chyba základní stanice"
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description" "Zdá se, že něco blokuje optické spojení mezi základními stanicemi. Pokud se s touto chybou potýkáte častěji, popřemýšlejte o použití synchronizačního kabelu."
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action" "Více informací"
-"Warning_DismissableWarning_OpticalBasestationSyncWarning_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#base-stations"
-
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header" "Byla nalezena pouze jedna základní stanice"
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "Pokud pro sledování pohybu používáte pouze jednu základní stanici, je vhodné ji přepnout do módu „A“."
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" "Více informací"
-"Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/?l=czech"
-
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Header" "Chyba nastavení základní stanice"
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description" "Režim SteamVR spatřil na kanálu %1 více základních stanic. Pro dosažení co nejlepší funkčnosti je doporučeno nastavit každé viditelné stanici vlastní kanál."
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" "Nastavit"
-"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" "vrmonitor://open/settings/basestation/configurechannels"
-
-"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Jsou blokovány některé doplňky"
-"Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Z důvodu</span> nedávného pádu jsou nyní blokovány některé doplňky režimu SteamVR.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech'>Více informací</a>"
-"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Spravovat doplňky"
-"Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
-
-"Warning_DismissableWarning_SteamVRUpdated_Header" "Aktualizace režimu SteamVR"
-"Warning_DismissableWarning_SteamVRUpdated_Description" "Režim SteamVR byl aktualizován na verzi %2."
-"Warning_DismissableWarning_SteamVRUpdated_Action" "Prohlédnout si změny"
-"Warning_DismissableWarning_SteamVRUpdated_ActionURL" "%1"
-
-"Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Informace o zařízení"
-"Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Abyste zjistili podrobnosti a stav každého zařízení, najeďte níže myší na jeho ikonku. Pokud zařízení vyžaduje Vaši pozornost, například z důvodu aktualizace, na jeho ikonce se objeví „( i )“."
-"Warning_DismissableWarning_WarningsForTheFirstTime_Action" "Více informací"
-"Warning_DismissableWarning_WarningsForTheFirstTime_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_MissedFrames_Header" "Chyba aplikace"
-"Warning_DismissableWarning_MissedFrames_Description" "Spuštěná aplikace běží příliš pomalu, kvůli čemuž si ji pořádně neužijete. Tento problém může být způsoben buď přílišnou náročností aplikace nebo nízkým výkonem Vašeho počítače."
-"Warning_DismissableWarning_MissedFrames_Action" "Více informací"
-"Warning_DismissableWarning_MissedFrames_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header" "Chyba Bluetooth"
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description" "Pro dokončení instalace Link Boxu musí být nainstalován ovladač."
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action" "Nastavení Bluetooth"
-"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Header" "Chyba Bluetooth"
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Description" "Pro dokončení instalace Link Boxu musí být aktualizován ovladač Bluetooth."
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Action" "Nastavení Bluetooth"
-"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header" "Chyba Bluetooth"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description" "Zkontrolujte připojení Link Boxu, restartujte jej odpojením a opětovným zapojením napájecího kabelu a následně restartujte také režim SteamVR."
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action" "Nastavení Bluetooth"
-"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Header" "Chyba Bluetooth"
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Description" "Chybí některé důležité soubory. Přeinstalujte režim SteamVR."
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action" "Více informací"
-"Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"Warning_DismissableWarning_BluetoothLinkServiceError_Header" "Chyba Bluetooth"
-"Warning_DismissableWarning_BluetoothLinkServiceError_Description" "Režim SteamVR detekoval neočekávanou chybu Bluetooth."
-"Warning_DismissableWarning_BluetoothLinkServiceError_Action" "Nastavení Bluetooth"
-"Warning_DismissableWarning_BluetoothLinkServiceError_ActionURL" "vrmonitor://open/settings/bluetooth"
-
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Header" "Chyba displeje"
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Description" "Váš displej je nastaven tak, aby zrcadlil svůj obsah. To může ovlivnit výkon nebo způsobit to, že displej headsetu nebude použitelný."
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_Action" "Otevřít vlastnosti displeje"
-"Warning_DismissableWarning_SomeDisplaysAreMirroring_ActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
-
-"Warning_DismissableWarning_UnknownHardwareDetected_Header" "Bylo nalezeno nové zařízení"
-"Warning_DismissableWarning_UnknownHardwareDetected_Description" "Gratulujeme k pořízení nového hardwaru! Přečtěte si návod k jeho instalaci a zajistěte, aby jej mohl režim SteamVR správně detekovat."
-"Warning_DismissableWarning_UnknownHardwareDetected_Action" "Více informací"
-"Warning_DismissableWarning_UnknownHardwareDetected_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_WindowsAeroDisabled_Header" "Optimalizace výkonu"
-"Warning_DismissableWarning_WindowsAeroDisabled_Description" "Pro dosažení co nejlepšího výkonu doporučujeme v systému Windows aktivovat prostředí Aero."
-"Warning_DismissableWarning_WindowsAeroDisabled_Action" "Otevřít přizpůsobení"
-"Warning_DismissableWarning_WindowsAeroDisabled_ActionURL" "vrmonitor://controlpanel/Microsoft.Personalization"
-
-"Warning_DismissableWarning_Windows8_Header" "Aktualizace systému Windows"
-"Warning_DismissableWarning_Windows8_Description" "Režim SteamVR není na systému Windows 8 podporován. Pro co nejlepší výsledky aktualizujte na Windows 8.1 nebo Windows 10."
-"Warning_DismissableWarning_Windows8_Action" "Více informací"
-"Warning_DismissableWarning_Windows8_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_DisplayInExtendedMode_Header" "Upozornění headsetu"
-"Warning_DismissableWarning_DisplayInExtendedMode_Description" "Režim SteamVR zjistil, že Váš headset je používán jako monitor. Pro co nejlepší výsledky přepněte na přímý zobrazovací režim."
-"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Zapnout přímý zobrazovací režim"
-"Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
-
-"Warning_DismissableWarning_IssuesWithOneDongle_Header" "Chyba headsetu"
-"Warning_DismissableWarning_IssuesWithOneDongle_Description" "Jeden z hardwarových klíčů Vašeho headsetu nebyl nalezen, což může způsobit problémy s připojením ovladačů."
-"Warning_DismissableWarning_IssuesWithOneDongle_Action" "Více informací"
-"Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#wireless-receivers"
-
-"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Hardwarové klíče nebyly nalezeny"
-"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "Hardwarové klíče Vašeho headsetu nebyly nalezeny, což může způsobit problémy s připojením ovladačů."
-"Warning_DismissableWarning_IssuesWithTwoDongles_Action" "Více informací"
-"Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#wireless-receivers"
-
-"Warning_DismissableWarning_NewDriverInstalled_Header" "Nedokončená aktualizace zařízení"
-"Warning_DismissableWarning_NewDriverInstalled_Description" "Aby byla instalace dokončena, restartujte režim SteamVR."
-"Warning_DismissableWarning_NewDriverInstalled_Action" "Restartovat režim SteamVR"
-"Warning_DismissableWarning_NewDriverInstalled_ActionURL" "vrmonitor://restartsystem"
-
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Header" "Nesprávná grafická karta"
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Description" "Připojte headset ke stejné grafické kartě jako primární monitor."
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Action" "Více informací"
-"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Header" "Aktualizujte ovladače grafické karty"
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Description" "Aby režim SteamVR pracoval co nejlépe, doporučujeme aktualizovat na nejnovější ovladače grafické karty."
-"Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "Více informací"
-"Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
-
-"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Aktualizujte ovladače grafické karty"
-"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Nainstalovaný ovladač grafické karty se potýká s chybou, která může zablokovat Váš počítač. Nainstalujte proto nejnovější hotfix odkázaný níže."
-"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "Více informací"
-"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
-
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Headset není připojen"
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Displej headsetu byl odpojen. Zkontrolujte připojení a zkuste to znovu."
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "Více informací"
-"Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "Přerušené spojení v headsetu"
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "V headsetu došlo k odpojení kabelu. Zajistěte bezproblémové spojení v oblasti za těsnicí maskou headsetu."
-"Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "Více informací"
-"Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Chyba připojení headsetu"
-"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Byla zjištěna chyba připojení displeje. Odpojte a znovu připojte svůj headset. Také můžete zkusit restartovat režim SteamVR."
-"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Restartovat režim SteamVR"
-"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
-
-"Warning_DismissableWarning_HDCPError_Header" "Chyba režimu SteamVR"
-"Warning_DismissableWarning_HDCPError_Description" "<span>Vaše</span> GPU má problém s komunikací s headsetem, což vyústilo v chybu s HDCP. Zkuste odebrat veškeré adaptéry nebo prodlužovače a také (pokud je dostupný) zkuste jiný port GPU. <b>Kliknutím níže bude resetován Váš headset, takže se GPU pokusí znovu připojit.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=czech'>Více informací</a>."
-"Warning_DismissableWarning_HDCPError_Action" "Resetovat headset"
-"Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
-
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "Chyba režimu SteamVR"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>Vaše</span> GPU má problém s komunikací s headsetem, což vyústilo v chybu s HDCP. Zkuste odebrat veškeré adaptéry nebo prodlužovače a také (pokud je dostupný) zkuste jiný port GPU. <p> <b>Kliknutím níže bude aktivován režim kompatibility HDCP 1.4 Legacy a RESTARTOVÁN režim SteamVR.</b>"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "Restartovat (HDCP)"
-"Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
-
-"Warning_DismissableWarning_OutOfVideoMemory_Header" "Byla vyčerpána grafická paměť"
-"Warning_DismissableWarning_OutOfVideoMemory_Description" "Vašemu systému dochází grafická paměť, což bude mít za následek zhoršení výkonu. Ukončete spuštěnou aplikaci nebo restartujte režim SteamVR."
-"Warning_DismissableWarning_OutOfVideoMemory_Action" "Více informací"
-"Warning_DismissableWarning_OutOfVideoMemory_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Header" "Změnit na vyšší FPS?"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Description" "Váš headset podporuje více obnovovacích frekvencí!<br>Headset je momentálně nastaven na <b>%1 snímků za sekundu</b>. Chcete tuto hodnotu změnit na <b>%2</b>?<br><br><i>Pro udržení stejné zátěže grafické karty bude %5 rozlišení aplikace upraveno z %3% na %4%. Tyto a další hodnoty můžete spravovat v „Nastavení“ v záložce „Obraz“.</i>"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Action" "Změnit a restartovat"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL" "vrmonitor://refreshrate/switch"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended" "automatické"
-"Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden" "uživatelské"
-
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Header" "Nedokončená aktualizace zařízení"
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description" "Aktualizace základní stanice byla přerušena, nebo se ji nepodařilo dokončit. Kliknutím na „Obnovit“ proveďte obnovení zařízení."
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action" "Obnovit"
-"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
-
-"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header" "Zařízení již není podporováno"
-"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description" "<font color=#aaaa00> Vaše předvýrobní verze zařízení %1 již není podporována.</font> <br><br>Toto zařízení neobdrží žádné další aktualizace firmwaru a není zaručena jeho plná funkčnost. Co nejdříve proto zařízení vyměňte. <br><br>(hwid: %2)"
-"Warning_OpenXRDefaultRuntimePrompt_NotSet" "OpenXR runtime momentálně není nastaven."
-"Warning_OpenXRDefaultRuntimePrompt_AnotherSteamVR" "OpenXR runtime je momentálně nastaven pro jinou verzi režimu SteamVR."
-
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header" "Režim SteamVR není nastaven jako výchozí OpenXR runtime."
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Description" "V důsledku toho se některé aplikace nemusí správně spustit. %1"
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action" "Nastavit jako výchozí"
-"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL" "vrmonitor://openxr/makedefault"
-
-"Warning_DismissableWarning_EnableAppContainers_Header" "Režim SteamVR se musí nastavit pro kontejnery aplikací"
-"Warning_DismissableWarning_EnableAppContainers_Description" "Bez této akce nebudou moci webové prohlížeče zobrazovat obsah ve Vašem headsetu."
-"Warning_DismissableWarning_EnableAppContainers_Action" "Aktualizovat oprávnění"
-"Warning_DismissableWarning_EnableAppContainers_ActionURL" "vrmonitor://steamvr/setappcontainerpermissions"
-
-"Warning_DismissableWarning_InstallWMRPrompt_Header" "Nainstalovat ovladač pro Windows Mixed Reality?"
-"Warning_DismissableWarning_InstallWMRPrompt_Description" "Aby byl režim SteamVR schopný pracovat s headsety hybridní reality (Windows Mixed Reality), je vyžadována instalace ovladače."
-"Warning_DismissableWarning_InstallWMRPrompt_Action" "Nainstalovat"
-"Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
-
-"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Nainstalovat ovladač pro Vive Pro 2?"
-"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Aby byl režim SteamVR schopný pracovat s headsetem Vive Pro 2, je vyžadována instalace ovladače."
-"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Nainstalovat"
-"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
-
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problém s připojením k displeji"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Vaší grafické kartě se nepodařilo připojit k displeji headsetu. Zkuste odebrat veškeré adaptéry nebo prodlužovače a také (pokud je dostupný) zkuste jiný port GPU. <b>Kliknutím níže bude resetován Váš headset, takže se GPU pokusí znovu připojit.</b>"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Restartovat headset"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL" "vrmonitor://reboothmd"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action" "Více informací"
-"VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL" "https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=czech"
-
-"SteamVRServiceNeedsInstallation_Header" "Instalace pomocné služby režimu SteamVR"
-"SteamVRServiceNeedsInstallation_Description" "K nainstalování pomocné služby režimu SteamVR je vyžadováno Vaše potvrzení. Klikněte tedy na odkaz níže a ve výzvě služby UAC vyberte „Ano“."
+"Popover_SeeOnlyOneBase_Description" "Pokud pro sledov
+"Popover_SeeOnlyOneBase_Header" "Je vid
+"Popover_Standby_Base_Description" "P
+"Popover_Standby_Base_Header" "Z
+"Popover_Standby_Controller_Description" "Pohn
+"Popover_Standby_Controller_Header" "Ovlada
+"Popover_Standby_HMD_Description" "Pohn
+"Popover_Standby_HMD_Header" "Headset je v re
+"Popover_Standby_Invalid_Description" "Toto za
+"Popover_Standby_Invalid_Header" "V re
+"Popover_Standby_Tracker_Description" "Pohn
+"Popover_Standby_Tracker_Header" "Sledovac
+"SteamVRServiceNeedsInstallation_Action" "V
+"SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"SteamVRServiceNeedsInstallation_Description" "K nainstalov
 "SteamVRServiceNeedsInstallation_FirstAction" "Nainstalovat"
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
-"SteamVRServiceNeedsInstallation_Action" "Více informací"
-"SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
-
-"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Odpojte ovladače během hraní"
-"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Vytažením nabíjecího kabelu pod úhlem může dojít k poškození ovladače. Vytahujte proto kabel přímo."
-"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "Více informací"
+"SteamVRServiceNeedsInstallation_Header" "Instalace pomocn
+"Tokens"
+"VRInitError_Compositor_D3D11HardwareRequired_Action" "V
+"VRInitError_Compositor_D3D11HardwareRequired_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Compositor_D3D11HardwareRequired_Description" "Re
+"VRInitError_Compositor_D3D11HardwareRequired_Header" "Je t
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Action" "V
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_ActionURL" "https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=czech"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Va
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Restartovat headset"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Probl
+"VRInitError_Compositor_FirmwareRequiresUpdate_Action" "Aktualizovat headset"
+"VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
+"VRInitError_Compositor_FirmwareRequiresUpdate_Description" "V
+"VRInitError_Compositor_FirmwareRequiresUpdate_Header" "Je t
+"VRInitError_Compositor_UnableToCreateDevice_Action" "V
+"VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"VRInitError_Compositor_UnableToCreateDevice_Description" "Pravd
+"VRInitError_Compositor_UnableToCreateDevice_Header" "Chyba re
+"VRInitError_Driver_CalibrationInvalid_Action" "V
+"VRInitError_Driver_CalibrationInvalid_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_CalibrationInvalid_Description" "Re
+"VRInitError_Driver_CalibrationInvalid_Header" "Chyba headsetu"
+"VRInitError_Driver_Failed_Action" "V
+"VRInitError_Driver_Failed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_Failed_Description" "Do
+"VRInitError_Driver_Failed_Header" "Chyba re
+"VRInitError_Driver_HmdDisplayMirrored_Action" "V
+"VRInitError_Driver_HmdDisplayMirrored_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#headset"
+"VRInitError_Driver_HmdDisplayMirrored_Description" "Displej headsetu nebyl nalezen. Byl v
+"VRInitError_Driver_HmdDisplayMirrored_FirstAction" "Otev
+"VRInitError_Driver_HmdDisplayMirrored_FirstActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
+"VRInitError_Driver_HmdDisplayMirrored_Header" "Displej headsetu je zrcadlen"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Action" "V
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Description" "Ujist
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstAction" "Restartovat headset"
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_FirstActionURL" "vrmonitor://reboothmd" 
+"VRInitError_Driver_HmdDisplayNotFoundLaptop_Header" "Displej headsetu nen
+"VRInitError_Driver_HmdDisplayNotFound_Action" "V
+"VRInitError_Driver_HmdDisplayNotFound_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_HmdDisplayNotFound_Description" "Displej headsetu nebyl nalezen. Ujist
+"VRInitError_Driver_HmdDisplayNotFound_FirstAction" "Restartovat headset"
+"VRInitError_Driver_HmdDisplayNotFound_FirstActionURL" "vrmonitor://reboothmd" 
+"VRInitError_Driver_HmdDisplayNotFound_Header" "Displej headsetu nen
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Action" "V
+"VRInitError_Driver_HmdDriverIdOutOfBounds_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Description" "Ujist
+"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstAction" "Restartovat headset"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Driver_HmdDriverIdOutOfBounds_Header" "Headset nebyl nalezen"
+"VRInitError_Driver_HmdInUse_Action" "Zkusit znovu"
+"VRInitError_Driver_HmdInUse_ActionURL" "vrmonitor://refresh"
+"VRInitError_Driver_HmdInUse_Description" "Heaset moment
+"VRInitError_Driver_HmdInUse_Header" "Chyba re
+"VRInitError_Driver_HmdUnknown_Action" "Opravit!"
+"VRInitError_Driver_HmdUnknown_ActionURL" "vrmonitor://unsetforcedhmd"
+"VRInitError_Driver_HmdUnknown_Description" "Re
+"VRInitError_Driver_HmdUnknown_Header" "Headset nebyl rozpozn
+"VRInitError_Driver_NotCalibrated_Action" "V
+"VRInitError_Driver_NotCalibrated_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Driver_NotCalibrated_Description" "Re
+"VRInitError_Driver_NotCalibrated_Header" "Chyba za
+"VRInitError_Driver_NotLoaded_Action" "V
+"VRInitError_Driver_NotLoaded_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"VRInitError_Driver_NotLoaded_Description" "Ovlada
+"VRInitError_Driver_NotLoaded_Header" "Chyba re
+"VRInitError_Driver_PeerDriverNotInstalled_Action" "V
+"VRInitError_Driver_PeerDriverNotInstalled_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=39&return_nodeid=71"
+"VRInitError_Driver_PeerDriverNotInstalled_Description" "Pou
+"VRInitError_Driver_PeerDriverNotInstalled_Header" "Chyb
+"VRInitError_Driver_RuntimeOutOfDate_Action" "P
+"VRInitError_Driver_RuntimeOutOfDate_ActionURL" "https://www.oculus.com/rift-patch/"
+"VRInitError_Driver_RuntimeOutOfDate_Description" "Aplikace Oculus je zastaral
+"VRInitError_Driver_RuntimeOutOfDate_Header" "Chyba re
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Action" "V
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#tracking-issues"
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Description" "Ovlada
+"VRInitError_Driver_TrackedDeviceInterfaceUnknown_Header" "Chyba za
+"VRInitError_Driver_Unknown_Action" "Opravit!"
+"VRInitError_Driver_Unknown_ActionURL" "vrmonitor://unsetforceddriver"
+"VRInitError_Driver_Unknown_Description" "Do
+"VRInitError_Driver_Unknown_Header" "Chyba re
+"VRInitError_Driver_WirelessHmdNotConnected_Description" "Re
+"VRInitError_Driver_WirelessHmdNotConnected_Header" "
+"VRInitError_IPC_CompositorConnectFailed_Action" "V
+"VRInitError_IPC_CompositorConnectFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_CompositorConnectFailed_Description" "Kl
+"VRInitError_IPC_CompositorConnectFailed_Header" "Selh
+"VRInitError_IPC_CompositorInitFailed_Action" "V
+"VRInitError_IPC_CompositorInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"VRInitError_IPC_CompositorInitFailed_Description" "Kl
+"VRInitError_IPC_CompositorInitFailed_Header" "N
+"VRInitError_IPC_CompositorInvalidConnectResponse_Action" "V
+"VRInitError_IPC_CompositorInvalidConnectResponse_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_CompositorInvalidConnectResponse_Description" "Kl
+"VRInitError_IPC_CompositorInvalidConnectResponse_Header" "Selh
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Action" "V
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Description" "Kl
+"VRInitError_IPC_ConnectFailedAfterMultipleAttempts_Header" "Selh
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Action" "V
+"VRInitError_IPC_ConnectFailedAfterTargetExited_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Description" "Kl
+"VRInitError_IPC_ConnectFailedAfterTargetExited_Header" "Selh
+"VRInitError_IPC_ConnectFailed_Action" "V
+"VRInitError_IPC_ConnectFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=40&return_nodeid=71"
+"VRInitError_IPC_ConnectFailed_Description" "Kl
+"VRInitError_IPC_ConnectFailed_Header" "Selh
+"VRInitError_IPC_Failed_Action" "V
+"VRInitError_IPC_Failed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=77&return_nodeid=71"
+"VRInitError_IPC_Failed_Description" "Do
+"VRInitError_IPC_Failed_Header" "Selh
+"VRInitError_IPC_MutexInitFailed_Action" "V
+"VRInitError_IPC_MutexInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"VRInitError_IPC_MutexInitFailed_Description" "Kl
+"VRInitError_IPC_MutexInitFailed_Header" "N
+"VRInitError_IPC_NamespaceUnavailable_Action" "V
+"VRInitError_IPC_NamespaceUnavailable_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374"
+"VRInitError_IPC_NamespaceUnavailable_Description" "Kl
+"VRInitError_IPC_NamespaceUnavailable_Header" "Selh
+"VRInitError_IPC_ServerInitFailed_Action" "V
+"VRInitError_IPC_ServerInitFailed_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"VRInitError_IPC_ServerInitFailed_Description" "Kl
+"VRInitError_IPC_ServerInitFailed_Header" "Probl
+"VRInitError_IPC_SharedStateInitFailed_Action" "V
+"VRInitError_IPC_SharedStateInitFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_IPC_SharedStateInitFailed_Description" "Kl
+"VRInitError_IPC_SharedStateInitFailed_Header" "Selh
+"VRInitError_Init_AnotherAppLaunching_Action" "V
+"VRInitError_Init_AnotherAppLaunching_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_AnotherAppLaunching_Description" "Do
+"VRInitError_Init_AnotherAppLaunching_Header" "Selh
+"VRInitError_Init_AppInfoInitFailed_Action" "V
+"VRInitError_Init_AppInfoInitFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_AppInfoInitFailed_Description" "Kl
+"VRInitError_Init_AppInfoInitFailed_Header" "Selh
+"VRInitError_Init_CouldNotStartPrism_Action" "V
+"VRInitError_Init_CouldNotStartPrism_ActionURL" "https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335&l=czech"
+"VRInitError_Init_CouldNotStartPrism_Description" "Kl
+"VRInitError_Init_CouldNotStartPrism_Header" "Chyba spou
+"VRInitError_Init_FactoryNotFound_Action" "V
+"VRInitError_Init_FactoryNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"VRInitError_Init_FactoryNotFound_Description" "Chyb
+"VRInitError_Init_FactoryNotFound_Header" "Selh
+"VRInitError_Init_FileNotFound_Action" "V
+"VRInitError_Init_FileNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"VRInitError_Init_FileNotFound_Description" "Chyb
+"VRInitError_Init_FileNotFound_Header" "Selh
+"VRInitError_Init_HmdDriverIdIsNone_Action" "V
+"VRInitError_Init_HmdDriverIdIsNone_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdDriverIdIsNone_Description" "Ujist
+"VRInitError_Init_HmdDriverIdIsNone_FirstAction" "Restartovat headset"
+"VRInitError_Init_HmdDriverIdIsNone_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdDriverIdIsNone_Header" "Headset nebyl nalezen"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Action" "V
+"VRInitError_Init_HmdNotFoundPresenceFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Description" "Ujist
+"VRInitError_Init_HmdNotFoundPresenceFailed_FirstAction" "Restartovat headset"
+"VRInitError_Init_HmdNotFoundPresenceFailed_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdNotFoundPresenceFailed_Header" "Headset nebyl nalezen"
+"VRInitError_Init_HmdNotFound_Action" "V
+"VRInitError_Init_HmdNotFound_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=3&return_nodeid=71"
+"VRInitError_Init_HmdNotFound_Description" "Ujist
+"VRInitError_Init_HmdNotFound_FirstAction" "Restartovat headset"
+"VRInitError_Init_HmdNotFound_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_Init_HmdNotFound_Header" "Headset nebyl nalezen"
+"VRInitError_Init_InitCanceledByUser_Action" "V
+"VRInitError_Init_InitCanceledByUser_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_InitCanceledByUser_Description" "Do
+"VRInitError_Init_InitCanceledByUser_Header" "Selh
+"VRInitError_Init_InstallationCorrupt_Action" "V
+"VRInitError_Init_InstallationCorrupt_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"VRInitError_Init_InstallationCorrupt_Description" "Chyb
+"VRInitError_Init_InstallationCorrupt_Header" "Selh
+"VRInitError_Init_InstallationNotFound_Action" "V
+"VRInitError_Init_InstallationNotFound_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=81&return_nodeid=71"
+"VRInitError_Init_InstallationNotFound_Description" "Chyb
+"VRInitError_Init_InstallationNotFound_Header" "Selh
+"VRInitError_Init_InterfaceNotFound_Action" "
+"VRInitError_Init_InterfaceNotFound_ActionURL" "
+"VRInitError_Init_InterfaceNotFound_Description" "Re
+"VRInitError_Init_InterfaceNotFound_Header" "Aktualizace re
+"VRInitError_Init_InvalidInterface_Action" "V
+"VRInitError_Init_InvalidInterface_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_InvalidInterface_Description" "Do
+"VRInitError_Init_InvalidInterface_Header" "Selh
+"VRInitError_Init_NoConfigPath_Action" "Ur
+"VRInitError_Init_NoConfigPath_ActionURL" "vrmonitor://setconfig"
+"VRInitError_Init_NoConfigPath_Description" "Va
+"VRInitError_Init_NoConfigPath_Header" "Chyba re
+"VRInitError_Init_NoLogPath_Action" "Ur
+"VRInitError_Init_NoLogPath_ActionURL" "vrmonitor://setlog"
+"VRInitError_Init_NoLogPath_Description" "Va
+"VRInitError_Init_NoLogPath_Header" "Chyba re
+"VRInitError_Init_NoServerForBackgroundApp_Action" "V
+"VRInitError_Init_NoServerForBackgroundApp_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NoServerForBackgroundApp_Description" "Do
+"VRInitError_Init_NoServerForBackgroundApp_Header" "Selh
+"VRInitError_Init_NotAvailableToUtilityApps_Action" "V
+"VRInitError_Init_NotAvailableToUtilityApps_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NotAvailableToUtilityApps_Description" "Do
+"VRInitError_Init_NotAvailableToUtilityApps_Header" "Selh
+"VRInitError_Init_NotInitialized_Action" "V
+"VRInitError_Init_NotInitialized_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=37&return_nodeid=71"
+"VRInitError_Init_NotInitialized_Description" "Do
+"VRInitError_Init_NotInitialized_Header" "Selh
+"VRInitError_Init_NotSupportedWithCompositor_Action" "V
+"VRInitError_Init_NotSupportedWithCompositor_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_NotSupportedWithCompositor_Description" "Do
+"VRInitError_Init_NotSupportedWithCompositor_Header" "Selh
+"VRInitError_Init_PathRegistryNotFound_Action" "Pokusit se spustit znovu ze sou
+"VRInitError_Init_PathRegistryNotFound_ActionURL" "vrmonitor://runfromcurrentdirectory"
+"VRInitError_Init_PathRegistryNotFound_Description" "Chyb
+"VRInitError_Init_PathRegistryNotFound_Header" "Selh
+"VRInitError_Init_PathRegistryNotWritable_Action" "V
+"VRInitError_Init_PathRegistryNotWritable_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PathRegistryNotWritable_Description" "Re
+"VRInitError_Init_PathRegistryNotWritable_Header" "Chyba re
+"VRInitError_Init_PrismClientInitFailed_Action" "V
+"VRInitError_Init_PrismClientInitFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PrismClientInitFailed_Description" "Do
+"VRInitError_Init_PrismClientInitFailed_Header" "Chyba spou
+"VRInitError_Init_PrismClientStartFailed_Action" "V
+"VRInitError_Init_PrismClientStartFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_PrismClientStartFailed_Description" "Do
+"VRInitError_Init_PrismClientStartFailed_Header" "Chyba spou
+"VRInitError_Init_PrismExitedUnexpectedly_Action" "Restartovat re
+"VRInitError_Init_PrismExitedUnexpectedly_ActionURL" "vrmonitor://restartsystem"
+"VRInitError_Init_PrismExitedUnexpectedly_Description" "Kl
+"VRInitError_Init_PrismExitedUnexpectedly_Header" "Selh
+"VRInitError_Init_PrismNeedsNewDrivers_Action" "V
+"VRInitError_Init_PrismNeedsNewDrivers_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"VRInitError_Init_PrismNeedsNewDrivers_Description" "Je vy
+"VRInitError_Init_PrismNeedsNewDrivers_Header" "Aktualizace ovlada
+"VRInitError_Init_PrismStartupTimedOut_Action" "Restartovat re
+"VRInitError_Init_PrismStartupTimedOut_ActionURL" "vrmonitor://restartsystem"
+"VRInitError_Init_PrismStartupTimedOut_Description" "Kl
+"VRInitError_Init_PrismStartupTimedOut_Header" "Chyba spou
+"VRInitError_Init_Retry_Action" "V
+"VRInitError_Init_Retry_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_Retry_Description" "Do
+"VRInitError_Init_Retry_Header" "Selh
+"VRInitError_Init_SettingsInitFailed_Action" "V
+"VRInitError_Init_SettingsInitFailed_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_SettingsInitFailed_Description" "Do
+"VRInitError_Init_SettingsInitFailed_Header" "Selh
+"VRInitError_Init_ShuttingDown_Action" "V
+"VRInitError_Init_ShuttingDown_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_ShuttingDown_Description" "Do
+"VRInitError_Init_ShuttingDown_Header" "Selh
+"VRInitError_Init_TooManyObjects_Action" "V
+"VRInitError_Init_TooManyObjects_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Init_TooManyObjects_Description" "Do
+"VRInitError_Init_TooManyObjects_Header" "Selh
+"VRInitError_Init_UserConfigDirectoryInvalid_Action" "Ur
+"VRInitError_Init_UserConfigDirectoryInvalid_ActionURL" "vrmonitor://setconfig"
+"VRInitError_Init_UserConfigDirectoryInvalid_Description" "Va
+"VRInitError_Init_UserConfigDirectoryInvalid_Header" "Chyba re
+"VRInitError_Init_VRClientDLLNotFound_Action" "V
+"VRInitError_Init_VRClientDLLNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"VRInitError_Init_VRClientDLLNotFound_Description" "Chyb
+"VRInitError_Init_VRClientDLLNotFound_Header" "Selh
+"VRInitError_Internal_Action" "V
+"VRInitError_Internal_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Internal_Description" "Do
+"VRInitError_Internal_Header" "Selh
+"VRInitError_Steam_SteamInstallationNotFound_Action" "Nainstalovat klienta"
+"VRInitError_Steam_SteamInstallationNotFound_ActionURL" "vrmonitor://installsteam"
+"VRInitError_Steam_SteamInstallationNotFound_Description" "Pro spr
+"VRInitError_Steam_SteamInstallationNotFound_Header" "Chyba re
+"VRInitError_Unknown_Action" "V
+"VRInitError_Unknown_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_Unknown_Description" "Do
+"VRInitError_Unknown_Header" "Selh
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Action" "V
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=250820&issueid=374&nodeid=109&return_nodeid=71"
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_CantOpenDevice_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Action" "V
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Action" "
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_ActionURL" "
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Description" "V
+"VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck_Header" "Chyba headsetu"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Action" "V
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_ConfigTooBig_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Action" "V
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_ConfigTooSmall_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Action" "V
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_NoStoredConfig_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Action" "V
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Action" "V
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Action" "V
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_UnableToInitZLib_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Action" "V
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Action" "V
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Description" "Displej headsetu disponuje neplatnou konfigurac
+"VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Header" "Chyba konfigurace displeje headsetu"
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Action" "V
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_UserDataAddressRange_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Action" "V
+"VRInitError_VendorSpecific_HmdFound_UserDataError_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Description" "Zkontrolujte USB p
+"VRInitError_VendorSpecific_HmdFound_UserDataError_Header" "Chyba rozhran
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Action" "P
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_ActionURL" "https://support.oculus.com/articles/headsets-and-accessories/oculus-link/index-oculus-link"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Description" "Pokud pou
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstAction" "Restartovat re
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_FirstActionURL" "vrmonitor://reboothmd"
+"VRInitError_VendorSpecific_OculusLinkNotEnabled_Header" "Oculus Link nen
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Action" "P
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_ActionURL" "https://www.oculus.com/setup/"
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Description" "Do
+"VRInitError_VendorSpecific_OculusRuntimeBadInstall_Header" "Chyba re
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "P
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_ActionURL" "https://www.oculus.com/setup/"
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "Re
+"VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Chyba re
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Action" "V
+"VRInitError_VendorSpecific_WindowsNotInDevMode_ActionURL" "http://aka.ms/SteamVRSetup"
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Description" "Aby bylo mo
+"VRInitError_VendorSpecific_WindowsNotInDevMode_Header" "Aktualizace syst
+"Warning_DismissableWarning_BadNvGraphicsDriver_Action" "V
+"Warning_DismissableWarning_BadNvGraphicsDriver_ActionURL" "https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/454753/announcing-geforce-hotfix-driver-46655-released-52/"
+"Warning_DismissableWarning_BadNvGraphicsDriver_Description" "Nainstalovan
+"Warning_DismissableWarning_BadNvGraphicsDriver_Header" "Aktualizujte ovlada
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Action" "Obnovit"
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_ActionURL" "vrmonitor://open/settings/basestation/recovery"
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Description" "Aktualizace z
+"Warning_DismissableWarning_BaseStationUpdateFailedToComplete_Header" "Nedokon
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Action" "V
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_ActionURL" "https://support.steampowered.com/steamvr/HTC_Vive/?l=czech"
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Description" "Pokud pro sledov
+"Warning_DismissableWarning_BasestationSingleBaseModeHint_Header" "Byla nalezena pouze jedna z
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Action" "Nastavit"
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_ActionURL" "vrmonitor://open/settings/basestation/configurechannels"
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Description" "Re
+"Warning_DismissableWarning_BasestationsSyncOnBeamChannelConflict_Header" "Chyba nastaven
+"Warning_DismissableWarning_BasestationsTooFarApart_Action" "V
+"Warning_DismissableWarning_BasestationsTooFarApart_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_BasestationsTooFarApart_Description" "Va
+"Warning_DismissableWarning_BasestationsTooFarApart_Header" "Pozn
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Action" "Nastaven
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Description" "Pro dokon
+"Warning_DismissableWarning_BluetoothDriverNeedsInstallation_Header" "Chyba Bluetooth"
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Action" "Nastaven
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Description" "Pro dokon
+"Warning_DismissableWarning_BluetoothDriverNeedsUpdate_Header" "Chyba Bluetooth"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Action" "Nastaven
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Description" "Zkontrolujte p
+"Warning_DismissableWarning_BluetoothLinkCommunicationFailed_Header" "Chyba Bluetooth"
+"Warning_DismissableWarning_BluetoothLinkServiceError_Action" "Nastaven
+"Warning_DismissableWarning_BluetoothLinkServiceError_ActionURL" "vrmonitor://open/settings/bluetooth"
+"Warning_DismissableWarning_BluetoothLinkServiceError_Description" "Re
+"Warning_DismissableWarning_BluetoothLinkServiceError_Header" "Chyba Bluetooth"
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Action" "V
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Description" "Chyb
+"Warning_DismissableWarning_BluetoothLinkServiceNotFound_Header" "Chyba Bluetooth"
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Description" "<font color=#aaaa00> Va
+"Warning_DismissableWarning_DevelopmentHardwareNotSupported_Header" "Za
+"Warning_DismissableWarning_DisplayInExtendedMode_Action" "Zapnout p
+"Warning_DismissableWarning_DisplayInExtendedMode_ActionURL" "vrmonitor://directmode/enable"
+"Warning_DismissableWarning_DisplayInExtendedMode_Description" "Re
+"Warning_DismissableWarning_DisplayInExtendedMode_Header" "Upozorn
+"Warning_DismissableWarning_EnableAppContainers_Action" "Aktualizovat opr
+"Warning_DismissableWarning_EnableAppContainers_ActionURL" "vrmonitor://steamvr/setappcontainerpermissions"
+"Warning_DismissableWarning_EnableAppContainers_Description" "Bez t
+"Warning_DismissableWarning_EnableAppContainers_Header" "Re
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Action" "Restartovat (HDCP)"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_ActionURL" "vrmonitor://togglehdcpcompatibility"
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Description" "<span>Va
+"Warning_DismissableWarning_HDCPErrorWithToggleOption_Header" "Chyba re
+"Warning_DismissableWarning_HDCPError_Action" "Resetovat headset"
+"Warning_DismissableWarning_HDCPError_ActionURL" "vrmonitor://reboothmd"
+"Warning_DismissableWarning_HDCPError_Description" "<span>Va
+"Warning_DismissableWarning_HDCPError_Header" "Chyba re
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Action" "V
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Description" "Displej headsetu byl odpojen. Zkontrolujte p
+"Warning_DismissableWarning_HeadsetDisplayDisconnected_Header" "Headset nen
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Action" "V
+"Warning_DismissableWarning_HeadsetTetherDisconnected_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Description" "V headsetu do
+"Warning_DismissableWarning_HeadsetTetherDisconnected_Header" "P
+"Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Nainstalovat"
+"Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
+"Warning_DismissableWarning_InstallVivePro2Prompt_Description" "Aby byl re
+"Warning_DismissableWarning_InstallVivePro2Prompt_Header" "Nainstalovat ovlada
+"Warning_DismissableWarning_InstallWMRPrompt_Action" "Nainstalovat"
+"Warning_DismissableWarning_InstallWMRPrompt_ActionURL" "vrmonitor://installdriver/wmr"
+"Warning_DismissableWarning_InstallWMRPrompt_Description" "Aby byl re
+"Warning_DismissableWarning_InstallWMRPrompt_Header" "Nainstalovat ovlada
+"Warning_DismissableWarning_IssuesWithOneDongle_Action" "V
+"Warning_DismissableWarning_IssuesWithOneDongle_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#wireless-receivers"
+"Warning_DismissableWarning_IssuesWithOneDongle_Description" "Jeden z hardwarov
+"Warning_DismissableWarning_IssuesWithOneDongle_Header" "Chyba headsetu"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Action" "V
+"Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#wireless-receivers"
+"Warning_DismissableWarning_IssuesWithTwoDongles_Description" "Hardwarov
+"Warning_DismissableWarning_IssuesWithTwoDongles_Header" "Hardwarov
+"Warning_DismissableWarning_MissedFrames_Action" "V
+"Warning_DismissableWarning_MissedFrames_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_MissedFrames_Description" "Spu
+"Warning_DismissableWarning_MissedFrames_Header" "Chyba aplikace"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Action" "Zm
+"Warning_DismissableWarning_MultiRefreshRatePrompt_ActionURL" "vrmonitor://refreshrate/switch"
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Description" "V
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Header" "Zm
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Overridden" "u
+"Warning_DismissableWarning_MultiRefreshRatePrompt_Recommended" "automatick
+"Warning_DismissableWarning_NewDriverInstalled_Action" "Restartovat re
+"Warning_DismissableWarning_NewDriverInstalled_ActionURL" "vrmonitor://restartsystem"
+"Warning_DismissableWarning_NewDriverInstalled_Description" "Aby byla instalace dokon
+"Warning_DismissableWarning_NewDriverInstalled_Header" "Nedokon
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Action" "Nastavit jako v
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_ActionURL" "vrmonitor://openxr/makedefault"
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Description" "V d
+"Warning_DismissableWarning_OpenXRDefaultRuntimePrompt_Header" "Re
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Action" "V
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#base-stations"
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Description" "Zd
+"Warning_DismissableWarning_OpticalBasestationSyncWarning_Header" "Chyba z
+"Warning_DismissableWarning_OutOfVideoMemory_Action" "V
+"Warning_DismissableWarning_OutOfVideoMemory_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_OutOfVideoMemory_Description" "Va
+"Warning_DismissableWarning_OutOfVideoMemory_Header" "Byla vy
+"Warning_DismissableWarning_RequestDisconnectReconnect_Action" "Restartovat re
+"Warning_DismissableWarning_RequestDisconnectReconnect_ActionURL" "vrmonitor://restartsystem"
+"Warning_DismissableWarning_RequestDisconnectReconnect_Description" "Byla zji
+"Warning_DismissableWarning_RequestDisconnectReconnect_Header" "Chyba p
+"Warning_DismissableWarning_RunTutorialAgain_Action" "V
+"Warning_DismissableWarning_RunTutorialAgain_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_RunTutorialAgain_Description" "P
+"Warning_DismissableWarning_RunTutorialAgain_Header" "P
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Action" "V
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Description" "P
+"Warning_DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter_Header" "Nespr
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Action" "Otev
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_ActionURL" "vrmonitor://controlpanel/Microsoft.Display/Settings"
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Description" "V
+"Warning_DismissableWarning_SomeDisplaysAreMirroring_Header" "Chyba displeje"
+"Warning_DismissableWarning_SteamVRInSafeMode_Action" "Spravovat dopl
+"Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+"Warning_DismissableWarning_SteamVRInSafeMode_Description" "<span>Z d
+"Warning_DismissableWarning_SteamVRInSafeMode_Header" "Jsou blokov
+"Warning_DismissableWarning_SteamVRUpdated_Action" "Prohl
+"Warning_DismissableWarning_SteamVRUpdated_ActionURL" "%1"
+"Warning_DismissableWarning_SteamVRUpdated_Description" "Re
+"Warning_DismissableWarning_SteamVRUpdated_Header" "Aktualizace re
+"Warning_DismissableWarning_UnknownHardwareDetected_Action" "V
+"Warning_DismissableWarning_UnknownHardwareDetected_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_UnknownHardwareDetected_Description" "Gratulujeme k po
+"Warning_DismissableWarning_UnknownHardwareDetected_Header" "Bylo nalezeno nov
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Action" "V
+"Warning_DismissableWarning_UpgradeGraphicsDriver_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Description" "Aby re
+"Warning_DismissableWarning_UpgradeGraphicsDriver_Header" "Aktualizujte ovlada
+"Warning_DismissableWarning_WarningsForTheFirstTime_Action" "V
+"Warning_DismissableWarning_WarningsForTheFirstTime_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_WarningsForTheFirstTime_Description" "Abyste zjistili podrobnosti a stav ka
+"Warning_DismissableWarning_WarningsForTheFirstTime_Header" "Informace o za
+"Warning_DismissableWarning_Windows8_Action" "V
+"Warning_DismissableWarning_Windows8_ActionURL" "https://help.steampowered.com/cs/wizard/HelpWithGame/?appid=250820"
+"Warning_DismissableWarning_Windows8_Description" "Re
+"Warning_DismissableWarning_Windows8_Header" "Aktualizace syst
+"Warning_DismissableWarning_WindowsAeroDisabled_Action" "Otev
+"Warning_DismissableWarning_WindowsAeroDisabled_ActionURL" "vrmonitor://controlpanel/Microsoft.Personalization"
+"Warning_DismissableWarning_WindowsAeroDisabled_Description" "Pro dosa
+"Warning_DismissableWarning_WindowsAeroDisabled_Header" "Optimalizace v
+"Warning_DismissableWarning_WiredIndexControllerActivity_Action" "V
 "Warning_DismissableWarning_WiredIndexControllerActivity_ActionURL" "https://support.steampowered.com/kb_article.php?ref=7995-TPGZ-4643#wired-controller-usage"
-
-}
-}
+"Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Vyta
+"Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Odpojte ovlada
+"Warning_OpenXRDefaultRuntimePrompt_AnotherSteamVR" "OpenXR runtime je moment
+"Warning_OpenXRDefaultRuntimePrompt_NotSet" "OpenXR runtime moment
+"lang"
+( i )
+) zkuste jin
+, kontaktujte jej
+, kter
+, mus
+, naje
+. 5). Odpojte a znovu zapojte 
+. Klikn
+. Nainstalujte proto nejnov
+. Nainstalujte si jej
+. Pro dal
+. Pro dosa
+. Pro zaji
+. Restartujte re
+. Restartujte sv
+. Ujist
+. Ukon
+. Zajist
+. Zkontrolujte instalaci re
+. Zkontrolujte, zdali je re
+.</i>"
+</a>"
+</a>."
+Nastaven
+Obnovit
+Obraz
+adovan
+adovat speci
+aduje Va
+aduje aktualizaci"
+aduje aktualizaci. Ukon
+aduje ovlada
+aduje verzi %2."
+ak nalezen zrcadlen
+ase aktualizovat toto za
+by Steam a zkuste to znovu."
+by Steam prove
+by Steam ve vlastnostech re
+by Steam"
+by Steam."
+by UAC vyberte 
+by re
+ce 5,5 metru."
+ce informac
+ce obnovovac
+ch frekvenc
+ch kl
+ch podpory re
+ch stanic se pot
+ch stanic"
+ch stanic. Pro dosa
+ch stanic. Spus
+co blokuje optick
+co se pokazilo"
+co v nepo
+dat informace. Zkontrolujte sv
+dejte o n
+dku. Ur
+dku. V
+dky re
+dnout si zm
+du jsou nyn
+e a tak
+e a ve v
+e aplikace Oculus nainstalovan
+e bude aktivov
+e bude resetov
+e displej headsetu nebude pou
+e doj
+e grafick
+e instalace re
+e je Va
+e je displej Va
+e je headset spr
+e je ovlada
+e je sledov
+e je stanice zapnut
+e je za
+e jsou spr
+e kompatibiln
+e nebyly nalezeny"
+e ovlivnit v
+e potvrzen
+e pro V
+e s ovlada
+e se GPU pokus
+e v dohledu Va
+e zablokovat V
+e zobrazovat obsah ve Va
+e. Vytahujte proto kabel p
+e</span> GPU m
+eba aktualizovat"
+eba m
+eba nab
+eba nastavit Va
+eba prov
+eba upgradovat"
+echny kabely. Notebooky mohou pro fungov
+ed op
+ed pou
+ed spu
+ednictv
+eho headsetu je sledov
+eho headsetu nebyl nalezen, co
+eho headsetu nebyly nalezeny, co
+eho headsetu v re
+eho headsetu."
+eho po
+einstalujte re
+em headsetu."
+em, abyste jej probudili."
+emu syst
+ena jeho pln
+ena, nebo se ji nepoda
+ena, restartujte re
+eno nastavit ka
+eno. Pro dosa
+epnout do m
+erven
+ete Spr
+ete adres
+ete jej proto a prost
+ete oblast pro hran
+ete re
+ete spravovat v 
+ete spu
+ete tuto aplikaci a zkuste to znovu."
+ete z nab
+ete zb
+ete zkusit restartovat re
+etl spr
+hem hran
+hlem m
+hnout ovlada
+ho a spu
+ho adres
+ho hardwaru! P
+ho headsetu..."
+ho kabelu a n
+ho kabelu pod 
+ho kabelu."
+ho klienta slu
+ho re
+ho za
+ho zobrazovac
+hradn
+i oblast pro hran
+i pozornost, nap
+i, odstra
+i. Pokud jste nav
+ich ovlada
+ich z
+idali do adres
+ijete. Tento probl
+il na kan
+ilo dokon
+ilo nal
+ilo p
+im SteamVR 
+im SteamVR a ujist
+im SteamVR byl aktualizov
+im SteamVR detekoval neo
+im SteamVR nen
+im SteamVR pracoval co nejl
+im SteamVR schopn
+im SteamVR se mus
+im SteamVR se nena
+im SteamVR se softwarem Windows Mixed Reality, mus
+im SteamVR spat
+im SteamVR spr
+im SteamVR vy
+im SteamVR zjistil, 
+im SteamVR ztratil spojen
+im SteamVR"
+im SteamVR, otev
+im SteamVR."
+im SteamVR.</b>"
+im cel
+im kompatibility HDCP 1.4 Legacy a RESTARTOV
+im roz
+im vy
+im zrcadlen
+imech 
+imem SteamVR"
+imu SteamVR je pot
+imu SteamVR je t
+imu SteamVR je vy
+imu SteamVR kdykoli spustit znovu."
+imu SteamVR nebyl nalezen. Zkuste v klientu slu
+imu SteamVR nen
+imu SteamVR nepracuje spr
+imu SteamVR ru
+imu SteamVR se neda
+imu SteamVR se nepoda
+imu SteamVR se spou
+imu SteamVR selhal."
+imu SteamVR vybrat mo
+imu SteamVR"
+imu SteamVR. V
+imu SteamVR. Zkontrolujte sv
+imu SteamVR."
+imu SteamVR.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech'>V
+imu aktualizujte ovlada
+imu cel
+imu standby"
+imu standby."
+ipojen
+ipojen (notebook)"
+ipojen a restartujte jej."
+ipojen a restartujte re
+ipojen"
+ipojen."
+ipojeno"
+ipojeny kabely."
+ipojeny v
+ipojit k aplikaci Oculus. Ujist
+ipojit k displeji headsetu. Zkuste odebrat ve
+ipojit ke slu
+ipojit.</b>"
+ipojit.</b><p><a style ='color: rgb(212, 212, 212);' href=https://support.steampowered.com/kb_article.php?ref=3803-QDGM-9237&l=czech'>V
+ipojte headset ke stejn
+ipojte proto ovlada
+ipojte sv
+ipraven"
+ipravena"
+ipraveno"
+it adres
+it integritu soubor
+it. Kliknut
+iteln
+ivatelsk
+j headset. Tak
+j obsah. To m
+ji, pop
+klad z d
+kladn
+kon nebo zp
+konem Va
+konu doporu
+konu"
+konu. Ukon
+kozen
+ky re
+l, ne
+lejte o pou
+lo k chyb
+lo k neo
+lo k odpojen
+lo nabit
+loh a p
+lu %1 v
+m a op
+m k displeji"
+m klienta slu
+m na 
+m nab
+m nap
+m nen
+m ovlada
+m probl
+m s komunikac
+m s p
+m s re
+m souvisej
+m spu
+m zapojen
+m, abyste jej probudili."
+mem (chyba 
+mem SteamVR Tracking je n
+mem. Odpojte a znovu zapojte 
+mi stanicemi. Pokud se s touto chybou pot
+mka re
+mto za
+mu Windows 10"
+mu Windows 8 podporov
+mu Windows aktivovat prost
+mu Windows"
+mu Windows."
+mu doch
+mu notebooku 
+my s bezdr
+my s p
+n jako monitor. Pro co nejlep
+n na verzi %2."
+n ovlada
+n. Pro co nejlep
+n. Zajist
+na aktualizace ovlada
+na aktualizace."
+na chyba p
+na grafick
+na instalace ovlada
+na. Spus
+na.</font> <br><br>Toto za
+nit a restartovat"
+nit na <b>%2</b>?<br><br><i>Pro udr
+nit na vy
+no Va
+no. Zajist
+nost 
+nost. Co nejd
+nosti by od sebe z
+nosti je doporu
+nosti je vy
+nou aplikaci nebo restartujte re
+nou n
+pe, doporu
+podobn
+prava m
+pravu m
+robce a za
+robce."
+rovat ovlada
+ry nebo prodlu
+sledek zhor
+sledku toho se n
+sledky aktualizujte na Windows 8.1 nebo Windows 10."
+sledky p
+sledn
+soben
+soben bu
+sobit probl
+sobit to, 
+st kalibra
+stilo v chybu s HDCP. Zkuste odebrat ve
+stnosti a s jej
+stnosti a tutori
+stnosti nebo tutori
+stnosti"
+stnosti."
+stroje...
+t aktualizov
+t k po
+t na oculus.com"
+t nainstalov
+t nainstalovan
+t nainstalovanou aktu
+t nejv
+t pouze na jednu z
+t vlastnosti displeje"
+t za n
+te Quest 2 nebo jin
+te aktualizaci."
+te bezprobl
+te do virtu
+te headsetem, abyste jej probudili."
+te ke sv
+te na p
+te nainstalovan
+te nainstalovanou jej
+te obnoven
+te ovlada
+te pouze jednu z
+te re
+te se, 
+te si n
+te sledovac
+te stanici s 
+te tedy na odkaz n
+te to."
+te v headsetu je
+te znovu p
+te, aby byl headset v dohledu z
+te, aby byl v dohledu z
+te, aby byla v dohledu Va
+te, aby bylo v dohledu z
+te, aby jej mohl re
+te. <br><br>(hwid: %2)"
+to akce nebudou moci webov
+ujeme aktualizovat na nejnov
+ujeme v syst
+vanou chybu Bluetooth."
+ve proto za
+vnou funkci re
+vod k jeho instalaci a zajist
+vodu aktualizace, na jeho ikonce se objev
+vodu</span> ned
+zkosti."
+zt hardware nebo ovlada
