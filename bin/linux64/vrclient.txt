@@ -237,8 +237,6 @@
  b (anonymous namespace)::CVRMsg_Input_SetActionManifestPathResponse_reflection_
  b (anonymous namespace)::CVRMsg_Input_SetActionManifestPath_descriptor_
  b (anonymous namespace)::CVRMsg_Input_SetActionManifestPath_reflection_
- b (anonymous namespace)::CVRMsg_Input_SetXrInputConfigResponse_descriptor_
- b (anonymous namespace)::CVRMsg_Input_SetXrInputConfigResponse_reflection_
  b (anonymous namespace)::CVRMsg_Input_SetXrInputConfig_descriptor_
  b (anonymous namespace)::CVRMsg_Input_SetXrInputConfig_reflection_
  b (anonymous namespace)::CVRMsg_LaunchApplicationForMimeTypeResponse_descriptor_
@@ -472,7 +470,6 @@
  b CDriverManager::GetDriverName(unsigned int) const::strEmpty
  b CHmdSystemLatest::GetVRStartupReason()::k_pathStartupReason
  b CHmdSystemLatest::ShouldShowTrackerUI()::k_pathShowTrackerUi
- b CInputProfileLoader::BLoadInputProfileForDevice(Json::Value&, unsigned long, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> > const&, std::string*)::k_pathTrackerRole
  b CKeyframedDataResource::MyTypeID()::sID
  b CKeyframedDataResource::m_typeInfoCKeyframedDataResource
  b CLegacyInput::RunInputFrame(bool)::k_pathLegacyDebuggerPid
@@ -489,9 +486,16 @@
  b CSharedResourceBaseLinux::CSharedResourceData::s_CacheLock
  b CSharedResourceBaseLinux::CSharedResourceData::s_CachedResourceData
  b CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
+ b CSxrInstance::ComputeBindingFiles()::k_pathCosmosController
+ b CSxrInstance::ComputeBindingFiles()::k_pathFocus3Controller
+ b CSxrInstance::ComputeBindingFiles()::k_pathG2Controller
+ b CSxrInstance::ComputeBindingFiles()::k_pathIndexController
+ b CSxrInstance::ComputeBindingFiles()::k_pathMRController
+ b CSxrInstance::ComputeBindingFiles()::k_pathSimpleController
+ b CSxrInstance::ComputeBindingFiles()::k_pathTouchController
+ b CSxrInstance::ComputeBindingFiles()::k_pathViveController
  b CSxrInstance::GetExtensionsAvailable()::__executeCount
  b CSxrInstance::sm_vecExtensionsAvailable
- b CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView> >&, XrViewLocateInfo const*, XrViewState*)::unLastSeatedSpaceRequestTime
  b CSxrSession::UpdateInteractionProfile()::rTopLevelPaths
  b CTransform::xIdentity
  b CVRCompositorClient::SubmitEyeInternal(vr::EVREye, unsigned int, vr::VRTextureWithPose_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)::__executeCount
@@ -607,7 +611,6 @@
  b CVRMsg_Input_SetActionManifestPath::default_instance_
  b CVRMsg_Input_SetActionManifestPathResponse::default_instance_
  b CVRMsg_Input_SetXrInputConfig::default_instance_
- b CVRMsg_Input_SetXrInputConfigResponse::default_instance_
  b CVRMsg_LaunchApplication::default_instance_
  b CVRMsg_LaunchApplicationForMimeType::default_instance_
  b CVRMsg_LaunchApplicationForMimeTypeResponse::default_instance_
@@ -785,8 +788,8 @@
  b ThreadInitSchedulerForRtkit()::sInitMutex
  b ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
  b ThreadShellExecute::bInstalledSignalHandler
- b UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
- b UTF8to16(std::string const&)::s_convert
+ b UTF16to8(wchar_t const*)::s_converter
+ b UTF8to16(char const*)::s_converter
  b VRCrashPreCrashSetMinidumpComment(char const*)::szMinidumpCommentBuffer
  b VRWriteMiniDump_Internal(char const*, unsigned int, void*, bool)::s_mutex
  b VectorAligned::vForward
@@ -912,7 +915,7 @@
  b g_pVRApplications
  b g_pVRApplicationsInternal
  b g_pVRBlockQueue
- b g_pVRCameraPassthroughInternal
+ b g_pVRCameraPassThruInternal
  b g_pVRChaperone
  b g_pVRChaperoneInternal
  b g_pVRChaperoneSetup
@@ -954,7 +957,6 @@
  b guard variable for CDriverManager::GetDriverName(unsigned int) const::strEmpty
  b guard variable for CHmdSystemLatest::GetVRStartupReason()::k_pathStartupReason
  b guard variable for CHmdSystemLatest::ShouldShowTrackerUI()::k_pathShowTrackerUi
- b guard variable for CInputProfileLoader::BLoadInputProfileForDevice(Json::Value&, unsigned long, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> > const&, std::string*)::k_pathTrackerRole
  b guard variable for CLegacyInput::RunInputFrame(bool)::k_pathLegacyDebuggerPid
  b guard variable for CPropertyContainer::BInit(std::string const&, bool)::vecReportedErrors
  b guard variable for CRenderModelManager::GetModelInfo(char const*, bool)::k_pathInputJoystick
@@ -964,6 +966,14 @@
  b guard variable for CSettingsManager::GetValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
  b guard variable for CSettingsSetting::GetDefaultValue() const::Empty
  b guard variable for CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
+ b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathCosmosController
+ b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathFocus3Controller
+ b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathG2Controller
+ b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathIndexController
+ b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathMRController
+ b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathSimpleController
+ b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathTouchController
+ b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathViveController
  b guard variable for CSxrSession::UpdateInteractionProfile()::rTopLevelPaths
  b guard variable for CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)::s_pVrSettings
  b guard variable for CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
@@ -1000,8 +1010,8 @@
  b guard variable for SplitInputPath(std::string const&, std::string*, std::string*)::k_sProximityPathPrefix
  b guard variable for SteamVRVersionAsString()::s_sCachedVersion
  b guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
- b guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
- b guard variable for UTF8to16(std::string const&)::s_convert
+ b guard variable for UTF16to8(wchar_t const*)::s_converter
+ b guard variable for UTF8to16(char const*)::s_converter
  b guard variable for gli::dx::dx()::Table
  b guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>::operator()(char) const::__nul
  b guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>::operator()(char) const::__nul
@@ -1576,9 +1586,6 @@
  b vrScreenshots001
  b vrSteamPrivate001
  b vrSteamPrivate002
- b vrSteamPrivate003
- b vrSteamPrivate004
- b vrSteamPrivate005
  b vrWatchdogHost001
  b vrapplications001
  b vrapplications002
@@ -1808,7 +1815,6 @@
  d VulkanVRRenderer::computeShaderDefs
  d VulkanVRRenderer::iedCameraDecodeQuad
  d VulkanVRRenderer::iedCameraProxyGeom
- d VulkanVRRenderer::iedCameraSimplifiedProxyGeom
  d VulkanVRRenderer::iedDistort
  d VulkanVRRenderer::iedGeom
  d VulkanVRRenderer::iedGeomFloor
@@ -2071,178 +2077,4 @@
  d typeinfo for CSxrDeletableBase
  d typeinfo for CSxrDispatchableHandle<CSxrAction, XrAction_T*>
  d typeinfo for CSxrDispatchableHandle<CSxrActionSet, XrActionSet_T*>
- d typeinfo for CSxrDispatchableHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*>
- d typeinfo for CSxrDispatchableHandle<CSxrInstance, XrInstance_T*>
- d typeinfo for CSxrDispatchableHandle<CSxrSession, XrSession_T*>
- d typeinfo for CSxrDispatchableHandle<CSxrSpace, XrSpace_T*>
- d typeinfo for CSxrDispatchableHandle<CSxrSwapchainBase, XrSwapchain_T*>
- d typeinfo for CSxrGraphicsBindingGLOpenVR
- d typeinfo for CSxrGraphicsBindingPrism
- d typeinfo for CSxrGraphicsBindingVulkanOpenVR
- d typeinfo for CSxrHandTrackerEXT
- d typeinfo for CSxrInstance
- d typeinfo for CSxrParentBase
- d typeinfo for CSxrSession
- d typeinfo for CSxrSpace
- d typeinfo for CSxrSwapchainBase
- d typeinfo for CSxrSwapchainGLOpenVR
- d typeinfo for CSxrSwapchainPrism
- d typeinfo for CSxrSwapchainVulkanOpenVR
- d typeinfo for CSyncLockThread
- d typeinfo for CThread
- d typeinfo for CTrackedDeviceServerDriverAdapter
- d typeinfo for CVRApplications_001
- d typeinfo for CVRApplications_002
- d typeinfo for CVRApplications_003
- d typeinfo for CVRApplications_004
- d typeinfo for CVRApplications_005
- d typeinfo for CVRApplications_006
- d typeinfo for CVRBlockQueueManager
- d typeinfo for CVRBlockQueue_001
- d typeinfo for CVRBlockQueue_002
- d typeinfo for CVRBlockQueue_003
- d typeinfo for CVRBlockQueue_004
- d typeinfo for CVRCameraComponentAdapter
- d typeinfo for CVRCameraComponent_001
- d typeinfo for CVRCameraComponent_002
- d typeinfo for CVRCameraComponent_Latest
- d typeinfo for CVRChaperoneClient
- d typeinfo for CVRChaperoneSetup_001
- d typeinfo for CVRChaperoneSetup_002
- d typeinfo for CVRChaperoneSetup_003
- d typeinfo for CVRChaperoneSetup_004
- d typeinfo for CVRChaperoneSetup_005
- d typeinfo for CVRChaperone_001
- d typeinfo for CVRChaperone_002
- d typeinfo for CVRChaperone_003
- d typeinfo for CVRClientCore_001
- d typeinfo for CVRClientCore_002
- d typeinfo for CVRCompositorClient
- d typeinfo for CVRCompositorClientBase
- d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>
- d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
- d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
- d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>
- d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>
- d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
- d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
- d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>
- d typeinfo for CVRCompositorSharedTextures::CTextureCacheKey
- d typeinfo for CVRCompositorSharedTextures::ISharedTextureSet
- d typeinfo for CVRCompositorSharedTextures::IVRSharedTexture
- d typeinfo for CVRCompositor_003
- d typeinfo for CVRCompositor_004
- d typeinfo for CVRCompositor_005
- d typeinfo for CVRCompositor_006
- d typeinfo for CVRCompositor_007
- d typeinfo for CVRCompositor_008
- d typeinfo for CVRCompositor_009
- d typeinfo for CVRCompositor_010
- d typeinfo for CVRCompositor_011
- d typeinfo for CVRCompositor_012
- d typeinfo for CVRCompositor_013
- d typeinfo for CVRCompositor_014
- d typeinfo for CVRCompositor_015
- d typeinfo for CVRCompositor_016
- d typeinfo for CVRCompositor_017
- d typeinfo for CVRCompositor_018
- d typeinfo for CVRCompositor_019
- d typeinfo for CVRCompositor_020
- d typeinfo for CVRCompositor_021
- d typeinfo for CVRCompositor_022
- d typeinfo for CVRCompositor_023
- d typeinfo for CVRCompositor_024
- d typeinfo for CVRCompositor_025
- d typeinfo for CVRCompositor_026
- d typeinfo for CVRControlPanel_001
- d typeinfo for CVRControlPanel_002
- d typeinfo for CVRControlPanel_003
- d typeinfo for CVRControlPanel_004
- d typeinfo for CVRControlPanel_005
- d typeinfo for CVRControllerComponentAdapter
- d typeinfo for CVRControllerComponent_Latest
- d typeinfo for CVRDashboardManager_001
- d typeinfo for CVRDebug
- d typeinfo for CVRDisplayComponentAdapter
- d typeinfo for CVRDisplayComponent_001
- d typeinfo for CVRDisplayComponent_Latest
- d typeinfo for CVRDriverDirectModeComponentAdapter
- d typeinfo for CVRDriverDirectModeComponent_001
- d typeinfo for CVRDriverDirectModeComponent_002
- d typeinfo for CVRDriverDirectModeComponent_003
- d typeinfo for CVRDriverDirectModeComponent_004
- d typeinfo for CVRDriverDirectModeComponent_005
- d typeinfo for CVRDriverDirectModeComponent_006
- d typeinfo for CVRDriverDirectModeComponent_007
- d typeinfo for CVRDriverDirectModeComponent_Latest
- d typeinfo for CVRFramerateGovernor
- d typeinfo for CVRIOBuffer
- d typeinfo for CVRIOBuffer_001
- d typeinfo for CVRIOBuffer_002
- d typeinfo for CVRInputLatest
- d typeinfo for CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long, unsigned long)::{lambda(unsigned long)#1}
- d typeinfo for CVRInput_001
- d typeinfo for CVRInput_002
- d typeinfo for CVRInput_003
- d typeinfo for CVRInput_004
- d typeinfo for CVRInput_005
- d typeinfo for CVRInput_006
- d typeinfo for CVRInput_007
- d typeinfo for CVRInput_008
- d typeinfo for CVRInput_009
- d typeinfo for CVRLog::InitLog(char const*, char const*, bool, unsigned long)::{lambda(ELogLevel, char const*, void*)#1}
- d typeinfo for CVRMailbox
- d typeinfo for CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}
- d typeinfo for CVRMailboxBase
- d typeinfo for CVRMailboxClient
- d typeinfo for CVRMailbox_001
- d typeinfo for CVRMsg_AbortApplicationTransition
- d typeinfo for CVRMsg_AcknowledgeQuit_Exiting
- d typeinfo for CVRMsg_ApplicationInfo
- d typeinfo for CVRMsg_ApplicationInfo_Manifest
- d typeinfo for CVRMsg_ApplicationInfo_Options
- d typeinfo for CVRMsg_ApplicationManifestRequest
- d typeinfo for CVRMsg_ApplicationManifestResponse
- d typeinfo for CVRMsg_CancelApplicationLaunch
- d typeinfo for CVRMsg_CancelApplicationLaunchResponse
- d typeinfo for CVRMsg_ChangeAppType
- d typeinfo for CVRMsg_ChangeAppTypeResponse
- d typeinfo for CVRMsg_ClientMailbox_GetNextMessage
- d typeinfo for CVRMsg_ClientMailbox_GetNextMessageResponse
- d typeinfo for CVRMsg_ClientMailbox_RegisterMailbox
- d typeinfo for CVRMsg_ClientMailbox_RegisterMailboxResponse
- d typeinfo for CVRMsg_ClientMailbox_SendMailboxMessage
- d typeinfo for CVRMsg_ClientMailbox_SendMailboxMessageResponse
- d typeinfo for CVRMsg_ClientMailbox_UnregisterMailbox
- d typeinfo for CVRMsg_ClientMailbox_UnregisterMailboxResponse
- d typeinfo for CVRMsg_CompositorBringToFront
- d typeinfo for CVRMsg_CompositorClearFrameBuffer
- d typeinfo for CVRMsg_CompositorConnect
- d typeinfo for CVRMsg_CompositorConnectResponse
- d typeinfo for CVRMsg_CompositorDumpImages
- d typeinfo for CVRMsg_CompositorDumpImagesAll
- d typeinfo for CVRMsg_CompositorGetScreenshotPropertyFilename
- d typeinfo for CVRMsg_CompositorGetScreenshotPropertyFilenameResponse
- d typeinfo for CVRMsg_CompositorGetScreenshotPropertyType
- d typeinfo for CVRMsg_CompositorGetScreenshotPropertyTypeResponse
- d typeinfo for CVRMsg_CompositorGoToBack
- d typeinfo for CVRMsg_CompositorHookScreenshot
- d typeinfo for CVRMsg_CompositorHookScreenshotResponse
- d typeinfo for CVRMsg_CompositorKeyboardShown
- d typeinfo for CVRMsg_CompositorKeyboardShownResponse
- d typeinfo for CVRMsg_CompositorNewSharedBuffer
- d typeinfo for CVRMsg_CompositorNewSharedBufferResponse
- d typeinfo for CVRMsg_CompositorNewSharedImage
- d typeinfo for CVRMsg_CompositorNewSharedImageResponse
- d typeinfo for CVRMsg_CompositorNewSharedSemaphore
- d typeinfo for CVRMsg_CompositorNewSharedSemaphoreResponse
- d typeinfo for CVRMsg_CompositorQuit
- d typeinfo for CVRMsg_CompositorRefSharedResource
- d typeinfo for CVRMsg_CompositorRefSharedResourceResponse
- d typeinfo for CVRMsg_CompositorRequestScreenshot
- d typeinfo for CVRMsg_CompositorRequestScreenshotResponse
- d typeinfo for CVRMsg_CompositorSetDashboardVisibilityResponse
- d typeinfo for CVRMsg_CompositorSubmitScreenshot
- d typeinfo for CVRMsg_CompositorSubmitScreenshotResponse
- d typeinfo for CVRMsg_CompositorTakeSte
- d typeinfo for CVRMsg_CompositorTakeStereoScreenshot
+ d typeinfo for CSxrDispatchableHandle<CSxrHandTr

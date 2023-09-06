@@ -151,8 +151,6 @@ $0rpc $1(.$2) returns (.$3)
 %s begin_ctx=%lu
 %s called without first releasing previous slot!
 %s contains an empty %s
-%s dtime=%d begin_ctx=%lu
-%s dtime=%d end_ctx=%lu
 %s end_ctx=%lu
 %s is not a valid api layer json. Missing %s member.
 %s%c%s
@@ -541,8 +539,6 @@ $0rpc $1(.$2) returns (.$3)
 (anonymous namespace)::CVRMsg_Input_SetActionManifestPathResponse_reflection_
 (anonymous namespace)::CVRMsg_Input_SetActionManifestPath_descriptor_
 (anonymous namespace)::CVRMsg_Input_SetActionManifestPath_reflection_
-(anonymous namespace)::CVRMsg_Input_SetXrInputConfigResponse_descriptor_
-(anonymous namespace)::CVRMsg_Input_SetXrInputConfigResponse_reflection_
 (anonymous namespace)::CVRMsg_Input_SetXrInputConfig_descriptor_
 (anonymous namespace)::CVRMsg_Input_SetXrInputConfig_reflection_
 (anonymous namespace)::CVRMsg_LaunchApplicationForMimeTypeResponse_descriptor_
@@ -826,7 +822,6 @@ $0rpc $1(.$2) returns (.$3)
 .PLACEHOLDER_VALUE
 .[\()*+?{|^$
 .[\*^$
-.backup
 .desktop
 .dummy
 .foo = value".
@@ -859,7 +854,6 @@ $0rpc $1(.$2) returns (.$3)
 /best_alias_path
 /block_id
 /blocks
-/bound_tracker_role
 /chaperone/perimeter
 /chaperone/play_area
 /chaperone/seated/transform
@@ -876,7 +870,6 @@ $0rpc $1(.$2) returns (.$3)
 /data/src/common/vrcommon/blockqueue.cpp
 /data/src/common/vrcommon/computedsettings.cpp
 /data/src/common/vrcommon/drivermanager.cpp
-/data/src/common/vrcommon/openvr_internal.cpp
 /data/src/common/vrcommon/openvrtools.cpp
 /data/src/common/vrcommon/openxr_utils.h
 /data/src/common/vrcommon/propertymanager.cpp
@@ -935,6 +928,7 @@ $0rpc $1(.$2) returns (.$3)
 /data/src/vrclient/openxr_session.cpp
 /data/src/vrclient/openxr_session.h
 /data/src/vrclient/openxr_space.cpp
+/data/src/vrclient/sharedtexture_linux.cpp
 /data/src/vrclient/skeletalinpututils.cpp
 /data/src/vrclient/vrcompositorclient.cpp
 /data/src/vrclient/vrcompositorsharedtextures.cpp
@@ -959,10 +953,6 @@ $0rpc $1(.$2) returns (.$3)
 /input/application_menu/touch
 /input/back
 /input/back/click
-/input/default_holographic_controller_remapping.json
-/input/default_hpmotioncontroller_remapping.json
-/input/default_pico_controller_remapping.json
-/input/default_vive_cosmos_controller_remapping.json
 /input/finger/index
 /input/finger/middle
 /input/finger/pinky
@@ -994,7 +984,6 @@ $0rpc $1(.$2) returns (.$3)
 /input/view/click
 /input_debugger_pid
 /input_profile
-/interaction_profiles/
 /interaction_profiles/google/daydream_controller
 /interaction_profiles/hp/mixed_reality_controller
 /interaction_profiles/htc/vive_controller
@@ -1027,7 +1016,6 @@ $0rpc $1(.$2) returns (.$3)
 /proc/self/exe
 /proc/self/status
 /progress
-/proximity
 /read_
 /result
 /role/camera
@@ -1220,6 +1208,7 @@ $0rpc $1(.$2) returns (.$3)
 /valve-
 /valve-URI-
 /x/click
+/x/touch
 /y/click
 /y/touch
 0 width
@@ -1349,6 +1338,7 @@ $0rpc $1(.$2) returns (.$3)
 16CVROverlayLatest
 16CVkCommandBuffer
 16IVRClientHandler
+17:58:18
 17CBoneMaskResource
 17CInputFilter_DPad
 17CSharedImageLinux
@@ -1423,9 +1413,6 @@ $0rpc $1(.$2) returns (.$3)
 19CVRRenderModels_005
 19CVRSteamPrivate_001
 19CVRSteamPrivate_002
-19CVRSteamPrivate_003
-19CVRSteamPrivate_004
-19CVRSteamPrivate_005
 19CVRWatchdogHost_001
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
@@ -1449,7 +1436,6 @@ $0rpc $1(.$2) returns (.$3)
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:21:56
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1773,9 +1759,6 @@ $0rpc $1(.$2) returns (.$3)
 33RenderModelsInterfaceRegistrationI19CVRRenderModels_005E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_001E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_002E
-33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_003E
-33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_004E
-33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_005E
 34CInputFilter_Scalar_ScaleAndOffset
 34CVRMsg_ApplicationManifestResponse
 34CVRMsg_CompositorRefSharedResource
@@ -1821,7 +1804,6 @@ $0rpc $1(.$2) returns (.$3)
 36CVRMsg_TrackedCamera_StopVideoStream
 37CInputFilter_Boolean_ButtonPressState
 37CVRMsg_CompositorTakeStereoScreenshot
-37CVRMsg_Input_SetXrInputConfigResponse
 37CVRMsg_Settings_GetValueType_Response
 37CVRMsg_TrackedCamera_PauseVideoStream
 37CVRMsg_TrackedCamera_StartVideoStream
@@ -1906,7 +1888,6 @@ $0rpc $1(.$2) returns (.$3)
 57CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
 57CVRMsg_TrackedCamera_ReleaseVideoStreamingServiceResponse
 650000
-7CThread
 8CHmd_001
 8CHmd_002
 8CHmd_003
@@ -2048,10 +2029,10 @@ ApplicationsInterfaceRegistration<CVRApplications_005>::~ApplicationsInterfaceRe
 ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
-Apr 27 2023
 Array for decompressed transforms is too small.  Needed %u got %u
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
 Array length of `emissiveFactor` parameter in material must be 3, but got
+Array textures from OpenGL aren't supported on Linux yet.
 AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)
 AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*) [clone .cold]
 AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)::bMinidumpDisabled
@@ -2072,6 +2053,7 @@ Attempting to wait on a fence value that is too large. Current: %lx Wait: %lx
 Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %lx, Signaled: %lx
 AuthenticAMD
 AutosaveURL
+BCheckParentOverlayVisible_Recursive(unsigned long, VRSystemLayerState_t const*, int)
 BCreateDirectory(char const*)
 BCreateDirectoryRecursive(char const*)
 BCreateDirectoryRecursive(char const*) [clone .cold]
@@ -2160,7 +2142,7 @@ BindingPreviousKey(std::string const&, EActionBindingCategory)
 BindingPreviousKey(std::string const&, EActionBindingCategory) [clone .cold]
 BindingURIToFileId(std::string const&)
 BindingURIToFileId(std::string const&) [clone .cold]
-Bindings from OpenXR for
+Bindings from OpenXR
 BlankEyeBuffer
 BlockQueueInterfaceRegistration<CVRBlockQueue_001>::GetInterface()
 BlockQueueInterfaceRegistration<CVRBlockQueue_001>::~BlockQueueInterfaceRegistration()
@@ -2185,8 +2167,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
 BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-C.1869.0
-C.1872.1
+C.1857.0
+C.1860.1
 C.417.0
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -2270,133 +2252,4 @@ CActionFilter::FromJson(Json::Value const&, std::string*)
 CActionFilter::FromJson(Json::Value const&, std::string*) [clone .cold]
 CActionFilter::GetBoolParameter(std::string const&, bool) const
 CActionFilter::GetBoolParameter(std::string const&, bool) const [clone .cold]
-CActionFilter::GetFloatParameter(std::string const&, float) const
-CActionFilter::GetFloatParameter(std::string const&, float) const [clone .cold]
-CActionFilter::GetIntParameter(std::string const&, int) const
-CActionFilter::GetIntParameter(std::string const&, int) const [clone .cold]
-CActionFilter::GetStringParameter(std::string const&, std::string const&) const
-CActionFilter::GetStringParameter(std::string const&, std::string const&) const [clone .cold]
-CActionFilter::~CActionFilter()
-CAnimFactoryBase::CreateInternal(char const*, std::string const&) const
-CAnimFactoryBase::CreateInternal(unsigned int, std::string const&) const
-CAnimFactoryBase::GetDerivedIDFromBase(unsigned int) const
-CAnimFactoryBase::GetTypeNames() const
-CAnimFactoryBase::GetTypeNames() const [clone .cold]
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::GetTypeID() const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::GetTypeName() const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::IsDerivedFrom(unsigned int) const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::Make(std::string const&) const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::~CFactoryMakerT()
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::GetTypeID() const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::GetTypeName() const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::IsDerivedFrom(unsigned int) const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::Make(std::string const&) const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::~CFactoryMakerT()
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::GetTypeID() const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::GetTypeName() const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::IsDerivedFrom(unsigned int) const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::Make(std::string const&) const
-CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::~CFactoryMakerT()
-CAnimPose::AddRef() const
-CAnimPose::CAnimPose()
-CAnimPose::CalculateModelSpaceTransforms()
-CAnimPose::CopyFrom(CSmartPtr<CAnimPose, CRefCountAccessor> const&)
-CAnimPose::GetBoneCount() const
-CAnimPose::GetLocalSpaceTransform(int) const
-CAnimPose::GetLocalSpaceTransformsPtr() const
-CAnimPose::GetModelSpaceTransform(int) const
-CAnimPose::GetModelSpaceTransformsPtr() const
-CAnimPose::GetRefCount() const
-CAnimPose::GetSkeleton() const
-CAnimPose::GetWritableLocalSpaceTransformsPtr()
-CAnimPose::Init(CAnimSkeleton const*, CAnimPosePool*)
-CAnimPose::InitToBindPose()
-CAnimPose::InitToIdentity()
-CAnimPose::Release() const
-CAnimPose::SetDirtyRecurs(int)
-CAnimPose::SetLocalSpaceTransform(int, CTransform const&)
-CAnimPose::SetModelSpaceTransform(int, CTransform const&)
-CAnimPose::~CAnimPose()
-CAnimPosePool::AddNewBlock()
-CAnimPosePool::AddNewBlock() [clone .cold]
-CAnimPosePool::Alloc()
-CAnimPosePool::CAnimPosePool(CAnimSkeleton const*, unsigned int)
-CAnimPosePool::CAnimPosePool(CAnimSkeleton const*, unsigned int) [clone .cold]
-CAnimPosePool::Free(CAnimPose*)
-CAnimResource
-CAnimResource::CAnimResource(std::string const&)
-CAnimResource::CastToBase(int)
-CAnimResource::CastToBase(int) const
-CAnimResource::GetResourceName() const
-CAnimResource::GetTypeInfo() const
-CAnimResource::MyTypeID()
-CAnimResource::MyTypeID()::sID
-CAnimResource::MyTypeInfo()
-CAnimResource::m_typeInfoCAnimResource
-CAnimResourceFactory::CAnimResourceFactory()
-CAnimResourceFactory::CAnimResourceFactory() [clone .cold]
-CAnimResourceManager::CAnimResourceManager(vr::IVRResources*)
-CAnimResourceManager::CAnimResourceManager(vr::IVRResources*) [clone .cold]
-CAnimResourceManager::Get()
-CAnimResourceManager::GetResource(char const*, char const*, int, char const*)
-CAnimResourceManager::GetResource(char const*, char const*, int, char const*) [clone .cold]
-CAnimResourceManager::GetSharedUpdateResources(CAnimSkeleton const*)
-CAnimResourceManager::GetSharedUpdateResources(CAnimSkeleton const*) [clone .cold]
-CAnimResourceManager::Initialize(vr::IVRResources*)
-CAnimResourceManager::Initialize(vr::IVRResources*) [clone .cold]
-CAnimResourceManager::IsInitialized()
-CAnimResourceManager::Release()
-CAnimResourceManager::m_sInstance
-CAnimSkeleton const* CAnimResourceManager::GetResource<CAnimSkeleton>(char const*)
-CAnimSkeleton::CAnimSkeleton(std::string const&)
-CAnimSkeleton::CAnimSkeleton(std::string const&) [clone .cold]
-CAnimSkeleton::GetBindPoseLocalSpace(int) const
-CAnimSkeleton::GetBindPoseModelSpace(int) const
-CAnimSkeleton::GetBoneCount() const
-CAnimSkeleton::GetBoneIndex(std::string const&) const
-CAnimSkeleton::GetBoneName(int) const
-CAnimSkeleton::GetChildCount(int) const
-CAnimSkeleton::GetChildIndex(int, int) const
-CAnimSkeleton::GetParentIndex(int) const
-CAnimSkeleton::GetResourceTypeDir()
-CAnimSkeleton::GetSkeletonID() const
-CAnimSkeleton::Load(std::string const&)
-CAnimSkeleton::Load(std::string const&) [clone .cold]
-CAnimSkeleton::~CAnimSkeleton()
-CAssert::AddCallback(CAssertCallback*)
-CAssert::AddCallback(CAssertCallback*) [clone .cold]
-CAssert::AssertMsgImpl(char const*, unsigned int, bool, unsigned int, ...)
-CAssert::AssertMsgImpl(char const*, unsigned int, bool, unsigned int, ...) [clone .cold]
-CAssert::GetInstance()
-CAssert::GetInstance() [clone .cold]
-CAssert::RemoveCallback(CAssertCallback*)
-CAssert::m_mutex
-CAssert::m_pInstance
-CAssertCallback::Initialize(std::function<void (char const*, char const*, unsigned int, bool, void*, bool*)>, void*)
-CAssertCallback::Initialize(std::function<void (char const*, char const*, unsigned int, bool, void*, bool*)>, void*) [clone .cold]
-CAssertCallback::~CAssertCallback()
-CAutoLockAndDrainLogOnExit::~CAutoLockAndDrainLogOnExit()
-CAutoRestoreEnvironment::CAutoRestoreEnvironment(std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > >)
-CAutoRestoreEnvironment::~CAutoRestoreEnvironment()
-CBitWriteMasksInit::CBitWriteMasksInit()
-CBlendPoseOperation::BlendPoses(CPoseUpdateContext&, CSmartPtr<CAnimPose, CRefCountAccessor>*, float const*, int)
-CBlendPoseOperation::BlendPoses(CPoseUpdateContext&, CSmartPtr<CAnimPose, CRefCountAccessor>*, float const*, int) [clone .cold]
-CBlendPoseOperation::Evaluate(CPoseUpdateContext&, CBlendPoseOperation::OpSettings const*)
-CBlendPoseOperation::Evaluate(CPoseUpdateContext&, CBlendPoseOperation::OpSettings const*) [clone .cold]
-CBlendPoseOperation::MakeOpDescription(CPoseRecipe&, unsigned char const*, float const*, int)
-CBlockQueue::AcquireReadOnlyBlock(unsigned long*, void const**, vr::EBlockQueueReadType)
-CBlockQueue::AcquireReadOnlyBlock(unsigned long*, void const**, vr::EBlockQueueReadType) [clone .cold]
-CBlockQueue::AcquireWriteOnlyBlock(unsigned long*, void**)
-CBlockQueue::AcquireWriteOnlyBlock(unsigned long*, void**) [clone .cold]
-CBlockQueue::BHasReader()
-CBlockQueue::BHasReader() [clone .cold]
-CBlockQueue::Connect(std::string const&)
-CBlockQueue::Connect(std::string const&) [clone .cold]
-CBlockQueue::Create(std::string const&, unsigned int, unsigned int, unsigned int, unsigned int)
-CBlockQueue::Create(std::string const&, unsigned int, unsigned int, unsigned int, unsigned int) [clone .cold]
-CBlockQueue::GetDataBlock(unsigned int)
-CBlockQueue::GetFlags() const
-CBlockQueue::GetHeaderBlock(unsigned int)
-CBlockQueue::GetMetaContainerHandle()
-CBlockQueue::RefreshReaderL
-CBlockQueue::RefreshReaderListIfNecessary(CBlockQueue::BlockQueueHeader_t const&)
+CActionFilter::GetFloatParameter(s

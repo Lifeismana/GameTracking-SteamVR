@@ -23,7 +23,6 @@
 	optional .CVRMsg_ApplicationInfo_Options options = 2;
 	optional .CVRMsg_ApplicationInfo_Options options = 3;
 	optional .CVRMsg_Input_GetActionBindingsResponse.LoadResult result = 2 [default = k_ELoadResultUnknown];
-	optional bool compute_access = 6;
 	optional bool dashboard_overlay = 2;
 	optional bool debug_pipe = 2;
 	optional bool enable = 2;
@@ -35,7 +34,6 @@
 	optional bool is_internal = 16 [default = false];
 	optional bool is_self_identified = 20 [default = false];
 	optional bool is_template = 14 [default = false];
-	optional bool mappable = 5;
 	optional bool ndc = 3;
 	optional bool paused = 2;
 	optional bool reconnect = 5;
@@ -317,7 +315,6 @@ message CVRMsg_Input_GetOriginLocalizedNameResponse {
 message CVRMsg_Input_SetActionManifestPath {
 message CVRMsg_Input_SetActionManifestPathResponse {
 message CVRMsg_Input_SetXrInputConfig {
-message CVRMsg_Input_SetXrInputConfigResponse {
 message CVRMsg_LaunchApplication {
 message CVRMsg_LaunchApplicationForMimeType {
 message CVRMsg_LaunchApplicationForMimeTypeResponse {
