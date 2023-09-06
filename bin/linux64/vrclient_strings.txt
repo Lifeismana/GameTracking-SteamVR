@@ -292,7 +292,6 @@ $0rpc $1(.$2) returns (.$3)
 %s: failed to submit frame to composition client
 %s: failed to submit graphics command
 %s: failed to submit graphics work
-%s: failed to submit texture set info %d error=%s
 %s: failed to tessellate %s
 %s: failed to wait for a timeline signal
 %s: failed to wait for semaphore
@@ -304,9 +303,7 @@ $0rpc $1(.$2) returns (.$3)
 %s: high priority compute requested, but %s is missing
 %s: id mismatch when registering client resources
 %s: incompatible vulkan version requested
-%s: index %d out of range %d
 %s: index required (size=%d)
-%s: invalid count %d
 %s: invalid device
 %s: invalid frame stage: %s
 %s: invalid instance
@@ -335,7 +332,6 @@ $0rpc $1(.$2) returns (.$3)
 %s: pre-submit failed
 %s: prism process not found
 %s: state %d must be set via CImage::Transition only
-%s: texture set not specified
 %s: too many verts; aborting
 %s: unknown vulkan message severity
 %s: unsupported graphics binding type: %d
@@ -1311,7 +1307,6 @@ $0rpc $1(.$2) returns (.$3)
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-04:53:15
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -1552,6 +1547,7 @@ $0rpc $1(.$2) returns (.$3)
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:52:18
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -2276,11 +2272,12 @@ BuildFadeGridMessage(float, bool)
 BuildFadeGridMessage(float, bool) [clone .cold]
 BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
 BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
-BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
+BuildMatTextureDetails(float (*) [4][4], vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-C.1831.365398
-C.1834.365409
+C.1831.365281
+C.1834.365292
 C.413.288424
+CActionBindi
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) [clone .cold]
@@ -2290,4 +2287,5 @@ CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputAct
 CActionBindingConfig::HasControllerType(std::string const&) const
 CActionBindingConfig::~CActionBindingConfig()
 CActionBindingConfigGenerator::AddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, std::string, bool)
-CActionBindingConfigGenerator::AddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, std::string, bool) [clone
+CActionBindingConfigGenerator::AddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, std::string, bool) [clone .cold]
+CActionBindingConfigGenerator::AddBindingForSlot(Mode_t&, ModeSlot_t&, std::vector<std::string, std::allocator<std::string> > const&)
