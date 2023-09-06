@@ -1817,9 +1817,3 @@ vel ler os ficheiros dos relat
 vel n
 vel pelas esta
 vel reencaminhar o 
-vel remover alguns dispositivos USB relevantes. Por favor, tenta de novo.\n"
-vel repor o runtime atual\n%2\ncom base no diret
-vel."
-via..."
-x. 1 MB)"
-xito. Poder

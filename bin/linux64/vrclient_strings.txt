@@ -837,7 +837,7 @@ $0rpc $1(.$2) returns (.$3)
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN22CThreadWatchdogManager13InitWatchdogsEvEUlvE_EEEEEE
 *Z13InitDriverLogPN2vr12IVRDriverLogEEUl9ELogLevelPKcPvE_
 *Z17sxr_xrLocateViewsP11XrSession_TPK16XrViewLocateInfoP11XrViewStatejPjP6XrViewEUlRSt6vectorIS7_SaIS7_EEE_
-*Z19ProcessDpadBindingsjPK25XrBindingModificationsKHRPK36XrInteractionProfileSuggestedBindingPK24XrActionSuggestedBindingP16SuggestedBindingEUlPK34XrInteractionProfileDpadBindingEXTE_
+*Z19ProcessDpadBindingsjPK25XrBindingModificationsKHRPK36XrInteractionProfileSuggestedBindingPK24XrActionSuggestedBindingP16SuggestedBindingRSt6vectorImSaImEEEUlPK34XrInteractionProfileDpadBindingEXTE_
 *Z23ProcessAnalogThresholdsbjPK25XrBindingModificationsKHRPK10CSxrActionPK36XrInteractionProfileSuggestedBindingPK24XrActionSuggestedBindingPKSt3setI12XrActionTypeSt4lessISC_ESaISC_EEP16SuggestedBindingEUlPK40XrInteractionProfileAnalogThresholdVALVEE0_
 *Z23ProcessAnalogThresholdsbjPK25XrBindingModificationsKHRPK10CSxrActionPK36XrInteractionProfileSuggestedBindingPK24XrActionSuggestedBindingPKSt3setI12XrActionTypeSt4lessISC_ESaISC_EEP16SuggestedBindingEUlPK40XrInteractionProfileAnalogThresholdVALVEE_
 *Z24sxr_xrGetActionStatePoseP11XrSession_TPK20XrActionStateGetInfoP17XrActionStatePoseEUlP10XrAction_TmS5_PmE_
@@ -1005,6 +1005,7 @@ $0rpc $1(.$2) returns (.$3)
 /data/src/vrclient/vrcompositorclient.cpp
 /data/src/vrclient/vrcompositorsharedtextures.cpp
 /data/src/vrclient/vrmailboxclient.cpp
+/data/src/vrclient/vroverlay.cpp
 /dev/null
 /device_was_drawn
 /devices/htc/vive_tracker
@@ -1394,6 +1395,7 @@ $0rpc $1(.$2) returns (.$3)
 14CVROverlay_022
 14CVROverlay_023
 14CVROverlay_024
+14CVROverlay_025
 14IHmdSystem_002
 14IHmdSystem_003
 14IVRLegacyInput
@@ -1502,7 +1504,6 @@ $0rpc $1(.$2) returns (.$3)
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19InMemoryInputStream
 1e+9999
-20:45:15
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -1544,6 +1545,7 @@ $0rpc $1(.$2) returns (.$3)
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:53:07
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -1706,6 +1708,7 @@ $0rpc $1(.$2) returns (.$3)
 28OverlayInterfaceRegistrationI14CVROverlay_022E
 28OverlayInterfaceRegistrationI14CVROverlay_023E
 28OverlayInterfaceRegistrationI14CVROverlay_024E
+28OverlayInterfaceRegistrationI14CVROverlay_025E
 29CInputFilter_JoystickSettings
 29CSharedCountingSemaphoreLinux
 29CSxrChildVariableParentHandleI9CSxrSpaceP9XrSpace_T10CSxrAction11CSxrSessionE
@@ -1991,3 +1994,163 @@ $0rpc $1(.$2) returns (.$3)
 : one or more FS callback not set
 ://Exec="
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
+; expected
+; last read: '
+<NONE>
+<U+%.4X>
+<discarded>
+<invalid handle>
+<non-buildbot build>
+<parse error>
+<uninitialized>
+<unknown handle>
+<unknown>
+= { <proto text format> }". To set fields within it, use syntax like "
+=====================================
+================================================================================================
+> /dev/null
+?N2vr10IVRMCStoreE
+@(knN
+A file with this name is already in the pool.
+A protocol message was rejected because it was too big (more than
+A valid JSON document must be either an array or an object value.
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ASCII
+ASCII//TRANSLIT
+ASSERT: "%s" at %s:%d.
+AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
+Aborting due to fatal assertion failure.
+Accessor
+AcquireCompositorSlot
+AcquireImage
+Action %s reading %0.5f time %llu
+Action %s reading %0.5f, %0.5f time %llu, %llu
+Action %s reading %0.5f, %0.5f, %0.5f time %llu, %llu, %llu
+Action %s reading %s time %llu
+Action %s reading boolean failed
+Action %s rejecting input because it is private
+Action %s rejecting input because of device requirement
+Action Manifest Path set to %s
+Action Set names may not be empty
+Action names may not be empty
+Action paths must be of the form /actions/<actionset>/in|out/<actionname>:
+Action paths must take the form '/actions/<action set>/in|out/<action>'. "
+ActionDirectionNameToEnum(std::string const&)
+ActionScopeNameToEnum(std::string const&)
+ActionTypeNameToEnum(std::string const&)
+Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
+Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
+Active pri %u, device=%s
+Actual    :
+AddBool
+AddDouble
+AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string> >&)
+AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
+AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string> >&)::dpadDirections
+AddEnum
+AddFloat
+AddInt32
+AddInt64
+AddLayerProjection
+AddLayerQuad
+AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t> >)
+AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t> >) [clone .cold]
+AddLegalInteractionProfiles()
+AddLegalInteractionProfiles() [clone .cold]
+AddMessage
+AddOverlayToResult(vr::DashboardOverlayState_t*, unsigned int, unsigned long, unsigned long, unsigned int&)
+AddPathHandleToJson(Json::Value*, std::string const&, unsigned long)
+AddPathHandleToJson(Json::Value*, std::string const&, unsigned long) [clone .cold]
+AddPullHandlerForPathIfSupported(std::string const&, std::vector<std::string, std::allocator<std::string> >*)
+AddPullHandlerForPathIfSupported(std::string const&, std::vector<std::string, std::allocator<std::string> >*) [clone .cold]
+AddString
+AddUInt32
+AddUInt64
+Adding focus flag %s
+Adding tutorial action set %s twice!
+After initial config load, app appears to be using legacy input
+After initial config load, app appears to not be using SteamVR Input
+After initial config load, app appears to not be using input
+Alias
+AllocSharedMemory failed
+AllocateMemory
+AllocateMemoryFromType
+Already saw decimal point or exponent; can't have another one.
+And filters need at least one input in filter %s
+AnimUtils::AngleAboutAxis(VectorAligned const&, VectorAligned const&, VectorAligned const&)
+AnimUtils::AngleBetweenVectors(VectorAligned const&, VectorAligned const&)
+AnimUtils::Blend(float, BlendSettings_t const&)
+AnimUtils::Blend(float, EBlendType, float)
+AnimUtils::Blend2Poses(CPoseRecipe&, unsigned char, unsigned char, float)
+AnimUtils::ChangeRange(float, float, float, float, float)
+AnimUtils::CloseEnough(float, float, float)
+AnimUtils::ConvertFromGLTF(CTransform const&)
+AnimUtils::FromEulerAngles(vr::HmdVector3_t const&)
+AnimUtils::GetBarycentricCoords2D(vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, float*)
+AnimUtils::GetBias(float, float)
+AnimUtils::GetButtonStatus(unsigned long, unsigned long, vr::EVRButtonId)
+AnimUtils::GetGain(float, float)
+AnimUtils::RotationAboutAxis(VectorAligned const&, VectorAligned const&, VectorAligned const&)
+AnimUtils::RotationBetweenVectors(VectorAligned const&, VectorAligned const&)
+AnimUtils::ToEulerAngles(QuaternionAligned const&)
+AnimUtils::UpdateCycle(float, float, float, float, bool)
+AnimUtils::UpdateCycle(float, float, float, float, bool, int&, float&)
+AnimationChannel
+Another app was already launching (117)
+App info manager init failed (114)
+App key after connect message:%s
+App submitted texture from wrong device!  Make sure app is configured to use the graphics card that your headset is plugged into.
+Application failed to call xrGetVulkanGraphicsDevice before xrCreateSession
+Application submitted two left scene textures for a single frame!
+Application submitted two right scene textures for a single frame!
+ApplicationMenu
+ApplicationsInterfaceRegistration<CVRApplications_001>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_001>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_002>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_002>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_003>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_003>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_004>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_004>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_005>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_005>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
+ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
+April
+Array for decompressed transforms is too small.  Needed %u got %u
+Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
+Array length of `emissiveFactor` parameter in material must be 3, but got
+Array textures from OpenGL aren't supported on Linux yet.
+AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)
+AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*) [clone .cold]
+AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)::bMinidumpDisabled
+Asset
+Attempt to add alias root %s after a path handle was generated. That is not supported
+Attempt to init shared state %s twice
+Attempted to access vulkan array info for a non-vulkan texture
+Attempted to map already-mapped BO
+Attempted to map un-allocated BO
+Attempted to map un-mappable BO
+Attempted to read payload of %d bytes from pipe but failed
+Attempted to unmap un-allocated BO
+Attempted to unmap unmapped BO
+Attempted to write %zd bytes and ended up writing 0. Closing the pipe
+Attempting to load initial input config
+Attempting to wait on a fence that has already been waited for. Current: %lx Wait: %lx
+Attempting to wait on a fence value that is too large. Current: %lx Wait: %lx
+Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %lx, Signaled: %lx
+August
+AuthenticAMD
+AutosaveURL
+Axis0
+Axis0_Value
+Axis1
+Axis1_Value
+Axis2
+Axis2_Value1
+Axis2_Value2
+Axis3
+Axis3_Value_e0
+Axis3_Value_e1
+Axis4

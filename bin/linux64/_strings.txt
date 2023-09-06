@@ -191,7 +191,7 @@ $ttM9
 1OnStatePollTimeout()
 1OnTableItemSelectionChanged()
 1e+9999
-20:45:15
+22:53:07
 2ATUH
 2clicked()
 2itemSelectionChanged()
@@ -229,6 +229,7 @@ $ttM9
 =3333
 ================================================================================================
 ?AUATI
+?not enough space for format expansion (Please submit full bug report at https://gcc.gnu.org/bugs
 @(I;@0r
 @[A\]
 A valid JSON document must be either an array or an object value.
@@ -347,7 +348,7 @@ CPH;CXt
 CQOverlayImage
 CQOverlayViewer
 CSWTCH.100
-CSWTCH.211
+CSWTCH.213
 CSharedResourceNamespaceClient::Init(): failed connect
 CSharedResourceNamespaceClient::Init(): failed to get server response
 CSharedResourceNamespaceClient::Init(): failed to retreive payload
@@ -552,59 +553,54 @@ H9G0v
 H9p s
 H9r w
 H9s`t
-H;-$i
-H;=	v
-H;= j
-H;=!b
-H;=#;
-H;=$+
-H;=&M
-H;='{
-H;=)L	
-H;=*z
-H;=0l
-H;=4%
-H;=7R
-H;=7n
-H;=:X
-H;=<B
-H;=>s
-H;=?n
-H;=A{
-H;=F`
-H;=Fz
-H;=IM
-H;=K2
-H;=K^
-H;=L$
-H;=Lv
-H;=MR
-H;=NQ	
-H;=T.
-H;=Wm
-H;=XR
-H;=XU	
-H;=Zm
-H;=[{
-H;=^A
-H;=_r
-H;=dQ	
-H;=dn
-H;=e#
-H;=g*
-H;=hq
-H;=hz
-H;=jz
-H;=m9
-H;=mI
-H;=qm
-H;=tU	
-H;=u)
-H;=w@
-H;=xA
-H;=yx
-H;=|d
-H;=~o
+H;-%i
+H;-Di
+H;=!\
+H;=!m
+H;="P
+H;=$l
+H;=&!
+H;=)j
+H;=)v
+H;=+{
+H;=,d
+H;=- 
+H;=-&
+H;=-/
+H;=.o
+H;=/|
+H;=3z
+H;=4O	
+H;=7M	
+H;=;a
+H;=Ab
+H;=Aq
+H;=D+
+H;=IL	
+H;=Ij
+H;=K;
+H;=T%
+H;=Uz
+H;=ZX
+H;=\B
+H;=^s
+H;=_k
+H;=aq
+H;=f`
+H;=ir
+H;=k2
+H;=l$
+H;=mR
+H;=nQ	
+H;=nz
+H;=sl
+H;=t.
+H;=xU	
+H;=y~
+H;={9
+H;=|u
+H;=}i
+H;=~A
 H;>t&H;z
 H;C t
 H;C8t
@@ -653,7 +649,7 @@ IVRInput_010
 IVRMailbox_002
 IVROverlayInternal_XXX
 IVROverlayView_003
-IVROverlay_025
+IVROverlay_026
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -693,7 +689,7 @@ InputValueVisibility_SteamVRInternal
 Invalid socket name parameters for shared fd
 JLuSUH
 January
-Jun  2 2022
+Jun 14 2022
 L$ H9
 L$ H;H
 L$(Hc
@@ -710,9 +706,8 @@ L9cXu
 L9t$xt
 L9t$xtrI
 L9|$x
-L;%.L
-L;%l{
-L;%rw
+L;%.z
+L;-V"
 L;G t4L
 L;h v
 L;p s5H
@@ -1042,6 +1037,7 @@ Requested Force create but SharedObjectMutex already created
 SDL_GetError
 SDL_GetPowerInfo
 SDL_SetThreadPriority
+STEAMVR_APPKEY
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
@@ -2151,7 +2147,7 @@ _Z22TrimTrailingWhitespaceRKSs
 _Z22VRWriteMiniDumpIfSetupPKcb
 _Z23BuildFadeToColorRequestfRKN2vr10HmdColor_tE8FadeType
 _Z23BuildFadeToColorRequestfRKN2vr10HmdColor_tE8FadeType.cold
-_Z23ComputeTransformDetailsRKN2vr13HmdMatrix34_tERKNS_12HmdVector2_tEffffS5_RKNS_17VRTextureBounds_tE
+_Z23ComputeTransformDetailsRKN2vr13HmdMatrix34_tERKNS_12HmdVector2_tEfffffS5_RKNS_17VRTextureBounds_tE
 _Z23GetStringForScalarUnitsN2vr14EVRScalarUnitsE
 _Z23GetStringForTrackerRole12ETrackerRole
 _Z23GetStringForVREventTypeN2vr12EVREventTypeE
@@ -2996,6 +2992,7 @@ _ZN22CVRPathRegistry_Public13GetSteamAppIdEv
 _ZN22CVRPathRegistry_Public13IsSteamVRMainEv
 _ZN22CVRPathRegistry_Public14InitSteamAppIdEv
 _ZN22CVRPathRegistry_Public14InitSteamAppIdEv.cold
+_ZN22CVRPathRegistry_Public17IsChildOfVRServerEv
 _ZN22CVRPathRegistry_Public19GetOpenVRConfigPathEv
 _ZN22CVRPathRegistry_Public19GetOpenVRConfigPathEv.cold
 _ZN22CVRPathRegistry_Public25GetVRPathRegistryFilenameEv
@@ -7950,7 +7947,6 @@ nanosleep
 nfinity
 no_no
 norwegian
-not enough space for format expansion (Please submit full bug report at https://gcc.gnu.org/bugs
 o ATSH
 o(ATI
 o8ATI
@@ -7971,6 +7967,7 @@ once_regsizes.10235
 opaqueOverlay
 opendir
 openvr
+openvr.component.vrserver
 openvrpaths.vrpath
 ot$`f
 overlay_viewer.dbg
@@ -8048,6 +8045,7 @@ sched_get_priority_max
 sched_get_priority_min
 sched_getparam
 sched_getscheduler
+sched_setaffinity
 sched_setscheduler
 sched_yield
 schinese

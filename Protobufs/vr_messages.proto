@@ -44,6 +44,8 @@
 	optional bool result = 1;
 	optional bool result = 7;
 	optional bool should_kill = 1;
+	optional bool show_overlay_in_quicklaunch = 26 [default = false];
+	optional bool starts_theater_mode = 25 [default = false];
 	optional bool success = 1;
 	optional bool temporary = 2;
 	optional bool value = 2;
