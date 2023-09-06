@@ -1317,7 +1317,6 @@ $0rpc $1(.$2) returns (.$3)
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-02:35:47
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -1535,6 +1534,7 @@ $0rpc $1(.$2) returns (.$3)
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:48:02
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1999,4 +1999,653 @@ $0rpc $1(.$2) returns (.$3)
 9CVkBuffer
 9CVkMemory
 9XrSpace_T
-: Protocol
+: Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
+: Tried to copy from a message with a different type. to:
+: Tried to merge from a message with a different type.  to:
+: exception thrown in JSON library
+: one or more FS callback not set
+://Exec="
+::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
+; expected
+; last read: '
+<NONE>
+<U+%.4X>
+<discarded>
+<invalid handle>
+<non-buildbot build>
+<parse error>
+<uninitialized>
+<unknown handle>
+<unknown>
+= { <proto text format> }". To set fields within it, use syntax like "
+=====================================
+================================================================================================
+> /dev/null
+?N2vr10IVRMCStoreE
+@(knN
+A file with this name is already in the pool.
+A protocol message was rejected because it was too big (more than
+A valid JSON document must be either an array or an object value.
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ASCII
+ASCII//TRANSLIT
+ASSERT: "%s" at %s:%d.
+AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
+Aborting due to fatal assertion failure.
+Accessor
+AcquireCompositorSlot
+AcquireImage
+Action %s reading %0.5f time %llu
+Action %s reading %0.5f, %0.5f time %llu, %llu
+Action %s reading %0.5f, %0.5f, %0.5f time %llu, %llu, %llu
+Action %s reading %s time %llu
+Action %s reading boolean failed
+Action %s rejecting input because it is private
+Action %s rejecting input because of device requirement
+Action Manifest Path set to %s
+Action Set names may not be empty
+Action names may not be empty
+Action paths must be of the form /actions/<actionset>/in|out/<actionname>:
+Action paths must take the form '/actions/<action set>/in|out/<action>'. "
+ActionDirectionNameToEnum(std::string const&)
+ActionScopeNameToEnum(std::string const&)
+ActionTypeNameToEnum(std::string const&)
+Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
+Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
+Active pri %u, device=%s
+Actual    :
+AddBool
+AddDouble
+AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string> >&)
+AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string> >&) [clone .cold]
+AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string> >&)::dpadDirections
+AddEnum
+AddFloat
+AddInt32
+AddInt64
+AddLayerProjection
+AddLayerQuad
+AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t> >)
+AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t> >) [clone .cold]
+AddLegalInteractionProfiles()
+AddLegalInteractionProfiles() [clone .cold]
+AddMessage
+AddOverlayToResult(vr::DashboardOverlayState_t*, unsigned int, unsigned long, unsigned long, unsigned int&)
+AddPathHandleToJson(Json::Value*, std::string const&, unsigned long)
+AddPathHandleToJson(Json::Value*, std::string const&, unsigned long) [clone .cold]
+AddPullHandlerForPathIfSupported(std::string const&, std::vector<std::string, std::allocator<std::string> >*)
+AddPullHandlerForPathIfSupported(std::string const&, std::vector<std::string, std::allocator<std::string> >*) [clone .cold]
+AddString
+AddUInt32
+AddUInt64
+Adding focus flag %s
+Adding tutorial action set %s twice!
+After initial config load, app appears to be using legacy input
+After initial config load, app appears to not be using SteamVR Input
+After initial config load, app appears to not be using input
+Alias
+AllocSharedMemory failed
+AllocateMemory
+AllocateMemoryFromType
+Already saw decimal point or exponent; can't have another one.
+And filters need at least one input in filter %s
+AnimUtils::AngleAboutAxis(VectorAligned const&, VectorAligned const&, VectorAligned const&)
+AnimUtils::AngleBetweenVectors(VectorAligned const&, VectorAligned const&)
+AnimUtils::Blend(float, BlendSettings_t const&)
+AnimUtils::Blend(float, EBlendType, float)
+AnimUtils::Blend2Poses(CPoseRecipe&, unsigned char, unsigned char, float)
+AnimUtils::ChangeRange(float, float, float, float, float)
+AnimUtils::CloseEnough(float, float, float)
+AnimUtils::ConvertFromGLTF(CTransform const&)
+AnimUtils::FromEulerAngles(vr::HmdVector3_t const&)
+AnimUtils::GetBarycentricCoords2D(vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, float*)
+AnimUtils::GetBias(float, float)
+AnimUtils::GetButtonStatus(unsigned long, unsigned long, vr::EVRButtonId)
+AnimUtils::GetGain(float, float)
+AnimUtils::RotationAboutAxis(VectorAligned const&, VectorAligned const&, VectorAligned const&)
+AnimUtils::RotationBetweenVectors(VectorAligned const&, VectorAligned const&)
+AnimUtils::ToEulerAngles(QuaternionAligned const&)
+AnimUtils::UpdateCycle(float, float, float, float, bool)
+AnimUtils::UpdateCycle(float, float, float, float, bool, int&, float&)
+AnimationChannel
+Another app was already launching (117)
+Another scene application is already running. SteamVR only supports one OpenXR or OpenVR scene application running at a time.
+App info manager init failed (114)
+App key after connect message:%s
+App submitted texture from wrong device!  Make sure app is configured to use the graphics card that your headset is plugged into.
+Application failed to call xrGetVulkanGraphicsDevice before xrCreateSession
+Application submitted two left scene textures for a single frame!
+Application submitted two right scene textures for a single frame!
+ApplicationMenu
+ApplicationsInterfaceRegistration<CVRApplications_001>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_001>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_002>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_002>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_003>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_003>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_004>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_004>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_005>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_005>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
+ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
+April
+Array for decompressed transforms is too small.  Needed %u got %u
+Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
+Array length of `emissiveFactor` parameter in material must be 3, but got
+Array textures from OpenGL aren't supported on Linux yet.
+AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)
+AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*) [clone .cold]
+AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)::bMinidumpDisabled
+Asset
+Attempt to add alias root %s after a path handle was generated. That is not supported
+Attempt to init shared state %s twice
+Attempted to access vulkan array info for a non-vulkan texture
+Attempted to map already-mapped BO
+Attempted to map un-allocated BO
+Attempted to map un-mappable BO
+Attempted to read payload of %d bytes from pipe but failed
+Attempted to unmap un-allocated BO
+Attempted to unmap unmapped BO
+Attempted to write %zd bytes and ended up writing 0. Closing the pipe
+Attempting to load initial input config
+Attempting to wait on a fence that has already been waited for. Current: %lx Wait: %lx
+Attempting to wait on a fence value that is too large. Current: %lx Wait: %lx
+Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %lx, Signaled: %lx
+August
+AuthenticAMD
+AutosaveURL
+Axis0
+Axis0_Value
+Axis1
+Axis1_Value
+Axis2
+Axis2_Value1
+Axis2_Value2
+Axis3
+Axis3_Value_e0
+Axis3_Value_e1
+Axis4
+Axis4_Value_e0
+Axis4_Value_e1
+BCheckParentOverlayVisible_Recursive(unsigned long, VRSystemLayerState_t const*, int)
+BCreateDirectory(char const*)
+BCreateDirectoryRecursive(char const*)
+BCreateDirectoryRecursive(char const*) [clone .cold]
+BCreateProcess(char const*, char const**, unsigned int*, bool, std::string*)
+BCreateProcess(std::string const&, std::string const&, std::string, unsigned int*, bool, std::string*)
+BCreateProcess(std::string const&, std::string const&, std::string, unsigned int*, bool, std::string*) [clone .cold]
+BCreateProcess(std::string const&, std::vector<std::string, std::allocator<std::string> > const&, std::string, unsigned int*, bool, std::string*)
+BCreateProcess(std::string const&, std::vector<std::string, std::allocator<std::string> > const&, std::string, unsigned int*, bool, std::string*) [clone .cold]
+BDeleteFileIfExists(char const*)
+BFileExists(char const*)
+BGetOutputDevice(VkInstance_T*, VkPhysicalDevice_T**)
+BGetRequiredInstanceExtensions( vecRequiredExtensions )
+BITANGENT
+BInitVulkanDevice(VkPhysicalDevice_T*, char const*, unsigned int, VkDevice_T**, VkQueue_T**, unsigned int*)
+BInitVulkanDevice(VkPhysicalDevice_T*, char const*, unsigned int, VkDevice_T**, VkQueue_T**, unsigned int*) [clone .cold]
+BInitVulkanInstance(char const*, unsigned int, VkInstance_T**)
+BInitVulkanInstance(char const*, unsigned int, VkInstance_T**) [clone .cold]
+BInitializeLogging()::s_LogMutex
+BInitializeLogging()::s_bLogInitialized
+BIsCrashReportingDisabled()
+BIsCrashReportingDisabled() [clone .cold]
+BIsCrashReportingDisabled()::s_bFiguredOutIfDisabled
+BIsCrashReportingDisabled()::s_bIsReportingDisabled
+BIsHapticLoggingEnabled()::s_bIsHapticLogEnabled
+BIsHapticLoggingEnabled()::s_bNeedsRecheck
+BIsPidPresent(unsigned short, unsigned short)
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty) [clone .cold]
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeys
+BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
+BIsValidInputForChord(std::string const&, std::string const&)
+BIsVidPresent(unsigned short)
+BIsWorkshopBindingUri(std::string const&)
+BIsWorkshopBindingUri(std::string const&) [clone .cold]
+BKillProcess(char const*, bool)
+BKillProcess(char const*, bool) [clone .cold]
+BKillProcess(unsigned int)
+BMP RLE
+BOSAssociateExtension(char const*, char const*, char const*, char const*)
+BOSAssociateExtension(char const*, char const*, char const*, char const*) [clone .cold]
+BOSAssociateURI(char const*, char const*)
+BOSAssociateURI(char const*, char const*) [clone .cold]
+BOSRelease(void**)
+BOSSafeRelease(void**)
+BPathSupportsInputOfType(std::string const&, EInputValueType)
+BProcessRunning(char const*, bool)
+BProcessRunning(char const*, bool) [clone .cold]
+BProcessRunning(unsigned int)
+BRealtimeProcess()
+BRenameFile(char const*, char const*)
+BSharedResourceNamespaceAvailable()
+BSharedResourceNamespaceAvailable() [clone .cold]
+BSharedResourceNamespaceInTestMode()
+BSharedResourceNamespaceTryOneInit()
+BSharedResourceNamespaceTryOneInit() [clone .cold]
+Back-reference index exceeds current sub-expression count.
+Back-reference referred to an opened sub-expression.
+BackUp() can only be called after Next().
+BackUp() can only be called after a successful Next().
+Bad Access flag on shared mem create: %s: %u
+Bad bo
+Bad dimensions
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Begin
+BeginFrame
+BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
+BeginFrame called outside of a valid session.
+BeginFrameRendering
+BeginRendering
+Binding config missing required 'bindings' member
+Binding config missing required 'controller_type' member
+Binding missing required "action" member
+Binding missing required "name" member
+Binding missing required "type" member
+Binding path for haptic action %s could not be read: %s
+Binding path for haptic action %s resulted in property type tag %u instead of %u
+BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory)
+BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingCurrentKey(std::string const&, EActionBindingCategory)
+BindingCurrentKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingNeedUploadKey(std::string const&, EActionBindingCategory)
+BindingNeedUploadKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingPreviousKey(std::string const&, EActionBindingCategory)
+BindingPreviousKey(std::string const&, EActionBindingCategory) [clone .cold]
+BindingURIToFileId(std::string const&)
+BindingURIToFileId(std::string const&) [clone .cold]
+Bindings from OpenXR
+BlankEyeBuffer
+BlockQueueHeaderMutex_
+BlockQueueHeader_
+BlockQueueInterfaceRegistration<CVRBlockQueue_001>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_001>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_002>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_002>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_003>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_003>::~BlockQueueInterfaceRegistration()
+BlockQueueInterfaceRegistration<CVRBlockQueue_004>::GetInterface()
+BlockQueueInterfaceRegistration<CVRBlockQueue_004>::~BlockQueueInterfaceRegistration()
+Boolean default must be true or false.
+Bootstrapper init
+BorrowResource
+Bucket: size:%zu timeline:%s
+Bucket: size:%zu timeline:none
+Buffer
+BufferView
+BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&)
+BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&) [clone .cold]
+BuildFadeGridMessage(float, bool)
+BuildFadeGridMessage(float, bool) [clone .cold]
+BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
+BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
+BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
+C.1831.365400
+C.1834.365411
+C.413.288424
+CActionBinding::CActionBinding(CActionBinding const&)
+CActionBinding::FromJson(Json::Value const&, std::string*)
+CActionBinding::FromJson(Json::Value const&, std::string*) [clone .cold]
+CActionBinding::~CActionBinding()
+CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*)
+CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*) [clone .cold]
+CActionBindingConfig::HasControllerType(std::string const&) const
+CActionBindingConfig::~CActionBindingConfig()
+CActionBindingConfigGenerator::AddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, std::string, bool)
+CActionBindingConfigGenerator::AddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, std::string, bool) [clone .cold]
+CActionBindingConfigGenerator::AddBindingForSlot(Mode_t&, ModeSlot_t&, std::vector<std::string, std::allocator<std::string> > const&)
+CActionBindingConfigGenerator::AddBindingForSlot(Mode_t&, ModeSlot_t&, std::vector<std::string, std::allocator<std::string> > const&) [clone .cold]
+CActionBindingConfigGenerator::AddClickHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, bool)
+CActionBindingConfigGenerator::AddClickHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*, bool) [clone .cold]
+CActionBindingConfigGenerator::AddFilter(Mode_t const&, ModeSlot_t const&, CActionFilter&)
+CActionBindingConfigGenerator::AddHapticPulseToInput(std::string const&, Mode_t const&, ModeSlot_t const&, float)
+CActionBindingConfigGenerator::AddHapticPulseToInput(std::string const&, Mode_t const&, ModeSlot_t const&, float) [clone .cold]
+CActionBindingConfigGenerator::AddPositionHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*)
+CActionBindingConfigGenerator::AddPositionHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*) [clone .cold]
+CActionBindingConfigGenerator::AddProgressIndicator(std::string const&, std::string const&, std::string const&)
+CActionBindingConfigGenerator::AddProgressIndicator(std::string const&, std::string const&, std::string const&) [clone .cold]
+CActionBindingConfigGenerator::AddSlot(std::vector<ModeSlot_t, std::allocator<ModeSlot_t> >*, std::string const&, std::string const&, bool)
+CActionBindingConfigGenerator::AddSlot(std::vector<ModeSlot_t, std::allocator<ModeSlot_t> >*, std::string const&, std::string const&, bool) [clone .cold]
+CActionBindingConfigGenerator::AddTouchHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*)
+CActionBindingConfigGenerator::AddTouchHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*) [clone .cold]
+CActionBindingConfigGenerator::Apply(CActionBindingConfig*, std::string*)
+CActionBindingConfigGenerator::Apply(CActionBindingConfig*, std::string*) [clone .cold]
+CActionBindingConfigGenerator::ComputeClickHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::string*)
+CActionBindingConfigGenerator::ComputeClickHandlerForPathIfSupported(Mode_t const&, ModeSlot_t const&, std::string*) [clone .cold]
+CActionBindingConfigGenerator::DetermineSourceNodeForModeAndInputType(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*)
+CActionBindingConfigGenerator::DetermineSourceNodeForModeAndInputType(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*) [clone .cold]
+CActionBindingConfigGenerator::DetermineSourceNodeForModeAndInputType(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*)::s_vecXyx
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&) [clone .cold]
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputALen
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputBLen
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputXLen
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftInputYLen
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unLeftLen
+CActionBindingConfigGenerator::FilterInputSourceName(std::string const&)::k_unRightLen
+CActionBindingConfigGenerator::FindHapticForInput(std::string const&)
+CActionBindingConfigGenerator::FindHapticForInput(std::string const&) [clone .cold]
+CActionBindingConfigGenerator::FindInputSourcesOfType(std::string const&)
+CActionBindingConfigGenerator::FindInputSourcesOfType(std::string const&) [clone .cold]
+CActionBindingConfigGenerator::FinishClickHandler(Mode_t const&, ModeSlot_t const&, std::string, float)
+CActionBindingConfigGenerator::FinishClickHandler(Mode_t const&, ModeSlot_t const&, std::string, float) [clone .cold]
+CActionBindingConfigGenerator::GetInputSource(std::string const&)
+CActionBindingConfigGenerator::GetInputSourceType(std::string const&)
+CActionBindingConfigGenerator::GetInputSourceType(std::string const&) [clone .cold]
+CActionBindingConfigGenerator::GetOptionBool(std::string const&) const
+CActionBindingConfigGenerator::HasFilter(std::string const&)
+CActionBindingConfigGenerator::MakeInvertFilterForScalarInput(std::string const&, std::string const&, std::string const&, Mode_t const&)
+CActionBindingConfigGenerator::MakeInvertFilterForScalarInput(std::string const&, std::string const&, std::string const&, Mode_t const&) [clone .cold]
+CActionBindingConfigGenerator::MakeThreshHoldFilterForPositionInput(Mode_t const&, ModeSlot_t const&)
+CActionBindingConfigGenerator::MakeThreshHoldFilterForPositionInput(Mode_t const&, ModeSlot_t const&) [clone .cold]
+CActionBindingConfigGenerator::MakeThreshHoldFilterForScalarInput(std::string const&, Mode_t const&, ModeSlot_t const&)
+CActionBindingConfigGenerator::MakeThreshHoldFilterForScalarInput(std::string const&, Mode_t const&, ModeSlot_t const&) [clone .cold]
+CActionBindingConfigGenerator::MarkFilterForChords(Mode_t const&, ModeSlot_t const&, std::string const&)
+CActionBindingConfigGenerator::MarkFilterForChords(Mode_t const&, ModeSlot_t const&, std::string const&) [clone .cold]
+CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)
+CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*) [clone .cold]
+CActionBindingConfigGenerator::ParseHapticBindings(std::string const&, std::string*)
+CActionBindingConfigGenerator::ParseHapticBindings(std::string const&, std::string*) [clone .cold]
+CActionBindingConfigGenerator::ParseSimulatedActions(std::string*)
+CActionBindingConfigGenerator::ParseSimulatedActions(std::string*) [clone .cold]
+CActionBindingConfigGenerator::ParseSkeletonBindings(std::string const&, std::string*)
+CActionBindingConfigGenerator::ParseSkeletonBindings(std::string const&, std::string*) [clone .cold]
+CActionBindingConfigGenerator::PendingChordEntry_t::PendingChordEntry_t(CActionBindingConfigGenerator::PendingChordEntry_t const&)
+CActionBindingConfigGenerator::PendingChordEntry_t::~PendingChordEntry_t()
+CActionBindingConfigGenerator::SortFilters()
+CActionBindingConfigGenerator::SortFilters() [clone .cold]
+CActionBindingConfigGenerator::VerifyCanAddBindingForDigitalMode(Mode_t const&, ModeSlot_t const&)
+CActionBindingConfigGenerator::~CActionBindingConfigGenerator()
+CActionBindingProgressIndicator::~CActionBindingProgressIndicator()
+CActionFilter::CActionFilter()
+CActionFilter::CActionFilter(CActionFilter const&)
+CActionFilter::FromJson(Json::Value const&, std::string*)
+CActionFilter::FromJson(Json::Value const&, std::string*) [clone .cold]
+CActionFilter::GetBoolParameter(std::string const&, bool) const
+CActionFilter::GetBoolParameter(std::string const&, bool) const [clone .cold]
+CActionFilter::GetFloatParameter(std::string const&, float) const
+CActionFilter::GetFloatParameter(std::string const&, float) const [clone .cold]
+CActionFilter::GetIntParameter(std::string const&, int) const
+CActionFilter::GetIntParameter(std::string const&, int) const [clone .cold]
+CActionFilter::GetStringParameter(std::string const&, std::string const&) const
+CActionFilter::GetStringParameter(std::string const&, std::string const&) const [clone .cold]
+CActionFilter::~CActionFilter()
+CAnimFactoryBase::CreateInternal(char const*, std::string const&) const
+CAnimFactoryBase::CreateInternal(unsigned int, std::string const&) const
+CAnimFactoryBase::GetDerivedIDFromBase(unsigned int) const
+CAnimFactoryBase::GetTypeNames() const
+CAnimFactoryBase::GetTypeNames() const [clone .cold]
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::GetTypeID() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::GetTypeName() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::IsDerivedFrom(unsigned int) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::Make(std::string const&) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>::~CFactoryMakerT()
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::GetTypeID() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::GetTypeName() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::IsDerivedFrom(unsigned int) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::Make(std::string const&) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>::~CFactoryMakerT()
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::GetTypeID() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::GetTypeName() const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::IsDerivedFrom(unsigned int) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::Make(std::string const&) const
+CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>::~CFactoryMakerT()
+CAnimPose::AddRef() const
+CAnimPose::CAnimPose()
+CAnimPose::CalculateModelSpaceTransforms()
+CAnimPose::CopyFrom(CSmartPtr<CAnimPose, CRefCountAccessor> const&)
+CAnimPose::GetBoneCount() const
+CAnimPose::GetLocalSpaceTransform(int) const
+CAnimPose::GetLocalSpaceTransformsPtr() const
+CAnimPose::GetModelSpaceTransform(int) const
+CAnimPose::GetModelSpaceTransformsPtr() const
+CAnimPose::GetRefCount() const
+CAnimPose::GetSkeleton() const
+CAnimPose::GetWritableLocalSpaceTransformsPtr()
+CAnimPose::Init(CAnimSkeleton const*, CAnimPosePool*)
+CAnimPose::InitToBindPose()
+CAnimPose::InitToIdentity()
+CAnimPose::Release() const
+CAnimPose::SetDirtyRecurs(int)
+CAnimPose::SetLocalSpaceTransform(int, CTransform const&)
+CAnimPose::SetModelSpaceTransform(int, CTransform const&)
+CAnimPosePool::AddNewBlock()
+CAnimPosePool::AddNewBlock() [clone .cold]
+CAnimPosePool::Alloc()
+CAnimPosePool::CAnimPosePool(CAnimSkeleton const*, unsigned int)
+CAnimPosePool::CAnimPosePool(CAnimSkeleton const*, unsigned int) [clone .cold]
+CAnimPosePool::Free(CAnimPose*)
+CAnimResource
+CAnimResource::CAnimResource(std::string const&)
+CAnimResource::CastToBase(int)
+CAnimResource::CastToBase(int) const
+CAnimResource::GetResourceName() const
+CAnimResource::GetTypeInfo() const
+CAnimResource::MyTypeID()::sID
+CAnimResource::MyTypeInfo()
+CAnimResource::m_typeInfoCAnimResource
+CAnimResourceFactory::CAnimResourceFactory()
+CAnimResourceFactory::CAnimResourceFactory() [clone .cold]
+CAnimResourceManager::CAnimResourceManager(vr::IVRResources*)
+CAnimResourceManager::CAnimResourceManager(vr::IVRResources*) [clone .cold]
+CAnimResourceManager::Get()
+CAnimResourceManager::GetResource(char const*, char const*, int, char const*)
+CAnimResourceManager::GetResource(char const*, char const*, int, char const*) [clone .cold]
+CAnimResourceManager::GetSharedUpdateResources(CAnimSkeleton const*)
+CAnimResourceManager::GetSharedUpdateResources(CAnimSkeleton const*) [clone .cold]
+CAnimResourceManager::Initialize(vr::IVRResources*)
+CAnimResourceManager::Initialize(vr::IVRResources*) [clone .cold]
+CAnimResourceManager::IsInitialized()
+CAnimResourceManager::Release()
+CAnimResourceManager::m_sInstance
+CAnimSkeleton const* CAnimResourceManager::GetResource<CAnimSkeleton>(char const*)
+CAnimSkeleton::CAnimSkeleton(std::string const&)
+CAnimSkeleton::CAnimSkeleton(std::string const&) [clone .cold]
+CAnimSkeleton::GetBindPoseLocalSpace(int) const
+CAnimSkeleton::GetBindPoseModelSpace(int) const
+CAnimSkeleton::GetBoneCount() const
+CAnimSkeleton::GetBoneIndex(std::string const&) const
+CAnimSkeleton::GetBoneName(int) const
+CAnimSkeleton::GetChildCount(int) const
+CAnimSkeleton::GetChildIndex(int, int) const
+CAnimSkeleton::GetParentIndex(int) const
+CAnimSkeleton::GetResourceTypeDir()
+CAnimSkeleton::GetSkeletonID() const
+CAnimSkeleton::Load(std::string const&)
+CAnimSkeleton::Load(std::string const&) [clone .cold]
+CAnimSkeleton::~CAnimSkeleton()
+CAssert::AddCallback(CAssertCallback*)
+CAssert::AddCallback(CAssertCallback*) [clone .cold]
+CAssert::AssertMsgImpl(char const*, unsigned int, bool, unsigned int, ...)
+CAssert::AssertMsgImpl(char const*, unsigned int, bool, unsigned int, ...) [clone .cold]
+CAssert::GetInstance()
+CAssert::GetInstance() [clone .cold]
+CAssert::RemoveCallback(CAssertCallback*)
+CAssert::m_mutex
+CAssert::m_pInstance
+CAssertCallback::Initialize(std::function<void (char const*, char const*, unsigned int, bool, void*, bool*)>, void*)
+CAssertCallback::Initialize(std::function<void (char const*, char const*, unsigned int, bool, void*, bool*)>, void*) [clone .cold]
+CAssertCallback::~CAssertCallback()
+CAutoLockAndDrainLogOnExit::~CAutoLockAndDrainLogOnExit()
+CAutoRestoreEnvironment::~CAutoRestoreEnvironment()
+CBlendPoseOperation::BlendPoses(CPoseUpdateContext&, CSmartPtr<CAnimPose, CRefCountAccessor>*, float const*, int)
+CBlendPoseOperation::BlendPoses(CPoseUpdateContext&, CSmartPtr<CAnimPose, CRefCountAccessor>*, float const*, int) [clone .cold]
+CBlendPoseOperation::Evaluate(CPoseUpdateContext&, CBlendPoseOperation::OpSettings const*)
+CBlendPoseOperation::Evaluate(CPoseUpdateContext&, CBlendPoseOperation::OpSettings const*) [clone .cold]
+CBlendPoseOperation::MakeOpDescription(CPoseRecipe&, unsigned char const*, float const*, int)
+CBlockQueue::AcquireReadOnlyBlock(unsigned long*, void const**, vr::EBlockQueueReadType)
+CBlockQueue::AcquireReadOnlyBlock(unsigned long*, void const**, vr::EBlockQueueReadType) [clone .cold]
+CBlockQueue::AcquireWriteOnlyBlock(unsigned long*, void**)
+CBlockQueue::AcquireWriteOnlyBlock(unsigned long*, void**) [clone .cold]
+CBlockQueue::BHasReader()
+CBlockQueue::BHasReader() [clone .cold]
+CBlockQueue::Connect(std::string const&)
+CBlockQueue::Connect(std::string const&) [clone .cold]
+CBlockQueue::Create(std::string const&, unsigned int, unsigned int, unsigned int, unsigned int)
+CBlockQueue::Create(std::string const&, unsigned int, unsigned int, unsigned int, unsigned int) [clone .cold]
+CBlockQueue::GetDataBlock(unsigned int)
+CBlockQueue::GetFlags() const
+CBlockQueue::GetHeaderBlock(unsigned int)
+CBlockQueue::GetMetaContainerHandle()
+CBlockQueue::RefreshReaderListIfNecessary(CBlockQueue::BlockQueueHeader_t const&)
+CBlockQueue::RefreshReaderListIfNecessary(CBlockQueue::BlockQueueHeader_t const&) [clone .cold]
+CBlockQueue::ReleaseReadOnlyBlock(unsigned long)
+CBlockQueue::ReleaseReadOnlyBlock(unsigned long) [clone .cold]
+CBlockQueue::ReleaseWriteOnlyBlock(unsigned long)
+CBlockQueue::ReleaseWriteOnlyBlock(unsigned long) [clone .cold]
+CBlockQueue::SignalAllReaders()
+CBlockQueue::WaitAndAcquireReadOnlyBlock(unsigned long*, void const**, vr::EBlockQueueReadType, unsigned int)
+CBlockQueue::WaitAndAcquireReadOnlyBlock(unsigned long*, void const**, vr::EBlockQueueReadType, unsigned int) [clone .part.0]
+CBlockQueue::~CBlockQueue()
+CBlockQueue::~CBlockQueue() [clone .cold]
+CBoneMaskResource
+CBoneMaskResource::CBoneMaskResource(std::string const&)
+CBoneMaskResource::CastToBase(int)
+CBoneMaskResource::CastToBase(int) const
+CBoneMaskResource::GetResourceTypeDir()
+CBoneMaskResource::GetTypeInfo() const
+CBoneMaskResource::GetWeightCount() const
+CBoneMaskResource::GetWeights() const
+CBoneMaskResource::Load(std::string const&)
+CBoneMaskResource::Load(std::string const&) [clone .cold]
+CBoneMaskResource::MyTypeID()::sID
+CBoneMaskResource::MyTypeInfo()
+CBoneMaskResource::m_typeInfoCBoneMaskResource
+CBoneMaskResource::~CBoneMaskResource()
+CChaperoneFile::FindUniverse(unsigned long)
+CChaperoneFile::FromJson(Json::Value const&)
+CChaperoneFile::FromJson(Json::Value const&) [clone .cold]
+CChaperoneFile::ToJson() const
+CChaperoneFile::ToJson() const [clone .cold]
+CChaperonePerimeter::AsPointVector() const
+CChaperonePerimeter::AsPointVector() const [clone .cold]
+CChaperonePerimeter::FromLegacyJson(Json::Value const&)
+CChaperonePerimeter::FromPointVector(std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t> > const&, float)
+CChaperonePerimeter::ToLegacyJson() const
+CChaperonePerimeter::ToLegacyJson() const [clone .cold]
+CChaperoneUniverse::FromJson(Json::Value const&)
+CChaperoneUniverse::FromJson(Json::Value const&) [clone .cold]
+CChaperoneUniverse::GetPlayAreaSize(vr::HmdVector2_t*) const
+CChaperoneUniverse::GetSeatedOrigin(vr::HmdMatrix34_t*) const
+CChaperoneUniverse::GetSetupStandingOrigin(vr::HmdMatrix34_t*) const
+CChaperoneUniverse::GetStandingOrigin(vr::HmdMatrix34_t*) const
+CChaperoneUniverse::HasSaneTrackingOrigin() const
+CChaperoneUniverse::IsStandingOnly() const
+CChaperoneUniverse::SetRawTrackingFromOrigin(vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const&)
+CChaperoneUniverse::SetSetupStandingOrigin(vr::HmdMatrix34_t const&)
+CChaperoneUniverse::ToJson() const
+CChaperoneUniverse::ToJson() const [clone .cold]
+CChaperoneUniverse::UpdateSaveTime()
+CChaperoneUniverse::WriteUniverseToPaths() const
+CChaperoneUniverse::WriteUniverseToPaths() const [clone .cold]
+CChaperoneUniverse::~CChaperoneUniverse()
+CClientPropertyManager::BClientMode() const
+CCompositorPluginProvider::InitInternal(vr::IVRDriverContext*)
+CCompositorPluginProvider::InitInternal(vr::IVRDriverContext*) [clone .cold]
+CCompositorPluginProvider_Latest::Cleanup()
+CCompositorPluginProvider_Latest::GetComponent(char const*)
+CCompositorPluginProvider_Latest::GetInterfaceVersions()
+CCompositorPluginProvider_Latest::GetSourceVersion()
+CCompositorPluginProvider_Latest::Init(vr::IVRDriverContext*)
+CCompositorPluginProvider_Latest::~CCompositorPluginProvider_Latest()
+CCountedMutexWithLogCache::Log(char const*, ...)
+CCountedMutexWithLogCache::Log(char const*, ...) [clone .cold]
+CDampedFloat::Update(float, float, float)
+CDampedVector::Reset(VectorAligned const&)
+CDampedVector::Update(VectorAligned const&, float, float)
+CDirIterator::BCurrentIsDir() const
+CDirIterator::BCurrentIsHidden() const
+CDirIterator::BCurrentIsMarkedForArchive() const
+CDirIterator::BCurrentIsReadOnly() const
+CDirIterator::BCurrentIsSystem() const
+CDirIterator::BNextFile()
+CDirIterator::BValidFilename()
+CDirIterator::CDirIterator(char const*, char const*)
+CDirIterator::CDirIterator(char const*, char const*) [clone .cold]
+CDirIterator::CurrentFileCreateTime() const
+CDirIterator::CurrentFileLength() const
+CDirIterator::CurrentFileName()
+CDirIterator::CurrentFileWriteTime() const
+CDirIterator::Init(std::string const&)
+CDirIterator::IsValid() const
+CDirIterator::~CDirIterator()
+CDownsampleRenderer::Draw(vr::VRTextureBounds_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*, void*, bool, bool, unsigned int)
+CDownsampleRenderer::Draw(vr::VRTextureBounds_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*, void*, bool, bool, unsigned int) [clone .cold]
+CDownsampleRenderer::Draw(vr::VRTextureBounds_t*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, void*, void*, bool, bool, unsigned int)::s_flBeginTime
+CDownsampleRenderer::GrowResolveTextureIfNeeded(int, int)
+CDownsampleRenderer::GrowTempTextureIfNeeded(int, int)
+CDownsampleRenderer::Initialize(IVRRenderer*)
+CDownsampleRenderer::ReleaseResources()
+CDownsampleRenderer::~CDownsampleRenderer()
+CDriverDirectInternalClient::Cleanup()
+CDriverDirectInternalClient::CreateSwapTextureSet(vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectInternal::SwapTextureSetInternal_t*)
+CDriverDirectInternalClient::CreateSwapTextureSet(vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectInternal::SwapTextureSetInternal_t*) [clone .cold]
+CDriverDirectInternalClient::DestroySwapTextureSet(unsigned long)
+CDriverDirectInternalClient::DestroySwapTextureSet(unsigned long) [clone .cold]
+CDriverDirectInternalClient::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+CDriverDirectInternalClient::GetFrameTiming(vr::DriverDirectMode_FrameTiming*) [clone .cold]
+CDriverDirectInternalClient::GetNextLayerIndex(unsigned int, unsigned int (*) [2])
+CDriverDirectInternalClient::GetNextLayerIndex(unsigned int, unsigned int (*) [2]) [clone .cold]
+CDriverDirectInternalClient::Init(CVRClient*)
+CDriverDirectInternalClient::Init(CVRClient*) [clone .cold]
+CDriverDirectInternalClient::Present(unsigned long, unsigned int)
+CDriverDirectInternalClient::Present(unsigned long, unsigned int) [clone .cold]
+CDriverDirectInternalClient::SubmitLayer(unsigned int, vr::EVREye, vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const&)
+CDriverDirectInternalClient::SubmitLayer(unsigned int, vr::EVREye, vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const&) [clone .cold]
+CDriverDirectInternalClient::WaitForAcquire()
+CDriverDirectInternalClient::WaitForPresent()
+CDriverLog::Log(char const*)
+CDriverManager::AddDriver(std::string const&, std::string const&)
+CDriverManager::AddDriver(std::string const&, std::string const&) [clone .cold]
+CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*)
+CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*) [clone .cold]
+CDriverManager::AllocateDeviceSlot(unsigned int, vr::ETrackedDeviceClass, unsigned int*)
+CDriverManager::ApplyDriverResourceProperties(unsigned long)
+CDriverManager::ApplyDriverResourceProperties(unsigned long) [clone .cold]
+CDriverManager::AreAnyDriversBlockedForSafeMode() const
+CDriverManager::BAlwaysActivateDriver(unsigned int)
+CDriverManager::BCurrentlyActivating(unsigned int, unsigned int) const
+CDriverManager::BGetGpuLuid(unsigned long*, unsigned int*) const
+CDriverManager::BGetGpuLuid(unsigned long*, unsigned int*) const [clone .cold]
+CDriverManager::BHasHmdServerDriver()
+CDriverManager::BHmdDeviceMightBePresent(unsigned int)
+CDriverManager::BIsSafeDriver(unsigned int) const
+CDriverManager::BIsSafeDriverByName(std::string const&) const
+CDriverManager::BOtherDeviceMightBePresent(unsigned int)
+CDriverManager::BlockDriversForSafeMode(CSettingsManager*)
+CDriverManager::BlockDriversForSafeMode(CSettingsManager*) [clone .cold]
+CDriverManager::CDriverManager()
+CDriverManager::CDriverManager() [clone .cold]
+CDriverManager::Cleanup()
+CDriverManager::CleanupDriver(CDriverManager::HmdDriver_t*)
+CDriverManager::DeactivateAll()
+CDriverManager::DriverDevice_t& std::vector<CDriverManager::DriverDevice_t, std::allocator<CDriverManager::DriverDevice_t> >::emplace_back<CDriverManager::DriverDevice_t>(CDriverManager::DriverDevice_t&&)
+CDriverManager::DriverDevice_t::FreeComponents()
+CDriverManager::DriverDevice_t::InitComponentPointers()
+CDriverManager::DriverDevice_t::PopulateComponents(std::set<std::string, std::less<std::string>, std::allocator<std::string> > const&)
+CDriverManager::FindDriverByName(char const*)
+CDriverManager::FindDriverByName(char const*) [clone .part.0]
+CDriverManager::FindVirtualDisplayComponent(unsigned int) const
+CDriverManager::GetCameraComponent(unsigned int) const
+CDriverManager::GetDisplayComponent(unsigned int) const
+CDriverManager::GetDriverContext(unsigned int)
+CDriverManager::GetDriverCount() const
+CDriverManager::GetDriverDirectModeComponent(unsigned int) const
+CDriverManager::GetDriverHandle(char const*)
+CDriverManager::GetDriverManifest(unsigned int)
+CDriverManager::GetDriverName(unsigned int) const
+CDriverManager::GetDriverName(unsigned int) const [clone .part.0]
+CDriverManager::GetDriverName(unsigned int) const::strEmpty
+CDriverManager::GetDriverName(unsigned int, char*, unsigned int)
+CDriverManager::GetDriverPath(unsigned int)
+CDriverManager::GetDriverPath(unsigned int, char*, unsigned int)
+CDriverManager::GetForcedDriver() const
+CDriverManager::GetHmdDriverId() const
+CDriverManager::GetLoadPriority(unsigned int) const
+CDriverManager::GetPropertyContainerForResourceKey(std::string const&)
+CDriverManager::GetPropertyValueFromResourcesManifestJson(std::string const&
