@@ -1662,4 +1662,89 @@ guard variable for std::messages<wchar_t>::id
 guard variable for std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
 guard variable for std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
 guard variable for std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
-guard variable for std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<
+guard variable for std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::moneypunct<char, false>::id
+guard variable for std::moneypunct<char, true>::id
+guard variable for std::moneypunct<wchar_t, false>::id
+guard variable for std::moneypunct<wchar_t, true>::id
+guard variable for std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::numpunct<char>::id
+guard variable for std::numpunct<wchar_t>::id
+guard variable for std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+has invalid API Version.  Skipping layer.
+hidden alias for
+iconv
+iconv_close
+iconv_open
+imaginary
+implementation_version
+in Json::Value::asCString(): requires stringValue
+in Json::Value::clear(): requires complex value
+in Json::Value::demand(begin, end): requires objectValue or nullValue
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(begin, end): requires objectValue or nullValue
+in Json::Value::getMemberNames(), value must be objectValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::removeMember(): requires objectValue
+in Json::Value::resize(): requires arrayValue
+in Json::Value::resolveReference(): requires objectValue
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+in XDG_CONFIG_HOME:
+in an entry of XDG_CONFIG_DIRS:
+in compiled-in SYSCONFDIR:
+indentation
+info->applicationInfo is not valid.
+init_dwarf_reg_size_table
+instance_extensions
+insufficient space in array
+int std::__int_to_char<char, unsigned long long>(char*, unsigned long long, char const*, std::_Ios_Fmtflags, bool)
+int std::__int_to_char<char, unsigned long>(char*, unsigned long, char const*, std::_Ios_Fmtflags, bool)
+int std::__int_to_char<wchar_t, unsigned long long>(wchar_t*, unsigned long long, wchar_t const*, std::_Ios_Fmtflags, bool)
+int std::__int_to_char<wchar_t, unsigned long>(wchar_t*, unsigned long, wchar_t const*, std::_Ios_Fmtflags, bool)
+invalid messenger pointer
+invalid properties
+ioctl
+ios_base::_M_grow_words allocation failed
+ios_base::_M_grow_words is not valid
+is disabled
+is missing "disable_environment"
+is missing required fields.  Verify all proper fields exist.
+is not a valid manifest file.
+is not supported
+isValidJson indicates
+java Class for
+java resource
+keylength >= 2^30
+labelInfo must be non-NULL
+layer
+layers enabled and runtime interface - created instance =
+ld-linux-x86-64.so.2
+libc.so.6
+libdl.so.2
+libm.so.6
+libpthread.so.0
+library
+library_path
+linear_search_fdes
+locale::_Impl::_M_replace_facet
+locale::_S_normalize_category category not found
+locale::facet::_S_create_c_locale name not valid
+locale::facet::_S_lc_ctype_c_locale duplocale error
+locale::facet::_S_lc_ctype_c_locale newlocale error
+localeconv
+long double
+long long
+long std::__copy_streambufs<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*)
+long std::__copy_streambufs<wchar_t, std::char_trait

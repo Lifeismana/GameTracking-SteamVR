@@ -1853,4 +1853,171 @@ guard variable for std::moneypunct<char, false>::id
 guard variable for std::moneypunct<char, true>::id
 guard variable for std::moneypunct<wchar_t, false>::id
 guard variable for std::moneypunct<wchar_t, true>::id
-guard variable for std::num_get<char, std::istreambuf_iterator<char, std::c
+guard variable for std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::numpunct<char>::id
+guard variable for std::numpunct<wchar_t>::id
+guard variable for std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+guard variable for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::id
+guard variable for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >::id
+hidden alias for
+http://
+https://
+iHexCharToInt(char)
+iconv
+iconv_close
+iconv_open
+imaginary
+in Json::Value::asCString(): requires stringValue
+in Json::Value::clear(): requires complex value
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::removeMember(): requires objectValue
+in Json::Value::resize(): requires arrayValue
+in Json::Value::resolveReference(): requires objectValue
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+indentation
+init_dwarf_reg_size_table
+int std::__int_to_char<char, unsigned long long>(char*, unsigned long long, char const*, std::_Ios_Fmtflags, bool)
+int std::__int_to_char<char, unsigned long>(char*, unsigned long, char const*, std::_Ios_Fmtflags, bool)
+int std::__int_to_char<wchar_t, unsigned long long>(wchar_t*, unsigned long long, wchar_t const*, std::_Ios_Fmtflags, bool)
+int std::__int_to_char<wchar_t, unsigned long>(wchar_t*, unsigned long, wchar_t const*, std::_Ios_Fmtflags, bool)
+ioctl
+ios_base::_M_grow_words allocation failed
+ios_base::_M_grow_words is not valid
+java Class for
+java resource
+jsonid
+keylength >= 2^30
+ld-linux-x86-64.so.2
+libc.so.6
+libdl.so.2
+libm.so.6
+libpthread.so.0
+linear_search_fdes
+linux64
+locale::_Impl::_M_replace_facet
+locale::_S_normalize_category category not found
+locale::facet::_S_create_c_locale name not valid
+locale::facet::_S_lc_ctype_c_locale duplocale error
+locale::facet::_S_lc_ctype_c_locale newlocale error
+long double
+long long
+long std::__copy_streambufs<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*)
+long std::__copy_streambufs<wchar_t, std::char_traits<wchar_t> >(std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >*, std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >*)
+long std::__copy_streambufs_eof<char, std::char_traits<char> >(std::basic_streambuf<char, std::char_traits<char> >*, std::basic_streambuf<char, std::char_traits<char> >*, bool&)
+long std::__copy_streambufs_eof<wchar_t, std::char_traits<wchar_t> >(std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >*, std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >*, bool&)
+lower
+lseek64
+malloc
+marker.9870
+mbrtowc
+mbsnrtowcs
+mbsrtowcs
+memchr
+memcmp
+memcpy
+memmove
+memset
+mkdir
+new[]
+next_is_type_qual.isra.0
+nfinity
+noexcept
+non-transaction clone for
+non-virtual thunk to
+non-virtual thunk to std::basic_fstream<char, std::char_traits<char> >::~basic_fstream()
+non-virtual thunk to std::basic_fstream<wchar_t, std::char_traits<wchar_t> >::~basic_fstream()
+non-virtual thunk to std::basic_iostream<char, std::char_traits<char> >::~basic_iostream()
+non-virtual thunk to std::basic_iostream<wchar_t, std::char_traits<wchar_t> >::~basic_iostream()
+non-virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()
+non-virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_stringstream()
+object_mutex
+once_regsizes.10235
+openvr
+openvr.component.vrserver
+openvrpaths.vrpath
+operator
+operator delete(void*)
+operator delete(void*, unsigned long)
+operator delete[](void*)
+operator delete[](void*, unsigned long)
+operator new(unsigned long)
+operator new(unsigned long) [clone .cold]
+operator new[](unsigned long)
+operator new[](unsigned long, std::nothrow_t const&)
+operator new[](unsigned long, std::nothrow_t const&) [clone .cold]
+operator""
+parse_lsda_header(_Unwind_Context*, unsigned char const*, lsda_header_info*)
+precision
+print
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_once
+punct
+pure virtual method called
+putwc
+read_encoded_value_with_base
+read_encoded_value_with_base(unsigned char, unsigned long, unsigned char const*, unsigned long*)
+read_encoded_value_with_base(unsigned char, unsigned long, unsigned char const*, unsigned long*) [clone .cold]
+read_encoded_value_with_base.cold
+readlink
+realloc
+reference temporary #
+register_tm_clones
+reinterpret_cast
+rejectDupKeys
+rename
+restrict
+runtime
+scandir
+search_object
+search_object.cold
+seen_objects
+selectBuf
+setenv
+setlocale
+setvbuf
+short
+signed char
+size_of_encoded_value
+size_of_encoded_value.cold
+sizeof
+sizeof...
+snprintf
+space
+sscanf
+stackDepth_g
+stackLimit
+standard_subs
+static_cast
+std::(anonymous namespace)::ucs4_in(std::(anonymous namespace)::range<char16_t const, false>&, std::(anonymous namespace)::range<char32_t, true>&, unsigned long, std::codecvt_mode)
+std::(anonymous namespace)::utf16_bom
+std::(anonymous namespace)::utf16le_bom
+std::(anonymous namespace)::utf8_bom
+std::Catalogs::_M_add(char const*, std::locale)
+std::Catalogs::_M_add(char const*, std::locale) [clone .cold]
+std::Catalogs::_M_erase(int)
+std::Catalogs::_M_erase(int) [clone .cold]
+std::Catalogs::_M_get(int) const
+std::Catalogs::_M_get(int) const [clone .cold]
+std::Catalogs::~Catalogs()
+std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo> >::_M_initialize_map(unsigned long)
+std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::_M_initialize_map(unsigned long)
+std::_Deque_base<Json::Value*, std::allocator<Json::Value*> >::~_Deque_base()
+std::_Function_base::_Base_manager<bool (*)(char)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_handler<bool (char), bool (*)(char)>::_M_invoke(std::_Any_data const&, char&&)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_erase(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value> >*)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >)
+std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value> >, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value> >, Json::Value::CZString const&)
