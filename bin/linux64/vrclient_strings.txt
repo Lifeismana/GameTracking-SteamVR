@@ -1547,7 +1547,6 @@ $0rpc $1(.$2) returns (.$3)
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:59:34
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -1571,6 +1570,7 @@ $0rpc $1(.$2) returns (.$3)
 22IVRDisplayComponent001
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:09:50
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -2142,7 +2142,6 @@ Attempting to load initial input config
 Attempting to wait on a fence that has already been waited for. Current: %lx Wait: %lx
 Attempting to wait on a fence value that is too large. Current: %lx Wait: %lx
 Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %lx, Signaled: %lx
-Aug 29 2022
 August
 AuthenticAMD
 AutosaveURL
@@ -2238,4 +2237,4 @@ Binding missing required "name" member
 Binding missing required "type" member
 Binding path for haptic action %s could not be read: %s
 Binding path for haptic action %s resulted in property type tag %u instead of %u
-BindingAu
+BindingAutosaveSettin
