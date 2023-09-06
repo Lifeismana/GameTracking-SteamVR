@@ -1041,11 +1041,11 @@ $0rpc $1(.$2) returns (.$3)
 /input/grip/pose
 /input/guide
 /input/guide/click
-/input/hand_model
-/input/hand_model/pose
 /input/joystick
 /input/menu
 /input/menu/click
+/input/palm_ext
+/input/palm_ext/pose
 /input/select
 /input/squeeze
 /input/squeeze/click
@@ -1180,10 +1180,10 @@ $0rpc $1(.$2) returns (.$3)
 /user/hand/left/input/back/click
 /user/hand/left/input/grip/click
 /user/hand/left/input/grip/pose
-/user/hand/left/input/hand_model/pose
 /user/hand/left/input/joystick/click
 /user/hand/left/input/menu
 /user/hand/left/input/menu/click
+/user/hand/left/input/palm_ext/pose
 /user/hand/left/input/select/click
 /user/hand/left/input/shoulder/click
 /user/hand/left/input/skeleton/left/data
@@ -1232,10 +1232,10 @@ $0rpc $1(.$2) returns (.$3)
 /user/hand/right/input/back/click
 /user/hand/right/input/grip/click
 /user/hand/right/input/grip/pose
-/user/hand/right/input/hand_model/pose
 /user/hand/right/input/joystick/click
 /user/hand/right/input/menu
 /user/hand/right/input/menu/click
+/user/hand/right/input/palm_ext/pose
 /user/hand/right/input/select/click
 /user/hand/right/input/shoulder/click
 /user/hand/right/input/skeleton/right/data
@@ -1475,7 +1475,7 @@ $0rpc $1(.$2) returns (.$3)
 18CVRScreenshots_001
 18CVRSharedGLTexture
 18XrHandTrackerEXT_T
-19:13:02
+19:55:30
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -2081,4 +2081,4 @@ AnimUtils::AngleAboutAxis(VectorAligned const&, VectorAligned const&, VectorAlig
 AnimUtils::AngleBetweenVectors(VectorAligned const&, VectorAligned const&)
 AnimUtils::Blend(float, BlendSettings_t const&)
 AnimUtils::Blend(float, EBlendType, float)
-AnimUtils::Blend2Poses(C
+AnimUtils::Blend2Poses(CPoseReci
