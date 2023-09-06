@@ -1448,8 +1448,8 @@ Setting TX Power Failed. (nrf_error: %s)
 Setting TX Power.
 St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
 St12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
-St12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
 St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+St18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EE
 St19_Sp_make_shared_tag
 St23_Sp_counted_ptr_inplaceINSt8__detail4_NFAISt12regex_traitsIcEEESaIS4_ELN9__gnu_cxx12_Lock_policyE2EE
 Start Scanning...
@@ -1544,13 +1544,15 @@ TrimTrailingWhitespace(std::string const&)
 U
 USER
 UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
+UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&) [clone .cold]
+UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
 UTF16to8(wchar_t const*)
 UTF16to8(wchar_t const*) [clone .cold]
-UTF16to8(wchar_t const*)::s_converter
 UTF8to16(char const*)
 UTF8to16(char const*) [clone .cold]
-UTF8to16(char const*)::s_converter
 UTF8to16(std::string const&)
+UTF8to16(std::string const&) [clone .cold]
+UTF8to16(std::string const&)::s_convert
 Uint64ToString(unsigned long)
 Unable to parse token length
 Unexpected back-reference in polynomial mode.
@@ -1884,8 +1886,8 @@ grave-accent
 greater-than-sign
 guard variable for SteamVRVersionAsString()::s_sCachedVersion
 guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
-guard variable for UTF16to8(wchar_t const*)::s_converter
-guard variable for UTF8to16(char const*)::s_converter
+guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+guard variable for UTF8to16(std::string const&)::s_convert
 guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>::operator()(char) const::__nul
 guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>::operator()(char) const::__nul
 guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
@@ -2229,14 +2231,14 @@ std::__codecvt_utf8_base<char32_t>::do_max_length() const
 std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
 std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
 std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()
-std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const
-std::__codecvt_utf8_base<wchar_t>::do_encoding() const
-std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
-std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
-std::__codecvt_utf8_base<wchar_t>::do_max_length() const
-std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
-std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
-std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()
+std::__codecvt_utf8_utf16_base<wchar_t>::do_always_noconv() const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_encoding() const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_max_length() const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+std::__codecvt_utf8_utf16_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+std::__codecvt_utf8_utf16_base<wchar_t>::~__codecvt_utf8_utf16_base()
 std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>::operator()(char) const::__nul
 std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>::operator()(char) const::__nul
 std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
@@ -2336,6 +2338,7 @@ std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_st
 std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_leak_hard()
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_M_destroy(std::allocator<wchar_t> const&)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_create(unsigned long, unsigned long, std::allocator<wchar_t> const&)
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::allocator<wchar_t> const&)
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
@@ -2345,7 +2348,7 @@ std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sy
 std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
 std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
 std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
-std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
+std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8_utf16()
 std::collate<char> const& std::use_facet<std::collate<char> >(std::locale const&)
 std::ctype<char> const& std::use_facet<std::ctype<char> >(std::locale const&)
 std::ctype<char>::_M_widen_init() const
@@ -2430,7 +2433,7 @@ std::vector<std::string, std::allocator<std::string> >::~vector()
 std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::_M_fill_assign(unsigned long, std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > const&)
 std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > >::operator=(std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> >, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string> > > > const&) [clone .isra.0]
 std::vector<unsigned char, std::allocator<unsigned char> >::_M_default_append(unsigned long)
-std::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
+std::wstring_convert<std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
 stderr
 steamrt
 stoul
@@ -2516,7 +2519,7 @@ typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::__codecvt_utf8_base<char32_t>
-typeinfo for std::__codecvt_utf8_base<wchar_t>
+typeinfo for std::__codecvt_utf8_utf16_base<wchar_t>
 typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>
 typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>
 typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>
@@ -2534,7 +2537,7 @@ typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, false, true>
 typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, true, false>
 typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, true, true>
 typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-typeinfo for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+typeinfo for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
 typeinfo for std::ctype<char>
 typeinfo for std::exception
 typeinfo for std::locale::facet
@@ -2593,7 +2596,7 @@ typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, false, tr
 typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, true, false>
 typeinfo name for std::__detail::_CharMatcher<std::regex_traits<char>, true, true>
 typeinfo name for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-typeinfo name for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+typeinfo name for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
 u
 ucrc32(unsigned long, unsigned char const*, unsigned int)
 udev_device_get_devnode
@@ -2746,12 +2749,13 @@ vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator
 vtable for std::basic_streambuf<char, std::char_traits<char> >
 vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
 vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
-vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+vtable for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
 vtable for std::regex_error
 w
 waitpid
 wb
 wcslen
+wmemcpy
 write
 wstring_convert::from_bytes
 wstring_convert::to_bytes

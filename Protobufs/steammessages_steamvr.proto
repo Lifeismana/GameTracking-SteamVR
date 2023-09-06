@@ -1,225 +1,120 @@
-import "steammessages_unified_base.proto";
-
-option optimize_for = SPEED;
-option cc_generic_services = true;
-
-enum EVRMsg {
+		option (method_description) = "Attempt to send a group chat message to the default text channel";
+		option (method_description) = "Close an existing data channel";
+		option (method_description) = "Create a new data channel";
+		option (method_description) = "Data channel close notification";
+		option (method_description) = "Data channel error notification";
+		option (method_description) = "Data channel open notification";
+		option (method_description) = "Exit a room voice chat session";
+		option (method_description) = "Get the avatar url for a specified steamId profile";
+		option (method_description) = "Header reference for js export";
+		option (method_description) = "Incoming data channel message";
+		option (method_description) = "Incoming data channel";
+		option (method_description) = "Initiate a room voice chat session";
+		option (method_description) = "New group chat message";
+		option (method_description) = "Sent when WebRTC becomes active";
+		option (method_description) = "Sent when WebRTC becomes inactive";
+		option (method_description) = "Voice chat session has started";
+		option (method_description) = "Voice chat session has terminated";
+	k_EAvatarUrlFull = 2;
+	k_EAvatarUrlMedium = 1;
+	k_EAvatarUrlSmall = 0;
 	k_EVRMsgInvalid = 0;
-	k_EVRMsgWebRTCCreateDataChannel = 1;
-	k_EVRMsgWebRTCCreateDataChannelResponse = 2;
-	k_EVRMsgWebRTCCloseDataChannel = 3;
-	k_EVRMsgWebRTCCloseDataChannelResponse = 4;
-	k_EVRMsgWebRTCOnDataChannel = 5;
-	k_EVRMsgWebRTCDataChannelOpen = 6;
-	k_EVRMsgWebRTCDataChannelClose = 7;
-	k_EVRMsgWebRTCDataChannelError = 8;
-	k_EVRMsgWebRTCDataChannelMessage = 9;
-	k_EVRMsgVoiceChatInitiateRoomChat = 10;
-	k_EVRMsgVoiceChatInitiateRoomChatResponse = 11;
+	k_EVRMsgVoiceChatActive = 21;
 	k_EVRMsgVoiceChatExitRoomChat = 12;
 	k_EVRMsgVoiceChatExitRoomChatResponse = 13;
-	k_EVRMsgWebRTCActive = 14;
-	k_EVRMsgWebRTCInactive = 15;
 	k_EVRMsgVoiceChatGetAvatarUrl = 16;
 	k_EVRMsgVoiceChatGetAvatarUrlResponse = 17;
+	k_EVRMsgVoiceChatInactive = 22;
+	k_EVRMsgVoiceChatInitiateRoomChat = 10;
+	k_EVRMsgVoiceChatInitiateRoomChatResponse = 11;
 	k_EVRMsgVoiceChatNewGroupChatMsgAdded = 18;
 	k_EVRMsgVoiceChatSendGroupChatMessage = 19;
 	k_EVRMsgVoiceChatSendGroupChatMessageResponse = 20;
-	k_EVRMsgVoiceChatActive = 21;
-	k_EVRMsgVoiceChatInactive = 22;
-}
-
-enum EAvatarUrl {
-	k_EAvatarUrlSmall = 0;
-	k_EAvatarUrlMedium = 1;
-	k_EAvatarUrlFull = 2;
-}
-
-message CSteamVR_Header {
+	k_EVRMsgWebRTCActive = 14;
+	k_EVRMsgWebRTCCloseDataChannel = 3;
+	k_EVRMsgWebRTCCloseDataChannelResponse = 4;
+	k_EVRMsgWebRTCCreateDataChannel = 1;
+	k_EVRMsgWebRTCCreateDataChannelResponse = 2;
+	k_EVRMsgWebRTCDataChannelClose = 7;
+	k_EVRMsgWebRTCDataChannelError = 8;
+	k_EVRMsgWebRTCDataChannelMessage = 9;
+	k_EVRMsgWebRTCDataChannelOpen = 6;
+	k_EVRMsgWebRTCInactive = 15;
+	k_EVRMsgWebRTCOnDataChannel = 5;
+	option (service_description) = "Service for SteamVR interacting with Steam voice chat";
+	option (service_description) = "Service for communicating WebRTC data with SteamVR";
+	option (service_execution_site) = k_EProtoExecutionSiteSteamClient;
+	option (service_privilege) = k_EProtoPrivAuthAccount;
+	optional .EAvatarUrl avatar_type = 2 [default = k_EAvatarUrlSmall];
 	optional .EVRMsg type = 1 [default = k_EVRMsgInvalid];
-	optional uint32 id = 2 [(description) = "Used to pair responses with requests"];
-}
-
-message CSteamVR_WebRTC_Active_Notification {
-}
-
-message CSteamVR_WebRTC_Inactive_Notification {
-}
-
-message CSteamVR_WebRTC_CreateDataChannel_Request {
-	optional string label = 1 [(description) = "Descriptive name to identify this channel"];
 	optional bool ordered = 2;
-	optional uint32 max_retransmits = 3;
-	optional uint32 max_packet_life_time = 4;
-}
-
-message CSteamVR_WebRTC_CreateDataChannel_Response {
-	optional uint32 channel_id = 1;
-}
-
-message CSteamVR_WebRTC_CloseDataChannel_Request {
-	optional uint32 channel_id = 1;
-}
-
-message CSteamVR_WebRTC_CloseDataChannel_Response {
-}
-
-message CSteamVR_WebRTC_OnDataChannel_Notification {
-	optional fixed64 source_steamid = 1;
-	optional uint32 channel_id = 2;
-	optional string label = 3;
-}
-
-message CSteamVR_WebRTC_DataChannel_Open_Notification {
-	optional uint32 channel_id = 1;
-}
-
-message CSteamVR_WebRTC_DataChannel_Close_Notification {
-	optional uint32 channel_id = 1;
-}
-
-message CSteamVR_WebRTC_DataChannel_Error_Notification {
-	optional uint32 channel_id = 1;
-	optional string reason = 2;
-}
-
-message CSteamVR_WebRTC_DataChannel_Message_Notification {
-	optional uint32 channel_id = 1;
 	optional bytes data = 2;
-}
-
-message CSteamVR_VoiceChat_Active_Notification {
-}
-
-message CSteamVR_VoiceChat_Inactive_Notification {
-}
-
-message CSteamVR_VoiceChat_InitiateRoomChat_Request {
-	optional uint64 chat_group_id = 1;
-	optional uint64 chat_room_id = 2;
-}
-
-message CSteamVR_VoiceChat_InitiateRoomChat_Response {
-}
-
-message CSteamVR_VoiceChat_ExitRoomChat_Request {
-	optional uint64 chat_group_id = 1;
-	optional uint64 chat_room_id = 2;
-}
-
-message CSteamVR_VoiceChat_ExitRoomChat_Response {
-}
-
-message CSteamVR_VoiceChat_NewGroupChatMsgAdded_Notification {
-	optional uint64 chat_group_id = 1;
-	optional uint64 chat_room_id = 2;
+	optional fixed64 profile_steamid = 1;
+	optional fixed64 source_steamid = 1;
+	optional string label = 1 [(description) = "Descriptive name to identify this channel"];
+	optional string label = 3;
+	optional string message = 6;
+	optional string message_with_bbcode = 1;
+	optional string profile_avatar_url = 1;
+	optional string reason = 2;
+	optional uint32 channel_id = 1;
+	optional uint32 channel_id = 2;
+	optional uint32 id = 2 [(description) = "Used to pair responses with requests"];
+	optional uint32 max_packet_life_time = 4;
+	optional uint32 max_retransmits = 3;
+	optional uint32 ordinal = 5;
 	optional uint32 sender_accountid = 3;
 	optional uint32 timestamp = 4;
-	optional uint32 ordinal = 5;
-	optional string message = 6;
-}
-
-message CSteamVR_VoiceChat_SendGroupChatMessage_Request {
-	optional string message_with_bbcode = 1;
-}
-
-message CSteamVR_VoiceChat_SendGroupChatMessage_Response {
-}
-
-message CSteamVR_VoiceChat_GetAvatarUrl_Request {
-	optional fixed64 profile_steamid = 1;
-	optional .EAvatarUrl avatar_type = 2 [default = k_EAvatarUrlSmall];
-}
-
-message CSteamVR_VoiceChat_GetAvatarUrl_Response {
-	optional string profile_avatar_url = 1;
-}
-
-message CSteamVR_Ping_Request {
 	optional uint32 value = 1;
-}
-
-message CSteamVR_Ping_Response {
-	optional fixed64 source_steamid = 1;
 	optional uint32 value = 2;
-}
-
-service SteamVRWebRTC {
-	option (service_description) = "Service for communicating WebRTC data with SteamVR";
-	option (service_privilege) = k_EProtoPrivAuthAccount;
-	option (service_execution_site) = k_EProtoExecutionSiteSteamClient;
-
-	rpc Header (.CSteamVR_Header) returns (.NoResponse) {
-		option (method_description) = "Header reference for js export";
-	}
-
-	rpc Active (.CSteamVR_WebRTC_Active_Notification) returns (.NoResponse) {
-		option (method_description) = "Sent when WebRTC becomes active";
-	}
-
-	rpc Inactive (.CSteamVR_WebRTC_Inactive_Notification) returns (.NoResponse) {
-		option (method_description) = "Sent when WebRTC becomes inactive";
-	}
-
-	rpc CreateDataChannel (.CSteamVR_WebRTC_CreateDataChannel_Request) returns (.CSteamVR_WebRTC_CreateDataChannel_Response) {
-		option (method_description) = "Create a new data channel";
-	}
-
-	rpc CloseDataChannel (.CSteamVR_WebRTC_CloseDataChannel_Request) returns (.CSteamVR_WebRTC_CloseDataChannel_Response) {
-		option (method_description) = "Close an existing data channel";
-	}
-
-	rpc Notify_OnDataChannel (.CSteamVR_WebRTC_OnDataChannel_Notification) returns (.NoResponse) {
-		option (method_description) = "Incoming data channel";
-	}
-
-	rpc Notify_DataChannelOpen (.CSteamVR_WebRTC_DataChannel_Open_Notification) returns (.NoResponse) {
-		option (method_description) = "Data channel open notification";
-	}
-
-	rpc Notify_DataChannelClose (.CSteamVR_WebRTC_DataChannel_Close_Notification) returns (.NoResponse) {
-		option (method_description) = "Data channel close notification";
-	}
-
-	rpc Notify_DataChannelError (.CSteamVR_WebRTC_DataChannel_Error_Notification) returns (.NoResponse) {
-		option (method_description) = "Data channel error notification";
-	}
-
-	rpc Notify_DataChannelMessage (.CSteamVR_WebRTC_DataChannel_Message_Notification) returns (.NoResponse) {
-		option (method_description) = "Incoming data channel message";
-	}
-}
-
-service SteamVRVoiceChat {
-	option (service_description) = "Service for SteamVR interacting with Steam voice chat";
-	option (service_privilege) = k_EProtoPrivAuthAccount;
-	option (service_execution_site) = k_EProtoExecutionSiteSteamClient;
-
+	optional uint64 chat_group_id = 1;
+	optional uint64 chat_room_id = 2;
 	rpc Active (.CSteamVR_VoiceChat_Active_Notification) returns (.NoResponse) {
-		option (method_description) = "Voice chat session has started";
-	}
-
-	rpc Inactive (.CSteamVR_VoiceChat_Inactive_Notification) returns (.NoResponse) {
-		option (method_description) = "Voice chat session has terminated";
-	}
-
-	rpc InitiateRoomChat (.CSteamVR_VoiceChat_InitiateRoomChat_Request) returns (.CSteamVR_VoiceChat_InitiateRoomChat_Response) {
-		option (method_description) = "Initiate a room voice chat session";
-	}
-
+	rpc Active (.CSteamVR_WebRTC_Active_Notification) returns (.NoResponse) {
+	rpc CloseDataChannel (.CSteamVR_WebRTC_CloseDataChannel_Request) returns (.CSteamVR_WebRTC_CloseDataChannel_Response) {
+	rpc CreateDataChannel (.CSteamVR_WebRTC_CreateDataChannel_Request) returns (.CSteamVR_WebRTC_CreateDataChannel_Response) {
 	rpc ExitRoomChat (.CSteamVR_VoiceChat_ExitRoomChat_Request) returns (.CSteamVR_VoiceChat_ExitRoomChat_Response) {
-		option (method_description) = "Exit a room voice chat session";
-	}
-
-	rpc NewGroupChatMsgAdded (.CSteamVR_VoiceChat_NewGroupChatMsgAdded_Notification) returns (.NoResponse) {
-		option (method_description) = "New group chat message";
-	}
-
-	rpc SendGroupChatMessage (.CSteamVR_VoiceChat_SendGroupChatMessage_Request) returns (.CSteamVR_VoiceChat_SendGroupChatMessage_Response) {
-		option (method_description) = "Attempt to send a group chat message to the default text channel";
-	}
-
 	rpc GetAvatarUrl (.CSteamVR_VoiceChat_GetAvatarUrl_Request) returns (.CSteamVR_VoiceChat_GetAvatarUrl_Response) {
-		option (method_description) = "Get the avatar url for a specified steamId profile";
-	}
-}
+	rpc Header (.CSteamVR_Header) returns (.NoResponse) {
+	rpc Inactive (.CSteamVR_VoiceChat_Inactive_Notification) returns (.NoResponse) {
+	rpc Inactive (.CSteamVR_WebRTC_Inactive_Notification) returns (.NoResponse) {
+	rpc InitiateRoomChat (.CSteamVR_VoiceChat_InitiateRoomChat_Request) returns (.CSteamVR_VoiceChat_InitiateRoomChat_Response) {
+	rpc NewGroupChatMsgAdded (.CSteamVR_VoiceChat_NewGroupChatMsgAdded_Notification) returns (.NoResponse) {
+	rpc Notify_DataChannelClose (.CSteamVR_WebRTC_DataChannel_Close_Notification) returns (.NoResponse) {
+	rpc Notify_DataChannelError (.CSteamVR_WebRTC_DataChannel_Error_Notification) returns (.NoResponse) {
+	rpc Notify_DataChannelMessage (.CSteamVR_WebRTC_DataChannel_Message_Notification) returns (.NoResponse) {
+	rpc Notify_DataChannelOpen (.CSteamVR_WebRTC_DataChannel_Open_Notification) returns (.NoResponse) {
+	rpc Notify_OnDataChannel (.CSteamVR_WebRTC_OnDataChannel_Notification) returns (.NoResponse) {
+	rpc SendGroupChatMessage (.CSteamVR_VoiceChat_SendGroupChatMessage_Request) returns (.CSteamVR_VoiceChat_SendGroupChatMessage_Response) {
+enum EAvatarUrl {
+enum EVRMsg {
+import "steammessages_unified_base.proto";
+message CSteamVR_Header {
+message CSteamVR_Ping_Request {
+message CSteamVR_Ping_Response {
+message CSteamVR_VoiceChat_Active_Notification {
+message CSteamVR_VoiceChat_ExitRoomChat_Request {
+message CSteamVR_VoiceChat_ExitRoomChat_Response {
+message CSteamVR_VoiceChat_GetAvatarUrl_Request {
+message CSteamVR_VoiceChat_GetAvatarUrl_Response {
+message CSteamVR_VoiceChat_Inactive_Notification {
+message CSteamVR_VoiceChat_InitiateRoomChat_Request {
+message CSteamVR_VoiceChat_InitiateRoomChat_Response {
+message CSteamVR_VoiceChat_NewGroupChatMsgAdded_Notification {
+message CSteamVR_VoiceChat_SendGroupChatMessage_Request {
+message CSteamVR_VoiceChat_SendGroupChatMessage_Response {
+message CSteamVR_WebRTC_Active_Notification {
+message CSteamVR_WebRTC_CloseDataChannel_Request {
+message CSteamVR_WebRTC_CloseDataChannel_Response {
+message CSteamVR_WebRTC_CreateDataChannel_Request {
+message CSteamVR_WebRTC_CreateDataChannel_Response {
+message CSteamVR_WebRTC_DataChannel_Close_Notification {
+message CSteamVR_WebRTC_DataChannel_Error_Notification {
+message CSteamVR_WebRTC_DataChannel_Message_Notification {
+message CSteamVR_WebRTC_DataChannel_Open_Notification {
+message CSteamVR_WebRTC_Inactive_Notification {
+message CSteamVR_WebRTC_OnDataChannel_Notification {
+option cc_generic_services = true;
+option optimize_for = SPEED;
+service SteamVRVoiceChat {
+service SteamVRWebRTC {

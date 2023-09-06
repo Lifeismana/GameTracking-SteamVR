@@ -109,8 +109,8 @@
  b ThreadInitSchedulerForRtkit()::sInitMutex
  b ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
  b ThreadShellExecute::bInstalledSignalHandler
- b UTF16to8(wchar_t const*)::s_converter
- b UTF8to16(char const*)::s_converter
+ b UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+ b UTF8to16(std::string const&)::s_convert
  b VRCrashPreCrashSetMinidumpComment(char const*)::szMinidumpCommentBuffer
  b VRWriteMiniDump_Internal(char const*, unsigned int, void*, bool)::s_mutex
  b any_objects_registered
@@ -144,8 +144,8 @@
  b guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
  b guard variable for SteamVRVersionAsString()::s_sCachedVersion
  b guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
- b guard variable for UTF16to8(wchar_t const*)::s_converter
- b guard variable for UTF8to16(char const*)::s_converter
+ b guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+ b guard variable for UTF8to16(std::string const&)::s_convert
  b loadedDevice
  b loadedInstance
  b marker.4
@@ -711,7 +711,7 @@
  d typeinfo for facet::CVkTimestampQueryPool<2u>
  d typeinfo for facet::CVkTimestampQueryPoolBase
  d typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- d typeinfo for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ d typeinfo for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  d typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<(anonymous namespace)::CPrismInstance::Start(PrismRunParameters_t const*)::{lambda(PrismRunParameters_t)#1}, PrismRunParameters_t> > >
  d typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
  d vtable for (anonymous namespace)::CFrameHallucinationPrivate::CDestinationFrameInfo
@@ -751,7 +751,7 @@
  d vtable for facet::CVkTimestampQueryPool<2u>
  d vtable for facet::CVkTimestampQueryPoolBase
  d vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- d vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ d vtable for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  d vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<(anonymous namespace)::CPrismInstance::Start(PrismRunParameters_t const*)::{lambda(PrismRunParameters_t)#1}, PrismRunParameters_t> > >
  d vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
  dl_iterate_phdr
@@ -928,7 +928,7 @@
  r typeinfo name for facet::CVkTimestampQueryPool<2u>
  r typeinfo name for facet::CVkTimestampQueryPoolBase
  r typeinfo name for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
- r typeinfo name for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ r typeinfo name for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
  r typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<(anonymous namespace)::CPrismInstance::Start(PrismRunParameters_t const*)::{lambda(PrismRunParameters_t)#1}, PrismRunParameters_t> > >
  r typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
  read
@@ -978,14 +978,14 @@
  std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
  std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()
- std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const
- std::__codecvt_utf8_base<wchar_t>::do_encoding() const
- std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
- std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
- std::__codecvt_utf8_base<wchar_t>::do_max_length() const
- std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
- std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
- std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_always_noconv() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_encoding() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_max_length() const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+ std::__codecvt_utf8_utf16_base<wchar_t>::~__codecvt_utf8_utf16_base()
  std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const
  std::__throw_bad_alloc()
  std::__throw_bad_cast()
@@ -1014,6 +1014,7 @@
  std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_M_leak_hard()
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_M_destroy(std::allocator<wchar_t> const&)
+ std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_create(unsigned long, unsigned long, std::allocator<wchar_t> const&)
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_Rep::_S_empty_rep_storage
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::allocator<wchar_t> const&)
  std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
@@ -2444,11 +2445,13 @@
  t TokenizeString(std::string const&, char) [clone .cold]
  t TrimTrailingWhitespace(std::string const&)
  t UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)
+ t UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&) [clone .cold]
  t UTF16to8(wchar_t const*)
  t UTF16to8(wchar_t const*) [clone .cold]
  t UTF8to16(char const*)
  t UTF8to16(char const*) [clone .cold]
  t UTF8to16(std::string const&)
+ t UTF8to16(std::string const&) [clone .cold]
  t Uint64ToString(unsigned long)
  t UnixTimeToDateAndTimeString(unsigned long)
  t UnixTimeToDateString(unsigned long)
@@ -2729,7 +2732,7 @@
  t std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
  t std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
  t std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
- t std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
+ t std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8_utf16()
  t std::ctype<char>::do_widen(char) const
  t std::default_delete<CVkCommandBatch>::operator()(CVkCommandBatch*) const [clone .part.0]
  t std::default_delete<CVkExtensionInfo>::operator()(CVkExtensionInfo*) const [clone .part.0]
@@ -2796,7 +2799,7 @@
  t std::vector<unsigned short, std::allocator<unsigned short> >::reserve(unsigned long)
  t std::vector<unsigned short, std::allocator<unsigned short> >::~vector()
  t std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t> >::_M_default_append(unsigned long)
- t std::wstring_convert<std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
+ t std::wstring_convert<std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>, wchar_t, std::allocator<wchar_t>, std::allocator<char> >::~wstring_convert()
  t strcpy_safe(char*, unsigned long, char const*)
  t stricmp(char const*, char const*)
  t strnicmp(char const*, char const*, unsigned long)
@@ -2895,7 +2898,7 @@
  toupper
  typeinfo for int
  typeinfo for std::__codecvt_utf8_base<char32_t>
- typeinfo for std::__codecvt_utf8_base<wchar_t>
+ typeinfo for std::__codecvt_utf8_utf16_base<wchar_t>
  typeinfo for std::exception
  typeinfo for std::thread::_State
  umask
@@ -2917,6 +2920,7 @@
  vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
  waitpid
  wcslen
+ wmemcpy
  write
  xcb_get_setup
  xcb_intern_atom

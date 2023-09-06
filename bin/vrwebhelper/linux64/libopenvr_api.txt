@@ -1467,6 +1467,7 @@
  t Json::StreamWriterBuilder::validate(Json::Value*) const
  t Json::StreamWriterBuilder::validate(Json::Value*) const [clone .cold]
  t Json::StreamWriterBuilder::~StreamWriterBuilder()
+ t Json::Style
  t Json::StyledStreamWriter::StyledStreamWriter(std::string)
  t Json::StyledStreamWriter::StyledStreamWriter(std::string) [clone .cold]
  t Json::StyledStreamWriter::hasCommentForValue(Json::Value const&)
@@ -1501,90 +1502,3 @@
  t Json::StyledWriter::writeCommentBeforeValue(Json::Value const&) [clone .cold]
  t Json::StyledWriter::writeIndent()
  t Json::StyledWriter::writeValue(Json::Value const&)
- t Json::StyledWriter::writeValue(Json::Value const&) [clone .cold]
- t Json::StyledWriter::writeWithIndent(std::string const&)
- t Json::StyledWriter::~StyledWriter()
- t Json::Value*& std::deque<Json::Value*, std::allocator<Json::Value*> >::emplace_back<Json::Value*>(Json::Value*&&)
- t Json::Value::CZString::CZString(Json::Value::CZString const&)
- t Json::Value::CZString::CZString(Json::Value::CZString const&) [clone .cold]
- t Json::Value::CZString::CZString(Json::Value::CZString&&)
- t Json::Value::CZString::CZString(char const*, unsigned int, Json::Value::CZString::DuplicationPolicy)
- t Json::Value::CZString::CZString(unsigned int)
- t Json::Value::CZString::data() const
- t Json::Value::CZString::index() const
- t Json::Value::CZString::isStaticString() const
- t Json::Value::CZString::length() const
- t Json::Value::CZString::operator<(Json::Value::CZString const&) const
- t Json::Value::CZString::operator=(Json::Value::CZString)
- t Json::Value::CZString::operator==(Json::Value::CZString const&) const
- t Json::Value::CZString::swap(Json::Value::CZString&)
- t Json::Value::CZString::~CZString()
- t Json::Value::CommentInfo::CommentInfo()
- t Json::Value::CommentInfo::setComment(char const*, unsigned long)
- t Json::Value::CommentInfo::setComment(char const*, unsigned long) [clone .cold]
- t Json::Value::CommentInfo::~CommentInfo()
- t Json::Value::Value(Json::StaticString const&)
- t Json::Value::Value(Json::Value const&)
- t Json::Value::Value(Json::Value const&) [clone .cold]
- t Json::Value::Value(Json::Value&&)
- t Json::Value::Value(Json::ValueType)
- t Json::Value::Value(Json::ValueType) [clone .part.0]
- t Json::Value::Value(bool)
- t Json::Value::Value(char const*)
- t Json::Value::Value(char const*, char const*)
- t Json::Value::Value(double)
- t Json::Value::Value(float)
- t Json::Value::Value(int)
- t Json::Value::Value(long long)
- t Json::Value::Value(std::string const&)
- t Json::Value::Value(unsigned int)
- t Json::Value::Value(unsigned long long)
- t Json::Value::append(Json::Value const&)
- t Json::Value::append(Json::Value const&) [clone .cold]
- t Json::Value::asBool() const
- t Json::Value::asCString() const
- t Json::Value::asCString() const [clone .cold]
- t Json::Value::asDouble() const
- t Json::Value::asFloat() const
- t Json::Value::asInt() const
- t Json::Value::asInt64() const
- t Json::Value::asLargestInt() const
- t Json::Value::asLargestUInt() const
- t Json::Value::asString() const
- t Json::Value::asUInt() const
- t Json::Value::asUInt64() const
- t Json::Value::begin()
- t Json::Value::begin() const
- t Json::Value::clear()
- t Json::Value::clear() [clone .cold]
- t Json::Value::compare(Json::Value const&) const
- t Json::Value::empty() const
- t Json::Value::end()
- t Json::Value::end() const
- t Json::Value::find(char const*, char const*) const
- t Json::Value::find(char const*, char const*) const [clone .cold]
- t Json::Value::get(char const*, Json::Value const&) const
- t Json::Value::get(char const*, char const*, Json::Value const&) const
- t Json::Value::get(char const*, char const*, Json::Value const&) const [clone .cold]
- t Json::Value::get(std::string const&, Json::Value const&) const
- t Json::Value::get(unsigned int, Json::Value const&) const
- t Json::Value::get(unsigned int, Json::Value const&) const [clone .cold]
- t Json::Value::getComment(Json::CommentPlacement) const
- t Json::Value::getMemberNames() const
- t Json::Value::getMemberNames() const [clone .cold]
- t Json::Value::getOffsetLimit() const
- t Json::Value::getOffsetStart() const
- t Json::Value::getString(char const**, char const**) const
- t Json::Value::hasComment(Json::CommentPlacement) const
- t Json::Value::initBasic(Json::ValueType, bool)
- t Json::Value::isArray() const
- t Json::Value::isBool() const
- t Json::Value::isConvertibleTo(Json::ValueType) const
- t Json::Value::isConvertibleTo(Json::ValueType) const [clone .cold]
- t Json::Value::isDouble() const
- t Json::Value::isInt() const
- t Json::Value::isInt64() const
- t Json::Value::isIntegral() const
- t Json::Value::isMember(char const*) const
- t Json::Value::isMember(char const*, char const*) const
- t Json::Value::isMember(std::str
