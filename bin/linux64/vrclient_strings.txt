@@ -1475,6 +1475,7 @@ $0rpc $1(.$2) returns (.$3)
 18CVRScreenshots_001
 18CVRSharedGLTexture
 18XrHandTrackerEXT_T
+19:13:02
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -1545,7 +1546,6 @@ $0rpc $1(.$2) returns (.$3)
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:53:07
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -2081,76 +2081,4 @@ AnimUtils::AngleAboutAxis(VectorAligned const&, VectorAligned const&, VectorAlig
 AnimUtils::AngleBetweenVectors(VectorAligned const&, VectorAligned const&)
 AnimUtils::Blend(float, BlendSettings_t const&)
 AnimUtils::Blend(float, EBlendType, float)
-AnimUtils::Blend2Poses(CPoseRecipe&, unsigned char, unsigned char, float)
-AnimUtils::ChangeRange(float, float, float, float, float)
-AnimUtils::CloseEnough(float, float, float)
-AnimUtils::ConvertFromGLTF(CTransform const&)
-AnimUtils::FromEulerAngles(vr::HmdVector3_t const&)
-AnimUtils::GetBarycentricCoords2D(vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, float*)
-AnimUtils::GetBias(float, float)
-AnimUtils::GetButtonStatus(unsigned long, unsigned long, vr::EVRButtonId)
-AnimUtils::GetGain(float, float)
-AnimUtils::RotationAboutAxis(VectorAligned const&, VectorAligned const&, VectorAligned const&)
-AnimUtils::RotationBetweenVectors(VectorAligned const&, VectorAligned const&)
-AnimUtils::ToEulerAngles(QuaternionAligned const&)
-AnimUtils::UpdateCycle(float, float, float, float, bool)
-AnimUtils::UpdateCycle(float, float, float, float, bool, int&, float&)
-AnimationChannel
-Another app was already launching (117)
-App info manager init failed (114)
-App key after connect message:%s
-App submitted texture from wrong device!  Make sure app is configured to use the graphics card that your headset is plugged into.
-Application failed to call xrGetVulkanGraphicsDevice before xrCreateSession
-Application submitted two left scene textures for a single frame!
-Application submitted two right scene textures for a single frame!
-ApplicationMenu
-ApplicationsInterfaceRegistration<CVRApplications_001>::GetInterface()
-ApplicationsInterfaceRegistration<CVRApplications_001>::~ApplicationsInterfaceRegistration()
-ApplicationsInterfaceRegistration<CVRApplications_002>::GetInterface()
-ApplicationsInterfaceRegistration<CVRApplications_002>::~ApplicationsInterfaceRegistration()
-ApplicationsInterfaceRegistration<CVRApplications_003>::GetInterface()
-ApplicationsInterfaceRegistration<CVRApplications_003>::~ApplicationsInterfaceRegistration()
-ApplicationsInterfaceRegistration<CVRApplications_004>::GetInterface()
-ApplicationsInterfaceRegistration<CVRApplications_004>::~ApplicationsInterfaceRegistration()
-ApplicationsInterfaceRegistration<CVRApplications_005>::GetInterface()
-ApplicationsInterfaceRegistration<CVRApplications_005>::~ApplicationsInterfaceRegistration()
-ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
-ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
-ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
-April
-Array for decompressed transforms is too small.  Needed %u got %u
-Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
-Array length of `emissiveFactor` parameter in material must be 3, but got
-Array textures from OpenGL aren't supported on Linux yet.
-AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)
-AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*) [clone .cold]
-AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)::bMinidumpDisabled
-Asset
-Attempt to add alias root %s after a path handle was generated. That is not supported
-Attempt to init shared state %s twice
-Attempted to access vulkan array info for a non-vulkan texture
-Attempted to map already-mapped BO
-Attempted to map un-allocated BO
-Attempted to map un-mappable BO
-Attempted to read payload of %d bytes from pipe but failed
-Attempted to unmap un-allocated BO
-Attempted to unmap unmapped BO
-Attempted to write %zd bytes and ended up writing 0. Closing the pipe
-Attempting to load initial input config
-Attempting to wait on a fence that has already been waited for. Current: %lx Wait: %lx
-Attempting to wait on a fence value that is too large. Current: %lx Wait: %lx
-Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %lx, Signaled: %lx
-August
-AuthenticAMD
-AutosaveURL
-Axis0
-Axis0_Value
-Axis1
-Axis1_Value
-Axis2
-Axis2_Value1
-Axis2_Value2
-Axis3
-Axis3_Value_e0
-Axis3_Value_e1
-Axis4
+AnimUtils::Blend2Poses(C

@@ -891,40 +891,4 @@ nnte die Grafikleistung beeintr
 r Ihr VR-Headset oder einen Controller sichtbar ist."
 r Ihr VR-Headset und Ihre Controller sichtbar sind."
 r SteamVR ben
-r Teile der erkannten Hardware liegen keine Eintr
-r die Basisstationen sichtbar ist."
-r eine Basisstation sichtbar ist."
-r weitere Unterst
-re Warnungen werden zur
-ren."
-ssen HTC kontaktieren."
-ssen Ihre Kollisionsgrenzen eingerichtet sein."
-ssen Sie Ihren Grafiktreiber aktualisieren. Version %1 ist installiert, der direkte Anzeigemodus ben
-ssen Sie Ihren Raum vermessen."
-ssen ein neues festlegen."
-ssen einen neuen festlegen."
-t befindet sich im Stand-by-Modus"
-t befindet sich im Stand-by-Modus."
-t bereit"
-t ist im Ruhezustand."
-t ist nicht bereit"
-t ist nicht verbunden"
-t ist verbunden und sendet Signale."
-t ist verbunden, aber sendet keine Signale."
-t ist verbunden, sendet aber keine Signale."
-t nicht finden. Stellen Sie sicher, dass es ordnungsgem
-t nicht verbunden"
-t ordnungsgem
-t sendet keine Signale"
-t sendet keine Signale. Stellen Sie sicher, dass es f
-t verbessern, indem Sie diese Basisstation in Modus A umschalten."
-te von Ihrem System, um ihre Treiber neu zu installieren."
-tigen Sie einen Compositor."
-tigen Sie einen VRServer."
-tigt jedoch Version %2"
-tigte Datei fehlt, bitte 
-tigte Dateien fehlen, bitte 
-tte nicht passieren sollen."
-tzt. Bitte aktualisieren Sie auf Windows 8.1 oder Windows 10, um die besten Ergebnisse zu erhalten."
-tzung."
-uft zu langsam"
+r Teile der erkannten 

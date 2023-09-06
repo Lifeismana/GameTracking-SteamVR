@@ -1063,21 +1063,4 @@
  t void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string const&>(std::string const&)
  t void std::vector<std::string, std::allocator<std::string> >::_M_emplace_back_aux<std::string>(std::string&&)
  t void std::vector<std::string, std::allocator<std::string> >::_M_insert_aux<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
- t void std::vector<std::string, std::allocator<std::string> >::_M_insert_aux<std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string&&)
- t vr::VR_LoadHmdSystemInternal()
- time@@GLIBC_2.2.5
- toupper@@GLIBC_2.2.5
- typeinfo for int@@CXXABI_1.3
- typeinfo for std::exception@@GLIBCXX_3.4
- unlink@@GLIBC_2.2.5
- unsetenv@@GLIBC_2.2.5
- usleep@@GLIBC_2.2.5
- vsnprintf@@GLIBC_2.2.5
- vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
- vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
- vtable for std::basic_ios<char, std::char_traits<char> >@@GLIBCXX_3.4
- vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
- vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
- vtable for std::basic_streambuf<char, std::char_traits<char> >@@GLIBCXX_3.4
- vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >@@GLIBCXX_3.4
- waitpid@@GLIBC_2.2.5
+ t void std::vector<std::string, std::allocator<std::string> >::_M_insert_aux<std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator
