@@ -1964,7 +1964,7 @@
  d stbiw__encode_png_line(unsigned char*, int, int, int, int, int, int, signed char*)::mapping
  d std::regex_traits<char>::lookup_classname<char const*>(char const*, char const*, bool) const::__classnames
  d std::regex_traits<char>::lookup_collatename<char const*>(char const*, char const*) const::__collatenames
- d typ
+ d typeinfo
  d typeinfo for ApplicationsInterfaceRegistration<CVRApplications_001>
  d typeinfo for ApplicationsInterfaceRegistration<CVRApplications_002>
  d typeinfo for ApplicationsInterfaceRegistration<CVRApplications_003>
@@ -2005,3 +2005,419 @@
  d typeinfo for CHmd_006
  d typeinfo for CIOBufferCursor
  d typeinfo for CInputFilterBase
+ d typeinfo for CInputFilterValueStore
+ d typeinfo for CInputFilter_Boolean_And
+ d typeinfo for CInputFilter_Boolean_ButtonPressState
+ d typeinfo for CInputFilter_Boolean_Latch
+ d typeinfo for CInputFilter_Boolean_Or
+ d typeinfo for CInputFilter_Boolean_Threshold
+ d typeinfo for CInputFilter_Boolean_Toggle
+ d typeinfo for CInputFilter_DPad
+ d typeinfo for CInputFilter_Grab_ValueAndForce
+ d typeinfo for CInputFilter_JoystickSettings
+ d typeinfo for CInputFilter_Pose_Component
+ d typeinfo for CInputFilter_Pose_Constant
+ d typeinfo for CInputFilter_RadialMenu
+ d typeinfo for CInputFilter_RadialMenuBase
+ d typeinfo for CInputFilter_Scalar_Constant
+ d typeinfo for CInputFilter_Scalar_Deadzone
+ d typeinfo for CInputFilter_Scalar_Exponent
+ d typeinfo for CInputFilter_Scalar_JoystickScroll_Discrete
+ d typeinfo for CInputFilter_Scalar_JoystickScroll_Smooth
+ d typeinfo for CInputFilter_Scalar_ScaleAndOffset
+ d typeinfo for CInputFilter_Scalar_TrackpadScroll_Discrete
+ d typeinfo for CInputFilter_Scalar_TrackpadScroll_Smooth
+ d typeinfo for CInputFilter_TriggerHaptic
+ d typeinfo for CInputFilter_XRDPad
+ d typeinfo for CKeyframedDataResource
+ d typeinfo for CLegacyInput
+ d typeinfo for CLogBuffer::CLogBuffer()::{lambda(ELogLevel, char const*, void*)#1}
+ d typeinfo for CMCStore
+ d typeinfo for CMsaaResolveRenderer
+ d typeinfo for CNonCopyable
+ d typeinfo for CPackedBoneTransforms
+ d typeinfo for CPathManagerBase
+ d typeinfo for CPathManager_Client
+ d typeinfo for CPathManager_Server
+ d typeinfo for CPropertyContainer
+ d typeinfo for CPropertyManager
+ d typeinfo for CRenderModelLoadThread
+ d typeinfo for CRenderModelManager
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(unsigned short, unsigned short, unsigned short)#14}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#2}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#3}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#4}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#5}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#6}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#7}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#8}
+ d typeinfo for CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)::{lambda(vr::HmdVector3_t const&)#9}
+ d typeinfo for CServerDriverHost_002
+ d typeinfo for CServerDriverHost_003
+ d typeinfo for CServerTrackedDeviceProvider
+ d typeinfo for CServerTrackedDeviceProvider_002
+ d typeinfo for CServerTrackedDeviceProvider_003
+ d typeinfo for CServerTrackedDeviceProvider_Latest
+ d typeinfo for CSettingsManager
+ d typeinfo for CSharedBufferLinux
+ d typeinfo for CSharedCountingSemaphoreLinux
+ d typeinfo for CSharedImageLinux
+ d typeinfo for CSharedResourceBaseLinux
+ d typeinfo for CSharedResourceNamespaceServer
+ d typeinfo for CSharedSemaphoreLinux
+ d typeinfo for CSimulatedActionBase
+ d typeinfo for CSimulatedTrackpadClick
+ d typeinfo for CSimulatedTriggerPull
+ d typeinfo for CSxrAction
+ d typeinfo for CSxrActionSet
+ d typeinfo for CSxrChildHandle<CSxrAction, XrAction_T*, CSxrActionSet>
+ d typeinfo for CSxrChildHandle<CSxrActionSet, XrActionSet_T*, CSxrInstance>
+ d typeinfo for CSxrChildHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*, CSxrSession>
+ d typeinfo for CSxrChildHandle<CSxrSession, XrSession_T*, CSxrInstance>
+ d typeinfo for CSxrChildHandle<CSxrSwapchainBase, XrSwapchain_T*, CSxrSession>
+ d typeinfo for CSxrChildVariableParentHandle<CSxrSpace, XrSpace_T*, CSxrAction, CSxrSession>
+ d typeinfo for CSxrCompositorOpenVR
+ d typeinfo for CSxrCompositorPrism
+ d typeinfo for CSxrDeletableBase
+ d typeinfo for CSxrDispatchableHandle<CSxrAction, XrAction_T*>
+ d typeinfo for CSxrDispatchableHandle<CSxrActionSet, XrActionSet_T*>
+ d typeinfo for CSxrDispatchableHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*>
+ d typeinfo for CSxrDispatchableHandle<CSxrInstance, XrInstance_T*>
+ d typeinfo for CSxrDispatchableHandle<CSxrSession, XrSession_T*>
+ d typeinfo for CSxrDispatchableHandle<CSxrSpace, XrSpace_T*>
+ d typeinfo for CSxrDispatchableHandle<CSxrSwapchainBase, XrSwapchain_T*>
+ d typeinfo for CSxrGraphicsBindingGLOpenVR
+ d typeinfo for CSxrGraphicsBindingPrism
+ d typeinfo for CSxrGraphicsBindingVulkanOpenVR
+ d typeinfo for CSxrHandTrackerEXT
+ d typeinfo for CSxrInstance
+ d typeinfo for CSxrParentBase
+ d typeinfo for CSxrSession
+ d typeinfo for CSxrSpace
+ d typeinfo for CSxrSwapchainBase
+ d typeinfo for CSxrSwapchainGLOpenVR
+ d typeinfo for CSxrSwapchainPrism
+ d typeinfo for CSxrSwapchainVulkanOpenVR
+ d typeinfo for CSyncLockThread
+ d typeinfo for CThread
+ d typeinfo for CTrackedDeviceServerDriverAdapter
+ d typeinfo for CVRApplications_001
+ d typeinfo for CVRApplications_002
+ d typeinfo for CVRApplications_003
+ d typeinfo for CVRApplications_004
+ d typeinfo for CVRApplications_005
+ d typeinfo for CVRApplications_006
+ d typeinfo for CVRBlockQueueManager
+ d typeinfo for CVRBlockQueue_001
+ d typeinfo for CVRBlockQueue_002
+ d typeinfo for CVRBlockQueue_003
+ d typeinfo for CVRBlockQueue_004
+ d typeinfo for CVRCameraComponentAdapter
+ d typeinfo for CVRCameraComponent_001
+ d typeinfo for CVRCameraComponent_002
+ d typeinfo for CVRCameraComponent_Latest
+ d typeinfo for CVRChaperoneClient
+ d typeinfo for CVRChaperoneSetup_001
+ d typeinfo for CVRChaperoneSetup_002
+ d typeinfo for CVRChaperoneSetup_003
+ d typeinfo for CVRChaperoneSetup_004
+ d typeinfo for CVRChaperoneSetup_005
+ d typeinfo for CVRChaperone_001
+ d typeinfo for CVRChaperone_002
+ d typeinfo for CVRChaperone_003
+ d typeinfo for CVRClientCore_001
+ d typeinfo for CVRClientCore_002
+ d typeinfo for CVRCompositorClient
+ d typeinfo for CVRCompositorClientBase
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>
+ d typeinfo for CVRCompositorSharedTextures::CTextureCacheKey
+ d typeinfo for CVRCompositorSharedTextures::ISharedTextureSet
+ d typeinfo for CVRCompositorSharedTextures::IVRSharedTexture
+ d typeinfo for CVRCompositor_003
+ d typeinfo for CVRCompositor_004
+ d typeinfo for CVRCompositor_005
+ d typeinfo for CVRCompositor_006
+ d typeinfo for CVRCompositor_007
+ d typeinfo for CVRCompositor_008
+ d typeinfo for CVRCompositor_009
+ d typeinfo for CVRCompositor_010
+ d typeinfo for CVRCompositor_011
+ d typeinfo for CVRCompositor_012
+ d typeinfo for CVRCompositor_013
+ d typeinfo for CVRCompositor_014
+ d typeinfo for CVRCompositor_015
+ d typeinfo for CVRCompositor_016
+ d typeinfo for CVRCompositor_017
+ d typeinfo for CVRCompositor_018
+ d typeinfo for CVRCompositor_019
+ d typeinfo for CVRCompositor_020
+ d typeinfo for CVRCompositor_021
+ d typeinfo for CVRCompositor_022
+ d typeinfo for CVRCompositor_023
+ d typeinfo for CVRCompositor_024
+ d typeinfo for CVRCompositor_025
+ d typeinfo for CVRCompositor_026
+ d typeinfo for CVRControlPanel_001
+ d typeinfo for CVRControlPanel_002
+ d typeinfo for CVRControlPanel_003
+ d typeinfo for CVRControlPanel_004
+ d typeinfo for CVRControlPanel_005
+ d typeinfo for CVRControllerComponentAdapter
+ d typeinfo for CVRControllerComponent_Latest
+ d typeinfo for CVRDashboardManager_001
+ d typeinfo for CVRDebug
+ d typeinfo for CVRDisplayComponentAdapter
+ d typeinfo for CVRDisplayComponent_001
+ d typeinfo for CVRDisplayComponent_Latest
+ d typeinfo for CVRDriverDirectModeComponentAdapter
+ d typeinfo for CVRDriverDirectModeComponent_001
+ d typeinfo for CVRDriverDirectModeComponent_002
+ d typeinfo for CVRDriverDirectModeComponent_003
+ d typeinfo for CVRDriverDirectModeComponent_004
+ d typeinfo for CVRDriverDirectModeComponent_005
+ d typeinfo for CVRDriverDirectModeComponent_006
+ d typeinfo for CVRDriverDirectModeComponent_007
+ d typeinfo for CVRDriverDirectModeComponent_Latest
+ d typeinfo for CVRFramerateGovernor
+ d typeinfo for CVRIOBuffer
+ d typeinfo for CVRIOBuffer_001
+ d typeinfo for CVRIOBuffer_002
+ d typeinfo for CVRInputLatest
+ d typeinfo for CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long, unsigned long)::{lambda(unsigned long)#1}
+ d typeinfo for CVRInput_001
+ d typeinfo for CVRInput_002
+ d typeinfo for CVRInput_003
+ d typeinfo for CVRInput_004
+ d typeinfo for CVRInput_005
+ d typeinfo for CVRInput_006
+ d typeinfo for CVRInput_007
+ d typeinfo for CVRInput_008
+ d typeinfo for CVRInput_009
+ d typeinfo for CVRLog::InitLog(char const*, char const*, bool, unsigned long)::{lambda(ELogLevel, char const*, void*)#1}
+ d typeinfo for CVRMailbox
+ d typeinfo for CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}
+ d typeinfo for CVRMailboxBase
+ d typeinfo for CVRMailboxClient
+ d typeinfo for CVRMailbox_001
+ d typeinfo for CVRMsg_AbortApplicationTransition
+ d typeinfo for CVRMsg_AcknowledgeQuit_Exiting
+ d typeinfo for CVRMsg_ApplicationInfo
+ d typeinfo for CVRMsg_ApplicationInfo_Manifest
+ d typeinfo for CVRMsg_ApplicationInfo_Options
+ d typeinfo for CVRMsg_ApplicationManifestRequest
+ d typeinfo for CVRMsg_ApplicationManifestResponse
+ d typeinfo for CVRMsg_CancelApplicationLaunch
+ d typeinfo for CVRMsg_CancelApplicationLaunchResponse
+ d typeinfo for CVRMsg_ChangeAppType
+ d typeinfo for CVRMsg_ChangeAppTypeResponse
+ d typeinfo for CVRMsg_ClientMailbox_GetNextMessage
+ d typeinfo for CVRMsg_ClientMailbox_GetNextMessageResponse
+ d typeinfo for CVRMsg_ClientMailbox_RegisterMailbox
+ d typeinfo for CVRMsg_ClientMailbox_RegisterMailboxResponse
+ d typeinfo for CVRMsg_ClientMailbox_SendMailboxMessage
+ d typeinfo for CVRMsg_ClientMailbox_SendMailboxMessageResponse
+ d typeinfo for CVRMsg_ClientMailbox_UnregisterMailbox
+ d typeinfo for CVRMsg_ClientMailbox_UnregisterMailboxResponse
+ d typeinfo for CVRMsg_CompositorBringToFront
+ d typeinfo for CVRMsg_CompositorClearFrameBuffer
+ d typeinfo for CVRMsg_CompositorConnect
+ d typeinfo for CVRMsg_CompositorConnectResponse
+ d typeinfo for CVRMsg_CompositorDumpImages
+ d typeinfo for CVRMsg_CompositorDumpImagesAll
+ d typeinfo for CVRMsg_CompositorGetScreenshotPropertyFilename
+ d typeinfo for CVRMsg_CompositorGetScreenshotPropertyFilenameResponse
+ d typeinfo for CVRMsg_CompositorGetScreenshotPropertyType
+ d typeinfo for CVRMsg_CompositorGetScreenshotPropertyTypeResponse
+ d typeinfo for CVRMsg_CompositorGoToBack
+ d typeinfo for CVRMsg_CompositorHookScreenshot
+ d typeinfo for CVRMsg_CompositorHookScreenshotResponse
+ d typeinfo for CVRMsg_CompositorKeyboardShown
+ d typeinfo for CVRMsg_CompositorKeyboardShownResponse
+ d typeinfo for CVRMsg_CompositorNewSharedBuffer
+ d typeinfo for CVRMsg_CompositorNewSharedBufferResponse
+ d typeinfo for CVRMsg_CompositorNewSharedImage
+ d typeinfo for CVRMsg_CompositorNewSharedImageResponse
+ d typeinfo for CVRMsg_CompositorNewSharedSemaphore
+ d typeinfo for CVRMsg_CompositorNewSharedSemaphoreResponse
+ d typeinfo for CVRMsg_CompositorQuit
+ d typeinfo for CVRMsg_CompositorRefSharedResource
+ d typeinfo for CVRMsg_CompositorRefSharedResourceResponse
+ d typeinfo for CVRMsg_CompositorRequestScreenshot
+ d typeinfo for CVRMsg_CompositorRequestScreenshotResponse
+ d typeinfo for CVRMsg_CompositorSetDashboardVisibilityResponse
+ d typeinfo for CVRMsg_CompositorSubmitScreenshot
+ d typeinfo for CVRMsg_CompositorSubmitScreenshotResponse
+ d typeinfo for CVRMsg_CompositorTakeStereoScreenshot
+ d typeinfo for CVRMsg_CompositorTakeStereoScreenshotResponse
+ d typeinfo for CVRMsg_CompositorUnrefSharedResource
+ d typeinfo for CVRMsg_CompositorUnrefSharedResourceResponse
+ d typeinfo for CVRMsg_CompositorUpdateScreenshotProgress
+ d typeinfo for CVRMsg_CompositorUpdateScreenshotProgressResponse
+ d typeinfo for CVRMsg_ComputeDistortion
+ d typeinfo for CVRMsg_ComputeDistortionBatched
+ d typeinfo for CVRMsg_ComputeDistortionBatchedResponse
+ d typeinfo for CVRMsg_ComputeDistortionBatchedResponse_OutputCoord
+ d typeinfo for CVRMsg_ComputeDistortionBatched_InputCoord
+ d typeinfo for CVRMsg_ComputeDistortionResponse
+ d typeinfo for CVRMsg_Connect
+ d typeinfo for CVRMsg_ConnectResponse
+ d typeinfo for CVRMsg_CreateSwapTextureSet
+ d typeinfo for CVRMsg_CreateSwapTextureSetResponse
+ d typeinfo for CVRMsg_DashboardStarted
+ d typeinfo for CVRMsg_DefaultBinding
+ d typeinfo for CVRMsg_DestroySwapTextureSet
+ d typeinfo for CVRMsg_DriverDebugRequest
+ d typeinfo for CVRMsg_DriverDebugResponse
+ d typeinfo for CVRMsg_GetApplicationInfo
+ d typeinfo for CVRMsg_GetApplicationLaunchArguments
+ d typeinfo for CVRMsg_GetApplicationLaunchArgumentsResponse
+ d typeinfo for CVRMsg_GetDisplayInfo
+ d typeinfo for CVRMsg_GetDisplayInfoResponse
+ d typeinfo for CVRMsg_GetDisplayInfoResponse_DisplayInfo
+ d typeinfo for CVRMsg_GetDriverDetail
+ d typeinfo for CVRMsg_GetDriverDetailResponse
+ d typeinfo for CVRMsg_GetDriverInfo
+ d typeinfo for CVRMsg_GetDriverInfoResponse
+ d typeinfo for CVRMsg_GetDriverInfoResponse_DriverInfo
+ d typeinfo for CVRMsg_Input_GetActionBindings
+ d typeinfo for CVRMsg_Input_GetActionBindingsResponse
+ d typeinfo for CVRMsg_Input_GetOriginLocalizedName
+ d typeinfo for CVRMsg_Input_GetOriginLocalizedNameResponse
+ d typeinfo for CVRMsg_Input_SetActionManifestPath
+ d typeinfo for CVRMsg_Input_SetActionManifestPathResponse
+ d typeinfo for CVRMsg_Input_SetXrInputConfig
+ d typeinfo for CVRMsg_Input_SetXrInputConfigResponse
+ d typeinfo for CVRMsg_LaunchApplication
+ d typeinfo for CVRMsg_LaunchApplicationForMimeType
+ d typeinfo for CVRMsg_LaunchApplicationForMimeTypeResponse
+ d typeinfo for CVRMsg_LaunchApplicationResponse
+ d typeinfo for CVRMsg_LaunchInternalProcess
+ d typeinfo for CVRMsg_LaunchInternalProcessResponse
+ d typeinfo for CVRMsg_LaunchTemplateApplication
+ d typeinfo for CVRMsg_LaunchTemplateApplicationResponse
+ d typeinfo for CVRMsg_LaunchTemplateApplication_AppOverrideKey
+ d typeinfo for CVRMsg_LogMessageToServer
+ d typeinfo for CVRMsg_MimeType
+ d typeinfo for CVRMsg_NoResponse
+ d typeinfo for CVRMsg_OculusSDKStart
+ d typeinfo for CVRMsg_Path_HandleToString
+ d typeinfo for CVRMsg_Path_HandleToStringResponse
+ d typeinfo for CVRMsg_Path_StringToHandle
+ d typeinfo for CVRMsg_Path_StringToHandleResponse
+ d typeinfo for CVRMsg_PerformApplicationPrelaunchCheck
+ d typeinfo for CVRMsg_PerformApplicationPrelaunchCheckResponse
+ d typeinfo for CVRMsg_PowerOffTrackedDevice
+ d typeinfo for CVRMsg_PrismPrioritySet
+ d typeinfo for CVRMsg_QuitProcessRequest
+ d typeinfo for CVRMsg_QuitProcessResponse
+ d typeinfo for CVRMsg_RegisterExternalWebRoot
+ d typeinfo for CVRMsg_ReloadChaperone
+ d typeinfo for CVRMsg_SendWebMessage
+ d typeinfo for CVRMsg_ServiceConnect
+ d typeinfo for CVRMsg_ServiceConnectResponse
+ d typeinfo for CVRMsg_SetApplicationOptions
+ d typeinfo for CVRMsg_SetApplicationOptionsResponse
+ d typeinfo for CVRMsg_SetApplicationProcessId
+ d typeinfo for CVRMsg_SetApplicationProcessIdResponse
+ d typeinfo for CVRMsg_SetDefaultApplicationForMimeType
+ d typeinfo for CVRMsg_SetDefaultApplicationForMimeTypeResponse
+ d typeinfo for CVRMsg_SetMasterProcess
+ d typeinfo for CVRMsg_SetMasterProcessResponse
+ d typeinfo for CVRMsg_SetMasterProcessRestartHint
+ d typeinfo for CVRMsg_SetMasterProcessRestartHintResponse
+ d typeinfo for CVRMsg_Settings_GetBool
+ d typeinfo for CVRMsg_Settings_GetBool_Response
+ d typeinfo for CVRMsg_Settings_GetNumeric
+ d typeinfo for CVRMsg_Settings_GetNumeric_Response
+ d typeinfo for CVRMsg_Settings_GetString
+ d typeinfo for CVRMsg_Settings_GetString_Response
+ d typeinfo for CVRMsg_Settings_GetValueType
+ d typeinfo for CVRMsg_Settings_GetValueType_Response
+ d typeinfo for CVRMsg_Settings_RemoveKeyInSection
+ d typeinfo for CVRMsg_Settings_RemoveSection
+ d typeinfo for CVRMsg_Settings_SetBool
+ d typeinfo for CVRMsg_Settings_SetNumeric
+ d typeinfo for CVRMsg_Settings_SetString
+ d typeinfo for CVRMsg_Settings_SetValue_Response
+ d typeinfo for CVRMsg_ShouldKillTheaterPancakeProcess
+ d typeinfo for CVRMsg_ShouldKillTheaterPancakeProcessResponse
+ d typeinfo for CVRMsg_ShutdownSystem
+ d typeinfo for CVRMsg_ShutdownSystemResponse
+ d typeinfo for CVRMsg_StartAutolaunchOverlays
+ d typeinfo for CVRMsg_StartDashboard
+ d typeinfo for CVRMsg_StartDashboardResponse
+ d typeinfo for CVRMsg_StartHomeAppResponse
+ d typeinfo for CVRMsg_TrackedCamera_AcquireVideoStreamingService
+ d typeinfo for CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
+ d typeinfo for CVRMsg_TrackedCamera_Enable
+ d typeinfo for CVRMsg_TrackedCamera_EnableResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetDistortion
+ d typeinfo for CVRMsg_TrackedCamera_GetDistortionResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetDistortionResponse_OutputCoord
+ d typeinfo for CVRMsg_TrackedCamera_GetDistortion_InputCoord
+ d typeinfo for CVRMsg_TrackedCamera_GetFormatDimensions
+ d typeinfo for CVRMsg_TrackedCamera_GetFormatDimensionsResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetFrameBounds
+ d typeinfo for CVRMsg_TrackedCamera_GetFrameBoundsResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetIntrinsics
+ d typeinfo for CVRMsg_TrackedCamera_GetIntrinsicsResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetProjection
+ d typeinfo for CVRMsg_TrackedCamera_GetProjectionResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetVideoStreamFormat
+ d typeinfo for CVRMsg_TrackedCamera_GetVideoStreamFormatResponse
+ d typeinfo for CVRMsg_TrackedCamera_IsVideoStreamActive
+ d typeinfo for CVRMsg_TrackedCamera_IsVideoStreamActiveResponse
+ d typeinfo for CVRMsg_TrackedCamera_PauseVideoStream
+ d typeinfo for CVRMsg_TrackedCamera_PauseVideoStreamResponse
+ d typeinfo for CVRMsg_TrackedCamera_ReleaseVideoStreamingService
+ d typeinfo for CVRMsg_TrackedCamera_ReleaseVideoStreamingServiceResponse
+ d typeinfo for CVRMsg_TrackedCamera_ResumeVideoStream
+ d typeinfo for CVRMsg_TrackedCamera_ResumeVideoStreamResponse
+ d typeinfo for CVRMsg_TrackedCamera_SetAutoExposure
+ d typeinfo for CVRMsg_TrackedCamera_SetAutoExposureResponse
+ d typeinfo for CVRMsg_TrackedCamera_SetCompatibilityMode
+ d typeinfo for CVRMsg_TrackedCamera_SetCompatibilityModeResponse
+ d typeinfo for CVRMsg_TrackedCamera_SetVideoStreamFormat
+ d typeinfo for CVRMsg_TrackedCamera_SetVideoStreamFormatResponse
+ d typeinfo for CVRMsg_TrackedCamera_StartVideoStream
+ d typeinfo for CVRMsg_TrackedCamera_StartVideoStreamResponse
+ d typeinfo for CVRMsg_TrackedCamera_StopVideoStream
+ d typeinfo for CVRMsg_TrackedCamera_StopVideoStreamResponse
+ d typeinfo for CVRMsg_TriggerHapticPulse
+ d typeinfo for CVRMsg_UpdateChaperoneUniverse
+ d typeinfo for CVRMsg_UpdateChaperoneUniverseResponse
+ d typeinfo for CVRMsg_UpdateZeroPose
+ d typeinfo for CVRMsg_WritePropertyDataToFile
+ d typeinfo for CVRMsg_WritePropertyDataToFileResponse
+ d typeinfo for CVRNotifications_001
+ d typeinfo for CVROverlayLatest
+ d typeinfo for CVROverlayViewLatest
+ d typeinfo for CVROverlayView_001
+ d typeinfo for CVROverlayView_002
+ d typeinfo for CVROverlay_001
+ d typeinfo for CVROverlay_002
+ d typeinfo for CVROverlay_003
+ d typeinfo for CVROverlay_004
+ d typeinfo for CVROverlay_005
+ d typeinfo for CVROverlay_006
+ d typeinfo for CVROverlay_007
+ d typeinfo for CVROverlay_008
+ d typeinfo for CVROverlay_009
+ d typeinfo for CVROverlay_010
+ d typeinfo for CVROverlay_011
+ d typeinfo for CVROverlay_012
+ d typeinfo for CVROverlay_013
+ d typeinfo for CVROverlay_014
+ d typeinfo for CVROverlay_015
+ d typeinfo for CVROverlay_016
+ d typeinfo for CVROverlay_017
+ d typeinfo for CVROverlay_018
+ d typeinfo for CVROverlay_019
+ d typeinfo for CVROverlay_020

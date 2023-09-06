@@ -34,7 +34,7 @@ $L;5|
 %d.%d.%d.%d:%u
 %s %s
 %s %s startup with PID=%u, config=%s, runtime=%s
-%s - 
+%s [%s] - 
 %s%c%s
 %s%s%s%s%s
 %s/.steam/steam
@@ -143,7 +143,6 @@ $L;5|
 /u%d-Shm_%x
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789ABCDEF
-07:47:20
 0A\A]A^A_]
 0A\A]]
 0[A\A]A^]
@@ -154,6 +153,7 @@ $L;5|
 14CQOverlayImage
 15CQOverlayViewer
 15CVulkanRenderer
+19:30:16
 1OnBackgroundColor()
 1OnExitAction()
 1OnLinearClicked()
@@ -319,6 +319,7 @@ Dashboard Thumbnail
 DebuggerEnabled
 DeclareCurrentThreadIsMainThread
 Destroying a held mutex
+Detail
 Dev Tools
 Duplicate key: '
 E(A9D$(
@@ -346,6 +347,7 @@ EVRSceneApplicationState_Running
 EVRSceneApplicationState_Starting
 EVRSceneApplicationState_Waiting
 Empty escape sequence in string
+Error
 Error %d getting shared memory size
 Error %d growing shared object manager file.
 Error %d locking shared memory file
@@ -392,6 +394,7 @@ Failed to spawn share thread for shared fd: %d
 Failed to wait for shared fd client
 Failed when reading payload of length %u: errno=%d
 False
+Fatal
 Fatal : VkResult is "
 File %s not found
 File path truncated
@@ -426,27 +429,32 @@ GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
 GpH+G`H
 H+G(H
 H+GxH
+H95Y~
 H9F tlL
 H9p H
 H9w w
 H;5<z
 H;= i
 H;=">
+H;=#n
+H;=&i
 H;=-X
+H;=/o
 H;=/y
 H;=3h	
 H;=9p
+H;=<i
+H;=@M
 H;=J=	
 H;=Jk
 H;=Kg
 H;=R1
-H;=]p
 H;=`x
 H;=aZ
 H;=dy
 H;=fS
-H;=jM
 H;=nX	
+H;=no
 H;J @
 H;p H
 H;sHt?H
@@ -526,7 +534,7 @@ Invalid socket name parameters for shared fd
 IsValid()
 J(H9H(u
 JPuSUH
-Jul 13 2023
+Jul 27 2023
 L$ H9
 L$0I+L$8I
 L+'H)
@@ -537,10 +545,9 @@ L9p skH
 L9v vFL
 L9{XL
 L;%CD
+L;%eC
 L;-</
 L;5b&
-L;5bE
-L;=Mo
 L;G t,L
 L;p s&H
 LD_LIBRARY_PATH
@@ -1535,6 +1542,7 @@ Vulkan initialization failed - vulkan library not found
 V~g.yIk
 W0H+W8L
 Waiting for shared fd client failed
+Warning
 Warning: Watchdog %s not properly cleaned up%s%s
 Watchdog namespace: %u
 Width In Meters
@@ -4369,7 +4377,7 @@ t;<.u
 t=H;_
 tCH;_
 tEXtSoftware
-t[H;=
+t[H;=<
 t_L9m
 t`H;^
 tb;0H
