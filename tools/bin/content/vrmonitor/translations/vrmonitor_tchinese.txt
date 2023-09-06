@@ -1445,30 +1445,4 @@
 0x0020
 0x0040
 0x0080
-0x0100
-0x0400
-0x0800
-0x1000
-0x2000
-0x4000
-400x300
-90fps
-</b>"
-</b></font>"
-</b></html>"
-SteamVR 
-\n %1 
-\n %1"
-\n %2 
-\n %3 
-\n %4 
-\n %5 
-\n%2\n
-\n%3\n"
-\n\n"
-\n\n%1\n\n
-\n\n- SteamVR 
-\n\n2. 
-\n\n3. 
-\n\nSteamVR 
-t quite hooked up yet. If the error you are trying to diagnose persists, please visit the <a style ='color: rgb(%r, %g, %b);' href='http://steamcommunity.com/app/358720/discussions/'>SteamVR Developer Forums</a> for help."
+0x010

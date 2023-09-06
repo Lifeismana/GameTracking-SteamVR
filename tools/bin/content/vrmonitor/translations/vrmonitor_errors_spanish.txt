@@ -946,31 +946,3 @@ nea de visi
 ntalo de nuevo desde el directorio actual"
 ntalo de nuevo."
 ptica"
-ptica."
-ptimo, las estaciones base no deben estar a m
-rate de estar utilizando un HMD v
-rate de que Steam est
-rate de que est
-rate de que los cables HDMI est
-rate de que pueda ver una estaci
-rate de que sea visible desde las estaciones base."
-rate de que sea visible desde tu HMD o controlador."
-rate de que sea visible desde una estaci
-rate de que solo dos estaciones base sean visibles para el HMD y los controladores."
-rate de que tu HMD est
-rate de tener instalada la 
-rea de juego debe estar configurada antes de continuar."
-rea de juego no configurada"
-rea de juego"
-s de 5,5 metros la una de la otra."
-s de Steam."
-s de las sesiones, deber
-s esto para que SteamVR funcione correctamente."
-s haz clic abajo para reiniciar el HMD."
-s haz clic abajo para reiniciarlo."
-s informaci
-s ponerte en contacto con HTC."
-s que esto se muestre en pantalla completa para que SteamVR funcione correctamente."
-s reciente de SteamVR a trav
-velo para reactivarlo."
-zalo para asegurarte de que tu dispositivo funcione correctamente."

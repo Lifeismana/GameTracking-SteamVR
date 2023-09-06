@@ -2002,6 +2002,7 @@ vrpathregistry.cpp
 vrserver internal error (124)
 vsnprintf
 vsnprintf@@GLIBC_2.2.5
+vtable for J
 vtable for Json::BuiltStyledStreamWriter
 vtable for Json::CharReader
 vtable for Json::CharReader::Factory
@@ -2013,16 +2014,3 @@ vtable for Json::OurCharReader
 vtable for Json::RuntimeError
 vtable for Json::StreamWriter
 vtable for Json::StreamWriter::Factory
-vtable for Json::StreamWriterBuilder
-vtable for Json::StyledWriter
-vtable for Json::Writer
-vtable for SteamThreadTools::CThread
-vtable for __cxxabiv1::__class_type_info
-vtable for __cxxabiv1::__si_class_type_info
-vtable for std::basic_ios<char, std::char_traits<char> >
-vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_streambuf<char, std::char_traits<char> >
-vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
-waitpid
-waitpid@@GLIBC_2.2.5

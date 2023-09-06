@@ -1771,3 +1771,687 @@
  b vkDestroyFramebuffer
  b vkDestroyImage
  b vkDestroyImageView
+ b vkDestroyIndirectCommandsLayoutNV
+ b vkDestroyInstance
+ b vkDestroyPipeline
+ b vkDestroyPipelineCache
+ b vkDestroyPipelineLayout
+ b vkDestroyPrivateDataSlotEXT
+ b vkDestroyQueryPool
+ b vkDestroyRenderPass
+ b vkDestroySampler
+ b vkDestroySamplerYcbcrConversion
+ b vkDestroySamplerYcbcrConversionKHR
+ b vkDestroySemaphore
+ b vkDestroyShaderModule
+ b vkDestroySurfaceKHR
+ b vkDestroySwapchainKHR
+ b vkDestroyValidationCacheEXT
+ b vkDeviceWaitIdle
+ b vkDisplayPowerControlEXT
+ b vkEndCommandBuffer
+ b vkEnumerateDeviceExtensionProperties
+ b vkEnumerateDeviceLayerProperties
+ b vkEnumerateInstanceExtensionProperties
+ b vkEnumerateInstanceLayerProperties
+ b vkEnumerateInstanceVersion
+ b vkEnumeratePhysicalDeviceGroups
+ b vkEnumeratePhysicalDeviceGroupsKHR
+ b vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR
+ b vkEnumeratePhysicalDevices
+ b vkFlushMappedMemoryRanges
+ b vkFreeCommandBuffers
+ b vkFreeDescriptorSets
+ b vkFreeMemory
+ b vkGetAccelerationStructureBuildSizesKHR
+ b vkGetAccelerationStructureDeviceAddressKHR
+ b vkGetAccelerationStructureHandleNV
+ b vkGetAccelerationStructureMemoryRequirementsNV
+ b vkGetBufferDeviceAddress
+ b vkGetBufferDeviceAddressEXT
+ b vkGetBufferDeviceAddressKHR
+ b vkGetBufferMemoryRequirements
+ b vkGetBufferMemoryRequirements2
+ b vkGetBufferMemoryRequirements2KHR
+ b vkGetBufferOpaqueCaptureAddress
+ b vkGetBufferOpaqueCaptureAddressKHR
+ b vkGetCalibratedTimestampsEXT
+ b vkGetDeferredOperationMaxConcurrencyKHR
+ b vkGetDeferredOperationResultKHR
+ b vkGetDescriptorSetLayoutSupport
+ b vkGetDescriptorSetLayoutSupportKHR
+ b vkGetDeviceAccelerationStructureCompatibilityKHR
+ b vkGetDeviceGroupPeerMemoryFeatures
+ b vkGetDeviceGroupPeerMemoryFeaturesKHR
+ b vkGetDeviceGroupPresentCapabilitiesKHR
+ b vkGetDeviceGroupSurfacePresentModesKHR
+ b vkGetDeviceMemoryCommitment
+ b vkGetDeviceMemoryOpaqueCaptureAddress
+ b vkGetDeviceMemoryOpaqueCaptureAddressKHR
+ b vkGetDeviceProcAddr
+ b vkGetDeviceQueue
+ b vkGetDeviceQueue2
+ b vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI
+ b vkGetDisplayModeProperties2KHR
+ b vkGetDisplayModePropertiesKHR
+ b vkGetDisplayPlaneCapabilities2KHR
+ b vkGetDisplayPlaneCapabilitiesKHR
+ b vkGetDisplayPlaneSupportedDisplaysKHR
+ b vkGetDrmDisplayEXT
+ b vkGetEventStatus
+ b vkGetFenceFdKHR
+ b vkGetFenceStatus
+ b vkGetGeneratedCommandsMemoryRequirementsNV
+ b vkGetImageDrmFormatModifierPropertiesEXT
+ b vkGetImageMemoryRequirements
+ b vkGetImageMemoryRequirements2
+ b vkGetImageMemoryRequirements2KHR
+ b vkGetImageSparseMemoryRequirements
+ b vkGetImageSparseMemoryRequirements2
+ b vkGetImageSparseMemoryRequirements2KHR
+ b vkGetImageSubresourceLayout
+ b vkGetImageViewAddressNVX
+ b vkGetImageViewHandleNVX
+ b vkGetInstanceProcAddr
+ b vkGetMemoryFdKHR
+ b vkGetMemoryFdPropertiesKHR
+ b vkGetMemoryHostPointerPropertiesEXT
+ b vkGetMemoryRemoteAddressNV
+ b vkGetPastPresentationTimingGOOGLE
+ b vkGetPerformanceParameterINTEL
+ b vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
+ b vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
+ b vkGetPhysicalDeviceDisplayPlaneProperties2KHR
+ b vkGetPhysicalDeviceDisplayPlanePropertiesKHR
+ b vkGetPhysicalDeviceDisplayProperties2KHR
+ b vkGetPhysicalDeviceDisplayPropertiesKHR
+ b vkGetPhysicalDeviceExternalBufferProperties
+ b vkGetPhysicalDeviceExternalBufferPropertiesKHR
+ b vkGetPhysicalDeviceExternalFenceProperties
+ b vkGetPhysicalDeviceExternalFencePropertiesKHR
+ b vkGetPhysicalDeviceExternalImageFormatPropertiesNV
+ b vkGetPhysicalDeviceExternalSemaphoreProperties
+ b vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
+ b vkGetPhysicalDeviceFeatures
+ b vkGetPhysicalDeviceFeatures2
+ b vkGetPhysicalDeviceFeatures2KHR
+ b vkGetPhysicalDeviceFormatProperties
+ b vkGetPhysicalDeviceFormatProperties2
+ b vkGetPhysicalDeviceFormatProperties2KHR
+ b vkGetPhysicalDeviceFragmentShadingRatesKHR
+ b vkGetPhysicalDeviceImageFormatProperties
+ b vkGetPhysicalDeviceImageFormatProperties2
+ b vkGetPhysicalDeviceImageFormatProperties2KHR
+ b vkGetPhysicalDeviceMemoryProperties
+ b vkGetPhysicalDeviceMemoryProperties2
+ b vkGetPhysicalDeviceMemoryProperties2KHR
+ b vkGetPhysicalDeviceMultisamplePropertiesEXT
+ b vkGetPhysicalDevicePresentRectanglesKHR
+ b vkGetPhysicalDeviceProperties
+ b vkGetPhysicalDeviceProperties2
+ b vkGetPhysicalDeviceProperties2KHR
+ b vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR
+ b vkGetPhysicalDeviceQueueFamilyProperties
+ b vkGetPhysicalDeviceQueueFamilyProperties2
+ b vkGetPhysicalDeviceQueueFamilyProperties2KHR
+ b vkGetPhysicalDeviceSparseImageFormatProperties
+ b vkGetPhysicalDeviceSparseImageFormatProperties2
+ b vkGetPhysicalDeviceSparseImageFormatProperties2KHR
+ b vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV
+ b vkGetPhysicalDeviceSurfaceCapabilities2EXT
+ b vkGetPhysicalDeviceSurfaceCapabilities2KHR
+ b vkGetPhysicalDeviceSurfaceCapabilitiesKHR
+ b vkGetPhysicalDeviceSurfaceFormats2KHR
+ b vkGetPhysicalDeviceSurfaceFormatsKHR
+ b vkGetPhysicalDeviceSurfacePresentModesKHR
+ b vkGetPhysicalDeviceSurfaceSupportKHR
+ b vkGetPhysicalDeviceToolPropertiesEXT
+ b vkGetPhysicalDeviceXcbPresentationSupportKHR
+ b vkGetPipelineCacheData
+ b vkGetPipelineExecutableInternalRepresentationsKHR
+ b vkGetPipelineExecutablePropertiesKHR
+ b vkGetPipelineExecutableStatisticsKHR
+ b vkGetPrivateDataEXT
+ b vkGetQueryPoolResults
+ b vkGetQueueCheckpointData2NV
+ b vkGetQueueCheckpointDataNV
+ b vkGetRandROutputDisplayEXT
+ b vkGetRayTracingCaptureReplayShaderGroupHandlesKHR
+ b vkGetRayTracingShaderGroupHandlesKHR
+ b vkGetRayTracingShaderGroupHandlesNV
+ b vkGetRayTracingShaderGroupStackSizeKHR
+ b vkGetRefreshCycleDurationGOOGLE
+ b vkGetRenderAreaGranularity
+ b vkGetSemaphoreCounterValue
+ b vkGetSemaphoreCounterValueKHR
+ b vkGetSemaphoreFdKHR
+ b vkGetShaderInfoAMD
+ b vkGetSwapchainCounterEXT
+ b vkGetSwapchainImagesKHR
+ b vkGetSwapchainStatusKHR
+ b vkGetValidationCacheDataEXT
+ b vkGetWinrtDisplayNV
+ b vkImportFenceFdKHR
+ b vkImportSemaphoreFdKHR
+ b vkInitializePerformanceApiINTEL
+ b vkInvalidateMappedMemoryRanges
+ b vkMapMemory
+ b vkMergePipelineCaches
+ b vkMergeValidationCachesEXT
+ b vkQueueBeginDebugUtilsLabelEXT
+ b vkQueueBindSparse
+ b vkQueueEndDebugUtilsLabelEXT
+ b vkQueueInsertDebugUtilsLabelEXT
+ b vkQueuePresentKHR
+ b vkQueueSetPerformanceConfigurationINTEL
+ b vkQueueSubmit
+ b vkQueueSubmit2KHR
+ b vkQueueWaitIdle
+ b vkRegisterDeviceEventEXT
+ b vkRegisterDisplayEventEXT
+ b vkReleaseDisplayEXT
+ b vkReleasePerformanceConfigurationINTEL
+ b vkReleaseProfilingLockKHR
+ b vkResetCommandBuffer
+ b vkResetCommandPool
+ b vkResetDescriptorPool
+ b vkResetEvent
+ b vkResetFences
+ b vkResetQueryPool
+ b vkResetQueryPoolEXT
+ b vkSetDebugUtilsObjectNameEXT
+ b vkSetDebugUtilsObjectTagEXT
+ b vkSetEvent
+ b vkSetHdrMetadataEXT
+ b vkSetLocalDimmingAMD
+ b vkSetPrivateDataEXT
+ b vkSignalSemaphore
+ b vkSignalSemaphoreKHR
+ b vkSubmitDebugUtilsMessageEXT
+ b vkTrimCommandPool
+ b vkTrimCommandPoolKHR
+ b vkUninitializePerformanceApiINTEL
+ b vkUnmapMemory
+ b vkUpdateDescriptorSetWithTemplate
+ b vkUpdateDescriptorSetWithTemplateKHR
+ b vkUpdateDescriptorSets
+ b vkWaitForFences
+ b vkWaitForPresentKHR
+ b vkWaitSemaphores
+ b vkWaitSemaphoresKHR
+ b vkWriteAccelerationStructuresPropertiesKHR
+ b vkh::BIsInstanceExtensionSupported(std::string)::vecProperties
+ b vkh::sg_vecOptionalDeviceExtensions
+ b vkh::sg_vecOptionalInstanceExtensions
+ b vkh::sg_vecRequiredDeviceExtensions
+ b vkh::sg_vecRequiredInstanceExtensions
+ b vrIOBuffer001
+ b vrMailbox001
+ b vrOverlayView001
+ b vrOverlayView001_FnTable
+ b vrScreenshots001
+ b vrSteamPrivate001
+ b vrSteamPrivate002
+ b vrWatchdogHost001
+ b vrapplications001
+ b vrapplications002
+ b vrapplications003
+ b vrapplications004
+ b vrapplications004_FnTable
+ b vrapplications005
+ b vrapplications005_FnTable
+ b vrapplications006
+ b vrapplications006_FnTable
+ b vrblockqueue001
+ b vrblockqueue002
+ b vrblockqueue003
+ b vrblockqueue004
+ b vrchaperone003
+ b vrchaperone003_FnTable
+ b vrchaperonesetup001
+ b vrchaperonesetup002
+ b vrchaperonesetup003
+ b vrchaperonesetup004
+ b vrchaperonesetup005
+ b vrchaperonesetup005_FnTable
+ b vrcompositor006
+ b vrcompositor007
+ b vrcompositor008
+ b vrcompositor009
+ b vrcompositor010
+ b vrcompositor011
+ b vrcompositor012
+ b vrcompositor013
+ b vrcompositor013_FnTable
+ b vrcompositor014
+ b vrcompositor014_FnTable
+ b vrcompositor015
+ b vrcompositor015_FnTable
+ b vrcompositor016
+ b vrcompositor016_FnTable
+ b vrcompositor017
+ b vrcompositor017_FnTable
+ b vrcompositor018
+ b vrcompositor018_FnTable
+ b vrcompositor019
+ b vrcompositor019_FnTable
+ b vrcompositor020
+ b vrcompositor020_FnTable
+ b vrcompositor021
+ b vrcompositor021_FnTable
+ b vrcompositor022
+ b vrcompositor022_FnTable
+ b vrcompositor023
+ b vrcompositor023_FnTable
+ b vrcompositor024
+ b vrcompositor024_FnTable
+ b vrcompositor025
+ b vrcompositor025_FnTable
+ b vrcompositor026
+ b vrcompositor026_FnTable
+ b vrcontrolpanel001
+ b vrcontrolpanel002
+ b vrcontrolpanel003
+ b vrcontrolpanel004
+ b vrcontrolpanel005
+ b vrdashboardmanager001
+ b vrinput001
+ b vrinput001_FnTable
+ b vrinput002
+ b vrinput002_FnTable
+ b vrinput003
+ b vrinput003_FnTable
+ b vrinput004
+ b vrinput004_FnTable
+ b vrinput005
+ b vrinput005_FnTable
+ b vrinput006
+ b vrinput006_FnTable
+ b vrinput007
+ b vrinput007_FnTable
+ b vrinput008
+ b vrinput008_FnTable
+ b vrinput009
+ b vrinput009_FnTable
+ b vriobuffer002
+ b vriobuffer002_FnTable
+ b vrnotifications001
+ b vroverlay001
+ b vroverlay002
+ b vroverlay003
+ b vroverlay004
+ b vroverlay005
+ b vroverlay006
+ b vroverlay007
+ b vroverlay008
+ b vroverlay009
+ b vroverlay010
+ b vroverlay010_FnTable
+ b vroverlay011
+ b vroverlay011_FnTable
+ b vroverlay012
+ b vroverlay012_FnTable
+ b vroverlay013
+ b vroverlay013_FnTable
+ b vroverlay014
+ b vroverlay014_FnTable
+ b vroverlay015
+ b vroverlay015_FnTable
+ b vroverlay016
+ b vroverlay016_FnTable
+ b vroverlay017
+ b vroverlay017_FnTable
+ b vroverlay018
+ b vroverlay018_FnTable
+ b vroverlay019
+ b vroverlay019_FnTable
+ b vroverlay020
+ b vroverlay020_FnTable
+ b vroverlay021
+ b vroverlay021_FnTable
+ b vroverlay022
+ b vroverlay022_FnTable
+ b vroverlay023
+ b vroverlay023_FnTable
+ b vroverlay024
+ b vroverlay024_FnTable
+ b vroverlay025
+ b vroverlay025_FnTable
+ b vroverlayview002
+ b vroverlayview002_FnTable
+ b vrrendermodels001
+ b vrrendermodels002
+ b vrrendermodels003
+ b vrrendermodels004
+ b vrrendermodels004_FnTable
+ b vrrendermodels005
+ b vrrendermodels005_FnTable
+ b vrsettings001
+ b vrsettings001_FnTable
+ b vrsettings002
+ b vrsettings002_FnTable
+ b vrsystem001
+ b vrsystem002
+ b vrsystem003
+ b vrsystem004
+ b vrsystem005
+ b vrsystem006
+ b vrsystem007
+ b vrsystem008
+ b vrsystem009
+ b vrsystem010
+ b vrsystem011
+ b vrsystem011_FnTable
+ b vrsystem012
+ b vrsystem012_FnTable
+ b vrsystem013
+ b vrsystem013_FnTable
+ b vrsystem014
+ b vrsystem014_FnTable
+ b vrsystem015
+ b vrsystem015_FnTable
+ b vrsystem016
+ b vrsystem016_FnTable
+ b vrsystem017
+ b vrsystem017_FnTable
+ b vrsystem018
+ b vrsystem018_FnTable
+ b vrsystem019
+ b vrsystem019_FnTable
+ b vrsystem020
+ b vrsystem020_FnTable
+ b vrsystem021
+ b vrsystem021_FnTable
+ b vrtrackedcamera002
+ b vrtrackedcamera002_FnTable
+ b vrtrackedcamera003
+ b vrtrackedcamera003_FnTable
+ b vrtrackedcamera004
+ b vrtrackedcamera004_FnTable
+ b vrtrackedcamera005
+ b vrtrackedcamera005_FnTable
+ backtrace
+ backtrace_symbols
+ bind
+ bind_textdomain_codeset
+ bindtextdomain
+ btowc
+ calloc
+ chdir
+ chmod
+ clock_gettime
+ clock_nanosleep
+ close
+ closedir
+ connect
+ cosf
+ d (anonymous namespace)::generic_category_instance
+ d (anonymous namespace)::system_category_instance
+ d BIsHapticLoggingEnabled()::s_bNeedsRecheck
+ d BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeys
+ d CActionBindingConfigGenerator::DetermineSourceNodeForModeAndInputType(Mode_t const&, ModeSlot_t const&, std::vector<std::string, std::allocator<std::string> >*)::s_vecXyx
+ d CPathManager_Server::AddExternalPathAliasRoot(std::string const&, unsigned long, vr::IVRExternalProperties*, unsigned long&)::s_containerIdGenerator
+ d CServerTrackedDeviceProvider_002::GetInterfaceVersions()::k_InterfaceVersions
+ d CSkeletonList::m_List
+ d CVRChaperoneClient::GetBoundsColor(vr::HmdColor_t*, int, float, vr::HmdColor_t*)::s_bFirstTime
+ d CVRCompositorClient::CheckError(CVRCompositorSharedTextures::Error, vr::EVRCompositorError*) const::s_bFirstTime
+ d CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long)::s_bFirstOffense
+ d DW.ref._ZTIN10__cxxabiv115__forced_unwindE
+ d DW.ref._ZTIPN4Json9ExceptionE
+ d DW.ref._ZTISt9exception
+ d DW.ref.__gxx_personality_v0
+ d GenSessionId()::sNextSessionId
+ d GetBitForBitnum(int)::bitsForBitnum
+ d GetNamespacingUid()::s_cachedNamespaceUid
+ d GetNewSharedResourceHandle()::s_nIncrementingIndex
+ d GetNextEventId()::ulMessageCounter
+ d GetTraceMarkerFd()::s_nTraceFileFD
+ d GetTrackedDeviceProperties()::eKeys
+ d IPC::LinuxSharedFd::Init(int)::sIncrementingIndex
+ d IVRCameraComponent001_Version
+ d IVRCameraComponent002_Version
+ d IVRDisplayComponent001_Version
+ d IVRVirtualDisplay001_Version
+ d Json::Value::null
+ d Json::Value::nullRef
+ d Json::kNullRef
+ d SkeletalCompression::CompressHandSkeleton(CSmartPtr<CAnimPose, CRefCountAccessor> const&, void*, unsigned int)::bytesMin
+ d VTT for CSharedBufferLinux
+ d VTT for CSharedCountingSemaphoreLinux
+ d VTT for CSharedImageLinux
+ d VTT for CSharedResourceBaseLinux
+ d VTT for CSharedSemaphoreLinux
+ d VTT for InMemoryInputStream
+ d VTT for std::basic_fstream<char, std::char_traits<char> >
+ d VTT for std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
+ d VTT for std::basic_ifstream<char, std::char_traits<char> >
+ d VTT for std::basic_ifstream<wchar_t, std::char_traits<wchar_t> >
+ d VTT for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
+ d VTT for std::basic_istream<wchar_t, std::char_traits<wchar_t> >
+ d VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+ d VTT for std::basic_istringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+ d VTT for std::basic_ofstream<char, std::char_traits<char> >
+ d VTT for std::basic_ofstream<wchar_t, std::char_traits<wchar_t> >
+ d VTT for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >
+ d VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+ d VTT for std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+ d VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+ d VTT for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+ d VTT for std::iostream
+ d VTT for std::istream
+ d VTT for std::ostream
+ d VulkanVRRenderer::computeShaderDefs
+ d VulkanVRRenderer::iedCameraDecodeQuad
+ d VulkanVRRenderer::iedCameraProxyGeom
+ d VulkanVRRenderer::iedDistort
+ d VulkanVRRenderer::iedGeom
+ d VulkanVRRenderer::iedGeomFloor
+ d VulkanVRRenderer::iedGeomWithNormals
+ d VulkanVRRenderer::iedGeomWithTangents
+ d VulkanVRRenderer::iedLatLong
+ d VulkanVRRenderer::iedNoDistort
+ d VulkanVRRenderer::iedNoDistortLayered
+ d VulkanVRRenderer::iedPositionColor
+ d VulkanVRRenderer::iedQuad
+ d VulkanVRRenderer::pixelShaderDefs
+ d VulkanVRRenderer::vertexShaderDefs
+ d _DYNAMIC
+ d _GLOBAL_OFFSET_TABLE_
+ d __TMC_END__
+ d __TMC_LIST__
+ d __cxxabiv1::__terminate_handler
+ d __cxxabiv1::__unexpected_handler
+ d __do_global_dtors_aux_fini_array_entry
+ d __dso_handle
+ d __frame_dummy_init_array_entry
+ d __gnu_cxx::category_names
+ d adds.10132
+ d construction vtable for CSharedResourceBaseLinux-in-CSharedBufferLinux
+ d construction vtable for CSharedResourceBaseLinux-in-CSharedCountingSemaphoreLinux
+ d construction vtable for CSharedResourceBaseLinux-in-CSharedImageLinux
+ d construction vtable for CSharedResourceBaseLinux-in-CSharedSemaphoreLinux
+ d construction vtable for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
+ d construction vtable for std::basic_iostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+ d construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
+ d construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_ifstream<wchar_t, std::char_traits<wchar_t> >
+ d construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
+ d construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_istringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+ d construction vtable for std::basic_istream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+ d construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_fstream<wchar_t, std::char_traits<wchar_t> >
+ d construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_iostream<wchar_t, std::char_traits<wchar_t> >
+ d construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_ofstream<wchar_t, std::char_traits<wchar_t> >
+ d construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+ d construction vtable for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >-in-std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
+ d construction vtable for std::iostream-in-std::basic_fstream<char, std::char_traits<char> >
+ d construction vtable for std::iostream-in-std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+ d construction vtable for std::istream-in-InMemoryInputStream
+ d construction vtable for std::istream-in-std::basic_fstream<char, std::char_traits<char> >
+ d construction vtable for std::istream-in-std::basic_ifstream<char, std::char_traits<char> >
+ d construction vtable for std::istream-in-std::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+ d construction vtable for std::istream-in-std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+ d construction vtable for std::istream-in-std::iostream
+ d construction vtable for std::ostream-in-std::basic_fstream<char, std::char_traits<char> >
+ d construction vtable for std::ostream-in-std::basic_ofstream<char, std::char_traits<char> >
+ d construction vtable for std::ostream-in-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+ d construction vtable for std::ostream-in-std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+ d construction vtable for std::ostream-in-std::iostream
+ d construction vtable for vr::IVRSharedBuffer-in-CSharedBufferLinux
+ d construction vtable for vr::IVRSharedCountingSemaphore-in-CSharedCountingSemaphoreLinux
+ d construction vtable for vr::IVRSharedImage-in-CSharedImageLinux
+ d construction vtable for vr::IVRSharedSemaphore-in-CSharedSemaphoreLinux
+ d cplus_demangle_builtin_types
+ d cplus_demangle_operators
+ d g_IVRApplications_004_FnTable
+ d g_IVRApplications_005_FnTable
+ d g_IVRApplications_006_FnTable
+ d g_IVRChaperoneSetup_005_FnTable
+ d g_IVRChaperone_003_FnTable
+ d g_IVRCompositor_013_FnTable
+ d g_IVRCompositor_014_FnTable
+ d g_IVRCompositor_015_FnTable
+ d g_IVRCompositor_016_FnTable
+ d g_IVRCompositor_017_FnTable
+ d g_IVRCompositor_018_FnTable
+ d g_IVRCompositor_019_FnTable
+ d g_IVRCompositor_020_FnTable
+ d g_IVRCompositor_021_FnTable
+ d g_IVRCompositor_022_FnTable
+ d g_IVRCompositor_023_FnTable
+ d g_IVRCompositor_024_FnTable
+ d g_IVRCompositor_025_FnTable
+ d g_IVRCompositor_026_FnTable
+ d g_IVRIOBuffer_002_FnTable
+ d g_IVRInput_001_FnTable
+ d g_IVRInput_002_FnTable
+ d g_IVRInput_003_FnTable
+ d g_IVRInput_004_FnTable
+ d g_IVRInput_005_FnTable
+ d g_IVRInput_006_FnTable
+ d g_IVRInput_007_FnTable
+ d g_IVRInput_008_FnTable
+ d g_IVRInput_009_FnTable
+ d g_IVROverlayView_001_FnTable
+ d g_IVROverlayView_002_FnTable
+ d g_IVROverlay_010_FnTable
+ d g_IVROverlay_011_FnTable
+ d g_IVROverlay_012_FnTable
+ d g_IVROverlay_013_FnTable
+ d g_IVROverlay_014_FnTable
+ d g_IVROverlay_015_FnTable
+ d g_IVROverlay_016_FnTable
+ d g_IVROverlay_017_FnTable
+ d g_IVROverlay_018_FnTable
+ d g_IVROverlay_019_FnTable
+ d g_IVROverlay_020_FnTable
+ d g_IVROverlay_021_FnTable
+ d g_IVROverlay_022_FnTable
+ d g_IVROverlay_023_FnTable
+ d g_IVROverlay_024_FnTable
+ d g_IVROverlay_025_FnTable
+ d g_IVRRenderModels_004_FnTable
+ d g_IVRRenderModels_005_FnTable
+ d g_IVRSettings_001_FnTable
+ d g_IVRSettings_002_FnTable
+ d g_IVRSystem_011_FnTable
+ d g_IVRSystem_012_FnTable
+ d g_IVRSystem_013_FnTable
+ d g_IVRSystem_014_FnTable
+ d g_IVRSystem_015_FnTable
+ d g_IVRSystem_016_FnTable
+ d g_IVRSystem_017_FnTable
+ d g_IVRSystem_018_FnTable
+ d g_IVRSystem_019_FnTable
+ d g_IVRSystem_020_FnTable
+ d g_IVRSystem_021_FnTable
+ d g_IVRTrackedCamera_002_FnTable
+ d g_IVRTrackedCamera_003_FnTable
+ d g_IVRTrackedCamera_004_FnTable
+ d g_IVRTrackedCamera_005_FnTable
+ d g_LoggingMutex
+ d g_SectionNameToIdTable
+ d g_VR_IVRApplications_FnTable
+ d g_VR_IVRBlockQueue_FnTable
+ d g_VR_IVRChaperoneSetup_FnTable
+ d g_VR_IVRChaperone_FnTable
+ d g_VR_IVRCompositor_FnTable
+ d g_VR_IVRDebug_FnTable
+ d g_VR_IVRDriverManager_FnTable
+ d g_VR_IVRExtendedDisplay_FnTable
+ d g_VR_IVRHeadsetView_FnTable
+ d g_VR_IVRIOBuffer_FnTable
+ d g_VR_IVRInput_FnTable
+ d g_VR_IVRNotifications_FnTable
+ d g_VR_IVROverlayView_FnTable
+ d g_VR_IVROverlay_FnTable
+ d g_VR_IVRPaths_FnTable
+ d g_VR_IVRProperties_FnTable
+ d g_VR_IVRRenderModels_FnTable
+ d g_VR_IVRResources_FnTable
+ d g_VR_IVRScreenshots_FnTable
+ d g_VR_IVRSettings_FnTable
+ d g_VR_IVRSpatialAnchors_FnTable
+ d g_VR_IVRSystem_FnTable
+ d g_VR_IVRTrackedCamera_FnTable
+ d g_nSIMDBitMaskToIndex
+ d g_rPairs
+ d g_szSemFileName
+ d g_unNextBlockQueueId
+ d k_pchCameraComponentPrefix
+ d k_pchControllerComponentPrefix
+ d k_pchDisplayComponentPrefix
+ d k_pchDriverDirectModeComponentPrefix
+ d k_pchVirtualDisplayComponentPrefix
+ d k_rDevicePaths
+ d s_bCurrentMiniDumpIsFatal
+ d s_mat34Identity
+ d standard_subs
+ d stbi__h2l_gamma_i
+ d stbi__h2l_scale_i
+ d stbi__l2h_gamma
+ d stbi__l2h_scale
+ d stbi__parse_png_file(stbi__png*, int, int)::invalid_chunk
+ d stbi__stdio_callbacks
+ d stbi_write_force_png_filter
+ d stbi_write_png_compression_level
+ d stbi_write_tga_with_rle
+ d stbiw__encode_png_line(unsigned char*, int, int, int, int, int, int, signed char*)::firstmap
+ d stbiw__encode_png_line(unsigned char*, int, int, int, int, int, int, signed char*)::mapping
+ d std::__num_base::_S_atoms_in
+ d std::__num_base::_S_atoms_out
+ d std::__timepunct_cache<char>::_S_timezones
+ d std::__timepunct_cache<wchar_t>::_S_timezones
+ d std::ios_base::Init::_S_synced_with_stdio
+ d std::locale::_Impl::_S_facet_categories
+ d std::locale::_Impl::_S_id_collate
+ d std::locale::_Impl::_S_id_ctype
+ d std::locale::_Impl::_S_id_messages
+ d std::locale::_Impl::_S_id_monetary
+ d std::locale::_Impl::_S_id_numeric
+ d std::locale::_Impl::_S_id_time
+ d std::locale::_S_categories
+ d std::money_base::_S_atoms
+ d typ
+ d typeinfo for (anonymous namespace)::generic_error_category
+ d typeinfo for (anonymous namespace)::system_error_category
+ d typeinfo for ApplicationsInterfaceRegistration<CVRApplications_001>
+ d typeinfo for ApplicationsInterfaceRegistration<CVRApplications_002>
+ d typeinfo for ApplicationsInterfaceRegistration<CVRApplications_003>
+ d typeinfo for ApplicationsInterfaceRegistration<CVRApplications_004>
+ d typeinfo for ApplicationsInterfaceRegistration<CVRApplications_005>
+ d typeinfo for ApplicationsInterfaceRegistration<CVRApplications_006>
+ d typeinfo for BlockQueueInterfaceRegistration<CVRBlockQueue_001>
+ d typeinfo for BlockQueueInterfaceRegistration<CVRBlockQueue_002>
+ d typeinfo for BlockQueueInterfaceRegistration<CVRBlockQueue_003>
+ d typeinfo for BlockQueueInterfaceRegistration<CVRBlockQueue_004>
+ d typeinfo for CAnimFactoryBase::CFactoryMaker
+ d typeinfo for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>
+ d typeinfo for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>
+ d typeinfo for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>
+ d typeinfo for CAnimResource
+ d typeinfo for CAnimSkeleton
+ d typeinfo for CAutoRestoreEnvironment
+ d typeinfo for CBoneMaskResource
+ d typeinfo for CClientPropertyManager
+ d typeinfo for CCompositorPluginProvider
+ d typeinfo for CCompositorPluginProvider_Latest
+ d typeinfo for CDownsampleRenderer
