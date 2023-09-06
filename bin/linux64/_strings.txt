@@ -179,6 +179,7 @@ $ttM9
 14CQOverlayImage
 15CQOverlayViewer
 15CVulkanRenderer
+19:49:13
 1D9&}@H)
 1OnBackgroundColor()
 1OnExitAction()
@@ -191,7 +192,6 @@ $ttM9
 1OnStatePollTimeout()
 1OnTableItemSelectionChanged()
 1e+9999
-21:53:21
 2ATUH
 2clicked()
 2itemSelectionChanged()
@@ -800,6 +800,7 @@ NSt6thread6_StateE
 NSt8ios_base7failureE
 November
 O8H9H
+Oct  3 2022
 October
 OnBackgroundColor
 OnExitAction
@@ -1052,7 +1053,6 @@ STEAMVR_VERBOSE_HAPTIC_LOG
 SUBOPTIMAL_KHR
 Saturday
 Self queried namespace: %u
-Sep 30 2022
 September
 Set thread %p priority to: %d
 SfffdH
