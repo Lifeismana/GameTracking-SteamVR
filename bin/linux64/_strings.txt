@@ -24,7 +24,7 @@
 #u	[A\A]A^]
 $>L9|$
 $H9L$
-$H;-D|
+$H;-4|
 $I;D$
 $L#l$
 $f-@(
@@ -191,7 +191,7 @@ $ttM9
 1OnStatePollTimeout()
 1OnTableItemSelectionChanged()
 1e+9999
-22:05:05
+22:59:34
 2ATUH
 2clicked()
 2itemSelectionChanged()
@@ -318,7 +318,7 @@ Alpha
 April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe
-Aug 15 2022
+Aug 29 2022
 August
 Auto Curve Distance Range
 B I9E @
@@ -555,62 +555,62 @@ H9G0v
 H9p s
 H9r w
 H9s`t
-H;-g|
-H;=$W	
+H;-W|
+H;=$[	
 H;=${
-H;=%#
-H;=%)
-H;='0
+H;=%/
 H;='U
-H;='W
+H;=(G
 H;=)%
 H;=){
-H;=-?
+H;=)~
+H;=,"
+H;=1`
 H;=2'
+H;=3t
 H;=3z
-H;=4[	
-H;=5/
 H;=7&
 H;=7N
-H;=8G
-H;=9~
-H;=<"
-H;=A`
+H;=<(
+H;=<.
+H;==3
+H;==7
 H;=C+
-H;=Ct
+H;=Cd
+H;=Ch
 H;=F(
 H;=Fd
-H;=L(
-H;=L.
-H;=M3
-H;=M7
+H;=Hb
+H;=Io
+H;=Lx
+H;=M-
+H;=Nn
+H;=QG
 H;=SI
-H;=Sd
-H;=Sh
+H;=U7
 H;=V-
+H;=V7
 H;=VZ
-H;=Xb
 H;=Y"
-H;=Yo
-H;=\x
-H;=]-
-H;=^n
+H;=\^
+H;=]!
+H;=]'
+H;=^]	
 H;=_%
-H;=aG
-H;=e7
+H;=aK
 H;=eE
-H;=f7
+H;=gV
 H;=g{
-H;=l^
-H;=m!
+H;=jm
 H;=m&
-H;=m'
-H;=n]	
-H;=qK
-H;=wV
+H;=r{
+H;=sI
+H;=t2
+H;=t]	
 H;=yZ
 H;=z"
-H;=zm
+H;={b
+H;=|6
 H;>t&H;z
 H;G0s0
 H;G0s0@
@@ -711,7 +711,7 @@ L9cXu
 L9t$xt
 L9t$xtrI
 L9|$x
-L;%2}
+L;%"}
 L;%<Y
 L;%^Y
 L;G t4L
@@ -961,7 +961,9 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_SupportsHDCP14LegacyCompat_Bool
+Prop_Hmd_SupportsHDR10_Bool
 Prop_Hmd_SupportsMicMonitoring_Bool
 Prop_IconPathName_String
 Prop_Identifiable_Bool
@@ -8156,7 +8158,7 @@ terminate called without an active exception
 terminator.9976
 tgL9m
 th_th
-tjH;=
+tjH;=s
 tl_pLeafSharedState
 tl_pWatchdog
 tolower
