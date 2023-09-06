@@ -671,6 +671,7 @@
  d typeinfo for CPrismPanelMask::Initialize(CVkAllocator*, IPrismPoseProvider*, float)::{lambda(vr::EVREye, float, float, vr::DistortionCoordinates_t*)#1}
  d typeinfo for CPrismPoseProvider_Null
  d typeinfo for CSharedResourceNamespaceServer
+ d typeinfo for CThread
  d typeinfo for CVkBuffer
  d typeinfo for CVkCommandBuffer
  d typeinfo for CVkCommandBufferPool
@@ -707,7 +708,6 @@
  d typeinfo for Json::StreamWriterBuilder
  d typeinfo for Json::StyledWriter
  d typeinfo for Json::Writer
- d typeinfo for SteamThreadTools::CThread
  d typeinfo for facet::CVkTimestampQueryPool<2u>
  d typeinfo for facet::CVkTimestampQueryPoolBase
  d typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
@@ -722,6 +722,7 @@
  d vtable for CPrismDisplay_Vulkan::Factory
  d vtable for CPrismPoseProvider_Null
  d vtable for CSharedResourceNamespaceServer
+ d vtable for CThread
  d vtable for CVkBuffer
  d vtable for CVkCommandBuffer
  d vtable for CVkCommandBufferPool
@@ -747,7 +748,6 @@
  d vtable for Json::StreamWriterBuilder
  d vtable for Json::StyledWriter
  d vtable for Json::Writer
- d vtable for SteamThreadTools::CThread
  d vtable for facet::CVkTimestampQueryPool<2u>
  d vtable for facet::CVkTimestampQueryPoolBase
  d vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
@@ -855,7 +855,7 @@
  r (anonymous namespace)::k_nThresholdBytecode
  r (anonymous namespace)::k_nVertBytecode
  r CSWTCH.16
- r CSWTCH.207
+ r CSWTCH.209
  r CSWTCH.23
  r CVkDevice::CreateDevice(CreateDeviceDetails_t const&)::queuePriorities
  r IPC::crc32(unsigned int, void const*, unsigned long)::s_crc32
@@ -888,6 +888,7 @@
  r typeinfo name for CPrismPanelMask::Initialize(CVkAllocator*, IPrismPoseProvider*, float)::{lambda(vr::EVREye, float, float, vr::DistortionCoordinates_t*)#1}
  r typeinfo name for CPrismPoseProvider_Null
  r typeinfo name for CSharedResourceNamespaceServer
+ r typeinfo name for CThread
  r typeinfo name for CVkBuffer
  r typeinfo name for CVkCommandBuffer
  r typeinfo name for CVkCommandBufferPool
@@ -924,7 +925,6 @@
  r typeinfo name for Json::StreamWriterBuilder
  r typeinfo name for Json::StyledWriter
  r typeinfo name for Json::Writer
- r typeinfo name for SteamThreadTools::CThread
  r typeinfo name for facet::CVkTimestampQueryPool<2u>
  r typeinfo name for facet::CVkTimestampQueryPoolBase
  r typeinfo name for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
@@ -1409,6 +1409,81 @@
  t CStopwatch::Reset()
  t CStopwatch::Start()
  t CStopwatch::Stop()
+ t CThread::BHasValidThreadID()
+ t CThread::CThread()
+ t CThread::GetCurrentCThread()
+ t CThread::GetName()
+ t CThread::GetPriority() const
+ t CThread::GetResult() const
+ t CThread::GetThreadProc()
+ t CThread::Init()
+ t CThread::IsAlive()
+ t CThread::IsThreadRunning()
+ t CThread::Join(unsigned int)
+ t CThread::OnExit()
+ t CThread::Resume()
+ t CThread::SetName(char const*)
+ t CThread::SetPriority(int)
+ t CThread::Sleep(unsigned int)
+ t CThread::Start(unsigned int)
+ t CThread::Start(unsigned int) [clone .cold]
+ t CThread::Stop(int)
+ t CThread::Suspend()
+ t CThread::Terminate(int)
+ t CThread::ThreadExceptionWrapper(void*)
+ t CThread::ThreadProc(void*)
+ t CThread::ThreadProc(void*) [clone .cold]
+ t CThread::WaitForCreateComplete(CThreadEvent*)
+ t CThread::Yield()
+ t CThread::~CThread()
+ t CThread::~CThread() [clone .part.0]
+ t CThreadEvent::CThreadEvent(bool)
+ t CThreadEvent::CThreadEvent(char const*, bool, bool)
+ t CThreadEvent::CThreadEvent(char const*, bool, bool) [clone .cold]
+ t CThreadEvent::Check()
+ t CThreadEvent::Reset()
+ t CThreadEvent::Set()
+ t CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
+ t CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool) [clone .cold]
+ t CThreadFullMutex::IsCreator() const
+ t CThreadFullMutex::Release()
+ t CThreadLocalBase::CThreadLocalBase()
+ t CThreadLocalBase::Get() const
+ t CThreadLocalBase::Set(void*)
+ t CThreadLocalBase::~CThreadLocalBase()
+ t CThreadLocalInt<long>::~CThreadLocalInt()
+ t CThreadLocalPtr<CThread>::~CThreadLocalPtr()
+ t CThreadMutex::CThreadMutex()
+ t CThreadMutex::~CThreadMutex()
+ t CThreadRWLock::LockForWrite()
+ t CThreadRWLock::UnlockWrite()
+ t CThreadRWLock::WaitForRead()
+ t CThreadSemaphore::CThreadSemaphore(long, long)
+ t CThreadSemaphore::CThreadSemaphore(long, long) [clone .cold]
+ t CThreadSemaphore::Release(long)
+ t CThreadSpinLock::Lock(unsigned int) volatile
+ t CThreadSpinRWLock::LockForRead()
+ t CThreadSpinRWLock::SpinLockForWrite(unsigned int)
+ t CThreadSpinRWLock::UnlockRead()
+ t CThreadSpinRWLock::UnlockWrite()
+ t CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
+ t CThreadSyncObject::AssertUseable()
+ t CThreadSyncObject::CThreadSyncObject()
+ t CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
+ t CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
+ t CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
+ t CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
+ t CThreadSyncObject::EnsureSemaphorePostedInternal(int)
+ t CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
+ t CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
+ t CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
+ t CThreadSyncObject::SaveNameToFile(char const*)
+ t CThreadSyncObject::SignalThreadSyncObjectInternal()
+ t CThreadSyncObject::Wait(unsigned int)
+ t CThreadSyncObject::Wait(unsigned int) [clone .part.0]
+ t CThreadSyncObject::operator!() const
+ t CThreadSyncObject::~CThreadSyncObject()
+ t CThreadSyncObject::~CThreadSyncObject() [clone .part.0]
  t CThreadWatchdog::CThreadWatchdog(std::string const&, float, CThreadWatchdog::EWatchdogTimeoutBehavior)
  t CThreadWatchdog::CThreadWatchdog(std::string const&, float, CThreadWatchdog::EWatchdogTimeoutBehavior) [clone .cold]
  t CThreadWatchdog::CleanupWatchdogs()
@@ -1516,6 +1591,7 @@
  t CVkCommandBuffer::CmdInsertVRFrameMarker()
  t CVkCommandBuffer::CmdPipelineBarrier(unsigned int, unsigned int)
  t CVkCommandBuffer::CmdPipelineBarrier(unsigned int, unsigned int, unsigned int, unsigned int)
+ t CVkCommandBuffer::CmdSetStencil(unsigned int, unsigned int, unsigned int, VkStencilFaceFlagBits)
  t CVkCommandBuffer::End()
  t CVkCommandBuffer::Initialize()
  t CVkCommandBuffer::MarkReferencedResourcesInUse(CVkTimeline*, facet::CVkTimelinePoint const&)
@@ -1700,6 +1776,7 @@
  t DeclareCurrentThreadIsMainThread
  t EventWriteString(char const*, EVRTraceEvent)
  t EventWriteStringBegin(char const*, unsigned long)
+ t EventWriteStringDurationF(int, char const*, ...)
  t EventWriteStringEnd(char const*, unsigned long)
  t EventWriteStringF(char const*, ...)
  t FileSelect(dirent const*)
@@ -2299,81 +2376,6 @@
  t SecondsToSystemTicks(double)
  t SetCurrentProcessExplicitAppUserModelID()
  t SetEnvironmentVariable(char const*, char const*)
- t SteamThreadTools::CThread::BHasValidThreadID()
- t SteamThreadTools::CThread::CThread()
- t SteamThreadTools::CThread::GetCurrentCThread()
- t SteamThreadTools::CThread::GetName()
- t SteamThreadTools::CThread::GetPriority() const
- t SteamThreadTools::CThread::GetResult() const
- t SteamThreadTools::CThread::GetThreadProc()
- t SteamThreadTools::CThread::Init()
- t SteamThreadTools::CThread::IsAlive()
- t SteamThreadTools::CThread::IsThreadRunning()
- t SteamThreadTools::CThread::Join(unsigned int)
- t SteamThreadTools::CThread::OnExit()
- t SteamThreadTools::CThread::Resume()
- t SteamThreadTools::CThread::SetName(char const*)
- t SteamThreadTools::CThread::SetPriority(int)
- t SteamThreadTools::CThread::Sleep(unsigned int)
- t SteamThreadTools::CThread::Start(unsigned int)
- t SteamThreadTools::CThread::Start(unsigned int) [clone .cold]
- t SteamThreadTools::CThread::Stop(int)
- t SteamThreadTools::CThread::Suspend()
- t SteamThreadTools::CThread::Terminate(int)
- t SteamThreadTools::CThread::ThreadExceptionWrapper(void*)
- t SteamThreadTools::CThread::ThreadProc(void*)
- t SteamThreadTools::CThread::ThreadProc(void*) [clone .cold]
- t SteamThreadTools::CThread::WaitForCreateComplete(SteamThreadTools::CThreadEvent*)
- t SteamThreadTools::CThread::Yield()
- t SteamThreadTools::CThread::~CThread()
- t SteamThreadTools::CThread::~CThread() [clone .part.0]
- t SteamThreadTools::CThreadEvent::CThreadEvent(bool)
- t SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool)
- t SteamThreadTools::CThreadEvent::CThreadEvent(char const*, bool, bool) [clone .cold]
- t SteamThreadTools::CThreadEvent::Check()
- t SteamThreadTools::CThreadEvent::Reset()
- t SteamThreadTools::CThreadEvent::Set()
- t SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool)
- t SteamThreadTools::CThreadFullMutex::CThreadFullMutex(bool, char const*, bool, bool) [clone .cold]
- t SteamThreadTools::CThreadFullMutex::IsCreator() const
- t SteamThreadTools::CThreadFullMutex::Release()
- t SteamThreadTools::CThreadLocalBase::CThreadLocalBase()
- t SteamThreadTools::CThreadLocalBase::Get() const
- t SteamThreadTools::CThreadLocalBase::Set(void*)
- t SteamThreadTools::CThreadLocalBase::~CThreadLocalBase()
- t SteamThreadTools::CThreadLocalInt<long>::~CThreadLocalInt()
- t SteamThreadTools::CThreadLocalPtr<SteamThreadTools::CThread>::~CThreadLocalPtr()
- t SteamThreadTools::CThreadMutex::CThreadMutex()
- t SteamThreadTools::CThreadMutex::~CThreadMutex()
- t SteamThreadTools::CThreadRWLock::LockForWrite()
- t SteamThreadTools::CThreadRWLock::UnlockWrite()
- t SteamThreadTools::CThreadRWLock::WaitForRead()
- t SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long)
- t SteamThreadTools::CThreadSemaphore::CThreadSemaphore(long, long) [clone .cold]
- t SteamThreadTools::CThreadSemaphore::Release(long)
- t SteamThreadTools::CThreadSpinLock::Lock(unsigned int) volatile
- t SteamThreadTools::CThreadSpinRWLock::LockForRead()
- t SteamThreadTools::CThreadSpinRWLock::SpinLockForWrite(unsigned int)
- t SteamThreadTools::CThreadSpinRWLock::UnlockRead()
- t SteamThreadTools::CThreadSpinRWLock::UnlockWrite()
- t SteamThreadTools::CThreadSyncObject::AcquireSemaphoreInternal(unsigned int)
- t SteamThreadTools::CThreadSyncObject::AssertUseable()
- t SteamThreadTools::CThreadSyncObject::CThreadSyncObject()
- t SteamThreadTools::CThreadSyncObject::CloseSemaphoreInternal(int, bool, char const*)
- t SteamThreadTools::CThreadSyncObject::CreateAnonymousSyncObjectInternal(bool, bool)
- t SteamThreadTools::CThreadSyncObject::CreateSemaphoreInternal(char const*, long, bool, bool*)
- t SteamThreadTools::CThreadSyncObject::EnsureSemaphoreClearedInternal(int)
- t SteamThreadTools::CThreadSyncObject::EnsureSemaphorePostedInternal(int)
- t SteamThreadTools::CThreadSyncObject::IsSemaphoreOrphanedInternal(int, int)
- t SteamThreadTools::CThreadSyncObject::OpenSemaphoreInternal(char const*, bool)
- t SteamThreadTools::CThreadSyncObject::ReleaseSemaphoreInternal(int, long)
- t SteamThreadTools::CThreadSyncObject::SaveNameToFile(char const*)
- t SteamThreadTools::CThreadSyncObject::SignalThreadSyncObjectInternal()
- t SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
- t SteamThreadTools::CThreadSyncObject::Wait(unsigned int) [clone .part.0]
- t SteamThreadTools::CThreadSyncObject::operator!() const
- t SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
- t SteamThreadTools::CThreadSyncObject::~CThreadSyncObject() [clone .part.0]
  t SteamVRVersionAsString()
  t SteamVRVersionAsString() [clone .cold]
  t StringHasPrefix(std::string const&, std::string const&)

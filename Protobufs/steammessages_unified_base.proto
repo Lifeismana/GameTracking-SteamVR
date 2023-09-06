@@ -1,0 +1,185 @@
+import "steammessages_base.proto";
+import "google/protobuf/descriptor.proto";
+
+option optimize_for = SPEED;
+option cc_generic_services = true;
+option (force_php_generation) = true;
+
+extend .google.protobuf.FieldOptions {
+	optional string description = 50000;
+	optional bool is_field_disabled_externally = 50010 [default = false];
+}
+
+extend .google.protobuf.ServiceOptions {
+	optional string service_description = 50000;
+	optional .EProtoAvailability service_availability = 50001 [default = k_EProtoAvailInterServer];
+	optional .EProtoPrivilege service_privilege = 50002 [default = k_EProtoPrivAuthAccount];
+	optional bool is_service_public = 50004 [default = true];
+	optional bool is_service_deprecated = 50005 [default = false];
+	optional .EProtoExecutionSite service_execution_site = 50008 [default = k_EProtoExecutionSiteServer];
+	optional .EProtoWebAPIKeyRequirement service_webapi_key_requirement = 50014 [default = k_EProtoWebAPIKeyNotAccepted];
+	optional bool is_service_exposed_to_client = 50015 [default = false];
+	optional bool service_method_ignores_rate_limiting = 50016 [default = false];
+	optional .EWebAPIIPFilterType service_ipfilter = 50017 [default = k_EWebAPIIPFilterType_None];
+	optional .EWebAPIPartnerGroupPermission service_partner_permission = 50022 [default = k_EWebAPIPartnerGroupPermission_None];
+	optional .ESupportPermissions service_support_permission = 50023 [default = k_ESupportPermissions_Invalid];
+	optional bool service_prevent_user_spoofing = 50024 [default = false];
+}
+
+extend .google.protobuf.MethodOptions {
+	optional string method_description = 50000;
+	optional .EProtoAvailability method_availability = 50001 [default = k_EProtoAvailInterServer];
+	optional .EProtoPrivilege method_privilege = 50002 [default = k_EProtoPrivInvalid];
+	optional bool is_method_const = 50003 [default = false];
+	optional bool is_method_public = 50004 [default = true];
+	optional bool is_method_deprecated = 50005 [default = false];
+	optional string method_oauth_permissions = 50006;
+	optional bool method_webapi_version_less_allowed = 50007;
+	optional .EProtoClientCallingConvention client_calling_convention = 50009 [default = k_EProtoClientCallingConventionNone];
+	optional int32 webapi_cache_time_in_seconds = 50011;
+	optional .EProtoWebAPIKeyRequirement method_webapi_key_requirement = 50014 [default = k_EProtoWebAPIKeyNotAccepted];
+	optional bool is_method_exposed_to_client = 50015;
+	optional bool method_ignores_rate_limiting = 50016 [default = false];
+	optional bool method_capture_http_headers = 50017 [default = false];
+	optional .ESupportPermissions method_support_permission = 50018 [default = k_ESupportPermissions_Invalid];
+	optional .EWebAPIIPFilterType method_ipfilter = 50019 [default = k_EWebAPIIPFilterType_None];
+	optional int32 queue_batch_size = 50020 [default = 0];
+	optional int32 queue_batch_timeout_ms = 50021 [default = 0];
+	optional .EWebAPIPartnerGroupPermission method_partner_permission = 50022 [default = k_EWebAPIPartnerGroupPermission_None];
+	optional bool method_prevent_user_spoofing = 50023 [default = false];
+}
+
+extend .google.protobuf.MessageOptions {
+	optional string message_description = 51000;
+}
+
+extend .google.protobuf.EnumOptions {
+	optional string enum_description = 50000;
+	optional bool allow_webapi_input_aliases = 50001 [default = false];
+}
+
+extend .google.protobuf.EnumValueOptions {
+	optional string enum_value_description = 50000;
+	optional string webapi_input_alias = 50001;
+}
+
+enum EProtoAvailability {
+	k_EProtoAvailInterServer = 0;
+	k_EProtoAvailInternal = 1;
+	k_EProtoAvailInternalAndServerLite = 2;
+	k_EProtoAvailExternal = 3;
+}
+
+enum EProtoPrivilege {
+	k_EProtoPrivInvalid = -1;
+	k_EProtoPrivNone = 0;
+	k_EProtoPrivAuthAccount = 1;
+	k_EProtoPrivAccountOptional = 2;
+	k_EProtoPrivAuthAccountCommunityNotBlocked = 3;
+	k_EProtoPrivAuthAccountAdmin = 4;
+	k_EProtoPrivAuthAccountSupport = 5;
+	k_EProtoPrivAuthAccountGlobalModerator = 6;
+	k_EProtoPrivAuthAccountPublisherOwnsApp = 7;
+	k_EProtoPrivAuthAccountMemberPublisher = 8;
+	k_EProtoPrivWeakAuthAccount = 9;
+	k_EProtoPrivAuthAccountSupervisor = 10;
+	k_EProtoPrivAuthAccountPublisherAdmin = 11;
+	k_EProtoPrivAuthAccountValveStatsAccess = 12;
+	k_EProtoPrivMax = 13;
+}
+
+enum EProtoWebAPIKeyRequirement {
+	k_EProtoWebAPIKeyNotAccepted = 0;
+	k_EProtoWebAPIKeyNone = 1;
+	k_EProtoWebAPIKeyAny = 2;
+	k_EProtoWebAPIKeyAdmin = 3;
+	k_EProtoWebAPIKeyPublisher = 4;
+	k_EProtoWebAPIKeyPublisherOwnsApp = 5;
+	k_EProtoWebAPIKeySpecificKey_VideoProcessingBot = 6;
+}
+
+enum EProtoExecutionSite {
+	k_EProtoExecutionSiteServer = 1;
+	k_EProtoExecutionSiteSteamClient = 2;
+	k_EProtoExecutionSiteGameClient = 3;
+}
+
+enum EProtoClientCallingConvention {
+	k_EProtoClientCallingConventionNone = 0;
+	k_EProtoClientCallingConventionAsync = 1;
+	k_EProtoClientCallingConventionBlocking = 2;
+}
+
+enum ESupportPermissions {
+	k_ESupportPermissions_Invalid = 0;
+	k_ESupportPermissions_BillingInfo = 1;
+	k_ESupportPermissions_ItemGrant = 2;
+	k_ESupportPermissions_WalletGrant = 3;
+	k_ESupportPermissions_GameGrant = 4;
+	k_ESupportPermissions_EditQuicktexts = 5;
+	k_ESupportPermissions_CallLogging = 6;
+	k_ESupportPermissions_CreditCardSearch = 7;
+	k_ESupportPermissions_PartnerAppReadonlyAccess = 8;
+	k_ESupportPartnerSupport = 9;
+	k_ESupportUserSupport = 10;
+	k_ESupportPermissions_FraudTools = 11;
+	k_ESupportPermissions_AdvancedPartnerTools = 12;
+	k_ESupportPermissions_AccountTermination = 13;
+	k_ESupportPermissions_DeleteAndPurgeAvatars = 14;
+	k_ESupportPermissions_SupportToolAccess = 15;
+	k_ESupportPermissions_ModerateUGC = 16;
+	k_ESupportPermissions_ChangeAccountName = 17;
+	k_ESupportPermissions_PartnerHardwareRequests = 18;
+	k_ESupportPermissions_GroupAndForumModeration = 19;
+	k_ESupportPermissions_ModerateEvents = 20;
+	k_ESupportPermissions_AccessAgentMetrics = 21;
+	k_ESupportPermissions_UpdatePurchaseReservations = 22;
+	k_ESupportPermissions_SendSupportShipments = 23;
+	k_ESupportPermissions_SaleTechEvents = 24;
+	k_ESupportPermissions_SendHighValueSupportShipments = 25;
+	k_ESupportPermissions_PartnerDeckCompatReadOnly = 26;
+}
+
+enum EWebAPIIPFilterType {
+	k_EWebAPIIPFilterType_None = 0;
+	k_EWebAPIIPFilterType_Xsolla = 1;
+	k_EWebAPIIPFilterType_MoPay = 2;
+	k_EWebAPIIPFilterType_BoaCompra = 3;
+	k_EWebAPIIPFilterType_GameStop = 4;
+	k_EWebAPIIPFilterType_SteamKey = 5;
+	k_EWebAPIIPFilterType_Payelp = 6;
+	k_EWebAPIIPFilterType_NexonPWRD = 7;
+	k_EWebAPIIPFilterType_TwitchTV = 8;
+	k_EWebAPIIPFilterType_MOL = 9;
+	k_EWebAPIIPFilterType_Degica = 10;
+	k_EWebAPIIPFilterType_EClub = 11;
+	k_EWebAPIIPFilterType_Envoy = 12;
+	k_EWebAPIIPFilterType_Smart2Pay = 13;
+	k_EWebAPIIPFilterType_IngramMicro = 14;
+	k_EWebAPIIPFilterType_MailServers = 15;
+	k_EWebAPIIPFilterType_SteamLinkKMS = 16;
+	k_EWebAPIIPFilterType_Allion = 17;
+	k_EWebAPIIPFilterType_BitPay = 18;
+	k_EWebAPIIPFilterType_Ingenico = 19;
+	k_EWebAPIIPFilterType_WeLoveFine = 20;
+	k_EWebAPIIPFilterType_Nodwin = 21;
+	k_EWebAPIIPFilterType_Adyen = 22;
+	k_EWebAPIIPFilterType_ComputeFarm = 23;
+	k_EWebAPIIPFilterType_Worldpay = 24;
+	k_EWebAPIIPFilterType_PerfectWorld = 25;
+	k_EWebAPIIPFilterType_Incomm = 26;
+	k_EWebAPIIPFilterType_ECommPay = 27;
+	k_EWebAPIIPFilterType_CrowdIn = 28;
+}
+
+enum EWebAPIPartnerGroupPermission {
+	k_EWebAPIPartnerGroupPermission_None = 0;
+	k_EWebAPIPartnerGroupPermission_SteamChina = 1;
+	k_EWebAPIPartnerGroupPermission_CDNStorage_Upload = 2;
+	k_EWebAPIPartnerGroupPermission_CDNStorage_Purge = 3;
+	k_EWebAPIPartnerGroupPermission_InternalDirectory_Query = 4;
+	k_EWebAPIPartnerGroupPermission_Support_HardwareRMAInfo = 5;
+}
+
+message NoResponse {
+}

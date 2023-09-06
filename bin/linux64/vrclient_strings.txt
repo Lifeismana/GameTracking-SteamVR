@@ -151,6 +151,8 @@ $0rpc $1(.$2) returns (.$3)
 %s begin_ctx=%lu
 %s called without first releasing previous slot!
 %s contains an empty %s
+%s dtime=%d begin_ctx=%lu
+%s dtime=%d end_ctx=%lu
 %s end_ctx=%lu
 %s is not a valid api layer json. Missing %s member.
 %s%c%s
@@ -539,6 +541,8 @@ $0rpc $1(.$2) returns (.$3)
 (anonymous namespace)::CVRMsg_Input_SetActionManifestPathResponse_reflection_
 (anonymous namespace)::CVRMsg_Input_SetActionManifestPath_descriptor_
 (anonymous namespace)::CVRMsg_Input_SetActionManifestPath_reflection_
+(anonymous namespace)::CVRMsg_Input_SetXrInputConfigResponse_descriptor_
+(anonymous namespace)::CVRMsg_Input_SetXrInputConfigResponse_reflection_
 (anonymous namespace)::CVRMsg_Input_SetXrInputConfig_descriptor_
 (anonymous namespace)::CVRMsg_Input_SetXrInputConfig_reflection_
 (anonymous namespace)::CVRMsg_LaunchApplicationForMimeTypeResponse_descriptor_
@@ -822,6 +826,7 @@ $0rpc $1(.$2) returns (.$3)
 .PLACEHOLDER_VALUE
 .[\()*+?{|^$
 .[\*^$
+.backup
 .desktop
 .dummy
 .foo = value".
@@ -854,6 +859,7 @@ $0rpc $1(.$2) returns (.$3)
 /best_alias_path
 /block_id
 /blocks
+/bound_tracker_role
 /chaperone/perimeter
 /chaperone/play_area
 /chaperone/seated/transform
@@ -870,6 +876,7 @@ $0rpc $1(.$2) returns (.$3)
 /data/src/common/vrcommon/blockqueue.cpp
 /data/src/common/vrcommon/computedsettings.cpp
 /data/src/common/vrcommon/drivermanager.cpp
+/data/src/common/vrcommon/openvr_internal.cpp
 /data/src/common/vrcommon/openvrtools.cpp
 /data/src/common/vrcommon/openxr_utils.h
 /data/src/common/vrcommon/propertymanager.cpp
@@ -928,7 +935,6 @@ $0rpc $1(.$2) returns (.$3)
 /data/src/vrclient/openxr_session.cpp
 /data/src/vrclient/openxr_session.h
 /data/src/vrclient/openxr_space.cpp
-/data/src/vrclient/sharedtexture_linux.cpp
 /data/src/vrclient/skeletalinpututils.cpp
 /data/src/vrclient/vrcompositorclient.cpp
 /data/src/vrclient/vrcompositorsharedtextures.cpp
@@ -953,6 +959,10 @@ $0rpc $1(.$2) returns (.$3)
 /input/application_menu/touch
 /input/back
 /input/back/click
+/input/default_holographic_controller_remapping.json
+/input/default_hpmotioncontroller_remapping.json
+/input/default_pico_controller_remapping.json
+/input/default_vive_cosmos_controller_remapping.json
 /input/finger/index
 /input/finger/middle
 /input/finger/pinky
@@ -984,6 +994,7 @@ $0rpc $1(.$2) returns (.$3)
 /input/view/click
 /input_debugger_pid
 /input_profile
+/interaction_profiles/
 /interaction_profiles/google/daydream_controller
 /interaction_profiles/hp/mixed_reality_controller
 /interaction_profiles/htc/vive_controller
@@ -1016,6 +1027,7 @@ $0rpc $1(.$2) returns (.$3)
 /proc/self/exe
 /proc/self/status
 /progress
+/proximity
 /read_
 /result
 /role/camera
@@ -1208,7 +1220,6 @@ $0rpc $1(.$2) returns (.$3)
 /valve-
 /valve-URI-
 /x/click
-/x/touch
 /y/click
 /y/touch
 0 width
@@ -1306,6 +1317,7 @@ $0rpc $1(.$2) returns (.$3)
 14CVROverlay_023
 14CVROverlay_024
 14CVROverlay_025
+14CVROverlay_026
 14IHmdSystem_002
 14IHmdSystem_003
 14IVRLegacyInput
@@ -1375,6 +1387,7 @@ $0rpc $1(.$2) returns (.$3)
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
+18:27:34
 18CPropertyContainer
 18CSharedBufferLinux
 18CSxrHandTrackerEXT
@@ -1411,6 +1424,9 @@ $0rpc $1(.$2) returns (.$3)
 19CVRRenderModels_005
 19CVRSteamPrivate_001
 19CVRSteamPrivate_002
+19CVRSteamPrivate_003
+19CVRSteamPrivate_004
+19CVRSteamPrivate_005
 19CVRWatchdogHost_001
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
@@ -1457,7 +1473,6 @@ $0rpc $1(.$2) returns (.$3)
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:28:09
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -1621,6 +1636,7 @@ $0rpc $1(.$2) returns (.$3)
 28OverlayInterfaceRegistrationI14CVROverlay_023E
 28OverlayInterfaceRegistrationI14CVROverlay_024E
 28OverlayInterfaceRegistrationI14CVROverlay_025E
+28OverlayInterfaceRegistrationI14CVROverlay_026E
 29CInputFilter_JoystickSettings
 29CSharedCountingSemaphoreLinux
 29CSxrChildVariableParentHandleI9CSxrSpaceP9XrSpace_T10CSxrAction11CSxrSessionE
@@ -1757,6 +1773,9 @@ $0rpc $1(.$2) returns (.$3)
 33RenderModelsInterfaceRegistrationI19CVRRenderModels_005E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_001E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_002E
+33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_003E
+33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_004E
+33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_005E
 34CInputFilter_Scalar_ScaleAndOffset
 34CVRMsg_ApplicationManifestResponse
 34CVRMsg_CompositorRefSharedResource
@@ -1802,6 +1821,7 @@ $0rpc $1(.$2) returns (.$3)
 36CVRMsg_TrackedCamera_StopVideoStream
 37CInputFilter_Boolean_ButtonPressState
 37CVRMsg_CompositorTakeStereoScreenshot
+37CVRMsg_Input_SetXrInputConfigResponse
 37CVRMsg_Settings_GetValueType_Response
 37CVRMsg_TrackedCamera_PauseVideoStream
 37CVRMsg_TrackedCamera_StartVideoStream
@@ -1886,6 +1906,7 @@ $0rpc $1(.$2) returns (.$3)
 57CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
 57CVRMsg_TrackedCamera_ReleaseVideoStreamingServiceResponse
 650000
+7CThread
 8CHmd_001
 8CHmd_002
 8CHmd_003
@@ -2030,7 +2051,6 @@ ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, v
 Array for decompressed transforms is too small.  Needed %u got %u
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
 Array length of `emissiveFactor` parameter in material must be 3, but got
-Array textures from OpenGL aren't supported on Linux yet.
 AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)
 AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*) [clone .cold]
 AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)::bMinidumpDisabled
@@ -2051,7 +2071,6 @@ Attempting to wait on a fence value that is too large. Current: %lx Wait: %lx
 Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %lx, Signaled: %lx
 AuthenticAMD
 AutosaveURL
-BCheckParentOverlayVisible_Recursive(unsigned long, VRSystemLayerState_t const*, int)
 BCreateDirectory(char const*)
 BCreateDirectoryRecursive(char const*)
 BCreateDirectoryRecursive(char const*) [clone .cold]
@@ -2100,79 +2119,4 @@ BOSSafeRelease(void**)
 BPathSupportsInputOfType(std::string const&, EInputValueType)
 BProcessRunning(char const*, bool)
 BProcessRunning(char const*, bool) [clone .cold]
-BProcessRunning(unsigned int)
-BRealtimeProcess()
-BRenameFile(char const*, char const*)
-BSharedResourceNamespaceAvailable()
-BSharedResourceNamespaceAvailable() [clone .cold]
-BSharedResourceNamespaceInTestMode()
-BSharedResourceNamespaceTryOneInit()
-Back-reference index exceeds current sub-expression count.
-Back-reference referred to an opened sub-expression.
-BackUp() can only be called after Next().
-BackUp() can only be called after a successful Next().
-Bad Access flag on shared mem create: %s: %u
-Bad bo
-Bad dimensions
-Bad escape sequence in string
-Bad unicode escape sequence in string: four digits expected.
-Bad unicode escape sequence in string: hexadecimal digit expected.
-Begin
-BeginFrame
-BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
-BeginFrame called outside of a valid session.
-BeginFrameRendering
-BeginRendering
-Binding config missing required 'bindings' member
-Binding config missing required 'controller_type' member
-Binding missing required "action" member
-Binding missing required "name" member
-Binding missing required "type" member
-Binding path for haptic action %s could not be read: %s
-Binding path for haptic action %s resulted in property type tag %u instead of %u
-BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory)
-BindingAutosaveSettingsKey(std::string const&, EActionBindingCategory) [clone .cold]
-BindingCurrentKey(std::string const&, EActionBindingCategory)
-BindingCurrentKey(std::string const&, EActionBindingCategory) [clone .cold]
-BindingNeedUploadKey(std::string const&, EActionBindingCategory)
-BindingNeedUploadKey(std::string const&, EActionBindingCategory) [clone .cold]
-BindingPreviousKey(std::string const&, EActionBindingCategory)
-BindingPreviousKey(std::string const&, EActionBindingCategory) [clone .cold]
-BindingURIToFileId(std::string const&)
-BindingURIToFileId(std::string const&) [clone .cold]
-Bindings from OpenXR
-BlankEyeBuffer
-BlockQueueInterfaceRegistration<CVRBlockQueue_001>::GetInterface()
-BlockQueueInterfaceRegistration<CVRBlockQueue_001>::~BlockQueueInterfaceRegistration()
-BlockQueueInterfaceRegistration<CVRBlockQueue_002>::GetInterface()
-BlockQueueInterfaceRegistration<CVRBlockQueue_002>::~BlockQueueInterfaceRegistration()
-BlockQueueInterfaceRegistration<CVRBlockQueue_003>::GetInterface()
-BlockQueueInterfaceRegistration<CVRBlockQueue_003>::~BlockQueueInterfaceRegistration()
-BlockQueueInterfaceRegistration<CVRBlockQueue_004>::GetInterface()
-BlockQueueInterfaceRegistration<CVRBlockQueue_004>::~BlockQueueInterfaceRegistration()
-Boolean default must be true or false.
-Bootstrapper init
-BorrowResource
-Bucket: size:%zu timeline:%s
-Bucket: size:%zu timeline:none
-Buffer
-BufferView
-BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&)
-BuildActionManifestForActionSets(std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*> > const&) [clone .cold]
-BuildFadeGridMessage(float, bool)
-BuildFadeGridMessage(float, bool) [clone .cold]
-BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
-BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
-BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
-Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-C.1857.0
-C.1860.1
-C.417.0
-CActionBinding::CActionBinding(CActionBinding const&)
-CActionBinding::FromJson(Json::Value const&, std::string*)
-CActionBinding::FromJson(Json::Value const&, std::string*) [clone .cold]
-CActionBinding::~CActionBinding()
-CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*)
-CActionBindingConfig::FromJson(Json::Value const&, Json::Value const&, CInputActionManifest const&, vr::ETrackedControllerRole, std::string*) [clone .cold]
-CActionBindingConfig::HasControllerType(std::string const&) const
-CActionBindingConfig::~CActi
+BProcessRunning(unsigned i
