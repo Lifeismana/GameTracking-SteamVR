@@ -18,8 +18,9 @@
 $A\A]]
 $H9D$
 $I;D$
-$L;5L
+$L;5|	
 %%.%dg
+%010lu:%010lu
 %1 %2
 %1 %2 %3
 %1 x %2
@@ -54,7 +55,7 @@ $L;5L
 *ZN6CVRLog7InitLogEPKcS1_bmEUl9ELogLevelS1_PvE_
 , last executing in 
 ,u'Hi
-,u{Hi
+,uxHi
 -1e+9999
 -30CSharedResourceNamespaceServer
 -Infinity
@@ -98,6 +99,7 @@ $L;5L
 //==============================================================================================
 /dashboard/visible
 /data/src/common/vrcommon/computedsettings.cpp
+/data/src/common/vrcommon/openvr_internal.cpp
 /data/src/common/vrcommon/openvrtools.cpp
 /data/src/common/vrcommon/vrrenderer/vulkantools.cpp
 /data/src/common/vrcommon/vrsystemlayersharedstate.cpp
@@ -116,14 +118,14 @@ $L;5L
 /data/src/do_not_distribute/qt/5.5.0/linux64/include/QtCore/qstring.h
 /data/src/overlay_viewer/overlay_image.cpp:32
 /data/src/overlay_viewer/overlay_image.cpp:94
-/data/src/overlay_viewer/overlay_viewer.cpp:107
-/data/src/overlay_viewer/overlay_viewer.cpp:195
-/data/src/overlay_viewer/overlay_viewer.cpp:226
-/data/src/overlay_viewer/overlay_viewer.cpp:393
-/data/src/overlay_viewer/overlay_viewer.cpp:396
+/data/src/overlay_viewer/overlay_viewer.cpp:109
+/data/src/overlay_viewer/overlay_viewer.cpp:197
+/data/src/overlay_viewer/overlay_viewer.cpp:230
+/data/src/overlay_viewer/overlay_viewer.cpp:397
 /data/src/overlay_viewer/overlay_viewer.cpp:400
 /data/src/overlay_viewer/overlay_viewer.cpp:404
 /data/src/overlay_viewer/overlay_viewer.cpp:408
+/data/src/overlay_viewer/overlay_viewer.cpp:412
 /dev/null
 /device_was_drawn
 /e%s%s
@@ -146,11 +148,11 @@ $L;5L
 0[A\A]A^]
 0[A\]
 0tBI9
+0x%1 (%2)
 13CBaseRenderer
 14CQOverlayImage
 15CQOverlayViewer
 15CVulkanRenderer
-17:58:18
 1OnBackgroundColor()
 1OnExitAction()
 1OnLinearClicked()
@@ -162,12 +164,14 @@ $L;5L
 1OnStatePollTimeout()
 1OnTableItemSelectionChanged()
 1e+9999
+22:55:58
 2clicked()
 2itemSelectionChanged()
 2timeout()
 2triggered()
 3333333
 4$HcM
+7CThread
 8/t;H9
 8[A\A]A^A_]
 8[A\A]]
@@ -227,7 +231,6 @@ AWAVAUATUSH
 AWAVAUI
 AWAVAUL
 AWAVE
-AWAVE1
 AWAVH
 AWAVI
 AWAVL
@@ -275,7 +278,7 @@ COMPATIBH
 CPH;CXt
 CQOverlayImage
 CQOverlayViewer
-CSWTCH.207
+CSWTCH.209
 CSharedRH
 CSharedResourceNamespaceClient::Init(): failed connect
 CSharedResourceNamespaceClient::Init(): failed to get server response
@@ -303,7 +306,7 @@ ConstIterator to Iterator should never be allowed.
 CreateSimpleProcess
 Cursor: hotspot= %f, %f
 D$ L9
-D$(D9x
+D$(D9h
 D$0I;D$8
 D$8I9
 D$@H9
@@ -312,6 +315,7 @@ D;c@~"H
 DOW_IN_UH
 DW.ref.__gxx_personality_v0
 Dashboard Tab
+Dashboard Thumbnail
 DebuggerEnabled
 DeclareCurrentThreadIsMainThread
 Destroying a held mutex
@@ -422,47 +426,31 @@ GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d
 GpH+G`H
 H+G(H
 H+GxH
-H95)j
 H9F tlL
 H9p H
 H9w w
-H;=!H
-H;=')
-H;=,O
-H;=,\
-H;=2K
-H;=3:	
-H;=3Z
-H;=6U
-H;=7Y
-H;=91
-H;=?[
-H;=AU
-H;=C3
-H;=LU
-H;=ND
-H;=P9
-H;=Qw
-H;=T+	
-H;=TX
-H;=U0
-H;=\]
-H;=]6
-H;=e3
-H;=fY
-H;=g6
-H;=g9
-H;=gI
-H;=gj
-H;=ju
-H;=kL
-H;=pE
-H;=w&
-H;=~/
-H;=~[
+H;5<z
+H;= i
+H;=">
+H;=-X
+H;=/y
+H;=3h	
+H;=9p
+H;=J=	
+H;=Jk
+H;=Kg
+H;=R1
+H;=]p
+H;=`x
+H;=aZ
+H;=dy
+H;=fS
+H;=jM
+H;=nX	
 H;J @
 H;p H
 H;sHt?H
+H=0SJ
 H[A\A]A^A_]
 H[A\A]]
 Hcw4L
@@ -481,7 +469,7 @@ ITIALIZAH
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
-IVRCameraPassThruInternal_001
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_001
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -535,8 +523,10 @@ InputValueVisibility_None
 InputValueVisibility_Public
 InputValueVisibility_SteamVRInternal
 Invalid socket name parameters for shared fd
+IsValid()
 J(H9H(u
 JPuSUH
+Jun  6 2023
 L$ H9
 L$0I+L$8I
 L+'H)
@@ -546,9 +536,11 @@ L9kXu
 L9p skH
 L9v vFL
 L9{XL
-L;%u/
-L;-?)
-L;-]	
+L;%CD
+L;-</
+L;5b&
+L;5bE
+L;=Mo
 L;G t,L
 L;p s&H
 LD_LIBRARY_PATH
@@ -565,7 +557,6 @@ LogDirect
 MLCompatH
 MORY_MAPH
 Main Handle
-May  3 2023
 Minidump comment truncated
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
@@ -573,7 +564,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Mouse Capture
 Mouse Scale
-N16SteamThreadTools7CThreadE
 N3IPC10ISharedMemE
 N3IPC11ISyncObjectE
 N3IPC17PosixSharedMemoryE
@@ -618,6 +608,7 @@ OverlayViewer
 P([A\]
 PFbcE
 PRESf
+Parent Handle
 Parsing of JSON file "%s" failed: %s
 Parsing of JSON string "%s" failed: %s
 PlaceholH
@@ -710,6 +701,7 @@ Prop_DoNotApplyPrediction_Bool
 Prop_DongleVersion_Uint64
 Prop_DriverDirectModeSendsVsyncEvents_Bool
 Prop_DriverIsDrawingControllers_Bool
+Prop_DriverProvidedChaperoneJson_String
 Prop_DriverProvidedChaperonePath_String
 Prop_DriverRequestedMuraCorrectionMode_Int32
 Prop_DriverRequestedMuraFeather_InnerBottom_Int32
@@ -859,7 +851,7 @@ Socket closed
 Somebody locked a non-leaf shared memory %s while %s was already locked
 Sort Order
 St12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
-St12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
+St18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EE
 SteamAPI_SetBreakpadAppID
 SteamAPI_SetMiniDumpComment
 SteamAPI_UseBreakpadCrashHandler
@@ -868,6 +860,7 @@ SteamAppId
 SteamGameId
 SteamVR Overlay Viewer
 SteamVR_Namespace
+Subview
 Syntax error: value, object or array expected.
 T$ I+T$
 TENSION_H
@@ -967,15 +960,19 @@ TrackerRole_Camera
 TrackerRole_Chest
 TrackerRole_Handed
 TrackerRole_Keyboard
+TrackerRole_LeftAnkle
 TrackerRole_LeftElbow
 TrackerRole_LeftFoot
 TrackerRole_LeftKnee
 TrackerRole_LeftShoulder
+TrackerRole_LeftWrist
 TrackerRole_None
+TrackerRole_RightAnkle
 TrackerRole_RightElbow
 TrackerRole_RightFoot
 TrackerRole_RightKnee
 TrackerRole_RightShoulder
+TrackerRole_RightWrist
 TrackerRole_Waist
 Transform Type
 UNKNOWN_H
@@ -1023,6 +1020,7 @@ Unknown render model error (%d)
 Unknown scalar unit type (%d)
 Unknown string table context %s
 Unknown tracker role (%d)
+Unknown: %d
 VALID_SHH
 VALVE
 VICE_LOSH
@@ -1545,8 +1543,9 @@ XDG_CONFIG_HOME
 X[A\A]A^A_]
 X[A\A]A^H
 YER_NOT_H
-ZD$HL
-ZD$LL
+ZD$hL
+ZD$lL
+ZYt H
 [A\A]
 [A\A]A^A_]
 [A\A]A^H
@@ -1921,12 +1920,12 @@ _Z34BSharedResourceNamespaceTryOneInitv
 _Z34ComputeOverlayIntersectionInternalRK25OverlayTransformDetails_tN2vr12HmdVector3_tES3_PNS2_12HmdVector2_tEPS3_S6_Pf
 _Z34GetTrackedControllerRoleFromStringPKc
 _Z34InitSharedResourceNamespaceForTestv
-_Z35InitInternalCameraPassThruInterfaceSt8functionIFPvPKcEE
 _Z35Path_FindParentDirectoryRecursivelyRKSsS0_
 _Z35Path_FindParentDirectoryRecursivelyRKSsS0_.cold
 _Z35SetOverlayTransformAbsoluteInternalP20VRSystemLayerState_tmN2vr23ETrackingUniverseOriginEPKNS1_13HmdMatrix34_tE
 _Z37InitSharedResourceNamespaceAsWatchdogv
 _Z37InitSharedResourceNamespaceAsWatchdogv.cold
+_Z38InitInternalCameraPassthroughInterfaceSt8functionIFPvPKcEE
 _Z38Path_FindParentSubDirectoryRecursivelyRKSsS0_
 _Z38Path_FindParentSubDirectoryRecursivelyRKSsS0_.cold
 _Z39SetCurrentProcessExplicitAppUserModelIDv
@@ -1945,9 +1944,11 @@ _Z8GetVRLogv
 _Z8UTF16to8PKw
 _Z8UTF16to8PKw.cold
 _Z8UTF16to8RKSbIwSt11char_traitsIwESaIwEE
+_Z8UTF16to8RKSbIwSt11char_traitsIwESaIwEE.cold
 _Z8UTF8to16PKc
 _Z8UTF8to16PKc.cold
 _Z8UTF8to16RKSs
+_Z8UTF8to16RKSs.cold
 _Z8strnicmpPKcS0_m
 _Z9DriverLogPKcz
 _Z9LogDirect9ELogLevelPKcRA1_13__va_list_tag
@@ -1968,8 +1969,8 @@ _ZGVZ26GetTrackedDevicePropertiesvE11eKeysVector
 _ZGVZ26IsDashboardVisibleInternalvE22k_pathDashboardVisible
 _ZGVZ27SetDashboardVisibleInternalbE22k_pathDashboardVisible
 _ZGVZ34BIsTrackedDevicePropertyMandantoryN2vr22ETrackedDevicePropertyEE11eKeysVector
-_ZGVZ8UTF16to8PKwE11s_converter
-_ZGVZ8UTF8to16PKcE11s_converter
+_ZGVZ8UTF16to8RKSbIwSt11char_traitsIwESaIwEEE9s_convert
+_ZGVZ8UTF8to16RKSsE9s_convert
 _ZGVZL12FillPipeAddrR11sockaddr_unSsE7sPrefix
 _ZGVZL27ThreadInitSchedulerForRtkitvE10sInitMutex
 _ZGVZN6CVRLog7InitLogEPKcS1_bmE18sb_combinedLogging
@@ -2048,11 +2049,11 @@ _ZL26g_pVRTrackedCameraInternal
 _ZL26s_thread_pRobustListStruct
 _ZL26systemTicksToNanosecondNum
 _ZL27g_pCompositorSystemInternal
-_ZL27g_pVRCameraPassThruInternal
 _ZL27qt_meta_data_CQOverlayImage
 _ZL28qt_meta_data_CQOverlayViewer
 _ZL28s_bMinidumpCommentAlreadySet
 _ZL28systemTicksToNanosecondDenum
+_ZL30g_pVRCameraPassthroughInternal
 _ZL31g_sharedResourceNamespaceClient
 _ZL32g_pSharedResourceNamespaceServer
 _ZL33VRCrashPreCrashSetMinidumpCommentPKc.part.0
@@ -2089,6 +2090,7 @@ _ZN10QByteArrayD1Ev
 _ZN10QByteArrayD2Ev
 _ZN10QStatusBar12removeWidgetEP7QWidget
 _ZN10QStatusBar21insertPermanentWidgetEiP7QWidgeti
+_ZN10QTableView10hideColumnEi
 _ZN10QTableView11setShowGridEb
 _ZN10QTableView14setColumnWidthEii
 _ZN11QHeaderView21setDefaultSectionSizeEi
@@ -2113,6 +2115,15 @@ _ZN11vr_internal10VRPathsRawEv
 _ZN11vr_internal10VRSettingsEv
 _ZN11vr_internal11VRChaperoneEv
 _ZN11vr_internal11VRResourcesEv
+_ZN11vr_internal12CVRPathReads10NextDoubleEd
+_ZN11vr_internal12CVRPathReads10NextStringEPKc
+_ZN11vr_internal12CVRPathReads10NextUInt64Em
+_ZN11vr_internal12CVRPathReads8NextBoolEb
+_ZN11vr_internal12CVRPathReads9NextFloatEf
+_ZN11vr_internal12CVRPathReads9NextInt32Ei
+_ZN11vr_internal12CVRPathReads9ReadBatchEm
+_ZN11vr_internal12CVRPathReads9ReadBatchEmPKNS_13CVRPathHandleEj
+_ZN11vr_internal12CVRPathReads9ReadBatchEmPKmj
 _ZN11vr_internal12VRBlockQueueEv
 _ZN11vr_internal12VRPropertiesEv
 _ZN11vr_internal13CVRPathHandleD1Ev
@@ -2138,8 +2149,8 @@ _ZN11vr_internal22VRApplicationsInternalEv
 _ZN11vr_internal22VRDriverDirectInternalEv
 _ZN11vr_internal22VRRenderModelsInternalEv
 _ZN11vr_internal23VRTrackedCameraInternalEv
-_ZN11vr_internal24VRCameraPassThruInternalEv
 _ZN11vr_internal26VRCompositorSystemInternalEv
+_ZN11vr_internal27VRCameraPassthroughInternalEv
 _ZN11vr_internal7VRDebugEv
 _ZN11vr_internal7VRInputEv
 _ZN11vr_internal7VRPathsEv
@@ -2161,6 +2172,18 @@ _ZN12CLogCallback10InitializeESt8functionIFv9ELogLevelPKcPvEES4_
 _ZN12CLogCallback10InitializeESt8functionIFv9ELogLevelPKcPvEES4_.cold
 _ZN12CLogCallbackD1Ev
 _ZN12CLogCallbackD2Ev
+_ZN12CThreadEvent3SetEv
+_ZN12CThreadEvent5CheckEv
+_ZN12CThreadEvent5ResetEv
+_ZN12CThreadEventC1EPKcbb
+_ZN12CThreadEventC1Eb
+_ZN12CThreadEventC2EPKcbb
+_ZN12CThreadEventC2EPKcbb.cold
+_ZN12CThreadEventC2Eb
+_ZN12CThreadMutexC1Ev
+_ZN12CThreadMutexC2Ev
+_ZN12CThreadMutexD1Ev
+_ZN12CThreadMutexD2Ev
 _ZN12QApplication4execEv
 _ZN12QApplicationC1ERiPPci
 _ZN12QApplicationD1Ev
@@ -2193,6 +2216,9 @@ _ZN13CBaseRendererC2Ev
 _ZN13CBaseRendererD0Ev
 _ZN13CBaseRendererD1Ev
 _ZN13CBaseRendererD2Ev
+_ZN13CThreadRWLock11UnlockWriteEv
+_ZN13CThreadRWLock11WaitForReadEv
+_ZN13CThreadRWLock12LockForWriteEv
 _ZN14CQOverlayImage10leaveEventEP6QEvent
 _ZN14CQOverlayImage10paintEventEP11QPaintEvent
 _ZN14CQOverlayImage10wheelEventEP11QWheelEvent
@@ -2291,6 +2317,10 @@ _ZN15CQOverlayViewerC2Ev.cold
 _ZN15CQOverlayViewerD0Ev
 _ZN15CQOverlayViewerD1Ev
 _ZN15CQOverlayViewerD2Ev
+_ZN15CThreadLocalIntIlED1Ev
+_ZN15CThreadLocalIntIlED2Ev
+_ZN15CThreadLocalPtrI7CThreadED1Ev
+_ZN15CThreadLocalPtrI7CThreadED2Ev
 _ZN15CThreadWatchdog10TickParentEv
 _ZN15CThreadWatchdog13InitWatchdogsEv
 _ZN15CThreadWatchdog15GetDetailStringEv
@@ -2344,97 +2374,48 @@ _ZN15QAbstractButton10setCheckedEb
 _ZN15QAbstractButton7setIconERK5QIcon
 _ZN15QAbstractButton7setTextERK7QString
 _ZN15QGuiApplication23platformNativeInterfaceEv
+_ZN16CThreadFullMutex7ReleaseEv
+_ZN16CThreadFullMutexC1EbPKcbb
+_ZN16CThreadFullMutexC2EbPKcbb
+_ZN16CThreadFullMutexC2EbPKcbb.cold
+_ZN16CThreadLocalBase3SetEPv
+_ZN16CThreadLocalBaseC1Ev
+_ZN16CThreadLocalBaseC2Ev
+_ZN16CThreadLocalBaseD1Ev
+_ZN16CThreadLocalBaseD2Ev
+_ZN16CThreadSemaphore7ReleaseEl
+_ZN16CThreadSemaphoreC1Ell
+_ZN16CThreadSemaphoreC2Ell
+_ZN16CThreadSemaphoreC2Ell.cold
 _ZN16QCoreApplication14addLibraryPathERK7QString
 _ZN16QCoreApplication18setApplicationNameERK7QString
 _ZN16QCoreApplication19setOrganizationNameERK7QString
 _ZN16QCoreApplication21setOrganizationDomainERK7QString
 _ZN16QCoreApplication9argumentsEv
-_ZN16QTableWidgetItem7setDataEiRK8QVariant
 _ZN16QTableWidgetItemC1Ei
-_ZN16SteamThreadTools12CThreadEvent3SetEv
-_ZN16SteamThreadTools12CThreadEvent5CheckEv
-_ZN16SteamThreadTools12CThreadEvent5ResetEv
-_ZN16SteamThreadTools12CThreadEventC1EPKcbb
-_ZN16SteamThreadTools12CThreadEventC1Eb
-_ZN16SteamThreadTools12CThreadEventC2EPKcbb
-_ZN16SteamThreadTools12CThreadEventC2EPKcbb.cold
-_ZN16SteamThreadTools12CThreadEventC2Eb
-_ZN16SteamThreadTools12CThreadMutexC1Ev
-_ZN16SteamThreadTools12CThreadMutexC2Ev
-_ZN16SteamThreadTools12CThreadMutexD1Ev
-_ZN16SteamThreadTools12CThreadMutexD2Ev
-_ZN16SteamThreadTools13CThreadRWLock11UnlockWriteEv
-_ZN16SteamThreadTools13CThreadRWLock11WaitForReadEv
-_ZN16SteamThreadTools13CThreadRWLock12LockForWriteEv
-_ZN16SteamThreadTools15CThreadLocalIntIlED1Ev
-_ZN16SteamThreadTools15CThreadLocalIntIlED2Ev
-_ZN16SteamThreadTools15CThreadLocalPtrINS_7CThreadEED1Ev
-_ZN16SteamThreadTools15CThreadLocalPtrINS_7CThreadEED2Ev
-_ZN16SteamThreadTools16CThreadFullMutex7ReleaseEv
-_ZN16SteamThreadTools16CThreadFullMutexC1EbPKcbb
-_ZN16SteamThreadTools16CThreadFullMutexC2EbPKcbb
-_ZN16SteamThreadTools16CThreadFullMutexC2EbPKcbb.cold
-_ZN16SteamThreadTools16CThreadLocalBase3SetEPv
-_ZN16SteamThreadTools16CThreadLocalBaseC1Ev
-_ZN16SteamThreadTools16CThreadLocalBaseC2Ev
-_ZN16SteamThreadTools16CThreadLocalBaseD1Ev
-_ZN16SteamThreadTools16CThreadLocalBaseD2Ev
-_ZN16SteamThreadTools16CThreadSemaphore7ReleaseEl
-_ZN16SteamThreadTools16CThreadSemaphoreC1Ell
-_ZN16SteamThreadTools16CThreadSemaphoreC2Ell
-_ZN16SteamThreadTools16CThreadSemaphoreC2Ell.cold
-_ZN16SteamThreadTools17CThreadSpinRWLock10UnlockReadEv
-_ZN16SteamThreadTools17CThreadSpinRWLock11LockForReadEv
-_ZN16SteamThreadTools17CThreadSpinRWLock11UnlockWriteEv
-_ZN16SteamThreadTools17CThreadSpinRWLock16SpinLockForWriteEj
-_ZN16SteamThreadTools17CThreadSyncObject13AssertUseableEv
-_ZN16SteamThreadTools17CThreadSyncObject14SaveNameToFileEPKc
-_ZN16SteamThreadTools17CThreadSyncObject21OpenSemaphoreInternalEPKcb
-_ZN16SteamThreadTools17CThreadSyncObject22CloseSemaphoreInternalEibPKc
-_ZN16SteamThreadTools17CThreadSyncObject23CreateSemaphoreInternalEPKclbPb
-_ZN16SteamThreadTools17CThreadSyncObject24AcquireSemaphoreInternalEj
-_ZN16SteamThreadTools17CThreadSyncObject24ReleaseSemaphoreInternalEil
-_ZN16SteamThreadTools17CThreadSyncObject27IsSemaphoreOrphanedInternalEii
-_ZN16SteamThreadTools17CThreadSyncObject29EnsureSemaphorePostedInternalEi
-_ZN16SteamThreadTools17CThreadSyncObject30EnsureSemaphoreClearedInternalEi
-_ZN16SteamThreadTools17CThreadSyncObject30SignalThreadSyncObjectInternalEv
-_ZN16SteamThreadTools17CThreadSyncObject33CreateAnonymousSyncObjectInternalEbb
-_ZN16SteamThreadTools17CThreadSyncObject4WaitEj
-_ZN16SteamThreadTools17CThreadSyncObject4WaitEj.part.0
-_ZN16SteamThreadTools17CThreadSyncObjectC1Ev
-_ZN16SteamThreadTools17CThreadSyncObjectC2Ev
-_ZN16SteamThreadTools17CThreadSyncObjectD1Ev
-_ZN16SteamThreadTools17CThreadSyncObjectD2Ev
-_ZN16SteamThreadTools17CThreadSyncObjectD2Ev.part.0
-_ZN16SteamThreadTools7CThread10ThreadProcEPv
-_ZN16SteamThreadTools7CThread10ThreadProcEPv.cold
-_ZN16SteamThreadTools7CThread11SetPriorityEi
-_ZN16SteamThreadTools7CThread13GetThreadProcEv
-_ZN16SteamThreadTools7CThread15IsThreadRunningEv
-_ZN16SteamThreadTools7CThread17BHasValidThreadIDEv
-_ZN16SteamThreadTools7CThread17GetCurrentCThreadEv
-_ZN16SteamThreadTools7CThread21WaitForCreateCompleteEPNS_12CThreadEventE
-_ZN16SteamThreadTools7CThread22ThreadExceptionWrapperEPv
-_ZN16SteamThreadTools7CThread4InitEv
-_ZN16SteamThreadTools7CThread4JoinEj
-_ZN16SteamThreadTools7CThread4StopEi
-_ZN16SteamThreadTools7CThread5SleepEj
-_ZN16SteamThreadTools7CThread5StartEj
-_ZN16SteamThreadTools7CThread5StartEj.cold
-_ZN16SteamThreadTools7CThread5YieldEv
-_ZN16SteamThreadTools7CThread6OnExitEv
-_ZN16SteamThreadTools7CThread6ResumeEv
-_ZN16SteamThreadTools7CThread7GetNameEv
-_ZN16SteamThreadTools7CThread7IsAliveEv
-_ZN16SteamThreadTools7CThread7SetNameEPKc
-_ZN16SteamThreadTools7CThread7SuspendEv
-_ZN16SteamThreadTools7CThread9TerminateEi
-_ZN16SteamThreadTools7CThreadC1Ev
-_ZN16SteamThreadTools7CThreadC2Ev
-_ZN16SteamThreadTools7CThreadD0Ev
-_ZN16SteamThreadTools7CThreadD1Ev
-_ZN16SteamThreadTools7CThreadD2Ev
-_ZN16SteamThreadTools7CThreadD2Ev.part.0
+_ZN17CThreadSpinRWLock10UnlockReadEv
+_ZN17CThreadSpinRWLock11LockForReadEv
+_ZN17CThreadSpinRWLock11UnlockWriteEv
+_ZN17CThreadSpinRWLock16SpinLockForWriteEj
+_ZN17CThreadSyncObject13AssertUseableEv
+_ZN17CThreadSyncObject14SaveNameToFileEPKc
+_ZN17CThreadSyncObject21OpenSemaphoreInternalEPKcb
+_ZN17CThreadSyncObject22CloseSemaphoreInternalEibPKc
+_ZN17CThreadSyncObject23CreateSemaphoreInternalEPKclbPb
+_ZN17CThreadSyncObject24AcquireSemaphoreInternalEj
+_ZN17CThreadSyncObject24ReleaseSemaphoreInternalEil
+_ZN17CThreadSyncObject27IsSemaphoreOrphanedInternalEii
+_ZN17CThreadSyncObject29EnsureSemaphorePostedInternalEi
+_ZN17CThreadSyncObject30EnsureSemaphoreClearedInternalEi
+_ZN17CThreadSyncObject30SignalThreadSyncObjectInternalEv
+_ZN17CThreadSyncObject33CreateAnonymousSyncObjectInternalEbb
+_ZN17CThreadSyncObject4WaitEj
+_ZN17CThreadSyncObject4WaitEj.part.0
+_ZN17CThreadSyncObjectC1Ev
+_ZN17CThreadSyncObjectC2Ev
+_ZN17CThreadSyncObjectD1Ev
+_ZN17CThreadSyncObjectD2Ev
+_ZN17CThreadSyncObjectD2Ev.part.0
 _ZN17QAbstractItemView14clearSelectionEv
 _ZN17QAbstractItemView15setEditTriggersE6QFlagsINS_11EditTriggerEE
 _ZN17QAbstractItemView16setSelectionModeENS_13SelectionModeE
@@ -3033,6 +3014,35 @@ _ZN7CAssert13AssertMsgImplEPKcjbjz
 _ZN7CAssert13AssertMsgImplEPKcjbjz.cold
 _ZN7CAssert14RemoveCallbackEP15CAssertCallback
 _ZN7CAssert7m_mutexE
+_ZN7CThread10ThreadProcEPv
+_ZN7CThread10ThreadProcEPv.cold
+_ZN7CThread11SetPriorityEi
+_ZN7CThread13GetThreadProcEv
+_ZN7CThread15IsThreadRunningEv
+_ZN7CThread17BHasValidThreadIDEv
+_ZN7CThread17GetCurrentCThreadEv
+_ZN7CThread21WaitForCreateCompleteEP12CThreadEvent
+_ZN7CThread22ThreadExceptionWrapperEPv
+_ZN7CThread4InitEv
+_ZN7CThread4JoinEj
+_ZN7CThread4StopEi
+_ZN7CThread5SleepEj
+_ZN7CThread5StartEj
+_ZN7CThread5StartEj.cold
+_ZN7CThread5YieldEv
+_ZN7CThread6OnExitEv
+_ZN7CThread6ResumeEv
+_ZN7CThread7GetNameEv
+_ZN7CThread7IsAliveEv
+_ZN7CThread7SetNameEPKc
+_ZN7CThread7SuspendEv
+_ZN7CThread9TerminateEi
+_ZN7CThreadC1Ev
+_ZN7CThreadC2Ev
+_ZN7CThreadD0Ev
+_ZN7CThreadD1Ev
+_ZN7CThreadD2Ev
+_ZN7CThreadD2Ev.part.0
 _ZN7CVulkan10BeginSceneEffff
 _ZN7CVulkan10ClearImageEP9VkImage_T13VkImageLayoutffff
 _ZN7CVulkan10InitializeEiim
@@ -3072,6 +3082,8 @@ _ZN7QString15fromUtf8_helperEPKci
 _ZN7QString15toLatin1_helperERKS_
 _ZN7QString16fromAscii_helperEPKci
 _ZN7QString6appendERKS_
+_ZN7QString7sprintfEPKcz
+_ZN7QString8fromUcs4EPKji
 _ZN7QStringC1EPKc
 _ZN7QStringC2EPKc
 _ZN7QStringD1Ev
@@ -3261,6 +3273,7 @@ _ZNK11QMainWindow9saveStateEi
 _ZNK11QMainWindow9statusBarEv
 _ZNK11QMetaObject2trEPKcS1_i
 _ZNK11QObjectData17dynamicMetaObjectEv
+_ZNK11vr_internal12CVRPathReads7IsValidEv
 _ZNK12CDirIterator13BCurrentIsDirEv
 _ZNK12CDirIterator16BCurrentIsHiddenEv
 _ZNK12CDirIterator16BCurrentIsSystemEv
@@ -3288,11 +3301,9 @@ _ZNK15CVRPathRegistry21GetRuntimeHistoryPathEj
 _ZNK15CVRPathRegistry22GetExternalDriverCountEv
 _ZNK15CVRPathRegistry22GetRuntimeHistoryCountEv
 _ZNK15QAbstractButton9isCheckedEv
-_ZNK16SteamThreadTools16CThreadFullMutex9IsCreatorEv
-_ZNK16SteamThreadTools16CThreadLocalBase3GetEv
-_ZNK16SteamThreadTools17CThreadSyncObjectntEv
-_ZNK16SteamThreadTools7CThread11GetPriorityEv
-_ZNK16SteamThreadTools7CThread9GetResultEv
+_ZNK16CThreadFullMutex9IsCreatorEv
+_ZNK16CThreadLocalBase3GetEv
+_ZNK17CThreadSyncObjectntEv
 _ZNK22CVRPathRegistry_Public10GetLogPathEv
 _ZNK22CVRPathRegistry_Public11BSaveToFileEv
 _ZNK22CVRPathRegistry_Public11BSaveToFileEv.cold
@@ -3419,6 +3430,9 @@ _ZNK6QColor3redEv
 _ZNK6QColor3rgbEv
 _ZNK6QColor4blueEv
 _ZNK6QColor5greenEv
+_ZNK7CThread11GetPriorityEv
+_ZNK7CThread9GetResultEv
+_ZNK7QString3argERKS_i5QChar
 _ZNK7QString3argEdici5QChar
 _ZNK7QString3argExii5QChar
 _ZNK7QString3argEyii5QChar
@@ -3462,21 +3476,22 @@ _ZNKSt19__codecvt_utf8_baseIDiE16do_always_noconvEv
 _ZNKSt19__codecvt_utf8_baseIDiE5do_inER11__mbstate_tPKcS4_RS4_PDiS6_RS6_
 _ZNKSt19__codecvt_utf8_baseIDiE6do_outER11__mbstate_tPKDiS4_RS4_PcS6_RS6_
 _ZNKSt19__codecvt_utf8_baseIDiE9do_lengthER11__mbstate_tPKcS4_m
-_ZNKSt19__codecvt_utf8_baseIwE10do_unshiftER11__mbstate_tPcS3_RS3_
-_ZNKSt19__codecvt_utf8_baseIwE11do_encodingEv
-_ZNKSt19__codecvt_utf8_baseIwE13do_max_lengthEv
-_ZNKSt19__codecvt_utf8_baseIwE16do_always_noconvEv
-_ZNKSt19__codecvt_utf8_baseIwE5do_inER11__mbstate_tPKcS4_RS4_PwS6_RS6_
-_ZNKSt19__codecvt_utf8_baseIwE6do_outER11__mbstate_tPKwS4_RS4_PcS6_RS6_
-_ZNKSt19__codecvt_utf8_baseIwE9do_lengthER11__mbstate_tPKcS4_m
 _ZNKSt23__codecvt_abstract_baseIwc11__mbstate_tE2inERS0_PKcS4_RS4_PwS6_RS6_
 _ZNKSt23__codecvt_abstract_baseIwc11__mbstate_tE3outERS0_PKwS4_RS4_PcS6_RS6_
+_ZNKSt25__codecvt_utf8_utf16_baseIwE10do_unshiftER11__mbstate_tPcS3_RS3_
+_ZNKSt25__codecvt_utf8_utf16_baseIwE11do_encodingEv
+_ZNKSt25__codecvt_utf8_utf16_baseIwE13do_max_lengthEv
+_ZNKSt25__codecvt_utf8_utf16_baseIwE16do_always_noconvEv
+_ZNKSt25__codecvt_utf8_utf16_baseIwE5do_inER11__mbstate_tPKcS4_RS4_PwS6_RS6_
+_ZNKSt25__codecvt_utf8_utf16_baseIwE6do_outER11__mbstate_tPKwS4_RS4_PcS6_RS6_
+_ZNKSt25__codecvt_utf8_utf16_baseIwE9do_lengthER11__mbstate_tPKcS4_m
 _ZNKSt5ctypeIcE13_M_widen_initEv
 _ZNKSt5ctypeIcE8do_widenEc
 _ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEmmm
 _ZNSbIwSt11char_traitsIwESaIwEE12_M_leak_hardEv
 _ZNSbIwSt11char_traitsIwESaIwEE4_Rep10_M_destroyERKS1_
 _ZNSbIwSt11char_traitsIwESaIwEE4_Rep20_S_empty_rep_storageE
+_ZNSbIwSt11char_traitsIwESaIwEE4_Rep9_S_createEmmRKS1_
 _ZNSbIwSt11char_traitsIwESaIwEE6resizeEmw
 _ZNSbIwSt11char_traitsIwESaIwEEC1ERKS1_
 _ZNSbIwSt11char_traitsIwESaIwEEC1ERKS2_
@@ -3539,9 +3554,6 @@ _ZNSt12__basic_fileIcED1Ev
 _ZNSt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EED0Ev
 _ZNSt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EED1Ev
 _ZNSt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EED2Ev
-_ZNSt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EED0Ev
-_ZNSt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EED1Ev
-_ZNSt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EED2Ev
 _ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode
 _ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv
 _ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev
@@ -3553,8 +3565,8 @@ _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcmm
 _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev
 _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
 _ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev
-_ZNSt15wstring_convertISt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EEwSaIwESaIcEED1Ev
-_ZNSt15wstring_convertISt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EEwSaIwESaIcEED2Ev
+_ZNSt15wstring_convertISt18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EEwSaIwESaIcEED1Ev
+_ZNSt15wstring_convertISt18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EEwSaIwESaIcEED2Ev
 _ZNSt17_Function_handlerIFPvPKcEZ33InitInternalInterfacesNonStandardPS3_EUlS2_E_E10_M_managerERSt9_Any_dataRKS7_St18_Manager_operation
 _ZNSt17_Function_handlerIFPvPKcEZ33InitInternalInterfacesNonStandardPS3_EUlS2_E_E9_M_invokeERKSt9_Any_dataOS2_
 _ZNSt17_Function_handlerIFPvPKcEZN15CQOverlayViewer10InitOpenVREvEUlS2_E_E10_M_managerERSt9_Any_dataRKS7_St18_Manager_operation
@@ -3568,13 +3580,16 @@ _ZNSt17_Function_handlerIFv9ELogLevelPKcPvEZN10CLogBufferC4EvEUlS0_S2_S3_E_E9_M_
 _ZNSt17_Function_handlerIFv9ELogLevelPKcPvEZN10CLogBufferC4EvEUlS0_S2_S3_E_E9_M_invokeERKSt9_Any_dataOS0_OS2_OS3_.cold
 _ZNSt17_Function_handlerIFv9ELogLevelPKcPvEZN6CVRLog7InitLogES2_S2_bmEUlS0_S2_S3_E_E10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
 _ZNSt17_Function_handlerIFv9ELogLevelPKcPvEZN6CVRLog7InitLogES2_S2_bmEUlS0_S2_S3_E_E9_M_invokeERKSt9_Any_dataOS0_OS2_OS3_
+_ZNSt18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EED0Ev
+_ZNSt18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EED1Ev
+_ZNSt18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EED2Ev
 _ZNSt18condition_variable10notify_oneEv
 _ZNSt18condition_variableC1Ev
 _ZNSt18condition_variableD1Ev
 _ZNSt19__codecvt_utf8_baseIDiED2Ev
-_ZNSt19__codecvt_utf8_baseIwED2Ev
 _ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev
 _ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZNSt25__codecvt_utf8_utf16_baseIwED2Ev
 _ZNSt27__uninitialized_default_n_1ILb1EE18__uninit_default_nIP21VkExtensionPropertiesmEET_S4_T0_
 _ZNSt3setISsSt4lessISsESaISsEE6insertEOSs
 _ZNSt5dequeIN4Json6Reader9ErrorInfoESaIS2_EE15_M_erase_at_endESt15_Deque_iteratorIS2_RS2_PS2_E
@@ -3603,6 +3618,8 @@ _ZNSt6vectorI13VkImageLayoutSaIS0_EE17_M_default_appendEm
 _ZNSt6vectorI20BufferedLogMessage_tSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
 _ZNSt6vectorI21VkExtensionPropertiesSaIS0_EE17_M_default_appendEm
 _ZNSt6vectorI23VkQueueFamilyPropertiesSaIS0_EE17_M_default_appendEm
+_ZNSt6vectorIN2vr10PathRead_tESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+_ZNSt6vectorIN2vr10PathRead_tESaIS1_EE7reserveEm
 _ZNSt6vectorIN2vr22ETrackedDevicePropertyESaIS1_EED1Ev
 _ZNSt6vectorIN2vr22ETrackedDevicePropertyESaIS1_EED2Ev
 _ZNSt6vectorIN4Json12PathArgumentESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
@@ -3650,7 +3667,7 @@ _ZNSt8ios_baseD2Ev
 _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E
 _ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate
 _ZNSt9exceptionD2Ev
-_ZNV16SteamThreadTools15CThreadSpinLock4LockEj
+_ZNV15CThreadSpinLock4LockEj
 _ZSt11_Hash_bytesPKvmm
 _ZSt16__do_str_codecvtISbIwSt11char_traitsIwESaIwEEcSt7codecvtIwc11__mbstate_tES5_MS6_KFNSt12codecvt_base6resultERS5_PKcSB_RSB_PwSD_RSD_EEbPKT0_SJ_RT_RKT1_RT2_RmT3_
 _ZSt16__do_str_codecvtISswSt7codecvtIwc11__mbstate_tES1_MS2_KFNSt12codecvt_base6resultERS1_PKwS7_RS7_PcS9_RS9_EEbPKT0_SF_RT_RKT1_RT2_RmT3_
@@ -3683,10 +3700,10 @@ _ZTI14CQOverlayImage
 _ZTI15CQOverlayViewer
 _ZTI15CVulkanRenderer
 _ZTI30CSharedResourceNamespaceServer
+_ZTI7CThread
 _ZTI7QWidget
 _ZTI9IRenderer
 _ZTIFbcE
-_ZTIN16SteamThreadTools7CThreadE
 _ZTIN3IPC10ISharedMemE
 _ZTIN3IPC11ISyncObjectE
 _ZTIN3IPC17PosixSharedMemoryE
@@ -3712,9 +3729,9 @@ _ZTINSt6thread11_State_implINS_8_InvokerISt5tupleIJZN22CThreadWatchdogManager13I
 _ZTINSt6thread6_StateE
 _ZTIPFbcE
 _ZTISt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
-_ZTISt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
+_ZTISt18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EE
 _ZTISt19__codecvt_utf8_baseIDiE
-_ZTISt19__codecvt_utf8_baseIwE
+_ZTISt25__codecvt_utf8_utf16_baseIwE
 _ZTISt9exception
 _ZTIZ13InitDriverLogPN2vr12IVRDriverLogEEUl9ELogLevelPKcPvE_
 _ZTIZ33InitInternalInterfacesNonStandardPFPvPKcEEUlS1_E_
@@ -3727,9 +3744,9 @@ _ZTS14CQOverlayImage
 _ZTS15CQOverlayViewer
 _ZTS15CVulkanRenderer
 _ZTS30CSharedResourceNamespaceServer
+_ZTS7CThread
 _ZTS9IRenderer
 _ZTSFbcE
-_ZTSN16SteamThreadTools7CThreadE
 _ZTSN3IPC10ISharedMemE
 _ZTSN3IPC11ISyncObjectE
 _ZTSN3IPC17PosixSharedMemoryE
@@ -3754,7 +3771,7 @@ _ZTSN4Json9ExceptionE
 _ZTSNSt6thread11_State_implINS_8_InvokerISt5tupleIJZN22CThreadWatchdogManager13InitWatchdogsEvEUlvE_EEEEEE
 _ZTSPFbcE
 _ZTSSt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
-_ZTSSt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
+_ZTSSt18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EE
 _ZTSZ13InitDriverLogPN2vr12IVRDriverLogEEUl9ELogLevelPKcPvE_
 _ZTSZ33InitInternalInterfacesNonStandardPFPvPKcEEUlS1_E_
 _ZTSZN10CLogBufferC4EvEUl9ELogLevelPKcPvE_
@@ -3768,11 +3785,11 @@ _ZTV14CQOverlayImage
 _ZTV15CQOverlayViewer
 _ZTV15CVulkanRenderer
 _ZTV30CSharedResourceNamespaceServer
+_ZTV7CThread
 _ZTVN10__cxxabiv117__class_type_infoE
 _ZTVN10__cxxabiv119__pointer_type_infoE
 _ZTVN10__cxxabiv120__function_type_infoE
 _ZTVN10__cxxabiv120__si_class_type_infoE
-_ZTVN16SteamThreadTools7CThreadE
 _ZTVN3IPC17PosixSharedMemoryE
 _ZTVN3IPC17SharedObjectEventE
 _ZTVN3IPC17SharedObjectMutexE
@@ -3790,11 +3807,11 @@ _ZTVN4Json6WriterE
 _ZTVN4Json9ExceptionE
 _ZTVNSt6thread11_State_implINS_8_InvokerISt5tupleIJZN22CThreadWatchdogManager13InitWatchdogsEvEUlvE_EEEEEE
 _ZTVSt12codecvt_utf8IDiLm1114111ELSt12codecvt_mode0EE
-_ZTVSt12codecvt_utf8IwLm1114111ELSt12codecvt_mode0EE
 _ZTVSt13basic_filebufIcSt11char_traitsIcEE
 _ZTVSt14basic_ifstreamIcSt11char_traitsIcEE
 _ZTVSt15basic_streambufIcSt11char_traitsIcEE
 _ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE
+_ZTVSt18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EE
 _ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE
 _ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE
 _ZTVSt9basic_iosIcSt11char_traitsIcEE
@@ -3854,8 +3871,8 @@ _ZZ33GetStringForTrackedDevicePropertyN2vr22ETrackedDevicePropertyEE3buf
 _ZZ34BIsTrackedDevicePropertyMandantoryN2vr22ETrackedDevicePropertyEE11eKeysVector
 _ZZ34BIsTrackedDevicePropertyMandantoryN2vr22ETrackedDevicePropertyEE5eKeys
 _ZZ5crc32jPKvmE8crcTable
-_ZZ8UTF16to8PKwE11s_converter
-_ZZ8UTF8to16PKcE11s_converter
+_ZZ8UTF16to8RKSbIwSt11char_traitsIwESaIwEEE9s_convert
+_ZZ8UTF8to16RKSsE9s_convert
 _ZZL12FillPipeAddrR11sockaddr_unSsE7sPrefix
 _ZZL23BIsHapticLoggingEnabledvE15s_bNeedsRecheck
 _ZZL23BIsHapticLoggingEnabledvE21s_bIsHapticLogEnabled
@@ -4208,6 +4225,10 @@ openf
 openvr.component.vrserver
 openvrpaH
 overlay_viewer.dbg
+pRead->unBufferSize > 0u
+pRead->unRequiredBufferSize == sizeof( T )
+pRead->unTag == unTag
+pRead->unTag == vr::k_unStringPropertyTag
 pfnSteamAPI_SetBreakpadAppID
 pfnSteamAPI_SetMiniDumpComment
 pfnSteamAPI_UseBreakpadCrashHandler
@@ -4342,12 +4363,18 @@ t$8H)
 t$XH9
 t$hH)
 t&vJH
+t5H;_
+t:H;_
 t;<.u
+t=H;_
+tCH;_
 tEXtSoftware
-t[H;=Ll
+t[H;=
 t_L9m
+t`H;^
 tb;0H
 tchinese
+td[A\]
 terminator.3
 th_th
 tl_pLeafSharedState
@@ -4863,6 +4890,7 @@ wRr@L
 waitpid
 wcslen
 webinterface/dashboard/localization/webhelper_
+wmemcpy
 wn>Jj
 write
 wstring_convert::from_bytes

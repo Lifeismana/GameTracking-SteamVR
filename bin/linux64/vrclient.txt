@@ -237,6 +237,8 @@
  b (anonymous namespace)::CVRMsg_Input_SetActionManifestPathResponse_reflection_
  b (anonymous namespace)::CVRMsg_Input_SetActionManifestPath_descriptor_
  b (anonymous namespace)::CVRMsg_Input_SetActionManifestPath_reflection_
+ b (anonymous namespace)::CVRMsg_Input_SetXrInputConfigResponse_descriptor_
+ b (anonymous namespace)::CVRMsg_Input_SetXrInputConfigResponse_reflection_
  b (anonymous namespace)::CVRMsg_Input_SetXrInputConfig_descriptor_
  b (anonymous namespace)::CVRMsg_Input_SetXrInputConfig_reflection_
  b (anonymous namespace)::CVRMsg_LaunchApplicationForMimeTypeResponse_descriptor_
@@ -470,6 +472,7 @@
  b CDriverManager::GetDriverName(unsigned int) const::strEmpty
  b CHmdSystemLatest::GetVRStartupReason()::k_pathStartupReason
  b CHmdSystemLatest::ShouldShowTrackerUI()::k_pathShowTrackerUi
+ b CInputProfileLoader::BLoadInputProfileForDevice(Json::Value&, unsigned long, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> > const&, std::string*)::k_pathTrackerRole
  b CKeyframedDataResource::MyTypeID()::sID
  b CKeyframedDataResource::m_typeInfoCKeyframedDataResource
  b CLegacyInput::RunInputFrame(bool)::k_pathLegacyDebuggerPid
@@ -486,16 +489,9 @@
  b CSharedResourceBaseLinux::CSharedResourceData::s_CacheLock
  b CSharedResourceBaseLinux::CSharedResourceData::s_CachedResourceData
  b CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
- b CSxrInstance::ComputeBindingFiles()::k_pathCosmosController
- b CSxrInstance::ComputeBindingFiles()::k_pathFocus3Controller
- b CSxrInstance::ComputeBindingFiles()::k_pathG2Controller
- b CSxrInstance::ComputeBindingFiles()::k_pathIndexController
- b CSxrInstance::ComputeBindingFiles()::k_pathMRController
- b CSxrInstance::ComputeBindingFiles()::k_pathSimpleController
- b CSxrInstance::ComputeBindingFiles()::k_pathTouchController
- b CSxrInstance::ComputeBindingFiles()::k_pathViveController
  b CSxrInstance::GetExtensionsAvailable()::__executeCount
  b CSxrInstance::sm_vecExtensionsAvailable
+ b CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView> >&, XrViewLocateInfo const*, XrViewState*)::unLastSeatedSpaceRequestTime
  b CSxrSession::UpdateInteractionProfile()::rTopLevelPaths
  b CTransform::xIdentity
  b CVRCompositorClient::SubmitEyeInternal(vr::EVREye, unsigned int, vr::VRTextureWithPose_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)::__executeCount
@@ -611,6 +607,7 @@
  b CVRMsg_Input_SetActionManifestPath::default_instance_
  b CVRMsg_Input_SetActionManifestPathResponse::default_instance_
  b CVRMsg_Input_SetXrInputConfig::default_instance_
+ b CVRMsg_Input_SetXrInputConfigResponse::default_instance_
  b CVRMsg_LaunchApplication::default_instance_
  b CVRMsg_LaunchApplicationForMimeType::default_instance_
  b CVRMsg_LaunchApplicationForMimeTypeResponse::default_instance_
@@ -788,8 +785,8 @@
  b ThreadInitSchedulerForRtkit()::sInitMutex
  b ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
  b ThreadShellExecute::bInstalledSignalHandler
- b UTF16to8(wchar_t const*)::s_converter
- b UTF8to16(char const*)::s_converter
+ b UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+ b UTF8to16(std::string const&)::s_convert
  b VRCrashPreCrashSetMinidumpComment(char const*)::szMinidumpCommentBuffer
  b VRWriteMiniDump_Internal(char const*, unsigned int, void*, bool)::s_mutex
  b VectorAligned::vForward
@@ -857,6 +854,7 @@
  b g_legalInteractionProfiles
  b g_mutex
  b g_nCurThreadSuspendCount
+ b g_pActiveInstance
  b g_pApplicationsLatest
  b g_pAssertCallback
  b g_pBlockQueueLatest
@@ -915,7 +913,7 @@
  b g_pVRApplications
  b g_pVRApplicationsInternal
  b g_pVRBlockQueue
- b g_pVRCameraPassThruInternal
+ b g_pVRCameraPassthroughInternal
  b g_pVRChaperone
  b g_pVRChaperoneInternal
  b g_pVRChaperoneSetup
@@ -957,6 +955,7 @@
  b guard variable for CDriverManager::GetDriverName(unsigned int) const::strEmpty
  b guard variable for CHmdSystemLatest::GetVRStartupReason()::k_pathStartupReason
  b guard variable for CHmdSystemLatest::ShouldShowTrackerUI()::k_pathShowTrackerUi
+ b guard variable for CInputProfileLoader::BLoadInputProfileForDevice(Json::Value&, unsigned long, std::vector<ProfileComponentInfo_t, std::allocator<ProfileComponentInfo_t> > const&, std::string*)::k_pathTrackerRole
  b guard variable for CLegacyInput::RunInputFrame(bool)::k_pathLegacyDebuggerPid
  b guard variable for CPropertyContainer::BInit(std::string const&, bool)::vecReportedErrors
  b guard variable for CRenderModelManager::GetModelInfo(char const*, bool)::k_pathInputJoystick
@@ -966,14 +965,6 @@
  b guard variable for CSettingsManager::GetValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
  b guard variable for CSettingsSetting::GetDefaultValue() const::Empty
  b guard variable for CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathCosmosController
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathFocus3Controller
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathG2Controller
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathIndexController
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathMRController
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathSimpleController
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathTouchController
- b guard variable for CSxrInstance::ComputeBindingFiles()::k_pathViveController
  b guard variable for CSxrSession::UpdateInteractionProfile()::rTopLevelPaths
  b guard variable for CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)::s_pVrSettings
  b guard variable for CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
@@ -1010,8 +1001,8 @@
  b guard variable for SplitInputPath(std::string const&, std::string*, std::string*)::k_sProximityPathPrefix
  b guard variable for SteamVRVersionAsString()::s_sCachedVersion
  b guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
- b guard variable for UTF16to8(wchar_t const*)::s_converter
- b guard variable for UTF8to16(char const*)::s_converter
+ b guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
+ b guard variable for UTF8to16(std::string const&)::s_convert
  b guard variable for gli::dx::dx()::Table
  b guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>::operator()(char) const::__nul
  b guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>::operator()(char) const::__nul
@@ -1037,6 +1028,8 @@
  b k_pathChaperoneShowingWorkingPid
  b k_pathChaperoneStandingTransform
  b k_pathChaperoneState
+ b k_pathRoleAnkleLeft
+ b k_pathRoleAnkleRight
  b k_pathRoleCamera
  b k_pathRoleChest
  b k_pathRoleElbowLeft
@@ -1050,6 +1043,10 @@
  b k_pathRoleShoulderLeft
  b k_pathRoleShoulderRight
  b k_pathRoleWaist
+ b k_pathRoleWristLeft
+ b k_pathRoleWristRight
+ b k_pathUserAnkleLeft
+ b k_pathUserAnkleRight
  b k_pathUserCamera
  b k_pathUserChest
  b k_pathUserElbowLeft
@@ -1063,6 +1060,8 @@
  b k_pathUserShoulderLeft
  b k_pathUserShoulderRight
  b k_pathUserWaist
+ b k_pathUserWristLeft
+ b k_pathUserWristRight
  b k_rInputPaths
  b k_rTrackerPaths
  b loadedDevice
@@ -1586,6 +1585,9 @@
  b vrScreenshots001
  b vrSteamPrivate001
  b vrSteamPrivate002
+ b vrSteamPrivate003
+ b vrSteamPrivate004
+ b vrSteamPrivate005
  b vrWatchdogHost001
  b vrapplications001
  b vrapplications002
@@ -1815,6 +1817,7 @@
  d VulkanVRRenderer::computeShaderDefs
  d VulkanVRRenderer::iedCameraDecodeQuad
  d VulkanVRRenderer::iedCameraProxyGeom
+ d VulkanVRRenderer::iedCameraSimplifiedProxyGeom
  d VulkanVRRenderer::iedDistort
  d VulkanVRRenderer::iedGeom
  d VulkanVRRenderer::iedGeomFloor
@@ -2077,4 +2080,1754 @@
  d typeinfo for CSxrDeletableBase
  d typeinfo for CSxrDispatchableHandle<CSxrAction, XrAction_T*>
  d typeinfo for CSxrDispatchableHandle<CSxrActionSet, XrActionSet_T*>
- d typeinfo for CSxrDispatchableHandle<CSxrHandTr
+ d typeinfo for CSxrDispatchableHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*>
+ d typeinfo for CSxrDispatchableHandle<CSxrInstance, XrInstance_T*>
+ d typeinfo for CSxrDispatchableHandle<CSxrSession, XrSession_T*>
+ d typeinfo for CSxrDispatchableHandle<CSxrSpace, XrSpace_T*>
+ d typeinfo for CSxrDispatchableHandle<CSxrSwapchainBase, XrSwapchain_T*>
+ d typeinfo for CSxrGraphicsBindingGLOpenVR
+ d typeinfo for CSxrGraphicsBindingPrism
+ d typeinfo for CSxrGraphicsBindingVulkanOpenVR
+ d typeinfo for CSxrHandTrackerEXT
+ d typeinfo for CSxrInstance
+ d typeinfo for CSxrParentBase
+ d typeinfo for CSxrSession
+ d typeinfo for CSxrSpace
+ d typeinfo for CSxrSwapchainBase
+ d typeinfo for CSxrSwapchainGLOpenVR
+ d typeinfo for CSxrSwapchainPrism
+ d typeinfo for CSxrSwapchainVulkanOpenVR
+ d typeinfo for CSyncLockThread
+ d typeinfo for CThread
+ d typeinfo for CTrackedDeviceServerDriverAdapter
+ d typeinfo for CVRApplications_001
+ d typeinfo for CVRApplications_002
+ d typeinfo for CVRApplications_003
+ d typeinfo for CVRApplications_004
+ d typeinfo for CVRApplications_005
+ d typeinfo for CVRApplications_006
+ d typeinfo for CVRBlockQueueManager
+ d typeinfo for CVRBlockQueue_001
+ d typeinfo for CVRBlockQueue_002
+ d typeinfo for CVRBlockQueue_003
+ d typeinfo for CVRBlockQueue_004
+ d typeinfo for CVRCameraComponentAdapter
+ d typeinfo for CVRCameraComponent_001
+ d typeinfo for CVRCameraComponent_002
+ d typeinfo for CVRCameraComponent_Latest
+ d typeinfo for CVRChaperoneClient
+ d typeinfo for CVRChaperoneSetup_001
+ d typeinfo for CVRChaperoneSetup_002
+ d typeinfo for CVRChaperoneSetup_003
+ d typeinfo for CVRChaperoneSetup_004
+ d typeinfo for CVRChaperoneSetup_005
+ d typeinfo for CVRChaperone_001
+ d typeinfo for CVRChaperone_002
+ d typeinfo for CVRChaperone_003
+ d typeinfo for CVRClientCore_001
+ d typeinfo for CVRClientCore_002
+ d typeinfo for CVRCompositorClient
+ d typeinfo for CVRCompositorClientBase
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSet<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
+ d typeinfo for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>
+ d typeinfo for CVRCompositorSharedTextures::CTextureCacheKey
+ d typeinfo for CVRCompositorSharedTextures::ISharedTextureSet
+ d typeinfo for CVRCompositorSharedTextures::IVRSharedTexture
+ d typeinfo for CVRCompositor_003
+ d typeinfo for CVRCompositor_004
+ d typeinfo for CVRCompositor_005
+ d typeinfo for CVRCompositor_006
+ d typeinfo for CVRCompositor_007
+ d typeinfo for CVRCompositor_008
+ d typeinfo for CVRCompositor_009
+ d typeinfo for CVRCompositor_010
+ d typeinfo for CVRCompositor_011
+ d typeinfo for CVRCompositor_012
+ d typeinfo for CVRCompositor_013
+ d typeinfo for CVRCompositor_014
+ d typeinfo for CVRCompositor_015
+ d typeinfo for CVRCompositor_016
+ d typeinfo for CVRCompositor_017
+ d typeinfo for CVRCompositor_018
+ d typeinfo for CVRCompositor_019
+ d typeinfo for CVRCompositor_020
+ d typeinfo for CVRCompositor_021
+ d typeinfo for CVRCompositor_022
+ d typeinfo for CVRCompositor_023
+ d typeinfo for CVRCompositor_024
+ d typeinfo for CVRCompositor_025
+ d typeinfo for CVRCompositor_026
+ d typeinfo for CVRControlPanel_001
+ d typeinfo for CVRControlPanel_002
+ d typeinfo for CVRControlPanel_003
+ d typeinfo for CVRControlPanel_004
+ d typeinfo for CVRControlPanel_005
+ d typeinfo for CVRControllerComponentAdapter
+ d typeinfo for CVRControllerComponent_Latest
+ d typeinfo for CVRDashboardManager_001
+ d typeinfo for CVRDebug
+ d typeinfo for CVRDisplayComponentAdapter
+ d typeinfo for CVRDisplayComponent_001
+ d typeinfo for CVRDisplayComponent_Latest
+ d typeinfo for CVRDriverDirectModeComponentAdapter
+ d typeinfo for CVRDriverDirectModeComponent_001
+ d typeinfo for CVRDriverDirectModeComponent_002
+ d typeinfo for CVRDriverDirectModeComponent_003
+ d typeinfo for CVRDriverDirectModeComponent_004
+ d typeinfo for CVRDriverDirectModeComponent_005
+ d typeinfo for CVRDriverDirectModeComponent_006
+ d typeinfo for CVRDriverDirectModeComponent_007
+ d typeinfo for CVRDriverDirectModeComponent_Latest
+ d typeinfo for CVRFramerateGovernor
+ d typeinfo for CVRIOBuffer
+ d typeinfo for CVRIOBuffer_001
+ d typeinfo for CVRIOBuffer_002
+ d typeinfo for CVRInputLatest
+ d typeinfo for CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long, unsigned long)::{lambda(unsigned long)#1}
+ d typeinfo for CVRInput_001
+ d typeinfo for CVRInput_002
+ d typeinfo for CVRInput_003
+ d typeinfo for CVRInput_004
+ d typeinfo for CVRInput_005
+ d typeinfo for CVRInput_006
+ d typeinfo for CVRInput_007
+ d typeinfo for CVRInput_008
+ d typeinfo for CVRInput_009
+ d typeinfo for CVRLog::InitLog(char const*, char const*, bool, unsigned long)::{lambda(ELogLevel, char const*, void*)#1}
+ d typeinfo for CVRMailbox
+ d typeinfo for CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::{lambda(Json::Value const&)#1}
+ d typeinfo for CVRMailboxBase
+ d typeinfo for CVRMailboxClient
+ d typeinfo for CVRMailbox_001
+ d typeinfo for CVRMsg_AbortApplicationTransition
+ d typeinfo for CVRMsg_AcknowledgeQuit_Exiting
+ d typeinfo for CVRMsg_ApplicationInfo
+ d typeinfo for CVRMsg_ApplicationInfo_Manifest
+ d typeinfo for CVRMsg_ApplicationInfo_Options
+ d typeinfo for CVRMsg_ApplicationManifestRequest
+ d typeinfo for CVRMsg_ApplicationManifestResponse
+ d typeinfo for CVRMsg_CancelApplicationLaunch
+ d typeinfo for CVRMsg_CancelApplicationLaunchResponse
+ d typeinfo for CVRMsg_ChangeAppType
+ d typeinfo for CVRMsg_ChangeAppTypeResponse
+ d typeinfo for CVRMsg_ClientMailbox_GetNextMessage
+ d typeinfo for CVRMsg_ClientMailbox_GetNextMessageResponse
+ d typeinfo for CVRMsg_ClientMailbox_RegisterMailbox
+ d typeinfo for CVRMsg_ClientMailbox_RegisterMailboxResponse
+ d typeinfo for CVRMsg_ClientMailbox_SendMailboxMessage
+ d typeinfo for CVRMsg_ClientMailbox_SendMailboxMessageResponse
+ d typeinfo for CVRMsg_ClientMailbox_UnregisterMailbox
+ d typeinfo for CVRMsg_ClientMailbox_UnregisterMailboxResponse
+ d typeinfo for CVRMsg_CompositorBringToFront
+ d typeinfo for CVRMsg_CompositorClearFrameBuffer
+ d typeinfo for CVRMsg_CompositorConnect
+ d typeinfo for CVRMsg_CompositorConnectResponse
+ d typeinfo for CVRMsg_CompositorDumpImages
+ d typeinfo for CVRMsg_CompositorDumpImagesAll
+ d typeinfo for CVRMsg_CompositorGetScreenshotPropertyFilename
+ d typeinfo for CVRMsg_CompositorGetScreenshotPropertyFilenameResponse
+ d typeinfo for CVRMsg_CompositorGetScreenshotPropertyType
+ d typeinfo for CVRMsg_CompositorGetScreenshotPropertyTypeResponse
+ d typeinfo for CVRMsg_CompositorGoToBack
+ d typeinfo for CVRMsg_CompositorHookScreenshot
+ d typeinfo for CVRMsg_CompositorHookScreenshotResponse
+ d typeinfo for CVRMsg_CompositorKeyboardShown
+ d typeinfo for CVRMsg_CompositorKeyboardShownResponse
+ d typeinfo for CVRMsg_CompositorNewSharedBuffer
+ d typeinfo for CVRMsg_CompositorNewSharedBufferResponse
+ d typeinfo for CVRMsg_CompositorNewSharedImage
+ d typeinfo for CVRMsg_CompositorNewSharedImageResponse
+ d typeinfo for CVRMsg_CompositorNewSharedSemaphore
+ d typeinfo for CVRMsg_CompositorNewSharedSemaphoreResponse
+ d typeinfo for CVRMsg_CompositorQuit
+ d typeinfo for CVRMsg_CompositorRefSharedResource
+ d typeinfo for CVRMsg_CompositorRefSharedResourceResponse
+ d typeinfo for CVRMsg_CompositorRequestScreenshot
+ d typeinfo for CVRMsg_CompositorRequestScreenshotResponse
+ d typeinfo for CVRMsg_CompositorSetDashboardVisibilityResponse
+ d typeinfo for CVRMsg_CompositorSubmitScreenshot
+ d typeinfo for CVRMsg_CompositorSubmitScreenshotResponse
+ d typeinfo for CVRMsg_CompositorTakeStereoScreenshot
+ d typeinfo for CVRMsg_CompositorTakeStereoScreenshotResponse
+ d typeinfo for CVRMsg_CompositorUnrefSharedResource
+ d typeinfo for CVRMsg_CompositorUnrefSharedResourceResponse
+ d typeinfo for CVRMsg_CompositorUpdateScreenshotProgress
+ d typeinfo for CVRMsg_CompositorUpdateScreenshotProgressResponse
+ d typeinfo for CVRMsg_ComputeDistortion
+ d typeinfo for CVRMsg_ComputeDistortionBatched
+ d typeinfo for CVRMsg_ComputeDistortionBatchedResponse
+ d typeinfo for CVRMsg_ComputeDistortionBatchedResponse_OutputCoord
+ d typeinfo for CVRMsg_ComputeDistortionBatched_InputCoord
+ d typeinfo for CVRMsg_ComputeDistortionResponse
+ d typeinfo for CVRMsg_Connect
+ d typeinfo for CVRMsg_ConnectResponse
+ d typeinfo for CVRMsg_CreateSwapTextureSet
+ d typeinfo for CVRMsg_CreateSwapTextureSetResponse
+ d typeinfo for CVRMsg_DashboardStarted
+ d typeinfo for CVRMsg_DefaultBinding
+ d typeinfo for CVRMsg_DestroySwapTextureSet
+ d typeinfo for CVRMsg_DriverDebugRequest
+ d typeinfo for CVRMsg_DriverDebugResponse
+ d typeinfo for CVRMsg_GetApplicationInfo
+ d typeinfo for CVRMsg_GetApplicationLaunchArguments
+ d typeinfo for CVRMsg_GetApplicationLaunchArgumentsResponse
+ d typeinfo for CVRMsg_GetDisplayInfo
+ d typeinfo for CVRMsg_GetDisplayInfoResponse
+ d typeinfo for CVRMsg_GetDisplayInfoResponse_DisplayInfo
+ d typeinfo for CVRMsg_GetDriverDetail
+ d typeinfo for CVRMsg_GetDriverDetailResponse
+ d typeinfo for CVRMsg_GetDriverInfo
+ d typeinfo for CVRMsg_GetDriverInfoResponse
+ d typeinfo for CVRMsg_GetDriverInfoResponse_DriverInfo
+ d typeinfo for CVRMsg_Input_GetActionBindings
+ d typeinfo for CVRMsg_Input_GetActionBindingsResponse
+ d typeinfo for CVRMsg_Input_GetOriginLocalizedName
+ d typeinfo for CVRMsg_Input_GetOriginLocalizedNameResponse
+ d typeinfo for CVRMsg_Input_SetActionManifestPath
+ d typeinfo for CVRMsg_Input_SetActionManifestPathResponse
+ d typeinfo for CVRMsg_Input_SetXrInputConfig
+ d typeinfo for CVRMsg_Input_SetXrInputConfigResponse
+ d typeinfo for CVRMsg_LaunchApplication
+ d typeinfo for CVRMsg_LaunchApplicationForMimeType
+ d typeinfo for CVRMsg_LaunchApplicationForMimeTypeResponse
+ d typeinfo for CVRMsg_LaunchApplicationResponse
+ d typeinfo for CVRMsg_LaunchInternalProcess
+ d typeinfo for CVRMsg_LaunchInternalProcessResponse
+ d typeinfo for CVRMsg_LaunchTemplateApplication
+ d typeinfo for CVRMsg_LaunchTemplateApplicationResponse
+ d typeinfo for CVRMsg_LaunchTemplateApplication_AppOverrideKey
+ d typeinfo for CVRMsg_LogMessageToServer
+ d typeinfo for CVRMsg_MimeType
+ d typeinfo for CVRMsg_NoResponse
+ d typeinfo for CVRMsg_OculusSDKStart
+ d typeinfo for CVRMsg_Path_HandleToString
+ d typeinfo for CVRMsg_Path_HandleToStringResponse
+ d typeinfo for CVRMsg_Path_StringToHandle
+ d typeinfo for CVRMsg_Path_StringToHandleResponse
+ d typeinfo for CVRMsg_PerformApplicationPrelaunchCheck
+ d typeinfo for CVRMsg_PerformApplicationPrelaunchCheckResponse
+ d typeinfo for CVRMsg_PowerOffTrackedDevice
+ d typeinfo for CVRMsg_PrismPrioritySet
+ d typeinfo for CVRMsg_QuitProcessRequest
+ d typeinfo for CVRMsg_QuitProcessResponse
+ d typeinfo for CVRMsg_RegisterExternalWebRoot
+ d typeinfo for CVRMsg_ReloadChaperone
+ d typeinfo for CVRMsg_SendWebMessage
+ d typeinfo for CVRMsg_ServiceConnect
+ d typeinfo for CVRMsg_ServiceConnectResponse
+ d typeinfo for CVRMsg_SetApplicationOptions
+ d typeinfo for CVRMsg_SetApplicationOptionsResponse
+ d typeinfo for CVRMsg_SetApplicationProcessId
+ d typeinfo for CVRMsg_SetApplicationProcessIdResponse
+ d typeinfo for CVRMsg_SetDefaultApplicationForMimeType
+ d typeinfo for CVRMsg_SetDefaultApplicationForMimeTypeResponse
+ d typeinfo for CVRMsg_SetMasterProcess
+ d typeinfo for CVRMsg_SetMasterProcessResponse
+ d typeinfo for CVRMsg_SetMasterProcessRestartHint
+ d typeinfo for CVRMsg_SetMasterProcessRestartHintResponse
+ d typeinfo for CVRMsg_Settings_GetBool
+ d typeinfo for CVRMsg_Settings_GetBool_Response
+ d typeinfo for CVRMsg_Settings_GetNumeric
+ d typeinfo for CVRMsg_Settings_GetNumeric_Response
+ d typeinfo for CVRMsg_Settings_GetString
+ d typeinfo for CVRMsg_Settings_GetString_Response
+ d typeinfo for CVRMsg_Settings_GetValueType
+ d typeinfo for CVRMsg_Settings_GetValueType_Response
+ d typeinfo for CVRMsg_Settings_RemoveKeyInSection
+ d typeinfo for CVRMsg_Settings_RemoveSection
+ d typeinfo for CVRMsg_Settings_SetBool
+ d typeinfo for CVRMsg_Settings_SetNumeric
+ d typeinfo for CVRMsg_Settings_SetString
+ d typeinfo for CVRMsg_Settings_SetValue_Response
+ d typeinfo for CVRMsg_ShouldKillTheaterPancakeProcess
+ d typeinfo for CVRMsg_ShouldKillTheaterPancakeProcessResponse
+ d typeinfo for CVRMsg_ShutdownSystem
+ d typeinfo for CVRMsg_ShutdownSystemResponse
+ d typeinfo for CVRMsg_StartAutolaunchOverlays
+ d typeinfo for CVRMsg_StartDashboard
+ d typeinfo for CVRMsg_StartDashboardResponse
+ d typeinfo for CVRMsg_StartHomeAppResponse
+ d typeinfo for CVRMsg_TrackedCamera_AcquireVideoStreamingService
+ d typeinfo for CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
+ d typeinfo for CVRMsg_TrackedCamera_Enable
+ d typeinfo for CVRMsg_TrackedCamera_EnableResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetDistortion
+ d typeinfo for CVRMsg_TrackedCamera_GetDistortionResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetDistortionResponse_OutputCoord
+ d typeinfo for CVRMsg_TrackedCamera_GetDistortion_InputCoord
+ d typeinfo for CVRMsg_TrackedCamera_GetFormatDimensions
+ d typeinfo for CVRMsg_TrackedCamera_GetFormatDimensionsResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetFrameBounds
+ d typeinfo for CVRMsg_TrackedCamera_GetFrameBoundsResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetIntrinsics
+ d typeinfo for CVRMsg_TrackedCamera_GetIntrinsicsResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetProjection
+ d typeinfo for CVRMsg_TrackedCamera_GetProjectionResponse
+ d typeinfo for CVRMsg_TrackedCamera_GetVideoStreamFormat
+ d typeinfo for CVRMsg_TrackedCamera_GetVideoStreamFormatResponse
+ d typeinfo for CVRMsg_TrackedCamera_IsVideoStreamActive
+ d typeinfo for CVRMsg_TrackedCamera_IsVideoStreamActiveResponse
+ d typeinfo for CVRMsg_TrackedCamera_PauseVideoStream
+ d typeinfo for CVRMsg_TrackedCamera_PauseVideoStreamResponse
+ d typeinfo for CVRMsg_TrackedCamera_ReleaseVideoStreamingService
+ d typeinfo for CVRMsg_TrackedCamera_ReleaseVideoStreamingServiceResponse
+ d typeinfo for CVRMsg_TrackedCamera_ResumeVideoStream
+ d typeinfo for CVRMsg_TrackedCamera_ResumeVideoStreamResponse
+ d typeinfo for CVRMsg_TrackedCamera_SetAutoExposure
+ d typeinfo for CVRMsg_TrackedCamera_SetAutoExposureResponse
+ d typeinfo for CVRMsg_TrackedCamera_SetCompatibilityMode
+ d typeinfo for CVRMsg_TrackedCamera_SetCompatibilityModeResponse
+ d typeinfo for CVRMsg_TrackedCamera_SetVideoStreamFormat
+ d typeinfo for CVRMsg_TrackedCamera_SetVideoStreamFormatResponse
+ d typeinfo for CVRMsg_TrackedCamera_StartVideoStream
+ d typeinfo for CVRMsg_TrackedCamera_StartVideoStreamResponse
+ d typeinfo for CVRMsg_TrackedCamera_StopVideoStream
+ d typeinfo for CVRMsg_TrackedCamera_StopVideoStreamResponse
+ d typeinfo for CVRMsg_TriggerHapticPulse
+ d typeinfo for CVRMsg_UpdateChaperoneUniverse
+ d typeinfo for CVRMsg_UpdateChaperoneUniverseResponse
+ d typeinfo for CVRMsg_UpdateZeroPose
+ d typeinfo for CVRMsg_WritePropertyDataToFile
+ d typeinfo for CVRMsg_WritePropertyDataToFileResponse
+ d typeinfo for CVRNotifications_001
+ d typeinfo for CVROverlayLatest
+ d typeinfo for CVROverlayViewLatest
+ d typeinfo for CVROverlayView_001
+ d typeinfo for CVROverlayView_002
+ d typeinfo for CVROverlay_001
+ d typeinfo for CVROverlay_002
+ d typeinfo for CVROverlay_003
+ d typeinfo for CVROverlay_004
+ d typeinfo for CVROverlay_005
+ d typeinfo for CVROverlay_006
+ d typeinfo for CVROverlay_007
+ d typeinfo for CVROverlay_008
+ d typeinfo for CVROverlay_009
+ d typeinfo for CVROverlay_010
+ d typeinfo for CVROverlay_011
+ d typeinfo for CVROverlay_012
+ d typeinfo for CVROverlay_013
+ d typeinfo for CVROverlay_014
+ d typeinfo for CVROverlay_015
+ d typeinfo for CVROverlay_016
+ d typeinfo for CVROverlay_017
+ d typeinfo for CVROverlay_018
+ d typeinfo for CVROverlay_019
+ d typeinfo for CVROverlay_020
+ d typeinfo for CVROverlay_021
+ d typeinfo for CVROverlay_022
+ d typeinfo for CVROverlay_023
+ d typeinfo for CVROverlay_024
+ d typeinfo for CVROverlay_025
+ d typeinfo for CVROverlay_026
+ d typeinfo for CVRRenderModels_001
+ d typeinfo for CVRRenderModels_002
+ d typeinfo for CVRRenderModels_003
+ d typeinfo for CVRRenderModels_004
+ d typeinfo for CVRRenderModels_005
+ d typeinfo for CVRReplyMailbox
+ d typeinfo for CVRResourcesLatest
+ d typeinfo for CVRScreenshotsLatest
+ d typeinfo for CVRScreenshots_001
+ d typeinfo for CVRSettings_001
+ d typeinfo for CVRSettings_002
+ d typeinfo for CVRSharedGLTexture
+ d typeinfo for CVRSharedVulkanTexture
+ d typeinfo for CVRSpatialAnchorsLatest
+ d typeinfo for CVRSteamPrivate_001
+ d typeinfo for CVRSteamPrivate_002
+ d typeinfo for CVRSteamPrivate_003
+ d typeinfo for CVRSteamPrivate_004
+ d typeinfo for CVRSteamPrivate_005
+ d typeinfo for CVRSystemLatest
+ d typeinfo for CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}
+ d typeinfo for CVRSystem_001
+ d typeinfo for CVRSystem_002
+ d typeinfo for CVRSystem_003
+ d typeinfo for CVRSystem_004
+ d typeinfo for CVRSystem_005
+ d typeinfo for CVRSystem_006
+ d typeinfo for CVRSystem_007
+ d typeinfo for CVRSystem_008
+ d typeinfo for CVRSystem_009
+ d typeinfo for CVRSystem_010
+ d typeinfo for CVRSystem_011
+ d typeinfo for CVRSystem_012
+ d typeinfo for CVRSystem_013
+ d typeinfo for CVRSystem_014
+ d typeinfo for CVRSystem_015
+ d typeinfo for CVRSystem_016
+ d typeinfo for CVRSystem_017
+ d typeinfo for CVRSystem_018
+ d typeinfo for CVRSystem_019
+ d typeinfo for CVRSystem_020
+ d typeinfo for CVRSystem_021
+ d typeinfo for CVRTrackedCamera_002
+ d typeinfo for CVRTrackedCamera_003
+ d typeinfo for CVRTrackedCamera_004
+ d typeinfo for CVRTrackedCamera_005
+ d typeinfo for CVRTrackedDevice_004
+ d typeinfo for CVRTrackedDevice_Latest
+ d typeinfo for CVRVirtualDisplayComponentAdapter
+ d typeinfo for CVRVirtualDisplayComponent_001
+ d typeinfo for CVRVirtualDisplayComponent_Latest
+ d typeinfo for CVRWatchdogHost_001
+ d typeinfo for CVirtualDisplayClient
+ d typeinfo for CVkBuffer
+ d typeinfo for CVkCommandBuffer
+ d typeinfo for CVkCommandBufferPool
+ d typeinfo for CVkGarbageCollector
+ d typeinfo for CVkImage
+ d typeinfo for CVkMemory
+ d typeinfo for CVkPoolGarbageCollector<CVkCommandBuffer>
+ d typeinfo for CVkPoolableResource<CVkCommandBufferPool>
+ d typeinfo for CVkResourceBase
+ d typeinfo for CVkResourcePool<CVkCommandBuffer>
+ d typeinfo for CVkTimeline
+ d typeinfo for CVulkanVRRenderer
+ d typeinfo for CWatchdogDriverContext
+ d typeinfo for CWatchdogTrackedDeviceProvider
+ d typeinfo for CWatchdogTrackedDeviceProvider_Latest
+ d typeinfo for ChaperoneInterfaceRegistration<CVRChaperone_001>
+ d typeinfo for ChaperoneInterfaceRegistration<CVRChaperone_002>
+ d typeinfo for ChaperoneInterfaceRegistration<CVRChaperone_003>
+ d typeinfo for ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_001>
+ d typeinfo for ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_002>
+ d typeinfo for ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_003>
+ d typeinfo for ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_004>
+ d typeinfo for ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_005>
+ d typeinfo for ComponentAdapterBaseNoParent<IVRCameraComponent001, &k_pchCameraComponentPrefix, 1, CVRCameraComponent_001>
+ d typeinfo for ComponentAdapterBaseNoParent<IVRDisplayComponent001, &k_pchDisplayComponentPrefix, 1, CVRDisplayComponent_001>
+ d typeinfo for ComponentAdapterBaseNoParent<IVRVirtualDisplay001, &k_pchVirtualDisplayComponentPrefix, 1, CVRVirtualDisplayComponent_001>
+ d typeinfo for ComponentAdapterBaseNoParent<vr::IVRControllerComponent, &k_pchControllerComponentPrefix, 1, CVRControllerComponent_Latest>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRCameraComponent002, &k_pchCameraComponentPrefix, 2, CVRCameraComponent_002, CVRCameraComponent_001>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_001, &k_pchDriverDirectModeComponentPrefix, 1, CVRDriverDirectModeComponent_001, CVRDisplayComponent_001>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_002, &k_pchDriverDirectModeComponentPrefix, 2, CVRDriverDirectModeComponent_002, CVRDriverDirectModeComponent_001>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_003, &k_pchDriverDirectModeComponentPrefix, 3, CVRDriverDirectModeComponent_003, CVRDriverDirectModeComponent_002>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_004, &k_pchDriverDirectModeComponentPrefix, 4, CVRDriverDirectModeComponent_004, CVRDriverDirectModeComponent_003>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_005, &k_pchDriverDirectModeComponentPrefix, 5, CVRDriverDirectModeComponent_005, CVRDriverDirectModeComponent_004>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_006, &k_pchDriverDirectModeComponentPrefix, 6, CVRDriverDirectModeComponent_006, CVRDriverDirectModeComponent_005>
+ d typeinfo for ComponentAdapterBaseWithParent<IVRDriverDirectModeComponent_007, &k_pchDriverDirectModeComponentPrefix, 7, CVRDriverDirectModeComponent_007, CVRDriverDirectModeComponent_006>
+ d typeinfo for ComponentAdapterBaseWithParent<vr::IVRCameraComponent, &k_pchCameraComponentPrefix, 3, CVRCameraComponent_Latest, CVRCameraComponent_002>
+ d typeinfo for ComponentAdapterBaseWithParent<vr::IVRDisplayComponent, &k_pchDisplayComponentPrefix, 2, CVRDisplayComponent_Latest, CVRDisplayComponent_001>
+ d typeinfo for ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 8, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_007>
+ d typeinfo for ComponentAdapterBaseWithParent<vr::IVRVirtualDisplay, &k_pchVirtualDisplayComponentPrefix, 2, CVRVirtualDisplayComponent_Latest, CVRVirtualDisplayComponent_001>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_003>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_004>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_005>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_006>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_007>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_008>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_009>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_010>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_011>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_012>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_013>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_014>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_015>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_016>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_017>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_018>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_019>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_020>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_021>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_022>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_023>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_024>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_025>
+ d typeinfo for CompositorInterfaceRegistration<CVRCompositor_026>
+ d typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_001>
+ d typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_002>
+ d typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_003>
+ d typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_004>
+ d typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_005>
+ d typeinfo for ConvertHiddenAreaMesh(vr::HiddenAreaMesh_t const&, vr::EHiddenAreaMeshType, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType)::{lambda(vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&)#1}
+ d typeinfo for DashboardManagerInterfaceRegistration<CVRDashboardManager_001>
+ d typeinfo for GenericInterfaceRegistration
+ d typeinfo for HmdInterfaceRegistration<CHmd_001>
+ d typeinfo for HmdInterfaceRegistration<CHmd_002>
+ d typeinfo for HmdInterfaceRegistration<CHmd_003>
+ d typeinfo for HmdInterfaceRegistration<CHmd_004>
+ d typeinfo for HmdInterfaceRegistration<CHmd_005>
+ d typeinfo for HmdInterfaceRegistration<CHmd_006>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_001>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_002>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_003>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_004>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_005>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_006>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_007>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_008>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_009>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_010>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_011>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_012>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_013>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_014>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_015>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_016>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_017>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_018>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_019>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_020>
+ d typeinfo for HmdInterfaceRegistration<CVRSystem_021>
+ d typeinfo for IHmdSystem_002
+ d typeinfo for IHmdSystem_003
+ d typeinfo for IInputFilter
+ d typeinfo for IInputFilterValueStore
+ d typeinfo for ILockedPropertyContainer
+ d typeinfo for ILogListener
+ d typeinfo for IOBufferInterfaceRegistration<CVRIOBuffer_001>
+ d typeinfo for IOBufferInterfaceRegistration<CVRIOBuffer_002>
+ d typeinfo for IPC::IEvent
+ d typeinfo for IPC::IMutex
+ d typeinfo for IPC::ISharedMem
+ d typeinfo for IPC::ISyncObject
+ d typeinfo for IPC::PosixSharedMemory
+ d typeinfo for IPC::SharedObjectEvent
+ d typeinfo for IPC::SharedObjectMutex
+ d typeinfo for IServerDriverHost_002_003
+ d typeinfo for ITrackedDeviceServerDriver_004
+ d typeinfo for IVRCameraComponent001
+ d typeinfo for IVRCameraComponent002
+ d typeinfo for IVRChaperoneInternal
+ d typeinfo for IVRClientHandler
+ d typeinfo for IVRClientInternal
+ d typeinfo for IVRDisplayComponent001
+ d typeinfo for IVRDriverDirectModeComponent_001
+ d typeinfo for IVRDriverDirectModeComponent_002
+ d typeinfo for IVRDriverDirectModeComponent_003
+ d typeinfo for IVRDriverDirectModeComponent_004
+ d typeinfo for IVRDriverDirectModeComponent_005
+ d typeinfo for IVRDriverDirectModeComponent_006
+ d typeinfo for IVRDriverDirectModeComponent_007
+ d typeinfo for IVRLegacyInput
+ d typeinfo for IVRRenderer
+ d typeinfo for IVRVirtualDisplay001
+ d typeinfo for IXrBinding
+ d typeinfo for IXrCompositor
+ d typeinfo for IXrSwapchain
+ d typeinfo for InMemoryInputStream
+ d typeinfo for InMemoryStreamInputBuf
+ d typeinfo for InitDriverLog(vr::IVRDriverLog*)::{lambda(ELogLevel, char const*, void*)#1}
+ d typeinfo for InitInternalInterfacesNonStandard(void* (*)(char const*))::{lambda(char const*)#1}
+ d typeinfo for InputInterfaceRegistration<CVRInput_001>
+ d typeinfo for InputInterfaceRegistration<CVRInput_002>
+ d typeinfo for InputInterfaceRegistration<CVRInput_003>
+ d typeinfo for InputInterfaceRegistration<CVRInput_004>
+ d typeinfo for InputInterfaceRegistration<CVRInput_005>
+ d typeinfo for InputInterfaceRegistration<CVRInput_006>
+ d typeinfo for InputInterfaceRegistration<CVRInput_007>
+ d typeinfo for InputInterfaceRegistration<CVRInput_008>
+ d typeinfo for InputInterfaceRegistration<CVRInput_009>
+ d typeinfo for InterfaceRegistrationBase
+ d typeinfo for Json::BuiltStyledStreamWriter
+ d typeinfo for Json::CharReader
+ d typeinfo for Json::CharReader::Factory
+ d typeinfo for Json::CharReaderBuilder
+ d typeinfo for Json::Exception
+ d typeinfo for Json::Exception*
+ d typeinfo for Json::FastWriter
+ d typeinfo for Json::LogicError
+ d typeinfo for Json::OurCharReader
+ d typeinfo for Json::RuntimeError
+ d typeinfo for Json::StreamWriter
+ d typeinfo for Json::StreamWriter::Factory
+ d typeinfo for Json::StreamWriterBuilder
+ d typeinfo for Json::StyledWriter
+ d typeinfo for Json::Writer
+ d typeinfo for MailboxInterfaceRegistration<CVRMailbox_001>
+ d typeinfo for MaterialUtf8FileReader
+ d typeinfo for NotificationsInterfaceRegistration<CVRNotifications_001>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_001>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_002>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_003>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_004>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_005>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_006>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_007>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_008>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_009>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_010>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_011>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_012>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_013>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_014>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_015>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_016>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_017>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_018>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_019>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_020>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_021>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_022>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_023>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_024>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_025>
+ d typeinfo for OverlayInterfaceRegistration<CVROverlay_026>
+ d typeinfo for OverlayViewInterfaceRegistration<CVROverlayView_001>
+ d typeinfo for OverlayViewInterfaceRegistration<CVROverlayView_002>
+ d typeinfo for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#1}
+ d typeinfo for ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType> > const*, SuggestedBinding*)::{lambda(XrInteractionProfileAnalogThresholdVALVE const*)#2}
+ d typeinfo for ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long> >&)::{lambda(XrInteractionProfileDpadBindingEXT const*)#1}
+ d typeinfo for Reflection::Detail::ToBaseT<CBoneMaskResource, CAnimResource>
+ d typeinfo for Reflection::Detail::ToBaseT<CKeyframedDataResource, CAnimResource>
+ d typeinfo for Reflection::Detail::ToBase_t
+ d typeinfo for Reflection::Detail::TypeInfoT<CAnimResource>
+ d typeinfo for Reflection::Detail::TypeInfoT<CBoneMaskResource>
+ d typeinfo for Reflection::Detail::TypeInfoT<CKeyframedDataResource>
+ d typeinfo for Reflection::Detail::TypeInfoT<Reflection::Object>
+ d typeinfo for Reflection::Object
+ d typeinfo for Reflection::TypeInfo
+ d typeinfo for RenderModelsInterfaceRegistration<CVRRenderModels_001>
+ d typeinfo for RenderModelsInterfaceRegistration<CVRRenderModels_002>
+ d typeinfo for RenderModelsInterfaceRegistration<CVRRenderModels_003>
+ d typeinfo for RenderModelsInterfaceRegistration<CVRRenderModels_004>
+ d typeinfo for RenderModelsInterfaceRegistration<CVRRenderModels_005>
+ d typeinfo for ScreenshotsInterfaceRegistration<CVRScreenshots_001>
+ d typeinfo for SettingsInterfaceRegistration<CVRSettings_001>
+ d typeinfo for SettingsInterfaceRegistration<CVRSettings_002>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_003>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_004>
+ d typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>
+ d typeinfo for SystemInterfaceRegistration<CHmdSystem_001>
+ d typeinfo for SystemInterfaceRegistration<CHmdSystem_004>
+ d typeinfo for SystemInterfaceRegistration<CVRClientCore_001>
+ d typeinfo for SystemInterfaceRegistration<CVRClientCore_002>
+ d typeinfo for SystemInterfaceRegistration<IHmdSystem_002>
+ d typeinfo for SystemInterfaceRegistration<IHmdSystem_003>
+ d typeinfo for TrackedCameraInterfaceRegistration<CVRTrackedCamera_002>
+ d typeinfo for TrackedCameraInterfaceRegistration<CVRTrackedCamera_003>
+ d typeinfo for TrackedCameraInterfaceRegistration<CVRTrackedCamera_004>
+ d typeinfo for TrackedCameraInterfaceRegistration<CVRTrackedCamera_005>
+ d typeinfo for TrackedDeviceAdapterBaseNoParent<ITrackedDeviceServerDriver_004, CVRTrackedDevice_004>
+ d typeinfo for TrackedDeviceAdapterBaseWithParent<vr::ITrackedDeviceServerDriver, CVRTrackedDevice_Latest, CVRTrackedDevice_004>
+ d typeinfo for VRRenderer::BlendStateBase
+ d typeinfo for VRRenderer::ConstantBufferBase
+ d typeinfo for VRRenderer::DepthStencilStateBase
+ d typeinfo for VRRenderer::EventQueryBase
+ d typeinfo for VRRenderer::GPUCountingSemaphoreBase
+ d typeinfo for VRRenderer::GPUSemaphoreBase
+ d typeinfo for VRRenderer::IndexBufferBase
+ d typeinfo for VRRenderer::RasterizerStateBase
+ d typeinfo for VRRenderer::SamplerBase
+ d typeinfo for VRRenderer::TextureBase
+ d typeinfo for VRRenderer::VertexBufferBase
+ d typeinfo for VulkanVRRenderer::BlendState
+ d typeinfo for VulkanVRRenderer::ConstantBuffer
+ d typeinfo for VulkanVRRenderer::DepthStencilState
+ d typeinfo for VulkanVRRenderer::EventQuery
+ d typeinfo for VulkanVRRenderer::GPUCountingSemaphore
+ d typeinfo for VulkanVRRenderer::GPUSemaphore
+ d typeinfo for VulkanVRRenderer::IndexBuffer
+ d typeinfo for VulkanVRRenderer::RasterizerState
+ d typeinfo for VulkanVRRenderer::Sampler
+ d typeinfo for VulkanVRRenderer::Texture
+ d typeinfo for VulkanVRRenderer::VertexBuffer
+ d typeinfo for WatchdogHost<CVRWatchdogHost_001>
+ d typeinfo for XrActionSet_T
+ d typeinfo for XrActionSet_T*
+ d typeinfo for XrAction_T
+ d typeinfo for XrAction_T*
+ d typeinfo for XrHandTrackerEXT_T
+ d typeinfo for XrHandTrackerEXT_T*
+ d typeinfo for XrInstance_T
+ d typeinfo for XrInstance_T*
+ d typeinfo for XrSession_T
+ d typeinfo for XrSession_T*
+ d typeinfo for XrSpace_T
+ d typeinfo for XrSpace_T*
+ d typeinfo for XrSwapchain_T
+ d typeinfo for XrSwapchain_T*
+ d typeinfo for facet::CVkInteropDeviceNull
+ d typeinfo for facet::CVkInteropImageNull
+ d typeinfo for facet::CVkTimestampQueryPool<2u>
+ d typeinfo for facet::CVkTimestampQueryPoolBase
+ d typeinfo for facet::IFramerateGovernor
+ d typeinfo for facet::IVkInteropDevice
+ d typeinfo for facet::IVkInteropImage
+ d typeinfo for gli::texture
+ d typeinfo for nlohmann::detail::exception
+ d typeinfo for nlohmann::detail::input_adapter_protocol
+ d typeinfo for nlohmann::detail::input_buffer_adapter
+ d typeinfo for nlohmann::detail::invalid_iterator
+ d typeinfo for nlohmann::detail::other_error
+ d typeinfo for nlohmann::detail::out_of_range
+ d typeinfo for nlohmann::detail::output_adapter_protocol<char>
+ d typeinfo for nlohmann::detail::output_string_adapter<char, std::string>
+ d typeinfo for nlohmann::detail::parse_error
+ d typeinfo for nlohmann::detail::type_error
+ d typeinfo for std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)>
+ d typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<CInputActionSet, std::allocator<CInputActionSet>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<CRenderModelManager::ModelInfo_t, std::allocator<CRenderModelManager::ModelInfo_t>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<CSharedResourceBaseLinux::CSharedResourceData, std::allocator<CSharedResourceBaseLinux::CSharedResourceData>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<CSimulatedTrackpadClick, std::allocator<CSimulatedTrackpadClick>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<CSimulatedTriggerPull, std::allocator<CSimulatedTriggerPull>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<CVRCompositorSharedTextures::CVulkanFence, std::allocator<CVRCompositorSharedTextures::CVulkanFence>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<CVRInputLatest::InputFrame_t, std::allocator<CVRInputLatest::InputFrame_t>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<InputConfig_t, std::allocator<InputConfig_t>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<VcetBo, std::allocator<VcetBo>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<VcetContext, std::allocator<VcetContext>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<nlohmann::detail::input_buffer_adapter, std::allocator<nlohmann::detail::input_buffer_adapter>, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
+ d typeinfo for std::_Weak_result_type<void (CVRMailbox::*)(Json::Value const&)>
+ d typeinfo for std::_Weak_result_type_memfun<void (CVRMailbox::*)(Json::Value const&), true>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, false>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, false, true>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, false>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, false, true>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false>
+ d typeinfo for std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true>
+ d typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>
+ d typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>
+ d typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>
+ d typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>
+ d typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, false, false>
+ d typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, false, true>
+ d typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, true, false>
+ d typeinfo for std::__detail::_CharMatcher<std::regex_traits<char>, true, true>
+ d typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
+ d typeinfo for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ d typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
+ d typeinfo for sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::{lambda(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)#1}
+ d typeinfo for sxr_xrGetActionStateFloat(XrSession_T*, XrActionStateGetInfo const*, XrActionStateFloat*)::{lambda(XrAction_T*, unsigned long, XrActionStateFloat*, unsigned long*)#1}
+ d typeinfo for sxr_xrGetActionStatePose(XrSession_T*, XrActionStateGetInfo const*, XrActionStatePose*)::{lambda(XrAction_T*, unsigned long, XrActionStatePose*, unsigned long*)#1}
+ d typeinfo for sxr_xrGetActionStateVector2f(XrSession_T*, XrActionStateGetInfo const*, XrActionStateVector2f*)::{lambda(XrAction_T*, unsigned long, XrActionStateVector2f*, unsigned long*)#1}
+ d typeinfo for sxr_xrLocateViews(XrSession_T*, XrViewLocateInfo const*, XrViewState*, unsigned int, unsigned int*, XrView*)::{lambda(std::vector<XrView, std::allocator<XrView> >&)#1}
+ d typeinfo for sxr_xrSuggestInteractionProfileBindings(XrInstance_T*, XrInteractionProfileSuggestedBinding const*)::{lambda(XrBindingModificationsKHR const*)#1}
+ d typeinfo for sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::{lambda(XrActiveActionSetPrioritiesEXT const*)#1}
+ d typeinfo for tinyobj::MaterialFileReader
+ d typeinfo for tinyobj::MaterialReader
+ d typeinfo for vr::CVRApplicationsLatest
+ d typeinfo for vr::CVRNotificationsLatest
+ d typeinfo for vr::CVROverlayInternalLatest
+ d typeinfo for vr::CVRSettingsLatest
+ d typeinfo for vr::CVRSteamPrivateLatest
+ d typeinfo for vr::CVRTrackedCamera
+ d typeinfo for vr::ILiquidVR
+ d typeinfo for vr::IServerTrackedDeviceProvider
+ d typeinfo for vr::ITrackedDeviceServerDriver
+ d typeinfo for vr::IVRApplications
+ d typeinfo for vr::IVRApplicationsInternal
+ d typeinfo for vr::IVRBlockQueue
+ d typeinfo for vr::IVRCameraComponent
+ d typeinfo for vr::IVRChaperone
+ d typeinfo for vr::IVRChaperoneSetup
+ d typeinfo for vr::IVRClientCore
+ d typeinfo for vr::IVRCompositor
+ d typeinfo for vr::IVRCompositorPluginProvider
+ d typeinfo for vr::IVRCompositorSystemInternal
+ d typeinfo for vr::IVRControlPanel
+ d typeinfo for vr::IVRControllerComponent
+ d typeinfo for vr::IVRDebug
+ d typeinfo for vr::IVRDisplayComponent
+ d typeinfo for vr::IVRDriverContext
+ d typeinfo for vr::IVRDriverDirectInternal
+ d typeinfo for vr::IVRDriverDirectModeComponent
+ d typeinfo for vr::IVRDriverLog
+ d typeinfo for vr::IVRDriverManager
+ d typeinfo for vr::IVRExtendedDisplay
+ d typeinfo for vr::IVRExternalEventSource
+ d typeinfo for vr::IVRHeadsetView
+ d typeinfo for vr::IVRIOBuffer
+ d typeinfo for vr::IVRIPCResourceManagerClient
+ d typeinfo for vr::IVRInput
+ d typeinfo for vr::IVRInputInternal
+ d typeinfo for vr::IVRMCStore
+ d typeinfo for vr::IVRMailbox
+ d typeinfo for vr::IVRNotifications
+ d typeinfo for vr::IVROverlay
+ d typeinfo for vr::IVROverlayInternal
+ d typeinfo for vr::IVROverlayView
+ d typeinfo for vr::IVRPaths
+ d typeinfo for vr::IVRPathsInternal
+ d typeinfo for vr::IVRProperties
+ d typeinfo for vr::IVRPropertiesInternal
+ d typeinfo for vr::IVRRenderModels
+ d typeinfo for vr::IVRRenderModelsInternal
+ d typeinfo for vr::IVRResources
+ d typeinfo for vr::IVRResourcesInternal
+ d typeinfo for vr::IVRScreenshots
+ d typeinfo for vr::IVRSettings
+ d typeinfo for vr::IVRSettingsInternal
+ d typeinfo for vr::IVRSharedBuffer
+ d typeinfo for vr::IVRSharedCountingSemaphore
+ d typeinfo for vr::IVRSharedImage
+ d typeinfo for vr::IVRSharedResource
+ d typeinfo for vr::IVRSharedSemaphore
+ d typeinfo for vr::IVRSpatialAnchors
+ d typeinfo for vr::IVRSteamPrivate_006
+ d typeinfo for vr::IVRSystem
+ d typeinfo for vr::IVRTrackedCamera
+ d typeinfo for vr::IVRTrackedCameraInternal
+ d typeinfo for vr::IVRVirtualDisplay
+ d typeinfo for vr::IVRWatchdogHost
+ d typeinfo for vr::IVRWatchdogProvider
+ d typeinfo for vr::IXrProto
+ d vtable for ApplicationsInterfaceRegistration<CVRApplications_001>
+ d vtable for ApplicationsInterfaceRegistration<CVRApplications_002>
+ d vtable for ApplicationsInterfaceRegistration<CVRApplications_003>
+ d vtable for ApplicationsInterfaceRegistration<CVRApplications_004>
+ d vtable for ApplicationsInterfaceRegistration<CVRApplications_005>
+ d vtable for ApplicationsInterfaceRegistration<CVRApplications_006>
+ d vtable for BlockQueueInterfaceRegistration<CVRBlockQueue_001>
+ d vtable for BlockQueueInterfaceRegistration<CVRBlockQueue_002>
+ d vtable for BlockQueueInterfaceRegistration<CVRBlockQueue_003>
+ d vtable for BlockQueueInterfaceRegistration<CVRBlockQueue_004>
+ d vtable for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CAnimSkeleton>
+ d vtable for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CBoneMaskResource>
+ d vtable for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResource>
+ d vtable for CAnimResource
+ d vtable for CAnimSkeleton
+ d vtable for CAutoRestoreEnvironment
+ d vtable for CBoneMaskResource
+ d vtable for CClientPropertyManager
+ d vtable for CCompositorPluginProvider
+ d vtable for CCompositorPluginProvider_Latest
+ d vtable for CDownsampleRenderer
+ d vtable for CDriverDirectInternalClient
+ d vtable for CDriverLog
+ d vtable for CDriverManager
+ d vtable for CFixedSizePropertyContainer
+ d vtable for CHmdSystemLatest
+ d vtable for CHmdSystem_001
+ d vtable for CHmdSystem_004
+ d vtable for CHmd_001
+ d vtable for CHmd_002
+ d vtable for CHmd_003
+ d vtable for CHmd_004
+ d vtable for CHmd_005
+ d vtable for CHmd_006
+ d vtable for CIOBufferCursor
+ d vtable for CInputFilterBase
+ d vtable for CInputFilterValueStore
+ d vtable for CInputFilter_Boolean_And
+ d vtable for CInputFilter_Boolean_ButtonPressState
+ d vtable for CInputFilter_Boolean_Latch
+ d vtable for CInputFilter_Boolean_Or
+ d vtable for CInputFilter_Boolean_Threshold
+ d vtable for CInputFilter_Boolean_Toggle
+ d vtable for CInputFilter_DPad
+ d vtable for CInputFilter_Grab_ValueAndForce
+ d vtable for CInputFilter_JoystickSettings
+ d vtable for CInputFilter_Pose_Component
+ d vtable for CInputFilter_Pose_Constant
+ d vtable for CInputFilter_RadialMenu
+ d vtable for CInputFilter_RadialMenuBase
+ d vtable for CInputFilter_Scalar_Constant
+ d vtable for CInputFilter_Scalar_Deadzone
+ d vtable for CInputFilter_Scalar_Exponent
+ d vtable for CInputFilter_Scalar_JoystickScroll_Discrete
+ d vtable for CInputFilter_Scalar_JoystickScroll_Smooth
+ d vtable for CInputFilter_Scalar_ScaleAndOffset
+ d vtable for CInputFilter_Scalar_TrackpadScroll_Discrete
+ d vtable for CInputFilter_Scalar_TrackpadScroll_Smooth
+ d vtable for CInputFilter_TriggerHaptic
+ d vtable for CInputFilter_XRDPad
+ d vtable for CKeyframedDataResource
+ d vtable for CLegacyInput
+ d vtable for CMCStore
+ d vtable for CMsaaResolveRenderer
+ d vtable for CPackedBoneTransforms
+ d vtable for CPathManagerBase
+ d vtable for CPathManager_Client
+ d vtable for CPathManager_Server
+ d vtable for CPropertyContainer
+ d vtable for CPropertyManager
+ d vtable for CRenderModelLoadThread
+ d vtable for CRenderModelManager
+ d vtable for CServerDriverHost_002
+ d vtable for CServerDriverHost_003
+ d vtable for CServerTrackedDeviceProvider
+ d vtable for CServerTrackedDeviceProvider_002
+ d vtable for CServerTrackedDeviceProvider_003
+ d vtable for CServerTrackedDeviceProvider_Latest
+ d vtable for CSettingsManager
+ d vtable for CSharedBufferLinux
+ d vtable for CSharedCountingSemaphoreLinux
+ d vtable for CSharedImageLinux
+ d vtable for CSharedResourceBaseLinux
+ d vtable for CSharedResourceNamespaceServer
+ d vtable for CSharedSemaphoreLinux
+ d vtable for CSimulatedActionBase
+ d vtable for CSimulatedTrackpadClick
+ d vtable for CSimulatedTriggerPull
+ d vtable for CSxrAction
+ d vtable for CSxrActionSet
+ d vtable for CSxrChildHandle<CSxrAction, XrAction_T*, CSxrActionSet>
+ d vtable for CSxrChildHandle<CSxrActionSet, XrActionSet_T*, CSxrInstance>
+ d vtable for CSxrChildHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*, CSxrSession>
+ d vtable for CSxrChildHandle<CSxrSession, XrSession_T*, CSxrInstance>
+ d vtable for CSxrChildHandle<CSxrSwapchainBase, XrSwapchain_T*, CSxrSession>
+ d vtable for CSxrChildVariableParentHandle<CSxrSpace, XrSpace_T*, CSxrAction, CSxrSession>
+ d vtable for CSxrCompositorOpenVR
+ d vtable for CSxrCompositorPrism
+ d vtable for CSxrDispatchableHandle<CSxrAction, XrAction_T*>
+ d vtable for CSxrDispatchableHandle<CSxrActionSet, XrActionSet_T*>
+ d vtable for CSxrDispatchableHandle<CSxrHandTrackerEXT, XrHandTrackerEXT_T*>
+ d vtable for CSxrDispatchableHandle<CSxrInstance, XrInstance_T*>
+ d vtable for CSxrDispatchableHandle<CSxrSession, XrSession_T*>
+ d vtable for CSxrDispatchableHandle<CSxrSpace, XrSpace_T*>
+ d vtable for CSxrDispatchableHandle<CSxrSwapchainBase, XrSwapchain_T*>
+ d vtable for CSxrGraphicsBindingGLOpenVR
+ d vtable for CSxrGraphicsBindingPrism
+ d vtable for CSxrGraphicsBindingVulkanOpenVR
+ d vtable for CSxrHandTrackerEXT
+ d vtable for CSxrInstance
+ d vtable for CSxrParentBase
+ d vtable for CSxrSession
+ d vtable for CSxrSpace
+ d vtable for CSxrSwapchainBase
+ d vtable for CSxrSwapchainGLOpenVR
+ d vtable for CSxrSwapchainPrism
+ d vtable for CSxrSwapchainVulkanOpenVR
+ d vtable for CSyncLockThread
+ d vtable for CThread
+ d vtable for CVRApplications_001
+ d vtable for CVRApplications_002
+ d vtable for CVRApplications_003
+ d vtable for CVRApplications_004
+ d vtable for CVRApplications_005
+ d vtable for CVRApplications_006
+ d vtable for CVRBlockQueueManager
+ d vtable for CVRBlockQueue_001
+ d vtable for CVRBlockQueue_002
+ d vtable for CVRBlockQueue_003
+ d vtable for CVRBlockQueue_004
+ d vtable for CVRCameraComponent_001
+ d vtable for CVRCameraComponent_002
+ d vtable for CVRCameraComponent_Latest
+ d vtable for CVRChaperoneClient
+ d vtable for CVRChaperoneSetup_001
+ d vtable for CVRChaperoneSetup_002
+ d vtable for CVRChaperoneSetup_003
+ d vtable for CVRChaperoneSetup_004
+ d vtable for CVRChaperoneSetup_005
+ d vtable for CVRChaperone_001
+ d vtable for CVRChaperone_002
+ d vtable for CVRChaperone_003
+ d vtable for CVRClientCore_001
+ d vtable for CVRClientCore_002
+ d vtable for CVRCompositorClient
+ d vtable for CVRCompositorClientBase
+ d vtable for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 1u>
+ d vtable for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataGL_t, 3u>
+ d vtable for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 1u>
+ d vtable for CVRCompositorSharedTextures::CSharedTextureSetSHM<CVRCompositorSharedTextures::SharedTextureDataVulkan_t, 3u>
+ d vtable for CVRCompositorSharedTextures::CTextureCacheKey
+ d vtable for CVRCompositor_003
+ d vtable for CVRCompositor_004
+ d vtable for CVRCompositor_005
+ d vtable for CVRCompositor_006
+ d vtable for CVRCompositor_007
+ d vtable for CVRCompositor_008
+ d vtable for CVRCompositor_009
+ d vtable for CVRCompositor_010
+ d vtable for CVRCompositor_011
+ d vtable for CVRCompositor_012
+ d vtable for CVRCompositor_013
+ d vtable for CVRCompositor_014
+ d vtable for CVRCompositor_015
+ d vtable for CVRCompositor_016
+ d vtable for CVRCompositor_017
+ d vtable for CVRCompositor_018
+ d vtable for CVRCompositor_019
+ d vtable for CVRCompositor_020
+ d vtable for CVRCompositor_021
+ d vtable for CVRCompositor_022
+ d vtable for CVRCompositor_023
+ d vtable for CVRCompositor_024
+ d vtable for CVRCompositor_025
+ d vtable for CVRCompositor_026
+ d vtable for CVRControlPanel_001
+ d vtable for CVRControlPanel_002
+ d vtable for CVRControlPanel_003
+ d vtable for CVRControlPanel_004
+ d vtable for CVRControlPanel_005
+ d vtable for CVRControllerComponent_Latest
+ d vtable for CVRDashboardManager_001
+ d vtable for CVRDebug
+ d vtable for CVRDisplayComponent_001
+ d vtable for CVRDisplayComponent_Latest
+ d vtable for CVRDriverDirectModeComponent_001
+ d vtable for CVRDriverDirectModeComponent_002
+ d vtable for CVRDriverDirectModeComponent_003
+ d vtable for CVRDriverDirectModeComponent_004
+ d vtable for CVRDriverDirectModeComponent_005
+ d vtable for CVRDriverDirectModeComponent_006
+ d vtable for CVRDriverDirectModeComponent_007
+ d vtable for CVRDriverDirectModeComponent_Latest
+ d vtable for CVRFramerateGovernor
+ d vtable for CVRIOBuffer
+ d vtable for CVRIOBuffer_001
+ d vtable for CVRIOBuffer_002
+ d vtable for CVRInputLatest
+ d vtable for CVRInput_001
+ d vtable for CVRInput_002
+ d vtable for CVRInput_003
+ d vtable for CVRInput_004
+ d vtable for CVRInput_005
+ d vtable for CVRInput_006
+ d vtable for CVRInput_007
+ d vtable for CVRInput_008
+ d vtable for CVRInput_009
+ d vtable for CVRMailbox
+ d vtable for CVRMailboxBase
+ d vtable for CVRMailboxClient
+ d vtable for CVRMailbox_001
+ d vtable for CVRMsg_AbortApplicationTransition
+ d vtable for CVRMsg_AcknowledgeQuit_Exiting
+ d vtable for CVRMsg_ApplicationInfo
+ d vtable for CVRMsg_ApplicationInfo_Manifest
+ d vtable for CVRMsg_ApplicationInfo_Options
+ d vtable for CVRMsg_ApplicationManifestRequest
+ d vtable for CVRMsg_ApplicationManifestResponse
+ d vtable for CVRMsg_CancelApplicationLaunch
+ d vtable for CVRMsg_CancelApplicationLaunchResponse
+ d vtable for CVRMsg_ChangeAppType
+ d vtable for CVRMsg_ChangeAppTypeResponse
+ d vtable for CVRMsg_ClientMailbox_GetNextMessage
+ d vtable for CVRMsg_ClientMailbox_GetNextMessageResponse
+ d vtable for CVRMsg_ClientMailbox_RegisterMailbox
+ d vtable for CVRMsg_ClientMailbox_RegisterMailboxResponse
+ d vtable for CVRMsg_ClientMailbox_SendMailboxMessage
+ d vtable for CVRMsg_ClientMailbox_SendMailboxMessageResponse
+ d vtable for CVRMsg_ClientMailbox_UnregisterMailbox
+ d vtable for CVRMsg_ClientMailbox_UnregisterMailboxResponse
+ d vtable for CVRMsg_CompositorBringToFront
+ d vtable for CVRMsg_CompositorClearFrameBuffer
+ d vtable for CVRMsg_CompositorConnect
+ d vtable for CVRMsg_CompositorConnectResponse
+ d vtable for CVRMsg_CompositorDumpImages
+ d vtable for CVRMsg_CompositorDumpImagesAll
+ d vtable for CVRMsg_CompositorGetScreenshotPropertyFilename
+ d vtable for CVRMsg_CompositorGetScreenshotPropertyFilenameResponse
+ d vtable for CVRMsg_CompositorGetScreenshotPropertyType
+ d vtable for CVRMsg_CompositorGetScreenshotPropertyTypeResponse
+ d vtable for CVRMsg_CompositorGoToBack
+ d vtable for CVRMsg_CompositorHookScreenshot
+ d vtable for CVRMsg_CompositorHookScreenshotResponse
+ d vtable for CVRMsg_CompositorKeyboardShown
+ d vtable for CVRMsg_CompositorKeyboardShownResponse
+ d vtable for CVRMsg_CompositorNewSharedBuffer
+ d vtable for CVRMsg_CompositorNewSharedBufferResponse
+ d vtable for CVRMsg_CompositorNewSharedImage
+ d vtable for CVRMsg_CompositorNewSharedImageResponse
+ d vtable for CVRMsg_CompositorNewSharedSemaphore
+ d vtable for CVRMsg_CompositorNewSharedSemaphoreResponse
+ d vtable for CVRMsg_CompositorQuit
+ d vtable for CVRMsg_CompositorRefSharedResource
+ d vtable for CVRMsg_CompositorRefSharedResourceResponse
+ d vtable for CVRMsg_CompositorRequestScreenshot
+ d vtable for CVRMsg_CompositorRequestScreenshotResponse
+ d vtable for CVRMsg_CompositorSetDashboardVisibilityResponse
+ d vtable for CVRMsg_CompositorSubmitScreenshot
+ d vtable for CVRMsg_CompositorSubmitScreenshotResponse
+ d vtable for CVRMsg_CompositorTakeStereoScreenshot
+ d vtable for CVRMsg_CompositorTakeStereoScreenshotResponse
+ d vtable for CVRMsg_CompositorUnrefSharedResource
+ d vtable for CVRMsg_CompositorUnrefSharedResourceResponse
+ d vtable for CVRMsg_CompositorUpdateScreenshotProgress
+ d vtable for CVRMsg_CompositorUpdateScreenshotProgressResponse
+ d vtable for CVRMsg_ComputeDistortion
+ d vtable for CVRMsg_ComputeDistortionBatched
+ d vtable for CVRMsg_ComputeDistortionBatchedResponse
+ d vtable for CVRMsg_ComputeDistortionBatchedResponse_OutputCoord
+ d vtable for CVRMsg_ComputeDistortionBatched_InputCoord
+ d vtable for CVRMsg_ComputeDistortionResponse
+ d vtable for CVRMsg_Connect
+ d vtable for CVRMsg_ConnectResponse
+ d vtable for CVRMsg_CreateSwapTextureSet
+ d vtable for CVRMsg_CreateSwapTextureSetResponse
+ d vtable for CVRMsg_DashboardStarted
+ d vtable for CVRMsg_DefaultBinding
+ d vtable for CVRMsg_DestroySwapTextureSet
+ d vtable for CVRMsg_DriverDebugRequest
+ d vtable for CVRMsg_DriverDebugResponse
+ d vtable for CVRMsg_GetApplicationInfo
+ d vtable for CVRMsg_GetApplicationLaunchArguments
+ d vtable for CVRMsg_GetApplicationLaunchArgumentsResponse
+ d vtable for CVRMsg_GetDisplayInfo
+ d vtable for CVRMsg_GetDisplayInfoResponse
+ d vtable for CVRMsg_GetDisplayInfoResponse_DisplayInfo
+ d vtable for CVRMsg_GetDriverDetail
+ d vtable for CVRMsg_GetDriverDetailResponse
+ d vtable for CVRMsg_GetDriverInfo
+ d vtable for CVRMsg_GetDriverInfoResponse
+ d vtable for CVRMsg_GetDriverInfoResponse_DriverInfo
+ d vtable for CVRMsg_Input_GetActionBindings
+ d vtable for CVRMsg_Input_GetActionBindingsResponse
+ d vtable for CVRMsg_Input_GetOriginLocalizedName
+ d vtable for CVRMsg_Input_GetOriginLocalizedNameResponse
+ d vtable for CVRMsg_Input_SetActionManifestPath
+ d vtable for CVRMsg_Input_SetActionManifestPathResponse
+ d vtable for CVRMsg_Input_SetXrInputConfig
+ d vtable for CVRMsg_Input_SetXrInputConfigResponse
+ d vtable for CVRMsg_LaunchApplication
+ d vtable for CVRMsg_LaunchApplicationForMimeType
+ d vtable for CVRMsg_LaunchApplicationForMimeTypeResponse
+ d vtable for CVRMsg_LaunchApplicationResponse
+ d vtable for CVRMsg_LaunchInternalProcess
+ d vtable for CVRMsg_LaunchInternalProcessResponse
+ d vtable for CVRMsg_LaunchTemplateApplication
+ d vtable for CVRMsg_LaunchTemplateApplicationResponse
+ d vtable for CVRMsg_LaunchTemplateApplication_AppOverrideKey
+ d vtable for CVRMsg_LogMessageToServer
+ d vtable for CVRMsg_MimeType
+ d vtable for CVRMsg_NoResponse
+ d vtable for CVRMsg_OculusSDKStart
+ d vtable for CVRMsg_Path_HandleToString
+ d vtable for CVRMsg_Path_HandleToStringResponse
+ d vtable for CVRMsg_Path_StringToHandle
+ d vtable for CVRMsg_Path_StringToHandleResponse
+ d vtable for CVRMsg_PerformApplicationPrelaunchCheck
+ d vtable for CVRMsg_PerformApplicationPrelaunchCheckResponse
+ d vtable for CVRMsg_PowerOffTrackedDevice
+ d vtable for CVRMsg_PrismPrioritySet
+ d vtable for CVRMsg_QuitProcessRequest
+ d vtable for CVRMsg_QuitProcessResponse
+ d vtable for CVRMsg_RegisterExternalWebRoot
+ d vtable for CVRMsg_ReloadChaperone
+ d vtable for CVRMsg_SendWebMessage
+ d vtable for CVRMsg_ServiceConnect
+ d vtable for CVRMsg_ServiceConnectResponse
+ d vtable for CVRMsg_SetApplicationOptions
+ d vtable for CVRMsg_SetApplicationOptionsResponse
+ d vtable for CVRMsg_SetApplicationProcessId
+ d vtable for CVRMsg_SetApplicationProcessIdResponse
+ d vtable for CVRMsg_SetDefaultApplicationForMimeType
+ d vtable for CVRMsg_SetDefaultApplicationForMimeTypeResponse
+ d vtable for CVRMsg_SetMasterProcess
+ d vtable for CVRMsg_SetMasterProcessResponse
+ d vtable for CVRMsg_SetMasterProcessRestartHint
+ d vtable for CVRMsg_SetMasterProcessRestartHintResponse
+ d vtable for CVRMsg_Settings_GetBool
+ d vtable for CVRMsg_Settings_GetBool_Response
+ d vtable for CVRMsg_Settings_GetNumeric
+ d vtable for CVRMsg_Settings_GetNumeric_Response
+ d vtable for CVRMsg_Settings_GetString
+ d vtable for CVRMsg_Settings_GetString_Response
+ d vtable for CVRMsg_Settings_GetValueType
+ d vtable for CVRMsg_Settings_GetValueType_Response
+ d vtable for CVRMsg_Settings_RemoveKeyInSection
+ d vtable for CVRMsg_Settings_RemoveSection
+ d vtable for CVRMsg_Settings_SetBool
+ d vtable for CVRMsg_Settings_SetNumeric
+ d vtable for CVRMsg_Settings_SetString
+ d vtable for CVRMsg_Settings_SetValue_Response
+ d vtable for CVRMsg_ShouldKillTheaterPancakeProcess
+ d vtable for CVRMsg_ShouldKillTheaterPancakeProcessResponse
+ d vtable for CVRMsg_ShutdownSystem
+ d vtable for CVRMsg_ShutdownSystemResponse
+ d vtable for CVRMsg_StartAutolaunchOverlays
+ d vtable for CVRMsg_StartDashboard
+ d vtable for CVRMsg_StartDashboardResponse
+ d vtable for CVRMsg_StartHomeAppResponse
+ d vtable for CVRMsg_TrackedCamera_AcquireVideoStreamingService
+ d vtable for CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
+ d vtable for CVRMsg_TrackedCamera_Enable
+ d vtable for CVRMsg_TrackedCamera_EnableResponse
+ d vtable for CVRMsg_TrackedCamera_GetDistortion
+ d vtable for CVRMsg_TrackedCamera_GetDistortionResponse
+ d vtable for CVRMsg_TrackedCamera_GetDistortionResponse_OutputCoord
+ d vtable for CVRMsg_TrackedCamera_GetDistortion_InputCoord
+ d vtable for CVRMsg_TrackedCamera_GetFormatDimensions
+ d vtable for CVRMsg_TrackedCamera_GetFormatDimensionsResponse
+ d vtable for CVRMsg_TrackedCamera_GetFrameBounds
+ d vtable for CVRMsg_TrackedCamera_GetFrameBoundsResponse
+ d vtable for CVRMsg_TrackedCamera_GetIntrinsics
+ d vtable for CVRMsg_TrackedCamera_GetIntrinsicsResponse
+ d vtable for CVRMsg_TrackedCamera_GetProjection
+ d vtable for CVRMsg_TrackedCamera_GetProjectionResponse
+ d vtable for CVRMsg_TrackedCamera_GetVideoStreamFormat
+ d vtable for CVRMsg_TrackedCamera_GetVideoStreamFormatResponse
+ d vtable for CVRMsg_TrackedCamera_IsVideoStreamActive
+ d vtable for CVRMsg_TrackedCamera_IsVideoStreamActiveResponse
+ d vtable for CVRMsg_TrackedCamera_PauseVideoStream
+ d vtable for CVRMsg_TrackedCamera_PauseVideoStreamResponse
+ d vtable for CVRMsg_TrackedCamera_ReleaseVideoStreamingService
+ d vtable for CVRMsg_TrackedCamera_ReleaseVideoStreamingServiceResponse
+ d vtable for CVRMsg_TrackedCamera_ResumeVideoStream
+ d vtable for CVRMsg_TrackedCamera_ResumeVideoStreamResponse
+ d vtable for CVRMsg_TrackedCamera_SetAutoExposure
+ d vtable for CVRMsg_TrackedCamera_SetAutoExposureResponse
+ d vtable for CVRMsg_TrackedCamera_SetCompatibilityMode
+ d vtable for CVRMsg_TrackedCamera_SetCompatibilityModeResponse
+ d vtable for CVRMsg_TrackedCamera_SetVideoStreamFormat
+ d vtable for CVRMsg_TrackedCamera_SetVideoStreamFormatResponse
+ d vtable for CVRMsg_TrackedCamera_StartVideoStream
+ d vtable for CVRMsg_TrackedCamera_StartVideoStreamResponse
+ d vtable for CVRMsg_TrackedCamera_StopVideoStream
+ d vtable for CVRMsg_TrackedCamera_StopVideoStreamResponse
+ d vtable for CVRMsg_TriggerHapticPulse
+ d vtable for CVRMsg_UpdateChaperoneUniverse
+ d vtable for CVRMsg_UpdateChaperoneUniverseResponse
+ d vtable for CVRMsg_UpdateZeroPose
+ d vtable for CVRMsg_WritePropertyDataToFile
+ d vtable for CVRMsg_WritePropertyDataToFileResponse
+ d vtable for CVRNotifications_001
+ d vtable for CVROverlayLatest
+ d vtable for CVROverlayViewLatest
+ d vtable for CVROverlayView_001
+ d vtable for CVROverlayView_002
+ d vtable for CVROverlay_001
+ d vtable for CVROverlay_002
+ d vtable for CVROverlay_003
+ d vtable for CVROverlay_004
+ d vtable for CVROverlay_005
+ d vtable for CVROverlay_006
+ d vtable for CVROverlay_007
+ d vtable for CVROverlay_008
+ d vtable for CVROverlay_009
+ d vtable for CVROverlay_010
+ d vtable for CVROverlay_011
+ d vtable for CVROverlay_012
+ d vtable for CVROverlay_013
+ d vtable for CVROverlay_014
+ d vtable for CVROverlay_015
+ d vtable for CVROverlay_016
+ d vtable for CVROverlay_017
+ d vtable for CVROverlay_018
+ d vtable for CVROverlay_019
+ d vtable for CVROverlay_020
+ d vtable for CVROverlay_021
+ d vtable for CVROverlay_022
+ d vtable for CVROverlay_023
+ d vtable for CVROverlay_024
+ d vtable for CVROverlay_025
+ d vtable for CVROverlay_026
+ d vtable for CVRRenderModels_001
+ d vtable for CVRRenderModels_002
+ d vtable for CVRRenderModels_003
+ d vtable for CVRRenderModels_004
+ d vtable for CVRRenderModels_005
+ d vtable for CVRReplyMailbox
+ d vtable for CVRResourcesLatest
+ d vtable for CVRScreenshotsLatest
+ d vtable for CVRScreenshots_001
+ d vtable for CVRSettings_001
+ d vtable for CVRSettings_002
+ d vtable for CVRSharedGLTexture
+ d vtable for CVRSharedVulkanTexture
+ d vtable for CVRSpatialAnchorsLatest
+ d vtable for CVRSteamPrivate_001
+ d vtable for CVRSteamPrivate_002
+ d vtable for CVRSteamPrivate_003
+ d vtable for CVRSteamPrivate_004
+ d vtable for CVRSteamPrivate_005
+ d vtable for CVRSystemLatest
+ d vtable for CVRSystem_001
+ d vtable for CVRSystem_002
+ d vtable for CVRSystem_003
+ d vtable for CVRSystem_004
+ d vtable for CVRSystem_005
+ d vtable for CVRSystem_006
+ d vtable for CVRSystem_007
+ d vtable for CVRSystem_008
+ d vtable for CVRSystem_009
+ d vtable for CVRSystem_010
+ d vtable for CVRSystem_011
+ d vtable for CVRSystem_012
+ d vtable for CVRSystem_013
+ d vtable for CVRSystem_014
+ d vtable for CVRSystem_015
+ d vtable for CVRSystem_016
+ d vtable for CVRSystem_017
+ d vtable for CVRSystem_018
+ d vtable for CVRSystem_019
+ d vtable for CVRSystem_020
+ d vtable for CVRSystem_021
+ d vtable for CVRTrackedCamera_002
+ d vtable for CVRTrackedCamera_003
+ d vtable for CVRTrackedCamera_004
+ d vtable for CVRTrackedCamera_005
+ d vtable for CVRTrackedDevice_004
+ d vtable for CVRTrackedDevice_Latest
+ d vtable for CVRVirtualDisplayComponent_001
+ d vtable for CVRVirtualDisplayComponent_Latest
+ d vtable for CVRWatchdogHost_001
+ d vtable for CVirtualDisplayClient
+ d vtable for CVkBuffer
+ d vtable for CVkCommandBuffer
+ d vtable for CVkCommandBufferPool
+ d vtable for CVkGarbageCollector
+ d vtable for CVkImage
+ d vtable for CVkMemory
+ d vtable for CVkPoolGarbageCollector<CVkCommandBuffer>
+ d vtable for CVkResourceBase
+ d vtable for CVkResourcePool<CVkCommandBuffer>
+ d vtable for CVkTimeline
+ d vtable for CVulkanVRRenderer
+ d vtable for CWatchdogDriverContext
+ d vtable for CWatchdogTrackedDeviceProvider_Latest
+ d vtable for ChaperoneInterfaceRegistration<CVRChaperone_001>
+ d vtable for ChaperoneInterfaceRegistration<CVRChaperone_002>
+ d vtable for ChaperoneInterfaceRegistration<CVRChaperone_003>
+ d vtable for ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_001>
+ d vtable for ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_002>
+ d vtable for ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_003>
+ d vtable for ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_004>
+ d vtable for ChaperoneSetupInterfaceRegistration<CVRChaperoneSetup_005>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_003>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_004>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_005>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_006>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_007>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_008>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_009>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_010>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_011>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_012>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_013>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_014>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_015>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_016>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_017>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_018>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_019>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_020>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_021>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_022>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_023>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_024>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_025>
+ d vtable for CompositorInterfaceRegistration<CVRCompositor_026>
+ d vtable for ControlPanelInterfaceRegistration<CVRControlPanel_001>
+ d vtable for ControlPanelInterfaceRegistration<CVRControlPanel_002>
+ d vtable for ControlPanelInterfaceRegistration<CVRControlPanel_003>
+ d vtable for ControlPanelInterfaceRegistration<CVRControlPanel_004>
+ d vtable for ControlPanelInterfaceRegistration<CVRControlPanel_005>
+ d vtable for DashboardManagerInterfaceRegistration<CVRDashboardManager_001>
+ d vtable for GenericInterfaceRegistration
+ d vtable for HmdInterfaceRegistration<CHmd_001>
+ d vtable for HmdInterfaceRegistration<CHmd_002>
+ d vtable for HmdInterfaceRegistration<CHmd_003>
+ d vtable for HmdInterfaceRegistration<CHmd_004>
+ d vtable for HmdInterfaceRegistration<CHmd_005>
+ d vtable for HmdInterfaceRegistration<CHmd_006>
+ d vtable for HmdInterfaceRegistration<CVRSystem_001>
+ d vtable for HmdInterfaceRegistration<CVRSystem_002>
+ d vtable for HmdInterfaceRegistration<CVRSystem_003>
+ d vtable for HmdInterfaceRegistration<CVRSystem_004>
+ d vtable for HmdInterfaceRegistration<CVRSystem_005>
+ d vtable for HmdInterfaceRegistration<CVRSystem_006>
+ d vtable for HmdInterfaceRegistration<CVRSystem_007>
+ d vtable for HmdInterfaceRegistration<CVRSystem_008>
+ d vtable for HmdInterfaceRegistration<CVRSystem_009>
+ d vtable for HmdInterfaceRegistration<CVRSystem_010>
+ d vtable for HmdInterfaceRegistration<CVRSystem_011>
+ d vtable for HmdInterfaceRegistration<CVRSystem_012>
+ d vtable for HmdInterfaceRegistration<CVRSystem_013>
+ d vtable for HmdInterfaceRegistration<CVRSystem_014>
+ d vtable for HmdInterfaceRegistration<CVRSystem_015>
+ d vtable for HmdInterfaceRegistration<CVRSystem_016>
+ d vtable for HmdInterfaceRegistration<CVRSystem_017>
+ d vtable for HmdInterfaceRegistration<CVRSystem_018>
+ d vtable for HmdInterfaceRegistration<CVRSystem_019>
+ d vtable for HmdInterfaceRegistration<CVRSystem_020>
+ d vtable for HmdInterfaceRegistration<CVRSystem_021>
+ d vtable for IHmdSystem_002
+ d vtable for IHmdSystem_003
+ d vtable for IOBufferInterfaceRegistration<CVRIOBuffer_001>
+ d vtable for IOBufferInterfaceRegistration<CVRIOBuffer_002>
+ d vtable for IPC::PosixSharedMemory
+ d vtable for IPC::SharedObjectEvent
+ d vtable for IPC::SharedObjectMutex
+ d vtable for IXrBinding
+ d vtable for InMemoryInputStream
+ d vtable for InMemoryStreamInputBuf
+ d vtable for InputInterfaceRegistration<CVRInput_001>
+ d vtable for InputInterfaceRegistration<CVRInput_002>
+ d vtable for InputInterfaceRegistration<CVRInput_003>
+ d vtable for InputInterfaceRegistration<CVRInput_004>
+ d vtable for InputInterfaceRegistration<CVRInput_005>
+ d vtable for InputInterfaceRegistration<CVRInput_006>
+ d vtable for InputInterfaceRegistration<CVRInput_007>
+ d vtable for InputInterfaceRegistration<CVRInput_008>
+ d vtable for InputInterfaceRegistration<CVRInput_009>
+ d vtable for InterfaceRegistrationBase
+ d vtable for Json::BuiltStyledStreamWriter
+ d vtable for Json::CharReaderBuilder
+ d vtable for Json::Exception
+ d vtable for Json::FastWriter
+ d vtable for Json::LogicError
+ d vtable for Json::OurCharReader
+ d vtable for Json::RuntimeError
+ d vtable for Json::StreamWriter
+ d vtable for Json::StreamWriter::Factory
+ d vtable for Json::StreamWriterBuilder
+ d vtable for Json::StyledWriter
+ d vtable for Json::Writer
+ d vtable for MailboxInterfaceRegistration<CVRMailbox_001>
+ d vtable for MaterialUtf8FileReader
+ d vtable for NotificationsInterfaceRegistration<CVRNotifications_001>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_001>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_002>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_003>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_004>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_005>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_006>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_007>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_008>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_009>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_010>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_011>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_012>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_013>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_014>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_015>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_016>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_017>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_018>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_019>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_020>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_021>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_022>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_023>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_024>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_025>
+ d vtable for OverlayInterfaceRegistration<CVROverlay_026>
+ d vtable for OverlayViewInterfaceRegistration<CVROverlayView_001>
+ d vtable for OverlayViewInterfaceRegistration<CVROverlayView_002>
+ d vtable for Reflection::Detail::ToBaseT<CBoneMaskResource, CAnimResource>
+ d vtable for Reflection::Detail::ToBaseT<CKeyframedDataResource, CAnimResource>
+ d vtable for Reflection::Detail::TypeInfoT<CAnimResource>
+ d vtable for Reflection::Detail::TypeInfoT<CBoneMaskResource>
+ d vtable for Reflection::Detail::TypeInfoT<CKeyframedDataResource>
+ d vtable for Reflection::Detail::TypeInfoT<Reflection::Object>
+ d vtable for Reflection::Object
+ d vtable for Reflection::TypeInfo
+ d vtable for RenderModelsInterfaceRegistration<CVRRenderModels_001>
+ d vtable for RenderModelsInterfaceRegistration<CVRRenderModels_002>
+ d vtable for RenderModelsInterfaceRegistration<CVRRenderModels_003>
+ d vtable for RenderModelsInterfaceRegistration<CVRRenderModels_004>
+ d vtable for RenderModelsInterfaceRegistration<CVRRenderModels_005>
+ d vtable for ScreenshotsInterfaceRegistration<CVRScreenshots_001>
+ d vtable for SettingsInterfaceRegistration<CVRSettings_001>
+ d vtable for SettingsInterfaceRegistration<CVRSettings_002>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_003>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_004>
+ d vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_005>
+ d vtable for SystemInterfaceRegistration<CHmdSystem_001>
+ d vtable for SystemInterfaceRegistration<CHmdSystem_004>
+ d vtable for SystemInterfaceRegistration<CVRClientCore_001>
+ d vtable for SystemInterfaceRegistration<CVRClientCore_002>
+ d vtable for SystemInterfaceRegistration<IHmdSystem_002>
+ d vtable for SystemInterfaceRegistration<IHmdSystem_003>
+ d vtable for TrackedCameraInterfaceRegistration<CVRTrackedCamera_002>
+ d vtable for TrackedCameraInterfaceRegistration<CVRTrackedCamera_003>
+ d vtable for TrackedCameraInterfaceRegistration<CVRTrackedCamera_004>
+ d vtable for TrackedCameraInterfaceRegistration<CVRTrackedCamera_005>
+ d vtable for VulkanVRRenderer::BlendState
+ d vtable for VulkanVRRenderer::ConstantBuffer
+ d vtable for VulkanVRRenderer::DepthStencilState
+ d vtable for VulkanVRRenderer::EventQuery
+ d vtable for VulkanVRRenderer::GPUCountingSemaphore
+ d vtable for VulkanVRRenderer::GPUSemaphore
+ d vtable for VulkanVRRenderer::IndexBuffer
+ d vtable for VulkanVRRenderer::RasterizerState
+ d vtable for VulkanVRRenderer::Sampler
+ d vtable for VulkanVRRenderer::Texture
+ d vtable for VulkanVRRenderer::VertexBuffer
+ d vtable for WatchdogHost<CVRWatchdogHost_001>
+ d vtable for facet::CVkInteropDeviceNull
+ d vtable for facet::CVkInteropImageNull
+ d vtable for facet::CVkTimestampQueryPool<2u>
+ d vtable for facet::CVkTimestampQueryPoolBase
+ d vtable for gli::texture
+ d vtable for nlohmann::detail::exception
+ d vtable for nlohmann::detail::input_buffer_adapter
+ d vtable for nlohmann::detail::invalid_iterator
+ d vtable for nlohmann::detail::other_error
+ d vtable for nlohmann::detail::out_of_range
+ d vtable for nlohmann::detail::output_string_adapter<char, std::string>
+ d vtable for nlohmann::detail::parse_error
+ d vtable for nlohmann::detail::type_error
+ d vtable for std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<CInputActionSet, std::allocator<CInputActionSet>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<CRenderModelManager::ModelInfo_t, std::allocator<CRenderModelManager::ModelInfo_t>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<CSharedResourceBaseLinux::CSharedResourceData, std::allocator<CSharedResourceBaseLinux::CSharedResourceData>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<CSimulatedTrackpadClick, std::allocator<CSimulatedTrackpadClick>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<CSimulatedTriggerPull, std::allocator<CSimulatedTriggerPull>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<CVRCompositorSharedTextures::CVulkanFence, std::allocator<CVRCompositorSharedTextures::CVulkanFence>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<CVRInputLatest::InputFrame_t, std::allocator<CVRInputLatest::InputFrame_t>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<InputConfig_t, std::allocator<InputConfig_t>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<VcetBo, std::allocator<VcetBo>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<VcetContext, std::allocator<VcetContext>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<nlohmann::detail::input_buffer_adapter, std::allocator<nlohmann::detail::input_buffer_adapter>, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string> >, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
+ d vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
+ d vtable for std::codecvt_utf8_utf16<wchar_t, 1114111ul, (std::codecvt_mode)0>
+ d vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::{lambda()#1}> > >
+ d vtable for tinyobj::MaterialFileReader
+ d vtable for vr::CVRApplicationsLatest
+ d vtable for vr::CVRNotificationsLatest
+ d vtable for vr::CVROverlayInternalLatest
+ d vtable for vr::CVRSettingsLatest
+ d vtable for vr::CVRSteamPrivateLatest
+ d vtable for vr::CVRTrackedCamera
+ dl_iterate_phdr
+ dladdr
+ dlclose
+ dlerror
+ dlopen
+ dlsym
+ execvp
+ exit
+ expf
+ fclose
+ feof
+ fflush
+ fgets
+ flock
+ fmodf
+ fopen
+ fork
+ fprintf
+ fputs
+ fread
+ free
+ frexpf
+ fseek
+ ftell
+ ftruncate
+ fwrite
+ getcwd
+ getdelim
+ getenv
+ getpid
+ getppid
+ getpriority
+ getpwnam_r
+ getrlimit
+ gettimeofday
+ getuid
+ glBindRenderbuffer
+ glBindTexture
+ glCheckFramebufferStatus
+ glDeleteTextures
+ glFinish
+ glFlush
+ glGenTextures
+ glGetError
+ glGetIntegerv
+ glGetRenderbufferParameteriv
+ glGetStringi
+ glGetTexImage
+ glGetTexLevelParameteriv
+ glPixelStorei
+ glTexImage2D
+ glTexParameteri
+ glXGetCurrentContext
+ glXGetCurrentDisplay
+ glXGetCurrentDrawable
+ glXGetProcAddress
+ glXMakeCurrent
+ isalnum
+ isalpha
+ isspace
+ kill
+ ldexpf
+ listen
+ localeconv
+ localtime
+ lseek
+ malloc
+ memcmp
+ memcpy
+ memmove
+ memset
+ mkdir
+ mkdtemp
+ mktime
+ mmap
+ modf
+ munmap
+ nanosleep
+ open
+ opendir
+ operator delete(void*)
+ operator delete(void*, unsigned long)
+ operator delete[](void*)
+ operator delete[](void*, unsigned long)
+ operator new(unsigned long)
+ operator new[](unsigned long)
+ pclose
+ poll
+ popen
+ posix_memalign
+ powf
+ printf
+ pthread_attr_init
+ pthread_attr_setstacksize
+ pthread_cancel
+ pthread_cond_clockwait
+ pthread_cond_destroy
+ pthread_cond_init
+ pthread_cond_signal
+ pthread_cond_timedwait
+ pthread_create
+ pthread_detach
+ pthread_getschedparam
+ pthread_getspecific
+ pthread_join
+ pthread_key_create
+ pthread_key_delete
+ pthread_kill
+ pthread_mutex_clocklock
+ pthread_mutex_destroy
+ pthread_mutex_init
+ pthread_mutex_lock
+ pthread_mutex_unlock
+ pthread_mutexattr_destroy
+ pthread_mutexattr_init
+ pthread_mutexattr_settype
+ pthread_once
+ pthread_self
+ pthread_setname_np
+ pthread_setschedparam
+ pthread_setspecific
+ puts
+ qsort
+ r (anonymous namespace)::k_debugUtilsLabelColors
+ r C.1869.0
+ r C.1872.1
+ r C.417.0
+ r CSWTCH.16
+ r CSWTCH.209
+ r CSWTCH.221
+ r CSWTCH.23
+ r CSWTCH.25
+ r CSWTCH.369
+ r CSWTCH.522
+ r CSWTCH.729
+ r CSWTCH.776
+ r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ r CSettingsManager::GetDefaultValue<double>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ r CSettingsManager::GetValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ r CSettingsManager::GetValue<double>(char const*, char const*, vr::EVRSettingsError*)::Empty
+ r CVRMsg_Input_GetActionBindingsResponse::LoadResult_ARRAYSIZE
+ r CVRMsg_Input_GetActionBindingsResponse::LoadResult_MAX
+ r CVRMsg_Input_GetActionBindingsResponse::LoadResult_MIN
+ r CVRMsg_Input_GetActionBindingsResponse::k_ELoadFailed
+ r CVRMsg_Input_GetActionBindingsResponse::k_ELoadInProgress
+ r CVRMsg_Input_GetActionBindingsResponse::k_ELoadResultUnknown
+ r CVRMsg_Input_GetActionBindingsResponse::k_ELoadSuccess
+ r CVkDevice::CreateDevice(CreateDeviceDetails_t const&)::queuePriorities
+ r CVulkanVRRenderer::TextureBarrier(VRRenderer::TextureBase*, VRRenderer::ImageLayout_t, VRRenderer::QueueMode)::sImageLayouts
+ r Four_2PIs
+ r Four_2ToThe21s
+ r Four_2ToThe22s
+ r Four_2ToThe23s
+ r Four_2ToThe24s
+ r Four_Epsilons
+ r Four_FLT_MAX
+ r Four_Fours
+ r Four_NegativeOnes
+ r Four_Negative_2ToThe23s
+ r Four_Negative_FLT_MAX
+ r Four_OOPIs
+ r Four_OnePointFives
+ r Four_Ones
+ r Four_Origin
+ r Four_PIs
+ r Four_Point225s
+ r Four_PointFives
+ r Four_Thirds
+ r Four_Threes
+ r Four_TwoThirds
+ r Four_Twos
+ r Four_Zeros
+ r IPC::crc32(unsigned int, void const*, unsigned long)::s_crc32
+ r Json::Value::maxInt
+ r Json::Value::maxInt64
+ r Json::Value::maxLargestInt
+ r Json::Value::maxLargestUInt
+ r Json::Value::maxUInt
+ r Json::Value::maxUInt64
+ r Json::Value::minInt
+ r Json::Value::minInt64
+ r Json::Value::minLargestInt
+ r Json::kNull
+ r SkeletalCompression::kAuxBonesIndices
+ r SkeletalCompression::kFingerTipBoneIndices
+ r SkeletalCompression::kMetacarpalBoneIndices
+ r SkeletalInputUtils::kFingerMetaCarpalBones
+ r SkeletalInputUtils::kFingerSplayPairs
+ r SkeletalInputUtils::kFingerTipBones
+ r VRCrashPreCrashSetMinidumpComment(char const*)::szPrefix
+ r __FRAME_END__
+ r crc32(unsigned int, void const*, unsigned long)::crcTable
+ r first_row_filter
+ r g_SIMD_0123
+ r g_SIMD_AllOnesMask
+ r g_SIMD_Axis
+ r g_SIMD_ComponentMask
+ r g_SIMD_EveryOtherMask
+ r g_SIMD_Infinity
+ r g_SIMD_Low16BitsMask
+ r g_SIMD_NegInfinity
+ r g_SIMD_SkipTailMask
+ r g_SIMD_clear_signmask
+ r g_SIMD_clear_wmask
+ r g_SIMD_lsbmask
+ r g_SIMD_signmask
+ r g_fl4ACosPolynomialCoefficient0
+ r g_fl4ACosPolynomialCoefficient1
+ r g_fl4ACosPolynomialCoefficient2
+ r g_fl4ACosPolynomialCoefficient3
+ r g_vulkanTextureFormats
+ r gli::detail::FOURCC_DDS
+ r gli::detail::FOURCC_KMG100
+ r gli::detail::FOURCC_KTX10
+ r gli::detail::get_format_info(gli::format)::Table
+ r kMetacarpalBones
+ r kMirrorTranslationOnlyBones
+ r kModelSpaceBones
+ r k_flJointRadii
+ r k_pchRuntimeName
+ r nlohmann::detail::dtoa_impl::get_cached_power_for_binary_exponent(int)::kCachedPowers
+ r nlohmann::detail::serializer<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >::decode(unsigned char&, unsigned int&, unsigned char)::utf8d
+ r s_mat34Identity
+ r s_rBoolPropertiesToRead
+ r s_rFloatPropertiesToRead
+ r s_rInt32PropertiesToRead
+ r s_rMatrix34PropertiesToRead
+ r s_rStringPropertiesToRead
+ r s_rUint64PropertiesToRead
+ r stbi__
+ r stbi__bmask
+ r stbi__check_png_header(stbi__context*)::png_sig
+ r stbi__compute_huffman_codes(stbi__zbuf*)::length_dezigzag
+ r stbi__depth_scale_table
+ r stbi__jbias
+ r stbi__jpeg_dezigzag
+ r stbi__process_frame_header(stbi__jpeg*, int)::rgb
+ r stbi__process_marker(stbi__jpeg*, int)::tag
+ r stbi__shiftsigned(unsigned int, int, int)::mul_table
+ r stbi__shiftsigned(unsigned int, int, int)::shift_table
+ r stbi__zdefault_distance
+ r stbi__zdefault_length
+ r stbi__zdist_base
+ r stbi__zdist_extra
