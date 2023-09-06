@@ -24,6 +24,7 @@
 #u	[A\A]A^]
 $>L9|$
 $H9L$
+$H;-D|
 $I;D$
 $L#l$
 $f-@(
@@ -52,7 +53,6 @@ $ttM9
 %s: __pos (which is %zu) > this->size() (which is %zu)
 &other != this
 ' is not a number.
-(A\A]A^]
 (H9w8tSH
 (L;l$
 ([A\A]A^A_]
@@ -179,7 +179,6 @@ $ttM9
 14CQOverlayImage
 15CQOverlayViewer
 15CVulkanRenderer
-19:42:57
 1D9&}@H)
 1OnBackgroundColor()
 1OnExitAction()
@@ -192,6 +191,7 @@ $ttM9
 1OnStatePollTimeout()
 1OnTableItemSelectionChanged()
 1e+9999
+22:05:05
 2ATUH
 2clicked()
 2itemSelectionChanged()
@@ -309,6 +309,7 @@ A\A]A^]
 A\A]]
 A]A^A_]
 A]A^]
+A^A_]
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Absolute: xlate=(%f, %f, %f), universe=%d
 Adobe ImageReadyq
@@ -317,7 +318,7 @@ Alpha
 April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe
-Aug  8 2022
+Aug 15 2022
 August
 Auto Curve Distance Range
 B I9E @
@@ -554,53 +555,63 @@ H9G0v
 H9p s
 H9r w
 H9s`t
-H;-Ei
-H;-di
-H;=!m
-H;=$!
-H;='?
-H;=,0
-H;=,d
-H;=-!
-H;=.c
-H;=.o
-H;=1)
-H;=2P
+H;-g|
+H;=$W	
+H;=${
+H;=%#
+H;=%)
+H;='0
+H;='U
+H;='W
+H;=)%
+H;=){
+H;=-?
+H;=2'
 H;=3z
-H;=4l
-H;=8O	
-H;=9j
-H;=;{
-H;=?|
-H;=A\
-H;=Aq
-H;=F!
-H;=Ij
-H;=Iv
-H;=K;
-H;=Ka
-H;=M 
-H;=M&
-H;=M/
-H;=TO	
-H;=Uz
-H;=WM	
-H;=ab
-H;=aq
-H;=d+
-H;=iL	
-H;=ir
-H;=nz
-H;=ok
-H;=t%
-H;=zX
-H;={9
-H;=|B
-H;=|u
-H;=~s
+H;=4[	
+H;=5/
+H;=7&
+H;=7N
+H;=8G
+H;=9~
+H;=<"
+H;=A`
+H;=C+
+H;=Ct
+H;=F(
+H;=Fd
+H;=L(
+H;=L.
+H;=M3
+H;=M7
+H;=SI
+H;=Sd
+H;=Sh
+H;=V-
+H;=VZ
+H;=Xb
+H;=Y"
+H;=Yo
+H;=\x
+H;=]-
+H;=^n
+H;=_%
+H;=aG
+H;=e7
+H;=eE
+H;=f7
+H;=g{
+H;=l^
+H;=m!
+H;=m&
+H;=m'
+H;=n]	
+H;=qK
+H;=wV
+H;=yZ
+H;=z"
+H;=zm
 H;>t&H;z
-H;C t
-H;C8t
 H;G0s0
 H;G0s0@
 H;G8H
@@ -609,7 +620,6 @@ H;U0r
 H;l$puYH
 H;p r
 H;q v
-HL+/dH
 H[A\A]A^A_]
 H[A\A]]
 H[]A\A]A^A_
@@ -684,7 +694,7 @@ InputValueVisibility_None
 InputValueVisibility_Public
 InputValueVisibility_SteamVRInternal
 Invalid socket name parameters for shared fd
-JLuSUH
+JPuSUH
 January
 L$ H9
 L$ H;H
@@ -697,14 +707,13 @@ L+'H)
 L+/H)
 L+7H)
 L+kXA
-L9cPt
 L9cXu
 L9t$xt
 L9t$xtrI
 L9|$x
-L;%/`
-L;%>z
-L;-V"
+L;%2}
+L;%<Y
+L;%^Y
 L;G t4L
 L;h v
 L;p s5H
@@ -1524,10 +1533,10 @@ VREvent_ResetDashboard
 VREvent_RestartRequested
 VREvent_RoomViewHidden
 VREvent_RoomViewShown
+VREvent_SceneAppPipeDisconnected
 VREvent_SceneApplicationChanged
 VREvent_SceneApplicationStateChanged
 VREvent_SceneApplicationUsingWrongGraphicsAdapter
-VREvent_SceneFocusChanged
 VREvent_ScreenshotFailed
 VREvent_ScreenshotProgressToDashboard
 VREvent_ScreenshotTaken
@@ -1874,6 +1883,7 @@ ZD$LL
 [A\A]A^A_]
 [A\A]A^]
 [A\A]H
+[A\A]L
 [A\A]]
 [A\A]]H
 [A\]H
@@ -1921,7 +1931,7 @@ _GLOBAL__sub_I_threadwatchdog.cpp
 _GLOBAL__sub_I_vrcrash.cpp
 _GLOBAL__sub_I_vrlog.cpp
 _GLOBAL__sub_I_vrsystemlayersharedstate.cpp
-_GLOBAL__sub_I_vulkanrenderer.cpp
+_GLOBAL__sub_I_vulkanrenderer_shared.cpp
 _GLOBAL__sub_I_vulkantools.cpp
 _GLOBAL__sub_I_wlocale_inst.cc
 _IO_stdin_used
@@ -2125,6 +2135,8 @@ _Z21Path_SanitizeFilenameRKSs.cold
 _Z21ReadLocalizationBlockRKSsRKN4Json5ValueES0_RS2_
 _Z21ReadLocalizationBlockRKSsRKN4Json5ValueES0_RS2_.cold
 _Z21qRegisterResourceDataiPKhS0_S0_
+_Z22CollapseDuplicatePathsRSt6vectorISsSaISsEE
+_Z22CollapseDuplicatePathsRSt6vectorISsSaISsEE.cold
 _Z22GetEnvironmentVariablePKc
 _Z22GetStringForScalarTypeN2vr13EVRScalarTypeE
 _Z22GetStringForVRButtonIdN2vr11EVRButtonIdE
@@ -3874,6 +3886,8 @@ _ZNK15CQOverlayViewer10metaObjectEv
 _ZNK15CVRPathRegistry17GetLogHistoryPathEj
 _ZNK15CVRPathRegistry18GetLogHistoryCountEv
 _ZNK15CVRPathRegistry20GetConfigHistoryPathEj
+_ZNK15CVRPathRegistry20GetInstalledRuntimesEv
+_ZNK15CVRPathRegistry20GetInstalledRuntimesEv.cold
 _ZNK15CVRPathRegistry21GetConfigHistoryCountEv
 _ZNK15CVRPathRegistry21GetExternalDriverPathEj
 _ZNK15CVRPathRegistry21GetRuntimeHistoryPathEj
@@ -6303,11 +6317,10 @@ _ZNSt6vectorIPKcSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iterat
 _ZNSt6vectorIPN15CThreadWatchdog8Status_sESaIS2_EE17_M_realloc_insertIJRKS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_
 _ZNSt6vectorIPSt12Catalog_infoSaIS1_EE17_M_realloc_insertEN9__gnu_cxx17__normal_iteratorIPS1_S3_EERKS1_
 _ZNSt6vectorISsSaISsEE12emplace_backIJSsEEERSsDpOT_
+_ZNSt6vectorISsSaISsEE14_M_insert_rvalEN9__gnu_cxx17__normal_iteratorIPKSsS1_EEOSs
 _ZNSt6vectorISsSaISsEE17_M_realloc_insertIJRKSsEEEvN9__gnu_cxx17__normal_iteratorIPSsS1_EEDpOT_
 _ZNSt6vectorISsSaISsEE17_M_realloc_insertIJSsEEEvN9__gnu_cxx17__normal_iteratorIPSsS1_EEDpOT_
-_ZNSt6vectorISsSaISsEE6insertEN9__gnu_cxx17__normal_iteratorIPKSsS1_EERS4_
 _ZNSt6vectorISsSaISsEE7reserveEm
-_ZNSt6vectorISsSaISsEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPSsS1_EE
 _ZNSt6vectorISsSaISsEED1Ev
 _ZNSt6vectorISsSaISsEED2Ev
 _ZNSt6vectorISsSaISsEEaSERKS1_
@@ -6718,7 +6731,6 @@ _ZSt7getlineIwSt11char_traitsIwESaIwEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_E
 _ZSt7nothrow
 _ZSt7setfillIcESt8_SetfillIT_ES1_
 _ZSt7setfillIwESt8_SetfillIT_ES1_
-_ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPSsSt6vectorISsSaISsEEEENS0_5__ops16_Iter_equals_valIKPKcEEET_SD_SD_T0_St26random_access_iterator_tag
 _ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPSsSt6vectorISsSaISsEEEENS0_5__ops16_Iter_equals_valIKSsEEET_SB_SB_T0_St26random_access_iterator_tag
 _ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPcSsEENS0_5__ops10_Iter_predIPDoFiiEEEET_S9_S9_T0_St26random_access_iterator_tag
 _ZSt9has_facetISt10moneypunctIcLb0EEEbRKSt6locale
