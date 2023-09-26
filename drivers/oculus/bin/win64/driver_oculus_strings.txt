@@ -69,7 +69,6 @@
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
 "9k0t
-";IxW
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
@@ -385,8 +384,6 @@ $w!Hc
 .xdata
 .xdata$x
 /9{0t'H
-/=&s	
-/=Ft	
 /input/a/click
 /input/a/touch
 /input/b/click
@@ -418,7 +415,6 @@ $w!Hc
 /output/haptic
 /pose/raw
 /proximity
-/skeleton/hand/left
 /skeleton/hand/right
 /user/ankle/left
 /user/ankle/right
@@ -464,7 +460,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230831183610Z0/
+230925234529Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -499,6 +495,7 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+9%Fnz
 9C s.H
 9T$Pu9A
 9T$XJ
@@ -533,6 +530,8 @@ $w!Hc
 >0<0:
 >Mp$d
 >W`.]tB3?
+>ff&?
+?/skeleton/hand/left
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -559,7 +558,6 @@ $w!Hc
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
 ?@s#0?LD
-?POSITION
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
@@ -583,8 +581,6 @@ $w!Hc
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
-?const unsigned int __cdecl Reflection::Object::MyTypeID(void)
-?ff&?
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
@@ -791,8 +787,7 @@ CT$pH
 C\$0D
 C\$0H
 C\$0L
-C\$0L9%D
-C\$0L9%X
+C\$0L9%
 C\$0M
 C\$PE
 C\$PH
@@ -849,6 +844,7 @@ D$@H9Q
 D$@H9Q@t
 D$@H9S@t
 D$@fA
+D$DE3
 D$HE3
 D$HHi
 D$PH9Q
@@ -948,6 +944,8 @@ Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFrom
 Failed to convert guardian data to chaperone
 Failed to create DepthStencilView for texture %s
 Failed to create RTV for texture
+Failed to create RTV for texture lod=%d
+Failed to create SRV for texture lod=%d
 Failed to decode 'uri' : 
 Failed to decode 'uri' for image[
 Failed to get default audio playback device
@@ -977,6 +975,7 @@ Found path:
 FreeLibrary
 G(M+G I
 G8$1u
+G@] S"
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
 GPUCountingSemaphore::Wait(%llu)
@@ -1143,7 +1142,6 @@ IsDepthFormat( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
 JSON string too short.
-K.sBz
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1191,8 +1189,8 @@ L$`fD
 L$pE2
 L$pE3
 L$pHcQ
-L95ez
-L95gy
+L9%e<
+L9%y<
 L9k8v
 L9t$@
 L9|$p
@@ -1216,6 +1214,7 @@ LocalizationManager
 M H1E
 M98u/
 MB(iVR
+MMd+'A
 MSVCP140.dll
 MS_:F
 MT$dA
@@ -1273,8 +1272,8 @@ PA_A^A]A\_^[
 PA_A^A]A\_^]
 PA_A^_
 PA_A^_^]
-PA__^
 PAq=?Mp#
+POSITION
 Path_Exists( absFilePath )
 Perspective camera description not found.
 PerspectiveCamera
@@ -1287,7 +1286,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS\
+RSDSK=&
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1415,6 +1414,8 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown image format. STB cannot decode image data for image[
 Unknown(%u, %u)
+Unsupported RTV type: %d
+Unsupported SRV type: %d
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
 UuidFromStringA
@@ -1436,13 +1437,11 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
-W-8l	
 WATAUAVAWH
 WAVAWH
 WINMM.dll
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
-W^|MxI
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -1450,11 +1449,8 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 X UVWH
-X% F	
-X5+[	
 XA^^[]
 XXXX PNG chunk not known
-Y5'[	
 Y9"SD
 Z9k0tUD
 ZL$Xf
@@ -1473,6 +1469,7 @@ ZL$Xf
 [OculusDirect] ovr_EndFrame:%lli
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [json.exception.
+[x]mk
 \$ E3
 \$ H;
 \$ I;
@@ -1509,6 +1506,7 @@ ZL$Xf
 \$pI;
 \$pfD
 \$xH;
+\X)Y{
 \u=H;
 \|$`D
 ] buffer "
@@ -1723,6 +1721,7 @@ connected
 const unsigned int __cdecl CAnimResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
+const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 corrupt
 count
 cs_cs
@@ -1779,6 +1778,7 @@ extensionsUsed
 extras
 fD9	u
 fD9&u
+f^VzEo
 false
 false literal
 fclose
@@ -1797,7 +1797,6 @@ french
 fseek
 fsetpos
 fwrite
-fwvQB
 g9k0t_D
 generator
 german
@@ -1985,7 +1984,6 @@ not GIF
 not HDR
 not PSD
 not enough pixels
-nqHVPb)
 ntelD
 null literal
 number literal
@@ -2137,6 +2135,7 @@ pA_A^_
 pA_A^_^]
 pNewResource
 pNewResource->Load( absFilePath )
+p]"t#
 parameter must be a string or number / number array.
 parse error
 parse_error
@@ -2446,7 +2445,7 @@ u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uJf9X
-uTL9%
+uTL9%/
 ua_ua
 ukranian
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize

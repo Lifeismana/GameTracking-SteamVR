@@ -540,6 +540,23 @@ vsg-app:not(.ShowDebugPointer) .DebugPointer {
   background: var(--colorfulbutton-press-color);
 }
 
+vsg-node[vsg-type="panel"] > .ButtonControl {
+  margin: 0;
+}
+
+.FloatingButtonRow {
+  display: flex;
+  transition: opacity 0.4s ease-out;
+}
+
+.FloatingButtonRow:not(:hover) {
+  opacity: 0.4;
+}
+
+.FloatingButtonRow .ButtonControl {
+  width: fit-content;
+}
+
 /* .ButtonControl.Colorful:not(.Disabled):hover
 {
 } */

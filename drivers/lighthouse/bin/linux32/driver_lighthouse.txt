@@ -1,15 +1,10 @@
  B __bss_start
  B _edata
  B _end
- B std::codecvt<char16_t, char8_t, __mbstate_t>::id
- B std::codecvt<char32_t, char8_t, __mbstate_t>::id
  SDL_GetCurrentDisplayMode
  SDL_GetDisplayBounds
  SDL_GetDisplayName
- SDL_GetError
  SDL_GetNumVideoDisplays
- SDL_GetPowerInfo
- SDL_SetThreadPriority
  T ECameraHAL_OpenError_ToString
  T GetCameraHALInterface
  T HmdDriverFactory
@@ -49,22 +44,6 @@
  T _txnal_logic_error_get_msg(void*)
  T _txnal_runtime_error_get_msg(void*)
  T _txnal_sso_string_c_str(void const*)
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_always_noconv() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_encoding() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char16_t*, char16_t*, char16_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned int) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_max_length() const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char16_t, char8_t, __mbstate_t>::~codecvt()
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_always_noconv() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_encoding() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char32_t*, char32_t*, char32_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned int) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_max_length() const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
- T std::codecvt<char32_t, char8_t, __mbstate_t>::~codecvt()
  V typeinfo for __cxxabiv1::__class_type_info
  V typeinfo for __cxxabiv1::__forced_unwind
  V typeinfo for __cxxabiv1::__foreign_exception
@@ -134,10 +113,6 @@
  V typeinfo for signed char
  V typeinfo for signed char const*
  V typeinfo for signed char*
- V typeinfo for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V typeinfo for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V typeinfo for std::codecvt<char16_t, char8_t, __mbstate_t>
- V typeinfo for std::codecvt<char32_t, char8_t, __mbstate_t>
  V typeinfo for unsigned char
  V typeinfo for unsigned char const*
  V typeinfo for unsigned char*
@@ -228,10 +203,6 @@
  V typeinfo name for signed char
  V typeinfo name for signed char const*
  V typeinfo name for signed char*
- V typeinfo name for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V typeinfo name for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V typeinfo name for std::codecvt<char16_t, char8_t, __mbstate_t>
- V typeinfo name for std::codecvt<char32_t, char8_t, __mbstate_t>
  V typeinfo name for unsigned char
  V typeinfo name for unsigned char const*
  V typeinfo name for unsigned char*
@@ -266,10 +237,6 @@
  V vtable for __gnu_cxx::__concurrence_lock_error
  V vtable for __gnu_cxx::__concurrence_unlock_error
  V vtable for __gnu_cxx::recursive_init_error
- V vtable for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
- V vtable for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
- V vtable for std::codecvt<char16_t, char8_t, __mbstate_t>
- V vtable for std::codecvt<char32_t, char8_t, __mbstate_t>
  _ITM_RU1
  _ITM_RU4
  _ITM_addUserCommitAction
@@ -434,6 +401,7 @@
  b QuaternionAligned::qIdentity
  b Reflection::Object::MyTypeID()::sID
  b Reflection::Object::m_typeInfoObject
+ b SDLDynamic()::m_instance
  b SteamVRVersionAsString()::s_sCachedVersion
  b ThreadInitSchedulerForRtkit()::sInitMutex
  b ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
@@ -530,6 +498,7 @@
  b guard variable for Eigen::internal::manage_caching_sizes(Eigen::Action, int*, int*, int*)::m_cacheSizes
  b guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
  b guard variable for OpenVR_ReadVersionFile(std::string&, unsigned int*)::s_CachedVersion
+ b guard variable for SDLDynamic()::m_instance
  b guard variable for SteamVRVersionAsString()::s_sCachedVersion
  b guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
  b guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > const&)::s_convert
@@ -704,7 +673,9 @@
  b std::clog
  b std::codecvt<char, char, __mbstate_t>::id
  b std::codecvt<char16_t, char, __mbstate_t>::id
+ b std::codecvt<char16_t, char8_t, __mbstate_t>::id
  b std::codecvt<char32_t, char, __mbstate_t>::id
+ b std::codecvt<char32_t, char8_t, __mbstate_t>::id
  b std::codecvt<wchar_t, char, __mbstate_t>::id
  b std::collate<char>::id
  b std::collate<wchar_t>::id
@@ -1074,7 +1045,9 @@
  d typeinfo for std::_Weak_result_type_memfun<void (CVRMailbox::*)(Json::Value const&), true>
  d typeinfo for std::__codecvt_abstract_base<char, char, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ d typeinfo for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ d typeinfo for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  d typeinfo for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  d typeinfo for std::__codecvt_utf16_base<char16_t>
  d typeinfo for std::__codecvt_utf16_base<char32_t>
@@ -1174,7 +1147,9 @@
  d typeinfo for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  d typeinfo for std::codecvt<char, char, __mbstate_t>
  d typeinfo for std::codecvt<char16_t, char, __mbstate_t>
+ d typeinfo for std::codecvt<char16_t, char8_t, __mbstate_t>
  d typeinfo for std::codecvt<char32_t, char, __mbstate_t>
+ d typeinfo for std::codecvt<char32_t, char8_t, __mbstate_t>
  d typeinfo for std::codecvt<wchar_t, char, __mbstate_t>
  d typeinfo for std::codecvt_base
  d typeinfo for std::codecvt_byname<char, char, __mbstate_t>
@@ -1440,7 +1415,9 @@
  d vtable for std::_V2::error_category
  d vtable for std::__codecvt_abstract_base<char, char, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ d vtable for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ d vtable for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  d vtable for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  d vtable for std::__codecvt_utf16_base<char16_t>
  d vtable for std::__codecvt_utf16_base<char32_t>
@@ -1540,7 +1517,9 @@
  d vtable for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  d vtable for std::codecvt<char, char, __mbstate_t>
  d vtable for std::codecvt<char16_t, char, __mbstate_t>
+ d vtable for std::codecvt<char16_t, char8_t, __mbstate_t>
  d vtable for std::codecvt<char32_t, char, __mbstate_t>
+ d vtable for std::codecvt<char32_t, char8_t, __mbstate_t>
  d vtable for std::codecvt<wchar_t, char, __mbstate_t>
  d vtable for std::codecvt_byname<char, char, __mbstate_t>
  d vtable for std::codecvt_byname<wchar_t, char, __mbstate_t>
@@ -1643,6 +1622,7 @@
  dl_iterate_phdr
  dladdr
  dlclose
+ dlerror
  dlopen
  dlsym
  fclose
@@ -1754,15 +1734,15 @@
  r CLighthouseHmdDriver::DebugRequest(char const*, char*, unsigned int)::k_rgchPrefix
  r CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vBlueChromaticCorrection
  r CLighthouseHmdDriver::HandleDebug_SetChromaticCorrectionFactors(char const*)::vRedChromaticCorrection
- r CSWTCH.101
+ r CSWTCH.111
  r CSWTCH.127
  r CSWTCH.131
  r CSWTCH.139
  r CSWTCH.141
  r CSWTCH.142
  r CSWTCH.161
- r CSWTCH.210
  r CSWTCH.2109
+ r CSWTCH.214
  r CSWTCH.224
  r CSWTCH.925
  r CThreadSpinRWLock::TryLockForWrite(unsigned int)::oldValue
@@ -1804,7 +1784,6 @@
  r __FRAME_END__
  r __cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const::pm
  r __cxxabiv1::__pbase_type_info::__do_catch(std::type_info const*, void**, unsigned int) const::pmf
- r crc32(unsigned int, void const*, unsigned int)::crcTable
  r distort_math::bspline::BSplineBasis
  r first_row_filter
  r g_SIMD_0123
@@ -2117,7 +2096,9 @@
  r typeinfo name for std::_Weak_result_type_memfun<void (CVRMailbox::*)(Json::Value const&), true>
  r typeinfo name for std::__codecvt_abstract_base<char, char, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+ r typeinfo name for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+ r typeinfo name for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
  r typeinfo name for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
  r typeinfo name for std::__codecvt_utf16_base<char16_t>
  r typeinfo name for std::__codecvt_utf16_base<char32_t>
@@ -2217,7 +2198,9 @@
  r typeinfo name for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
  r typeinfo name for std::codecvt<char, char, __mbstate_t>
  r typeinfo name for std::codecvt<char16_t, char, __mbstate_t>
+ r typeinfo name for std::codecvt<char16_t, char8_t, __mbstate_t>
  r typeinfo name for std::codecvt<char32_t, char, __mbstate_t>
+ r typeinfo name for std::codecvt<char32_t, char8_t, __mbstate_t>
  r typeinfo name for std::codecvt<wchar_t, char, __mbstate_t>
  r typeinfo name for std::codecvt_base
  r typeinfo name for std::codecvt_byname<char, char, __mbstate_t>
@@ -2409,6 +2392,7 @@
  r vortex::HalfSqrtEpsilon
  r vortex::Pi
  r vortex::SqrtEpsilon
+ r vrcore::crc32(unsigned int, void const*, unsigned int)::crcTable
  rand
  read
  readdir
@@ -2997,16 +2981,16 @@
  t .L1754
  t .L1755
  t .L1756
- t .L1759
  t .L176
- t .L1760
- t .L1762
- t .L1763
- t .L1764
- t .L1765
- t .L1766
  t .L177
+ t .L1776
+ t .L1777
+ t .L1779
  t .L178
+ t .L1780
+ t .L1781
+ t .L1782
+ t .L1783
  t .L1784
  t .L1786
  t .L1787
@@ -3680,20 +3664,18 @@
  t .L44
  t .L440
  t .L441
- t .L4413
- t .L4414
- t .L4416
- t .L4417
- t .L4418
- t .L4419
  t .L442
- t .L4420
  t .L443
  t .L4439
  t .L444
  t .L4441
  t .L4442
  t .L4443
+ t .L4444
+ t .L4445
+ t .L4446
+ t .L4447
+ t .L4448
  t .L445
  t .L4456
  t .L4458
@@ -4873,6 +4855,7 @@
  t CLighthouseHmdDriver::BTryToFixFailedActivation()
  t CLighthouseHmdDriver::CLighthouseHmdDriver()
  t CLighthouseHmdDriver::CLighthouseHmdDriver() [clone .cold]
+ t CLighthouseHmdDriver::CanStartOtgt()
  t CLighthouseHmdDriver::Cleanup()
  t CLighthouseHmdDriver::ComputeDistortion(vr::EVREye, float, float)
  t CLighthouseHmdDriver::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
@@ -4960,11 +4943,14 @@
  t CLighthouseHmdDriver::OnHtcHmdPacket(htc::HtcHmdState_t*)
  t CLighthouseHmdDriver::OnIMUSample(double, double, double, double, double, double, double, unsigned int)
  t CLighthouseHmdDriver::OnIPDData(float)
+ t CLighthouseHmdDriver::OnOtgtComplete(vortex::WatchmanOtgtResults_t const&)
+ t CLighthouseHmdDriver::OnOtgtComplete(vortex::WatchmanOtgtResults_t const&) [clone .cold]
  t CLighthouseHmdDriver::OnPoseChange(vortex::IPoseTracker*)
  t CLighthouseHmdDriver::OnPoseTrackerEvent(vr::EVREventType, vr::VREvent_Data_t const&, float)
  t CLighthouseHmdDriver::OnProximityData(float, bool)
  t CLighthouseHmdDriver::OnUserDataComplete(bool)
  t CLighthouseHmdDriver::OnVideoStatusUpdate(float)
+ t CLighthouseHmdDriver::OtgtResultsContext_t::~OtgtResultsContext_t()
  t CLighthouseHmdDriver::OverrideHiddenAreaMesh()
  t CLighthouseHmdDriver::OverrideHiddenAreaMesh() [clone .cold]
  t CLighthouseHmdDriver::OverrideInputProfile()
@@ -4982,6 +4968,10 @@
  t CLighthouseHmdDriver::RunFrame() [clone .cold]
  t CLighthouseHmdDriver::SelectVideoConfig()
  t CLighthouseHmdDriver::SelectVideoConfig() [clone .cold]
+ t CLighthouseHmdDriver::SendOtgtResultsToLog(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)
+ t CLighthouseHmdDriver::SendOtgtResultsToLog(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&) [clone .cold]
+ t CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)
+ t CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&) [clone .cold]
  t CLighthouseHmdDriver::SetAutoExposure(bool)
  t CLighthouseHmdDriver::SetCameraCompatibilityMode(vr::ECameraCompatibilityMode)
  t CLighthouseHmdDriver::SetCameraFrameBuffering(int, void**, unsigned int)
@@ -5002,6 +4992,10 @@
  t CLighthouseHmdDriver::UpdateConnectedState()
  t CLighthouseHmdDriver::UpdateConnectedState() [clone .cold]
  t CLighthouseHmdDriver::UpdateDependentFirmwareProperties()
+ t CLighthouseHmdDriver::UpdateIndexOtgtLog(std::string const&, Json::Value const&)
+ t CLighthouseHmdDriver::UpdateIndexOtgtLog(std::string const&, Json::Value const&) [clone .cold]
+ t CLighthouseHmdDriver::UpdateOtgt()
+ t CLighthouseHmdDriver::UpdateOtgt() [clone .part.0]
  t CLighthouseHmdDriver::setDepthAugmentedPassthrough(CDepthAugmentedPassthrough*)
  t CLighthouseHmdDriver::~CLighthouseHmdDriver()
  t CLighthouseHmdProvider::AddNewDevice(char const*, std::string const&)
@@ -5077,6 +5071,10 @@
  t CLocalizationManager::BLoadWebStringTable(std::string const&) [clone .cold]
  t CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*)
  t CLocalizationManager::CopyToStringTable(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > >*, Json::Value const*) [clone .cold]
+ t CLocalizationManager::GetFlatLocalizationJson()
+ t CLocalizationManager::GetFlatLocalizationJson() [clone .cold]
+ t CLocalizationManager::GetLocalizationJson()
+ t CLocalizationManager::GetLocalizationJson() [clone .cold]
  t CLocalizationManager::GetStringEntry(std::string const&, std::string const&)
  t CLocalizationManager::GetStringEntry(std::string const&, std::string const&) [clone .cold]
  t CLocalizationManager::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
@@ -5156,6 +5154,9 @@
  t CPreviewThread::Run()
  t CPreviewThread::~CPreviewThread()
  t CRefCount::Release() const
+ t CSDLDynamic::Init()
+ t CSDLDynamic::Unload()
+ t CSDLDynamic::~CSDLDynamic()
  t CScopedEventDuration::CScopedEventDuration(char const*, ...)
  t CScopedEventDuration::~CScopedEventDuration()
  t CScopedWatchdogDetailStringViaIVRServer::CScopedWatchdogDetailStringViaIVRServer(char const*)
@@ -5340,12 +5341,12 @@
  t CVRAudioDevices::CVRAudioDevices()
  t CVRAudioDevices::DeserializeAudioDeviceInfo(std::string const&, std::string*, std::string*, unsigned short*, unsigned short*)
  t CVRAudioDevices::GetAudioDevices(std::vector<IVRAudioDevices::CVRAudioDeviceInfo, std::allocator<IVRAudioDevices::CVRAudioDeviceInfo> >&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceState)
- t CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&)
+ t CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&)
  t CVRAudioDevices::GetDefaultAudioDevice(std::string&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceRole)
  t CVRAudioDevices::GetDeviceSoundVolume(std::string const&)
  t CVRAudioDevices::GetMasterMicrophoneVolume()
  t CVRAudioDevices::GetMasterSoundVolume()
- t CVRAudioDevices::GetMirroringPlaybackDevice(std::string&)
+ t CVRAudioDevices::GetMirroringPlaybackDevice(std::string&, bool&)
  t CVRAudioDevices::IsAudioMirroringSupported()
  t CVRAudioDevices::IsDeviceSoundVolumeMute(std::string const&)
  t CVRAudioDevices::IsMasterMicrophoneMute()
@@ -5487,11 +5488,15 @@
  t CWatchdogDriver_Lighthouse::~CWatchdogDriver_Lighthouse()
  t CWirelessConnectionMonitor::OnUnhandledData(vortex::CLighthouseIMUThread::IMonitorCallback::Unhandled)
  t CWirelessConnectionMonitor::~CWirelessConnectionMonitor()
+ t CWirelessDecoder::GetControllerSubprotocolVersion() const
+ t CWirelessDecoder::GetOpticalSubprotocolVersion() const
  t CWirelessDecoder::Reset()
  t CWirelessDecoder::~CWirelessDecoder()
  t CWirelessDecoderWv2::Decode(unsigned char, unsigned char const*, int)
  t CWirelessDecoderWv2::Decode(unsigned char, unsigned char const*, int) [clone .cold]
  t CWirelessDecoderWv2::DecodeControllerStateK2(unsigned char const*, int)
+ t CWirelessDecoderWv2::GetControllerSubprotocolVersion() const
+ t CWirelessDecoderWv2::GetOpticalSubprotocolVersion() const
  t CWirelessDecoderWv2::Reset()
  t CWirelessDecoderWv2::ResetImpl()
  t CWirelessDecoderWv2::~CWirelessDecoderWv2()
@@ -6370,6 +6375,8 @@
  t RepairUTF8(std::string const&, std::string&)
  t ReplaceSubstr(std::string&, std::string const&, std::string const&)
  t ReturnStdString(std::string const&, char*, unsigned int)
+ t SDLDynamic()
+ t SDLDynamic() [clone .cold]
  t SanityCheckUserDataHeader(int*, unsigned char const*, unsigned int)
  t SecondsToSystemTicks(double)
  t SetCurrentProcessExplicitAppUserModelID()
@@ -6377,6 +6384,9 @@
  t SetMaxLogLevel(ELogLevel)
  t SetUserData(UserDataImageBuilder*, char const*, char const*, unsigned int)
  t SetUserData(UserDataImageBuilder*, char const*, char const*, unsigned int) [clone .cold]
+ t SharedLib_GetFunction(void*, char const*)
+ t SharedLib_Load(char const*, std::string*)
+ t SharedLib_Unload(void*)
  t Slerp(CTransform const&, CTransform const&, float)
  t StaticPoseMaker::CreatePose(CPoseRecipe&, unsigned char) const
  t StaticPoseMaker::StaticPoseMaker(CKeyframedDataResource const*, int)
@@ -6607,7 +6617,7 @@
  t Vortex_WriteStringToTextFile(std::string const&, char const*) [clone .cold]
  t VrInitGpuProfiling()
  t WillLog(ELogLevel)
- t WinRT::AcquireDisplay(int)
+ t WinRT::AcquireDisplay(int, bool)
  t WinRT::GetAdapterLuid(int, void*)
  t WinRT::GetCurrentDriverVersion()
  t WinRT::GetDeviceString(int)
@@ -7120,13 +7130,20 @@
  t check_exception_spec(lsda_header_info*, std::type_info const*, void*, long)
  t classify_object_over_fdes
  t concat_hid_device_info(hid_device_info*, hid_device_info*)
- t crc32(unsigned int, void const*, unsigned int)
+ t cryptor::string_encryptor<10u>::decrypt() const
+ t cryptor::string_encryptor<11u>::decrypt() const
+ t cryptor::string_encryptor<12u>::decrypt() const
+ t cryptor::string_encryptor<13u>::decrypt() const
  t cryptor::string_encryptor<14u>::decrypt() const
+ t cryptor::string_encryptor<15u>::decrypt() const
  t cryptor::string_encryptor<16u>::decrypt() const
  t cryptor::string_encryptor<19u>::decrypt() const
+ t cryptor::string_encryptor<22u>::decrypt() const
  t cryptor::string_encryptor<29u>::decrypt() const
  t cryptor::string_encryptor<5u>::decrypt() const
+ t cryptor::string_encryptor<7u>::decrypt() const
  t cryptor::string_encryptor<8u>::decrypt() const
+ t cryptor::string_encryptor<9u>::decrypt() const
  t d_abi_tags
  t d_append_buffer
  t d_bare_function_type
@@ -10330,6 +10347,14 @@
  t std::codecvt<char16_t, char, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char*, char*, char*&) const
  t std::codecvt<char16_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  t std::codecvt<char16_t, char, __mbstate_t>::~codecvt()
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_always_noconv() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_encoding() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char16_t*, char16_t*, char16_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned int) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_max_length() const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char16_t, char8_t, __mbstate_t>::~codecvt()
  t std::codecvt<char32_t, char, __mbstate_t>::do_always_noconv() const
  t std::codecvt<char32_t, char, __mbstate_t>::do_encoding() const
  t std::codecvt<char32_t, char, __mbstate_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, char32_t*, char32_t*, char32_t*&) const
@@ -10338,6 +10363,14 @@
  t std::codecvt<char32_t, char, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
  t std::codecvt<char32_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
  t std::codecvt<char32_t, char, __mbstate_t>::~codecvt()
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_always_noconv() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_encoding() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char32_t*, char32_t*, char32_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned int) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_max_length() const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
+ t std::codecvt<char32_t, char8_t, __mbstate_t>::~codecvt()
  t std::codecvt<wchar_t, char, __mbstate_t> const& std::use_facet<std::codecvt<wchar_t, char, __mbstate_t> >(std::locale const&)
  t std::codecvt<wchar_t, char, __mbstate_t>::codecvt(__locale_struct*, unsigned int)
  t std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned int)
@@ -12601,6 +12634,7 @@
  t vortex::CLighthouseIMUThread::GetISPSyncDivisor(unsigned char*)
  t vortex::CLighthouseIMUThread::GetKeepaliveTime()
  t vortex::CLighthouseIMUThread::GetLighthouseErrorReport(vortex::_lighthouse_errors*)
+ t vortex::CLighthouseIMUThread::GetOtgtResults(vortex::WatchmanOtgtResults_t*)
  t vortex::CLighthouseIMUThread::GetPanelColumnCorrection(vortex::panel_column_correction_t*, vortex::panel_column_correction_t*)
  t vortex::CLighthouseIMUThread::GetPanelStats(vortex::panel_stats_t*)
  t vortex::CLighthouseIMUThread::GetPeripheralApplicationVersion(unsigned int*)
@@ -12683,6 +12717,7 @@
  t vortex::CLighthouseIMUThread::SetVideoConfig(vortex::CLighthouseIMUThread::VideoConfig_t const&)
  t vortex::CLighthouseIMUThread::SetVrcCallback(void*, vortex::CLighthouseIMUThread::IVrcCallback*)
  t vortex::CLighthouseIMUThread::StartInSystemProgramming()
+ t vortex::CLighthouseIMUThread::StartOtgt()
  t vortex::CLighthouseIMUThread::StopDonglePairing()
  t vortex::CLighthouseIMUThread::TriggerDonglePairing(int, bool)
  t vortex::CLighthouseIMUThread::TriggerUnhandledCallback(vortex::CLighthouseIMUThread::IMonitorCallback::Unhandled)
@@ -13372,6 +13407,7 @@
  t vr_internal::VRApplications()
  t vr_internal::VRApplicationsInternal()
  t vr_internal::VRBlockQueue()
+ t vr_internal::VRCVTrackedHmdInternal()
  t vr_internal::VRCameraPassthroughInternal()
  t vr_internal::VRChaperone()
  t vr_internal::VRChaperoneInternal()
@@ -13420,6 +13456,7 @@
  t vrcamera::IVRCamera::IsConnected()
  t vrcamera::VRCamera_Open()
  t vrcamera::VRCamera_Open() [clone .cold]
+ t vrcore::crc32(unsigned int, void const*, unsigned int)
  t wchar_t* std::__add_grouping<wchar_t>(wchar_t*, wchar_t, char const*, unsigned int, wchar_t const*, wchar_t const*)
  t wchar_t* std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_S_construct<__gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > >(__gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >, __gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >, std::allocator<wchar_t> const&, std::forward_iterator_tag)
  t wchar_t* std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::_S_construct<wchar_t const*>(wchar_t const*, wchar_t const*, std::allocator<wchar_t> const&, std::forward_iterator_tag)

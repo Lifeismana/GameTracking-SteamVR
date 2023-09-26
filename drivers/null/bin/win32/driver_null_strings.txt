@@ -52,7 +52,6 @@
 .text$x
 .text$yd
 .xdata$x
-/,m(2+
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -86,7 +85,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230831183305Z0/
+230925234340Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -118,6 +117,7 @@
 656a6q6
 6I]Dc
 6OB,n_
+6^(,]
 7 7<7@7
 70503
 7T8X8`8x8
@@ -130,6 +130,7 @@
 9"9)91999A9M9V9[9a9k9u9
 9"9+909@9J9S9\9n9s9}9
 999~9
+9JrCQ!m
 : :(:@:P:T:d:h:p:
 :#:):/:5:;:A:G:M:S:Y:_:e:k:q:
 :#:1:;:D:M:X:]:k:u:~:
@@ -197,10 +198,12 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS'G
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
 TerminateProcess
+Tj_PX
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
@@ -260,7 +263,6 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-g`J/f
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -275,10 +277,8 @@ memcpy
 memmove
 memset
 modelNumber
-mv8~Q 
 renderHeight
 renderWidth
-rt	2N
 secondsFromVsyncToPhotons
 serialNumber
 steamvr

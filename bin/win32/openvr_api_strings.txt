@@ -42,7 +42,6 @@ $iMBm
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-&+Lvj
 &<	x4;O
 &?~YK|
 &uo r
@@ -452,7 +451,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-230831183152Z0/
+230925234223Z0/
 241009235959Z0a1
 262X2
 282\2
@@ -511,7 +510,6 @@ $iMBm
 3/3U3
 303P3X3d3
 311109235959Z0b1
-31]'?
 323=3B3G3b3l3
 323s3
 333y3
@@ -1401,6 +1399,8 @@ Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
+H}nFp=
+I+989
 I1U1\1S2n2u2
 ILiquidVR_001
 IND)ind)
@@ -1411,7 +1411,6 @@ IVRControlPanel_006
 IVRHeadsetView_001
 IVRPaths_001
 IVRVirtualDisplay_002
-IgWm)
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitOnceExecuteOnce
@@ -1495,7 +1494,6 @@ OH+O@
 OH+O@I
 OHPSQ
 OHSSVSSW
-O]GKHx
 O`j@SV
 October
 Od_^]
@@ -1532,6 +1530,7 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
+RSDSo
 RWQSV
 R\hvv
 RaiseException
@@ -1949,8 +1948,10 @@ Y__^[
 ]J<0"0i3
 ]vQ<)8
 ^$+^8+
+^%O V
 ^<V7w
 ^@[uC
+^YzX<3
 ^f93u
 _C5D#
 _WVj@
@@ -2042,7 +2043,6 @@ bad exception
 bad file descriptor
 bad locale name
 bad message
-bf[kWB
 broken pipe
 c%;>7
 c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
@@ -2058,6 +2058,7 @@ connection refused
 connection reset
 count
 cross device link
+d"pTt
 d2o3t3
 dC4N(
 dI;D#
@@ -2074,7 +2075,7 @@ eventObject
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
-f5r4M
+f4z9D
 f90t	
 f99t/
 f99t7
@@ -2101,6 +2102,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i$J:i
 i,MFey<e
 iG8O(
 identifier removed

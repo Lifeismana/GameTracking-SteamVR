@@ -13,7 +13,6 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
-&t&	A
 ',=?k
 '.5<=6/7>????????????????
 (2/2c2j2
@@ -28,11 +27,9 @@ $9^ t
 (f*^[0
 +3/3z4
 +Xt@(
-+]^)WoO
 +o'q)}
 , last executing in 
 ,W5y+
--!A9;
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -171,7 +168,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-230831183207Z0/
+230925234240Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -368,8 +365,6 @@ $9^ t
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 @(Failed Enumeration)
 @.data
-@od4e
-A8XeY
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -487,7 +482,6 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
-Od-YGRs
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
@@ -656,6 +650,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+aw84E
 bad AC huff
 bad APP len
 bad BMP
@@ -750,6 +745,7 @@ invalid decoded scanline length
 invalid filter
 it_it
 italian
+i~ppV
 ja_jp
 japanese
 jj@0HK4
@@ -810,7 +806,6 @@ strtol
 sv_sv
 swedish
 t"Php
-t6Z^"[
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -822,6 +817,7 @@ too large
 too many codes
 tr_tr
 turkish
+u"h(~
 u(_^[
 u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C

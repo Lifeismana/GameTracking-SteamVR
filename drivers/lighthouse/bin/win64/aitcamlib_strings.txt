@@ -66,7 +66,6 @@
 -9k0t&H
 -9{0t%H
 -D9c0t%H
--Ng +
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -178,7 +177,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230831183346Z0/
+230925234303Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -196,6 +195,7 @@
 6*f(_
 6I]Dc
 6OB,n_
+7->"qB
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
@@ -215,6 +215,7 @@
 9k0tcH
 9l$Lt	E
 ;D$ht6
+<)r<t
 <0:08
 =ETLP
 =IBgC
@@ -264,7 +265,6 @@
 A9A A
 A9Q }EI
 A;Q }?I
-AB",A
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -474,7 +474,6 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
-REA654
 RPCRT4.dll
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
@@ -699,7 +698,6 @@ bad req_comp
 bad sizes
 bad tRNS len
 bad zlib header
-be]#@
 bg_bg
 brazilian
 bulgarian
@@ -766,6 +764,7 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
+k<=O_~-
 ko_ko
 korean
 l$ ATAVAWH
@@ -881,13 +880,13 @@ tr_tr
 turkish
 u,@8}
 u.9x }
-u5"zU@
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uH@8}
 uJf9X
 ua_ua
+ub/GxNI
 ukranian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
 unknown BMP
@@ -908,7 +907,6 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-y[/Ye
 zh_cn
 zh_tw
 zlib corrupt

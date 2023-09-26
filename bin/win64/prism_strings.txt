@@ -530,7 +530,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-230831183408Z0/
+230925234326Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -561,7 +561,6 @@ $9E0u
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-8z17<
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -571,6 +570,7 @@ $9E0u
 ;K sOH
 ;S sMH
 ;\$x|
+;`k'~z9
 ;|$ r
 <0:08
 <P)9Y
@@ -738,7 +738,6 @@ Attempting to reinitailize estimator!
 AuthD
 Automatically quitting due to idle time > %f seconds.
 B H9B
-B<AN.
 Bellevue1
 Blank
 C(H+C H
@@ -1028,7 +1027,7 @@ Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because w
 Failed creating auto reset event %s (GLE: %u)
 Failed creating file mapping %s: %u
 Failed creating mutex %s (GLE: %u)
-Failed mapping view for %s
+Failed mapping view for %s; Error code: 0x%08x
 Failed to compute distortion parameters!
 Failed to connect to pipe %s because %s
 Failed to import client event handle from pipe %s after connecting
@@ -1610,7 +1609,7 @@ Wait:%llu
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s
-WaitNamedPipe %s failed because no one is listening at that name.
+WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)
 WaitNamedPipeA
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
@@ -1625,6 +1624,7 @@ WindowsPromoteStringBuffer
 WriteFile
 XA_A][]
 XA_A^A]_
+XA|jgk[
 Y9"SD
 YUV conversion - %s
 Yl$ M
@@ -1830,7 +1830,6 @@ data.hIPC.IsValid()
 deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
-e]XuZ
 effffff
 f9+t4
 f98tZH
@@ -2093,6 +2092,7 @@ tolower
 t}H9=
 uAfff
 uRf;>tM
+uZOq@
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S
@@ -2559,7 +2559,6 @@ vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
 vr-marker,frame_end,type,application
 vulkan-1.dll
-w(lpxQe
 wcsrchr
 wcsstr
 www.digicert.com1!0

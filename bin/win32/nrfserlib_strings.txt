@@ -57,6 +57,7 @@
 !hn7!
 "0)0C0
 "j h4_
+"qDDM
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
 $PVh\
@@ -87,6 +88,7 @@ $Vh&*
 , defaulting to flow_control::none!
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
+,Vubn
 ,W5y+
 -1e+9999
 -Infinity
@@ -708,7 +710,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-230831183211Z0/
+230925234244Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1214,6 +1216,7 @@ $Vh&*
 <4<D<H<X<\<`<h<
 <4<z<
 <6=H=
+<6YEN
 <8<X<x<
 <9=K=h=n=}=
 <:<F<
@@ -1221,7 +1224,6 @@ $Vh&*
 <<<D<L<T<\<l<t<|<
 <= Exiting Context: (%.2f seconds)
 <=<X<b<h<
-<=Cfp-
 <><v<
 <>=J=t=
 <?=h=
@@ -1290,6 +1292,7 @@ $Vh&*
 >(>8>X>h>
 >(>H>h>
 >)?E?`?
+>*JO 
 >+>F>M>R>W>i>y>
 >,>0>8>P>`>d>h>p>
 >.>n>s>y>
@@ -2101,10 +2104,12 @@ Zipfile is corrupt or not a zipfile
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
+[jq@I|
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
 ^[0-9]+$
+_>)$\
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -2281,6 +2286,7 @@ memchr
 memcpy
 memmove
 memset
+miD"I
 mutex
 need dictionary
 nrfserlib.dll
@@ -2291,6 +2297,7 @@ oversubscribed literal/length tree
 print
 punct
 realloc
+r}'_c
 s?=2N
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)

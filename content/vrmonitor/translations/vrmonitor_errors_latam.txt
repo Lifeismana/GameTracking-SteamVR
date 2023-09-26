@@ -666,10 +666,20 @@
 "Popover_NoPose_HMD_Action" "Más información"
 "Popover_NoPose_HMD_ActionURL" "https://help.steampowered.com/es-419/wizard/HelpWithGame/?appid=250820"
 
+"Popover_NoCameraPose_HMD_Header" "Buscando..."
+"Popover_NoCameraPose_HMD_Description" "En estos momentos, este visor no está haciendo el seguimiento. Prueba mirar a tu alrededor."
+"Popover_NoCameraPose_HMD_Action" "Más información"
+"Popover_NoCameraPose_HMD_ActionURL" "https://help.steampowered.com/en/wizard/HelpWithGame/?appid=250820"
+
 "Popover_NoPose_Controller_Header" "Buscando..."
 "Popover_NoPose_Controller_Description" "Este control no está realizando el seguimiento. Asegúrate de que está al alcance de una estación base."
 "Popover_NoPose_Controller_Action" "Identificar controlador"
 "Popover_NoPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
+
+"Popover_NoCameraPose_Controller_Header" "Buscando..."
+"Popover_NoCameraPose_Controller_Description" "Este control no está realizando el seguimiento en estos momentos. Asegúrate de que está al alcance de las cámaras del visor."
+"Popover_NoCameraPose_Controller_Action" "Identificar controlador"
+"Popover_NoCameraPose_Controller_ActionURL" "vrmonitor://identifycontroller/?index=%1"
 
 "Popover_NoPose_Base_Header" "Buscando..."
 "Popover_NoPose_Base_Description" "Esta estación base no está realizando seguimiento de ningún dispositivo. Asegúrate de que está al alcance de tu visor."
@@ -766,6 +776,11 @@
 "Warning_DismissableWarning_SteamVRInSafeMode_Description" "Debido a un reciente bloqueo, se desactivaron algunos complementos de SteamVR.<p><a style ='color: rgb(212, 212, 212);' href='https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326'>Más información</a>."
 "Warning_DismissableWarning_SteamVRInSafeMode_Action" "Administrar complementos"
 "Warning_DismissableWarning_SteamVRInSafeMode_ActionURL" "vrmonitor://safemode/disable"
+
+"Warning_DismissableWarning_SteamBetaNeeded_Header" "Se requiere la beta del cliente de Steam"
+"Warning_DismissableWarning_SteamBetaNeeded_Description" "Esta nueva actualización de la beta de SteamVR incluye algunas nuevas características que requieren la instalación de la beta del cliente de Steam."
+"Warning_DismissableWarning_SteamBetaNeeded_Action" "Más información"
+"Warning_DismissableWarning_SteamBetaNeeded_ActionURL" "https://help.steampowered.com/en/faqs/view/276C-85A0-C531-AFA3"
 
 "Warning_DismissableWarning_SteamVRUpdated_Header" "Actualización de SteamVR"
 "Warning_DismissableWarning_SteamVRUpdated_Description" "SteamVR se ha actualizado a la versión %2."
@@ -930,6 +945,11 @@ Más información."
 "Warning_DismissableWarning_InstallVivePro2Prompt_Action" "Instalar"
 "Warning_DismissableWarning_InstallVivePro2Prompt_ActionURL" "vrmonitor://installdriver/vivepro2"
 
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Header" "¿Instalar el controlador de Bigscreen Beyond?"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Se necesita un controlador para utilizar el visor Bigscreen Beyond en SteamVR."
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Instalar"
+"Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problema de conexión de pantalla"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Tu tarjeta gráfica no puede conectarse con éxito a la pantalla de tu visor. Intenta quitar cualquier adaptador de cable o extensor que estés utilizando. Prueba con otro puerto en su GPU si hay uno disponible. <b>Utiliza el enlace de reinicio a continuación para reiniciar el visor y que la GPU lo intente nuevamente.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Reiniciar visor"
@@ -943,6 +963,11 @@ Más información."
 "SteamVRServiceNeedsInstallation_FirstActionURL" "vrmonitor://vrservice/install"
 "SteamVRServiceNeedsInstallation_Action" "Más información"
 "SteamVRServiceNeedsInstallation_ActionURL" "https://help.steampowered.com/es/wizard/HelpWithGame/?appid=250820"
+
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Header" "Configuración del firewall"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Description" "Se requiere de tu permiso para modificar tus reglas de firewall para SteamVR. Haz clic en \"Modificar Firewall\" y, a continuación, selecciona \"Sí\" en la solicitud de UAC."
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_Action" "Modificar Firewall"
+"Warning_DismissableWarning_FirewallRulesNeedConfiguration_ActionURL" "vrmonitor://firewall/add"
 
 "Warning_DismissableWarning_WiredIndexControllerActivity_Header" "Desenchufa los controles durante el juego"
 "Warning_DismissableWarning_WiredIndexControllerActivity_Description" "Tirar del cable de carga en ángulo puede causar daños."

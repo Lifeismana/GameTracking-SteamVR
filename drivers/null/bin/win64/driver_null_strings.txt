@@ -3,6 +3,7 @@
  A__^
  H3E H3E
 !hn7!
+&@mYK
 ',=?k
 (f*^[0
 +Xt@(
@@ -83,7 +84,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230831183606Z0/
+230925234525Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -94,6 +95,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3l7N_
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -105,6 +107,8 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+;#IOv
+;>)$9
 <0:08
 =rIQU
 >0<0:
@@ -115,7 +119,6 @@
 @.reloc
 @.rsrc
 @A^_^
-APAoS
 AuthD
 Bellevue1
 CT$0H
@@ -149,6 +152,7 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
+I^`#c
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeSListHead
 IsDebuggerPresent
@@ -175,6 +179,7 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
+TQdb4
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
@@ -190,7 +195,6 @@ Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
-_1iu[
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -235,11 +239,13 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+f		+[
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iO+7P7
 jj@0HK4
 k0i0$
 l$8E3

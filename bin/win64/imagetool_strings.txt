@@ -1596,7 +1596,6 @@
 !VuCh
 !W,m]
 ![CDATA[
-!az=j
 !container_class || info->container_class == container_class
 !context->awaiting_pop
 !context->parsing
@@ -2067,6 +2066,7 @@ $wtpt
 &quot;
 &t'<<t
 ' for value type '
+'%()P8+
 '%.20g'
 '%s' '%s'
 '%s' (Freetype)
@@ -3718,7 +3718,7 @@ $wtpt
 220323000000Z
 220801000000Z
 230714000000Z
-230831183635Z0/
+230925234553Z0/
 230x323
 2384x3370
 24 24
@@ -3762,6 +3762,7 @@ $wtpt
 333333
 3333UUUU
 33f33333
+33hC!'~Yda 
 341013235959Z0H1
 354x499
 360428235959Z0i1
@@ -3839,7 +3840,6 @@ $wtpt
 3iR">
 3mq+<
 3p@lgi
-3r<QC
 3x1:0,1,0
 3x4+1+1:-,-,0 1,1,1 1,1,1 0,-,-
 3x4+1+1:0,-,- 1,1,1 1,1,1 -,-,0
@@ -7007,6 +7007,7 @@ DXT5H
 DXT5u#L
 DXT5ufA
 D`g$p
+D`|x=
 DarkBlue
 DarkCyan
 DarkGoldenrod
@@ -7420,7 +7421,6 @@ EXIF Profile Thumbnail
 EXPOSURE=%g
 EXXXXXXXX
 EY}CWoB[sDDB6JE<\M>`S>e_Xzt
-E]?+6
 E^XfD;
 E_0)D
 E`H+F(H
@@ -8655,7 +8655,6 @@ Hanunoo
 HardLight
 HardMix
 Hasselblad CFV/H3D39II
-Hc5tRW
 HcA ;B 
 HcA H;
 HcA0E3
@@ -9681,7 +9680,6 @@ L+T$`H
 L+l$X
 L+t$HI
 L/Q0am
-L7O(zMw
 L9 u%H
 L9&~,
 L9&~2
@@ -13421,6 +13419,7 @@ TypeOfFilters
 T~OXu
 U D+	
 U%	PG;
+U%SZv|
 U(UuU
 U0HcJ
 U0tYA
@@ -14172,6 +14171,7 @@ Y Focus Center
 Y H+Y
 Y L;Y
 Y Offset In Slide Coordinate System
+Y$(gNc79
 Y%/f4
 Y%7h4
 Y%h=4
@@ -19707,7 +19707,6 @@ type_node_any_new_W
 type_node_fundamental_new_W
 type_node_new_W
 tzD9w\ttL
-t|/:1v
 t|L9s
 u	)))
 u	H97
@@ -20077,7 +20076,6 @@ x7H;F(}1
 x9DBx
 x<<D%
 x<H+x
-x<I.j
 x>B\y>
 x?t9f
 x@|" 
@@ -20794,7 +20792,6 @@ xpm_%.1024s
 xps:cmyk
 xps:color
 xps:mono
-xq{_u>
 xx-large
 xx-small
 y H+y

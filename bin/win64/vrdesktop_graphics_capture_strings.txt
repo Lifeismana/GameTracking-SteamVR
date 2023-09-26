@@ -120,6 +120,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.Qd%-*
 .data
 .data$r
 .edata
@@ -147,6 +148,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/7$t/r
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -181,8 +183,9 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230831184608Z0/
+230925235044Z0/
 241009235959Z0a1
+2<"=j`PG
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -206,6 +209,7 @@
 8_^][
 9D$xu
 9D$|toH
+: hbX
 < t+<
 </u#H
 <0:08
@@ -665,7 +669,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS?I
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -857,6 +860,7 @@ _seh_filter_dll
 `.rdata
 `A_A^A]A\_^[
 `A_A^A]A\_^]
+a"C/'
 a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
@@ -954,7 +958,6 @@ invalid string position
 iswspace
 it_it
 italian
-j&Lz1>
 ja_jp
 japanese
 jj@0HK4
@@ -998,6 +1001,7 @@ product_name
 pt_br
 pt_pt
 r,fff
+r;Iw,
 request_destroy_window_view
 request_handlers
 request_handlers_response
@@ -1036,6 +1040,7 @@ t$ WH
 t$0H;
 t$@H=
 t$PH=
+t(OZR
 t:I;>t
 tXfff
 tchinese
@@ -1045,7 +1050,6 @@ title
 tolower
 tr_tr
 turkish
-u!}Ls
 ua_ua
 ukranian
 update_debug_info
