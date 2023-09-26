@@ -1,0 +1,306 @@
+#! C:/Program Files/Nuke13.1v2/nuke-13.1.2.dll -nx
+version 13.1 v2
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="0" y="0" w="1919" h="1028" screen="0">
+        <splitter orientation="1">
+            <split size="40"/>
+            <dock id="" hideTitles="1" activePageId="Toolbar.1">
+                <page id="Toolbar.1"/>
+            </dock>
+            <split size="1256" stretch="1"/>
+            <splitter orientation="2">
+                <split size="579"/>
+                <dock id="" activePageId="Viewer.1">
+                    <page id="Viewer.1"/>
+                </dock>
+                <split size="407"/>
+                <dock id="" activePageId="DAG.1" focus="true">
+                    <page id="DAG.1"/>
+                    <page id="Curve Editor.1"/>
+                    <page id="DopeSheet.1"/>
+                </dock>
+            </splitter>
+            <split size="615"/>
+            <dock id="" activePageId="Properties.1">
+                <page id="Properties.1"/>
+                <page id="uk.co.thefoundry.backgroundrenderview.1"/>
+            </dock>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name F:/dev/vr/steamvr/main/public/runtime/drivers/vortex/resources/backgrounds/grid_fov_chart.nk
+ frame 99
+ last_frame 140
+ format "2048 1556 0 0 2048 1556 1 2K_Super_35(full-ap)"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+ colorManagement Nuke
+ workingSpaceLUT linear
+ monitorLut sRGB
+ monitorOutLUT rec709
+ int8Lut sRGB
+ int16Lut sRGB
+ logLut Cineon
+ floatLut linear
+}
+Read {
+ inputs 0
+ file_type png
+ file F:/dev/vr/steamvr/main/public/runtime/drivers/vortex/resources/backgrounds/grid_circle_fov_colored.png
+ format "4096 2048 0 0 4096 2048 1 4K_LatLong"
+ origset true
+ raw true
+ name Read3
+ xpos -1991
+ ypos 697
+}
+set N8e2fb000 [stack 0]
+Reformat {
+ format "8192 4096 0 0 8192 4096 1 8K_LatLong"
+ name Reformat1
+ xpos -1991
+ ypos 815
+}
+push $N8e2fb000
+SphericalTransform2 {
+ projTypeOutput Fisheye
+ focalOutput 10
+ name SphericalTransform2
+ xpos -1557
+ ypos 703
+}
+Write {
+ file F:/dev/vr/steamvr/main/public/runtime/drivers/vortex/resources/backgrounds/grid_fov_source_fisheye.png
+ raw true
+ file_type png
+ checkHashOnRead false
+ name Write1
+ xpos -1557
+ ypos 740
+}
+Constant {
+ inputs 0
+ channels rgb
+ format "8192 5462 0 0 8192 5462 1 8k1.5"
+ name Constant1
+ xpos -979
+ ypos 421
+}
+Expression {
+ temp_name0 dx2
+ temp_expr0 (x-center_x)*(x-center_x)
+ temp_name1 dy2
+ temp_expr1 (y-center_y)*(y-center_y)
+ expr0 "( (dx2+dy2 < outer_r*outer_r) && (dx2+dy2 > inner_r*inner_r) ) ? 1 : 0"
+ channel1 {rgba.red rgba.green -rgba.blue}
+ name DrawRing
+ xpos -979
+ ypos 519
+ addUserKnob {20 User}
+ addUserKnob {7 center_r R 0 10000}
+ center_r {{19.858333*frame}}
+ addUserKnob {7 radius R 0 100}
+ radius 10
+ addUserKnob {7 inner_r R 0 10000}
+ inner_r {{center_r-radius/2}}
+ addUserKnob {7 outer_r R 0 10000}
+ outer_r {{center_r+radius/2}}
+ addUserKnob {7 center_x R 0 10000}
+ center_x {{input.width/2}}
+ addUserKnob {7 center_y R 0 10000}
+ center_y {{input.height/2}}
+}
+Blur {
+ size 15
+ name Blur2
+ xpos -979
+ ypos 545
+}
+Grade {
+ blackpoint 0.45
+ whitepoint 0.82
+ name Grade5
+ xpos -979
+ ypos 583
+}
+Shuffle2 {
+ fromInput1 {{0} B}
+ fromInput2 {{0} B}
+ mappings "4 rgba.red 0 0 rgba.red 0 0 rgba.red 0 0 rgba.blue 0 2 rgba.red 0 0 rgba.green 0 1 rgba.red 0 0 rgba.alpha 0 3"
+ name Shuffle5
+ xpos -979
+ ypos 609
+}
+SphericalTransform2 {
+ projTypeInput Fisheye
+ focalInput 10
+ focalOutput 10
+ name SphericalTransform8
+ xpos -979
+ ypos 676
+}
+Constant {
+ inputs 0
+ channels rgb
+ format "8192 5462 0 0 8192 5462 1 8k1.5"
+ name Constant2
+ xpos -455
+ ypos 416
+}
+Expression {
+ temp_name0 dx2
+ temp_expr0 (x-center_x)*(x-center_x)
+ temp_name1 dy2
+ temp_expr1 (y-center_y)*(y-center_y)
+ expr0 "( (dx2+dy2 < outer_r*outer_r) && (dx2+dy2 > inner_r*inner_r) ) ? 1 : 0"
+ channel1 {rgba.red rgba.green -rgba.blue none}
+ name DrawRing1
+ xpos -455
+ ypos 514
+ addUserKnob {20 User}
+ addUserKnob {7 center_r R 0 10000}
+ center_r 3.2
+ addUserKnob {7 radius R 0 100}
+ radius 10
+ addUserKnob {7 inner_r R 0 10000}
+ inner_r {{center_r-radius/2}}
+ addUserKnob {7 outer_r R 0 10000}
+ outer_r {{center_r+radius/2}}
+ addUserKnob {7 center_x R 0 10000}
+ center_x {{input.width/2}}
+ addUserKnob {7 center_y R 0 10000}
+ center_y {{input.height/2}}
+}
+Blur {
+ size 12
+ name Blur3
+ xpos -455
+ ypos 540
+}
+Grade {
+ blackpoint 0.43
+ whitepoint 0.82
+ name Grade6
+ xpos -455
+ ypos 578
+}
+Shuffle2 {
+ fromInput1 {{0} B}
+ fromInput2 {{0} B}
+ mappings "4 rgba.red 0 0 rgba.red 0 0 rgba.red 0 0 rgba.blue 0 2 rgba.red 0 0 rgba.green 0 1 rgba.red 0 0 rgba.alpha 0 3"
+ name Shuffle6
+ xpos -455
+ ypos 604
+}
+Text2 {
+ font_size_toolbar 60
+ font_width_toolbar 75
+ font_height_toolbar 75
+ opacity 0.43
+ message "\[frame]"
+ old_message {{57 57}
+   }
+ old_expression_markers {{0 1}
+   }
+ box {4166 2498.5 4414 2757.5}
+ transforms {{0 2}
+   }
+ global_font_scale 0.56
+ font_size 60
+ font_width 75
+ font_height 75
+ center {1024 778}
+ cursor_initialised true
+ autofit_bbox false
+ initial_cursor_position {{0 5462}
+   }
+ group_animations {{0} imported: 0 selected: items: "root transform/"}
+ animation_layers {{1 11 1024 778 0 0 1 1 0 0 0 0}
+   }
+ name Text1
+ xpos -455
+ ypos 678
+}
+SphericalTransform2 {
+ projTypeInput Fisheye
+ focalInput 10
+ focalOutput 10
+ name SphericalTransform9
+ xpos -455
+ ypos 720
+}
+set Nb6d94c00 [stack 0]
+Merge2 {
+ inputs 2
+ name Merge12
+ xpos -809
+ ypos 848
+}
+Grade {
+ white {0 2.8 0 1}
+ white_panelDropped true
+ name Grade7
+ xpos -809
+ ypos 905
+}
+Dot {
+ name Dot1
+ xpos -792
+ ypos 1116
+}
+set N3b29dc00 [stack 0]
+Transform {
+ translate {-4096 0}
+ center {1024 778}
+ name Transform5
+ xpos -952
+ ypos 1191
+}
+push $N3b29dc00
+Merge2 {
+ inputs 2
+ name Merge15
+ xpos -838
+ ypos 1225
+}
+push $N3b29dc00
+Transform {
+ translate {4096 0}
+ center {1024 778}
+ name Transform6
+ xpos -660
+ ypos 1171
+}
+Merge2 {
+ inputs 2
+ name Merge16
+ xpos -713
+ ypos 1266
+}
+set N3b29e000 [stack 0]
+Write {
+ file F:/dev/vr/steamvr/main/public/runtime/drivers/vortex/resources/backgrounds/fov_full_green/fov_%04d.png
+ raw true
+ file_type png
+ checkHashOnRead false
+ version 2
+ name Write4
+ xpos -713
+ ypos 1346
+}
+push $Nb6d94c00
+push $N3b29e000
+Viewer {
+ inputs 2
+ frame 99
+ frame_range 1-100
+ viewerProcess None
+ name Viewer1
+ selected true
+ xpos 144
+ ypos 1266
+}
