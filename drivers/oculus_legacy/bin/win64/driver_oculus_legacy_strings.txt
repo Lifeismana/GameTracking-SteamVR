@@ -6,6 +6,7 @@
  A__^
  H3E H3E
 !hn7!
+$^cWAMH
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -18,7 +19,7 @@
 )\$pD
 )d$`D
 )t$pu.H
-+&xc!
++VIX-
 +Xt@(
 +o'q)}
 , last executing in 
@@ -92,10 +93,11 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230925234533Z0/
+230927021437Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2bZ[+
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -157,7 +159,6 @@ A_A^A]A\_^[]
 A_A^]
 A__][
 AuthD
-Aw8Qa@
 Bellevue1
 C(L95
 CL$PH
@@ -237,7 +238,6 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JkM7la
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -321,6 +321,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
+ZTURT
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -367,7 +368,6 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`7J;(
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -393,7 +393,6 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
-k"[jg
 k0i0$
 l$8E3
 l2|X/gGe
@@ -468,7 +467,6 @@ tXfff
 tdh.dll
 terminate
 tkH97t	H
-ud/@|d
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0

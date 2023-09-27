@@ -33,6 +33,7 @@
 	9	=	=	X	a	
 	<	<	>	L	M	M	Q	T	b	c	
 	Cluster Threshold = %g
+	DPE!/
 	H)D$HH
 	I'~:bI'
 	I;F |
@@ -2066,7 +2067,6 @@ $wtpt
 &quot;
 &t'<<t
 ' for value type '
-'%()P8+
 '%.20g'
 '%s' '%s'
 '%s' (Freetype)
@@ -3718,7 +3718,7 @@ $wtpt
 220323000000Z
 220801000000Z
 230714000000Z
-230925234553Z0/
+230927021457Z0/
 230x323
 2384x3370
 24 24
@@ -3762,7 +3762,6 @@ $wtpt
 333333
 3333UUUU
 33f33333
-33hC!'~Yda 
 341013235959Z0H1
 354x499
 360428235959Z0i1
@@ -4021,6 +4020,7 @@ $wtpt
 9,{;,v:*};0
 9-4/"
 918x1296
+91r);5
 91x127
 92t.H
 92t5H
@@ -4567,6 +4567,7 @@ $wtpt
 ?none
 ?q42s(
 ?rmMx
+?rreHq-3
 ?sRGB IEC61966-2.1 (Equivalent to www.srgb.com 1998 HP profile)
 ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
@@ -7007,7 +7008,6 @@ DXT5H
 DXT5u#L
 DXT5ufA
 D`g$p
-D`|x=
 DarkBlue
 DarkCyan
 DarkGoldenrod
@@ -10157,6 +10157,7 @@ M;H |
 M;J8|
 M;Q8s
 M;e }9H
+M>K3tc
 MAC Paint
 MAGICK
 MAGICK_CONFIGURE_PATH
@@ -11754,6 +11755,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS-O
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -13419,7 +13421,6 @@ TypeOfFilters
 T~OXu
 U D+	
 U%	PG;
-U%SZv|
 U(UuU
 U0HcJ
 U0tYA
@@ -14171,7 +14172,6 @@ Y Focus Center
 Y H+Y
 Y L;Y
 Y Offset In Slide Coordinate System
-Y$(gNc79
 Y%/f4
 Y%7h4
 Y%h=4

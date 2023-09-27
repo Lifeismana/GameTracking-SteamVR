@@ -4657,6 +4657,29 @@
               S.G3.SetSettingsValue("/settings/dashboard/desktopIndex", 1),
               this.setState({ bIsReady: !0, desktopIndices: r });
           }
+          ShowMultitaskingView() {
+            this.m_mailbox.SendMessage("desktopview", {
+              type: "request_task_view",
+            });
+          }
+          renderControlBarButtons(e) {
+            const t =
+              (null === VRHTML || void 0 === VRHTML
+                ? void 0
+                : VRHTML.BSupportsMultitaskingView()) &&
+              "" == this.state.sCurrentWindowOverlayKey;
+            return d.createElement(
+              d.Fragment,
+              null,
+              t &&
+                d.createElement(C.zN, {
+                  iconUrl: "/dashboard/images/icons/icon_multitasking_view.png",
+                  title: "Multitasking View",
+                  tooltipTranslation: e,
+                  onClick: this.ShowMultitaskingView,
+                })
+            );
+          }
           render() {
             var e;
             const t =
@@ -4763,6 +4786,7 @@
           (0, i.gn)([s.ZP], M.prototype, "onDesktopViewUpdating", null),
           (0, i.gn)([s.ZP], M.prototype, "onDesktopViewReady", null),
           (0, i.gn)([s.ZP], M.prototype, "onWindowViewChange", null),
+          (0, i.gn)([s.ZP], M.prototype, "ShowMultitaskingView", null),
           (M = o = (0, i.gn)([f.Pi], M));
         var I,
           T = r(2743),
@@ -7572,41 +7596,41 @@
               VRHTML.VRDashboardManager.SendOverlayButtonUnpress(t, e));
           }
           renderOverlayControlBar() {
-            var e, t, r;
-            const n = de.B.isDarkMode,
-              o = n ? { r: 0.1, g: 0.1, b: 0.1 } : null,
-              i = n ? 0 : 0.1;
-            let s = !1,
-              l = !1,
+            var e, t, r, n;
+            const o = de.B.isDarkMode,
+              i = o ? { r: 0.1, g: 0.1, b: 0.1 } : null,
+              s = o ? 0 : 0.1;
+            let l = !1,
               c = !1,
-              u = this.getActiveOverlayKey();
-            if (u) {
-              let e = VRHTML.VROverlay.FindOverlay(u);
-              (s =
+              u = !1,
+              p = this.getActiveOverlayKey();
+            if (p) {
+              let e = VRHTML.VROverlay.FindOverlay(p);
+              (l =
                 !!e &&
                 VRHTML.VROverlay.GetFlag(e, a.Z9.EnableControlBarKeyboard)),
-                (l =
+                (c =
                   !!e &&
                   VRHTML.VROverlay.GetFlag(e, a.Z9.EnableControlBarClose)),
-                (c =
+                (u =
                   !!e &&
                   VRHTML.VROverlay.GetFlag(e, a.Z9.EnableSteamUIButtons));
             }
-            const p =
+            const g =
                 null !==
                   (e = S.G3.settings.get(
                     "/settings/dashboard/scaleSliderMin"
                   )) && void 0 !== e
                   ? e
                   : 0.75,
-              g =
+              _ =
                 null !==
                   (t = S.G3.settings.get(
                     "/settings/dashboard/scaleSliderMax"
                   )) && void 0 !== t
                   ? t
                   : 1.5,
-              _ =
+              y =
                 null ===
                   (r = S.G3.settings.get(
                     "/settings/dashboard/allowCurvature"
@@ -7615,32 +7639,32 @@
                 r
                   ? m.ml
                   : null,
-              y = { x: 0, y: -0.15, z: 0.1 },
-              b = this.GetActiveOverlayAnchorIDs();
+              b = { x: 0, y: -0.15, z: 0.1 },
+              f = this.GetActiveOverlayAnchorIDs();
             return d.createElement(
               d.Fragment,
               null,
               d.createElement(
                 a.wx,
                 {
-                  parent_id: b.strBottomCenterAnchorID,
+                  parent_id: f.strBottomCenterAnchorID,
                   translation: { y: 0.003 },
                 },
                 d.createElement(
                   a.VW,
-                  { color: o },
+                  { color: i },
                   d.createElement(
                     a.s_,
                     {
-                      curvature_origin_id: _,
+                      curvature_origin_id: y,
                       origin: a.Ic.TopCenter,
                       interactive: !1,
-                      target_width_anchor_id: b.strBottomCenterAnchorID,
+                      target_width_anchor_id: f.strBottomCenterAnchorID,
                       height: 0.15,
                       min_width: 1.66,
                       debug_name: "ActiveOverlayControlBarBackground",
                       sampler: a.Vv.SingleTap,
-                      reflect: i,
+                      reflect: s,
                     },
                     d.createElement("div", {
                       className: "OverlayControlBarBackground",
@@ -7651,16 +7675,16 @@
               d.createElement(
                 a.wx,
                 {
-                  parent_id: b.strBottomCenterAnchorID,
+                  parent_id: f.strBottomCenterAnchorID,
                   translation: { y: 0.003, z: 0.001 },
                 },
                 d.createElement(
                   a.VW,
-                  { color: o },
+                  { color: i },
                   d.createElement(
                     a.s_,
                     {
-                      curvature_origin_id: _,
+                      curvature_origin_id: y,
                       origin: a.Ic.TopCenter,
                       interactive: !0,
                       target_dpi_panel_id: m.WR,
@@ -7679,8 +7703,8 @@
                         ),
                         d.createElement(h.iR, {
                           additionalClassName: "OverlayControlBarSlider",
-                          min: p,
-                          max: g,
+                          min: g,
+                          max: _,
                           value: this.activeOverlayScale,
                           valueStyleVariant: h.px.OnHandle,
                           onChange: this.onActiveOverlayScaleChange,
@@ -7694,7 +7718,7 @@
                           detents: [1],
                           renderValue: (e) => (100 * e).toFixed(0) + "%",
                         }),
-                        c &&
+                        u &&
                           d.createElement(C.zN, {
                             icon: d.createElement(se.VC, {
                               button: le.F.HomeMenu,
@@ -7703,13 +7727,13 @@
                               additionalClassName: "DashboardActionGlyph",
                             }),
                             title: (0, v.Xx)("#ShowSteamUI_Steam"),
-                            tooltipTranslation: y,
+                            tooltipTranslation: b,
                             onClick: () => {
                               this.onSteamButtonPressed(a.ZP.HomeMenu);
                             },
                             additionalClassNames: "ButtonControlFixedHeight",
                           }),
-                        c &&
+                        u &&
                           d.createElement(C.zN, {
                             icon: d.createElement(se.VC, {
                               button: le.F.QuickMenu,
@@ -7718,22 +7742,22 @@
                               additionalClassName: "DashboardActionGlyph",
                             }),
                             title: (0, v.Xx)("#ShowSteamUI_QAM"),
-                            tooltipTranslation: y,
+                            tooltipTranslation: b,
                             onClick: () => {
                               this.onSteamButtonPressed(a.ZP.QuickMenu);
                             },
                             additionalClassNames: "ButtonControlFixedHeight",
                           }),
                         !1,
-                        s &&
+                        l &&
                           d.createElement(C.CS, {
-                            tooltipTranslation: y,
+                            tooltipTranslation: b,
                             activeOverlayKey: this.getActiveOverlayKey(),
                           }),
                         d.createElement(C.zN, {
                           iconUrl: "/dashboard/images/icons/mirror_left.png",
                           title: (0, v.Xx)("#DockOnLeftController"),
-                          tooltipTranslation: y,
+                          tooltipTranslation: b,
                           onClick: () => {
                             var e;
                             const t = this.getActiveOverlayKey();
@@ -7755,7 +7779,7 @@
                         d.createElement(C.zN, {
                           iconUrl: "/dashboard/images/icons/mirror_right.png",
                           title: (0, v.Xx)("#DockOnRightController"),
-                          tooltipTranslation: y,
+                          tooltipTranslation: b,
                           onClick: () => {
                             var e;
                             const t = this.getActiveOverlayKey();
@@ -7777,7 +7801,7 @@
                         d.createElement(C.zN, {
                           iconUrl: "/dashboard/images/icons/icon_move.png",
                           title: (0, v.Xx)("#FloatInWorld"),
-                          tooltipTranslation: y,
+                          tooltipTranslation: b,
                           onClick: () => {
                             var e;
                             const t = this.getActiveOverlayKey();
@@ -7794,14 +7818,19 @@
                             this.getActiveOverlayDockLocation() == R.RA.World,
                         }),
                         !1,
-                        l &&
+                        c &&
                           d.createElement(C.zN, {
                             iconUrl:
                               "/dashboard/images/icons/icon_close_black.png",
                             title: (0, v.Xx)("#CloseOverlay"),
-                            tooltipTranslation: y,
+                            tooltipTranslation: b,
                             onClick: this.onActiveOverlayClosed,
-                          })
+                          }),
+                        this.isDesktopOverlayActive() &&
+                          (null === (n = this.m_refDesktopView.current) ||
+                          void 0 === n
+                            ? void 0
+                            : n.renderControlBarButtons(b))
                       )
                     )
                   )
@@ -10990,4 +11019,4 @@
   var o = n.O(void 0, [968, 683], () => n(5953));
   o = n.O(o);
 })();
-//# sourceMappingURL=debugcommands.js.map?v=81f1b6bd75e534ee5795
+//# sourceMappingURL=debugcommands.js.map?v=fa42f03fbd704f78aada

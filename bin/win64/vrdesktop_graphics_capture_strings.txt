@@ -20,6 +20,7 @@
 %s%s%s%s%s
 ' is not a number.
 ',=?k
+'u_s>
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -120,7 +121,6 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.Qd%-*
 .data
 .data$r
 .edata
@@ -148,7 +148,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/7$t/r
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -174,6 +173,7 @@
 0A_A^_^[
 0A_A^_^]
 0A__[
+0dJ@cl
 0w0c1
 0}0i1
 130801120000Z
@@ -183,9 +183,8 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230925235044Z0/
+230927021951Z0/
 241009235959Z0a1
-2<"=j`PG
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -209,7 +208,6 @@
 8_^][
 9D$xu
 9D$|toH
-: hbX
 < t+<
 </u#H
 <0:08
@@ -431,6 +429,7 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
+D}!j&Q
 E;u`|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
@@ -860,7 +859,6 @@ _seh_filter_dll
 `.rdata
 `A_A^A]A\_^[
 `A_A^A]A\_^]
-a"C/'
 a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
@@ -928,6 +926,7 @@ finnish
 fr_fr
 frame_time
 french
+g=k>b*
 german
 gfffffffH
 gfffffffI
@@ -1001,12 +1000,12 @@ product_name
 pt_br
 pt_pt
 r,fff
-r;Iw,
 request_destroy_window_view
 request_handlers
 request_handlers_response
 request_show_desktop
 request_spawn_window_view
+request_task_view
 request_window_list_update
 returnAddress
 ro_ro
@@ -1040,7 +1039,6 @@ t$ WH
 t$0H;
 t$@H=
 t$PH=
-t(OZR
 t:I;>t
 tXfff
 tchinese
@@ -1050,6 +1048,7 @@ title
 tolower
 tr_tr
 turkish
+u*]7MN
 ua_ua
 ukranian
 update_debug_info
@@ -1086,6 +1085,7 @@ www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 zh_cn
 zh_tw
+{){n`
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH

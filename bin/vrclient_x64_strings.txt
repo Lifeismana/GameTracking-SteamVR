@@ -520,7 +520,6 @@ $w!Hc
 (|$pD
 (|$pH
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)8m:/
 )9k0t
 )D$ A
 )D$ D
@@ -642,7 +641,6 @@ $w!Hc
 ,9{0t%H
 ,H;D$ 
 ,W5y+
--+Cfj
 -1e+9999
 -9k0t&H
 -9{0t%H
@@ -2063,7 +2061,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230925234945Z0/
+230927021853Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2082,7 +2080,6 @@ $w!Hc
 416.16
 440.97
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5 _-c
 528.49
 555555
 555555555555555555555555555555555555555555555555555555555555555555555555555555
@@ -2738,7 +2735,6 @@ B84/u
 B9T	$t
 B9T	$u
 B9T!$t
-B@]FRi
 BD9%~
 BINORMAL
 BITANGENT
@@ -5120,6 +5116,7 @@ Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 N I9N(
 N I9V0t
+N<IL!
 NL$`I
 NORMAL
 NOT_READY
@@ -5448,16 +5445,18 @@ PropertyContainerCreation
 Purging all shared textures because the connection to vrserver was lost
 Pz}b!
 Q H9P 
+Q/OK4}\
 QFailed to create internal command allocator
 QHL9u
 QHtfH
+QQ_?Kg
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSC
+RSDS.b
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -8129,7 +8128,6 @@ d$hI;
 d$hM;
 d$hfff
 d3d11.dll
-d9sGhx7
 da_da
 danish
 dashboard
@@ -8256,6 +8254,7 @@ extensionsRequired
 extensionsUsed
 external_drivers
 extras
+e|@JrrZcr
 f(L9f@H
 f9+t4
 f98tZH
@@ -9835,7 +9834,6 @@ uO8D$@tI
 uP@8;uo
 uRf;>tM
 uSD9d$DuLD8
-uV=&!
 uZEeu
 ua_ua
 ub'vb'v
@@ -10730,7 +10728,6 @@ znear
 ~+fff
 ~3LcD$(L
 ~6HcD$ I
-~9WTVd
 ~Cfff
 ~PH9~Xt(H
 ~qj#k"

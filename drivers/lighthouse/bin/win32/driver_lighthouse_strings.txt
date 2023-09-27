@@ -430,7 +430,6 @@ $tI<unknown>
 ,121c3
 ,W5y+
 ,^_[]
-,k1MA
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
 ----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
 ----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
@@ -680,7 +679,6 @@ $tI<unknown>
 .CRT$XTA
 .CRT$XTZ
 .PLACEHOLDER_VALUE
-._ZmC
 .data
 .data$r
 .dummy
@@ -1201,7 +1199,7 @@ $tI<unknown>
 22393~3
 223Z3
 230714000000Z
-230925234338Z0/
+230927021242Z0/
 241009235959Z0a1
 242?2R2e2x2
 242P2
@@ -4565,6 +4563,7 @@ Parsing LighthouseDB from file %s
 Parsing of JSON file "%s" failed: %s
 Parsing of JSON string "%s" failed: %s
 Path_Exists( absFilePath )
+Pb]-}
 PeekMessageA
 PeripheralApplication
 Persistent statistics file does not exist. Creating new %s
@@ -5221,7 +5220,6 @@ Valve SR Blinker
 Valve SR EV2
 Valve SR Imp
 Valve VR Radio & HMD Mic
-VbQZAG
 VerQueryValueA
 VerSetConditionMask
 VerifyUSBUserDataInDirectory: %s data stream failed crc validation. Expected crc=%08X, found crc=%08X (%d bytes)
@@ -6686,6 +6684,7 @@ uvVj@
 uwj	h
 v	N+D$
 v	_^2
+v(XFx
 v0PRV
 v0fff
 v=Y]Bv
@@ -6816,6 +6815,7 @@ znear
 }zjS@
 ~(_^[
 ~,uMW
+~.~{	
 ~3j?h
 ~3jUh`
 ~6VVS

@@ -204,7 +204,9 @@ $w!Hc
 )|$pf
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
+*ow}w
 *uXI;
++D\cf
 +Xt@(
 +o'q)}
 , binary size = 
@@ -460,7 +462,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230925234529Z0/
+230927021434Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -495,7 +497,6 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9%Fnz
 9C s.H
 9T$Pu9A
 9T$XJ
@@ -528,6 +529,7 @@ $w!Hc
 =TADIt<=DNEI
 =rIQU
 >0<0:
+>Fi5~
 >Mp$d
 >W`.]tB3?
 >ff&?
@@ -629,6 +631,7 @@ $w!Hc
 @A_A^_
 @HcQdH
 @LcqHD
+@Qyk/
 @SATAUAVAWH
 @SAUAVAWH
 @SAWH
@@ -975,7 +978,6 @@ Found path:
 FreeLibrary
 G(M+G I
 G8$1u
-G@] S"
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
 GPUCountingSemaphore::Wait(%llu)
@@ -1214,7 +1216,6 @@ LocalizationManager
 M H1E
 M98u/
 MB(iVR
-MMd+'A
 MSVCP140.dll
 MS_:F
 MT$dA
@@ -1286,7 +1287,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSK=&
+RSDS|%@
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1469,7 +1470,6 @@ ZL$Xf
 [OculusDirect] ovr_EndFrame:%lli
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [json.exception.
-[x]mk
 \$ E3
 \$ H;
 \$ I;
@@ -1506,7 +1506,6 @@ ZL$Xf
 \$pI;
 \$pfD
 \$xH;
-\X)Y{
 \u=H;
 \|$`D
 ] buffer "
@@ -1778,7 +1777,6 @@ extensionsUsed
 extras
 fD9	u
 fD9&u
-f^VzEo
 false
 false literal
 fclose
@@ -2135,7 +2133,6 @@ pA_A^_
 pA_A^_^]
 pNewResource
 pNewResource->Load( absFilePath )
-p]"t#
 parameter must be a string or number / number array.
 parse error
 parse_error

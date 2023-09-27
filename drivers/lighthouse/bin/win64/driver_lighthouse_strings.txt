@@ -30,7 +30,6 @@
 		"useRawDepthHistory" : true,
 	!s99
 	#jT$
-	5v~~
 	CODE_SIZE
 	D$HA
 	Edid already edid_id %d and hdcp14legacycompat %d, no change needed
@@ -236,6 +235,7 @@
  nohit=
  non-clustered hits
  nosplit=
+ o"H\^
  of the Protocol Buffer runtime library, but the installed version is 
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
  of type 
@@ -901,6 +901,7 @@ $w!Hc
 ,9k0t%H
 ,9{0t%H
 ,W5y+
+,p"\"
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
 ----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
 ----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
@@ -1399,7 +1400,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230925234429Z0/
+230927021334Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1411,8 +1412,6 @@ $w!Hc
 311109235959Z0b1
 3333333
 341013235959Z0H1
-35d2!v
-36/r=
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -1422,6 +1421,7 @@ $w!Hc
 42HcF,
 4Pole
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5*1bXO
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -4394,7 +4394,6 @@ O(;H(}+I
 O(H9O0t
 O*9y]
 O0H9Q
-O>IVL@)
 OPAQUE
 OTGT started
 OTGT timed out
@@ -5947,7 +5946,6 @@ byteStride
 bytes
 c H9K
 c0D9cTt$D
-c3,qif
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
@@ -6902,6 +6900,7 @@ r,fff
 r/w0H
 r2max
 r2w	A
+r4tu]
 r6w%H
 r?'1(?
 rEyeFile:%s width:%d height:%d components:%d

@@ -36,6 +36,7 @@ $_^[]
 %d / %m / %y
 %j+hD
 %m / %d / %y
+%|G+[
 &1V6|:^<
 ',=?k
 ()$^.*+?[]|\-{},:=!
@@ -431,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-230925234236Z0/
+230927021142Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -968,6 +969,7 @@ $_^[]
 <G<r<
 <G=r=+>
 <L=b=
+<OUI~.#l
 <P<V<q<}<
 <[<d<{<A=
 <d<x<}<
@@ -1222,6 +1224,7 @@ Applying first frame camera configuration options...
 Auto Exposure Target:		
 Auto Exposure:			
 Auto White Balance:		
+B9x7x
 BP;BL
 Backlight Compensation:		
 Begin Streaming Depth...
@@ -1377,7 +1380,6 @@ G;~P}
 G;~x|
 G@WVPR
 GDQSP
-GOW>D
 Get ASIC register value failed
 GetCPInfo
 GetCurrentPackageId
@@ -1477,6 +1479,7 @@ PAq=?Mp#
 PQSVW
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pj@Wj
+PrhCd'
 Pz}b!
 Q$B@;
 Q;FD~R
@@ -1490,6 +1493,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
+RSDSG\
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1524,7 +1528,6 @@ SleepConditionVariableCS
 SleepConditionVariableSRW
 SubmitThreadpoolWork
 SwitchToThread
-T^oJEj
 Target device found.
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1660,8 +1663,8 @@ _unlock_file
 _unlock_locales
 _wcsdup
 `.rdata
+a$ca {W(h
 a7hIw
-aN|Tg<
 abort
 address family not supported
 address in use
@@ -1886,6 +1889,7 @@ ungetwc
 unknown error
 upper
 v	N+D$
+v4IiU
 v=Y]Bv
 value too large
 vector<T> too long
@@ -1906,7 +1910,6 @@ xdigit
 y'j h
 {L?uI
 {un'%
-|LL8cmg
 |Lu?c
 |SVWj
 }:;2|6

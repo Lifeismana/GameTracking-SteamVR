@@ -29,6 +29,7 @@
 %9k0t
 %9{0t
 &9k0t
+&>SOQ
 &D9c0t
 &D9k0t
 &D9{0t
@@ -165,6 +166,7 @@
 /width
 0 width
 0-pixel image
+02 on
 0A_A^A]A\^
 0A_A^_
 0D9c0t'H
@@ -177,7 +179,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230925234303Z0/
+230927021208Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -189,16 +191,17 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4/iR:
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
-7->"qB
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
+8432y
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -215,7 +218,6 @@
 9k0tcH
 9l$Lt	E
 ;D$ht6
-<)r<t
 <0:08
 =ETLP
 =IBgC
@@ -296,6 +298,7 @@ AitUVCExtApi.dll
 AuthD
 BMP RLE
 Bellevue1
+Bx4:2_
 C<unknown>
 CAMCMD_GET_OPENCAMERA_RESULT
 CT$ H
@@ -458,8 +461,11 @@ MainThrd
 MbP?{
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+MiiR	
 Not Available
 NotFound
+OR1ng
+Odzv.^P
 Out of thread local storage!
 OutputDebugStringA
 PA^_^
@@ -475,6 +481,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS{@:|
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -583,6 +590,7 @@ Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
+Yv@?S
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
@@ -705,6 +713,7 @@ c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
+c\xRY
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
@@ -745,6 +754,7 @@ g9k0t_D
 german
 gfffffffH
 greek
+h0/Uy
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -764,7 +774,6 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
-k<=O_~-
 ko_ko
 korean
 l$ ATAVAWH
@@ -886,7 +895,6 @@ uDf9X
 uH@8}
 uJf9X
 ua_ua
-ub/GxNI
 ukranian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
 unknown BMP
@@ -907,6 +915,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+xHi0|
 zh_cn
 zh_tw
 zlib corrupt

@@ -40,7 +40,6 @@
  in Buffer
  in `
  sDQj
-!	](5
 !&.37<
 !(0)"
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
@@ -96,7 +95,6 @@ $9^ t
 '0z0$141:1O1c1
 '[', '{', or a literal
 'uri' is missing from non binary glTF file buffer.
-(!8;A
 (Unable to load LibOVR)
 (f*^[0
 )0.0;0e0E1
@@ -465,7 +463,7 @@ $9^ t
 222>2N2c2
 22374B4
 230714000000Z
-230925234345Z0/
+230927021248Z0/
 241009235959Z0a1
 273w3
 2:2A2
@@ -778,6 +776,7 @@ $9^ t
 8=8^8d8k8r8w8}8
 8?:`:
 8@9G9
+8A^-R|6
 8C9d9
 8D96:
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -1038,7 +1037,6 @@ $9^ t
 =d=k=
 =rIQU
 =s>z>
-=xH%-
 >	>l>u>~>
 > >$>(>,>0>4>8><>@>D>H>L>X>\>`>d>h>l>p>t>x>|>
 > >*>5>?>j>t>~>
@@ -1078,7 +1076,6 @@ $9^ t
 >Mp$d
 >N?d?
 >ff&?
->ula`
 ?	?:?X?]?e?k?}?
 ? ?$?
 ? ?$?(?,?0?4?8?<?
@@ -1346,6 +1343,7 @@ GetSystemTimeAsFileTime
 GetTickCount64
 Graphics LUID changed
 Guardian changed, updating chaperone
+G{p73Kr
 H-^Eu
 HMD no longer present
 HeapAlloc
@@ -1428,7 +1426,6 @@ JSON string too short.
 JSONuTS
 KERNEL32.dll
 KHR_lights_punctual
-KW5EP
 K}*n:	
 L0\0e0p0
 L?n(Zy&
@@ -1501,6 +1498,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
 RPhtY
+RSDSuC]
 RaiseException
 ResetEvent
 S0Q0O
@@ -1729,6 +1727,7 @@ _wstat64i32
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
 a7hIw
+a<x Qm
 abort
 accessor[
 accessors
@@ -2510,7 +2509,7 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
-{8I*v
+{S{h, )
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png

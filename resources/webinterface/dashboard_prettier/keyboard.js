@@ -18,15 +18,15 @@
           zA: () => P,
           Qu: () => x,
           vS: () => we,
-          l0: () => M,
-          Pw: () => C,
+          l0: () => C,
+          Pw: () => M,
           LL: () => d,
           GC: () => I,
           Ic: () => me,
           Vv: () => ge,
           xj: () => be,
           xY: () => R,
-          Kg: () => E,
+          Kg: () => V,
           Uk: () => fe,
           QZ: () => c,
           zq: () => h,
@@ -34,7 +34,7 @@
           sH: () => Re,
           Z9: () => y,
           qC: () => S,
-          a0: () => V,
+          a0: () => E,
           iC: () => Le,
           qA: () => l,
           UU: () => a.UU,
@@ -50,13 +50,13 @@
           mT: () => a.mT,
           M9: () => a.M9,
           Dd: () => ue,
-          s_: () => Ee,
+          s_: () => Ve,
           at: () => Oe,
           Bl: () => _e,
           qI: () => $,
           gQ: () => Pe,
           Sb: () => Ne,
-          n0: () => Ve,
+          n0: () => Ee,
           hz: () => s,
           OK: () => ee,
           Zj: () => a.Zj,
@@ -291,7 +291,7 @@
           })(h || (h = {}));
         let m = 0,
           g = -1;
-        var v, _, y, b, S, f, k, R, w, C, M, T, D, I, E, V, P, x;
+        var v, _, y, b, S, f, k, R, w, M, C, T, D, I, V, E, P, x;
         function O(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) {
@@ -558,11 +558,11 @@
             (e[(e.Normal = 0)] = "Normal"),
               (e[(e.Password = 1)] = "Password"),
               (e[(e.Submit = 2)] = "Submit");
-          })(C || (C = {})),
+          })(M || (M = {})),
           (function (e) {
             (e[(e.SingleLine = 0)] = "SingleLine"),
               (e[(e.MultipleLines = 1)] = "MultipleLines");
-          })(M || (M = {})),
+          })(C || (C = {})),
           (function (e) {
             (e[(e.LaserMouse = 1)] = "LaserMouse"),
               (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -613,7 +613,7 @@
                 "TrackedControllerRole_Treadmill"),
               (e[(e.TrackedControllerRole_Max = 5)] =
                 "TrackedControllerRole_Max");
-          })(E || (E = {})),
+          })(V || (V = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -625,7 +625,7 @@
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(V || (V = {})),
+          })(E || (E = {})),
           (function (e) {
             (e[(e.Hostname = 0)] = "Hostname"),
               (e[(e.IP = 1)] = "IP"),
@@ -917,7 +917,7 @@
             return (r.properties.opacity = this.props.value), [e, r];
           }
         }
-        var pe, me, ge, ve, _e, ye, be, Se, fe, ke, Re, we, Ce, Me;
+        var pe, me, ge, ve, _e, ye, be, Se, fe, ke, Re, we, Me, Ce;
         (0, n.gn)([i.ZP], ue.prototype, "buildNode", null),
           (function (e) {
             (e[(e.Seated = 0)] = "Seated"),
@@ -1033,7 +1033,7 @@
               (e[(e.SkipInSceneGraph = 1)] = "SkipInSceneGraph"),
               (e[(e.Hidden = 2)] = "Hidden");
           })(_e || (_e = {}));
-        class Ee extends se {
+        class Ve extends se {
           constructor(e) {
             super(e),
               (this.m_Rect = { x: 0, y: 0, width: 0, height: 0 }),
@@ -1078,7 +1078,7 @@
             return this.m_nEmbeddedIndex;
           }
           componentWillReceiveProps_UNSAFE() {
-            Ee.s_bPanelsAreDirty = !0;
+            Ve.s_bPanelsAreDirty = !0;
           }
           componentDidMount() {
             super.componentDidMount(),
@@ -1086,8 +1086,8 @@
                 this.onResizeObserved
               )),
               this.m_resizeObserver.observe(this.getCurrentRootElement()),
-              (this.m_nEmbeddedIndex = Ve.Current().addEmbeddedPanelUVs(this)),
-              (Ee.s_bPanelsAreDirty = !0),
+              (this.m_nEmbeddedIndex = Ee.Current().addEmbeddedPanelUVs(this)),
+              (Ve.s_bPanelsAreDirty = !0),
               this.getCurrentRootElement().addEventListener(
                 "mousedown",
                 this.onPanelMouseDown
@@ -1095,7 +1095,7 @@
               this.forceUpdate();
           }
           onResizeObserved(e, t) {
-            Ve.Current().forceLayoutUpdate();
+            Ee.Current().forceLayoutUpdate();
           }
           componentWillUnmount() {
             this.m_resizeObserver &&
@@ -1106,8 +1106,8 @@
                 "mousedown",
                 this.onPanelMouseDown
               ),
-              (Ee.s_bPanelsAreDirty = !0),
-              Ve.Current().removeEmbeddedPanelUVs(this),
+              (Ve.s_bPanelsAreDirty = !0),
+              Ee.Current().removeEmbeddedPanelUVs(this),
               super.componentWillUnmount();
           }
           onPanelMouseDown() {
@@ -1287,15 +1287,15 @@
             );
           }
         }
-        (Ee.s_bPanelsAreDirty = !1),
-          (0, n.gn)([i.ZP], Ee.prototype, "onResizeObserved", null),
-          (0, n.gn)([i.ZP], Ee.prototype, "onPanelMouseDown", null),
-          (0, n.gn)([i.ZP], Ee.prototype, "onWindowMouseUp", null),
-          (0, n.gn)([i.ZP], Ee.prototype, "buildNode", null),
+        (Ve.s_bPanelsAreDirty = !1),
+          (0, n.gn)([i.ZP], Ve.prototype, "onResizeObserved", null),
+          (0, n.gn)([i.ZP], Ve.prototype, "onPanelMouseDown", null),
+          (0, n.gn)([i.ZP], Ve.prototype, "onWindowMouseUp", null),
+          (0, n.gn)([i.ZP], Ve.prototype, "buildNode", null),
           (function (e) {
             (e[(e.Canvas = 0)] = "Canvas"), (e[(e.Image = 1)] = "Image");
           })(ye || (ye = {}));
-        class Ve extends u.Component {
+        class Ee extends u.Component {
           constructor(e) {
             super(e),
               (this.m_DomRef = null),
@@ -1314,7 +1314,7 @@
               (this.m_nDirtyXMax = -1),
               (this.m_EmbeddedDataImgRef = null),
               (this.m_EmbeddedDataImgRGBBuffer = null),
-              (Ve.s_Current = this),
+              (Ee.s_Current = this),
               (this.state = {
                 bFontsLoaded: !1,
                 nForcedUpdateNumber: 0,
@@ -1330,10 +1330,10 @@
               (this.m_DebugPointerRef = u.createRef());
           }
           static get IsSceneGraphApp() {
-            return null !== Ve.Current();
+            return null !== Ee.Current();
           }
           static Current() {
-            return Ve.s_Current;
+            return Ee.s_Current;
           }
           toggleDebugPointer() {
             this.setState({ bShowDebugPointer: !this.state.bShowDebugPointer });
@@ -1349,7 +1349,7 @@
                 "px )");
           }
           forceLayoutUpdate() {
-            (Ee.s_bPanelsAreDirty = !0),
+            (Ve.s_bPanelsAreDirty = !0),
               this.setState({
                 nForcedUpdateNumber: this.state.nForcedUpdateNumber + 1,
               });
@@ -1417,13 +1417,13 @@
                   u.createElement("img", {
                     ref: this.m_EmbeddedDataImgRef,
                     className: "EmbeddedData",
-                    height: Ve.k_EmbeddedDataRows,
+                    height: Ee.k_EmbeddedDataRows,
                   }),
                 t &&
                   u.createElement("canvas", {
                     ref: this.m_CanvasRef,
                     className: "EmbeddedData",
-                    height: Ve.k_EmbeddedDataRows,
+                    height: Ee.k_EmbeddedDataRows,
                   }),
                 u.createElement(
                   "div",
@@ -1468,7 +1468,7 @@
                 null === this.m_Pixels &&
                   (this.m_Pixels = this.m_CanvasContext.createImageData(
                     this.m_nEmbeddedDataWidth,
-                    Ve.k_EmbeddedDataRows
+                    Ee.k_EmbeddedDataRows
                   ))),
               this.updateAllPanelBounds();
           }
@@ -1487,11 +1487,11 @@
                   )
                 : this.m_scalingDomRef.current.removeAttribute("style"),
               (this.m_fCurrentScale = o),
-              (Ee.s_bPanelsAreDirty = !0)),
-              Ee.s_bPanelsAreDirty &&
+              (Ve.s_bPanelsAreDirty = !0)),
+              Ve.s_bPanelsAreDirty &&
                 (this.m_mapPanels.forEach((e) => e.updateLayoutValues()),
                 te(),
-                (Ee.s_bPanelsAreDirty = !1),
+                (Ve.s_bPanelsAreDirty = !1),
                 this.updateEmbeddedData());
           }
           updateEmbeddedData() {
@@ -1576,12 +1576,12 @@
                   (this.m_nDirtyXMax = e));
           }
         }
-        (Ve.s_Current = null),
-          (Ve.k_EmbeddedDataRows = 1),
-          (0, n.gn)([i.ak], Ve.prototype, "toggleDebugPointer", null),
-          (0, n.gn)([i.ak], Ve.prototype, "onMouseMove", null),
-          (0, n.gn)([i.ak], Ve.prototype, "forceLayoutUpdate", null),
-          (0, n.gn)([i.ak], Ve.prototype, "onMutation", null),
+        (Ee.s_Current = null),
+          (Ee.k_EmbeddedDataRows = 1),
+          (0, n.gn)([i.ak], Ee.prototype, "toggleDebugPointer", null),
+          (0, n.gn)([i.ak], Ee.prototype, "onMouseMove", null),
+          (0, n.gn)([i.ak], Ee.prototype, "forceLayoutUpdate", null),
+          (0, n.gn)([i.ak], Ee.prototype, "onMutation", null),
           (0, n.gn)(
             [i.ZP],
             class extends se {
@@ -1863,321 +1863,321 @@
             );
           }
         }
-        ((Me = fe || (fe = {}))[(Me.Invalid = 0)] = "Invalid"),
-          (Me[(Me.TrackingSystemName_String = 1e3)] =
+        ((Ce = fe || (fe = {}))[(Ce.Invalid = 0)] = "Invalid"),
+          (Ce[(Ce.TrackingSystemName_String = 1e3)] =
             "TrackingSystemName_String"),
-          (Me[(Me.ModelNumber_String = 1001)] = "ModelNumber_String"),
-          (Me[(Me.SerialNumber_String = 1002)] = "SerialNumber_String"),
-          (Me[(Me.RenderModelName_String = 1003)] = "RenderModelName_String"),
-          (Me[(Me.WillDriftInYaw_Bool = 1004)] = "WillDriftInYaw_Bool"),
-          (Me[(Me.ManufacturerName_String = 1005)] = "ManufacturerName_String"),
-          (Me[(Me.TrackingFirmwareVersion_String = 1006)] =
+          (Ce[(Ce.ModelNumber_String = 1001)] = "ModelNumber_String"),
+          (Ce[(Ce.SerialNumber_String = 1002)] = "SerialNumber_String"),
+          (Ce[(Ce.RenderModelName_String = 1003)] = "RenderModelName_String"),
+          (Ce[(Ce.WillDriftInYaw_Bool = 1004)] = "WillDriftInYaw_Bool"),
+          (Ce[(Ce.ManufacturerName_String = 1005)] = "ManufacturerName_String"),
+          (Ce[(Ce.TrackingFirmwareVersion_String = 1006)] =
             "TrackingFirmwareVersion_String"),
-          (Me[(Me.HardwareRevision_String = 1007)] = "HardwareRevision_String"),
-          (Me[(Me.AllWirelessDongleDescriptions_String = 1008)] =
+          (Ce[(Ce.HardwareRevision_String = 1007)] = "HardwareRevision_String"),
+          (Ce[(Ce.AllWirelessDongleDescriptions_String = 1008)] =
             "AllWirelessDongleDescriptions_String"),
-          (Me[(Me.ConnectedWirelessDongle_String = 1009)] =
+          (Ce[(Ce.ConnectedWirelessDongle_String = 1009)] =
             "ConnectedWirelessDongle_String"),
-          (Me[(Me.DeviceIsWireless_Bool = 1010)] = "DeviceIsWireless_Bool"),
-          (Me[(Me.DeviceIsCharging_Bool = 1011)] = "DeviceIsCharging_Bool"),
-          (Me[(Me.DeviceBatteryPercentage_Float = 1012)] =
+          (Ce[(Ce.DeviceIsWireless_Bool = 1010)] = "DeviceIsWireless_Bool"),
+          (Ce[(Ce.DeviceIsCharging_Bool = 1011)] = "DeviceIsCharging_Bool"),
+          (Ce[(Ce.DeviceBatteryPercentage_Float = 1012)] =
             "DeviceBatteryPercentage_Float"),
-          (Me[(Me.StatusDisplayTransform_Matrix34 = 1013)] =
+          (Ce[(Ce.StatusDisplayTransform_Matrix34 = 1013)] =
             "StatusDisplayTransform_Matrix34"),
-          (Me[(Me.Firmware_UpdateAvailable_Bool = 1014)] =
+          (Ce[(Ce.Firmware_UpdateAvailable_Bool = 1014)] =
             "Firmware_UpdateAvailable_Bool"),
-          (Me[(Me.Firmware_ManualUpdate_Bool = 1015)] =
+          (Ce[(Ce.Firmware_ManualUpdate_Bool = 1015)] =
             "Firmware_ManualUpdate_Bool"),
-          (Me[(Me.Firmware_ManualUpdateURL_String = 1016)] =
+          (Ce[(Ce.Firmware_ManualUpdateURL_String = 1016)] =
             "Firmware_ManualUpdateURL_String"),
-          (Me[(Me.HardwareRevision_Uint64 = 1017)] = "HardwareRevision_Uint64"),
-          (Me[(Me.FirmwareVersion_Uint64 = 1018)] = "FirmwareVersion_Uint64"),
-          (Me[(Me.FPGAVersion_Uint64 = 1019)] = "FPGAVersion_Uint64"),
-          (Me[(Me.VRCVersion_Uint64 = 1020)] = "VRCVersion_Uint64"),
-          (Me[(Me.RadioVersion_Uint64 = 1021)] = "RadioVersion_Uint64"),
-          (Me[(Me.DongleVersion_Uint64 = 1022)] = "DongleVersion_Uint64"),
-          (Me[(Me.BlockServerShutdown_Bool = 1023)] =
+          (Ce[(Ce.HardwareRevision_Uint64 = 1017)] = "HardwareRevision_Uint64"),
+          (Ce[(Ce.FirmwareVersion_Uint64 = 1018)] = "FirmwareVersion_Uint64"),
+          (Ce[(Ce.FPGAVersion_Uint64 = 1019)] = "FPGAVersion_Uint64"),
+          (Ce[(Ce.VRCVersion_Uint64 = 1020)] = "VRCVersion_Uint64"),
+          (Ce[(Ce.RadioVersion_Uint64 = 1021)] = "RadioVersion_Uint64"),
+          (Ce[(Ce.DongleVersion_Uint64 = 1022)] = "DongleVersion_Uint64"),
+          (Ce[(Ce.BlockServerShutdown_Bool = 1023)] =
             "BlockServerShutdown_Bool"),
-          (Me[(Me.CanUnifyCoordinateSystemWithHmd_Bool = 1024)] =
+          (Ce[(Ce.CanUnifyCoordinateSystemWithHmd_Bool = 1024)] =
             "CanUnifyCoordinateSystemWithHmd_Bool"),
-          (Me[(Me.ContainsProximitySensor_Bool = 1025)] =
+          (Ce[(Ce.ContainsProximitySensor_Bool = 1025)] =
             "ContainsProximitySensor_Bool"),
-          (Me[(Me.DeviceProvidesBatteryStatus_Bool = 1026)] =
+          (Ce[(Ce.DeviceProvidesBatteryStatus_Bool = 1026)] =
             "DeviceProvidesBatteryStatus_Bool"),
-          (Me[(Me.DeviceCanPowerOff_Bool = 1027)] = "DeviceCanPowerOff_Bool"),
-          (Me[(Me.Firmware_ProgrammingTarget_String = 1028)] =
+          (Ce[(Ce.DeviceCanPowerOff_Bool = 1027)] = "DeviceCanPowerOff_Bool"),
+          (Ce[(Ce.Firmware_ProgrammingTarget_String = 1028)] =
             "Firmware_ProgrammingTarget_String"),
-          (Me[(Me.DeviceClass_Int32 = 1029)] = "DeviceClass_Int32"),
-          (Me[(Me.HasCamera_Bool = 1030)] = "HasCamera_Bool"),
-          (Me[(Me.DriverVersion_String = 1031)] = "DriverVersion_String"),
-          (Me[(Me.Firmware_ForceUpdateRequired_Bool = 1032)] =
+          (Ce[(Ce.DeviceClass_Int32 = 1029)] = "DeviceClass_Int32"),
+          (Ce[(Ce.HasCamera_Bool = 1030)] = "HasCamera_Bool"),
+          (Ce[(Ce.DriverVersion_String = 1031)] = "DriverVersion_String"),
+          (Ce[(Ce.Firmware_ForceUpdateRequired_Bool = 1032)] =
             "Firmware_ForceUpdateRequired_Bool"),
-          (Me[(Me.ViveSystemButtonFixRequired_Bool = 1033)] =
+          (Ce[(Ce.ViveSystemButtonFixRequired_Bool = 1033)] =
             "ViveSystemButtonFixRequired_Bool"),
-          (Me[(Me.ParentDriver_Uint64 = 1034)] = "ParentDriver_Uint64"),
-          (Me[(Me.ResourceRoot_String = 1035)] = "ResourceRoot_String"),
-          (Me[(Me.RegisteredDeviceType_String = 1036)] =
+          (Ce[(Ce.ParentDriver_Uint64 = 1034)] = "ParentDriver_Uint64"),
+          (Ce[(Ce.ResourceRoot_String = 1035)] = "ResourceRoot_String"),
+          (Ce[(Ce.RegisteredDeviceType_String = 1036)] =
             "RegisteredDeviceType_String"),
-          (Me[(Me.InputProfilePath_String = 1037)] = "InputProfilePath_String"),
-          (Me[(Me.NeverTracked_Bool = 1038)] = "NeverTracked_Bool"),
-          (Me[(Me.NumCameras_Int32 = 1039)] = "NumCameras_Int32"),
-          (Me[(Me.CameraFrameLayout_Int32 = 1040)] = "CameraFrameLayout_Int32"),
-          (Me[(Me.CameraStreamFormat_Int32 = 1041)] =
+          (Ce[(Ce.InputProfilePath_String = 1037)] = "InputProfilePath_String"),
+          (Ce[(Ce.NeverTracked_Bool = 1038)] = "NeverTracked_Bool"),
+          (Ce[(Ce.NumCameras_Int32 = 1039)] = "NumCameras_Int32"),
+          (Ce[(Ce.CameraFrameLayout_Int32 = 1040)] = "CameraFrameLayout_Int32"),
+          (Ce[(Ce.CameraStreamFormat_Int32 = 1041)] =
             "CameraStreamFormat_Int32"),
-          (Me[(Me.AdditionalDeviceSettingsPath_String = 1042)] =
+          (Ce[(Ce.AdditionalDeviceSettingsPath_String = 1042)] =
             "AdditionalDeviceSettingsPath_String"),
-          (Me[(Me.DevicePowerUsage_Float = 1052)] = "DevicePowerUsage_Float"),
-          (Me[(Me.ActualTrackingSystemName_String = 1054)] =
+          (Ce[(Ce.DevicePowerUsage_Float = 1052)] = "DevicePowerUsage_Float"),
+          (Ce[(Ce.ActualTrackingSystemName_String = 1054)] =
             "ActualTrackingSystemName_String"),
-          (Me[(Me.ReportsTimeSinceVSync_Bool = 2e3)] =
+          (Ce[(Ce.ReportsTimeSinceVSync_Bool = 2e3)] =
             "ReportsTimeSinceVSync_Bool"),
-          (Me[(Me.SecondsFromVsyncToPhotons_Float = 2001)] =
+          (Ce[(Ce.SecondsFromVsyncToPhotons_Float = 2001)] =
             "SecondsFromVsyncToPhotons_Float"),
-          (Me[(Me.DisplayFrequency_Float = 2002)] = "DisplayFrequency_Float"),
-          (Me[(Me.UserIpdMeters_Float = 2003)] = "UserIpdMeters_Float"),
-          (Me[(Me.CurrentUniverseId_Uint64 = 2004)] =
+          (Ce[(Ce.DisplayFrequency_Float = 2002)] = "DisplayFrequency_Float"),
+          (Ce[(Ce.UserIpdMeters_Float = 2003)] = "UserIpdMeters_Float"),
+          (Ce[(Ce.CurrentUniverseId_Uint64 = 2004)] =
             "CurrentUniverseId_Uint64"),
-          (Me[(Me.PreviousUniverseId_Uint64 = 2005)] =
+          (Ce[(Ce.PreviousUniverseId_Uint64 = 2005)] =
             "PreviousUniverseId_Uint64"),
-          (Me[(Me.DisplayFirmwareVersion_Uint64 = 2006)] =
+          (Ce[(Ce.DisplayFirmwareVersion_Uint64 = 2006)] =
             "DisplayFirmwareVersion_Uint64"),
-          (Me[(Me.IsOnDesktop_Bool = 2007)] = "IsOnDesktop_Bool"),
-          (Me[(Me.DisplayMCType_Int32 = 2008)] = "DisplayMCType_Int32"),
-          (Me[(Me.DisplayMCOffset_Float = 2009)] = "DisplayMCOffset_Float"),
-          (Me[(Me.DisplayMCScale_Float = 2010)] = "DisplayMCScale_Float"),
-          (Me[(Me.EdidVendorID_Int32 = 2011)] = "EdidVendorID_Int32"),
-          (Me[(Me.DisplayMCImageLeft_String = 2012)] =
+          (Ce[(Ce.IsOnDesktop_Bool = 2007)] = "IsOnDesktop_Bool"),
+          (Ce[(Ce.DisplayMCType_Int32 = 2008)] = "DisplayMCType_Int32"),
+          (Ce[(Ce.DisplayMCOffset_Float = 2009)] = "DisplayMCOffset_Float"),
+          (Ce[(Ce.DisplayMCScale_Float = 2010)] = "DisplayMCScale_Float"),
+          (Ce[(Ce.EdidVendorID_Int32 = 2011)] = "EdidVendorID_Int32"),
+          (Ce[(Ce.DisplayMCImageLeft_String = 2012)] =
             "DisplayMCImageLeft_String"),
-          (Me[(Me.DisplayMCImageRight_String = 2013)] =
+          (Ce[(Ce.DisplayMCImageRight_String = 2013)] =
             "DisplayMCImageRight_String"),
-          (Me[(Me.DisplayGCBlackClamp_Float = 2014)] =
+          (Ce[(Ce.DisplayGCBlackClamp_Float = 2014)] =
             "DisplayGCBlackClamp_Float"),
-          (Me[(Me.EdidProductID_Int32 = 2015)] = "EdidProductID_Int32"),
-          (Me[(Me.CameraToHeadTransform_Matrix34 = 2016)] =
+          (Ce[(Ce.EdidProductID_Int32 = 2015)] = "EdidProductID_Int32"),
+          (Ce[(Ce.CameraToHeadTransform_Matrix34 = 2016)] =
             "CameraToHeadTransform_Matrix34"),
-          (Me[(Me.DisplayGCType_Int32 = 2017)] = "DisplayGCType_Int32"),
-          (Me[(Me.DisplayGCOffset_Float = 2018)] = "DisplayGCOffset_Float"),
-          (Me[(Me.DisplayGCScale_Float = 2019)] = "DisplayGCScale_Float"),
-          (Me[(Me.DisplayGCPrescale_Float = 2020)] = "DisplayGCPrescale_Float"),
-          (Me[(Me.DisplayGCImage_String = 2021)] = "DisplayGCImage_String"),
-          (Me[(Me.LensCenterLeftU_Float = 2022)] = "LensCenterLeftU_Float"),
-          (Me[(Me.LensCenterLeftV_Float = 2023)] = "LensCenterLeftV_Float"),
-          (Me[(Me.LensCenterRightU_Float = 2024)] = "LensCenterRightU_Float"),
-          (Me[(Me.LensCenterRightV_Float = 2025)] = "LensCenterRightV_Float"),
-          (Me[(Me.UserHeadToEyeDepthMeters_Float = 2026)] =
+          (Ce[(Ce.DisplayGCType_Int32 = 2017)] = "DisplayGCType_Int32"),
+          (Ce[(Ce.DisplayGCOffset_Float = 2018)] = "DisplayGCOffset_Float"),
+          (Ce[(Ce.DisplayGCScale_Float = 2019)] = "DisplayGCScale_Float"),
+          (Ce[(Ce.DisplayGCPrescale_Float = 2020)] = "DisplayGCPrescale_Float"),
+          (Ce[(Ce.DisplayGCImage_String = 2021)] = "DisplayGCImage_String"),
+          (Ce[(Ce.LensCenterLeftU_Float = 2022)] = "LensCenterLeftU_Float"),
+          (Ce[(Ce.LensCenterLeftV_Float = 2023)] = "LensCenterLeftV_Float"),
+          (Ce[(Ce.LensCenterRightU_Float = 2024)] = "LensCenterRightU_Float"),
+          (Ce[(Ce.LensCenterRightV_Float = 2025)] = "LensCenterRightV_Float"),
+          (Ce[(Ce.UserHeadToEyeDepthMeters_Float = 2026)] =
             "UserHeadToEyeDepthMeters_Float"),
-          (Me[(Me.CameraFirmwareVersion_Uint64 = 2027)] =
+          (Ce[(Ce.CameraFirmwareVersion_Uint64 = 2027)] =
             "CameraFirmwareVersion_Uint64"),
-          (Me[(Me.CameraFirmwareDescription_String = 2028)] =
+          (Ce[(Ce.CameraFirmwareDescription_String = 2028)] =
             "CameraFirmwareDescription_String"),
-          (Me[(Me.DisplayFPGAVersion_Uint64 = 2029)] =
+          (Ce[(Ce.DisplayFPGAVersion_Uint64 = 2029)] =
             "DisplayFPGAVersion_Uint64"),
-          (Me[(Me.DisplayBootloaderVersion_Uint64 = 2030)] =
+          (Ce[(Ce.DisplayBootloaderVersion_Uint64 = 2030)] =
             "DisplayBootloaderVersion_Uint64"),
-          (Me[(Me.DisplayHardwareVersion_Uint64 = 2031)] =
+          (Ce[(Ce.DisplayHardwareVersion_Uint64 = 2031)] =
             "DisplayHardwareVersion_Uint64"),
-          (Me[(Me.AudioFirmwareVersion_Uint64 = 2032)] =
+          (Ce[(Ce.AudioFirmwareVersion_Uint64 = 2032)] =
             "AudioFirmwareVersion_Uint64"),
-          (Me[(Me.CameraCompatibilityMode_Int32 = 2033)] =
+          (Ce[(Ce.CameraCompatibilityMode_Int32 = 2033)] =
             "CameraCompatibilityMode_Int32"),
-          (Me[(Me.ScreenshotHorizontalFieldOfViewDegrees_Float = 2034)] =
+          (Ce[(Ce.ScreenshotHorizontalFieldOfViewDegrees_Float = 2034)] =
             "ScreenshotHorizontalFieldOfViewDegrees_Float"),
-          (Me[(Me.ScreenshotVerticalFieldOfViewDegrees_Float = 2035)] =
+          (Ce[(Ce.ScreenshotVerticalFieldOfViewDegrees_Float = 2035)] =
             "ScreenshotVerticalFieldOfViewDegrees_Float"),
-          (Me[(Me.DisplaySuppressed_Bool = 2036)] = "DisplaySuppressed_Bool"),
-          (Me[(Me.DisplayAllowNightMode_Bool = 2037)] =
+          (Ce[(Ce.DisplaySuppressed_Bool = 2036)] = "DisplaySuppressed_Bool"),
+          (Ce[(Ce.DisplayAllowNightMode_Bool = 2037)] =
             "DisplayAllowNightMode_Bool"),
-          (Me[(Me.DisplayMCImageWidth_Int32 = 2038)] =
+          (Ce[(Ce.DisplayMCImageWidth_Int32 = 2038)] =
             "DisplayMCImageWidth_Int32"),
-          (Me[(Me.DisplayMCImageHeight_Int32 = 2039)] =
+          (Ce[(Ce.DisplayMCImageHeight_Int32 = 2039)] =
             "DisplayMCImageHeight_Int32"),
-          (Me[(Me.DisplayMCImageNumChannels_Int32 = 2040)] =
+          (Ce[(Ce.DisplayMCImageNumChannels_Int32 = 2040)] =
             "DisplayMCImageNumChannels_Int32"),
-          (Me[(Me.DisplayMCImageData_Binary = 2041)] =
+          (Ce[(Ce.DisplayMCImageData_Binary = 2041)] =
             "DisplayMCImageData_Binary"),
-          (Me[(Me.SecondsFromPhotonsToVblank_Float = 2042)] =
+          (Ce[(Ce.SecondsFromPhotonsToVblank_Float = 2042)] =
             "SecondsFromPhotonsToVblank_Float"),
-          (Me[(Me.DriverDirectModeSendsVsyncEvents_Bool = 2043)] =
+          (Ce[(Ce.DriverDirectModeSendsVsyncEvents_Bool = 2043)] =
             "DriverDirectModeSendsVsyncEvents_Bool"),
-          (Me[(Me.DisplayDebugMode_Bool = 2044)] = "DisplayDebugMode_Bool"),
-          (Me[(Me.GraphicsAdapterLuid_Uint64 = 2045)] =
+          (Ce[(Ce.DisplayDebugMode_Bool = 2044)] = "DisplayDebugMode_Bool"),
+          (Ce[(Ce.GraphicsAdapterLuid_Uint64 = 2045)] =
             "GraphicsAdapterLuid_Uint64"),
-          (Me[(Me.DriverProvidedChaperonePath_String = 2048)] =
+          (Ce[(Ce.DriverProvidedChaperonePath_String = 2048)] =
             "DriverProvidedChaperonePath_String"),
-          (Me[(Me.ExpectedTrackingReferenceCount_Int32 = 2049)] =
+          (Ce[(Ce.ExpectedTrackingReferenceCount_Int32 = 2049)] =
             "ExpectedTrackingReferenceCount_Int32"),
-          (Me[(Me.ExpectedControllerCount_Int32 = 2050)] =
+          (Ce[(Ce.ExpectedControllerCount_Int32 = 2050)] =
             "ExpectedControllerCount_Int32"),
-          (Me[(Me.NamedIconPathControllerLeftDeviceOff_String = 2051)] =
+          (Ce[(Ce.NamedIconPathControllerLeftDeviceOff_String = 2051)] =
             "NamedIconPathControllerLeftDeviceOff_String"),
-          (Me[(Me.NamedIconPathControllerRightDeviceOff_String = 2052)] =
+          (Ce[(Ce.NamedIconPathControllerRightDeviceOff_String = 2052)] =
             "NamedIconPathControllerRightDeviceOff_String"),
-          (Me[(Me.NamedIconPathTrackingReferenceDeviceOff_String = 2053)] =
+          (Ce[(Ce.NamedIconPathTrackingReferenceDeviceOff_String = 2053)] =
             "NamedIconPathTrackingReferenceDeviceOff_String"),
-          (Me[(Me.DoNotApplyPrediction_Bool = 2054)] =
+          (Ce[(Ce.DoNotApplyPrediction_Bool = 2054)] =
             "DoNotApplyPrediction_Bool"),
-          (Me[(Me.CameraToHeadTransforms_Matrix34_Array = 2055)] =
+          (Ce[(Ce.CameraToHeadTransforms_Matrix34_Array = 2055)] =
             "CameraToHeadTransforms_Matrix34_Array"),
-          (Me[(Me.DistortionMeshResolution_Int32 = 2056)] =
+          (Ce[(Ce.DistortionMeshResolution_Int32 = 2056)] =
             "DistortionMeshResolution_Int32"),
-          (Me[(Me.DriverIsDrawingControllers_Bool = 2057)] =
+          (Ce[(Ce.DriverIsDrawingControllers_Bool = 2057)] =
             "DriverIsDrawingControllers_Bool"),
-          (Me[(Me.DriverRequestsApplicationPause_Bool = 2058)] =
+          (Ce[(Ce.DriverRequestsApplicationPause_Bool = 2058)] =
             "DriverRequestsApplicationPause_Bool"),
-          (Me[(Me.DriverRequestsReducedRendering_Bool = 2059)] =
+          (Ce[(Ce.DriverRequestsReducedRendering_Bool = 2059)] =
             "DriverRequestsReducedRendering_Bool"),
-          (Me[(Me.MinimumIpdStepMeters_Float = 2060)] =
+          (Ce[(Ce.MinimumIpdStepMeters_Float = 2060)] =
             "MinimumIpdStepMeters_Float"),
-          (Me[(Me.AudioBridgeFirmwareVersion_Uint64 = 2061)] =
+          (Ce[(Ce.AudioBridgeFirmwareVersion_Uint64 = 2061)] =
             "AudioBridgeFirmwareVersion_Uint64"),
-          (Me[(Me.ImageBridgeFirmwareVersion_Uint64 = 2062)] =
+          (Ce[(Ce.ImageBridgeFirmwareVersion_Uint64 = 2062)] =
             "ImageBridgeFirmwareVersion_Uint64"),
-          (Me[(Me.ImuToHeadTransform_Matrix34 = 2063)] =
+          (Ce[(Ce.ImuToHeadTransform_Matrix34 = 2063)] =
             "ImuToHeadTransform_Matrix34"),
-          (Me[(Me.ImuFactoryGyroBias_Vector3 = 2064)] =
+          (Ce[(Ce.ImuFactoryGyroBias_Vector3 = 2064)] =
             "ImuFactoryGyroBias_Vector3"),
-          (Me[(Me.ImuFactoryGyroScale_Vector3 = 2065)] =
+          (Ce[(Ce.ImuFactoryGyroScale_Vector3 = 2065)] =
             "ImuFactoryGyroScale_Vector3"),
-          (Me[(Me.ImuFactoryAccelerometerBias_Vector3 = 2066)] =
+          (Ce[(Ce.ImuFactoryAccelerometerBias_Vector3 = 2066)] =
             "ImuFactoryAccelerometerBias_Vector3"),
-          (Me[(Me.ImuFactoryAccelerometerScale_Vector3 = 2067)] =
+          (Ce[(Ce.ImuFactoryAccelerometerScale_Vector3 = 2067)] =
             "ImuFactoryAccelerometerScale_Vector3"),
-          (Me[(Me.ConfigurationIncludesLighthouse20Features_Bool = 2069)] =
+          (Ce[(Ce.ConfigurationIncludesLighthouse20Features_Bool = 2069)] =
             "ConfigurationIncludesLighthouse20Features_Bool"),
-          (Me[(Me.Prop_AdditionalRadioFeatures_Uint64 = 2070)] =
+          (Ce[(Ce.Prop_AdditionalRadioFeatures_Uint64 = 2070)] =
             "Prop_AdditionalRadioFeatures_Uint64"),
-          (Me[(Me.Prop_CameraWhiteBalance_Vector4_Array = 2071)] =
+          (Ce[(Ce.Prop_CameraWhiteBalance_Vector4_Array = 2071)] =
             "Prop_CameraWhiteBalance_Vector4_Array"),
-          (Me[(Me.Prop_CameraDistortionFunction_Int32_Array = 2072)] =
+          (Ce[(Ce.Prop_CameraDistortionFunction_Int32_Array = 2072)] =
             "Prop_CameraDistortionFunction_Int32_Array"),
-          (Me[(Me.Prop_CameraDistortionCoefficients_Float_Array = 2073)] =
+          (Ce[(Ce.Prop_CameraDistortionCoefficients_Float_Array = 2073)] =
             "Prop_CameraDistortionCoefficients_Float_Array"),
-          (Me[(Me.Prop_ExpectedControllerType_String = 2074)] =
+          (Ce[(Ce.Prop_ExpectedControllerType_String = 2074)] =
             "Prop_ExpectedControllerType_String"),
-          (Me[(Me.HmdTrackingStyle_Int32 = 2075)] = "HmdTrackingStyle_Int32"),
-          (Me[(Me.DriverProvidedChaperoneVisibility_Bool = 2076)] =
+          (Ce[(Ce.HmdTrackingStyle_Int32 = 2075)] = "HmdTrackingStyle_Int32"),
+          (Ce[(Ce.DriverProvidedChaperoneVisibility_Bool = 2076)] =
             "DriverProvidedChaperoneVisibility_Bool"),
-          (Me[(Me.HmdColumnCorrectionSettingPrefix_String = 2077)] =
+          (Ce[(Ce.HmdColumnCorrectionSettingPrefix_String = 2077)] =
             "HmdColumnCorrectionSettingPrefix_String"),
-          (Me[(Me.CameraSupportsCompatibilityModes_Bool = 2078)] =
+          (Ce[(Ce.CameraSupportsCompatibilityModes_Bool = 2078)] =
             "CameraSupportsCompatibilityModes_Bool"),
-          (Me[(Me.SupportsRoomViewDepthProjection_Bool = 2079)] =
+          (Ce[(Ce.SupportsRoomViewDepthProjection_Bool = 2079)] =
             "SupportsRoomViewDepthProjection_Bool"),
-          (Me[(Me.DisplayAvailableFrameRates_Float_Array = 2080)] =
+          (Ce[(Ce.DisplayAvailableFrameRates_Float_Array = 2080)] =
             "DisplayAvailableFrameRates_Float_Array"),
-          (Me[(Me.DisplaySupportsRuntimeFramerateChange_Bool = 2084)] =
+          (Ce[(Ce.DisplaySupportsRuntimeFramerateChange_Bool = 2084)] =
             "DisplaySupportsRuntimeFramerateChange_Bool"),
-          (Me[(Me.DisplaySupportsAnalogGain_Bool = 2085)] =
+          (Ce[(Ce.DisplaySupportsAnalogGain_Bool = 2085)] =
             "DisplaySupportsAnalogGain_Bool"),
-          (Me[(Me.DisplayMinAnalogGain_Float = 2086)] =
+          (Ce[(Ce.DisplayMinAnalogGain_Float = 2086)] =
             "DisplayMinAnalogGain_Float"),
-          (Me[(Me.DisplayMaxAnalogGain_Float = 2087)] =
+          (Ce[(Ce.DisplayMaxAnalogGain_Float = 2087)] =
             "DisplayMaxAnalogGain_Float"),
-          (Me[(Me.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
-          (Me[(Me.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
-          (Me[(Me.IpdUIRangeMinMeters_Float = 2100)] =
+          (Ce[(Ce.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
+          (Ce[(Ce.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
+          (Ce[(Ce.IpdUIRangeMinMeters_Float = 2100)] =
             "IpdUIRangeMinMeters_Float"),
-          (Me[(Me.IpdUIRangeMaxMeters_Float = 2101)] =
+          (Ce[(Ce.IpdUIRangeMaxMeters_Float = 2101)] =
             "IpdUIRangeMaxMeters_Float"),
-          (Me[(Me.Hmd_SupportsHDCP14LegacyCompat_Bool = 2102)] =
+          (Ce[(Ce.Hmd_SupportsHDCP14LegacyCompat_Bool = 2102)] =
             "Hmd_SupportsHDCP14LegacyCompat_Bool"),
-          (Me[(Me.Hmd_SupportsMicMonitoring_Bool = 2103)] =
+          (Ce[(Ce.Hmd_SupportsMicMonitoring_Bool = 2103)] =
             "Hmd_SupportsMicMonitoring_Bool"),
-          (Me[(Me.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
+          (Ce[(Ce.Hmd_SupportsDisplayPortTrainingMode_Bool = 2104)] =
             "Hmd_SupportsDisplayPortTrainingMode_Bool"),
-          (Me[(Me.Hmd_SupportsRoomViewDirect_Bool = 2105)] =
+          (Ce[(Ce.Hmd_SupportsRoomViewDirect_Bool = 2105)] =
             "Hmd_SupportsRoomViewDirect_Bool"),
-          (Me[(Me.Hmd_SupportsAppThrottling_Bool = 2106)] =
+          (Ce[(Ce.Hmd_SupportsAppThrottling_Bool = 2106)] =
             "Hmd_SupportsAppThrottling_Bool"),
-          (Me[(Me.Hmd_SupportsGpuBusMonitoring_Bool = 2107)] =
+          (Ce[(Ce.Hmd_SupportsGpuBusMonitoring_Bool = 2107)] =
             "Hmd_SupportsGpuBusMonitoring_Bool"),
-          (Me[(Me.DriverProvidedIPDVisibility_Bool = 2108)] =
+          (Ce[(Ce.DriverProvidedIPDVisibility_Bool = 2108)] =
             "DriverProvidedIPDVisibility_Bool"),
-          (Me[(Me.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
+          (Ce[(Ce.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
+          (Ce[(Ce.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
             "DriverRequestedMuraFeather_InnerLeft_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_InnerRight_Int32 = 2202)] =
+          (Ce[(Ce.DriverRequestedMuraFeather_InnerRight_Int32 = 2202)] =
             "DriverRequestedMuraFeather_InnerRight_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_InnerTop_Int32 = 2203)] =
+          (Ce[(Ce.DriverRequestedMuraFeather_InnerTop_Int32 = 2203)] =
             "DriverRequestedMuraFeather_InnerTop_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_InnerBottom_Int32 = 2204)] =
+          (Ce[(Ce.DriverRequestedMuraFeather_InnerBottom_Int32 = 2204)] =
             "DriverRequestedMuraFeather_InnerBottom_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_OuterLeft_Int32 = 2205)] =
+          (Ce[(Ce.DriverRequestedMuraFeather_OuterLeft_Int32 = 2205)] =
             "DriverRequestedMuraFeather_OuterLeft_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_OuterRight_Int32 = 2206)] =
+          (Ce[(Ce.DriverRequestedMuraFeather_OuterRight_Int32 = 2206)] =
             "DriverRequestedMuraFeather_OuterRight_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_OuterTop_Int32 = 2207)] =
+          (Ce[(Ce.DriverRequestedMuraFeather_OuterTop_Int32 = 2207)] =
             "DriverRequestedMuraFeather_OuterTop_Int32"),
-          (Me[(Me.DriverRequestedMuraFeather_OuterBottom_Int32 = 2208)] =
+          (Ce[(Ce.DriverRequestedMuraFeather_OuterBottom_Int32 = 2208)] =
             "DriverRequestedMuraFeather_OuterBottom_Int32"),
-          (Me[(Me.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
+          (Ce[(Ce.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
             "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
-          (Me[(Me.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
-          (Me[(Me.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
-          (Me[(Me.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
-          (Me[(Me.Axis1Type_Int32 = 3003)] = "Axis1Type_Int32"),
-          (Me[(Me.Axis2Type_Int32 = 3004)] = "Axis2Type_Int32"),
-          (Me[(Me.Axis3Type_Int32 = 3005)] = "Axis3Type_Int32"),
-          (Me[(Me.Axis4Type_Int32 = 3006)] = "Axis4Type_Int32"),
-          (Me[(Me.ControllerRoleHint_Int32 = 3007)] =
+          (Ce[(Ce.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
+          (Ce[(Ce.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
+          (Ce[(Ce.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
+          (Ce[(Ce.Axis1Type_Int32 = 3003)] = "Axis1Type_Int32"),
+          (Ce[(Ce.Axis2Type_Int32 = 3004)] = "Axis2Type_Int32"),
+          (Ce[(Ce.Axis3Type_Int32 = 3005)] = "Axis3Type_Int32"),
+          (Ce[(Ce.Axis4Type_Int32 = 3006)] = "Axis4Type_Int32"),
+          (Ce[(Ce.ControllerRoleHint_Int32 = 3007)] =
             "ControllerRoleHint_Int32"),
-          (Me[(Me.FieldOfViewLeftDegrees_Float = 4e3)] =
+          (Ce[(Ce.FieldOfViewLeftDegrees_Float = 4e3)] =
             "FieldOfViewLeftDegrees_Float"),
-          (Me[(Me.FieldOfViewRightDegrees_Float = 4001)] =
+          (Ce[(Ce.FieldOfViewRightDegrees_Float = 4001)] =
             "FieldOfViewRightDegrees_Float"),
-          (Me[(Me.FieldOfViewTopDegrees_Float = 4002)] =
+          (Ce[(Ce.FieldOfViewTopDegrees_Float = 4002)] =
             "FieldOfViewTopDegrees_Float"),
-          (Me[(Me.FieldOfViewBottomDegrees_Float = 4003)] =
+          (Ce[(Ce.FieldOfViewBottomDegrees_Float = 4003)] =
             "FieldOfViewBottomDegrees_Float"),
-          (Me[(Me.TrackingRangeMinimumMeters_Float = 4004)] =
+          (Ce[(Ce.TrackingRangeMinimumMeters_Float = 4004)] =
             "TrackingRangeMinimumMeters_Float"),
-          (Me[(Me.TrackingRangeMaximumMeters_Float = 4005)] =
+          (Ce[(Ce.TrackingRangeMaximumMeters_Float = 4005)] =
             "TrackingRangeMaximumMeters_Float"),
-          (Me[(Me.ModeLabel_String = 4006)] = "ModeLabel_String"),
-          (Me[(Me.IconPathName_String = 5e3)] = "IconPathName_String"),
-          (Me[(Me.NamedIconPathDeviceOff_String = 5001)] =
+          (Ce[(Ce.ModeLabel_String = 4006)] = "ModeLabel_String"),
+          (Ce[(Ce.IconPathName_String = 5e3)] = "IconPathName_String"),
+          (Ce[(Ce.NamedIconPathDeviceOff_String = 5001)] =
             "NamedIconPathDeviceOff_String"),
-          (Me[(Me.NamedIconPathDeviceSearching_String = 5002)] =
+          (Ce[(Ce.NamedIconPathDeviceSearching_String = 5002)] =
             "NamedIconPathDeviceSearching_String"),
-          (Me[(Me.NamedIconPathDeviceSearchingAlert_String = 5003)] =
+          (Ce[(Ce.NamedIconPathDeviceSearchingAlert_String = 5003)] =
             "NamedIconPathDeviceSearchingAlert_String"),
-          (Me[(Me.NamedIconPathDeviceReady_String = 5004)] =
+          (Ce[(Ce.NamedIconPathDeviceReady_String = 5004)] =
             "NamedIconPathDeviceReady_String"),
-          (Me[(Me.NamedIconPathDeviceReadyAlert_String = 5005)] =
+          (Ce[(Ce.NamedIconPathDeviceReadyAlert_String = 5005)] =
             "NamedIconPathDeviceReadyAlert_String"),
-          (Me[(Me.NamedIconPathDeviceNotReady_String = 5006)] =
+          (Ce[(Ce.NamedIconPathDeviceNotReady_String = 5006)] =
             "NamedIconPathDeviceNotReady_String"),
-          (Me[(Me.NamedIconPathDeviceStandby_String = 5007)] =
+          (Ce[(Ce.NamedIconPathDeviceStandby_String = 5007)] =
             "NamedIconPathDeviceStandby_String"),
-          (Me[(Me.NamedIconPathDeviceAlertLow_String = 5008)] =
+          (Ce[(Ce.NamedIconPathDeviceAlertLow_String = 5008)] =
             "NamedIconPathDeviceAlertLow_String"),
-          (Me[(Me.DisplayHiddenArea_Binary_Start = 5100)] =
+          (Ce[(Ce.DisplayHiddenArea_Binary_Start = 5100)] =
             "DisplayHiddenArea_Binary_Start"),
-          (Me[(Me.DisplayHiddenArea_Binary_End = 5150)] =
+          (Ce[(Ce.DisplayHiddenArea_Binary_End = 5150)] =
             "DisplayHiddenArea_Binary_End"),
-          (Me[(Me.ParentContainer = 5151)] = "ParentContainer"),
-          (Me[(Me.UserConfigPath_String = 6e3)] = "UserConfigPath_String"),
-          (Me[(Me.InstallPath_String = 6001)] = "InstallPath_String"),
-          (Me[(Me.HasDisplayComponent_Bool = 6002)] =
+          (Ce[(Ce.ParentContainer = 5151)] = "ParentContainer"),
+          (Ce[(Ce.UserConfigPath_String = 6e3)] = "UserConfigPath_String"),
+          (Ce[(Ce.InstallPath_String = 6001)] = "InstallPath_String"),
+          (Ce[(Ce.HasDisplayComponent_Bool = 6002)] =
             "HasDisplayComponent_Bool"),
-          (Me[(Me.HasControllerComponent_Bool = 6003)] =
+          (Ce[(Ce.HasControllerComponent_Bool = 6003)] =
             "HasControllerComponent_Bool"),
-          (Me[(Me.HasCameraComponent_Bool = 6004)] = "HasCameraComponent_Bool"),
-          (Me[(Me.HasDriverDirectModeComponent_Bool = 6005)] =
+          (Ce[(Ce.HasCameraComponent_Bool = 6004)] = "HasCameraComponent_Bool"),
+          (Ce[(Ce.HasDriverDirectModeComponent_Bool = 6005)] =
             "HasDriverDirectModeComponent_Bool"),
-          (Me[(Me.HasVirtualDisplayComponent_Bool = 6006)] =
+          (Ce[(Ce.HasVirtualDisplayComponent_Bool = 6006)] =
             "HasVirtualDisplayComponent_Bool"),
-          (Me[(Me.HasSpatialAnchorsSupport_Bool = 6007)] =
+          (Ce[(Ce.HasSpatialAnchorsSupport_Bool = 6007)] =
             "HasSpatialAnchorsSupport_Bool"),
-          (Me[(Me.ControllerType_String = 7e3)] = "ControllerType_String"),
-          (Me[(Me.LegacyInputProfile_String = 7001)] =
+          (Ce[(Ce.ControllerType_String = 7e3)] = "ControllerType_String"),
+          (Ce[(Ce.LegacyInputProfile_String = 7001)] =
             "LegacyInputProfile_String"),
-          (Me[(Me.VendorSpecific_Reserved_Start = 1e4)] =
+          (Ce[(Ce.VendorSpecific_Reserved_Start = 1e4)] =
             "VendorSpecific_Reserved_Start"),
-          (Me[(Me.VendorSpecific_Reserved_End = 10999)] =
+          (Ce[(Ce.VendorSpecific_Reserved_End = 10999)] =
             "VendorSpecific_Reserved_End"),
-          (Me[(Me.TrackedDeviceProperty_Max = 1e6)] =
+          (Ce[(Ce.TrackedDeviceProperty_Max = 1e6)] =
             "TrackedDeviceProperty_Max"),
           (function (e) {
             (e[(e.None = 0)] = "None"),
@@ -2205,7 +2205,7 @@
               (e[(e.UserInteraction_Timeout = 2)] = "UserInteraction_Timeout"),
               (e[(e.Standby = 3)] = "Standby"),
               (e[(e.Idle_Timeout = 4)] = "Idle_Timeout");
-          })(Ce || (Ce = {})),
+          })(Me || (Me = {})),
           u.Component;
         class Be extends se {
           constructor(e) {
@@ -3846,8 +3846,8 @@
           k = r(7726),
           R = r(4790),
           w = r(6459),
-          C = r(7475);
-        let M = (n = class extends d.Component {
+          M = r(7475);
+        let C = (n = class extends d.Component {
           constructor(e) {
             super(e),
               (this.m_mailbox = new a.Nv()),
@@ -3894,9 +3894,9 @@
               }),
               i &&
                 d.createElement(
-                  C.P,
+                  M.P,
                   {
-                    scrollDirection: C.I.Horizontal,
+                    scrollDirection: M.I.Horizontal,
                     className: "Section Grow",
                     style: { marginRight: 0, marginLeft: "9px" },
                     ref: this.m_refWindowScrollPanel,
@@ -3986,8 +3986,8 @@
             );
           }
         });
-        (M.k_sMailboxName = "systemui_desktoptray"),
-          (M = n = (0, o.gn)([f.Pi], M));
+        (C.k_sMailboxName = "systemui_desktoptray"),
+          (C = n = (0, o.gn)([f.Pi], C));
         let T = (i = class extends d.Component {
           constructor(e) {
             super(e),
@@ -4095,6 +4095,29 @@
               S.G3.SetSettingsValue("/settings/dashboard/desktopIndex", 1),
               this.setState({ bIsReady: !0, desktopIndices: r });
           }
+          ShowMultitaskingView() {
+            this.m_mailbox.SendMessage("desktopview", {
+              type: "request_task_view",
+            });
+          }
+          renderControlBarButtons(e) {
+            const t =
+              (null === VRHTML || void 0 === VRHTML
+                ? void 0
+                : VRHTML.BSupportsMultitaskingView()) &&
+              "" == this.state.sCurrentWindowOverlayKey;
+            return d.createElement(
+              d.Fragment,
+              null,
+              t &&
+                d.createElement(w.zN, {
+                  iconUrl: "/dashboard/images/icons/icon_multitasking_view.png",
+                  title: "Multitasking View",
+                  tooltipTranslation: e,
+                  onClick: this.ShowMultitaskingView,
+                })
+            );
+          }
           render() {
             var e;
             const t =
@@ -4201,11 +4224,12 @@
           (0, o.gn)([s.ZP], T.prototype, "onDesktopViewUpdating", null),
           (0, o.gn)([s.ZP], T.prototype, "onDesktopViewReady", null),
           (0, o.gn)([s.ZP], T.prototype, "onWindowViewChange", null),
+          (0, o.gn)([s.ZP], T.prototype, "ShowMultitaskingView", null),
           (T = i = (0, o.gn)([f.Pi], T));
         var D,
           I = r(2743),
-          E = r(7095),
-          V = r(8980);
+          V = r(7095),
+          E = r(8980);
         let P = (D = class extends d.Component {
           constructor(e) {
             super(e),
@@ -4292,7 +4316,7 @@
               d.createElement(
                 "div",
                 {
-                  className: (0, V.LJ)("PortraitAppImageContainer", [
+                  className: (0, E.LJ)("PortraitAppImageContainer", [
                     "Fallback",
                     this.state.isFallback,
                   ]),
@@ -4336,7 +4360,7 @@
           }
           onOpenAppControllerBindingSettings() {
             const e = y.H.Instance.SceneAppKey;
-            E.f.OpenDeepLink(E.P.Name, e);
+            V.f.OpenDeepLink(V.P.Name, e);
           }
           onOpenAppVideoSettings() {
             const e = y.H.Instance.SceneAppKey;
@@ -4439,7 +4463,7 @@
           d.createElement(
             "div",
             {
-              className: (0, V.LJ)("ButtonContainer", x[e.side], [
+              className: (0, E.LJ)("ButtonContainer", x[e.side], [
                 "Disabled",
                 !1 === e.enabled,
               ]),
@@ -4541,16 +4565,16 @@
             return d.createElement(
               "div",
               {
-                className: (0, V.LJ)(
+                className: (0, E.LJ)(
                   "PaginatedCarousel",
                   this.props.additionalClassNames
                 ),
               },
               d.createElement(
-                C.P,
+                M.P,
                 {
                   ref: this.m_refScrollPanel,
-                  scrollDirection: C.I.Horizontal,
+                  scrollDirection: M.I.Horizontal,
                   onScroll: this.onScroll,
                 },
                 this.props.children
@@ -4583,7 +4607,7 @@
         let A = class extends d.Component {
           constructor(e) {
             super(e),
-              (this.m_scrollWatcher = new V.cB()),
+              (this.m_scrollWatcher = new E.cB()),
               (this.m_refAnchoredParentPortal = d.createRef()),
               (this.m_refButton = d.createRef()),
               (this.state = { bShowPlay: !1 }),
@@ -4631,7 +4655,7 @@
               d.createElement(
                 "div",
                 {
-                  className: (0, V.LJ)(
+                  className: (0, E.LJ)(
                     "AppButtonContainer",
                     [
                       "AppOwned",
@@ -6443,12 +6467,12 @@
                   )) ||
                 void 0 === n ||
                 n,
-              C =
+              M =
                 null ===
                   (i = S.G3.settings.get("/settings/dashboard/showDesktop")) ||
                 void 0 === i ||
                 i,
-              M = c,
+              C = c,
               T = !c && !0,
               D =
                 !c &&
@@ -6464,8 +6488,8 @@
                 void 0 !== s &&
                 s
               ),
-              E = this.getPeerButtonInfo(),
-              V = (VRHTML.BIsLinkServer(), VRHTML.BIsLinkClient()),
+              V = this.getPeerButtonInfo(),
+              E = (VRHTML.BIsLinkServer(), VRHTML.BIsLinkClient()),
               P = y.H.Instance.SceneApplicationState,
               x = y.H.Instance.SceneAppIsHome,
               O =
@@ -6480,7 +6504,7 @@
               L = y.H.Instance.SceneAppKey;
             let B = "images/appimage_default.png";
             L && (B = "/app/image?app_key=" + L);
-            let H = V || this.state.bLinkStreamActive;
+            let H = E || this.state.bLinkStreamActive;
             return d.createElement(
               d.Fragment,
               null,
@@ -6537,7 +6561,7 @@
                           d.createElement(
                             w.dw,
                             { style: w.zk.Small },
-                            M &&
+                            C &&
                               d.createElement(w.B8, {
                                 imageUrl:
                                   "/dashboard/images/icons/vr_steam.svg",
@@ -6547,7 +6571,7 @@
                               }),
                             !1
                           ),
-                          C &&
+                          M &&
                             d.createElement(w.NT, {
                               style: w.zk.Small,
                               imageUrl:
@@ -6718,12 +6742,12 @@
                               onClick: () => this.switchToOverlayInternal(m.A4),
                             }),
                           this.state.bLinkStreamActive &&
-                            E &&
+                            V &&
                             d.createElement(w.NT, {
-                              imageUrl: E.sIcon,
+                              imageUrl: V.sIcon,
                               active: !1,
                               enabled: !0,
-                              label: (0, g.Xx)(E.sButtonName),
+                              label: (0, g.Xx)(V.sButtonName),
                               style: w.zk.Small,
                               centerPanelAnchorID: "VolumeButton",
                               onClick: () => this.handlePeerButton(),
@@ -6788,7 +6812,7 @@
             return d.createElement(
               d.Fragment,
               null,
-              d.createElement(M, {
+              d.createElement(C, {
                 ref: this.m_refDesktopTray,
                 curvatureOriginId: e,
                 scale: t,
@@ -7010,41 +7034,41 @@
               VRHTML.VRDashboardManager.SendOverlayButtonUnpress(t, e));
           }
           renderOverlayControlBar() {
-            var e, t, r;
-            const n = de.B.isDarkMode,
-              i = n ? { r: 0.1, g: 0.1, b: 0.1 } : null,
-              o = n ? 0 : 0.1;
-            let s = !1,
-              l = !1,
+            var e, t, r, n;
+            const i = de.B.isDarkMode,
+              o = i ? { r: 0.1, g: 0.1, b: 0.1 } : null,
+              s = i ? 0 : 0.1;
+            let l = !1,
               c = !1,
-              h = this.getActiveOverlayKey();
-            if (h) {
-              let e = VRHTML.VROverlay.FindOverlay(h);
-              (s =
+              h = !1,
+              p = this.getActiveOverlayKey();
+            if (p) {
+              let e = VRHTML.VROverlay.FindOverlay(p);
+              (l =
                 !!e &&
                 VRHTML.VROverlay.GetFlag(e, a.Z9.EnableControlBarKeyboard)),
-                (l =
+                (c =
                   !!e &&
                   VRHTML.VROverlay.GetFlag(e, a.Z9.EnableControlBarClose)),
-                (c =
+                (h =
                   !!e &&
                   VRHTML.VROverlay.GetFlag(e, a.Z9.EnableSteamUIButtons));
             }
-            const p =
+            const v =
                 null !==
                   (e = S.G3.settings.get(
                     "/settings/dashboard/scaleSliderMin"
                   )) && void 0 !== e
                   ? e
                   : 0.75,
-              v =
+              _ =
                 null !==
                   (t = S.G3.settings.get(
                     "/settings/dashboard/scaleSliderMax"
                   )) && void 0 !== t
                   ? t
                   : 1.5,
-              _ =
+              y =
                 null ===
                   (r = S.G3.settings.get(
                     "/settings/dashboard/allowCurvature"
@@ -7053,32 +7077,32 @@
                 r
                   ? m.ml
                   : null,
-              y = { x: 0, y: -0.15, z: 0.1 },
-              b = this.GetActiveOverlayAnchorIDs();
+              b = { x: 0, y: -0.15, z: 0.1 },
+              f = this.GetActiveOverlayAnchorIDs();
             return d.createElement(
               d.Fragment,
               null,
               d.createElement(
                 a.wx,
                 {
-                  parent_id: b.strBottomCenterAnchorID,
+                  parent_id: f.strBottomCenterAnchorID,
                   translation: { y: 0.003 },
                 },
                 d.createElement(
                   a.VW,
-                  { color: i },
+                  { color: o },
                   d.createElement(
                     a.s_,
                     {
-                      curvature_origin_id: _,
+                      curvature_origin_id: y,
                       origin: a.Ic.TopCenter,
                       interactive: !1,
-                      target_width_anchor_id: b.strBottomCenterAnchorID,
+                      target_width_anchor_id: f.strBottomCenterAnchorID,
                       height: 0.15,
                       min_width: 1.66,
                       debug_name: "ActiveOverlayControlBarBackground",
                       sampler: a.Vv.SingleTap,
-                      reflect: o,
+                      reflect: s,
                     },
                     d.createElement("div", {
                       className: "OverlayControlBarBackground",
@@ -7089,16 +7113,16 @@
               d.createElement(
                 a.wx,
                 {
-                  parent_id: b.strBottomCenterAnchorID,
+                  parent_id: f.strBottomCenterAnchorID,
                   translation: { y: 0.003, z: 0.001 },
                 },
                 d.createElement(
                   a.VW,
-                  { color: i },
+                  { color: o },
                   d.createElement(
                     a.s_,
                     {
-                      curvature_origin_id: _,
+                      curvature_origin_id: y,
                       origin: a.Ic.TopCenter,
                       interactive: !0,
                       target_dpi_panel_id: m.WR,
@@ -7117,8 +7141,8 @@
                         ),
                         d.createElement(u.iR, {
                           additionalClassName: "OverlayControlBarSlider",
-                          min: p,
-                          max: v,
+                          min: v,
+                          max: _,
                           value: this.activeOverlayScale,
                           valueStyleVariant: u.px.OnHandle,
                           onChange: this.onActiveOverlayScaleChange,
@@ -7132,7 +7156,7 @@
                           detents: [1],
                           renderValue: (e) => (100 * e).toFixed(0) + "%",
                         }),
-                        c &&
+                        h &&
                           d.createElement(w.zN, {
                             icon: d.createElement(se.VC, {
                               button: le.F.HomeMenu,
@@ -7141,13 +7165,13 @@
                               additionalClassName: "DashboardActionGlyph",
                             }),
                             title: (0, g.Xx)("#ShowSteamUI_Steam"),
-                            tooltipTranslation: y,
+                            tooltipTranslation: b,
                             onClick: () => {
                               this.onSteamButtonPressed(a.ZP.HomeMenu);
                             },
                             additionalClassNames: "ButtonControlFixedHeight",
                           }),
-                        c &&
+                        h &&
                           d.createElement(w.zN, {
                             icon: d.createElement(se.VC, {
                               button: le.F.QuickMenu,
@@ -7156,22 +7180,22 @@
                               additionalClassName: "DashboardActionGlyph",
                             }),
                             title: (0, g.Xx)("#ShowSteamUI_QAM"),
-                            tooltipTranslation: y,
+                            tooltipTranslation: b,
                             onClick: () => {
                               this.onSteamButtonPressed(a.ZP.QuickMenu);
                             },
                             additionalClassNames: "ButtonControlFixedHeight",
                           }),
                         !1,
-                        s &&
+                        l &&
                           d.createElement(w.CS, {
-                            tooltipTranslation: y,
+                            tooltipTranslation: b,
                             activeOverlayKey: this.getActiveOverlayKey(),
                           }),
                         d.createElement(w.zN, {
                           iconUrl: "/dashboard/images/icons/mirror_left.png",
                           title: (0, g.Xx)("#DockOnLeftController"),
-                          tooltipTranslation: y,
+                          tooltipTranslation: b,
                           onClick: () => {
                             var e;
                             const t = this.getActiveOverlayKey();
@@ -7193,7 +7217,7 @@
                         d.createElement(w.zN, {
                           iconUrl: "/dashboard/images/icons/mirror_right.png",
                           title: (0, g.Xx)("#DockOnRightController"),
-                          tooltipTranslation: y,
+                          tooltipTranslation: b,
                           onClick: () => {
                             var e;
                             const t = this.getActiveOverlayKey();
@@ -7215,7 +7239,7 @@
                         d.createElement(w.zN, {
                           iconUrl: "/dashboard/images/icons/icon_move.png",
                           title: (0, g.Xx)("#FloatInWorld"),
-                          tooltipTranslation: y,
+                          tooltipTranslation: b,
                           onClick: () => {
                             var e;
                             const t = this.getActiveOverlayKey();
@@ -7232,14 +7256,19 @@
                             this.getActiveOverlayDockLocation() == R.RA.World,
                         }),
                         !1,
-                        l &&
+                        c &&
                           d.createElement(w.zN, {
                             iconUrl:
                               "/dashboard/images/icons/icon_close_black.png",
                             title: (0, g.Xx)("#CloseOverlay"),
-                            tooltipTranslation: y,
+                            tooltipTranslation: b,
                             onClick: this.onActiveOverlayClosed,
-                          })
+                          }),
+                        this.isDesktopOverlayActive() &&
+                          (null === (n = this.m_refDesktopView.current) ||
+                          void 0 === n
+                            ? void 0
+                            : n.renderControlBarButtons(b))
                       )
                     )
                   )
@@ -7384,14 +7413,14 @@
               f = !!e && VRHTML.VROverlay.GetFlag(e, a.Z9.EnableControlBar);
             }
             this.state.bLaserMouseSuppressionActive && (f = !1);
-            let C = 2,
-              M = 2.5;
+            let M = 2,
+              C = 2.5;
             const T = S.G3.settings.get("/settings/dashboard/theaterPosition");
             T == re.Near
-              ? ((C *= 0.5), (M *= 0.5))
+              ? ((M *= 0.5), (C *= 0.5))
               : T == re.Middle
-              ? ((C *= 1), (M *= 1))
-              : T == re.Far && ((C *= 4), (M *= 2.5)),
+              ? ((M *= 1), (C *= 1))
+              : T == re.Far && ((M *= 4), (C *= 2.5)),
               S.G3.settings.get("/settings/dashboard/theaterVerticalOffsetCm");
             const D =
                 null ===
@@ -7401,8 +7430,8 @@
                 void 0 === r ||
                 r,
               I = D ? m.ml : null,
-              E = { y: f ? -0.9 : -1.03375, z: 0.05 },
-              V = s ? { y: -1.2, z: 0.35 } : { y: -1.2, z: 0.15 },
+              V = { y: f ? -0.9 : -1.03375, z: 0.05 },
+              E = s ? { y: -1.2, z: 0.35 } : { y: -1.2, z: 0.15 },
               P = -40,
               x = this.state.bLaserMouseSuppressionActive ? 0.1 : 1,
               O = de.B.isDarkMode ? { r: 0.05, g: 0.05, b: 0.05 } : null;
@@ -7454,7 +7483,7 @@
                         a.wx,
                         {
                           id: "active_overlay_transform",
-                          translation: E,
+                          translation: V,
                           ref: this.m_refOverlayTransform,
                         },
                         !y && b && this.renderActiveOverlay(),
@@ -7508,7 +7537,7 @@
                       ),
                       d.createElement(
                         a.wx,
-                        { translation: V, id: m.Qg },
+                        { translation: E, id: m.Qg },
                         d.createElement(a.wx, {
                           id: m.f$,
                           translation: { y: 0.08, z: -0.12 },
@@ -8374,13 +8403,13 @@
             k,
             R,
             w,
-            C,
             M,
+            C,
             T,
             D,
             I,
-            E,
             V,
+            E,
             P,
             x,
             O,
@@ -8463,18 +8492,18 @@
             z = {
               x:
                 null !==
-                  (C =
+                  (M =
                     null === (w = H.offset) || void 0 === w
                       ? void 0
-                      : w.x_pixels) && void 0 !== C
-                  ? C
+                      : w.x_pixels) && void 0 !== M
+                  ? M
                   : 0,
               y:
                 null !==
                   (T =
-                    null === (M = H.offset) || void 0 === M
+                    null === (C = H.offset) || void 0 === C
                       ? void 0
-                      : M.y_pixels) && void 0 !== T
+                      : C.y_pixels) && void 0 !== T
                   ? T
                   : 0,
               z:
@@ -8489,11 +8518,11 @@
             K = {
               x:
                 null !==
-                  (V =
-                    null === (E = H.rotation) || void 0 === E
+                  (E =
+                    null === (V = H.rotation) || void 0 === V
                       ? void 0
-                      : E.pitch_degrees) && void 0 !== V
-                  ? V
+                      : V.pitch_degrees) && void 0 !== E
+                  ? E
                   : 0,
               y:
                 null !==
@@ -8588,14 +8617,14 @@
           B8: () => B,
           CS: () => q,
           D6: () => z,
-          Eu: () => M,
+          Eu: () => C,
           IO: () => O,
           M3: () => I,
           NT: () => H,
           Rk: () => N,
           Yd: () => T,
           dw: () => L,
-          dy: () => E,
+          dy: () => V,
           j4: () => U,
           j6: () => A,
           lL: () => D,
@@ -8625,8 +8654,8 @@
           k = r(1628),
           R = r(8322),
           w = r.n(R),
-          C = r(7726);
-        const M = new l.vP();
+          M = r(7726);
+        const C = new l.vP();
         function T(e) {
           const { summonOverlayKey: t } = e,
             { ids: r, anchors: n } = c.useMemo(() => {
@@ -8664,9 +8693,9 @@
           return (
             c.useEffect(
               () => (
-                M.set(t, r),
+                C.set(t, r),
                 () => {
-                  M.get(t) === r && M.delete(t);
+                  C.get(t) === r && C.delete(t);
                 }
               ),
               [t, r]
@@ -8815,7 +8844,7 @@
             );
           }
         }
-        function E(e) {
+        function V(e) {
           return c.createElement(
             h.z,
             { className: "PowerMenuButton", onClick: e.onClick },
@@ -8826,7 +8855,7 @@
           );
         }
         (0, o.gn)([s.ak], I.prototype, "updateTime", null);
-        let V = (n = class extends c.Component {
+        let E = (n = class extends c.Component {
           get isShowingTooltip() {
             return n.s_CurrentlyShownTooltip === this;
           }
@@ -8879,12 +8908,12 @@
             );
           }
         });
-        (V.s_CurrentlyShownTooltip = null),
-          (0, o.gn)([l.Fl], V.prototype, "isShowingTooltip", null),
-          (0, o.gn)([l.aD.bound], V.prototype, "show", null),
-          (0, o.gn)([l.aD.bound], V.prototype, "hide", null),
-          (0, o.gn)([l.LO], V, "s_CurrentlyShownTooltip", void 0),
-          (V = n = (0, o.gn)([d.Pi], V));
+        (E.s_CurrentlyShownTooltip = null),
+          (0, o.gn)([l.Fl], E.prototype, "isShowingTooltip", null),
+          (0, o.gn)([l.aD.bound], E.prototype, "show", null),
+          (0, o.gn)([l.aD.bound], E.prototype, "hide", null),
+          (0, o.gn)([l.LO], E, "s_CurrentlyShownTooltip", void 0),
+          (E = n = (0, o.gn)([d.Pi], E));
         class P extends c.Component {
           static ShouldInvertThumbnail(e) {
             if (!e) return !1;
@@ -8999,7 +9028,7 @@
                     panelAnchorID: this.props.centerPanelAnchorID,
                   })
                 ),
-              c.createElement(V, {
+              c.createElement(E, {
                 text: this.props.label,
                 ref: this.m_refTooltip,
               }),
@@ -9109,7 +9138,7 @@
                 a.Uk.DevicePowerUsage_Float
               );
             }
-            let n = C.X.GetBatteryIcon(
+            let n = M.X.GetBatteryIcon(
               e,
               t,
               this.batteryLevelStable,
@@ -9501,7 +9530,7 @@
               "div",
               { className: "SliderContainer" },
               this.props.title &&
-                c.createElement(V, {
+                c.createElement(E, {
                   text: this.props.title,
                   shown: this.state.bHover || this.state.bSliding,
                 }),
@@ -9558,7 +9587,7 @@
                 onMouseLeave: this.onMouseLeave,
               }),
               this.props.title &&
-                c.createElement(V, {
+                c.createElement(E, {
                   text: this.props.title,
                   ref: this.m_refTooltip,
                 }),
@@ -9675,7 +9704,7 @@
               enabled: e.enabled,
             },
             e.title &&
-              c.createElement(V, {
+              c.createElement(E, {
                 text: e.title,
                 translation: e.tooltipTranslation,
                 ref: t,
@@ -11059,4 +11088,4 @@
   var i = n.O(void 0, [968, 683], () => n(5103));
   i = n.O(i);
 })();
-//# sourceMappingURL=keyboard.js.map?v=8ec349b082a4fcc5b751
+//# sourceMappingURL=keyboard.js.map?v=efe99553cb3c10f53975

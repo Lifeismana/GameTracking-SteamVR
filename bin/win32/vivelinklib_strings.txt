@@ -225,6 +225,7 @@ $Phdd
 2$2<2L2P2`2d2h2p2
 2$3.3H3M3r3w3
 2%2+21272=2C2I2O2U2[2a2g2m2s2y2
+2'5{b
 2(2H2h2
 2,333H3O3a3{3
 203@3
@@ -234,7 +235,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-230925234248Z0/
+230927021154Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -272,7 +273,6 @@ $Phdd
 3H3s3
 3X4l4
 3mq+<
-3qkv7+
 3y465
 4	5*5K5:6n6
 4	5F5F6T8f8F: <%<-<><J<^<k<2=I=
@@ -361,6 +361,7 @@ $Phdd
 7V8n9
 7d8m8
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7sJ,D
 8	9e9
 8 8(8H8l8x8
 8 9%9
@@ -452,6 +453,7 @@ $Phdd
 <SVWj
 <\<l<
 <j<?>U>
+<wRu{
 = >,>4>T>x>
 =%?,?;?B?p?t?
 =&>4>B>`>
@@ -557,7 +559,6 @@ $Phdd
 @.data
 @SVWj
 @d;Cd
-@i9=Wx
 A valid JSON document must be either an array or an object value.
 AAuthentication
 Address:  %s
@@ -800,7 +801,6 @@ Nonce:    %d
 ODFU Post
 OpenProcess
 Out of thread local storage!
-Ox5uL
 PAIR -NONCE %6.6d
 PAq=?Mp#
 PQShXa
@@ -866,6 +866,7 @@ Success
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
 TIMEOUT
+TL'mv
 TerminateProcess
 Terminating discovered vivelink process.
 TlsAlloc
@@ -1192,6 +1193,7 @@ memchr
 memcpy
 memmove
 memset
+nZ]5mX:3
 need dictionary
 ntdll.dll
 oversubscribed distance tree
@@ -1199,6 +1201,7 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
+qsE'L7
 realloc
 runas
 space
@@ -1235,7 +1238,6 @@ u%;Q(t
 u'VPj
 u)h|\
 uCVj@
-uQu+Z
 ubh(d
 umRQh
 unknown compression method
@@ -1259,7 +1261,6 @@ win64
 wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
-x!5MQ~
 x5t7j
 xdigit
 y4_^[
@@ -1272,7 +1273,6 @@ y4_^[
 }	jCh
 }LuHO
 }qj<hx
-~/$>7
 ~6VVS
 ~L][u
 ~d;{d|	

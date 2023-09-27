@@ -42,10 +42,8 @@
  was not found
  with error 
 !hn7!
-%J:YW
 %u.%u
 %u.%u.%u
-&{"Q(8
 ' is not a number.
 ',=?k
 (A^A]^[
@@ -165,7 +163,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230925234601Z0/
+230927021506Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -189,6 +187,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+98sG Z	
 <0:08
 =rIQU
 >0<0:
@@ -356,7 +355,6 @@ C\$xL
 CloseHandle
 Completed loader terminator
 Completed loader trampoline
-CrTf;
 CreateEventW
 D$ A;
 D$ E3
@@ -526,8 +524,10 @@ PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Py)|;
 Pz}b!
 QueryPerformanceCounter
+RSDS*
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -553,6 +553,7 @@ RuntimeManifestFile::FindManifestFiles - using environment variable override run
 RuntimeManifestFile::FindManifestFiles - using global runtime file 
 RuntimeManifestFile::FindManifestFiles - using registry-specified runtime file 
 S0Q0O
+S3kpE
 SA|X=G
 SOFTWARE\Khronos\OpenXR\
 SUAVAWH
@@ -634,7 +635,6 @@ WakeAllConditionVariable
 Warning [
 Washington1
 WideCharToMultiByte
-XEv9K
 XR_API_LAYER_PATH
 XR_ENABLE_API_LAYERS
 XR_EXT_debug_utils
@@ -661,7 +661,6 @@ Y9"SD
 \$PI;
 \$hI;
 \$xHi
-\%{k'
 \ApiLayers\Explicit
 \ApiLayers\Implicit
 \u=H;
@@ -808,6 +807,7 @@ l$pE3
 l$ptNH
 l$pu!H
 l2|X/gGe
+lR88;W
 labelInfo must be non-NULL
 layer 
 library_path
