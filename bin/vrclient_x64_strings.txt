@@ -134,7 +134,7 @@
 #OriginString_Source
 $@/pose/
 $IL+Q
-$tI(knN
+$tI(knNX
 $u=Hi
 $u^Hi
 $w!Hc
@@ -436,6 +436,7 @@ $w!Hc
 (D$@H
 (D$PD
 (D$Pf
+(D$`A
 (D$pL
 (Enumerating)
 (Failed Enumeration)
@@ -461,7 +462,6 @@ $w!Hc
 (T$@D
 (T$PD
 (T$Pf
-(T$pE
 (T$pf
 (\$ D
 (\$ H
@@ -734,8 +734,8 @@ $w!Hc
 .?AV<lambda_79cc3d4038e33a7314ddfae30008a641>@@
 .?AV<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@
 .?AV<lambda_819d6e727c32014dc6eae969efe567db>@@
-.?AV<lambda_882126c582943737e7723162cbfa82ae>@@
 .?AV<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@
+.?AV<lambda_8e64450c9dbb55a5cd0c88a0b3951108>@@
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
@@ -976,8 +976,8 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_79cc3d4038e33a7314ddfae30008a641>@@W4XrResult@@AEAV?$vector@UXrView@@V?$allocator@UXrView@@@std@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_819d6e727c32014dc6eae969efe567db>@@_NGGG@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_882126c582943737e7723162cbfa82ae>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@_NW4ETrackedDeviceClass@vr@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8e64450c9dbb55a5cd0c88a0b3951108>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
@@ -1679,7 +1679,7 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/5Vf!
+/5Ff!
 /9{0t'H
 /a/click
 /a/touch
@@ -2061,7 +2061,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230927021853Z0/
+231004001128Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2231,6 +2231,7 @@ $w!Hc
 ?/t6H
 ?/u3H
 ?/uqH
+?37lq
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -2346,7 +2347,6 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@8=pY
 @8I+@0H
 @8i(u
 @8u$t0@8u#t*
@@ -2770,6 +2770,7 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
+C-&c)
 C0L9$
 C0L;E
 C0L;F
@@ -3553,6 +3554,7 @@ D8wBt/H
 D8}gt$L
 D8}gu
 D8}guH
+D9%#E$
 D90uGH
 D989D9XH
 D9>u:H
@@ -3651,6 +3653,7 @@ Driver Tracked Device Interface unknown (209)
 Driver lacks support for KHR vulkan interop: 0x%x
 Driver manager failed to start.
 Driver runtime is out of date (204)
+Driver unable to initialize video encoder (499)
 DriverDirect_Acquired
 DriverDirect_NewFrame
 DriverDirect_Presented
@@ -4231,15 +4234,16 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=*f!
-H;=*o!
-H;=:W!
-H;=ZK!
-H;=jT!
-H;=jc!
-H;=jw!
-H;=zU!
-H;=za!
+H;= c)
+H;=*M!
+H;=*q!
+H;=:r!
+H;=JH!
+H;=ZQ!
+H;=Zg!
+H;=j:!
+H;=zF!
+H;=zo!
 H;A s
 H;Axt
 H;C(v
@@ -5093,6 +5097,7 @@ M;H s
 MB(iVR
 MHH9uPt
 ML$hH
+MLO)K
 MSVCP140.dll
 MS_:F
 MT$dA
@@ -5116,7 +5121,6 @@ Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 N I9N(
 N I9V0t
-N<IL!
 NL$`I
 NORMAL
 NOT_READY
@@ -5319,10 +5323,10 @@ Prop_DistortionMeshResolution_Int32
 Prop_DoNotApplyPrediction_Bool
 Prop_DongleVersion_Uint64
 Prop_DriverDirectModeSendsVsyncEvents_Bool
+Prop_DriverDisplaysIPDChanges_Bool
 Prop_DriverIsDrawingControllers_Bool
 Prop_DriverProvidedChaperoneJson_String
 Prop_DriverProvidedChaperonePath_String
-Prop_DriverProvidedIPDVisibility_Bool
 Prop_DriverRequestedMuraCorrectionMode_Int32
 Prop_DriverRequestedMuraFeather_InnerBottom_Int32
 Prop_DriverRequestedMuraFeather_InnerLeft_Int32
@@ -5445,18 +5449,16 @@ PropertyContainerCreation
 Purging all shared textures because the connection to vrserver was lost
 Pz}b!
 Q H9P 
-Q/OK4}\
 QFailed to create internal command allocator
 QHL9u
 QHtfH
-QQ_?Kg
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS.b
+RSDSt
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5646,6 +5648,7 @@ Should never be called for prism
 ShouldKillTheaterProcessHack
 ShowDashboard( %s )
 Simulated action 
+Skipping HMD presence checks.
 Skipping OS external driver %s because it is not a directory
 Skipping VRCompositor startup because of settings.
 Skipping VRDashboard startup because of settings.
@@ -5785,6 +5788,7 @@ T$xH+
 T$xH;
 T$xL+
 T$xL;
+T>"1r
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -6434,6 +6438,7 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -7276,12 +7281,12 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
+Y%'4&
 Y51{!
 Y5]L#
 Y9"SD
 Y>t$7?*
-YL$pE
-YT$8E
+YL$8E
 Yl$ M
 Yl$4E
 YwrHc
@@ -7312,13 +7317,15 @@ ZvFailed to create fence %ls.
 [CMsaaResolveRenderer] Failed to create sampler state!
 [CMsaaResolveRenderer] Failed to create shader resource view for src texture calling ImportTextureFromNativeTexture()! Texture doesn't have D3D11_BIND_SHADER_RESOURCE set on desc.BindFlags
 [CMsaaResolveRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!
+[CVRCVTrackedHmdInternal] Driver inactive, request of type %d cannot be sent
 [CVRCVTrackedHmdInternal] Failed to set the new-request event (error code %d)
+[CVRCVTrackedHmdInternal] Failed to wait for the request to be processed (error code: %d).
 [CVRCVTrackedHmdInternal] Invalid application type.
-[CVRCVTrackedHmdInternal] Invalid driver state, we cannot send the request with type %d
+[CVRCVTrackedHmdInternal] Invalid driver state, we cannot send the request of type %d. (active:%d processing:%d valid seq:%d)
 [CVRCVTrackedHmdInternal] New-request event initialization failed
 [CVRCVTrackedHmdInternal] Request-processed event initialization failed
 [CVRCVTrackedHmdInternal] Shared state initialization failed
-[CVRCVTrackedHmdInternal] Timeout reached when waiting for the request to be processed (error code: %d)
+[CVRCVTrackedHmdInternal] Timeout reached when waiting for the request to be processed. The driver might have become unreachable.
 [CommandAllocator %d] AddResourceBarrier
 [Compatibility Mode] Could not get notification interface. %d
 [Compatibility Mode] Could not get overlay interface. %d
@@ -8254,7 +8261,6 @@ extensionsRequired
 extensionsUsed
 external_drivers
 extras
-e|@JrrZcr
 f(L9f@H
 f9+t4
 f98tZH
@@ -8590,6 +8596,7 @@ joystick_rotation_x
 joystick_rotation_y
 joystick_settings
 jsonid
+jx:Ml/j
 k0i0$
 k_EButton_A
 k_EButton_ApplicationMenu
@@ -9697,7 +9704,7 @@ t1fff
 t3fff
 t4L9P
 t7fff
-t8D8-a),
+t8D8-Q),
 t9fff
 t:fff
 t>H9n
@@ -9813,7 +9820,6 @@ u4H9X s
 u5H9t$0u.H
 u<+u8
 u<H9^xtLH
-u=(q7
 u=L96u8A;
 u>D8}
 u>f9X u8f9X0u2f9X@u,f9XPu&

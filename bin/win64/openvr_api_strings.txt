@@ -33,7 +33,7 @@
  C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
- D;=x
+ D;5z
  D;j0u
  H3E H3E
  Type Descriptor'
@@ -50,7 +50,6 @@
 !>6'Y
 !T$(H!T$ 
 !hn7!
-!ike@]
 !~?s5
 "e?<<<<<<l?
 "f9;t
@@ -73,7 +72,6 @@ $iMBm
 %m / %d / %y
 &<	x4;O
 &?PPPPPPP?
-&iSeu
 &uo r
 ' is not a number.
 ',=?k
@@ -416,7 +414,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-230927021150Z0/
+231004000408Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -431,7 +429,6 @@ $iMBm
 3>fvw
 3A8A#
 3T$(H
-3_c]p\
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -502,6 +499,7 @@ $iMBm
 ;H9>&X
 ;I9}(tiH
 ;\$p|
+;c>N/
 <	w	@
 < t;<	t7
 <%ufH
@@ -844,6 +842,7 @@ D9d$$u
 D9g@~2Ic
 D9h(uiE
 D9k(u
+D;=b.
 D;T$4
 D;d$$A
 D;d$$u
@@ -878,6 +877,7 @@ Driver Not Known (201)
 Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
 Driver runtime is out of date (204)
+Driver unable to initialize video encoder (499)
 Duplicate key: '
 DuplicateHandle
 DynamicProgressFeedback
@@ -936,6 +936,7 @@ G0LcGDI
 G8HcODI
 GPP@&R7T
 GQ@R<E
+GYkd/f
 GetACP
 GetCPInfo
 GetCommandLineA
@@ -996,6 +997,7 @@ GetUmsCompletionListEvent
 GetUserDefaultLCID
 GetUserDefaultLocaleName
 GetVersionExW
+GjT9k
 GrvD)
 H WATAUAVAWH
 H!C@H
@@ -1019,16 +1021,14 @@ H3\$HH
 H97uWH
 H98t%H
 H99u{
-H9=#J	
-H9=3C	
-H9=GI	
-H9=KV	
-H9=OW	
-H9=WB	
-H9=cE	
-H9=oU	
-H9={@	
-H9={O	
+H9='[	
+H9=7T	
+H9=7`	
+H9=CW	
+H9=C\	
+H9=Og	
+H9=gV	
+H9=kc	
 H9A u
 H9Ahs
 H9D$@u
@@ -1078,6 +1078,7 @@ HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
 H[><y5
 H_^[]
+Hc-_:
 Hc9;q
 Hc;HcK
 HcC H
@@ -1206,8 +1207,6 @@ L(;E:
 L(<A:
 L+t$0
 L9"u&
-L9-[{
-L9-q~
 L9L$(D
 L9`8u'L
 L9l$0
@@ -1245,7 +1244,7 @@ Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 LrvD)O
 M H1E
-M(f958
+M(f95
 M98u/
 MB(iVR
 MM/dd/yy
@@ -1295,6 +1294,7 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
+RSDSNt
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1305,6 +1305,7 @@ RegisterWaitForSingleObject
 ReleaseSRWLockExclusive
 ReleaseSemaphore
 ResetEvent
+RfUK|
 RoInitialize
 RoUninitialize
 RtlCaptureContext
@@ -1528,6 +1529,7 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -1788,6 +1790,7 @@ Zod(^?
 ]`u7H
 ]g@8yhu
 ^<V7w
+^L2>'
 ^RfN>
 ^fD9(H
 _(H9n
@@ -2048,6 +2051,7 @@ jj@0HK4
 k0i0$
 kB0[/
 kC2\/
+kD~~h
 kXL9sHu
 keylength >= 2^30
 l$ E3
@@ -2079,10 +2083,10 @@ ldexp
 log10
 lq%&1T
 m0k0$
-m9kxH)
 map/set<T> too long
 message size
 n03>Pu
+nD8-^
 n]?iJ
 nan(ind)
 nan(snan)

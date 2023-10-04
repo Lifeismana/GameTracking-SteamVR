@@ -36,7 +36,6 @@ $_^[]
 %d / %m / %y
 %j+hD
 %m / %d / %y
-%|G+[
 &1V6|:^<
 ',=?k
 ()$^.*+?[]|\-{},:=!
@@ -432,7 +431,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-230927021142Z0/
+231004000342Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -714,6 +713,7 @@ $_^[]
 8 838=8Q8y8
 8$8,848<8D8L8
 8$8,848<8D8L8T8\8d8l8t8|8
+8%*{7
 8%8,8T8\8i8r8}8
 8%8?8
 8&8<8
@@ -969,7 +969,6 @@ $_^[]
 <G<r<
 <G=r=+>
 <L=b=
-<OUI~.#l
 <P<V<q<}<
 <[<d<{<A=
 <d<x<}<
@@ -1224,7 +1223,6 @@ Applying first frame camera configuration options...
 Auto Exposure Target:		
 Auto Exposure:			
 Auto White Balance:		
-B9x7x
 BP;BL
 Backlight Compensation:		
 Begin Streaming Depth...
@@ -1479,7 +1477,6 @@ PAq=?Mp#
 PQSVW
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pj@Wj
-PrhCd'
 Pz}b!
 Q$B@;
 Q;FD~R
@@ -1493,7 +1490,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDSG\
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1662,8 +1658,8 @@ _seh_filter_dll
 _unlock_file
 _unlock_locales
 _wcsdup
+`	+hZ
 `.rdata
-a$ca {W(h
 a7hIw
 abort
 address family not supported
@@ -1889,7 +1885,6 @@ ungetwc
 unknown error
 upper
 v	N+D$
-v4IiU
 v=Y]Bv
 value too large
 vector<T> too long

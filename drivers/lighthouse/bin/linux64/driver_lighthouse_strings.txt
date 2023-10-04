@@ -831,7 +831,6 @@ $@
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-02:10:49
 0x
 0x%08llx
 1
@@ -917,6 +916,7 @@ $@
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23
+23:58:07
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -2534,7 +2534,7 @@ CVRAudioDevices::AddNotify(IVRAudioNotification*)
 CVRAudioDevices::CVRAudioDevices()
 CVRAudioDevices::DeserializeAudioDeviceInfo(std::string const&, std::string*, std::string*, unsigned short*, unsigned short*)
 CVRAudioDevices::GetAudioDevices(std::vector<IVRAudioDevices::CVRAudioDeviceInfo, std::allocator<IVRAudioDevices::CVRAudioDeviceInfo> >&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceState)
-CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&)
+CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&, bool)
 CVRAudioDevices::GetDefaultAudioDevice(std::string&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceRole)
 CVRAudioDevices::GetDeviceSoundVolume(std::string const&)
 CVRAudioDevices::GetMasterMicrophoneVolume()
@@ -3131,6 +3131,7 @@ Driver Not Known (201)
 Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
 Driver runtime is out of date (204)
+Driver unable to initialize video encoder (499)
 DriverLog(char const*, ...)
 DriverLogString(char const*)
 DriverLogVarArgs(char const*, __va_list_tag*)
@@ -4961,6 +4962,7 @@ OTGT started
 OTGT timed out
 Object
 Oct
+Oct  3 2023
 October
 Ok
 Old Normal: %f %f %f
@@ -5385,7 +5387,6 @@ Selected existing universe %llu (%08X is %s)
 Self queried namespace: %u
 Sent message id %u, received %u (%s). Rejecting response.
 Sep
-Sep 27 2023
 September
 SessionID
 Set column correction %f %d %f %d
@@ -6077,6 +6078,7 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate

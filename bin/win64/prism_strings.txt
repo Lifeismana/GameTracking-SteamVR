@@ -530,7 +530,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-230927021230Z0/
+231004000447Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -546,7 +546,6 @@ $9E0u
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6%Op*x
 6*f(_
 6I]Dc
 6OB,n_
@@ -927,6 +926,7 @@ CreateFileMappingA
 CreateMutexA
 CreateWellKnownSid
 CreateWellKnownSid failed for WinBuiltinAnyPackageSid
+D	j=vMG5
 D$ E3
 D$ H;
 D$ L;
@@ -999,6 +999,7 @@ DumpHistory
 DumpHistory-Staging
 Dumping display history...
 DuplicateHandle
+E+(^0
 E8~(t\
 E\f9A
 EkH9M
@@ -1422,7 +1423,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSg
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -2079,6 +2079,7 @@ tC8Khu1
 tOH97t	H
 tQH95
 tUH93t	H
+tWCBS
 tXfff
 tdh.dll
 terminate

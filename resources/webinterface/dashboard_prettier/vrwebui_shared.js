@@ -1258,7 +1258,7 @@
     },
     3081: (e, t, n) => {
       "use strict";
-      n.d(t, { _: () => fe });
+      n.d(t, { _: () => ye });
       var i = n(655),
         s = n(3884),
         o = n(7056),
@@ -1928,7 +1928,7 @@
         (0, i.gn)([a.Fl], R.prototype, "currentRoomViewStyle", null),
         (R = (0, i.gn)([l.Pi], R));
       var k = n(7095),
-        E = n(6539),
+        E = n(4940),
         L = (n(4790), n(9626));
       let T = class extends c.Component {
         constructor(e) {
@@ -2826,7 +2826,78 @@
           })
         );
       }
-      let K = class extends _.d9 {
+      function K(e) {
+        return c.createElement(_.wy, {
+          name: h.bU,
+          label: (0, m.Xx)("#Settings_ControllerOverlayMagnetismEnabled"),
+          onSubsection: c.createElement(
+            c.Fragment,
+            null,
+            c.createElement(_.U4, {
+              name: h.MJ,
+              label: (0, m.Xx)(
+                "#Settings_ControllerOverlayMagnetismLockDistance"
+              ),
+              min: 0,
+              max: 0.2,
+              valueStyleVariant: w.px.OnHandle,
+              detents: [0.05],
+              renderValue: (e) => e.toFixed(2),
+            }),
+            c.createElement(_.U4, {
+              name: h.ML,
+              label: (0, m.Xx)(
+                "#Settings_ControllerOverlayMagnetismDeadZoneRatio"
+              ),
+              min: 0,
+              max: 1,
+              valueStyleVariant: w.px.OnHandle,
+              detents: [0.6],
+              renderValue: (e) => e.toFixed(2),
+            })
+          ),
+        });
+      }
+      function Z(e) {
+        return c.createElement(_.wy, {
+          name: h.R3,
+          label: (0, m.Xx)("#Settings_ControllerOverlayFilteringEnabled"),
+          onSubsection: c.createElement(
+            c.Fragment,
+            null,
+            c.createElement(_.U4, {
+              name: h.N9,
+              label: (0, m.Xx)("#Settings_ControllerOverlayFilteringMinCutoff"),
+              min: 0,
+              max: 10,
+              valueStyleVariant: w.px.OnHandle,
+              detents: [1],
+              renderValue: (e) => e.toFixed(2),
+            }),
+            c.createElement(_.U4, {
+              name: h.ro,
+              label: (0, m.Xx)("#Settings_ControllerOverlayFilteringBeta"),
+              min: 0,
+              max: 10,
+              valueStyleVariant: w.px.OnHandle,
+              detents: [5],
+              renderValue: (e) => e.toFixed(2),
+            }),
+            c.createElement(_.U4, {
+              name: h.J9,
+              label: (0, m.Xx)(
+                "#Settings_ControllerOverlayFilteringDerivCutoff"
+              ),
+              min: 0,
+              max: 10,
+              valueStyleVariant: w.px.OnHandle,
+              detents: [5],
+              renderValue: (e) => e.toFixed(2),
+            })
+          ),
+        });
+      }
+      let J = class extends _.d9 {
         constructor(e) {
           super(e),
             (this.m_mailbox = new s.Nv()),
@@ -2859,6 +2930,8 @@
                 !1,
                 !1,
                 this.schemaComponents,
+                c.createElement(K, null),
+                c.createElement(Z, null),
                 c.createElement(
                   "div",
                   { className: "SettingsItem Button" },
@@ -2916,10 +2989,10 @@
             : null;
         }
       };
-      var Z, $;
-      (K.Name = "internal_settings"),
-        (0, i.gn)([o.ak], K.prototype, "toggleMirrorRender", null),
-        (K = (0, i.gn)([l.Pi], K)),
+      var $, Q;
+      (J.Name = "internal_settings"),
+        (0, i.gn)([o.ak], J.prototype, "toggleMirrorRender", null),
+        (J = (0, i.gn)([l.Pi], J)),
         (function (e) {
           (e[(e.NoConnection = 0)] = "NoConnection"),
             (e[(e.Connected = 1)] = "Connected"),
@@ -2928,7 +3001,7 @@
             (e[(e.Connecting = 4)] = "Connecting"),
             (e[(e.ConnectionSuccess = 5)] = "ConnectionSuccess"),
             (e[(e.ConnectionFailure = 6)] = "ConnectionFailure");
-        })(Z || (Z = {})),
+        })($ || ($ = {})),
         (function (e) {
           (e[(e.NoSoftAP = 0)] = "NoSoftAP"),
             (e[(e.GettingStatus = 1)] = "GettingStatus"),
@@ -2939,8 +3012,8 @@
             (e[(e.CreationFailure = 6)] = "CreationFailure"),
             (e[(e.Connected = 7)] = "Connected"),
             (e[(e.Destroying = 8)] = "Destroying");
-        })($ || ($ = {}));
-      class J extends c.Component {
+        })(Q || (Q = {}));
+      class Y extends c.Component {
         constructor(e) {
           super(e),
             (this.state = {
@@ -2948,12 +3021,12 @@
               currentAccessPoint: null,
               targetAccessPoint: null,
               sTargetPassword: "",
-              softAPState: $.NoSoftAP,
+              softAPState: Q.NoSoftAP,
               sSoftAPSSID: "",
               sSoftAPPassword: "",
               sSoftAPMessage: "",
               bShowConnectModal: !1,
-              connectionState: Z.NoConnection,
+              connectionState: $.NoConnection,
             });
         }
         componentDidMount() {
@@ -2976,17 +3049,17 @@
                     if (0 == e.nReturnCode)
                       switch (e.sOutput.charAt(0)) {
                         case "0":
-                          this.setState({ softAPState: $.NoSoftAP });
+                          this.setState({ softAPState: Q.NoSoftAP });
                           break;
                         case "1":
                           this.setState({
-                            softAPState: $.Intermediate,
+                            softAPState: Q.Intermediate,
                             sSoftAPMessage: e.sOutput,
                           });
                           break;
                         case "2":
                           this.setState({
-                            softAPState: $.Connected,
+                            softAPState: Q.Connected,
                             sSoftAPMessage: e.sOutput.substring(
                               2,
                               e.sOutput.length
@@ -2995,24 +3068,24 @@
                       }
                     else
                       this.setState({
-                        softAPState: $.ErrorGettingStatus,
+                        softAPState: Q.ErrorGettingStatus,
                         sSoftAPMessage: e.sOutput,
                       });
                   };
                   switch (this.state.softAPState) {
-                    case $.GettingStatus:
-                    case $.CreationSuccess:
+                    case Q.GettingStatus:
+                    case Q.CreationSuccess:
                       window.setTimeout(t, 3e3);
                       break;
-                    case $.Connected:
-                    case $.ErrorGettingStatus:
-                    case $.Intermediate:
-                    case $.NoSoftAP:
+                    case Q.Connected:
+                    case Q.ErrorGettingStatus:
+                    case Q.Intermediate:
+                    case Q.NoSoftAP:
                       t();
                   }
                 }),
                 S.G3.GetSettingsValue("/settings/internet/enableSoftAP") &&
-                  this.setState({ softAPState: $.GettingStatus });
+                  this.setState({ softAPState: Q.GettingStatus });
             });
         }
         componentWillUnmount() {
@@ -3026,33 +3099,33 @@
         }
         HandleConnectionStateTransition(e) {
           switch (this.state.connectionState) {
-            case Z.Connecting:
+            case $.Connecting:
               this.JoinNetwork(
                 this.state.targetAccessPoint.path,
                 this.state.sTargetPassword
               );
               break;
-            case Z.ConnectionFailure:
-            case Z.ConnectionSuccess:
+            case $.ConnectionFailure:
+            case $.ConnectionSuccess:
               this.RefreshAccessPoints();
           }
         }
         HandleSoftAPStateTransition(e) {
           switch (this.state.softAPState) {
-            case $.Creating:
+            case Q.Creating:
               this.CreateSAP();
               break;
-            case $.GettingStatus:
-            case $.Intermediate:
+            case Q.GettingStatus:
+            case Q.Intermediate:
               break;
-            case $.Destroying:
+            case Q.Destroying:
               this.TeardownSAP();
               break;
-            case $.CreationFailure:
-            case $.CreationSuccess:
-            case $.Connected:
+            case Q.CreationFailure:
+            case Q.CreationSuccess:
+            case Q.Connected:
               break;
-            case $.NoSoftAP:
+            case Q.NoSoftAP:
               this.setState({ sSoftAPPassword: "", sSoftAPSSID: "" });
           }
         }
@@ -3101,7 +3174,7 @@
                 : (console.log(
                     `network ${e} is unsecured, so joining with no password prompt`
                   ),
-                  this.setState({ connectionState: Z.Connecting })))
+                  this.setState({ connectionState: $.Connecting })))
             : console.log(`Tried to join AP ${e}, which wasn't in our list`);
         }
         JoinNetwork(e, t) {
@@ -3118,18 +3191,18 @@
                 i
                   ? i.sError
                     ? (console.log(`Failed to join ${e}: ${i.sError}`),
-                      this.setState({ connectionState: Z.ConnectionFailure }))
+                      this.setState({ connectionState: $.ConnectionFailure }))
                     : (console.log(`Join of ${e} was successful`),
                       this.setState({
-                        connectionState: Z.ConnectionSuccess,
+                        connectionState: $.ConnectionSuccess,
                         sTargetPassword: "",
                       }))
                   : (console.log(`Failed to join ${e}: Invalid response`),
-                    this.setState({ connectionState: Z.ConnectionFailure }));
+                    this.setState({ connectionState: $.ConnectionFailure }));
               }, o);
             } catch (t) {
               console.log(`Failed to join wifi network ${e}: ` + t),
-                this.setState({ connectionState: Z.ConnectionFailure });
+                this.setState({ connectionState: $.ConnectionFailure });
             }
           });
         }
@@ -3227,18 +3300,18 @@
                 window.setTimeout(() => {
                   console.log("Failed to create SAP: " + n.sError),
                     this.setState({
-                      softAPState: $.CreationFailure,
+                      softAPState: Q.CreationFailure,
                       sSoftAPMessage: n.sError,
                     });
                 }, i);
-              } else this.setState({ softAPState: $.CreationSuccess });
+              } else this.setState({ softAPState: Q.CreationSuccess });
             } catch (t) {
               let n = Date.now() - e,
                 i = Math.max(3e3 - n, 0);
               window.setTimeout(() => {
                 console.log("Failed to create SAP because exception: " + t),
                   this.setState({
-                    softAPState: $.CreationFailure,
+                    softAPState: Q.CreationFailure,
                     sSoftAPMessage: t,
                   });
               }, i);
@@ -3256,7 +3329,7 @@
                   "sap_teardown_response"
                 );
               console.log("TeardownSAP result = " + t.return_code + "\n"),
-                this.setState({ softAPState: $.NoSoftAP });
+                this.setState({ softAPState: Q.NoSoftAP });
             } catch (e) {
               console.log(
                 "Failed to teardown Wi-Fi Hotspot because exception: " + e
@@ -3285,7 +3358,7 @@
         }
         onShowPasswordKeyboard() {
           this.setState({
-            connectionState: Z.EnteringPassword,
+            connectionState: $.EnteringPassword,
             sTargetPassword: "",
           }),
             null === VRHTML ||
@@ -3309,8 +3382,8 @@
         }
         BIsPasswordInputEnabled() {
           return !(
-            this.state.connectionState == Z.Connecting ||
-            this.state.connectionState == Z.ConnectionSuccess
+            this.state.connectionState == $.Connecting ||
+            this.state.connectionState == $.ConnectionSuccess
           );
         }
         render() {
@@ -3326,12 +3399,12 @@
                 label: "Wi-Fi Hotspot",
                 title: "Toggle the Wi-Fi hotspot on headset.",
                 onChange: (e) => {
-                  this.setState({ softAPState: e ? $.Creating : $.Destroying });
+                  this.setState({ softAPState: e ? Q.Creating : Q.Destroying });
                 },
                 onSubsection: c.createElement(
                   c.Fragment,
                   null,
-                  this.state.softAPState == $.Connected &&
+                  this.state.softAPState == Q.Connected &&
                     c.createElement(
                       "span",
                       null,
@@ -3339,30 +3412,30 @@
                       this.state.sSoftAPMessage,
                       " "
                     ),
-                  this.state.softAPState == $.GettingStatus &&
+                  this.state.softAPState == Q.GettingStatus &&
                     c.createElement("span", null, "Getting hotspot status..."),
-                  this.state.softAPState == $.Intermediate &&
+                  this.state.softAPState == Q.Intermediate &&
                     c.createElement(
                       "span",
                       null,
                       "Hotspot status: ",
                       this.state.sSoftAPMessage
                     ),
-                  this.state.softAPState == $.ErrorGettingStatus &&
+                  this.state.softAPState == Q.ErrorGettingStatus &&
                     c.createElement(
                       "span",
                       null,
                       "Error getting hotspot status. ",
                       this.state.sSoftAPMessage
                     ),
-                  (this.state.softAPState == $.Creating ||
-                    this.state.softAPState == $.CreationSuccess) &&
+                  (this.state.softAPState == Q.Creating ||
+                    this.state.softAPState == Q.CreationSuccess) &&
                     c.createElement("span", null, "Creating hotspot..."),
-                  this.state.softAPState == $.CreationFailure &&
+                  this.state.softAPState == Q.CreationFailure &&
                     c.createElement("span", null, this.state.sSoftAPMessage),
-                  this.state.softAPState == $.Destroying &&
+                  this.state.softAPState == Q.Destroying &&
                     c.createElement("span", null, "Destroying hotspot..."),
-                  this.state.softAPState == $.NoSoftAP &&
+                  this.state.softAPState == Q.NoSoftAP &&
                     c.createElement("span", null, "Hotspot inactive.")
                 ),
               })
@@ -3447,7 +3520,7 @@
                       _.ls,
                       {
                         onClick: () => {
-                          this.setState({ connectionState: Z.Connecting });
+                          this.setState({ connectionState: $.Connecting });
                         },
                         enabled: this.BIsPasswordInputEnabled(),
                       },
@@ -3455,41 +3528,41 @@
                     )
                   )
                 ),
-                this.state.connectionState == Z.EnteringPassword &&
+                this.state.connectionState == $.EnteringPassword &&
                   c.createElement(
                     "span",
                     null,
                     "Please enter the password with the keyboard."
                   ),
-                this.state.connectionState == Z.Connecting &&
+                this.state.connectionState == $.Connecting &&
                   c.createElement("span", null, "Connecting..."),
-                this.state.connectionState == Z.ConnectionFailure &&
+                this.state.connectionState == $.ConnectionFailure &&
                   c.createElement(
                     "span",
                     null,
                     "Failed to connect. Please try again."
                   ),
-                this.state.connectionState == Z.ConnectionSuccess &&
+                this.state.connectionState == $.ConnectionSuccess &&
                   c.createElement("span", null, "Connection successful.")
               )
           );
         }
       }
-      (0, i.gn)([o.ak], J.prototype, "onShowPasswordKeyboard", null),
-        (0, i.gn)([o.ak], J.prototype, "BIsPasswordInputEnabled", null);
-      let Q = class extends _.d9 {
+      (0, i.gn)([o.ak], Y.prototype, "onShowPasswordKeyboard", null),
+        (0, i.gn)([o.ak], Y.prototype, "BIsPasswordInputEnabled", null);
+      let ee = class extends _.d9 {
         constructor(e) {
           super(e);
         }
         render() {
           return this.props.active
-            ? c.createElement(c.Fragment, null, c.createElement(J, null))
+            ? c.createElement(c.Fragment, null, c.createElement(Y, null))
             : null;
         }
       };
-      (Q.Name = "internet_settings"), (Q = (0, i.gn)([l.Pi], Q));
-      var Y = n(9809);
-      let ee = class extends c.Component {
+      (ee.Name = "internet_settings"), (ee = (0, i.gn)([l.Pi], ee));
+      var te = n(9809);
+      let ne = class extends c.Component {
         constructor(e) {
           super(e),
             (this.m_refSelectedButton = c.createRef()),
@@ -3595,7 +3668,7 @@
                   onDismissRequested: this.hideModal,
                   className: "Backgrounds",
                   header: (0, m.Xx)("#Settings_Appearance_Background"),
-                  subheader: Y.I.IsSteamAvailable
+                  subheader: te.I.IsSteamAvailable
                     ? null
                     : (0, m.Xx)("#Settings_Appearance_Background_NoSteam"),
                 },
@@ -3624,13 +3697,13 @@
           );
         }
       };
-      (0, i.gn)([o.ZP], ee.prototype, "updateUGCItems", null),
-        (0, i.gn)([o.ZP], ee.prototype, "setBackground", null),
-        (0, i.gn)([o.ZP], ee.prototype, "hideModal", null),
-        (0, i.gn)([o.ZP], ee.prototype, "showModal", null),
-        (0, i.gn)([a.Fl], ee.prototype, "currentBackgroundPath", null),
-        (ee = (0, i.gn)([l.Pi], ee));
-      class te extends c.Component {
+      (0, i.gn)([o.ZP], ne.prototype, "updateUGCItems", null),
+        (0, i.gn)([o.ZP], ne.prototype, "setBackground", null),
+        (0, i.gn)([o.ZP], ne.prototype, "hideModal", null),
+        (0, i.gn)([o.ZP], ne.prototype, "showModal", null),
+        (0, i.gn)([a.Fl], ne.prototype, "currentBackgroundPath", null),
+        (ne = (0, i.gn)([l.Pi], ne));
+      class ie extends c.Component {
         constructor() {
           super(...arguments),
             (this.m_sUniqueIdForForceBoundsVisible = Math.random().toString());
@@ -3653,7 +3726,7 @@
           return null;
         }
       }
-      let ne = class extends _.d9 {
+      let se = class extends _.d9 {
         constructor(e) {
           super(e);
         }
@@ -3675,7 +3748,7 @@
             c.createElement(
               c.Fragment,
               null,
-              c.createElement(te, null),
+              c.createElement(ie, null),
               c.createElement(_.Xp, {
                 name: "/settings/collisionBounds/CollisionBoundsStyle",
                 label: (0, m.Xx)("#Settings_Chaperone_Style"),
@@ -3755,7 +3828,7 @@
                 label: (0, m.Xx)("#Settings_Appearance_PlayArea_FloorColor"),
                 name: "/settings/steamvr/playAreaColor",
               }),
-              c.createElement(ee, null),
+              c.createElement(ne, null),
               n &&
                 c.createElement(_.wy, {
                   name: "/settings/steamvr/backgroundUseDomeProjection",
@@ -3809,9 +3882,9 @@
           );
         }
       };
-      var ie;
-      (ne.Name = "playarea_settings"), (ne = (0, i.gn)([l.Pi], ne));
-      class se {
+      var oe;
+      (se.Name = "playarea_settings"), (se = (0, i.gn)([l.Pi], se));
+      class re {
         constructor() {
           (this.driverNameToIdMap = new Map()),
             G()
@@ -3826,7 +3899,7 @@
               });
         }
         prettyName(e) {
-          return se.driverPrettyNames[e] || e;
+          return re.driverPrettyNames[e] || e;
         }
         unBlock(e) {
           S.G3.SetRestartRequired(),
@@ -3864,7 +3937,7 @@
           ).length;
         }
       }
-      (se.driverPrettyNames = {
+      (re.driverPrettyNames = {
         lighthouse: "Lighthouse (Index, Vive, ...)",
         oculus: "Oculus (Rift, Rift S, Quest)",
         oculus_legacy: "Legacy Oculus (DK1, DK2)",
@@ -3880,18 +3953,18 @@
         alvr: "ALVR - Air Light VR (Gear VR, Oculus Go, Quest)",
         VirtualDesktop: "Virtual Desktop Streamer (Quest)",
       }),
-        (0, i.gn)([a.LO], se.prototype, "driverList", void 0),
-        (0, i.gn)([a.Fl], se.prototype, "visibleDriverList", null),
-        (0, i.gn)([a.Fl], se.prototype, "numBlockedDrivers", null),
-        (0, i.gn)([a.Fl], se.prototype, "numDisabledDrivers", null),
+        (0, i.gn)([a.LO], re.prototype, "driverList", void 0),
+        (0, i.gn)([a.Fl], re.prototype, "visibleDriverList", null),
+        (0, i.gn)([a.Fl], re.prototype, "numBlockedDrivers", null),
+        (0, i.gn)([a.Fl], re.prototype, "numDisabledDrivers", null),
         (0, i.gn)(
           [a.Fl],
-          se.prototype,
+          re.prototype,
           "numUserManuallyDisenabledDrivers",
           null
         );
-      const oe = new se(),
-        re = (0, l.Pi)(() =>
+      const ae = new re(),
+        le = (0, l.Pi)(() =>
           c.createElement(
             d.z,
             {
@@ -3899,16 +3972,16 @@
               title: (0, m.Xx)("#Settings_Drivers_UnblockAllTip"),
               onClick: () =>
                 (0, i.mG)(void 0, void 0, void 0, function* () {
-                  const e = oe.driverList
+                  const e = ae.driverList
                     .filter((e) => e.blocked_by_safe_mode)
                     .map((e) => e.manifest.name);
-                  for (let t = 0; t < e.length; ++t) yield oe.unBlock(e[t]);
+                  for (let t = 0; t < e.length; ++t) yield ae.unBlock(e[t]);
                 }),
             },
             (0, m.Xx)("#Settings_Drivers_UnblockAll")
           )
         );
-      function ae(e) {
+      function ce(e) {
         return e.blocked
           ? c.createElement(
               _.GV,
@@ -3931,41 +4004,41 @@
               value: e.enabled,
             });
       }
-      const le = (0, l.Pi)(() =>
+      const de = (0, l.Pi)(() =>
         c.createElement(
           c.Fragment,
           null,
-          oe.visibleDriverList.map((e) =>
-            c.createElement(ae, {
+          ae.visibleDriverList.map((e) =>
+            c.createElement(ce, {
               key: e.manifest.name,
-              label: oe.prettyName(e.manifest.name),
+              label: ae.prettyName(e.manifest.name),
               title: e.manifest.name,
               blocked: e.blocked_by_safe_mode,
               enabled: e.enabled,
               onToggleEnable: (t) => {
-                return (n = e.manifest.name), (i = t), void oe.setEnabled(n, i);
+                return (n = e.manifest.name), (i = t), void ae.setEnabled(n, i);
                 var n, i;
               },
               onUnblock: () => {
-                return (t = e.manifest.name), void oe.unBlock(t);
+                return (t = e.manifest.name), void ae.unBlock(t);
                 var t;
               },
             })
           )
         )
       );
-      let ce = (ie = class extends c.Component {
+      let ue = (oe = class extends c.Component {
         constructor(e) {
           super(e);
         }
         render() {
-          const e = oe.numBlockedDrivers,
-            t = oe.numDisabledDrivers,
+          const e = ae.numBlockedDrivers,
+            t = ae.numDisabledDrivers,
             n =
               S.G3.showAdvancedSettings ||
               e ||
-              oe.numUserManuallyDisenabledDrivers,
-            i = S.G3.routePageSection == ie.PAGE_SECTION;
+              ae.numUserManuallyDisenabledDrivers,
+            i = S.G3.routePageSection == oe.PAGE_SECTION;
           return c.createElement(
             c.Fragment,
             null,
@@ -3977,7 +4050,7 @@
                   d.z,
                   {
                     className: "ButtonControl",
-                    onClick: () => S.G3.setRoutePageSection(ie.PAGE_SECTION),
+                    onClick: () => S.G3.setRoutePageSection(oe.PAGE_SECTION),
                   },
                   (0, m.Xx)("#Settings_Drivers_ShowDriverManagerUI"),
                   0 != e &&
@@ -3996,7 +4069,7 @@
                 )
               ),
             i &&
-              oe.driverList &&
+              ae.driverList &&
               c.createElement(
                 _.TB,
                 {
@@ -4012,17 +4085,17 @@
                             { className: "Label" },
                             (0, m.Xx)("#Settings_Drivers_SomeBlocked")
                           ),
-                          c.createElement(re, null)
+                          c.createElement(le, null)
                         ),
                   onDismissRequested: () => S.G3.setRoutePageSection(null),
                 },
-                c.createElement(le, null)
+                c.createElement(de, null)
               )
           );
         }
       });
-      (ce.PAGE_SECTION = "drivermanager"), (ce = ie = (0, i.gn)([l.Pi], ce));
-      let de = class extends c.Component {
+      (ue.PAGE_SECTION = "drivermanager"), (ue = oe = (0, i.gn)([l.Pi], ue));
+      let pe = class extends c.Component {
         constructor(e) {
           super(e), (this.state = { bShowingModal: !1 });
         }
@@ -4091,10 +4164,10 @@
           );
         }
       };
-      (0, i.gn)([o.ZP], de.prototype, "show", null),
-        (0, i.gn)([o.ZP], de.prototype, "hide", null),
-        (de = (0, i.gn)([l.Pi], de));
-      let ue = class extends _.d9 {
+      (0, i.gn)([o.ZP], pe.prototype, "show", null),
+        (0, i.gn)([o.ZP], pe.prototype, "hide", null),
+        (pe = (0, i.gn)([l.Pi], pe));
+      let he = class extends _.d9 {
         constructor(e) {
           super(e);
         }
@@ -4103,8 +4176,8 @@
             ? c.createElement(
                 c.Fragment,
                 null,
-                c.createElement(de, null),
-                c.createElement(ce, null),
+                c.createElement(pe, null),
+                c.createElement(ue, null),
                 c.createElement("hr", null),
                 this.schemaComponents,
                 this.makeResetToDefaultButton()
@@ -4112,9 +4185,9 @@
             : null;
         }
       };
-      var pe;
-      (ue.Name = "startupshutdown_settings"),
-        (ue = (0, i.gn)([l.Pi], ue)),
+      var me;
+      (he.Name = "startupshutdown_settings"),
+        (he = (0, i.gn)([l.Pi], he)),
         (function (e) {
           (e.Unknown = "unknown"),
             (e.CheckingForUpdate = "checking"),
@@ -4126,12 +4199,12 @@
             (e.NoServer = "noserver"),
             (e.Available = "update"),
             (e.Reinstall = "reinstall");
-        })(pe || (pe = {}));
-      class he extends c.Component {
+        })(me || (me = {}));
+      class ge extends c.Component {
         constructor(e) {
           super(e),
             (this.updateTimer = -1),
-            (this.state = { state: pe.Unknown });
+            (this.state = { state: me.Unknown });
         }
         componentDidMount() {
           this.RequestChannels();
@@ -4155,7 +4228,7 @@
             } catch (e) {
               console.log("failed to get_channels because of exception: " + e),
                 this.setState({
-                  state: pe.Error,
+                  state: me.Error,
                   detail: "WebAPI request failed",
                 });
             }
@@ -4171,11 +4244,11 @@
                 this.setState({ state: e.status, detail: e.detail }),
                 e.status)
               ) {
-                case pe.Error:
-                case pe.Failed:
-                case pe.Reinstall:
-                case pe.Succeeded:
-                case pe.Reboot:
+                case me.Error:
+                case me.Failed:
+                case me.Reinstall:
+                case me.Succeeded:
+                case me.Reboot:
                   this.cancelUpdateTimer();
               }
             } catch (e) {
@@ -4183,7 +4256,7 @@
                 "failed to get update state because of exception: " + e
               ),
                 this.setState({
-                  state: pe.Error,
+                  state: me.Error,
                   detail: "WebAPI request failed",
                 }),
                 this.cancelUpdateTimer();
@@ -4191,7 +4264,7 @@
           });
         }
         onClickUpdate() {
-          this.setState({ state: pe.InProgress }),
+          this.setState({ state: me.InProgress }),
             -1 == this.updateTimer &&
               (this.updateTimer = window.setInterval(() => {
                 this.RequestUpdateState();
@@ -4202,7 +4275,7 @@
           } catch (e) {
             console.log("failed to request update because of exception: " + e),
               this.setState({
-                state: pe.Error,
+                state: me.Error,
                 detail: "WebAPI request failed",
               }),
               this.cancelUpdateTimer();
@@ -4210,7 +4283,7 @@
         }
         onClickCheckForUpdate() {
           console.log("check for update"),
-            this.setState({ state: pe.CheckingForUpdate, detail: "" }),
+            this.setState({ state: me.CheckingForUpdate, detail: "" }),
             this.RequestUpdateState();
         }
         onClickReboot() {
@@ -4220,7 +4293,7 @@
           } catch (e) {
             console.log("failed to request reboot because of exception: " + e),
               this.setState({
-                state: pe.Error,
+                state: me.Error,
                 detail: "WebAPI request failed",
               });
           }
@@ -4242,45 +4315,45 @@
         renderState() {
           switch (this.state.state) {
             default:
-            case pe.Unknown:
+            case me.Unknown:
               return this.renderStatus(
                 "Check For Updates",
                 "",
                 this.onClickCheckForUpdate
               );
-            case pe.CheckingForUpdate:
+            case me.CheckingForUpdate:
               return this.renderStatus("Checking");
-            case pe.InProgress:
+            case me.InProgress:
               return this.renderStatus(
                 "Installing update...",
                 "Installing update... (typical duration 5 min)"
               );
-            case pe.Available:
+            case me.Available:
               return this.renderStatus(
                 "Install",
                 "Update Available: " + this.state.detail,
                 this.onClickUpdate
               );
-            case pe.Error:
+            case me.Error:
               return this.renderStatus(
                 "Retry Install",
                 "Update Error: " + this.state.detail,
                 this.onClickUpdate
               );
-            case pe.Failed:
+            case me.Failed:
               return this.renderStatus(
                 "Retry Install",
                 "Update Failed:" + this.state.detail,
                 this.onClickUpdate
               );
-            case pe.Reinstall:
+            case me.Reinstall:
               return this.renderStatus(
                 "Reinstall",
                 this.state.detail,
                 this.onClickUpdate
               );
-            case pe.Succeeded:
-            case pe.Reboot:
+            case me.Succeeded:
+            case me.Reboot:
               return this.renderStatus(
                 "Reboot",
                 "Update Successful. Reboot to finish Update process",
@@ -4337,15 +4410,15 @@
           );
         }
       }
-      function me(e) {
+      function Se(e) {
         return e.replace(/\/+$/, "");
       }
-      (0, i.gn)([o.ak], he.prototype, "RequestUpdateState", null),
-        (0, i.gn)([o.ak], he.prototype, "onClickUpdate", null),
-        (0, i.gn)([o.ak], he.prototype, "onClickCheckForUpdate", null),
-        (0, i.gn)([o.ak], he.prototype, "onClickReboot", null),
-        (0, i.gn)([o.ak], he.prototype, "onChangeChannel", null);
-      class ge extends c.Component {
+      (0, i.gn)([o.ak], ge.prototype, "RequestUpdateState", null),
+        (0, i.gn)([o.ak], ge.prototype, "onClickUpdate", null),
+        (0, i.gn)([o.ak], ge.prototype, "onClickCheckForUpdate", null),
+        (0, i.gn)([o.ak], ge.prototype, "onClickReboot", null),
+        (0, i.gn)([o.ak], ge.prototype, "onChangeChannel", null);
+      class _e extends c.Component {
         constructor(e) {
           super(e), (this.state = { currentPath: "" });
         }
@@ -4358,11 +4431,11 @@
         }
         render() {
           if (!s.Co || null == this.state.installedRuntimes) return null;
-          const e = (e) => "/usr/local/steamvr" == me(e.toLowerCase()),
+          const e = (e) => "/usr/local/steamvr" == Se(e.toLowerCase()),
             t = (t) =>
               e(t)
                 ? "System Default"
-                : ((e) => "/data/work/steamvr" == me(e.toLowerCase()))(t)
+                : ((e) => "/data/work/steamvr" == Se(e.toLowerCase()))(t)
                 ? "Custom Build"
                 : "Custom: " + t.toLowerCase(),
             n = this.state.installedRuntimes
@@ -4403,7 +4476,7 @@
           );
         }
       }
-      let Se = class extends _.d9 {
+      let ve = class extends _.d9 {
         constructor(e) {
           super(e), (this.state = {});
         }
@@ -4504,8 +4577,8 @@
             c.createElement(
               c.Fragment,
               null,
-              c.createElement(he, null),
               c.createElement(ge, null),
+              c.createElement(_e, null),
               c.createElement("br", null),
               c.createElement("hr", null),
               c.createElement(
@@ -4582,10 +4655,10 @@
           );
         }
       };
-      (Se.Name = "system_settings"), (Se = (0, i.gn)([l.Pi], Se));
-      var _e,
-        ve = n(1464);
-      class Ce extends c.Component {
+      (ve.Name = "system_settings"), (ve = (0, i.gn)([l.Pi], ve));
+      var Ce,
+        fe = n(1464);
+      class be extends c.Component {
         constructor(e) {
           super(e),
             (this.state = {
@@ -4707,11 +4780,11 @@
           return e;
         }
       }
-      (0, i.gn)([o.ak], Ce.prototype, "onExitApp", null),
-        (0, i.gn)([o.ak], Ce.prototype, "onRestartSteamVR", null),
-        (0, i.gn)([o.ak], Ce.prototype, "onRestartRequired", null),
-        (0, i.gn)([o.ak], Ce.prototype, "onAppRestartRequired", null);
-      let fe = (_e = class extends c.Component {
+      (0, i.gn)([o.ak], be.prototype, "onExitApp", null),
+        (0, i.gn)([o.ak], be.prototype, "onRestartSteamVR", null),
+        (0, i.gn)([o.ak], be.prototype, "onRestartRequired", null),
+        (0, i.gn)([o.ak], be.prototype, "onAppRestartRequired", null);
+      let ye = (Ce = class extends c.Component {
         constructor(e) {
           super(e),
             (this.m_refSettingsPageContainer = c.createRef()),
@@ -4724,7 +4797,7 @@
             S.G3.routePage
               ? this.setState({ sActiveSettingSection: S.G3.routePage })
               : S.G3.setRoutePage(
-                  S.G3.settingsSchema.filter(_e.shouldShowSection)[0].controller
+                  S.G3.settingsSchema.filter(Ce.shouldShowSection)[0].controller
                 );
           })),
             (this.m_fidelitySettingsObserver = new g.kB()),
@@ -4771,7 +4844,7 @@
                 summonOverlayKey: h.A4,
                 mountableUnqualifiedID: e,
               },
-              t && c.createElement(Ce, { standalonePanel: !0 }),
+              t && c.createElement(be, { standalonePanel: !0 }),
               t &&
                 c.createElement(
                   r.lL,
@@ -4782,7 +4855,7 @@
                     foregroundReflectMultiplier: 0.25,
                     summonOverlayKey: h.A4,
                   },
-                  c.createElement(be, null),
+                  c.createElement(we, null),
                   c.createElement(s.at, { id: i, location: s.Ic.TopCenter }),
                   t
                 )
@@ -4801,11 +4874,11 @@
           );
         }
         renderSettingsPanelContents() {
-          const e = S.G3.settingsSchema.filter(_e.shouldShowSection);
+          const e = S.G3.settingsSchema.filter(Ce.shouldShowSection);
           return c.createElement(
             d.q,
             { className: "SettingsMainPanel" },
-            c.createElement(Ce, { standalonePanel: !1 }),
+            c.createElement(be, { standalonePanel: !1 }),
             c.createElement(
               "div",
               { className: "SettingsSidebarPageModalContainer" },
@@ -4868,7 +4941,7 @@
           const t = e.controller ? e.controller : "generic",
             n = this.state.sActiveSettingSection === e.controller,
             i =
-              [C, ue, ne, D.Yw, R, O, B, V, P, K, k.P, Se, Q].find(
+              [C, he, se, D.Yw, R, O, B, V, P, J, k.P, ve, ee].find(
                 (e) => e.Name === t
               ) || _.d9;
           return c.createElement(i, { key: e.title, section: e, active: n });
@@ -4877,17 +4950,17 @@
           if (
             e.internal_only &&
             !S.G3.showInternalSettings &&
-            !S.G3.settings.get(_e.k_sShowInternalSettings)
+            !S.G3.settings.get(Ce.k_sShowInternalSettings)
           )
             return !1;
           if (
-            e.controller == Se.Name &&
-            !S.G3.settings.get(_e.k_sShowSystemSettings)
+            e.controller == ve.Name &&
+            !S.G3.settings.get(Ce.k_sShowSystemSettings)
           )
             return !1;
           if (
-            e.controller == Q.Name &&
-            !S.G3.settings.get(_e.k_sShowInternetSettings)
+            e.controller == ee.Name &&
+            !S.G3.settings.get(Ce.k_sShowInternetSettings)
           )
             return !1;
           if (e.controller == V.Name && (0, s.Op)() == s.qA.Overlay) return !1;
@@ -4909,7 +4982,7 @@
           if (e.desktop_only && (0, s.Op)() == s.qA.Overlay) return !1;
           let t =
             e.controller == B.Name &&
-            S.G3.settings.get(_e.k_sShowDashboardSettings);
+            S.G3.settings.get(Ce.k_sShowDashboardSettings);
           return (
             !(e.advanced_only && !S.G3.showAdvancedSettings && !t) &&
             !(
@@ -4947,22 +5020,22 @@
           });
         }
       });
-      (fe.k_sShowInternalSettings = "/settings/steamvr/showInternalSettings"),
-        (fe.k_sShowSystemSettings = "/settings/steamvr/showSystemSettings"),
-        (fe.k_sShowInternetSettings = "/settings/steamvr/showInternetSettings"),
-        (fe.k_sShowDashboardSettings =
+      (ye.k_sShowInternalSettings = "/settings/steamvr/showInternalSettings"),
+        (ye.k_sShowSystemSettings = "/settings/steamvr/showSystemSettings"),
+        (ye.k_sShowInternetSettings = "/settings/steamvr/showInternetSettings"),
+        (ye.k_sShowDashboardSettings =
           "/settings/steamvr/showDashboardSettings"),
-        (0, i.gn)([o.ak], fe.prototype, "renderSectionButton", null),
-        (0, i.gn)([o.ak], fe.prototype, "renderSectionPage", null),
-        (fe = _e = (0, i.gn)([l.Pi], fe));
-      const be = (0, l.Pi)(function (e) {
+        (0, i.gn)([o.ak], ye.prototype, "renderSectionButton", null),
+        (0, i.gn)([o.ak], ye.prototype, "renderSectionPage", null),
+        (ye = Ce = (0, i.gn)([l.Pi], ye));
+      const we = (0, l.Pi)(function (e) {
         const t = L.B.GetActiveDashboardPopups().find(
           (e) =>
             e.parent_overlay_key == h.T2 &&
             e.popup_overlay_key.includes("mainmenu")
         );
         return t
-          ? c.createElement(ve.a, { popupRequest: t, reparent: !1 })
+          ? c.createElement(fe.a, { popupRequest: t, reparent: !1 })
           : null;
       });
     },
@@ -6067,22 +6140,22 @@
     8242: (e, t, n) => {
       "use strict";
       n.d(t, {
-        YL: () => F,
+        YL: () => H,
         d9: () => M,
         GV: () => A,
         VK: () => s,
-        ls: () => U,
-        uc: () => N,
-        Ei: () => O,
-        Xp: () => L,
-        TB: () => H,
-        U5: () => G,
-        t0: () => T,
-        D3: () => k,
-        U4: () => B,
-        wy: () => E,
-        hR: () => P,
-        vE: () => V,
+        ls: () => W,
+        uc: () => U,
+        Ei: () => x,
+        Xp: () => T,
+        TB: () => G,
+        U5: () => N,
+        t0: () => B,
+        D3: () => E,
+        U4: () => I,
+        wy: () => L,
+        hR: () => D,
+        vE: () => P,
       });
       var i,
         s,
@@ -6132,7 +6205,7 @@
             detents: void 0 !== s ? [s] : void 0,
           };
         return r.createElement(
-          B,
+          I,
           Object.assign(
             {
               renderValue: (t) => {
@@ -6199,7 +6272,7 @@
               });
               break;
             case "toggle":
-              t = r.createElement(E, {
+              t = r.createElement(L, {
                 key: e.name,
                 name: e.name,
                 swapOnOff: e.inverted,
@@ -6216,7 +6289,7 @@
                   value: e.value,
                   sLabel: (0, l.Xx)(e.label),
                 }));
-              t = r.createElement(L, {
+              t = r.createElement(T, {
                 key: e.name,
                 name: e.name,
                 label: e.label ? (0, l.Xx)(e.label) : "",
@@ -6231,7 +6304,7 @@
                   value: e.value,
                   sLabel: (0, l.Xx)(e.label),
                 }));
-              t = r.createElement(T, {
+              t = r.createElement(B, {
                 key: e.name,
                 name: e.name,
                 label: e.label ? (0, l.Xx)(e.label) : "",
@@ -6245,6 +6318,14 @@
               break;
             case "slider":
               t = r.createElement(w, Object.assign({ key: e.name }, e));
+              break;
+            case "label":
+              t = r.createElement(k, {
+                key: e.name,
+                name: e.name,
+                label: e.label ? (0, l.Xx)(e.label) : "",
+                title: e.text ? (0, l.Xx)(e.text) : "",
+              });
           }
           return (
             e.advanced_only &&
@@ -6360,6 +6441,26 @@
       (0, o.gn)([a.ak], R.prototype, "handleChange", null),
         (R = (0, o.gn)([d.Pi], R));
       let k = class extends r.Component {
+        constructor(e) {
+          super(e);
+        }
+        handleChange(e) {}
+        render() {
+          let e = u.G3.settings.get(this.props.name);
+          return r.createElement(
+            A,
+            {
+              className: (0, g.LJ)("SettingsItem", "RadioButtons"),
+              title: this.props.title,
+            },
+            r.createElement("div", { className: "Label" }, this.props.label),
+            r.createElement("div", { className: "RadioButtonsSet" }, e)
+          );
+        }
+      };
+      (0, o.gn)([a.ak], k.prototype, "handleChange", null),
+        (k = (0, o.gn)([d.Pi], k));
+      let E = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -6503,12 +6604,12 @@
           );
         }
       };
-      (0, o.gn)([a.ak], k.prototype, "onGroupMouseEnter", null),
-        (0, o.gn)([a.ak], k.prototype, "onGroupMouseLeave", null),
-        (0, o.gn)([a.ak], k.prototype, "onOptionMouseEnter", null),
-        (0, o.gn)([a.ak], k.prototype, "onOptionMouseLeave", null),
-        (k = (0, o.gn)([d.Pi], k));
-      let E = class extends r.Component {
+      (0, o.gn)([a.ak], E.prototype, "onGroupMouseEnter", null),
+        (0, o.gn)([a.ak], E.prototype, "onGroupMouseLeave", null),
+        (0, o.gn)([a.ak], E.prototype, "onOptionMouseEnter", null),
+        (0, o.gn)([a.ak], E.prototype, "onOptionMouseLeave", null),
+        (E = (0, o.gn)([d.Pi], E));
+      let L = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -6530,7 +6631,7 @@
           var e, t;
           const n = !!this.props.swapOnOff,
             i = !this.props.swapOnOff;
-          return r.createElement(k, {
+          return r.createElement(E, {
             name: this.props.name,
             label: this.props.label,
             title: this.props.title,
@@ -6564,8 +6665,8 @@
           });
         }
       };
-      E = (0, o.gn)([d.Pi], E);
-      let L = class extends r.Component {
+      L = (0, o.gn)([d.Pi], L);
+      let T = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -6631,10 +6732,10 @@
           );
         }
       };
-      (0, o.gn)([c.Fl], L.prototype, "value", null),
-        (0, o.gn)([a.ak], L.prototype, "onChange", null),
-        (L = (0, o.gn)([d.Pi], L));
-      let T = class extends r.Component {
+      (0, o.gn)([c.Fl], T.prototype, "value", null),
+        (0, o.gn)([a.ak], T.prototype, "onChange", null),
+        (T = (0, o.gn)([d.Pi], T));
+      let B = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -6683,10 +6784,10 @@
           );
         }
       };
-      (0, o.gn)([c.Fl], T.prototype, "value", null),
-        (0, o.gn)([a.ak], T.prototype, "onChange", null),
-        (T = (0, o.gn)([d.Pi], T));
-      let B = class extends r.Component {
+      (0, o.gn)([c.Fl], B.prototype, "value", null),
+        (0, o.gn)([a.ak], B.prototype, "onChange", null),
+        (B = (0, o.gn)([d.Pi], B));
+      let I = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -6767,7 +6868,7 @@
           );
         }
       };
-      function I(e) {
+      function V(e) {
         return (
           "#" +
           ("0" + Math.floor(e.r).toString(16)).slice(-2) +
@@ -6776,12 +6877,12 @@
           ("0" + Math.floor(255 * e.a).toString(16)).slice(-2)
         ).toUpperCase();
       }
-      (0, o.gn)([a.ak], B.prototype, "onInteractionStart", null),
-        (0, o.gn)([a.ak], B.prototype, "onInteractionEnd", null),
-        (0, o.gn)([c.Fl], B.prototype, "value", null),
-        (0, o.gn)([a.ak], B.prototype, "onChange", null),
-        (B = (0, o.gn)([d.Pi], B));
-      let V = (i = class extends r.Component {
+      (0, o.gn)([a.ak], I.prototype, "onInteractionStart", null),
+        (0, o.gn)([a.ak], I.prototype, "onInteractionEnd", null),
+        (0, o.gn)([c.Fl], I.prototype, "value", null),
+        (0, o.gn)([a.ak], I.prototype, "onChange", null),
+        (I = (0, o.gn)([d.Pi], I));
+      let P = (i = class extends r.Component {
         static HueToRGB(e, t, n) {
           return 6 * (n = (n + 1) % 1) < 1
             ? e + (t - e) * n * 6
@@ -6856,7 +6957,7 @@
           const s = i.RGBtoHueLuminance(e, t, n),
             o = 360 / (1 - i.WHITE_SIZE_PERCENT),
             a = 255 == e && 255 == t && 255 == n ? o : s.hue;
-          return r.createElement(B, {
+          return r.createElement(I, {
             additionalClassName: "Hue",
             label: this.props.label,
             labelSpans: !0,
@@ -6870,10 +6971,10 @@
           });
         }
       });
-      (V.WHITE_SIZE_PERCENT = 0.03),
-        (0, o.gn)([a.ak], V.prototype, "onSliderChanged", null),
-        (V = i = (0, o.gn)([d.Pi], V));
-      let P = class extends r.Component {
+      (P.WHITE_SIZE_PERCENT = 0.03),
+        (0, o.gn)([a.ak], P.prototype, "onSliderChanged", null),
+        (P = i = (0, o.gn)([d.Pi], P));
+      let D = class extends r.Component {
         get value() {
           return this.props.name
             ? u.G3.settings.get(this.props.name)
@@ -6887,7 +6988,7 @@
           const e = this.props.color
             ? this.props.color
             : { r: 255, g: 255, b: 255 };
-          return r.createElement(B, {
+          return r.createElement(I, {
             additionalClassName: "Alpha",
             label: this.props.label,
             title: this.props.text,
@@ -6909,11 +7010,11 @@
           });
         }
       };
-      (0, o.gn)([c.Fl], P.prototype, "value", null),
-        (0, o.gn)([a.ak], P.prototype, "onSliderChanged", null),
-        (P = (0, o.gn)([d.Pi], P));
-      let D,
-        O = class extends r.Component {
+      (0, o.gn)([c.Fl], D.prototype, "value", null),
+        (0, o.gn)([a.ak], D.prototype, "onSliderChanged", null),
+        (D = (0, o.gn)([d.Pi], D));
+      let O,
+        x = class extends r.Component {
           constructor(e) {
             super(e), (this.state = { bShowingModal: !1 });
           }
@@ -6952,7 +7053,7 @@
           onAlphaChange(e) {
             const t = this.value,
               n = { r: t.r, g: t.g, b: t.b, a: e };
-            this.props.name && u.G3.SetSettingsValue(this.props.name, I(n)),
+            this.props.name && u.G3.SetSettingsValue(this.props.name, V(n)),
               this.props.nameA &&
                 u.G3.SetSettingsValue(this.props.nameA, e * this.alphaScale),
               this.props.onChange && this.props.onChange(n);
@@ -6965,7 +7066,7 @@
           }
           onColorChange(e) {
             const t = { r: e.r, g: e.g, b: e.b, a: this.value.a };
-            this.props.name && u.G3.SetSettingsValue(this.props.name, I(t)),
+            this.props.name && u.G3.SetSettingsValue(this.props.name, V(t)),
               this.props.nameR && u.G3.SetSettingsValue(this.props.nameR, t.r),
               this.props.nameG && u.G3.SetSettingsValue(this.props.nameG, t.g),
               this.props.nameB && u.G3.SetSettingsValue(this.props.nameB, t.b),
@@ -7001,17 +7102,17 @@
               }),
               this.state.bShowingModal &&
                 r.createElement(
-                  H,
+                  G,
                   {
                     onDismissRequested: this.hideModal,
                     header: this.props.label,
                   },
-                  r.createElement(V, {
+                  r.createElement(P, {
                     label: (0, l.Xx)("#Settings_Chaperone_BoundsColor"),
                     onChange: this.onColorChange,
                     value: e,
                   }),
-                  r.createElement(P, {
+                  r.createElement(D, {
                     label: (0, l.Xx)("#Settings_Chaperone_BoundsTransparency"),
                     min: this.minA,
                     max: this.maxA,
@@ -7023,16 +7124,16 @@
             );
           }
         };
-      (0, o.gn)([c.Fl], O.prototype, "value", null),
-        (0, o.gn)([c.Fl], O.prototype, "alphaScale", null),
-        (0, o.gn)([a.ak], O.prototype, "onAlphaChange", null),
-        (0, o.gn)([c.Fl], O.prototype, "minA", null),
-        (0, o.gn)([c.Fl], O.prototype, "maxA", null),
-        (0, o.gn)([a.ak], O.prototype, "onColorChange", null),
-        (0, o.gn)([a.ak], O.prototype, "showModal", null),
-        (0, o.gn)([a.ak], O.prototype, "hideModal", null),
-        (O = (0, o.gn)([d.Pi], O));
-      class x {
+      (0, o.gn)([c.Fl], x.prototype, "value", null),
+        (0, o.gn)([c.Fl], x.prototype, "alphaScale", null),
+        (0, o.gn)([a.ak], x.prototype, "onAlphaChange", null),
+        (0, o.gn)([c.Fl], x.prototype, "minA", null),
+        (0, o.gn)([c.Fl], x.prototype, "maxA", null),
+        (0, o.gn)([a.ak], x.prototype, "onColorChange", null),
+        (0, o.gn)([a.ak], x.prototype, "showModal", null),
+        (0, o.gn)([a.ak], x.prototype, "hideModal", null),
+        (x = (0, o.gn)([d.Pi], x));
+      class F {
         constructor() {
           (this.m_sceneApplicationStateChangedEventHandle = null),
             (this.m_mapSelectedAppKeys = {}),
@@ -7079,17 +7180,17 @@
             }));
         }
       }
-      (0, o.gn)([c.LO], x.prototype, "runningAppKey", void 0),
-        (0, o.gn)([a.ak], x.prototype, "onSceneApplicationStateChanged", null);
-      class F extends r.Component {
+      (0, o.gn)([c.LO], F.prototype, "runningAppKey", void 0),
+        (0, o.gn)([a.ak], F.prototype, "onSceneApplicationStateChanged", null);
+      class H extends r.Component {
         constructor(e) {
-          D || (D = new x()), super(e), (this.state = { currentApp: null });
+          O || (O = new F()), super(e), (this.state = { currentApp: null });
         }
         componentDidMount() {
-          D.register(this.props.stateKey, this.onSceneApplicationStateChanged);
+          O.register(this.props.stateKey, this.onSceneApplicationStateChanged);
         }
         componentWillUnmount() {
-          D.unregister(this.props.stateKey);
+          O.unregister(this.props.stateKey);
         }
         onSceneApplicationStateChanged(e) {
           var t, n;
@@ -7142,15 +7243,15 @@
                   });
             }
           const n = (e) =>
-              e.value == D.runningAppKey ||
+              e.value == O.runningAppKey ||
               "openvr.component.vrcompositor" == e.value,
             i = e.filter(n),
             s = e.filter((e) => !n(e));
           return (
             i.sort((e, t) =>
-              e.value == D.runningAppKey
+              e.value == O.runningAppKey
                 ? -1
-                : t.value == D.runningAppKey
+                : t.value == O.runningAppKey
                 ? 1
                 : "openvr.component.vrcompositor" == e.value
                 ? -1
@@ -7167,12 +7268,12 @@
           );
         }
         onControllerDropdownChanged(e) {
-          D.setAppKey(this.props.stateKey, e), this.setCurrentApp(e);
+          O.setAppKey(this.props.stateKey, e), this.setCurrentApp(e);
         }
         render() {
           const e = this.makeAppChoiceList(),
             t = this.state.currentApp ? this.state.currentApp.key : null;
-          return r.createElement(L, {
+          return r.createElement(T, {
             label: this.props.label,
             items: e,
             value: t,
@@ -7184,9 +7285,9 @@
           });
         }
       }
-      (0, o.gn)([a.ak], F.prototype, "onSceneApplicationStateChanged", null),
-        (0, o.gn)([a.ak], F.prototype, "onControllerDropdownChanged", null);
-      const H = (e) => {
+      (0, o.gn)([a.ak], H.prototype, "onSceneApplicationStateChanged", null),
+        (0, o.gn)([a.ak], H.prototype, "onControllerDropdownChanged", null);
+      const G = (e) => {
           let t = Object.assign({}, e),
             n = t.header;
           "string" == typeof n && (n = r.createElement("h1", null, n));
@@ -7195,7 +7296,7 @@
             (i = r.createElement("div", { className: "Label" }, i));
           let s = t.footer;
           void 0 === s &&
-            (s = r.createElement(G, {
+            (s = r.createElement(N, {
               onDismissRequested: t.onDismissRequested,
             }));
           const o = t.allowableParentSelectors || [];
@@ -7228,7 +7329,7 @@
             )
           );
         },
-        G = (e) => {
+        N = (e) => {
           let t = e.leftControls ? e.leftControls : [];
           e.showResetButton &&
             t.push(
@@ -7263,15 +7364,15 @@
             n
           );
         };
-      var N;
+      var U;
       !(function (e) {
         e[(e.PopOut = 0)] = "PopOut";
-      })(N || (N = {}));
-      const U = (e) => {
+      })(U || (U = {}));
+      const W = (e) => {
         let t = null;
         return (
           void 0 !== e.icon &&
-            e.icon === N.PopOut &&
+            e.icon === U.PopOut &&
             (t = r.createElement(f.u, { className: "Icon" })),
           r.createElement(
             m.z,
@@ -12327,23 +12428,28 @@
       "use strict";
       n.d(t, {
         A4: () => v,
-        Av: () => se,
+        Av: () => ie,
         Az: () => _,
-        BW: () => ee,
+        BW: () => Y,
         BZ: () => T,
         EL: () => X,
-        Ek: () => te,
-        FM: () => re,
+        Ek: () => ee,
+        FM: () => oe,
         GN: () => S,
         I8: () => o,
+        J9: () => ce,
         MI: () => l,
+        MJ: () => ue,
+        ML: () => pe,
         MZ: () => y,
-        Ml: () => ae,
+        Ml: () => he,
+        N9: () => ae,
         O5: () => c,
         PF: () => u,
         Pt: () => P,
         Pv: () => s,
         Qg: () => O,
+        R3: () => re,
         RD: () => z,
         RM: () => f,
         T2: () => R,
@@ -12356,6 +12462,7 @@
         Y8: () => M,
         ZO: () => Q,
         aT: () => U,
+        bU: () => de,
         bp: () => j,
         bt: () => G,
         dG: () => x,
@@ -12363,26 +12470,26 @@
         f$: () => F,
         f8: () => b,
         fY: () => K,
-        fj: () => oe,
+        fj: () => se,
         gB: () => p,
         gC: () => C,
         hK: () => i,
         jW: () => a,
         je: () => H,
         jw: () => B,
-        k_: () => ie,
+        k_: () => ne,
         ml: () => V,
         nf: () => Z,
-        o1: () => J,
-        oO: () => Y,
+        o1: () => $,
         oh: () => W,
         r4: () => m,
         rl: () => L,
+        ro: () => le,
         v2: () => k,
         wB: () => d,
         wX: () => A,
-        y3: () => $,
-        yQ: () => ne,
+        y3: () => J,
+        yQ: () => te,
         zL: () => q,
       });
       const i = "openvr.tool.steamvr_environments",
@@ -12432,18 +12539,24 @@
         q = "/settings/driver_lighthouse/indexHmdColumnCorrection",
         K = "/settings/steamvr/showAdvancedSettings",
         Z = "/settings/dashboard/lastAccessedExternalOverlayKey",
-        $ = "/settings/internal/dashboardInitialOverlay",
-        J = "/settings/dashboard/position_2",
+        J = "/settings/internal/dashboardInitialOverlay",
+        $ = "/settings/dashboard/position_2",
         Q = /^(446|865)$/.test(n.j) ? null : "",
-        Y = /^(446|865)$/.test(n.j) ? null : "",
-        ee = "/settings/dashboard/disableAnimations",
-        te = "/settings/steamvr/overlayRenderQuality_2",
-        ne = "/settings/collisionBounds/CollisionBoundsFadeDistance",
-        ie = "/settings/camera/roomView",
-        se = "/settings/camera/enableCamera",
-        oe = "/settings/dashboard/enableWindowView",
-        re = "/settings/dashboard/maxInlineTabs",
-        ae = "binding_callouts/main";
+        Y = "/settings/dashboard/disableAnimations",
+        ee = "/settings/steamvr/overlayRenderQuality_2",
+        te = "/settings/collisionBounds/CollisionBoundsFadeDistance",
+        ne = "/settings/camera/roomView",
+        ie = "/settings/camera/enableCamera",
+        se = "/settings/dashboard/enableWindowView",
+        oe = "/settings/dashboard/maxInlineTabs",
+        re = "/settings/input/overlayFilteringEnabled",
+        ae = "/settings/input/overlayFilteringMinCutoff",
+        le = "/settings/input/overlayFilteringBeta",
+        ce = "/settings/input/overlayFilteringDerivCutoff",
+        de = "/settings/input/overlayMagnetismEnabled",
+        ue = "/settings/input/overlayMagnetismLockDistance",
+        pe = "/settings/input/overlayMagnetismDeadZone",
+        he = "binding_callouts/main";
     },
     5211: (e, t, n) => {
       "use strict";
@@ -16343,7 +16456,7 @@
         s = n(3884),
         o = n(7056),
         r = n(7176),
-        a = n(6539),
+        a = n(4940),
         l = n(9626);
       class c {
         constructor() {
@@ -17936,7 +18049,7 @@
         r = n.n(o),
         a = n(2188),
         l = n(3884),
-        c = n(6539),
+        c = n(4940),
         d = n(7176);
       const u = 16,
         p = 0.2,
@@ -18689,4 +18802,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=eb41021e549a3ce4b523
+//# sourceMappingURL=vrwebui_shared.js.map?v=9f862bc27807ea8077ad

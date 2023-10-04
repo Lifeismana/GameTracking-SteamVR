@@ -3115,6 +3115,7 @@
  t .L2157
  t .L2158
  t .L216
+ t .L217
  t .L218
  t .L219
  t .L2196
@@ -3189,7 +3190,7 @@
  t .L242
  t .L243
  t .L244
- t .L246
+ t .L245
  t .L247
  t .L248
  t .L249
@@ -3508,20 +3509,21 @@
  t .L3257
  t .L3258
  t .L3259
+ t .L326
  t .L3260
+ t .L327
  t .L3275
  t .L3276
  t .L3277
  t .L3278
  t .L3279
- t .L328
  t .L3280
  t .L3281
  t .L3282
  t .L3283
  t .L3284
- t .L329
  t .L33
+ t .L330
  t .L331
  t .L332
  t .L334
@@ -5341,7 +5343,7 @@
  t CVRAudioDevices::CVRAudioDevices()
  t CVRAudioDevices::DeserializeAudioDeviceInfo(std::string const&, std::string*, std::string*, unsigned short*, unsigned short*)
  t CVRAudioDevices::GetAudioDevices(std::vector<IVRAudioDevices::CVRAudioDeviceInfo, std::allocator<IVRAudioDevices::CVRAudioDeviceInfo> >&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceState)
- t CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&)
+ t CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&, bool)
  t CVRAudioDevices::GetDefaultAudioDevice(std::string&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceRole)
  t CVRAudioDevices::GetDeviceSoundVolume(std::string const&)
  t CVRAudioDevices::GetMasterMicrophoneVolume()

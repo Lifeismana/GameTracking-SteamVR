@@ -63,6 +63,7 @@
  sJE3
 !&.37<
 !(0)"
+!>mG0
 !hn7!
 " not found in the scene.
 """""""
@@ -85,6 +86,7 @@
 #D9c0t
 #D9{0t
 #oculus_requested_quit
+$2%2(G;W
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -204,9 +206,7 @@ $w!Hc
 )|$pf
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
-*ow}w
 *uXI;
-+D\cf
 +Xt@(
 +o'q)}
 , binary size = 
@@ -462,7 +462,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230927021434Z0/
+231004000700Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -497,6 +497,7 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8mN9|
 9C s.H
 9T$Pu9A
 9T$XJ
@@ -511,6 +512,7 @@ $w!Hc
 : one or more FS callback not set
 ; expected 
 ; last read: '
+;!>L.
 ;K sCH
 ;K sUH
 ;S sAH
@@ -529,7 +531,6 @@ $w!Hc
 =TADIt<=DNEI
 =rIQU
 >0<0:
->Fi5~
 >Mp$d
 >W`.]tB3?
 >ff&?
@@ -631,7 +632,6 @@ $w!Hc
 @A_A^_
 @HcQdH
 @LcqHD
-@Qyk/
 @SATAUAVAWH
 @SAUAVAWH
 @SAWH
@@ -1287,7 +1287,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS|%@
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1374,6 +1373,7 @@ TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
 Tp=9y>m0_D@H_
+TvD`	c
 U0H9U8t
 UATAUAVAWH
 UAVAWH
@@ -1452,9 +1452,11 @@ WinVerifyTrust
 X UVWH
 XA^^[]
 XXXX PNG chunk not known
+Y%2w;
 Y9"SD
 Z9k0tUD
 ZL$Xf
+ZnO.}
 [K]taM?
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -2147,6 +2149,7 @@ primitive indices accessor out of bounds
 primitives
 pt_br
 pt_pt
+p|OLC
 quest
 rND9{0t
 range
@@ -2414,6 +2417,7 @@ t[H+A
 target
 targets
 tb9l$Xt@9n$~;
+tbm"m
 tchinese
 tdh.dll
 teHcD$P

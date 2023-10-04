@@ -57,6 +57,7 @@
 (t$PL
 (unknown)
 )D$ L
+)`f[c
 )t$ H
 +Xt@(
 +o'q)}
@@ -157,13 +158,14 @@
 0x%llx (%lld): 
 0}0i1
 130801120000Z
+19'Y"
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-230927021506Z0/
+231004000735Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -187,7 +189,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-98sG Z	
 <0:08
 =rIQU
 >0<0:
@@ -322,6 +323,7 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
+BynzmO
 C0L9<
 CD$0D
 CD$0I
@@ -378,6 +380,7 @@ D$pE3
 D$pHcH
 D$xH+
 D$xI+
+D&T)r}
 D8|$AD
 D;l$0
 DeleteCriticalSection
@@ -414,6 +417,7 @@ FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
 GENERAL
+GQxcb
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -524,10 +528,8 @@ PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Py)|;
 Pz}b!
 QueryPerformanceCounter
-RSDS*
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -553,7 +555,6 @@ RuntimeManifestFile::FindManifestFiles - using environment variable override run
 RuntimeManifestFile::FindManifestFiles - using global runtime file 
 RuntimeManifestFile::FindManifestFiles - using registry-specified runtime file 
 S0Q0O
-S3kpE
 SA|X=G
 SOFTWARE\Khronos\OpenXR\
 SUAVAWH
@@ -591,6 +592,7 @@ Unknown error occurred calling down chain
 Unknown exception
 Unknown failure
 Unknown failure: 
+Utv5Htl?M
 V H+V
 V I9V(t L
 VATAUAVAWH
@@ -641,6 +643,7 @@ XR_EXT_debug_utils
 XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
+Y"(GJ!
 Y9"SD
 [K]taM?
 \$ I;]
@@ -736,6 +739,7 @@ collectComments
 d$ UAVAWH
 d$PE3
 d$`H=
+dP_~6
 deque<T> too long
 description
 disable_environment
@@ -807,7 +811,6 @@ l$pE3
 l$ptNH
 l$pu!H
 l2|X/gGe
-lR88;W
 labelInfo must be non-NULL
 layer 
 library_path
@@ -826,6 +829,8 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
+p{)\w
+qpBE,Oj
 rejectDupKeys
 runtime
 s t#fff
@@ -864,6 +869,7 @@ t9H9h
 tmfff
 ungetc
 unknown type in properties
+v,_$3 
 v=Y]Bv
 vector<T> too long
 verbose

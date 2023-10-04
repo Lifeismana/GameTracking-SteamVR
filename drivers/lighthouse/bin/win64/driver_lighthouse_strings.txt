@@ -163,7 +163,7 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
- ;=QA$
+ ;=AA$
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
@@ -235,7 +235,6 @@
  nohit=
  non-clustered hits
  nosplit=
- o"H\^
  of the Protocol Buffer runtime library, but the installed version is 
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
  of type 
@@ -901,7 +900,6 @@ $w!Hc
 ,9k0t%H
 ,9{0t%H
 ,W5y+
-,p"\"
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
 ----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
 ----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
@@ -1241,7 +1239,6 @@ $w!Hc
 .xdata
 .xdata$x
 /1v]H
-/5\H	
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1400,7 +1397,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-230927021334Z0/
+231004000551Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1421,7 +1418,6 @@ $w!Hc
 42HcF,
 4Pole
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5*1bXO
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -1471,6 +1467,7 @@ $w!Hc
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8s4A;X u.
+9=pA$
 9APuC
 9ApuM
 9AtuB
@@ -1689,6 +1686,7 @@ $w!Hc
 ?HcC,H
 ?Nbp?
 ?UUUUUU
+?U|~n
 ?VUUUUU
 ?Xb&<
 ?Zero@Intrinsics@ST@@SA?BU12@XZ
@@ -1845,6 +1843,7 @@ $w!Hc
 @A_A^A]A\_^]
 @A_A^A]_[
 @A_A^A]_^
+@A_A^A]_^][
 @A_A^^
 @A_A^_
 @A__]
@@ -2052,6 +2051,7 @@ A]A\]
 A]A\^
 A]A\_[]
 A]A\_^[]
+A]A\_^][
 A]^[]
 A]^[]H
 A]_[]
@@ -2093,7 +2093,6 @@ A_A]A\
 A_A]A\[]
 A_A]A\^[]
 A_A]A\_]
-A_A]A\_^
 A_A]A\_^[]
 A_A]A\_^]
 A_A]]
@@ -3490,7 +3489,7 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
-H9-a4!
+H9-Q4!
 H91u 
 H92u&
 H92u,
@@ -3566,8 +3565,9 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=0@
-H;=eD
+H;=%D
+H;=DB
+H;=SE
 H;Axt
 H;B0t
 H;C sAH
@@ -3720,6 +3720,7 @@ I(+K H
 I(9J(}
 I(I+I H
 I+G@H
+I1sISd?vz
 I9<$u
 I9A A
 I9B A
@@ -4142,7 +4143,6 @@ L9-$n(
 L9-%I(
 L9-%\(
 L9-*b(
-L9-+q&
 L9-5Z(
 L9-8l(
 L9-:S(
@@ -4150,13 +4150,13 @@ L9-;N(
 L9-Ah(
 L9-Bc(
 L9-CE(
+L9-Fr&
 L9-ID(
 L9-NK(
 L9-Np(
 L9-QO(
 L9-Qk(
 L9-T?(
-L9-Vr&
 L9-Y@(
 L9-_T(
 L9-_g(
@@ -4213,6 +4213,7 @@ L;l$P
 L;l$p
 L;t$P
 L;t$h
+L;|$ t
 L;|$8t
 L;|$`t
 L;|$h
@@ -4648,6 +4649,7 @@ SUATAVH
 SUVATAUH
 SUVAWH
 SUVWATAUAVAWH
+SUVWATAUH
 SUVWATAVH
 SUVWAUAVAWH
 SUVWAVH
@@ -4930,6 +4932,7 @@ UAUAVAWH
 UAVAWH
 UNKNOWN
 UNPLUGGED
+UR"}U
 USAGE: set_lenscal <device_json_path>
 USAGE: set_subpixel r_dx_pixels r_dy_pixels b_dx_pixels b_dy_pixels
 USATAUAWH
@@ -5187,6 +5190,7 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -5504,8 +5508,8 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5P6$
-Y5{/!
+Y5@6$
+Y5k/!
 Y9"SD
 Y?33s?
 YAHH+
@@ -6351,6 +6355,7 @@ hand_right_closeanim.glb
 hand_right_poses.glb
 handlers
 hardware_revision
+hczi%+
 hdcp14legacyCompatibility
 head_from_camera
 header crc mismatch
@@ -6900,7 +6905,6 @@ r,fff
 r/w0H
 r2max
 r2w	A
-r4tu]
 r6w%H
 r?'1(?
 rEyeFile:%s width:%d height:%d components:%d
@@ -7309,8 +7313,8 @@ t|C9D
 t|SUVH
 t}H9=
 t~L9=
-t~L9=7
-t~L9=X
+t~L9='
+t~L9=H
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -7373,7 +7377,7 @@ usbVID
 usePrism
 usedisambiguation
 userdata
-u{L9=1
+u{L9=!
 v(M;l
 v9fff
 v=Y]Bv
@@ -7899,7 +7903,7 @@ wrong submessage type
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-w{L9=>
+w{L9=.
 x ATAVAWH
 x AVH
 x UATAUAVAWH
@@ -7937,6 +7941,7 @@ zuusA
 {%s}%s
 {,	u#
 {8@8l$8t1
+{:-F\z
 {htc}
 {htc}/input/vive_controller_profile.json
 {htc}/input/vive_pro_profile.json
@@ -8094,6 +8099,7 @@ zuusA
 }Ufff
 }`H+}XH
 }o;Dr_
+}v$wE2
 ~'HcB
 ~+fff
 ~-HcK,H+

@@ -56,6 +56,7 @@
 !0E0R0[0
 !hn7!
 "0)0C0
+"g{T6 
 "j h4_
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
@@ -79,7 +80,9 @@ $Vh&*
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
+({?g5
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
++ FZa
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -708,7 +711,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-230927021149Z0/
+231004000351Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -733,6 +736,7 @@ $Vh&*
 2J2T2Z2j2
 2K3U3[3{3
 2S2m2
+2Tbi<
 2`4e4m4~4
 2d3h3l3p3t3x3|3
 2e3v3f4
@@ -1003,6 +1007,7 @@ $Vh&*
 8%8<8v8
 8&989
 8&:8:
+8'#us
 8(8,888<8H8L8X8\8h8l8
 8(80888@8H8P8X8`8h8p8x8
 8)818Q8
@@ -1180,6 +1185,7 @@ $Vh&*
 ;_;d;
 ;c<v<
 ;j;{;
+;y0ev
 <	=i=
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
@@ -1645,7 +1651,6 @@ DoScanContext
 DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
-Dxagj
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1750,7 +1755,6 @@ HeapFree
 IO_RESOURCES_UNAVAILABLE
 Identify
 IdentifyContext
-IgayR
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Indication
 Infinity
@@ -1787,7 +1791,6 @@ Line %d, Column %d
 LocalFree
 Looking for external adpater.
 Looking for internal adpater.
-M>xH|
 MB(iVR
 MSVCP140.dll
 MTU exchange request reply failed. (nrf_error: %s)
@@ -1909,7 +1912,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS{:vC#r
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1941,6 +1943,7 @@ Rejecting malformed advertisement report, address: %s name: %s
 ResetEvent
 Response: %s, %s
 Restart:  %s
+S/A0/
 S0Q0O
 S9~@u
 SA|X=G
@@ -2054,7 +2057,6 @@ VENDOR_SPECIFIC
 VID_%04X
 VID_1366
 VQPhTS
-V[BoUA
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -2126,7 +2128,6 @@ _Mtx_init
 _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock
-_Q;HTjF
 _Strcoll
 _Strxfrm
 _Thrd_id
@@ -2224,7 +2225,6 @@ f=cku7
 false
 file error
 floor
-g5[Iu
 generic
 gfffVW3
 graph
@@ -2484,7 +2484,6 @@ x5t7j
 xdigit
 y4_^[
 {L?uI
-{PK+xy
 {un'%
 |Lu?c
 |cj#h

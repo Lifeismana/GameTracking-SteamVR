@@ -39,7 +39,7 @@
               console.log(
                 "Connecting vrmailbox " + this.m_sMailboxName + "..."
               );
-              let r = "ws://localhost:27062";
+              let r = "ws://127.0.0.1:27062";
               this.m_sWebSecret && (r += "?secret=" + this.m_sWebSecret),
                 (this.m_fnConnectResolve = e),
                 (this.m_wsWebSocketToServer = new WebSocket(r)),
@@ -2710,4 +2710,4 @@
   var o = i.O(void 0, [968, 683], () => i(4603));
   o = i.O(o);
 })();
-//# sourceMappingURL=scenegraphtest.js.map?v=393cfabc1eeecc894fd4
+//# sourceMappingURL=scenegraphtest.js.map?v=e52f20e24d6397a79688

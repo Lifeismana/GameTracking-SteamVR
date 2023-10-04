@@ -8,7 +8,6 @@
 	!s99
 	<bu 
 	@81t/@8q
-	y't[
  !"#$%&'
  !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
  %41g
@@ -106,6 +105,7 @@
 (t$PH
 (t$`M
 )D$ L
+)kYie8=
 )t$@H
 )t$PA
 *uXI;
@@ -229,7 +229,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-230927021216Z0/
+231004000434Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -264,7 +264,6 @@
 ::LHB::%4.4X %s
 :\u-L
 :\u6L
-;'U9V
 </u#H
 <0:08
 <= Exiting Context: (%.2f seconds)
@@ -784,7 +783,6 @@ Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
 O(H9N(|
-OOux.,
 OXL9OPt
 OpenProcess
 Out of thread local storage!
@@ -809,7 +807,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSpDo
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1179,6 +1176,7 @@ gfffffffM
 graph
 hA\_^[
 hA_A^A]A\^[
+hM/A>
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -1238,12 +1236,15 @@ memmove
 memset
 need dictionary
 ntelD
+o8Uj-
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 p UWATAVAWH
 print
 punct
+q<S5r
+qT4,$
 r*=/N
 r9=/N
 realloc
@@ -1322,6 +1323,7 @@ v&=6N
 v=Y]Bv
 vector<T> too long
 vector<bool> too long
+vfo1S
 vivebtdriver.exe
 vivebtdriver_win10.exe
 vivelink-btver.txt

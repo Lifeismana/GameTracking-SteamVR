@@ -1100,6 +1100,7 @@ $tI
 .L2157
 .L2158
 .L216
+.L217
 .L218
 .L219
 .L2196
@@ -1174,7 +1175,7 @@ $tI
 .L242
 .L243
 .L244
-.L246
+.L245
 .L247
 .L248
 .L249
@@ -1493,20 +1494,21 @@ $tI
 .L3257
 .L3258
 .L3259
+.L326
 .L3260
+.L327
 .L3275
 .L3276
 .L3277
 .L3278
 .L3279
-.L328
 .L3280
 .L3281
 .L3282
 .L3283
 .L3284
-.L329
 .L33
+.L330
 .L331
 .L332
 .L334
@@ -2423,7 +2425,6 @@ $tI
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-02:10:30
 0A
 0x
 0x%08llx
@@ -2499,6 +2500,7 @@ $tI
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23
+23:57:54
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -3984,7 +3986,7 @@ CVRAudioDevices::AddNotify(IVRAudioNotification*)
 CVRAudioDevices::CVRAudioDevices()
 CVRAudioDevices::DeserializeAudioDeviceInfo(std::string const&, std::string*, std::string*, unsigned short*, unsigned short*)
 CVRAudioDevices::GetAudioDevices(std::vector<IVRAudioDevices::CVRAudioDeviceInfo, std::allocator<IVRAudioDevices::CVRAudioDeviceInfo> >&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceState)
-CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&)
+CVRAudioDevices::GetBestMatchingAudioDevice(IVRAudioDevices::CVRAudioDeviceInfo&, IVRAudioDevices::EAudioDeviceType, std::string const&, std::string const&, std::string const&, unsigned short, unsigned short, std::string const&, bool)
 CVRAudioDevices::GetDefaultAudioDevice(std::string&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceRole)
 CVRAudioDevices::GetDeviceSoundVolume(std::string const&)
 CVRAudioDevices::GetMasterMicrophoneVolume()
@@ -4331,6 +4333,7 @@ Driver Not Known (201)
 Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
 Driver runtime is out of date (204)
+Driver unable to initialize video encoder (499)
 DriverLog(char const*, ...)
 DriverLogString(char const*)
 DriverLogVarArgs(char const*, char*)
@@ -6018,6 +6021,7 @@ OTGT started
 OTGT timed out
 Object
 Oct
+Oct  3 2023
 October
 Ok
 Old Normal: %f %f %f
@@ -6406,7 +6410,6 @@ SelectVideoConfig: driver_lighthouse.forceSoloEdid=true
 Selected existing universe %llu (%08X is %s)
 Sent message id %u, received %u (%s). Rejecting response.
 Sep
-Sep 27 2023
 September
 SessionID
 Set column correction %f %d %f %d
@@ -7043,6 +7046,7 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate

@@ -2331,7 +2331,6 @@ $
 0-pixel image
 0123456789
 0123456789ABCDEF
-02:10:30
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -2571,6 +2570,7 @@ $
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:57:54
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -3267,8 +3267,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1859.370692
-C.1862.370703
+C.1859.370696
+C.1862.370707
 C.427.290275
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -5340,8 +5340,6 @@ CVRCVTrackedHmdInternal::CustomCommand(char const*, bool)
 CVRCVTrackedHmdInternal::CustomCommand(char const*, bool) [clone .cold]
 CVRCVTrackedHmdInternal::Init(IVRClientInternal*)
 CVRCVTrackedHmdInternal::Init(IVRClientInternal*) [clone .cold]
-CVRCVTrackedHmdInternal::IsDriverStateValid()
-CVRCVTrackedHmdInternal::IsDriverStateValid() [clone .cold]
 CVRCVTrackedHmdInternal::SendRequest(EVRCVTrackedHmdRequestType, RequestArguments_t, bool)
 CVRCVTrackedHmdInternal::SendRequest(EVRCVTrackedHmdRequestType, RequestArguments_t, bool) [clone .cold]
 CVRCVTrackedHmdInternal::~CVRCVTrackedHmdInternal()
@@ -16952,7 +16950,7 @@ ComputeBindingCachePath(std::string const&, std::string const&)
 ComputeBindingCachePath(std::string const&, std::string const&) [clone .cold]
 ComputeConeLineIntersection(vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, float, float*, float*)
 ComputeOverlayFromUV(OverlayTransformDetails_t const&, vr::HmdVector2_t const&)
-ComputeOverlayIntersectionInternal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, float*, vr::HmdVector2_t*, vr::HmdVector3_t*, vr::HmdVector3_t*)
+ComputeOverlayIntersectionInternal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, bool*, float*, vr::HmdVector2_t*, vr::HmdVector3_t*, vr::HmdVector3_t*)
 ComputeOverlayIntersectionNormal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&)
 ComputeOverlayIntersectionPoint(vr::HmdVector3_t const&, vr::HmdVector3_t const&, float)
 ComputePaddedSize(unsigned int)
@@ -17059,6 +17057,7 @@ Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
 Driver manager failed to start.
 Driver runtime is out of date (204)
+Driver unable to initialize video encoder (499)
 DriverCompare(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)
 DriverDirect_Acquired
 DriverDirect_NewFrame
@@ -22053,6 +22052,7 @@ OPAQUE
 OSWaitForDebugger()
 Object
 Oct
+Oct  3 2023
 October
 OculusSDKStart
 OldAppQuitSent
@@ -22365,10 +22365,10 @@ Prop_DistortionMeshResolution_Int32
 Prop_DoNotApplyPrediction_Bool
 Prop_DongleVersion_Uint64
 Prop_DriverDirectModeSendsVsyncEvents_Bool
+Prop_DriverDisplaysIPDChanges_Bool
 Prop_DriverIsDrawingControllers_Bool
 Prop_DriverProvidedChaperoneJson_String
 Prop_DriverProvidedChaperonePath_String
-Prop_DriverProvidedIPDVisibility_Bool
 Prop_DriverRequestedMuraCorrectionMode_Int32
 Prop_DriverRequestedMuraFeather_InnerBottom_Int32
 Prop_DriverRequestedMuraFeather_InnerLeft_Int32
@@ -22608,7 +22608,6 @@ Returning %s to Steam when asked about killing theater pancake process %u
 Returning AlreadyRunning because process %u is running for process %s
 Returning AlreadyRunning for LaunchDashboardOverlay %s because that is running as %u
 Returning AlreadyRunning for LaunchTemplateApplication %s -> %s  because that new key exists already
-Returning HmdNotFound because the client-side presence check failed.
 RightController
 Right_
 Ring Buffer Wrapped!
@@ -22675,7 +22674,6 @@ Sending focus captured event
 Sending focus released event
 Sent message id %u, received %u (%s). Rejecting response.
 Sep
-Sep 27 2023
 September
 Server
 Server could not create read event %s
@@ -22762,6 +22760,7 @@ SkeletalInputUtils::kFingerMetaCarpalBones
 SkeletalInputUtils::kFingerSplayPairs
 SkeletalInputUtils::kFingerTipBones
 Skin
+Skipping HMD presence checks.
 Skipping VRCompositor startup because of settings.
 Skipping VRDashboard startup because of settings.
 Skipping VRMonitor startup because of settings.
@@ -23709,6 +23708,7 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
+VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -24845,13 +24845,15 @@ Z
 [CMsaaResolveRenderer] Failed to create rasterizer state!
 [CMsaaResolveRenderer] Failed to create sampler state!
 [CMsaaResolveRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!
+[CVRCVTrackedHmdInternal] Driver inactive, request of type %d cannot be sent
 [CVRCVTrackedHmdInternal] Failed to set the new-request event (error code %d)
+[CVRCVTrackedHmdInternal] Failed to wait for the request to be processed (error code: %d).
 [CVRCVTrackedHmdInternal] Invalid application type.
-[CVRCVTrackedHmdInternal] Invalid driver state, we cannot send the request with type %d
+[CVRCVTrackedHmdInternal] Invalid driver state, we cannot send the request of type %d. (active:%d processing:%d valid seq:%d)
 [CVRCVTrackedHmdInternal] New-request event initialization failed
 [CVRCVTrackedHmdInternal] Request-processed event initialization failed
 [CVRCVTrackedHmdInternal] Shared state initialization failed
-[CVRCVTrackedHmdInternal] Timeout reached when waiting for the request to be processed (error code: %d)
+[CVRCVTrackedHmdInternal] Timeout reached when waiting for the request to be processed. The driver might have become unreachable.
 [Compatibility Mode] Could not get notification interface. %d
 [Compatibility Mode] Could not get overlay interface. %d
 [Compatibility Mode] Notification failed: %d
@@ -36662,7 +36664,7 @@ vrclient type=%s
 vrcombined_log.previous.txt
 vrcombined_log.txt
 vrcompositor
-vrcompositor-launcher
+vrcompositor-launcher.sh
 vrcompositor006
 vrcompositor007
 vrcompositor008

@@ -4059,8 +4059,8 @@
  puts
  putwc
  qsort
- r C.1859.370692
- r C.1862.370703
+ r C.1859.370696
+ r C.1862.370707
  r C.427.290275
  r CSWTCH.111
  r CSWTCH.214
@@ -9244,8 +9244,6 @@
  t CVRCVTrackedHmdInternal::CustomCommand(char const*, bool) [clone .cold]
  t CVRCVTrackedHmdInternal::Init(IVRClientInternal*)
  t CVRCVTrackedHmdInternal::Init(IVRClientInternal*) [clone .cold]
- t CVRCVTrackedHmdInternal::IsDriverStateValid()
- t CVRCVTrackedHmdInternal::IsDriverStateValid() [clone .cold]
  t CVRCVTrackedHmdInternal::SendRequest(EVRCVTrackedHmdRequestType, RequestArguments_t, bool)
  t CVRCVTrackedHmdInternal::SendRequest(EVRCVTrackedHmdRequestType, RequestArguments_t, bool) [clone .cold]
  t CVRCVTrackedHmdInternal::~CVRCVTrackedHmdInternal()
@@ -19580,7 +19578,7 @@
  t ComputeBindingCachePath(std::string const&, std::string const&) [clone .cold]
  t ComputeConeLineIntersection(vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, float, float*, float*)
  t ComputeOverlayFromUV(OverlayTransformDetails_t const&, vr::HmdVector2_t const&)
- t ComputeOverlayIntersectionInternal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, float*, vr::HmdVector2_t*, vr::HmdVector3_t*, vr::HmdVector3_t*)
+ t ComputeOverlayIntersectionInternal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, bool*, float*, vr::HmdVector2_t*, vr::HmdVector3_t*, vr::HmdVector3_t*)
  t ComputeOverlayIntersectionNormal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&)
  t ComputeOverlayIntersectionPoint(vr::HmdVector3_t const&, vr::HmdVector3_t const&, float)
  t ComputePaddedSize(unsigned int)

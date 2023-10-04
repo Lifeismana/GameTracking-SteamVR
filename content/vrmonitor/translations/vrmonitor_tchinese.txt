@@ -321,7 +321,7 @@
 "Settings_LockedModeCheck" "電腦鎖定時啟用頭戴顯示器"
 "Settings_LockedModeDesc" "工作站處於鎖定狀態時允許彩現至頭戴顯示器。"
 
-"Settings_Dashboard_Explanation" "該應用程式將能以內崁介面的形式在虛擬實境主控台中使用。"
+"Settings_Dashboard_Explanation" "該應用程式將能以內嵌介面的形式在虛擬實境主控台中使用。"
 "Settings_BaseStationsWakeUpAll" "喚醒所有定位器"
 "Settings_BaseStationsWakeUpAll_Explanation" "喚醒全部參與遠端電源管理的定位器。"
 "Settings_EnableScreenshots_Info" "按住系統鍵再扣下扳機即可擷圖"

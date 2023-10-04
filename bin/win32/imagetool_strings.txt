@@ -44,6 +44,7 @@
 	Cluster Threshold = %g
 	I'~:bI'
 	JqAl
+	SCAw
 	TAU;
 	Total Number of Clusters = %.20g
 	Weighting Exponent = %g
@@ -1586,7 +1587,6 @@
 "%.20g %.20g %.20g %.20g",
 "&)-159=A
 "'"U"
-"'?-M
 ",$6M
 "-sPDFPassword=%s" 
 "/#|>
@@ -2168,7 +2168,6 @@ $~O="""
 '<@!=9
 '>' required to close NOTATION declaration
 '@Ck1t
-'D$$5U
 'I'z'
 'Q?KVQ?
 '^{.f
@@ -2359,7 +2358,6 @@ $~O="""
 +;K[k{
 +<\t	</t
 +CHx5;Bp}0+{Lx+;zt}&WP
-+Ckk-
 +D$ H
 +D$ H;
 +D$ ]
@@ -3569,7 +3567,6 @@ $~O="""
 0.030T0
 0.131=1
 0.181=1i1n1}1
-0.9nQ
 0/-20.62/83.:3-92-80-91.80-80-7/,5-*4,)5-*5-*1-'1.'41*74-96/?:/F?3JB4LA2NB2UA2tD4
 0/0N0b1
 0/0U0
@@ -4331,8 +4328,8 @@ $~O="""
 22373K3o3
 223E3P3a3l3
 230714000000Z
-230927021256Z0/
 230x323
+231004000459Z0/
 23282G2L2e3
 23282R2W2q2v2
 232L2e2~2
@@ -5249,6 +5246,7 @@ $~O="""
 4rAVP
 4t6h 
 4w5|5-626
+4x!<u
 4x1:0,1,1,0
 4x3+1+1:-,1,1,0 -,1,1,- 0,1,1,-
 4x3+1+1:0,1,1,- -,1,1,- -,1,1,0
@@ -5849,6 +5847,7 @@ $~O="""
 6\7j8
 6]6b6
 6]7o7t7
+6_+om=
 6_7w7
 6`7n7
 6`8e8t8y8
@@ -6713,7 +6712,6 @@ $~O="""
 90:m:
 90`0n0
 90v6f
-917M=
 918x1296
 91969E9J9r9
 91989
@@ -16155,6 +16153,7 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS6}?
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -19789,7 +19788,6 @@ cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
 cK`x;
-cL5j<xZ/
 cache
 cache != NULL
 cache:%s
@@ -25864,7 +25862,6 @@ zt?"
 z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@/MD3iE4
 {*LOG(%s)
 {0;2O3
-{5d90
 {?a4{?
 {?o}'
 {?q |?

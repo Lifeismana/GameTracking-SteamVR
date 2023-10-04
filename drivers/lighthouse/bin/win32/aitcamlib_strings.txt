@@ -153,7 +153,6 @@ $9^ t
 13373F3J3Y3]3e4
 1F1V1`1e1o1
 1h3l3p3t3x3|3
-1qzjO
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
 2 2$2(2,202q2u2J3N3
 2 282H2L2\2`2p2t2|2
@@ -169,7 +168,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-230927021146Z0/
+231004000346Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -278,6 +277,7 @@ $9^ t
 9!:I:
 9"9'9,91969;9@9E9J9O9T9Y9^9c9h9m9r9w9|9
 9#9)9/999C9N9V9]9e9n9u9
+9-:BZ
 9.989B9R9]9~9
 949l9
 95:O:
@@ -321,6 +321,7 @@ $9^ t
 <_=r=
 <h=l=
 <o=#>y>
+<p[k13
 <unknown>
 =)=p=v=
 =,=L=l=
@@ -499,6 +500,7 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
+RSDSx
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -583,6 +585,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
+W	lI-"z!
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -710,8 +713,6 @@ can't merge dc and ac
 corrupt
 cs_cs
 czech
-d=!`+
-dQST	Ee
 da_da
 danish
 de_de
@@ -727,7 +728,6 @@ f;A*stSW
 fi_fi
 finnish
 first not IHDR
-fka/V
 fr_fr
 fread
 french
@@ -741,6 +741,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+i'+P5"~
 illegal code in raster
 invalid
 invalid PLTE
@@ -846,7 +847,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-zE	mg
+x,I4s
 zh_cn
 zh_tw
 zlib corrupt
