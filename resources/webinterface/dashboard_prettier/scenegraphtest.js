@@ -94,9 +94,11 @@
               this.OpenWebSocketToHost();
           }
           WebSocketSend(e) {
-            null != this.m_wsWebSocketToServer &&
+            return (
+              null != this.m_wsWebSocketToServer &&
               1 == this.m_wsWebSocketToServer.readyState &&
-              this.m_wsWebSocketToServer.send(e);
+              (this.m_wsWebSocketToServer.send(e), !0)
+            );
           }
           OnWebSocketMessage(e) {
             let t = JSON.parse(e.data),
@@ -124,7 +126,9 @@
             this.m_oHandlers[e] = t;
           }
           SendMessage(e, t) {
-            this.WebSocketSend("mailbox_send " + e + " " + JSON.stringify(t));
+            return this.WebSocketSend(
+              "mailbox_send " + e + " " + JSON.stringify(t)
+            );
           }
           WaitForMessage(e, t) {
             return new Promise((r, i) => {
@@ -2710,4 +2714,4 @@
   var o = i.O(void 0, [968, 683], () => i(4603));
   o = i.O(o);
 })();
-//# sourceMappingURL=scenegraphtest.js.map?v=e52f20e24d6397a79688
+//# sourceMappingURL=scenegraphtest.js.map?v=66f704f0243129724a18

@@ -66,6 +66,7 @@
  H;\$Xu
  L;uX
  at line 
+ e	UyL
  failed to parse: 
  for action '
  for detail.
@@ -85,6 +86,7 @@
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !BIsChildRegistered( eType, pDeletable )
 !BIsLimitReachedForChildType( eType )
+!CGB;
 !GetFrameData( unCurFrameIndex - 2 ).BIsInUse()
 !IsInUse()
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
@@ -122,6 +124,7 @@
 #9i0t
 #?RADIANCE
 #?RGBE
+#B45S2n
 #CompatibilityMode_Notification
 #D9c0t
 #D9{0t
@@ -134,7 +137,7 @@
 #OriginString_Source
 $@/pose/
 $IL+Q
-$tI(knNX
+$tI(knN
 $u=Hi
 $u^Hi
 $w!Hc
@@ -254,7 +257,6 @@ $w!Hc
 %s: failed to create vulkan interop instace
 %s: failed to create vulkan resources
 %s: failed to determine D3D11 texture format
-%s: failed to determine typeless D3D11 texture format
 %s: failed to discard frame
 %s: failed to enable device extension: %s
 %s: failed to enable instance extension: %s
@@ -411,10 +413,8 @@ $w!Hc
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
 ()$^.*+?[]|\-{},:=!
-(-$q*
-(-K>*
+(-+W*
 (9Q|uWH
-(<CSxrHandTrackerEXT::LocateJoints
 (A\^][
 (A\_^[
 (A]_^[
@@ -727,6 +727,7 @@ $w!Hc
 .?AV<lambda_35f5edf565dd984f978d4d90ae4c73f1>@@
 .?AV<lambda_43c03a047d49e758a40605e26fe3997f>@@
 .?AV<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@
+.?AV<lambda_4e342024cbf6bd484ed43039ee2af7f6>@@
 .?AV<lambda_5cb07d87fbb143573f0e5b51176c2232>@@
 .?AV<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@
 .?AV<lambda_68c2e54811ffa0c51dc89d4c4c4aef46>@@
@@ -735,11 +736,11 @@ $w!Hc
 .?AV<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@
 .?AV<lambda_819d6e727c32014dc6eae969efe567db>@@
 .?AV<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@
-.?AV<lambda_8e64450c9dbb55a5cd0c88a0b3951108>@@
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
+.?AV<lambda_d2f8106b468992e032cdb40825390ee9>@@
 .?AV<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
 .?AV<lambda_ddfa7c035eae8da5c041d2f3e2b85a28>@@
@@ -923,6 +924,7 @@ $w!Hc
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_013@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_014@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_015@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_016@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -969,6 +971,7 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_35f5edf565dd984f978d4d90ae4c73f1>@@_N_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_43c03a047d49e758a40605e26fe3997f>@@_NPEBUXrActiveActionSetPrioritiesEXT@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@_NAEBUHmdVector3_t@vr@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4e342024cbf6bd484ed43039ee2af7f6>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5cb07d87fbb143573f0e5b51176c2232>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_68c2e54811ffa0c51dc89d4c4c4aef46>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateBoolean@@PEA_K@std@@
@@ -977,11 +980,11 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_819d6e727c32014dc6eae969efe567db>@@_NGGG@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@_NW4ETrackedDeviceClass@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_8e64450c9dbb55a5cd0c88a0b3951108>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d2f8106b468992e032cdb40825390ee9>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ddfa7c035eae8da5c041d2f3e2b85a28>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStatePose@@PEA_K@std@@
@@ -1439,6 +1442,7 @@ $w!Hc
 .?AVCVRSteamPrivate_013@@
 .?AVCVRSteamPrivate_014@@
 .?AVCVRSteamPrivate_015@@
+.?AVCVRSteamPrivate_016@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1559,7 +1563,7 @@ $w!Hc
 .?AVIVRSettings@vr@@
 .?AVIVRSettingsInternal@vr@@
 .?AVIVRSpatialAnchors@vr@@
-.?AVIVRSteamPrivate_016@vr@@
+.?AVIVRSteamPrivate_017@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -1679,7 +1683,7 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/5Ff!
+/5~k(
 /9{0t'H
 /a/click
 /a/touch
@@ -2054,14 +2058,13 @@ $w!Hc
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 130801120000Z
-1:wglGetCurrentContext() returned NULL.  No OpenGL context current.
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231004001128Z0/
+231007010937Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2129,7 +2132,6 @@ $w!Hc
 9T$XJ
 9X0vJfff
 9X0vK
-9\$0u
 9\u-H
 9\u4H
 9]pu2
@@ -2231,7 +2233,6 @@ $w!Hc
 ?/t6H
 ?/u3H
 ?/uqH
-?37lq
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -2501,7 +2502,6 @@ $w!Hc
 @WAUAWH
 @WAVAWH
 @WAVH
-@[Compositor Client] Flush (GL) - Begin
 @_RDATA
 @fff>fff>fff>fff>
 A ;G@t
@@ -2735,7 +2735,6 @@ B84/u
 B9T	$t
 B9T	$u
 B9T!$t
-BD9%~
 BINORMAL
 BITANGENT
 BMP RLE
@@ -2770,7 +2769,6 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
-C-&c)
 C0L9$
 C0L;E
 C0L;F
@@ -2900,6 +2898,7 @@ CSxrGraphicsBindingPrism::Init
 CSxrGraphicsBindingPrism::InitD3D11
 CSxrGraphicsBindingPrism::InitVulkan2
 CSxrHandTrackerEXT
+CSxrHandTrackerEXT::LocateJoints
 CSxrInstance
 CSxrInstance::CreateVulkanInstanceKHR: invalid createInfo parameters
 CSxrInstance::CreateVulkanInstanceKHR: invalid parameters
@@ -2922,19 +2921,19 @@ CSxrSession::ReadCachedActionState
 CSxrSpace
 CSxrSwapchainBase
 CSxrSwapchainBase::EndFrame
-CSxrSwapchainD3D11OpenVR::GetPresentableDepthTexture
 CSxrSwapchainD3D11OpenVR::GetPresentableTexture
-CSxrSwapchainD3D12OpenVR::GetPresentableDepthTexture
+CSxrSwapchainD3D11OpenVR::GetPresentableTextureHandle
 CSxrSwapchainD3D12OpenVR::GetPresentableTexture
+CSxrSwapchainD3D12OpenVR::GetPresentableTextureHandle
 CSxrSwapchainGLOpenVR::EndFrame
-CSxrSwapchainGLOpenVR::GetPresentableDepthTexture
 CSxrSwapchainGLOpenVR::GetPresentableTexture
+CSxrSwapchainGLOpenVR::GetPresentableTextureHandle
 CSxrSwapchainImageD3D11OpenVR
 CSxrSwapchainPrism::EnumerateSwapchainImages
 CSxrSwapchainPrism::Init
 CSxrSwapchainPrism::RegisterSwapchainImage
-CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture
+CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle
 CT$ H
 CT$ L
 CT$(L
@@ -3534,6 +3533,7 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
+D8%K:)
 D8,0u
 D8,8u
 D8/u0
@@ -3554,7 +3554,6 @@ D8wBt/H
 D8}gt$L
 D8}gu
 D8}guH
-D9%#E$
 D90uGH
 D989D9XH
 D9>u:H
@@ -3586,6 +3585,7 @@ D9{0t'H
 D9{0t?H
 D9{0tZD
 D9|$(fA
+D9}p~
 D;A8|
 D;A@|
 D;AP|
@@ -3703,6 +3703,7 @@ EVRSceneApplicationState_Waiting
 EXH9EP
 EXH9E`t
 E_H9U
+E`+Ep
 E`A9E|r
 EgH9Q@t
 EgH9S@t
@@ -4171,7 +4172,10 @@ H9+t2H
 H9/t	H
 H93t	H
 H948t
+H958L>
+H95zN>
 H98t	H
+H9=#T>
 H9A H
 H9APt M
 H9A`u}f
@@ -4234,16 +4238,9 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;= c)
-H;=*M!
-H;=*q!
-H;=:r!
-H;=JH!
-H;=ZQ!
-H;=Zg!
-H;=j:!
-H;=zF!
-H;=zo!
+H;=:W!
+H;=Z3!
+H;=jw!
 H;A s
 H;Axt
 H;C(v
@@ -4643,6 +4640,7 @@ IVRSteamPrivate_013
 IVRSteamPrivate_014
 IVRSteamPrivate_015
 IVRSteamPrivate_016
+IVRSteamPrivate_017
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID
@@ -4681,7 +4679,6 @@ IVRTrackedCamera_005
 IVRTrackedCamera_006
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
-IVRVirtualDisplay_002
 IVRWatchdogHost_
 IVRWatchdogHost_001
 IVRWatchdogHost_002
@@ -4759,11 +4756,11 @@ Invalid target queue mode during image transition: %d
 Invalid texture bounds( %f, %f, %f, %f ) from application
 Invalid type in  '
 IsDebuggerPresent
-IsDepthFormat( d3dFormat )
-IsDepthFormat( eTextureFormatConcrete )
 IsDepthFormat( eVkFormat )
 IsDepthFormat( nTextureFormat )
 IsDepthFormat(eVkFormat)
+IsDepthFormatDXGI( d3dFormat )
+IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 IsValid( pSxrStruct )
 IsValidSid
@@ -4977,6 +4974,7 @@ L9v viI
 L9v8ukH
 L9whH
 L9x s
+L9{(t
 L9{0t^H
 L9|$0t
 L9|$0trH
@@ -4984,7 +4982,6 @@ L9|$P
 L9|$Pt
 L9|$`
 L9|$p
-L9}(t
 L;8u6H
 L;8u7H
 L;8u9H
@@ -5065,7 +5062,6 @@ M+HPI
 M8I;E
 M9 t13
 M98u/
-M99u@3
 M99uJ3
 M9<$vW
 M9H s
@@ -5087,8 +5083,9 @@ M9x`t
 M9xht
 M9xpt
 M9|$0
+M9|$0u
+M9|$8
 M9|$8t
-M9|$8tOH
 M;<$r
 M;A r
 M;C(s
@@ -5097,7 +5094,6 @@ M;H s
 MB(iVR
 MHH9uPt
 ML$hH
-MLO)K
 MSVCP140.dll
 MS_:F
 MT$dA
@@ -5458,7 +5454,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSt
+RSDSm
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5788,7 +5784,6 @@ T$xH+
 T$xH;
 T$xL+
 T$xL;
-T>"1r
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -5881,6 +5876,7 @@ UAVAWH
 UDH;G
 UNKNOWN_ERROR
 UNNAMED
+UQZIZ
 USATAUAVAWH
 USATAUAWH
 USATAUH
@@ -5943,7 +5939,6 @@ UVWAUH
 UVWAVAWH
 UWATAUAVAWH
 UWATAUAVH
-UWATAUAWH
 UWATAVAWH
 UWATAVH
 UWATAWH
@@ -6092,6 +6087,7 @@ User Canceled Init (116)
 User Config Directory Invalid (107)
 Using physical device: %s
 UuidFromStringA
+Ux=}n
 V0H+V H
 V0H;C
 V@I9VHt
@@ -6750,7 +6746,6 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
-W%bx"
 W0H;C
 W4H;C
 W8H+W`I
@@ -6814,7 +6809,7 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
-X%\1*
+X%<J*
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7281,15 +7276,15 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%'4&
-Y51{!
-Y5]L#
+Y5X\"
+Y5^R"
+Y5aD"
 Y9"SD
+Y=3o#
 Y>t$7?*
 YL$8E
 Yl$ M
 Yl$4E
-YwrHc
 Z(uDH
 Z9k0tUD
 ZA<a`
@@ -7344,6 +7339,7 @@ ZvFailed to create fence %ls.
 [Compositor Client] Flush (D3D10) - End
 [Compositor Client] Flush (D3D11) - Begin
 [Compositor Client] Flush (D3D11) - End
+[Compositor Client] Flush (GL) - Begin
 [Compositor Client] Flush (GL) - End
 [Compositor Client] GetFrameTiming
 [Compositor Client] Large mismatch between render (%d) and simulation (%d) poses!
@@ -7649,7 +7645,6 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \10I;
-\5&j"
 \\.\pipe\
 \mfpmp.exe
 \u=H;
@@ -7810,6 +7805,7 @@ _wstat64i32
 `node` field is missing in animation.channels.target
 `nodes' does not contain an JSON object.
 `output` field is missing in animation.sampler
+`p@SH
 `path` field is missing in animation.channels.target
 `sampler` field is missing in animation channels
 `samplers' does not contain an JSON object.
@@ -8053,6 +8049,7 @@ capsense
 capsense_enable_threshold
 capsense_source
 category
+ceB0z
 center
 center_click
 center_region
@@ -8100,6 +8097,7 @@ corrupt
 count
 create
 cs_cs
+cursor_index
 czech
 d$ E3
 d$ Mc
@@ -8596,7 +8594,6 @@ joystick_rotation_x
 joystick_rotation_y
 joystick_settings
 jsonid
-jx:Ml/j
 k0i0$
 k_EButton_A
 k_EButton_ApplicationMenu
@@ -8737,6 +8734,9 @@ m_pDevice
 m_pDevice == VK_NULL_HANDLE
 m_pInstance == VK_NULL_HANDLE
 m_pPhysicalDevice == VK_NULL_HANDLE
+m_pSyncTexture == nullptr
+m_pTextureIndex == nullptr
+m_pTextureIndexStaging == nullptr
 m_pendingLock.empty()
 m_pglTexImage3D( target, 0, nTextureFormat, unWidth, unHeight, unArraySize, 0, unTextureType, unDataType, pTextureData )
 m_pglTexStorage3D( GL_TEXTURE_2D_ARRAY, 1, nTextureFormat, unWidth, unHeight, unArraySize )
@@ -8940,6 +8940,7 @@ pSwapchain != nullptr
 pSystemLayerSharedState->IsValid()
 pSystemLayerState
 pTexture && pFlags
+pTextureHandle != nullptr
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
@@ -9018,7 +9019,6 @@ rendermodel
 rendermodels
 request_binding_callouts
 request_tutorial_callout
-requireHmd
 required_options
 requirement
 resolutionScale
@@ -9594,7 +9594,6 @@ t	D;y0s
 t	L90
 t	L99t
 t!I99u
-t!L98t
 t!LcD$hH
 t#fff
 t$ AVH
@@ -9704,7 +9703,7 @@ t1fff
 t3fff
 t4L9P
 t7fff
-t8D8-Q),
+t8D8-iG,
 t9fff
 t:fff
 t>H9n
@@ -9718,8 +9717,9 @@ tFH;Y r@H
 tFfff
 tHI9t$
 tJL;y rDH
+tK@8q<tEI
 tNI;X rHI
-tQH95w
+tQH95
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -9728,6 +9728,7 @@ tUL9l$ptNH
 tXH+A
 tXfff
 t[H+A
+taL98t\
 target
 targets
 tb9l$Xt@9n$~;
@@ -9757,7 +9758,6 @@ timeKillEvent
 timeSetEvent
 tlfff
 tmfff
-tnL99ti
 toggle_button
 toggle_camera_room_view
 tolower
@@ -9800,7 +9800,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=f
+t}H9=
 u	A;p(s
 u	A;y(s
 u	M;p(s
@@ -10454,6 +10454,7 @@ wglDXSetResourceShareHandleNV
 wglDXUnlockObjectsNV
 wglDXUnregisterObjectNV
 wglGetCurrentContext
+wglGetCurrentContext() returned NULL.  No OpenGL context current.
 wglGetProcAddress
 wglMakeCurrent
 wglMakeCurrent failed with 0x%X
@@ -10608,6 +10609,7 @@ yxxxxxxxH+
 yxxxxxxxI
 yxxxxxxxL
 yxxxxxxxL+
+z]eZu
 zh_cn
 zh_tw
 zlib corrupt
@@ -10681,7 +10683,6 @@ znear
 |$HI+
 |$HL+
 |$HL;
-|$Hff
 |$L!u
 |$L!u	
 |$L@8

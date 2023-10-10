@@ -416,6 +416,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Több infó"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=hungarian#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Képkódolási hiba"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Lehet, hogy frissítened kell számítógéped video-illesztőprogramját."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Több infó"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://help.steampowered.com/hu/faqs/view/153F-1B04-6CAB-43A1#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR hiba"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "A SteamVR nem tudott csatlakozni az Oculus alkalmazáshoz. Győződj meg róla, hogy a legújabb verzió van telepítve."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Látogasd meg az oculus.com oldalt"

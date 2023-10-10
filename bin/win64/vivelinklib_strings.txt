@@ -28,6 +28,7 @@
  A__^
  Error:
  H3E H3E
+ O^5G
  for detail.
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  t;A;
@@ -105,7 +106,6 @@
 (t$PH
 (t$`M
 )D$ L
-)kYie8=
 )t$@H
 )t$PA
 *uXI;
@@ -229,7 +229,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231004000434Z0/
+231007010255Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -479,6 +479,7 @@ CL$H3
 CL$PH
 CL$XH
 CL$pH
+CL2l>
 CMD=BASE_STATION_BS_BLE_FOTA
 CMD=BASE_STATION_BS_MCU_FOTA
 CONNECT -ADDR_TYPE %s -SV_TO 190 -CON_MIN 6 -CON_MAX 6 -T %X %s
@@ -801,6 +802,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 PipeInit
 Progress: %d%% (%d/%d)
 Pz}b!
+Q8c11
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -893,6 +895,7 @@ UWATAWH
 UWATH
 UWAVH
 UWAWH
+U]u]\
 UnhandledExceptionFilter
 Unknown
 Unknown DFU Extended Error (%d)
@@ -1052,6 +1055,7 @@ Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
+[M9GyH
 \$ UAVAWH
 \$ UH
 \$ UVWATAUH
@@ -1176,7 +1180,6 @@ gfffffffM
 graph
 hA\_^[
 hA_A^A]A\^[
-hM/A>
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -1236,15 +1239,13 @@ memmove
 memset
 need dictionary
 ntelD
-o8Uj-
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
+o|*N(
 p UWATAVAWH
 print
 punct
-q<S5r
-qT4,$
 r*=/N
 r9=/N
 realloc
@@ -1323,7 +1324,6 @@ v&=6N
 v=Y]Bv
 vector<T> too long
 vector<bool> too long
-vfo1S
 vivebtdriver.exe
 vivebtdriver_win10.exe
 vivelink-btver.txt

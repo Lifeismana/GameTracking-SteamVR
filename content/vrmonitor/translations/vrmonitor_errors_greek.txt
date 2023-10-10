@@ -414,6 +414,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Περισσότερες πληροφορίες"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=greek#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Σφάλμα κωδικοποιητή γραφικών"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Μπορεί να χρειάζεται να ενημερώσετε τους οδηγούς γραφικών του υπολογιστή σας"
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Περισσότερες πληροφορίες"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=greek#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Σφάλμα SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "To SteamVR δεν ήταν σε θέση να συνδεθεί στην εφαρμογή Oculus. Βεβαιωθείτε ότι έχετε την τελευταία έκδοση και δοκιμάστε ξανά."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Επισκεφθείτε το oculus.com"

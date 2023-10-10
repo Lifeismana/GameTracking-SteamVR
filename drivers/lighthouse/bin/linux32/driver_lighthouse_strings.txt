@@ -2425,6 +2425,7 @@ $tI
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+01:00:15
 0A
 0x
 0x%08llx
@@ -2500,7 +2501,6 @@ $tI
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23
-23:57:54
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -4648,7 +4648,6 @@ Failed to set thread %p priority: set failed for %d: %d: %s
 Failed to set thread priority: foreign thread unsupported
 Failed to set thread priority: scheduler init failed
 Failed to set thread priority: setschedparam failed %d: %d
-Failed to start OTGT
 Failed to start pairing on dongle %s
 Failed to submit create session ib
 Failed to submit destroy session ib
@@ -4992,6 +4991,8 @@ InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) [clone .cold]
 InitInternalCameraPassthroughInterface(std::function<void* (char const*)>)
 InitInternalClientInterfaces(std::function<void* (char const*)>)
+InitInternalClientInterfaces(std::function<void* (char const*)>) [clone .cold]
+InitInternalDriverDirectInterface(std::function<void* (char const*)>)
 InitInternalInterfaces(std::function<void* (char const*)>, bool)
 InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
 InitInternalInterfacesNonStandard(void* (*)(char const*))
@@ -6017,11 +6018,10 @@ O"
 OK
 OOTX Packet Dump -- len = %d
 OPAQUE
-OTGT started
 OTGT timed out
 Object
 Oct
-Oct  3 2023
+Oct  7 2023
 October
 Ok
 Old Normal: %f %f %f
@@ -6215,7 +6215,6 @@ Peripheral MCU %u
 PeripheralApplication
 PermissionDenied
 Persistent statistics file does not exist. Creating new %s
-Persistent statistics written to file %s
 Perspective camera description not found.
 PerspectiveCamera
 Pf
@@ -6613,8 +6612,10 @@ Stable
 Standby toggled
 Standby unknown hmd
 Start
+Start test failed
 StartVideoStream
 Started pairing dongle serial=%s timeout=%f
+Starting test
 StaticPoseMaker::CreatePose(CPoseRecipe&, unsigned char) const
 StaticPoseMaker::StaticPoseMaker(CKeyframedDataResource const*, int)
 StaticPoseMaker::~StaticPoseMaker()
@@ -6908,6 +6909,7 @@ Updated shift blue in pixels: %f %f
 Updated shift red in pixels:  %f %f
 Updated:  %f %f %f
 Updater
+Updating %s
 Updating additional system report data for %s
 Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g
 User
@@ -7467,7 +7469,6 @@ WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool)
 WriteTrackedDeviceConfigToFile(CTrackedDeviceConfig const&, char const*, bool) [clone .cold]
 WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&)
 WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&) [clone .cold]
-Writing persistent statistics to file %s
 X
 XDG_CONFIG_HOME
 Y
@@ -15400,6 +15401,7 @@ std::function<void (bool)>::~function()
 std::function<void (std::shared_ptr<vrcamera::IVRCameraFrame>)>::function<std::_Bind<void (CEtronCamera::*(CEtronCamera*, std::_Placeholder<1>))(std::shared_ptr<vrcamera::IVRCameraFrame>)>, void, void>(std::_Bind<void (CEtronCamera::*(CEtronCamera*, std::_Placeholder<1>))(std::shared_ptr<vrcamera::IVRCameraFrame>)>)
 std::function<void (vortex::ILighthouseDBListener*)> std::for_each<std::_List_iterator<vortex::ILighthouseDBListener*>, std::function<void (vortex::ILighthouseDBListener*)> >(std::_List_iterator<vortex::ILighthouseDBListener*>, std::_List_iterator<vortex::ILighthouseDBListener*>, std::function<void (vortex::ILighthouseDBListener*)>)
 std::function<void (vortex::ILighthouseDBListener*)>::function(std::function<void (vortex::ILighthouseDBListener*)> const&)
+std::function<void* (char const*)>::function(std::function<void* (char const*)> const&)
 std::get_catalogs()
 std::get_catalogs()::__catalogs
 std::get_new_handler()

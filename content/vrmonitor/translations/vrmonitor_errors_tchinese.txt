@@ -414,6 +414,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "更多資訊"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?l=traditional%20chinese&ref=8566-SDZC-9326#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "視訊編碼器錯誤"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "電腦的顯示卡驅動程式可能需要更新。"
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "更多資訊"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?l=traditional%20chinese&ref=8566-SDZC-9326#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR 錯誤"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR 無法連線至 Oculus 應用程式。請確認您已經安裝了最新的版本。"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "造訪 oculus.com"

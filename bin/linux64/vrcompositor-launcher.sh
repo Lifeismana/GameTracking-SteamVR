@@ -34,6 +34,7 @@ elif [[ "${ARCH}" == x86_64* ]]; then
     exec "$HOME/.steam/root/ubuntu12_32/steam-runtime/run.sh" "$0" "$@"
     # unreachable
 else
+    # unexpected
     log "No steam runtime detected, unknown arch ${ARCH} - continuing."
 fi
 

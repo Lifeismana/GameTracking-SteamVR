@@ -414,6 +414,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Mere info"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Fejl med videokodning"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Du skal muligvis opdatere din computers grafikdriver."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Flere oplysninger"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "SteamVR-fejl"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR kunne ikke oprette forbindelse til Oculus-appen. Kontrollér, at du har den seneste version installeret."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Besøg oculus.com"

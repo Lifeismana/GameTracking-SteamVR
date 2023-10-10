@@ -416,6 +416,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Více informací"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Chyba kódování obrazu"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Pravděpodobně budete muset aktualizovat ovladač grafické karty."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Více informací"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=czech#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Chyba režimu SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "Režimu SteamVR se nepodařilo připojit k aplikaci Oculus. Ujistěte se, že máte nainstalovanou její nejnovější verzi."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Přejít na oculus.com"

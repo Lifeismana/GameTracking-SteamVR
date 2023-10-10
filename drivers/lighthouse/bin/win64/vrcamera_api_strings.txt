@@ -348,6 +348,7 @@ $< t6<$t,<+t"<vt
 .tls$ZZZ
 .xdata
 .xdata$x
+/Sm7C
 0123456789-
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
@@ -378,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231004000422Z0/
+231007010243Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -390,12 +391,10 @@ $< t6<$t,<+t"<vt
 370322235959Z0c1
 380115120000Z0b1
 3A8A#
-3lfJ&
 3mq+<
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5`8	#1
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -926,7 +925,6 @@ FreeLibrary
 FreeLibraryAndExitThread
 FreeLibraryWhenCallbackReturns
 Friendly Name: 
-Fz|f+. 
 G$;G,
 G(9G u
 G,9G$u
@@ -1011,6 +1009,7 @@ H;\$H
 H;_Xt
 H;|$8u
 HHtfH
+H\E';
 H_^][
 Hc;HcK
 HcD$hH
@@ -1118,7 +1117,6 @@ PA_A^A]A\_^[
 PA_A^A]A\_^]
 PA__^[]
 PAq=?Mp#
-PesMRn`2
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryDepthSList
@@ -1126,7 +1124,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSF
+RSDS{
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1230,7 +1228,6 @@ UnregisterTraceGuids
 UnregisterWait
 UnregisterWaitEx
 UpdateProcThreadAttribute
-V0^c-
 VCRUNTIME140.dll
 VUD8oDu
 VWATAVAWH
@@ -1652,6 +1649,7 @@ u%!D$@H
 u&8_rt
 u)!t$(H
 u2A8D
+uD8l+
 uJL9J,u
 uY8\$ t
 ueA8F
@@ -1674,6 +1672,7 @@ vector<bool> too long
 version
 vrcamera_api.dll
 w(HcODI
+w*O+Qk?
 wcsnlen
 wcstoul
 wrong protocol type
@@ -1720,7 +1719,6 @@ yH;YXtl
 |$h9i
 |$h9w
 |$rfD
-|FjOVU+?J
 |Lu?c
 }LuHO
 ~`D8I!t-

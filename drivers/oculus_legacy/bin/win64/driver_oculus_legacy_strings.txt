@@ -6,9 +6,8 @@
  A__^
  H3E H3E
 !hn7!
-$Z[)b
 ',=?k
-';kjQ
+(.X*TK0
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -93,7 +92,7 @@ $Z[)b
 220323000000Z
 220801000000Z
 230714000000Z
-231004000703Z0/
+231007010519Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -106,6 +105,7 @@ $Z[)b
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5>T}E.V
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -123,12 +123,10 @@ $Z[)b
 9h u{H
 9l$Ht
 9l$pt
-;5wD)_
 ;K sCH
 ;K sUH
 ;k sAH
 ;k sDH
-;p+Q"
 <0:08
 =rIQU
 >0<0:
@@ -239,6 +237,7 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Jh0uK
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -260,7 +259,6 @@ MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 NPH9Q
-N|7|V
 OD$DH
 OVR Runtime Init
 OVRRuntimeWindowThread
@@ -299,6 +297,7 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+T}bh-o8
 UAVAWH
 USVWATAUH
 UWAVH
@@ -322,8 +321,10 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+WgME*bM
+X1bf]}
 Y9"SD
-[,K<1
+ZhA]y
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -332,7 +333,6 @@ Y9"SD
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
-]6=Zzgi
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -470,6 +470,7 @@ tXfff
 tdh.dll
 terminate
 tkH97t	H
+u..?0	
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
@@ -484,6 +485,7 @@ z(uMH
 {oculus_legacy}/icons/%s_%s_ready_alert.png
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
+{ou' 
 {un'%
 |$ AVH
 |$8I;

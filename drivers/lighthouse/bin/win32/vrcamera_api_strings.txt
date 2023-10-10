@@ -37,8 +37,10 @@ $_^[]
 %j+hD
 %m / %d / %y
 &1V6|:^<
+&@8g7
 ',=?k
 ()$^.*+?[]|\-{},:=!
+(*(T?
 (f*^[0
 +A Vj$
 +A$+Y
@@ -431,7 +433,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231004000342Z0/
+231007010223Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -460,6 +462,7 @@ $_^[]
 2c3p3
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2q#l\
 2x2v3
 3 3$34383<3D3\3l3p3
 3 3(30383@3H3P3X3`3h3p3x3
@@ -483,6 +486,7 @@ $_^[]
 311109235959Z0b1
 323<3V3`3v3
 333V3
+33m&M0
 341013235959Z0H1
 34484<4T4X4\4`4d4h4@5D5H5X5\5`5d5h5l5t5x5|5
 344|4
@@ -713,7 +717,6 @@ $_^[]
 8 838=8Q8y8
 8$8,848<8D8L8
 8$8,848<8D8L8T8\8d8l8t8|8
-8%*{7
 8%8,8T8\8i8r8}8
 8%8?8
 8&8<8
@@ -1215,6 +1218,7 @@ $_^[]
 A$+A 
 A(;A,v
 A0B;W
+A4).c
 AHPQVR
 AHkO($
 AcquireSRWLockExclusive
@@ -1418,6 +1422,7 @@ GxVPR
 H-^Eu
 HP;HL
 HPQVR
+HcZTz
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Index: 
 InitOnceExecuteOnce
@@ -1534,6 +1539,7 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
+UL>My
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
 Unhandled Exception while adding frame handler to video stream: 
@@ -1658,8 +1664,8 @@ _seh_filter_dll
 _unlock_file
 _unlock_locales
 _wcsdup
-`	+hZ
 `.rdata
+`XPI%
 a7hIw
 abort
 address family not supported
@@ -1836,6 +1842,7 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
+rsDkx3
 sDh|t
 setlocale
 setvbuf

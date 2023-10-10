@@ -7,7 +7,6 @@
 																																												
 	!s99
 	<bu 
-	=k[L&R9m=
 	@81t/@8q
    Driver Description: %s
    Driver Inf Path: %s
@@ -125,6 +124,8 @@
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
+,b-axJ8
+,yC[[
 -1e+9999
 -Infinity
 -external
@@ -633,7 +634,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231004000429Z0/
+231007010250Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -689,7 +690,6 @@
 <0:08
 <= Exiting Context: (%.2f seconds)
 <Bu'H
-<J=	%AP
 ======================
 ==============================
 => Entering Context
@@ -895,7 +895,6 @@ Attribute Discovery
 AuthD
 Authentication
 Authentication status failed. (auth_status: %s)
-BAKQK
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -1518,7 +1517,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS!6x
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1554,7 +1552,6 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
-S>|*yd
 SA|X=G
 SD RPC APP Status: %s, %s
 SD RPC Debug: %s
@@ -1586,7 +1583,6 @@ SYNC_RESP
 SYSTEM\CurrentControlSet\Enum\USB
 SYSTEM\CurrentControlSet\Enum\USB\VID_%s&PID_%s
 SYSTEM\CurrentControlSet\Enum\USB\VID_%s&PID_%s\%s
-Sa5_`K
 Scan Stopped. Scan state cleanup.
 Scan Timeout.
 Selecting Data Packet:
@@ -1844,7 +1840,6 @@ _strupr_s
 `.rdata
 `A_A^A\_^
 `A_A^_^]
-`AyrLr' 
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -2214,7 +2209,6 @@ xdigit
 |$pf;
 |$ps`H
 |Lu?c
-|wa{:
 }LuHO
 ~'HcB
 ~qj#k"

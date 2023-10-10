@@ -416,6 +416,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Xem thêm"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Lỗi mã hóa video"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Có thể bạn cần cập nhật driver đồ họa của máy tính."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Xem thêm"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=vietnamese#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Lỗi SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR không thể kết nối với ứng dụng Oculus. Vui lòng đảm bảo rằng bạn đã cài đặt phiên bản mới nhất."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Truy cập oculus.com"

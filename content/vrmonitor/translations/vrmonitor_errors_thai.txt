@@ -410,9 +410,14 @@
 "VRInitError_Compositor_FirmwareRequiresUpdate_ActionURL" "vrmonitor://firmwareupdate/?index=0"
 
 "VRInitError_Compositor_UnableToCreateDevice_Header" "ข้อผิดพลาดของกราฟิก SteamVR"
-"VRInitError_Compositor_UnableToCreateDevice_Description" "คุณอาจจำเป็นต้องอัปเดตไดรเวอร์กราฟิกสำหรับคอมพิวเตอร์ของคุณ"
+"VRInitError_Compositor_UnableToCreateDevice_Description" "คุณอาจจำเป็นต้องอัปเดตไดรเวอร์กราฟิกให้คอมพิวเตอร์ของคุณ"
 "VRInitError_Compositor_UnableToCreateDevice_Action" "ข้อมูลเพิ่มเติม"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326&l=thai#steamvr-issues"
+
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "ข้อผิดพลาดของตัวเข้ารหัสวิดีโอ"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "คุณอาจจำเป็นต้องอัปเดตไดรเวอร์กราฟิกให้คอมพิวเตอร์ของคุณ"
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "ข้อมูลเพิ่มเติม"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "ข้อผิดพลาดของ SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR ไม่สามารถเชื่อมต่อไปยังแอป Oculus ได้ กรุณาตรวจสอบให้แน่ใจว่าคุณมีการติดตั้งเป็นเวอร์ชันล่าสุดแล้ว"

@@ -5712,6 +5712,8 @@
  t InitDriverLog(vr::IVRDriverLog*) [clone .cold]
  t InitInternalCameraPassthroughInterface(std::function<void* (char const*)>)
  t InitInternalClientInterfaces(std::function<void* (char const*)>)
+ t InitInternalClientInterfaces(std::function<void* (char const*)>) [clone .cold]
+ t InitInternalDriverDirectInterface(std::function<void* (char const*)>)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool)
  t InitInternalInterfaces(std::function<void* (char const*)>, bool) [clone .cold]
  t InitInternalInterfacesNonStandard(void* (*)(char const*))
@@ -10527,6 +10529,7 @@
  t std::function<void (std::shared_ptr<vrcamera::IVRCameraFrame>)>::function<std::_Bind<void (CEtronCamera::*(CEtronCamera*, std::_Placeholder<1>))(std::shared_ptr<vrcamera::IVRCameraFrame>)>, void, void>(std::_Bind<void (CEtronCamera::*(CEtronCamera*, std::_Placeholder<1>))(std::shared_ptr<vrcamera::IVRCameraFrame>)>)
  t std::function<void (vortex::ILighthouseDBListener*)> std::for_each<std::_List_iterator<vortex::ILighthouseDBListener*>, std::function<void (vortex::ILighthouseDBListener*)> >(std::_List_iterator<vortex::ILighthouseDBListener*>, std::_List_iterator<vortex::ILighthouseDBListener*>, std::function<void (vortex::ILighthouseDBListener*)>)
  t std::function<void (vortex::ILighthouseDBListener*)>::function(std::function<void (vortex::ILighthouseDBListener*)> const&)
+ t std::function<void* (char const*)>::function(std::function<void* (char const*)> const&)
  t std::get_catalogs()
  t std::get_new_handler()
  t std::get_terminate()

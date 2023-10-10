@@ -163,7 +163,7 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
- ;=AA$
+ ;=QA$
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
@@ -497,7 +497,6 @@ $w!Hc
 %s: failed to create vulkan resources
 %s: failed to detect prism
 %s: failed to determine D3D11 texture format
-%s: failed to determine typeless D3D11 texture format
 %s: failed to enumerate extensions
 %s: failed to enumerate instance extensions
 %s: failed to enumerate physical devices
@@ -1344,6 +1343,7 @@ $w!Hc
 /width
 0	FAJ
 0 width
+0*Ff:
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789abcdef
@@ -1397,7 +1397,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231004000551Z0/
+231007010414Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1421,6 +1421,7 @@ $w!Hc
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
+62<ON"y
 6<framesToThrottle
 6I]Dc
 6OB,n_
@@ -1467,7 +1468,6 @@ $w!Hc
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8s4A;X u.
-9=pA$
 9APuC
 9ApuM
 9AtuB
@@ -1686,7 +1686,6 @@ $w!Hc
 ?HcC,H
 ?Nbp?
 ?UUUUUU
-?U|~n
 ?VUUUUU
 ?Xb&<
 ?Zero@Intrinsics@ST@@SA?BU12@XZ
@@ -3267,7 +3266,6 @@ Failed to send OTGT result
 Failed to send pairing result mailbox message. Maybe it didn't have a return address?
 Failed to send reply to discover_dongles message: %d
 Failed to set thread %p priority: invalid priority %d
-Failed to start OTGT
 Failed to start pairing on dongle %s
 Failed to start vrprismhost: %s
 Failed to write app container status to pipe %s after connecting because %s
@@ -3489,7 +3487,7 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
-H9-Q4!
+H9-a4!
 H91u 
 H92u&
 H92u,
@@ -3565,9 +3563,7 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=%D
-H;=DB
-H;=SE
+H;=#E
 H;Axt
 H;B0t
 H;C sAH
@@ -3720,7 +3716,6 @@ I(+K H
 I(9J(}
 I(I+I H
 I+G@H
-I1sISd?vz
 I9<$u
 I9A A
 I9B A
@@ -4143,6 +4138,7 @@ L9-$n(
 L9-%I(
 L9-%\(
 L9-*b(
+L9-+q&
 L9-5Z(
 L9-8l(
 L9-:S(
@@ -4150,13 +4146,13 @@ L9-;N(
 L9-Ah(
 L9-Bc(
 L9-CE(
-L9-Fr&
 L9-ID(
 L9-NK(
 L9-Np(
 L9-QO(
 L9-Qk(
 L9-T?(
+L9-Vr&
 L9-Y@(
 L9-_T(
 L9-_g(
@@ -4396,7 +4392,6 @@ O(H9O0t
 O*9y]
 O0H9Q
 OPAQUE
-OTGT started
 OTGT timed out
 OZw3(?
 O`H9Q
@@ -4507,7 +4502,6 @@ PeekMessageA
 PeekNamedPipe
 PeripheralApplication
 Persistent statistics file does not exist. Creating new %s
-Persistent statistics written to file %s
 Perspective camera description not found.
 PerspectiveCamera
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -4541,6 +4535,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
+RSDS>e
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4767,8 +4762,10 @@ Stable
 Standby toggled
 Standby unknown hmd
 Start
+Start test failed
 StartSession
 Started pairing dongle serial=%s timeout=%f
+Starting test
 SteamVR_Namespace
 SteamXR Interop Device
 Still waiting for Direct Mode Display...
@@ -4932,7 +4929,6 @@ UAUAVAWH
 UAVAWH
 UNKNOWN
 UNPLUGGED
-UR"}U
 USAGE: set_lenscal <device_json_path>
 USAGE: set_subpixel r_dx_pixels r_dy_pixels b_dx_pixels b_dy_pixels
 USATAUAWH
@@ -5073,6 +5069,7 @@ Updated Right Camera Extrinsics: %s
 Updated shift blue in pixels: %f %f
 Updated shift red in pixels:  %f %f
 Updated:  %f %f %f 
+Updating %s
 Updating additional system report data for %s
 Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g
 Use Screen Resolution control panel to fix
@@ -5491,7 +5488,6 @@ WideCharToMultiByte
 Win 10
 WinRT
 WriteFile
-Writing persistent statistics to file %s
 X USVWATAVAWH
 X UVWAVAWH
 X UVWH
@@ -5508,8 +5504,8 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5@6$
-Y5k/!
+Y5P6$
+Y5{/!
 Y9"SD
 Y?33s?
 YAHH+
@@ -5518,7 +5514,6 @@ YL9%!
 Yl$ M
 Yl$4E
 Yl$hfD
-YwrHc
 Z* ,	
 Z9k0tUD
 ZL$Xf
@@ -6186,6 +6181,7 @@ eye_target_height_in_pixels
 eye_target_width_in_pixels
 eye_to_head
 eye_tracking
+f&.eL
 f(I;^
 f9+t4
 f98tZH
@@ -6355,7 +6351,6 @@ hand_right_closeanim.glb
 hand_right_poses.glb
 handlers
 hardware_revision
-hczi%+
 hdcp14legacyCompatibility
 head_from_camera
 header crc mismatch
@@ -7941,7 +7936,6 @@ zuusA
 {%s}%s
 {,	u#
 {8@8l$8t1
-{:-F\z
 {htc}
 {htc}/input/vive_controller_profile.json
 {htc}/input/vive_pro_profile.json
@@ -8099,7 +8093,6 @@ zuusA
 }Ufff
 }`H+}XH
 }o;Dr_
-}v$wE2
 ~'HcB
 ~+fff
 ~-HcK,H+

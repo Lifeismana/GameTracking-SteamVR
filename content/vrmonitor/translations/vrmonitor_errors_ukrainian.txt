@@ -416,6 +416,11 @@
 "VRInitError_Compositor_UnableToCreateDevice_Action" "Докладніше"
 "VRInitError_Compositor_UnableToCreateDevice_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
 
+"VRInitError_Compositor_FailedToInitializeEncoder_Header" "Помилка відеокодувальника"
+"VRInitError_Compositor_FailedToInitializeEncoder_Description" "Можливо, вам потрібно оновити драйвер відеокарти комп’ютера."
+"VRInitError_Compositor_FailedToInitializeEncoder_Action" "Детальніше"
+"VRInitError_Compositor_FailedToInitializeEncoder_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#steamvr-issues"
+
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Header" "Помилка SteamVR"
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Description" "SteamVR не вдалося підключитися до застосунку Oculus. Переконайтеся, що інстальовано найостаннішу версію."
 "VRInitError_VendorSpecific_UnableToConnectToOculusRuntime_Action" "Відвідати oculus.com"

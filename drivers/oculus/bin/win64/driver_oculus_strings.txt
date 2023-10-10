@@ -63,7 +63,6 @@
  sJE3
 !&.37<
 !(0)"
-!>mG0
 !hn7!
 " not found in the scene.
 """""""
@@ -75,6 +74,7 @@
 "bufferViews" object not found in .gltf
 "buffers" object not found in .gltf
 "nodes" object not found in .gltf
+"oX31
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
 "scenes" object not found in .gltf or not an array type
@@ -86,7 +86,6 @@
 #D9c0t
 #D9{0t
 #oculus_requested_quit
-$2%2(G;W
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -207,6 +206,7 @@ $w!Hc
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *uXI;
++3$y`
 +Xt@(
 +o'q)}
 , binary size = 
@@ -438,6 +438,7 @@ $w!Hc
 /user/wrist/right
 0 width
 0-pixel image
+02|.O}
 0A^_^
 0A_A^A\_^
 0A_A^A]A\^
@@ -462,7 +463,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231004000700Z0/
+231007010516Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -497,7 +498,6 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-8mN9|
 9C s.H
 9T$Pu9A
 9T$XJ
@@ -512,7 +512,6 @@ $w!Hc
 : one or more FS callback not set
 ; expected 
 ; last read: '
-;!>L.
 ;K sCH
 ;K sUH
 ;S sAH
@@ -790,7 +789,8 @@ CT$pH
 C\$0D
 C\$0H
 C\$0L
-C\$0L9%
+C\$0L9%d
+C\$0L9%x
 C\$0M
 C\$PE
 C\$PH
@@ -1140,7 +1140,7 @@ Invalid glTF binary.
 Invalid image data for image[
 Invalid magic.
 IsDebuggerPresent
-IsDepthFormat( eTextureFormatConcrete )
+IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
 JSON string too short.
@@ -1191,8 +1191,8 @@ L$`fD
 L$pE2
 L$pE3
 L$pHcQ
-L9%e<
-L9%y<
+L9%E<
+L9%Y<
 L9k8v
 L9t$@
 L9|$p
@@ -1263,6 +1263,7 @@ OpenProcess
 Orhographic camera description not found.
 OrthographicCamera
 Out of thread local storage!
+OutputDebugStringW
 PA^_^
 PA^_^][
 PA_A]A\_^
@@ -1294,6 +1295,9 @@ RootNode
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
+S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
+S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
 S0Q0O
 S8H+S0H
 SATAUAVAWH
@@ -1373,7 +1377,6 @@ TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
 Tp=9y>m0_D@H_
-TvD`	c
 U0H9U8t
 UATAUAVAWH
 UAVAWH
@@ -1450,13 +1453,12 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 X UVWH
+X%pi	
 XA^^[]
 XXXX PNG chunk not known
-Y%2w;
 Y9"SD
 Z9k0tUD
 ZL$Xf
-ZnO.}
 [K]taM?
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -1941,6 +1943,7 @@ left_controller
 lights
 list<T> too long
 localeconv
+l{Me=W<D
 m0k0$
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
@@ -1994,6 +1997,7 @@ oD$0f
 oD$0fD
 oL$ f
 oT$0f
+oV7TC
 object
 object key
 object separator
@@ -2149,7 +2153,6 @@ primitive indices accessor out of bounds
 primitives
 pt_br
 pt_pt
-p|OLC
 quest
 rND9{0t
 range
@@ -2417,7 +2420,6 @@ t[H+A
 target
 targets
 tb9l$Xt@9n$~;
-tbm"m
 tchinese
 tdh.dll
 teHcD$P
@@ -2446,7 +2448,7 @@ u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uJf9X
-uTL9%/
+uTL9%
 ua_ua
 ukranian
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
@@ -2515,6 +2517,7 @@ znear
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
 {un'%
+{wANc
 |$ ATAUAVAWH
 |$ ATAVAWH
 |$ AUAVAWH

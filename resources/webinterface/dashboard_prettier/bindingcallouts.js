@@ -142,9 +142,11 @@
               this.OpenWebSocketToHost();
           }
           WebSocketSend(e) {
-            null != this.m_wsWebSocketToServer &&
+            return (
+              null != this.m_wsWebSocketToServer &&
               1 == this.m_wsWebSocketToServer.readyState &&
-              this.m_wsWebSocketToServer.send(e);
+              (this.m_wsWebSocketToServer.send(e), !0)
+            );
           }
           OnWebSocketMessage(e) {
             let t = JSON.parse(e.data),
@@ -172,7 +174,9 @@
             this.m_oHandlers[e] = t;
           }
           SendMessage(e, t) {
-            this.WebSocketSend("mailbox_send " + e + " " + JSON.stringify(t));
+            return this.WebSocketSend(
+              "mailbox_send " + e + " " + JSON.stringify(t)
+            );
           }
           WaitForMessage(e, t) {
             return new Promise((r, n) => {
@@ -5853,11 +5857,13 @@
                 "DashboardTabClicked",
                 ({ tab_id: e }) => {
                   const t = ae.B.GetSummonKeyForTabId(e);
-                  t &&
-                    this.switchToOverlayInternal(
+                  if (
+                    !this.switchToOverlayInternal(
                       t,
                       "User clicked VRGamepadUI tab"
-                    );
+                    )
+                  )
+                    throw new Error("Failed to switch to overlay: " + t);
                 }
               ),
               de.Q.SteamVR.SetImplementation(
@@ -5979,79 +5985,104 @@
               this.updateVRGamepadUIPathProperties();
           }
           updateVRGamepadUIPathProperties() {
-            var e;
-            const t = this.getActiveOverlaySummonKey(),
-              r = new se.cH();
+            var e, t, r, n;
+            const i = Array.from(
+                null !==
+                  (t =
+                    null === (e = this.state.mapWindows) || void 0 === e
+                      ? void 0
+                      : e.values()) && void 0 !== t
+                  ? t
+                  : []
+              ).sort(me),
+              o = this.getActiveOverlaySummonKey(),
+              a = new se.cH();
             for (const e in this.m_mapExternalOverlays) {
-              const n = this.m_mapExternalOverlays[e],
-                i = ae.B.GetTabIdForSummonKey(n.summon_overlay_key);
-              if (n.summon_overlay_key == h.gB) continue;
-              const o = new se.D3();
-              o.set_tab_id(i),
-                o.set_visible(this.shouldShowOverlayTab(n, !0)),
-                n.summon_overlay_key == h.T2
-                  ? o.set_display_name((0, m.Xx)("#Steam"))
-                  : o.set_display_name(n.tab_name);
-              const a = new se.I_();
-              switch (n.summon_overlay_key) {
+              const t = this.m_mapExternalOverlays[e],
+                r = ae.B.GetTabIdForSummonKey(t.summon_overlay_key);
+              if (t.summon_overlay_key == h.gB) continue;
+              const n = new se.D3();
+              n.set_tab_id(r),
+                n.set_visible(this.shouldShowOverlayTab(t, !0)),
+                t.summon_overlay_key == h.T2
+                  ? n.set_display_name((0, m.Xx)("#Steam"))
+                  : n.set_display_name(t.tab_name);
+              const i = new se.I_();
+              switch (t.summon_overlay_key) {
                 case h.T2:
-                  a.set_enum(se.mw.k_EVRDashboardTabIcon_Steam);
+                  i.set_enum(se.mw.k_EVRDashboardTabIcon_Steam);
                   break;
                 case h.Xl:
-                  a.set_enum(se.mw.k_EVRDashboardTabIcon_DesktopDisplay);
+                  i.set_enum(se.mw.k_EVRDashboardTabIcon_DesktopDisplay);
                   break;
                 case h.A4:
-                  a.set_enum(se.mw.k_EVRDashboardTabIcon_Cog);
+                  i.set_enum(se.mw.k_EVRDashboardTabIcon_Cog);
                   break;
                 case h.PF:
                   if (
-                    (a.set_enum(se.mw.k_EVRDashboardTabIcon_RunningGame),
+                    (i.set_enum(se.mw.k_EVRDashboardTabIcon_RunningGame),
                     _.H.Instance.SceneAppKey.startsWith(h.I8))
                   ) {
                     const e = Number.parseInt(
                       _.H.Instance.SceneAppKey.substring(h.I8.length)
                     );
-                    Number.isInteger(e) && a.set_appid(e);
+                    Number.isInteger(e) && i.set_appid(e);
                   }
                   break;
                 default:
-                  a.set_overlay(n.summon_overlay_key),
-                    a.set_enum(se.mw.k_EVRDashboardTabIcon_Unknown);
+                  i.set_overlay(t.summon_overlay_key),
+                    i.set_enum(se.mw.k_EVRDashboardTabIcon_Unknown);
               }
-              o.set_icon(a),
-                r.add_tabs(o),
-                t == n.summon_overlay_key && r.set_selected_tab_id(i),
-                h.A4 == n.summon_overlay_key && r.set_vr_settings_tab_id(i);
+              n.set_icon(i),
+                a.add_tabs(n),
+                o == t.summon_overlay_key && a.set_selected_tab_id(r),
+                h.A4 == t.summon_overlay_key && a.set_vr_settings_tab_id(r);
             }
             if (this.m_refDesktopView.current) {
-              const n = this.m_refDesktopView.current.desktopCount;
-              null === (e = this.m_refDesktopView.current) ||
-                void 0 === e ||
-                e.state.desktopIndices.forEach((e) => {
-                  var i;
-                  const o = `${h.r4}.${e}`,
-                    a = ae.B.GetTabIdForSummonKey(o),
+              const e = this.m_refDesktopView.current.desktopCount;
+              null === (r = this.m_refDesktopView.current) ||
+                void 0 === r ||
+                r.state.desktopIndices.forEach((t) => {
+                  var r;
+                  const n = `${h.r4}.${t}`,
+                    i = ae.B.GetTabIdForSummonKey(n),
                     s = new se.D3();
-                  s.set_tab_id(a),
+                  s.set_tab_id(i),
                     s.set_display_name(
-                      n > 1 ? (0, m.Xx)("#Desktop_X", e) : (0, m.Xx)("#Desktop")
+                      e > 1 ? (0, m.Xx)("#Desktop_X", t) : (0, m.Xx)("#Desktop")
                     ),
                     s.set_visible(!0);
                   const l = new se.I_();
                   l.set_enum(se.mw.k_EVRDashboardTabIcon_DesktopDisplay),
                     s.set_icon(l),
-                    r.add_tabs(s),
-                    (null == t ? void 0 : t.startsWith(h.gB)) &&
-                      (null === (i = this.m_refDesktopView.current) ||
-                      void 0 === i
+                    a.add_tabs(s),
+                    (null == o ? void 0 : o.startsWith(h.gB)) &&
+                      (null === (r = this.m_refDesktopView.current) ||
+                      void 0 === r
                         ? void 0
-                        : i.currentDesktopIndex) == e &&
-                      r.set_selected_tab_id(a);
+                        : r.currentDesktopIndex) == t &&
+                      a.set_selected_tab_id(i);
                 });
             }
-            r.tabs().sort(he), (0, le.W)(r);
-            const n = new se.yt();
-            n.add_actions(
+            for (const e of i) {
+              if (!e.overlay_key) continue;
+              const t = ae.B.GetTabIdForSummonKey(e.overlay_key),
+                r = new se.D3();
+              r.set_tab_id(t), r.set_display_name(e.title), r.set_visible(!0);
+              const i = new se.I_();
+              i.set_enum(se.mw.k_EVRDashboardTabIcon_DesktopWindow),
+                i.set_hwnd(Number.parseInt(e.hwnd)),
+                r.set_icon(i),
+                a.add_tabs(r),
+                (null == o ? void 0 : o.startsWith(h.gB)) &&
+                  (null === (n = this.m_refDesktopView.current) || void 0 === n
+                    ? void 0
+                    : n.sCurrentOverlayKey) == e.overlay_key &&
+                  a.set_selected_tab_id(t);
+            }
+            a.tabs().sort(he), (0, le.W)(a);
+            const s = new se.yt();
+            s.add_actions(
               se.z3.fromObject({
                 action_id: Y.ToggleRoomView,
                 display_name: (0, m.Xx)("#Toggle_Room_View"),
@@ -6073,7 +6104,7 @@
                 },
               })
             ),
-              n.add_actions(
+              s.add_actions(
                 se.z3.fromObject({
                   action_id: Y.Recenter,
                   display_name: (0, m.Xx)("#Button_Recenter"),
@@ -6084,7 +6115,22 @@
                   icon: { enum: se.Cj.k_EVRDashboardActionIcon_Recenter },
                 })
               ),
-              (0, le.W)(n);
+              (0, le.W)(s);
+            const l = new se.Jl();
+            l.set_windows(
+              i.map((e) => {
+                const t = new se.fY();
+                return (
+                  t.set_hwnd(Number.parseInt(e.hwnd)),
+                  t.set_window_id(Number.parseInt(e.hwnd)),
+                  t.set_title(e.title),
+                  e.overlay_key &&
+                    t.set_tab_id(ae.B.GetTabIdForSummonKey(e.overlay_key)),
+                  t
+                );
+              })
+            ),
+              (0, le.W)(l);
           }
           initializeOverlayState(e) {
             b.G3.GetAppInfo(e).then((t) => {
@@ -6234,7 +6280,7 @@
           }
           onDashboardOverlayDestroyed(e) {
             var t;
-            e.overlay_key.startsWith("system.window.")
+            e.overlay_key.startsWith(h.Vq)
               ? null === (t = this.m_refDesktopView.current) ||
                 void 0 === t ||
                 t.onWindowViewDestroyed(e.overlay_key)
@@ -6400,7 +6446,8 @@
             this.switchToOverlayInternal(e, "switchToSteamOverlay");
           }
           switchToOverlayInternal(e, t) {
-            var r, n;
+            var r, n, i, a;
+            if (!e) return !1;
             switch (e) {
               case h.Y8:
                 y.y.Instance.latchBigPictureEntryPoint();
@@ -6431,17 +6478,28 @@
                   void 0 === r ||
                   r.onDesktopChange(t)),
                 (e = h.gB);
+            } else if (e.startsWith(h.Vq)) {
+              if (
+                !(null === (n = this.m_refDesktopView.current) || void 0 === n
+                  ? void 0
+                  : n.hasWindowView(e))
+              )
+                return !1;
+              null === (i = this.m_refDesktopView.current) ||
+                void 0 === i ||
+                i.onWindowViewChange(e),
+                (e = h.gB);
             }
-            let i = this.findDashboardTab(e);
+            let s = this.findDashboardTab(e);
             return (
-              !!i &&
-              (this.computeFilteredOverlayTabs(!1).includes(i) &&
+              !!s &&
+              (this.computeFilteredOverlayTabs(!1).includes(s) &&
                 b.G3.SetSettingsValue(
                   h.nf,
-                  null !== (n = i.summon_overlay_key) && void 0 !== n ? n : ""
+                  null !== (a = s.summon_overlay_key) && void 0 !== a ? a : ""
                 ),
               (this.m_activeOverlayThatVanished = null),
-              this.setState({ sActiveOverlayID: i.mountable_id }),
+              this.setState({ sActiveOverlayID: s.mountable_id }),
               v.e.instance.RecordUIEvent(
                 "SetDashboardOverlay",
                 null != t ? t : "Button",
@@ -6971,7 +7029,7 @@
               (this.isOverlayActive(h.gB) ||
                 (null === (e = this.getActiveOverlaySummonKey()) || void 0 === e
                   ? void 0
-                  : e.startsWith("system.window"))) &&
+                  : e.startsWith(h.Vq))) &&
               (this.state.eShowPopoverMenu == ee.None ||
                 this.state.eShowPopoverMenu == ee.Windows)
             );
@@ -6994,7 +7052,7 @@
               this.isOverlayActive(h.gB) ||
               (null === (e = this.getActiveOverlaySummonKey()) || void 0 === e
                 ? void 0
-                : e.startsWith("system.window"))
+                : e.startsWith(h.Vq))
             );
           }
           getPeerButtonInfo() {
@@ -7672,7 +7730,7 @@
             var e;
             const t = this.getActiveOverlayKey();
             t &&
-              (t.startsWith("system.window.")
+              (t.startsWith(h.Vq)
                 ? null === (e = this.m_refDesktopView.current) ||
                   void 0 === e ||
                   e.onWindowViewClosed(t)
@@ -8447,6 +8505,37 @@
             n < 0 && (n = pe.length),
             r == n ? e.tab_id() - t.tab_id() : r - n
           );
+        }
+        function me(e, t) {
+          var r, n, i, o, a, s;
+          let l;
+          const d =
+              null !== (r = null == e ? void 0 : e.product_name) && void 0 !== r
+                ? r
+                : "",
+            c =
+              null !== (n = null == t ? void 0 : t.product_name) && void 0 !== n
+                ? n
+                : "";
+          if (((l = d.localeCompare(c)), 0 != l)) return l;
+          const u =
+              null !== (i = null == e ? void 0 : e.title) && void 0 !== i
+                ? i
+                : "",
+            p =
+              null !== (o = null == t ? void 0 : t.title) && void 0 !== o
+                ? o
+                : "";
+          if (((l = u.localeCompare(p)), 0 != l)) return l;
+          const h =
+              null !== (a = null == e ? void 0 : e.hwnd) && void 0 !== a
+                ? a
+                : "",
+            m =
+              null !== (s = null == t ? void 0 : t.hwnd) && void 0 !== s
+                ? s
+                : "";
+          return h.localeCompare(m);
         }
       },
       4790: (e, t, r) => {
@@ -10426,25 +10515,26 @@
       },
       9347: (e, t, r) => {
         "use strict";
-        r.d(t, { N: () => _, e: () => g });
+        r.d(t, { N: () => y, e: () => _ });
         var n,
           i,
           o = r(655),
           a = r(3884),
           s = r(7056),
-          l = r(2188),
-          d = r(7062),
-          c = r(7294),
-          u = r(7475),
-          p = r(7176),
-          h = r(3568),
-          m = r(1628),
-          v = r(6459);
-        let g = (n = class extends c.Component {
+          l = r(2477),
+          d = r(2188),
+          c = r(7062),
+          u = r(7294),
+          p = r(7475),
+          h = r(7176),
+          m = r(3568),
+          v = r(1628),
+          g = r(6459);
+        let _ = (n = class extends u.Component {
           constructor(e) {
             super(e),
               (this.m_mailbox = new a.Nv()),
-              (this.m_refWindowScrollPanel = c.createRef()),
+              (this.m_refWindowScrollPanel = u.createRef()),
               (this.state = { desktopView: null }),
               this.m_mailbox.Init(n.k_sMailboxName);
           }
@@ -10479,23 +10569,23 @@
                   ? void 0
                   : t.state.desktopIndices.length) > 1,
               o = { x: 0, y: -0.15, z: 0.1 };
-            return c.createElement(
-              v.j4,
+            return u.createElement(
+              g.j4,
               Object.assign({}, this.props, {
                 additionalClassNames: this.props.bWindowViewEnabled
                   ? "DesktopTray FixedWidth"
                   : "DesktopTray",
               }),
               i &&
-                c.createElement(
-                  u.P,
+                u.createElement(
+                  p.P,
                   {
-                    scrollDirection: u.I.Horizontal,
+                    scrollDirection: p.I.Horizontal,
                     className: "Section Grow",
                     style: { marginRight: 0, marginLeft: "9px" },
                     ref: this.m_refWindowScrollPanel,
                   },
-                  c.createElement(
+                  u.createElement(
                     "div",
                     {
                       style: {
@@ -10509,7 +10599,7 @@
                       ? void 0
                       : r.state.desktopIndices.map((e) => {
                           var t;
-                          return c.createElement(v.zN, {
+                          return u.createElement(g.zN, {
                             additionalClassNames: "ViewButton Fixed",
                             key: e,
                             label: e.toString(),
@@ -10518,7 +10608,7 @@
                               void 0 === t
                                 ? void 0
                                 : t.currentDesktopIndex) == e,
-                            title: (0, h.Xx)("#Desktop_X", e),
+                            title: (0, m.Xx)("#Desktop_X", e),
                             tooltipTranslation: o,
                             onClick: () => {
                               var t;
@@ -10535,7 +10625,7 @@
                         : n.state.mapWindowInfo.keys()
                     ).map((e) => {
                       var t, r, n;
-                      return c.createElement(v.zN, {
+                      return u.createElement(g.zN, {
                         additionalClassNames: "ViewButton",
                         iconUrl: "/dashboard/images/icons/svr_desktop_alt.svg",
                         key: e,
@@ -10566,13 +10656,13 @@
                   )
                 ),
               this.props.bWindowViewEnabled &&
-                c.createElement(
+                u.createElement(
                   "div",
                   { className: "Section", style: { marginRight: 0 } },
-                  c.createElement(v.zN, {
+                  u.createElement(g.zN, {
                     iconUrl: "/dashboard/images/icons/icon_add.png",
                     additionalClassNames: "AddWindow",
-                    title: (0, h.Xx)("#AddView"),
+                    title: (0, m.Xx)("#AddView"),
                     tooltipTranslation: o,
                     onClick: this.props.onToggleWindowList,
                     onMouseEnter: this.props.onClearPopoverMenuTimeout,
@@ -10583,9 +10673,9 @@
             );
           }
         });
-        (g.k_sMailboxName = "systemui_desktoptray"),
-          (g = n = (0, o.gn)([d.Pi], g));
-        let _ = (i = class extends c.Component {
+        (_.k_sMailboxName = "systemui_desktoptray"),
+          (_ = n = (0, o.gn)([c.Pi], _));
+        let y = (i = class extends u.Component {
           constructor(e) {
             super(e),
               (this.m_mailbox = new a.Nv()),
@@ -10596,13 +10686,38 @@
                 mapWindowInfo: new Map(),
                 sCurrentWindowOverlayKey: "",
               }),
-              this.m_mailbox.Init(i.k_sMailboxName).then(() => {});
+              this.m_mailbox.Init(i.k_sMailboxName).then(() => {}),
+              l.Q.SteamVR.SetImplementation(
+                "DashboardDesktopWindowClicked",
+                (e) => {
+                  var t, r;
+                  const n =
+                    null !==
+                      (r =
+                        null === (t = e.window_id) || void 0 === t
+                          ? void 0
+                          : t.toString()) && void 0 !== r
+                      ? r
+                      : "";
+                  for (const [e, t] of this.state.mapWindowInfo.entries())
+                    if (t.sHwnd == n)
+                      return (
+                        this.onWindowViewChange(e),
+                        void VRHTML.VROverlay.ShowDashboard(h.gB)
+                      );
+                  const i = { type: "request_spawn_window_view", hwnd: n };
+                  if (!this.m_mailbox.SendMessage("desktopview", i))
+                    throw new Error(
+                      "Failed to send mailbox message request_spawn_window_view"
+                    );
+                }
+              );
           }
           componentDidMount() {
             null ===
             (null === VRHTML || void 0 === VRHTML
               ? void 0
-              : VRHTML.VROverlay.FindOverlay(p.Xl))
+              : VRHTML.VROverlay.FindOverlay(h.Xl))
               ? (null === VRHTML ||
                   void 0 === VRHTML ||
                   VRHTML.RegisterForDesktopViewReadyEvents(
@@ -10629,7 +10744,7 @@
             return "" != this.state.sCurrentWindowOverlayKey
               ? -1
               : null !==
-                  (e = m.G3.settings.get("/settings/dashboard/desktopIndex")) &&
+                  (e = v.G3.settings.get("/settings/dashboard/desktopIndex")) &&
                 void 0 !== e
               ? e
               : 1;
@@ -10643,13 +10758,13 @@
           }
           onDesktopScaleChange(e) {
             this.currentDesktopIndex > 0 &&
-              m.G3.SetSettingsValue(
+              v.G3.SetSettingsValue(
                 "/settings/dashboard/desktopScale" + this.currentDesktopIndex,
                 e
               );
           }
           onDesktopChange(e) {
-            m.G3.SetSettingsValue("/settings/dashboard/desktopIndex", e),
+            v.G3.SetSettingsValue("/settings/dashboard/desktopIndex", e),
               this.setState({ sCurrentWindowOverlayKey: "" });
           }
           onDesktopViewUpdating() {
@@ -10671,6 +10786,9 @@
           onWindowViewChange(e) {
             this.setState({ sCurrentWindowOverlayKey: e });
           }
+          hasWindowView(e) {
+            return this.state.mapWindowInfo.has(e);
+          }
           updateDesktopIndices() {
             var e;
             let t = 1,
@@ -10685,11 +10803,11 @@
             )
               r.push(t), t++;
             (null !==
-              (e = m.G3.settings.get("/settings/dashboard/desktopIndex")) &&
+              (e = v.G3.settings.get("/settings/dashboard/desktopIndex")) &&
             void 0 !== e
               ? e
               : 1) > r.length &&
-              m.G3.SetSettingsValue("/settings/dashboard/desktopIndex", 1),
+              v.G3.SetSettingsValue("/settings/dashboard/desktopIndex", 1),
               this.setState({ bIsReady: !0, desktopIndices: r });
           }
           ShowMultitaskingView() {
@@ -10703,13 +10821,13 @@
                 ? void 0
                 : VRHTML.BSupportsMultitaskingView()) &&
               "" == this.state.sCurrentWindowOverlayKey;
-            return c.createElement(
-              c.Fragment,
+            return u.createElement(
+              u.Fragment,
               null,
               t &&
-                c.createElement(v.zN, {
+                u.createElement(g.zN, {
                   iconUrl: "/dashboard/images/icons/icon_multitasking_view.png",
-                  title: (0, h.Xx)("#MultitaskingView"),
+                  title: (0, m.Xx)("#MultitaskingView"),
                   tooltipTranslation: e,
                   onClick: this.ShowMultitaskingView,
                 })
@@ -10719,34 +10837,34 @@
             var e;
             const t =
               null ===
-                (e = m.G3.settings.get("/settings/dashboard/allowCurvature")) ||
+                (e = v.G3.settings.get("/settings/dashboard/allowCurvature")) ||
               void 0 === e ||
               e
-                ? p.ml
+                ? h.ml
                 : null;
             return this.props.visible
               ? this.state.bIsUsingSteamDesktop
-                ? c.createElement(a.sl, { mountedId: (0, a.iN)(p.GN, p.Xl) })
+                ? u.createElement(a.sl, { mountedId: (0, a.iN)(h.GN, h.Xl) })
                 : this.state.bIsReady
                 ? 0 === this.state.desktopIndices.length
-                  ? c.createElement(
-                      v.lL,
-                      { visible: !0, summonOverlayKey: p.gB },
-                      c.createElement(
+                  ? u.createElement(
+                      g.lL,
+                      { visible: !0, summonOverlayKey: h.gB },
+                      u.createElement(
                         "div",
                         { className: "NoDesktopFound" },
-                        c.createElement(
+                        u.createElement(
                           "h2",
                           null,
-                          (0, h.Xx)("#NoDesktopFound")
+                          (0, m.Xx)("#NoDesktopFound")
                         )
                       )
                     )
                   : -1 == this.currentDesktopIndex
-                  ? c.createElement(
-                      c.Fragment,
+                  ? u.createElement(
+                      u.Fragment,
                       null,
-                      c.createElement(
+                      u.createElement(
                         a.s_,
                         {
                           overlay_key: this.state.sCurrentWindowOverlayKey,
@@ -10756,19 +10874,19 @@
                           origin: a.Ic.BottomCenter,
                           debug_name: "System Desktop",
                         },
-                        c.createElement(v.Yd, { summonOverlayKey: p.gB }),
-                        c.createElement(a.sl, {
+                        u.createElement(g.Yd, { summonOverlayKey: h.gB }),
+                        u.createElement(a.sl, {
                           mountedId: (0, a.iN)(
-                            p.GN,
+                            h.GN,
                             this.state.sCurrentWindowOverlayKey + ".cursor"
                           ),
                         })
                       )
                     )
-                  : c.createElement(
-                      c.Fragment,
+                  : u.createElement(
+                      u.Fragment,
                       null,
-                      c.createElement(
+                      u.createElement(
                         a.s_,
                         {
                           overlay_key:
@@ -10779,10 +10897,10 @@
                           origin: a.Ic.BottomCenter,
                           debug_name: "System Desktop",
                         },
-                        c.createElement(v.Yd, { summonOverlayKey: p.gB }),
-                        c.createElement(a.sl, {
+                        u.createElement(g.Yd, { summonOverlayKey: h.gB }),
+                        u.createElement(a.sl, {
                           mountedId: (0, a.iN)(
-                            p.GN,
+                            h.GN,
                             "system.desktop." +
                               this.currentDesktopIndex +
                               ".cursor"
@@ -10790,35 +10908,35 @@
                         })
                       )
                     )
-                : c.createElement(
-                    v.lL,
-                    { visible: !0, summonOverlayKey: p.gB },
-                    c.createElement(
+                : u.createElement(
+                    g.lL,
+                    { visible: !0, summonOverlayKey: h.gB },
+                    u.createElement(
                       "div",
                       { className: "NoDesktopFound" },
-                      c.createElement(
+                      u.createElement(
                         "h2",
                         null,
-                        (0, h.Xx)("#DesktopViewsUpdating")
+                        (0, m.Xx)("#DesktopViewsUpdating")
                       )
                     )
                   )
               : null;
           }
         });
-        (_.k_sMailboxName = "systemui_desktopview"),
-          (_.k_nDesktopPanelBaseHeight = 2),
-          (0, o.gn)([l.Fl], _.prototype, "desktopCount", null),
-          (0, o.gn)([l.Fl], _.prototype, "sCurrentOverlayKey", null),
-          (0, o.gn)([l.Fl], _.prototype, "currentDesktopIndex", null),
-          (0, o.gn)([l.Fl], _.prototype, "currentWindowHwnd", null),
-          (0, o.gn)([s.ZP], _.prototype, "onDesktopScaleChange", null),
-          (0, o.gn)([s.ZP], _.prototype, "onDesktopChange", null),
-          (0, o.gn)([s.ZP], _.prototype, "onDesktopViewUpdating", null),
-          (0, o.gn)([s.ZP], _.prototype, "onDesktopViewReady", null),
-          (0, o.gn)([s.ZP], _.prototype, "onWindowViewChange", null),
-          (0, o.gn)([s.ZP], _.prototype, "ShowMultitaskingView", null),
-          (_ = i = (0, o.gn)([d.Pi], _));
+        (y.k_sMailboxName = "systemui_desktopview"),
+          (y.k_nDesktopPanelBaseHeight = 2),
+          (0, o.gn)([d.Fl], y.prototype, "desktopCount", null),
+          (0, o.gn)([d.Fl], y.prototype, "sCurrentOverlayKey", null),
+          (0, o.gn)([d.Fl], y.prototype, "currentDesktopIndex", null),
+          (0, o.gn)([d.Fl], y.prototype, "currentWindowHwnd", null),
+          (0, o.gn)([s.ZP], y.prototype, "onDesktopScaleChange", null),
+          (0, o.gn)([s.ZP], y.prototype, "onDesktopChange", null),
+          (0, o.gn)([s.ZP], y.prototype, "onDesktopViewUpdating", null),
+          (0, o.gn)([s.ZP], y.prototype, "onDesktopViewReady", null),
+          (0, o.gn)([s.ZP], y.prototype, "onWindowViewChange", null),
+          (0, o.gn)([s.ZP], y.prototype, "ShowMultitaskingView", null),
+          (y = i = (0, o.gn)([c.Pi], y));
       },
       6063: (e, t, r) => {
         "use strict";
@@ -11514,4 +11632,4 @@
   var i = n.O(void 0, [968, 683], () => n(4599));
   i = n.O(i);
 })();
-//# sourceMappingURL=bindingcallouts.js.map?v=e77012b850922a7a830b
+//# sourceMappingURL=bindingcallouts.js.map?v=2232e4bdd958ffef260f

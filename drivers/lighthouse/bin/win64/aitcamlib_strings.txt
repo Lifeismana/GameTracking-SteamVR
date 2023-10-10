@@ -1,5 +1,7 @@
 																																																																																																																
 	!s99
+	>.j5` 
+	Arxn
 	D$HA
 	|$HA
     A
@@ -28,7 +30,6 @@
 %,3:;4-&
 %9k0t
 %9{0t
-&8j~Y
 &9k0t
 &D9c0t
 &D9k0t
@@ -178,7 +179,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231004000425Z0/
+231007010247Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -197,6 +198,7 @@
 6I]Dc
 6OB,n_
 70503
+7S^&F/
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -470,7 +472,6 @@ PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QQM%B
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
@@ -548,7 +549,6 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
-U&QV?
 USVATAUAWH
 USVWATAUAVAWH
 USVWATAUAVH
@@ -585,7 +585,6 @@ WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
 Z9k0tUD
-Z`2Su
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
@@ -602,6 +601,7 @@ Z`2Su
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
+^C_!G
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -647,6 +647,7 @@ _wgetcwd
 `A_A^A]A\_^]
 `A__^
 a7hIw
+ad3!h
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -727,7 +728,6 @@ danish
 de_de
 deque<T> too long
 driver_lighthouse
-e/D]A)
 el_el
 en_us
 english
@@ -745,7 +745,6 @@ fread
 french
 fseek
 g9k0t_D
-gMKqmb%
 german
 gfffffffH
 greek
@@ -926,6 +925,7 @@ zlib corrupt
 |$PH;
 |$PLc
 |$XH;
+|7gR|
 |Lu?c
 }LuHO
 ~3LcD$(L

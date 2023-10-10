@@ -56,7 +56,6 @@
 !0E0R0[0
 !hn7!
 "0)0C0
-"g{T6 
 "j h4_
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
@@ -74,15 +73,14 @@ $Vh&*
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
 &060K0S0X0
+&?RP$4l#H
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
-({?g5
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-+ FZa
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -91,6 +89,7 @@ $Vh&*
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
+-	W_ 
 -1e+9999
 -Infinity
 -external
@@ -565,6 +564,7 @@ $Vh&*
 .tls$
 .tls$ZZZ
 .xdata$x
+/0y83
 /t;_^2
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$04080<0D0\0l0p0
@@ -711,7 +711,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231004000351Z0/
+231007010230Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -736,7 +736,6 @@ $Vh&*
 2J2T2Z2j2
 2K3U3[3{3
 2S2m2
-2Tbi<
 2`4e4m4~4
 2d3h3l3p3t3x3|3
 2e3v3f4
@@ -868,6 +867,7 @@ $Vh&*
 5*676C6
 5*6@6
 5*6k6
+5*Z#4j2
 5+555{5
 5,505@5D5H5P5h5x5|5
 5,5<5@5P5T5X5`5x5|5
@@ -1007,7 +1007,6 @@ $Vh&*
 8%8<8v8
 8&989
 8&:8:
-8'#us
 8(8,888<8H8L8X8\8h8l8
 8(80888@8H8P8X8`8h8p8x8
 8)818Q8
@@ -1185,7 +1184,6 @@ $Vh&*
 ;_;d;
 ;c<v<
 ;j;{;
-;y0ev
 <	=i=
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
@@ -1943,7 +1941,6 @@ Rejecting malformed advertisement report, address: %s name: %s
 ResetEvent
 Response: %s, %s
 Restart:  %s
-S/A0/
 S0Q0O
 S9~@u
 SA|X=G
@@ -2052,6 +2049,7 @@ Unknown Nordic Semiconductor vendor specific packet received
 Unknown RPC App Status (%d)
 Unknown exception
 UnlouA
+V=1p^
 VCRUNTIME140.dll
 VENDOR_SPECIFIC
 VID_%04X
@@ -2110,6 +2108,7 @@ Zipfile is corrupt or not a zipfile
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
+^*9yHE
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -2491,6 +2490,7 @@ y4_^[
 }LuHO
 }qj<h
 ~L][u
+~]Bot
 ~d;{d|	
 ~qj#k"
 ~t&LN
