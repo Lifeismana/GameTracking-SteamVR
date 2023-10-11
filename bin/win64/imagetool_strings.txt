@@ -1721,7 +1721,6 @@ $Eyk6
 $H;T$
 $I",(
 $M$|$
-$R2 MKQdd>}
 $RJSz1
 $a&..
 $lumi
@@ -2101,6 +2100,7 @@ $wtpt
 '@Ck1t
 'I'z'
 'I;E 
+'Icd:
 'Q?KVQ?
 '^{.f
 'aE<"
@@ -3719,7 +3719,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231007010539Z0/
+231011210847Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3846,6 +3846,7 @@ $wtpt
 3x4+1+2:0,-,- 1,1,1 1,1,1 -,-,0
 4 +!(K
 4#SDp
+4$j#;)
 4'D"'
 4+4e4
 4+Fqj
@@ -5040,6 +5041,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-
 ABRF ASCII Braille format
 ACCEPT
+ACDEx5
 AClassify
 AD(R!D
 AD9A$
@@ -7354,6 +7356,7 @@ E-@9KZ
 E-\q-i
 E0H+C(H
 E0Ic@
+E1VNZ
 E8(tV
 E8(tZ
 E8,?u
@@ -7670,6 +7673,7 @@ FXH)F(
 FXL98t^
 FXL98u
 F`H)F0H
+Faa/Cz*o
 Failed SOP Instance UID List
 Failed SOP Sequence
 Failed to allocate memory
@@ -10482,6 +10486,7 @@ N H;N(H
 N%NnN
 N-ERH%
 N0N94
+N4@BHp
 N8HcF
 N9OaP
 N=([Etb
@@ -11651,6 +11656,7 @@ Q H;Q(
 Q Z# 
 Q$A9P$y
 Q(H+Q H
+Q4*TFL
 Q>JBR>L
 QC)\C
 QCannot load font '%s
@@ -11752,7 +11758,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSkO
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -13280,6 +13285,7 @@ Thumb::Mimetype
 Thumb::Size
 Thumb::URI
 ThumbnailImage
+TibF+
 Tibetan
 Tifinagh
 Tile image with a texture
@@ -13848,7 +13854,6 @@ Volume Z Position List
 Volume Z Position Size
 Voronoi
 W LcD$XL
-W*418
 W/q#IX
 W5PM.
 W5cR.
@@ -14164,7 +14169,6 @@ XqTNr
 Xray Chain
 Xray Off Position
 Xt$0D
-XtM,d
 Xv(rH
 Y %d %d
 Y Focus Center
@@ -14750,7 +14754,6 @@ _wstat64i32
 `QSEJ
 `[ghostscript library %.2f]%s': %s
 ``6c3x
-`} E'
 `}@ReadXBMImage
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
@@ -18076,6 +18079,7 @@ o?T7o?
 o?d#p?
 oD) f
 oD)0f
+oS2f.
 oXiM?;)3)"%+!+/&:&*C))TN:hqRh
 o_fvIGV4^kQKQ5:;#88/8B/i
 oacute

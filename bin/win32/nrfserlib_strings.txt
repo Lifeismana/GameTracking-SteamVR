@@ -73,9 +73,9 @@ $Vh&*
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
 &060K0S0X0
-&?RP$4l#H
 ' is not a number.
 ',=?k
+'_)2It
 ()$^.*+?[]|\-{},:=!
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
@@ -89,7 +89,6 @@ $Vh&*
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
--	W_ 
 -1e+9999
 -Infinity
 -external
@@ -564,7 +563,6 @@ $Vh&*
 .tls$
 .tls$ZZZ
 .xdata$x
-/0y83
 /t;_^2
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$04080<0D0\0l0p0
@@ -711,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231007010230Z0/
+231011210535Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -867,7 +865,6 @@ $Vh&*
 5*676C6
 5*6@6
 5*6k6
-5*Z#4j2
 5+555{5
 5,505@5D5H5P5h5x5|5
 5,5<5@5P5T5X5`5x5|5
@@ -1435,6 +1432,7 @@ $Vh&*
 @d;Cd
 A valid JSON document must be either an array or an object value.
 A98t	
+A;I{	
 ACL_DATA_PACKET
 ADVAPI32.dll
 Address:  %s
@@ -1910,6 +1908,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSY
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2049,7 +2048,6 @@ Unknown Nordic Semiconductor vendor specific packet received
 Unknown RPC App Status (%d)
 Unknown exception
 UnlouA
-V=1p^
 VCRUNTIME140.dll
 VENDOR_SPECIFIC
 VID_%04X
@@ -2108,7 +2106,6 @@ Zipfile is corrupt or not a zipfile
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
-^*9yHE
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -2173,6 +2170,7 @@ _stricmp
 _strlwr
 _strnicmp
 _strupr_s
+` Vd1m	f
 `.rdata
 a7hIw
 a9~@u
@@ -2287,6 +2285,7 @@ memcpy
 memmove
 memset
 mutex
+n*$IO
 need dictionary
 nrfserlib.dll
 ole32.dll
@@ -2295,6 +2294,7 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
+q_a	jE
 realloc
 s?=2N
 sd_ble_cfg_set
@@ -2490,7 +2490,6 @@ y4_^[
 }LuHO
 }qj<h
 ~L][u
-~]Bot
 ~d;{d|	
 ~qj#k"
 ~t&LN

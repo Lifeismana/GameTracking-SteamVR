@@ -2,12 +2,10 @@
  %41g
 !hn7!
 ',=?k
-(.2&>]U
 (f*^[0
 +Xt@(
 +o'q)}
 ,W5y+
--w]S6
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -100,13 +98,12 @@
 1@2x2
 1K1A2N2i2
 1d2h2l2
-1~2it
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231007010311Z0/
+231011210616Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -153,7 +150,6 @@
 8!8<8R8[8`8j8t8~8
 8%80868<8C8
 8(9,909H9L9
-80S,`
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9!9&9-929>9`9w9
@@ -167,7 +163,6 @@
 ;X;\;`;d;|;
 < <0<4<<<T<d<h<x<|<
 < =)=2=;=@=E=L=Q=]=
-<.GUd
 <0:08
 <0<G<P<Y<b<g<l<s<
 <S=g=
@@ -203,6 +198,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+F=%[K)w
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -211,6 +207,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 H-^Eu
+HM/qI
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -285,7 +282,6 @@ TlsAlloc
 TlsFree
 UnhandledExceptionFilter
 Unknown exception
-V!`sE>
 VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
@@ -358,7 +354,6 @@ map/set<T> too long
 memcpy
 memmove
 memset
-s%^y8o
 string too long
 terminate
 uCVj@
@@ -366,6 +361,8 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+xhwZlc
+{*(=/
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

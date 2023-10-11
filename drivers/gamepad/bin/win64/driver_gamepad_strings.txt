@@ -3,13 +3,13 @@
  A__^
  H3E H3E
 !hn7!
+"o>(^
 ',=?k
 (D$ f
 (f*^[0
 (|$pL
 +Xt@(
 +o'q)}
-,V=[v_
 ,W5y+
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
@@ -38,6 +38,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.SNZn
 .data
 .data$r
 .edata
@@ -98,7 +99,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231007010402Z0/
+231011210710Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -110,7 +111,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-3n;U0
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -122,12 +122,10 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
-:l=%[@
 <0:08
 =rIQU
 >0<0:
 >Mp$d
-?&DA3F
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -170,6 +168,7 @@ H95Dz
 H95E}
 H95O~
 H9w`tFH
+H^o(}q9
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -193,7 +192,6 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-KBl;O
 KERNEL32.dll
 K}*n:	
 L$ SH
@@ -263,6 +261,7 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
+X&9=4
 Y9"SD
 [K]taM?
 \$ UH
@@ -313,6 +312,7 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
+h-J'R
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -323,7 +323,6 @@ k0i0$
 l$8E3
 l2|X/gGe
 m0k0$
-m=<)$
 malloc
 map/set<T> too long
 memcpy
@@ -339,6 +338,8 @@ t$@H=
 tXfff
 terminate
 v=Y]Bv
+vNxz{
+vP`:*
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"

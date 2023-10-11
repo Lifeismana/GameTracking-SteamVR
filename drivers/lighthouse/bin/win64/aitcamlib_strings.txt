@@ -1,7 +1,5 @@
 																																																																																																																
 	!s99
-	>.j5` 
-	Arxn
 	D$HA
 	|$HA
     A
@@ -68,6 +66,7 @@
 -9k0t&H
 -9{0t%H
 -D9c0t%H
+-n~7I
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -179,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231007010247Z0/
+231011210556Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -198,7 +197,6 @@
 6I]Dc
 6OB,n_
 70503
-7S^&F/
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -453,6 +451,7 @@ LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
 M H1E
+M9r$0@b
 MB(iVR
 MSVCP140.dll
 MainThrd
@@ -463,6 +462,7 @@ Not Available
 NotFound
 Out of thread local storage!
 OutputDebugStringA
+O|\nd%}
 PA^_^
 PA_A^A]A\[
 PAq=?Mp#
@@ -475,6 +475,7 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
+R4:fl
 RPCRT4.dll
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
@@ -601,7 +602,6 @@ Z9k0tUD
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
-^C_!G
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -646,8 +646,8 @@ _wgetcwd
 `.rdata
 `A_A^A]A\_^]
 `A__^
+a+/ Iq?
 a7hIw
-ad3!h
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -658,6 +658,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+az]I'
 bad AC huff
 bad APP len
 bad BMP
@@ -925,7 +926,6 @@ zlib corrupt
 |$PH;
 |$PLc
 |$XH;
-|7gR|
 |Lu?c
 }LuHO
 ~3LcD$(L

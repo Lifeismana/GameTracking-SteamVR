@@ -28,7 +28,6 @@
  A__^
  Error:
  H3E H3E
- O^5G
  for detail.
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  t;A;
@@ -229,7 +228,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231007010255Z0/
+231011210605Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -258,6 +257,7 @@
 8EC90003F3154F609FB8838830DAEA50
 8L$4tNH
 8_^][
+9@N]p
 9\u-H
 9\u4H
 9sdu	@8s
@@ -271,6 +271,7 @@
 ======================
 ==============================
 => Entering Context
+=[t!t
 =rIQU
 >"t H
 >"t-H
@@ -479,7 +480,6 @@ CL$H3
 CL$PH
 CL$XH
 CL$pH
-CL2l>
 CMD=BASE_STATION_BS_BLE_FOTA
 CMD=BASE_STATION_BS_MCU_FOTA
 CONNECT -ADDR_TYPE %s -SV_TO 190 -CON_MIN 6 -CON_MAX 6 -T %X %s
@@ -802,13 +802,13 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 PipeInit
 Progress: %d%% (%d/%d)
 Pz}b!
-Q8c11
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDSB-$
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -895,7 +895,6 @@ UWATAWH
 UWATH
 UWAVH
 UWAWH
-U]u]\
 UnhandledExceptionFilter
 Unknown
 Unknown DFU Extended Error (%d)
@@ -1044,7 +1043,10 @@ Windows NT
 Windows Vista
 Windows XP
 WriteFile
+X1#[IY
 XA]A\_^
+Xi.|e
+XlsP_l
 Y9"SD
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1055,7 +1057,6 @@ Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
-[M9GyH
 \$ UAVAWH
 \$ UH
 \$ UVWATAUH
@@ -1242,7 +1243,6 @@ ntelD
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
-o|*N(
 p UWATAVAWH
 print
 punct

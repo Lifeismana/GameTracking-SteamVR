@@ -25,7 +25,6 @@
  because negotiation function 
  does not appear to exist
  due to failed negotiation with error 
- e.zs'
  for detail.
  has invalid API Version.  Skipping layer.
  in HKEY_LOCAL_MACHINE
@@ -35,7 +34,6 @@
  is missing required fields.  Verify all proper fields exist.
  is not a valid manifest file.
  is not supported
- jilT
  layers enabled and runtime interface - created instance = 
  library 
  requires a valid instance
@@ -118,6 +116,7 @@
 .data
 .data$r
 .edata
+.fN<s
 .idata$2
 .idata$3
 .idata$4
@@ -165,7 +164,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231007010547Z0/
+231011210855Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -401,7 +400,6 @@ Entering loader trampoline
 Eo%lf
 EpHcH
 Error [
-Ewi]?
 Exceeded stackLimit in readValue().
 Extra non-whitespace after JSON value.
 Failed ApiLayerInterface::GetApiLayerProperties
@@ -461,6 +459,7 @@ Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+K*i*J
 KERNEL32.dll
 K}*n:	
 L#A0L
@@ -569,9 +568,9 @@ T$0H;
 T$HE3
 T$PH;
 T$xE3
+T&YO*
 TUUUUUU
 Type is not convertible to string
-U/nT&D
 UATAUAVAWH
 UAVAWH
 UNKNOWN
@@ -591,6 +590,7 @@ Unknown error occurred calling down chain
 Unknown exception
 Unknown failure
 Unknown failure: 
+Uuk*OZ
 V H+V
 V I9V(t L
 VATAUAVAWH
@@ -671,6 +671,7 @@ _Cnd_init_in_situ
 _Cnd_signal
 _Cnd_wait
 _CxxThrowException
+_D4":
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
@@ -709,7 +710,6 @@ _unlock_file
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
-`n|sZ
 a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
@@ -813,6 +813,7 @@ layer
 library_path
 list<T> too long
 localeconv
+m.LIS
 m0k0$
 malloc
 map/set<T> too long
@@ -978,7 +979,6 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
-yrnvi
 {un'%
 |$ ATAVAWH
 |$ AVH

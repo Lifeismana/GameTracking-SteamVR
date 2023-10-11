@@ -37,10 +37,10 @@ $_^[]
 %j+hD
 %m / %d / %y
 &1V6|:^<
-&@8g7
 ',=?k
+'eEoi
+(#MZt
 ()$^.*+?[]|\-{},:=!
-(*(T?
 (f*^[0
 +A Vj$
 +A$+Y
@@ -433,7 +433,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231007010223Z0/
+231011210525Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -462,7 +462,6 @@ $_^[]
 2c3p3
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2q#l\
 2x2v3
 3 3$34383<3D3\3l3p3
 3 3(30383@3H3P3X3`3h3p3x3
@@ -486,7 +485,6 @@ $_^[]
 311109235959Z0b1
 323<3V3`3v3
 333V3
-33m&M0
 341013235959Z0H1
 34484<4T4X4\4`4d4h4@5D5H5X5\5`5d5h5l5t5x5|5
 344|4
@@ -661,6 +659,7 @@ $_^[]
 6T6x6
 6X768
 6[7A9`9
+6\xwNq^
 6a6k6
 6c7t7}7
 7 7$7(7,7074787<7 8$8(8,808X8\8`8d8h8l8p8t8x8|8
@@ -943,6 +942,7 @@ $_^[]
 <$<,<4<<<D<L<T<\<d<x<
 <$<D<L<T<\<h<
 <$<D<P<p<|<
+<'/;L\
 <(<0<8<@<H<P<X<`<l<
 <(<P<x<
 <*=G=
@@ -1218,7 +1218,6 @@ $_^[]
 A$+A 
 A(;A,v
 A0B;W
-A4).c
 AHPQVR
 AHkO($
 AcquireSRWLockExclusive
@@ -1422,7 +1421,6 @@ GxVPR
 H-^Eu
 HP;HL
 HPQVR
-HcZTz
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Index: 
 InitOnceExecuteOnce
@@ -1495,8 +1493,10 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
+RSDSq`
 RWQSV
 RaiseException
+Rbd-i
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
 ReleaseSRWLockExclusive
@@ -1539,7 +1539,6 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
-UL>My
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
 Unhandled Exception while adding frame handler to video stream: 
@@ -1665,8 +1664,8 @@ _unlock_file
 _unlock_locales
 _wcsdup
 `.rdata
-`XPI%
 a7hIw
+aDU/R]
 abort
 address family not supported
 address in use
@@ -1741,6 +1740,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iCua%v
 identifier removed
 illegal byte sequence
 inappropriate io control operation
@@ -1842,7 +1842,6 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
-rsDkx3
 sDh|t
 setlocale
 setvbuf
@@ -1910,6 +1909,7 @@ x0c1l1
 x\SVW
 xdigit
 y'j h
+z3acq
 {L?uI
 {un'%
 |Lu?c

@@ -348,7 +348,6 @@ $< t6<$t,<+t"<vt
 .tls$ZZZ
 .xdata
 .xdata$x
-/Sm7C
 0123456789-
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
@@ -373,13 +372,14 @@ $< t6<$t,<+t"<vt
 0w0c1
 0}0i1
 130801120000Z
+1W8w7
 1eaB@
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231007010243Z0/
+231011210553Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -665,6 +665,7 @@ Auto Exposure Target:
 Auto Exposure:			
 Auto White Balance:		
 B$D+B,toD+B(
+B*^@Ld
 B0E8XAt
 BL$(A
 Backlight Compensation:		
@@ -1009,7 +1010,6 @@ H;\$H
 H;_Xt
 H;|$8u
 HHtfH
-H\E';
 H_^][
 Hc;HcK
 HcD$hH
@@ -1119,12 +1119,12 @@ PA__^[]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QiS47
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDS{
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1394,6 +1394,7 @@ d$XD9
 d$XE3
 d$`H=
 d$vI9V
+d,OfE
 destination address required
 device or resource busy
 digit
@@ -1649,7 +1650,6 @@ u%!D$@H
 u&8_rt
 u)!t$(H
 u2A8D
-uD8l+
 uJL9J,u
 uY8\$ t
 ueA8F
@@ -1672,7 +1672,6 @@ vector<bool> too long
 version
 vrcamera_api.dll
 w(HcODI
-w*O+Qk?
 wcsnlen
 wcstoul
 wrong protocol type
@@ -1688,6 +1687,7 @@ yH;YXtl
 { ATAVAWH
 { AVH
 { tjL
+{;2fS|S
 {un'%
 {x\u!H
 {|-ueH

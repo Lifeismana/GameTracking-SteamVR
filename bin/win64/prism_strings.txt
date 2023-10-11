@@ -57,6 +57,7 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
+$#5A+8
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -525,19 +526,17 @@ $9E0u
 0w0c1
 0}0i1
 130801120000Z
-1|2So<
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231007010310Z0/
+231011210619Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3!N@{3{
 311109235959Z0b1
 33s?+
 341013235959Z0H1
@@ -548,14 +547,11 @@ $9E0u
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5i:H|
 6*f(_
 6I]Dc
 6OB,n_
-7-8d#m
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7po_m
 8 t"L
 8 u"L
 8A^A\
@@ -742,7 +738,6 @@ Attempting to reinitailize estimator!
 AuthD
 Automatically quitting due to idle time > %f seconds.
 B H9B
-BaknC
 Bellevue1
 Blank
 C(H+C H
@@ -1420,6 +1415,7 @@ Prism-InitLayouts
 Prism-Main
 Prism-PrepareInput
 Prism-UpdatePanelMask
+Ptb-I
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -1427,7 +1423,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS.3n
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1573,7 +1568,6 @@ Upload raw motion vectors
 UploadMotionVectors
 Using physical device: %s
 UuidFromStringA
-V9&^a
 VATAUH
 VAVAWH
 VCRUNTIME140.dll
@@ -1675,7 +1669,6 @@ Yl$4E
 \\.\pipe\
 \mfpmp.exe
 ]J<0"0i3
-]V+/>B
 ]g@8yhu
 _Cnd_broadcast
 _Cnd_destroy
@@ -1698,7 +1691,6 @@ _TEST
 _Thrd_id
 _Thrd_join
 _Thrd_start
-_XH9v
 _Xtime_get_ticks
 __C_specific_handler
 __CxxFrameHandler3
@@ -1735,6 +1727,7 @@ _wcsnicmp
 `A_A][
 `A_A^A]A\_^[
 `A_^]
+a&@yX
 a7hIw
 abort
 acosf
@@ -1766,7 +1759,6 @@ atanf
 bad allocation
 bad array new length
 bad conversion
-c/fZ?JN
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
@@ -1884,7 +1876,6 @@ invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
-j>s(>
 jj@0HK4
 k0i0$
 l$ E3
@@ -2575,6 +2566,7 @@ www.digicert.com1$0"
 xA_A^A]A\_^[]
 yxxxxxxxH
 yxxxxxxxI+
+z;}6u
 {pH;{xw?
 {un'%
 |$ ATAUAVAWH

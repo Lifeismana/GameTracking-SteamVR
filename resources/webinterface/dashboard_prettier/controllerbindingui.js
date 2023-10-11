@@ -10483,12 +10483,34 @@
         let he = class extends i.Component {
           constructor(e) {
             super(e),
+              (this.m_KeyboardVisibilityCallbackHandle = void 0),
               (this.m_NameInput = void 0),
               (this.m_DescriptionInput = void 0),
               (this.m_NameInputCallbackHandle = void 0),
               (this.m_DescriptionCallbackHandle = void 0),
               (this.m_bSavedOnce = !1),
               (this.state = { sError: void 0 });
+          }
+          componentDidMount() {
+            this.m_KeyboardVisibilityCallbackHandle =
+              null === VRHTML || void 0 === VRHTML
+                ? void 0
+                : VRHTML.RegisterForKeyboardVisibilityChangedEvents((e) => {
+                    var t, n;
+                    e ||
+                      (null === (t = this.m_NameInputCallbackHandle) ||
+                        void 0 === t ||
+                        t.unregister(),
+                      (this.m_NameInputCallbackHandle = void 0),
+                      null === (n = this.m_DescriptionCallbackHandle) ||
+                        void 0 === n ||
+                        n.unregister(),
+                      (this.m_DescriptionCallbackHandle = void 0));
+                  });
+          }
+          componentWillUnmount() {
+            this.m_KeyboardVisibilityCallbackHandle.unregister(),
+              (this.m_KeyboardVisibilityCallbackHandle = void 0);
           }
           CloseSaveDialog() {
             null != this.m_NameInputCallbackHandle &&
@@ -20152,4 +20174,4 @@
   var i = o.O(void 0, [968, 683], () => o(1176));
   i = o.O(i);
 })();
-//# sourceMappingURL=controllerbindingui.js.map?v=614121afa2adfa916367
+//# sourceMappingURL=controllerbindingui.js.map?v=43a46962edc172d2d29e

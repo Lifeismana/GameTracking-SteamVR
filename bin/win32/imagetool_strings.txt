@@ -3176,6 +3176,7 @@ $~O="""
 .0B0q0
 .0E0J0Y0^0
 .1\H!
+.267&d
 .2C2T5
 .8"6z>
 .<Nu-V
@@ -4328,7 +4329,7 @@ $~O="""
 223E3P3a3l3
 230714000000Z
 230x323
-231007010337Z0/
+231011210642Z0/
 23282G2L2e3
 23282R2W2q2v2
 232L2e2~2
@@ -8531,7 +8532,6 @@ $~O="""
 =@C2`
 =A=U=h=R>K?^?r?}?
 =A>F>j>o>
-=B#I\
 =B=Y=c=~=
 =C=R>
 =C>+?0?
@@ -10135,7 +10135,6 @@ Cluster #%.20g
 Cluster #%.20g = %.20g
 Cluster Center Values:        (Vector Size: %d)
 Cluster Extents:        (Vector Size: %d)
-Cmnu_*J
 Cn77Y
 Coalesce
 CoalesceImages
@@ -13655,7 +13654,6 @@ IterateOverSplayTree
 IterativeDistance
 IuE8P
 Ix "H"
-J	'N<;
 J%%o\..r8
 J.2&+.(01+:=0LONXVmnl
 J0QRS
@@ -14523,6 +14521,7 @@ MSVCP140.dll
 MT$H9t$h
 MT$l;
 MTV Raytracing image format
+M_64:d
 M`SE0
 M`_^3
 Ma la volpe, col suo balzo, ha raggiunto il quieto Fido.
@@ -14777,7 +14776,6 @@ NCV;heVheWheWheWheWieVkdZneWhfQnlh
 ND;NH
 NETSCAPE
 NETSCAPE2.0
-NF1?xt
 NH_^][
 NJ2"v
 NJ5mS/iX(
@@ -18608,7 +18606,6 @@ YD$hf
 YD$x!D$X
 YDbDr
 YF ^f
-YIQk-%
 YL$$t	
 YL$(f
 YL$8F
@@ -21652,7 +21649,6 @@ i&Ma.
 i1!i6Ai;ai@
 i= BGRtZ= ZYXtI=rbCYt8
 iCCP: invalid keyword
-iDh"`
 iMW=}V
 iQYF*1(07,17-06,/3,-2-.3--2,,0+,3,)4--8-2>-2>*6C.DV;H]=^qRZlS,8.heVheVheVifWifWjeVlc\ngZhiQlup
 iTXt: invalid compression
@@ -22480,7 +22476,6 @@ n2/t.
 n?EKn?tzn?
 nD$ 3
 nF1~P8wH*n_*
-nJ5C:X
 nT$xf
 n\$xf
 n]"{7

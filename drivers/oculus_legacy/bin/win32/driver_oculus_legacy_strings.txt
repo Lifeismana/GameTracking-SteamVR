@@ -1,11 +1,12 @@
 	!s99
  %41g
  (Camera)
+!4jzb
 !hn7!
 ',=?k
-(Q	d:x
 (Unable to load LibOVR)
 (f*^[0
+*hW F
 +Xt@(
 +o'q)}
 , last executing in 
@@ -93,7 +94,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231007010332Z0/
+231011210638Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -273,6 +274,7 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Je4EB
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -315,6 +317,7 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+UgJ<`P
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -333,6 +336,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
+YC\xQ!V
 Y__^[
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -388,6 +392,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
+br!}c
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
 d3d11.dll
@@ -405,8 +410,8 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
-kvF'!
 l2|X/gGe
+lN'qB 0Z
 m0k0$
 malloc
 map/set<T> too long
@@ -473,7 +478,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-xxEFP
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

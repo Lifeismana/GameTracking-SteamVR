@@ -1023,7 +1023,6 @@ $tI
 0-pixel image
 0123456789
 0123456789ABCDEF
-01:00:21
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -1257,6 +1256,7 @@ $tI
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:04:08
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -2043,8 +2043,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1843.369470
-C.1846.369481
+C.1844.369483
+C.1847.369494
 C.413.290188
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -21640,7 +21640,7 @@ OPAQUE
 OSWaitForDebugger()
 Object
 Oct
-Oct  7 2023
+Oct 11 2023
 October
 OculusSDKStart
 OldAppQuitSent
@@ -22944,6 +22944,7 @@ Unable to parse init info. Options will be ignored
 Unable to parse perimeter
 Unable to parse presence entry '%s' in %s
 Unable to parse seated origin
+Unable to parse setup standing origin
 Unable to parse standing origin
 Unable to parse token length
 Unable to read %u bytes to offset %u in %s
@@ -23771,6 +23772,7 @@ VROverlayError_UnableToLoadFile
 VROverlayError_UnknownOverlay
 VROverlayError_WrongTransformType
 VROverlayError_WrongVisibilityType
+VROverlayFlags_EnableClickStabilization
 VROverlayFlags_EnableControlBar
 VROverlayFlags_EnableControlBarClose
 VROverlayFlags_EnableControlBarKeyboard
@@ -23778,6 +23780,7 @@ VROverlayFlags_HideLaserIntersection
 VROverlayFlags_IgnoreTextureAlpha
 VROverlayFlags_IsPremultiplied
 VROverlayFlags_MakeOverlaysInteractiveIfVisible
+VROverlayFlags_MultiCursor
 VROverlayFlags_NoDashboardTab
 VROverlayFlags_Panorama
 VROverlayFlags_ProtectedContent
@@ -29003,6 +29006,7 @@ setrlimit
 setsid
 settings
 settings/desktop
+setup_standing2
 setvbuf
 seven
 sg_bAcquireSyncInPresent

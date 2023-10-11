@@ -124,8 +124,6 @@
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
-,b-axJ8
-,yC[[
 -1e+9999
 -Infinity
 -external
@@ -634,7 +632,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231007010250Z0/
+231011210600Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1174,6 +1172,7 @@ DuplicateHandle
 E M;G
 E9e ~7I
 E@HcH
+E\83_m
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1321,6 +1320,7 @@ Infinity
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
+InqG;,
 Invalid BS1 nonce.
 Invalid adapter.
 Invalid address.
@@ -1335,6 +1335,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+KJ|h6BKc&
 K}*n:	
 L$ H+
 L$ H;
@@ -1486,6 +1487,7 @@ Notification
 OLEAUT32.dll
 OXL9OPt
 Out of thread local storage!
+P6	N1
 PA^A]_^]
 PA^_]
 PA^_^
@@ -1517,6 +1519,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSF
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1772,6 +1775,7 @@ Zipfile is corrupt or not a zipfile
 \$pH;
 \$pI;
 \Device Parameters
+\FKzt
 \u=H;
 ]J<0"0i3
 ]gfff
@@ -1905,6 +1909,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i Dh!w
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1981,6 +1986,7 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
+q@?.*l
 realloc
 s#fff
 sd_ble_cfg_set

@@ -27,7 +27,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@P
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -66,7 +66,6 @@
  H;\$Xu
  L;uX
  at line 
- e	UyL
  failed to parse: 
  for action '
  for detail.
@@ -86,7 +85,6 @@
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !BIsChildRegistered( eType, pDeletable )
 !BIsLimitReachedForChildType( eType )
-!CGB;
 !GetFrameData( unCurFrameIndex - 2 ).BIsInUse()
 !IsInUse()
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
@@ -124,7 +122,6 @@
 #9i0t
 #?RADIANCE
 #?RGBE
-#B45S2n
 #CompatibilityMode_Notification
 #D9c0t
 #D9{0t
@@ -137,7 +134,7 @@
 #OriginString_Source
 $@/pose/
 $IL+Q
-$tI(knN
+$tI(knN(86
 $u=Hi
 $u^Hi
 $w!Hc
@@ -379,6 +376,7 @@ $w!Hc
 %u != %zu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &9k0t
+&D yET
 &D9c0t
 &D9k0t
 &D9{0t
@@ -408,6 +406,7 @@ $w!Hc
 'actions' member found for legacy binding manifest. New actions cannot be added.
 'actions' member is not an array
 'f?FO-
+'lg14j
 'localization' member is not an array
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
@@ -2064,7 +2063,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231007010937Z0/
+231011211244Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2348,6 +2347,7 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
+@8= u
 @8I+@0H
 @8i(u
 @8u$t0@8u#t*
@@ -2500,6 +2500,7 @@ $w!Hc
 @WATAUAVAWH
 @WATAUH
 @WAUAWH
+@WAUH
 @WAVAWH
 @WAVH
 @_RDATA
@@ -4226,8 +4227,9 @@ H9xPt/M
 H9y r
 H9y s
 H9{`u
-H9|$ t&H
+H9|$ t-H9|$0u
 H9|$0
+H9|$0@
 H9|$0t
 H9|$@u
 H;+u*
@@ -4238,9 +4240,12 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=:W!
-H;=Z3!
-H;=jw!
+H;=*k!
+H;=:t!
+H;=J5!
+H;=Ju!
+H;=Zn!
+H;=zi!
 H;A s
 H;Axt
 H;C(v
@@ -4935,6 +4940,7 @@ L9 t'H
 L90t	H
 L93t	H
 L97u0H
+L9=3'
 L9?u,H
 L9@ s
 L9A r
@@ -5454,7 +5460,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSm
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5537,6 +5542,7 @@ S0H;X
 S0Q0O
 S8H+S0H
 S8H+S`H
+S=0t#
 SATAUAVAWH
 SATAVAWH
 SAUAWH
@@ -5876,7 +5882,6 @@ UAVAWH
 UDH;G
 UNKNOWN_ERROR
 UNNAMED
-UQZIZ
 USATAUAVAWH
 USATAUAWH
 USATAUH
@@ -6021,6 +6026,7 @@ Unable to parse init info. Options will be ignored
 Unable to parse perimeter
 Unable to parse presence entry '%s' in %s
 Unable to parse seated origin
+Unable to parse setup standing origin
 Unable to parse standing origin
 Unable to parse token length
 Unable to read %u bytes to offset %u in %s
@@ -6087,7 +6093,6 @@ User Canceled Init (116)
 User Config Directory Invalid (107)
 Using physical device: %s
 UuidFromStringA
-Ux=}n
 V0H+V H
 V0H;C
 V@I9VHt
@@ -6746,6 +6751,7 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
+W%lk'
 W0H;C
 W4H;C
 W8H+W`I
@@ -7276,6 +7282,7 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
+Y%gN&
 Y5X\"
 Y5^R"
 Y5aD"
@@ -8049,7 +8056,6 @@ capsense
 capsense_enable_threshold
 capsense_source
 category
-ceB0z
 center
 center_click
 center_region
@@ -8096,6 +8102,7 @@ controller_type
 corrupt
 count
 create
+cs00zW
 cs_cs
 cursor_index
 czech
@@ -8671,6 +8678,7 @@ l$pH;
 l$pL;l$P
 l$pM+
 l$pu'
+l$x@2
 l$xE3
 l$xHc
 l$xLc
@@ -8860,6 +8868,7 @@ off_haptic_duration
 off_haptic_frequency
 offset
 old_pid
+om^8x
 only 8-bit
 openvr
 openvr.component.vrcompositor
@@ -9085,6 +9094,7 @@ set_overlay_from_file
 set_overlay_from_file_response
 settings
 settings/desktop
+setup_standing2
 setvbuf
 shaders/d3d11/distort_cs.fxo
 shaders/d3d11/distort_cs_mc.fxo
@@ -9803,6 +9813,7 @@ t|SUVH
 t}H9=
 u	A;p(s
 u	A;y(s
+u	H9|$ tI
 u	M;p(s
 u H9x r
 u I9u(trH
@@ -10609,7 +10620,6 @@ yxxxxxxxH+
 yxxxxxxxI
 yxxxxxxxL
 yxxxxxxxL+
-z]eZu
 zh_cn
 zh_tw
 zlib corrupt

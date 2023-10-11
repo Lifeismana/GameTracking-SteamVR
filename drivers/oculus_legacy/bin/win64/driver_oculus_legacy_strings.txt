@@ -6,8 +6,8 @@
  A__^
  H3E H3E
 !hn7!
+%maTxk
 ',=?k
-(.X*TK0
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -92,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231007010519Z0/
+231011210825Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -104,8 +104,8 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4><fol!
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5>T}E.V
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -237,7 +237,6 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-Jh0uK
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -297,7 +296,6 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-T}bh-o8
 UAVAWH
 USVWATAUH
 UWAVH
@@ -321,10 +319,7 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-WgME*bM
-X1bf]}
 Y9"SD
-ZhA]y
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -348,6 +343,7 @@ _Thrd_id
 _Thrd_join
 __C_specific_handler
 __CxxFrameHandler3
+__dZt
 __std_exception_copy
 __std_exception_destroy
 __std_terminate
@@ -470,7 +466,6 @@ tXfff
 tdh.dll
 terminate
 tkH97t	H
-u..?0	
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
@@ -485,7 +480,6 @@ z(uMH
 {oculus_legacy}/icons/%s_%s_ready_alert.png
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
-{ou' 
 {un'%
 |$ AVH
 |$8I;

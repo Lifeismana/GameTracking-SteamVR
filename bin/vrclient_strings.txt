@@ -432,18 +432,18 @@ $
 .L1089
 .L109
 .L1095
+.L10963
+.L10966
+.L10968
+.L10969
 .L10970
+.L10971
+.L10972
 .L10973
+.L10974
 .L10975
 .L10976
 .L10977
-.L10978
-.L10979
-.L10980
-.L10981
-.L10982
-.L10983
-.L10984
 .L10993
 .L10995
 .L10996
@@ -456,19 +456,19 @@ $
 .L11001
 .L11002
 .L111
+.L11188
+.L11190
+.L11192
+.L11193
+.L11194
 .L11195
+.L11196
 .L11197
+.L11198
 .L11199
 .L112
 .L11200
 .L11201
-.L11202
-.L11203
-.L11204
-.L11205
-.L11206
-.L11207
-.L11208
 .L113
 .L1135
 .L11355
@@ -832,14 +832,14 @@ $
 .L15618
 .L15619
 .L15620
-.L15641
-.L15642
-.L15644
-.L15645
-.L15646
-.L15647
-.L15648
-.L15649
+.L15630
+.L15631
+.L15633
+.L15634
+.L15635
+.L15636
+.L15637
+.L15638
 .L157
 .L1573
 .L1575
@@ -2332,7 +2332,6 @@ $
 0-pixel image
 0123456789
 0123456789ABCDEF
-01:00:15
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -2534,6 +2533,7 @@ $
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:03:56
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -3270,8 +3270,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1859.370701
-C.1862.370712
+C.1860.370714
+C.1863.370725
 C.427.290275
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -22080,7 +22080,7 @@ OPAQUE
 OSWaitForDebugger()
 Object
 Oct
-Oct  7 2023
+Oct 11 2023
 October
 OculusSDKStart
 OldAppQuitSent
@@ -23309,6 +23309,7 @@ Unable to parse init info. Options will be ignored
 Unable to parse perimeter
 Unable to parse presence entry '%s' in %s
 Unable to parse seated origin
+Unable to parse setup standing origin
 Unable to parse standing origin
 Unable to parse token length
 Unable to read %u bytes to offset %u in %s
@@ -24112,6 +24113,7 @@ VROverlayError_UnableToLoadFile
 VROverlayError_UnknownOverlay
 VROverlayError_WrongTransformType
 VROverlayError_WrongVisibilityType
+VROverlayFlags_EnableClickStabilization
 VROverlayFlags_EnableControlBar
 VROverlayFlags_EnableControlBarClose
 VROverlayFlags_EnableControlBarKeyboard
@@ -24119,6 +24121,7 @@ VROverlayFlags_HideLaserIntersection
 VROverlayFlags_IgnoreTextureAlpha
 VROverlayFlags_IsPremultiplied
 VROverlayFlags_MakeOverlaysInteractiveIfVisible
+VROverlayFlags_MultiCursor
 VROverlayFlags_NoDashboardTab
 VROverlayFlags_Panorama
 VROverlayFlags_ProtectedContent
@@ -28403,6 +28406,7 @@ setrlimit
 setsid
 settings
 settings/desktop
+setup_standing2
 setvbuf
 seven
 sg_bAcquireSyncInPresent

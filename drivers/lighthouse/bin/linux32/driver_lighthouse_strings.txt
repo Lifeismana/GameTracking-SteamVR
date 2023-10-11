@@ -2425,7 +2425,6 @@ $tI
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:00:15
 0A
 0x
 0x%08llx
@@ -2497,6 +2496,7 @@ $tI
 20CLighthouseHmdDriver
 20IVRAudioNotification
 21
+21:03:56
 22
 22CKeyframedDataResource
 22CLighthouseHmdProvider
@@ -6021,7 +6021,7 @@ OPAQUE
 OTGT timed out
 Object
 Oct
-Oct  7 2023
+Oct 11 2023
 October
 Ok
 Old Normal: %f %f %f

@@ -1,10 +1,9 @@
 	!s99
  %41g
- ecbJ
+ 'o&1
 !hn7!
-&X4Ck
+"cxqC
 ',=?k
-(CJm@
 (f*^[0
 +Xt@(
 +o'q)}
@@ -55,6 +54,7 @@
 .text$x
 .text$yd
 .xdata$x
+/T"(G-mn
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -88,7 +88,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231007010325Z0/
+231011210630Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -154,7 +154,6 @@
 @.data
 @.reloc
 Bellevue1
-D>R4!
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 20230
@@ -167,6 +166,7 @@ GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
+H$ CEq
 H-^Eu
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
@@ -211,8 +211,6 @@ VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-Vo/:I
-Vwh1<u
 Washington1
 Y9"SD
 Y__^[
@@ -254,7 +252,6 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-bk8#O
 c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
 displayFrequency
 driver_null

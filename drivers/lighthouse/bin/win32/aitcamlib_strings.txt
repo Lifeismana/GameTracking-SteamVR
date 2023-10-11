@@ -1,12 +1,14 @@
 																																																																																																																
 	!s99
  %41g
+ 6M)'P
 !(0)"
 !9~ t
 !hn7!
 #*1892+$
 #?RADIANCE
 #?RGBE
+#Wx	G,d
 $9^ t
 %,3:;4-&
 %3333
@@ -22,6 +24,7 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
++($]w
 +Xt@(
 +o'q)}
 , last executing in 
@@ -172,7 +175,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231007010226Z0/
+231011210530Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -466,11 +469,10 @@ InitializeCriticalSectionEx
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J*/j="
 J>@G_
 KERNEL32.dll
-K_*b!
 K}*n:	
-L!Il28
 L?n(Zy&
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
@@ -483,6 +485,7 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
+N|K)'
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
@@ -493,6 +496,7 @@ PQhX+
 PauseCamera
 PauseCamera (delayed...)
 PauseCamera (immediate)
+Pcbqm"
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
@@ -500,7 +504,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
-RSDSq#
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -726,6 +729,7 @@ es_mx
 etronlib
 expected marker
 f;A*stSW
+fNw^G
 fi_fi
 finnish
 first not IHDR
@@ -758,7 +762,6 @@ korean
 l2|X/gGe
 latam
 ldexp
-lm^T)
 m0k0$
 malloc
 map/set<T> too long
@@ -782,7 +785,6 @@ not GIF
 not HDR
 not PSD
 not enough pixels
-oSpDm
 only 8-bit
 outofdata
 outofmem
@@ -824,6 +826,7 @@ tr_tr
 turkish
 u"h(~
 u(_^[
+u2D;F`
 u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C
 uCVj@
@@ -849,13 +852,11 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-xDsoZ
 zh_cn
 zh_tw
 zlib corrupt
 {un'%
 |Lu?c
 }LuHO
-~7iJ!4
 ~qj#k"
 ~t&LN
