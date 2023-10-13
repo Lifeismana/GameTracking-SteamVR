@@ -2004,6 +2004,7 @@
             "Hmd_SupportsGpuBusMonitoring_Bool"),
           (ge[(ge.DriverProvidedIPDVisibility_Bool = 2108)] =
             "DriverProvidedIPDVisibility_Bool"),
+          (ge[(ge.Prop_Driver_Reserved_01 = 2109)] = "Prop_Driver_Reserved_01"),
           (ge[(ge.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (ge[(ge.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -2714,4 +2715,4 @@
   var o = i.O(void 0, [968, 683], () => i(4603));
   o = i.O(o);
 })();
-//# sourceMappingURL=scenegraphtest.js.map?v=66f704f0243129724a18
+//# sourceMappingURL=scenegraphtest.js.map?v=d4f4ef88aa3d730c887b

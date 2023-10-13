@@ -912,7 +912,7 @@ $@
 20CVkCommandBufferPool
 20IVRAudioNotification
 21
-21:04:08
+21:06:09
 22
 22CKeyframedDataResource
 22CLighthouseHmdProvider
@@ -4962,7 +4962,7 @@ OPAQUE
 OTGT timed out
 Object
 Oct
-Oct 11 2023
+Oct 13 2023
 October
 Ok
 Old Normal: %f %f %f
@@ -5270,6 +5270,7 @@ RemindVersion
 RemoveLast
 RenderDoc connected
 RenderDoc::CCaptureScope::CCaptureScope(VkInstance_T*)
+RenderDoc::CCaptureScope::CCaptureScope(void*)
 RenderDoc::CCaptureScope::~CCaptureScope()
 RenderDoc::Initialize()
 RenderDoc::TriggerCapture()

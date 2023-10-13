@@ -368,7 +368,6 @@ $tI<unknown>
 ' value is not an integer type.
 ',=?k
 '.5<=6/7>????????????????
-'Ub=0
 '[', '{', or a literal
 'uri' is missing from non binary glTF file buffer.
 (0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
@@ -1191,7 +1190,7 @@ $tI<unknown>
 223R3]3
 223Z3
 230714000000Z
-231011210628Z0/
+231013210902Z0/
 241009235959Z0a1
 242D2H2X2\2`2d2l2
 242P2
@@ -1738,6 +1737,7 @@ $tI<unknown>
 5n6x6
 5t3j>h
 5t6j7
+5}n, >
 6	6_6s6
 6	7c7z7
 6 6$6(6,60646
@@ -2671,7 +2671,6 @@ $tI<unknown>
 ;@;L;T;t;
 ;@;c;
 ;@<T<<>
-;@|AO
 ;A<m<z<
 ;ADt!
 ;ADt$
@@ -2717,6 +2716,7 @@ $tI<unknown>
 ;Z=e=
 ;[;l;
 ;[<>>x?
+;[X#U
 ;\<`<d<h<
 ;]<<>^>
 ;_<g<
@@ -3120,6 +3120,7 @@ $tI<unknown>
 >E?L?V?
 >F?T?
 >F?U?
+>GB=a
 >I>x>
 >I?n?
 >KPm?
@@ -4082,7 +4083,6 @@ Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x
 Gl;Gx|fj#h
 Gp_^]
 H*0"ZOW
-H*:q@Z
 H-^Eu
 H0L0P0T0l0%1i1
 H1L1P1T1X1\1`1d1h1l1p1t1x1|1
@@ -4124,7 +4124,6 @@ HidD_SetFeature
 HidP_GetCaps
 HmdDeviceConnect( %u, %u, %llu, %llu )
 HmdDriverFactory
-I$7bc
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u
 IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x
@@ -4392,7 +4391,6 @@ MFCreateSample
 MFCreateSample failed: hr = 0x%08x
 MIPI Init
 MIPI Init Error
-MIdG&
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for
 MainSteamVR
@@ -5391,6 +5389,7 @@ Z* ,
 ^<Q9C
 ^X_^[
 ^[;Glv
+^h"]T
 ^oEZ_
 _,9_0t-
 _0_[]
@@ -6781,7 +6780,6 @@ y/Ph<
 y/Phh
 y/Phx
 y1j\h@
-y2<S>
 y3jVh@
 y4+A0
 yxxx+
@@ -6833,6 +6831,8 @@ znear
 ||E~f
 }	jCh``
 }/lighthouse_scale.json
+}1YNAB;
+}@c5$L
 }LuHO
 }M?/n
 }Pjdj

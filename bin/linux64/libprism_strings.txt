@@ -505,7 +505,7 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-21:04:08
+21:06:09
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -2249,7 +2249,7 @@ Null Client
 O
 O"
 Oct
-Oct 11 2023
+Oct 13 2023
 October
 OnPreSubmit
 Out of thread local storage!
@@ -2459,6 +2459,7 @@ RegisterDestinationImage
 ReleaseThreadHandle
 Remap
 RenderDoc::CCaptureScope::CCaptureScope(VkInstance_T*)
+RenderDoc::CCaptureScope::CCaptureScope(void*)
 RenderDoc::CCaptureScope::~CCaptureScope()
 RenderDoc::Initialize()
 RenderDoc::TriggerCapture()

@@ -103,7 +103,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231011210616Z0/
+231013210851Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -123,6 +123,7 @@
 3mq+<
 4 4$4(4,404
 4$4H4T4\4|4
+4C/{,
 4I4R4c4o4{4
 4[4~4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -198,7 +199,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-F=%[K)w
+ELNn.
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -207,7 +208,6 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 H-^Eu
-HM/qI
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -289,6 +289,7 @@ Valve Corp.1
 WakeAllConditionVariable
 Washington1
 Y9"SD
+YN+Jf
 Y__^[
 [K]taM?
 ]J<0"0i3
@@ -361,8 +362,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-xhwZlc
-{*(=/
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

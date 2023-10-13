@@ -75,7 +75,7 @@ $Vh&*
 &060K0S0X0
 ' is not a number.
 ',=?k
-'_)2It
+'rI(:
 ()$^.*+?[]|\-{},:=!
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
@@ -709,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231011210535Z0/
+231013210753Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1432,7 +1432,6 @@ $Vh&*
 @d;Cd
 A valid JSON document must be either an array or an object value.
 A98t	
-A;I{	
 ACL_DATA_PACKET
 ADVAPI32.dll
 Address:  %s
@@ -1671,6 +1670,7 @@ Extended Error: %s, %s
 F	^[]
 F(j4f
 F0R0w0}0
+F5RRh
 F<\uD
 FH;FDu
 FH<au
@@ -1787,6 +1787,7 @@ Line %d, Column %d
 LocalFree
 Looking for external adpater.
 Looking for internal adpater.
+Lv"a}7B
 MB(iVR
 MSVCP140.dll
 MTU exchange request reply failed. (nrf_error: %s)
@@ -1906,9 +1907,10 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueueUserAPC
+Q{(Fg
 RESERVED_5
 RESET_PERFORMED
-RSDSY
+RSDST
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2068,6 +2070,7 @@ VjqSPW
 VjrSPW
 VjySPW
 Vj{SPW
+W3N*/
 W9shvN3
 WAKEUP
 WOKEN
@@ -2089,6 +2092,7 @@ Write to SOB Channel.
 WriteFile
 XX.XX.XXXXXXX
 Y9"SD
+YQMATd
 Y__^[
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -2170,7 +2174,6 @@ _stricmp
 _strlwr
 _strnicmp
 _strupr_s
-` Vd1m	f
 `.rdata
 a7hIw
 a9~@u
@@ -2285,7 +2288,6 @@ memcpy
 memmove
 memset
 mutex
-n*$IO
 need dictionary
 nrfserlib.dll
 ole32.dll
@@ -2294,7 +2296,6 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
-q_a	jE
 realloc
 s?=2N
 sd_ble_cfg_set

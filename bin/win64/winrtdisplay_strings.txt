@@ -6,10 +6,8 @@
  A_^]
  A__^
  H3E H3E
-!OLXk
 !hn7!
 !m_bIsConnected
-#4!Xa
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
@@ -119,7 +117,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231011210449Z0/
+231013210810Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -133,7 +131,6 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5P+`h=
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -238,6 +235,7 @@ InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Jq<O*
 KERNEL32.dll
 K}*n:	
 L$ SH
@@ -267,6 +265,7 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S&W;cY
 S0Q0O
 SA|X=G
 SVWATAUAVAWH
@@ -315,6 +314,7 @@ WindowsGetStringRawBuffer
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
+X]K5ma
 Y9"SD
 [K]taM?
 \$ H;
@@ -367,6 +367,7 @@ c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdi
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
+e`>L^
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -385,6 +386,7 @@ memmove
 memset
 ntelD
 ole32.dll
+s1W`g
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -402,6 +404,7 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
+yM$7?
 {un'%
 |$ AVH
 |$0E3

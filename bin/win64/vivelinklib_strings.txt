@@ -76,6 +76,7 @@
 %s: Timeout.
 %s: Unknown component type %d.
 %s: WriteFile failed! (%s)
+&Rr+	l
 ' is not a number.
 ',=?k
 ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
@@ -104,6 +105,7 @@
 (t$PA;
 (t$PH
 (t$`M
+)$+ds
 )D$ L
 )t$@H
 )t$PA
@@ -205,6 +207,7 @@
 .xdata
 .xdata$x
 /f /s
+0/Cf>M
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
@@ -228,7 +231,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231011210605Z0/
+231013210932Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -250,6 +253,7 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7}xnuH@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8EC90001F3154F609FB8838830DAEA50
@@ -257,7 +261,6 @@
 8EC90003F3154F609FB8838830DAEA50
 8L$4tNH
 8_^][
-9@N]p
 9\u-H
 9\u4H
 9sdu	@8s
@@ -271,7 +274,6 @@
 ======================
 ==============================
 => Entering Context
-=[t!t
 =rIQU
 >"t H
 >"t-H
@@ -702,6 +704,7 @@ Invalid nonce %d
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JV6gB
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
@@ -730,6 +733,7 @@ L$`L9t$`tW
 L$`t I
 L$pE3
 L+g@M
+L8&v`Jc
 L8(fA
 L9d$X
 L9|$p
@@ -808,7 +812,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSB-$
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1043,10 +1046,7 @@ Windows NT
 Windows Vista
 Windows XP
 WriteFile
-X1#[IY
 XA]A\_^
-Xi.|e
-XlsP_l
 Y9"SD
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1243,6 +1243,7 @@ ntelD
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
+oxe^M
 p UWATAVAWH
 print
 punct

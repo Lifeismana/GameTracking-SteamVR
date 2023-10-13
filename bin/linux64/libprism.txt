@@ -3490,6 +3490,7 @@
  t ReapChildProcesses(int)
  t ReleaseThreadHandle
  t RenderDoc::CCaptureScope::CCaptureScope(VkInstance_T*)
+ t RenderDoc::CCaptureScope::CCaptureScope(void*)
  t RenderDoc::CCaptureScope::~CCaptureScope()
  t RenderDoc::Initialize()
  t RenderDoc::TriggerCapture()

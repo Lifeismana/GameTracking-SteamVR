@@ -44,6 +44,7 @@
 !hn7!
 %u.%u
 %u.%u.%u
+&O)^f
 ' is not a number.
 ',=?k
 (A^A]^[
@@ -58,6 +59,7 @@
 (unknown)
 )D$ L
 )t$ H
++T$TU4|?
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -116,7 +118,6 @@
 .data
 .data$r
 .edata
-.fN<s
 .idata$2
 .idata$3
 .idata$4
@@ -164,7 +165,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231011210855Z0/
+231013211224Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -177,6 +178,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4#,{E
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -192,6 +194,7 @@
 =rIQU
 >0<0:
 >Mp$d
+>cU=MH
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -281,6 +284,7 @@
 @UWAVAWH
 @VATAVH
 @VWAVH
+@bN/4
 A valid JSON document must be either an array or an object value.
 A(t	H
 ADVAPI32.dll
@@ -336,6 +340,7 @@ CL$0H
 CL$0K
 CL$@E3
 CL$`H
+CO&AgWQ
 CT$@E
 CT$XH
 C\$0L
@@ -392,6 +397,7 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Duplicate key: '
 E8,9u
+Eb/If
 Empty escape sequence in string
 EnterCriticalSection
 Entering LoaderInstance::CreateInstance
@@ -459,7 +465,6 @@ Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-K*i*J
 KERNEL32.dll
 K}*n:	
 L#A0L
@@ -503,6 +508,7 @@ M H1E
 M98u/
 MB(iVR
 MSVCP140.dll
+MWb:0
 ManifestFile::IsValidJson - JSON "file_format_version" 
 ManifestFile::IsValidJson - JSON file missing "file_format_version"
 ManifestFile::ParseCommon 
@@ -568,7 +574,6 @@ T$0H;
 T$HE3
 T$PH;
 T$xE3
-T&YO*
 TUUUUUU
 Type is not convertible to string
 UATAUAVAWH
@@ -590,7 +595,6 @@ Unknown error occurred calling down chain
 Unknown exception
 Unknown failure
 Unknown failure: 
-Uuk*OZ
 V H+V
 V I9V(t L
 VATAUAVAWH
@@ -671,7 +675,6 @@ _Cnd_init_in_situ
 _Cnd_signal
 _Cnd_wait
 _CxxThrowException
-_D4":
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
@@ -774,6 +777,7 @@ gfffffffI+
 gfffffffL+
 gfffffffM
 hA_A^][
+hZ^Om?
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -813,7 +817,6 @@ layer
 library_path
 list<T> too long
 localeconv
-m.LIS
 m0k0$
 malloc
 map/set<T> too long
@@ -830,6 +833,7 @@ openxr_loader.dll
 rejectDupKeys
 runtime
 s t#fff
+s$3W;J
 setvbuf
 something wrong with XrInstanceCreateInfo contents
 stackLimit
@@ -868,6 +872,7 @@ unknown type in properties
 v=Y]Bv
 vector<T> too long
 verbose
+wA	e@ 
 www.digicert.com1!0
 www.digicert.com1$0"
 xrAcquireSwapchainImage

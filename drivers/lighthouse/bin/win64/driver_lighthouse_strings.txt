@@ -597,7 +597,6 @@ $w!Hc
 %u != %zu
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
-%yZe[qm
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &9k0t
 &D9c0t
@@ -625,6 +624,7 @@ $w!Hc
 '[', '{', or a literal
 'f?FO-
 'uri' is missing from non binary glTF file buffer.
+'xQ$&
 (;^,|
 (;s,|
 (A\^][
@@ -873,7 +873,6 @@ $w!Hc
 *H+KXI
 *T$4I
 *uXI;
-*ziRl
 +C,+C
 +D9c0t H
 +Xt@(
@@ -1218,6 +1217,7 @@ $w!Hc
 .lighthouse.pb.CVec3
 .pdata
 .placeholder.proto
+.rLms
 .rdata
 .rdata$T
 .rdata$r
@@ -1398,7 +1398,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231011210722Z0/
+231013211050Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1421,12 +1421,10 @@ $w!Hc
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5z0/- T
 6*f(_
 6<framesToThrottle
 6I]Dc
 6OB,n_
-6_!>	
 6p7M=:P_:}u
 70503
 7HcC,
@@ -3433,6 +3431,7 @@ GetWindowLongPtrA
 Getting devnode property store failed: hr = 0x%08x
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x
 GxiV@
+Gy:CrE
 H I;	r
 H SVWH
 H SWH
@@ -4537,6 +4536,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
+RSDSC
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4662,7 +4662,6 @@ SWAUAVH
 SWAUAWH
 SWAUH
 SWAWH
-S\(;D
 S\9SXuv
 Samples didn't yield successful bootstrap pose
 Saved LighthouseDB rev %u to %s
@@ -5089,7 +5088,6 @@ Utah EV2
 Utah MP
 UuidFromStringA
 V H+V
-V'(qG#
 V2 HMD with bogus trackrefs detected in configuration:
 V8H;C
 VATAUAVH
@@ -5649,6 +5647,7 @@ ZL$Xf
 \\.\pipe\
 \\\\\\\\
 \d$`f
+\fl8Z
 \mfpmp.exe
 \u=H;
 \x%02x
@@ -5948,7 +5947,6 @@ byteStride
 bytes
 c H9K
 c0D9cTt$D
-c0K6f
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
@@ -6526,7 +6524,6 @@ isspace
 it_it
 italian
 ix`fA
-i~mgp
 ja_jp
 japanese
 java_generate_equals_and_hash
@@ -6650,7 +6647,6 @@ location
 low_mm
 m0_$@
 m0k0$
-mYx7b4
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_data.details.hImportHandle.Valid()
@@ -6726,6 +6722,7 @@ multiple IHDR
 multiple signals per batch not allowed
 muteMicMonitor
 n0_D@
+n2(/#XDe^
 nArrayIndex < m_details.nArrayLayerCount
 nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
@@ -8080,7 +8077,6 @@ zuusA
 |$xHcF4
 |$xIi
 |$xIk
-|?"g@
 |@E;F
 |D;k(|?uyH
 |Lu?c

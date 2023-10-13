@@ -8,6 +8,7 @@
 	!s99
 	<bu 
 	@81t/@8q
+	{g#z
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -75,6 +76,7 @@
 %s: Failed in state: %d (nrf_error: %s)
 ' is not a number.
 ',=?k
+'2g %
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
 (A^A]A\^
@@ -632,7 +634,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231011210600Z0/
+231013210928Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -888,6 +890,7 @@ A_A^_^]
 A__^[]
 A__^]
 Address:  %s
+AhR0Q
 Already open
 Attribute Discovery
 AuthD
@@ -1172,7 +1175,6 @@ DuplicateHandle
 E M;G
 E9e ~7I
 E@HcH
-E\83_m
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1320,7 +1322,6 @@ Infinity
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
-InqG;,
 Invalid BS1 nonce.
 Invalid adapter.
 Invalid address.
@@ -1335,7 +1336,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KJ|h6BKc&
 K}*n:	
 L$ H+
 L$ H;
@@ -1487,7 +1487,6 @@ Notification
 OLEAUT32.dll
 OXL9OPt
 Out of thread local storage!
-P6	N1
 PA^A]_^]
 PA^_]
 PA^_^
@@ -1519,7 +1518,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSF
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1661,6 +1659,7 @@ TlsGetValue
 TlsSetValue
 Trying to send packets to device when serial device is closed is not supported.
 Trying to send unknown control packet to device. 
+U,+ek9
 UATAUAVAWH
 UATAVH
 UAVAWH
@@ -1775,7 +1774,7 @@ Zipfile is corrupt or not a zipfile
 \$pH;
 \$pI;
 \Device Parameters
-\FKzt
+\T&US
 \u=H;
 ]J<0"0i3
 ]gfff
@@ -1909,7 +1908,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i Dh!w
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1986,7 +1984,6 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
-q@?.*l
 realloc
 s#fff
 sd_ble_cfg_set

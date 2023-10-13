@@ -2100,7 +2100,6 @@ $wtpt
 '@Ck1t
 'I'z'
 'I;E 
-'Icd:
 'Q?KVQ?
 '^{.f
 'aE<"
@@ -2650,6 +2649,7 @@ $wtpt
 *tDIc
 *v%.20gI
 *v%da%db%dc%.20gI
++	p:8
 +1D+1D
 +4@C6
 +6+i+
@@ -3719,7 +3719,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231011210847Z0/
+231013211217Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3846,7 +3846,6 @@ $wtpt
 3x4+1+2:0,-,- 1,1,1 1,1,1 -,-,0
 4 +!(K
 4#SDp
-4$j#;)
 4'D"'
 4+4e4
 4+Fqj
@@ -5041,7 +5040,6 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-
 ABRF ASCII Braille format
 ACCEPT
-ACDEx5
 AClassify
 AD(R!D
 AD9A$
@@ -7356,7 +7354,6 @@ E-@9KZ
 E-\q-i
 E0H+C(H
 E0Ic@
-E1VNZ
 E8(tV
 E8(tZ
 E8,?u
@@ -7535,6 +7532,7 @@ Error flushing string: %s
 Error on line %d char %d: 
 Error on line %d: %s
 Error parsing value string
+ErvS#1H
 EscapeParenthesis
 EscapeString
 Estimated Radiographic Magnification Factor
@@ -7673,7 +7671,6 @@ FXH)F(
 FXL98t^
 FXL98u
 F`H)F0H
-Faa/Cz*o
 Failed SOP Instance UID List
 Failed SOP Sequence
 Failed to allocate memory
@@ -9858,6 +9855,7 @@ LABEL
 LACpH
 LACpu
 LACsu
+LAN-!3
 LANGUAGE
 LATIN1
 LAUNCH
@@ -10486,7 +10484,6 @@ N H;N(H
 N%NnN
 N-ERH%
 N0N94
-N4@BHp
 N8HcF
 N9OaP
 N=([Etb
@@ -11656,7 +11653,6 @@ Q H;Q(
 Q Z# 
 Q$A9P$y
 Q(H+Q H
-Q4*TFL
 Q>JBR>L
 QC)\C
 QCannot load font '%s
@@ -11758,6 +11754,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDSK
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -13285,7 +13282,6 @@ Thumb::Mimetype
 Thumb::Size
 Thumb::URI
 ThumbnailImage
-TibF+
 Tibetan
 Tifinagh
 Tile image with a texture
@@ -14305,6 +14301,7 @@ Zoom Select Status
 [XH;w8|
 [XL;w8|
 [built-in]
+[dh[*
 [fa=3HC/
 [ghostscript library %.2f]
 [ghostscript library %.2f]%s: %s
@@ -16412,6 +16409,7 @@ format_char == 'e' || format_char == 'E' || format_char == 'f' || format_char ==
 foundry
 fputc
 fputs
+fq;ZQn
 fractal
 fraction
 fractional pen position
@@ -17807,6 +17805,7 @@ m=4vTNG@3.9)1<.7:2686280-9*6D29H616,,-"@J1z
 m>EKn>
 m@Nj@y
 mLCg"R
+mTT72
 macintosh
 macron
 magenta
@@ -18079,7 +18078,6 @@ o?T7o?
 o?d#p?
 oD) f
 oD)0f
-oS2f.
 oXiM?;)3)"%+!+/&:&*C))TN:hqRh
 o_fvIGV4^kQKQ5:;#88/8B/i
 oacute
@@ -18836,6 +18834,7 @@ s?? yish???go b
 sCH;]@u"L
 sFFoA
 sFFou
+sH3!b
 sND8l
 sPLT chunk has bad length
 sPLT chunk requires too much memory

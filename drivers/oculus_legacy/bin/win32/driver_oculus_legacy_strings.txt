@@ -1,12 +1,10 @@
 	!s99
  %41g
  (Camera)
-!4jzb
 !hn7!
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
-*hW F
 +Xt@(
 +o'q)}
 , last executing in 
@@ -85,6 +83,7 @@
 1$1(1,1014181<1@1D1H1h1l1
 1%1*10181@1E1K1S1[1`1f1n1v1{1
 1(2L2x2
+127U6
 130801120000Z
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
 2#2+23282>2F2N2S2Y2a2i2n2t2|2
@@ -94,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231011210638Z0/
+231013210912Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -118,6 +117,7 @@
 4 4$4<4@4H4`4p4t4
 4#4/4>4T4Z4_4e4p4v4
 4%4/494C4M4W4a4k4z4
+4&)@&+b
 4'4L4n4
 4(414:4C4L4+5D5H5L5P5T5X5\5`5
 4/5C5M5X5}5
@@ -274,7 +274,7 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-Je4EB
+Jt|3c
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -282,6 +282,7 @@ LIBOVR_DLL_DIR
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
 LoadLibraryW
+LxL_!U5s
 MB(iVR
 MSVCP140.dll
 MainThrd
@@ -296,6 +297,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
+RSDSi		
 RaiseException
 S0Q0O
 SA|X=G
@@ -317,7 +319,6 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-UgJ<`P
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -336,7 +337,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-YC\xQ!V
 Y__^[
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -392,7 +392,6 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-br!}c
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
 d3d11.dll
@@ -411,7 +410,6 @@ jdjdh
 jj@0HK4
 k0i0$
 l2|X/gGe
-lN'qB 0Z
 m0k0$
 malloc
 map/set<T> too long
@@ -489,6 +487,7 @@ www.digicert.com1$0"
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
 |Lu?c
+}HE.T
 }LuHO
 ~qj#k"
 ~t&LN

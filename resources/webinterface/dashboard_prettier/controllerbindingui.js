@@ -2058,6 +2058,7 @@
             "Hmd_SupportsGpuBusMonitoring_Bool"),
           (Me[(Me.DriverProvidedIPDVisibility_Bool = 2108)] =
             "DriverProvidedIPDVisibility_Bool"),
+          (Me[(Me.Prop_Driver_Reserved_01 = 2109)] = "Prop_Driver_Reserved_01"),
           (Me[(Me.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (Me[(Me.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -15688,19 +15689,31 @@
             );
           }
           BShouldShowDashboardAction(e) {
-            var t, n;
+            var t, n, o;
             switch (e) {
               case Y.ToggleRoomView:
                 const e =
                     null !== (t = y.G3.settings.get(u.Av)) && void 0 !== t && t,
-                  o =
+                  i =
                     null !== (n = y.G3.settings.get(u.k_)) && void 0 !== n
                       ? n
                       : 0,
-                  i = VRHTML.BIsLinkServer();
-                return e && o > 0 && !(this.state.bLinkStreamActive && i);
+                  r = VRHTML.BIsLinkServer();
+                return e && i > 0 && !(this.state.bLinkStreamActive && r);
               case Y.Recenter:
-                return !0;
+                return (
+                  1 !=
+                  (null !==
+                    (o =
+                      null === VRHTML || void 0 === VRHTML
+                        ? void 0
+                        : VRHTML.VRProperties.GetInt32Property(
+                            "/user/head",
+                            2109
+                          )) && void 0 !== o
+                    ? o
+                    : 0)
+                );
               case Y.IncognitoMode:
               default:
                 return !1;
@@ -20174,4 +20187,4 @@
   var i = o.O(void 0, [968, 683], () => o(1176));
   i = o.O(i);
 })();
-//# sourceMappingURL=controllerbindingui.js.map?v=43a46962edc172d2d29e
+//# sourceMappingURL=controllerbindingui.js.map?v=739e313edddd233cd8a5

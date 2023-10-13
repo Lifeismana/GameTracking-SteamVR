@@ -2114,6 +2114,7 @@
               "Hmd_SupportsGpuBusMonitoring_Bool"),
             (e[(e.DriverProvidedIPDVisibility_Bool = 2108)] =
               "DriverProvidedIPDVisibility_Bool"),
+            (e[(e.Prop_Driver_Reserved_01 = 2109)] = "Prop_Driver_Reserved_01"),
             (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
               "DriverRequestedMuraCorrectionMode_Int32"),
             (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -7146,19 +7147,31 @@
             );
           }
           BShouldShowDashboardAction(e) {
-            var t, r;
+            var t, r, n;
             switch (e) {
               case Y.ToggleRoomView:
                 const e =
                     null !== (t = b.G3.settings.get(h.Av)) && void 0 !== t && t,
-                  n =
+                  i =
                     null !== (r = b.G3.settings.get(h.k_)) && void 0 !== r
                       ? r
                       : 0,
-                  i = VRHTML.BIsLinkServer();
-                return e && n > 0 && !(this.state.bLinkStreamActive && i);
+                  o = VRHTML.BIsLinkServer();
+                return e && i > 0 && !(this.state.bLinkStreamActive && o);
               case Y.Recenter:
-                return !0;
+                return (
+                  1 !=
+                  (null !==
+                    (n =
+                      null === VRHTML || void 0 === VRHTML
+                        ? void 0
+                        : VRHTML.VRProperties.GetInt32Property(
+                            "/user/head",
+                            2109
+                          )) && void 0 !== n
+                    ? n
+                    : 0)
+                );
               case Y.IncognitoMode:
               default:
                 return !1;
@@ -11632,4 +11645,4 @@
   var i = n.O(void 0, [968, 683], () => n(4599));
   i = n.O(i);
 })();
-//# sourceMappingURL=bindingcallouts.js.map?v=2232e4bdd958ffef260f
+//# sourceMappingURL=bindingcallouts.js.map?v=7d5330b755b7c42a3b72

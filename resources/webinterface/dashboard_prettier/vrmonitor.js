@@ -2057,6 +2057,7 @@
             "Hmd_SupportsGpuBusMonitoring_Bool"),
           (De[(De.DriverProvidedIPDVisibility_Bool = 2108)] =
             "DriverProvidedIPDVisibility_Bool"),
+          (De[(De.Prop_Driver_Reserved_01 = 2109)] = "Prop_Driver_Reserved_01"),
           (De[(De.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
             "DriverRequestedMuraCorrectionMode_Int32"),
           (De[(De.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -6074,19 +6075,31 @@
             );
           }
           BShouldShowDashboardAction(e) {
-            var t, r;
+            var t, r, n;
             switch (e) {
               case Y.ToggleRoomView:
                 const e =
                     null !== (t = b.G3.settings.get(m.Av)) && void 0 !== t && t,
-                  n =
+                  o =
                     null !== (r = b.G3.settings.get(m.k_)) && void 0 !== r
                       ? r
                       : 0,
-                  o = VRHTML.BIsLinkServer();
-                return e && n > 0 && !(this.state.bLinkStreamActive && o);
+                  i = VRHTML.BIsLinkServer();
+                return e && o > 0 && !(this.state.bLinkStreamActive && i);
               case Y.Recenter:
-                return !0;
+                return (
+                  1 !=
+                  (null !==
+                    (n =
+                      null === VRHTML || void 0 === VRHTML
+                        ? void 0
+                        : VRHTML.VRProperties.GetInt32Property(
+                            "/user/head",
+                            2109
+                          )) && void 0 !== n
+                    ? n
+                    : 0)
+                );
               case Y.IncognitoMode:
               default:
                 return !1;
@@ -11375,4 +11388,4 @@
   var o = n.O(void 0, [968, 683], () => n(7923));
   o = n.O(o);
 })();
-//# sourceMappingURL=vrmonitor.js.map?v=0345e5c2c7226df20537
+//# sourceMappingURL=vrmonitor.js.map?v=16272c183887ff4ffc2a
