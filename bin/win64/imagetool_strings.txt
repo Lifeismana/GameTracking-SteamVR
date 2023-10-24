@@ -2649,7 +2649,6 @@ $wtpt
 *tDIc
 *v%.20gI
 *v%da%db%dc%.20gI
-+	p:8
 +1D+1D
 +4@C6
 +6+i+
@@ -3719,7 +3718,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231013211217Z0/
+231023235247Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3913,6 +3912,7 @@ $wtpt
 6MQ8u
 6OB,n_
 6gc6n
+6j>Kp9
 6p#F'
 6ukE3
 6x6+0+0
@@ -4131,6 +4131,7 @@ $wtpt
 :NF& 
 :RS	x 
 :\FSY$
+:^2U8
 :acspMSFT
 :gscP
 :hC4$
@@ -4392,6 +4393,7 @@ $wtpt
 =3~<1~:.|9/|90z92v80j8/h8/f7,e7-e7,i60i70f6.h;2nLB88314,37-56+37)/9+09*.8*/8,8A2;C201$DM:o
 =41J)
 =7$>8L>9t>:
+=8pRY9	 
 ==!!=!!!!!!!!!!!!!!!!!!===!!!!!!!!!!!!!!!!!!!!!!!!=!!!!!!!!!=!==!!!!!!!===!====!!!!!!=!=!!!!!!!!======!!!!!!!!!!==!!!============&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&====
 ==((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
 ===                                                                           
@@ -5045,6 +5047,7 @@ AD(R!D
 AD9A$
 AD9A@|L
 AD;BDs
+ADN^@P
 ADVAPI32.dll
 AEVhdIf
 AFPL Ghostscript
@@ -7532,7 +7535,6 @@ Error flushing string: %s
 Error on line %d char %d: 
 Error on line %d: %s
 Error parsing value string
-ErvS#1H
 EscapeParenthesis
 EscapeString
 Estimated Radiographic Magnification Factor
@@ -9426,6 +9428,7 @@ KpH;Kx
 Kristala jan dezaket, ez dit minik ematen.
 Kx	C`
 KxD;	t
+Ky(5Z5
 K}*n:	
 L %g %g
 L %g %g Z
@@ -9855,7 +9858,6 @@ LABEL
 LACpH
 LACpu
 LACsu
-LAN-!3
 LANGUAGE
 LATIN1
 LAUNCH
@@ -11754,7 +11756,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSK
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14301,7 +14302,6 @@ Zoom Select Status
 [XH;w8|
 [XL;w8|
 [built-in]
-[dh[*
 [fa=3HC/
 [ghostscript library %.2f]
 [ghostscript library %.2f]%s: %s
@@ -14757,6 +14757,7 @@ a yo' chumocho krestat, ti ha na'lalamen yo'.
 a(L9a L
 a4small
 a7hIw
+aEY`8
 aWvd$A;-
 a]{?P
 a`wwn
@@ -16409,7 +16410,6 @@ format_char == 'e' || format_char == 'E' || format_char == 'f' || format_char ==
 foundry
 fputc
 fputs
-fq;ZQn
 fractal
 fraction
 fractional pen position
@@ -17805,7 +17805,6 @@ m=4vTNG@3.9)1<.7:2686280-9*6D29H616,,-"@J1z
 m>EKn>
 m@Nj@y
 mLCg"R
-mTT72
 macintosh
 macron
 magenta
@@ -18834,7 +18833,6 @@ s?? yish???go b
 sCH;]@u"L
 sFFoA
 sFFou
-sH3!b
 sND8l
 sPLT chunk has bad length
 sPLT chunk requires too much memory
@@ -21130,6 +21128,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 }b>G:c>
 }ifff
 }mxQ>
+}w?1V%
 }wL;}
 }za?q
 }{j7>+3<(<=/?;.^B5

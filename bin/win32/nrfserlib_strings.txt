@@ -15,6 +15,8 @@
    Manufacturer: %s
    Service: %s
  !"#$%6666666666666666666&'()*+,-666666666666666666666666./012345
+ "/:+ !
+ #0&B
  %41g
  QP9F
  aborted.
@@ -66,6 +68,7 @@ $Ph'*
 $Ph)*
 $Vh&*
 %%.%dg
+%1|y*4
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
 %s data received. (handle: %d, bytes: %d) '%s'
@@ -75,7 +78,6 @@ $Vh&*
 &060K0S0X0
 ' is not a number.
 ',=?k
-'rI(:
 ()$^.*+?[]|\-{},:=!
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
@@ -709,7 +711,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231013210753Z0/
+231023234939Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -983,6 +985,7 @@ $Vh&*
 7V7e7
 7V8J9
 7V8h8
+7`6[/
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7t7y7~7
 8 8$8(8,808
@@ -1142,6 +1145,7 @@ $Vh&*
 ; ;0;4;8;@;X;h;l;|;
 ;";(;2;8;B;F;R;V;f;s;
 ;";,;6;@;J;T;^;h;r;|;
+;#'*Y
 ;#;);-;7;
 ;$;*;/;4;R;Z;k;s;
 ;$;,;4;<;D;L;T;\;d;p;
@@ -1670,7 +1674,6 @@ Extended Error: %s, %s
 F	^[]
 F(j4f
 F0R0w0}0
-F5RRh
 F<\uD
 FH;FDu
 FH<au
@@ -1787,7 +1790,6 @@ Line %d, Column %d
 LocalFree
 Looking for external adpater.
 Looking for internal adpater.
-Lv"a}7B
 MB(iVR
 MSVCP140.dll
 MTU exchange request reply failed. (nrf_error: %s)
@@ -1879,6 +1881,7 @@ OT+O`
 Od+O`
 Out of thread local storage!
 P4X4\4`4d4h4l4p4t4x4|4
+P6%`&
 PAq=?Mp#
 PID_%04X
 PKT_DECODE_ERROR
@@ -1907,10 +1910,9 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueueUserAPC
-Q{(Fg
 RESERVED_5
 RESET_PERFORMED
-RSDST
+RSDS]
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2022,6 +2024,7 @@ Success
 Successfully opened 
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
+T?e~F
 TX Queue Full, retrying at offset %d
 TX Queue Full, timeout at offset %d
 Target Reset performed
@@ -2070,7 +2073,6 @@ VjqSPW
 VjrSPW
 VjySPW
 Vj{SPW
-W3N*/
 W9shvN3
 WAKEUP
 WOKEN
@@ -2092,7 +2094,6 @@ Write to SOB Channel.
 WriteFile
 XX.XX.XXXXXXX
 Y9"SD
-YQMATd
 Y__^[
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -2288,12 +2289,15 @@ memcpy
 memmove
 memset
 mutex
+n[!(}
 need dictionary
 nrfserlib.dll
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
+p6Ld&
+pbBfE
 print
 punct
 realloc

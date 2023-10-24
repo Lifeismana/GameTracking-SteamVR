@@ -186,6 +186,7 @@
 	width: 30em;
 	display: flex;
 	flex-direction: column;
+	background-color: var(--background-color);
 	background-image: var(--background-image);
 	background-size: 100% 100%;
 	border-radius: 10px;
@@ -487,6 +488,7 @@ div.BindingCalloutModifierIcon
 	flex-direction: column;
 	width: 25rem;
 	padding: 1.5rem;
+	background-color: var(--background-color);
 	background-image: var(--background-image);
 	background-size: 100% 100%;
 	border-radius: 35px;
@@ -902,6 +904,7 @@ div.BindingCalloutModifierIcon
 
 .MessageOverlayPanel {
 	flex-direction: column;
+	background-color: var(--background-color);
 	background-image: var(--background-image);
 	background-size: 100% 100%;
 	border-radius: 15px;
@@ -1072,6 +1075,10 @@ div.BindingCalloutModifierIcon
 		radial-gradient(ellipse at top left, #42454c, #25282e);
 }
 
+body.VRGamepadUI .DashboardMain .DashboardPanelBackground {
+	background: var(--gamepadui-darkest-grey);
+}
+
 .DashboardMain .DashboardPanelBackground .WithControlBar
 {
 	border-bottom-left-radius: 0%;
@@ -1087,6 +1094,7 @@ div.BindingCalloutModifierIcon
 .DashboardMain .ControlBarBackground {
 	width: 736px;
 	height: 80px;
+	background-color: var(--background-color);
 	background-image: var(--background-image);
 	background-size: cover;
 	background-position: top center;
@@ -2120,12 +2128,13 @@ div.BindingCalloutModifierIcon
 }
 
 .DashboardMain .OverlayControlBarBackground {
-    width: 736px;
-    height: 80px;
-    background-image: var(--background-image);
-    background-size: cover;
-    background-position: top center;
-    margin: 0px;
+	width: 736px;
+	height: 80px;
+	background-color: var(--background-color);
+	background-image: var(--background-image);
+	background-size: cover;
+	background-position: top center;
+	margin: 0px;
 	border-bottom-left-radius: 7px;
 	border-bottom-right-radius: 7px;
 }
@@ -2316,6 +2325,27 @@ div.BindingCalloutModifierIcon
 	position: relative;
 }
 
+body:not(.VRGamepadUI) .DashboardMain .NowPlaying .HeroBackground
+{
+	display: none;
+}
+
+body.VRGamepadUI .DashboardMain .NowPlaying .HeroBackground
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	pointer-events: none;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	filter: brightness(40%) blur(50px);
+	transform: scale(1.15);
+	z-index: -1;
+}
+
 .DashboardMain .NowPlaying .ArtworkColumn
 {
 	flex-grow: 0;
@@ -2327,6 +2357,11 @@ div.BindingCalloutModifierIcon
 	border-radius: calc( var(--settings-control-inner-border-radius) / 2 );
 	overflow: hidden;
 	box-shadow: 0 7px 20px 2px black;
+}
+
+body.VRGamepadUI .DashboardMain .NowPlaying .ArtworkColumn
+{
+	box-shadow: 0 7px 70px -5px black;
 }
 
 .DashboardMain .NowPlaying .InfoColumn
@@ -2364,6 +2399,17 @@ div.BindingCalloutModifierIcon
 	font-size: 1.5em;
 	width: fit-content;
 	padding: 1em;
+}
+
+body.VRGamepadUI .DashboardMain .NowPlaying .InfoColumn .ButtonControl:not(.Colorful)
+{
+	background: rgba(255, 255, 255, 0.15);
+	color: white;
+}
+
+body.VRGamepadUI .DashboardMain .NowPlaying .InfoColumn .ButtonControl:not(.Colorful):hover
+{
+	background: rgba(255, 255, 255, 0.30);
 }
 
 .DashboardMain .NowPlaying .PortraitAppImageContainer

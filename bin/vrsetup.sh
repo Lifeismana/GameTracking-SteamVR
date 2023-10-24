@@ -31,6 +31,19 @@ fi
 function SteamVRLauncherSetup()
 {
 	if [ -z "${PRESSURE_VESSEL_RUNTIME-}" ]; then
+
+		# We are not under pressure-vessel - presumably we have been relaunched at host level via the steam launcher service
+		# We still require the scout LDLP environment however, so consider one more relaunch
+		if [ -n "${STEAM_RUNTIME-}" ]; then
+			log "Detected scout LDLP runtime."
+			# continue
+		else
+			log "Relaunching under scout LDLP runtime."
+			log exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
+			exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
+			# unreachable
+		fi
+
 		if ! [ -x "$(command -v getcap)" ]; then
 			log 'Error: getcap is required to complete the SteamVR setup.'
 			return 1
@@ -65,7 +78,7 @@ function SteamVRLauncherSetup()
 			log "Error: steam launcher service not available, vrcompositor-launcher will execute inside the container with no privileges."
 		else
 			log "Relaunching via steam launcher service to host level for vrcompositor setcap configuration."
-			exec steam-runtime-launch-client --alongside-steam "$0" "$@"
+			exec steam-runtime-launch-client --alongside-steam -- "$0" "$@"
 			# unreachable
 		fi
 		return 0

@@ -1,4 +1,5 @@
 	!s99
+	0x(N9
  %41g
 !hn7!
 ',=?k
@@ -103,7 +104,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231013210851Z0/
+231023235019Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -123,7 +124,6 @@
 3mq+<
 4 4$4(4,404
 4$4H4T4\4|4
-4C/{,
 4I4R4c4o4{4
 4[4~4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -191,6 +191,7 @@ Bellevue1
 CloseHandle
 CreateEventW
 DeleteCriticalSection
+Df?LcQ
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 20230
@@ -199,7 +200,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-ELNn.
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -242,6 +242,7 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Out of thread local storage!
 PAq=?Mp#
+PO\d3
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
@@ -289,9 +290,9 @@ Valve Corp.1
 WakeAllConditionVariable
 Washington1
 Y9"SD
-YN+Jf
 Y__^[
 [K]taM?
+\y3ad
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -346,6 +347,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+j7 S{
 jj@0HK4
 k0i0$
 l2|X/gGe

@@ -2498,6 +2498,7 @@ $
 19CVRRenderModels_002
 19CVRRenderModels_003
 19CVRRenderModels_004
+19CVRRenderModels_005
 19CVRSteamPrivate_001
 19CVRSteamPrivate_002
 19CVRSteamPrivate_003
@@ -2514,6 +2515,8 @@ $
 19CVRSteamPrivate_014
 19CVRSteamPrivate_015
 19CVRSteamPrivate_016
+19CVRSteamPrivate_017
+19CVRSteamPrivate_018
 19CVRWatchdogHost_001
 19InMemoryInputStream
 1e+9999
@@ -2533,7 +2536,6 @@ $
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:05:59
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -2573,6 +2575,7 @@ $
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:47:30
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -2863,6 +2866,8 @@ $
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_014E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_015E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_016E
+33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_017E
+33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_018E
 34CInputFilter_Scalar_ScaleAndOffset
 34CVRMsg_ApplicationManifestResponse
 34CVRMsg_CompositorRefSharedResource
@@ -3270,8 +3275,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1860.370714
-C.1863.370725
+C.1860.370717
+C.1863.370728
 C.427.290275
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -15256,6 +15261,7 @@ CVRSpatialAnchorsPropertyHelpers::GetSpatialAnchorPose(unsigned int, VRSpatialAn
 CVRSpatialAnchorsPropertyHelpers::SetDescriptorNotYetAvailable(unsigned int)
 CVRSpatialAnchorsPropertyHelpers::SetSpatialAnchorDescriptor(unsigned int, char const*)
 CVRSpatialAnchorsPropertyHelpers::SetSpatialAnchorPose(unsigned int, VRSpatialAnchorProperty_Pose_t*)
+CVRSteamPrivate::HideDashboard
 CVRSteamPrivate_001::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
 CVRSteamPrivate_001::GetWebSharedSecret()
 CVRSteamPrivate_001::MicrotxnFinished()
@@ -15490,6 +15496,53 @@ CVRSteamPrivate_016::SetSubviewPosition(unsigned long long, int, int)
 CVRSteamPrivate_016::ShouldKillTheaterPancakeProcess(unsigned int)
 CVRSteamPrivate_016::ShouldSetAsOpenXrRuntime()
 CVRSteamPrivate_016::TriggerOverlayHapticEffect(unsigned long long, vr::VRHapticEffect)
+CVRSteamPrivate_017::CreateSubviewOverlay(unsigned long long, char const*, char const*, unsigned long long*)
+CVRSteamPrivate_017::ExchangeCapabilities(bool*, unsigned int)
+CVRSteamPrivate_017::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+CVRSteamPrivate_017::GetKeyboardStatus(bool*, vr::EKeyboardFlags*)
+CVRSteamPrivate_017::GetOverlayInteractionAffordance(unsigned long long, vr::VROverlayInteractionAffordances, bool*)
+CVRSteamPrivate_017::GetOverlayInteractionAffordances(unsigned long long, unsigned int*)
+CVRSteamPrivate_017::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
+CVRSteamPrivate_017::GetSteamOverlayFeatureFlags()
+CVRSteamPrivate_017::GetWebSharedSecret()
+CVRSteamPrivate_017::MicrotxnFinished()
+CVRSteamPrivate_017::OculusSDKAppStarted()
+CVRSteamPrivate_017::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+CVRSteamPrivate_017::PropertyContainerToTrackedDevice(unsigned long long)
+CVRSteamPrivate_017::QuitProcess(unsigned int)
+CVRSteamPrivate_017::QuitSteamVR()
+CVRSteamPrivate_017::SendKeyboardDone()
+CVRSteamPrivate_017::SendKeyboardText(char const*)
+CVRSteamPrivate_017::SetKeyboardImplementationOverlay(vr::EVRKeyboardImplementation, unsigned long long)
+CVRSteamPrivate_017::SetOverlayInteractionAffordance(unsigned long long, vr::VROverlayInteractionAffordances, bool)
+CVRSteamPrivate_017::SetSubviewPosition(unsigned long long, int, int)
+CVRSteamPrivate_017::ShouldKillTheaterPancakeProcess(unsigned int)
+CVRSteamPrivate_017::ShouldSetAsOpenXrRuntime()
+CVRSteamPrivate_017::TriggerOverlayHapticEffect(unsigned long long, vr::VRHapticEffect, int)
+CVRSteamPrivate_018::CreateSubviewOverlay(unsigned long long, char const*, char const*, unsigned long long*)
+CVRSteamPrivate_018::ExchangeCapabilities(bool*, unsigned int)
+CVRSteamPrivate_018::GameActionTaskChange(unsigned int, char const*, char const*, char const*)
+CVRSteamPrivate_018::GetKeyboardStatus(bool*, vr::EKeyboardFlags*)
+CVRSteamPrivate_018::GetOverlayInteractionAffordance(unsigned long long, vr::VROverlayInteractionAffordances, bool*)
+CVRSteamPrivate_018::GetOverlayInteractionAffordances(unsigned long long, unsigned int*)
+CVRSteamPrivate_018::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
+CVRSteamPrivate_018::GetSteamOverlayFeatureFlags()
+CVRSteamPrivate_018::GetVRServerProcessId()
+CVRSteamPrivate_018::GetWebSharedSecret()
+CVRSteamPrivate_018::MicrotxnFinished()
+CVRSteamPrivate_018::OculusSDKAppStarted()
+CVRSteamPrivate_018::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
+CVRSteamPrivate_018::PropertyContainerToTrackedDevice(unsigned long long)
+CVRSteamPrivate_018::QuitProcess(unsigned int)
+CVRSteamPrivate_018::QuitSteamVR()
+CVRSteamPrivate_018::SendKeyboardDone()
+CVRSteamPrivate_018::SendKeyboardText(char const*)
+CVRSteamPrivate_018::SetKeyboardImplementationOverlay(vr::EVRKeyboardImplementation, unsigned long long)
+CVRSteamPrivate_018::SetOverlayInteractionAffordance(unsigned long long, vr::VROverlayInteractionAffordances, bool)
+CVRSteamPrivate_018::SetSubviewPosition(unsigned long long, int, int)
+CVRSteamPrivate_018::ShouldKillTheaterPancakeProcess(unsigned int)
+CVRSteamPrivate_018::ShouldSetAsOpenXrRuntime()
+CVRSteamPrivate_018::TriggerOverlayHapticEffect(unsigned long long, vr::VRHapticEffect, int)
 CVRSystemLatest::AcknowledgeQuit_Exiting()
 CVRSystemLatest::AcknowledgeQuit_Exiting() [clone .cold]
 CVRSystemLatest::AddOverlayToDestroyOnClose(unsigned long long)
@@ -20401,6 +20454,8 @@ IVRSteamPrivate_014
 IVRSteamPrivate_015
 IVRSteamPrivate_016
 IVRSteamPrivate_017
+IVRSteamPrivate_018
+IVRSteamPrivate_019
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!
 IVRSystem::GetOutputDevice: Unsupported textureType, only TextureType_Vulkan supported on Linux.
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!
@@ -21874,7 +21929,22 @@ N2vr18IVROverlayInternalE
 N2vr18IVRSharedSemaphoreE
 N2vr19IVRDisplayComponentE
 N2vr19IVRSettingsInternalE
+N2vr19IVRSteamPrivate_004E
+N2vr19IVRSteamPrivate_005E
+N2vr19IVRSteamPrivate_006E
+N2vr19IVRSteamPrivate_007E
+N2vr19IVRSteamPrivate_008E
+N2vr19IVRSteamPrivate_009E
+N2vr19IVRSteamPrivate_010E
+N2vr19IVRSteamPrivate_011E
+N2vr19IVRSteamPrivate_012E
+N2vr19IVRSteamPrivate_013E
+N2vr19IVRSteamPrivate_014E
+N2vr19IVRSteamPrivate_015E
+N2vr19IVRSteamPrivate_016E
 N2vr19IVRSteamPrivate_017E
+N2vr19IVRSteamPrivate_018E
+N2vr19IVRSteamPrivate_019E
 N2vr19IVRWatchdogProviderE
 N2vr20IVRResourcesInternalE
 N2vr21CVRApplicationsLatestE
@@ -22080,7 +22150,7 @@ OPAQUE
 OSWaitForDebugger()
 Object
 Oct
-Oct 13 2023
+Oct 23 2023
 October
 OculusSDKStart
 OldAppQuitSent
@@ -22724,6 +22794,7 @@ SetOverlayInteractionAffordanceInternal(VRSystemLayerState_t*, unsigned long lon
 SetOverlayRaw can't take dimensions over %u, but was passed %u x %u. Really it shouldn't be called with anything over a hundred or two pixels in each direction.
 SetOverlayRaw failed to create a memory block for %u x %u texture
 SetOverlayRawBlock_
+SetOverlayTextureXR
 SetOverlayTransformAbsoluteInternal(VRSystemLayerState_t*, unsigned long long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*)
 SetOverlayTransformTrackedDeviceRelativeInternal(VRSystemLayerState_t*, unsigned long long, unsigned int, vr::HmdMatrix34_t const*)
 SetProcessSchedulingPriorityClassRealtime(unsigned int)
@@ -23008,6 +23079,10 @@ SteamPrivateInterfaceRegistration<CVRSteamPrivate_015>::GetInterface()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_015>::~SteamPrivateInterfaceRegistration()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_016>::GetInterface()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_016>::~SteamPrivateInterfaceRegistration()
+SteamPrivateInterfaceRegistration<CVRSteamPrivate_017>::GetInterface()
+SteamPrivateInterfaceRegistration<CVRSteamPrivate_017>::~SteamPrivateInterfaceRegistration()
+SteamPrivateInterfaceRegistration<CVRSteamPrivate_018>::GetInterface()
+SteamPrivateInterfaceRegistration<CVRSteamPrivate_018>::~SteamPrivateInterfaceRegistration()
 SteamStreaming
 SteamVR
 SteamVR Placeholder Instance
@@ -33420,6 +33495,8 @@ typeinfo for CVRSteamPrivate_013
 typeinfo for CVRSteamPrivate_014
 typeinfo for CVRSteamPrivate_015
 typeinfo for CVRSteamPrivate_016
+typeinfo for CVRSteamPrivate_017
+typeinfo for CVRSteamPrivate_018
 typeinfo for CVRSystemLatest
 typeinfo for CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}
 typeinfo for CVRSystem_001
@@ -33668,6 +33745,8 @@ typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_013>
 typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_014>
 typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_015>
 typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_016>
+typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_017>
+typeinfo for SteamPrivateInterfaceRegistration<CVRSteamPrivate_018>
 typeinfo for SystemInterfaceRegistration<CHmdSystem_001>
 typeinfo for SystemInterfaceRegistration<CHmdSystem_004>
 typeinfo for SystemInterfaceRegistration<CVRClientCore_001>
@@ -34099,7 +34178,23 @@ typeinfo for vr::IVRSharedImage
 typeinfo for vr::IVRSharedResource
 typeinfo for vr::IVRSharedSemaphore
 typeinfo for vr::IVRSpatialAnchors
+typeinfo for vr::IVRSteamPrivate_003
+typeinfo for vr::IVRSteamPrivate_004
+typeinfo for vr::IVRSteamPrivate_005
+typeinfo for vr::IVRSteamPrivate_006
+typeinfo for vr::IVRSteamPrivate_007
+typeinfo for vr::IVRSteamPrivate_008
+typeinfo for vr::IVRSteamPrivate_009
+typeinfo for vr::IVRSteamPrivate_010
+typeinfo for vr::IVRSteamPrivate_011
+typeinfo for vr::IVRSteamPrivate_012
+typeinfo for vr::IVRSteamPrivate_013
+typeinfo for vr::IVRSteamPrivate_014
+typeinfo for vr::IVRSteamPrivate_015
+typeinfo for vr::IVRSteamPrivate_016
 typeinfo for vr::IVRSteamPrivate_017
+typeinfo for vr::IVRSteamPrivate_018
+typeinfo for vr::IVRSteamPrivate_019
 typeinfo for vr::IVRSystem
 typeinfo for vr::IVRTrackedCamera
 typeinfo for vr::IVRTrackedCameraInternal
@@ -34579,6 +34674,8 @@ typeinfo name for CVRSteamPrivate_013
 typeinfo name for CVRSteamPrivate_014
 typeinfo name for CVRSteamPrivate_015
 typeinfo name for CVRSteamPrivate_016
+typeinfo name for CVRSteamPrivate_017
+typeinfo name for CVRSteamPrivate_018
 typeinfo name for CVRSystemLatest
 typeinfo name for CVRSystemLatest::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)::{lambda(vr::ETrackedDeviceClass)#1}
 typeinfo name for CVRSystem_001
@@ -34828,6 +34925,8 @@ typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_013>
 typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_014>
 typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_015>
 typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_016>
+typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_017>
+typeinfo name for SteamPrivateInterfaceRegistration<CVRSteamPrivate_018>
 typeinfo name for SystemInterfaceRegistration<CHmdSystem_001>
 typeinfo name for SystemInterfaceRegistration<CHmdSystem_004>
 typeinfo name for SystemInterfaceRegistration<CVRClientCore_001>
@@ -35262,7 +35361,23 @@ typeinfo name for vr::IVRSharedImage
 typeinfo name for vr::IVRSharedResource
 typeinfo name for vr::IVRSharedSemaphore
 typeinfo name for vr::IVRSpatialAnchors
+typeinfo name for vr::IVRSteamPrivate_003
+typeinfo name for vr::IVRSteamPrivate_004
+typeinfo name for vr::IVRSteamPrivate_005
+typeinfo name for vr::IVRSteamPrivate_006
+typeinfo name for vr::IVRSteamPrivate_007
+typeinfo name for vr::IVRSteamPrivate_008
+typeinfo name for vr::IVRSteamPrivate_009
+typeinfo name for vr::IVRSteamPrivate_010
+typeinfo name for vr::IVRSteamPrivate_011
+typeinfo name for vr::IVRSteamPrivate_012
+typeinfo name for vr::IVRSteamPrivate_013
+typeinfo name for vr::IVRSteamPrivate_014
+typeinfo name for vr::IVRSteamPrivate_015
+typeinfo name for vr::IVRSteamPrivate_016
 typeinfo name for vr::IVRSteamPrivate_017
+typeinfo name for vr::IVRSteamPrivate_018
+typeinfo name for vr::IVRSteamPrivate_019
 typeinfo name for vr::IVRSystem
 typeinfo name for vr::IVRTrackedCamera
 typeinfo name for vr::IVRTrackedCameraInternal
@@ -36470,7 +36585,9 @@ vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::V
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2LeftAxes
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2RightAxes
 vr::CVRSteamPrivateLatest::GetSteamOverlayFeatureFlags()
+vr::CVRSteamPrivateLatest::GetVRServerProcessId()
 vr::CVRSteamPrivateLatest::GetWebSharedSecret()
+vr::CVRSteamPrivateLatest::HideDashboard()
 vr::CVRSteamPrivateLatest::MicrotxnFinished()
 vr::CVRSteamPrivateLatest::OculusSDKAppStarted()
 vr::CVRSteamPrivateLatest::PollNextEvent(vr::VREvent_t*, unsigned int, unsigned int*)
@@ -36607,6 +36724,8 @@ vrSteamPrivate013
 vrSteamPrivate014
 vrSteamPrivate015
 vrSteamPrivate016
+vrSteamPrivate017
+vrSteamPrivate018
 vrWatchdogHost001
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
@@ -37321,6 +37440,8 @@ vtable for CVRSteamPrivate_013
 vtable for CVRSteamPrivate_014
 vtable for CVRSteamPrivate_015
 vtable for CVRSteamPrivate_016
+vtable for CVRSteamPrivate_017
+vtable for CVRSteamPrivate_018
 vtable for CVRSystemLatest
 vtable for CVRSystem_001
 vtable for CVRSystem_002
@@ -37516,6 +37637,8 @@ vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_013>
 vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_014>
 vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_015>
 vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_016>
+vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_017>
+vtable for SteamPrivateInterfaceRegistration<CVRSteamPrivate_018>
 vtable for SystemInterfaceRegistration<CHmdSystem_001>
 vtable for SystemInterfaceRegistration<CHmdSystem_004>
 vtable for SystemInterfaceRegistration<CVRClientCore_001>

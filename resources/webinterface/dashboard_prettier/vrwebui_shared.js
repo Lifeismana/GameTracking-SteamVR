@@ -1480,7 +1480,7 @@
     },
     3081: (e, t, n) => {
       "use strict";
-      n.d(t, { _: () => be });
+      n.d(t, { _: () => we });
       var i = n(655),
         s = n(3884),
         o = n(7056),
@@ -2492,8 +2492,8 @@
         }
       };
       (P.Name = "developer_settings"), (P = (0, i.gn)([l.Pi], P));
-      var D = n(2743);
-      let O = class extends _.d9 {
+      var O = n(2743);
+      let D = class extends _.d9 {
         constructor(e) {
           super(e);
         }
@@ -2502,11 +2502,11 @@
             ? c.createElement(
                 c.Fragment,
                 null,
-                c.createElement(D.DX, null),
-                c.createElement(D.nb, null),
-                c.createElement(D.RR, null),
-                c.createElement(D.TO, null),
-                c.createElement(D.Dc, null),
+                c.createElement(O.DX, null),
+                c.createElement(O.nb, null),
+                c.createElement(O.RR, null),
+                c.createElement(O.TO, null),
+                c.createElement(O.Dc, null),
                 !B.B.isVRGamepadUI &&
                   c.createElement(_.Xp, {
                     name: h.o1,
@@ -2547,7 +2547,7 @@
             : null;
         }
       };
-      (O.Name = "general_settings"), (O = (0, i.gn)([l.Pi], O));
+      (D.Name = "general_settings"), (D = (0, i.gn)([l.Pi], D));
       const x = (e) => {
         var t;
         const [n, i] = (0, c.useState)(!1),
@@ -4878,8 +4878,9 @@
       };
       (ve.Name = "system_settings"), (ve = (0, i.gn)([l.Pi], ve));
       var Ce,
-        fe = n(1464);
-      class ye extends c.Component {
+        fe = n(1464),
+        ye = n(3107);
+      class be extends c.Component {
         constructor(e) {
           super(e),
             (this.state = {
@@ -5001,11 +5002,11 @@
           return e;
         }
       }
-      (0, i.gn)([o.ak], ye.prototype, "onExitApp", null),
-        (0, i.gn)([o.ak], ye.prototype, "onRestartSteamVR", null),
-        (0, i.gn)([o.ak], ye.prototype, "onRestartRequired", null),
-        (0, i.gn)([o.ak], ye.prototype, "onAppRestartRequired", null);
-      let be = (Ce = class extends c.Component {
+      (0, i.gn)([o.ak], be.prototype, "onExitApp", null),
+        (0, i.gn)([o.ak], be.prototype, "onRestartSteamVR", null),
+        (0, i.gn)([o.ak], be.prototype, "onRestartRequired", null),
+        (0, i.gn)([o.ak], be.prototype, "onAppRestartRequired", null);
+      let we = (Ce = class extends c.Component {
         constructor(e) {
           super(e),
             (this.m_refSettingsPageContainer = c.createRef()),
@@ -5065,7 +5066,7 @@
                 summonOverlayKey: h.A4,
                 mountableUnqualifiedID: e,
               },
-              t && c.createElement(ye, { standalonePanel: !0 }),
+              t && c.createElement(be, { standalonePanel: !0 }),
               t &&
                 c.createElement(
                   r.lL,
@@ -5076,7 +5077,7 @@
                     foregroundReflectMultiplier: 0.25,
                     summonOverlayKey: h.A4,
                   },
-                  c.createElement(we, null),
+                  c.createElement(Ae, null),
                   c.createElement(s.at, { id: i, location: s.Ic.TopCenter }),
                   t
                 )
@@ -5099,7 +5100,7 @@
           return c.createElement(
             d.q,
             { className: "SettingsMainPanel" },
-            c.createElement(ye, { standalonePanel: !1 }),
+            c.createElement(be, { standalonePanel: !1 }),
             c.createElement(
               "div",
               { className: "SettingsSidebarPageModalContainer" },
@@ -5114,10 +5115,12 @@
                   c.createElement(
                     "div",
                     {
-                      className: (0, g.LJ)("Bottom", "AdvancedSettingsToggle", [
-                        "Fadable",
-                        !S.G3.showAdvancedSettings,
-                      ]),
+                      className: (0, g.LJ)(
+                        "Bottom",
+                        "AdvancedSettingsToggle",
+                        ["Fadable", !S.G3.showAdvancedSettings],
+                        ["Active", S.G3.showAdvancedSettings]
+                      ),
                     },
                     c.createElement(_.wy, {
                       label: (0, m.Xx)("#Settings_AdvancedSettings"),
@@ -5153,6 +5156,7 @@
                 key: e.title,
                 className: t.join(" "),
                 onClick: () => S.G3.setRoutePage(e.controller),
+                releaseSoundEffect: ye.y.PagedSettingsNavigation,
               },
               c.createElement("div", { className: "Label" }, (0, m.Xx)(e.title))
             )
@@ -5162,7 +5166,7 @@
           const t = e.controller ? e.controller : "generic",
             n = this.state.sActiveSettingSection === e.controller,
             i =
-              [C, he, se, D.Yw, R, O, T, V, P, J, k.P, ve, ee].find(
+              [C, he, se, O.Yw, R, D, T, V, P, J, k.P, ve, ee].find(
                 (e) => e.Name === t
               ) || _.d9;
           return c.createElement(i, { key: e.title, section: e, active: n });
@@ -5241,22 +5245,23 @@
           });
         }
       });
-      (be.k_sShowInternalSettings = "/settings/steamvr/showInternalSettings"),
-        (be.k_sShowSystemSettings = "/settings/steamvr/showSystemSettings"),
-        (be.k_sShowInternetSettings = "/settings/steamvr/showInternetSettings"),
-        (be.k_sShowDashboardSettings =
+      (we.k_sShowInternalSettings = "/settings/steamvr/showInternalSettings"),
+        (we.k_sShowSystemSettings = "/settings/steamvr/showSystemSettings"),
+        (we.k_sShowInternetSettings = "/settings/steamvr/showInternetSettings"),
+        (we.k_sShowDashboardSettings =
           "/settings/steamvr/showDashboardSettings"),
-        (0, i.gn)([o.ak], be.prototype, "renderSectionButton", null),
-        (0, i.gn)([o.ak], be.prototype, "renderSectionPage", null),
-        (be = Ce = (0, i.gn)([l.Pi], be));
-      const we = (0, l.Pi)(function (e) {
-        const t = B.B.GetActiveDashboardPopups().find(
-          (e) =>
-            e.parent_overlay_key == h.T2 &&
-            e.popup_overlay_key.includes("mainmenu")
-        );
-        return t
-          ? c.createElement(fe.a, { popupRequest: t, reparent: !1 })
+        (0, i.gn)([o.ak], we.prototype, "renderSectionButton", null),
+        (0, i.gn)([o.ak], we.prototype, "renderSectionPage", null),
+        (we = Ce = (0, i.gn)([l.Pi], we));
+      const Ae = (0, l.Pi)(function (e) {
+        const t = B.B.isVRGamepadUI,
+          n = B.B.GetActiveDashboardPopups().find(
+            (e) =>
+              e.parent_overlay_key == h.T2 &&
+              e.popup_overlay_key.includes("mainmenu")
+          );
+        return t && n
+          ? c.createElement(fe.a, { popupRequest: n, reparent: !1 })
           : null;
       });
     },
@@ -6368,10 +6373,10 @@
         ls: () => K,
         uc: () => q,
         Ei: () => U,
-        Xp: () => D,
+        Xp: () => O,
         TB: () => X,
         U5: () => j,
-        t0: () => O,
+        t0: () => D,
         D3: () => V,
         U4: () => x,
         wy: () => P,
@@ -6550,7 +6555,7 @@
                   value: e.value,
                   sLabel: (0, l.Xx)(e.label),
                 }));
-              t = r.createElement(D, {
+              t = r.createElement(O, {
                 key: e.name,
                 name: e.name,
                 label: e.label ? (0, l.Xx)(e.label) : "",
@@ -6565,7 +6570,7 @@
                   value: e.value,
                   sLabel: (0, l.Xx)(e.label),
                 }));
-              t = r.createElement(O, {
+              t = r.createElement(D, {
                 key: e.name,
                 name: e.name,
                 label: e.label ? (0, l.Xx)(e.label) : "",
@@ -6929,7 +6934,7 @@
         }
       };
       P = (0, o.gn)([d.Pi], P);
-      let D = class extends r.Component {
+      let O = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -6995,10 +7000,10 @@
           );
         }
       };
-      (0, o.gn)([c.Fl], D.prototype, "value", null),
-        (0, o.gn)([a.ak], D.prototype, "onChange", null),
-        (D = (0, o.gn)([d.Pi], D));
-      let O = class extends r.Component {
+      (0, o.gn)([c.Fl], O.prototype, "value", null),
+        (0, o.gn)([a.ak], O.prototype, "onChange", null),
+        (O = (0, o.gn)([d.Pi], O));
+      let D = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -7047,9 +7052,9 @@
           );
         }
       };
-      (0, o.gn)([c.Fl], O.prototype, "value", null),
-        (0, o.gn)([a.ak], O.prototype, "onChange", null),
-        (O = (0, o.gn)([d.Pi], O));
+      (0, o.gn)([c.Fl], D.prototype, "value", null),
+        (0, o.gn)([a.ak], D.prototype, "onChange", null),
+        (D = (0, o.gn)([d.Pi], D));
       let x = class extends r.Component {
         constructor(e) {
           if (
@@ -7536,7 +7541,7 @@
         render() {
           const e = this.makeAppChoiceList(),
             t = this.state.currentApp ? this.state.currentApp.key : null;
-          return r.createElement(D, {
+          return r.createElement(O, {
             label: this.props.label,
             items: e,
             value: t,
@@ -9773,9 +9778,9 @@
           case a.F.RearLeftUpper:
             return r.createElement(P, { bIsKnockout: n, className: t });
           case a.F.RearRightUpper:
-            return r.createElement(O, { bIsKnockout: n, className: t });
-          case a.F.RearLeftLower:
             return r.createElement(D, { bIsKnockout: n, className: t });
+          case a.F.RearLeftLower:
+            return r.createElement(O, { bIsKnockout: n, className: t });
           case a.F.RearRightLower:
             return r.createElement(x, { bIsKnockout: n, className: t });
           default:
@@ -10866,7 +10871,7 @@
               })
             );
       }
-      function D(e) {
+      function O(e) {
         var { bIsKnockout: t } = e,
           n = (0, i._T)(e, ["bIsKnockout"]);
         return t
@@ -10914,7 +10919,7 @@
               })
             );
       }
-      function O(e) {
+      function D(e) {
         var { bIsKnockout: t } = e,
           n = (0, i._T)(e, ["bIsKnockout"]);
         return t
@@ -12290,36 +12295,15 @@
         s = n(655),
         o = n(3884);
       !(function (e) {
-        (e[(e.DashboardLoaded = 0)] = "DashboardLoaded"),
-          (e[(e.DashboardLoading = 1)] = "DashboardLoading"),
-          (e[(e.DashboardOpen = 2)] = "DashboardOpen"),
-          (e[(e.DashboardClose = 3)] = "DashboardClose"),
-          (e[(e.DashboardIdle = 4)] = "DashboardIdle"),
-          (e[(e.DashboardLaunch = 5)] = "DashboardLaunch"),
-          (e[(e.DashboardKill = 6)] = "DashboardKill"),
-          (e[(e.DashboardFailure = 7)] = "DashboardFailure"),
-          (e[(e.ControlBarButtonPress = 8)] = "ControlBarButtonPress"),
-          (e[(e.ControlBarButtonRelease = 9)] = "ControlBarButtonRelease"),
-          (e[(e.KeyboardClick = 10)] = "KeyboardClick"),
-          (e[(e.WindowTransition = 11)] = "WindowTransition"),
-          (e[(e.WindowAppear = 12)] = "WindowAppear"),
-          (e[(e.WindowDisappear = 13)] = "WindowDisappear"),
-          (e[(e.MajorTransition = 14)] = "MajorTransition"),
-          (e[(e.Notification = 15)] = "Notification"),
-          (e[(e.ButtonClick = 16)] = "ButtonClick"),
-          (e[(e.Fiddle_03 = 17)] = "Fiddle_03"),
-          (e[(e.Fiddle_04 = 18)] = "Fiddle_04"),
-          (e[(e.SurfaceClick = 19)] = "SurfaceClick"),
-          (e[(e.VolumePreview = 20)] = "VolumePreview"),
-          (e[(e.Grab = 21)] = "Grab"),
-          (e[(e.GrabRelease = 22)] = "GrabRelease"),
-          (e[(e.ThemeStore = 23)] = "ThemeStore"),
-          (e[(e.ThemeDesktop = 24)] = "ThemeDesktop"),
-          (e[(e.ThemeLibrary = 25)] = "ThemeLibrary"),
-          (e[(e.ThemeSettings = 26)] = "ThemeSettings"),
-          (e[(e.ThemeNowPlaying = 27)] = "ThemeNowPlaying"),
-          (e[(e.TraySlideOut = 28)] = "TraySlideOut"),
-          (e[(e.TraySlideIn = 29)] = "TraySlideIn");
+        (e[(e.DashboardOpen = 0)] = "DashboardOpen"),
+          (e[(e.DashboardClose = 1)] = "DashboardClose"),
+          (e[(e.ControlBarButtonClick = 2)] = "ControlBarButtonClick"),
+          (e[(e.ButtonClick = 3)] = "ButtonClick"),
+          (e[(e.SurfaceClick = 4)] = "SurfaceClick"),
+          (e[(e.VolumePreview = 5)] = "VolumePreview"),
+          (e[(e.Grab = 6)] = "Grab"),
+          (e[(e.GrabRelease = 7)] = "GrabRelease"),
+          (e[(e.PagedSettingsNavigation = 8)] = "PagedSettingsNavigation");
       })(i || (i = {}));
       class r {
         constructor() {
@@ -12379,43 +12363,22 @@
         }
       }
       (r.Sources = {
-        [i.DashboardLoaded]: { source: "" },
-        [i.DashboardLoading]: { source: "" },
-        [i.DashboardOpen]: { source: "", volume: 0.5 },
-        [i.DashboardClose]: { source: "", volume: 0.2 },
-        [i.DashboardIdle]: { source: "" },
-        [i.DashboardLaunch]: { source: "" },
-        [i.DashboardKill]: { source: "" },
-        [i.DashboardFailure]: { source: "" },
-        [i.ControlBarButtonPress]: { source: "", volume: 1 },
-        [i.ControlBarButtonRelease]: {
-          source: "/dashboard/sounds/activation.wav",
+        [i.DashboardOpen]: { source: "" },
+        [i.DashboardClose]: { source: "" },
+        [i.ControlBarButtonClick]: {
+          source: "/dashboard/sounds/deck_ui_misc_10.wav",
         },
-        [i.KeyboardClick]: { source: "" },
-        [i.WindowTransition]: { source: "" },
-        [i.WindowAppear]: { source: "" },
-        [i.WindowDisappear]: { source: "" },
-        [i.MajorTransition]: { source: "" },
-        [i.Notification]: { source: "" },
-        [i.ButtonClick]: { source: "/dashboard/sounds/activation.wav" },
-        [i.Fiddle_03]: { source: "" },
-        [i.Fiddle_04]: { source: "" },
-        [i.SurfaceClick]: {
-          source: "/dashboard/sounds/activation_change_fail.wav",
-        },
+        [i.ButtonClick]: { source: "/dashboard/sounds/deck_ui_misc_10.wav" },
+        [i.SurfaceClick]: { source: "" },
         [i.VolumePreview]: {
           source: "/dashboard/sounds/volume_change.wav",
           bRespectsGlobalVolume: !1,
         },
         [i.Grab]: { source: "" },
-        [i.GrabRelease]: { source: "/dashboard/sounds/activation.wav" },
-        [i.ThemeStore]: { source: "" },
-        [i.ThemeDesktop]: { source: "" },
-        [i.ThemeLibrary]: { source: "" },
-        [i.ThemeSettings]: { source: "" },
-        [i.ThemeNowPlaying]: { source: "" },
-        [i.TraySlideOut]: { source: "" },
-        [i.TraySlideIn]: { source: "" },
+        [i.GrabRelease]: { source: "/dashboard/sounds/deck_ui_misc_10.wav" },
+        [i.PagedSettingsNavigation]: {
+          source: "/dashboard/sounds/deck_ui_navigation.wav",
+        },
       }),
         (r.s_Instance = null);
     },
@@ -12711,7 +12674,7 @@
         PF: () => u,
         Pt: () => P,
         Pv: () => s,
-        Qg: () => O,
+        Qg: () => D,
         R3: () => re,
         RD: () => X,
         RM: () => f,
@@ -12720,7 +12683,7 @@
         Us: () => h,
         Vq: () => g,
         W4: () => r,
-        WR: () => D,
+        WR: () => O,
         Xl: () => I,
         Y8: () => M,
         ZO: () => Q,
@@ -12787,8 +12750,8 @@
         I = b + ".desktop",
         V = "DashboardCurvatureOrigin",
         P = _ + "::" + V,
-        D = "DashboardControlStrip",
-        O = "DashboardControlStripTransform",
+        O = "DashboardControlStrip",
+        D = "DashboardControlStripTransform",
         x = "DashboardGrabHandleTransform",
         F = "DashboardGrabHandleTransform_Legacy",
         H = "/settings/steamvr/enableHomeApp",
@@ -19065,4 +19028,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=d02231d6efc111672f2c
+//# sourceMappingURL=vrwebui_shared.js.map?v=c0898f45efaa625fdf99

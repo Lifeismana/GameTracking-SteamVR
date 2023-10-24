@@ -4,6 +4,7 @@
 																																												
 	!s99
  %41g
+ 03_dq^Z
  A_A^A\
  A_A^A]A\_
  A_A^]
@@ -39,7 +40,6 @@
 +o'q)}
 , last executing in 
 ,W5y+
--*=yl
 -1e+9999
 -Infinity
 -u-I;
@@ -157,6 +157,7 @@
 0A_A^_^[
 0A_A^_^]
 0A__[
+0I"1d
 0w0c1
 0}0i1
 130801120000Z
@@ -166,7 +167,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231013211646Z0/
+231023235730Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -179,7 +180,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4m}"%
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -401,6 +401,7 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
+FCg;c
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -754,6 +755,7 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 `A_A^A]A\_^]
+a4'aI
 a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
@@ -764,13 +766,13 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
+bDS::gQ
 bad allocation
 bad array new length
 bad conversion
 bg_bg
 brazilian
 bulgarian
-c3[6]
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
@@ -808,6 +810,7 @@ german
 gfffffffH
 gfffffffI
 greek
+h"LnX
 handlers
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -936,7 +939,6 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-xZ8!0
 zh_cn
 zh_tw
 {un'%

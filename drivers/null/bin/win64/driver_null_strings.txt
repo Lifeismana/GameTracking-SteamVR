@@ -2,11 +2,11 @@
  %41g
  A__^
  H3E H3E
-!2#1yE
+!/yI>)Y
 !hn7!
-&.gUJ
 ',=?k
 (f*^[0
+*"_#+
 +Xt@(
 +o'q)}
 ,W5y+
@@ -80,19 +80,17 @@
 0w0c1
 0}0i1
 130801120000Z
-181T&
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231013211150Z0/
+231023235219Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3$jSv
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -110,6 +108,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 <0:08
+<6X=A
 =rIQU
 >0<0:
 >Mp$d
@@ -130,6 +129,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E8j:f
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -171,6 +171,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS*
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -190,10 +191,8 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
-YRi>hi
 [K]taM?
 \$ UH
-\vG_o
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -239,6 +238,7 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+h:0):l
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -254,11 +254,9 @@ memcpy
 memmove
 memset
 modelNumber
-n&M{Y
 ntelD
 renderHeight
 renderWidth
-sIaQI
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
@@ -277,7 +275,6 @@ www.digicert.com1$0"
 {un'%
 |$ AVH
 |Lu?c
-}<+	w
 }LuHO
 ~qj#k"
 ~t&LN

@@ -136,6 +136,7 @@
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  %41g
  '-46
+ (bK~W
  (cal)
  (does the path point to a directory?)
  (object had no JSON IMU cal)
@@ -598,6 +599,7 @@ $w!Hc
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&5K#H
 &9k0t
 &D9c0t
 &D9k0t
@@ -624,7 +626,6 @@ $w!Hc
 '[', '{', or a literal
 'f?FO-
 'uri' is missing from non binary glTF file buffer.
-'xQ$&
 (;^,|
 (;s,|
 (A\^][
@@ -876,6 +877,7 @@ $w!Hc
 +C,+C
 +D9c0t H
 +Xt@(
++fK8Gi
 +laser0
 +laser1
 +motor0
@@ -915,7 +917,6 @@ $w!Hc
 -t!?Ks
 -t1?Ks
 -tA?Ks
--tQ?h
 -u-I;
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ... Moving the base for tracking too, which might cause a pop
@@ -1217,7 +1218,6 @@ $w!Hc
 .lighthouse.pb.CVec3
 .pdata
 .placeholder.proto
-.rLms
 .rdata
 .rdata$T
 .rdata$r
@@ -1240,6 +1240,7 @@ $w!Hc
 .xdata
 .xdata$x
 /1v]H
+/5|E	
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1398,7 +1399,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231013211050Z0/
+231023235122Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1416,6 +1417,7 @@ $w!Hc
 3?9y>m0_D@H_
 3Pole
 3mq+<
+3oU5`
 42HcF,
 4Pole
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -2487,6 +2489,7 @@ C\$PH
 C\$PL
 C\$PM
 C\$`H
+C\$`L
 C\$pH
 C\$pL
 C\$pL9%
@@ -3431,7 +3434,6 @@ GetWindowLongPtrA
 Getting devnode property store failed: hr = 0x%08x
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x
 GxiV@
-Gy:CrE
 H I;	r
 H SVWH
 H SWH
@@ -3564,7 +3566,10 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=#E
+H;=3D
+H;=CC
+H;=K<
+H;=p=
 H;Axt
 H;B0t
 H;C sAH
@@ -4536,7 +4541,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDSC
+RSDS9
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4583,12 +4588,14 @@ ResumeThread
 Returning failure when parsing lighthouse DB from %s because of base station errors
 Returning failure when parsing lighthouse DB from %s because of universe errors
 Right
+Rj&}9]
 RlK8`K8
 Robin
 Robin 2
 RootNode
 RootSerial %s
 Rotors on basestation out of 180-degree phase lock.
+RpcStringFreeA
 RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
@@ -5086,7 +5093,9 @@ Utah DV
 Utah EV1
 Utah EV2
 Utah MP
+UuidCreate
 UuidFromStringA
+UuidToStringA
 V H+V
 V2 HMD with bogus trackrefs detected in configuration:
 V8H;C
@@ -5647,7 +5656,6 @@ ZL$Xf
 \\.\pipe\
 \\\\\\\\
 \d$`f
-\fl8Z
 \mfpmp.exe
 \u=H;
 \x%02x
@@ -6076,7 +6084,7 @@ device_pid
 device_serial_number
 device_serial_number_watchman
 device_vid
-devicescannermsgwindow
+devicescannermsgwindow-
 direct_mode_edid_pid
 direct_mode_edid_vid
 disableRuntimeEdidOverride
@@ -6545,6 +6553,7 @@ knuckles_ev1
 ko_ko
 korean
 l!;b	F
+l"i	S
 l$ 8Y 
 l$ ATAVAWH
 l$ AVH
@@ -6722,7 +6731,6 @@ multiple IHDR
 multiple signals per batch not allowed
 muteMicMonitor
 n0_D@
-n2(/#XDe^
 nArrayIndex < m_details.nArrayLayerCount
 nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
@@ -7911,6 +7919,7 @@ xA^A\_^][
 xA_A]_]
 xA_A^_^][
 x_^][
+y:C0l
 y@tTyY1
 yxxxxxxx
 yxxxxxxxE
@@ -7925,6 +7934,7 @@ z/u-H
 z2u0H
 z4u2H
 z?X9T?
+zOxre+
 zd?/n
 zh_cn
 zh_tw

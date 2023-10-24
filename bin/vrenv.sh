@@ -27,12 +27,15 @@ log () {
 
 export STEAMVR_VRENV="$(readlink -f $0)"
 export STEAMVR_TOOLSDIR=$(cd "$(dirname $STEAMVR_VRENV)/.."; pwd)
-RUNTIMEDIR=$(cd "$STEAMVR_TOOLSDIR/../runtime"; pwd)
-SDKDIR=$(cd "$STEAMVR_TOOLSDIR/../sdk"; pwd)
+
+if [ -d "$STEAMVR_TOOLSDIR/../sdk" ]; then
+	# May only exist in internal Valve tree
+	SDKDIR=$(cd "$STEAMVR_TOOLSDIR/../sdk"; pwd)
+fi
 
 VRSTARTUP="$STEAMVR_TOOLSDIR/bin/linux64/vrstartup"
 QT_DIR="$STEAMVR_TOOLSDIR/bin/linux64/qt"
-export LD_LIBRARY_PATH="$(pwd):$RUNTIMEDIR/bin/linux64:$SDKDIR/bin/linux64:$QT_DIR/lib:$STEAMVR_TOOLSDIR/bin/linux64${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="$(pwd)${SDKDIR+:$SDKDIR/bin/linux64}:$QT_DIR/lib:$STEAMVR_TOOLSDIR/bin/linux64${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}"
 export VRCOMPOSITOR_LD_LIBRARY_PATH="$LD_LIBRARY_PATH"
 
 log exec "$@"

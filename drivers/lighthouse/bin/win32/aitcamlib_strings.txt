@@ -1,7 +1,6 @@
 																																																																																																																
 	!s99
  %41g
- 7He}
 !(0)"
 !9~ t
 !hn7!
@@ -141,7 +140,6 @@ $9^ t
 0?0{0
 0@1N1v1
 0`0u0
-0m~A*
 0w0c1
 0}0i1
 1 181<1T1d1h1|1
@@ -174,7 +172,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231013210749Z0/
+231023234935Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -418,7 +416,6 @@ Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
 F|t	_^3
-G?P-M
 GetCameraHALInterface
 GetCurrentProcess
 GetCurrentProcessId
@@ -500,9 +497,7 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
-R>S&Yt
 RPCRT4.dll
-RSDS/j
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -572,7 +567,6 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
-UXogn
 UnhandledExceptionFilter
 Unknown
 Unknown exception
@@ -598,7 +592,6 @@ WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
-Z&WAo
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
@@ -647,7 +640,6 @@ _seh_filter_dll
 _strupr_s
 _wchdir
 _wgetcwd
-`"T5^<n
 `.rdata
 a7hIw
 aitcamlib
@@ -790,6 +782,7 @@ only 8-bit
 outofdata
 outofmem
 output buffer limit
+p9U<0
 pl_pl
 polish
 portuguese
@@ -803,7 +796,6 @@ romanian
 ru_ru
 russian
 schinese
-so@VPR
 spanish
 startup
 string too long
@@ -853,7 +845,6 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-yf-y8
 zh_cn
 zh_tw
 zlib corrupt

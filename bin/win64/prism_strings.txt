@@ -57,6 +57,7 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
+$%-(` 
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -342,6 +343,7 @@ $9E0u
 )d$pD
 )l$0E
 )l$pD
+)q$0&
 )t$ D
 )t$@H
 )t$PD
@@ -354,6 +356,7 @@ $9E0u
 ********** Green ( nLoopCount++ > 1000 )!
 ********** Red ( nLoopCount++ > 1000 )!
 +Xt@(
++]whZ
 +o'q)}
 , last executing in 
 ,W5y+
@@ -525,13 +528,12 @@ $9E0u
 0w0c1
 0}0i1
 130801120000Z
-1Sr5&m~
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231013210947Z0/
+231023235020Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -552,6 +554,7 @@ $9E0u
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7wt;"(
 8 t"L
 8 u"L
 8A^A\
@@ -568,6 +571,7 @@ $9E0u
 9H(~-
 :A9x 
 :EotB
+:iTaR
 ;K sOH
 ;S sMH
 ;\$x|
@@ -739,7 +743,6 @@ AuthD
 Automatically quitting due to idle time > %f seconds.
 B H9B
 Bellevue1
-BfGwN
 Blank
 C(H+C H
 C(H9C u
@@ -1000,6 +1003,7 @@ DumpHistory
 DumpHistory-Staging
 Dumping display history...
 DuplicateHandle
+E+aQU
 E8~(t\
 E\f9A
 EkH9M
@@ -1018,7 +1022,6 @@ F(H9A u)I
 F0H9A(u
 FACET_VULKAN_VALIDATION
 FAILURE:WaitForPresent
-FQ8E8
 F`H9X
 F`I+FPH
 Facet
@@ -1452,7 +1455,6 @@ RtlVirtualUnwind
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
-S.zh0
 S0Q0O
 SA|X=G
 SHGetFolderPathW
@@ -1729,7 +1731,6 @@ _wcsnicmp
 `A_A][
 `A_A^A]A\_^[
 `A_^]
-a+K>P6
 a7hIw
 abort
 acosf
@@ -1866,7 +1867,6 @@ gfffffffL+
 gfffffffM
 gfffffffO
 graphicsCommandSet.Valid()
-h-*i8xp
 hA_A^A]A\_^[]
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -1904,6 +1904,7 @@ l$`E3
 l$xE3
 l$xHc
 l2|X/gGe
+lSRLD
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
 m0k0$

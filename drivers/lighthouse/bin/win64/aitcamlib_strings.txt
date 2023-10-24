@@ -53,7 +53,6 @@
 )9k0t
 )D$0fD
 )L$ fD
-)ekh*
 )t$ H
 )t$0H
 )|$ H
@@ -67,7 +66,6 @@
 -9k0t&H
 -9{0t%H
 -D9c0t%H
--T9HK
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -112,7 +110,6 @@
 .data
 .data$r
 .edata
-.hJrX
 .idata$2
 .idata$3
 .idata$4
@@ -138,9 +135,7 @@
 .xdata
 .xdata$x
 /9{0t'H
-/JZ=v
 /delivery_rate
-/egGu
 /elapsed_time
 /format
 /frame_sequence
@@ -182,7 +177,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231013210920Z0/
+231023234958Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -193,7 +188,6 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3RQdh
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -202,9 +196,9 @@
 6I]Dc
 6OB,n_
 70503
+7hqBd
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
-8>b.F
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -357,6 +351,7 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
+FA2=&	
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -455,7 +450,6 @@ Lc E3
 Lcl$$I
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
-LiQl!
 LoadLibraryA
 M H1E
 MB(iVR
@@ -480,8 +474,8 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
-RNJ3jy
 RPCRT4.dll
+RSDSW
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -727,6 +721,7 @@ d$<Mc
 d$PfD
 d$`H=
 d$`fD
+d+>Z[
 da_da
 danish
 de_de
@@ -912,7 +907,6 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-xk1l>
 zh_cn
 zh_tw
 zlib corrupt

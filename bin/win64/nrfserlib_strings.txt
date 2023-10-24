@@ -8,7 +8,6 @@
 	!s99
 	<bu 
 	@81t/@8q
-	{g#z
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -76,7 +75,6 @@
 %s: Failed in state: %d (nrf_error: %s)
 ' is not a number.
 ',=?k
-'2g %
 ()$^.*+?[]|\-{},:=!
 (9Q|uWH
 (A^A]A\^
@@ -116,6 +114,7 @@
 )t$@H
 )t$`H
 )t$pA
+*5-;bA
 *D8|$h
 *uXI;
 +9kdt	H
@@ -634,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231013210928Z0/
+231023235001Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -647,8 +646,10 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4P~52
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
+5eF\N
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 64-bit
@@ -657,6 +658,7 @@
 6I]Dc
 6OB,n_
 70503
+7ep".D
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8A^A]^]
 8A_A^A]]
@@ -890,7 +892,6 @@ A_A^_^]
 A__^[]
 A__^]
 Address:  %s
-AhR0Q
 Already open
 Attribute Discovery
 AuthD
@@ -1659,7 +1660,6 @@ TlsGetValue
 TlsSetValue
 Trying to send packets to device when serial device is closed is not supported.
 Trying to send unknown control packet to device. 
-U,+ek9
 UATAUAVAWH
 UATAVH
 UAVAWH
@@ -1774,7 +1774,6 @@ Zipfile is corrupt or not a zipfile
 \$pH;
 \$pI;
 \Device Parameters
-\T&US
 \u=H;
 ]J<0"0i3
 ]gfff
@@ -1889,6 +1888,7 @@ fD9&u
 fD9+u
 fE9&t2H
 false
+fcH&}
 file error
 floor
 generic

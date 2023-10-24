@@ -44,7 +44,6 @@
 !hn7!
 %u.%u
 %u.%u.%u
-&O)^f
 ' is not a number.
 ',=?k
 (A^A]^[
@@ -59,7 +58,6 @@
 (unknown)
 )D$ L
 )t$ H
-+T$TU4|?
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -68,6 +66,7 @@
 , negotiation failed with error 
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
+,T/FW
 ,W5y+
 -1e+9999
 -Infinity
@@ -165,7 +164,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231013211224Z0/
+231023235255Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -178,11 +177,11 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4#,{E
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
+6Dg	d}
 6I]Dc
 6OB,n_
 70503
@@ -192,9 +191,9 @@
 8_^][
 <0:08
 =rIQU
+={li_&rW
 >0<0:
 >Mp$d
->cU=MH
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -284,7 +283,6 @@
 @UWAVAWH
 @VATAVH
 @VWAVH
-@bN/4
 A valid JSON document must be either an array or an object value.
 A(t	H
 ADVAPI32.dll
@@ -340,7 +338,6 @@ CL$0H
 CL$0K
 CL$@E3
 CL$`H
-CO&AgWQ
 CT$@E
 CT$XH
 C\$0L
@@ -397,13 +394,13 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Duplicate key: '
 E8,9u
-Eb/If
 Empty escape sequence in string
 EnterCriticalSection
 Entering LoaderInstance::CreateInstance
 Entering loader terminator
 Entering loader trampoline
 Eo%lf
+Eo-,14O
 EpHcH
 Error [
 Exceeded stackLimit in readValue().
@@ -508,7 +505,6 @@ M H1E
 M98u/
 MB(iVR
 MSVCP140.dll
-MWb:0
 ManifestFile::IsValidJson - JSON "file_format_version" 
 ManifestFile::IsValidJson - JSON file missing "file_format_version"
 ManifestFile::ParseCommon 
@@ -532,6 +528,7 @@ PA_A^_^]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+Q85=E|
 QueryPerformanceCounter
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
@@ -570,6 +567,7 @@ SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
 Syntax error: value, object or array expected.
+T#0x	o
 T$0H;
 T$HE3
 T$PH;
@@ -713,6 +711,7 @@ _unlock_file
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
+`Lg$0
 a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
@@ -777,7 +776,6 @@ gfffffffI+
 gfffffffL+
 gfffffffM
 hA_A^][
-hZ^Om?
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -833,7 +831,6 @@ openxr_loader.dll
 rejectDupKeys
 runtime
 s t#fff
-s$3W;J
 setvbuf
 something wrong with XrInstanceCreateInfo contents
 stackLimit
@@ -872,7 +869,6 @@ unknown type in properties
 v=Y]Bv
 vector<T> too long
 verbose
-wA	e@ 
 www.digicert.com1!0
 www.digicert.com1$0"
 xrAcquireSwapchainImage
