@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	]QLk
  %41g
  A_A^A\
  A_A^A]A\_
@@ -31,6 +30,7 @@
 (t$ H
 (t$@H
 (|$ H
+)(wU&
 )D$ L
 )t$ H
 )t$0H
@@ -148,7 +148,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/$F_q!
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -183,7 +182,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231023235743Z0/
+231024210901Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -195,6 +194,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4ZB,Vm
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -667,7 +667,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSM
+RSDSK^
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -778,6 +778,7 @@ VR_OVERRIDE
 VWATAVAWH
 VWAVH
 VWAWH
+V\.PG
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -795,6 +796,7 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
+XZoW[
 Y9"SD
 [K]taM?
 \$ E3
@@ -810,7 +812,6 @@ Y9"SD
 \u=H;
 ]J<0"0i3
 ]g@8yhu
-^ea3B
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -1000,6 +1001,7 @@ product_name
 pt_br
 pt_pt
 r,fff
+r[^(`g|*K
 request_destroy_window_view
 request_handlers
 request_handlers_response

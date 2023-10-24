@@ -67,6 +67,7 @@
 " not found in the scene.
 """""""
 "%/28;=#$019:>?
+",WpYc
 ". Must be "perspective" or "orthographic"
 "9k0t
 "accessors" object not found in .gltf
@@ -82,7 +83,6 @@
 #9i0t
 #?RADIANCE
 #?RGBE
-#@rD*Y
 #D9c0t
 #D9{0t
 #oculus_requested_quit
@@ -458,16 +458,15 @@ $w!Hc
 2.5.4.3
 210429000000Z
 211007000000Z
+21Ew[9
 220323000000Z
 220801000000Z
 230714000000Z
-231023235223Z0/
+231024210334Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2Iwv~
-2TJ~+
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -476,6 +475,7 @@ $w!Hc
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
+3Hr&@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -977,7 +977,6 @@ Forcing chaperone update
 Found path: 
 FreeLibrary
 G(M+G I
-G)#gLI
 G8$1u
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
@@ -1289,6 +1288,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS=q
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1363,7 +1363,6 @@ T$xL;
 TANGENT
 TEXCOORD
 TUUUUUU
-Ta5MO
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -1443,6 +1442,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
+W.S=+
 WATAUAVAWH
 WAVAWH
 WINMM.dll
@@ -1599,8 +1599,6 @@ _wstat64i32
 `A_A^A]A\_^[
 `A_A^A]A\_^]
 `A__^
-`CZQc
-`X1}=
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
@@ -1766,6 +1764,7 @@ driver_oculus.dll
 driver_oculus.vrchap
 dxgi.dll
 eCS < CS_Count
+eIE[=q^/]
 ePS < PS_Count
 eVS < VS_Count
 effffff
@@ -1775,7 +1774,6 @@ emissiveTexture
 en_us
 end of input
 english
-eoM`z
 es_es
 es_mx
 expected marker
@@ -1811,7 +1809,6 @@ gfffffffH
 gfffffffH+
 gfffffffI
 greek
-g|c"cg
 hand_right_poses.glb
 handlers
 headset
@@ -1943,7 +1940,6 @@ l$`I+
 l$pL;l$P
 l$xLc
 l2|X/gGe
-lT(Bbz
 latam
 ldexp
 left_controller
@@ -2488,7 +2484,6 @@ vr_glove_right_skeleton.glb
 vrcompositor_mailbox
 w(M9w0tH
 wXH9w`t/H
-w_$wt
 weights
 while parsing 
 width

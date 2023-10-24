@@ -8,9 +8,7 @@
 +Xt@(
 +o'q)}
 , last executing in 
-,Q3;!OY
 ,W5y+
-,^#%Cq
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -94,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231023235040Z0/
+231024210143Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -133,6 +131,7 @@
 5N5W5`5i5n5s5z5
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
+5z=\e
 6$6<6L6P6`6d6h6p6
 6*f(_
 696r6
@@ -145,7 +144,6 @@
 7$7(787<7L7P7X7p7
 7+737;7
 70503
-71@(k
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8"8L8
 8'8-878A8K8U8_8l8u8
@@ -154,7 +152,6 @@
 838<8H8N8T8_8
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8bbaa
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -223,6 +220,7 @@ CreateEventW
 CreateThread
 D3D11CreateDevice
 DeleteCriticalSection
+DfLMe	q
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 20230
@@ -275,6 +273,7 @@ InitializeSListHead
 Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J;2_l
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -297,6 +296,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
+RSDSc
 RaiseException
 S0Q0O
 SA|X=G
@@ -331,12 +331,12 @@ VR_OVERRIDE
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-WCb~9
 WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
+YLx {z
 Y__^[
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -383,6 +383,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`K%ki
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -399,7 +400,6 @@ dk2_camera
 driver_oculus_legacy.dll
 f;A*stSW
 getenv
-hTOJ8@$
 headset
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -417,6 +417,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
+n|e\-
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
@@ -464,6 +465,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+r)9+-
 startup
 string too long
 strncpy

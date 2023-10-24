@@ -66,7 +66,6 @@
 , negotiation failed with error 
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
-,T/FW
 ,W5y+
 -1e+9999
 -Infinity
@@ -158,13 +157,14 @@
 0x%llx (%lld): 
 0}0i1
 130801120000Z
+13t"zf
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231023235255Z0/
+231024210414Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -181,7 +181,6 @@
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
-6Dg	d}
 6I]Dc
 6OB,n_
 70503
@@ -191,7 +190,6 @@
 8_^][
 <0:08
 =rIQU
-={li_&rW
 >0<0:
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -400,7 +398,6 @@ Entering LoaderInstance::CreateInstance
 Entering loader terminator
 Entering loader trampoline
 Eo%lf
-Eo-,14O
 EpHcH
 Error [
 Exceeded stackLimit in readValue().
@@ -502,6 +499,7 @@ LoaderInstance::CreateInstance chained CreateInstance call failed
 LoaderInstance::CreateInstance succeeded with 
 LoaderInstance::CreateInstance, no support found for requested extension: 
 M H1E
+M18eF
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -528,8 +526,8 @@ PA_A^_^]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-Q85=E|
 QueryPerformanceCounter
+RSDSOv
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -567,7 +565,6 @@ SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
 Syntax error: value, object or array expected.
-T#0x	o
 T$0H;
 T$HE3
 T$PH;
@@ -667,6 +664,7 @@ Y9"SD
 \ApiLayers\Implicit
 \u=H;
 ]J<0"0i3
+^!HO*
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -711,7 +709,6 @@ _unlock_file
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
-`Lg$0
 a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
@@ -799,6 +796,7 @@ invalid string position
 isValidJson indicates 
 jj@0HK4
 k0i0$
+k9h\'
 keylength >= 2^30
 l$ H;
 l$ H=
@@ -828,6 +826,7 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
+pw\vZ
 rejectDupKeys
 runtime
 s t#fff
@@ -980,6 +979,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
+{:jCE
 {un'%
 |$ ATAVAWH
 |$ AVH
@@ -1001,6 +1001,7 @@ xrWaitSwapchainImage
 |$xH;
 |$xIi
 |Lu?c
+}0TD_
 }LuHO
 ~+fff
 ~qj#k"

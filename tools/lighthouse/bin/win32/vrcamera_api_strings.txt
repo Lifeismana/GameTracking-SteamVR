@@ -431,7 +431,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231023234932Z0/
+231024210034Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -775,7 +775,6 @@ $_^[]
 9(9,9D9T9X9l9p9
 9(:F;
 9(:f:
-9*)1T
 9,:A:
 9,:p:
 9-:X:
@@ -1534,6 +1533,7 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
+UO{2.l
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
 Unhandled Exception while adding frame handler to video stream: 
@@ -1659,13 +1659,12 @@ _unlock_file
 _unlock_locales
 _wcsdup
 `.rdata
-`nfnW
+`h;Ro
 a7hIw
 abort
 address family not supported
 address in use
 address not available
-ae,CU
 alnum
 alpha
 already connected
@@ -1682,6 +1681,7 @@ api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
 b1	3C3
+b9@.]
 bad address
 bad allocation
 bad array new length
@@ -1710,7 +1710,6 @@ directory not empty
 eventObject
 executable format error
 f	_$_^[
-fK%lZJS
 false
 fclose
 fflush
@@ -1906,7 +1905,6 @@ x\SVW
 xdigit
 y'j h
 {L?uI
-{n12CoT}
 {un'%
 |Lu?c
 |SVWj

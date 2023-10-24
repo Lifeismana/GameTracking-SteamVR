@@ -4,7 +4,6 @@
 																																												
 	!s99
  %41g
- 03_dq^Z
  A_A^A\
  A_A^A]A\_
  A_A^]
@@ -40,6 +39,7 @@
 +o'q)}
 , last executing in 
 ,W5y+
+,pGsp
 -1e+9999
 -Infinity
 -u-I;
@@ -157,7 +157,6 @@
 0A_A^_^[
 0A_A^_^]
 0A__[
-0I"1d
 0w0c1
 0}0i1
 130801120000Z
@@ -167,7 +166,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231023235730Z0/
+231024210849Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -189,7 +188,10 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8Euok
 8_^][
+9_XtP
+;[ 6X^
 < t+<
 </u#H
 <0:08
@@ -401,7 +403,6 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
-FCg;c
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -755,7 +756,6 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 `A_A^A]A\_^]
-a4'aI
 a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
@@ -766,7 +766,6 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
-bDS::gQ
 bad allocation
 bad array new length
 bad conversion
@@ -810,7 +809,6 @@ german
 gfffffffH
 gfffffffI
 greek
-h"LnX
 handlers
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -910,6 +908,7 @@ th_th
 tolower
 tr_tr
 turkish
+u/K'*
 ua_ua
 ukranian
 user32.dll

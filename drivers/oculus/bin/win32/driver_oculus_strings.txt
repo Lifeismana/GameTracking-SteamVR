@@ -63,6 +63,7 @@
 #*1892+$
 #?RADIANCE
 #?RGBE
+#V>Zo
 #oculus_requested_quit
 $9^ t
 %%.%dg
@@ -93,6 +94,7 @@ $9^ t
 ',=?k
 '.5<=6/7>????????????????
 '[', '{', or a literal
+'q7?`o
 'uri' is missing from non binary glTF file buffer.
 (182Y2
 (Unable to load LibOVR)
@@ -269,6 +271,7 @@ $9^ t
 .tls$
 .tls$ZZZ
 .xdata$x
+/5B]O
 /input/a/click
 /input/a/touch
 /input/b/click
@@ -463,7 +466,7 @@ $9^ t
 223:3q3
 223S3
 230714000000Z
-231023235037Z0/
+231024210140Z0/
 241009235959Z0a1
 282D2L2l2
 2;2@2G2M2_2i2o2v2
@@ -715,6 +718,7 @@ $9^ t
 7L8S8
 7Q7Z7c7l7q7v7
 7T8V9
+7bj:EOW
 7h7v7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8 8$8(8,8084888<8@8D8H8L8
@@ -791,7 +795,6 @@ $9^ t
 9)9b9y9
 9*9>9D9J9a9
 9,9H9d9
-93d4r9bB
 959?9E9L9Z9c9h9
 95:V:
 96:V;v<
@@ -1251,6 +1254,7 @@ EventWrite
 EventWriteString
 Exceeded stackLimit in readValue().
 ExpandEnvironmentStringsA
+F	<	j
 F h0_
 F(+F$
 F(Q9F,t
@@ -1399,6 +1403,7 @@ J0+J(
 J>@G_
 JSON string too short.
 JSONuTS
+Jy\}!
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1559,7 +1564,6 @@ VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
-VU43D
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -1871,6 +1875,7 @@ french
 fseek
 fsetpos
 fwrite
+g;(R*W
 generator
 german
 gfff+

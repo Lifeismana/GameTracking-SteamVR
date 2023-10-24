@@ -15,7 +15,9 @@
 (f*^[0
 +Xt@(
 +o'q)}
+,&px>B
 ,W5y+
+,c>MsS
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -117,7 +119,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231023234852Z0/
+231024205948Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -137,13 +139,13 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8"'48
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
-;pJeZ
 <0:08
 <P)9Y
 <unknown>
@@ -227,6 +229,7 @@ H9oHH
 HeapFree
 I9] M
 I9]8I
+I<~fW
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -236,7 +239,6 @@ InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JuR{1
 KERNEL32.dll
 K}*n:	
 L$ SH
@@ -260,6 +262,8 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSL$v
+R`DRp
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -270,7 +274,6 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SVWATAVAWH
-Sc^%R
 Selected display mode: %dx%d @ %.1fHz
 SetEvent
 SetRestrictedErrorInfo
@@ -348,6 +351,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`S=sPJ
 a7hIw
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
@@ -385,8 +389,6 @@ memmove
 memset
 ntelD
 ole32.dll
-ql3xr/
-rdz:ED
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy

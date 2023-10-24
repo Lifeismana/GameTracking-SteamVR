@@ -8081,7 +8081,14 @@
                 (null === VRHTML || void 0 === VRHTML
                   ? void 0
                   : VRHTML.BSupportsMultitaskingView()) &&
-                this.props.sOverlayKey.startsWith(p.r4);
+                this.props.sOverlayKey.startsWith(p.r4),
+              b = m.B.isVRGamepadUI
+                ? {
+                    r: (14 / 255) * 0.1,
+                    g: (20 / 255) * 0.1,
+                    b: (27 / 255) * 0.1,
+                  }
+                : { r: 0.016, g: 0.017, b: 0.02 };
             return c.createElement(
               s.kH,
               {
@@ -8098,7 +8105,7 @@
                 },
                 c.createElement(
                   s.VW,
-                  { color: { r: 0.016, g: 0.017, b: 0.02 } },
+                  { color: b },
                   c.createElement(s.gQ, { solid: !0, source: "unit_cube" })
                 )
               ),
@@ -12688,4 +12695,4 @@
   var o = i.O(void 0, [968, 683], () => i(9850));
   o = i.O(o);
 })();
-//# sourceMappingURL=systemui.js.map?v=822059238fc91d533eb9
+//# sourceMappingURL=systemui.js.map?v=5fb71a1b893f94a3c6dc

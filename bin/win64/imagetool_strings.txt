@@ -3718,7 +3718,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231023235247Z0/
+231024210403Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3888,6 +3888,7 @@ $wtpt
 5: -4,-1,0,-1,-4  -1,2,3,2,-1  0,3,4,3,0  -1,2,3,2,-1  -4,-1,0,-1,-4
 5: 0,0,-1,0,0  0,-1,-2,-1,0  -1,-2,16,-2,-1  0,-1,-2,-1,0  0,0,-1,0,0
 5?rM5?
+5@@mJ<
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5r?lt
@@ -3912,7 +3913,6 @@ $wtpt
 6MQ8u
 6OB,n_
 6gc6n
-6j>Kp9
 6p#F'
 6ukE3
 6x6+0+0
@@ -4131,7 +4131,6 @@ $wtpt
 :NF& 
 :RS	x 
 :\FSY$
-:^2U8
 :acspMSFT
 :gscP
 :hC4$
@@ -4393,7 +4392,6 @@ $wtpt
 =3~<1~:.|9/|90z92v80j8/h8/f7,e7-e7,i60i70f6.h;2nLB88314,37-56+37)/9+09*.8*/8,8A2;C201$DM:o
 =41J)
 =7$>8L>9t>:
-=8pRY9	 
 ==!!=!!!!!!!!!!!!!!!!!!===!!!!!!!!!!!!!!!!!!!!!!!!=!!!!!!!!!=!==!!!!!!!===!====!!!!!!=!=!!!!!!!!======!!!!!!!!!!==!!!============&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&====
 ==((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
 ===                                                                           
@@ -5047,7 +5045,6 @@ AD(R!D
 AD9A$
 AD9A@|L
 AD;BDs
-ADN^@P
 ADVAPI32.dll
 AEVhdIf
 AFPL Ghostscript
@@ -5531,6 +5528,7 @@ B/FAC
 B09A0uo
 B0BrB
 B0H9A0u
+B3Q~J
 B:k(T
 B;@U=
 B<9A<u
@@ -5566,6 +5564,7 @@ BK8AKu)L
 BL$hH
 BLACKANDWHITE
 BLACKANDWHITE_ALPHA
+BP|O_
 BR&QQGuM
 BR7!a
 BRAILLE
@@ -6750,6 +6749,7 @@ D47-::4OD;VL=gellj
 D4@'A
 D4E':E
 D4G H
+D7c]I
 D7q/;M
 D8 umH
 D8#t!I
@@ -8821,6 +8821,7 @@ HuffmanEncodeImage
 Huge input lookup
 Hypertext Markup Language and a client-side image map
 H|p@j
+I ]}%C
 I koh Glos esa, und es duard ma ned wei.
 I suggest the following: try compressing the file again,
 I'?Fx'?v
@@ -9428,7 +9429,6 @@ KpH;Kx
 Kristala jan dezaket, ez dit minik ematen.
 Kx	C`
 KxD;	t
-Ky(5Z5
 K}*n:	
 L %g %g
 L %g %g Z
@@ -11756,6 +11756,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDSS
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14757,7 +14758,6 @@ a yo' chumocho krestat, ti ha na'lalamen yo'.
 a(L9a L
 a4small
 a7hIw
-aEY`8
 aWvd$A;-
 a]{?P
 a`wwn
@@ -17521,6 +17521,7 @@ jisb4
 jisb5
 jisb6
 jj@0HK4
+jl'U0
 jnx:northeast
 jnx:southwest
 jpeg:
@@ -21128,7 +21129,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 }b>G:c>
 }ifff
 }mxQ>
-}w?1V%
 }wL;}
 }za?q
 }{j7>+3<(<=/?;.^B5
@@ -21160,6 +21160,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 ~Sfff
 ~ZHcE
 ~Zj\[LpWD
+~\4<g
 ~]LcC
 ~kfff
 ~lp_YWS,,,,-+0/,1.+2,(2-*0,+2,+2++2,+2,+1,+1,)3-,3-,3/,31,40,52-750:3,>6-@6-C8-H;/EE5UD4m=+

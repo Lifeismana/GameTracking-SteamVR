@@ -114,7 +114,6 @@
 )t$@H
 )t$`H
 )t$pA
-*5-;bA
 *D8|$h
 *uXI;
 +9kdt	H
@@ -608,6 +607,7 @@
 000084211212EFDE1523785FEABCD124
 0000CB0000001000800000805F9B34FB
 0000CB0100001000800000805F9B34FB
+08eWxFejT
 0A^^[
 0A^^]
 0A^_]
@@ -633,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231023235001Z0/
+231024210102Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -646,10 +646,8 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4P~52
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5eF\N
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 64-bit
@@ -657,8 +655,9 @@
 6666666666666
 6I]Dc
 6OB,n_
+7!S`	
+7"h 4
 70503
-7ep".D
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8A^A]^]
 8A_A^A]]
@@ -1888,7 +1887,6 @@ fD9&u
 fD9+u
 fE9&t2H
 false
-fcH&}
 file error
 floor
 generic
@@ -1938,6 +1936,7 @@ ioServiceThread already exists.... aborting.
 isxdigit
 jj@0HK4
 k0i0$
+k_8gc>
 l$ H=
 l$ VAVAWH
 l$ VWAVH
@@ -1984,6 +1983,7 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
+q%:pH
 realloc
 s#fff
 sd_ble_cfg_set

@@ -2,12 +2,11 @@
  %41g
 !hn7!
 ',=?k
-(Q$n#
+'NJr,o
 (f*^[0
 +Xt@(
 +o'q)}
 ,W5y+
--YP~V
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -87,7 +86,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231023235033Z0/
+231024210135Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -109,7 +108,6 @@
 4K4n4{4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5$5(5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-5<4>VqVpU
 5FjiT
 5Genu
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -154,6 +152,7 @@
 @.data
 @.reloc
 Bellevue1
+D',jQ1
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 20230
@@ -195,14 +194,15 @@ MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+P(ev;Q
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RRKY*
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
-T\XuV
 TerminateProcess
 UnhandledExceptionFilter
 Unknown exception
@@ -250,6 +250,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+bZoA w
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
@@ -268,6 +269,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iUQ@1p
 jj@0HK4
 k0i0$
 l2|X/gGe
@@ -283,7 +285,6 @@ secondsFromVsyncToPhotons
 serialNumber
 steamvr
 string too long
-u'&lVZ9
 uCVj@
 v=Y]Bv
 vector<T> too long

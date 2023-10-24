@@ -16,6 +16,7 @@
  A_A^_^]
  A__^
  H3E H3E
+!$T\)jY
 !(0)"
 !hn7!
 "9k0t
@@ -42,6 +43,7 @@
 (A_A^_[
 (A_A^_]
 (L$ D
+(_MIw|g
 (f*^[0
 (t$ H
 (t$ u
@@ -62,6 +64,7 @@
 , last executing in 
 ,9k0t%H
 ,9{0t%H
+,JN'Q|
 ,W5y+
 -9k0t&H
 -9{0t%H
@@ -165,6 +168,7 @@
 /width
 0 width
 0-pixel image
+08evt
 0A_A^A]A\^
 0A_A^_
 0D9c0t'H
@@ -177,7 +181,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231023234958Z0/
+231024210058Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -196,7 +200,6 @@
 6I]Dc
 6OB,n_
 70503
-7hqBd
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -351,7 +354,7 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
-FA2=&	
+F",LQ
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -475,7 +478,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSW
+RSDSG
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -589,6 +592,7 @@ Z9k0tUD
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
+[`8iq
 \$ E3
 \$ UH
 \$ UVWATAUAVAWH
@@ -721,7 +725,6 @@ d$<Mc
 d$PfD
 d$`H=
 d$`fD
-d+>Z[
 da_da
 danish
 de_de
@@ -926,6 +929,7 @@ zlib corrupt
 |$XH;
 |Lu?c
 }LuHO
+}S:N7m
 ~3LcD$(L
 ~6HcD$ I
 ~qj#k"
