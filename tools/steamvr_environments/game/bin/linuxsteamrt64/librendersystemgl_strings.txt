@@ -5488,7 +5488,7 @@ std::ctype<char>::do_widen(char) const
 std::ctype<char>::id
 std::current_exception()
 std::deque<std::__detail::_StateSeq<std::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::regex_traits<char> > > >::push_back(std::__detail::_StateSeq<std::regex_traits<char> > const&)
-std::enable_if<std::__detail::__is_contiguous_normal_iter<char const*>::value, std::shared_ptr<std::__detail::_NFA<std::regex_traits<char> > const> >::type std::__detail::__compile_nfa<char const*, std::regex_traits<char> >(char const*, char const*, std::regex_traits<char>::locale_type const&, std::regex_constants::syntax_option_type)
+std::enable_if<std::__detail::__is_contiguous_normal_iter<char const*>::value, std::shared_ptr<std::__detail::_NFA<std::regex_traits<char> > const> >::type std::__detail::__compile_nfa<char const*, std::regex_traits<char> >(char const*, char const*, std::__detail::_NFA<std::regex_traits<char> >::locale_type const&, std::regex_constants::syntax_option_type)
 std::ios_base::ios_base()
 std::ios_base::~ios_base()
 std::istream& std::istream::_M_extract<long>(long&)

@@ -5995,7 +5995,7 @@ start value for soft edges for distance alpha
 start/end proportional
 starting control point
 starting force
-std::_Function_base::_Base_manager<CNewParticleEffect::Restart()::{lambda()#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CNewParticleEffect::Restart()::{lambda()#1}> const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<CNewParticleEffect::Restart()::{lambda()#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::__throw_bad_function_call()
 std::ios_base::Init::Init()
 std::ios_base::Init::~Init()

@@ -2357,49 +2357,6 @@ _Unwind_Resume_or_Rethrow.cold
 _Unwind_SetGR
 _Unwind_SetGR.cold
 _Unwind_SetIP
-_ZNKSt7codecvtIDiDu11__mbstate_tE10do_unshiftERS0_PDuS3_RS3_
-_ZNKSt7codecvtIDiDu11__mbstate_tE11do_encodingEv
-_ZNKSt7codecvtIDiDu11__mbstate_tE13do_max_lengthEv
-_ZNKSt7codecvtIDiDu11__mbstate_tE16do_always_noconvEv
-_ZNKSt7codecvtIDiDu11__mbstate_tE5do_inERS0_PKDuS4_RS4_PDiS6_RS6_
-_ZNKSt7codecvtIDiDu11__mbstate_tE6do_outERS0_PKDiS4_RS4_PDuS6_RS6_
-_ZNKSt7codecvtIDiDu11__mbstate_tE9do_lengthERS0_PKDuS4_m
-_ZNKSt7codecvtIDsDu11__mbstate_tE10do_unshiftERS0_PDuS3_RS3_
-_ZNKSt7codecvtIDsDu11__mbstate_tE11do_encodingEv
-_ZNKSt7codecvtIDsDu11__mbstate_tE13do_max_lengthEv
-_ZNKSt7codecvtIDsDu11__mbstate_tE16do_always_noconvEv
-_ZNKSt7codecvtIDsDu11__mbstate_tE5do_inERS0_PKDuS4_RS4_PDsS6_RS6_
-_ZNKSt7codecvtIDsDu11__mbstate_tE6do_outERS0_PKDsS4_RS4_PDuS6_RS6_
-_ZNKSt7codecvtIDsDu11__mbstate_tE9do_lengthERS0_PKDuS4_m
-_ZNSt12_GLOBAL__N_120read_utf8_code_pointIDuEEDiRNS_5rangeIKT_Lb1EEEm
-_ZNSt12_GLOBAL__N_121write_utf8_code_pointIDuEEbRNS_5rangeIT_Lb1EEEDi
-_ZNSt12_GLOBAL__N_18read_bomIKDuLb1ELm3EEEbRNS_5rangeIT_XT0_EEERAT1__Kh.constprop.0
-_ZNSt7codecvtIDiDu11__mbstate_tE2idE
-_ZNSt7codecvtIDiDu11__mbstate_tED0Ev
-_ZNSt7codecvtIDiDu11__mbstate_tED1Ev
-_ZNSt7codecvtIDiDu11__mbstate_tED2Ev
-_ZNSt7codecvtIDsDu11__mbstate_tE2idE
-_ZNSt7codecvtIDsDu11__mbstate_tED0Ev
-_ZNSt7codecvtIDsDu11__mbstate_tED1Ev
-_ZNSt7codecvtIDsDu11__mbstate_tED2Ev
-_ZTIDu
-_ZTIPDu
-_ZTIPKDu
-_ZTISt23__codecvt_abstract_baseIDiDu11__mbstate_tE
-_ZTISt23__codecvt_abstract_baseIDsDu11__mbstate_tE
-_ZTISt7codecvtIDiDu11__mbstate_tE
-_ZTISt7codecvtIDsDu11__mbstate_tE
-_ZTSDu
-_ZTSPDu
-_ZTSPKDu
-_ZTSSt23__codecvt_abstract_baseIDiDu11__mbstate_tE
-_ZTSSt23__codecvt_abstract_baseIDsDu11__mbstate_tE
-_ZTSSt7codecvtIDiDu11__mbstate_tE
-_ZTSSt7codecvtIDsDu11__mbstate_tE
-_ZTVSt23__codecvt_abstract_baseIDiDu11__mbstate_tE
-_ZTVSt23__codecvt_abstract_baseIDsDu11__mbstate_tE
-_ZTVSt7codecvtIDiDu11__mbstate_tE
-_ZTVSt7codecvtIDsDu11__mbstate_tE
 __FRAME_END__
 __TMC_END__
 __TMC_LIST__
@@ -2695,9 +2652,11 @@ bool __gnu_cxx::operator==<wchar_t*, std::__cxx11::basic_string<wchar_t, std::ch
 bool __gnu_cxx::operator==<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > >(__gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&, __gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> > > const&)
 bool std::(anonymous namespace)::read_bom<char const, true, 3ul>(std::(anonymous namespace)::range<char const, true>&, unsigned char const (&) [3ul]) [clone .constprop.0]
 bool std::(anonymous namespace)::read_bom<char16_t const, false, 2ul>(std::(anonymous namespace)::range<char16_t const, false>&, unsigned char const (&) [2ul])
+bool std::(anonymous namespace)::read_bom<char8_t const, true, 3ul>(std::(anonymous namespace)::range<char8_t const, true>&, unsigned char const (&) [3ul]) [clone .constprop.0]
 bool std::(anonymous namespace)::write_utf16_bom<false>(std::(anonymous namespace)::range<char16_t, false>&, std::codecvt_mode)
 bool std::(anonymous namespace)::write_utf16_code_point<char16_t, true>(std::(anonymous namespace)::range<char16_t, true>&, char32_t, std::codecvt_mode) [clone .part.0]
 bool std::(anonymous namespace)::write_utf8_bom<char>(std::(anonymous namespace)::range<char, true>&, std::codecvt_mode) [clone .part.0]
+bool std::(anonymous namespace)::write_utf8_code_point<char8_t>(std::(anonymous namespace)::range<char8_t, true>&, char32_t)
 bool std::(anonymous namespace)::write_utf8_code_point<char>(std::(anonymous namespace)::range<char, true>&, char32_t)
 bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>&)
 bool std::__detail::_Compiler<std::regex_traits<char> >::_M_expression_term<false, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>&)
@@ -2773,6 +2732,7 @@ char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&
 char16_t
 char32_t
 char32_t std::(anonymous namespace)::read_utf16_code_point<false>(std::(anonymous namespace)::range<char16_t const, false>&, unsigned long, std::codecvt_mode)
+char32_t std::(anonymous namespace)::read_utf8_code_point<char8_t>(std::(anonymous namespace)::range<char8_t const, true>&, unsigned long)
 char32_t std::(anonymous namespace)::read_utf8_code_point<char>(std::(anonymous namespace)::range<char const, true>&, unsigned long)
 char8_t
 chdir
@@ -5399,6 +5359,15 @@ std::codecvt<char16_t, char, __mbstate_t>::do_out(__mbstate_t&, char16_t const*,
 std::codecvt<char16_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
 std::codecvt<char16_t, char, __mbstate_t>::id
 std::codecvt<char16_t, char, __mbstate_t>::~codecvt()
+std::codecvt<char16_t, char8_t, __mbstate_t>::do_always_noconv() const
+std::codecvt<char16_t, char8_t, __mbstate_t>::do_encoding() const
+std::codecvt<char16_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char16_t*, char16_t*, char16_t*&) const
+std::codecvt<char16_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
+std::codecvt<char16_t, char8_t, __mbstate_t>::do_max_length() const
+std::codecvt<char16_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char16_t const*, char16_t const*, char16_t const*&, char8_t*, char8_t*, char8_t*&) const
+std::codecvt<char16_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
+std::codecvt<char16_t, char8_t, __mbstate_t>::id
+std::codecvt<char16_t, char8_t, __mbstate_t>::~codecvt()
 std::codecvt<char32_t, char, __mbstate_t>::do_always_noconv() const
 std::codecvt<char32_t, char, __mbstate_t>::do_encoding() const
 std::codecvt<char32_t, char, __mbstate_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, char32_t*, char32_t*, char32_t*&) const
@@ -5408,6 +5377,15 @@ std::codecvt<char32_t, char, __mbstate_t>::do_out(__mbstate_t&, char32_t const*,
 std::codecvt<char32_t, char, __mbstate_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
 std::codecvt<char32_t, char, __mbstate_t>::id
 std::codecvt<char32_t, char, __mbstate_t>::~codecvt()
+std::codecvt<char32_t, char8_t, __mbstate_t>::do_always_noconv() const
+std::codecvt<char32_t, char8_t, __mbstate_t>::do_encoding() const
+std::codecvt<char32_t, char8_t, __mbstate_t>::do_in(__mbstate_t&, char8_t const*, char8_t const*, char8_t const*&, char32_t*, char32_t*, char32_t*&) const
+std::codecvt<char32_t, char8_t, __mbstate_t>::do_length(__mbstate_t&, char8_t const*, char8_t const*, unsigned long) const
+std::codecvt<char32_t, char8_t, __mbstate_t>::do_max_length() const
+std::codecvt<char32_t, char8_t, __mbstate_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char8_t*, char8_t*, char8_t*&) const
+std::codecvt<char32_t, char8_t, __mbstate_t>::do_unshift(__mbstate_t&, char8_t*, char8_t*, char8_t*&) const
+std::codecvt<char32_t, char8_t, __mbstate_t>::id
+std::codecvt<char32_t, char8_t, __mbstate_t>::~codecvt()
 std::codecvt<wchar_t, char, __mbstate_t> const& std::use_facet<std::codecvt<wchar_t, char, __mbstate_t> >(std::locale const&)
 std::codecvt<wchar_t, char, __mbstate_t>::codecvt(__locale_struct*, unsigned long)
 std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
@@ -6741,6 +6719,9 @@ typeinfo for char16_t*
 typeinfo for char32_t
 typeinfo for char32_t const*
 typeinfo for char32_t*
+typeinfo for char8_t
+typeinfo for char8_t const*
+typeinfo for char8_t*
 typeinfo for decimal128
 typeinfo for decimal128 const*
 typeinfo for decimal128*
@@ -6783,7 +6764,9 @@ typeinfo for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<
 typeinfo for std::_V2::error_category
 typeinfo for std::__codecvt_abstract_base<char, char, __mbstate_t>
 typeinfo for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+typeinfo for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
 typeinfo for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+typeinfo for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
 typeinfo for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
 typeinfo for std::__codecvt_utf16_base<char16_t>
 typeinfo for std::__codecvt_utf16_base<char32_t>
@@ -6899,7 +6882,9 @@ typeinfo for std::basic_stringstream<char, std::char_traits<char>, std::allocato
 typeinfo for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
 typeinfo for std::codecvt<char, char, __mbstate_t>
 typeinfo for std::codecvt<char16_t, char, __mbstate_t>
+typeinfo for std::codecvt<char16_t, char8_t, __mbstate_t>
 typeinfo for std::codecvt<char32_t, char, __mbstate_t>
+typeinfo for std::codecvt<char32_t, char8_t, __mbstate_t>
 typeinfo for std::codecvt<wchar_t, char, __mbstate_t>
 typeinfo for std::codecvt_base
 typeinfo for std::codecvt_byname<char, char, __mbstate_t>
@@ -7066,6 +7051,9 @@ typeinfo name for char16_t*
 typeinfo name for char32_t
 typeinfo name for char32_t const*
 typeinfo name for char32_t*
+typeinfo name for char8_t
+typeinfo name for char8_t const*
+typeinfo name for char8_t*
 typeinfo name for decimal128
 typeinfo name for decimal128 const*
 typeinfo name for decimal128*
@@ -7109,7 +7097,9 @@ typeinfo name for std::_Sp_make_shared_tag
 typeinfo name for std::_V2::error_category
 typeinfo name for std::__codecvt_abstract_base<char, char, __mbstate_t>
 typeinfo name for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+typeinfo name for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
 typeinfo name for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+typeinfo name for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
 typeinfo name for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
 typeinfo name for std::__codecvt_utf16_base<char16_t>
 typeinfo name for std::__codecvt_utf16_base<char32_t>
@@ -7225,7 +7215,9 @@ typeinfo name for std::basic_stringstream<char, std::char_traits<char>, std::all
 typeinfo name for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
 typeinfo name for std::codecvt<char, char, __mbstate_t>
 typeinfo name for std::codecvt<char16_t, char, __mbstate_t>
+typeinfo name for std::codecvt<char16_t, char8_t, __mbstate_t>
 typeinfo name for std::codecvt<char32_t, char, __mbstate_t>
+typeinfo name for std::codecvt<char32_t, char8_t, __mbstate_t>
 typeinfo name for std::codecvt<wchar_t, char, __mbstate_t>
 typeinfo name for std::codecvt_base
 typeinfo name for std::codecvt_byname<char, char, __mbstate_t>
@@ -7417,7 +7409,7 @@ virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allo
 virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_stringstream()
 void
 void std::(anonymous namespace)::read_utf16_bom<false>(std::(anonymous namespace)::range<char16_t const, false>&, std::codecvt_mode&)
-void std::__adjust_heap<__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, long, basestation_scan_t, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}> >(__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, long, __gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, basestation_scan_t, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}>) [clone .isra.0]
+void std::__adjust_heap<__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, long, basestation_scan_t, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}> >(__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, long, long, basestation_scan_t, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}>) [clone .isra.0]
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, char, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, long, char, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__convert_to_v<double>(char const*, double&, std::_Ios_Iostate&, __locale_struct* const&)
 void std::__convert_to_v<float>(char const*, float&, std::_Ios_Iostate&, __locale_struct* const&)
@@ -7479,9 +7471,9 @@ void std::__facet_shims::__numpunct_fill_cache<char>(std::integral_constant<bool
 void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<bool, false>, std::locale::facet const*, std::__numpunct_cache<wchar_t>*)
 void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<bool, true>, std::locale::facet const*, std::__numpunct_cache<wchar_t>*)
 void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter)
-void std::__insertion_sort<__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}> >(__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}>, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}>) [clone .isra.0]
+void std::__insertion_sort<__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}> >(__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, __gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}>) [clone .isra.0]
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter)
-void std::__introsort_loop<__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}> >(__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}>, long, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}>)
+void std::__introsort_loop<__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}> >(__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, __gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}>)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, long, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, __gnu_cxx::__ops::_Val_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}> >(__gnu_cxx::__normal_iterator<basestation_scan_t*, std::vector<basestation_scan_t, std::allocator<basestation_scan_t> > >, __gnu_cxx::__ops::_Val_comp_iter<CScan::ProcessAdvertisingReportsIntoResults(std::vector<basestation_scan_t, std::allocator<basestation_scan_t> >*)::{lambda(basestation_scan_t const&, basestation_scan_t const&)#1}>) [clone .isra.0]
 void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo> >::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
@@ -7567,7 +7559,9 @@ vtable for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<ch
 vtable for std::_V2::error_category
 vtable for std::__codecvt_abstract_base<char, char, __mbstate_t>
 vtable for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>
+vtable for std::__codecvt_abstract_base<char16_t, char8_t, __mbstate_t>
 vtable for std::__codecvt_abstract_base<char32_t, char, __mbstate_t>
+vtable for std::__codecvt_abstract_base<char32_t, char8_t, __mbstate_t>
 vtable for std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>
 vtable for std::__codecvt_utf16_base<char16_t>
 vtable for std::__codecvt_utf16_base<char32_t>
@@ -7667,7 +7661,9 @@ vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<
 vtable for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >
 vtable for std::codecvt<char, char, __mbstate_t>
 vtable for std::codecvt<char16_t, char, __mbstate_t>
+vtable for std::codecvt<char16_t, char8_t, __mbstate_t>
 vtable for std::codecvt<char32_t, char, __mbstate_t>
+vtable for std::codecvt<char32_t, char8_t, __mbstate_t>
 vtable for std::codecvt<wchar_t, char, __mbstate_t>
 vtable for std::codecvt_byname<char, char, __mbstate_t>
 vtable for std::codecvt_byname<wchar_t, char, __mbstate_t>
