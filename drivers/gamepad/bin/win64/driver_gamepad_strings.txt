@@ -1,5 +1,4 @@
 	!s99
-	4tGj{
  %41g
  A__^
  H3E H3E
@@ -93,13 +92,12 @@
 0w0c1
 0}0i1
 130801120000Z
-1uY(CV
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231024210215Z0/
+231028002846Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -111,7 +109,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4/_^T
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -127,6 +124,7 @@
 =rIQU
 >0<0:
 >Mp$d
+?W&{+-`d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -139,6 +137,7 @@
 A9A A
 A_A^_
 A_A^_^]
+Auf(U
 AuthD
 Bellevue1
 CloseHandle
@@ -154,12 +153,14 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+FokyG
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
+Go%S 
 H SWH
 H-^Eu
 H93t	H
@@ -169,6 +170,7 @@ H95Dz
 H95E}
 H95O~
 H9w`tFH
+H?lL*m
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -193,9 +195,10 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-Kd'g@
+Kv/U'.x
 K}*n:	
 L$ SH
+L1YG/w
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
@@ -205,13 +208,13 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-M{'i;=ug
 NPH9Q
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS]
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -266,6 +269,7 @@ Washington1
 Y9"SD
 [K]taM?
 \$ UH
+\z=gY%^ Q
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -305,6 +309,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`/+xz
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -329,9 +334,7 @@ memcpy
 memmove
 memset
 ntelD
-oc"?X
 p WAVAWH
-ptb} 
 string too long
 t$ AVH
 t$ AWH
@@ -341,7 +344,6 @@ tXfff
 terminate
 v=Y]Bv
 vector<T> too long
-w!8_[
 www.digicert.com1!0
 www.digicert.com1$0"
 {gamepad}/icons/gamepad_status_error.png

@@ -63,11 +63,11 @@
  sJE3
 !&.37<
 !(0)"
+!5Y 6
 !hn7!
 " not found in the scene.
 """""""
 "%/28;=#$019:>?
-",WpYc
 ". Must be "perspective" or "orthographic"
 "9k0t
 "accessors" object not found in .gltf
@@ -80,6 +80,7 @@
 "scenes" object not found in .gltf or not an array type
 "spot" is not a JSON object.
 #*1892+$
+#.>2i
 #9i0t
 #?RADIANCE
 #?RGBE
@@ -94,6 +95,7 @@ $w!Hc
 %9{0t
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
+%co.X
 %s begin_ctx=%llu
 %s end_ctx=%llu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -436,6 +438,7 @@ $w!Hc
 /user/wrist/left
 /user/wrist/right
 0 width
+0"WBq
 0-pixel image
 0A^_^
 0A_A^A\_^
@@ -458,11 +461,10 @@ $w!Hc
 2.5.4.3
 210429000000Z
 211007000000Z
-21Ew[9
 220323000000Z
 220801000000Z
 230714000000Z
-231024210334Z0/
+231028003000Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -475,7 +477,6 @@ $w!Hc
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
-3Hr&@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -678,6 +679,7 @@ $w!Hc
 @VWAWH
 @_RDATA
 @fff>fff>fff>fff>
+@{|=j
 A valid JSON document must be either an array or an object value.
 A9A A
 A9Q sEI
@@ -1146,6 +1148,7 @@ J>@G_
 JSON string too short.
 KERNEL32.dll
 KHR_lights_punctual
+K{B]R
 K}*n:	
 L$ E3
 L$ H;
@@ -1236,6 +1239,7 @@ No valid guardian bounds. Creating standing chaperone
 NormalTextureInfo
 Not writing %s because the texture was null
 O8I+O0H
+OA1"g
 OPAQUE
 OVR Runtime Init
 OVR runtime requested recenter
@@ -1288,7 +1292,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS=q
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1424,6 +1427,7 @@ Unsupported SRV type: %d
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
 UuidFromStringA
+V<e"xTe
 VATAUAVAWH
 VATAUH
 VATAVH
@@ -1442,7 +1446,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
-W.S=+
 WATAUAVAWH
 WAVAWH
 WINMM.dll
@@ -1476,6 +1479,7 @@ ZL$Xf
 [OculusDirect] ovr_EndFrame:%lli
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [json.exception.
+[l\L(
 \$ E3
 \$ H;
 \$ I;
@@ -1764,7 +1768,6 @@ driver_oculus.dll
 driver_oculus.vrchap
 dxgi.dll
 eCS < CS_Count
-eIE[=q^/]
 ePS < PS_Count
 eVS < VS_Count
 effffff
@@ -1897,6 +1900,7 @@ invalid string: surrogate U+DC00..U+DFFF must be followed by U+DC00..U+DFFF
 invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
 invalid vector<T> subscript
 inverseBindMatrices
+iox.<
 isalnum
 it_it
 italian
@@ -2156,6 +2160,7 @@ pt_br
 pt_pt
 quest
 rND9{0t
+rYCs]
 range
 read past buffer
 realloc
@@ -2467,6 +2472,7 @@ unsupported data layout
 unsupported format
 v4fff
 v=Y]Bv
+vByT8
 vE;E`M
 vHcD$LH
 value
@@ -2499,6 +2505,8 @@ www.digicert.com1$0"
 x AVH
 x UAVAWH
 xA^A\_^][
+xH34g
+ycamM
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI

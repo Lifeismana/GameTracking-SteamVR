@@ -39,7 +39,6 @@
 +o'q)}
 , last executing in 
 ,W5y+
-,pGsp
 -1e+9999
 -Infinity
 -u-I;
@@ -166,7 +165,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231024210849Z0/
+231028003541Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -188,10 +187,7 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8Euok
 8_^][
-9_XtP
-;[ 6X^
 < t+<
 </u#H
 <0:08
@@ -467,6 +463,7 @@ H+SpI
 H+WpA
 H+WpH
 H+WpI
+H,9C(
 H-^Eu
 H93t	H
 H9Ahs
@@ -675,6 +672,7 @@ UpdatePointerOverlay
 UploadCursorTexture
 VATAVH
 VCRUNTIME140.dll
+VFl+?
 VR_CONFIG_PATH
 VR_GetGenericInterface
 VR_GetInitToken
@@ -689,6 +687,7 @@ Valve Corp.1
 W H+W
 WATAUAVAWH
 WAVAWH
+W^s\M
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -706,6 +705,7 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
+\W<ew5pV|
 \u=H;
 ]J<0"0i3
 ]g@8yhu
@@ -777,6 +777,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+cXA?Q
 cs_cs
 czech
 d$`H=
@@ -817,6 +818,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+i3|n}
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -838,6 +840,7 @@ k0i0$
 kernel32.dll
 ko_ko
 korean
+l	X*n
 l$ H;
 l$ H=
 l$8E3
@@ -908,7 +911,6 @@ th_th
 tolower
 tr_tr
 turkish
-u/K'*
 ua_ua
 ukranian
 user32.dll

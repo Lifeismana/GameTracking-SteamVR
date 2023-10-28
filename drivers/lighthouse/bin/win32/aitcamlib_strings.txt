@@ -13,7 +13,6 @@ $9^ t
 %UUUU
 ',=?k
 '.5<=6/7>????????????????
-(6L~iE
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -173,7 +172,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231024210037Z0/
+231028002713Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -205,7 +204,6 @@ $9^ t
 3X4_4
 3[4d4h4y4}4
 3mq+<
-3w0m7
 4	5'5/5d5
 4 4$4(4,4m5q5
 4#4(424C4H4R4c4h4r4
@@ -265,7 +263,6 @@ $9^ t
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7l8p8t8x8
 7o7 9$9Z9^9m9q9
-7o?Q7n
 8"8p8
 8#8(828C8H8R8c8h8r8
 8*868U8Z8k8q8v8
@@ -471,7 +468,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KI?w9
 K}*n:	
 L?n(Zy&
 LeaveCriticalSection
@@ -810,7 +806,6 @@ strtol
 sv_sv
 swedish
 t"Php
-t08e*O
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha

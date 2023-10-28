@@ -6,7 +6,6 @@
 																																																																																																																
 	!s99
 	#jT$
-	/@W4
 	020}0
 	333\3
 	CODE_SIZE
@@ -400,6 +399,7 @@ $tI<unknown>
 *0E0R0f0
 +F +F
 +Xt@(
++jF9Y
 +laser0
 +laser1
 +motor0
@@ -883,7 +883,6 @@ $tI<unknown>
 0686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
 080e0
 081D1M1V1[1`1g1
-08e$E
 097_^
 0;1o1
 0<0D0P0p0x0
@@ -1179,7 +1178,7 @@ $tI<unknown>
 222;2H2N2[2g2q2w2
 223Z3
 230714000000Z
-231024210133Z0/
+231028002809Z0/
 241009235959Z0a1
 242>2_3d3y3~3&656k6p6
 242P2
@@ -2671,6 +2670,7 @@ $tI<unknown>
 ;]<<>^>
 ;_<g<
 ;d=i=w=|=
+;eW\l
 ;f<y=
 ;f?}?
 ;g<l<x<
@@ -3227,6 +3227,7 @@ $tI<unknown>
 ?es-8R
 ?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
+?g3HM
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ
 ?gyro_scale
@@ -3291,7 +3292,6 @@ $tI<unknown>
 @^8U)zj
 @fff>fff>fff>fff>
 @jdj@
-@shrz
 @tWPj
 A PQV
 A file with this name is already in the pool.
@@ -3362,6 +3362,7 @@ AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
 Available samples not sufficient for booting (%s)
 B [_^]
+B#2-x}|
 B(+B$
 B0S071O1V1
 B1V1e1
@@ -3573,7 +3574,6 @@ D$@SVW3
 D$LVP
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
-D;(	z
 DISABLED
 DISTORT_BSPLINE
 DISTORT_DPOLY3
@@ -3652,9 +3652,7 @@ Duplicate basestation serials detected.
 Duplicate key: '
 E(VSP
 E,Ph	w
-E/qfs$
 ECameraHAL_OpenError_ToString
-EQcCGG?
 ERROR
 ERROR: Expected 1 float args, fDegrees'
 ERROR: Expected 1 float args, fPitchDegrees'
@@ -3761,6 +3759,7 @@ F G+F
 F WPj
 F!WPj
 F"WPj
+F"{N8
 F#WPj
 F$_^[
 F(+F$
@@ -4940,6 +4939,7 @@ UuidCreate
 UuidFromStringA
 UuidToStringA
 V2 HMD with bogus trackrefs detected in configuration:
+V7q'!
 VBus: 
 VCRUNTIME140.dll
 VDEST
@@ -5242,7 +5242,6 @@ Vt/W3
 W(PQR
 W0PQR
 W2f5>7v7
-W4Bv%X
 WARNING
 WARNING: Base %08X has no factory calibration and will be ignored
 WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
@@ -5338,7 +5337,6 @@ Z* ,
 ] is not a JSON object.
 ] name = "
 ] name = [
-].\+3
 ]J<0"0i3
 ^$Q9C
 ^<Q9C
@@ -5622,6 +5620,7 @@ c:\buildslave\steamvr_rel_win32\build\src\vortexlib\distortion.cpp
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\stereo_setup.cpp
 cAMDt
+cAlH"
 cal_method
 calloc
 camera
@@ -6233,7 +6232,6 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o]RHG
 object
 object key
 object separator

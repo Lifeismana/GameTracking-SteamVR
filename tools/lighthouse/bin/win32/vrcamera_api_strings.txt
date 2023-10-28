@@ -22,6 +22,7 @@
  sCWj
  t\9]
 !hn7!
+";	]*
 #9Npt
 #>B>J>
 $0,040<0P0X0`0h0p0|0
@@ -431,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231024210034Z0/
+231028002710Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -916,6 +917,7 @@ $_^[]
 ;F=|>
 ;FD~@
 ;FD~H
+;H/\/`
 ;N;h;
 ;N;o;t;z;
 ;Q u	;A
@@ -1216,6 +1218,7 @@ A(;A,v
 A0B;W
 AHPQVR
 AHkO($
+A_]["D=)
 AcquireSRWLockExclusive
 Applying depth format 
 Applying first frame camera configuration options...
@@ -1533,7 +1536,6 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
-UO{2.l
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
 Unhandled Exception while adding frame handler to video stream: 
@@ -1584,7 +1586,9 @@ WideCharToMultiByte
 WinRTInitialization
 Wj4XPV
 Writing failed at 0x%X/0x%X Bytes
+W|R-t
 XSVW3
+Xt<@$
 Y9"SD
 YYF;w,|
 YYPhHv
@@ -1592,11 +1596,13 @@ YYPh`v
 YYPhxv
 YY^_]
 Y__^[
+[:4D=
 [K]taM?
 [SPj"
 [tc9]
 \SVW3
 ]J<0"0i3
+]U<e5
 _$@;Ghr
 _CIexp
 _CIpow
@@ -1659,7 +1665,6 @@ _unlock_file
 _unlock_locales
 _wcsdup
 `.rdata
-`h;Ro
 a7hIw
 abort
 address family not supported
@@ -1681,7 +1686,6 @@ api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
 b1	3C3
-b9@.]
 bad address
 bad allocation
 bad array new length
@@ -1772,6 +1776,7 @@ memcpy
 memmove
 memset
 message size
+mi'ih$
 n;w0tc
 network down
 network reset
@@ -1906,6 +1911,7 @@ xdigit
 y'j h
 {L?uI
 {un'%
+|:"nU
 |Lu?c
 |SVWj
 }:;2|6

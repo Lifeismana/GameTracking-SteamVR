@@ -14,6 +14,7 @@
  H3E H3E
  for detail.
  formatting error code 
+ |<:j
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
@@ -30,7 +31,6 @@
 (t$ H
 (t$@H
 (|$ H
-)(wU&
 )D$ L
 )t$ H
 )t$0H
@@ -148,6 +148,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/a=6Jz
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -182,7 +183,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231024210901Z0/
+231028003553Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -194,7 +195,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4ZB,Vm
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -211,6 +211,7 @@
 < t+<
 </u#H
 <0:08
+<\ w|
 <unknown>
 =rIQU
 >0<0:
@@ -642,6 +643,7 @@ M H1E
 M98u/
 MB(iVR
 MSVCP140.dll
+MY.$r
 Mailbox %s received message %s, which it didn't have a handler for
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
@@ -651,8 +653,11 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+N9[x]
 NPH9Q
+N^GV/]}
 OLEAUT32.dll
+O]=-A,|
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
@@ -667,7 +672,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSK^
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -778,7 +782,6 @@ VR_OVERRIDE
 VWATAVAWH
 VWAVH
 VWAWH
-V\.PG
 V_~]	,
 Valve Corp.0
 Valve Corp.1
@@ -796,7 +799,6 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
-XZoW[
 Y9"SD
 [K]taM?
 \$ E3
@@ -932,6 +934,7 @@ german
 gfffffffH
 gfffffffI
 greek
+hW<e>
 h_^[]
 handlers
 http://ocsp.digicert.com0A
@@ -1001,7 +1004,6 @@ product_name
 pt_br
 pt_pt
 r,fff
-r[^(`g|*K
 request_destroy_window_view
 request_handlers
 request_handlers_response

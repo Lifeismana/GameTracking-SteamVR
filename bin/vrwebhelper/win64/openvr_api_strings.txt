@@ -40,6 +40,7 @@
  delete
  delete[]
  for detail.
+ hKet
  new[]
  t(<#t
  tDE3
@@ -414,7 +415,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231024210039Z0/
+231028002716Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -504,6 +505,7 @@ $iMBm
 <%ufH
 </u#H
 <0:08
+<6%K`
 <:u/H
 <:u3H
 <:wuH
@@ -853,7 +855,6 @@ D;z,A
 D;z,u
 D;z,v	A
 D<P0I
-DSOmRM
 December
 DecodePointer
 DeleteCriticalSection
@@ -1292,7 +1293,6 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-RSDSg
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1310,6 +1310,7 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
+S/^Z_
 S0Q0O
 S;\$0tH
 S>$hkDh$h>[2
@@ -1893,6 +1894,7 @@ c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
+cU<e"o
 ceLfdfK3
 cg+tY
 collectComments
@@ -1941,6 +1943,7 @@ f94H}7H
 f9<Ju
 f9D$pu
 f9t$bu
+f;I&W
 f;M	tt
 fA9,Au
 fA9<\u
@@ -1985,7 +1988,6 @@ fG9$Ou
 fJBGo
 failIfExtra
 false
-fe-0I
 fffff
 ffffff
 fffffff
@@ -2079,7 +2081,6 @@ ldexp
 log10
 lq%&1T
 m0k0$
-mN|a:
 map/set<T> too long
 message size
 n03>Pu
@@ -2234,6 +2235,7 @@ t/D8e
 t4~ ;
 t5HcP
 t5LcF
+t;=CA
 t<ffff
 t?8_:t
 t?H95
@@ -2319,6 +2321,7 @@ x AVH
 x AVHcA
 x AWH
 x UAVAWH
+x>Z\D
 xMHcC
 xP?b3
 xRB`2
@@ -2328,7 +2331,6 @@ xmZ8(N*
 xpxxxx
 xwpwpp
 yH;YXtl
-yK s2
 y\PD>!
 y^QZ8(O*
 ygCH2
@@ -2381,6 +2383,7 @@ zwom}
 |TBc4
 |^4#W,
 |b=})>
+}	;]wT
 }LuHO
 }o@8{
 ~ $s%r

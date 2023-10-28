@@ -92,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231024210143Z0/
+231028002818Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -131,7 +131,6 @@
 5N5W5`5i5n5s5z5
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-5z=\e
 6$6<6L6P6`6d6h6p6
 6*f(_
 696r6
@@ -167,6 +166,7 @@
 :-:6:?:H:M:R:Y:
 :F;e;
 :b:u:
+:ehsI
 ; ;B;Q;Z;g;
 ; <(<-<@<T<Y<l<
 ;$;-;2;7;>;C;O;q;
@@ -220,7 +220,6 @@ CreateEventW
 CreateThread
 D3D11CreateDevice
 DeleteCriticalSection
-DfLMe	q
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 20230
@@ -273,7 +272,6 @@ InitializeSListHead
 Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J;2_l
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -296,7 +294,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSc
 RaiseException
 S0Q0O
 SA|X=G
@@ -336,7 +333,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-YLx {z
 Y__^[
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -383,7 +379,6 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`K%ki
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -393,6 +388,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
+bw:vqq
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
 d3d11.dll
@@ -417,7 +413,6 @@ map/set<T> too long
 memcpy
 memmove
 memset
-n|e\-
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
@@ -465,7 +460,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-r)9+-
 startup
 string too long
 strncpy
@@ -479,6 +473,8 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+xa3S!G
+z|f9pvB
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
