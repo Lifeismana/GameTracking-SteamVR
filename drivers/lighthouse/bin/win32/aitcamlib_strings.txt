@@ -13,6 +13,7 @@ $9^ t
 %UUUU
 ',=?k
 '.5<=6/7>????????????????
+'k,wy
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -156,6 +157,7 @@ $9^ t
 1P3A5a5
 1c3g3v3z3
 1h3l3p3t3x3|3
+1p^"g
 2 2$2(2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
@@ -172,7 +174,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231028002713Z0/
+231031174319Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -498,6 +500,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
+RSDS~
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -789,6 +792,7 @@ pt_br
 pt_pt
 pvBuffer != nullptr
 qdriver_lighthouse
+r;95Nt
 read past buffer
 ro_ro
 romanian
@@ -849,6 +853,7 @@ zh_tw
 zlib corrupt
 {un'%
 |Lu?c
+|j$Y~i
 }LuHO
 ~qj#k"
 ~t&LN

@@ -1,8 +1,10 @@
 	!s99
+	Hx;Y
  %41g
  A__^
  H3E H3E
 !hn7!
+#	q	u\!
 ',=?k
 (D$ f
 (f*^[0
@@ -97,7 +99,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231028002846Z0/
+231031174501Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -115,6 +117,7 @@
 6*f(_
 6I]Dc
 6OB,n_
+6j,0l
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -124,7 +127,6 @@
 =rIQU
 >0<0:
 >Mp$d
-?W&{+-`d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -137,7 +139,6 @@
 A9A A
 A_A^_
 A_A^_^]
-Auf(U
 AuthD
 Bellevue1
 CloseHandle
@@ -153,14 +154,12 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-FokyG
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-Go%S 
 H SWH
 H-^Eu
 H93t	H
@@ -170,7 +169,6 @@ H95Dz
 H95E}
 H95O~
 H9w`tFH
-H?lL*m
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -195,10 +193,8 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-Kv/U'.x
 K}*n:	
 L$ SH
-L1YG/w
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
@@ -214,7 +210,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS]
+RSDSX
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -269,7 +265,6 @@ Washington1
 Y9"SD
 [K]taM?
 \$ UH
-\z=gY%^ Q
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -309,7 +304,6 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-`/+xz
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -323,6 +317,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i3MIwu
 jj@0HK4
 k0i0$
 l$8E3
@@ -334,6 +329,7 @@ memcpy
 memmove
 memset
 ntelD
+oAl-=
 p WAVAWH
 string too long
 t$ AVH

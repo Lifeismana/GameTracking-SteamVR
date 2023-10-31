@@ -14,7 +14,6 @@
  H3E H3E
  for detail.
  formatting error code 
- |<:j
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
@@ -148,7 +147,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/a=6Jz
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -183,7 +181,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231028003553Z0/
+231031175140Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -197,6 +195,7 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
+5e4JO
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
@@ -211,7 +210,6 @@
 < t+<
 </u#H
 <0:08
-<\ w|
 <unknown>
 =rIQU
 >0<0:
@@ -610,6 +608,7 @@ IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
+KYb>u
 K}*n:	
 L$ E3
 L$ H;
@@ -633,6 +632,7 @@ L;8u6H
 L?n(Zy&
 LUnable to create graphics capture item for window.
 LeaveCriticalSection
+Lh8,[
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LoadCursorA
@@ -643,7 +643,6 @@ M H1E
 M98u/
 MB(iVR
 MSVCP140.dll
-MY.$r
 Mailbox %s received message %s, which it didn't have a handler for
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
@@ -653,11 +652,8 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-N9[x]
 NPH9Q
-N^GV/]}
 OLEAUT32.dll
-O]=-A,|
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
@@ -672,6 +668,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS=b
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -681,6 +678,7 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S(vfD
 S0Q0O
 SA|X=G
 SHCreateItemFromParsingName
@@ -693,6 +691,7 @@ SVWATAUAVAWH
 SVWAVAWH
 SVWAVH
 SWAWH
+SZ}k|X@N
 SendInput
 SendInput failed: %d events inserted, error code = %s
 Set thread %p priority to: %d
@@ -799,7 +798,9 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
+Xx"eH
 Y9"SD
+[K YT
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -934,7 +935,6 @@ german
 gfffffffH
 gfffffffI
 greek
-hW<e>
 h_^[]
 handlers
 http://ocsp.digicert.com0A
@@ -1052,6 +1052,7 @@ title
 tolower
 tr_tr
 turkish
+u"P1(
 ua_ua
 ukranian
 update_debug_info

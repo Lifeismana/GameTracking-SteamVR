@@ -22,7 +22,6 @@
  sCWj
  t\9]
 !hn7!
-";	]*
 #9Npt
 #>B>J>
 $0,040<0P0X0`0h0p0|0
@@ -432,7 +431,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231028002710Z0/
+231031174316Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -470,6 +469,7 @@ $_^[]
 3 3<3@3`3
 3 3=3N3c3h3
 3 3O3=7o7v7(8,8084888<8@8D8H8L8A:Q:
+3 M4Co+
 3!3O3q3
 3!4w4
 3$3(383<3@3D3H3P3h3l3
@@ -917,7 +917,6 @@ $_^[]
 ;F=|>
 ;FD~@
 ;FD~H
-;H/\/`
 ;N;h;
 ;N;o;t;z;
 ;Q u	;A
@@ -1218,7 +1217,6 @@ A(;A,v
 A0B;W
 AHPQVR
 AHkO($
-A_]["D=)
 AcquireSRWLockExclusive
 Applying depth format 
 Applying first frame camera configuration options...
@@ -1304,6 +1302,7 @@ DuplicateHandle
 DynamicProgressFeedback
 E;w0tLj
 EI2C support not yet implemented
+Eatp|2
 EncodePointer
 End Streaming Depth...
 End Streaming Video...
@@ -1487,6 +1486,7 @@ QQSVW
 QSVWj
 QVWjt
 QkK04
+QoT&LN
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -1586,9 +1586,7 @@ WideCharToMultiByte
 WinRTInitialization
 Wj4XPV
 Writing failed at 0x%X/0x%X Bytes
-W|R-t
 XSVW3
-Xt<@$
 Y9"SD
 YYF;w,|
 YYPhHv
@@ -1596,13 +1594,11 @@ YYPh`v
 YYPhxv
 YY^_]
 Y__^[
-[:4D=
 [K]taM?
 [SPj"
 [tc9]
 \SVW3
 ]J<0"0i3
-]U<e5
 _$@;Ghr
 _CIexp
 _CIpow
@@ -1776,7 +1772,6 @@ memcpy
 memmove
 memset
 message size
-mi'ih$
 n;w0tc
 network down
 network reset
@@ -1911,7 +1906,6 @@ xdigit
 y'j h
 {L?uI
 {un'%
-|:"nU
 |Lu?c
 |SVWj
 }:;2|6

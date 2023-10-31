@@ -19,6 +19,7 @@ $Phdd
 %%.%dg
 %2.2X
 %8.8X
+%Xm.nW]
 %s setup error from %s
 %s: %s
 %s: ( %d ): ReadFile failed! (%s)
@@ -80,7 +81,6 @@ $Phdd
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
-)PvRv0
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -217,7 +217,6 @@ $Phdd
 1=3m3
 1B2s2
 1X2\2`2d2h2l2p2e3
-1YhtkO!.}6
 1c2|2
 1e+9999
 1o2w2
@@ -236,7 +235,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-231028002721Z0/
+231031174327Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -686,6 +685,7 @@ Execute '%s %s' failed (Error:%d)
 Execute Elevated '%s %s' failed (Error:%d)
 Existing Bootloader mode.
 Extended Error: %s, %s
+Ezn9_
 F ;G 
 F ;W$|
 F$;G$
@@ -1118,7 +1118,6 @@ gfff+
 gfffSV
 gfffV
 graph
-hU<e2
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -1197,6 +1196,7 @@ ntdll.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
+pFl	&p
 print
 punct
 realloc
@@ -1234,6 +1234,7 @@ u!hd^
 u%;Q(t 
 u'VPj
 u)h|\
+u4)SX
 uCVj@
 ubh(d
 umRQh
@@ -1261,6 +1262,7 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
+yN(Hd
 {L?uI
 {un'%
 |	9A 

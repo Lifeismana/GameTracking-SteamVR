@@ -1021,7 +1021,6 @@ $tI
 /y/touch
 0 width
 0-pixel image
-00:25:14
 0123456789
 0123456789ABCDEF
 1
@@ -1146,6 +1145,7 @@ $tI
 16CVROverlayLatest
 16CVkCommandBuffer
 16IVRClientHandler
+17:41:48
 17CBoneMaskResource
 17CInputFilter_DPad
 17CSharedImageLinux
@@ -20547,6 +20547,7 @@ IVRTrackedCamera_005_FnTable_ReleaseVideoStreamingService(unsigned long)
 IVRTrackedCamera_006
 IVRVirtualDisplay001_Version
 IVRVirtualDisplay_
+IVRVirtualDisplay_002
 IVRWatchdogHost_
 IVRWatchdogHost_001
 IVRWatchdogHost_002
@@ -21710,7 +21711,7 @@ OPAQUE
 OSWaitForDebugger()
 Object
 Oct
-Oct 28 2023
+Oct 31 2023
 October
 OculusSDKStart
 OldAppQuitSent

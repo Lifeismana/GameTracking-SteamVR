@@ -31,6 +31,7 @@
  H3E H3E
  Height: 
  Width: 
+ r	@@B
  s2E3
  sIE3
 !T$(H!T$ 
@@ -75,12 +76,12 @@ $< t6<$t,<+t"<vt
 )D$PH
 )D$PM
 )D$`I
+)`Tp$
 )t$ A
 )t$ H
 )t$ I
 )t$0H
 )t$`H
-*//0T]
 +J$D8M@
 +Xt@(
 +o'q)}
@@ -379,7 +380,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231028002730Z0/
+231031174338Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -400,6 +401,7 @@ $< t6<$t,<+t"<vt
 6I]Dc
 6OB,n_
 70503
+7b%=KV
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8-uCH
 8-uGH
@@ -414,6 +416,7 @@ $< t6<$t,<+t"<vt
 8\$0up
 8_	u7E3
 8_^][
+8xo+#I
 91~/E3
 9D$(|
 9D$(}k
@@ -612,7 +615,6 @@ $< t6<$t,<+t"<vt
 @VWAVH
 @WAUAVAWH
 @WAVAWH
-@[I9~{V*Hz
 A$+A,t\3
 A(9B(D
 A+B$+
@@ -859,7 +861,6 @@ E8X@t8A
 E9e ~9I
 E;B0E
 E;Bl}DM
-EG0%^x$
 EI2C support not yet implemented
 EPHc@
 ET$(H
@@ -1125,7 +1126,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDS(/
+RSDS*
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1395,7 +1396,6 @@ d$XD9
 d$XE3
 d$`H=
 d$vI9V
-d0h5B
 destination address required
 device or resource busy
 digit
@@ -1432,6 +1432,7 @@ fseek
 fsetpos
 function not supported
 fwrite
+g2}Gh
 generic
 graph
 h< t <$
@@ -1548,7 +1549,7 @@ protocol error
 protocol not supported
 punct
 q(9qD~[E3
-qU<ez
+qjSwx
 r	uAD;d$$u:
 rBu/H
 rLp>B
@@ -1654,7 +1655,6 @@ u)!t$(H
 u2A8D
 uJL9J,u
 uY8\$ t
-u`"]w
 ueA8F
 ug8Y$t
 ujL9J
@@ -1722,8 +1722,8 @@ yH;YXtl
 |$h9w
 |$rfD
 |Lu?c
-}%uXm"x
 }LuHO
+~'p/P
 ~`D8I!t-
 ~qj#k"
 ~t&LN

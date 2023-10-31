@@ -41,13 +41,11 @@
  using interface version 
  was not found
  with error 
-!E?^-2
 !hn7!
 %u.%u
 %u.%u.%u
 ' is not a number.
 ',=?k
-'V<euv
 (A^A]^[
 (A_A^^[
 (A_A^_]
@@ -69,11 +67,13 @@
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
 ,W5y+
+,Z\gv
 -1e+9999
 -Infinity
 .  Does it exist?
 .  Max supported version is 
 .00cfg
+.4,4`
 .?AV?$_Iosb@H@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
@@ -165,7 +165,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231028003032Z0/
+231031174648Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -192,7 +192,6 @@
 <0:08
 =rIQU
 >0<0:
->Jssmp
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -489,7 +488,6 @@ L;8u6H
 L;C u
 L;C u=
 L?n(Zy&
-LBc$[
 LargestInt out of UInt range
 LargestUInt out of UInt range
 LeaveCriticalSection
@@ -529,7 +527,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS?
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -643,6 +640,7 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
+Zt(r/
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -710,7 +708,6 @@ _unlock_file
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
-`H6y]
 a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
@@ -823,12 +820,10 @@ memcpy
 memmove
 memset
 must be non-NULL
-n\I5W/
 nfinity
 ntelD
 openxr/
 openxr_loader.dll
-r$))n0
 rejectDupKeys
 runtime
 s t#fff
@@ -865,7 +860,6 @@ t$`HcH
 t$xH;
 t9H9h
 tmfff
-ulnl@Brv
 ungetc
 unknown type in properties
 v=Y]Bv
@@ -982,7 +976,6 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
-y>p'x
 {un'%
 |$ ATAVAWH
 |$ AVH
@@ -1004,7 +997,6 @@ y>p'x
 |$xH;
 |$xIi
 |Lu?c
-|Wd5[
 }LuHO
 ~+fff
 ~qj#k"

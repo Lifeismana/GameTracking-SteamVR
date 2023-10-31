@@ -36,11 +36,11 @@
  D;5z
  D;j0u
  H3E H3E
+ M>h|6e
  Type Descriptor'
  delete
  delete[]
  for detail.
- hKet
  new[]
  t(<#t
  tDE3
@@ -415,7 +415,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231028002716Z0/
+231031174324Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -505,11 +505,12 @@ $iMBm
 <%ufH
 </u#H
 <0:08
-<6%K`
 <:u/H
 <:u3H
 <:wuH
 <>#n2
+<Ae8,R
+<HVs+{N
 <htr<jtb<lt6<tt&<wt
 <xu<D
 <}wYI
@@ -1310,7 +1311,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S/^Z_
 S0Q0O
 S;\$0tH
 S>$hkDh$h>[2
@@ -1383,6 +1383,7 @@ T$pkD$x<
 TUUUU
 TargetOversubscriptionFactor
 TerminateProcess
+Tflon
 The current HMD requires an additional driver that is not installed (214)
 The requested interface is incompatible with the compositor and the compositor is running (122)
 This interface is not available to utility applications (123)
@@ -1732,6 +1733,7 @@ Y7'v[M
 Y8(|bUhI;W4$eG8
 Y9"SD
 Y>kX>M
+YAQz]Xp
 YD$@f
 YYyhe"B
 Z(D9Z
@@ -1894,7 +1896,6 @@ c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
-cU<e"o
 ceLfdfK3
 cg+tY
 collectComments
@@ -1943,7 +1944,6 @@ f94H}7H
 f9<Ju
 f9D$pu
 f9t$bu
-f;I&W
 f;M	tt
 fA9,Au
 fA9<\u
@@ -2004,6 +2004,7 @@ gfffL
 gfffffffH
 h VWATAVAWH
 h-y"3
+h:wAa
 h< t <$
 h>1my
 hA\_^[
@@ -2235,7 +2236,6 @@ t/D8e
 t4~ ;
 t5HcP
 t5LcF
-t;=CA
 t<ffff
 t?8_:t
 t?H95
@@ -2282,6 +2282,7 @@ u4I9}(
 uAiD$@
 uIL9[
 uY8\$ t
+ubdvYX
 ucD9~
 uf!T$(H!T$ 
 ug8Y$t
@@ -2321,7 +2322,6 @@ x AVH
 x AVHcA
 x AWH
 x UAVAWH
-x>Z\D
 xMHcC
 xP?b3
 xRB`2
@@ -2330,6 +2330,7 @@ x`cot~
 xmZ8(N*
 xpxxxx
 xwpwpp
+y#49.
 yH;YXtl
 y\PD>!
 y^QZ8(O*
@@ -2383,7 +2384,6 @@ zwom}
 |TBc4
 |^4#W,
 |b=})>
-}	;]wT
 }LuHO
 }o@8{
 ~ $s%r

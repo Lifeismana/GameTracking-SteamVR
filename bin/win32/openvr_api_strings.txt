@@ -59,7 +59,6 @@ $iMBm
 )-M-=
 *PjTW
 +050R0c0x0}0
-+@&eh
 +A Vj$
 +A$+Y
 +A$tU3
@@ -421,6 +420,7 @@ $iMBm
 1eaB@
 1l142
 1n2r2v2z2~2
+1zB5,
 2	3F3
 2	3L3W3\3a3|3
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
@@ -457,7 +457,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231028002656Z0/
+231031174302Z0/
 241009235959Z0a1
 242@2L2_2~2
 282\2
@@ -1188,6 +1188,7 @@ DeleteCriticalSection
 DeleteTimerQueueTimer
 Device Calibration is invalid (207)
 Device is not calibrated (206)
+DgH%0
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 20230
@@ -1440,7 +1441,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Monday
 MultiByteToWideChar
-Mx', 
 N PSQ
 N(@PV
 NAN(IND)
@@ -1491,7 +1491,6 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
-RSDSR
 RWQSV
 R\hvv
 RaiseException
@@ -1577,6 +1576,7 @@ TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
 T~OXu
+U'A={
 UQPXY]Y[
 URPQQh
 USB Service Busy (140)
@@ -2050,6 +2050,7 @@ generic
 gfe[D
 h-y"3
 h3l3p3t3x3|3
+hDydEN
 hI{L[
 hPP`*
 hb?O2
@@ -2117,6 +2118,7 @@ m1WY$
 map/set<T> too long
 message size
 n;w0tc
+nTNA8]D
 nan(ind)
 nan(snan)
 network down
@@ -2187,7 +2189,6 @@ restrict(
 result out of range
 rr	jrZ
 runtime
-rvoy5
 sQA^7&^7%sP@
 sU0&?W
 snan)
@@ -2255,7 +2256,6 @@ vj`7%X,
 vrclient Shared Lib Not Found (102)
 vrclient.dll
 vrserver internal error (124)
-w0%[=
 wIPS3
 wXJR*
 wrong protocol type

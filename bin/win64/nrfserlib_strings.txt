@@ -66,6 +66,8 @@
  times.
  version-number:
 !hn7!
+"mk3J%J
+$3jt!
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -601,6 +603,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/[;tgSh
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
@@ -632,7 +635,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231028002738Z0/
+231031174348Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -647,9 +650,8 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5YY\a9t
-5_"Eb
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+6${r9,
 6*f(_
 64-bit
 666666666
@@ -668,6 +670,7 @@
 8EC90003F3154F609FB8838830DAEA50
 8]8vPH
 8_^][
+9 R`P
 9C }&L
 9C }(H
 9\$Pt
@@ -776,6 +779,7 @@
 ?tolower@?$ctype@D@std@@QEBAPEBDPEADPEBD@Z
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exceptions@std@@YAHXZ
+?w&$o
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
@@ -1385,7 +1389,6 @@ L?n(Zy&
 LHB-DFU
 LHB-Unlock
 LINK_CONTROL_PACKET
-LXAX7
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
@@ -1518,7 +1521,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS3
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1773,7 +1775,6 @@ Zipfile is corrupt or not a zipfile
 \$hI;
 \$pH;
 \$pI;
-\<P:R
 \Device Parameters
 \u=H;
 ]J<0"0i3
@@ -1877,6 +1878,7 @@ d$0D)#
 d$@E3
 d$`H=
 d$pfD
+dV	w]
 dat_file
 data error
 deque<T> too long
@@ -1937,7 +1939,6 @@ ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
 jj@0HK4
-k	x}P
 k0i0$
 l$ H=
 l$ VAVAWH
@@ -1965,7 +1966,6 @@ manifest file %s parse error from %s
 manifest file %s setup error from %s
 manifest.json
 map/set<T> too long
-ma{+B#
 memchr
 memcmp
 memcpy
@@ -1976,13 +1976,11 @@ need dictionary
 nrfserlib.dll
 ntelD
 oL$PH
-og'-3w
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 p UWATAVAWH
-pA.gL
 pA^_^
 pA_A\_[]
 pA_A^A]A\_^]
@@ -2168,6 +2166,7 @@ unknown error
 unknown zip result code
 upH;~ uj
 upper
+v!`?2
 v=Y]Bv
 vector<T> too long
 vector<bool> too long
@@ -2182,7 +2181,6 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
-yU<e[
 {un'%
 {x\u!H
 {|?uWH

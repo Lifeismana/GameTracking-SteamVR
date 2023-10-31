@@ -32,7 +32,6 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  t;A;
 !hn7!
-$ d)Bp
 %%.%dg
 %2.2X
 %8.8X
@@ -112,7 +111,6 @@ $ d)Bp
 +9kdt	H
 +Xt@(
 +o'q)}
-,3hK]
 ,W5y+
 -1e+9999
 -ADDR %s
@@ -122,7 +120,6 @@ $ d)Bp
 -start
 -status
 -stop
--tTs;
 -u-I;
 -version
 .00cfg
@@ -207,7 +204,6 @@ $ d)Bp
 .tls$ZZZ
 .xdata
 .xdata$x
-/W4pP
 /f /s
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
@@ -232,7 +228,7 @@ $ d)Bp
 220323000000Z
 220801000000Z
 230714000000Z
-231028002742Z0/
+231031174353Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -253,6 +249,7 @@ $ d)Bp
 6I]Dc
 6OB,n_
 70503
+7XL'D|
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -271,6 +268,7 @@ $ d)Bp
 <0:08
 <= Exiting Context: (%.2f seconds)
 <Bu'H
+<DM"-
 ======================
 ==============================
 => Entering Context
@@ -388,7 +386,6 @@ $ d)Bp
 @UWAVAWH
 @UWAVH
 @WAVAWH
-@eY3aA
 A valid JSON document must be either an array or an object value.
 A;A A
 A]A\_[]
@@ -623,6 +620,7 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
+E1 .lK
 E9e ~7I
 Empty escape sequence in string
 EnterCriticalSection
@@ -786,6 +784,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
+O&y9,
 O(H9N(|
 OXL9OPt
 OpenProcess
@@ -1239,6 +1238,7 @@ memmove
 memset
 need dictionary
 ntelD
+o@*h#
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
@@ -1248,7 +1248,6 @@ punct
 r*=/N
 r9=/N
 realloc
-rs1o=
 runas
 s#fff
 soH9t$@t
@@ -1338,6 +1337,7 @@ www.digicert.com1$0"
 xA\^][
 xAtAL
 xdigit
+{fb#(
 {un'%
 {x\u!H
 {|?uWH

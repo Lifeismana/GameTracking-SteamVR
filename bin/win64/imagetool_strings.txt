@@ -1406,6 +1406,7 @@
  +D '
  - oH
  -c showpage
+ -h97
  .XoO+@#$%&*=-;:>,<1234567890qwertyuipasdfghjklzxcvbnmMNBVCZASDFGHJKLPIUYTREWQ!~^/()_`'][{}|
  0@P`p
  10 cs `%s'
@@ -1712,7 +1713,7 @@
 #jPJS
 #}3Tt
 $ hh@
-$%NVQ
+$$O}~s
 $&[HY
 $/H,9h]	1	
 $4DTdt
@@ -3719,7 +3720,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231028003024Z0/
+231031174640Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -4008,7 +4009,6 @@ $wtpt
 8av/&J
 8bim:
 8fA9x
-8g`,nVP
 8xu!A
 8xupH
 8zbu`H
@@ -4474,6 +4474,7 @@ $wtpt
 >es-8R
 >l-$Y
 >xB,$g4$
+>y) X
 ? ????? ??? ??? ?? ??????? ??, ?? ????????? ?????????!
 ? apval? arb?z?.
 ? na h?be kn
@@ -8642,7 +8643,6 @@ HS_DIAGCROSS
 HS_FDIAGONAL
 HS_HORIZONTAL
 HS_VERTICAL
-HT4C~
 HT9JTy
 HTML parser 
 HTTPS
@@ -12577,6 +12577,7 @@ SemiBold
 SemiCondensed
 SemiExpanded
 Senograph Type
+Senqc
 Sensitivity
 Separate/Image
 SeparateImage
@@ -13428,7 +13429,6 @@ UATAUAVH
 UATAWH
 UAVAWH
 UBRL6
-UB_5}
 UC6UQ`
 UCS-2
 UCS-2BE
@@ -14754,7 +14754,6 @@ _wstat64i32
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
 a(L9a L
-a/GL$'
 a4small
 a7hIw
 aWvd$A;-
@@ -14834,6 +14833,7 @@ aquamarine1
 aquamarine2
 aquamarine3
 aquamarine4
+ar)Ex
 arabic
 arapA+
 arapD
@@ -16455,6 +16455,7 @@ g-markup-error-quark
 g<gu_HcR
 g>Edh>G!i>
 g>ycx
+gVy(oT
 g[TNIEB?=:864310.-,+*)('&%$#""! 
 g_O=_O?_O>_O=_O=`P7\L9_[a}|
 g_array_append_vals
@@ -17177,7 +17178,6 @@ i0+i
 i1!i6Ai;ai@
 i@E9i
 iCCP: invalid keyword
-iIF*3"
 iMW=}V
 iQYF*1(07,17-06,/3,-2-.3--2,,0+,3,)4--8-2>-2>*6C.DV;H]=^qRZlS,8.heVheVheVifWifWjeVlc\ngZhiQlup
 iTXt: invalid compression
@@ -17947,7 +17947,6 @@ mvg:%s
 mvg:vector-graphics
 myanmar
 n	&&&
-n *if
 n == 0 || string != NULL
 n L9N
 n b?l?i.
@@ -18079,6 +18078,7 @@ o?d#p?
 oD) f
 oD)0f
 oXiM?;)3)"%+!+/&:&*C))TN:hqRh
+o^^tl=
 o_fvIGV4^kQKQ5:;#88/8B/i
 oacute
 object %s %p finalized while still in-construction
@@ -21150,6 +21150,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 ~2D;A
 ~3HcKH
 ~5fff
+~=Ae|tA
 ~>fff
 ~@d}c
 ~BLcd$pM
@@ -21161,7 +21162,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 ~ZHcE
 ~Zj\[LpWD
 ~]LcC
-~j,pi
 ~kfff
 ~lp_YWS,,,,-+0/,1.+2,(2-*0,+2,+2++2,+2,+1,+1,)3-,3-,3/,31,40,52-750:3,>6-@6-C8-H;/EE5UD4m=+
 ~nC^Z

@@ -58,7 +58,6 @@
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
 $9E0u
-$={]3r
 %s begin_ctx=%llu
 %s end_ctx=%llu
 %s%s%s%s%s
@@ -524,16 +523,14 @@ $={]3r
 0A_A^_
 0A_A^_^[
 0w0c1
-0x3<;d
 0}0i1
 130801120000Z
-1ywg`2oZ
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231028002756Z0/
+231031174409Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -564,6 +561,7 @@ $={]3r
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8pay9
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -1180,7 +1178,6 @@ J>@G_
 KERNEL32.dll
 Kf;;u
 KfD;3u
-Kz_tm
 K}*n:	
 L#A0H
 L$ E3
@@ -1418,13 +1415,12 @@ Prism-InitLayouts
 Prism-Main
 Prism-PrepareInput
 Prism-UpdatePanelMask
-Pw2	k
 Pz}b!
-Q7E;3
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
+R0]\H
 RENDERDOC_GetAPI
 RPCRT4.dll
 RaiseException
@@ -1452,7 +1448,6 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S'B|H0
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
@@ -1803,7 +1798,6 @@ c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_nvapi.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_vulkan.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismpanelmask.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismposeprovider_null.cpp
-cC#+kTm
 client
 computeCommandSet.Valid()
 createInfo.pComputeDistortion
@@ -1971,7 +1965,6 @@ ole32.dll
 ot$HH
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex
 p WAVAWH
-p*J@N
 pA]A\^
 pA_A^]
 pA_A^_^]
@@ -2606,9 +2599,7 @@ yxxxxxxxI+
 }(M98t
 }LuHO
 }`H+}XH
-}gH%>
 }wH9S
-~nR}iLu+
 ~qj#k"
 ~t&LN
 ~xM+~pI
