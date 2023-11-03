@@ -7,7 +7,6 @@
  H3E H3E
 !hn7!
 ',=?k
-'v7f%d
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -23,8 +22,8 @@
 +o'q)}
 , last executing in 
 ,W5y+
+-S9g?$
 .00cfg
-.>9P:
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
@@ -93,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031174618Z0/
+231103180614Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -111,6 +110,8 @@
 6*f(_
 6I]Dc
 6OB,n_
+6ZLXM
+6]d%RT
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -145,6 +146,7 @@
 @UATAVH
 @UAWH
 @USVWATAUAVAWH
+@_v .j
 A9A A
 A9Q sEI
 A;Q s?I
@@ -269,6 +271,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDS]S0
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -299,7 +302,6 @@ TlsSetValue
 UAVAWH
 USVWATAUH
 UWAVH
-Uba@0
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -379,6 +381,7 @@ c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\201
 camera
 d$`H=
 d3d11.dll
+dEYO 
 dk2_camera
 driver_oculus_legacy.dll
 effffff
@@ -391,7 +394,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i=AeL
 jj@0HK4
 k0i0$
 l$8E3

@@ -103,7 +103,6 @@
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
 "9k0t
-"U}mvy
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
@@ -133,6 +132,7 @@
 #OriginString_HandController
 #OriginString_HandSource
 #OriginString_Source
+$&7mZ-P
 $@/pose/
 $IL+Q
 $tI(knN
@@ -411,6 +411,7 @@ $w!Hc
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
 ()$^.*+?[]|\-{},:=!
+(-K^*
 (9Q|uWH
 (A\^][
 (A\_^[
@@ -1095,6 +1096,7 @@ $w!Hc
 .?AVCSxrCompositorOpenVR@@
 .?AVCSxrCompositorPrism@@
 .?AVCSxrDeletableBase@@
+.?AVCSxrGraphicsBindingD3D11Direct@@
 .?AVCSxrGraphicsBindingD3D11OpenVR@@
 .?AVCSxrGraphicsBindingD3D12OpenVR@@
 .?AVCSxrGraphicsBindingGLOpenVR@@
@@ -1106,6 +1108,7 @@ $w!Hc
 .?AVCSxrSession@@
 .?AVCSxrSpace@@
 .?AVCSxrSwapchainBase@@
+.?AVCSxrSwapchainD3D11Direct@@
 .?AVCSxrSwapchainD3D11OpenVR@@
 .?AVCSxrSwapchainD3D12OpenVR@@
 .?AVCSxrSwapchainGLOpenVR@@
@@ -1700,7 +1703,8 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/5&x!
+/5nq(
+/6J]l
 /9{0t'H
 /a/click
 /a/touch
@@ -2049,6 +2053,7 @@ $w!Hc
 0A^^]
 0A^_]
 0A^_^
+0A^_^H
 0A^_^][
 0A_A\^
 0A_A\_
@@ -2076,13 +2081,12 @@ $w!Hc
 11 4 22 44 44 22 444444
 130801120000Z
 1e+9999
-2	*EE
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231031175042Z0/
+231103181034Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2753,6 +2757,7 @@ B84/u
 B9T	$t
 B9T	$u
 B9T!$t
+BD9%N
 BINORMAL
 BITANGENT
 BMP RLE
@@ -2811,7 +2816,7 @@ CD$@3
 CD$@H
 CD$@I
 CD$P3
-CD$PH
+CD$PL
 CD$PM
 CD$XH
 CD$`3
@@ -2819,6 +2824,7 @@ CD$`H
 CD$`I
 CD$`L
 CD$hH
+CD$pH
 CD3D11VRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting semaphore handle
 CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate counting semaphore handle.
 CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to import GPU counting shared semaphore.
@@ -2939,17 +2945,24 @@ CSxrSession::ReadCachedActionState
 CSxrSpace
 CSxrSwapchainBase
 CSxrSwapchainBase::EndFrame
+CSxrSwapchainD3D11Direct::GetPresentableDepthTexture
+CSxrSwapchainD3D11Direct::GetPresentableTexture
+CSxrSwapchainD3D11Direct::GetPresentableTextureHandle
+CSxrSwapchainD3D11OpenVR::GetPresentableDepthTexture
 CSxrSwapchainD3D11OpenVR::GetPresentableTexture
 CSxrSwapchainD3D11OpenVR::GetPresentableTextureHandle
+CSxrSwapchainD3D12OpenVR::GetPresentableDepthTexture
 CSxrSwapchainD3D12OpenVR::GetPresentableTexture
 CSxrSwapchainD3D12OpenVR::GetPresentableTextureHandle
 CSxrSwapchainGLOpenVR::EndFrame
+CSxrSwapchainGLOpenVR::GetPresentableDepthTexture
 CSxrSwapchainGLOpenVR::GetPresentableTexture
 CSxrSwapchainGLOpenVR::GetPresentableTextureHandle
 CSxrSwapchainImageD3D11OpenVR
 CSxrSwapchainPrism::EnumerateSwapchainImages
 CSxrSwapchainPrism::Init
 CSxrSwapchainPrism::RegisterSwapchainImage
+CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle
 CT$ H
@@ -3506,6 +3519,7 @@ D$XH;
 D$XHc
 D$XI+
 D$XIk
+D$Xy3
 D$`E3
 D$`H+
 D$`H9D$@
@@ -3553,7 +3567,6 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
-D8%#C)
 D8,0u
 D8,8u
 D8/u0
@@ -3561,6 +3574,7 @@ D840u
 D84;u
 D8<0u
 D8<>u
+D8=I$
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -3574,6 +3588,7 @@ D8wBt/H
 D8}gt$L
 D8}gu
 D8}guH
+D9%#w$
 D90uGH
 D989D9XH
 D9>u:H
@@ -3641,6 +3656,8 @@ DebugMessengerCallback
 DeleteCriticalSection
 DeleteFileW
 Deliberately hanging inside VR_Init because the caller asked us to
+Depth and color textures sets out of sync.
+Desktop Game Theater
 Detail
 Determined this is a legacy app.
 Determined this is a steamvr_input app.
@@ -3774,6 +3791,7 @@ ExH9Q
 Exceeded stackLimit in readValue().
 Executable: %s
 ExpandEnvironmentStringsA
+Expected color textures to have already been set above.
 Expected response %s, received %s. Rejecting response.
 Extra non-whitespace after JSON value.
 F ;C@t
@@ -3838,6 +3856,7 @@ Failed to create Vulkan image from D3D11 resource.
 Failed to create Vulkan image with LiquidVR.
 Failed to create compute shader module %s!
 Failed to create d3d11 swapchain image: Unsupported number of faces: %d
+Failed to create d3d11 swapchain image: Unsupported number of images: %d
 Failed to create d3d11 swapchain image: failed to create %d
 Failed to create descriptor heap to clear blank texture
 Failed to create event for fence %ls to signal gpu completion.
@@ -4123,6 +4142,7 @@ GetNextMessage failed while waiting for message of type %d on pipe %s
 GetProcAddress
 GetProcAddress( "D3D11On12CreateDevice" ) failed.
 GetProcessHeap
+GetProcessId
 GetSystemDirectoryW
 GetSystemTime
 GetSystemTimeAsFileTime
@@ -4140,6 +4160,7 @@ Giving up server connection over pipe %s after %d attempts
 Giving up waiting for vrserver to exit after %dms -- killing it
 Global\VRBootstrapper
 GpuSpeed
+H	y?T
 H A;H
 H A;I
 H H9H
@@ -4192,11 +4213,9 @@ H9+t2H
 H9/t	H
 H93t	H
 H948t
-H95*c>
-H95X`>
-H95l`>
+H95$z>
+H95+|>
 H98t	H
-H9=vW>
 H9A H
 H9APt M
 H9A`u}f
@@ -4260,8 +4279,8 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=:c!
-H;=Z?!
+H;=J}!
+H;=jG!
 H;A s
 H;Axt
 H;C(v
@@ -4847,6 +4866,7 @@ L$ SWATAUAVH
 L$ SWH
 L$ UATAUAVAWH
 L$ USAWH
+L$ USVWAUH
 L$ UVWATAUAVAWH
 L$ UVWATAVH
 L$ UWATAUAVAWH
@@ -4956,11 +4976,11 @@ L+I0E3
 L8 9J
 L8$9J
 L9 t'H
-L9%dN<
+L9%dn<
 L90t	H
 L93t	H
 L97u0H
-L9=m3
+L9=]:
 L9?u,H
 L9@ s
 L9A r
@@ -5480,7 +5500,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS(
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5703,7 +5722,7 @@ Start
 StartSession
 Started %s with pid %u
 Starting vrcompositor process: %s args: %s, in folder %s
-Starting vrserver process: %s
+Starting vrserver process: %s in %s
 StartupInfoArg
 SteamAppId
 SteamGameId
@@ -5755,6 +5774,7 @@ T$0LcC(
 T$0fA
 T$8;T$<
 T$8A;
+T$8E3
 T$8H9T$@
 T$8H9T$@t
 T$8H9T$@t!A
@@ -6771,7 +6791,7 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
-W%lP'
+W%<X'
 W0H;C
 W4H;C
 W8H+W`I
@@ -6835,6 +6855,8 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
+X%\Q*
+X-,>#
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7290,7 +7312,6 @@ XR_UNKNOWN_SUCCESS_%d
 XR_VALVE_analog_threshold
 XXXX PNG chunk not known
 X_^][
-Xl=4:
 XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]
 XrProto:NewFrameIdx=%d Id=%d Vsync=%d
 XrProto:Predict:%d
@@ -7302,9 +7323,10 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y-,R#
-Y-=4)
+Y5Mf#
+Y5^U"
 Y9"SD
+Y=sr#
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -8039,6 +8061,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_compositor_prism.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_conformance.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_device.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d11_direct.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d11_openvr.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_d3d12_openvr.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_graphics_gl_openvr.cpp
@@ -8263,6 +8286,7 @@ enable
 enableCameraSurfaces
 enableDriverBoundsImport
 enableHomeApp
+enableLegacyGameTheater
 enableYAMLCompatibility
 end of input
 english
@@ -8496,6 +8520,7 @@ https://
 hu_hu
 hungarian
 iError calling pDownsampleRenderer->Draw()!
+icon_steamvr_desktopgame.png
 ig@-?e
 illegal code in raster
 illum
@@ -8603,6 +8628,7 @@ isalnum
 isalpha
 isdigit
 isspace
+it == m_vecOverlaysToDestroyOnClose.end() || *it != ulOverlayHandle
 it->nRefCount > 0
 it_it
 italian
@@ -8757,6 +8783,7 @@ m_pDevice
 m_pDevice == VK_NULL_HANDLE
 m_pInstance == VK_NULL_HANDLE
 m_pPhysicalDevice == VK_NULL_HANDLE
+m_pSyncDevice == nullptr
 m_pSyncTexture == nullptr
 m_pTextureIndex == nullptr
 m_pTextureIndexStaging == nullptr
@@ -8820,7 +8847,6 @@ motionSmoothing
 mtllib
 multiple IHDR
 multiple signals per batch not allowed
-n$:F7
 n0_D@
 nArrayIndex < m_details.nArrayLayerCount
 nChildIndex != vr::k_unInvalidBoneIndex
@@ -8888,6 +8914,7 @@ only 8-bit
 openvr
 openvr.component.vrcompositor
 openvr.component.vrserver
+openvr.tool.steamvr_desktop_gametheatre
 openvr.tool.steamvr_media_player
 openvr:
 openvrpaths.vrpath
@@ -8918,7 +8945,6 @@ override_device_class
 overwrite.vrsettings
 p UWAVH
 p WATAVH
-p>Ae[2
 pA]A\^
 pA]A\^[]
 pA]A\_
@@ -8963,7 +8989,6 @@ pSrcVertices != nullptr && pDstVertices != nullptr
 pSwapchain
 pSwapchain != nullptr
 pSystemLayerSharedState->IsValid()
-pSystemLayerState
 pTexture && pFlags
 pTextureHandle != nullptr
 pTimeline
@@ -9634,7 +9659,6 @@ t$ UH
 t$ UWATAUAVH
 t$ UWATAUAWH
 t$ UWAVH
-t$ UWAWH
 t$ WATAUAVAWH
 t$ WATAWH
 t$ WAV
@@ -9728,8 +9752,9 @@ t1Hcl$@
 t1fff
 t3fff
 t4L9P
+t6H9.u1
 t7fff
-t8D8-AP,
+t8D8-aT,
 t9fff
 t:fff
 t>H9n
@@ -9745,7 +9770,7 @@ tHI9t$
 tJL;y rDH
 tK@8q<tEI
 tNI;X rHI
-tQH95
+tQH95G|>
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -9826,7 +9851,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=
+t}H9=6x>
 u	A;p(s
 u	A;y(s
 u	H9|$ tI
@@ -10453,6 +10478,7 @@ vrmonitor.exe
 vrntfyimg#%d
 vroverlaylatest
 vrserver internal error (124)
+vrserver pid %d
 vrserver.exe
 vrwebhelper
 vrwebhelper.exe

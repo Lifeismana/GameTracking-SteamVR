@@ -83,7 +83,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031174611Z0/
+231103180607Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -99,6 +99,7 @@
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
+6Ee<_
 6I]Dc
 6OB,n_
 70503
@@ -106,7 +107,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 <0:08
-=3pNR
 =rIQU
 >0<0:
 >Mp$d
@@ -167,7 +167,6 @@ NPH9Q
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-Q";;B
 QueryPerformanceCounter
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -217,7 +216,6 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`8er[
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -236,6 +234,7 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+goa)[
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X

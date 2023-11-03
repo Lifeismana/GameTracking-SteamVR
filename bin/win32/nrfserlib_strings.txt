@@ -57,7 +57,6 @@
 !hn7!
 "0)0C0
 "j h4_
-"w<O+
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
 $PVh\
@@ -66,7 +65,6 @@ $Ph%*
 $Ph'*
 $Ph)*
 $Vh&*
-$z"Rmy
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -75,12 +73,10 @@ $z"Rmy
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
 &060K0S0X0
-&O5WU
-&X2H.B2Z
 ' is not a number.
 ',=?k
+( f3c '
 ()$^.*+?[]|\-{},:=!
-(-3Go
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
@@ -97,12 +93,12 @@ $z"Rmy
 -Infinity
 -external
 -internal
+-zF\p
 . Aborting.
 . Baud rate requested (
 . Ignoring the packet.
 . ack_num is: 
 . raw packet: 
-.*gG=`
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_02e728be6b281fc7c0cdb870c5d215f6>@@
@@ -696,6 +692,7 @@ $z"Rmy
 2$24282H2L2P2X2p2
 2$2<2
 2$3S3r3
+2&-DJx
 2&2+2F2K2f2k2
 2&2;2G2L2
 2&363K3W3\3
@@ -714,7 +711,7 @@ $z"Rmy
 220323000000Z
 220801000000Z
 230714000000Z
-231031174323Z0/
+231103180321Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1196,7 +1193,6 @@ $z"Rmy
 < =X=
 <!<-<3<A<Q<a<m<
 <!<1<A<Q<a<q<
-<"8^i
 <"<*<
 <"<+<O<
 <#<><b<l<
@@ -1808,7 +1804,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 MultiByteToWideChar
-NQbLX
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
 NRFError_DFUError_BaseNeedsPowerCycle
@@ -1914,7 +1909,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSIb
+RSDSv
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2239,6 +2234,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+il)}V
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -2274,7 +2270,6 @@ j(hHi
 jWhXG
 jj@0HK4
 k0i0$
-l-;4*
 l2|X/gGe
 list<T> too long
 lj!hh
@@ -2471,6 +2466,7 @@ uzj h
 v=Y]Bv
 vGh@7
 vGh`5
+vJguaC
 vector<T> too long
 vector<bool> too long
 w QVR

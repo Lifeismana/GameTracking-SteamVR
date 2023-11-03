@@ -36,7 +36,6 @@
 '.5<=6/7>????????????????
 '9k0t
 'D9c0t
-(6uC@
 (A\^][
 (A^A]^[
 (A^A]_[
@@ -58,7 +57,9 @@
 )t$0H
 )|$ H
 )|$@f
+++cEua]W
 +Xt@(
++a]":U
 +o'q)}
 , last executing in 
 ,9k0t%H
@@ -178,7 +179,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031174343Z0/
+231103180338Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -186,11 +187,13 @@
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
 341013235959Z0H1
+34n<6c
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5Ee DYC
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -216,7 +219,6 @@
 9l$Lt	E
 ;D$ht6
 <0:08
-<AeEt
 =ETLP
 =IBgC
 =SNRtt%
@@ -293,7 +295,6 @@ A_A^_^]
 Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
-AkW;o
 AuthD
 BMP RLE
 Bellevue1
@@ -353,7 +354,6 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
-E~1vkx
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -462,7 +462,6 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
-O>"+l
 Out of thread local storage!
 OutputDebugStringA
 PA^_^
@@ -478,7 +477,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS/
+RSDS*
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -577,6 +576,8 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
+VhNpV~
+Vk%}=1A
 WATAUAVAWH
 WAVAWH
 WaitForSingleObject
@@ -586,6 +587,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
+X]2g"
 Y9"SD
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
@@ -604,6 +606,7 @@ Z9k0tUD
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
+^GSO0
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -659,7 +662,6 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-bOo{4
 bad AC huff
 bad APP len
 bad BMP
@@ -868,7 +870,6 @@ t$PHc
 t$hL;
 t$pfA
 t$pfD
-t+w8b
 t>H9n
 tRNS after IDAT
 tRNS before PLTE
@@ -902,6 +903,7 @@ unsupported data layout
 unsupported format
 v=Y]Bv
 vHcD$LH
+vc8nYvc
 vi_vi
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )

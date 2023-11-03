@@ -1406,7 +1406,6 @@
  +D '
  - oH
  -c showpage
- -h97
  .XoO+@#$%&*=-;:>,<1234567890qwertyuipasdfghjklzxcvbnmMNBVCZASDFGHJKLPIUYTREWQ!~^/()_`'][{}|
  0@P`p
  10 cs `%s'
@@ -1609,6 +1608,7 @@
 !lock->writer_locked
 !puhQ*
 !u*p=g
+!uLy-
 !waPSR
 !{	8I%
 " of size %lux%lu%+ld%+ld
@@ -1713,7 +1713,6 @@
 #jPJS
 #}3Tt
 $ hh@
-$$O}~s
 $&[HY
 $/H,9h]	1	
 $4DTdt
@@ -3720,7 +3719,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231031174640Z0/
+231103180635Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -4474,7 +4473,6 @@ $wtpt
 >es-8R
 >l-$Y
 >xB,$g4$
->y) X
 ? ????? ??? ??? ?? ??????? ??, ?? ????????? ?????????!
 ? apval? arb?z?.
 ? na h?be kn
@@ -11754,6 +11752,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS-
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -12577,7 +12576,6 @@ SemiBold
 SemiCondensed
 SemiExpanded
 Senograph Type
-Senqc
 Sensitivity
 Separate/Image
 SeparateImage
@@ -14833,7 +14831,6 @@ aquamarine1
 aquamarine2
 aquamarine3
 aquamarine4
-ar)Ex
 arabic
 arapA+
 arapD
@@ -15547,6 +15544,7 @@ cyan4
 cycle-colormap
 cypriot
 cyrillic
+czH;/
 d 0+`
 d$ E3
 d$ I+
@@ -16455,7 +16453,6 @@ g-markup-error-quark
 g<gu_HcR
 g>Edh>G!i>
 g>ycx
-gVy(oT
 g[TNIEB?=:864310.-,+*)('&%$#""! 
 g_O=_O?_O>_O=_O=`P7\L9_[a}|
 g_array_append_vals
@@ -17508,6 +17505,7 @@ j!3V$E
 j+@u'`
 j,Hcj0D
 j,Hcz0
+j0th|
 j2k:%s
 jGj=Lk<Li;WuFb
 jIT<<H,g~Cj
@@ -18078,7 +18076,6 @@ o?d#p?
 oD) f
 oD)0f
 oXiM?;)3)"%+!+/&:&*C))TN:hqRh
-o^^tl=
 o_fvIGV4^kQKQ5:;#88/8B/i
 oacute
 object %s %p finalized while still in-construction
@@ -19116,6 +19113,7 @@ system:max-memory-request
 system:precision
 system:shred
 systemdict /start get exec
+sznc>
 t	9S$
 t	<-u<I
 t	<-uRI
@@ -21150,7 +21148,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 ~2D;A
 ~3HcKH
 ~5fff
-~=Ae|tA
 ~>fff
 ~@d}c
 ~BLcd$pM

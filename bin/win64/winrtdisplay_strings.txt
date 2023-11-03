@@ -13,6 +13,7 @@
 ',=?k
 (D$0f
 (f*^[0
+)@Yh0
 +Xt@(
 +o'q)}
 ,W5y+
@@ -117,7 +118,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031174238Z0/
+231103180224Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -144,7 +145,6 @@
 9D$DtfL9t$xt
 9E ukH
 <0:08
-<Ae+y*
 <P)9Y
 <unknown>
 =rIQU
@@ -199,7 +199,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Dm;"Yz
 E89D$Pu
 E<9D$Tu
 EnterCriticalSection
@@ -255,7 +254,6 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
 OLEAUT32.dll
-OZCEx
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
@@ -276,7 +274,6 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T,"h/
 UVAUAWH
 UVAWH
 UWAVH
@@ -290,7 +287,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-Vi8?"Q
 WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -318,6 +314,7 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
+YrY1}t
 [K]taM?
 \$ H;
 \$ UH
@@ -369,7 +366,6 @@ c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdi
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
-fIh#I="
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -388,7 +384,7 @@ memmove
 memset
 ntelD
 ole32.dll
-ozvw>
+q;/(f
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -400,6 +396,7 @@ t$PE3
 tXfff
 tYH9\$`t
 terminate
+twLcf
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
 vector<T> too long

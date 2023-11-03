@@ -1,14 +1,14 @@
 	!s99
-	Hx;Y
  %41g
  A__^
  H3E H3E
 !hn7!
-#	q	u\!
 ',=?k
 (D$ f
 (f*^[0
 (|$pL
+)FNK\
+)ub5x
 +Xt@(
 +o'q)}
 ,W5y+
@@ -68,6 +68,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/Ej?(
 /input/a/click
 /input/b/click
 /input/back/click
@@ -99,7 +100,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031174501Z0/
+231103180459Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -117,7 +118,6 @@
 6*f(_
 6I]Dc
 6OB,n_
-6j,0l
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -162,6 +162,7 @@ GetProcAddress
 GetSystemTimeAsFileTime
 H SWH
 H-^Eu
+H6Ee4
 H93t	H
 H957{
 H95A|
@@ -210,7 +211,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSX
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -317,7 +317,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i3MIwu
 jj@0HK4
 k0i0$
 l$8E3
@@ -329,8 +328,9 @@ memcpy
 memmove
 memset
 ntelD
-oAl-=
 p WAVAWH
+pbg	N
+sI<gi
 string too long
 t$ AVH
 t$ AWH
@@ -342,6 +342,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+zj0/g
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

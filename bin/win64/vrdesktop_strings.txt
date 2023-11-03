@@ -16,6 +16,7 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
+#0 *iC
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -34,7 +35,6 @@
 )t$ H
 )t$0H
 )t$@H
-*;p5|
 *uXI;
 +Xt@(
 +o'q)}
@@ -42,6 +42,7 @@
 ,W5y+
 -1e+9999
 -Infinity
+-O 3L
 -u-I;
 .00cfg
 .?AUIInteractableOverlay@@
@@ -159,7 +160,6 @@
 0A__[
 0w0c1
 0}0i1
-1	TU%D/
 130801120000Z
 1e+9999
 210429000000Z
@@ -167,7 +167,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031175129Z0/
+231103181123Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -493,7 +493,6 @@ Handling scroll discrete
 Handling scroll smooth
 Handling unlock mouse
 HcFdH
-I	vjk
 I9Bhs
 I;4$H
 I;4$L
@@ -599,7 +598,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS1
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -817,7 +815,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
-iSu[C}$
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -843,6 +840,7 @@ l$ H;
 l$ H=
 l$8E3
 l$PM9n
+l'U=<
 l2|X/gGe
 latam
 list<T> too long
@@ -852,6 +850,7 @@ m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
 malloc
 map/set<T> too long
+me)Oh
 memcmp
 memcpy
 memmove

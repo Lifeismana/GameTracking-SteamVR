@@ -6,20 +6,21 @@
       "use strict";
       n.d(t, {
         Cj: () => a,
-        D3: () => u,
-        I_: () => c,
-        Jl: () => g,
-        cH: () => d,
-        fY: () => S,
+        D3: () => p,
+        Hr: () => c,
+        I_: () => d,
+        Jl: () => S,
+        cH: () => u,
+        fY: () => _,
         mw: () => r,
         w7: () => l,
-        yt: () => m,
-        z3: () => h,
+        yt: () => g,
+        z3: () => m,
       });
       var i = n(3019),
         s = n(7047);
       const o = i.Message;
-      var r, a, l;
+      var r, a, l, c;
       !(function (e) {
         (e[(e.k_EVRDashboardTabIcon_Unknown = 0)] =
           "k_EVRDashboardTabIcon_Unknown"),
@@ -45,70 +46,21 @@
             (e[(e.k_EVRDashboardActionIcon_PeopleOn = 4)] =
               "k_EVRDashboardActionIcon_PeopleOn"),
             (e[(e.k_EVRDashboardActionIcon_PeopleOff = 5)] =
-              "k_EVRDashboardActionIcon_PeopleOff");
+              "k_EVRDashboardActionIcon_PeopleOff"),
+            (e[(e.k_EVRDashboardActionIcon_DarkModeOn = 6)] =
+              "k_EVRDashboardActionIcon_DarkModeOn"),
+            (e[(e.k_EVRDashboardActionIcon_DarkModeOff = 7)] =
+              "k_EVRDashboardActionIcon_DarkModeOff"),
+            (e[(e.k_EVRDashboardActionIcon_DisplayOn = 8)] =
+              "k_EVRDashboardActionIcon_DisplayOn"),
+            (e[(e.k_EVRDashboardActionIcon_DisplayOff = 9)] =
+              "k_EVRDashboardActionIcon_DisplayOff");
         })(a || (a = {}));
-      class c extends (/^(446|865)$/.test(n.j) ? null : o) {
-        constructor(e = null) {
-          super(),
-            c.prototype.enum || s.aR(c.M()),
-            o.initialize(this, e, 0, -1, void 0, null);
-        }
-        static ImplementsStaticInterface() {}
-        static M() {
-          return (
-            c.sm_m ||
-              (c.sm_m = {
-                proto: c,
-                fields: {
-                  enum: { n: 1, br: s.FE.readEnum, bw: s.Xc.writeEnum },
-                  appid: { n: 2, br: s.FE.readUint32, bw: s.Xc.writeUint32 },
-                  overlay: { n: 3, br: s.FE.readString, bw: s.Xc.writeString },
-                  hwnd: { n: 4, br: s.FE.readUint32, bw: s.Xc.writeUint32 },
-                },
-              }),
-            c.sm_m
-          );
-        }
-        static MBF() {
-          return c.sm_mbf || (c.sm_mbf = s.Bh(c.M())), c.sm_mbf;
-        }
-        toObject(e = !1) {
-          return c.toObject(e, this);
-        }
-        static toObject(e, t) {
-          return s.TA(c.M(), e, t);
-        }
-        static fromObject(e) {
-          return s.aD(c.M(), e);
-        }
-        static deserializeBinary(e) {
-          let t = new i.BinaryReader(e),
-            n = new c();
-          return c.deserializeBinaryFromReader(n, t);
-        }
-        static deserializeBinaryFromReader(e, t) {
-          return s.F(c.MBF(), e, t);
-        }
-        serializeBinary() {
-          var e = new i.BinaryWriter();
-          return c.serializeBinaryToWriter(this, e), e.getResultBuffer();
-        }
-        static serializeBinaryToWriter(e, t) {
-          s.l2(c.M(), e, t);
-        }
-        serializeBase64String() {
-          var e = new i.BinaryWriter();
-          return c.serializeBinaryToWriter(this, e), e.getResultBase64String();
-        }
-        getClassName() {
-          return "CVRGamepadUIShared_DashboardTabIcon";
-        }
-      }
       class d extends (/^(446|865)$/.test(n.j) ? null : o) {
         constructor(e = null) {
           super(),
-            d.prototype.tabs || s.aR(d.M()),
-            o.initialize(this, e, 0, -1, [1], null);
+            d.prototype.enum || s.aR(d.M()),
+            o.initialize(this, e, 0, -1, void 0, null);
         }
         static ImplementsStaticInterface() {}
         static M() {
@@ -117,17 +69,10 @@
               (d.sm_m = {
                 proto: d,
                 fields: {
-                  tabs: { n: 1, c: u, r: !0, q: !0 },
-                  selected_tab_id: {
-                    n: 2,
-                    br: s.FE.readUint32,
-                    bw: s.Xc.writeUint32,
-                  },
-                  vr_settings_tab_id: {
-                    n: 3,
-                    br: s.FE.readUint32,
-                    bw: s.Xc.writeUint32,
-                  },
+                  enum: { n: 1, br: s.FE.readEnum, bw: s.Xc.writeEnum },
+                  appid: { n: 2, br: s.FE.readUint32, bw: s.Xc.writeUint32 },
+                  overlay: { n: 3, br: s.FE.readString, bw: s.Xc.writeString },
+                  hwnd: { n: 4, br: s.FE.readUint32, bw: s.Xc.writeUint32 },
                 },
               }),
             d.sm_m
@@ -165,20 +110,14 @@
           return d.serializeBinaryToWriter(this, e), e.getResultBase64String();
         }
         getClassName() {
-          return "CVRGamepadUIShared_PathProperty_DashboardTabs";
-        }
-        static getVRPathPropertyKey() {
-          return "/vrgamepadui/steamvr/dashboard_tabs";
-        }
-        getVRPathPropertyKey() {
-          return d.getVRPathPropertyKey();
+          return "CVRGamepadUIShared_DashboardTabIcon";
         }
       }
       class u extends (/^(446|865)$/.test(n.j) ? null : o) {
         constructor(e = null) {
           super(),
-            u.prototype.tab_id || s.aR(u.M()),
-            o.initialize(this, e, 0, -1, void 0, null);
+            u.prototype.tabs || s.aR(u.M()),
+            o.initialize(this, e, 0, -1, [1], null);
         }
         static ImplementsStaticInterface() {}
         static M() {
@@ -187,14 +126,17 @@
               (u.sm_m = {
                 proto: u,
                 fields: {
-                  tab_id: { n: 1, br: s.FE.readUint32, bw: s.Xc.writeUint32 },
-                  visible: { n: 2, br: s.FE.readBool, bw: s.Xc.writeBool },
-                  display_name: {
-                    n: 3,
-                    br: s.FE.readString,
-                    bw: s.Xc.writeString,
+                  tabs: { n: 1, c: p, r: !0, q: !0 },
+                  selected_tab_id: {
+                    n: 2,
+                    br: s.FE.readUint32,
+                    bw: s.Xc.writeUint32,
                   },
-                  icon: { n: 4, c },
+                  vr_settings_tab_id: {
+                    n: 3,
+                    br: s.FE.readUint32,
+                    bw: s.Xc.writeUint32,
+                  },
                 },
               }),
             u.sm_m
@@ -232,13 +174,19 @@
           return u.serializeBinaryToWriter(this, e), e.getResultBase64String();
         }
         getClassName() {
-          return "CVRGamepadUIShared_PathProperty_DashboardTabs_Tab";
+          return "CVRGamepadUIShared_PathProperty_DashboardTabs";
+        }
+        static getVRPathPropertyKey() {
+          return "/vrgamepadui/steamvr/dashboard_tabs";
+        }
+        getVRPathPropertyKey() {
+          return u.getVRPathPropertyKey();
         }
       }
       class p extends (/^(446|865)$/.test(n.j) ? null : o) {
         constructor(e = null) {
           super(),
-            p.prototype.enum || s.aR(p.M()),
+            p.prototype.tab_id || s.aR(p.M()),
             o.initialize(this, e, 0, -1, void 0, null);
         }
         static ImplementsStaticInterface() {}
@@ -248,7 +196,14 @@
               (p.sm_m = {
                 proto: p,
                 fields: {
-                  enum: { n: 1, br: s.FE.readEnum, bw: s.Xc.writeEnum },
+                  tab_id: { n: 1, br: s.FE.readUint32, bw: s.Xc.writeUint32 },
+                  visible: { n: 2, br: s.FE.readBool, bw: s.Xc.writeBool },
+                  display_name: {
+                    n: 3,
+                    br: s.FE.readString,
+                    bw: s.Xc.writeString,
+                  },
+                  icon: { n: 4, c: d },
                 },
               }),
             p.sm_m
@@ -286,13 +241,13 @@
           return p.serializeBinaryToWriter(this, e), e.getResultBase64String();
         }
         getClassName() {
-          return "CVRGamepadUIShared_DashboardActionIcon";
+          return "CVRGamepadUIShared_PathProperty_DashboardTabs_Tab";
         }
       }
       class h extends (/^(446|865)$/.test(n.j) ? null : o) {
         constructor(e = null) {
           super(),
-            h.prototype.action_id || s.aR(h.M()),
+            h.prototype.enum || s.aR(h.M()),
             o.initialize(this, e, 0, -1, void 0, null);
         }
         static ImplementsStaticInterface() {}
@@ -302,31 +257,7 @@
               (h.sm_m = {
                 proto: h,
                 fields: {
-                  action_id: {
-                    n: 1,
-                    br: s.FE.readUint32,
-                    bw: s.Xc.writeUint32,
-                  },
-                  visible_in_dashboard_bar: {
-                    n: 2,
-                    br: s.FE.readBool,
-                    bw: s.Xc.writeBool,
-                  },
-                  enabled: { n: 3, br: s.FE.readBool, bw: s.Xc.writeBool },
-                  display_name: {
-                    n: 4,
-                    br: s.FE.readString,
-                    bw: s.Xc.writeString,
-                  },
-                  icon: { n: 5, c: p },
-                  icon_active: { n: 6, c: p },
-                  invocation: {
-                    n: 7,
-                    d: l.k_EVRDashboardActionInvocation_Trigger,
-                    br: s.FE.readEnum,
-                    bw: s.Xc.writeEnum,
-                  },
-                  active: { n: 8, br: s.FE.readBool, bw: s.Xc.writeBool },
+                  enum: { n: 1, br: s.FE.readEnum, bw: s.Xc.writeEnum },
                 },
               }),
             h.sm_m
@@ -364,20 +295,14 @@
           return h.serializeBinaryToWriter(this, e), e.getResultBase64String();
         }
         getClassName() {
-          return "CVRGamepadUIShared_DashboardAction";
+          return "CVRGamepadUIShared_DashboardActionIcon";
         }
       }
-      !(function (e) {
-        (e[(e.k_EVRDashboardActionInvocation_Trigger = 1)] =
-          "k_EVRDashboardActionInvocation_Trigger"),
-          (e[(e.k_EVRDashboardActionInvocation_Toggle = 2)] =
-            "k_EVRDashboardActionInvocation_Toggle");
-      })(l || (l = {}));
       class m extends (/^(446|865)$/.test(n.j) ? null : o) {
         constructor(e = null) {
           super(),
-            m.prototype.actions || s.aR(m.M()),
-            o.initialize(this, e, 0, -1, [1], null);
+            m.prototype.action_id || s.aR(m.M()),
+            o.initialize(this, e, 0, -1, void 0, null);
         }
         static ImplementsStaticInterface() {}
         static M() {
@@ -385,7 +310,38 @@
             m.sm_m ||
               (m.sm_m = {
                 proto: m,
-                fields: { actions: { n: 1, c: h, r: !0, q: !0 } },
+                fields: {
+                  action_id: {
+                    n: 1,
+                    br: s.FE.readUint32,
+                    bw: s.Xc.writeUint32,
+                  },
+                  visible_in_dashboard_bar: {
+                    n: 2,
+                    br: s.FE.readBool,
+                    bw: s.Xc.writeBool,
+                  },
+                  enabled: { n: 3, br: s.FE.readBool, bw: s.Xc.writeBool },
+                  display_name: {
+                    n: 4,
+                    br: s.FE.readString,
+                    bw: s.Xc.writeString,
+                  },
+                  icon: { n: 5, c: h },
+                  icon_active: { n: 6, c: h },
+                  invocation: {
+                    n: 7,
+                    d: l.k_EVRDashboardActionInvocation_Trigger,
+                    br: s.FE.readEnum,
+                    bw: s.Xc.writeEnum,
+                  },
+                  special_invocation: {
+                    n: 9,
+                    br: s.FE.readEnum,
+                    bw: s.Xc.writeEnum,
+                  },
+                  active: { n: 8, br: s.FE.readBool, bw: s.Xc.writeBool },
+                },
               }),
             m.sm_m
           );
@@ -422,19 +378,25 @@
           return m.serializeBinaryToWriter(this, e), e.getResultBase64String();
         }
         getClassName() {
-          return "CVRGamepadUIShared_PathProperty_DashboardActions";
-        }
-        static getVRPathPropertyKey() {
-          return "/vrgamepadui/steamvr/dashboard_actions";
-        }
-        getVRPathPropertyKey() {
-          return m.getVRPathPropertyKey();
+          return "CVRGamepadUIShared_DashboardAction";
         }
       }
+      !(function (e) {
+        (e[(e.k_EVRDashboardActionInvocation_Trigger = 1)] =
+          "k_EVRDashboardActionInvocation_Trigger"),
+          (e[(e.k_EVRDashboardActionInvocation_Toggle = 2)] =
+            "k_EVRDashboardActionInvocation_Toggle"),
+          (e[(e.k_EVRDashboardActionInvocation_Special = 3)] =
+            "k_EVRDashboardActionInvocation_Special");
+      })(l || (l = {})),
+        (function (e) {
+          e[(e.k_EVRDashboardActionSpecialInvocation_Volume = 1)] =
+            "k_EVRDashboardActionSpecialInvocation_Volume";
+        })(c || (c = {}));
       class g extends (/^(446|865)$/.test(n.j) ? null : o) {
         constructor(e = null) {
           super(),
-            g.prototype.windows || s.aR(g.M()),
+            g.prototype.actions || s.aR(g.M()),
             o.initialize(this, e, 0, -1, [1], null);
         }
         static ImplementsStaticInterface() {}
@@ -443,7 +405,7 @@
             g.sm_m ||
               (g.sm_m = {
                 proto: g,
-                fields: { windows: { n: 1, c: S, r: !0, q: !0 } },
+                fields: { actions: { n: 1, c: m, r: !0, q: !0 } },
               }),
             g.sm_m
           );
@@ -480,10 +442,10 @@
           return g.serializeBinaryToWriter(this, e), e.getResultBase64String();
         }
         getClassName() {
-          return "CVRGamepadUIShared_PathProperty_DesktopWindows";
+          return "CVRGamepadUIShared_PathProperty_DashboardActions";
         }
         static getVRPathPropertyKey() {
-          return "/vrgamepadui/steamvr/desktop_windows";
+          return "/vrgamepadui/steamvr/dashboard_actions";
         }
         getVRPathPropertyKey() {
           return g.getVRPathPropertyKey();
@@ -492,8 +454,8 @@
       class S extends (/^(446|865)$/.test(n.j) ? null : o) {
         constructor(e = null) {
           super(),
-            S.prototype.window_id || s.aR(S.M()),
-            o.initialize(this, e, 0, -1, void 0, null);
+            S.prototype.windows || s.aR(S.M()),
+            o.initialize(this, e, 0, -1, [1], null);
         }
         static ImplementsStaticInterface() {}
         static M() {
@@ -501,16 +463,7 @@
             S.sm_m ||
               (S.sm_m = {
                 proto: S,
-                fields: {
-                  window_id: {
-                    n: 1,
-                    br: s.FE.readUint32,
-                    bw: s.Xc.writeUint32,
-                  },
-                  hwnd: { n: 2, br: s.FE.readUint32, bw: s.Xc.writeUint32 },
-                  title: { n: 3, br: s.FE.readString, bw: s.Xc.writeString },
-                  tab_id: { n: 4, br: s.FE.readUint32, bw: s.Xc.writeUint32 },
-                },
+                fields: { windows: { n: 1, c: _, r: !0, q: !0 } },
               }),
             S.sm_m
           );
@@ -545,6 +498,73 @@
         serializeBase64String() {
           var e = new i.BinaryWriter();
           return S.serializeBinaryToWriter(this, e), e.getResultBase64String();
+        }
+        getClassName() {
+          return "CVRGamepadUIShared_PathProperty_DesktopWindows";
+        }
+        static getVRPathPropertyKey() {
+          return "/vrgamepadui/steamvr/desktop_windows";
+        }
+        getVRPathPropertyKey() {
+          return S.getVRPathPropertyKey();
+        }
+      }
+      class _ extends (/^(446|865)$/.test(n.j) ? null : o) {
+        constructor(e = null) {
+          super(),
+            _.prototype.window_id || s.aR(_.M()),
+            o.initialize(this, e, 0, -1, void 0, null);
+        }
+        static ImplementsStaticInterface() {}
+        static M() {
+          return (
+            _.sm_m ||
+              (_.sm_m = {
+                proto: _,
+                fields: {
+                  window_id: {
+                    n: 1,
+                    br: s.FE.readUint32,
+                    bw: s.Xc.writeUint32,
+                  },
+                  hwnd: { n: 2, br: s.FE.readUint32, bw: s.Xc.writeUint32 },
+                  title: { n: 3, br: s.FE.readString, bw: s.Xc.writeString },
+                  tab_id: { n: 4, br: s.FE.readUint32, bw: s.Xc.writeUint32 },
+                },
+              }),
+            _.sm_m
+          );
+        }
+        static MBF() {
+          return _.sm_mbf || (_.sm_mbf = s.Bh(_.M())), _.sm_mbf;
+        }
+        toObject(e = !1) {
+          return _.toObject(e, this);
+        }
+        static toObject(e, t) {
+          return s.TA(_.M(), e, t);
+        }
+        static fromObject(e) {
+          return s.aD(_.M(), e);
+        }
+        static deserializeBinary(e) {
+          let t = new i.BinaryReader(e),
+            n = new _();
+          return _.deserializeBinaryFromReader(n, t);
+        }
+        static deserializeBinaryFromReader(e, t) {
+          return s.F(_.MBF(), e, t);
+        }
+        serializeBinary() {
+          var e = new i.BinaryWriter();
+          return _.serializeBinaryToWriter(this, e), e.getResultBuffer();
+        }
+        static serializeBinaryToWriter(e, t) {
+          s.l2(_.M(), e, t);
+        }
+        serializeBase64String() {
+          var e = new i.BinaryWriter();
+          return _.serializeBinaryToWriter(this, e), e.getResultBase64String();
         }
         getClassName() {
           return "CVRGamepadUIShared_PathProperty_DesktopWindows_Window";
@@ -1482,7 +1502,7 @@
       "use strict";
       n.d(t, { _: () => we });
       var i = n(655),
-        s = n(3884),
+        s = n(1073),
         o = n(7056),
         r = n(6459),
         a = n(2188),
@@ -2150,8 +2170,8 @@
         (0, i.gn)([a.Fl], R.prototype, "currentRoomViewStyle", null),
         (R = (0, i.gn)([l.Pi], R));
       var k = n(7095),
-        E = n(4940),
-        B = (n(4790), n(9626));
+        E = n(8227),
+        B = n(9626);
       let L = class extends c.Component {
         constructor(e) {
           super(e),
@@ -2216,8 +2236,6 @@
                       { value: E._.Far, sLabel: (0, m.Xx)("#Settings_Far") },
                     ],
                   }),
-                !1,
-                !1,
                 c.createElement(_.wy, {
                   name: "/settings/dashboard/showPowerOptions",
                   label: (0, m.Xx)("#Settings_ShowPowerMenu"),
@@ -5281,7 +5299,7 @@
         l = n(1628),
         c = n(8242),
         d = n(5177),
-        u = n(3884),
+        u = n(1073),
         p = n(9809),
         h = n(5211),
         m = n(2188),
@@ -6406,7 +6424,7 @@
         c = n(2188),
         d = n(7062),
         u = n(1628),
-        p = n(3884),
+        p = n(1073),
         h = n(3107),
         m = n(5177),
         g = n(8980),
@@ -7692,7 +7710,7 @@
         c = n(1628),
         d = n(8242),
         u = n(5177),
-        p = n(3884),
+        p = n(1073),
         h = n(7062),
         m = n(8980),
         g = n(7176),
@@ -9076,7 +9094,7 @@
         s = n(7294),
         o = n(7056),
         r = n(3107),
-        a = n(3884),
+        a = n(1073),
         l = n(424),
         c = n(8980);
       class d extends s.Component {
@@ -11285,7 +11303,7 @@
     424: (e, t, n) => {
       "use strict";
       n.d(t, { L: () => r });
-      var i = n(3884);
+      var i = n(1073);
       const s = Object.values(i.sH).filter((e) => "number" == typeof e);
       function o(e, t) {
         return new Set([...e, ...t]);
@@ -11497,7 +11515,7 @@
         o = n(655),
         r = n(7294),
         a = n(7056),
-        l = n(3884),
+        l = n(1073),
         c = n(424),
         d = n(8980),
         u = n(2188),
@@ -11880,7 +11898,7 @@
         l = n(7056),
         c = n(2188),
         d = n(7062),
-        u = n(3884),
+        u = n(1073),
         p = n(3107),
         h = n(5177),
         m = n(8980),
@@ -12314,7 +12332,7 @@
       n.d(t, { G: () => r, y: () => i });
       var i,
         s = n(655),
-        o = n(3884);
+        o = n(1073);
       !(function (e) {
         (e[(e.DashboardOpen = 0)] = "DashboardOpen"),
           (e[(e.DashboardClose = 1)] = "DashboardClose"),
@@ -12788,7 +12806,7 @@
         Z = "/settings/dashboard/lastAccessedExternalOverlayKey",
         J = "/settings/internal/dashboardInitialOverlay",
         $ = "/settings/dashboard/position_2",
-        Q = /^(446|865)$/.test(n.j) ? null : "",
+        Q = "/settings/dashboard/theaterScreen",
         Y = "/settings/dashboard/disableAnimations",
         ee = "/settings/steamvr/overlayRenderQuality_2",
         te = "/settings/collisionBounds/CollisionBoundsFadeDistance",
@@ -12825,7 +12843,7 @@
         c = n.n(l),
         d = n(2188),
         u = n(3568),
-        p = n(3884),
+        p = n(1073),
         h = n(8048),
         m = n(1380),
         g = n(9809);
@@ -15998,7 +16016,7 @@
         o = n(9809),
         r = n(7056),
         a = n(2188),
-        l = n(3884),
+        l = n(1073),
         c = n(3568),
         d = n(5211),
         u = n(1380),
@@ -16373,7 +16391,7 @@
         r = n.n(o),
         a = n(7056),
         l = n(3568),
-        c = n(3884);
+        c = n(1073);
       class d {
         constructor() {
           (this.m_InputState = void 0),
@@ -16700,10 +16718,10 @@
       "use strict";
       n.d(t, { e: () => c });
       var i = n(655),
-        s = n(3884),
+        s = n(1073),
         o = n(7056),
         r = n(7176),
-        a = n(4940),
+        a = n(8227),
         l = n(9626);
       class c {
         constructor() {
@@ -16832,7 +16850,7 @@
       var i = n(7294),
         s = n(3935),
         o = n(8980),
-        r = n(3884);
+        r = n(1073);
       class a extends i.Component {
         constructor(e) {
           super(e),
@@ -17257,7 +17275,7 @@
         r = n(2188),
         a = n(1628),
         l = n(7176),
-        c = n(3884);
+        c = n(1073);
       function d(e) {
         let t = window.location.search.substring(1).split("&");
         for (let n = 0; n < t.length; n++) {
@@ -17437,7 +17455,7 @@
       "use strict";
       n.d(t, { H: () => l });
       var i = n(655),
-        s = n(3884),
+        s = n(1073),
         o = n(2188),
         r = n(7056),
         a = n(7176);
@@ -18297,8 +18315,8 @@
         o = n(9669),
         r = n.n(o),
         a = n(2188),
-        l = n(3884),
-        c = n(4940),
+        l = n(1073),
+        c = n(8227),
         d = n(7176);
       const u = 16,
         p = 0.2,
@@ -19051,4 +19069,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=c0898f45efaa625fdf99
+//# sourceMappingURL=vrwebui_shared.js.map?v=a163e7123330c7d5e195

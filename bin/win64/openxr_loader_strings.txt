@@ -67,13 +67,11 @@
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
 ,W5y+
-,Z\gv
 -1e+9999
 -Infinity
 .  Does it exist?
 .  Max supported version is 
 .00cfg
-.4,4`
 .?AV?$_Iosb@H@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
@@ -165,7 +163,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231031174648Z0/
+231103180643Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -282,6 +280,7 @@
 @UWAVAWH
 @VATAVH
 @VWAVH
+@YyZcH`!
 A valid JSON document must be either an array or an object value.
 A(t	H
 ADVAPI32.dll
@@ -459,6 +458,7 @@ Instance handle is XR_NULL_HANDLE.
 Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J)M.^_
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -527,6 +527,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSuo
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -640,7 +641,6 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-Zt(r/
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -670,6 +670,7 @@ _Cnd_init_in_situ
 _Cnd_signal
 _Cnd_wait
 _CxxThrowException
+_FDe5:
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
@@ -867,6 +868,7 @@ vector<T> too long
 verbose
 www.digicert.com1!0
 www.digicert.com1$0"
+x@jqB.
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
