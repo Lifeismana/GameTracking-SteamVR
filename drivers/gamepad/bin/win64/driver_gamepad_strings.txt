@@ -3,15 +3,15 @@
  A__^
  H3E H3E
 !hn7!
+#r9Kp
 ',=?k
 (D$ f
 (f*^[0
 (|$pL
-)FNK\
-)ub5x
 +Xt@(
 +o'q)}
 ,W5y+
+,lG;i#
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -68,7 +68,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/Ej?(
 /input/a/click
 /input/b/click
 /input/back/click
@@ -95,17 +94,19 @@
 0w0c1
 0}0i1
 130801120000Z
+1ks-WMD\
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231103180459Z0/
+231115214737Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3!4r@
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -127,6 +128,7 @@
 =rIQU
 >0<0:
 >Mp$d
+?@tJ&
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -155,6 +157,7 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Gamepad
+Gb[B~"
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
@@ -162,7 +165,6 @@ GetProcAddress
 GetSystemTimeAsFileTime
 H SWH
 H-^Eu
-H6Ee4
 H93t	H
 H957{
 H95A|
@@ -305,6 +307,7 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 a7hIw
+aH.fu
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -329,8 +332,6 @@ memmove
 memset
 ntelD
 p WAVAWH
-pbg	N
-sI<gi
 string too long
 t$ AVH
 t$ AWH
@@ -342,7 +343,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-zj0/g
+xk +]0
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

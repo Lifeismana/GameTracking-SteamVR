@@ -7,8 +7,8 @@
         r.d(t, {
           tS: () => a.tS,
           Nv: () => i,
-          A4: () => Ae,
-          CH: () => He,
+          A4: () => He,
+          CH: () => Ae,
           iN: () => Z,
           Oq: () => a.Oq,
           dq: () => a.dq,
@@ -319,7 +319,7 @@
           let r = e.getAttribute(t);
           if (r && r.length > 0) return parseInt(r);
         }
-        function H(e, t) {
+        function A(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0)
             return (
@@ -327,12 +327,12 @@
               (r.length > 0 && 0 != parseInt(r) && !isNaN(parseInt(r)))
             );
         }
-        function A(e, t) {
+        function H(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) return r;
         }
         function N(e, t) {
-          return Y(A(e, t));
+          return Y(H(e, t));
         }
         function U(e, t) {
           let r = { type: e, properties: {} };
@@ -355,20 +355,20 @@
                     (n.properties.rotation = O(t, "rotation")),
                     (n.properties.scale = O(t, "scale")),
                     (n.properties["curvature-pitch"] = L(t, "curvature-pitch")),
-                    (n.properties["transform-path"] = A(t, "transform-path")),
-                    (n.properties["invert-parent-panel-pitch"] = H(
+                    (n.properties["transform-path"] = H(t, "transform-path")),
+                    (n.properties["invert-parent-panel-pitch"] = A(
                       t,
                       "invert-parent-panel-pitch",
                     )),
-                    (n.properties["parent-path"] = A(t, "parent-path")),
-                    (n.properties["parent-origin"] = A(t, "parent-origin")),
+                    (n.properties["parent-path"] = H(t, "parent-path")),
+                    (n.properties["parent-origin"] = H(t, "parent-origin")),
                     (n.properties["parent-id"] = N(t, "parent-id"));
                   break;
                 case "VSG-TRACKING-STATE-VISIBILITY":
                   (n = U("trackingstatevisibility", t)),
-                    (n.properties["visible-0dof"] = H(t, "visible-0dof")),
-                    (n.properties["visible-3dof"] = H(t, "visible-3dof")),
-                    (n.properties["visible-6dof"] = H(t, "visible-6dof"));
+                    (n.properties["visible-0dof"] = A(t, "visible-0dof")),
+                    (n.properties["visible-3dof"] = A(t, "visible-3dof")),
+                    (n.properties["visible-6dof"] = A(t, "visible-6dof"));
                   break;
                 case "VSG-ELASTIC-HEAD-TRANSFORM":
                   (n = U("elasticheadtransform", t)),
@@ -395,7 +395,7 @@
                       t,
                       "max-angular-velocity",
                     )),
-                    (n.properties["lock-to-horizon"] = H(t, "lock-to-horizon")),
+                    (n.properties["lock-to-horizon"] = A(t, "lock-to-horizon")),
                     (n.properties["translation-behavior"] = B(
                       t,
                       "translation-behavior",
@@ -436,15 +436,15 @@
                   break;
                 case "VSG-MANIPULATION-TRANSFORM":
                   (n = U("manipulation-transform", t)),
-                    (n.properties["is-moving"] = H(t, "is-moving")),
-                    (n.properties["parent-path"] = A(t, "parent-path")),
+                    (n.properties["is-moving"] = A(t, "is-moving")),
+                    (n.properties["parent-path"] = H(t, "parent-path")),
                     (n.properties.translation = O(t, "translation")),
                     (n.properties.rotation = O(t, "rotation")),
                     (n.properties.scale = O(t, "scale"));
                   break;
                 case "VSG-GRAB-TRANSFORM":
                   (n = U("grab-transform", t)),
-                    (n.properties["parent-path"] = A(t, "parent-path")),
+                    (n.properties["parent-path"] = H(t, "parent-path")),
                     (n.properties.translation = O(t, "translation")),
                     (n.properties.rotation = O(t, "rotation")),
                     (n.properties.scale = O(t, "scale"));
@@ -2227,7 +2227,7 @@
               (e[(e.Standby = 3)] = "Standby"),
               (e[(e.Idle_Timeout = 4)] = "Idle_Timeout");
           })(we || (we = {}));
-        class He extends h.Component {
+        class Ae extends h.Component {
           constructor(e) {
             super(e);
             let t = {};
@@ -2273,7 +2273,7 @@
             );
           }
         }
-        class Ae extends se {
+        class He extends se {
           constructor(e) {
             super(e);
           }
@@ -5428,7 +5428,7 @@
           (L = (0, n.gn)([f.Pi], L));
         const B = () =>
             l.createElement("div", { className: "AppButton Placeholder" }),
-          H = (e) => {
+          A = (e) => {
             var t;
             const r = !!e.loading,
               o = null !== (t = e.apps) && void 0 !== t ? t : [];
@@ -5455,8 +5455,8 @@
               )
             );
           };
-        var A = r(9669),
-          N = r.n(A);
+        var H = r(9669),
+          N = r.n(H);
         function U() {
           return N()
             .get(
@@ -5525,8 +5525,8 @@
           }
           render() {
             return this.state.storeData
-              ? l.createElement(H, { apps: this.makeAppButtonList() })
-              : l.createElement(H, { loading: !0 });
+              ? l.createElement(A, { apps: this.makeAppButtonList() })
+              : l.createElement(A, { loading: !0 });
           }
         };
         z = (0, n.gn)([f.Pi], z);
@@ -5766,8 +5766,8 @@
                     }),
                   ),
                 l.createElement("h2", null, (0, m.Xx)("#RecentlyPlayed")),
-                l.createElement(H, { className: "TopRow", apps: e }),
-                l.createElement(H, { className: "BottomRow", apps: o }),
+                l.createElement(A, { className: "TopRow", apps: e }),
+                l.createElement(A, { className: "BottomRow", apps: o }),
               );
             }
             return l.createElement(
@@ -6105,10 +6105,19 @@
               (this.m_appStateChangedAutorunDisposer = (0, s.EH)(() => {
                 const e = _.H.Instance.SceneApplicationState,
                   t = e != i.xY.None;
-                t &&
-                  this.m_eSceneApplicationState == i.xY.None &&
-                  ae.B.HideTheaterOverlay(),
-                  (this.m_eSceneApplicationState = e),
+                if (t && this.m_eSceneApplicationState == i.xY.None)
+                  ae.B.HideTheaterOverlay();
+                else if (
+                  !t &&
+                  this.m_eSceneApplicationState != i.xY.None &&
+                  !ae.B.isTheaterMode
+                )
+                  for (let [e, t] of ae.B.m_mapOverlayState)
+                    if (e.startsWith(p.wX)) {
+                      t.dockLocation = C.RA.Theater;
+                      break;
+                    }
+                (this.m_eSceneApplicationState = e),
                   this.isOverlayActive(p.PF) &&
                     !t &&
                     this.switchToHomeOverlay();
@@ -9247,10 +9256,9 @@
                 a = 4,
                 l = 1,
                 d = 0.15,
-                u = t.width,
-                b = t.height;
-              const C = (0, n.iN)(c.Az, "Floating-Panel"),
-                k = (e) =>
+                u = (t.width, t.height);
+              const b = (0, n.iN)(c.Az, "Floating-Panel"),
+                C = (e) =>
                   s.createElement(
                     n.wx,
                     {
@@ -9258,7 +9266,7 @@
                       translation: { x: e.x_offset, y: 0.2, z: 0.01 },
                     },
                     s.createElement(y, {
-                      target_id: C,
+                      target_id: b,
                       min_target_scale: 0.5,
                       max_target_scale: 1.5,
                       bVisible: !0,
@@ -9282,7 +9290,7 @@
                     {
                       id: "Floating-Panel",
                       overlay_key: this.props.sOverlayKey,
-                      height: b,
+                      height: u,
                       width: void 0,
                       interactive: !0,
                       undocked: !0,
@@ -9313,9 +9321,7 @@
                   ),
                   i &&
                     s.createElement(n.bt, {
-                      width: u,
-                      height: b,
-                      target_id: C,
+                      target_id: b,
                       "near-z": o,
                       "far-z": 0.1,
                       specular: { color: { r: e, g: e, b: e } },
@@ -9407,11 +9413,11 @@
                           }),
                         ),
                       ),
-                      s.createElement(k, {
+                      s.createElement(C, {
                         parent_id: "Floating-Panel-BottomLeft",
                         x_offset: -0.03,
                       }),
-                      s.createElement(k, {
+                      s.createElement(C, {
                         parent_id: "Floating-Panel-BottomRight",
                         x_offset: 0.03,
                       }),
@@ -9422,10 +9428,10 @@
             let k = b.sfOverlayTrayHeight * this.getDashboardScale(),
               M = b.sfOverlayScaleMin,
               D = b.sfOverlayScaleMax,
-              T = [1, 1.5];
+              T = [0.5, 1, 1.5];
             (this.props.dockLocation != f.LeftHand &&
               this.props.dockLocation != f.RightHand) ||
-              ((k *= 0.5), (M = 0.1), (D = 1.5), (T = [0.25, 0.5, 1]));
+              ((k *= 0.4), (M = 0.1), (D = 1.5), (T = [0.25, 0.5, 1]));
             const I = t.height + k,
               E = Math.max(t.width, 0.175),
               V = I / 2 - k,
@@ -9555,8 +9561,8 @@
         });
         (I.sfMaxDockDist = 0.4),
           (I.sfMovePulseMS = 100),
-          (I.sfOverlayTrayHeight = 0.15),
-          (I.sfOverlayScaleMin = 0.5),
+          (I.sfOverlayTrayHeight = 0.12),
+          (I.sfOverlayScaleMin = 0.25),
           (I.sfOverlayScaleMax = 2),
           (0, o.gn)([i.ZP], I.prototype, "onOverlayScaleChanged", null),
           (0, o.gn)([i.ZP], I.prototype, "computeDestination", null),
@@ -9628,13 +9634,13 @@
             O,
             L,
             B;
-          const { popupRequest: H, reparent: A } = e,
-            N = null == A || A,
+          const { popupRequest: A, reparent: H } = e,
+            N = null == H || H,
             U = {
               x:
                 null !==
                   (r =
-                    null === (t = H.origin_on_parent) || void 0 === t
+                    null === (t = A.origin_on_parent) || void 0 === t
                       ? void 0
                       : t.x) && void 0 !== r
                   ? r
@@ -9642,7 +9648,7 @@
               y:
                 null !==
                   (u =
-                    null === (i = H.origin_on_parent) || void 0 === i
+                    null === (i = A.origin_on_parent) || void 0 === i
                       ? void 0
                       : i.y) && void 0 !== u
                   ? u
@@ -9652,7 +9658,7 @@
               x:
                 null !==
                   (p =
-                    null === (h = H.origin_on_popup) || void 0 === h
+                    null === (h = A.origin_on_popup) || void 0 === h
                       ? void 0
                       : h.x) && void 0 !== p
                   ? p
@@ -9660,7 +9666,7 @@
               y:
                 null !==
                   (v =
-                    null === (m = H.origin_on_popup) || void 0 === m
+                    null === (m = A.origin_on_popup) || void 0 === m
                       ? void 0
                       : m.y) && void 0 !== v
                   ? v
@@ -9670,7 +9676,7 @@
               u:
                 null !==
                   (_ =
-                    null === (g = H.clip_rect) || void 0 === g
+                    null === (g = A.clip_rect) || void 0 === g
                       ? void 0
                       : g.u_min) && void 0 !== _
                   ? _
@@ -9678,7 +9684,7 @@
               v:
                 null !==
                   (b =
-                    null === (y = H.clip_rect) || void 0 === y
+                    null === (y = A.clip_rect) || void 0 === y
                       ? void 0
                       : y.v_min) && void 0 !== b
                   ? b
@@ -9688,7 +9694,7 @@
               u:
                 null !==
                   (S =
-                    null === (f = H.clip_rect) || void 0 === f
+                    null === (f = A.clip_rect) || void 0 === f
                       ? void 0
                       : f.u_max) && void 0 !== S
                   ? S
@@ -9696,7 +9702,7 @@
               v:
                 null !==
                   (k =
-                    null === (C = H.clip_rect) || void 0 === C
+                    null === (C = A.clip_rect) || void 0 === C
                       ? void 0
                       : C.v_max) && void 0 !== k
                   ? k
@@ -9706,7 +9712,7 @@
               x:
                 null !==
                   (w =
-                    null === (R = H.offset) || void 0 === R
+                    null === (R = A.offset) || void 0 === R
                       ? void 0
                       : R.x_pixels) && void 0 !== w
                   ? w
@@ -9714,7 +9720,7 @@
               y:
                 null !==
                   (D =
-                    null === (M = H.offset) || void 0 === M
+                    null === (M = A.offset) || void 0 === M
                       ? void 0
                       : M.y_pixels) && void 0 !== D
                   ? D
@@ -9722,7 +9728,7 @@
               z:
                 null !==
                   (I =
-                    null === (T = H.offset) || void 0 === T
+                    null === (T = A.offset) || void 0 === T
                       ? void 0
                       : T.z_pixels) && void 0 !== I
                   ? I
@@ -9732,7 +9738,7 @@
               x:
                 null !==
                   (V =
-                    null === (E = H.rotation) || void 0 === E
+                    null === (E = A.rotation) || void 0 === E
                       ? void 0
                       : E.pitch_degrees) && void 0 !== V
                   ? V
@@ -9740,15 +9746,15 @@
               y:
                 null !==
                   (x =
-                    null === (P = H.rotation) || void 0 === P
+                    null === (P = A.rotation) || void 0 === P
                       ? void 0
                       : P.yaw_degrees) && void 0 !== x
                   ? x
                   : 0,
             },
-            q = null === (O = H.inherit_parent_pitch) || void 0 === O || O,
-            X = null === (L = H.inherit_parent_curvature) || void 0 === L || L,
-            j = null === (B = H.interactive) || void 0 === B || B,
+            q = null === (O = A.inherit_parent_pitch) || void 0 === O || O,
+            X = null === (L = A.inherit_parent_curvature) || void 0 === L || L,
+            j = null === (B = A.interactive) || void 0 === B || B,
             Q = (function (e) {
               var t, r, o;
               const n =
@@ -9766,14 +9772,14 @@
                     ? o
                     : 0;
               return n == s.BZ && i >= 0 ? -0.5 : 0;
-            })(H);
+            })(A);
           n.useLayoutEffect(
             () => o.n0.Current().forceLayoutUpdate(),
             [G.u, G.v, z.u, z.v],
           );
           const Z = n.createElement(
             o.at,
-            { key: H.dashboard_popup_request_id, location: U },
+            { key: A.dashboard_popup_request_id, location: U },
             n.createElement(
               l,
               { invertParentPanelPitch: !q },
@@ -9784,10 +9790,10 @@
                   c,
                   { rotation: K },
                   n.createElement(o.s_, {
-                    debug_name: `VRGamepadUI-DashboardPopup-Panel-${H.dashboard_popup_request_id}`,
+                    debug_name: `VRGamepadUI-DashboardPopup-Panel-${A.dashboard_popup_request_id}`,
                     interactive: j,
                     curvature: X ? "inherit-from-parent-panel" : void 0,
-                    overlay_key: H.popup_overlay_key,
+                    overlay_key: A.popup_overlay_key,
                     origin: F,
                     meters_per_pixel: a.B.m_fVRGamepadUI_MetersPerPixel,
                     reflect: 0.03,
@@ -9803,8 +9809,8 @@
             ? n.createElement(
                 o.Sb,
                 {
-                  parent_overlay_key: H.parent_overlay_key,
-                  key: H.dashboard_popup_request_id,
+                  parent_overlay_key: A.parent_overlay_key,
+                  key: A.dashboard_popup_request_id,
                 },
                 Z,
               )
@@ -9831,12 +9837,12 @@
           CS: () => Q,
           D6: () => X,
           Eu: () => T,
-          IO: () => H,
+          IO: () => A,
           M3: () => P,
           NT: () => U,
           Rk: () => G,
           Yd: () => I,
-          dw: () => A,
+          dw: () => H,
           dy: () => x,
           j4: () => z,
           j6: () => F,
@@ -10172,7 +10178,7 @@
             );
           }
         }
-        var B, H;
+        var B, A;
         (L.k_rsThumbnailHashesToInvert = [
           "5cbd0ebd6459cdaf75fdcafc5051f4e0",
           "c77452e60fc29227b33773ff6e74f8a1",
@@ -10188,8 +10194,8 @@
           })(B || (B = {})),
           (function (e) {
             (e[(e.Center = 0)] = "Center"), (e[(e.Fill = 1)] = "Fill");
-          })(H || (H = {}));
-        const A = (e) =>
+          })(A || (A = {}));
+        const H = (e) =>
           c.createElement(
             "div",
             { className: (0, f.LJ)("ControlBarGroup", B[e.style]) },
@@ -10225,10 +10231,10 @@
                 className: (0, f.LJ)(
                   "ControlBarButton",
                   this.props.additionalClassNames,
-                  H[
+                  A[
                     null !== (e = this.props.imageStyle) && void 0 !== e
                       ? e
-                      : H.Center
+                      : A.Center
                   ] + "Image",
                   ["Disabled", !1 === this.props.enabled],
                   ["Active", !!this.props.active],
@@ -10266,7 +10272,7 @@
           (N = (0, i.gn)([d.Pi], N));
         const U = (e) =>
           c.createElement(
-            A,
+            H,
             { style: e.style },
             c.createElement(N, Object.assign({}, e)),
           );
@@ -12122,4 +12128,4 @@
   var n = o.O(void 0, [968, 683], () => o(4599));
   n = o.O(n);
 })();
-//# sourceMappingURL=bindingcallouts.js.map?v=67009f9efdfc50d092bf
+//# sourceMappingURL=bindingcallouts.js.map?v=4f5032d1b03246a44812

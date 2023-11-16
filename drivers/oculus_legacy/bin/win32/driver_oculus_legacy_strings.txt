@@ -2,8 +2,8 @@
  %41g
  (Camera)
 !hn7!
+#,z:"
 ',=?k
-'6EeU
 (Unable to load LibOVR)
 (f*^[0
 +Xt@(
@@ -93,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231103180426Z0/
+231115214708Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -180,7 +180,6 @@
 <,=`=v=
 <0:08
 <V>a>|>
-<h3Y@F
 =&=2=;=@=F=P=Z=j=z=
 =4=X=d=l=
 =P>h>l>
@@ -249,6 +248,7 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 H-^Eu
+H5=Qu`<	
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -281,12 +281,12 @@ LIBOVR_DLL_DIR
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
 LoadLibraryW
-M&LP=nqX
 MB(iVR
 MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+MiU:Yc
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -334,7 +334,6 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-Wd+5-
 Y9"SD
 Y__^[
 [K]taM?
@@ -393,11 +392,13 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
+d&!A7=
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
 f;A*stSW
 getenv
+h# cz
 headset
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -471,11 +472,11 @@ tdh.dll
 terminate
 u7j8Q
 uCVj@
-uUD<Y=
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+x|H[}
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

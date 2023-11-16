@@ -1181,7 +1181,6 @@ $tI
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
-18:01:33
 18CPropertyContainer
 18CSharedBufferLinux
 18CSxrHandTrackerEXT
@@ -1258,6 +1257,7 @@ $tI
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:39:35
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -2046,8 +2046,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1844.369500
-C.1847.369511
+C.1844.369586
+C.1847.369597
 C.413.290188
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -4033,6 +4033,8 @@ CSxrInstance::GetEnvironmentBlendModes(XrViewConfigurationType)
 CSxrInstance::GetExtensionsAvailable()
 CSxrInstance::GetExtensionsAvailable()::__executeCount
 CSxrInstance::GetGraphicsRequirements failed: Invalid system.
+CSxrInstance::GetRuntimeName()
+CSxrInstance::GetRuntimeName() [clone .cold]
 CSxrInstance::GetSystemName()
 CSxrInstance::GetSystemName() [clone .cold]
 CSxrInstance::GetViewConfigurationTypeSupport(XrViewConfigurationType)
@@ -4055,6 +4057,7 @@ CSxrInstance::Init warning: Headset not found, unable to create a functional vr 
 CSxrInstance::Init()
 CSxrInstance::Init() [clone .cold]
 CSxrInstance::InitExtensions()
+CSxrInstance::InitExtensions() [clone .cold]
 CSxrInstance::InitSupportedFeatures()
 CSxrInstance::InitSupportedFeatures() [clone .cold]
 CSxrInstance::IsDisplayTimeValid(long)
@@ -4069,6 +4072,7 @@ CSxrInstance::PopEvent(XrEventDataBuffer*, unsigned long)
 CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*> >, std::unique_ptr<XrEventDataBuffer, std::default_delete<XrEventDataBuffer> >)
 CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*> >, std::unique_ptr<XrEventDataBuffer, std::default_delete<XrEventDataBuffer> >) [clone .cold]
 CSxrInstance::RememberSuggestedBindings(unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >&&)
+CSxrInstance::ShouldPresentMetaCompatibility()
 CSxrInstance::StringToPath failed: %s
 CSxrInstance::StringToPath failed: No hmd detected - a valid tracking system isn't available. Please check SteamVR is running and that your hmd is properly connected.
 CSxrInstance::StringToPath(std::string, unsigned long&)
@@ -17194,8 +17198,8 @@ GetNextEventId()
 GetNextEventId()::ulMessageCounter
 GetNextMessage failed while waiting for message of type %d on pipe %s
 GetNotificationImageMemoryName(unsigned int, char*, unsigned int)
-GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*)
-GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .cold]
+GetOneIntSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .constprop.0]
+GetOneIntSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .constprop.0] [clone .cold]
 GetOpenGLFunctions() [clone .part.0]
 GetOpenGLFunctions()::s_OpenGLFunctions
 GetOpenGLFunctions()::s_bExtensionsLoaded
@@ -20563,6 +20567,7 @@ IXrProto_001
 IXrSwapchain::GetCompositionSwapchain()
 Ignoring WatchdogWakeUp because the workstation is locked
 Ignoring WatchdogWakeUp from driver because vrclient isn't in watchdog mode
+Ignoring user setting "forcedDriver": "%s" because %s
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
@@ -21676,7 +21681,7 @@ Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
 Nov
-Nov  3 2023
+Nov 15 2023
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t> >*)
@@ -25309,6 +25314,7 @@ Z
 [Simulation] Error in input profile simulation settings for %s. Missing property: %s
 [Simulation] Error in input profile simulation settings. Likely invalid controller type. Aborting simulation.
 [Simulation] Setting device %d with override properties for %s
+[SteamVR] Meta plugin compatibility conditions: %d %d %d %d
 [System] New Config Path:
 [System] New Log Path:
 [System] New Runtime Path:
@@ -26617,6 +26623,8 @@ dpad_touch
 dpad_up
 dpad_xr
 driver %s implements interfaces %s
+driver is disabled in settings
+driver not found (check vrpathreg)
 driver.vrdrivermanifest
 driver.vrresources
 driver:
@@ -27724,6 +27732,7 @@ in Json::Value::resize(): requires arrayValue
 in Json::Value::resolveReference(): requires objectValue
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
+in Meta compatibility mode
 in `
 incomplete UTF-8 string; last byte: 0x
 indentation
@@ -28111,6 +28120,7 @@ message of type "
 message_id
 message_overlay/main
 message_overlay_finished
+metaUnityPluginCompatibility
 metallicFactor
 metallicRoughnessTexture
 mi
@@ -33697,6 +33707,7 @@ sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())
 sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)()) [clone .cold]
 sxr_xrGetInstanceProperties
 sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*)
+sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*) [clone .cold]
 sxr_xrGetOpenGLESGraphicsRequirementsKHR
 sxr_xrGetOpenGLESGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLESKHR*)
 sxr_xrGetOpenGLGraphicsRequirementsKHR

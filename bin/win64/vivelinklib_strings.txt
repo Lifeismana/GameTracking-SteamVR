@@ -29,7 +29,6 @@
  Error:
  H3E H3E
  for detail.
- i.=~/xC
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  t;A;
 !hn7!
@@ -88,7 +87,6 @@
 (A^A]^[
 (A_A^^[
 (A_A^_]
-(FTfc
 (HANDLE:)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})(-)([0-9A-F]{4})
 (HANDLE:)([0-9A-F]{4})\s([0-9A-F]*)
@@ -187,6 +185,7 @@
 .idata$4
 .idata$5
 .idata$6
+.iw>q
 .pdata
 .rdata
 .rdata$T
@@ -206,7 +205,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/"zWA
 /f /s
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
@@ -231,7 +229,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231103180346Z0/
+231115214627Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -245,7 +243,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5EeHx
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -253,7 +250,6 @@
 6I]Dc
 6OB,n_
 70503
-731C.
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -266,7 +262,6 @@
 9\u4H
 9sdu	@8s
 ::LHB::%4.4X %s
-:<Y]>
 :\u-L
 :\u6L
 </u#H
@@ -391,7 +386,6 @@
 @UWAVH
 @WAVAWH
 A valid JSON document must be either an array or an object value.
-A4WS6
 A;A A
 A]A\_[]
 A]A\_]
@@ -469,6 +463,7 @@ Bluetooth Link shutdown (%.2f seconds)
 Bluetooth Link was not able to start. (Status: %d, Error %s)
 Bluetooth service shutdown.
 Bootloader Mode
+B{3WR
 C$9C w
 C(I9F(
 C0L9$
@@ -625,6 +620,7 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
+E"e*G
 E9e ~7I
 Empty escape sequence in string
 EnterCriticalSection
@@ -695,6 +691,7 @@ HTC BS
 HcMxI
 I9Bhs
 I;4$L
+I@9,8utE
 I@H9k8u
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
@@ -813,6 +810,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDS3
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1240,12 +1238,13 @@ memcpy
 memmove
 memset
 need dictionary
-nt#^Z
 ntelD
+o@>}!
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 p UWATAVAWH
+pKp	pK
 print
 punct
 r*=/N
@@ -1340,6 +1339,7 @@ www.digicert.com1$0"
 xA\^][
 xAtAL
 xdigit
+y{m\`
 {un'%
 {x\u!H
 {|?uWH

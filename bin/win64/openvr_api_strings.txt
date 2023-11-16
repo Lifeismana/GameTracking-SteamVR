@@ -105,7 +105,6 @@ $iMBm
 )D$PM
 )D$pL
 )H+}0
-)c*P1
 )t$ A
 )t$0H
 )t$@H
@@ -415,7 +414,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231103180318Z0/
+231115214556Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -432,7 +431,6 @@ $iMBm
 3T$(H
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5EepE
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6({wyyj:
@@ -894,7 +892,6 @@ E;Bl}DM
 E>nEA
 EP*?@
 EPHc@
-ES$;e
 ET$(H
 Eg8C	
 Empty escape sequence in string
@@ -1248,7 +1245,6 @@ M(f95
 M98u/
 MB(iVR
 MM/dd/yy
-MaPqx
 March
 MaxConcurrency
 MaxPolicyElementKey
@@ -1264,6 +1260,7 @@ Monday
 MultiByteToWideChar
 N3`d?
 N>O=I9
+N?q;/
 NAN(IND)
 NAN(SNAN)
 No Error (0)
@@ -1271,13 +1268,11 @@ Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
 November
-O(iLU
 O,D9O(vcH
 O0HcQ
 O0LcQ
 OF>;^
 October
-Ok_{Il9
 On laptop, HMD detected over USB, but Monitor not found (213)
 P>q_Y~
 PA^_^
@@ -1290,7 +1285,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pk7o`
 Pz}b!
 Q5rHg,>
-QF+zD
+QND?zV
 QmqTMv
 Qn 0G
 QueryDepthSList
@@ -1298,7 +1293,7 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-R9v_D-E
+RSDS<
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1385,7 +1380,6 @@ T$hD+
 T$hH;T$pu
 T$pE3
 T$pkD$x<
-T',oi
 TUUUU
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1724,7 +1718,6 @@ WakeAllConditionVariable
 WakeConditionVariable
 Washington1
 Watchdog disabled in settings (132)
-Wbwp'
 Wednesday
 WideCharToMultiByte
 WinRTInitialization
@@ -1865,7 +1858,6 @@ _oD>Kg
 `virtual displacement map'
 a7hIw
 a8&Y.
-a>6	$
 abcdefghijklmnopqrstuvwxyz
 additional six characters expected to parse unicode surrogate pair.
 address family not supported
@@ -2121,6 +2113,7 @@ ntelD
 o0t$I
 oB(h8
 oI>O7
+o\_o3
 obwQ4
 openvr
 openvr_api.dll
@@ -2343,6 +2336,7 @@ zwom}
 { ATAVAWH
 { AVH
 { tjL
+{:f-O
 {S@d6
 {XIZ/
 {ZLjF5jE5zZK

@@ -75,12 +75,13 @@ $Vh&*
 &060K0S0X0
 ' is not a number.
 ',=?k
-( f3c '
 ()$^.*+?[]|\-{},:=!
+(1p&;
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
+*8m?6
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -93,7 +94,6 @@ $Vh&*
 -Infinity
 -external
 -internal
--zF\p
 . Aborting.
 . Baud rate requested (
 . Ignoring the packet.
@@ -692,7 +692,6 @@ $Vh&*
 2$24282H2L2P2X2p2
 2$2<2
 2$3S3r3
-2&-DJx
 2&2+2F2K2f2k2
 2&2;2G2L2
 2&363K3W3\3
@@ -711,7 +710,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231103180321Z0/
+231115214600Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -871,6 +870,7 @@ $Vh&*
 5,505@5D5H5P5h5x5|5
 5,5<5@5P5T5X5`5x5|5
 5.555F5_5
+5.t$>A%
 505<5D5d5
 516w6
 525]5
@@ -1879,6 +1879,7 @@ OT+O`
 Od+O`
 Out of thread local storage!
 P4X4\4`4d4h4l4p4t4x4|4
+P61}q
 PAq=?Mp#
 PID_%04X
 PKT_DECODE_ERROR
@@ -1909,7 +1910,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSv
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2107,6 +2107,7 @@ Zipfile is corrupt or not a zipfile
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
+^3<CG
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -2234,7 +2235,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-il)}V
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -2288,6 +2288,7 @@ memset
 mutex
 need dictionary
 nrfserlib.dll
+o`'z7j
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
@@ -2447,6 +2448,7 @@ u;j h
 u;j h(
 uCVj@
 uDVVV
+uFvu~
 uGhpE
 uGhpQ
 uMhP#
@@ -2466,7 +2468,6 @@ uzj h
 v=Y]Bv
 vGh@7
 vGh`5
-vJguaC
 vector<T> too long
 vector<bool> too long
 w QVR

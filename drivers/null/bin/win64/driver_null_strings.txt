@@ -1,4 +1,5 @@
 	!s99
+	q#nl
  %41g
  A__^
  H3E H3E
@@ -83,7 +84,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231103180607Z0/
+231115214849Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -98,8 +99,9 @@
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+5y}?USo	Y+
 6*f(_
-6Ee<_
+63K~N
 6I]Dc
 6OB,n_
 70503
@@ -234,7 +236,6 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-goa)[
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -251,8 +252,11 @@ memmove
 memset
 modelNumber
 ntelD
+oK#\v
 renderHeight
 renderWidth
+rt_ya
+s:Z`Sz
 secondsFromVsyncToPhotons
 serialNumber
 steamvr

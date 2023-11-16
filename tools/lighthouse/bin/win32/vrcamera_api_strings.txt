@@ -24,6 +24,7 @@
 !hn7!
 #9Npt
 #>B>J>
+#y7FQ
 $0,040<0P0X0`0h0p0|0
 $0.0C0k0
 $3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
@@ -38,9 +39,7 @@ $_^[]
 %m / %d / %y
 &1V6|:^<
 ',=?k
-'cu-y1h
 ()$^.*+?[]|\-{},:=!
-(CU'J/
 (f*^[0
 +A Vj$
 +A$+Y
@@ -54,8 +53,6 @@ $_^[]
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,0I0\0
 ,W5y+
---+TB
-."-7C
 .00cfg
 .?AUIAMovieSetup@@
 .?AUIBaseFilter@@
@@ -303,7 +300,6 @@ $_^[]
 .rdata$r
 .rdata$zzzdbg
 .reloc
-.rhEW
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
@@ -436,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231103180311Z0/
+231115214553Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -704,6 +700,7 @@ $_^[]
 7S8]8z8
 7Z8b8j8r8
 7`7R8
+7b5vyE$B
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7i7 8
 8 8$8(8,8084888<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
@@ -1590,7 +1587,6 @@ Wj4XPV
 Writing failed at 0x%X/0x%X Bytes
 XSVW3
 Y9"SD
-Y9tDd6
 YYF;w,|
 YYPhHv
 YYPh`v
@@ -1665,6 +1661,7 @@ _unlock_locales
 _wcsdup
 `.rdata
 a7hIw
+aN 0.
 abort
 address family not supported
 address in use
@@ -1697,6 +1694,7 @@ bad locale name
 bad message
 blank
 broken pipe
+by?KSEW
 c:\buildslave\steamvr_rel_win32\build\src\vrcamera_api\Retail\win32\2017\vrcamera_api.pdb
 calloc
 cntrl
@@ -1757,7 +1755,6 @@ is a directory
 islower
 isspace
 isupper
-j7ms|JPt
 j@j0P
 jj@0HK4
 k0i0$
@@ -1776,8 +1773,8 @@ memcpy
 memmove
 memset
 message size
+n#&b;
 n;w0tc
-n>[K\
 network down
 network reset
 network unreachable
@@ -1913,6 +1910,7 @@ y'j h
 {un'%
 |Lu?c
 |SVWj
+}+a4~w
 }:;2|6
 }LuHO
 ~qj#k"

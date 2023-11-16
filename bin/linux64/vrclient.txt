@@ -4320,8 +4320,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1844.369500
- r C.1847.369511
+ r C.1844.369586
+ r C.1847.369597
  r C.413.290188
  r CSWTCH.107
  r CSWTCH.16
@@ -7771,6 +7771,8 @@
  t CSxrInstance::FetchVrEvents() [clone .cold]
  t CSxrInstance::GetEnvironmentBlendModes(XrViewConfigurationType)
  t CSxrInstance::GetExtensionsAvailable()
+ t CSxrInstance::GetRuntimeName()
+ t CSxrInstance::GetRuntimeName() [clone .cold]
  t CSxrInstance::GetSystemName()
  t CSxrInstance::GetSystemName() [clone .cold]
  t CSxrInstance::GetViewConfigurationTypeSupport(XrViewConfigurationType)
@@ -7784,6 +7786,7 @@
  t CSxrInstance::Init()
  t CSxrInstance::Init() [clone .cold]
  t CSxrInstance::InitExtensions()
+ t CSxrInstance::InitExtensions() [clone .cold]
  t CSxrInstance::InitSupportedFeatures()
  t CSxrInstance::InitSupportedFeatures() [clone .cold]
  t CSxrInstance::IsDisplayTimeValid(long)
@@ -7797,6 +7800,7 @@
  t CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*> >, std::unique_ptr<XrEventDataBuffer, std::default_delete<XrEventDataBuffer> >)
  t CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*> >, std::unique_ptr<XrEventDataBuffer, std::default_delete<XrEventDataBuffer> >) [clone .cold]
  t CSxrInstance::RememberSuggestedBindings(unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding> >&&)
+ t CSxrInstance::ShouldPresentMetaCompatibility()
  t CSxrInstance::StringToPath(std::string, unsigned long&)
  t CSxrInstance::StringToPath(std::string, unsigned long&) [clone .cold]
  t CSxrInstance::TransitionToAppType(vr::EVRApplicationType)
@@ -19022,8 +19026,8 @@
  t GetNamespacingUid() [clone .cold]
  t GetNextEventId()
  t GetNotificationImageMemoryName(unsigned int, char*, unsigned int)
- t GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*)
- t GetOneBoolSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .cold]
+ t GetOneIntSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .constprop.0]
+ t GetOneIntSettingSlowly(char const*, char const*, vr::EVRSettingsError*) [clone .constprop.0] [clone .cold]
  t GetOpenGLFunctions() [clone .part.0]
  t GetOpenXrActiveRuntimePath()
  t GetOpenXrActiveRuntimePath() [clone .cold]
@@ -28917,6 +28921,7 @@
  t sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())
  t sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)()) [clone .cold]
  t sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*)
+ t sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*) [clone .cold]
  t sxr_xrGetOpenGLESGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLESKHR*)
  t sxr_xrGetOpenGLGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsOpenGLKHR*)
  t sxr_xrGetReferenceSpaceBoundsRect(XrSession_T*, XrReferenceSpaceType, XrExtent2Df*)

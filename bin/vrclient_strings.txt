@@ -2464,7 +2464,6 @@ $
 17CVRCompositor_026
 17CVulkanVRRenderer
 17IVRClientInternal
-18:01:05
 18CPropertyContainer
 18CSharedBufferLinux
 18CVRChaperoneClient
@@ -2532,6 +2531,7 @@ $
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:39:21
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -3270,8 +3270,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1860.370731
-C.1863.370742
+C.1860.370817
+C.1863.370828
 C.427.290275
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -21043,6 +21043,7 @@ IVRWatchdogProvider_001
 IXrProto_001
 Ignoring WatchdogWakeUp because the workstation is locked
 Ignoring WatchdogWakeUp from driver because vrclient isn't in watchdog mode
+Ignoring user setting "forcedDriver": "%s" because %s
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
@@ -22109,7 +22110,7 @@ Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
 Nov
-Nov  3 2023
+Nov 15 2023
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t> >*)
@@ -26416,6 +26417,8 @@ dpad_click
 dpad_touch
 dpad_xr
 driver %s implements interfaces %s
+driver is disabled in settings
+driver not found (check vrpathreg)
 driver.vrdrivermanifest
 driver.vrresources
 driver:

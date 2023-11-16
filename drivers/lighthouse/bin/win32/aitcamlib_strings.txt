@@ -1,6 +1,5 @@
 																																																																																																																
 	!s99
-	eXp 
  %41g
 !(0)"
 !9~ t
@@ -8,7 +7,6 @@
 #*1892+$
 #?RADIANCE
 #?RGBE
-$.Alw
 $9^ t
 %,3:;4-&
 %3333
@@ -174,7 +172,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231103180315Z0/
+231115214556Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -334,6 +332,7 @@ $9^ t
 >0<0:
 >1?b?
 >9>M>
+>:\W}
 >B?I?
 >H?Z?`?g?r?
 >Mp$d
@@ -496,11 +495,11 @@ PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+Q!d9O
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
-RSDS~PW
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -592,7 +591,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
-X0/ji
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -786,6 +784,7 @@ only 8-bit
 outofdata
 outofmem
 output buffer limit
+pc{pH
 pl_pl
 polish
 portuguese

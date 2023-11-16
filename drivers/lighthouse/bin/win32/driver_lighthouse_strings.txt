@@ -369,7 +369,6 @@ $tI<unknown>
 '.5<=6/7>????????????????
 '[', '{', or a literal
 'uri' is missing from non binary glTF file buffer.
-(-sT-FOc
 (090F0{0
 (0=0S1
 (0>0r0
@@ -390,6 +389,7 @@ $tI<unknown>
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 );[_^]
 )D$0f
+)IO,w
 )\ZEo^m/
 *+N43
 *+N4C
@@ -1177,7 +1177,7 @@ $tI<unknown>
 220323000000Z
 220801000000Z
 230714000000Z
-231103180417Z0/
+231115214658Z0/
 233Q3{3
 241009235959Z0a1
 24292
@@ -2823,7 +2823,6 @@ $tI<unknown>
 <Y<^<
 <Y<w<
 <Y<~<
-<Yos%
 <\>{>A?V?
 <\t;</t7
 <]=x=
@@ -3398,6 +3397,7 @@ AvRevertMmThreadCharacteristics failed: last error is %d
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
 Available samples not sufficient for booting (%s)
+A}=I6
 B [_^]
 B(+B$
 BD9x(u
@@ -3831,7 +3831,6 @@ F=WPj
 F>9F0~
 F>WPj
 FATAL
-FB;T)
 FH;FDu
 FHWPj	
 FH_^]
@@ -4216,6 +4215,7 @@ IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogHost_002
 IVRWatchdogProvider_001
+I^@~C0
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 IiGM>nw
 Image data is empty for image[
@@ -4299,7 +4299,6 @@ IsProcessorFeaturePresent
 IsWow64Process
 J0+J(
 J>@G_
-JGBNv&Q
 JSON Update
 JSON string too short.
 JSONuTS
@@ -4520,6 +4519,7 @@ P;s<|
 P;s@|
 P;w<|
 P;~@|
+P<Ue_
 PAq=?Mp#
 PG;{@|
 PH90trj@h
@@ -4611,7 +4611,6 @@ RENDERDOC_GetAPI
 RPCRT4.dll
 RPj#h
 RQPhH
-RSDS<
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5285,7 +5284,6 @@ WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 WARNING: Saw sync on beam channel conflict on ch %d
 WARNING: Speculative Start Collision for base %0X (removing %s)
 WARNING: large time gap between IMU samples (%f -> %f diff=%f)
-WFzN)
 WINMM.dll
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -5509,6 +5507,7 @@ _wstat64i32
 `textures' does not contain an JSON object.
 a7hIw
 aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
+aPwOzVd{
 abort
 acc_bias
 acc_scale
@@ -5673,7 +5672,6 @@ cc_generic_services
 center
 center_x
 center_y
-cg<}`3
 channelMap
 channelOrder
 channels
@@ -5795,6 +5793,7 @@ eEYE_R
 eEYE_RIGHT
 eMultimedia
 eNUM_EYES
+eO30&R
 eRender
 echo %127s
 el_el
@@ -5924,6 +5923,7 @@ gu3jd
 gyro_bias
 h1l1p1t1x1|1
 hGenu
+hO`SV
 hand_right_closeanim.glb
 hand_right_poses.glb
 handlers
@@ -6163,7 +6163,6 @@ last_eye
 last_id
 latam
 ldexp
-le2[`
 leading_comments
 left eye
 left_sync_is_real
@@ -6301,6 +6300,7 @@ output
 output buffer limit
 output_path
 output_type
+p&-_8
 pNewResource
 pNewResource->Load( absFilePath )
 pO Df
@@ -6557,7 +6557,6 @@ tP<	u
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-tS(61
 tSjmh
 tTyY1
 tXVW3
@@ -6772,6 +6771,7 @@ y/Ph\
 y1j\h`
 y3jVh`
 y4+A0
+yZ"<A
 yxxx+
 y~Kmf
 y~Lff
@@ -6787,7 +6787,6 @@ znear
 {%s}%s
 {@^_[
 {Kz}f
-{ffAJX
 {htc}
 {htc}/input/vive_controller_profile.json
 {htc}/input/vive_pro_profile.json

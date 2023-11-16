@@ -1924,7 +1924,6 @@ $~O="""
 %6d unresolved strings
 %8.*g %.*g
 %8lu 
-%;K	3
 %D -|
 %EndPhotoshop
 %I64i
@@ -2765,6 +2764,7 @@ $~O="""
 ,:njk
 ,<L\l|
 ,=0=4=8=D=L=P=T=X=d=l=p=t=x=
+,>1P/d
 ,????*(??
 ,@  `
 ,D$ %
@@ -3178,7 +3178,6 @@ $~O="""
 .0E0J0Y0^0
 .1\H!
 .2C2T5
-.6Ee6
 .8"6z>
 .<Nu-V
 .>N^n~
@@ -3532,6 +3531,7 @@ $~O="""
 0(12171d1s1x1
 0(1@1V1W2
 0(1M1
+0({/3
 0)0.0H0L0P0T0X0|0
 0)0.0V0
 0)000
@@ -4330,7 +4330,7 @@ $~O="""
 223E3P3a3l3
 230714000000Z
 230x323
-231103180433Z0/
+231115214718Z0/
 23282G2L2e3
 23282R2W2q2v2
 232L2e2~2
@@ -12446,7 +12446,6 @@ FT;FLu
 FT_]^[
 FUJIFILMCCD-RAW 
 F\USPV
-F_B$df&
 F`*tE
 F`htrlc
 F`t	P
@@ -17522,6 +17521,7 @@ T$xrD
 T$|SUV
 T(3EG
 T2.v0
+T><!"k
 T@)p>
 TADIt
 TADIu
@@ -18942,7 +18942,6 @@ Zoom Select Status
 \P{Xps}
 \P{Xsp}
 \P{Xwd}
-\T)o0
 \U%08x
 \\?\%s
 \a~Qe
@@ -20236,6 +20235,7 @@ e, na st?pe sa ?ate? u?
 e-1.0*
 e0(1Q1V1e1j1
 eC}gc}m
+eK$8^%4
 ePfP4=0*&#.$&+**)+,'+/''-)$"W\H~
 eXC	\
 eXXXX
@@ -22473,7 +22473,6 @@ myanmar
 n	&&&
 n == 0 || string != NULL
 n b?l?i.
-n.xX/{ v
 n10-/.,43/892>?5GD;OK8MK4XWW
 n2/t.
 n?EKn?tzn?
@@ -25135,7 +25134,6 @@ x_off=%.20g, y_off=%.20g
 x_res=%.10g, y_res=%.10g, units=%d
 xc:white
 xc@Je
-xd%v=
 xdigit
 xe;Wt}`
 xendian

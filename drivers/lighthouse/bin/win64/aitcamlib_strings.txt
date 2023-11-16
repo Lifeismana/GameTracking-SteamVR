@@ -42,6 +42,7 @@
 (A_A^_[
 (A_A^_]
 (L$ D
+(Le_T|
 (f*^[0
 (t$ H
 (t$ u
@@ -57,9 +58,7 @@
 )t$0H
 )|$ H
 )|$@f
-++cEua]W
 +Xt@(
-+a]":U
 +o'q)}
 , last executing in 
 ,9k0t%H
@@ -179,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231103180338Z0/
+231115214618Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -187,13 +186,11 @@
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
 341013235959Z0H1
-34n<6c
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5Ee DYC
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -360,6 +357,7 @@ Failed to acquire raw camera block for writing: %d
 Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
+GMeV=
 GetCameraHALInterface
 GetCurrentProcessId
 GetCurrentThreadId
@@ -473,11 +471,11 @@ PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+P|{(Ft
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS*
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -508,6 +506,7 @@ T$@Hc
 T$@I;
 T$XA#
 T$pD;
+T?RC	
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Thread exited immediately
@@ -576,8 +575,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
-VhNpV~
-Vk%}=1A
 WATAUAVAWH
 WAVAWH
 WaitForSingleObject
@@ -587,7 +584,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
-X]2g"
 Y9"SD
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
@@ -606,7 +602,6 @@ Z9k0tUD
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
-^GSO0
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -874,6 +869,7 @@ t>H9n
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
+tSHf3
 tXfff
 tb9l$Xt@9n$~;
 tchinese
@@ -891,6 +887,7 @@ u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uH@8}
 uJf9X
+uU7o#
 ua_ua
 ukranian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
@@ -903,7 +900,6 @@ unsupported data layout
 unsupported format
 v=Y]Bv
 vHcD$LH
-vc8nYvc
 vi_vi
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )

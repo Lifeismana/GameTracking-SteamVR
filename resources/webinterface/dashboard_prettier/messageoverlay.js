@@ -5035,10 +5035,19 @@
               (this.m_appStateChangedAutorunDisposer = (0, s.EH)(() => {
                 const e = _.H.Instance.SceneApplicationState,
                   t = e != i.xY.None;
-                t &&
-                  this.m_eSceneApplicationState == i.xY.None &&
-                  ae.B.HideTheaterOverlay(),
-                  (this.m_eSceneApplicationState = e),
+                if (t && this.m_eSceneApplicationState == i.xY.None)
+                  ae.B.HideTheaterOverlay();
+                else if (
+                  !t &&
+                  this.m_eSceneApplicationState != i.xY.None &&
+                  !ae.B.isTheaterMode
+                )
+                  for (let [e, t] of ae.B.m_mapOverlayState)
+                    if (e.startsWith(p.wX)) {
+                      t.dockLocation = R.RA.Theater;
+                      break;
+                    }
+                (this.m_eSceneApplicationState = e),
                   this.isOverlayActive(p.PF) &&
                     !t &&
                     this.switchToHomeOverlay();
@@ -8177,10 +8186,9 @@
                 a = 4,
                 l = 1,
                 d = 0.15,
-                u = t.width,
-                b = t.height;
-              const R = (0, n.iN)(c.Az, "Floating-Panel"),
-                k = (e) =>
+                u = (t.width, t.height);
+              const b = (0, n.iN)(c.Az, "Floating-Panel"),
+                R = (e) =>
                   s.createElement(
                     n.wx,
                     {
@@ -8188,7 +8196,7 @@
                       translation: { x: e.x_offset, y: 0.2, z: 0.01 },
                     },
                     s.createElement(y, {
-                      target_id: R,
+                      target_id: b,
                       min_target_scale: 0.5,
                       max_target_scale: 1.5,
                       bVisible: !0,
@@ -8212,7 +8220,7 @@
                     {
                       id: "Floating-Panel",
                       overlay_key: this.props.sOverlayKey,
-                      height: b,
+                      height: u,
                       width: void 0,
                       interactive: !0,
                       undocked: !0,
@@ -8243,9 +8251,7 @@
                   ),
                   i &&
                     s.createElement(n.bt, {
-                      width: u,
-                      height: b,
-                      target_id: R,
+                      target_id: b,
                       "near-z": o,
                       "far-z": 0.1,
                       specular: { color: { r: e, g: e, b: e } },
@@ -8337,11 +8343,11 @@
                           }),
                         ),
                       ),
-                      s.createElement(k, {
+                      s.createElement(R, {
                         parent_id: "Floating-Panel-BottomLeft",
                         x_offset: -0.03,
                       }),
-                      s.createElement(k, {
+                      s.createElement(R, {
                         parent_id: "Floating-Panel-BottomRight",
                         x_offset: 0.03,
                       }),
@@ -8352,10 +8358,10 @@
             let k = b.sfOverlayTrayHeight * this.getDashboardScale(),
               M = b.sfOverlayScaleMin,
               D = b.sfOverlayScaleMax,
-              T = [1, 1.5];
+              T = [0.5, 1, 1.5];
             (this.props.dockLocation != S.LeftHand &&
               this.props.dockLocation != S.RightHand) ||
-              ((k *= 0.5), (M = 0.1), (D = 1.5), (T = [0.25, 0.5, 1]));
+              ((k *= 0.4), (M = 0.1), (D = 1.5), (T = [0.25, 0.5, 1]));
             const I = t.height + k,
               E = Math.max(t.width, 0.175),
               V = I / 2 - k,
@@ -8485,8 +8491,8 @@
         });
         (I.sfMaxDockDist = 0.4),
           (I.sfMovePulseMS = 100),
-          (I.sfOverlayTrayHeight = 0.15),
-          (I.sfOverlayScaleMin = 0.5),
+          (I.sfOverlayTrayHeight = 0.12),
+          (I.sfOverlayScaleMin = 0.25),
           (I.sfOverlayScaleMax = 2),
           (0, o.gn)([i.ZP], I.prototype, "onOverlayScaleChanged", null),
           (0, o.gn)([i.ZP], I.prototype, "computeDestination", null),
@@ -11254,4 +11260,4 @@
   var n = o.O(void 0, [968, 683], () => o(3184));
   n = o.O(n);
 })();
-//# sourceMappingURL=messageoverlay.js.map?v=be7d53caf36835e00bbb
+//# sourceMappingURL=messageoverlay.js.map?v=ce62943d2790fb6955b6

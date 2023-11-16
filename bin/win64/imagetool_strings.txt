@@ -1608,7 +1608,6 @@
 !lock->writer_locked
 !puhQ*
 !u*p=g
-!uLy-
 !waPSR
 !{	8I%
 " of size %lux%lu%+ld%+ld
@@ -2261,6 +2260,7 @@ $wtpt
 (flags & ~G_DATALIST_FLAGS_MASK) == 0
 (flags & ~TYPE_FLAG_MASK) == 0
 (ftype & TYPE_ID_MASK) == 0
+(g/#_/(A\{
 (guint) level <= 3
 (internal) %d Channels are not supported on PatchLUT
 (l$ D
@@ -2621,6 +2621,7 @@ $wtpt
 *T$hH
 *T|3m
 *Yellow*
+*]]U`s
 *b%.20gW
 *ii*ii
 *ii*ii*ii
@@ -3719,7 +3720,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231103180635Z0/
+231115214920Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -4313,6 +4314,7 @@ $wtpt
 <Mr#'pqQr
 <NuJH
 <Title>%s</Title>
+<Uesx
 <Width>%.20g</Width>
 <]&a0F
 <at@<gt
@@ -11651,6 +11653,7 @@ Q H;Q(
 Q Z# 
 Q$A9P$y
 Q(H+Q H
+Q)N/)=
 Q>JBR>L
 QC)\C
 QCannot load font '%s
@@ -11752,7 +11755,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDS-
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -12239,6 +12241,7 @@ RightBottom
 RightOrientation
 RightShift
 RightTop
+RmCI|\g2
 Roberts
 Robidoux
 RobidouxSharp
@@ -15544,7 +15547,6 @@ cyan4
 cycle-colormap
 cypriot
 cyrillic
-czH;/
 d 0+`
 d$ E3
 d$ I+
@@ -17137,6 +17139,7 @@ height
 helvetica
 he|V[M=_P@_RB`RC`R@\OBcYaww
 hfont != NULL
+hge^8
 hiding UniHan chars
 hilite mode flag
 hiragana
@@ -17505,7 +17508,6 @@ j!3V$E
 j+@u'`
 j,Hcj0D
 j,Hcz0
-j0th|
 j2k:%s
 jGj=Lk<Li;WuFb
 jIT<<H,g~Cj
@@ -19113,7 +19115,6 @@ system:max-memory-request
 system:precision
 system:shred
 systemdict /start get exec
-sznc>
 t	9S$
 t	<-u<I
 t	<-uRI

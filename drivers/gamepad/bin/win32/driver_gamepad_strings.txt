@@ -1,9 +1,6 @@
 	!s99
  %41g
- 32lY]
 !hn7!
-#>`=(!
-$o2Y]g6
 ',=?k
 (f*^[0
 +Xt@(
@@ -106,7 +103,7 @@ $o2Y]g6
 220323000000Z
 220801000000Z
 230714000000Z
-231103180403Z0/
+231115214646Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -157,7 +154,6 @@ $o2Y]g6
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9!9&9-929>9`9w9
 9*;V;c;
-9FQG,4-
 9p9}9
 :":.:P:g:p:y:
 :(:,:0:L:P:
@@ -184,7 +180,6 @@ $o2Y]g6
 ? ?$???D?Q?V?`?e?
 ?"?0?<?[?`?q?w?|?
 ?'?z?
-?YKW{
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -248,7 +243,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS[EZ<
+RSDSt_
 RaiseException
 S0Q0O
 SA|X=G
@@ -293,7 +288,6 @@ Valve Corp.1
 WakeAllConditionVariable
 Washington1
 Y9"SD
-Y_\H2R)
 Y__^[
 [K]taM?
 ]J<0"0i3
@@ -314,6 +308,7 @@ _Thrd_join
 _Thrd_sleep
 _Thrd_start
 _Xtime_get_ticks
+_^tT&$ 
 __CxxFrameHandler3
 __std_exception_copy
 __std_exception_destroy
@@ -345,7 +340,7 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
-dx1w<a
+eZv1F
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -353,7 +348,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
-l-&Fj
 l2|X/gGe
 m0k0$
 malloc
@@ -361,16 +355,15 @@ map/set<T> too long
 memcpy
 memmove
 memset
-n6^3y
-qI8]-l![
+p,7XEE
 string too long
-tIG[/
 terminate
 uCVj@
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+y/.1'~&
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

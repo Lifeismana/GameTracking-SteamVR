@@ -147,6 +147,8 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/2w@E
+/_|Mf
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -165,6 +167,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
+0!K9+
 0A^_^
 0A_A^A\_^
 0A_A^A]A\_^[
@@ -181,25 +184,26 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231103181134Z0/
+231115215423Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2zk52
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-43mt2
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
+6kB7~
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -299,7 +303,6 @@
 @UVWAVAWH
 @UWAVAWH
 A valid JSON document must be either an array or an object value.
-A6OKj>
 ASSERT: "%s" at %s:%d.
 ATAVAWH
 A\_^[]
@@ -796,7 +799,6 @@ WindowsDeleteString
 WindowsGetStringRawBuffer
 Y9"SD
 [K]taM?
-[} ^bO>6
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -909,7 +911,6 @@ deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
-ebyy0
 el_el
 en_us
 enableWindowView
@@ -960,6 +961,7 @@ italian
 ja_jp
 japanese
 jj@0HK4
+k&HNc
 k0i0$
 kernel32.dll
 ko_ko
@@ -990,6 +992,7 @@ ole32.dll
 openvr_api.dll
 overlay_frame_times
 overlay_key
+p#f81n
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
@@ -999,6 +1002,7 @@ portuguese
 product_name
 pt_br
 pt_pt
+r)[:cn
 r,fff
 request_destroy_window_view
 request_handlers
@@ -1013,7 +1017,6 @@ romanian
 ru_ru
 running
 russian
-sQ/=I
 schinese
 shcore.dll
 shutdown

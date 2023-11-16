@@ -39,6 +39,7 @@
  in Buffer
  in `
  sDQj
+ z"	}
 !&.37<
 !(0)"
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
@@ -64,7 +65,6 @@
 #?RADIANCE
 #?RGBE
 #oculus_requested_quit
-$6EeB;
 $9^ t
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -73,7 +73,6 @@ $9^ t
 %UUUU
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
-%eDX\i
 %s begin_ctx=%llu
 %s end_ctx=%llu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -102,6 +101,7 @@ $9^ t
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *030<0E0J0O0V0
++&Tc.
 +Xt@(
 +o'q)}
 , binary size = 
@@ -462,7 +462,7 @@ $9^ t
 220801000000Z
 223S3
 230714000000Z
-231103180423Z0/
+231115214705Z0/
 241009235959Z0a1
 253a3
 2<2A2I2O2T2Z2l2v2|2
@@ -889,7 +889,6 @@ $9^ t
 ;3<Z<
 ;3u3;
 ;4<F<
-;<|hWDEWO
 ;=;C;
 ;=;G;P;\;
 ;>;G;P;Y;^;c;m;
@@ -899,6 +898,7 @@ $9^ t
 ;F>O>X>a>f>k>r>
 ;G;M;R;
 ;K;P;e;n;w;|;
+;Q?p[
 ;RQSP
 ;S;Q<]<
 ;X;r;
@@ -931,7 +931,6 @@ $9^ t
 <+<t<
 <,<P<\<d<
 <,<\<
-<-1FpK
 <-u];]
 <.<H<R<[<d<r<
 <.=V=c=n=t=z=~=
@@ -1212,7 +1211,6 @@ CreateEventW
 CreateFileW
 CreateSession was invoked without calling DestroySession, textures may have been leaked.
 CreateThread
-D26}{e
 D3D11CreateDevice
 DXGI_ERROR_DEVICE_HUNG
 DXGI_ERROR_DEVICE_REMOVED
@@ -1470,7 +1468,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS*og4
+RSDS=
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1548,6 +1546,7 @@ Unsupported SRV type: %d
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
 UuidFromStringA
+V<Ue#'
 V<_^]
 VCRUNTIME140.dll
 VRInitError_VendorSpecific_OculusRuntimeBadInstall 
@@ -2182,7 +2181,6 @@ primitives
 pt_br
 pt_pt
 quest
-rQ%|]
 range
 read past buffer
 realloc
@@ -2481,6 +2479,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+y"cU4
 y"hp9
 yxxx+
 zh_cn

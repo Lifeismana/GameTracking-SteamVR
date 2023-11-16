@@ -6,6 +6,7 @@
  A_^]
  A__^
  H3E H3E
+!#=dc
 !hn7!
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
@@ -13,10 +14,10 @@
 ',=?k
 (D$0f
 (f*^[0
-)@Yh0
 +Xt@(
 +o'q)}
 ,W5y+
+- {q 
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -118,7 +119,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231103180224Z0/
+231115214503Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -144,6 +145,7 @@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
+;UePS
 <0:08
 <P)9Y
 <unknown>
@@ -259,6 +261,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSBE*IU
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -314,7 +317,7 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
-YrY1}t
+Zj_OI
 [K]taM?
 \$ H;
 \$ UH
@@ -347,6 +350,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`jd(A)
 a7hIw
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
@@ -364,6 +368,7 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
+cQnC 
 d3d11.dll
 dxgi.dll
 http://ocsp.digicert.com0A
@@ -384,7 +389,6 @@ memmove
 memset
 ntelD
 ole32.dll
-q;/(f
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -396,10 +400,10 @@ t$PE3
 tXfff
 tYH9\$`t
 terminate
-twLcf
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
 vector<T> too long
+vj?C0
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"

@@ -18,6 +18,7 @@
  A_^[
  A__[
  A__^
+ FQNaN
  H3E H3E
  Is it a valid layer manifest file?
  Is it a valid runtime manifest file?
@@ -42,6 +43,9 @@
  was not found
  with error 
 !hn7!
+!vd* V
+#6(fO
+%oBui:
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -58,6 +62,7 @@
 (unknown)
 )D$ L
 )t$ H
++4Bz,
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -163,11 +168,12 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231103180643Z0/
+231115214928Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2ZduQ
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -187,6 +193,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+9Lu74
 <0:08
 =rIQU
 >0<0:
@@ -280,7 +287,6 @@
 @UWAVAWH
 @VATAVH
 @VWAVH
-@YyZcH`!
 A valid JSON document must be either an array or an object value.
 A(t	H
 ADVAPI32.dll
@@ -458,7 +464,6 @@ Instance handle is XR_NULL_HANDLE.
 Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J)M.^_
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -527,7 +532,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSuo
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -554,6 +558,7 @@ RuntimeManifestFile::FindManifestFiles - using global runtime file
 RuntimeManifestFile::FindManifestFiles - using registry-specified runtime file 
 S0Q0O
 SA|X=G
+SE`&RO
 SOFTWARE\Khronos\OpenXR\
 SUAVAWH
 SUWAVAWH
@@ -670,7 +675,6 @@ _Cnd_init_in_situ
 _Cnd_signal
 _Cnd_wait
 _CxxThrowException
-_FDe5:
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
@@ -728,6 +732,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api_layer
 api_version
 application name missing NULL terminator.
+b'suW4}
 bad allocation
 bad array new length
 bad cast
@@ -828,6 +833,7 @@ openxr_loader.dll
 rejectDupKeys
 runtime
 s t#fff
+s[]"M
 setvbuf
 something wrong with XrInstanceCreateInfo contents
 stackLimit
@@ -868,7 +874,6 @@ vector<T> too long
 verbose
 www.digicert.com1!0
 www.digicert.com1$0"
-x@jqB.
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets

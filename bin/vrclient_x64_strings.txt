@@ -27,7 +27,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@ 8
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -71,6 +71,7 @@
  for detail.
  formatting error code 
  in Buffer
+ in Meta compatibility mode
  in `
  message of type "
  of the Protocol Buffer runtime library, but the installed version is 
@@ -132,7 +133,6 @@
 #OriginString_HandController
 #OriginString_HandSource
 #OriginString_Source
-$&7mZ-P
 $@/pose/
 $IL+Q
 $tI(knN
@@ -411,7 +411,7 @@ $w!Hc
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
 ()$^.*+?[]|\-{},:=!
-(-K^*
+(-k[*
 (9Q|uWH
 (A\^][
 (A\_^[
@@ -1703,8 +1703,7 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/5nq(
-/6J]l
+/5n}!
 /9{0t'H
 /a/click
 /a/touch
@@ -2086,7 +2085,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231103181034Z0/
+231115215326Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2144,6 +2143,7 @@ $w!Hc
 98t3H
 98tHH
 9;tC@8{
+9=T\8
 9A@~%H
 9C s.H
 9C }.H
@@ -3452,7 +3452,9 @@ D$0fff
 D$0t	@
 D$0t'
 D$0tx
+D$1uk
 D$3D+
+D$3nil
 D$4D;
 D$4I;
 D$8E3
@@ -3567,19 +3569,17 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
-D8,0u
+D8%SB)
 D8,8u
 D8/u0
 D840u
 D84;u
 D8<0u
 D8<>u
-D8=I$
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
 D8fht/H
-D8kCt
 D8o)tJ
 D8o)tU
 D8ppty
@@ -3588,7 +3588,6 @@ D8wBt/H
 D8}gt$L
 D8}gu
 D8}guH
-D9%#w$
 D90uGH
 D989D9XH
 D9>u:H
@@ -3781,6 +3780,7 @@ Error: Provided dpad for (%s) is not valid for this interaction profile (%s)
 Error: Provided value %f for %s must be between %f and %f
 Error: XR_EXT_dpad_binding extension must be enabled to use dpad binding [%s] for action [%s]
 Error: XR_KHR_binding_modification is required for XR_EXT_dpad_binding to be enabled
+Eu%1'`
 Event: %s device %u timestamp %f  data 0x%llx 0x%llx
 EventRegister
 EventUnregister
@@ -4160,7 +4160,6 @@ Giving up server connection over pipe %s after %d attempts
 Giving up waiting for vrserver to exit after %dms -- killing it
 Global\VRBootstrapper
 GpuSpeed
-H	y?T
 H A;H
 H A;I
 H H9H
@@ -4279,8 +4278,10 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=J}!
-H;=jG!
+H;=*}!
+H;=Jx!
+H;=jj!
+H;=zv!
 H;A s
 H;Axt
 H;C(v
@@ -4736,6 +4737,7 @@ IcV H
 IcV0E3
 Ignoring WatchdogWakeUp because the workstation is locked
 Ignoring WatchdogWakeUp from driver because vrclient isn't in watchdog mode
+Ignoring user setting "forcedDriver": "%s" because %s
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Image data is empty for image[
 Image height mismatch. for image[
@@ -4980,7 +4982,7 @@ L9%dn<
 L90t	H
 L93t	H
 L97u0H
-L9=]:
+L9=37
 L9?u,H
 L9@ s
 L9A r
@@ -5116,7 +5118,7 @@ M9f0t?H
 M9g M
 M9g8I
 M9oHu
-M9o`t/H
+M9o`tkH
 M9x t
 M9x(t
 M9x0t
@@ -6791,7 +6793,6 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
-W%<X'
 W0H;C
 W4H;C
 W8H+W`I
@@ -6855,8 +6856,8 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
-X%\Q*
-X-,>#
+X%|N*
+X-L;#
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7323,10 +7324,11 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y5Mf#
-Y5^U"
+Y%7[&
+Y5Mc#
+Y5^R"
 Y9"SD
-Y=sr#
+Y=so#
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -7592,6 +7594,7 @@ ZvFailed to create fence %ls.
 [Simulation] Error in input profile simulation settings for %s. Missing property: %s 
 [Simulation] Error in input profile simulation settings. Likely invalid controller type. Aborting simulation. 
 [Simulation] Setting device %d with override properties for %s
+[SteamVR] Meta plugin compatibility conditions: %d %d %d %d
 [Tutorial] Adding tutorial action set %s twice!
 [Tutorial] Failed to generate action set handle for per-input tutorial action set
 [Tutorial] Found input path with unexpected prefix: %s
@@ -7713,10 +7716,12 @@ ZvFailed to create fence %ls.
 ]gfff
 ]pH9X
 ]wfHc
+^/Ct'
 ^8H9?t&H
 ^8I9^@
 ^9k0tWD
 ^L$\A
+_3%TcH
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8252,6 +8257,8 @@ dpad_right
 dpad_touch
 dpad_up
 dpad_xr
+driver is disabled in settings
+driver not found (check vrpathreg)
 driver.vrdrivermanifest
 driver.vrresources
 driver:
@@ -8827,6 +8834,7 @@ meshes
 message_id
 message_overlay/main
 message_overlay_finished
+metaUnityPluginCompatibility
 metallicFactor
 metallicRoughnessTexture
 microtxn_finished
@@ -9646,6 +9654,7 @@ t	L90
 t	L99t
 t!I99u
 t!LcD$hH
+t"D8kCt
 t#fff
 t$ AVH
 t$ AWH
@@ -9754,7 +9763,7 @@ t3fff
 t4L9P
 t6H9.u1
 t7fff
-t8D8-aT,
+t8D8-
 t9fff
 t:fff
 t>H9n
