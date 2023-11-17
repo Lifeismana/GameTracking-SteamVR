@@ -38,7 +38,6 @@
 	enum_type
 	extension
 	name_part
-	pRMF
 	type_name
 	vid=0x%x, pid=0x%x, sn=%ls
 	w2Hc
@@ -312,6 +311,7 @@
 ", found "
 ", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
 ", which is not imported by "
+",~Id
 ".  To use it here, please add the necessary import.
 ". If this is intended, set 'option allow_alias = true;' to the enum definition.
 ". Must be "perspective" or "orthographic"
@@ -1376,6 +1376,7 @@ $w!Hc
 0D9c0t'H
 0_^[H
 0_^]H
+0f@'4
 0w0c1
 0x%08llx
 0}0i1
@@ -1395,13 +1396,12 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231117030223Z0/
+231117051700Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2HcB,
-2OJf7
 2YUYw,tE
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
@@ -1616,7 +1616,6 @@ $w!Hc
 <unknown>
 =5^:>
 =7p7M}
-=:	6?
 =ETLP
 =IBgC
 =SNRtt%
@@ -1628,6 +1627,7 @@ $w!Hc
 >$u>I
 >-ufH
 >0<0:
+>4B.&qj
 >B`E?)\
 >Mp$d
 >W`.]tB3?
@@ -1684,6 +1684,7 @@ $w!Hc
 ?@s#0?LD
 ?CVkDevice::CreateDevice
 ?HcC,H
+?L[@-
 ?Nbp?
 ?UUUUUU
 ?VUUUUU
@@ -3565,8 +3566,7 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=$>
-H;=3A
+H;=#A
 H;Axt
 H;B0t
 H;C sAH
@@ -4621,6 +4621,7 @@ SPB8t
 SPB8u,
 SPEED
 SRB-0
+ST([n_
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
@@ -5130,6 +5131,7 @@ VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
 VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateBlurTexture
 VRInitError_Compositor_CreateClampToBorderSamplerState
 VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
 VRInitError_Compositor_CreateComputeResolveRenderTextures
@@ -5516,6 +5518,7 @@ Y?33s?
 YAHH+
 YAPH+
 YL9%!
+YXAE">q
 Yl$ M
 Yl$4E
 Yl$hfD
@@ -5677,7 +5680,6 @@ ZL$Xf
 ^HH9|$hu
 ^`I;^h
 ^oEZ_
-_ RXy/
 _0IcG
 _Cnd_broadcast
 _Cnd_destroy
@@ -6910,7 +6912,6 @@ r6w%H
 r?'1(?
 rEyeFile:%s width:%d height:%d components:%d
 rND9{0t
-rZ	;6
 rZw%H
 range
 read past buffer
@@ -6965,6 +6966,7 @@ s fff
 s0H;s t!H
 s@fff
 sFL9c
+sP[G)
 sample_angle_estimate
 sampler
 samplers
@@ -8097,7 +8099,6 @@ zuusA
 }</uyH
 }LuHO
 }M?/n
-}QI1-
 }Ufff
 }`H+}XH
 }o;Dr_

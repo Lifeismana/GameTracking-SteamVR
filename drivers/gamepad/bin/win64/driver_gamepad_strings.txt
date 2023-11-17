@@ -3,6 +3,7 @@
  A__^
  H3E H3E
 !hn7!
+$URdE#J9t
 ',=?k
 (D$ f
 (f*^[0
@@ -97,7 +98,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117030211Z0/
+231117051647Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -120,11 +121,13 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
-;120V9{
+:JzyMG
 <0:08
+=i5(I
 =rIQU
 >0<0:
 >Mp$d
+?	orl
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -208,12 +211,12 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDST
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
+S::ig;UD
 SA|X=G
 SDL2.dll
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD
@@ -260,12 +263,12 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
-Xw.s<
+Wf)|/J
 Y9"SD
 [K]taM?
+[f}@m3zm
 \$ UH
 ]J<0"0i3
-^~:BM
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -305,6 +308,7 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 a7hIw
+ab"GZ^
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -340,6 +344,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+y>=Ax[
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

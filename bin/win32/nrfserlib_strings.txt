@@ -73,9 +73,9 @@ $Vh&*
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
 &060K0S0X0
+&WxCT
 ' is not a number.
 ',=?k
-'t/FQ
 ()$^.*+?[]|\-{},:=!
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
@@ -89,7 +89,6 @@ $Vh&*
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
--,6\r
 -1e+9999
 -Infinity
 -external
@@ -710,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231117030042Z0/
+231117051531Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1008,7 +1007,6 @@ $Vh&*
 8(8,888<8H8L8X8\8h8l8
 8(80888@8H8P8X8`8h8p8x8
 8)818Q8
-8*+#s
 8,878=8k8
 8,9d9
 8-8S8m8
@@ -1896,7 +1894,6 @@ Parsing of JSON string "%s" failed: %s
 PerformDFUContext
 Performing DFU:
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Plpm)
 PortName
 PostQueuedCompletionStatus
 Power Control
@@ -1910,6 +1907,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDS&
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2035,6 +2033,7 @@ Trying to send packets to device when serial device is closed is not supported.
 Trying to send unknown control packet to device. 
 UNKNOWN[0x
 USER32.dll
+UiKpB
 UnhandledExceptionFilter
 Unknown
 Unknown AUTH Status (0x%X)
@@ -2105,6 +2104,7 @@ Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
 \0`0d0|0
+\8Fgi
 \Device Parameters
 ]J<0"0i3
 ^[0-9]+$
@@ -2172,7 +2172,6 @@ _strlwr
 _strnicmp
 _strupr_s
 `.rdata
-a1SXQ
 a7hIw
 a9~@u
 additional six characters expected to parse unicode surrogate pair.
@@ -2192,7 +2191,6 @@ asio.misc error
 asio.system
 asio.system error
 assert json failed
-bJ2G'
 bad allocation
 bad array new length
 bad cast

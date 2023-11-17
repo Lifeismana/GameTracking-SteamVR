@@ -4,7 +4,6 @@
 !(0)"
 !9~ t
 !hn7!
-"&[GGS
 #*1892+$
 #?RADIANCE
 #?RGBE
@@ -173,7 +172,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231117030039Z0/
+231117051523Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -307,6 +306,7 @@ $9^ t
 ;$<`<
 ;$>(>,>0>4>8><>@>D>H>L>P>T>
 ;(<s<
+;*}p:
 ;-<x<
 ;.;>;H;R;b;m;
 ;1<d<
@@ -410,7 +410,6 @@ EventUnregister
 EventWrite
 EventWriteString
 F(j4f
-FHo,l
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -495,6 +494,7 @@ PauseCamera (delayed...)
 PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+PnQ~<
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -643,6 +643,7 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
+`PJ>zY
 a7hIw
 aitcamlib
 aitcamlib.dll
@@ -797,7 +798,6 @@ romanian
 ru_ru
 russian
 schinese
-slEup
 spanish
 startup
 string too long
@@ -826,7 +826,6 @@ u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C
 uCVj@
 uEVj@
-uO!.s
 ua_ua
 ukranian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
@@ -848,7 +847,6 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-xr3qQ
 zh_cn
 zh_tw
 zlib corrupt

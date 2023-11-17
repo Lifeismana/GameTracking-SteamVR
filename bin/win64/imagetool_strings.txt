@@ -2606,7 +2606,6 @@ $wtpt
 ***MEMORY-ERROR***: 
 *5*h*
 *:JZjz
-*Bo!p
 *Cyan*
 *D$XA
 *D$XfI
@@ -3719,7 +3718,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231117030346Z0/
+231117051825Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3837,7 +3836,6 @@ $wtpt
 3ff3f33f
 3h;1 :}
 3iR">
-3m\hT
 3mq+<
 3p@lgi
 3x1:0,1,0
@@ -4130,6 +4128,7 @@ $wtpt
 :D`4D
 :LOG*}
 :NF& 
+:QV1'
 :RS	x 
 :\FSY$
 :acspMSFT
@@ -9377,7 +9376,6 @@ K$<Bt
 K$<Zu
 K(E[."
 K(H9p
-K*o\"
 K0D84
 K0H9q
 K0HcQ
@@ -13791,7 +13789,6 @@ VerticalTile
 VerticalTileEdge
 Vertices of Polygonal Collimator
 Vertices of Polygonal Shutter
-VexH>
 VhC4d
 Video Image Format Acquired
 Viekas kettu punaturkki laiskan koiran takaa kurkki.
@@ -14756,6 +14753,7 @@ a yo' chumocho krestat, ti ha na'lalamen yo'.
 a(L9a L
 a4small
 a7hIw
+aJe1\
 aWvd$A;-
 a]{?P
 a`wwn
@@ -19756,7 +19754,6 @@ u:D9c4u4H
 u;L;^ }5H
 u<D9c(u6M
 u<HcD$XIc
-u=//`
 u=A9@
 u?9D$Du
 u?rMu?
@@ -21122,7 +21119,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 }2fff
 }4A+udx.;
 }>A+]dx8;
-}K	X7
 }LuHO
 }Qfff
 }b>G:c>

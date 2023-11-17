@@ -2327,7 +2327,7 @@ $
 0-pixel image
 0123456789
 0123456789ABCDEF
-02:58:46
+05:13:20
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -3270,8 +3270,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1860.370818
-C.1863.370829
+C.1860.370819
+C.1863.370830
 C.427.290275
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -23748,6 +23748,7 @@ VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
 VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateBlurTexture
 VRInitError_Compositor_CreateClampToBorderSamplerState
 VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
 VRInitError_Compositor_CreateComputeResolveRenderTextures

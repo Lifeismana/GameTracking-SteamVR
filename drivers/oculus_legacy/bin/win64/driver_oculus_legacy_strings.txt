@@ -6,6 +6,7 @@
  A__^
  H3E H3E
 !hn7!
+"5;w!
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -17,6 +18,7 @@
 )D$ H
 )\$pD
 )d$`D
+)s?}f
 )t$pu.H
 +Xt@(
 +o'q)}
@@ -91,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117030326Z0/
+231117051803Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -103,7 +105,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4 1SCA,!
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -130,6 +131,7 @@
 =rIQU
 >0<0:
 >Mp$d
+?P,rZ8/
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -268,7 +270,6 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDSv>
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -298,7 +299,6 @@ TlsGetValue
 TlsSetValue
 UAVAWH
 USVWATAUH
-UU9f4A
 UWAVH
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
@@ -331,6 +331,7 @@ Y9"SD
 \$ UH
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
+_3}+~0
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -391,7 +392,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i|pSS>
 jj@0HK4
 k0i0$
 l$8E3
@@ -467,6 +467,7 @@ tXfff
 tdh.dll
 terminate
 tkH97t	H
+uFL)b
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0

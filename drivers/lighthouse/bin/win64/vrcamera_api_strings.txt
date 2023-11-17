@@ -44,6 +44,8 @@ $< t6<$t,<+t"<vt
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
+&<y&~
+&a#d70
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
@@ -378,7 +380,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231117030053Z0/
+231117051523Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -407,7 +409,6 @@ $< t6<$t,<+t"<vt
 8D$ u+H
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8Fv^s
 8H;^XtB
 8T$0u
 8\$0u`H
@@ -419,6 +420,7 @@ $< t6<$t,<+t"<vt
 9D$(}k
 9D$`t_
 9FHtGH
+9Ku!>
 9W$v8D
 9WP~GM
 9WP~HM
@@ -438,7 +440,6 @@ $< t6<$t,<+t"<vt
 :O	t	I
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
 :\uDL
-;6L)n
 ;A$vTH
 ;B$vUH
 ;Ct~EH
@@ -1063,6 +1064,7 @@ L$PH3
 L$XH3
 L$pD9c
 L$pH3
+L*{c_
 L+t$0
 L9%!^
 L9%M[
@@ -1108,6 +1110,7 @@ No depth or color data. Cannot determine frame number.
 No depth stream to configure.
 O,D9O(vcH
 OLEAUT32.dll
+P.wmH
 P8fD;
 P@fD;
 PA^A\]
@@ -1124,7 +1127,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSf9
+RSDSK
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1139,7 +1142,6 @@ RtlPcToFileHeader
 RtlVirtualUnwind
 S0Q0O
 SA|X=G
-SD&FCy
 SUVWATAUAVAWH
 SUVWATAVAWH
 SUVWAVH
@@ -1239,7 +1241,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Verify failed at 0x%X/0x%X Bytes
-Veylj_0
 VirtualAlloc
 VirtualFree
 VirtualProtect
@@ -1249,6 +1250,7 @@ WATAUAVAWH
 WATAVH
 WATAWH
 WAVAWH
+W\D)8
 W`;Ct~|H
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -1259,7 +1261,6 @@ Washington1
 White Balance:			
 WideCharToMultiByte
 WinRTInitialization
-WjI!{
 Writing failed at 0x%X/0x%X Bytes
 X E9j
 Y$D;R
@@ -1405,6 +1406,7 @@ e0A^A]A\_^[]
 e@A_A^]
 eventObject
 executable format error
+e|^!Bg
 f	n@H
 f#D$@H
 f9,Yu
@@ -1433,11 +1435,12 @@ fseek
 fsetpos
 function not supported
 fwrite
-g;JjajV;!dJzY
 generic
 graph
+gsYcg
 h< t <$
 hA_A^A]A\_^][
+hE[y7
 host unreachable
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -1541,10 +1544,12 @@ pA_A^A]A\_^]
 pContext
 pEvents
 pExecutionResource
+pS!:p
 pScheduler
 pThreadProxy
 permission denied
 ppVirtualProcessorRoots
+ppk=9
 print
 protocol error
 protocol not supported
@@ -1686,9 +1691,7 @@ x AVE3
 x AVH
 x UAVAWH
 xdigit
-y>CqCs
 yH;YXtl
-zakr0
 { ATAVAWH
 { AVH
 { tjL

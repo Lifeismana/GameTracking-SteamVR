@@ -39,6 +39,7 @@
 +o'q)}
 , last executing in 
 ,W5y+
+,uu5=k#
 -1e+9999
 -Infinity
 -u-I;
@@ -160,13 +161,15 @@
 0}0i1
 130801120000Z
 1e+9999
+1h,D_
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231117030827Z0/
+231117052303Z0/
 241009235959Z0a1
+27 a~
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -176,6 +179,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3?dW]
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -183,7 +187,6 @@
 6*f(_
 6I]Dc
 6OB,n_
-6RR,nqKG
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -389,6 +392,7 @@ DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
 E;u`|
+E<`=t"
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
 Encountered error 
@@ -802,7 +806,6 @@ fi_fi
 finnish
 fr_fr
 french
-frjMi:
 german
 gfffffffH
 gfffffffI
@@ -911,7 +914,6 @@ ukranian
 user32.dll
 v=Y]Bv
 vE;E`M
-v_"tn!
 vector<T> too long
 vi_vi
 vietnamiese
@@ -932,7 +934,6 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop.dll
-witbA
 wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"

@@ -63,6 +63,7 @@
  sJE3
 !&.37<
 !(0)"
+!V(vu
 !hn7!
 " not found in the scene.
 """""""
@@ -85,6 +86,7 @@
 #D9c0t
 #D9{0t
 #oculus_requested_quit
+$G_,*
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -202,6 +204,7 @@ $w!Hc
 )|$`D
 )|$`H
 )|$pf
+*$i'#(
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *uXI;
@@ -222,6 +225,7 @@ $w!Hc
 -9{0t%H
 -D9c0t%H
 -Infinity
+-gh4#=
 -startup
 -u-I;
 .00cfg
@@ -448,8 +452,6 @@ $w!Hc
 0A_A^_^]
 0A__^
 0D9c0t'H
-0Zw2/
-0s<`Z)
 0w0c1
 0}0i1
 1/2/4/8/16-bit only
@@ -462,7 +464,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231117030323Z0/
+231117051800Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -481,6 +483,7 @@ $w!Hc
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 69k0t1
+6H]6P
 6I]Dc
 6OB,n_
 6p7M=:P_:}u
@@ -1011,6 +1014,7 @@ H+WpA
 H+WpH
 H+WpI
 H-^Eu
+H1$;Rn
 H93t	H
 H9Ahs
 H9D$@
@@ -1058,7 +1062,6 @@ HeapFree
 Hmd not found.
 HmdDriverFactory
 Hu"Hc
-I&ZiBN
 I(+K H
 I(I+I H
 I+O0D
@@ -1393,6 +1396,7 @@ USWAUAWH
 USWAUH
 USWAVH
 USWAWH
+UScacQ
 UUUUUUU
 UVATAVAWH
 UVAUAWH
@@ -1431,7 +1435,6 @@ VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
-VT[Q/
 VWATAUAWH
 VWATAVAWH
 VWAUAVAWH
@@ -1771,7 +1774,6 @@ emissiveTexture
 en_us
 end of input
 english
-ern,0
 es_es
 es_mx
 expected marker
@@ -2560,7 +2562,6 @@ znear
 |LL\t
 |Lu?c
 }LuHO
-}OrSr
 ~+fff
 ~3LcD$(L
 ~6HcD$ I

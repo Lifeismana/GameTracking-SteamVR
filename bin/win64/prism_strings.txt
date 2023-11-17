@@ -48,6 +48,7 @@
  A__^
  H3E H3E
  formatting error code 
+ ggMH
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
@@ -57,7 +58,6 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-#7YSi
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -531,7 +531,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231117030120Z0/
+231117051555Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -588,6 +588,7 @@ $9E0u
 ??_7facet@locale@std@@6B@
 ?CVkDevice::CreateDevice
 ?I9T$
+?M$F0
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
 ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
@@ -738,6 +739,7 @@ Attempting to reinitailize estimator!
 AuthD
 Automatically quitting due to idle time > %f seconds.
 B H9B
+B)\)?
 Bellevue1
 Blank
 C(H+C H
@@ -1052,7 +1054,6 @@ FrameHallucination-Frag
 FrameHallucination-Vert
 FreeLibrary
 GLSL.std.450
-GdMRy
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
@@ -1391,7 +1392,6 @@ PanelMask-Staging
 PanelMask-Vert
 PeekNamedPipe
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Po:$v
 PoolGC
 PrepareInput
 Present
@@ -1424,6 +1424,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDS|
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1630,6 +1631,7 @@ Y9"SD
 YUV conversion - %s
 Yl$ M
 Yl$4E
+Zt2}Z
 [ AVH
 [K]taM?
 \$ AVH
@@ -1669,6 +1671,7 @@ Yl$4E
 \$xMi
 \\.\pipe\
 \mfpmp.exe
+\s:	\
 ]J<0"0i3
 ]g@8yhu
 _Cnd_broadcast
@@ -1759,7 +1762,6 @@ atanf
 bad allocation
 bad array new length
 bad conversion
-c	eAt
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
@@ -1865,7 +1867,6 @@ gfffffffL+
 gfffffffM
 gfffffffO
 graphicsCommandSet.Valid()
-h?Zf1
 hA_A^A]A\_^[]
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -1878,6 +1879,7 @@ invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
+jE&g;
 jj@0HK4
 k0i0$
 l$ E3
@@ -2599,7 +2601,6 @@ yxxxxxxxI+
 |$xMi
 |6hE3
 |Lu?c
-|| [bVH
 }(M98t
 }LuHO
 }`H+}XH

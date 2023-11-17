@@ -635,7 +635,6 @@ $w!Hc
 , column 
 , last executing in 
 , requestedBytes 
-,$S/.
 ,9k0t%H
 ,9{0t%H
 ,H;D$ 
@@ -2086,7 +2085,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231117030740Z0/
+231117052216Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2105,7 +2104,6 @@ $w!Hc
 416.16
 440.97
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4ja*$
 528.49
 555555
 555555555555555555555555555555555555555555555555555555555555555555555555555555
@@ -2121,7 +2119,6 @@ $w!Hc
 79L$hua
 7Failed to create readable frame info buffer (D3D10)!
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7rra}z
 7u;H;
 8.u9I
 82u	H
@@ -2538,7 +2535,6 @@ A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A$A;B
 A+H,A
-A/4Uwk
 A0H9A(tkH
 A84(u
 A8EPH
@@ -4281,10 +4277,9 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=*}!
-H;=Jx!
-H;=jj!
-H;=zv!
+H;=:x!
+H;=Zj!
+H;=jv!
 H;A s
 H;Axt
 H;C(v
@@ -4985,7 +4980,7 @@ L9%dn<
 L90t	H
 L93t	H
 L97u0H
-L9=37
+L9=#7
 L9?u,H
 L9@ s
 L9A r
@@ -5203,6 +5198,7 @@ Not writing scalar value because it didn't change
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
 O(H9Q
 O0H9Q
+O;/nBCJp
 OPAQUE
 OPENGL32.dll
 Object
@@ -6421,6 +6417,7 @@ VRInitError_Compositor_CreateBlendState
 VRInitError_Compositor_CreateBlendStateMaskB
 VRInitError_Compositor_CreateBlendStateMaskG
 VRInitError_Compositor_CreateBlendStateMaskR
+VRInitError_Compositor_CreateBlurTexture
 VRInitError_Compositor_CreateClampToBorderSamplerState
 VRInitError_Compositor_CreateComputeHmdPoseConstantBuffer
 VRInitError_Compositor_CreateComputeResolveRenderTextures
@@ -6796,6 +6793,7 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
+W%\P'
 W0H;C
 W4H;C
 W8H+W`I
@@ -7698,7 +7696,6 @@ ZvFailed to create fence %ls.
 \$xHk
 \10I;
 \\.\pipe\
-\]0ds
 \mfpmp.exe
 \u=H;
 \|$`D
@@ -8278,7 +8275,6 @@ drop_speed
 duration
 dxgi.dll
 e0A_A^A]A\]
-e7M/j
 eCS < CS_Count
 ePH9C tEH
 ePS < PS_Count
@@ -10682,6 +10678,7 @@ znear
 { "type": "keyboard_shown" }
 { AVH
 {%s}%s
+{P_	K
 {un'%
 {x\u!H
 {|?uWH

@@ -163,7 +163,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117030355Z0/
+231117051833Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -188,7 +188,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 <0:08
-=4F!iC
 =rIQU
 >0<0:
 >Mp$d
@@ -323,7 +322,6 @@ Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C0L9<
-CA/ g[
 CD$0D
 CD$0I
 CD$0f
@@ -379,7 +377,6 @@ D$pE3
 D$pHcH
 D$xH+
 D$xI+
-D0W85
 D8|$AD
 D;l$0
 DeleteCriticalSection
@@ -449,6 +446,7 @@ HA_A]_[
 I#V0I
 I9Bhs
 I9W(t
+ITt&l
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Implicit layer 
 Infinity
@@ -528,7 +526,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS)
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -706,7 +703,6 @@ _register_onexit_function
 _seh_filter_dll
 _unlock_file
 `.rdata
-`;h0K
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
@@ -795,6 +791,7 @@ invalid messenger pointer
 invalid properties
 invalid string position
 isValidJson indicates 
+jKQ)D:hi+
 jj@0HK4
 k0i0$
 keylength >= 2^30
@@ -864,8 +861,6 @@ t9H9h
 tmfff
 ungetc
 unknown type in properties
-uoNaB}
-v(IJ#
 v=Y]Bv
 vector<T> too long
 verbose

@@ -117,7 +117,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117025951Z0/
+231117051416Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -140,6 +140,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+9/<c:
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
@@ -163,7 +164,6 @@
 @UVAVAWH
 @WAUAVAWH
 ASSERT: "%s" at %s:%d.
-AWL,^c
 A_A]^]
 A_A^A\_^[
 A_A^A\_^[]
@@ -245,16 +245,17 @@ L$@s@H
 L9t$xt
 L9|$ht
 L?n(Zy&
+LS\.~U
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
 MB(iVR
 MSVCP140.dll
-MZh;+
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
 OLEAUT32.dll
+OjEzG
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
@@ -315,8 +316,8 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
+Z2)~ l6'tQE
 [K]taM?
-[dN	/R
 \$ H;
 \$ UH
 \$(H;
@@ -361,12 +362,12 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+ba@Qu
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
-dox4Sac{J
 dxgi.dll
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -376,7 +377,6 @@ http://www.digicert.com/CPS0
 iswspace
 jj@0HK4
 k0i0$
-k^+C4
 l$ WH
 l2|X/gGe
 m0k0$
@@ -387,6 +387,7 @@ memmove
 memset
 ntelD
 ole32.dll
+rA$|4
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -404,6 +405,7 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
+{9K2]T
 {un'%
 |$ AVH
 |$0E3
