@@ -57,6 +57,7 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
+#7YSi
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -530,7 +531,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231115214642Z0/
+231117030120Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -578,7 +579,6 @@ $9E0u
 >0<0:
 >Mp$d
 >ffv?
-?<UeRn
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??Bid@locale@std@@QEAA_KXZ
@@ -1052,6 +1052,7 @@ FrameHallucination-Frag
 FrameHallucination-Vert
 FreeLibrary
 GLSL.std.450
+GdMRy
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
@@ -1390,6 +1391,7 @@ PanelMask-Staging
 PanelMask-Vert
 PeekNamedPipe
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Po:$v
 PoolGC
 PrepareInput
 Present
@@ -1422,7 +1424,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSn
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1668,7 +1669,6 @@ Yl$4E
 \$xMi
 \\.\pipe\
 \mfpmp.exe
-\yhUUY
 ]J<0"0i3
 ]g@8yhu
 _Cnd_broadcast
@@ -1759,6 +1759,7 @@ atanf
 bad allocation
 bad array new length
 bad conversion
+c	eAt
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
@@ -1864,6 +1865,7 @@ gfffffffL+
 gfffffffM
 gfffffffO
 graphicsCommandSet.Valid()
+h?Zf1
 hA_A^A]A\_^[]
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -1877,7 +1879,6 @@ isalpha
 isdigit
 it != m_importedClients.end()
 jj@0HK4
-k).,-
 k0i0$
 l$ E3
 l$ H;
@@ -2092,7 +2093,6 @@ timing.nPixelClockRate > 0
 to.pPool != nullptr
 tolower
 t}H9=
-u(U!t
 uAfff
 uRf;>tM
 uint32_t( eEye ) < k_nEyeCount
@@ -2599,8 +2599,8 @@ yxxxxxxxI+
 |$xMi
 |6hE3
 |Lu?c
+|| [bVH
 }(M98t
-}*Doo
 }LuHO
 }`H+}XH
 }wH9S

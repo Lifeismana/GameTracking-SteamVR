@@ -8216,7 +8216,7 @@
               _ = { x: 0, y: -0.15, z: 0.1 };
             if (o) {
               const e = 0.05;
-              let o = -0.5,
+              let o = -0.1,
                 a = 4,
                 l = 1,
                 d = 0.15,
@@ -11092,4 +11092,4 @@
   var n = o.O(void 0, [968, 683], () => o(1983));
   n = o.O(n);
 })();
-//# sourceMappingURL=settings_desktop.js.map?v=18db86f55c725d853902
+//# sourceMappingURL=settings_desktop.js.map?v=8f94b0dfd2b19e851c4e

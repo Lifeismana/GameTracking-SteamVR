@@ -42,7 +42,6 @@
 (A_A^_[
 (A_A^_]
 (L$ D
-(Le_T|
 (f*^[0
 (t$ H
 (t$ u
@@ -171,6 +170,7 @@
 0D9c0t'H
 0w0c1
 0}0i1
+1#-n 
 1/2/4/8/16-bit only
 130801120000Z
 210429000000Z
@@ -178,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231115214618Z0/
+231117030057Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -194,6 +194,7 @@
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
+6E=/.,
 6I]Dc
 6OB,n_
 70503
@@ -243,6 +244,7 @@
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?yifz8
 @.data
 @.reloc
 @A^_^
@@ -357,7 +359,6 @@ Failed to acquire raw camera block for writing: %d
 Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
-GMeV=
 GetCameraHALInterface
 GetCurrentProcessId
 GetCurrentThreadId
@@ -471,11 +472,11 @@ PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-P|{(Ft
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSg
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -506,7 +507,6 @@ T$@Hc
 T$@I;
 T$XA#
 T$pD;
-T?RC	
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Thread exited immediately
@@ -602,6 +602,7 @@ Z9k0tUD
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
+^M;R1
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -788,6 +789,7 @@ l2|X/gGe
 latam
 ldexp
 m0k0$
+m\Gh`
 malloc
 map/set<T> too long
 max value > 255
@@ -869,7 +871,6 @@ t>H9n
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-tSHf3
 tXfff
 tb9l$Xt@9n$~;
 tchinese
@@ -887,7 +888,6 @@ u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uH@8}
 uJf9X
-uU7o#
 ua_ua
 ukranian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer

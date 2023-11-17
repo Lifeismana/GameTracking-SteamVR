@@ -109,6 +109,7 @@ $iMBm
 )t$0H
 )t$@H
 )t$`3
+)u9Q~
 )|$0H
 )|B?d!
 *StO9>T
@@ -136,9 +137,11 @@ $iMBm
 -Infinity
 -\!]N=
 -uKI;
+.&UM 
 ..om?
 .00cfg
 .3=}%
+.7ZM(
 .8\$!t.9\
 .>PJ;I:qE>
 .?AUIExecutionContext@Concurrency@@
@@ -414,10 +417,11 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231115214556Z0/
+231117030039Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2_T-$
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -431,6 +435,7 @@ $iMBm
 3T$(H
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5#c[T
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6({wyyj:
@@ -1260,7 +1265,6 @@ Monday
 MultiByteToWideChar
 N3`d?
 N>O=I9
-N?q;/
 NAN(IND)
 NAN(SNAN)
 No Error (0)
@@ -1272,6 +1276,7 @@ O,D9O(vcH
 O0HcQ
 O0LcQ
 OF>;^
+OTBZ_t
 October
 On laptop, HMD detected over USB, but Monitor not found (213)
 P>q_Y~
@@ -1285,7 +1290,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pk7o`
 Pz}b!
 Q5rHg,>
-QND?zV
 QmqTMv
 Qn 0G
 QueryDepthSList
@@ -1293,7 +1297,6 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
-RSDS<
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1380,6 +1383,7 @@ T$hD+
 T$hH;T$pu
 T$pE3
 T$pkD$x<
+TR:G_s
 TUUUU
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1911,6 +1915,7 @@ d$XD9
 d$`H=
 d?000000`?
 dC4N(
+dDr{T
 dI;D#
 dddd, MMMM dd, yyyy
 deque<T> too long
@@ -2113,7 +2118,6 @@ ntelD
 o0t$I
 oB(h8
 oI>O7
-o\_o3
 obwQ4
 openvr
 openvr_api.dll
@@ -2303,6 +2307,7 @@ vj`7%X,
 vrclient Shared Lib Not Found (102)
 vrclient_x64.dll
 vrserver internal error (124)
+vuElK
 v}`[>
 w(HcODI
 wFHcN
@@ -2336,7 +2341,6 @@ zwom}
 { ATAVAWH
 { AVH
 { tjL
-{:f-O
 {S@d6
 {XIZ/
 {ZLjF5jE5zZK

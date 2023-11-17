@@ -18,7 +18,6 @@
  A_^[
  A__[
  A__^
- FQNaN
  H3E H3E
  Is it a valid layer manifest file?
  Is it a valid runtime manifest file?
@@ -43,9 +42,6 @@
  was not found
  with error 
 !hn7!
-!vd* V
-#6(fO
-%oBui:
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -62,7 +58,6 @@
 (unknown)
 )D$ L
 )t$ H
-+4Bz,
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -168,12 +163,11 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231115214928Z0/
+231117030355Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2ZduQ
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -193,8 +187,8 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-9Lu74
 <0:08
+=4F!iC
 =rIQU
 >0<0:
 >Mp$d
@@ -329,6 +323,7 @@ Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C0L9<
+CA/ g[
 CD$0D
 CD$0I
 CD$0f
@@ -384,6 +379,7 @@ D$pE3
 D$pHcH
 D$xH+
 D$xI+
+D0W85
 D8|$AD
 D;l$0
 DeleteCriticalSection
@@ -532,6 +528,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS)
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -558,7 +555,6 @@ RuntimeManifestFile::FindManifestFiles - using global runtime file
 RuntimeManifestFile::FindManifestFiles - using registry-specified runtime file 
 S0Q0O
 SA|X=G
-SE`&RO
 SOFTWARE\Khronos\OpenXR\
 SUAVAWH
 SUWAVAWH
@@ -710,6 +706,7 @@ _register_onexit_function
 _seh_filter_dll
 _unlock_file
 `.rdata
+`;h0K
 `A^_^
 `A_A^A\_^
 `A_A^A]A\_^]
@@ -732,7 +729,6 @@ api-ms-win-crt-string-l1-1-0.dll
 api_layer
 api_version
 application name missing NULL terminator.
-b'suW4}
 bad allocation
 bad array new length
 bad cast
@@ -833,7 +829,6 @@ openxr_loader.dll
 rejectDupKeys
 runtime
 s t#fff
-s[]"M
 setvbuf
 something wrong with XrInstanceCreateInfo contents
 stackLimit
@@ -869,6 +864,8 @@ t9H9h
 tmfff
 ungetc
 unknown type in properties
+uoNaB}
+v(IJ#
 v=Y]Bv
 vector<T> too long
 verbose

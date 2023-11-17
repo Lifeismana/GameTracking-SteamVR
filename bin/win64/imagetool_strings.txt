@@ -2260,7 +2260,6 @@ $wtpt
 (flags & ~G_DATALIST_FLAGS_MASK) == 0
 (flags & ~TYPE_FLAG_MASK) == 0
 (ftype & TYPE_ID_MASK) == 0
-(g/#_/(A\{
 (guint) level <= 3
 (internal) %d Channels are not supported on PatchLUT
 (l$ D
@@ -2607,6 +2606,7 @@ $wtpt
 ***MEMORY-ERROR***: 
 *5*h*
 *:JZjz
+*Bo!p
 *Cyan*
 *D$XA
 *D$XfI
@@ -2621,7 +2621,6 @@ $wtpt
 *T$hH
 *T|3m
 *Yellow*
-*]]U`s
 *b%.20gW
 *ii*ii
 *ii*ii*ii
@@ -3720,7 +3719,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231115214920Z0/
+231117030346Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3838,6 +3837,7 @@ $wtpt
 3ff3f33f
 3h;1 :}
 3iR">
+3m\hT
 3mq+<
 3p@lgi
 3x1:0,1,0
@@ -4314,7 +4314,6 @@ $wtpt
 <Mr#'pqQr
 <NuJH
 <Title>%s</Title>
-<Uesx
 <Width>%.20g</Width>
 <]&a0F
 <at@<gt
@@ -9378,6 +9377,7 @@ K$<Bt
 K$<Zu
 K(E[."
 K(H9p
+K*o\"
 K0D84
 K0H9q
 K0HcQ
@@ -11653,7 +11653,6 @@ Q H;Q(
 Q Z# 
 Q$A9P$y
 Q(H+Q H
-Q)N/)=
 Q>JBR>L
 QC)\C
 QCannot load font '%s
@@ -12241,7 +12240,6 @@ RightBottom
 RightOrientation
 RightShift
 RightTop
-RmCI|\g2
 Roberts
 Robidoux
 RobidouxSharp
@@ -13793,6 +13791,7 @@ VerticalTile
 VerticalTileEdge
 Vertices of Polygonal Collimator
 Vertices of Polygonal Shutter
+VexH>
 VhC4d
 Video Image Format Acquired
 Viekas kettu punaturkki laiskan koiran takaa kurkki.
@@ -17139,7 +17138,6 @@ height
 helvetica
 he|V[M=_P@_RB`RC`R@\OBcYaww
 hfont != NULL
-hge^8
 hiding UniHan chars
 hilite mode flag
 hiragana
@@ -19758,6 +19756,7 @@ u:D9c4u4H
 u;L;^ }5H
 u<D9c(u6M
 u<HcD$XIc
+u=//`
 u=A9@
 u?9D$Du
 u?rMu?
@@ -21123,6 +21122,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 }2fff
 }4A+udx.;
 }>A+]dx8;
+}K	X7
 }LuHO
 }Qfff
 }b>G:c>

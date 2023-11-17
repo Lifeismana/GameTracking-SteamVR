@@ -389,7 +389,6 @@ $tI<unknown>
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 );[_^]
 )D$0f
-)IO,w
 )\ZEo^m/
 *+N43
 *+N4C
@@ -419,6 +418,7 @@ $tI<unknown>
 , not just within "
 , requestedBytes 
 ,$hLp
+,'w+K
 ,0<	w
 ,0<	wP
 ,343<3D3L3T3\3d3l3t3|3
@@ -1177,7 +1177,7 @@ $tI<unknown>
 220323000000Z
 220801000000Z
 230714000000Z
-231115214658Z0/
+231117030136Z0/
 233Q3{3
 241009235959Z0a1
 24292
@@ -3397,7 +3397,6 @@ AvRevertMmThreadCharacteristics failed: last error is %d
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
 Available samples not sufficient for booting (%s)
-A}=I6
 B [_^]
 B(+B$
 BD9x(u
@@ -4215,7 +4214,6 @@ IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogHost_002
 IVRWatchdogProvider_001
-I^@~C0
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 IiGM>nw
 Image data is empty for image[
@@ -4519,7 +4517,6 @@ P;s<|
 P;s@|
 P;w<|
 P;~@|
-P<Ue_
 PAq=?Mp#
 PG;{@|
 PH90trj@h
@@ -5357,6 +5354,7 @@ Z	u'V3
 Z _^]
 Z(rDf
 Z* ,	
+[)X-m
 [-&LMb#{'
 [1$262H7Z7G<
 [1a5G8@:E:K:T:
@@ -5507,7 +5505,6 @@ _wstat64i32
 `textures' does not contain an JSON object.
 a7hIw
 aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
-aPwOzVd{
 abort
 acc_bias
 acc_scale
@@ -5793,7 +5790,6 @@ eEYE_R
 eEYE_RIGHT
 eMultimedia
 eNUM_EYES
-eO30&R
 eRender
 echo %127s
 el_el
@@ -5923,7 +5919,6 @@ gu3jd
 gyro_bias
 h1l1p1t1x1|1
 hGenu
-hO`SV
 hand_right_closeanim.glb
 hand_right_poses.glb
 handlers
@@ -6300,7 +6295,6 @@ output
 output buffer limit
 output_path
 output_type
-p&-_8
 pNewResource
 pNewResource->Load( absFilePath )
 pO Df
@@ -6354,6 +6348,7 @@ pt_br
 pt_pt
 public_dependency
 py_generic_services
+q	\a+G
 q ;50
 q002M2f273
 q<Vh`1
@@ -6771,7 +6766,6 @@ y/Ph\
 y1j\h`
 y3jVh`
 y4+A0
-yZ"<A
 yxxx+
 y~Kmf
 y~Lff

@@ -8180,7 +8180,7 @@
               _ = { x: 0, y: -0.15, z: 0.1 };
             if (o) {
               const e = 0.05;
-              let o = -0.5,
+              let o = -0.1,
                 i = 4,
                 l = 1,
                 d = 0.15,
@@ -11871,4 +11871,4 @@
   var n = o.O(void 0, [968, 683], () => o(7923));
   n = o.O(n);
 })();
-//# sourceMappingURL=vrmonitor.js.map?v=d87066f50fa6860a3361
+//# sourceMappingURL=vrmonitor.js.map?v=a86a42fe0854a3a31d57

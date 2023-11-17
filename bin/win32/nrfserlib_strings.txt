@@ -75,13 +75,12 @@ $Vh&*
 &060K0S0X0
 ' is not a number.
 ',=?k
+'t/FQ
 ()$^.*+?[]|\-{},:=!
-(1p&;
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-*8m?6
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -90,6 +89,7 @@ $Vh&*
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
+-,6\r
 -1e+9999
 -Infinity
 -external
@@ -710,7 +710,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231115214600Z0/
+231117030042Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -870,7 +870,6 @@ $Vh&*
 5,505@5D5H5P5h5x5|5
 5,5<5@5P5T5X5`5x5|5
 5.555F5_5
-5.t$>A%
 505<5D5d5
 516w6
 525]5
@@ -1009,6 +1008,7 @@ $Vh&*
 8(8,888<8H8L8X8\8h8l8
 8(80888@8H8P8X8`8h8p8x8
 8)818Q8
+8*+#s
 8,878=8k8
 8,9d9
 8-8S8m8
@@ -1879,7 +1879,6 @@ OT+O`
 Od+O`
 Out of thread local storage!
 P4X4\4`4d4h4l4p4t4x4|4
-P61}q
 PAq=?Mp#
 PID_%04X
 PKT_DECODE_ERROR
@@ -1897,6 +1896,7 @@ Parsing of JSON string "%s" failed: %s
 PerformDFUContext
 Performing DFU:
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Plpm)
 PortName
 PostQueuedCompletionStatus
 Power Control
@@ -2107,7 +2107,6 @@ Zipfile is corrupt or not a zipfile
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
-^3<CG
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -2173,6 +2172,7 @@ _strlwr
 _strnicmp
 _strupr_s
 `.rdata
+a1SXQ
 a7hIw
 a9~@u
 additional six characters expected to parse unicode surrogate pair.
@@ -2192,6 +2192,7 @@ asio.misc error
 asio.system
 asio.system error
 assert json failed
+bJ2G'
 bad allocation
 bad array new length
 bad cast
@@ -2288,7 +2289,6 @@ memset
 mutex
 need dictionary
 nrfserlib.dll
-o`'z7j
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
@@ -2448,7 +2448,6 @@ u;j h
 u;j h(
 uCVj@
 uDVVV
-uFvu~
 uGhpE
 uGhpQ
 uMhP#

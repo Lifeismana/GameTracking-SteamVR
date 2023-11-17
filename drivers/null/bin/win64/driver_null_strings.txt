@@ -1,10 +1,10 @@
 	!s99
-	q#nl
  %41g
  A__^
  H3E H3E
 !hn7!
 ',=?k
+(8]J|(G
 (f*^[0
 +Xt@(
 +o'q)}
@@ -84,7 +84,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231115214849Z0/
+231117030319Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -99,9 +99,7 @@
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5y}?USo	Y+
 6*f(_
-63K~N
 6I]Dc
 6OB,n_
 70503
@@ -118,6 +116,7 @@
 @.reloc
 @.rsrc
 @A^_^
+A!:``
 AuthD
 Bellevue1
 CT$0H
@@ -129,6 +128,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E4=$`$	
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -170,6 +170,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSj^
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -177,11 +178,13 @@ S0Q0O
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
+TUA'j0
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
 VCRUNTIME140.dll
+VP1=j
 VWAVH
 VWAWH
 V_~]	,
@@ -241,6 +244,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i?kh}
 jj@0HK4
 k0i0$
 l$8E3
@@ -251,19 +255,19 @@ memcpy
 memmove
 memset
 modelNumber
+nAQDo
 ntelD
-oK#\v
 renderHeight
 renderWidth
-rt_ya
-s:Z`Sz
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
 string too long
+t#	7S
 t$ AVH
 t$ UWAVH
 t$@H=
+u_U11
 v=Y]Bv
 vector<T> too long
 windowHeight

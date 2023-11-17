@@ -9252,7 +9252,7 @@
               _ = { x: 0, y: -0.15, z: 0.1 };
             if (o) {
               const e = 0.05;
-              let o = -0.5,
+              let o = -0.1,
                 a = 4,
                 l = 1,
                 d = 0.15,
@@ -12128,4 +12128,4 @@
   var n = o.O(void 0, [968, 683], () => o(4599));
   n = o.O(n);
 })();
-//# sourceMappingURL=bindingcallouts.js.map?v=4f5032d1b03246a44812
+//# sourceMappingURL=bindingcallouts.js.map?v=8f7e1e1bea4a1346809e

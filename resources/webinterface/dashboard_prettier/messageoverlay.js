@@ -8182,7 +8182,7 @@
               _ = { x: 0, y: -0.15, z: 0.1 };
             if (o) {
               const e = 0.05;
-              let o = -0.5,
+              let o = -0.1,
                 a = 4,
                 l = 1,
                 d = 0.15,
@@ -11260,4 +11260,4 @@
   var n = o.O(void 0, [968, 683], () => o(3184));
   n = o.O(n);
 })();
-//# sourceMappingURL=messageoverlay.js.map?v=ce62943d2790fb6955b6
+//# sourceMappingURL=messageoverlay.js.map?v=ae961688ccc5b48580ac

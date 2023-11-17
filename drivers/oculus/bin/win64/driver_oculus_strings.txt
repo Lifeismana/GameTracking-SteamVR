@@ -412,7 +412,6 @@ $w!Hc
 /input/x/touch
 /input/y/click
 /input/y/touch
-/m7qK
 /output/haptic
 /pose/raw
 /proximity
@@ -449,6 +448,8 @@ $w!Hc
 0A_A^_^]
 0A__^
 0D9c0t'H
+0Zw2/
+0s<`Z)
 0w0c1
 0}0i1
 1/2/4/8/16-bit only
@@ -461,7 +462,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231115214853Z0/
+231117030323Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -496,7 +497,6 @@ $w!Hc
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-8~%]2"_,.Ja!
 9C s.H
 9T$Pu9A
 9T$XJ
@@ -513,14 +513,12 @@ $w!Hc
 ; last read: '
 ;K sCH
 ;K sUH
-;P_\]l
 ;S sAH
 ;S sDH
 < t+<
 </u#H
 <0:08
 <U+%.4X>
-<Ue2G
 <parse error>
 <uninitialized>
 <unknown>
@@ -587,7 +585,6 @@ $w!Hc
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
-?i^`x
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
@@ -1061,6 +1058,7 @@ HeapFree
 Hmd not found.
 HmdDriverFactory
 Hu"Hc
+I&ZiBN
 I(+K H
 I(I+I H
 I+O0D
@@ -1433,6 +1431,7 @@ VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
+VT[Q/
 VWATAUAWH
 VWATAVAWH
 VWAUAVAWH
@@ -1772,6 +1771,7 @@ emissiveTexture
 en_us
 end of input
 english
+ern,0
 es_es
 es_mx
 expected marker
@@ -1995,7 +1995,6 @@ o@@fD
 oD$ fD
 oD$0f
 oD$0fD
-oIHV%
 oL$ f
 oT$0f
 object
@@ -2561,6 +2560,7 @@ znear
 |LL\t
 |Lu?c
 }LuHO
+}OrSr
 ~+fff
 ~3LcD$(L
 ~6HcD$ I

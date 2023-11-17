@@ -38,6 +38,7 @@
 	enum_type
 	extension
 	name_part
+	pRMF
 	type_name
 	vid=0x%x, pid=0x%x, sn=%ls
 	w2Hc
@@ -1394,12 +1395,13 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231115214750Z0/
+231117030223Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2HcB,
+2OJf7
 2YUYw,tE
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
@@ -1614,6 +1616,7 @@ $w!Hc
 <unknown>
 =5^:>
 =7p7M}
+=:	6?
 =ETLP
 =IBgC
 =SNRtt%
@@ -5674,6 +5677,7 @@ ZL$Xf
 ^HH9|$hu
 ^`I;^h
 ^oEZ_
+_ RXy/
 _0IcG
 _Cnd_broadcast
 _Cnd_destroy
@@ -5700,7 +5704,6 @@ _PI;_X
 _Query_perf_counter
 _Query_perf_frequency
 _RDATA
-_T46h
 _TEST
 _Thrd_id
 _Thrd_join
@@ -5767,7 +5770,6 @@ _wgetcwd
 _wstat64i32
 `	P!A
 ` UAVAWH
-`'0yp7
 `.rdata
 `A^_]
 `A^_^
@@ -6908,6 +6910,7 @@ r6w%H
 r?'1(?
 rEyeFile:%s width:%d height:%d components:%d
 rND9{0t
+rZ	;6
 rZw%H
 range
 read past buffer
@@ -8094,6 +8097,7 @@ zuusA
 }</uyH
 }LuHO
 }M?/n
+}QI1-
 }Ufff
 }`H+}XH
 }o;Dr_

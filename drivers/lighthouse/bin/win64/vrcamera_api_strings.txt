@@ -37,7 +37,6 @@
 !hn7!
 $+xvA
 $< t6<$t,<+t"<vt
-$<Ueq.
 %.0Lf
 %H : %M
 %H : %M : %S
@@ -379,7 +378,7 @@ $<Ueq.
 220323000000Z
 220801000000Z
 230714000000Z
-231115214615Z0/
+231117030053Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -408,6 +407,7 @@ $<Ueq.
 8D$ u+H
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8Fv^s
 8H;^XtB
 8T$0u
 8\$0u`H
@@ -438,6 +438,7 @@ $<Ueq.
 :O	t	I
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
 :\uDL
+;6L)n
 ;A$vTH
 ;B$vUH
 ;Ct~EH
@@ -1123,6 +1124,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
+RSDSf9
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1137,6 +1139,7 @@ RtlPcToFileHeader
 RtlVirtualUnwind
 S0Q0O
 SA|X=G
+SD&FCy
 SUVWATAUAVAWH
 SUVWATAVAWH
 SUVWAVH
@@ -1236,6 +1239,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Verify failed at 0x%X/0x%X Bytes
+Veylj_0
 VirtualAlloc
 VirtualFree
 VirtualProtect
@@ -1255,6 +1259,7 @@ Washington1
 White Balance:			
 WideCharToMultiByte
 WinRTInitialization
+WjI!{
 Writing failed at 0x%X/0x%X Bytes
 X E9j
 Y$D;R
@@ -1428,6 +1433,7 @@ fseek
 fsetpos
 function not supported
 fwrite
+g;JjajV;!dJzY
 generic
 graph
 h< t <$
@@ -1518,7 +1524,6 @@ not a stream
 not connected
 not enough memory
 not supported
-nspWW
 ntelD
 o0t$I
 ole32.dll
@@ -1681,7 +1686,9 @@ x AVE3
 x AVH
 x UAVAWH
 xdigit
+y>CqCs
 yH;YXtl
+zakr0
 { ATAVAWH
 { AVH
 { tjL

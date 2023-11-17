@@ -635,6 +635,7 @@ $w!Hc
 , column 
 , last executing in 
 , requestedBytes 
+,$S/.
 ,9k0t%H
 ,9{0t%H
 ,H;D$ 
@@ -2085,7 +2086,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231115215326Z0/
+231117030740Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2104,6 +2105,7 @@ $w!Hc
 416.16
 440.97
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+4ja*$
 528.49
 555555
 555555555555555555555555555555555555555555555555555555555555555555555555555555
@@ -2119,6 +2121,7 @@ $w!Hc
 79L$hua
 7Failed to create readable frame info buffer (D3D10)!
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7rra}z
 7u;H;
 8.u9I
 82u	H
@@ -2535,6 +2538,7 @@ A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A$A;B
 A+H,A
+A/4Uwk
 A0H9A(tkH
 A84(u
 A8EPH
@@ -3780,7 +3784,6 @@ Error: Provided dpad for (%s) is not valid for this interaction profile (%s)
 Error: Provided value %f for %s must be between %f and %f
 Error: XR_EXT_dpad_binding extension must be enabled to use dpad binding [%s] for action [%s]
 Error: XR_KHR_binding_modification is required for XR_EXT_dpad_binding to be enabled
-Eu%1'`
 Event: %s device %u timestamp %f  data 0x%llx 0x%llx
 EventRegister
 EventUnregister
@@ -7695,6 +7698,7 @@ ZvFailed to create fence %ls.
 \$xHk
 \10I;
 \\.\pipe\
+\]0ds
 \mfpmp.exe
 \u=H;
 \|$`D
@@ -7716,12 +7720,10 @@ ZvFailed to create fence %ls.
 ]gfff
 ]pH9X
 ]wfHc
-^/Ct'
 ^8H9?t&H
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_3%TcH
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8276,6 +8278,7 @@ drop_speed
 duration
 dxgi.dll
 e0A_A^A]A\]
+e7M/j
 eCS < CS_Count
 ePH9C tEH
 ePS < PS_Count

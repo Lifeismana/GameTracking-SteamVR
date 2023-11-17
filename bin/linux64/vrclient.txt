@@ -4320,8 +4320,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1844.369586
- r C.1847.369597
+ r C.1844.369587
+ r C.1847.369598
  r C.413.290188
  r CSWTCH.107
  r CSWTCH.16

@@ -2,7 +2,7 @@
  %41g
  (Camera)
 !hn7!
-#,z:"
+&Y3 D
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
@@ -93,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231115214708Z0/
+231117030145Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -120,6 +120,7 @@
 4'4L4n4
 4(414:4C4L4+5D5H5L5P5T5X5\5`5
 4/5C5M5X5}5
+4?w%LN
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4j/hd
 5$5/5
@@ -180,6 +181,7 @@
 <,=`=v=
 <0:08
 <V>a>|>
+<odV`
 =&=2=;=@=F=P=Z=j=z=
 =4=X=d=l=
 =P>h>l>
@@ -248,7 +250,6 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 H-^Eu
-H5=Qu`<	
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -274,6 +275,7 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Je2!}P
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -286,7 +288,6 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-MiU:Yc
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -307,6 +308,7 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
+T aD]
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -392,13 +394,11 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
-d&!A7=
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
 f;A*stSW
 getenv
-h# cz
 headset
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -463,6 +463,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+p1AKNEA
 startup
 string too long
 strncpy
@@ -476,7 +477,8 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-x|H[}
+y#Odz8
+yvT@\
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

@@ -17800,7 +17800,7 @@
               v = { x: 0, y: -0.15, z: 0.1 };
             if (o) {
               const e = 0.05;
-              let o = -0.5,
+              let o = -0.1,
                 a = 4,
                 l = 1,
                 c = 0.15,
@@ -20676,4 +20676,4 @@
   var i = o.O(void 0, [968, 683], () => o(1176));
   i = o.O(i);
 })();
-//# sourceMappingURL=controllerbindingui.js.map?v=77aa7ba33a8af2566e94
+//# sourceMappingURL=controllerbindingui.js.map?v=299c56dde60a0123f197

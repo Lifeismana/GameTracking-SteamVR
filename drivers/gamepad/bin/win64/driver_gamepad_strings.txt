@@ -3,7 +3,6 @@
  A__^
  H3E H3E
 !hn7!
-#r9Kp
 ',=?k
 (D$ f
 (f*^[0
@@ -11,7 +10,6 @@
 +Xt@(
 +o'q)}
 ,W5y+
-,lG;i#
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -94,19 +92,17 @@
 0w0c1
 0}0i1
 130801120000Z
-1ks-WMD\
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231115214737Z0/
+231117030211Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-3!4r@
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -124,11 +120,11 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
+;120V9{
 <0:08
 =rIQU
 >0<0:
 >Mp$d
-?@tJ&
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -157,7 +153,6 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Gamepad
-Gb[B~"
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
@@ -213,6 +208,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDST
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -264,10 +260,12 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
+Xw.s<
 Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
+^~:BM
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -307,7 +305,6 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 a7hIw
-aH.fu
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -343,7 +340,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-xk +]0
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

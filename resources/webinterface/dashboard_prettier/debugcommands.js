@@ -8782,7 +8782,7 @@
               _ = { x: 0, y: -0.15, z: 0.1 };
             if (o) {
               const e = 0.05;
-              let o = -0.5,
+              let o = -0.1,
                 a = 4,
                 l = 1,
                 d = 0.15,
@@ -11658,4 +11658,4 @@
   var n = o.O(void 0, [968, 683], () => o(5953));
   n = o.O(n);
 })();
-//# sourceMappingURL=debugcommands.js.map?v=c28c9f1b3eb255ba7187
+//# sourceMappingURL=debugcommands.js.map?v=9b2aaa5c9eeaf07eb093
