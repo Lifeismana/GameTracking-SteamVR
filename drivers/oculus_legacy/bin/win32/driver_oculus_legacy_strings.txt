@@ -40,6 +40,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.^{.YQ)	|]
 .data
 .data$r
 .edata
@@ -92,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117051636Z0/
+231117184338Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -163,7 +164,6 @@
 9X;h;
 :$:-:6:?:D:I:P:`:
 :':2:H:u:
-:+0SI
 :-:6:?:H:M:R:Y:
 :F;e;
 :b:u:
@@ -187,7 +187,6 @@
 =j)h8
 =j=r=
 =rIQU
-=|d!^_
 >">)>1>6><>D>L>Q>W>_>g>l>r>z>
 >0<0:
 >0><>B>H>N>T>Z>`>f>l>r>x>~>
@@ -293,10 +292,10 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QQl+h
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS<r
-RZn# @:
+RSDSA
 RaiseException
 S0Q0O
 SA|X=G
@@ -308,7 +307,7 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-TQR1?[
+T*x#%,,F
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -346,7 +345,6 @@ Y__^[
 [OculusDirect] ovr_SubmitFrame - End
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
-]gRr5*
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -410,7 +408,7 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
-kj0-7.
+kCX)T=
 l2|X/gGe
 m0k0$
 malloc
@@ -472,7 +470,6 @@ strncpy_s
 strstr
 tdh.dll
 terminate
-u35	-Yd>
 u7j8Q
 uCVj@
 v=Y]Bv
@@ -489,7 +486,6 @@ www.digicert.com1$0"
 {oculus_legacy}/icons/%s_%s_searching.gif
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
-|=9$p
 |Lu?c
 }LuHO
 ~qj#k"

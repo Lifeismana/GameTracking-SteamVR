@@ -48,7 +48,6 @@
  A__^
  H3E H3E
  formatting error code 
- ggMH
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
@@ -531,7 +530,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231117051555Z0/
+231117184317Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -549,6 +548,7 @@ $9E0u
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
+6Noug
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
@@ -588,7 +588,6 @@ $9E0u
 ??_7facet@locale@std@@6B@
 ?CVkDevice::CreateDevice
 ?I9T$
-?M$F0
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
 ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
@@ -739,7 +738,8 @@ Attempting to reinitailize estimator!
 AuthD
 Automatically quitting due to idle time > %f seconds.
 B H9B
-B)\)?
+B+4$/
+Bbv@k
 Bellevue1
 Blank
 C(H+C H
@@ -1001,6 +1001,7 @@ DumpHistory
 DumpHistory-Staging
 Dumping display history...
 DuplicateHandle
+E)dJ(
 E8~(t\
 E\f9A
 EkH9M
@@ -1015,6 +1016,7 @@ EventWriteString
 EwH9S
 ExH9Q
 Executable: %s
+E~h,r
 F(H9A u)I
 F0H9A(u
 FACET_VULKAN_VALIDATION
@@ -1346,6 +1348,7 @@ OpenSCManagerW
 OpenServiceW
 Out of thread local storage!
 Outer
+P2,io
 PA^_^
 PA_A]^][
 PA_A^A]A\_
@@ -1424,7 +1427,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS|
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1631,7 +1633,6 @@ Y9"SD
 YUV conversion - %s
 Yl$ M
 Yl$4E
-Zt2}Z
 [ AVH
 [K]taM?
 \$ AVH
@@ -1671,7 +1672,6 @@ Zt2}Z
 \$xMi
 \\.\pipe\
 \mfpmp.exe
-\s:	\
 ]J<0"0i3
 ]g@8yhu
 _Cnd_broadcast
@@ -1857,6 +1857,7 @@ fn != nullptr
 frameInfo.pImage != nullptr
 frameInfo.sampler != VK_NULL_HANDLE
 from.pPool != nullptr
+gOh3]
 gfffffffA
 gfffffffH
 gfffffffH+
@@ -1879,7 +1880,6 @@ invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
-jE&g;
 jj@0HK4
 k0i0$
 l$ E3

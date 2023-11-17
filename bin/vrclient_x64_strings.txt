@@ -380,6 +380,7 @@ $w!Hc
 &D9c0t
 &D9k0t
 &D9{0t
+&`^5?f
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -629,6 +630,7 @@ $w!Hc
 +C,+C
 +L$@A
 +Xt@(
++hdxN-
 +o'q)}
 , binary size = 
 , but got 
@@ -2085,7 +2087,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231117052216Z0/
+231117184950Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2118,6 +2120,7 @@ $w!Hc
 70503
 79L$hua
 7Failed to create readable frame info buffer (D3D10)!
+7SN#S
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
 8.u9I
@@ -2247,6 +2250,7 @@ $w!Hc
 >0<0:
 >Mp$d
 >W`.]tB3?
+>kbkP
 >w\Hc
 ? u	Hc
 ?"t,H
@@ -5143,6 +5147,7 @@ ML$hH
 MSVCP140.dll
 MS_:F
 MT$dA
+MUYE/^A
 MainThrd
 MapViewOfFile
 MessageBoxA
@@ -5160,6 +5165,7 @@ Missing '}' or object member name
 Missing Skeleton for action '
 Missing expected "statusicons" from system resource manifest %s.
 Missing support for vkGetPhysicalDeviceImageFormatProperties2
+MjV{}
 MoveFileExW
 N I9N(
 N I9V0t
@@ -5198,7 +5204,6 @@ Not writing scalar value because it didn't change
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!
 O(H9Q
 O0H9Q
-O;/nBCJp
 OPAQUE
 OPENGL32.dll
 Object
@@ -5501,6 +5506,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDSKBb
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6774,6 +6780,7 @@ VWAUH
 VWAVH
 VWAWH
 V_~]	,
+V`y5}
 Valve Corp.0
 Valve Corp.1
 VerQueryValueA
@@ -8182,6 +8189,7 @@ d$hI;
 d$hM;
 d$hfff
 d3d11.dll
+d\sLR
 da_da
 danish
 dashboard
@@ -8950,6 +8958,7 @@ overlay_handle
 overlay_key
 override_device_class
 overwrite.vrsettings
+o|J8Y
 p UWAVH
 p WATAVH
 pA]A\^
@@ -10678,7 +10687,6 @@ znear
 { "type": "keyboard_shown" }
 { AVH
 {%s}%s
-{P_	K
 {un'%
 {x\u!H
 {|?uWH

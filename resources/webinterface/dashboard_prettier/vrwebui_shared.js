@@ -2263,6 +2263,12 @@
                   label: (0, m.Xx)("#Settings_EnableDashboard"),
                   visibility: _.VK.Advanced,
                 }),
+                c.createElement(_.wy, {
+                  name: "/settings/dashboard/autoShowGameTheater",
+                  title: (0, m.Xx)("#Settings_AutoShowGameTheaterDesc"),
+                  label: (0, m.Xx)("#Settings_AutoShowGameTheater"),
+                  visibility: _.VK.Advanced,
+                }),
               )
             : null;
         }
@@ -19097,4 +19103,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=01fac7133bbe20569b40
+//# sourceMappingURL=vrwebui_shared.js.map?v=554e73c57a209c992995

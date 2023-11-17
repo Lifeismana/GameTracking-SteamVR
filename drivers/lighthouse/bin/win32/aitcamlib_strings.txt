@@ -172,7 +172,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231117051523Z0/
+231117184217Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -306,7 +306,6 @@ $9^ t
 ;$<`<
 ;$>(>,>0>4>8><>@>D>H>L>P>T>
 ;(<s<
-;*}p:
 ;-<x<
 ;.;>;H;R;b;m;
 ;1<d<
@@ -390,6 +389,7 @@ Closed
 CreateEventA
 CreateEventW
 CreateThread
+Dd'b<
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -494,7 +494,6 @@ PauseCamera (delayed...)
 PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-PnQ~<
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -590,6 +589,7 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+We|8<}%
 WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
@@ -643,7 +643,6 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
-`PJ>zY
 a7hIw
 aitcamlib
 aitcamlib.dll

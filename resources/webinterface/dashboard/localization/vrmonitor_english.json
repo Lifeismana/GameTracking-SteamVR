@@ -139,6 +139,8 @@
 	"Settings_FadeToGrid": "Fade To Grid on app hang",
 	"Settings_EnableDashboard": "VR Dashboard on System Button",
 	"Settings_EnableDashboardDesc": "Allow the VR Dashboard to be summoned in response to a system button press.",
+	"Settings_AutoShowGameTheater": "Present Non-VR Applications on Theater Screen Upon Launch",
+	"Settings_AutoShowGameTheaterDesc": "When launching a non-vr application from Steam, automatically display that application on the theater screen.",
 	"Settings_HomeAppCheck": "SteamVR Home",
 	"Settings_HomeAppDesc": "Enjoy virtual environments, social features, and more.",
 	"Settings_LargeSpace": "Large Space",

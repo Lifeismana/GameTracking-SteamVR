@@ -3,7 +3,6 @@
  A__^
  H3E H3E
 !hn7!
-$URdE#J9t
 ',=?k
 (D$ f
 (f*^[0
@@ -98,7 +97,7 @@ $URdE#J9t
 220323000000Z
 220801000000Z
 230714000000Z
-231117051647Z0/
+231117184411Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -110,6 +109,7 @@ $URdE#J9t
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+3u>hi
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -121,13 +121,10 @@ $URdE#J9t
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
-:JzyMG
 <0:08
-=i5(I
 =rIQU
 >0<0:
 >Mp$d
-?	orl
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -145,6 +142,7 @@ Bellevue1
 CloseHandle
 CreateEventW
 D$8H9
+D*]oj
 D8{0t
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
@@ -216,7 +214,6 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
-S::ig;UD
 SA|X=G
 SDL2.dll
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD
@@ -263,10 +260,8 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
-Wf)|/J
 Y9"SD
 [K]taM?
-[f}@m3zm
 \$ UH
 ]J<0"0i3
 _Cnd_destroy
@@ -308,7 +303,6 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 a7hIw
-ab"GZ^
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -344,7 +338,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-y>=Ax[
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

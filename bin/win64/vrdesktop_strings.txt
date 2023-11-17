@@ -16,8 +16,10 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
+#P+Ax
 %%.%dg
 %s%s%s%s%s
+&'#VY
 ' is not a number.
 ',=?k
 (A\_^[
@@ -39,7 +41,6 @@
 +o'q)}
 , last executing in 
 ,W5y+
-,uu5=k#
 -1e+9999
 -Infinity
 -u-I;
@@ -161,15 +162,13 @@
 0}0i1
 130801120000Z
 1e+9999
-1h,D_
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231117052303Z0/
+231117185038Z0/
 241009235959Z0a1
-27 a~
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -179,8 +178,8 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3?dW]
 3mq+<
+4>CKM
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -392,7 +391,6 @@ DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
 E;u`|
-E<`=t"
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
 Encountered error 
@@ -594,6 +592,7 @@ PA^_^
 PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
+PIp48
 Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -696,6 +695,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
+[$Gi,
 [K]taM?
 \$ E3
 \$ UAVAWH

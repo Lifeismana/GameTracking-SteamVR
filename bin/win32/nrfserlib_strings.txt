@@ -55,6 +55,7 @@
  version-number:
 !0E0R0[0
 !hn7!
+!y1Gy5bm0
 "0)0C0
 "j h4_
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
@@ -73,7 +74,6 @@ $Vh&*
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
 &060K0S0X0
-&WxCT
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
@@ -709,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231117051531Z0/
+231117184222Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1748,6 +1748,7 @@ HTC BS
 HeapAlloc
 HeapFree
 IO_RESOURCES_UNAVAILABLE
+Ib15 
 Identify
 IdentifyContext
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
@@ -1907,7 +1908,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS&
+RSDSA
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2033,7 +2034,6 @@ Trying to send packets to device when serial device is closed is not supported.
 Trying to send unknown control packet to device. 
 UNKNOWN[0x
 USER32.dll
-UiKpB
 UnhandledExceptionFilter
 Unknown
 Unknown AUTH Status (0x%X)
@@ -2050,6 +2050,7 @@ Unknown exception
 UnlouA
 VCRUNTIME140.dll
 VENDOR_SPECIFIC
+VF/~l
 VID_%04X
 VID_1366
 VQPhTS
@@ -2068,6 +2069,7 @@ VjqSPW
 VjrSPW
 VjySPW
 Vj{SPW
+W5AODk
 W9shvN3
 WAKEUP
 WOKEN
@@ -2104,7 +2106,7 @@ Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
 \0`0d0|0
-\8Fgi
+\D%ug
 \Device Parameters
 ]J<0"0i3
 ^[0-9]+$
@@ -2198,6 +2200,7 @@ bad conversion
 bin_file
 blank
 bootloader
+bu'T`=x,
 buffer error
 c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.pdb
 calloc
@@ -2291,6 +2294,7 @@ ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
+oxmc(
 print
 punct
 realloc

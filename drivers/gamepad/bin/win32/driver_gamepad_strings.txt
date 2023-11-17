@@ -3,7 +3,6 @@
 !hn7!
 ',=?k
 (f*^[0
-+$urZ1
 +Xt@(
 +o'q)}
 ,W5y+
@@ -104,7 +103,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117051613Z0/
+231117184315Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -153,7 +152,6 @@
 8(9,909H9L9
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8p&n\%;
 9!9&9-929>9`9w9
 9*;V;c;
 9p9}9
@@ -170,7 +168,6 @@
 <S=g=
 = =0=4=D=H=L=T=l=|=
 = =F=O=Z=
-=%}H%=
 =N>_>
 =O>h>{>
 =V=8>j>
@@ -189,11 +186,10 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
-BKwvY
+BZv24{
 Bellevue1
 CloseHandle
 CreateEventW
-Dd?}(
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -248,7 +244,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-R%\tS0
+RSDS:
 RaiseException
 S0Q0O
 SA|X=G
@@ -376,6 +372,7 @@ www.digicert.com1$0"
 {gamepad}/input/gamepad_profile.json
 {un'%
 |Lu?c
+}DRz%
 }LuHO
 ~qj#k"
 ~t&LN

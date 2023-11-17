@@ -268,6 +268,7 @@
 #0<0C0\0c0|0
 #?RADIANCE
 #?RGBE
+#T%v(l
 #bML"
 $0  extend .$1 {
 $0  extensions $1 to $2;
@@ -1189,7 +1190,7 @@ $tI<unknown>
 220323000000Z
 220801000000Z
 230714000000Z
-231117051627Z0/
+231117184327Z0/
 233Q3{3
 241009235959Z0a1
 242P2
@@ -2809,7 +2810,6 @@ $tI<unknown>
 <H<b<t<x<|<
 <H=T=
 <H=Z=q>
-<JtF:
 <K<X<
 <K<n<
 <K<x<
@@ -2985,6 +2985,7 @@ $tI<unknown>
 =f>&?
 =f>u>
 =h=t=
+=hbbn
 =i>F?T?
 =n>J?
 =n?x?
@@ -3681,7 +3682,6 @@ DongleV2
 Dropped %s during the previous tracking session
 Duplicate basestation serials detected.
 Duplicate key: '
-E!|j.
 E(VSP
 E,Ph	w
 E0o0v0
@@ -6349,7 +6349,6 @@ q@;p s
 q@;p(s
 qMFCreateMediaType failed hr = 0x%08x
 qinvalid stoul argument
-qp37t
 r	_]3
 r2max
 r?'1(?
@@ -6406,6 +6405,7 @@ s(hPs
 s.hL&
 s4;s8
 s>hL&
+sElWr
 sX;s\t]
 s]hL&
 sample_angle_estimate
@@ -6724,6 +6724,7 @@ vr_tracker_vive_1_0
 vref_ok
 vrwebhelper
 w QVR
+w+7X"	@
 w+OQvr
 w,_^[
 w0SPV
@@ -6763,7 +6764,6 @@ y/Ph\
 y1j\h
 y3jVh
 y4+A0
-y:-jf
 yxxx+
 y~Kmf
 y~Lff

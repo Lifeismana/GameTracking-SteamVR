@@ -92,12 +92,12 @@ $9^ t
 ' value is not an integer type.
 ',=?k
 '.5<=6/7>????????????????
+'Jq4>
 '[', '{', or a literal
 'uri' is missing from non binary glTF file buffer.
 (182Y2
 (Unable to load LibOVR)
 (f*^[0
-)fR88
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *030<0E0J0O0V0
@@ -116,6 +116,7 @@ $9^ t
 -Infinity
 -startup
 .00cfg
+.:N1*x
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -461,7 +462,7 @@ $9^ t
 220801000000Z
 223S3
 230714000000Z
-231117051633Z0/
+231117184334Z0/
 241009235959Z0a1
 253a3
 2<2A2I2O2T2Z2l2v2|2
@@ -1247,7 +1248,6 @@ F(Q9F,t
 F(j4f
 F<\uD
 FH;FDu
-FI<JXx
 FLQ9FPt
 FORMAT=32-bit_rle_rgbe
 FS callback[s] not set
@@ -1527,7 +1527,6 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
-Ty/#T
 UNNAMED
 Unable to create texture set for pid %u: %s
 Unable to destroy %d swap textures due to invalid session
@@ -1568,7 +1567,6 @@ Washington1
 WinVerifyTrust
 Wjlh(Z
 XXXX PNG chunk not known
-Xwzj>
 Y9"SD
 Y__^[
 [K]taM?
@@ -1586,13 +1584,13 @@ Y__^[
 [OculusDirect] ovr_EndFrame:%lli
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [json.exception.
+\_A-3
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
 ] name = "
 ] name = [
-])2y[
 ]J<0"0i3
 ][OculusDirect] AquireSync
 ^$Q9C
@@ -2163,6 +2161,7 @@ ovr_TestBoundaryPoint
 ovr_TraceMessage
 ovr_WaitToBeginFrame
 ovr_WaitToBeginFrame(%d) failed: %s
+p%~8d
 p0t0x0|0
 pNewResource
 pNewResource->Load( absFilePath )
@@ -2180,7 +2179,6 @@ primitive indices accessor out of bounds
 primitives
 pt_br
 pt_pt
-puA8<N
 quest
 range
 read past buffer
@@ -2198,7 +2196,6 @@ roughnessFactor
 roundf
 ru_ru
 russian
-ry]sX
 s(+CD
 sampler
 samplers
@@ -2395,7 +2392,6 @@ t?hxp
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-t[\;}d
 t_h,y
 target
 targets
@@ -2455,6 +2451,7 @@ uwj	hTn
 uwj	h`n
 v	N+D$
 v=Y]Bv
+vJMY1
 value
 values
 vector<T> too long
@@ -2483,7 +2480,6 @@ wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
 y"hp9
-yxZw6];r
 yxxx+
 zh_cn
 zh_tw

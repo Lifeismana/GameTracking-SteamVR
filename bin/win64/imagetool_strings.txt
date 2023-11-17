@@ -1734,6 +1734,7 @@ $wtpt
 % it is displayed as grayscale.
 %!PS-Adobe-3.0
 %!PS-Adobe-3.0 EPSF-3.0
+%$F;.
 %% Display a color image.  The image is displayed in color on
 %% Postscript viewers or printers that support color, otherwise
 %% it is displayed as grayscale.
@@ -3718,7 +3719,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231117051825Z0/
+231117184552Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3908,6 +3909,7 @@ $wtpt
 6:d{h
 6A:T6
 6E87t
+6ErK+
 6I]Dc
 6MQ8u
 6OB,n_
@@ -4128,7 +4130,6 @@ $wtpt
 :D`4D
 :LOG*}
 :NF& 
-:QV1'
 :RS	x 
 :\FSY$
 :acspMSFT
@@ -5736,6 +5737,7 @@ C 9A u
 C 9D$$u
 C 9G u,
 C ;C s
+C B0L
 C H9C
 C H9P8
 C H9s
@@ -9366,6 +9368,7 @@ Jove xef, porti whisky amb quinze gla
 Jovencillo emponzo
 Js M@
 Junk after value string
+J{28h
 K H9K0u
 K H9MPu
 K SUVAUAVAWH
@@ -9859,6 +9862,7 @@ LATIN1
 LAUNCH
 LBLSIZE
 LBLSIZE=%.20g FORMAT='BYTE' TYPE='IMAGE' BUFSIZE=20000 DIM=2 EOL=0 RECSIZE=%.20g ORG='BSQ' NL=%.20g NS=%.20g NB=1 N1=0 N2=0 N3=0 N4=0 NBB=0 NLB=0 TASK='ImageMagick'
+LC2)V:R`
 LCHab
 LCHuv
 LC_ALL
@@ -10818,6 +10822,7 @@ Original Transmission Reference
 Originating Program
 Originator
 Oriya
+OrvzRU
 Oslash
 Osmanya
 Other Patient's ID's
@@ -10883,6 +10888,7 @@ Overrange Correction Used
 OverviewImage
 Owner Name
 OwrS=
+OyWNN
 P uMH
 P&15PM
 P'PqP
@@ -11752,6 +11758,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS53
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14753,7 +14760,6 @@ a yo' chumocho krestat, ti ha na'lalamen yo'.
 a(L9a L
 a4small
 a7hIw
-aJe1\
 aWvd$A;-
 a]{?P
 a`wwn

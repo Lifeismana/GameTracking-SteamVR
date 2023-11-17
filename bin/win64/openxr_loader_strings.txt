@@ -163,7 +163,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117051833Z0/
+231117184601Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -187,6 +187,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+99M0P\b
 <0:08
 =rIQU
 >0<0:
@@ -446,7 +447,6 @@ HA_A]_[
 I#V0I
 I9Bhs
 I9W(t
-ITt&l
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Implicit layer 
 Infinity
@@ -513,6 +513,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
+NcFo[
 No active XrInstance handle.
 OpenProcessToken
 OpenXR-Loader
@@ -791,7 +792,6 @@ invalid messenger pointer
 invalid properties
 invalid string position
 isValidJson indicates 
-jKQ)D:hi+
 jj@0HK4
 k0i0$
 keylength >= 2^30

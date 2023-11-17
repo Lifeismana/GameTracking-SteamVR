@@ -44,8 +44,6 @@ $< t6<$t,<+t"<vt
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-&<y&~
-&a#d70
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
@@ -380,7 +378,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231117051523Z0/
+231117184246Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -420,7 +418,6 @@ $< t6<$t,<+t"<vt
 9D$(}k
 9D$`t_
 9FHtGH
-9Ku!>
 9W$v8D
 9WP~GM
 9WP~HM
@@ -450,12 +447,14 @@ $< t6<$t,<+t"<vt
 <:u/H
 <:u3H
 <:wuH
+<E 5p&
 <HthH
 <xu<D
 <}wYI
 =rIQU
 >0<0:
 >Mp$d
+?3DK(z?
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
 ??0CVRCameraWindowsDS@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
@@ -1064,7 +1063,6 @@ L$PH3
 L$XH3
 L$pD9c
 L$pH3
-L*{c_
 L+t$0
 L9%!^
 L9%M[
@@ -1110,7 +1108,6 @@ No depth or color data. Cannot determine frame number.
 No depth stream to configure.
 O,D9O(vcH
 OLEAUT32.dll
-P.wmH
 P8fD;
 P@fD;
 PA^A\]
@@ -1127,7 +1124,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSK
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1250,7 +1246,6 @@ WATAUAVAWH
 WATAVH
 WATAWH
 WAVAWH
-W\D)8
 W`;Ct~|H
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -1406,7 +1401,6 @@ e0A^A]A\_^[]
 e@A_A^]
 eventObject
 executable format error
-e|^!Bg
 f	n@H
 f#D$@H
 f9,Yu
@@ -1437,10 +1431,8 @@ function not supported
 fwrite
 generic
 graph
-gsYcg
 h< t <$
 hA_A^A]A\_^][
-hE[y7
 host unreachable
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -1544,12 +1536,10 @@ pA_A^A]A\_^]
 pContext
 pEvents
 pExecutionResource
-pS!:p
 pScheduler
 pThreadProxy
 permission denied
 ppVirtualProcessorRoots
-ppk=9
 print
 protocol error
 protocol not supported

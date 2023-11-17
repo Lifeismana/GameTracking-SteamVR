@@ -36,6 +36,7 @@
 .idata$4
 .idata$5
 .idata$6
+.mCB|
 .rdata
 .rdata$r
 .rdata$zzzdbg
@@ -85,10 +86,9 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117051629Z0/
+231117184329Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
-291,"
 2D2L2e2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -118,7 +118,6 @@
 656a6q6
 6I]Dc
 6OB,n_
-6d~ &
 7 7<7@7
 70503
 7T8X8`8x8
@@ -161,6 +160,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+GM~]s4
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -189,6 +189,7 @@ J>@G_
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
+LS9dB
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
 MSVCP140.dll
@@ -198,7 +199,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS8
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -215,6 +215,7 @@ Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
+]wi\8Yu
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -278,6 +279,7 @@ memset
 modelNumber
 renderHeight
 renderWidth
+s4;0B_
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
@@ -289,9 +291,10 @@ windowHeight
 windowWidth
 windowX
 windowY
-wuw/>
 www.digicert.com1!0
 www.digicert.com1$0"
+zf\T{
+{]#8`
 {un'%
 |Lu?c
 }LuHO
