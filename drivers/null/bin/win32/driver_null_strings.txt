@@ -2,10 +2,12 @@
  %41g
 !hn7!
 ',=?k
+( U6C
 (f*^[0
 +Xt@(
 +o'q)}
 ,W5y+
+,}plp
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -36,7 +38,6 @@
 .idata$4
 .idata$5
 .idata$6
-.mCB|
 .rdata
 .rdata$r
 .rdata$zzzdbg
@@ -86,7 +87,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117184329Z0/
+231118182227Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -147,6 +148,7 @@
 >Mp$d
 ? ?d?m?v?
 ?4?8?T?X?`?h?p?t?|?
+?86$9
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
@@ -160,7 +162,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-GM~]s4
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -186,10 +187,10 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JJRx:
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
-LS9dB
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
 MSVCP140.dll
@@ -199,6 +200,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSB
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -215,7 +217,6 @@ Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
-]wi\8Yu
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -271,6 +272,7 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l2|X/gGe
+lPk)z
 m0k0$
 malloc
 memcpy
@@ -279,7 +281,6 @@ memset
 modelNumber
 renderHeight
 renderWidth
-s4;0B_
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
@@ -293,8 +294,7 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-zf\T{
-{]#8`
+x6W,7
 {un'%
 |Lu?c
 }LuHO

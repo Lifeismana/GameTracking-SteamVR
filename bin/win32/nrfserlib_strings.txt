@@ -55,7 +55,6 @@
  version-number:
 !0E0R0[0
 !hn7!
-!y1Gy5bm0
 "0)0C0
 "j h4_
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
@@ -563,6 +562,7 @@ $Vh&*
 .tls$
 .tls$ZZZ
 .xdata$x
+//d)%
 /t;_^2
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$04080<0D0\0l0p0
@@ -709,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231117184222Z0/
+231118182127Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -793,6 +793,7 @@ $Vh&*
 3H4i4
 3V4=5
 3d4m4
+3i.-*
 3mq+<
 4 4$4(4,4
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
@@ -1674,6 +1675,7 @@ F<\uD
 FH;FDu
 FH<au
 FH<bu
+F\SbME
 Failed to GAP Auth Key Reply. (nrf_error: %s)
 Failed to GAP Authenticate. (nrf_error: %s)
 Failed to GAP Security Params Reply. (nrf_error: %s)
@@ -1748,7 +1750,6 @@ HTC BS
 HeapAlloc
 HeapFree
 IO_RESOURCES_UNAVAILABLE
-Ib15 
 Identify
 IdentifyContext
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
@@ -1877,6 +1878,7 @@ OLEAUT32.dll
 OT+O`
 Od+O`
 Out of thread local storage!
+P-,I|
 P4X4\4`4d4h4l4p4t4x4|4
 PAq=?Mp#
 PID_%04X
@@ -1900,6 +1902,7 @@ PostQueuedCompletionStatus
 Power Control
 Progress: %d%% (%d/%d)
 Pz}b!
+P~Aal%
 Q0;Q(t#
 QPh@	
 Qkkbal
@@ -1908,7 +1911,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSA
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2050,7 +2052,6 @@ Unknown exception
 UnlouA
 VCRUNTIME140.dll
 VENDOR_SPECIFIC
-VF/~l
 VID_%04X
 VID_1366
 VQPhTS
@@ -2069,7 +2070,6 @@ VjqSPW
 VjrSPW
 VjySPW
 Vj{SPW
-W5AODk
 W9shvN3
 WAKEUP
 WOKEN
@@ -2106,9 +2106,9 @@ Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
 \0`0d0|0
-\D%ug
 \Device Parameters
 ]J<0"0i3
+]Zo6X
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -2174,6 +2174,7 @@ _strlwr
 _strnicmp
 _strupr_s
 `.rdata
+`Tj0T
 a7hIw
 a9~@u
 additional six characters expected to parse unicode surrogate pair.
@@ -2200,7 +2201,6 @@ bad conversion
 bin_file
 blank
 bootloader
-bu'T`=x,
 buffer error
 c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.pdb
 calloc
@@ -2210,6 +2210,7 @@ dat_file
 data error
 deque<T> too long
 digit
+e9^Rp
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2294,7 +2295,6 @@ ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
-oxmc(
 print
 punct
 realloc
@@ -2486,6 +2486,7 @@ xdigit
 y4_^[
 {L?uI
 {un'%
+|2/^!K
 |Lu?c
 |cj#h
 }	jCh

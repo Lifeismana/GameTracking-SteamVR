@@ -16,6 +16,7 @@
  A_A^_^]
  A__^
  H3E H3E
+ n_O!
 !(0)"
 !hn7!
 "9k0t
@@ -29,6 +30,7 @@
 %9k0t
 %9{0t
 &9k0t
+&;fzb
 &D9c0t
 &D9k0t
 &D9{0t
@@ -172,16 +174,17 @@
 0}0i1
 1/2/4/8/16-bit only
 130801120000Z
-2-W<!
+15.'m
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231117184250Z0/
+231118182804Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2LX!0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -189,11 +192,11 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3U!J/
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6 JGHq
 6*f(_
 6I]Dc
 6OB,n_
@@ -299,6 +302,7 @@ Bellevue1
 C<unknown>
 CAMCMD_GET_OPENCAMERA_RESULT
 CT$ H
+CXUm)
 CallCreateObject
 CameraWork
 CloseHandle
@@ -475,6 +479,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSW
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -644,7 +649,6 @@ _wgetcwd
 `.rdata
 `A_A^A]A\_^]
 `A__^
-a iY(BfD
 a7hIw
 aitcamlib
 aitcamlib.dll

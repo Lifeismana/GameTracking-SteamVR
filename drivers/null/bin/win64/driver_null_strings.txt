@@ -3,8 +3,6 @@
  A__^
  H3E H3E
 !hn7!
-%;h#U
-%LO[	
 ',=?k
 (f*^[0
 +Xt@(
@@ -85,7 +83,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117184521Z0/
+231118183027Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -96,7 +94,6 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3_UB}
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -129,7 +126,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-FaNxT
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -171,6 +167,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSu
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -189,9 +186,9 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
-We	bX
+We]Kl
 Y9"SD
-[9u-W
+Yen:un
 [K]taM?
 \$ UH
 ]J<0"0i3
@@ -220,7 +217,9 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 _stricmp
+`(wK5
 `.rdata
+`S>U91
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -257,6 +256,7 @@ modelNumber
 ntelD
 renderHeight
 renderWidth
+sTLso
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
@@ -272,9 +272,10 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
+zqKAB
 {un'%
-|#D"<
 |$ AVH
+|.>(O
 |Lu?c
 }LuHO
 ~qj#k"

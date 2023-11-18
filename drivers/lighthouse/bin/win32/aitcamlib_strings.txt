@@ -26,6 +26,7 @@ $9^ t
 +o'q)}
 , last executing in 
 ,W5y+
+,i>2^
 -0J0]0k0
 .00cfg
 .?AU_Crt_new_delete@std@@
@@ -172,7 +173,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231117184217Z0/
+231118182124Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -258,6 +259,7 @@ $9^ t
 727B7L7V7_7r7~7
 72969
 7O7W7
+7`xYA9
 7c8j869:9G9K9@<D<
 7d85<Z>d>h>
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
@@ -389,7 +391,6 @@ Closed
 CreateEventA
 CreateEventW
 CreateThread
-Dd'b<
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -428,6 +429,7 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 H-^Eu
+I+]jL{u.
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -478,6 +480,7 @@ LocalizationManager
 MB(iVR
 MSVCP140.dll
 MainThrd
+Md!FC=
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
@@ -589,7 +592,6 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-We|8<}%
 WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD

@@ -596,7 +596,6 @@ $w!Hc
 %u != %zu
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
-%|<|Gv
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &9k0t
 &D9c0t
@@ -1395,7 +1394,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231117184424Z0/
+231118182929Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2242,7 +2241,6 @@ Bootstrap failed because no IMU data was available%s
 Bootstrap pose is out of range at %0.1fm
 BootstrapFinished setting tilt base to %08X
 Boy/Girl
-Bu<#)
 Buffer
 BufferView
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
@@ -3190,7 +3188,6 @@ Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 Extra non-whitespace after JSON value.
 Eye Displays must be adjacent: left (%d, %d), right (%d, %d)
-E|6VvB
 E|A;Epr
 F 9C@|
 F 9G |
@@ -3628,7 +3625,6 @@ HA^A]_[
 HA^_^[
 HA_A^A]_][
 HA_A^][
-HC&Rkh
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
 HL9-So(
 HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
@@ -3967,6 +3963,7 @@ JSON Update
 JSON string too short.
 K(9J(}
 K(u1H
+K=1.zW
 K@H+K8H
 K@H+Y0I
 KERNEL32.dll
@@ -5678,6 +5675,7 @@ ZL$Xf
 ^HH9|$hu
 ^`I;^h
 ^oEZ_
+_	xv 
 _0IcG
 _Cnd_broadcast
 _Cnd_destroy
@@ -5771,7 +5769,6 @@ _wstat64i32
 `	P!A
 ` UAVAWH
 `.rdata
-`1H"N
 `A^_]
 `A^_^
 `A_A]A\_^][
@@ -5789,6 +5786,7 @@ _wstat64i32
 `buffers' does not contain an JSON object.
 `cameras' does not contain an JSON object.
 `input` field is missing in animation.sampler
+`k6h%g
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
 `node` field is missing in animation.channels.target
@@ -5952,6 +5950,7 @@ byteStride
 bytes
 c H9K
 c0D9cTt$D
+c4a7j
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
@@ -6149,6 +6148,7 @@ ePIcD$
 eRender
 e_H9U
 echo %127s
+edqMH
 effffff
 el_el
 emissiveFactor

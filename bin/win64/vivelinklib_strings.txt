@@ -35,7 +35,6 @@
 %%.%dg
 %2.2X
 %8.8X
-%lwxV#
 %s setup error from %s
 %s: %s
 %s: ( %d ): ReadFile failed! (%s)
@@ -98,6 +97,7 @@
 (RSSI:)(-?[0-9]{0,3})
 (UUID128:)([0-9A-F]{32})
 (UUID16:)([0-9A-F]{4})
+(Ur;R&f
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
@@ -229,7 +229,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117184301Z0/
+231118182812Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -258,10 +258,10 @@
 8EC90003F3154F609FB8838830DAEA50
 8L$4tNH
 8_^][
-9DF]vz
 9\u-H
 9\u4H
 9sdu	@8s
+:'xG&
 ::LHB::%4.4X %s
 :\u-L
 :\u6L
@@ -701,7 +701,6 @@ Invalid address %s.
 Invalid nonce %d
 IsDebuggerPresent
 IsProcessorFeaturePresent
-I}'OA
 J>@G_
 K32EnumProcessModules
 K32EnumProcesses
@@ -809,7 +808,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSIC
+RSDSjR
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1045,8 +1044,8 @@ Windows Vista
 Windows XP
 WriteFile
 XA]A\_^
-XDCR*3
 Y9"SD
+Ye>#?
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1180,6 +1179,7 @@ gfffffffM
 graph
 hA\_^[
 hA_A^A]A\^[
+hPH2vW
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -1243,7 +1243,6 @@ oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 p UWATAVAWH
-p]DE9
 print
 punct
 r*=/N
@@ -1315,7 +1314,6 @@ tools
 u D8u
 u"fD;
 u'fD;
-u4~an
 uHfC;
 unknown compression method
 unknown zip result code
@@ -1339,7 +1337,6 @@ www.digicert.com1$0"
 xA\^][
 xAtAL
 xdigit
-zAG()g
 {un'%
 {x\u!H
 {|?uWH
@@ -1368,7 +1365,5 @@ zAG()g
 |$xH;
 |Lu?c
 }LuHO
-~5|Cl
 ~qj#k"
 ~t&LN
-~v,U 

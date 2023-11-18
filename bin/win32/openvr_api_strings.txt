@@ -269,6 +269,7 @@ $iMBm
 .CRT$XTA
 .CRT$XTZ
 .K="=
+.N7.k
 .PjRW
 .T(:"
 .data
@@ -457,7 +458,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231117184155Z0/
+231118182108Z0/
 241009235959Z0a1
 242@2L2_2~2
 282\2
@@ -1233,6 +1234,7 @@ FP;FL~
 FT9~Xt0
 FY;w(|
 FYY;w(|
+F\++$z%J
 Factory Function Not Found (104)
 February
 File Not Found (103)
@@ -1405,6 +1407,7 @@ K3tyI
 K74LN
 K<<H!
 KERNEL32.dll
+Kg!n\k
 K}*n:	
 L?n(Zy&
 LCIDToLocaleName
@@ -1492,6 +1495,7 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
+RSDSqe8
 RWQSV
 R\hvv
 RaiseException
@@ -1579,7 +1583,6 @@ T~OXu
 UQPXY]Y[
 URPQQh
 USB Service Busy (140)
-U^1iA
 Unable to connect to Oculus Runtime (1000)
 Unable to connect to Oculus Runtime, possible bad install (1114)
 Unable to determine VR Path Registry filename
@@ -1879,7 +1882,6 @@ WakeAllConditionVariable
 WakeConditionVariable
 Washington1
 Watchdog disabled in settings (132)
-WeT2.
 Wednesday
 WideCharToMultiByte
 WinRTInitialization
@@ -1887,7 +1889,6 @@ Wj0XPS
 Wj4XPV
 WriteConsoleW
 WriteFile
-X4"{O
 Y([~=
 Y7'v[M
 Y8(|bUhI;W4$eG8
@@ -1897,7 +1898,8 @@ YY^_]
 YYyhe"B
 Y_[^]
 Y__^[
-ZtvxRO
+Ye&fLu
+Z Z;>f
 [ 0@QT
 [3F|}
 [K]taM?
@@ -1963,6 +1965,7 @@ _tcPVj@
 `omni callsig'
 `placement delete closure'
 `placement delete[] closure'
+`rR`!S
 `scalar deleting destructor'
 `string'
 `typeof'
@@ -2032,6 +2035,7 @@ double out of Int range
 e+000
 eLK(w
 eTe6 d4
+en:X>
 eventObject
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2095,7 +2099,6 @@ j,h(!
 j-XGf
 j.Yf;
 j0Xf;
-j28i>
 j:Xf;
 j;Xf9
 jAZf;
@@ -2111,6 +2114,7 @@ kC2\/
 kK04k
 kW$4k_(4
 keylength >= 2^30
+krkh'fy
 l*JHD
 l,kg<i
 l2|X/gGe
@@ -2206,7 +2210,6 @@ t)h$t
 t+hdV
 t,WW9}
 t2RWV
-t9\?1
 tAm4@
 tB;wPt
 tEj&ht
@@ -2286,6 +2289,7 @@ zwom}
 |TBc4
 |W8A=
 |^4#W,
+|~D~mOm
 }	jCh 
 }:;2|6
 }LuHO

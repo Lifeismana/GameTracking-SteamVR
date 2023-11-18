@@ -15,6 +15,7 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
 !0L0w0
 !hn7!
+$;sA.
 $Phdd
 %%.%dg
 %2.2X
@@ -80,6 +81,7 @@ $Phdd
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
+)x9C:
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -234,7 +236,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-231117184229Z0/
+231118182132Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -290,11 +292,11 @@ $Phdd
 465t5
 475J5]5p5
 4A5J5
+4IVWx
 4T5l5u5
 4^4c4i4r4
 4d4h4l4p4t4x4|4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4y)9y
 5 5*545?5G5N5V5_5f5q5w5~5
 5 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6
 5!5-535A5Q5]5
@@ -408,7 +410,6 @@ $Phdd
 :::e:
 ::LHB::%4.4X %s
 :?;\;a;h;o;v;
-:A1gE
 :D>}?
 :[;d;l;
 :j;q;
@@ -464,6 +465,7 @@ $Phdd
 =F=S?
 =F=q=
 =P?V?m?
+=T	Gb
 =r>y>
 =rIQU
 > ?%?
@@ -796,7 +798,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
-N2W]R5
 Nonce:    %d
 ODFU Post
 OpenProcess
@@ -1115,10 +1116,12 @@ fputs
 fread
 fseek
 ftell
+g=~k1c
 gfff+
 gfffSV
 gfffV
 graph
+hR#{w
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -1194,6 +1197,7 @@ memmove
 memset
 need dictionary
 ntdll.dll
+o?U	D
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
@@ -1217,6 +1221,7 @@ strtoul
 strtoull
 t ;A,t
 t hpC
+t.KL#/i
 t0-"N
 t8;G,t
 t<-"N

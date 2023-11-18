@@ -48,6 +48,7 @@
  A__^
  H3E H3E
  formatting error code 
+ j{|R
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
@@ -530,7 +531,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231117184317Z0/
+231118182826Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -548,7 +549,6 @@ $9E0u
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
-6Noug
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
@@ -575,6 +575,7 @@ $9E0u
 <0:08
 <P)9Y
 <unknown>
+=U\`<
 =rIQU
 >0<0:
 >Mp$d
@@ -738,8 +739,6 @@ Attempting to reinitailize estimator!
 AuthD
 Automatically quitting due to idle time > %f seconds.
 B H9B
-B+4$/
-Bbv@k
 Bellevue1
 Blank
 C(H+C H
@@ -1001,7 +1000,6 @@ DumpHistory
 DumpHistory-Staging
 Dumping display history...
 DuplicateHandle
-E)dJ(
 E8~(t\
 E\f9A
 EkH9M
@@ -1016,7 +1014,6 @@ EventWriteString
 EwH9S
 ExH9Q
 Executable: %s
-E~h,r
 F(H9A u)I
 F0H9A(u
 FACET_VULKAN_VALIDATION
@@ -1336,6 +1333,7 @@ NvEncode %s-%s
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
 O0H9Q
+OH4<U
 OLEAUT32.dll
 OpH9Q
 OpenEventA
@@ -1348,7 +1346,6 @@ OpenSCManagerW
 OpenServiceW
 Out of thread local storage!
 Outer
-P2,io
 PA^_^
 PA_A]^][
 PA_A^A]A\_
@@ -1857,7 +1854,6 @@ fn != nullptr
 frameInfo.pImage != nullptr
 frameInfo.sampler != VK_NULL_HANDLE
 from.pPool != nullptr
-gOh3]
 gfffffffA
 gfffffffH
 gfffffffH+
@@ -2568,6 +2564,7 @@ wcsstr
 www.digicert.com1!0
 www.digicert.com1$0"
 xA_A^A]A\_^[]
+y3U)_
 yxxxxxxxH
 yxxxxxxxI+
 {pH;{xw?

@@ -5,8 +5,8 @@
  9D$D
  A__^
  H3E H3E
-!	c64
 !hn7!
+&BEz 
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -15,7 +15,7 @@
 (f*^[0
 (l$PD
 (t$pH
-)%`cx
+)3;TANp
 )D$ H
 )\$pD
 )d$`D
@@ -93,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117184529Z0/
+231118183034Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -125,6 +125,7 @@
 9l$pt
 ;K sCH
 ;K sUH
+;a7iz
 ;k sAH
 ;k sDH
 <0:08
@@ -160,9 +161,9 @@ A__][
 AuthD
 Bellevue1
 C(L95
-C=v1*2
 CL$PH
 COculusHmdLatest::UpdateThread
+CQ2	v
 CT$ H
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -211,6 +212,7 @@ H SWH
 H-^Eu
 H93t	H
 H;{XH
+HGY1T
 HcD$0
 HcK@H
 HmdDriverFactory
@@ -258,7 +260,6 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-NH0!p
 NPH9Q
 OD$DH
 OVR Runtime Init
@@ -271,6 +272,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDSs
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -322,7 +324,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-Z@cTS
+Y;l_G
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -369,7 +371,6 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`e;k^
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -406,6 +407,7 @@ memcpy
 memmove
 memset
 n\tuH
+n`anj
 ntelD
 oculus
 ovrHmd_ConfigureTracking failed for %d
@@ -454,8 +456,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-rd6uA
-sH9py
 startup
 string too long
 strncpy
@@ -466,7 +466,6 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
-t%$ Ba	F
 tIL95f
 tXfff
 tdh.dll
@@ -477,7 +476,7 @@ vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 z(uMH
-zb\M2
+z6WM`
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -492,5 +491,6 @@ zb\M2
 |$8I;
 |Lu?c
 }LuHO
+}O?HE*
 ~qj#k"
 ~t&LN

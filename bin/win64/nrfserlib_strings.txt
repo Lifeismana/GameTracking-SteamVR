@@ -117,6 +117,7 @@
 *D8|$h
 *uXI;
 +9kdt	H
++OsfQ^w@n
 +Xt@(
 +o'q)}
 , H5 error count: 
@@ -632,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231117184255Z0/
+231118182807Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1139,6 +1140,7 @@ DFU_RESPONSE_OPERATION_FAILED
 DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
+DH2b##
 DeleteCriticalSection
 Descriptor discovery failed. (gatt_status: %s)
 Descriptor handle: %d, UUID: 0x%04X
@@ -1249,7 +1251,6 @@ GD9E0t
 GDf9F
 GFf9F
 GH9E0t
-GWh'F
 GXA_A^A]A\_^]
 G`f9F
 Gdf9F
@@ -1401,6 +1402,7 @@ MB(iVR
 MSVCP140.dll
 MTU exchange request reply failed. (nrf_error: %s)
 MTU response received. New ATT_MTU is %d
+MUEw!!
 MainThrd
 Master
 MessageBoxW
@@ -1516,7 +1518,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS!K
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1713,6 +1714,7 @@ WAKEUP
 WATAUAVAWH
 WAVAW
 WAVAWH
+WO'A@V
 WOKEN
 WS2_32.dll
 WXM9WPt(E
@@ -1874,6 +1876,7 @@ d$0D)#
 d$@E3
 d$`H=
 d$pfD
+dI~2]/`6
 dat_file
 data error
 deque<T> too long
@@ -1981,7 +1984,6 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
-qu%I3
 realloc
 s#fff
 sd_ble_cfg_set
