@@ -91,7 +91,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231121001856Z0/
+231121201752Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -103,6 +103,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4:0M;2
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -117,6 +118,7 @@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8l@Cn
 9C s.H
 9h u{H
 9l$Ht
@@ -210,7 +212,6 @@ H93t	H
 H;{XH
 HcD$0
 HcK@H
-HdO $
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -256,6 +257,7 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NGAs?
 NPH9Q
 OD$DH
 OVR Runtime Init
@@ -268,7 +270,6 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS[!
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -319,7 +320,6 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-X<B6>
 Y9"SD
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -395,7 +395,6 @@ jj@0HK4
 k0i0$
 l$8E3
 l2|X/gGe
-m"kv|
 m0k0$
 malloc
 map/set<T> too long
@@ -406,6 +405,7 @@ memset
 n\tuH
 ntelD
 oculus
+oowa:
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
 ovr_ConfigureTracking
@@ -462,6 +462,7 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
+t(zzM
 tIL95f
 tXfff
 tdh.dll
@@ -472,6 +473,7 @@ vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 z(uMH
+zN2=a
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

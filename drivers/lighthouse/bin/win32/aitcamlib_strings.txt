@@ -22,6 +22,7 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
+*l1V[
 +Xt@(
 +o'q)}
 , last executing in 
@@ -172,7 +173,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231121000940Z0/
+231121201457Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -378,7 +379,6 @@ Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
 B3I3~3
-B9:^q
 BMP RLE
 Bellevue1
 CAMCMD_GET_OPENCAMERA_RESULT
@@ -409,7 +409,6 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
-F"D~.
 F(j4f
 FORMAT=32-bit_rle_rgbe
 Failed
@@ -429,6 +428,7 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 H-^Eu
+IH33N7L
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -469,10 +469,10 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JJ?2to"
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
+LPX;7
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
@@ -501,7 +501,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
-RSDSb
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -602,8 +601,8 @@ Y__^[
 [K]taM?
 \2d2h2l2p2t2x2|2
 \3`3	484M4Q4
+]@[Li9
 ]J<0"0i3
-]lzX:
 _CIpow
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -799,7 +798,6 @@ ro_ro
 romanian
 ru_ru
 russian
-s$"Ma
 schinese
 spanish
 startup
@@ -815,7 +813,6 @@ t"Php
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-t[lq$
 tchinese
 tdh.dll
 terminate

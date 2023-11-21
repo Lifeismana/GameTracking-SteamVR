@@ -45,6 +45,7 @@ $< t6<$t,<+t"<vt
 %d / %m / %y
 %m / %d / %y
 ',=?k
+( L*d(
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
 (A^A\_[
@@ -80,7 +81,6 @@ $< t6<$t,<+t"<vt
 )t$ I
 )t$0H
 )t$`H
-+G0_5!L
 +J$D8M@
 +Xt@(
 +o'q)}
@@ -322,6 +322,7 @@ $< t6<$t,<+t"<vt
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.OP`W#
 .data
 .data$r
 .edata
@@ -379,7 +380,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231121001620Z0/
+231121201517Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -391,7 +392,6 @@ $< t6<$t,<+t"<vt
 370322235959Z0c1
 380115120000Z0b1
 3A8A#
-3G;yX
 3mq+<
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -563,7 +563,6 @@ $< t6<$t,<+t"<vt
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@_N@Z
 ?WTrace@IVRCamera@vrcamera@@UEAAXAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
 ?YUVToRGB@IVRCameraFrame@vrcamera@@MEAAXEEEAEAD00@Z
-?l%c&
 @(D9i(
 @.data
 @.reloc
@@ -971,6 +970,7 @@ GetTraceLoggerHandle
 GetUmsCompletionListEvent
 GetVersionExW
 Global Gain:			
+Gq"p/
 H WATAUAVAWH
 H!T$0D
 H#T$0H
@@ -1047,6 +1047,7 @@ K H9y
 K0u2H
 K4A+H 
 K8Hc@
+K8X,[
 KERNEL32.dll
 KH;_XtW3
 K}*n:	
@@ -1125,7 +1126,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSJM
+RSDSn
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1242,7 +1243,7 @@ Verify failed at 0x%X/0x%X Bytes
 VirtualAlloc
 VirtualFree
 VirtualProtect
-V|Q,7
+W QIL
 W0;Ct~ZH
 W8HcH
 WATAUAVAWH
@@ -1405,7 +1406,6 @@ e@A_A^]
 eventObject
 executable format error
 f	n@H
-f dq`m
 f#D$@H
 f9,Yu
 f9/t	H
@@ -1433,7 +1433,6 @@ fseek
 fsetpos
 function not supported
 fwrite
-gV)9M
 generic
 graph
 h< t <$

@@ -5207,23 +5207,30 @@
                 500,
               )),
               (this.m_appStateChangedAutorunDisposer = (0, s.EH)(() => {
-                const e = _.H.Instance.SceneApplicationState,
-                  t = e != i.xY.None;
-                if (t && this.m_eSceneApplicationState == i.xY.None)
+                var e;
+                const t = _.H.Instance.SceneApplicationState,
+                  o = t != i.xY.None;
+                if (o && this.m_eSceneApplicationState == i.xY.None)
                   ae.B.HideTheaterOverlay();
                 else if (
-                  !t &&
+                  !o &&
                   this.m_eSceneApplicationState != i.xY.None &&
-                  !ae.B.isTheaterMode
+                  !ae.B.isTheaterMode &&
+                  null !==
+                    (e = b.G3.settings.get(
+                      "/settings/dashboard/autoShowGameTheater",
+                    )) &&
+                  void 0 !== e &&
+                  e
                 )
                   for (let [e, t] of ae.B.m_mapOverlayState)
                     if (e.startsWith(p.wX)) {
                       this.setDockLocation(e, t, R.RA.Theater);
                       break;
                     }
-                (this.m_eSceneApplicationState = e),
+                (this.m_eSceneApplicationState = t),
                   this.isOverlayActive(p.PF) &&
-                    !t &&
+                    !o &&
                     this.switchToHomeOverlay();
               })),
               VRHTML.VRDashboardManager.GetDashboardOverlayKeys().forEach(
@@ -5656,7 +5663,7 @@
                   void 0 !== n &&
                   n,
                 s = {
-                  OverlayKey: e,
+                  OverlayKeyID: e,
                   Location: R.RA[t.dockLocation],
                   DurationMs: i,
                   OverlayAppID:
@@ -13248,4 +13255,4 @@
   var r = n.O(void 0, [968, 683], () => n(9850));
   r = n.O(r);
 })();
-//# sourceMappingURL=systemui.js.map?v=37c1fcf7ce33a339d15d
+//# sourceMappingURL=systemui.js.map?v=678d75b7b71fc5729e30

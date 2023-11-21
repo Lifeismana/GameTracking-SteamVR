@@ -65,6 +65,7 @@
 #?RGBE
 #oculus_requested_quit
 $9^ t
+$_-P+b
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -460,7 +461,7 @@ $9^ t
 220801000000Z
 223S3
 230714000000Z
-231121001042Z0/
+231121201602Z0/
 241009235959Z0a1
 253a3
 2<2A2I2O2T2Z2l2v2|2
@@ -766,6 +767,7 @@ $9^ t
 8jpu9
 8pnuM
 8spot
+8tT\u
 8u:v?
 9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
 9 9094989@9X9h9l9|9
@@ -1046,7 +1048,6 @@ $9^ t
 >Q>U>*?.?
 >ff&?
 >h?n?w?
->u!$m
 ? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
 ? ?%?*?/?4?9?>?C?H?M?R?W?\?a?f?k?p?u?z?
 ? ?(?@?P?T?d?h?l?p?x?
@@ -1419,7 +1420,6 @@ No valid guardian bounds. Creating standing chaperone
 Nodet3
 NormalTextureInfo
 Not writing %s because the texture was null
-O%*hi
 O,_^[
 O0h0[1w2
 OPAQUE
@@ -1446,7 +1446,6 @@ Oculus\Support\oculus-runtime
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenEventW
 OpenProcess
-Oq|Xr8mW&(
 Orhographic camera description not found.
 OrthographicCamera
 Out of thread local storage!
@@ -1468,7 +1467,6 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSW~
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1568,6 +1566,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 Wjlh(Z
+XTJU<
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -1615,6 +1614,7 @@ _Cnd_wait
 _Controller_Left
 _Controller_Right
 _CxxThrowException
+_G'eQl
 _Mtx_destroy
 _Mtx_destroy_in_situ
 _Mtx_init
@@ -1809,7 +1809,6 @@ cs_cs
 czech
 d3d11.dll
 d4l4p4t4x4|4
-d\)<r
 da_da
 danish
 data:application/gltf-buffer;base64,
@@ -1827,7 +1826,6 @@ doubleSided
 driver_oculus.dll
 driver_oculus.vrchap
 dxgi.dll
-e*me2M!
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
@@ -1988,6 +1986,7 @@ lights
 list<T> too long
 localeconv
 m0k0$
+m25XfX
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -2432,6 +2431,7 @@ u<f9C u6f9C0u0f9C@u*f9CPu$
 u?jHQ
 uBf9C
 uCVj@
+uD8ZBD
 uEVj@
 ua_ua
 ukranian

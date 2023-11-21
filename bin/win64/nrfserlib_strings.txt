@@ -8,7 +8,6 @@
 	!s99
 	<bu 
 	@81t/@8q
-	ihy}
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -66,6 +65,7 @@
  t;A;
  times.
  version-number:
+!6VqW\o[=
 !hn7!
 %%.%dg
 %4.4X:%4.4X
@@ -633,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231121001629Z0/
+231121201525Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -726,7 +726,6 @@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?N;S;7
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -985,6 +984,7 @@ BS2_SetPowerState
 BS2_SetSyncOnBeamChannel
 BS_ReadProperties
 BS_Scan
+BXnq'
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -1005,7 +1005,6 @@ CLSIDFromString
 CONFIG [
 CONFIG_RESP [
 CONNECTION_ACTIVE
-CQzGEe
 CT$(L
 CT$@L
 CT$PH
@@ -1108,6 +1107,7 @@ D9wps
 D;C |
 D;l$0
 D;v sWH
+D@3eNpy
 DFU Post
 DFU_EXT_ERROR_FW_VERSION_FAILURE
 DFU_EXT_ERROR_HASH_FAILED
@@ -1385,6 +1385,7 @@ L;gHu
 L?n(Zy&
 LHB-DFU
 LHB-Unlock
+LH]D_X
 LINK_CONTROL_PACKET
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
@@ -1737,8 +1738,8 @@ XA^_][H
 XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
+Y)TOG3
 Y9"SD
-ZeSE 
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1935,6 +1936,7 @@ invalid window size
 ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
+j&bEjzb.
 jj@0HK4
 k0i0$
 l$ H=
@@ -1983,6 +1985,7 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
+rCbCt
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2176,6 +2179,7 @@ x UATAUAVAWH
 xA\^][
 xA^A]_[
 xAtAL
+x\)Ag
 xdigit
 {un'%
 {x\u!H

@@ -2,14 +2,13 @@
  %41g
  A__^
  H3E H3E
- ULRN
 !hn7!
 ',=?k
-(5<R3p
 (f*^[0
 +Xt@(
 +o'q)}
 ,W5y+
+..^<+
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -85,7 +84,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231121001848Z0/
+231121201744Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -97,6 +96,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4fA+E=
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -110,7 +110,6 @@
 <0:08
 =rIQU
 >0<0:
->@e~k
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPEBD@Z
@@ -119,6 +118,7 @@
 @.rsrc
 @A^_^
 AuthD
+B2]Iv6O
 Bellevue1
 CT$0H
 DigiCert Assured ID Root CA0
@@ -136,7 +136,6 @@ H SWH
 H-^Eu
 H93t	H
 H9=yQ
-HTG69
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -171,7 +170,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSNK
+RSDS^
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -193,6 +192,7 @@ Washington1
 Y9"SD
 [K]taM?
 \$ UH
+]IAY_
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -238,12 +238,12 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-hs2KF
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iPlW'
 jj@0HK4
 k0i0$
 l$8E3
@@ -255,8 +255,6 @@ memmove
 memset
 modelNumber
 ntelD
-omM.w
-r]:Sp
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -274,7 +272,6 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-y5`!UX
 {un'%
 |$ AVH
 |Lu?c

@@ -682,7 +682,6 @@ $w!Hc
 (Not Enough Bandwidth)
 (Not Enough Power)
 (Overcurrent)
-(POg7"z
 (Reset)
 (T$ H
 (T$0D
@@ -908,6 +907,7 @@ $w!Hc
 -9k0t&H
 -9{0t%H
 -<	u#
+->)sQBq
 -D9c0t%H
 -IPCWrapper
 -Infinity
@@ -1395,7 +1395,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231121001751Z0/
+231121201648Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1412,6 +1412,7 @@ $w!Hc
 380115120000Z0b1
 3?9y>m0_D@H_
 3Pole
+3U9EbL
 3mq+<
 42HcF,
 4Pole
@@ -1425,6 +1426,7 @@ $w!Hc
 6p7M=:P_:}u
 70503
 7HcC,
+7Y+C+8
 7^d[L
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
@@ -1596,7 +1598,6 @@ $w!Hc
 <	vzH
 <	w'H
 < t+<
-<!biu
 <$Hc\
 <*tq</tm<
 <*ufH
@@ -1609,7 +1610,6 @@ $w!Hc
 <Eu1H
 <U+%.4X>
 <^w&E
-<cNfv
 <hidden>
 <parse error>
 <redirected>
@@ -3328,6 +3328,7 @@ Found default audio recording device %s, VID:%04x/PID:%04x %s
 Found per-device override of unhandled type %d
 Found two different DeviceIDs for monitor %s: %s and %s
 Found two slave bases (one oblivious cable sync slave and one confused optical sync slave).
+Fqzc+X
 Framer sensorType: %d
 Framer total=%d invalid_long=%d runt=%d sync_miss=%d unidentified_frame_splits=%d
 FreeLibrary
@@ -4353,6 +4354,7 @@ NOTPRESENT
 NPH9Q
 NRF52
 NRF52 DTM
+NV=cuV
 NVAPI_DEBUG_DISPLAY_MODES
 NXH9Q
 NamePart
@@ -4400,7 +4402,6 @@ OZw3(?
 O`H9Q
 O`H;W
 Object
-Oj3x3L
 Old Normal: %f %f %f 
 OnDefaultDeviceChanged: flow = %s, role = %s, device = %s
 OnDeviceAdded: device = %s
@@ -4530,6 +4531,7 @@ Pz}b!
 Q@D85
 Qk6eV5RE
 Qkkbal
+Qp~OtK:
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
@@ -4539,7 +4541,6 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDS_
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5654,6 +5655,7 @@ ZL$Xf
 \\\\\\\\
 \d$`f
 \mfpmp.exe
+\sNR u
 \u=H;
 \x%02x
 \|$`D
@@ -5865,6 +5867,7 @@ avrt.dll
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
+b^g>{
 bad AC huff
 bad APP len
 bad BMP
@@ -6312,6 +6315,8 @@ fsetpos
 ftell
 fwrite
 g9k0t_D
+gD59Xm
+gN RPE
 gc/250_v0.gc
 generator
 generic_controller
@@ -6352,6 +6357,7 @@ hA^A]^[
 hA_A^_^][
 hA__][
 hA__^[H
+hZcYV
 h_^][
 hand_right_closeanim.glb
 hand_right_poses.glb
@@ -6774,7 +6780,6 @@ number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
 o@@fD
-oBjD9
 oD$ fD
 oD$0H
 oD$0f
@@ -6901,9 +6906,9 @@ pt_br
 pt_pt
 public_dependency
 py_generic_services
+qA~3L
 qMFCreateMediaType failed hr = 0x%08x
 r	D;@(}
-r#C+D
 r+w.I
 r,fff
 r/w0H
@@ -8087,6 +8092,7 @@ zuusA
 |@E;F
 |D;k(|?uyH
 |Lu?c
+|P`Hs4G
 |Wu	A
 |fu0f
 |s;K(tnA

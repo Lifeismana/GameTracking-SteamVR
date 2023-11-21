@@ -205,7 +205,6 @@ $w!Hc
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *uXI;
-*yJ0dk
 +Xt@(
 +o'q)}
 , binary size = 
@@ -461,7 +460,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231121001852Z0/
+231121201749Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -476,6 +475,7 @@ $w!Hc
 3?9y>m0_D@H_
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+4x]_7
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -974,6 +974,7 @@ File write error:
 Forcing chaperone update
 Found path: 
 FreeLibrary
+G P-aJ
 G(M+G I
 G8$1u
 GPUCountingSemaphore::Signal(%llu)
@@ -1273,6 +1274,7 @@ PA_A^_
 PA_A^_^]
 PAq=?Mp#
 POSITION
+PR^ j
 Path_Exists( absFilePath )
 Perspective camera description not found.
 PerspectiveCamera
@@ -1285,6 +1287,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSl
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1454,7 +1457,6 @@ X%pi
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
-Y@:CA
 Z9k0tUD
 ZL$Xf
 [K]taM?
@@ -1709,7 +1711,6 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
-c^l,W
 camera
 cameras
 can't merge dc and ac
@@ -1816,6 +1817,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+i	gv"
 ig@-?e
 illegal code in raster
 image/bmp
@@ -1902,7 +1904,6 @@ japanese
 jj@0HK4
 joints
 jsonid
-k(RX9G
 k0i0$
 ko_ko
 korean
@@ -1990,6 +1991,7 @@ ntelD
 null literal
 number literal
 number overflow parsing '
+o5}*'
 o@@fD
 oD$ fD
 oD$0f
@@ -2503,7 +2505,6 @@ xA^A\_^][
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
-zH\S*
 zh_cn
 zh_tw
 zlib corrupt

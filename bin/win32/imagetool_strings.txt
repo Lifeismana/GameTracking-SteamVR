@@ -2165,7 +2165,6 @@ $~O="""
 '7GWgw
 '<' in entity '%s' is not allowed in attributes values
 '<@!=9
-'=ASTt
 '>' required to close NOTATION declaration
 '@Ck1t
 'I'z'
@@ -2818,7 +2817,6 @@ $~O="""
 ,T$8C
 ,T$xf
 ,W5y+
-,XWOj
 ,[_^]
 ,\$8W+
 ,\$<Vj
@@ -4330,7 +4328,7 @@ $~O="""
 223E3P3a3l3
 230714000000Z
 230x323
-231121001053Z0/
+231121201613Z0/
 23282G2L2e3
 23282R2W2q2v2
 232L2e2~2
@@ -8445,7 +8443,6 @@ $~O="""
 =0>:>D>I>
 =0N0@1
 =0]0b0l0
-=15P)
 =1=H=i=
 =1=K=
 =1=U=Z=n=
@@ -16153,7 +16150,6 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSJ=
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -18634,7 +18630,6 @@ Y|q'za
 Z Offset In Slide Coordinate System
 Z({:3m
 Z* ,	
-Z/{v[
 Z0_0n0s0
 Z9/t3
 ZDepthHomogeneous
@@ -19230,6 +19225,7 @@ _wremove
 _write
 _wstat64
 _wstat64i32
+_zPSw
 `	!!!
 `	x0j
 `"FMv
@@ -19391,7 +19387,6 @@ b<buI
 b?8Nb?g}b?
 bKGD must be after
 bKGD,caNv,cHRM,eXIf,gAMA,iCCP,iTXt,pHYs,sRGB,tEXt,zCCP,zTXt,date
-bYzYc
 bZ!rj
 bZ5nP
 background
@@ -21533,7 +21528,6 @@ h2lcnV
 h2lcnW
 h7CM*
 h:format
-h:rm(9|
 h<~	j
 h?&5h?Vdh?
 h?6!i?ePi?
@@ -22245,7 +22239,6 @@ lQ 6|+G
 lSUVW3
 lW>J)X>K
 l`0@	
-l`lVUt
 la]^]Gf]Ij\E
 label
 label:pointsize
@@ -23162,6 +23155,7 @@ quoteleft
 quoteright
 quotesinglbase
 quotesingle
+q~)P	v
 r	p/+0
 r Wessel
 r med fl
@@ -25024,7 +25018,6 @@ windows-1257
 windows-1258
 windows-874
 wingdings
-wmpMA
 wn>Jj
 wnVW+
 word-char

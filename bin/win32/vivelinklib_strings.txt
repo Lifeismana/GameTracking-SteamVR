@@ -6,7 +6,6 @@
 																												
 																																												
 	!s99
-	sC(Y|I
  !"#$%&'
  !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
  %41g
@@ -90,7 +89,6 @@ $Phdd
 -Infinity
 -NAME "%s"
 -btdriverver
--hc1eDoT
 -start
 -status
 -stop
@@ -176,7 +174,6 @@ $Phdd
 .tls$ZZZ
 .xdata$x
 /f /s
-/g]du
 /t;_^2
 0 0$0(0,0<0@0D0H0X0\0`0d0t0x0|0
 0 2'2,333U4\4M5n5
@@ -237,7 +234,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-231121000949Z0/
+231121201505Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -454,7 +451,6 @@ $Phdd
 <SVWj
 <\<l<
 <j<?>U>
-<kR8vgK3
 = >,>4>T>x>
 =%?,?;?B?p?t?
 =&>4>B>`>
@@ -480,6 +476,7 @@ $Phdd
 >=?z?
 >H>s>
 >Mp$d
+>TQvUA
 ? ?)?L?
 ?!?8?G?P?[?b?
 ?(?,?0?4?<?T?X?p?
@@ -831,7 +828,6 @@ Response: %s, %s
 Restart:  %s
 RtlGetNtVersionNumbers
 Running
-S e#!
 S0Q0O
 SA|X=G
 SCAN -NAME "%s" -T %X
@@ -1028,6 +1024,7 @@ Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
+\TS_e
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
@@ -1117,7 +1114,7 @@ fputs
 fread
 fseek
 ftell
-gbC)Q0
+g9Y:7
 gfff+
 gfffSV
 gfffV
@@ -1153,7 +1150,6 @@ invalid string position
 invalid vector<T> subscript
 invalid window size
 isxdigit
-j	b@<
 j h(k
 j h8`
 j hLk
@@ -1181,6 +1177,7 @@ j)h`O
 j)hpG
 j*hPQ
 jj@0HK4
+k)iqg
 k0i0$
 l2|X/gGe
 lighthouse
@@ -1265,12 +1262,10 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
-y_j7tOyVm
 {L?uI
 {un'%
 |	9A 
 |	;J 
-|	?Dv
 |Lu?c
 |cj#h
 }	jCh
@@ -1278,7 +1273,6 @@ y_j7tOyVm
 }qj<hx
 ~6VVS
 ~L][u
-~W2[o<
 ~d;{d|	
 ~qj#k"
 ~t&LN

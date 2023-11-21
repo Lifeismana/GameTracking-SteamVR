@@ -4,6 +4,7 @@
 																																												
 	!s99
  %41g
+ -umk
  A_A^A\
  A_A^A]A\_
  A_A^]
@@ -16,6 +17,7 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
+")OjA
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -181,7 +183,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231121002413Z0/
+231121202321Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -193,6 +195,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4	Z>d
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -200,6 +203,7 @@
 6I]Dc
 6OB,n_
 70503
+72)Rt0c
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -213,7 +217,6 @@
 =rIQU
 >0<0:
 >Mp$d
->yKPU
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -327,14 +330,12 @@ Access to desktop duplication lost for desktop %d.
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
-BQd^E
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C++/WinRT version:1.0.190111.3
 C0L9$
-C0_$"
 CD$(H
 CD$0H
 CD$PH
@@ -652,7 +653,6 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-N>={mW
 NPH9Q
 OLEAUT32.dll
 OpenProcess
@@ -666,10 +666,10 @@ Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QjU}^X
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSv
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -680,6 +680,7 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
+S:==Z
 SA|X=G
 SHCreateItemFromParsingName
 SHELL32.dll
@@ -797,10 +798,8 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
-Y,Qu<
 Y9"SD
 [K]taM?
-[e ?K
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -861,6 +860,7 @@ _purecall
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`?Ha	,z
 `A_A^A]A\_^[
 `A_A^A]A\_^]
 a7hIw
@@ -895,6 +895,7 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
+c8GJ)b
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
@@ -943,6 +944,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+i	5z	
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -964,6 +966,7 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
+k7zS0
 kernel32.dll
 ko_ko
 korean
@@ -1056,7 +1059,6 @@ ukranian
 update_debug_info
 update_window_list
 user32.dll
-v3E1!h
 v=Y]Bv
 vE;E`M
 vector<T> too long
@@ -1079,6 +1081,7 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
+wQiBA%
 window_view_created
 window_view_destroyed
 windows
@@ -1106,6 +1109,5 @@ zh_tw
 |$pH+
 |Lu?c
 }LuHO
-~> MR
 ~qj#k"
 ~t&LN

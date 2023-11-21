@@ -31,7 +31,6 @@
 (t$@H
 (|$ H
 )D$ L
-)Z&r)
 )t$ H
 )t$0H
 )t$@H
@@ -42,6 +41,7 @@
 ,W5y+
 -1e+9999
 -Infinity
+-\'o*
 -u-I;
 .00cfg
 .?AUIInteractableOverlay@@
@@ -105,6 +105,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.MUq!Q
 .data
 .data$r
 .edata
@@ -166,7 +167,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231121002402Z0/
+231121202310Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -177,6 +178,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3L3J1h
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -189,6 +191,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+8d2zjD
 < t+<
 </u#H
 <0:08
@@ -196,6 +199,7 @@
 =rIQU
 >0<0:
 >Mp$d
+?1i3m
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -594,9 +598,11 @@ Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QDa%>
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS%
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -693,7 +699,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 [K]taM?
-[e1;9
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -704,9 +709,9 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
-\V8L'(R0N
 \u=H;
 ]J<0"0i3
+]er#J
 ]g@8yhu
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -776,7 +781,6 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
-cXD[4
 cs_cs
 czech
 d$`H=
@@ -909,7 +913,6 @@ tolower
 tr_tr
 turkish
 ua_ua
-ujZAk=
 ukranian
 user32.dll
 v=Y]Bv
@@ -958,6 +961,5 @@ zh_tw
 |$pH+
 |Lu?c
 }LuHO
-~inm^U
 ~qj#k"
 ~t&LN

@@ -14654,23 +14654,30 @@
                 500,
               )),
               (this.m_appStateChangedAutorunDisposer = (0, s.EH)(() => {
-                const e = v.H.Instance.SceneApplicationState,
-                  t = e != r.xY.None;
-                if (t && this.m_eSceneApplicationState == r.xY.None)
+                var e;
+                const t = v.H.Instance.SceneApplicationState,
+                  n = t != r.xY.None;
+                if (n && this.m_eSceneApplicationState == r.xY.None)
                   ae.B.HideTheaterOverlay();
                 else if (
-                  !t &&
+                  !n &&
                   this.m_eSceneApplicationState != r.xY.None &&
-                  !ae.B.isTheaterMode
+                  !ae.B.isTheaterMode &&
+                  null !==
+                    (e = y.G3.settings.get(
+                      "/settings/dashboard/autoShowGameTheater",
+                    )) &&
+                  void 0 !== e &&
+                  e
                 )
                   for (let [e, t] of ae.B.m_mapOverlayState)
                     if (e.startsWith(u.wX)) {
                       this.setDockLocation(e, t, f.RA.Theater);
                       break;
                     }
-                (this.m_eSceneApplicationState = e),
+                (this.m_eSceneApplicationState = t),
                   this.isOverlayActive(u.PF) &&
-                    !t &&
+                    !n &&
                     this.switchToHomeOverlay();
               })),
               VRHTML.VRDashboardManager.GetDashboardOverlayKeys().forEach(
@@ -15103,7 +15110,7 @@
                   void 0 !== o &&
                   o,
                 s = {
-                  OverlayKey: e,
+                  OverlayKeyID: e,
                   Location: f.RA[t.dockLocation],
                   DurationMs: r,
                   OverlayAppID:
@@ -20720,4 +20727,4 @@
   var i = o.O(void 0, [968, 683], () => o(1176));
   i = o.O(i);
 })();
-//# sourceMappingURL=controllerbindingui.js.map?v=a3628b4eed73f2dd4529
+//# sourceMappingURL=controllerbindingui.js.map?v=e524777b72068dc7bcd0

@@ -1019,7 +1019,6 @@ $tI
 /y/touch
 0 width
 0-pixel image
-00:03:01
 0123456789
 0123456789ABCDEF
 1
@@ -1240,6 +1239,7 @@ $tI
 19InMemoryInputStream
 1e+9999
 2
+20:12:39
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -22739,6 +22739,7 @@ Suggested binding for [%s] [%s]:%s
 Suggested bindings for %s:
 Sun
 Sunday
+Suppressing ShowDashboard call due to application running or launching
 SwapChainImage
 SwapChainImageView
 Swapchain-WaitImage
@@ -36779,6 +36780,7 @@ values
 valve.steam.desktop
 valve.steam.desktopgame.
 valve.steam.gamepadui.
+valve.steam.gamepadui.main
 variant
 vector1
 vector2

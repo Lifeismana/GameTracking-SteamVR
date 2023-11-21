@@ -27,7 +27,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@ 8
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -118,7 +118,6 @@
 "skeleton" member must be an array
 "sources" member must be an array
 "spot" is not a JSON object.
-"u}C;
 ##Remaining: %f %d %d
 #*1892+$
 #9i0t
@@ -136,7 +135,7 @@
 #OriginString_Source
 $@/pose/
 $IL+Q
-$tI(knN
+$tI(knNHb6
 $u=Hi
 $u^Hi
 $w!Hc
@@ -641,6 +640,7 @@ $w!Hc
 ,H;D$ 
 ,W5y+
 -1e+9999
+-996.
 -9k0t&H
 -9{0t%H
 -D9c0t%H
@@ -2086,7 +2086,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231121002314Z0/
+231121202223Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2102,7 +2102,6 @@ $w!Hc
 380115120000Z0b1
 3?9y>m0_D@H_
 3mq+<
-4	mUE
 416.16
 440.97
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -2212,7 +2211,6 @@ $w!Hc
 ;I#F0H
 ;K sMH
 ;K sOH
-;XcWR
 ;t:=x3
 ;u"E3
 ;|$ r
@@ -2232,7 +2230,6 @@ $w!Hc
 <L3]<
 <NONE>
 <U+%.4X>
-<Z>;JN
 <invalid handle>
 <parse error>
 <uninitialized>
@@ -2255,6 +2252,7 @@ $w!Hc
 ? u	Hc
 ?"t,H
 ?"tfH
+?%S/5
 ?.vW@
 ?/t6H
 ?/u3H
@@ -2791,7 +2789,6 @@ C D8{
 C H9C(t
 C H9T$@t
 C t~H
-C""[e
 C$9C w
 C$A;A
 C(D![ D!S$D!K(
@@ -3581,6 +3578,7 @@ D840u
 D84;u
 D8<0u
 D8<>u
+D8=y 
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -3593,6 +3591,7 @@ D8wBt/H
 D8}gt$L
 D8}gu
 D8}guH
+D9%Cs$
 D90uGH
 D989D9XH
 D9>u:H
@@ -3686,6 +3685,7 @@ DismissedWarnings
 Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
 DominantHand
 Done reading EDID vendor Id.
+DoxKtg
 Dpad binding modification received for component (%s) and interaction profile (%s)
 Driver Failed (200)
 Driver Not Known (201)
@@ -3746,7 +3746,6 @@ EXH9E`t
 E_H9U
 E`+Ep
 E`A9E|r
-Ed3I:
 EgH9Q@t
 EgH9S@t
 EgH;X
@@ -4283,9 +4282,8 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=:x!
-H;=Zj!
-H;=jv!
+H;=:A!
+H;=jy!
 H;A s
 H;Axt
 H;C(v
@@ -4982,11 +4980,11 @@ L+I0E3
 L8 9J
 L8$9J
 L9 t'H
-L9%dn<
+L9%tn<
 L90t	H
 L93t	H
 L97u0H
-L9=#7
+L9=}6
 L9?u,H
 L9@ s
 L9A r
@@ -5109,6 +5107,7 @@ Log path could not be located (112)
 Lost connection - returning quit event to FilterOverlayHandle %llu
 Lost connection to VR Server
 Low Power Watchdog Not Supported (129)
+Lr9}Dq
 M H1E
 M+HPI
 M8I;E
@@ -5169,6 +5168,7 @@ Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 N I9N(
 N I9V0t
+NC	NB+
 NL$`I
 NORMAL
 NOT_READY
@@ -5745,6 +5745,7 @@ Successfully changed app type
 Successfully reconnected to server
 Suggested binding for [%s] [%s]:
 Suggested bindings for %s:
+Suppressing ShowDashboard call due to application running or launching
 SwapChainImage
 SwapChainImageView
 Swapchain-WaitImage
@@ -5911,6 +5912,7 @@ TrackedProp_WrongDeviceClass
 Transitioning XrSession from %s to %s
 Turning on pipe debugging at the server's request
 Tutorial
+T{/dGQ#
 U0H9U8t
 U0H;C
 U4H;C
@@ -7330,7 +7332,6 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%7[&
 Y5Mc#
 Y5^R"
 Y9"SD
@@ -7606,6 +7607,7 @@ ZvFailed to create fence %ls.
 [Tutorial] Found input path with unexpected prefix: %s
 [VirtualDisplay] Present took to long!
 [json.exception.
+[n.~1Y\
 \$ ;S
 \$ @2
 \$ E2
@@ -7726,6 +7728,7 @@ ZvFailed to create fence %ls.
 ^8I9^@
 ^9k0tWD
 ^L$\A
+_!w5k
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8504,6 +8507,7 @@ hA\_^[
 hA^A\[]
 hA_A^A]A\_^[]
 hA_A^A]A\_^][
+hCC-u
 hH;]o
 hand_right_poses.glb
 hangInit
@@ -8653,6 +8657,7 @@ joystick_rotation_x
 joystick_rotation_y
 joystick_settings
 jsonid
+ju;D@\O )
 k0i0$
 k_EButton_A
 k_EButton_ApplicationMenu
@@ -9058,7 +9063,6 @@ pt_pt
 punct
 p}?discrete_scroll_trackpad_globalscalefactor
 qsort
-qzjxd
 r'w.H;
 r+w6I
 r,fff
@@ -9940,6 +9944,7 @@ unsupported data layout
 unsupported format
 upH;~ uj
 upper
+ur(qB%Z
 usage
 usbservice
 useActionSystemButton
@@ -9963,6 +9968,7 @@ values
 valve.steam.desktop
 valve.steam.desktopgame.
 valve.steam.gamepadui.
+valve.steam.gamepadui.main
 variant
 vb'vb'v
 vector1
@@ -10786,7 +10792,6 @@ znear
 |$xL;
 |$|!u
 |8PH;
-|8x+yK
 |D8E t"H
 |Lu?c
 |s;K(tnA
@@ -10806,5 +10811,4 @@ znear
 ~PH9~Xt(H
 ~qj#k"
 ~t&LN
-~tYmE
 ~universe:

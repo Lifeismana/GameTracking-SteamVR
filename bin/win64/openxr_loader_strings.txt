@@ -42,6 +42,8 @@
  was not found
  with error 
 !hn7!
+"mlX-
+#spI6
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -163,7 +165,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231121001924Z0/
+231121201825Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -180,10 +182,11 @@
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
+6@yn?
 6I]Dc
 6OB,n_
+7$;VH
 70503
-7H#cz
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -392,6 +395,7 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Duplicate key: '
 E8,9u
+EViI8
 Empty escape sequence in string
 EnterCriticalSection
 Entering LoaderInstance::CreateInstance
@@ -513,6 +517,8 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
+N,-ilW
+N5ZcB
 No active XrInstance handle.
 OpenProcessToken
 OpenXR-Loader
@@ -571,7 +577,6 @@ TUUUUUU
 Type is not convertible to string
 UATAUAVAWH
 UAVAWH
-UEPxi
 UNKNOWN
 USVWAVH
 USWAVAWH
@@ -661,9 +666,9 @@ Y9"SD
 \$xHi
 \ApiLayers\Explicit
 \ApiLayers\Implicit
-\M>t\
 \u=H;
 ]J<0"0i3
+]eY>s
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ

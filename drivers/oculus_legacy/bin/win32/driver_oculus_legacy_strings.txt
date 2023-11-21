@@ -1,7 +1,6 @@
 	!s99
  %41g
  (Camera)
- F(UuH
 !hn7!
 ',=?k
 (Unable to load LibOVR)
@@ -10,7 +9,6 @@
 +o'q)}
 , last executing in 
 ,W5y+
--|w-*
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -29,7 +27,6 @@
 .?AVbad_array_new_length@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.AX5;
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU
@@ -95,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231121001046Z0/
+231121201605Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -113,6 +110,7 @@
 380115120000Z0b1
 3:3t3
 3<3X3x3
+3I4~'0
 3T4p4
 3mq+<
 3|3F4
@@ -174,6 +172,7 @@
 ;$;-;2;7;>;C;O;q;
 ;(;1;6;;;B;R;
 ;(<1<B<
+;.@ek
 ;5<A<Y<o<x<
 ;j<q<
 <#<(<-<4<y<
@@ -296,7 +295,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS\y
 RaiseException
 S0Q0O
 SA|X=G
@@ -337,6 +335,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
+[ n-v
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -382,6 +381,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`bNrZ
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -392,6 +392,7 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
+cO:b4c
 camera
 d3d11.dll
 dk2_camera
@@ -409,6 +410,7 @@ jdjdh
 jj@0HK4
 k0i0$
 l2|X/gGe
+lE,{?4G>`
 m0k0$
 malloc
 map/set<T> too long
@@ -462,6 +464,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+p{/3}
 startup
 string too long
 strncpy

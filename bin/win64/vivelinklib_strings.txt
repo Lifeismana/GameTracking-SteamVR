@@ -76,7 +76,6 @@
 %s: Timeout.
 %s: Unknown component type %d.
 %s: WriteFile failed! (%s)
-&7IzOZ
 ' is not a number.
 ',=?k
 ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
@@ -229,10 +228,11 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231121001634Z0/
+231121201530Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2SRGN
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -257,7 +257,6 @@
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
 8L$4tNH
-8M6&g
 8_^][
 9\u-H
 9\u4H
@@ -344,7 +343,6 @@
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@'I)2
 @.data
 @.reloc
 @81t)@8q
@@ -703,7 +701,6 @@ Invalid nonce %d
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-J`kw-
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
@@ -1091,7 +1088,6 @@ _Mtx_lock
 _Mtx_unlock
 _Strcoll
 _Strxfrm
-_^7y9PmY
 __C_specific_handler
 __CxxFrameHandler3
 __std_exception_copy
@@ -1141,6 +1137,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
 assert json failed
+b1Ah[
 bad allocation
 bad array new length
 bad cast
@@ -1223,6 +1220,7 @@ l$PI+
 l$PM9n
 l$pM+
 l2|X/gGe
+l<2fD
 lighthouse
 lower
 m0k0$
@@ -1239,6 +1237,7 @@ memmove
 memset
 need dictionary
 ntelD
+oAC:!q
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree

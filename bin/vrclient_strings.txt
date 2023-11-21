@@ -2325,7 +2325,6 @@ $
 0
 0 width
 0-pixel image
-00:02:28
 0123456789
 0123456789ABCDEF
 1
@@ -2517,6 +2516,7 @@ $
 19InMemoryInputStream
 1e+9999
 2
+20:12:06
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CVRBlockQueueManager
@@ -23109,6 +23109,7 @@ Successfully changed app type
 Successfully reconnected to server
 Sun
 Sunday
+Suppressing ShowDashboard call due to application running or launching
 SwapChainImage
 SwapChainImageView
 Syntax error: value, object or array expected.
@@ -35467,6 +35468,7 @@ values
 valve.steam.desktop
 valve.steam.desktopgame.
 valve.steam.gamepadui.
+valve.steam.gamepadui.main
 variant
 vector1
 vector2

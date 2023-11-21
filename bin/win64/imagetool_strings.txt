@@ -2355,7 +2355,6 @@ $wtpt
 )))))
 )))))))
 ))))))))))))))))))))))))))
-)/z-(U
 )2STud>
 )8)k)
 )9IYiy
@@ -2991,6 +2990,7 @@ $wtpt
 ,9,n,
 ,:<>wmH
 ,:njk
+,;^mn
 ,<L\l|
 ,?<@w
 ,????*(??
@@ -3719,7 +3719,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231121001916Z0/
+231121201816Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -4010,6 +4010,7 @@ $wtpt
 8fA9x
 8xu!A
 8xupH
+8yo>YZ
 8zbu`H
 9	}PV}
 9%u,H
@@ -4112,7 +4113,6 @@ $wtpt
 9|$`tVH
 9|$x~
 : %s %s %s
-:#gS<
 :#u,A
 :+}9-}9/}:0|:1w:3s8/p6,o8-n7+n6/k4,g3*`.$p8/
 :,~:/~:0{90y8/w9/v90t:.q6-n3+k4)e1%s=2
@@ -5267,7 +5267,6 @@ A_A^_^[
 A_A^_^[]
 A_A^_^]
 A_A^_^][
-A_Z3I
 A_^[]
 A_^][
 A__[]
@@ -6972,6 +6971,7 @@ DEPTH %.20g
 DGKbA
 DGKbH
 DGKbu
+DG~]Y
 DHDVText
 DHText
 DICOM is used by the medical community for images like X-rays.  The
@@ -11754,6 +11754,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS[9sS
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -13404,6 +13405,7 @@ TryAcquireSRWLockExclusive
 TryAcquireSRWLockShared
 TryEnterCriticalSection
 Trying to write to a non-writable image
+TvLS^
 TxFace
 TxFont
 TxMode
@@ -13848,6 +13850,7 @@ Volume Voxel Size
 Volume Z Position List
 Volume Z Position Size
 Voronoi
+V}3F-#	iG
 W LcD$XL
 W/q#IX
 W5PM.
@@ -14521,6 +14524,7 @@ Zoom Select Status
 ^5TQ0
 ^?y?^?
 ^M:^M:^M:^M:^M:_L7^N9VNAaXYo`mmdppx
+^RME)
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
 ^oEZ_
 ^w?Hc
@@ -17180,7 +17184,6 @@ iQYF*1(07,17-06,/3,-2-.3--2,,0+,3,)4--8-2>-2>*6C.DV;H]=^qRZlS,8.heVheVheVifWifWj
 iTXt: invalid compression
 iTXt: invalid keyword
 iTXt: uncompressed text too long
-iZpsZU
 iacute
 ibm737
 ibm775
@@ -18173,7 +18176,6 @@ p L+p
 p UWATAVAWH
 p WATAUAVAWH
 p WAVAWH
-p&6_%
 p88pD8pT8p`8pp8pp8`p8Tp8Dp88pD8pT8p`8pp8`p8Tp8Dp88p88pE8pT8p`8pp8`p8Tp8DpPPpXPp`PphPppPppPhpP`pPXpPPpXPp`PphPppPhpP`pPXpPPpPPpXPp`PphPppPrpP`pPXp
 p?, d
 p?l ?
@@ -18640,6 +18642,7 @@ q "q%Bq*bq/
 q H+q
 q#(R$=
 q(A9(vH3
+q2HfL uC>
 q<<<u
 q<<<ux
 qD99~UH
