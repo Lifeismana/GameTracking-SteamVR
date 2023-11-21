@@ -1,13 +1,13 @@
 	!s99
+	w)Fw
  %41g
+ z'9n
 !hn7!
 ',=?k
-( U6C
 (f*^[0
 +Xt@(
 +o'q)}
 ,W5y+
-,}plp
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -87,7 +87,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231118182227Z0/
+231121001038Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -109,6 +109,7 @@
 4K4n4{4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5$5(5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
+50\~vD
 5FjiT
 5Genu
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -148,12 +149,13 @@
 >Mp$d
 ? ?d?m?v?
 ?4?8?T?X?`?h?p?t?|?
-?86$9
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
+@]B(A
 Bellevue1
+C'd`kf
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 20230
@@ -187,7 +189,6 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JJRx:
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -200,7 +201,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSB
+R! `p
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -272,7 +273,6 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l2|X/gGe
-lPk)z
 m0k0$
 malloc
 memcpy
@@ -281,6 +281,7 @@ memset
 modelNumber
 renderHeight
 renderWidth
+sbU*x^
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
@@ -294,9 +295,9 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-x6W,7
 {un'%
 |Lu?c
+}	><d\
 }LuHO
 ~qj#k"
 ~t&LN

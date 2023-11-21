@@ -80,6 +80,7 @@ $< t6<$t,<+t"<vt
 )t$ I
 )t$0H
 )t$`H
++G0_5!L
 +J$D8M@
 +Xt@(
 +o'q)}
@@ -378,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231118182800Z0/
+231121001620Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -390,6 +391,7 @@ $< t6<$t,<+t"<vt
 370322235959Z0c1
 380115120000Z0b1
 3A8A#
+3G;yX
 3mq+<
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -561,6 +563,7 @@ $< t6<$t,<+t"<vt
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@_N@Z
 ?WTrace@IVRCamera@vrcamera@@UEAAXAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
 ?YUVToRGB@IVRCameraFrame@vrcamera@@MEAAXEEEAEAD00@Z
+?l%c&
 @(D9i(
 @.data
 @.reloc
@@ -930,7 +933,6 @@ G,9G$u
 G0LcGDI
 G89D$0u
 G8HcODI
-GJ8f>=a
 Get ASIC register value failed
 GetCPInfo
 GetCurrentPackageId
@@ -1123,7 +1125,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDS+/
+RSDSJM
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1240,6 +1242,7 @@ Verify failed at 0x%X/0x%X Bytes
 VirtualAlloc
 VirtualFree
 VirtualProtect
+V|Q,7
 W0;Ct~ZH
 W8HcH
 WATAUAVAWH
@@ -1264,7 +1267,6 @@ Y9"SD
 Z(D9Z
 [@D8}oteH
 [K]taM?
-[o$,b;SF\
 \$ UH
 \$ UVWAVAWH
 \$ UWAVH
@@ -1403,6 +1405,7 @@ e@A_A^]
 eventObject
 executable format error
 f	n@H
+f dq`m
 f#D$@H
 f9,Yu
 f9/t	H
@@ -1430,6 +1433,7 @@ fseek
 fsetpos
 function not supported
 fwrite
+gV)9M
 generic
 graph
 h< t <$
@@ -1440,7 +1444,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-ia0V_g
 identifier removed
 illegal byte sequence
 inappropriate io control operation
@@ -1672,7 +1675,6 @@ vector<bool> too long
 version
 vrcamera_api.dll
 w(HcODI
-wQDH 
 wcsnlen
 wcstoul
 wrong protocol type
@@ -1721,7 +1723,6 @@ yH;YXtl
 |$rfD
 |Lu?c
 }LuHO
-}wBa;
 ~`D8I!t-
 ~qj#k"
 ~t&LN

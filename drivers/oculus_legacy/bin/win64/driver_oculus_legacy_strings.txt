@@ -6,7 +6,6 @@
  A__^
  H3E H3E
 !hn7!
-&BEz 
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -15,7 +14,6 @@
 (f*^[0
 (l$PD
 (t$pH
-)3;TANp
 )D$ H
 )\$pD
 )d$`D
@@ -93,7 +91,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231118183034Z0/
+231121001856Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -125,7 +123,6 @@
 9l$pt
 ;K sCH
 ;K sUH
-;a7iz
 ;k sAH
 ;k sDH
 <0:08
@@ -163,7 +160,6 @@ Bellevue1
 C(L95
 CL$PH
 COculusHmdLatest::UpdateThread
-CQ2	v
 CT$ H
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -212,9 +208,9 @@ H SWH
 H-^Eu
 H93t	H
 H;{XH
-HGY1T
 HcD$0
 HcK@H
+HdO $
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -272,7 +268,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDSs
+RSDS[!
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -323,8 +319,8 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+X<B6>
 Y9"SD
-Y;l_G
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -399,6 +395,7 @@ jj@0HK4
 k0i0$
 l$8E3
 l2|X/gGe
+m"kv|
 m0k0$
 malloc
 map/set<T> too long
@@ -407,7 +404,6 @@ memcpy
 memmove
 memset
 n\tuH
-n`anj
 ntelD
 oculus
 ovrHmd_ConfigureTracking failed for %d
@@ -476,7 +472,6 @@ vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
 z(uMH
-z6WM`
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -491,6 +486,5 @@ z6WM`
 |$8I;
 |Lu?c
 }LuHO
-}O?HE*
 ~qj#k"
 ~t&LN

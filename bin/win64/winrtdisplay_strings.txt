@@ -10,7 +10,9 @@
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
+&Hpz 
 ',=?k
+( mH#
 (D$0f
 (f*^[0
 +Xt@(
@@ -117,7 +119,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231118182708Z0/
+231121001521Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -128,15 +130,17 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3A2qW
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5ZZ?'
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
+7440p
+7MZan"x}
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -144,14 +148,12 @@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
-9zG9J
 <0:08
 <P)9Y
 <unknown>
 =rIQU
 >0<0:
 >Mp$d
-?2z'	
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
@@ -261,7 +263,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSQ
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -368,6 +369,7 @@ c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdi
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
+f`l[6
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -403,7 +405,6 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
-zi:~JD
 {un'%
 |$ AVH
 |$0E3

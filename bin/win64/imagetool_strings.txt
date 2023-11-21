@@ -2355,6 +2355,7 @@ $wtpt
 )))))
 )))))))
 ))))))))))))))))))))))))))
+)/z-(U
 )2STud>
 )8)k)
 )9IYiy
@@ -2816,7 +2817,6 @@ $wtpt
 +local-contrast
 +loop
 +lowlight-color
-+m$G&<M
 +magnify
 +mask
 +matte
@@ -3719,7 +3719,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231118183057Z0/
+231121001916Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -4112,6 +4112,7 @@ $wtpt
 9|$`tVH
 9|$x~
 : %s %s %s
+:#gS<
 :#u,A
 :+}9-}9/}:0|:1w:3s8/p6,o8-n7+n6/k4,g3*`.$p8/
 :,~:/~:0{90y8/w9/v90t:.q6-n3+k4)e1%s=2
@@ -5266,6 +5267,7 @@ A_A^_^[
 A_A^_^[]
 A_A^_^]
 A_A^_^][
+A_Z3I
 A_^[]
 A_^][
 A__[]
@@ -9338,7 +9340,6 @@ J.2&+.(01+:=0LONXVmnl
 J5MH0
 J7J}J
 J8I9H
-J;	)V
 J>@G_
 J>kK@\]^g
 JBIG1
@@ -10157,7 +10158,6 @@ M;J8|
 M;Q8s
 M;e }9H
 MAC Paint
-MAG;)}*
 MAGICK
 MAGICK_CONFIGURE_PATH
 MAGICK_GHOSTSCRIPT_FONT_PATH
@@ -12291,7 +12291,6 @@ S urrainn dhomh gloinne ithe; cha ghoirtich i mi.
 S']!e
 S(H;W
 S(I+V
-S-s#]
 S0Q0O
 S1?=ST6I
 S8;z<u
@@ -13421,7 +13420,6 @@ T~OXu
 U D+	
 U%	PG;
 U(UuU
-U(qdR
 U0HcJ
 U0tYA
 UATAUAVAWH
@@ -14302,7 +14300,6 @@ Zoom Select Status
 [XH;w8|
 [XL;w8|
 [built-in]
-[by<@
 [fa=3HC/
 [ghostscript library %.2f]
 [ghostscript library %.2f]%s: %s
@@ -15803,7 +15800,6 @@ e, na st?pe sa ?ate? u?
 e-1.0*
 e0A_A^A]A\]
 eC}gc}m
-eJVWS
 ePfP4=0*&#.$&+**)+,'+/''-)$"W\H~
 eXC	\
 eXXXX
@@ -17184,6 +17180,7 @@ iQYF*1(07,17-06,/3,-2-.3--2,,0+,3,)4--8-2>-2>*6C.DV;H]=^qRZlS,8.heVheVheVifWifWj
 iTXt: invalid compression
 iTXt: invalid keyword
 iTXt: uncompressed text too long
+iZpsZU
 iacute
 ibm737
 ibm775
@@ -18176,6 +18173,7 @@ p L+p
 p UWATAVAWH
 p WATAUAVAWH
 p WAVAWH
+p&6_%
 p88pD8pT8p`8pp8pp8`p8Tp8Dp88pD8pT8p`8pp8`p8Tp8Dp88p88pE8pT8p`8pp8`p8Tp8DpPPpXPp`PphPppPppPhpP`pPXpPPpXPp`PphPppPhpP`pPXpPPpPPpXPp`PphPppPrpP`pPXp
 p?, d
 p?l ?
@@ -21098,7 +21096,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |4D+Q
 |6HcVt
 |7&rU3
-|86nh
 |<HcVtH
 |>>Bq
 |>fff

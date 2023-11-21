@@ -562,7 +562,6 @@ $Vh&*
 .tls$
 .tls$ZZZ
 .xdata$x
-//d)%
 /t;_^2
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$04080<0D0\0l0p0
@@ -709,7 +708,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231118182127Z0/
+231121000945Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -793,7 +792,6 @@ $Vh&*
 3H4i4
 3V4=5
 3d4m4
-3i.-*
 3mq+<
 4 4$4(4,4
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
@@ -837,6 +835,7 @@ $Vh&*
 4@4x4
 4@5Z5
 4D4X4h4|4
+4HQZT
 4L4l4
 4T5X5\5`5d5h5l5p5t5x5|5
 4U7p7
@@ -1675,7 +1674,6 @@ F<\uD
 FH;FDu
 FH<au
 FH<bu
-F\SbME
 Failed to GAP Auth Key Reply. (nrf_error: %s)
 Failed to GAP Authenticate. (nrf_error: %s)
 Failed to GAP Security Params Reply. (nrf_error: %s)
@@ -1878,7 +1876,6 @@ OLEAUT32.dll
 OT+O`
 Od+O`
 Out of thread local storage!
-P-,I|
 P4X4\4`4d4h4l4p4t4x4|4
 PAq=?Mp#
 PID_%04X
@@ -1902,7 +1899,6 @@ PostQueuedCompletionStatus
 Power Control
 Progress: %d%% (%d/%d)
 Pz}b!
-P~Aal%
 Q0;Q(t#
 QPh@	
 Qkkbal
@@ -1911,6 +1907,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDS'
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2108,7 +2105,6 @@ Zipfile is corrupt or not a zipfile
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
-]Zo6X
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -2174,7 +2170,6 @@ _strlwr
 _strnicmp
 _strupr_s
 `.rdata
-`Tj0T
 a7hIw
 a9~@u
 additional six characters expected to parse unicode surrogate pair.
@@ -2210,7 +2205,6 @@ dat_file
 data error
 deque<T> too long
 digit
-e9^Rp
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2453,6 +2447,7 @@ uDVVV
 uGhpE
 uGhpQ
 uMhP#
+uPZTL!b
 uSj&h
 uT9=$1
 uj#hD
@@ -2486,7 +2481,6 @@ xdigit
 y4_^[
 {L?uI
 {un'%
-|2/^!K
 |Lu?c
 |cj#h
 }	jCh

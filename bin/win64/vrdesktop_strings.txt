@@ -31,6 +31,7 @@
 (t$@H
 (|$ H
 )D$ L
+)Z&r)
 )t$ H
 )t$0H
 )t$@H
@@ -165,7 +166,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231118183539Z0/
+231121002402Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -427,7 +428,6 @@ Failed to reinitialize output duplication for desktop %d, updating description.
 Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
-G)wJ(
 GDI32.dll
 GetCurrentProcessId
 GetCurrentThread
@@ -693,6 +693,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 [K]taM?
+[e1;9
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -703,7 +704,7 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
-\U,"E
+\V8L'(R0N
 \u=H;
 ]J<0"0i3
 ]g@8yhu
@@ -744,7 +745,6 @@ _crt_atexit
 _dtest
 _execute_onexit_table
 _gUT^
-_hl*r
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -776,6 +776,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+cXD[4
 cs_cs
 czech
 d$`H=
@@ -837,7 +838,6 @@ k0i0$
 kernel32.dll
 ko_ko
 korean
-kuy6 
 l$ H;
 l$ H=
 l$8E3
@@ -849,7 +849,6 @@ m0k0$
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
-ma$I3W
 malloc
 map/set<T> too long
 memcmp
@@ -910,6 +909,7 @@ tolower
 tr_tr
 turkish
 ua_ua
+ujZAk=
 ukranian
 user32.dll
 v=Y]Bv
@@ -958,5 +958,6 @@ zh_tw
 |$pH+
 |Lu?c
 }LuHO
+~inm^U
 ~qj#k"
 ~t&LN

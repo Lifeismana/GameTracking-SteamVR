@@ -1,6 +1,7 @@
 	!s99
  %41g
  (Camera)
+ F(UuH
 !hn7!
 ',=?k
 (Unable to load LibOVR)
@@ -9,6 +10,7 @@
 +o'q)}
 , last executing in 
 ,W5y+
+-|w-*
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -27,6 +29,7 @@
 .?AVbad_array_new_length@std@@
 .?AVexception@std@@
 .?AVtype_info@@
+.AX5;
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU
@@ -92,7 +95,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231118182234Z0/
+231121001046Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -123,7 +126,6 @@
 4j/hd
 5$5/5
 5&5.565r5
-5)~qr;XOR
 5,5<5@5P5T5X5`5x5|5
 586<6@6D6H6L6P6T6X6\6`6
 5=637Q7~7
@@ -132,7 +134,6 @@
 5N5W5`5i5n5s5z5
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-5m	Hq
 6$6<6L6P6`6d6h6p6
 6*f(_
 696r6
@@ -211,7 +212,6 @@
 @.reloc
 ADVAPI32.dll
 Bellevue1
-C%2gF
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -296,7 +296,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS N
+RSDS\y
 RaiseException
 S0Q0O
 SA|X=G
@@ -304,7 +304,6 @@ SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
-S]L,=
 SetEvent
 SetUnhandledExceptionFilter
 Sleep

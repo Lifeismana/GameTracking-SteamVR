@@ -43,7 +43,6 @@
 !(0)"
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !0(0/0.292E2
-!17GL
 !9~ t
 !hn7!
 " not found in the scene.
@@ -461,7 +460,7 @@ $9^ t
 220801000000Z
 223S3
 230714000000Z
-231118182231Z0/
+231121001042Z0/
 241009235959Z0a1
 253a3
 2<2A2I2O2T2Z2l2v2|2
@@ -948,7 +947,6 @@ $9^ t
 <@<L<T<t<
 <A<H<
 <A<L<q<
-<I@4FX
 <Q<Z<c<l<q<v<}<
 <R=]=
 <SVWj
@@ -1048,6 +1046,7 @@ $9^ t
 >Q>U>*?.?
 >ff&?
 >h?n?w?
+>u!$m
 ? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
 ? ?%?*?/?4?9?>?C?H?M?R?W?\?a?f?k?p?u?z?
 ? ?(?@?P?T?d?h?l?p?x?
@@ -1420,6 +1419,7 @@ No valid guardian bounds. Creating standing chaperone
 Nodet3
 NormalTextureInfo
 Not writing %s because the texture was null
+O%*hi
 O,_^[
 O0h0[1w2
 OPAQUE
@@ -1446,6 +1446,7 @@ Oculus\Support\oculus-runtime
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenEventW
 OpenProcess
+Oq|Xr8mW&(
 Orhographic camera description not found.
 OrthographicCamera
 Out of thread local storage!
@@ -1467,6 +1468,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
+RSDSW~
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1807,6 +1809,7 @@ cs_cs
 czech
 d3d11.dll
 d4l4p4t4x4|4
+d\)<r
 da_da
 danish
 data:application/gltf-buffer;base64,
@@ -1824,6 +1827,7 @@ doubleSided
 driver_oculus.dll
 driver_oculus.vrchap
 dxgi.dll
+e*me2M!
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
@@ -1984,7 +1988,6 @@ lights
 list<T> too long
 localeconv
 m0k0$
-mNN~!
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -2478,7 +2481,6 @@ wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
 y"hp9
-y%YSG
 yxxx+
 zh_cn
 zh_tw

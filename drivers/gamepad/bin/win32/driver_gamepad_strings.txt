@@ -1,5 +1,6 @@
 	!s99
  %41g
+ qBeK
 !hn7!
 ',=?k
 (f*^[0
@@ -103,7 +104,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231118182208Z0/
+231121001025Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -154,6 +155,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9!9&9-929>9`9w9
 9*;V;c;
+9kg	6)
 9p9}9
 :":.:P:g:p:y:
 :(:,:0:L:P:
@@ -189,7 +191,6 @@
 Bellevue1
 CloseHandle
 CreateEventW
-DG,)3a
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -244,7 +245,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSN.
 RaiseException
 S0Q0O
 SA|X=G
@@ -340,7 +340,6 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
-hp tC
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -362,7 +361,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-{=fxb
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

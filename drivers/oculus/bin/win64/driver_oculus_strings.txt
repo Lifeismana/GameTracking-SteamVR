@@ -205,6 +205,7 @@ $w!Hc
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *uXI;
+*yJ0dk
 +Xt@(
 +o'q)}
 , binary size = 
@@ -460,7 +461,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231118183031Z0/
+231121001852Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -474,7 +475,6 @@ $w!Hc
 380115120000Z0b1
 3?9y>m0_D@H_
 3mq+<
-4"?biO
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -522,7 +522,6 @@ $w!Hc
 <uninitialized>
 <unknown>
 =7p7M}
-=BOfP
 =ETLP
 =IBgC
 =SNRtt%
@@ -976,7 +975,6 @@ Forcing chaperone update
 Found path: 
 FreeLibrary
 G(M+G I
-G-;1&
 G8$1u
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
@@ -1456,6 +1454,7 @@ X%pi
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
+Y@:CA
 Z9k0tUD
 ZL$Xf
 [K]taM?
@@ -1710,6 +1709,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
+c^l,W
 camera
 cameras
 can't merge dc and ac
@@ -1902,6 +1902,7 @@ japanese
 jj@0HK4
 joints
 jsonid
+k(RX9G
 k0i0$
 ko_ko
 korean
@@ -1967,7 +1968,6 @@ minFilter
 minVersion
 missing color table
 multiple IHDR
-n&OLv
 n0_D@
 no IDAT
 no PLTE
@@ -2445,7 +2445,6 @@ tr_tr
 translation
 true literal
 turkish
-t{T!y
 t|SUVH
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -2501,10 +2500,10 @@ www.digicert.com1$0"
 x AVH
 x UAVAWH
 xA^A\_^][
-yCGc]
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
+zH\S*
 zh_cn
 zh_tw
 zlib corrupt
@@ -2521,7 +2520,6 @@ znear
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
 {un'%
-{v1M,"
 |$ ATAUAVAWH
 |$ ATAVAWH
 |$ AUAVAWH
@@ -2562,7 +2560,6 @@ znear
 |LL\t
 |Lu?c
 }LuHO
-}a	gZ"
 ~+fff
 ~3LcD$(L
 ~6HcD$ I

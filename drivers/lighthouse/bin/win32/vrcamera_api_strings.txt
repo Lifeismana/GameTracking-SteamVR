@@ -40,6 +40,7 @@ $_^[]
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (f*^[0
+*	:n\!^
 +A Vj$
 +A$+Y
 +A$tU3
@@ -401,7 +402,6 @@ $_^[]
 1T1[1b1i1n1w1
 1a2v2
 1b2%3
-1eS#9
 1eaB@
 1n1u1
 1w4~4
@@ -432,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231118182120Z0/
+231121000937Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -456,6 +456,7 @@ $_^[]
 2O3w3
 2Q2l275
 2\4k4
+2]j.bm
 2b2v2
 2b6v6
 2c3p3
@@ -1413,13 +1414,12 @@ GetTraceEnableLevel
 GetTraceLoggerHandle
 GetVersionExW
 Gh;G<
+Gl*CA
 Global Gain:			
 GxVPR
-H)-.t\
 H-^Eu
 HP;HL
 HPQVR
-I".X)
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Index: 
 InitOnceExecuteOnce
@@ -1429,6 +1429,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
 InitializeSRWLock
+Inr??
 InterlockedFlushSList
 InterlockedPopEntrySList
 InterlockedPushEntrySList
@@ -1755,10 +1756,10 @@ islower
 isspace
 isupper
 j@j0P
+j\QmNTA
 jj@0HK4
 k0i0$
 kK04k
-kT?Do
 kW$4k_(4
 l2|X/gGe
 ldexp

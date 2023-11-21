@@ -8,6 +8,7 @@
 	!s99
 	<bu 
 	@81t/@8q
+	ihy}
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -117,7 +118,6 @@
 *D8|$h
 *uXI;
 +9kdt	H
-+OsfQ^w@n
 +Xt@(
 +o'q)}
 , H5 error count: 
@@ -633,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231118182807Z0/
+231121001629Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -726,6 +726,7 @@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
+?N;S;7
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -1004,6 +1005,7 @@ CLSIDFromString
 CONFIG [
 CONFIG_RESP [
 CONNECTION_ACTIVE
+CQzGEe
 CT$(L
 CT$@L
 CT$PH
@@ -1140,7 +1142,6 @@ DFU_RESPONSE_OPERATION_FAILED
 DFU_RESPONSE_OPERATION_NOT_PERMITTED
 DFU_RESPONSE_SUCCESS
 DFU_RESPONSE_UNSUPPORTED_TYPE
-DH2b##
 DeleteCriticalSection
 Descriptor discovery failed. (gatt_status: %s)
 Descriptor handle: %d, UUID: 0x%04X
@@ -1402,7 +1403,6 @@ MB(iVR
 MSVCP140.dll
 MTU exchange request reply failed. (nrf_error: %s)
 MTU response received. New ATT_MTU is %d
-MUEw!!
 MainThrd
 Master
 MessageBoxW
@@ -1714,7 +1714,6 @@ WAKEUP
 WATAUAVAWH
 WAVAW
 WAVAWH
-WO'A@V
 WOKEN
 WS2_32.dll
 WXM9WPt(E
@@ -1739,6 +1738,7 @@ XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
 Y9"SD
+ZeSE 
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1876,7 +1876,6 @@ d$0D)#
 d$@E3
 d$`H=
 d$pfD
-dI~2]/`6
 dat_file
 data error
 deque<T> too long

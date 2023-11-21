@@ -181,7 +181,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231118183550Z0/
+231121002413Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -211,9 +211,9 @@
 <0:08
 <unknown>
 =rIQU
->/Rh,
 >0<0:
 >Mp$d
+>yKPU
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -327,12 +327,14 @@ Access to desktop duplication lost for desktop %d.
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
+BQd^E
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C++/WinRT version:1.0.190111.3
 C0L9$
+C0_$"
 CD$(H
 CD$0H
 CD$PH
@@ -429,7 +431,6 @@ DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
 E;u`|
-ELl	/
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
 Encountered error 
@@ -651,12 +652,12 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+N>={mW
 NPH9Q
 OLEAUT32.dll
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
 Out of thread local storage!
-P=oiN	V
 PA^_^
 PA_A^A]A\_^]
 PA_A^_^]
@@ -668,7 +669,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSz
+RSDSv
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -796,8 +797,10 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
+Y,Qu<
 Y9"SD
 [K]taM?
+[e ?K
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -957,7 +960,6 @@ invalid string position
 iswspace
 it_it
 italian
-iu4k5
 ja_jp
 japanese
 jj@0HK4
@@ -1054,6 +1056,7 @@ ukranian
 update_debug_info
 update_window_list
 user32.dll
+v3E1!h
 v=Y]Bv
 vE;E`M
 vector<T> too long
@@ -1103,5 +1106,6 @@ zh_tw
 |$pH+
 |Lu?c
 }LuHO
+~> MR
 ~qj#k"
 ~t&LN

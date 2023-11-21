@@ -26,7 +26,6 @@ $9^ t
 +o'q)}
 , last executing in 
 ,W5y+
-,i>2^
 -0J0]0k0
 .00cfg
 .?AU_Crt_new_delete@std@@
@@ -173,7 +172,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231118182124Z0/
+231121000940Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -259,7 +258,6 @@ $9^ t
 727B7L7V7_7r7~7
 72969
 7O7W7
-7`xYA9
 7c8j869:9G9K9@<D<
 7d85<Z>d>h>
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
@@ -380,6 +378,7 @@ Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
 B3I3~3
+B9:^q
 BMP RLE
 Bellevue1
 CAMCMD_GET_OPENCAMERA_RESULT
@@ -410,6 +409,7 @@ EventRegister
 EventUnregister
 EventWrite
 EventWriteString
+F"D~.
 F(j4f
 FORMAT=32-bit_rle_rgbe
 Failed
@@ -429,7 +429,6 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 H-^Eu
-I+]jL{u.
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -470,6 +469,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JJ?2to"
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -480,7 +480,6 @@ LocalizationManager
 MB(iVR
 MSVCP140.dll
 MainThrd
-Md!FC=
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
@@ -502,6 +501,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
+RSDSb
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -603,6 +603,7 @@ Y__^[
 \2d2h2l2p2t2x2|2
 \3`3	484M4Q4
 ]J<0"0i3
+]lzX:
 _CIpow
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -798,6 +799,7 @@ ro_ro
 romanian
 ru_ru
 russian
+s$"Ma
 schinese
 spanish
 startup
@@ -813,6 +815,7 @@ t"Php
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
+t[lq$
 tchinese
 tdh.dll
 terminate

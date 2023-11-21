@@ -2,8 +2,10 @@
  %41g
  A__^
  H3E H3E
+ ULRN
 !hn7!
 ',=?k
+(5<R3p
 (f*^[0
 +Xt@(
 +o'q)}
@@ -83,7 +85,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231118183027Z0/
+231121001848Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -108,6 +110,7 @@
 <0:08
 =rIQU
 >0<0:
+>@e~k
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPEBD@Z
@@ -133,6 +136,7 @@ H SWH
 H-^Eu
 H93t	H
 H9=yQ
+HTG69
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -167,7 +171,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSu
+RSDSNK
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -186,9 +190,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
-We]Kl
 Y9"SD
-Yen:un
 [K]taM?
 \$ UH
 ]J<0"0i3
@@ -217,9 +219,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 _stricmp
-`(wK5
 `.rdata
-`S>U91
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -238,6 +238,7 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+hs2KF
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -254,9 +255,10 @@ memmove
 memset
 modelNumber
 ntelD
+omM.w
+r]:Sp
 renderHeight
 renderWidth
-sTLso
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
@@ -272,10 +274,9 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-zqKAB
+y5`!UX
 {un'%
 |$ AVH
-|.>(O
 |Lu?c
 }LuHO
 ~qj#k"

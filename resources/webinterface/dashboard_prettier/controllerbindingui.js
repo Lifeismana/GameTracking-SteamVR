@@ -14665,7 +14665,7 @@
                 )
                   for (let [e, t] of ae.B.m_mapOverlayState)
                     if (e.startsWith(u.wX)) {
-                      t.dockLocation = f.RA.Theater;
+                      this.setDockLocation(e, t, f.RA.Theater);
                       break;
                     }
                 (this.m_eSceneApplicationState = e),
@@ -14868,8 +14868,9 @@
                 i = null !== (n = y.G3.settings.get(t)) && void 0 !== n ? n : 1;
               }
               ae.B.m_mapOverlayState.set(e, {
-                dockLocation: f.RA.Dashboard,
                 refOverlayWidget: l.createRef(),
+                dockLocation: f.RA.Dashboard,
+                nDockStartMs: Date.now(),
                 xfInitial: null,
                 fScale: i,
               }),
@@ -15086,13 +15087,43 @@
               });
           }
           onUpdateDebugInfo(e) {}
+          setDockLocation(e, t, n) {
+            var o;
+            const i = Date.now(),
+              r = i - t.nDockStartMs;
+            if (r >= 1e3) {
+              const n = /^valve\.steam\.desktopgame\.(\d+)$/,
+                i = e.match(n),
+                a =
+                  t.dockLocation == f.RA.Theater &&
+                  null !==
+                    (o = y.G3.settings.get(
+                      "/settings/dashboard/autoShowGameTheater",
+                    )) &&
+                  void 0 !== o &&
+                  o,
+                s = {
+                  OverlayKey: e,
+                  Location: f.RA[t.dockLocation],
+                  DurationMs: r,
+                  OverlayAppID:
+                    2 == (null == i ? void 0 : i.length)
+                      ? parseInt(i[1], 10)
+                      : 0,
+                  SceneAppKeyID: v.H.Instance.SceneAppKey,
+                  autoShowGameTheater: a,
+                };
+              g.e.instance.AddRow("SteamVROverlayDockStats", s);
+            }
+            (t.dockLocation = n), (t.nDockStartMs = i);
+          }
           onDockOverlay(e, t, n) {
             var o, i;
             let r = !1;
             (t != f.RA.LeftHand && t != f.RA.RightHand && t != f.RA.Theater) ||
-              ae.B.m_mapOverlayState.forEach((e, n) => {
-                e.dockLocation == t &&
-                  ((e.dockLocation = f.RA.Dashboard), (r = !0));
+              ae.B.m_mapOverlayState.forEach((n, o) => {
+                n.dockLocation == t &&
+                  (this.setDockLocation(e, n, f.RA.Dashboard), (r = !0));
               });
             const a = ae.B.m_mapOverlayState.get(e);
             if (
@@ -15101,7 +15132,7 @@
                   (null === VRHTML ||
                     void 0 === VRHTML ||
                     VRHTML.VROverlay.ShowDashboard(e)),
-                (a.dockLocation = t),
+                this.setDockLocation(e, a, t),
                 (a.xfInitial = n)),
               t === f.RA.Dashboard)
             )
@@ -20689,4 +20720,4 @@
   var i = o.O(void 0, [968, 683], () => o(1176));
   i = o.O(i);
 })();
-//# sourceMappingURL=controllerbindingui.js.map?v=6dfec08ed566b2215a92
+//# sourceMappingURL=controllerbindingui.js.map?v=a3628b4eed73f2dd4529

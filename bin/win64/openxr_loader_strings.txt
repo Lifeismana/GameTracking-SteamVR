@@ -42,7 +42,6 @@
  was not found
  with error 
 !hn7!
-$Uc.S
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -164,7 +163,7 @@ $Uc.S
 220323000000Z
 220801000000Z
 230714000000Z
-231118183104Z0/
+231121001924Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -184,6 +183,7 @@ $Uc.S
 6I]Dc
 6OB,n_
 70503
+7H#cz
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -523,11 +523,9 @@ PA_A^A\_]
 PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
-PX\76
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS`
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -573,6 +571,7 @@ TUUUUUU
 Type is not convertible to string
 UATAUAVAWH
 UAVAWH
+UEPxi
 UNKNOWN
 USVWAVH
 USWAVAWH
@@ -662,6 +661,7 @@ Y9"SD
 \$xHi
 \ApiLayers\Explicit
 \ApiLayers\Implicit
+\M>t\
 \u=H;
 ]J<0"0i3
 _Cnd_broadcast
@@ -777,7 +777,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iP`t<F2
 implementation_version
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -821,7 +820,6 @@ memcpy
 memmove
 memset
 must be non-NULL
-nON-[
 nfinity
 ntelD
 openxr/
