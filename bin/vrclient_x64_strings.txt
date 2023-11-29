@@ -27,7 +27,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@ 8
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -135,7 +135,7 @@
 #OriginString_Source
 $@/pose/
 $IL+Q
-$tI(knNHb6
+$tI(knN
 $u=Hi
 $u^Hi
 $w!Hc
@@ -640,7 +640,6 @@ $w!Hc
 ,H;D$ 
 ,W5y+
 -1e+9999
--996.
 -9k0t&H
 -9{0t%H
 -D9c0t%H
@@ -2086,7 +2085,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231121202223Z0/
+231127211416Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2109,6 +2108,7 @@ $w!Hc
 555555
 555555555555555555555555555555555555555555555555555555555555555555555555555555
 5FjiT
+5R/Ah+
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 650000
@@ -2252,7 +2252,6 @@ $w!Hc
 ? u	Hc
 ?"t,H
 ?"tfH
-?%S/5
 ?.vW@
 ?/t6H
 ?/u3H
@@ -3578,7 +3577,6 @@ D840u
 D84;u
 D8<0u
 D8<>u
-D8=y 
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -3591,7 +3589,6 @@ D8wBt/H
 D8}gt$L
 D8}gu
 D8}guH
-D9%Cs$
 D90uGH
 D989D9XH
 D9>u:H
@@ -3685,7 +3682,6 @@ DismissedWarnings
 Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
 DominantHand
 Done reading EDID vendor Id.
-DoxKtg
 Dpad binding modification received for component (%s) and interaction profile (%s)
 Driver Failed (200)
 Driver Not Known (201)
@@ -4282,8 +4278,9 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=:A!
-H;=jy!
+H;=:x!
+H;=Zj!
+H;=jv!
 H;A s
 H;Axt
 H;C(v
@@ -4399,6 +4396,7 @@ HcA,L
 HcB Hi
 HcC,H
 HcD$x
+HcE72As[I
 HcEXL
 HcF$H
 HcFdH
@@ -4980,11 +4978,10 @@ L+I0E3
 L8 9J
 L8$9J
 L9 t'H
-L9%tn<
+L9%dn<
 L90t	H
 L93t	H
 L97u0H
-L9=}6
 L9?u,H
 L9@ s
 L9A r
@@ -5045,6 +5042,7 @@ L;C uQ
 L;C0u	
 L;D$8t
 L;D$Xu<
+L;D$p
 L;D$x
 L;D$xu	
 L;E0u	
@@ -5107,7 +5105,6 @@ Log path could not be located (112)
 Lost connection - returning quit event to FilterOverlayHandle %llu
 Lost connection to VR Server
 Low Power Watchdog Not Supported (129)
-Lr9}Dq
 M H1E
 M+HPI
 M8I;E
@@ -5168,7 +5165,7 @@ Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 N I9N(
 N I9V0t
-NC	NB+
+N(F&I
 NL$`I
 NORMAL
 NOT_READY
@@ -5506,6 +5503,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDS$
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5745,7 +5743,6 @@ Successfully changed app type
 Successfully reconnected to server
 Suggested binding for [%s] [%s]:
 Suggested bindings for %s:
-Suppressing ShowDashboard call due to application running or launching
 SwapChainImage
 SwapChainImageView
 Swapchain-WaitImage
@@ -5912,7 +5909,6 @@ TrackedProp_WrongDeviceClass
 Transitioning XrSession from %s to %s
 Turning on pipe debugging at the server's request
 Tutorial
-T{/dGQ#
 U0H9U8t
 U0H;C
 U4H;C
@@ -7332,6 +7328,7 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
+Y%7[&
 Y5Mc#
 Y5^R"
 Y9"SD
@@ -7607,7 +7604,6 @@ ZvFailed to create fence %ls.
 [Tutorial] Found input path with unexpected prefix: %s
 [VirtualDisplay] Present took to long!
 [json.exception.
-[n.~1Y\
 \$ ;S
 \$ @2
 \$ E2
@@ -7728,7 +7724,6 @@ ZvFailed to create fence %ls.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-_!w5k
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8186,7 +8181,6 @@ d$`H=
 d$`L;
 d$`fD
 d$bHc
-d$hI;
 d$hM;
 d$hfff
 d3d11.dll
@@ -8503,11 +8497,10 @@ greek
 green
 gripLimitData
 h ATAVAWH
-hA\_^[
+hA\^][
 hA^A\[]
 hA_A^A]A\_^[]
 hA_A^A]A\_^][
-hCC-u
 hH;]o
 hand_right_poses.glb
 hangInit
@@ -8657,7 +8650,6 @@ joystick_rotation_x
 joystick_rotation_y
 joystick_settings
 jsonid
-ju;D@\O )
 k0i0$
 k_EButton_A
 k_EButton_ApplicationMenu
@@ -9577,6 +9569,7 @@ supersampleScale
 supported_buttons
 supports_dominant_hand_setting
 suppressedByPriority
+svNR+
 sv_sv
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
@@ -9827,6 +9820,7 @@ timeKillEvent
 timeSetEvent
 tlfff
 tmfff
+tocz|f
 toggle_button
 toggle_camera_room_view
 tolower
@@ -9944,7 +9938,6 @@ unsupported data layout
 unsupported format
 upH;~ uj
 upper
-ur(qB%Z
 usage
 usbservice
 useActionSystemButton
@@ -9968,7 +9961,6 @@ values
 valve.steam.desktop
 valve.steam.desktopgame.
 valve.steam.gamepadui.
-valve.steam.gamepadui.main
 variant
 vb'vb'v
 vector1
@@ -10773,7 +10765,6 @@ znear
 |$X@2
 |$XH+
 |$XH;
-|$`E3
 |$`H;
 |$hL;
 |$pE2

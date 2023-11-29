@@ -2990,7 +2990,6 @@ $wtpt
 ,9,n,
 ,:<>wmH
 ,:njk
-,;^mn
 ,<L\l|
 ,?<@w
 ,????*(??
@@ -3719,7 +3718,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231121201816Z0/
+231127211021Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -4010,7 +4009,6 @@ $wtpt
 8fA9x
 8xu!A
 8xupH
-8yo>YZ
 8zbu`H
 9	}PV}
 9%u,H
@@ -4311,6 +4309,7 @@ $wtpt
 <IuEI
 <LocationX>%.20g</LocationX>
 <LocationY>%.20g</LocationY>
+<M;,:
 <Mr#'pqQr
 <NuJH
 <Title>%s</Title>
@@ -6971,7 +6970,6 @@ DEPTH %.20g
 DGKbA
 DGKbH
 DGKbu
-DG~]Y
 DHDVText
 DHText
 DICOM is used by the medical community for images like X-rays.  The
@@ -9334,6 +9332,7 @@ IterateOverSplayTree
 IterativeDistance
 IuSD8@
 Ix "H"
+I}%rIW
 J$A;K$y
 J%%o\..r8
 J.2&+.(01+:=0LONXVmnl
@@ -11754,7 +11753,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDS[9sS
+RSDSI8ltd
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -13405,7 +13404,6 @@ TryAcquireSRWLockExclusive
 TryAcquireSRWLockShared
 TryEnterCriticalSection
 Trying to write to a non-writable image
-TvLS^
 TxFace
 TxFont
 TxMode
@@ -13850,8 +13848,8 @@ Volume Voxel Size
 Volume Z Position List
 Volume Z Position Size
 Voronoi
-V}3F-#	iG
 W LcD$XL
+W#mSq(]
 W/q#IX
 W5PM.
 W5cR.
@@ -14524,7 +14522,6 @@ Zoom Select Status
 ^5TQ0
 ^?y?^?
 ^M:^M:^M:^M:^M:_L7^N9VNAaXYo`mmdppx
-^RME)
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
 ^oEZ_
 ^w?Hc
@@ -14650,6 +14647,7 @@ _isnan
 _kbhit
 _lseek
 _lseeki64
+_lyKa
 _map.shtml
 _open
 _pango_cairo_font_get_metrics
@@ -18642,7 +18640,6 @@ q "q%Bq*bq/
 q H+q
 q#(R$=
 q(A9(vH3
-q2HfL uC>
 q<<<u
 q<<<ux
 qD99~UH

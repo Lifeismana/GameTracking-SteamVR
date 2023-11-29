@@ -44,6 +44,7 @@
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !0(0/0.292E2
 !9~ t
+!QJ~d
 !hn7!
 " not found in the scene.
 "%/28;=#$019:>?
@@ -65,7 +66,6 @@
 #?RGBE
 #oculus_requested_quit
 $9^ t
-$_-P+b
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -244,6 +244,7 @@ $_-P+b
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.Q`B$
 .data
 .data$r
 .edata
@@ -461,7 +462,7 @@ $_-P+b
 220801000000Z
 223S3
 230714000000Z
-231121201602Z0/
+231127210151Z0/
 241009235959Z0a1
 253a3
 2<2A2I2O2T2Z2l2v2|2
@@ -668,6 +669,7 @@ $_-P+b
 6_6k6x6
 6d7v7
 6h8!:
+6z7]W.
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7
 7 7$7(7,70787P7`7d7h7l7t7
 7 858P8h8
@@ -767,7 +769,6 @@ $_-P+b
 8jpu9
 8pnuM
 8spot
-8tT\u
 8u:v?
 9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
 9 9094989@9X9h9l9|9
@@ -1291,6 +1292,7 @@ GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
 GPUCountingSemaphore::Wait(%llu)
 GPUCountingSemaphore::Wait(%llu) FAILED!!
+Gb62b|+W
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
@@ -1316,6 +1318,7 @@ HeapAlloc
 HeapFree
 Hmd not found.
 HmdDriverFactory
+Hv+@X
 ID3D11DeviceContext4::Signal
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -1386,6 +1389,7 @@ IsDebuggerPresent
 IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J0+J(
+J=(%|n2
 J>@G_
 JSON string too short.
 JSONuTS
@@ -1566,7 +1570,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 Wjlh(Z
-XTJU<
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -1614,7 +1617,6 @@ _Cnd_wait
 _Controller_Left
 _Controller_Right
 _CxxThrowException
-_G'eQl
 _Mtx_destroy
 _Mtx_destroy_in_situ
 _Mtx_init
@@ -1829,6 +1831,7 @@ dxgi.dll
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
+eeAw'
 el_el
 emissiveFactor
 emissiveTexture
@@ -1976,6 +1979,7 @@ joh(Z
 joints
 jsonid
 k0i0$
+k?,Kd
 ko_ko
 korean
 l2|X/gGe
@@ -1986,7 +1990,6 @@ lights
 list<T> too long
 localeconv
 m0k0$
-m25XfX
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -2431,7 +2434,6 @@ u<f9C u6f9C0u0f9C@u*f9CPu$
 u?jHQ
 uBf9C
 uCVj@
-uD8ZBD
 uEVj@
 ua_ua
 ukranian

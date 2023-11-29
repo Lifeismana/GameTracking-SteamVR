@@ -16,6 +16,7 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
+!s"0?
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -41,7 +42,6 @@
 ,W5y+
 -1e+9999
 -Infinity
--\'o*
 -u-I;
 .00cfg
 .?AUIInteractableOverlay@@
@@ -105,7 +105,6 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.MUq!Q
 .data
 .data$r
 .edata
@@ -162,12 +161,14 @@
 0}0i1
 130801120000Z
 1e+9999
+1|;?q
+2&R:O
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231121202310Z0/
+231127211506Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -178,7 +179,6 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3L3J1h
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -191,7 +191,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-8d2zjD
 < t+<
 </u#H
 <0:08
@@ -199,7 +198,6 @@
 =rIQU
 >0<0:
 >Mp$d
-?1i3m
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -404,6 +402,7 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
+FIPi!0
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -597,12 +596,11 @@ PAq=?Mp#
 Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Pi2u3
 Pz}b!
-QDa%>
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS%
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -650,6 +648,7 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+U1:2=
 UATAUAVAWH
 USER32.dll
 USVWATAUAVAWH
@@ -711,7 +710,6 @@ Y9"SD
 \$pI;
 \u=H;
 ]J<0"0i3
-]er#J
 ]g@8yhu
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -787,6 +785,7 @@ d$`H=
 d$`L;
 d$`M;
 d3d11.dll
+dYgrb`u
 da_da
 danish
 de_de
@@ -913,6 +912,7 @@ tolower
 tr_tr
 turkish
 ua_ua
+uckfu
 ukranian
 user32.dll
 v=Y]Bv
@@ -959,6 +959,7 @@ zh_tw
 |$PL9~
 |$hH9>ueH
 |$pH+
+|A,EM
 |Lu?c
 }LuHO
 ~qj#k"

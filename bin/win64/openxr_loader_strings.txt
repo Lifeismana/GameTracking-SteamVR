@@ -42,8 +42,6 @@
  was not found
  with error 
 !hn7!
-"mlX-
-#spI6
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -165,7 +163,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231121201825Z0/
+231127211029Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -182,16 +180,16 @@
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
-6@yn?
 6I]Dc
 6OB,n_
-7$;VH
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+;,H%;
 <0:08
+=E;[loV
 =rIQU
 >0<0:
 >Mp$d
@@ -395,7 +393,6 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Duplicate key: '
 E8,9u
-EViI8
 Empty escape sequence in string
 EnterCriticalSection
 Entering LoaderInstance::CreateInstance
@@ -517,8 +514,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
-N,-ilW
-N5ZcB
 No active XrInstance handle.
 OpenProcessToken
 OpenXR-Loader
@@ -588,12 +583,14 @@ UWATAUAVH
 UWATAVAWH
 UWAVH
 UWAWH
+UZ	\@ZM
 Unable to parse token length
 UnhandledExceptionFilter
 Unknown error occurred calling down chain
 Unknown exception
 Unknown failure
 Unknown failure: 
+Uu9KU
 V H+V
 V I9V(t L
 VATAUAVAWH
@@ -668,7 +665,6 @@ Y9"SD
 \ApiLayers\Implicit
 \u=H;
 ]J<0"0i3
-]eY>s
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -740,6 +736,7 @@ collectComments
 d$ UAVAWH
 d$PE3
 d$`H=
+dKOLIi
 deque<T> too long
 description
 disable_environment
@@ -829,6 +826,7 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
+qLA43CT
 rejectDupKeys
 runtime
 s t#fff

@@ -57,7 +57,6 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-$&RE,
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -311,7 +310,7 @@ $9E0u
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
-'eP'#
+'\mX;*
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -324,6 +323,7 @@ $9E0u
 (L$pD
 (d$pD
 (f*^[0
+(k X}xhS
 (l$0L
 (l$@D
 (l$`H
@@ -532,7 +532,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231121201544Z0/
+231127210758Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -553,7 +553,6 @@ $9E0u
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7vHG@x
 8 t"L
 8 u"L
 8A^A\
@@ -600,7 +599,6 @@ $9E0u
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
-?hy!Y
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 @.data
@@ -733,6 +731,7 @@ AddAccessAllowedAce failed for steam. GetLastError returned: %d
 AddAccessAllowedAce failed for test app. GetLastError returned: %d
 AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
 AddStage and CopyStages are mutually exclusive.
+AjX4$
 Already initialized
 Apply blur filter
 Apply median filter
@@ -1048,7 +1047,6 @@ Forced create of file mapping %s but it already existed
 Foreign timelines unsupported. Leaking resource.
 Format string parse failure
 FormatMessageA
-Fp"8\J
 Frame Hallucination Descriptor Allocator
 Frame Hallucination Pipeline
 Frame Hallucination Pipeline Variant %d
@@ -1426,6 +1424,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDSEK
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1673,6 +1672,7 @@ Yl$4E
 \mfpmp.exe
 ]J<0"0i3
 ]g@8yhu
+^Q$a|6
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1731,7 +1731,6 @@ _wcsnicmp
 `A_A^A]A\_^[
 `A_^]
 a7hIw
-aN4HV
 abort
 acosf
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -1834,6 +1833,7 @@ data.hIPC.IsValid()
 deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
+eJpXt
 effffff
 f9+t4
 f98tZH
@@ -1868,7 +1868,6 @@ gfffffffM
 gfffffffO
 graphicsCommandSet.Valid()
 hA_A^A]A\_^[]
-h[%3{
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -2570,7 +2569,6 @@ www.digicert.com1$0"
 xA_A^A]A\_^[]
 yxxxxxxxH
 yxxxxxxxI+
-{^CB)
 {pH;{xw?
 {un'%
 |$ ATAUAVAWH
