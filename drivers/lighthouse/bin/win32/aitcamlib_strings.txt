@@ -8,11 +8,13 @@
 #?RADIANCE
 #?RGBE
 $9^ t
+$IA\Z
 %,3:;4-&
 %3333
 %UUUU
 ',=?k
 '.5<=6/7>????????????????
+(A@j 
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -22,8 +24,6 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
-(v3P	
-)wK;&
 +Xt@(
 +o'q)}
 , last executing in 
@@ -174,7 +174,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231130054225Z0/
+231202020132Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -319,7 +319,6 @@ $9^ t
 <"<-<N<^<h<r<
 <,<P<\<d<|<
 <0:08
-<FY@h.!f
 <_=r=
 <unknown>
 =(=2=B=M=n=~=
@@ -429,7 +428,6 @@ GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
-H%-1c
 H-^Eu
 IVRApplicationsInternal_XXX
 IVRApplications_007
@@ -502,6 +500,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
+RSDSedjR$
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -734,6 +733,7 @@ fr_fr
 fread
 french
 fseek
+g#hj8
 german
 greek
 http://ocsp.digicert.com0A
@@ -838,6 +838,7 @@ unsupported bit depth
 unsupported data layout
 unsupported format
 v#QPh8
+v(^lG
 v=Y]Bv
 vi_vi
 vietnamiese

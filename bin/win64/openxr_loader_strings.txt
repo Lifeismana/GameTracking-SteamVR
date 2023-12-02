@@ -66,7 +66,6 @@
 , negotiation failed with error 
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
-,(rHE"
 ,W5y+
 -1e+9999
 -Infinity
@@ -156,6 +155,7 @@
 0A__[
 0w0c1
 0x%llx (%lld): 
+0y+:6o~
 0}0i1
 130801120000Z
 1e+9999
@@ -164,7 +164,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130055148Z0/
+231202020454Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -185,7 +185,6 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7z3*/|v
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -319,7 +318,6 @@ ApiLayerInterface::LoadApiLayers succeeded loading layer
 ApiLayerManifestFile::CreateIfValid 
 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
 AuthD
-B@u3E
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -358,7 +356,6 @@ CloseHandle
 Completed loader terminator
 Completed loader trampoline
 CreateEventW
-Ct%! la
 D$ A;
 D$ E3
 D$ H;
@@ -416,7 +413,6 @@ FindNextFileW
 FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
-G7(Y:(
 GENERAL
 GetCurrentProcess
 GetCurrentProcessId
@@ -631,6 +627,7 @@ WATAUAVAWH
 WATAVH
 WAUAWH
 WAVAWH
+W`8P9
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning [
@@ -643,7 +640,6 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-Zv<o4
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -667,6 +663,7 @@ Zv<o4
 \ApiLayers\Implicit
 \u=H;
 ]J<0"0i3
+_54@Zu_
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ

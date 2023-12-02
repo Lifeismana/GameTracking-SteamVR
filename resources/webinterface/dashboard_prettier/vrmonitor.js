@@ -456,12 +456,12 @@
           return r.bShouldAbort
             ? null
             : o
-              ? (n.length > 0 && (o.children = n), [o])
-              : n.length > 0
-                ? 1 == n.length
-                  ? n
-                  : [{ children: n }]
-                : null;
+            ? (n.length > 0 && (o.children = n), [o])
+            : n.length > 0
+            ? 1 == n.length
+              ? n
+              : [{ children: n }]
+            : null;
         }
         !(function (e) {
           (e[(e.None = 0)] = "None"),
@@ -1192,11 +1192,11 @@
               c && c.length > 0
                 ? (l.properties.key = c)
                 : h
-                  ? (l.properties.key = h)
-                  : (l.properties.overlay_handle =
-                      null === VRHTML || void 0 === VRHTML
-                        ? void 0
-                        : VRHTML.VROverlay.ThisOverlayHandle()),
+                ? (l.properties.key = h)
+                : (l.properties.overlay_handle =
+                    null === VRHTML || void 0 === VRHTML
+                      ? void 0
+                      : VRHTML.VROverlay.ThisOverlayHandle()),
               (l.properties.uv_min =
                 null !== (r = Te(this.m_UVsMin)) && void 0 !== r ? r : void 0),
               (l.properties.uv_max =
@@ -2966,21 +2966,21 @@
                     ? r.input_bindingui_left.transform
                     : ""))
                 : "/user/hand/right" == this.props.devicePath
-                  ? r.input_bindingui_right &&
-                    ((e = r.input_bindingui_right.uri),
-                    (t = r.input_bindingui_right.transform
-                      ? r.input_bindingui_right.transform
-                      : ""))
-                  : r.input_bindingui_left
-                    ? ((e = r.input_bindingui_left.uri),
-                      (t = r.input_bindingui_left.transform
-                        ? r.input_bindingui_left.transform
-                        : ""))
-                    : r.input_bindingui_right &&
-                      ((e = r.input_bindingui_right.uri),
-                      (t = r.input_bindingui_right.transform
-                        ? r.input_bindingui_right.transform
-                        : "")),
+                ? r.input_bindingui_right &&
+                  ((e = r.input_bindingui_right.uri),
+                  (t = r.input_bindingui_right.transform
+                    ? r.input_bindingui_right.transform
+                    : ""))
+                : r.input_bindingui_left
+                ? ((e = r.input_bindingui_left.uri),
+                  (t = r.input_bindingui_left.transform
+                    ? r.input_bindingui_left.transform
+                    : ""))
+                : r.input_bindingui_right &&
+                  ((e = r.input_bindingui_right.uri),
+                  (t = r.input_bindingui_right.transform
+                    ? r.input_bindingui_right.transform
+                    : "")),
               e
                 ? a.createElement(
                     "div",
@@ -3781,16 +3781,16 @@
                 ? a + "_charging_red.png"
                 : a + "_charging.png"
               : 0 == r
-                ? null
-                : r < 0.15
-                  ? a + "_low.png"
-                  : r < 0.3
-                    ? a + "_battery_1.png"
-                    : r < 0.6
-                      ? a + "_battery_2.png"
-                      : r < 0.9
-                        ? a + "_battery_3.png"
-                        : a + "_battery_4.png";
+              ? null
+              : r < 0.15
+              ? a + "_low.png"
+              : r < 0.3
+              ? a + "_battery_1.png"
+              : r < 0.6
+              ? a + "_battery_2.png"
+              : r < 0.9
+              ? a + "_battery_3.png"
+              : a + "_battery_4.png";
           }
           OnBatteryStateChanged(e) {
             e == this.props.trackedDeviceIndex && this.UpdateControllerStatus();
@@ -4756,8 +4756,8 @@
                 ? { y: -0.62, z: 0.01 }
                 : { y: -0.72, z: 0.01 }
               : d
-                ? { y: -0.73, z: 0.05 }
-                : { y: -0.87, z: 0.05 };
+              ? { y: -0.73, z: 0.05 }
+              : { y: -0.87, z: 0.05 };
           return l.createElement(
             a.wx,
             { translation: h },
@@ -5317,10 +5317,10 @@
             return e == $.Near
               ? 0.925
               : e == $.Middle
-                ? 1.05
-                : e == $.Far
-                  ? 1.2
-                  : 1.15;
+              ? 1.05
+              : e == $.Far
+              ? 1.2
+              : 1.15;
           }
           static getDashboardVerticalPosition() {
             var e;
@@ -5336,8 +5336,8 @@
             return r == $.Near
               ? -0.07 + t
               : r == $.Middle
-                ? -0.08 + t
-                : ($.Far, -0.09 + t);
+              ? -0.08 + t
+              : ($.Far, -0.09 + t);
           }
           static getDashboardScale() {
             var e;
@@ -5349,10 +5349,10 @@
                 r == $.Near
                   ? 0.36
                   : r == $.Middle
-                    ? 0.41
-                    : r == $.Far
-                      ? 0.47
-                      : 0.41),
+                  ? 0.41
+                  : r == $.Far
+                  ? 0.47
+                  : 0.41),
               (t *=
                 null !==
                   (e =
@@ -5898,8 +5898,8 @@
               (s = i
                 ? (0, p.Xx)("#Exit_SteamVR_Home")
                 : n
-                  ? (0, p.Xx)("#PowerMenuQuitSceneApp", n)
-                  : (0, p.Xx)("#PowerMenuQuitSceneApp_NoApp")),
+                ? (0, p.Xx)("#PowerMenuQuitSceneApp", n)
+                : (0, p.Xx)("#PowerMenuQuitSceneApp_NoApp")),
               (d = i
                 ? "/dashboard/images/icons/svr_svrhome_quit_alt.svg"
                 : "/dashboard/images/icons/svr_app_quit.svg"),
@@ -6299,8 +6299,8 @@
               (r == $.Middle
                 ? (o *= 1.5)
                 : r == $.Far
-                  ? (o *= 1.85)
-                  : r == $.Standard && (o *= 1.5));
+                ? (o *= 1.85)
+                : r == $.Standard && (o *= 1.5));
             const n = this.GetActiveOverlayAnchorIDs();
             return l.createElement(
               l.Fragment,
@@ -7322,10 +7322,10 @@
             M == $.Near
               ? ((w *= 0.5), (D *= 0.5))
               : M == $.Middle
-                ? ((w *= 1), (D *= 1))
-                : M == $.Far
-                  ? ((w *= 4), (D *= 2.5))
-                  : M == $.Standard && ((w *= 1), (D *= 1));
+              ? ((w *= 1), (D *= 1))
+              : M == $.Far
+              ? ((w *= 4), (D *= 2.5))
+              : M == $.Standard && ((w *= 1), (D *= 1));
             const T =
                 null ===
                   (r = b.G3.settings.get(
@@ -10232,11 +10232,10 @@
             return "" != this.state.sCurrentWindowOverlayKey
               ? -1
               : null !==
-                    (e = v.G3.settings.get(
-                      "/settings/dashboard/desktopIndex",
-                    )) && void 0 !== e
-                ? e
-                : 1;
+                  (e = v.G3.settings.get("/settings/dashboard/desktopIndex")) &&
+                void 0 !== e
+              ? e
+              : 1;
           }
           get currentWindowHwnd() {
             return "" == this.state.sCurrentWindowOverlayKey
@@ -10335,69 +10334,8 @@
               ? this.state.bIsUsingSteamDesktop
                 ? h.createElement(i.sl, { mountedId: (0, i.iN)(m.GN, m.Xl) })
                 : this.state.bIsReady
-                  ? 0 === this.state.desktopIndices.length
-                    ? h.createElement(
-                        g.lL,
-                        { visible: !0, summonOverlayKey: m.gB },
-                        h.createElement(
-                          "div",
-                          { className: "NoDesktopFound" },
-                          h.createElement(
-                            "h2",
-                            null,
-                            (0, p.Xx)("#NoDesktopFound"),
-                          ),
-                        ),
-                      )
-                    : -1 == this.currentDesktopIndex
-                      ? h.createElement(
-                          h.Fragment,
-                          null,
-                          h.createElement(
-                            i.s_,
-                            {
-                              overlay_key: this.state.sCurrentWindowOverlayKey,
-                              height: n.k_nDesktopPanelBaseHeight,
-                              curvature_origin_id: t,
-                              interactive: !0,
-                              origin: i.Ic.BottomCenter,
-                              debug_name: "System Desktop",
-                            },
-                            h.createElement(g.Yd, { summonOverlayKey: m.gB }),
-                            h.createElement(i.sl, {
-                              mountedId: (0, i.iN)(
-                                m.GN,
-                                this.state.sCurrentWindowOverlayKey + ".cursor",
-                              ),
-                            }),
-                          ),
-                        )
-                      : h.createElement(
-                          h.Fragment,
-                          null,
-                          h.createElement(
-                            i.s_,
-                            {
-                              overlay_key:
-                                "system.desktop." + this.currentDesktopIndex,
-                              height: n.k_nDesktopPanelBaseHeight,
-                              curvature_origin_id: t,
-                              interactive: !0,
-                              origin: i.Ic.BottomCenter,
-                              debug_name: "System Desktop",
-                            },
-                            h.createElement(g.Yd, { summonOverlayKey: m.gB }),
-                            h.createElement(i.sl, {
-                              mountedId: (0, i.iN)(
-                                m.GN,
-                                "system.desktop." +
-                                  this.currentDesktopIndex +
-                                  ".cursor",
-                              ),
-                            }),
-                          ),
-                        )
-                  : h.createElement(
+                ? 0 === this.state.desktopIndices.length
+                  ? h.createElement(
                       g.lL,
                       { visible: !0, summonOverlayKey: m.gB },
                       h.createElement(
@@ -10406,10 +10344,71 @@
                         h.createElement(
                           "h2",
                           null,
-                          (0, p.Xx)("#DesktopViewsUpdating"),
+                          (0, p.Xx)("#NoDesktopFound"),
                         ),
                       ),
                     )
+                  : -1 == this.currentDesktopIndex
+                  ? h.createElement(
+                      h.Fragment,
+                      null,
+                      h.createElement(
+                        i.s_,
+                        {
+                          overlay_key: this.state.sCurrentWindowOverlayKey,
+                          height: n.k_nDesktopPanelBaseHeight,
+                          curvature_origin_id: t,
+                          interactive: !0,
+                          origin: i.Ic.BottomCenter,
+                          debug_name: "System Desktop",
+                        },
+                        h.createElement(g.Yd, { summonOverlayKey: m.gB }),
+                        h.createElement(i.sl, {
+                          mountedId: (0, i.iN)(
+                            m.GN,
+                            this.state.sCurrentWindowOverlayKey + ".cursor",
+                          ),
+                        }),
+                      ),
+                    )
+                  : h.createElement(
+                      h.Fragment,
+                      null,
+                      h.createElement(
+                        i.s_,
+                        {
+                          overlay_key:
+                            "system.desktop." + this.currentDesktopIndex,
+                          height: n.k_nDesktopPanelBaseHeight,
+                          curvature_origin_id: t,
+                          interactive: !0,
+                          origin: i.Ic.BottomCenter,
+                          debug_name: "System Desktop",
+                        },
+                        h.createElement(g.Yd, { summonOverlayKey: m.gB }),
+                        h.createElement(i.sl, {
+                          mountedId: (0, i.iN)(
+                            m.GN,
+                            "system.desktop." +
+                              this.currentDesktopIndex +
+                              ".cursor",
+                          ),
+                        }),
+                      ),
+                    )
+                : h.createElement(
+                    g.lL,
+                    { visible: !0, summonOverlayKey: m.gB },
+                    h.createElement(
+                      "div",
+                      { className: "NoDesktopFound" },
+                      h.createElement(
+                        "h2",
+                        null,
+                        (0, p.Xx)("#DesktopViewsUpdating"),
+                      ),
+                    ),
+                  )
               : null;
           }
         });
@@ -11778,9 +11777,9 @@
               this.state.eState == C.Settings
                 ? (e = (0, d.Xx)("#VRMonitor_Nav_Settings"))
                 : this.state.eState == C.Help
-                  ? (e = (0, d.Xx)("#VRMonitor_Nav_Help"))
-                  : this.state.eState == C.Developer &&
-                    (e = (0, d.Xx)("#VRMonitor_Nav_Developer")),
+                ? (e = (0, d.Xx)("#VRMonitor_Nav_Help"))
+                : this.state.eState == C.Developer &&
+                  (e = (0, d.Xx)("#VRMonitor_Nav_Developer")),
               n.createElement(
                 "div",
                 { className: "FullWidth" },

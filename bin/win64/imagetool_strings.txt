@@ -1600,7 +1600,6 @@
 !context->awaiting_pop
 !context->parsing
 !context->subparser_stack
-!dW<v
 !font_map || PANGO_IS_FONT_MAP (font_map)
 !g_type_is_a (interface_type, prerequisite_type)
 !g_type_is_a (prerequisite_type, interface_type)
@@ -3719,7 +3718,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231130055140Z0/
+231202020446Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3914,6 +3913,7 @@ $wtpt
 6OB,n_
 6gc6n
 6p#F'
+6t,6x
 6ukE3
 6x6+0+0
 6|izA:/@A}o
@@ -10482,7 +10482,6 @@ N H;N(H
 N%NnN
 N-ERH%
 N0N94
-N80FC
 N8HcF
 N9OaP
 N=([Etb
@@ -13717,6 +13716,7 @@ VATAVAWH
 VATAVH
 VAUAWH
 VAVAWH
+VB^oO
 VC# V
 VCOMP140.DLL
 VCRUNTIME140.dll
@@ -14448,6 +14448,7 @@ Zoom Select Status
 \$xfA9
 \$|H;E
 \,!'}G(
+\2GlZ{
 \9Ho_
 \>HS]>I
 \?)$]?XS]?
@@ -16224,7 +16225,6 @@ extra-expanded
 f	BJL
 f	_(H
 f ny wra ow ankenya.
-f-s~X
 f0O94
 f3ff33f3
 f9KpuE
@@ -18214,6 +18214,7 @@ pO[D23-34-53.961961:2.80-3.,300-.0/(/1)./*,1.*10*01./004/+;1+A5,C8/A90=5-;0/<1/E
 pPH9XXu
 pSZG<@301(-)'2,+2,+0,*0-+0/+2*10)(eqR
 pV }S
+pZb$w~
 p]NCFLC
 p`P@0 
 pa-pk
@@ -18823,6 +18824,7 @@ s+D8l
 s0t*f
 s1 != NULL
 s2 != NULL
+s46&|
 s90* 
 s;H;]@u
 s>D8l

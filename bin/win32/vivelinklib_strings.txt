@@ -6,7 +6,6 @@
 																												
 																																												
 	!s99
-	N3_A
  !"#$%&'
  !6"6666666666666666666666666666#$%&'()*+,-./01266666666666666666666666666666666666666666666666666666666666666666666666666666666345
  %41g
@@ -16,7 +15,6 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
 !0L0w0
 !hn7!
-#G<Pg|
 $Phdd
 %%.%dg
 %2.2X
@@ -82,13 +80,13 @@ $Phdd
 ([0-9A-F]{12})
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
+*nP)L
 +KL+SL_;
 +Xt@(
 +o'q)}
 ,W5y+
 -1e+9999
 -ADDR %s
--H:1EDxTf
 -Infinity
 -NAME "%s"
 -btdriverver
@@ -239,7 +237,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-231130054233Z0/
+231202020140Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -273,6 +271,7 @@ $Phdd
 3;4j4
 3@4[4
 3H3s3
+3O/=J
 3X4l4
 3mq+<
 3y465
@@ -460,6 +459,7 @@ $Phdd
 =">>>
 =%?,?;?B?p?t?
 =&>4>B>`>
+=*XAn
 =<>@>D>H>X>\>`>d>
 ======================
 ==============================
@@ -734,6 +734,7 @@ GetVersionExA
 H$;J$
 H-^Eu
 HTC BS
+I=yi)5@
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
 InitLinkToService
@@ -749,7 +750,6 @@ J>@G_
 K ;S$
 K$t"j
 K,+K(+
-K0-@l
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
@@ -825,6 +825,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDSH
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -873,6 +874,7 @@ TerminateProcess
 Terminating discovered vivelink process.
 TlsAlloc
 TlsFree
+UGW<I
 UnhandledExceptionFilter
 Unknown
 Unknown DFU Extended Error (%d)
@@ -1107,6 +1109,7 @@ dat_file
 data error
 deque<T> too long
 digit
+d~tH3
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1127,6 +1130,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i326~
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer

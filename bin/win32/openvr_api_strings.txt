@@ -20,7 +20,6 @@
  delete
  delete[]
  for detail.
- heXRr
  new[]
  t\9]
 !0K0z0
@@ -45,7 +44,6 @@ $iMBm
 %d / %m / %y
 %m / %d / %y
 &1L3R3d3o3
-&;ENI
 &<	x4;O
 &?~YK|
 &uo r
@@ -60,7 +58,7 @@ $iMBm
 (null)
 (uEKw
 )-M-=
-)pKNw"5
+)LqBt
 *PjTW
 +A Vj$
 +A$+Y
@@ -83,7 +81,6 @@ $iMBm
 -1e+9999
 -7"+x
 -Infinity
--KA":,P
 -PjWW
 -\!]N=
 -jd_;
@@ -464,7 +461,7 @@ $iMBm
 220801000000Z
 223E3j3
 230714000000Z
-231130054209Z0/
+231202020116Z0/
 233j3
 241009235959Z0a1
 252J2Q2W2i2s2
@@ -590,6 +587,7 @@ $iMBm
 4a5}5
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4o5y5
+5	Fd"J
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
 5 5'5.555<5C5J5Q5X5_5f5m5t5{5
@@ -1406,6 +1404,7 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocale
 IsValidLocaleName
+J=vTB
 J>@G_
 JBIh	i
 JX<$N
@@ -1487,6 +1486,7 @@ Pz}b!
 Q$B@;
 Q;FD~R
 Q;FD~Z
+Q<U ul
 QQSVW
 QQSVWd
 QQSWj0j@
@@ -1501,7 +1501,6 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
-RSDSg
 RWQSV
 R\hvv
 RaiseException
@@ -1919,7 +1918,6 @@ Y__^[
 ]J<0"0i3
 ]vQ<)8
 ^$+^8+
-^1(2e
 ^<V7w
 ^@[uC
 ^f93u
@@ -2039,7 +2037,6 @@ double out of Int range
 e+000
 eLK(w
 eTe6 d4
-eVdL9y7
 eventObject
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2100,7 +2097,6 @@ j	PjYV
 j(hxZ
 j,h(!
 j-XGf
-j.!?U
 j.Yf;
 j0Xf;
 j:Xf;
@@ -2158,6 +2154,7 @@ np?z
 oB(h8
 oSPPWh
 obwQ4
+ohTQh
 openvr
 openvr_api.dll
 openvrpaths.vrpath
@@ -2282,7 +2279,6 @@ y4~4;8
 y^QZ8(O*
 ygCH2
 zwom}
-{NEND
 {S@d6
 {XIZ/
 {ZLjF5jE5zZK

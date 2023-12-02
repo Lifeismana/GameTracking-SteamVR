@@ -1,6 +1,7 @@
 	!s99
  %41g
 !hn7!
+"i4WB
 ',=?k
 (f*^[0
 +Xt@(
@@ -103,7 +104,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130054314Z0/
+231202020216Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -187,8 +188,11 @@
 @.data
 @.reloc
 Bellevue1
+C]6oJ=K%
 CloseHandle
 CreateEventW
+DZ}]V
+Db|!!n\
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -198,6 +202,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E`&,	
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -243,7 +248,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS]
+RSDS\
 RaiseException
 S0Q0O
 SA|X=G
@@ -338,9 +343,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
-cs>t}z}
 driver_gamepad.dll
-hg`Z!
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -350,7 +353,6 @@ jj@0HK4
 k0i0$
 l2|X/gGe
 m0k0$
-mE6Ec
 malloc
 map/set<T> too long
 memcpy
@@ -363,7 +365,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-{Btk 
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

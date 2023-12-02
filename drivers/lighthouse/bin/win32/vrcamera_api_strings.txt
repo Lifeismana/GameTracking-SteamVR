@@ -15,6 +15,7 @@
   SetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
  %41g
  0$0(0<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0
+ 1@x{|%0
  Capability Size: 
  Height: 
  Width: 
@@ -52,6 +53,7 @@ $_^[]
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,0I0\0
 ,W5y+
+,n%zo&
 .00cfg
 .?AUIAMovieSetup@@
 .?AUIBaseFilter@@
@@ -431,7 +433,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231130054221Z0/
+231202020129Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -750,7 +752,6 @@ $_^[]
 8J8j8|8
 8N8Z8`8
 8Q8}8
-8Xel~
 8Z8w8
 8[9w9
 8f8s8
@@ -814,6 +815,7 @@ $_^[]
 9V(~?j
 9V(~Bj
 9V8v 
+9Xmfm
 9[:t:{:
 9^hve
 9c9{9
@@ -925,7 +927,6 @@ $_^[]
 ;Z;	<i<
 ;Z<d<
 ;]<a<e<i<m<q<u<y<}<
-;c*BC
 ;d<:=7>
 ;t=x=|=
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
@@ -1069,7 +1070,6 @@ $_^[]
 >Mp$d
 >T>c>
 >_>f>
->hQE4
 >p>v>k?w?
 ? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
 ? ?$?(?,?4?L?\?`?p?t?
@@ -1210,7 +1210,6 @@ $_^[]
 ?a?p?
 ?h?r?
 ?l?t?|?
-@%{r>
 @(;A(s
 @.data
 @SVW3
@@ -1421,6 +1420,7 @@ GxVPR
 H-^Eu
 HP;HL
 HPQVR
+H~Vl	
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Index: 
 InitOnceExecuteOnce
@@ -1493,6 +1493,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
+RSDSyoT
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1596,10 +1597,8 @@ YYPhxv
 YY^_]
 Y__^[
 [K]taM?
-[OK|m
 [SPj"
 [tc9]
-\8"w)
 \SVW3
 ]J<0"0i3
 _$@;Ghr
@@ -1713,6 +1712,7 @@ directory not empty
 eventObject
 executable format error
 f	_$_^[
+fInqo
 false
 fclose
 fflush
@@ -1740,7 +1740,6 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 identifier removed
-ig21`
 illegal byte sequence
 inappropriate io control operation
 interrupted
@@ -1764,7 +1763,6 @@ k0i0$
 kK04k
 kW$4k_(4
 l2|X/gGe
-l9eT-
 ldexp
 localeconv
 lower
@@ -1864,6 +1862,7 @@ tCj&h
 tCj'h
 tCj+h
 tP9xp~K
+tScg'Mi
 tWVWj>
 tX97uTj
 tX97uTj4

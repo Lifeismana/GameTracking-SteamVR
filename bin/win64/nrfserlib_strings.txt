@@ -66,7 +66,6 @@
  times.
  version-number:
 !hn7!
-"jB5K@
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -118,6 +117,7 @@
 *D8|$h
 *uXI;
 +9kdt	H
++AIN8
 +Xt@(
 +o'q)}
 , H5 error count: 
@@ -633,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130054852Z0/
+231202020157Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -667,6 +667,7 @@
 8EC90003F3154F609FB8838830DAEA50
 8]8vPH
 8_^][
+8sqvp
 9C }&L
 9C }(H
 9\$Pt
@@ -685,6 +686,7 @@
 :\u6L
 ;K }DH
 ;Q |	H
+<	Q)V
 </u#H
 <0:08
 <= Exiting Context: (%.2f seconds)
@@ -894,7 +896,6 @@ Attribute Discovery
 AuthD
 Authentication
 Authentication status failed. (auth_status: %s)
-B"heF
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -1172,6 +1173,7 @@ DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
 E M;G
+E2~oM)
 E9e ~7I
 E@HcH
 Element not found
@@ -1247,11 +1249,11 @@ GATT Write With Response. (handle: %d, length: %d) '%s'
 GATT Write Without Response. (handle: %d, length: %d, queue: %d) '%s'
 GATTC Send handle value confirmation to handle %d
 GBf9F
+GC/7Fm
 GD9E0t
 GDf9F
 GFf9F
 GH9E0t
-GX)Fau<:+UT
 GXA_A^A]A\_^]
 G`f9F
 Gdf9F
@@ -1334,6 +1336,7 @@ Invalid stopbits setting
 IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J3`-l
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -1518,6 +1521,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSz'
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1838,7 +1842,6 @@ _stricmp
 _strlwr
 _strnicmp
 _strupr_s
-`+LNI
 `.rdata
 `A_A^A\_^
 `A_A^_^]
@@ -1983,7 +1986,7 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
-r:Xv3
+qWvGk
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2178,7 +2181,6 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
-y!NH3E
 {un'%
 {x\u!H
 {|?uWH

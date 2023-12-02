@@ -2315,7 +2315,6 @@ $~O="""
 *EPSF-*
 *Magenta*
 *Pt)p
-*SfvXi8I
 *T$(j
 *T|3m
 *Yellow*
@@ -2347,6 +2346,7 @@ $~O="""
 *t%.20gR
 *v%.20gI
 *v%da%db%dc%.20gI
++'Fn:
 +070y0
 +0:0?0N0S0{0
 +1:1?1K1P1x1
@@ -3292,7 +3292,6 @@ $~O="""
 /0J0_0
 /0J0`0
 /0]0d0
-/4Mb(X
 /84_>
 /8R:5
 /;&=+$,
@@ -4016,7 +4015,6 @@ $~O="""
 176x249
 181D1
 181x258
-1820M
 182B2
 182x257
 1837x2599
@@ -4331,7 +4329,7 @@ $~O="""
 223E3P3a3l3
 230714000000Z
 230x323
-231130054340Z0/
+231202020243Z0/
 23282G2L2e3
 23282R2W2q2v2
 232L2e2~2
@@ -9190,7 +9188,6 @@ $~O="""
 ?U?Z?
 ?UUUUUU
 ?Z?_?
-?Z^_<
 ?[?k?v?
 ?[IPH
 ?_BADOFF@std@@3_JB
@@ -14429,7 +14426,6 @@ Luminosity
 Ly<4`
 Lycian
 Lydian
-LyuwZK
 L|$TB
 M %g %g
 M 9U$|
@@ -16155,6 +16151,7 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDSZ
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -19387,8 +19384,6 @@ azure3
 azure4
 b"$ V'(
 b&;AL
-b0hb>
-b9K+k kZ
 b<buI
 b?8Nb?g}b?
 bKGD must be after
@@ -20253,6 +20248,7 @@ eXXXXXXXXXXXXX
 eXXXXXXXXXXXXXXXXXXXXXXXXXXX
 eXqIW46
 e^E(1
+e`*b^
 e`D)0
 e`J*0
 e`xW`
@@ -25830,6 +25826,7 @@ xz;Kp}u
 y#ht34
 y)Wh|
 y-resolution
+y.zjR
 yWeWCB875+/1*.1+-0,-0//0.02./2./-24*,gcb
 y\{ZN^G=:32'(/')-(+0(,2(/1+00*0+'
 ya spilte jo whist og quickstep i min taxi.
@@ -25851,7 +25848,6 @@ zAh{,
 zTXt: invalid compression type
 zTXt: invalid keyword
 zcaron
-zffqD
 zh-cn
 zh-hk
 zh-mo

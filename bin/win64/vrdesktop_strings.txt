@@ -31,6 +31,7 @@
 (t$@H
 (|$ H
 )D$ L
+)o?7G"
 )t$ H
 )t$0H
 )t$@H
@@ -104,8 +105,10 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.V-Lm]\c
 .data
 .data$r
+.e$(_
 .edata
 .idata$2
 .idata$3
@@ -165,7 +168,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231130055627Z0/
+231202020957Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -177,7 +180,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4S_0e
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -492,6 +494,7 @@ Handling scroll discrete
 Handling scroll smooth
 Handling unlock mouse
 HcFdH
+I1z=jO
 I9Bhs
 I;4$H
 I;4$L
@@ -563,7 +566,6 @@ L9|$p
 L;8u6H
 L?n(Zy&
 LeaveCriticalSection
-Lf6Gh
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LoadCursorA
@@ -598,7 +600,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS0
+RSDSa
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent

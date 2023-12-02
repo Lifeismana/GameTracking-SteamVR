@@ -57,7 +57,6 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-#Y~Ma
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -310,6 +309,7 @@ $9E0u
 %s: unsupported format
 %s: usage must be specified when allocating images
 %u != %zu
+&DFy7|
 ',=?k
 ( nVertexCount % 3 ) == 0
 (A\_^[
@@ -523,6 +523,7 @@ $9E0u
 0A_A^A]A\_^[
 0A_A^_
 0A_A^_^[
+0i90F
 0w0c1
 0}0i1
 130801120000Z
@@ -531,7 +532,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231130054911Z0/
+231202020216Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -544,7 +545,6 @@ $9E0u
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4P#M *o
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -552,6 +552,7 @@ $9E0u
 6I]Dc
 6OB,n_
 70503
+7]xu9Q
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8 t"L
 8 u"L
@@ -569,7 +570,6 @@ $9E0u
 9H(~-
 :A9x 
 :EotB
-:FCqQ
 ;K sOH
 ;S sMH
 ;\$x|
@@ -577,6 +577,7 @@ $9E0u
 <0:08
 <P)9Y
 <unknown>
+=6fYO
 =rIQU
 >0<0:
 >Mp$d
@@ -755,7 +756,6 @@ CFrameHallucination::CreateFramebuffer
 CFrameHallucination::CreateRenderPass
 CFrameHallucination::RegisterDestinationImage
 CFrameHallucination::SetFov
-CJ%u]-
 CL$ H
 CL$0H
 CL$`H;
@@ -1004,7 +1004,6 @@ Dumping display history...
 DuplicateHandle
 E8~(t\
 E\f9A
-E\j)bgw
 EkH9M
 Encountered error 
 EnterCriticalSection
@@ -1080,7 +1079,6 @@ GetTickCount64
 GetTokenInformation
 GetTokenInformation failed. GetLastError returned: %d
 Graphics Timeline
-GsWb=
 H SVWH
 H USVAUH
 H+APH
@@ -1338,6 +1336,7 @@ NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
 O0H9Q
 OLEAUT32.dll
+O^xtz
 OpH9Q
 OpenEventA
 OpenFileMappingA
@@ -1426,7 +1425,9 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
+RFP7p
 RPCRT4.dll
+RSDSZ
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1523,7 +1524,6 @@ Thread watchdog with a small timout %f. Timeouts should usually be multiple seco
 TimestampQueryPool-%s
 TlsAlloc
 TlsFree
-U"hey
 UATAUAVAWH
 UATAUH
 UATAVH
@@ -1607,6 +1607,7 @@ VerQueryValueA
 VerSetConditionMask
 VerifyVersionInfoW
 Vulkan
+W:1hm
 WATAUAVAWH
 WATAUH
 WAVAWH
@@ -1760,11 +1761,9 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 atanf
-b;+#}U
 bad allocation
 bad array new length
 bad conversion
-c31MFympu
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
@@ -1882,6 +1881,7 @@ invalid string position
 isalpha
 isdigit
 it != m_importedClients.end()
+jeOJw
 jj@0HK4
 k0i0$
 l$ E3
@@ -1956,7 +1956,6 @@ memmove
 memset
 multiple signals per batch not allowed
 mwH9S
-n<\;}
 nArrayIndex < m_details.nArrayLayerCount
 nD$p3
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
@@ -1969,6 +1968,7 @@ nvEncOpenEncodeSession != nullptr
 nvapi_QueryInterface
 nvapi_pepQueryInterface
 nvcuda.dll
+oFZ#EP
 ole32.dll
 ot$HH
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex
@@ -2025,6 +2025,7 @@ pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
 perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.nClientFrameIndex
+pq:J0SQ
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
