@@ -193,6 +193,7 @@
 !(0)"
 !0C0d0"1R1
 !9~ t
+!M1_7
 !hn7!
 !leftSyncIsReal
 !rightSyncIsRealAsItGets
@@ -253,7 +254,6 @@
 "/*" inside block comment.  Block comments cannot be nested.
 "0'121p1
 "0x" must be followed by hex digits.
-"A+!L
 "MutableRawRepeatedField"
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
@@ -1179,7 +1179,7 @@ $tI<unknown>
 220323000000Z
 220801000000Z
 230714000000Z
-231204190848Z0/
+231205020210Z0/
 233Q3{3
 241009235959Z0a1
 242P2
@@ -2669,6 +2669,7 @@ $tI<unknown>
 ;l<u<~<
 ;r<y<
 ;w<}<
+;wL(2
 ;{4tF
 ;|3 v0
 ;~ ~Bh
@@ -4035,6 +4036,7 @@ HTC-VIVE
 HWID Signature not found
 HWPRQ
 HXWSR
+H[.'"
 HasField
 Hex and octal numbers must be integers.
 Hid not open
@@ -4252,6 +4254,7 @@ JSONuTS
 Jd;J`}
 K8+K4
 KDWVP
+KDj\F
 KERNEL32.dll
 KHR_lights_punctual
 Knuckles
@@ -4556,7 +4559,7 @@ RENDERDOC_GetAPI
 RPCRT4.dll
 RPj#h
 RQPhH
-RSDSf8 z
+RSDSg
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5328,7 +5331,6 @@ Z* ,
 ^<Q9C
 ^X_^[
 ^[;Glv
-^^5NZ
 ^oEZ_
 _,9_0t-
 _0_[]
@@ -5606,7 +5608,6 @@ c:\buildslave\steamvr_rel_win32\build\src\vortexlib\distortion.cpp
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
 c:\buildslave\steamvr_rel_win32\build\src\vortexlib\stereo_setup.cpp
 cAMDt
-c`/P`|
 cal_method
 calloc
 camera
@@ -6176,7 +6177,6 @@ modelPoints
 model_number
 multiple IHDR
 muteMicMonitor
-nOBo1
 nSplineCtrlPts
 need dictionary
 negative_int_value
@@ -6216,7 +6216,6 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o&_^JW
 object
 object key
 object separator

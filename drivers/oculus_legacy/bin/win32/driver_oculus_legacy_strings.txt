@@ -2,14 +2,16 @@
  %41g
  (Camera)
 !hn7!
+#;/[~
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
 +Xt@(
 +o'q)}
-+x:[A$
 , last executing in 
+,5pu5
 ,W5y+
+.(acd=
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -93,7 +95,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204190857Z0/
+231205020219Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -120,7 +122,6 @@
 4'4L4n4
 4(414:4C4L4+5D5H5L5P5T5X5\5`5
 4/5C5M5X5}5
-4=<,6
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4j/hd
 5$5/5
@@ -145,7 +146,6 @@
 7$7(787<7L7P7X7p7
 7+737;7
 70503
-7YzuG
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8"8L8
 8'8-878A8K8U8_8l8u8
@@ -210,6 +210,7 @@
 ?_Xout_of_range@std@@YAXPBD@Z
 @.data
 @.reloc
+@v%I$
 ADVAPI32.dll
 Bellevue1
 COculusHmdLatest::UpdateThread
@@ -230,6 +231,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+EX$]U
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
@@ -287,7 +289,6 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-NMR&	
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -335,7 +336,6 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-XeGn1
 Y9"SD
 Y__^[
 [K]taM?
@@ -411,7 +411,6 @@ jj@0HK4
 k0i0$
 l2|X/gGe
 m0k0$
-mEOVO
 malloc
 map/set<T> too long
 memcpy
@@ -475,8 +474,10 @@ u7j8Q
 uCVj@
 v=Y]Bv
 vector<T> too long
+wJvwQ/
 www.digicert.com1!0
 www.digicert.com1$0"
+xkb)'
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -488,7 +489,6 @@ www.digicert.com1$0"
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
 |Lu?c
-|SREQ
 }LuHO
 ~qj#k"
 ~t&LN

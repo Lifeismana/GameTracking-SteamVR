@@ -6,6 +6,7 @@
 																												
 																																												
 	!s99
+	+{VB
 	<bu 
 	@81t/@8q
    Driver Description: %s
@@ -622,6 +623,7 @@
 0A_A^_^[
 0A__[
 0A__^
+0t^T2
 0w0c1
 0}0i1
 130801120000Z
@@ -632,12 +634,13 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204190814Z0/
+231205020140Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2kI@|
 311109235959Z0b1
 3333333
 341013235959Z0H1
@@ -680,9 +683,10 @@
 9|$@u
 9|$Pt
 9|$`t
+:(l&(
+:[X",
 :\u-L
 :\u6L
-;IOR-
 ;K }DH
 ;Q |	H
 </u#H
@@ -1237,7 +1241,6 @@ Flow control:
 FormatMessageA
 Found target %s (%4.4X:%4.4X Serial: %s)
 Found: %s, size: %d
-G00^	
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
 G<f9F
 G>f9F
@@ -1253,6 +1256,7 @@ GFf9F
 GH9E0t
 GXA_A^A]A\_^]
 G`f9F
+Gbc=oCX
 Gdf9F
 Get Service Handles. UUID: 0x%4.4X, start_handle: %d, end_handle: %d
 GetCommState
@@ -1333,7 +1337,6 @@ Invalid stopbits setting
 IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
-It&dj
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -1394,6 +1397,7 @@ Looking for external adpater.
 Looking for internal adpater.
 M H1E
 M rFM
+M,G#L
 M0 E3
 M98u/
 M9f`u$L
@@ -1738,7 +1742,6 @@ XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
 Y9"SD
-Zb0qt
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1953,10 +1956,10 @@ l$XE3
 l$pM+
 l$pM;
 l$xfD
-l&BRV
 l2|X/gGe
 list<T> too long
 lower
+m,Z~!
 m0k0$
 malloc
 manifest
@@ -1970,6 +1973,8 @@ memcpy
 memmove
 memset
 mutex
+nPhF#
+neKXk
 need dictionary
 nrfserlib.dll
 ntelD
@@ -2214,5 +2219,6 @@ xdigit
 |Lu?c
 }LuHO
 ~'HcB
+~D>4b
 ~qj#k"
 ~t&LN

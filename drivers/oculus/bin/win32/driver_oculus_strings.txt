@@ -64,9 +64,7 @@
 #?RADIANCE
 #?RGBE
 #oculus_requested_quit
-#{LzY
 $9^ t
-$H;`J
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -102,9 +100,7 @@ $H;`J
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *030<0E0J0O0V0
-+M@n.
 +Xt@(
-+jSR~n
 +o'q)}
 , binary size = 
 , but got 
@@ -247,6 +243,7 @@ $H;`J
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.HS|3
 .data
 .data$r
 .edata
@@ -464,7 +461,7 @@ $H;`J
 220801000000Z
 223S3
 230714000000Z
-231204190854Z0/
+231205020216Z0/
 241009235959Z0a1
 253a3
 2<2A2I2O2T2Z2l2v2|2
@@ -484,6 +481,7 @@ $H;`J
 2h2y2#3
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2q8aU
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 3 3b3k3t3}3
@@ -552,7 +550,6 @@ $H;`J
 4"4(454R4a4j4p4v4
 4"4^4w4
 4"505t5
-4"_s$
 4#4(4-42474<4A4F4K4P4U4Z4_4d4i4n4s4x4}4
 4#4(424Q4
 4$4(484<4@4D4H4L4P4\6`6d6h6l6p6t6x6|6
@@ -997,6 +994,7 @@ $H;`J
 =<=]=c=j=q=v=|=
 ==>S>
 =D>5?L?P?T?X?\?`?d?h?
+=F#p4
 =O>\>w>
 =O>^>h>q>
 =T=t=
@@ -1069,6 +1067,7 @@ $H;`J
 ?-?4?9?B?G?P?d?l?r?
 ?.?8?>?E?S?\?a?
 ?/skeleton/hand/left
+?05ER
 ?4?X?d?l?
 ?=?E?j?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
@@ -1404,6 +1403,7 @@ LibOVRRT64_1.dll
 LoadLibraryA
 LoadLibraryW
 LocalizationManager
+LuBL0
 M$SVW
 MB(iVR
 MSVCP140.dll
@@ -1423,6 +1423,7 @@ No valid guardian bounds. Creating standing chaperone
 Nodet3
 NormalTextureInfo
 Not writing %s because the texture was null
+Nroj35
 O,_^[
 O0h0[1w2
 OPAQUE
@@ -1467,6 +1468,7 @@ Pt7hL
 Pz}b!
 Q9F t
 Qkkbal
+Qku,c
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
@@ -1673,6 +1675,7 @@ _wfopen_s
 _wgetenv_s
 _wstat64i32
 _|!hp5
+`.R#a
 `.rdata
 `0_dL
 `0_tL
@@ -1790,7 +1793,6 @@ c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\driver_oculus.cpp
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp
-cC2<Y
 camera
 cameras
 can't merge dc and ac
@@ -2177,6 +2179,7 @@ pl_pl
 play_area
 polish
 portuguese
+pp	4y
 primitive indices accessor out of bounds
 primitives
 pt_br
@@ -2482,6 +2485,7 @@ www.digicert.com1!0
 www.digicert.com1$0"
 y"hp9
 yxxx+
+z@;yg
 zh_cn
 zh_tw
 zlib corrupt

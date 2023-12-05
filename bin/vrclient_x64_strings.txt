@@ -27,12 +27,13 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@ 8
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
  '-46
  (Thumb)
+ (Y8l
  (does the path point to a directory?)
  ;]X|
  =RDHI
@@ -102,6 +103,7 @@
 " not found in the scene.
 """""""
 "%/28;=#$019:>?
+"(_fo
 ". Must be "perspective" or "orthographic"
 "9k0t
 "accessors" object not found in .gltf
@@ -135,7 +137,7 @@
 #OriginString_Source
 $@/pose/
 $IL+Q
-$tI(knN
+$tI(knN8c6
 $u=Hi
 $u^Hi
 $w!Hc
@@ -380,6 +382,7 @@ $w!Hc
 &D9c0t
 &D9k0t
 &D9{0t
+&v~cQ
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -1703,7 +1706,7 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/5n}!
+/5.n(
 /9{0t'H
 /a/click
 /a/touch
@@ -2071,6 +2074,7 @@ $w!Hc
 0A_^[
 0A__[
 0A__^
+0C[SM
 0D9c0t'H
 0I;T$ H
 0w0c1
@@ -2085,11 +2089,12 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231204191509Z0/
+231205020837Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2^C8X
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -2107,7 +2112,9 @@ $w!Hc
 528.49
 555555
 555555555555555555555555555555555555555555555555555555555555555555555555555555
+5>Db]
 5FjiT
+5V#+(8|
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 650000
@@ -2234,7 +2241,6 @@ $w!Hc
 <uninitialized>
 <unknown handle>
 <unknown>
-=%neY
 =7p7M}
 =====================================
 ================================================================================================
@@ -2243,7 +2249,6 @@ $w!Hc
 =SNRtt%
 =TADIt<=DNEI
 =rIQU
->	Ke<0
 >"tVH
 >"taH
 >0<0:
@@ -3571,13 +3576,13 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
-D8%SB)
 D8,8u
 D8/u0
 D840u
 D84;u
 D8<0u
 D8<>u
+D8=i 
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -3590,6 +3595,7 @@ D8wBt/H
 D8}gt$L
 D8}gu
 D8}guH
+D9%Cs$
 D90uGH
 D989D9XH
 D9>u:H
@@ -4183,6 +4189,7 @@ H#~0H
 H$A;H
 H$A;I
 H(H+H H
+H**3f
 H+C H;
 H+C0H
 H+ChH
@@ -4279,9 +4286,8 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=:x!
-H;=Zj!
-H;=jv!
+H;=:A!
+H;=jy!
 H;A s
 H;Axt
 H;C(v
@@ -4982,6 +4988,7 @@ L9%dn<
 L90t	H
 L93t	H
 L97u0H
+L9=C6
 L9?u,H
 L9@ s
 L9A r
@@ -5502,7 +5509,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS@%
+RSDSBA
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5908,7 +5915,6 @@ TrackedProp_WrongDeviceClass
 Transitioning XrSession from %s to %s
 Turning on pipe debugging at the server's request
 Tutorial
-U#_mS
 U0H9U8t
 U0H;C
 U4H;C
@@ -6796,7 +6802,6 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
-W%\P'
 W0H;C
 W4H;C
 W8H+W`I
@@ -6861,7 +6866,6 @@ WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
 X%|N*
-X-L;#
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7328,12 +7332,7 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%7[&
-Y*.2Pz
-Y5Mc#
-Y5^R"
 Y9"SD
-Y=so#
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -7588,6 +7587,11 @@ ZvFailed to create fence %ls.
 [Input] UpdateActionState cannot execute because we don't have a config yet.
 [Input] Wanted to store %u global priority inputs, but only had space for %u
 [K]taM?
+[OpenXR] Focused/Visible transition conditions: %d %d
+[OpenXR] Synchronized transition conditions: %d %d
+[OpenXR] Visible transition conditions: %d %d
+[Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for read %d
+[Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
 [Settings] %s %s unknown type
 [Settings] Load Default Json Settings from %s
 [Settings] Load Json Settings from %s
@@ -7717,7 +7721,6 @@ ZvFailed to create fence %ls.
 ]HH;]Ptb
 ]J<0"0i3
 ][Compositor Client] Begin AcquireSync
-]fzP|s
 ]g@8yhu
 ]gfff
 ]pH9X
@@ -8440,6 +8443,7 @@ fwrite
 fxL9f0H
 g(u^H
 g9k0t_D
+gN05%
 gamepad
 generator
 generic
@@ -8499,6 +8503,7 @@ greek
 green
 gripLimitData
 h ATAVAWH
+h+KBCBw
 hA\^][
 hA^A\[]
 hA_A^A]A\_^[]
@@ -9111,7 +9116,6 @@ s(HcEoH
 s=fff
 sButtonTexts
 sCaptionText
-sDxEk
 sMessageText
 safe_mode_driver_whitelist.json
 sampler
@@ -9896,6 +9900,7 @@ uDA9O
 uDf9X
 uE8VTt
 uGH9t$Pt.I
+uH%LSW;'
 uHD8}
 uJ9;tFD
 uJf9X
@@ -10679,6 +10684,7 @@ zh_cn
 zh_tw
 zlib corrupt
 znear
+zu9;QT
 { "type": "keyboard_hidden" }
 { "type": "keyboard_shown" }
 { AVH

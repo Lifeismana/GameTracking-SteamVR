@@ -17,7 +17,6 @@
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
-%W#4-
 %s%s%s%s%s
 ' is not a number.
 ',=?k
@@ -182,7 +181,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204191610Z0/
+231205020938Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -341,7 +340,6 @@ CDesktopManagerThread
 CDesktopManagerThread::CreateDXGIFactory1 failed.
 CL$0H
 CL$`H;
-CRvbCQ
 CT$(L
 CT$0H
 CT$0I
@@ -429,6 +427,7 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
+DxCZ7,
 E;u`|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
@@ -520,7 +519,6 @@ GetWindowRect
 GetWindowTextLengthW
 GetWindowTextW
 GetWindowThreadProcessId
-Gg/zP
 GraphicsCaptureSession is not supported.
 H!C@H
 H+SpI
@@ -632,6 +630,7 @@ L9|$p
 L;8u6H
 L?n(Zy&
 LUnable to create graphics capture item for window.
+L^/Ch
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
@@ -640,6 +639,7 @@ LoadLibraryA
 LocalFree
 LocalizationManager
 M H1E
+M!~S{I
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -653,7 +653,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
-N\^H0
 OLEAUT32.dll
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
@@ -978,6 +977,7 @@ m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
 malloc
 map/set<T> too long
+mbq1`
 memcmp
 memcpy
 memmove
@@ -999,6 +999,7 @@ portuguese
 product_name
 pt_br
 pt_pt
+qr9as
 r,fff
 request_destroy_window_view
 request_handlers
@@ -1013,7 +1014,6 @@ romanian
 ru_ru
 running
 russian
-sYA'U
 schinese
 shcore.dll
 shutdown
@@ -1057,6 +1057,7 @@ user32.dll
 v=Y]Bv
 vE;E`M
 vector<T> too long
+vg;eHgE
 vi_vi
 vietnamiese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
@@ -1083,7 +1084,6 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-z%ne%
 zh_cn
 zh_tw
 {un'%

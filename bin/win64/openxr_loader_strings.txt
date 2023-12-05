@@ -145,7 +145,6 @@
 .xdata$x
 /api_layers/explicit.d
 /api_layers/implicit.d
-00"KJG
 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
 0123456789abcdef
 0A^A\_
@@ -164,7 +163,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204191107Z0/
+231205020435Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -183,13 +182,13 @@
 6*f(_
 6I]Dc
 6OB,n_
-6dC]+
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 <0:08
+=`Igj
 =rIQU
 >0<0:
 >Mp$d
@@ -282,6 +281,7 @@
 @UWAVAWH
 @VATAVH
 @VWAVH
+@awVA
 A valid JSON document must be either an array or an object value.
 A(t	H
 ADVAPI32.dll
@@ -319,6 +319,7 @@ ApiLayerInterface::LoadApiLayers succeeded loading layer
 ApiLayerManifestFile::CreateIfValid 
 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
 AuthD
+BPzXM
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -448,6 +449,7 @@ HA_A]_[
 I#V0I
 I9Bhs
 I9W(t
+IHr:"
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Implicit layer 
 Infinity
@@ -515,6 +517,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
 No active XrInstance handle.
+OUdUv
 OpenProcessToken
 OpenXR-Loader
 OutputDebugStringA
@@ -524,10 +527,11 @@ PA_A^A\_]
 PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
+PNfz(
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDScF
+RSDSN
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -569,6 +573,7 @@ T$0H;
 T$HE3
 T$PH;
 T$xE3
+T7#`_
 TUUUUUU
 Type is not convertible to string
 UATAUAVAWH
@@ -727,7 +732,6 @@ api-ms-win-crt-string-l1-1-0.dll
 api_layer
 api_version
 application name missing NULL terminator.
-b%YCqe
 bad allocation
 bad array new length
 bad cast
@@ -747,7 +751,6 @@ error
 expected XR_TYPE_INSTANCE_CREATE_INFO.
 expecting another \u token to begin the second half of a unicode surrogate pair
 extension_version
-f7,=q
 f9,Xu
 fB94@u
 fF9$@u
@@ -756,6 +759,7 @@ failed allocating memory
 failed to open 
 failed to parse 
 false
+fbT1!]
 fclose
 fffffff
 fflush
@@ -978,7 +982,6 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
-{,B:/]r
 {un'%
 |$ ATAVAWH
 |$ AVH
@@ -1000,6 +1003,7 @@ xrWaitSwapchainImage
 |$xH;
 |$xIi
 |Lu?c
+|k=6O
 }LuHO
 ~+fff
 ~qj#k"

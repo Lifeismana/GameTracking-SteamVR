@@ -1,5 +1,7 @@
 	!s99
+	u{:k
  %41g
+ u^OA`
 !hn7!
 ',=?k
 (f*^[0
@@ -60,6 +62,7 @@
 .tls$
 .tls$ZZZ
 .xdata$x
+.}z|V
 /input/a/click
 /input/b/click
 /input/back/click
@@ -103,7 +106,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204190837Z0/
+231205020158Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -166,7 +169,6 @@
 <0:08
 <0<G<P<Y<b<g<l<s<
 <S=g=
-<W_;S
 = =0=4=D=H=L=T=l=|=
 = =F=O=Z=
 =N>_>
@@ -230,7 +232,6 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-J^>6t
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -245,7 +246,8 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS~
+R?**{y
+RSDS 
 RaiseException
 S0Q0O
 SA|X=G
@@ -331,6 +333,7 @@ _initterm_e
 _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
+_}m6+F
 `.rdata
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
@@ -346,7 +349,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iB;=Gv
 jj@0HK4
 k0i0$
 l2|X/gGe
@@ -356,7 +358,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
-r6as[o
+ne%o%
 string too long
 terminate
 uCVj@
@@ -376,6 +378,6 @@ www.digicert.com1$0"
 {un'%
 |Lu?c
 }LuHO
-}s#2-JD
+~nIc\t
 ~qj#k"
 ~t&LN

@@ -31,7 +31,6 @@
     Unused Resources: size:%zu
     Unused timelines: size:%zu
  %41g
- ,"dS
  - Vulkan output %d: %ux%u resolution, %ux%u dimensions - %s
  A]A\_
  A^^[
@@ -58,7 +57,6 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-#nen.
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -527,13 +525,15 @@ $9E0u
 0w0c1
 0}0i1
 130801120000Z
+1Idz@
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231204190833Z0/
+231205020159Z0/
 241009235959Z0a1
+2>rW8V!
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -563,6 +563,7 @@ $9E0u
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+97E&nZ
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -574,6 +575,7 @@ $9E0u
 ;\$x|
 ;|$ r
 <0:08
+<28+:
 <P)9Y
 <unknown>
 =rIQU
@@ -896,6 +898,7 @@ CVkTimeline::WaitMultiple
 C\$@H
 C\$@M
 CalculateMotion
+Cb^F%
 Client (%s) app container state: %d
 Client Swapchain: %d
 ClientLayers-%d
@@ -1295,6 +1298,7 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Minidump comment truncated
 Missing cached timing info (please update prismdisplay_nvapi.cpp with the following):
+Ml`%h^
 Motion Vector Attenuation Pipeline
 Motion Vector CostReduce Pipeline
 Motion Vector MeanMaxBlur Pipeline
@@ -1623,7 +1627,6 @@ WindowsDisplayCore
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 WriteFile
-X N}+
 XA_A][]
 XA_A^A]_
 Y9"SD
@@ -1759,7 +1762,6 @@ atanf
 bad allocation
 bad array new length
 bad conversion
-c)43O
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
@@ -1855,7 +1857,6 @@ fn != nullptr
 frameInfo.pImage != nullptr
 frameInfo.sampler != VK_NULL_HANDLE
 from.pPool != nullptr
-g2d+,
 gfffffffA
 gfffffffH
 gfffffffH+
@@ -1964,6 +1965,7 @@ nvEncOpenEncodeSession != nullptr
 nvapi_QueryInterface
 nvapi_pepQueryInterface
 nvcuda.dll
+o'{l+P
 ole32.dll
 ot$HH
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex

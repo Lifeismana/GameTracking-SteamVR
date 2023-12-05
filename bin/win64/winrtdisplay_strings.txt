@@ -6,6 +6,7 @@
  A_^]
  A__^
  H3E H3E
+ T0Ir
 !hn7!
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
@@ -106,8 +107,10 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+0"7FsG
 0A^_]
 0A_A^A]A\_^[
+0CkwWx
 0w0c1
 0}0i1
 1.0.0
@@ -117,7 +120,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231204190703Z0/
+231205020023Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -143,13 +146,11 @@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
-;)b*a
 <0:08
 <P)9Y
 <unknown>
 =rIQU
 >0<0:
->@|lB|
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -238,6 +239,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+KF>wS
 K}*n:	
 L$ SH
 L$ SUVWH
@@ -254,13 +256,13 @@ MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
-NK|Q#
 OLEAUT32.dll
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+R<ym>~
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -316,12 +318,14 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
+[F^ q
 [K]taM?
 \$ H;
 \$ UH
 \$(H;
 \$Xfff
 ]J<0"0i3
+]qZQV
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -340,6 +344,7 @@ _configure_narrow_argv
 _crt_atexit
 _execute_onexit_table
 _gUT^
+_i!|X
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -349,6 +354,7 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 a7hIw
+aoiX-
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
 api-ms-win-core-localization-l1-2-0.dll
@@ -398,7 +404,6 @@ tYH9\$`t
 terminate
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
-v=}\`
 vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
@@ -409,6 +414,6 @@ www.digicert.com1$0"
 |$xMi
 |Lu?c
 }LuHO
-~<"~4k
+~C%:B
 ~qj#k"
 ~t&LN
