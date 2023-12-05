@@ -1,20 +1,21 @@
 																																																																																																																
 	!s99
  %41g
+!	6%9
 !(0)"
 !9~ t
 !hn7!
 #*1892+$
 #?RADIANCE
 #?RGBE
+#Y_po
+#s0@o~
 $9^ t
-$IA\Z
 %,3:;4-&
 %3333
 %UUUU
 ',=?k
 '.5<=6/7>????????????????
-(A@j 
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -156,6 +157,7 @@ $IA\Z
 1F1V1`1e1o1
 1J6N6
 1P3A5a5
+1\	t.
 1c3g3v3z3
 1h3l3p3t3x3|3
 2 2$2(2
@@ -174,7 +176,7 @@ $IA\Z
 220801000000Z
 22363
 230714000000Z
-231202020132Z0/
+231204190753Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -249,6 +251,7 @@ $IA\Z
 6E6J6z6
 6I]Dc
 6OB,n_
+6iJf_
 7 7$7(7,7074787<7@7D7H7
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
 7 7&7,72787>7D7J7P7V7\7b7h7n7t7z7
@@ -367,6 +370,7 @@ $IA\Z
 @(Failed Enumeration)
 @.data
 ADVAPI32.dll
+AG/1h
 AITAPI_AitExtGet
 AITAPI_AitExtSet
 AITAPI_CloseDevice
@@ -500,7 +504,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
-RSDSedjR$
+RSDS+
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -570,6 +574,7 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
+UN4+]
 UnhandledExceptionFilter
 Unknown
 Unknown exception
@@ -733,7 +738,6 @@ fr_fr
 fread
 french
 fseek
-g#hj8
 german
 greek
 http://ocsp.digicert.com0A
@@ -743,6 +747,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+iCX/=-
 illegal code in raster
 invalid
 invalid PLTE
@@ -838,7 +843,6 @@ unsupported bit depth
 unsupported data layout
 unsupported format
 v#QPh8
-v(^lG
 v=Y]Bv
 vi_vi
 vietnamiese

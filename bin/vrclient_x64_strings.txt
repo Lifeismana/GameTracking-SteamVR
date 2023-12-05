@@ -2085,7 +2085,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231202020903Z0/
+231204191509Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2103,7 +2103,6 @@ $w!Hc
 3mq+<
 416.16
 440.97
-4et7Y
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 528.49
 555555
@@ -2207,7 +2206,6 @@ $w!Hc
 :\u6L
 ; expected 
 ; last read: '
-;0,Fj3S
 ;C$u	A
 ;I#F0H
 ;K sMH
@@ -2236,6 +2234,7 @@ $w!Hc
 <uninitialized>
 <unknown handle>
 <unknown>
+=%neY
 =7p7M}
 =====================================
 ================================================================================================
@@ -2244,6 +2243,7 @@ $w!Hc
 =SNRtt%
 =TADIt<=DNEI
 =rIQU
+>	Ke<0
 >"tVH
 >"taH
 >0<0:
@@ -3564,7 +3564,6 @@ D$xM;
 D$xu@
 D+D$DE+
 D+\$H
-D.8MR
 D3D11CreateDevice
 D3D11On12CreateDevice
 D3D11On12CreateDevice failed
@@ -5503,6 +5502,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDS@%
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5908,6 +5908,7 @@ TrackedProp_WrongDeviceClass
 Transitioning XrSession from %s to %s
 Turning on pipe debugging at the server's request
 Tutorial
+U#_mS
 U0H9U8t
 U0H;C
 U4H;C
@@ -7328,6 +7329,7 @@ XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
 Y%7[&
+Y*.2Pz
 Y5Mc#
 Y5^R"
 Y9"SD
@@ -7715,6 +7717,7 @@ ZvFailed to create fence %ls.
 ]HH;]Ptb
 ]J<0"0i3
 ][Compositor Client] Begin AcquireSync
+]fzP|s
 ]g@8yhu
 ]gfff
 ]pH9X
@@ -8182,7 +8185,6 @@ d$`fD
 d$bHc
 d$hM;
 d$hfff
-d1|z!
 d3d11.dll
 da_da
 danish
@@ -9109,6 +9111,7 @@ s(HcEoH
 s=fff
 sButtonTexts
 sCaptionText
+sDxEk
 sMessageText
 safe_mode_driver_whitelist.json
 sampler

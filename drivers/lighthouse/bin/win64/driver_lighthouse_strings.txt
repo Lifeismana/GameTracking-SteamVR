@@ -354,7 +354,6 @@ $w!Hc
 %,3:;4-&
 %9k0t
 %9{0t
-%=!d_
 %Y-%m-%d
 %d.%d.%d
 %hu,%hu,'%4c',%hu
@@ -1314,7 +1313,6 @@ $w!Hc
 /lighthouse/depthAugmentedPassthrough/processingMode
 /lighthouse/depthAugmentedPassthrough/rawMesh
 /lighthouse/depthAugmentedPassthrough/rightMeshElementCount
-/l{^t
 /observed_basestations
 /output/haptic
 /pose/raw
@@ -1396,7 +1394,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231202020320Z0/
+231204190935Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1570,7 +1568,6 @@ $w!Hc
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 :EotB
-:g[Nj
 ; expected 
 ; last read: '
 ;.u H
@@ -2352,7 +2349,6 @@ CHECK failed: value.size() <= kint32max:
 CHeader
 CHidDevice: Can't open USB device VID %08x, PID %08x %s %d
 CImuSample
-CJ!o9Ni
 CKeyframedDataResource
 CL$ 3
 CL$ H
@@ -2425,6 +2421,7 @@ CT$pH
 CT$xD
 CT9F,t3@2
 CType
+CVCpByB	
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
 CVRAudioDeviceImpl::EnumAudioDevices
 CVRAudioDeviceImpl::GetDeviceSoundVolume
@@ -4541,6 +4538,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
+RSDSt
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5105,6 +5103,7 @@ VBus:
 VCRUNTIME140.dll
 VDEST
 VERSION.dll
+VI8mk
 VIVE Pro
 VIVE Pro Mutimedia Audio
 VIVE Tracker 3.0
@@ -5649,7 +5648,6 @@ ZL$Xf
 \%03o
 \1??I
 \D$ A
-\E&0eU
 \T$@IcD$ H
 \U%08x
 \\.\pipe\
@@ -6775,7 +6773,6 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o3Mn7j
 o@@fD
 oD$ fD
 oD$0H
@@ -8109,6 +8106,5 @@ zuusA
 ~3LcD$(L
 ~6HcD$ I
 ~:fD9
-~Pw9K
 ~qj#k"
 ~t&LN

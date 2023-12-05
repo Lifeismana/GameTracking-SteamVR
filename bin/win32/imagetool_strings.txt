@@ -2266,6 +2266,7 @@ $~O="""
 ({)F*
 (|S1c
 )  Imported from GIF image: background.gif
+)#7j?
 ))))	)
 )))))
 )))))))
@@ -2346,7 +2347,6 @@ $~O="""
 *t%.20gR
 *v%.20gI
 *v%da%db%dc%.20gI
-+'Fn:
 +070y0
 +0:0?0N0S0{0
 +1:1?1K1P1x1
@@ -4329,7 +4329,7 @@ $~O="""
 223E3P3a3l3
 230714000000Z
 230x323
-231202020243Z0/
+231204190902Z0/
 23282G2L2e3
 23282R2W2q2v2
 232L2e2~2
@@ -16151,7 +16151,7 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSZ
+RSDS*
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -17520,6 +17520,7 @@ T$xRPQWS
 T$xrD
 T$|SUV
 T(3EG
+T.g#?
 T2.v0
 T@)p>
 TADIt
@@ -19252,6 +19253,7 @@ _wstat64i32
 `_^]3
 ``6c3x
 `}@ReadXBMImage
+a	aqY
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
 a0o0(121?1t1
@@ -20248,7 +20250,6 @@ eXXXXXXXXXXXXX
 eXXXXXXXXXXXXXXXXXXXXXXXXXXX
 eXqIW46
 e^E(1
-e`*b^
 e`D)0
 e`J*0
 e`xW`
@@ -21524,6 +21525,7 @@ h l2xW
 h l2xh x2lW
 h lcn
 h x2l
+h"x?H
 h0B2DV
 h2/SOV
 h2lcnV
@@ -21648,6 +21650,7 @@ hz-gb-2312
 h}	!l
 i&Ma.
 i1!i6Ai;ai@
+i9>U]/ iT
 i= BGRtZ= ZYXtI=rbCYt8
 iCCP: invalid keyword
 iMW=}V
@@ -21994,6 +21997,7 @@ jGj=Lk<Li;WuFb
 jIT<<H,g~Cj
 j\hp"@
 j`h8:9
+ja$ra
 jdhH+@
 jhhx @
 ji_81
@@ -22474,6 +22478,7 @@ n == 0 || string != NULL
 n b?l?i.
 n10-/.,43/892>?5GD;OK8MK4XWW
 n2/t.
+n:Q}Q
 n?EKn?tzn?
 nD$ 3
 nF1~P8wH*n_*
@@ -24962,6 +24967,7 @@ w"UhX
 w(WSP
 w(fff
 w+OQvr
+w-]	Qu
 w?Vh|
 w@Wh 
 w@Whd
@@ -25826,7 +25832,6 @@ xz;Kp}u
 y#ht34
 y)Wh|
 y-resolution
-y.zjR
 yWeWCB875+/1*.1+-0,-0//0.02./2./-24*,gcb
 y\{ZN^G=:32'(/')-(+0(,2(/1+00*0+'
 ya spilte jo whist og quickstep i min taxi.

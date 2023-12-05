@@ -1,7 +1,6 @@
 																																																																																																																
 	!s99
 	D$HA
-	pdtP[
 	|$HA
     A
  %41g
@@ -178,7 +177,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231202020153Z0/
+231204190810Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -215,6 +214,7 @@
 9k0tcH
 9l$Lt	E
 ;D$ht6
+<+/olH
 <0:08
 =ETLP
 =IBgC
@@ -243,6 +243,7 @@
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+@!7g/$X/
 @.data
 @.reloc
 @A^_^
@@ -474,7 +475,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS4d2
+RSDSp
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -581,8 +582,10 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
+XQ/!+(P
 XXXX PNG chunk not known
 Y9"SD
+YTa#Y
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
@@ -596,6 +599,7 @@ Z9k0tUD
 \$PfD
 \$XLc
 \$pfD
+\k v9
 ]9k0tVD
 ]J<0"0i3
 ]g@8yhu
@@ -745,7 +749,6 @@ g9k0t_D
 german
 gfffffffH
 greek
-h].zF
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -864,7 +867,6 @@ t$PHc
 t$hL;
 t$pfA
 t$pfD
-t7?^u
 t>H9n
 tRNS after IDAT
 tRNS before PLTE
@@ -924,6 +926,7 @@ zlib corrupt
 |$PH;
 |$PLc
 |$XH;
+|'SYY
 |Lu?c
 }LuHO
 ~3LcD$(L

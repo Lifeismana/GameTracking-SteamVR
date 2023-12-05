@@ -2327,7 +2327,6 @@ $
 0-pixel image
 0123456789
 0123456789ABCDEF
-01:59:58
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -2473,6 +2472,7 @@ $
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
+19:06:00
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -17104,7 +17104,7 @@ Debug markers: enabled
 DebugDriverLog(char const*, ...)
 DebuggerEnabled
 Dec
-Dec  2 2023
+Dec  4 2023
 December
 DeclareCurrentThreadIsMainThread
 Default

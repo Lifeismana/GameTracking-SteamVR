@@ -7,6 +7,7 @@
 (f*^[0
 +Xt@(
 +o'q)}
++x:[A$
 , last executing in 
 ,W5y+
 .00cfg
@@ -92,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231202020238Z0/
+231204190857Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -119,6 +120,7 @@
 4'4L4n4
 4(414:4C4L4+5D5H5L5P5T5X5\5`5
 4/5C5M5X5}5
+4=<,6
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4j/hd
 5$5/5
@@ -143,6 +145,7 @@
 7$7(787<7L7P7X7p7
 7+737;7
 70503
+7YzuG
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8"8L8
 8'8-878A8K8U8_8l8u8
@@ -207,7 +210,6 @@
 ?_Xout_of_range@std@@YAXPBD@Z
 @.data
 @.reloc
-A%wcg
 ADVAPI32.dll
 Bellevue1
 COculusHmdLatest::UpdateThread
@@ -285,6 +287,7 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NMR&	
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -294,7 +297,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSh
 RaiseException
 S0Q0O
 SA|X=G
@@ -306,7 +308,6 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-Svtn9
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
 TerminateProcess
@@ -334,6 +335,7 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+XeGn1
 Y9"SD
 Y__^[
 [K]taM?
@@ -397,7 +399,6 @@ dk2_camera
 driver_oculus_legacy.dll
 f;A*stSW
 getenv
-hMVW*J
 headset
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -408,9 +409,9 @@ invalid string position
 jdjdh
 jj@0HK4
 k0i0$
-kt 6]
 l2|X/gGe
 m0k0$
+mEOVO
 malloc
 map/set<T> too long
 memcpy
@@ -463,7 +464,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-sR"zq
 startup
 string too long
 strncpy
@@ -488,6 +488,7 @@ www.digicert.com1$0"
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
 |Lu?c
+|SREQ
 }LuHO
 ~qj#k"
 ~t&LN

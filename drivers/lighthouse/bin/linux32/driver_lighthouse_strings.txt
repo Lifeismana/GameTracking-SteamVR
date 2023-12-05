@@ -2425,7 +2425,6 @@ $tI
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:59:58
 0A
 0x
 0x%08llx
@@ -2489,6 +2488,7 @@ $tI
 18
 18IUsbDeviceCallback
 19
+19:06:00
 19CWirelessDecoderWv2
 1e+9999
 2
@@ -4264,7 +4264,7 @@ Dd
 De
 DebugDriverLog(char const*, ...)
 Dec
-Dec  2 2023
+Dec  4 2023
 December
 DeclareCurrentThreadIsMainThread
 Default value for an enum field must be an identifier.

@@ -1,7 +1,6 @@
 	!s99
  %41g
 !hn7!
-"i4WB
 ',=?k
 (f*^[0
 +Xt@(
@@ -104,7 +103,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231202020216Z0/
+231204190837Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -167,6 +166,7 @@
 <0:08
 <0<G<P<Y<b<g<l<s<
 <S=g=
+<W_;S
 = =0=4=D=H=L=T=l=|=
 = =F=O=Z=
 =N>_>
@@ -188,11 +188,8 @@
 @.data
 @.reloc
 Bellevue1
-C]6oJ=K%
 CloseHandle
 CreateEventW
-DZ}]V
-Db|!!n\
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -202,7 +199,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-E`&,	
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -234,6 +230,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+J^>6t
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -248,7 +245,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS\
+RSDS~
 RaiseException
 S0Q0O
 SA|X=G
@@ -349,6 +346,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iB;=Gv
 jj@0HK4
 k0i0$
 l2|X/gGe
@@ -358,6 +356,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
+r6as[o
 string too long
 terminate
 uCVj@
@@ -377,5 +376,6 @@ www.digicert.com1$0"
 {un'%
 |Lu?c
 }LuHO
+}s#2-JD
 ~qj#k"
 ~t&LN

@@ -3,6 +3,7 @@
  A__^
  H3E H3E
 !hn7!
+%IBrJ
 ',=?k
 (D$ f
 (f*^[0
@@ -97,7 +98,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231202020308Z0/
+231204190923Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -110,7 +111,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4vUD!
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -122,6 +122,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
 <0:08
+<Z+6.4P
 =rIQU
 >0<0:
 >Mp$d
@@ -137,9 +138,9 @@
 A9A A
 A_A^_
 A_A^_^]
-Ai\4KS`t
 AuthD
 Bellevue1
+CWU_E
 CloseHandle
 CreateEventW
 D$8H9
@@ -153,6 +154,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+GLo!K
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
@@ -195,6 +197,7 @@ KERNEL32.dll
 K}*n:	
 L$ SH
 L?n(Zy&
+LEx[i
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
 M98u/
@@ -209,7 +212,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS(
+RSDSOMb
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -264,8 +267,8 @@ Washington1
 Y9"SD
 [K]taM?
 \$ UH
-\*7.!
 ]J<0"0i3
+^PE[_
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -308,6 +311,7 @@ a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
+b.q!.
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
@@ -336,7 +340,6 @@ t$ WH
 t$@H=
 tXfff
 terminate
-tnKX\
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
@@ -353,7 +356,7 @@ www.digicert.com1$0"
 {un'%
 |$ AVH
 |Lu?c
-}KuMM@
 }LuHO
+~)h^2%`
 ~qj#k"
 ~t&LN
