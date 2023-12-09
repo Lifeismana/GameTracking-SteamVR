@@ -63,6 +63,7 @@
  sJE3
 !&.37<
 !(0)"
+!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !hn7!
 " not found in the scene.
 """""""
@@ -460,7 +461,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231205020404Z0/
+231208233727Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -482,7 +483,6 @@ $w!Hc
 6I]Dc
 6OB,n_
 6p7M=:P_:}u
-7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
@@ -1284,6 +1284,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSb
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1437,6 +1438,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 VirtualDesktop.LibOVRRT64_1.dll
+W')]~
 WATAUAVAWH
 WAVAWH
 WINMM.dll
@@ -1453,8 +1455,7 @@ X%pi
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
-YJ/NS`m
-Z/S> TH
+Y|Vtg
 Z9k0tUD
 ZL$Xf
 [K]taM?
@@ -1702,13 +1703,13 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\oculusdirect.cpp
 camera
 cameras
 can't merge dc and ac
@@ -2172,6 +2173,7 @@ roundf
 ru_ru
 russian
 s fff
+s)|~2z^
 sampler
 samplers
 scale
@@ -2501,6 +2503,7 @@ xA^A\_^][
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
+zaRW5;6e
 zh_cn
 zh_tw
 zlib corrupt

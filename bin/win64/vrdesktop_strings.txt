@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	H; h
  %41g
  A_A^A\
  A_A^A]A\_
@@ -16,7 +17,6 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-$gj"y
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -166,7 +166,7 @@ $gj"y
 220323000000Z
 220801000000Z
 230714000000Z
-231205020926Z0/
+231208234254Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -186,10 +186,11 @@ $gj"y
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7|J .v
+7}G \U
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;aUCZ
 < t+<
 </u#H
 <0:08
@@ -461,6 +462,7 @@ GetWindowTextLengthW
 GetWindowTextW
 GetWindowThreadProcessId
 H!C@H
+H&\\	
 H+SpI
 H+WpA
 H+WpH
@@ -539,7 +541,6 @@ Initializing output duplication for desktop view %d.
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-Jz,EB
 K32GetModuleFileNameExW
 KERNEL32.dll
 K}*n:	
@@ -584,6 +585,7 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+NJN%%dO
 NPH9Q
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
@@ -599,7 +601,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSc'
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -772,11 +773,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cs
 czech
 d$`H=
@@ -851,7 +852,6 @@ m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
 malloc
 map/set<T> too long
-me8?[
 memcmp
 memcpy
 memmove
@@ -940,7 +940,6 @@ www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 zh_cn
 zh_tw
-{Wd]|
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH

@@ -6,7 +6,6 @@
  A_^]
  A__^
  H3E H3E
- T0Ir
 !hn7!
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
@@ -107,10 +106,8 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-0"7FsG
 0A^_]
 0A_A^A]A\_^[
-0CkwWx
 0w0c1
 0}0i1
 1.0.0
@@ -120,7 +117,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231205020023Z0/
+231208233336Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -146,6 +143,7 @@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
+:KN]2Z
 <0:08
 <P)9Y
 <unknown>
@@ -237,9 +235,9 @@ Intel
 InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J9bVAU
 J>@G_
 KERNEL32.dll
-KF>wS
 K}*n:	
 L$ SH
 L$ SUVWH
@@ -262,7 +260,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R<ym>~
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -318,14 +315,12 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
-[F^ q
 [K]taM?
 \$ H;
 \$ UH
 \$(H;
 \$Xfff
 ]J<0"0i3
-]qZQV
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -344,7 +339,6 @@ _configure_narrow_argv
 _crt_atexit
 _execute_onexit_table
 _gUT^
-_i!|X
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -354,7 +348,6 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 a7hIw
-aoiX-
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
 api-ms-win-core-localization-l1-2-0.dll
@@ -369,10 +362,11 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
-c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
+eoen3
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -383,12 +377,14 @@ jj@0HK4
 k0i0$
 l$ WH
 l2|X/gGe
+lXPI\u
 m0k0$
 m_path
 malloc
 memcpy
 memmove
 memset
+n7Z$E
 ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()
@@ -414,6 +410,5 @@ www.digicert.com1$0"
 |$xMi
 |Lu?c
 }LuHO
-~C%:B
 ~qj#k"
 ~t&LN

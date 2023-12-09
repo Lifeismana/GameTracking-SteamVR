@@ -15,6 +15,7 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
+!Rqm<B
 !hn7!
 %%.%dg
 %s%s%s%s%s
@@ -181,7 +182,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231205020938Z0/
+231208234305Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -427,7 +428,6 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
-DxCZ7,
 E;u`|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
@@ -558,6 +558,7 @@ Handling scroll smooth
 Handling unlock mouse
 HcFdH
 HeapFree
+HziQ|.!
 I9Bhs
 I;4$H
 I;4$L
@@ -630,7 +631,6 @@ L9|$p
 L;8u6H
 L?n(Zy&
 LUnable to create graphics capture item for window.
-L^/Ch
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
@@ -639,7 +639,6 @@ LoadLibraryA
 LocalFree
 LocalizationManager
 M H1E
-M!~S{I
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -795,6 +794,7 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
+X>-59z
 Y9"SD
 [K]taM?
 \$ E3
@@ -891,11 +891,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cs
 czech
 d$`H=
@@ -977,7 +977,6 @@ m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
 malloc
 map/set<T> too long
-mbq1`
 memcmp
 memcpy
 memmove
@@ -999,7 +998,6 @@ portuguese
 product_name
 pt_br
 pt_pt
-qr9as
 r,fff
 request_destroy_window_view
 request_handlers
@@ -1057,7 +1055,6 @@ user32.dll
 v=Y]Bv
 vE;E`M
 vector<T> too long
-vg;eHgE
 vi_vi
 vietnamiese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
@@ -1084,6 +1081,7 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+xjS3S
 zh_cn
 zh_tw
 {un'%
@@ -1103,6 +1101,7 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
+}?N2*
 }LuHO
 ~qj#k"
 ~t&LN

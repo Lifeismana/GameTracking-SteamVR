@@ -6,6 +6,7 @@
  A__^
  H3E H3E
 !hn7!
+$q)Vf
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -18,7 +19,6 @@
 )\$pD
 )d$`D
 )t$pu.H
-+2KI(
 +Xt@(
 +o'q)}
 , last executing in 
@@ -83,6 +83,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+0?dMq
 0A_A^A]A\_^[
 0w0c1
 0}0i1
@@ -92,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231205020407Z0/
+231208233731Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -162,7 +163,6 @@ C(L95
 CL$PH
 COculusHmdLatest::UpdateThread
 CT$ H
-C[I#2?
 Camera tracker driver for rejected by vrserver
 CloseHandle
 Code: -1003
@@ -195,7 +195,6 @@ EventWriteString
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
 FreeLibrary
-G+pKp
 GetCurrentDirectoryW
 GetCurrentProcess
 GetCurrentProcessId
@@ -269,9 +268,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 R$fE;B*
-RP)eb
 RPCRT4.dll
-RSDS/es
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -282,7 +279,6 @@ SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
-SRJT3	
 SUWAWH
 SVWATAUAVAWH
 SetEvent
@@ -369,8 +365,9 @@ _purecall
 _register_onexit_function
 _seh_filter_dll
 _stricmp
+`&92^
 `.rdata
-``s4~p/$
+`0W`9
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -379,12 +376,11 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
 camera
 d$`H=
 d3d11.dll
 dk2_camera
-dr1z&
 driver_oculus_legacy.dll
 effffff
 f9<Xu
@@ -401,6 +397,7 @@ k0i0$
 l$8E3
 l2|X/gGe
 m0k0$
+m[Vjn_
 malloc
 map/set<T> too long
 memcmp
@@ -456,7 +453,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-pZ#w1
 startup
 string too long
 strncpy

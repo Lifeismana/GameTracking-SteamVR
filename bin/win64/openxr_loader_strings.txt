@@ -86,12 +86,12 @@
 .?AVApiLayerInterface@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
-.?AVDebugUtilsLogRecorder@?A0xe2804085@@
-.?AVDebuggerLoaderLogRecorder@?A0xe2804085@@
+.?AVDebugUtilsLogRecorder@?A0x1fce4948@@
+.?AVDebuggerLoaderLogRecorder@?A0x1fce4948@@
 .?AVFactory@CharReader@Json@@
 .?AVLoaderInstance@@
 .?AVLoaderLogRecorder@@
-.?AVOstreamLoaderLogRecorder@?A0xe2804085@@
+.?AVOstreamLoaderLogRecorder@?A0x1fce4948@@
 .?AVOurCharReader@Json@@
 .?AVRuntimeInterface@@
 .?AVbad_alloc@std@@
@@ -158,12 +158,13 @@
 0}0i1
 130801120000Z
 1e+9999
+2 {^)
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231205020435Z0/
+231208233803Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -188,7 +189,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 <0:08
-=`Igj
 =rIQU
 >0<0:
 >Mp$d
@@ -281,7 +281,6 @@
 @UWAVAWH
 @VATAVH
 @VWAVH
-@awVA
 A valid JSON document must be either an array or an object value.
 A(t	H
 ADVAPI32.dll
@@ -319,7 +318,6 @@ ApiLayerInterface::LoadApiLayers succeeded loading layer
 ApiLayerManifestFile::CreateIfValid 
 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
 AuthD
-BPzXM
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -449,7 +447,6 @@ HA_A]_[
 I#V0I
 I9Bhs
 I9W(t
-IHr:"
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Implicit layer 
 Infinity
@@ -517,7 +514,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 MultiByteToWideChar
 No active XrInstance handle.
-OUdUv
+O3gpt
 OpenProcessToken
 OpenXR-Loader
 OutputDebugStringA
@@ -527,11 +524,9 @@ PA_A^A\_]
 PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
-PNfz(
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSN
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -573,7 +568,6 @@ T$0H;
 T$HE3
 T$PH;
 T$xE3
-T7#`_
 TUUUUUU
 Type is not convertible to string
 UATAUAVAWH
@@ -735,7 +729,7 @@ application name missing NULL terminator.
 bad allocation
 bad array new length
 bad cast
-c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 collectComments
 d$ UAVAWH
 d$PE3
@@ -759,7 +753,6 @@ failed allocating memory
 failed to open 
 failed to parse 
 false
-fbT1!]
 fclose
 fffffff
 fflush
@@ -1003,7 +996,6 @@ xrWaitSwapchainImage
 |$xH;
 |$xIi
 |Lu?c
-|k=6O
 }LuHO
 ~+fff
 ~qj#k"

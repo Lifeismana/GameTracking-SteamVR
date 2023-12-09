@@ -6,7 +6,6 @@
 																												
 																																												
 	!s99
-	+{VB
 	<bu 
 	@81t/@8q
    Driver Description: %s
@@ -67,8 +66,10 @@
  times.
  version-number:
 !hn7!
+$@sa)(+
 %%.%dg
 %4.4X:%4.4X
+%d~>n{
 %s (%4.4X:%4.4X Serial: %s)
 %s data received. (handle: %d, bytes: %d) '%s'
 %s setup error from %s
@@ -623,7 +624,6 @@
 0A_A^_^[
 0A__[
 0A__^
-0t^T2
 0w0c1
 0}0i1
 130801120000Z
@@ -634,13 +634,12 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231205020140Z0/
+231208233456Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2kI@|
 311109235959Z0b1
 3333333
 341013235959Z0H1
@@ -683,8 +682,6 @@
 9|$@u
 9|$Pt
 9|$`t
-:(l&(
-:[X",
 :\u-L
 :\u6L
 ;K }DH
@@ -1175,6 +1172,7 @@ DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
 E M;G
+E0\dtq&
 E9e ~7I
 E@HcH
 Element not found
@@ -1256,7 +1254,6 @@ GFf9F
 GH9E0t
 GXA_A^A]A\_^]
 G`f9F
-Gbc=oCX
 Gdf9F
 Get Service Handles. UUID: 0x%4.4X, start_handle: %d, end_handle: %d
 GetCommState
@@ -1397,7 +1394,6 @@ Looking for external adpater.
 Looking for internal adpater.
 M H1E
 M rFM
-M,G#L
 M0 E3
 M98u/
 M9f`u$L
@@ -1720,6 +1716,7 @@ WAVAW
 WAVAWH
 WOKEN
 WS2_32.dll
+WS^A2
 WXM9WPt(E
 WaitForMultipleObjects
 WaitForSingleObject
@@ -1871,7 +1868,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 calloc
 close
 cntrl
@@ -1879,6 +1876,7 @@ d$0D)#
 d$@E3
 d$`H=
 d$pfD
+d7s<uz<
 dat_file
 data error
 deque<T> too long
@@ -1959,7 +1957,6 @@ l$xfD
 l2|X/gGe
 list<T> too long
 lower
-m,Z~!
 m0k0$
 malloc
 manifest
@@ -1973,8 +1970,6 @@ memcpy
 memmove
 memset
 mutex
-nPhF#
-neKXk
 need dictionary
 nrfserlib.dll
 ntelD
@@ -2133,6 +2128,7 @@ t$xH9^
 t$xL;
 t(D8g
 t1H9]
+t1M[sYHo4
 t4L9%
 t4L9-
 t4L9-U
@@ -2219,6 +2215,6 @@ xdigit
 |Lu?c
 }LuHO
 ~'HcB
-~D>4b
+~Yu(7
 ~qj#k"
 ~t&LN

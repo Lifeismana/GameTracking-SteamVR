@@ -253,7 +253,6 @@
 !tI)i
 !tX)i
 !zod:
-" L%4
 " not found in the scene.
 """""""
 ""#$$
@@ -453,7 +452,6 @@ $w!Hc
 (t$p@
 (t$pD
 (t$pL
-(x(b95
 (|$ H
 (|$0A
 (|$0H
@@ -1023,9 +1021,10 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231205020414Z0/
+231208233738Z0/
 2333333
 241009235959Z0a1
+29q:*sD
 2D$x2
 2D$x@2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1179,6 +1178,7 @@ $w!Hc
 <0bA|(
 <3"-xwfiDKZU
 <<Dx<<Dx
+<=$"LS*B
 <U+%.4X>
 <option requires an argument -- %c
 <parse error>
@@ -1193,7 +1193,6 @@ $w!Hc
 =IBgC
 =SNRtt%
 =TADIt<=DNEI
-=`+He
 =j&&LZ66lA??~
 =p=j?
 =rIQU
@@ -1417,6 +1416,7 @@ $w!Hc
 @VWAWH
 @WATAUAVAWH
 @_RDATA
+@aX&VO
 @b1|@
 @bS}H9
 @fff>fff>fff>fff>
@@ -1496,7 +1496,6 @@ AMF encoder Init() failed [ %s ]
 AMF encoder init failed, insufficient bitrate/throughput ( %lld , %lld ).
 AMFInit
 AMFQueryVersion
-AN	w^\y
 AOba~(
 APH+AHH
 ASSERT: "%s" at %s:%d.
@@ -2220,6 +2219,7 @@ FAULT: Packet too big!!! Can't send!!! Dropping
 FD$0L9
 FD$4L;
 FD$8H;\$X
+FDPYK
 FEC decode failure %d %d %d
 FJQ>Wb
 FORMAT=32-bit_rle_rgbe
@@ -2928,6 +2928,7 @@ Kv%]S
 Kv%s=
 Kv==h
 Kv=ci
+KwNL8
 K}*n:	
 L#5s<
 L#5|<
@@ -4192,7 +4193,6 @@ _wstat64i32
 `.rodata
 `3QbE
 `3SbE
-`>5V<
 `A^A]_^[
 `A^_^
 `A_A^A]A\_^[
@@ -5158,12 +5158,12 @@ c9D5Z
 c9D5[
 c9D5u
 c9D5{oy
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c=D5	
 c=D5&8q
 c=D5-kv
@@ -5434,6 +5434,7 @@ driver_vrlink: Seconds from Vsync to Photons: %f
 driver_vrlink: Serial Number: %s
 dropNullPlaceholders
 e##F^
+e$10;
 eCapture
 eCommunications
 eConsole
@@ -6748,7 +6749,6 @@ u<A_A^A]
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 u?fff
-uA <+
 uDf9X
 uGfff
 uH8L<
@@ -6857,7 +6857,6 @@ x)l$P
 x)t$@
 xA^A\_^][
 xA_A^A]A\_^][
-xI^A$
 x` u6H
 x` u6L
 xxJo%%\r..8$

@@ -490,7 +490,6 @@ $+
 0+
 0123456789
 0123456789ABCDEF
-01:59:25
 1
 11CVkTimeline
 12CNonCopyable
@@ -506,6 +505,7 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
+23:32:20
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -1390,7 +1390,7 @@ De
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 Dec
-Dec  5 2023
+Dec  8 2023
 December
 DeclareCurrentThreadIsMainThread
 Destroying a held mutex

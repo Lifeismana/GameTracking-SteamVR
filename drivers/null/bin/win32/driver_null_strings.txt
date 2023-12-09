@@ -1,10 +1,10 @@
 	!s99
  %41g
+ )W*pq
 !hn7!
 ',=?k
 (f*^[0
 +Xt@(
-+f+V9
 +o'q)}
 ,W5y+
 .00cfg
@@ -73,7 +73,6 @@
 /user/wrist/right
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0
 0$0)0.03080=0B0G0L0a0f0k0p0u0z0
-0NUOPf
 0w0c1
 0}0i1
 1!131=1Y1h1w1
@@ -87,7 +86,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231205020212Z0/
+231208233535Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -140,22 +139,21 @@
 <0E0N0W0\0a0h0V1a1 3)3A3j4
 <5=:=D=M=X=^=d=
 <<<C<r<
-<r//o
-<|f)Yf
 =B=J=s=}=
 =rIQU
 >#>,>5>:>?>F>
 >/>H>
 >0<0:
->0pc-*
 >Mp$d
+? ?<?@?\?`?h?p?x?|?
 ? ?d?m?v?
-?4?8?T?X?`?h?p?t?|?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
+B^K)\:
 Bellevue1
+DLMG,
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 20230
@@ -170,6 +168,7 @@ GetCurrentThreadId
 GetSystemTimeAsFileTime
 H-^Eu
 HmdDriverFactory
+I)H?=
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -201,7 +200,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSR
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -215,8 +213,8 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
-YNnc'@
 Y__^[
+Z^:hj}
 [K]taM?
 ]J<0"0i3
 _CxxThrowException
@@ -253,10 +251,10 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-b+=nL
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
+bouV'
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
 displayFrequency
 driver_null
 driver_null.dll
@@ -267,7 +265,6 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-e8vLJr1
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -297,9 +294,8 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-x66iA
+{RzOF
 {un'%
-|DCD-<
 |Lu?c
 }LuHO
 ~qj#k"

@@ -350,6 +350,7 @@ $9E0u
 )t$pH
 )|$@M+
 )|$PD
+*'R ie
 ********** Blue ( nLoopCount++ > 1000 )!
 ********** Green ( nLoopCount++ > 1000 )!
 ********** Red ( nLoopCount++ > 1000 )!
@@ -416,11 +417,11 @@ $9E0u
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fda7136264a0c7f426abb06c45333a48>@@_NW4EVREye@vr@@MMPEAUDistortionCoordinates_t@3@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_ad411c34508d3fca01cb19636afa7601>@@UPrismRunParameters_t@@@std@@U?$default_delete@V?$tuple@V<lambda_ad411c34508d3fca01cb19636afa7601>@@UPrismRunParameters_t@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_abc6602877629f1c56e45bba60c70b19>@@UPrismRunParameters_t@@@std@@U?$default_delete@V?$tuple@V<lambda_abc6602877629f1c56e45bba60c70b19>@@UPrismRunParameters_t@@@std@@@2@@std@@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
-.?AVCDestinationFrameInfo@CFrameHallucinationPrivate@?A0x9ac02b30@@
+.?AVCDestinationFrameInfo@CFrameHallucinationPrivate@?A0xb41460a2@@
 .?AVCMotionEstimator_LiquidVR@@
 .?AVCMotionEstimator_NvEncode@@
 .?AVCNonCopyable@@
@@ -525,15 +526,13 @@ $9E0u
 0w0c1
 0}0i1
 130801120000Z
-1Idz@
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231205020159Z0/
+231208233518Z0/
 241009235959Z0a1
-2>rW8V!
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -563,7 +562,6 @@ $9E0u
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-97E&nZ
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -575,7 +573,6 @@ $9E0u
 ;\$x|
 ;|$ r
 <0:08
-<28+:
 <P)9Y
 <unknown>
 =rIQU
@@ -898,7 +895,6 @@ CVkTimeline::WaitMultiple
 C\$@H
 C\$@M
 CalculateMotion
-Cb^F%
 Client (%s) app container state: %d
 Client Swapchain: %d
 ClientLayers-%d
@@ -1019,6 +1015,7 @@ ExH9Q
 Executable: %s
 F(H9A u)I
 F0H9A(u
+F9%Z_
 FACET_VULKAN_VALIDATION
 FAILURE:WaitForPresent
 F`H9X
@@ -1182,6 +1179,7 @@ J>@G_
 KERNEL32.dll
 Kf;;u
 KfD;3u
+KkkjV\0
 K}*n:	
 L#A0H
 L$ E3
@@ -1298,7 +1296,6 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Minidump comment truncated
 Missing cached timing info (please update prismdisplay_nvapi.cpp with the following):
-Ml`%h^
 Motion Vector Attenuation Pipeline
 Motion Vector CostReduce Pipeline
 Motion Vector MeanMaxBlur Pipeline
@@ -1307,6 +1304,7 @@ Motion Vector Threshold Pipeline
 MultiByteToWideChar
 NPH9Q
 NXH9Q
+NflOX
 Null Client
 NvAPI
 NvAPI: Failed to acquire direct mode display! Error='%s'
@@ -1456,6 +1454,7 @@ S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-39871
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
 S0Q0O
+S0vRu
 SA|X=G
 SHGetFolderPathW
 SPV_NV_compute_shader_derivatives
@@ -1762,46 +1761,46 @@ atanf
 bad allocation
 bad array new length
 bad conversion
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkcommand.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkquery.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\meshutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\panelmask.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommandbatch.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcuda.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdescriptors.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkimagehistory.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkshaderpipeline.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\Retail\win64\2017\prism.pdb
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\clientswapchain.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\framehallucination.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimation.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimator_liquidvr.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimator_nvencode.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionsmoothing.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism_capi.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_liquidvr.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_nvapi.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_vulkan.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismpanelmask.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismposeprovider_null.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkcommand.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkquery.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\meshutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\panelmask.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommandbatch.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcuda.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdescriptors.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkimagehistory.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkshaderpipeline.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\Retail\win64\2017\prism.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\clientswapchain.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\framehallucination.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimation.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimator_liquidvr.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimator_nvencode.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionsmoothing.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism_capi.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismclient.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_liquidvr.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_nvapi.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_vulkan.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismpanelmask.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismposeprovider_null.cpp
 client
 computeCommandSet.Valid()
 createInfo.pComputeDistortion
@@ -1873,6 +1872,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i W@|o.M
 input.colorIndices.nSwapchainIndex != SwapchainIndices_t::k_nInvalidSwapchainIndex
 invalid bitset<N> position
 invalid string position
@@ -1965,7 +1965,6 @@ nvEncOpenEncodeSession != nullptr
 nvapi_QueryInterface
 nvapi_pepQueryInterface
 nvcuda.dll
-o'{l+P
 ole32.dll
 ot$HH
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex

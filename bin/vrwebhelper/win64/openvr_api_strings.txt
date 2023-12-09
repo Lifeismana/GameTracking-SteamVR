@@ -53,7 +53,7 @@
 !~?s5
 "e?<<<<<<l?
 "f9;t
-#GfD/
+#U,{r!Y,q
 #])#	
 $+xvA
 $< t6<$t,<+t"<vt
@@ -70,9 +70,11 @@ $iMBm
 %Z/nJ?
 %b %d %H : %M : %S %Y
 %d / %m / %y
+%k)r^
 %m / %d / %y
 &<	x4;O
 &?PPPPPPP?
+&W76J
 &uo r
 ' is not a number.
 ',=?k
@@ -112,7 +114,6 @@ $iMBm
 )t$`3
 )|$0H
 )|B?d!
-**40N
 *StO9>T
 *uXI;
 +J$D8M@
@@ -416,8 +417,9 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231205020117Z0/
+231208233430Z0/
 241009235959Z0a1
+2>w,M
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -532,6 +534,7 @@ $iMBm
 ?Cu0f9w
 ?D8d$@
 ?E=$% B
+?Ht`=(6
 ?QY^&
 ?R0I?
 ?TY,>5
@@ -668,6 +671,7 @@ AreFileApisANSI
 August
 AuthD
 B$D+B,toD+B(
+B$U	/
 B(I9A(u
 B0E8XAt
 B8\(8
@@ -1265,7 +1269,6 @@ N3`d?
 N>O=I9
 NAN(IND)
 NAN(SNAN)
-NBORP
 No Error (0)
 Not Initialized (109)
 Not available to watchdog apps (131)
@@ -1326,6 +1329,7 @@ SVWATAUAVAWH
 SVWATAVAWH
 SVWAVAWH
 SVWAVH
+S]j%E
 Saturday
 SchedulerKind
 SchedulingProtocol
@@ -1814,6 +1818,7 @@ _logb
 _nextafter
 _oD>Kg
 ` UAVAWH
+`!Ikg
 `+!]?
 `.rdata
 `A^_^
@@ -1877,6 +1882,7 @@ assert json failed
 atan2
 b4 a2
 b?^Cy
+b^2}E
 bad address
 bad allocation
 bad array new length
@@ -1892,7 +1898,7 @@ c [1>H'
 c%;>7
 c(>\,
 c0&>`
-c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
@@ -1997,7 +2003,6 @@ filename too long
 floor
 frexp
 function not supported
-fxiR)tN8e
 generic
 gfe[D
 gfffA
@@ -2005,7 +2010,6 @@ gfffL
 gfffffffH
 h VWATAVAWH
 h-y"3
-h;jH[#
 h< t <$
 h>1my
 hA\^][
@@ -2149,7 +2153,6 @@ pKp$3
 pScheduler
 pThreadProxy
 permission denied
-ppJC{
 ppVirtualProcessorRoots
 protocol error
 protocol not supported
@@ -2331,6 +2334,7 @@ x`cot~
 xmZ8(N*
 xpxxxx
 xwpwpp
+xyFL#
 yH;YXtl
 y\PD>!
 y^QZ8(O*
