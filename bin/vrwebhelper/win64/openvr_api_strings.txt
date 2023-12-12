@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	"U	1
 	kE>fvw
                           
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
@@ -51,15 +52,16 @@
 !T$(H!T$ 
 !hn7!
 !~?s5
+"!	4=Yj
 "e?<<<<<<l?
 "f9;t
-#U,{r!Y,q
 #])#	
 $+xvA
 $< t6<$t,<+t"<vt
 $C#9$"
 $Ib?s
 $iMBm
+$p;]d*j
 %%.%dg
 %.0Lf
 %D8d$@t
@@ -70,11 +72,9 @@ $iMBm
 %Z/nJ?
 %b %d %H : %M : %S %Y
 %d / %m / %y
-%k)r^
 %m / %d / %y
 &<	x4;O
 &?PPPPPPP?
-&W76J
 &uo r
 ' is not a number.
 ',=?k
@@ -108,6 +108,7 @@ $iMBm
 )D$PM
 )D$pL
 )H+}0
+)l"j3
 )t$ A
 )t$0H
 )t$@H
@@ -417,9 +418,8 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231208233430Z0/
+231212192920Z0/
 241009235959Z0a1
-2>w,M
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -442,6 +442,7 @@ $iMBm
 6D8\$`u
 6I]Dc
 6OB,n_
+6k;Ou*9
 700PP
 700WP
 70503
@@ -512,6 +513,7 @@ $iMBm
 <:u3H
 <:wuH
 <>#n2
+<AmBVk
 <htr<jtb<lt6<tt&<wt
 <xu<D
 <}wYI
@@ -534,7 +536,6 @@ $iMBm
 ?Cu0f9w
 ?D8d$@
 ?E=$% B
-?Ht`=(6
 ?QY^&
 ?R0I?
 ?TY,>5
@@ -623,6 +624,7 @@ A;H$s
 A;J$vdH
 A>l$/
 A>pP&
+A@_=g
 AA,A$
 AA<Fu
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -671,7 +673,6 @@ AreFileApisANSI
 August
 AuthD
 B$D+B,toD+B(
-B$U	/
 B(I9A(u
 B0E8XAt
 B8\(8
@@ -680,6 +681,7 @@ BC?>6t9^	c:>
 BF>^G
 BHoxqF
 BL$(A
+BPu- 
 Bad dynamic_cast!
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
@@ -1145,6 +1147,7 @@ IsProcessorFeaturePresent
 IsValidCodePage
 IsValidLocale
 IsValidLocaleName
+Itw a
 J$A;H$A
 J>@G_
 JBIh	i
@@ -1162,6 +1165,7 @@ K8Hc@
 KERNEL32.dll
 KH;_XtW3
 KXHcS8
+Km^ged{?
 K}*n:	
 K~Je#>!
 L!|$(L!
@@ -1298,6 +1302,7 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
+RSDSw
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1329,7 +1334,6 @@ SVWATAUAVAWH
 SVWATAVAWH
 SVWAVAWH
 SVWAVH
-S]j%E
 Saturday
 SchedulerKind
 SchedulingProtocol
@@ -1786,6 +1790,7 @@ Zod(^?
 \ffff
 \u=H;
 \wDgG
+\yq2[ g
 ])6M>&
 ]+9pa
 ]6%S*
@@ -1818,7 +1823,6 @@ _logb
 _nextafter
 _oD>Kg
 ` UAVAWH
-`!Ikg
 `+!]?
 `.rdata
 `A^_^
@@ -1882,7 +1886,6 @@ assert json failed
 atan2
 b4 a2
 b?^Cy
-b^2}E
 bad address
 bad allocation
 bad array new length
@@ -1898,7 +1901,7 @@ c [1>H'
 c%;>7
 c(>\,
 c0&>`
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
+c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 c?FA@s}
 cD5U3#eF7v\NV5%J%
 cRpp`
@@ -2300,6 +2303,7 @@ uzKs@>
 u|fD9I
 u~9t$Xt
 u~LcW
+v/#	D6
 v0D8eou\H
 v2!L.2
 v=Y]Bv
@@ -2334,7 +2338,6 @@ x`cot~
 xmZ8(N*
 xpxxxx
 xwpwpp
-xyFL#
 yH;YXtl
 y\PD>!
 y^QZ8(O*
@@ -2344,6 +2347,7 @@ zwom}
 { ATAVAWH
 { AVH
 { tjL
+{4k;z%
 {S@d6
 {XIZ/
 {ZLjF5jE5zZK

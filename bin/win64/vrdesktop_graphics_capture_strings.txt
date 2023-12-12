@@ -15,7 +15,6 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
-!Rqm<B
 !hn7!
 %%.%dg
 %s%s%s%s%s
@@ -36,6 +35,7 @@
 )t$0H
 )t$@H
 *uXI;
++Mo}b
 +Xt@(
 +o'q)}
 , last executing in 
@@ -182,12 +182,13 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231208234305Z0/
+231212193911Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2~J*& 
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -207,6 +208,7 @@
 8_^][
 9D$xu
 9D$|toH
+9WP~9
 < t+<
 </u#H
 <0:08
@@ -558,7 +560,6 @@ Handling scroll smooth
 Handling unlock mouse
 HcFdH
 HeapFree
-HziQ|.!
 I9Bhs
 I;4$H
 I;4$L
@@ -639,6 +640,7 @@ LoadLibraryA
 LocalFree
 LocalizationManager
 M H1E
+M59lK
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -667,6 +669,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSc
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -794,7 +797,6 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
-X>-59z
 Y9"SD
 [K]taM?
 \$ E3
@@ -891,11 +893,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cs
 czech
 d$`H=
@@ -969,9 +971,11 @@ l$8E3
 l$PM9n
 l$`M;
 l2|X/gGe
+lON{b
 latam
 list<T> too long
 m0k0$
+mX	W9V
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -1054,6 +1058,7 @@ update_window_list
 user32.dll
 v=Y]Bv
 vE;E`M
+vL3I]c
 vector<T> too long
 vi_vi
 vietnamiese
@@ -1081,7 +1086,6 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-xjS3S
 zh_cn
 zh_tw
 {un'%
@@ -1101,7 +1105,6 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
-}?N2*
 }LuHO
 ~qj#k"
 ~t&LN

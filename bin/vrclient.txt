@@ -4091,14 +4091,14 @@
  puts
  putwc
  qsort
- r C.1860.370819
- r C.1863.370830
+ r C.1860.370835
+ r C.1863.370846
  r C.427.290275
  r CSWTCH.111
  r CSWTCH.214
  r CSWTCH.28
- r CSWTCH.716
- r CSWTCH.764
+ r CSWTCH.719
+ r CSWTCH.767
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetDefaultValue<double>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -5565,22 +5565,17 @@
  t .L1078
  t .L1079
  t .L108
- t .L1080
- t .L1081
- t .L1082
- t .L1083
- t .L1084
- t .L1085
- t .L1086
- t .L1087
- t .L1088
  t .L1089
  t .L109
+ t .L1091
+ t .L1092
  t .L1095
+ t .L1096
  t .L10963
  t .L10966
  t .L10968
  t .L10969
+ t .L1097
  t .L10970
  t .L10971
  t .L10972
@@ -5589,6 +5584,8 @@
  t .L10975
  t .L10976
  t .L10977
+ t .L1098
+ t .L1099
  t .L10993
  t .L10995
  t .L10996
@@ -5597,9 +5594,16 @@
  t .L10999
  t .L11
  t .L110
+ t .L1100
  t .L11000
  t .L11001
  t .L11002
+ t .L1101
+ t .L1102
+ t .L1103
+ t .L1104
+ t .L1105
+ t .L1106
  t .L111
  t .L11188
  t .L11190
@@ -5652,8 +5656,6 @@
  t .L11561
  t .L116
  t .L117
- t .L1171
- t .L1172
  t .L1173
  t .L1174
  t .L1175
@@ -19511,6 +19513,7 @@
  t CVulkanVRRenderer::GetNativeDevice(VRRenderer::QueueMode)
  t CVulkanVRRenderer::GetRendererAPI()
  t CVulkanVRRenderer::GetTextureLOD(VRRenderer::TextureBase*, unsigned int)
+ t CVulkanVRRenderer::GetTextureLOD(VRRenderer::TextureBase*, unsigned int) [clone .cold]
  t CVulkanVRRenderer::GetTextureNativePointer(VRRenderer::TextureBase*)
  t CVulkanVRRenderer::GetTextureSharedHandle(VRRenderer::TextureBase*)
  t CVulkanVRRenderer::GetTextureSharedResource(VRRenderer::TextureBase*)
@@ -29888,6 +29891,8 @@
  t vr::CVROverlayInternalLatest::GetToastInfo(unsigned int, vr::DashboardNotificationInfo_t*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetToastOverlayHandle(unsigned long long*)
  t vr::CVROverlayInternalLatest::GetToastOverlayHandle(unsigned long long*) [clone .cold]
+ t vr::CVROverlayInternalLatest::GetVisibleTimeInSeconds(unsigned long long, float*) const
+ t vr::CVROverlayInternalLatest::GetVisibleTimeInSeconds(unsigned long long, float*) const [clone .cold]
  t vr::CVROverlayInternalLatest::HasCameraRoomViewCapability()
  t vr::CVROverlayInternalLatest::HasCameraRoomViewCapability() [clone .cold]
  t vr::CVROverlayInternalLatest::HasMessageOverlay()

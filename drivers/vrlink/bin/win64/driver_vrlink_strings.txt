@@ -389,11 +389,12 @@ $w!Hc
 'D9c0t
 '[', '{', or a literal
 'bq}Ho
+'iaMg
 'uri' is missing from non binary glTF file buffer.
 ("<6PZDNxrlf
 (3-!0,1'8"5.*2$
-(?%6#I
-(?%I\6
+(?%&'7
+(?%6bI
 (A\^][
 (A\_^[
 (A^A\^[
@@ -425,11 +426,8 @@ $w!Hc
 (bq}K
 (d$pD
 (f*^[0
-(o-&1}
-(o-6Ut
-(o->bo
-(o-zh~
-(o=`]l
+(o-&p}
+(o-fWz
 (oA&bs
 (oAdb
 (oAhI
@@ -495,8 +493,8 @@ $w!Hc
 )t$PL;
 )t$Pf
 )t$`3
-)t$`H
 )t$pD
+)t$pH
 )w--Z
 )|$ D
 )|$ H
@@ -509,7 +507,7 @@ $w!Hc
 )|$@f
 )|$PD
 )|$`D
-)|$pE
+)|$`H
 )|$pf
 **~T**~T
 *uXI;
@@ -579,6 +577,7 @@ $w!Hc
 .?AV<lambda_8c41f96c9266656aa778846b9a081afc>@@
 .?AV<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@
 .?AV<lambda_a3e50aa671c83e58801967e93e8597ee>@@
+.?AV<lambda_a484c5d48bbdf8926a107b4eb4e1349a>@@
 .?AV<lambda_b05e443f3b21806c8efcecd322b95173>@@
 .?AV<lambda_b4bac2e61013943b1b76ac148112d79c>@@
 .?AV<lambda_b86b9c1557bf5090e8a15621ae0c1fc5>@@
@@ -587,7 +586,6 @@ $w!Hc
 .?AV<lambda_c9cfe458063abe4525b197f339b88660>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
-.?AV<lambda_ed961622f20101278be2c02f188b2074>@@
 .?AV<lambda_ef8cd50b187808a213c6f694a155665f>@@
 .?AV<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@
 .?AV<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@
@@ -625,6 +623,7 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_8c41f96c9266656aa778846b9a081afc>@@XW4EControlConnectMessageType@@PEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a3e50aa671c83e58801967e93e8597ee>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_a484c5d48bbdf8926a107b4eb4e1349a>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b05e443f3b21806c8efcecd322b95173>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bac2e61013943b1b76ac148112d79c>@@XPEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b86b9c1557bf5090e8a15621ae0c1fc5>@@XW4ValueTransportID@@_N@std@@
@@ -633,7 +632,6 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_c9cfe458063abe4525b197f339b88660>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_ed961622f20101278be2c02f188b2074>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ef8cd50b187808a213c6f694a155665f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@XW4ValueTransportID@@_N@std@@
@@ -779,6 +777,7 @@ $w!Hc
 .edata
 .fA3T0
 .h265
+.hiAf
 .idata$2
 .idata$3
 .idata$4
@@ -1021,10 +1020,9 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231208233738Z0/
+231212193230Z0/
 2333333
 241009235959Z0a1
-29q:*sD
 2D$x2
 2D$x@2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1036,6 +1034,7 @@ $w!Hc
 2dataCount too high (%u)
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2j@xb
 2t\Hc
 3"((xP((xPWW
 311109235959Z0b1
@@ -1059,29 +1058,29 @@ $w!Hc
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 55_j55_j,,tX,,tX``
 55j_WW
-5@D5"3v
-5@D5&+v
+5@D5"rv
+5@D5&jv
 5@D52
-5@D58
+5@D586q
 5@D5>
-5@D5>cy
-5@D5@
-5@D5B%
-5@D5B~w
-5@D5Fvw
+5@D5>]
+5@D5@Mp
+5@D5B
+5@D5Bd
+5@D5F
 5@D5H
 5@D5L
-5@D5Txm
-5@D5Xpm
-5@D5t
-5@D5xtx
-5@D5|lx
+5@D5T
+5@D5X
+5@D5t	}
+5@D5x
+5@D5|
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6666666666666666\\\\\\\\\\\\\\\\
 6I]Dc
-6L9=W
+6L9='&
 6OB,n_
 6bA~Ho47bq
 6p7M=:P_:}u
@@ -1110,7 +1109,7 @@ $w!Hc
 9C }.H
 9D$ ti
 9D$0u
-9D$`tY
+9D$@tU
 9T$XJ
 9]pu2
 9b!5@
@@ -1128,6 +1127,7 @@ $w!Hc
 9p:T;x<
 9rK9J
 9t$4vb
+9|$0ub
 9|$<u
 9|$@u
 : @		fA
@@ -1178,7 +1178,6 @@ $w!Hc
 <0bA|(
 <3"-xwfiDKZU
 <<Dx<<Dx
-<=$"LS*B
 <U+%.4X>
 <option requires an argument -- %c
 <parse error>
@@ -1304,6 +1303,8 @@ $w!Hc
 @.reloc
 @24$A2
 @2t$x@2
+@8-_k
+@8-vm
 @848u
 @849u
 @8I+@0H
@@ -1398,6 +1399,7 @@ $w!Hc
 @USWAVH
 @USWAWH
 @UVATAUAVH
+@UVATAVAWH
 @UVATH
 @UVAUH
 @UVAVH
@@ -1416,7 +1418,6 @@ $w!Hc
 @VWAWH
 @WATAUAVAWH
 @_RDATA
-@aX&VO
 @b1|@
 @bS}H9
 @fff>fff>fff>fff>
@@ -1468,13 +1469,19 @@ ACbSmHD
 ADVAPI32.dll
 AKbS%HD
 AKbSmHD
+AMF AMFVideoEncoder_HEVC capabilities query failed [ %s ]
+AMF AMFVideoEncoder_HEVC input capabilities query failed [ %s ]
 AMF CreateComponent AMFVideoEncoder_HEVC failed [ %s ]
 AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_BITRATE) failed [ %s ]
+AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_LEVEL) failed [ %s ]
 AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_THROUGHPUT) failed [ %s ]
+AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_MAX_TIER) failed [ %s ]
 AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_QUERY_TIMEOUT_SUPPORT) failed [ %s ]
 AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_REQUESTED_THROUGHPUT) failed [ %s ]
 AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_ROI) failed [ %s ]
-AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_COLOR_BIT_DEPTH) ( %d ) failed [ %s ]
+AMF GetProperty(AMF_VIDEO_ENCODER_HEVC_CAP_SUPPORT_SLICE_OUTPUT) failed [ %s ]
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_COLOR_BIT_DEPTH) = AMF_COLOR_BIT_DEPTH_10 failed [ %s ]
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_COLOR_BIT_DEPTH) = AMF_COLOR_BIT_DEPTH_8 failed [ %s ]
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_ENFORCE_HRD) ( true ) failed [ %s ]
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_FRAMERATE) ( %d ) failed [ %s ]
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_GOP_SIZE) ( 0 ) failed [ %s ]
@@ -1485,15 +1492,23 @@ AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_INPUT_TRANSFER_CHARACTERISTIC) failed [ %
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_MAX_AU_SIZE) ( %lld ) failed [ %s ]
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_NOMINAL_RANGE) failed [ %s ]
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_OUTPUT_COLOR_PRIMARIES) failed [ %s ]
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_OUTPUT_MODE) ( %d ) failed [ %s ]
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_OUTPUT_TRANSFER_CHARACTERISTIC) failed [ %s ]
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_PROFILE) = AMF_VIDEO_ENCODER_HEVC_PROFILE_MAIN failed [ %s ]
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_PROFILE) = AMF_VIDEO_ENCODER_HEVC_PROFILE_MAIN_10 failed [ %s ]
+AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_PROFILE) = AMF_VIDEO_ENCODER_HEVC_PROFILE_MAIN_10 failed [ %s ]; forcing 8-bit.
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_RATE_CONTROL_SKIP_FRAME_ENABLE) ( false ) failed [ %s ]
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_SLICES_PER_FRAME) ( %d ) failed [ %s ]
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_TARGET_BITRATE) ( %lld ) failed [ %s ]
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_USAGE) failed [ %s ]
 AMF SetProperty(AMF_VIDEO_ENCODER_HEVC_VBV_BUFFER_SIZE) ( %lld ) failed [ %s ]
+AMF Version: %llu.%llu.%llu.%llu
 AMF encoder GetCaps() failed [ %s ]
 AMF encoder Init() failed [ %s ]
 AMF encoder init failed, insufficient bitrate/throughput ( %lld , %lld ).
+AMF: AMF_VIDEO_ENCODER_HEVC_CAP_MAX_LEVEL reports %d
+AMF: AMF_VIDEO_ENCODER_HEVC_CAP_MAX_TIER reports %d
+AMF: Warning: Driver reports sliced encoding is not supported
 AMFInit
 AMFQueryVersion
 AOba~(
@@ -1522,6 +1537,7 @@ A\_^[]
 A\_^]
 A]A\^
 A]A\_[]
+A]A\_]
 A]A\_^][
 A]_[]
 A]_^[]
@@ -1540,6 +1556,7 @@ A^_[]
 A^_^[]
 A^_^][
 A_A\[]
+A_A\^]
 A_A\_
 A_A\_][
 A_A\_^[
@@ -1596,7 +1613,6 @@ Adding dashboard transform to request
 Adjust relative FOV
 Adobe
 AlexEkd JingThom
-Allocate took: %0.3fms.
 AnimationChannel
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
@@ -1711,7 +1727,6 @@ CD$ 3
 CD$(H
 CD$03
 CD$0H
-CD$83
 CD$@3
 CD$P3
 CD$`H
@@ -1796,15 +1811,14 @@ C\$pL
 Call to NvEncodeAPIGetMaxSupportedVersion failed.
 Camera
 CancelIPChangeNotify
-Cd$@H
 Change Controller Prediction time.
 Change HMD Prediction in milliseconds.
 Change bandwidth limit.
 Change frame phase of when waitgetposes is requested.
 Channel: %d
 ChaperoneReceiver::SetChaperone (len %d)
+CheckOrGenerateSpatialRateControl
 Classic
-Cleanup frames took: %0.3fms.
 Client Network Test Result: %s
 Client sent SYST_CLIENT_SHUTDOWN
 CloseHandle
@@ -1818,7 +1832,9 @@ CoTaskMemFree
 CoUninitialize
 CodecSet
 CodecSetOVR
+Complete reinit success. Took: %dms
 Completing videonvenc::GetEncodedDataThread
+Completing videonvenc::ManageFramesThread
 Completing videonvenc::StartEncodeDataThread
 Configuring VRLINK Chaperone Prop container %08x: Universe %llu
 Connection %s at %f
@@ -1869,6 +1885,7 @@ CryptImportKey
 CryptReleaseContext
 CryptSetKeyParam
 CryptSetKeyParam Failed to set cypher (%08x)
+Ct$@H
 Current Driver Version does not support this NvEncodeAPI version, please upgrade driver
 C|$ H
 C|$0H
@@ -1887,7 +1904,6 @@ D$ HcH
 D$ L+
 D$ L;
 D$ Lm
-D$ Lmff
 D$ M+
 D$ \+
 D$ fA
@@ -2023,14 +2039,13 @@ D3DKMTQueryAdapterInfo
 D7q/;M
 D8$8u
 D8,8u
-D8<8u
-D8G%u
+D848u
 D8d$P
 D8fht/H
 D8o)tJ
 D8o)tU
-D8t$Xt
-D8t$Xu$
+D8t$`t
+D8t$`u%
 D8|$ t A
 D90uGH
 D9@ }
@@ -2038,7 +2053,7 @@ D9D$D
 D9b4u
 D9c0t
 D9c0t)H
-D9d$,t
+D9d$(t
 D9uou
 D9w u-H
 D9{0t
@@ -2058,6 +2073,7 @@ D;}Tr
 DD$@H
 DDHfA
 DEBUG
+DEBUGGER FULL RESET STREAM
 DEBUGGER RESET STREAM
 DISABLED
 DPing
@@ -2107,7 +2123,6 @@ ERROR: Null VTE_CLIENT_SESSION_ID!
 ERROR: Requested GRT type is not supported (type != DIRECTX)
 ERROR: Shaders sum to > 64kB
 ERROR: While trying to request retransmission of packet #%d, too many packets were missing even to retransmit.  Aborting stream.
-ERROR: You cannot force open mode if you require encryption.
 ERROR: failed to create/reset encoder in videoamfenc::SubmitFrame()
 ERROR: frame metadata index mismatch
 EVTYPE_LDASH_PAUSE: Remote was continued
@@ -2162,7 +2177,7 @@ Error: Failed on CreateVertexShader with file %s
 Error: Failed to Unregister completion event %p. Error: %d
 Error: Failed to Unregister resource %p. Error: %d
 Error: Failed to close handle for completion event %p.
-Error: Failed to create completion event[%d] = %p. Error: %d
+Error: Failed to create completion event %p. Error: %d
 Error: Failed to destroy bitstream buffer %p. Error: %d
 Error: Failed to generate crypt random data.
 Error: Failed to lock output bitstream (%d) = %p. Error: 
@@ -2184,7 +2199,7 @@ Error: Unhandled nSpatialEncodeMode, cannot determine nNumSlices
 Error: Unknown transport mode (%s) requested
 Error: XOR0 transport specified, but len too short.
 Error: Your GPU does not support %s for video compression
-Error: cannot create bitstream buffer[%d] = %p. Error: %d
+Error: cannot create bitstream buffer = %p. Error: %d
 Error: detection unknown (%d)
 Error: enc failed to initialize the session.
 Error: enc uninitialized when submitting a frame
@@ -2219,7 +2234,6 @@ FAULT: Packet too big!!! Can't send!!! Dropping
 FD$0L9
 FD$4L;
 FD$8H;\$X
-FDPYK
 FEC decode failure %d %d %d
 FJQ>Wb
 FORMAT=32-bit_rle_rgbe
@@ -2244,6 +2258,8 @@ Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
 Failed to read file: 
 Failed to register/find class in DeviceMessageWindow_t::Create
+Failed to restart stream. Code: 0x11
+Failed to restart stream. Code: 0x12
 Failed to send OGS row update
 Failed to send link bandwidth measurement
 Failed to set thread %p priority: invalid priority %d
@@ -2259,9 +2275,11 @@ File size mismatch :
 File write error: 
 Finished encoder reinit (%d). Took: %0.3fms
 Flags
+Forced Stream reset has failed. Code: 0x13 
 Format string parse failure
 FramesToThrottle
 FreeLibrary
+Full Reinit
 G(M+G I
 G,;O8u
 G0L9g8u
@@ -2282,6 +2300,7 @@ GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
 GetDC
+GetData
 GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x
 GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x
 GetDefaultAudioEndpoint failed: hr = 0x%08x
@@ -2322,8 +2341,6 @@ H!C@H
 H!G0H
 H#K0L
 H#O0H
-H%-d~9
-H%5'~9
 H%l$	
 H+C H;
 H+C0H
@@ -2346,9 +2363,6 @@ H3T$ I
 H3T$8M
 H3|$ 
 H93t	H
-H95HR
-H95\R
-H9=fI
 H9A H
 H9Ahs
 H9C t
@@ -2393,12 +2407,13 @@ H;|$`
 H;|$x
 H;}Ht
 H;}PtwH
-H?%*}
+H?%">
 HA^_^[
 HA_A^A]A\_^][
+HandleUnrecoverableError( %d )
 HcB Hi
+HcD$ Hi
 HcD$$Hi
-HcD$(Hi
 HcD$x
 HcF$H
 HcF(;
@@ -2426,226 +2441,255 @@ Ho	bq
 Ho bq
 Ho!bq
 Ho$$b
-Ho%"[<
-Ho%"|H
-Ho%&<
-Ho%'W<
-Ho%(:
-Ho%+S<
-Ho%+ZI
-Ho%-Av
-Ho%-i
-Ho%/g
-Ho%4`I
-Ho%5$
-Ho%9TI
-Ho%>r
-Ho%DI<
-Ho%ENI
-Ho%JE<
-Ho%N;
-Ho%NA<
-Ho%RR
-Ho%S=<
-Ho%S>v
-Ho%VQ
-Ho%X9<
-Ho%XO
-Ho%Xqy
-Ho%\5<
-Ho%]|;
-Ho%b1<
-Ho%cx;
-Ho%f-<
-Ho%gt;
-Ho%k)<
-Ho%k)I
-Ho%lp;
-Ho%m	q
-Ho%o%<
-Ho%o{=
-Ho%pl;
-Ho%s/I
-Ho%sh
-Ho%t!<
-Ho%tw=
-Ho%u&
-Ho%uh;
-Ho%w#I
-Ho%y%
-Ho%yd;
-Ho%{#
-Ho%{/
-Ho%~P
-Ho%~`;
+Ho%	">
+Ho%	Kq
+Ho%#X
+Ho%&{
+Ho%'S
+Ho%(y
+Ho%*!
+Ho%,1
+Ho%-G=
+Ho%./
+Ho%3@
+Ho%3C=
+Ho%5c
+Ho%7?=
+Ho%7U
+Ho%9S
+Ho%<;=
+Ho%A7=
+Ho%C7
+Ho%E3=
+Ho%J[
+Ho%K/=
+Ho%LG
+Ho%NE
+Ho%Nz
+Ho%O+=
+Ho%P"
+Ho%R 
+Ho%S|<
+Ho%S}v
+Ho%T'=
+Ho%T0
+Ho%Xx<
+Ho%Z[p
+Ho%\t<
+Ho%^3
+Ho%bp<
+Ho%fl<
+Ho%g/|
+Ho%gY
+Ho%iW
+Ho%j:
+Ho%kh<
+Ho%khI
+Ho%mHq
+Ho%od<
+Ho%s6I
+Ho%snI
+Ho%tF
+Ho%t`<
+Ho%ue
+Ho%vD
+Ho%v\H
+Ho%wA
+Ho%wbI
+Ho%x!
+Ho%x\<
+Ho%y?
+Ho%yd
+Ho%{b
+Ho%{n
+Ho%}T
+Ho%}X<
 Ho&bQ
-Ho-	+p
-Ho-!&
-Ho-"(
-Ho-"9w
-Ho-#8p
-Ho-#;t
-Ho-#A{
-Ho-$&
-Ho-%!z
-Ho-%bp
-Ho-&bw
-Ho-'S
-Ho-('}
-Ho-)Q
-Ho-*"r
-Ho-+=y
-Ho-+^o
-Ho-+a
-Ho-,&
-Ho-,zz
-Ho---}
-Ho-/Fs
-Ho-0S{
-Ho-0h
-Ho-2Rt
-Ho-4+}
-Ho-4am
-Ho-5)}
-Ho-5k
-Ho-6J
-Ho-7/s
-Ho-73|
-Ho-9<p
-Ho-9on
-Ho-9p|
-Ho-:ky
-Ho-;?
-Ho-;mt
-Ho-==
-Ho-=X{
-Ho-=g~
-Ho-?&|
-Ho-?>t
-Ho-@*r
-Ho-@2n
-Ho-@<r
-Ho-ACp
-Ho-AZr
-Ho-Bht
-Ho-Bl
-Ho-CVw
-Ho-Cct
-Ho-Dj
-Ho-E`y
-Ho-I"w
-Ho-J'
-Ho-J@v
-Ho-Jwr
-Ho-K^t
-Ho-L%
-Ho-MS|
-Ho-MU{
-Ho-O0|
-Ho-O=|
-Ho-P0y
-Ho-Qb{
-Ho-Qs
-Ho-Q{s
-Ho-RMw
-Ho-T&r
-Ho-T&y
-Ho-T`o
-Ho-U+y
-Ho-W7t
-Ho-X/x
-Ho-XSm
-Ho-YAt
-Ho-Z!y
-Ho-Z>w
-Ho-[/z
-Ho-[N~
-Ho-\;v
-Ho-\Xx
-Ho-_?o
-Ho-_V}
-Ho-_u~
-Ho-_~~
-Ho-`~p
-Ho-c	
-Ho-c6{
-Ho-c>
-Ho-cBr
-Ho-dNt
-Ho-e-|
-Ho-e<
-Ho-eCm
-Ho-ets
-Ho-gDt
-Ho-gIz
-Ho-gLp
-Ho-gT~
-Ho-h1m
-Ho-hhp
-Ho-i3z
-Ho-jk
-Ho-kko
-Ho-lAy
-Ho-lRn
-Ho-mR
-Ho-nnp
-Ho-o0o
-Ho-o7z
-Ho-oGt
-Ho-p^w
-Ho-pjk
-Ho-p{r
-Ho-qFp
-Ho-r?|
-Ho-s\z
-Ho-s\~
-Ho-s~z
-Ho-v5s
-Ho-v;z
-Ho-vCn
-Ho-w"}
-Ho-w?z
-Ho-x;s
-Ho-xnr
-Ho-yLx
-Ho-{qt
-Ho-|Ys
-Ho-|^~
-Ho-}Y
-Ho-~#h
+Ho-	jp
+Ho- /u
+Ho- 1|
+Ho- D
+Ho-!$
+Ho-!)|
+Ho-!1y
+Ho-!Sz
+Ho-!e
+Ho-"B
+Ho-"g
+Ho-"xw
+Ho-#Jv
+Ho-#wp
+Ho-#zt
+Ho-$e
+Ho-%)w
+Ho-%`z
+Ho-&Jq
+Ho-&W
+Ho-'5y
+Ho-'Bq
+Ho-(f}
+Ho-*?n
+Ho-*D
+Ho-*M
+Ho-*ar
+Ho-+Mx
+Ho-+Zy
+Ho-+|y
+Ho-,e
+Ho--7
+Ho--l}
+Ho-.9y
+Ho-/5
+Ho-/=y
+Ho-2Av
+Ho-46n
+Ho-4j}
+Ho-5h}
+Ho-7	y
+Ho-74z
+Ho-7ns
+Ho-7r|
+Ho-8[
+Ho-9{p
+Ho-:2v
+Ho-:Y
+Ho-;~
+Ho-<%p
+Ho-<Up
+Ho-=0s
+Ho-=|
+Ho-?e|
+Ho-?}t
+Ho-@ir
+Ho-@qn
+Ho-@{r
+Ho-A4
+Ho-B7p
+Ho-C2
+Ho-DR
+Ho-EAx
+Ho-GJp
+Ho-HC
+Ho-HOw
+Ho-Iaw
+Ho-JA
+Ho-Jf
+Ho-KP
+Ho-LX
+Ho-Ld
+Ho-M]n
+Ho-NN
+Ho-NV
+Ho-Oo|
+Ho-O||
+Ho-P%s
+Ho-P-
+Ho-P?s
+Ho-PRv
+Ho-Poy
+Ho-QO}
+Ho-R7m
+Ho-T'u
+Ho-T\m
+Ho-Ter
+Ho-Tey
+Ho-U+u
+Ho-U6
+Ho-Ujy
+Ho-V*
+Ho-Wvt
+Ho-X(y
+Ho-XK
+Ho-Xnx
+Ho-Z@m
+Ho-Z`y
+Ho-Z}w
+Ho-[5s
+Ho-[Y}
+Ho-[nz
+Ho-\zv
+Ho-^%|
+Ho-_~o
+Ho-bCn
+Ho-cH
+Ho-cu{
+Ho-c}
+Ho-d>q
+Ho-d]v
+Ho-e%
+Ho-eJy
+Ho-el|
+Ho-e{
+Ho-g#
+Ho-g;z
+Ho-hN
+Ho-hpm
+Ho-i"
+Ho-i3
+Ho-irz
+Ho-k1
+Ho-kZw
+Ho-l,n
+Ho-l.p
+Ho-m!n
+Ho-n#q
+Ho-ooo
+Ho-ovz
+Ho-q#u
+Ho-r~|
+Ho-t:s
+Ho-tW
+Ho-vts
+Ho-vzz
+Ho-wa}
+Ho-w~z
+Ho-x&
+Ho-xzs
+Ho-y!w
+Ho-y1
+Ho-y7v
+Ho-zG
+Ho-{Sw
+Ho-~Ex
+Ho-~Z
+Ho-~bh
 Ho4$b
-Ho5%*h
-Ho5@,
-Ho5EQ
-Ho5N3
-Ho5o)j
+Ho5"K
+Ho5%ih
+Ho5'T
+Ho5-M
+Ho55[
+Ho5@S
+Ho5@k
+Ho5I6
+Ho5Nr
+Ho5Y(
+Ho5`M
+Ho5g>
+Ho5ohj
 Ho8bA
 Ho:ba
-Ho=%G3
-Ho=*bl
-Ho=*zB
-Ho=,$F
-Ho=,CG
-Ho=2#6
-Ho=6$G
-Ho=Bal
-Ho=Fkl
-Ho=G1
-Ho=LP7
-Ho=PV6
-Ho=Rcl
-Ho=V`l
-Ho=Whl
-Ho=^^B
-Ho=c-A
-Ho=rt2
-Ho=sU1
-Ho=s_l
-Ho=y2G
-Ho=yC
-Ho={Q
-Ho={h3
-Ho=}HD
+Ho= "4
+Ho=*[0
+Ho=,cF
+Ho=2b6
+Ho=6cG
+Ho=8ML
+Ho=:-2
+Ho=;?
+Ho=>B@
+Ho=Gp
+Ho=H-E
+Ho=J4E
+Ho=L;E
+Ho=NBE
+Ho=R2B
+Ho=cM
+Ho=clA
+Ho=h%E
+Ho=m1F
+Ho=yqG
+Ho={B0
 Ho@	b
 HoA	b
 HoA	bQ
@@ -2702,17 +2746,20 @@ HoyJb
 HoyKb
 Ho|$	b
 Hu"Hc
-Hv% +
-Hv%9B
-Hv%TX
-Hv%e!
-Hv%u	
-Hv%w,
-Hv-3W
-Hv-9q
-Hv-D 
-Hv-V+
-Hv-oB
+Hv% j
+Hv%?7
+Hv%JN
+Hv%c(
+Hv%e`
+Hv%uH
+Hv%wk
+Hv-$<
+Hv-)M
+Hv-C]
+Hv-D_
+Hv-TG
+Hv-Vj
+Hv-u7
 I	bq}L
 I!bb-@
 I#bb-@
@@ -2896,42 +2943,60 @@ IsWindow
 IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d
 IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1
 Issues Stream Reset
-Iv%5T
-Iv%X(
-Iv%_Q
-Iv%q?
-Iv=;j
-Iv=eg
+Issues complete stream teardown and reinit
+Iv%+J
+Iv%F\
+Iv%UG
+Iv%VD
+Iv%Xg
+Iv%pY
+Iv%q~
+Iv%w4
+Iv=&5
+Iv=EV
+Iv=P2
+Iv=oS
 J16(p
 J3<6H
 J>@G_
 JSON string too short.
 J`H;L
-Jv%xl
-Jv%zj
-Jv= Q
-Jv="O
-Jv=C%
-Jv=E#
-Jv=\<
-Jv=^:
+Jv%/%
+Jv%1#
+Jv%c7
+Jv%e5
+Jv=1Y
+Jv=3W
+Jv=AA
+Jv=C?
+Jv=Cd
+Jv=Eb
+Jv=\{
+Jv=^y
+Jv=b1
+Jv=d/
 KERNEL32.dll
 KHR_lights_punctual
 Key setup failure in transport subsystem. RX Status: %d
 Key setup failure in transport subsystem. TX Status: %d
 Kf;;u
 KfD;3u
-Kv%-	
-Kv%7R
-Kv%Z&
-Kv%]S
-Kv%s=
-Kv==h
-Kv=ci
-KwNL8
+Kv%-H
+Kv%HZ
+Kv%SI
+Kv%XB
+Kv%Ze
+Kv%n[
+Kv%s|
+Kv%y2
+Kv%~C
+Kv=(3
+Kv=GT
+Kv=N4
+Kv=mU
 K}*n:	
-L#5s<
-L#5|<
+L#5s{
+L#5|{
 L#F0H
 L#F0L
 L#T$PI
@@ -2954,6 +3019,7 @@ L$ SVWH
 L$ SWH
 L$ USVWH
 L$ UVWATAUAVAWH
+L$ UWATAUH
 L$ UWAUAVAWH
 L$ WATAUAVAWH
 L$ fA
@@ -2970,8 +3036,6 @@ L$(H;
 L$(H;L$`tKH
 L$(fA
 L$)bq
-L$0A+
-L$0D+
 L$0E3
 L$0H3
 L$0H9
@@ -3021,7 +3085,6 @@ L$XM+
 L$Ybq
 L$\+T$P+L$T
 L$\E3
-L$`A+
 L$`E3
 L$`H+
 L$`fD
@@ -3053,6 +3116,12 @@ L3D$hI
 L3D$pI
 L3D$xI
 L9.tPL
+L9=9 
+L9=>%
+L9=B#
+L9=P!
+L9=b$
+L9=y"
 L9E(H
 L9g u'
 L9g0t
@@ -3080,6 +3149,7 @@ L9rpu
 L9rpv
 L9rxuZ
 L9t$@
+L9t$@u
 L9|$@
 L9|$`
 L9|$p
@@ -3088,11 +3158,11 @@ L;9~kM
 L;D$x
 L;l$H
 L;l$P
-L;l$`t@H
 L;l$p
 L;t$h
 L;|$ t
 L;|$8t
+L;|$ht@H
 L<pL;
 L?n(Zy&
 LDHfA
@@ -3122,8 +3192,12 @@ LocalAlloc
 LocalFree
 LocalizationManager
 Logic
-Lv%Rk
-Lv=6;
+Lv%	$
+Lv%=6
+Lv%\W
+Lv=6z
+Lv=<0
+Lv=`!
 LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
@@ -3170,9 +3244,13 @@ ModelNumber %s
 MoveFileExW
 MoveWindow
 MultiByteToWideChar
-Mv%->
-Mv=HP
-Mv=k$
+Mv%-}
+Mv%33
+Mv%W$
+Mv=>F
+Mv=YX
+Mv=i@
+Mv=kc
 MyClass
 N I9N(
 NO SOUND
@@ -3181,12 +3259,15 @@ NPH9Q
 NVENC EncodeAPI not found
 NVENC Failed to open an encode session
 NVENC Is now degated.
-NVENC reset configuration
-NVENC: TearDownEncoder
+NVENC: TearDownEncoder (%p)
+NVENC: TearDownEncoder complete (no encoder to teardown).
+NVENC: TearDownEncoder complete.
+NVENCODER.cpp m_bDebugErrorsFatal = %d
 NVENCODER.cpp m_bOutputInVideoMemory resized to size = %d
 NVENCODER.cpp m_encodeConfig.frameIntervalP = %d
 NVENCODER.cpp m_encodeConfig.rcParams.lookaheadDepth = %d
 NVENCODER.cpp m_nEncoderBuffer = %d
+NVENCODER.cpp m_nMaxPoolBuffers = %d
 NVIDIA
 NV_ENC_CAPS_ASYNC_ENCODE_SUPPORT
 NV_ENC_CAPS_DYNAMIC_QUERY_ENCODER_CAPACITY
@@ -3316,15 +3397,12 @@ Path_Exists( absFilePath )
 PbS}H9
 PeekMessageA
 Perf warning: Copy -> StartEncode took %0.3fms
-Perf warning: StartEncode -> GetData took %0.3fms
-Perf warning: SubmitFrame locked for %0.3fms
 Perspective camera description not found.
 PerspectiveCamera
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 PolyPolygon
 PolyPolyline
 PostQuitMessage
-Postinit took: %0.3fms.
 PreC %4.1fms
 PreH %4.1fms
 Primitive
@@ -3371,6 +3449,7 @@ R##Fe
 R$fE;B*
 R(D9ug
 R09\$PL
+R89|$0u
 R;vM;
 RFOV: %d%%
 RPCRT4.dll
@@ -3408,6 +3487,7 @@ Reserved4
 Reserved5
 Reserved6
 Reset Stream
+Reset video stream because frame ID was not what we expected (%d < %d) or we had a stream reset request [%d %d]
 ResetEvent
 ResourceRoot %s
 Retry
@@ -3522,9 +3602,9 @@ SVLDataLink::InitCrypt(...,%d,%d)
 SVLDataLinkUDP -> Post Shutdown Sock: %d
 SVLDataLinkUDP -> Sending: %d
 SVLDataLinkUDP -> r = %d
-SVLDataLinkUDP: Found available QOS service!
+SVLDataLinkUDP: Found available QOS service! (Socket creation = %d)
 SVLDataLinkUDP: LocalAlloc failed with %d
-SVLDataLinkUDP: No QOS service found!
+SVLDataLinkUDP: No QOS service found (But created socket anyway)
 SVLDataLinkUDP: Panic on WSAEnumProtocols
 SVLDataLinkUDP: WSAEnumProtocols failed with %d
 SVLDataLinkUDP: WSAIoctl failed with %d
@@ -3628,7 +3708,8 @@ Soft AES PERF: %f MByte/s
 Sound
 Spot light description not found.
 StartEncMS
-Starting NVENC reset configuration Cause Mask: %d%d%d%d%d%d%d
+StartNvEnc
+Starting NVENC reset configuration Cause Mask: %d%d%d%d%d%d (P:%d)
 Starting encoder reset (%d)...
 Starting encoder reset with reallocate (%d)...
 Starting session in mode %d
@@ -3670,11 +3751,11 @@ T$(fD
 T$*bq
 T$.ba~
 T$.ba~I
+T$0E3
 T$0I+
 T$0fA
 T$6ba~I
 T$8;T$<
-T$8E3
 T$8uBH
 T$:bq
 T$>ba~
@@ -3720,6 +3801,8 @@ TX Fail:%d
 TX Failure Streak Hit %d; Aborting and reconnecting.
 T[$:.6
 TdhEnumerateManifestProviderEvents
+Temporary AMF encoder Init() succeeded for 10-bit
+Temporary AMF encoder Init() with 10-bit failed [ %s ]; forcing 8-bit.
 TerminateProcess
 Texture2D  Texture0;
 TextureInfo
@@ -3771,15 +3854,14 @@ UUUUE3
 UUUUUUU
 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
 UVATAVAWH
+UVATAWH
 UVAUAWH
-UVAWH
 UVWATAUAVAWH
 UVWATAUAWH
 UVWATAWH
 UVWAVAWH
 UWATAVAWH
 UWATAVH
-UWATH
 UWAVH
 UWAWH
 U^cQ`
@@ -3923,6 +4005,7 @@ Warning: Driver forcing 10bit mode via 'force10bit' setting.
 Warning: HMD does not support 10bit.
 Warning: Overflow: Frame %d not in expected state. Expecting: %d. Got: %d. Waiting 100 and trying again.
 Warning: Received empty frame size from NVENC. Reallocating next frame.
+Warning: Skipping ResetVideoStream because we have one pending.
 Warning: Trying to set a height (%d) that is higher than the max (%d). Setting to max instead.
 Warning: Trying to set a width (%d) that is higher than the max (%d). Setting to max instead.
 Warning: Watchdog %s not properly cleaned up%s%s
@@ -3942,7 +4025,6 @@ WirelessHost
 Wr0L+
 X	bQ}J
 X	bq}K
-X UVAWH
 X UVWH
 X94<H
 XA^A]A\_^[
@@ -3965,6 +4047,7 @@ Y+bb=@
 Y-bb=@
 Y/bb=@
 Y1bb=@
+Y4f90
 Y5bb=@
 Y9"SD
 Y9bb=@
@@ -3973,28 +4056,57 @@ Y=bb=@
 YAbb=@
 YRba~(
 YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
+Yl$(A
 Your GPU supports %s for video compression
 Z9k0tUD
 ZL$Xf
-[Alloc] Created bitstream buffer[%d] = %p
-[Alloc] Created d3d11 texture[%d] = %p
-[Alloc] Created m_vpCompletionEvent[%d] = %p
-[Alloc] Registered texture resource[%d] = %p
+[Alloc] Created bitstream buffer = %p
+[Alloc] Created d3d11 texture = %p
+[Alloc] Created m_vpCompletionEvent %p
+[Alloc] Registered texture resource = %p
 [Cleanup] Closed handle for completion event %p
 [Cleanup] Unmapped input resource %p
 [Cleanup] Unregister completion event %p
 [Cleanup] Unregister resource %p
 [Cleanup] nvEncDestroyBitstreamBuffer %p
-[EOS] EOS Frame never finished encoding (%p). Waited 5s
-[EOS] EOS took: %0.3fms.
+[DelayedCleanup] Adding frame[%d] to delete queue: %p
+[DelayedCleanup] Init new frame[%d]: %p
+[DelayedCleanup] Using pool frame[%d]: %p
+[EOS] EOS Frame never finished encoding (%p). Waited 10s. Attempting full reinit.
+[EOS] EOS complete. Took: %0.3fms.
 [EOS] Encoder not setup, not sending EOS.
 [EOS] Error: Frame %d failed to reset completion event %p
 [EOS] Found %d frames that will need to finish. (took %0.3fms
-[EOS] NV_ENC_PIC_FLAG_EOS Thread wait locked for: %0.3fms. m_bResetStartEncodeComplete = (%d). m_bResetGetDataComplete = (%d).
-[EOS] Threads never reset. Waited 5s
-[EOS] Waited for EOS for: %0.3fms.
-[EOS] complete.
+[EOS] Threads never reset. Waited 10s. Attempting full reinit.
 [K]taM?
+[Manage] Deallocate: %p. Queue size: %d
+[Manage] Initialize new frame[%d]: %p
+[Manage] New pool frame: %p. (size: %d)
+[Perf warning] %0.3fms - EOS::Waiting on threads to stop
+[Perf warning] %0.3fms - EOSAndResetThreadStates took too long.
+[Perf warning] %0.3fms - Encode Time
+[Perf warning] %0.3fms - Finding in progress frames took too long.
+[Perf warning] %0.3fms - GetData::Lock
+[Perf warning] %0.3fms - HMD Frame Event
+[Perf warning] %0.3fms - HMD Resource Check
+[Perf warning] %0.3fms - HMD graphics context flush & release
+[Perf warning] %0.3fms - Reinit::Cleanup
+[Perf warning] %0.3fms - SetAllFrameStates took too long.
+[Perf warning] %0.3fms - Since last post present
+[Perf warning] %0.3fms - StartEncode -> GetData
+[Perf warning] %0.3fms - StartEncodeData::nvEncEncodePicture
+[Perf warning] %0.3fms - StartEncodeData::nvEncReconfigureEncoder
+[Perf warning] %0.3fms - SubmitFrame waited on idle state too long. Buffer too small.
+[Perf warning] %0.3fms - Submitting EOS encode
+[Perf warning] %0.3fms - Time since last submit to encoder
+[Perf warning] %0.3fms - Time to initiate send over network
+[Perf warning] %0.3fms - Took a long time for EOS to complete.
+[Perf warning] %0.3fms - videonvenc::GetEncodedPacket
+[Perf warning] %0.3fms - videonvenc::Init
+[Perf warning] %0.3fms - videonvenc::PostInit
+[Perf warning] %0.3fms - videonvenc::ReinitEncoder
+[Perf warning] %0.3fms - videonvenc::StartEncodeData
+[Perf warning] %0.3fms - videonvenc::SubmitFrame
 [SVLS] ResetVideoStream
 [SVL] !!!! AcquireSync FAILED with E_FAIL
 [SVL] !!!! AcquireSync FAILED with WAIT_ABANDONED
@@ -4057,6 +4169,7 @@ ZL$Xf
 \$?bc
 \$@A;Y
 \$@E;
+\$@H9
 \$@H;
 \$@L;
 \$@fA
@@ -4572,178 +4685,188 @@ br}H|
 bs%HD
 bs5@D5
 bs5@D5"
-bs5@D5(
-bs5@D52Tp
-bs5@D59!s
+bs5@D5(Ln
+bs5@D52
+bs5@D59`s
 bs5@D5>
-bs5@D5H'x
-bs5@D5H2}
+bs5@D5>+r
+bs5@D5Hfx
+bs5@D5Hq}
 bs5@D5I
 bs5@D5O
 bs5@D5T
 bs5@D5V
 bs5@D5X
-bs5@D5j2r
-bs5@D5zp}
-bs5@D5|
-bs5@D5~
+bs5@D5jqr
+bs5@D5z
+bs5@D5|[s
+bs5@D5~Um
 bs5HD
 bs5HD5
-bs5HD5	
-bs5HD5 
+bs5HD5	"}
+bs5HD5	^
+bs5HD5 Lt
 bs5HD5!
 bs5HD5$
 bs5HD5%
-bs5HD5'
+bs5HD5')}
 bs5HD5)
-bs5HD5*
-bs5HD5,
+bs5HD5*Ft
+bs5HD5,Po
 bs5HD5/
-bs5HD5/	o
-bs5HD50
-bs5HD54
-bs5HD57
-bs5HD57>
-bs5HD59
-bs5HD5:
-bs5HD5<
+bs5HD5/Ho
+bs5HD5/Z
+bs5HD50Eo
+bs5HD54Bo
+bs5HD57 }
+bs5HD57}
+bs5HD59T
+bs5HD5:Mo
+bs5HD5<:|
 bs5HD5?
-bs5HD5E;
+bs5HD5Ez
 bs5HD5G
-bs5HD5J
-bs5HD5M
-bs5HD5Q
+bs5HD5JDo
+bs5HD5M%}
+bs5HD5QMt
 bs5HD5T
 bs5HD5U
-bs5HD5U2
+bs5HD5Uq
 bs5HD5W
 bs5HD5Z
 bs5HD5[
 bs5HD5_
-bs5HD5`
-bs5HD5a
+bs5HD5`Io
+bs5HD5`[
+bs5HD5a>|
 bs5HD5e
-bs5HD5j
+bs5HD5jCo
 bs5HD5l
-bs5HD5o
+bs5HD5o;|
 bs5HD5u
-bs5HD5v
+bs5HD5vQt
 bs5HD5|
-bs5HD5~
+bs5HD5~&}
 bs=HD
 bs=HD5
 bs=HD5	
-bs=HD5 $o
-bs=HD5 Ov
+bs=HD5 
+bs=HD5 co
 bs=HD5!
 bs=HD5"
-bs=HD5#Gv
+bs=HD5"6u
+bs=HD5"[q
+bs=HD5#
 bs=HD5$
-bs=HD5$!u
-bs=HD5$Dv
+bs=HD5$`u
 bs=HD5%
-bs=HD5&
+bs=HD5%Sq
+bs=HD5&Pq
 bs=HD5(
-bs=HD5(Av
 bs=HD5)
 bs=HD5*
-bs=HD5*qy
-bs=HD5,
-bs=HD5,3
-bs=HD5.Lv
+bs=HD5*Mq
+bs=HD5,C
+bs=HD5,r
+bs=HD5.
 bs=HD5/
-bs=HD5/+
+bs=HD5/j
 bs=HD50
-bs=HD50(
-bs=HD54%
+bs=HD50Xq
+bs=HD50X|
+bs=HD50g
+bs=HD54d
 bs=HD57
 bs=HD58
 bs=HD59
 bs=HD5:
-bs=HD5:0
-bs=HD5;Eq
-bs=HD5<
-bs=HD5=
-bs=HD5>Cv
+bs=HD5: {
+bs=HD5:o
+bs=HD5;
+bs=HD5<:
+bs=HD5=5~
+bs=HD5>
 bs=HD5?
 bs=HD5@
+bs=HD5@Oq
 bs=HD5A
-bs=HD5Bxv
+bs=HD5B
 bs=HD5C
 bs=HD5D
-bs=HD5E,t
+bs=HD5Ekt
 bs=HD5H
 bs=HD5I
-bs=HD5IBq
-bs=HD5J'
+bs=HD5I=u
+bs=HD5Jf
 bs=HD5K
 bs=HD5N
-bs=HD5Puv
+bs=HD5P
 bs=HD5Q
 bs=HD5R
 bs=HD5T
-bs=HD5T%u
-bs=HD5T:
-bs=HD5THv
+bs=HD5Tdu
+bs=HD5Ty
 bs=HD5U
-bs=HD5V
+bs=HD5VTq
 bs=HD5X
-bs=HD5Y9q
-bs=HD5Zuy
+bs=HD5Yxq
+bs=HD5Z
 bs=HD5\
 bs=HD5^
-bs=HD5^Bv
 bs=HD5_
 bs=HD5`
-bs=HD5`,
-bs=HD5`lv
+bs=HD5`Nq
+bs=HD5`k
 bs=HD5a
 bs=HD5b
+bs=HD5b){
+bs=HD5b9~
 bs=HD5d
 bs=HD5e
+bs=HD5e!{
 bs=HD5f
 bs=HD5i
 bs=HD5j
-bs=HD5j&
-bs=HD5l
-bs=HD5l$u
-bs=HD5n
+bs=HD5je
+bs=HD5l>
+bs=HD5lcu
+bs=HD5nAu
 bs=HD5o
 bs=HD5p
+bs=HD5p&{
+bs=HD5p6~
 bs=HD5r
-bs=HD5rU
-bs=HD5rty
-bs=HD5t
+bs=HD5rD}
+bs=HD5t	~
 bs=HD5z
-bs=HD5|
-bs=HD5|.u
+bs=HD5|>u
+bs=HD5|mu
 bs=HD5~
 bs=Hq
 bsE@D
 bsEH%
 bsEHD
 bsEHD5
-bsEHD5 F
+bsEHD5 
 bsEHD5#
 bsEHD5&
-bsEHD5'
+bsEHD5'?{
 bsEHD5+
-bsEHD51
-bsEHD54
-bsEHD5=
-bsEHD5ADu
+bsEHD51S~
+bsEHD54#~
+bsEHD5=[u
+bsEHD5A
 bsEHD5G
 bsEHD5U
-bsEHD5V
+bsEHD5V<{
 bsEHD5W
-bsEHD5Y
-bsEHD5pAu
+bsEHD5Y]
+bsEHD5p
 bsEHD5s
 bsEHD5v
-bsEHD5v\q
-bsEHD5ygv
+bsEHD5y
 bsEHD5z
-bsEHD5{4q
+bsEHD5{sq
 bsEHD5}
 bsEHq
 bsM@D
@@ -4755,228 +4878,224 @@ bsUH%
 bsUHD
 bsUHD5
 bsUHD5	
+bsUHD5	Bs
 bsUHD5 
-bsUHD5 )z
-bsUHD5 \z
-bsUHD5 rr
+bsUHD5 	r
+bsUHD5 ;m
+bsUHD5 hz
 bsUHD5!
 bsUHD5"
-bsUHD5"L{
-bsUHD5"az
 bsUHD5#
 bsUHD5$
-bsUHD5$/t
+bsUHD5$Dv
+bsUHD5$R}
+bsUHD5$nt
 bsUHD5%
-bsUHD5%,o
+bsUHD5%Lz
+bsUHD5%ko
 bsUHD5&
-bsUHD5&Q~
+bsUHD5&!r
 bsUHD5'
+bsUHD5'-w
+bsUHD5'2w
 bsUHD5(
-bsUHD5(Ho
+bsUHD5(/
 bsUHD5)
-bsUHD5)[}
 bsUHD5*
+bsUHD5*Xv
 bsUHD5+
-bsUHD5+	x
-bsUHD5+^n
+bsUHD5+Hx
 bsUHD5,
-bsUHD5,	r
-bsUHD5,Br
-bsUHD5,Gr
-bsUHD5,^x
+bsUHD5,Hr
+bsUHD5,Sr
 bsUHD5-
-bsUHD5-Go
-bsUHD5-tt
 bsUHD5.
-bsUHD5.<m
-bsUHD5.=m
+bsUHD5.{m
+bsUHD5.|m
 bsUHD5/
-bsUHD5/Ln
 bsUHD50
-bsUHD501o
-bsUHD50Yw
+bsUHD50po
 bsUHD51
-bsUHD51Pz
+bsUHD510n
+bsUHD519n
 bsUHD52
+bsUHD525
+bsUHD52;v
+bsUHD52>n
+bsUHD52Ir
 bsUHD53
 bsUHD54
-bsUHD54dr
-bsUHD55M}
+bsUHD55
 bsUHD56
 bsUHD57
-bsUHD57V{
+bsUHD57#w
+bsUHD57&q
+bsUHD57[x
 bsUHD58
-bsUHD58)m
-bsUHD582{
-bsUHD58Vo
-bsUHD58po
-bsUHD58~u
+bsUHD58hm
+bsUHD58q{
 bsUHD59
 bsUHD5:
-bsUHD5:ko
+bsUHD5:P
 bsUHD5;
-bsUHD5;It
 bsUHD5<
-bsUHD5<Hn
+bsUHD5<	u
+bsUHD5<1r
+bsUHD5<\r
 bsUHD5=
-bsUHD5=/r
-bsUHD5=Az
-bsUHD5>=n
-bsUHD5>]
+bsUHD5=*q
+bsUHD5=Fs
+bsUHD5=nr
+bsUHD5>
+bsUHD5>|n
 bsUHD5?
-bsUHD5?[m
+bsUHD5?Wr
 bsUHD5@
-bsUHD5@6o
-bsUHD5@`m
+bsUHD5@7r
+bsUHD5@Dz
+bsUHD5@Xs
+bsUHD5@^}
+bsUHD5@uo
 bsUHD5A
 bsUHD5B
-bsUHD5BY~
+bsUHD5B&v
 bsUHD5C
-bsUHD5CKo
 bsUHD5D
-bsUHD5D+t
-bsUHD5D<n
-bsUHD5DPw
+bsUHD5Djt
+bsUHD5D{n
 bsUHD5E
+bsUHD5E=r
+bsUHD5EBy
 bsUHD5F
 bsUHD5G
-bsUHD5Gu|
 bsUHD5H
+bsUHD5H	x
+bsUHD5H7z
 bsUHD5I
-bsUHD5I[|
 bsUHD5J
-bsUHD5JI{
-bsUHD5Jdw
-bsUHD5Jrp
-bsUHD5J{}
+bsUHD5JMr
+bsUHD5JNr
 bsUHD5K
-bsUHD5KRo
 bsUHD5L
-bsUHD5L)|
-bsUHD5LWm
-bsUHD5Lj{
-bsUHD5Lvr
+bsUHD5L>r
+bsUHD5LIn
+bsUHD5Lh|
 bsUHD5M
-bsUHD5M*n
-bsUHD5Mf}
+bsUHD5M7x
+bsUHD5MCm
+bsUHD5Min
 bsUHD5N
-bsUHD5N+n
-bsUHD5NTs
-bsUHD5Nir
+bsUHD5N6p
+bsUHD5Njn
 bsUHD5O
-bsUHD5O8x
-bsUHD5O^}
+bsUHD5O\w
+bsUHD5Owx
 bsUHD5P
-bsUHD5Psp
 bsUHD5Q
-bsUHD5QH|
-bsUHD5QN{
-bsUHD5Q_|
-bsUHD5Qe~
-bsUHD5R)r
-bsUHD5RGw
+bsUHD5QEw
+bsUHD5R
+bsUHD5Rhr
 bsUHD5S
+bsUHD5SEn
+bsUHD5SNs
 bsUHD5T
-bsUHD5T~
+bsUHD5T2x
 bsUHD5U
+bsUHD5U(p
+bsUHD5U-x
 bsUHD5V
+bsUHD5V2
 bsUHD5W
-bsUHD5Wc|
+bsUHD5W:m
 bsUHD5X
-bsUHD5X0p
-bsUHD5Xg
+bsUHD5X(
+bsUHD5XAz
+bsUHD5XNz
+bsUHD5XUs
+bsUHD5Xop
 bsUHD5Y
-bsUHD5Y#w
-bsUHD5Y/p
+bsUHD5Y#r
+bsUHD5Ybw
+bsUHD5Ynp
 bsUHD5Z
-bsUHD5Z@p
 bsUHD5[
+bsUHD5[Ky
 bsUHD5\
-bsUHD5\%r
-bsUHD5\?s
-bsUHD5\@s
+bsUHD5\dr
+bsUHD5\~s
 bsUHD5]
-bsUHD5]\s
+bsUHD5]#x
+bsUHD5](x
 bsUHD5^
-bsUHD5^7y
-bsUHD5^g|
+bsUHD5^vy
 bsUHD5_
-bsUHD5_$z
-bsUHD5_k|
+bsUHD5_cz
 bsUHD5`
-bsUHD5`tz
-bsUHD5`zu
+bsUHD5`1m
 bsUHD5a
-bsUHD5aI}
 bsUHD5b
-bsUHD5b2w
-bsUHD5bx~
+bsUHD5bqw
 bsUHD5c
-bsUHD5co~
-bsUHD5cqr
+bsUHD5cRr
 bsUHD5d
-bsUHD5d8|
-bsUHD5dHm
-bsUHD5dHr
-bsUHD5dm
+bsUHD5dK}
+bsUHD5dw|
 bsUHD5e
 bsUHD5f
-bsUHD5fOx
-bsUHD5fxt
-bsUHD5g
+bsUHD5gJs
+bsUHD5gUw
+bsUHD5gVn
 bsUHD5h
+bsUHD5hLn
 bsUHD5i
-bsUHD5i p
+bsUHD5i_p
 bsUHD5j
-bsUHD5j!r
+bsUHD5j`r
 bsUHD5k
-bsUHD5kMr
 bsUHD5l
-bsUHD5lF{
-bsUHD5lNr
-bsUHD5lTr
+bsUHD5l	q
+bsUHD5l6
 bsUHD5m
-bsUHD5mSr
+bsUHD5mNm
+bsUHD5mPy
 bsUHD5n
-bsUHD5nZp
+bsUHD5n>z
 bsUHD5o
-bsUHD5oa}
-bsUHD5ods
 bsUHD5p
-bsUHD5p*m
-bsUHD5p7m
-bsUHD5pu
+bsUHD5p"q
+bsUHD5pim
+bsUHD5pvm
 bsUHD5q
-bsUHD5q6m
-bsUHD5q[o
-bsUHD5qcr
-bsUHD5rCy
+bsUHD5qum
+bsUHD5r
 bsUHD5s
+bsUHD5s1p
+bsUHD5s[r
 bsUHD5t
-bsUHD5t9{
+bsUHD5t%n
+bsUHD5t&n
+bsUHD5tBn
+bsUHD5tI
+bsUHD5tx{
 bsUHD5u
-bsUHD5uGn
 bsUHD5v
-bsUHD5vqo
 bsUHD5w
 bsUHD5x
-bsUHD5xJ~
-bsUHD5xLp
+bsUHD5x%w
+bsUHD5xTv
 bsUHD5y
-bsUHD5yB|
-bsUHD5yw
 bsUHD5z
-bsUHD5zFx
+bsUHD5z5n
+bsUHD5z]|
 bsUHD5{
-bsUHD5{Uo
-bsUHD5{Up
-bsUHD5{vo
-bsUHD5|zr
+bsUHD5{Pz
+bsUHD5|
 bsUHD5}
 bsUHD5~
-bsUHD5~"m
-bsUHD5~<p
-bsUHD5~}
+bsUHD5~8r
+bsUHD5~U}
+bsUHD5~am
+bsUHD5~{p
 bsUHq
 bs] C
 bs]H%
@@ -4986,122 +5105,141 @@ bse D
 bse@D
 bse@D5
 bse@D5	
-bse@D5	-q
-bse@D5	;u
-bse@D5 *q
+bse@D5	E|
+bse@D5	E~
+bse@D5	W
+bse@D5	lq
+bse@D5	zu
+bse@D5 iq
 bse@D5!
-bse@D5"O
-bse@D5$%
-bse@D5%Xv
+bse@D5!T
+bse@D5"
+bse@D5$d
+bse@D5%
 bse@D5&
-bse@D5&Vq
-bse@D5'
-bse@D5'%q
-bse@D5':
+bse@D5'!~
+bse@D5'-{
+bse@D5'Wo
+bse@D5'dq
+bse@D5'y
 bse@D5(
 bse@D5)
 bse@D5*
-bse@D5*A
+bse@D5*.}
+bse@D5*^o
 bse@D5+
 bse@D5,
-bse@D5,,
+bse@D5,2}
+bse@D5,k
 bse@D5-
-bse@D5-'
-bse@D5.
-bse@D5/
+bse@D5-f
+bse@D5.D|
+bse@D5.J
+bse@D5/?~
 bse@D50
 bse@D51
-bse@D51<
-bse@D51Qv
+bse@D51Yo
+bse@D51{
 bse@D52
 bse@D53
-bse@D53Uv
+bse@D53]q
 bse@D54
-bse@D55
-bse@D55"q
+bse@D55K|
+bse@D55aq
 bse@D56
-bse@D5:L
+bse@D56F~
+bse@D5:
 bse@D5;
-bse@D5=
-bse@D5=5
+bse@D5;Gu
+bse@D5=Ro
+bse@D5=t
 bse@D5>
-bse@D5>Sq
 bse@D5?
-bse@D5?9
+bse@D5?Vo
+bse@D5?x
 bse@D5@
 bse@D5A
-bse@D5A2u
-bse@D5B
+bse@D5A1{
+bse@D5Aqu
+bse@D5B/}
+bse@D5BNu
 bse@D5C
+bse@D5CWt
 bse@D5E
 bse@D5G
-bse@D5GB
 bse@D5H
 bse@D5I
-bse@D5IRv
+bse@D5I:{
 bse@D5J
+bse@D5J6}
+bse@D5J^t
 bse@D5K
-bse@D5KIq
+bse@D5K1}
+bse@D5K^q
 bse@D5L
-bse@D5M
+bse@D5LO|
+bse@D5MJ~
 bse@D5Q
-bse@D5QYv
 bse@D5R
-bse@D5R&
-bse@D5RTv
-bse@D5R|v
+bse@D5Re
 bse@D5S
-bse@D5S&q
-bse@D5T!q
+bse@D5Seq
+bse@D5T`q
 bse@D5U
-bse@D5U6
+bse@D5USo
+bse@D5Uu
 bse@D5W
-bse@D5Y
-bse@D5Y-
+bse@D5YK
+bse@D5YRu
+bse@D5Yl
 bse@D5[
-bse@D5[6u
+bse@D5[uu
 bse@D5\
-bse@D5]
-bse@D5]=
-bse@D5^
-bse@D5^8
+bse@D5]0{
+bse@D5]Zo
+bse@D5]|
+bse@D5^Uo
+bse@D5^w
 bse@D5_
-bse@D5`
+bse@D5`7{
 bse@D5a
-bse@D5a#t
+bse@D5abt
 bse@D5c
-bse@D5c?u
+bse@D5c~u
 bse@D5d
-bse@D5e
+bse@D5dL|
+bse@D5eG~
 bse@D5f
-bse@D5g
+bse@D5g2{
 bse@D5h
 bse@D5i
 bse@D5j
 bse@D5l
-bse@D5p
-bse@D5p1
+bse@D5p0}
+bse@D5pp
 bse@D5q
+bse@D5qB|
+bse@D5qOu
 bse@D5r
-bse@D5rC
-bse@D5s
+bse@D5r=~
+bse@D5s+{
+bse@D5sO
 bse@D5t
-bse@D5u
-bse@D5vJq
+bse@D5u/{
+bse@D5v
 bse@D5w
-bse@D5w5u
-bse@D5wSv
+bse@D5w7}
+bse@D5wtu
 bse@D5x
 bse@D5y
-bse@D5y q
-bse@D5y t
+bse@D5y_q
+bse@D5y_t
 bse@D5z
-bse@D5z<u
-bse@D5{
+bse@D5z{u
+bse@D5{X
 bse@D5}
-bse@D5}}v
 bse@D5~
-bse@D5~Zv
+bse@D5~Eu
 bseH%
 bseHq
 bsmH%
@@ -5124,56 +5262,56 @@ c	 w
 c! _		
 c!!B0
 c!D53
-c!D54
-c!D5NIu
+c!D54D{
+c!D5N
 c!D5T
 c!D5d
-c!D5f#
+c!D5fb
 c) W		
 c)D5*
 c)D5.
-c)D58&
-c)D5JJ
-c)D5V
+c)D58e
+c)D5J
+c)D5VU
 c)D5W
 c)D5X
 c)D5a
-c)D5aH
-c)D5m*
-c)D5o&
-c)D5u
-c)D5z;
+c)D5a7
+c)D5mi
+c)D5oe
+c)D5u[
+c)D5zz
 c1 O		
-c1D5%
+c1D5%Ao
 c1D5P
 c1D5u
-c5D5"1
-c5D5L
-c5D5a
-c5D5p
+c5D5"p
+c5D5L1|
+c5D5aDt
+c5D5pR
 c9 G		
-c9D5%$
+c9D5%c
 c9D59
 c9D5Z
 c9D5[
-c9D5u
-c9D5{oy
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
-c=D5	
-c=D5&8q
-c=D5-kv
+c9D5u^u
+c9D5{
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
+c=D5	9
+c=D5&wq
+c=D5-
 c=D5?
 c=D5G
-c=D5M
-c=D5Y
+c=D5M,~
+c=D5Y4u
 cAD5.
 cAD5V
-cAD5`
+cAD5`Yp
 cAoption requires an argument -- %c
 cAudBufAvg
 cAudBufMax
@@ -5188,23 +5326,21 @@ cAudRew
 cAudUnd
 cFramePhase
 cPingAMS
-cQD5#
+cQD5# x
 cQD5&
-cQD5&Rp
-cQD5/E|
-cQD50
+cQD5/
+cQD50-q
 cQD52
-cQD52Pp
-cQD58an
-cQD5>Vy
-cQD5Hgs
-cQD5J
-cQD5N%v
-cQD5Rjm
+cQD58
+cQD5>
+cQD5H
+cQD5J)r
+cQD5Ndv
+cQD5R
 cQD5[
-cQD5d
+cQD5d:
 cQD5n
-cQD5npw
+cQD5n'r
 cQD5y
 cRXFailFuzz
 cRXerr
@@ -5212,46 +5348,44 @@ cRXpass
 cRXpps
 cTXFailFuzz
 cTXerr
-cUD5$
-cUD5&`o
+cUD5$=p
+cUD5&
 cUD5+
 cUD51
-cUD51St
-cUD5D
+cUD5D9p
 cUD5J
-cUD5Jgm
 cUD5M
-cUD5Pcm
+cUD5P
 cUD5Q
-cUD5Q/}
-cUD5X}r
-cUD5l
+cUD5Qn}
+cUD5X
+cUD5l%r
 cUD5m
 cUD5p
-cUD5y
-caD5#!
-caD5$
+cUD5yUz
+caD5#`
+caD5$]
 caD5(
-caD51&
-caD52
-caD55
+caD51e
+caD52@
+caD55[
 caD58
-caD5:|
-caD5;
-caD5?
-caD5E
+caD5:
+caD5;O
+caD5?%
+caD5E]
 caD5L
-caD5N
+caD5NS
 caD5O
-caD5Oq
-caD5]v
+caD5]
 caD5^
-caD5bx
-caD5m
+caD5b
+caD5mW
 caD5q
-caD5s
+caD5qV
+caD5s[
 caD5u
-caD5~Z
+caD5~
 calloc
 camera
 cameras
@@ -5263,56 +5397,58 @@ channels
 children
 ciD5"
 ciD5#
-ciD5#	
+ciD5#H
+ciD5#V
 ciD5'
-ciD5'"
+ciD5'a
 ciD5+
-ciD5+!
+ciD5+`
 ciD5/
 ciD50
 ciD54
-ciD5;
-ciD5>
-ciD5?
-ciD5@7
-ciD5A8
-ciD5B
+ciD5;L
+ciD5>!
+ciD5?K
+ciD5@v
+ciD5Aw
+ciD5B 
 ciD5C
-ciD5D6
-ciD5E7
-ciD5Fr
+ciD5Du
+ciD5Ev
+ciD5F
 ciD5G
 ciD5H
-ciD5I
-ciD5Jq
+ciD5IM
+ciD5J
 ciD5L
-ciD5M
-ciD5R#
-ciD5S\
-ciD5V"
-ciD5W 
-ciD5W[
-ciD5[
-ciD5^*
-ciD5`(
+ciD5ML
+ciD5Rb
+ciD5S
+ciD5Va
+ciD5W
+ciD5W_
+ciD5[^
+ciD5^i
+ciD5`g
 ciD5a
-ciD5b)
-ciD5d'
+ciD5bh
+ciD5df
 ciD5e
-ciD5i
+ciD5eB
+ciD5iA
 ciD5k
-ciD5l
-ciD5m~
-ciD5n
+ciD5lM
+ciD5m
+ciD5nQ
 ciD5o
-ciD5p
-ciD5q}
-ciD5r
+ciD5pL
+ciD5q
+ciD5rP
 ciD5s
-ciD5w
-ciD5}
+ciD5sT
+ciD5wS
+ciD5}3
 ciD5~
-ciD5~s
 clientTCPEnable
 clientTCPRemote
 clientUDPEnable
@@ -5333,34 +5469,33 @@ corrupt
 count
 cs_cs
 cyD5#
-cyD5**o
-cyD5+N
+cyD5*io
+cyD5+
 cyD5/
-cyD52L
+cyD52
 cyD54
-cyD5?
-cyD5?*t
+cyD5?[
+cyD5?it
 cyD5E
-cyD5F
-cyD5K'
+cyD5FY
+cyD5Kf
 cyD5L
-cyD5M
-cyD5R0
-cyD5S1{
-cyD5S=
-cyD5V<
-cyD5Y.
+cyD5MQ
+cyD5Ro
+cyD5Sp{
+cyD5S|
+cyD5V{
+cyD5Ym
 cyD5g
-cyD5g'o
+cyD5gfo
 cyD5h
-cyD5k\
+cyD5k
 cyD5n
-cyD5nw
+cyD5n\
 cyD5o
 cyD5p
 cyD5t
 cyD5{
-cyD5{uu
 czech
 d$	ba|(
 d$ AUAVAWD
@@ -5434,7 +5569,6 @@ driver_vrlink: Seconds from Vsync to Photons: %f
 driver_vrlink: Serial Number: %s
 dropNullPlaceholders
 e##F^
-e$10;
 eCapture
 eCommunications
 eConsole
@@ -5451,13 +5585,12 @@ enableEventDebugging
 enableQoS
 enableTimedRetry
 enableYAMLCompatibility
-encGetDataMS
 encResets
-encStartEncodeMS
 encSubmitFrameMS
 end of input
 english
 error
+errorsAsFatal
 es_es
 es_mx
 eventtest
@@ -5497,7 +5630,7 @@ fA3l$
 fA3|$
 fA9A 
 fA9A A
-fA9E tCA
+fA9E toA
 fA9P 
 fA9Q sEI
 fB9,@u
@@ -5542,7 +5675,6 @@ fopen
 fopen_s
 force10bit
 forceBaselineVideoFEC
-forceOpenMode
 fputc
 fputs
 fr_fr
@@ -5569,7 +5701,6 @@ gffffA
 gfffffffH
 gfffffffH+
 gfffffffI
-gfffffffI+
 ggV}++
 greek
 h	bQ}J
@@ -5776,9 +5907,10 @@ ll$Pf
 localeconv
 logFirstFrames
 m e-w
+m e-wJf
 m0k0$
-mH?%'D]
-mH?%LE]
+mH?%'
+mH?%L
 mL$PH
 m_nMaxLogBufferingSize > 0
 m_pData was null. Not copying data.
@@ -5812,6 +5944,7 @@ mt$Pf
 multiple IHDR
 muted
 n0_D@
+nFramesSkippedPS
 nKeyLen + sConnectionInfo.length() < vPassKey.size() - 1
 nLayerCount
 nPrimaryLayer
@@ -5838,225 +5971,174 @@ ntelD
 null literal
 number literal
 number overflow parsing '
+nvEncDestroyEncoder() failed to destroy
 nvEncodeAPI64.dll
 nvapi_QueryInterface
 nvapi_pepQueryInterface
 o$1bA~
 o$3bq
 o$:bQ%H
-o%	_c
-o% ;b
-o% ~d
-o%!3e
-o%!8d
-o%!Ue
-o%"Ra
-o%#Le
-o%$*e
-o%$dc
+o% /a
+o% zb
+o%!re
+o%!wd
+o%$ie
 o%%Jr..\$
-o%%bd
-o%'Db
-o%'[b
-o%'_c
-o%(Lb
-o%)Ce
-o%)hc
-o%)rd
-o%*&e
-o%+$a
-o%+,a
-o%-:e
-o%-Za
-o%-wd
-o%/	b
-o%/1e
-o%/Ma
-o%1(e
-o%1db
-o%3 a
-o%3dd
-o%3uc
-o%4Bc
-o%4ca
-o%5Mc
-o%5ka
-o%7[c
-o%7id
-o%9Va
-o%:?b
-o%:yd
-o%;Ia
-o%<pc
-o%=Hb
-o%=Pb
-o%=ie
-o%>~d
-o%?`e
-o%BWe
-o%C*c
-o%Chb
-o%E(a
-o%ENe
-o%Ekd
-o%G^a
-o%Ghc
-o%Hlc
-o%I$a
-o%I`b
-o%Ipd
-o%Jga
-o%Jge
-o%Joa
-o%Jqb
-o%Jyc
-o%KEe
-o%KZa
-o%Lke
-o%M<e
-o%N^e
-o%P3e
-o%P8d
-o%PUe
-o%Pbe
-o%QRa
-o%Qdd
-o%RLe
-o%Rca
-o%S*e
-o%SYe
-o%Sdc
-o%UPe
-o%V[b
-o%V_c
-o%WLb
-o%XCe
-o%Xrd
-o%Z,a
-o%ZGe
-o%[ie
-o%\"d
-o%\:e
-o%\wd
-o%\}c
-o%].c
-o%]`e
-o%]lb
-o%^	b
-o%^1e
-o%^>e
-o%^Ma
-o%`(e
-o%`We
-o%`db
-o%`fd
-o%`ub
-o%a5e
-o%b a
-o%buc
-o%c(a
-o%c,e
-o%cNe
-o%ckd
-o%dMc
-o%dka
-o%e)b
+o%(&c
+o%(Za
+o%*ee
+o%+Lb
+o%+ca
+o%+ka
+o%,Va
+o%-:d
+o%-ye
+o%.Ub
+o%.]b
+o%/Hb
+o%/pe
+o%0Zc
+o%1ge
+o%2Na
+o%3$a
+o%31d
+o%3_a
+o%4Pd
+o%4Vc
+o%5#b
+o%5@b
+o%6-d
+o%6Ld
+o%6Qb
+o%9]d
+o%:~b
+o%="c
+o%=*c
+o%?Ia
+o%A5d
+o%AOf
+o%B;b
+o%Cic
+o%E^c
+o%Ega
+o%F3a
+o%FZa
+o%GOf
+o%HYb
+o%ILb
+o%IRa
+o%Ica
+o%J'b
+o%LDb
+o%LUb
+o%M a
+o%MRc
+o%M{e
+o%NZc
+o%O/a
+o%Pre
+o%Pwd
+o%Sie
+o%TLd
+o%W&c
+o%Zka
+o%["c
+o%[:c
+o%[Va
+o%\ad
+o%\ye
+o%]]b
+o%]mc
+o%^<a
+o%^Hb
+o%^pe
+o%^}e
+o%_5d
+o%`ge
+o%ate
+o%b$a
+o%b1d
+o%b_a
+o%cPd
+o%cVc
+o%c^c
+o%cga
+o%cke
+o%d	e
+o%d#b
 o%e7a
-o%e^a
-o%flc
-o%g`b
-o%hVa
-o%hga
-o%iEe
-o%iyd
-o%k<e
-o%kpc
-o%lPb
-o%lye
-o%m~d
-o%n3e
-o%n8d
-o%q*e
-o%r*c
-o%r2c
-o%rhb
-o%rmd
-o%sOf
-o%sRc
-o%t[b
-o%vhc
-o%vrd
-o%x$a
-o%x,a
-o%yOf
-o%yoa
-o%yqb
-o%yyc
-o%zZa
-o%zyb
-o%{2b
-o%{ke
-o%}@a
-o%~4f
-o%~db
+o%eQb
+o%eTd
+o%ehb
+o%eva
+o%fYb
+o%k{e
+o%l*c
+o%l3f
+o%m/a
+o%n5c
+o%nre
+o%nwd
+o%q>c
+o%qie
+o%ric
+o%rqc
+o%u&c
+o%u3a
+o%uZa
+o%xLb
+o%xca
+o%xka
+o%y'b
+o%{Ub
+o%{]b
+o%{qb
+o%}Zc
+o%~sf
 o,$fE
 o,0bq
 o,:bQ%H
-o-)y9
-o--Tp
-o-GaV
-o-I2}
+o-9+r
+o-Iq}
 o4$fD
 o4$fE
 o47bq
-o5!u9
-o5ay9
-o5d@d
-o5k-]
-o5qAd
-o5rBd
-o5rCd
+o5kl]
 o<$fD
 o<$fE
 o<0bq
-o=#IV
-o=#V\
-o=$Hb
-o=(6b
-o=(Da
-o=/X^
-o=12_
-o=7p]
-o=@j_
-o=D$^
-o=KVa
-o=Khc
-o=L_V
-o=T+d
-o=XJc
-o=X{`
-o=Yu9
-o=Zg^
-o=[Gb
-o=^A_
-o=_$a
-o=__\
-o=` _
-o=bQc
-o=fW^
-o=gP_
-o=hH_
-o=j'_
-o=no]
-o=o3^
-o=p	^
-o=r-]
-o=s `
-o=uX\
-o=wi_
-o={#^
-o=~ga
-o=~gc
+o=	@a
+o=(ub
+o=)S^
+o=,Ra
+o=/Db
+o=1q_
+o=3P_
+o=9V`
+o=@Oc
+o=C9^
+o=Dc^
+o=JVc
+o=K&`
+o=Tjd
+o=_ca
+o=`__
+o=bUb
+o=c g
+o=c,_
+o=cQa
+o=fCb
+o=jf_
+o=or^
+o=pH^
+o=q"c
+o=qE`
+o=rl]
+o=s_`
+o=zO^
+o={b^
+o=|5`
+o=|8]
 o@ fA
 o@ fE
 o@0fA
@@ -6420,10 +6502,10 @@ qD9}gt(
 qMFCreateMediaType failed hr = 0x%08x
 qUba~(
 qWSAPI: SVLAudioWSAPI::Init( %d )
-qt%<1]
-qt%}1]
-qt-<1]
-qt-}1]
+qt%<p]
+qt%}p]
+qt-<p]
+qt-}p]
 r	`!^
 r*t H
 r*t I
@@ -6592,6 +6674,7 @@ t$ HcH
 t$ L;
 t$ UH
 t$ UWATAVAWH
+t$ UWATH
 t$ WATAUAVAWH
 t$ WATAWH
 t$ WAV
@@ -6640,6 +6723,7 @@ t$@fG
 t$@u/H
 t$DA+
 t$DA3
+t$F8<1u
 t$H99t	H
 t$HA;
 t$HH+
@@ -6656,7 +6740,7 @@ t$PfD
 t$PfE
 t$PfG
 t$Pu/H
-t$XH95
+t$XH95KM
 t$^bq
 t$`A+
 t$`D;
@@ -6676,19 +6760,19 @@ t$pfA
 t$pfD
 t$pfE
 t$pfG
-t%84]
+t%8s]
 t%<~u
 t&D+r
-t&D8w%u 
 t,,X.
 t,M9x
 t,wdH
-t-74]
+t-7s]
 t/A9J0u)I
 t1Hcl$@
 t4uLv
+t51Jf
 t9fff
-t=6ef
+t= 'f
 t>H9n
 t>y#I
 t?y$I
@@ -6781,9 +6865,10 @@ unsupported format
 useOSC
 useOSCEyes
 useOSCFace
+usePool
 useSpecialFloats
-ut%j0]
-ut-|0]
+ut%jo]
+ut-|o]
 v=Y]Bv
 vD;EHL
 vE;E`M
@@ -6807,7 +6892,9 @@ videoamfenc::GetDataThread() submitting %llu bytes, frame type %lld
 videoamfenc::Init()
 videoamfenc::Init() succeeded
 videoamfenc::Resize( %d, %d )
+videonvenc->nvEncEncodePicture
 videonvenc::GetEncodedDataThread
+videonvenc::ManageFramesThread
 videonvenc::StartEncodeDataThread
 vietnamiese
 vr_glove_left_skeleton.glb
@@ -6846,6 +6933,7 @@ www.digicert.com1$0"
 wxL9B0
 x	bq}K
 x AVH
+x UATAUAVAWH
 x%Jo%.\r.
 x((Pz
 x(D$@
@@ -6865,103 +6953,91 @@ y	bq}L
 y	bs5@D5
 y	bs5@D5	
 y	bs5@D5"
-y	bs5@D5"&v
-y	bs5@D5"Dr
+y	bs5@D5"ev
 y	bs5@D5#
-y	bs5@D5%Iw
-y	bs5@D5%Sn
-y	bs5@D5%Xx
+y	bs5@D5%
 y	bs5@D5'
-y	bs5@D5'mz
-y	bs5@D5(?w
-y	bs5@D5)
+y	bs5@D5(~w
+y	bs5@D5)!
 y	bs5@D5*
-y	bs5@D5*?m
+y	bs5@D5*~m
 y	bs5@D5+
-y	bs5@D5+cz
-y	bs5@D5,hz
+y	bs5@D5,
 y	bs5@D5-
-y	bs5@D5.&m
-y	bs5@D5/
-y	bs5@D50
+y	bs5@D5-0
+y	bs5@D5.em
+y	bs5@D5/3
+y	bs5@D5/V
+y	bs5@D50+q
 y	bs5@D51
-y	bs5@D51^z
 y	bs5@D53
-y	bs5@D53Hy
 y	bs5@D54
-y	bs5@D57
-y	bs5@D58_n
+y	bs5@D577p
+y	bs5@D58
 y	bs5@D59
-y	bs5@D5;?n
+y	bs5@D5;~n
 y	bs5@D5<
-y	bs5@D5=]m
-y	bs5@D5=^w
+y	bs5@D5=
 y	bs5@D5?
-y	bs5@D5?=y
+y	bs5@D5?|y
 y	bs5@D5@
 y	bs5@D5A
-y	bs5@D5Bqw
-y	bs5@D5C'n
-y	bs5@D5Cam
-y	bs5@D5Fkm
-y	bs5@D5Fzz
+y	bs5@D5A8v
+y	bs5@D5B
+y	bs5@D5C
+y	bs5@D5Cfn
+y	bs5@D5F
 y	bs5@D5G
-y	bs5@D5GGs
-y	bs5@D5Hes
-y	bs5@D5Hhm
-y	bs5@D5Hks
+y	bs5@D5H
 y	bs5@D5I
 y	bs5@D5K
-y	bs5@D5K{r
-y	bs5@D5LHx
+y	bs5@D5K"
+y	bs5@D5K3p
+y	bs5@D5L
 y	bs5@D5M
 y	bs5@D5S
-y	bs5@D5Ssr
 y	bs5@D5U
 y	bs5@D5W
-y	bs5@D5WTy
 y	bs5@D5X
 y	bs5@D5Y
-y	bs5@D5Yx}
-y	bs5@D5[?x
-y	bs5@D5[Jm
+y	bs5@D5[
+y	bs5@D5[~x
 y	bs5@D5]
-y	bs5@D5]Ls
-y	bs5@D5^5x
-y	bs5@D5^[r
+y	bs5@D5^
+y	bs5@D5^tx
 y	bs5@D5_
-y	bs5@D5aDw
-y	bs5@D5aJr
-y	bs5@D5aOm
+y	bs5@D5a
 y	bs5@D5b
-y	bs5@D5cPr
-y	bs5@D5d
-y	bs5@D5e
-y	bs5@D5g
-y	bs5@D5g#v
-y	bs5@D5g3m
-y	bs5@D5i
+y	bs5@D5c
+y	bs5@D5d1q
+y	bs5@D5e/
+y	bs5@D5g)
+y	bs5@D5gNv
+y	bs5@D5gbv
+y	bs5@D5grm
+y	bs5@D5iJv
 y	bs5@D5l
 y	bs5@D5m
-y	bs5@D5n9m
+y	bs5@D5nxm
 y	bs5@D5o
 y	bs5@D5p
 y	bs5@D5q
-y	bs5@D5q0y
+y	bs5@D5qoy
 y	bs5@D5r
-y	bs5@D5sTx
-y	bs5@D5t
+y	bs5@D5s
+y	bs5@D5t^m
 y	bs5@D5u
-y	bs5@D5uNn
+y	bs5@D5u*p
 y	bs5@D5w
-y	bs5@D5xgx
+y	bs5@D5x
 y	bs5@D5y
-y	bs5@D5ywr
-y	bs5@D5z$s
+y	bs5@D5zcs
 y	bs5@D5{
-y	bs5@D5}
+y	bs5@D5{Yv
+y	bs5@D5}8
+y	bs5@D5}Av
 y	bs5@D5~
-y	bs5@D5~hs
+y	bs5@D5~!
 y A		
 y D$	
 y E		
@@ -6969,42 +7045,48 @@ y G
 y"E{M
 y3y3y3y3y3y3y3y3c
 yNba~(
-yo-	7
-yo-!?
-yo-"E
-yo-#!
-yo-/9
-yo-1X
-yo-3K
-yo->&
-yo-@F
-yo-CE
-yo-OZ
-yo-QL
-yo-RR
-yo-R^
-yo-S,
-yo-T=
-yo-TK
-yo-W 
-yo-Y6
-yo-`8
-yo-d`
-yo-ij
-yo-j=
-yo-q>
-yo-x'
-yo=2BW
-yo=9xX
-yo=:4W
-yo=<8V
-yo=HuW
-yo=PgW
-yo=U;X
-yo=]-X
-yo=ywX
-yo=z3W
-yo={EW
+yo%mE]
+yo-	v
+yo-!~
+yo-"C
+yo-#`
+yo--M
+yo-/x
+yo->e
+yo-D5
+yo-M$
+yo-Sk
+yo-T|
+yo-W_
+yo-Yu
+yo-\F
+yo-]E]
+yo-`w
+yo-a<
+yo-j|
+yo-m(
+yo-q}
+yo-xf
+yo-|@
+yo=#-W
+yo=(VV
+yo=)6X
+yo=*QV
+yo=+7Y
+yo=1(X
+yo=:sW
+yo=<wV
+yo=C"Y
+yo=UzX
+yo=V@Y
+yo=]lX
+yo=^ZX
+yo=fLX
+yo=q'X
+yo=r9X
+yo=uYV
+yo=zrW
+yo=|OV
 yoD$ 
 yoD$ H
 yoD$0
@@ -7139,7 +7221,6 @@ zo|$`
 |$0fD
 |$7bq
 |$8A+
-|$8E3
 |$8H1
 |$8H9S
 |$8H;
@@ -7156,6 +7237,7 @@ zo|$`
 |$@fA
 |$@fD
 |$Gbq
+|$HA+
 |$HE3
 |$HH;
 |$HH=
@@ -7191,7 +7273,7 @@ zo|$`
 }HX"b
 }HX&b
 }HZ$>b
-}HZ%&gf
+}HZ%&
 }HZd9
 }HZd>
 }HZd> b
@@ -7200,19 +7282,19 @@ zo|$`
 }HZd>Pb
 }HZd>`b
 }HZd>pb
-}Ho-5*
+}Ho-5i
 }LuHO
-}o%&-M
-}o%W'M
-}o-2,Q
-}o-K.Q
-}o=)2]
-}o=6sT
-}o=T*Q
-}o=W~M
-}o=iTN
-}o={HR
-}o=}oN
+}o%&lM
+}o%1TM
+}o%T&
+}o%WfM
+}o-2kQ
+}o-KmQ
+}o=)q]
+}o=GIN
+}o=TiQ
+}o=_=R
+}o=wQU
 }oD$ 
 }oD$@
 }oD$`

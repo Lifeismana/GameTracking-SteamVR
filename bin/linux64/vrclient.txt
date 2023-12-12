@@ -4320,8 +4320,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1844.369588
- r C.1847.369599
+ r C.1844.369604
+ r C.1847.369615
  r C.413.290188
  r CSWTCH.107
  r CSWTCH.16
@@ -4330,8 +4330,8 @@
  r CSWTCH.28
  r CSWTCH.361
  r CSWTCH.506
- r CSWTCH.740
- r CSWTCH.788
+ r CSWTCH.743
+ r CSWTCH.791
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetDefaultValue<double>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -18655,6 +18655,7 @@
  t CVulkanVRRenderer::GetNativeDevice(VRRenderer::QueueMode)
  t CVulkanVRRenderer::GetRendererAPI()
  t CVulkanVRRenderer::GetTextureLOD(VRRenderer::TextureBase*, unsigned int)
+ t CVulkanVRRenderer::GetTextureLOD(VRRenderer::TextureBase*, unsigned int) [clone .cold]
  t CVulkanVRRenderer::GetTextureNativePointer(VRRenderer::TextureBase*)
  t CVulkanVRRenderer::GetTextureSharedHandle(VRRenderer::TextureBase*)
  t CVulkanVRRenderer::GetTextureSharedResource(VRRenderer::TextureBase*)
@@ -29840,6 +29841,8 @@
  t vr::CVROverlayInternalLatest::GetToastInfo(unsigned int, vr::DashboardNotificationInfo_t*) [clone .cold]
  t vr::CVROverlayInternalLatest::GetToastOverlayHandle(unsigned long*)
  t vr::CVROverlayInternalLatest::GetToastOverlayHandle(unsigned long*) [clone .cold]
+ t vr::CVROverlayInternalLatest::GetVisibleTimeInSeconds(unsigned long, float*) const
+ t vr::CVROverlayInternalLatest::GetVisibleTimeInSeconds(unsigned long, float*) const [clone .cold]
  t vr::CVROverlayInternalLatest::HasCameraRoomViewCapability()
  t vr::CVROverlayInternalLatest::HasCameraRoomViewCapability() [clone .cold]
  t vr::CVROverlayInternalLatest::HasMessageOverlay()

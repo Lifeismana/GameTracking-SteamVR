@@ -1639,7 +1639,6 @@
 "5<"!
 "<~$B
 "?8N"?g}"?
-"Rl6Y
 "WA`7h
 "p#*$
 "segoe ui" = "segoe ui,meiryo,malgun gothic,microsoft jhenghei,microsoft yahei,gisha,leelawadee,arial unicode ms,browallia new,mingliu,simhei,gulimche,ms gothic,sylfaen,kartika,latha,mangal,raavi"
@@ -1722,6 +1721,7 @@ $Eyk6
 $H;T$
 $I",(
 $M$|$
+$R9)a
 $RJSz1
 $a&..
 $lumi
@@ -2618,6 +2618,7 @@ $wtpt
 *L$HL
 *Magenta*
 *Pt)p
+*SW5I
 *T$hH
 *T|3m
 *Yellow*
@@ -3719,7 +3720,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231208233754Z0/
+231212193249Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3869,6 +3870,7 @@ $wtpt
 4S3=VW
 4U!-%AI-P	
 4^d;@
+4e0nA
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4i5U6B738%9
 4x1:0,1,1,0
@@ -4560,7 +4562,6 @@ $wtpt
 ?c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\feature.c
 ?ffffff
 ?gibQ^AX>
-?gj	6
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?k)T|F
 ?linkdama fechtuotojo 
@@ -5573,7 +5574,6 @@ BSCALE  =         %E
 BT$hH
 BX9BHu
 BXOA(
-BY]dh]O
 BZERO   =         %E
 B\|V\I
 B^rC^N
@@ -6401,6 +6401,7 @@ D	(fD
 D	0fD
 D	8fD
 D	HfD
+D NwZ
 D""fT**~;
 D#AXA
 D#C|D
@@ -11754,7 +11755,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSc'<
+RSDSW
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14068,6 +14069,7 @@ Wrong number of profiles. 1..255 expected, %d found.
 Wrong output color space on transform
 Wrong position of PCS. 1..255 expected, %d found.
 Wrote palette index exceeding num_palette
+Wv^j 
 X Focus Center
 X Offset In Slide Coordinate System
 X UVWATAUAVAWH
@@ -14483,6 +14485,7 @@ Zoom Select Status
 \fonts\
 \fonts\arial.ttf
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
+\h*Dk
 \inc\lib\auto\Image\Magick\
 \k is not followed by a braced, angle-bracketed, or quoted name
 \p{Ll}
@@ -15013,7 +15016,7 @@ bzero
 bzip2/libbzip2: internal error number %d.
 c UAVAWI
 c&fs&Y
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
+c:\buildslave\steamvr_rel_win64\build\src\imagetool\Retail\win64\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gdir.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gerror.c
@@ -15288,7 +15291,6 @@ cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
 cK`x;
-cWV$h
 cache
 cache != NULL
 cache:%s
@@ -15906,7 +15908,6 @@ esheet
 ethiopic
 euc-jp
 euc-kr
-ew3Y4
 ewh/?y
 exact
 exceeds application limits
@@ -17092,7 +17093,6 @@ gview
 g{eWgL330551883=<6DC9GG>JI;MI6IE7MHJH@9E;+C9-?80>83=71>94@=9IA6P@-H?-K81C745=0@?/
 h	x\[`
 h VWAUAVAWH
-h(2BB
 h4tF9k
 h4tH9k
 h7CM*
@@ -21126,8 +21126,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 }>A+]dx8;
 }LuHO
 }Qfff
-}S8<+5
-}Z-}=
 }b>G:c>
 }ifff
 }mxQ>

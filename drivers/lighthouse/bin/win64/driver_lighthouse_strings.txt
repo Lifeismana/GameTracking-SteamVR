@@ -138,6 +138,7 @@
  '-46
  (cal)
  (does the path point to a directory?)
+ (generation changed)
  (object had no JSON IMU cal)
  (right sync)
  (selected 
@@ -623,6 +624,7 @@ $w!Hc
 '[', '{', or a literal
 'f?FO-
 'uri' is missing from non binary glTF file buffer.
+'yR@S
 (;^,|
 (;s,|
 (A\^][
@@ -898,7 +900,6 @@ $w!Hc
 ,9k0t%H
 ,9{0t%H
 ,W5y+
-,r7E 
 ----- BOOTSTRAPPED base %08X (%s) distance %0.2fm %s%s-----
 ----- CALIBRATED base %08X at pitch %0.2f deg roll %0.2f deg -----
 ----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
@@ -1033,7 +1034,7 @@ $w!Hc
 .?AVCDepthAugmentedPassthrough@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xf3883f88@vortex@@
+.?AVCDisambiguatorTDM@?A0xdd5c741a@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCFirmwareManifest@@
 .?AVCHandPoseLogic_IndexController@vortex@@
@@ -1237,6 +1238,7 @@ $w!Hc
 .xdata
 .xdata$x
 /1v]H
+/5lE	
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1395,7 +1397,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231208233624Z0/
+231212193115Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1457,6 +1459,7 @@ $w!Hc
 8H;^pu
 8L9-H
 8O0u]A
+8R?Jh"r
 8\$@t
 8\t	H
 8\u7H
@@ -2194,6 +2197,7 @@ B$A9A
 B(A9A
 B(A9C
 B(teH
+B+i"M1/L
 B,9A,
 B98Fyt
 B<I;_X
@@ -2751,6 +2755,7 @@ D$0L;
 D$0L;D$htVI
 D$0M;
 D$0fD
+D$0fH
 D$0fff
 D$0tx
 D$1or{t
@@ -2875,7 +2880,6 @@ D$pHcH
 D$pI;
 D$pL;
 D$pfA
-D$pfH
 D$xH+
 D$xH;
 D$xHc
@@ -3563,9 +3567,9 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=cB
-H;=sA
-H;={:
+H;=#C
+H;=+<
+H;=P=
 H;Axt
 H;B0t
 H;C sAH
@@ -3718,6 +3722,7 @@ I(+K H
 I(9J(}
 I(I+I H
 I+G@H
+I70h[H
 I9<$u
 I9A A
 I9B A
@@ -4538,7 +4543,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDS@
+RSDST
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5042,12 +5047,10 @@ Unable to turn on polling for HMD Hid device
 Unable to write database version %u to file %s
 Unexpected WaitForMultipleObjects return value %u
 Unexpected WaitForMultipleObjects return value %u on pass %u
-Unexpected backwards sync by %.3fms S-%d
 Unexpected centroid ordering error %.3fms S-%d
 Unexpected end of string.
 Unexpected failure when checking for timeline signal
 Unexpected failure while serializing option submessage 
-Unexpected sample before sync by %.3fms S-%d
 UnhandledExceptionFilter
 Unidentified
 Unimplemented type: 
@@ -5510,7 +5513,6 @@ XE;>|
 XL$hL
 XXXX PNG chunk not known
 X_^][
-XlF`@2F
 Xt$HH
 Y5I/!
 Y9"SD
@@ -5952,33 +5954,33 @@ byteStride
 bytes
 c H9K
 c0D9cTt$D
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\prismdirect.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
 cAMDt
 cal_method
 calloc
@@ -6188,7 +6190,6 @@ eye_target_height_in_pixels
 eye_target_width_in_pixels
 eye_to_head
 eye_tracking
-f%J5]
 f(I;^
 f9+t4
 f98tZH
@@ -6729,6 +6730,7 @@ multiple IHDR
 multiple signals per batch not allowed
 muteMicMonitor
 n0_D@
+n7Py/
 nArrayIndex < m_details.nArrayLayerCount
 nClientFrameIndex != k_nInvalidClientFrameIndex
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
@@ -6740,6 +6742,7 @@ need dictionary
 negative_int_value
 nested_type
 nfinity
+nl\De
 no IDAT
 no PLTE
 no SOF
@@ -6816,6 +6819,7 @@ p AVH
 p UAVAWH
 p WATAVH
 p$D+;
+p<(we
 pA]A\^
 pA^A]A\
 pA^^]
@@ -6901,6 +6905,7 @@ pt_br
 pt_pt
 public_dependency
 py_generic_services
+q%m5Z
 qMFCreateMediaType failed hr = 0x%08x
 r	D;@(}
 r+w.I
@@ -6981,7 +6986,6 @@ secondary
 seconds_from_photons_to_vblank
 seconds_from_vsync_to_photons
 sendStatusUpdates
-senph
 serial
 serialNumber
 serial_number
@@ -7389,6 +7393,7 @@ v@L;D$P
 vE;E`M
 vHcD$LH
 vOL9-
+vONN}TN
 vQO+t
 value
 values
@@ -7881,6 +7886,7 @@ vrwebhelper
 vuf?H
 vulkan-1.dll
 v}L9-
+v~4]i
 w(M9w0tH
 w+OQvr
 wUD;C$}OH
@@ -7968,6 +7974,7 @@ zuusA
 {knuckles}valve_controller_knu_ev2_0_left
 {knuckles}valve_controller_knu_ev2_0_right
 {un'%
+{yT'|
 |$ 9kh~
 |$ 9y ~=H
 |$ @8y

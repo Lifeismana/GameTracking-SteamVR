@@ -66,10 +66,8 @@
  times.
  version-number:
 !hn7!
-$@sa)(+
 %%.%dg
 %4.4X:%4.4X
-%d~>n{
 %s (%4.4X:%4.4X Serial: %s)
 %s data received. (handle: %d, bytes: %d) '%s'
 %s setup error from %s
@@ -624,9 +622,11 @@ $@sa)(+
 0A_A^_^[
 0A__[
 0A__^
+0umfg
 0w0c1
 0}0i1
 130801120000Z
+1V6P\
 1e+9999
 2.0.0
 210429000000Z
@@ -634,7 +634,7 @@ $@sa)(+
 220323000000Z
 220801000000Z
 230714000000Z
-231208233456Z0/
+231212192949Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1172,7 +1172,6 @@ DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
 E M;G
-E0\dtq&
 E9e ~7I
 E@HcH
 Element not found
@@ -1716,7 +1715,6 @@ WAVAW
 WAVAWH
 WOKEN
 WS2_32.dll
-WS^A2
 WXM9WPt(E
 WaitForMultipleObjects
 WaitForSingleObject
@@ -1860,6 +1858,7 @@ asio.misc error
 asio.system
 asio.system error
 assert json failed
+bTR%=
 bad allocation
 bad array new length
 bad cast
@@ -1868,7 +1867,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 calloc
 close
 cntrl
@@ -1876,7 +1875,7 @@ d$0D)#
 d$@E3
 d$`H=
 d$pfD
-d7s<uz<
+d0eus
 dat_file
 data error
 deque<T> too long
@@ -2128,7 +2127,6 @@ t$xH9^
 t$xL;
 t(D8g
 t1H9]
-t1M[sYHo4
 t4L9%
 t4L9-
 t4L9-U
@@ -2179,6 +2177,7 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
+{i:}G
 {un'%
 {x\u!H
 {|?uWH
@@ -2215,6 +2214,5 @@ xdigit
 |Lu?c
 }LuHO
 ~'HcB
-~Yu(7
 ~qj#k"
 ~t&LN

@@ -86,6 +86,7 @@
 #OriginString_Source
 #|4
 $
+$@
 $tI
 %
 %%.%dg
@@ -203,6 +204,7 @@ $tI
 %s: failed to create image view (%d)
 %s: failed to create interop device
 %s: failed to create local timeline
+%s: failed to create lod%d image view
 %s: failed to create mapped memory view
 %s: failed to create resources
 %s: failed to create shared timeline
@@ -1192,6 +1194,7 @@ $tI
 18CVRScreenshots_001
 18CVRSharedGLTexture
 18XrHandTrackerEXT_T
+19:27:16
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -1304,7 +1307,6 @@ $tI
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
-23:32:20
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -1789,7 +1791,6 @@ $tI
 >=
 >>
 >>=
->@
 ?
 ?N2vr10IVRMCStoreE
 @
@@ -2046,8 +2047,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1844.369588
-C.1847.369599
+C.1844.369604
+C.1847.369615
 C.413.290188
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -3452,8 +3453,8 @@ CSWTCH.23
 CSWTCH.28
 CSWTCH.361
 CSWTCH.506
-CSWTCH.740
-CSWTCH.788
+CSWTCH.743
+CSWTCH.791
 CS_MAIN
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -16174,6 +16175,7 @@ CVulkanVRRenderer::GetGPUSemaphoreSharedResource(VRRenderer::GPUSemaphoreBase*)
 CVulkanVRRenderer::GetNativeDevice(VRRenderer::QueueMode)
 CVulkanVRRenderer::GetRendererAPI()
 CVulkanVRRenderer::GetTextureLOD(VRRenderer::TextureBase*, unsigned int)
+CVulkanVRRenderer::GetTextureLOD(VRRenderer::TextureBase*, unsigned int) [clone .cold]
 CVulkanVRRenderer::GetTextureNativePointer(VRRenderer::TextureBase*)
 CVulkanVRRenderer::GetTextureSharedHandle(VRRenderer::TextureBase*)
 CVulkanVRRenderer::GetTextureSharedResource(VRRenderer::TextureBase*)
@@ -16552,7 +16554,7 @@ DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebuggerEnabled
 Dec
-Dec  8 2023
+Dec 12 2023
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -17286,6 +17288,7 @@ GetSystemTimeFrequency()
 GetSystemTimeFromTicks(unsigned long)
 GetSystemTimeInTicks()
 GetTextureBoundsFromTextureDetails(float const (&) [4][4])
+GetTextureLOD
 GetTraceMarkerFd()::__executeCount
 GetTraceMarkerFd()::s_TraceMarkerMutex
 GetTraceMarkerFd()::s_flLastAttemptTime
@@ -20572,6 +20575,7 @@ Ignoring user setting "forcedDriver": "%s" because %s
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
+ImageViewLOD%d
 Import
 ImportBuffer
 ImportImage
@@ -36881,6 +36885,7 @@ virtual thunk to std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, st
 virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()
 virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::~basic_stringstream()
 visibility
+visible_time_in_seconds
 vive
 vive_controller
 vive_cosmos_controller
@@ -37893,6 +37898,8 @@ vr::CVROverlayInternalLatest::GetToastInfo(unsigned int, vr::DashboardNotificati
 vr::CVROverlayInternalLatest::GetToastInfo(unsigned int, vr::DashboardNotificationInfo_t*) [clone .cold]
 vr::CVROverlayInternalLatest::GetToastOverlayHandle(unsigned long*)
 vr::CVROverlayInternalLatest::GetToastOverlayHandle(unsigned long*) [clone .cold]
+vr::CVROverlayInternalLatest::GetVisibleTimeInSeconds(unsigned long, float*) const
+vr::CVROverlayInternalLatest::GetVisibleTimeInSeconds(unsigned long, float*) const [clone .cold]
 vr::CVROverlayInternalLatest::HasCameraRoomViewCapability()
 vr::CVROverlayInternalLatest::HasCameraRoomViewCapability() [clone .cold]
 vr::CVROverlayInternalLatest::HasMessageOverlay()
