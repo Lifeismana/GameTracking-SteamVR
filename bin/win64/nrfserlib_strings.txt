@@ -622,11 +622,9 @@
 0A_A^_^[
 0A__[
 0A__^
-0umfg
 0w0c1
 0}0i1
 130801120000Z
-1V6P\
 1e+9999
 2.0.0
 210429000000Z
@@ -634,7 +632,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231212192949Z0/
+231214203414Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -646,6 +644,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3kG:^
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -1172,6 +1171,7 @@ DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
 E M;G
+E%m	}
 E9e ~7I
 E@HcH
 Element not found
@@ -1394,6 +1394,7 @@ Looking for internal adpater.
 M H1E
 M rFM
 M0 E3
+M2y]Fa
 M98u/
 M9f`u$L
 M9o`u$L
@@ -1517,6 +1518,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSK
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1858,7 +1860,6 @@ asio.misc error
 asio.system
 asio.system error
 assert json failed
-bTR%=
 bad allocation
 bad array new length
 bad cast
@@ -1875,7 +1876,6 @@ d$0D)#
 d$@E3
 d$`H=
 d$pfD
-d0eus
 dat_file
 data error
 deque<T> too long
@@ -1907,6 +1907,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+hx#H.
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -2077,6 +2078,7 @@ serial port read failed on port
 serial port read on port 
 serial port write operation on port 
 set_option
+sg|F^
 slip_decode error, code: 0x
 software
 space
@@ -2177,7 +2179,8 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
-{i:}G
+y*YP{4
+z_R~3
 {un'%
 {x\u!H
 {|?uWH
@@ -2211,6 +2214,7 @@ xdigit
 |$pL+
 |$pf;
 |$ps`H
+|=\kL
 |Lu?c
 }LuHO
 ~'HcB

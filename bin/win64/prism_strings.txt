@@ -22,6 +22,7 @@
 		{	// etc
 		} } },
 	!s99
+	t{Y0
 	{ 0x%x, 0x%x, %d, %d, {
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
@@ -51,13 +52,13 @@
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
-!]_!=
 !g_pSharedResourceNamespaceServer
 !hn7!
 !isnan( *pSecondsSinceVsync )
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
+#Qud6
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -354,6 +355,7 @@ $9E0u
 ********** Blue ( nLoopCount++ > 1000 )!
 ********** Green ( nLoopCount++ > 1000 )!
 ********** Red ( nLoopCount++ > 1000 )!
++B*>:
 +Xt@(
 +o'q)}
 , last executing in 
@@ -531,12 +533,13 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231212193009Z0/
+231214203432Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2iuZ]g
 311109235959Z0b1
 33s?+
 341013235959Z0H1
@@ -545,6 +548,8 @@ $9E0u
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5%EUW
+51~s l
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -575,11 +580,9 @@ $9E0u
 <0:08
 <P)9Y
 <unknown>
-=0.nk
 =rIQU
 >0<0:
 >Mp$d
->]oy7
 >ffv?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
@@ -1134,6 +1137,7 @@ H;{XH
 HA^A]_[
 HMD Image %d
 HMD using present mode: %d
+HSiOj
 HTC Corporation VIVE
 HallucinateFrame
 Hallucinated-%s%d
@@ -1424,6 +1428,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDS>
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1443,6 +1448,7 @@ Reproject Reference Image
 Reproject Vertex Buffer-%s
 ResetEvent
 Right Eye
+RnNo@
 RoGetActivationFactory
 RoInitialize
 RoOriginateLanguageException
@@ -1624,7 +1630,6 @@ WindowsDisplayCore
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 WriteFile
-X@eMHA
 XA_A][]
 XA_A^A]_
 Y9"SD
@@ -1668,11 +1673,11 @@ Yl$4E
 \$pI;\$xtIH
 \$xHk
 \$xMi
+\86B+
 \\.\pipe\
 \mfpmp.exe
 ]J<0"0i3
 ]g@8yhu
-^JG%T=O
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1722,7 +1727,6 @@ _invalid_parameter_noinfo_noreturn
 _purecall
 _register_onexit_function
 _seh_filter_dll
-_v0F_1
 _wcsicmp
 _wcsnicmp
 `.rdata
@@ -1829,6 +1833,7 @@ d$XE3
 d$`H=
 d$`L;
 d3d11.dll
+dA2mfwf
 data->IsInitialized()
 data.hIPC.IsValid()
 deque<T> too long
@@ -1876,11 +1881,11 @@ http://www.digicert.com/CPS0
 input.colorIndices.nSwapchainIndex != SwapchainIndices_t::k_nInvalidSwapchainIndex
 invalid bitset<N> position
 invalid string position
-ipJzN
 isalpha
 isdigit
 it != m_importedClients.end()
 jj@0HK4
+k*B1{x=_
 k0i0$
 l$ E3
 l$ H;
@@ -2103,7 +2108,6 @@ uwH9S
 v=Y]Bv
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long
-vi3unK-b
 vkAcquireDrmDisplayEXT
 vkAcquireFullScreenExclusiveModeEXT
 vkAcquireNextImage2KHR
@@ -2606,6 +2610,7 @@ yxxxxxxxI+
 }LuHO
 }`H+}XH
 }wH9S
+~m>P%-
 ~qj#k"
 ~t&LN
 ~xM+~pI

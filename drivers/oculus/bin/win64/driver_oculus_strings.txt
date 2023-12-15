@@ -100,7 +100,6 @@ $w!Hc
 &D9c0t
 &D9k0t
 &D9{0t
-&f(Bes`
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -121,7 +120,6 @@ $w!Hc
 '9k0t
 'D9c0t
 '[', '{', or a literal
-'hI;x
 'uri' is missing from non binary glTF file buffer.
 (A\^][
 (A\_^[
@@ -148,7 +146,6 @@ $w!Hc
 (d$pD
 (f*^[0
 (l$0L
-(q(kmG
 (t$ 2
 (t$ D
 (t$ H
@@ -451,6 +448,7 @@ $w!Hc
 0A_A^_^]
 0A__^
 0D9c0t'H
+0bk//+
 0w0c1
 0}0i1
 1/2/4/8/16-bit only
@@ -463,11 +461,12 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231212193218Z0/
+231214203632Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2Nfds
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -924,6 +923,7 @@ DuplicateHandle
 E H9Q
 E0H+E(H
 E;u`|
+EB`5I
 ERROR: Failed to dup handle!
 E`HcH
 EgH9Q@t
@@ -1229,6 +1229,7 @@ N0H9Q
 NORMAL
 NPH9Q
 Neither required `bufferView` nor `uri` defined for image[
+Ng{e(@T
 No LoadImageData callback specified.
 No valid guardian bounds. Creating standing chaperone
 NormalTextureInfo
@@ -1298,7 +1299,6 @@ S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
 S0Q0O
 S8H+S0H
-S9Nmu
 SATAUAVAWH
 SA|X=G
 SCALAR
@@ -1336,7 +1336,6 @@ SleepConditionVariableCS
 Spot light description not found.
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
-T!0nJ
 T$ E3
 T$ H;
 T$ I;
@@ -1446,7 +1445,6 @@ WAVAWH
 WINMM.dll
 WTHelperGetProvSignerFromChain
 WTHelperProvDataFromStateData
-WZ'Rk
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -1460,7 +1458,6 @@ XXXX PNG chunk not known
 Y9"SD
 Z9k0tUD
 ZL$Xf
-ZUUI|
 [K]taM?
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -1703,6 +1700,7 @@ bufferView
 bufferViews
 buffers
 bulgarian
+bxS@<
 byteLength
 byteOffset
 byteStride
@@ -2178,6 +2176,7 @@ russian
 s fff
 sampler
 samplers
+sc:'W
 scale
 scene
 scenes
@@ -2561,6 +2560,7 @@ znear
 |LL\t
 |Lu?c
 }LuHO
+~%xfi0
 ~+fff
 ~3LcD$(L
 ~6HcD$ I

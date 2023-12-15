@@ -3,6 +3,7 @@
  (Camera)
 !hn7!
 ',=?k
+'`k]F
 (Unable to load LibOVR)
 (f*^[0
 +Xt@(
@@ -74,6 +75,7 @@
 0"0*02070=0E0M0R0X0`0h0m0s0{0
 0'141U1Z1s1x1
 0+0-4D4
+0i{z%
 0w0c1
 0}0i1
 1!111A1K1U1`1m1
@@ -92,7 +94,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231212193030Z0/
+231214202920Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -272,7 +274,9 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+K*b-S
 KERNEL32.dll
+KQg@w
 K}*n:	
 L?n(Zy&
 LIBOVR_DLL_DIR
@@ -293,7 +297,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS$
+RSDS=
 RaiseException
 S0Q0O
 SA|X=G
@@ -328,11 +332,11 @@ VR_OVERRIDE
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+VuOBEU
 WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-X:x;=Z4H
 Y9"SD
 Y__^[
 [K]taM?
@@ -343,6 +347,7 @@ Y__^[
 [OculusDirect] ovr_SubmitFrame - End
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
+]fwR}c
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -394,8 +399,8 @@ camera
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
-eN#c 
 f;A*stSW
+f<A4&
 getenv
 headset
 http://ocsp.digicert.com0A
@@ -403,7 +408,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i=9/`
 invalid string position
 jdjdh
 jj@0HK4
@@ -473,9 +477,10 @@ u7j8Q
 uCVj@
 v=Y]Bv
 vector<T> too long
+wq,@L
 www.digicert.com1!0
 www.digicert.com1$0"
-xe75!1
+x)4	h
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

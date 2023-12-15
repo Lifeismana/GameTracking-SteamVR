@@ -4,6 +4,7 @@
 																																												
 	!s99
  %41g
+ :o$RN
  A_A^A\
  A_A^A]A\_
  A_A^]
@@ -26,6 +27,7 @@
 (A_A^_]
 (D$ f
 (f*^[0
+(mK|;
 (t$ 2
 (t$ H
 (t$@H
@@ -35,7 +37,6 @@
 )t$0H
 )t$@H
 *uXI;
-+Mo}b
 +Xt@(
 +o'q)}
 , last executing in 
@@ -182,13 +183,12 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231212193911Z0/
+231214204151Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2~J*& 
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -208,7 +208,6 @@
 8_^][
 9D$xu
 9D$|toH
-9WP~9
 < t+<
 </u#H
 <0:08
@@ -560,6 +559,7 @@ Handling scroll smooth
 Handling unlock mouse
 HcFdH
 HeapFree
+I"Q*#
 I9Bhs
 I;4$H
 I;4$L
@@ -640,7 +640,6 @@ LoadLibraryA
 LocalFree
 LocalizationManager
 M H1E
-M59lK
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -669,7 +668,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSc
+RSDSHy
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -911,6 +910,7 @@ deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
+e&4H*
 el_el
 en_us
 enableWindowView
@@ -971,11 +971,9 @@ l$8E3
 l$PM9n
 l$`M;
 l2|X/gGe
-lON{b
 latam
 list<T> too long
 m0k0$
-mX	W9V
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -989,6 +987,7 @@ message_id
 no_no
 norwegian
 ntelD
+oH7*m]
 ole32.dll
 openvr_api.dll
 overlay_frame_times
@@ -1056,9 +1055,10 @@ ukranian
 update_debug_info
 update_window_list
 user32.dll
+u~RXPP
 v=Y]Bv
 vE;E`M
-vL3I]c
+vOgfr
 vector<T> too long
 vi_vi
 vietnamiese

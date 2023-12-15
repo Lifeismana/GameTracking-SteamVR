@@ -14,7 +14,6 @@
  H3E H3E
  for detail.
  formatting error code 
- fx_%
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
@@ -35,7 +34,6 @@
 )t$ H
 )t$0H
 )t$@H
-)yZ1G
 *uXI;
 +Xt@(
 +o'q)}
@@ -167,7 +165,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231212193859Z0/
+231214204140Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -190,6 +188,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+;_KAx
 < t+<
 </u#H
 <0:08
@@ -197,7 +196,6 @@
 =rIQU
 >0<0:
 >Mp$d
->qk@}Tr2
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -306,7 +304,6 @@ AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Access to desktop duplication lost for desktop %d.
 AttemptSendInput failed.
 AuthD
-B&[h<
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -342,6 +339,7 @@ CreateThread
 Created desktop staging texture.
 Created desktop upload texture.
 Cursor has neither color nor mask bitmap.
+Cy=mp
 C|$PL
 D	d$LI
 D	l$L
@@ -694,8 +692,8 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+Y.n*Dq
 Y9"SD
-Z#;Qk
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -783,6 +781,7 @@ czech
 d$`H=
 d$`L;
 d$`M;
+d-m$M
 d3d11.dll
 da_da
 danish
@@ -865,6 +864,7 @@ openvr_api.dll
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
+pi/ w
 pl_pl
 polish
 portuguese
@@ -956,6 +956,7 @@ zh_tw
 |$PL9~
 |$hH9>ueH
 |$pH+
+|CeWry
 |Lu?c
 }LuHO
 ~qj#k"

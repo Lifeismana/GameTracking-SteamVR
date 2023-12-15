@@ -91,7 +91,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231212193221Z0/
+231214203635Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -156,11 +156,13 @@ A_A^A]A\_^[]
 A_A^]
 A__][
 AuthD
+B^-S(
 Bellevue1
 C(L95
 CL$PH
 COculusHmdLatest::UpdateThread
 CT$ H
+CXkNm\q
 Camera tracker driver for rejected by vrserver
 CloseHandle
 Code: -1003
@@ -264,6 +266,7 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+Qg{eV
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
@@ -365,7 +368,6 @@ _seh_filter_dll
 _stricmp
 `.rdata
 a7hIw
-a:P|G
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -394,6 +396,7 @@ k0i0$
 l$8E3
 l2|X/gGe
 m0k0$
+m<gYBfO
 malloc
 map/set<T> too long
 memcmp
@@ -466,6 +469,7 @@ terminate
 tkH97t	H
 v=Y]Bv
 vector<T> too long
+vj`])
 www.digicert.com1!0
 www.digicert.com1$0"
 z(uMH

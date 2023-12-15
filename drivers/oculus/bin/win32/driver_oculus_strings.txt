@@ -95,6 +95,7 @@ $9^ t
 'uri' is missing from non binary glTF file buffer.
 (Unable to load LibOVR)
 (f*^[0
+(nf);
 )=-=<=@=M=Q=
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
@@ -470,7 +471,7 @@ $9^ t
 220801000000Z
 22383>3D3J3P3V3\3b3h3n3t3z3
 230714000000Z
-231212193027Z0/
+231214202918Z0/
 241009235959Z0a1
 252?2E2L2Z2c2h2
 2?3t3
@@ -543,7 +544,6 @@ $9^ t
 3[3~3
 3[4e4k4
 3_5V7
-3a"LI(O
 3mq+<
 3r5v5
 3v567v8(;d;
@@ -832,6 +832,7 @@ $9^ t
 :!:1:A:Q:a:q:
 :!:c:l:u:~:
 :!;/;Q;_;
+:!~:Gn
 :":`:
 :#;-;7;A;U;e;
 :$:,:0:@:d:p:x:
@@ -900,6 +901,7 @@ $9^ t
 ;3<P<e<
 ;3u3;
 ;4<&=
+;6Uk*
 ;7;<;C;I;N;T;f;p;v;};
 ;=;E;f;
 ;=;G;P;\;
@@ -1059,7 +1061,6 @@ $9^ t
 >T?d?j?
 >W?v?
 >X>\>
->f.Z_
 >ff&?
 ? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
 ? ?%?*?/?4?9?>?C?H?M?R?W?\?a?f?k?p?u?z?
@@ -1325,7 +1326,6 @@ GetProcessHeap
 GetSystemTime
 GetSystemTimeAsFileTime
 GetTickCount64
-GorK+
 Graphics LUID changed
 Guardian changed, updating chaperone
 H-^Eu
@@ -1403,7 +1403,6 @@ Invalid magic.
 IsDebuggerPresent
 IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
-IyO{a
 J0+J(
 J>@G_
 JSON string too short.
@@ -1484,6 +1483,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
+RSDS=
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1857,6 +1857,7 @@ extensions
 extensionsRequired
 extensionsUsed
 extras
+e{e"@
 f;A*stSW
 false
 false literal
@@ -1885,6 +1886,7 @@ gfffS
 gfffW
 greek
 gu3jd
+hD8@\
 hand_right_poses.glb
 handlers
 headset
@@ -2194,6 +2196,7 @@ primitives
 pt_br
 pt_pt
 quest
+rQ<A7C
 range
 read past buffer
 realloc
@@ -2208,7 +2211,6 @@ romanian
 rotation
 roughnessFactor
 roundf
-rqQl'
 ru_ru
 russian
 s(+CD

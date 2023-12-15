@@ -1,6 +1,7 @@
 	!s99
  %41g
 !hn7!
+#|tG!
 ',=?k
 (f*^[0
 +Xt@(
@@ -103,7 +104,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231212193008Z0/
+231214202901Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -159,6 +160,7 @@
 :(:,:0:L:P:
 ;!;J<
 ;'<1<;<M<e<
+;(.~s
 ;@;W;`;i;r;w;|;
 ;X;\;`;d;|;
 < <0<4<<<T<d<h<x<|<
@@ -229,8 +231,10 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+J]0%]@
 KERNEL32.dll
 K}*n:	
+L0VMf<
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
@@ -238,13 +242,12 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-ONcl$
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
-Pm`z87
 Pz}b!
 QueryPerformanceCounter
+RSDSn
 RaiseException
 S0Q0O
 SA|X=G
@@ -286,12 +289,14 @@ VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+WH8X[
 WakeAllConditionVariable
 Washington1
 Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
+_'/~t
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -336,7 +341,6 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
-b/Yg\
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
@@ -346,16 +350,18 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-jWW|)1
 jj@0HK4
 k0i0$
 l2|X/gGe
+lM9	D
 m0k0$
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
+n\lM~L
+p$hGI
 string too long
 terminate
 uCVj@
@@ -363,7 +369,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-xe/jY
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

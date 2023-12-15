@@ -3,8 +3,8 @@
  A__^
  H3E H3E
 !hn7!
-&0`T{"
 ',=?k
+'<`zt\^
 (f*^[0
 +Xt@(
 +o'q)}
@@ -84,7 +84,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231212193213Z0/
+231214203628Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -96,7 +96,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4:*^8
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -109,6 +108,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 <0:08
 =rIQU
+>*(4n
 >0<0:
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
@@ -173,6 +173,7 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
+S:AK)`l
 SA|X=G
 SVWATAUAVAWH
 SetUnhandledExceptionFilter
@@ -180,7 +181,6 @@ UWAVH
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
-V92>:
 VCRUNTIME140.dll
 VWAVH
 VWAWH
@@ -190,6 +190,7 @@ Valve Corp.1
 Washington1
 Y9"SD
 [K]taM?
+[aU.s
 \$ UH
 ]J<0"0i3
 _CxxThrowException
@@ -223,6 +224,7 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+bFh[5$
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
@@ -269,8 +271,7 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-y4(.;jY
-zUJWx
+{()'#d
 {un'%
 |$ AVH
 |Lu?c

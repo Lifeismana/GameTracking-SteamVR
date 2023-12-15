@@ -1967,6 +1967,7 @@ $~O="""
 %gx%g%+g%+g
 %hd, 
 %hu, 
+%kxt7z
 %lf%*[ ,]%lf
 %lf%*[ ,]%lf%*[ ,]%lf%*[ ,]%lf
 %lf,%lf: (%lf%*[%,]
@@ -2842,7 +2843,6 @@ $~O="""
 -B@u.
 -HP  
 -Y %.20g +X %.20g
--[la+
 -a.:/
 -abcdefghijklmnopqrstuvwxyz
 -adaptive-blur
@@ -3283,6 +3283,7 @@ $~O="""
 .{sYi
 /$/Z/
 /%s-ISO dup /%s ReencodeType findfont setfont
+/);8+
 /* UIL */
 /* XPM */
 /* columns rows colors chars-per-pixel */
@@ -4329,7 +4330,7 @@ $~O="""
 223E3P3a3l3
 230714000000Z
 230x323
-231212193037Z0/
+231214202925Z0/
 23282G2L2e3
 23282R2W2q2v2
 232L2e2~2
@@ -4458,7 +4459,6 @@ $~O="""
 2W2\2p2
 2W3n3
 2X3\3
-2Xp#\
 2Y2n2
 2[2c2
 2\2`2d2h2p2
@@ -5550,7 +5550,6 @@ $~O="""
 5`6*7w7
 5`6\8
 5`6d6h6l6p6t6x6|6
-5cO$!
 5d6h6l6p6t6x6|6
 5f6J7
 5g6l6t6|6
@@ -6176,7 +6175,6 @@ $~O="""
 7Z8_8t8
 7[8c8;9C9
 7\8c8
-7\8ev
 7]7b7
 7]8b8q8v8
 7^7{7
@@ -6962,7 +6960,6 @@ $~O="""
 9l9v9{9p:
 9m9r9
 9m:~:
-9nO	K?
 9o\tD
 9p v,
 9p vt
@@ -8453,7 +8450,6 @@ $~O="""
 =1=U=Z=n=
 =1>;>@>
 =1>D>
-=1D;JX
 =1HCM
 =1X54H>FFISIYZO,-/+-/.--/-)/*'-+(,**,**.++.++.++/++/--0,,0-./-*2.,2.+2-,30.82/<4/>4/A5-F91H>7Q<5_70y7-
 =2=9=d=
@@ -9321,6 +9317,7 @@ A Coord Of Bottom Right Corner
 A Coord Of Top Right Corner
 A SVW
 A f;B u
+A!hMGb
 A"f;B"u
 A$;AD~
 A$;AT~
@@ -9383,6 +9380,7 @@ ATTLIST: no name for Attribute
 ATTLIST: no name for Element
 AUTOTRACE
 AVS X image
+AXIoT
 AYfU(P
 AaCcQqSsTt
 Aacute
@@ -13663,7 +13661,6 @@ J%%o\..r8
 J.2&+.(01+:=0LONXVmnl
 J0QRS
 J152D2
-J4W+G
 J5MH0
 J7J}J
 J<!u!
@@ -16157,7 +16154,6 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDS8=
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -18098,6 +18094,7 @@ VW9\$
 VW;l$
 VWSh\
 VWUh\
+VWaL[
 VWhP/:
 VWh\|:
 VWh`P1
@@ -20692,6 +20689,7 @@ f;T$J
 f;\$(
 f;|$(
 f@)rM
+fI9?m
 fIXeu
 face=%S,charset=%s,it=%s,wt=%ld,ht=%ld,ff=%s%s
 factor

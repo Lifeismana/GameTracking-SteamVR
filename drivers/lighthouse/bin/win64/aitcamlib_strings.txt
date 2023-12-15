@@ -57,10 +57,10 @@
 )t$0H
 )|$ H
 )|$@f
++PGs;Bz
 +Xt@(
 +o'q)}
 , last executing in 
-,(F9j
 ,9k0t%H
 ,9{0t%H
 ,W5y+
@@ -173,13 +173,12 @@
 0}0i1
 1/2/4/8/16-bit only
 130801120000Z
-1I")1
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231212192945Z0/
+231214203410Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -215,6 +214,7 @@
 9k0t_D
 9k0tcH
 9l$Lt	E
+:b5v2
 ;D$ht6
 <0:08
 =ETLP
@@ -421,6 +421,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+J[wK=
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -471,7 +472,6 @@ PauseCamera (immediate)
 PermissionDenied
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QJw/Z
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
@@ -582,7 +582,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
-XPm_j
 XXXX PNG chunk not known
 Y9"SD
 Z9k0tUD
@@ -743,6 +742,7 @@ fr_fr
 fread
 french
 fseek
+f{eQvSJ
 g9k0t_D
 german
 gfffffffH
@@ -833,6 +833,7 @@ pt_br
 pt_pt
 pvBuffer != nullptr
 rND9{0t
+rd=3j
 read past buffer
 ro_ro
 romanian
@@ -905,6 +906,7 @@ vrcamera_api.dll
 wrong channel count
 wrong color format
 wrong version
+wvO$X
 www.digicert.com1!0
 www.digicert.com1$0"
 zh_cn

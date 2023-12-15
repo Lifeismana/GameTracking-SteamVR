@@ -11,6 +11,7 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
+%ng[	
 ',=?k
 '.5<=6/7>????????????????
 (Enumerating)
@@ -172,7 +173,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231212192921Z0/
+231214202820Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -257,6 +258,7 @@ $9^ t
 70503
 727B7L7V7_7r7~7
 72969
+7IKn2/
 7O7W7
 7c8j869:9G9K9@<D<
 7d85<Z>d>h>
@@ -284,7 +286,6 @@ $9^ t
 949l9
 9>:D:^:$;
 9_lt\
-9ts/g(
 : ;,;4;L;P;`;
 :#:(:-:2:7:<:A:F:K:P:a:f:k:p:u:z:
 :#;W;
@@ -293,7 +294,6 @@ $9^ t
 :*:2:<:H:P:T:a:e:
 :+:/:
 :3:X:}:
-:5!>PM
 :;:w:
 :>;D;V;\;m;r;
 :@;G;
@@ -366,7 +366,6 @@ $9^ t
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 @(Failed Enumeration)
 @.data
-@W0ynX
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -412,6 +411,7 @@ EventUnregister
 EventWrite
 EventWriteString
 F(j4f
+F6%1Y
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -419,6 +419,7 @@ Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
 F|t	_^3
+GU^]<
 GetCameraHALInterface
 GetCurrentProcess
 GetCurrentProcessId
@@ -470,6 +471,8 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Jr&)\u
+Jrxz@58
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -500,6 +503,7 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
+R:7n-
 RPCRT4.dll
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
@@ -507,7 +511,6 @@ ResetEvent
 ResumeCamera
 S0Q0O
 S0W0e0i0
-SA'e%
 SA|X=G
 SETUPAPI.dll
 SNRtt(
@@ -527,7 +530,6 @@ StartVideoStream
 StopVideoStream
 Success
 TADItA
-TM!6tQ
 TdhEnumerateManifestProviderEvents
 TerminateProcess
 Thread exited immediately
@@ -603,7 +605,6 @@ Y__^[
 [K]taM?
 \2d2h2l2p2t2x2|2
 \3`3	484M4Q4
-]+gxZ
 ]J<0"0i3
 _CIpow
 _Cnd_destroy_in_situ
@@ -839,21 +840,25 @@ unknown marker
 unsupported bit depth
 unsupported data layout
 unsupported format
+u|ik55}
 v#QPh8
 v=Y]Bv
 vi_vi
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
+w;ow1y
 wrong channel count
 wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+x	GH(
 zh_cn
 zh_tw
 zlib corrupt
 {un'%
+{~y6R*
 |Lu?c
 }LuHO
 ~qj#k"

@@ -55,6 +55,7 @@
  version-number:
 !0E0R0[0
 !hn7!
+"*7yb
 "0)0C0
 "j h4_
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
@@ -73,13 +74,13 @@ $Vh&*
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
 &060K0S0X0
-&|j91q
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
+)	A"l
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
 +KL+SL_;
 +Xt@(
@@ -93,13 +94,13 @@ $Vh&*
 -Infinity
 -external
 -internal
+-{QGC*
 . Aborting.
 . Baud rate requested (
 . Ignoring the packet.
 . ack_num is: 
 . raw packet: 
 .00cfg
-.4BwXJ
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_02e728be6b281fc7c0cdb870c5d215f6>@@
 .?AV<lambda_03ab9c937d4f01102be0faa2655e674a>@@
@@ -710,7 +711,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231212192925Z0/
+231214202823Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1548,6 +1549,7 @@ CLSIDFromString
 CONFIG [
 CONFIG_RESP [
 CONNECTION_ACTIVE
+C`@__
 Caller: additions to the zip have already been ended
 Caller: can only get memory of a memory zipfile
 Caller: faulty arguments
@@ -1742,11 +1744,9 @@ GetQueuedCompletionStatus
 GetSystemTimeAsFileTime
 GetTickCount64
 Gt_^[
-GzQyIiT
 H-^Eu
 HCI_COMMAND_PACKET
 HCI_EVENT_PACKET
-HCZO)W
 HTC BS
 HeapAlloc
 HeapFree
@@ -2049,6 +2049,7 @@ Unknown Nordic Semiconductor vendor specific packet received
 Unknown RPC App Status (%d)
 Unknown exception
 UnlouA
+V	$\}D
 VCRUNTIME140.dll
 VENDOR_SPECIFIC
 VID_%04X
@@ -2069,7 +2070,6 @@ VjqSPW
 VjrSPW
 VjySPW
 Vj{SPW
-W!dhATW
 W9shvN3
 WAKEUP
 WOKEN
@@ -2204,7 +2204,6 @@ c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.
 calloc
 close
 cntrl
-dH> 9
 dat_file
 data error
 deque<T> too long
@@ -2293,9 +2292,9 @@ ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
+pc`*&
 print
 punct
-qY3*L
 realloc
 s?=2N
 sd_ble_cfg_set
@@ -2483,6 +2482,7 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
+{-(r0
 {L?uI
 {un'%
 |Lu?c

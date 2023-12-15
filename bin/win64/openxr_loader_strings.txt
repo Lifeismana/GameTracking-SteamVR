@@ -42,11 +42,11 @@
  was not found
  with error 
 !hn7!
-%-3s:
 %u.%u
 %u.%u.%u
 ' is not a number.
 ',=?k
+(4n< F
 (A^A]^[
 (A_A^^[
 (A_A^_]
@@ -59,8 +59,6 @@
 (unknown)
 )D$ L
 )t$ H
-*?d-+J
-+Q*vB
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -166,7 +164,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231212193300Z0/
+231214203703Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -264,6 +262,7 @@
 @A_A^A]A\_^[
 @A_A^_
 @A_A^_][
+@G]gd
 @SUVH
 @SUWH
 @SVAUAVH
@@ -285,6 +284,7 @@
 @VWAVH
 A valid JSON document must be either an array or an object value.
 A(t	H
+AA!LK
 ADVAPI32.dll
 ATAVAWH
 AUAVAWH
@@ -325,7 +325,6 @@ Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
 C0L9<
-C@#[(
 CD$0D
 CD$0I
 CD$0f
@@ -463,6 +462,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+KToZs
 K}*n:	
 L#A0L
 L#F0H
@@ -529,6 +529,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSs
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -585,7 +586,6 @@ UWATAUAVH
 UWATAVAWH
 UWAVH
 UWAWH
-U[7Ln
 Unable to parse token length
 UnhandledExceptionFilter
 Unknown error occurred calling down chain
@@ -704,7 +704,6 @@ _invalid_parameter_noinfo_noreturn
 _isnan
 _lock_file
 _register_onexit_function
-_sUlm
 _seh_filter_dll
 _unlock_file
 `.rdata
@@ -733,7 +732,6 @@ application name missing NULL terminator.
 bad allocation
 bad array new length
 bad cast
-c&TH1
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 collectComments
 d$ UAVAWH
@@ -871,7 +869,6 @@ vector<T> too long
 verbose
 www.digicert.com1!0
 www.digicert.com1$0"
-xX +E
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
@@ -981,7 +978,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
-{X?2o
+y,<`OV
 {un'%
 |$ ATAVAWH
 |$ AVH
@@ -1005,5 +1002,6 @@ xrWaitSwapchainImage
 |Lu?c
 }LuHO
 ~+fff
+~-S/0
 ~qj#k"
 ~t&LN

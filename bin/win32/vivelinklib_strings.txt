@@ -60,6 +60,7 @@ $Phdd
 %s: Timeout.
 %s: Unknown component type %d.
 %s: WriteFile failed! (%s)
+&f/R@
 ' is not a number.
 ',=?k
 ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
@@ -236,7 +237,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-231212192930Z0/
+231214202827Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -479,6 +480,7 @@ $Phdd
 >=?z?
 >H>s>
 >Mp$d
+?	'(@
 ? ?)?L?
 ?(?,?0?4?<?T?X?p?
 ?(?4?<?\?
@@ -710,7 +712,6 @@ Found: %s, size: %d
 G ;B 
 G$;B$
 G0_^]
-G6;TYx
 GH+G@
 Gd;Fd|:
 Gd;Fd}$V
@@ -822,7 +823,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSVv
+RSDS1
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1026,6 +1027,7 @@ Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
+[FTHL
 [K]taM?
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
@@ -1035,7 +1037,6 @@ Zipfile is corrupt or not a zipfile
 ]J<0"0i3
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
-_(R&1
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -1184,6 +1185,7 @@ l2|X/gGe
 lighthouse
 lower
 m0k0$
+m]va#
 malloc
 manifest
 manifest file %s parse error from %s
@@ -1201,6 +1203,7 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
+qxpw7
 realloc
 runas
 space
@@ -1219,7 +1222,6 @@ strtoul
 strtoull
 t ;A,t
 t hpC
-t"obg
 t0-"N
 t8;G,t
 t<-"N
@@ -1256,6 +1258,7 @@ vivelink.exe
 vivelinklib.dll
 w(_^[]
 w0_^[
+wB'\!
 wd_^[
 win64
 wn>Jj

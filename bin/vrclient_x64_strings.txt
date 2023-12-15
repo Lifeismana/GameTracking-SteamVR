@@ -96,7 +96,6 @@
 !m_pParent2
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-!t#J]_
 " because it is missing required fields: 
 " does not.
 " in 
@@ -139,6 +138,7 @@ $tI(knN
 $u=Hi
 $u^Hi
 $w!Hc
+%$	&r
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -664,7 +664,6 @@ $w!Hc
 . and .. are not allowed in binding_url
 ../..
 .00cfg
-.7HBwv
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -2089,7 +2088,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231212193752Z0/
+231214204052Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2108,11 +2107,11 @@ $w!Hc
 416.16
 440.97
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4wYZ	
 528.49
 555555
 555555555555555555555555555555555555555555555555555555555555555555555555555555
 5FjiT
+5OcvI
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 650000
@@ -5503,7 +5502,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS,
+RSDS1
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7339,7 +7338,6 @@ YL$8E
 Yl$ M
 Yl$4E
 Z(uDH
-Z+y5F?
 Z9k0tUD
 ZA<a`
 ZL$Xf
@@ -7348,6 +7346,7 @@ ZvFailed to create fence %ls.
 [%s] End Frame Timing: %d
 [%s] End Reading Timestamps: %d
 [%s] Mark Timing Event: %s(%d)
+[/}bk
 [CDownsampleRenderer] Failed to create blend state!
 [CDownsampleRenderer] Failed to create depth stencil state!
 [CDownsampleRenderer] Failed to create dst texture calling ImportTextureFromNativeTexture()!
@@ -7727,7 +7726,6 @@ ZvFailed to create fence %ls.
 ]gfff
 ]pH9X
 ]wfHc
-^' qk
 ^8H9?t&H
 ^8I9^@
 ^9k0tWD
@@ -7834,6 +7832,7 @@ _wstat64i32
 ` UAVAWH
 `(@SH
 `.rdata
+`07z1
 `0@SH
 `8@SH
 `@@SH
@@ -7944,7 +7943,6 @@ bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
-b__(hn
 background
 backgroundCameraHeight
 backgroundDomeRadius
@@ -8408,7 +8406,6 @@ ff&?E
 ffffff
 fffffff
 fflush
-fftF&
 fgetc
 fgetpos
 fi_fi
@@ -8448,6 +8445,7 @@ ftell
 fwrite
 fxL9f0H
 g(u^H
+g9]^vV
 g9k0t_D
 gamepad
 generator
@@ -8538,7 +8536,6 @@ http://www.digicert.com/CPS0
 https://
 hu_hu
 hungarian
-iE.bB
 iError calling pDownsampleRenderer->Draw()!
 icon_steamvr_desktopgame.png
 ig@-?e
@@ -8775,7 +8772,6 @@ long_press_delay
 lower
 m0_$@
 m0k0$
-mG/hH
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_acquiredFrameIndices.size() > 0
@@ -9160,7 +9156,6 @@ settings
 settings/desktop
 setup_standing2
 setvbuf
-sg%kQ\	!W>
 shaders/d3d11/distort_cs.fxo
 shaders/d3d11/distort_cs_mc.fxo
 shaders/d3d11/distort_geom_aa_circles_ps.fxo
@@ -9914,7 +9909,6 @@ uGH9t$Pt.I
 uHD8}
 uJ9;tFD
 uJf9X
-uJh#z
 uM8D$@tG
 uMD9I
 uO8D$@tI
@@ -10568,7 +10562,6 @@ xA^A\_^][
 xA_A^A]A\][
 x_path
 xdigit
-xexpwasC
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
@@ -10687,7 +10680,6 @@ xrconformance/driver
 xxxxxxx
 yPDX10
 y_path
-yar+)
 yxxxxxxx3
 yxxxxxxxH
 yxxxxxxxH+

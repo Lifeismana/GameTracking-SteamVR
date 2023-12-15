@@ -8,12 +8,13 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
-$EhqR
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
 (D$0f
 (f*^[0
+*;P'I
+*[nT.3
 +Xt@(
 +o'q)}
 ,W5y+
@@ -113,13 +114,12 @@ $EhqR
 0}0i1
 1.0.0
 130801120000Z
-1:>_~
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231212192823Z0/
+231214203301Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -132,14 +132,12 @@ $EhqR
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5?{$B
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
 70503
-7>=J[
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -160,6 +158,7 @@ $EhqR
 @.reloc
 @A^][
 @A^_^
+@Kn(2
 @SUAVH
 @SUAWH
 @USAUH
@@ -204,7 +203,6 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 E89D$Pu
 E<9D$Tu
-EPF^U
 EnterCriticalSection
 FormatMessageW
 GetCurrentProcessId
@@ -263,7 +261,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS8
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -279,6 +276,7 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
+T(.R=
 UVAUAWH
 UVAWH
 UWAVH
@@ -292,6 +290,7 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+W<j>T
 WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -351,6 +350,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`wd?c+
 a7hIw
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
@@ -386,6 +386,7 @@ malloc
 memcpy
 memmove
 memset
+ns*"7;tV
 ntelD
 ole32.dll
 sourceResolution == m_path.SourceResolution().Value()
@@ -398,6 +399,7 @@ t$@H=
 t$PE3
 tXfff
 tYH9\$`t
+t`w@1
 terminate
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
@@ -405,11 +407,13 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
+zXs5)
 {un'%
 |$ AVH
 |$0E3
 |$xMi
 |Lu?c
+|f{ep
 }LuHO
 ~qj#k"
 ~t&LN
