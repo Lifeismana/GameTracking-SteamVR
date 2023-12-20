@@ -2257,12 +2257,13 @@
                   swapOnOff: !0,
                   visibility: _.VK.Advanced,
                 }),
-                c.createElement(_.wy, {
-                  name: "/settings/dashboard/enableDashboard",
-                  title: (0, m.Xx)("#Settings_EnableDashboardDesc"),
-                  label: (0, m.Xx)("#Settings_EnableDashboard"),
-                  visibility: _.VK.Advanced,
-                }),
+                (0, s.Op)() != s.qA.Overlay &&
+                  c.createElement(_.wy, {
+                    name: "/settings/dashboard/enableDashboard",
+                    title: (0, m.Xx)("#Settings_EnableDashboardDesc"),
+                    label: (0, m.Xx)("#Settings_EnableDashboard"),
+                    visibility: _.VK.Advanced,
+                  }),
                 c.createElement(_.wy, {
                   name: "/settings/dashboard/autoShowGameTheater",
                   title: (0, m.Xx)("#Settings_AutoShowGameTheaterDesc"),
@@ -19159,4 +19160,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=d96ebe12eb913b8744b5
+//# sourceMappingURL=vrwebui_shared.js.map?v=5da749cb80dc3bfadc95

@@ -138,12 +138,12 @@ $tI(knN
 $u=Hi
 $u^Hi
 $w!Hc
-%$	&r
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
 %9k0t
 %9{0t
+%E~~n<[Y
 %LocalAppData%
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
@@ -411,10 +411,12 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%9l*
+(%	{*
+(%5$#
 ()$^.*+?[]|\-{},:=!
+(5=##
 (9Q|uWH
-(=4,'
+(=h('
 (A\^][
 (A\_^[
 (A]_^[
@@ -520,6 +522,7 @@ $w!Hc
 (|$pD
 (|$pH
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+)/#[Z
 )9k0t
 )D$ A
 )D$ D
@@ -827,6 +830,7 @@ $w!Hc
 .?AV?$CompositorInterfaceRegistration@VCVRCompositor_024@@@@
 .?AV?$CompositorInterfaceRegistration@VCVRCompositor_025@@@@
 .?AV?$CompositorInterfaceRegistration@VCVRCompositor_026@@@@
+.?AV?$CompositorInterfaceRegistration@VCVRCompositor_027@@@@
 .?AV?$ControlPanelInterfaceRegistration@VCVRControlPanel_001@@@@
 .?AV?$ControlPanelInterfaceRegistration@VCVRControlPanel_002@@@@
 .?AV?$ControlPanelInterfaceRegistration@VCVRControlPanel_003@@@@
@@ -1169,6 +1173,7 @@ $w!Hc
 .?AVCVRCompositor_024@@
 .?AVCVRCompositor_025@@
 .?AVCVRCompositor_026@@
+.?AVCVRCompositor_027@@
 .?AVCVRControlPanel_001@@
 .?AVCVRControlPanel_002@@
 .?AVCVRControlPanel_003@@
@@ -1705,7 +1710,6 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/5>}(
 /9{0t'H
 /a/click
 /a/touch
@@ -2082,13 +2086,14 @@ $w!Hc
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 130801120000Z
+17\Y]Tt
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231214204052Z0/
+231220011427Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2100,6 +2105,7 @@ $w!Hc
 341013235959Z0H1
 360428235959Z0i1
 361.75
+36\v}
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
@@ -2111,7 +2117,6 @@ $w!Hc
 555555
 555555555555555555555555555555555555555555555555555555555555555555555555555555
 5FjiT
-5OcvI
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 650000
@@ -2147,7 +2152,6 @@ $w!Hc
 98t3H
 98tHH
 9;tC@8{
-9=Tl8
 9A@~%H
 9C s.H
 9C }.H
@@ -2248,6 +2252,7 @@ $w!Hc
 =rIQU
 >"tVH
 >"taH
+>%rL+
 >0<0:
 >Mp$d
 >W`.]tB3?
@@ -2516,7 +2521,6 @@ $w!Hc
 @VATAUAVAW
 @VATAUH
 @VATAWH
-@VAVAWH
 @VAVH
 @VWATAVAWH
 @VWATH
@@ -2761,7 +2765,6 @@ B84/u
 B9T	$t
 B9T	$u
 B9T!$t
-BD9%N
 BINORMAL
 BITANGENT
 BMP RLE
@@ -2796,6 +2799,7 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
+C-~0)
 C0L9$
 C0L;E
 C0L;F
@@ -3573,15 +3577,12 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
-D8%sP)
 D8,8u
-D8-e)'
+D8-a='
 D8/u0
 D840u
 D84;u
-D8<0u
 D8<>u
-D8=Y)
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -3840,6 +3841,7 @@ Failed to commit chaperone working set because message timed out
 Failed to commit chaperone working set because no universe was set
 Failed to commit chaperone working set because tracking origin is too far from 0
 Failed to connect to pipe %s because %s
+Failed to connect to pipe %s because %s... retrying
 Failed to convert event of type %s
 Failed to create AMD LiquidVR D3D11/Vulkan semaphore.
 Failed to create D3D11 device to share with OpenGL!
@@ -4020,6 +4022,7 @@ FnTable:IVRCompositor_023
 FnTable:IVRCompositor_024
 FnTable:IVRCompositor_025
 FnTable:IVRCompositor_026
+FnTable:IVRCompositor_027
 FnTable:IVRIOBuffer_002
 FnTable:IVRInput_001
 FnTable:IVRInput_002
@@ -4277,9 +4280,11 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=.""
-H;=Zn!
-H;=zJ!
+H;=.5"
+H;=T:6
+H;=z:6
+H;=z]!
+H;=~)"
 H;A s
 H;Axt
 H;C(v
@@ -4562,6 +4567,7 @@ IVRCompositor_024
 IVRCompositor_025
 IVRCompositor_026
 IVRCompositor_027
+IVRCompositor_028
 IVRControlPanel_001
 IVRControlPanel_002
 IVRControlPanel_003
@@ -4803,7 +4809,6 @@ IsDebuggerPresent
 IsDepthFormat( eVkFormat )
 IsDepthFormat( nTextureFormat )
 IsDepthFormat(eVkFormat)
-IsDepthFormatDXGI( d3dFormat )
 IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 IsValid( pSxrStruct )
@@ -4960,7 +4965,7 @@ L$hE3
 L$hH3
 L$hH;
 L$hM9
-L$pE2
+L$p@2
 L$pE3
 L$pH+
 L$pH3
@@ -4977,11 +4982,11 @@ L+I0E3
 L8 9J
 L8$9J
 L9 t'H
-L9%d~<
 L90t	H
 L93t	H
 L97u0H
-L9=3?
+L9=-R
+L9=SR
 L9?u,H
 L9@ s
 L9A r
@@ -5497,12 +5502,13 @@ QFailed to create internal command allocator
 QHL9u
 QHtfH
 Qkkbal
+Qt76A
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS1
+RSDS`
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6859,6 +6865,8 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
+X-\J#
+X5B#"
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7325,14 +7333,9 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%UL)
-Y%gh&
-Y-}L)
-Y5hh"
-Y5mr#
-Y5qP"
-Y5~a"
+Y-Di#
 Y9"SD
+Y=y3)
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -7341,12 +7344,12 @@ Z(uDH
 Z9k0tUD
 ZA<a`
 ZL$Xf
+Zn$1)>Q#A
 ZvFailed to create fence %ls.
 [%s] Begin Frame Timing: %d
 [%s] End Frame Timing: %d
 [%s] End Reading Timestamps: %d
 [%s] Mark Timing Event: %s(%d)
-[/}bk
 [CDownsampleRenderer] Failed to create blend state!
 [CDownsampleRenderer] Failed to create depth stencil state!
 [CDownsampleRenderer] Failed to create dst texture calling ImportTextureFromNativeTexture()!
@@ -7832,7 +7835,6 @@ _wstat64i32
 ` UAVAWH
 `(@SH
 `.rdata
-`07z1
 `0@SH
 `8@SH
 `@@SH
@@ -7865,6 +7867,7 @@ _wstat64i32
 `node` field is missing in animation.channels.target
 `nodes' does not contain an JSON object.
 `output` field is missing in animation.sampler
+`p@SH
 `path` field is missing in animation.channels.target
 `sampler` field is missing in animation channels
 `samplers' does not contain an JSON object.
@@ -8445,7 +8448,6 @@ ftell
 fwrite
 fxL9f0H
 g(u^H
-g9]^vV
 g9k0t_D
 gamepad
 generator
@@ -8685,6 +8687,7 @@ khr_simple_controller
 knuckles
 ko_ko
 korean
+kqh<_
 l$ ATAVAWH
 l$ AVH
 l$ E3
@@ -9792,7 +9795,7 @@ tHI9t$
 tJL;y rDH
 tK@8q<tEI
 tNI;X rHI
-tQH95G
+tQH95
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -9873,7 +9876,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=6
+t}H9=
 u	A;p(s
 u	A;y(s
 u	H9|$ tI

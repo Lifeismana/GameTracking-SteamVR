@@ -13,8 +13,6 @@
 ',=?k
 (D$0f
 (f*^[0
-*;P'I
-*[nT.3
 +Xt@(
 +o'q)}
 ,W5y+
@@ -119,7 +117,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231214203301Z0/
+231220010600Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -145,6 +143,7 @@
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
+9oO -t
 <0:08
 <P)9Y
 <unknown>
@@ -158,7 +157,6 @@
 @.reloc
 @A^][
 @A^_^
-@Kn(2
 @SUAVH
 @SUAWH
 @USAUH
@@ -204,6 +202,7 @@ DisableThreadLibraryCalls
 E89D$Pu
 E<9D$Tu
 EnterCriticalSection
+F![6%(
 FormatMessageW
 GetCurrentProcessId
 GetCurrentThreadId
@@ -276,7 +275,6 @@ SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T(.R=
 UVAUAWH
 UVAWH
 UWAVH
@@ -290,7 +288,6 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-W<j>T
 WAVAWH
 WINRT_AcquireDisplay
 WINRT_GetAdapterLuid
@@ -350,7 +347,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-`wd?c+
+`bBv0
 a7hIw
 api-ms-win-core-heap-l1-1-0.dll
 api-ms-win-core-interlocked-l1-1-0.dll
@@ -376,6 +373,7 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 iswspace
+ix@N:
 jj@0HK4
 k0i0$
 l$ WH
@@ -386,9 +384,9 @@ malloc
 memcpy
 memmove
 memset
-ns*"7;tV
 ntelD
 ole32.dll
+ri_-+
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -399,7 +397,6 @@ t$@H=
 t$PE3
 tXfff
 tYH9\$`t
-t`w@1
 terminate
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
@@ -407,13 +404,11 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
-zXs5)
 {un'%
 |$ AVH
 |$0E3
 |$xMi
 |Lu?c
-|f{ep
 }LuHO
 ~qj#k"
 ~t&LN

@@ -57,7 +57,6 @@
 )t$0H
 )|$ H
 )|$@f
-+PGs;Bz
 +Xt@(
 +o'q)}
 , last executing in 
@@ -171,6 +170,7 @@
 0D9c0t'H
 0w0c1
 0}0i1
+1	>=v/d
 1/2/4/8/16-bit only
 130801120000Z
 210429000000Z
@@ -178,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231214203410Z0/
+231220010715Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -214,7 +214,6 @@
 9k0t_D
 9k0tcH
 9l$Lt	E
-:b5v2
 ;D$ht6
 <0:08
 =ETLP
@@ -421,7 +420,6 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-J[wK=
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -476,6 +474,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSeXkwj
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -506,6 +505,7 @@ T$@Hc
 T$@I;
 T$XA#
 T$pD;
+T&!#9
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Thread exited immediately
@@ -584,6 +584,7 @@ Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
+YnbWkK?Mb
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
@@ -742,7 +743,6 @@ fr_fr
 fread
 french
 fseek
-f{eQvSJ
 g9k0t_D
 german
 gfffffffH
@@ -797,6 +797,7 @@ memmove
 memset
 missing color table
 multiple IHDR
+nbtzWA
 no IDAT
 no PLTE
 no SOF
@@ -833,7 +834,6 @@ pt_br
 pt_pt
 pvBuffer != nullptr
 rND9{0t
-rd=3j
 read past buffer
 ro_ro
 romanian
@@ -906,7 +906,6 @@ vrcamera_api.dll
 wrong channel count
 wrong color format
 wrong version
-wvO$X
 www.digicert.com1!0
 www.digicert.com1$0"
 zh_cn

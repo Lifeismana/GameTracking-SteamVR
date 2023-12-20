@@ -22,7 +22,6 @@
  sCWj
  t\9]
 !hn7!
-"i@XI
 #9Npt
 #>B>J>
 $0,040<0P0X0`0h0p0|0
@@ -47,6 +46,7 @@ $_^[]
 +A$tp
 +AHVj(
 +OL+WL
++PH0X
 +Xt@(
 +o'q)}
 +p$+p
@@ -432,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231214202816Z0/
+231220010648Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -750,6 +750,7 @@ $_^[]
 8H9L9P9T9X9
 8J8j8|8
 8N8Z8`8
+8PDen
 8Q8}8
 8Z8w8
 8[9w9
@@ -1120,6 +1121,7 @@ $_^[]
 ?AddConfigurationChangeHandler@CVRCameraWindows@vrcamera@@UAEXV?$function@$$A6AXXZ@std@@@Z
 ?AddFrameHandler@CVRCameraWindows@vrcamera@@UAEXV?$function@$$A6AXV?$shared_ptr@VIVRCameraFrame@vrcamera@@@std@@@Z@std@@@Z
 ?ApplyConfiguration@CVRCameraWindows@vrcamera@@UAEXXZ
+?B	K)
 ?BeginStreamingDepth@CVRCameraWindows@vrcamera@@UAE?AW4ECameraResult@2@XZ
 ?BeginStreamingVideo@CVRCameraWindows@vrcamera@@UAE?AW4ECameraResult@2@XZ
 ?CalculateColorFrameSize@IVRCamera@vrcamera@@UAEKXZ
@@ -1232,7 +1234,6 @@ Bellevue1
 C$F;w
 C,H_^u
 C8;sx|
-CVI~!a
 CVRCameraWindows Destructor...
 C\Qj 
 Camera Exception while adding configuration change handler to video stream: 
@@ -1302,7 +1303,6 @@ DisableThreadLibraryCalls
 DuplicateHandle
 DynamicProgressFeedback
 E;w0tLj
-EA?=e
 EI2C support not yet implemented
 EncodePointer
 End Streaming Depth...
@@ -1492,7 +1492,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDS8h
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1564,7 +1563,6 @@ Unrecognized depth format.
 UnregisterTraceGuids
 UnregisterWait
 UnregisterWaitEx
-V,A6b
 V<;V8}	
 VCRUNTIME140.dll
 V_~]	,
@@ -1596,6 +1594,7 @@ YYPh`v
 YYPhxv
 YY^_]
 Y__^[
+Y`_@G
 [K]taM?
 [SPj"
 [tc9]
@@ -1643,7 +1642,6 @@ _errno
 _except1
 _except_handler4_common
 _execute_onexit_table
-_e{e[
 _fseeki64
 _fsopen
 _gUT^
@@ -1811,7 +1809,6 @@ pEvents
 pExecutionResource
 pScheduler
 pThreadProxy
-p`DQ1
 permission denied
 ppVirtualProcessorRoots
 print
@@ -1908,7 +1905,6 @@ x0c1l1
 x\SVW
 xdigit
 y'j h
-y\Yz0
 {L?uI
 {un'%
 |Lu?c

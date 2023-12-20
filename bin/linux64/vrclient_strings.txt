@@ -1023,6 +1023,7 @@ $tI
 0-pixel image
 0123456789
 0123456789ABCDEF
+01:01:27
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -1180,6 +1181,7 @@ $tI
 17CVRCompositor_024
 17CVRCompositor_025
 17CVRCompositor_026
+17CVRCompositor_027
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
@@ -1241,7 +1243,6 @@ $tI
 19InMemoryInputStream
 1e+9999
 2
-20:27:11
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -1536,6 +1537,7 @@ $tI
 31CompositorInterfaceRegistrationI17CVRCompositor_024E
 31CompositorInterfaceRegistrationI17CVRCompositor_025E
 31CompositorInterfaceRegistrationI17CVRCompositor_026E
+31CompositorInterfaceRegistrationI17CVRCompositor_027E
 32CCompositorPluginProvider_Latest
 32CServerTrackedDeviceProvider_002
 32CServerTrackedDeviceProvider_003
@@ -2047,8 +2049,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1844.369604
-C.1847.369615
+C.1844.369611
+C.1847.369622
 C.413.290188
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -4905,9 +4907,10 @@ CVRCompositorClient::SubmitFrameData(double, bool)
 CVRCompositorClient::SubmitFrameData(double, bool) [clone .cold]
 CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long const*)
 CVRCompositorClient::SubmitTextureSetInfo(unsigned int, CVRCompositorClient::TextureSetInfo_t const&, unsigned int, unsigned long const*) [clone .cold]
-CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long)
-CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long) [clone .cold]
-CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long)::s_bFirstOffense
+CVRCompositorClient::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+CVRCompositorClient::SubmitWithArrayIndexAndTime(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long)
+CVRCompositorClient::SubmitWithArrayIndexAndTime(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long) [clone .cold]
+CVRCompositorClient::SubmitWithArrayIndexAndTime(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags, unsigned long)::s_bFirstOffense
 CVRCompositorClient::SuspendRendering(bool)
 CVRCompositorClient::SuspendRendering(bool) [clone .cold]
 CVRCompositorClient::UnlockGLSharedTextureForAccess(void*)
@@ -4988,6 +4991,7 @@ CVRCompositorClientBase::ShouldAppRenderWithLowResources()
 CVRCompositorClientBase::ShowMirrorWindow()
 CVRCompositorClientBase::Submit(vr::EVREye, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
 CVRCompositorClientBase::SubmitExplicitTimingData()
+CVRCompositorClientBase::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
 CVRCompositorClientBase::SuspendRendering(bool)
 CVRCompositorClientBase::TestOrCaptureSceneFocus()
 CVRCompositorClientBase::TestOrCaptureSceneFocus() [clone .cold]
@@ -5961,6 +5965,57 @@ CVRCompositor_026::SubmitExplicitTimingData()
 CVRCompositor_026::SuspendRendering(bool)
 CVRCompositor_026::UnlockGLSharedTextureForAccess(void*)
 CVRCompositor_026::WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositor_027::CanRenderScene()
+CVRCompositor_027::ClearLastSubmittedFrame()
+CVRCompositor_027::ClearSkyboxOverride()
+CVRCompositor_027::ClearStageOverride()
+CVRCompositor_027::CompositorBringToFront()
+CVRCompositor_027::CompositorDumpImages()
+CVRCompositor_027::CompositorGoToBack()
+CVRCompositor_027::CompositorQuit()
+CVRCompositor_027::FadeGrid(float, bool)
+CVRCompositor_027::FadeToColor(float, float, float, float, float, bool)
+CVRCompositor_027::ForceInterleavedReprojectionOn(bool)
+CVRCompositor_027::ForceReconnectProcess()
+CVRCompositor_027::GetCompositorBenchmarkResults(vr::Compositor_BenchmarkResults*, unsigned int)
+CVRCompositor_027::GetCumulativeStats(vr::Compositor_CumulativeStats*, unsigned int)
+CVRCompositor_027::GetCurrentFadeColor(bool)
+CVRCompositor_027::GetCurrentGridAlpha()
+CVRCompositor_027::GetCurrentSceneFocusProcess()
+CVRCompositor_027::GetFrameTimeRemaining()
+CVRCompositor_027::GetFrameTiming(vr::Compositor_FrameTiming*, unsigned int)
+CVRCompositor_027::GetFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
+CVRCompositor_027::GetLastFrameRenderer()
+CVRCompositor_027::GetLastPoseForTrackedDeviceIndex(unsigned int, vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t*)
+CVRCompositor_027::GetLastPosePredictionIDs(unsigned int*, unsigned int*)
+CVRCompositor_027::GetLastPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositor_027::GetMirrorTextureD3D11(vr::EVREye, void*, void**)
+CVRCompositor_027::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
+CVRCompositor_027::GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositor_027::GetTrackingSpace()
+CVRCompositor_027::GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
+CVRCompositor_027::GetVulkanInstanceExtensionsRequired(char*, unsigned int)
+CVRCompositor_027::HideMirrorWindow()
+CVRCompositor_027::IsCurrentSceneFocusAppLoading()
+CVRCompositor_027::IsFullscreen()
+CVRCompositor_027::IsMirrorWindowVisible()
+CVRCompositor_027::IsMotionSmoothingEnabled()
+CVRCompositor_027::IsMotionSmoothingSupported()
+CVRCompositor_027::LockGLSharedTextureForAccess(void*)
+CVRCompositor_027::PostPresentHandoff()
+CVRCompositor_027::ReleaseMirrorTextureD3D11(void*)
+CVRCompositor_027::ReleaseSharedGLTexture(unsigned int, void*)
+CVRCompositor_027::SetExplicitTimingMode(vr::EVRCompositorTimingMode)
+CVRCompositor_027::SetSkyboxOverride(vr::Texture_t const*, unsigned int)
+CVRCompositor_027::SetStageOverride_Async(char const*, vr::HmdMatrix34_t const*, vr::Compositor_StageRenderSettings const*, unsigned int)
+CVRCompositor_027::SetTrackingSpace(vr::ETrackingUniverseOrigin)
+CVRCompositor_027::ShouldAppRenderWithLowResources()
+CVRCompositor_027::ShowMirrorWindow()
+CVRCompositor_027::Submit(vr::EVREye, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+CVRCompositor_027::SubmitExplicitTimingData()
+CVRCompositor_027::SuspendRendering(bool)
+CVRCompositor_027::UnlockGLSharedTextureForAccess(void*)
+CVRCompositor_027::WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 CVRControlPanel_001::AbortTransition()
 CVRControlPanel_001::ForceQuitProcess(unsigned int)
 CVRControlPanel_001::GetCurrentCompositorInterface(char const*)
@@ -16450,6 +16505,8 @@ CompositorInterfaceRegistration<CVRCompositor_025>::GetInterface()
 CompositorInterfaceRegistration<CVRCompositor_025>::~CompositorInterfaceRegistration()
 CompositorInterfaceRegistration<CVRCompositor_026>::GetInterface()
 CompositorInterfaceRegistration<CVRCompositor_026>::~CompositorInterfaceRegistration()
+CompositorInterfaceRegistration<CVRCompositor_027>::GetInterface()
+CompositorInterfaceRegistration<CVRCompositor_027>::~CompositorInterfaceRegistration()
 Compute Client
 ComputeBindingCachePath(std::string const&, std::string const&)
 ComputeBindingCachePath(std::string const&, std::string const&) [clone .cold]
@@ -16554,7 +16611,7 @@ DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebuggerEnabled
 Dec
-Dec 14 2023
+Dec 20 2023
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -16995,6 +17052,7 @@ FnTable:IVRCompositor_023
 FnTable:IVRCompositor_024
 FnTable:IVRCompositor_025
 FnTable:IVRCompositor_026
+FnTable:IVRCompositor_027
 FnTable:IVRIOBuffer_002
 FnTable:IVRInput_001
 FnTable:IVRInput_002
@@ -18274,6 +18332,58 @@ IVRCompositor_026_FnTable_SuspendRendering(bool)
 IVRCompositor_026_FnTable_UnlockGLSharedTextureForAccess(void*)
 IVRCompositor_026_FnTable_WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 IVRCompositor_027
+IVRCompositor_027_FnTable_CanRenderScene()
+IVRCompositor_027_FnTable_ClearLastSubmittedFrame()
+IVRCompositor_027_FnTable_ClearSkyboxOverride()
+IVRCompositor_027_FnTable_ClearStageOverride()
+IVRCompositor_027_FnTable_CompositorBringToFront()
+IVRCompositor_027_FnTable_CompositorDumpImages()
+IVRCompositor_027_FnTable_CompositorGoToBack()
+IVRCompositor_027_FnTable_CompositorQuit()
+IVRCompositor_027_FnTable_FadeGrid(float, bool)
+IVRCompositor_027_FnTable_FadeToColor(float, float, float, float, float, bool)
+IVRCompositor_027_FnTable_ForceInterleavedReprojectionOn(bool)
+IVRCompositor_027_FnTable_ForceReconnectProcess()
+IVRCompositor_027_FnTable_GetCompositorBenchmarkResults(vr::Compositor_BenchmarkResults*, unsigned int)
+IVRCompositor_027_FnTable_GetCumulativeStats(vr::Compositor_CumulativeStats*, unsigned int)
+IVRCompositor_027_FnTable_GetCurrentFadeColor(bool)
+IVRCompositor_027_FnTable_GetCurrentGridAlpha()
+IVRCompositor_027_FnTable_GetCurrentSceneFocusProcess()
+IVRCompositor_027_FnTable_GetFrameTimeRemaining()
+IVRCompositor_027_FnTable_GetFrameTiming(vr::Compositor_FrameTiming*, unsigned int)
+IVRCompositor_027_FnTable_GetFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
+IVRCompositor_027_FnTable_GetLastFrameRenderer()
+IVRCompositor_027_FnTable_GetLastPoseForTrackedDeviceIndex(unsigned int, vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t*)
+IVRCompositor_027_FnTable_GetLastPosePredictionIDs(unsigned int*, unsigned int*)
+IVRCompositor_027_FnTable_GetLastPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+IVRCompositor_027_FnTable_GetMirrorTextureD3D11(vr::EVREye, void*, void**)
+IVRCompositor_027_FnTable_GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
+IVRCompositor_027_FnTable_GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+IVRCompositor_027_FnTable_GetTrackingSpace()
+IVRCompositor_027_FnTable_GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
+IVRCompositor_027_FnTable_GetVulkanInstanceExtensionsRequired(char*, unsigned int)
+IVRCompositor_027_FnTable_HideMirrorWindow()
+IVRCompositor_027_FnTable_IsCurrentSceneFocusAppLoading()
+IVRCompositor_027_FnTable_IsFullscreen()
+IVRCompositor_027_FnTable_IsMirrorWindowVisible()
+IVRCompositor_027_FnTable_IsMotionSmoothingEnabled()
+IVRCompositor_027_FnTable_IsMotionSmoothingSupported()
+IVRCompositor_027_FnTable_LockGLSharedTextureForAccess(void*)
+IVRCompositor_027_FnTable_PostPresentHandoff()
+IVRCompositor_027_FnTable_ReleaseMirrorTextureD3D11(void*)
+IVRCompositor_027_FnTable_ReleaseSharedGLTexture(unsigned int, void*)
+IVRCompositor_027_FnTable_SetExplicitTimingMode(vr::EVRCompositorTimingMode)
+IVRCompositor_027_FnTable_SetSkyboxOverride(vr::Texture_t const*, unsigned int)
+IVRCompositor_027_FnTable_SetStageOverride_Async(char const*, vr::HmdMatrix34_t const*, vr::Compositor_StageRenderSettings const*, unsigned int)
+IVRCompositor_027_FnTable_SetTrackingSpace(vr::ETrackingUniverseOrigin)
+IVRCompositor_027_FnTable_ShouldAppRenderWithLowResources()
+IVRCompositor_027_FnTable_ShowMirrorWindow()
+IVRCompositor_027_FnTable_Submit(vr::EVREye, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+IVRCompositor_027_FnTable_SubmitExplicitTimingData()
+IVRCompositor_027_FnTable_SuspendRendering(bool)
+IVRCompositor_027_FnTable_UnlockGLSharedTextureForAccess(void*)
+IVRCompositor_027_FnTable_WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+IVRCompositor_028
 IVRControlPanel_001
 IVRControlPanel_002
 IVRControlPanel_003
@@ -24081,6 +24191,7 @@ VR_IVRCompositor_FnTable_ShouldAppRenderWithLowResources()
 VR_IVRCompositor_FnTable_ShowMirrorWindow()
 VR_IVRCompositor_FnTable_Submit(EVREye, Texture_t*, VRTextureBounds_t*, EVRSubmitFlags)
 VR_IVRCompositor_FnTable_SubmitExplicitTimingData()
+VR_IVRCompositor_FnTable_SubmitWithArrayIndex(EVREye, Texture_t*, unsigned int, VRTextureBounds_t*, EVRSubmitFlags)
 VR_IVRCompositor_FnTable_SuspendRendering(bool)
 VR_IVRCompositor_FnTable_UnlockGLSharedTextureForAccess(void*)
 VR_IVRCompositor_FnTable_WaitGetPoses(TrackedDevicePose_t*, unsigned int, TrackedDevicePose_t*, unsigned int)
@@ -26999,6 +27110,7 @@ g_IVRCompositor_023_FnTable
 g_IVRCompositor_024_FnTable
 g_IVRCompositor_025_FnTable
 g_IVRCompositor_026_FnTable
+g_IVRCompositor_027_FnTable
 g_IVRIOBuffer_002_FnTable
 g_IVRInput_001_FnTable
 g_IVRInput_002_FnTable
@@ -34382,6 +34494,7 @@ typeinfo for CVRCompositor_023
 typeinfo for CVRCompositor_024
 typeinfo for CVRCompositor_025
 typeinfo for CVRCompositor_026
+typeinfo for CVRCompositor_027
 typeinfo for CVRControlPanel_001
 typeinfo for CVRControlPanel_002
 typeinfo for CVRControlPanel_003
@@ -34777,6 +34890,7 @@ typeinfo for CompositorInterfaceRegistration<CVRCompositor_023>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_024>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_025>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_026>
+typeinfo for CompositorInterfaceRegistration<CVRCompositor_027>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_003>
@@ -35644,6 +35758,7 @@ typeinfo name for CVRCompositor_023
 typeinfo name for CVRCompositor_024
 typeinfo name for CVRCompositor_025
 typeinfo name for CVRCompositor_026
+typeinfo name for CVRCompositor_027
 typeinfo name for CVRControlPanel_001
 typeinfo name for CVRControlPanel_002
 typeinfo name for CVRControlPanel_003
@@ -36039,6 +36154,7 @@ typeinfo name for CompositorInterfaceRegistration<CVRCompositor_023>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_024>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_025>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_026>
+typeinfo name for CompositorInterfaceRegistration<CVRCompositor_027>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_003>
@@ -38275,6 +38391,8 @@ vrcompositor025
 vrcompositor025_FnTable
 vrcompositor026
 vrcompositor026_FnTable
+vrcompositor027
+vrcompositor027_FnTable
 vrcompositor_mailbox
 vrcompositor_notification
 vrcompositor_systemlayer
@@ -38594,6 +38712,7 @@ vtable for CVRCompositor_023
 vtable for CVRCompositor_024
 vtable for CVRCompositor_025
 vtable for CVRCompositor_026
+vtable for CVRCompositor_027
 vtable for CVRControlPanel_001
 vtable for CVRControlPanel_002
 vtable for CVRControlPanel_003
@@ -38962,6 +39081,7 @@ vtable for CompositorInterfaceRegistration<CVRCompositor_023>
 vtable for CompositorInterfaceRegistration<CVRCompositor_024>
 vtable for CompositorInterfaceRegistration<CVRCompositor_025>
 vtable for CompositorInterfaceRegistration<CVRCompositor_026>
+vtable for CompositorInterfaceRegistration<CVRCompositor_027>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_003>

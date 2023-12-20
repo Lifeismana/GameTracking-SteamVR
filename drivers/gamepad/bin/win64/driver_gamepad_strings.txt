@@ -1,12 +1,15 @@
 	!s99
  %41g
+ 6xs9
  A__^
  H3E H3E
 !hn7!
 ',=?k
 (D$ f
 (f*^[0
+(hC`Q
 (|$pL
+*<oT0
 +Xt@(
 +o'q)}
 ,W5y+
@@ -45,6 +48,7 @@
 .idata$4
 .idata$5
 .idata$6
+.mLf9mJ
 .pdata
 .rdata
 .rdata$T
@@ -97,7 +101,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231214203523Z0/
+231220010831Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -120,11 +124,11 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
+<&n0f!
 <0:08
 =rIQU
 >0<0:
 >Mp$d
-?0U~x
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -168,6 +172,7 @@ H95E}
 H95O~
 H9w`tFH
 HmdDriverFactory
+I@Ra8
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -203,7 +208,6 @@ MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 NPH9Q
-NXv_#o
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -252,7 +256,6 @@ UVWAVAWH
 UWAVH
 UnhandledExceptionFilter
 Unknown exception
-UuZ;O
 VCRUNTIME140.dll
 VWAVH
 VWAWH
@@ -261,7 +264,6 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
-XP`v/
 Y9"SD
 [K]taM?
 \$ UH
@@ -303,6 +305,7 @@ _initterm_e
 _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
+_|LLe
 `.rdata
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
@@ -312,6 +315,7 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
+ghM=r
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -319,7 +323,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
-l#+$;<
 l$8E3
 l2|X/gGe
 m0k0$
@@ -328,8 +331,8 @@ map/set<T> too long
 memcpy
 memmove
 memset
-mu!>>Z
 ntelD
+oBIo}}
 p WAVAWH
 string too long
 t$ AVH
@@ -342,6 +345,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+{U=-I
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

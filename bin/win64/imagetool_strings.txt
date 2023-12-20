@@ -1501,6 +1501,7 @@
  ZYXu
  ZYXu&H
  [%#I64x :
+ ](O!
  `U @
  a yl dybry gw
  a@AttachBlob
@@ -2987,7 +2988,6 @@ $wtpt
 ,0<6w/H
 ,1<5w
 ,3fZQ%
-,3tP	
 ,9,n,
 ,:<>wmH
 ,:njk
@@ -3019,7 +3019,6 @@ $wtpt
 -A-v-
 -B@u.
 -HP  
--U<@*
 -Y %.20g +X %.20g
 -a.:/
 -abcdefghijklmnopqrstuvwxyz
@@ -3720,7 +3719,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231214203655Z0/
+231220011018Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3845,7 +3844,6 @@ $wtpt
 3x4+1+1:0,-,- 1,1,1 1,1,1 -,-,0
 3x4+1+2:-,-,0 1,1,1 1,1,1 0,-,-
 3x4+1+2:0,-,- 1,1,1 1,1,1 -,-,0
-3xH~x(
 4 +!(K
 4#SDp
 4'D"'
@@ -5083,6 +5081,7 @@ AUAVAW
 AUAVAWH
 AUAVH
 AUTOTRACE
+AUt5r
 AVAWH
 AVS X image
 AX9A(~
@@ -14228,6 +14227,7 @@ YShear/Image
 YShearImage
 YT$@A
 YT$xA
+YUi$zO=
 YW@D9
 Y\$(E
 Y\o`pr
@@ -15618,6 +15618,7 @@ d:HrxV
 d? je?a lub o?m skrzy? fig.
 dB/dt
 dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
+dOT|*
 d_7y3B
 dagger
 daggerdbl
@@ -15800,6 +15801,7 @@ e, na st?pe sa ?ate? u?
 e-1.0*
 e0A_A^A]A\]
 eC}gc}m
+eFgb+
 ePfP4=0*&#.$&+**)+,'+/''-)$"W\H~
 eXC	\
 eXXXX
@@ -17173,7 +17175,6 @@ h}	!l
 i&Ma.
 i0+i 
 i1!i6Ai;ai@
-i7mL0
 i@E9i
 iCCP: invalid keyword
 iMW=}V
@@ -20797,7 +20798,6 @@ y H+y
 y-resolution
 y8fff
 y8udL
-yJfaN
 yWeWCB875+/1*.1+-0,-0//0.02./2./-24*,gcb
 y\{ZN^G=:32'(/')-(+0(,2(/1+00*0+'
 ya spilte jo whist og quickstep i min taxi.

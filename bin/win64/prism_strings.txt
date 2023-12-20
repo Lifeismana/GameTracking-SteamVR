@@ -22,7 +22,7 @@
 		{	// etc
 		} } },
 	!s99
-	t{Y0
+	e2iZV
 	{ 0x%x, 0x%x, %d, %d, {
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
@@ -58,7 +58,6 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-#Qud6
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -355,7 +354,7 @@ $9E0u
 ********** Blue ( nLoopCount++ > 1000 )!
 ********** Green ( nLoopCount++ > 1000 )!
 ********** Red ( nLoopCount++ > 1000 )!
-+B*>:
+*A#ocufz@
 +Xt@(
 +o'q)}
 , last executing in 
@@ -533,13 +532,12 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231214203432Z0/
+231220010739Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2iuZ]g
 311109235959Z0b1
 33s?+
 341013235959Z0H1
@@ -548,8 +546,6 @@ $9E0u
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5%EUW
-51~s l
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -650,6 +646,7 @@ $9E0u
 @USVWATAVAWH
 @USVWATAVH
 @USVWATH
+@USVWAVH
 @USVWH
 @USWATAUH
 @USWH
@@ -697,6 +694,7 @@ A^A]A\[]
 A^A]A\^]
 A^A]A\_^[]
 A^A]]
+A^_^[]
 A_A\_^[
 A_A\_^[]
 A_A]A\][
@@ -724,7 +722,6 @@ A_A^^
 A_A^^]
 A_A^_
 A_A^_][
-A_A^_^]
 A__[]
 A__^[]
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
@@ -981,7 +978,6 @@ D$xL;
 D3D11CreateDevice
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
-D8<0u
 D9+u/
 D9>u:H
 D9@ s
@@ -1035,6 +1031,7 @@ Failed creating mutex %s (GLE: %u)
 Failed mapping view for %s; Error code: 0x%08x
 Failed to compute distortion parameters!
 Failed to connect to pipe %s because %s
+Failed to connect to pipe %s because %s... retrying
 Failed to import client event handle from pipe %s after connecting
 Failed to import server event handle from pipe %s after connecting
 Failed to open event %s because access was denied
@@ -1137,7 +1134,6 @@ H;{XH
 HA^A]_[
 HMD Image %d
 HMD using present mode: %d
-HSiOj
 HTC Corporation VIVE
 HallucinateFrame
 Hallucinated-%s%d
@@ -1422,13 +1418,14 @@ Prism-Main
 Prism-PrepareInput
 Prism-UpdatePanelMask
 Pz}b!
+Qi+P9
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS>
+RSDSL
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1448,7 +1445,6 @@ Reproject Reference Image
 Reproject Vertex Buffer-%s
 ResetEvent
 Right Eye
-RnNo@
 RoGetActivationFactory
 RoInitialize
 RoOriginateLanguageException
@@ -1673,7 +1669,6 @@ Yl$4E
 \$pI;\$xtIH
 \$xHk
 \$xMi
-\86B+
 \\.\pipe\
 \mfpmp.exe
 ]J<0"0i3
@@ -1833,7 +1828,7 @@ d$XE3
 d$`H=
 d$`L;
 d3d11.dll
-dA2mfwf
+d_/hz
 data->IsInitialized()
 data.hIPC.IsValid()
 deque<T> too long
@@ -1885,7 +1880,6 @@ isalpha
 isdigit
 it != m_importedClients.end()
 jj@0HK4
-k*B1{x=_
 k0i0$
 l$ E3
 l$ H;
@@ -2035,6 +2029,7 @@ r,fff
 r/w:I
 renderdoc.dll
 result == ALVR_OK
+rpH4:
 s AVH
 s_nInstanceCount > 0
 server
@@ -2575,6 +2570,7 @@ www.digicert.com1$0"
 xA_A^A]A\_^[]
 yxxxxxxxH
 yxxxxxxxI+
+{/|>MA
 {pH;{xw?
 {un'%
 |$ ATAUAVAWH
@@ -2610,7 +2606,6 @@ yxxxxxxxI+
 }LuHO
 }`H+}XH
 }wH9S
-~m>P%-
 ~qj#k"
 ~t&LN
 ~xM+~pI

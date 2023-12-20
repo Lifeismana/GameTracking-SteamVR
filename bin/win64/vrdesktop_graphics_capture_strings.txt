@@ -4,7 +4,6 @@
 																																												
 	!s99
  %41g
- :o$RN
  A_A^A\
  A_A^A]A\_
  A_A^]
@@ -26,8 +25,8 @@
 (A_A^^[
 (A_A^_]
 (D$ f
+(^kou@nP
 (f*^[0
-(mK|;
 (t$ 2
 (t$ H
 (t$@H
@@ -122,6 +121,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.ZkT 
 .data
 .data$r
 .edata
@@ -183,7 +183,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231214204151Z0/
+231220011526Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -234,6 +234,7 @@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
+?K,[L
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
@@ -541,6 +542,7 @@ HMD D3D11CreateDevice failed.
 HMD IDXGIAdapter (%s)
 HMD context (%s)
 HMD device (%s)
+HVd|h
 HandleInput
 Handling keyboard char input
 Handling lock mouse
@@ -559,7 +561,6 @@ Handling scroll smooth
 Handling unlock mouse
 HcFdH
 HeapFree
-I"Q*#
 I9Bhs
 I;4$H
 I;4$L
@@ -626,6 +627,7 @@ L$8D;
 L$@H;
 L$hE3
 L$pE3
+L0	vg
 L9)t>H
 L9l$H
 L9|$p
@@ -661,6 +663,7 @@ PA^_^
 PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
+PF]a+
 Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -668,7 +671,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSHy
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -797,6 +799,7 @@ WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
 Y9"SD
+Y`K_~
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -910,7 +913,7 @@ deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
-e&4H*
+e	Cu#
 el_el
 en_us
 enableWindowView
@@ -987,7 +990,6 @@ message_id
 no_no
 norwegian
 ntelD
-oH7*m]
 ole32.dll
 openvr_api.dll
 overlay_frame_times
@@ -1055,10 +1057,8 @@ ukranian
 update_debug_info
 update_window_list
 user32.dll
-u~RXPP
 v=Y]Bv
 vE;E`M
-vOgfr
 vector<T> too long
 vi_vi
 vietnamiese

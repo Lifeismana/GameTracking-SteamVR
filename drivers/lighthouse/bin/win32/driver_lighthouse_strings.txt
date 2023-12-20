@@ -253,7 +253,6 @@
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
 "MutableRawRepeatedField"
-"_7kf
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
@@ -367,7 +366,6 @@ $tI<unknown>
 ',=?k
 '.5<=6/7>????????????????
 '[', '{', or a literal
-'jw=n
 'uri' is missing from non binary glTF file buffer.
 (0,0004080<0@0D0H0L0P0T0X0\0
 (090F0{0
@@ -397,7 +395,6 @@ $tI<unknown>
 *+N@3
 *+N@C
 *0;0S0
-+)7BUrwA
 +090M0U1i1
 +0N0c0
 +F +F
@@ -432,6 +429,7 @@ $tI<unknown>
 ----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
 ----- RELATIONSHIP bases %08X <-> %08x distance %0.2fm, angle %0.2f deg -----
 ----- SECONDARY base %08X distance %0.2fm%*s-----
+--e[{+
 -070@0I0
 -1e+9999
 -Infinity
@@ -714,6 +712,7 @@ $tI<unknown>
 .tls$ZZZ
 .vrstats
 .xdata$x
+/ KsV
 /C,v$
 /Fhvnj
 /bin/mail
@@ -1193,7 +1192,7 @@ $tI<unknown>
 220323000000Z
 220801000000Z
 230714000000Z
-231214202912Z0/
+231220010754Z0/
 241009235959Z0a1
 242>2
 242D2H2X2\2`2d2l2
@@ -1995,7 +1994,6 @@ $tI<unknown>
 7G8`8i8r8{8
 7H8v8
 7I8&949
-7K*"9
 7L8V8
 7M7n7
 7P8_8
@@ -3675,6 +3673,7 @@ Device JSON: obeying existing parallel_render_cameras enabled:%d (%s)
 DeviceIoControl
 DeviceMessageWindow_t::RunFrame
 Devices with no on-device calibration are not supported in the Lighthouse driver.
+DiC]9
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 20230
@@ -4371,6 +4370,7 @@ Lost default audio recording %s
 L~Zs@
 M 9u$tV
 M$SVW
+M-9@X-M
 MAX10
 MB(iVR
 MFCreateMediaType
@@ -4484,7 +4484,6 @@ OLocalizationManager
 OPAQUE
 OTGT timed out
 OZw3(?
-O_4xP"
 Object
 Old Normal: %f %f %f 
 OnDefaultDeviceChanged: flow = %s, role = %s, device = %s
@@ -4517,6 +4516,7 @@ Ot+Op
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
+O{4j|u
 P _^[]
 P$_^[
 P$_^]
@@ -5803,7 +5803,6 @@ eMultimedia
 eNUM_EYES
 eRender
 echo %127s
-ei{ 	9
 el_el
 emissiveFactor
 emissiveTexture
@@ -5998,7 +5997,6 @@ in Json::Value::removeMember(): requires objectValue
 in Json::Value::resize(): requires arrayValue
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
-inW'D 
 incompatible version
 incorrect data check
 incorrect header check
@@ -6188,10 +6186,12 @@ lighthousedb.json
 lighthousedriver:
 lights
 list<T> too long
+lm2(&*
 localeconv
 location
 low_mm
 lstrcmpW
+l~ASGy
 m0k0$
 mZe}f
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -6305,6 +6305,7 @@ output
 output buffer limit
 output_path
 output_type
+p4(mB
 pNewResource
 pNewResource->Load( absFilePath )
 pO Df
@@ -6737,7 +6738,6 @@ vr_tracker_vive_1_0
 vref_ok
 vrwebhelper
 w QVR
-w*zm'hu
 w+OQvr
 w,_^[
 w0SPV
@@ -6787,6 +6787,7 @@ zh_cn
 zh_tw
 zlib corrupt
 znear
+zwD\,
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,1,'NV12'" ] }
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,2,'NV12'" ] }
 {"driver":"etronlib", "usbVID":1234, "usbPID":1234, "streams": [ "2,1,'YUYV',16", "4,1,'MJPG',32" ] }

@@ -11,7 +11,6 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
-%ng[	
 ',=?k
 '.5<=6/7>????????????????
 (Enumerating)
@@ -173,7 +172,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231214202820Z0/
+231220010651Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -230,6 +229,7 @@ $9^ t
 5]5a5
 5b6f6
 5d6h6l6p6t607
+5h)(k
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
@@ -258,7 +258,6 @@ $9^ t
 70503
 727B7L7V7_7r7~7
 72969
-7IKn2/
 7O7W7
 7c8j869:9G9K9@<D<
 7d85<Z>d>h>
@@ -411,7 +410,6 @@ EventUnregister
 EventWrite
 EventWriteString
 F(j4f
-F6%1Y
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -419,7 +417,6 @@ Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
 F|t	_^3
-GU^]<
 GetCameraHALInterface
 GetCurrentProcess
 GetCurrentProcessId
@@ -471,8 +468,6 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-Jr&)\u
-Jrxz@58
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -503,7 +498,6 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
-R:7n-
 RPCRT4.dll
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
@@ -840,25 +834,22 @@ unknown marker
 unsupported bit depth
 unsupported data layout
 unsupported format
-u|ik55}
 v#QPh8
 v=Y]Bv
 vi_vi
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
-w;ow1y
 wrong channel count
 wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-x	GH(
+x$R_ l
 zh_cn
 zh_tw
 zlib corrupt
 {un'%
-{~y6R*
 |Lu?c
 }LuHO
 ~qj#k"

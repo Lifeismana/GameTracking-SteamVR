@@ -460,7 +460,7 @@ $iMBm
 220801000000Z
 223E3j3
 230714000000Z
-231214202805Z0/
+231220010634Z0/
 233j3
 241009235959Z0a1
 252J2Q2W2i2s2
@@ -631,7 +631,6 @@ $iMBm
 5I6C8
 5M5}5
 5V6x6
-5bq@_
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 5r6~6
@@ -749,7 +748,6 @@ $iMBm
 8(848<8T8`8
 8(9,9094989<9\9
 8(9B9[9v9
-8)5Bt2
 8*8/858<8S8[8f8
 8*9A9`9
 8*9G9o9
@@ -1148,6 +1146,7 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
+Bhy,"
 BjOhh
 C WVP
 C$F;w
@@ -1337,6 +1336,7 @@ Gh;G<
 Gl;Gx
 GrvD)
 GxVPR
+H!oss
 H-^Eu
 H0P0X0\0`0d0h0l0p0t0|0
 HH:mm:ss
@@ -1362,6 +1362,7 @@ HP;HL
 HPQVR
 HPhha
 HPjPW
+H^cj.
 H`$?h|
 Hc9;q
 HeapAlloc
@@ -1408,7 +1409,6 @@ J>@G_
 JBIh	i
 JX<$N
 January
-K*{HE
 K3tyI
 K74LN
 K<<H!
@@ -1500,7 +1500,6 @@ QueryDepthSList
 QueryPerformanceCounter
 R(1)Y9
 RPRQh
-RSDSU
 RWQSV
 R\hvv
 RaiseException
@@ -1570,7 +1569,6 @@ Syntax error: value, object or array expected.
 SystemTimeToTzSpecificLocalTime
 TargetOversubscriptionFactor
 TerminateProcess
-Te{e-
 The current HMD requires an additional driver that is not installed (214)
 The requested interface is incompatible with the compositor and the compositor is running (122)
 This interface is not available to utility applications (123)
@@ -1922,7 +1920,6 @@ Y__^[
 ^<V7w
 ^@[uC
 ^f93u
-^gS};8
 _C5D#
 _WVj@
 _^[h8
@@ -2015,7 +2012,6 @@ bad message
 broken pipe
 c%;>7
 c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
-c>,5R
 cD5U3#eF7v\NV5%J%
 cRpp`
 ceLfdfK3
@@ -2127,7 +2123,6 @@ m0k0$
 m1WY$
 map/set<T> too long
 message size
-n4IbMD_o#
 n;w0tc
 nan(ind)
 nan(snan)
@@ -2258,7 +2253,6 @@ v!j"X_^[
 v2!L.2
 v<'*6
 v=Y]Bv
-vD(Dh$
 value too large
 vector<T> too long
 version
@@ -2266,6 +2260,7 @@ vj`7%X,
 vrclient Shared Lib Not Found (102)
 vrclient.dll
 vrserver internal error (124)
+w/9*/%
 wIPS3
 wXJR*
 wrong protocol type
@@ -2282,6 +2277,8 @@ y1~?|"
 y4~4;8
 y^QZ8(O*
 ygCH2
+z<DD2
+zpCv2
 zwom}
 {S@d6
 {XIZ/

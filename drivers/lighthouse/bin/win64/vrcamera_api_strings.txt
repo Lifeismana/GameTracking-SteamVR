@@ -33,7 +33,7 @@
  Width: 
  s2E3
  sIE3
-!+S6S
+!2\rX)!
 !T$(H!T$ 
 !hn7!
 $+xvA
@@ -45,7 +45,6 @@ $< t6<$t,<+t"<vt
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-&8Ubi
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
@@ -77,6 +76,7 @@ $< t6<$t,<+t"<vt
 )D$PH
 )D$PM
 )D$`I
+)GIDh
 )t$ A
 )t$ H
 )t$ I
@@ -380,7 +380,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231214203406Z0/
+231220010708Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -439,6 +439,7 @@ $< t6<$t,<+t"<vt
 :O	t	I
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
 :\uDL
+;.I,A
 ;A$vTH
 ;B$vUH
 ;Ct~EH
@@ -879,6 +880,7 @@ Exception connecting to camera:
 Exception constructing Camera: 
 ExecuteUmsThread
 Exposure:			
+F(42>=$
 F(LcF I
 Failed to AddFilter.
 Failed to AddToRot: 
@@ -1117,15 +1119,15 @@ PA_A^A]A\_^[
 PA_A^A]A\_^]
 PA__^[]
 PAq=?Mp#
+PKD%n
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-Q"}9)
+Q4yJ`
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSt
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1459,7 +1461,7 @@ is a directory
 islower
 isspace
 isupper
-jJ%LW
+j&q}U
 jj@0HK4
 jyvids
 k0i0$
@@ -1683,9 +1685,9 @@ x AVAWL
 x AVE3
 x AVH
 x UAVAWH
-x]*l-
 xdigit
 yH;YXtl
+yLsZP]
 { ATAVAWH
 { AVH
 { tjL

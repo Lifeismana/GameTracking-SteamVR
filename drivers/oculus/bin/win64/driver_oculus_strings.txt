@@ -100,6 +100,7 @@ $w!Hc
 &D9c0t
 &D9k0t
 &D9{0t
+&t@%B
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -205,6 +206,7 @@ $w!Hc
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *uXI;
++JKam
 +Xt@(
 +o'q)}
 , binary size = 
@@ -448,7 +450,6 @@ $w!Hc
 0A_A^_^]
 0A__^
 0D9c0t'H
-0bk//+
 0w0c1
 0}0i1
 1/2/4/8/16-bit only
@@ -461,14 +462,14 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231214203632Z0/
+231220010953Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2Nfds
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2{|@+j
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -669,9 +670,9 @@ $w!Hc
 @UVATAUAVH
 @UVATH
 @UVAUH
+@UVAWH
 @UWAVAWH
 @UWAVH
-@VAVAWH
 @VAVH
 @VWAVH
 @VWAWH
@@ -733,7 +734,6 @@ A_A^A]_]
 A_A^A]_^[]
 A_A^A]_^][
 A_A^]
-A_A^^
 A_A^_
 A_A^_^[]
 A_A^_^]
@@ -923,7 +923,6 @@ DuplicateHandle
 E H9Q
 E0H+E(H
 E;u`|
-EB`5I
 ERROR: Failed to dup handle!
 E`HcH
 EgH9Q@t
@@ -938,6 +937,8 @@ EventWrite
 EventWriteString
 Exceeded stackLimit in readValue().
 ExpandEnvironmentStringsA
+F"uO'
+F97~yr"
 FORMAT=32-bit_rle_rgbe
 FS callback[s] not set
 Failed CreateTexture2D with 0x%X
@@ -1187,7 +1188,7 @@ L$XM+
 L$\E3
 L$`E3
 L$`fD
-L$pE2
+L$p@2
 L$pE3
 L$pHcQ
 L9%e	
@@ -1229,7 +1230,6 @@ N0H9Q
 NORMAL
 NPH9Q
 Neither required `bufferView` nor `uri` defined for image[
-Ng{e(@T
 No LoadImageData callback specified.
 No valid guardian bounds. Creating standing chaperone
 NormalTextureInfo
@@ -1320,6 +1320,7 @@ SVWAVAWH
 SVWAVH
 SWAUAVH
 SWAUAWH
+S_>jAdm
 SearchPathW
 Session created!
 Set thread %p priority to: %d
@@ -1638,6 +1639,7 @@ array
 aspectRatio
 assert json failed
 asset
+atD'o
 attributes
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 bad AC huff
@@ -1700,7 +1702,6 @@ bufferView
 bufferViews
 buffers
 bulgarian
-bxS@<
 byteLength
 byteOffset
 byteStride
@@ -1787,6 +1788,7 @@ fclose
 fflush
 fgetc
 fgetpos
+fha&m;iH
 fi_fi
 finnish
 first not IHDR
@@ -1897,6 +1899,7 @@ inverseBindMatrices
 isalnum
 it_it
 italian
+ivFDp
 ix`fA
 ja_jp
 japanese
@@ -2176,7 +2179,6 @@ russian
 s fff
 sampler
 samplers
-sc:'W
 scale
 scene
 scenes
@@ -2560,8 +2562,8 @@ znear
 |LL\t
 |Lu?c
 }LuHO
-~%xfi0
 ~+fff
+~1a|y^
 ~3LcD$(L
 ~6HcD$ I
 ~qj#k"
