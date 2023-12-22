@@ -37,6 +37,7 @@ $_^[]
 %j+hD
 %m / %d / %y
 &1V6|:^<
+&KW@g
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (f*^[0
@@ -46,7 +47,6 @@ $_^[]
 +A$tp
 +AHVj(
 +OL+WL
-+PH0X
 +Xt@(
 +o'q)}
 +p$+p
@@ -312,6 +312,7 @@ $_^[]
 .tls$
 .tls$ZZZ
 .xdata$x
+/} fy;f
 0 0$0<0L0P0`0d0h0l0p0x0
 0 0(00080@0H0P0X0`0h0p0x0
 0 00040D0H0L0T0l0|0
@@ -355,6 +356,7 @@ $_^[]
 0K0[0
 0K0y0
 0U1|1
+0Vs_kU
 0f0u0
 0w0c1
 0}0i1
@@ -432,7 +434,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231220010648Z0/
+231221215952Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -750,7 +752,6 @@ $_^[]
 8H9L9P9T9X9
 8J8j8|8
 8N8Z8`8
-8PDen
 8Q8}8
 8Z8w8
 8[9w9
@@ -792,6 +793,7 @@ $_^[]
 98:\:}:
 9<9\9d9l9t9|9
 9<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+9=CK)
 9>;x;
 9@9X9
 9B:_:p:
@@ -1022,6 +1024,7 @@ $_^[]
 =F>U>
 =G=g=
 =T=t=
+=W&{VF.G
 =g>q>
 =rIQU
 =~>A?
@@ -1121,7 +1124,6 @@ $_^[]
 ?AddConfigurationChangeHandler@CVRCameraWindows@vrcamera@@UAEXV?$function@$$A6AXXZ@std@@@Z
 ?AddFrameHandler@CVRCameraWindows@vrcamera@@UAEXV?$function@$$A6AXV?$shared_ptr@VIVRCameraFrame@vrcamera@@@std@@@Z@std@@@Z
 ?ApplyConfiguration@CVRCameraWindows@vrcamera@@UAEXXZ
-?B	K)
 ?BeginStreamingDepth@CVRCameraWindows@vrcamera@@UAE?AW4ECameraResult@2@XZ
 ?BeginStreamingVideo@CVRCameraWindows@vrcamera@@UAE?AW4ECameraResult@2@XZ
 ?CalculateColorFrameSize@IVRCamera@vrcamera@@UAEKXZ
@@ -1492,6 +1494,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
+RSDSU!
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1594,7 +1597,6 @@ YYPh`v
 YYPhxv
 YY^_]
 Y__^[
-Y`_@G
 [K]taM?
 [SPj"
 [tc9]
@@ -1863,6 +1865,7 @@ tP9xp~K
 tWVWj>
 tX97uTj
 tX97uTj4
+tZPQ%
 t\QSV
 t]VWj>
 t]WPR
@@ -1901,6 +1904,7 @@ www.digicert.com1!0
 www.digicert.com1$0"
 x(kP$4
 x,G;}
+x/|Pq
 x0c1l1
 x\SVW
 xdigit

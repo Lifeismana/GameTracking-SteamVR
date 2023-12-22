@@ -3,6 +3,7 @@
 !hn7!
 ',=?k
 (f*^[0
+*x|U[
 +Xt@(
 +o'q)}
 ,W5y+
@@ -85,14 +86,16 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231220010756Z0/
+231221220054Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2]x|G
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2sk4PU	'\
 3.3T3k3
 311109235959Z0b1
 341013235959Z0H1
@@ -159,12 +162,14 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E^r81
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
 H-^Eu
 HmdDriverFactory
+I"*_.
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -196,7 +201,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSQ@{e
+RSDS4vB
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -211,6 +216,7 @@ Valve Corp.1
 Washington1
 Y9"SD
 Y__^[
+Z R@0B
 [K]taM?
 ]J<0"0i3
 _CxxThrowException
@@ -260,12 +266,12 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-g	o9k
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i'Buj
 jj@0HK4
 k0i0$
 l2|X/gGe
@@ -293,5 +299,7 @@ www.digicert.com1$0"
 {un'%
 |Lu?c
 }LuHO
+}o- c
+}z@}KR(9p
 ~qj#k"
 ~t&LN

@@ -17,6 +17,7 @@
  !"#$%6666666666666666666&'()*+,-666666666666666666666666./012345
  %41g
  QP9F
+ R84G
  aborted.
  ack#:
  but should be in STATE_START. This state is not valid.
@@ -57,6 +58,7 @@
 !hn7!
 "0)0C0
 "j h4_
+$0[Q>
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
 $PVh\
@@ -77,10 +79,11 @@ $Vh&*
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
-(Y.89N
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
+*\dF|
++ hw^
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -88,7 +91,6 @@ $Vh&*
 , defaulting to flow_control::none!
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
-,#?3O
 ,W5y+
 -1e+9999
 -Infinity
@@ -617,7 +619,6 @@ $Vh&*
 0O0~0
 0S1m1
 0T1l1u1
-0TRH_+(
 0^0q0x0
 0f3x3
 0w0c1
@@ -711,7 +712,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231220010655Z0/
+231221215959Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1091,6 +1092,7 @@ $Vh&*
 9^hve
 9a9t9
 9g:v:
+9j|rXmoFt$
 9s0t2
 9x$tUj
 9x9*:O:
@@ -1539,7 +1541,6 @@ Bellevue1
 BjOh`j
 Bluetooth_Initialize
 Bootloader Mode
-Bx.	S@
 C	hHI
 C(PWj
 C:j f
@@ -1745,6 +1746,7 @@ GetSystemTimeAsFileTime
 GetTickCount64
 Gt_^[
 H-^Eu
+H10d7
 HCI_COMMAND_PACKET
 HCI_EVENT_PACKET
 HTC BS
@@ -1790,7 +1792,6 @@ LocalFree
 Looking for external adpater.
 Looking for internal adpater.
 MB(iVR
-MPG9q
 MSVCP140.dll
 MTU exchange request reply failed. (nrf_error: %s)
 MTU response received. New ATT_MTU is %d
@@ -1868,6 +1869,7 @@ NRF_ERROR_SOFTDEVICE_NOT_ENABLED
 NRF_ERROR_SVC_HANDLER_MISSING
 NRF_ERROR_TIMEOUT
 NRF_SUCCESS
+Nmq,tjW
 No response from device. Tried to send packet 
 No response to data sent to device.
 Nonce:    %d
@@ -1902,9 +1904,9 @@ PortName
 PostQueuedCompletionStatus
 Power Control
 Progress: %d%% (%d/%d)
+PtB.`
 Pz}b!
 Q0;Q(t#
-QITq%
 QPh@	
 Qkkbal
 QueryPerformanceCounter
@@ -2093,6 +2095,7 @@ WriteFile
 XX.XX.XXXXXXX
 Y9"SD
 Y__^[
+Yhaf'l
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -2120,6 +2123,7 @@ _Cnd_signal
 _Cnd_timedwait
 _Cnd_wait
 _CxxThrowException
+_J`Ne
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -2295,9 +2299,7 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
-qe~boR
 realloc
-rfq[4
 s?=2N
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
@@ -2483,7 +2485,6 @@ www.digicert.com1!0
 www.digicert.com1$0"
 x5t7j
 xdigit
-x~{"U
 y4_^[
 {L?uI
 {un'%

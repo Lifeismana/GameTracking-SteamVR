@@ -25,7 +25,6 @@
 (A_A^^[
 (A_A^_]
 (D$ f
-(^kou@nP
 (f*^[0
 (t$ 2
 (t$ H
@@ -121,7 +120,6 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.ZkT 
 .data
 .data$r
 .edata
@@ -183,7 +181,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231220011526Z0/
+231221220830Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -234,7 +232,6 @@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?K,[L
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
@@ -542,7 +539,6 @@ HMD D3D11CreateDevice failed.
 HMD IDXGIAdapter (%s)
 HMD context (%s)
 HMD device (%s)
-HVd|h
 HandleInput
 Handling keyboard char input
 Handling lock mouse
@@ -627,7 +623,6 @@ L$8D;
 L$@H;
 L$hE3
 L$pE3
-L0	vg
 L9)t>H
 L9l$H
 L9|$p
@@ -663,7 +658,6 @@ PA^_^
 PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
-PF]a+
 Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -692,6 +686,7 @@ SVWATAUAVAWH
 SVWAVAWH
 SVWAVH
 SWAWH
+S`v~?KN2
 SendInput
 SendInput failed: %d events inserted, error code = %s
 Set thread %p priority to: %d
@@ -799,7 +794,6 @@ WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
 Y9"SD
-Y`K_~
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -889,6 +883,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
+bMA_+
 bad allocation
 bad array new length
 bad conversion
@@ -913,7 +908,6 @@ deque<T> too long
 desktopview
 dwmapi.dll
 dxgi.dll
-e	Cu#
 el_el
 en_us
 enableWindowView

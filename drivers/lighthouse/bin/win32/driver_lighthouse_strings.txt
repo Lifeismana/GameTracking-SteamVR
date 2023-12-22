@@ -290,6 +290,7 @@ $tI<unknown>
 %3333
 %UUUU
 %Y-%m-%d
+%[&o&T%N
 %d.%d.%d
 %hu,%hu,'%4c',%hu
 %s %c: 
@@ -395,9 +396,11 @@ $tI<unknown>
 *+N@3
 *+N@C
 *0;0S0
+*c~wB
 +090M0U1i1
 +0N0c0
 +F +F
++L\\m
 +Xt@(
 +laser0
 +laser1
@@ -429,7 +432,6 @@ $tI<unknown>
 ----- DROP SECONDARY base %08X distance %0.2fm last seen %0.1fs ago
 ----- RELATIONSHIP bases %08X <-> %08x distance %0.2fm, angle %0.2f deg -----
 ----- SECONDARY base %08X distance %0.2fm%*s-----
---e[{+
 -070@0I0
 -1e+9999
 -Infinity
@@ -712,7 +714,6 @@ $tI<unknown>
 .tls$ZZZ
 .vrstats
 .xdata$x
-/ KsV
 /C,v$
 /Fhvnj
 /bin/mail
@@ -1192,7 +1193,7 @@ $tI<unknown>
 220323000000Z
 220801000000Z
 230714000000Z
-231220010754Z0/
+231221220052Z0/
 241009235959Z0a1
 242>2
 242D2H2X2\2`2d2l2
@@ -2068,6 +2069,7 @@ $tI<unknown>
 8)858S8]8i8
 8)888L8_8p8
 8+84888H8L8P8T8X8\8`8d8h8l8p8t8x8'9C;|;
+8+[r[
 8,8084888@8X8h8l8|8
 8,888@8X8`8h8t8
 8,8<8@8P8T8d8h8x8|8
@@ -2944,6 +2946,7 @@ $tI<unknown>
 =<>B>H>`>m>z>
 ==>G>M>b>v>
 =>>D>[>o>
+=>i{Z
 =?=X=
 =?=i=
 =?>l>
@@ -3673,7 +3676,6 @@ Device JSON: obeying existing parallel_render_cameras enabled:%d (%s)
 DeviceIoControl
 DeviceMessageWindow_t::RunFrame
 Devices with no on-device calibration are not supported in the Lighthouse driver.
-DiC]9
 DigiCert Assured ID Root CA0
 DigiCert Inc1
 DigiCert Timestamp 20230
@@ -4370,7 +4372,6 @@ Lost default audio recording %s
 L~Zs@
 M 9u$tV
 M$SVW
-M-9@X-M
 MAX10
 MB(iVR
 MFCreateMediaType
@@ -4516,7 +4517,6 @@ Ot+Op
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
-O{4j|u
 P _^[]
 P$_^[
 P$_^]
@@ -6186,12 +6186,10 @@ lighthousedb.json
 lighthousedriver:
 lights
 list<T> too long
-lm2(&*
 localeconv
 location
 low_mm
 lstrcmpW
-l~ASGy
 m0k0$
 mZe}f
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -6305,7 +6303,6 @@ output
 output buffer limit
 output_path
 output_type
-p4(mB
 pNewResource
 pNewResource->Load( absFilePath )
 pO Df
@@ -6787,7 +6784,6 @@ zh_cn
 zh_tw
 zlib corrupt
 znear
-zwD\,
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,1,'NV12'" ] }
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,2,'NV12'" ] }
 {"driver":"etronlib", "usbVID":1234, "usbPID":1234, "streams": [ "2,1,'YUYV',16", "4,1,'MJPG',32" ] }

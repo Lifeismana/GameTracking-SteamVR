@@ -66,6 +66,7 @@
  times.
  version-number:
 !hn7!
+"Kahb
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -607,7 +608,6 @@
 000084211212EFDE1523785FEABCD124
 0000CB0000001000800000805F9B34FB
 0000CB0100001000800000805F9B34FB
-0=AuZT
 0A^^[
 0A^^]
 0A^_]
@@ -633,11 +633,10 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231220010719Z0/
+231221220020Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2Nl9%
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -1174,6 +1173,7 @@ DuplicateHandle
 E M;G
 E9e ~7I
 E@HcH
+EEN<{$p
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1238,6 +1238,7 @@ Flow control:
 FormatMessageA
 Found target %s (%4.4X:%4.4X Serial: %s)
 Found: %s, size: %d
+Fuy"{7'
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
 G<f9F
 G>f9F
@@ -1486,7 +1487,6 @@ Notification
 OLEAUT32.dll
 OXL9OPt
 Out of thread local storage!
-P$n$NW
 PA^A]_^]
 PA^_]
 PA^_^
@@ -1518,7 +1518,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RP@d7w|
+RSDS-,
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1738,7 +1738,6 @@ XA^_][H
 XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
-Y$UqS
 Y9"SD
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -1753,6 +1752,7 @@ Zipfile is corrupt or not a zipfile
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
+[}U4C
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -1776,6 +1776,7 @@ Zipfile is corrupt or not a zipfile
 \$pI;
 \Device Parameters
 \u=H;
+]+1>I
 ]J<0"0i3
 ]gfff
 ^[0-9]+$
@@ -1844,7 +1845,6 @@ _strupr_s
 `A_A^A\_^
 `A_A^_^]
 a7hIw
-a@+eOi
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -1899,7 +1899,6 @@ gfffffffI
 gfffffffM
 graph
 h AVH
-h$kg1
 h5_decode error, code: 0x
 h5_transport is in state 
 h5_transport received ack packet in state 

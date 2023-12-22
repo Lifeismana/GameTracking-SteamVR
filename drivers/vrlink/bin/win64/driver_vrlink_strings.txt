@@ -559,7 +559,6 @@ $w!Hc
 -1e+9999
 -9k0t&H
 -9{0t%H
--?r]I
 -D9c0t%H
 -H8T8
 -H8T9
@@ -1054,7 +1053,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231220011004Z0/
+231221220304Z0/
 2333333
 241009235959Z0a1
 2D$x2
@@ -1157,6 +1156,7 @@ $w!Hc
 9p:T;x<
 9rK9J
 9t$4vb
+9wb_U
 9|$0ub
 9|$<u
 9|$@u
@@ -1712,6 +1712,7 @@ B0u6H
 B7=fo
 B8H9B(
 BMP RLE
+B]'y*,
 Bad escape sequence in string
 Bad link event: d=%0.01f ms %0.01f mbit/s -> %0.01f mbit/s, ping %0.01f ms, holdoff %d, auto %d
 Bad unicode escape sequence in string: four digits expected.
@@ -2246,6 +2247,7 @@ EventWriteStringThread
 EventWriteStringThread: Could not map view of file (%d).
 EventWriteStringThread: Could not open file mapping object (%d).
 EventWriteStringThread: shared memory mapped %p
+EwEuoJ
 Exba~H
 Exba~I
 Exceeded stackLimit in readValue().
@@ -3417,7 +3419,6 @@ PA_A^]
 PA_A^_
 PA_A^_^]
 PAq=?Mp#
-PCGoption requires an argument -- %c
 PPxD<<%
 PRECODE
 Parse error: 
@@ -3831,7 +3832,6 @@ THROTTLE EVENT: %d
 TRR: %d
 TX Fail:%d
 TX Failure Streak Hit %d; Aborting and reconnecting.
-TZG&29
 T[$:.6
 TdhEnumerateManifestProviderEvents
 Temporary AMF encoder Init() succeeded for 10-bit
@@ -4226,6 +4226,7 @@ ZL$Xf
 \$pfE
 \$xH;
 \$xM1
+\0n#{PN
 \h!T[
 \mfpmp.exe
 \u=H;

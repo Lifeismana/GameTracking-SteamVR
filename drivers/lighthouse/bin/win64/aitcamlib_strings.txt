@@ -28,6 +28,7 @@
 %,3:;4-&
 %9k0t
 %9{0t
+%eCJ)
 &9k0t
 &D9c0t
 &D9k0t
@@ -170,7 +171,6 @@
 0D9c0t'H
 0w0c1
 0}0i1
-1	>=v/d
 1/2/4/8/16-bit only
 130801120000Z
 210429000000Z
@@ -178,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231220010715Z0/
+231221220016Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -474,7 +474,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSeXkwj
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -505,7 +504,6 @@ T$@Hc
 T$@I;
 T$XA#
 T$pD;
-T&!#9
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Thread exited immediately
@@ -583,8 +581,8 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
+Xoi[	
 Y9"SD
-YnbWkK?Mb
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
@@ -598,6 +596,7 @@ Z9k0tUD
 \$PfD
 \$XLc
 \$pfD
+\&ASq
 ]9k0tVD
 ]J<0"0i3
 ]g@8yhu
@@ -797,7 +796,6 @@ memmove
 memset
 missing color table
 multiple IHDR
-nbtzWA
 no IDAT
 no PLTE
 no SOF

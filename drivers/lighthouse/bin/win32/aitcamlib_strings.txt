@@ -1,6 +1,7 @@
 																																																																																																																
 	!s99
  %41g
+!%I:9
 !(0)"
 !9~ t
 !hn7!
@@ -172,7 +173,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231220010651Z0/
+231221215956Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -229,7 +230,6 @@ $9^ t
 5]5a5
 5b6f6
 5d6h6l6p6t607
-5h)(k
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
@@ -365,6 +365,7 @@ $9^ t
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 @(Failed Enumeration)
 @.data
+A0yK 
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -482,11 +483,13 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
+OIFPb
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
 P<^_3
 PAq=?Mp#
+PCEG_
 PID_%04X
 PQhX+
 PauseCamera
@@ -642,6 +645,8 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
+`mV&9
+a*lqEpU
 a7hIw
 aitcamlib
 aitcamlib.dll
@@ -845,7 +850,6 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-x$R_ l
 zh_cn
 zh_tw
 zlib corrupt

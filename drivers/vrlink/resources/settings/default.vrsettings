@@ -33,7 +33,6 @@
         "useOSCEyes": false,
         "OSCInPort": 9016,
 		"OSCOutPort": 9000,
-        "allowVolumeSync" : true,
-		"qualitySharpeningThresholdMbit" : 100.0
+        "allowVolumeSync" : true
     }
 }

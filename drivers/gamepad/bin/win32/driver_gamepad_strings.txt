@@ -1,13 +1,13 @@
 	!s99
  %41g
 !hn7!
+&560/geL
 ',=?k
-(JJJl
 (f*^[0
 +Xt@(
++ZoQn
 +o'q)}
 ,W5y+
--.)Y~
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -105,7 +105,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231220010742Z0/
+231221220039Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -159,7 +159,6 @@
 9p9}9
 :":.:P:g:p:y:
 :(:,:0:L:P:
-:@Bww
 ;!;J<
 ;'<1<;<M<e<
 ;@;W;`;i;r;w;|;
@@ -242,12 +241,10 @@ MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Out of thread local storage!
-P0F0p
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDST
 RaiseException
 S0Q0O
 SA|X=G
@@ -294,8 +291,6 @@ Washington1
 Y9"SD
 Y__^[
 [K]taM?
-[i~?d#
-\0mSFd
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -341,10 +336,14 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
+b<XeVV
 bad allocation
 bad array new length
+c6&!rs
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
+gR#(}
+g_B^H
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -376,7 +375,6 @@ www.digicert.com1$0"
 {gamepad}/icons/gamepad_status_standby.png
 {gamepad}/input/gamepad_profile.json
 {un'%
-|<cvd
 |Lu?c
 }LuHO
 ~qj#k"

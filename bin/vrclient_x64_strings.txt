@@ -143,7 +143,6 @@ $w!Hc
 %,3:;4-&
 %9k0t
 %9{0t
-%E~~n<[Y
 %LocalAppData%
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
@@ -522,7 +521,6 @@ $w!Hc
 (|$pD
 (|$pH
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)/#[Z
 )9k0t
 )D$ A
 )D$ D
@@ -2080,20 +2078,20 @@ $w!Hc
 0A__^
 0D9c0t'H
 0I;T$ H
+0v7$p
 0w0c1
 0}0i1
 1.0.3.16
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 130801120000Z
-17\Y]Tt
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231220011427Z0/
+231221220728Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2105,7 +2103,6 @@ $w!Hc
 341013235959Z0H1
 360428235959Z0i1
 361.75
-36\v}
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
@@ -2214,6 +2211,7 @@ $w!Hc
 :\u6L
 ; expected 
 ; last read: '
+;'roQ
 ;C$u	A
 ;I#F0H
 ;K sMH
@@ -2252,7 +2250,6 @@ $w!Hc
 =rIQU
 >"tVH
 >"taH
->%rL+
 >0<0:
 >Mp$d
 >W`.]tB3?
@@ -5170,6 +5167,7 @@ Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 N I9N(
 N I9V0t
+NHW6Rr
 NL$`I
 NORMAL
 NOT_READY
@@ -5502,13 +5500,12 @@ QFailed to create internal command allocator
 QHL9u
 QHtfH
 Qkkbal
-Qt76A
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS`
+RSDS6`
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7344,7 +7341,6 @@ Z(uDH
 Z9k0tUD
 ZA<a`
 ZL$Xf
-Zn$1)>Q#A
 ZvFailed to create fence %ls.
 [%s] Begin Frame Timing: %d
 [%s] End Frame Timing: %d
@@ -8020,6 +8016,7 @@ boolean_or
 boolean_threshold
 boolean_toggle
 brazilian
+bsPsQ0
 bsearch_s
 buffer
 bufferView
@@ -8687,7 +8684,6 @@ khr_simple_controller
 knuckles
 ko_ko
 korean
-kqh<_
 l$ ATAVAWH
 l$ AVH
 l$ E3
@@ -9016,6 +9012,7 @@ pTextureHandle != nullptr
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
+pZEG&
 parameter must be a string or number / number array.
 parameters
 parse
@@ -10682,6 +10679,7 @@ xrclient_conformance
 xrconformance/driver
 xxxxxxx
 yPDX10
+yRJRik
 y_path
 yxxxxxxx3
 yxxxxxxxH

@@ -1,15 +1,14 @@
 	!s99
  %41g
- 6xs9
  A__^
  H3E H3E
 !hn7!
+$+yB1
+&xE0xl
 ',=?k
 (D$ f
 (f*^[0
-(hC`Q
 (|$pL
-*<oT0
 +Xt@(
 +o'q)}
 ,W5y+
@@ -48,7 +47,6 @@
 .idata$4
 .idata$5
 .idata$6
-.mLf9mJ
 .pdata
 .rdata
 .rdata$T
@@ -101,7 +99,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231220010831Z0/
+231221220130Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -124,7 +122,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
-<&n0f!
+:vv4M
 <0:08
 =rIQU
 >0<0:
@@ -172,7 +170,6 @@ H95E}
 H95O~
 H9w`tFH
 HmdDriverFactory
-I@Ra8
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -305,8 +302,8 @@ _initterm_e
 _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
-_|LLe
 `.rdata
+`3I',
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -315,7 +312,6 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
-ghM=r
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -326,14 +322,15 @@ k0i0$
 l$8E3
 l2|X/gGe
 m0k0$
+mPl`3
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
 ntelD
-oBIo}}
 p WAVAWH
+p,2TN
 string too long
 t$ AVH
 t$ AWH
@@ -345,7 +342,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-{U=-I
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

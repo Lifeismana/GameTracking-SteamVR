@@ -22,7 +22,6 @@
 		{	// etc
 		} } },
 	!s99
-	e2iZV
 	{ 0x%x, 0x%x, %d, %d, {
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
@@ -310,7 +309,9 @@ $9E0u
 %s: unsupported format
 %s: usage must be specified when allocating images
 %u != %zu
+&|v=:l}=
 ',=?k
+'f'Ix
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -354,7 +355,6 @@ $9E0u
 ********** Blue ( nLoopCount++ > 1000 )!
 ********** Green ( nLoopCount++ > 1000 )!
 ********** Red ( nLoopCount++ > 1000 )!
-*A#ocufz@
 +Xt@(
 +o'q)}
 , last executing in 
@@ -532,7 +532,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231220010739Z0/
+231221220039Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -575,6 +575,7 @@ $9E0u
 ;|$ r
 <0:08
 <P)9Y
+<T;bWg
 <unknown>
 =rIQU
 >0<0:
@@ -1418,14 +1419,12 @@ Prism-Main
 Prism-PrepareInput
 Prism-UpdatePanelMask
 Pz}b!
-Qi+P9
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSL
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1828,7 +1827,6 @@ d$XE3
 d$`H=
 d$`L;
 d3d11.dll
-d_/hz
 data->IsInitialized()
 data.hIPC.IsValid()
 deque<T> too long
@@ -2029,7 +2027,6 @@ r,fff
 r/w:I
 renderdoc.dll
 result == ALVR_OK
-rpH4:
 s AVH
 s_nInstanceCount > 0
 server
@@ -2078,6 +2075,7 @@ t$PH=
 t$`Li
 t$hH+
 t$lff
+t&t-Gu
 t-fff
 tBfff
 tC8Khu1
@@ -2570,7 +2568,6 @@ www.digicert.com1$0"
 xA_A^A]A\_^[]
 yxxxxxxxH
 yxxxxxxxI+
-{/|>MA
 {pH;{xw?
 {un'%
 |$ ATAUAVAWH
@@ -2601,7 +2598,9 @@ yxxxxxxxI+
 |$xIk
 |$xMi
 |6hE3
+|HMf!k
 |Lu?c
+|RK[FD
 }(M98t
 }LuHO
 }`H+}XH

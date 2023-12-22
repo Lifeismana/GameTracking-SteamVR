@@ -1501,7 +1501,6 @@
  ZYXu
  ZYXu&H
  [%#I64x :
- ](O!
  `U @
  a yl dybry gw
  a@AttachBlob
@@ -3719,7 +3718,7 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231220011018Z0/
+231221220318Z0/
 2384x3370
 24 24
 241009235959Z0a1
@@ -3888,6 +3887,7 @@ $wtpt
 595x842
 5: -4,-1,0,-1,-4  -1,2,3,2,-1  0,3,4,3,0  -1,2,3,2,-1  -4,-1,0,-1,-4
 5: 0,0,-1,0,0  0,-1,-2,-1,0  -1,-2,16,-2,-1  0,-1,-2,-1,0  0,0,-1,0,0
+5:,/DB
 5?rM5?
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -5081,7 +5081,6 @@ AUAVAW
 AUAVAWH
 AUAVH
 AUTOTRACE
-AUt5r
 AVAWH
 AVS X image
 AX9A(~
@@ -11753,6 +11752,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDS^
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14227,7 +14227,6 @@ YShear/Image
 YShearImage
 YT$@A
 YT$xA
-YUi$zO=
 YW@D9
 Y\$(E
 Y\o`pr
@@ -14521,6 +14520,7 @@ Zoom Select Status
 ^5TQ0
 ^?y?^?
 ^M:^M:^M:^M:^M:_L7^N9VNAaXYo`mmdppx
+^Vzh$V
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
 ^oEZ_
 ^w?Hc
@@ -15618,7 +15618,6 @@ d:HrxV
 d? je?a lub o?m skrzy? fig.
 dB/dt
 dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
-dOT|*
 d_7y3B
 dagger
 daggerdbl
@@ -15801,7 +15800,7 @@ e, na st?pe sa ?ate? u?
 e-1.0*
 e0A_A^A]A\]
 eC}gc}m
-eFgb+
+eGOW@
 ePfP4=0*&#.$&+**)+,'+/''-)$"W\H~
 eXC	\
 eXXXX
@@ -20792,6 +20791,7 @@ xpm_%.1024s
 xps:cmyk
 xps:color
 xps:mono
+xr=*`A
 xx-large
 xx-small
 y H+y

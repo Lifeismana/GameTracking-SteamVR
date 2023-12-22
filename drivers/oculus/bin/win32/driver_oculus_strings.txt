@@ -44,6 +44,7 @@
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !0(0/0.292E2
 !9~ t
+!G{p^
 !hn7!
 " not found in the scene.
 "%/28;=#$019:>?
@@ -113,7 +114,6 @@ $9^ t
 -3003
 -Infinity
 -startup
-. |UX
 .00cfg
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -464,7 +464,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-231220010800Z0/
+231221220058Z0/
 241009235959Z0a1
 252?2E2L2Z2c2h2
 2>2M2
@@ -489,7 +489,6 @@ $9^ t
 2g3q3
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2kW"5&Ulz
 2t3f4
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
@@ -960,7 +959,6 @@ $9^ t
 <$<-<8<G<Q<Z<c<r<
 <$=T=t=
 <$>f>[?
-<%8jJ
 <%<.<3<p<
 <%</<5<<<J<S<X<
 <%=(>9>E>O>W>x>
@@ -1503,6 +1501,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
+RSDS#
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1602,7 +1601,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 Wjlh(Z
-Wvcm8
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -1753,7 +1751,6 @@ assert json failed
 asset
 attributes
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
-b`Q<`
 bad AC huff
 bad APP len
 bad BMP
@@ -1879,7 +1876,6 @@ extensions
 extensionsRequired
 extensionsUsed
 extras
-f8q-CL
 f;A*stSW
 false
 false literal
@@ -2518,13 +2514,11 @@ www.digicert.com1!0
 www.digicert.com1$0"
 y"hp9
 yxxx+
-zECa.
 zh_cn
 zh_tw
 zlib corrupt
 znear
 {%s}%s
-{-D]$
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png
@@ -2538,6 +2532,7 @@ znear
 {un'%
 |Lu?c
 |cj#h
+|rb?w
 }	jChH
 }LuHO
 }qj<h
