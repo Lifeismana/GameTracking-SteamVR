@@ -3,7 +3,6 @@
 																									
 																												
 	!s99
-	l\<>]B
   GetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
   GetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
   SetMultiByteHWValue:Get Value Fail-1! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x
@@ -35,6 +34,7 @@
  s2E3
  sIE3
 !T$(H!T$ 
+!V\U=
 !hn7!
 $+xvA
 $< t6<$t,<+t"<vt
@@ -45,7 +45,9 @@ $< t6<$t,<+t"<vt
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
+&%0+0
 ',=?k
+'Z$(R!
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
 (A^A\_[
@@ -87,7 +89,6 @@ $< t6<$t,<+t"<vt
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,W5y+
 ,t0D9J0v*L
-,vvNv
 .00cfg
 .8\$!t.9\
 .?AUIAMovieSetup@@
@@ -373,7 +374,6 @@ $< t6<$t,<+t"<vt
 0A__^[]
 0w0c1
 0}0i1
-1#E&/
 130801120000Z
 1eaB@
 210429000000Z
@@ -381,7 +381,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231221220012Z0/
+231222232533Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -393,7 +393,6 @@ $< t6<$t,<+t"<vt
 370322235959Z0c1
 380115120000Z0b1
 3A8A#
-3K5]f
 3mq+<
 4.tfH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -413,6 +412,7 @@ $< t6<$t,<+t"<vt
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8H;^XtB
 8T$0u
+8V8Ge
 8\$0u`H
 8\$0up
 8_	u7E3
@@ -440,7 +440,6 @@ $< t6<$t,<+t"<vt
 :O	t	H
 :O	t	I
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
-:TrZ_;
 :\uDL
 ;A$vTH
 ;B$vUH
@@ -457,6 +456,7 @@ $< t6<$t,<+t"<vt
 <}wYI
 =rIQU
 >0<0:
+>5	=^Om
 >Mp$d
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
@@ -662,7 +662,6 @@ A_A^_^[]
 A_A^_^]
 A`D9L8
 AcquireSRWLockExclusive
-AmqWrl
 Applying depth format 
 Applying first frame camera configuration options...
 AuthD
@@ -1098,7 +1097,6 @@ M H1E
 M'H9E
 MB(iVR
 MJPEG color format is not yet implemented.
-MSzK	
 MaxConcurrency
 MaxPolicyElementKey
 Mbp?333333
@@ -1129,7 +1127,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSfu
+RSDSf~Zkuf
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1554,7 +1552,6 @@ q(9qD~[E3
 r	uAD;d$$u:
 rBu/H
 rLp>B
-rT<^0k
 raB3G
 read only file system
 realloc

@@ -555,6 +555,7 @@ $w!Hc
 ,9l$4L
 ,9{0t%H
 ,W5y+
+,w2rk
 --wZ--wZ
 -1e+9999
 -9k0t&H
@@ -1053,7 +1054,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231221220304Z0/
+231222232818Z0/
 2333333
 241009235959Z0a1
 2D$x2
@@ -1156,7 +1157,6 @@ $w!Hc
 9p:T;x<
 9rK9J
 9t$4vb
-9wb_U
 9|$0ub
 9|$<u
 9|$@u
@@ -1294,6 +1294,7 @@ $w!Hc
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
+?eawV
 ?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
@@ -1712,7 +1713,6 @@ B0u6H
 B7=fo
 B8H9B(
 BMP RLE
-B]'y*,
 Bad escape sequence in string
 Bad link event: d=%0.01f ms %0.01f mbit/s -> %0.01f mbit/s, ping %0.01f ms, holdoff %d, auto %d
 Bad unicode escape sequence in string: four digits expected.
@@ -2247,7 +2247,6 @@ EventWriteStringThread
 EventWriteStringThread: Could not map view of file (%d).
 EventWriteStringThread: Could not open file mapping object (%d).
 EventWriteStringThread: shared memory mapped %p
-EwEuoJ
 Exba~H
 Exba~I
 Exceeded stackLimit in readValue().
@@ -4069,6 +4068,7 @@ XA_A^^[
 XXXX PNG chunk not known
 X_^][
 Xt,,4.
+Xva93'
 Y	bq}J
 Y	bq}L
 Y `		
@@ -4226,7 +4226,7 @@ ZL$Xf
 \$pfE
 \$xH;
 \$xM1
-\0n#{PN
+\B~S_R
 \h!T[
 \mfpmp.exe
 \u=H;
@@ -4243,6 +4243,7 @@ ZL$Xf
 ]J<0"0i3
 ]SVLHMDDriverD3D11::AcquireSync
 ]g@8yhu
+^7pt;
 ^9k0tWD
 ^lX8k
 _>>B|>>B|
@@ -5711,6 +5712,7 @@ force10bit
 forceBaselineVideoFEC
 fputc
 fputs
+frPb14
 fr_fr
 fread
 freeaddrinfo
@@ -5855,6 +5857,7 @@ jj@0HK4
 joints
 k0i0$
 k22Vd22Vd
+kFskE:
 kZ3nT]
 keylength >= 2^30
 kht H
@@ -6953,6 +6956,7 @@ vs_5_0
 vs_main
 vs_out vs_main( vs_in input )
 vs_out vs_main(vs_in input) {
+vzbM6
 w(M9w0tH
 wXH9w`t/H
 warning: could not set socket buffer size
@@ -6990,6 +6994,7 @@ xA_A^A]A\_^][
 x` u6H
 x` u6L
 xxJo%%\r..8$
+xy,O*[
 y	bq}J
 y	bq}L
 y	bs5@D5

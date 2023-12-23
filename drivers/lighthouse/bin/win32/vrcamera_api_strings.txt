@@ -37,7 +37,6 @@ $_^[]
 %j+hD
 %m / %d / %y
 &1V6|:^<
-&KW@g
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (f*^[0
@@ -312,7 +311,6 @@ $_^[]
 .tls$
 .tls$ZZZ
 .xdata$x
-/} fy;f
 0 0$0<0L0P0`0d0h0l0p0x0
 0 0(00080@0H0P0X0`0h0p0x0
 0 00040D0H0L0T0l0|0
@@ -356,7 +354,6 @@ $_^[]
 0K0[0
 0K0y0
 0U1|1
-0Vs_kU
 0f0u0
 0w0c1
 0}0i1
@@ -434,7 +431,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-231221215952Z0/
+231222232513Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -684,6 +681,7 @@ $_^[]
 7-7=7M7V7
 7.7?7T7Y7
 7/848?8
+7/zG"
 70503
 70787@7H7T7t7|7
 707P7X7`7h7p7x7
@@ -793,7 +791,6 @@ $_^[]
 98:\:}:
 9<9\9d9l9t9|9
 9<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
-9=CK)
 9>;x;
 9@9X9
 9B:_:p:
@@ -1024,7 +1021,6 @@ $_^[]
 =F>U>
 =G=g=
 =T=t=
-=W&{VF.G
 =g>q>
 =rIQU
 =~>A?
@@ -1494,7 +1490,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDSU!
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1539,6 +1534,7 @@ TlsSetValue
 TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
+U!S(h
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
 Unhandled Exception while adding frame handler to video stream: 
@@ -1865,7 +1861,6 @@ tP9xp~K
 tWVWj>
 tX97uTj
 tX97uTj4
-tZPQ%
 t\QSV
 t]VWj>
 t]WPR
@@ -1904,7 +1899,6 @@ www.digicert.com1!0
 www.digicert.com1$0"
 x(kP$4
 x,G;}
-x/|Pq
 x0c1l1
 x\SVW
 xdigit

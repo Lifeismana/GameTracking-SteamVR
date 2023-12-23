@@ -92,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231221220101Z0/
+231222232624Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -110,7 +110,6 @@
 380115120000Z0b1
 3:3t3
 3<3X3x3
-3T(-Z
 3T4p4
 3mq+<
 3|3F4
@@ -182,7 +181,6 @@
 <V>a>|>
 =&=2=;=@=F=P=Z=j=z=
 =4=X=d=l=
-=GuWC<
 =P>h>l>
 =]=f=o=x=}=
 =j)h8
@@ -209,7 +207,6 @@
 ?_Xout_of_range@std@@YAXPBD@Z
 @.data
 @.reloc
-A,]JB_;
 ADVAPI32.dll
 Bellevue1
 COculusHmdLatest::UpdateThread
@@ -336,7 +333,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
-ZIWvb
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -382,6 +378,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`YAe@
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -393,6 +390,7 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
+d.'Oot
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
@@ -415,6 +413,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
+mqa,X
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
@@ -486,6 +485,7 @@ www.digicert.com1$0"
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
 |Lu?c
+|wvU2
 }LuHO
 ~qj#k"
 ~t&LN

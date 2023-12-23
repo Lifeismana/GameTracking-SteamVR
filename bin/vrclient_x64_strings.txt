@@ -134,7 +134,7 @@
 #OriginString_HandSource
 #OriginString_Source
 $IL+Q
-$tI(knN
+$tI(knNX
 $u=Hi
 $u^Hi
 $w!Hc
@@ -411,11 +411,8 @@ $w!Hc
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
 (%	{*
-(%5$#
 ()$^.*+?[]|\-{},:=!
-(5=##
 (9Q|uWH
-(=h('
 (A\^][
 (A\_^[
 (A]_^[
@@ -1813,6 +1810,7 @@ $w!Hc
 /legacy_debugger_pid
 /mailbox/
 /menu/click
+/nx{T
 /out/
 /output/haptic
 /pose/
@@ -2078,7 +2076,6 @@ $w!Hc
 0A__^
 0D9c0t'H
 0I;T$ H
-0v7$p
 0w0c1
 0}0i1
 1.0.3.16
@@ -2091,7 +2088,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231221220728Z0/
+231222233233Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -2123,6 +2120,7 @@ $w!Hc
 6p7M=:P_:}u
 70503
 79L$hua
+7DV<2
 7Failed to create readable frame info buffer (D3D10)!
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
@@ -2211,7 +2209,6 @@ $w!Hc
 :\u6L
 ; expected 
 ; last read: '
-;'roQ
 ;C$u	A
 ;I#F0H
 ;K sMH
@@ -4467,6 +4464,7 @@ I;wHM
 I;x r
 I;x s
 I;}`I
+I>oCCv$
 IClientTrackedDeviceProvider_003
 IClientTrackedDeviceProvider_004
 ID not specified
@@ -5167,7 +5165,7 @@ Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 N I9N(
 N I9V0t
-NHW6Rr
+NJSB{	
 NL$`I
 NORMAL
 NOT_READY
@@ -5505,7 +5503,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS6`
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6799,6 +6796,7 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
+W%;%)
 W0H;C
 W4H;C
 W8H+W`I
@@ -6863,7 +6861,6 @@ WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
 X-\J#
-X5B#"
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7005,6 +7002,7 @@ XR_SESSION_STATE_VISIBLE
 XR_SPACE_BOUNDS_UNAVAILABLE
 XR_STRUCTURE_TYPE_MAX_ENUM
 XR_SUCCESS
+XR_SWAPCHAIN_USAGE_SAMPLED_BIT not specified with a non-depth stencil swapchain, assuming it is
 XR_TIMEOUT_EXPIRED
 XR_TYPE_ACTIONS_SYNC_INFO
 XR_TYPE_ACTION_CREATE_INFO
@@ -7330,9 +7328,12 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y-Di#
+Y%U[)
+Y-}[)
+Y5(i"
+Y5.d"
+Y51Q"
 Y9"SD
-Y=y3)
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -8016,7 +8017,6 @@ boolean_or
 boolean_threshold
 boolean_toggle
 brazilian
-bsPsQ0
 bsearch_s
 buffer
 bufferView
@@ -8418,6 +8418,7 @@ finnish
 firmwarerecovery
 firmwareupdate
 first not IHDR
+fl/%;&Y
 flWaitTime < 1.0
 fmodf
 fopen
@@ -9012,7 +9013,6 @@ pTextureHandle != nullptr
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
-pZEG&
 parameter must be a string or number / number array.
 parameters
 parse
@@ -9110,6 +9110,7 @@ rotation
 roughnessFactor
 round
 roundf
+rs&u,L
 ru_ru
 runtime
 russian
@@ -10679,7 +10680,6 @@ xrclient_conformance
 xrconformance/driver
 xxxxxxx
 yPDX10
-yRJRik
 y_path
 yxxxxxxx3
 yxxxxxxxH

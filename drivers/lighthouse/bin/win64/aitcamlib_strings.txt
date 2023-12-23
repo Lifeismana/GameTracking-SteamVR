@@ -17,7 +17,9 @@
  A__^
  H3E H3E
 !(0)"
+!3D:e
 !hn7!
+!wS!	5
 "9k0t
 #*1892+$
 #9i0t
@@ -28,7 +30,6 @@
 %,3:;4-&
 %9k0t
 %9{0t
-%eCJ)
 &9k0t
 &D9c0t
 &D9k0t
@@ -178,7 +179,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231221220016Z0/
+231222232537Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -420,6 +421,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JhiwJ
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -474,6 +476,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS`
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -581,8 +584,8 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
-Xoi[	
 Y9"SD
+Y~]G@H
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
@@ -596,10 +599,10 @@ Z9k0tUD
 \$PfD
 \$XLc
 \$pfD
-\&ASq
 ]9k0tVD
 ]J<0"0i3
 ]g@8yhu
+]}J*#
 ^9k0tWD
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -721,6 +724,7 @@ d$<Mc
 d$PfD
 d$`H=
 d$`fD
+d[;Kr
 da_da
 danish
 de_de
@@ -901,6 +905,7 @@ vi_vi
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
+w]/O.
 wrong channel count
 wrong color format
 wrong version

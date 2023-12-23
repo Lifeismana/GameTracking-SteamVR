@@ -2,9 +2,8 @@
 							
 												
 																																												
-		|7h&~]t
 	!s99
-	Um}l
+	eO%D
     Object[
     SessionLabel[
  "functions" section contains non-string values.
@@ -43,10 +42,7 @@
  using interface version 
  was not found
  with error 
-!8x,uc
 !hn7!
-"	sA=
-#f~{~
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -168,7 +164,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231221220326Z0/
+231222232840Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -521,6 +517,7 @@ No active XrInstance handle.
 OpenProcessToken
 OpenXR-Loader
 OutputDebugStringA
+P4j\S
 P8H+P0H
 PA^_^
 PA_A^A\_]
@@ -530,6 +527,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS{
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -594,6 +592,7 @@ Unknown failure
 Unknown failure: 
 V H+V
 V I9V(t L
+V$:0>^
 VATAUAVAWH
 VCRUNTIME140.dll
 VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
@@ -795,7 +794,6 @@ invalid messenger pointer
 invalid properties
 invalid string position
 isValidJson indicates 
-i}x$o|%
 jj@0HK4
 k0i0$
 keylength >= 2^30
@@ -827,10 +825,12 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
-q%!c|
+q{I/LX
 rejectDupKeys
 runtime
 s t#fff
+s$L5Nx
+s5AtO
 setvbuf
 something wrong with XrInstanceCreateInfo contents
 stackLimit
@@ -869,6 +869,7 @@ unknown type in properties
 v=Y]Bv
 vector<T> too long
 verbose
+wL"'!
 www.digicert.com1!0
 www.digicert.com1$0"
 xrAcquireSwapchainImage
@@ -980,7 +981,6 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
-y5]x 
 {un'%
 |$ ATAVAWH
 |$ AVH

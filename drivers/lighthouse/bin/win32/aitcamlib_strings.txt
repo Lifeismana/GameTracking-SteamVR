@@ -1,7 +1,6 @@
 																																																																																																																
 	!s99
  %41g
-!%I:9
 !(0)"
 !9~ t
 !hn7!
@@ -173,7 +172,7 @@ $9^ t
 220801000000Z
 22363
 230714000000Z
-231221215956Z0/
+231222232517Z0/
 232;2G2[2f2y2
 241009235959Z0a1
 2=2Q2
@@ -365,7 +364,6 @@ $9^ t
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 @(Failed Enumeration)
 @.data
-A0yK 
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -401,6 +399,7 @@ DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 ECameraHAL_OpenError_ToString
+ENzx?
 Enabled
 EnterCriticalSection
 Error! EventWriteString Severe: %s
@@ -429,6 +428,7 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 H-^Eu
+H8Ob3'lOf
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
@@ -483,13 +483,11 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
-OIFPb
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
 P<^_3
 PAq=?Mp#
-PCEG_
 PID_%04X
 PQhX+
 PauseCamera
@@ -593,15 +591,18 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
+WpC+O
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
+[>Hr5
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
 \2d2h2l2p2t2x2|2
 \3`3	484M4Q4
+\P4OZ
 ]J<0"0i3
 _CIpow
 _Cnd_destroy_in_situ
@@ -645,8 +646,6 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
-`mV&9
-a*lqEpU
 a7hIw
 aitcamlib
 aitcamlib.dll
@@ -658,6 +657,8 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+b.`~c
+bJ#QxE{
 bad AC huff
 bad APP len
 bad BMP

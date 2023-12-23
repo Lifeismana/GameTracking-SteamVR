@@ -25,6 +25,7 @@
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
 	w=%d, h=%d, format=%d
+	{Nvis
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*
  %41g
  '-46
@@ -44,7 +45,6 @@
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !0(0/0.292E2
 !9~ t
-!G{p^
 !hn7!
 " not found in the scene.
 "%/28;=#$019:>?
@@ -63,6 +63,7 @@
 #?RADIANCE
 #?RGBE
 #oculus_requested_quit
+$8eKR
 $9^ t
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -464,7 +465,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-231221220058Z0/
+231222232621Z0/
 241009235959Z0a1
 252?2E2L2Z2c2h2
 2>2M2
@@ -1496,12 +1497,12 @@ Primitive
 Program Files
 Pt7hL
 Pz}b!
+Q/1:	
 Q9F t
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS#
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -2020,6 +2021,7 @@ lights
 list<T> too long
 localeconv
 m0k0$
+mGe`/Ob
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -2530,11 +2532,12 @@ znear
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
 {un'%
+|&4%n_Q	
 |Lu?c
 |cj#h
-|rb?w
 }	jChH
 }LuHO
 }qj<h
+~[!v4);
 ~qj#k"
 ~t&LN

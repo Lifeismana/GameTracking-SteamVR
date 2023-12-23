@@ -6,7 +6,6 @@
  A__^
  H3E H3E
 !hn7!
-&tuB>
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -87,12 +86,13 @@
 0w0c1
 0}0i1
 130801120000Z
+1DG!&HC
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-231221220256Z0/
+231222232810Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -130,6 +130,7 @@
 =rIQU
 >0<0:
 >Mp$d
+>ku0`#>
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -162,7 +163,6 @@ C(L95
 CL$PH
 COculusHmdLatest::UpdateThread
 CT$ H
-C[Y_2
 Camera tracker driver for rejected by vrserver
 CloseHandle
 Code: -1003
@@ -238,6 +238,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
+KKC;n
 K}*n:	
 L$ E3
 L$ SH
@@ -285,7 +286,6 @@ SetEvent
 SetUnhandledExceptionFilter
 Sleep
 SleepConditionVariableCS
-StB!Ff
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 Temp Window to disable SW_HIDE
@@ -321,7 +321,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
-Yh2A#
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -343,6 +342,7 @@ _Mtx_lock
 _Mtx_unlock
 _Thrd_id
 _Thrd_join
+_VAy_^
 __C_specific_handler
 __CxxFrameHandler3
 __std_exception_copy
@@ -380,9 +380,9 @@ c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\201
 camera
 d$`H=
 d3d11.dll
-d`_Na
 dk2_camera
 driver_oculus_legacy.dll
+e4c#H
 effffff
 f9<Xu
 getenv
@@ -396,7 +396,9 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l$8E3
+l/I<G
 l2|X/gGe
+lH<~,;
 m0k0$
 malloc
 map/set<T> too long
@@ -472,6 +474,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+yU#5'
 z(uMH
 {ERR-001}
 {ERR-079}

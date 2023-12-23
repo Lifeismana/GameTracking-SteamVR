@@ -1238,6 +1238,7 @@ $w!Hc
 .xdata$x
 /1v]H
 /5lE	
+/6yoZ
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1396,7 +1397,7 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231221220143Z0/
+231222232704Z0/
 2333333
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -1436,7 +1437,6 @@ $w!Hc
 8.uPI
 82u	H
 8:u	H
-8?k5M3<7
 8A	t	E
 8A]A\_]
 8A^A\
@@ -3963,7 +3963,6 @@ IsProcessorFeaturePresent
 IsValidSid
 J 9H s
 J(9O(|
-J5#Mt
 J>@G_
 JSON Update
 JSON string too short.
@@ -4440,7 +4439,6 @@ OrthographicCamera
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
-P#8:JcT
 P(H9|$h
 P;A(|
 PA^A]A\_^[]
@@ -4599,6 +4597,7 @@ RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+Rtx|&
 S H9K
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
@@ -5528,6 +5527,7 @@ ZL$Xf
 [ UWATAVAWI
 [(HcS
 [-&LMb#{'
+[4[3b
 [DepthAugmentedPassthrough] : Clean depthFromStereo and stop internal processing thread 
 [DepthAugmentedPassthrough] : Connecting to the frame block queue ...
 [DepthAugmentedPassthrough] : Could not access controller model for controller id : %i.  error %i 
@@ -5653,6 +5653,7 @@ ZL$Xf
 \\.\pipe\
 \\\\\\\\
 \d$`f
+\kPTt
 \mfpmp.exe
 \u=H;
 \x%02x
@@ -5671,8 +5672,8 @@ ZL$Xf
 ]g;]w}
 ]g@8yhu
 ]wfHc
+^-wKF
 ^9k0tWD
-^:)_g
 ^@H;^Ht
 ^@I;^Ht
 ^@I;^Ht&f
@@ -8109,4 +8110,3 @@ zuusA
 ~:fD9
 ~qj#k"
 ~t&LN
-~y]_/

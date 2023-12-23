@@ -115,6 +115,7 @@ $iMBm
 *uXI;
 +J$D8M@
 +M<7>
++Q`%N
 +Xt@(
 +Z$cH
 +f)>0'
@@ -359,7 +360,6 @@ $iMBm
 .xdata$x
 /2GG>!B
 />58d%
-/b3+y
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -415,7 +415,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-231221215958Z0/
+231222232518Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -433,7 +433,6 @@ $iMBm
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5aXxB
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6({wyyj:
 6*f(_
@@ -545,7 +544,6 @@ $iMBm
 @.data
 @.reloc
 @.rsrc
-@0[5h6
 @80u#H
 @8<)u
 @8l$8t
@@ -571,7 +569,6 @@ $iMBm
 @A_A^_^]
 @HcC(H
 @LcqHD
-@MTeh
 @SAUAVAWH
 @SAVAWH
 @SUVATH
@@ -884,7 +881,6 @@ Driver unable to initialize video encoder (499)
 Duplicate key: '
 DuplicateHandle
 DynamicProgressFeedback
-DzL>l
 E'i}p&b
 E+BHH
 E+BhIcBhM
@@ -1104,6 +1100,7 @@ Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 H}*M;
+I'O7L 
 I96t4H
 I9Bhs
 I;4$H
@@ -1297,6 +1294,7 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
+RSDStYW3H7
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1791,6 +1789,7 @@ Zod(^?
 ]J<0"0i3
 ]`u7H
 ]g@8yhu
+^./bZt
 ^<V7w
 ^RfN>
 ^fD9(H
@@ -2252,7 +2251,6 @@ tRLcY
 tSf91tNH
 tTfA;
 tVf91tQH
-tb%*`s
 text file busy
 tgfD9I
 timed out
@@ -2384,7 +2382,6 @@ zwom}
 |TBc4
 |^4#W,
 |b=})>
-}Hb0s
 }LuHO
 }o@8{
 ~ $s%r
