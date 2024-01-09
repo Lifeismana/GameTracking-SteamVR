@@ -604,8 +604,8 @@
               g && g.length > 0
                 ? (c.properties.key = g)
                 : _
-                  ? (c.properties.key = _)
-                  : (c.properties.overlay_handle = (0, h.Mb)()),
+                ? (c.properties.key = _)
+                : (c.properties.overlay_handle = (0, h.Mb)()),
               (c.properties.uv_min =
                 null !== (n = u(this.m_UVsMin)) && void 0 !== n ? n : void 0),
               (c.properties.uv_max =
@@ -1469,12 +1469,12 @@
           return n.bShouldAbort
             ? null
             : o
-              ? (i.length > 0 && (o.children = i), [o])
-              : i.length > 0
-                ? 1 == i.length
-                  ? i
-                  : [{ children: i }]
-                : null;
+            ? (i.length > 0 && (o.children = i), [o])
+            : i.length > 0
+            ? 1 == i.length
+              ? i
+              : [{ children: i }]
+            : null;
         }
         let m,
           g,
@@ -3246,21 +3246,21 @@
                     ? n.input_bindingui_left.transform
                     : ""))
                 : "/user/hand/right" == this.props.devicePath
-                  ? n.input_bindingui_right &&
-                    ((e = n.input_bindingui_right.uri),
-                    (t = n.input_bindingui_right.transform
-                      ? n.input_bindingui_right.transform
-                      : ""))
-                  : n.input_bindingui_left
-                    ? ((e = n.input_bindingui_left.uri),
-                      (t = n.input_bindingui_left.transform
-                        ? n.input_bindingui_left.transform
-                        : ""))
-                    : n.input_bindingui_right &&
-                      ((e = n.input_bindingui_right.uri),
-                      (t = n.input_bindingui_right.transform
-                        ? n.input_bindingui_right.transform
-                        : "")),
+                ? n.input_bindingui_right &&
+                  ((e = n.input_bindingui_right.uri),
+                  (t = n.input_bindingui_right.transform
+                    ? n.input_bindingui_right.transform
+                    : ""))
+                : n.input_bindingui_left
+                ? ((e = n.input_bindingui_left.uri),
+                  (t = n.input_bindingui_left.transform
+                    ? n.input_bindingui_left.transform
+                    : ""))
+                : n.input_bindingui_right &&
+                  ((e = n.input_bindingui_right.uri),
+                  (t = n.input_bindingui_right.transform
+                    ? n.input_bindingui_right.transform
+                    : "")),
               e
                 ? r.createElement(
                     "div",
@@ -4190,12 +4190,12 @@
                   null == n
                     ? e.default
                     : "float" == e.type
-                      ? parseFloat(n)
-                      : "int" == e.type
-                        ? parseInt(n)
-                        : "bool" == e.type
-                          ? "true" == n || "1" == n
-                          : n.toString()),
+                    ? parseFloat(n)
+                    : "int" == e.type
+                    ? parseInt(n)
+                    : "bool" == e.type
+                    ? "true" == n || "1" == n
+                    : n.toString()),
                   (this.state[e.variableName] = n);
               });
           }
@@ -6060,8 +6060,8 @@
                     ? p.NK.eTrackPadInvert_XY
                     : p.NK.eTrackPadInvert_Y
                   : o == p.NK.eTrackPadInvert_XY
-                    ? p.NK.eTrackPadInvert_X
-                    : p.NK.eTrackPadInvert_None;
+                  ? p.NK.eTrackPadInvert_X
+                  : p.NK.eTrackPadInvert_None;
                 break;
               case "x":
                 o = t
@@ -6069,8 +6069,8 @@
                     ? p.NK.eTrackPadInvert_XY
                     : p.NK.eTrackPadInvert_X
                   : o == p.NK.eTrackPadInvert_XY
-                    ? p.NK.eTrackPadInvert_Y
-                    : p.NK.eTrackPadInvert_None;
+                  ? p.NK.eTrackPadInvert_Y
+                  : p.NK.eTrackPadInvert_None;
             }
             n.SetTrackpadInvertState(this.props.iMode, o),
               this.setState({ eTrackpadInvertMode: o });
@@ -8499,20 +8499,20 @@
                     ptRightController: new L(0, 0, 0, 0),
                   })
                 : this.props.selectedActionSet &&
-                    "single" != this.props.selectedActionSet.usage
-                  ? ((this.state = {
-                      bMirrorBinding: !1,
-                      ptLeftController: new L(0, 0, 0, 0),
-                      ptRightController: new L(0, 0, 0, 0),
-                    }),
-                    this.props.fnSetMirroredMode(!1))
-                  : this.props.selectedActionSet &&
-                    ((this.state = {
-                      bMirrorBinding: !0,
-                      ptLeftController: new L(0, 0, 0, 0),
-                      ptRightController: new L(0, 0, 0, 0),
-                    }),
-                    this.props.fnSetMirroredMode(!0));
+                  "single" != this.props.selectedActionSet.usage
+                ? ((this.state = {
+                    bMirrorBinding: !1,
+                    ptLeftController: new L(0, 0, 0, 0),
+                    ptRightController: new L(0, 0, 0, 0),
+                  }),
+                  this.props.fnSetMirroredMode(!1))
+                : this.props.selectedActionSet &&
+                  ((this.state = {
+                    bMirrorBinding: !0,
+                    ptLeftController: new L(0, 0, 0, 0),
+                    ptRightController: new L(0, 0, 0, 0),
+                  }),
+                  this.props.fnSetMirroredMode(!0));
           }
           componentWillReceiveProps(e) {
             let t = !1,
@@ -12700,8 +12700,8 @@
           return "number" != typeof e
             ? "-"
             : e >= Te && e <= 33554431
-              ? (0, c.Xx)("#InputDebugger_Priority_Overlay", e - Te)
-              : e.toFixed(0);
+            ? (0, c.Xx)("#InputDebugger_Priority_Overlay", e - Te)
+            : e.toFixed(0);
         }
         class Oe extends i.Component {
           constructor(e) {
@@ -13680,16 +13680,16 @@
                 ? r + "_charging_red.png"
                 : r + "_charging.png"
               : 0 == n
-                ? null
-                : n < 0.15
-                  ? r + "_low.png"
-                  : n < 0.3
-                    ? r + "_battery_1.png"
-                    : n < 0.6
-                      ? r + "_battery_2.png"
-                      : n < 0.9
-                        ? r + "_battery_3.png"
-                        : r + "_battery_4.png";
+              ? null
+              : n < 0.15
+              ? r + "_low.png"
+              : n < 0.3
+              ? r + "_battery_1.png"
+              : n < 0.6
+              ? r + "_battery_2.png"
+              : n < 0.9
+              ? r + "_battery_3.png"
+              : r + "_battery_4.png";
           }
           OnBatteryStateChanged(e) {
             e == this.props.trackedDeviceIndex && this.UpdateControllerStatus();
@@ -14509,8 +14509,8 @@
                 ? { y: -0.62, z: 0.01 }
                 : { y: -0.72, z: 0.01 }
               : d
-                ? { y: -0.73, z: 0.05 }
-                : { y: -0.87, z: 0.05 };
+              ? { y: -0.73, z: 0.05 }
+              : { y: -0.87, z: 0.05 };
           return l.createElement(
             r.wx,
             { translation: p },
@@ -15064,10 +15064,10 @@
             return e == z.Near
               ? 0.925
               : e == z.Middle
-                ? 1.05
-                : e == z.Far
-                  ? 1.2
-                  : 1.15;
+              ? 1.05
+              : e == z.Far
+              ? 1.2
+              : 1.15;
           }
           static getDashboardVerticalPosition() {
             var e;
@@ -15083,8 +15083,8 @@
             return n == z.Near
               ? -0.07 + t
               : n == z.Middle
-                ? -0.08 + t
-                : (z.Far, -0.09 + t);
+              ? -0.08 + t
+              : (z.Far, -0.09 + t);
           }
           static getDashboardScale() {
             var e;
@@ -15096,10 +15096,10 @@
                 n == z.Near
                   ? 0.36
                   : n == z.Middle
-                    ? 0.41
-                    : n == z.Far
-                      ? 0.47
-                      : 0.41),
+                  ? 0.41
+                  : n == z.Far
+                  ? 0.47
+                  : 0.41),
               (t *=
                 null !==
                   (e =
@@ -15625,8 +15625,8 @@
               (s = a
                 ? (0, m.Xx)("#Exit_SteamVR_Home")
                 : i
-                  ? (0, m.Xx)("#PowerMenuQuitSceneApp", i)
-                  : (0, m.Xx)("#PowerMenuQuitSceneApp_NoApp")),
+                ? (0, m.Xx)("#PowerMenuQuitSceneApp", i)
+                : (0, m.Xx)("#PowerMenuQuitSceneApp_NoApp")),
               (d = a
                 ? "/dashboard/images/icons/svr_svrhome_quit_alt.svg"
                 : "/dashboard/images/icons/svr_app_quit.svg"),
@@ -16010,8 +16010,8 @@
               (n == z.Middle
                 ? (o *= 1.5)
                 : n == z.Far
-                  ? (o *= 1.85)
-                  : n == z.Standard && (o *= 1.5));
+                ? (o *= 1.85)
+                : n == z.Standard && (o *= 1.5));
             const i = this.GetActiveOverlayAnchorIDs();
             return l.createElement(
               l.Fragment,
@@ -16972,10 +16972,10 @@
             R == z.Near
               ? ((M *= 0.5), (E *= 0.5))
               : R == z.Middle
-                ? ((M *= 1), (E *= 1))
-                : R == z.Far
-                  ? ((M *= 4), (E *= 2.5))
-                  : R == z.Standard && ((M *= 1), (E *= 1));
+              ? ((M *= 1), (E *= 1))
+              : R == z.Far
+              ? ((M *= 4), (E *= 2.5))
+              : R == z.Standard && ((M *= 1), (E *= 1));
             const T =
                 null ===
                   (n = S.G3.settings.get(
@@ -19887,11 +19887,10 @@
             return "" != this.state.sCurrentWindowOverlayKey
               ? -1
               : null !==
-                    (e = g.G3.settings.get(
-                      "/settings/dashboard/desktopIndex",
-                    )) && void 0 !== e
-                ? e
-                : 1;
+                  (e = g.G3.settings.get("/settings/dashboard/desktopIndex")) &&
+                void 0 !== e
+              ? e
+              : 1;
           }
           get currentWindowHwnd() {
             return "" == this.state.sCurrentWindowOverlayKey
@@ -19990,69 +19989,8 @@
               ? this.state.bIsUsingSteamDesktop
                 ? p.createElement(a.sl, { mountedId: (0, a.iN)(u.GN, u.Xl) })
                 : this.state.bIsReady
-                  ? 0 === this.state.desktopIndices.length
-                    ? p.createElement(
-                        _.lL,
-                        { visible: !0, summonOverlayKey: u.gB },
-                        p.createElement(
-                          "div",
-                          { className: "NoDesktopFound" },
-                          p.createElement(
-                            "h2",
-                            null,
-                            (0, m.Xx)("#NoDesktopFound"),
-                          ),
-                        ),
-                      )
-                    : -1 == this.currentDesktopIndex
-                      ? p.createElement(
-                          p.Fragment,
-                          null,
-                          p.createElement(
-                            a.s_,
-                            {
-                              overlay_key: this.state.sCurrentWindowOverlayKey,
-                              height: i.k_nDesktopPanelBaseHeight,
-                              curvature_origin_id: t,
-                              interactive: !0,
-                              origin: a.Ic.BottomCenter,
-                              debug_name: "System Desktop",
-                            },
-                            p.createElement(_.Yd, { summonOverlayKey: u.gB }),
-                            p.createElement(a.sl, {
-                              mountedId: (0, a.iN)(
-                                u.GN,
-                                this.state.sCurrentWindowOverlayKey + ".cursor",
-                              ),
-                            }),
-                          ),
-                        )
-                      : p.createElement(
-                          p.Fragment,
-                          null,
-                          p.createElement(
-                            a.s_,
-                            {
-                              overlay_key:
-                                "system.desktop." + this.currentDesktopIndex,
-                              height: i.k_nDesktopPanelBaseHeight,
-                              curvature_origin_id: t,
-                              interactive: !0,
-                              origin: a.Ic.BottomCenter,
-                              debug_name: "System Desktop",
-                            },
-                            p.createElement(_.Yd, { summonOverlayKey: u.gB }),
-                            p.createElement(a.sl, {
-                              mountedId: (0, a.iN)(
-                                u.GN,
-                                "system.desktop." +
-                                  this.currentDesktopIndex +
-                                  ".cursor",
-                              ),
-                            }),
-                          ),
-                        )
-                  : p.createElement(
+                ? 0 === this.state.desktopIndices.length
+                  ? p.createElement(
                       _.lL,
                       { visible: !0, summonOverlayKey: u.gB },
                       p.createElement(
@@ -20061,10 +19999,71 @@
                         p.createElement(
                           "h2",
                           null,
-                          (0, m.Xx)("#DesktopViewsUpdating"),
+                          (0, m.Xx)("#NoDesktopFound"),
                         ),
                       ),
                     )
+                  : -1 == this.currentDesktopIndex
+                  ? p.createElement(
+                      p.Fragment,
+                      null,
+                      p.createElement(
+                        a.s_,
+                        {
+                          overlay_key: this.state.sCurrentWindowOverlayKey,
+                          height: i.k_nDesktopPanelBaseHeight,
+                          curvature_origin_id: t,
+                          interactive: !0,
+                          origin: a.Ic.BottomCenter,
+                          debug_name: "System Desktop",
+                        },
+                        p.createElement(_.Yd, { summonOverlayKey: u.gB }),
+                        p.createElement(a.sl, {
+                          mountedId: (0, a.iN)(
+                            u.GN,
+                            this.state.sCurrentWindowOverlayKey + ".cursor",
+                          ),
+                        }),
+                      ),
+                    )
+                  : p.createElement(
+                      p.Fragment,
+                      null,
+                      p.createElement(
+                        a.s_,
+                        {
+                          overlay_key:
+                            "system.desktop." + this.currentDesktopIndex,
+                          height: i.k_nDesktopPanelBaseHeight,
+                          curvature_origin_id: t,
+                          interactive: !0,
+                          origin: a.Ic.BottomCenter,
+                          debug_name: "System Desktop",
+                        },
+                        p.createElement(_.Yd, { summonOverlayKey: u.gB }),
+                        p.createElement(a.sl, {
+                          mountedId: (0, a.iN)(
+                            u.GN,
+                            "system.desktop." +
+                              this.currentDesktopIndex +
+                              ".cursor",
+                          ),
+                        }),
+                      ),
+                    )
+                : p.createElement(
+                    _.lL,
+                    { visible: !0, summonOverlayKey: u.gB },
+                    p.createElement(
+                      "div",
+                      { className: "NoDesktopFound" },
+                      p.createElement(
+                        "h2",
+                        null,
+                        (0, m.Xx)("#DesktopViewsUpdating"),
+                      ),
+                    ),
+                  )
               : null;
           }
         });

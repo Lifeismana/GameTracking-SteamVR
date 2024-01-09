@@ -504,8 +504,8 @@
               _ && _.length > 0
                 ? (p.properties.key = _)
                 : g
-                  ? (p.properties.key = g)
-                  : (p.properties.overlay_handle = (0, u.Mb)()),
+                ? (p.properties.key = g)
+                : (p.properties.overlay_handle = (0, u.Mb)()),
               (p.properties.uv_min =
                 null !== (r = h(this.m_UVsMin)) && void 0 !== r ? r : void 0),
               (p.properties.uv_max =
@@ -1355,12 +1355,12 @@
           return r.bShouldAbort
             ? null
             : i
-              ? (o.length > 0 && (i.children = o), [i])
-              : o.length > 0
-                ? 1 == o.length
-                  ? o
-                  : [{ children: o }]
-                : null;
+            ? (o.length > 0 && (i.children = o), [i])
+            : o.length > 0
+            ? 1 == o.length
+              ? o
+              : [{ children: o }]
+            : null;
         }
         let m,
           _,
