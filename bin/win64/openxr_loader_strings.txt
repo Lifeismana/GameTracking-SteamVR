@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	eO%D
     Object[
     SessionLabel[
  "functions" section contains non-string values.
@@ -164,8 +163,8 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231222232840Z0/
 2333333
+240105230352Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -517,7 +516,6 @@ No active XrInstance handle.
 OpenProcessToken
 OpenXR-Loader
 OutputDebugStringA
-P4j\S
 P8H+P0H
 PA^_^
 PA_A^A\_]
@@ -527,7 +525,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS{
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -554,6 +551,7 @@ RuntimeManifestFile::FindManifestFiles - using global runtime file
 RuntimeManifestFile::FindManifestFiles - using registry-specified runtime file 
 S0Q0O
 SA|X=G
+SBo"1
 SOFTWARE\Khronos\OpenXR\
 SUAVAWH
 SUWAVAWH
@@ -592,7 +590,6 @@ Unknown failure
 Unknown failure: 
 V H+V
 V I9V(t L
-V$:0>^
 VATAUAVAWH
 VCRUNTIME140.dll
 VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
@@ -825,12 +822,9 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
-q{I/LX
 rejectDupKeys
 runtime
 s t#fff
-s$L5Nx
-s5AtO
 setvbuf
 something wrong with XrInstanceCreateInfo contents
 stackLimit
@@ -869,7 +863,6 @@ unknown type in properties
 v=Y]Bv
 vector<T> too long
 verbose
-wL"'!
 www.digicert.com1!0
 www.digicert.com1$0"
 xrAcquireSwapchainImage
@@ -981,6 +974,7 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
+z+gYR
 {un'%
 |$ ATAVAWH
 |$ AVH

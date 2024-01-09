@@ -42,6 +42,7 @@
 -1e+9999
 -Infinity
 -u-I;
+.	RHj&
 .00cfg
 .?AUIInteractableOverlay@@
 .?AU_Crt_new_delete@std@@
@@ -131,6 +132,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/c/b4U=
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -165,7 +167,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231222233321Z0/
+240105230831Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -183,6 +185,7 @@
 6*f(_
 6I]Dc
 6OB,n_
+6r>ucrd
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -593,9 +596,11 @@ Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QNdj|
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS[
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -691,8 +696,8 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
+Y>t0m]
 [K]taM?
-[sGj+
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -831,6 +836,7 @@ italian
 ja_jp
 japanese
 jj@0HK4
+k)`YI
 k0i0$
 kernel32.dll
 ko_ko
@@ -843,6 +849,7 @@ l2|X/gGe
 latam
 list<T> too long
 m0k0$
+mVtf%
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -934,7 +941,6 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-x}2Iu
 zh_cn
 zh_tw
 {un'%

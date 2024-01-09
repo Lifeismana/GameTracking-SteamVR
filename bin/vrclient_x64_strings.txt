@@ -134,7 +134,8 @@
 #OriginString_HandSource
 #OriginString_Source
 $IL+Q
-$tI(knNX
+$tI(knN
+$u0Hi
 $u=Hi
 $u^Hi
 $w!Hc
@@ -410,8 +411,8 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%	{*
 ()$^.*+?[]|\-{},:=!
+(-[x*
 (9Q|uWH
 (A\^][
 (A\_^[
@@ -926,6 +927,7 @@ $w!Hc
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_016@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_017@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_018@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_019@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -1449,6 +1451,7 @@ $w!Hc
 .?AVCVRSteamPrivate_016@@
 .?AVCVRSteamPrivate_017@@
 .?AVCVRSteamPrivate_018@@
+.?AVCVRSteamPrivate_019@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1586,6 +1589,7 @@ $w!Hc
 .?AVIVRSteamPrivate_017@vr@@
 .?AVIVRSteamPrivate_018@vr@@
 .?AVIVRSteamPrivate_019@vr@@
+.?AVIVRSteamPrivate_020@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -1810,7 +1814,6 @@ $w!Hc
 /legacy_debugger_pid
 /mailbox/
 /menu/click
-/nx{T
 /out/
 /output/haptic
 /pose/
@@ -2088,8 +2091,8 @@ $w!Hc
 220323000000Z
 220801000000Z
 230714000000Z
-231222233233Z0/
 2333333
+240105230743Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2120,7 +2123,6 @@ $w!Hc
 6p7M=:P_:}u
 70503
 79L$hua
-7DV<2
 7Failed to create readable frame info buffer (D3D10)!
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
@@ -2759,6 +2761,7 @@ B84/u
 B9T	$t
 B9T	$u
 B9T!$t
+BD9%^
 BINORMAL
 BITANGENT
 BMP RLE
@@ -2793,7 +2796,6 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
-C-~0)
 C0L9$
 C0L;E
 C0L;F
@@ -3185,6 +3187,7 @@ CVRNotificationsLatest
 CVROverlayLatest::SetOverlayTextureXR
 CVRReplyMailbox requires that the user only specify a group name so the full name can be unique: %s
 CVRSteamPrivate::HideDashboard
+CVRSteamPrivate::SwitchToDashboardOverlay
 CVkAllocator::AllocateMemory
 CVkAllocator::AllocateMemoryFromType
 CVkAllocator::CreateBuffer
@@ -3571,12 +3574,13 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
+D8%c])
 D8,8u
-D8-a='
 D8/u0
 D840u
 D84;u
 D8<>u
+D8=93
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -4274,11 +4278,10 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=.5"
-H;=T:6
-H;=z:6
-H;=z]!
-H;=~)"
+H;=0:6
+H;=V:6
+H;=j~!
+H;=~-"
 H;A s
 H;Axt
 H;C(v
@@ -4464,7 +4467,6 @@ I;wHM
 I;x r
 I;x s
 I;}`I
-I>oCCv$
 IClientTrackedDeviceProvider_003
 IClientTrackedDeviceProvider_004
 ID not specified
@@ -4683,6 +4685,7 @@ IVRSteamPrivate_016
 IVRSteamPrivate_017
 IVRSteamPrivate_018
 IVRSteamPrivate_019
+IVRSteamPrivate_020
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID
@@ -4980,8 +4983,7 @@ L9 t'H
 L90t	H
 L93t	H
 L97u0H
-L9=-R
-L9=SR
+L9=}J
 L9?u,H
 L9@ s
 L9A r
@@ -5033,6 +5035,7 @@ L;8u6H
 L;8u7H
 L;8u9H
 L;8u:H
+L;=P3'
 L;@ s
 L;@ u
 L;A s
@@ -5165,7 +5168,6 @@ Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 N I9N(
 N I9V0t
-NJSB{	
 NL$`I
 NORMAL
 NOT_READY
@@ -6684,6 +6686,7 @@ VRRenderModelError_MultipleTextures (305)
 VRRenderModelError_NoShapes (302)
 VRRenderModelError_None (0)
 VRRenderModelError_TooManyVertices (304)
+VRSettingsError_AccessDenied
 VRSettingsError_IPCFailed
 VRSettingsError_None
 VRSettingsError_ReadFailed
@@ -6796,7 +6799,6 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
-W%;%)
 W0H;C
 W4H;C
 W8H+W`I
@@ -6860,7 +6862,8 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
-X-\J#
+X%lk*
+X-|D#
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7328,12 +7331,15 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%U[)
-Y-}[)
-Y5(i"
-Y5.d"
-Y51Q"
+Y%%Z)
+Y%wr&
+Y-MZ)
+Y5=p#
+Y5Hc"
+Y5N_"
+Y5QK"
 Y9"SD
+Y=c|#
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -8418,7 +8424,6 @@ finnish
 firmwarerecovery
 firmwareupdate
 first not IHDR
-fl/%;&Y
 flWaitTime < 1.0
 fmodf
 fopen
@@ -9110,7 +9115,6 @@ rotation
 roughnessFactor
 round
 roundf
-rs&u,L
 ru_ru
 runtime
 russian
@@ -9584,6 +9588,7 @@ suppressedByPriority
 sv_sv
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
+switch_dashboard_overlay_requested
 sxr_xrAcquireSwapchainImage
 sxr_xrApplyHapticFeedback
 sxr_xrAttachSessionActionSets
@@ -9777,7 +9782,7 @@ t3fff
 t4L9P
 t6H9.u1
 t7fff
-t8D8-
+t8D8-ql,
 t9fff
 t:fff
 t>H9n
@@ -9793,7 +9798,7 @@ tHI9t$
 tJL;y rDH
 tK@8q<tEI
 tNI;X rHI
-tQH95
+tQH95W
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -9805,6 +9810,7 @@ t[H+A
 target
 targets
 tb9l$Xt@9n$~;
+tc I\
 tchinese
 tdh.dll
 terminate
@@ -9874,7 +9880,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=
+t}H9=F
 u	A;p(s
 u	A;y(s
 u	H9|$ tI

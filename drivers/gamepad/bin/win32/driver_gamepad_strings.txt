@@ -1,9 +1,11 @@
 	!s99
  %41g
 !hn7!
+#vYWL
 ',=?k
+'e	d~{
 (f*^[0
-*?Qci
+):Z>H
 +Xt@(
 +o'q)}
 ,W5y+
@@ -61,7 +63,6 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-/5xWq
 /input/a/click
 /input/b/click
 /input/back/click
@@ -105,7 +106,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231222232603Z0/
+240105225500Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -141,7 +142,7 @@
 6!616:6I6O6U6[6a6g6m6s6y6
 6*f(_
 646X6d6l6
-65CMj
+67$t8
 6D6Z6
 6I]Dc
 6OB,n_
@@ -164,7 +165,6 @@
 ;'<1<;<M<e<
 ;@;W;`;i;r;w;|;
 ;X;\;`;d;|;
-;sa9}
 < <0<4<<<T<d<h<x<|<
 < =)=2=;=@=E=L=Q=]=
 <0:08
@@ -234,7 +234,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KtAw3>
 K}*n:	
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
@@ -248,6 +247,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSV G
 RaiseException
 S0Q0O
 SA|X=G
@@ -293,6 +293,7 @@ WakeAllConditionVariable
 Washington1
 Y9"SD
 Y__^[
+Z$S^[
 [K]taM?
 ]J<0"0i3
 _Cnd_destroy
@@ -343,7 +344,6 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
-hEz%\
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -358,7 +358,6 @@ map/set<T> too long
 memcpy
 memmove
 memset
-p%-:,
 string too long
 terminate
 uCVj@
@@ -366,7 +365,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-{MB3"
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

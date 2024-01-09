@@ -128,7 +128,6 @@
 -Infinity
 -external
 -internal
--sn;J
 -u-I;
 . Aborting.
 . Baud rate requested (
@@ -602,7 +601,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/N5mx
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
@@ -624,8 +622,6 @@
 0A_A^_^[
 0A__[
 0A__^
-0D|oL
-0vsP 
 0w0c1
 0}0i1
 130801120000Z
@@ -636,7 +632,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231222232541Z0/
+240105230105Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -650,6 +646,7 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5@Cl)
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -697,6 +694,7 @@
 => Entering Context
 =rIQU
 >0<0:
+>;Asn
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -1240,6 +1238,7 @@ Flow control:
 FormatMessageA
 Found target %s (%4.4X:%4.4X Serial: %s)
 Found: %s, size: %d
+Fs#vBsw!D8
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
 G<f9F
 G>f9F
@@ -1485,6 +1484,7 @@ Not able to decode packet. Code 0x
 Not able to encode packet. Code: 0x
 Not able to open, current state is not valid
 Notification
+O!+;y
 OLEAUT32.dll
 OXL9OPt
 Out of thread local storage!
@@ -1513,7 +1513,6 @@ PostQueuedCompletionStatus
 Power Control
 Progress: %d%% (%d/%d)
 Pz}b!
-Q4jH5
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -1740,8 +1739,6 @@ XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
 Y9"SD
-YSN\5/
-Yj3-x
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1753,7 +1750,6 @@ Zipfile is corrupt or not a zipfile
 [%s] Initialization failed after %d attempts and %.3f seconds
 [%s] Initialization succeeded after %d attempts and %.3f seconds
 [0]*([1-9][0-9]+)
-[9!Pzj
 [DFU]
 [K]taM?
 \$ E3
@@ -1777,7 +1773,7 @@ Zipfile is corrupt or not a zipfile
 \$hI;
 \$pH;
 \$pI;
-\4+OH!
+\C=2gR
 \Device Parameters
 \u=H;
 ]J<0"0i3
@@ -1940,7 +1936,7 @@ invalid window size
 ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
-j/5mD
+j$ZR<
 jj@0HK4
 k0i0$
 l$ H=
@@ -1989,7 +1985,6 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
-qj@`+
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2218,6 +2213,7 @@ xdigit
 |$pf;
 |$ps`H
 |Lu?c
+}!60!
 }LuHO
 ~'HcB
 ~qj#k"

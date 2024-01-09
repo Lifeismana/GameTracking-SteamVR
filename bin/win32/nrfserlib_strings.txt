@@ -80,6 +80,7 @@ $Vh&*
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
+)e9tP
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -708,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-231222232521Z0/
+240105225420Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -843,7 +844,6 @@ $Vh&*
 4f5s546
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 4q5v5
-4yU:[u
 5	646\6
 5 5$5
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
@@ -891,7 +891,7 @@ $Vh&*
 5d7v7&:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-5{&kA
+5t?aW6
 6	7U7Z7_7~7
 6	7V<
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6
@@ -935,7 +935,6 @@ $Vh&*
 6:7E7L7
 6;8]8~8
 6>7{8
-6B(Zq
 6I]Dc
 6O6Z6
 6OB,n_
@@ -1275,7 +1274,6 @@ $Vh&*
 =L=P=T=X=
 =T=x=
 =V>h>
-=\}Pe=o
 =_>h>
 =a>q>
 =f>t>
@@ -1790,7 +1788,6 @@ LocalFree
 Looking for external adpater.
 Looking for internal adpater.
 MB(iVR
-MI]*;a.,
 MSVCP140.dll
 MTU exchange request reply failed. (nrf_error: %s)
 MTU response received. New ATT_MTU is %d
@@ -1909,10 +1906,8 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueueUserAPC
-RDx%o
 RESERVED_5
 RESET_PERFORMED
-RSDS3c
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2072,6 +2067,7 @@ VjqSPW
 VjrSPW
 VjySPW
 Vj{SPW
+Vt @eF
 W9shvN3
 WAKEUP
 WOKEN
@@ -2213,6 +2209,7 @@ digit
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
+f.v+#
 f;G$u
 f;G&u
 f;G(u
@@ -2490,7 +2487,6 @@ y4_^[
 }	jCh
 }LuHO
 }qj<h
-~(U'U
 ~L][u
 ~d;{d|	
 ~qj#k"

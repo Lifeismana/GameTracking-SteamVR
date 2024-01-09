@@ -15,7 +15,6 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
-!(yn*
 !hn7!
 %%.%dg
 %s%s%s%s%s
@@ -40,6 +39,7 @@
 +o'q)}
 , last executing in 
 ,W5y+
+-	~/{\Hk
 -1e+9999
 -Infinity
 -u-I;
@@ -182,7 +182,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231222233332Z0/
+240105230841Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -194,6 +194,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+49	@J
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -429,6 +430,7 @@ DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
 E;u`|
+EOqg0^|
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.
 Encountered error 
@@ -519,7 +521,6 @@ GetWindowRect
 GetWindowTextLengthW
 GetWindowTextW
 GetWindowThreadProcessId
-GqB20
 GraphicsCaptureSession is not supported.
 H!C@H
 H+SpI
@@ -609,6 +610,7 @@ IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
+KHc^]+
 K}*n:	
 L$ E3
 L$ H;
@@ -639,6 +641,7 @@ LoadLibraryA
 LocalFree
 LocalizationManager
 M H1E
+M#"B99
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -664,9 +667,11 @@ Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+Q%cFNy
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS]Bc
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -918,7 +923,6 @@ exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fD9&u
 fF94@u
-fahc_B
 false
 fffffff
 fi_fi
@@ -926,6 +930,7 @@ finnish
 fr_fr
 frame_time
 french
+f~wQ%
 german
 gfffffffH
 gfffffffI

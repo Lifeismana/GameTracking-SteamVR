@@ -8,6 +8,7 @@
 +Xt@(
 +o'q)}
 ,W5y+
+-!(/@
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -83,7 +84,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231222232802Z0/
+240105230317Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -105,9 +106,7 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-:}2b?
 <0:08
-=g=|(fh
 =rIQU
 >0<0:
 >Mp$d
@@ -117,7 +116,6 @@
 @.reloc
 @.rsrc
 @A^_^
-@JCal
 AuthD
 Bellevue1
 CT$0H
@@ -156,7 +154,6 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-Jzf1{
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -188,11 +185,12 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+Wa0\h
 Washington1
 Y9"SD
 [K]taM?
+[MVKQ
 \$ UH
-]!#1e
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -245,9 +243,9 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
-ks	Pj
 l$8E3
 l2|X/gGe
+l<.H.
 m0k0$
 malloc
 memcpy
@@ -255,6 +253,7 @@ memmove
 memset
 modelNumber
 ntelD
+rEQ)0(
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -264,9 +263,10 @@ string too long
 t$ AVH
 t$ UWAVH
 t$@H=
-t[nY[y
+v-"NY
 v=Y]Bv
 vector<T> too long
+w[P+k
 windowHeight
 windowWidth
 windowX

@@ -1920,6 +1920,7 @@ $~O="""
 %2048s %2048s %2048s
 %2lu:
 %5.2lf	%.*g
+%5Byr
 %5EUeu
 %6d unresolved strings
 %8.*g %.*g
@@ -2127,6 +2128,7 @@ $~O="""
 &N''i
 &Pj&0
 &SAYS
+&Sr8R
 &UPVS
 &amp;
 &apos;
@@ -4328,13 +4330,13 @@ $~O="""
 223E3P3a3l3
 230714000000Z
 230x323
-231222232629Z0/
 23282G2L2e3
 23282R2W2q2v2
 232L2e2~2
 23383I3l3
 2384x3370
 24 24
+240105225527Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -4886,6 +4888,7 @@ $~O="""
 3`4f4j4o4u4y4
 3a3f3
 3c4h4
+3d#DY_
 3d4l4
 3desc
 3e7o7
@@ -8698,6 +8701,7 @@ $~O="""
 >!?+?^?h?m?
 >!?-?7?g?t?
 >!?2?P?i?x?
+>"!!J=
 >">'>
 >">'>6>;>c>|>
 >">,>q>
@@ -9744,7 +9748,6 @@ Bits Stored
 BitsRect
 BitsRgn
 BkColor
-BkOFz:
 BkPat
 BkPixPat
 Black
@@ -15183,6 +15186,7 @@ P0Z0_0
 P0^0p0
 P1T1`1d1p1t1
 P6'D	a
+P9QVs
 P9t$<t
 P;L$ t
 P@>0>=4<=2AE*LM:UTAecg
@@ -16023,7 +16027,6 @@ Pushing input %d : %.30s
 Pxr24
 Pz}b!
 Q Z# 
-Q-n6u
 Q1V1[1l1
 Q>JBR>L
 Q@j;V
@@ -18057,7 +18060,6 @@ V!MV
 V*?=%,?
 V0`0e0
 V939j%5'
-V=Or;4
 V=YARG
 VC# V
 VCOMP140.DLL
@@ -18693,6 +18695,7 @@ Zoom Select Status
 [ghostscript library %.2f]%s: %s
 [zero-configuration]
 \ at end of pattern
+\#aFL
 \$ 9^
 \$ 9^Xu
 \$ 9~
@@ -20879,7 +20882,6 @@ g#v~>
 g-io-channel-error-quark
 g-markup-error-quark
 g0q0v0
-g7Ec"
 g<guJ
 g>Edh>G!i>
 g>ycx
@@ -22324,7 +22326,6 @@ lydian
 m,!$;Y
 m0k0$
 m1WY$
-m59*"
 m5u5A6I6
 m=4vTNG@3.9)1<.7:2686280-9*6D29H616,,-"@J1z
 m>EKn>
@@ -24910,7 +24911,6 @@ vDVh|
 vHWSU
 vIMGView
 vLVh8
-vO4WY
 vPRPW
 vPV;FLu
 vQO+t
@@ -26115,7 +26115,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |4|(t
 |4|au
 |7&rU3
-|>.	5
 |>>Bq
 |CJ25?+:72*0+Z?>
 |Kc9`

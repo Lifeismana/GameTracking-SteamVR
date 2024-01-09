@@ -34,7 +34,6 @@
  s2E3
  sIE3
 !T$(H!T$ 
-!V\U=
 !hn7!
 $+xvA
 $< t6<$t,<+t"<vt
@@ -45,10 +44,9 @@ $< t6<$t,<+t"<vt
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-&%0+0
 ',=?k
-'Z$(R!
 ()$^.*+?[]|\-{},:=!
+(4nJv
 (A^A\^[
 (A^A\_[
 (A^A]^[
@@ -381,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-231222232533Z0/
+240105230057Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -412,7 +410,7 @@ $< t6<$t,<+t"<vt
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8H;^XtB
 8T$0u
-8V8Ge
+8Vsv),
 8\$0u`H
 8\$0up
 8_	u7E3
@@ -456,7 +454,6 @@ $< t6<$t,<+t"<vt
 <}wYI
 =rIQU
 >0<0:
->5	=^Om
 >Mp$d
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
@@ -1127,7 +1124,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDSf~Zkuf
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1574,6 +1570,7 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
+s%d(k
 setlocale
 setvbuf
 space
@@ -1674,6 +1671,7 @@ vector<bool> too long
 version
 vrcamera_api.dll
 w(HcODI
+wB@2b
 wcsnlen
 wcstoul
 wrong protocol type
@@ -1725,3 +1723,4 @@ yH;YXtl
 ~`D8I!t-
 ~qj#k"
 ~t&LN
+~~	[L

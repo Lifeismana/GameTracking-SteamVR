@@ -8,6 +8,7 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
+$h!0X8%5G
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
@@ -117,7 +118,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231222232429Z0/
+240105230001Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -147,6 +148,7 @@
 <P)9Y
 <unknown>
 =rIQU
+>/GBF
 >0<0:
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
@@ -226,6 +228,7 @@ H9oHH
 HeapFree
 I9] M
 I9]8I
+IaeEK
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -252,13 +255,13 @@ MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
-NWA^`
 OLEAUT32.dll
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS?
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -267,6 +270,7 @@ RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
 SA|X=G
+SMHsR
 SVWATAUAVAWH
 SVWATAVAWH
 Selected display mode: %dx%d @ %.1fHz
@@ -312,7 +316,6 @@ WindowsDeleteString
 WindowsGetStringRawBuffer
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
-X wf_@
 XA_A^A]_
 Y9"SD
 [K]taM?
@@ -360,11 +363,11 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+aqddoK
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
-c_ WK
 d3d11.dll
 dxgi.dll
 http://ocsp.digicert.com0A
@@ -385,7 +388,6 @@ memmove
 memset
 ntelD
 ole32.dll
-rtX$]
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy

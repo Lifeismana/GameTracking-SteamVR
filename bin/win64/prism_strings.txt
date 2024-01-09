@@ -48,6 +48,7 @@
  A__^
  H3E H3E
  formatting error code 
+ ilBV
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
@@ -530,7 +531,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-231222232601Z0/
+240105230123Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -546,6 +547,7 @@ $9E0u
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+5yMNa
 6*f(_
 6I]Dc
 6OB,n_
@@ -567,7 +569,6 @@ $9E0u
 9H(~-
 :A9x 
 :EotB
-:}K@NYk
 ;K sOH
 ;S sMH
 ;\$x|
@@ -579,7 +580,6 @@ $9E0u
 >0<0:
 >Mp$d
 >ffv?
-?7IzT
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??Bid@locale@std@@QEAA_KXZ
@@ -745,6 +745,7 @@ Blank
 C(H+C H
 C(H9C u
 C++/WinRT version:1.0.190111.3
+C2Y59
 CClientSwapchain::Import
 CClientSwapchain::ImportSampler
 CD$0H
@@ -1424,6 +1425,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDSk1fcP
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1449,6 +1451,7 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+R|>W36E
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
@@ -1569,6 +1572,7 @@ Upload raw motion vectors
 UploadMotionVectors
 Using physical device: %s
 UuidFromStringA
+V?8qen&
 VATAUH
 VAVAWH
 VCRUNTIME140.dll
@@ -2564,12 +2568,9 @@ wcsstr
 www.digicert.com1!0
 www.digicert.com1$0"
 xA_A^A]A\_^[]
-y,(+,z
 yxxxxxxxH
 yxxxxxxxI+
-zG.-p
 {pH;{xw?
-{tss_
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH
@@ -2598,7 +2599,6 @@ zG.-p
 |$xIi
 |$xIk
 |$xMi
-|/QOY
 |6hE3
 |Lu?c
 }(M98t

@@ -1,7 +1,9 @@
 	!s99
  %41g
+ nROL
 !hn7!
 ',=?k
+'ebiRX55
 (f*^[0
 +Xt@(
 +o'q)}
@@ -85,7 +87,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-231222232617Z0/
+240105225513Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -134,7 +136,6 @@
 :#:1:;:D:M:X:]:k:u:~:
 ;$;-;9;B;G;X;b;k;w;
 ;,;0;@;D;H;L;T;l;
-<,O81pW
 <0:08
 <0E0N0W0\0a0h0V1a1 3)3A3j4
 <5=:=D=M=X=^=d=
@@ -160,7 +161,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-FQ<;I
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -194,10 +194,12 @@ MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+OgR|XC
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS]
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -205,7 +207,6 @@ TerminateProcess
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
-UxHzd
 VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
@@ -214,6 +215,7 @@ Washington1
 Y9"SD
 Y__^[
 [K]taM?
+\YW(u
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -249,6 +251,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+b8NDB6
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
@@ -262,6 +265,7 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+fUzeTx
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -270,6 +274,7 @@ http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
 l2|X/gGe
+lvci'
 m0k0$
 malloc
 memcpy
@@ -293,7 +298,6 @@ www.digicert.com1!0
 www.digicert.com1$0"
 {un'%
 |Lu?c
-}6|	.K
 }LuHO
 ~qj#k"
 ~t&LN

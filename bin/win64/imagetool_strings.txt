@@ -3584,7 +3584,6 @@ $wtpt
 050l0
 0;0;0q
 0?AssignImageColors
-0?S3q
 0A2B ABm
 0A\^]
 0A\_^
@@ -3700,6 +3699,7 @@ $wtpt
 1XgU9c=
 1ZZ&p;
 1hau-:%Kv
+1in/+P
 1pVu>E
 1r"#c$'i%*m#*e&-s'0w'2|48mH:X?AB7G~EFFKKKGJJSUUZ[\WUWQIUmUQrhTORlWiz]afbddjllgiggttrtty{{qvjhVc
 1wsHp
@@ -3719,9 +3719,9 @@ $wtpt
 220801000000Z
 230714000000Z
 230x323
-231222232831Z0/
 2384x3370
 24 24
+240105230344Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -3862,6 +3862,7 @@ $wtpt
 4@C3@
 4@ffffff9@
 4F|h5|
+4H>5D 
 4JpI?=
 4L(vg
 4O.pQW
@@ -4575,7 +4576,6 @@ $wtpt
 ?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
-?wfB	0
 ?x9?7
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
@@ -5517,7 +5517,6 @@ B#C0D?EQFeG|H
 B$8C$uHH
 B$9A$u@
 B$f9A$u
-B&=/I
 B&f9A&u$
 B(9A(u8
 B(H+B H=
@@ -11706,6 +11705,7 @@ RDHIu
 RECORD_BYTES
 RF##e
 RFb`/G1f
+RG zA[
 RGB OpColor for arithmetic modes
 RGB backColor
 RGB color space not permitted on grayscale PNG
@@ -14582,6 +14582,7 @@ _aligned_free
 _aligned_malloc
 _beginthread
 _beginthreadex
+_c$3*Q
 _cairo_win32_display_surface_flush
 _cairo_win32_display_surface_set_clip
 _cairo_win32_save_initial_clip
@@ -15786,6 +15787,7 @@ dpx:user.data
 dpx:user.id
 drepa
 dsheet
+dtbT*
 du o 
 duCD9w\
 duplicate
@@ -17500,6 +17502,7 @@ ivory3
 ivory4
 ivote.
 izol ce mamvj ka raq kuse bafkeh mew.
+i{Ha3
 j > 0
 j!3V$E
 j+@u'`
@@ -17961,7 +17964,6 @@ nF1~P8wH*n_*
 nT$PH
 n\$Pf
 n]"{7
-n_'#E
 n_WlYGh\Kj^N
 n_\SSA
 n_fields > 0
@@ -18173,6 +18175,7 @@ p L+p
 p UWATAVAWH
 p WATAUAVAWH
 p WAVAWH
+p2EC4;
 p88pD8pT8p`8pp8pp8`p8Tp8Dp88pD8pT8p`8pp8`p8Tp8Dp88p88pE8pT8p`8pp8`p8Tp8DpPPpXPp`PphPppPppPhpP`pPXpPPpXPp`PphPppPhpP`pPXpPPpPPpXPp`PphPppPrpP`pPXp
 p?, d
 p?l ?
@@ -18632,6 +18635,7 @@ push graphic-context "%s"
 push mask "%s"
 push pattern "%s" %g,%g %g,%g
 push symbol
+pvbWu
 pw@L7
 p{ xx-page.x-.5, yy-page.y-.5 }
 q		jx0
@@ -18680,7 +18684,6 @@ r%fff
 r&Eyu
 r'A7]F
 r,Lcb0D
-r5s>s
 r8l2;
 r>Cus>D2t>
 rA3l( 
@@ -19744,7 +19747,6 @@ u0Hc53~"
 u0wQA
 u1I9w
 u1fE;
-u2gUd
 u3fA;
 u5H9u
 u7A9@
@@ -19948,7 +19950,6 @@ w	A).
 w z0u.A
 w#M9~(w
 w+OQvr
-w<yk<<
 w@L9g8
 waiting for data from thread %#x
 warang-citi
@@ -20116,6 +20117,7 @@ xc@Je
 xdigit
 xendian
 xlink:href
+xlr}#-
 xml namespace URI cannot be the default namespace
 xml namespace URI mapped to wrong prefix
 xml namespace prefix mapped to wrong URI
