@@ -11,7 +11,7 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
-&l21>h
+&\Q20
 ',=?k
 '.5<=6/7>????????????????
 (Enumerating)
@@ -96,7 +96,6 @@ $9^ t
 .tls$
 .tls$ZZZ
 .xdata$x
-/-`\f
 /9s<u*
 /delivery_rate
 /elapsed_time
@@ -175,7 +174,7 @@ $9^ t
 22363
 230714000000Z
 232;2G2[2f2y2
-240105225416Z0/
+240116004705Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -199,6 +198,7 @@ $9^ t
 370322235959Z0c1
 380115120000Z0b1
 394B4S4_4k4q4w4
+3:/Jc-
 3:4z4
 3=5E5W5_5
 3@3U3a3g3m3s3y3
@@ -382,6 +382,7 @@ AitUVCExtApi.dll
 B3I3~3
 BMP RLE
 Bellevue1
+C!Vp4
 CAMCMD_GET_OPENCAMERA_RESULT
 CallCreateObject
 Camera Recovery Mode Required
@@ -500,7 +501,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
-RSDSKH
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -526,6 +526,7 @@ StartVideoStream
 StopVideoStream
 Success
 TADItA
+TTb3@
 TdhEnumerateManifestProviderEvents
 TerminateProcess
 Thread exited immediately
@@ -602,7 +603,6 @@ Y__^[
 \2d2h2l2p2t2x2|2
 \3`3	484M4Q4
 ]J<0"0i3
-^}Wpn
 _CIpow
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -759,7 +759,6 @@ korean
 l2|X/gGe
 latam
 ldexp
-m)]b9|.
 m0k0$
 malloc
 map/set<T> too long

@@ -3699,7 +3699,6 @@ $wtpt
 1XgU9c=
 1ZZ&p;
 1hau-:%Kv
-1in/+P
 1pVu>E
 1r"#c$'i%*m#*e&-s'0w'2|48mH:X?AB7G~EFFKKKGJJSUUZ[\WUWQIUmUQrhTORlWiz]afbddjllgiggttrtty{{qvjhVc
 1wsHp
@@ -3721,7 +3720,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240105230344Z0/
+240116005016Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -3830,6 +3829,7 @@ $wtpt
 3=3333vDH
 3H>85
 3Pzr)
+3U1 \
 3Xt<y
 3^8AQ:- 
 3desc
@@ -3862,7 +3862,6 @@ $wtpt
 4@C3@
 4@ffffff9@
 4F|h5|
-4H>5D 
 4JpI?=
 4L(vg
 4O.pQW
@@ -10483,6 +10482,7 @@ N H;N(H
 N%NnN
 N-ERH%
 N0N94
+N3ItO5
 N8HcF
 N9OaP
 N=([Etb
@@ -11705,7 +11705,6 @@ RDHIu
 RECORD_BYTES
 RF##e
 RFb`/G1f
-RG zA[
 RGB OpColor for arithmetic modes
 RGB backColor
 RGB color space not permitted on grayscale PNG
@@ -14582,7 +14581,6 @@ _aligned_free
 _aligned_malloc
 _beginthread
 _beginthreadex
-_c$3*Q
 _cairo_win32_display_surface_flush
 _cairo_win32_display_surface_set_clip
 _cairo_win32_save_initial_clip
@@ -15787,7 +15785,6 @@ dpx:user.data
 dpx:user.id
 drepa
 dsheet
-dtbT*
 du o 
 duCD9w\
 duplicate
@@ -16280,6 +16277,7 @@ fclose
 fclose()
 fd != NULL
 features != NULL
+feh05>
 ferror
 ff3fffff
 fffff3ff
@@ -17502,7 +17500,6 @@ ivory3
 ivory4
 ivote.
 izol ce mamvj ka raq kuse bafkeh mew.
-i{Ha3
 j > 0
 j!3V$E
 j+@u'`
@@ -18175,7 +18172,6 @@ p L+p
 p UWATAVAWH
 p WATAUAVAWH
 p WAVAWH
-p2EC4;
 p88pD8pT8p`8pp8pp8`p8Tp8Dp88pD8pT8p`8pp8`p8Tp8Dp88p88pE8pT8p`8pp8`p8Tp8DpPPpXPp`PphPppPppPhpP`pPXpPPpXPp`PphPppPhpP`pPXpPPpPPpXPp`PphPppPrpP`pPXp
 p?, d
 p?l ?
@@ -18635,7 +18631,6 @@ push graphic-context "%s"
 push mask "%s"
 push pattern "%s" %g,%g %g,%g
 push symbol
-pvbWu
 pw@L7
 p{ xx-page.x-.5, yy-page.y-.5 }
 q		jx0
@@ -19886,6 +19881,7 @@ use "url(%s)"
 user-font method not implemented
 userSpaceOnUse
 userdict begin
+ute:9<
 utf9^
 uwA:Q
 uzf9^
@@ -20117,7 +20113,6 @@ xc@Je
 xdigit
 xendian
 xlink:href
-xlr}#-
 xml namespace URI cannot be the default namespace
 xml namespace URI mapped to wrong prefix
 xml namespace prefix mapped to wrong URI

@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	I0P8
     Object[
     SessionLabel[
  "functions" section contains non-string values.
@@ -133,6 +134,7 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
+.s{$	
 .text
 .text$di
 .text$mn
@@ -164,7 +166,7 @@
 220801000000Z
 230714000000Z
 2333333
-240105230352Z0/
+240116005024Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -187,6 +189,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+;FW2U>
 <0:08
 =rIQU
 >0<0:
@@ -317,6 +320,7 @@ ApiLayerInterface::LoadApiLayers succeeded loading layer
 ApiLayerManifestFile::CreateIfValid 
 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
 AuthD
+B2"hX
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -458,6 +462,7 @@ Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JAkoy
 KERNEL32.dll
 K}*n:	
 L#A0L
@@ -525,6 +530,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSc
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -551,7 +557,6 @@ RuntimeManifestFile::FindManifestFiles - using global runtime file
 RuntimeManifestFile::FindManifestFiles - using registry-specified runtime file 
 S0Q0O
 SA|X=G
-SBo"1
 SOFTWARE\Khronos\OpenXR\
 SUAVAWH
 SUWAVAWH
@@ -763,6 +768,7 @@ fputc
 fsetpos
 functions
 fwrite
+gLISQ
 gfffffffH
 gfffffffH+
 gfffffffI
@@ -791,6 +797,7 @@ invalid messenger pointer
 invalid properties
 invalid string position
 isValidJson indicates 
+j?a98:
 jj@0HK4
 k0i0$
 keylength >= 2^30
@@ -974,7 +981,8 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
-z+gYR
+y6[D8
+y[j15M
 {un'%
 |$ ATAVAWH
 |$ AVH

@@ -8,6 +8,7 @@
 	!s99
 	<bu 
 	@81t/@8q
+	@KI%
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -73,6 +74,7 @@
 %s setup error from %s
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
+&q1^1Gy
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
@@ -632,7 +634,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240105230105Z0/
+240116004725Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -646,7 +648,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5@Cl)
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -694,7 +695,6 @@
 => Entering Context
 =rIQU
 >0<0:
->;Asn
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -1238,7 +1238,6 @@ Flow control:
 FormatMessageA
 Found target %s (%4.4X:%4.4X Serial: %s)
 Found: %s, size: %d
-Fs#vBsw!D8
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
 G<f9F
 G>f9F
@@ -1484,7 +1483,6 @@ Not able to decode packet. Code 0x
 Not able to encode packet. Code: 0x
 Not able to open, current state is not valid
 Notification
-O!+;y
 OLEAUT32.dll
 OXL9OPt
 Out of thread local storage!
@@ -1739,6 +1737,7 @@ XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
 Y9"SD
+Y93;:y
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1749,6 +1748,7 @@ Zipfile is corrupt or not a zipfile
 [%s] Initialization attempt: %d
 [%s] Initialization failed after %d attempts and %.3f seconds
 [%s] Initialization succeeded after %d attempts and %.3f seconds
+[&dA|
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
@@ -1773,10 +1773,11 @@ Zipfile is corrupt or not a zipfile
 \$hI;
 \$pH;
 \$pI;
-\C=2gR
+\%IOt
 \Device Parameters
 \u=H;
 ]J<0"0i3
+]fib>
 ]gfff
 ^[0-9]+$
 _Cnd_broadcast
@@ -1884,6 +1885,7 @@ digit
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
+f+(2Q
 fD9$xu
 fD9&u
 fD9+u
@@ -1936,7 +1938,6 @@ invalid window size
 ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
-j$ZR<
 jj@0HK4
 k0i0$
 l$ H=
@@ -1985,6 +1986,7 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
+rdl{IJi
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2157,6 +2159,7 @@ uH9=(
 uKfff
 uL8]8v>H
 uT8\$xvEH
+u_Nkx
 ub'vb'v
 unknown
 unknown CONTROL packet type 0x
@@ -2179,6 +2182,7 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
+{B0|P
 {un'%
 {x\u!H
 {|?uWH
@@ -2213,8 +2217,8 @@ xdigit
 |$pf;
 |$ps`H
 |Lu?c
-}!60!
 }LuHO
+}h?.5
 ~'HcB
 ~qj#k"
 ~t&LN

@@ -1,11 +1,8 @@
 	!s99
  %41g
 !hn7!
-#vYWL
 ',=?k
-'e	d~{
 (f*^[0
-):Z>H
 +Xt@(
 +o'q)}
 ,W5y+
@@ -106,7 +103,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240105225500Z0/
+240116004753Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -142,7 +139,6 @@
 6!616:6I6O6U6[6a6g6m6s6y6
 6*f(_
 646X6d6l6
-67$t8
 6D6Z6
 6I]Dc
 6OB,n_
@@ -247,7 +243,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSV G
 RaiseException
 S0Q0O
 SA|X=G
@@ -285,6 +280,7 @@ TlsAlloc
 TlsFree
 UnhandledExceptionFilter
 Unknown exception
+Up(aX
 VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
@@ -293,7 +289,6 @@ WakeAllConditionVariable
 Washington1
 Y9"SD
 Y__^[
-Z$S^[
 [K]taM?
 ]J<0"0i3
 _Cnd_destroy
@@ -335,6 +330,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+`;^qA
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -344,6 +340,7 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
+g"Dyr
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -365,6 +362,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+ye vG
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

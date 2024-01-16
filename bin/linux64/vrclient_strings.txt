@@ -1021,6 +1021,7 @@ $tI
 /y/touch
 0 width
 0-pixel image
+00:45:52
 0123456789
 0123456789ABCDEF
 1
@@ -1284,7 +1285,6 @@ $tI
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:49:30
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -20942,7 +20942,7 @@ JFIF
 JSON string too short.
 JST
 Jan
-Jan  5 2024
+Jan 16 2024
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -23526,10 +23526,12 @@ VREvent_ScreenshotTriggered
 VREvent_ScrollDiscrete
 VREvent_ScrollSmooth
 VREvent_SeatedZeroPoseReset
+VREvent_SeatedZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_LOCAL.
 VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
 VREvent_ShowUI
+VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_LOCAL_FLOOR_EXT.
 VREvent_StartDashboard
 VREvent_StatusUpdate
 VREvent_SteamVRSectionSettingChanged
@@ -24096,7 +24098,7 @@ VR_Compositor_NewFrame
 VR_Compositor_NewPose
 VR_Compositor_NextVsyncIntervalMT
 VR_Compositor_NextVsyncIntervalRT
-VR_Compositor_OverlayVSync
+VR_Compositor_OverlayVSync1
 VR_Compositor_VulkanSyncClientAndCompositor
 VR_Compositor_VulkanSyncClientAndCompositor_SharedMem
 VR_CvTrackedHmdInternalNewRequestEvent
@@ -24845,6 +24847,7 @@ XR_EXT_frame_composition_report
 XR_EXT_hand_joints_motion_range
 XR_EXT_hand_tracking
 XR_EXT_hp_mixed_reality_controller
+XR_EXT_local_floor
 XR_EXT_palm_pose
 XR_FB_display_refresh_rate
 XR_FRAME_DISCARDED

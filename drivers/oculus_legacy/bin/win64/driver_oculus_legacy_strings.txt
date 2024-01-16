@@ -5,8 +5,9 @@
  9D$D
  A__^
  H3E H3E
- u)cO
 !hn7!
+#$Y9P
+%KO.M7W
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -92,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240105230324Z0/
+240116004956Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -105,7 +106,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4~qOi0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -123,11 +123,11 @@
 9h u{H
 9l$Ht
 9l$pt
-:$~a\FR.
 ;K sCH
 ;K sUH
 ;k sAH
 ;k sDH
+<(5x{
 <0:08
 =rIQU
 >0<0:
@@ -321,6 +321,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
+Z3jo#A
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -329,7 +330,6 @@ Y9"SD
 [OculusDirect] ovr_SubmitFrame - End
 \$ E3
 \$ UH
-].UH%
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -384,6 +384,7 @@ dk2_camera
 driver_oculus_legacy.dll
 effffff
 f9<Xu
+f|Y'?
 getenv
 gfffffffH
 headset
@@ -452,6 +453,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
+p+onJ
 startup
 string too long
 strncpy

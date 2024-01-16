@@ -57,6 +57,7 @@
 !hn7!
 "0)0C0
 "j h4_
+#!`}xt
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
 $PVh\
@@ -80,7 +81,6 @@ $Vh&*
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-)e9tP
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -709,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240105225420Z0/
+240116004709Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -851,6 +851,7 @@ $Vh&*
 5 5(5@5P5T5d5h5l5p5t5x5
 5 545<5\5
 5 6X6
+5 ^[;
 5"636:6{6
 5#6K6R6`6
 5$5(585<5@5H5`5p5t5
@@ -891,7 +892,6 @@ $Vh&*
 5d7v7&:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
-5t?aW6
 6	7U7Z7_7~7
 6	7V<
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6
@@ -1776,6 +1776,7 @@ K(PQh
 K,+K(+
 K,PQh
 KERNEL32.dll
+KsY19K
 K}*n:	
 L0h364
 L?n(Zy&
@@ -1908,6 +1909,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDS<
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2067,8 +2069,8 @@ VjqSPW
 VjrSPW
 VjySPW
 Vj{SPW
-Vt @eF
 W9shvN3
+W=saB
 WAKEUP
 WOKEN
 WS2_32.dll
@@ -2173,6 +2175,7 @@ _strupr_s
 `.rdata
 a7hIw
 a9~@u
+ac~on~o
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -2209,7 +2212,6 @@ digit
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
-f.v+#
 f;G$u
 f;G&u
 f;G(u
@@ -2284,6 +2286,7 @@ memchr
 memcpy
 memmove
 memset
+ms$"}Sk
 mutex
 need dictionary
 nrfserlib.dll
@@ -2295,6 +2298,7 @@ print
 punct
 realloc
 s?=2N
+sP)wU0R*/
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)

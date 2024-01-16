@@ -134,7 +134,7 @@
 #OriginString_HandSource
 #OriginString_Source
 $IL+Q
-$tI(knN
+$tI(knN"
 $u0Hi
 $u=Hi
 $u^Hi
@@ -414,6 +414,8 @@ $w!Hc
 ()$^.*+?[]|\-{},:=!
 (-[x*
 (9Q|uWH
+(=("'
+(=T('
 (A\^][
 (A\_^[
 (A]_^[
@@ -2077,6 +2079,7 @@ $w!Hc
 0A_^[
 0A__[
 0A__^
+0C!qwL
 0D9c0t'H
 0I;T$ H
 0w0c1
@@ -2092,7 +2095,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240105230743Z0/
+240116005408Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2215,6 +2218,7 @@ $w!Hc
 ;I#F0H
 ;K sMH
 ;K sOH
+;at?Q
 ;t:=x3
 ;u"E3
 ;|$ r
@@ -2445,6 +2449,7 @@ $w!Hc
 @SVWAVAWH
 @SVWAWH
 @SVWH
+@SWATH
 @SWAUAVAWH
 @SWAUH
 @SWAVAWH
@@ -3574,13 +3579,12 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
-D8%c])
 D8,8u
 D8/u0
 D840u
 D84;u
 D8<>u
-D8=93
+D8=)0
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -3588,7 +3592,6 @@ D8fht/H
 D8o)tJ
 D8o)tU
 D8ppty
-D8u<uNH
 D8wBt/H
 D8}gt$L
 D8}gu
@@ -4145,6 +4148,7 @@ GetProcAddress
 GetProcAddress( "D3D11On12CreateDevice" ) failed.
 GetProcessHeap
 GetProcessId
+GetReferenceSpaceFromRaw: Failed to fetch transform for specified reference space type
 GetSystemDirectoryW
 GetSystemTime
 GetSystemTimeAsFileTime
@@ -4180,7 +4184,6 @@ H#G0L
 H#L$8H
 H#OxH
 H#OxL
-H#~0H
 H$A;H
 H$A;I
 H(H+H H
@@ -4278,10 +4281,9 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=0:6
-H;=V:6
-H;=j~!
-H;=~-"
+H;=696
+H;=Z{!
+H;=n*"
 H;A s
 H;Axt
 H;C(v
@@ -4429,6 +4431,7 @@ HmdDriverFactory
 HmdSystemFactory
 How did we get here with a non-position slot?
 Hu"Hc
+I#~0H
 I(+K H
 I(I+I H
 I+G@H
@@ -4977,13 +4980,14 @@ L)l$`3
 L)l$h3
 L)l$xL),$Ak
 L+I0E3
+L0*eQ 
 L8 9J
 L8$9J
 L9 t'H
 L90t	H
 L93t	H
 L97u0H
-L9=}J
+L9=mG
 L9?u,H
 L9@ s
 L9A r
@@ -5035,7 +5039,7 @@ L;8u6H
 L;8u7H
 L;8u9H
 L;8u:H
-L;=P3'
+L;=0/'
 L;@ s
 L;@ u
 L;A s
@@ -5510,6 +5514,7 @@ RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
 RadialMenus can have a maximum of %d buttons, %d requested.
 RaiseException
+RcC5w)r-
 ReadBooleanValue of %s path
 ReadBooleanValue returned %s, time=%llu, origin=%s
 ReadFile
@@ -5953,7 +5958,6 @@ USVWAUH
 USVWAVAWH
 USVWAVAWI
 USVWAVH
-USVWAVI
 USVWH
 USWATAUAVAWH
 USWATAUAWH
@@ -6382,10 +6386,12 @@ VREvent_ScreenshotTriggered
 VREvent_ScrollDiscrete
 VREvent_ScrollSmooth
 VREvent_SeatedZeroPoseReset
+VREvent_SeatedZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_LOCAL.
 VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
 VREvent_ShowUI
+VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_LOCAL_FLOOR_EXT.
 VREvent_StartDashboard
 VREvent_StatusUpdate
 VREvent_SteamVRSectionSettingChanged
@@ -6722,7 +6728,7 @@ VR_Compositor_NewFrame
 VR_Compositor_NewPose
 VR_Compositor_NextVsyncIntervalMT
 VR_Compositor_NextVsyncIntervalRT
-VR_Compositor_OverlayVSync
+VR_Compositor_OverlayVSync1
 VR_CvTrackedHmdInternalNewRequestEvent
 VR_CvTrackedHmdInternalRequestProcessedEvent
 VR_CvTrackedHmdMutex
@@ -6863,7 +6869,6 @@ WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
 X%lk*
-X-|D#
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -6969,6 +6974,7 @@ XR_EXT_frame_composition_report
 XR_EXT_hand_joints_motion_range
 XR_EXT_hand_tracking
 XR_EXT_hp_mixed_reality_controller
+XR_EXT_local_floor
 XR_EXT_palm_pose
 XR_EXT_win32_appcontainer_compatible
 XR_FB_display_refresh_rate
@@ -7331,15 +7337,10 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%%Z)
-Y%wr&
-Y-MZ)
-Y5=p#
-Y5Hc"
-Y5N_"
-Y5QK"
+Y%Wn&
 Y9"SD
-Y=c|#
+Y=3z#
+Y=i0)
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -8291,6 +8292,7 @@ drop_speed
 duration
 dxgi.dll
 e0A_A^A]A\]
+e5OrE	A2
 eCS < CS_Count
 ePH9C tEH
 ePS < PS_Count
@@ -8328,6 +8330,7 @@ extensionsUsed
 external_drivers
 extras
 f(L9f@H
+f3sb&
 f9+t4
 f98tZH
 f98t\H
@@ -8511,6 +8514,7 @@ greek
 green
 gripLimitData
 h ATAVAWH
+h(M?r
 hA\^][
 hA^A\[]
 hA_A^A]A\_^[]
@@ -8655,6 +8659,7 @@ it->nRefCount > 0
 it_it
 italian
 ix`fA
+jQ]DN
 ja_jp
 japanese
 jj@0HK4
@@ -9782,7 +9787,7 @@ t3fff
 t4L9P
 t6H9.u1
 t7fff
-t8D8-ql,
+t8D8-
 t9fff
 t:fff
 t>H9n
@@ -9810,7 +9815,6 @@ t[H+A
 target
 targets
 tb9l$Xt@9n$~;
-tc I\
 tchinese
 tdh.dll
 terminate

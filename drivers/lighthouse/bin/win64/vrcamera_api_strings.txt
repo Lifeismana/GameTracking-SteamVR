@@ -44,9 +44,9 @@ $< t6<$t,<+t"<vt
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
+&	OxG
 ',=?k
 ()$^.*+?[]|\-{},:=!
-(4nJv
 (A^A\^[
 (A^A\_[
 (A^A]^[
@@ -349,6 +349,7 @@ $< t6<$t,<+t"<vt
 .tls$ZZZ
 .xdata
 .xdata$x
+0(=)"
 0123456789-
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
@@ -379,7 +380,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-240105230057Z0/
+240116004715Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -400,6 +401,7 @@ $< t6<$t,<+t"<vt
 6I]Dc
 6OB,n_
 70503
+7GFFZ
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8-uCH
 8-uGH
@@ -410,7 +412,6 @@ $< t6<$t,<+t"<vt
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8H;^XtB
 8T$0u
-8Vsv),
 8\$0u`H
 8\$0up
 8_	u7E3
@@ -452,6 +453,7 @@ $< t6<$t,<+t"<vt
 <HthH
 <xu<D
 <}wYI
+=:7V@
 =rIQU
 >0<0:
 >Mp$d
@@ -833,6 +835,7 @@ D;z,A
 D;z,u
 D;z,v	A
 DFailed to EnumPins.
+DU^(bt
 DecodePointer
 DeleteCriticalSection
 DeleteProcThreadAttributeList
@@ -1101,6 +1104,7 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MinConcurrency
 MultiByteToWideChar
+N'#0X[7g
 No Description
 No IPin available.
 No color stream to configure.
@@ -1570,7 +1574,6 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
-s%d(k
 setlocale
 setvbuf
 space
@@ -1671,7 +1674,6 @@ vector<bool> too long
 version
 vrcamera_api.dll
 w(HcODI
-wB@2b
 wcsnlen
 wcstoul
 wrong protocol type
@@ -1723,4 +1725,3 @@ yH;YXtl
 ~`D8I!t-
 ~qj#k"
 ~t&LN
-~~	[L

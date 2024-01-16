@@ -1,5 +1,6 @@
 	!s99
  %41g
+ 7$5+
  A_A^A\_^
  A_A^_
  A_][
@@ -8,7 +9,6 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
-$h!0X8%5G
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
@@ -17,6 +17,7 @@ $h!0X8%5G
 +Xt@(
 +o'q)}
 ,W5y+
+--]*	l
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -109,6 +110,7 @@ $h!0X8%5G
 .xdata$x
 0A^_]
 0A_A^A]A\_^[
+0KGXV
 0w0c1
 0}0i1
 1.0.0
@@ -118,7 +120,7 @@ $h!0X8%5G
 220323000000Z
 220801000000Z
 230714000000Z
-240105230001Z0/
+240116004609Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -144,11 +146,12 @@ $h!0X8%5G
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
+;7u>t 
 <0:08
 <P)9Y
 <unknown>
+=mIq2
 =rIQU
->/GBF
 >0<0:
 >Mp$d
 ?_Throw_C_error@std@@YAXH@Z
@@ -226,9 +229,9 @@ H9o8H
 H9o@H
 H9oHH
 HeapFree
+I4Mf(
 I9] M
 I9]8I
-IaeEK
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -261,7 +264,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS?
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -270,7 +272,6 @@ RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
 SA|X=G
-SMHsR
 SVWATAUAVAWH
 SVWATAVAWH
 Selected display mode: %dx%d @ %.1fHz
@@ -318,6 +319,7 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
+[G"Xs.
 [K]taM?
 \$ H;
 \$ UH
@@ -363,7 +365,7 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-aqddoK
+b:a=w
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb

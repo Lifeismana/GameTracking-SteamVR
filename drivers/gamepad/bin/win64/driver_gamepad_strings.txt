@@ -97,7 +97,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240105230212Z0/
+240116004841Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -120,6 +120,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
+9\O6e
 <0:08
 =rIQU
 >0<0:
@@ -136,7 +137,6 @@
 A9A A
 A_A^_
 A_A^_^]
-At,q"
 AuthD
 Bellevue1
 CloseHandle
@@ -203,13 +203,12 @@ MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 NPH9Q
-O>h`g
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-R6h1s
+RSDSc
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -261,6 +260,7 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
+WkQc]
 Y9"SD
 [K]taM?
 \$ UH
@@ -311,12 +311,14 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
-f=l?-
+enn/8
+he{ta@"
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+jfk{d
 jj@0HK4
 k0i0$
 l$8E3
@@ -353,6 +355,5 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
-~'R|"/
 ~qj#k"
 ~t&LN

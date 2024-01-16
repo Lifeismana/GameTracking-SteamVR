@@ -39,7 +39,6 @@
 	extension
 	name_part
 	type_name
-	vid=0x%x, pid=0x%x, sn=%ls
 	w2Hc
 	|$HA
      
@@ -1237,7 +1236,6 @@ $w!Hc
 .xdata
 .xdata$x
 /1v]H
-/5lE	
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1397,7 +1395,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240105230223Z0/
+240116004853Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1423,7 +1421,6 @@ $w!Hc
 6<framesToThrottle
 6I]Dc
 6OB,n_
-6Q%um
 6p7M=:P_:}u
 70503
 7HcC,
@@ -1457,6 +1454,7 @@ $w!Hc
 8E;~X|
 8H)t,E
 8H;^pu
+8L/1|n
 8L9-H
 8O0u]A
 8\$@t
@@ -2356,6 +2354,7 @@ CKeyframedDataResource
 CL$ 3
 CL$ H
 CL$0H
+CL$0f
 CL$8E3
 CL$HM;
 CL$PH
@@ -3489,7 +3488,6 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
-H9-g2!
 H91u 
 H92u&
 H92u,
@@ -3565,9 +3563,8 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=CC
-H;=SB
-H;=[;
+H;=$?
+H;=3B
 H;Axt
 H;B0t
 H;C sAH
@@ -4185,7 +4182,6 @@ L9d$ A
 L9jhu
 L9k8v
 L9l$0
-L9l$@
 L9l$@H
 L9l$`u
 L9l$pH
@@ -4194,6 +4190,7 @@ L9t$@
 L9w u
 L9{0t^H
 L9|$(u
+L9|$@
 L9|$`
 L9|$p
 L;(u?H
@@ -4283,7 +4280,6 @@ M9H s
 M;A r
 MAX10
 MB(iVR
-MD85X
 MFCreateMediaType
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
@@ -4540,6 +4536,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
+RSDS!g3
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4667,6 +4664,7 @@ SWAUAWH
 SWAUH
 SWAWH
 S\9SXuv
+S_3O}
 Samples didn't yield successful bootstrap pose
 Saved LighthouseDB rev %u to %s
 Saw %d early IMU related panics, using factory IMU cal
@@ -5510,7 +5508,7 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5I/!
+Y5+.!
 Y9"SD
 Y?33s?
 YAHH+
@@ -5650,6 +5648,7 @@ ZL$Xf
 \U%08x
 \\.\pipe\
 \\\\\\\\
+\cgvO/
 \d$`f
 \mfpmp.exe
 \u=H;
@@ -6197,9 +6196,9 @@ f;|$pt_H
 fB9<Bu
 fD9	u
 fD9&u
-fD9,Bu
+fD9<Bu
 fD;3t
-fF9,Au
+fF9<Au
 facet::CCompositionClient::AcquireCompositorSlot
 facet::CCompositionClient::AcquireImage
 facet::CCompositionClient::BeginFrameRendering
@@ -6372,7 +6371,6 @@ hid_get_product_string
 hid_get_serial_number_string
 hid_init
 hid_open
-hid_open_nths
 hid_open_path
 hid_read
 hid_read_timeout
@@ -7378,7 +7376,6 @@ usePrism
 usedisambiguation
 userdata
 u{L9=!
-v%q+2
 v(M;l
 v9fff
 v=Y]Bv

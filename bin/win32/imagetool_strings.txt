@@ -1426,6 +1426,7 @@
  ;w$|
  ;|$0|
  <xu1j
+ =(i}
  =c~!
  ?? ??? ???? ???? ????? ??? ????? ???????!
  A l 
@@ -1920,7 +1921,6 @@ $~O="""
 %2048s %2048s %2048s
 %2lu:
 %5.2lf	%.*g
-%5Byr
 %5EUeu
 %6d unresolved strings
 %8.*g %.*g
@@ -2128,7 +2128,6 @@ $~O="""
 &N''i
 &Pj&0
 &SAYS
-&Sr8R
 &UPVS
 &amp;
 &apos;
@@ -2831,6 +2830,7 @@ $~O="""
 ,t$@f
 ,t$Hf
 ,w+\$H
+,y'>V(
 -*Tl}T
 -0`0m0
 -1.0*
@@ -4336,7 +4336,7 @@ $~O="""
 23383I3l3
 2384x3370
 24 24
-240105225527Z0/
+240116004829Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -4888,7 +4888,6 @@ $~O="""
 3`4f4j4o4u4y4
 3a3f3
 3c4h4
-3d#DY_
 3d4l4
 3desc
 3e7o7
@@ -8701,7 +8700,6 @@ $~O="""
 >!?+?^?h?m?
 >!?-?7?g?t?
 >!?2?P?i?x?
->"!!J=
 >">'>
 >">'>6>;>c>|>
 >">,>q>
@@ -12134,6 +12132,7 @@ E-\q-i
 E0J0Y0^0
 E0i0{224
 E1O1T1
+E2|?`
 E;l$ ~
 E;l$4|
 E=FZGrH
@@ -15186,7 +15185,6 @@ P0Z0_0
 P0^0p0
 P1T1`1d1p1t1
 P6'D	a
-P9QVs
 P9t$<t
 P;L$ t
 P@>0>=4<=2AE*LM:UTAecg
@@ -18695,7 +18693,6 @@ Zoom Select Status
 [ghostscript library %.2f]%s: %s
 [zero-configuration]
 \ at end of pattern
-\#aFL
 \$ 9^
 \$ 9^Xu
 \$ 9~
@@ -18997,6 +18994,7 @@ Zoom Select Status
 ^-pR1
 ^1c1r1w1
 ^?y?^?
+^A&OJr
 ^DUW;
 ^HSVU
 ^L$`f
@@ -22038,6 +22036,7 @@ kach<
 kannada
 katakana
 kayah-li
+kc~+e
 kernel32.dll
 kerning
 kerning "%s"
@@ -22242,6 +22241,7 @@ lLVD782782994<:5@=8B:8A95=73<75:549009//61.62.63.641973?72B90H=1J>4H=4B80@61?62<
 lO"c3
 lQ 6|+G
 lSUVW3
+lU@13
 lW>J)X>K
 l`0@	
 la]^]Gf]Ij\E

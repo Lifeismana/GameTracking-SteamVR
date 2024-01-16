@@ -2328,6 +2328,7 @@ $
 0
 0 width
 0-pixel image
+00:45:34
 0123456789
 0123456789ABCDEF
 1
@@ -2558,7 +2559,6 @@ $
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:49:20
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -21394,7 +21394,7 @@ JFIF
 JSON string too short.
 JST
 Jan
-Jan  5 2024
+Jan 16 2024
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -24428,7 +24428,7 @@ VR_Compositor_NewFrame
 VR_Compositor_NewPose
 VR_Compositor_NextVsyncIntervalMT
 VR_Compositor_NextVsyncIntervalRT
-VR_Compositor_OverlayVSync
+VR_Compositor_OverlayVSync1
 VR_Compositor_VulkanSyncClientAndCompositor
 VR_Compositor_VulkanSyncClientAndCompositor_SharedMem
 VR_CvTrackedHmdInternalNewRequestEvent
