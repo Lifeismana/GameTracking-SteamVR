@@ -4333,8 +4333,8 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1844.369625
- r C.1847.369636
+ r C.1844.369636
+ r C.1847.369647
  r C.413.290188
  r CSWTCH.107
  r CSWTCH.16
@@ -19142,7 +19142,7 @@
  t GetSceneApplicationState(VRApplicationsState_t const*)
  t GetSharedResourceNamespace()
  t GetSharedResourceNamespace() [clone .cold]
- t GetSteamVRLanguage(ISteamUtils*)
+ t GetSteamLanguage(ISteamUtils*)
  t GetStringForCompositorError(vr::EVRCompositorError)
  t GetStringForInputActionType(EInputActionType)
  t GetStringForInputValueType(EInputValueType)
@@ -23069,7 +23069,7 @@
  t SplitInputPath(std::string const&, std::string*, std::string*) [clone .cold]
  t StandingFromOverlayNormal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&)
  t StaticCompositorPresent(int)
- t SteamLanguageToSteamVRLanguage(std::string const&)
+ t SteamLanguageToIsoLanguage(std::string const&)
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>::GetInterface()
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>::~SteamPrivateInterfaceRegistration()
  t SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>::GetInterface()

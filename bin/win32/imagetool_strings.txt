@@ -1426,7 +1426,6 @@
  ;w$|
  ;|$0|
  <xu1j
- =(i}
  =c~!
  ?? ??? ???? ???? ????? ??? ????? ???????!
  A l 
@@ -2529,6 +2528,7 @@ $~O="""
 +frame
 +function
 +fuzz
++g?8efFa
 +gamma
 +gaussian
 +gaussian-blur
@@ -2830,7 +2830,6 @@ $~O="""
 ,t$@f
 ,t$Hf
 ,w+\$H
-,y'>V(
 -*Tl}T
 -0`0m0
 -1.0*
@@ -4336,7 +4335,7 @@ $~O="""
 23383I3l3
 2384x3370
 24 24
-240116004829Z0/
+240117010814Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -9202,6 +9201,7 @@ $~O="""
 ?_Xout_of_range@std@@YAXPBD@Z
 ?c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\feature.c
 ?c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\shear.c
+?d2^K
 ?d?x?
 ?ffffff
 ?gibQ^AX>
@@ -10395,6 +10395,7 @@ Crosshair Cursor Y Coordinates
 CryptAcquireContextA
 CryptGenRandom
 CryptReleaseContext
+Ct[5(
 Cube LUT
 Cubic
 CubicSpline
@@ -12132,7 +12133,6 @@ E-\q-i
 E0J0Y0^0
 E0i0{224
 E1O1T1
-E2|?`
 E;l$ ~
 E;l$4|
 E=FZGrH
@@ -12370,6 +12370,7 @@ F ;F$u
 F PVt
 F j	h
 F t	P
+F! BR
 F"FgF
 F$3G$
 F$;F,s
@@ -16153,6 +16154,7 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDSA
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -18615,6 +18617,7 @@ YMAM+'2%7><KM@=;(7:/8@-h
 YOQ=Nm}
 YO];;=.23+;C1f
 YPbPr
+YSU~;4
 YShear/Image
 YShearImage
 YT$$f
@@ -18994,7 +18997,6 @@ Zoom Select Status
 ^-pR1
 ^1c1r1w1
 ^?y?^?
-^A&OJr
 ^DUW;
 ^HSVU
 ^L$`f
@@ -19256,6 +19258,7 @@ _wstat64i32
 `}@ReadXBMImage
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
+a#Xe|
 a0o0(121?1t1
 a3t3{3
 a4small
@@ -22036,7 +22039,6 @@ kach<
 kannada
 katakana
 kayah-li
-kc~+e
 kernel32.dll
 kerning
 kerning "%s"
@@ -22241,7 +22243,6 @@ lLVD782782994<:5@=8B:8A95=73<75:549009//61.62.63.641973?72B90H=1J>4H=4B80@61?62<
 lO"c3
 lQ 6|+G
 lSUVW3
-lU@13
 lW>J)X>K
 l`0@	
 la]^]Gf]Ij\E

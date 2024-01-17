@@ -6,9 +6,9 @@
 																												
 																																												
 	!s99
+	4|U>4
 	<bu 
 	@81t/@8q
-	@KI%
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -74,7 +74,6 @@
 %s setup error from %s
 %s: %s, SD v%d, %s, Attempt: %d
 %s: Failed in state: %d (nrf_error: %s)
-&q1^1Gy
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
@@ -634,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240116004725Z0/
+240117010711Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -895,6 +894,7 @@ Attribute Discovery
 AuthD
 Authentication
 Authentication status failed. (auth_status: %s)
+B@!<0
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -990,6 +990,7 @@ Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Baud rate: 
 Bellevue1
+BgEP~
 Bluetooth_Initialize
 Bootloader Mode
 C$9C w
@@ -1517,6 +1518,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSj
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1737,7 +1739,6 @@ XA_A\^]
 XA_A^_[H
 XX.XX.XXXXXXX
 Y9"SD
-Y93;:y
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1748,7 +1749,6 @@ Zipfile is corrupt or not a zipfile
 [%s] Initialization attempt: %d
 [%s] Initialization failed after %d attempts and %.3f seconds
 [%s] Initialization succeeded after %d attempts and %.3f seconds
-[&dA|
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
@@ -1773,11 +1773,9 @@ Zipfile is corrupt or not a zipfile
 \$hI;
 \$pH;
 \$pI;
-\%IOt
 \Device Parameters
 \u=H;
 ]J<0"0i3
-]fib>
 ]gfff
 ^[0-9]+$
 _Cnd_broadcast
@@ -1885,7 +1883,6 @@ digit
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
-f+(2Q
 fD9$xu
 fD9&u
 fD9+u
@@ -1910,6 +1907,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i.Ap=-
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1976,6 +1974,7 @@ need dictionary
 nrfserlib.dll
 ntelD
 oL$PH
+o^'+;
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
@@ -1986,7 +1985,7 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
-rdl{IJi
+q3+|V
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2159,7 +2158,6 @@ uH9=(
 uKfff
 uL8]8v>H
 uT8\$xvEH
-u_Nkx
 ub'vb'v
 unknown
 unknown CONTROL packet type 0x
@@ -2169,6 +2167,7 @@ unknown zip result code
 upH;~ uj
 upper
 v=Y]Bv
+v>q;[F
 vector<T> too long
 vector<bool> too long
 wcschr
@@ -2182,7 +2181,6 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
-{B0|P
 {un'%
 {x\u!H
 {|?uWH
@@ -2218,7 +2216,6 @@ xdigit
 |$ps`H
 |Lu?c
 }LuHO
-}h?.5
 ~'HcB
 ~qj#k"
 ~t&LN

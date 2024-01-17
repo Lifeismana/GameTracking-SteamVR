@@ -10745,7 +10745,7 @@
                         (e =
                           null === VRHTML || void 0 === VRHTML
                             ? void 0
-                            : VRHTML.GetSteamVRLanguage()) && void 0 !== e
+                            : VRHTML.GetSteamLanguage()) && void 0 !== e
                         ? e
                         : "english")),
               this.m_language
@@ -11249,7 +11249,7 @@
         const v =
           null === VRHTML || void 0 === VRHTML
             ? void 0
-            : VRHTML.GetSteamVRLanguage();
+            : VRHTML.GetSteamLanguage();
         null === VRHTML ||
           void 0 === VRHTML ||
           VRHTML.VROverlay.SetInputMethod(
@@ -11816,4 +11816,4 @@
   var n = o.O(void 0, [968, 683], () => o(5103));
   n = o.O(n);
 })();
-//# sourceMappingURL=keyboard.js.map?v=701750b597e715d9c36a
+//# sourceMappingURL=keyboard.js.map?v=9a5d5cf03ee936cda3e8

@@ -22,8 +22,6 @@
 		{	// etc
 		} } },
 	!s99
-	=J(:=
-	p6B0
 	{ 0x%x, 0x%x, %d, %d, {
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
@@ -59,7 +57,6 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-#~-(bK
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -311,6 +308,7 @@ $9E0u
 %s: unknown vulkan message severity
 %s: unsupported format
 %s: usage must be specified when allocating images
+%tLM<
 %u != %zu
 ',=?k
 ( nVertexCount % 3 ) == 0
@@ -533,7 +531,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-240116004743Z0/
+240117010731Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1178,6 +1176,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
 J>@G_
+JApcO
 KERNEL32.dll
 Kf;;u
 KfD;3u
@@ -1292,6 +1291,7 @@ M\fD9I
 MainThrd
 MapViewOfFile
 Mask Input Image
+Mbmg%
 MgH9E
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
@@ -1757,7 +1757,6 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 atanf
-b1y+S
 bad allocation
 bad array new length
 bad conversion
@@ -2023,6 +2022,7 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
+r'f`c
 r+w2H;
 r,fff
 r/w:I
@@ -2561,6 +2561,7 @@ vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
 vr-marker,frame_end,type,application
 vulkan-1.dll
+w$`%\T*
 wcsrchr
 wcsstr
 www.digicert.com1!0

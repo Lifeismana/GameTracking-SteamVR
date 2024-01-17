@@ -5014,7 +5014,7 @@
             ["bindingui"],
             null === VRHTML || void 0 === VRHTML
               ? void 0
-              : VRHTML.GetSteamVRLanguage(),
+              : VRHTML.GetSteamLanguage(),
           )
             .then(() => c.I.Init())
             .then(() => u.S.Init())
@@ -12236,4 +12236,4 @@
   var n = r.O(void 0, [968, 683], () => r(4599));
   n = r.O(n);
 })();
-//# sourceMappingURL=bindingcallouts.js.map?v=85bd6b3f595dacf88a57
+//# sourceMappingURL=bindingcallouts.js.map?v=a7c0f01153fd626d1381

@@ -1056,7 +1056,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240116005003Z0/
+240117010949Z0/
 241009235959Z0a1
 2D$x2
 2D$x@2
@@ -1079,7 +1079,6 @@ $w!Hc
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
-3VoTt
 3ba~H
 3ba~Ho,0bq
 3ba~Ho<0bq
@@ -1088,6 +1087,7 @@ $w!Hc
 3mq+<
 3xU)"P
 44\h44\h++}V++}V
+4<d":/
 4ESample #4
 4h8px
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -1108,7 +1108,6 @@ $w!Hc
 5@D5~w
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-6$:ZT
 6*f(_
 6666666666666666\\\\\\\\\\\\\\\\
 6I]Dc
@@ -1913,6 +1912,7 @@ CryptSetKeyParam
 CryptSetKeyParam Failed to set cypher (%08x)
 Ct$@H
 Current Driver Version does not support this NvEncodeAPI version, please upgrade driver
+Cz"ew
 C|$ H
 C|$0H
 C|$0L
@@ -3275,7 +3275,6 @@ Mv=Ao
 Mv=~`
 MyClass
 N I9N(
-NI^a6
 NO SOUND
 NOTPRESENT
 NPH9Q
@@ -3824,7 +3823,6 @@ T$xH;
 T$xL;
 T00`P
 T6$:.
-TAv\3&s$
 THROTTLE EVENT: %d
 TRR: %d
 TX Fail:%d
@@ -4225,7 +4223,6 @@ ZL$Xf
 \$xM1
 \h!T[
 \mfpmp.exe
-\p@Gk#
 \u=H;
 \|$,H
 \|$`D
@@ -4235,13 +4232,16 @@ ZL$Xf
 ] is not a JSON object.
 ] name = "
 ] name = [
+]2C&%
 ]9k0tVD
 ]@8d$
 ]J<0"0i3
 ]SVLHMDDriverD3D11::AcquireSync
 ]g@8yhu
+^.UIq
 ^9k0tWD
 ^lX8k
+_+e5+
 _>>B|>>B|
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -6952,7 +6952,6 @@ x)D$@
 x)L$0H
 x)l$P
 x)t$@
-x9>3c(
 xA^A\_^][
 xA_A^A]A\_^][
 x` u6H

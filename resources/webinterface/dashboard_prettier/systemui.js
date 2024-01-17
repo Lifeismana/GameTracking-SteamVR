@@ -12824,7 +12824,7 @@
                         ["vrmonitor", "dashboard", "bindingui"],
                         null === VRHTML || void 0 === VRHTML
                           ? void 0
-                          : VRHTML.GetSteamVRLanguage(),
+                          : VRHTML.GetSteamLanguage(),
                       ),
                       v.G3.Init(!0),
                       L.I.Init(!0),
@@ -13328,4 +13328,4 @@
   var r = n.O(void 0, [968, 683], () => n(9850));
   r = n.O(r);
 })();
-//# sourceMappingURL=systemui.js.map?v=1664c247f0c6e46b6232
+//# sourceMappingURL=systemui.js.map?v=c2aab7149dbebdbeefda

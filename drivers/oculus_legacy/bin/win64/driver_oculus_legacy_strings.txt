@@ -6,8 +6,6 @@
  A__^
  H3E H3E
 !hn7!
-#$Y9P
-%KO.M7W
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -88,12 +86,13 @@
 0w0c1
 0}0i1
 130801120000Z
+16D`v
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240116004956Z0/
+240117010939Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -127,8 +126,8 @@
 ;K sUH
 ;k sAH
 ;k sDH
-<(5x{
 <0:08
+<Z!9{E
 =rIQU
 >0<0:
 >Mp$d
@@ -320,8 +319,8 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+X#kn%
 Y9"SD
-Z3jo#A
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -384,7 +383,6 @@ dk2_camera
 driver_oculus_legacy.dll
 effffff
 f9<Xu
-f|Y'?
 getenv
 gfffffffH
 headset
@@ -397,6 +395,7 @@ jj@0HK4
 k0i0$
 l$8E3
 l2|X/gGe
+l>em@
 m0k0$
 malloc
 map/set<T> too long
@@ -453,7 +452,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-p+onJ
+qh)H=
 startup
 string too long
 strncpy
@@ -488,5 +487,6 @@ z(uMH
 |$8I;
 |Lu?c
 }LuHO
+}w,Tv
 ~qj#k"
 ~t&LN

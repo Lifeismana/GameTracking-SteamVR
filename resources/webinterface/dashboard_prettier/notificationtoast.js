@@ -4023,9 +4023,7 @@
         (0, o.gn)([a.ak], c.prototype, "OnRenderToast", null),
           (0, l.CK)(
             [],
-            null === s.Co || void 0 === s.Co
-              ? void 0
-              : s.Co.GetSteamVRLanguage(),
+            null === s.Co || void 0 === s.Co ? void 0 : s.Co.GetSteamLanguage(),
           )
             .then(() => {
               i.render(
@@ -11248,4 +11246,4 @@
   var n = o.O(void 0, [968, 683], () => o(855));
   n = o.O(n);
 })();
-//# sourceMappingURL=notificationtoast.js.map?v=fbb691bbc00970804965
+//# sourceMappingURL=notificationtoast.js.map?v=234aad18558db23ff559

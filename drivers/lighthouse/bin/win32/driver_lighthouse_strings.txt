@@ -378,6 +378,7 @@ $tI<unknown>
 (Reset)
 (T$ f
 (f*^[0
+(ga/"
 (merge 
 ) deg
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
@@ -1179,7 +1180,7 @@ $tI<unknown>
 230714000000Z
 232p3
 234z4
-240116004804Z0/
+240117010800Z0/
 241009235959Z0a1
 242>2
 242@2H2h2
@@ -1559,6 +1560,7 @@ $tI<unknown>
 4n7s7z7
 4o5t5
 4x7|7
+4yhM&
 4z5~6
 4}6E7
 4~4?5
@@ -3123,6 +3125,7 @@ $tI<unknown>
 >Mp$d
 >N>W>`>i>n>s>z>'?0?9?B?G?L?S?
 >P?X?v?
+>V5zD9a<-
 >W?m?s?z?
 >X9t?
 >Z?`?o?w?
@@ -4307,6 +4310,7 @@ IsDebuggerPresent
 IsManual
 IsProcessorFeaturePresent
 IsWow64Process
+J%,'\MD
 J0+J(
 J>@G_
 JSON Update
@@ -4382,6 +4386,7 @@ MFCreateSample
 MFCreateSample failed: hr = 0x%08x
 MIPI Init
 MIPI Init Error
+MN*!u\
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for
 MainSteamVR
@@ -4616,7 +4621,7 @@ R8F;u
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPj#h
-RSDSn
+RSDSk
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -6109,7 +6114,6 @@ j!j!hA
 j$hH_
 j(hp_
 j0z0 1e1k1x1|1
-j1-KNK
 j1j1ha	
 j2hTm
 j3h4 
@@ -6276,12 +6280,10 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-nxmSj
 object
 object key
 object separator
 occlusionTexture
-offjo
 offset
 ole32.dll
 oneof_decl
@@ -6778,7 +6780,6 @@ yxxx+
 y~Kmf
 y~Lff
 z?X9T?
-z].|y
 zd?/n
 zh_cn
 zh_tw

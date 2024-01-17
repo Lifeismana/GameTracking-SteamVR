@@ -3957,9 +3957,7 @@
         Promise.all([
           (0, a.CK)(
             ["vrmonitor", "bindingui"],
-            null === i.Co || void 0 === i.Co
-              ? void 0
-              : i.Co.GetSteamVRLanguage(),
+            null === i.Co || void 0 === i.Co ? void 0 : i.Co.GetSteamLanguage(),
           ),
           s.G3.Init(!0),
           l.I.Init(!0),
@@ -11188,4 +11186,4 @@
   var n = o.O(void 0, [968, 683], () => o(1983));
   n = o.O(n);
 })();
-//# sourceMappingURL=settings_desktop.js.map?v=8d0951fb8cebb5e2bd99
+//# sourceMappingURL=settings_desktop.js.map?v=31e67e2ad2706a04d3af

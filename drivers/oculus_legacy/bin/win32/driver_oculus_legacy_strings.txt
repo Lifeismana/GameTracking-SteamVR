@@ -2,6 +2,7 @@
  %41g
  (Camera)
 !hn7!
+"vJQ)t
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
@@ -92,7 +93,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240116004814Z0/
+240117010809Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -200,7 +201,6 @@
 ?$?)?/?7???D?J?R?Z?_?e?m?u?z?
 ?:?m?v?
 ?<?H?P?|?
-?Fnnk 
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -292,8 +292,10 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+Qo42R
 QueryPerformanceCounter
 RPCRT4.dll
+RSDSx
 RaiseException
 S0Q0O
 SA|X=G
@@ -412,7 +414,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
-n>[XP=
+n/S."c
 oculus
 ovrHmd_ConfigureTracking failed for %d
 ovrHmd_Create failed
@@ -467,6 +469,7 @@ strncpy_s
 strstr
 tdh.dll
 terminate
+u7[ewQ
 u7j8Q
 uCVj@
 v=Y]Bv
@@ -485,5 +488,6 @@ www.digicert.com1$0"
 {un'%
 |Lu?c
 }LuHO
+}V5fo{
 ~qj#k"
 ~t&LN

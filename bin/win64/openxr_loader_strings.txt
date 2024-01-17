@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	I0P8
     Object[
     SessionLabel[
  "functions" section contains non-string values.
@@ -43,6 +42,7 @@
  was not found
  with error 
 !hn7!
+%hcz0
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -134,7 +134,6 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.s{$	
 .text
 .text$di
 .text$mn
@@ -166,7 +165,7 @@
 220801000000Z
 230714000000Z
 2333333
-240116005024Z0/
+240117011010Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -189,7 +188,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;FW2U>
 <0:08
 =rIQU
 >0<0:
@@ -320,7 +318,6 @@ ApiLayerInterface::LoadApiLayers succeeded loading layer
 ApiLayerManifestFile::CreateIfValid 
 ApiLayerManifestFile::FindManifestFiles - unknown manifest file requested
 AuthD
-B2"hX
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -395,6 +392,7 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Duplicate key: '
 E8,9u
+E@:Xgz@d}
 Empty escape sequence in string
 EnterCriticalSection
 Entering LoaderInstance::CreateInstance
@@ -462,7 +460,6 @@ Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JAkoy
 KERNEL32.dll
 K}*n:	
 L#A0L
@@ -530,7 +527,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSc
+RSDS=
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -627,6 +624,7 @@ Value is not convertible to UInt.
 Value is not convertible to bool.
 Valve Corp.0
 Valve Corp.1
+Vc=hF
 Verbose [
 WATAUAVAWH
 WATAVH
@@ -768,7 +766,6 @@ fputc
 fsetpos
 functions
 fwrite
-gLISQ
 gfffffffH
 gfffffffH+
 gfffffffI
@@ -797,7 +794,6 @@ invalid messenger pointer
 invalid properties
 invalid string position
 isValidJson indicates 
-j?a98:
 jj@0HK4
 k0i0$
 keylength >= 2^30
@@ -811,6 +807,7 @@ l$pE3
 l$ptNH
 l$pu!H
 l2|X/gGe
+lV\FX
 labelInfo must be non-NULL
 layer 
 library_path
@@ -981,8 +978,6 @@ xrTryGetPerceptionAnchorFromSpatialAnchorMSFT
 xrUpdateHandMeshMSFT
 xrWaitFrame
 xrWaitSwapchainImage
-y6[D8
-y[j15M
 {un'%
 |$ ATAVAWH
 |$ AVH
@@ -1005,6 +1000,7 @@ y[j15M
 |$xIi
 |Lu?c
 }LuHO
+}]Nrtu(
 ~+fff
 ~qj#k"
 ~t&LN

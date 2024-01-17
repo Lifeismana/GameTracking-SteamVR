@@ -13495,7 +13495,7 @@
           ["bindingui"],
           null === VRHTML || void 0 === VRHTML
             ? void 0
-            : VRHTML.GetSteamVRLanguage(),
+            : VRHTML.GetSteamLanguage(),
         )
           .then(() => De.n.Init())
           .then(() => j.S.Init())
@@ -20773,4 +20773,4 @@
   var i = o.O(void 0, [968, 683], () => o(1176));
   i = o.O(i);
 })();
-//# sourceMappingURL=controllerbindingui.js.map?v=4c7314bd6a57e797ff9a
+//# sourceMappingURL=controllerbindingui.js.map?v=1894f3ff5bfeabc064e6

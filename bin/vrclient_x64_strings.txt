@@ -412,10 +412,9 @@ $w!Hc
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
 ()$^.*+?[]|\-{},:=!
-(-[x*
 (9Q|uWH
-(=("'
-(=T('
+(=82'
+(=d8'
 (A\^][
 (A\_^[
 (A]_^[
@@ -651,6 +650,7 @@ $w!Hc
 -Infinity
 -S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 -disablewatchdogs
+-lang="
 -nokillprocess
 -personality_distort
 -preloadonly -preloadvpks_all
@@ -2079,7 +2079,6 @@ $w!Hc
 0A_^[
 0A__[
 0A__^
-0C!qwL
 0D9c0t'H
 0I;T$ H
 0w0c1
@@ -2095,7 +2094,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240116005408Z0/
+240117011422Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2218,7 +2217,6 @@ $w!Hc
 ;I#F0H
 ;K sMH
 ;K sOH
-;at?Q
 ;t:=x3
 ;u"E3
 ;|$ r
@@ -2379,6 +2377,7 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
+@/_jp
 @8I+@0H
 @8i(u
 @8u$t0@8u#t*
@@ -2801,6 +2800,7 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
+C-~5)
 C0L9$
 C0L;E
 C0L;F
@@ -3580,11 +3580,11 @@ D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
 D8,8u
+D8-q?'
 D8/u0
 D840u
 D84;u
 D8<>u
-D8=)0
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -4281,9 +4281,9 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=696
-H;=Z{!
-H;=n*"
+H;=6I6
+H;=:a!
+H;=>-"
 H;A s
 H;Axt
 H;C(v
@@ -4980,14 +4980,12 @@ L)l$`3
 L)l$h3
 L)l$xL),$Ak
 L+I0E3
-L0*eQ 
 L8 9J
 L8$9J
 L9 t'H
 L90t	H
 L93t	H
 L97u0H
-L9=mG
 L9?u,H
 L9@ s
 L9A r
@@ -5039,7 +5037,6 @@ L;8u6H
 L;8u7H
 L;8u9H
 L;8u:H
-L;=0/'
 L;@ s
 L;@ u
 L;A s
@@ -5146,6 +5143,7 @@ M;A r
 M;C(s
 M;F0u	
 M;H s
+M<Z>S&
 MB(iVR
 MHH9uPt
 ML$hH
@@ -5514,7 +5512,6 @@ RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
 RadialMenus can have a maximum of %d buttons, %d requested.
 RaiseException
-RcC5w)r-
 ReadBooleanValue of %s path
 ReadBooleanValue returned %s, time=%llu, origin=%s
 ReadFile
@@ -6868,7 +6865,7 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
-X%lk*
+X%l{*
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7337,10 +7334,8 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%Wn&
 Y9"SD
-Y=3z#
-Y=i0)
+Y=i@)
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -8292,7 +8287,6 @@ drop_speed
 duration
 dxgi.dll
 e0A_A^A]A\]
-e5OrE	A2
 eCS < CS_Count
 ePH9C tEH
 ePS < PS_Count
@@ -8330,7 +8324,6 @@ extensionsUsed
 external_drivers
 extras
 f(L9f@H
-f3sb&
 f9+t4
 f98tZH
 f98t\H
@@ -8454,6 +8447,7 @@ ftell
 fwrite
 fxL9f0H
 g(u^H
+g6H	<
 g9k0t_D
 gamepad
 generator
@@ -8514,7 +8508,6 @@ greek
 green
 gripLimitData
 h ATAVAWH
-h(M?r
 hA\^][
 hA^A\[]
 hA_A^A]A\_^[]
@@ -8659,7 +8652,6 @@ it->nRefCount > 0
 it_it
 italian
 ix`fA
-jQ]DN
 ja_jp
 japanese
 jj@0HK4

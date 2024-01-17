@@ -14,10 +14,9 @@
  H3E H3E
  for detail.
  formatting error code 
- x7'b
 !! refusing to trigger minidump with debugger attached
-!M&+P3
 !hn7!
+#o~Au
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -33,6 +32,7 @@
 (t$@H
 (|$ H
 )D$ L
+)Go>b
 )t$ H
 )t$0H
 )t$@H
@@ -160,6 +160,7 @@
 0A__[
 0w0c1
 0}0i1
+1/N~c
 130801120000Z
 1e+9999
 210429000000Z
@@ -167,7 +168,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240116005454Z0/
+240117011509Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -193,11 +194,11 @@
 < t+<
 </u#H
 <0:08
+<pu=c
 <unknown>
 =rIQU
 >0<0:
 >Mp$d
->W|A[]V
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -341,7 +342,6 @@ CreateThread
 Created desktop staging texture.
 Created desktop upload texture.
 Cursor has neither color nor mask bitmap.
-Czwu"
 C|$PL
 D	d$LI
 D	l$L
@@ -541,7 +541,6 @@ Initializing output duplication for desktop view %d.
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JDs^y
 K32GetModuleFileNameExW
 KERNEL32.dll
 K}*n:	
@@ -574,7 +573,6 @@ LoadLibraryA
 LocalFree
 LocalizationManager
 M H1E
-M#V6AXN
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -958,7 +956,6 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
-}6o2m
 }LuHO
 ~qj#k"
 ~t&LN

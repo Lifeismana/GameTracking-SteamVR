@@ -10797,9 +10797,7 @@
             ),
           (0, d.CK)(
             [],
-            null === l.Co || void 0 === l.Co
-              ? void 0
-              : l.Co.GetSteamVRLanguage(),
+            null === l.Co || void 0 === l.Co ? void 0 : l.Co.GetSteamLanguage(),
           )
             .then(() => {
               i.render(
@@ -11358,4 +11356,4 @@
   var n = o.O(void 0, [968, 683], () => o(3184));
   n = o.O(n);
 })();
-//# sourceMappingURL=messageoverlay.js.map?v=de57aee929c559ca9292
+//# sourceMappingURL=messageoverlay.js.map?v=806d3ef46519857624fd

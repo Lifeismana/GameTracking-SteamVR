@@ -57,7 +57,6 @@
 !hn7!
 "0)0C0
 "j h4_
-#!`}xt
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
 $PVh\
@@ -81,6 +80,8 @@ $Vh&*
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
+)[r/eo
+*?o~5
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -563,6 +564,8 @@ $Vh&*
 .tls$
 .tls$ZZZ
 .xdata$x
+/Q_%f
+/V{st
 /t;_^2
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$04080<0D0\0l0p0
@@ -709,7 +712,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240116004709Z0/
+240117010707Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -851,7 +854,6 @@ $Vh&*
 5 5(5@5P5T5d5h5l5p5t5x5
 5 545<5\5
 5 6X6
-5 ^[;
 5"636:6{6
 5#6K6R6`6
 5$5(585<5@5H5`5p5t5
@@ -1040,6 +1042,7 @@ $Vh&*
 8W9n9x9
 8\8l8
 8^8q8x8
+8^EFC+
 8_^[]
 8j8?:U:
 8m97:>:L:P:
@@ -1236,6 +1239,7 @@ $Vh&*
 <X<\<`<d<h<l<p<t<x<|<
 <]<w<
 <b?i?
+<r<pv
 <u={=
 = =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
 = =$=4=8=<=D=\=l=p=
@@ -1776,7 +1780,6 @@ K(PQh
 K,+K(+
 K,PQh
 KERNEL32.dll
-KsY19K
 K}*n:	
 L0h364
 L?n(Zy&
@@ -1902,6 +1905,7 @@ Power Control
 Progress: %d%% (%d/%d)
 Pz}b!
 Q0;Q(t#
+QLNL9
 QPh@	
 Qkkbal
 QueryPerformanceCounter
@@ -1909,7 +1913,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS<
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2070,7 +2073,6 @@ VjrSPW
 VjySPW
 Vj{SPW
 W9shvN3
-W=saB
 WAKEUP
 WOKEN
 WS2_32.dll
@@ -2175,7 +2177,6 @@ _strupr_s
 `.rdata
 a7hIw
 a9~@u
-ac~on~o
 additional six characters expected to parse unicode surrogate pair.
 alnum
 alpha
@@ -2209,6 +2210,7 @@ dat_file
 data error
 deque<T> too long
 digit
+eAtpJ
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2286,7 +2288,6 @@ memchr
 memcpy
 memmove
 memset
-ms$"}Sk
 mutex
 need dictionary
 nrfserlib.dll
@@ -2298,7 +2299,6 @@ print
 punct
 realloc
 s?=2N
-sP)wU0R*/
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)

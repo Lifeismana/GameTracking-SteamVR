@@ -216,7 +216,6 @@ $w!Hc
 ,9{0t%H
 ,W5y+
 -1003
--1N7_y
 -1e+9999
 -3003
 -9k0t&H
@@ -462,7 +461,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240116004953Z0/
+240117010935Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -482,6 +481,7 @@ $w!Hc
 69k0t1
 6I]Dc
 6OB,n_
+6aN<nt
 6p7M=:P_:}u
 7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 70503
@@ -1283,7 +1283,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS6 =
+RSDS~+]
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1725,7 +1725,6 @@ corrupt
 count
 cs_cs
 czech
-c},)d
 d$ H;
 d$ UAVAWH
 d$$E3
@@ -2138,7 +2137,6 @@ pA_A^_
 pA_A^_^]
 pNewResource
 pNewResource->Load( absFilePath )
-pX1!R
 parameter must be a string or number / number array.
 parse error
 parse_error
@@ -2164,7 +2162,6 @@ returnAddress
 rift_camera
 rifts
 right_controller
-rnZv<
 ro_ro
 romanian
 rotation

@@ -11883,9 +11883,7 @@
         (0, l.Op)() == l.qA.Overlay && D.classList.add("VROverlay"),
           (0, d.CK)(
             ["vrmonitor"],
-            null === l.Co || void 0 === l.Co
-              ? void 0
-              : l.Co.GetSteamVRLanguage(),
+            null === l.Co || void 0 === l.Co ? void 0 : l.Co.GetSteamLanguage(),
           )
             .then(() => {
               var e;
@@ -11967,4 +11965,4 @@
   var n = o.O(void 0, [968, 683], () => o(7923));
   n = o.O(n);
 })();
-//# sourceMappingURL=vrmonitor.js.map?v=9fdb59f2796b96295f51
+//# sourceMappingURL=vrmonitor.js.map?v=93a46e6a884cdbdbc22e

@@ -35,7 +35,6 @@
 %%.%dg
 %2.2X
 %8.8X
-%XQ(G
 %s setup error from %s
 %s: %s
 %s: ( %d ): ReadFile failed! (%s)
@@ -108,7 +107,6 @@
 )D$ L
 )t$@H
 )t$PA
-*Vg<U
 *uXI;
 +9kdt	H
 +Xt@(
@@ -123,7 +121,6 @@
 -status
 -stop
 -u-I;
--uZ `
 -version
 .00cfg
 .?AU_Crt_new_delete@std@@
@@ -231,7 +228,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240116004729Z0/
+240117010716Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -243,8 +240,8 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3l~ i
 3mq+<
-4gXcpW
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -831,6 +828,7 @@ SUVWATAUAVAWH
 SVATAUAVAWH
 SVWATAUAVAWH
 SVWAVAWH
+S^PYxB
 Selecting Data Packet:
 Selecting Init Packet:
 Send CRC Command.
@@ -1159,7 +1157,6 @@ dat_file
 data error
 deque<T> too long
 digit
-e TNG
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1184,7 +1181,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i[9%\7cx
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1211,7 +1207,6 @@ invalid string position
 invalid vector<T> subscript
 invalid window size
 isxdigit
-j%I2m
 jj@0HK4
 k0i0$
 l$ H;
@@ -1251,6 +1246,7 @@ r9=/N
 realloc
 runas
 s#fff
+s.VSc
 soH9t$@t
 space
 stoi argument out of range

@@ -1,6 +1,5 @@
 	!s99
  %41g
-!8@ee
 !hn7!
 ',=?k
 (f*^[0
@@ -86,7 +85,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240116004806Z0/
+240117010802Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -133,12 +132,14 @@
 : :(:@:P:T:d:h:p:
 :#:):/:5:;:A:G:M:S:Y:_:e:k:q:
 :#:1:;:D:M:X:]:k:u:~:
+:R|vU
 ;$;-;9;B;G;X;b;k;w;
 ;,;0;@;D;H;L;T;l;
 <0:08
 <0E0N0W0\0a0h0V1a1 3)3A3j4
 <5=:=D=M=X=^=d=
 <<<C<r<
+<cQUc~
 =B=J=s=}=
 =rIQU
 >#>,>5>:>?>F>
@@ -160,6 +161,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+G]f@m8!
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -197,11 +199,12 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSWQ
+R\I_n
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
 TerminateProcess
+T|^S0SYZ
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
@@ -209,11 +212,13 @@ VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-Vn|nfP
 Washington1
+X"F.*&W
 Y9"SD
 Y__^[
+Yf	R56
 [K]taM?
+[`hoS
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -282,7 +287,6 @@ secondsFromVsyncToPhotons
 serialNumber
 steamvr
 string too long
-t}'aP
 uCVj@
 v=Y]Bv
 vector<T> too long
@@ -294,6 +298,7 @@ www.digicert.com1!0
 www.digicert.com1$0"
 {un'%
 |Lu?c
+}91]ycd
 }LuHO
 ~qj#k"
 ~t&LN

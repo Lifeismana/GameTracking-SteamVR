@@ -11,7 +11,6 @@ $9^ t
 %,3:;4-&
 %3333
 %UUUU
-&\Q20
 ',=?k
 '.5<=6/7>????????????????
 (Enumerating)
@@ -174,7 +173,7 @@ $9^ t
 22363
 230714000000Z
 232;2G2[2f2y2
-240116004705Z0/
+240117010704Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -198,7 +197,6 @@ $9^ t
 370322235959Z0c1
 380115120000Z0b1
 394B4S4_4k4q4w4
-3:/Jc-
 3:4z4
 3=5E5W5_5
 3@3U3a3g3m3s3y3
@@ -382,7 +380,6 @@ AitUVCExtApi.dll
 B3I3~3
 BMP RLE
 Bellevue1
-C!Vp4
 CAMCMD_GET_OPENCAMERA_RESULT
 CallCreateObject
 Camera Recovery Mode Required
@@ -412,6 +409,8 @@ EventUnregister
 EventWrite
 EventWriteString
 F(j4f
+F5rWN^
+FCcfQ$
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -469,7 +468,9 @@ InitializeCriticalSectionEx
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
+I~X&=?
 J>@G_
+JPY%D>]i9
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -488,6 +489,7 @@ Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
 P<^_3
+P=\uF
 PAq=?Mp#
 PID_%04X
 PQhX+
@@ -501,6 +503,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
+RSDSj
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -526,7 +529,6 @@ StartVideoStream
 StopVideoStream
 Success
 TADItA
-TTb3@
 TdhEnumerateManifestProviderEvents
 TerminateProcess
 Thread exited immediately
@@ -594,6 +596,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
+Y%	=wxyf
 Y9"SD
 Y__^[
 [Camera] OnCamSyncEvent(%d,%d,%lf)
@@ -757,6 +760,7 @@ k0i0$
 ko_ko
 korean
 l2|X/gGe
+l;slp&
 latam
 ldexp
 m0k0$

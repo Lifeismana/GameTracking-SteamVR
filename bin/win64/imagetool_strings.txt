@@ -3720,7 +3720,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240116005016Z0/
+240117011001Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -3829,7 +3829,6 @@ $wtpt
 3=3333vDH
 3H>85
 3Pzr)
-3U1 \
 3Xt<y
 3^8AQ:- 
 3desc
@@ -3861,6 +3860,7 @@ $wtpt
 4?324?ca4?
 4@C3@
 4@ffffff9@
+4A"%o
 4F|h5|
 4JpI?=
 4L(vg
@@ -5004,6 +5004,7 @@ A,3B,
 A0D9D
 A0Ic@
 A1YD8K ~
+A1|'y
 A5~:/y;/u>.z4)
 A8>tZf
 A8H;U v
@@ -10482,7 +10483,6 @@ N H;N(H
 N%NnN
 N-ERH%
 N0N94
-N3ItO5
 N8HcF
 N9OaP
 N=([Etb
@@ -14879,6 +14879,7 @@ azure2
 azure3
 azure4
 b"$ V'(
+b#L1<
 b&;AL
 b,Lcz0D
 b<bu(L
@@ -16277,7 +16278,6 @@ fclose
 fclose()
 fd != NULL
 features != NULL
-feh05>
 ferror
 ff3fffff
 fffff3ff
@@ -18830,6 +18830,7 @@ s?? yish???go b
 sCH;]@u"L
 sFFoA
 sFFou
+sIA	~?/Z	[
 sND8l
 sPLT chunk has bad length
 sPLT chunk requires too much memory
@@ -19881,7 +19882,6 @@ use "url(%s)"
 user-font method not implemented
 userSpaceOnUse
 userdict begin
-ute:9<
 utf9^
 uwA:Q
 uzf9^

@@ -334,6 +334,7 @@ $
 -disablewatchdogs
 -in-
 -ipccontrolfilepath
+-lang="
 -nokillprocess
 -personality_distort
 -preloadonly -preloadvpks_all
@@ -2328,9 +2329,9 @@ $
 0
 0 width
 0-pixel image
-00:45:34
 0123456789
 0123456789ABCDEF
+01:05:04
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -3277,8 +3278,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1860.370856
-C.1863.370867
+C.1860.370867
+C.1863.370878
 C.427.290275
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -17797,7 +17798,7 @@ GetRuntimeLibraryPath() [clone .cold]
 GetSceneApplicationState(VRApplicationsState_t const*)
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() [clone .cold]
-GetSteamVRLanguage(ISteamUtils*)
+GetSteamLanguage(ISteamUtils*)
 GetStringForCompositorError(vr::EVRCompositorError)
 GetStringForCompositorError(vr::EVRCompositorError)::buf
 GetStringForInputActionType(EInputActionType)
@@ -21394,7 +21395,7 @@ JFIF
 JSON string too short.
 JST
 Jan
-Jan 16 2024
+Jan 17 2024
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -23192,7 +23193,7 @@ SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
 SteamAppId
 SteamGameId
-SteamLanguageToSteamVRLanguage(std::string const&)
+SteamLanguageToIsoLanguage(std::string const&)
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>::GetInterface()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_001>::~SteamPrivateInterfaceRegistration()
 SteamPrivateInterfaceRegistration<CVRSteamPrivate_002>::GetInterface()
