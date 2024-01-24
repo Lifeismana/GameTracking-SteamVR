@@ -16,7 +16,6 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-#+?UB
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -35,9 +34,11 @@
 )t$ H
 )t$0H
 )t$@H
+*RUd-9
 *uXI;
 +Xt@(
 +o'q)}
++o1FlW
 , last executing in 
 ,W5y+
 -1e+9999
@@ -182,7 +183,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240117011519Z0/
+240124191618Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -207,7 +208,6 @@
 8_^][
 9D$xu
 9D$|toH
-9I]X\
 < t+<
 </u#H
 <0:08
@@ -455,7 +455,6 @@ Exceeded stackLimit in readValue().
 Exception encountered closing capture frame pool (%d): %s
 Exception encountered closing graphics capture session (%d): %s
 Executable: %s
-F:HtM.
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -538,7 +537,6 @@ H;Cxu
 H;{XH
 H;}PtwH
 HA^_^[
-HL0ZvT
 HMD D3D11CreateDevice failed.
 HMD IDXGIAdapter (%s)
 HMD context (%s)
@@ -611,6 +609,7 @@ IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
+KY#/3H
 K}*n:	
 L$ E3
 L$ H;
@@ -808,7 +807,6 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
-\j`iPx+
 \u=H;
 ]J<0"0i3
 ]g@8yhu
@@ -932,7 +930,6 @@ german
 gfffffffH
 gfffffffI
 greek
-hNnz+
 h_^[]
 handlers
 http://ocsp.digicert.com0A
@@ -959,6 +956,7 @@ invalid string position
 iswspace
 it_it
 italian
+jE|	9
 ja_jp
 japanese
 jj@0HK4
@@ -1104,5 +1102,6 @@ zh_tw
 |$pH+
 |Lu?c
 }LuHO
+~XuC	NH
 ~qj#k"
 ~t&LN

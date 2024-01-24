@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	VmRd,
  %41g
  A_A^A\
  A_A^A]A\_
@@ -16,7 +17,6 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-#o~Au
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -32,7 +32,6 @@
 (t$@H
 (|$ H
 )D$ L
-)Go>b
 )t$ H
 )t$0H
 )t$@H
@@ -160,7 +159,6 @@
 0A__[
 0w0c1
 0}0i1
-1/N~c
 130801120000Z
 1e+9999
 210429000000Z
@@ -168,7 +166,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240117011509Z0/
+240124191604Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -191,10 +189,10 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+;jd@M
 < t+<
 </u#H
 <0:08
-<pu=c
 <unknown>
 =rIQU
 >0<0:
@@ -389,6 +387,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+Du<iW
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
 E;u`|
@@ -706,9 +705,11 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
+\+}@r
 \u=H;
 ]J<0"0i3
 ]g@8yhu
+^!$E=
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -805,6 +806,7 @@ fi_fi
 finnish
 fr_fr
 french
+fuKM&
 german
 gfffffffH
 gfffffffI
@@ -817,6 +819,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+i":(wM
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -861,6 +864,7 @@ norwegian
 ntelD
 ole32.dll
 openvr_api.dll
+p?#v`>
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]

@@ -173,7 +173,7 @@ $9^ t
 22363
 230714000000Z
 232;2G2[2f2y2
-240117010704Z0/
+240124190734Z0/
 241009235959Z0a1
 2=2Q2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
@@ -231,6 +231,7 @@ $9^ t
 5d6h6l6p6t607
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
+6	2U %
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6`6d6h6l6p6t6x6|6
 6 6$6(6,6064686X8\8`8d8h8l8p8
 6 7I7b7u7
@@ -409,8 +410,6 @@ EventUnregister
 EventWrite
 EventWriteString
 F(j4f
-F5rWN^
-FCcfQ$
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -468,9 +467,7 @@ InitializeCriticalSectionEx
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-I~X&=?
 J>@G_
-JPY%D>]i9
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -489,7 +486,6 @@ Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
 P<^_3
-P=\uF
 PAq=?Mp#
 PID_%04X
 PQhX+
@@ -503,7 +499,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1Z1x1
 RPCRT4.dll
-RSDSj
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -516,6 +511,7 @@ SNRtt(
 SPB8t
 SPB8u
 SVWhX
+S[fF&w
 SetEvent
 SetUnhandledExceptionFilter
 SetupDiDestroyDeviceInfoList
@@ -596,9 +592,9 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
-Y%	=wxyf
 Y9"SD
 Y__^[
+ZFdpB
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
@@ -746,6 +742,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+ilk%[6C9
 illegal code in raster
 invalid
 invalid PLTE
@@ -760,7 +757,6 @@ k0i0$
 ko_ko
 korean
 l2|X/gGe
-l;slp&
 latam
 ldexp
 m0k0$
@@ -790,6 +786,7 @@ only 8-bit
 outofdata
 outofmem
 output buffer limit
+o|b;w
 pl_pl
 polish
 portuguese

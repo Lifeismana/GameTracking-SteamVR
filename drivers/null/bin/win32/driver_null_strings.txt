@@ -1,6 +1,7 @@
 	!s99
  %41g
 !hn7!
+%L4iu.
 ',=?k
 (f*^[0
 +Xt@(
@@ -85,7 +86,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240117010802Z0/
+240124190840Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -132,14 +133,12 @@
 : :(:@:P:T:d:h:p:
 :#:):/:5:;:A:G:M:S:Y:_:e:k:q:
 :#:1:;:D:M:X:]:k:u:~:
-:R|vU
 ;$;-;9;B;G;X;b;k;w;
 ;,;0;@;D;H;L;T;l;
 <0:08
 <0E0N0W0\0a0h0V1a1 3)3A3j4
 <5=:=D=M=X=^=d=
 <<<C<r<
-<cQUc~
 =B=J=s=}=
 =rIQU
 >#>,>5>:>?>F>
@@ -161,7 +160,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-G]f@m8!
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -187,6 +185,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JZpOXfV
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -199,12 +198,10 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-R\I_n
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
 TerminateProcess
-T|^S0SYZ
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
@@ -213,12 +210,11 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
-X"F.*&W
 Y9"SD
+Y=2m9,
 Y__^[
-Yf	R56
 [K]taM?
-[`hoS
+\l>Z.
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -267,11 +263,13 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
+g\uJY
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i*UL.TR
 jj@0HK4
 k0i0$
 l2|X/gGe
@@ -298,7 +296,6 @@ www.digicert.com1!0
 www.digicert.com1$0"
 {un'%
 |Lu?c
-}91]ycd
 }LuHO
 ~qj#k"
 ~t&LN

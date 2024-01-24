@@ -308,7 +308,6 @@ $9E0u
 %s: unknown vulkan message severity
 %s: unsupported format
 %s: usage must be specified when allocating images
-%tLM<
 %u != %zu
 ',=?k
 ( nVertexCount % 3 ) == 0
@@ -531,7 +530,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-240117010731Z0/
+240124190817Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -568,6 +567,7 @@ $9E0u
 9H(~-
 :A9x 
 :EotB
+;I,"$
 ;K sOH
 ;S sMH
 ;\$x|
@@ -1176,7 +1176,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
 J>@G_
-JApcO
 KERNEL32.dll
 Kf;;u
 KfD;3u
@@ -1291,7 +1290,6 @@ M\fD9I
 MainThrd
 MapViewOfFile
 Mask Input Image
-Mbmg%
 MgH9E
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
@@ -1802,6 +1800,7 @@ c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismpanelmask.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismposeprovider_null.cpp
 client
 computeCommandSet.Valid()
+cp?,u
 createInfo.pComputeDistortion
 cuCtxCreate
 cuCtxDestroy
@@ -1879,6 +1878,7 @@ isdigit
 it != m_importedClients.end()
 jj@0HK4
 k0i0$
+kz<@lS
 l$ E3
 l$ H;
 l$ H=
@@ -2022,7 +2022,6 @@ perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
-r'f`c
 r+w2H;
 r,fff
 r/w:I
@@ -2561,7 +2560,6 @@ vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
 vr-marker,frame_end,type,application
 vulkan-1.dll
-w$`%\T*
 wcsrchr
 wcsstr
 www.digicert.com1!0
@@ -2569,6 +2567,7 @@ www.digicert.com1$0"
 xA_A^A]A\_^[]
 yxxxxxxxH
 yxxxxxxxI+
+{H)@H
 {pH;{xw?
 {un'%
 |$ ATAUAVAWH

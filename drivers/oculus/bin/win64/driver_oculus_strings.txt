@@ -461,7 +461,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240117010935Z0/
+240124191024Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -481,12 +481,12 @@ $w!Hc
 69k0t1
 6I]Dc
 6OB,n_
-6aN<nt
 6p7M=:P_:}u
 7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
+8	."X
 8A^A\
 8D$!t
 8D$#u
@@ -518,6 +518,7 @@ $w!Hc
 </u#H
 <0:08
 <U+%.4X>
+<n/U`
 <parse error>
 <uninitialized>
 <unknown>
@@ -1140,6 +1141,7 @@ IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
 JSON string too short.
+K6ZQ"
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1283,7 +1285,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS~+]
+RSDSv
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1355,6 +1357,7 @@ T$pD;
 T$pL;
 T$xH;
 T$xL;
+T/CYr
 TANGENT
 TEXCOORD
 TUUUUUU
@@ -1453,6 +1456,7 @@ X%py
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
+Z&[4?
 Z9k0tUD
 ZL$Xf
 [K]taM?
@@ -1506,6 +1510,7 @@ ZL$Xf
 \$pI;
 \$pfD
 \$xH;
+\\c)6
 \u=H;
 \|$`D
 ] buffer "
@@ -2499,6 +2504,7 @@ xA^A\_^][
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
+z'Y%F
 zh_cn
 zh_tw
 zlib corrupt
@@ -2555,6 +2561,7 @@ znear
 |LL\t
 |Lu?c
 }LuHO
+}xphCT -
 ~+fff
 ~3LcD$(L
 ~6HcD$ I

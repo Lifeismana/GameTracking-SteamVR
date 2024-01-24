@@ -39,6 +39,7 @@ $_^[]
 &1V6|:^<
 ',=?k
 ()$^.*+?[]|\-{},:=!
+(b~j$
 (f*^[0
 +A Vj$
 +A$+Y
@@ -431,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-240117010700Z0/
+240124190731Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -1222,6 +1223,7 @@ Applying first frame camera configuration options...
 Auto Exposure Target:		
 Auto Exposure:			
 Auto White Balance:		
+Ay0_H
 BP;BL
 Backlight Compensation:		
 Begin Streaming Depth...
@@ -1438,7 +1440,6 @@ K@;O@uc
 K@;O@uf
 KERNEL32.dll
 K}*n:	
-L5iI^$
 L?n(Zy&
 LCMapStringEx
 LCMapStringW
@@ -1490,7 +1491,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDS8}
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1597,10 +1597,8 @@ Y__^[
 [SPj"
 [tc9]
 \SVW3
-\d?VV
 ]J<0"0i3
 _$@;Ghr
-_=\LG/
 _CIexp
 _CIpow
 _CIsqrt
@@ -1697,6 +1695,7 @@ blank
 broken pipe
 c:\buildslave\steamvr_rel_win32\build\src\vrcamera_api\Retail\win32\2017\vrcamera_api.pdb
 calloc
+cjM5t
 cntrl
 connection aborted
 connection already in progress
@@ -1711,7 +1710,6 @@ directory not empty
 eventObject
 executable format error
 f	_$_^[
-f)\`-
 false
 fclose
 fflush
@@ -1738,6 +1736,8 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+hxk-UF
+i5cH%
 identifier removed
 illegal byte sequence
 inappropriate io control operation
@@ -1761,7 +1761,6 @@ jj@0HK4
 k0i0$
 kK04k
 kW$4k_(4
-l-zgK
 l2|X/gGe
 ldexp
 localeconv
@@ -1775,7 +1774,6 @@ memcpy
 memmove
 memset
 message size
-n%	G/
 n;w0tc
 network down
 network reset

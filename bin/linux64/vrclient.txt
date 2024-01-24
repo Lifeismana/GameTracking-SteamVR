@@ -18987,6 +18987,7 @@
  t CreateCompositorDriverProviderAdapter(void* (*)(char const*, int*), vr::IVRDriverContext*, int*)
  t CreateFallbackURL(CInputActionDefaultBindingFile)
  t CreateOverlayInternal(VRSystemLayerState_t*, char const*, char const*, unsigned long*)
+ t CreateReferenceSpaceChangePendingEvent(XrSession_T*, XrReferenceSpaceType)
  t CreateServerDriverProviderAdapter(void* (*)(char const*, int*), vr::IVRDriverContext*, int*)
  t CreateSettingKey(char const*, char const*)
  t CreateSettingKey(char const*, char const*) [clone .cold]

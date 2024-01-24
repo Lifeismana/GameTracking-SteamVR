@@ -1024,7 +1024,6 @@ $tI
 0-pixel image
 0123456789
 0123456789ABCDEF
-01:05:09
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -1197,6 +1196,7 @@ $tI
 18CVRScreenshots_001
 18CVRSharedGLTexture
 18XrHandTrackerEXT_T
+19:05:52
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -16601,6 +16601,7 @@ CreateImage
 CreateInstance
 CreateInteropDevice
 CreateOverlayInternal(VRSystemLayerState_t*, char const*, char const*, unsigned long*)
+CreateReferenceSpaceChangePendingEvent(XrSession_T*, XrReferenceSpaceType)
 CreateServerDriverProviderAdapter(void* (*)(char const*, int*), vr::IVRDriverContext*, int*)
 CreateSettingKey(char const*, char const*)
 CreateSettingKey(char const*, char const*) [clone .cold]
@@ -20943,7 +20944,7 @@ JFIF
 JSON string too short.
 JST
 Jan
-Jan 17 2024
+Jan 24 2024
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -23533,6 +23534,7 @@ VREvent_ShowKeyboard
 VREvent_ShowRenderModels
 VREvent_ShowUI
 VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_LOCAL_FLOOR_EXT.
+VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_STAGE.
 VREvent_StartDashboard
 VREvent_StatusUpdate
 VREvent_SteamVRSectionSettingChanged

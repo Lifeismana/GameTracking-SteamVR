@@ -6,6 +6,7 @@
  A__^
  H3E H3E
 !hn7!
+&@V/@
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -86,13 +87,12 @@
 0w0c1
 0}0i1
 130801120000Z
-16D`v
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240117010939Z0/
+240124191027Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -127,7 +127,6 @@
 ;k sAH
 ;k sDH
 <0:08
-<Z!9{E
 =rIQU
 >0<0:
 >Mp$d
@@ -195,6 +194,7 @@ EventWriteString
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
 FreeLibrary
+GD`>P
 GetCurrentDirectoryW
 GetCurrentProcess
 GetCurrentProcessId
@@ -234,6 +234,7 @@ InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 Initialized Oculus device %s
+Ir4d]
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
@@ -264,10 +265,12 @@ OVRRuntimeWindowThread
 Oculus
 Out of thread local storage!
 PAq=?Mp#
+P\w/Y
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
 R$fE;B*
+R&^rj
 RPCRT4.dll
 RaiseException
 RtlCaptureContext
@@ -319,7 +322,6 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-X#kn%
 Y9"SD
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -367,6 +369,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`Qd+Q
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -395,7 +398,6 @@ jj@0HK4
 k0i0$
 l$8E3
 l2|X/gGe
-l>em@
 m0k0$
 malloc
 map/set<T> too long
@@ -452,7 +454,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-qh)H=
+rd{l[
 startup
 string too long
 strncpy
@@ -487,6 +489,6 @@ z(uMH
 |$8I;
 |Lu?c
 }LuHO
-}w,Tv
+~MlsZ
 ~qj#k"
 ~t&LN

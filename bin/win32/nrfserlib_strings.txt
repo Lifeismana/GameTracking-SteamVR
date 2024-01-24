@@ -80,8 +80,6 @@ $Vh&*
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-)[r/eo
-*?o~5
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -100,6 +98,7 @@ $Vh&*
 . ack_num is: 
 . raw packet: 
 .00cfg
+.:Bpe
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_02e728be6b281fc7c0cdb870c5d215f6>@@
 .?AV<lambda_03ab9c937d4f01102be0faa2655e674a>@@
@@ -564,8 +563,6 @@ $Vh&*
 .tls$
 .tls$ZZZ
 .xdata$x
-/Q_%f
-/V{st
 /t;_^2
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$04080<0D0\0l0p0
@@ -620,6 +617,7 @@ $Vh&*
 0S1m1
 0T1l1u1
 0^0q0x0
+0akZn
 0f3x3
 0w0c1
 0}0i1
@@ -712,7 +710,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240117010707Z0/
+240124190738Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -794,6 +792,7 @@ $Vh&*
 3@3h3
 3B3c3
 3H4i4
+3Of!E
 3V4=5
 3d4m4
 3mq+<
@@ -1042,7 +1041,6 @@ $Vh&*
 8W9n9x9
 8\8l8
 8^8q8x8
-8^EFC+
 8_^[]
 8j8?:U:
 8m97:>:L:P:
@@ -1104,6 +1102,7 @@ $Vh&*
 : :@:H:P:X:`:h:p:x:
 : ;P;
 : ;`;
+: Cdx
 :!:\:f:p:
 :";Q;
 :$:(:8:<:@:H:`:p:t:|:
@@ -1239,7 +1238,6 @@ $Vh&*
 <X<\<`<d<h<l<p<t<x<|<
 <]<w<
 <b?i?
-<r<pv
 <u={=
 = =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
 = =$=4=8=<=D=\=l=p=
@@ -1877,6 +1875,7 @@ Not able to encode packet. Code: 0x
 Not able to open, current state is not valid
 Notification
 O QVP
+O8!gK
 OLEAUT32.dll
 OT+O`
 Od+O`
@@ -1905,7 +1904,6 @@ Power Control
 Progress: %d%% (%d/%d)
 Pz}b!
 Q0;Q(t#
-QLNL9
 QPh@	
 Qkkbal
 QueryPerformanceCounter
@@ -2034,6 +2032,7 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+Tn!H^#H
 Trying to send packets to device when serial device is closed is not supported.
 Trying to send unknown control packet to device. 
 UNKNOWN[0x
@@ -2109,6 +2108,7 @@ Zipfile is corrupt or not a zipfile
 [K]taM?
 \0`0d0|0
 \Device Parameters
+]8#+4
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2210,7 +2210,7 @@ dat_file
 data error
 deque<T> too long
 digit
-eAtpJ
+e.7k-
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair

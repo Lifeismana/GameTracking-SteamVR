@@ -378,7 +378,6 @@ $tI<unknown>
 (Reset)
 (T$ f
 (f*^[0
-(ga/"
 (merge 
 ) deg
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
@@ -397,6 +396,7 @@ $tI<unknown>
 +0R0f021?1
 +F +F
 +Xt@(
++iH7S
 +laser0
 +laser1
 +motor0
@@ -1180,7 +1180,7 @@ $tI<unknown>
 230714000000Z
 232p3
 234z4
-240117010800Z0/
+240124190837Z0/
 241009235959Z0a1
 242>2
 242@2H2h2
@@ -1560,7 +1560,6 @@ $tI<unknown>
 4n7s7z7
 4o5t5
 4x7|7
-4yhM&
 4z5~6
 4}6E7
 4~4?5
@@ -3125,7 +3124,6 @@ $tI<unknown>
 >Mp$d
 >N>W>`>i>n>s>z>'?0?9?B?G?L?S?
 >P?X?v?
->V5zD9a<-
 >W?m?s?z?
 >X9t?
 >Z?`?o?w?
@@ -4117,6 +4115,7 @@ HidP_GetCaps
 HmdDeviceConnect( %u, %u, %llu, %llu )
 HmdDriverFactory
 I0j0I1
+I<){&
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u
 IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x
@@ -4310,7 +4309,6 @@ IsDebuggerPresent
 IsManual
 IsProcessorFeaturePresent
 IsWow64Process
-J%,'\MD
 J0+J(
 J>@G_
 JSON Update
@@ -4386,7 +4384,6 @@ MFCreateSample
 MFCreateSample failed: hr = 0x%08x
 MIPI Init
 MIPI Init Error
-MN*!u\
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for
 MainSteamVR
@@ -4453,6 +4450,7 @@ New HWID
 New Normal: %f %f %f 
 New Radio Version
 New sample  %d %lf %lf (end diff: %lf)
+Nik9&j
 Nl#N4
 No IMU data in past %d seconds
 No LoadImageData callback specified.
@@ -4621,7 +4619,7 @@ R8F;u
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPj#h
-RSDSk
+RSDSOv
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4668,6 +4666,7 @@ RpcStringFreeA
 RtlGetNtVersionNumbers
 S0Q0O
 S3Y3y3
+S9kQ-
 S9~D~;
 S;~<t\;~@tW
 S<.uW
@@ -6308,6 +6307,7 @@ output
 output buffer limit
 output_path
 output_type
+oz%OR
 p0hP$
 pNewResource
 pNewResource->Load( absFilePath )

@@ -6,7 +6,6 @@
 																												
 																																												
 	!s99
-	4|U>4
 	<bu 
 	@81t/@8q
    Driver Description: %s
@@ -633,7 +632,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240117010711Z0/
+240124190759Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -894,7 +893,6 @@ Attribute Discovery
 AuthD
 Authentication
 Authentication status failed. (auth_status: %s)
-B@!<0
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -990,7 +988,6 @@ Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Baud rate: 
 Bellevue1
-BgEP~
 Bluetooth_Initialize
 Bootloader Mode
 C$9C w
@@ -1518,7 +1515,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSj
+RSDS?
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1663,6 +1660,7 @@ Trying to send unknown control packet to device.
 UATAUAVAWH
 UATAVH
 UAVAWH
+UD5\@ 
 UNKNOWN[0x
 USER32.dll
 USVATAUAWH
@@ -1723,6 +1721,7 @@ WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Washington1
+Wb4'D
 WideCharToMultiByte
 Write SOB Channel %d.
 Write to BS1 PM Characteristic.
@@ -1907,7 +1906,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i.Ap=-
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1974,7 +1972,6 @@ need dictionary
 nrfserlib.dll
 ntelD
 oL$PH
-o^'+;
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
@@ -1985,7 +1982,6 @@ pA_A\_[]
 pA_A^A]A\_^]
 print
 punct
-q3+|V
 realloc
 s#fff
 sd_ble_cfg_set
@@ -2167,7 +2163,6 @@ unknown zip result code
 upH;~ uj
 upper
 v=Y]Bv
-v>q;[F
 vector<T> too long
 vector<bool> too long
 wcschr

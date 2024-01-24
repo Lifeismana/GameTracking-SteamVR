@@ -48,6 +48,7 @@
 " not found in the scene.
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
+"S5g*
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
@@ -62,9 +63,7 @@
 #?RADIANCE
 #?RGBE
 #oculus_requested_quit
-$"\mcGw
 $9^ t
-$i*ae
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -75,7 +74,6 @@ $i*ae
 %s begin_ctx=%llu
 %s end_ctx=%llu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&0<U&wr
 &1i1n1v1
 ' is not a number.
 ' property is missing
@@ -102,8 +100,6 @@ $i*ae
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *030<0E0J0O0V0
-*77Sc9
-*Yxqt
 +Xt@(
 +o'q)}
 , binary size = 
@@ -468,7 +464,7 @@ $i*ae
 220323000000Z
 220801000000Z
 230714000000Z
-240117010806Z0/
+240124190844Z0/
 241009235959Z0a1
 252?2E2L2Z2c2h2
 2>2M2
@@ -576,6 +572,7 @@ $i*ae
 404@4D4T4X4`4x4
 404H4d4
 40C0R0
+41gg1
 444S4d4n4t4z4
 446F6
 455>5R5f5
@@ -824,6 +821,7 @@ $i*ae
 9E:O:T:Y:
 9F:S:
 9J9W9`9i9n9s9
+9KNE(
 9L9U9b9
 9L9|9
 9O:t<;=
@@ -946,7 +944,6 @@ $i*ae
 ;f<L=
 ;g;r;
 ;h<l<p<t<x<|<
-;w]W0O
 ;}<">G?
 < <$<(<,<0<
 < <$<(<,<0<4<
@@ -1488,6 +1485,7 @@ Orhographic camera description not found.
 OrthographicCamera
 Out of thread local storage!
 OutputDebugStringW
+P".n#
 P0A2a2
 PAq=?Mp#
 POSITION
@@ -1506,6 +1504,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
+RSDS`D
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1623,7 +1622,6 @@ Y__^[
 [OculusDirect] ovr_EndFrame:%lli
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [json.exception.
-\.9AM
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -1897,6 +1895,7 @@ fputs
 fr_fr
 fread
 french
+fsHU,
 fseek
 fsetpos
 fwrite
@@ -2524,6 +2523,7 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
+{Y?K#
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png

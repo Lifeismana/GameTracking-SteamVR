@@ -25,6 +25,7 @@
 #?RGBE
 #D9c0t
 #D9{0t
+#x4("Y
 %,3:;4-&
 %9k0t
 %9{0t
@@ -66,6 +67,7 @@
 -9k0t&H
 -9{0t%H
 -D9c0t%H
+."B-w
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -177,7 +179,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240117010707Z0/
+240124190755Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -189,11 +191,9 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4I|TH
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5lch 
 6*f(_
 6I]Dc
 6OB,n_
@@ -333,6 +333,7 @@ D9{0t
 D9{0t'H
 D9{0t?H
 D9{0tZD
+DY*$F
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -422,7 +423,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KyyQ>LM
 K}*n:	
 L$ E3
 L$ Hc
@@ -476,7 +476,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS7
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -898,7 +897,6 @@ unsupported data layout
 unsupported format
 v=Y]Bv
 vHcD$LH
-v\o{Sg
 vi_vi
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
@@ -911,7 +909,6 @@ www.digicert.com1$0"
 zh_cn
 zh_tw
 zlib corrupt
-{D>E6
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH

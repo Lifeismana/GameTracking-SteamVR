@@ -42,7 +42,6 @@
  was not found
  with error 
 !hn7!
-%hcz0
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -158,6 +157,7 @@
 0x%llx (%lld): 
 0}0i1
 130801120000Z
+1B:AK
 1e+9999
 210429000000Z
 211007000000Z
@@ -165,7 +165,7 @@
 220801000000Z
 230714000000Z
 2333333
-240117011010Z0/
+240124191056Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -189,6 +189,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 <0:08
+<>!$T4
 =rIQU
 >0<0:
 >Mp$d
@@ -392,7 +393,6 @@ DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
 Duplicate key: '
 E8,9u
-E@:Xgz@d}
 Empty escape sequence in string
 EnterCriticalSection
 Entering LoaderInstance::CreateInstance
@@ -527,7 +527,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS=
+RSDS9
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -624,7 +624,6 @@ Value is not convertible to UInt.
 Value is not convertible to bool.
 Valve Corp.0
 Valve Corp.1
-Vc=hF
 Verbose [
 WATAUAVAWH
 WATAVH
@@ -705,6 +704,7 @@ _lock_file
 _register_onexit_function
 _seh_filter_dll
 _unlock_file
+`(S:\
 `.rdata
 `A^_^
 `A_A^A\_^
@@ -797,6 +797,7 @@ isValidJson indicates
 jj@0HK4
 k0i0$
 keylength >= 2^30
+kk^6"
 l$ H;
 l$ H=
 l$ UAVAWH
@@ -807,7 +808,6 @@ l$pE3
 l$ptNH
 l$pu!H
 l2|X/gGe
-lV\FX
 labelInfo must be non-NULL
 layer 
 library_path
@@ -1000,7 +1000,6 @@ xrWaitSwapchainImage
 |$xIi
 |Lu?c
 }LuHO
-}]Nrtu(
 ~+fff
 ~qj#k"
 ~t&LN

@@ -1056,7 +1056,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240117010949Z0/
+240124191034Z0/
 241009235959Z0a1
 2D$x2
 2D$x@2
@@ -1079,6 +1079,7 @@ $w!Hc
 370322235959Z0c1
 380115120000Z0b1
 3?9y>m0_D@H_
+3KM'p
 3ba~H
 3ba~Ho,0bq
 3ba~Ho<0bq
@@ -1087,7 +1088,6 @@ $w!Hc
 3mq+<
 3xU)"P
 44\h44\h++}V++}V
-4<d":/
 4ESample #4
 4h8px
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -1213,6 +1213,7 @@ $w!Hc
 <uninitialized>
 <unknown>
 ='9-6d
+=.m*9
 =7p7M}
 ================================================================================================
 ==Gz==Gz
@@ -1912,7 +1913,6 @@ CryptSetKeyParam
 CryptSetKeyParam Failed to set cypher (%08x)
 Ct$@H
 Current Driver Version does not support this NvEncodeAPI version, please upgrade driver
-Cz"ew
 C|$ H
 C|$0H
 C|$0L
@@ -3453,6 +3453,7 @@ Q0br}@
 Q2bb%@
 Q4bb%@
 Q8bb%@
+Q:b9z
 Q<bb%@
 Q@bb%@
 QDbb%@
@@ -4089,6 +4090,7 @@ YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
 Your GPU supports %s for video compression
 Z9k0tUD
 ZL$Xf
+[,R0\-
 [Alloc] Created bitstream buffer = %p
 [Alloc] Created d3d11 texture = %p
 [Alloc] Created m_vpCompletionEvent %p
@@ -4232,16 +4234,14 @@ ZL$Xf
 ] is not a JSON object.
 ] name = "
 ] name = [
-]2C&%
 ]9k0tVD
 ]@8d$
 ]J<0"0i3
 ]SVLHMDDriverD3D11::AcquireSync
 ]g@8yhu
-^.UIq
 ^9k0tWD
+^c\$6
 ^lX8k
-_+e5+
 _>>B|>>B|
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -4387,6 +4387,7 @@ allowSpecialFloats
 allowVolumeSync
 alphaCutoff
 alphaMode
+amS"U
 ambiguous option -- %.*s
 amfenc dropping metadata entry ( %lld , %lld )
 animations
@@ -5540,6 +5541,7 @@ dQThrottle
 dRelFOV
 dTargetBW
 dV22tN::
+d`"(N
 da_da
 danish
 dashboard_transform

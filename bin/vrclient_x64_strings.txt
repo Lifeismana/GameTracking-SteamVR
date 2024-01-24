@@ -27,7 +27,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@pX
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -411,10 +411,11 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
+(%%,#
 ()$^.*+?[]|\-{},:=!
+(5-+#
 (9Q|uWH
-(=82'
-(=d8'
+(=X2'
 (A\^][
 (A\_^[
 (A]_^[
@@ -2094,7 +2095,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240117011422Z0/
+240124191512Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2377,7 +2378,6 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@/_jp
 @8I+@0H
 @8i(u
 @8u$t0@8u#t*
@@ -2800,7 +2800,6 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
-C-~5)
 C0L9$
 C0L;E
 C0L;F
@@ -3488,7 +3487,6 @@ D$@Hk
 D$@I;
 D$@L;
 D$@M+
-D$@Y\
 D$@fA
 D$@u'H
 D$Auk
@@ -3531,6 +3529,7 @@ D$XH;
 D$XHc
 D$XI+
 D$XIk
+D$XY\
 D$Xy3
 D$`E3
 D$`H+
@@ -3580,11 +3579,11 @@ D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
 D8,8u
-D8-q?'
 D8/u0
 D840u
 D84;u
 D8<>u
+D8=I>
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -4184,6 +4183,7 @@ H#G0L
 H#L$8H
 H#OxH
 H#OxL
+H#~0H
 H$A;H
 H$A;I
 H(H+H H
@@ -4281,9 +4281,10 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=6I6
-H;=:a!
-H;=>-"
+H;=*c!
+H;=DH6
+H;=N#"
+H;=jH6
 H;A s
 H;Axt
 H;C(v
@@ -4431,7 +4432,6 @@ HmdDriverFactory
 HmdSystemFactory
 How did we get here with a non-position slot?
 Hu"Hc
-I#~0H
 I(+K H
 I(I+I H
 I+G@H
@@ -5037,6 +5037,7 @@ L;8u6H
 L;8u7H
 L;8u9H
 L;8u:H
+L;=P='
 L;@ s
 L;@ u
 L;A s
@@ -5143,7 +5144,6 @@ M;A r
 M;C(s
 M;F0u	
 M;H s
-M<Z>S&
 MB(iVR
 MHH9uPt
 ML$hH
@@ -5261,6 +5261,7 @@ PAq=?Mp#
 PC_%08llx
 PH@8|$HtAA
 POSITION
+PPz{y_LSue
 PS_BLURSCENE
 PS_DISTORT
 PS_GEOM
@@ -6389,6 +6390,7 @@ VREvent_ShowKeyboard
 VREvent_ShowRenderModels
 VREvent_ShowUI
 VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_LOCAL_FLOOR_EXT.
+VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_STAGE.
 VREvent_StartDashboard
 VREvent_StatusUpdate
 VREvent_SteamVRSectionSettingChanged
@@ -6866,6 +6868,7 @@ WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
 X%l{*
+X52+"
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7334,8 +7337,10 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
+Y%w|&
+Y-=h)
+Y5-~#
 Y9"SD
-Y=i@)
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -7861,6 +7866,7 @@ _wstat64i32
 `cameras' does not contain an JSON object.
 `h@SH
 `input` field is missing in animation.sampler
+`l+/	:1
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
 `node` field is missing in animation.channels.target
@@ -8447,7 +8453,6 @@ ftell
 fwrite
 fxL9f0H
 g(u^H
-g6H	<
 g9k0t_D
 gamepad
 generator
@@ -9960,6 +9965,7 @@ usePrism
 useSpecialFloats
 usemtl
 userinterface
+uvUd4Y
 v4fff
 v=Y]Bv
 vD;EHL

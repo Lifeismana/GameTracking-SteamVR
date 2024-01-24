@@ -3,12 +3,12 @@
  A__^
  H3E H3E
 !hn7!
-$]/eS
 ',=?k
 (f*^[0
 +Xt@(
 +o'q)}
 ,W5y+
+-ey*}
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -79,12 +79,13 @@ $]/eS
 0w0c1
 0}0i1
 130801120000Z
+1iW]L
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240117010931Z0/
+240124191019Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -153,8 +154,8 @@ Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-IzG<9
 J>@G_
+JF1PH
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -164,14 +165,11 @@ MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-N Pbm
 NPH9Q
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-QyU/E
-RSDSF
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -190,6 +188,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Washington1
+X=E!y
 Y9"SD
 [K]taM?
 \$ UH
@@ -238,7 +237,6 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-g<Z8r
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -249,6 +247,7 @@ k0i0$
 l$8E3
 l2|X/gGe
 m0k0$
+m2XjRs
 malloc
 memcpy
 memmove
@@ -272,6 +271,7 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
+{Whlq
 {un'%
 |$ AVH
 |Lu?c

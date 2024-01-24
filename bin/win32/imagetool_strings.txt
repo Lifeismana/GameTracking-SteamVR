@@ -2528,7 +2528,6 @@ $~O="""
 +frame
 +function
 +fuzz
-+g?8efFa
 +gamma
 +gaussian
 +gaussian-blur
@@ -4335,7 +4334,7 @@ $~O="""
 23383I3l3
 2384x3370
 24 24
-240117010814Z0/
+240124190859Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -9201,7 +9200,6 @@ $~O="""
 ?_Xout_of_range@std@@YAXPBD@Z
 ?c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\feature.c
 ?c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\shear.c
-?d2^K
 ?d?x?
 ?ffffff
 ?gibQ^AX>
@@ -9834,6 +9832,7 @@ C$;x$
 C$VWP
 C$_[^
 C$_^[
+C'2B,^
 C(TRST
 C0UQj
 C0VUj
@@ -10395,7 +10394,6 @@ Crosshair Cursor Y Coordinates
 CryptAcquireContextA
 CryptGenRandom
 CryptReleaseContext
-Ct[5(
 Cube LUT
 Cubic
 CubicSpline
@@ -12370,7 +12368,6 @@ F ;F$u
 F PVt
 F j	h
 F t	P
-F! BR
 F"FgF
 F$3G$
 F$;F,s
@@ -12447,6 +12444,7 @@ FT;FL
 FT;FLu
 FT_]^[
 FUJIFILMCCD-RAW 
+F[z3,
 F\USPV
 F`*tE
 F`htrlc
@@ -13307,6 +13305,7 @@ ITU-R601-625L
 ITU-R709
 IVGEQ
 IWwHhcShcShcShcShcSjcSlcTmdUmdUlbQlje
+IZys"
 IZ~Ca
 I]K@1-3%J3'
 Iacute
@@ -16154,7 +16153,6 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSA
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -18617,7 +18615,6 @@ YMAM+'2%7><KM@=;(7:/8@-h
 YOQ=Nm}
 YO];;=.23+;C1f
 YPbPr
-YSU~;4
 YShear/Image
 YShearImage
 YT$$f
@@ -19258,7 +19255,6 @@ _wstat64i32
 `}@ReadXBMImage
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
-a#Xe|
 a0o0(121?1t1
 a3t3{3
 a4small
@@ -22032,6 +22028,7 @@ kD$0;
 kD$4XPj
 kD$Pp
 kL$ X
+kPR>kY
 kU!W>
 ka strax hwila p
 ka? nov
@@ -24972,6 +24969,7 @@ w@Whd
 w@Whh
 w@u';k
 wJ^]_[
+wLtoFZ
 wS@Pj
 w\h(,A
 waiting for data from thread %#x
