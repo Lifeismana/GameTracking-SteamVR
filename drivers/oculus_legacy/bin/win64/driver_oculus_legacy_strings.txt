@@ -1,4 +1,5 @@
 	!s99
+	#_yE~
     A
  %41g
  (Camera)
@@ -6,8 +7,8 @@
  A__^
  H3E H3E
 !hn7!
-&@V/@
 ',=?k
+'mk<h
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
@@ -83,6 +84,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/*mUdp!
 0A_A^A]A\_^[
 0w0c1
 0}0i1
@@ -92,7 +94,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240124191027Z0/
+240201011120Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -169,6 +171,7 @@ Code: -3003
 CreateEventA
 CreateEventW
 CreateThread
+Cx	<p
 C|$XH
 D$0Hc
 D3D11CreateDevice
@@ -194,7 +197,6 @@ EventWriteString
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
 FreeLibrary
-GD`>P
 GetCurrentDirectoryW
 GetCurrentProcess
 GetCurrentProcessId
@@ -234,7 +236,6 @@ InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 Initialized Oculus device %s
-Ir4d]
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
@@ -265,12 +266,10 @@ OVRRuntimeWindowThread
 Oculus
 Out of thread local storage!
 PAq=?Mp#
-P\w/Y
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
 R$fE;B*
-R&^rj
 RPCRT4.dll
 RaiseException
 RtlCaptureContext
@@ -286,6 +285,7 @@ SUWAWH
 SVWATAUAVAWH
 SetEvent
 SetUnhandledExceptionFilter
+Sh8B_
 Sleep
 SleepConditionVariableCS
 TUUUUUU
@@ -369,7 +369,6 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
-`Qd+Q
 a7hIw
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
@@ -454,7 +453,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-rd{l[
+qJdM0
 startup
 string too long
 strncpy
@@ -474,6 +473,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+yw3P^
 z(uMH
 {ERR-001}
 {ERR-079}
@@ -489,6 +489,5 @@ z(uMH
 |$8I;
 |Lu?c
 }LuHO
-~MlsZ
 ~qj#k"
 ~t&LN

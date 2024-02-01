@@ -832,6 +832,7 @@ $@
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+01:05:42
 0x
 0x%08llx
 1
@@ -901,7 +902,6 @@ $@
 18
 18IUsbDeviceCallback
 19
-19:05:52
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -3497,6 +3497,7 @@ False
 FastHexToBuffer() wants non-negative integers, not
 Fatal
 Feb
+Feb  1 2024
 February
 Feel free to add support for more if you need it.
 Field       :
@@ -3847,6 +3848,7 @@ IVRInputInternal_002
 IVRInput_010
 IVRMCStore_001
 IVRMailbox_002
+IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_027
 IVRPathsInternal_001
@@ -4014,7 +4016,6 @@ JSON Update
 JSON string too short.
 JST
 Jan
-Jan 24 2024
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) [clone .cold]
@@ -8157,6 +8158,7 @@ g_pVRDriverDirectInternal
 g_pVRDriverManager
 g_pVRExtendedDisplay
 g_pVRMailbox
+g_pVRNotificationsInternal
 g_pVROverlay
 g_pVROverlayInternal
 g_pVRPaths
@@ -19958,6 +19960,7 @@ vr_internal::VRExtendedDisplay()
 vr_internal::VRInput()
 vr_internal::VRInputInternal()
 vr_internal::VRMailbox()
+vr_internal::VRNotificationsInternal()
 vr_internal::VROverlay()
 vr_internal::VROverlayInternal()
 vr_internal::VRPaths()

@@ -471,6 +471,7 @@
  b g_pVRDriverManager
  b g_pVRExtendedDisplay
  b g_pVRMailbox
+ b g_pVRNotificationsInternal
  b g_pVROverlay
  b g_pVROverlayInternal
  b g_pVRPaths
@@ -13428,6 +13429,7 @@
  t vr_internal::VRInput()
  t vr_internal::VRInputInternal()
  t vr_internal::VRMailbox()
+ t vr_internal::VRNotificationsInternal()
  t vr_internal::VROverlay()
  t vr_internal::VROverlayInternal()
  t vr_internal::VRPaths()

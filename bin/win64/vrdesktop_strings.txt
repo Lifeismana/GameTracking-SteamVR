@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	VmRd,
  %41g
  A_A^A\
  A_A^A]A\_
@@ -166,7 +165,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240124191604Z0/
+240201011633Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -189,7 +188,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;jd@M
+8{MBA
 < t+<
 </u#H
 <0:08
@@ -387,7 +386,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Du<iW
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
 E;u`|
@@ -514,6 +512,7 @@ IVRExtendedDisplay_001
 IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
+IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_027
 IVRPathsInternal_001
@@ -599,6 +598,8 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+R3UPv
+RSDS}f
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -705,11 +706,10 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
-\+}@r
 \u=H;
 ]J<0"0i3
 ]g@8yhu
-^!$E=
+^ib^b
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -806,7 +806,6 @@ fi_fi
 finnish
 fr_fr
 french
-fuKM&
 german
 gfffffffH
 gfffffffI
@@ -819,7 +818,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
-i":(wM
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -862,9 +860,9 @@ message_id
 no_no
 norwegian
 ntelD
+o++bg
 ole32.dll
 openvr_api.dll
-p?#v`>
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
@@ -941,6 +939,7 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+z"N]X
 zh_cn
 zh_tw
 {un'%

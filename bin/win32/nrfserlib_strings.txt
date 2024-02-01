@@ -8,6 +8,7 @@
 																												
 																																												
 	!s99
+	jd]3
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -92,13 +93,13 @@ $Vh&*
 -Infinity
 -external
 -internal
+-yz+&
 . Aborting.
 . Baud rate requested (
 . Ignoring the packet.
 . ack_num is: 
 . raw packet: 
 .00cfg
-.:Bpe
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_02e728be6b281fc7c0cdb870c5d215f6>@@
 .?AV<lambda_03ab9c937d4f01102be0faa2655e674a>@@
@@ -617,7 +618,6 @@ $Vh&*
 0S1m1
 0T1l1u1
 0^0q0x0
-0akZn
 0f3x3
 0w0c1
 0}0i1
@@ -710,7 +710,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240124190738Z0/
+240201010816Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -792,10 +792,10 @@ $Vh&*
 3@3h3
 3B3c3
 3H4i4
-3Of!E
 3V4=5
 3d4m4
 3mq+<
+3sG#)
 4 4$4(4,4
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
 4 4$4(4,40444@4D4H4L4P4T4X4t4x4|4
@@ -1102,7 +1102,6 @@ $Vh&*
 : :@:H:P:X:`:h:p:x:
 : ;P;
 : ;`;
-: Cdx
 :!:\:f:p:
 :";Q;
 :$:(:8:<:@:H:`:p:t:|:
@@ -1777,6 +1776,7 @@ K(PPW
 K(PQh
 K,+K(+
 K,PQh
+K/&1j
 KERNEL32.dll
 K}*n:	
 L0h364
@@ -1875,7 +1875,6 @@ Not able to encode packet. Code: 0x
 Not able to open, current state is not valid
 Notification
 O QVP
-O8!gK
 OLEAUT32.dll
 OT+O`
 Od+O`
@@ -2032,7 +2031,6 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-Tn!H^#H
 Trying to send packets to device when serial device is closed is not supported.
 Trying to send unknown control packet to device. 
 UNKNOWN[0x
@@ -2093,6 +2091,7 @@ WriteFile
 XX.XX.XXXXXXX
 Y9"SD
 Y__^[
+ZVzj%
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -2108,7 +2107,6 @@ Zipfile is corrupt or not a zipfile
 [K]taM?
 \0`0d0|0
 \Device Parameters
-]8#+4
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2210,7 +2208,6 @@ dat_file
 data error
 deque<T> too long
 digit
-e.7k-
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2228,6 +2225,7 @@ file error
 floor
 generic
 gfffVW3
+gp(|Z
 graph
 h5_decode error, code: 0x
 h5_transport is in state 
@@ -2266,6 +2264,7 @@ invalid window size
 ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
+iz}Yd~
 j!hti
 j#h<M
 j$h i

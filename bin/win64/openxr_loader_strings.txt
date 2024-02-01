@@ -44,6 +44,7 @@
 !hn7!
 %u.%u
 %u.%u.%u
+& @$q
 ' is not a number.
 ',=?k
 (A^A]^[
@@ -157,7 +158,6 @@
 0x%llx (%lld): 
 0}0i1
 130801120000Z
-1B:AK
 1e+9999
 210429000000Z
 211007000000Z
@@ -165,7 +165,7 @@
 220801000000Z
 230714000000Z
 2333333
-240124191056Z0/
+240201011154Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -189,7 +189,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
 <0:08
-<>!$T4
 =rIQU
 >0<0:
 >Mp$d
@@ -232,6 +231,7 @@
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
 ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+?f^9x
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
@@ -527,7 +527,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS9
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -564,6 +563,7 @@ Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
+SrC6[
 Syntax error: value, object or array expected.
 T$0H;
 T$HE3
@@ -704,7 +704,6 @@ _lock_file
 _register_onexit_function
 _seh_filter_dll
 _unlock_file
-`(S:\
 `.rdata
 `A^_^
 `A_A^A\_^
@@ -766,6 +765,7 @@ fputc
 fsetpos
 functions
 fwrite
+gZF)d
 gfffffffH
 gfffffffH+
 gfffffffI
@@ -797,7 +797,6 @@ isValidJson indicates
 jj@0HK4
 k0i0$
 keylength >= 2^30
-kk^6"
 l$ H;
 l$ H=
 l$ UAVAWH
@@ -826,6 +825,7 @@ nfinity
 ntelD
 openxr/
 openxr_loader.dll
+q3?&OT
 rejectDupKeys
 runtime
 s t#fff

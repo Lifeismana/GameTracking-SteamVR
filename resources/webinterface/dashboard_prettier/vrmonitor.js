@@ -5343,14 +5343,6 @@
                   icon: { enum: $.Cj.k_EVRDashboardActionIcon_Recenter },
                 }),
               ),
-              s.add_actions(
-                $.z3.fromObject({
-                  action_id: G.Volume,
-                  invocation: $.w7.k_EVRDashboardActionInvocation_Special,
-                  special_invocation:
-                    $.Hr.k_EVRDashboardActionSpecialInvocation_Volume,
-                }),
-              ),
               (0, ee.W)(s);
             const l = new $.Jl();
             l.set_windows(
@@ -11965,4 +11957,4 @@
   var n = o.O(void 0, [968, 683], () => o(7923));
   n = o.O(n);
 })();
-//# sourceMappingURL=vrmonitor.js.map?v=93a46e6a884cdbdbc22e
+//# sourceMappingURL=vrmonitor.js.map?v=dcdf475c21aedb18ddf5

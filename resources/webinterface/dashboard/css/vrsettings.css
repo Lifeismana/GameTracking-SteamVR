@@ -448,8 +448,8 @@ body {
 .SettingsSidebarButton::before {
 	content: '';
 	position: absolute;
-	left: calc(-1 * var(--settings-sidebar-button-expansion));
-	right: calc(-1 * var(--settings-sidebar-button-expansion));
+	left: 0px;
+	right: 0px;
 	top: 0px;
 	bottom: 0px;
 	background: linear-gradient(to left, var(--settings-side-nav-gradient-b) 0%, var(--settings-side-nav-gradient-a) 100%);

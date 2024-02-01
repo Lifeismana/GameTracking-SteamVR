@@ -6,7 +6,6 @@
  A_^]
  A__^
  H3E H3E
-!M`|YZ
 !hn7!
 !m_bIsConnected
 %s: display mode not found %dx%d @(%d/%d)
@@ -118,7 +117,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240124190649Z0/
+240201010633Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -137,7 +136,6 @@
 6I]Dc
 6OB,n_
 70503
-7R'pw
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -175,6 +173,7 @@ C++/WinRT version:1.0.190111.3
 CD$@3
 CWinRTDisplay::GetDisplayModes
 CWinRTDisplay::SetDisplayMode
+CjJ[f
 CloseHandle
 CoCreateFreeThreadedMarshaler
 CoIncrementMTAUsage
@@ -203,7 +202,6 @@ DisableThreadLibraryCalls
 E89D$Pu
 E<9D$Tu
 EnterCriticalSection
-FJdxG
 FormatMessageW
 GetCurrentProcessId
 GetCurrentThreadId
@@ -239,7 +237,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
 KERNEL32.dll
-KZ^n$o
 K}*n:	
 L$ SH
 L$ SUVWH
@@ -250,10 +247,10 @@ L9|$ht
 L?n(Zy&
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
-LzBvjZO
 M H1E
 MB(iVR
 MSVCP140.dll
+MV|A0
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 MultiByteToWideChar
@@ -263,13 +260,14 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS|
+RSDS	
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+R|tD$\
 S0Q0O
 SA|X=G
 SVWATAUAVAWH
@@ -369,8 +367,9 @@ bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
+dZXN0
 dxgi.dll
-g)0x&
+h2(C-
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -378,7 +377,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 iswspace
 jj@0HK4
-jua&$
 k0i0$
 l$ WH
 l2|X/gGe
@@ -390,7 +388,7 @@ memmove
 memset
 ntelD
 ole32.dll
-qUzk^
+pryjf0~j
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -399,7 +397,6 @@ t$0H+
 t$8H9)t
 t$@H=
 t$PE3
-t8Xej
 tXfff
 tYH9\$`t
 terminate
@@ -409,6 +406,7 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
+z4 !8+?
 {un'%
 |$ AVH
 |$0E3

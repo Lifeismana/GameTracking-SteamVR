@@ -13,33 +13,33 @@
           Dd: () => l.D,
           Fs: () => r.Fs,
           Fx: () => r.Fx,
-          GC: () => V.GC,
+          GC: () => E.GC,
           Ic: () => S.Ic,
           JR: () => r.JR,
-          Kf: () => V.Kf,
-          Kg: () => V.Kg,
-          LL: () => V.LL,
+          Kf: () => E.Kf,
+          Kg: () => E.Kg,
+          LL: () => E.LL,
           LY: () => r.LY,
           M9: () => r.M9,
           Nv: () => n.N,
           OK: () => u.OK,
-          Op: () => V.Op,
+          Op: () => E.Op,
           Oq: () => r.Oq,
           Pd: () => r.Pd,
-          Pw: () => V.Pw,
-          QZ: () => V.QZ,
-          Qu: () => V.Qu,
+          Pw: () => E.Pw,
+          QZ: () => E.QZ,
+          Qu: () => E.Qu,
           Sb: () => I.S,
           UU: () => r.UU,
-          Uk: () => E.Uk,
+          Uk: () => V.Uk,
           VW: () => s.V,
           Vv: () => S.Vv,
-          XX: () => V.XX,
+          XX: () => E.XX,
           Y9: () => a.Y,
-          Z9: () => V.Z9,
-          ZP: () => V.ZP,
+          Z9: () => E.Z9,
+          ZP: () => E.ZP,
           Zj: () => r.Zj,
-          a0: () => V.a0,
+          a0: () => E.a0,
           aB: () => r.aB,
           at: () => b.a,
           bt: () => g.b,
@@ -55,30 +55,30 @@
           jm: () => R.j,
           kH: () => T.k,
           kL: () => D.k,
-          l0: () => V.l0,
-          lx: () => V.lx,
+          l0: () => E.l0,
+          lx: () => E.lx,
           mT: () => r.mT,
           n0: () => p.n,
           q9: () => r.q9,
-          qA: () => V.qA,
-          qC: () => V.qC,
+          qA: () => E.qA,
+          qC: () => E.qC,
           qI: () => u.qI,
-          qR: () => V.qR,
+          qR: () => E.qR,
           rN: () => r.rN,
-          sH: () => E.sH,
+          sH: () => V.sH,
           sO: () => M.s,
           s_: () => S.s_,
           sl: () => d.s,
           tS: () => r.tS,
           ui: () => r.ui,
-          vS: () => E.vS,
-          wU: () => V.wU,
+          vS: () => V.vS,
+          wU: () => E.wU,
           wx: () => c.w,
           x1: () => _.x,
-          xY: () => V.xY,
+          xY: () => E.xY,
           xj: () => v.x,
-          zA: () => V.zA,
-          zq: () => V.zq,
+          zA: () => E.zA,
+          zq: () => E.zq,
         });
         var n = o(4671),
           r = o(4727),
@@ -107,8 +107,8 @@
           T = o(2109),
           D = o(8221),
           I = (o(684), o(9481)),
-          V = o(5867),
-          E = o(7074);
+          E = o(5867),
+          V = o(7074);
         const x = VRHTML;
       },
       1364: (e, t, o) => {
@@ -4602,18 +4602,18 @@
             null,
           ),
           (0, r.gn)([a.ak], I.prototype, "onOpenAppVideoSettings", null);
-        var V,
-          E = o(9669),
-          x = o.n(E),
+        var E,
+          V = o(9669),
+          x = o.n(V),
           P = o(7475);
         !(function (e) {
           (e[(e.Left = 0)] = "Left"), (e[(e.Right = 1)] = "Right");
-        })(V || (V = {}));
+        })(E || (E = {}));
         const L = (e) =>
           l.createElement(
             "div",
             {
-              className: (0, M.LJ)("ButtonContainer", V[e.side], [
+              className: (0, M.LJ)("ButtonContainer", E[e.side], [
                 "Disabled",
                 !1 === e.enabled,
               ]),
@@ -4621,7 +4621,7 @@
             l.createElement(
               c.z,
               { className: "ButtonControl", onClick: e.onClick },
-              e.side == V.Left
+              e.side == E.Left
                 ? l.createElement(l.Fragment, null, "‹")
                 : l.createElement(l.Fragment, null, "›"),
             ),
@@ -4736,13 +4736,13 @@
                   { className: "PaginationButtons" },
                   null !== this.state.bScrolledToStart &&
                     l.createElement(L, {
-                      side: V.Left,
+                      side: E.Left,
                       enabled: !this.state.bScrolledToStart,
                       onClick: this.onLeftButtonClick,
                     }),
                   null !== this.state.bScrolledToEnd &&
                     l.createElement(L, {
-                      side: V.Right,
+                      side: E.Right,
                       enabled: !this.state.bScrolledToEnd,
                       onClick: this.onRightButtonClick,
                     }),
@@ -5539,14 +5539,6 @@
                   ),
                   invocation: $.w7.k_EVRDashboardActionInvocation_Trigger,
                   icon: { enum: $.Cj.k_EVRDashboardActionIcon_Recenter },
-                }),
-              ),
-              s.add_actions(
-                $.z3.fromObject({
-                  action_id: G.Volume,
-                  invocation: $.w7.k_EVRDashboardActionInvocation_Special,
-                  special_invocation:
-                    $.Hr.k_EVRDashboardActionSpecialInvocation_Volume,
                 }),
               ),
               (0, ee.W)(s);
@@ -6706,9 +6698,9 @@
                 s
                   ? p.ml
                   : null,
-              V = _.H.Instance.SceneAppKey;
-            let E = "images/appimage_default.png";
-            V && (E = "/app/image?app_key=" + V);
+              E = _.H.Instance.SceneAppKey;
+            let V = "images/appimage_default.png";
+            E && (V = "/app/image?app_key=" + E);
             let x = M || this.state.bLinkStreamActive;
             return l.createElement(
               l.Fragment,
@@ -6841,7 +6833,7 @@
                                             : (0, m.Xx)("#Now_Playing"),
                                           active: this.isOverlayActive(p.PF),
                                           style: R.zk.App,
-                                          imageUrl: E,
+                                          imageUrl: V,
                                           onClick: () =>
                                             this.switchToOverlayInternal(p.PF),
                                         }),
@@ -7561,8 +7553,8 @@
                 void 0 === o ||
                 o,
               I = D ? p.ml : null,
-              V = { y: k ? -0.9 : -1.03375, z: 0.05 },
-              E = s ? { y: -1.2, z: 0.35 } : { y: -1.2, z: 0.15 },
+              E = { y: k ? -0.9 : -1.03375, z: 0.05 },
+              V = s ? { y: -1.2, z: 0.35 } : { y: -1.2, z: 0.15 },
               x = z.k_nControlBarPitch;
             let P = D ? 1 : 0;
             const L =
@@ -7612,7 +7604,7 @@
                         i.wx,
                         {
                           id: "active_overlay_transform",
-                          translation: V,
+                          translation: E,
                           ref: this.m_refOverlayTransform,
                         },
                         !b && S && this.renderActiveOverlay(),
@@ -7664,7 +7656,7 @@
                       ),
                       l.createElement(
                         i.wx,
-                        { translation: E, id: p.Qg },
+                        { translation: V, id: p.Qg },
                         l.createElement(i.wx, {
                           id: p.f$,
                           translation: { y: 0.08, z: -0.12 },
@@ -8651,13 +8643,13 @@
             let T = b.sfOverlayTrayHeight * this.getDashboardScale(),
               D = b.sfOverlayScaleMin,
               I = b.sfOverlayScaleMax,
-              V = [0.5, 1, 1.5];
+              E = [0.5, 1, 1.5];
             (this.props.dockLocation != S.LeftHand &&
               this.props.dockLocation != S.RightHand) ||
-              ((T *= 0.4), (D = 0.1), (I = 1.5), (V = [0.25, 0.5, 1]));
-            const E = n.height + T,
+              ((T *= 0.4), (D = 0.1), (I = 1.5), (E = [0.25, 0.5, 1]));
+            const V = n.height + T,
               x = Math.max(n.width, 0.175),
-              P = E / 2 - T,
+              P = V / 2 - T,
               L = u.B.isVRGamepadUI
                 ? {
                     r: (14 / 255) * 0.1,
@@ -8677,7 +8669,7 @@
                 r.wx,
                 {
                   translation: { y: P, z: -0.005 },
-                  scale: { x, y: E, z: 0.008 },
+                  scale: { x, y: V, z: 0.008 },
                 },
                 s.createElement(
                   r.VW,
@@ -8723,7 +8715,7 @@
                       value: this.state.fOverlayScale,
                       valueStyleVariant: d.px.OnHandle,
                       onChange: this.onOverlayScaleChanged,
-                      detents: V,
+                      detents: E,
                       renderValue: (e) => (100 * e).toFixed(0) + "%",
                     }),
                     k &&
@@ -8850,8 +8842,8 @@
             T,
             D,
             I,
-            V,
             E,
+            V,
             x,
             P,
             L,
@@ -8960,11 +8952,11 @@
             K = {
               x:
                 null !==
-                  (E =
-                    null === (V = B.rotation) || void 0 === V
+                  (V =
+                    null === (E = B.rotation) || void 0 === E
                       ? void 0
-                      : V.pitch_degrees) && void 0 !== E
-                  ? E
+                      : E.pitch_degrees) && void 0 !== V
+                  ? V
                   : 0,
               y:
                 null !==
@@ -9069,7 +9061,7 @@
           dy: () => L,
           j4: () => W,
           j6: () => G,
-          lL: () => V,
+          lL: () => E,
           wC: () => x,
           z: () => K,
           zN: () => Z,
@@ -9148,13 +9140,13 @@
             t ? n : null
           );
         }
-        const V = (0, d.Pi)(function (e) {
+        const E = (0, d.Pi)(function (e) {
             return c.createElement(
-              E,
+              V,
               Object.assign({}, e, { VRGamepadUI: T.B.isVRGamepadUI }),
             );
           }),
-          E = (e) => {
+          V = (e) => {
             var t, o, n;
             const r = e.VRGamepadUI,
               i = c.useRef(null),
@@ -12508,8 +12500,8 @@
         var T = o(2188),
           D = o(7726),
           I = o(5177),
-          V = o(9942),
-          E = o(16),
+          E = o(9942),
+          V = o(16),
           x = o(3107),
           P = o(7176),
           L = o(9809),
@@ -12585,7 +12577,7 @@
               this.m_mailbox.Init("systemui_devpanel");
           }
           onShowSceneAppBindings() {
-            const e = V.H.Instance.SceneAppKey;
+            const e = E.H.Instance.SceneAppKey;
             if (e) {
               let t = { type: "request_binding_callouts", app_key: e };
               this.m_mailbox.SendMessage(P.Ml, t);
@@ -12950,7 +12942,7 @@
                 ),
               this.state.bShowBaseInfo && e.push(i.createElement(M, null)),
               e.push(
-                i.createElement(E.Y6, {
+                i.createElement(V.Y6, {
                   key: "resetseatedcountdown",
                   dashboardRef: this.m_DashboardRef,
                 }),
@@ -13328,4 +13320,4 @@
   var r = n.O(void 0, [968, 683], () => n(9850));
   r = n.O(r);
 })();
-//# sourceMappingURL=systemui.js.map?v=c2aab7149dbebdbeefda
+//# sourceMappingURL=systemui.js.map?v=7a648a13829a5b122f4c

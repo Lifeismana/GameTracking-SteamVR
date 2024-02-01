@@ -5377,14 +5377,6 @@
                   icon: { enum: $.Cj.k_EVRDashboardActionIcon_Recenter },
                 }),
               ),
-              s.add_actions(
-                $.z3.fromObject({
-                  action_id: G.Volume,
-                  invocation: $.w7.k_EVRDashboardActionInvocation_Special,
-                  special_invocation:
-                    $.Hr.k_EVRDashboardActionSpecialInvocation_Volume,
-                }),
-              ),
               (0, ee.W)(s);
             const l = new $.Jl();
             l.set_windows(
@@ -11186,4 +11178,4 @@
   var n = o.O(void 0, [968, 683], () => o(1983));
   n = o.O(n);
 })();
-//# sourceMappingURL=settings_desktop.js.map?v=31e67e2ad2706a04d3af
+//# sourceMappingURL=settings_desktop.js.map?v=ae556138bea9cc35238d

@@ -198,7 +198,6 @@
 	--settings-border-radius: 0px;
 	--settings-button-border-radius: 5px;
 	--settings-sidebar-side-margin: 20px;
-	--settings-sidebar-button-expansion: 0px;
 	--settings-sidebar-button-max-height: 2.3rem;
 	--settings-right-column-width: 220px;
 	--settings-control-default-height: 2rem;
@@ -236,7 +235,6 @@ html.VROverlay
 	--settings-border-radius: 30px;
 	--settings-button-border-radius: calc(1.2 * var(--settings-border-radius));
 	--settings-sidebar-side-margin: 40px;
-	--settings-sidebar-button-expansion: 20px;
 	--settings-right-column-width: 500px;
 	--settings-control-default-height: 2rem;
 	--settings-font-size: 1rem;
