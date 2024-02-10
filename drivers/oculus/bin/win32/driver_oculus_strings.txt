@@ -68,12 +68,12 @@ $9^ t
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
 %3333
+%60>C
 %UUUU
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %s begin_ctx=%llu
 %s end_ctx=%llu
-%t{Y|
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
 ' property is missing
@@ -100,7 +100,6 @@ $9^ t
 )=-=<=@=M=Q=
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
-*030<0E0J0O0V0
 +Xt@(
 +o'q)}
 , binary size = 
@@ -277,7 +276,6 @@ $9^ t
 /input/b/click
 /input/b/touch
 /input/gesture/pointing
-/input/gesture/thumb_rest
 /input/gesture/thumb_up
 /input/grip/value
 /input/joystick/click
@@ -294,6 +292,7 @@ $9^ t
 /input/skeleton/right
 /input/system/click
 /input/tap/click
+/input/thumbrest/touch
 /input/trigger/touch
 /input/trigger/value
 /input/x/click
@@ -329,27 +328,28 @@ $9^ t
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0
 0 width
 0!0)010o1
+0!0*0/040K0
 0!01060;0@0E0J0O0T0Y0^0c0h0m0r0w0|0
 0!010=0I0S0i0x0
-0"0+04090>0E0J0X0z0
 0"000<0[0`0q0w0|0
+0"090B0K0T0Y0^0e0j0x0
 0"22262n2}2
 0"2C3
 0#0(0-02070<0A0F0K0P0U0Z0_0d0i0n0s0x0}0
 0#0)0;0E0K0R0`0i0n0
 0$0(0,040L0P0h0x0|0
 0$0.060A0S0q0{0
+0$030=0F0O0]0l0v0
 0$1,141=1(2-2{2
 0$1P1x1
-0&0/0=0L0V0_0h0v0K1V1z1
 0'0.0G0N0g0n0
 0'0D0e0{0
 0(040<0\0
 0(1D1
 0)0/060D0M0R0
 0)0{0
+0*131<1E1J1O1V1
 0+0I0]0
-0+0_0
 0+0u0z0
 0,0H0p0
 0-070=0D0R0[0`0
@@ -364,13 +364,13 @@ $9^ t
 080D0L0l0
 0:0[0b0j0r0
 0;0B0y1K2
+0;1@1[1d1m1r1w1
 0;1C1K1
 0<1k1
-0=1F1N1T1e1k1
 0G1U1i1
 0I0v0
 0I1g1o1
-0N0`0i0t0
+0J0S0\0e0j0o0v0
 0N1R1
 0P7T7X7\7`7d7h7l7p7t7x7|7
 0S1)2x2
@@ -380,7 +380,7 @@ $9^ t
 0cbJ<H
 0cbZ<H
 0d1k1
-0n1,222;2I2/4
+0k1v1
 0w0c1
 0|3I;
 0}0K1
@@ -391,13 +391,11 @@ $9^ t
 1 1$1(1,1014181<1@1D1H1
 1 1$14181<1D1\1l1p1
 1 1)141<1F1N1Y1_1e1o1y1
-1 1;1D1M1R1W1
-1!585
 1"1'1,11161;1@1Q1V1[1`1e1j1o1t1y1~1
+1"1'1-1t1}1
 1"2C2d2
 1"2L2Q2d2
 1$1(181<1L1P1T1\1t1x1
-1%1*1/161u1~1
 1%1/151<1J1S1X1
 1&1.161r1
 1(1,1014181<1@1
@@ -421,16 +419,17 @@ $9^ t
 1@1b1g1
 1A2;3A3M3o4u4
 1A2T2\2h2w2
+1A5X5
 1E1K1X1\1`1d1h1
 1F1S1q1
 1H5)8
 1I2h2o2v2
 1J1g1l1s1y1~1
 1J1h1n1v1}1
+1L2R2[2i2O4
 1Q1r1
-1T1]1f1o1t1y1
-1U2f253B3K3Z3_3d3{3
 1V2V3d5v5V70959=9N9Z9n9{9
+1]1f1n1t1
 1e+9999
 1h3}4
 1j1t1z1
@@ -443,6 +442,7 @@ $9^ t
 2 2'20292B2p2y2
 2 3H4
 2!3?3
+2"2'2,232u2~2
 2#2+22272=2O2Y2_2f2t2}2
 2#3-3
 2$24282L2P2`2d2t2x2|2
@@ -468,7 +468,7 @@ $9^ t
 220801000000Z
 22383>3D3J3P3V3\3b3h3n3t3z3
 230714000000Z
-240201010930Z0/
+240209235806Z0/
 241009235959Z0a1
 252?2E2L2Z2c2h2
 282D2L2l2
@@ -478,11 +478,10 @@ $9^ t
 2@2`2|2
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2E3N3W3`3e3j3x3
 2G2K2w2
 2J2Y2h2
 2SPV9
-2U2^2g2p2u2z2
+2U3b3k3z3
 2Y2c2i2~2
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
@@ -491,14 +490,12 @@ $9^ t
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 3 3$3(303H3X3\3d3|3
 3 333F3Y3l3
-3 8%<
 3!3&3+30353:3?3D3I3N3S3X3]3b3g3l3q3v3{3
 3!3+313@3F3Q3[3e3p3}3
 3!3?3N3
 3!4c4
 3"3S3p3
 3"3i4
-3"4.4;4D4M4R4W4\4h4r4
 3#313:3?3m3
 3#3n3
 3#4Y4s4h5
@@ -515,12 +512,11 @@ $9^ t
 3,424@4L4
 3,4;4?4k4z4
 3-4O4T4l4v4|4
-3.363F3_3o3x3
+3.3N3V3f3
 30343L3\3`3t3x3
 311109235959Z0b1
 32393J3O3
 341013235959Z0H1
-354H4
 354w	
 358w	
 360428235959Z0i1
@@ -531,7 +527,6 @@ $9^ t
 3:3g3q3w3
 3<3Z3_3w3
 3<4B4]4{4
-3?4X4a4j4s4x4}4
 3?5z5
 3@3L3T3t3
 3D5P5
@@ -542,16 +537,20 @@ $9^ t
 3P3r3w3
 3Q4\4h4p4x4
 3S384
+3U4h4
 3Z3r346
 3[3~3
 3[4e4k4
+3_4x4
 3_5V7
+3e3n3w3
 3mq+<
 3r5v5
 3v567v8(;d;
 3z3'4;4~4
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
 4 4$4(4,40484P4`4d4t4x4
+4 4%494?4P4^4g4u4z4
 4 4044484@4X4\4t4
 4 5$5
 4!5s5
@@ -567,7 +566,6 @@ $9^ t
 4)6f6V8
 4-4>4P4
 4.555
-404>4G4U4Z4_4f4
 404H4d4
 444@4H4h4
 444X4d4l4
@@ -575,16 +573,17 @@ $9^ t
 4:5V5[5
 4;5K5
 4<4l4
-4>5C5M5l5u5
 4?4g4}4
-4A5J5S5b5g5l5s5
+4B4N4[4d4m4r4w4|4
 4D4t4
 4F4P4
 4J5i5
 4P6T6
 4U4e4k4u4
 4Y5^5|5
+4^5c5m5
 4_5h5q5z5
+4a5j5s5
 4d6v6
 4e5n5
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -593,6 +592,7 @@ $9^ t
 5 5$5(505H5X5\5l5p5t5x5
 5 5%5*5/54595>5C5H5M5R5W5\5a5f5k5p5
 5 5&5[5|5
+5 5)52575<5J5a5
 5!5+51585F5O5T5
 5!5v5
 5!6'6D6X6w6|6
@@ -605,7 +605,6 @@ $9^ t
 5%666>6l6u6
 5&51565;5A5J5T5_5m5v5
 5&6,6?6
-5*5A5f5
 5,5P5\5d5
 5-6O6T6l6v6|6
 516O6
@@ -641,19 +640,20 @@ $9^ t
 6$6*60666<6B6H6N6T6Z6`6f6l6r6x6
 6$6<6L6P6`6d6h6p6
 6$6D6h6t6|6
+6%64696>6X6
 6(6K6
 6*646=6F6T6c6m6v6
 6*f(_
+6-747<7E7N7S7X7_7
+606_6d6s6
 62676O6Y6_6f6t6}6
 627=7F7
 637n7
 646D6H6X6\6d6|6
 646X6d6l6
 646`6
-686r6
 687Q7V7~7
 6=8v9
-6?6D6S6b6q6
 6E7Q7
 6F668v8z:
 6I]Dc
@@ -670,12 +670,12 @@ $9^ t
 6t7f8
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7
 7 7$7(7,747L7\7`7p7t7x7
-7 7c7l7u7~7
 7 8,848T8x8
 7 858P8h8
 7 8B8G8_8i8o8v8
 7!7%74787G7K7Z7b7l7x7
 7!7&7+70757:7?7D7I7N7S7X7]7b7g7l7q7v7{7
+7!7*7/747@7
 7!7*787G7Q7Z7c7q7
 7!717A7Q7a7q7
 7!7\7
@@ -685,7 +685,7 @@ $9^ t
 7$7,7L7p7|7
 7$7-727p7
 7%7-717
-7%7.73787?7
+7%7.777[7a7z7
 7&7/737
 7'7,73797K7U7[7b7p7y7~7
 7'7-747;7@7F7X7b7h7o7}7
@@ -694,8 +694,8 @@ $9^ t
 7'8M8
 7(7>7
 7(7L7X7`7
-7(8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
 7)7A7F7_7
+7,8K8Q8
 7,8\8
 7/8N9
 70503
@@ -706,7 +706,6 @@ $9^ t
 767C7e7
 788<8@8D8H8L8P8T8X8\8`8d8h8l8p8t8x8|8
 7:8[8`8g8m8
-7;7A7Z7
 7<7`7l7t7
 7<7l7
 7=7L7P7T7X7\7`7d7h7l7p7t7x7|7
@@ -725,7 +724,6 @@ $9^ t
 7Y8b8
 7Z9m9
 7`8o8
-7a7w7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8 8$8
 8 8$8(8,8084888<8@8D8H8L8
@@ -734,16 +732,16 @@ $9^ t
 8!818A8Q8a8q8
 8"8'8,81868;8@8Q8V8[8`8e8j8o8t8y8~8
 8"8'8,838C8
+8#8,81868=8
 8#8,818j8
 8$8D8h8t8|8
 8%8Q8a8q8
 8&868<8n8t8
+8(9L9t9
 8)9J9
-8+818
 8,8<8@8H8`8p8t8
 8,8H8d8
 8-868;8j8
-8-9W9
 8.868
 8/8C8b8r8
 808T8`8h8
@@ -761,28 +759,29 @@ $9^ t
 8D9M9
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8H8`8d8h8l8p8t8x8|8
 8N9u9$:E:
 8N:q;
 8SVWj
 8_^[]
-8`8i8s8|8
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8d:i:w:|:
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-8e9p9
 8f9F;
 8jpu9
 8n8t8
-8n8w8
 8pnuM
 8spot
+8z9(;
 9 9$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
 9 9$9(9,9094989<9@9D9H9L9P9T9v9
 9 9*;.;
 9 90949D9H9L9T9l9|9
+9 9J9:;D;M;Y;
 9 u	A
 9!9&9+909C9J9Q9X9_9f9m9t9{9
+9!9(9j9w9
 9!919;9M9^9z9
 9!919A9Q9a9q9
 9"9'9-9?9I9O9V9d9m9r9
@@ -792,9 +791,9 @@ $9^ t
 9':0:;:d;
 9(9-9E9O9U9\9j9s9x9
 9(949<9\9
+9):3:<:H:v:
 9,9<9@9P9T9X9`9x9
 9,9H9d9
-9,9T9c9l9
 9-9~9
 9.9U9~9
 9/:W:
@@ -813,13 +812,12 @@ $9^ t
 9E:O:T:Y:
 9F:R:
 9H:N:f:u:{:
-9J9W9`9i9n9s9
 9L9|9
 9L:u:{:
+9M9w9
 9Q4vV
 9Rootu	
 9\9d9
-9^:z:
 9`9p9
 9b9k9t9}9
 9h=l=
@@ -832,18 +830,18 @@ $9^ t
 : :$:4:8:@:X:h:l:|:
 : :@:d:p:x:
 : ;&;[;a;f;
+: <)<2<;<@<E<L<
 : one or more FS callback not set
 :!:':3:A::;Y;^;
 :!:1:A:Q:a:q:
-:!:c:l:u:~:
 :!;/;Q;_;
 :":`:
 :#;-;7;A;U;e;
 :$:4:8:L:P:`:d:h:p:
 :$<V<
 :%:I:b:
+:':0:5:::A:
 :(:L:x:
-:(:V:`:i:u:
 :(;P;
 :):2:^:k:u:~:
 :):;:f:q:
@@ -856,6 +854,7 @@ $9^ t
 :1:6:@:F:J:c:h:r:
 :1:<:a:o:
 :1:P:V:x:
+:9;B;K;T;Y;^;e;
 :::Q:Z:c:l:q:v:}:
 :<;@;D;
 :=;[;
@@ -882,12 +881,12 @@ $9^ t
 ;!;&;+;0;A;F;K;P;U;Z;_;d;i;n;s;x;};
 ;!;1;A;Q;a;q;
 ;";';,;1;6;;;@;Q;V;[;`;e;j;o;t;y;~;
-;";+;4;9;>;E;
+;";+;4;?;O;Y;b;k;v;
 ;"=i>n>{>
+;#;/;];g;p;|;
 ;#;U;`;i;r;
 ;#<3=
 ;#<c<y<
-;$;-;9;_;i;r;{;
 ;$;H;T;\;|;
 ;(;,;0;4;8;L;P;`;d;h;p;
 ;(;-;5;;;A;H;M;S;e;o;u;|;
@@ -895,7 +894,6 @@ $9^ t
 ;);3;9;@;N;W;\;
 ;,;0;8;P;`;d;t;x;
 ;.<P<U<m<w<}<
-;/;9;B;K;V;e;o;x;
 ;0;7;J;c;i;
 ;0=?=M=
 ;1;6;=;C;U;_;e;l;z;
@@ -905,7 +903,6 @@ $9^ t
 ;4<&=
 ;7;<;C;I;N;T;f;p;v;};
 ;=;E;f;
-;=;G;P;\;
 ;>;G;P;Y;^;c;m;
 ;@<D<H<L<P<T<
 ;C<u<
@@ -922,19 +919,18 @@ $9^ t
 ;p;y;
 < <$<(<,<
 < <%<*</<4<9<><C<H<M<R<W<\<a<f<k<p<u<z<
-< <%<,<q<}<
 < <(<,<4<8<@<D<L<P<X<\<d<h<p<t<|<
 < <+=
 < =,=4=T=x=
 < =B=G=_=i=o=v=
+<!<1<;<D<M<X<g<q<z<
 <!<1<A<Q<a<q<
-<!<c<l<u<~<
+<!=i=
 <"<(</<=<F<K<z<
 <"<4<8<<<@<T<X<\<`<
 <"=3=T=
 <$<)<.<3<8<=<B<G<L<Q<V<[<`<e<j<o<t<y<~<
 <$<,<L<p<|<
-<$<-<8<G<Q<Z<c<r<
 <$<4<8<H<L<P<T<\<t<
 <$=3=S=a=
 <$=E=9>B>
@@ -944,6 +940,9 @@ $9^ t
 <%<<<t<
 <&>[>b>
 <'<,<2<<<F<V<f<v<
+<'<0<5<:<A<
+<'D6a
+<(<\<
 <*=G=L=S=Y=^=d=v=
 <+<1<E<d<t<
 <+=d=
@@ -962,7 +961,6 @@ $9^ t
 <:>v>
 <<<H<P<p<
 <<<`<l<t<
-<<<h<t<
 <<=B=]=q=
 <>=d=m=
 <@=D=H=L=P=
@@ -987,28 +985,30 @@ $9^ t
 = =(=,=0=8=L=d=h=
 = >@>
 =!=&=+=0=5=:=?=D=I=N=S=X=]=b=g=l=q=v={=
+=!=+=4===K=Z=d=m=v=
 =!=1=A=Q=a=q=
 =#=)=0=>=G=L=~=
 =#=,=B=L=V=_=
+=$;PF
 =$=(=0=4=<=@=H=L=T=X=`=d=l=p=x=|=
 =$=)=/=9=C=V=[=j=
 =$=D=h=t=|=
+=%=*=/=6=;=H=j=
 =%>C>
 =%>h>o>
 =&=0=:=D=N=X=b=l=v=
 =&>a?
 ='>x>|>
 =(=,=D=H=`=p=t=
-=(=J=a=j=s=|=
 =(>L>|>
 =*>L>Q>i>s>y>
-=+=:=D=M=V=d=s=}=
 =,=1=;=T=N>
 =.>5>
 =0=4=
 =1=?=a=o=
 =3?j?
 =4=X=d=l=
+=4>>>G>P>
 =7>V>_>
 =9>_>
 =:=W=\=c=i={=
@@ -1023,30 +1023,29 @@ $9^ t
 =Y>s>{>
 =]>z>
 =^>x>
-=c>t>
 =k>r>
 =rIQU
->	>l>u>~>
 > >$>(>,>0>4>8><>@>D>H>L>X>\>`>d>h>l>p>t>x>|>
 > >$>,>D>T>X>h>l>p>x>
 > ?$?(?,?
 > ?,?4?T?x?
 >!>1>A>Q>a>q>
 >">'>,>1>6>;>@>Q>V>[>`>e>j>o>t>y>~>
+>">)>
 >#>->A>O>T>b>g>q>~>
 >#>5>?>E>L>Z>c>h>
 >$>(>8><>@>D>H>L>P>T>X>\>`>d>h>
 >$>,>4><>@>D>L>`>
 >$>,>L>p>|>
+>%>0>7>?>E>
 >&>4>=>B>
->'>0>r>|>
+>&?J?l?u?~?
 >(>4><>\>
 >)?i?
 >,>0>4>8>@>X>h>l>t>
 >,>E>L>e>l>
 >.>8>>>E>S>\>a>
 >0<0:
->0?9?B?K?P?U?\?
 >0?R?W?o?y?
 >1?8?
 >1?B?
@@ -1068,6 +1067,7 @@ $9^ t
 ? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
 ? ?$?4?8?<?@?H?`?p?t?
 ? ?%?*?/?4?9?>?C?H?M?R?W?\?a?f?k?p?u?z?
+? ?.?=?G?P?Y?g?
 ?!?5?
 ?!?<?W?a?l?q?}?
 ?"?'?2?9?>?C?Q?V?a?f?s?}?
@@ -1077,10 +1077,8 @@ $9^ t
 ?$?D?h?t?|?
 ?%?t?
 ?&?-?x?
-?'?0?9?G?
 ?'?E?f?
 ?(?J?l?
-?*?L?U?^?g?l?q?x?
 ?,?T?
 ?/?4?9?@?Y?`?y?~?
 ?/skeleton/hand/left
@@ -1118,6 +1116,7 @@ $9^ t
 ??_7ios_base@std@@6B@
 ?M?T?
 ?O?h?{?
+?P?Y?b?k?p?u?|?
 ?_?f?
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
@@ -1268,6 +1267,7 @@ F(Q9F,t
 F(j4f
 F<\uD
 FH;FDu
+FI,UHDN
 FLQ9FPt
 FORMAT=32-bit_rle_rgbe
 FS callback[s] not set
@@ -1353,7 +1353,7 @@ IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
-IVRDriverDirectModeComponent_008
+IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -1413,6 +1413,7 @@ JSONuTS
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
+L=e4[
 L?n(Zy&
 LINEAR
 LeaveCriticalSection
@@ -1469,7 +1470,6 @@ Orhographic camera description not found.
 OrthographicCamera
 Out of thread local storage!
 OutputDebugStringW
-P"}L~H%
 PAq=?Mp#
 POSITION
 PVShp
@@ -1487,7 +1487,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
 RPh$Z
-RSDS+
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1982,7 +1981,6 @@ italian
 j	h0v
 j	hHq
 j	h|y
-j'aWA' i
 j1h0x
 j3hds
 j5hlx
@@ -2495,7 +2493,6 @@ wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
 y"h09
-yK]Z=
 yxxx+
 zh_cn
 zh_tw

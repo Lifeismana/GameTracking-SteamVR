@@ -34,7 +34,6 @@
 )t$ H
 )t$0H
 )t$@H
-*/KT_V
 *uXI;
 +Xt@(
 +o'q)}
@@ -177,12 +176,13 @@
 0}0i1
 130801120000Z
 1e+9999
+2)j2m~^
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240201011643Z0/
+240210000527Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -207,7 +207,6 @@
 8_^][
 9D$xu
 9D$|toH
-;k3J<<H
 < t+<
 </u#H
 <0:08
@@ -541,6 +540,7 @@ HMD D3D11CreateDevice failed.
 HMD IDXGIAdapter (%s)
 HMD context (%s)
 HMD device (%s)
+HYbF:$
 HandleInput
 Handling keyboard char input
 Handling lock mouse
@@ -668,6 +668,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS+
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -929,7 +930,6 @@ french
 german
 gfffffffH
 gfffffffI
-gi6w"
 greek
 h_^[]
 handlers
@@ -983,7 +983,6 @@ memcpy
 memmove
 memset
 message_id
-mvISt
 no_no
 norwegian
 ntelD

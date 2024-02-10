@@ -2426,7 +2426,6 @@ $tI
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:05:33
 0A
 0x
 0x%08llx
@@ -2502,6 +2501,7 @@ $tI
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23
+23:54:48
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -4666,7 +4666,7 @@ False
 FastHexToBuffer() wants non-negative integers, not
 Fatal
 Feb
-Feb  1 2024
+Feb  9 2024
 February
 Feel free to add support for more if you need it.
 Field       :
@@ -4943,7 +4943,7 @@ IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
-IVRDriverDirectModeComponent_008
+IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001

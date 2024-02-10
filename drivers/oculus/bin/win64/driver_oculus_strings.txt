@@ -22,7 +22,6 @@
 		"seated" : {
 		"standing" : {
 	!s99
-	$;$x
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
 	D$HA
@@ -97,6 +96,7 @@ $w!Hc
 %s begin_ctx=%llu
 %s end_ctx=%llu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&*f?J
 &9k0t
 &D9c0t
 &D9k0t
@@ -390,7 +390,6 @@ $w!Hc
 /input/b/click
 /input/b/touch
 /input/gesture/pointing
-/input/gesture/thumb_rest
 /input/gesture/thumb_up
 /input/grip/value
 /input/joystick/click
@@ -407,6 +406,7 @@ $w!Hc
 /input/skeleton/right
 /input/system/click
 /input/tap/click
+/input/thumbrest/touch
 /input/trigger/touch
 /input/trigger/value
 /input/x/click
@@ -462,7 +462,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240201011116Z0/
+240209235958Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1082,7 +1082,7 @@ IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
-IVRDriverDirectModeComponent_008
+IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -1215,6 +1215,7 @@ MB(iVR
 MSVCP140.dll
 MS_:F
 MT$dA
+M]B/WZ
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
@@ -1284,7 +1285,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSw
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1685,7 +1685,6 @@ bad zlib header
 baseColorFactor
 baseColorTexture
 bg_bg
-bohjx|5|1
 bonemask_grip.txt
 bonemask_index.txt
 bonemask_indexcurl.txt
@@ -1709,6 +1708,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
+cJiM@
 camera
 cameras
 can't merge dc and ac
@@ -1762,6 +1762,7 @@ dxgi.dll
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
+eY+a~!V
 effffff
 el_el
 emissiveFactor
@@ -1777,7 +1778,6 @@ extensions
 extensionsRequired
 extensionsUsed
 extras
-f"YG|L
 fD9	u
 fD9&u
 false
@@ -1799,7 +1799,6 @@ fseek
 fsetpos
 fwrite
 g9k0t_D
-g=I=!C
 generator
 german
 gfffffffH
@@ -1954,7 +1953,6 @@ material
 materials
 matrix
 max value > 255
-mdqr^
 memchr
 memcmp
 memcpy
@@ -2358,7 +2356,6 @@ strtod
 strtol
 strtoll
 strtoull
-svH3"
 sv_sv
 swedish
 syntax error 
@@ -2510,7 +2507,6 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
-{lE'@9@2Q8
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png

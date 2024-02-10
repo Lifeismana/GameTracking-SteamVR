@@ -1,5 +1,4 @@
 	!s99
-	#_yE~
     A
  %41g
  (Camera)
@@ -8,13 +7,13 @@
  H3E H3E
 !hn7!
 ',=?k
-'mk<h
 (A^A]^[
 (Unable to load LibOVR)
 (\$pD
 (d$`D
 (f*^[0
 (l$PD
+(qP47}8UeEq
 (t$pH
 )D$ H
 )\$pD
@@ -84,7 +83,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/*mUdp!
 0A_A^A]A\_^[
 0w0c1
 0}0i1
@@ -94,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240201011120Z0/
+240210000002Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -116,6 +114,7 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8KtsB
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -171,7 +170,6 @@ Code: -3003
 CreateEventA
 CreateEventW
 CreateThread
-Cx	<p
 C|$XH
 D$0Hc
 D3D11CreateDevice
@@ -220,7 +218,7 @@ ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
-IVRDriverDirectModeComponent_008
+IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
 IVRProperties_001
@@ -285,7 +283,6 @@ SUWAWH
 SVWATAUAVAWH
 SetEvent
 SetUnhandledExceptionFilter
-Sh8B_
 Sleep
 SleepConditionVariableCS
 TUUUUUU
@@ -322,6 +319,7 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+X:y#R
 Y9"SD
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -453,7 +451,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-qJdM0
+q/5F2o
 startup
 string too long
 strncpy
@@ -473,7 +471,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-yw3P^
 z(uMH
 {ERR-001}
 {ERR-079}

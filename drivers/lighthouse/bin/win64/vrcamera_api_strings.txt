@@ -70,7 +70,6 @@ $< t6<$t,<+t"<vt
 (t$pH
 (|$ H
 (|$0I
-)5^977
 )D$ I
 )D$@A
 )D$PH
@@ -322,6 +321,7 @@ $< t6<$t,<+t"<vt
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.Qt(7
 .data
 .data$r
 .edata
@@ -374,12 +374,13 @@ $< t6<$t,<+t"<vt
 0}0i1
 130801120000Z
 1eaB@
+1m0Pu
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240201010810Z0/
+240209235720Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -409,6 +410,7 @@ $< t6<$t,<+t"<vt
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8H;^XtB
+8M<J]
 8T$0u
 8\$0u`H
 8\$0up
@@ -453,6 +455,7 @@ $< t6<$t,<+t"<vt
 <}wYI
 =rIQU
 >0<0:
+>7PP>\
 >Mp$d
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
@@ -612,7 +615,6 @@ $< t6<$t,<+t"<vt
 @VWAVH
 @WAUAVAWH
 @WAVAWH
-@f4We
 A$+A,t\3
 A(9B(D
 A+B$+
@@ -972,7 +974,6 @@ GetVersionExW
 Global Gain:			
 H WATAUAVAWH
 H!T$0D
-H!T{.f
 H#T$0H
 H#|$0tB
 H+C H=
@@ -1002,6 +1003,7 @@ H9\$ u
 H9_ht0H
 H9h0t`
 H9t$@t
+H:x{C
 H;@0u
 H;@Xu
 H;A0s
@@ -1109,7 +1111,6 @@ No depth or color data. Cannot determine frame number.
 No depth stream to configure.
 O,D9O(vcH
 OLEAUT32.dll
-P7udja
 P8fD;
 P@fD;
 PA^A\]
@@ -1120,6 +1121,7 @@ PA_A^A]A\_^]
 PA__^[]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Pv'nL
 Pz}b!
 QueryDepthSList
 QueryPerformanceCounter
@@ -1287,7 +1289,6 @@ Z(D9Z
 \$pE3
 ]J<0"0i3
 ]`u7H
-^^d}LbC
 _(H9n
 _CxxThrowException
 _Getdays
@@ -1349,7 +1350,7 @@ _wcsdup
 `A^_^][
 `A_A^A]A\_^]
 `A_A^_^[
-`wOtc
+`~vZ*
 a7hIw
 abort
 address family not supported
@@ -1370,6 +1371,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
+b>@-3
 bad address
 bad allocation
 bad array new length
@@ -1397,15 +1399,16 @@ d$XD9
 d$XE3
 d$`H=
 d$vI9V
-d;"o*
 destination address required
 device or resource busy
 digit
 directory not empty
 e0A^A]A\_^[]
+e:$5^
 e@A_A^]
 eventObject
 executable format error
+e{a(0
 f	n@H
 f#D$@H
 f9,Yu
@@ -1501,7 +1504,6 @@ memcpy
 memmove
 memset
 message size
-mz=Ogc(
 nD8-V
 network down
 network reset

@@ -28,6 +28,7 @@
 %,3:;4-&
 %9k0t
 %9{0t
+%=M-?
 &9k0t
 &D9c0t
 &D9k0t
@@ -177,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240201010815Z0/
+240209235724Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -193,6 +194,7 @@
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
+6@)|`
 6I]Dc
 6OB,n_
 70503
@@ -200,6 +202,7 @@
 7u;H;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8D|yUu
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -356,7 +359,6 @@ Failed to acquire raw camera block for writing: %d
 Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
 FreeLibrary
-Fs!OvEn
 GetCameraHALInterface
 GetCurrentProcessId
 GetCurrentThreadId
@@ -498,6 +500,7 @@ SleepConditionVariableCS
 StartVideoStream
 StopVideoStream
 Success
+Sx?<U
 T$ fD
 T$0fA
 T$8;T$<
@@ -548,6 +551,7 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
+UI*R9GN
 USVATAUAWH
 USVWATAUAVAWH
 USVWATAUAVH
@@ -558,6 +562,7 @@ UWATAVAWH
 UnhandledExceptionFilter
 Unknown
 Unknown exception
+UrkW]
 UuidFromStringA
 VATAUH
 VCRUNTIME140.dll
@@ -837,6 +842,7 @@ romanian
 ru_ru
 russian
 schinese
+sd]oA
 spanish
 startup
 strcmp

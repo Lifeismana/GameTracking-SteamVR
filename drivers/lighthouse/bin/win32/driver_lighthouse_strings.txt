@@ -192,7 +192,6 @@
 !&.37<
 !(0)"
 !0A0Y0
-!3yW,
 !9~ t
 !hn7!
 !leftSyncIsReal
@@ -954,7 +953,6 @@ $tI<unknown>
 0q2|2G3K3X3\3
 0r1|1
 0s0}0
-0sD;1'1
 0w0c1
 0x%08llx
 0|2(3
@@ -1189,7 +1187,7 @@ $tI<unknown>
 230714000000Z
 233:3
 234z4
-240201010922Z0/
+240209235759Z0/
 241009235959Z0a1
 242>2
 242D2H2X2\2`2d2l2
@@ -1260,7 +1258,6 @@ $tI<unknown>
 2l3t3|3
 2v395V5
 3 3$3(3,303
-3 3$3(3,3034383<3@3D3H3L3
 3 3$3(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 3 3$3(3G3[3j3H4`4
 3 3$3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
@@ -1573,8 +1570,8 @@ $tI<unknown>
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
 5 5$5(505H5X5\5l5p5t5x5
 5 5$5(505H5X5\5l5p5t5|5
-5 5$5(5h6l6p6t6x6|6
 5 5$51555W5[5j5n5}5
+5 5$5d6h6l6p6t6x6|6
 5 5(5H5l5x5
 5 5,5L5T5\5d5l5t5|5
 5 585H5L5\5`5d5h5p5
@@ -3368,7 +3365,6 @@ A;O |
 A;O(r
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ACTIVE
-AD$X+
 AD;G$u
 ADVAPI32.dll
 AHJzrJbk
@@ -4215,7 +4211,7 @@ IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
-IVRDriverDirectModeComponent_008
+IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
@@ -4591,6 +4587,7 @@ PRVQhH
 PSSSj
 PVh +
 PVhx#
+P^v_1
 P`]s 
 P`]sG
 Pairing Failed
@@ -4636,7 +4633,7 @@ R8F;u
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPj#h
-RSDS#
+RSDS*,
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4853,7 +4850,6 @@ T$(RW
 T$,Rh ?
 T$@RP
 T$LVR
-T,CzE
 T3,9U
 T309L34w
 TADItA
@@ -5385,6 +5381,7 @@ Z	u'V3
 Z _^]
 Z(rDf
 Z* ,	
+ZrLMH
 [-&LMb#{'
 [1$262H7Z7G<
 [DepthAugmentedPassthrough] supported on this system: %d
@@ -5533,6 +5530,7 @@ _wstat64i32
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
+a'uTa
 a7hIw
 aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
 abort
