@@ -1,14 +1,10 @@
 	!s99
  %41g
  (Camera)
-!AMk`
 !hn7!
-!oTe{
 ',=?k
-(Um<y!o
 (Unable to load LibOVR)
 (f*^[0
-)$X8&
 +Xt@(
 +o'q)}
 , last executing in 
@@ -89,7 +85,6 @@
 1%1-151:1@1H1P1U1[1c1k1p1v1~1
 1(2L2x2
 130801120000Z
-1|1Ysh
 2	4+4
 2 2(2-232;2C2H2N2V2^2c2i2q2y2~2
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
@@ -99,7 +94,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240209235809Z0/
+240305034133Z0/
 241009235959Z0a1
 262~2
 2>4~4
@@ -187,6 +182,7 @@
 =&=2=;=@=F=P=Z=j=z=
 ='>P>_>r>~>
 =,>i>o>
+=/|.0
 =4=X=d=l=
 =<=p=
 =P>h>l>
@@ -212,6 +208,7 @@
 ?h?u?
 @.data
 @.reloc
+@f`xB
 ADVAPI32.dll
 Bellevue1
 COculusHmdLatest::UpdateThread
@@ -286,6 +283,7 @@ LoadLibraryA
 LoadLibraryW
 MB(iVR
 MSVCP140.dll
+MU%N]S
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
@@ -298,6 +296,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
+RSDS ~
 RaiseException
 S0Q0O
 SA|X=G
@@ -305,6 +304,7 @@ SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
+S[j	w
 SetEvent
 SetUnhandledExceptionFilter
 Sleep
@@ -319,6 +319,7 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+Ub= P
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -393,6 +394,7 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
+c="ls
 camera
 d3d11.dll
 dk2_camera
@@ -405,6 +407,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iIBbU
 invalid string position
 jdjdh
 jj@0HK4
@@ -463,7 +466,8 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-qRhWN
+p'n>0
+pV`xo-
 startup
 string too long
 strncpy
@@ -477,7 +481,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-{;fKb3[&\\n
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -491,4 +494,5 @@ www.digicert.com1$0"
 |Lu?c
 }LuHO
 ~qj#k"
+~rbNX\
 ~t&LN

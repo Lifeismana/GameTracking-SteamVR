@@ -2356,7 +2356,7 @@
             i = 0;
           if (!t)
             for (let t = 0; t < e.length; ) {
-              var s = {
+              let s = {
                 sId: "",
                 sName: "",
                 bIsImplicit: !1,
@@ -2371,9 +2371,9 @@
                 n.push(s),
                 s.bIsEnabled && i++;
             }
-          const o = n.filter(this.isImplicitLayer),
-            r = n.filter(this.isExplicitLayer),
-            a = n.filter(this.isImplicitNoModifLayer);
+          const s = n.filter(this.isImplicitLayer),
+            o = n.filter(this.isExplicitLayer),
+            r = n.filter(this.isImplicitNoModifLayer);
           return c.createElement(
             c.Fragment,
             null,
@@ -2402,8 +2402,8 @@
                   header: (0, m.Xx)("#OpenXR_ApiLayers_Installed"),
                   onDismissRequested: this.hide,
                 },
-                o.length > 0 &&
-                  o.map((e) =>
+                s.length > 0 &&
+                  s.map((e) =>
                     c.createElement(_.wy, {
                       key: e.sId,
                       label: e.sName,
@@ -2411,8 +2411,8 @@
                       onChange: (t) => this.setApiLayerState(e.sId, t),
                     }),
                   ),
-                a.length > 0 &&
-                  a.map((e) =>
+                r.length > 0 &&
+                  r.map((e) =>
                     c.createElement(
                       "div",
                       { className: "SettingsItem" },
@@ -2433,8 +2433,8 @@
                         ),
                     ),
                   ),
-                r.length > 0 &&
-                  r.map((e) =>
+                o.length > 0 &&
+                  o.map((e) =>
                     c.createElement(
                       "div",
                       { className: "SettingsItem" },
@@ -2465,7 +2465,12 @@
         (V = (0, i.gn)([l.Pi], V));
       let O = class extends _.d9 {
         constructor(e) {
-          super(e);
+          super(e),
+            (this.m_mailbox = new s.Nv()),
+            this.m_mailbox.Init("settingstab_openxr"),
+            this.m_mailbox.RegisterHandler("refresh_openxr_tab", () => {
+              this.forceUpdate();
+            });
         }
         OnSetAsOpenXRRuntime() {
           null === VRHTML ||
@@ -8610,35 +8615,38 @@
             ? c.G3.settings.get(g.eW)
             : c.G3.settings.get(g.aT);
           if (null == e || null == this.state.nResolutionMultiplier) return "";
-          let t = c.G3.SliderposToSupersample(this.state.nResolutionMultiplier);
+          let t = c.G3.SliderposToSupersample(this.state.nResolutionMultiplier),
+            n = t;
           if (
+            (this.state.bFovScaleLetterboxed &&
+              (n *= this.state.nFovScaleMultiplier),
             c.G3.systemInfo &&
-            null != c.G3.systemInfo.render_target_size.width &&
-            0 != c.G3.systemInfo.render_target_size.height
+              null != c.G3.systemInfo.render_target_size.width &&
+              0 != c.G3.systemInfo.render_target_size.height)
           ) {
-            let n = Math.max(
+            let i = Math.max(
                 512,
                 Math.floor(
                   c.G3.systemInfo.render_target_size.width * Math.sqrt(e * t) +
                     0.5,
                 ),
               ),
-              i = Math.max(
+              s = Math.max(
                 512,
                 Math.floor(
-                  c.G3.systemInfo.render_target_size.height * Math.sqrt(e * t) +
+                  c.G3.systemInfo.render_target_size.height * Math.sqrt(e * n) +
                     0.5,
                 ),
               );
-            const s = c.G3.settings.get(g.wc);
+            const o = c.G3.settings.get(g.wc);
             return (
-              Math.max(n, i) > s &&
-                (n > i
-                  ? ((i = (s * i) / n), (n = s))
-                  : ((n = (s * n) / i), (i = s))),
-              (n = 4 * Math.trunc(n / 4)),
+              Math.max(i, s) > o &&
+                (i > s
+                  ? ((s = (o * s) / i), (i = o))
+                  : ((i = (o * i) / s), (s = o))),
               (i = 4 * Math.trunc(i / 4)),
-              (0, l.Xx)("#Settings_Advanced_Supersampling_WidthByHeight", n, i)
+              (s = 4 * Math.trunc(s / 4)),
+              (0, l.Xx)("#Settings_Advanced_Supersampling_WidthByHeight", i, s)
             );
           }
           return "";
@@ -19294,4 +19302,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=40fe573320ba11c5a61a
+//# sourceMappingURL=vrwebui_shared.js.map?v=b47a24a8f9b142b117bf

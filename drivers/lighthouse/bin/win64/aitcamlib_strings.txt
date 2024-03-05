@@ -28,7 +28,6 @@
 %,3:;4-&
 %9k0t
 %9{0t
-%=M-?
 &9k0t
 &D9c0t
 &D9k0t
@@ -178,7 +177,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240209235724Z0/
+240305034048Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -194,7 +193,6 @@
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
-6@)|`
 6I]Dc
 6OB,n_
 70503
@@ -202,7 +200,6 @@
 7u;H;
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8D|yUu
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -370,6 +367,7 @@ GetSystemTimeAsFileTime
 GetTickCount64
 H+C H;
 H-^Eu
+H67$kC.d
 H93t	H
 H9D$@u
 H;C(v
@@ -500,7 +498,6 @@ SleepConditionVariableCS
 StartVideoStream
 StopVideoStream
 Success
-Sx?<U
 T$ fD
 T$0fA
 T$8;T$<
@@ -551,7 +548,6 @@ TrackedCamera: Video Stream Stopped (abnormal shutdown).
 TrackedCamera: Video Stream Stopped (failed startup).
 TrackedCamera: Video Stream Stopped.
 TrackedCamera: Worker thread OpenCamera result: %s.
-UI*R9GN
 USVATAUAWH
 USVWATAUAVAWH
 USVWATAUAVH
@@ -562,8 +558,8 @@ UWATAVAWH
 UnhandledExceptionFilter
 Unknown
 Unknown exception
-UrkW]
 UuidFromStringA
+V0sZ|
 VATAUH
 VCRUNTIME140.dll
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
@@ -605,6 +601,7 @@ Z9k0tUD
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
+^ZJIfO/
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -717,7 +714,7 @@ cameraISPSyncDivisor
 cameraSensorFrameRate
 can't merge dc and ac
 corrupt
-cs_cs
+cs_cz
 czech
 d$$E3
 d$(Hi
@@ -725,12 +722,13 @@ d$<Mc
 d$PfD
 d$`H=
 d$`fD
-da_da
+da_dk
 danish
 de_de
 deque<T> too long
 driver_lighthouse
-el_el
+dutch
+el_gr
 en_us
 english
 es_es
@@ -742,6 +740,7 @@ fD9&u
 fi_fi
 finnish
 first not IHDR
+fpC6"
 fr_fr
 fread
 french
@@ -757,6 +756,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+hwQ[Y(
 illegal code in raster
 invalid
 invalid PLTE
@@ -769,8 +769,8 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
-ko_ko
-korean
+ko_kr
+koreana
 l$ ATAVAWH
 l$ H;
 l$ VATAUAVAWH
@@ -800,6 +800,8 @@ memmove
 memset
 missing color table
 multiple IHDR
+nb_no
+nl_nl
 no IDAT
 no PLTE
 no SOF
@@ -807,7 +809,6 @@ no SOI
 no clear code
 no header height
 no preset dict
-no_no
 norwegian
 not BMP
 not GIF
@@ -842,7 +843,6 @@ romanian
 ru_ru
 russian
 schinese
-sd]oA
 spanish
 startup
 strcmp
@@ -851,7 +851,7 @@ strncmp
 strncpy
 strncpy_s
 strtol
-sv_sv
+sv_se
 swedish
 t$ AVH
 t$ H;
@@ -883,6 +883,7 @@ too large
 too many codes
 tr_tr
 turkish
+u$qN	
 u,@8}
 u.9x }
 u>f9X u8f9X0u2f9X@u,f9XPu&
@@ -890,7 +891,7 @@ u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uH@8}
 uJf9X
-ua_ua
+uk_ua
 ukranian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
 unknown BMP
@@ -902,7 +903,7 @@ unsupported data layout
 unsupported format
 v=Y]Bv
 vHcD$LH
-vi_vi
+vi_vn
 vietnamiese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll

@@ -15,6 +15,7 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
+!;-^wMc
 !hn7!
 %%.%dg
 %s%s%s%s%s
@@ -176,18 +177,18 @@
 0}0i1
 130801120000Z
 1e+9999
-2)j2m~^
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240210000527Z0/
+240305034852Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2}haO#qQ
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -213,6 +214,7 @@
 <unknown>
 =rIQU
 >0<0:
+>MO 3
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -540,7 +542,6 @@ HMD D3D11CreateDevice failed.
 HMD IDXGIAdapter (%s)
 HMD context (%s)
 HMD device (%s)
-HYbF:$
 HandleInput
 Handling keyboard char input
 Handling lock mouse
@@ -668,7 +669,6 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS+
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -897,20 +897,22 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
-cs_cs
+c=/su
+cs_cz
 czech
 d$`H=
 d$`L;
 d3d11.dll
-da_da
+da_dk
 danish
 dashboard
 de_de
 deque<T> too long
 desktopview
+dutch
 dwmapi.dll
 dxgi.dll
-el_el
+el_gr
 en_us
 enableWindowView
 english
@@ -962,8 +964,8 @@ japanese
 jj@0HK4
 k0i0$
 kernel32.dll
-ko_ko
-korean
+ko_kr
+koreana
 l$ H;
 l$ H=
 l$8E3
@@ -983,7 +985,8 @@ memcpy
 memmove
 memset
 message_id
-no_no
+nb_no
+nl_nl
 norwegian
 ntelD
 ole32.dll
@@ -1023,7 +1026,7 @@ string too long
 strncpy
 strpbrk
 strtoull
-sv_sv
+sv_se
 swedish
 system.cursor.ibeam
 system.desktop.%d
@@ -1045,10 +1048,11 @@ tchinese
 terminate
 th_th
 title
+tj;K1
 tolower
 tr_tr
 turkish
-ua_ua
+uk_ua
 ukranian
 update_debug_info
 update_window_list
@@ -1056,7 +1060,7 @@ user32.dll
 v=Y]Bv
 vE;E`M
 vector<T> too long
-vi_vi
+vi_vn
 vietnamiese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
 vr::VROverlay()->CreateDashboardOverlay( pOverlayKey, pOverlayName, &m_ulOverlayHandle, &m_ulOverlayThumbnailHandle )

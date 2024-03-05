@@ -7,6 +7,7 @@
 																																												
 																																																																																																																
 	!s99
+	%s::%llx.
 	555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
 	<bu 
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
@@ -27,7 +28,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@ t
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -411,15 +412,13 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%M2#
-(%V5#
-(%e:#
+(%]b#
+(%fe#
+(%uj#
 ()$^.*+?[]|\-{},:=!
-(-(5#
-(5m9#
+(-8e#
+(5}i#
 (9Q|uWH
-(=(_'
-(=Te'
 (A\^][
 (A\_^[
 (A]_^[
@@ -524,6 +523,7 @@ $w!Hc
 (|$`L
 (|$pD
 (|$pH
+(|$pL
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 )9k0t
 )D$ A
@@ -623,7 +623,6 @@ $w!Hc
 )|$PD
 )|$PH
 )|$`H
-)|$`L
 )|$`f
 )|$pD
 )|$pE
@@ -1287,6 +1286,8 @@ $w!Hc
 .?AVCVRMsg_Input_GetActionBindingsResponse@@
 .?AVCVRMsg_Input_GetOriginLocalizedName@@
 .?AVCVRMsg_Input_GetOriginLocalizedNameResponse@@
+.?AVCVRMsg_Input_GetOriginalComponentPath@@
+.?AVCVRMsg_Input_GetOriginalComponentPathResponse@@
 .?AVCVRMsg_Input_SetActionManifestPath@@
 .?AVCVRMsg_Input_SetActionManifestPathResponse@@
 .?AVCVRMsg_Input_SetXrInputConfig@@
@@ -1712,10 +1713,8 @@ $w!Hc
 .tls$ZZZ
 .xdata
 .xdata$x
-/+-U<
 //==============================================================================================
 /9{0t'H
-/=^S)
 /a/click
 /a/touch
 /actions/
@@ -2074,6 +2073,7 @@ $w!Hc
 0A_A^A]A\]
 0A_A^A]A\^
 0A_A^A]A\_^[
+0A_A^A]A\_^]
 0A_A^A]A\_^]H
 0A_A^A]_^
 0A_A^^][
@@ -2085,7 +2085,6 @@ $w!Hc
 0A__^
 0D9c0t'H
 0I;T$ H
-0h[^J
 0w0c1
 0}0i1
 1.0.3.16
@@ -2099,7 +2098,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240210000428Z0/
+240305034749Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2128,7 +2127,6 @@ $w!Hc
 6I]Dc
 6OB,n_
 6p7M=:P_:}u
-7+cjT^1<#rD/
 70503
 79L$hua
 7Failed to create readable frame info buffer (D3D10)!
@@ -2144,6 +2142,7 @@ $w!Hc
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8H9)u5H
 8H;]Pu
+8MVJ7
 8\$@t
 8\$hu6
 8\t	H
@@ -2414,6 +2413,7 @@ $w!Hc
 @A_A^A]A\_^[
 @A_A^A]A\_^]
 @A_A^A]_[
+@A_A^[
 @A_A^]
 @A_A^^
 @A_A^_
@@ -2551,7 +2551,6 @@ A wireless HMD driver is present, but the wireless HMD has not connected yet (21
 A$A;B
 A+H,A
 A0H9A(tkH
-A5]]0
 A84(u
 A8EPH
 A8L+A0H
@@ -2561,6 +2560,7 @@ A9A A
 A9B(A
 A9B(r
 A9B0s
+A9D$Xu=I
 A9ETt
 A9F@r
 A9Q sEI
@@ -2774,6 +2774,7 @@ B84/u
 B9T	$t
 B9T	$u
 B9T!$t
+BD9%nF?
 BINORMAL
 BITANGENT
 BMP RLE
@@ -2831,6 +2832,7 @@ CD$8H
 CD$@3
 CD$@H
 CD$@I
+CD$HH
 CD$P3
 CD$PL
 CD$PM
@@ -2986,7 +2988,6 @@ CT$(L
 CT$0D
 CT$0H
 CT$0L
-CT$8E3
 CT$8H
 CT$@H
 CT$HH
@@ -3088,6 +3089,8 @@ CVRMsg_Input_GetActionBindings
 CVRMsg_Input_GetActionBindingsResponse
 CVRMsg_Input_GetOriginLocalizedName
 CVRMsg_Input_GetOriginLocalizedNameResponse
+CVRMsg_Input_GetOriginalComponentPath
+CVRMsg_Input_GetOriginalComponentPathResponse
 CVRMsg_Input_SetActionManifestPath
 CVRMsg_Input_SetActionManifestPathResponse
 CVRMsg_Input_SetXrInputConfig
@@ -3405,10 +3408,8 @@ Cx<fu
 C|$0H
 C|$0L
 C|$0M
-C|$@H
 C|$PL
 C}xE2
-C~v!+
 D$ 9]dvnL
 D$ A;
 D$ E3
@@ -3533,6 +3534,7 @@ D$XH9U8t
 D$XH;
 D$XHc
 D$XI+
+D$XI;
 D$XIk
 D$XY\
 D$Xy3
@@ -3589,8 +3591,6 @@ D8/u0
 D840u
 D84;u
 D8<>u
-D8=IZ
-D8=j=7
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -3754,7 +3754,6 @@ EXH9EP
 EXH9E`t
 E_H9U
 E`A9E|r
-Ebxr=
 EgH9Q@t
 EgH9S@t
 EgH;X
@@ -3821,6 +3820,8 @@ FACET_VULKAN_VALIDATION
 FALSE
 FATAL
 FATAL: Failed to open log file %s
+FHI9FPt
+FHI9FPt*H
 FHI;F(s
 FORMAT=32-bit_rle_rgbe
 FS callback[s] not set
@@ -4199,7 +4200,6 @@ H#OxH
 H#OxL
 H$A;H
 H$A;I
-H(H+H H
 H+C H;
 H+C0H
 H+ChH
@@ -4232,8 +4232,15 @@ H9/t	H
 H90t	H
 H93t	H
 H948t
+H95=0?
+H95@<?
+H95D5?
+H95K7?
+H95`<?
 H98t	H
 H9;t	H
+H9=23?
+H9=sD?
 H9A H
 H9APt M
 H9A`u}f
@@ -4268,11 +4275,13 @@ H9X r
 H9X s
 H9Y s
 H9Z s
+H9Z0A
 H9\$0A
 H9i s
 H9k vZ
 H9p s
 H9p0t8H
+H9q s
 H9t$@
 H9t$P
 H9uXupE3
@@ -4297,10 +4306,10 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=&z6
-H;=>W"
-H;=j~!
-H;=~A"
+H;=:C"
+H;=J<"
+H;=nq"
+H;=~{"
 H;A s
 H;Axt
 H;C(v
@@ -4313,6 +4322,7 @@ H;EHt
 H;GhtWH
 H;H s
 H;J s
+H;K s
 H;K s;H
 H;K s<L
 H;K s=H
@@ -4363,6 +4373,7 @@ H;_@u
 H;k r
 H;o s
 H;q s
+H;r s
 H;s(r
 H;t$`
 H;t$`A
@@ -4394,6 +4405,7 @@ HA^_^[
 HA_A^A]A\
 HA_A^A]A\_^][
 HA__^]
+HHH+H@H
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -4466,7 +4478,6 @@ I9B(r
 I9Bhs
 I9P s
 I9Q sEI
-I9V0t 
 I9W@t
 I9u@tCH
 I9x s
@@ -4937,6 +4948,7 @@ L$8L;
 L$@D8	u
 L$@D;
 L$@E3
+L$@H+
 L$@H9Q
 L$@H9t$@ujH
 L$@H;
@@ -5005,8 +5017,6 @@ L8$9J
 L9 t'H
 L90t	H
 L97u0H
-L9=-x
-L9=Sx
 L9?u,H
 L9@ s
 L9A r
@@ -5058,7 +5068,6 @@ L;8u6H
 L;8u7H
 L;8u9H
 L;8u:H
-L;=?m'
 L;@ s
 L;@ u
 L;A s
@@ -5191,7 +5200,6 @@ Missing expected "statusicons" from system resource manifest %s.
 Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 N I9N(
-N I9V0t
 NL$`I
 NORMAL
 NOT_READY
@@ -5531,6 +5539,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDS<b]
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5582,8 +5591,10 @@ RenderEnd
 RenderModel::Load
 RenderStart
 RendermodelManager: 'components' json entry must be key/value map
+RendermodelManager: Failed GetOriginalComponentPath(%llu, %s, %s) 
+RendermodelManager: Finished setting up render model template: %s.
 RendermodelManager: Model info file %s was empty.
-RendermodelManager: Reading data from %s
+RendermodelManager: Reading data for: '%s' from '%s'
 RendermodelManager: Unable to parse %s: %s
 RendermodelManager: name=%s inputRouting=%d filename=%s
 RendermodelManager: unsupported motion type: %s. { allowed: none, rotate, translate, trackpad }
@@ -6890,9 +6901,10 @@ WlH;C
 WriteBooleanValue - %s, time= %llu, origin=%s
 WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
+Wv}[Z
 X UVWH
 X UWATAUAWH
-X5Z8"
+X5:h"
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7396,13 +7408,12 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y5vT)
 Y9"SD
-Y=].)
 Y>t$7?*
 YL$8E
 Yl$ M
 Yl$4E
+YyK-'
 Z(uDH
 Z9k0tUD
 ZA<a`
@@ -7565,6 +7576,12 @@ ZvFailed to create fence %ls.
 [Input] GetOriginTrackedDeviceInfo failed. pOriginInfo is invalid.
 [Input] GetOriginTrackedDeviceInfo failed. ulActionHandle is invalid.
 [Input] GetOriginTrackedDeviceInfo failed. unOriginInfoSize incorrect size. Got: %u. Expected: %zu.
+[Input] GetOriginalComponentPath failed with error code: %d.
+[Input] GetOriginalComponentPath failed. Device does not exist.
+[Input] GetOriginalComponentPath failed. Device does not have a valid role.
+[Input] GetOriginalComponentPath failed. Did not get response from VRMsg_Input_GetOriginalComponentPath quick enough.
+[Input] GetOriginalComponentPath: Non-critical failure. No binding for device container %llx. Type / Container list:
+[Input] GetPathFromControllerRole failed. No path for role: %d
 [Input] GetPoseActionDataRelativeToNow failed. Action data size parameter was incorrect. Got: %u. Wanted: %zu
 [Input] GetPoseActionDataRelativeToNow failed. Action is of the wrong type.
 [Input] GetPoseActionDataRelativeToNow failed. Device does not exist.
@@ -7779,7 +7796,7 @@ ZvFailed to create fence %ls.
 ] is not a JSON object.
 ] name = "
 ] name = [
-]5G%*
+]5wU*
 ]9k0tVD
 ]@L9{(
 ]HH;G
@@ -7825,6 +7842,7 @@ _Query_perf_frequency
 _RDATA
 _Strcoll
 _Strxfrm
+_T:PL
 _TEST
 _Thrd_id
 _Thrd_join
@@ -7905,6 +7923,7 @@ _wstat64i32
 `A^_^
 `A_A]A\[]
 `A_A]^
+`A_A^A]A\]
 `A_A^A]A\_^[
 `A_A^A]A\_^]
 `A_A^A]A\_^]H
@@ -8216,7 +8235,7 @@ controller_type
 corrupt
 count
 create
-cs_cs
+cs_cz
 cursor_index
 czech
 d$ E3
@@ -8252,7 +8271,7 @@ d$bHc
 d$hM;
 d$hfff
 d3d11.dll
-da_da
+da_dk
 danish
 dashboard
 dashboard_overlay_created
@@ -8344,6 +8363,7 @@ drivers
 dropNullPlaceholders
 drop_speed
 duration
+dutch
 dxgi.dll
 e0A_A^A]A\]
 eCS < CS_Count
@@ -8354,7 +8374,7 @@ e_H9U
 east_click
 east_touch
 effffff
-el_el
+el_gr
 emissiveFactor
 emissiveTexture
 en_US
@@ -8744,8 +8764,8 @@ keyboard_vrwebui
 keylength >= 2^30
 khr_simple_controller
 knuckles
-ko_ko
-korean
+ko_kr
+koreana
 l$ ATAVAWH
 l$ AVH
 l$ E3
@@ -8923,6 +8943,7 @@ missing
 missing binding_url in default binding
 missing color table
 missing controller_type in default binding
+mky]p
 modelnumber
 modelskins
 modff
@@ -8943,9 +8964,11 @@ nParentBoneIndex != k_unInvalidBoneIndex
 nProcessId == data->m_nSceneFocusProcessId
 nSampleCount > 0 && nSampleCount <= 64
 nSizeInBytes <= m_unSizeInBytes
+nb_no
 new_pid
 newmtl
 nfinity
+nl_nl
 no IDAT
 no PLTE
 no SOF
@@ -8953,7 +8976,6 @@ no SOI
 no clear code
 no header height
 no preset dict
-no_no
 nodes
 normalTexture
 normalized
@@ -8976,7 +8998,8 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5+1,
+o5+a,
+o5|J!
 o@@fD
 oD$ fD
 oD$0f
@@ -9029,6 +9052,7 @@ overlay_key
 override_device_class
 overwrite.vrsettings
 p UWAVH
+p WATAUAVAWH
 p WATAVH
 pA]A\^
 pA]A\^[]
@@ -9041,6 +9065,7 @@ pA_A\]
 pA_A]A\_]
 pA_A]_^]
 pA_A^A\_]
+pA_A^A]
 pA_A^A]A\[
 pA_A^A]A\_^[
 pA_A^A]A\_^]
@@ -9648,7 +9673,7 @@ supersampleScale
 supported_buttons
 supports_dominant_hand_setting
 suppressedByPriority
-sv_sv
+sv_se
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
 switch_dashboard_overlay_requested
@@ -9861,7 +9886,7 @@ tHI9t$
 tJL;y rDH
 tNI;X rHI
 tQ@8q4tKI
-tQH95
+tQH95g7?
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -9941,7 +9966,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=
+t}H9=V3?
 u	A;p(s
 u	A;y(s
 u	H9|$ tI
@@ -9964,7 +9989,7 @@ u5H9t$0u.H
 u<+u8
 u<H9^xtLH
 u=L96u8A;
-u=pF8
+u=V@9E
 u>D8}
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -9987,12 +10012,12 @@ uSD9d$DuLD8
 uWH9P sEH
 uZEeu
 u`H;u
-ua_ua
 ub'vb'v
 ugL9x s
 ugL;D$H
 ui8D$0tc
 ukH9X s
+uk_ua
 ukranian
 unCallingProcessID
 unMyPID == data
@@ -10052,7 +10077,7 @@ vector<bool> too long
 version
 version.txt
 vfA'I
-vi_vi
+vi_vn
 vibration
 vid_%04x
 vietnamiese
@@ -10807,6 +10832,7 @@ www.digicert.com1$0"
 x ATAVAWH
 x AVH
 x L;mht
+x UATAUAVAWH
 x UAVAWH
 xA\^][
 xA]^[]
@@ -10977,7 +11003,7 @@ znear
 |$(H;
 |$0"u+A
 |$0@2
-|$0D9y8t
+|$0D9yXt
 |$0E3
 |$0H9
 |$0H;

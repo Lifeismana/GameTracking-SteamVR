@@ -29,6 +29,7 @@ $0.0C0k0
 $3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
 $_^[]
 %.0Lf
+%BB$V
 %H : %M
 %H : %M : %S
 %I : %M : %S %p
@@ -40,7 +41,7 @@ $_^[]
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (f*^[0
-*EYkR
+)azE7
 +A Vj$
 +A$+Y
 +A$tU3
@@ -432,12 +433,13 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-240209235656Z0/
+240305034021Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
 283L3S3
 283d3
+28R>,L
 293B3k3t3
 2<2p2
 2>2c2
@@ -1481,15 +1483,14 @@ Pz}b!
 Q$B@;
 Q;FD~R
 Q;FD~Z
+QM?	v
 QQSVW
 QSVWj
 QVWjt
-Qef<]
 QkK04
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R#Fkg
 RPj(h
 RPj(hp
 RWQSV
@@ -1599,6 +1600,7 @@ Y__^[
 [tc9]
 \SVW3
 ]J<0"0i3
+^9wei
 _$@;Ghr
 _CIexp
 _CIpow
@@ -1695,7 +1697,6 @@ bad message
 blank
 broken pipe
 c:\buildslave\steamvr_rel_win32\build\src\vrcamera_api\Retail\win32\2017\vrcamera_api.pdb
-c];"y4
 calloc
 cntrl
 connection aborted
@@ -1756,7 +1757,6 @@ islower
 isspace
 isupper
 j@j0P
-jUb? 
 jj@0HK4
 k0i0$
 kK04k
@@ -1797,7 +1797,6 @@ not a stream
 not connected
 not enough memory
 not supported
-o2 ^Fcqh
 oSPPWh^c
 ole32.dll
 operation canceled

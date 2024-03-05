@@ -189,10 +189,10 @@ $Phdd
 000084211212EFDE1523785FEABCD124
 000<0D0d0
 0L1P1T1X1\1`1d1h1l1p1t1x1|1
-0S)F70
 0V2y2
 0_0g0
 0`0|0
+0bl cf
 0g1q1
 0p1t1x1|1
 0w0c1
@@ -237,7 +237,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-240209235710Z0/
+240305034032Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -381,7 +381,6 @@ $Phdd
 8f8s8
 8m8r8y8
 8m9;:
-8nX<a5
 9 9$94989<9D9\9l9p9
 9&9_:
 9&:g:
@@ -393,6 +392,7 @@ $Phdd
 9L=p=|=
 9LHB-u
 9M;R;v;{;
+9Q`jQ
 9[:2<L=^=
 9^hve
 9h9n9
@@ -558,6 +558,7 @@ $Phdd
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
 @.data
+@2U*W
 @SVWj
 @d;Cd
 A valid JSON document must be either an array or an object value.
@@ -823,7 +824,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSO,f
+RSDSP?Uq
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -839,6 +840,7 @@ SERVICES
 SERVICES -U128 %s
 SERVICES -U16 %4.4X
 SHELL32.dll
+SS 03:
 SVWh0a
 SVWh<
 SVWj@j
@@ -872,6 +874,7 @@ TerminateProcess
 Terminating discovered vivelink process.
 TlsAlloc
 TlsFree
+U<V@w\
 UnhandledExceptionFilter
 Unknown
 Unknown DFU Extended Error (%d)
@@ -1091,6 +1094,7 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
 assert json failed
+axX5c
 bad allocation
 bad array new length
 bad cast
@@ -1179,7 +1183,6 @@ j)h`O
 j)hpG
 j*hPQ
 jj@0HK4
-jl&*0
 k0i0$
 l2|X/gGe
 lighthouse
@@ -1204,6 +1207,7 @@ print
 punct
 realloc
 runas
+s@nQd 
 space
 stoi argument out of range
 stoul argument out of range
@@ -1264,6 +1268,7 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
+yfW+H
 {L?uI
 {un'%
 |	9A 
@@ -1273,7 +1278,6 @@ y4_^[
 }	jCh
 }LuHO
 }qj<hx
-~+pBz
 ~6VVS
 ~L][u
 ~d;{d|	

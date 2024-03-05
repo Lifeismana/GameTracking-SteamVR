@@ -66,6 +66,7 @@ $Ph'*
 $Ph)*
 $Vh&*
 %%.%dg
+%.+*#
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
 %s data received. (handle: %d, bytes: %d) '%s'
@@ -88,7 +89,6 @@ $Vh&*
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
-,kG3|V})
 -1e+9999
 -Infinity
 -external
@@ -709,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240209235703Z0/
+240305034028Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1236,7 +1236,6 @@ $Vh&*
 <]<w<
 <b?i?
 <u={=
-<v7Zq
 = =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
 = =$=4=8=<=D=\=l=p=
 = =0=4=D=H=L=T=l=|=
@@ -1440,6 +1439,7 @@ Already open
 Attribute Discovery
 Authentication
 Authentication status failed. (auth_status: %s)
+BI)Mc
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -2104,6 +2104,7 @@ Zipfile is corrupt or not a zipfile
 [K]taM?
 \0`0d0|0
 \Device Parameters
+\l_w94a;!
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2169,6 +2170,7 @@ _stricmp
 _strlwr
 _strnicmp
 _strupr_s
+_{%|,d
 `.rdata
 a7hIw
 a9~@u
@@ -2205,6 +2207,7 @@ dat_file
 data error
 deque<T> too long
 digit
+eGF~U
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2465,6 +2468,7 @@ vGh@7
 vGh`5
 vector<T> too long
 vector<bool> too long
+vg]=E
 w QVR
 w(_^[]
 w0_^[
@@ -2478,7 +2482,6 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
-z+Y*n
 {L?uI
 {un'%
 |Lu?c

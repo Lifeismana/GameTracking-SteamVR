@@ -1,6 +1,5 @@
 	!s99
  %41g
- O(XT
 !hn7!
 ',=?k
 (f*^[0
@@ -104,7 +103,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240209235747Z0/
+240305034109Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -148,6 +147,7 @@
 70503
 787X7t7x7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7o@L^F
 8!8<8R8[8`8j8t8~8
 8%80868<8C8
 8(9,909H9L9
@@ -158,7 +158,6 @@
 9p9}9
 :":.:P:g:p:y:
 :(:,:0:L:P:
-:TizZ
 ;!;J<
 ;'<1<;<M<e<
 ;@;W;`;i;r;w;|;
@@ -200,6 +199,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+Fl)^lQ
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -230,6 +230,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J)4 E
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -245,7 +246,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSSm
 RaiseException
 S0Q0O
 SA|X=G
@@ -274,7 +274,6 @@ SDL_JoystickInstanceID
 SDL_NumJoysticks
 SDL_PollEvent
 SDL_QuitSubSystem
-SL|zx
 SetEnvironmentVariableA
 SetUnhandledExceptionFilter
 Skipping controller %d because it has the Valve VID
@@ -290,10 +289,12 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
+X?44#
 Y9"SD
 Y__^[
 [K]taM?
-\zUlr
+[{Zx;
+\&[	mxZb
 ]J<0"0i3
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
@@ -335,6 +336,7 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 a7hIw
+aUH; x
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -343,7 +345,6 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
-eN[Zs
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -365,7 +366,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-z=c*jv
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

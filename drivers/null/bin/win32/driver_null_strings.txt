@@ -1,6 +1,7 @@
 	!s99
  %41g
 !hn7!
+%b"jO
 ',=?k
 (f*^[0
 +Xt@(
@@ -85,7 +86,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240209235801Z0/
+240305034126Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -196,12 +197,11 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS 
+RSDSBL
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
 TerminateProcess
-UVYV1
 UnhandledExceptionFilter
 Unknown exception
 Using settings values
@@ -266,7 +266,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-jIc5&$n
 jj@0HK4
 k0i0$
 l2|X/gGe
@@ -285,6 +284,7 @@ string too long
 uCVj@
 v=Y]Bv
 vector<T> too long
+v~N`P
 windowHeight
 windowWidth
 windowX
@@ -294,7 +294,5 @@ www.digicert.com1$0"
 {un'%
 |Lu?c
 }LuHO
-~3G$$
-~oMv}
 ~qj#k"
 ~t&LN

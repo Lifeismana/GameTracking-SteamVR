@@ -47,7 +47,7 @@
  A_^]
  A__^
  H3E H3E
- T./>
+ K@'2
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
@@ -359,6 +359,7 @@ $9E0u
 , last executing in 
 ,W5y+
 -IPCWrapper
+-~}N6
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -524,6 +525,7 @@ $9E0u
 0A_A^_
 0A_A^_^[
 0w0c1
+0y$K[
 0}0i1
 130801120000Z
 210429000000Z
@@ -531,8 +533,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-235wq
-240209235747Z0/
+240305034112Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -569,7 +570,6 @@ $9E0u
 9H(~-
 :A9x 
 :EotB
-;3lk:
 ;K sOH
 ;S sMH
 ;\$x|
@@ -590,6 +590,7 @@ $9E0u
 ??_7facet@locale@std@@6B@
 ?CVkDevice::CreateDevice
 ?I9T$
+?[%BM
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
 ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
@@ -666,6 +667,7 @@ $9E0u
 @WAUAVAWH
 @WAVAWH
 @`fff
+@{H`#T
 A(A9C
 A(H9A t!H
 A8H9A0t
@@ -741,7 +743,7 @@ Attempting to reinitailize estimator!
 AuthD
 Automatically quitting due to idle time > %f seconds.
 B H9B
-B;EU6
+Baq9X
 Bellevue1
 Blank
 C(H+C H
@@ -1020,7 +1022,6 @@ F(H9A u)I
 F0H9A(u
 FACET_VULKAN_VALIDATION
 FAILURE:WaitForPresent
-FC-)C
 F`H9X
 F`I+FPH
 Facet
@@ -1424,6 +1425,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDS"
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1449,6 +1451,7 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S+%*a3
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
@@ -1626,7 +1629,6 @@ WindowsPromoteStringBuffer
 WriteFile
 XA_A][]
 XA_A^A]_
-XX?uA-
 Y9"SD
 YUV conversion - %s
 Yl$ M
@@ -1905,6 +1907,7 @@ l2|X/gGe
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
 m0k0$
+mHl*d
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bSupportsPresentId
@@ -2028,7 +2031,6 @@ r/w:I
 renderdoc.dll
 result == ALVR_OK
 s AVH
-s(WaaZ
 s_nInstanceCount > 0
 server
 short_alloc: spilling into system allocator
@@ -2784,7 +2786,6 @@ yxxxxxxxI+
 |Lu?c
 }(M98t
 }LuHO
-}Z=E&
 }`H+}XH
 }wH9S
 ~qj#k"

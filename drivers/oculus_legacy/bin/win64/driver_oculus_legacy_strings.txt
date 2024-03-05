@@ -5,6 +5,7 @@
  9D$D
  A__^
  H3E H3E
+ uOgiw^X
 !hn7!
 ',=?k
 (A^A]^[
@@ -13,7 +14,6 @@
 (d$`D
 (f*^[0
 (l$PD
-(qP47}8UeEq
 (t$pH
 )D$ H
 )\$pD
@@ -92,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240210000002Z0/
+240305034321Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -104,6 +104,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4?Rk3
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -114,7 +115,6 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8KtsB
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -138,6 +138,7 @@
 @.data
 @.reloc
 @.rsrc
+@>-26q
 @A^_^
 @SUVWAVH
 @SVAUAVH
@@ -262,6 +263,7 @@ OD$DH
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
+OufP.
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -269,6 +271,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
+RSDS\<&
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -319,7 +322,6 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-X:y#R
 Y9"SD
 [K]taM?
 [OculusDirect] Begin ReleaseSync
@@ -451,7 +453,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-q/5F2o
 startup
 string too long
 strncpy
@@ -471,6 +472,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+yY0x.S
 z(uMH
 {ERR-001}
 {ERR-079}

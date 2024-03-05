@@ -4421,11 +4421,11 @@
         var V,
           E = r(9669),
           x = r.n(E),
-          P = r(7475);
+          O = r(7475);
         !(function (e) {
           (e[(e.Left = 0)] = "Left"), (e[(e.Right = 1)] = "Right");
         })(V || (V = {}));
-        const O = (e) =>
+        const P = (e) =>
           l.createElement(
             "div",
             {
@@ -4537,10 +4537,10 @@
                 ),
               },
               l.createElement(
-                P.P,
+                O.P,
                 {
                   ref: this.m_refScrollPanel,
-                  scrollDirection: P.I.Horizontal,
+                  scrollDirection: O.I.Horizontal,
                   onScroll: this.onScroll,
                 },
                 this.props.children,
@@ -4551,13 +4551,13 @@
                   "div",
                   { className: "PaginationButtons" },
                   null !== this.state.bScrolledToStart &&
-                    l.createElement(O, {
+                    l.createElement(P, {
                       side: V.Left,
                       enabled: !this.state.bScrolledToStart,
                       onClick: this.onLeftButtonClick,
                     }),
                   null !== this.state.bScrolledToEnd &&
-                    l.createElement(O, {
+                    l.createElement(P, {
                       side: V.Right,
                       enabled: !this.state.bScrolledToEnd,
                       onClick: this.onRightButtonClick,
@@ -5096,6 +5096,10 @@
                   this.m_mailbox.RegisterHandler(
                     "switch_dashboard_overlay_requested",
                     (e) => this.onShowDashboardRequested(e, !1),
+                  ),
+                  this.m_mailbox.RegisterHandler(
+                    "dock_overlay_requested",
+                    (e) => this.onDockOverlayRequested(e),
                   ),
                   this.m_mailbox.RegisterHandler(
                     "hide_dashboard_requested",
@@ -5907,18 +5911,40 @@
               return;
             const o = Z.B.m_mapOverlayState.get(e.overlay_key);
             (null == o ? void 0 : o.dockLocation) != f.RA.Theater &&
-              (this.show(
-                null !== (r = e.reason) && void 0 !== r ? r : "unknown",
-              ),
-              e.overlay_key
-                ? this.switchToOverlayInternal(e.overlay_key)
-                : this.autoSwitchOverlayIfNeeded(),
-              t &&
+              (t &&
+                (this.show(
+                  null !== (r = e.reason) && void 0 !== r ? r : "unknown",
+                ),
                 this.setDashboardVisibility(
                   !0,
                   e.tracked_device_index,
                   e.reason,
-                ));
+                )),
+              e.overlay_key
+                ? this.switchToOverlayInternal(e.overlay_key)
+                : this.autoSwitchOverlayIfNeeded());
+          }
+          onDockOverlayRequested(e) {
+            if (!e.dock_location)
+              return void console.log(
+                "dock_overlay_requested: dock_location not specified",
+                e,
+              );
+            const t = f.RA[e.dock_location.toString()];
+            if (void 0 === t)
+              return void console.log(
+                "dock_overlay_requested: invalid dock_location",
+                e,
+              );
+            const r = Z.B.m_mapOverlayState.get(e.overlay_key);
+            r
+              ? r.dockLocation != t
+                ? this.onDockOverlay(e.overlay_key, t)
+                : console.log(
+                    "dock_overlay_requested: ignoring redundant request",
+                    e,
+                  )
+              : console.log("dock_overlay_requested: unknown overlay_key", e);
           }
           onHideTheaterMode() {
             let e = this.getActiveOverlayKey();
@@ -7422,8 +7448,8 @@
               V = { y: k ? -0.9 : -1.03375, z: 0.05 },
               E = s ? { y: -1.2, z: 0.35 } : { y: -1.2, z: 0.15 },
               x = te.k_nControlBarPitch;
-            let P = T ? 1 : 0;
-            const O =
+            let O = T ? 1 : 0;
+            const P =
                 null !==
                   (o = y.G3.settings.get(
                     "/settings/dashboard/allowFreeTransform",
@@ -7438,7 +7464,7 @@
                 i.eK,
                 {
                   bContinuousRelatch: this.state.bPlacementModeActive,
-                  bFreeDashboardTransform: O && this.state.bPlacementModeActive,
+                  bFreeDashboardTransform: P && this.state.bPlacementModeActive,
                 },
                 l.createElement(
                   i.wx,
@@ -7562,7 +7588,7 @@
                             i.wx,
                             {
                               translation: { x: -0.4, y: 0.15, z: 0.05 },
-                              rotation: { y: 19 * P },
+                              rotation: { y: 19 * O },
                             },
                             l.createElement(
                               i.s_,
@@ -7583,7 +7609,7 @@
                             i.wx,
                             {
                               translation: { x: 0.2, y: 0.15, z: 0.05 },
-                              rotation: { y: 6 * P },
+                              rotation: { y: 6 * O },
                             },
                             l.createElement(
                               i.s_,
@@ -7624,7 +7650,7 @@
                             i.wx,
                             {
                               translation: { x: 1.25, y: -0.1, z: 0.35 },
-                              rotation: { y: -16 * P },
+                              rotation: { y: -16 * O },
                             },
                             l.createElement(
                               i.s_,
@@ -7719,6 +7745,7 @@
           (0, n.gn)([a.ak], le.prototype, "onUpdateDebugInfo", null),
           (0, n.gn)([a.ak], le.prototype, "onDockOverlay", null),
           (0, n.gn)([a.ak], le.prototype, "onShowDashboardRequested", null),
+          (0, n.gn)([a.ak], le.prototype, "onDockOverlayRequested", null),
           (0, n.gn)([a.ak], le.prototype, "onHideTheaterMode", null),
           (0, n.gn)([a.ak], le.prototype, "onHideDashboardRequested", null),
           (0, n.gn)([a.ak], le.prototype, "show", null),
@@ -8515,8 +8542,8 @@
               ((D *= 0.4), (T = 0.1), (I = 1.5), (V = [0.25, 0.5, 1]));
             const E = o.height + D,
               x = Math.max(o.width, 0.175),
-              P = E / 2 - D,
-              O = h.B.isVRGamepadUI
+              O = E / 2 - D,
+              P = h.B.isVRGamepadUI
                 ? {
                     r: (14 / 255) * 0.1,
                     g: (20 / 255) * 0.1,
@@ -8534,12 +8561,12 @@
               s.createElement(
                 n.wx,
                 {
-                  translation: { y: P, z: -0.005 },
+                  translation: { y: O, z: -0.005 },
                   scale: { x, y: E, z: 0.008 },
                 },
                 s.createElement(
                   n.VW,
-                  { color: O },
+                  { color: P },
                   s.createElement(n.gQ, { solid: !0, source: "unit_cube" }),
                 ),
               ),
@@ -8711,8 +8738,8 @@
             V,
             E,
             x,
-            P,
             O,
+            P,
             L,
             B;
           const { popupRequest: H, reparent: A } = e,
@@ -8826,14 +8853,14 @@
                   : 0,
               y:
                 null !==
-                  (P =
+                  (O =
                     null === (x = H.rotation) || void 0 === x
                       ? void 0
-                      : x.yaw_degrees) && void 0 !== P
-                  ? P
+                      : x.yaw_degrees) && void 0 !== O
+                  ? O
                   : 0,
             },
-            q = null === (O = H.inherit_parent_pitch) || void 0 === O || O,
+            q = null === (P = H.inherit_parent_pitch) || void 0 === P || P,
             X = null === (L = H.inherit_parent_curvature) || void 0 === L || L,
             Z = null === (B = H.interactive) || void 0 === B || B,
             j = (function (e) {
@@ -8924,7 +8951,7 @@
           Rk: () => G,
           Yd: () => I,
           dw: () => A,
-          dy: () => P,
+          dy: () => O,
           j4: () => W,
           j6: () => F,
           lL: () => V,
@@ -9157,7 +9184,7 @@
             );
           }
         }
-        function P(e) {
+        function O(e) {
           return c.createElement(
             u.z,
             { className: "PowerMenuButton", onClick: e.onClick },
@@ -9168,7 +9195,7 @@
           );
         }
         (0, i.gn)([s.ak], x.prototype, "updateTime", null);
-        let O = (o = class extends c.Component {
+        let P = (o = class extends c.Component {
           get isShowingTooltip() {
             return o.s_CurrentlyShownTooltip === this;
           }
@@ -9221,12 +9248,12 @@
             );
           }
         });
-        (O.s_CurrentlyShownTooltip = null),
-          (0, i.gn)([l.Fl], O.prototype, "isShowingTooltip", null),
-          (0, i.gn)([l.aD.bound], O.prototype, "show", null),
-          (0, i.gn)([l.aD.bound], O.prototype, "hide", null),
-          (0, i.gn)([l.LO], O, "s_CurrentlyShownTooltip", void 0),
-          (O = o = (0, i.gn)([d.Pi], O));
+        (P.s_CurrentlyShownTooltip = null),
+          (0, i.gn)([l.Fl], P.prototype, "isShowingTooltip", null),
+          (0, i.gn)([l.aD.bound], P.prototype, "show", null),
+          (0, i.gn)([l.aD.bound], P.prototype, "hide", null),
+          (0, i.gn)([l.LO], P, "s_CurrentlyShownTooltip", void 0),
+          (P = o = (0, i.gn)([d.Pi], P));
         class L extends c.Component {
           static ShouldInvertThumbnail(e) {
             if (!e) return !1;
@@ -9339,7 +9366,7 @@
                     panelAnchorID: this.props.centerPanelAnchorID,
                   }),
                 ),
-              c.createElement(O, {
+              c.createElement(P, {
                 text: this.props.label,
                 ref: this.m_refTooltip,
               }),
@@ -9841,7 +9868,7 @@
               "div",
               { className: "SliderContainer" },
               this.props.title &&
-                c.createElement(O, {
+                c.createElement(P, {
                   text: this.props.title,
                   shown: this.state.bHover || this.state.bSliding,
                 }),
@@ -9898,7 +9925,7 @@
                 onMouseLeave: this.onMouseLeave,
               }),
               this.props.title &&
-                c.createElement(O, {
+                c.createElement(P, {
                   text: this.props.title,
                   ref: this.m_refTooltip,
                 }),
@@ -10016,7 +10043,7 @@
               enabled: e.enabled,
             },
             e.title &&
-              c.createElement(O, {
+              c.createElement(P, {
                 text: e.title,
                 translation: e.tooltipTranslation,
                 ref: r,
@@ -11410,4 +11437,4 @@
   var n = o.O(void 0, [968, 683], () => o(3184));
   n = o.O(n);
 })();
-//# sourceMappingURL=messageoverlay.js.map?v=37e1405d6760d5bf73a1
+//# sourceMappingURL=messageoverlay.js.map?v=4c3d78db97fadfd2aa24

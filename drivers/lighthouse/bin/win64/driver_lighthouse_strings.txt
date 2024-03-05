@@ -163,7 +163,6 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
- :M0,
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
@@ -338,7 +337,7 @@
 #D9c0t
 #D9{0t
 #bML"
-#w=	4
+#rT0X
 $0  extend .$1 {
 $0  extensions $1 to $2;
 $0  message $1
@@ -1397,9 +1396,8 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240209235854Z0/
+240305034217Z0/
 241009235959Z0a1
-2A+y!
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2HcB,
@@ -3343,7 +3341,6 @@ G,HcO(H
 G,iV(
 G8@8n4t{H
 G8D8t$8t/A
-G@<LQS
 GHiVX
 GLOG_alsologtoemail
 GLOG_alsologtostderr
@@ -3983,6 +3980,7 @@ Knuckles
 Knuckles EV1.3
 Knuckles EV1.4
 KpLcW4
+Kz^I[BT
 K}*n:	
 L#AxJ
 L#F0H
@@ -4521,6 +4519,7 @@ Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Prototype
 Pz}b!
+Q(.1y|
 Q@D85
 Qk6eV5RE
 Qkkbal
@@ -4533,7 +4532,6 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
-RSDS1
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4660,7 +4658,6 @@ SWAUAVH
 SWAUAWH
 SWAUH
 SWAWH
-SZ@Os
 S\9SXuv
 Samples didn't yield successful bootstrap pose
 Saved LighthouseDB rev %u to %s
@@ -5641,6 +5638,7 @@ ZL$Xf
 \%03o
 \1??I
 \D$ A
+\O 5&
 \T$@IcD$ H
 \U%08x
 \\.\pipe\
@@ -5743,7 +5741,6 @@ _invalid_parameter_noinfo_noreturn
 _localtime64
 _lock_file
 _low_res.obj
-_m4z^U
 _open
 _parsefailed.json
 _purecall
@@ -5856,6 +5853,7 @@ audio_recording_device_pid
 audio_recording_device_vid
 average_period
 avrt.dll
+azGa>a
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
@@ -5974,7 +5972,6 @@ c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthou
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
 cAMDt
-cZ2e,-
 cal_method
 calloc
 camera
@@ -6015,7 +6012,7 @@ controller
 corrupt
 count
 create
-cs_cs
+cs_cz
 ctype
 czech
 d$ E3
@@ -6049,7 +6046,7 @@ d$hHcC,L
 d$pI;
 d$xL;
 d3d11.dll
-da_da
+da_dk
 danish
 data error
 data->IsInitialized()
@@ -6125,6 +6122,7 @@ dsc_slices
 dsc_version
 dualSpeakerAndJackOutput
 dual_extrinsics
+dutch
 dvNL9
 dxgi.dll
 dynamic_state
@@ -6145,7 +6143,7 @@ eRender
 e_H9U
 echo %127s
 effffff
-el_el
+el_gr
 emissiveFactor
 emissiveTexture
 en_us
@@ -6541,8 +6539,8 @@ known_objects
 known_universes
 knuckles
 knuckles_ev1
-ko_ko
-korean
+ko_kr
+koreana
 l!;b	F
 l$ 8Y 
 l$ ATAVAWH
@@ -6729,10 +6727,12 @@ nNextPrismWaitIndex >= nNextPrismFrameIndex
 nSampleCount > 0 && nSampleCount <= 64
 nSizeInBytes <= m_unSizeInBytes
 nSplineCtrlPts
+nb_no
 need dictionary
 negative_int_value
 nested_type
 nfinity
+nl_nl
 no IDAT
 no PLTE
 no SOF
@@ -6741,7 +6741,6 @@ no clear code
 no header height
 no optical samples 
 no preset dict
-no_no
 no_standard_descriptor_accessor
 noclk
 nodes
@@ -6809,7 +6808,6 @@ p AVH
 p UAVAWH
 p WATAVH
 p$D+;
-p9'65vM0
 pA]A\^
 pA^A]A\
 pA^^]
@@ -7058,7 +7056,7 @@ subtype mismatch
 succeeded
 success
 supported
-sv_sv
+sv_se
 svuyt
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
@@ -7340,10 +7338,10 @@ uRf;>tM
 uSL9-
 uSfff
 uZEeu
-ua_ua
 ubHcC0I
 uint32
 uint64
+uk_ua
 ukranian
 umM;~
 undist_height
@@ -7397,7 +7395,7 @@ version
 version %s
 version.txt
 vfA'I
-vi_vi
+vi_vn
 via transform to global
 vibration
 video_mode
@@ -8106,6 +8104,7 @@ z+u)H
 z/u-H
 z2u0H
 z4u2H
+z<(	?QurkXRUb
 z?X9T?
 zd?/n
 zh_cn

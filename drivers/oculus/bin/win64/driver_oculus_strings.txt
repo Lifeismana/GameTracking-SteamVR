@@ -69,6 +69,7 @@
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
 "9k0t
+"=.bh
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
@@ -96,11 +97,11 @@ $w!Hc
 %s begin_ctx=%llu
 %s end_ctx=%llu
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&*f?J
 &9k0t
 &D9c0t
 &D9k0t
 &D9{0t
+&W	x>CU
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -462,7 +463,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240209235958Z0/
+240305034318Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -743,6 +744,7 @@ Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, b
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 AuthD
+BEtMq
 BINORMAL
 BMP RLE
 Bad escape sequence in string
@@ -922,6 +924,7 @@ E H9Q
 E0H+E(H
 E;u`|
 ERROR: Failed to dup handle!
+EY\aB
 E`HcH
 EgH9Q@t
 EgH9S@t
@@ -1215,7 +1218,6 @@ MB(iVR
 MSVCP140.dll
 MS_:F
 MT$dA
-M]B/WZ
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
@@ -1261,6 +1263,7 @@ Orhographic camera description not found.
 OrthographicCamera
 Out of thread local storage!
 OutputDebugStringW
+P)>}CbC
 PA^_^
 PA^_^][
 PA_A]A\_^
@@ -1451,6 +1454,7 @@ Washington1
 WinVerifyTrust
 X UVWH
 X%py	
+X7{$L
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
@@ -1708,7 +1712,6 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
-cJiM@
 camera
 cameras
 can't merge dc and ac
@@ -1725,7 +1728,7 @@ const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 corrupt
 count
-cs_cs
+cs_cz
 czech
 d$ H;
 d$ UAVAWH
@@ -1742,7 +1745,7 @@ d$`L;
 d$`fD
 d$bHc
 d3d11.dll
-da_da
+da_dk
 danish
 data:application/gltf-buffer;base64,
 data:application/octet-stream;base64,
@@ -1758,13 +1761,13 @@ dk2_camera
 doubleSided
 driver_oculus.dll
 driver_oculus.vrchap
+dutch
 dxgi.dll
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
-eY+a~!V
 effffff
-el_el
+el_gr
 emissiveFactor
 emissiveTexture
 en_us
@@ -1903,8 +1906,8 @@ jj@0HK4
 joints
 jsonid
 k0i0$
-ko_ko
-korean
+ko_kr
+koreana
 l$ ATAVAWH
 l$ E3
 l$ H;
@@ -1968,6 +1971,8 @@ minVersion
 missing color table
 multiple IHDR
 n0_D@
+nb_no
+nl_nl
 no IDAT
 no PLTE
 no SOF
@@ -1975,7 +1980,6 @@ no SOI
 no clear code
 no header height
 no preset dict
-no_no
 nodes
 normalTexture
 normalized
@@ -2356,7 +2360,7 @@ strtod
 strtol
 strtoll
 strtoull
-sv_sv
+sv_se
 swedish
 syntax error 
 t#fff
@@ -2404,6 +2408,7 @@ t$hL;
 t$pI;
 t$pfA
 t$pfD
+t+;<i
 t1Hcl$@
 t9fff
 t>H9n
@@ -2450,7 +2455,7 @@ u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uJf9X
 uTL9%o
-ua_ua
+uk_ua
 ukranian
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
 unexpected 
@@ -2476,7 +2481,7 @@ vector<bool> too long
 version
 version %s
 vfA'I
-vi_vi
+vi_vn
 vid_%04x
 vietnamiese
 vr_glove_left_skeleton.glb

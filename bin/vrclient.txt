@@ -355,8 +355,8 @@
  b CLogBuffer::s_pInstance
  b CPackedBoneTransforms::default_instance_
  b CPropertyContainer::BInit(std::string const&, bool)::vecReportedErrors
- b CRenderModelManager::GetModelInfo(char const*, bool)::k_pathInputJoystick
- b CRenderModelManager::GetModelInfo(char const*, bool)::k_pathInputSystem
+ b CRenderModelManager::GetBaseModelInfo(char const*, bool)::k_pathInputJoystick
+ b CRenderModelManager::GetBaseModelInfo(char const*, bool)::k_pathInputSystem
  b CSettingsManager::GetDefaultValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
  b CSettingsManager::GetValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
  b CSettingsSetting::GetDefaultValue() const::Empty
@@ -474,6 +474,8 @@
  b CVRMsg_Input_GetActionBindingsResponse::default_instance_
  b CVRMsg_Input_GetOriginLocalizedName::default_instance_
  b CVRMsg_Input_GetOriginLocalizedNameResponse::default_instance_
+ b CVRMsg_Input_GetOriginalComponentPath::default_instance_
+ b CVRMsg_Input_GetOriginalComponentPathResponse::default_instance_
  b CVRMsg_Input_SetActionManifestPath::default_instance_
  b CVRMsg_Input_SetActionManifestPathResponse::default_instance_
  b CVRMsg_Input_SetXrInputConfig::default_instance_
@@ -831,8 +833,8 @@
  b guard variable for CHmdSystemLatest::ShouldShowTrackerUI()::k_pathShowTrackerUi
  b guard variable for CLegacyInput::RunInputFrame(bool)::k_pathLegacyDebuggerPid
  b guard variable for CPropertyContainer::BInit(std::string const&, bool)::vecReportedErrors
- b guard variable for CRenderModelManager::GetModelInfo(char const*, bool)::k_pathInputJoystick
- b guard variable for CRenderModelManager::GetModelInfo(char const*, bool)::k_pathInputSystem
+ b guard variable for CRenderModelManager::GetBaseModelInfo(char const*, bool)::k_pathInputJoystick
+ b guard variable for CRenderModelManager::GetBaseModelInfo(char const*, bool)::k_pathInputSystem
  b guard variable for CServerTrackedDeviceProvider_002::GetInterfaceVersions()::k_InterfaceVersions
  b guard variable for CSettingsManager::GetDefaultValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
  b guard variable for CSettingsManager::GetValue<std::string>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -2498,6 +2500,8 @@
  d typeinfo for CVRMsg_Input_GetActionBindingsResponse
  d typeinfo for CVRMsg_Input_GetOriginLocalizedName
  d typeinfo for CVRMsg_Input_GetOriginLocalizedNameResponse
+ d typeinfo for CVRMsg_Input_GetOriginalComponentPath
+ d typeinfo for CVRMsg_Input_GetOriginalComponentPathResponse
  d typeinfo for CVRMsg_Input_SetActionManifestPath
  d typeinfo for CVRMsg_Input_SetActionManifestPathResponse
  d typeinfo for CVRMsg_Input_SetXrInputConfig
@@ -3557,6 +3561,8 @@
  d vtable for CVRMsg_Input_GetActionBindingsResponse
  d vtable for CVRMsg_Input_GetOriginLocalizedName
  d vtable for CVRMsg_Input_GetOriginLocalizedNameResponse
+ d vtable for CVRMsg_Input_GetOriginalComponentPath
+ d vtable for CVRMsg_Input_GetOriginalComponentPathResponse
  d vtable for CVRMsg_Input_SetActionManifestPath
  d vtable for CVRMsg_Input_SetActionManifestPathResponse
  d vtable for CVRMsg_Input_SetXrInputConfig
@@ -4297,8 +4303,8 @@
  puts
  putwc
  qsort
- r C.1861.371002
- r C.1864.371013
+ r C.1865.371440
+ r C.1868.371451
  r C.427.290275
  r CSWTCH.111
  r CSWTCH.214
@@ -4834,6 +4840,8 @@
  r typeinfo name for CVRMsg_Input_GetActionBindingsResponse
  r typeinfo name for CVRMsg_Input_GetOriginLocalizedName
  r typeinfo name for CVRMsg_Input_GetOriginLocalizedNameResponse
+ r typeinfo name for CVRMsg_Input_GetOriginalComponentPath
+ r typeinfo name for CVRMsg_Input_GetOriginalComponentPathResponse
  r typeinfo name for CVRMsg_Input_SetActionManifestPath
  r typeinfo name for CVRMsg_Input_SetActionManifestPathResponse
  r typeinfo name for CVRMsg_Input_SetXrInputConfig
@@ -5729,12 +5737,12 @@
  t .L1005
  t .L1006
  t .L1007
+ t .L1008
+ t .L1009
  t .L101
  t .L1010
- t .L1015
- t .L1017
+ t .L1013
  t .L1018
- t .L1019
  t .L102
  t .L1020
  t .L1021
@@ -5753,20 +5761,20 @@
  t .L1033
  t .L1034
  t .L1035
+ t .L1036
  t .L1037
+ t .L1038
  t .L104
  t .L1040
- t .L1041
  t .L1043
  t .L1044
- t .L1045
+ t .L1046
  t .L1047
+ t .L1048
  t .L105
- t .L1059
+ t .L1050
  t .L106
- t .L1061
  t .L1062
- t .L1063
  t .L1064
  t .L1065
  t .L1066
@@ -5785,26 +5793,15 @@
  t .L1078
  t .L1079
  t .L108
+ t .L1081
  t .L1089
  t .L109
  t .L1091
  t .L1092
  t .L1095
  t .L1096
- t .L10968
  t .L1097
- t .L10970
- t .L10972
- t .L10973
- t .L10974
- t .L10975
- t .L10976
- t .L10977
- t .L10978
- t .L10979
  t .L1098
- t .L10980
- t .L10981
  t .L1099
  t .L10993
  t .L10995
@@ -5825,20 +5822,32 @@
  t .L1105
  t .L1106
  t .L111
- t .L11123
- t .L11126
- t .L11128
- t .L11129
- t .L11130
- t .L11131
- t .L11132
- t .L11133
- t .L11134
- t .L11135
- t .L11136
- t .L11137
+ t .L11148
+ t .L11150
+ t .L11152
+ t .L11153
+ t .L11154
+ t .L11155
+ t .L11156
+ t .L11157
+ t .L11158
+ t .L11159
+ t .L11160
+ t .L11161
  t .L112
  t .L113
+ t .L11303
+ t .L11306
+ t .L11308
+ t .L11309
+ t .L11310
+ t .L11311
+ t .L11312
+ t .L11313
+ t .L11314
+ t .L11315
+ t .L11316
+ t .L11317
  t .L1135
  t .L11355
  t .L11356
@@ -6194,14 +6203,6 @@
  t .L15618
  t .L15619
  t .L15620
- t .L15662
- t .L15663
- t .L15665
- t .L15666
- t .L15667
- t .L15668
- t .L15669
- t .L15670
  t .L157
  t .L1573
  t .L1575
@@ -6211,6 +6212,14 @@
  t .L158
  t .L15858
  t .L159
+ t .L15919
+ t .L15920
+ t .L15922
+ t .L15923
+ t .L15924
+ t .L15925
+ t .L15926
+ t .L15927
  t .L16
  t .L160
  t .L1600
@@ -6297,15 +6306,15 @@
  t .L176
  t .L177
  t .L178
- t .L1789
  t .L179
- t .L1790
- t .L1792
- t .L1793
- t .L1794
- t .L1795
  t .L18
  t .L180
+ t .L1800
+ t .L1801
+ t .L1803
+ t .L1804
+ t .L1805
+ t .L1806
  t .L181
  t .L182
  t .L183
@@ -6518,66 +6527,50 @@
  t .L284
  t .L285
  t .L286
- t .L28607
- t .L28608
- t .L28610
- t .L28611
- t .L28612
- t .L28613
- t .L28614
- t .L28615
- t .L28616
- t .L28617
- t .L28618
- t .L28619
- t .L28620
- t .L28621
  t .L287
- t .L28724
- t .L28725
- t .L28727
- t .L28728
- t .L28729
- t .L28730
- t .L28731
  t .L288
- t .L28837
- t .L28838
- t .L28840
- t .L28841
- t .L28842
- t .L28843
- t .L28844
- t .L28845
  t .L289
  t .L29
  t .L290
  t .L291
+ t .L29136
+ t .L29137
+ t .L29139
+ t .L29140
+ t .L29141
+ t .L29142
+ t .L29143
+ t .L29144
+ t .L29145
+ t .L29146
+ t .L29147
+ t .L29148
+ t .L29149
+ t .L29150
  t .L2919
- t .L29195
- t .L29196
- t .L29198
- t .L29199
  t .L292
  t .L2920
- t .L29200
- t .L29201
- t .L29202
  t .L2922
  t .L2924
  t .L2925
+ t .L29253
+ t .L29254
+ t .L29256
+ t .L29257
+ t .L29258
+ t .L29259
  t .L2926
+ t .L29260
  t .L2927
  t .L293
- t .L29322
- t .L29323
- t .L29325
- t .L29326
- t .L29327
- t .L29328
- t .L29329
- t .L29330
- t .L29331
+ t .L29366
+ t .L29367
+ t .L29369
+ t .L29370
+ t .L29371
+ t .L29372
+ t .L29373
+ t .L29374
  t .L294
  t .L2942
  t .L2943
@@ -6589,7 +6582,23 @@
  t .L295
  t .L296
  t .L297
+ t .L29724
+ t .L29725
+ t .L29727
+ t .L29728
+ t .L29729
+ t .L29730
+ t .L29731
  t .L298
+ t .L29851
+ t .L29852
+ t .L29854
+ t .L29855
+ t .L29856
+ t .L29857
+ t .L29858
+ t .L29859
+ t .L29860
  t .L299
  t .L3
  t .L30
@@ -6651,14 +6660,7 @@
  t .L312
  t .L313
  t .L3131
- t .L31317
- t .L31318
  t .L3132
- t .L31320
- t .L31321
- t .L31322
- t .L31323
- t .L31324
  t .L314
  t .L315
  t .L316
@@ -6667,14 +6669,7 @@
  t .L3173
  t .L3175
  t .L3176
- t .L31769
  t .L3177
- t .L31770
- t .L31772
- t .L31773
- t .L31774
- t .L31775
- t .L31776
  t .L3178
  t .L3179
  t .L318
@@ -6683,22 +6678,20 @@
  t .L3182
  t .L3183
  t .L3184
+ t .L31846
+ t .L31847
+ t .L31849
  t .L3185
+ t .L31850
+ t .L31851
+ t .L31852
+ t .L31853
  t .L3186
  t .L3187
  t .L3188
  t .L3189
- t .L31899
  t .L319
  t .L3190
- t .L31900
- t .L31902
- t .L31903
- t .L31904
- t .L31905
- t .L31906
- t .L31907
- t .L31908
  t .L3191
  t .L3192
  t .L3193
@@ -6707,74 +6700,90 @@
  t .L32
  t .L320
  t .L3201
- t .L32029
  t .L3203
- t .L32030
- t .L32032
- t .L32033
- t .L32034
- t .L32035
- t .L32036
  t .L3204
  t .L3205
  t .L3206
  t .L321
  t .L3217
  t .L322
+ t .L32298
+ t .L32299
  t .L323
+ t .L32301
+ t .L32302
+ t .L32303
  t .L32304
  t .L32305
- t .L32307
- t .L32308
- t .L32309
- t .L32310
- t .L32311
- t .L32312
- t .L32313
  t .L324
+ t .L32428
+ t .L32429
+ t .L32431
+ t .L32432
+ t .L32433
+ t .L32434
+ t .L32435
+ t .L32436
+ t .L32437
  t .L325
+ t .L32558
+ t .L32559
+ t .L32561
+ t .L32562
+ t .L32563
+ t .L32564
+ t .L32565
  t .L326
  t .L327
  t .L328
+ t .L32833
+ t .L32834
+ t .L32836
+ t .L32837
+ t .L32838
+ t .L32839
+ t .L32840
+ t .L32841
+ t .L32842
  t .L329
  t .L33
  t .L330
  t .L331
  t .L332
  t .L333
- t .L33311
- t .L33312
- t .L33314
- t .L33315
- t .L33316
- t .L33317
- t .L33318
- t .L33319
- t .L33320
- t .L33321
- t .L33322
- t .L33323
- t .L33324
- t .L33325
- t .L33326
- t .L33327
- t .L33329
- t .L33330
- t .L33332
- t .L33333
- t .L33334
- t .L33335
- t .L33336
- t .L33337
- t .L33338
- t .L33339
- t .L33340
- t .L33341
  t .L334
  t .L335
  t .L336
  t .L337
  t .L338
+ t .L33840
+ t .L33841
+ t .L33843
+ t .L33844
+ t .L33845
+ t .L33846
+ t .L33847
+ t .L33848
+ t .L33849
+ t .L33850
+ t .L33851
+ t .L33852
+ t .L33853
+ t .L33854
+ t .L33855
+ t .L33856
+ t .L33858
+ t .L33859
+ t .L33861
+ t .L33862
+ t .L33863
+ t .L33864
+ t .L33865
+ t .L33866
+ t .L33867
+ t .L33868
+ t .L33869
+ t .L33870
  t .L339
  t .L34
  t .L340
@@ -6809,13 +6818,6 @@
  t .L365
  t .L3650
  t .L366
- t .L36610
- t .L36611
- t .L36613
- t .L36614
- t .L36615
- t .L36616
- t .L36617
  t .L367
  t .L3672
  t .L3674
@@ -6828,6 +6830,13 @@
  t .L369
  t .L37
  t .L372
+ t .L37246
+ t .L37247
+ t .L37249
+ t .L37250
+ t .L37251
+ t .L37252
+ t .L37253
  t .L373
  t .L374
  t .L375
@@ -7093,11 +7102,12 @@
  t .L599
  t .L6
  t .L60
+ t .L600
  t .L601
  t .L602
  t .L603
- t .L606
- t .L608
+ t .L604
+ t .L605
  t .L609
  t .L61
  t .L610
@@ -7111,13 +7121,15 @@
  t .L618
  t .L619
  t .L62
+ t .L620
  t .L621
- t .L628
+ t .L622
+ t .L624
  t .L63
- t .L630
  t .L631
- t .L632
  t .L633
+ t .L634
+ t .L635
  t .L636
  t .L638
  t .L639
@@ -7129,25 +7141,25 @@
  t .L644
  t .L645
  t .L646
+ t .L647
  t .L648
  t .L649
  t .L65
- t .L650
  t .L651
  t .L652
  t .L653
  t .L654
+ t .L655
  t .L656
- t .L658
+ t .L657
  t .L659
  t .L66
- t .L660
  t .L661
  t .L662
  t .L663
+ t .L664
  t .L665
  t .L666
- t .L667
  t .L668
  t .L669
  t .L67
@@ -7357,18 +7369,17 @@
  t .L828
  t .L829
  t .L83
+ t .L830
  t .L831
  t .L832
  t .L833
  t .L834
  t .L835
- t .L836
- t .L837
- t .L838
  t .L839
  t .L84
  t .L840
  t .L841
+ t .L842
  t .L843
  t .L844
  t .L845
@@ -7432,32 +7443,32 @@
  t .L928
  t .L929
  t .L93
+ t .L930
  t .L931
+ t .L932
  t .L934
- t .L935
  t .L937
  t .L938
- t .L939
  t .L94
  t .L940
  t .L941
+ t .L942
  t .L943
- t .L947
- t .L949
+ t .L944
+ t .L946
  t .L95
  t .L950
- t .L951
  t .L952
+ t .L953
  t .L954
+ t .L955
+ t .L957
  t .L96
  t .L97
  t .L98
- t .L987
- t .L988
  t .L99
  t .L990
  t .L991
- t .L992
  t .L993
  t .L994
  t .L995
@@ -8056,6 +8067,7 @@
  t CHmdSystemLatest::GetLegacyInput()
  t CHmdSystemLatest::GetMutualSteamCapabilities(bool*, unsigned int)
  t CHmdSystemLatest::GetMutualSteamCapabilities(bool*, unsigned int) [clone .cold]
+ t CHmdSystemLatest::GetOriginalComponentPath(unsigned long long, std::string const&, std::string&)
  t CHmdSystemLatest::GetPaths()
  t CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
  t CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -8080,6 +8092,7 @@
  t CHmdSystemLatest::Init(vr::EVRApplicationType, char const*) [clone .cold]
  t CHmdSystemLatest::InitCompositorImplementations()
  t CHmdSystemLatest::InitCompositorImplementations() [clone .cold]
+ t CHmdSystemLatest::IsDeviceRenderModelSimulated(unsigned long long)
  t CHmdSystemLatest::IsInterfaceVersionValid(char const*)
  t CHmdSystemLatest::IsSystemProcess()
  t CHmdSystemLatest::LogMessage(unsigned long long, char const*, unsigned int, ELogLevel, char const*)
@@ -8801,6 +8814,7 @@
  t CRenderModelManager::CacheEmptyModelInfo(unsigned int, std::string const&) [clone .cold]
  t CRenderModelManager::Cleanup()
  t CRenderModelManager::ClearCache()
+ t CRenderModelManager::ClearDeviceCache()
  t CRenderModelManager::Component_t::GetButtonMask()
  t CRenderModelManager::Component_t::GetInputState(vr::IVRPaths*, unsigned long long)
  t CRenderModelManager::Component_t::GetInputState(vr::VRControllerState001_t const*)
@@ -8817,6 +8831,8 @@
  t CRenderModelManager::FreeTexture(vr::RenderModel_TextureMap_t*)
  t CRenderModelManager::FreeTexture(vr::RenderModel_TextureMap_t*) [clone .cold]
  t CRenderModelManager::FreeTextureD3D11(void*)
+ t CRenderModelManager::GetBaseModelInfo(char const*, bool)
+ t CRenderModelManager::GetBaseModelInfo(char const*, bool) [clone .cold]
  t CRenderModelManager::GetComponentButtonMask(char const*, char const*)
  t CRenderModelManager::GetComponentButtonMask(char const*, char const*) [clone .cold]
  t CRenderModelManager::GetComponentCount(char const*)
@@ -8832,8 +8848,8 @@
  t CRenderModelManager::GetComponentStateExplicit(char const*, char const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*) [clone .cold]
  t CRenderModelManager::GetComponentStateForDevicePath(char const*, char const*, unsigned long long, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
  t CRenderModelManager::GetComponentStateInternal(CRenderModelManager::ModelInfo_t const*, CRenderModelManager::Component_t const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
- t CRenderModelManager::GetModelInfo(char const*, bool)
- t CRenderModelManager::GetModelInfo(char const*, bool) [clone .cold]
+ t CRenderModelManager::GetDeviceModelInfo(unsigned long long, char const*, bool)
+ t CRenderModelManager::GetDeviceModelInfo(unsigned long long, char const*, bool) [clone .cold]
  t CRenderModelManager::GetRenderModelAbsolutePath(char const*, bool)
  t CRenderModelManager::GetRenderModelAbsolutePath(char const*, bool) [clone .cold]
  t CRenderModelManager::GetRenderModelCount()
@@ -8868,6 +8884,8 @@
  t CRenderModelManager::RenderModelHasComponent(char const*, char const*)
  t CRenderModelManager::RenderModelHasComponent(char const*, char const*) [clone .cold]
  t CRenderModelManager::RenderModelTextureContainer_t::~RenderModelTextureContainer_t()
+ t CRenderModelManager::ReplaceRemappedPath(vr::CVRPathHelpers*, unsigned long long&, std::string const&, std::string const&)
+ t CRenderModelManager::ReplaceRemappedPath(vr::CVRPathHelpers*, unsigned long long&, std::string const&, std::string const&) [clone .cold]
  t CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*)
  t CRenderModelManager::Tessellate(vr::RenderModel_t*, char const*) [clone .cold]
  t CRenderModelManager::~CRenderModelManager()
@@ -11089,8 +11107,12 @@
  t CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&)
  t CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&) [clone .cold]
  t CVRControllerTypeBindings::GetOverrideDeviceClass()
+ t CVRControllerTypeBindings::GetSimulatedControllerType()
+ t CVRControllerTypeBindings::GetSimulatedControllerType() [clone .cold]
  t CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)
  t CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole) [clone .cold]
+ t CVRControllerTypeBindings::IsRenderModelSimulated()
+ t CVRControllerTypeBindings::IsRenderModelSimulated() [clone .cold]
  t CVRControllerTypeBindings::OverridePropertiesForControllerType(unsigned long long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&)
  t CVRControllerTypeBindings::OverridePropertiesForControllerType(unsigned long long, std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value> > > const&) [clone .cold]
  t CVRControllerTypeBindings::SendBindingUpdatedEvents()
@@ -11347,8 +11369,11 @@
  t CVRInputLatest::GetOriginLocalizedName(unsigned long long, char*, unsigned int, int) [clone .cold]
  t CVRInputLatest::GetOriginTrackedDeviceInfo(unsigned long long, vr::InputOriginInfo_t*, unsigned int)
  t CVRInputLatest::GetOriginTrackedDeviceInfo(unsigned long long, vr::InputOriginInfo_t*, unsigned int) [clone .cold]
+ t CVRInputLatest::GetOriginalComponentPath(unsigned long long, std::string const&, std::string&)
+ t CVRInputLatest::GetOriginalComponentPath(unsigned long long, std::string const&, std::string&) [clone .cold]
  t CVRInputLatest::GetOverrideDeviceClass(unsigned int)
  t CVRInputLatest::GetOverrideDeviceClass(unsigned int) [clone .cold]
+ t CVRInputLatest::GetPathFromControllerRole(vr::ETrackedControllerRole)
  t CVRInputLatest::GetPerInputTutorialActions(char const*, unsigned long long*, vr::PerInputTutorialActions_t*, unsigned int)
  t CVRInputLatest::GetPerInputTutorialActions(char const*, unsigned long long*, vr::PerInputTutorialActions_t*, unsigned int) [clone .cold]
  t CVRInputLatest::GetPoseActionDataForNextFrame(unsigned long long, vr::ETrackingUniverseOrigin, vr::InputPoseActionData_t*, unsigned int, unsigned long long)
@@ -11385,6 +11410,7 @@
  t CVRInputLatest::IsActionBound(unsigned long long)
  t CVRInputLatest::IsActionBound(unsigned long long) [clone .cold]
  t CVRInputLatest::IsActionSetActive(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long long, unsigned long long, int*)
+ t CVRInputLatest::IsDeviceRenderModelSimulated(unsigned long long)
  t CVRInputLatest::IsInTutorialMode()
  t CVRInputLatest::IsInputDisabledForPriority(unsigned long long, int)
  t CVRInputLatest::IsUsingLegacyInput()
@@ -13688,6 +13714,74 @@
  t CVRMsg_Input_GetOriginLocalizedNameResponse::set_localized_name(char const*, unsigned int)
  t CVRMsg_Input_GetOriginLocalizedNameResponse::set_localized_name(std::string const&)
  t CVRMsg_Input_GetOriginLocalizedNameResponse::~CVRMsg_Input_GetOriginLocalizedNameResponse()
+ t CVRMsg_Input_GetOriginalComponentPath::ByteSize() const
+ t CVRMsg_Input_GetOriginalComponentPath::CVRMsg_Input_GetOriginalComponentPath()
+ t CVRMsg_Input_GetOriginalComponentPath::CVRMsg_Input_GetOriginalComponentPath() [clone .cold]
+ t CVRMsg_Input_GetOriginalComponentPath::CVRMsg_Input_GetOriginalComponentPath(CVRMsg_Input_GetOriginalComponentPath const&)
+ t CVRMsg_Input_GetOriginalComponentPath::CVRMsg_Input_GetOriginalComponentPath(CVRMsg_Input_GetOriginalComponentPath const&) [clone .cold]
+ t CVRMsg_Input_GetOriginalComponentPath::Clear()
+ t CVRMsg_Input_GetOriginalComponentPath::CopyFrom(CVRMsg_Input_GetOriginalComponentPath const&)
+ t CVRMsg_Input_GetOriginalComponentPath::GetCachedSize() const
+ t CVRMsg_Input_GetOriginalComponentPath::GetTypeName() const
+ t CVRMsg_Input_GetOriginalComponentPath::InitAsDefaultInstance()
+ t CVRMsg_Input_GetOriginalComponentPath::IsInitialized() const
+ t CVRMsg_Input_GetOriginalComponentPath::MergeFrom(CVRMsg_Input_GetOriginalComponentPath const&)
+ t CVRMsg_Input_GetOriginalComponentPath::MergeFrom(CVRMsg_Input_GetOriginalComponentPath const&) [clone .cold]
+ t CVRMsg_Input_GetOriginalComponentPath::New() const
+ t CVRMsg_Input_GetOriginalComponentPath::New() const [clone .cold]
+ t CVRMsg_Input_GetOriginalComponentPath::SetCachedSize(int) const
+ t CVRMsg_Input_GetOriginalComponentPath::SharedCtor()
+ t CVRMsg_Input_GetOriginalComponentPath::SharedCtor() [clone .cold]
+ t CVRMsg_Input_GetOriginalComponentPath::SharedDtor()
+ t CVRMsg_Input_GetOriginalComponentPath::Swap(CVRMsg_Input_GetOriginalComponentPath*)
+ t CVRMsg_Input_GetOriginalComponentPath::default_instance()
+ t CVRMsg_Input_GetOriginalComponentPath::mutable_from_controller_type()
+ t CVRMsg_Input_GetOriginalComponentPath::mutable_remapped_component_path()
+ t CVRMsg_Input_GetOriginalComponentPath::mutable_to_controller_type()
+ t CVRMsg_Input_GetOriginalComponentPath::release_from_controller_type()
+ t CVRMsg_Input_GetOriginalComponentPath::release_remapped_component_path()
+ t CVRMsg_Input_GetOriginalComponentPath::release_to_controller_type()
+ t CVRMsg_Input_GetOriginalComponentPath::set_allocated_from_controller_type(std::string*)
+ t CVRMsg_Input_GetOriginalComponentPath::set_allocated_remapped_component_path(std::string*)
+ t CVRMsg_Input_GetOriginalComponentPath::set_allocated_to_controller_type(std::string*)
+ t CVRMsg_Input_GetOriginalComponentPath::set_from_controller_type(char const*)
+ t CVRMsg_Input_GetOriginalComponentPath::set_from_controller_type(char const*, unsigned int)
+ t CVRMsg_Input_GetOriginalComponentPath::set_from_controller_type(std::string const&)
+ t CVRMsg_Input_GetOriginalComponentPath::set_remapped_component_path(char const*)
+ t CVRMsg_Input_GetOriginalComponentPath::set_remapped_component_path(char const*, unsigned int)
+ t CVRMsg_Input_GetOriginalComponentPath::set_remapped_component_path(std::string const&)
+ t CVRMsg_Input_GetOriginalComponentPath::set_to_controller_type(char const*)
+ t CVRMsg_Input_GetOriginalComponentPath::set_to_controller_type(char const*, unsigned int)
+ t CVRMsg_Input_GetOriginalComponentPath::set_to_controller_type(std::string const&)
+ t CVRMsg_Input_GetOriginalComponentPath::~CVRMsg_Input_GetOriginalComponentPath()
+ t CVRMsg_Input_GetOriginalComponentPathResponse::ByteSize() const
+ t CVRMsg_Input_GetOriginalComponentPathResponse::CVRMsg_Input_GetOriginalComponentPathResponse()
+ t CVRMsg_Input_GetOriginalComponentPathResponse::CVRMsg_Input_GetOriginalComponentPathResponse() [clone .cold]
+ t CVRMsg_Input_GetOriginalComponentPathResponse::CVRMsg_Input_GetOriginalComponentPathResponse(CVRMsg_Input_GetOriginalComponentPathResponse const&)
+ t CVRMsg_Input_GetOriginalComponentPathResponse::CVRMsg_Input_GetOriginalComponentPathResponse(CVRMsg_Input_GetOriginalComponentPathResponse const&) [clone .cold]
+ t CVRMsg_Input_GetOriginalComponentPathResponse::Clear()
+ t CVRMsg_Input_GetOriginalComponentPathResponse::CopyFrom(CVRMsg_Input_GetOriginalComponentPathResponse const&)
+ t CVRMsg_Input_GetOriginalComponentPathResponse::GetCachedSize() const
+ t CVRMsg_Input_GetOriginalComponentPathResponse::GetTypeName() const
+ t CVRMsg_Input_GetOriginalComponentPathResponse::InitAsDefaultInstance()
+ t CVRMsg_Input_GetOriginalComponentPathResponse::IsInitialized() const
+ t CVRMsg_Input_GetOriginalComponentPathResponse::MergeFrom(CVRMsg_Input_GetOriginalComponentPathResponse const&)
+ t CVRMsg_Input_GetOriginalComponentPathResponse::MergeFrom(CVRMsg_Input_GetOriginalComponentPathResponse const&) [clone .cold]
+ t CVRMsg_Input_GetOriginalComponentPathResponse::New() const
+ t CVRMsg_Input_GetOriginalComponentPathResponse::New() const [clone .cold]
+ t CVRMsg_Input_GetOriginalComponentPathResponse::SetCachedSize(int) const
+ t CVRMsg_Input_GetOriginalComponentPathResponse::SharedCtor()
+ t CVRMsg_Input_GetOriginalComponentPathResponse::SharedCtor() [clone .cold]
+ t CVRMsg_Input_GetOriginalComponentPathResponse::SharedDtor()
+ t CVRMsg_Input_GetOriginalComponentPathResponse::Swap(CVRMsg_Input_GetOriginalComponentPathResponse*)
+ t CVRMsg_Input_GetOriginalComponentPathResponse::default_instance()
+ t CVRMsg_Input_GetOriginalComponentPathResponse::mutable_original_component_path()
+ t CVRMsg_Input_GetOriginalComponentPathResponse::release_original_component_path()
+ t CVRMsg_Input_GetOriginalComponentPathResponse::set_allocated_original_component_path(std::string*)
+ t CVRMsg_Input_GetOriginalComponentPathResponse::set_original_component_path(char const*)
+ t CVRMsg_Input_GetOriginalComponentPathResponse::set_original_component_path(char const*, unsigned int)
+ t CVRMsg_Input_GetOriginalComponentPathResponse::set_original_component_path(std::string const&)
+ t CVRMsg_Input_GetOriginalComponentPathResponse::~CVRMsg_Input_GetOriginalComponentPathResponse()
  t CVRMsg_Input_SetActionManifestPath::ByteSize() const
  t CVRMsg_Input_SetActionManifestPath::CVRMsg_Input_SetActionManifestPath()
  t CVRMsg_Input_SetActionManifestPath::CVRMsg_Input_SetActionManifestPath() [clone .cold]
@@ -25048,7 +25142,7 @@
  t __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
  t __gnu_cxx::__freeres()
  t __gnu_cxx::__normal_iterator<CVRInputLatest::FrameActionData_t*, std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> > > std::__find_if<__gnu_cxx::__normal_iterator<CVRInputLatest::FrameActionData_t*, std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> > >, __gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long long, unsigned long long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}> >(__gnu_cxx::__normal_iterator<CVRInputLatest::FrameActionData_t*, std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> > >, __gnu_cxx::__normal_iterator<CVRInputLatest::FrameActionData_t*, std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> > >, __gnu_cxx::__ops::_Iter_pred<CVRInputLatest::InputFrame_t::ComputeActionChange(CVRInputLatest::InputFrame_t*, unsigned long long, unsigned long long, VRAction_Entry_t&)::{lambda(CVRInputLatest::FrameActionData_t const&)#1}>, std::random_access_iterator_tag) [clone .isra.0]
- t __gnu_cxx::__normal_iterator<char const*, std::string> std::__find_if<__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> > >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, std::random_access_iterator_tag) [clone .isra.0]
+ t __gnu_cxx::__normal_iterator<char const*, std::string> std::__find_if<__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetBaseModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> > >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__ops::_Iter_comp_to_iter<CRenderModelManager::GetBaseModelInfo(char const*, bool)::{lambda(char, char)#1}, __gnu_cxx::__normal_iterator<char const*, std::string> >, std::random_access_iterator_tag) [clone .isra.0]
  t __gnu_cxx::__normal_iterator<char*, std::string> std::__find_if<__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__ops::_Iter_pred<int (*)(int) noexcept> >(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__ops::_Iter_pred<int (*)(int) noexcept>, std::random_access_iterator_tag)
  t __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::__unique<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter)
  t __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > > std::__find_if<__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const> >(__gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__normal_iterator<std::pair<std::string, std::string>*, std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string> > > >, __gnu_cxx::__ops::_Iter_equals_val<std::pair<std::string, std::string> const>, std::random_access_iterator_tag)
@@ -25237,6 +25331,7 @@
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_GetDriverDetailResponse>(unsigned int, unsigned int, CVRMsg_GetDriverDetailResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_GetDriverInfoResponse>(unsigned int, unsigned int, CVRMsg_GetDriverInfoResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_GetActionBindingsResponse>(unsigned int, unsigned int, CVRMsg_Input_GetActionBindingsResponse&, unsigned int)
+ t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_GetOriginalComponentPathResponse>(unsigned int, unsigned int, CVRMsg_Input_GetOriginalComponentPathResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_SetActionManifestPathResponse>(unsigned int, unsigned int, CVRMsg_Input_SetActionManifestPathResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_SetXrInputConfigResponse>(unsigned int, unsigned int, CVRMsg_Input_SetXrInputConfigResponse&, unsigned int)
  t bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_LaunchApplicationForMimeTypeResponse>(unsigned int, unsigned int, CVRMsg_LaunchApplicationForMimeTypeResponse&, unsigned int)
@@ -25557,6 +25652,7 @@
  t non-virtual thunk to CHmdSystemLatest::GetLatestEyePose(vr::VREyeTrackingState_Pose_t*)
  t non-virtual thunk to CHmdSystemLatest::GetLegacyInput()
  t non-virtual thunk to CHmdSystemLatest::GetMutualSteamCapabilities(bool*, unsigned int)
+ t non-virtual thunk to CHmdSystemLatest::GetOriginalComponentPath(unsigned long long, std::string const&, std::string&)
  t non-virtual thunk to CHmdSystemLatest::GetPaths()
  t non-virtual thunk to CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
  t non-virtual thunk to CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
@@ -25574,6 +25670,7 @@
  t non-virtual thunk to CHmdSystemLatest::GetVRStartupReason()
  t non-virtual thunk to CHmdSystemLatest::GetVRSystem()
  t non-virtual thunk to CHmdSystemLatest::GetWebSharedSecret()
+ t non-virtual thunk to CHmdSystemLatest::IsDeviceRenderModelSimulated(unsigned long long)
  t non-virtual thunk to CHmdSystemLatest::IsSystemProcess()
  t non-virtual thunk to CHmdSystemLatest::LogMessage(unsigned long long, char const*, unsigned int, ELogLevel, char const*)
  t non-virtual thunk to CHmdSystemLatest::NextSGID()
@@ -25628,6 +25725,7 @@
  t non-virtual thunk to CPropertyManager::DestroyPropertyContainer(unsigned long long)
  t non-virtual thunk to CPropertyManager::ReleaseFixedSizeContainer(unsigned long long)
  t non-virtual thunk to CRenderModelManager::ClearCache()
+ t non-virtual thunk to CRenderModelManager::ClearDeviceCache()
  t non-virtual thunk to CRenderModelManager::FindComponentForInputState(char const*, unsigned long long, char*, unsigned int)
  t non-virtual thunk to CRenderModelManager::GetComponentState(char const*, char const*, unsigned long long, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
  t non-virtual thunk to CRenderModelManager::GetComponentStateExplicit(char const*, char const*, vr::RenderModel_InputState_t const*, vr::RenderModel_ControllerMode_State_t const*, vr::RenderModel_ComponentState_t*)
@@ -25786,12 +25884,14 @@
  t non-virtual thunk to CVRInputLatest::GetBestXrInteractionProfile(unsigned long long)
  t non-virtual thunk to CVRInputLatest::GetCurrentFrameTime() const
  t non-virtual thunk to CVRInputLatest::GetHandPose(vr::EVRHandSide, float, vr::TrackedDevicePose_t*)
+ t non-virtual thunk to CVRInputLatest::GetOriginalComponentPath(unsigned long long, std::string const&, std::string&)
  t non-virtual thunk to CVRInputLatest::GetPerInputTutorialActions(char const*, unsigned long long*, vr::PerInputTutorialActions_t*, unsigned int)
  t non-virtual thunk to CVRInputLatest::GetPoseModification(unsigned long long, vr::HmdMatrix34_t*)
  t non-virtual thunk to CVRInputLatest::GetPoseModificationFromPath(unsigned long long, vr::HmdMatrix34_t*, unsigned int*)
  t non-virtual thunk to CVRInputLatest::GetPoseModificationRestricted(unsigned long long, vr::HmdMatrix34_t*, unsigned long long)
  t non-virtual thunk to CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange)
  t non-virtual thunk to CVRInputLatest::IsActionBound(unsigned long long)
+ t non-virtual thunk to CVRInputLatest::IsDeviceRenderModelSimulated(unsigned long long)
  t non-virtual thunk to CVRInputLatest::IsInTutorialMode()
  t non-virtual thunk to CVRInputLatest::SetInTutorialMode(bool)
  t non-virtual thunk to CVRInputLatest::SetXrInputConfig(std::string const&, std::vector<std::string, std::allocator<std::string> > const&)
@@ -26342,6 +26442,8 @@
  t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::pair<vr::RenderModel_t*, vr::RenderModel_TextureMap_t*> >, std::_Select1st<std::pair<unsigned long long const, std::pair<vr::RenderModel_t*, vr::RenderModel_TextureMap_t*> > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::pair<vr::RenderModel_t*, vr::RenderModel_TextureMap_t*> > > >::_M_get_insert_unique_pos(unsigned long long const&)
  t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> >, std::_Select1st<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > >*)
  t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> >, std::_Select1st<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<unsigned long long const, std::shared_ptr<CBlockQueue> > >)
+ t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> >, std::_Select1st<std::pair<unsigned long long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > >*)
+ t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> >, std::_Select1st<std::pair<unsigned long long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::shared_ptr<CRenderModelManager::ModelInfo_t> > > >::_M_get_insert_unique_pos(unsigned long long const&)
  t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::string>, std::_Select1st<std::pair<unsigned long long const, std::string> >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::string> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, std::string> >*)
  t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > >, std::_Select1st<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer> > > >*)
  t std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > >, std::_Select1st<std::pair<unsigned long long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > > >, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem> > > >*)
@@ -29459,6 +29561,7 @@
  t std::vector<CInputActionDefaultBindingFile, std::allocator<CInputActionDefaultBindingFile> >::~vector()
  t std::vector<CInputOption, std::allocator<CInputOption> >::operator=(std::vector<CInputOption, std::allocator<CInputOption> > const&)
  t std::vector<CInputOption, std::allocator<CInputOption> >::~vector()
+ t std::vector<CRenderModelManager::Component_t, std::allocator<CRenderModelManager::Component_t> >::operator=(std::vector<CRenderModelManager::Component_t, std::allocator<CRenderModelManager::Component_t> > const&)
  t std::vector<CRenderModelManager::Component_t, std::allocator<CRenderModelManager::Component_t> >::push_back(CRenderModelManager::Component_t const&)
  t std::vector<CRenderModelManager::RenderModelTextureContainer_t, std::allocator<CRenderModelManager::RenderModelTextureContainer_t> >::~vector()
  t std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t> >::_M_default_append(unsigned int)

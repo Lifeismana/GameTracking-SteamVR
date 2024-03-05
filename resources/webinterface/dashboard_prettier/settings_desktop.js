@@ -5128,6 +5128,10 @@
                     (e) => this.onShowDashboardRequested(e, !1),
                   ),
                   this.m_mailbox.RegisterHandler(
+                    "dock_overlay_requested",
+                    (e) => this.onDockOverlayRequested(e),
+                  ),
+                  this.m_mailbox.RegisterHandler(
                     "hide_dashboard_requested",
                     this.onHideDashboardRequested,
                   ),
@@ -5937,18 +5941,40 @@
               return;
             const o = Z.B.m_mapOverlayState.get(e.overlay_key);
             (null == o ? void 0 : o.dockLocation) != f.RA.Theater &&
-              (this.show(
-                null !== (r = e.reason) && void 0 !== r ? r : "unknown",
-              ),
-              e.overlay_key
-                ? this.switchToOverlayInternal(e.overlay_key)
-                : this.autoSwitchOverlayIfNeeded(),
-              t &&
+              (t &&
+                (this.show(
+                  null !== (r = e.reason) && void 0 !== r ? r : "unknown",
+                ),
                 this.setDashboardVisibility(
                   !0,
                   e.tracked_device_index,
                   e.reason,
-                ));
+                )),
+              e.overlay_key
+                ? this.switchToOverlayInternal(e.overlay_key)
+                : this.autoSwitchOverlayIfNeeded());
+          }
+          onDockOverlayRequested(e) {
+            if (!e.dock_location)
+              return void console.log(
+                "dock_overlay_requested: dock_location not specified",
+                e,
+              );
+            const t = f.RA[e.dock_location.toString()];
+            if (void 0 === t)
+              return void console.log(
+                "dock_overlay_requested: invalid dock_location",
+                e,
+              );
+            const r = Z.B.m_mapOverlayState.get(e.overlay_key);
+            r
+              ? r.dockLocation != t
+                ? this.onDockOverlay(e.overlay_key, t)
+                : console.log(
+                    "dock_overlay_requested: ignoring redundant request",
+                    e,
+                  )
+              : console.log("dock_overlay_requested: unknown overlay_key", e);
           }
           onHideTheaterMode() {
             let e = this.getActiveOverlayKey();
@@ -7749,6 +7775,7 @@
           (0, n.gn)([a.ak], le.prototype, "onUpdateDebugInfo", null),
           (0, n.gn)([a.ak], le.prototype, "onDockOverlay", null),
           (0, n.gn)([a.ak], le.prototype, "onShowDashboardRequested", null),
+          (0, n.gn)([a.ak], le.prototype, "onDockOverlayRequested", null),
           (0, n.gn)([a.ak], le.prototype, "onHideTheaterMode", null),
           (0, n.gn)([a.ak], le.prototype, "onHideDashboardRequested", null),
           (0, n.gn)([a.ak], le.prototype, "show", null),
@@ -11240,4 +11267,4 @@
   var n = o.O(void 0, [968, 683], () => o(1983));
   n = o.O(n);
 })();
-//# sourceMappingURL=settings_desktop.js.map?v=8f673a31207695c66ddb
+//# sourceMappingURL=settings_desktop.js.map?v=5404efaad36e07ee1709

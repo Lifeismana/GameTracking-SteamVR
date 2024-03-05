@@ -832,6 +832,7 @@ $@
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+03:39:17
 0x
 0x%08llx
 1
@@ -917,7 +918,6 @@ $@
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23
-23:54:55
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -3497,7 +3497,6 @@ False
 FastHexToBuffer() wants non-negative integers, not
 Fatal
 Feb
-Feb  9 2024
 February
 Feel free to add support for more if you need it.
 Field       :
@@ -4598,6 +4597,7 @@ MakeFileWriteable(char const*)
 ManualURL
 Map
 Mar
+Mar  5 2024
 March
 Mark 1
 Mark 2
@@ -7591,7 +7591,7 @@ cryptor::string_encryptor<5ul>::decrypt() const
 cryptor::string_encryptor<7ul>::decrypt() const
 cryptor::string_encryptor<8ul>::decrypt() const
 cryptor::string_encryptor<9ul>::decrypt() const
-cs_cs
+cs_cz
 ctime
 czech
 d
@@ -7639,7 +7639,7 @@ d_type
 d_type.cold
 d_unqualified_name
 da
-da_da
+da_dk
 danish
 data->IsInitialized()
 data.hIPC.IsValid()
@@ -7759,6 +7759,7 @@ dt
 dualSpeakerAndJackOutput
 dual_extrinsics
 dup
+dutch
 dv
 dwSpinCount == 0
 dynamic_cast
@@ -7775,7 +7776,7 @@ eO
 echo %127s
 edid_pid_to_str(int)
 edid_vid_to_str(unsigned short)
-el_el
+el_gr
 emissiveFactor
 emissiveTexture
 empty_string_ != __null
@@ -10567,8 +10568,8 @@ known_objects
 known_universes
 knuckles
 knuckles_ev1
-ko_ko
-korean
+ko_kr
+koreana
 l
 lEyeFile:%s width:%d height:%d components:%d
 lS
@@ -11500,12 +11501,14 @@ name
 name_part
 nan
 nanosleep
+nb_no
 ne
 new
 new[]
 next_is_type_qual.isra.0
 nfinity
 ng
+nl_nl
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>::operator[]<char const>(char const*)
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >::emplace_back<bool&>(bool&)
 nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>& std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> > >::emplace_back<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer> >(nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&&)
@@ -11582,7 +11585,6 @@ no clear code
 no header height
 no optical samples
 no preset dict
-no_no
 noclk
 node
 nodes
@@ -15976,7 +15978,7 @@ subtype mismatch
 succeeded
 success
 supported
-sv_sv
+sv_se
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
 sws
@@ -17499,7 +17501,6 @@ typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
 tz
 u
-ua_ua
 udev_device_get_devnode
 udev_device_get_parent_with_subsystem_devtype
 udev_device_get_sysattr_value
@@ -17518,6 +17519,7 @@ udev_unref
 uevent
 uint32
 uint64
+uk_ua
 ukranian
 ul
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
@@ -17618,7 +17620,7 @@ velocity %0.2fm/s
 version
 version %s
 version.txt
-vi_vi
+vi_vn
 via transform to global
 vibration
 video_mode

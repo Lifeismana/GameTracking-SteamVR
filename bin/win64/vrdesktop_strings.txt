@@ -20,6 +20,7 @@
 %s%s%s%s%s
 ' is not a number.
 ',=?k
+(&L38
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -165,7 +166,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240210000517Z0/
+240305034841Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -177,7 +178,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4:$8d
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -186,7 +186,6 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7rsv?c
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -197,6 +196,7 @@
 =rIQU
 >0<0:
 >Mp$d
+>x7qq
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -252,7 +252,7 @@
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@*t&b
+@	'1k
 @.data
 @.reloc
 @A^_^
@@ -402,6 +402,7 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
+FP6$\x
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -494,6 +495,7 @@ Handling scroll discrete
 Handling scroll smooth
 Handling unlock mouse
 HcFdH
+Hm4"X
 I9Bhs
 I;4$H
 I;4$L
@@ -600,6 +602,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS<
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -694,6 +697,7 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
+XgYaB
 Y9"SD
 [K]taM?
 \$ E3
@@ -777,20 +781,21 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail\win64\2017\vrdesktop.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
-cs_cs
+cs_cz
 czech
 d$`H=
 d$`L;
 d$`M;
 d3d11.dll
-da_da
+da_dk
 danish
 de_de
 deque<T> too long
 desktopview
+dutch
 dwmapi.dll
 dxgi.dll
-el_el
+el_gr
 en_us
 english
 es_es
@@ -836,8 +841,8 @@ japanese
 jj@0HK4
 k0i0$
 kernel32.dll
-ko_ko
-korean
+ko_kr
+koreana
 l$ H;
 l$ H=
 l$8E3
@@ -856,7 +861,8 @@ memcpy
 memmove
 memset
 message_id
-no_no
+nb_no
+nl_nl
 norwegian
 ntelD
 ole32.dll
@@ -886,7 +892,7 @@ string too long
 strncpy
 strpbrk
 strtoull
-sv_sv
+sv_se
 swedish
 system.cursor.ibeam
 system.desktop.%d
@@ -908,13 +914,13 @@ th_th
 tolower
 tr_tr
 turkish
-ua_ua
+uk_ua
 ukranian
 user32.dll
 v=Y]Bv
 vE;E`M
 vector<T> too long
-vi_vi
+vi_vn
 vietnamiese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
 vr::VROverlay()->CreateDashboardOverlay( pOverlayKey, pOverlayName, &m_ulOverlayHandle, &m_ulOverlayThumbnailHandle )
@@ -937,6 +943,7 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+y8>.>6
 zh_cn
 zh_tw
 {un'%
