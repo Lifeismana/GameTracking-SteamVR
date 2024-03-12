@@ -1,7 +1,6 @@
 	!s99
  %41g
 !hn7!
-%b"jO
 ',=?k
 (f*^[0
 +Xt@(
@@ -29,6 +28,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.U$;w*
 .data
 .data$r
 .edata
@@ -86,7 +86,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240305034126Z0/
+240311232323Z0/
 241009235959Z0a1
 284<4@4D4H4L4P4T4X4
 2D2L2e2
@@ -197,7 +197,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSBL
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -275,6 +274,7 @@ memcpy
 memmove
 memset
 modelNumber
+n/TFt#
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -282,9 +282,9 @@ serialNumber
 steamvr
 string too long
 uCVj@
+uxPmb*	
 v=Y]Bv
 vector<T> too long
-v~N`P
 windowHeight
 windowWidth
 windowX

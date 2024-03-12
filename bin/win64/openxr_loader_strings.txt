@@ -44,6 +44,7 @@
  with error 
 !!! WARNING !!! Environment variable 
 !hn7!
+%n{=OS
 %u.%u
 %u.%u.%u
 ' is not a number.
@@ -69,7 +70,6 @@
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
 ,W5y+
-,s51]
 -1e+9999
 -Infinity
 .  Does it exist?
@@ -172,12 +172,13 @@
 220801000000Z
 230714000000Z
 2333333
-240305034349Z0/
+240311233139Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2r[ZT
 311109235959Z0b1
 341013235959Z0H1
 360428235959Z0i1
@@ -285,6 +286,7 @@
 @USWATAWH
 @UVATAUAWH
 @UWAVAWH
+@]A{s
 A valid JSON document must be either an array or an object value.
 A(t	H
 ADVAPI32.dll
@@ -504,6 +506,7 @@ LoaderInstance::CreateInstance, no support found for requested extension:
 M H1E
 M98u/
 MB(iVR
+MNg)z
 MSVCP140.dll
 ManifestFile::IsValidJson - JSON "file_format_version" 
 ManifestFile::IsValidJson - JSON file missing "file_format_version"
@@ -529,6 +532,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+Ra<1{
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -812,7 +816,6 @@ layer
 library_path
 list<T> too long
 m0k0$
-m]o{U
 malloc
 map/set<T> too long
 memchr
@@ -829,6 +832,7 @@ platform_utils
 rejectDupKeys
 runtime
 s t#fff
+sM!#o
 setvbuf
 skipBom
 something wrong with XrInstanceCreateInfo contents

@@ -35,6 +35,7 @@
  sIE3
 !T$(H!T$ 
 !hn7!
+#wPC&w
 $+xvA
 $< t6<$t,<+t"<vt
 %.0Lf
@@ -378,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-240305034044Z0/
+240311232836Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -561,6 +562,7 @@ $< t6<$t,<+t"<vt
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@_N@Z
 ?WTrace@IVRCamera@vrcamera@@UEAAXAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
 ?YUVToRGB@IVRCameraFrame@vrcamera@@MEAAXEEEAEAD00@Z
+?\44Mg
 @(D9i(
 @.data
 @.reloc
@@ -635,7 +637,6 @@ A;J$vdH
 AH;BHu"
 AH;BHu)
 AH;BHu,
-AJ2t<Y
 ATAVAWH
 A^A\_
 A^_^][
@@ -667,6 +668,7 @@ Auto White Balance:
 B$D+B,toD+B(
 B0E8XAt
 BL$(A
+BXF6C2"
 Backlight Compensation:		
 Begin Streaming Depth...
 Begin Streaming Video...
@@ -689,7 +691,6 @@ CD$0fD
 CD$xH
 CE'H+
 CE,D;m0D
-CG'uR
 CM'L+
 CT$ L
 CT$(H
@@ -833,7 +834,6 @@ D;z,A
 D;z,u
 D;z,v	A
 DFailed to EnumPins.
-D`y&pR'
 DecodePointer
 DeleteCriticalSection
 DeleteProcThreadAttributeList
@@ -1125,6 +1125,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
+RSDS6
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1180,7 +1181,6 @@ T$PH;
 T$PI+
 T$`H+
 T$pE3
-TVTSl
 Target device found.
 TargetOversubscriptionFactor
 TerminateProcess
@@ -1248,7 +1248,6 @@ WATAUAVAWH
 WATAVH
 WATAWH
 WAVAWH
-WD*JP
 W`;Ct~|H
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -1390,6 +1389,7 @@ connection refused
 connection reset
 count
 cross device link
+c{PX>
 d$ E3
 d$DE;
 d$XD9
@@ -1460,7 +1460,6 @@ is a directory
 islower
 isspace
 isupper
-i|OYo
 jj@0HK4
 jyvids
 k0i0$

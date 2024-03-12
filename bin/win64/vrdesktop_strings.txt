@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	6o5q
  %41g
  A_A^A\
  A_A^A]A\_
@@ -18,9 +19,9 @@
 !hn7!
 %%.%dg
 %s%s%s%s%s
+&L9LyF
 ' is not a number.
 ',=?k
-(&L38
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -166,8 +167,9 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240305034841Z0/
+240311233620Z0/
 241009235959Z0a1
+2=k+=g
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -196,7 +198,6 @@
 =rIQU
 >0<0:
 >Mp$d
->x7qq
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -252,7 +253,6 @@
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@	'1k
 @.data
 @.reloc
 @A^_^
@@ -402,7 +402,6 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
-FP6$\x
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -495,7 +494,6 @@ Handling scroll discrete
 Handling scroll smooth
 Handling unlock mouse
 HcFdH
-Hm4"X
 I9Bhs
 I;4$H
 I;4$L
@@ -602,7 +600,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS<
+RSDSI
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -697,7 +695,6 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-XgYaB
 Y9"SD
 [K]taM?
 \$ E3
@@ -943,9 +940,9 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-y8>.>6
 zh_cn
 zh_tw
+{Ebl;
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH

@@ -15,6 +15,7 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
 !0L0w0
 !hn7!
+#FNbq
 $Phdd
 %%.%dg
 %2.2X
@@ -93,6 +94,7 @@ $Phdd
 -status
 -stop
 -version
+-}~eH
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV?$_Iosb@H@std@@
@@ -192,7 +194,6 @@ $Phdd
 0V2y2
 0_0g0
 0`0|0
-0bl cf
 0g1q1
 0p1t1x1|1
 0w0c1
@@ -237,7 +238,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-240305034032Z0/
+240311232232Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -392,7 +393,6 @@ $Phdd
 9L=p=|=
 9LHB-u
 9M;R;v;{;
-9Q`jQ
 9[:2<L=^=
 9^hve
 9h9n9
@@ -411,7 +411,9 @@ $Phdd
 :?;\;a;h;o;v;
 :D>}?
 :T;X;\;`;d;h;l;p;t;x;|;
+:cY''h
 :j;q;
+:v%Qc<
 ;	<"<
 ; <A<
 ;";@;
@@ -431,6 +433,7 @@ $Phdd
 ;Cd}PS
 ;G0u	P
 ;J<a<f<
+;Ln9T
 ;Q,u.
 ;Z<_<y>~>$?)?\?a?z?
 ;x=p>
@@ -558,7 +561,6 @@ $Phdd
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
 @.data
-@2U*W
 @SVWj
 @d;Cd
 A valid JSON document must be either an array or an object value.
@@ -746,6 +748,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 J1T1\1j1
 J>@G_
+JyRn=
 K ;S$
 K$t"j
 K,+K(+
@@ -824,7 +827,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSP?Uq
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -840,10 +842,10 @@ SERVICES
 SERVICES -U128 %s
 SERVICES -U16 %4.4X
 SHELL32.dll
-SS 03:
 SVWh0a
 SVWh<
 SVWj@j
+Sa"Gu
 Selecting Data Packet:
 Selecting Init Packet:
 Send CRC Command.
@@ -874,7 +876,6 @@ TerminateProcess
 Terminating discovered vivelink process.
 TlsAlloc
 TlsFree
-U<V@w\
 UnhandledExceptionFilter
 Unknown
 Unknown DFU Extended Error (%d)
@@ -1094,7 +1095,6 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 application
 assert json failed
-axX5c
 bad allocation
 bad array new length
 bad cast
@@ -1207,7 +1207,7 @@ print
 punct
 realloc
 runas
-s@nQd 
+sCP^d
 space
 stoi argument out of range
 stoul argument out of range
@@ -1268,7 +1268,6 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
-yfW+H
 {L?uI
 {un'%
 |	9A 

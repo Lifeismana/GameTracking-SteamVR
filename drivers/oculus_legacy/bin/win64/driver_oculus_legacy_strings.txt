@@ -5,7 +5,7 @@
  9D$D
  A__^
  H3E H3E
- uOgiw^X
+!fe@b
 !hn7!
 ',=?k
 (A^A]^[
@@ -92,7 +92,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240305034321Z0/
+240311233111Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -104,7 +104,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4?Rk3
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -113,6 +112,7 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8$x/[
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -138,7 +138,6 @@
 @.data
 @.reloc
 @.rsrc
-@>-26q
 @A^_^
 @SUVWAVH
 @SVAUAVH
@@ -263,7 +262,6 @@ OD$DH
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
-OufP.
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -271,7 +269,7 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS\<&
+RSDSs!
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -295,6 +293,7 @@ TerminateProcess
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
+TkLzs7
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -375,6 +374,7 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+b#$`{
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
@@ -385,6 +385,7 @@ dk2_camera
 driver_oculus_legacy.dll
 effffff
 f9<Xu
+fWjKx
 getenv
 gfffffffH
 headset
@@ -472,7 +473,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-yY0x.S
 z(uMH
 {ERR-001}
 {ERR-079}
@@ -487,6 +487,7 @@ z(uMH
 |$ AVH
 |$8I;
 |Lu?c
+}	ee:
 }LuHO
 ~qj#k"
 ~t&LN

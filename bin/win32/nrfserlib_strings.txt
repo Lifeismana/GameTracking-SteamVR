@@ -66,7 +66,6 @@ $Ph'*
 $Ph)*
 $Vh&*
 %%.%dg
-%.+*#
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
 %s data received. (handle: %d, bytes: %d) '%s'
@@ -709,7 +708,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240305034028Z0/
+240311232228Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -794,6 +793,7 @@ $Vh&*
 3V4=5
 3d4m4
 3mq+<
+3z+*%6
 4 4$4(4,4
 4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
 4 4$4(4,40444@4D4H4L4P4T4X4t4x4|4
@@ -891,6 +891,7 @@ $Vh&*
 5d7v7&:
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5ineI
+5v[(lT
 6	7U7Z7_7~7
 6	7V<
 6 6$6(6,6064686<6@6D6H6L6P6T6X6\6
@@ -1439,7 +1440,7 @@ Already open
 Attribute Discovery
 Authentication
 Authentication status failed. (auth_status: %s)
-BI)Mc
+BJ\MG
 BLE Serialization Shutdown.
 BLE_GAP_SEC_STATUS_AUTH_REQ
 BLE_GAP_SEC_STATUS_BR_EDR_IN_PROG
@@ -1575,6 +1576,7 @@ Connection params update failed. (nrf_error: %s)
 ContainerID
 Continue
 Couldn't create/open file
+CpG*2
 CreateDirectoryA
 CreateEventW
 CreateFileA
@@ -2104,7 +2106,6 @@ Zipfile is corrupt or not a zipfile
 [K]taM?
 \0`0d0|0
 \Device Parameters
-\l_w94a;!
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2170,7 +2171,7 @@ _stricmp
 _strlwr
 _strnicmp
 _strupr_s
-_{%|,d
+_~Z[4
 `.rdata
 a7hIw
 a9~@u
@@ -2207,7 +2208,6 @@ dat_file
 data error
 deque<T> too long
 digit
-eGF~U
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -2270,6 +2270,7 @@ j(hHi
 jWhXG
 jj@0HK4
 k0i0$
+km$hI
 l2|X/gGe
 list<T> too long
 lj!hh
@@ -2288,6 +2289,7 @@ memset
 mutex
 need dictionary
 nrfserlib.dll
+n~!1L
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
@@ -2468,7 +2470,7 @@ vGh@7
 vGh`5
 vector<T> too long
 vector<bool> too long
-vg]=E
+vv7TcEK
 w QVR
 w(_^[]
 w0_^[

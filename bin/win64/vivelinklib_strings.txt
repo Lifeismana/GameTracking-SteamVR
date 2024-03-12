@@ -123,7 +123,6 @@
 -u-I;
 -version
 .00cfg
-.4Wd?v
 .?AU_Crt_new_delete@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@
@@ -229,7 +228,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240305034057Z0/
+240311232848Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -245,6 +244,7 @@
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+5iAN)
 6*f(_
 666666666666666666666666666666666666666666666666666666666666
 6I]Dc
@@ -264,7 +264,6 @@
 ::LHB::%4.4X %s
 :\u-L
 :\u6L
-;`CQWO~
 </u#H
 <0:08
 <= Exiting Context: (%.2f seconds)
@@ -272,7 +271,6 @@
 ======================
 ==============================
 => Entering Context
-=oYOM
 =rIQU
 >"t H
 >"t-H
@@ -631,6 +629,7 @@ Execute '%s %s' failed (Error:%d)
 Execute Elevated '%s %s' failed (Error:%d)
 Existing Bootloader mode.
 Extended Error: %s, %s
+Ez_0rp
 Failed
 Failed to allocate memory
 Failed to open DFU zip file '%s'
@@ -793,6 +792,7 @@ PA^_]
 PA^_^
 PA_A^_^]
 PAq=?Mp#
+PFE,6
 PUBLIC
 Parsing of JSON string "%s" failed: %s
 PeekNamedPipe
@@ -808,7 +808,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDS,W
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1328,12 +1327,14 @@ vivelink-driver.txt
 vivelink-output.txt
 vivelink.exe
 vivelinklib.dll
+wL/gM[
 win64
 wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 xA\^][
 xAtAL
+xaLsyE
 xdigit
 {un'%
 {x\u!H
