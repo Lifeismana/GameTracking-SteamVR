@@ -2,16 +2,17 @@
  %41g
  A__^
  H3E H3E
+!CWSt
 !hn7!
 ',=?k
 (D$ f
+(RB,L
 (f*^[0
 (|$pL
 +Xt@(
-+fD?8
 +o'q)}
 ,W5y+
--bj"zdE
+.#=@E
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -99,7 +100,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240320175643Z0/
+240325194752Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -112,7 +113,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5-z\B
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -154,6 +154,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+F6+%CD
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
@@ -163,11 +164,10 @@ GetSystemTimeAsFileTime
 H SWH
 H-^Eu
 H93t	H
-H957{
-H95A|
-H95Dz
-H95E}
-H95O~
+H95g{
+H95q|
+H95tz
+H95u}
 H9w`tFH
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
@@ -179,6 +179,7 @@ IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
+IVRIPCResourceManagerClient_001
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -244,9 +245,11 @@ SDL_QuitSubSystem
 SVWATAUAVAWH
 SetEnvironmentVariableA
 SetUnhandledExceptionFilter
+Sg.oJ
 Skipping controller %d because it has the Valve VID
 SleepConditionVariableCS
 TUUUUUU
+TYA#K
 TlsAlloc
 TlsFree
 UVWAVAWH
@@ -264,7 +267,9 @@ Washington1
 Y9"SD
 [K]taM?
 \$ UH
+\M]%D
 ]J<0"0i3
+^+37r
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -303,12 +308,10 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
-a$=%$&cf
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
-arR`%
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
@@ -318,6 +321,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+j:YYu*;
 jj@0HK4
 k0i0$
 l$8E3
@@ -328,8 +332,10 @@ map/set<T> too long
 memcpy
 memmove
 memset
+n3b*P
 ntelD
 p WAVAWH
+quLp8:
 string too long
 t$ AVH
 t$ AWH
@@ -337,10 +343,12 @@ t$ WH
 t$@H=
 tXfff
 terminate
+uBZ,k
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+yf,fB
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -354,6 +362,5 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
-}\C4'y5p$
 ~qj#k"
 ~t&LN

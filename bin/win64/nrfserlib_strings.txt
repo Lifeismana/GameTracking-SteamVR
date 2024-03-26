@@ -128,6 +128,7 @@
 -Infinity
 -external
 -internal
+-t"sb
 -u-I;
 . Aborting.
 . Baud rate requested (
@@ -632,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240320175529Z0/
+240325194640Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -645,6 +646,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+3nhUr
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -847,6 +849,7 @@ A;A A
 A;q }?I
 ACL_DATA_PACKET
 ADVAPI32.dll
+APcO#
 ATAVAWH
 A\_[]
 A]A\_[]
@@ -1865,7 +1868,6 @@ blank
 bootloader
 buffer error
 c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
-cOO7C
 calloc
 close
 cntrl
@@ -1965,6 +1967,7 @@ memcmp
 memcpy
 memmove
 memset
+mqOfk.
 mutex
 need dictionary
 nrfserlib.dll
@@ -1975,7 +1978,6 @@ oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 p UWATAVAWH
-p"a T*
 pA^_^
 pA_A\_[]
 pA_A^A]A\_^]
@@ -1983,6 +1985,7 @@ print
 punct
 realloc
 s#fff
+sWvu$
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)

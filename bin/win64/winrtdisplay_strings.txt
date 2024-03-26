@@ -1,5 +1,4 @@
 	!s99
-	0w=J
  %41g
  A_A^A\_^
  A_A^_
@@ -118,7 +117,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240320175409Z0/
+240325194526Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -145,7 +144,6 @@
 9D$DtfL9t$xt
 9E ukH
 <0:08
-<6>w2
 <P)9Y
 <unknown>
 =rIQU
@@ -260,7 +258,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSR
+RSDSF!h
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -316,7 +314,6 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
-Zlg /?J\4
 [K]taM?
 \$ H;
 \$ UH
@@ -368,6 +365,7 @@ c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdi
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
 dxgi.dll
+f7^Ks
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X

@@ -223,7 +223,8 @@
         "inputCaptureEnabled": false,
         "allowSteamOverlays": true,
         "allowVRGamepadUI": true,
-        "allowDesktopBPMWithVRGamepadUI": false,
+        "allowVRGamepadUIViaGamescope": false,
+        "allowQuickLaunchInVRGamepadUI": false,
         "steamMatchesHMDFramerate": true
     },
     "driver_imu": {

@@ -1,6 +1,7 @@
 																																																																																																																
 	!s99
 	D$HA
+	x!(m
 	|$HA
     A
  %41g
@@ -177,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240320175525Z0/
+240325194636Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -292,7 +293,6 @@ Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
 AuthD
-B=-	qM
 BMP RLE
 Bellevue1
 C<unknown>
@@ -349,8 +349,8 @@ Error: Can't decode MJPG frame. The failed output frame will be blacked.
 Etron_%d_%d_v%d
 EventRegister
 EventUnregister
-EventWrite
 EventWriteString
+EventWriteTransfer
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -438,6 +438,7 @@ L$8A+
 L$8H;L$0
 L$@D8	u
 L$@D;
+L$@E3
 L$@fD
 L$\E3
 L$`fD
@@ -462,6 +463,7 @@ Not Available
 NotFound
 Out of thread local storage!
 OutputDebugStringA
+P;Nms
 PA^_^
 PA_A^A]A\[
 PAq=?Mp#
@@ -475,7 +477,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSN
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -643,7 +644,6 @@ _seh_filter_dll
 _wchdir
 _wgetcwd
 `.rdata
-`;9fP
 `A_A^A]A\_^]
 `A__^
 a7hIw
@@ -909,6 +909,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+y$F 7
 zh_cn
 zh_tw
 zlib corrupt

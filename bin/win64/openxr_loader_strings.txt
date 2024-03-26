@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	2td`"
     Object[
     SessionLabel[
  "functions" section contains non-string values.
@@ -45,12 +44,13 @@
  with error 
 !!! WARNING !!! Environment variable 
 !hn7!
-#?xD'
-#HuMt
+%bNa{t
 %u.%u
 %u.%u.%u
+&y<Qh
 ' is not a number.
 ' will NOT be used.
+'&Lq^
 ',=?k
 (A^A]^[
 (A_A^^[
@@ -63,7 +63,6 @@
 (unknown)
 )D$ L
 )t$ H
-+3Q%c)
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -175,7 +174,7 @@
 220801000000Z
 230714000000Z
 2333333
-240320175836Z0/
+240325194938Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -186,6 +185,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3Zj<b
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -194,6 +194,7 @@
 6I]Dc
 6OB,n_
 70503
+7U2#e
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -413,7 +414,6 @@ FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
 G(L9w 
-GC"l>\
 GENERAL
 GetCurrentProcess
 GetCurrentProcessId
@@ -532,8 +532,8 @@ PA_A^_^]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-P~|{"
 QueryPerformanceCounter
+RSDSj
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -747,7 +747,6 @@ deque<T> too long
 description
 disable_environment
 double out of UInt range
-eEj7y
 enable_environment
 enabledExtensionCount is non-0 but array is NULL
 engine name missing NULL terminator.
@@ -817,6 +816,7 @@ labelInfo must be non-NULL
 layer 
 library_path
 list<T> too long
+m);	w
 m0k0$
 malloc
 map/set<T> too long
@@ -826,7 +826,6 @@ memcpy
 memmove
 memset
 must be non-NULL
-n6O4}
 nfinity
 ntelD
 openxr/
@@ -886,6 +885,7 @@ wide_to_utf8 get size error:
 www.digicert.com1!0
 www.digicert.com1$0"
 x AVH
+xlxto
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
@@ -954,6 +954,7 @@ xrSuggestInteractionProfileBindings
 xrSyncActions
 xrWaitFrame
 xrWaitSwapchainImage
+{f`B<q>
 {un'%
 |$ ATAVAWH
 |$ AVH

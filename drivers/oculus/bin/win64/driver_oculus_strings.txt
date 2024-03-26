@@ -414,7 +414,6 @@ $w!Hc
 /input/x/touch
 /input/y/click
 /input/y/touch
-/ln7N
 /output/haptic
 /pose/raw
 /proximity
@@ -464,8 +463,9 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240320175800Z0/
+240325194905Z0/
 241009235959Z0a1
+2C)8*
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -475,9 +475,11 @@ $w!Hc
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+39>Am
 3?9y>m0_D@H_
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+4iMfXz
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -791,8 +793,8 @@ CT$pH
 C\$0D
 C\$0H
 C\$0L
-C\$0L9%4
-C\$0L9%~
+C\$0L9%
+C\$0L9%>
 C\$0M
 C\$PE
 C\$PH
@@ -937,8 +939,8 @@ EnterCriticalSection
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
-EventWrite
 EventWriteString
+EventWriteTransfer
 Exceeded stackLimit in readValue().
 ExpandEnvironmentStringsA
 FORMAT=32-bit_rle_rgbe
@@ -1093,6 +1095,7 @@ IVRDriverInput_003
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
+IVRIPCResourceManagerClient_001
 IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
@@ -1194,7 +1197,7 @@ L$`fD
 L$p@2
 L$pE3
 L$pHcQ
-L9%\	
+L9%w	
 L9k8v
 L9t$@
 L9|$p
@@ -1290,8 +1293,8 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
+REZ|4f=
 RPCRT4.dll
-RSDSBILqJ
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1312,7 +1315,6 @@ SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
 SETUPAPI.dll
-SI/N1}
 SPB8t
 SPB8u,
 SUVWATAUAVAWH
@@ -1459,12 +1461,9 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 X UVWH
-X%`s	
-X-ux	
 XA^^[]
 XXXX PNG chunk not known
 Y9"SD
-Z!5(b
 Z9k0tUD
 ZL$Xf
 [K]taM?
@@ -1531,6 +1530,7 @@ ZL$Xf
 ][OculusDirect] AquireSync
 ]g@8yhu
 ^9k0tWD
+^{N:Z
 _Camera
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -2480,6 +2480,7 @@ unsupported bit depth
 unsupported data layout
 unsupported format
 v4fff
+v9z'f
 v=Y]Bv
 vE;E`M
 vHcD$LH
