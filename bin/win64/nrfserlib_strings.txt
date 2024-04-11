@@ -30,6 +30,7 @@
  H3E H3E
  aborted.
  ack#:
+ ad(m
  but should be in STATE_START. This state is not valid.
  bytes received. Data will not be sent to transport layer above.
  close:
@@ -66,6 +67,7 @@
  times.
  version-number:
 !hn7!
+$*z ;Z
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -76,6 +78,7 @@
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
+(+WI`
 (9Q|uWH
 (A^A]A\^
 (A^A]^[
@@ -128,7 +131,6 @@
 -Infinity
 -external
 -internal
--t"sb
 -u-I;
 . Aborting.
 . Baud rate requested (
@@ -633,12 +635,13 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240325194640Z0/
+240410225751Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2|en)|
 311109235959Z0b1
 3333333
 341013235959Z0H1
@@ -646,7 +649,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-3nhUr
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -849,7 +851,6 @@ A;A A
 A;q }?I
 ACL_DATA_PACKET
 ADVAPI32.dll
-APcO#
 ATAVAWH
 A\_[]
 A]A\_[]
@@ -1251,6 +1252,7 @@ GBf9F
 GD9E0t
 GDf9F
 GFf9F
+GH+NkU9
 GH9E0t
 GXA_A^A]A\_^]
 G`f9F
@@ -1334,7 +1336,9 @@ Invalid stopbits setting
 IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
+IsR`2
 J>@G_
+K$45l
 KERNEL32.dll
 K}*n:	
 L$ H+
@@ -1967,7 +1971,6 @@ memcmp
 memcpy
 memmove
 memset
-mqOfk.
 mutex
 need dictionary
 nrfserlib.dll
@@ -1985,7 +1988,6 @@ print
 punct
 realloc
 s#fff
-sWvu$
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)
@@ -2164,6 +2166,7 @@ unknown error
 unknown zip result code
 upH;~ uj
 upper
+u|g@~J
 v=Y]Bv
 vector<T> too long
 vector<bool> too long

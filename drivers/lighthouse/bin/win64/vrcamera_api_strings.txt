@@ -80,6 +80,7 @@ $< t6<$t,<+t"<vt
 )t$ I
 )t$0H
 )t$`H
+*D!}+
 +J$D8M@
 +Xt@(
 +o'q)}
@@ -378,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-240325194632Z0/
+240410225743Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -448,6 +449,7 @@ $< t6<$t,<+t"<vt
 <:u3H
 <:wuH
 <HthH
+<g]*T
 <xu<D
 <}wYI
 =rIQU
@@ -715,6 +717,7 @@ Camera Exception while setting depth configuration:
 Camera Exception while setting depth format: 
 Camera reconnect failed
 Capability Count: 
+Ch:l/
 ChangeTimerQueueTimer
 CloseHandle
 CloseThreadpoolTimer
@@ -1117,11 +1120,13 @@ PA__^[]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QpJb.bw
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
+RSDSr
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1189,7 +1194,6 @@ TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 UATAUAVAWH
 UAVAWH
-UM,^u
 USVWATAUAVAWH
 USVWAVAWH
 UVWATAUAVAWH
@@ -1255,7 +1259,6 @@ Washington1
 White Balance:			
 WideCharToMultiByte
 WinRTInitialization
-Wr:rc7
 Writing failed at 0x%X/0x%X Bytes
 X E9j
 Y$D;R
@@ -1283,7 +1286,6 @@ Z(D9Z
 \$Pu-H
 \$hE3
 \$pE3
-\u:Y QG{
 ]J<0"0i3
 ]`u7H
 _(H9n
@@ -1434,12 +1436,14 @@ generic
 graph
 h< t <$
 hA_A^A]A\_^][
+hM\OW
 host unreachable
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i%U&4
 identifier removed
 illegal byte sequence
 inappropriate io control operation
@@ -1458,9 +1462,11 @@ is a directory
 islower
 isspace
 isupper
+j*]m@
 jj@0HK4
 jyvids
 k0i0$
+khRCpk
 l$ E3
 l$ H;
 l$ H=
@@ -1719,7 +1725,6 @@ yH;YXtl
 |$rfD
 |Lu?c
 }LuHO
-}t!1*
 ~`D8I!t-
 ~qj#k"
 ~t&LN

@@ -911,7 +911,7 @@ $w!Hc
 -D9c0t%H
 -IPCWrapper
 -Infinity
--_)6Rm
+-p!"V
 -t!?Ks
 -t1?Ks
 -tA?Ks
@@ -1238,7 +1238,6 @@ $w!Hc
 .xdata
 .xdata$x
 /1v]H
-/5LF	
 /7v&Hc
 /8v8f
 /9{0t'H
@@ -1398,12 +1397,11 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240325194803Z0/
+240410225914Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2HcB,
-2JxrM
 2YUYw,tE
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
@@ -1577,6 +1575,7 @@ $w!Hc
 ;<$uCB
 ;Ch}(
 ;D$lu H
+;IyP>tzjS|
 ;K s;H
 ;K sFH
 ;K sIH
@@ -2236,7 +2235,6 @@ Bellevue1
 Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f
 Beyond
 Bf9LB
-Bid&VH
 Bigscreen
 Bigscreen Beyond
 Boolean default must be true or false.
@@ -3071,7 +3069,6 @@ E@H+h0H
 E@L9M
 ECameraHAL_OpenError_ToString
 ED$(H
-EGj\|
 EHAiWh
 EHI;FHu
 ERROR
@@ -3232,6 +3229,7 @@ Failed creating auto reset event %s (GLE: %u)
 Failed creating file mapping %s: %u
 Failed creating mutex %s (GLE: %u)
 Failed mapping view for %s; Error code: 0x%08x
+Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d
 Failed to connect to pipe %s because %s
 Failed to connect to pipe %s because %s... retrying
 Failed to create IMU IOBuffer for %d (error=%d, handle=%d)
@@ -3334,7 +3332,6 @@ Found two slave bases (one oblivious cable sync slave and one confused optical s
 Framer sensorType: %d
 Framer total=%d invalid_long=%d runt=%d sync_miss=%d unidentified_frame_splits=%d
 FreeLibrary
-Frr7l
 Fuel Gauge Reset
 Full base station info: >>>%s<<<
 Future Model
@@ -3346,6 +3343,8 @@ G,HcO(H
 G,iV(
 G8@8n4t{H
 G8D8t$8t/A
+GCE7Ul_
+GD,2x	
 GHiVX
 GLOG_alsologtoemail
 GLOG_alsologtostderr
@@ -3493,7 +3492,7 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
-H9-QE!
+H9-AE!
 H91u 
 H92u&
 H92u,
@@ -3573,7 +3572,10 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=#Z
+H;=3X
+H;=CW
+H;=KP
+H;=pQ
 H;Axt
 H;B0t
 H;C sAH
@@ -3718,6 +3720,7 @@ HkEpd
 HkExd
 HmdDeviceConnect( %u, %u, %llu, %llu )
 HmdDriverFactory
+Hsy}I
 Hu"Hc
 I#HHI
 I#Q0L
@@ -5507,7 +5510,6 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y5#F!
 Y5hN$
 Y9"SD
 Y?33s?
@@ -5516,8 +5518,10 @@ YAPH+
 Yl$ M
 Yl$4E
 Yl$hfD
+Yq(wU
 Z* ,	
 Z9k0tUD
+Z;3NV
 ZL$Xf
 [ UVWAVAWI
 [ UWATAVAWI
@@ -5642,7 +5646,6 @@ ZL$Xf
 \%03o
 \1??I
 \D$ A
-\O`5&
 \T$@IcD$ H
 \U%08x
 \\.\pipe\
@@ -6967,6 +6970,7 @@ sampler
 samplers
 samples
 sbetu=
+sc_schinese
 scalar
 scale
 scene
@@ -7347,7 +7351,7 @@ ubHcC0I
 uint32
 uint64
 uk_ua
-ukranian
+ukrainian
 umM;~
 undist_height
 undist_width
@@ -7404,7 +7408,7 @@ vi_vn
 via transform to global
 vibration
 video_mode
-vietnamiese
+vietnamese
 viveVR
 vive_controller
 vive_pro
@@ -8097,6 +8101,7 @@ xA_A]_]
 xA_A^_^][
 x_^][
 y@tTyY1
+yO-uC
 yxxxxxxx
 yxxxxxxxE
 yxxxxxxxH

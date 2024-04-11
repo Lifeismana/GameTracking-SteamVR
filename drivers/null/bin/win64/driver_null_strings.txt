@@ -3,8 +3,11 @@
  A__^
  H3E H3E
 !hn7!
+$R+yW
+&Wvd^
 ',=?k
 (f*^[0
+)9Y`	
 +Xt@(
 +o'q)}
 ,W5y+
@@ -83,7 +86,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240325194901Z0/
+240410230010Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -115,9 +118,9 @@
 @.reloc
 @.rsrc
 @A^_^
+An88'~
 AuthD
 Bellevue1
-B|wO:
 CT$0H
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -157,6 +160,7 @@ J>@G_
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
+L@.77
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 M H1E
 MB(iVR
@@ -187,6 +191,7 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
+Z^>5X
 [K]taM?
 \$ UH
 ]J<0"0i3
@@ -216,6 +221,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`Kx?sN
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -224,6 +230,7 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
+d	YNy
 displayFrequency
 driver_null
 driver_null.dll
@@ -239,7 +246,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-j)&7w
 jj@0HK4
 k0i0$
 l$8E3
@@ -253,6 +259,7 @@ modelNumber
 ntelD
 renderHeight
 renderWidth
+ruNOR
 secondsFromVsyncToPhotons
 serialNumber
 steamvr
@@ -260,7 +267,6 @@ string too long
 t$ AVH
 t$ UWAVH
 t$@H=
-t`$~q
 v=Y]Bv
 vector<T> too long
 windowHeight
@@ -269,11 +275,10 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
-z??&O
+{Lz(A
 {un'%
 |$ AVH
 |Lu?c
 }LuHO
-}QM5I
 ~qj#k"
 ~t&LN

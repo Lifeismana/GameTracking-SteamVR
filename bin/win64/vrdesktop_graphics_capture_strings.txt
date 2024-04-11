@@ -17,11 +17,10 @@
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
-%2"O5
 %s%s%s%s%s
-&^/e8
 ' is not a number.
 ',=?k
+'tNaE
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -40,7 +39,6 @@
 +Xt@(
 +o'q)}
 , last executing in 
-,(`4X$
 ,W5y+
 -1e+9999
 -Infinity
@@ -123,6 +121,7 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.]-i5
 .data
 .data$r
 .edata
@@ -150,7 +149,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/Frv}
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -185,7 +183,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240325195440Z0/
+240410230529Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -668,9 +666,9 @@ Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 Qkkbal
+QuQUAZ0
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS;
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -810,6 +808,7 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
+\S,<xO
 \u=H;
 ]J<0"0i3
 ]g@8yhu
@@ -851,6 +850,7 @@ _dtest
 _errno
 _execute_onexit_table
 _gUT^
+_hz 2
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -923,7 +923,6 @@ exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 fD9&u
 fF94@u
-fPcQJ`
 false
 fffffff
 fi_fi
@@ -931,7 +930,6 @@ finnish
 fr_fr
 frame_time
 french
-g3?es
 german
 gfffffffH
 gfffffffI
@@ -1019,6 +1017,7 @@ romanian
 ru_ru
 running
 russian
+sc_schinese
 schinese
 shcore.dll
 shutdown
@@ -1055,15 +1054,16 @@ tolower
 tr_tr
 turkish
 uk_ua
-ukranian
+ukrainian
 update_debug_info
 update_window_list
 user32.dll
 v=Y]Bv
+vCXn4{
 vE;E`M
 vector<T> too long
 vi_vn
-vietnamiese
+vietnamese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
 vr::VROverlay()->CreateDashboardOverlay( pOverlayKey, pOverlayName, &m_ulOverlayHandle, &m_ulOverlayThumbnailHandle )
 vr::VROverlay()->DestroyOverlay( m_ulOverlayHandle )
@@ -1088,7 +1088,6 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-xnNOeGH
 zh_cn
 zh_tw
 {un'%
@@ -1111,3 +1110,4 @@ zh_tw
 }LuHO
 ~qj#k"
 ~t&LN
+~}k`p

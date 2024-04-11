@@ -648,6 +648,7 @@ $w!Hc
 -Infinity
 -S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 -disablewatchdogs
+-iIdR
 -lang="
 -nokillprocess
 -personality_distort
@@ -2097,7 +2098,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240325195341Z0/
+240410230431Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -3306,6 +3307,7 @@ C\$pH
 C\$pL
 C\$xH
 C\$xL
+C_4;`
 Call from application to set %s.%s. Scene applications are not allowed to set most settings
 Camera
 Can't 
@@ -3599,6 +3601,7 @@ D8/u0
 D840u
 D84;u
 D8<>u
+D8=Yx
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -3851,6 +3854,7 @@ Failed get Texture_t from 0x%llx
 Failed get glTextureId from 0x%llx
 Failed getting mailbox response %s: %d
 Failed mapping view for %s; Error code: 0x%08x
+Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d
 Failed to allocate Vulkan ring buffer
 Failed to allocate new VRCompositor image: format=%u dimensions=%ux%u
 Failed to allocate new VRCompositor semaphore
@@ -5211,7 +5215,6 @@ Missing expected "statusicons" from system resource manifest %s.
 Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 N I9N(
-N$ZK=
 NL$`I
 NORMAL
 NOT_READY
@@ -5551,7 +5554,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSxcRgF
+RSDS0
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7405,6 +7408,7 @@ XR_UNKNOWN_FAILURE_%d
 XR_UNKNOWN_STRUCTURE_TYPE_%d
 XR_UNKNOWN_SUCCESS_%d
 XR_VALVE_analog_threshold
+XWeqR@
 XXXX PNG chunk not known
 X_^][
 XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]
@@ -7796,6 +7800,7 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \10I;
+\L(x	
 \\.\pipe\
 \mfpmp.exe
 \u=H;
@@ -7822,7 +7827,6 @@ ZvFailed to create fence %ls.
 ^8I9^@
 ^9k0tWD
 ^L$\A
-^fwLl
 _8H9_@
 _8H;_@t
 _8I9_@
@@ -8029,7 +8033,6 @@ atanf
 attributes
 audio
 autoLaunchSteamVROnButtonPress
-azJBb
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
@@ -8120,6 +8123,7 @@ button_toggle
 byteLength
 byteOffset
 byteStride
+c).y,
 c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\actionbindingconfig.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
@@ -9030,6 +9034,7 @@ off_haptic_frequency
 offset
 old_pid
 only 8-bit
+op<c<
 openvr
 openvr.component.vrcompositor
 openvr.component.vrserver
@@ -9226,6 +9231,7 @@ sMessageText
 safe_mode_driver_whitelist.json
 sampler
 samplers
+sc_schinese
 scalar_constant
 scalar_scaleandoffset
 scalar_translation
@@ -10027,7 +10033,7 @@ ugL;D$H
 ui8D$0tc
 ukH9X s
 uk_ua
-ukranian
+ukrainian
 unCallingProcessID
 unMyPID == data
 unProcessID
@@ -10088,7 +10094,7 @@ vfA'I
 vi_vn
 vibration
 vid_%04x
-vietnamiese
+vietnamese
 visibility
 visible_time_in_seconds
 vive_controller

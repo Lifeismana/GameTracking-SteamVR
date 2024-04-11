@@ -44,13 +44,10 @@
  with error 
 !!! WARNING !!! Environment variable 
 !hn7!
-%bNa{t
 %u.%u
 %u.%u.%u
-&y<Qh
 ' is not a number.
 ' will NOT be used.
-'&Lq^
 ',=?k
 (A^A]^[
 (A_A^^[
@@ -174,7 +171,7 @@
 220801000000Z
 230714000000Z
 2333333
-240325194938Z0/
+240410230045Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -185,7 +182,6 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3Zj<b
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -193,8 +189,8 @@
 6*f(_
 6I]Dc
 6OB,n_
+6]?Sa
 70503
-7U2#e
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
@@ -381,6 +377,7 @@ D$xH+
 D$xI+
 D8$>u
 D8|$AD
+D=3/LT
 DeleteCriticalSection
 Destroying LoaderInstance = 
 DigiCert Assured ID Root CA0
@@ -533,7 +530,8 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSj
+REd?{9
+RSDSb]
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -716,6 +714,7 @@ _unlock_file
 `A^A]^[]
 `A_A^A\_^
 `A_A^A]A\_^]
+`FT4z^F+
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
 allowComments
@@ -739,6 +738,7 @@ bad allocation
 bad array new length
 bad cast
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
+ciq]x;)m
 collectComments
 d$ UAVAWH
 d$PE3
@@ -801,6 +801,7 @@ invalid properties
 invalid string position
 isValidJson indicates 
 jj@0HK4
+k(nCU
 k0i0$
 keylength >= 2^30
 l$ H;
@@ -816,7 +817,6 @@ labelInfo must be non-NULL
 layer 
 library_path
 list<T> too long
-m);	w
 m0k0$
 malloc
 map/set<T> too long
@@ -870,6 +870,7 @@ t$hHi
 t$hL;
 t$xH;
 t9H9h
+tKC0*d
 tmfff
 u	;{(@
 u!L9p 
@@ -885,7 +886,6 @@ wide_to_utf8 get size error:
 www.digicert.com1!0
 www.digicert.com1$0"
 x AVH
-xlxto
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
@@ -954,7 +954,6 @@ xrSuggestInteractionProfileBindings
 xrSyncActions
 xrWaitFrame
 xrWaitSwapchainImage
-{f`B<q>
 {un'%
 |$ ATAVAWH
 |$ AVH

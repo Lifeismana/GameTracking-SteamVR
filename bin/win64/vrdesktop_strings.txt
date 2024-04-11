@@ -16,7 +16,6 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-$3{W~
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -35,15 +34,14 @@ $3{W~
 )t$ H
 )t$0H
 )t$@H
+*TPd[F
 *uXI;
 +Xt@(
-+l<,/
 +o'q)}
 , last executing in 
 ,W5y+
 -1e+9999
 -Infinity
--O{t.
 -u-I;
 .00cfg
 .?AUIInteractableOverlay@@
@@ -107,6 +105,8 @@ $3{W~
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.KGdn
+.W`=u;
 .data
 .data$r
 .edata
@@ -159,6 +159,7 @@ $3{W~
 0A_A^_^[
 0A_A^_^]
 0A__[
+0P8it%o0x
 0w0c1
 0}0i1
 130801120000Z
@@ -168,7 +169,7 @@ $3{W~
 220323000000Z
 220801000000Z
 230714000000Z
-240325195429Z0/
+240410230518Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -183,6 +184,7 @@ $3{W~
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+5}/.Kj
 6*f(_
 6I]Dc
 6OB,n_
@@ -191,6 +193,7 @@ $3{W~
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+;1gl8C,
 < t+<
 </u#H
 <0:08
@@ -259,6 +262,7 @@ $3{W~
 @A_A^A\
 @A_A^A\_^
 @A_A^A]A\_^[
+@Dc(XU.
 @HcQdH
 @LcqHD
 @SAUAVAWH
@@ -600,9 +604,11 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDSKj
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
+RkOKs
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -844,7 +850,6 @@ l$ H=
 l$8E3
 l$PM9n
 l2|X/gGe
-lUem~
 latam
 list<T> too long
 m0k0$
@@ -862,12 +867,12 @@ nb_no
 nl_nl
 norwegian
 ntelD
-oCuD^@
 ole32.dll
 openvr_api.dll
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
+pGP>f
 pl_pl
 polish
 portuguese
@@ -881,6 +886,7 @@ ro_ro
 romanian
 ru_ru
 russian
+sc_schinese
 schinese
 shcore.dll
 shutdown
@@ -913,13 +919,13 @@ tolower
 tr_tr
 turkish
 uk_ua
-ukranian
+ukrainian
 user32.dll
 v=Y]Bv
 vE;E`M
 vector<T> too long
 vi_vn
-vietnamiese
+vietnamese
 vr::VROverlay()->ClearOverlayCursorPositionOverride( m_ulOverlayHandle )
 vr::VROverlay()->CreateDashboardOverlay( pOverlayKey, pOverlayName, &m_ulOverlayHandle, &m_ulOverlayThumbnailHandle )
 vr::VROverlay()->DestroyOverlay( m_ulOverlayHandle )
@@ -941,7 +947,7 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-y.G>w
+yfQ[y
 zh_cn
 zh_tw
 {un'%
@@ -962,6 +968,5 @@ zh_tw
 |$pH+
 |Lu?c
 }LuHO
-~'f	%[
 ~qj#k"
 ~t&LN

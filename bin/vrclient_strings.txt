@@ -2479,7 +2479,6 @@ $
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
-19:44:38
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -2565,6 +2564,7 @@ $
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:55:48
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -3152,6 +3152,7 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
 Apr
+Apr 10 2024
 April
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
 Array length of `emissiveFactor` parameter in material must be 3, but got
@@ -22158,7 +22159,6 @@ MailboxInterfaceRegistration<CVRMailbox_001>::GetInterface()
 MailboxInterfaceRegistration<CVRMailbox_001>::~MailboxInterfaceRegistration()
 MakeFileWriteable(char const*)
 Mar
-Mar 25 2024
 March
 MaterialUtf8FileReader::operator()(std::string const&, std::vector<tinyobj::material_t, std::allocator<tinyobj::material_t> >&, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >&)
 MaterialUtf8FileReader::~MaterialUtf8FileReader()
@@ -28846,6 +28846,7 @@ safe_mode_driver_whitelist.json
 sampler
 samplers
 sc
+sc_schinese
 scalar_constant
 scalar_scaleandoffset
 scalar_translation
@@ -35840,7 +35841,7 @@ typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
 u
 uk_ua
-ukranian
+ukrainian
 ul
 ull
 umask
@@ -35931,7 +35932,7 @@ vertical-line
 vertical-tab
 vi_vn
 vibration
-vietnamiese
+vietnamese
 virtual thunk to
 virtual thunk to CSharedBufferLinux::GetDeviceSize() const
 virtual thunk to CSharedBufferLinux::GetSize() const

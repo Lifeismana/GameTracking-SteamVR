@@ -22,8 +22,8 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
+*}-(g
 +Xt@(
-+]JU$T
 +o'q)}
 , last executing in 
 ,W5y+
@@ -126,10 +126,10 @@ $9^ t
 /user/wrist/right
 /width
 0 0$0(0,0004080<0@0D0H0
+0 0$0,0D0T0X0h0l0p0x0
 0 width
 0!0%0+050?0F0P0Z0a0k0
 0#0*050B0L0R0
-0$04080H0L0P0X0p0
 0'1.1
 0(020B0M0n0~0
 0-pixel image
@@ -139,11 +139,11 @@ $9^ t
 0`0u0
 0w0c1
 0}0i1
-1 1014181@1X1\1t1
 1$1-1p1~1
 1&1+151F1r1
 1&1b1v1}1
 1,101=1A1z6~6
+1,1<1@1P1T1X1`1x1|1
 1.1>1H1R1b1m1
 1/2/4/8/16-bit only
 121V1$363
@@ -155,20 +155,20 @@ $9^ t
 1d6h6
 1h3l3p3t3x3|3
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2024282@2X2h2l2|2
 2"2-2N2^2h2r2
 2"3&3
 2#2(222C2H2R2c2h2r2
 2'3b3f3J:N:[:_:
 2(2,2024282<2@2D2H2L2P2T2X2
 2,2:2H2V2d2r2
+2,2<2@2P2T2X2`2x2
 2-3V3h3o3
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240325194631Z0/
+240410225721Z0/
 241009235959Z0a1
 282<2@2D224b4
 292m2
@@ -181,11 +181,11 @@ $9^ t
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 3 3$3(3,3034383<3@3D3H3T3
+3 30343D3H3L3P3X3p3t3
 3 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5
 3!3>3
 3#3(3-32373<3A3F3K3P3c3h3r3
 3#5\5
-3$3(3,30383P3T3l3|3
 3&303:3D3N3X3b3l3v3
 3(323B3M3n3~3
 3)424C4O4[4a4g4
@@ -201,18 +201,19 @@ $9^ t
 3X4_4
 3m5u5
 3mq+<
+3z*6"
 3z4@5
 4!5(5E5o5
 4#4(424C4H4R4c4h4r4
+4$4<4L4P4X4p4
 4+5a5t5}5
-4,40484P4`4d4h4l4p4t4|4
 4,4E4L4e4l4
 4.4>4H4R4b4m4
 495W5_5
 4?6H6O6
+4e2"/:.4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4}3+h
-5 585H5L5\5`5h5
+5 5$54585@5X5h5l5|5
 5!5&5+505A5K5Q5U5[5_5e5p5x5
 5"5-5N5^5h5r5
 5%656b7
@@ -230,6 +231,7 @@ $9^ t
 6 6$6(6,6064686X8\8`8d8h8l8p8
 6!6?6N6
 6#6(626C6H6R6c6h6r6
+6$6<6
 6$7E8I89:
 6'6.6G6N6g6n6
 6(626A6Q6a6m6s6
@@ -265,10 +267,10 @@ $9^ t
 8&8E8J8[8a8f8q8{8
 8,838L8S8n8
 878A8R8]8~8
-8@:D:H:
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8SVWh\
+8X:\:`:
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -290,13 +292,13 @@ $9^ t
 :(:6:::
 :):n:t:
 :3:X:}:
+:4:X:d:l:
 :6:C:d:i:
-:8:D:L:l:
 :;:w:
 :L<<=
 :T;+<o<
 :X;{;
-; ;$;(;,;0;4;8;<;@;D;H;L;
+; ;$;(;,;4;8;<;@;D;H;L;P;T;X;\;`;d;
 ; <$<(<,<0<4<8<<<@<D<
 ;!;%;8;b;
 ;#;-;C;M;a;o;t;
@@ -309,15 +311,15 @@ $9^ t
 ;.;8;B;R;];~;
 ;3<G<l<
 ;9?=?
+;<;`;l;t;
 ;<=Z=
-;@;L;T;l;p;
 ;n;t;
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 < <%<,<5<<<B<G<R<Y<^<c<q<v<
-<$<,<L<p<|<
 <(=,=
-<,=0=P=p=
 <0:08
+<4>@>
+<8<D<L<l<
 <><N<X<b<r<}<
 <_=r=
 <a=n=
@@ -325,11 +327,12 @@ $9^ t
 ="=2===^=n=x=
 =,=L=l=
 =1=A=Q=]=i=s=
+=L=P=p=
 =rIQU
-> >x>|>
 >$>6><>
 >(?r?y?
 >.>8>B>R>]>~>
+>/|y}
 >0<0:
 >4>>>H>
 >=>E>f>
@@ -338,8 +341,8 @@ $9^ t
 >Mp$d
 >T>6?
 >[>c>k>/?7?j?y?
-? ?8?H?L?T?l?|?
 ?!?'?+?1?5?@?O?b?m?
+?,?0?4?8?@?X?h?l?t?
 ?8?X?
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QAE@I@Z
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
@@ -388,7 +391,6 @@ Closed
 CreateEventA
 CreateEventW
 CreateThread
-DPH`K
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -581,7 +583,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
-ViK!,o#31
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -591,6 +592,7 @@ WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
+ZD%d1e
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
@@ -794,6 +796,7 @@ ro_ro
 romanian
 ru_ru
 russian
+sc_schinese
 schinese
 spanish
 startup
@@ -806,6 +809,7 @@ strtol
 sv_se
 swedish
 t"Php
+t=h()
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -824,7 +828,7 @@ uBf9C
 uCVj@
 uEVj@
 uk_ua
-ukranian
+ukrainian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
 unknown BMP
 unknown code
@@ -836,7 +840,7 @@ unsupported format
 v#QPh8
 v=Y]Bv
 vi_vn
-vietnamiese
+vietnamese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
 wrong channel count
@@ -844,7 +848,6 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-yB7bN
 zh_cn
 zh_tw
 zlib corrupt

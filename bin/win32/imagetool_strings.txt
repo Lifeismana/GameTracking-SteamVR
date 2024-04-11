@@ -2279,7 +2279,6 @@ $~O="""
 )8)k)
 )9IYiy
 ):9ld
-):ofv
 )D$,)D$8
 )D$0f
 )D$<)D$H
@@ -4335,7 +4334,7 @@ $~O="""
 23383I3l3
 2384x3370
 24 24
-240325194744Z0/
+240410225832Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -4907,7 +4906,6 @@ $~O="""
 3l4s4q5x5
 3mq+<
 3n3}3T4
-3nxog
 3p@lgi
 3s4z4
 3s5~5
@@ -7610,7 +7608,6 @@ $~O="""
 ;E;P;u;
 ;E;j;
 ;E=M=i=q=
-;EUxL
 ;Exu,
 ;F$|9
 ;F$|I
@@ -14189,7 +14186,6 @@ L%.20g
 L&&jl66Z~??A
 L*A*B
 L*LrL
-L+}:s
 L/Q0am
 L0Q0o0t0
 L3L$0
@@ -14754,7 +14750,6 @@ Multiply
 Multisegment or Inverted parametric curves cannot be written
 MustSpecifyAnImageName
 MustSpecifyImageSize
-MxgF`.
 Myanmar
 M|$8B
 N$;N,
@@ -16155,7 +16150,6 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSw(&
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -18997,7 +18991,6 @@ Zoom Select Status
 ^-pR1
 ^1c1r1w1
 ^?y?^?
-^C#Mu
 ^DUW;
 ^HSVU
 ^L$`f
@@ -19016,6 +19009,7 @@ Zoom Select Status
 ^l;D$
 ^oEZ_
 ^t!hx
+^}5'G
 _-|> <.
 _-|> <.:^
 _0d0h0l0p0t0x0|0
@@ -20051,6 +20045,7 @@ d$8r1
 d$Hr7
 d$`u|W
 d&7F$L
+d'y0gu
 d(H\Ns
 d0h0l0p0t0x0|0
 d0x0v8
@@ -22585,6 +22580,7 @@ numbersign
 numerator (point), denominator (point)
 o ^_]
 o feliz que dorme regalado.
+o,@cp
 o-BK_[
 o8(TH
 o?T7o?
@@ -23311,7 +23307,6 @@ s2 != NULL
 s90* 
 s<Uh@
 s?? yish???go b
-s?N'r
 sFFou
 sJWSU
 sPLT chunk has bad length

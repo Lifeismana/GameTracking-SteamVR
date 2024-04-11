@@ -48,6 +48,7 @@
  A__^
  H3E H3E
  formatting error code 
+ |>%7
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
@@ -57,9 +58,7 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-"GN3x
 $9E0u
-$cZNq
 %s begin_ctx=%llu
 %s end_ctx=%llu
 %s%s%s%s%s
@@ -312,6 +311,7 @@ $cZNq
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
+'f W.
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -355,9 +355,7 @@ $cZNq
 ********** Blue ( nLoopCount++ > 1000 )!
 ********** Green ( nLoopCount++ > 1000 )!
 ********** Red ( nLoopCount++ > 1000 )!
-*E<eP
 +Xt@(
-+ns-Q^
 +o'q)}
 , last executing in 
 ,W5y+
@@ -534,7 +532,7 @@ $cZNq
 220323000000Z
 220801000000Z
 230714000000Z
-240325194700Z0/
+240410225811Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -565,6 +563,7 @@ $cZNq
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+9;=5,
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -1332,7 +1331,6 @@ NvEncode
 NvEncode %s-%s
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
-O%`:V
 O0H9Q
 OLEAUT32.dll
 OpH9Q
@@ -1760,6 +1758,7 @@ atanf
 bad allocation
 bad array new length
 bad conversion
+bxRcC
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
@@ -1878,7 +1877,6 @@ isalpha
 isdigit
 it != m_importedClients.end()
 jj@0HK4
-jm1Z[
 k0i0$
 l$ E3
 l$ H;
@@ -1903,7 +1901,6 @@ l$`E3
 l$xE3
 l$xHc
 l2|X/gGe
-l8~ON 
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
 m0k0$
@@ -2750,6 +2747,8 @@ wcsstr
 www.digicert.com1!0
 www.digicert.com1$0"
 xA_A^A]A\_^[]
+xzg%`
+y<Lp(
 yxxxxxxxH
 yxxxxxxxI+
 {pH;{xw?

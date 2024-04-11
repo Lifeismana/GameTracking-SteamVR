@@ -1,12 +1,11 @@
 	!s99
  %41g
-!=QVw
 !hn7!
 ',=?k
 (f*^[0
-) nf]k
 +Xt@(
 +o'q)}
++t<@/
 ,W5y+
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
@@ -106,7 +105,7 @@
 220801000000Z
 223C3
 230714000000Z
-240325194718Z0/
+240410225805Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -130,7 +129,6 @@
 4[4~4
 4b4s4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4iuh~
 5 6,646T6x6
 5"555K5T5_5f5
 5$5,5L5p5|5
@@ -167,7 +165,6 @@
 :&:Y<*=<=E=P=v=
 ; ;x;|;
 ;#;,;1;6;=;B;N;p;
-;rF&,
 <	=I=
 < <(<@<P<T<\<t<
 <!<&<-<2<><`<w<
@@ -203,7 +200,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Fo"aM
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -249,9 +245,7 @@ Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QkSrEf
 QueryPerformanceCounter
-RSDS	U
 RaiseException
 S0Q0O
 SA|X=G
@@ -297,6 +291,7 @@ WakeAllConditionVariable
 Washington1
 Y9"SD
 Y__^[
+Zi7	B,
 [K]taM?
 ]J<0"0i3
 _Cnd_destroy
@@ -347,6 +342,7 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
+h)CYU!
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -361,6 +357,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
+rex<2
 string too long
 terminate
 uCVj@
@@ -368,6 +365,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+y*tOC
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

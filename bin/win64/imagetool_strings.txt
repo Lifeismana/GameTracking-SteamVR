@@ -3583,6 +3583,7 @@ $wtpt
 0123456789abcdef|
 050l0
 0;0;0q
+0=q	q0
 0?AssignImageColors
 0A2B ABm
 0A\^]
@@ -3637,6 +3638,7 @@ $wtpt
 0HcD$hM
 0HcD$pM
 0Hc|$hI
+0IS;Yx
 0LcD$HH
 0Lc|$xI
 0qB\'
@@ -3720,7 +3722,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240325194930Z0/
+240410230037Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -4064,7 +4066,6 @@ $wtpt
 9X8v7ff
 9Z4~+H
 9Z}j9
-9[LV^
 9\$0vWA
 9\$@t
 9\$@u
@@ -4126,6 +4127,7 @@ $wtpt
 :;, 	
 :?RH:?
 :@&=+$,/?;
+:C+^k
 :D`4D
 :LOG*}
 :NF& 
@@ -4137,6 +4139,7 @@ $wtpt
 :t3E;
 :uj@8+ueH
 :x(a4E
+:xPvi[
 :{%s}
 :~dm1	
 ;"u}H;
@@ -4422,7 +4425,6 @@ $wtpt
 =KYMCt
 =KYMCt0=YARGt
 =YARG
-=YAin
 =\AA]@1
 =arapt4
 =csed
@@ -8461,6 +8463,7 @@ H9}hu
 H9~ ~'H
 H9~ ~<fff
 H9~0u
+H: W5
 H;A t'H
 H;A(t'H
 H;A(|
@@ -12290,6 +12293,7 @@ S urrainn dhomh gloinne ithe; cha ghoirtich i mi.
 S']!e
 S(H;W
 S(I+V
+S-&/+
 S0Q0O
 S1?=ST6I
 S8;z<u
@@ -14252,6 +14256,7 @@ ZEK|D
 ZLIBEncodeImage
 ZSoft IBM PC Paintbrush
 ZSoft IBM PC multi-page Paintbrush
+ZU0vv
 ZX-Spectrum SCREEN$
 ZYXbH
 ZYXgH
@@ -14523,6 +14528,7 @@ Zoom Select Status
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
 ^oEZ_
 ^w?Hc
+_$1ce
 _-|> <.
 _-|> <.:^
 _1i2:M=I

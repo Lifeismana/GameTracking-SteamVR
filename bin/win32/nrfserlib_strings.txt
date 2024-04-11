@@ -57,7 +57,6 @@
 !hn7!
 "0)0C0
 "j h4_
-#.!#A
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
 $PVh\
@@ -89,8 +88,8 @@ $Vh&*
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
+,Xtq/)8
 -1e+9999
--4);>Y
 -Infinity
 -external
 -internal
@@ -564,7 +563,6 @@ $Vh&*
 .tls$
 .tls$ZZZ
 .xdata$x
-/Ap.wg
 /t;_^2
 0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
 0 0$04080<0D0\0l0p0
@@ -579,7 +577,6 @@ $Vh&*
 0$00090?0I0S0Z0d0n0y0~0
 0$04080H0L0P0X0p0
 0$0H0T0\0|0
-0$yN?
 0'0G0S0
 0'161f1
 0(0,0<0@0D0L0d0t0x0
@@ -712,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240325194635Z0/
+240410225724Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1718,7 +1715,6 @@ Flow control:
 FormatMessageA
 Found target %s (%4.4X:%4.4X Serial: %s)
 Found: %s, size: %d
-F{x|<N=
 G0_^]
 G:\vr_main\thirdpartycode\pc-ble-driver\src\common\transport\h5_transport.cpp
 G@j@j
@@ -1773,6 +1769,7 @@ IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JJ%<u
 K$t"j
 K(PPW
 K(PQh
@@ -1790,6 +1787,7 @@ Line %d, Column %d
 LocalFree
 Looking for external adpater.
 Looking for internal adpater.
+M0Zt%
 MB(iVR
 MSVCP140.dll
 MTU exchange request reply failed. (nrf_error: %s)
@@ -1968,6 +1966,7 @@ STATE_UNKNOWN
 SVWh(
 SVWh<
 SVWj@
+SXO^I
 SYNC_DATA_PACKET
 SYNC_RESP
 SYSTEM\CurrentControlSet\Enum\USB
@@ -2202,6 +2201,7 @@ bootloader
 buffer error
 c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.pdb
 calloc
+cgkRC
 close
 cntrl
 dat_file
@@ -2268,6 +2268,7 @@ j#h<M
 j$h i
 j(hHi
 jWhXG
+jakCx
 jj@0HK4
 k0i0$
 l2|X/gGe
@@ -2479,6 +2480,7 @@ wt_^[
 www.digicert.com1!0
 www.digicert.com1$0"
 x5t7j
+x\$iW
 xdigit
 y4_^[
 {L?uI
@@ -2487,7 +2489,6 @@ y4_^[
 |cj#h
 }	jCh
 }LuHO
-}^K_=
 }qj<h
 ~L][u
 ~d;{d|	

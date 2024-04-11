@@ -901,7 +901,6 @@ $@
 18
 18IUsbDeviceCallback
 19
-19:44:44
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -915,6 +914,7 @@ $@
 20IVRAudioNotification
 21
 22
+22:55:55
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23
@@ -1085,6 +1085,7 @@ App info manager init failed (114)
 App not found
 ApplyGrowForUndistort(float, vortex::CHmdDisplay::CEyeProjection*)
 Apr
+Apr 10 2024
 April
 Args
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
@@ -4599,7 +4600,6 @@ MakeFileWriteable(char const*)
 ManualURL
 Map
 Mar
-Mar 25 2024
 March
 Mark 1
 Mark 2
@@ -12065,6 +12065,7 @@ s_thread_pRobustListStruct
 sampler
 samplers
 sc
+sc_schinese
 scalar
 scale
 scandir
@@ -17525,7 +17526,7 @@ uevent
 uint32
 uint64
 uk_ua
-ukranian
+ukrainian
 ul
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
 ull
@@ -17629,7 +17630,7 @@ vi_vn
 via transform to global
 vibration
 video_mode
-vietnamiese
+vietnamese
 virtual thunk to
 virtual thunk to std::basic_fstream<char, std::char_traits<char> >::~basic_fstream()
 virtual thunk to std::basic_fstream<wchar_t, std::char_traits<wchar_t> >::~basic_fstream()

@@ -1,7 +1,6 @@
 																																																																																																																
 	!s99
 	D$HA
-	x!(m
 	|$HA
     A
  %41g
@@ -178,7 +177,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240325194636Z0/
+240410225747Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -189,6 +188,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3H?!KNr
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -216,6 +216,7 @@
 9l$Lt	E
 ;D$ht6
 <0:08
+=$4'i
 =ETLP
 =IBgC
 =SNRtt%
@@ -463,10 +464,10 @@ Not Available
 NotFound
 Out of thread local storage!
 OutputDebugStringA
-P;Nms
 PA^_^
 PA_A^A]A\[
 PAq=?Mp#
+P[rQ/
 PauseCamera
 PauseCamera (delayed...)
 PauseCamera (immediate)
@@ -485,6 +486,7 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S0Q0O
+S?G{1(
 SATAUAVAWH
 SA|X=G
 SPB8t
@@ -840,6 +842,7 @@ ro_ro
 romanian
 ru_ru
 russian
+sc_schinese
 schinese
 spanish
 startup
@@ -889,7 +892,7 @@ uDf9X
 uH@8}
 uJf9X
 uk_ua
-ukranian
+ukrainian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
 unknown BMP
 unknown code
@@ -901,7 +904,7 @@ unsupported format
 v=Y]Bv
 vHcD$LH
 vi_vn
-vietnamiese
+vietnamese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
 wrong channel count
@@ -909,7 +912,6 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
-y$F 7
 zh_cn
 zh_tw
 zlib corrupt

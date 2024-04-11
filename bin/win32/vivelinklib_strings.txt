@@ -15,7 +15,6 @@
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
 !0L0w0
 !hn7!
-#.Q	SB
 $Phdd
 %%.%dg
 %2.2X
@@ -61,6 +60,7 @@ $Phdd
 %s: Timeout.
 %s: Unknown component type %d.
 %s: WriteFile failed! (%s)
+&i`u1
 ' is not a number.
 ',=?k
 ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
@@ -226,7 +226,6 @@ $Phdd
 2$2<2L2P2`2d2h2p2
 2$3(3,3034383<3@3D3H3
 2$3.3H3M3r3w3
-2$<^k
 2%2+21272=2C2I2O2U2[2a2g2m2s2y2
 2(2H2h2
 2*3C3V3b3q3
@@ -238,7 +237,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-240325194639Z0/
+240410225729Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -359,7 +358,6 @@ $Phdd
 737:7S7
 778w8
 7@PVW
-7Cbr&
 7V8n9
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8	9e9
@@ -413,6 +411,7 @@ $Phdd
 :D>}?
 :T;X;\;`;d;h;l;p;t;x;|;
 :j;q;
+:jY~LO
 ;	<"<
 ; <A<
 ;";@;
@@ -448,7 +447,6 @@ $Phdd
 <+=0=y=
 <-u];]
 <.>5>
-<.K9.
 <0:08
 <3<8<o<
 <6=E=
@@ -680,7 +678,6 @@ DisconnectNamedPipe
 DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
-Ds$yKj
 DuplicateHandle
 Empty escape sequence in string
 EnterCriticalSection
@@ -826,7 +823,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSl"
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -875,7 +871,6 @@ TerminateProcess
 Terminating discovered vivelink process.
 TlsAlloc
 TlsFree
-U#zT~
 UnhandledExceptionFilter
 Unknown
 Unknown DFU Extended Error (%d)
@@ -994,7 +989,6 @@ ViveLinkLib_GetBaseStationWirelessInterface
 W9shvN3
 WRITE_WO_RESP -H %4.4X 
 WRITE_W_RESP -H %4.4X 
-W\c"\-gp
 WaitForPipeCreation
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -1033,6 +1027,7 @@ Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
 [K]taM?
+\Q_N>Zl.
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
@@ -1081,6 +1076,7 @@ _wfopen_s
 _wfsopen
 _wstat64i32
 `.rdata
+a2vP$9
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
 alnum
@@ -1111,7 +1107,6 @@ dat_file
 data error
 deque<T> too long
 digit
-ee!!S
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1269,6 +1264,7 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
+z[Mln
 {L?uI
 {un'%
 |	9A 

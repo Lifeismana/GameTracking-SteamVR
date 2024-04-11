@@ -2,17 +2,17 @@
  %41g
  A__^
  H3E H3E
-!CWSt
 !hn7!
+#vr4t
+$Q#Hu
 ',=?k
 (D$ f
-(RB,L
 (f*^[0
 (|$pL
+*#wJWr
 +Xt@(
 +o'q)}
 ,W5y+
-.#=@E
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -100,7 +100,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240325194752Z0/
+240410225903Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -124,6 +124,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 9C }.H
 <0:08
+=a(\G
 =rIQU
 >0<0:
 >Mp$d
@@ -145,6 +146,7 @@ CloseHandle
 CreateEventW
 D$8H9
 D8{0t
+DUt=8
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -154,7 +156,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-F6+%CD
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
@@ -170,6 +171,7 @@ H95tz
 H95u}
 H9w`tFH
 HmdDriverFactory
+I	FpO
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
@@ -245,11 +247,9 @@ SDL_QuitSubSystem
 SVWATAUAVAWH
 SetEnvironmentVariableA
 SetUnhandledExceptionFilter
-Sg.oJ
 Skipping controller %d because it has the Valve VID
 SleepConditionVariableCS
 TUUUUUU
-TYA#K
 TlsAlloc
 TlsFree
 UVWAVAWH
@@ -266,10 +266,9 @@ WakeAllConditionVariable
 Washington1
 Y9"SD
 [K]taM?
+[a5aG
 \$ UH
-\M]%D
 ]J<0"0i3
-^+37r
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -312,6 +311,7 @@ a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
+bH#nUU
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
@@ -321,7 +321,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-j:YYu*;
 jj@0HK4
 k0i0$
 l$8E3
@@ -332,10 +331,9 @@ map/set<T> too long
 memcpy
 memmove
 memset
-n3b*P
 ntelD
 p WAVAWH
-quLp8:
+s91jF
 string too long
 t$ AVH
 t$ AWH
@@ -343,12 +341,10 @@ t$ WH
 t$@H=
 tXfff
 terminate
-uBZ,k
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-yf,fB
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
@@ -361,6 +357,7 @@ yf,fB
 {un'%
 |$ AVH
 |Lu?c
+}#M]A
 }LuHO
 ~qj#k"
 ~t&LN
