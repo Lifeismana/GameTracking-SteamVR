@@ -421,12 +421,11 @@ $
 .L1079
 .L108
 .L1081
-.L1089
 .L109
 .L1091
-.L1092
+.L1093
+.L1094
 .L1095
-.L1096
 .L1097
 .L1098
 .L1099
@@ -448,6 +447,8 @@ $
 .L1104
 .L1105
 .L1106
+.L1107
+.L1108
 .L111
 .L11176
 .L11178
@@ -2333,6 +2334,7 @@ $
 0-pixel image
 0123456789
 0123456789ABCDEF
+05:18:40
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -2564,7 +2566,6 @@ $
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:55:48
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -3152,7 +3153,7 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
 Apr
-Apr 10 2024
+Apr 26 2024
 April
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
 Array length of `emissiveFactor` parameter in material must be 3, but got
@@ -4670,8 +4671,8 @@ CST
 CSWTCH.111
 CSWTCH.214
 CSWTCH.28
-CSWTCH.719
-CSWTCH.767
+CSWTCH.720
+CSWTCH.768
 CS_MAIN
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -35849,7 +35850,6 @@ unCallingProcessID
 unMessageID
 unMyPID == data
 unProcessID
-unSize < 65536
 unSizeInBytes <= pVertexBuffer->unSize
 unable to allocate vkBuffer-associated memory
 unaligned height

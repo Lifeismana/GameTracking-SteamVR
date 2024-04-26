@@ -34,7 +34,6 @@
 )t$ H
 )t$0H
 )t$@H
-*TPd[F
 *uXI;
 +Xt@(
 +o'q)}
@@ -105,8 +104,6 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.KGdn
-.W`=u;
 .data
 .data$r
 .edata
@@ -159,7 +156,6 @@
 0A_A^_^[
 0A_A^_^]
 0A__[
-0P8it%o0x
 0w0c1
 0}0i1
 130801120000Z
@@ -169,7 +165,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240410230518Z0/
+240426052924Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -184,7 +180,6 @@
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5}/.Kj
 6*f(_
 6I]Dc
 6OB,n_
@@ -193,7 +188,8 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;1gl8C,
+8`02Q
+;+f=DF
 < t+<
 </u#H
 <0:08
@@ -262,7 +258,6 @@
 @A_A^A\
 @A_A^A\_^
 @A_A^A]A\_^[
-@Dc(XU.
 @HcQdH
 @LcqHD
 @SAUAVAWH
@@ -604,11 +599,10 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSKj
+RSDSw
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
-RkOKs
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -724,6 +718,7 @@ _Cnd_signal
 _Cnd_timedwait
 _Cnd_wait
 _CxxThrowException
+_DWr	|
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -789,6 +784,8 @@ d$`H=
 d$`L;
 d$`M;
 d3d11.dll
+dG\,D
+dQ:D#pf@
 da_dk
 danish
 de_de
@@ -872,7 +869,6 @@ openvr_api.dll
 pA_A^A\_^][
 pA_A^_
 pA_A^_^]
-pGP>f
 pl_pl
 polish
 portuguese
@@ -918,6 +914,7 @@ th_th
 tolower
 tr_tr
 turkish
+uZ_-'
 uk_ua
 ukrainian
 user32.dll
@@ -947,7 +944,6 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-yfQ[y
 zh_cn
 zh_tw
 {un'%

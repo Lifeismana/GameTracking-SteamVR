@@ -23,6 +23,7 @@
 																																																																																						
 	 bye
 	!s99
+	"7CA
 	#	;	M	q	
 	#jT$
 	%	:	O	d
@@ -1532,6 +1533,7 @@
  inflate 1.2.11 Copyright 1995-2017 Mark Adler 
  invalidly modified type 
  is not supported
+ j\9K
  je? d
  k?? 
  l2du/
@@ -2252,6 +2254,7 @@ $wtpt
 (d$`D
 (d$pD
 (d$pH
+(d~6LT
 (error == NULL) || (*error == NULL)
 (exception processing is suspended)
 (f*^[0
@@ -3010,6 +3013,7 @@ $wtpt
 -*Tl}T
 -1.0*
 -2%tC
+-2`%'
 -9?1\9?r
 -<%uD
 -<qeY@c
@@ -3583,7 +3587,6 @@ $wtpt
 0123456789abcdef|
 050l0
 0;0;0q
-0=q	q0
 0?AssignImageColors
 0A2B ABm
 0A\^]
@@ -3638,7 +3641,6 @@ $wtpt
 0HcD$hM
 0HcD$pM
 0Hc|$hI
-0IS;Yx
 0LcD$HH
 0Lc|$xI
 0qB\'
@@ -3722,7 +3724,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240410230037Z0/
+240426052445Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -4127,7 +4129,6 @@ $wtpt
 :;, 	
 :?RH:?
 :@&=+$,/?;
-:C+^k
 :D`4D
 :LOG*}
 :NF& 
@@ -4139,7 +4140,6 @@ $wtpt
 :t3E;
 :uj@8+ueH
 :x(a4E
-:xPvi[
 :{%s}
 :~dm1	
 ;"u}H;
@@ -7335,6 +7335,7 @@ DuplicateBlob
 DuplicateHandle
 Duration Of Xray On
 During the first end_element call after invoking a subparser you must pop the subparser stack and handle the freeing of the subparser user_data.  This can be done by calling the end function of the subparser.  Very probably, your program just leaked memory.
+Dv|#$0*D
 Dw i'n gallu bwyta gwydr, 'dyw e ddim yn gwneud dolur i mi.
 Dx,2$E
 Dynamic Range
@@ -8463,7 +8464,6 @@ H9}hu
 H9~ ~'H
 H9~ ~<fff
 H9~0u
-H: W5
 H;A t'H
 H;A(t'H
 H;A(|
@@ -10887,6 +10887,7 @@ Overrange Correction Used
 OverviewImage
 Owner Name
 OwrS=
+O}(SH
 P uMH
 P&15PM
 P'PqP
@@ -12293,7 +12294,6 @@ S urrainn dhomh gloinne ithe; cha ghoirtich i mi.
 S']!e
 S(H;W
 S(I+V
-S-&/+
 S0Q0O
 S1?=ST6I
 S8;z<u
@@ -13419,6 +13419,7 @@ Type/Error/
 Type/FatalError/
 Type/Warning/
 TypeOfFilters
+TzQ>a
 T~OXu
 U D+	
 U%	PG;
@@ -13934,6 +13935,7 @@ Wedge Type
 Weight
 Welch
 Welsh
+We~nX
 Wh<z`
 White
 WhiteSmoke
@@ -14256,7 +14258,6 @@ ZEK|D
 ZLIBEncodeImage
 ZSoft IBM PC Paintbrush
 ZSoft IBM PC multi-page Paintbrush
-ZU0vv
 ZX-Spectrum SCREEN$
 ZYXbH
 ZYXgH
@@ -14453,6 +14454,7 @@ Zoom Select Status
 \$xfA9
 \$|H;E
 \,!'}G(
+\7'4 1
 \9Ho_
 \>HS]>I
 \?)$]?XS]?
@@ -14528,7 +14530,6 @@ Zoom Select Status
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
 ^oEZ_
 ^w?Hc
-_$1ce
 _-|> <.
 _-|> <.:^
 _1i2:M=I

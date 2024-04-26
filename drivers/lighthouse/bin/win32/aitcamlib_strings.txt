@@ -22,11 +22,11 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
-*}-(g
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
+-{|lK
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
@@ -154,6 +154,7 @@ $9^ t
 1X1\1
 1d6h6
 1h3l3p3t3x3|3
+1tQIC
 2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
 2"2-2N2^2h2r2
 2"3&3
@@ -168,7 +169,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-240410225721Z0/
+240426052036Z0/
 241009235959Z0a1
 282<2@2D224b4
 292m2
@@ -201,7 +202,6 @@ $9^ t
 3X4_4
 3m5u5
 3mq+<
-3z*6"
 3z4@5
 4!5(5E5o5
 4#4(424C4H4R4c4h4r4
@@ -211,7 +211,6 @@ $9^ t
 4.4>4H4R4b4m4
 495W5_5
 4?6H6O6
-4e2"/:.4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5$54585@5X5h5l5|5
 5!5&5+505A5K5Q5U5[5_5e5p5x5
@@ -332,7 +331,6 @@ $9^ t
 >$>6><>
 >(?r?y?
 >.>8>B>R>]>~>
->/|y}
 >0<0:
 >4>>>H>
 >=>E>f>
@@ -470,6 +468,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JV>B5n
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -575,6 +574,7 @@ VCRUNTIME140.dll
 VID_%04X
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
 VIVIAN-B02-B0135P-BL60U-012-GPIO33_Beta7
+VNXZf^
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
@@ -592,7 +592,6 @@ WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
-ZD%d1e
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
@@ -640,6 +639,7 @@ _seh_filter_dll
 _strupr_s
 _wchdir
 _wgetcwd
+`*:tLZ
 `.rdata
 a7hIw
 aitcamlib
@@ -652,6 +652,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+bD<R5
 bad AC huff
 bad APP len
 bad BMP
@@ -723,6 +724,7 @@ es_es
 es_mx
 etronlib
 expected marker
+eyTD'
 f;A*stSW
 fi_fi
 finnish
@@ -731,6 +733,7 @@ fr_fr
 fread
 french
 fseek
+gW:d!#
 german
 greek
 http://ocsp.digicert.com0A
@@ -791,6 +794,7 @@ pt_br
 pt_pt
 pvBuffer != nullptr
 qdriver_lighthouse
+rU	q"
 read past buffer
 ro_ro
 romanian
@@ -854,5 +858,6 @@ zlib corrupt
 {un'%
 |Lu?c
 }LuHO
+~4@+%
 ~qj#k"
 ~t&LN

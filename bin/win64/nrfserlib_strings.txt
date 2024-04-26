@@ -30,7 +30,6 @@
  H3E H3E
  aborted.
  ack#:
- ad(m
  but should be in STATE_START. This state is not valid.
  bytes received. Data will not be sent to transport layer above.
  close:
@@ -67,7 +66,6 @@
  times.
  version-number:
 !hn7!
-$*z ;Z
 %%.%dg
 %4.4X:%4.4X
 %s (%4.4X:%4.4X Serial: %s)
@@ -78,7 +76,6 @@ $*z ;Z
 ' is not a number.
 ',=?k
 ()$^.*+?[]|\-{},:=!
-(+WI`
 (9Q|uWH
 (A^A]A\^
 (A^A]^[
@@ -120,6 +117,7 @@ $*z ;Z
 *D8|$h
 *uXI;
 +9kdt	H
++W+>,
 +Xt@(
 +o'q)}
 , H5 error count: 
@@ -635,13 +633,12 @@ $*z ;Z
 220323000000Z
 220801000000Z
 230714000000Z
-240410225751Z0/
+240426052100Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2|en)|
 311109235959Z0b1
 3333333
 341013235959Z0H1
@@ -660,6 +657,7 @@ $*z ;Z
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+8(%{:
 8A^A]^]
 8A_A^A]]
 8D$Ru
@@ -1252,7 +1250,6 @@ GBf9F
 GD9E0t
 GDf9F
 GFf9F
-GH+NkU9
 GH9E0t
 GXA_A^A]A\_^]
 G`f9F
@@ -1315,6 +1312,7 @@ I;8u?H
 I;Fxu!
 I;q s?I
 I@H9k8u
+ID]z	
 IO_RESOURCES_UNAVAILABLE
 Identify
 IdentifyContext
@@ -1336,9 +1334,7 @@ Invalid stopbits setting
 IsBadCodePtr
 IsDebuggerPresent
 IsProcessorFeaturePresent
-IsR`2
 J>@G_
-K$45l
 KERNEL32.dll
 K}*n:	
 L$ H+
@@ -1522,6 +1518,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDS\H-
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1984,6 +1981,7 @@ p UWATAVAWH
 pA^_^
 pA_A\_[]
 pA_A^A]A\_^]
+po}$Y1
 print
 punct
 realloc
@@ -2130,6 +2128,7 @@ t$xH9^
 t$xL;
 t(D8g
 t1H9]
+t4.yl}
 t4L9%
 t4L9-
 t4L9-U
@@ -2166,7 +2165,6 @@ unknown error
 unknown zip result code
 upH;~ uj
 upper
-u|g@~J
 v=Y]Bv
 vector<T> too long
 vector<bool> too long

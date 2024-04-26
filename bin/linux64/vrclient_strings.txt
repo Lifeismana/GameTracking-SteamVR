@@ -1026,6 +1026,7 @@ $tI
 0-pixel image
 0123456789
 0123456789ABCDEF
+05:18:52
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -1284,7 +1285,6 @@ $tI
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:55:55
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -1906,7 +1906,7 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
 Apr
-Apr 10 2024
+Apr 26 2024
 April
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
 Array length of `emissiveFactor` parameter in material must be 3, but got
@@ -3472,8 +3472,8 @@ CSWTCH.23
 CSWTCH.28
 CSWTCH.361
 CSWTCH.506
-CSWTCH.743
-CSWTCH.791
+CSWTCH.744
+CSWTCH.792
 CS_MAIN
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -37160,7 +37160,6 @@ unMyPID == data
 unProcessID
 unRealSize < XR_MAX_PATH_LENGTH
 unSamples == 1 && unArraySize >= 1
-unSize < 65536
 unSizeInBytes <= pVertexBuffer->unSize
 unable to allocate vkBuffer-associated memory
 unaligned height

@@ -171,7 +171,7 @@
 220801000000Z
 230714000000Z
 2333333
-240410230045Z0/
+240426052453Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -189,12 +189,12 @@
 6*f(_
 6I]Dc
 6OB,n_
-6]?Sa
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+:+f+o
 <0:08
 =rIQU
 >0<0:
@@ -377,7 +377,6 @@ D$xH+
 D$xI+
 D8$>u
 D8|$AD
-D=3/LT
 DeleteCriticalSection
 Destroying LoaderInstance = 
 DigiCert Assured ID Root CA0
@@ -530,8 +529,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-REd?{9
-RSDSb]
+RSDSnA)Z
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -645,6 +643,7 @@ XR_EXT_debug_utils
 XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
+Y6NV`_
 Y9"SD
 [K]taM?
 \$ I;]
@@ -668,6 +667,7 @@ Y9"SD
 \$xHi
 \ApiLayers\Explicit
 \ApiLayers\Implicit
+\Lex)
 \u=H;
 ]J<0"0i3
 _Cnd_broadcast
@@ -714,7 +714,6 @@ _unlock_file
 `A^A]^[]
 `A_A^A\_^
 `A_A^A]A\_^]
-`FT4z^F+
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
 allowComments
@@ -738,7 +737,6 @@ bad allocation
 bad array new length
 bad cast
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
-ciq]x;)m
 collectComments
 d$ UAVAWH
 d$PE3
@@ -801,7 +799,6 @@ invalid properties
 invalid string position
 isValidJson indicates 
 jj@0HK4
-k(nCU
 k0i0$
 keylength >= 2^30
 l$ H;
@@ -870,10 +867,10 @@ t$hHi
 t$hL;
 t$xH;
 t9H9h
-tKC0*d
 tmfff
 u	;{(@
 u!L9p 
+u:cjl^
 ungetc
 unknown type in properties
 utf8_to_wide convert string error: 
@@ -881,6 +878,7 @@ utf8_to_wide get size error:
 v=Y]Bv
 vector<T> too long
 verbose
+w,5Sf
 wide_to_utf8 convert string error: 
 wide_to_utf8 get size error: 
 www.digicert.com1!0

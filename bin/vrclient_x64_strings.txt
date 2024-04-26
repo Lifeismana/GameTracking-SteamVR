@@ -648,7 +648,6 @@ $w!Hc
 -Infinity
 -S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 -disablewatchdogs
--iIdR
 -lang="
 -nokillprocess
 -personality_distort
@@ -2098,7 +2097,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240410230431Z0/
+240426052837Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2380,10 +2379,10 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@85\P.
-@8=PV.
-@8=sW.
-@8=~U.
+@85\`.
+@8=Pf.
+@8=sg.
+@8=~e.
 @8I+@0H
 @8i(u
 @8u$t0@8u#t*
@@ -2779,7 +2778,7 @@ B84/u
 B9T	$t
 B9T	$u
 B9T)$t
-BD9%~G?
+BD9%~W?
 BINORMAL
 BITANGENT
 BMP RLE
@@ -2814,7 +2813,7 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
-C-Hf5
+C-Hv5
 C0L9$
 C0L;E
 C0L;F
@@ -3307,7 +3306,6 @@ C\$pH
 C\$pL
 C\$xH
 C\$xL
-C_4;`
 Call from application to set %s.%s. Scene applications are not allowed to set most settings
 Camera
 Can't 
@@ -3601,7 +3599,6 @@ D8/u0
 D840u
 D84;u
 D8<>u
-D8=Yx
 D8d$P
 D8eHt6M9f0t0H
 D8eTt
@@ -4245,15 +4242,15 @@ H9/t	H
 H90t	H
 H93t	H
 H948t
-H95M1?
-H95P=?
-H95T6?
-H95[8?
-H95p=?
+H95MA?
+H95PM?
+H95TF?
+H95[H?
+H95pM?
 H98t	H
 H9;t	H
-H9=&4?
-H9=B4?
+H9=&D?
+H9=BD?
 H9A H
 H9APt M
 H9A`u}f
@@ -4315,15 +4312,15 @@ H;+u*
 H;0u7
 H;0u8H
 H;0u:H
-H;5Bf5
+H;5Bv5
 H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
 H;=*4"
-H;=Ni"
-H;=^s"
-H;=z."
+H;=:	"
+H;=:E"
+H;=zJ"
 H;A s
 H;Axt
 H;C(v
@@ -5554,7 +5551,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS0
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7408,7 +7404,6 @@ XR_UNKNOWN_FAILURE_%d
 XR_UNKNOWN_STRUCTURE_TYPE_%d
 XR_UNKNOWN_SUCCESS_%d
 XR_VALVE_analog_threshold
-XWeqR@
 XXXX PNG chunk not known
 X_^][
 XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]
@@ -7423,7 +7418,7 @@ XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
 Y9"SD
-Y=P])
+Y=Pm)
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -7800,7 +7795,6 @@ ZvFailed to create fence %ls.
 \$xHi
 \$xHk
 \10I;
-\L(x	
 \\.\pipe\
 \mfpmp.exe
 \u=H;
@@ -7885,6 +7879,7 @@ _cexit
 _configure_narrow_argv
 _crt_atexit
 _dtest
+_e!|N1
 _errno
 _execute_onexit_table
 _fseeki64
@@ -8123,7 +8118,6 @@ button_toggle
 byteLength
 byteOffset
 byteStride
-c).y,
 c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\actionbindingconfig.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
@@ -9012,9 +9006,9 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5"D!
-o5ob,
-o5{`,
+o5"T!
+o5or,
+o5{p,
 o@@fD
 oD$ fD
 oD$0f
@@ -9034,7 +9028,6 @@ off_haptic_frequency
 offset
 old_pid
 only 8-bit
-op<c<
 openvr
 openvr.component.vrcompositor
 openvr.component.vrserver
@@ -9835,8 +9828,6 @@ t$@H=
 t$@I;
 t$@L;
 t$DA+
-t$HA;
-t$HE3
 t$HH+
 t$HH;
 t$HHi
@@ -9903,7 +9894,7 @@ tHI9t$
 tJL;y rDH
 tNI;X rHI
 tQ@8q4tKI
-tQH95w8?
+tQH95wH?
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -9983,7 +9974,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=f4?
+t}H9=fD?
 u	A;p(s
 u	A;y(s
 u	H9|$ tI
@@ -10038,7 +10029,6 @@ unCallingProcessID
 unMyPID == data
 unProcessID
 unSamples == 1 && unArraySize >= 1
-unSize < 65536
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
 unSizeInBytes <= pVertexBuffer->unSize
 unable to allocate vkBuffer-associated memory
@@ -10069,6 +10059,7 @@ usemtl
 userinterface
 v4fff
 v=Y]Bv
+v>9p3
 vD;EHL
 vE;E`M
 vHcD$LH
@@ -11049,6 +11040,7 @@ znear
 |$@I;
 |$@M;
 |$D!u	
+|$HA;
 |$HE3
 |$HH;
 |$HH=

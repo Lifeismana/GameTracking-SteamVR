@@ -95,7 +95,6 @@
 (NAME:)("(.*?)")
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 (RSSI:)(-?[0-9]{0,3})
-(Te;w
 (UUID128:)([0-9A-F]{32})
 (UUID16:)([0-9A-F]{4})
 ([0-9A-F]{12})
@@ -113,6 +112,7 @@
 +Xt@(
 +o'q)}
 ,W5y+
+,{_&b
 -1e+9999
 -ADDR %s
 -Infinity
@@ -229,7 +229,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240410225755Z0/
+240426052105Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -249,7 +249,6 @@
 666666666666666666666666666666666666666666666666666666666666
 6I]Dc
 6OB,n_
-6_,?w
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -258,6 +257,7 @@
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
 8L$4tNH
+8RW'0
 8_^][
 9\u-H
 9\u4H
@@ -269,7 +269,6 @@
 <0:08
 <= Exiting Context: (%.2f seconds)
 <Bu'H
-<\	eD
 ======================
 ==============================
 => Entering Context
@@ -387,6 +386,7 @@
 @UWAVH
 @WAVAWH
 A valid JSON document must be either an array or an object value.
+A,?TN1
 A;A A
 A]A\_[]
 A]A\_]
@@ -466,6 +466,7 @@ Bluetooth service shutdown.
 Bootloader Mode
 C$9C w
 C(I9F(
+C(c36
 C0L9$
 CD$(H
 CD$0D
@@ -663,6 +664,7 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 GetVersionExA
+H!!'yL
 H!C@H
 H+SpI
 H+WpA
@@ -707,6 +709,7 @@ K32EnumProcesses
 K32GetModuleBaseNameA
 K32GetProcessImageFileNameA
 KERNEL32.dll
+KtY.}
 K}*n:	
 L$ H;
 L$ L;
@@ -1158,6 +1161,7 @@ dat_file
 data error
 deque<T> too long
 digit
+eXDfO
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1222,7 +1226,6 @@ l$pM+
 l2|X/gGe
 lighthouse
 lower
-ltVva+
 m0k0$
 malloc
 manifest
@@ -1328,7 +1331,6 @@ vivelink-driver.txt
 vivelink-output.txt
 vivelink.exe
 vivelinklib.dll
-whD8N#
 win64
 wn>Jj
 www.digicert.com1!0

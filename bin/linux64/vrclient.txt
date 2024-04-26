@@ -4534,8 +4534,8 @@
  r CSWTCH.28
  r CSWTCH.361
  r CSWTCH.506
- r CSWTCH.743
- r CSWTCH.791
+ r CSWTCH.744
+ r CSWTCH.792
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetDefaultValue<double>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty

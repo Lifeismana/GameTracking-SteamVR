@@ -62,7 +62,6 @@
 #?RGBE
 #oculus_requested_quit
 $9^ t
-$RcA"
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
@@ -113,11 +112,11 @@ $RcA"
 -1003
 -1e+9999
 -3003
+-<QQeTX
 -Infinity
 -startup
 .00cfg
 .050<0C0
-.< TW
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -467,7 +466,7 @@ $RcA"
 222N2h2
 230714000000Z
 233Q3o3
-240410225824Z0/
+240426052138Z0/
 241009235959Z0a1
 24484<4@4D4H4L4P4T4X4\4
 262C2a2p2
@@ -547,6 +546,7 @@ $RcA"
 3E3_3
 3I4u4
 3J4k4
+3JDYI{;
 3T9X9
 3\4u4
 3^3f3
@@ -899,7 +899,6 @@ $RcA"
 :O;j;
 :R<V<
 :T:|:
-:cQ e
 :e:x:
 :q:|:
 :q;z;
@@ -1175,6 +1174,7 @@ $RcA"
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPA_W3AAPA_W@Z
+?jn4us
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z
@@ -1260,6 +1260,7 @@ CreateSession was invoked without calling DestroySession, textures may have been
 CreateThread
 D1H1L1P1T1X1\1`1d1h1l1p1t1
 D3D11CreateDevice
+D@*W.
 DXGI_ERROR_DEVICE_HUNG
 DXGI_ERROR_DEVICE_REMOVED
 DXGI_ERROR_DEVICE_RESET
@@ -1286,7 +1287,6 @@ Empty escape sequence in string
 Empty file.
 EnterCriticalSection
 Error! EventWriteString Severe: %s
-EtIov
 EventRegister
 EventUnregister
 EventWriteString
@@ -1442,6 +1442,7 @@ J0+J(
 J>@G_
 JSON string too short.
 JSONuTS
+K=9WL(
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	

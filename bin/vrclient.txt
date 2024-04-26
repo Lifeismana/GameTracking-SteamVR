@@ -4315,8 +4315,8 @@
  r CSWTCH.111
  r CSWTCH.214
  r CSWTCH.28
- r CSWTCH.719
- r CSWTCH.767
+ r CSWTCH.720
+ r CSWTCH.768
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetDefaultValue<double>(char const*, char const*, vr::EVRSettingsError*)::Empty
  r CSettingsManager::GetValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -5803,12 +5803,11 @@
  t .L1079
  t .L108
  t .L1081
- t .L1089
  t .L109
  t .L1091
- t .L1092
+ t .L1093
+ t .L1094
  t .L1095
- t .L1096
  t .L1097
  t .L1098
  t .L1099
@@ -5830,6 +5829,8 @@
  t .L1104
  t .L1105
  t .L1106
+ t .L1107
+ t .L1108
  t .L111
  t .L11176
  t .L11178

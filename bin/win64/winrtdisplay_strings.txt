@@ -13,11 +13,10 @@
 ',=?k
 (D$0f
 (f*^[0
-*xP?fZ
 +Xt@(
++[	%$
 +o'q)}
 ,W5y+
--+hR5
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -119,13 +118,14 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240410225642Z0/
+240426051950Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
+32hQWC
 341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
@@ -137,12 +137,12 @@
 6*f(_
 6I]Dc
 6OB,n_
+7)2<g?
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-8saC#
 9D$@u	
 9D$DtfL9t$xt
 9E ukH
@@ -155,7 +155,6 @@
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
-?zxic;}
 @.data
 @.reloc
 @A^][
@@ -172,6 +171,7 @@ A_A^A\_^[
 A_A^A\_^[]
 A_A^^]
 AuthD
+B4'Sf
 Bellevue1
 C++/WinRT version:1.0.190111.3
 CD$@3
@@ -193,6 +193,7 @@ D$hH;
 D$pH;
 D$xH;
 D3D11CreateDevice
+DN]~{
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -205,6 +206,7 @@ DisableThreadLibraryCalls
 E89D$Pu
 E<9D$Tu
 EnterCriticalSection
+FH^	@
 FormatMessageW
 GetCurrentProcessId
 GetCurrentThreadId
@@ -214,6 +216,7 @@ GetProcessHeap
 GetRestrictedErrorInfo
 GetSystemTimeAsFileTime
 GetTickCount64
+Gpe/*}	
 H-^Eu
 H9\$X
 H9\$Xt
@@ -317,7 +320,6 @@ WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
 XA_A^A]_
 Y9"SD
-[:]6J
 [K]taM?
 \$ H;
 \$ UH
@@ -368,6 +370,7 @@ bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
+dlKh1
 dxgi.dll
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -387,6 +390,7 @@ memmove
 memset
 ntelD
 ole32.dll
+r&-bx
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -404,7 +408,6 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
-z,Sa7
 {un'%
 |$ AVH
 |$0E3

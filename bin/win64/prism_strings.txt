@@ -48,7 +48,6 @@
  A__^
  H3E H3E
  formatting error code 
- |>%7
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
@@ -311,7 +310,6 @@ $9E0u
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
-'f W.
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -360,6 +358,7 @@ $9E0u
 , last executing in 
 ,W5y+
 -IPCWrapper
+-\jg;(s
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -532,7 +531,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-240410225811Z0/
+240426052119Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -563,7 +562,6 @@ $9E0u
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9;=5,
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -576,6 +574,7 @@ $9E0u
 ;|$ r
 <0:08
 <P)9Y
+<TFm+
 <unknown>
 =rIQU
 >0<0:
@@ -1422,6 +1421,7 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDS]
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1666,6 +1666,7 @@ Yl$4E
 \$pI;\$xtIH
 \$xHk
 \$xMi
+\>"9E
 \\.\pipe\
 \mfpmp.exe
 ]J<0"0i3
@@ -1758,7 +1759,6 @@ atanf
 bad allocation
 bad array new length
 bad conversion
-bxRcC
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
@@ -1904,6 +1904,7 @@ l2|X/gGe
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
 m0k0$
+m4owL
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bSupportsPresentId
@@ -2747,10 +2748,9 @@ wcsstr
 www.digicert.com1!0
 www.digicert.com1$0"
 xA_A^A]A\_^[]
-xzg%`
-y<Lp(
 yxxxxxxxH
 yxxxxxxxI+
+z,qW=
 {pH;{xw?
 {un'%
 |$ ATAUAVAWH

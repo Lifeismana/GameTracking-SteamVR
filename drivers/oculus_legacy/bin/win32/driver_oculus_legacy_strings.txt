@@ -91,7 +91,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240410225827Z0/
+240426052142Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -190,7 +190,7 @@
 >:>B>I>Q>V>\>d>l>q>w>
 ><>y>
 >Mp$d
->`rxh
+>~i.&V
 ?!?)?.?4?<?D?I?O?W?_?d?j?r?z?
 ?!?1?A?Q?a?q?
 ?$?(?8?\?h?p?
@@ -203,7 +203,6 @@
 ?_Xout_of_range@std@@YAXPBD@Z
 @.data
 @.reloc
-@GK2E
 ADVAPI32.dll
 Bellevue1
 COculusHmdLatest::UpdateThread
@@ -331,6 +330,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
+[>;C.pX
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -383,11 +383,9 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-bBt.`
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
-cOR)8cG
 camera
 d3d11.dll
 dk2_camera
@@ -482,6 +480,7 @@ www.digicert.com1$0"
 {oculus_legacy}/icons/%s_%s_standby.png
 {un'%
 |Lu?c
+|}DL~
 }LuHO
 ~qj#k"
 ~t&LN

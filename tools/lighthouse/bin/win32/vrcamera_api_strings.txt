@@ -22,10 +22,10 @@
  sCWj
  t\9]
 !hn7!
-"mGUQ)
+!sZXl
+"{eHD
 #9Npt
 #>B>J>
-#Z=9'
 $0,040<0P0X0`0h0p0|0
 $0.0C0k0
 $3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
@@ -55,6 +55,7 @@ $_^[]
 ,0I0\0
 ,W5y+
 .00cfg
+.>$U-
 .?AUIAMovieSetup@@
 .?AUIBaseFilter@@
 .?AUIEnumMediaTypes@@
@@ -390,7 +391,6 @@ $_^[]
 130801120000Z
 132:2E2S2g2
 141<1D1L1`1h1p1x1
-17~(2F~
 181\1
 181d1
 1:1h1
@@ -434,7 +434,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-240410225717Z0/
+240426052032Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -755,7 +755,6 @@ $_^[]
 8Q8}8
 8Z8w8
 8[9w9
-8\Y<j
 8f8s8
 8q8~8
 8t97:
@@ -1218,9 +1217,11 @@ $_^[]
 A$+A 
 A(;A,v
 A0B;W
+AB3G8v
 AHPQVR
 AHkO($
 AcquireSRWLockExclusive
+Afq9-
 Applying depth format 
 Applying first frame camera configuration options...
 Auto Exposure Target:		
@@ -1234,6 +1235,7 @@ Beginning detectedStream
 Bellevue1
 C$F;w
 C,H_^u
+C7}NF
 C8;sx|
 CVRCameraWindows Destructor...
 C\Qj 
@@ -1288,6 +1290,7 @@ CreateThreadpoolWait
 CreateThreadpoolWork
 CreateTimerQueue
 CreateTimerQueueTimer
+D*-p-y
 DFailed to EnumPins.
 DecodePointer
 DeleteCriticalSection
@@ -1416,7 +1419,6 @@ GetTraceEnableLevel
 GetTraceLoggerHandle
 GetVersionExW
 Gh;G<
-Gj,K^
 Global Gain:			
 GxVPR
 H-^Eu
@@ -1485,7 +1487,6 @@ Pz}b!
 Q$B@;
 Q;FD~R
 Q;FD~Z
-QJZX9m
 QQSVW
 QSVWj
 QVWjt
@@ -1495,7 +1496,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDSJ
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1714,6 +1714,7 @@ directory not empty
 eventObject
 executable format error
 f	_$_^[
+fLlXsvz
 false
 fclose
 fflush
@@ -1777,7 +1778,6 @@ memmove
 memset
 message size
 n;w0tc
-nQg:{
 network down
 network reset
 network unreachable
@@ -1842,8 +1842,6 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
-rhKGt
-s#6j(
 sDh|t
 setlocale
 setvbuf
@@ -1887,6 +1885,7 @@ u	_^3
 u	_^[
 u$PPW
 u28C`t
+u:'V%3
 uOSVW
 ungetc
 ungetwc
@@ -1915,7 +1914,9 @@ y'j h
 {un'%
 |Lu?c
 |SVWj
+|n#G(9
 }:;2|6
 }LuHO
+}jxQ47
 ~qj#k"
 ~t&LN
