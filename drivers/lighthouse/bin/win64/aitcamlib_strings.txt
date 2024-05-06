@@ -19,6 +19,7 @@
 !(0)"
 !hn7!
 "9k0t
+"<Gf:
 #*1892+$
 #9i0t
 #?RADIANCE
@@ -28,6 +29,7 @@
 %,3:;4-&
 %9k0t
 %9{0t
+%b6od
 &9k0t
 &D9c0t
 &D9k0t
@@ -36,6 +38,7 @@
 '.5<=6/7>????????????????
 '9k0t
 'D9c0t
+(>zqO:
 (A\^][
 (A^A]^[
 (A^A]_[
@@ -177,7 +180,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240426052056Z0/
+240506211456Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -292,6 +295,7 @@ Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
 AuthD
+A}'?Oy
 BMP RLE
 Bellevue1
 C<unknown>
@@ -465,6 +469,7 @@ OutputDebugStringA
 PA^_^
 PA_A^A]A\[
 PAq=?Mp#
+PH9f/;zD
 PauseCamera
 PauseCamera (delayed...)
 PauseCamera (immediate)
@@ -587,6 +592,7 @@ Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
+[HvX1
 [K]taM?
 \$ E3
 \$ UH
@@ -600,6 +606,7 @@ Z9k0tUD
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
+^wYyKrn
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -745,6 +752,7 @@ fseek
 g9k0t_D
 german
 gfffffffH
+gh5$'
 greek
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -796,7 +804,6 @@ memmove
 memset
 missing color table
 multiple IHDR
-n)	d>N'W
 nb_no
 nl_nl
 no IDAT
@@ -833,6 +840,7 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
+r@.Nd
 rND9{0t
 read past buffer
 ro_ro

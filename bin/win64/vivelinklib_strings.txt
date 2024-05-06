@@ -112,12 +112,12 @@
 +Xt@(
 +o'q)}
 ,W5y+
-,{_&b
 -1e+9999
 -ADDR %s
 -Infinity
 -NAME "%s"
 -btdriverver
+-p=.X
 -start
 -status
 -stop
@@ -229,7 +229,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240426052105Z0/
+240506211506Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -257,7 +257,6 @@
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
 8L$4tNH
-8RW'0
 8_^][
 9\u-H
 9\u4H
@@ -385,8 +384,8 @@
 @UWAVAWH
 @UWAVH
 @WAVAWH
+@\"*-
 A valid JSON document must be either an array or an object value.
-A,?TN1
 A;A A
 A]A\_[]
 A]A\_]
@@ -466,7 +465,6 @@ Bluetooth service shutdown.
 Bootloader Mode
 C$9C w
 C(I9F(
-C(c36
 C0L9$
 CD$(H
 CD$0D
@@ -664,7 +662,6 @@ GetProcAddress
 GetSystemTimeAsFileTime
 GetTickCount64
 GetVersionExA
-H!!'yL
 H!C@H
 H+SpI
 H+WpA
@@ -709,7 +706,6 @@ K32EnumProcesses
 K32GetModuleBaseNameA
 K32GetProcessImageFileNameA
 KERNEL32.dll
-KtY.}
 K}*n:	
 L$ H;
 L$ L;
@@ -787,6 +783,7 @@ Missing '}' or object member name
 Missing manifest file %s from %s
 Nonce:    %d
 O(H9N(|
+OMSgd@v0
 OXL9OPt
 OpenProcess
 Out of thread local storage!
@@ -811,6 +808,7 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDS 
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1161,7 +1159,6 @@ dat_file
 data error
 deque<T> too long
 digit
-eXDfO
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair

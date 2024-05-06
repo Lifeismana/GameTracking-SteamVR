@@ -112,7 +112,6 @@ $9^ t
 -1003
 -1e+9999
 -3003
--<QQeTX
 -Infinity
 -startup
 .00cfg
@@ -466,7 +465,7 @@ $9^ t
 222N2h2
 230714000000Z
 233Q3o3
-240426052138Z0/
+240506210916Z0/
 241009235959Z0a1
 24484<4@4D4H4L4P4T4X4\4
 262C2a2p2
@@ -545,8 +544,8 @@ $9^ t
 3C3Y3
 3E3_3
 3I4u4
+3Ix8_
 3J4k4
-3JDYI{;
 3T9X9
 3\4u4
 3^3f3
@@ -1174,7 +1173,6 @@ $9^ t
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPA_W3AAPA_W@Z
-?jn4us
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z
@@ -1215,6 +1213,7 @@ AnimationChannel
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
+A~h>?gs
 B(+B$
 BINORMAL
 BMP RLE
@@ -1247,6 +1246,7 @@ COLOR
 COculusHmdLatest::UpdateThread
 COculusState::CreateSession
 CServerDriver_Oculus::Cleanup
+C`Ff 
 Camera
 CertGetNameStringW
 Chaperone updated with universe ID %d
@@ -1260,7 +1260,6 @@ CreateSession was invoked without calling DestroySession, textures may have been
 CreateThread
 D1H1L1P1T1X1\1`1d1h1l1p1t1
 D3D11CreateDevice
-D@*W.
 DXGI_ERROR_DEVICE_HUNG
 DXGI_ERROR_DEVICE_REMOVED
 DXGI_ERROR_DEVICE_RESET
@@ -1442,7 +1441,6 @@ J0+J(
 J>@G_
 JSON string too short.
 JSONuTS
-K=9WL(
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -2094,6 +2092,7 @@ not enough pixels
 null literal
 number literal
 number overflow parsing '
+o31VG]A
 object
 object key
 object separator
@@ -2449,6 +2448,7 @@ sv_se
 swedish
 syntax error 
 t	_^2
+t#65 
 t$,RW
 t$j$hTp
 t?hHr

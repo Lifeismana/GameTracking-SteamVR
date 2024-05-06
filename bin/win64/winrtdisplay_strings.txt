@@ -14,7 +14,6 @@
 (D$0f
 (f*^[0
 +Xt@(
-+[	%$
 +o'q)}
 ,W5y+
 .00cfg
@@ -118,15 +117,15 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240426051950Z0/
+240506211358Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
-32hQWC
 341013235959Z0H1
+34eOR>
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
@@ -137,7 +136,6 @@
 6*f(_
 6I]Dc
 6OB,n_
-7)2<g?
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -171,7 +169,6 @@ A_A^A\_^[
 A_A^A\_^[]
 A_A^^]
 AuthD
-B4'Sf
 Bellevue1
 C++/WinRT version:1.0.190111.3
 CD$@3
@@ -193,7 +190,6 @@ D$hH;
 D$pH;
 D$xH;
 D3D11CreateDevice
-DN]~{
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -206,7 +202,6 @@ DisableThreadLibraryCalls
 E89D$Pu
 E<9D$Tu
 EnterCriticalSection
-FH^	@
 FormatMessageW
 GetCurrentProcessId
 GetCurrentThreadId
@@ -216,7 +211,6 @@ GetProcessHeap
 GetRestrictedErrorInfo
 GetSystemTimeAsFileTime
 GetTickCount64
-Gpe/*}	
 H-^Eu
 H9\$X
 H9\$Xt
@@ -241,6 +235,7 @@ Intel
 InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J*\m^
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -370,7 +365,6 @@ bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\Retail\win64\2017\winrtdisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\winrtdisplay\src\winrtdisplay.cpp
 d3d11.dll
-dlKh1
 dxgi.dll
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -390,7 +384,6 @@ memmove
 memset
 ntelD
 ole32.dll
-r&-bx
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy

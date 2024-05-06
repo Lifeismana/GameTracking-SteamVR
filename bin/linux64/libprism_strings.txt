@@ -490,7 +490,6 @@ $+
 0+
 0123456789
 0123456789ABCDEF
-05:18:52
 1
 11CVkTimeline
 12CNonCopyable
@@ -506,6 +505,7 @@ $+
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
+21:02:45
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 3
@@ -568,7 +568,6 @@ Already initialized
 Apply blur filter
 Apply median filter
 Apr
-Apr 26 2024
 April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe
@@ -2145,6 +2144,7 @@ March
 MarkInUse
 Mask Input Image
 May
+May  6 2024
 MillisecondsFromNanoseconds(unsigned long)
 Minidump comment truncated
 Missing ',' or ']' in array declaration

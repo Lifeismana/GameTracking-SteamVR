@@ -134,6 +134,7 @@
 #OriginString_HandController
 #OriginString_HandSource
 #OriginString_Source
+#i">D
 $IL+Q
 $tI(knN"
 $u0Hi
@@ -542,6 +543,7 @@ $w!Hc
 )D$`D
 )D$pA
 )D$pH
+)J^^a=
 )L$ D
 )L$ fD
 )L$ ff
@@ -2097,7 +2099,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240426052837Z0/
+240506212147Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -4317,10 +4319,9 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=*4"
-H;=:	"
-H;=:E"
-H;=zJ"
+H;=:J"
+H;=JC"
+H;=nx"
 H;A s
 H;Axt
 H;C(v
@@ -4490,6 +4491,7 @@ I9Bhs
 I9P s
 I9Q sEI
 I9W@t
+I9fxU
 I9u@tCH
 I9x s
 I;4$H
@@ -4780,6 +4782,7 @@ IVRWatchdogProvider_001
 IXrBinding::PostEndFrame
 IXrProto_001
 I\$(H
+I^E'+D
 Ic@,I
 IcO4H
 IcV E3
@@ -5551,6 +5554,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDSg 
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7879,7 +7883,6 @@ _cexit
 _configure_narrow_argv
 _crt_atexit
 _dtest
-_e!|N1
 _errno
 _execute_onexit_table
 _fseeki64
@@ -8627,6 +8630,7 @@ https://
 hu_hu
 hungarian
 iError calling pDownsampleRenderer->Draw()!
+iVr57>G?
 icon_steamvr_desktopgame.png
 ig@-?e
 illegal code in raster
@@ -10059,7 +10063,6 @@ usemtl
 userinterface
 v4fff
 v=Y]Bv
-v>9p3
 vD;EHL
 vE;E`M
 vHcD$LH
@@ -10845,6 +10848,7 @@ xA^A\_^][
 xA_A^A]A\][
 x_path
 xdigit
+xm'z.b-5
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
@@ -10974,6 +10978,7 @@ yxxxxxxxL
 yxxxxxxxL+
 zh_cn
 zh_tw
+zkaqP
 zlib corrupt
 znear
 { "type": "keyboard_hidden" }
@@ -11084,6 +11089,7 @@ znear
 |$xIi
 |$xIk
 |$xL;
+|:kS=
 |D8E t"H
 |Lu?c
 |s;K(tnA
@@ -11100,6 +11106,7 @@ znear
 ~3LcD$(L
 ~6HcD$ I
 ~Cfff
+~D36M
 ~PH9~Xt(H
 ~qj#k"
 ~t&LN

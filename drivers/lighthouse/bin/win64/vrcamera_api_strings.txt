@@ -31,7 +31,6 @@
  H3E H3E
  Height: 
  Width: 
- n_4b
  s2E3
  sIE3
 !T$(H!T$ 
@@ -86,7 +85,6 @@ $< t6<$t,<+t"<vt
 +o'q)}
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
 ,W5y+
-,awyg+l
 ,t0D9J0v*L
 .00cfg
 .8\$!t.9\
@@ -380,7 +378,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-240426052052Z0/
+240506211452Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -455,6 +453,7 @@ $< t6<$t,<+t"<vt
 =rIQU
 >0<0:
 >Mp$d
+>g{0k
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
 ??0CVRCameraWindowsDS@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
@@ -581,6 +580,7 @@ $< t6<$t,<+t"<vt
 @A_A^]
 @A_A^_
 @A_A^_^]
+@B?`~g~
 @SAUAVAWH
 @SUVAWH
 @SUVWATAUAVAWH
@@ -1081,7 +1081,6 @@ L;L$(t
 L?n(Zy&
 LCMapStringEx
 LCMapStringW
-LXomYL
 LcCP3
 LcGDI
 LcGP3
@@ -1241,6 +1240,8 @@ Verify failed at 0x%X/0x%X Bytes
 VirtualAlloc
 VirtualFree
 VirtualProtect
+W#wy2j
+W+dm1
 W0;Ct~ZH
 W8HcH
 WATAUAVAWH
@@ -1347,8 +1348,8 @@ _wcsdup
 `A^_^][
 `A_A^A]A\_^]
 `A_A^_^[
+`b#/W
 a7hIw
-aCyX7^'d
 abort
 address family not supported
 address in use
@@ -1405,6 +1406,7 @@ eventObject
 executable format error
 f	n@H
 f#D$@H
+f174M
 f9,Yu
 f9/t	H
 f9D$pu

@@ -84,5 +84,5 @@ SteamVRLauncherSetup
 
 if [ "$?" != "0" ]; then
     # FIXME: see steamrt#397, easier to copy steam_msg.sh into the SteamVR depot than to try and locate it
-    ${VRBINDIR}/steamvr_msg.sh --error "SteamVR setup is incomplete, some features might be missing. See $STEAMVR_SETUP_LOG for details."
+    ${VRBINDIR}/steamvr_msg.sh --error "SteamVR setup is incomplete, some features might be missing. See ${LOGFILE-"Steam client logs folder"} for details."
 fi

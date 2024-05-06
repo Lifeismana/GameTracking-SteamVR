@@ -4532,7 +4532,7 @@
  r CSWTCH.212
  r CSWTCH.23
  r CSWTCH.28
- r CSWTCH.361
+ r CSWTCH.363
  r CSWTCH.506
  r CSWTCH.744
  r CSWTCH.792
@@ -22621,6 +22621,7 @@
  t InputInterfaceRegistration<CVRInput_009>::GetInterface()
  t InputInterfaceRegistration<CVRInput_009>::~InputInterfaceRegistration()
  t InteractionProfileFromControllerType(std::string)
+ t InteractionProfileFromControllerType(std::string) [clone .cold]
  t InteractionProfileInput_t& std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t> >::emplace_back<InteractionProfileInput_t>(InteractionProfileInput_t&&)
  t InteractionProfileToControllerType(std::string)
  t InterfaceRegistrationBase::Find(char const*)

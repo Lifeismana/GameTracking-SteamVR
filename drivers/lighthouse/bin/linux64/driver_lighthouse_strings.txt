@@ -832,7 +832,6 @@ $@
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-05:18:52
 0x
 0x%08llx
 1
@@ -914,6 +913,7 @@ $@
 20CVkCommandBufferPool
 20IVRAudioNotification
 21
+21:02:45
 22
 22CKeyframedDataResource
 22CLighthouseHmdProvider
@@ -1085,7 +1085,6 @@ App info manager init failed (114)
 App not found
 ApplyGrowForUndistort(float, vortex::CHmdDisplay::CEyeProjection*)
 Apr
-Apr 26 2024
 April
 Args
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
@@ -4612,6 +4611,7 @@ Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 Max watchdog reset count
 May
+May  6 2024
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) [clone .cold]
 Message class "

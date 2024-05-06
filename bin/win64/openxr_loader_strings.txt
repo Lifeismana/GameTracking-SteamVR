@@ -164,6 +164,7 @@
 0x%llx (%lld): 
 0}0i1
 130801120000Z
+1B!O{
 1e+9999
 210429000000Z
 211007000000Z
@@ -171,7 +172,7 @@
 220801000000Z
 230714000000Z
 2333333
-240426052453Z0/
+240506211758Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -194,7 +195,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-:+f+o
 <0:08
 =rIQU
 >0<0:
@@ -528,8 +528,9 @@ PA_A^_^]
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
+QPRto2
 QueryPerformanceCounter
-RSDSnA)Z
+RSDS?
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -643,7 +644,6 @@ XR_EXT_debug_utils
 XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
-Y6NV`_
 Y9"SD
 [K]taM?
 \$ I;]
@@ -667,7 +667,6 @@ Y9"SD
 \$xHi
 \ApiLayers\Explicit
 \ApiLayers\Implicit
-\Lex)
 \u=H;
 ]J<0"0i3
 _Cnd_broadcast
@@ -800,6 +799,7 @@ invalid string position
 isValidJson indicates 
 jj@0HK4
 k0i0$
+kbqG'
 keylength >= 2^30
 l$ H;
 l$ H=
@@ -828,6 +828,7 @@ ntelD
 openxr/
 openxr_loader.dll
 platform_utils
+r_L0#r
 rejectDupKeys
 runtime
 s t#fff
@@ -870,7 +871,6 @@ t9H9h
 tmfff
 u	;{(@
 u!L9p 
-u:cjl^
 ungetc
 unknown type in properties
 utf8_to_wide convert string error: 
@@ -878,7 +878,6 @@ utf8_to_wide get size error:
 v=Y]Bv
 vector<T> too long
 verbose
-w,5Sf
 wide_to_utf8 convert string error: 
 wide_to_utf8 get size error: 
 www.digicert.com1!0

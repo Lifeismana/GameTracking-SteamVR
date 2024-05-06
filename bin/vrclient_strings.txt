@@ -2245,6 +2245,8 @@ $
 /interaction_profiles/htc/vive_controller
 /interaction_profiles/htc/vive_cosmos_controller
 /interaction_profiles/htc/vive_focus3_controller
+/interaction_profiles/htc/vive_tracker_htcx
+/interaction_profiles/htc/vive_wrist_tracker
 /interaction_profiles/microsoft/motion_controller
 /interaction_profiles/microsoft/xbox_controller
 /interaction_profiles/oculus/touch_controller
@@ -2334,7 +2336,6 @@ $
 0-pixel image
 0123456789
 0123456789ABCDEF
-05:18:40
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -2543,6 +2544,7 @@ $
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:02:40
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -3153,7 +3155,6 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
 Apr
-Apr 26 2024
 April
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
 Array length of `emissiveFactor` parameter in material must be 3, but got
@@ -22167,6 +22168,7 @@ Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 May
+May  6 2024
 Member "action_sets" exists, but is not an array
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) [clone .cold]

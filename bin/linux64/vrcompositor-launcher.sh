@@ -60,6 +60,9 @@ if [ -z "${STEAMVR_VRENV-}" ]; then
 	# unreachable
 fi
 
+# Fedora changes default SDL behavior to give higher priority to Vulkan, which breaks us
+export SDL_VIDEODRIVER=x11
+
 # NOTE: the vrcompositor-launcher stub does a bit of env manipulation and syscap work
 log exec "$ROOT/vrcompositor-launcher" "$@"
 exec "$ROOT/vrcompositor-launcher" "$@"

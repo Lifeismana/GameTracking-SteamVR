@@ -1026,7 +1026,6 @@ $tI
 0-pixel image
 0123456789
 0123456789ABCDEF
-05:18:52
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -1261,6 +1260,7 @@ $tI
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:02:45
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1906,7 +1906,6 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
 Apr
-Apr 26 2024
 April
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got
 Array length of `emissiveFactor` parameter in material must be 3, but got
@@ -3470,7 +3469,7 @@ CSWTCH.16
 CSWTCH.212
 CSWTCH.23
 CSWTCH.28
-CSWTCH.361
+CSWTCH.363
 CSWTCH.506
 CSWTCH.744
 CSWTCH.792
@@ -21035,6 +21034,7 @@ Installation Corrupt (101)
 Installation Not Found (100)
 Installation path could not be located (110)
 InteractionProfileFromControllerType(std::string)
+InteractionProfileFromControllerType(std::string) [clone .cold]
 InteractionProfileInput_t& std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t> >::emplace_back<InteractionProfileInput_t>(InteractionProfileInput_t&&)
 InteractionProfileToControllerType(std::string)
 Interface Not Found (105)
@@ -21720,6 +21720,7 @@ Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 May
+May  6 2024
 Member "action_sets" exists, but is not an array
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) [clone .cold]
@@ -37335,6 +37336,7 @@ vive_cosmos_controller
 vive_focus3_controller
 vive_pro
 vive_tracker
+vive_tracker_
 vive_tracker_camera
 vive_tracker_chest
 vive_tracker_handed
