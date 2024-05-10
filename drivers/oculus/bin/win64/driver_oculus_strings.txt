@@ -25,7 +25,6 @@
 	ArraySize=%d, Usage=%d, SampleDesc.Count=%d
 	CPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
 	D$HA
-	J3%xK
 	w=%d, h=%d, format=%d
 	|$HA
     A
@@ -86,6 +85,7 @@
 #D9c0t
 #D9{0t
 #oculus_requested_quit
+#tg~h
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -464,7 +464,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240506211727Z0/
+240510000046Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1083,7 +1083,7 @@ IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
-IVRCompositorSystemInternal_001
+IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
@@ -1292,7 +1292,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS9
+RSDS2
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1386,6 +1386,7 @@ Tp=9y>m0_D@H_
 U0H9U8t
 UATAUAVAWH
 UAVAWH
+UF(_ ;
 UNNAMED
 USATAWH
 USATH
@@ -1814,10 +1815,12 @@ gfffffffH
 gfffffffH+
 gfffffffI
 greek
+h)KEB
 hand_right_poses.glb
 handlers
 headset
 height
+hl"kh
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -2166,7 +2169,6 @@ primitives
 pt_br
 pt_pt
 quest
-r3y4E
 rND9{0t
 range
 read past buffer
@@ -2512,6 +2514,7 @@ www.digicert.com1$0"
 x AVH
 x UAVAWH
 xA^A\_^][
+y*M$?l
 yxxxxxxxH
 yxxxxxxxH+
 yxxxxxxxI
@@ -2568,6 +2571,7 @@ znear
 |$XuMH
 |$`H;
 |$`M+
+|(li:~O
 |LL\t
 |Lu?c
 }LuHO

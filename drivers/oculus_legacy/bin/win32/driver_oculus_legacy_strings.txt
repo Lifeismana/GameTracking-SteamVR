@@ -3,10 +3,12 @@
  (Camera)
 !hn7!
 ',=?k
+'Vh}A
 (Unable to load LibOVR)
-(cHTa
 (f*^[0
+)$"U=,
 +Xt@(
++`&=d
 +o'q)}
 , last executing in 
 ,W5y+
@@ -92,7 +94,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240506210920Z0/
+240509235858Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -204,9 +206,7 @@
 @.data
 @.reloc
 ADVAPI32.dll
-Be.)^
 Bellevue1
-CAxyK
 COculusHmdLatest::UpdateThread
 Camera tracker driver for rejected by vrserver
 CloseHandle
@@ -232,7 +232,6 @@ EventWriteString
 EventWriteTransfer
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
-Fa|e*q
 FreeLibrary
 GetCurrentDirectoryW
 GetCurrentProcess
@@ -293,7 +292,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSc
+RSDSJ
 RaiseException
 S0Q0O
 SA|X=G
@@ -315,6 +314,7 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+Ue}x!n*p
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -468,6 +468,7 @@ tdh.dll
 terminate
 u7j8Q
 uCVj@
+v(X8J
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0

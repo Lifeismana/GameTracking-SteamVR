@@ -1,7 +1,11 @@
 	!s99
  %41g
+!ZwO-
 !hn7!
+%ESU$n
+&y]p'
 ',=?k
+(- 1R
 (f*^[0
 +Xt@(
 +o'q)}
@@ -33,7 +37,6 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.Fwu>	l
 .data
 .data$r
 .edata
@@ -105,7 +108,7 @@
 220801000000Z
 223C3
 230714000000Z
-240506210858Z0/
+240509235836Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -162,6 +165,7 @@
 9H9L9P9h9l9,:0:4:H:L:P:l:p:
 9J;v;
 :!:*:3:<:A:F:M:R:^:
+:%d/h
 :&:Y<*=<=E=P=v=
 ; ;x;|;
 ;#;,;1;6;=;B;N;p;
@@ -171,7 +175,6 @@
 <0:08
 <G<Q<[<m<
 = =(=@=P=T=d=h=l=t=
-=B_aA
 =P=Y=b=k=p=u=|=
 =rIQU
 >!>.>=>B>Q>Z>e>
@@ -236,6 +239,7 @@ J>@G_
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
+Lhsg<
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
 MSVCP140.dll
@@ -247,6 +251,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSt
 RaiseException
 S0Q0O
 SA|X=G
@@ -290,11 +295,11 @@ Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
-X&1b=
 Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
+^"[FNF
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -343,6 +348,7 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
+eBR]s^
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -357,7 +363,10 @@ map/set<T> too long
 memcpy
 memmove
 memset
+pCqTs
+r,*&(U
 string too long
+su<OsA
 terminate
 uCVj@
 v=Y]Bv
@@ -374,6 +383,7 @@ www.digicert.com1$0"
 {gamepad}/icons/gamepad_status_standby.png
 {gamepad}/input/gamepad_profile.json
 {un'%
+|>H7i\
 |Lu?c
 }LuHO
 ~qj#k"

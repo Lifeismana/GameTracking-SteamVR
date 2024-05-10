@@ -1412,7 +1412,6 @@
  )];y
  *0/0
  +D '
- -5!W
  -c showpage
  .XoO+@#$%&*=-;:>,<1234567890qwertyuipasdfghjklzxcvbnmMNBVCZASDFGHJKLPIUYTREWQ!~^/()_`'][{}|
  0%070<0N0S0
@@ -4059,7 +4058,6 @@ $~O="""
 1C3Y3^3m3r3
 1D1d1s1x1"2*272i2s2x2
 1D2H2
-1DQV)
 1E1a1
 1E2k2
 1F1K1Z1_1
@@ -4336,7 +4334,7 @@ $~O="""
 23383I3l3
 2384x3370
 24 24
-240506210925Z0/
+240509235904Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -5806,7 +5804,6 @@ $~O="""
 6J7Q7g7
 6J7R7]7
 6J7a7
-6J9Y_
 6K6P6f6u6
 6K6{6
 6K7g7
@@ -9831,7 +9828,6 @@ C %g %g %g %g %g %g
 C %g %g %g %g %g %g Z
 C 9G t
 C E;i
-C \KR3
 C$;x$
 C$VWP
 C$_[^
@@ -14188,7 +14184,6 @@ L$|_^[3
 L$|_^]3
 L%.20g
 L&&jl66Z~??A
-L(tNb
 L*A*B
 L*LrL
 L/Q0am
@@ -14473,6 +14468,7 @@ MIFF:%s
 MNG features are not allowed in a PNG datastream
 MODERN
 MONOCHROME1 
+MP:7R
 MPEG Video Stream
 MPEG-4 Video Stream
 MPEG:DECODE
@@ -14525,7 +14521,6 @@ MSVCP140.dll
 MT$H9t$h
 MT$l;
 MTV Raytracing image format
-MYA64
 M`SE0
 M`_^3
 Ma la volpe, col suo balzo, ha raggiunto il quieto Fido.
@@ -14997,7 +14992,6 @@ ODUUUUUU
 OI;MG:F@5?90=60A=8ME5SD.WLS
 OLEAUT32.dll
 OP_^][
-OQUzjc
 OUTBUFF_FULL
 OW%PXMPYuPZ
 OWhDB;
@@ -15180,6 +15174,7 @@ OverviewImage
 Owner Name
 OwrS=
 Ox@_^
+Oyx9/w
 O|$P;
 P&15PM
 P'PqP
@@ -16157,6 +16152,7 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDSl
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -19254,7 +19250,6 @@ _wstat64i32
 `SUVWj
 `Uh@J2
 `[ghostscript library %.2f]%s': %s
-`\V-z}q
 `_^]3
 ``6c3x
 `}@ReadXBMImage
@@ -19792,6 +19787,7 @@ cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
 cK`x;
+cUA5?@>L
 cache
 cache != NULL
 cache:%s
@@ -22325,6 +22321,7 @@ lwP+WE
 lwtpt
 lycian
 lydian
+m&LgQ
 m,!$;Y
 m0k0$
 m1WY$

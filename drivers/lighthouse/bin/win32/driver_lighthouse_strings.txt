@@ -1169,7 +1169,7 @@ $tI<unknown>
 230714000000Z
 232c2
 233J3q3}3
-240506210909Z0/
+240509235849Z0/
 241009235959Z0a1
 24292
 242<2H2l2
@@ -1378,6 +1378,7 @@ $tI<unknown>
 3f3|3
 3f4{4
 3g3R4
+3h7*"
 3j4=5
 3j4{4
 3j5u5
@@ -2540,6 +2541,7 @@ $tI<unknown>
 :h;l;p;t;x;
 :h;l;p;t;x;|;
 :i:r:
+:n.mp=_
 :n:v:
 :rota
 :v;T=f=
@@ -3013,6 +3015,7 @@ $tI<unknown>
 >!?&?9?
 >">'>.>E>N>W>`>e>j>x>
 >">E>
+>#1|k
 >#>(>->2>7><>A>F>K>P>U>Z>_>d>i>n>s>x>}>
 >#>*>
 >#>,>5>@>E>J>R>
@@ -3114,7 +3117,6 @@ $tI<unknown>
 >P?T?X?
 >R?|?
 >T>s>
->U)(P)
 >U>[>b>X?m?
 >X9t?
 >X?n?
@@ -3609,6 +3611,7 @@ D$4U3
 D$@PQ
 D$@SVW3
 D$LVP
+D(IR=
 D0M;D>
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
@@ -4184,7 +4187,7 @@ IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
-IVRCompositorSystemInternal_001
+IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
@@ -4613,7 +4616,6 @@ RENDERDOC_GetAPI
 RPCRT4.dll
 RPj#h`
 RQPh8
-RSDS|
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4659,7 +4661,6 @@ Rotors on basestation out of 180-degree phase lock.
 RpcStringFreeA
 RtlGetNtVersionNumbers
 S0Q0O
-S8,|,&
 S9~D~;
 S;~<t\;~@tW
 S<.uW
@@ -6700,7 +6701,6 @@ usbVID
 usedisambiguation
 userdata
 uvVj@
-uw&,s"
 uwj	h,
 uwj	h8
 uwj	hD
@@ -6828,6 +6828,7 @@ znear
 |{Y`f
 ||E~f
 }	jChHa
+}(L4vO
 }/lighthouse_scale.json
 }LuHO
 }M?/n

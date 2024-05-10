@@ -83,7 +83,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240506211723Z0/
+240510000042Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -103,10 +103,8 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-8-)"Xv
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-;_^=<
 <0:08
 =rIQU
 >0<0:
@@ -119,6 +117,7 @@
 @A^_^
 AuthD
 Bellevue1
+CSYrt
 CT$0H
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -134,6 +133,8 @@ GetSystemTimeAsFileTime
 H SWH
 H-^Eu
 H93t	H
+HL8&jn
+Hf_	d
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -169,6 +170,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDS&q
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -191,7 +193,6 @@ Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
-^Al8F
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -252,7 +253,7 @@ memmove
 memset
 modelNumber
 ntelD
-pvJK^
+qw\f%
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -264,6 +265,7 @@ t$ UWAVH
 t$@H=
 v=Y]Bv
 vector<T> too long
+vn5vr
 windowHeight
 windowWidth
 windowX
@@ -274,6 +276,5 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
-~,[)I0
 ~qj#k"
 ~t&LN

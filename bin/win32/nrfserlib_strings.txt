@@ -80,6 +80,7 @@ $Vh&*
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
+)1on{
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -524,6 +525,7 @@ $Vh&*
 .?AVwin_iocp_handle_service@detail@asio@@
 .?AVwin_iocp_io_context@detail@asio@@
 .?AVwin_iocp_serial_port_service@detail@asio@@
+.Bfo?
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU
@@ -708,7 +710,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240506210816Z0/
+240509235755Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -903,6 +905,7 @@ $Vh&*
 6!616A6Q6a6q6
 6!616A6Q6a6w6
 6!6B6Y6k6
+6!QbN
 6#6F6a6
 6#7V7h7
 6$6(6,646L6\6`6p6t6x6
@@ -982,7 +985,6 @@ $Vh&*
 7V7e7
 7V8J9
 7V8h8
-7Vsm&
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7t7y7~7
 8 8$8(8,808
@@ -1402,6 +1404,7 @@ $Vh&*
 ?_Xlength_error@std@@YAXPBD@Z
 ?_Xout_of_range@std@@YAXPBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
+?_eW!iE+_%
 ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
@@ -1670,7 +1673,6 @@ Extended Error: %s, %s
 F	^[]
 F(j4f
 F0R0w0}0
-F9f>9
 F<\uD
 FH;FDu
 FH<au
@@ -1775,7 +1777,6 @@ K(PPW
 K(PQh
 K,+K(+
 K,PQh
-K16	)
 KERNEL32.dll
 K}*n:	
 L0h364
@@ -1783,9 +1784,9 @@ L?n(Zy&
 LHB-DFU
 LINK_CONTROL_PACKET
 LeaveCriticalSection
+LeoW$
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
-LnDtGVi
 LocalFree
 Looking for external adpater.
 Looking for internal adpater.
@@ -2106,6 +2107,7 @@ Zipfile is corrupt or not a zipfile
 [K]taM?
 \0`0d0|0
 \Device Parameters
+]- &P
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2267,10 +2269,9 @@ j#h<M
 j$h i
 j(hHi
 jWhXG
-jaBA7
 jj@0HK4
+j~}$i
 k0i0$
-kIFUU
 l2|X/gGe
 list<T> too long
 lj!hh
@@ -2289,13 +2290,14 @@ memset
 mutex
 need dictionary
 nrfserlib.dll
+o@[L 
+oT~Hl9q
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
-qJ/{c
 realloc
 s?=2N
 sd_ble_cfg_set
@@ -2483,7 +2485,6 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
-yVUA%
 {L?uI
 {un'%
 |Lu?c

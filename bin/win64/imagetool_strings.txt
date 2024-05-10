@@ -1863,6 +1863,7 @@ $wtpt
 %6d unresolved strings
 %8.*g %.*g
 %8lu 
+%<E_j.
 %D -|
 %EndPhotoshop
 %I64i
@@ -2098,7 +2099,6 @@ $wtpt
 '<@!=9
 '>' required to close NOTATION declaration
 '@Ck1t
-'DhT \IE
 'I'z'
 'I;E 
 'Q?KVQ?
@@ -3721,7 +3721,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240506211750Z0/
+240510000112Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -3914,6 +3914,7 @@ $wtpt
 6OB,n_
 6gc6n
 6p#F'
+6s8Kx
 6ukE3
 6x6+0+0
 6|izA:/@A}o
@@ -3943,7 +3944,6 @@ $wtpt
 7H;H(
 7H;O }
 7P.F!
-7^7*3a7
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7v,=p
 8't#H
@@ -10517,6 +10517,7 @@ NTSCCompositeVideo
 NULL input profiles on transform
 NULL pointer
 NULL row buffer
+NXxQ 
 Name %s is not XML Namespace compliant
 Name expected in NOTATION declaration
 Name of Physician(s) Reading Study
@@ -11753,7 +11754,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSm
+RSDSr3
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14194,7 +14195,6 @@ Y5~t4
 Y9"SD
 Y: %.20g
 Y;OST
-Y<4])m]
 Y=.=4
 Y=B:4
 Y=G<4
@@ -14750,7 +14750,6 @@ _wstat64i32
 `QSEJ
 `[ghostscript library %.2f]%s': %s
 ``6c3x
-`gh{0
 `}@ReadXBMImage
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
@@ -14890,6 +14889,7 @@ b?8Nb?g}b?
 bH;} t
 bKGD must be after
 bKGD,caNv,cHRM,eXIf,gAMA,iCCP,iTXt,pHYs,sRGB,tEXt,zCCP,zTXt,date
+bKNMi6Q
 bZ!rj
 bZ5nP
 background
@@ -16446,7 +16446,6 @@ fuchsia
 fullname
 fum n
 func != NULL
-fv%.hs
 fwrite
 g	$$$
 g"5HR
@@ -20886,7 +20885,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 {?a4{?
 {?o}'
 {?q |?
-{CTlk
 {Hu,H
 {P@8s
 {`_{P

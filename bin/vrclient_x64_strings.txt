@@ -23,12 +23,15 @@
     STARTING INPUT FRAME
     Unused Resources: size:%zu
     Unused timelines: size:%zu
+    faceCount: %d, arraySize: %d, mipCount: %d
+    format: %d, sampleCount: %d
+    size: %d %d
   %s -> %s
   driver %s implements interfaces %s
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@@}
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -134,7 +137,6 @@
 #OriginString_HandController
 #OriginString_HandSource
 #OriginString_Source
-#i">D
 $IL+Q
 $tI(knN"
 $u0Hi
@@ -414,7 +416,11 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
+(%}a#
 ()$^.*+?[]|\-{},:=!
+(-Xd#
+(29;r
+(5*d#
 (9Q|uWH
 (A\^][
 (A\_^[
@@ -527,6 +533,7 @@ $w!Hc
 )D$ H
 )D$ I
 )D$ L
+)D$ M
 )D$ ff
 )D$0A
 )D$0D
@@ -543,10 +550,8 @@ $w!Hc
 )D$`D
 )D$pA
 )D$pH
-)J^^a=
 )L$ D
 )L$ fD
-)L$ ff
 )L$0A
 )L$0D
 )L$@D
@@ -631,6 +636,7 @@ $w!Hc
 +C,+C
 +L$@A
 +Xt@(
++bDOs
 +o'q)}
 , binary size = 
 , but got 
@@ -931,6 +937,7 @@ $w!Hc
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_019@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_020@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_021@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_022@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -1460,6 +1467,7 @@ $w!Hc
 .?AVCVRSteamPrivate_019@@
 .?AVCVRSteamPrivate_020@@
 .?AVCVRSteamPrivate_021@@
+.?AVCVRSteamPrivate_022@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1601,6 +1609,7 @@ $w!Hc
 .?AVIVRSteamPrivate_020@vr@@
 .?AVIVRSteamPrivate_021@vr@@
 .?AVIVRSteamPrivate_022@vr@@
+.?AVIVRSteamPrivate_023@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -2099,7 +2108,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240506212147Z0/
+240510000509Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2223,6 +2232,7 @@ $w!Hc
 ;K sMH
 ;K sOH
 ;t:=x3
+;tR=x3
 ;u"E3
 ;|$ r
 <	u#H
@@ -2233,7 +2243,6 @@ $w!Hc
 <	wzM
 < t+<
 <$A9~T
-<$HiL$p
 </u#H
 <0:08
 <Bu'H
@@ -2381,10 +2390,7 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@85\`.
-@8=Pf.
-@8=sg.
-@8=~e.
+@85)T.
 @8I+@0H
 @8i(u
 @8u$t0@8u#t*
@@ -2557,6 +2563,7 @@ A wireless HMD driver is present, but the wireless HMD has not connected yet (21
 A$A;B
 A+H,A
 A0H9A(tkH
+A3,TP
 A84(u
 A8EPH
 A8L+A0H
@@ -2780,7 +2787,6 @@ B84/u
 B9T	$t
 B9T	$u
 B9T)$t
-BD9%~W?
 BINORMAL
 BITANGENT
 BMP RLE
@@ -2815,7 +2821,7 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
-C-Hv5
+C-Xn5
 C0L9$
 C0L;E
 C0L;F
@@ -3400,6 +3406,7 @@ CreateFileMappingA
 CreateFileW
 CreateMutexA
 CreateProcessA
+CreateSwapchain
 CreateThread
 CreateVulkanImageFromD3D11TextureHandle: failed to find a LOCAL memory type
 CreateWellKnownSid
@@ -3451,6 +3458,7 @@ D$(H;
 D$(HcA
 D$(Hi
 D$(I;
+D$(L+
 D$(Lk
 D$(fH
 D$(fI
@@ -3518,6 +3526,7 @@ D$HI+
 D$HL;
 D$HfA
 D$PE3
+D$PH+
 D$PH9
 D$PH9Q
 D$PH;
@@ -3525,7 +3534,6 @@ D$PHc
 D$PI9E
 D$PI;
 D$PK9
-D$PL+
 D$PM;
 D$PMc
 D$PfA
@@ -3600,6 +3608,8 @@ D8,8u
 D8/u0
 D840u
 D84;u
+D85*K.
+D85`D/
 D8<>u
 D8d$P
 D8eHt6M9f0t0H
@@ -3817,8 +3827,6 @@ Expected color textures to have already been set above.
 Expected response %s, received %s. Rejecting response.
 Extra non-whitespace after JSON value.
 F ;C@t
-F H9E
-F(H9D$Pt$I
 F(H;EHrZuSH
 F(H;FHs
 F0L;G
@@ -4244,15 +4252,12 @@ H9/t	H
 H90t	H
 H93t	H
 H948t
-H95MA?
-H95PM?
-H95TF?
-H95[H?
-H95pM?
+H95H>?
+H95\>?
 H98t	H
+H98t/H9x
 H9;t	H
-H9=&D?
-H9=BD?
+H9=f5?
 H9A H
 H9APt M
 H9A`u}f
@@ -4314,14 +4319,14 @@ H;+u*
 H;0u7
 H;0u8H
 H;0u:H
-H;5Bv5
+H;5Rn5
 H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=:J"
-H;=JC"
-H;=nx"
+H;=*3"
+H;=Z'"
+H;=j8"
 H;A s
 H;Axt
 H;C(v
@@ -4491,7 +4496,6 @@ I9Bhs
 I9P s
 I9Q sEI
 I9W@t
-I9fxU
 I9u@tCH
 I9x s
 I;4$H
@@ -4584,7 +4588,7 @@ IVRClientCore_003
 IVRClientInternal_XXX
 IVRCompositor.CompositorQuit has been deprecated
 IVRCompositorPluginProvider_001
-IVRCompositorSystemInternal_001
+IVRCompositorSystemInternal_XXX
 IVRCompositor_
 IVRCompositor_003
 IVRCompositor_004
@@ -4736,6 +4740,7 @@ IVRSteamPrivate_019
 IVRSteamPrivate_020
 IVRSteamPrivate_021
 IVRSteamPrivate_022
+IVRSteamPrivate_023
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID
@@ -4782,7 +4787,6 @@ IVRWatchdogProvider_001
 IXrBinding::PostEndFrame
 IXrProto_001
 I\$(H
-I^E'+D
 Ic@,I
 IcO4H
 IcV E3
@@ -4916,6 +4920,7 @@ L$ SUVWAVH
 L$ SUVWH
 L$ SUWH
 L$ SVW
+L$ SVWAVH
 L$ SVWH
 L$ SWATAUAVH
 L$ SWH
@@ -4986,9 +4991,7 @@ L$P@89@
 L$PA;
 L$PE3
 L$PH3
-L$PH;
 L$PI+
-L$PI;
 L$XE3
 L$XH3
 L$XH;
@@ -5030,6 +5033,7 @@ L+I0E3
 L8 9J
 L8$9J
 L9 t&H
+L9%d"=
 L90t	H
 L97u0H
 L9?u,H
@@ -5554,7 +5558,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSg 
+RSDSz
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -6856,6 +6860,7 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
+W%+})
 W0H;C
 W4H;C
 W8H+W`I
@@ -7422,7 +7427,6 @@ XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
 Y9"SD
-Y=Pm)
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -7697,11 +7701,14 @@ ZvFailed to create fence %ls.
 [Settings] Unable to load driver defaults from %s
 [Settings] Unable to read path registry...
 [Settings] Using default values. No Json Settings available at %s
+[Simulation] Clearing device %d override properties
 [Simulation] Could not resolve %%LocalAppData%% in input profile simulation settings for %s. Skipping %s override. 
 [Simulation] Error in input profile simulation settings for %s. Missing property: %s 
 [Simulation] Error in input profile simulation settings. Likely invalid controller type. Aborting simulation. 
 [Simulation] Setting device %d with override properties for %s
 [SteamVR] Meta plugin compatibility conditions: %d %d %d %d
+[SteamVR] XrViewConfigurationView maxImageRect: %d %d
+[SteamVR] XrViewConfigurationView recommendedImageRect: %d %d
 [Tutorial] Adding tutorial action set %s twice!
 [Tutorial] Failed to generate action set handle for per-input tutorial action set
 [Tutorial] Found input path with unexpected prefix: %s
@@ -7746,6 +7753,7 @@ ZvFailed to create fence %ls.
 \$0H+
 \$0H;
 \$0I+
+\$0L+
 \$4D9
 \$88_
 \$8D;
@@ -7798,7 +7806,6 @@ ZvFailed to create fence %ls.
 \$xH;
 \$xHi
 \$xHk
-\10I;
 \\.\pipe\
 \mfpmp.exe
 \u=H;
@@ -7810,6 +7817,7 @@ ZvFailed to create fence %ls.
 ] is not a JSON object.
 ] name = "
 ] name = [
+]5gU*
 ]9k0tVD
 ]@L9{(
 ]HH;G
@@ -7944,6 +7952,7 @@ _wstat64i32
 `P@SH
 `PL+`HI
 `X@SH
+`^0&u
 ``@SH
 ``````````````````````````````````````````````````````````````````````````````````````````````````
 `accessors' does not contain an JSON object.
@@ -8630,7 +8639,6 @@ https://
 hu_hu
 hungarian
 iError calling pDownsampleRenderer->Draw()!
-iVr57>G?
 icon_steamvr_desktopgame.png
 ig@-?e
 illegal code in raster
@@ -9010,9 +9018,8 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5"T!
-o5or,
-o5{p,
+o5+e,
+o5<I!
 o@@fD
 oD$ fD
 oD$0f
@@ -9170,6 +9177,7 @@ pt_pt
 punct
 p}?discrete_scroll_trackpad_globalscalefactor
 qsort
+qvZ1koF
 r'w.H;
 r+w6I
 r,fff
@@ -9225,6 +9233,7 @@ s=fff
 sButtonTexts
 sCaptionText
 sMessageText
+sY:HO
 safe_mode_driver_whitelist.json
 sampler
 samplers
@@ -9861,6 +9870,7 @@ t$`Li
 t$`Lk
 t$`M;
 t$hE3
+t$hH+
 t$hHc
 t$hL;
 t$pE3
@@ -9872,17 +9882,16 @@ t$pfD
 t$pu'
 t$xI;
 t&@8t$`u5H9l$0u.H
+t'H9x
 t)H9P
-t+L9P
 t,fff
 t-A9D
 t1Hcl$@
 t1fff
 t3fff
-t4L9P
 t6H9.u1
 t7fff
-t8D8-a
+t8D8-
 t9fff
 t:fff
 t>H9n
@@ -9898,7 +9907,7 @@ tHI9t$
 tJL;y rDH
 tNI;X rHI
 tQ@8q4tKI
-tQH95wH?
+tQH95
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -9978,7 +9987,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=fD?
+t}H9=
 u	A;p(s
 u	A;y(s
 u	H9|$ tI
@@ -10848,7 +10857,6 @@ xA^A\_^][
 xA_A^A]A\][
 x_path
 xdigit
-xm'z.b-5
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
@@ -10978,7 +10986,6 @@ yxxxxxxxL
 yxxxxxxxL+
 zh_cn
 zh_tw
-zkaqP
 zlib corrupt
 znear
 { "type": "keyboard_hidden" }
@@ -11052,7 +11059,6 @@ znear
 |$HHc
 |$HI+
 |$HL+
-|$HL;
 |$L!u
 |$L!u	
 |$L@8
@@ -11089,7 +11095,6 @@ znear
 |$xIi
 |$xIk
 |$xL;
-|:kS=
 |D8E t"H
 |Lu?c
 |s;K(tnA
@@ -11106,7 +11111,6 @@ znear
 ~3LcD$(L
 ~6HcD$ I
 ~Cfff
-~D36M
 ~PH9~Xt(H
 ~qj#k"
 ~t&LN

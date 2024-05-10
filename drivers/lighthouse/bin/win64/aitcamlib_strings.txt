@@ -19,7 +19,6 @@
 !(0)"
 !hn7!
 "9k0t
-"<Gf:
 #*1892+$
 #9i0t
 #?RADIANCE
@@ -29,7 +28,7 @@
 %,3:;4-&
 %9k0t
 %9{0t
-%b6od
+%Ou{Y
 &9k0t
 &D9c0t
 &D9k0t
@@ -38,7 +37,6 @@
 '.5<=6/7>????????????????
 '9k0t
 'D9c0t
-(>zqO:
 (A\^][
 (A^A]^[
 (A^A]_[
@@ -180,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240506211456Z0/
+240509235813Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -192,6 +190,7 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+4E^AW>
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -295,7 +294,6 @@ Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
 AuthD
-A}'?Oy
 BMP RLE
 Bellevue1
 C<unknown>
@@ -391,7 +389,7 @@ IVRChaperoneInternal_001
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
-IVRCompositorSystemInternal_001
+IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
@@ -469,7 +467,6 @@ OutputDebugStringA
 PA^_^
 PA_A^A]A\[
 PAq=?Mp#
-PH9f/;zD
 PauseCamera
 PauseCamera (delayed...)
 PauseCamera (immediate)
@@ -480,6 +477,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDS,
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -592,7 +590,6 @@ Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
-[HvX1
 [K]taM?
 \$ E3
 \$ UH
@@ -606,7 +603,6 @@ Z9k0tUD
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
-^wYyKrn
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -752,7 +748,6 @@ fseek
 g9k0t_D
 german
 gfffffffH
-gh5$'
 greek
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -840,7 +835,6 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
-r@.Nd
 rND9{0t
 read past buffer
 ro_ro
@@ -906,6 +900,7 @@ unknown marker
 unsupported bit depth
 unsupported data layout
 unsupported format
+v2ev k{
 v=Y]Bv
 vHcD$LH
 vi_vn

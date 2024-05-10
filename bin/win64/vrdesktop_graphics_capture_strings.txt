@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	/jalra
  %41g
  A_A^A\
  A_A^A]A\_
@@ -13,15 +12,17 @@
  A__[
  A__^
  H3E H3E
+ `|jt.
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
+!1jYS:9+;|%<
 !hn7!
-#<Ra-
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
 ',=?k
+(?Gpe5
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -43,7 +44,6 @@
 ,W5y+
 -1e+9999
 -Infinity
--neI4
 -u-I;
 .00cfg
 .?AUIInteractableOverlay@@
@@ -184,7 +184,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240506212245Z0/
+240510000610Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -206,6 +206,7 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8HOdX
 8_^][
 9D$xu
 9D$|toH
@@ -216,6 +217,7 @@
 =rIQU
 >0<0:
 >Mp$d
+>aP+,
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -329,6 +331,7 @@ Access to desktop duplication lost for desktop %d.
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
+B(,mi
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -452,6 +455,7 @@ Error setting foreground window.
 Error setting window position.
 Error showing window.
 Error uploading cursor texture for desktop %d.
+Esb 4v.
 Exceeded stackLimit in readValue().
 Exception encountered closing capture frame pool (%d): %s
 Exception encountered closing graphics capture session (%d): %s
@@ -571,7 +575,7 @@ IVRChaperoneInternal_001
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
-IVRCompositorSystemInternal_001
+IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
@@ -640,7 +644,6 @@ LoadCursorA
 LoadLibraryA
 LocalFree
 LocalizationManager
-Lyt0g
 M H1E
 M98u/
 MB(iVR
@@ -655,6 +658,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
+Nij0?z
 OLEAUT32.dll
 OpenProcess
 OpenProcess failed for pid = %d. Error: %s
@@ -670,6 +674,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RSDS^
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
@@ -730,7 +735,6 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
-U>r ,
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -798,8 +802,8 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
+Wlf34
 Y9"SD
-ZcF}Z
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -977,7 +981,6 @@ l2|X/gGe
 latam
 list<T> too long
 m0k0$
-mA{7B
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -1005,9 +1008,8 @@ portuguese
 product_name
 pt_br
 pt_pt
-q[w']
-r(C#U
 r,fff
+r\26T<
 request_destroy_window_view
 request_handlers
 request_handlers_response
@@ -1091,8 +1093,10 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
+yQ2Ri5BS
 zh_cn
 zh_tw
+ziL 5
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH
@@ -1110,7 +1114,6 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
-|TW>oB
 }LuHO
 ~qj#k"
 ~t&LN

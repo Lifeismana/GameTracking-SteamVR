@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	O0qQ
  %41g
  A_A^A\
  A_A^A]A\_
@@ -16,11 +15,10 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
-!@{6!
 !hn7!
+!p}T.Ki
 %%.%dg
 %s%s%s%s%s
-%}|}r
 ' is not a number.
 ',=?k
 (A\_^[
@@ -168,7 +166,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240506212234Z0/
+240510000559Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -402,6 +400,7 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
+FGZP*h
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -505,7 +504,7 @@ IVRChaperoneInternal_001
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
-IVRCompositorSystemInternal_001
+IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
@@ -600,7 +599,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSl
+R1L11l5
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -757,6 +756,7 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 `A_A^A]A\_^]
+`[VW=
 a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
@@ -837,7 +837,6 @@ ja_jp
 japanese
 jj@0HK4
 k0i0$
-k_*KU
 kernel32.dll
 ko_kr
 koreana
@@ -873,6 +872,7 @@ polish
 portuguese
 pt_br
 pt_pt
+q4{dE
 r,fff
 request_handlers
 request_handlers_response
@@ -942,10 +942,8 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
-z$A.B
 zh_cn
 zh_tw
-{&4qi
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH
@@ -964,6 +962,5 @@ zh_tw
 |$pH+
 |Lu?c
 }LuHO
-~Zfyv
 ~qj#k"
 ~t&LN

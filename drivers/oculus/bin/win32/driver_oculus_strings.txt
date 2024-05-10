@@ -43,6 +43,7 @@
 !&.37<
 !(0)"
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
+!.Ue6
 !9~ t
 !hn7!
 " not found in the scene.
@@ -107,6 +108,7 @@ $9^ t
 , column 
 , last executing in 
 , requestedBytes 
+,(kGc
 ,W5y+
 ,^_[]
 -1003
@@ -465,7 +467,7 @@ $9^ t
 222N2h2
 230714000000Z
 233Q3o3
-240506210916Z0/
+240509235855Z0/
 241009235959Z0a1
 24484<4@4D4H4L4P4T4X4\4
 262C2a2p2
@@ -544,7 +546,6 @@ $9^ t
 3C3Y3
 3E3_3
 3I4u4
-3Ix8_
 3J4k4
 3T9X9
 3\4u4
@@ -994,6 +995,7 @@ $9^ t
 <X=\=`=d=h=l=p=t=x=|=
 <^=g=k=
 <b=i=
+<c=f"
 <n=J>
 <n?s?z?
 <parse error>
@@ -1207,13 +1209,13 @@ A;O(r
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ADVAPI32.dll
 ASSERT: "%s" at %s:%d.
+Aaaf;s
 Accessor
 Adobe
 AnimationChannel
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
-A~h>?gs
 B(+B$
 BINORMAL
 BMP RLE
@@ -1246,7 +1248,6 @@ COLOR
 COculusHmdLatest::UpdateThread
 COculusState::CreateSession
 CServerDriver_Oculus::Cleanup
-C`Ff 
 Camera
 CertGetNameStringW
 Chaperone updated with universe ID %d
@@ -1258,6 +1259,7 @@ CreateEventW
 CreateFileW
 CreateSession was invoked without calling DestroySession, textures may have been leaked.
 CreateThread
+D%`]OT
 D1H1L1P1T1X1\1`1d1h1l1p1t1
 D3D11CreateDevice
 DXGI_ERROR_DEVICE_HUNG
@@ -1378,7 +1380,7 @@ IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
-IVRCompositorSystemInternal_001
+IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDisplayComponent_003
@@ -1515,6 +1517,7 @@ Program Files
 Pz}b!
 Q9F t
 Qkkbal
+Qp1e0
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
@@ -1752,6 +1755,7 @@ _wstat64i32
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
+a	@C2
 a7hIw
 abort
 accessor[
@@ -2092,7 +2096,6 @@ not enough pixels
 null literal
 number literal
 number overflow parsing '
-o31VG]A
 object
 object key
 object separator
@@ -2448,7 +2451,6 @@ sv_se
 swedish
 syntax error 
 t	_^2
-t#65 
 t$,RW
 t$j$hTp
 t?hHr

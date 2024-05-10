@@ -13,6 +13,7 @@ $9^ t
 %UUUU
 ',=?k
 '.5<=6/7>????????????????
+'89Np8N
 (Enumerating)
 (General Failure)
 (Hub Nested Too Deeply)
@@ -27,7 +28,6 @@ $9^ t
 , last executing in 
 ,W5y+
 .00cfg
-.3?z6
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
 .?AV<lambda_ea0bc075bdac3149d525cc078e8075ba>@@
@@ -168,7 +168,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-240506210812Z0/
+240509235752Z0/
 241009235959Z0a1
 282<2@2D224b4
 292m2
@@ -234,6 +234,7 @@ $9^ t
 6'6.6G6N6g6n6
 6(626A6Q6a6m6s6
 6*f(_
+6*qfz
 607c7l8{9
 618<8
 666E6N6T6Z6
@@ -326,6 +327,7 @@ $9^ t
 =,=L=l=
 =1=A=Q=]=i=s=
 =L=P=p=
+=kI3 @4E'
 =rIQU
 >$>6><>
 >(?r?y?
@@ -408,7 +410,6 @@ EventUnregister
 EventWriteString
 EventWriteTransfer
 F(j4f
-F9f@(
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
@@ -434,7 +435,7 @@ IVRChaperoneInternal_001
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
-IVRCompositorSystemInternal_001
+IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
@@ -482,10 +483,10 @@ Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Not Available
 NotFound
-OfE/J
 Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
+P($Qk$
 P<^_3
 PAq=?Mp#
 PID_%04X
@@ -498,7 +499,7 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSOO
+RSDSK
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -589,6 +590,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
+X70To
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -651,6 +653,7 @@ api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+b=f<j
 bad AC huff
 bad APP len
 bad BMP
@@ -765,7 +768,6 @@ memset
 missing color table
 multiple IHDR
 nb_no
-nk<q6
 nl_nl
 no IDAT
 no PLTE
@@ -851,11 +853,8 @@ www.digicert.com1$0"
 zh_cn
 zh_tw
 zlib corrupt
-{J(5v
-{uO!$
 {un'%
 |Lu?c
-|VnK-
 }LuHO
 ~qj#k"
 ~t&LN
