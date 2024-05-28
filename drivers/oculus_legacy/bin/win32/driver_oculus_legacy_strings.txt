@@ -3,12 +3,9 @@
  (Camera)
 !hn7!
 ',=?k
-'Vh}A
 (Unable to load LibOVR)
 (f*^[0
-)$"U=,
 +Xt@(
-+`&=d
 +o'q)}
 , last executing in 
 ,W5y+
@@ -94,7 +91,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240509235858Z0/
+240525010639Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -114,6 +111,7 @@
 370322235959Z0c1
 380115120000Z0b1
 384<4@4D4\4`4h4
+3as|\
 3mq+<
 3v4!5_5s5}5
 4$4*4/454@4F4U4\4a4j4o4x4
@@ -121,6 +119,7 @@
 4&565>5F5
 4'414;4E4O4Y4c4m4w4
 4'4L4n4
+4[7z(G
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5X6\6`6d6h6l6p6t6x6|6
 5$5(5,545L5\5`5p5t5x5
@@ -271,6 +270,8 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+JrI[Z
+Jxu_o
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -292,7 +293,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSJ
 RaiseException
 S0Q0O
 SA|X=G
@@ -314,7 +314,6 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
-Ue}x!n*p
 Unable to create texture set for pid %u: %s
 Unable to init oculus camera tracker
 UnhandledExceptionFilter
@@ -468,11 +467,11 @@ tdh.dll
 terminate
 u7j8Q
 uCVj@
-v(X8J
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+x.fE2
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

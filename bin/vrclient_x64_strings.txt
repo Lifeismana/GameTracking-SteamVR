@@ -31,7 +31,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@0
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -416,11 +416,7 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%}a#
 ()$^.*+?[]|\-{},:=!
-(-Xd#
-(29;r
-(5*d#
 (9Q|uWH
 (A\^][
 (A\_^[
@@ -636,7 +632,6 @@ $w!Hc
 +C,+C
 +L$@A
 +Xt@(
-+bDOs
 +o'q)}
 , binary size = 
 , but got 
@@ -1786,6 +1781,7 @@ $w!Hc
 /input/finger/splay_thumb_index
 /input/finger/thumb
 /input/grip
+/input/grip/click
 /input/grip/pose
 /input/guide
 /input/guide/click
@@ -2108,7 +2104,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240510000509Z0/
+240525011748Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2165,6 +2161,7 @@ $w!Hc
 98t3H
 98tHH
 9;tC@8{
+9=4&9
 9A@~%H
 9C s.H
 9C }.H
@@ -2227,6 +2224,8 @@ $w!Hc
 :\u6L
 ; expected 
 ; last read: '
+;(E7L
+;<QfZ
 ;C$u	A
 ;I#F0H
 ;K sMH
@@ -2380,6 +2379,7 @@ $w!Hc
 ?uncaught_exception@std@@YA_NXZ
 ?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+?wH{"8
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
@@ -2390,7 +2390,7 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@85)T.
+@85	`.
 @8I+@0H
 @8i(u
 @8u$t0@8u#t*
@@ -2560,10 +2560,10 @@ A H+A
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
+A#f:>
 A$A;B
 A+H,A
 A0H9A(tkH
-A3,TP
 A84(u
 A8EPH
 A8L+A0H
@@ -2821,7 +2821,8 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
-C-Xn5
+C-8z5
+C-uz5
 C0L9$
 C0L;E
 C0L;F
@@ -2848,7 +2849,6 @@ CD$@I
 CD$HH
 CD$P3
 CD$PL
-CD$PM
 CD$XH
 CD$`3
 CD$`H
@@ -3416,6 +3416,7 @@ Created depth texture '%s' %dx%d (Format=%d, SampleCount=%d)
 Created shared texture '%s' %dx%d (%d mips)
 Ct$8H
 Ct$@H
+CuxE2
 Cx<au
 Cx<bu
 Cx<cuW
@@ -3425,7 +3426,6 @@ C|$0L
 C|$0M
 C|$@H
 C|$PL
-C}xE2
 D$ 9]dvnL
 D$ A;
 D$ E3
@@ -3608,8 +3608,7 @@ D8,8u
 D8/u0
 D840u
 D84;u
-D85*K.
-D85`D/
+D85@P/
 D8<>u
 D8d$P
 D8eHt6M9f0t0H
@@ -4252,12 +4251,12 @@ H9/t	H
 H90t	H
 H93t	H
 H948t
-H95H>?
-H95\>?
+H95HN?
+H95\N?
 H98t	H
 H98t/H9x
 H9;t	H
-H9=f5?
+H9=fE?
 H9A H
 H9APt M
 H9A`u}f
@@ -4319,14 +4318,16 @@ H;+u*
 H;0u7
 H;0u8H
 H;0u:H
-H;5Rn5
+H;52z5
+H;5oz5
 H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=*3"
-H;=Z'"
-H;=j8"
+H;=*="
+H;=:>"
+H;=J?"
+H;=z3"
 H;A s
 H;Axt
 H;C(v
@@ -4481,6 +4482,7 @@ HmdDriverFactory
 HmdSystemFactory
 How did we get here with a non-position slot?
 Hu"Hc
+H|y>D
 I(+K H
 I(I+I H
 I+G@H
@@ -4896,6 +4898,7 @@ K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
 KHR_lights_punctual
+KN*!ra
 Kf;;u
 KfD;3u
 KpH+KhH
@@ -5033,7 +5036,7 @@ L+I0E3
 L8 9J
 L8$9J
 L9 t&H
-L9%d"=
+L9%d2=
 L90t	H
 L97u0H
 L9?u,H
@@ -5558,7 +5561,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDSz
+RSDS9
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5883,7 +5886,6 @@ T$hE3
 T$hH;T$pu
 T$hu(
 T$pD;
-T$pE3
 T$pH#E
 T$pHcM8
 T$pI9D$ 
@@ -6860,7 +6862,6 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
-W%+})
 W0H;C
 W4H;C
 W8H+W`I
@@ -6923,6 +6924,7 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
+X5jv"
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7427,6 +7429,7 @@ XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
 Y9"SD
+Y=0s)
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -7817,7 +7820,7 @@ ZvFailed to create fence %ls.
 ] is not a JSON object.
 ] name = "
 ] name = [
-]5gU*
+]5Ga*
 ]9k0tVD
 ]@L9{(
 ]HH;G
@@ -7952,7 +7955,6 @@ _wstat64i32
 `P@SH
 `PL+`HI
 `X@SH
-`^0&u
 ``@SH
 ``````````````````````````````````````````````````````````````````````````````````````````````````
 `accessors' does not contain an JSON object.
@@ -8549,6 +8551,7 @@ fwrite
 fxL9f0H
 g(u^H
 g9k0t_D
+g:n*)nC
 gamepad
 generator
 generic
@@ -9018,8 +9021,7 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5+e,
-o5<I!
+o5+u,
 o@@fD
 oD$ fD
 oD$0f
@@ -9177,7 +9179,6 @@ pt_pt
 punct
 p}?discrete_scroll_trackpad_globalscalefactor
 qsort
-qvZ1koF
 r'w.H;
 r+w6I
 r,fff
@@ -9233,7 +9234,6 @@ s=fff
 sButtonTexts
 sCaptionText
 sMessageText
-sY:HO
 safe_mode_driver_whitelist.json
 sampler
 samplers
@@ -10802,7 +10802,6 @@ vrwebhelper
 vrwebhelper.exe
 vulkan-1.dll
 w(M9w0tH
-wXH9w`t/H
 watchdog_controller
 watchdog_hmd
 watchdog_unknown
@@ -11112,6 +11111,7 @@ znear
 ~6HcD$ I
 ~Cfff
 ~PH9~Xt(H
+~XH9~`t+H
 ~qj#k"
 ~t&LN
 ~universe:

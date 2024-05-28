@@ -1863,7 +1863,6 @@ $wtpt
 %6d unresolved strings
 %8.*g %.*g
 %8lu 
-%<E_j.
 %D -|
 %EndPhotoshop
 %I64i
@@ -3721,7 +3720,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240510000112Z0/
+240525011354Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -3914,7 +3913,6 @@ $wtpt
 6OB,n_
 6gc6n
 6p#F'
-6s8Kx
 6ukE3
 6x6+0+0
 6|izA:/@A}o
@@ -4169,6 +4167,7 @@ $wtpt
 ;G$|*H
 ;GIF89a
 ;H91v4
+;HFZ|
 ;M {x
 ;P?<jP?|
 ;Q0t	
@@ -10004,6 +10003,7 @@ Levelize/Image
 LevelizeImage
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LiL$p
+Li`9Pt
 Li`Qi`Qi`QjaRjaQk_Zk__kaVkaTkaXlaRkbNZVDDF8<C55C1?C)
 Libpng jmp_buf still allocated
 Light
@@ -10138,6 +10138,7 @@ M' pozz magna' o'vetr, e nun m' fa mal.
 M'(:fjgl4
 M(u	I
 M)AxI
+M*ml.T
 M+^(M
 M-|];
 M0v	D
@@ -10517,7 +10518,6 @@ NTSCCompositeVideo
 NULL input profiles on transform
 NULL pointer
 NULL row buffer
-NXxQ 
 Name %s is not XML Namespace compliant
 Name expected in NOTATION declaration
 Name of Physician(s) Reading Study
@@ -11653,6 +11653,7 @@ Q H;Q(
 Q Z# 
 Q$A9P$y
 Q(H+Q H
+Q;QfG
 Q>JBR>L
 QC)\C
 QCannot load font '%s
@@ -11754,7 +11755,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSr3
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14536,6 +14536,7 @@ _CxxThrowException
 _RDATA
 _R_\HES;2?);E0BJ69A04;.49578,LW3r
 _W4~w
+_ZR\QF
 _\cf3
 __C_specific_handler
 __CxxFrameHandler3
@@ -14889,7 +14890,6 @@ b?8Nb?g}b?
 bH;} t
 bKGD must be after
 bKGD,caNv,cHRM,eXIf,gAMA,iCCP,iTXt,pHYs,sRGB,tEXt,zCCP,zTXt,date
-bKNMi6Q
 bZ!rj
 bZ5nP
 background
@@ -20810,6 +20810,7 @@ yellow3
 yellow4
 yep:%d:%04x
 yi~(@`
+ymx7ub
 yrI,D
 z"u A
 z#u!H

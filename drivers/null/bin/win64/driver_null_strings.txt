@@ -2,7 +2,9 @@
  %41g
  A__^
  H3E H3E
+!D?dr
 !hn7!
+$nU,?
 ',=?k
 (f*^[0
 +Xt@(
@@ -83,7 +85,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240510000042Z0/
+240525011325Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -105,6 +107,7 @@
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+9K)n7
 <0:08
 =rIQU
 >0<0:
@@ -117,7 +120,6 @@
 @A^_^
 AuthD
 Bellevue1
-CSYrt
 CT$0H
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -127,14 +129,13 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E_jj`Y
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
 H SWH
 H-^Eu
 H93t	H
-HL8&jn
-Hf_	d
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
@@ -170,7 +171,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS&q
+RSDSR
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -220,6 +221,7 @@ _seh_filter_dll
 _stricmp
 `.rdata
 a7hIw
+aa^36
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -253,7 +255,6 @@ memmove
 memset
 modelNumber
 ntelD
-qw\f%
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons
@@ -265,7 +266,6 @@ t$ UWAVH
 t$@H=
 v=Y]Bv
 vector<T> too long
-vn5vr
 windowHeight
 windowWidth
 windowX

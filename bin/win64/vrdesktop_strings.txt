@@ -16,7 +16,6 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-!p}T.Ki
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -166,7 +165,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240510000559Z0/
+240525011838Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -179,6 +178,7 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+4{UIH
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -304,6 +304,7 @@ AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Access to desktop duplication lost for desktop %d.
 AttemptSendInput failed.
 AuthD
+BBYWk
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -400,7 +401,6 @@ Error releasing duplication frame.
 Error uploading cursor texture for desktop %d.
 Exceeded stackLimit in readValue().
 Executable: %s
-FGZP*h
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -599,7 +599,7 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R1L11l5
+RSDSZ
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
@@ -756,7 +756,6 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 `A_A^A]A\_^]
-`[VW=
 a7hIw
 abort
 additional six characters expected to parse unicode surrogate pair.
@@ -833,6 +832,7 @@ in Json::Value::setComment(): Comments must start with /
 invalid string position
 it_it
 italian
+j!}23v
 ja_jp
 japanese
 jj@0HK4
@@ -848,6 +848,7 @@ l2|X/gGe
 latam
 list<T> too long
 m0k0$
+m<Qf@
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -872,7 +873,6 @@ polish
 portuguese
 pt_br
 pt_pt
-q4{dE
 r,fff
 request_handlers
 request_handlers_response

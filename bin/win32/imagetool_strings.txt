@@ -1567,6 +1567,7 @@
 !u*p=g
 !waPSR
 !{	8I%
+!}NWr
 " of size %lux%lu%+ld%+ld
 " shape="rect" coords="%.20g,%.20g,%.20g,%.20g" alt="" />
 " transform="matrix(%g %g %g %g %g %g)">
@@ -1965,6 +1966,7 @@ $~O="""
 %gx%g!
 %gx%g%+.15g%+.15g
 %gx%g%+g%+g
+%h!E2X
 %hd, 
 %hu, 
 %lf%*[ ,]%lf
@@ -2094,6 +2096,7 @@ $~O="""
 %u)9~`u$
 %u<QR
 %ux%u
+%xdrM
 %~* T
 &!&!*!+!.!.!
 &#%d;
@@ -4334,7 +4337,7 @@ $~O="""
 23383I3l3
 2384x3370
 24 24
-240509235904Z0/
+240525010645Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -5224,6 +5227,7 @@ $~O="""
 4^d;@
 4_495Z5{5
 4_4x4
+4_N`P
 4_^][
 4_^][Y
 4`5h5
@@ -8118,6 +8122,7 @@ $~O="""
 <@<H<
 <@=G=
 <@En[vP
+<@i!V
 <A<`<j<o<
 <A=j=
 <A=q=
@@ -14468,7 +14473,6 @@ MIFF:%s
 MNG features are not allowed in a PNG datastream
 MODERN
 MONOCHROME1 
-MP:7R
 MPEG Video Stream
 MPEG-4 Video Stream
 MPEG:DECODE
@@ -15174,7 +15178,6 @@ OverviewImage
 Owner Name
 OwrS=
 Ox@_^
-Oyx9/w
 O|$P;
 P&15PM
 P'PqP
@@ -16152,7 +16155,6 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSl
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -18993,6 +18995,7 @@ Zoom Select Status
 ^-1.0*
 ^-pR1
 ^1c1r1w1
+^5IS@x
 ^?y?^?
 ^DUW;
 ^HSVU
@@ -19787,7 +19790,6 @@ cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
 cK`x;
-cUA5?@>L
 cache
 cache != NULL
 cache:%s
@@ -20055,6 +20057,7 @@ d9h9l9t9x9|9
 d:HrxV
 d? je?a lub o?m skrzy? fig.
 dB/dt
+dBS+_di#Vg
 dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
 d_7y3B
 dagger
@@ -22236,6 +22239,7 @@ l2|X/gGe
 l6qnk
 l<"-y<
 l<}2l
+l=JhH
 lLVD782782994<:5@=8B:8A95=73<75:549009//61.62.63.641973?72B90H=1J>4H=4B80@61?62<94C54A50<6*E5'c6-
 lO"c3
 lQ 6|+G
@@ -22321,7 +22325,6 @@ lwP+WE
 lwtpt
 lycian
 lydian
-m&LgQ
 m,!$;Y
 m0k0$
 m1WY$
@@ -22471,6 +22474,7 @@ mutex unlock failed
 mvg:%s
 mvg:vector-graphics
 myanmar
+m|T&&u
 n	&&&
 n == 0 || string != NULL
 n b?l?i.

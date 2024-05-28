@@ -80,7 +80,6 @@ $Vh&*
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
-)1on{
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -525,7 +524,6 @@ $Vh&*
 .?AVwin_iocp_handle_service@detail@asio@@
 .?AVwin_iocp_io_context@detail@asio@@
 .?AVwin_iocp_serial_port_service@detail@asio@@
-.Bfo?
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU
@@ -710,7 +708,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240509235755Z0/
+240525010532Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -905,7 +903,6 @@ $Vh&*
 6!616A6Q6a6q6
 6!616A6Q6a6w6
 6!6B6Y6k6
-6!QbN
 6#6F6a6
 6#7V7h7
 6$6(6,646L6\6`6p6t6x6
@@ -1404,7 +1401,6 @@ $Vh&*
 ?_Xlength_error@std@@YAXPBD@Z
 ?_Xout_of_range@std@@YAXPBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
-?_eW!iE+_%
 ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
@@ -1639,6 +1635,7 @@ Discovered Service. UUID: 0x%04X, start_handle: %d, end_handle: %d
 Discovering Characteristics on handles [%d..%d].
 Discovering Descriptors on handles [%d..%d]
 Discovering Services at %d.
+DizXP
 DoAttributeDiscoveryContext
 DoAuthenticationContext
 DoBootloaderModeContext
@@ -1649,6 +1646,7 @@ DoScanContext
 DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
+E[>pD
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1784,7 +1782,6 @@ L?n(Zy&
 LHB-DFU
 LINK_CONTROL_PACKET
 LeaveCriticalSection
-LeoW$
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 Line %d, Column %d
 LocalFree
@@ -2070,6 +2067,7 @@ VjqSPW
 VjrSPW
 VjySPW
 Vj{SPW
+W'%WM
 W9shvN3
 WAKEUP
 WOKEN
@@ -2107,7 +2105,6 @@ Zipfile is corrupt or not a zipfile
 [K]taM?
 \0`0d0|0
 \Device Parameters
-]- &P
 ]J<0"0i3
 ^[0-9]+$
 _Cnd_broadcast
@@ -2270,7 +2267,6 @@ j$h i
 j(hHi
 jWhXG
 jj@0HK4
-j~}$i
 k0i0$
 l2|X/gGe
 list<T> too long
@@ -2290,14 +2286,13 @@ memset
 mutex
 need dictionary
 nrfserlib.dll
-o@[L 
-oT~Hl9q
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
+qC?y[BKH#
 realloc
 s?=2N
 sd_ble_cfg_set

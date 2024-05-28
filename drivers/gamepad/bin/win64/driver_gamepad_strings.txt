@@ -4,7 +4,6 @@
  H3E H3E
 !hn7!
 ',=?k
-'iR@d6
 (D$ f
 (f*^[0
 (|$pL
@@ -98,7 +97,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240509235930Z0/
+240525011215Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -115,7 +114,6 @@
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
-6M$/(
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
@@ -126,6 +124,8 @@
 =rIQU
 >0<0:
 >Mp$d
+>_ZVZ
+?5|"7
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -153,13 +153,13 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-En_LX
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
+GysXq
 H SWH
 H-^Eu
 H93t	H
@@ -185,7 +185,6 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-IX}+p
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
@@ -193,7 +192,6 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-Jg'~A
 KERNEL32.dll
 K}*n:	
 L$ SH
@@ -212,7 +210,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS^
+RSDS+M
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -307,6 +305,7 @@ _register_onexit_function
 _seh_filter_dll
 `.rdata
 a7hIw
+aZ1>b
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -331,6 +330,8 @@ memmove
 memset
 ntelD
 p WAVAWH
+pE%hP
+qnJ%i
 string too long
 t$ AVH
 t$ AWH
@@ -340,7 +341,6 @@ tXfff
 terminate
 v=Y]Bv
 vector<T> too long
-wg2%?l
 www.digicert.com1!0
 www.digicert.com1$0"
 {gamepad}/icons/gamepad_status_error.png
@@ -354,6 +354,7 @@ www.digicert.com1$0"
 {gamepad}/input/gamepad_profile.json
 {un'%
 |$ AVH
+|0PV[
 |Lu?c
 }LuHO
 ~qj#k"

@@ -1,11 +1,7 @@
 	!s99
  %41g
-!ZwO-
 !hn7!
-%ESU$n
-&y]p'
 ',=?k
-(- 1R
 (f*^[0
 +Xt@(
 +o'q)}
@@ -108,7 +104,7 @@
 220801000000Z
 223C3
 230714000000Z
-240509235836Z0/
+240525010618Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -165,7 +161,6 @@
 9H9L9P9h9l9,:0:4:H:L:P:l:p:
 9J;v;
 :!:*:3:<:A:F:M:R:^:
-:%d/h
 :&:Y<*=<=E=P=v=
 ; ;x;|;
 ;#;,;1;6;=;B;N;p;
@@ -192,6 +187,7 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
+B[2MU
 Bellevue1
 CloseHandle
 CreateEventW
@@ -204,6 +200,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+EO`2@
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -239,19 +236,18 @@ J>@G_
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
-Lhsg<
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
 MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+NW^ES
 Out of thread local storage!
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSt
 RaiseException
 S0Q0O
 SA|X=G
@@ -299,7 +295,6 @@ Y9"SD
 Y__^[
 [K]taM?
 ]J<0"0i3
-^"[FNF
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -339,6 +334,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+a	%-2
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -348,25 +344,23 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
-eBR]s^
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+ime+.&
 jj@0HK4
 k0i0$
 l2|X/gGe
+l`.Fb
 m0k0$
 malloc
 map/set<T> too long
 memcpy
 memmove
 memset
-pCqTs
-r,*&(U
 string too long
-su<OsA
 terminate
 uCVj@
 v=Y]Bv
@@ -383,7 +377,6 @@ www.digicert.com1$0"
 {gamepad}/icons/gamepad_status_standby.png
 {gamepad}/input/gamepad_profile.json
 {un'%
-|>H7i\
 |Lu?c
 }LuHO
 ~qj#k"

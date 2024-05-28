@@ -4373,6 +4373,7 @@
                     s.Uk.HasCamera_Bool,
                   ))
             ) &&
+            "internet_settings" != e.controller &&
             !!(
               e.controller != C.Name ||
               (S.G3.systemInfo && S.G3.systemInfo.os_type >= 0)
@@ -18316,4 +18317,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=172db46594cd4a144c8c
+//# sourceMappingURL=vrwebui_shared.js.map?v=a27209f15f3d2b8c7ff4

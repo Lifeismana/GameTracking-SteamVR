@@ -23,6 +23,7 @@
 		} } },
 	!s99
 	{ 0x%x, 0x%x, %d, %d, {
+ 	om^
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
     A
@@ -47,7 +48,6 @@
  A_^]
  A__^
  H3E H3E
- _G"F&
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
@@ -58,6 +58,7 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
+""B2^.
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -312,6 +313,7 @@ $9E0u
 %u != %zu
 ',=?k
 ( nVertexCount % 3 ) == 0
+(/hy3
 (A\_^[
 (A^A]^[
 (A_A^A\[
@@ -357,9 +359,10 @@ $9E0u
 +Xt@(
 +o'q)}
 , last executing in 
+,.a'K
 ,W5y+
-,sbf!
 -IPCWrapper
+-w49R
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -526,14 +529,13 @@ $9E0u
 0A_A^_^[
 0w0c1
 0}0i1
-1.m?5_AJ
 130801120000Z
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240509235836Z0/
+240525011125Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -564,13 +566,13 @@ $9E0u
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9)5'M
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
 9H(~-
 :A9x 
 :EotB
+:Qfm1
 ;K sOH
 ;S sMH
 ;\$x|
@@ -578,6 +580,7 @@ $9E0u
 <0:08
 <P)9Y
 <unknown>
+=clh;
 =rIQU
 >0<0:
 >Mp$d
@@ -747,7 +750,6 @@ Blank
 C(H+C H
 C(H9C u
 C++/WinRT version:1.0.190111.3
-C5Oax+
 CClientSwapchain::Import
 CClientSwapchain::ImportSampler
 CD$0H
@@ -1056,7 +1058,6 @@ Frame Hallucination Pipeline Variant %d
 FrameHallucination-Frag
 FrameHallucination-Vert
 FreeLibrary
-GCC0`
 GLSL.std.450
 GetCurrentProcess
 GetCurrentProcessId
@@ -1336,7 +1337,6 @@ NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
 O0H9Q
 OLEAUT32.dll
-Oj=f{
 OpH9Q
 OpenEventA
 OpenFileMappingA
@@ -1355,7 +1355,6 @@ PA_A^A]A\_^]
 PA_A^_
 PA_[]
 PAq=?Mp#
-PC2R&
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
@@ -1427,7 +1426,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS*
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -2032,6 +2030,7 @@ r/w:I
 renderdoc.dll
 result == ALVR_OK
 s AVH
+s%6uD
 s_nInstanceCount > 0
 server
 short_alloc: spilling into system allocator
@@ -2080,7 +2079,6 @@ t$`Li
 t$hH+
 t$lff
 t-fff
-tA`^D
 tBfff
 tC8Khu1
 tOH97t	H
@@ -2099,6 +2097,7 @@ tolower
 t}H9=v
 uAfff
 uRf;>tM
+uSZ]u
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S
@@ -2753,7 +2752,6 @@ wcsstr
 www.digicert.com1!0
 www.digicert.com1$0"
 xA_A^A]A\_^[]
-y1D2V
 yxxxxxxxH
 yxxxxxxxI+
 {pH;{xw?
@@ -2785,14 +2783,12 @@ yxxxxxxxI+
 |$xIi
 |$xIk
 |$xMi
-|.K\	
 |6hE3
 |Lu?c
 }(M98t
 }LuHO
 }`H+}XH
 }wH9S
-~R5[p
 ~qj#k"
 ~t&LN
 ~xM+~pI

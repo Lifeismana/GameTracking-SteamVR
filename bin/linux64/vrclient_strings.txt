@@ -720,6 +720,7 @@ $tI
 /input/finger/splay_thumb_index
 /input/finger/thumb
 /input/grip
+/input/grip/click
 /input/grip/pose
 /input/guide
 /input/guide/click
@@ -1026,6 +1027,7 @@ $tI
 0-pixel image
 0123456789
 0123456789ABCDEF
+01:03:25
 1
 1.0.3.16
 1/2/4/8/16-bit only
@@ -1309,7 +1311,6 @@ $tI
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
-23:56:06
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -21752,7 +21753,7 @@ Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 May
-May  9 2024
+May 25 2024
 Member "action_sets" exists, but is not an array
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) [clone .cold]
@@ -23048,13 +23049,13 @@ Stage override already set to '%s'! Use ClearStageOverride to free existing reso
 Standing transform was not updated when writing the universe to paths
 StandingFromOverlayNormal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&)
 Start
+Start vrcompositor under the Steam for Linux runtime: %s
 StartSession
 Started %s with pid %u
 Starting vrcompositor process: %s args: %s, in folder %s
 Starting vrserver process: %s in %s
 StartupInfoArg
 StaticCompositorPresent(int)
-Steam for Linux pressure-vessel container runtime detected: %s
 SteamAPI_SetBreakpadAppID
 SteamAPI_SetMiniDumpComment
 SteamAPI_UseBreakpadCrashHandler

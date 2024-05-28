@@ -1,5 +1,6 @@
 																																																																																																																
 	!s99
+	$Ys6
 	D$HA
 	|$HA
     A
@@ -28,7 +29,7 @@
 %,3:;4-&
 %9k0t
 %9{0t
-%Ou{Y
+%bMa&
 &9k0t
 &D9c0t
 &D9k0t
@@ -178,7 +179,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240509235813Z0/
+240525011102Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -190,7 +191,6 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-4E^AW>
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -215,6 +215,7 @@
 9k0t_D
 9k0tcH
 9l$Lt	E
+:Qf5r0
 ;D$ht6
 <0:08
 =ETLP
@@ -477,7 +478,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDS,
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -601,6 +601,7 @@ Z9k0tUD
 \$pfD
 ]9k0tVD
 ]J<0"0i3
+]Q;R"
 ]g@8yhu
 ^9k0tWD
 _Cnd_destroy_in_situ
@@ -890,6 +891,7 @@ u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uH@8}
 uJf9X
+u`qCa
 uk_ua
 ukrainian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
@@ -900,13 +902,13 @@ unknown marker
 unsupported bit depth
 unsupported data layout
 unsupported format
-v2ev k{
 v=Y]Bv
 vHcD$LH
 vi_vn
 vietnamese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
+wk3Bhi
 wrong channel count
 wrong color format
 wrong version

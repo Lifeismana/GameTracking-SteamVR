@@ -35,6 +35,7 @@
 	Edid already edid_id %d and hdcp14legacycompat %d, no change needed
 	TYPE_BOOL
 	TYPE_ENUM
+	Uhse
 	enum_type
 	extension
 	name_part
@@ -1396,7 +1397,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240509235942Z0/
+240525011228Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1419,12 +1420,12 @@ $w!Hc
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
+69EyD
 6<framesToThrottle
 6I]Dc
 6OB,n_
 6p7M=:P_:}u
 70503
-7=B	jA)
 7HcC,
 7^d[L
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
@@ -1569,11 +1570,11 @@ $w!Hc
 :0ulH
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 :EotB
+:QfF/
 ; expected 
 ; last read: '
 ;.u H
 ;<$uCB
-;>}4Y
 ;Ch}(
 ;D$lu H
 ;K s;H
@@ -1625,7 +1626,6 @@ $w!Hc
 >"t-H
 >#u&H
 >$u>I
->'I,U
 >-ufH
 >0<0:
 >B`E?)\
@@ -2096,7 +2096,6 @@ A_A]A\_^[]
 A_A]A\_^]
 A_A]]
 A_A]^]
-A_A]_[
 A_A]_[]
 A_A]_]
 A_A]_^[]
@@ -3491,7 +3490,6 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
-H9-AE!
 H91u 
 H92u&
 H92u,
@@ -3571,10 +3569,9 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;=3X
-H;=CW
-H;=KP
-H;=pQ
+H;=#V
+H;=+O
+H;=PP
 H;Axt
 H;B0t
 H;C sAH
@@ -3634,7 +3631,6 @@ H;}PtwH
 H@L+A0
 HAPTICDEBUG %s:%d age: %f	 sec: %f	 freq: %f	 amp: %f
 HA^A]_[
-HA^_^[
 HA_A^A]_][
 HA_A^][
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
@@ -4282,6 +4278,7 @@ M9H s
 M;A r
 MAX10
 MB(iVR
+MD85H
 MFCreateMediaType
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
@@ -4538,6 +4535,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
+RSDSk
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4661,7 +4659,6 @@ SVWATH
 SVWAVAWH
 SVWAVH
 SWAUAVH
-SWAUAWH
 SWAUH
 SWAWH
 S\9SXuv
@@ -5508,6 +5505,7 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
+Y51G!
 Y5hN$
 Y9"SD
 Y?33s?
@@ -6536,7 +6534,6 @@ jj@0HK4
 joints
 k0i0$
 k?KPm?
-kc=fg
 kcizf
 keylength >= 2^30
 known_objects
@@ -7236,6 +7233,7 @@ tRNS with alpha
 tTL9-
 tTL9-ag(
 tUA91uPH
+tW'BD
 tXH+A
 tXfff
 t[D8p
@@ -8063,7 +8061,6 @@ v}L9-@k'
 w(M9w0tH
 w+OQvr
 wUD;C$}OH
-wXH9w`t/H
 wcsncmp
 wcsrchr
 wcsstr
@@ -8287,5 +8284,6 @@ zuusA
 ~3LcD$(L
 ~6HcD$ I
 ~:fD9
+~XH9~`t+H
 ~qj#k"
 ~t&LN
