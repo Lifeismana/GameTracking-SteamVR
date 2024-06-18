@@ -1,0 +1,34 @@
+name: Execute
+
+on:
+    workflow_dispatch:
+    repository_dispatch:
+
+concurrency:
+    group: ${{ github.workflow }}
+    cancel-in-progress: true
+
+jobs:
+    execute:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        environment: Execute
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                repository: steamdatabase/gametracking
+                ref: master
+
+            - uses: actions/checkout@v4
+              with:
+                ref: master
+                path: 'steamvr'
+            - uses: docker://ghcr.io/lifeismana/gametracking-steamvr:latest
+              env:
+                GIT_NAME: ${{ secrets.GIT_NAME }}
+                GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
+                STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+                STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+                GPG_KEY: ${{ secrets.GPG_KEY }}
+                GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
