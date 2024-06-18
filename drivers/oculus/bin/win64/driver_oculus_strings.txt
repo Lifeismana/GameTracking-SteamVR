@@ -464,7 +464,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240525011329Z0/
+240618222117Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -494,6 +494,7 @@ $w!Hc
 8D$#u
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8T`D)
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -508,7 +509,6 @@ $w!Hc
 9k0t_D
 9k0tcH
 9l$Lt	E
-9x:Nh
 9|$@u
 : one or more FS callback not set
 ; expected 
@@ -520,6 +520,7 @@ $w!Hc
 < t+<
 </u#H
 <0:08
+<3'	>_
 <U+%.4X>
 <parse error>
 <uninitialized>
@@ -592,6 +593,7 @@ $w!Hc
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?jVeOs~
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
@@ -1099,7 +1101,7 @@ IVRInput_010
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_027
+IVROverlay_028
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -1218,7 +1220,6 @@ LoadLibraryW
 LocalizationManager
 M H1E
 M98u/
-M=f*R
 MB(iVR
 MSVCP140.dll
 MS_:F
@@ -1300,7 +1301,6 @@ RootNode
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S(2VE
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
@@ -1464,6 +1464,7 @@ XXXX PNG chunk not known
 Y9"SD
 Z9k0tUD
 ZL$Xf
+Z[ e+|
 [K]taM?
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -1708,6 +1709,7 @@ bufferView
 bufferViews
 buffers
 bulgarian
+bwI%P
 byteLength
 byteOffset
 byteStride
@@ -1818,7 +1820,6 @@ hand_right_poses.glb
 handlers
 headset
 height
-hmN5]
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -2249,6 +2250,7 @@ shaders/d3d11/distort_geom_reflect_ps.fxo
 shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_simplified_ps.fxo
 shaders/d3d11/distort_geom_simplified_reflect_ps.fxo
+shaders/d3d11/distort_geom_spherical_vs.fxo
 shaders/d3d11/distort_geom_tan_vs.fxo
 shaders/d3d11/distort_geom_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_vignette_ps.fxo
@@ -2519,7 +2521,6 @@ zh_tw
 zlib corrupt
 znear
 {%s}%s
-{i~Uq)
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
 {oculus}/icons/%s_%s_off.png

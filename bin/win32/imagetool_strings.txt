@@ -1567,7 +1567,6 @@
 !u*p=g
 !waPSR
 !{	8I%
-!}NWr
 " of size %lux%lu%+ld%+ld
 " shape="rect" coords="%.20g,%.20g,%.20g,%.20g" alt="" />
 " transform="matrix(%g %g %g %g %g %g)">
@@ -1966,7 +1965,6 @@ $~O="""
 %gx%g!
 %gx%g%+.15g%+.15g
 %gx%g%+g%+g
-%h!E2X
 %hd, 
 %hu, 
 %lf%*[ ,]%lf
@@ -2096,7 +2094,6 @@ $~O="""
 %u)9~`u$
 %u<QR
 %ux%u
-%xdrM
 %~* T
 &!&!*!+!.!.!
 &#%d;
@@ -4337,7 +4334,7 @@ $~O="""
 23383I3l3
 2384x3370
 24 24
-240525010645Z0/
+240618221938Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -5227,7 +5224,6 @@ $~O="""
 4^d;@
 4_495Z5{5
 4_4x4
-4_N`P
 4_^][
 4_^][Y
 4`5h5
@@ -6099,6 +6095,7 @@ $~O="""
 787=7[7`7~7
 787w7
 788=8
+78znb
 792x1224
 797F7R7Y7a7y7
 7:-10,-5,-2,-1,-2,-5,-10 -5,0,3,4,3,0,-5 -2,3,6,7,6,3,-2 -1,4,7,8,7,4,-1 -2,3,6,7,6,3,-2 -5,0,3,4,3,0,-5 -10,-5,-2,-1,-2,-5,-10
@@ -8122,7 +8119,6 @@ $~O="""
 <@<H<
 <@=G=
 <@En[vP
-<@i!V
 <A<`<j<o<
 <A=j=
 <A=q=
@@ -16155,6 +16151,7 @@ RQPWV
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDShg
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -17544,6 +17541,7 @@ TM-Line Position X1
 TM-Line Position Y0
 TM-Line Position Y1
 TMPDIR
+TQich
 TSIhu
 TSUVWj
 TT$Pf
@@ -18995,7 +18993,6 @@ Zoom Select Status
 ^-1.0*
 ^-pR1
 ^1c1r1w1
-^5IS@x
 ^?y?^?
 ^DUW;
 ^HSVU
@@ -20057,7 +20054,6 @@ d9h9l9t9x9|9
 d:HrxV
 d? je?a lub o?m skrzy? fig.
 dB/dt
-dBS+_di#Vg
 dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
 d_7y3B
 dagger
@@ -22235,11 +22231,11 @@ l$tVW
 l$xh8W3
 l$xhh|9
 l$|WU
+l):XR
 l2|X/gGe
 l6qnk
 l<"-y<
 l<}2l
-l=JhH
 lLVD782782994<:5@=8B:8A95=73<75:549009//61.62.63.641973?72B90H=1J>4H=4B80@61?62<94C54A50<6*E5'c6-
 lO"c3
 lQ 6|+G
@@ -22474,7 +22470,6 @@ mutex unlock failed
 mvg:%s
 mvg:vector-graphics
 myanmar
-m|T&&u
 n	&&&
 n == 0 || string != NULL
 n b?l?i.
@@ -25066,6 +25061,7 @@ x&)kP
 x';Wt}"
 x';rp}"
 x( EMFu
+x(BtD2!Q
 x)PWh
 x*;Jt}%
 x,;Bt}'

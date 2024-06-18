@@ -23,7 +23,6 @@
 		} } },
 	!s99
 	{ 0x%x, 0x%x, %d, %d, {
- 	om^
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
     A
@@ -58,7 +57,6 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-""B2^.
 $9E0u
 %s begin_ctx=%llu
 %s end_ctx=%llu
@@ -313,7 +311,6 @@ $9E0u
 %u != %zu
 ',=?k
 ( nVertexCount % 3 ) == 0
-(/hy3
 (A\_^[
 (A^A]^[
 (A_A^A\[
@@ -340,6 +337,7 @@ $9E0u
 (|$PH
 (|$`E
 )D$pA
+)D$pB
 )L$@H
 )L$pH
 )d$pD
@@ -356,13 +354,13 @@ $9E0u
 ********** Blue ( nLoopCount++ > 1000 )!
 ********** Green ( nLoopCount++ > 1000 )!
 ********** Red ( nLoopCount++ > 1000 )!
++)/=j
++3Yff
 +Xt@(
 +o'q)}
 , last executing in 
-,.a'K
 ,W5y+
 -IPCWrapper
--w49R
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
 .?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -535,7 +533,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-240525011125Z0/
+240618221911Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -561,6 +559,7 @@ $9E0u
 8A^A\
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+8[~C*A
 8\t	H
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
@@ -572,7 +571,6 @@ $9E0u
 9H(~-
 :A9x 
 :EotB
-:Qfm1
 ;K sOH
 ;S sMH
 ;\$x|
@@ -580,7 +578,6 @@ $9E0u
 <0:08
 <P)9Y
 <unknown>
-=clh;
 =rIQU
 >0<0:
 >Mp$d
@@ -710,7 +707,7 @@ A_A]^]
 A_A]_[]
 A_A^A\
 A_A^A\]
-A_A^A\_[]
+A_A^A\^[]
 A_A^A\_]
 A_A^A\_^
 A_A^A\_^[]
@@ -731,11 +728,6 @@ A__[]
 A__^[]
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 AddAccessAllowedAce
-AddAccessAllowedAce failed for administrator. GetLastError returned: %d
-AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d
-AddAccessAllowedAce failed for steam. GetLastError returned: %d
-AddAccessAllowedAce failed for test app. GetLastError returned: %d
-AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
 AddStage and CopyStages are mutually exclusive.
 Already initialized
 Apply blur filter
@@ -921,7 +913,6 @@ CompositionStateMutex
 Compute Timeline
 Connected to RenderDoc.
 ConvertStringSidToSidA
-ConvertStringSidToSidA failed for test app %d
 CopyLayers
 CopySid
 Cost reduction pass
@@ -933,7 +924,6 @@ CreateFileA
 CreateFileMappingA
 CreateMutexA
 CreateWellKnownSid
-CreateWellKnownSid failed for WinBuiltinAnyPackageSid
 D$ E3
 D$ H;
 D$ L;
@@ -964,7 +954,7 @@ D$PE3
 D$PH9
 D$PH9Q
 D$PH;
-D$PHk
+D$PHi
 D$PL;
 D$PM;
 D$XE3
@@ -1030,25 +1020,13 @@ Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.
-Failed creating auto reset event %s (GLE: %u)
-Failed creating file mapping %s: %u
-Failed creating mutex %s (GLE: %u)
-Failed mapping view for %s; Error code: 0x%08x
 Failed to compute distortion parameters!
 Failed to connect to pipe %s because %s
 Failed to connect to pipe %s because %s... retrying
 Failed to import client event handle from pipe %s after connecting
 Failed to import server event handle from pipe %s after connecting
-Failed to open event %s because access was denied
-Failed to open file mapping %s because access was denied
-Failed to open mutex %s because access was denied
 Failed to write app container status to pipe %s after connecting because %s
 Failed to write event process handle after connecting because %s
-Forced create of Win32 mutex %s but it already existed
-Forced create of Win32Event %s but it already existed
-Forced create of Win32Event but it already existed
-Forced create of Win32Mutex but it already existed
-Forced create of file mapping %s but it already existed
 Foreign timelines unsupported. Leaking resource.
 Format string parse failure
 FormatMessageA
@@ -1164,13 +1142,11 @@ IPCPipe(%s): Wrote %u bytes of total message length
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 ImportClients
 InitializeAcl
-InitializeAcl failed. GetLastError returned: %d
 InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 InitializeSecurityDescriptor
-InitializeSecurityDescriptor failed. GetLastError returned: %d
 Initializing display history...
 Input
 InterlockedPushEntrySList
@@ -1191,7 +1167,7 @@ L$ SUVWH
 L$ SVW
 L$ SVWH
 L$ SWH
-L$ USWATAVAWH
+L$ USVATAVAWH
 L$ UVATAUAVH
 L$ WH
 L$(K9
@@ -1216,7 +1192,6 @@ L$pL;
 L$xE3
 L$xL9T$ht
 L+D$`A
-L+D$pA
 L+D$xA
 L9%TV	
 L9T$ht
@@ -1474,7 +1449,6 @@ SetLastError
 SetNamedPipeHandleState
 SetRestrictedErrorInfo
 SetSecurityDescriptorDacl
-SetSecurityDescriptorDacl failed. GetLastError returned: %d
 SetThreadPriority
 SetUnhandledExceptionFilter
 SetupDiDestroyDeviceInfoList
@@ -1484,7 +1458,6 @@ SetupDiGetDeviceInterfaceDetailW
 SetupDiGetDevicePropertyW
 SetupDiGetDeviceRegistryPropertyW
 SetupGetInfDriverStoreLocationW
-SharedMem access invalid: %x
 Signal[%d]:%llu
 Skipping CalculateMotion (%llu)
 Skipping CalculateMotion (swapchain mismatch)
@@ -1517,7 +1490,6 @@ TUUUUUU
 TdhEnumerateManifestProviderEvents
 TerminateProcess
 TfD;u
-The owner SID is invalid.
 Thread watchdog timed out %s
 Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
 TimestampQueryPool-%s
@@ -1529,6 +1501,9 @@ UATAVH
 UAUAVH
 UAUAWH
 UAVAWH
+UB 1!
+UPL+D$pA
+UPL+E
 USAUH
 USVAUH
 USVWATAUAVAWH
@@ -1614,7 +1589,7 @@ Wait:%llu
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)
+WaitNamedPipe %s failed because no one is listening at that name.
 WaitNamedPipeA
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
@@ -1634,6 +1609,33 @@ YUV conversion - %s
 Yl$ M
 Yl$4E
 [ AVH
+[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
+[IPC] ConvertStringSidToSidA failed for test app %d
+[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid
+[IPC] Existing file mapping for %s was found
+[IPC] Failed creating auto reset event %s (GLE: %u)
+[IPC] Failed creating file mapping %s: %u
+[IPC] Failed creating mutex %s (GLE: %u)
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x
+[IPC] Failed to open event %s because access was denied
+[IPC] Failed to open file mapping %s because access was denied
+[IPC] Failed to open mutex %s because access was denied
+[IPC] Forced create of Win32 mutex %s but it already existed
+[IPC] Forced create of Win32Event %s but it already existed
+[IPC] Forced create of Win32Event but it already existed
+[IPC] Forced create of Win32Mutex but it already existed
+[IPC] Forced create of file mapping %s but it already existed
+[IPC] GetTokenInformation failed. GetLastError returned: %d
+[IPC] InitializeAcl failed. GetLastError returned: %d
+[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d
+[IPC] OpenProcessToken failed. GetLastError returned: %d
+[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d
+[IPC] SharedMem access invalid: %x
+[IPC] The owner SID is invalid.
 [K]taM?
 \$ AVH
 \$ E3
@@ -1674,6 +1676,7 @@ Yl$4E
 \mfpmp.exe
 ]J<0"0i3
 ]g@8yhu
+^`Wwj
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1880,7 +1883,9 @@ isalpha
 isdigit
 it != m_importedClients.end()
 jj@0HK4
+jt""b
 k0i0$
+krSb$}G
 l$ E3
 l$ H;
 l$ H=
@@ -1904,6 +1909,7 @@ l$`E3
 l$xE3
 l$xHc
 l2|X/gGe
+l;>bM
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
 m0k0$
@@ -2020,6 +2026,7 @@ pTemplate != nullptr
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
+pbV&~
 perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.nClientFrameIndex
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
@@ -2030,7 +2037,6 @@ r/w:I
 renderdoc.dll
 result == ALVR_OK
 s AVH
-s%6uD
 s_nInstanceCount > 0
 server
 short_alloc: spilling into system allocator
@@ -2097,11 +2103,9 @@ tolower
 t}H9=v
 uAfff
 uRf;>tM
-uSZ]u
 uint32_t( eEye ) < k_nEyeCount
 unsupported format
 uwH9S
-v!neH
 v=Y]Bv
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long

@@ -31,7 +31,7 @@
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
  !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
- !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@0
+ !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
  %41g
@@ -92,6 +92,7 @@
 !BIsLimitReachedForChildType( eType )
 !GetFrameData( unCurFrameIndex - 2 ).BIsInUse()
 !IsInUse()
+!Z7LHR
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
 !bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 !frameData.BIsInUse()
@@ -139,7 +140,7 @@
 #OriginString_Source
 $IL+Q
 $tI(knN"
-$u0Hi
+$u3Hi
 $u=Hi
 $u^Hi
 $w!Hc
@@ -386,6 +387,7 @@ $w!Hc
 &D9c0t
 &D9k0t
 &D9{0t
+&Mha7
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -416,7 +418,9 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
+(%):+
 ()$^.*+?[]|\-{},:=!
+(5)5#
 (9Q|uWH
 (A\^][
 (A\_^[
@@ -583,6 +587,7 @@ $w!Hc
 )t$ D
 )t$ H
 )t$0A
+)t$0D
 )t$0H
 )t$@3
 )t$@D
@@ -627,6 +632,7 @@ $w!Hc
 **** JUDDER **** expected %u got %u
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
+*D. z4y
 *H+NpH
 *uXI;
 +C,+C
@@ -901,6 +907,7 @@ $w!Hc
 .?AV?$OverlayInterfaceRegistration@VCVROverlay_024@@@@
 .?AV?$OverlayInterfaceRegistration@VCVROverlay_025@@@@
 .?AV?$OverlayInterfaceRegistration@VCVROverlay_026@@@@
+.?AV?$OverlayInterfaceRegistration@VCVROverlay_027@@@@
 .?AV?$OverlayViewInterfaceRegistration@VCVROverlayView_001@@@@
 .?AV?$OverlayViewInterfaceRegistration@VCVROverlayView_002@@@@
 .?AV?$RenderModelsInterfaceRegistration@VCVRRenderModels_001@@@@
@@ -1225,6 +1232,10 @@ $w!Hc
 .?AVCVRMsg_CompositorConnectResponse@@
 .?AVCVRMsg_CompositorDumpImages@@
 .?AVCVRMsg_CompositorDumpImagesAll@@
+.?AVCVRMsg_CompositorGetDmabufFormats@@
+.?AVCVRMsg_CompositorGetDmabufFormatsResponse@@
+.?AVCVRMsg_CompositorGetDmabufModifiers@@
+.?AVCVRMsg_CompositorGetDmabufModifiersResponse@@
 .?AVCVRMsg_CompositorGetScreenshotPropertyFilename@@
 .?AVCVRMsg_CompositorGetScreenshotPropertyFilenameResponse@@
 .?AVCVRMsg_CompositorGetScreenshotPropertyType@@
@@ -1232,6 +1243,9 @@ $w!Hc
 .?AVCVRMsg_CompositorGoToBack@@
 .?AVCVRMsg_CompositorHookScreenshot@@
 .?AVCVRMsg_CompositorHookScreenshotResponse@@
+.?AVCVRMsg_CompositorImportDmaBuf@@
+.?AVCVRMsg_CompositorImportDmaBufResponse@@
+.?AVCVRMsg_CompositorImportDmaBuf_DmabufPlane@@
 .?AVCVRMsg_CompositorKeyboardShown@@
 .?AVCVRMsg_CompositorKeyboardShownResponse@@
 .?AVCVRMsg_CompositorNewSharedBuffer@@
@@ -1427,6 +1441,7 @@ $w!Hc
 .?AVCVROverlay_024@@
 .?AVCVROverlay_025@@
 .?AVCVROverlay_026@@
+.?AVCVROverlay_027@@
 .?AVCVRRenderModels_001@@
 .?AVCVRRenderModels_002@@
 .?AVCVRRenderModels_003@@
@@ -2104,7 +2119,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240525011748Z0/
+240618222549Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2132,6 +2147,7 @@ $w!Hc
 6HiL$8
 6I]Dc
 6OB,n_
+6j-aP
 6p7M=:P_:}u
 70503
 79L$hua
@@ -2161,14 +2177,13 @@ $w!Hc
 98t3H
 98tHH
 9;tC@8{
-9=4&9
 9A@~%H
 9C s.H
 9C }.H
 9C0r'H
-9CTt=
 9D$xr7H
 9DDS 
+9GTt=
 9T$XJ
 9X0vJfff
 9X0vK
@@ -2191,6 +2206,7 @@ $w!Hc
 9sP~2L
 9sT~$H
 9sT~)H
+9s`~4L
 9t$ vlL
 9y8~8H
 9y8~9H
@@ -2201,6 +2217,8 @@ $w!Hc
 9y@~*H
 9yD~2H
 9yD~8H
+9y`~)H
+9yd~2H
 9{8~2H
 9{8~3H
 9{8~4H
@@ -2224,8 +2242,6 @@ $w!Hc
 :\u6L
 ; expected 
 ; last read: '
-;(E7L
-;<QfZ
 ;C$u	A
 ;I#F0H
 ;K sMH
@@ -2379,7 +2395,6 @@ $w!Hc
 ?uncaught_exception@std@@YA_NXZ
 ?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
-?wH{"8
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
@@ -2390,7 +2405,6 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@85	`.
 @8I+@0H
 @8i(u
 @8u$t0@8u#t*
@@ -2426,7 +2440,6 @@ $w!Hc
 @A_A^A]_[
 @A_A^[
 @A_A^]
-@A_A^^
 @A_A^_
 @A_A^_^]
 @Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
@@ -2545,6 +2558,7 @@ $w!Hc
 @VAVH
 @VWATAVAWH
 @VWATH
+@VWAVAWH
 @VWAVH
 @VWAWH
 @WATAUAVAWH
@@ -2560,7 +2574,6 @@ A H+A
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
-A#f:>
 A$A;B
 A+H,A
 A0H9A(tkH
@@ -2641,6 +2654,7 @@ A^A]_^]
 A^^[]
 A^_[]
 A^_^[]
+A^_^][
 A_A\[]
 A_A\]
 A_A\_
@@ -2660,7 +2674,6 @@ A_A]A\_^]
 A_A][
 A_A]]
 A_A]^]
-A_A]_[]
 A_A]_]
 A_A]_^]
 A_A^A\
@@ -2697,12 +2710,12 @@ A_A^[]
 A_A^]
 A_A^^
 A_A^^H
-A_A^^[]
 A_A^^]
 A_A^^][
 A_A^_
 A_A^_[]
 A_A^_]
+A_A^_^
 A_A^_^[]
 A_A^_^]
 A_A^_^][
@@ -2728,13 +2741,8 @@ Action paths must take the form '/actions/<action set>/in|out/<action>'. "
 Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
 Active pri %u, device=%s
 AddAccessAllowedAce
-AddAccessAllowedAce failed for administrator. GetLastError returned: %d
-AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d
-AddAccessAllowedAce failed for steam. GetLastError returned: %d
-AddAccessAllowedAce failed for test app. GetLastError returned: %d
-AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
 AddResourceBarrier: Failed to close command list with %i when setting barrier transition
-Adding focus flag %s
+AddSystemBehaviorFlag %s
 Adobe
 Alert
 Alias
@@ -2821,8 +2829,7 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
-C-8z5
-C-uz5
+C-^s*
 C0L9$
 C0L;E
 C0L;F
@@ -2911,6 +2918,7 @@ CRenderModelManager::LoadRenderModelInternal
 CRenderModelManager::LoadRenderModel_Async
 CRenderModelManager::Tessellate
 CRenderModelManager::Tessellate::<lambda_03306e5cdb0e0863aad20d1a933a0825>::operator ()
+CRkoM
 CS_MAIN
 CSharedResourceNamespaceClient::Init(): failed connect
 CSharedResourceNamespaceClient::Init(): failed to get server response
@@ -3043,6 +3051,10 @@ CVRMsg_CompositorConnect
 CVRMsg_CompositorConnectResponse
 CVRMsg_CompositorDumpImages
 CVRMsg_CompositorDumpImagesAll
+CVRMsg_CompositorGetDmabufFormats
+CVRMsg_CompositorGetDmabufFormatsResponse
+CVRMsg_CompositorGetDmabufModifiers
+CVRMsg_CompositorGetDmabufModifiersResponse
 CVRMsg_CompositorGetScreenshotPropertyFilename
 CVRMsg_CompositorGetScreenshotPropertyFilenameResponse
 CVRMsg_CompositorGetScreenshotPropertyType
@@ -3050,6 +3062,9 @@ CVRMsg_CompositorGetScreenshotPropertyTypeResponse
 CVRMsg_CompositorGoToBack
 CVRMsg_CompositorHookScreenshot
 CVRMsg_CompositorHookScreenshotResponse
+CVRMsg_CompositorImportDmaBuf
+CVRMsg_CompositorImportDmaBuf.DmabufPlane
+CVRMsg_CompositorImportDmaBufResponse
 CVRMsg_CompositorKeyboardShown
 CVRMsg_CompositorKeyboardShownResponse
 CVRMsg_CompositorNewSharedBuffer
@@ -3389,7 +3404,6 @@ Connect to VR Server Failed (301)
 ConnectToPrism
 Controller (%s) not available for input to chord, ignoring chord
 ConvertStringSidToSidA
-ConvertStringSidToSidA failed for test app %d
 CopySid
 Could not create interface in driver %s from %s.
 Could not find factor function in driver %s from %s.
@@ -3410,7 +3424,6 @@ CreateSwapchain
 CreateThread
 CreateVulkanImageFromD3D11TextureHandle: failed to find a LOCAL memory type
 CreateWellKnownSid
-CreateWellKnownSid failed for WinBuiltinAnyPackageSid
 CreateXrBinding: unsupported graphics binding type: %d
 Created depth texture '%s' %dx%d (Format=%d, SampleCount=%d)
 Created shared texture '%s' %dx%d (%d mips)
@@ -3608,7 +3621,6 @@ D8,8u
 D8/u0
 D840u
 D84;u
-D85@P/
 D8<>u
 D8d$P
 D8eHt6M9f0t0H
@@ -3622,6 +3634,7 @@ D8}gt$L
 D8}gu
 D8}guH
 D9!t/
+D9%sN%
 D90uGH
 D989D9XH
 D9>u:H
@@ -3637,6 +3650,7 @@ D9d$\u
 D9d$d
 D9d$xv
 D9d$|u
+D9l$8t
 D9l$<u
 D9l$du
 D9l$x
@@ -3738,7 +3752,6 @@ E8I9E@t
 E9w ~EH
 E;n@|
 E;u`|
-EOL9uoA
 EPHcH
 ERROR
 ERROR: Failed to dup handle!
@@ -3853,13 +3866,9 @@ Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.
 Failed calling CreateRenderTargetView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
 Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!
-Failed creating auto reset event %s (GLE: %u)
-Failed creating file mapping %s: %u
-Failed creating mutex %s (GLE: %u)
 Failed get Texture_t from 0x%llx
 Failed get glTextureId from 0x%llx
 Failed getting mailbox response %s: %d
-Failed mapping view for %s; Error code: 0x%08x
 Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d
 Failed to allocate Vulkan ring buffer
 Failed to allocate new VRCompositor image: format=%u dimensions=%ux%u
@@ -3931,6 +3940,7 @@ Failed to find interface '%s'
 Failed to find system resource manifest %s.
 Failed to get AllowSteamOverlays setting (%s). Using default setting.
 Failed to get AllowVRGamepadUI Setting setting (%s). Using default setting.
+Failed to get DMA-BUF modifiers.
 Failed to get graphics adapter LUID for EDID VendorId=%#04X
 Failed to get steamMatchesHMDFramerate setting (%s). Allowing by default.
 Failed to import client event handle from pipe %s after connecting
@@ -3978,11 +3988,8 @@ Failed to load wglDXSetResourceShareHandleNV!
 Failed to load wglDXUnlockObjectsNV!
 Failed to load wglDXUnregisterObjectNV!
 Failed to open conformance mailbox: %d
-Failed to open event %s because access was denied
-Failed to open file mapping %s because access was denied
 Failed to open frame info buffer (D3D10)!
 Failed to open frame info buffer (D3D11)!
-Failed to open mutex %s because access was denied
 Failed to open reply mailbox in CVRNotificationsLatest: %d
 Failed to parse JSON object
 Failed to parse `bufferView` for image[
@@ -4008,6 +4015,7 @@ Failed to start VRStartup for watchdog from %s because %s
 Failed to start VRWebhelper from %s because %s
 Failed to start vrcompositor. Giving up
 Failed to start vrserver: %s.
+Failed to supported dmabuf formats.
 Failed to unref VRCompositor resource 0x%llx
 Failed to write app container status to pipe %s after connecting because %s
 Failed to write event process handle after connecting because %s
@@ -4085,6 +4093,7 @@ FnTable:IVROverlay_023
 FnTable:IVROverlay_024
 FnTable:IVROverlay_025
 FnTable:IVROverlay_026
+FnTable:IVROverlay_027
 FnTable:IVRRenderModels_004
 FnTable:IVRRenderModels_005
 FnTable:IVRSettings_001
@@ -4104,11 +4113,6 @@ FnTable:IVRTrackedCamera_002
 FnTable:IVRTrackedCamera_003
 FnTable:IVRTrackedCamera_004
 FnTable:IVRTrackedCamera_005
-Forced create of Win32 mutex %s but it already existed
-Forced create of Win32Event %s but it already existed
-Forced create of Win32Event but it already existed
-Forced create of Win32Mutex but it already existed
-Forced create of file mapping %s but it already existed
 Foreign timelines unsupported. Leaking resource.
 Format string parse failure
 FormatMessageA
@@ -4197,6 +4201,8 @@ Giving up compositor connection after %d attempts
 Giving up server connection over pipe %s after %d attempts
 Giving up waiting for vrserver to exit after %dms -- killing it
 Global\VRBootstrapper
+Got 0 formats from VRMsg_CompositorImportDmaBuf.
+Got 0 modifiers from VRMsg_CompositorImportDmaBuf.
 GpuSpeed
 H A;H
 H A;I
@@ -4206,7 +4212,6 @@ H SVWH
 H SWH
 H UATAUAVAWH
 H UAVH
-H USWAUAWH
 H UWATAUAVH
 H!C@H
 H!FxH
@@ -4251,12 +4256,9 @@ H9/t	H
 H90t	H
 H93t	H
 H948t
-H95HN?
-H95\N?
 H98t	H
 H98t/H9x
 H9;t	H
-H9=fE?
 H9A H
 H9APt M
 H9A`u}f
@@ -4318,16 +4320,20 @@ H;+u*
 H;0u7
 H;0u8H
 H;0u:H
-H;52z5
-H;5oz5
 H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=*="
+H;=*Y"
 H;=:>"
-H;=J?"
-H;=z3"
+H;=:Z"
+H;=Xs*
+H;=Z."
+H;=ZO"
+H;=jJ"
+H;=z "
+H;=zK"
+H;=zW"
 H;A s
 H;Axt
 H;C(v
@@ -4482,7 +4488,6 @@ HmdDriverFactory
 HmdSystemFactory
 How did we get here with a non-position slot?
 Hu"Hc
-H|y>D
 I(+K H
 I(I+I H
 I+G@H
@@ -4645,6 +4650,7 @@ IVRHeadsetView_001
 IVRHmdDistortPresent_001
 IVRIOBuffer_001
 IVRIOBuffer_002
+IVRIPCResourceManagerClient_001
 IVRInputInternal_002
 IVRInput_001
 IVRInput_002
@@ -4696,6 +4702,7 @@ IVROverlay_024
 IVROverlay_025
 IVROverlay_026
 IVROverlay_027
+IVROverlay_028
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -4809,13 +4816,11 @@ Infinity
 Init Success!
 Init of CVRCompositorClientBase failed with %s
 InitializeAcl
-InitializeAcl failed. GetLastError returned: %d
 InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 InitializeSecurityDescriptor
-InitializeSecurityDescriptor failed. GetLastError returned: %d
 Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.
 Initializing CVulkanVRRenderer
 Initializing IRVCVTrackedHmdInternal interface
@@ -4898,12 +4903,13 @@ K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
 KHR_lights_punctual
-KN*!ra
 Kf;;u
 KfD;3u
 KpH+KhH
 K}*n:	
 L (fD
+L#F0H
+L#F0L
 L#Y0L
 L$ ATAUAVAWH
 L$ ATAUAVH
@@ -4931,7 +4937,7 @@ L$ UATAUAVAWH
 L$ USAWH
 L$ USVWAUH
 L$ UVWATAUAVAWH
-L$ UVWATAVH
+L$ UVWAVAWH
 L$ UWATAUAVAWH
 L$ UWAUAVAWH
 L$ UWAUAVH
@@ -5036,7 +5042,6 @@ L+I0E3
 L8 9J
 L8$9J
 L9 t&H
-L9%d2=
 L90t	H
 L97u0H
 L9?u,H
@@ -5073,7 +5078,6 @@ L9t$0v.H
 L9t$@
 L9t$ht
 L9u(u-H
-L9uoH
 L9v viI
 L9v8ukH
 L9whH
@@ -5561,7 +5565,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS9
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5603,7 +5606,7 @@ ReleaseMutex
 Releasing OS object failed: invalid parameter
 Releasing ref on rendermodel %s. New ref count %d
 Releasing ref on texture %s (id %zu). New ref count %d
-Removing focus flag %s
+RemoveSystemBehaviorFlag %s
 Render model %s has %d vertices. Only 65k are supported
 Render model %s has %zd texture coordinates, expected %d
 Render model %s specifies multiple diffuse texture materials. Only one diffuse texture per model is supported.
@@ -5724,7 +5727,6 @@ SetOverlayRaw failed to create a memory block for %u x %u texture
 SetOverlayRawBlock_
 SetSceneAppDetails
 SetSecurityDescriptorDacl
-SetSecurityDescriptorDacl failed. GetLastError returned: %d
 SetSkyboxOverride with %d textures
 SetThreadPriority
 SetUnhandledExceptionFilter
@@ -5749,7 +5751,6 @@ Shared IPC Failed (305)
 Shared IPC Mutex Init Failed (304)
 Shared IPC Namespace Unavailable (310)
 Shared IPC State Init Failed (302)
-SharedMem access invalid: %x
 Should never be called for prism
 ShouldKillTheaterProcessHack
 ShowDashboard( %s )
@@ -5800,6 +5801,7 @@ StringOutputStream.
 Submit
 Submit: %s
 SubmitExplicitTimingData - Explicit timing mode not enabled, must be enabled to submit explicit timing data.
+Subview overlays may only be created for overlays created by the same process.
 Successfully changed app type
 Successfully reconnected to server
 Suggested binding for [%s] [%s]:
@@ -5809,10 +5811,13 @@ SwapChainImageView
 Swapchain-WaitImage
 Syntax error: value, object or array expected.
 System
+SystemBehaviorFlag_DashboardTutorial
 SystemBehaviorFlag_DisplaySuppressed
 SystemBehaviorFlag_DriverIsDrawingControllers
 SystemBehaviorFlag_DriverRequestsApplicationPause
 SystemBehaviorFlag_DriverRequestsReducedRendering
+SystemBehaviorFlag_GSSteamVisible
+SystemBehaviorFlag_GamepadFocus
 SystemBehaviorFlag_LaserMouse
 SystemBehaviorFlag_RoomView
 SystemBehaviorFlag_SystemButtonDown
@@ -5893,6 +5898,7 @@ T$pL;
 T$xE3
 T$xH+
 T$xH;
+T$xHcM8
 T$xL+
 T$xL;
 TANGENT
@@ -5912,7 +5918,6 @@ TextureMsaaResolveRenderer
 TfD;u
 The binding lock should have been locked in PreEndFrame prior to calling %s.
 The current HMD requires an additional driver that is not installed (214)
-The owner SID is invalid.
 The requested interface is incompatible with the compositor and the compositor is running (122)
 The total number of bytes read was 
 This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
@@ -5970,11 +5975,14 @@ TrackedProp_WrongDeviceClass
 Transitioning XrSession from %s to %s
 Turning on pipe debugging at the server's request
 Tutorial
+U(}\.
 U0H9U8t
 U0H;C
 U4H;C
 U8H9U@t L
 U8H9U@t#L
+U8H;C
+U<H;C
 U@H;C
 UATAUAVAWH
 UATAUAWH
@@ -5984,9 +5992,13 @@ UAUAVH
 UAUAWH
 UAUAWI
 UAVAWH
+UDH;C
 UDH;G
+UHH;C
+ULH;C
 UNKNOWN_ERROR
 UNNAMED
+UPH;C
 USATAUAVAWH
 USATAUAWH
 USATAUH
@@ -6002,12 +6014,12 @@ USER32.dll
 USVATAUAWH
 USVATAUH
 USVAUH
-USVAVAWH
 USVAVH
 USVWATAUAVAWH
 USVWATAUAVH
 USVWATAVAWH
 USVWATAVH
+USVWATH
 USVWAUAVAWH
 USVWAUH
 USVWAVAWH
@@ -6901,7 +6913,7 @@ WaitForSingleObject
 WaitForSingleObjectEx
 WaitFrame could not retrieve poses on the first frame
 WaitNamedPipe %s failed because %s
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)
+WaitNamedPipe %s failed because no one is listening at that name.
 WaitNamedPipeA
 WakeAllConditionVariable
 Warning
@@ -6924,7 +6936,7 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
-X5jv"
+X%\%+
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7428,8 +7440,10 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
+Y%Cp+
+Y5A""
+Y5ks+
 Y9"SD
-Y=0s)
 Y>t$7?*
 YL$8E
 Yl$ M
@@ -7509,6 +7523,33 @@ ZvFailed to create fence %ls.
 [Compositor Client] WaitGetPoses ThreadId=%d
 [GetVideoStreamFrame] Read (%d)
 [GetVideoStreamTextureGL] Read (%d)
+[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d
+[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d
+[IPC] ConvertStringSidToSidA failed for test app %d
+[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid
+[IPC] Existing file mapping for %s was found
+[IPC] Failed creating auto reset event %s (GLE: %u)
+[IPC] Failed creating file mapping %s: %u
+[IPC] Failed creating mutex %s (GLE: %u)
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x
+[IPC] Failed to open event %s because access was denied
+[IPC] Failed to open file mapping %s because access was denied
+[IPC] Failed to open mutex %s because access was denied
+[IPC] Forced create of Win32 mutex %s but it already existed
+[IPC] Forced create of Win32Event %s but it already existed
+[IPC] Forced create of Win32Event but it already existed
+[IPC] Forced create of Win32Mutex but it already existed
+[IPC] Forced create of file mapping %s but it already existed
+[IPC] GetTokenInformation failed. GetLastError returned: %d
+[IPC] InitializeAcl failed. GetLastError returned: %d
+[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d
+[IPC] OpenProcessToken failed. GetLastError returned: %d
+[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d
+[IPC] SharedMem access invalid: %x
+[IPC] The owner SID is invalid.
 [Input] Action Manifest Path set to '%s'
 [Input] After initial config load, app appears to be using legacy input
 [Input] After initial config load, app appears to not be using SteamVR Input
@@ -7820,7 +7861,6 @@ ZvFailed to create fence %ls.
 ] is not a JSON object.
 ] name = "
 ] name = [
-]5Ga*
 ]9k0tVD
 ]@L9{(
 ]HH;G
@@ -7962,7 +8002,6 @@ _wstat64i32
 `bufferViews' does not contain an JSON object.
 `buffers' does not contain an JSON object.
 `cameras' does not contain an JSON object.
-`h@SH
 `input` field is missing in animation.sampler
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
@@ -8551,8 +8590,8 @@ fwrite
 fxL9f0H
 g(u^H
 g9k0t_D
-g:n*)nC
 gamepad
+gamescope.steam
 generator
 generic
 generic_hmd
@@ -9021,13 +9060,13 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o5+u,
 o@@fD
 oD$ fD
 oD$0f
 oD$0fD
 oL$ f
 oT$0f
+oUU0l
 object
 object key
 object separator
@@ -9109,6 +9148,8 @@ pInstance
 pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
 pNewResource
 pNewResource->Load( absFilePath )
+pOutFormatCount MUST not be NULL.
+pOutModifierCount MUST not be NULL.
 pOutReport != nullptr
 pOutput != nullptr
 pParams->unArrayIndex < srcDesc.ArraySize
@@ -9326,6 +9367,7 @@ shaders/d3d11/distort_geom_reflect_ps.fxo
 shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_simplified_ps.fxo
 shaders/d3d11/distort_geom_simplified_reflect_ps.fxo
+shaders/d3d11/distort_geom_spherical_vs.fxo
 shaders/d3d11/distort_geom_tan_vs.fxo
 shaders/d3d11/distort_geom_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_vignette_ps.fxo
@@ -9480,6 +9522,7 @@ shaders/vulkan/distort_geom_reflect_ps.spv
 shaders/vulkan/distort_geom_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_simplified_ps.spv
 shaders/vulkan/distort_geom_simplified_reflect_ps.spv
+shaders/vulkan/distort_geom_spherical_vs.spv
 shaders/vulkan/distort_geom_tan_vs.spv
 shaders/vulkan/distort_geom_uvs_embedded_vs.spv
 shaders/vulkan/distort_geom_vignette_ps.spv
@@ -9773,9 +9816,11 @@ sxr_xrWaitFrame
 sxr_xrWaitSwapchainImage
 syntax error 
 system
+system.desktop.
 system.messageoverlay.clientpid.%d
 system.systemui
 system.vrresources
+system.window.
 systemui_dashboard
 t	D82
 t	D;y0s
@@ -9886,12 +9931,13 @@ t'H9x
 t)H9P
 t,fff
 t-A9D
+t.L9Ght(
 t1Hcl$@
 t1fff
 t3fff
 t6H9.u1
 t7fff
-t8D8-
+t8D8-yI-
 t9fff
 t:fff
 t>H9n
@@ -9964,6 +10010,7 @@ touched_path
 touchy_click
 touchy_latch
 toupper
+tqfff
 trL9?tm
 tr_tr
 trackedCamera
@@ -9987,7 +10034,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=
+t}H9=v
 u	A;p(s
 u	A;y(s
 u	H9|$ tI
@@ -11075,6 +11122,7 @@ znear
 |$TtH
 |$X@2
 |$XH+
+|$XH9
 |$XH;
 |$\!u
 |$`H;
@@ -11110,8 +11158,10 @@ znear
 ~3LcD$(L
 ~6HcD$ I
 ~Cfff
+~N0b%
 ~PH9~Xt(H
 ~XH9~`t+H
+~qfff
 ~qj#k"
 ~t&LN
 ~universe:

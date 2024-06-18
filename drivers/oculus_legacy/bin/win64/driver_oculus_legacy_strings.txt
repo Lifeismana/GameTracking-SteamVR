@@ -6,7 +6,6 @@
  A__^
  H3E H3E
 !hn7!
-"jAo}
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -19,11 +18,11 @@
 )\$pD
 )d$`D
 )t$pu.H
-*\IYxW
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
+-!P@7Is
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -93,8 +92,9 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240525011333Z0/
+240618222124Z0/
 241009235959Z0a1
+29c#a
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -106,7 +106,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-5#]R1?+
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -129,7 +128,6 @@
 ;k sAH
 ;k sDH
 <0:08
-<;Qf_
 =rIQU
 >0<0:
 >Mp$d
@@ -147,6 +145,7 @@
 @UAVH
 @UAWH
 @USVWATAUAVAWH
+@r+`	
 A9A A
 A9Q sEI
 A;Q s?I
@@ -239,7 +238,6 @@ Initialized Oculus device %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-K9OEm
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -273,7 +271,6 @@ Pz}b!
 QueryPerformanceCounter
 R$fE;B*
 RPCRT4.dll
-RSDS[
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -288,6 +285,7 @@ SUWAWH
 SVWATAUAVAWH
 SetEvent
 SetUnhandledExceptionFilter
+SgESa
 Sleep
 SleepConditionVariableCS
 TUUUUUU
@@ -389,19 +387,18 @@ effffff
 f9<Xu
 getenv
 gfffffffH
-hABUa
 headset
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-j]?09
 jj@0HK4
 k0i0$
 l$8E3
 l2|X/gGe
 m0k0$
+mH'v`I
 malloc
 map/set<T> too long
 memcmp
@@ -467,7 +464,6 @@ t$ AWH
 t$ UWAVH
 t$ WH
 t$@H=
-t>~Q`
 tIL95
 tXfff
 tdh.dll
@@ -492,5 +488,6 @@ z(uMH
 |$8I;
 |Lu?c
 }LuHO
+}r>Rez
 ~qj#k"
 ~t&LN

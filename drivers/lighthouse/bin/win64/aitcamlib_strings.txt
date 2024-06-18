@@ -1,6 +1,5 @@
 																																																																																																																
 	!s99
-	$Ys6
 	D$HA
 	|$HA
     A
@@ -29,7 +28,6 @@
 %,3:;4-&
 %9k0t
 %9{0t
-%bMa&
 &9k0t
 &D9c0t
 &D9k0t
@@ -179,7 +177,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240525011102Z0/
+240618221845Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -215,9 +213,9 @@
 9k0t_D
 9k0tcH
 9l$Lt	E
-:Qf5r0
 ;D$ht6
 <0:08
+<unknown>
 =ETLP
 =IBgC
 =SNRtt%
@@ -297,7 +295,6 @@ AitUVCExtApi.dll
 AuthD
 BMP RLE
 Bellevue1
-C<unknown>
 CAMCMD_GET_OPENCAMERA_RESULT
 CT$ H
 CallCreateObject
@@ -401,7 +398,7 @@ IVRInput_010
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_027
+IVROverlay_028
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -423,6 +420,8 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+Jj/T7
+J}Rm-Z
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -488,6 +487,7 @@ RtlVirtualUnwind
 S0Q0O
 SATAUAVAWH
 SA|X=G
+SED\qi
 SPB8t
 SPB8u,
 SUVWATAUAVAWH
@@ -573,6 +573,7 @@ VWATAUAWH
 VWAVH
 VWAWH
 V_~]	,
+V`a7M]j
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
@@ -601,7 +602,6 @@ Z9k0tUD
 \$pfD
 ]9k0tVD
 ]J<0"0i3
-]Q;R"
 ]g@8yhu
 ^9k0tWD
 _Cnd_destroy_in_situ
@@ -816,6 +816,7 @@ not HDR
 not PSD
 not enough pixels
 ntelD
+nz.44
 o@@fD
 oD$ fD
 oD$0f
@@ -891,7 +892,6 @@ u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uH@8}
 uJf9X
-u`qCa
 uk_ua
 ukrainian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
@@ -908,7 +908,6 @@ vi_vn
 vietnamese
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vrcamera_api.dll
-wk3Bhi
 wrong channel count
 wrong color format
 wrong version
@@ -933,6 +932,7 @@ zlib corrupt
 |$XH;
 |Lu?c
 }LuHO
+}YT=j
 ~3LcD$(L
 ~6HcD$ I
 ~qj#k"

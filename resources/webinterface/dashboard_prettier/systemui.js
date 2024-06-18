@@ -45,7 +45,7 @@
           at: () => b.a,
           bt: () => g.b,
           dq: () => i.dq,
-          eK: () => C.e,
+          eK: () => T.e,
           eQ: () => i.eQ,
           gO: () => u.g,
           gQ: () => v.g,
@@ -54,8 +54,8 @@
           iN: () => h.iN,
           jL: () => y.j,
           jm: () => R.j,
-          kH: () => M.k,
-          kL: () => D.k,
+          kH: () => D.k,
+          kL: () => M.k,
           l0: () => I.l0,
           lx: () => I.lx,
           mT: () => i.mT,
@@ -67,7 +67,7 @@
           qR: () => I.qR,
           rN: () => i.rN,
           sH: () => V.sH,
-          sO: () => T.s,
+          sO: () => C.s,
           s_: () => S.s_,
           sl: () => d.s,
           tS: () => i.tS,
@@ -102,10 +102,10 @@
           R = o(2467),
           k = o(7996),
           w = o(1364),
-          C = o(5146),
-          T = o(163),
-          M = o(2109),
-          D = o(8221),
+          T = o(5146),
+          C = o(163),
+          D = o(2109),
+          M = o(8221),
           E = (o(684), o(9481)),
           I = o(5867),
           V = o(7074);
@@ -330,16 +330,22 @@
             super(e);
           }
           internalRender() {
-            let e = (0, i.Kg)(this.props.xfCurrent.translation),
-              t = (0, i.xs)(this.props.xfCurrent.rotation),
-              o = (0, i.Kg)(this.props.xfCurrent.scale);
+            let e = (0, i.Kg)(this.props.transform.translation),
+              t = (0, i.xs)(this.props.transform.rotation),
+              o = (0, i.Kg)(this.props.transform.scale);
             return n.createElement(
               "vsg-grab-transform",
               {
-                "parent-path": this.props.sParentPath,
+                "parent-path": this.props.parent_path,
                 translation: e,
                 rotation: t,
                 scale: o,
+                "stop-distance": this.props.stop_distance,
+                "start-angle": this.props.start_angle,
+                "start-quat-difference": this.props.start_quat_difference,
+                "stop-quat-difference": this.props.stop_quat_difference,
+                "scale-margin": this.props.scale_margin,
+                "lerp-speed": this.props.lerp_speed,
               },
               this.props.children,
             );
@@ -769,6 +775,7 @@
               (c.properties["curvature-origin-id"] = (0, h.Hb)(
                 this.props.curvature_origin_id,
               )),
+              (c.properties.spherical = this.props.spherical),
               (c.properties.interactive = this.props.interactive),
               (c.properties.scrollable = this.props.scrollable),
               (c.properties.undocked = this.props.undocked),
@@ -1444,16 +1451,16 @@
       233: (e, t, o) => {
         "use strict";
         o.d(t, {
-          Gv: () => C,
+          Gv: () => T,
           Hb: () => w,
           Mb: () => h,
-          OK: () => D,
+          OK: () => M,
           ac: () => u,
           iN: () => k,
           k7: () => E,
           mK: () => R,
-          qI: () => M,
-          sX: () => T,
+          qI: () => D,
+          sX: () => C,
         });
         var n = o(655),
           i = o(4671);
@@ -1607,7 +1614,19 @@
                     (i.properties["parent-path"] = d(t, "parent-path")),
                     (i.properties.translation = r(t, "translation")),
                     (i.properties.rotation = r(t, "rotation")),
-                    (i.properties.scale = r(t, "scale"));
+                    (i.properties.scale = r(t, "scale")),
+                    (i.properties["stop-distance"] = a(t, "stop-distance")),
+                    (i.properties["start-angle"] = a(t, "start-angle")),
+                    (i.properties["start-quat-difference"] = a(
+                      t,
+                      "start-quat-difference",
+                    )),
+                    (i.properties["stop-quat-difference"] = a(
+                      t,
+                      "stop-quat-difference",
+                    )),
+                    (i.properties["scale-margin"] = a(t, "scale-margin")),
+                    (i.properties["lerp-speed"] = a(t, "lerp-speed"));
               }
               return [n, i];
             })(e, t),
@@ -1652,10 +1671,10 @@
                 return e && e.includes("::");
               })(e)
               ? e
-              : k(C(), e)
+              : k(T(), e)
             : null;
         }
-        function C() {
+        function T() {
           var e;
           return null !==
             (e =
@@ -1665,13 +1684,13 @@
             ? e
             : m;
         }
-        function T(e) {
+        function C(e) {
           y.push(e), E();
         }
-        function M() {
+        function D() {
           _ = !0;
         }
-        function D(e) {
+        function M(e) {
           var t, o;
           (o = e),
             (null == (t = f) || null == o
@@ -1710,7 +1729,7 @@
                     yield S.Init("sg_mailbox", g));
                   let o = {
                     type: "update_scene_graph",
-                    owning_overlay_key: C(),
+                    owning_overlay_key: T(),
                     scene_graph: t,
                     retired_sgids: y,
                   };
@@ -2314,10 +2333,10 @@
           Op: () => s,
           Pw: () => b,
           QZ: () => r,
-          Qu: () => M,
+          Qu: () => D,
           XX: () => h,
           Z9: () => p,
-          a0: () => C,
+          a0: () => T,
           l0: () => S,
           lx: () => R,
           nX: () => l,
@@ -2362,7 +2381,7 @@
         let l = 0,
           d = 0,
           c = -1;
-        var u, h, p, m, v, g, _, y, b, S, f, R, k, w, C, T, M;
+        var u, h, p, m, v, g, _, y, b, S, f, R, k, w, T, C, D;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -2525,19 +2544,19 @@
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(C || (C = {})),
+          })(T || (T = {})),
           (function (e) {
             (e[(e.Hostname = 0)] = "Hostname"),
               (e[(e.IP = 1)] = "IP"),
               (e[(e.Version = 2)] = "Version"),
               (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
               (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate");
-          })(T || (T = {})),
+          })(C || (C = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(M || (M = {}));
+          })(D || (D = {}));
       },
       7074: (e, t, o) => {
         "use strict";
@@ -4051,12 +4070,7 @@
           d = o(7176),
           c = o(7373),
           u = o(2758);
-        const h = [
-          "system.dashboard.quicklaunch",
-          void 0,
-          void 0,
-          void 0,
-        ].filter(Boolean);
+        const h = ["system.dashboard.quicklaunch", void 0].filter(Boolean);
         class p {
           constructor() {
             (this.m_bDarkMode = !1),
@@ -4169,7 +4183,11 @@
             return !1;
           }
           get isVRGamepadUI() {
-            return u.U.BOverlayExists(d.T2) || u.U.BOverlayExists(d.BZ);
+            return (
+              !l.G3.settings.get(d.YL) ||
+              u.U.BOverlayExists(d.T2) ||
+              u.U.BOverlayExists(d.BZ)
+            );
           }
           get isVRGamepadUIViaGamescope() {
             return !1;
@@ -4504,9 +4522,9 @@
           R = o(6459),
           k = o(9347),
           w = o(2743),
-          C = o(7095),
-          T = o(8980);
-        let M = (n = class extends l.Component {
+          T = o(7095),
+          C = o(8980);
+        let D = (n = class extends l.Component {
           constructor(e) {
             super(e),
               (this.m_imageSources = []),
@@ -4592,7 +4610,7 @@
               l.createElement(
                 "div",
                 {
-                  className: (0, T.LJ)("PortraitAppImageContainer", [
+                  className: (0, C.LJ)("PortraitAppImageContainer", [
                     "Fallback",
                     this.state.isFallback,
                   ]),
@@ -4608,15 +4626,15 @@
             );
           }
         });
-        (M.defaultProps = {
+        (D.defaultProps = {
           fallbackImageUrl: "images/appimage_default_portrait.png",
         }),
-          (M.s_failedImages = []),
-          (0, i.gn)([a.ak], M.prototype, "loadNextImage", null),
-          (0, i.gn)([a.ak], M.prototype, "onLoad", null),
-          (0, i.gn)([a.ak], M.prototype, "onError", null),
-          (M = n = (0, i.gn)([b.Pi], M));
-        var D = o(8242);
+          (D.s_failedImages = []),
+          (0, i.gn)([a.ak], D.prototype, "loadNextImage", null),
+          (0, i.gn)([a.ak], D.prototype, "onLoad", null),
+          (0, i.gn)([a.ak], D.prototype, "onError", null),
+          (D = n = (0, i.gn)([b.Pi], D));
+        var M = o(8242);
         class E extends l.Component {
           constructor(e) {
             super(e), (this.state = {});
@@ -4635,7 +4653,7 @@
           }
           onOpenAppControllerBindingSettings() {
             const e = _.H.Instance.SceneAppKey;
-            C.f.OpenDeepLink(C.P.Name, e);
+            T.f.OpenDeepLink(T.P.Name, e);
           }
           onOpenAppVideoSettings() {
             const e = _.H.Instance.SceneAppKey;
@@ -4688,7 +4706,7 @@
               l.createElement(
                 "div",
                 { className: "ArtworkColumn" },
-                l.createElement(M, { appkey: t, title: o, imageUrl: h }),
+                l.createElement(D, { appkey: t, title: o, imageUrl: h }),
               ),
               l.createElement(
                 "div",
@@ -4706,17 +4724,17 @@
                 ),
                 s &&
                   l.createElement(
-                    D.ls,
+                    M.ls,
                     {
-                      icon: D.uc.PopOut,
+                      icon: M.uc.PopOut,
                       onClick: this.onOpenAppControllerBindingSettings,
                     },
                     (0, m.Xx)("#Controller_Bindings"),
                   ),
                 s &&
                   l.createElement(
-                    D.ls,
-                    { icon: D.uc.PopOut, onClick: this.onOpenAppVideoSettings },
+                    M.ls,
+                    { icon: M.uc.PopOut, onClick: this.onOpenAppVideoSettings },
                     (0, m.Xx)("#App_Video_Settings"),
                   ),
                 a &&
@@ -4749,7 +4767,7 @@
           l.createElement(
             "div",
             {
-              className: (0, T.LJ)("ButtonContainer", I[e.side], [
+              className: (0, C.LJ)("ButtonContainer", I[e.side], [
                 "Disabled",
                 !1 === e.enabled,
               ]),
@@ -4851,7 +4869,7 @@
             return l.createElement(
               "div",
               {
-                className: (0, T.LJ)(
+                className: (0, C.LJ)(
                   "PaginatedCarousel",
                   this.props.additionalClassNames,
                 ),
@@ -4893,7 +4911,7 @@
         let B = class extends l.Component {
           constructor(e) {
             super(e),
-              (this.m_scrollWatcher = new T.cB()),
+              (this.m_scrollWatcher = new C.cB()),
               (this.m_refAnchoredParentPortal = l.createRef()),
               (this.m_refButton = l.createRef()),
               (this.state = { bShowPlay: !1 }),
@@ -4941,7 +4959,7 @@
               l.createElement(
                 "div",
                 {
-                  className: (0, T.LJ)(
+                  className: (0, C.LJ)(
                     "AppButtonContainer",
                     [
                       "AppOwned",
@@ -4959,7 +4977,7 @@
                     onMouseLeave: this.buttonMouseLeave,
                     onClick: this.props.onClick,
                   },
-                  l.createElement(M, Object.assign({}, e), this.props.children),
+                  l.createElement(D, Object.assign({}, e), this.props.children),
                 ),
               )
             );
@@ -5151,7 +5169,7 @@
                 scrollable: !o,
                 debugName: "homepanel",
                 additionalClassNames: "QuickLaunch",
-                summonOverlayKey: p.O5,
+                summonOverlayKey: p.po,
               },
               e,
             );
@@ -5184,7 +5202,7 @@
         function $(e) {
           const { debugHostLocation: t, onGrabStart: o, onGrabEnd: n } = e,
             i = j.B.isVRGamepadUI,
-            a = (0, T.aB)();
+            a = (0, C.aB)();
           if (!a) return null;
           const s =
               null != (null == a ? void 0 : a.overlayKey) &&
@@ -5222,7 +5240,7 @@
           );
         }
         function ee(e) {
-          const t = (0, T.aB)();
+          const t = (0, C.aB)();
           if (!t) return null;
           const o = de.k_nControlBarPitch;
           return (
@@ -5245,11 +5263,11 @@
                   r.wx,
                   { translation: de.getControlBarTranslation() },
                   l.createElement(
-                    r.wx,
-                    { rotation: { x: o }, curvature_pitch: o },
+                    W.Z,
+                    null,
                     l.createElement(
-                      W.Z,
-                      null,
+                      r.wx,
+                      { rotation: { x: o }, curvature_pitch: o },
                       l.createElement($, { debugHostLocation: "Undocked" }),
                     ),
                   ),
@@ -5268,7 +5286,8 @@
             (e[(e.RoomSetup = 6)] = "RoomSetup"),
             (e[(e.RoomSetupInstant = 7)] = "RoomSetupInstant"),
             (e[(e.Volume = 8)] = "Volume"),
-            (e[(e.ToggleDarkMode = 9)] = "ToggleDarkMode");
+            (e[(e.ToggleDarkMode = 9)] = "ToggleDarkMode"),
+            (e[(e.UserGuide = 10)] = "UserGuide");
         })(G || (G = {}));
         var te,
           oe,
@@ -5459,6 +5478,9 @@
                       break;
                     case G.ToggleDarkMode:
                       j.B.m_bDarkMode = !j.B.isDarkMode;
+                      break;
+                    case G.UserGuide:
+                      this.onUserGuideClick();
                   }
                 },
               );
@@ -5669,15 +5691,28 @@
             const l = new Q.yt();
             l.add_actions(
               Q.z3.fromObject({
-                action_id: G.RoomSetupInstant,
-                display_name: "Room Setup (Instant)",
+                action_id: G.UserGuide,
+                display_name: "User Guide",
                 visible_in_dashboard_menu: this.BShouldShowDashboardAction(
-                  G.RoomSetupInstant,
+                  G.UserGuide,
                 ),
                 invocation: Q.w7.k_EVRDashboardActionInvocation_Trigger,
-                icon: { enum: Q.Cj.k_EVRDashboardActionIcon_RoomSetupInstant },
+                icon: { enum: Q.Cj.k_EVRDashboardActionIcon_Unknown },
               }),
             ),
+              l.add_actions(
+                Q.z3.fromObject({
+                  action_id: G.RoomSetupInstant,
+                  display_name: "Room Setup (Instant)",
+                  visible_in_dashboard_menu: this.BShouldShowDashboardAction(
+                    G.RoomSetupInstant,
+                  ),
+                  invocation: Q.w7.k_EVRDashboardActionInvocation_Trigger,
+                  icon: {
+                    enum: Q.Cj.k_EVRDashboardActionIcon_RoomSetupInstant,
+                  },
+                }),
+              ),
               l.add_actions(
                 Q.z3.fromObject({
                   action_id: G.RoomSetup,
@@ -6114,36 +6149,25 @@
             );
           }
           shouldShowOverlayTab(e, t) {
-            var o;
             return t && e.summon_overlay_key == p.PF
               ? _.H.Instance.SceneApplicationState != r.xY.None
-              : (void 0 !== e.icon_overlay_key || null != e.icon_uri) &&
-                  !!e.summon_overlay_key &&
-                  !(!t && e.summon_overlay_key == p.A4) &&
-                  !(!t && e.summon_overlay_key == p.Xl) &&
-                  !(!t && e.summon_overlay_key.startsWith(p.r4)) &&
-                  !(!t && e.summon_overlay_key.startsWith(p.Vq)) &&
-                  !(
-                    !t &&
+              : !(
+                  (void 0 === e.icon_overlay_key && null == e.icon_uri) ||
+                  !e.summon_overlay_key ||
+                  (!t && e.summon_overlay_key == p.A4) ||
+                  (!t && e.summon_overlay_key == p.Xl) ||
+                  (!t && e.summon_overlay_key.startsWith(p.r4)) ||
+                  (!t && e.summon_overlay_key.startsWith(p.Vq)) ||
+                  (!t &&
                     e.summon_overlay_key.startsWith(p.MZ) &&
-                    !e.summon_overlay_key.startsWith(p.wX)
-                  ) &&
-                  (t && e.summon_overlay_key == p.O5
-                    ? null !== (o = y.G3.settings.get(p.r0)) &&
-                      void 0 !== o &&
-                      o
-                    : !(
-                        !t &&
-                        (function (e) {
-                          var t;
-                          return (
-                            null !==
-                              (t = null == e ? void 0 : e.startsWith(p.MI)) &&
-                            void 0 !== t &&
-                            t
-                          );
-                        })(e.summon_overlay_key)
-                      ));
+                    !e.summon_overlay_key.startsWith(p.wX)) ||
+                  (!t &&
+                    ((o = e.summon_overlay_key),
+                    null !== (n = null == o ? void 0 : o.startsWith(p.MI)) &&
+                      void 0 !== n &&
+                      n))
+                );
+            var o, n;
           }
           computeFilteredOverlayTabs(e) {
             return Object.values(this.m_mapExternalOverlays)
@@ -6158,9 +6182,12 @@
             return null;
           }
           switchToHomeOverlay() {
-            let e;
-            (e = j.B.isVRGamepadUI ? p.T2 : p.O5),
-              this.switchToOverlayInternal(e, "switchToDashboardLibrary");
+            const e = ["gamescope.steam", p.T2, p.po];
+            for (const t of e)
+              if (this.hasDashboardOverlay(t)) {
+                this.switchToOverlayInternal(t, "switchToDashboardLibrary");
+                break;
+              }
           }
           switchToSteamOverlay() {
             j.B.isVRGamepadUI &&
@@ -6230,9 +6257,9 @@
                   te.k_nTimeLimitToReturnToActiveOverlayThatVanishedSeconds &&
                 e.push(this.m_activeOverlayThatVanished.sSummonKey),
               (null == t ||
-                (t == p.O5 && !this.m_bUserManuallySwitchToOldLibrary)) &&
+                (t == p.po && !this.m_bUserManuallySwitchToOldLibrary)) &&
                 e.push(p.T2),
-              null == t && e.push(p.O5);
+              null == t && e.push(p.po);
             const o = e.find(this.hasDashboardOverlay);
             o && this.switchToOverlayInternal(o);
           }
@@ -6390,8 +6417,8 @@
               void 0 === VRHTML ||
               VRHTML.VRControlPanel.SetCameraRoomViewVisible(n);
           }
-          onQuickLaunchButtonClick() {
-            this.switchToOverlayInternal(p.O5);
+          onLegacyQuickLaunchButtonClick() {
+            this.switchToOverlayInternal(p.po);
           }
           onRecenterClick() {
             this.state.bLinkStreamActive && VRHTML.BIsLinkServer()
@@ -6403,6 +6430,11 @@
                   type: z.KU,
                   countdown_seconds: 3,
                 });
+          }
+          onUserGuideClick() {
+            null === VRHTML ||
+              void 0 === VRHTML ||
+              VRHTML.VRApplications.LaunchApplication("user_guide");
           }
           onRoomSetupClick(e) {
             const t = e ? "instant_room_setup" : "room_setup";
@@ -6430,7 +6462,7 @@
             } catch (e) {}
             return null;
           }
-          renderPowerMenu() {
+          renderLegacyPowerMenu() {
             const e = !!(null === VRHTML || void 0 === VRHTML
                 ? void 0
                 : VRHTML.SceneAppRunning()),
@@ -6465,7 +6497,7 @@
                       lineBelow: !0,
                       onClick: () => {
                         (this.m_bUserManuallySwitchToOldLibrary = !0),
-                          this.switchToOverlayInternal(p.O5),
+                          this.switchToOverlayInternal(p.po),
                           this.showPopoverMenu(ne.None);
                       },
                     }),
@@ -6819,54 +6851,70 @@
             });
           }
           BShouldShowDashboardAction(e) {
-            var t, o, n, i;
-            const r =
+            var t, o, n, i, r, a;
+            const s =
                 null !== (t = y.G3.settings.get(p.Av)) && void 0 !== t && t,
-              a =
+              l =
                 null !== (o = y.G3.settings.get(p.k_)) && void 0 !== o ? o : 0,
-              s = VRHTML.BIsLinkServer();
-            switch ((VRHTML.BIsLinkClient(), e)) {
+              d = VRHTML.BIsLinkServer();
+            switch (e) {
               case G.ExitVR:
-                return !0;
+                return (
+                  null ===
+                    (n = y.G3.settings.get(
+                      "/settings/dashboard/allowExitVR",
+                    )) ||
+                  void 0 === n ||
+                  n
+                );
               case G.Shutdown:
                 return y.G3.settings.get(
                   "/settings/dashboard/allowSystemShutdown",
                 );
               case G.ToggleRoomView:
-                return r && a > 0 && !(this.state.bLinkStreamActive && s);
+                return s && l > 0 && !(this.state.bLinkStreamActive && d);
               case G.ToggleVideoStream:
                 return !1;
               case G.Recenter:
                 return (
                   1 !=
                   (null !==
-                    (n =
+                    (i =
                       null === VRHTML || void 0 === VRHTML
                         ? void 0
                         : VRHTML.VRProperties.GetInt32Property(
                             "/user/head",
                             2109,
-                          )) && void 0 !== n
-                    ? n
+                          )) && void 0 !== i
+                    ? i
                     : 0)
                 );
               case G.IncognitoMode:
                 return !1;
               case G.ToggleDarkMode:
                 return j.B.isTheaterMode || Z.C.m_bShowFloor;
+              case G.UserGuide:
+                return (
+                  null !==
+                    (r = y.G3.settings.get(
+                      "/settings/dashboard/allowUserGuide",
+                    )) &&
+                  void 0 !== r &&
+                  r
+                );
               case G.RoomSetup:
               case G.RoomSetupInstant:
                 return !(
                   null ===
-                    (i =
+                    (a =
                       null === VRHTML || void 0 === VRHTML
                         ? void 0
                         : VRHTML.VRProperties.GetInt32Property(
                             "/user/head",
                             2110,
                           )) ||
-                  void 0 === i ||
-                  !i
+                  void 0 === a ||
+                  !a
                 );
               default:
                 return !1;
@@ -6898,10 +6946,10 @@
                 void 0 !== a &&
                 a
               ),
-              C = this.getPeerButtonInfo(),
-              T = (VRHTML.BIsLinkServer(), _.H.Instance.SceneApplicationState),
-              M = _.H.Instance.SceneAppIsHome,
-              D =
+              T = this.getPeerButtonInfo(),
+              C = (VRHTML.BIsLinkServer(), _.H.Instance.SceneApplicationState),
+              D = _.H.Instance.SceneAppIsHome,
+              M =
                 null ===
                   (s = y.G3.settings.get(
                     "/settings/dashboard/allowCurvature",
@@ -6929,7 +6977,7 @@
                       l.createElement(
                         r.s_,
                         {
-                          curvature_origin_id: D,
+                          curvature_origin_id: M,
                           width: v,
                           interactive: o,
                           id: p.WR,
@@ -6969,8 +7017,8 @@
                                   label: (0, m.Xx)("#Library"),
                                   imageUrl:
                                     "/dashboard/images/icons/svr_items.svg",
-                                  active: this.isOverlayActive(p.O5),
-                                  onClick: this.onQuickLaunchButtonClick,
+                                  active: this.isOverlayActive(p.po),
+                                  onClick: this.onLegacyQuickLaunchButtonClick,
                                 }),
                               S &&
                                 l.createElement(R.B8, {
@@ -7014,7 +7062,7 @@
                           l.createElement(
                             "div",
                             { className: "Section Center" },
-                            T != r.xY.None &&
+                            C != r.xY.None &&
                               o &&
                               l.createElement(
                                 "div",
@@ -7038,13 +7086,13 @@
                                           debug_name: "NowPlayingButton",
                                           interactive: !0,
                                           target_dpi_panel_id: p.WR,
-                                          curvature_origin_id: D,
+                                          curvature_origin_id: M,
                                         },
                                         l.createElement(
                                           "div",
                                           { className: "ControlBar" },
                                           l.createElement(R.NT, {
-                                            label: M
+                                            label: D
                                               ? (0, m.Xx)("#SteamVR_Home")
                                               : (0, m.Xx)("#Now_Playing"),
                                             active: this.isOverlayActive(p.PF),
@@ -7139,19 +7187,19 @@
                                   this.switchToOverlayInternal(p.A4),
                               }),
                             this.state.bLinkStreamActive &&
-                              C &&
+                              T &&
                               l.createElement(R.NT, {
-                                imageUrl: C.sIcon,
+                                imageUrl: T.sIcon,
                                 active: !1,
                                 enabled: !0,
-                                label: (0, m.Xx)(C.sButtonName),
+                                label: (0, m.Xx)(T.sButtonName),
                                 style: R.zk.Small,
                                 centerPanelAnchorID: "VolumeButton",
                                 onClick: () => this.handlePeerButton(),
                               }),
                           ),
                         ),
-                        o && this.renderLegacyControlBarTrays(D),
+                        o && this.renderLegacyControlBarTrays(M),
                       ),
                     ),
                   ),
@@ -7255,6 +7303,7 @@
                     null === (t = this.m_refDesktopView.current) || void 0 === t
                       ? void 0
                       : t.ShowMultitaskingView,
+                  ToggleGamepadFocus: this.onToggleGamepadFocus,
                   sOverlayKey: e.sOverlayKey,
                   xfInitial: e.overlayState.xfInitial,
                   key: e.sOverlayKey,
@@ -7300,22 +7349,24 @@
                       ? void 0
                       : o.desktopCount) && void 0 !== n
                   ? n
-                  : 1;
+                  : 1,
+              s = y.G3.settings.get(p.YL) || j.B.m_bShowLegacyBar;
             return l.createElement(
               l.Fragment,
               null,
-              l.createElement(
-                r.Y9,
-                {
-                  tabName: (0, m.Xx)("#Library"),
-                  iconUri: "/dashboard/images/icons/svr_items.svg",
-                  summonOverlayKey: p.O5,
-                },
-                l.createElement(U, {
-                  visible: this.state.bShown && this.isOverlayActive(p.O5),
-                  onGameLaunched: this.onGameLaunched,
-                }),
-              ),
+              s &&
+                l.createElement(
+                  r.Y9,
+                  {
+                    tabName: (0, m.Xx)("#Library"),
+                    iconUri: "/dashboard/images/icons/svr_items.svg",
+                    summonOverlayKey: p.po,
+                  },
+                  l.createElement(U, {
+                    visible: this.state.bShown && this.isOverlayActive(p.po),
+                    onGameLaunched: this.onGameLaunched,
+                  }),
+                ),
               l.createElement(
                 r.Y9,
                 { tabName: (0, m.Xx)("#Now_Playing"), summonOverlayKey: p.PF },
@@ -7421,14 +7472,14 @@
                   ? p.ml
                   : null,
               w = { x: 0, y: -0.15, z: 0.1 },
-              C = this.GetActiveOverlayAnchorIDs();
+              T = this.GetActiveOverlayAnchorIDs();
             return l.createElement(
               l.Fragment,
               null,
               l.createElement(
                 r.wx,
                 {
-                  parent_id: C.strBottomCenterAnchorID,
+                  parent_id: T.strBottomCenterAnchorID,
                   translation: { y: 0.003 },
                 },
                 l.createElement(
@@ -7440,7 +7491,7 @@
                       curvature_origin_id: k,
                       origin: r.Ic.TopCenter,
                       interactive: !1,
-                      target_width_anchor_id: C.strBottomCenterAnchorID,
+                      target_width_anchor_id: T.strBottomCenterAnchorID,
                       height: 0.15,
                       min_width: 1.66,
                       debug_name: "ActiveOverlayControlBarBackground",
@@ -7456,7 +7507,7 @@
               l.createElement(
                 r.wx,
                 {
-                  parent_id: C.strBottomCenterAnchorID,
+                  parent_id: T.strBottomCenterAnchorID,
                   translation: { y: 0.003, z: 0.001 },
                 },
                 l.createElement(
@@ -7759,21 +7810,21 @@
               S = (0, f.fT)(b),
               k = (0, f.sg)(b);
             let w = this.getActiveOverlayKey();
-            const C =
+            const T =
                 null === (o = ae.U.GetOverlayInfo(w)) || void 0 === o
                   ? void 0
                   : o.sHandle,
-              T = !!C && VRHTML.VROverlay.GetFlag(C, r.Z9.EnableControlBar);
-            let M = 2,
-              D = 2.5;
+              C = !!T && VRHTML.VROverlay.GetFlag(T, r.Z9.EnableControlBar);
+            let D = 2,
+              M = 2.5;
             const E = y.G3.settings.get("/settings/dashboard/theaterPosition");
             E == oe.Near
-              ? ((M *= 0.5), (D *= 0.5))
+              ? ((D *= 0.5), (M *= 0.5))
               : E == oe.Middle
-                ? ((M *= 1), (D *= 1))
+                ? ((D *= 1), (M *= 1))
                 : E == oe.Far
-                  ? ((M *= 4), (D *= 2.5))
-                  : E == oe.Standard && ((M *= 1), (D *= 1));
+                  ? ((D *= 4), (M *= 2.5))
+                  : E == oe.Standard && ((D *= 1), (M *= 1));
             const I =
                 null ===
                   (n = y.G3.settings.get(
@@ -7782,7 +7833,7 @@
                 void 0 === n ||
                 n,
               V = I ? p.ml : null,
-              x = { y: T ? -0.9 : -1.03375, z: 0.05 },
+              x = { y: C ? -0.9 : -1.03375, z: 0.05 },
               P = d ? { y: -1.2, z: 0.35 } : { y: -1.2, z: 0.15 },
               L = te.k_nControlBarPitch;
             let O = I ? 1 : 0;
@@ -7806,233 +7857,256 @@
                 l.createElement(
                   r.wx,
                   { translation: {}, parent_path: undefined },
+                  l.createElement(r.wx, { id: V, translation: { z: 1.8 } }),
                   l.createElement(
-                    W.Z,
-                    null,
-                    !1,
-                    l.createElement(r.wx, { id: V, translation: { z: 1.8 } }),
+                    r.wx,
+                    {
+                      translation: {
+                        x: 0,
+                        y: te.getDashboardVerticalPosition(),
+                        z: 1 * -te.getDashboardDistance(),
+                      },
+                      rotation: { x: 0 },
+                    },
                     l.createElement(
                       r.wx,
-                      {
-                        translation: {
-                          x: 0,
-                          y: te.getDashboardVerticalPosition(),
-                          z: 1 * -te.getDashboardDistance(),
-                        },
-                        rotation: { x: 0 },
-                        scale: te.getDashboardScale(),
-                      },
+                      { translation: { y: -0.15 } },
                       l.createElement(
-                        r.wx,
-                        { parent_id: H },
-                        s
-                          ? this.renderVRGamepadUIHeader(V)
-                          : this.renderLegacyHeader(V),
-                      ),
-                      l.createElement(
-                        r.wx,
-                        {
-                          id: "active_overlay_transform",
-                          translation: x,
-                          ref: this.m_refOverlayTransform,
-                        },
-                        !S && k && this.renderActiveOverlay(),
-                        !S &&
-                          !k &&
+                        W.Z,
+                        null,
+                        !1,
+                        l.createElement(
+                          r.wx,
+                          { translation: { y: 0.15 } },
                           l.createElement(
-                            R.lL,
-                            {
-                              additionalClassNames: T ? "WithControlBar" : "",
-                              visible: !0,
-                            },
+                            r.wx,
+                            { scale: te.getDashboardScale() },
                             l.createElement(
-                              "div",
-                              { className: "NoDesktopFound" },
-                              l.createElement(
-                                "h2",
-                                null,
-                                this.getActiveOverlayDockLocation() ==
-                                  f.RA.LeftHand &&
-                                  (0, m.Xx)("#DockedOnLeftController"),
-                                this.getActiveOverlayDockLocation() ==
-                                  f.RA.RightHand &&
-                                  (0, m.Xx)("#DockedOnRightController"),
-                              ),
-                              l.createElement(
-                                c.z,
-                                {
-                                  className: "ButtonControl",
-                                  onClick: () => {
-                                    this.onDockOverlay(w, f.RA.Dashboard);
+                              r.wx,
+                              { parent_id: H },
+                              s
+                                ? this.renderVRGamepadUIHeader(V)
+                                : this.renderLegacyHeader(V),
+                            ),
+                            l.createElement(
+                              r.wx,
+                              {
+                                id: "active_overlay_transform",
+                                translation: x,
+                                ref: this.m_refOverlayTransform,
+                              },
+                              !S && k && this.renderActiveOverlay(),
+                              !S &&
+                                !k &&
+                                l.createElement(
+                                  R.lL,
+                                  {
+                                    additionalClassNames: C
+                                      ? "WithControlBar"
+                                      : "",
+                                    visible: !0,
                                   },
-                                },
-                                (0, m.Xx)("#DockHere"),
-                              ),
+                                  l.createElement(
+                                    "div",
+                                    { className: "NoDesktopFound" },
+                                    l.createElement(
+                                      "h2",
+                                      null,
+                                      this.getActiveOverlayDockLocation() ==
+                                        f.RA.LeftHand &&
+                                        (0, m.Xx)("#DockedOnLeftController"),
+                                      this.getActiveOverlayDockLocation() ==
+                                        f.RA.RightHand &&
+                                        (0, m.Xx)("#DockedOnRightController"),
+                                    ),
+                                    l.createElement(
+                                      c.z,
+                                      {
+                                        className: "ButtonControl",
+                                        onClick: () => {
+                                          this.onDockOverlay(w, f.RA.Dashboard);
+                                        },
+                                      },
+                                      (0, m.Xx)("#DockHere"),
+                                    ),
+                                  ),
+                                ),
                             ),
-                          ),
-                      ),
-                      T && k && this.renderOverlayControlBar(),
-                      !1,
-                      l.createElement(
-                        r.wx,
-                        { parent_id: d ? p.dG : p.f$ },
-                        l.createElement(K.J, {
-                          curvature_origin_id: V,
-                          tint: j.B.ControlBarTint,
-                          onStartMove: this.onGrabStart,
-                          onEndMove: this.onGrabEnd,
-                        }),
-                      ),
-                      l.createElement(
-                        r.wx,
-                        { translation: P, id: p.Qg },
-                        l.createElement(r.wx, {
-                          id: p.f$,
-                          translation: { y: 0.08, z: -0.12 },
-                        }),
-                        l.createElement(
-                          r.wx,
-                          {
-                            rotation: { x: L },
-                            curvature_pitch: L,
-                            translation: d ? { y: -0.65, z: 0.2 } : {},
-                          },
-                          this.renderLegacyControlBar(h, v, u),
-                          l.createElement(
-                            r.wx,
-                            { translation: { y: -0.65, z: -0.01 } },
-                            l.createElement(ce, null),
-                          ),
-                        ),
-                        d &&
-                          l.createElement(
-                            r.wx,
-                            { rotation: { x: L }, curvature_pitch: L },
-                            this.renderVRGamepadUIBar(V),
-                          ),
-                        l.createElement(
-                          r.wx,
-                          { rotation: { x: L }, curvature_pitch: L },
-                          l.createElement(
-                            W.Z,
-                            null,
-                            this.state.bKeyboardVisible &&
-                              l.createElement($, {
-                                debugHostLocation: "Dashboard",
-                                onGrabStart: this.onGrabStart,
-                                onGrabEnd: this.onGrabEnd,
+                            C && k && this.renderOverlayControlBar(),
+                            !1,
+                            l.createElement(
+                              r.wx,
+                              { parent_id: d ? p.dG : p.f$ },
+                              l.createElement(K.J, {
+                                curvature_origin_id: V,
+                                tint: j.B.ControlBarTint,
+                                onStartMove: this.onGrabStart,
+                                onEndMove: this.onGrabEnd,
                               }),
+                            ),
+                            l.createElement(
+                              r.wx,
+                              { translation: P, id: p.Qg },
+                              l.createElement(r.wx, {
+                                id: p.f$,
+                                translation: { y: 0.08, z: -0.12 },
+                              }),
+                              l.createElement(
+                                r.wx,
+                                {
+                                  rotation: { x: L },
+                                  curvature_pitch: L,
+                                  translation: d ? { y: -0.65, z: 0.2 } : {},
+                                },
+                                this.renderLegacyControlBar(h, v, u),
+                                l.createElement(
+                                  r.wx,
+                                  { translation: { y: -0.65, z: -0.01 } },
+                                  l.createElement(ce, null),
+                                ),
+                              ),
+                              d &&
+                                l.createElement(
+                                  r.wx,
+                                  { rotation: { x: L }, curvature_pitch: L },
+                                  this.renderVRGamepadUIBar(V),
+                                ),
+                              l.createElement(
+                                r.wx,
+                                { rotation: { x: L } },
+                                l.createElement(
+                                  W.Z,
+                                  null,
+                                  l.createElement(
+                                    r.wx,
+                                    {
+                                      rotation: { x: -10 },
+                                      curvature_pitch: L,
+                                    },
+                                    !1,
+                                    this.state.bKeyboardVisible &&
+                                      l.createElement($, {
+                                        debugHostLocation: "Dashboard",
+                                        onGrabStart: this.onGrabStart,
+                                        onGrabEnd: this.onGrabEnd,
+                                      }),
+                                  ),
+                                ),
+                              ),
+                              this.state.eShowPopoverMenu == ne.Power &&
+                                l.createElement(
+                                  r.wx,
+                                  {
+                                    translation: { x: -0.4, y: 0.15, z: 0.05 },
+                                    rotation: { y: 19 * O },
+                                  },
+                                  l.createElement(
+                                    r.s_,
+                                    {
+                                      curvature_origin_id: V,
+                                      height: void 0,
+                                      width: 0.925,
+                                      interactive: !0,
+                                      origin: r.Ic.BottomRight,
+                                      debug_name: "Power Menu",
+                                      sort_depth_bias: -0.1,
+                                    },
+                                    this.renderLegacyPowerMenu(),
+                                  ),
+                                ),
+                              this.state.eShowPopoverMenu ==
+                                ne.ExternalOverlays &&
+                                l.createElement(
+                                  r.wx,
+                                  {
+                                    translation: { x: 0.2, y: 0.15, z: 0.05 },
+                                    rotation: { y: 6 * O },
+                                  },
+                                  l.createElement(
+                                    r.s_,
+                                    {
+                                      curvature_origin_id: V,
+                                      height: void 0,
+                                      width: 0.925,
+                                      interactive: !0,
+                                      origin: r.Ic.BottomRight,
+                                      debug_name: "OverlaysList",
+                                      sort_depth_bias: -0.1,
+                                    },
+                                    this.renderPopoverMenu(
+                                      l.createElement(
+                                        l.Fragment,
+                                        null,
+                                        " ",
+                                        v.map((e) =>
+                                          l.createElement(R.dy, {
+                                            key: e.mountable_id,
+                                            imageUrl:
+                                              this.getDashboardIconUri(e),
+                                            label: e.tab_name,
+                                            onClick: () => {
+                                              this.switchToOverlayInternal(
+                                                e.summon_overlay_key,
+                                              ),
+                                                this.showPopoverMenu(ne.None);
+                                            },
+                                          }),
+                                        ),
+                                        " ",
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              this.state.eShowPopoverMenu == ne.Windows &&
+                                l.createElement(
+                                  r.wx,
+                                  {
+                                    translation: { x: 1.25, y: -0.1, z: 0.35 },
+                                    rotation: { y: -16 * O },
+                                  },
+                                  l.createElement(
+                                    r.s_,
+                                    {
+                                      curvature_origin_id: V,
+                                      height: void 0,
+                                      width: 0.925,
+                                      interactive: !0,
+                                      origin: r.Ic.BottomRight,
+                                      debug_name: "WindowList",
+                                      sort_depth_bias: -0.1,
+                                    },
+                                    this.renderPopoverMenu(
+                                      l.createElement(
+                                        l.Fragment,
+                                        null,
+                                        " ",
+                                        _.map((e) =>
+                                          l.createElement(R.dy, {
+                                            key: e.hwnd,
+                                            imageUrl:
+                                              "/dashboard/images/icons/icon_add.png",
+                                            label: e.title,
+                                            onClick: () => {
+                                              let t = {
+                                                type: "request_spawn_window_view",
+                                                hwnd: e.hwnd,
+                                              };
+                                              this.m_mailbox.SendMessage(
+                                                "desktopview",
+                                                t,
+                                              ),
+                                                this.showPopoverMenu(ne.None);
+                                            },
+                                          }),
+                                        ),
+                                        " ",
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                            ),
                           ),
                         ),
-                        this.state.eShowPopoverMenu == ne.Power &&
-                          l.createElement(
-                            r.wx,
-                            {
-                              translation: { x: -0.4, y: 0.15, z: 0.05 },
-                              rotation: { y: 19 * O },
-                            },
-                            l.createElement(
-                              r.s_,
-                              {
-                                curvature_origin_id: V,
-                                height: void 0,
-                                width: 0.925,
-                                interactive: !0,
-                                origin: r.Ic.BottomRight,
-                                debug_name: "Power Menu",
-                                sort_depth_bias: -0.1,
-                              },
-                              this.renderPowerMenu(),
-                            ),
-                          ),
-                        this.state.eShowPopoverMenu == ne.ExternalOverlays &&
-                          l.createElement(
-                            r.wx,
-                            {
-                              translation: { x: 0.2, y: 0.15, z: 0.05 },
-                              rotation: { y: 6 * O },
-                            },
-                            l.createElement(
-                              r.s_,
-                              {
-                                curvature_origin_id: V,
-                                height: void 0,
-                                width: 0.925,
-                                interactive: !0,
-                                origin: r.Ic.BottomRight,
-                                debug_name: "OverlaysList",
-                                sort_depth_bias: -0.1,
-                              },
-                              this.renderPopoverMenu(
-                                l.createElement(
-                                  l.Fragment,
-                                  null,
-                                  " ",
-                                  v.map((e) =>
-                                    l.createElement(R.dy, {
-                                      key: e.mountable_id,
-                                      imageUrl: this.getDashboardIconUri(e),
-                                      label: e.tab_name,
-                                      onClick: () => {
-                                        this.switchToOverlayInternal(
-                                          e.summon_overlay_key,
-                                        ),
-                                          this.showPopoverMenu(ne.None);
-                                      },
-                                    }),
-                                  ),
-                                  " ",
-                                ),
-                              ),
-                            ),
-                          ),
-                        this.state.eShowPopoverMenu == ne.Windows &&
-                          l.createElement(
-                            r.wx,
-                            {
-                              translation: { x: 1.25, y: -0.1, z: 0.35 },
-                              rotation: { y: -16 * O },
-                            },
-                            l.createElement(
-                              r.s_,
-                              {
-                                curvature_origin_id: V,
-                                height: void 0,
-                                width: 0.925,
-                                interactive: !0,
-                                origin: r.Ic.BottomRight,
-                                debug_name: "WindowList",
-                                sort_depth_bias: -0.1,
-                              },
-                              this.renderPopoverMenu(
-                                l.createElement(
-                                  l.Fragment,
-                                  null,
-                                  " ",
-                                  _.map((e) =>
-                                    l.createElement(R.dy, {
-                                      key: e.hwnd,
-                                      imageUrl:
-                                        "/dashboard/images/icons/icon_add.png",
-                                      label: e.title,
-                                      onClick: () => {
-                                        let t = {
-                                          type: "request_spawn_window_view",
-                                          hwnd: e.hwnd,
-                                        };
-                                        this.m_mailbox.SendMessage(
-                                          "desktopview",
-                                          t,
-                                        ),
-                                          this.showPopoverMenu(ne.None);
-                                      },
-                                    }),
-                                  ),
-                                  " ",
-                                ),
-                              ),
-                            ),
-                          ),
                       ),
                     ),
                   ),
@@ -8093,11 +8167,17 @@
           (0, i.gn)([a.ak], de.prototype, "hide", null),
           (0, i.gn)([a.ak], de.prototype, "setPlacementModeActive", null),
           (0, i.gn)([a.ak], de.prototype, "onToggleRoomView", null),
-          (0, i.gn)([a.ak], de.prototype, "onQuickLaunchButtonClick", null),
+          (0, i.gn)(
+            [a.ak],
+            de.prototype,
+            "onLegacyQuickLaunchButtonClick",
+            null,
+          ),
           (0, i.gn)([a.ak], de.prototype, "onRecenterClick", null),
+          (0, i.gn)([a.ak], de.prototype, "onUserGuideClick", null),
           (0, i.gn)([a.ak], de.prototype, "onRoomSetupClick", null),
           (0, i.gn)([a.ak], de.prototype, "onToggleGamepadFocus", null),
-          (0, i.gn)([a.ak], de.prototype, "renderPowerMenu", null),
+          (0, i.gn)([a.ak], de.prototype, "renderLegacyPowerMenu", null),
           (0, i.gn)([a.ak], de.prototype, "startPopoverMenuTimeout", null),
           (0, i.gn)([a.ak], de.prototype, "clearPopoverMenuTimeout", null),
           (0, i.gn)([a.ak], de.prototype, "showPopoverMenu", null),
@@ -8203,8 +8283,8 @@
         o.d(t, {
           Sm: () => E,
           RA: () => S,
-          sg: () => T,
-          fT: () => M,
+          sg: () => C,
+          fT: () => D,
           Y3: () => f,
         });
         var n = o(655),
@@ -8306,14 +8386,14 @@
           (function (e) {
             (e[(e.Flat = 0)] = "Flat"), (e[(e.Curved = 1)] = "Curved");
           })(f || (f = {}));
-        const C = "TheaterCurvatureOriginId";
-        function T(e) {
+        const T = "TheaterCurvatureOriginId";
+        function C(e) {
           return e == S.Dashboard || e == S.Theater;
         }
-        function M(e) {
+        function D(e) {
           return e == S.World;
         }
-        function D(e) {
+        function M(e) {
           switch (e) {
             case S.LeftHand:
               return "/user/hand/left";
@@ -8329,7 +8409,7 @@
               (this.state = {
                 fOverlayScale: this.getDefaultScaleForLocation(),
                 xfTransform: (0, i.Oq)(),
-                sParent: D(this.props.dockLocation),
+                sParent: M(this.props.dockLocation),
                 bIsOutsideMaxDist: !1,
                 destination: this.props.dockLocation,
                 bIsMoving: !1,
@@ -8344,7 +8424,7 @@
             e.dockLocation != this.props.dockLocation &&
               this.setState(
                 {
-                  sParent: D(this.props.dockLocation),
+                  sParent: M(this.props.dockLocation),
                   xfTransform: (0, i.Oq)(),
                   bIsOutsideMaxDist: !1,
                   destination: this.props.dockLocation,
@@ -8641,7 +8721,7 @@
               s = VRHTML.ChangeBasis(a, o.xfDeviceToAbsoluteTracking);
             this.setState({
               xfTransform: s,
-              sParent: D(this.state.destination),
+              sParent: M(this.state.destination),
               bIsMoving: !1,
             }),
               this.props.onDockOverlay(
@@ -8675,7 +8755,7 @@
                 e;
               (l = h.B.isDarkMode && t),
                 (v = this.props.bCaptureVideo),
-                h.B.eTheaterScreen == f.Curved && (r = C);
+                h.B.eTheaterScreen == f.Curved && (r = T);
             }
             const g = VRHTML.VROverlay.FindOverlay(this.props.sOverlayKey),
               _ =
@@ -8685,7 +8765,7 @@
                   ? void 0
                   : VRHTML.BSupportsMultitaskingView()) &&
                 this.props.sOverlayKey.startsWith(c.r4),
-              T = { x: 0, y: -0.15, z: 0.1 };
+              C = { x: 0, y: -0.15, z: 0.1 };
             if (a) {
               const e =
                   this.props.dockLocation == S.Theater ||
@@ -8705,12 +8785,13 @@
                 d = 0.5 * Math.pow(a, 2.2);
               let v = -0.1,
                 g = 4,
-                b = 1,
-                R = 0.15,
+                R = 1,
+                D = 0.15,
                 M = n.width,
-                D = n.height;
-              const E = (0, i.iN)(c.Az, "Floating-Panel"),
-                I = (e) =>
+                E = n.height,
+                I = 0.75;
+              const V = (0, i.iN)(c.Az, "Floating-Panel"),
+                x = (e) =>
                   s.createElement(
                     i.wx,
                     {
@@ -8718,177 +8799,193 @@
                       translation: { x: e.x_offset, y: 0.2, z: 0.01 },
                     },
                     s.createElement(y, {
-                      target_id: E,
+                      target_id: V,
                       min_target_scale: 0.5,
                       max_target_scale: 1.5,
                       bVisible: !0,
-                      scale: 1.5 * b,
+                      scale: 1.5 * R,
                       tint: h.B.ControlBarTint,
                     }),
                   );
               return s.createElement(
                 i.wx,
-                {
-                  parent_path: this.state.sParent,
-                  transform: this.state.xfTransform,
-                  id: "xf_widget",
-                },
+                { parent_path: void 0 },
                 s.createElement(
-                  p.Z,
-                  null,
-                  s.createElement(i.wx, { id: C, translation: { z: g } }),
+                  i.wx,
+                  {
+                    transform_path: this.state.sParent,
+                    transform: this.state.xfTransform,
+                    id: "xf_widget",
+                  },
                   s.createElement(
-                    i.s_,
-                    {
-                      id: "Floating-Panel",
-                      overlay_key: this.props.sOverlayKey,
-                      height: D,
-                      width: h.B.m_eTheaterStereo != i.Ko.Mono ? M : void 0,
-                      interactive: !0,
-                      allow_input_capture: e,
-                      undocked: !0,
-                      origin:
-                        this.props.dockLocation == S.Theater
-                          ? { x: 0, y: -0.75 }
-                          : i.Ic.BottomCenter,
-                      curvature_origin_id: r,
-                      stereoscopy: h.B.m_eTheaterStereo,
-                    },
-                    s.createElement(i.at, {
-                      id: "Floating-Panel-BottomLeft",
-                      location: i.Ic.BottomLeft,
-                    }),
-                    s.createElement(i.at, {
-                      id: "Floating-Panel-BottomRight",
-                      location: i.Ic.BottomRight,
-                    }),
-                    s.createElement(i.at, {
-                      id: "Floating-Panel-BottomCenter",
-                      location: i.Ic.BottomCenter,
-                    }),
-                    s.createElement(i.sl, {
-                      mountedId: (0, i.iN)(
-                        c.GN,
-                        this.props.sOverlayKey + ".cursor",
-                      ),
-                    }),
-                  ),
-                  l &&
-                    s.createElement(i.bt, {
-                      target_id: E,
-                      "near-z": v,
-                      "far-z": 0.1,
-                      specular: { color: { r: d, g: d, b: d } },
-                      diffuse: { size: 20, resolution: 512 },
-                      debug: !1,
-                    }),
-                  !1,
-                  this.props.dockLocation == S.Theater &&
+                    i.wx,
+                    { translation: { y: I } },
                     s.createElement(
-                      s.Fragment,
-                      null,
+                      p.Z,
+                      { lerp_speed: b.flGrabTransformLerpSpeed },
+                      s.createElement(i.wx, { id: T, translation: { z: g } }),
                       s.createElement(
                         i.wx,
-                        {
-                          parent_id: "Floating-Panel-BottomCenter",
-                          translation: { z: 0.02 },
-                        },
+                        { translation: { y: -1 * I } },
                         s.createElement(
                           i.s_,
                           {
-                            height: R,
-                            width: void 0,
+                            id: "Floating-Panel",
+                            overlay_key: this.props.sOverlayKey,
+                            height: E,
+                            width:
+                              h.B.m_eTheaterStereo != i.Ko.Mono ? M : void 0,
                             interactive: !0,
-                            requires_laser: !0,
-                            origin: i.Ic.TopCenter,
+                            allow_input_capture: e,
+                            undocked: !0,
+                            origin:
+                              this.props.dockLocation == S.Theater
+                                ? { x: 0, y: -0.75 }
+                                : i.Ic.BottomCenter,
                             curvature_origin_id: r,
+                            stereoscopy: h.B.m_eTheaterStereo,
                           },
-                          s.createElement(
-                            "div",
-                            { className: "OverlayControlBar" },
-                            s.createElement(
-                              "div",
-                              { className: "Section" },
-                              k &&
-                                s.createElement(w.zN, {
-                                  key: "multitask",
-                                  iconUrl:
-                                    "/dashboard/images/icons/icon_multitasking_view.png",
-                                  tooltipTranslation: T,
-                                  onClick: this.props.ShowMultitaskingView,
-                                }),
-                              _ &&
-                                s.createElement(w.CS, {
-                                  overlayKey: this.props.sOverlayKey,
-                                  showTooltip: !1,
-                                  modal: !0,
-                                  additionalClassNames: "LargeIcon",
-                                }),
-                              s.createElement(w.zN, {
-                                key: "darkmode",
-                                iconUrl: h.B.isDarkMode
-                                  ? "/dashboard/images/icons/svr_lights_on.svg"
-                                  : "/dashboard/images/icons/svr_lights_off.svg",
-                                iconIsInverted: !1,
-                                onClick: () =>
-                                  (h.B.m_bDarkMode = !h.B.isDarkMode),
-                                additionalClassNames: "LargeIcon",
-                              }),
-                              s.createElement(w.zN, {
-                                key: "curved",
-                                iconUrl:
-                                  h.B.eTheaterScreen == f.Curved
-                                    ? "/dashboard/images/icons/svr_screen_curvature_off.svg"
-                                    : "/dashboard/images/icons/svr_screen_curvature_on.svg",
-                                iconIsInverted: !1,
-                                onClick: () => h.B.ToggleTheaterCurvature(),
-                                additionalClassNames: "LargeIcon",
-                              }),
-                              s.createElement(w.zN, {
-                                key: "dock",
-                                iconUrl:
-                                  "/dashboard/images/icons/icon_close_black.png",
-                                onClick: () =>
-                                  this.props.onDockOverlay(
-                                    this.props.sOverlayKey,
-                                    S.Dashboard,
-                                  ),
-                              }),
+                          s.createElement(i.at, {
+                            id: "Floating-Panel-BottomLeft",
+                            location: i.Ic.BottomLeft,
+                          }),
+                          s.createElement(i.at, {
+                            id: "Floating-Panel-BottomRight",
+                            location: i.Ic.BottomRight,
+                          }),
+                          s.createElement(i.at, {
+                            id: "Floating-Panel-BottomCenter",
+                            location: i.Ic.BottomCenter,
+                          }),
+                          s.createElement(i.sl, {
+                            mountedId: (0, i.iN)(
+                              c.GN,
+                              this.props.sOverlayKey + ".cursor",
                             ),
-                          ),
-                        ),
-                        s.createElement(
-                          i.wx,
-                          { translation: { y: -R - 0.03, z: 0.03 } },
-                          s.createElement(m.J, {
-                            scale: b,
-                            tint: h.B.ControlBarTint,
-                            curvature_origin_id: r,
                           }),
                         ),
+                        l &&
+                          s.createElement(i.bt, {
+                            target_id: V,
+                            "near-z": v,
+                            "far-z": 0.1,
+                            specular: { color: { r: d, g: d, b: d } },
+                            diffuse: { size: 20, resolution: 512 },
+                            debug: !1,
+                          }),
+                        !1,
+                        this.props.dockLocation == S.Theater &&
+                          s.createElement(
+                            s.Fragment,
+                            null,
+                            s.createElement(
+                              i.wx,
+                              {
+                                parent_id: "Floating-Panel-BottomCenter",
+                                translation: { z: 0.02 },
+                              },
+                              s.createElement(
+                                i.s_,
+                                {
+                                  height: D,
+                                  width: void 0,
+                                  interactive: !0,
+                                  requires_laser: !0,
+                                  origin: i.Ic.TopCenter,
+                                  curvature_origin_id: r,
+                                },
+                                s.createElement(
+                                  "div",
+                                  { className: "OverlayControlBar" },
+                                  s.createElement(
+                                    "div",
+                                    { className: "Section" },
+                                    !1,
+                                    k &&
+                                      s.createElement(w.zN, {
+                                        key: "multitask",
+                                        iconUrl:
+                                          "/dashboard/images/icons/icon_multitasking_view.png",
+                                        tooltipTranslation: C,
+                                        onClick:
+                                          this.props.ShowMultitaskingView,
+                                      }),
+                                    _ &&
+                                      s.createElement(w.CS, {
+                                        overlayKey: this.props.sOverlayKey,
+                                        showTooltip: !1,
+                                        modal: !0,
+                                        additionalClassNames: "LargeIcon",
+                                      }),
+                                    s.createElement(w.zN, {
+                                      key: "darkmode",
+                                      iconUrl: h.B.isDarkMode
+                                        ? "/dashboard/images/icons/svr_lights_on.svg"
+                                        : "/dashboard/images/icons/svr_lights_off.svg",
+                                      iconIsInverted: !1,
+                                      onClick: () =>
+                                        (h.B.m_bDarkMode = !h.B.isDarkMode),
+                                      additionalClassNames: "LargeIcon",
+                                    }),
+                                    s.createElement(w.zN, {
+                                      key: "curved",
+                                      iconUrl:
+                                        h.B.eTheaterScreen == f.Curved
+                                          ? "/dashboard/images/icons/svr_screen_curvature_off.svg"
+                                          : "/dashboard/images/icons/svr_screen_curvature_on.svg",
+                                      iconIsInverted: !1,
+                                      onClick: () =>
+                                        h.B.ToggleTheaterCurvature(),
+                                      additionalClassNames: "LargeIcon",
+                                    }),
+                                    s.createElement(w.zN, {
+                                      key: "dock",
+                                      iconUrl:
+                                        "/dashboard/images/icons/svr_theater.svg",
+                                      onClick: () =>
+                                        this.props.onDockOverlay(
+                                          this.props.sOverlayKey,
+                                          S.Dashboard,
+                                        ),
+                                    }),
+                                  ),
+                                ),
+                              ),
+                              s.createElement(
+                                i.wx,
+                                { translation: { y: -D - 0.03, z: 0.03 } },
+                                s.createElement(m.J, {
+                                  scale: R,
+                                  tint: h.B.ControlBarTint,
+                                  curvature_origin_id: r,
+                                }),
+                              ),
+                            ),
+                            s.createElement(x, {
+                              parent_id: "Floating-Panel-BottomLeft",
+                              x_offset: -0.03,
+                            }),
+                            s.createElement(x, {
+                              parent_id: "Floating-Panel-BottomRight",
+                              x_offset: 0.03,
+                            }),
+                          ),
                       ),
-                      s.createElement(I, {
-                        parent_id: "Floating-Panel-BottomLeft",
-                        x_offset: -0.03,
-                      }),
-                      s.createElement(I, {
-                        parent_id: "Floating-Panel-BottomRight",
-                        x_offset: 0.03,
-                      }),
                     ),
+                  ),
                 ),
               );
             }
-            let M = b.sfOverlayTrayHeight * this.getDashboardScale(),
-              D = b.sfOverlayScaleMin,
+            let D = b.sfOverlayTrayHeight * this.getDashboardScale(),
+              M = b.sfOverlayScaleMin,
               E = b.sfOverlayScaleMax,
               I = [0.5, 1, 1.5];
             (this.props.dockLocation != S.LeftHand &&
               this.props.dockLocation != S.RightHand) ||
-              ((M *= 0.4), (D = 0.1), (E = 1.5), (I = [0.25, 0.5, 1]));
-            const V = n.height + M,
+              ((D *= 0.4), (M = 0.1), (E = 1.5), (I = [0.25, 0.5, 1]));
+            const V = n.height + D,
               x = Math.max(n.width, 0.175),
-              P = V / 2 - M,
+              P = V / 2 - D,
               L = h.B.isVRGamepadUI
                 ? {
                     r: (14 / 255) * 0.1,
@@ -8936,7 +9033,7 @@
               s.createElement(
                 i.s_,
                 {
-                  height: M,
+                  height: D,
                   width: void 0,
                   interactive: !0,
                   origin: i.Ic.TopCenter,
@@ -8949,7 +9046,7 @@
                     { className: "Section" },
                     s.createElement(d.iR, {
                       additionalClassName: "OverlayControlBarSlider",
-                      min: D,
+                      min: M,
                       max: E,
                       value: this.state.fOverlayScale,
                       valueStyleVariant: d.px.OnHandle,
@@ -8962,7 +9059,7 @@
                         key: "multitask",
                         iconUrl:
                           "/dashboard/images/icons/icon_multitasking_view.png",
-                        tooltipTranslation: T,
+                        tooltipTranslation: C,
                         onClick: this.props.ShowMultitaskingView,
                       }),
                     _ &&
@@ -9018,6 +9115,7 @@
           (E.sfOverlayTrayHeight = 0.12),
           (E.sfOverlayScaleMin = 0.25),
           (E.sfOverlayScaleMax = 2),
+          (E.flGrabTransformLerpSpeed = 0.15),
           (0, n.gn)([r.ZP], E.prototype, "onOverlayScaleChanged", null),
           (0, n.gn)([r.ZP], E.prototype, "computeDestination", null),
           (0, n.gn)([r.ZP], E.prototype, "startMove", null),
@@ -9077,10 +9175,10 @@
             R,
             k,
             w,
-            C,
             T,
-            M,
+            C,
             D,
+            M,
             E,
             I,
             V,
@@ -9166,26 +9264,26 @@
             W = {
               x:
                 null !==
-                  (C =
+                  (T =
                     null === (w = H.offset) || void 0 === w
                       ? void 0
-                      : w.x_pixels) && void 0 !== C
-                  ? C
+                      : w.x_pixels) && void 0 !== T
+                  ? T
                   : 0,
               y:
                 null !==
-                  (M =
-                    null === (T = H.offset) || void 0 === T
+                  (D =
+                    null === (C = H.offset) || void 0 === C
                       ? void 0
-                      : T.y_pixels) && void 0 !== M
-                  ? M
+                      : C.y_pixels) && void 0 !== D
+                  ? D
                   : 0,
               z:
                 null !==
                   (E =
-                    null === (D = H.offset) || void 0 === D
+                    null === (M = H.offset) || void 0 === M
                       ? void 0
-                      : D.z_pixels) && void 0 !== E
+                      : M.z_pixels) && void 0 !== E
                   ? E
                   : 0,
             },
@@ -9291,7 +9389,7 @@
           B8: () => N,
           CS: () => Q,
           D6: () => j,
-          Eu: () => D,
+          Eu: () => M,
           IO: () => A,
           M3: () => P,
           NT: () => U,
@@ -9329,10 +9427,10 @@
           R = o(1628),
           k = o(8322),
           w = o.n(k),
-          C = o(7726),
-          T = o(7471),
-          M = o(9626);
-        const D = new l.vP();
+          T = o(7726),
+          C = o(7471),
+          D = o(9626);
+        const M = new l.vP();
         function E(e) {
           const { summonOverlayKey: t } = e,
             { ids: o, anchors: n } = c.useMemo(() => {
@@ -9370,9 +9468,9 @@
           return (
             c.useEffect(
               () => (
-                D.set(t, o),
+                M.set(t, o),
                 () => {
-                  D.get(t) === o && D.delete(t);
+                  M.get(t) === o && M.delete(t);
                 }
               ),
               [t, o],
@@ -9383,7 +9481,7 @@
         const I = (0, d.Pi)(function (e) {
             return c.createElement(
               V,
-              Object.assign({}, e, { VRGamepadUI: M.B.isVRGamepadUI }),
+              Object.assign({}, e, { VRGamepadUI: D.B.isVRGamepadUI }),
             );
           }),
           V = (e) => {
@@ -9833,7 +9931,7 @@
                 a.Uk.DevicePowerUsage_Float,
               );
             }
-            let n = C.X.GetBatteryIcon(
+            let n = T.X.GetBatteryIcon(
               e,
               t,
               this.batteryLevelStable,
@@ -10408,7 +10506,7 @@
             e.label && c.createElement("span", null, e.label),
             e.iconUrl &&
               c.createElement("img", {
-                className: (0, T.Z)(
+                className: (0, C.Z)(
                   "Icon",
                   (null === (t = e.iconIsInverted) || void 0 === t || t) &&
                     "BlackToWhite",
@@ -10953,14 +11051,14 @@
                 default:
                   e = "/user/head";
               }
-              this.context.setState({ sParent: e }),
+              this.context.setState({ parent_path: e }),
                 this.setState({ bActive: !0 }),
                 window.addEventListener("mouseup", this.endMove),
                 this.props.onStartMove && this.props.onStartMove();
             }
           }
           endMove() {
-            this.context.setState({ sParent: "", nHandleSGID: 0 }),
+            this.context.setState({ parent_path: "", nHandleSGID: 0 }),
               this.setState({ bActive: !1 }),
               window.removeEventListener("mouseup", this.endMove),
               this.props.onEndMove && this.props.onEndMove();
@@ -11030,15 +11128,22 @@
         const s = a.createContext(void 0);
         let l = class extends a.Component {
           constructor(e) {
-            super(e), (this.state = { xfTransform: (0, i.Oq)(), sParent: "" });
+            super(e),
+              (this.state = { transform: (0, i.Oq)(), parent_path: "" });
           }
           render() {
             return a.createElement(
               i.sO,
               {
-                sParentPath: this.state.sParent,
-                xfCurrent: this.state.xfTransform,
+                parent_path: this.state.parent_path,
+                transform: this.state.transform,
                 id: this.props.id,
+                stop_distance: this.props.stop_distance,
+                start_angle: this.props.start_angle,
+                start_quat_difference: this.props.start_quat_difference,
+                stop_quat_difference: this.props.stop_quat_difference,
+                scale_margin: this.props.scale_margin,
+                lerp_speed: this.props.lerp_speed,
               },
               a.createElement(s.Provider, { value: this }, this.props.children),
             );
@@ -12350,7 +12455,7 @@
             (e[(e.FadingIn = 1)] = "FadingIn"),
             (e[(e.FadingOut = 2)] = "FadingOut");
         })(k || (k = {}));
-        let C = (R = class extends r.Component {
+        let T = (R = class extends r.Component {
           constructor(e) {
             super(e),
               (this.m_hideTimeout = void 0),
@@ -12645,28 +12750,28 @@
             );
           }
         });
-        (C.k_sHomeAppKey = "openvr.tool.steamvr_environments"),
-          (C.kHideDelayMs = 5e3),
-          (C.kUnresponsiveDelayMs = 2e3),
-          (C.kFadeoutTimeMs = 550),
-          (0, i.gn)([s.ak], C.prototype, "startUnresponsiveTimer", null),
-          (0, i.gn)([s.ak], C.prototype, "cancelUnresponsiveTimeout", null),
-          (0, i.gn)([s.ak], C.prototype, "onUnresponsiveTimeout", null),
-          (0, i.gn)([s.ak], C.prototype, "updateLatchedValues", null),
+        (T.k_sHomeAppKey = "openvr.tool.steamvr_environments"),
+          (T.kHideDelayMs = 5e3),
+          (T.kUnresponsiveDelayMs = 2e3),
+          (T.kFadeoutTimeMs = 550),
+          (0, i.gn)([s.ak], T.prototype, "startUnresponsiveTimer", null),
+          (0, i.gn)([s.ak], T.prototype, "cancelUnresponsiveTimeout", null),
+          (0, i.gn)([s.ak], T.prototype, "onUnresponsiveTimeout", null),
+          (0, i.gn)([s.ak], T.prototype, "updateLatchedValues", null),
           (0, i.gn)(
             [s.ak],
-            C.prototype,
+            T.prototype,
             "onSceneApplicationStateChanged",
             null,
           ),
-          (0, i.gn)([s.ak], C.prototype, "show", null),
-          (0, i.gn)([s.ak], C.prototype, "cancelFadeOutTimers", null),
-          (0, i.gn)([s.ak], C.prototype, "hideSoon", null),
-          (0, i.gn)([s.ak], C.prototype, "startFadeOut", null),
-          (0, i.gn)([s.ak], C.prototype, "resetLatchedValued", null),
-          (0, i.gn)([s.ak], C.prototype, "hideAndResetLatchedValues", null),
-          (C = R = (0, i.gn)([d.Pi], C));
-        class T extends r.Component {
+          (0, i.gn)([s.ak], T.prototype, "show", null),
+          (0, i.gn)([s.ak], T.prototype, "cancelFadeOutTimers", null),
+          (0, i.gn)([s.ak], T.prototype, "hideSoon", null),
+          (0, i.gn)([s.ak], T.prototype, "startFadeOut", null),
+          (0, i.gn)([s.ak], T.prototype, "resetLatchedValued", null),
+          (0, i.gn)([s.ak], T.prototype, "hideAndResetLatchedValues", null),
+          (T = R = (0, i.gn)([d.Pi], T));
+        class C extends r.Component {
           constructor(e) {
             super(e), (this.state = {});
           }
@@ -12738,8 +12843,8 @@
             );
           }
         }
-        var M = o(2188),
-          D = o(7726),
+        var D = o(2188),
+          M = o(7726),
           E = o(5177),
           I = o(9942),
           V = o(16),
@@ -13151,7 +13256,7 @@
                   o.eClass == l.qR.Controller &&
                     (t++,
                     e.push(
-                      r.createElement(D.X, {
+                      r.createElement(M.X, {
                         key: "controllerstatus_" + o.unIndex,
                         trackedDeviceIndex: o.unIndex,
                       }),
@@ -13167,7 +13272,7 @@
                 }),
               ),
               e.push(
-                r.createElement(C, {
+                r.createElement(T, {
                   key: "transition",
                   dashboardRef: this.m_DashboardRef,
                 }),
@@ -13188,7 +13293,7 @@
                     returnToMenu: this.onExitMode,
                   }),
                 ),
-              this.state.bShowBaseInfo && e.push(r.createElement(T, null)),
+              this.state.bShowBaseInfo && e.push(r.createElement(C, null)),
               e.push(
                 r.createElement(V.Y6, {
                   key: "resetseatedcountdown",
@@ -13212,7 +13317,7 @@
         (Z.k_sPropShowDevPanel = "/settings/dashboard/showDevPanel"),
           (0, i.gn)([s.ak], Z.prototype, "onOpenRoomSetup", null),
           (0, i.gn)([s.ak], Z.prototype, "toggleDevPanel", null),
-          (0, i.gn)([M.Fl], Z.prototype, "devPanelVisible", null),
+          (0, i.gn)([D.Fl], Z.prototype, "devPanelVisible", null),
           (0, i.gn)([s.ak], Z.prototype, "setDevPanelVisible", null),
           (0, i.gn)([s.ak], Z.prototype, "onToggleBaseInfo", null),
           (0, i.gn)([s.ak], Z.prototype, "onExitMode", null),
@@ -13569,4 +13674,4 @@
   var i = n.O(void 0, [968, 683], () => n(9850));
   i = n.O(i);
 })();
-//# sourceMappingURL=systemui.js.map?v=1dca4a2a0cee3fa26ba7
+//# sourceMappingURL=systemui.js.map?v=bc943eefa15babea0600

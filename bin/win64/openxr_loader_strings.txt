@@ -171,7 +171,7 @@
 220801000000Z
 230714000000Z
 2333333
-240525011402Z0/
+240618222155Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -194,6 +194,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+;0!&YzO
 <0:08
 =rIQU
 >0<0:
@@ -243,7 +244,6 @@
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
-?ofO+
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
@@ -410,7 +410,6 @@ FormatMessageW
 Found XrDebugUtilsMessengerCreateInfoEXT in 'next' chain.
 FreeLibrary
 G(L9w 
-G;h	!P
 GENERAL
 GetCurrentProcess
 GetCurrentProcessId
@@ -530,7 +529,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSH3c\p
+RSDS/YfE
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -595,6 +594,7 @@ Unknown failure
 Unknown failure: 
 V H+V
 V I9V(t L
+V*Z)f
 VATAUAVAWH
 VCRUNTIME140.dll
 VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
@@ -645,9 +645,7 @@ XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
 Y9"SD
-Y;QfJC
 [K]taM?
-[f5r*
 \$ I;]
 \$ UAVAWH
 \$ UH
@@ -830,6 +828,7 @@ openxr/
 openxr_loader.dll
 platform_utils
 rejectDupKeys
+rgrF__
 runtime
 s t#fff
 setvbuf
@@ -951,6 +950,7 @@ xrSuggestInteractionProfileBindings
 xrSyncActions
 xrWaitFrame
 xrWaitSwapchainImage
+yX@~6
 {un'%
 |$ ATAVAWH
 |$ AVH

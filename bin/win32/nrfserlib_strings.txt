@@ -8,6 +8,7 @@
 																												
 																																												
 	!s99
+	V|4C
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -708,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240525010532Z0/
+240618221825Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -738,6 +739,7 @@ $Vh&*
 2e3v3f4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2q>q[
 2v3F4X4
 3	4K4t4
 3	5y7
@@ -943,6 +945,7 @@ $Vh&*
 6]6c6t6
 6a7q7
 6t6+7
+6~&:I
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
 7 7$7,7D7T7X7h7l7p7t7|7
 7 7074787@7X7h7l7t7
@@ -1255,6 +1258,7 @@ $Vh&*
 =/=H=k=
 =2>f>
 =4?9?G?L?
+=5!Si
 =8=<=@=D=H=L=P=T=X=\=`=d=h=l=
 =8=@=H=T=t=|=
 =8=D=L=d=l=
@@ -1635,7 +1639,6 @@ Discovered Service. UUID: 0x%04X, start_handle: %d, end_handle: %d
 Discovering Characteristics on handles [%d..%d].
 Discovering Descriptors on handles [%d..%d]
 Discovering Services at %d.
-DizXP
 DoAttributeDiscoveryContext
 DoAuthenticationContext
 DoBootloaderModeContext
@@ -1646,7 +1649,6 @@ DoScanContext
 DoSetSOBChannelContext
 DosDateTimeToFileTime
 DuplicateHandle
-E[>pD
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1908,6 +1910,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDSj
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2067,7 +2070,6 @@ VjqSPW
 VjrSPW
 VjySPW
 Vj{SPW
-W'%WM
 W9shvN3
 WAKEUP
 WOKEN
@@ -2206,7 +2208,9 @@ dat_file
 data error
 deque<T> too long
 digit
+e2HzU
 empty distance tree with lengths
+esgWjT:E
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 f;G$u
@@ -2269,6 +2273,7 @@ jWhXG
 jj@0HK4
 k0i0$
 l2|X/gGe
+l:KF:
 list<T> too long
 lj!hh
 lower
@@ -2284,15 +2289,16 @@ memcpy
 memmove
 memset
 mutex
+n8CFv
 need dictionary
 nrfserlib.dll
+nxPiJ
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
-qC?y[BKH#
 realloc
 s?=2N
 sd_ble_cfg_set

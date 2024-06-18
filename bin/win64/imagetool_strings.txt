@@ -2667,6 +2667,7 @@ $wtpt
 +\$DE+
 +\$LE3
 +\$TH
++`uIiJ
 +adaptive-blur
 +adaptive-resize
 +adaptive-sharpen
@@ -3639,6 +3640,7 @@ $wtpt
 0Hc|$hI
 0LcD$HH
 0Lc|$xI
+0iV	@in^
 0qB\'
 0r/hL
 0tIff
@@ -3720,7 +3722,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240525011354Z0/
+240618222147Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -3751,6 +3753,7 @@ $wtpt
 2tfmubH
 2~6D9
 3&#38H
+3&5 6"
 30 18
 311109235959Z0b1
 32 32
@@ -3943,6 +3946,7 @@ $wtpt
 7H;O }
 7P.F!
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7n\)4
 7v,=p
 8't#H
 8*** BUG ***
@@ -4167,7 +4171,6 @@ $wtpt
 ;G$|*H
 ;GIF89a
 ;H91v4
-;HFZ|
 ;M {x
 ;P?<jP?|
 ;Q0t	
@@ -5084,6 +5087,7 @@ AUTOTRACE
 AVAWH
 AVS X image
 AX9A(~
+AY[w<J
 AYfU(P
 A\_[]
 A\_][
@@ -10003,7 +10007,6 @@ Levelize/Image
 LevelizeImage
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LiL$p
-Li`9Pt
 Li`Qi`Qi`QjaRjaQk_Zk__kaVkaTkaXlaRkbNZVDDF8<C55C1?C)
 Libpng jmp_buf still allocated
 Light
@@ -10138,7 +10141,6 @@ M' pozz magna' o'vetr, e nun m' fa mal.
 M'(:fjgl4
 M(u	I
 M)AxI
-M*ml.T
 M+^(M
 M-|];
 M0v	D
@@ -11653,7 +11655,6 @@ Q H;Q(
 Q Z# 
 Q$A9P$y
 Q(H+Q H
-Q;QfG
 Q>JBR>L
 QC)\C
 QCannot load font '%s
@@ -14536,7 +14537,6 @@ _CxxThrowException
 _RDATA
 _R_\HES;2?);E0BJ69A04;.49578,LW3r
 _W4~w
-_ZR\QF
 _\cf3
 __C_specific_handler
 __CxxFrameHandler3
@@ -20810,7 +20810,6 @@ yellow3
 yellow4
 yep:%d:%04x
 yi~(@`
-ymx7ub
 yrI,D
 z"u A
 z#u!H
@@ -21103,6 +21102,7 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |@HcVt
 |AHcK`I
 |CJ25?+:72*0+Z?>
+|E+^S2-
 |FD;~
 |IIcI 
 |Kc9`

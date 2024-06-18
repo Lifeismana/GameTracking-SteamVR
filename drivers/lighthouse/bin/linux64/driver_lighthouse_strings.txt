@@ -832,7 +832,6 @@ $@
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:03:25
 0x
 0x%08llx
 1
@@ -915,6 +914,7 @@ $@
 20IVRAudioNotification
 21
 22
+22:16:24
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 23
@@ -3851,7 +3851,7 @@ IVRMCStore_001
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_027
+IVROverlay_028
 IVRPathsInternal_001
 IVRPaths_001
 IVRPropertiesInternal_001
@@ -4460,6 +4460,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone
 Jul
 July
 Jun
+Jun 18 2024
 June
 K
 KHR_lights_punctual
@@ -4611,7 +4612,6 @@ Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
 Max watchdog reset count
 May
-May 25 2024
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) [clone .cold]
 Message class "
@@ -7680,6 +7680,7 @@ deleted virtual method called
 dependency
 deque::_M_new_elements_at_back
 deregister_tm_clones
+details.pDmabufAttributes->plane[0].nFd == (int)details.hImportHandle
 detect_kernel_version()
 device
 deviceClass

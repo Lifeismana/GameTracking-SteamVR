@@ -2,9 +2,7 @@
  %41g
  A__^
  H3E H3E
-!D?dr
 !hn7!
-$nU,?
 ',=?k
 (f*^[0
 +Xt@(
@@ -56,6 +54,7 @@ $nU,?
 .text$mn$00
 .text$x
 .text$yd
+.v@dc
 .xdata
 .xdata$x
 /user/ankle/left
@@ -85,7 +84,7 @@ $nU,?
 220323000000Z
 220801000000Z
 230714000000Z
-240525011325Z0/
+240618222113Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -107,11 +106,11 @@ $nU,?
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-9K)n7
 <0:08
 =rIQU
 >0<0:
 >Mp$d
+>SY8px'
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPEBD@Z
 @.data
@@ -129,7 +128,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-E_jj`Y
+E Z"o\
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -171,7 +170,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSR
+RSDSdobt
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -184,6 +183,7 @@ UnhandledExceptionFilter
 Unknown exception
 Using settings values
 VCRUNTIME140.dll
+VGmM[
 VWAVH
 VWAWH
 V_~]	,
@@ -193,7 +193,9 @@ Washington1
 Y9"SD
 [K]taM?
 \$ UH
+\4yRu+0
 ]J<0"0i3
+^|`Q] 
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -221,7 +223,7 @@ _seh_filter_dll
 _stricmp
 `.rdata
 a7hIw
-aa^36
+ak/ny
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -272,8 +274,10 @@ windowX
 windowY
 www.digicert.com1!0
 www.digicert.com1$0"
+{!`#b
 {un'%
 |$ AVH
+|4oEr
 |Lu?c
 }LuHO
 ~qj#k"

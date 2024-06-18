@@ -534,6 +534,7 @@
               (p.properties["curvature-origin-id"] = (0, u.Hb)(
                 this.props.curvature_origin_id,
               )),
+              (p.properties.spherical = this.props.spherical),
               (p.properties.interactive = this.props.interactive),
               (p.properties.scrollable = this.props.scrollable),
               (p.properties.undocked = this.props.undocked),
@@ -1340,7 +1341,19 @@
                     (i.properties["parent-path"] = d(t, "parent-path")),
                     (i.properties.translation = n(t, "translation")),
                     (i.properties.rotation = n(t, "rotation")),
-                    (i.properties.scale = n(t, "scale"));
+                    (i.properties.scale = n(t, "scale")),
+                    (i.properties["stop-distance"] = s(t, "stop-distance")),
+                    (i.properties["start-angle"] = s(t, "start-angle")),
+                    (i.properties["start-quat-difference"] = s(
+                      t,
+                      "start-quat-difference",
+                    )),
+                    (i.properties["stop-quat-difference"] = s(
+                      t,
+                      "stop-quat-difference",
+                    )),
+                    (i.properties["scale-margin"] = s(t, "scale-margin")),
+                    (i.properties["lerp-speed"] = s(t, "lerp-speed"));
               }
               return [o, i];
             })(e, t),
@@ -1366,9 +1379,9 @@
           m,
           g,
           v,
-          b = [],
-          S = null,
-          f = null;
+          f = [],
+          b = null,
+          S = null;
         function y(e, t, r) {
           (h = e),
             (m = t),
@@ -1395,11 +1408,11 @@
             : h;
         }
         function I(e) {
-          b.push(e), C();
+          f.push(e), C();
         }
         function C() {
-          S ||
-            (S = window.setTimeout(
+          b ||
+            (b = window.setTimeout(
               () =>
                 (0, o.mG)(this, void 0, void 0, function* () {
                   let e = document.body;
@@ -1420,19 +1433,19 @@
                       e,
                     ),
                   };
-                  f ||
+                  S ||
                     (console.log("Initializing sg_mailbox"),
-                    (f = new i.N()),
-                    yield f.Init("sg_mailbox", g));
+                    (S = new i.N()),
+                    yield S.Init("sg_mailbox", g));
                   let r = {
                     type: "update_scene_graph",
                     owning_overlay_key: R(),
                     scene_graph: t,
-                    retired_sgids: b,
+                    retired_sgids: f,
                   };
-                  f.SendMessage("vrcompositor_systemlayer", r),
-                    (S = null),
-                    (b = []),
+                  S.SendMessage("vrcompositor_systemlayer", r),
+                    (b = null),
+                    (f = []),
                     (v = !1);
                 }),
               0,
@@ -1883,7 +1896,7 @@
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
           })(s || (s = {}));
         let a = 0;
-        var l, d, p, c, u, _, h, m, g, v, b, S, f, y, D, R, I;
+        var l, d, p, c, u, _, h, m, g, v, f, b, S, y, D, R, I;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -1996,7 +2009,7 @@
                 "DriverRequestsApplicationPause"),
               (e[(e.DriverRequestsReducedRendering = 128)] =
                 "DriverRequestsReducedRendering");
-          })(b || (b = {})),
+          })(f || (f = {})),
           (function (e) {
             (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
               (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -2013,14 +2026,14 @@
               (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
               (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
               (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-          })(S || (S = {})),
+          })(b || (b = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
               (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
               (e[(e.Error = -1)] = "Error");
-          })(f || (f = {})),
+          })(S || (S = {})),
           (function (e) {
             (e[(e.TrackedControllerRole_Invalid = 0)] =
               "TrackedControllerRole_Invalid"),
@@ -2796,4 +2809,4 @@
   var i = o.O(void 0, [968, 683], () => o(844));
   i = o.O(i);
 })();
-//# sourceMappingURL=fallback.js.map?v=7bc4bcc5016f9f735b23
+//# sourceMappingURL=fallback.js.map?v=30f5787ce9b56746f49e

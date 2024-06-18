@@ -124,7 +124,6 @@
 , defaulting to parity::none!
 , defaulting to stop_bits::one!
 ,W5y+
-,W7(h
 -1e+9999
 -Infinity
 -external
@@ -627,13 +626,14 @@
 0}0i1
 130801120000Z
 1e+9999
+2'`mt
 2.0.0
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240525011106Z0/
+240618221848Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -646,8 +646,8 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
-3w@[=
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+5F!4dF
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -1517,8 +1517,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RQ-7U
-RSDS-
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1775,10 +1773,10 @@ Zipfile is corrupt or not a zipfile
 \$pI;
 \Device Parameters
 \u=H;
+]!-Nw
 ]J<0"0i3
 ]gfff
 ^[0-9]+$
-^}3Ug
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1873,6 +1871,7 @@ c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.
 calloc
 close
 cntrl
+d"c{0
 d$0D)#
 d$@E3
 d$`H=
@@ -1891,6 +1890,7 @@ fE9&t2H
 false
 file error
 floor
+ga.z_
 generic
 gfffffffD
 gfffffffH
@@ -1936,6 +1936,7 @@ invalid window size
 ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
+j WY<
 jj@0HK4
 k0i0$
 l$ H=
@@ -2178,7 +2179,6 @@ xA\^][
 xA^A]_[
 xAtAL
 xdigit
-yN#gWHC:
 {un'%
 {x\u!H
 {|?uWH
