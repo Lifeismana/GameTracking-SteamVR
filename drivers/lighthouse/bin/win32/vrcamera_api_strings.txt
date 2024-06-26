@@ -3,7 +3,6 @@
 																									
 																												
 	!s99
-	$Ebf
 	010I0t0
 	0P0g0
 	1&2o2t2
@@ -38,8 +37,10 @@ $_^[]
 %j+hD
 %m / %d / %y
 &1V6|:^<
+&7{}df
 ',=?k
 ()$^.*+?[]|\-{},:=!
+(GeX`B
 (f*^[0
 +A Vj$
 +A$+Y
@@ -432,7 +433,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-240618221817Z0/
+240626210537Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -740,6 +741,7 @@ $_^[]
 879K9R9Y9c9
 888U8}8
 889t9
+88EF]
 899K9Y9^9d9
 89}4w
 8:8o8
@@ -1302,6 +1304,7 @@ DuplicateHandle
 DynamicProgressFeedback
 E;w0tLj
 EI2C support not yet implemented
+E[qz20
 EncodePointer
 End Streaming Depth...
 End Streaming Video...
@@ -1418,6 +1421,7 @@ GxVPR
 H-^Eu
 HP;HL
 HPQVR
+I%$aE
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Index: 
 InitOnceExecuteOnce
@@ -1490,7 +1494,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDSD
+RSDSS
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1586,7 +1590,6 @@ WinRTInitialization
 Wj4XPV
 Writing failed at 0x%X/0x%X Bytes
 XSVW3
-Y4:{_n
 Y9"SD
 YYF;w,|
 YYPhHv
@@ -1594,12 +1597,12 @@ YYPh`v
 YYPhxv
 YY^_]
 Y__^[
+ZL6;5
 [K]taM?
 [SPj"
 [tc9]
 \SVW3
 ]J<0"0i3
-^;ezF
 _$@;Ghr
 _CIexp
 _CIpow
@@ -1731,7 +1734,6 @@ generic
 gfffSV
 gj h 
 graph
-gv^p:3
 host unreachable
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -1757,7 +1759,6 @@ islower
 isspace
 isupper
 j@j0P
-jDnuY`q
 jj@0HK4
 k0i0$
 kK04k
@@ -1768,6 +1769,7 @@ localeconv
 lower
 lstrcmpW
 m0k0$
+mDh=:;
 malloc
 memchr
 memcmp
@@ -1840,9 +1842,7 @@ regex_error(error_syntax)
 resource deadlock would occur
 resource unavailable try again
 result out of range
-rfS2I
 sDh|t
-sZcUk\
 setlocale
 setvbuf
 space
@@ -1915,5 +1915,6 @@ y'j h
 |SVWj
 }:;2|6
 }LuHO
+~W=(G
 ~qj#k"
 ~t&LN

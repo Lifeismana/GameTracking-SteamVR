@@ -5,10 +5,13 @@
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
+*=FZ>
 +Xt@(
 +o'q)}
 , last executing in 
+,?{[q
 ,W5y+
+-2$	3
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -40,7 +43,6 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.S/:ZN
 .data
 .data$r
 .edata
@@ -85,6 +87,7 @@
 1%101=1b1r1|1
 1(1,1<1@1D1H1L1P1T1X1\1`1d1
 130801120000Z
+1Ov"u
 2"2(20282=2C2K2S2X2^2f2n2s2y2
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
 210429000000Z
@@ -92,7 +95,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240618221932Z0/
+240626210700Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -112,7 +115,6 @@
 370322235959Z0c1
 380115120000Z0b1
 384<4@4D4\4`4h4
-3iQ{\"c
 3mq+<
 3v4!5_5s5}5
 4$4*4/454@4F4U4\4a4j4o4x4
@@ -120,6 +122,7 @@
 4&565>5F5
 4'414;4E4O4Y4c4m4w4
 4'4L4n4
+40#{=
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5X6\6`6d6h6l6p6t6x6|6
 5$5(5,545L5\5`5p5t5x5
@@ -135,7 +138,6 @@
 6$6(686<6D6\6l6p6
 6$9(9,9094989<9@9D9H9L9P9T9X9\9`9d9h9l9p9t9x9|9
 6*f(_
-63ytH
 6I]Dc
 6OB,n_
 6^6d6~6
@@ -176,6 +178,7 @@
 <#<-<7<A<K<U<_<i<s<}<
 <$<)<<<T<]<h<o<
 <,<5<><G<L<Q<X<
+<,^vQ
 <0:08
 <U<a<y<
 = =*=:=J=Z=c=r=x=~=
@@ -225,7 +228,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-EAnq^
 Error! EventWriteString Severe: %s
 EventRegister
 EventUnregister
@@ -293,10 +295,10 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
+RSDSf]
 RaiseException
 S0Q0O
 SA|X=G
-SCCvs
 SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
@@ -332,9 +334,9 @@ WaitForSingleObject
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
-Y3*S%
 Y9"SD
 Y__^[
+Z193=_M
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
@@ -403,12 +405,9 @@ http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 invalid string position
-j$84r
-jBVmTx
 jdjdh
 jj@0HK4
 k0i0$
-kH'E^
 l2|X/gGe
 m0k0$
 malloc
@@ -463,21 +462,21 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s
 ovr_TraceMessage
-qT:FDQ
 startup
 string too long
 strncpy
 strncpy_s
 strstr
 tdh.dll
+teGPf;
 terminate
 u7j8Q
 uCVj@
 v=Y]Bv
 vector<T> too long
-vl@0`
 www.digicert.com1!0
 www.digicert.com1$0"
+{@*S-~
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

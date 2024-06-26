@@ -7665,7 +7665,6 @@
                 l.createElement(
                   i.wx,
                   { translation: {}, parent_path: undefined },
-                  l.createElement(i.wx, { id: V, translation: { z: 1.8 } }),
                   l.createElement(
                     i.wx,
                     {
@@ -7686,6 +7685,10 @@
                         l.createElement(
                           i.wx,
                           { translation: { y: 0.15 } },
+                          l.createElement(i.wx, {
+                            id: V,
+                            translation: { z: te.getDashboardDistance() + 1.8 },
+                          }),
                           l.createElement(
                             i.wx,
                             { scale: te.getDashboardScale() },
@@ -11698,4 +11701,4 @@
   var n = r.O(void 0, [968, 683], () => r(3184));
   n = r.O(n);
 })();
-//# sourceMappingURL=messageoverlay.js.map?v=929daf8d6e5e4e561f7b
+//# sourceMappingURL=messageoverlay.js.map?v=32557ea25b7138471d4e

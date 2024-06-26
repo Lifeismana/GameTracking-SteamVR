@@ -6,6 +6,7 @@
  A__^
  H3E H3E
 !hn7!
+$DWX)
 ',=?k
 (A^A]^[
 (Unable to load LibOVR)
@@ -22,7 +23,7 @@
 +o'q)}
 , last executing in 
 ,W5y+
--!P@7Is
+-%>m^
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -92,9 +93,8 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240618222124Z0/
+240626210850Z0/
 241009235959Z0a1
-29c#a
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
@@ -104,6 +104,7 @@
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
+3l}H}!
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -123,6 +124,8 @@
 9h u{H
 9l$Ht
 9l$pt
+:,}n)
+:g8?iy:B
 ;K sCH
 ;K sUH
 ;k sAH
@@ -145,7 +148,6 @@
 @UAVH
 @UAWH
 @USVWATAUAVAWH
-@r+`	
 A9A A
 A9Q sEI
 A;Q s?I
@@ -192,6 +194,7 @@ EventRegister
 EventUnregister
 EventWriteString
 EventWriteTransfer
+F;<N(D
 Failed to initalize OVR direct mode support.
 Failed to initialized Oculus device
 FreeLibrary
@@ -285,7 +288,6 @@ SUWAWH
 SVWATAUAVAWH
 SetEvent
 SetUnhandledExceptionFilter
-SgESa
 Sleep
 SleepConditionVariableCS
 TUUUUUU
@@ -295,6 +297,7 @@ TerminateProcess
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
+Ti1'.
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -398,7 +401,6 @@ k0i0$
 l$8E3
 l2|X/gGe
 m0k0$
-mH'v`I
 malloc
 map/set<T> too long
 memcmp
@@ -459,6 +461,7 @@ string too long
 strncpy
 strncpy_s
 strstr
+t!9zzEo
 t$ AVH
 t$ AWH
 t$ UWAVH
@@ -487,7 +490,8 @@ z(uMH
 |$ AVH
 |$8I;
 |Lu?c
+|f>4$
 }LuHO
-}r>Rez
+~!p>k
 ~qj#k"
 ~t&LN

@@ -2667,7 +2667,6 @@ $wtpt
 +\$DE+
 +\$LE3
 +\$TH
-+`uIiJ
 +adaptive-blur
 +adaptive-resize
 +adaptive-sharpen
@@ -3635,12 +3634,12 @@ $wtpt
 0B2A1B2A2B2A1B2A0A2B1A2B2A2B1A2B
 0B2AH
 0B2D1B2D2B2D3B2D0D2B1D2B2D2B3D2BUnexpected direction (%d)
+0E	4{aWjJ
 0HcD$hM
 0HcD$pM
 0Hc|$hI
 0LcD$HH
 0Lc|$xI
-0iV	@in^
 0qB\'
 0r/hL
 0tIff
@@ -3722,7 +3721,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240618222147Z0/
+240626210910Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -3753,7 +3752,6 @@ $wtpt
 2tfmubH
 2~6D9
 3&#38H
-3&5 6"
 30 18
 311109235959Z0b1
 32 32
@@ -3946,7 +3944,6 @@ $wtpt
 7H;O }
 7P.F!
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7n\)4
 7v,=p
 8't#H
 8*** BUG ***
@@ -5087,7 +5084,6 @@ AUTOTRACE
 AVAWH
 AVS X image
 AX9A(~
-AY[w<J
 AYfU(P
 A\_[]
 A\_][
@@ -11756,6 +11752,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
+RSDSQ
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -18821,6 +18818,7 @@ s$fff
 s%	c %
 s%fff
 s(H;3|
+s*a!'
 s+D8l
 s0t*f
 s1 != NULL
@@ -20826,6 +20824,7 @@ z.u,f
 z/u-H
 z2u0H
 z3u1A
+z5adK
 z5u3A
 z6u4f
 z7u5I
@@ -21102,7 +21101,6 @@ z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@
 |@HcVt
 |AHcK`I
 |CJ25?+:72*0+Z?>
-|E+^S2-
 |FD;~
 |IIcI 
 |Kc9`

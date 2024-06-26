@@ -336,6 +336,7 @@ $9E0u
 (|$@D
 (|$PH
 (|$`E
+)BzR,8
 )D$pA
 )D$pB
 )L$@H
@@ -354,8 +355,6 @@ $9E0u
 ********** Blue ( nLoopCount++ > 1000 )!
 ********** Green ( nLoopCount++ > 1000 )!
 ********** Red ( nLoopCount++ > 1000 )!
-+)/=j
-+3Yff
 +Xt@(
 +o'q)}
 , last executing in 
@@ -533,7 +532,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-240618221911Z0/
+240626210638Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -559,7 +558,6 @@ $9E0u
 8A^A\
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
-8[~C*A
 8\t	H
 8_^][
 8c8f13b1-60eb-4b6a-a433-de86104115ac
@@ -978,6 +976,7 @@ D9>u:H
 D9@ s
 D9|$`t
 D;C sIH
+DG q0
 DebugMessengerCallback
 DeleteCriticalSection
 DeviceGC
@@ -1501,7 +1500,6 @@ UATAVH
 UAUAVH
 UAUAWH
 UAVAWH
-UB 1!
 UPL+D$pA
 UPL+E
 USAUH
@@ -1676,7 +1674,6 @@ Yl$4E
 \mfpmp.exe
 ]J<0"0i3
 ]g@8yhu
-^`Wwj
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1734,6 +1731,7 @@ _wcsnicmp
 `A_A][
 `A_A^A]A\_^[
 `A_^]
+`d,jY
 a7hIw
 abort
 acosf
@@ -1845,6 +1843,7 @@ f9\$`u
 f;|$pt_H
 fD9&u
 fD;3t
+fZmri
 fabsf( *pSecondsSinceVsync ) < 1000.0f
 facet::CVkTimestampQueryPool<2>::Create
 facet::CVkTimestampQueryPool<2>::UpdateResults
@@ -1883,9 +1882,7 @@ isalpha
 isdigit
 it != m_importedClients.end()
 jj@0HK4
-jt""b
 k0i0$
-krSb$}G
 l$ E3
 l$ H;
 l$ H=
@@ -1909,7 +1906,6 @@ l$`E3
 l$xE3
 l$xHc
 l2|X/gGe
-l;>bM
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
 m0k0$
@@ -2026,7 +2022,6 @@ pTemplate != nullptr
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
-pbV&~
 perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.nClientFrameIndex
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism

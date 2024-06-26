@@ -20,6 +20,7 @@
 %s%s%s%s%s
 ' is not a number.
 ',=?k
+(/cOu(
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -42,8 +43,8 @@
 -1e+9999
 -Infinity
 -u-I;
--xn'ED!2
 .00cfg
+.>{Uh
 .?AUIInteractableOverlay@@
 .?AU_Crt_new_delete@std@@
 .?AUhresult_access_denied@winrt@@
@@ -148,7 +149,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-.zPC6
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -175,7 +175,6 @@
 0A_A^_^]
 0A__[
 0w0c1
-0yg`?
 0}0i1
 130801120000Z
 1e+9999
@@ -184,7 +183,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240618222647Z0/
+240626211451Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -333,7 +332,6 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
-C$SW;
 C++/WinRT version:1.0.190111.3
 C0L9$
 CD$(H
@@ -359,6 +357,7 @@ C\$@H
 C\$@M
 C\$PL
 C\$pH
+Ck3#bJ
 Close Frame
 CloseHandle
 CoCreateInstance
@@ -457,6 +456,7 @@ Exceeded stackLimit in readValue().
 Exception encountered closing capture frame pool (%d): %s
 Exception encountered closing graphics capture session (%d): %s
 Executable: %s
+FN^V=O
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -487,6 +487,7 @@ Failed to update pointer overlay for desktop %d.
 FormatMessageA
 FormatMessageW
 GDI32.dll
+Gd$]R
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
@@ -610,9 +611,7 @@ IsDebuggerPresent
 IsOverlayVisible
 IsProcessorFeaturePresent
 J>@G_
-JdT%e
 K32GetModuleFileNameExW
-K?I3K
 KERNEL32.dll
 K}*n:	
 L$ E3
@@ -675,7 +674,6 @@ RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.
 ResetEvent
-Rj^f5= 
 RoGetActivationFactory
 RoOriginateLanguageException
 RtlCaptureContext
@@ -945,6 +943,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
+iG8^l
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -988,7 +987,6 @@ memcpy
 memmove
 memset
 message_id
-mk{%@
 nb_no
 nl_nl
 norwegian
@@ -1083,6 +1081,7 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
+wI.q8}
 window_view_created
 window_view_destroyed
 windows
@@ -1093,7 +1092,6 @@ x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 zh_cn
 zh_tw
 {un'%
-{y-SA
 |$ ATAUAVAWH
 |$ ATAVAWH
 |$ AVH

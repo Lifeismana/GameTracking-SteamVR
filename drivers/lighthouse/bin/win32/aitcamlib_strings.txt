@@ -1,6 +1,7 @@
 																																																																																																																
 	!s99
  %41g
+ Y1b9M
 !(0)"
 !9~ t
 !hn7!
@@ -94,7 +95,6 @@ $9^ t
 .tls$
 .tls$ZZZ
 .xdata$x
-/	6RO
 /232@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
 /9s<u*
 /delivery_rate
@@ -150,7 +150,6 @@ $9^ t
 123456789000
 130801120000Z
 1F1V1`1e1o1
-1H4`@
 1I2c2k2w2
 1X1\1
 1d6h6
@@ -169,7 +168,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-240618221822Z0/
+240626210541Z0/
 241009235959Z0a1
 282<2@2D224b4
 292m2
@@ -221,7 +220,6 @@ $9^ t
 5/54595@5Y5`5y5~5
 5/555;5A5G5M5T5[5b5i5p5w5~5
 516D6L6X6g6r6z6
-5:t~J1
 5C5l5{5
 5FjiT
 5Genu
@@ -409,8 +407,8 @@ EventUnregister
 EventWriteString
 EventWriteTransfer
 F(j4f
-F5'^cH
 FORMAT=32-bit_rle_rgbe
+FXv`Wk5]
 Failed
 Failed to acquire raw camera block for writing: %d
 Failed to join thread CameraWorkThread /+/ TID: %d
@@ -498,6 +496,7 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
+RSDS?
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -589,7 +588,6 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
-XxQ	7?
 Y9"SD
 Y__^[
 [Camera] OnCamSyncEvent(%d,%d,%lf)
@@ -597,8 +595,8 @@ Y__^[
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
 [K]taM?
 \2d2h2l2p2t2x2|2
-\zu[+
 ]J<0"0i3
+^2?i;U
 _CIpow
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -715,6 +713,7 @@ da_dk
 danish
 de_de
 deque<T> too long
+dhv(@
 dutch
 el_gr
 en_us
@@ -792,7 +791,6 @@ pt_pt
 pvBuffer != nullptr
 qdriver_lighthouse
 read past buffer
-rfdr|
 ro_ro
 romanian
 ru_ru
@@ -823,6 +821,7 @@ too many codes
 tr_tr
 turkish
 u"h(~
+u$"~u
 u(_^[
 u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C

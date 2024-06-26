@@ -92,7 +92,6 @@
 !BIsLimitReachedForChildType( eType )
 !GetFrameData( unCurFrameIndex - 2 ).BIsInUse()
 !IsInUse()
-!Z7LHR
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
 !bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 !frameData.BIsInUse()
@@ -387,7 +386,6 @@ $w!Hc
 &D9c0t
 &D9k0t
 &D9{0t
-&Mha7
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -418,9 +416,9 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%):+
+(%i9+
 ()$^.*+?[]|\-{},:=!
-(5)5#
+(-4q+
 (9Q|uWH
 (A\^][
 (A\_^[
@@ -632,7 +630,6 @@ $w!Hc
 **** JUDDER **** expected %u got %u
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
-*D. z4y
 *H+NpH
 *uXI;
 +C,+C
@@ -1732,6 +1729,7 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
+/5%B)
 /9{0t'H
 /a/click
 /a/touch
@@ -1942,6 +1940,7 @@ $w!Hc
 /user/hand/left/input/select/click
 /user/hand/left/input/shoulder/click
 /user/hand/left/input/skeleton/left/data
+/user/hand/left/input/skeleton/left/tracking_level
 /user/hand/left/input/skeleton/left/without_controller_data
 /user/hand/left/input/squeeze/click
 /user/hand/left/input/squeeze/force
@@ -1996,6 +1995,7 @@ $w!Hc
 /user/hand/right/input/select/click
 /user/hand/right/input/shoulder/click
 /user/hand/right/input/skeleton/right/data
+/user/hand/right/input/skeleton/right/tracking_level
 /user/hand/right/input/skeleton/right/without_controller_data
 /user/hand/right/input/squeeze/click
 /user/hand/right/input/squeeze/force
@@ -2119,7 +2119,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240618222549Z0/
+240626211341Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2147,7 +2147,6 @@ $w!Hc
 6HiL$8
 6I]Dc
 6OB,n_
-6j-aP
 6p7M=:P_:}u
 70503
 79L$hua
@@ -2581,6 +2580,7 @@ A84(u
 A8EPH
 A8L+A0H
 A8_yH
+A8u4t
 A9@(r"A
 A9A A
 A9B(A
@@ -2829,7 +2829,6 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
-C-^s*
 C0L9$
 C0L;E
 C0L;F
@@ -2918,7 +2917,6 @@ CRenderModelManager::LoadRenderModelInternal
 CRenderModelManager::LoadRenderModel_Async
 CRenderModelManager::Tessellate
 CRenderModelManager::Tessellate::<lambda_03306e5cdb0e0863aad20d1a933a0825>::operator ()
-CRkoM
 CS_MAIN
 CSharedResourceNamespaceClient::Init(): failed connect
 CSharedResourceNamespaceClient::Init(): failed to get server response
@@ -3617,6 +3615,7 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
+D8%{%*
 D8,8u
 D8/u0
 D840u
@@ -3634,7 +3633,6 @@ D8}gt$L
 D8}gu
 D8}guH
 D9!t/
-D9%sN%
 D90uGH
 D989D9XH
 D9>u:H
@@ -4324,16 +4322,12 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=*Y"
-H;=:>"
-H;=:Z"
-H;=Xs*
-H;=Z."
-H;=ZO"
-H;=jJ"
-H;=z "
-H;=zK"
-H;=zW"
+H;=J,"
+H;=J4"
+H;=JZ"
+H;=jU"
+H;=z:"
+H;=zV"
 H;A s
 H;Axt
 H;C(v
@@ -4893,6 +4887,7 @@ Item in "source" array is not an object
 Item in "source" array missing output parameter in input node
 Item in "source" array missing path or mode
 J>@G_
+JA8u4u7H
 JPI+JHH
 JSON string too short.
 K(H+K H
@@ -5313,6 +5308,7 @@ PA_A^^][
 PA_A^_
 PA_A^_^]
 PA_[]
+PA_^[
 PA_^]
 PA__^
 PAq=?Mp#
@@ -5565,6 +5561,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDS(
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5975,7 +5972,6 @@ TrackedProp_WrongDeviceClass
 Transitioning XrSession from %s to %s
 Turning on pipe debugging at the server's request
 Tutorial
-U(}\.
 U0H9U8t
 U0H;C
 U4H;C
@@ -6212,6 +6208,7 @@ Using physical device: %s
 UuidFromStringA
 V0H+V H
 V0H;C
+V8D;C
 V@I9VHt
 VALVE_runtime_is_steamvr
 VATAUAVAWH
@@ -6936,7 +6933,6 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
-X%\%+
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7054,6 +7050,7 @@ XR_EXT_dpad_binding
 XR_EXT_frame_composition_report
 XR_EXT_hand_joints_motion_range
 XR_EXT_hand_tracking
+XR_EXT_hand_tracking_data_source
 XR_EXT_hp_mixed_reality_controller
 XR_EXT_local_floor
 XR_EXT_palm_pose
@@ -7440,9 +7437,6 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
-Y%Cp+
-Y5A""
-Y5ks+
 Y9"SD
 Y>t$7?*
 YL$8E
@@ -7692,6 +7686,8 @@ ZvFailed to create fence %ls.
 [Input] GetSkeletalTrackingLevel failed. Error with current frame.
 [Input] GetSkeletalTrackingLevel failed. Invalid parameter pSkeletalTrackingLevel.
 [Input] GetSkeletalTrackingLevel failed. Invalid path.
+[Input] GetSkeletalTrackingLevelForHand failed. Error: %d
+[Input] GetSkeletalTrackingLevelForHand failed. No controller or does not support hand tracking.
 [Input] GetSkeletonBoneDataForHand failed. Error: %d
 [Input] GetSkeletonBoneDataForHand failed. Invalid Bone Count.
 [Input] GetSkeletonBoneDataForHand failed. Invalid Skeleton Animation
@@ -7868,6 +7864,7 @@ ZvFailed to create fence %ls.
 ]HH;]Ptb
 ]J<0"0i3
 ][Compositor Client] Begin AcquireSync
+]btH>
 ]g@8yhu
 ]gfff
 ]pH9X
@@ -9066,7 +9063,6 @@ oD$0f
 oD$0fD
 oL$ f
 oT$0f
-oUU0l
 object
 object key
 object separator
@@ -9112,6 +9108,7 @@ overlay_handle
 overlay_key
 override_device_class
 overwrite.vrsettings
+p UWAUAVAWH
 p UWAVH
 p WATAUAVAWH
 p WATAVH
@@ -9937,7 +9934,7 @@ t1fff
 t3fff
 t6H9.u1
 t7fff
-t8D8-yI-
+t8D8-
 t9fff
 t:fff
 t>H9n
@@ -9952,7 +9949,6 @@ tFfff
 tHI9t$
 tJL;y rDH
 tNI;X rHI
-tQ@8q4tKI
 tQH95
 tRNS after IDAT
 tRNS before PLTE
@@ -10034,7 +10030,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=v
+t}H9=
 u	A;p(s
 u	A;y(s
 u	H9|$ tI
@@ -10920,7 +10916,9 @@ xrConvertWin32PerformanceCounterToTimeKHR: time is null
 xrCreateAction
 xrCreateActionSet
 xrCreateActionSpace
+xrCreateHandTracker: Requested data source count was 0
 xrCreateHandTrackerEXT
+xrCreateHandTrackerEXT: Data source was duplicated
 xrCreateInstance
 xrCreateInstance error: attempted to enable EXT_DPAD_BINDING_EXTENSION without enabling required KHR_BINDING_MODIFICATION_EXTENSION 
 xrCreateInstance error: extension unsupported %s
@@ -10987,7 +10985,9 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
+xrLocateHandJoints: Failed to get skeletal tracking level for hand
 xrLocateHandJoints: Time was invalid.
+xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 xrLocateHandJointsEXT
 xrLocateSpace
 xrLocateViews
@@ -11158,7 +11158,6 @@ znear
 ~3LcD$(L
 ~6HcD$ I
 ~Cfff
-~N0b%
 ~PH9~Xt(H
 ~XH9~`t+H
 ~qfff

@@ -148,6 +148,7 @@ $Phdd
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.M-Lj6
 .data
 .data$r
 .edata
@@ -173,6 +174,7 @@ $Phdd
 .tls$
 .tls$ZZZ
 .xdata$x
+/'a+B
 /f /s
 /t;_^2
 0 0$0(0,0<0@0D0H0X0\0`0d0t0x0|0
@@ -236,7 +238,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-240618221830Z0/
+240626210549Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -325,6 +327,7 @@ $Phdd
 5u6%7/777E7`7t7
 6	747_7
 6 686H6L6P6T6X6l6p6t6x6|6
+6!_4f
 6%7N7]7p7|7
 6'7,7
 6(6,686<6
@@ -334,6 +337,7 @@ $Phdd
 638:8
 64787<7@7D7H7L7%9
 666666666666666666666666666666666666666666666666666666666666
+66d^?#
 686\6h6p6
 6:7?7y7~7
 6A7j7
@@ -677,6 +681,7 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
+E9 wv
 Empty escape sequence in string
 EnterCriticalSection
 Error reading file
@@ -821,7 +826,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSs
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -901,6 +905,7 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Vd;Pd|6
+Vde]>
 VerSetConditionMask
 VerifyVersionInfoW
 ViveLinkError_AUTH_SMP_BUSY
@@ -1025,6 +1030,7 @@ Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
+[DvUGI
 [K]taM?
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
@@ -1032,6 +1038,7 @@ Zipfile is corrupt or not a zipfile
 \\.\pipe\HTC_BT_BSV2_PIPE_SEND_NAME
 \\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
 ]J<0"0i3
+^%fUu
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
 _CxxThrowException
@@ -1115,6 +1122,7 @@ fputs
 fread
 fseek
 ftell
+gF^Ih
 gfff+
 gfffSV
 gfffV
@@ -1201,6 +1209,7 @@ print
 punct
 realloc
 runas
+s9g'6^?
 space
 stoi argument out of range
 stoul argument out of range

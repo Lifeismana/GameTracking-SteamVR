@@ -12,12 +12,12 @@
  A__[
  A__^
  H3E H3E
- ZcCW
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
 %%.%dg
+%`OGd^
 %s%s%s%s%s
 ' is not a number.
 ',=?k
@@ -42,7 +42,6 @@
 ,W5y+
 -1e+9999
 -Infinity
--[-`5
 -u-I;
 .00cfg
 .?AUIInteractableOverlay@@
@@ -161,14 +160,13 @@
 0w0c1
 0}0i1
 130801120000Z
-1JjRK
 1e+9999
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240618222637Z0/
+240626211439Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -195,8 +193,8 @@
 </u#H
 <0:08
 <unknown>
+=^vx65a
 =rIQU
-=xKsO
 >0<0:
 >Mp$d
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -236,6 +234,7 @@
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?hh{9
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
@@ -369,7 +368,6 @@ D8fht/H
 D;l$0
 D;v(s
 DXGI output null, failed to duplicate output.
-D_;Bc
 DeleteCriticalSection
 DeleteDC
 DeleteObject
@@ -432,7 +430,6 @@ Failed to reinitialize output duplication for desktop %d, updating description.
 Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
-F|vd_
 GDI32.dll
 GetCurrentProcessId
 GetCurrentThread
@@ -588,6 +585,7 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+N+sB;
 NPH9Q
 OpenProcess
 Out of thread local storage!
@@ -698,6 +696,7 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Will not cache name for PID: %d, reason: %d
 Y9"SD
+[AB#>?n
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -710,6 +709,7 @@ Y9"SD
 \$hI;
 \$pI;
 \u=H;
+];2$t?
 ]J<0"0i3
 ]g@8yhu
 _Cnd_destroy
@@ -809,11 +809,11 @@ fi_fi
 finnish
 fr_fr
 french
+g)Ijr
 german
 gfffffffH
 gfffffffI
 greek
-h1AM0
 handlers
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
@@ -850,6 +850,7 @@ l$PM9n
 l2|X/gGe
 latam
 list<T> too long
+lz1vK
 m0k0$
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
@@ -915,6 +916,7 @@ th_th
 tolower
 tr_tr
 turkish
+uA(?=
 uk_ua
 ukrainian
 user32.dll

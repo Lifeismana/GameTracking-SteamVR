@@ -60,6 +60,7 @@
 (unknown)
 )D$ L
 )t$ H
+*N9LC
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -68,6 +69,7 @@
 , negotiation failed with error 
 , negotiation succeeded but returned NULL getInstanceProcAddr
 , negotiation succeeded but returned invalid interface version
+,1L&@Fy
 ,W5y+
 -1e+9999
 -Infinity
@@ -149,6 +151,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/,]xAs
 /api_layers/explicit.d
 /api_layers/implicit.d
 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff
@@ -171,7 +174,7 @@
 220801000000Z
 230714000000Z
 2333333
-240618222155Z0/
+240626210920Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -194,7 +197,6 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;0!&YzO
 <0:08
 =rIQU
 >0<0:
@@ -529,7 +531,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS/YfE
+RSDS1
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -594,7 +596,6 @@ Unknown failure
 Unknown failure: 
 V H+V
 V I9V(t L
-V*Z)f
 VATAUAVAWH
 VCRUNTIME140.dll
 VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
@@ -735,6 +736,7 @@ assert json failed
 bad allocation
 bad array new length
 bad cast
+byD~p
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr_loader\src\Retail\win64\2017\openxr_loader.pdb
 collectComments
 d$ UAVAWH
@@ -828,7 +830,6 @@ openxr/
 openxr_loader.dll
 platform_utils
 rejectDupKeys
-rgrF__
 runtime
 s t#fff
 setvbuf
@@ -882,6 +883,7 @@ wide_to_utf8 get size error:
 www.digicert.com1!0
 www.digicert.com1$0"
 x AVH
+xQ#;{
 xrAcquireSwapchainImage
 xrApplyHapticFeedback
 xrAttachSessionActionSets
@@ -950,7 +952,6 @@ xrSuggestInteractionProfileBindings
 xrSyncActions
 xrWaitFrame
 xrWaitSwapchainImage
-yX@~6
 {un'%
 |$ ATAVAWH
 |$ AVH
@@ -978,5 +979,6 @@ yX@~6
 |Lu?c
 }LuHO
 ~+fff
+~g9K2*
 ~qj#k"
 ~t&LN

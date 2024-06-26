@@ -163,7 +163,6 @@
  .reserved = 
  .startup_debug_messages = 
  .version = 
- ;=qX$
  ;]X|
  = { <proto text format> }". To set fields within it, use syntax like "
  =RDHI
@@ -335,9 +334,9 @@
 #9i0t
 #?RADIANCE
 #?RGBE
+#B.QE
 #D9c0t
 #D9{0t
-#`+1z&
 #bML"
 $0  extend .$1 {
 $0  extensions $1 to $2;
@@ -794,6 +793,7 @@ $w!Hc
 )D$pE
 )D$pH
 )D$pf
+)Dw+V
 )L$ D
 )L$ fD
 )L$0A
@@ -881,7 +881,6 @@ $w!Hc
 +motor0
 +motor1
 +o'q)}
-+t0]R
 +temp_high
 +temp_low
 +unknown
@@ -1398,7 +1397,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240618222016Z0/
+240626210743Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1424,7 +1423,6 @@ $w!Hc
 6<framesToThrottle
 6I]Dc
 6OB,n_
-6Qg1<
 6p7M=:P_:}u
 70503
 7HcC,
@@ -1573,8 +1571,8 @@ $w!Hc
 :EotB
 ; expected 
 ; last read: '
+;$xI3
 ;.u H
-;7 e+
 ;<$uCB
 ;Ch}(
 ;D$lu H
@@ -2197,6 +2195,7 @@ B<I;_X
 B@H+P0
 B@H+P0I
 BA99u	
+BD9%^
 BL Init
 BL requested by app
 BL requested by buttons
@@ -2255,6 +2254,7 @@ C H;K(u
 C(9C 
 C(9~(~FL
 C(H9C0t
+C)hVM
 C,HcK(H
 C09w(~:L
 C0;C,s
@@ -2503,6 +2503,7 @@ Can't parse HMD config from USB: %s
 CancelIo
 Cannot allocate buffer larger than kint32max for 
 Cb9CP~(H
+CgcyP
 Ch9C,uiH
 ClHcKhH
 Clamping MC to %d (%0.1f%%) %d (%0.1f%%)
@@ -3035,6 +3036,7 @@ Discard
 Discarded IMU sample in ImuOnlyTracker because they were backing up.
 Discarding %u haptic events because there were too many this frame
 Discarding duplicate universe %llu at index %d when parsing db json file %s
+DismissedWarnings
 DispatchMessageA
 Display
 Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
@@ -3195,7 +3197,7 @@ F(HcH
 F,9ATu
 F,9G,
 F-A+F%
-F0D85x
+F0D85X
 F8@85
 F<@85
 F@@8h)u
@@ -3415,6 +3417,7 @@ GetUInt64
 GetWindowLongPtrA
 Getting devnode property store failed: hr = 0x%08x
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x
+GpuSpeed
 GxiV@
 H I;	r
 H SVWH
@@ -3472,21 +3475,15 @@ H+q@HcO,H
 H-^Eu
 H0Ic@,Hc
 H9)u 
+H9-1e!
 H91u 
 H92u&
 H92u,
 H93t	H
-H95"Y)
-H95,}+
-H95]q+
-H95`}+
-H95dv+
-H95kx+
+H95&{)
 H97t	H
 H98t	H
 H9;uAA
-H9=6t+
-H9=Rt+
 H9A s
 H9A u&
 H9A u6
@@ -3551,9 +3548,9 @@ H;0u8H
 H;0u:H
 H;8u9
 H;9u|A
-H;= O
-H;=US
-H;=tQ
+H;=Cy
+H;=Sx
+H;=[q
 H;Axt
 H;B0t
 H;C sAH
@@ -3616,6 +3613,7 @@ HA^A]_[
 HA_A^A]_][
 HA_A^][
 HID opened: VID %04x PID %04x serial %S seq %d | if %d
+HL9-c
 HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)
 HMD Model: %s
 HMD Report:
@@ -3771,7 +3769,6 @@ IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x
 ICE40
 IDATH
-IL9-$d(
 IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x
 IMFMediaBuffer::Lock failed: hr = 0x%08x
 IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x
@@ -3810,11 +3807,18 @@ IPCPipe(%s): Wrote %u bytes of total message length
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND
+IServerTrackedDeviceProvider_002
+IServerTrackedDeviceProvider_003
 IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_
+ITrackedDeviceServerDriver_004
 ITrackedDeviceServerDriver_005
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
+IVRCameraComponent_
+IVRCameraComponent_001
+IVRCameraComponent_002
 IVRCameraComponent_003
 IVRChaperoneInternal_001
 IVRChaperoneSetup_006
@@ -3823,9 +3827,13 @@ IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
 IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
+IVRControllerComponent_
 IVRDebug_001
+IVRDisplayComponent_
+IVRDisplayComponent_001
 IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
+IVRDriverDirectModeComponent_
 IVRDriverDirectModeComponent_009
 IVRDriverInput_003
 IVRDriverLog_001
@@ -3847,6 +3855,7 @@ IVRProperties_001
 IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
+IVRServerDriverHost_004
 IVRServerDriverHost_006
 IVRServer_XXX
 IVRSettingsInternal_001
@@ -3854,6 +3863,8 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
 IVRTrackedCameraInternal_XXX
+IVRVirtualDisplay_
+IVRVirtualDisplay_001
 IVRVirtualDisplay_002
 IVRWatchdogHost_002
 IVRWatchdogProvider_001
@@ -4118,39 +4129,17 @@ L+H@I
 L+P@H
 L+Q@I
 L80L;
+L9%( )
+L9%N!)
+L9%u )
 L9&u"
-L9-	b(
-L9-3w(
-L9-6c(
-L9-9h(
-L9-;j(
-L9-?z(
-L9-Fs(
-L9-Nf(
-L9-]o(
-L9-_e(
-L9-_{(
-L9-bt(
-L9-hk(
-L9-i|(
-L9-ll(
-L9-mb(
-L9-sp(
-L9-xu(
-L9-{~(
 L90H;
 L90M;
 L92u'
 L97u0H
-L9=%5'
-L9=A,'
-L9=B1'
-L9=F;'
-L9=N<'
-L9=X-'
-L9=X4'
-L9=o.'
-L9=u2'
+L9=.S'
+L9=@P'
+L9=eV'
 L9?u,H
 L9@ s
 L9A r
@@ -4209,6 +4198,7 @@ LPC11 App
 LPC11 BL
 Label
 Last sample %d %lf %lf
+LastKnown
 Lc E3
 LcA0L
 LcCHI
@@ -4260,7 +4250,6 @@ M9H s
 M;A r
 MAX10
 MB(iVR
-MD85H
 MFCreateMediaType
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x
@@ -4506,6 +4495,7 @@ Protocol message was modified concurrently during serialization.
 Prototype
 Pz}b!
 Q@D85
+Qc	woF
 Qk6eV5RE
 Qkkbal
 QueryPerformanceCounter
@@ -4836,7 +4826,6 @@ T$xH;
 T$xL+
 T$xL;
 T$xMk
-T-x*,
 TDM only works with matched single / double rotor pairs.
 TDM sensorType changed to: %d
 TDM supports max of 2 basestations.
@@ -4899,6 +4888,7 @@ Tundra Labs
 Tundra Tracker
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
+U"ZAS
 U0H9U8t
 UATAUAVAWH
 UATAUH
@@ -5464,6 +5454,7 @@ Watchman flash log downloaded for %s
 Watchman flash log:
 Watchman saw FIFO overflow event
 WatchmanFPGA
+WebInterface
 WideCharToMultiByte
 Win 10
 WinRT
@@ -5484,12 +5475,12 @@ XL$hL
 XXXX PNG chunk not known
 X_^][
 Xt$HH
-Y51F!
-Y5xM$
+Y5qg!
 Y9"SD
 Y?33s?
 YAHH+
 YAPH+
+YL9%1
 Yl$ M
 Yl$4E
 Yl$hfD
@@ -5646,7 +5637,7 @@ ZL$Xf
 \%03o
 \1??I
 \D$ A
-\O@7&
+\O@K&
 \T$@IcD$ H
 \U%08x
 \\.\pipe\
@@ -5663,7 +5654,6 @@ ZL$Xf
 ] name = "
 ] name = [
 ]7H9_
-]80fm
 ]9k0tVD
 ]@H;]Ht@H
 ]@L)]HA
@@ -5677,6 +5667,7 @@ ZL$Xf
 ^@I;^Ht&f
 ^@I;^Ht*ff
 ^HH9|$hu
+^SN@/RF
 ^`I;^h
 ^oEZ_
 _0IcG
@@ -6004,6 +5995,7 @@ closed
 closest
 coeffs
 collectComments
+collisionBounds
 color
 compatible 
 componentType
@@ -6022,7 +6014,6 @@ count
 create
 cs_cz
 ctype
-cv]aR
 czech
 d$ E3
 d$ IcA,H
@@ -6057,6 +6048,7 @@ d$xL;
 d3d11.dll
 da_dk
 danish
+dashboard
 data error
 data->IsInitialized()
 data:application/gltf-buffer;base64,
@@ -6111,6 +6103,7 @@ double
 doubleSided
 double_value
 driver
+driver_holographic
 driver_lighthouse
 driver_lighthouse message window
 driver_lighthouse.dll
@@ -6124,6 +6117,7 @@ driver_lighthouse: IServerTrackedDeviceProvider::Cleanup()
 driver_lighthouse: IServerTrackedDeviceProvider::Init( %s, %s)
 driver_lighthouse: Tracking stopped
 driver_lighthouse: enumerating attached Lighthouse devices HMDs:
+driver_null
 drivers
 drop %08X u%d (i%d)
 dsc_bppx16
@@ -6191,7 +6185,6 @@ eye_target_width_in_pixels
 eye_to_head
 eye_tracking
 f(I;^
-f(^ o(SqU
 f9+t4
 f98tZH
 f98t\H
@@ -6452,6 +6445,7 @@ insufficient memory
 int32
 int64
 intensity
+internet
 interpolation
 intrinsics
 invalid
@@ -6545,6 +6539,7 @@ joints
 k0i0$
 k?KPm?
 kcizf
+keyboard
 keylength >= 2^30
 known_objects
 known_universes
@@ -6727,6 +6722,7 @@ modelId
 modelNormals
 modelPoints
 model_number
+modelskins
 multiple IHDR
 multiple signals per batch not allowed
 muteMicMonitor
@@ -6768,6 +6764,7 @@ not enough pixels
 not present
 not running
 not wireless endpoint
+notifications
 ntdll.dll
 ntelD
 null literal
@@ -6777,7 +6774,6 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o<aO3
 o@@fD
 oD$ fD
 oD$0H
@@ -6872,6 +6868,7 @@ pbrMetallicRoughness
 pd$ D
 pd$@D
 pd$`D
+perfcheck
 perspective
 pitch
 pl_pl
@@ -7237,12 +7234,12 @@ tKfA9
 tPD8B
 tPL9-
 tPfA9i
-tQH95
+tQH95W
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
 tTL9-
-tTL9-ag(
+tTL9-(
 tUA91uPH
 tXH+A
 tXfff
@@ -7303,6 +7300,7 @@ tracked_camera1
 tracked_cameras
 tracked_controller_role
 tracked_object_json
+trackers
 tracking_camera_intrinsics
 tracking_camera_unique_id
 tracking_reference
@@ -7320,10 +7318,10 @@ twos_complement
 tx<	u#
 t|C9D
 t|SUVH
-t}H9=vt+
+t}H9=F
 t~L9=
-t~L9= 9'
-t~L9=A7'
+t~L9=(Y'
+t~L9=`Z'
 u	A;p(s
 u	A;y(s
 u	D;X
@@ -7340,7 +7338,7 @@ u2H9P s
 u6fff
 u9fff
 u;H9{(L
-u<L9-
+u<L9-K
 u=L;Mhu7IcG
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
@@ -7349,7 +7347,7 @@ uDf9X
 uJf9X
 uKb!?6mH
 uRf;>tM
-uSL9-wd(
+uSL9-
 uSfff
 uZEeu
 ubHcC0I
@@ -7386,6 +7384,7 @@ usbVID
 usePrism
 usedisambiguation
 userdata
+userinterface
 u{L9=
 v(M;l
 v9fff
@@ -7393,7 +7392,7 @@ v=Y]Bv
 v@L;D$P
 vE;E`M
 vHcD$LH
-vOL9-R
+vOL9-
 vQO+t
 value
 values
@@ -8067,7 +8066,7 @@ vrprismhost_startup timed out after %u ms before being set by the new vrprismhos
 vrwebhelper
 vuf?H
 vulkan-1.dll
-v}L9-0k'
+v}L9-p
 w(M9w0tH
 w+OQvr
 wUD;C$}OH

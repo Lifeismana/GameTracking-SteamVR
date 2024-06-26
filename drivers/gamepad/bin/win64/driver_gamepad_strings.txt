@@ -37,7 +37,6 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.IcfU
 .data
 .data$r
 .edata
@@ -98,7 +97,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240618222003Z0/
+240626210730Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -209,6 +208,7 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RaiseException
+RgmnN
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -244,6 +244,7 @@ SetEnvironmentVariableA
 SetUnhandledExceptionFilter
 Skipping controller %d because it has the Valve VID
 SleepConditionVariableCS
+S~RPg9atiZ
 TUUUUUU
 TlsAlloc
 TlsFree
@@ -257,13 +258,14 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-W'Q_x
 WakeAllConditionVariable
 Washington1
 Y9"SD
 [K]taM?
 \$ UH
 ]J<0"0i3
+^BVYp"
+^Ju'{
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit
 _Cnd_init
@@ -326,9 +328,8 @@ memcpy
 memmove
 memset
 ntelD
+oJ%bQ
 p WAVAWH
-pZa_$>d
-rfB73
 string too long
 t$ AVH
 t$ AWH
@@ -336,7 +337,6 @@ t$ WH
 t$@H=
 tXfff
 terminate
-v"5nRtl^
 v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
@@ -352,8 +352,9 @@ www.digicert.com1$0"
 {gamepad}/input/gamepad_profile.json
 {un'%
 |$ AVH
+|1vYz
 |Lu?c
+|sMw3
 }LuHO
-}MG7$
 ~qj#k"
 ~t&LN

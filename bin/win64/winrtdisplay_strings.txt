@@ -8,7 +8,6 @@
  H3E H3E
 !hn7!
 !m_bIsConnected
-#m}uc
 %s: display mode not found %dx%d @(%d/%d)
 %s: not connected
 ',=?k
@@ -118,7 +117,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240618221733Z0/
+240626210457Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -155,6 +154,7 @@
 ?_Xlength_error@std@@YAXPEBD@Z
 @.data
 @.reloc
+@:(I)
 @A^][
 @A^_^
 @SUAVH
@@ -190,6 +190,7 @@ D$hH;
 D$pH;
 D$xH;
 D3D11CreateDevice
+D='*4@
 DeleteCriticalSection
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -236,7 +237,6 @@ InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
-JgVN<
 KERNEL32.dll
 K}*n:	
 L$ SH
@@ -398,11 +398,10 @@ terminate
 v!neException encountered initializing WinRT display (%d): %s
 v=Y]Bv
 vector<T> too long
-wJGmH
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
-{Tdrt
+z_E>[
 {un'%
 |$ AVH
 |$0E3

@@ -8,7 +8,6 @@
 																												
 																																												
 	!s99
-	V|4C
    Driver Description: %s
    Driver Inf Path: %s
    Driver Inf Section: %s
@@ -709,7 +708,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240618221825Z0/
+240626210545Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -739,7 +738,6 @@ $Vh&*
 2e3v3f4
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
-2q>q[
 2v3F4X4
 3	4K4t4
 3	5y7
@@ -938,6 +936,7 @@ $Vh&*
 6I]Dc
 6O6Z6
 6OB,n_
+6Ov*OV
 6P6W6
 6PVhX_
 6V7_7g7
@@ -945,7 +944,6 @@ $Vh&*
 6]6c6t6
 6a7q7
 6t6+7
-6~&:I
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
 7 7$7,7D7T7X7h7l7p7t7|7
 7 7074787@7X7h7l7t7
@@ -1258,7 +1256,6 @@ $Vh&*
 =/=H=k=
 =2>f>
 =4?9?G?L?
-=5!Si
 =8=<=@=D=H=L=P=T=X=\=`=d=h=l=
 =8=@=H=T=t=|=
 =8=D=L=d=l=
@@ -1910,7 +1907,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSj
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2105,6 +2101,7 @@ Zipfile is corrupt or not a zipfile
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
+[UY?lJ +
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
@@ -2208,9 +2205,7 @@ dat_file
 data error
 deque<T> too long
 digit
-e2HzU
 empty distance tree with lengths
-esgWjT:E
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
 f;G$u
@@ -2237,6 +2232,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i@"4r
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -2273,7 +2269,6 @@ jWhXG
 jj@0HK4
 k0i0$
 l2|X/gGe
-l:KF:
 list<T> too long
 lj!hh
 lower
@@ -2289,10 +2284,8 @@ memcpy
 memmove
 memset
 mutex
-n8CFv
 need dictionary
 nrfserlib.dll
-nxPiJ
 ole32.dll
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree

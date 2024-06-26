@@ -7755,7 +7755,6 @@
                 l.createElement(
                   i.wx,
                   { translation: {}, parent_path: undefined },
-                  l.createElement(i.wx, { id: V, translation: { z: 1.8 } }),
                   l.createElement(
                     i.wx,
                     {
@@ -7776,6 +7775,10 @@
                         l.createElement(
                           i.wx,
                           { translation: { y: 0.15 } },
+                          l.createElement(i.wx, {
+                            id: V,
+                            translation: { z: te.getDashboardDistance() + 1.8 },
+                          }),
                           l.createElement(
                             i.wx,
                             { scale: te.getDashboardScale() },
@@ -11588,4 +11591,4 @@
   var n = r.O(void 0, [968, 683], () => r(855));
   n = r.O(n);
 })();
-//# sourceMappingURL=notificationtoast.js.map?v=11203b4a4d5cc60f2215
+//# sourceMappingURL=notificationtoast.js.map?v=e4d8d658e8f50efad597

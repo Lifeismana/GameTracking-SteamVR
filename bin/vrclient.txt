@@ -384,6 +384,7 @@
  b CVRInputLatest::GetSkeletalSummaryData(unsigned long long, vr::EVRSummaryType, vr::VRSkeletalSummaryData_t*)::k_pathSplayMiddleRing
  b CVRInputLatest::GetSkeletalSummaryData(unsigned long long, vr::EVRSummaryType, vr::VRSkeletalSummaryData_t*)::k_pathSplayRingPinky
  b CVRInputLatest::GetSkeletalSummaryData(unsigned long long, vr::EVRSummaryType, vr::VRSkeletalSummaryData_t*)::k_pathSplayThumbIndex
+ b CVRInputLatest::GetSkeletalTrackingLevelForHand(vr::EVRHandSide, vr::EVRSkeletalTrackingLevel*)::sPathHandles
  b CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange)::sPathHandles
  b CVRInputLatest::InputFrame_t::sm_mutexOverflowActionDataPerDevice
  b CVRInputLatest::UpdateActionState(vr::VRActiveActionSet_t*, unsigned int, unsigned int)::k_pathActiveActionSets
@@ -860,6 +861,7 @@
  b guard variable for CVRInputLatest::GetSkeletalSummaryData(unsigned long long, vr::EVRSummaryType, vr::VRSkeletalSummaryData_t*)::k_pathSplayMiddleRing
  b guard variable for CVRInputLatest::GetSkeletalSummaryData(unsigned long long, vr::EVRSummaryType, vr::VRSkeletalSummaryData_t*)::k_pathSplayRingPinky
  b guard variable for CVRInputLatest::GetSkeletalSummaryData(unsigned long long, vr::EVRSummaryType, vr::VRSkeletalSummaryData_t*)::k_pathSplayThumbIndex
+ b guard variable for CVRInputLatest::GetSkeletalTrackingLevelForHand(vr::EVRHandSide, vr::EVRSkeletalTrackingLevel*)::sPathHandles
  b guard variable for CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange)::sPathHandles
  b guard variable for CVRInputLatest::UpdateActionState(vr::VRActiveActionSet_t*, unsigned int, unsigned int)::k_pathActiveActionSets
  b guard variable for CVRLog::InitLog(char const*, char const*, bool, unsigned int)::sb_combinedLogging
@@ -4348,8 +4350,8 @@
  puts
  putwc
  qsort
- r C.1876.373369
- r C.1877.373380
+ r C.1884.373407
+ r C.1885.373418
  r C.427.290275
  r CSWTCH.111
  r CSWTCH.214
@@ -5872,32 +5874,20 @@
  t .L11001
  t .L11002
  t .L111
- t .L11176
- t .L11178
- t .L11180
- t .L11181
- t .L11182
- t .L11183
- t .L11184
- t .L11185
- t .L11186
- t .L11187
- t .L11188
- t .L11189
  t .L112
+ t .L11223
+ t .L11226
+ t .L11228
+ t .L11229
+ t .L11230
+ t .L11231
+ t .L11232
+ t .L11233
+ t .L11234
+ t .L11235
+ t .L11236
+ t .L11237
  t .L113
- t .L11331
- t .L11334
- t .L11336
- t .L11337
- t .L11338
- t .L11339
- t .L11340
- t .L11341
- t .L11342
- t .L11343
- t .L11344
- t .L11345
  t .L1135
  t .L11355
  t .L11356
@@ -5914,8 +5904,20 @@
  t .L1141
  t .L1142
  t .L1144
+ t .L11448
  t .L1145
+ t .L11450
+ t .L11452
+ t .L11453
+ t .L11454
+ t .L11455
+ t .L11456
+ t .L11457
+ t .L11458
+ t .L11459
  t .L1146
+ t .L11460
+ t .L11461
  t .L1147
  t .L11490
  t .L11491
@@ -6298,19 +6300,19 @@
  t .L16
  t .L160
  t .L1600
- t .L16004
- t .L16005
- t .L16007
- t .L16008
- t .L16009
- t .L16010
- t .L16011
- t .L16012
  t .L1602
  t .L1603
  t .L1604
  t .L1605
+ t .L16053
+ t .L16054
+ t .L16056
+ t .L16057
+ t .L16058
+ t .L16059
  t .L1606
+ t .L16060
+ t .L16061
  t .L161
  t .L16128
  t .L16129
@@ -6392,16 +6394,16 @@
  t .L179
  t .L18
  t .L180
- t .L1801
- t .L1802
- t .L1804
- t .L1805
- t .L1806
- t .L1807
  t .L181
  t .L182
  t .L183
  t .L184
+ t .L1840
+ t .L1841
+ t .L1843
+ t .L1844
+ t .L1845
+ t .L1846
  t .L185
  t .L186
  t .L187
@@ -11503,6 +11505,8 @@
  t CVRInputLatest::GetSkeletalSummaryData(unsigned long long, vr::EVRSummaryType, vr::VRSkeletalSummaryData_t*) [clone .cold]
  t CVRInputLatest::GetSkeletalTrackingLevel(unsigned long long, vr::EVRSkeletalTrackingLevel*)
  t CVRInputLatest::GetSkeletalTrackingLevel(unsigned long long, vr::EVRSkeletalTrackingLevel*) [clone .cold]
+ t CVRInputLatest::GetSkeletalTrackingLevelForHand(vr::EVRHandSide, vr::EVRSkeletalTrackingLevel*)
+ t CVRInputLatest::GetSkeletalTrackingLevelForHand(vr::EVRHandSide, vr::EVRSkeletalTrackingLevel*) [clone .cold]
  t CVRInputLatest::GetSkeleton(unsigned long long)
  t CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange)
  t CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange) [clone .cold]
@@ -26376,6 +26380,7 @@
  t non-virtual thunk to CVRInputLatest::GetPoseModification(unsigned long long, vr::HmdMatrix34_t*)
  t non-virtual thunk to CVRInputLatest::GetPoseModificationFromPath(unsigned long long, vr::HmdMatrix34_t*, unsigned int*)
  t non-virtual thunk to CVRInputLatest::GetPoseModificationRestricted(unsigned long long, vr::HmdMatrix34_t*, unsigned long long)
+ t non-virtual thunk to CVRInputLatest::GetSkeletalTrackingLevelForHand(vr::EVRHandSide, vr::EVRSkeletalTrackingLevel*)
  t non-virtual thunk to CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, vr::VRBoneTransform_t*, unsigned int, vr::EVRSkeletalMotionRange)
  t non-virtual thunk to CVRInputLatest::IsActionBound(unsigned long long)
  t non-virtual thunk to CVRInputLatest::IsDeviceRenderModelSimulated(unsigned long long)

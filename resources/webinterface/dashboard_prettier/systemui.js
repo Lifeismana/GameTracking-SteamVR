@@ -7857,7 +7857,6 @@
                 l.createElement(
                   r.wx,
                   { translation: {}, parent_path: undefined },
-                  l.createElement(r.wx, { id: V, translation: { z: 1.8 } }),
                   l.createElement(
                     r.wx,
                     {
@@ -7878,6 +7877,10 @@
                         l.createElement(
                           r.wx,
                           { translation: { y: 0.15 } },
+                          l.createElement(r.wx, {
+                            id: V,
+                            translation: { z: te.getDashboardDistance() + 1.8 },
+                          }),
                           l.createElement(
                             r.wx,
                             { scale: te.getDashboardScale() },
@@ -13674,4 +13677,4 @@
   var i = n.O(void 0, [968, 683], () => n(9850));
   i = n.O(i);
 })();
-//# sourceMappingURL=systemui.js.map?v=bc943eefa15babea0600
+//# sourceMappingURL=systemui.js.map?v=8ece802e7de813d27827

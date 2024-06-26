@@ -105,7 +105,7 @@
 220801000000Z
 223C3
 230714000000Z
-240618221911Z0/
+240626210638Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -187,6 +187,7 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
+@aYcX
 Bellevue1
 CloseHandle
 CreateEventW
@@ -199,7 +200,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-G)"~	
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -207,7 +207,6 @@ GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
 GetSystemTimeAsFileTime
-H+SE5
 H-^Eu
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
@@ -238,7 +237,6 @@ K}*n:
 L?n(Zy&
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 MB(iVR
-MQ[4s
 MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
@@ -248,7 +246,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS/
+RSDS](
 RaiseException
 S0Q0O
 SA|X=G
@@ -290,6 +288,7 @@ VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+WRw1.'u
 WakeAllConditionVariable
 Washington1
 Y9"SD
@@ -343,14 +342,15 @@ api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
+dU)PQ
 driver_gamepad.dll
+gr-c[
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
-k!.z/
 k0i0$
 l2|X/gGe
 m0k0$
@@ -366,7 +366,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-z	 Hn
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

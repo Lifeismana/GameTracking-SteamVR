@@ -7704,7 +7704,6 @@
                 l.createElement(
                   i.wx,
                   { translation: {}, parent_path: undefined },
-                  l.createElement(i.wx, { id: E, translation: { z: 1.8 } }),
                   l.createElement(
                     i.wx,
                     {
@@ -7725,6 +7724,10 @@
                         l.createElement(
                           i.wx,
                           { translation: { y: 0.15 } },
+                          l.createElement(i.wx, {
+                            id: E,
+                            translation: { z: te.getDashboardDistance() + 1.8 },
+                          }),
                           l.createElement(
                             i.wx,
                             { scale: te.getDashboardScale() },
@@ -12158,4 +12161,4 @@
   var n = r.O(void 0, [968, 683], () => r(5103));
   n = r.O(n);
 })();
-//# sourceMappingURL=keyboard.js.map?v=224c48b6e42ee3d40af7
+//# sourceMappingURL=keyboard.js.map?v=1eced3549532ad825698

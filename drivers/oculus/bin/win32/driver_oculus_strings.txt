@@ -43,6 +43,7 @@
 !(0)"
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !9~ t
+!E[Dq
 !hn7!
 " not found in the scene.
 "%/28;=#$019:>?
@@ -61,6 +62,7 @@
 #?RGBE
 #oculus_requested_quit
 $0(0,0004080<0@0D0H0L0P0A1T1`1h1p1
+$697a)
 $9^ t
 $;(;,;0;4;8;<;@;D;H;L;P;
 %%.%dg
@@ -106,7 +108,6 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 , column 
 , last executing in 
 , requestedBytes 
-,6F;A?
 ,W5y+
 ,^_[]
 -1003
@@ -471,7 +472,7 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 222I2[2
 230714000000Z
 233Q3o3
-240618221929Z0/
+240626210657Z0/
 241009235959Z0a1
 262C2a2p2
 273J3b325
@@ -611,6 +612,7 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
 5 5%5*5/54595>5C5H5M5R5W5\5a5f5k5p5u5z5
+5!&jqz-8
 5!515A5Q5a5q5
 5#5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
 5$5(5<5@5P5T5d5h5l5t5
@@ -705,7 +707,6 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 6S7)8x8
 6Z6c6l6u6z6
 6]8e8w8
-6j=hz
 6u719
 6y7:8
 7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7|7
@@ -1218,7 +1219,6 @@ Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, b
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Asset
 B(+B$
-B;XhP
 BINORMAL
 BMP RLE
 Bad escape sequence in string
@@ -1440,11 +1440,11 @@ Invalid magic.
 IsDebuggerPresent
 IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
-J+(sy
 J0+J(
 J>@G_
 JSON string too short.
 JSONuTS
+K"+m\;
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1522,7 +1522,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
 RPVh@
-RSDSf
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1702,6 +1701,7 @@ __stdio_common_vswprintf
 _aligned_free
 _aligned_malloc
 _aligned_realloc
+_a~T(
 _callnewh
 _cexit
 _configure_narrow_argv
@@ -1777,6 +1777,7 @@ array
 aspectRatio
 assert json failed
 asset
+at98m
 attributes
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 bad AC huff
@@ -2234,7 +2235,6 @@ parse_error
 pbrMetallicRoughness
 perspective
 pid_%04x
-plSpf
 pl_pl
 play_area
 polish
@@ -2260,7 +2260,6 @@ roughnessFactor
 roundf
 ru_ru
 russian
-rw@V( 
 s(+CD
 sampler
 samplers
@@ -2456,7 +2455,6 @@ t$j$htp
 t<h(u
 t?h(r
 t?hhr
-tA8O2
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha

@@ -7661,7 +7661,6 @@
                 l.createElement(
                   a.wx,
                   { translation: {}, parent_path: undefined },
-                  l.createElement(a.wx, { id: V, translation: { z: 1.8 } }),
                   l.createElement(
                     a.wx,
                     {
@@ -7682,6 +7681,10 @@
                         l.createElement(
                           a.wx,
                           { translation: { y: 0.15 } },
+                          l.createElement(a.wx, {
+                            id: V,
+                            translation: { z: te.getDashboardDistance() + 1.8 },
+                          }),
                           l.createElement(
                             a.wx,
                             { scale: te.getDashboardScale() },
@@ -12307,4 +12310,4 @@
   var n = r.O(void 0, [968, 683], () => r(7923));
   n = r.O(n);
 })();
-//# sourceMappingURL=vrmonitor.js.map?v=44b5798feb6cc0d48e29
+//# sourceMappingURL=vrmonitor.js.map?v=fdee38a5391465ecfc94
