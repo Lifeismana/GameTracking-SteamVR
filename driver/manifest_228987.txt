@@ -1,0 +1,14 @@
+Content Manifest for Depot 228987
+
+Manifest ID / date     : 4302102680580581867 / 12/14/2018 01:06:38
+Total number of files  : 5
+Total number of chunks : 32
+Total bytes on disk    : 29664201
+Total bytes compressed : 29104720
+
+          Size Chunks File SHA                                 Flags Name
+           121      1 0F6B62993850A8595CEB5CD7AFDE99AF594B67D7     0 _CommonRedist/vcredist/2017/Microsoft Visual C++ 2017 x64.cmd
+           117      1 E0231580FAC5C64F1AE3ECCC13AA5F9A24331F8C     0 _CommonRedist/vcredist/2017/Microsoft Visual C++ 2017 x86.cmd
+           907      1 DE5139CCF249A26CD60B801AB4746747422262D9   256 _CommonRedist/vcredist/2017/installscript.vdf
+      15261400     15 007064D974A55940838F19CD0B0E3AAF27CA06A7     0 _CommonRedist/vcredist/2017/vc_redist.x64.exe
+      14401656     14 BA1F7E7CACE62F7C55AB948CD3B29ACC4E8E2329     0 _CommonRedist/vcredist/2017/vc_redist.x86.exe
