@@ -67,6 +67,7 @@
           x1: () => g.x,
           xY: () => k.xY,
           xj: () => u.x,
+          zA: () => k.zA,
           zq: () => k.zq,
         });
         var o = n(4671),
@@ -2151,6 +2152,7 @@
           qR: () => g,
           wU: () => d,
           xY: () => v,
+          zA: () => M,
           zq: () => a,
         }),
           (function (e) {
@@ -2352,11 +2354,7 @@
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
           })(E || (E = {})),
           (function (e) {
-            (e[(e.Hostname = 0)] = "Hostname"),
-              (e[(e.IP = 1)] = "IP"),
-              (e[(e.Version = 2)] = "Version"),
-              (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
-              (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate");
+            e[(e.Hostname = 0)] = "Hostname";
           })(M || (M = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
@@ -2585,8 +2583,9 @@
                 "DisplayMinAnalogGain_Float"),
               (e[(e.DisplayMaxAnalogGain_Float = 2087)] =
                 "DisplayMaxAnalogGain_Float"),
+              (e[(e.DashboardLinkSupport_Int32 = 2097)] =
+                "DashboardLinkSupport_Int32"),
               (e[(e.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
-              (e[(e.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
               (e[(e.IpdUIRangeMinMeters_Float = 2100)] =
                 "IpdUIRangeMinMeters_Float"),
               (e[(e.IpdUIRangeMaxMeters_Float = 2101)] =
@@ -13030,6 +13029,7 @@
               case Ce.Vector1:
               case Ce.Vector2:
               case Ce.Vector3:
+              case Ce.Pose:
                 return [
                   i.createElement(
                     "div",
@@ -13125,7 +13125,7 @@
             }
           }
           renderActionEntry(e, t, n) {
-            var o, r, a, s;
+            var o, r, a, s, l, d;
             switch (e.type) {
               case Ce.Boolean:
                 let e = t.data;
@@ -13149,11 +13149,11 @@
               case Ce.Vector1:
               case Ce.Vector2:
               case Ce.Vector3:
-                let l = t.data,
-                  d = l.x.toFixed(2);
+                let c = t.data,
+                  p = c.x.toFixed(2);
                 return (
-                  void 0 !== l.y && (d += ", " + l.y.toFixed(2)),
-                  void 0 !== l.z && (d += ", " + l.z.toFixed(2)),
+                  void 0 !== c.y && (p += ", " + c.y.toFixed(2)),
+                  void 0 !== c.z && (p += ", " + c.z.toFixed(2)),
                   [
                     i.createElement(
                       "div",
@@ -13172,7 +13172,30 @@
                     i.createElement(
                       "div",
                       { className: "Label ActionEntry", key: n + "_value" },
-                      d,
+                      p,
+                    ),
+                  ]
+                );
+              case Ce.Pose:
+                let h = t.data;
+                return (
+                  h.position_x.toFixed(2),
+                  h.position_y.toFixed(2),
+                  h.position_z.toFixed(2),
+                  [
+                    i.createElement(
+                      "div",
+                      { className: "Label ActionEntry", key: n + "_source" },
+                      null !== (l = t.inputSource) && void 0 !== l ? l : "-",
+                    ),
+                    this.renderBinding(t, n),
+                    this.renderBoolean(t.data.active, n + "_active"),
+                    i.createElement(
+                      "div",
+                      { className: "Label ActionEntry", key: n + "_origin" },
+                      null !== (d = t.data.activeOrigin) && void 0 !== d
+                        ? d
+                        : "-",
                     ),
                   ]
                 );
@@ -15009,7 +15032,7 @@
                       : e.values()) && void 0 !== t
                   ? t
                   : [],
-              ).sort(ue),
+              ).sort(me),
               r = this.getActiveOverlaySummonKey(),
               a = ie.l.BHasMutualCapability(
                 re.R
@@ -15110,7 +15133,7 @@
                     : o.sCurrentOverlayKey) == e.overlay_key &&
                   s.set_selected_tab_id(t);
             }
-            s.tabs().sort(he), (0, Y.W)(s);
+            s.tabs().sort(ue), (0, Y.W)(s);
             const l = new J.yt();
             l.add_actions(
               J.z3.fromObject({
@@ -16244,22 +16267,12 @@
                 : e.startsWith(u.Vq))
             );
           }
-          getPeerButtonInfo() {
-            const e =
-              null === VRHTML || void 0 === VRHTML
-                ? void 0
-                : VRHTML.VRProperties.GetStringProperty(
-                    0,
-                    r.Uk.PeerButtonInfo_String,
-                  );
-            if (e) return JSON.parse(e);
-          }
-          handlePeerButton() {
-            const e = this.getPeerButtonInfo();
-            if (!e) return;
-            let t = { type: e.sMessageType };
-            (t.whichDevice = VRHTML.VROverlay.GetPrimaryDashboardDevice()),
-              this.m_mailbox.SendMessage(e.sMailbox, t);
+          handleVRLinkInfoClick() {
+            let e = {
+              type: "handle_link_button",
+              whichDevice: VRHTML.VROverlay.GetPrimaryDashboardDevice(),
+            };
+            this.m_mailbox.SendMessage("svl", e);
           }
           ToggleIncognitoMode(e) {
             let t = {
@@ -16369,10 +16382,9 @@
                 void 0 !== a &&
                 a
               ),
-              E = this.getPeerButtonInfo(),
-              M = (VRHTML.BIsLinkServer(), v.H.Instance.SceneApplicationState),
-              R = v.H.Instance.SceneAppIsHome,
-              w =
+              E = (VRHTML.BIsLinkServer(), v.H.Instance.SceneApplicationState),
+              M = v.H.Instance.SceneAppIsHome,
+              R =
                 null ===
                   (s = S.G3.settings.get(
                     "/settings/dashboard/allowCurvature",
@@ -16381,10 +16393,10 @@
                 s
                   ? u.ml
                   : null,
-              T = v.H.Instance.SceneAppKey;
-            let D = "images/appimage_default.png";
+              w = v.H.Instance.SceneAppKey;
+            let T = "images/appimage_default.png";
             return (
-              T && (D = "/app/image?app_key=" + T),
+              w && (T = "/app/image?app_key=" + w),
               l.createElement(
                 l.Fragment,
                 null,
@@ -16400,7 +16412,7 @@
                       l.createElement(
                         r.s_,
                         {
-                          curvature_origin_id: w,
+                          curvature_origin_id: R,
                           width: g,
                           interactive: n,
                           id: u.WR,
@@ -16485,7 +16497,7 @@
                           l.createElement(
                             "div",
                             { className: "Section Center" },
-                            M != r.xY.None &&
+                            E != r.xY.None &&
                               n &&
                               l.createElement(
                                 "div",
@@ -16509,18 +16521,18 @@
                                           debug_name: "NowPlayingButton",
                                           interactive: !0,
                                           target_dpi_panel_id: u.WR,
-                                          curvature_origin_id: w,
+                                          curvature_origin_id: R,
                                         },
                                         l.createElement(
                                           "div",
                                           { className: "ControlBar" },
                                           l.createElement(C.NT, {
-                                            label: R
+                                            label: M
                                               ? (0, m.Xx)("#SteamVR_Home")
                                               : (0, m.Xx)("#Now_Playing"),
                                             active: this.isOverlayActive(u.PF),
                                             style: C.zk.App,
-                                            imageUrl: D,
+                                            imageUrl: T,
                                             onClick: () =>
                                               this.switchToOverlayInternal(
                                                 u.PF,
@@ -16609,20 +16621,9 @@
                                 onClick: () =>
                                   this.switchToOverlayInternal(u.A4),
                               }),
-                            this.state.bLinkStreamActive &&
-                              E &&
-                              l.createElement(C.NT, {
-                                imageUrl: E.sIcon,
-                                active: !1,
-                                enabled: !0,
-                                label: (0, m.Xx)(E.sButtonName),
-                                style: C.zk.Small,
-                                centerPanelAnchorID: "VolumeButton",
-                                onClick: () => this.handlePeerButton(),
-                              }),
                           ),
                         ),
-                        n && this.renderLegacyControlBarTrays(w),
+                        n && this.renderLegacyControlBarTrays(R),
                       ),
                     ),
                   ),
@@ -16667,42 +16668,58 @@
             );
           }
           renderVRGamepadUIBar(e) {
-            return (
-              Z.B.m_bShowLegacyBar,
-              l.createElement(
-                l.Fragment,
-                null,
+            var t;
+            const n =
+              !!(
+                1 &
+                (null !==
+                  (t =
+                    null === VRHTML || void 0 === VRHTML
+                      ? void 0
+                      : VRHTML.VRProperties.GetInt32Property(
+                          "/user/head",
+                          r.Uk.DashboardLinkSupport_Int32,
+                        )) && void 0 !== t
+                  ? t
+                  : 0)
+              ) && this.state.bLinkStreamActive;
+            return l.createElement(
+              l.Fragment,
+              null,
+              n &&
                 l.createElement(
-                  r.s_,
-                  {
-                    id: "VRGamepadUI-DashboardBar-Panel",
-                    debug_name: "VRGamepadUI-DashboardBar-Panel",
-                    interactive: !0,
-                    make_overlays_interactive_if_visible: !0,
-                    curvature_origin_id: e,
-                    overlay_key: u.BZ,
-                    origin: r.Ic.TopCenter,
-                    meters_per_pixel: Z.B.m_fVRGamepadUI_MetersPerPixel,
-                    reflect: 0.08,
-                  },
-                  l.createElement(r.at, {
-                    id: "VRGamepadUI-DashboardBar-Panel-TopCenter",
-                    location: r.Ic.TopCenter,
+                  r.wx,
+                  { translation: { y: 0.075, z: 0 } },
+                  l.createElement(ce, {
+                    onClick: () => this.handleVRLinkInfoClick(),
                   }),
-                  l.createElement(
-                    r.at,
-                    {
-                      id: "VRGamepadUI-DashboardBar-Panel-BottomCenter",
-                      location: r.Ic.BottomCenter,
-                    },
-                    l.createElement(r.wx, {
-                      id: u.dG,
-                      translation: { y: -0.1 },
-                    }),
-                  ),
-                  l.createElement(r.wx, { scale: 0.5 }),
                 ),
-              )
+              l.createElement(
+                r.s_,
+                {
+                  id: "VRGamepadUI-DashboardBar-Panel",
+                  debug_name: "VRGamepadUI-DashboardBar-Panel",
+                  interactive: !0,
+                  make_overlays_interactive_if_visible: !0,
+                  curvature_origin_id: e,
+                  overlay_key: u.BZ,
+                  origin: r.Ic.TopCenter,
+                  meters_per_pixel: Z.B.m_fVRGamepadUI_MetersPerPixel,
+                  reflect: 0.08,
+                },
+                l.createElement(r.at, {
+                  id: "VRGamepadUI-DashboardBar-Panel-TopCenter",
+                  location: r.Ic.TopCenter,
+                }),
+                l.createElement(
+                  r.at,
+                  {
+                    id: "VRGamepadUI-DashboardBar-Panel-BottomCenter",
+                    location: r.Ic.BottomCenter,
+                  },
+                  l.createElement(r.wx, { id: u.dG, translation: { y: -0.1 } }),
+                ),
+              ),
             );
           }
           renderOverlayWidgets() {
@@ -17388,7 +17405,7 @@
                                 l.createElement(
                                   r.wx,
                                   { translation: { y: -0.65, z: -0.01 } },
-                                  l.createElement(ce, null),
+                                  l.createElement(pe, null),
                                 ),
                               ),
                               d &&
@@ -17620,7 +17637,7 @@
           (0, i.gn)([a.ak], de.prototype, "isVolumeTrayActive", null),
           (0, i.gn)([a.ak], de.prototype, "isSteamOverlayActive", null),
           (0, i.gn)([a.ak], de.prototype, "isDesktopOverlayActive", null),
-          (0, i.gn)([a.ak], de.prototype, "handlePeerButton", null),
+          (0, i.gn)([a.ak], de.prototype, "handleVRLinkInfoClick", null),
           (0, i.gn)([a.ak], de.prototype, "ToggleIncognitoMode", null),
           (0, i.gn)([a.ak], de.prototype, "ToggleVideoStream", null),
           (0, i.gn)([a.ak], de.prototype, "getRenderModelForShape", null),
@@ -17635,9 +17652,30 @@
           (0, i.gn)([s.LO], de, "s_dashboardUserScale", void 0),
           (de = te = (0, i.gn)([y.Pi], de));
         const ce = (0, y.Pi)(function (e) {
+            var t;
+            if (!Z.B.isVRGamepadUI) return null;
+            let n =
+              null !== (t = VRHTML.GetHostInfo(r.zA.Hostname)) && void 0 !== t
+                ? t
+                : "unknown";
+            return l.createElement(
+              r.s_,
+              { target_dpi_panel_id: u.WR, interactive: !0 },
+              l.createElement(
+                "div",
+                { className: "FloatingButtonRow" },
+                l.createElement(
+                  c.z,
+                  { className: "ButtonControl", onClick: e.onClick },
+                  l.createElement("span", null, n.toLowerCase(), " "),
+                ),
+              ),
+            );
+          }),
+          pe = (0, y.Pi)(function (e) {
             return null;
           }),
-          pe = [
+          he = [
             (e) => {
               var t;
               return (
@@ -17661,18 +17699,18 @@
               );
             },
           ];
-        function he(e, t) {
+        function ue(e, t) {
           let n = -1,
             o = -1;
-          for (let i = 0; i < pe.length && n < 0 && o < 0; i++)
-            pe[i](e) && (n = i), pe[i](t) && (o = i);
+          for (let i = 0; i < he.length && n < 0 && o < 0; i++)
+            he[i](e) && (n = i), he[i](t) && (o = i);
           return (
-            n < 0 && (n = pe.length),
-            o < 0 && (o = pe.length),
+            n < 0 && (n = he.length),
+            o < 0 && (o = he.length),
             n == o ? e.tab_id() - t.tab_id() : n - o
           );
         }
-        function ue(e, t) {
+        function me(e, t) {
           var n, o, i, r, a, s;
           let l;
           const d =
@@ -21116,4 +21154,4 @@
   var i = o.O(void 0, [968, 683], () => o(1176));
   i = o.O(i);
 })();
-//# sourceMappingURL=controllerbindingui.js.map?v=201d57763222a3a74b3f
+//# sourceMappingURL=controllerbindingui.js.map?v=421c633e9a27ed3d2621

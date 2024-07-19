@@ -20,7 +20,6 @@
 %s%s%s%s%s
 ' is not a number.
 ',=?k
-(/cOu(
 (A\_^[
 (A^A]^[
 (A_A^^[
@@ -44,7 +43,6 @@
 -Infinity
 -u-I;
 .00cfg
-.>{Uh
 .?AUIInteractableOverlay@@
 .?AU_Crt_new_delete@std@@
 .?AUhresult_access_denied@winrt@@
@@ -183,7 +181,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240626211451Z0/
+240718235033Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -203,6 +201,7 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+86WG$
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -357,7 +356,6 @@ C\$@H
 C\$@M
 C\$PL
 C\$pH
-Ck3#bJ
 Close Frame
 CloseHandle
 CoCreateInstance
@@ -456,7 +454,6 @@ Exceeded stackLimit in readValue().
 Exception encountered closing capture frame pool (%d): %s
 Exception encountered closing graphics capture session (%d): %s
 Executable: %s
-FN^V=O
 Failed Watchdog timeout in thread %s after %f seconds
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.
@@ -487,7 +484,6 @@ Failed to update pointer overlay for desktop %d.
 FormatMessageA
 FormatMessageW
 GDI32.dll
-Gd$]R
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
@@ -798,6 +794,7 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
+X+g2? u
 Y9"SD
 [K]taM?
 \$ E3
@@ -943,7 +940,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 hu_hu
 hungarian
-iG8^l
 icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -1081,7 +1077,6 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
-wI.q8}
 window_view_created
 window_view_destroyed
 windows
@@ -1091,6 +1086,7 @@ www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 zh_cn
 zh_tw
+zr{G%/\
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH

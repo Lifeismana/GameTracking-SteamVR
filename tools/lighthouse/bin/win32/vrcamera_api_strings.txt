@@ -3,6 +3,7 @@
 																									
 																												
 	!s99
+	&^hQ
 	010I0t0
 	0P0g0
 	1&2o2t2
@@ -37,10 +38,8 @@ $_^[]
 %j+hD
 %m / %d / %y
 &1V6|:^<
-&7{}df
 ',=?k
 ()$^.*+?[]|\-{},:=!
-(GeX`B
 (f*^[0
 +A Vj$
 +A$+Y
@@ -433,7 +432,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-240626210537Z0/
+240718234210Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -611,6 +610,7 @@ $_^[]
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 5i5n5y5
 5ineI
+5mT}U
 5p5N6
 5t5|5
 6 6$6(6,6064686<6@6D6
@@ -741,7 +741,6 @@ $_^[]
 879K9R9Y9c9
 888U8}8
 889t9
-88EF]
 899K9Y9^9d9
 89}4w
 8:8o8
@@ -928,6 +927,7 @@ $_^[]
 ;Z<d<
 ;]<a<e<i<m<q<u<y<}<
 ;d<:=7>
+;fBZ-(
 ;t=x=|=
 < <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
 < <'<D<m<|<
@@ -1232,6 +1232,7 @@ Begin Streaming Video...
 Beginning detectedStream 
 Bellevue1
 C$F;w
+C*?J5
 C,H_^u
 C8;sx|
 CVRCameraWindows Destructor...
@@ -1304,7 +1305,6 @@ DuplicateHandle
 DynamicProgressFeedback
 E;w0tLj
 EI2C support not yet implemented
-E[qz20
 EncodePointer
 End Streaming Depth...
 End Streaming Video...
@@ -1421,7 +1421,6 @@ GxVPR
 H-^Eu
 HP;HL
 HPQVR
-I%$aE
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Index: 
 InitOnceExecuteOnce
@@ -1494,7 +1493,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDSS
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1597,7 +1595,6 @@ YYPh`v
 YYPhxv
 YY^_]
 Y__^[
-ZL6;5
 [K]taM?
 [SPj"
 [tc9]
@@ -1666,6 +1663,7 @@ _unlock_locales
 _wcsdup
 `.rdata
 a7hIw
+aXRpI
 abort
 address family not supported
 address in use
@@ -1723,6 +1721,7 @@ fgetwc
 file exists
 file too large
 filename too long
+fo}<a
 fputc
 fputwc
 frexp
@@ -1769,7 +1768,6 @@ localeconv
 lower
 lstrcmpW
 m0k0$
-mDh=:;
 malloc
 memchr
 memcmp
@@ -1909,12 +1907,13 @@ x0c1l1
 x\SVW
 xdigit
 y'j h
+{!<8;
 {L?uI
 {un'%
 |Lu?c
 |SVWj
 }:;2|6
 }LuHO
-~W=(G
+~"|Y	69_
 ~qj#k"
 ~t&LN

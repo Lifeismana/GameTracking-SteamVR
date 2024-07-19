@@ -334,7 +334,6 @@
 #9i0t
 #?RADIANCE
 #?RGBE
-#B.QE
 #D9c0t
 #D9{0t
 #bML"
@@ -793,7 +792,6 @@ $w!Hc
 )D$pE
 )D$pH
 )D$pf
-)Dw+V
 )L$ D
 )L$ fD
 )L$0A
@@ -917,6 +915,7 @@ $w!Hc
 -tA?Ks
 -u-I;
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+.*S9B
 ... Moving the base for tracking too, which might cause a pop
 .... BaseStation Map has %d entries
 ../..
@@ -1389,6 +1388,7 @@ $w!Hc
 1I9p 
 1e+9999
 1wsHp
+2#)>Y[
 2).lighthouse.pb.CBaseConfigAndDynamicState"
 210429000000Z
 211007000000Z
@@ -1397,7 +1397,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240626210743Z0/
+240718234412Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1419,6 +1419,7 @@ $w!Hc
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+5i1X8U
 6*f(_
 6<framesToThrottle
 6I]Dc
@@ -1571,7 +1572,6 @@ $w!Hc
 :EotB
 ; expected 
 ; last read: '
-;$xI3
 ;.u H
 ;<$uCB
 ;Ch}(
@@ -2254,7 +2254,6 @@ C H;K(u
 C(9C 
 C(9~(~FL
 C(H9C0t
-C)hVM
 C,HcK(H
 C09w(~:L
 C0;C,s
@@ -2503,7 +2502,6 @@ Can't parse HMD config from USB: %s
 CancelIo
 Cannot allocate buffer larger than kint32max for 
 Cb9CP~(H
-CgcyP
 Ch9C,uiH
 ClHcKhH
 Clamping MC to %d (%0.1f%%) %d (%0.1f%%)
@@ -3975,6 +3973,7 @@ Knuckles
 Knuckles EV1.3
 Knuckles EV1.4
 KpLcW4
+KsS,w#/
 K}*n:	
 L#AxJ
 L#F0H
@@ -4495,7 +4494,6 @@ Protocol message was modified concurrently during serialization.
 Prototype
 Pz}b!
 Q@D85
-Qc	woF
 Qk6eV5RE
 Qkkbal
 QueryPerformanceCounter
@@ -4888,7 +4886,6 @@ Tundra Labs
 Tundra Tracker
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
-U"ZAS
 U0H9U8t
 UATAUAVAWH
 UATAUH
@@ -5667,7 +5664,6 @@ ZL$Xf
 ^@I;^Ht&f
 ^@I;^Ht*ff
 ^HH9|$hu
-^SN@/RF
 ^`I;^h
 ^oEZ_
 _0IcG

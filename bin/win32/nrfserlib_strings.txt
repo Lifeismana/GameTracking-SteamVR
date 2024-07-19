@@ -660,6 +660,7 @@ $Vh&*
 1<1B1J1P1q1y1
 1@1~1
 1D1{1
+1E[A'
 1I1t1
 1M2}2
 1N1_1v1
@@ -708,7 +709,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240626210545Z0/
+240718234221Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -936,7 +937,6 @@ $Vh&*
 6I]Dc
 6O6Z6
 6OB,n_
-6Ov*OV
 6P6W6
 6PVhX_
 6V7_7g7
@@ -2087,6 +2087,7 @@ Write to SOB Channel.
 WriteFile
 XX.XX.XXXXXXX
 Y9"SD
+Y\~Zy
 Y__^[
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -2101,7 +2102,6 @@ Zipfile is corrupt or not a zipfile
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
-[UY?lJ +
 \0`0d0|0
 \Device Parameters
 ]J<0"0i3
@@ -2232,7 +2232,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-i@"4r
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -2294,6 +2293,7 @@ print
 punct
 realloc
 s?=2N
+sPBC3
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)
@@ -2479,6 +2479,7 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
+yUqDv
 {L?uI
 {un'%
 |Lu?c

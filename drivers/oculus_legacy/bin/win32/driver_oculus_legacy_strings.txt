@@ -5,13 +5,10 @@
 ',=?k
 (Unable to load LibOVR)
 (f*^[0
-*=FZ>
 +Xt@(
 +o'q)}
 , last executing in 
-,?{[q
 ,W5y+
--2$	3
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -87,7 +84,6 @@
 1%101=1b1r1|1
 1(1,1<1@1D1H1L1P1T1X1\1`1d1
 130801120000Z
-1Ov"u
 2"2(20282=2C2K2S2X2^2f2n2s2y2
 2"2-22272?2D2M2T2Y2`2i2p2u2|2
 210429000000Z
@@ -95,7 +91,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240626210700Z0/
+240718234325Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -122,7 +118,6 @@
 4&565>5F5
 4'414;4E4O4Y4c4m4w4
 4'4L4n4
-40#{=
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5X6\6`6d6h6l6p6t6x6|6
 5$5(5,545L5\5`5p5t5x5
@@ -178,7 +173,6 @@
 <#<-<7<A<K<U<_<i<s<}<
 <$<)<<<T<]<h<o<
 <,<5<><G<L<Q<X<
-<,^vQ
 <0:08
 <U<a<y<
 = =*=:=J=Z=c=r=x=~=
@@ -286,6 +280,7 @@ MSVCP140.dll
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+N2VP(c
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -295,7 +290,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSf]
 RaiseException
 S0Q0O
 SA|X=G
@@ -336,13 +330,13 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Y9"SD
 Y__^[
-Z193=_M
 [K]taM?
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
+\IL.l
 ]J<0"0i3
 ][OculusDirect] Begin AcquireSync
 _Camera
@@ -396,6 +390,7 @@ camera
 d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
+f*.")
 f;A*stSW
 getenv
 headset
@@ -404,6 +399,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+iIU1Q
 invalid string position
 jdjdh
 jj@0HK4
@@ -468,7 +464,6 @@ strncpy
 strncpy_s
 strstr
 tdh.dll
-teGPf;
 terminate
 u7j8Q
 uCVj@
@@ -476,7 +471,6 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-{@*S-~
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif
@@ -489,5 +483,6 @@ www.digicert.com1$0"
 {un'%
 |Lu?c
 }LuHO
+~bkt_
 ~qj#k"
 ~t&LN

@@ -112,7 +112,6 @@ $iMBm
 )|B?d!
 *StO9>T
 *uXI;
-+;pa,3:
 +J$D8M@
 +M<7>
 +Xt@(
@@ -414,7 +413,7 @@ $iMBm
 220323000000Z
 220801000000Z
 230714000000Z
-240626210546Z0/
+240718234215Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -430,7 +429,6 @@ $iMBm
 3A8A#
 3T$(H
 3mq+<
-4a!/&
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -480,6 +478,7 @@ $iMBm
 9_P~+E3
 9_P~,E3
 9_P~OE3
+9e	oI
 9u0u	H
 9{D~H3
 : exception thrown in JSON library
@@ -693,6 +692,7 @@ C H9G
 C$u	H
 C'db-N
 C(H;C0r
+C+Q%|+
 C0HcF
 C0L9$
 C4D+@ H
@@ -1265,7 +1265,6 @@ Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
 November
-NwddW~S
 O,D9O(vcH
 O0HcQ
 O0LcQ
@@ -1290,6 +1289,7 @@ QueryPerformanceCounter
 QueryUmsThreadInformation
 R(1)Y9
 R0E8XAt
+RSDS]~Q
 R\hvv
 RaiseException
 ReadConsoleW
@@ -1427,7 +1427,6 @@ UpdateProcThreadAttribute
 User Canceled Init (116)
 User Config Directory Invalid (107)
 V6E>`"(5
-VARX~
 VATAVH
 VD$Pf
 VR Dashboard Not Found (133)
@@ -1697,6 +1696,7 @@ VWAWH
 V_~]	,
 Valve Corp.0
 Valve Corp.1
+Vg}/H
 VirtualAlloc
 VirtualFree
 VirtualProtect
@@ -1728,6 +1728,7 @@ Y7'v[M
 Y8(|bUhI;W4$eG8
 Y9"SD
 Y>kX>M
+YBtsY+
 YD$@f
 YYyhe"B
 Z(D9Z
@@ -2173,7 +2174,6 @@ runtime
 s WATAUAVAWH
 s WAVAWH
 sQA^7&^7%sP@
-snKz4L[
 snan)
 stackLimit
 state not recoverable
@@ -2305,6 +2305,7 @@ vrclient Shared Lib Not Found (102)
 vrclient_x64.dll
 vrserver internal error (124)
 v}`[>
+w#*H]
 w(HcODI
 wMHcN
 wXJR*
@@ -2331,11 +2332,11 @@ xpxxxx
 xwpwpp
 yH;YXtl
 y\PD>!
+y^$m 
 y^QZ8(O*
 ygCH2
 zY;>u:m	
 zwom}
-{	w3$
 { ATAVAWH
 { AVH
 { tjL

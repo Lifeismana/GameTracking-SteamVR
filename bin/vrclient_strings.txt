@@ -436,18 +436,18 @@ $
 .L11002
 .L111
 .L112
-.L11223
-.L11226
-.L11228
-.L11229
-.L11230
-.L11231
-.L11232
-.L11233
-.L11234
-.L11235
-.L11236
-.L11237
+.L11241
+.L11243
+.L11245
+.L11246
+.L11247
+.L11248
+.L11249
+.L11250
+.L11251
+.L11252
+.L11253
+.L11254
 .L113
 .L1135
 .L11355
@@ -460,25 +460,25 @@ $
 .L11373
 .L1138
 .L1139
+.L11396
+.L11399
 .L114
 .L1140
+.L11401
+.L11402
+.L11403
+.L11404
+.L11405
+.L11406
+.L11407
+.L11408
+.L11409
 .L1141
+.L11410
 .L1142
 .L1144
-.L11448
 .L1145
-.L11450
-.L11452
-.L11453
-.L11454
-.L11455
-.L11456
-.L11457
-.L11458
-.L11459
 .L1146
-.L11460
-.L11461
 .L1147
 .L11490
 .L11491
@@ -865,15 +865,15 @@ $
 .L1603
 .L1604
 .L1605
-.L16053
-.L16054
-.L16056
-.L16057
-.L16058
-.L16059
 .L1606
-.L16060
-.L16061
+.L16073
+.L16074
+.L16076
+.L16077
+.L16078
+.L16079
+.L16080
+.L16081
 .L161
 .L16128
 .L16129
@@ -959,13 +959,13 @@ $
 .L182
 .L183
 .L184
-.L1840
-.L1841
-.L1843
-.L1844
-.L1845
-.L1846
 .L185
+.L1852
+.L1853
+.L1855
+.L1856
+.L1857
+.L1858
 .L186
 .L187
 .L188
@@ -2577,7 +2577,6 @@ $
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:04:05
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -2618,6 +2617,7 @@ $
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:40:23
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -3338,8 +3338,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1884.373407
-C.1885.373418
+C.1887.373422
+C.1888.373433
 C.427.290275
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -7348,6 +7348,7 @@ CVRInputLatest::IsActionSetActive(std::shared_ptr<CVRInputLatest::InputFrame_t>,
 CVRInputLatest::IsDeviceRenderModelSimulated(unsigned long long)
 CVRInputLatest::IsInTutorialMode()
 CVRInputLatest::IsInputDisabledForPriority(unsigned long long, int)
+CVRInputLatest::IsInputOnHead(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long long)
 CVRInputLatest::IsUsingLegacyInput()
 CVRInputLatest::LoadInitialConfig()
 CVRInputLatest::LoadInitialConfig() [clone .cold]
@@ -22500,9 +22501,9 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
 Jul
+Jul 18 2024
 July
 Jun
-Jun 26 2024
 June
 K
 KHR_lights_punctual
@@ -23239,6 +23240,7 @@ Prop_ControllerHandSelectionPriority_Int32
 Prop_ControllerRoleHint_Int32
 Prop_ControllerType_String
 Prop_CurrentUniverseId_Uint64
+Prop_DashboardLinkSupport_Int32
 Prop_DashboardScale_Float
 Prop_DeviceBatteryPercentage_Float
 Prop_DeviceCanPowerOff_Bool
@@ -23375,7 +23377,6 @@ Prop_NumCameras_Int32
 Prop_OverrideContainer_Uint64
 Prop_ParentContainer
 Prop_ParentDriver_Uint64
-Prop_PeerButtonInfo_String
 Prop_PeripheralApplicationVersion_Uint64
 Prop_PreviousUniverseId_Uint64
 Prop_RadioVersion_Uint64
@@ -29164,6 +29165,7 @@ poses
 position
 position_x
 position_y
+position_z
 posix_memalign
 power
 powf

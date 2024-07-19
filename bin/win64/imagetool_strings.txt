@@ -3346,6 +3346,7 @@ $wtpt
 .	KEP
 .%d.%d
 ... trying CreateFontIndirect height=%ld,width=%ld,escapement=%ld,orientation=%ld,weight=%ld,%s%s%scharset=%d,outprecision=%d,clipprecision=%d,quality=%d,pitchandfamily=%#.02x,facename="%S")
+../I?U
 ..Too many IDATs found
 .00cfg
 .1\H!
@@ -3634,7 +3635,6 @@ $wtpt
 0B2A1B2A2B2A1B2A0A2B1A2B2A2B1A2B
 0B2AH
 0B2D1B2D2B2D3B2D0D2B1D2B2D2B3D2BUnexpected direction (%d)
-0E	4{aWjJ
 0HcD$hM
 0HcD$pM
 0Hc|$hI
@@ -3721,7 +3721,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240626210910Z0/
+240718234537Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -9364,6 +9364,7 @@ Jjw[Sc
 Johab
 Jove xef, porti whisky amb quinze gla
 Jovencillo emponzo
+JqAvuZ
 Js M@
 Junk after value string
 K H9K0u
@@ -11752,7 +11753,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSQ
+RSDS1Ss
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14216,6 +14217,7 @@ YDbDr
 YG(fD
 YGHfD
 YL$@A
+YL\u-
 YMAM+'2%7><KM@=;(7:/8@-h
 YN@fD
 YO@fE
@@ -18801,6 +18803,7 @@ rq@[wa
 rt+rld
 rtnmH
 rtrpt,
+rtypS
 rtype:
 run->item->offset >= state->line_start_index
 runic
@@ -18818,7 +18821,6 @@ s$fff
 s%	c %
 s%fff
 s(H;3|
-s*a!'
 s+D8l
 s0t*f
 s1 != NULL
@@ -20824,7 +20826,6 @@ z.u,f
 z/u-H
 z2u0H
 z3u1A
-z5adK
 z5u3A
 z6u4f
 z7u5I

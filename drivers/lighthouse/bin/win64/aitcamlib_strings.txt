@@ -32,6 +32,7 @@
 &D9c0t
 &D9k0t
 &D9{0t
+&_JK;
 ',=?k
 '.5<=6/7>????????????????
 '9k0t
@@ -57,7 +58,6 @@
 )t$0H
 )|$ H
 )|$@f
-+KfXE
 +Xt@(
 +o'q)}
 , last executing in 
@@ -178,7 +178,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240626210611Z0/
+240718234239Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -196,11 +196,9 @@
 6*f(_
 6I]Dc
 6OB,n_
-6yWfu
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7u;H;
-7wU+a
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -219,6 +217,7 @@
 ;D$ht6
 <0:08
 <unknown>
+=/VSv
 =ETLP
 =IBgC
 =SNRtt%
@@ -245,7 +244,6 @@
 ?_Xlength_error@std@@YAXPEBD@Z
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
-?l"hu
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
 @.data
 @.reloc
@@ -298,7 +296,6 @@ AitH264Capture.dll
 AitUVCExtApi.dll
 AuthD
 BMP RLE
-Bdu#y
 Bellevue1
 CAMCMD_GET_OPENCAMERA_RESULT
 CT$ H
@@ -480,8 +477,8 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSZ
 RaiseException
+Rbv%gb
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
 ResumeCamera
@@ -606,7 +603,6 @@ Z9k0tUD
 ]J<0"0i3
 ]g@8yhu
 ^9k0tWD
-^V,f1AV6
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -621,6 +617,7 @@ _Mtx_lock
 _Mtx_unlock
 _Thrd_id
 _Thrd_join
+_X=]	
 __C_specific_handler
 __CxxFrameHandler3
 __std_exception_copy
@@ -649,7 +646,6 @@ _seh_filter_dll
 _wchdir
 _wgetcwd
 `.rdata
-`>`.6
 `A_A^A]A\_^]
 `A__^
 a7hIw
@@ -709,7 +705,6 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c0oz+
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
@@ -793,7 +788,6 @@ l$TD;
 l$hA+
 l$hHc
 l2|X/gGe
-lIGj)Ft'J
 latam
 ldexp
 m0k0$
@@ -876,7 +870,6 @@ t$PHc
 t$hL;
 t$pfA
 t$pfD
-t'A:f
 t>H9n
 tRNS after IDAT
 tRNS before PLTE
@@ -919,6 +912,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+xS:b#P
 zh_cn
 zh_tw
 zlib corrupt

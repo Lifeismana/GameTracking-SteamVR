@@ -924,7 +924,6 @@ $@
 20IVRAudioNotification
 20IVRVirtualDisplay001
 21
-21:04:11
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
@@ -937,6 +936,7 @@ $@
 22IVRDisplayComponent001
 22IVRDisplayComponent002
 23
+23:40:36
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -5265,9 +5265,9 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
 Jul
+Jul 18 2024
 July
 Jun
-Jun 26 2024
 June
 K
 KHR_lights_punctual
@@ -6064,6 +6064,7 @@ Prop_ControllerHandSelectionPriority_Int32
 Prop_ControllerRoleHint_Int32
 Prop_ControllerType_String
 Prop_CurrentUniverseId_Uint64
+Prop_DashboardLinkSupport_Int32
 Prop_DashboardScale_Float
 Prop_DeviceBatteryPercentage_Float
 Prop_DeviceCanPowerOff_Bool
@@ -6200,7 +6201,6 @@ Prop_NumCameras_Int32
 Prop_OverrideContainer_Uint64
 Prop_ParentContainer
 Prop_ParentDriver_Uint64
-Prop_PeerButtonInfo_String
 Prop_PeripheralApplicationVersion_Uint64
 Prop_PreviousUniverseId_Uint64
 Prop_RadioVersion_Uint64

@@ -33,6 +33,7 @@ $PjQW
 $_^[]
 $iMBm
 %%.%dg
+%)2ax
 %.0Lf
 %H : %M
 %H : %M : %S
@@ -42,6 +43,7 @@ $iMBm
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
+%n7cu[
 &1^1x1
 &<	x4;O
 &?~YK|
@@ -448,7 +450,7 @@ $iMBm
 220801000000Z
 230714000000Z
 233s3
-240626210521Z0/
+240718234147Z0/
 241009235959Z0a1
 243t3
 252J2Q2W2i2s2
@@ -560,6 +562,7 @@ $iMBm
 4Q;FD~Z
 4S4p4
 4U4g4
+4U6&#w
 4^5l5
 4f4r4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -1368,6 +1371,7 @@ HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
+Hm;qK
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -1436,7 +1440,6 @@ LrvD)O
 M$+E4@Pj
 MB(iVR
 MM/dd/yy
-MX~Kv1
 March
 MaxConcurrency
 MaxPolicyElementKey
@@ -1574,6 +1577,7 @@ SwetV
 SwitchToThread
 Syntax error: value, object or array expected.
 SystemTimeToTzSpecificLocalTime
+T3yG{5*
 TargetOversubscriptionFactor
 TerminateProcess
 The current HMD requires an additional driver that is not installed (214)
@@ -1936,7 +1940,6 @@ __based(
 __cdecl
 __clrcall
 __eabi
-__f>v
 __fastcall
 __pascal
 __ptr64
@@ -2024,7 +2027,6 @@ broken pipe
 c%;>7
 c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
 cD5U3#eF7v\NV5%J%
-cKbFw
 cRpp`
 ceLfdfK3
 cg+tY
@@ -2303,6 +2305,7 @@ zwom}
 |TBc4
 |W8A=
 |^4#W,
+|iaBi
 }	jCh 
 }:;2|6
 }LuHO

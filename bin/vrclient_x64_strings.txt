@@ -30,7 +30,7 @@
   driver %s implements interfaces %s
  !!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%&&&&&&&&&&&&'&&()))*f
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE````````````````````````````````FGHIJKLMNO`PQRST````````````````````````````````````````````````````````````````````````````````````UVWXYZ[\]^_
- !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoTUVWXooooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
+ !"#$%&'()*+,oo-./0123456789:;<=>?@oABCDEFGoHIJKLMNOPQoRSoToUVWoXooYZ[\]^_`aooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooobcdefghijoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooklmn
  !"#$%&'()AAAAAAAAAAAAAAAAAAA*+,-./01AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA23456789:;A<=>?@
  !"A#$$%&'A()*+,-./0AAAAAAAAAAAAAAA12345A3A4AAAAAA678AAAA9:;AAAAA<=>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?@
  !55"#$%&'()*+,-./01234
@@ -100,6 +100,7 @@
 !m_pParent2
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
+!yGy0
 " because it is missing required fields: 
 " does not.
 " in 
@@ -107,6 +108,7 @@
 """""""
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
+"6Fbg
 "9k0t
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
@@ -416,9 +418,9 @@ $w!Hc
 'uri' is missing from non binary glTF file buffer.
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
-(%i9+
+(%	G+
 ()$^.*+?[]|\-{},:=!
-(-4q+
+(5i@#
 (9Q|uWH
 (A\^][
 (A\_^[
@@ -1729,7 +1731,7 @@ $w!Hc
 .xdata
 .xdata$x
 //==============================================================================================
-/5%B)
+/5~-"
 /9{0t'H
 /a/click
 /a/touch
@@ -2119,7 +2121,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240626211341Z0/
+240718234933Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2207,6 +2209,7 @@ $w!Hc
 9sT~)H
 9s`~4L
 9t$ vlL
+9t$<u
 9y8~8H
 9y8~9H
 9y8~9L
@@ -2795,6 +2798,7 @@ B84/u
 B9T	$t
 B9T	$u
 B9T)$t
+BD9%^
 BINORMAL
 BITANGENT
 BMP RLE
@@ -2829,6 +2833,7 @@ C$A;A
 C(D![ D!S$D!K(
 C(H9C0t
 C(I;A
+C-^}*
 C0L9$
 C0L;E
 C0L;F
@@ -3615,7 +3620,6 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D8$/u
 D8$>u
-D8%{%*
 D8,8u
 D8/u0
 D840u
@@ -3633,6 +3637,7 @@ D8}gt$L
 D8}gu
 D8}guH
 D9!t/
+D9%3W%
 D90uGH
 D989D9XH
 D9>u:H
@@ -4322,12 +4327,18 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=J,"
-H;=J4"
-H;=JZ"
-H;=jU"
-H;=z:"
-H;=zV"
+H;=*S"
+H;=:)"
+H;=:T"
+H;=:`"
+H;=J5"
+H;=JE"
+H;=J["
+H;=X}*
+H;=z$"
+H;=zB"
+H;=zQ"
+H;=z]"
 H;A s
 H;Axt
 H;C(v
@@ -5383,6 +5394,7 @@ Prop_ControllerHandSelectionPriority_Int32
 Prop_ControllerRoleHint_Int32
 Prop_ControllerType_String
 Prop_CurrentUniverseId_Uint64
+Prop_DashboardLinkSupport_Int32
 Prop_DashboardScale_Float
 Prop_DeviceBatteryPercentage_Float
 Prop_DeviceCanPowerOff_Bool
@@ -5519,7 +5531,6 @@ Prop_NumCameras_Int32
 Prop_OverrideContainer_Uint64
 Prop_ParentContainer
 Prop_ParentDriver_Uint64
-Prop_PeerButtonInfo_String
 Prop_PeripheralApplicationVersion_Uint64
 Prop_PreviousUniverseId_Uint64
 Prop_RadioVersion_Uint64
@@ -5561,7 +5572,6 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
-RSDS(
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5898,6 +5908,7 @@ T$xH;
 T$xHcM8
 T$xL+
 T$xL;
+T5_W!
 TANGENT
 TEXCOORD
 TIMEOUT
@@ -6871,6 +6882,8 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
+W%2/#
+W%\H%
 W0H;C
 W4H;C
 W8H+W`I
@@ -6933,6 +6946,7 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
+X%<2+
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -7437,6 +7451,10 @@ XrProto:duplicate
 XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
+Y%%)*
+Y%S~+
+Y%gD'
+Y-M)*
 Y9"SD
 Y>t$7?*
 YL$8E
@@ -7779,6 +7797,7 @@ ZvFailed to create fence %ls.
 \$ VATAWH
 \$ VAVAWH
 \$ VH
+\$ VWAVH
 \$ VWAWH
 \$ WAVAWH
 \$ WH
@@ -7846,6 +7865,7 @@ ZvFailed to create fence %ls.
 \$xH;
 \$xHi
 \$xHk
+\5f #
 \\.\pipe\
 \mfpmp.exe
 \u=H;
@@ -7864,7 +7884,6 @@ ZvFailed to create fence %ls.
 ]HH;]Ptb
 ]J<0"0i3
 ][Compositor Client] Begin AcquireSync
-]btH>
 ]g@8yhu
 ]gfff
 ]pH9X
@@ -9190,6 +9209,7 @@ position
 position_
 position_x
 position_y
+position_z
 power
 ppCmdBuf
 precision
@@ -9900,8 +9920,8 @@ t$PHc
 t$PI+
 t$PI;
 t$PL+
-t$TI;
 t$XH;
+t$XI;
 t$`D;
 t$`E2
 t$`E3
@@ -9937,6 +9957,7 @@ t7fff
 t8D8-
 t9fff
 t:fff
+t>EE+
 t>H9n
 t>y#I
 t?9|$pt9H
@@ -9949,7 +9970,7 @@ tFfff
 tHI9t$
 tJL;y rDH
 tNI;X rHI
-tQH95
+tQH95W
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -10030,7 +10051,7 @@ trigger_path
 true literal
 turkish
 t|SUVH
-t}H9=
+t}H9=F
 u	A;p(s
 u	A;y(s
 u	H9|$ tI

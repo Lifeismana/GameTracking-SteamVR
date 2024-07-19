@@ -6,6 +6,7 @@
 																												
 																																												
 	!s99
+	2GoU
 	<bu 
 	@81t/@8q
    Driver Description: %s
@@ -601,6 +602,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+0,>Q3
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
@@ -632,7 +634,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240626210615Z0/
+240718234243Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -647,7 +649,6 @@
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
-5e51*
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 64-bit
@@ -665,6 +666,7 @@
 8EC90001F3154F609FB8838830DAEA50
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
+8H6=qF"
 8]8vPH
 8_^][
 9C }&L
@@ -672,7 +674,6 @@
 9\$Pt
 9\u-H
 9\u4H
-9d}k+&G
 9l$pt
 9t$0t
 9t$0u
@@ -1414,6 +1415,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 MultiByteToWideChar
+NHL'q
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
 NRFError_DFUError_BaseNeedsPowerCycle
@@ -1517,7 +1519,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-R\v=M
+RSDS2
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1680,6 +1682,7 @@ UWATAWH
 UWATH
 UWAVH
 UWAWH
+UmdFAB
 UnhandledExceptionFilter
 Unknown
 Unknown AUTH Status (0x%X)
@@ -1714,7 +1717,6 @@ WAKEUP
 WATAUAVAWH
 WAVAW
 WAVAWH
-WO4G-z
 WOKEN
 WS2_32.dll
 WXM9WPt(E
@@ -1752,6 +1754,7 @@ Zipfile is corrupt or not a zipfile
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
+[b>n5
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -1883,6 +1886,7 @@ digit
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
+f)T)a%
 fD9$xu
 fD9&u
 fD9+u
@@ -1936,6 +1940,7 @@ ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
 jj@0HK4
+joVh"zI
 k0i0$
 l$ H=
 l$ VAVAWH
@@ -2176,6 +2181,7 @@ x UATAUAVAWH
 xA\^][
 xA^A]_[
 xAtAL
+xJw_Q
 xdigit
 {un'%
 {x\u!H
@@ -2212,8 +2218,6 @@ xdigit
 |$ps`H
 |Lu?c
 }LuHO
-}a ]OS
 ~'HcB
-~)Jf+
 ~qj#k"
 ~t&LN

@@ -1,7 +1,6 @@
 																																																																																																																
 	!s99
  %41g
- Y1b9M
 !(0)"
 !9~ t
 !hn7!
@@ -168,7 +167,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-240626210541Z0/
+240718234215Z0/
 241009235959Z0a1
 282<2@2D224b4
 292m2
@@ -211,6 +210,7 @@ $9^ t
 4.4>4H4R4b4m4
 495W5_5
 4?6H6O6
+4?hu#S
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5$54585@5X5h5l5|5
 5!5&5+505A5K5Q5U5[5_5e5p5x5
@@ -408,7 +408,6 @@ EventWriteString
 EventWriteTransfer
 F(j4f
 FORMAT=32-bit_rle_rgbe
-FXv`Wk5]
 Failed
 Failed to acquire raw camera block for writing: %d
 Failed to join thread CameraWorkThread /+/ TID: %d
@@ -496,7 +495,7 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS?
+RSDSjp
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -596,7 +595,6 @@ Y__^[
 [K]taM?
 \2d2h2l2p2t2x2|2
 ]J<0"0i3
-^2?i;U
 _CIpow
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -639,6 +637,7 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
+`1(+z
 a7hIw
 aitcamlib
 aitcamlib.dll
@@ -713,7 +712,6 @@ da_dk
 danish
 de_de
 deque<T> too long
-dhv(@
 dutch
 el_gr
 en_us
@@ -821,7 +819,6 @@ too many codes
 tr_tr
 turkish
 u"h(~
-u$"~u
 u(_^[
 u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C

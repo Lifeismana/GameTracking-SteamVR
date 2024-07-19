@@ -105,7 +105,7 @@
 220801000000Z
 223C3
 230714000000Z
-240626210638Z0/
+240718234303Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -158,6 +158,7 @@
 9#919A9
 9(929
 919:9C9L9Q9V9]9b9n9
+9EZz-~s+
 9H9L9P9h9l9,:0:4:H:L:P:l:p:
 9J;v;
 :!:*:3:<:A:F:M:R:^:
@@ -187,7 +188,6 @@
 ?_Xlength_error@std@@YAXPBD@Z
 @.data
 @.reloc
-@aYcX
 Bellevue1
 CloseHandle
 CreateEventW
@@ -246,7 +246,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS](
 RaiseException
 S0Q0O
 SA|X=G
@@ -288,7 +287,6 @@ VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
 Valve Corp.1
-WRw1.'u
 WakeAllConditionVariable
 Washington1
 Y9"SD
@@ -342,9 +340,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
-dU)PQ
 driver_gamepad.dll
-gr-c[
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -359,6 +355,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
+s!B)]
 string too long
 terminate
 uCVj@

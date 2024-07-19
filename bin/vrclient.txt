@@ -4350,8 +4350,8 @@
  puts
  putwc
  qsort
- r C.1884.373407
- r C.1885.373418
+ r C.1887.373422
+ r C.1888.373433
  r C.427.290275
  r CSWTCH.111
  r CSWTCH.214
@@ -5875,18 +5875,18 @@
  t .L11002
  t .L111
  t .L112
- t .L11223
- t .L11226
- t .L11228
- t .L11229
- t .L11230
- t .L11231
- t .L11232
- t .L11233
- t .L11234
- t .L11235
- t .L11236
- t .L11237
+ t .L11241
+ t .L11243
+ t .L11245
+ t .L11246
+ t .L11247
+ t .L11248
+ t .L11249
+ t .L11250
+ t .L11251
+ t .L11252
+ t .L11253
+ t .L11254
  t .L113
  t .L1135
  t .L11355
@@ -5899,25 +5899,25 @@
  t .L11373
  t .L1138
  t .L1139
+ t .L11396
+ t .L11399
  t .L114
  t .L1140
+ t .L11401
+ t .L11402
+ t .L11403
+ t .L11404
+ t .L11405
+ t .L11406
+ t .L11407
+ t .L11408
+ t .L11409
  t .L1141
+ t .L11410
  t .L1142
  t .L1144
- t .L11448
  t .L1145
- t .L11450
- t .L11452
- t .L11453
- t .L11454
- t .L11455
- t .L11456
- t .L11457
- t .L11458
- t .L11459
  t .L1146
- t .L11460
- t .L11461
  t .L1147
  t .L11490
  t .L11491
@@ -6304,15 +6304,15 @@
  t .L1603
  t .L1604
  t .L1605
- t .L16053
- t .L16054
- t .L16056
- t .L16057
- t .L16058
- t .L16059
  t .L1606
- t .L16060
- t .L16061
+ t .L16073
+ t .L16074
+ t .L16076
+ t .L16077
+ t .L16078
+ t .L16079
+ t .L16080
+ t .L16081
  t .L161
  t .L16128
  t .L16129
@@ -6398,13 +6398,13 @@
  t .L182
  t .L183
  t .L184
- t .L1840
- t .L1841
- t .L1843
- t .L1844
- t .L1845
- t .L1846
  t .L185
+ t .L1852
+ t .L1853
+ t .L1855
+ t .L1856
+ t .L1857
+ t .L1858
  t .L186
  t .L187
  t .L188
@@ -11524,6 +11524,7 @@
  t CVRInputLatest::IsDeviceRenderModelSimulated(unsigned long long)
  t CVRInputLatest::IsInTutorialMode()
  t CVRInputLatest::IsInputDisabledForPriority(unsigned long long, int)
+ t CVRInputLatest::IsInputOnHead(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long long)
  t CVRInputLatest::IsUsingLegacyInput()
  t CVRInputLatest::LoadInitialConfig()
  t CVRInputLatest::LoadInitialConfig() [clone .cold]

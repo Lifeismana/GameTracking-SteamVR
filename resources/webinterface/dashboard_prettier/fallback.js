@@ -1379,8 +1379,8 @@
           m,
           g,
           v,
-          f = [],
-          b = null,
+          b = [],
+          f = null,
           S = null;
         function y(e, t, r) {
           (h = e),
@@ -1408,11 +1408,11 @@
             : h;
         }
         function I(e) {
-          f.push(e), C();
+          b.push(e), C();
         }
         function C() {
-          b ||
-            (b = window.setTimeout(
+          f ||
+            (f = window.setTimeout(
               () =>
                 (0, o.mG)(this, void 0, void 0, function* () {
                   let e = document.body;
@@ -1441,11 +1441,11 @@
                     type: "update_scene_graph",
                     owning_overlay_key: R(),
                     scene_graph: t,
-                    retired_sgids: f,
+                    retired_sgids: b,
                   };
                   S.SendMessage("vrcompositor_systemlayer", r),
-                    (b = null),
-                    (f = []),
+                    (f = null),
+                    (b = []),
                     (v = !1);
                 }),
               0,
@@ -1896,7 +1896,7 @@
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
           })(s || (s = {}));
         let a = 0;
-        var l, d, p, c, u, _, h, m, g, v, f, b, S, y, D, R, I;
+        var l, d, p, c, u, _, h, m, g, v, b, f, S, y, D, R, I;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -2009,7 +2009,7 @@
                 "DriverRequestsApplicationPause"),
               (e[(e.DriverRequestsReducedRendering = 128)] =
                 "DriverRequestsReducedRendering");
-          })(f || (f = {})),
+          })(b || (b = {})),
           (function (e) {
             (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
               (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -2026,7 +2026,7 @@
               (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
               (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
               (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-          })(b || (b = {})),
+          })(f || (f = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
@@ -2061,11 +2061,7 @@
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
           })(D || (D = {})),
           (function (e) {
-            (e[(e.Hostname = 0)] = "Hostname"),
-              (e[(e.IP = 1)] = "IP"),
-              (e[(e.Version = 2)] = "Version"),
-              (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
-              (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate");
+            e[(e.Hostname = 0)] = "Hostname";
           })(R || (R = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
@@ -2286,8 +2282,9 @@
               "DisplayMinAnalogGain_Float"),
             (e[(e.DisplayMaxAnalogGain_Float = 2087)] =
               "DisplayMaxAnalogGain_Float"),
+            (e[(e.DashboardLinkSupport_Int32 = 2097)] =
+              "DashboardLinkSupport_Int32"),
             (e[(e.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
-            (e[(e.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
             (e[(e.IpdUIRangeMinMeters_Float = 2100)] =
               "IpdUIRangeMinMeters_Float"),
             (e[(e.IpdUIRangeMaxMeters_Float = 2101)] =
@@ -2809,4 +2806,4 @@
   var i = o.O(void 0, [968, 683], () => o(844));
   i = o.O(i);
 })();
-//# sourceMappingURL=fallback.js.map?v=30f5787ce9b56746f49e
+//# sourceMappingURL=fallback.js.map?v=3b208ca4d09067494cea

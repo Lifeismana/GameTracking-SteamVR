@@ -186,11 +186,11 @@
             if (e.length > 0) return e;
           }
         }
-        function w(e, t) {
+        function E(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) return parseFloat(r);
         }
-        function E(e, t) {
+        function w(e, t) {
           let r = e.getAttribute(t);
           if (r && r.length > 0) return parseInt(r);
         }
@@ -213,7 +213,7 @@
           let r = { type: e, properties: {} };
           return (
             t.id && (r.properties.id = z(t.id)),
-            (r.properties.sgid = E(t, "sgid")),
+            (r.properties.sgid = w(t, "sgid")),
             r
           );
         }
@@ -229,7 +229,7 @@
                     (o.properties.translation = k(t, "translation")),
                     (o.properties.rotation = k(t, "rotation")),
                     (o.properties.scale = k(t, "scale")),
-                    (o.properties["curvature-pitch"] = w(t, "curvature-pitch")),
+                    (o.properties["curvature-pitch"] = E(t, "curvature-pitch")),
                     (o.properties["transform-path"] = T(t, "transform-path")),
                     (o.properties["invert-parent-panel-pitch"] = x(
                       t,
@@ -247,31 +247,31 @@
                   break;
                 case "VSG-ELASTIC-HEAD-TRANSFORM":
                   (o = F("elasticheadtransform", t)),
-                    (o.properties["start-angle-threshold"] = w(
+                    (o.properties["start-angle-threshold"] = E(
                       t,
                       "start-angle-threshold",
                     )),
-                    (o.properties["stop-angle-threshold"] = w(
+                    (o.properties["stop-angle-threshold"] = E(
                       t,
                       "stop-angle-threshold",
                     )),
-                    (o.properties["ease-in-time"] = w(t, "ease-in-time")),
-                    (o.properties["ease-in-power"] = w(t, "ease-in-power")),
-                    (o.properties["ease-out-angle-threshold"] = w(
+                    (o.properties["ease-in-time"] = E(t, "ease-in-time")),
+                    (o.properties["ease-in-power"] = E(t, "ease-in-power")),
+                    (o.properties["ease-out-angle-threshold"] = E(
                       t,
                       "ease-out-angle-threshold",
                     )),
-                    (o.properties["ease-out-power"] = w(t, "ease-out-power")),
-                    (o.properties["min-angular-velocity"] = w(
+                    (o.properties["ease-out-power"] = E(t, "ease-out-power")),
+                    (o.properties["min-angular-velocity"] = E(
                       t,
                       "min-angular-velocity",
                     )),
-                    (o.properties["max-angular-velocity"] = w(
+                    (o.properties["max-angular-velocity"] = E(
                       t,
                       "max-angular-velocity",
                     )),
                     (o.properties["lock-to-horizon"] = x(t, "lock-to-horizon")),
-                    (o.properties["translation-behavior"] = E(
+                    (o.properties["translation-behavior"] = w(
                       t,
                       "translation-behavior",
                     ));
@@ -279,16 +279,16 @@
                 case "VSG-LINE":
                   (o = F("line", t)),
                     (o.properties["target-id"] = N(t, "target-id")),
-                    (o.properties.thickness = w(t, "thickness")),
-                    (o.properties["start-buffer"] = w(t, "start-buffer")),
-                    (o.properties["end-buffer"] = w(t, "end-buffer"));
+                    (o.properties.thickness = E(t, "thickness")),
+                    (o.properties["start-buffer"] = E(t, "start-buffer")),
+                    (o.properties["end-buffer"] = E(t, "end-buffer"));
                   break;
                 case "VSG-LINE-CONSTRAINED-TRANSFORM":
                   (o = F("line-constrained-transform", t)),
                     (o.properties["target-id"] = N(t, "target-id")),
                     (o.properties["source-id"] = N(t, "source-id")),
-                    (o.properties["source-distance"] = w(t, "source-distance")),
-                    (o.properties["target-limit"] = w(t, "target-limit"));
+                    (o.properties["source-distance"] = E(t, "source-distance")),
+                    (o.properties["target-limit"] = E(t, "target-limit"));
                   break;
                 case "VSG-CALLOUT-TRANSFORM":
                   (o = F("callout-transform", t)),
@@ -299,12 +299,12 @@
                   break;
                 case "VSG-PIN-TO-VIEW-TRANSFORM":
                   (o = F("pin-to-view-transform", t)),
-                    (o.properties["offscreen-z-depth"] = w(
+                    (o.properties["offscreen-z-depth"] = E(
                       t,
                       "offscreen-z-depth",
                     )),
-                    (o.properties["off-axis-limit"] = w(t, "off-axis-limit")),
-                    (o.properties["transition-limit"] = w(
+                    (o.properties["off-axis-limit"] = E(t, "off-axis-limit")),
+                    (o.properties["transition-limit"] = E(
                       t,
                       "transition-limit",
                     ));
@@ -323,18 +323,18 @@
                     (o.properties.translation = k(t, "translation")),
                     (o.properties.rotation = k(t, "rotation")),
                     (o.properties.scale = k(t, "scale")),
-                    (o.properties["stop-distance"] = w(t, "stop-distance")),
-                    (o.properties["start-angle"] = w(t, "start-angle")),
-                    (o.properties["start-quat-difference"] = w(
+                    (o.properties["stop-distance"] = E(t, "stop-distance")),
+                    (o.properties["start-angle"] = E(t, "start-angle")),
+                    (o.properties["start-quat-difference"] = E(
                       t,
                       "start-quat-difference",
                     )),
-                    (o.properties["stop-quat-difference"] = w(
+                    (o.properties["stop-quat-difference"] = E(
                       t,
                       "stop-quat-difference",
                     )),
-                    (o.properties["scale-margin"] = w(t, "scale-margin")),
-                    (o.properties["lerp-speed"] = w(t, "lerp-speed"));
+                    (o.properties["scale-margin"] = E(t, "scale-margin")),
+                    (o.properties["lerp-speed"] = E(t, "lerp-speed"));
               }
               return [i, o];
             })(e, t),
@@ -557,11 +557,7 @@
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
           })(y || (y = {})),
           (function (e) {
-            (e[(e.Hostname = 0)] = "Hostname"),
-              (e[(e.IP = 1)] = "IP"),
-              (e[(e.Version = 2)] = "Version"),
-              (e[(e.NetworkConnections = 3)] = "NetworkConnections"),
-              (e[(e.XRS_CalibrationDate = 4)] = "XRS_CalibrationDate");
+            e[(e.Hostname = 0)] = "Hostname";
           })(D || (D = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
@@ -638,12 +634,12 @@
         function j(e, t) {
           return e ? { x: e.x ? e.x : t.x, y: e.y ? e.y : t.y } : t;
         }
-        function X(e, t) {
+        function Z(e, t) {
           return e
             ? { x: e.x ? e.x : t.x, y: e.y ? e.y : t.y, z: e.z ? e.z : t.z }
             : t;
         }
-        function Z(e, t) {
+        function X(e, t) {
           return e
             ? { r: e.r ? e.r : t.r, g: e.g ? e.g : t.g, b: e.b ? e.b : t.b }
             : t;
@@ -811,7 +807,7 @@
               if ("string" == typeof this.props.color)
                 r.properties.color = this.props.color;
               else {
-                let e = Z(this.props.color, { r: 1, g: 1, b: 1 });
+                let e = X(this.props.color, { r: 1, g: 1, b: 1 });
                 r.properties.color = [e.r, e.g, e.b];
               }
             else r.properties.color = [1, 1, 1];
@@ -858,7 +854,7 @@
               ? ((e = this.props.transform.translation),
                 (t = this.props.transform.rotation),
                 (r = this.props.transform.scale))
-              : ((e = X(this.props.translation, { x: 0, y: 0, z: 0 })),
+              : ((e = Z(this.props.translation, { x: 0, y: 0, z: 0 })),
                 (t =
                   this.props.rotation && "w" in this.props.rotation
                     ? this.props.rotation
@@ -880,7 +876,7 @@
                           z: o * n * d - a * l * s,
                         };
                       })(
-                        ((i = X(this.props.rotation, { x: 0, y: 0, z: 0 })),
+                        ((i = Z(this.props.rotation, { x: 0, y: 0, z: 0 })),
                         (o = Math.PI / 180),
                         { x: i.x * o, y: i.y * o, z: i.z * o }),
                       )),
@@ -891,7 +887,7 @@
                         y: this.props.scale,
                         z: this.props.scale,
                       }
-                    : X(this.props.scale, { x: 1, y: 1, z: 1 })));
+                    : Z(this.props.scale, { x: 1, y: 1, z: 1 })));
             let n = Q(e),
               s = (function (e) {
                 if (e) return e.w + " " + e.x + " " + e.y + " " + e.z;
@@ -1566,7 +1562,7 @@
                 )
                   r.properties.color = this.props.color;
                 else if (this.props.color) {
-                  let e = Z(this.props.color, { r: 0, g: 0, b: 0 });
+                  let e = X(this.props.color, { r: 0, g: 0, b: 0 });
                   r.properties.color = [e.r, e.g, e.b];
                 }
                 return (
@@ -1617,7 +1613,7 @@
               let e = this.props.fresnel;
               if ("string" == typeof e.color) r.properties.color = e.color;
               else {
-                let t = Z(e.color, { r: 0, g: 0, b: 0 });
+                let t = X(e.color, { r: 0, g: 0, b: 0 });
                 r.properties.color = [t.r, t.g, t.b];
               }
               (r.properties.opacity = e.opacity ? e.opacity : 1),
@@ -1663,7 +1659,7 @@
                   let e = this.props.specular;
                   if ("string" == typeof e.color) r.properties.color = e.color;
                   else {
-                    let t = Z(e.color, { r: 0, g: 0, b: 0 });
+                    let t = X(e.color, { r: 0, g: 0, b: 0 });
                     r.properties.color = [t.r, t.g, t.b];
                   }
                 }
@@ -2037,8 +2033,9 @@
             "DisplayMinAnalogGain_Float"),
           (ve[(ve.DisplayMaxAnalogGain_Float = 2087)] =
             "DisplayMaxAnalogGain_Float"),
+          (ve[(ve.DashboardLinkSupport_Int32 = 2097)] =
+            "DashboardLinkSupport_Int32"),
           (ve[(ve.DashboardScale_Float = 2091)] = "DashboardScale_Float"),
-          (ve[(ve.PeerButtonInfo_String = 2092)] = "PeerButtonInfo_String"),
           (ve[(ve.IpdUIRangeMinMeters_Float = 2100)] =
             "IpdUIRangeMinMeters_Float"),
           (ve[(ve.IpdUIRangeMaxMeters_Float = 2101)] =
@@ -2733,4 +2730,4 @@
   var o = i.O(void 0, [968], () => i(9119));
   o = i.O(o);
 })();
-//# sourceMappingURL=scenegraphtest.js.map?v=5223e7b77106ca65ba30
+//# sourceMappingURL=scenegraphtest.js.map?v=76797e34aa29be0b086e

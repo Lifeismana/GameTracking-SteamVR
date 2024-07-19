@@ -4565,16 +4565,16 @@
  putwc
  qsort
  r (anonymous namespace)::k_debugUtilsLabelColors
- r C.1868.372176
- r C.1869.372187
+ r C.1871.372191
+ r C.1872.372202
  r C.413.290188
  r CSWTCH.107
  r CSWTCH.16
  r CSWTCH.212
  r CSWTCH.23
  r CSWTCH.28
- r CSWTCH.363
- r CSWTCH.510
+ r CSWTCH.365
+ r CSWTCH.512
  r CSWTCH.823
  r CSWTCH.869
  r CSettingsManager::GetDefaultValue<bool>(char const*, char const*, vr::EVRSettingsError*)::Empty
@@ -10430,6 +10430,7 @@
  t CVRInputLatest::IsDeviceRenderModelSimulated(unsigned long)
  t CVRInputLatest::IsInTutorialMode()
  t CVRInputLatest::IsInputDisabledForPriority(unsigned long, int)
+ t CVRInputLatest::IsInputOnHead(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long)
  t CVRInputLatest::IsUsingLegacyInput()
  t CVRInputLatest::LoadInitialConfig()
  t CVRInputLatest::LoadInitialConfig() [clone .cold]

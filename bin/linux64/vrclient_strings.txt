@@ -1266,7 +1266,6 @@ $tI
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:04:11
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1315,6 +1314,7 @@ $tI
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:40:36
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -2075,8 +2075,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) [clone .cold]
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C
-C.1868.372176
-C.1869.372187
+C.1871.372191
+C.1872.372202
 C.413.290188
 CAN
 CActionBinding::CActionBinding(CActionBinding const&)
@@ -3484,8 +3484,8 @@ CSWTCH.16
 CSWTCH.212
 CSWTCH.23
 CSWTCH.28
-CSWTCH.363
-CSWTCH.510
+CSWTCH.365
+CSWTCH.512
 CSWTCH.823
 CSWTCH.869
 CS_MAIN
@@ -6515,6 +6515,7 @@ CVRInputLatest::IsActionSetActive(std::shared_ptr<CVRInputLatest::InputFrame_t>,
 CVRInputLatest::IsDeviceRenderModelSimulated(unsigned long)
 CVRInputLatest::IsInTutorialMode()
 CVRInputLatest::IsInputDisabledForPriority(unsigned long, int)
+CVRInputLatest::IsInputOnHead(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long)
 CVRInputLatest::IsUsingLegacyInput()
 CVRInputLatest::LoadInitialConfig()
 CVRInputLatest::LoadInitialConfig() [clone .cold]
@@ -22017,9 +22018,9 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) [clone .cold]
 Jul
+Jul 18 2024
 July
 Jun
-Jun 26 2024
 June
 K
 KHR_lights_punctual
@@ -22796,6 +22797,7 @@ Prop_ControllerHandSelectionPriority_Int32
 Prop_ControllerRoleHint_Int32
 Prop_ControllerType_String
 Prop_CurrentUniverseId_Uint64
+Prop_DashboardLinkSupport_Int32
 Prop_DashboardScale_Float
 Prop_DeviceBatteryPercentage_Float
 Prop_DeviceCanPowerOff_Bool
@@ -22932,7 +22934,6 @@ Prop_NumCameras_Int32
 Prop_OverrideContainer_Uint64
 Prop_ParentContainer
 Prop_ParentDriver_Uint64
-Prop_PeerButtonInfo_String
 Prop_PeripheralApplicationVersion_Uint64
 Prop_PreviousUniverseId_Uint64
 Prop_RadioVersion_Uint64
@@ -25984,6 +25985,7 @@ Z
 [Desktop Entry]Name=URI-
 [GetVideoStreamFrame] Read (%d)
 [GetVideoStreamTextureGL] Read (%d)
+[InputProfileLoader] Failed to read remapping profile: %s
 [Input] Action Manifest Path set to '%s'
 [Input] After initial config load, app appears to be using legacy input
 [Input] After initial config load, app appears to not be using SteamVR Input
@@ -29774,6 +29776,7 @@ position
 position_
 position_x
 position_y
+position_z
 posix_memalign
 power
 powf

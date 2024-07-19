@@ -43,7 +43,6 @@
 !(0)"
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !9~ t
-!E[Dq
 !hn7!
 " not found in the scene.
 "%/28;=#$019:>?
@@ -62,7 +61,6 @@
 #?RGBE
 #oculus_requested_quit
 $0(0,0004080<0@0D0H0L0P0A1T1`1h1p1
-$697a)
 $9^ t
 $;(;,;0;4;8;<;@;D;H;L;P;
 %%.%dg
@@ -416,6 +414,7 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 130801120000Z
 141D1H1X1\1`1h1
 141X1d1l1
+15*^$
 181D1L1l1
 182>2V2e2k2t2
 182e2o2u2
@@ -431,6 +430,7 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 1I1R1[1d1i1n1u1
 1N1l1
 1N3#6
+1QO(R
 1R1u1
 1U1t1
 1[1`1u1~1
@@ -472,7 +472,7 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 222I2[2
 230714000000Z
 233Q3o3
-240626210657Z0/
+240718234322Z0/
 241009235959Z0a1
 262C2a2p2
 273J3b325
@@ -612,7 +612,6 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5
 5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
 5 5%5*5/54595>5C5H5M5R5W5\5a5f5k5p5u5z5
-5!&jqz-8
 5!515A5Q5a5q5
 5#5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
 5$5(5<5@5P5T5d5h5l5t5
@@ -1040,6 +1039,7 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 =<=H=P=h=|=
 =<=l=
 ===K=
+=@0pnM
 =C>d>
 =E>Q>
 =K>P>r>
@@ -1364,6 +1364,7 @@ GetTickCount64
 Graphics LUID changed
 Guardian changed, updating chaperone
 H-^Eu
+H;}{u
 HMD no longer present
 HeapAlloc
 HeapFree
@@ -1444,7 +1445,6 @@ J0+J(
 J>@G_
 JSON string too short.
 JSONuTS
-K"+m\;
 KERNEL32.dll
 KHR_lights_punctual
 K}*n:	
@@ -1457,6 +1457,7 @@ LoadLibraryA
 LoadLibraryW
 LocalizationManager
 M$SVW
+M+/Qg
 MB(iVR
 MSVCP140.dll
 MainThrd
@@ -1522,6 +1523,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
 RPVh@
+RSDST
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1701,7 +1703,6 @@ __stdio_common_vswprintf
 _aligned_free
 _aligned_malloc
 _aligned_realloc
-_a~T(
 _callnewh
 _cexit
 _configure_narrow_argv
@@ -1777,7 +1778,6 @@ array
 aspectRatio
 assert json failed
 asset
-at98m
 attributes
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 bad AC huff
@@ -1887,6 +1887,7 @@ driver_oculus.dll
 driver_oculus.vrchap
 dutch
 dxgi.dll
+e"{9fH
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count

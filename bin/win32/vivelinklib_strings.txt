@@ -148,7 +148,6 @@ $Phdd
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.M-Lj6
 .data
 .data$r
 .edata
@@ -174,7 +173,6 @@ $Phdd
 .tls$
 .tls$ZZZ
 .xdata$x
-/'a+B
 /f /s
 /t;_^2
 0 0$0(0,0<0@0D0H0X0\0`0d0t0x0|0
@@ -238,7 +236,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-240626210549Z0/
+240718234226Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -327,7 +325,6 @@ $Phdd
 5u6%7/777E7`7t7
 6	747_7
 6 686H6L6P6T6X6l6p6t6x6|6
-6!_4f
 6%7N7]7p7|7
 6'7,7
 6(6,686<6
@@ -337,7 +334,6 @@ $Phdd
 638:8
 64787<7@7D7H7L7%9
 666666666666666666666666666666666666666666666666666666666666
-66d^?#
 686\6h6p6
 6:7?7y7~7
 6A7j7
@@ -398,6 +394,7 @@ $Phdd
 9[:2<L=^=
 9^hve
 9h9n9
+9rZ\T
 9s0t2
 : :$:4:8:<:@:P:T:X:\:l:p:t:x:
 :$:0:8:P:X:`:d:h:p:
@@ -559,6 +556,8 @@ $Phdd
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
+?zeUw
+@!6?!
 @.data
 @SVWj
 @d;Cd
@@ -681,7 +680,6 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
-E9 wv
 Empty escape sequence in string
 EnterCriticalSection
 Error reading file
@@ -735,6 +733,7 @@ GetTickCount64
 GetVersionExA
 H$;J$
 H-^Eu
+HGJ,j
 HTC BS
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Infinity
@@ -801,6 +800,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
+NCEhH
 Nonce:    %d
 ODFU Post
 OpenProcess
@@ -826,6 +826,8 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
+RSDSNb?
+RVV?P
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -905,7 +907,6 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Vd;Pd|6
-Vde]>
 VerSetConditionMask
 VerifyVersionInfoW
 ViveLinkError_AUTH_SMP_BUSY
@@ -1022,6 +1023,7 @@ X6\6`6d6h6l6p6t6x6|6
 XSVW2
 Y9"SD
 Y__^[
+Z@|SL
 Zip Error: %s
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1030,7 +1032,6 @@ Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 [DFU]
-[DvUGI
 [K]taM?
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
@@ -1038,7 +1039,6 @@ Zipfile is corrupt or not a zipfile
 \\.\pipe\HTC_BT_BSV2_PIPE_SEND_NAME
 \\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
 ]J<0"0i3
-^%fUu
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
 _CxxThrowException
@@ -1122,7 +1122,6 @@ fputs
 fread
 fseek
 ftell
-gF^Ih
 gfff+
 gfffSV
 gfffV
@@ -1200,6 +1199,7 @@ memchr
 memcpy
 memmove
 memset
+nO/&*k
 need dictionary
 ntdll.dll
 oversubscribed distance tree
@@ -1207,9 +1207,9 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
+qlELD
 realloc
 runas
-s9g'6^?
 space
 stoi argument out of range
 stoul argument out of range
@@ -1270,6 +1270,7 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
+{:4<NM
 {L?uI
 {un'%
 |	9A 

@@ -378,7 +378,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-240626210607Z0/
+240718234235Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -400,7 +400,6 @@ $< t6<$t,<+t"<vt
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-7k7(O
 8-uCH
 8-uGH
 8A^_^[
@@ -562,7 +561,6 @@ $< t6<$t,<+t"<vt
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@_N@Z
 ?WTrace@IVRCamera@vrcamera@@UEAAXAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
 ?YUVToRGB@IVRCameraFrame@vrcamera@@MEAAXEEEAEAD00@Z
-?s+&3B
 @(D9i(
 @.data
 @.reloc
@@ -833,7 +831,6 @@ D;z,A
 D;z,u
 D;z,v	A
 DFailed to EnumPins.
-DR,wP
 DecodePointer
 DeleteCriticalSection
 DeleteProcThreadAttributeList
@@ -1040,6 +1037,7 @@ InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J$A;H$A
+J&7n/
 J>@G_
 J`E;Bh|
 K 9N v@H
@@ -1049,6 +1047,7 @@ K4A+H
 K8Hc@
 KERNEL32.dll
 KH;_XtW3
+KuU^JI
 K}*n:	
 L$ SUVH
 L$ SUVWH
@@ -1125,6 +1124,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
+RSDS.
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1262,7 +1262,6 @@ X E9j
 Y$D;R
 Y0t>H
 Y9"SD
-YtG>zr
 Z(D9Z
 [@D8}oteH
 [K]taM?
@@ -1461,6 +1460,7 @@ isspace
 isupper
 jj@0HK4
 jyvids
+k 3]V
 k0i0$
 l$ E3
 l$ H;
@@ -1486,6 +1486,7 @@ l$pfA#
 l$xM+
 l*$D+l*,tDD+l*(
 l2|X/gGe
+lD8{R
 ldexp
 localeconv
 lower
@@ -1648,6 +1649,7 @@ u D9~
 u!!D$(H
 u%!D$@H
 u&8_rt
+u(`G!
 u)!t$(H
 u2A8D
 uJL9J,u
@@ -1720,6 +1722,7 @@ yH;YXtl
 |$rfD
 |Lu?c
 }LuHO
+}^\Gaf
 ~`D8I!t-
 ~qj#k"
 ~t&LN
