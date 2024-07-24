@@ -3346,7 +3346,6 @@ $wtpt
 .	KEP
 .%d.%d
 ... trying CreateFontIndirect height=%ld,width=%ld,escapement=%ld,orientation=%ld,weight=%ld,%s%s%scharset=%d,outprecision=%d,clipprecision=%d,quality=%d,pitchandfamily=%#.02x,facename="%S")
-../I?U
 ..Too many IDATs found
 .00cfg
 .1\H!
@@ -3721,7 +3720,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240718234537Z0/
+240724174127Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -3888,6 +3887,7 @@ $wtpt
 595x842
 5: -4,-1,0,-1,-4  -1,2,3,2,-1  0,3,4,3,0  -1,2,3,2,-1  -4,-1,0,-1,-4
 5: 0,0,-1,0,0  0,-1,-2,-1,0  -1,-2,16,-2,-1  0,-1,-2,-1,0  0,0,-1,0,0
+5=HgD-3
 5?rM5?
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -5004,6 +5004,7 @@ A,3B,
 A0D9D
 A0Ic@
 A1YD8K ~
+A2EM4`
 A5~:/y;/u>.z4)
 A8>tZf
 A8H;U v
@@ -9364,7 +9365,6 @@ Jjw[Sc
 Johab
 Jove xef, porti whisky amb quinze gla
 Jovencillo emponzo
-JqAvuZ
 Js M@
 Junk after value string
 K H9K0u
@@ -11753,7 +11753,6 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDS1Ss
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14217,7 +14216,6 @@ YDbDr
 YG(fD
 YGHfD
 YL$@A
-YL\u-
 YMAM+'2%7><KM@=;(7:/8@-h
 YN@fD
 YO@fE
@@ -14254,6 +14252,7 @@ ZEK|D
 ZLIBEncodeImage
 ZSoft IBM PC Paintbrush
 ZSoft IBM PC multi-page Paintbrush
+ZUq5o
 ZX-Spectrum SCREEN$
 ZYXbH
 ZYXgH
@@ -17181,6 +17180,7 @@ iQYF*1(07,17-06,/3,-2-.3--2,,0+,3,)4--8-2>-2>*6C.DV;H]=^qRZlS,8.heVheVheVifWifWj
 iTXt: invalid compression
 iTXt: invalid keyword
 iTXt: uncompressed text too long
+i]w9,
 iacute
 ibm737
 ibm775
@@ -18800,10 +18800,10 @@ roundRectangle %g,%g %g,%g %g,%g
 row_break_type != G_UNICODE_BREAK_SPACE
 rpelcnt:
 rq@[wa
+rqYP/
 rt+rld
 rtnmH
 rtrpt,
-rtypS
 rtype:
 run->item->offset >= state->line_start_index
 runic

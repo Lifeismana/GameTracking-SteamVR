@@ -33,7 +33,6 @@ $PjQW
 $_^[]
 $iMBm
 %%.%dg
-%)2ax
 %.0Lf
 %H : %M
 %H : %M : %S
@@ -43,7 +42,6 @@ $iMBm
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-%n7cu[
 &1^1x1
 &<	x4;O
 &?~YK|
@@ -450,7 +448,7 @@ $iMBm
 220801000000Z
 230714000000Z
 233s3
-240718234147Z0/
+240724173749Z0/
 241009235959Z0a1
 243t3
 252J2Q2W2i2s2
@@ -562,7 +560,6 @@ $iMBm
 4Q;FD~Z
 4S4p4
 4U4g4
-4U6&#w
 4^5l5
 4f4r4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -1049,6 +1046,7 @@ $iMBm
 >(>,><>@>P>T>X>\>`>d>l>
 >(>L>X>`>x>
 >(?p?
+>)/I5
 >,'1D=
 >/?;?
 >0<0:
@@ -1222,6 +1220,7 @@ E _^[
 E'i}p&b
 E2K2h2
 E;w0tLj
+ED4Vu`
 Eb2]A=
 Empty escape sequence in string
 EncodePointer
@@ -1371,7 +1370,6 @@ HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
-Hm;qK
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -1386,6 +1384,7 @@ IVRHeadsetView_001
 IVRPaths_001
 IVRVirtualDisplay_002
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+Ii"kR
 Infinity
 InitOnceExecuteOnce
 InitializeConditionVariable
@@ -1473,6 +1472,7 @@ O`j@SV
 October
 Od_^]
 On laptop, HMD detected over USB, but Monitor not found (213)
+Ou|mtg]
 PAq=?Mp#
 PP9E u:PPVWP
 PPPPP
@@ -1523,6 +1523,7 @@ RtlUnwind
 S0)9b9
 S0Q0O
 SA|X=G
+SG?zp
 SHELL32.dll
 SHGetFolderPathW
 SNAN)
@@ -1577,7 +1578,6 @@ SwetV
 SwitchToThread
 Syntax error: value, object or array expected.
 SystemTimeToTzSpecificLocalTime
-T3yG{5*
 TargetOversubscriptionFactor
 TerminateProcess
 The current HMD requires an additional driver that is not installed (214)
@@ -1956,6 +1956,7 @@ _logb
 _nextafter
 _tqPVj@
 `.rdata
+`0*\%i
 `0d0h0l0p0
 `F8bI<bH;^C6H)
 `RTTI
@@ -2123,6 +2124,8 @@ keylength >= 2^30
 l*JHD
 l,kg<i
 l2|X/gGe
+l?$Va
+lG;3$
 ldexp
 log10
 lq%&1T
@@ -2213,6 +2216,7 @@ runtime
 r}f;u
 sQA^7&^7%sP@
 sU0&?W
+shVx(
 snan)
 stackLimit
 state not recoverable
@@ -2277,6 +2281,7 @@ vj`7%X,
 vrclient Shared Lib Not Found (102)
 vrclient.dll
 vrserver internal error (124)
+v~j1KO
 wIPS3
 wXJR*
 wrong protocol type
@@ -2305,7 +2310,6 @@ zwom}
 |TBc4
 |W8A=
 |^4#W,
-|iaBi
 }	jCh 
 }:;2|6
 }LuHO

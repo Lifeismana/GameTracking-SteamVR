@@ -105,7 +105,7 @@
 220801000000Z
 223C3
 230714000000Z
-240718234303Z0/
+240724173855Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -158,11 +158,11 @@
 9#919A9
 9(929
 919:9C9L9Q9V9]9b9n9
-9EZz-~s+
 9H9L9P9h9l9,:0:4:H:L:P:l:p:
 9J;v;
 :!:*:3:<:A:F:M:R:^:
 :&:Y<*=<=E=P=v=
+:4CqE
 ; ;x;|;
 ;#;,;1;6;=;B;N;p;
 <	=I=
@@ -246,6 +246,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
+RSDSq
 RaiseException
 S0Q0O
 SA|X=G
@@ -283,12 +284,14 @@ TlsAlloc
 TlsFree
 UnhandledExceptionFilter
 Unknown exception
+Us{!(
 VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
+X"{_^
 Y9"SD
 Y__^[
 [K]taM?
@@ -355,7 +358,6 @@ map/set<T> too long
 memcpy
 memmove
 memset
-s!B)]
 string too long
 terminate
 uCVj@
@@ -363,6 +365,8 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
+y X`	
+zyRo 
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png

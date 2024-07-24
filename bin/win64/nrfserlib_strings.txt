@@ -6,7 +6,6 @@
 																												
 																																												
 	!s99
-	2GoU
 	<bu 
 	@81t/@8q
    Driver Description: %s
@@ -69,6 +68,7 @@
 !hn7!
 %%.%dg
 %4.4X:%4.4X
+%Oj(S[f
 %s (%4.4X:%4.4X Serial: %s)
 %s data received. (handle: %d, bytes: %d) '%s'
 %s setup error from %s
@@ -602,7 +602,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-0,>Q3
 000015231212EFDE1523785FEABCD124
 000015241212EFDE1523785FEABCD124
 000015251212EFDE1523785FEABCD124
@@ -634,7 +633,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240718234243Z0/
+240724173833Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -666,7 +665,6 @@
 8EC90001F3154F609FB8838830DAEA50
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
-8H6=qF"
 8]8vPH
 8_^][
 9C }&L
@@ -756,6 +754,7 @@
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+?e7~q[
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$collate@D@std@@2V0locale@2@A
@@ -1175,6 +1174,7 @@ DuplicateHandle
 E M;G
 E9e ~7I
 E@HcH
+EMEmV
 Element not found
 Empty escape sequence in string
 Encryption
@@ -1415,7 +1415,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
 MultiByteToWideChar
-NHL'q
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
 NRFError_DFUError_BaseNeedsPowerCycle
@@ -1519,7 +1518,6 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS2
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -1682,7 +1680,6 @@ UWATAWH
 UWATH
 UWAVH
 UWAWH
-UmdFAB
 UnhandledExceptionFilter
 Unknown
 Unknown AUTH Status (0x%X)
@@ -1726,6 +1723,7 @@ WaitForSingleObjectEx
 WakeAllConditionVariable
 Washington1
 WideCharToMultiByte
+WndJU
 Write SOB Channel %d.
 Write to BS1 PM Characteristic.
 Write to BS1 PM Characteristic. %d
@@ -1754,7 +1752,6 @@ Zipfile is corrupt or not a zipfile
 [0]*([1-9][0-9]+)
 [DFU]
 [K]taM?
-[b>n5
 \$ E3
 \$ UAVAWH
 \$ UH
@@ -1780,6 +1777,7 @@ Zipfile is corrupt or not a zipfile
 \u=H;
 ]J<0"0i3
 ]gfff
+^R0X+
 ^[0-9]+$
 _Cnd_broadcast
 _Cnd_destroy
@@ -1886,7 +1884,6 @@ digit
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
-f)T)a%
 fD9$xu
 fD9&u
 fD9+u
@@ -1940,7 +1937,7 @@ ioResourceError:
 ioServiceThread already exists.... aborting.
 isxdigit
 jj@0HK4
-joVh"zI
+j}A.:
 k0i0$
 l$ H=
 l$ VAVAWH
@@ -2181,7 +2178,6 @@ x UATAUAVAWH
 xA\^][
 xA^A]_[
 xAtAL
-xJw_Q
 xdigit
 {un'%
 {x\u!H

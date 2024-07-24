@@ -3,7 +3,6 @@
  A__^
  H3E H3E
 !hn7!
-"&kan%
 ',=?k
 (f*^[0
 +Xt@(
@@ -57,7 +56,7 @@
 .text$yd
 .xdata
 .xdata$x
-/sCuO`
+/ RgE
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -85,7 +84,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240718234510Z0/
+240724174059Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -108,6 +107,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 <0:08
+<0a9mM'>6
 =rIQU
 >0<0:
 >Mp$d
@@ -128,6 +128,7 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+Fj5'=
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -154,6 +155,8 @@ Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
+IvuLSr?0
+J,bmv~
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -168,8 +171,8 @@ NPH9Q
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
-QZgoX
 QueryPerformanceCounter
+RSDS'
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -226,7 +229,6 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
-d6 Ea
 displayFrequency
 driver_null
 driver_null.dll
@@ -237,7 +239,6 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-hf	kU
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -245,6 +246,7 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
+kAc{nh
 l$8E3
 l2|X/gGe
 m0k0$
@@ -275,6 +277,5 @@ www.digicert.com1$0"
 |$ AVH
 |Lu?c
 }LuHO
-}\c17
 ~qj#k"
 ~t&LN

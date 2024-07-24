@@ -31,6 +31,7 @@
 (t$@H
 (|$ H
 )D$ L
+)Rs(^q
 )t$ H
 )t$0H
 )t$@H
@@ -147,6 +148,7 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/mrC/
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -181,7 +183,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240718235033Z0/
+240724174625Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -201,7 +203,6 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
-86WG$
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
@@ -211,6 +212,7 @@
 </u#H
 <0:08
 <unknown>
+=>Uf_(>
 =rIQU
 >0<0:
 >Mp$d
@@ -450,6 +452,7 @@ Error setting foreground window.
 Error setting window position.
 Error showing window.
 Error uploading cursor texture for desktop %d.
+Ewi#l!
 Exceeded stackLimit in readValue().
 Exception encountered closing capture frame pool (%d): %s
 Exception encountered closing graphics capture session (%d): %s
@@ -794,7 +797,6 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
-X+g2? u
 Y9"SD
 [K]taM?
 \$ E3
@@ -930,6 +932,7 @@ french
 german
 gfffffffH
 gfffffffI
+ggCa`
 greek
 h_^[]
 handlers
@@ -1086,7 +1089,6 @@ www.digicert.com1$0"
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.
 zh_cn
 zh_tw
-zr{G%/\
 {un'%
 |$ ATAUAVAWH
 |$ ATAVAWH

@@ -1558,7 +1558,6 @@
 !context->parsing
 !context->subparser_stack
 !font_map || PANGO_IS_FONT_MAP (font_map)
-!g??6
 !g_type_is_a (interface_type, prerequisite_type)
 !g_type_is_a (prerequisite_type, interface_type)
 !hn7!
@@ -2133,6 +2132,7 @@ $~O="""
 &apos;
 &quof
 &quot;
+' d;s
 ' for value type '
 '%.20g'
 '%s' '%s'
@@ -3256,6 +3256,7 @@ $~O="""
 .IEC 61966-2.1 Default RGB colour space - sRGB
 .Too many IDATs found
 .W,`]
+.Y5]Pcu^T
 .b(9["
 .data
 .data$r
@@ -4335,7 +4336,7 @@ $~O="""
 23383I3l3
 2384x3370
 24 24
-240718234330Z0/
+240724173923Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -7739,7 +7740,6 @@ $~O="""
 ;^$|9
 ;^<t<y<
 ;^<~<
-;^l#L@
 ;_$|;
 ;_Hu.
 ;`;d;h;l;p;t;x;|;
@@ -8141,7 +8141,6 @@ $~O="""
 <E<c<n<
 <E<f<
 <E>L>
-<EfH9
 <F<R<q<
 <F<Z<
 <F=Y=
@@ -18920,7 +18919,6 @@ Zoom Select Status
 \0a0p0u0
 \2f2k2
 \9Ho_
-\9xh,
 \>HS]>I
 \?)$]?XS]?
 \AvfPf
@@ -20237,7 +20235,6 @@ e-1.0*
 e0(1Q1V1e1j1
 eC}gc}m
 ePfP4=0*&#.$&+**)+,'+/''-)$"W\H~
-eS[Pv1
 eXC	\
 eXXXX
 eXXXXX
@@ -21556,6 +21553,7 @@ hEMItV
 hGEPJW
 hIST must be after
 hI{L[
+hJx'\
 hKYMC
 hLACpV
 hPCCiS

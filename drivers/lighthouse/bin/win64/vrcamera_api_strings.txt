@@ -81,6 +81,8 @@ $< t6<$t,<+t"<vt
 )t$0H
 )t$`H
 +J$D8M@
++QQb]
++X3zs
 +Xt@(
 +o'q)}
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
@@ -378,7 +380,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-240718234235Z0/
+240724173825Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -388,6 +390,7 @@ $< t6<$t,<+t"<vt
 341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
+378w{X
 380115120000Z0b1
 3A8A#
 3mq+<
@@ -428,6 +431,7 @@ $< t6<$t,<+t"<vt
 9_P~+E3
 9_P~,E3
 9_P~OE3
+9f`'r
 9{D~H3
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
@@ -1037,7 +1041,6 @@ InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J$A;H$A
-J&7n/
 J>@G_
 J`E;Bh|
 K 9N v@H
@@ -1047,7 +1050,6 @@ K4A+H
 K8Hc@
 KERNEL32.dll
 KH;_XtW3
-KuU^JI
 K}*n:	
 L$ SUVH
 L$ SUVWH
@@ -1124,7 +1126,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
-RSDS.
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1199,6 +1200,7 @@ UVWATAVH
 UVWAVAWH
 UWATAVAWH
 UWAVH
+UYVX;}
 UmsThreadYield
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
@@ -1460,7 +1462,6 @@ isspace
 isupper
 jj@0HK4
 jyvids
-k 3]V
 k0i0$
 l$ E3
 l$ H;
@@ -1486,7 +1487,6 @@ l$pfA#
 l$xM+
 l*$D+l*,tDD+l*(
 l2|X/gGe
-lD8{R
 ldexp
 localeconv
 lower
@@ -1534,6 +1534,7 @@ owner dead
 p AWH
 p D9V
 p WAVAWH
+p e0ui
 pA^_^
 pA_A^A]A\_^]
 pContext
@@ -1649,7 +1650,6 @@ u D9~
 u!!D$(H
 u%!D$@H
 u&8_rt
-u(`G!
 u)!t$(H
 u2A8D
 uJL9J,u
@@ -1722,7 +1722,6 @@ yH;YXtl
 |$rfD
 |Lu?c
 }LuHO
-}^\Gaf
 ~`D8I!t-
 ~qj#k"
 ~t&LN

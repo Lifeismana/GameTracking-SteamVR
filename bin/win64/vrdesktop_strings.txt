@@ -16,9 +16,10 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-$(|2 /
+$&{0d
 %%.%dg
 %s%s%s%s%s
+& im#
 ' is not a number.
 ',=?k
 (A\_^[
@@ -41,6 +42,7 @@ $(|2 /
 , last executing in 
 ,W5y+
 -1e+9999
+-@	EO
 -Infinity
 -u-I;
 .00cfg
@@ -132,7 +134,6 @@ $(|2 /
 .tls$ZZZ
 .xdata
 .xdata$x
-/R"_T=
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -167,7 +168,7 @@ $(|2 /
 220323000000Z
 220801000000Z
 230714000000Z
-240718235023Z0/
+240724174614Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -190,7 +191,6 @@ $(|2 /
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
-;q$K,
 < t+<
 </u#H
 <0:08
@@ -310,7 +310,6 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bellevue1
-Bh".)I
 C0L9$
 CD$(H
 CD$0H
@@ -544,6 +543,7 @@ IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
+KyYN>w|
 K}*n:	
 L$ E3
 L$ H;
@@ -574,6 +574,7 @@ LoadLibraryA
 LocalFree
 LocalizationManager
 M H1E
+M#S|:
 M98u/
 MB(iVR
 MSVCP140.dll
@@ -587,14 +588,12 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
-O!PAA`t	
 OpenProcess
 Out of thread local storage!
 PA^_^
 PA_A^A]A\_^]
 PA_A^_^]
 PAq=?Mp#
-PQ}0m/
 Parse failed for JSON message in mailbox %s: %s
 Parsing of JSON string "%s" failed: %s
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
@@ -602,13 +601,13 @@ Pz}b!
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSY
 RaiseException
 Reinitializing output duplication for desktop %d.
 ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+RyMkZ
 S0Q0O
 SA|X=G
 SHCreateItemFromParsingName
@@ -641,6 +640,7 @@ T$ M+
 T$(H9T$0t!H
 T$@fI
 T$XH+
+TJ-)0(
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
@@ -698,9 +698,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Will not cache name for PID: %d, reason: %d
-Y66]P
 Y9"SD
-ZC(-2
 [K]taM?
 \$ E3
 \$ UAVAWH
@@ -760,7 +758,6 @@ _invalid_parameter_noinfo_noreturn
 _purecall
 _register_onexit_function
 _seh_filter_dll
-_vU~C
 `.rdata
 `A_A^A]A\_^]
 a7hIw
@@ -878,7 +875,6 @@ polish
 portuguese
 pt_br
 pt_pt
-q/|%]e
 r,fff
 request_handlers
 request_handlers_response

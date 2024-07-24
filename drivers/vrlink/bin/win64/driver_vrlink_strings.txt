@@ -542,13 +542,13 @@ $w!Hc
 +L$4f
 +Xt@(
 +o'q)}
-+o~=[7
 ,  @`
 , binary size = 
 , but got 
 , column 
 , last executing in 
 , requestedBytes 
+,2FjV
 ,4$8_@
 ,9k0t%H
 ,9l$4L
@@ -1042,6 +1042,7 @@ $w!Hc
 11Sb11Sb""fD""fD77Yn77Yn66Zl66Zl
 127.0.0.1
 130801120000Z
+1G			
 1['E!D
 1bq}J
 1bq}K
@@ -1053,7 +1054,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240718234524Z0/
+240724174114Z0/
 241009235959Z0a1
 2D$x2
 2D$x@2
@@ -1105,7 +1106,6 @@ $w!Hc
 6*f(_
 6666666666666666\\\\\\\\\\\\\\\\
 6I]Dc
-6L9=\_
 6OB,n_
 6bA~Ho47bq
 6p7M=:P_:}u
@@ -1202,6 +1202,7 @@ $w!Hc
 <0bA|(
 <3"-xwfiDKZU
 <<Dx<<Dx
+<KG@?
 <U+%.4X>
 <option requires an argument -- %c
 <parse error>
@@ -1715,6 +1716,7 @@ Bellevue1
 Binding UDP socket to %s
 BitBlt
 Bookend
+BrqkY
 Buffer
 BufferView
 Bytes received for control connection %d: %d
@@ -1825,7 +1827,7 @@ C\$PH
 C\$PL
 C\$PM
 C\$`L
-C\$hL9=q^
+C\$hL9=
 C\$hM
 C\$pH
 C\$pL
@@ -2055,6 +2057,7 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D7q/;M
 D8,8u
+D8-"%
 D848u
 D8d$P
 D8fht/H
@@ -3108,11 +3111,16 @@ L3D$`I
 L3D$hI
 L3D$pI
 L3D$xI
-L9= ^
-L9=5U
-L9=F[
-L9=iY
-L9=r\
+L9=2\
+L9=4U
+L9=;V
+L9=;^
+L9=<[
+L9=HW
+L9=MY
+L9=P]
+L9=eT
+L9=vZ
 L9E(H
 L9g u'
 L9g0t
@@ -3265,7 +3273,6 @@ NV_ENC_CAPS_LEVEL_MIN
 NV_ENC_CAPS_MB_NUM_MAX
 NV_ENC_CAPS_MB_PER_SEC_MAX
 NV_ENC_CAPS_NUM_ENCODER_ENGINES
-NV_ENC_CAPS_NUM_MAX_BFRAMES
 NV_ENC_CAPS_NUM_MAX_LTR_FRAMES
 NV_ENC_CAPS_NUM_MAX_TEMPORAL_LAYERS
 NV_ENC_CAPS_PREPROC_SUPPORT
@@ -3377,6 +3384,7 @@ PA_A^]
 PA_A^_
 PA_A^_^]
 PAq=?Mp#
+PCGNV_ENC_CAPS_NUM_MAX_BFRAMES
 PPxD<<%
 PRECODE
 Pair: %s
@@ -3914,6 +3922,7 @@ UuidCreate
 UuidFromStringA
 UuidToStringA
 V H+V
+V)/^]4
 V22dN::t
 VATAUH
 VATAVH
@@ -4072,7 +4081,6 @@ YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
 Your GPU supports %s for video compression
 Z9k0tUD
 ZL$Xf
-[&`P+
 [Alloc] Created bitstream buffer = %p
 [Alloc] Created d3d11 texture = %p
 [Alloc] Created m_vpCompletionEvent %p
@@ -4309,7 +4317,6 @@ _wcsnicmp
 _wfopen_s
 _wfsopen
 _wstat64i32
-_{/,1
 `	bq}K
 ` UAVAWH
 `.rdata
@@ -4346,7 +4353,6 @@ a Z
 a ]		
 a5j_5W
 a7hIw
-a8Sfhk]c
 aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x
 aSba~(
 aXb3%H8
@@ -5368,6 +5374,7 @@ cRXFailFuzz
 cRXerr
 cRXpass
 cRXpps
+cRunStartO
 cTXFailFuzz
 cTXerr
 cUD5#
@@ -5510,7 +5517,7 @@ d$DfD
 d$HMc
 d$Lbq
 d$PfD
-d$XL9%Xd
+d$XL9%
 d$\bq
 d$`H=
 d$`L;
@@ -5518,7 +5525,6 @@ d$`fD
 d$`fE
 d$bHc
 d$pfD
-d+niN
 d3d11.dll
 dBWMux
 dCTRCompUS

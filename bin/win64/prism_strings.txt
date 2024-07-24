@@ -21,8 +21,8 @@
 		%d,	// pclk
 		{	// etc
 		} } },
-	!\$E
 	!s99
+	L~u,&
 	{ 0x%x, 0x%x, %d, %d, {
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
@@ -33,6 +33,7 @@
     Unused timelines: size:%zu
  %41g
  - Vulkan output %d: %ux%u resolution, %ux%u dimensions - %s
+ <iWM
  A]A\_
  A^^[
  A_A^A\
@@ -311,6 +312,7 @@ $9E0u
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
+'<omd2
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -532,7 +534,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-240718234303Z0/
+240724173853Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -544,7 +546,6 @@ $9E0u
 360428235959Z0i1
 370322235959Z0c1
 380115120000Z0b1
-3Xop(m
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
@@ -666,6 +667,7 @@ $9E0u
 @WAUAVAWH
 @WAVAWH
 @`fff
+@~Y4B6
 A(A9C
 A(H9A t!H
 A8H9A0t
@@ -1121,7 +1123,6 @@ HiL$
 History Timeline
 History-Buffer-%d
 I#V0I
-I&Jz)
 I97t;I
 I98u2A
 I9B A
@@ -1255,7 +1256,6 @@ ME-Reprojector-Mask
 ME-VisibleAreaMask-%s
 ME-VisibleAreaMask-Graphics Command Pool
 ME-VisibleAreaMask-Timeline
-MGPe}*"
 MSVCP140.dll
 MV-Attenuation
 MV-Attenuation-%s
@@ -1402,9 +1402,8 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSs
+RSDS,#`
 RaiseException
-Rd+%,+
 ReadFile
 ReadFile failed on %s after event was signaled because %s
 ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer
@@ -1429,6 +1428,7 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S'!Gg
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
@@ -1464,6 +1464,7 @@ SetupGetInfDriverStoreLocationW
 Signal[%d]:%llu
 Skipping CalculateMotion (%llu)
 Skipping CalculateMotion (swapchain mismatch)
+Sl/74
 Sleep
 SleepConditionVariableCS
 Software\Valve\Steam\ActiveProcess
@@ -1674,6 +1675,7 @@ Yl$4E
 \$pI;\$xtIH
 \$xHk
 \$xMi
+\EM]:d
 \\.\pipe\
 \mfpmp.exe
 ]J<0"0i3
@@ -1735,8 +1737,8 @@ _wcsnicmp
 `A_A][
 `A_A^A]A\_^[
 `A_^]
-a'yD|wY
 a7hIw
+a^LVp8`
 abort
 acosf
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -1767,7 +1769,6 @@ atanf
 bad allocation
 bad array new length
 bad conversion
-bwV.)
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
@@ -1840,6 +1841,7 @@ data.hIPC.IsValid()
 deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
+e&eZ0
 effffff
 f9+t4
 f98tZH

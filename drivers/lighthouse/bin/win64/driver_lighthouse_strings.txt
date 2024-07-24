@@ -915,7 +915,6 @@ $w!Hc
 -tA?Ks
 -u-I;
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-.*S9B
 ... Moving the base for tracking too, which might cause a pop
 .... BaseStation Map has %d entries
 ../..
@@ -1388,7 +1387,6 @@ $w!Hc
 1I9p 
 1e+9999
 1wsHp
-2#)>Y[
 2).lighthouse.pb.CBaseConfigAndDynamicState"
 210429000000Z
 211007000000Z
@@ -1397,7 +1395,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240718234412Z0/
+240724173958Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -1419,7 +1417,6 @@ $w!Hc
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
-5i1X8U
 6*f(_
 6<framesToThrottle
 6I]Dc
@@ -1637,6 +1634,7 @@ $w!Hc
 ?&x0O
 ?'1(?
 ?)\o?;
+?0&uT
 ?333333
 ?333?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -1790,6 +1788,7 @@ $w!Hc
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+?y!)`
 @ D9A s
 @$A9B
 @(9B(}
@@ -3973,7 +3972,6 @@ Knuckles
 Knuckles EV1.3
 Knuckles EV1.4
 KpLcW4
-KsS,w#/
 K}*n:	
 L#AxJ
 L#F0H
@@ -4361,6 +4359,7 @@ O(;H(}+I
 O(H9O0t
 O*9y]
 O0H9Q
+O?A'w
 OPAQUE
 OTGT timed out
 OZw3(?
@@ -4505,6 +4504,7 @@ R8D9mgt
 RENDERDOC_GetAPI
 RPCRT4.dll
 RPH;SXt
+RSDSE
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4893,6 +4893,7 @@ UATAVAWI
 UATAWH
 UAUAVAWH
 UAVAWH
+UKz.U
 UNKNOWN
 UNPLUGGED
 USAGE: set_lenscal <device_json_path>
@@ -5059,6 +5060,7 @@ VATAUAVH
 VATAUH
 VATAVH
 VAVAWH
+VAh'-
 VBus: 
 VCRUNTIME140.dll
 VDEST
@@ -5967,6 +5969,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthou
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
 cAMDt
+cMmO4
 cal_method
 calloc
 camera

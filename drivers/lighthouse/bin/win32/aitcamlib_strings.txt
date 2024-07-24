@@ -1,7 +1,9 @@
 																																																																																																																
 	!s99
  %41g
+ /CW 
 !(0)"
+!+}pg'
 !9~ t
 !hn7!
 #*1892+$
@@ -22,6 +24,7 @@ $9^ t
 (Overcurrent)
 (Reset)
 (f*^[0
+*X"iN^?
 +Xt@(
 +o'q)}
 , last executing in 
@@ -167,7 +170,7 @@ $9^ t
 220323000000Z
 220801000000Z
 230714000000Z
-240718234215Z0/
+240724173806Z0/
 241009235959Z0a1
 282<2@2D224b4
 292m2
@@ -210,7 +213,6 @@ $9^ t
 4.4>4H4R4b4m4
 495W5_5
 4?6H6O6
-4?hu#S
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5 5$54585@5X5h5l5|5
 5!5&5+505A5K5Q5U5[5_5e5p5x5
@@ -268,6 +270,7 @@ $9^ t
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8SVWh\
 8X:\:`:
+8Y"d88o
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -373,11 +376,13 @@ AITAPI_IspCommand
 AITAPI_MmpCommand
 AITAPI_OpenDeviceEx
 ASSERT: "%s" at %s:%d.
+AZKh`
 Adobe
 AitH264Capture.dll
 AitUVCExtApi.dll
 BMP RLE
 Bellevue1
+C/zM~O
 CAMCMD_GET_OPENCAMERA_RESULT
 CallCreateObject
 Camera Recovery Mode Required
@@ -495,7 +500,6 @@ Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSjp
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -580,12 +584,14 @@ V_~]	,
 Valve Corp.0
 Valve Corp.1
 Version: %X%X.%X%X.%X%X Date: %s
+V|Bq`
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WorkerThreadInitFailed
+W~F[TR
 XXXX PNG chunk not known
 Y9"SD
 Y__^[
@@ -637,8 +643,8 @@ _strupr_s
 _wchdir
 _wgetcwd
 `.rdata
-`1(+z
 a7hIw
+acBhSN
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll
@@ -824,6 +830,7 @@ u<f9C u6f9C0u0f9C@u*f9CPu$
 uBf9C
 uCVj@
 uEVj@
+u`w,oB
 uk_ua
 ukrainian
 ulBlockContainer != vr::k_ulInvalidPropertyContainer
@@ -845,9 +852,11 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+zcGoF
 zh_cn
 zh_tw
 zlib corrupt
+{?y|R
 {un'%
 |Lu?c
 }LuHO

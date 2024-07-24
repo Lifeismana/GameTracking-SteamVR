@@ -59,6 +59,7 @@
 #*1892+$
 #?RADIANCE
 #?RGBE
+#P8Q_
 #oculus_requested_quit
 $0(0,0004080<0@0D0H0L0P0A1T1`1h1p1
 $9^ t
@@ -98,8 +99,10 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 (f*^[0
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
++!Y$H
 +0>0R0j0~0
 +Xt@(
++\*t<
 +o'q)}
 , binary size = 
 , but got 
@@ -414,7 +417,6 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 130801120000Z
 141D1H1X1\1`1h1
 141X1d1l1
-15*^$
 181D1L1l1
 182>2V2e2k2t2
 182e2o2u2
@@ -430,7 +432,6 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 1I1R1[1d1i1n1u1
 1N1l1
 1N3#6
-1QO(R
 1R1u1
 1U1t1
 1[1`1u1~1
@@ -472,7 +473,7 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 222I2[2
 230714000000Z
 233Q3o3
-240718234322Z0/
+240724173915Z0/
 241009235959Z0a1
 262C2a2p2
 273J3b325
@@ -741,6 +742,7 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 7J8T8Z8o8
 7L8R8[8i8O:
 7W8y8Y9
+7_687HVZ
 7g8q8w8
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7q7Z8
@@ -1039,7 +1041,6 @@ $;(;,;0;4;8;<;@;D;H;L;P;
 =<=H=P=h=|=
 =<=l=
 ===K=
-=@0pnM
 =C>d>
 =E>Q>
 =K>P>r>
@@ -1224,6 +1225,7 @@ BMP RLE
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
+Bc4@cQ
 Bellevue1
 BjOh@
 Buffer
@@ -1364,7 +1366,6 @@ GetTickCount64
 Graphics LUID changed
 Guardian changed, updating chaperone
 H-^Eu
-H;}{u
 HMD no longer present
 HeapAlloc
 HeapFree
@@ -1415,6 +1416,7 @@ IVRSystem_022
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
+I_^tq
 Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 Image data is empty for image[
 Image height mismatch. for image[
@@ -1450,6 +1452,7 @@ KHR_lights_punctual
 K}*n:	
 L?n(Zy&
 LINEAR
+L^g4G
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LibOVRRT64_1.dll
@@ -1457,7 +1460,6 @@ LoadLibraryA
 LoadLibraryW
 LocalizationManager
 M$SVW
-M+/Qg
 MB(iVR
 MSVCP140.dll
 MainThrd
@@ -1523,7 +1525,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
 RPVh@
-RSDST
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1656,6 +1657,7 @@ Y__^[
 ]J<0"0i3
 ][OculusDirect] AquireSync
 ^$Q9C
+^'gg=:
 ^<Q9C
 ^X_^[
 ^hPs	
@@ -1887,7 +1889,6 @@ driver_oculus.dll
 driver_oculus.vrchap
 dutch
 dxgi.dll
-e"{9fH
 eCS < CS_Count
 ePS < PS_Count
 eVS < VS_Count
@@ -1924,6 +1925,7 @@ french
 fseek
 fsetpos
 fwrite
+f{meK}>
 generator
 german
 gfff+
@@ -2525,6 +2527,7 @@ version %s
 vi_vn
 vid_%04x
 vietnamese
+vr	B]
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
 vrcompositor_mailbox
@@ -2543,6 +2546,7 @@ wrong color format
 wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
+x?T-6
 y hh<
 yxxx+
 zh_cn
@@ -2563,6 +2567,7 @@ znear
 {un'%
 |Lu?c
 |cj#h
+|e $=
 }	jCh
 }LuHO
 }qj<h

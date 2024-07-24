@@ -56,6 +56,7 @@
 !0E0R0[0
 !hn7!
 "0)0C0
+"YIJd
 "j h4_
 $2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2
 $767\8z8
@@ -74,12 +75,15 @@ $Vh&*
 %s: Failed in state: %d (nrf_error: %s)
 &060K0S0X0
 ' is not a number.
+'%lTZ
 ',=?k
 ()$^.*+?[]|\-{},:=!
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 (f*^[0
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
+*L30$
+*\%Xep
 +KL+SL_;
 +Xt@(
 +o'q)}
@@ -660,7 +664,6 @@ $Vh&*
 1<1B1J1P1q1y1
 1@1~1
 1D1{1
-1E[A'
 1I1t1
 1M2}2
 1N1_1v1
@@ -709,7 +712,7 @@ $Vh&*
 220323000000Z
 220801000000Z
 230714000000Z
-240718234221Z0/
+240724173810Z0/
 241009235959Z0a1
 242{2
 262E2K2T2f2l2
@@ -1907,6 +1910,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
+RSDS[
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)
@@ -2087,7 +2091,6 @@ Write to SOB Channel.
 WriteFile
 XX.XX.XXXXXXX
 Y9"SD
-Y\~Zy
 Y__^[
 Zip Error: %s
 Zip-bug: an internal error during flation
@@ -2201,6 +2204,7 @@ c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.
 calloc
 close
 cntrl
+d2%+8
 dat_file
 data error
 deque<T> too long
@@ -2293,7 +2297,6 @@ print
 punct
 realloc
 s?=2N
-sPBC3
 sd_ble_cfg_set
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATT. (nrf_error: %s)
 sd_ble_cfg_set() failed when attempting to set BLE_CONN_CFG_GATTC. (nrf_error: %s)
@@ -2479,7 +2482,6 @@ www.digicert.com1$0"
 x5t7j
 xdigit
 y4_^[
-yUqDv
 {L?uI
 {un'%
 |Lu?c

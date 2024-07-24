@@ -1,13 +1,14 @@
 	!s99
  %41g
 !hn7!
-#F8wH
-&Xs`$
+$7EeJ
 ',=?k
 (f*^[0
+)&c?%
 +Xt@(
 +o'q)}
 ,W5y+
+-%o"-D
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -54,7 +55,6 @@
 .text$x
 .text$yd
 .xdata$x
-.|"CC
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -91,7 +91,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240718234317Z0/
+240724173911Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -106,7 +106,6 @@
 3:3I3X3
 3mq+<
 4	5(555?5I5V5c5i5s5}5
-4,!<sGQ
 4,454B4Z4
 4K4n4{4
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
@@ -152,7 +151,6 @@
 ?8?T?X?t?x?
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
-?o``G
 @.data
 @.reloc
 Bellevue1
@@ -164,6 +162,8 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+E:R#"bO
+F	f7/
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -198,12 +198,10 @@ MB(iVR
 MSVCP140.dll
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
-NR='l
 PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-Q|yLY
 S0Q0O
 SA|X=G
 SetUnhandledExceptionFilter
@@ -217,9 +215,7 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
-Y[3@l
 Y__^[
-Z"ah6I
 [K]taM?
 ]J<0"0i3
 _CxxThrowException
@@ -269,8 +265,6 @@ driver_null: Render Target: %d %d
 driver_null: Seconds from Vsync to Photons: %f
 driver_null: Serial Number: %s
 driver_null: Window: %d %d %d %d
-fhUtk
-g[}[C
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
@@ -292,6 +286,7 @@ serialNumber
 steamvr
 string too long
 uCVj@
+u[	 n
 v=Y]Bv
 vector<T> too long
 windowHeight

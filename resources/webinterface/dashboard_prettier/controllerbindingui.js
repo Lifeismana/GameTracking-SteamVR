@@ -13029,7 +13029,6 @@
               case Ce.Vector1:
               case Ce.Vector2:
               case Ce.Vector3:
-              case Ce.Pose:
                 return [
                   i.createElement(
                     "div",
@@ -13055,6 +13054,29 @@
                     "div",
                     { className: "Label ActionHeader", key: "value" },
                     (0, c.Xx)("#InputDebugger_Value"),
+                  ),
+                ];
+              case Ce.Pose:
+                return [
+                  i.createElement(
+                    "div",
+                    { className: "Label ActionHeader", key: "source" },
+                    (0, c.Xx)("#InputDebugger_Source"),
+                  ),
+                  i.createElement(
+                    "div",
+                    { className: "Label ActionHeader", key: "binding" },
+                    (0, c.Xx)("#InputDebugger_Binding"),
+                  ),
+                  i.createElement(
+                    "div",
+                    { className: "Label ActionHeader", key: "active" },
+                    (0, c.Xx)("#InputDebugger_Active"),
+                  ),
+                  i.createElement(
+                    "div",
+                    { className: "Label ActionHeader", key: "origin" },
+                    (0, c.Xx)("#InputDebugger_ActiveOrigin"),
                   ),
                 ];
               default:
@@ -21154,4 +21176,4 @@
   var i = o.O(void 0, [968, 683], () => o(1176));
   i = o.O(i);
 })();
-//# sourceMappingURL=controllerbindingui.js.map?v=421c633e9a27ed3d2621
+//# sourceMappingURL=controllerbindingui.js.map?v=00960b6b6255a3a66bb8

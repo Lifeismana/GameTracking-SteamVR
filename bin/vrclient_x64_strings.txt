@@ -88,6 +88,7 @@
 !( pDedicatedBuffer && pDedicatedImage )
 !(0)"
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
+!8N[-)
 !BIsChildRegistered( eType, pDeletable )
 !BIsLimitReachedForChildType( eType )
 !GetFrameData( unCurFrameIndex - 2 ).BIsInUse()
@@ -100,7 +101,6 @@
 !m_pParent2
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-!yGy0
 " because it is missing required fields: 
 " does not.
 " in 
@@ -108,7 +108,6 @@
 """""""
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
-"6Fbg
 "9k0t
 "accessors" object not found in .gltf
 "asset" object not found in .gltf or not an object type
@@ -669,6 +668,7 @@ $w!Hc
 -waitformonitor
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . and .. are not allowed in binding_url
+.,c8`F
 ../..
 .00cfg
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -1696,6 +1696,7 @@ $w!Hc
 .P6AXPEBD0I_NPEAXPEA_N@Z
 .P6A_ND@Z
 .PEAVException@Json@@
+.]<N.
 .backup
 .data
 .data$r
@@ -2121,7 +2122,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240718234933Z0/
+240724174525Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -2146,6 +2147,7 @@ $w!Hc
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 650000
+68\Rrn1
 6HiL$8
 6I]Dc
 6OB,n_
@@ -2239,6 +2241,7 @@ $w!Hc
 : exception thrown in JSON library
 : one or more FS callback not set
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
+:DW{$E
 :EotB
 :\u-L
 :\u6L
@@ -3637,7 +3640,7 @@ D8}gt$L
 D8}gu
 D8}guH
 D9!t/
-D9%3W%
+D9%#W%
 D90uGH
 D989D9XH
 D9>u:H
@@ -4327,18 +4330,21 @@ H;8u8H
 H;8u9
 H;8u:H
 H;9u|A
-H;=*S"
-H;=:)"
-H;=:T"
-H;=:`"
-H;=J5"
-H;=JE"
-H;=J["
+H;=*)"
+H;=*T"
+H;=*`"
+H;=:5"
+H;=:E"
+H;=:["
 H;=X}*
-H;=z$"
-H;=zB"
-H;=zQ"
-H;=z]"
+H;=j$"
+H;=jB"
+H;=jQ"
+H;=j]"
+H;=zC"
+H;=zO"
+H;=zU"
+H;=z^"
 H;A s
 H;Axt
 H;C(v
@@ -5572,6 +5578,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDSD
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -7453,7 +7460,7 @@ XrProto:loop:timeout!
 XrProto:suspended
 Y%%)*
 Y%S~+
-Y%gD'
+Y%WD'
 Y-M)*
 Y9"SD
 Y>t$7?*
@@ -9756,6 +9763,7 @@ supersampleScale
 supported_buttons
 supports_dominant_hand_setting
 suppressedByPriority
+su|'S
 sv_se
 swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
@@ -9957,7 +9965,6 @@ t7fff
 t8D8-
 t9fff
 t:fff
-t>EE+
 t>H9n
 t>y#I
 t?9|$pt9H
