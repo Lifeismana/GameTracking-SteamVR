@@ -1,6 +1,7 @@
 					
 							
 												
+																
 																																												
 																																																																																																																
 			"translation" : [ 0, 0, 0 ],
@@ -58,13 +59,13 @@
  A__^
  H3E H3E
  at line 
+ exceeds maximum allowed file size 
  in Buffer
  in `
  sJE3
 !&.37<
 !(0)"
 !hn7!
-!} /{
 " not found in the scene.
 """""""
 "%/28;=#$019:>?
@@ -74,11 +75,14 @@
 "asset" object not found in .gltf or not an object type
 "bufferViews" object not found in .gltf
 "buffers" object not found in .gltf
+"bytes": [
 "nodes" object not found in .gltf
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
+"positional" is not a JSON object.
 "scenes" object not found in .gltf or not an array type
 "spot" is not a JSON object.
+"subtype": 
 #*1892+$
 #9i0t
 #?RADIANCE
@@ -86,12 +90,17 @@
 #D9c0t
 #D9{0t
 #oculus_requested_quit
+$9k0t
+$ZasH
+$ZasH+
+$ZasI
 $w!Hc
 %%.%dg
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %,3:;4-&
 %9k0t
 %9{0t
+%VLtG
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %s begin_ctx=%llu
@@ -135,6 +144,7 @@ $w!Hc
 (D$ f
 (D$0D
 (D$0H
+(D$0L
 (D$0f
 (D$@H
 (D$PL
@@ -151,6 +161,7 @@ $w!Hc
 (t$ D
 (t$ H
 (t$0H
+(t$0L
 (t$@H
 (t$@L
 (t$PD
@@ -178,6 +189,7 @@ $w!Hc
 )D$@A
 )D$PD
 )D$pI
+)D$pf
 )L$ fD
 )L$P@
 )L$PL
@@ -206,14 +218,15 @@ $w!Hc
 ***** Reloading Shaders Begin
 ***** Reloading Shaders End
 *uXI;
++D9c0t H
 +Xt@(
 +o'q)}
 , binary size = 
 , but got 
 , column 
+, err = 
 , last executing in 
 , requestedBytes 
-,#:MQW
 ,9k0t%H
 ,9{0t%H
 ,W5y+
@@ -232,6 +245,7 @@ $w!Hc
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
 .?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
+.?AU?$output_adapter_protocol@D@detail@nlohmann@@
 .?AUBlendState@D3D11VRRenderer@@
 .?AUBlendStateBase@VRRenderer@@
 .?AUCFactoryMaker@CAnimFactoryBase@@
@@ -255,7 +269,6 @@ $w!Hc
 .?AUVertexBuffer@D3D11VRRenderer@@
 .?AUVertexBufferBase@VRRenderer@@
 .?AU_Crt_new_delete@std@@
-.?AUinput_adapter_protocol@detail@nlohmann@@
 .?AV<lambda_6bc426c35396bdea5e49056f57d7ec5a>@@
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$TypeInfoT@VCAnimResource@@@Detail@Reflection@@
@@ -264,15 +277,31 @@ $w!Hc
 .?AV?$TypeInfoT@VObject@Reflection@@@Detail@Reflection@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_base@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV12@PEAX@std@@
+.?AV?$_Func_base@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@std@@
+.?AV?$_Func_base@_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV34@HHPEBEHPEAX@std@@
+.?AV?$_Func_base@_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@AEBV?$vector@EV?$allocator@E@std@@@2@PEAX@std@@
+.?AV?$_Func_base@_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@std@@
+.?AV?$_Func_base@_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
+.?AV?$_Func_base@_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBV12@PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@ZV12@AEBV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV12@PEAX@Z_NAEBV12@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@Z_NAEBV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HHPEBEHPEAX@Z_NPEAU12@HPEAV34@PEAV34@HHPEBEHPEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@AEBV?$vector@EV?$allocator@E@std@@@2@PEAX@Z_NPEAV12@AEBV12@AEBV32@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@Z_NPEAV12@PEAV32@AEBV32@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6bc426c35396bdea5e49056f57d7ec5a>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_14a56f646f17e09c154933264b7db4fa>@@@std@@U?$default_delete@V?$tuple@V<lambda_14a56f646f17e09c154933264b7db4fa>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@U?$default_delete@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@@2@@std@@@std@@
-.?AV?$_Ref_count_obj@Vinput_buffer_adapter@detail@nlohmann@@@std@@
+.?AV?$_Ref_count_obj@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
@@ -287,6 +316,7 @@ $w!Hc
 .?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVBinaryBlendPoseMaker@@
 .?AVBlendMatrix3x3PoseMaker@@
@@ -337,7 +367,6 @@ $w!Hc
 .?AVexception@detail@nlohmann@@
 .?AVexception@std@@
 .?AVfacet@locale@std@@
-.?AVinput_buffer_adapter@detail@nlohmann@@
 .?AVios_base@std@@
 .?AVout_of_range@detail@nlohmann@@
 .?AVparse_error@detail@nlohmann@@
@@ -358,6 +387,14 @@ $w!Hc
 .CRT$XTA
 .CRT$XTZ
 .D9c0t&H
+.P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
+.P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV01@PEAX@Z
+.P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@Z
+.P6A_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1HHPEBEHPEAX@Z
+.P6A_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@AEBV?$vector@EV?$allocator@E@std@@@1@PEAX@Z
+.P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@AEBV21@PEAX@Z
+.P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
+.P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@3@PEBUURICallbacks@3@PEAV01@PEAX@Z
 .data
 .data$r
 .edata
@@ -440,6 +477,7 @@ $w!Hc
 /user/wrist/right
 0 width
 0-pixel image
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0A^_^
 0A_A^A\_^
 0A_A^A]A\^
@@ -457,6 +495,7 @@ $w!Hc
 0}0i1
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
+11eU%
 130801120000Z
 1e+9999
 2.5.4.3
@@ -466,13 +505,14 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240724174103Z0/
+240808230626Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
+3333333
 341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
@@ -480,6 +520,8 @@ $w!Hc
 3?9y>m0_D@H_
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+4xZ5(/
+4~-a@
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -504,6 +546,7 @@ $w!Hc
 9T$Pu9A
 9T$XJ
 9]pu2
+9k0t H
 9k0t$H
 9k0t[D
 9k0t\D
@@ -512,6 +555,7 @@ $w!Hc
 9l$Lt	E
 9|$@u
 : one or more FS callback not set
+;	u;3
 ; expected 
 ; last read: '
 ;K sCH
@@ -522,6 +566,7 @@ $w!Hc
 </u#H
 <0:08
 <U+%.4X>
+<discarded>
 <parse error>
 <uninitialized>
 <unknown>
@@ -565,6 +610,7 @@ $w!Hc
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z
 ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
 ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
 ?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
@@ -595,6 +641,7 @@ $w!Hc
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?peek@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
@@ -620,14 +667,15 @@ $w!Hc
 @.data
 @.reloc
 @.rsrc
-@8I+@0H
 @A\^]
-@A^A]A\[]
+@A]_[
 @A^_^
 @A^_^][
 @A_A\]
 @A_A^A\
 @A_A^A\_^
+@A_A^A]A\]
+@A_A^A]A\_
 @A_A^A]A\_^[
 @A_A^A]_[
 @A_A^_
@@ -652,38 +700,35 @@ $w!Hc
 @SWAUAVAWH
 @SWAVAWH
 @SWAWH
-@UATAUAVAWH
 @UATAWH
 @UAUAWH
 @UAUH
-@UAVH
-@USATAUAVH
-@USAUAVAWH
 @USVATAVH
-@USVAVH
 @USVH
-@USVWATAUAVH
 @USVWATAVAWH
+@USVWATAVH
 @USVWATH
-@USVWAUAVAWH
 @USVWAUAVH
+@USVWAVH
 @USVWH
 @USWATAWH
 @USWH
 @UVATAUAVH
+@UVATAVAWH
 @UVATH
 @UVAUH
 @UVAWH
 @UWAVAWH
 @UWAVH
-@VAVH
 @VWAVH
-@VWAWH
+@XI+@PH
 @_RDATA
 @fff>fff>fff>fff>
 A valid JSON document must be either an array or an object value.
+A8HcL
 A9A A
 A9Q sEI
+A9~0t5I
 A;Q s?I
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ADVAPI32.dll
@@ -695,32 +740,37 @@ ATAWH
 AVAWH
 A\_^[]
 A]A\^
+A]A\_]
 A]A\_^][
-A]_[]
+A]_^[]
+A^A\]
 A^A\^
 A^A\^[]
-A^A\_
-A^A\_]
 A^A\_][
+A^A\_^[]
 A^A]A\^]
+A^A]A\_]
 A^A]A\_^[]
+A^A]]
 A^A]_[]
 A^A]_^[]
 A^A]_^]
 A^_[]
-A_A\[]
+A^_^[]
+A_A\]
 A_A\_
 A_A\_[]
 A_A\_][
 A_A\_^[
 A_A\_^]
+A_A]A\]
 A_A]A\^[]
+A_A]A\_]
 A_A]A\_^[
-A_A]A\_^]
 A_A]]
-A_A]^]
 A_A]_[]
 A_A^A\
+A_A^A\^]
 A_A^A\_]
 A_A^A\_^[]
 A_A^A]
@@ -733,23 +783,29 @@ A_A^A]A\_^]
 A_A^A]A\_^][
 A_A^A][
 A_A^A][]
-A_A^A]_]
 A_A^A]_^[]
 A_A^A]_^][
 A_A^]
+A_A^^]
 A_A^_
+A_A^_[]
 A_A^_^[]
 A_A^_^]
 A__[]
+A__^]
 Accessor
 Adobe
 AnimationChannel
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
+Array length of `emissiveFactor` parameter in material must be 3, but got 4
 Asset
 AuthD
+BIN Chunk data length exceeds the GLB size.
+BIN Chunk end is not aligned to a 4-byte boundary.
 BINORMAL
 BMP RLE
+B`WU=jV
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -757,17 +813,18 @@ Bellevue1
 Buffer
 BufferView
 C ;s@
-C @8{
-C D8s
-C D8{
-C(H9C0t
+C(@8{
+C(D8s
+C(D8{
 C0L9$
-C8H+C0H
+C@H9U
+C@H9u
 CAnimResource
 CBoneMaskResource
 CD$03
-CD$@3
+CD$0H
 CD$P3
+CD$p3
 CD3D11VRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting semaphore handle
 CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate counting semaphore handle.
 CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to import GPU counting shared semaphore.
@@ -780,26 +837,36 @@ CD3D11VRRenderer::Initialize(): Failed to load pixel shader %s! (size=%d)
 CD3D11VRRenderer::Initialize(): Failed to load vertex shader %s! (size=%d)
 CD3D11VRRenderer::Signal
 CD3D11VRRenderer::UnampTexture: dangling data pointer
+CF4byC~
 CKeyframedDataResource
 CL$0E3
 CL$0H
+CL$0M;
 CL$PH
 COLOR
 COculusHmdLatest::UpdateThread
 COculusState::CreateSession
 CServerDriver_Oculus::Cleanup
 CT$ H
+CT$0H
+CT$PH
 CT$pH
+CXH+CPH
 C\$0D
 C\$0H
 C\$0L
 C\$0L9%
-C\$0L9%>
+C\$0L9%.=
 C\$0M
-C\$PE
+C\$8E
+C\$8H
+C\$PD
 C\$PH
 C\$PL
 C\$PM
+C\$XE
+C\$XL
+C\$hD
 C\$pH
 C\$pL
 Camera
@@ -814,6 +881,7 @@ CreateSession was invoked without calling DestroySession, textures may have been
 CreateThread
 C|$PL
 D$ A;
+D$ D88
 D$ E3
 D$ E;
 D$ H+]
@@ -826,36 +894,40 @@ D$(@88
 D$(H+
 D$(H+]
 D$(H;
-D$(Hi
 D$(I+
 D$(I;
 D$(L;D$PtVI
 D$,D;l$8
+D$,E3
 D$,I+
+D$0	H
 D$0E+
 D$0E3
 D$0H+
-D$0H9Q
 D$0H;
-D$0H;D$Pt
 D$0L;D$htVI
 D$0fD
+D$0falsH
 D$0fff
+D$0nullA
+D$0trueA
 D$0tx
 D$4I;
+D$4eH
 D$8H;
 D$8I;
 D$8L+
 D$@E3
-D$@H9Q
-D$@H9Q@t
-D$@H9S@t
+D$@H+
+D$@H9QHt
+D$@H9SHt
+D$@H;
+D$@Hc
+D$@I9D$Ht
 D$@fA
 D$DE3
-D$HE3
-D$HHi
-D$PH9Q
 D$PH;
+D$PHc
 D$PI;
 D$PM;
 D$PMc
@@ -863,33 +935,22 @@ D$PfA
 D$TI;
 D$XA#
 D$XH+
-D$XH9D$8
-D$XH9Q
 D$XHc
-D$`H9D$@
 D$`H;
 D$`HcH
 D$`I;
 D$`L;
 D$`fI
-D$hH9D$H
-D$hH;
-D$pE3
+D$cff
 D$pH;
 D$pHcH
-D$pI;
-D$pL;
-D$xH+
-D$xHc
 D3D11CreateDevice
 D8$0u
 D8$3u
 D8,8u
-D8d$P
 D8fht/H
-D8o)tJ
-D8o)tU
-D90uGH
+D8|$0t5A
+D90uJH
 D9@ s
 D9H s
 D9c0t
@@ -907,6 +968,7 @@ D;l$0
 D;v(s
 D;z s
 D;}Tr
+DDDDDDD
 DXGI_ERROR_DEVICE_HUNG
 DXGI_ERROR_DEVICE_REMOVED
 DXGI_ERROR_DEVICE_RESET
@@ -925,14 +987,18 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
+DlY1L8
 DuplicateHandle
 E H9Q
+E(H9E 
+E(I+E H
+E(M+E I
 E0H+E(H
 E0HcH
 E;u`|
+EPI9T$Ht
 ERROR: Failed to dup handle!
-EgH9Q@t
-EgH9S@t
+EgH9QHt
 Empty escape sequence in string
 Empty file.
 EnterCriticalSection
@@ -942,7 +1008,6 @@ EventUnregister
 EventWriteString
 EventWriteTransfer
 Exceeded stackLimit in readValue().
-ExpandEnvironmentStringsA
 FORMAT=32-bit_rle_rgbe
 FS callback[s] not set
 Failed CreateTexture2D with 0x%X
@@ -975,12 +1040,13 @@ File not found :
 File open error : 
 File open error for writing : 
 File read error : 
+File read error. Maybe empty file or invalid file : 
+File size 
 File size mismatch : 
 File write error: 
 Forcing chaperone update
 Found path: 
 FreeLibrary
-G(M+G I
 G8$1u
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
@@ -994,6 +1060,7 @@ GetDeviceRemovedReason: 0x%X
 GetDriveTypeA
 GetEnvironmentVariableA
 GetExitCodeThread
+GetFileAttributesW
 GetFullPathNameW
 GetLastError
 GetModuleHandleA
@@ -1003,14 +1070,16 @@ GetProcessHeap
 GetSystemTime
 GetSystemTimeAsFileTime
 GetTickCount64
+Getting file size failed : 
 Graphics LUID changed
 Guardian changed, updating chaperone
 H SVWH
 H SWH
 H!C@H
+H(H9H0t
 H+C H;
-H+C0H
-H+L$0H
+H+CPH
+H+E(H
 H+SpI
 H+WpA
 H+WpH
@@ -1018,11 +1087,11 @@ H+WpI
 H-^Eu
 H93t	H
 H9Ahs
-H9D$@
+H9D$@sX
 H9D$@u
-H9D$P
 H9E8u$H
 H9Qhv#H
+H9S8v
 H9UPt
 H;0u8H
 H;0u:H
@@ -1033,29 +1102,22 @@ H;H r
 H;H s
 H;S8r
 H;Y t
-H;\$X
-H;\$h
 H;_ t+H
 H;_ t,H
 H;_ u
 H;s(r
-H;t$`
 H;{XH
-H;|$0t
-H;|$Pt
-H;|$X
-H;|$Xt
-H;|$`
-H;|$x
 H;}PtwH
+HA_A^A]_][
 HMD no longer present
-HcB Hi
+HcB H
 HcC H
 HcD$ H
 HcD$x
 HcF$H
 HcFdH
 HcOXH
+Hc]wH
 Hct$@L+
 HeapAlloc
 HeapFree
@@ -1067,6 +1129,7 @@ I(I+I H
 I+O0D
 I9<$u
 I9Bhs
+I9u8u
 I;4$H
 I;4$L
 I;8u?H
@@ -1135,21 +1198,27 @@ InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 Initialized Oculus device %s
+Insufficient Chunk1(BIN) data size.
+Insufficient storage space for Chunk1(BIN data). At least Chunk1 Must have 8 or more bytes, but got 
 Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
 Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
 Invalid `componentType` in accessor. Got 
-Invalid binary data in `Buffer'.
+Invalid binary data in `Buffer', or GLB with empty BIN chunk.
 Invalid camera type: "
+Invalid chunkType for Chunk1.
 Invalid file size : 
 Invalid glTF binary.
+Invalid glTF binary. GLB data exceeds 4GB.
 Invalid image data for image[
 Invalid magic.
 IsDebuggerPresent
 IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 J>@G_
+JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.
 KERNEL32.dll
+KHR_audio
 KHR_lights_punctual
 K}*n:	
 L$ E3
@@ -1163,13 +1232,17 @@ L$ SUVWAVH
 L$ SUVWH
 L$ SVWH
 L$ SWH
-L$ UWAUAVAWH
+L$ UATAUAVAWH
+L$ UWATAUH
 L$"H;
 L$$Ic
 L$(E3
 L$(H9U
 L$(H;
 L$0E3
+L$0H9SHt
+L$0H;
+L$0L;
 L$0fE
 L$4D;
 L$89s(udL
@@ -1177,59 +1250,81 @@ L$8A+
 L$8D;
 L$8H;
 L$8H;L$0
-L$8L;
 L$@D8	u
 L$@D;
 L$@E3
+L$@H+
+L$@H9SHt
 L$@H;
-L$@L+
 L$@fD
 L$HI+
-L$HI9T$Xt
 L$PE3
 L$PH3
+L$PH9SHt
 L$XE3
-L$XM+
 L$\E3
 L$`E3
 L$`fD
 L$p@2
 L$pE3
 L$pHcQ
-L9%w	
-L9k8v
+L$pM+
+L9%	N
+L9%"Z
+L9%(R
+L9%,A
+L9%,W
+L9%2G
+L9%@Q
+L9%OL
+L9%PH
+L9%QJ
+L9%UF
+L9%`K
+L9%bI
+L9%wS
+L9%xT
+L9l$H
+L9l$Ht
 L9t$@
+L9|$`
 L9|$p
 L;8u6H
-L;D$x
-L;l$P
-L;l$p
-L;t$h
+L;d$`
 L<pL;
 L?n(Zy&
 LINEAR
 Lc E3
+Lc@@I
 LcD$0L
+LcQ@M+
 Lcl$$I
+LcuwL
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LibOVRRT64_1.dll
 LoadLibraryA
 LoadLibraryW
 LocalizationManager
+M H+} 3
 M H1E
 M98u/
 MB(iVR
+MSFT_lod
 MSVCP140.dll
 MS_:F
 MT$dA
 MainThrd
+Material has extension MSFT_lod, but does not reference other materials via their ids.
+McN H
+MgH9SHt
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
 Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+MultiByteToWideChar
 N I9N(
 N0H9Q
 NORMAL
@@ -1237,6 +1332,9 @@ NPH9Q
 Neither required `bufferView` nor `uri` defined for image[
 No LoadImageData callback specified.
 No valid guardian bounds. Creating standing chaperone
+Node has extension KHR_audio, but does not reference a audio emitter.
+Node has extension KHR_lights_punctual, but does not reference a light source.
+Node has extension MSFT_lod, but does not reference other nodes via their ids.
 NormalTextureInfo
 Not writing %s because the texture was null
 O8I+O0H
@@ -1265,7 +1363,7 @@ Oculus\Support\oculus-runtime
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenEventW
 OpenProcess
-Orhographic camera description not found.
+Orthographic camera description not found.
 OrthographicCamera
 Out of thread local storage!
 OutputDebugStringW
@@ -1279,12 +1377,14 @@ PA_A^A]A\_^[
 PA_A^A]A\_^]
 PA_A^_
 PA_A^_^]
+PA__^
 PAq=?Mp#
 POSITION
 Path_Exists( absFilePath )
 Perspective camera description not found.
 PerspectiveCamera
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+Positional emitter description not found.
 Primitive
 Program Files
 Pz}b!
@@ -1293,7 +1393,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
-RSDSt
 RaiseException
 ResetEvent
 RlK8`K8
@@ -1305,7 +1404,6 @@ S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-39871
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
 S0Q0O
-S8H+S0H
 SATAUAVAWH
 SA|X=G
 SCALAR
@@ -1323,9 +1421,12 @@ SUVWAUAVAWH
 SUVWAVH
 SUVWH
 SUWATAWH
+SUWAUAVAWH
 SVWATAUAVAWH
 SVWAVAWH
 SWAUAVH
+SWAUH
+SXH+SPH
 SearchPathW
 Session created!
 Set thread %p priority to: %d
@@ -1339,31 +1440,26 @@ SetupDiGetClassDevsA
 SetupDiGetDeviceInterfaceDetailA
 Sleep
 SleepConditionVariableCS
+SparseAccessor
 Spot light description not found.
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
 T$ E3
-T$ H;
 T$ I;
 T$ fD
 T$$H;
 T$$I+
 T$(H9T$0t!H
+T$0H;
 T$0fA
 T$8;T$<
-T$@H;
 T$@Hc
 T$@I;
-T$@L;
-T$HH;
-T$PL;
-T$PM;
 T$XA#
-T$XH;
+T$XH9A
+T$`H;
 T$pD;
-T$pL;
-T$xH;
-T$xL;
+T$pH;
 TANGENT
 TEXCOORD
 TUUUUUU
@@ -1384,34 +1480,39 @@ TlsSetValue
 Too short data size for glTF Binary.
 Tp=9y>m0_D@H_
 U0H9U8t
+U1(\Q
+U@H9A
 UATAUAVAWH
+UATAUAWH
 UAVAWH
 UNNAMED
-USATAWH
-USATH
+USAUAVAWH
+USAVH
 USVATAUAWH
 USVWATAUAVAWH
 USVWATAUAVH
 USVWAUAVAWH
-USVWAVAWH
+USVWAUH
 USVWAVAWI
 USWAUAVH
 USWAUAWH
-USWAUH
+USWAVAWH
 USWAVH
 USWAWH
 UUUUUUU
 UVATAVAWH
-UVAUAWH
+UVAVAWH
 UVWATAUAVAWH
-UVWATAUAWH
 UVWATAWH
 UVWAUAVH
 UVWAVAWH
+UVWAVH
+UVWAWH
+UWATAUAVH
 UWATAVAWH
-UWATAVH
 UWAVH
 UWAWH
+U`H9Uht
 Unable to create texture set for pid %u: %s
 Unable to destroy %d swap textures due to invalid session
 Unable to init Oculus Touch controller
@@ -1423,6 +1524,7 @@ UnableToConnectToOculusRuntime
 UnhandledExceptionFilter
 Unknown exception
 Unknown image format. STB cannot decode image data for image[
+Unknown image format. STB cannot decode image header for image[
 Unknown(%u, %u)
 Unsupported RTV type: %d
 Unsupported SRV type: %d
@@ -1459,12 +1561,13 @@ Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 WinVerifyTrust
 X UVWH
-XA^^[]
 XXXX PNG chunk not known
 Y9"SD
 Z9k0tUD
 ZL$Xf
+[AnimSkeleton] Failed to load GLTF file: %s
 [K]taM?
+[KeyFramedDataResource] Failed to load GLTF file: %s
 [OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
 [OculusDirect] !!!! AcquireSync FAILED with WAIT_ABANDONED
@@ -1495,39 +1598,39 @@ ZL$Xf
 \$(H;
 \$(HcC
 \$0H;
-\$0I+
 \$8D;
 \$8H;
-\$8I+
-\$8I9\$@tGH
 \$@H;
 \$HH9Q
 \$HH;
+\$HIk
 \$PH;
 \$PI;
 \$PfD
-\$XI;
 \$XLc
 \$`E3
 \$`H+
-\$hH;
 \$hI;
 \$pI;
 \$pfD
-\$xH;
+\u%04x
+\u%04x\u%04x
 \u=H;
+\ufffd
 \|$`D
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
 ] name = "
-] name = [
+],"subtype":
 ]9k0tVD
 ]J<0"0i3
 ][OculusDirect] AquireSync
 ]g@8yhu
+]oL9k8
 ^9k0tWD
+_(I9_0t;E3
 _Camera
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1576,6 +1679,7 @@ _callnewh
 _cexit
 _configure_narrow_argv
 _crt_atexit
+_dsign
 _dtest
 _errno
 _execute_onexit_table
@@ -1599,8 +1703,8 @@ _unlock_file
 _wfopen_s
 _wgetenv_s
 _wstat64i32
-` UAVAWH
 `.rdata
+`A_A^A]A\]
 `A_A^A]A\_^[
 `A_A^A]A\_^]
 `A__^
@@ -1612,7 +1716,6 @@ _wstat64i32
 `input` field is missing in animation.sampler
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
-`node` field is missing in animation.channels.target
 `nodes' does not contain an JSON object.
 `output` field is missing in animation.sampler
 `path` field is missing in animation.channels.target
@@ -1727,27 +1830,35 @@ children
 collision_bounds
 color
 componentType
+coneInnerAngle
+coneOuterAngle
+coneOuterGain
 connected
 const unsigned int __cdecl CAnimResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
+copyright
 corrupt
 count
 cs_cz
 czech
+d$ E3
 d$ H;
+d$ UAUAVH
 d$ UAVAWH
 d$$E3
 d$(E3
 d$(Hi
 d$(M;
 d$<Mc
+d$@H9k
 d$HMc
 d$PE3
 d$PfD
 d$`H=
 d$`L;
+d$`M;
 d$`fD
 d$bHc
 d3d11.dll
@@ -1763,6 +1874,7 @@ data:text/plain;base64,
 de_de
 deque<T> too long
 disconnected
+distanceModel
 dk2_camera
 doubleSided
 driver_oculus.dll
@@ -1776,6 +1888,8 @@ effffff
 el_gr
 emissiveFactor
 emissiveTexture
+emitter
+emitters
 en_us
 end of input
 english
@@ -1811,8 +1925,7 @@ g9k0t_D
 generator
 german
 gfffffffH
-gfffffffH+
-gfffffffI
+global
 greek
 hand_right_poses.glb
 handlers
@@ -1827,6 +1940,7 @@ hu_hu
 hungarian
 ig@-?e
 illegal code in raster
+image
 image/bmp
 image/gif
 image/jpeg
@@ -1854,6 +1968,8 @@ interpolation
 invalid
 invalid BOM; must be 0xEF 0xBB 0xBF if given
 invalid PLTE
+invalid comment; expecting '/' or '*' after '/'
+invalid comment; missing closing '*/'
 invalid decoded scanline length
 invalid filter
 invalid literal
@@ -1898,9 +2014,10 @@ invalid string: control character U+001F (US) must be escaped to \u001F
 invalid string: forbidden character after backslash
 invalid string: ill-formed UTF-8 byte
 invalid string: missing closing quote
-invalid string: surrogate U+DC00..U+DFFF must be followed by U+DC00..U+DFFF
+invalid string: surrogate U+D800..U+DBFF must be followed by U+DC00..U+DFFF
 invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
 invalid vector<T> subscript
+inverse
 inverseBindMatrices
 isalnum
 it_it
@@ -1914,7 +2031,6 @@ jsonid
 k0i0$
 ko_kr
 koreana
-ktQGY
 l$ ATAVAWH
 l$ E3
 l$ H;
@@ -1935,20 +2051,20 @@ l$0E3
 l$4H;
 l$8E3
 l$8L;
-l$8M;
 l$@H;
 l$@t^
-l$PI;
+l$PD8
 l$PM9n
 l$TD;
 l$XH;
+l$`H;
 l$`I+
-l$pL;l$P
 l$xLc
 l2|X/gGe
 latam
 ldexp
 left_controller
+light
 lights
 list<T> too long
 localeconv
@@ -1963,6 +2079,7 @@ material
 materials
 matrix
 max value > 255
+maxDistance
 memchr
 memcmp
 memcpy
@@ -1998,6 +2115,7 @@ not PSD
 not enough pixels
 ntelD
 null literal
+null}
 number literal
 number overflow parsing '
 o@@fD
@@ -2028,6 +2146,7 @@ oculus_rifts_controller_right
 oculus_touch
 only 8-bit
 orthographic
+ot$0H
 ot$Pf
 out_of_range
 outerConeAngle
@@ -2141,17 +2260,18 @@ ovr_TestBoundaryPoint
 ovr_TraceMessage
 ovr_WaitToBeginFrame
 ovr_WaitToBeginFrame(%d) failed: %s
-p WATAVH
+p UWATAUAWH
+p UWAVH
 p$D+;
 pA^^]
 pA_A^A]A\[
 pA_A^A]A\_^[
-pA_A^A]A\_^]
 pA_A^^
 pA_A^_
 pA_A^_^]
 pNewResource
 pNewResource->Load( absFilePath )
+p`H;\$pt@H
 parameter must be a string or number / number array.
 parse error
 parse_error
@@ -2160,8 +2280,10 @@ perspective
 pid_%04x
 pl_pl
 play_area
+playing
 polish
 portuguese
+positional
 primitive indices accessor out of bounds
 primitives
 pt_br
@@ -2171,6 +2293,7 @@ rND9{0t
 range
 read past buffer
 realloc
+refDistance
 request_handlers
 request_handlers_response
 returnAddress
@@ -2178,6 +2301,7 @@ rift_camera
 rifts
 right_controller
 ro_ro
+rolloffFactor
 romanian
 rotation
 roughnessFactor
@@ -2185,6 +2309,8 @@ roundf
 ru_ru
 russian
 s fff
+sFL9c
+sHMH+
 sampler
 samplers
 sc_schinese
@@ -2216,6 +2342,9 @@ shaders/d3d11/distort_geom_drawregion_ptnorm_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_drawregion_ptnorm_vs.fxo
 shaders/d3d11/distort_geom_drawregion_reflect_multitap_ps.fxo
 shaders/d3d11/distort_geom_drawregion_reflect_ps.fxo
+shaders/d3d11/distort_geom_drawregion_simplified_gamma_ps.fxo
+shaders/d3d11/distort_geom_drawregion_simplified_ps.fxo
+shaders/d3d11/distort_geom_drawregion_simplified_reflect_ps.fxo
 shaders/d3d11/distort_geom_drawregion_uvs_embedded_vs.fxo
 shaders/d3d11/distort_geom_drawregion_vs.fxo
 shaders/d3d11/distort_geom_floor_ps.fxo
@@ -2268,7 +2397,10 @@ shaders/d3d11/distort_panorama_vs.fxo
 shaders/d3d11/distort_ps.fxo
 shaders/d3d11/distort_ps_achromatic.fxo
 shaders/d3d11/distort_ps_achromatic_alphaed.fxo
+shaders/d3d11/distort_ps_achromatic_gamma.fxo
 shaders/d3d11/distort_ps_achromatic_layered.fxo
+shaders/d3d11/distort_ps_achromatic_nd.fxo
+shaders/d3d11/distort_ps_achromatic_nd_gamma.fxo
 shaders/d3d11/distort_ps_achromatic_se2.fxo
 shaders/d3d11/distort_ps_gamma.fxo
 shaders/d3d11/distort_ps_gamma_mc.fxo
@@ -2289,7 +2421,8 @@ shaders/d3d11/distort_vs_latest_nd.fxo
 shaders/d3d11/distort_vs_layered.fxo
 shaders/d3d11/distort_vs_layered_nd.fxo
 shaders/d3d11/distort_vs_nd.fxo
-shaders/d3d11/distort_vs_reproject.fxo
+shaders/d3d11/distort_vs_reproject_layered.fxo
+shaders/d3d11/distort_vs_reproject_layered_nd.fxo
 shaders/d3d11/distort_vs_reproject_mv.fxo
 shaders/d3d11/distort_vs_reproject_nd.fxo
 shaders/d3d11/downsample_filter_x_ps.fxo
@@ -2353,6 +2486,7 @@ skeleton
 skeletons
 skins
 source
+sources
 spanish
 sparse
 standing
@@ -2380,8 +2514,9 @@ t$ E3
 t$ H;
 t$ HcH
 t$ I;
-t$ L;
+t$ UATAVH
 t$ UH
+t$ UWATAUAWH
 t$ UWATAVAWH
 t$ UWAVH
 t$ WATAUAVAWH
@@ -2389,33 +2524,33 @@ t$ WATAWH
 t$ WAV
 t$ WAVAWH
 t$ WH
+t$(H;
 t$,H+>H
 t$0A^_
 t$0H+
+t$0I;
+t$0M;
 t$8E3
 t$8H+
 t$8H;
 t$8HcA
 t$8I;
-t$8L9t$@tg
 t$@E3
 t$@H+
 t$@H;
 t$@H=
 t$DA+
 t$HH+
-t$HHi
 t$PE3
 t$PH=
 t$PHc
 t$`D;
 t$`H;
-t$`L;
 t$`Li
-t$`Lk
 t$hHc
+t$hHk
 t$hL;
-t$pI;
+t$pE3
 t$pfA
 t$pfD
 t1Hcl$@
@@ -2425,13 +2560,13 @@ t>y#I
 t?y$I
 t?y&I
 tAy&H
+tGH9U
+tPL9m
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-tXH+A
 tXfff
 t[D8p
-t[H+A
 target
 targets
 tb9l$Xt@9n$~;
@@ -2443,8 +2578,8 @@ texCoord
 text/plain
 textures
 th_th
-the sparse object ob ths accessor doesn't have values
 the sparse object of this accessor doesn't have indices
+the sparse object of this accessor doesn't have values
 timeBeginPeriod
 timeEndPeriod
 timeKillEvent
@@ -2454,16 +2589,19 @@ tolower
 too large
 too many codes
 touch_poses_right.glb
+tqH+A
 tr_tr
 translation
 true literal
 turkish
+tyH+A
 t|SUVH
 u>f9X u8f9X0u2f9X@u,f9XPu&
 u>f9X"u8f9X2u2f9XBu,f9XRu&
 uDf9X
 uJf9X
 uTL9%
+ufffH
 uk_ua
 ukrainian
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
@@ -2479,6 +2617,7 @@ unknown token
 unsupported bit depth
 unsupported data layout
 unsupported format
+u}L9|$`rxH
 v4fff
 v=Y]Bv
 vE;E`M
@@ -2496,12 +2635,10 @@ vietnamese
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
 vrcompositor_mailbox
-w(M9w0tH
 weights
 while parsing 
 width
 wn>Jj
-wrapR
 wrapS
 wrapT
 wrong channel count
@@ -2510,15 +2647,15 @@ wrong version
 www.digicert.com1!0
 www.digicert.com1$0"
 x AVH
+x UATAUAVAWH
 x UAVAWH
 xA^A\_^][
-yxxxxxxxH
-yxxxxxxxH+
-yxxxxxxxI
+xA^_^]
 zh_cn
 zh_tw
 zlib corrupt
 znear
+{"bytes":[
 {%s}%s
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png
@@ -2532,12 +2669,15 @@ znear
 {oculus}/input/touch_profile.json
 {un'%
 |$ ATAUAVAWH
+|$ ATAUAVAWL
 |$ ATAVAWH
 |$ AUAVAWH
 |$ AVH
 |$ E3
+|$ H;
 |$ M;
 |$ UATAUAVAWH
+|$ UATAWH
 |$ UAVAWH
 |$ UH
 |$(E3
@@ -2553,13 +2693,13 @@ znear
 |$@A_A^A]A\
 |$@D;
 |$@H+
+|$@H;
 |$@Hc
 |$@M;
+|$@ff
 |$HE3
 |$HH;
 |$HH=
-|$HI+
-|$PH+
 |$PH;
 |$PL9~
 |$PLc
@@ -2568,11 +2708,16 @@ znear
 |$XuMH
 |$`H;
 |$`M+
+|$hE3
+|$hH;|$PtaH
+|$pL;
 |LL\t
 |Lu?c
-|U^dSN
 }LuHO
+~(fff
+~)p$w
 ~+fff
+~0A9~@t5I
 ~3LcD$(L
 ~6HcD$ I
 ~XH9~`t+H

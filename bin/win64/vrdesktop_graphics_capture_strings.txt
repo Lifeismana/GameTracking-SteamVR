@@ -15,6 +15,7 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
+!3h^A
 !hn7!
 %%.%dg
 %s%s%s%s%s
@@ -31,7 +32,6 @@
 (t$@H
 (|$ H
 )D$ L
-)Rs(^q
 )t$ H
 )t$0H
 )t$@H
@@ -148,7 +148,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/mrC/
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -183,7 +182,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240724174625Z0/
+240808231213Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -212,7 +211,6 @@
 </u#H
 <0:08
 <unknown>
-=>Uf_(>
 =rIQU
 >0<0:
 >Mp$d
@@ -345,7 +343,6 @@ CL$0H
 CL$`H;
 CT$(L
 CT$0H
-CT$0I
 CT$8D
 CT$`H
 CT$`I
@@ -452,7 +449,6 @@ Error setting foreground window.
 Error setting window position.
 Error showing window.
 Error uploading cursor texture for desktop %d.
-Ewi#l!
 Exceeded stackLimit in readValue().
 Exception encountered closing capture frame pool (%d): %s
 Exception encountered closing graphics capture session (%d): %s
@@ -729,6 +725,7 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
+U%	WT
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -748,7 +745,6 @@ Unable to get normalized coords from virtual coords for locked mouse position.
 Unable to get overlay mouse scale.
 Unable to interact with foreground window. Displaying window switcher.
 Unable to open desktopview mailbox.
-Unable to send debug info to the dashboard UI.
 Unable to send updated window list to the dashboard UI.
 Unable to send window view created message to the dashboard UI.
 Unable to send window view destroyed message to the dashboard UI.
@@ -809,6 +805,7 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
+\P'Y,$
 \u=H;
 ]J<0"0i3
 ]g@8yhu
@@ -862,6 +859,7 @@ _seh_filter_dll
 `A_A^A]A\_^[
 `A_A^A]A\_^]
 a7hIw
+a8z+),
 abort
 additional six characters expected to parse unicode surrogate pair.
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -887,6 +885,7 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
+b<|aFh
 bad allocation
 bad array new length
 bad conversion
@@ -927,12 +926,10 @@ fffffff
 fi_fi
 finnish
 fr_fr
-frame_time
 french
 german
 gfffffffH
 gfffffffI
-ggCa`
 greek
 h_^[]
 handlers
@@ -954,7 +951,6 @@ in Json::Value::operator[](int index) const: index cannot be negative
 in Json::Value::operator[](int index): index cannot be negative
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
-input_frame_time
 invalid stoull argument
 invalid string position
 iswspace
@@ -992,7 +988,7 @@ norwegian
 ntelD
 ole32.dll
 openvr_api.dll
-overlay_frame_times
+oucp7
 overlay_key
 pA_A^A\_^][
 pA_A^_
@@ -1045,6 +1041,7 @@ t$0H;
 t$@H=
 t$PH=
 t:I;>t
+tW/6[
 tXfff
 tchinese
 terminate
@@ -1055,7 +1052,6 @@ tr_tr
 turkish
 uk_ua
 ukrainian
-update_debug_info
 update_window_list
 user32.dll
 v=Y]Bv

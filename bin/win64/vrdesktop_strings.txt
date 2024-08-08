@@ -3,6 +3,7 @@
 												
 																																												
 	!s99
+	/o'&w<I
  %41g
  A_A^A\
  A_A^A]A\_
@@ -16,10 +17,9 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-$&{0d
+#B1#FU
 %%.%dg
 %s%s%s%s%s
-& im#
 ' is not a number.
 ',=?k
 (A\_^[
@@ -33,16 +33,17 @@ $&{0d
 (t$@H
 (|$ H
 )D$ L
+)o_ZU
 )t$ H
 )t$0H
 )t$@H
 *uXI;
++,W.T
 +Xt@(
 +o'q)}
 , last executing in 
 ,W5y+
 -1e+9999
--@	EO
 -Infinity
 -u-I;
 .00cfg
@@ -168,7 +169,7 @@ $&{0d
 220323000000Z
 220801000000Z
 230714000000Z
-240724174614Z0/
+240808231200Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -181,6 +182,7 @@ $&{0d
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+4|c;W
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -543,7 +545,6 @@ IsProcessorFeaturePresent
 J>@G_
 K32GetModuleFileNameExW
 KERNEL32.dll
-KyYN>w|
 K}*n:	
 L$ E3
 L$ H;
@@ -574,10 +575,11 @@ LoadLibraryA
 LocalFree
 LocalizationManager
 M H1E
-M#S|:
+M&JtQj{Pn
 M98u/
 MB(iVR
 MSVCP140.dll
+MaM3>C!]
 Mailbox %s received message %s, which it didn't have a handler for
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
@@ -588,6 +590,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
+O"77xY
 OpenProcess
 Out of thread local storage!
 PA^_^
@@ -607,7 +610,6 @@ ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-RyMkZ
 S0Q0O
 SA|X=G
 SHCreateItemFromParsingName
@@ -640,7 +642,6 @@ T$ M+
 T$(H9T$0t!H
 T$@fI
 T$XH+
-TJ-)0(
 Thread exited immediately
 Thread failed to initialize 1
 Thread failed to initialize 2
@@ -698,6 +699,7 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Will not cache name for PID: %d, reason: %d
+Xs~W	!
 Y9"SD
 [K]taM?
 \$ E3
@@ -963,6 +965,7 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
+|z\kZfYkV
 }LuHO
 ~qj#k"
 ~t&LN

@@ -31,8 +31,8 @@
  for detail.
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
  t;A;
-!*.6^
 !hn7!
+#pgOm
 %%.%dg
 %2.2X
 %8.8X
@@ -77,6 +77,7 @@
 %s: Timeout.
 %s: Unknown component type %d.
 %s: WriteFile failed! (%s)
+%vv-\
 ' is not a number.
 ',=?k
 ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
@@ -229,7 +230,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240724173838Z0/
+240808230403Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -262,9 +263,9 @@
 9\u4H
 9sdu	@8s
 ::LHB::%4.4X %s
+:FD,C?<
 :\u-L
 :\u6L
-;|;}n
 </u#H
 <0:08
 <= Exiting Context: (%.2f seconds)
@@ -299,7 +300,6 @@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?PHO#
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
@@ -463,11 +463,11 @@ Bluetooth Link not found: %s
 Bluetooth Link shutdown (%.2f seconds)
 Bluetooth Link was not able to start. (Status: %d, Error %s)
 Bluetooth service shutdown.
-BmK>_h
 Bootloader Mode
 C$9C w
 C(I9F(
 C0L9$
+CC3p?f
 CD$(H
 CD$0D
 CD$0H
@@ -621,6 +621,7 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
+Dy#o^
 E9e ~7I
 Empty escape sequence in string
 EnterCriticalSection
@@ -783,6 +784,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
+MsnMP
 Nonce:    %d
 O(H9N(|
 OXL9OPt
@@ -809,7 +811,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDSK9
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -1148,6 +1149,7 @@ bin_file
 blank
 bootloader
 buffer error
+c*cIw
 c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
 cntrl
@@ -1225,7 +1227,6 @@ l2|X/gGe
 lighthouse
 lower
 m0k0$
-mP=?DJ
 malloc
 manifest
 manifest file %s parse error from %s
@@ -1245,12 +1246,12 @@ oversubscribed literal/length tree
 p UWATAVAWH
 print
 punct
-qCR}7
 r*=/N
 r9=/N
 realloc
 runas
 s#fff
+s0"(-OhZ
 soH9t$@t
 space
 stoi argument out of range
@@ -1365,6 +1366,7 @@ xdigit
 |$pE2
 |$xH;
 |Lu?c
+|p!0~
 }LuHO
 ~qj#k"
 ~t&LN

@@ -2,6 +2,7 @@
  %41g
  A__^
  H3E H3E
+ L1mEnEq
 !hn7!
 ',=?k
 (f*^[0
@@ -56,7 +57,6 @@
 .text$yd
 .xdata
 .xdata$x
-/ RgE
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -84,7 +84,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240724174059Z0/
+240808230621Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -102,12 +102,12 @@
 6*f(_
 6I]Dc
 6OB,n_
+6yGV>
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 <0:08
-<0a9mM'>6
 =rIQU
 >0<0:
 >Mp$d
@@ -119,6 +119,7 @@
 @A^_^
 AuthD
 Bellevue1
+CHtm?
 CT$0H
 DigiCert Assured ID Root CA0
 DigiCert Inc1
@@ -128,7 +129,6 @@ DigiCert, Inc.1 0
 DigiCert, Inc.1;09
 DigiCert, Inc.1A0?
 DisableThreadLibraryCalls
-Fj5'=
 GetCurrentProcessId
 GetCurrentThreadId
 GetSystemTimeAsFileTime
@@ -155,8 +155,6 @@ Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-IvuLSr?0
-J,bmv~
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -172,7 +170,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS'
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -192,6 +189,7 @@ Valve Corp.0
 Valve Corp.1
 Washington1
 Y9"SD
+YFK+>'
 [K]taM?
 \$ UH
 ]J<0"0i3
@@ -221,6 +219,7 @@ _register_onexit_function
 _seh_filter_dll
 _stricmp
 `.rdata
+`^4@~
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
@@ -246,7 +245,6 @@ http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
 k0i0$
-kAc{nh
 l$8E3
 l2|X/gGe
 m0k0$
@@ -256,6 +254,7 @@ memmove
 memset
 modelNumber
 ntelD
+pJ'1\
 renderHeight
 renderWidth
 secondsFromVsyncToPhotons

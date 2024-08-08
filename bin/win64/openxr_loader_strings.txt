@@ -60,7 +60,6 @@
 (unknown)
 )D$ L
 )t$ H
-*EE\@r
 +Xt@(
 +o'q)}
 , OpenXR version returned not compatible with this loader
@@ -172,7 +171,7 @@
 220801000000Z
 230714000000Z
 2333333
-240724174135Z0/
+240808230705Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -192,9 +191,11 @@
 6OB,n_
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+7n:PR
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+:oQjdX
 <0:08
 =rIQU
 >0<0:
@@ -460,6 +461,7 @@ Invalid Function pointer
 Invalid Name pointer
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J3?k+{
 J>@G_
 KERNEL32.dll
 K}*n:	
@@ -529,7 +531,6 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDS3
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -565,7 +566,6 @@ Session handle is XR_NULL_HANDLE.
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-St,-M
 Syntax error: value, object or array expected.
 T$ A;
 T$0H;
@@ -638,14 +638,15 @@ WakeAllConditionVariable
 Warning [
 Washington1
 WideCharToMultiByte
-Wrx%;
 XR_API_LAYER_PATH
 XR_ENABLE_API_LAYERS
 XR_EXT_debug_utils
 XR_LOADER_DEBUG
 XR_NULL_HANDLE for instance but query for 
 XR_RUNTIME_JSON
+XYgL^
 Y9"SD
+YTy~G
 [K]taM?
 \$ I;]
 \$ UAVAWH
@@ -711,10 +712,10 @@ _register_onexit_function
 _seh_filter_dll
 _unlock_file
 `.rdata
+`0-vfg
 `A^A]^[]
 `A_A^A\_^
 `A_A^A]A\_^]
-a4_[.8
 a7hIw
 additional six characters expected to parse unicode surrogate pair.
 allowComments
@@ -783,6 +784,7 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
+i,xtb
 implementation_version
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
@@ -878,7 +880,6 @@ utf8_to_wide get size error:
 v=Y]Bv
 vector<T> too long
 verbose
-wf?pz
 wide_to_utf8 convert string error: 
 wide_to_utf8 get size error: 
 www.digicert.com1!0

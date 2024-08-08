@@ -22,7 +22,7 @@
 		{	// etc
 		} } },
 	!s99
-	L~u,&
+	&&v^
 	{ 0x%x, 0x%x, %d, %d, {
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
@@ -32,8 +32,8 @@
     Unused Resources: size:%zu
     Unused timelines: size:%zu
  %41g
+ &cZ	_ws
  - Vulkan output %d: %ux%u resolution, %ux%u dimensions - %s
- <iWM
  A]A\_
  A^^[
  A_A^A\
@@ -312,7 +312,6 @@ $9E0u
 %s: usage must be specified when allocating images
 %u != %zu
 ',=?k
-'<omd2
 ( nVertexCount % 3 ) == 0
 (A\_^[
 (A^A]^[
@@ -534,7 +533,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-240724173853Z0/
+240808230418Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -553,6 +552,7 @@ $9E0u
 6*f(_
 6I]Dc
 6OB,n_
+6k_:Yd
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8 t"L
@@ -667,7 +667,6 @@ $9E0u
 @WAUAVAWH
 @WAVAWH
 @`fff
-@~Y4B6
 A(A9C
 A(H9A t!H
 A8H9A0t
@@ -1156,6 +1155,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
 J>@G_
+K&"c%m>
 KERNEL32.dll
 Kf;;u
 KfD;3u
@@ -1402,7 +1402,6 @@ QueryServiceConfigW
 R$fE;B*
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS,#`
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1428,7 +1427,6 @@ RoOriginateLanguageException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S'!Gg
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
@@ -1464,7 +1462,6 @@ SetupGetInfDriverStoreLocationW
 Signal[%d]:%llu
 Skipping CalculateMotion (%llu)
 Skipping CalculateMotion (swapchain mismatch)
-Sl/74
 Sleep
 SleepConditionVariableCS
 Software\Valve\Steam\ActiveProcess
@@ -1490,6 +1487,7 @@ T$tA+
 T$xD9
 T$xH3
 T$xL+
+T9}oW
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 TerminateProcess
@@ -1588,6 +1586,7 @@ WATAUAVAWH
 WATAUH
 WAVAWH
 WINMM.dll
+W\9/"
 Wait:%llu
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -1675,7 +1674,6 @@ Yl$4E
 \$pI;\$xtIH
 \$xHk
 \$xMi
-\EM]:d
 \\.\pipe\
 \mfpmp.exe
 ]J<0"0i3
@@ -1738,7 +1736,6 @@ _wcsnicmp
 `A_A^A]A\_^[
 `A_^]
 a7hIw
-a^LVp8`
 abort
 acosf
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -1841,7 +1838,6 @@ data.hIPC.IsValid()
 deque<T> too long
 drawInfo.pVertexBuffer != nullptr
 dxgi.dll
-e&eZ0
 effffff
 f9+t4
 f98tZH

@@ -1598,6 +1598,7 @@
 "<~$B
 "?8N"?g}"?
 "WA`7h
+"Zt$!
 "p#*$
 "segoe ui" = "segoe ui,meiryo,malgun gothic,microsoft jhenghei,microsoft yahei,gisha,leelawadee,arial unicode ms,browallia new,mingliu,simhei,gulimche,ms gothic,sylfaen,kartika,latha,mangal,raavi"
 "t0"*X
@@ -2132,7 +2133,6 @@ $~O="""
 &apos;
 &quof
 &quot;
-' d;s
 ' for value type '
 '%.20g'
 '%s' '%s'
@@ -3256,7 +3256,6 @@ $~O="""
 .IEC 61966-2.1 Default RGB colour space - sRGB
 .Too many IDATs found
 .W,`]
-.Y5]Pcu^T
 .b(9["
 .data
 .data$r
@@ -4336,7 +4335,7 @@ $~O="""
 23383I3l3
 2384x3370
 24 24
-240724173923Z0/
+240808230452Z0/
 241009235959Z0a1
 24282<2L2P2T2X2\2`2d2h2t2x2|2
 242H2
@@ -8636,6 +8635,7 @@ $~O="""
 =e=y=
 =f>p>
 =g>4?
+=gJ9-
 =h>h?
 =j=r=5>A>k>
 =knil
@@ -16082,6 +16082,7 @@ QyReSOT5U
 R Coord Of Bottom Right Corner
 R Coord Of Top Right Corner
 R Wave Pointer
+R Y^z
 R"Z$g
 R'Jj7D
 R+42W
@@ -19786,6 +19787,7 @@ cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
 cK`x;
+cYD&p|
 cache
 cache != NULL
 cache:%s
@@ -21553,7 +21555,6 @@ hEMItV
 hGEPJW
 hIST must be after
 hI{L[
-hJx'\
 hKYMC
 hLACpV
 hPCCiS
@@ -22316,6 +22317,7 @@ lu?ou?k
 lucida
 lucidatypewriter
 luminance
+lv2Q>mL
 lwP+WE
 lwtpt
 lycian
@@ -24967,6 +24969,7 @@ w@Wh
 w@Whd
 w@Whh
 w@u';k
+wD ax 
 wJ^]_[
 wS@Pj
 w\h(,A

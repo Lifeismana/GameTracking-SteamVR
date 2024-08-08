@@ -216,7 +216,6 @@ $Phdd
 1T3Y3g3l3x4~4
 1X2\2`2d2h2l2p2e3
 1Z2d2l2z2
-1[0~;
 1c2|2
 1e+9999
 1o2w2
@@ -237,7 +236,7 @@ $Phdd
 220323000000Z
 220801000000Z
 230714000000Z
-240724173814Z0/
+240808230342Z0/
 241009235959Z0a1
 2<2@2D2H2X2\2`2d2
 2<2A2i2n2
@@ -318,6 +317,7 @@ $Phdd
 5FjiT
 5Genu
 5K6i6
+5W1gK
 5Z7L8r8
 5c7{7
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
@@ -388,7 +388,6 @@ $Phdd
 9-999X9]9
 989c9
 9<: <r<
-9?C<>
 9A0t+
 9L=p=|=
 9LHB-u
@@ -455,6 +454,7 @@ $Phdd
 <= Exiting Context: (%.2f seconds)
 <SVWj
 <_>u>
+<m!"%
 = >,>4>T>x>
 =">>>
 =%?,?;?B?p?t?
@@ -712,7 +712,6 @@ Found: %s, size: %d
 G ;B 
 G$;B$
 G0_^]
-GEA\D
 GH+G@
 Gd;Fd|:
 Gd;Fd}$V
@@ -774,6 +773,7 @@ Linux 3.6
 LoadLibraryA
 LocalFree
 Logger.txt
+M?Y>1
 MB(iVR
 MSVCP140.dll
 Mac OS
@@ -824,7 +824,6 @@ QueryPerformanceFrequency
 RANDOM
 READ -H %4.4X
 RESET
-RSDS=
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -869,6 +868,7 @@ Success
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
 TIMEOUT
+TeB}}
 TerminateProcess
 Terminating discovered vivelink process.
 TlsAlloc
@@ -988,7 +988,6 @@ ViveLinkError_NotFound
 ViveLinkError_Success
 ViveLinkError_Timeout
 ViveLinkLib_GetBaseStationWirelessInterface
-W7h#7
 W9shvN3
 WRITE_WO_RESP -H %4.4X 
 WRITE_W_RESP -H %4.4X 
@@ -1108,7 +1107,6 @@ dat_file
 data error
 deque<T> too long
 digit
-e"Rbm
 empty distance tree with lengths
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -1129,7 +1127,6 @@ http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
-iiU.W
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1205,7 +1202,6 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
-r@b0cF-
 realloc
 runas
 space
@@ -1266,6 +1262,7 @@ wn>Jj
 www.digicert.com1!0
 www.digicert.com1$0"
 x5t7j
+x5~xB
 xdigit
 y4_^[
 {L?uI

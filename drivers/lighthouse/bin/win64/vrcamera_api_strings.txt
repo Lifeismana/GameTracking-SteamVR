@@ -45,6 +45,7 @@ $< t6<$t,<+t"<vt
 %d / %m / %y
 %m / %d / %y
 ',=?k
+'4>7#
 ()$^.*+?[]|\-{},:=!
 (A^A\^[
 (A^A\_[
@@ -81,8 +82,6 @@ $< t6<$t,<+t"<vt
 )t$0H
 )t$`H
 +J$D8M@
-+QQb]
-+X3zs
 +Xt@(
 +o'q)}
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
@@ -380,7 +379,7 @@ $< t6<$t,<+t"<vt
 220323000000Z
 220801000000Z
 230714000000Z
-240724173825Z0/
+240808230350Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -390,7 +389,6 @@ $< t6<$t,<+t"<vt
 341013235959Z0H1
 360428235959Z0i1
 370322235959Z0c1
-378w{X
 380115120000Z0b1
 3A8A#
 3mq+<
@@ -431,7 +429,6 @@ $< t6<$t,<+t"<vt
 9_P~+E3
 9_P~,E3
 9_P~OE3
-9f`'r
 9{D~H3
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
@@ -1126,6 +1123,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
 R0E8XAt
+RSDS0
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -1200,7 +1198,6 @@ UVWATAVH
 UVWAVAWH
 UWATAVAWH
 UWAVH
-UYVX;}
 UmsThreadYield
 Unexpected capability size.
 Unhandled Exception while adding configuration change handler to video stream: 
@@ -1263,10 +1260,12 @@ Writing failed at 0x%X/0x%X Bytes
 X E9j
 Y$D;R
 Y0t>H
+Y5$sh
 Y9"SD
 Z(D9Z
 [@D8}oteH
 [K]taM?
+[URb7
 \$ UH
 \$ UVWAVAWH
 \$ UWAVH
@@ -1406,6 +1405,7 @@ eventObject
 executable format error
 f	n@H
 f#D$@H
+f1k[{W
 f9,Yu
 f9/t	H
 f9D$pu
@@ -1425,6 +1425,7 @@ fgetwc
 file exists
 file too large
 filename too long
+fm*feh
 fputc
 fputwc
 frexp
@@ -1534,7 +1535,6 @@ owner dead
 p AWH
 p D9V
 p WAVAWH
-p e0ui
 pA^_^
 pA_A^A]A\_^]
 pContext
@@ -1549,9 +1549,11 @@ protocol error
 protocol not supported
 punct
 q(9qD~[E3
+qtv0.}
 r	uAD;d$$u:
 rBu/H
 rLp>B
+rWw23*
 raB3G
 read only file system
 realloc
@@ -1653,6 +1655,7 @@ u&8_rt
 u)!t$(H
 u2A8D
 uJL9J,u
+uN2ac
 uY8\$ t
 ueA8F
 ug8Y$t

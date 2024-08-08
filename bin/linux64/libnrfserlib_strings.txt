@@ -2742,7 +2742,6 @@ circumflex
 cl
 classify_object_over_fdes
 clock_gettime
-clock_nanosleep
 close
 closedir
 cm

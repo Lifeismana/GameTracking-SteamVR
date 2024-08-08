@@ -533,7 +533,6 @@
  chdir
  chmod
  clock_gettime
- clock_nanosleep
  close
  closedir
  d (anonymous namespace)::__io_category_instance()::__ec

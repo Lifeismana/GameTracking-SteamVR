@@ -15,20 +15,20 @@
   SetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x
  %41g
  0$0(0<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0
- 4(CxC
  Capability Size: 
  Height: 
- PU~7
  Width: 
  s;Wj
  sCWj
  t\9]
 !hn7!
+"*8Q-q
 #9Npt
 #>B>J>
 $0,040<0P0X0`0h0p0|0
 $0.0C0k0
 $3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
+$>*4+
 $_^[]
 %.0Lf
 %H : %M
@@ -52,7 +52,6 @@ $_^[]
 +o'q)}
 +p$+p
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
-,*[2A^
 ,0I0\0
 ,W5y+
 .00cfg
@@ -314,7 +313,7 @@ $_^[]
 .tls$
 .tls$ZZZ
 .xdata$x
-/D'|'
+/PCY,
 0 0$0<0L0P0`0d0h0l0p0x0
 0 0(00080@0H0P0X0`0h0p0x0
 0 00040D0H0L0T0l0|0
@@ -435,7 +434,7 @@ $_^[]
 220323000000Z
 220801000000Z
 230714000000Z
-240724173803Z0/
+240808230330Z0/
 241009235959Z0a1
 252t2
 282D2L2l2
@@ -715,6 +714,7 @@ $_^[]
 8 8,8P8p8x8
 8 808K8\8
 8 838=8Q8y8
+8 l>N
 8$8,848<8D8L8
 8$8,848<8D8L8T8\8d8l8t8|8
 8%8,8T8\8i8r8}8
@@ -1493,7 +1493,6 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 RPj(h
 RPj(hp
-RSDS 
 RWQSV
 RaiseException
 RegisterTraceGuidsW
@@ -1599,8 +1598,8 @@ Y__^[
 [K]taM?
 [SPj"
 [tc9]
-\1@BXr
 \SVW3
+],.yG%
 ]J<0"0i3
 _$@;Ghr
 _CIexp
@@ -1684,8 +1683,8 @@ api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 argument list too long
 argument out of domain
-at;#-$
 b1	3C3
+b?\	w
 bad address
 bad allocation
 bad array new length
@@ -1761,6 +1760,7 @@ isupper
 j@j0P
 jj@0HK4
 k0i0$
+kGd.1}-l
 kK04k
 kW$4k_(4
 l2|X/gGe
@@ -1889,9 +1889,9 @@ ungetc
 ungetwc
 unknown error
 upper
+uv7HZ
 v	N+D$
 v=Y]Bv
-vVwGM
 value too large
 vector<T> too long
 vector<bool> too long

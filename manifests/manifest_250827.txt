@@ -1,10 +1,10 @@
 Content Manifest for Depot 250827
 
-Manifest ID / date     : 2950592113021695594 / 05/24/2024 22:48:07
+Manifest ID / date     : 4159532569724364626 / 08/03/2024 05:20:54
 Total number of files  : 238
 Total number of chunks : 238
-Total bytes on disk    : 4820078
-Total bytes compressed : 3065568
+Total bytes on disk    : 4839854
+Total bytes compressed : 3070624
 
           Size Chunks File SHA                                 Flags Name
            118      1 48350DD4F03E341FC66096E2789EE7E19C4F6FDB     0 drivers/htc/driver.vrdrivermanifest
@@ -189,58 +189,58 @@ Total bytes compressed : 3065568
           6344      1 FD6B8C62FCF692D9A353B14E7349042B21288875     0 drivers/htc/resources/input/tracker/legacy_bindings_vive_tracker_handed.json
           7332      1 5D96AC0BD5D3F19F4F305EEC054726C131097C71     0 drivers/htc/resources/input/tracker/legacy_bindings_vive_tracker_handed_pistol.json
           6370      1 4F6161288903B1D9D19B10B7317863F908E7AEFA     0 drivers/htc/resources/input/tracker/legacy_bindings_vive_tracker_handed_rotated.json
-          1535      1 F52A6A8A942093B9B3EBC651D8F9DA913E15E6B1     0 drivers/htc/resources/input/tracker/vive_tracker_camera_profile.json
-          1574      1 63894DA2E8E684B9EF4F4690633C5430A9084524     0 drivers/htc/resources/input/tracker/vive_tracker_chest_profile.json
-          2537      1 E0E4401F791AB6A92CBEAEAE5200BBBDF015A080     0 drivers/htc/resources/input/tracker/vive_tracker_handed_profile.json
-          1537      1 2096B8D28602E3E4CC591FC4908EB7078F7F2F6B     0 drivers/htc/resources/input/tracker/vive_tracker_keyboard_profile.json
-          1539      1 25D29EE24518CFC2D45774B91A9A1575135A4354     0 drivers/htc/resources/input/tracker/vive_tracker_left_ankle_profile.json
-          1539      1 9E0036A5872073B0848E6083B3402A68A259DAA6     0 drivers/htc/resources/input/tracker/vive_tracker_left_elbow_profile.json
-          1538      1 E12E1597FC10C9EC8AD654BFE1A01D93C7B1CD16     0 drivers/htc/resources/input/tracker/vive_tracker_left_foot_profile.json
-          1538      1 393C48346E6235FD4A8E8A72E9C85B92031517FD     0 drivers/htc/resources/input/tracker/vive_tracker_left_knee_profile.json
-          1542      1 83166350E3A6D697F2EED1EF06E461D3384393BD     0 drivers/htc/resources/input/tracker/vive_tracker_left_shoulder_profile.json
-          1539      1 03BA3A630DDAC54BB619F2907762E1F3F4CCC359     0 drivers/htc/resources/input/tracker/vive_tracker_left_wrist_profile.json
-          1540      1 E1614BCF99588CCA9CC3D7725CE3A8EBC147ADF9     0 drivers/htc/resources/input/tracker/vive_tracker_right_ankle_profile.json
-          1540      1 F5CCC34656615CDDCDEDB4A076ACB7DCC64A285D     0 drivers/htc/resources/input/tracker/vive_tracker_right_elbow_profile.json
-          1539      1 B135D0DAAE7E02F28ED4128AB058B1543318FE14     0 drivers/htc/resources/input/tracker/vive_tracker_right_foot_profile.json
-          1539      1 4B3D6C6BAA8F91300854A386B7EC0FFA29EDF57E     0 drivers/htc/resources/input/tracker/vive_tracker_right_knee_profile.json
-          1543      1 3C0481FE424DF5E0A21F41875B4EF48EBD720FE8     0 drivers/htc/resources/input/tracker/vive_tracker_right_shoulder_profile.json
-          1540      1 7DD7857D9AF0DC532C893E71D4FFE2287346B667     0 drivers/htc/resources/input/tracker/vive_tracker_right_wrist_profile.json
-          1534      1 7BA3282B3E43351CE6E66F9053A62B0D01046F30     0 drivers/htc/resources/input/tracker/vive_tracker_waist_profile.json
+          2302      1 42277C5F2CCBC3DB6162C9BBC6B97C6ADAC7F6A0     0 drivers/htc/resources/input/tracker/vive_tracker_camera_profile.json
+          2341      1 DC770EFC575E7F8A2D72DE974944AC12A3C91D4C     0 drivers/htc/resources/input/tracker/vive_tracker_chest_profile.json
+          3289      1 99BDD8BF9911E93C758E7AF004CB41EC8C406F30     0 drivers/htc/resources/input/tracker/vive_tracker_handed_profile.json
+          2304      1 D70BA0406C65E3B20FA5434ACF44E021AF77C61C     0 drivers/htc/resources/input/tracker/vive_tracker_keyboard_profile.json
+          2306      1 2BF7C7FF1F75DCB9598C6964844EE0C4D8635CDD     0 drivers/htc/resources/input/tracker/vive_tracker_left_ankle_profile.json
+          2306      1 8EABFF70CF58D341EBB5CC5E7D0425116FCF276F     0 drivers/htc/resources/input/tracker/vive_tracker_left_elbow_profile.json
+          2305      1 7E3AEAC41691E70FEA0B10EF6A240575BA34C2F7     0 drivers/htc/resources/input/tracker/vive_tracker_left_foot_profile.json
+          2305      1 01D34725E836CD4842800EE904F4C60776932012     0 drivers/htc/resources/input/tracker/vive_tracker_left_knee_profile.json
+          2309      1 0C0FBD002589F32DABB84F7882788F97B327BCBE     0 drivers/htc/resources/input/tracker/vive_tracker_left_shoulder_profile.json
+          2306      1 A7E35CB98023989E41A74CA0543B4C309DC93979     0 drivers/htc/resources/input/tracker/vive_tracker_left_wrist_profile.json
+          2307      1 49713E52FE0324C540E973E82E7F3F30CD3A2BDA     0 drivers/htc/resources/input/tracker/vive_tracker_right_ankle_profile.json
+          2307      1 99E914123F67A482133C8BFC9FB8714F4D56FD0C     0 drivers/htc/resources/input/tracker/vive_tracker_right_elbow_profile.json
+          2306      1 0F8A9FC303280F79E53F2036D84B4ECA290EE017     0 drivers/htc/resources/input/tracker/vive_tracker_right_foot_profile.json
+          2306      1 6BB8DD9DF5011476C98D0156F3927E686BC8CC7A     0 drivers/htc/resources/input/tracker/vive_tracker_right_knee_profile.json
+          2310      1 347F9D7B5C30037DC6CA25A4D980C0AF04685A52     0 drivers/htc/resources/input/tracker/vive_tracker_right_shoulder_profile.json
+          2307      1 FF98F7752EA55F2AE82D0BE9D107DDE966FAC7F6     0 drivers/htc/resources/input/tracker/vive_tracker_right_wrist_profile.json
+          2301      1 12990280D315444C02CD586D70F97453D66C5D8E     0 drivers/htc/resources/input/tracker/vive_tracker_waist_profile.json
           3447      1 2E35DED3FD6F706EE08FCDAFDCE24962455B1E6F     0 drivers/htc/resources/input/vive_controller_profile.json
           2707      1 C999646717EB69A888E932362672E9DD8CCD064A     0 drivers/htc/resources/input/vive_controller_remapping.json
            822      1 08EC8AA95DD98C6C2873B774F04109527750632B     0 drivers/htc/resources/input/vive_pro_profile.json
            671      1 4E5DCBF29291A9E71C6F102911391B30346EC06E     0 drivers/htc/resources/input/vive_profile.json
-          3723      1 0B2854229E0043A50EEFE2BC23CC659DFF1217AF     0 drivers/htc/resources/input/vive_tracker_profile.json
+          3860      1 4A70B1D289B309E9ED892C4A3BA7518759657846     0 drivers/htc/resources/input/vive_tracker_profile.json
              0      0 0000000000000000000000000000000000000000    64 drivers/htc/resources/localization
           1339      1 4F3D095DBFDD6DB1DE3DCBBE3FE4E39019B283B1     0 drivers/htc/resources/localization/localization.json
-          1968      1 431408803C8F45AACE6CD40E92400B1555B75EC5     0 drivers/htc/resources/localization/localization_bg_BG.json
-          1534      1 0D1B229090718D71B13A719C76C666CADDE76871     0 drivers/htc/resources/localization/localization_cs_CZ.json
-          1295      1 35A860617C58856E1BD992BF7BBD54A321072CBF     0 drivers/htc/resources/localization/localization_da_DK.json
-          1319      1 50B2BF05A715CA1430A8242FE4E09B311F64F91A     0 drivers/htc/resources/localization/localization_de_DE.json
-          1603      1 70620D25AB6D69D78BB36C7A3532332CFB44EB37     0 drivers/htc/resources/localization/localization_el_GR.json
+          2362      1 5F071663C3675843B931D5CF61A78F6E544F0833     0 drivers/htc/resources/localization/localization_bg_BG.json
+          1858      1 03F54A7CD1E0AEE0F4264DFD88F0F010D8012CB3     0 drivers/htc/resources/localization/localization_cs_CZ.json
+          1553      1 38C5DF6B8C61CE69079131820BC49583D5AC8924     0 drivers/htc/resources/localization/localization_da_DK.json
+          1583      1 CEA74606694500446343461EEE8B28E2CB09FFEF     0 drivers/htc/resources/localization/localization_de_DE.json
+          1933      1 535A7BDAA9BDF825F701F06426A800292E854E13     0 drivers/htc/resources/localization/localization_el_GR.json
           1514      1 A94938AB8594FBE60BD9BA93B648143F61E16FAB     0 drivers/htc/resources/localization/localization_en_us.json
-          1351      1 F5D0CCF1D4DD60B6EA4472E425C28B296E3F2CB8     0 drivers/htc/resources/localization/localization_es_ES.json
-          1352      1 5FF3CE94457A11738D6A34BD99524F7AD498A6D0     0 drivers/htc/resources/localization/localization_es_MX.json
-          1396      1 0481A0DD44C5E268CD60A9217C6A225FAE11CF52     0 drivers/htc/resources/localization/localization_fi_FI.json
-          1329      1 52A2778722717C286AB805E412C5E1A0C6688668     0 drivers/htc/resources/localization/localization_fr_FR.json
-          1319      1 BE6E699347C0B8143DB60850FC5472A4E17A9E49     0 drivers/htc/resources/localization/localization_hu_HU.json
-          1360      1 9C7AE8370AF0050533F560B1380EC7E979266333     0 drivers/htc/resources/localization/localization_it_IT.json
-          1352      1 898B8CA36EF9F905E00A9A1C6700CB633236DF62     0 drivers/htc/resources/localization/localization_ja_JP.json
-          1410      1 7ED61E0DC41D3D660D24744E69AD290841175615     0 drivers/htc/resources/localization/localization_ko_KR.json
+          1626      1 DB58BC3101F95517302CC5F6C56A089DFA87ED5C     0 drivers/htc/resources/localization/localization_es_ES.json
+          1626      1 BDB362466E33E12F3F915AA5B60FC2BAC07AF752     0 drivers/htc/resources/localization/localization_es_MX.json
+          1656      1 3F0812F0F5B64EEDF015EC4F32E721DAFB613B48     0 drivers/htc/resources/localization/localization_fi_FI.json
+          1600      1 2AC9F789765B51E434C4B4C269E13F8B0E77A42B     0 drivers/htc/resources/localization/localization_fr_FR.json
+          1563      1 3316D2E43507F9C77B818B00EE79471DC3470B15     0 drivers/htc/resources/localization/localization_hu_HU.json
+          1626      1 E2ECA436D9B33296C2F349C347BE0E03A389421A     0 drivers/htc/resources/localization/localization_it_IT.json
+          1610      1 94071A8A2D31DCD1DD07F9DC7864C181E6130FBC     0 drivers/htc/resources/localization/localization_ja_JP.json
+          1542      1 CC24E3D9D22DE96F1993B66D9CD158C4E7E8EBFC     0 drivers/htc/resources/localization/localization_ko_KR.json
           1268      1 1F0C9D0268D2AA40AAB1144DEE9E4FC59AE0BDAE     0 drivers/htc/resources/localization/localization_nb_NO.json
-          1323      1 AFE1DC4D6165D3DCD2BD41F15C68A0984B330BE1     0 drivers/htc/resources/localization/localization_nl_NL.json
-          1314      1 2494D2A454717CC0F80D90BB9FEA0EC580487EBB     0 drivers/htc/resources/localization/localization_pl_PL.json
-          1383      1 B2C67E8D3E3D12B79CEE98D389C896F94F282B7D     0 drivers/htc/resources/localization/localization_pt_BR.json
-          1298      1 F91A9EC5905001A41ACFE87450B575404429FC22     0 drivers/htc/resources/localization/localization_pt_PT.json
-          1304      1 F4F19D209A8A10D937556CF2D6F9A1ACB8EC9F3C     0 drivers/htc/resources/localization/localization_ro_RO.json
-          1628      1 45C39B84387F48AE6111D272E9CB43D9507E26E3     0 drivers/htc/resources/localization/localization_ru_RU.json
-          1284      1 3C5650E78C1E7DD697FA6159912238C6CD0D017F     0 drivers/htc/resources/localization/localization_sv_SE.json
-          2148      1 26F47C115C25FC78A82838116F6AE40E1E9A2944     0 drivers/htc/resources/localization/localization_th_TH.json
-          1275      1 5D41FD29A6ABCB7F19192F0406AE5D4012AAD26D     0 drivers/htc/resources/localization/localization_tr_TR.json
-          1745      1 F910E2BA9372F59F85B0117F56C95CB33C86B645     0 drivers/htc/resources/localization/localization_uk_UA.json
-          1515      1 B85159A9071A9745435024CF19E6EF65B0268456     0 drivers/htc/resources/localization/localization_vi_VN.json
-          1204      1 01C0CE1AD26339D7B31DA0955B1B8F3B4928F7F0     0 drivers/htc/resources/localization/localization_zh_CN.json
-          1305      1 FC9247D3CFDC9034AC890ABCBA048AB627059694     0 drivers/htc/resources/localization/localization_zh_TW.json
+          1577      1 06546600C7FB18EA76A1F58329A68797086F3701     0 drivers/htc/resources/localization/localization_nl_NL.json
+          1570      1 841955C92956945E394C8DE9997FD47CCEB047F0     0 drivers/htc/resources/localization/localization_pl_PL.json
+          1667      1 C8A37CC425715270CAC6900CA2E00EB4D687FC84     0 drivers/htc/resources/localization/localization_pt_BR.json
+          1558      1 D888098AA00C4B9CFD6557B059FA8A2455DBBBF5     0 drivers/htc/resources/localization/localization_pt_PT.json
+          1587      1 5F7341823C2EC4355E801782D2B33931496E7918     0 drivers/htc/resources/localization/localization_ro_RO.json
+          1970      1 4ECCE83A637252304211F5D2872D9A67C688A828     0 drivers/htc/resources/localization/localization_ru_RU.json
+          1544      1 6B1898E92CE128F222605C37FDF0429D9ECB598D     0 drivers/htc/resources/localization/localization_sv_SE.json
+          2030      1 2AB6E0305490CC45152318823B3F99533D1D8334     0 drivers/htc/resources/localization/localization_th_TH.json
+          1481      1 CE80BE4A69D4431C1900745DDAA34D0D50BB5D8A     0 drivers/htc/resources/localization/localization_tr_TR.json
+          2137      1 21A82EDC69DE752CA8708F905A492D447EB02260     0 drivers/htc/resources/localization/localization_uk_UA.json
+          1689      1 8D4AE36FA83DA329AE273F0D54CC59A151181C06     0 drivers/htc/resources/localization/localization_vi_VN.json
+          1422      1 DABBB39BE0F0D70B77DC89005DFD95FE0D8DA05E     0 drivers/htc/resources/localization/localization_zh_CN.json
+          1559      1 210C6E075B33974D9B7BF28E2236F45616D793DD     0 drivers/htc/resources/localization/localization_zh_TW.json
              0      0 0000000000000000000000000000000000000000    64 drivers/htc/resources/rendermodels
              0      0 0000000000000000000000000000000000000000    64 drivers/htc/resources/rendermodels/vr_tracker_vive_1_0
            749      1 3F291BB28FE1A63202622B7596822CAEF98A3829     0 drivers/htc/resources/rendermodels/vr_tracker_vive_1_0/vr_tracker_vive_1_0.json

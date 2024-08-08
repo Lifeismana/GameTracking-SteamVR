@@ -527,9 +527,8 @@
               (p.properties["target-dpi-multiplier"] =
                 this.props.target_dpi_multiplier),
               (p.properties["meters-per-pixel"] = this.props.meters_per_pixel),
-              (p.properties["subview-parent-panel-id"] = (0, u.Hb)(
-                this.props.subview_parent_panel_id,
-              )),
+              (p.properties["subview-parent-panel-key"] =
+                this.props.subview_parent_panel_key),
               (p.properties.curvature = this.props.curvature),
               (p.properties["curvature-origin-id"] = (0, u.Hb)(
                 this.props.curvature_origin_id,
@@ -1186,7 +1185,7 @@
           Mb: () => u,
           ac: () => c,
           k7: () => C,
-          mK: () => y,
+          mK: () => S,
           sX: () => I,
         });
         var o = r(655),
@@ -1342,6 +1341,10 @@
                     (i.properties.translation = n(t, "translation")),
                     (i.properties.rotation = n(t, "rotation")),
                     (i.properties.scale = n(t, "scale")),
+                    (i.properties["should-head-align"] = l(
+                      t,
+                      "should-head-align",
+                    )),
                     (i.properties["stop-distance"] = s(t, "stop-distance")),
                     (i.properties["start-angle"] = s(t, "start-angle")),
                     (i.properties["start-quat-difference"] = s(
@@ -1353,7 +1356,27 @@
                       "stop-quat-difference",
                     )),
                     (i.properties["scale-margin"] = s(t, "scale-margin")),
-                    (i.properties["lerp-speed"] = s(t, "lerp-speed"));
+                    (i.properties["lerp-speed"] = s(t, "lerp-speed")),
+                    (i.properties["min-distance"] = s(t, "min-distance")),
+                    (i.properties["max-distance"] = s(t, "max-distance")),
+                    (i.properties["one-to-one-radius"] = s(
+                      t,
+                      "one-to-one-radius",
+                    )),
+                    (i.properties["max-x-squared-contribution"] = s(
+                      t,
+                      "max-x-squared-contribution",
+                    )),
+                    (i.properties["acceleration-factor-x-coefficient"] = s(
+                      t,
+                      "acceleration-factor-x-coefficient",
+                    )),
+                    (i.properties["acceleration-factor-x-squared-coefficient"] =
+                      s(t, "acceleration-factor-x-squared-coefficient")),
+                    (i.properties["acceleration-factor-scale-term"] = s(
+                      t,
+                      "acceleration-factor-scale-term",
+                    ));
               }
               return [o, i];
             })(e, t),
@@ -1379,10 +1402,10 @@
           m,
           g,
           v,
-          b = [],
-          f = null,
-          S = null;
-        function y(e, t, r) {
+          f = [],
+          b = null,
+          y = null;
+        function S(e, t, r) {
           (h = e),
             (m = t),
             (g = r),
@@ -1408,11 +1431,11 @@
             : h;
         }
         function I(e) {
-          b.push(e), C();
+          f.push(e), C();
         }
         function C() {
-          f ||
-            (f = window.setTimeout(
+          b ||
+            (b = window.setTimeout(
               () =>
                 (0, o.mG)(this, void 0, void 0, function* () {
                   let e = document.body;
@@ -1433,19 +1456,19 @@
                       e,
                     ),
                   };
-                  S ||
+                  y ||
                     (console.log("Initializing sg_mailbox"),
-                    (S = new i.N()),
-                    yield S.Init("sg_mailbox", g));
+                    (y = new i.N()),
+                    yield y.Init("sg_mailbox", g));
                   let r = {
                     type: "update_scene_graph",
                     owning_overlay_key: R(),
                     scene_graph: t,
-                    retired_sgids: b,
+                    retired_sgids: f,
                   };
-                  S.SendMessage("vrcompositor_systemlayer", r),
-                    (f = null),
-                    (b = []),
+                  y.SendMessage("vrcompositor_systemlayer", r),
+                    (b = null),
+                    (f = []),
                     (v = !1);
                 }),
               0,
@@ -1896,7 +1919,7 @@
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
           })(s || (s = {}));
         let a = 0;
-        var l, d, p, c, u, _, h, m, g, v, b, f, S, y, D, R, I;
+        var l, d, p, c, u, _, h, m, g, v, f, b, y, S, D, R, I;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -1951,8 +1974,7 @@
               (e[(e.EnableControlBarKeyboard = 16777216)] =
                 "EnableControlBarKeyboard"),
               (e[(e.EnableControlBarClose = 33554432)] =
-                "EnableControlBarClose"),
-              (e[(e.EnableSteamUIButtons = 67108864)] = "EnableSteamUIButtons");
+                "EnableControlBarClose");
           })(p || (p = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
@@ -2009,7 +2031,7 @@
                 "DriverRequestsApplicationPause"),
               (e[(e.DriverRequestsReducedRendering = 128)] =
                 "DriverRequestsReducedRendering");
-          })(b || (b = {})),
+          })(f || (f = {})),
           (function (e) {
             (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
               (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -2026,14 +2048,14 @@
               (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
               (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
               (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-          })(f || (f = {})),
+          })(b || (b = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
               (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
               (e[(e.Error = -1)] = "Error");
-          })(S || (S = {})),
+          })(y || (y = {})),
           (function (e) {
             (e[(e.TrackedControllerRole_Invalid = 0)] =
               "TrackedControllerRole_Invalid"),
@@ -2047,7 +2069,7 @@
                 "TrackedControllerRole_Treadmill"),
               (e[(e.TrackedControllerRole_Max = 5)] =
                 "TrackedControllerRole_Max");
-          })(y || (y = {})),
+          })(S || (S = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -2806,4 +2828,4 @@
   var i = o.O(void 0, [968, 683], () => o(844));
   i = o.O(i);
 })();
-//# sourceMappingURL=fallback.js.map?v=3b208ca4d09067494cea
+//# sourceMappingURL=fallback.js.map?v=5b567722e8a805d7ca94

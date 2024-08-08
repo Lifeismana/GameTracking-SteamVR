@@ -2,6 +2,7 @@
  %41g
 !hn7!
 ',=?k
+'1v4E
 (f*^[0
 +Xt@(
 +o'q)}
@@ -105,7 +106,7 @@
 220801000000Z
 223C3
 230714000000Z
-240724173855Z0/
+240808230421Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -123,6 +124,7 @@
 3J3Y3h3
 3mq+<
 4$4D4h4t4|4
+4&U B
 4.5?5
 4/4i4r4
 4[4~4
@@ -162,7 +164,6 @@
 9J;v;
 :!:*:3:<:A:F:M:R:^:
 :&:Y<*=<=E=P=v=
-:4CqE
 ; ;x;|;
 ;#;,;1;6;=;B;N;p;
 <	=I=
@@ -232,6 +233,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 J>@G_
+J_X?),r
 KERNEL32.dll
 K}*n:	
 L?n(Zy&
@@ -246,7 +248,7 @@ PAq=?Mp#
 Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
 Pz}b!
 QueryPerformanceCounter
-RSDSq
+RSDS|
 RaiseException
 S0Q0O
 SA|X=G
@@ -284,14 +286,12 @@ TlsAlloc
 TlsFree
 UnhandledExceptionFilter
 Unknown exception
-Us{!(
 VCRUNTIME140.dll
 V_~]	,
 Valve Corp.0
 Valve Corp.1
 WakeAllConditionVariable
 Washington1
-X"{_^
 Y9"SD
 Y__^[
 [K]taM?
@@ -335,6 +335,7 @@ _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
 `.rdata
+a1}	T
 a7hIw
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -344,12 +345,14 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\drivers\gamepad\Retail\win32\2017\driver_gamepad.pdb
 driver_gamepad.dll
+fw=l)@s%4
 http://ocsp.digicert.com0A
 http://ocsp.digicert.com0C
 http://ocsp.digicert.com0X
 http://ocsp.digicert.com0\
 http://www.digicert.com/CPS0
 jj@0HK4
+k)LHI
 k0i0$
 l2|X/gGe
 m0k0$
@@ -358,6 +361,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
+o'>3G
 string too long
 terminate
 uCVj@
@@ -365,8 +369,7 @@ v=Y]Bv
 vector<T> too long
 www.digicert.com1!0
 www.digicert.com1$0"
-y X`	
-zyRo 
+yV(z)w4
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png
 {gamepad}/icons/gamepad_status_ready.png
