@@ -22,7 +22,6 @@
 		{	// etc
 		} } },
 	!s99
-	&&v^
 	{ 0x%x, 0x%x, %d, %d, {
         Resource: InUse:%d name:%s
         Timeline: refs:%d name:%s
@@ -32,7 +31,6 @@
     Unused Resources: size:%zu
     Unused timelines: size:%zu
  %41g
- &cZ	_ws
  - Vulkan output %d: %ux%u resolution, %ux%u dimensions - %s
  A]A\_
  A^^[
@@ -345,6 +343,7 @@ $9E0u
 )d$pD
 )l$0E
 )l$pD
+)ljci=\T
 )t$ D
 )t$@H
 )t$PD
@@ -533,7 +532,7 @@ $9E0u
 220323000000Z
 220801000000Z
 230714000000Z
-240808230418Z0/
+240809200418Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -552,7 +551,6 @@ $9E0u
 6*f(_
 6I]Dc
 6OB,n_
-6k_:Yd
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8 t"L
@@ -565,6 +563,7 @@ $9E0u
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+9.2#:
 9C s.H
 9C<rTH
 9ELtgL9|$Pt
@@ -582,6 +581,7 @@ $9E0u
 >0<0:
 >Mp$d
 >ffv?
+>v7QJF
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??Bid@locale@std@@QEAA_KXZ
@@ -1154,8 +1154,8 @@ Invalid bindings
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
+I~`Mz
 J>@G_
-K&"c%m>
 KERNEL32.dll
 Kf;;u
 KfD;3u
@@ -1322,6 +1322,7 @@ OpenProcessToken
 OpenProcessToken failed. GetLastError returned: %d
 OpenSCManagerW
 OpenServiceW
+OtX0f
 Out of thread local storage!
 Outer
 PA^_^
@@ -1400,8 +1401,10 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
+R%;hk
 RENDERDOC_GetAPI
 RPCRT4.dll
+RSDSL
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s
@@ -1487,7 +1490,6 @@ T$tA+
 T$xD9
 T$xH3
 T$xL+
-T9}oW
 TUUUUUU
 TdhEnumerateManifestProviderEvents
 TerminateProcess
@@ -1586,7 +1588,6 @@ WATAUAVAWH
 WATAUH
 WAVAWH
 WINMM.dll
-W\9/"
 Wait:%llu
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -1736,6 +1737,7 @@ _wcsnicmp
 `A_A^A]A\_^[
 `A_^]
 a7hIw
+aO*&n3
 abort
 acosf
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -1884,6 +1886,7 @@ isalpha
 isdigit
 it != m_importedClients.end()
 jj@0HK4
+j}@|4
 k0i0$
 l$ E3
 l$ H;
@@ -1910,6 +1913,7 @@ l$xHc
 l2|X/gGe
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
+m.k?-
 m0k0$
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
@@ -2748,6 +2752,7 @@ vkWriteAccelerationStructuresPropertiesKHR
 vkWriteMicromapsPropertiesEXT
 vr-marker,frame_end,type,application
 vulkan-1.dll
+w(^@2
 wcsrchr
 wcsstr
 www.digicert.com1!0

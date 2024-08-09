@@ -1261,6 +1261,7 @@ $@
 1e+9999
 2
 2.0
+20:02:14
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -1329,7 +1330,6 @@ $@
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
-23:01:44
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -1960,7 +1960,7 @@ Attempting to wait on a fence that has already been waited for. Current: %lx Wai
 Attempting to wait on a fence value that is too large. Current: %lx Wait: %lx
 Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %lx, Signaled: %lx
 Aug
-Aug  8 2024
+Aug  9 2024
 August
 AuthenticAMD
 AutosaveURL

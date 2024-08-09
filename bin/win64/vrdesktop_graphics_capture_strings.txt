@@ -15,8 +15,8 @@
  for detail.
  formatting error code 
 !! refusing to trigger minidump with debugger attached
-!3h^A
 !hn7!
+${o8*8
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -182,7 +182,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240808231213Z0/
+240809201139Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -327,6 +327,7 @@ Access to desktop duplication lost for desktop %d.
 AttachThreadInput
 AttemptSendInput failed.
 AuthD
+B,OL6
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -725,7 +726,7 @@ TlsFree
 TlsGetValue
 TlsSetValue
 TryGetNextFrame
-U%	WT
+U@r6(
 UATAUAVAWH
 USER32.dll
 USVATAUAWH
@@ -805,7 +806,6 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
-\P'Y,$
 \u=H;
 ]J<0"0i3
 ]g@8yhu
@@ -859,7 +859,6 @@ _seh_filter_dll
 `A_A^A]A\_^[
 `A_A^A]A\_^]
 a7hIw
-a8z+),
 abort
 additional six characters expected to parse unicode surrogate pair.
 api-ms-win-core-errorhandling-l1-1-0.dll
@@ -885,7 +884,6 @@ api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 assert json failed
-b<|aFh
 bad allocation
 bad array new length
 bad conversion
@@ -930,6 +928,7 @@ french
 german
 gfffffffH
 gfffffffI
+go0r(
 greek
 h_^[]
 handlers
@@ -972,6 +971,7 @@ l2|X/gGe
 latam
 list<T> too long
 m0k0$
+m@uQL
 m_nMaxLogBufferingSize > 0
 m_pCursorTexture
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -982,13 +982,13 @@ memcpy
 memmove
 memset
 message_id
+mqB$y
 nb_no
 nl_nl
 norwegian
 ntelD
 ole32.dll
 openvr_api.dll
-oucp7
 overlay_key
 pA_A^A\_^][
 pA_A^_
@@ -1041,7 +1041,6 @@ t$0H;
 t$@H=
 t$PH=
 t:I;>t
-tW/6[
 tXfff
 tchinese
 terminate
@@ -1076,6 +1075,7 @@ vr::VROverlay()->SetOverlayTexture( m_ulOverlayPointerHandle, &texture )
 vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
+w+D#M
 window_view_created
 window_view_destroyed
 windows

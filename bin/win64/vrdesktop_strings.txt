@@ -3,7 +3,6 @@
 												
 																																												
 	!s99
-	/o'&w<I
  %41g
  A_A^A\
  A_A^A]A\_
@@ -17,7 +16,6 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached
 !hn7!
-#B1#FU
 %%.%dg
 %s%s%s%s%s
 ' is not a number.
@@ -33,12 +31,11 @@
 (t$@H
 (|$ H
 )D$ L
-)o_ZU
+)D\/o
 )t$ H
 )t$0H
 )t$@H
 *uXI;
-+,W.T
 +Xt@(
 +o'q)}
 , last executing in 
@@ -169,7 +166,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240808231200Z0/
+240809201129Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -182,7 +179,6 @@
 380115120000Z0b1
 3mq+<
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
-4|c;W
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
@@ -193,6 +189,7 @@
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
 8_^][
+;mgzq
 < t+<
 </u#H
 <0:08
@@ -363,6 +360,7 @@ D$`I;
 D$`fI
 D$pE3
 D$pL;
+D$vL:K
 D$xH;
 D3D11CreateDevice
 D3D11CreateDevice failed.
@@ -432,6 +430,7 @@ Failed to reinitialize output duplication for desktop %d, updating description.
 Failed to set thread %p priority: invalid priority %d
 Failed to update pointer overlay for desktop %d.
 FormatMessageA
+G+K1+N
 GDI32.dll
 GetCurrentProcessId
 GetCurrentThread
@@ -574,12 +573,11 @@ LoadCursorA
 LoadLibraryA
 LocalFree
 LocalizationManager
+L{('9v
 M H1E
-M&JtQj{Pn
 M98u/
 MB(iVR
 MSVCP140.dll
-MaM3>C!]
 Mailbox %s received message %s, which it didn't have a handler for
 MainThrd
 Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
@@ -590,7 +588,6 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 NPH9Q
-O"77xY
 OpenProcess
 Out of thread local storage!
 PA^_^
@@ -699,7 +696,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s
 Washington1
 Will not cache name for PID: %d, reason: %d
-Xs~W	!
 Y9"SD
 [K]taM?
 \$ E3
@@ -712,6 +708,7 @@ Y9"SD
 \$`H+
 \$hI;
 \$pI;
+\'wH"
 \u=H;
 ]J<0"0i3
 ]g@8yhu
@@ -760,6 +757,7 @@ _invalid_parameter_noinfo_noreturn
 _purecall
 _register_onexit_function
 _seh_filter_dll
+` gjM
 `.rdata
 `A_A^A]A\_^]
 a7hIw
@@ -885,6 +883,7 @@ ro_ro
 romanian
 ru_ru
 russian
+s(PJW
 sc_schinese
 schinese
 shcore.dll
@@ -965,7 +964,6 @@ zh_tw
 |$hH9>ueH
 |$pH+
 |Lu?c
-|z\kZfYkV
 }LuHO
 ~qj#k"
 ~t&LN

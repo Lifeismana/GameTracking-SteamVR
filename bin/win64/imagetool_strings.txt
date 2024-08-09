@@ -32,7 +32,6 @@
 	6X	b
 	9	=	=	X	a	
 	<	<	>	L	M	M	Q	T	b	c	
-	AQXK~
 	Cluster Threshold = %g
 	H)D$HH
 	I'~:bI'
@@ -1724,7 +1723,6 @@ $I",(
 $M$|$
 $RJSz1
 $a&..
-$egUX
 $lumi
 $rGM4
 $tech
@@ -3722,7 +3720,7 @@ $wtpt
 230x323
 2384x3370
 24 24
-240808230657Z0/
+240809200646Z0/
 241009235959Z0a1
 2448x3168
 249x354
@@ -3878,7 +3876,6 @@ $wtpt
 4x3+2+1:-,1,1,0 -,1,1,- 0,1,1,-
 4x3+2+1:0,1,1,- -,1,1,- -,1,1,0
 4xccV6
-4xhrJ
 5 _2`y
 504x648
 515x728
@@ -3915,6 +3912,7 @@ $wtpt
 6MQ8u
 6OB,n_
 6gc6n
+6l/:Q^
 6p#F'
 6ukE3
 6x6+0+0
@@ -3945,6 +3943,7 @@ $wtpt
 7H;H(
 7H;O }
 7P.F!
+7`Sjj
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 7v,=p
 8't#H
@@ -4114,6 +4113,7 @@ $wtpt
 9|$`tVH
 9|$x~
 : %s %s %s
+:!xWi2?
 :#u,A
 :+}9-}9/}:0|:1w:3s8/p6,o8-n7+n6/k4,g3*`.$p8/
 :,~:/~:0{90y8/w9/v90t:.q6-n3+k4)e1%s=2
@@ -5574,6 +5574,7 @@ BSCALE  =         %E
 BT$hH
 BX9BHu
 BXOA(
+BX~Pi
 BZERO   =         %E
 B\|V\I
 B^rC^N
@@ -11754,7 +11755,7 @@ ROMAN
 RR Interval Window Number
 RR Window Offset
 RR5RS]RT
-RSDSg
+RSDSLy@
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -14236,7 +14237,6 @@ Yacute
 YbZ6[
 YdJ.0.//-/1.21.30-3/,2-*-*+,+,*)-+(,-',+(),*)--+/-,.+*/+)4,)6/*;3.=40;1-;/.>/.>3,59/93,O,'i:-
 Ydieresis
-Ye5YmNM
 Yellow
 YellowGreen
 Yj E;
@@ -14522,6 +14522,7 @@ Zoom Select Status
 ^5NP0
 ^5TQ0
 ^?y?^?
+^H @D
 ^M:^M:^M:^M:^M:_L7^N9VNAaXYo`mmdppx
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
 ^oEZ_
@@ -15620,6 +15621,7 @@ d:HrxV
 d? je?a lub o?m skrzy? fig.
 dB/dt
 dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
+d]&Y-
 d_7y3B
 dagger
 daggerdbl
@@ -17091,6 +17093,7 @@ gview
 g{eWgL330551883=<6DC9GG>JI;MI6IE7MHJH@9E;+C9-?80>83=71>94@=9IA6P@-H?-K81C745=0@?/
 h	x\[`
 h VWAUAVAWH
+h-v`#
 h4tF9k
 h4tH9k
 h7CM*
@@ -17948,7 +17951,6 @@ myanmar
 n	&&&
 n == 0 || string != NULL
 n L9N
-n [0X
 n b?l?i.
 n(I;.|
 n10-/.,43/892>?5GD;OK8MK4XWW
@@ -20796,7 +20798,6 @@ xps:mono
 xx-large
 xx-small
 y H+y
-y ]	R
 y-resolution
 y8fff
 y8udL

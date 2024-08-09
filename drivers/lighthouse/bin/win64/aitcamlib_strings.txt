@@ -164,7 +164,6 @@
 /user/wrist/right
 /width
 0 width
-0)Bl,v
 0-pixel image
 0A_A^A]A\^
 0A_A^_
@@ -173,13 +172,12 @@
 0}0i1
 1/2/4/8/16-bit only
 130801120000Z
-1m|0iE
 210429000000Z
 211007000000Z
 220323000000Z
 220801000000Z
 230714000000Z
-240808230354Z0/
+240809200356Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -352,12 +350,12 @@ EventRegister
 EventUnregister
 EventWriteString
 EventWriteTransfer
+F5/y>-=
 FORMAT=32-bit_rle_rgbe
 Failed
 Failed to acquire raw camera block for writing: %d
 Failed to join thread CameraWorkThread /+/ TID: %d
 FailedToGetFirmwareVersion
-Fh,TL
 FreeLibrary
 GetCameraHALInterface
 GetCurrentProcessId
@@ -454,6 +452,7 @@ Lcl$$I
 LeaveCriticalSection
 Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
 LoadLibraryA
+M	VNt
 M H1E
 MB(iVR
 MSVCP140.dll
@@ -468,7 +467,6 @@ OutputDebugStringA
 PA^_^
 PA_A^A]A\[
 PAq=?Mp#
-PXZSm
 PauseCamera
 PauseCamera (delayed...)
 PauseCamera (immediate)
@@ -479,6 +477,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R$fE;B*
 RPCRT4.dll
+RSDSfGU>I|@N
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -494,6 +493,7 @@ SPB8u,
 SUVWATAUAVAWH
 SUVWAUAVAWH
 SWAUAVH
+Sdc"j
 SetEvent
 SetUnhandledExceptionFilter
 ShutdownCameraHAL
@@ -587,7 +587,6 @@ Washington1
 WorkerThreadInitFailed
 XXXX PNG chunk not known
 Y9"SD
-Yq{bN`
 Z9k0tUD
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
@@ -706,6 +705,7 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
+b{=nq
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
@@ -763,6 +763,7 @@ invalid
 invalid PLTE
 invalid decoded scanline length
 invalid filter
+it'VE
 it_it
 italian
 ix`fA
@@ -801,7 +802,6 @@ memmove
 memset
 missing color table
 multiple IHDR
-n8KXp
 nb_no
 nl_nl
 no IDAT
@@ -904,6 +904,7 @@ unsupported bit depth
 unsupported data layout
 unsupported format
 v=Y]Bv
+v={Kv0
 vHcD$LH
 vi_vn
 vietnamese

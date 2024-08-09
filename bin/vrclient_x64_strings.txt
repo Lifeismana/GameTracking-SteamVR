@@ -397,7 +397,6 @@ $w!Hc
 &D9c0t
 &D9k0t
 &D9{0t
-&cxe\w\)
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -416,6 +415,7 @@ $w!Hc
 ',=?k
 '. Must be /action/<set>/in/<action> or /action/<set>/out/<action>.
 '.5<=6/7>????????????????
+'2	}r
 '9k0t
 'D9c0t
 '[', '{', or a literal
@@ -660,6 +660,7 @@ $w!Hc
 , err = 
 , last executing in 
 , requestedBytes 
+,-q}X
 ,9k0t%H
 ,9{0t%H
 ,H;D$ 
@@ -2174,11 +2175,10 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240808231100Z0/
+240809201041Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
-2[n)8
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
 311109235959Z0b1
@@ -2669,6 +2669,7 @@ A;Ydr
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ADVAPI32.dll
+AK1!:w3
 ALVRDisplayInit
 ALVRInit
 APH+AHH
@@ -4357,7 +4358,6 @@ H+t$ H
 H+t$@H
 H+|$ H
 H-^Eu
-H0+q0
 H8A9Y
 H8H+H0H
 H8H+H0L
@@ -5717,6 +5717,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R$fE;B*
 RPCRT4.dll
+RSDS_D:e
 RadialMenu missing X axis input.
 RadialMenu missing Y axis input.
 RadialMenu setting 'num_buttons' not specified.
@@ -5797,6 +5798,7 @@ RtlLookupFunctionEntry
 RtlVirtualUnwind
 Running_OK
 Running_OutOfRange
+S(WTK
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
@@ -6055,6 +6057,7 @@ T$xHcM8
 T$xL+
 T$xM+
 TANGENT
+TC[#!
 TEXCOORD
 TEXCOORD_0
 TIMEOUT
@@ -7036,6 +7039,7 @@ VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate semaphore
 VulkanVRRenderer::ImportSemaphoreFromSharedHandle - Failed to allocate shared semaphore.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture handle.
 VulkanVRRenderer::ImportTextureFromSharedHandle - Failed to allocate shared texture.
+V|0,4
 W0H;C
 W4H;C
 W8H+W`I
@@ -7098,7 +7102,6 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s
 X UVWH
 X UWATAUAWH
-X$a0d
 X8Hc@@H
 X8Hc@@L
 XA\_^[
@@ -8117,6 +8120,7 @@ ZvFailed to create fence %ls.
 ^8I9^@
 ^9k0tWD
 ^L$\A
+^Pq.2
 _(I9_0t;E3
 _8H9_@
 _8H;_@t
@@ -8149,7 +8153,6 @@ _RDATA
 _Strcoll
 _Strxfrm
 _TEST
-_Tb`W
 _Thrd_id
 _Thrd_join
 _Thrd_start
@@ -9059,7 +9062,6 @@ it->nRefCount > 0
 it_it
 italian
 ix`fA
-j9')_h
 ja_jp
 japanese
 jj@0HK4
@@ -9331,7 +9333,6 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o1nb]
 o@@fD
 oD$ fD
 oD$0f
@@ -9390,6 +9391,7 @@ p UWATAUAWH
 p UWAUAVAWH
 p UWAVH
 p WATAUAVAWH
+p5	7~1%/
 pA]A\^
 pA]A\^[]
 pA]A\_
@@ -9460,6 +9462,7 @@ pl_pl
 playAreaColor
 play_area
 playing
+poA%	C&tF[V
 polish
 portuguese
 pose_component

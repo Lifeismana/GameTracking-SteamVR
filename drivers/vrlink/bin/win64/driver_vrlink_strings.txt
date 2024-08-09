@@ -599,7 +599,6 @@ $w!Hc
 .?AV<lambda_0b576e197e80ec5420214b8282236e54>@@
 .?AV<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@
 .?AV<lambda_1b183cf92bfcc7a986ca41b48af450da>@@
-.?AV<lambda_22f724ec8255c5484e5e8fe6e1e34dae>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_38ef07f3fefd4e69df6b0f4cad3fcd58>@@
 .?AV<lambda_3a0e9dd34797aa579b142ade480c735b>@@
@@ -607,7 +606,6 @@ $w!Hc
 .?AV<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@
 .?AV<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@
 .?AV<lambda_76b893375c6dd71409cfaed387a60af4>@@
-.?AV<lambda_78d7875e7ee8c5c585094650047333d4>@@
 .?AV<lambda_799c7abc4438a41176f8868c6149585d>@@
 .?AV<lambda_7b6f6392411fd0bed81b6492ee534b9b>@@
 .?AV<lambda_8137bacb2ec4a212e8515c6b4689164d>@@
@@ -617,6 +615,8 @@ $w!Hc
 .?AV<lambda_8c41f96c9266656aa778846b9a081afc>@@
 .?AV<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@
 .?AV<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@
+.?AV<lambda_9b6d1a00674c00ebe3a218c26d11db0d>@@
+.?AV<lambda_9e22a490ed44db458c470077f1602590>@@
 .?AV<lambda_a0d91b9aeef06787ac429e810bc7da17>@@
 .?AV<lambda_a3e50aa671c83e58801967e93e8597ee>@@
 .?AV<lambda_a484c5d48bbdf8926a107b4eb4e1349a>@@
@@ -666,7 +666,6 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_0b576e197e80ec5420214b8282236e54>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1b183cf92bfcc7a986ca41b48af450da>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_22f724ec8255c5484e5e8fe6e1e34dae>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_38ef07f3fefd4e69df6b0f4cad3fcd58>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3a0e9dd34797aa579b142ade480c735b>@@XW4ValueTransportID@@_N@std@@
@@ -674,7 +673,6 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_76b893375c6dd71409cfaed387a60af4>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_78d7875e7ee8c5c585094650047333d4>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_799c7abc4438a41176f8868c6149585d>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7b6f6392411fd0bed81b6492ee534b9b>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8137bacb2ec4a212e8515c6b4689164d>@@X$$V@std@@
@@ -684,6 +682,8 @@ $w!Hc
 .?AV?$_Func_impl_no_alloc@V<lambda_8c41f96c9266656aa778846b9a081afc>@@XW4EControlConnectMessageType@@PEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9b6d1a00674c00ebe3a218c26d11db0d>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9e22a490ed44db458c470077f1602590>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a0d91b9aeef06787ac429e810bc7da17>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a3e50aa671c83e58801967e93e8597ee>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a484c5d48bbdf8926a107b4eb4e1349a>@@XW4ValueTransportID@@_N@std@@
@@ -1114,7 +1114,7 @@ $w!Hc
 220801000000Z
 230714000000Z
 2333333
-240808230637Z0/
+240809200634Z0/
 241009235959Z0a1
 2D$x2
 2D$x@2
@@ -1243,7 +1243,6 @@ $w!Hc
 : p		fA
 : x		fA
 : z		f
-:S{smu0
 :fff?
 ;	u;3
 ; expected 
@@ -2187,7 +2186,6 @@ DEBUGGER FULL RESET STREAM
 DEBUGGER RESET STREAM
 DISABLED
 DPing
-DS_.^w
 DSend
 Dashboard tutorial dismissed
 Data Link Startup with Options: nTimedRetryOption = %d, nQoSOption = %d
@@ -3021,7 +3019,6 @@ JSON string too short.
 J`H;L
 Jv=O%
 Jv=Q#
-K)m\;
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
@@ -3194,6 +3191,7 @@ L?n(Zy&
 LDHfA
 LINEAR
 LZsYCB
+La@*:
 LaserMouseHmdAngleDegrees %f
 LastKnown
 Late init successful
@@ -3364,6 +3362,7 @@ NvEncodeAPIGetMaxSupportedVersion
 O3,'H
 O44h\
 OPAQUE
+OPi;!
 OSCInPort
 OSCOutPort
 OUT %d
@@ -3393,7 +3392,6 @@ Out of thread local storage!
 OutputDebugStringA
 OutputDebugStringW
 Overriding Quest specific properties for %s
-OwN@m$}j?ylA
 P	bQ}J
 P	bq}K
 P(D9}w
@@ -3417,6 +3415,7 @@ PA_A^_^]
 PA__^
 PAq=?Mp#
 PCG@y
+PN`lA\
 PPxD<<%
 PRECODE
 Pair: %s
@@ -5765,13 +5764,13 @@ gfffffffI
 ggV}++
 global
 greek
+gx.Kh
 h	bQ}J
 h	bq}K
 h8,4$
 hA\^][
 hA]A\
 hA_A^A]_[]
-hRcJu(=
 h\44Q
 hand_right_poses.glb
 handle_link_button
@@ -6980,12 +6979,12 @@ useOSCFace
 usePool
 useSpecialFloats
 user_interaction_click_info
-usuCa?Q
 u}L9|$`rxH
 v=Y]Bv
 vD;EHL
 vE;E`M
 vHcD$LH
+vZW@&
 value
 values
 valve.steam.desktopgame.
@@ -7408,8 +7407,8 @@ zo|$`
 |$xL;
 |(bR}HZQ
 |Lu?c
+|`0d_
 }0H9U
-}8`[~;xnb
 }HX!b
 }HX"b
 }HX&b
@@ -7467,6 +7466,7 @@ zo|$`
 ~Hot5
 ~T$dE3
 ~XH9~`t+H
+~b)"+
 ~qj#k"
 ~t&LN
 ~~zG==

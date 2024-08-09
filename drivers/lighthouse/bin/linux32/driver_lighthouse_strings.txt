@@ -2797,6 +2797,7 @@ $tI
 2
 2.0
 20
+20:02:05
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20CVRTrackedDevice_004
@@ -2815,7 +2816,6 @@ $tI
 22IVRDisplayComponent001
 22IVRDisplayComponent002
 23
-23:02:11
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -3062,7 +3062,7 @@ Attempting HID Open %s: %s
 Audio
 AudioBridge
 Aug
-Aug  8 2024
+Aug  9 2024
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)

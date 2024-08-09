@@ -15,6 +15,7 @@
 (f*^[0
 +Xt@(
 +o'q)}
+,3(DAT
 ,W5y+
 .00cfg
 .?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
@@ -106,6 +107,8 @@
 .tls$ZZZ
 .xdata
 .xdata$x
+/$NoiR 
+/FbbG
 0A^_]
 0A_A^A]A\_^[
 0w0c1
@@ -117,7 +120,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240808230238Z0/
+240809200251Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -129,12 +132,14 @@
 370322235959Z0c1
 380115120000Z0b1
 3mq+<
+3xf5x
 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
 5FjiT
 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
 6*f(_
 6I]Dc
 6OB,n_
+6[W$a"
 70503
 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
@@ -258,7 +263,6 @@ Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.cr
 Pz}b!
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS`
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -319,7 +323,6 @@ Y9"SD
 \$ UH
 \$(H;
 \$Xfff
-]"s1jfL
 ]J<0"0i3
 _CxxThrowException
 _Mtx_destroy_in_situ
@@ -384,6 +387,7 @@ memmove
 memset
 ntelD
 ole32.dll
+pRW$v
 sourceResolution == m_path.SourceResolution().Value()
 string too long
 strncpy
@@ -401,14 +405,11 @@ vector<T> too long
 winrtdisplay.dll
 www.digicert.com1!0
 www.digicert.com1$0"
-y+=7<Q
 {un'%
 |$ AVH
 |$0E3
 |$xMi
 |Lu?c
-|VMwA
 }LuHO
-}RIFu
 ~qj#k"
 ~t&LN

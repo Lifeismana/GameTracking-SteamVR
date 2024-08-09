@@ -30,9 +30,9 @@
  H3E H3E
  for detail.
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
+ jy3 
  t;A;
 !hn7!
-#pgOm
 %%.%dg
 %2.2X
 %8.8X
@@ -77,7 +77,6 @@
 %s: Timeout.
 %s: Unknown component type %d.
 %s: WriteFile failed! (%s)
-%vv-\
 ' is not a number.
 ',=?k
 ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
@@ -230,7 +229,7 @@
 220323000000Z
 220801000000Z
 230714000000Z
-240808230403Z0/
+240809200404Z0/
 241009235959Z0a1
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
@@ -263,13 +262,13 @@
 9\u4H
 9sdu	@8s
 ::LHB::%4.4X %s
-:FD,C?<
 :\u-L
 :\u6L
 </u#H
 <0:08
 <= Exiting Context: (%.2f seconds)
 <Bu'H
+<r4do
 ======================
 ==============================
 => Entering Context
@@ -467,7 +466,6 @@ Bootloader Mode
 C$9C w
 C(I9F(
 C0L9$
-CC3p?f
 CD$(H
 CD$0D
 CD$0H
@@ -621,7 +619,6 @@ DosDateTimeToFileTime
 Driver version is %d.%d.%d.%d but should be %d.%d.%d.%d
 Driver version: %s
 DuplicateHandle
-Dy#o^
 E9e ~7I
 Empty escape sequence in string
 EnterCriticalSection
@@ -784,7 +781,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing manifest file %s from %s
-MsnMP
+N!,$$
 Nonce:    %d
 O(H9N(|
 OXL9OPt
@@ -1149,7 +1146,6 @@ bin_file
 blank
 bootloader
 buffer error
-c*cIw
 c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
 cntrl
@@ -1168,6 +1164,7 @@ expecting another \u token to begin the second half of a unicode surrogate pair
 fD9&u
 fD9>uF
 false
+fbH)|
 fclose
 file error
 fputs
@@ -1244,14 +1241,16 @@ oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 p UWATAVAWH
+pL=2:
 print
 punct
 r*=/N
+r+kjf
 r9=/N
+rcchp
 realloc
 runas
 s#fff
-s0"(-OhZ
 soH9t$@t
 space
 stoi argument out of range
@@ -1365,8 +1364,8 @@ xdigit
 |$`H+
 |$pE2
 |$xH;
+|+W|h
 |Lu?c
-|p!0~
 }LuHO
 ~qj#k"
 ~t&LN
