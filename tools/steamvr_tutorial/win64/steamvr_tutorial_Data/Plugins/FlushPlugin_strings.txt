@@ -1,267 +1,163 @@
                           
-        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
-      </requestedPrivileges>
-      <requestedPrivileges>
-    </security>
-    <security>
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- A^_^
- A_A^A\
- A_A^A\_^
- tDE3
-!This program cannot be run in DOS mode.
-!t$(H!t$ I
-#fD9M
--64OS
-.pdata
-.text
-0A_A^A]
-0A_A^A]A\_
-1#IND
-1#INF
-1#QNAN
-1#SNAN
-80tVD
-8D$8t
-< tD<	t@
-</assembly>
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
-@.data
-@.reloc
-@.rsrc
-@A_A^A]A\_
-@SUVWATAVAWH
-@SUVWAVH
-@SUVWH
-@SVWH
-@UATAUAVAWH
-@USVWH
-A81t@@8r
+abcdefghijklmnopqrstuvwxyz
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-ATAVAWH
-AUAVAWH
-A^A\_
-A^_^][
-A_A^A\_^
-A_A^A]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^]
-A_A^_
-April
-August
-AuthA
-C:\Development\NativeRenderingPlugin\RenderingPlugin\VisualStudio2013\x64\Release\FlushPlugin.pdb
-CloseHandle
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CompareStringEx
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+kU'9
+HMXB
+?q=\n
+?Zd;
+?/L[
+S;uD
+z?aUY
+D?$?
+U>c{
+zc%C1
+.:3q
+-64OS
+NKeb
 CorExitProcess
-CreateEventExW
-CreateFileW
-CreateSemaphoreExW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
-D!l$h3
-D$(E3
-D$0L9
-D$XD+
-D$p H
-D+moA
-D82u&H
-D8L$Ht
-D8t$Ht
-D9l$`
-D9l$dtXH
-D9|$ 
-December
-DecodePointer
-DeleteCriticalSection
-EncodePointer
-EnterCriticalSection
-EnumSystemLocalesEx
-ExitProcess
-February
 FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
-FlushFileBuffers
-FlushPlugin.dll
+InitializeCriticalSectionEx
+CreateEventExW
+CreateSemaphoreExW
+SetThreadStackGuarantee
+CreateThreadpoolTimer
+SetThreadpoolTimer
+WaitForThreadpoolTimerCallbacks
+CloseThreadpoolTimer
+CreateThreadpoolWait
+SetThreadpoolWait
+CloseThreadpoolWait
 FlushProcessWriteBuffers
-FreeEnvironmentStringsW
 FreeLibraryWhenCallbackReturns
-Friday
-GetACP
-GetActiveWindow
-GetCPInfo
-GetCommandLineA
-GetConsoleCP
-GetConsoleMode
-GetCurrentPackageId
-GetCurrentProcess
-GetCurrentProcessId
 GetCurrentProcessorNumber
-GetCurrentThreadId
-GetDateFormatEx
-GetEnvironmentStringsW
-GetFileInformationByHandleExW
-GetFileType
-GetLastActivePopup
-GetLastError
-GetLocaleInfoEx
 GetLogicalProcessorInformation
-GetModuleFileNameA
-GetModuleFileNameW
-GetModuleHandleExW
-GetModuleHandleW
-GetOEMCP
-GetProcAddress
-GetProcessHeap
-GetProcessWindowStation
-GetRenderEventFunc
-GetStartupInfoW
-GetStdHandle
-GetStringTypeW
-GetSystemTimeAsFileTime
-GetTickCount64
+CreateSymbolicLinkW
+SetDefaultDllDirectories
+EnumSystemLocalesEx
+CompareStringEx
+GetDateFormatEx
+GetLocaleInfoEx
 GetTimeFormatEx
 GetUserDefaultLocaleName
-GetUserObjectInformationW
-H3E H3E
+IsValidLocaleName
+LCMapStringEx
+GetCurrentPackageId
+GetTickCount64
+GetFileInformationByHandleExW
+SetFileInformationByHandleW
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+March
+April
+June
+July
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
 HH:mm:ss
-HcD$PH;
-HcH<H
-HcM H
-Hct$@H
-HeapAlloc
-HeapFree
-HeapReAlloc
-HeapSize
-InitializeCriticalSectionAndSpinCount
-InitializeCriticalSectionEx
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+MessageBoxW
+GetActiveWindow
+GetLastActivePopup
+GetUserObjectInformationW
+GetProcessWindowStation
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+e+000
+1#SNAN
+1#IND
+1#INF
+1#QNAN
+RSDS
+C:\Development\NativeRenderingPlugin\RenderingPlugin\VisualStudio2013\x64\Release\FlushPlugin.pdb
+\fp\v`
+\vp\n`
+\vp\n`
+\vp\n`
+FlushPlugin.dll
+GetRenderEventFunc
+UnityPluginLoad
+GetCommandLineA
+GetCurrentThreadId
 IsDebuggerPresent
 IsProcessorFeaturePresent
-IsValidCodePage
-IsValidLocaleName
-January
-KERNEL32.dll
-L$0H;
-L$8H3
-L$@E3
-L$Df;
-L$HH3
-L$`H3
-L$hE3
-L$pH3
-L$xH3
-LCMapStringEx
-LCMapStringW
-LcA<E3
-LeaveCriticalSection
-LoadLibraryExW
-MM/dd/yy
-March
-MessageBoxW
-Monday
+GetLastError
+SetLastError
+EncodePointer
+DecodePointer
+ExitProcess
+GetModuleHandleExW
+GetProcAddress
 MultiByteToWideChar
-November
-October
-OutputDebugStringW
-PA^_^
-PA_A^A\_^][
+WideCharToMultiByte
+GetProcessHeap
+GetStdHandle
+GetFileType
+DeleteCriticalSection
+GetStartupInfoW
+GetModuleFileNameA
+HeapFree
 QueryPerformanceCounter
-Rich>Y
+GetCurrentProcessId
+GetSystemTimeAsFileTime
+GetEnvironmentStringsW
+FreeEnvironmentStringsW
 RtlCaptureContext
 RtlLookupFunctionEntry
-RtlUnwindEx
 RtlVirtualUnwind
-Saturday
-September
-SetDefaultDllDirectories
-SetFileInformationByHandleW
-SetFilePointerEx
-SetLastError
-SetStdHandle
-SetThreadStackGuarantee
-SetThreadpoolTimer
-SetThreadpoolWait
+UnhandledExceptionFilter
 SetUnhandledExceptionFilter
+InitializeCriticalSectionAndSpinCount
 Sleep
-Sunday
-T$&@8t$&t9@8r
-T$PE3
-T$`E3
+GetCurrentProcess
 TerminateProcess
-Thursday
 TlsAlloc
-TlsFree
 TlsGetValue
 TlsSetValue
-Tuesday
-UVWATAUAVAWH
-UWAVH
-UnhandledExceptionFilter
-UnityPluginLoad
-VWATAVAWH
-VWAVH
-WATAUAVAWH
-WATAVH
-WaitForThreadpoolTimerCallbacks
-Wednesday
-WideCharToMultiByte
-WriteConsoleW
+TlsFree
+GetModuleHandleW
+RtlUnwindEx
+EnterCriticalSection
+LeaveCriticalSection
+IsValidCodePage
+GetACP
+GetOEMCP
+GetCPInfo
 WriteFile
-\$ UH
-\$ UVWATAUAVAWH
-\$ WH
-\$0D9=
-\$0H3
-\$0H;
-` AUAVAWH
-`.rdata
-`A^_]
-abcdefghijklmnopqrstuvwxyz
-cAMDD
-dddd, MMMM dd, yyyy
-e+000
-entiE
-fD90t
-fD93u
-fffff
-fffffff
-gfffA
-gfffffffH
-l$ VWATAVAWH
-l$XD+
-ntelD
-p AWH
-r=D8v
-sYHcL$HH
-t$ UH
-t$ WATAUAVAWH
-t$ WAVAWH
-t$ WH
-t$8H+
-t$8Hc0I
-t$@fA
-tcH95
-u	A!B
-x ATAVAWH
-x AUAVAWH
-x AVH
-x_^][
-z?aUY
-zc%C1
-|$ H;
-|$ UATAUAVAWH
-|$0-H
-|$@-D
-|$@-H
-|$PD;
+GetModuleFileNameW
+LoadLibraryExW
+HeapAlloc
+HeapReAlloc
+GetStringTypeW
+OutputDebugStringW
+HeapSize
+LCMapStringW
+FlushFileBuffers
+GetConsoleCP
+GetConsoleMode
+SetStdHandle
+SetFilePointerEx
+WriteConsoleW
+CloseHandle
+CreateFileW
+KERNEL32.dll

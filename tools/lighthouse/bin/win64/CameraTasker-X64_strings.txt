@@ -1,69 +1,330 @@
-	kE>fvw
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- 'L>[
- A^_^
- A_A^A\
- A_A^A\_^
- A_A^A]A\^
- A_A^A]A\_
- A_A^_
- Base Class Array'
- Base Class Descriptor at (
- Class Hierarchy Descriptor'
- Complete Object Locator'
- H3E H3E
- Type Descriptor'
- delete
- delete[]
- new[]
- t?D9
- tDE3
- vJH+
-!,X< w
-!>6'Y
-!This program cannot be run in DOS mode.
-%s:AITROMAPI_OpenDevice() is failed!!
-%s:CoCreateInstance(hr=0x%x) is failed!!
-%s:CoGetMalloc() is failed!!
-%s:CreateClassEnumerator(hr=0x%x) is failed. Couldn't create class enumerator!!
-%s:Handle is NULL
-%s:get_NumNodes(result:0x%x) is failed!!
-%s:new AitDeviceConfig is failed!!
-%s:pClassEnum is NULL. No video capture device was detected!!
-%s:pDevHandle is NULL
-%s:pFilter is NULL!!
-%s:pHandle is NULL
-%s:pKsInfo is NULL!!
-%s:pMoniker->GetDisplayName() is failed!!
-%s\ait_setting.ini
-'D8l$@
-( 8PX
-('8PW
-(null)
-(t$PH
-(t$pH
-)>6{1n
-)t$pH
-*StO9>T
-+ !4, !
-+M<7>
-+f)>0'
-+h->|
-,/<-w
-,I<%w
-.00cfg
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
 .?AVAitRomBootConfig@@
 .?AVUsbScsiCmd@@
 .?AVbad_alloc@std@@
-.?AVbad_array_new_length@std@@
-.?AVbad_exception@std@@
 .?AVexception@std@@
-.?AVlength_error@std@@
 .?AVlogic_error@std@@
+.?AVlength_error@std@@
 .?AVout_of_range@std@@
 .?AVtype_info@@
+.?AVbad_array_new_length@std@@
+.?AVbad_exception@std@@
+J\rr3u
+%s\ait_setting.ini
+DeviceVid
+DevicePid
+vid_%.4x&pid_%.4x
+;Hfind_node_by_guid
+%s:get_NumNodes(result:0x%x) is failed!!\n
+CheckXU
+%s:pKsInfo is NULL!!\n
+OpenDevice
+%s:CoCreateInstance(hr=0x%x) is failed!!\n
+%s:CreateClassEnumerator(hr=0x%x) is failed. Couldn't create class enumerator!!\n
+%s:pClassEnum is NULL. No video capture device was detected!!\n
+%s:pMoniker->GetDisplayName() is failed!!\n
+%s:CoGetMalloc() is failed!!\n
+AITAPI_OpenBootloader
+%s:pHandle is NULL\n
+%s:AITROMAPI_OpenDevice() is failed!!\n
+Cannot CloseDeivce()!!\n
+fopen(%s) is failed!!\n
+malloc() is failed!!\n
+fread():a:%ld is failed!!\n
+AITAPI_UpdateFwBootloader
+%s:Handle is NULL\n
+AITROMAPI_LoadUpdater(hr:0x%lx) is failed!!\n
+AITROMAPI_SwitchModePCAM_SF(hr:0x%lx) is failed!!\n
+AITROMAPI_PartialUpdate(hr:0x%lx) is failed!!\n
+AITROMAPI_ResetSystem(hr:0x%lx) is failed!!\n
+AITAPI_OpenAitDevice
+%s:pDevHandle is NULL\n
+Cannot OpenDeivce()!!\n
+%s:pFilter is NULL!!\n
+%s:new AitDeviceConfig is failed!!\n
+string too long
+invalid string position
+Long jump command failed.\r\n
+Failed to select storage type -> AIT_STORAGE_PCAM_SF.\r\n
+Failed to select storage type -> AIT_STORAGE_PCAM_DRAM.\r\n
+Failed to select storage type -> AIT_STORAGE_SPI_NAND.\r\n
+Select storage type 'AIT_STORAGE_SPI_NAND'\r\n
+Failed to select storage type -> AIT_STORAGE_EMMC.\r\n
+Failed to transfer data to device.\r\n
+VSN_V3BC
+VSN_V3FW
+AITROMAPI_UpdateLinuxFwPkg_ file error.\r\n
+Failed to create destination file.\r\n
+Usb transfer failed\r\n
+ChkSum=0x%X\r\n
+\\.\F:
+Set addr div = 1\r\n
+Storage Address Divider=0x%X \r\n
+SendScsiCmdIIn Failed, Erroe=0x%X %s\r\n
+SendScsiCmdIOut Failed, Erroe=0x%X %s\r\n
+Adr=0x%X, Len=0x%X Flag=0x%X\r\n
+Unknown exception
+bad allocation
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+bad array new length
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+InitializeCriticalSectionEx
+bad exception
+__based(
+__cdecl
+__pascal
+__stdcall
+__thiscall
+__fastcall
+__vectorcall
+__clrcall
+__eabi
+__ptr64
+__restrict
+__unaligned
+restrict(
+ new
+ delete
+operator
+`vftable'
+`vbtable'
+`vcall'
+`typeof'
+`local static guard'
+`string'
+`vbase destructor'
+`vector deleting destructor'
+`default constructor closure'
+`scalar deleting destructor'
+`vector constructor iterator'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`virtual displacement map'
+`eh vector constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`copy constructor closure'
+`udt returning'
+`RTTI
+`local vftable'
+`local vftable constructor closure'
+ new[]
+ delete[]
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`managed vector constructor iterator'
+`managed vector destructor iterator'
+`eh vector copy constructor iterator'
+`eh vector vbase copy constructor iterator'
+`dynamic initializer for '
+`dynamic atexit destructor for '
+`vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`managed vector copy constructor iterator'
+`local static thread guard'
+operator "" 
+ Type Descriptor'
+ Base Class Descriptor at (
+ Base Class Array'
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+( 8PX
+700WP
+`h````
+xpxxxx
+('8PW
+700PP
+`h`hhh
+xwpwpp
+(null)
+CorExitProcess
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+March
+April
+June
+July
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+AreFileApisANSI
+GetCurrentPackageId
+GetSystemTimePreciseAsFileTime
+LCMapStringEx
+LocaleNameToLCID
+NAN(SNAN)
+nan(snan)
+NAN(IND)
+nan(ind)
+e+000
+UTF-8
+UTF-16LEUNICODE
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+d8L2
+[aOni*{
+@2&@
+"RP(
+eLK(w
+m\nXo
+FEMh\f
+h0'D
+owM&
+~ $s%r
+@b;zO]
+$qE}
+;*xh
+["93
+iu+-,
+\lo}
+obwQ4
+&Sgw
+R\tE]
+?nz(
+0+L\v
+=87M
+v2!L.2
+\tcQr
+X/4B
+k=yI
+^<V7w
+W&|.
+1#INF
+1#QNAN
+1#SNAN
+1#IND
+UUUUUU
+UUUUUU
+TUUUU
+#Ib?
+\r.3i
+=imb;D
+=W>6
+\vz\t>
+:\t\tr
+>[^j
+>Kb|
++>De
+1<.\t/>:
+11Y@
+/>58d%
+MJ$>
+H\v*>
+>cQ6
+\f!>6'Y
+>jtm}S
+>77:
+)>6{1n
+r\tVr.>T
++f)>0'
+\f4\n>
+.>\f5b
+Lj[;>
+3>fvw
+;H9>&X
+*StO9>T
+.>Tu\n\f.(!>
+p\r>%@
+n03>Pu
+/>\tV
+S9>H
+.\f0>
+x.&>
+K~Je#>!
+-/!>\f
+(>aI
+=cQ6
++M<7>
+*>f[
+o ->
+l(>>
+\n"I\vc(>\,
+ET5>
+;>9l
+mG4>
+bp(=>?g
+36,>
+37>k
+~X3>
+6>J`
+?>!T
+4<>\v0A
+BC?>6t9^\tc:>
+8'>0
+'._M
+=4<,
+BF>^G
+K&>.yC
+B\r)>
+ 'L>[
+.xJ>Hf
+y\PD>!
+|b=})>
+c [1>H'
+dL?>
+uzKs@>
+3>N;kU
+\tkE>fvw
+eF>t
+L>ev
+A>pP&
+V6E>`"(5
+,=>B
+">}t
+0iN>/
++h->|
+@>%>b
+?qBJ
+l@6 
+?-hk
+OZQ%
+?d!\vY
+-)4d
+?:kP<
+?UUUUUU
+?f`Y4
+?QY^&
+?U)#
+g\fG\v
+?ysB
+?\r'u_
+?$G4
+?30]
+G\n&s
+?7zQ6$
+log10
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
 .CRT$XCA
 .CRT$XCL
 .CRT$XCZ
@@ -78,71 +339,54 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.data
-.data$r
-.edata
-.gfids$x
-.gfids$y
-.idata$2
-.idata$3
-.idata$4
-.idata$5
-.idata$6
-.pdata
 .rdata
 .rdata$T
 .rdata$r
 .rdata$zzzdbg
-.reloc
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
-.text$di
-.text$mn
-.text$mn$00
-.text$x
-.text$yd
-.tls$
-.tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
-/>58d%
-0A^_^
-0A_A^A\
-0A_A^A]
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0A_A^_
-0A_A^_^]
-0iN>/
-1#IND
-1#INF
-1#QNAN
-1#SNAN
-1<.	/>:
-3>N;kU
-3>fvw
-700PP
-700WP
-80tWD
-8A_A^A]A\_^][
-8_^][
-9X@u4
-9t$Xt
-;=u~H
-;H9>&X
-;Hfind_node_by_guid
-<	w	@
-< t;<	t7
-<htr<jtb<lt6<tt&<wt
-=imb;D
->jtm}S
-?*u8H
-?7zQ6$
-?:kP<
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data
+.data$r
+.bss
+.pdata
+.gfids$x
+.gfids$y
+.tls
+.tls$
+.tls$ZZZ
+p\r`\fP\v0
+2\v`!
+\fp\vP
+2\vp!
++ !4, !
+r\vp!
+\fp\vP
+\fp\v`
+\fp\v`\t
+\rp\f`\t
+\rp\f`\vP\t
+\fp\vP
+\rp\f`
+\fp\vP
+\rp\f`\vP
+\rp\f`\vP
+\rp\f`\vP
+\rp\f`\vP\n0
+\fp\v`
+\fp\v`
+\rp\f`\vP
+\fp\v`
+\fp\v`
+CameraFirmwareUpgradeDLL.dll
 ?AITROMAPI_BurnFw@@YAJPEAXPEBDPEAI@Z
 ?AITROMAPI_BurnPcCamFw@@YAJPEAXPEBDPEAI@Z
 ?AITROMAPI_BurnPcCamFwPnsV2@@YAJPEAXPEBDPEAI@Z
@@ -169,43 +413,6 @@
 ?AITROMAPI_SwitchModePCAM_SPI_NAND@@YAJPEAXE@Z
 ?AITROMAPI_UpdateLinuxFwPkg@@YAJPEAXPEBDII@Z
 ?AITROMAPI_UpdateLinuxFwPkg_@@YAJPEAXPEBDI@Z
-?H33H
-?QY^&
-?UUUUUU
-?f`Y4
-@.data
-@.gfids
-@.tls
-@8|$^t
-@>%>b
-@A^_^
-@A_A^A\
-@A_A^A]A\_
-@A_A^_
-@SUVH
-@SUVWATAUAVAWH
-@SVAVH
-@SVWATAUAVAWH
-@SVWH
-@UATAUAVAWH
-@UATAVH
-@UAVH
-@USATAUAVAWH
-@USVWATAUAVAWH
-@UVATH
-@UVWH
-@VAUH
-@VAVH
-@VAWH
-@WAVH
-@b;zO]
-A81t@@8r
-A84.u
-A86taH
-A>pP&
-AA,A$
-AA<Fu
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AITAPI_CloseBootloader
 AITAPI_CloseDevice
 AITAPI_EnableUpgradeOldFw
@@ -221,485 +428,95 @@ AITAPI_SetAudioSource
 AITAPI_SuspendPreview
 AITAPI_UpdateFW_842x
 AITAPI_UpdateFwBootloader
-AITROMAPI_LoadUpdater(hr:0x%lx) is failed!!
-AITROMAPI_PartialUpdate(hr:0x%lx) is failed!!
-AITROMAPI_ResetSystem(hr:0x%lx) is failed!!
-AITROMAPI_SwitchModePCAM_SF(hr:0x%lx) is failed!!
-AITROMAPI_UpdateLinuxFwPkg_ file error.
-ATAVAWH
-AUAVAWH
-A^A\]
-A^_^[]
-A^_^][
-A_A\_^]
-A_A^A\
-A_A^A\_]
-A_A^A\_^
-A_A^A]A\[]
-A_A^A]A\]
-A_A^A]A\_
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^_^]
-Adr=0x%X, Len=0x%X Flag=0x%X
-April
-AreFileApisANSI
-August
-AuthE
-B(I9A(
-B.rsrc
-B8|09
-BC?>6t9^	c:>
-BF>^G
-C8<(u
-CA< t(<#t
-CD$pD
-CameraFirmwareUpgradeDLL.dll
-Cannot CloseDeivce()!!
-Cannot OpenDeivce()!!
-CheckXU
-ChkSum=0x%X
-CloseHandle
-CoCreateInstance
-CoGetMalloc
-CoInitialize
-CoUninitialize
-CorExitProcess
-CreateEventW
-CreateFileA
-CreateFileW
-D$ E3
-D$(H;
-D$0A;
-D$0E3
-D$0H;
-D$0H;G
-D$0HcH
-D$3!H
-D$49C
-D$8A;
-D$8E3
-D$8H=
-D$8L9
-D$<E3
-D$@H+
-D$@H;
-D$@H;G
-D$HE3
-D$P I
-D$PA#
-D$PH+
-D$PHc
-D$PHcX H
-D$PI;
-D$`E3
-D$`H;
-D$`Hc
-D$x$H
-D(8Ht}
-D08@t	
-D18 t
-D82u&H
-D88Ht!
-D88Hte
-D8d$H
-D8d$Ht
-D8d$ht
-D8d$pt
-D8l$@t
-D8l$ht
-D8t$Ht
-D98Ht;H
-D9c t
-D9|$ 
-D;-z~
-D<P0I
-DD$$H
-December
+IsBootloaderMode
+getLibVersion
+RaiseException
+GetLastError
+HeapAlloc
+HeapReAlloc
+HeapFree
+HeapSize
+GetProcessHeap
+InitializeCriticalSectionEx
 DeleteCriticalSection
+Sleep
+GetModuleFileNameA
+GetPrivateProfileIntA
+OutputDebugStringA
+CreateFileA
+CloseHandle
 DeviceIoControl
-DevicePid
-DeviceVid
-E'H;G
-E+BHI
-E0HcH
-E0Lcx
-EP*?@
-EncodePointer
+LocalFree
+FormatMessageA
+IsDebuggerPresent
+OutputDebugStringW
 EnterCriticalSection
+LeaveCriticalSection
+KERNEL32.dll
+CoGetMalloc
+CoUninitialize
+CoCreateInstance
+CoInitialize
+ole32.dll
+PathFileExistsA
+PathRemoveFileSpecA
+SHLWAPI.dll
+CreateEventW
+GetModuleHandleW
+GetProcAddress
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetStartupInfoW
+IsProcessorFeaturePresent
+GetCurrentProcess
+TerminateProcess
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+InitializeSListHead
+RtlPcToFileHeader
+RtlUnwindEx
+InitializeCriticalSectionAndSpinCount
+TlsAlloc
+TlsGetValue
+TlsSetValue
+TlsFree
+FreeLibrary
+LoadLibraryExW
+InterlockedFlushSList
+SetLastError
+EncodePointer
+ReadFile
 ExitProcess
-Failed to create destination file.
-Failed to select storage type -> AIT_STORAGE_EMMC.
-Failed to select storage type -> AIT_STORAGE_PCAM_DRAM.
-Failed to select storage type -> AIT_STORAGE_PCAM_SF.
-Failed to select storage type -> AIT_STORAGE_SPI_NAND.
-Failed to transfer data to device.
-February
+GetModuleHandleExW
+MultiByteToWideChar
+WideCharToMultiByte
+GetACP
+LCMapStringW
+GetStdHandle
+GetFileType
+GetConsoleMode
+ReadConsoleW
+SetFilePointerEx
+WriteFile
+GetConsoleCP
 FindClose
 FindFirstFileExA
 FindNextFileA
-FlsAlloc
-FlsFree
-FlsGetValue
-FlsSetValue
-FlushFileBuffers
-FormatMessageA
-FreeEnvironmentStringsW
-FreeLibrary
-Friday
-G0Hc	H
-Genu3
-GetACP
+IsValidCodePage
+GetOEMCP
 GetCPInfo
 GetCommandLineA
 GetCommandLineW
-GetConsoleCP
-GetConsoleMode
-GetCurrentPackageId
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThreadId
 GetEnvironmentStringsW
-GetFileType
-GetLastError
-GetModuleFileNameA
-GetModuleHandleExW
-GetModuleHandleW
-GetOEMCP
-GetPrivateProfileIntA
-GetProcAddress
-GetProcessHeap
-GetStartupInfoW
-GetStdHandle
+FreeEnvironmentStringsW
 GetStringTypeW
-GetSystemTimeAsFileTime
-GetSystemTimePreciseAsFileTime
-H!D$ E
-H!T$0D
-H9\$@u$H
-H;XXs
-H;xXu9
-HA_A]A\_^[
-HH:mm:ss
-HcC H
-HcG(H
-HcH<H
-HcK H
-Hc]`M
-HeapAlloc
-HeapFree
-HeapReAlloc
-HeapSize
-Ht)I;
-I9}(t9H
-InitializeConditionVariable
-InitializeCriticalSectionAndSpinCount
-InitializeCriticalSectionEx
-InitializeSListHead
-InterlockedFlushSList
-IsBootloaderMode
-IsDebuggerPresent
-IsProcessorFeaturePresent
-IsValidCodePage
-J;D10t	H
-January
-K&>.yC
-KERNEL32.dll
-K~Je#>!
-L!|$(L!
-L$ E3
-L$ SUVWH
-L$ SVWH
-L$ UVWATAUAVAWH
-L$ WATAUAVAWH
-L$ WH
-L$&@8t$&t0@8q
-L$0)y
-L$0E3
-L$0H;
-L$0Hc
-L$8H3
-L$8Lc
-L$@;|
-L$@E3
-L$@H3
-L$DE3
-L$HH3
-L$PE3
-L$PH3
-L$XE3
-L$`E3
-L$pH3
-L$xE3
-L(:A:
-L(;A:
-L(;E:
-L(<A:
-L9*u&
-L9`8tA
-LCMapStringEx
-LCMapStringW
-LcA<E3
-LeaveCriticalSection
-Lj[;>
-LoadLibraryExW
-LocalFree
-LocaleNameToLCID
-Long jump command failed.
-M H1E
-MM/dd/yy
-March
-Monday
-MultiByteToWideChar
-N0Hci
-NAN(IND)
-NAN(SNAN)
-November
-O0HcQ
-October
-OpenDevice
-OutputDebugStringA
-OutputDebugStringW
-PathFileExistsA
-PathRemoveFileSpecA
-QueryPerformanceCounter
-RaiseException
-ReadConsoleW
-ReadFile
-RtlCaptureContext
-RtlLookupFunctionEntry
-RtlPcToFileHeader
-RtlUnwindEx
-RtlVirtualUnwind
-S,, <Zw
-SHLWAPI.dll
-SUVWATAUAVAWH
-SUVWAVH
-SVWATAUAVAWH
-SVWATAUAWH
-Saturday
-Select storage type 'AIT_STORAGE_SPI_NAND'
-SendScsiCmdIIn Failed, Erroe=0x%X %s
-SendScsiCmdIOut Failed, Erroe=0x%X %s
-September
-Set addr div = 1
-SetEndOfFile
-SetFilePointerEx
-SetLastError
+FlushFileBuffers
 SetStdHandle
-SetUnhandledExceptionFilter
-Sleep
-SleepConditionVariableCS
-Storage Address Divider=0x%X 
-Sunday
-T$ A;
-T$PD+
-T$PE3
-TUUUU
-TerminateProcess
-Thursday
-TlsAlloc
-TlsFree
-TlsGetValue
-TlsSetValue
-Tuesday
-UATAUAVAWH
-USVWAVH
-UTF-16LEUNICODE
-UTF-8
-UUUUUU
-UVWATAUAVAW
-UVWATAUAVAWH
-UVWATAWH
-UVWAVAWH
-UWAVH
-UnhandledExceptionFilter
-Unknown exception
-Usb transfer failed
-V2BCf
-V2FWf
-V6E>`"(5
-VATAUAVAWH
-VSN2A
-VSN_H
-VSN_V3BC
-VSN_V3FW
-VWATAVAW
-VWATAVAWH
-VWAVH
-WATAUAVAWH
-WAVAWH
-WD8l$@t
-WakeAllConditionVariable
-Wednesday
-WideCharToMultiByte
+CreateFileW
 WriteConsoleW
-WriteFile
-[aOni*{
-\$ E3
-\$ H;
-\$ UH
-\$ UVWATAUAVAWH
-\$ UVWAVAWH
-\$ UVWH
-\$ WH
-\$0H;
-\$@@8=
-\$@H;
-\\.\F:
-^<V7w
-__based(
-__cdecl
-__clrcall
-__eabi
-__fastcall
-__pascal
-__ptr64
-__restrict
-__stdcall
-__thiscall
-__unaligned
-__vectorcall
-`.rdata
-`A^^[
-`A_A^A]A\_^]
-`RTTI
-`copy constructor closure'
-`default constructor closure'
-`dynamic atexit destructor for '
-`dynamic initializer for '
-`eh vector constructor iterator'
-`eh vector copy constructor iterator'
-`eh vector destructor iterator'
-`eh vector vbase constructor iterator'
-`eh vector vbase copy constructor iterator'
-`h````
-`h`hhh
-`local static guard'
-`local static thread guard'
-`local vftable constructor closure'
-`local vftable'
-`managed vector constructor iterator'
-`managed vector copy constructor iterator'
-`managed vector destructor iterator'
-`omni callsig'
-`placement delete closure'
-`placement delete[] closure'
-`scalar deleting destructor'
-`string'
-`typeof'
-`udt returning'
-`vbase destructor'
-`vbtable'
-`vcall'
-`vector constructor iterator'
-`vector copy constructor iterator'
-`vector deleting destructor'
-`vector destructor iterator'
-`vector vbase constructor iterator'
-`vector vbase copy constructor iterator'
-`vftable'
-`virtual displacement map'
-abcdefghijklmnopqrstuvwxyz
-bad allocation
-bad array new length
-bad exception
-bp(=>?g
-c [1>H'
-c(>\,
-cAMDD
-dddd, MMMM dd, yyyy
-e+000
-e0A_A^A]A\]
-eLK(w
-entiA
-fD9*u
-fD90t
-fD94Fu
-fD96u
-fD9t$b
-fF9,Bu
-ffffff
-fffffff
-fopen(%s) is failed!!
-fread():a:%ld is failed!!
-getLibVersion
-gfffA
-gfffffffH
-ineIA
-invalid string position
-iu+-,
-l$ E3
-l$ VWATAVAWH
-l$ WAVAWH
-l$PE3
-log10
-malloc() is failed!!
-n03>Pu
-nan(ind)
-nan(snan)
-ntelE
-obwQ4
-ole32.dll
-operator
-operator "" 
-ot$ H
-p AWH
-pA_A^A]A\_^[
-pA_A^A]A\_^]
-r	Vr.>T
-r 9_ t
-r:D8v
-restrict(
-ri9V vdH
-s WAVAWH
-s4+sP+
-stfE;
-stgE;
-string too long
-t"<.u
-t$ E3
-t$ UH
-t$ UWATAVAWH
-t$ UWAVH
-t$ WATAUAVAWH
-t$ WAVAWH
-t$ WH
-t$(I;
-t$8H+
-t)D8l$@t
-t4McF
-t7HcF
-tCHcP
-tXLcQ
-ttIcF
-u3HcH<H
-uf!T$(H!T$ 
-uzKs@>
-v2!L.2
-vid_%.4x&pid_%.4x
-x ATAVAWH
-x AV3
-x AVH
-x AWH
-xpxxxx
-xwpwpp
-yBNu'
-y\PD>!
-|$ ATAVAWH
-|$ AVH
-|$ D!
-|$ E3
-|$ UATAUAVAWH
-|$ UH
-|$(A^
-|$(I;
-|$0s-
-|$8;3
-|$@-D
-|$@-H
-|$@H;
-|$\.u
-|$`Ic
-|b=})>
-~ $s%r
+SetEndOfFile

@@ -1,505 +1,1085 @@
-
-!
-!*
-!^
-"
-"%s"
-"%s" : %s
-#
-#!/bin/shexit 0
-#g
-$
-$P
-$tI
-%
-%"
-%%.%if%s
-%.*s://%s
-%.18g
-%0.8X%0.4X%0.4X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
-%0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
-%8X%4X%4X%2X%2X%2X%2X%2X%2X%2X%2X
-%8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X
-%A %b %d
-%X
-%d%s
-%d.
-%d:00
-%f
-%i%s
-%lld
-%llu
-%s %s %s %s
-%s (%u)
-%s not implemented
-%s overflow!
-%s%c%s
-%s%c.temp_write_%x
-%s%s
-%s.async%u.tmp
-%s/%s
-%s/.steam/steam
-%s=%s
-%u
-%u : %u
-&
-&#039;
-&AElig;
-&Aacute;
-&Acirc;
-&Agrave;
-&Aring;
-&Atilde;
-&Auml;
-&Ccedil;
-&ETH;
-&Eacute;
-&Ecirc;
-&Egrave;
-&Euml;
-&Iacute;
-&Icirc;
-&Igrave;
-&Iuml;
-&Ntilde;
-&Oacute;
-&Ocirc;
-&Ograve;
-&Oslash;
-&Otilde;
-&Ouml;
-&THORN;
-&Uacute;
-&Ucirc;
-&Ugrave;
-&Uuml;
-&Yacute;
-&aacute;
-&acirc;
-&acute;
-&aelig;
-&agrave;
-&amp;
-&apos;
-&aring;
-&atilde;
-&auml;
-&brvbar;
-&ccedil;
-&cedil;
-&cent;
-&copy;
-&curren;
-&deg;
-&divide;
-&eacute;
-&ecirc;
-&egrave;
-&eth;
-&euml;
-&euro;
-&frac12;
-&frac14;
-&frac34;
-&gt;
-&iacute;
-&icirc;
-&iexcl;
-&igrave;
-&iquest;
-&iuml;
-&laquo;
-&lt;
-&macr;
-&mdash;
-&micro;
-&middot;
-&nbsp;
-&ndash;
-&not;
-&ntilde;
-&oacute;
-&ocirc;
-&ograve;
-&ordf;
-&ordm;
-&oslash;
-&otilde;
-&ouml;
-&para;
-&plusmn;
-&pound;
-&quot;
-&raquo;
-&reg;
-&sect;
-&shy;
-&sup1;
-&sup2;
-&sup3;
-&szlig;
-&thorn;
-&times;
-&trade;
-&uacute;
-&ucirc;
-&ugrave;
-&uml;
-&uuml;
-&yacute;
-&yen;
-&yuml;
-'
-'"
-'j
-(
-("
-(%zu) Descend: %s, (%s), %s
-(%zu) readdir failed to find '%s' in '%s'
-(main)
-(no name set)
-(none)
-)
-)"
-*
-*"
-*.*
-+
-+"
-,
--
-----------------------------------------
--->
-.
-.%c
-...
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(char const*)
+AssertMsgImplementation
+__stack_chk_fail
+__gxx_personality_v0
+__isoc99_sscanf
+strtod
+memcpy
+memset
+free
+localeconv
+malloc
+g_pMemAllocSteam
+CValidator::Push(char const*, void*, char const*)
+CValidator::ClaimMemory(void*)
+CValidator::Pop()
+V_binarytohex
+fseek
+ftell
+fread
+fclose
+memcmp
+operator delete(void*)
+operator delete[](void*)
+strlen
+operator new[](unsigned long)
+V_snprintf
+V_atof
+strtol
+_DMsg
+memmove
+V_strnicmp
+CValidator::ClaimArrayMemory(void*)
+V_strncpy
+_SpewMessageType
+strtoul
+V_strtoui64
+Warning
+strstr
+vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__si_class_type_info
+__cxa_pure_virtual
+operator new(unsigned long)
+isalnum
+TSListBase_UnsafePeek
+TSQueueBase_UnsafeDummy
+TSQueueBase_UnsafePeek
+CValidator::IsClaimed(void*)
+V_IsAbsolutePath
+getcwd
+V_strncat_length
+V_RemoveDotSlashes
+CDbgFmtSafeImplT<false>::CDbgFmtSafeImplT(char const*, ...)
+V_FixDoubleSlashes
+SteamThreadTools::CThreadEvent::Set()
+SteamThreadTools::CThreadMutex::~CThreadMutex()
+SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
+ThreadInterlockedDecrement
+TSQueueBase_Pop
+TSListBase_Pop
+SteamThreadTools::CThread::~CThread()
+pthread_mutex_lock
+pthread_mutex_unlock
+V_UTF8ToUTF32
+posix_fadvise
+__errno_location
+pread64
+pwrite64
+lseek64
+__fxstat64
+ftruncate64
+fdatasync
+Plat_VirtualAccessFlags
+mmap64
+munmap
+msync
+getenv
+mktemp
+Plat_localtime
+strftime
+V_stristr(char const*, char const*)
+sendfile64
+V_StripFilename
+WeakRandomUint32
+fwrite
+fflush
+SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
+TSQueue_PopIntoFreeList
+ThreadInterlockedExchange
+ThreadInterlockedExchangeAdd
+ThreadGetCurrentProcessId
+V_ExtractFilePath
+readdir64
+V_strncat
+closedir
+setmntent
+getmntent
+endmntent
+V_ComposeFileName
+system
+strerror
+stderr
+fprintf
+fcntl
+V_atoi
+Plat_GetExecutablePathUTF8
+V_AppendSlash
+usleep
+sched_yield
+futimes
+strrchr
+alphasort64
+readlink
+strcasecmp
+SteamThreadTools::CThreadMutex::CThreadMutex()
+SteamThreadTools::CThread::Join(unsigned int)
+Error
+ThreadSleep
+V_MakeAbsolutePath
+strcmp
+__cxa_guard_acquire
+SteamThreadTools::CThread::CThread()
+TSListBase_Init
+TSQueueBase_Init
+SteamThreadTools::CThreadEvent::CThreadEvent(bool)
+SteamThreadTools::CThread::SetName(char const*)
+__cxa_guard_release
+__cxa_guard_abort
+V_UnqualifiedFileName
+TSQueueBase_Push
+ThreadInterlockedIncrement
+SteamThreadTools::CThread::IsAlive() const
+SteamThreadTools::CThread::Start(unsigned long)
+std::terminate()
+typeinfo for SteamThreadTools::CThread
+SteamThreadTools::CThread::Init()
+SteamThreadTools::CThread::OnExit()
+SteamThreadTools::CThread::IsThreadRunning() const
+SteamThreadTools::CThread::GetThreadProc()
+CreateInterface
+dlclose
+dlerror
+dlsym
+V_FixSlashes
+__cxa_atexit
+KeyValuesSystemSteam
+GetOSType
+V_vsnprintfRet
+strchr
+wcslen
+V_tolower
+V_UTF32ToUTF8
+Plat_OutputDebugStringRaw
+V_strtoi64
+wcstol
+wcscasecmp
+V_wcstoui64
+V_wcstoi64
+V_strlower_fast
+V_UTF32ToUTF16
+V_UTF16ToUTF32
+wcscmp
+GetSpewOutputFunc
+V_strcat
+__ctype_b_loc
+V_strncmp
+V_pretifymem
+ThreadInMainThread
+gethostbyname
+strcpy
+getsockname
+V_strnlen
+realpath
+realloc
+strdup
+access
+opendir
+strncasecmp
+__ctype_tolower_loc
+strcasestr
+SteamRealPath
+strpbrk
+freopen
+fopen
+fopen64
+scandir
+scandir64
+__xstat
+__lxstat
+__xstat64
+__lxstat64
+statvfs
+statvfs64
+chmod
+lchown
+symlink
+mount
+mkfifo
+rename
+utime
+mkdir
+rmdir
+dlopen
+dlmopen
+mmap
+V_vsnprintf
+getuid
+shm_unlink
+shm_open
+ftruncate
+V_memcpy_nocache
+TSListBase_SwapList
+TSListBase_Push
+ThreadInterlockedAssignIf
+V_strnistr
+V_strnchr
+isspace
+V_StrTrim
+vasprintf
+_strlwr
+V_EscapeShellArgumentAndAppend(CUtlStringBuilder*, char const*)
+StringAfterPrefix
+StringFindSuffix
+SteamStdLib::CCommandLineParam::~CCommandLineParam()
+SteamStdLib::CCommandLineParam::~CCommandLineParam()
+Plat_GetProcessArgv
+V_StrReplaceChar
+V_ParseShellCommandLine(char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, int, char const**)
+SteamStdLib::CommandLine()
+SteamStdLib::CCommandLineParam::CCommandLineParam(char const*, char const*)
+SteamStdLib::CCommandLineParam::CCommandLineParam(char const*, char const*)
+SteamThreadTools::CThreadLocalBase::~CThreadLocalBase()
+g_VProfile
+SteamThreadTools::CThreadLocalBase::Get() const
+CreateVProfile
+SteamThreadTools::CThreadLocalBase::Set(void*)
+ThreadGetCurrentRunningRef
+ThreadGetCurrentId
+g_VProfManager
+ThreadIsThreadRunning
+g_VProfProfilesRunningCount
+SteamVProf::CVProfile::~CVProfile()
+SteamVProf::CVProfNode::ExitScope()
+Coroutine_ReleaseThreadMemory
+Coroutine_ValidateGlobals
+SteamVProf::CVProfNode::GetSubNode(char const*, int, EVProfBugdetGroup, int)
+SteamVProf::CVProfNode::EnterScope(void*)
+Coroutine_GetStackDepth
+Coroutine_IsAddressInOurStack
+Coroutine_Create
+Coroutine_Cancel
+Coroutine_IsActive
+Coroutine_GetCurrentlyActive
+_setjmp
+longjmp
+Coroutine_Continue
+Coroutine_Test
+Coroutine_YieldToMain
+Coroutine_DebugBreak
+SteamThreadTools::CThreadLocalBase::CThreadLocalBase()
+VStdLib_GetICVarFactory
+DebugStatsSystem
+SteamThreadTools::CThreadSpinLock::Lock(unsigned int) volatile
+SteamThreadTools::CThreadRWLock::WaitForRead()
+CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(DbgFmtFatalMsgTag_t*, char const*)
+SteamThreadTools::CThreadRWLock::LockForWrite()
+SteamThreadTools::CThreadRWLock::UnlockWrite()
+Plat_OutputDebugString
+fgets
+GetOSDetailString
+uname
+GetNameFromOSType
+OSTypesAreCompatible
+GetPlatformName
+Is64BitOS
+GetPlatformNameFromEPlatformType
+GetPlatformFromOS
+GetPortableOsVersionInformation
+V_URLPartsToString
+V_strnappend
+V_URLParse
+CUniformRandomStream::SetSeed(int)
+CUniformRandomStream::RandomChar()
+InstallUniformRandomStream
+WeakRandomSeed
+WeakRandomFloat
+WeakRandomInt
+WeakRandomChar
+WeakRandomFillMemory
+CUniformRandomStream::CUniformRandomStream()
+vtable for CUniformRandomStream
+Plat_RelativeTicks
+CUniformRandomStream::CUniformRandomStream()
+CUniformRandomStream::GenerateRandomNumber()
+CUniformRandomStream::RandomFloat(float, float)
+CUniformRandomStream::RandomInt(int, int)
+CUniformRandomStream::RandomFillMemory(void*, unsigned long)
+CGaussianRandomStream::AttachToStream(IUniformRandomStream*)
+CGaussianRandomStream::CGaussianRandomStream(IUniformRandomStream*)
+CGaussianRandomStream::CGaussianRandomStream(IUniformRandomStream*)
+CGaussianRandomStream::RandomFloat(float, float)
+sqrtf
+WeakRandomGaussianFloat
+typeinfo name for CUniformRandomStream
+typeinfo for CUniformRandomStream
+CStringNormalization::Initialize()
+ThreadImplOneTimeInit
+CStringNormalization::Fold(wchar_t const*, wchar_t*, int)
+V_wcsncpy
+CStringNormalization::Normalize(bool, wchar_t const*, wchar_t*, int)
+V_IsMeanSpaceW
+towlower
+CStringNormalization::Normalize(bool, char const*, char*, int)
+CStringNormalization::ValidateStatics(CValidator&, char const*)
+CStringNormalization::Test_BValidateStructures()
+V_NormalizeUTF8
+vstdlib_wcstoi64
+vstdlib_wcstoui64
+vstdlib_wcsicmp
+towupper
+vstdlib_wcsnicmp
+strtoll
+strtoull
+wcstoll
+wcstoull
+V_isnumeric
+V_wcscat
+V_vsnwprintf
+vswprintf
+V_wcsncat
+V_strncat_length_unbounded
+V_pretifynum
+V_Windows1252CharsToUTF8
+V_UTF32CharsToUTF8
+V_CP437CharsToUTF8
+V_NormalizeUTF8Old
+V_IsDeprecatedW
+V_StripPrecedingAndTrailingWhitespaceW
+iswspace
+V_AggressiveStripPrecedingAndTrailingWhitespaceW
+V_StripPrecedingAndTrailingWhitespace
+V_StripTrailingWhitespaceASCII
+V_AggressiveStripPrecedingAndTrailingWhitespace
+V_StripUnprintable
+V_StripUnprintableW
+V_hextobinary
+V_isvalidhex
+V_whextobinary
+V_FileBase
+V_StripTrailingSlash
+V_StripExtension
+V_DefaultExtension
+V_SetExtension
+V_CopyAndFixSlashes
+V_StripLastDir
+V_GetFileExtension
+V_ExtractFileExtension
+V_ReplaceBadFilenameCharactersInPlace
+V_ReplaceBadFilenameCharacters
+V_MakeRelativePath
+V_TruncateAbsolutePathToDiskIdentity
+V_StrSubst
+V_StrSubstInPlace
+V_SplitString2
+V_SplitString2(char const*, char const* const*, int, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, bool)
+V_SplitString(char const*, char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, bool)
+V_SplitString
+V_GetCurrentDirectory
+V_SetCurrentDirectory
+chdir
+V_StrSlice
+V_StrLeft
+V_StrRight
+V_strcmp_prefix
+V_stricmp_prefix
+V_strristr
+V_atoui64
+V_FormatAndAppendV
+V_FormatAndAppend
+V_FormatAndAppendTail
+V_ParseShellCommandLineWin32(char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, int, char const**)
+V_EscapeShellArgumentAndAppendWin32(char*, unsigned long, char const*)
+V_EscapeShellArgumentAndAppendPOSIX(char*, unsigned long, char const*)
+V_EscapeShellArgumentAndAppend(char*, unsigned long, char const*)
+V_BasicHtmlEntityEncode
+V_BasicHtmlEntityEncodeBuffer
+V_EscapeStringForPHP
+V_HtmlEntityDecodeToUTF8
+V_StripBBCode
+V_AppendParamToURL
+V_SetURLParam
+V_IsValidDomainNameCharacter
+V_UTF8ToUChar32
+V_IsValidURLCharacter
+V_URLEncode
+V_URLDecode
+V_URLEncodeRaw
+V_URLDecodeRaw
+V_ConvertStringToUUID(char const*, EUUIDStringFlags, V_UUID*)
+V_ConvertStringToUUID(wchar_t const*, EUUIDStringFlags, V_UUID*)
+swscanf
+V_ConvertUUIDToString(V_UUID const*, EUUIDStringFlags, char*, int)
+V_ConvertUUIDToString(V_UUID const*, EUUIDStringFlags, wchar_t*, int)
+V_MatchWildcardString
+V_MatchWildcardDNSName
+V_toupper
+BHanIdeograph
+CanEndLine
+CanBeginLine
+CanBreakRepeated
+CanBreakBetween
+V_isbreakablewspace
+V_isbreakablewspace32
+V_ExtractDomainFromURL
+V_URLContainsDomain
+StringAfterPrefixCaseSensitive
+_strupr
+__ctype_toupper_loc
+V_isstrlower
+V_FixupPathName
+V_strupper_fast
+V_StrSkipArticles
+V_WcsSkipArticles
+wcsncasecmp
+V_MakeFileSafeName
+V_SplitNumbers
+V_SplitNumbersUint
+V_JoinNumbers
+V_JoinNumbersUint
+V_ParseShellCommandLinePOSIX(char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, int, char const**)
+V_StripAndPreserveHTMLCore
+V_StripAndPreserveHTML
+V_ParseURLQueryString
+V_URLCracker
+V_IsValidUChar32
+V_UChar32ToUTF8Len
+V_UChar32ToUTF16Len
+V_UChar32ToUTF8
+V_UChar32ToUTF16
+V_UTF16ToUChar32
+V_UnicodeValidate(char const*)
+V_UnicodeValidate(unsigned short const*)
+V_UnicodeValidate(wchar_t const*)
+V_UnicodeLength(char const*)
+V_UnicodeLength(unsigned short const*)
+V_UnicodeLength(wchar_t const*)
+V_UnicodeAdvance(char*, int)
+V_UnicodeAdvance(unsigned short*, int)
+V_UnicodeAdvance(wchar_t*, int)
+V_UTF8ToUTF16
+V_UTF16ToUTF8
+V_UTF32CharsToUTF16
+V_UnicodeRepair(char*, EStringConvertErrorPolicy)
+V_UnicodeRepair(unsigned short*, EStringConvertErrorPolicy)
+V_UnicodeRepair(wchar_t*, EStringConvertErrorPolicy)
+V_towupper32
+V_towlower32
+iswalnum
+iswalpha
+V_UnicodeCaseConvert(char const*, char*, int, int, EStringConvertErrorPolicy)
+V_UnicodeCaseConvert(unsigned short const*, unsigned short*, int, int, EStringConvertErrorPolicy)
+V_UnicodeCaseConvert(wchar_t const*, wchar_t*, int, int, EStringConvertErrorPolicy)
+V_UnicodeCaseConvert(CUtlStringBuilder&, int, EStringConvertErrorPolicy)
+V_UnicodeCaseConvert(CUtlString&, int, EStringConvertErrorPolicy)
+V_UnicodeCaseConvert(CUtlVector<wchar_t, CUtlMemory<wchar_t>>&, int, EStringConvertErrorPolicy)
+CURLUtils::IsTLD(char const*)
+V_IsTLD
+CURLUtils::FixupSeparatorScheme(CUtlString&)
+CURLUtils::ValidateStatics(CValidator&, char const*)
+libtier0_vr.so
+libdl.so.2
+libstdc++.so.6
+libpthread.so.0
+librt.so.1
+ld-linux-x86-64.so.2
+libm.so.6
+__pthread_key_create
+pthread_once
+dl_iterate_phdr
+libc.so.6
+__xmknod
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBCXX_3.4
+CXXABI_1.3
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.7
 ../tier1/bitstring.cpp
+Assertion Failed: !m_pInt
+Assertion Failed: GetInts()
+CVariableBitStringBase
+Assertion Failed: Size() == operand.Size()
+Assertion Failed: resizeNumBits >= 0
+CPathString
+m_buffer
+CUtlBuffer
+m_Memory
+m_vecRegisteredWriters
 ../tier1/fileio.cpp
-../tier1/mempool.cpp
-../tier1/utlbuffer.cpp
-../tier1/utlmemory.cpp
-../tier1/utlstring.cpp
-./
-.\
-.steam_exec_test.sh
-/
-/?
-/dev
-/etc/SUSE-release
-/etc/arch-release
-/etc/centos-release
-/etc/debian_release
-/etc/fedora-release
-/etc/gentoo-release
-/etc/lsb-release
-/etc/mandrake-release
-/etc/mtab
-/etc/os-release
-/etc/redhat-release
-/etc/slackware-release
-/etc/yellowdog-release
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/tslist.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/vprof.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlbuffer.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utldict.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utllinkedlist.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlrbtree.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlstring.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlvector.h
-/proc/mounts
-/proc/version
+Assertion Failed: ret != 0
 /tmp
-0
-0123456789ABCDEF
-0123456789abcdef
-0@
-0x%4.4X is both the source and destination of a normalization mapping
-1
-10CUtlRBTreeIN7CUtlMapIPvii8CDefLessIS1_EE6Node_tEiNS4_8CKeyLessE25CDefRBTreeBalanceListenerIiEE
-10CUtlRBTreeIN7CUtlMapIjbi8CDefLessIjEE6Node_tEiNS3_8CKeyLessE25CDefRBTreeBalanceListenerIiEE
-10CUtlRBTreeIN7CUtlMapIwPKwi8CDefLessIwEE6Node_tEiNS5_8CKeyLessE25CDefRBTreeBalanceListenerIiEE
+TMPDIR
+%s/%s
+%d%s
+%d:00
+%A %b %d
+%s%c.temp_write_%x
+%s.async%u.tmp
+/dev
+/proc/mounts
+/etc/mtab
+.steam_exec_test.sh
+#!/bin/sh\nexit 0\n
+"%s"
+Couldn't write %s: %s\n
+Assertion Failed: IsText()
+%s%c%s
+%s overflow!\n
+m_listChangedFiles
+m_strDirectory
+m_listChangedFiles[i]
+m_mapFileTimes
+m_Tree
+m_Elements
+m_pthreadWatcher
+CFileWriterThread
+Assertion Failed: m_bAsync
+ValidateFileIOStatics
+Steam - DirWatcher
+static_cast<Node_t*>(pNode)->elem
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/tslist.h
+V_RemoveDotSlashes failed for "%s".
+Assertion Failed: m_queueItemsPending.Count() == 0
+CFileWriterThread: pending file writer %s
+Assertion Failed: m_Count == 0
+Assertion Failed: pNode && pNode->Next == QueueEnd()
+Assertion Failed: g_pFioAsyncEnqueue == NULL
+Assertion Failed: g_pFioAsyncFinalize == NULL
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlstring.h
+Failed to determine free disk space for %s, error %d
+Don't know how to check filesystem type on POSIX!
+Failed system(%s) in execute test: %s\n
+unReadAheadChunkSize should be zero when using bUnbuffered = true
+Assertion Failed: unReadAheadChunkSize < INT32_MAX/2
+unsupported flags 0x%x passed to CFileReader::BOpenFile
+Assertion Failed: cubBytesToRead < INT32_MAX
+Unbuffered read should be called with pvData buffer that is aligned to system page size (4kb)
+Unbuffered read should be called with cubData length that is aligned to system page size (4kb)
+Seeking to a position which is not sector aligned will break unbuffered io
+Assertion Failed: cbActual < (uint32)nBufSizeWithTerminator
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlbuffer.h
+Seeking to a position not supported with async io
+Calling Tell on an async file writer is unsafe, will race with thread and may corrupt file pointer.
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utllinkedlist.h
+Assertion Failed: m_TotalElements != InvalidIndex()
+Assertion Failed: IsValidIndex(elem)
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlvector.h
+Assertion Failed: (&src < Base()) || (&src >= (Base() + Count()))
+Assertion Failed: buf.TellPut() < FIO_MAX_IO_BYTES
+Assertion Failed: pFile && !m_bExit
+Assertion Failed: (&src < Base()) || (&src >= (Base() + Count()) )
+Assertion Failed: (elem == Count()) || IsValidIndex(elem)
+Assertion Failed: cubData < INT32_MAX
+Assertion Failed: cubData < FIO_MAX_IO_BYTES
+Assertion Failed: m_vecRegisteredWriters.HasElement( pFile )
+Waited %u iterations in CFileWriter::Flush - m_cubOutstanding = %d
+Assertion Failed: pWatcher != NULL
 10CUtlString
-10CUtlVectorI10CUtlString10CUtlMemoryIS0_EE
-10CUtlVectorIN11CUtlHashMapIPKcb24CDefCaselessStringEquals25HashFunctorStringCaselessE12HashBucket_tE10CUtlMemoryIS6_EE
-10CUtlVectorIP13CCoroutineMgr10CUtlMemoryIS1_EE
-10CUtlVectorIi10CUtlMemoryIiEE
 11CPathString
-11CUtlHashMapIPKcb24CDefCaselessStringEquals25HashFunctorStringCaselessE
-12CDefaultCvar
-14CUtlLinkedListI10CCoroutineiE
-14CUtlLinkedListIN11SteamStdLib12CCommandLine18CommandLineParam_tEiE
-14CUtlMemoryBase
-16CKeyValuesSystem
-16IKeyValuesSystem
-17CDebugStatsSystem
-17IDebugStatsSystem
+Memory leak: mempool blocks left in memory: %d\n
+Block size: %s\tAlloc'd: %d (peak: %d)\tNum blobs: %d (%s)\n
+CMemoryPool::AddNewBlob: mode == GROW_NONE
+CMemoryPool::Alloc: ran out of memory
+Assertion Failed: k_nMemPoolMagic_Free == *(( (int *) returnBlock) - 1)
+Assertion Failed: k_nMemPoolMagic_InUse == *(( (int *) pMem) - 1)
+../tier1/mempool.cpp
+Fatal Assertion Failed: pBlob
+CMemoryPool
+HOME
+%s/.steam/steam
+true
+false 
+(%zu) Descend: %s, (%s), %s\n
+\t(%zu) comparing %s with %s\n
+DBG_PATHMATCH
+Lowered '%s' -> '%s'\n
+Breaking '%s' in '%s'\n
+Matched '%s' -> '%s'\n
+Unmatched %s\n
+(%zu) readdir failed to find '%s' in '%s'\n
+../tier1/utlbuffer.cpp
+Assertion Failed: m_Put >= 0
+Assertion Failed: pToken
+Assertion Failed: nSize >= 0
+Assertion Failed: offset >= 0
+%llu
+%lld
+%.18g
+Expected %lld but got %lld!
+Assertion Failed: pFmt
+Assertion Failed: 0
+Assertion Failed: info.m_pReplacementString == 0
+CUtlBuffer::GetStringFast: binary buffers only
+CUtlBuffer::GetStringFast: no string termination
+Assertion Failed: pEndingDelim && pEndingDelim[0]
+Assertion Failed: offset >= -m_Put && offset <= INT_MAX-m_Put
+Assertion Failed: offset != INT_MIN && offset <= m_nMaxPut && -offset <= INT_MAX-m_nMaxPut
+Assertion Failed: nPut + nPutDelta <= outBuf.TellMaxPut()
+Assertion Failed: pConv && pConv->GetDelimiterLength() > 0
 18CUtlCharConversion
-19CUtlNoEscConversion
-19CVStdLibDLLValidate
-2
-20CUniformRandomStream
-20IUniformRandomStream
 21CUtlCStringConversion
-2^
-3
-4
-5
-5;
+19CUtlNoEscConversion
+../tier1/utlmemory.cpp
+Assertion Failed: num > 0
+Assertion Failed: m_pMemory
+Assertion Failed: m_unSizeOfElements > 0
+Assertion Failed: nGrowSize >= 0
+Assertion Failed: m_unSizeOfElements == mem.m_unSizeOfElements
+Assertion Failed: !IsExternallyAllocated()
+nBytesItem is %d in UtlMemory_CalcNewAllocationCount
+Assertion Failed: numElements >= 0
+Assertion Failed: numElements <= m_nAllocationCount
+14CUtlMemoryBase
+../tier1/utlstring.cpp
+0123456789abcdef
+0123456789ABCDEF
+Assertion Failed: pstrNew + nNewLength == pstrDestination + 1
+Assertion Failed: cActualReplacements == cReplacements
+Assertion failed: length > k_cchMaxString
+Assertion Failed: existingLen < k_cchMaxString && cubInput * 2 < k_cchMaxString - existingLen
+Assertion Failed: pstrDest[nNewLength] == '\0'
+Error State on string being set.
+Assertion Failed: nMinCapacity > Capacity()
+Assertion Failed: nMinCapacity >= nChars
+Assertion Failed: nMinCapacity <= k_nMaxStringSize
+Assertion Failed: !pszString || pszString[nChars] == '\0'
+Assertion Failed: len > 0 || HasError()
+Assertion Failed: pstrNew == pszString
+Assertion Failed: pstrNew == pstrDestination
+Assertion Failed: PrepareBuffer( nNewLength ) == pstrNew
+Assertion Failed: !m_data.HasError()
+console
+Command line options:\n
+"%s" : %s\n
+commandline.cpp
+CommandLine
+m_strCmdLine
+m_vecParms
+m_listCommandLineOption
+m_vecParms[i]
+%s%s
+%s=%s
+----------------------------------------\n
+Assertion Failed: m_vecParms.IsValidIndex( nIndex )
+Assertion Failed: iOption != m_listCommandLineOption.InvalidIndex()
+Assertion Failed: m_bInitialized
+Parameter file '%s' not found, skipping...\n
+Assertion Failed: !pToCopy || (pToCopy + num <= Base()) || (pToCopy >= (Base() + Count()) )
+Assertion Failed: (int)(intp)m_hParam != -1
+N11SteamStdLib12ICommandLineE
+N11SteamStdLib12CCommandLineE
+10CUtlVectorI10CUtlString10CUtlMemoryIS0_EE
+14CUtlLinkedListIN11SteamStdLib12CCommandLine18CommandLineParam_tEiE
+No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/vprof.h
+Assertion Failed: m_pStackHigh
+Assertion Failed: m_pSavedStack
+Restoring saved stack over RestoreStackFrame (%p, %p, %p, %p)\n
+Assertion Failed: m_pvOrigNameAddress
+Assertion Failed: GCoroutineMgr().IsAnyCoroutineActive()
+Assertion Failed: Coroutine_IsActive()
+Not continuing coroutine due to g_bPreventCoroutineContinue, %s
+Assertion Failed: coroutine.m_pStackHigh <= coroutinePrev.m_pStackHigh
+Assertion Failed: m_cubSavedStack < k_cubMaxCoroutineStackSize
+Assertion Failed: m_VecCoroutineStack.Count() > 1
+Assertion Failed: GCoroutineMgr().IsValidCoroutine(hCoroutine)
+Assertion Failed: coroutines.Base() == NULL
+g_VecPCoroutineMgr
+g_VecPCoroutineMgr[i]
+CCoroutineMgr
+m_ListCoroutines
+m_VecCoroutineStack
+m_ListCoroutines[iRoutine]
+CCoroutine
+(none)
+(main)
+coroutine.cpp
+Assertion Failed: m_pszName
+(no name set)
+Unknown
+Assertion Failed: m_pParent
+test string
+14CUtlLinkedListI10CCoroutineiE
+10CUtlVectorIi10CUtlMemoryIiEE
+10CUtlVectorIP13CCoroutineMgr10CUtlMemoryIS1_EE
+VEngineCvar002
+CDefaultCvar cvar
+cvar.cpp
+Assertion Failed: !m_fnGlobalChangeCallback || !callback
+WARNING: unable to link %s and %s because one or more is a ConCommand.\n
 5ICvar
-6
-6"
-7
+12CDefaultCvar
+debugstatssystem.cpp
+17IDebugStatsSystem
+17CDebugStatsSystem
+keyvaluessystem.cpp
+CKeyValuesSystem
+m_HashItemMemPool
+m_LeakTrack
+m_mapConditionalSymbolTable
+KeyValuesSystem()
+Bucket size : count\n
+%u : %u\n
+Leaked KeyValues (%u):\n
+Assertion Failed: m_LessFunc
+%s (%u)\n
+Assertion Failed: size < INT_MAX
+CKeyValuesSystem::AddStringToPool: key name too long (%u chars)
+CKeyValuesSystem::AddStringToPool: out of memory
+CKeyValuesSystem::AddStringToPool: running out of memory (%u bytes left)
+String pool bytes used %u, max %u, %u pools\n
+Total number of strings %u, longest string size %u, avg size %u\n
+Total of %u buckets with %u hash collisions\n
+nTotal number of strings %u, longest string size %u, avg size %u\n
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlrbtree.h
+Assertion Failed: IsValidIndex( elem )
+Assertion Failed: _IsValidIndex( y, unNodeSize, pMemBase )
+16IKeyValuesSystem
+16CKeyValuesSystem
 7CUtlMapIPvii8CDefLessIS0_EE
 7CUtlMapIjbi8CDefLessIjEE
+10CUtlRBTreeIN7CUtlMapIPvii8CDefLessIS1_EE6Node_tEiNS4_8CKeyLessE25CDefRBTreeBalanceListenerIiEE
+10CUtlRBTreeIN7CUtlMapIjbi8CDefLessIjEE6Node_tEiNS3_8CKeyLessE25CDefRBTreeBalanceListenerIiEE
+/proc/version
+/etc/centos-release
+/etc/redhat-release
+/etc/fedora-release
+/etc/slackware-release
+/etc/debian_release
+/etc/mandrake-release
+/etc/yellowdog-release
+/etc/gentoo-release
+/etc/arch-release
+/etc/SUSE-release
+/etc/os-release
+/etc/lsb-release
+%s %s %s %s
+Windows
+Windows 3.11
+Windows 95
+Windows 98
+Windows ME
+Windows NT
+Windows 2000
+Windows XP
+Windows 2003
+Windows Vista
+Windows 7
+Windows 2008
+Windows 2012
+Windows 2012 R2
+Windows 8
+Windows 8.1
+Windows 10
+Windows 2016
+Mac OS
+MacOS 10.4
+MacOS 10.5
+MacOS 10.5.8
+MacOS 10.6
+MacOS 10.6.3
+MacOS 10.6.7
+MacOS 10.7
+MacOS 10.8
+MacOS 10.9
+MacOS 10.10
+MacOS 10.11
+MacOS 10.12
+Linux
+Linux 2.2
+Linux 2.4
+Linux 2.6
+Linux 3.2
+Linux 3.5
+Linux 3.6
+Linux 3.10
+Linux 3.16
+Linux 3.18
+Linux 3.x
+Linux 4.1
+Linux 4.4
+Linux 4.9
+Linux 4.x
+Web Client
+windows
+macos
+linux
+unknown
+MacOS 10.6.4 with Apple's Snow Leopard Graphics Update
+parseurl.cpp
+Assertion Failed: pchStart
+Assertion Failed: pchEnd
+Assertion Failed: pchURL != NULL
+20IUniformRandomStream
+20CUniformRandomStream
+stringnormalize.cpp
+CStringNormalization statics
+g_mapPairs
+Assertion Failed: pwchSrc != NULL
+Assertion Failed: pwchDest != NULL
+CStringNormalize is full of quirks that need fixing. You just hit one. Don't pass buffers > 1kb.
+CStringNormalize is full of quirks that need fixing. You just hit one. Error return due to string truncation.
+out of order normalization entry
+0x%4.4X is both the source and destination of a normalization mapping
 7CUtlMapIwPKwi8CDefLessIwEE
-8
-8&
-9
-9-
-9IValidate
-:
-:-
-:/
-:/?#
-;
-;0
-;;
-<
-<!--
-<"
-</script>
-<0
-<P
+10CUtlRBTreeIN7CUtlMapIwPKwi8CDefLessIwEE6Node_tEiNS5_8CKeyLessE25CDefRBTreeBalanceListenerIiEE
+Assertion Failed: count == 0 || s1 != NULL
+Assertion Failed: count == 0 || s2 != NULL
+Assertion Failed: n == 0 || s1 != NULL
+Assertion Failed: n == 0 || s2 != NULL
+NULL buffer passed to V_atoi()
+NULL buffer passed to V_atof()
+Assertion Failed: pStr != NULL
+Assertion Failed: pSearch != NULL
+Assertion Failed: maxLen == 0 || pDest != NULL
+Assertion Failed: pSrc != NULL
+Assertion Failed: dest != NULL
+Assertion Failed: maxLenInBytes >= 0
+Assertion Failed: maxLenInBytes == 0 || pDest != NULL
+Assertion Failed: maxLen > 0 && maxLen <= INT_MAX
+Assertion Failed: bufferLen > 0 && bufferLen <= INT_MAX
+Assertion Failed: pDest != NULL
+Assertion Failed: pFormat != NULL
+Assertion Failed: bufferLen == 0 || pDest != NULL
+Assertion Failed: destCapacity != 0
+Assertion Failed: pDest >= pBuffer && pDest <= pBuffer + destBufferSize
+Assertion Failed: outsize >= ( inputbytes * 2 ) + 1
+Assertion Failed: outsize >= 1
+Assertion Failed: pathStringLength >= 1
+Assertion Failed: extension[0] == '.'
+Assertion Failed: len < maxlen
+Assertion Failed: destSize >= 1
+V_AppendSlash: ran out of space on %s.
+V_MakeAbsolutePath: _getcwd failed.
+Assertion Failed: V_IsAbsolutePath( pPath )
+Assertion Failed: pStr1 != NULL
+Assertion Failed: pStr2 != NULL
+Assertion Failed: pchHaystack != NULL
+Assertion Failed: pchNeedle != NULL
+Assertion Failed: maxLen <= INT_MAX
+Assertion Failed: checkLen >= 0
+Assertion Failed: argLen < 0x10000000u
+Assertion Failed: nDestSize == 0 || pDest != NULL
+Assertion Failed: nValue >= 0 && nValue <= 15
+Target buffer for V_URLEncode should be 3x source length, plus one for terminating null\n
+Target buffer too short to terminate\n
+V_URLDecode needs a dest buffer at least as large as the source
+%8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X
+%8X%4X%4X%2X%2X%2X%2X%2X%2X%2X%2X
+{%8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X}
+{%0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X}
+%0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
+%0.8X%0.4X%0.4X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
+Assertion Failed: prefix != NULL
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utldict.h
+Assertion Failed: components.Count() == 0
+Assertion Failed: parms.Count() == 0
+strtools.cpp
+%s not implemented
+Assertion Failed: s1 != NULL
+Assertion Failed: s2 != NULL
+Assertion Failed: n >= 0
+Assertion Failed: src != NULL
+ bytes
+ bps
+ Kbps
+ Mbps
+ Gbps
+%i%s
+%%.%if%s
+Assertion Failed: maxlen >= 1
+Assertion Failed: in
+Assertion Failed: out
+Assertion Failed: ppath
+Assertion Failed: path
+Assertion Failed: extension
+Assertion Failed: pchFileName
+Assertion Failed: ccMax >= 1
+Assertion Failed: pchOut
+Assertion Failed: str
+Assertion Failed: maxLen > 0
+Assertion Failed: false
+&nbsp;
 <br>
+&quot;
+&#039;
+&lt;
+&gt;
+&amp;
+Assertion Failed: pDest
+Target buffer too short\n
+Invalid flags in %s
+Assertion Failed: str != NULL
+steam://openurl/
+steam://openurl_external/
+the 
+<!--
+</script>
+script
 <li>
-=
-=&;
-=*
->
->
-?
-?@
-@
-A
-A&
-A0
-A:
+&apos;
+&trade;
+&copy;
+&reg;
+&ndash;
+&mdash;
+&euro;
+&iexcl;
+&cent;
+&pound;
+&curren;
+&yen;
+&brvbar;
+&sect;
+&uml;
+&ordf;
+&laquo;
+&not;
+&shy;
+&macr;
+&deg;
+&plusmn;
+&sup2;
+&sup3;
+&acute;
+&micro;
+&para;
+&middot;
+&cedil;
+&sup1;
+&ordm;
+&raquo;
+&frac14;
+&frac12;
+&frac34;
+&iquest;
+&times;
+&divide;
+&Agrave;
+&Aacute;
+&Acirc;
+&Atilde;
+&Auml;
+&Aring;
+&AElig;
+&Ccedil;
+&Egrave;
+&Eacute;
+&Ecirc;
+&Euml;
+&Igrave;
+&Iacute;
+&Icirc;
+&Iuml;
+&ETH;
+&Ntilde;
+&Ograve;
+&Oacute;
+&Ocirc;
+&Otilde;
+&Ouml;
+&Oslash;
+&Ugrave;
+&Uacute;
+&Ucirc;
+&Uuml;
+&Yacute;
+&THORN;
+&szlig;
+&agrave;
+&aacute;
+&acirc;
+&atilde;
+&auml;
+&aring;
+&aelig;
+&ccedil;
+&egrave;
+&eacute;
+&ecirc;
+&euml;
+&igrave;
+&iacute;
+&icirc;
+&iuml;
+&eth;
+&ntilde;
+&ograve;
+&oacute;
+&ocirc;
+&otilde;
+&ouml;
+&oslash;
+&ugrave;
+&uacute;
+&ucirc;
+&uuml;
+&yacute;
+&thorn;
+&yuml;
+\/:"<>|?*
+V_ConvertUUIDToString
+V_ConvertUUIDToString
+V_ConvertStringToUUID
+V_ConvertStringToUUID
+0123456789abcdef
+%$%a%b%V%U%c%Q%W%]%\%[%
+%4%,%
+%<%^%_%Z%T%i%f%`%P%l%g%h%d%e%Y%X%R%S%k%j%
+)"a"
+e"d" #!#
+ &   ! 
+vstdlib_wcstoui64
+vstdlib_wcstoi64
+D(knN
+invalid input pointer
+strtools_unicode.cpp
+Assertion Failed: in != out
+Assertion Failed: count >= 0
+Assertion Failed: !(nStringCaseFlags & STRINGCASE_FLAG_TURKISH)
+,/$`,
+?0,/1a,
+-&B'-
+'/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/bitstring.h
+Assertion Failed: bitNum >= 0 && bitNum < this->Size()
+:/?#
+%.*s://%s
+gCURLUtils_hashTLDs
+m_vecHashBuckets
+m_memNodes
+m_bitsMigratedBuckets
 ACADEMY
 ACCOUNTANTS
 ACTIVE
 ACTOR
-AD
-AE
 AERO
-AF
-AG
 AGENCY
 AIRFORCE
-AO
-AQ
 ARCHI
 ARMY
 ARPA
 ASIA
 ASSOCIATES
 ATTORNEY
-AU
 AUCTION
 AUDIO
 AUTOS
-AW
-AXA
-AZ
-AssertMsgImplementation
-Assertion Failed: !(nStringCaseFlags & STRINGCASE_FLAG_TURKISH)
-Assertion Failed: !IsExternallyAllocated()
-Assertion Failed: !m_data.HasError()
-Assertion Failed: !m_fnGlobalChangeCallback || !callback
-Assertion Failed: !m_pInt
-Assertion Failed: !pToCopy || (pToCopy + num <= Base()) || (pToCopy >= (Base() + Count()) )
-Assertion Failed: !pszString || pszString[nChars] == '\0'
-Assertion Failed: (&src < Base()) || (&src >= (Base() + Count()) )
-Assertion Failed: (&src < Base()) || (&src >= (Base() + Count()))
-Assertion Failed: (elem == Count()) || IsValidIndex(elem)
-Assertion Failed: (int)(intp)m_hParam != -1
-Assertion Failed: 0
-Assertion Failed: Coroutine_IsActive()
-Assertion Failed: GCoroutineMgr().IsAnyCoroutineActive()
-Assertion Failed: GCoroutineMgr().IsValidCoroutine(hCoroutine)
-Assertion Failed: GetInts()
-Assertion Failed: IsText()
-Assertion Failed: IsValidIndex( elem )
-Assertion Failed: IsValidIndex(elem)
-Assertion Failed: PrepareBuffer( nNewLength ) == pstrNew
-Assertion Failed: Size() == operand.Size()
-Assertion Failed: V_IsAbsolutePath( pPath )
-Assertion Failed: _IsValidIndex( y, unNodeSize, pMemBase )
-Assertion Failed: argLen < 0x10000000u
-Assertion Failed: bitNum >= 0 && bitNum < this->Size()
-Assertion Failed: buf.TellPut() < FIO_MAX_IO_BYTES
-Assertion Failed: bufferLen == 0 || pDest != NULL
-Assertion Failed: bufferLen > 0 && bufferLen <= INT_MAX
-Assertion Failed: cActualReplacements == cReplacements
-Assertion Failed: cbActual < (uint32)nBufSizeWithTerminator
-Assertion Failed: ccMax >= 1
-Assertion Failed: checkLen >= 0
-Assertion Failed: components.Count() == 0
-Assertion Failed: coroutine.m_pStackHigh <= coroutinePrev.m_pStackHigh
-Assertion Failed: coroutines.Base() == NULL
-Assertion Failed: count == 0 || s1 != NULL
-Assertion Failed: count == 0 || s2 != NULL
-Assertion Failed: count >= 0
-Assertion Failed: cubBytesToRead < INT32_MAX
-Assertion Failed: cubData < FIO_MAX_IO_BYTES
-Assertion Failed: cubData < INT32_MAX
-Assertion Failed: dest != NULL
-Assertion Failed: destCapacity != 0
-Assertion Failed: destSize >= 1
-Assertion Failed: existingLen < k_cchMaxString && cubInput * 2 < k_cchMaxString - existingLen
-Assertion Failed: extension
-Assertion Failed: extension[0] == '.'
-Assertion Failed: false
-Assertion Failed: g_pFioAsyncEnqueue == NULL
-Assertion Failed: g_pFioAsyncFinalize == NULL
-Assertion Failed: iOption != m_listCommandLineOption.InvalidIndex()
-Assertion Failed: in
-Assertion Failed: in != out
-Assertion Failed: info.m_pReplacementString == 0
-Assertion Failed: k_nMemPoolMagic_Free == *(( (int *) returnBlock) - 1)
-Assertion Failed: k_nMemPoolMagic_InUse == *(( (int *) pMem) - 1)
-Assertion Failed: len < maxlen
-Assertion Failed: len > 0 || HasError()
-Assertion Failed: m_Count == 0
-Assertion Failed: m_LessFunc
-Assertion Failed: m_Put >= 0
-Assertion Failed: m_TotalElements != InvalidIndex()
-Assertion Failed: m_VecCoroutineStack.Count() > 1
-Assertion Failed: m_bAsync
-Assertion Failed: m_bInitialized
-Assertion Failed: m_cubSavedStack < k_cubMaxCoroutineStackSize
-Assertion Failed: m_pMemory
-Assertion Failed: m_pParent
-Assertion Failed: m_pSavedStack
-Assertion Failed: m_pStackHigh
-Assertion Failed: m_pszName
-Assertion Failed: m_pvOrigNameAddress
-Assertion Failed: m_queueItemsPending.Count() == 0
-Assertion Failed: m_unSizeOfElements == mem.m_unSizeOfElements
-Assertion Failed: m_unSizeOfElements > 0
-Assertion Failed: m_vecParms.IsValidIndex( nIndex )
-Assertion Failed: m_vecRegisteredWriters.HasElement( pFile )
-Assertion Failed: maxLen <= INT_MAX
-Assertion Failed: maxLen == 0 || pDest != NULL
-Assertion Failed: maxLen > 0
-Assertion Failed: maxLen > 0 && maxLen <= INT_MAX
-Assertion Failed: maxLenInBytes == 0 || pDest != NULL
-Assertion Failed: maxLenInBytes >= 0
-Assertion Failed: maxlen >= 1
-Assertion Failed: n == 0 || s1 != NULL
-Assertion Failed: n == 0 || s2 != NULL
-Assertion Failed: n >= 0
-Assertion Failed: nDestSize == 0 || pDest != NULL
-Assertion Failed: nGrowSize >= 0
-Assertion Failed: nMinCapacity <= k_nMaxStringSize
-Assertion Failed: nMinCapacity > Capacity()
-Assertion Failed: nMinCapacity >= nChars
-Assertion Failed: nPut + nPutDelta <= outBuf.TellMaxPut()
-Assertion Failed: nSize >= 0
-Assertion Failed: nValue >= 0 && nValue <= 15
-Assertion Failed: num > 0
-Assertion Failed: numElements <= m_nAllocationCount
-Assertion Failed: numElements >= 0
-Assertion Failed: offset != INT_MIN && offset <= m_nMaxPut && -offset <= INT_MAX-m_nMaxPut
-Assertion Failed: offset >= -m_Put && offset <= INT_MAX-m_Put
-Assertion Failed: offset >= 0
-Assertion Failed: out
-Assertion Failed: outsize >= ( inputbytes * 2 ) + 1
-Assertion Failed: outsize >= 1
-Assertion Failed: pConv && pConv->GetDelimiterLength() > 0
-Assertion Failed: pDest
-Assertion Failed: pDest != NULL
-Assertion Failed: pDest >= pBuffer && pDest <= pBuffer + destBufferSize
-Assertion Failed: pEndingDelim && pEndingDelim[0]
-Assertion Failed: pFile && !m_bExit
-Assertion Failed: pFmt
-Assertion Failed: pFormat != NULL
-Assertion Failed: pNode && pNode->Next == QueueEnd()
-Assertion Failed: pSearch != NULL
-Assertion Failed: pSrc != NULL
-Assertion Failed: pStr != NULL
-Assertion Failed: pStr1 != NULL
-Assertion Failed: pStr2 != NULL
-Assertion Failed: pToken
-Assertion Failed: pWatcher != NULL
-Assertion Failed: parms.Count() == 0
-Assertion Failed: path
-Assertion Failed: pathStringLength >= 1
-Assertion Failed: pchEnd
-Assertion Failed: pchFileName
-Assertion Failed: pchHaystack != NULL
-Assertion Failed: pchNeedle != NULL
-Assertion Failed: pchOut
-Assertion Failed: pchStart
-Assertion Failed: pchURL != NULL
-Assertion Failed: ppath
-Assertion Failed: prefix != NULL
-Assertion Failed: pstrDest[nNewLength] == '\0'
-Assertion Failed: pstrNew + nNewLength == pstrDestination + 1
-Assertion Failed: pstrNew == pstrDestination
-Assertion Failed: pstrNew == pszString
-Assertion Failed: pwchDest != NULL
-Assertion Failed: pwchSrc != NULL
-Assertion Failed: resizeNumBits >= 0
-Assertion Failed: ret != 0
-Assertion Failed: s1 != NULL
-Assertion Failed: s2 != NULL
-Assertion Failed: size < INT_MAX
-Assertion Failed: src != NULL
-Assertion Failed: str
-Assertion Failed: str != NULL
-Assertion Failed: unReadAheadChunkSize < INT32_MAX/2
-Assertion failed: length > k_cchMaxString
-B
-BA
-BAR
 BARGAINS
 BAYERN
-BB
-BE
 BEER
 BERLIN
 BEST
-BG
-BH
-BHanIdeograph
-BID
 BIKE
-BIO
-BIZ
-BJ
 BLACK
 BLACKFRIDAY
 BLUE
-BM
-BMW
-BN
 BOUTIQUE
-BR
 BRUSSELS
 BUILD
 BUILDERS
 BUZZ
-BV
-BW
-BY
-BZ
-BZH
-Breaking '%s' in '%s'
-Bucket size : count
-C
-C0
-CA
-CAB
 CAMERA
 CAMP
 CANCERRESEARCH
@@ -510,49 +1090,22 @@ CARE
 CAREER
 CAREERS
 CASH
-CAT
 CATERING
-CCoroutine
-CCoroutineMgr
-CDbgFmtSafeImplT<false>::CDbgFmtSafeImplT(char const*, ...)
-CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(DbgFmtFatalMsgTag_t*, char const*)
-CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(char const*)
-CDefaultCvar cvar
 CENTER
-CEO
-CF
-CFileWriterThread
-CFileWriterThread: pending file writer %s
-CGaussianRandomStream::AttachToStream(IUniformRandomStream*)
-CGaussianRandomStream::CGaussianRandomStream(IUniformRandomStream*)
-CGaussianRandomStream::RandomFloat(float, float)
 CHEAP
 CHRISTMAS
 CHURCH
-CI
 CITIC
 CITY
-CKeyValuesSystem
-CKeyValuesSystem::AddStringToPool: key name too long (%u chars)
-CKeyValuesSystem::AddStringToPool: out of memory
-CKeyValuesSystem::AddStringToPool: running out of memory (%u bytes left)
-CL
 CLAIMS
 CLEANING
 CLINIC
 CLOTHING
 CLUB
-CM
-CMemoryPool
-CMemoryPool::AddNewBlob: mode == GROW_NONE
-CMemoryPool::Alloc: ran out of memory
-CN
-CO
 CODES
 COFFEE
 COLLEGE
 COLOGNE
-COM
 COMMUNITY
 COMPANY
 COMPUTER
@@ -564,72 +1117,12 @@ COOKING
 COOL
 COOP
 COUNTRY
-CPathString
-CR
 CREDIT
 CREDITCARD
 CRUISES
-CStringNormalization statics
-CStringNormalization::Fold(wchar_t const*, wchar_t*, int)
-CStringNormalization::Initialize()
-CStringNormalization::Normalize(bool, char const*, char*, int)
-CStringNormalization::Normalize(bool, wchar_t const*, wchar_t*, int)
-CStringNormalization::Test_BValidateStructures()
-CStringNormalization::ValidateStatics(CValidator&, char const*)
-CStringNormalize is full of quirks that need fixing. You just hit one. Don't pass buffers > 1kb.
-CStringNormalize is full of quirks that need fixing. You just hit one. Error return due to string truncation.
-CU
 CUISINELLA
-CURLUtils::FixupSeparatorScheme(CUtlString&)
-CURLUtils::IsTLD(char const*)
-CURLUtils::ValidateStatics(CValidator&, char const*)
-CUniformRandomStream::CUniformRandomStream()
-CUniformRandomStream::GenerateRandomNumber()
-CUniformRandomStream::RandomChar()
-CUniformRandomStream::RandomFillMemory(void*, unsigned long)
-CUniformRandomStream::RandomFloat(float, float)
-CUniformRandomStream::RandomInt(int, int)
-CUniformRandomStream::SetSeed(int)
-CUtlBuffer
-CUtlBuffer::GetStringFast: binary buffers only
-CUtlBuffer::GetStringFast: no string termination
-CV
-CValidator::ClaimArrayMemory(void*)
-CValidator::ClaimMemory(void*)
-CValidator::IsClaimed(void*)
-CValidator::Pop()
-CValidator::Push(char const*, void*, char const*)
-CVariableBitStringBase
-CW
-CX
-CXXABI_1.3
-CZ
-Calling Tell on an async file writer is unsafe, will race with thread and may corrupt file pointer.
-CanBeginLine
-CanBreakBetween
-CanBreakRepeated
-CanEndLine
-Command line options:
-CommandLine
-Coroutine_Cancel
-Coroutine_Continue
-Coroutine_Create
-Coroutine_DebugBreak
-Coroutine_GetCurrentlyActive
-Coroutine_GetStackDepth
-Coroutine_IsActive
-Coroutine_IsAddressInOurStack
-Coroutine_ReleaseThreadMemory
-Coroutine_Test
-Coroutine_ValidateGlobals
-Coroutine_YieldToMain
-Couldn't write %s: %s
-CreateInterface
-CreateVProfile
-D
 DANCE
 DATING
-DBG_PATHMATCH
 DEALS
 DEGREE
 DEMOCRAT
@@ -641,308 +1134,115 @@ DIGITAL
 DIRECT
 DIRECTORY
 DISCOUNT
-DJ
-DK
-DM
-DNP
-DO
 DOMAINS
 DURBAN
-DZ
-DebugStatsSystem
-Don't know how to check filesystem type on POSIX!
-E
-E0
-EDU
 EDUCATION
-EG
 EMAIL
 ENGINEER
 ENGINEERING
 ENTERPRISES
 EQUIPMENT
 ESTATE
-EU
-EUS
 EVENTS
 EXCHANGE
 EXPERT
 EXPOSED
-Error
-Error State on string being set.
-Expected %lld but got %lld!
-F
 FAIL
 FARM
 FEEDBACK
-FI
 FINANCE
 FINANCIAL
 FISH
 FISHING
 FITNESS
-FJ
-FK
 FLIGHTS
 FLORIST
-FM
-FOO
 FOUNDATION
-FR
 FROGANS
 FUND
 FURNITURE
 FUTBOL
-Failed system(%s) in execute test: %s
-Failed to determine free disk space for %s, error %d
-Fatal Assertion Failed: pBlob
-G
-G0
-GA
-GAL
 GALLERY
-GB
-GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
-GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
-GD
 GENT
-GF
-GG
-GH
-GI
 GIFT
 GIVES
-GL
 GLASS
-GLIBCXX_3.4
-GLIBC_2.14
-GLIBC_2.2.5
-GLIBC_2.3
-GLIBC_2.3.4
-GLIBC_2.4
-GLIBC_2.7
 GLOBAL
 GLOBO
-GM
-GMO
-GN
-GNU
-GOP
-GOV
-GP
-GQ
-GR
 GRAPHICS
 GRATIS
 GREEN
 GRIPE
-GT
-GU
 GUIDE
 GUITARS
 GURU
-GW
-Gbps
-GetNameFromOSType
-GetOSDetailString
-GetOSType
-GetPlatformFromOS
-GetPlatformName
-GetPlatformNameFromEPlatformType
-GetPortableOsVersionInformation
-GetSpewOutputFunc
-H
 HAMBURG
 HAUS
 HIPHOP
-HIV
-HM
-HN
 HOLDINGS
 HOLIDAY
-HOME
 HOMES
 HORSE
 HOST
 HOUSE
-HT
-I
-I0
-IE
 IMMOBILIEN
 INDUSTRIES
 INFO
 INSTITUTE
 INSURE
-INT
 INTERNATIONAL
 INVESTMENTS
-IQ
-IVALIDATE001
-InstallUniformRandomStream
-Invalid flags in %s
-Is64BitOS
-J
-JE
 JETZT
-JM
-JO
 JOBS
 JOBURG
-JP
 JUEGOS
-K
 KAUFEN
-KB
-KG
-KH
-KIM
 KITCHEN
 KIWI
-KM
-KN
 KOELN
-KP
-KR
-KRD
 KRED
-KW
-KY
-KZ
-Kbps
-KeyValuesSystem()
-KeyValuesSystemSteam
-L
 LACAIXA
 LAWYER
-LB
-LC
 LEASE
 LGBT
-LI
 LIFE
 LIGHTING
 LIMITED
 LIMO
 LINK
-LK
 LOANS
 LONDON
 LOTTO
-LR
-LT
-LU
 LUXE
 LUXURY
-LV
-Leaked KeyValues (%u):
-Linux
-Linux 2.2
-Linux 2.4
-Linux 2.6
-Linux 3.10
-Linux 3.16
-Linux 3.18
-Linux 3.2
-Linux 3.5
-Linux 3.6
-Linux 3.x
-Linux 4.1
-Linux 4.4
-Linux 4.9
-Linux 4.x
-Lowered '%s' -> '%s'
-M
 MAISON
 MANAGEMENT
 MANGO
 MARKET
 MARKETING
-MB
-MC
-MD
 MEDIA
 MEET
 MELBOURNE
 MENU
-MG
 MIAMI
-MIL
 MINI
-MK
-ML
-MM
-MN
 MOBI
 MODA
-MOE
 MONASH
 MORTGAGE
 MOSCOW
 MOTORCYCLES
-MQ
-MR
-MT
-MU
 MUSEUM
-MV
-MZ
-Mac OS
-MacOS 10.10
-MacOS 10.11
-MacOS 10.12
-MacOS 10.4
-MacOS 10.5
-MacOS 10.5.8
-MacOS 10.6
-MacOS 10.6.3
-MacOS 10.6.4 with Apple's Snow Leopard Graphics Update
-MacOS 10.6.7
-MacOS 10.7
-MacOS 10.8
-MacOS 10.9
-Matched '%s' -> '%s'
-Mbps
-Memory leak: mempool blocks left in memory: %d
-Msg
-N
-N11SteamStdLib12CCommandLineE
-N11SteamStdLib12ICommandLineE
-NA
 NAGOYA
 NAME
 NAVY
-NC
-NET
 NEUSTAR
-NF
-NHK
 NINJA
-NR
-NRA
-NRW
-NULL buffer passed to V_atof()
-NULL buffer passed to V_atoi()
-NYC
-NZ
-No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
-Not continuing coroutine due to g_bPreventCoroutineContinue, %s
-O
 OKINAWA
-ONG
-ONL
-ORG
 ORGANIC
-OSTypesAreCompatible
-OVH
-Ox
-P
 PARIS
 PARTNERS
 PARTS
-PF
-PG
-PH
 PHOTO
 PHOTOGRAPHY
 PHOTOS
@@ -950,37 +1250,15 @@ PHYSIO
 PICS
 PICTURES
 PINK
-PK
-PL
 PLACE
 PLUMBING
-PM
-PN
 POST
-PR
 PRAXI
 PRESS
-PRO
 PRODUCTIONS
 PROPERTIES
-PS3
-PT
-PUB
-PW
-PY
-Parameter file '%s' not found, skipping...
-Plat_GetExecutablePathUTF8
-Plat_GetProcessArgv
-Plat_OutputDebugString
-Plat_OutputDebugStringRaw
-Plat_RelativeTicks
-Plat_VirtualAccessFlags
-Plat_localtime
-Q
-QA
 QPON
 QUEBEC
-R
 RECIPES
 REHAB
 REISE
@@ -992,415 +1270,68 @@ REPUBLICAN
 REST
 REVIEWS
 RICH
-RIO
 ROCKS
 RODEO
 RUHR
 RYUKYU
-Restoring saved stack over RestoreStackFrame (%p, %p, %p, %p)
-R
-S
-SA
 SAARLAND
-SB
-SC
-SCB
 SCHMIDT
 SCHULE
 SCOT
-SD
 SERVICES
 SEXY
-SG
 SHIKSHA
 SHOES
 SINGLES
-SJ
-SK
-SL
-SM
-SN
-SO
 SOCIAL
 SOFTWARE
 SOHU
 SOLAR
 SOLUTIONS
-SOY
 SPACE
 SPIEGEL
-SR
-SU
 SUPPLIES
 SUPPLY
 SUPPORT
 SURF
 SURGERY
 SUZUKI
-SV
-SX
-SY
 SYSTEMS
-SZ
-Seeking to a position not supported with async io
-Seeking to a position which is not sector aligned will break unbuffered io
-Steam - DirWatcher
-SteamRealPath
-SteamStdLib::CCommandLineParam::CCommandLineParam(char const*, char const*)
-SteamStdLib::CCommandLineParam::~CCommandLineParam()
-SteamStdLib::CommandLine()
-SteamThreadTools::CThread::CThread()
-SteamThreadTools::CThread::GetThreadProc()
-SteamThreadTools::CThread::Init()
-SteamThreadTools::CThread::IsAlive() const
-SteamThreadTools::CThread::IsThreadRunning() const
-SteamThreadTools::CThread::Join(unsigned int)
-SteamThreadTools::CThread::OnExit()
-SteamThreadTools::CThread::SetName(char const*)
-SteamThreadTools::CThread::Start(unsigned long)
-SteamThreadTools::CThread::~CThread()
-SteamThreadTools::CThreadEvent::CThreadEvent(bool)
-SteamThreadTools::CThreadEvent::Set()
-SteamThreadTools::CThreadLocalBase::CThreadLocalBase()
-SteamThreadTools::CThreadLocalBase::Get() const
-SteamThreadTools::CThreadLocalBase::Set(void*)
-SteamThreadTools::CThreadLocalBase::~CThreadLocalBase()
-SteamThreadTools::CThreadMutex::CThreadMutex()
-SteamThreadTools::CThreadMutex::~CThreadMutex()
-SteamThreadTools::CThreadRWLock::LockForWrite()
-SteamThreadTools::CThreadRWLock::UnlockWrite()
-SteamThreadTools::CThreadRWLock::WaitForRead()
-SteamThreadTools::CThreadSpinLock::Lock(unsigned int) volatile
-SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
-SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
-SteamVProf::CVProfNode::EnterScope(void*)
-SteamVProf::CVProfNode::ExitScope()
-SteamVProf::CVProfNode::GetSubNode(char const*, int, EVProfBugdetGroup, int)
-SteamVProf::CVProfile::~CVProfile()
-String pool bytes used %u, max %u, %u pools
-StringAfterPrefix
-StringAfterPrefixCaseSensitive
-StringFindSuffix
-T
-T-
 TATTOO
-TAX
-TD
 TECHNOLOGY
-TEL
-TG
-TH
 TIENDA
 TIPS
 TIROL
-TJ
-TK
-TL
-TM
-TMPDIR
-TN
 TODAY
 TOKYO
 TOOLS
 TOYS
-TP
-TR
 TRADE
 TRAINING
 TRAVEL
-TSListBase_Init
-TSListBase_Pop
-TSListBase_Push
-TSListBase_SwapList
-TSListBase_UnsafePeek
-TSQueueBase_Init
-TSQueueBase_Pop
-TSQueueBase_Push
-TSQueueBase_UnsafeDummy
-TSQueueBase_UnsafePeek
-TSQueue_PopIntoFreeList
-TT
-TV
-TW
-TZ
-Target buffer for V_URLEncode should be 3x source length, plus one for terminating null
-Target buffer too short
-Target buffer too short to terminate
-ThreadGetCurrentId
-ThreadGetCurrentProcessId
-ThreadGetCurrentRunningRef
-ThreadImplOneTimeInit
-ThreadInMainThread
-ThreadInterlockedAssignIf
-ThreadInterlockedDecrement
-ThreadInterlockedExchange
-ThreadInterlockedExchangeAdd
-ThreadInterlockedIncrement
-ThreadIsThreadRunning
-ThreadSleep
-Total number of strings %u, longest string size %u, avg size %u
-Total of %u buckets with %u hash collisions
-U
-UA
-UG
-UK
 UNIVERSITY
-UNO
-UY
-UZ
-Unbuffered read should be called with cubData length that is aligned to system page size (4kb)
-Unbuffered read should be called with pvData buffer that is aligned to system page size (4kb)
-Unknown
-Unmatched %s
-U}
-V
-VA
 VACATIONS
-VC
 VEGAS
 VENTURES
 VERSICHERUNG
-VET
-VEngineCvar002
-VI
 VIAJES
 VILLAS
 VISION
 VLAANDEREN
-VN
 VODKA
 VOTE
 VOTING
 VOTO
 VOYAGE
-VStdLib_GetICVarFactory
-VU
-V_AggressiveStripPrecedingAndTrailingWhitespace
-V_AggressiveStripPrecedingAndTrailingWhitespaceW
-V_AppendParamToURL
-V_AppendSlash
-V_AppendSlash: ran out of space on %s.
-V_BasicHtmlEntityEncode
-V_BasicHtmlEntityEncodeBuffer
-V_CP437CharsToUTF8
-V_ComposeFileName
-V_ConvertStringToUUID
-V_ConvertStringToUUID(char const*, EUUIDStringFlags, V_UUID*)
-V_ConvertStringToUUID(wchar_t const*, EUUIDStringFlags, V_UUID*)
-V_ConvertUUIDToString
-V_ConvertUUIDToString(V_UUID const*, EUUIDStringFlags, char*, int)
-V_ConvertUUIDToString(V_UUID const*, EUUIDStringFlags, wchar_t*, int)
-V_CopyAndFixSlashes
-V_DefaultExtension
-V_EscapeShellArgumentAndAppend(CUtlStringBuilder*, char const*)
-V_EscapeShellArgumentAndAppend(char*, unsigned long, char const*)
-V_EscapeShellArgumentAndAppendPOSIX(char*, unsigned long, char const*)
-V_EscapeShellArgumentAndAppendWin32(char*, unsigned long, char const*)
-V_EscapeStringForPHP
-V_ExtractDomainFromURL
-V_ExtractFileExtension
-V_ExtractFilePath
-V_FileBase
-V_FixDoubleSlashes
-V_FixSlashes
-V_FixupPathName
-V_FormatAndAppend
-V_FormatAndAppendTail
-V_FormatAndAppendV
-V_GetCurrentDirectory
-V_GetFileExtension
-V_HtmlEntityDecodeToUTF8
-V_IsAbsolutePath
-V_IsDeprecatedW
-V_IsMeanSpaceW
-V_IsTLD
-V_IsValidDomainNameCharacter
-V_IsValidUChar32
-V_IsValidURLCharacter
-V_JoinNumbers
-V_JoinNumbersUint
-V_MakeAbsolutePath
-V_MakeAbsolutePath: _getcwd failed.
-V_MakeFileSafeName
-V_MakeRelativePath
-V_MatchWildcardDNSName
-V_MatchWildcardString
-V_NormalizeUTF8
-V_NormalizeUTF8Old
-V_ParseShellCommandLine(char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString> >&, int, char const**)
-V_ParseShellCommandLinePOSIX(char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString> >&, int, char const**)
-V_ParseShellCommandLineWin32(char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString> >&, int, char const**)
-V_ParseURLQueryString
-V_RemoveDotSlashes
-V_RemoveDotSlashes failed for "%s".
-V_ReplaceBadFilenameCharacters
-V_ReplaceBadFilenameCharactersInPlace
-V_SetCurrentDirectory
-V_SetExtension
-V_SetURLParam
-V_SplitNumbers
-V_SplitNumbersUint
-V_SplitString
-V_SplitString(char const*, char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString> >&, bool)
-V_SplitString2
-V_SplitString2(char const*, char const* const*, int, CUtlVector<CUtlString, CUtlMemory<CUtlString> >&, bool)
-V_StrLeft
-V_StrReplaceChar
-V_StrRight
-V_StrSkipArticles
-V_StrSlice
-V_StrSubst
-V_StrSubstInPlace
-V_StrTrim
-V_StripAndPreserveHTML
-V_StripAndPreserveHTMLCore
-V_StripBBCode
-V_StripExtension
-V_StripFilename
-V_StripLastDir
-V_StripPrecedingAndTrailingWhitespace
-V_StripPrecedingAndTrailingWhitespaceW
-V_StripTrailingSlash
-V_StripTrailingWhitespaceASCII
-V_StripUnprintable
-V_StripUnprintableW
-V_TruncateAbsolutePathToDiskIdentity
-V_UChar32ToUTF16
-V_UChar32ToUTF16Len
-V_UChar32ToUTF8
-V_UChar32ToUTF8Len
-V_URLContainsDomain
-V_URLCracker
-V_URLDecode
-V_URLDecode needs a dest buffer at least as large as the source
-V_URLDecodeRaw
-V_URLEncode
-V_URLEncodeRaw
-V_URLParse
-V_URLPartsToString
-V_UTF16ToUChar32
-V_UTF16ToUTF32
-V_UTF16ToUTF8
-V_UTF32CharsToUTF16
-V_UTF32CharsToUTF8
-V_UTF32ToUTF16
-V_UTF32ToUTF8
-V_UTF8ToUChar32
-V_UTF8ToUTF16
-V_UTF8ToUTF32
-V_UnicodeAdvance(char*, int)
-V_UnicodeAdvance(unsigned short*, int)
-V_UnicodeAdvance(wchar_t*, int)
-V_UnicodeCaseConvert(CUtlString&, int, EStringConvertErrorPolicy)
-V_UnicodeCaseConvert(CUtlStringBuilder&, int, EStringConvertErrorPolicy)
-V_UnicodeCaseConvert(CUtlVector<wchar_t, CUtlMemory<wchar_t> >&, int, EStringConvertErrorPolicy)
-V_UnicodeCaseConvert(char const*, char*, int, int, EStringConvertErrorPolicy)
-V_UnicodeCaseConvert(unsigned short const*, unsigned short*, int, int, EStringConvertErrorPolicy)
-V_UnicodeCaseConvert(wchar_t const*, wchar_t*, int, int, EStringConvertErrorPolicy)
-V_UnicodeLength(char const*)
-V_UnicodeLength(unsigned short const*)
-V_UnicodeLength(wchar_t const*)
-V_UnicodeRepair(char*, EStringConvertErrorPolicy)
-V_UnicodeRepair(unsigned short*, EStringConvertErrorPolicy)
-V_UnicodeRepair(wchar_t*, EStringConvertErrorPolicy)
-V_UnicodeValidate(char const*)
-V_UnicodeValidate(unsigned short const*)
-V_UnicodeValidate(wchar_t const*)
-V_UnqualifiedFileName
-V_WcsSkipArticles
-V_Windows1252CharsToUTF8
-V_atof
-V_atoi
-V_atoui64
-V_binarytohex
-V_hextobinary
-V_isbreakablewspace
-V_isbreakablewspace32
-V_isnumeric
-V_isstrlower
-V_isvalidhex
-V_memcpy_nocache
-V_pretifymem
-V_pretifynum
-V_snprintf
-V_strcat
-V_strcmp_prefix
-V_stricmp_prefix
-V_stristr(char const*, char const*)
-V_strlower_fast
-V_strnappend
-V_strncat
-V_strncat_length
-V_strncat_length_unbounded
-V_strnchr
-V_strncmp
-V_strncpy
-V_strnicmp
-V_strnistr
-V_strnlen
-V_strristr
-V_strtoi64
-V_strtoui64
-V_strupper_fast
-V_tolower
-V_toupper
-V_towlower32
-V_towupper32
-V_vsnprintf
-V_vsnprintfRet
-V_vsnwprintf
-V_wcscat
-V_wcsncat
-V_wcsncpy
-V_wcstoi64
-V_wcstoui64
-V_whextobinary
-ValidateFileIOStatics
-Ve
-W
 WANG
-WARNING: unable to link %s and %s because one or more is a ConCommand.
 WATCH
 WEBCAM
 WEBSITE
-WED
-WF
 WHOSWHO
 WIEN
 WIKI
 WILLIAMHILL
 WORKS
-WTC
-WTF
-Waited %u iterations in CFileWriter::Flush - m_cubOutstanding = %d
-Warning
-WeakRandomChar
-WeakRandomFillMemory
-WeakRandomFloat
-WeakRandomGaussianFloat
-WeakRandomInt
-WeakRandomSeed
-WeakRandomUint32
-Web Client
-Windows
-Windows 10
-Windows 2000
-Windows 2003
-Windows 2008
-Windows 2012
-Windows 2012 R2
-Windows 2016
-Windows 3.11
-Windows 7
-Windows 8
-Windows 8.1
-Windows 95
-Windows 98
-Windows ME
-Windows NT
-Windows Vista
-Windows XP
-X
 XN--3BST00M
 XN--3DS443G
 XN--3E0B707E
@@ -1466,499 +1397,522 @@ XN--XKC2DL3A5EE0H
 XN--YFRO4I67O
 XN--YGBI2AMMX
 XN--ZFR164B
-XXX
-XYZ
-Y
 YACHTS
 YANDEX
-YE
 YOKOHAMA
-YT
-Yo
-Z
-ZA
-ZM
 ZONE
-ZW
-Zf
-[
-\
-\/:"<>|?*
-]
-^
-_
-_DMsg
-_ITM_deregisterTMCloneTable
-_ITM_registerTMCloneTable
-_Jv_RegisterClasses
-_SpewMessageType
-_U
-_ZSt9terminatev@@GLIBCXX_3.4
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZdaPv@@GLIBCXX_3.4
-_ZdlPv@@GLIBCXX_3.4
-_Znam@@GLIBCXX_3.4
-_Znwm@@GLIBCXX_3.4
-__bss_start
-__ctype_b_loc
-__ctype_b_loc@@GLIBC_2.3
-__ctype_tolower_loc
-__ctype_tolower_loc@@GLIBC_2.3
-__ctype_toupper_loc
-__ctype_toupper_loc@@GLIBC_2.3
-__cxa_atexit
-__cxa_atexit@@GLIBC_2.2.5
-__cxa_finalize
-__cxa_finalize@@GLIBC_2.2.5
-__cxa_guard_abort
-__cxa_guard_abort@@CXXABI_1.3
-__cxa_guard_acquire
-__cxa_guard_acquire@@CXXABI_1.3
-__cxa_guard_release
-__cxa_guard_release@@CXXABI_1.3
-__cxa_pure_virtual
-__cxa_pure_virtual@@CXXABI_1.3
-__errno_location
-__errno_location@@GLIBC_2.2.5
-__fxstat64
-__fxstat64@@GLIBC_2.2.5
-__gmon_start__
-__gxx_personality_v0
-__gxx_personality_v0@@CXXABI_1.3
-__isoc99_sscanf
-__isoc99_sscanf@@GLIBC_2.7
-__lxstat
-__lxstat64
-__lxstat64@@GLIBC_2.2.5
-__lxstat@@GLIBC_2.2.5
-__pthread_key_create
-__pthread_key_create@@GLIBC_2.2.5
-__stack_chk_fail
-__stack_chk_fail@@GLIBC_2.4
-__xmknod
-__xmknod@@GLIBC_2.2.5
-__xstat
-__xstat64
-__xstat64@@GLIBC_2.2.5
-__xstat@@GLIBC_2.2.5
-_edata
-_end
-_fini
-_init
-_setjmp
-_setjmp@@GLIBC_2.2.5
-_strlwr
-_strupr
-`
-`,
-`a
-a
-a"
-a,
-aX
-abort@@GLIBC_2.2.5
-access
-access@@GLIBC_2.2.5
-alphasort64
-alphasort64@@GLIBC_2.2.5
-an
-b
-b,
-bps
-br
-bytes
-c
-c"
-c,
-c0
-cf
-chdir
-chdir@@GLIBC_2.2.5
-chmod
-chmod@@GLIBC_2.2.5
-chown@@GLIBC_2.2.5
-close@@GLIBC_2.2.5
-closedir
-closedir@@GLIBC_2.2.5
-commandline.cpp
-console
-coroutine.cpp
-cvar.cpp
-d
-d,
-debugstatssystem.cpp
-dl_iterate_phdr
-dl_iterate_phdr@@GLIBC_2.2.5
-dlclose
-dlclose@@GLIBC_2.2.5
-dlerror
-dlerror@@GLIBC_2.2.5
-dlmopen
-dlmopen@@GLIBC_2.3.4
-dlopen
-dlopen@@GLIBC_2.2.5
-dlsym
-dlsym@@GLIBC_2.2.5
-dup@@GLIBC_2.2.5
-e
-e,
-endmntent
-endmntent@@GLIBC_2.2.5
-f
-f,
-false
-fclose
-fclose@@GLIBC_2.2.5
-fcntl
-fcntl@@GLIBC_2.2.5
-fdatasync
-fdatasync@@GLIBC_2.2.5
-fflush
-fflush@@GLIBC_2.2.5
-fgets
-fgets@@GLIBC_2.2.5
-fopen
-fopen64
-fopen64@@GLIBC_2.2.5
-fopen@@GLIBC_2.2.5
-fprintf
-fprintf@@GLIBC_2.2.5
-fread
-fread@@GLIBC_2.2.5
-free
-free@@GLIBC_2.2.5
-freopen
-freopen@@GLIBC_2.2.5
-fseek
-fseek@@GLIBC_2.2.5
-ftell
-ftell@@GLIBC_2.2.5
-ftruncate
-ftruncate64
-ftruncate64@@GLIBC_2.2.5
-ftruncate@@GLIBC_2.2.5
-futimes
-futimes@@GLIBC_2.3
-fwrite
-fwrite@@GLIBC_2.2.5
-g
-g,
-gCURLUtils_hashTLDs
-g_VProfManager
-g_VProfProfilesRunningCount
-g_VProfile
-g_VecPCoroutineMgr
-g_VecPCoroutineMgr[i]
-g_mapPairs
-g_pMemAllocSteam
-getcwd
-getcwd@@GLIBC_2.2.5
-getenv
-getenv@@GLIBC_2.2.5
-gethostbyname
-gethostbyname@@GLIBC_2.2.5
-getmntent
-getmntent@@GLIBC_2.2.5
-getsockname
-getsockname@@GLIBC_2.2.5
-getuid
-getuid@@GLIBC_2.2.5
-h
-h,
-i
-i,
-if
-img
-invalid input pointer
-isalnum
-isalnum@@GLIBC_2.2.5
-isspace
-isspace@@GLIBC_2.2.5
-iswalnum
-iswalnum@@GLIBC_2.2.5
-iswalpha
-iswalpha@@GLIBC_2.2.5
-iswspace
-iswspace@@GLIBC_2.2.5
-j
-j,
-k
-k,
-kX
-keyvaluessystem.cpp
-l
-l,
-lchown
-lchown@@GLIBC_2.2.5
-ld-linux-x86-64.so.2
-libc.so.6
-libdl.so.2
-libm.so.6
-libpthread.so.0
-librt.so.1
-libstdc++.so.6
-libtier0_vr.so
-link@@GLIBC_2.2.5
-linux
-localeconv
-localeconv@@GLIBC_2.2.5
-log
-log@@GLIBC_2.2.5
-longjmp
-longjmp@@GLIBC_2.2.5
-lseek64
-lseek64@@GLIBC_2.2.5
-m
-m_Elements
-m_HashItemMemPool
-m_LeakTrack
-m_ListCoroutines
-m_ListCoroutines[iRoutine]
-m_Memory
-m_Tree
-m_VecCoroutineStack
-m_bitsMigratedBuckets
-m_buffer
-m_listChangedFiles
-m_listChangedFiles[i]
-m_listCommandLineOption
-m_mapConditionalSymbolTable
-m_mapFileTimes
-m_memNodes
-m_pthreadWatcher
-m_strCmdLine
-m_strDirectory
-m_vecHashBuckets
-m_vecParms
-m_vecParms[i]
-m_vecRegisteredWriters
-macos
-malloc
-malloc@@GLIBC_2.2.5
-memcmp
-memcmp@@GLIBC_2.2.5
-memcpy
-memcpy@@GLIBC_2.14
-memmove
-memmove@@GLIBC_2.2.5
-memset
-memset@@GLIBC_2.2.5
-mkdir
-mkdir@@GLIBC_2.2.5
-mkfifo
-mkfifo@@GLIBC_2.2.5
-mktemp
-mktemp@@GLIBC_2.2.5
-mmap
-mmap64
-mmap64@@GLIBC_2.2.5
-mmap@@GLIBC_2.2.5
-mount
-mount@@GLIBC_2.2.5
-msync
-msync@@GLIBC_2.2.5
-munmap
-munmap@@GLIBC_2.2.5
-n
-nBytesItem is %d in UtlMemory_CalcNewAllocationCount
-nTotal number of strings %u, longest string size %u, avg size %u
-ng
-o
-open64@@GLIBC_2.2.5
-open@@GLIBC_2.2.5
-opendir
-opendir@@GLIBC_2.2.5
-operator delete(void*)
-operator delete[](void*)
-operator new(unsigned long)
-operator new[](unsigned long)
-out of order normalization entry
-p
-parseurl.cpp
-pm
-posix_fadvise
-posix_fadvise@@GLIBC_2.2.5
-pread64
-pread64@@GLIBC_2.2.5
-printf@@GLIBC_2.2.5
-ps3
-pthread_mutex_lock
-pthread_mutex_lock@@GLIBC_2.2.5
-pthread_mutex_unlock
-pthread_mutex_unlock@@GLIBC_2.2.5
-pthread_once
-pthread_once@@GLIBC_2.2.5
-pwrite64
-pwrite64@@GLIBC_2.2.5
-q
-r
-rb
-read@@GLIBC_2.2.5
-readdir64
-readdir64@@GLIBC_2.2.5
-readlink
-readlink@@GLIBC_2.2.5
-realloc
-realloc@@GLIBC_2.2.5
-realpath
-realpath@@GLIBC_2.3
-rename
-rename@@GLIBC_2.2.5
-rmdir
-rmdir@@GLIBC_2.2.5
-s
-scandir
-scandir64
-scandir64@@GLIBC_2.2.5
-scandir@@GLIBC_2.2.5
-sched_yield
-sched_yield@@GLIBC_2.2.5
-script
-sendfile64
-sendfile64@@GLIBC_2.3
-setmntent
-setmntent@@GLIBC_2.2.5
-shm_open
-shm_open@@GLIBC_2.2.5
-shm_unlink
-shm_unlink@@GLIBC_2.2.5
-snprintf@@GLIBC_2.2.5
-sprintf@@GLIBC_2.2.5
-sqrtf
-sqrtf@@GLIBC_2.2.5
-sscanf@@GLIBC_2.2.5
-static_cast<Node_t*>(pNode)->elem
-statvfs
-statvfs64
-statvfs64@@GLIBC_2.2.5
-statvfs@@GLIBC_2.2.5
-std::terminate()
-stderr
-stderr@@GLIBC_2.2.5
-steam://openurl/
-steam://openurl_external/
-strcasecmp
-strcasecmp@@GLIBC_2.2.5
-strcasestr
-strcasestr@@GLIBC_2.2.5
-strchr
-strchr@@GLIBC_2.2.5
-strcmp
-strcmp@@GLIBC_2.2.5
-strcpy
-strcpy@@GLIBC_2.2.5
-strdup
-strdup@@GLIBC_2.2.5
-strerror
-strerror@@GLIBC_2.2.5
-strftime
-strftime@@GLIBC_2.2.5
-strlen
-strlen@@GLIBC_2.2.5
-strncasecmp
-strncasecmp@@GLIBC_2.2.5
-strncat@@GLIBC_2.2.5
-strncmp@@GLIBC_2.2.5
-strncpy@@GLIBC_2.2.5
-strpbrk
-strpbrk@@GLIBC_2.2.5
-strrchr
-strrchr@@GLIBC_2.2.5
-strstr
-strstr@@GLIBC_2.2.5
-strtod
-strtod@@GLIBC_2.2.5
-strtol
-strtol@@GLIBC_2.2.5
-strtoll
-strtoll@@GLIBC_2.2.5
-strtools.cpp
-strtools_unicode.cpp
-strtoul
-strtoul@@GLIBC_2.2.5
-strtoull
-strtoull@@GLIBC_2.2.5
-swprintf@@GLIBC_2.2.5
-swscanf
-swscanf@@GLIBC_2.2.5
-symlink
-symlink@@GLIBC_2.2.5
-system
-system@@GLIBC_2.2.5
-t
-t%
-t,
-test string
-the
-time@@GLIBC_2.2.5
-toupper@@GLIBC_2.2.5
-towlower
-towlower@@GLIBC_2.2.5
-towupper
-towupper@@GLIBC_2.2.5
-true
-typeinfo for CUniformRandomStream
-typeinfo for SteamThreadTools::CThread
-typeinfo name for CUniformRandomStream
-u
-uO
-unReadAheadChunkSize should be zero when using bUnbuffered = true
-uname
-uname@@GLIBC_2.2.5
-unknown
-unlink@@GLIBC_2.2.5
-unsupported flags 0x%x passed to CFileReader::BOpenFile
-usleep
-usleep@@GLIBC_2.2.5
-utime
-utime@@GLIBC_2.2.5
-utimes@@GLIBC_2.2.5
-v
-vasprintf
-vasprintf@@GLIBC_2.2.5
-vsnprintf@@GLIBC_2.2.5
+11CUtlHashMapIPKcb24CDefCaselessStringEquals25HashFunctorStringCaselessE
+10CUtlVectorIN11CUtlHashMapIPKcb24CDefCaselessStringEquals25HashFunctorStringCaselessE12HashBucket_tE10CUtlMemoryIS6_EE
 vstdlib_s.dll
-vstdlib_wcsicmp
-vstdlib_wcsnicmp
-vstdlib_wcstoi64
-vstdlib_wcstoui64
-vswprintf
-vswprintf@@GLIBC_2.2.5
-vtable for CUniformRandomStream
-vtable for __cxxabiv1::__class_type_info
-vtable for __cxxabiv1::__si_class_type_info
-v}
-w
-w+
-wa+
-wcscasecmp
-wcscasecmp@@GLIBC_2.2.5
-wcscmp
-wcscmp@@GLIBC_2.2.5
-wcslen
-wcslen@@GLIBC_2.2.5
-wcsncasecmp
-wcsncasecmp@@GLIBC_2.2.5
+IVALIDATE001
+9IValidate
+19CVStdLibDLLValidate
+V_ConvertUUIDToString(V_UUID const*, EUUIDStringFlags, wchar_t*, int)
+Coroutine_DebugBreak
+V_strncat_length_unbounded
+V_ExtractDomainFromURL
+chmod@@GLIBC_2.2.5
+StringFindSuffix
+V_toupper
+setmntent@@GLIBC_2.2.5
+mount@@GLIBC_2.2.5
+symlink@@GLIBC_2.2.5
+SteamVProf::CVProfile::~CVProfile()
+V_URLDecodeRaw
+CanBeginLine
+V_FormatAndAppendV
+chdir@@GLIBC_2.2.5
+V_SplitNumbersUint
+endmntent@@GLIBC_2.2.5
+V_AppendParamToURL
+BHanIdeograph
+printf@@GLIBC_2.2.5
+Plat_localtime
+V_EscapeShellArgumentAndAppendPOSIX(char*, unsigned long, char const*)
+V_UnicodeValidate(wchar_t const*)
+V_NormalizeUTF8Old
 wcsncat@@GLIBC_2.2.5
+CGaussianRandomStream::RandomFloat(float, float)
+strcasestr@@GLIBC_2.2.5
+V_FixDoubleSlashes
+WeakRandomUint32
+V_UnicodeValidate(char const*)
+memset@@GLIBC_2.2.5
+ftell@@GLIBC_2.2.5
+ThreadGetCurrentProcessId
+V_StripPrecedingAndTrailingWhitespaceW
+V_Windows1252CharsToUTF8
+V_TruncateAbsolutePathToDiskIdentity
+snprintf@@GLIBC_2.2.5
 wcsncpy@@GLIBC_2.2.5
-wcstol
-wcstol@@GLIBC_2.2.5
-wcstoll
-wcstoll@@GLIBC_2.2.5
-wcstoull
+VStdLib_GetICVarFactory
+mmap64@@GLIBC_2.2.5
+V_UTF8ToUTF16
+V_UnqualifiedFileName
+swprintf@@GLIBC_2.2.5
+V_URLContainsDomain
+V_IsValidURLCharacter
+wcslen@@GLIBC_2.2.5
+close@@GLIBC_2.2.5
+vstdlib_wcstoui64
+V_MatchWildcardDNSName
+V_StripTrailingWhitespaceASCII
+g_VProfile
+vstdlib_wcstoi64
+V_strncmp
+swscanf@@GLIBC_2.2.5
+V_UTF16ToUTF8
+TSListBase_SwapList
+utime@@GLIBC_2.2.5
+Coroutine_Create
+V_StripTrailingSlash
+abort@@GLIBC_2.2.5
+CStringNormalization::Fold(wchar_t const*, wchar_t*, int)
+V_UTF16ToUTF32
+strncat@@GLIBC_2.2.5
+Plat_GetProcessArgv
+V_UnicodeCaseConvert(CUtlVector<wchar_t, CUtlMemory<wchar_t>>&, int, EStringConvertErrorPolicy)
+vasprintf@@GLIBC_2.2.5
+V_UnicodeRepair(wchar_t*, EStringConvertErrorPolicy)
+__cxa_guard_acquire@@CXXABI_1.3
+V_strtoi64
+CUniformRandomStream::GenerateRandomNumber()
+utimes@@GLIBC_2.2.5
+V_vsnprintfRet
+SteamStdLib::CCommandLineParam::CCommandLineParam(char const*, char const*)
+V_JoinNumbersUint
+gethostbyname@@GLIBC_2.2.5
+CValidator::Pop()
+__gmon_start__
+_Jv_RegisterClasses
+V_WcsSkipArticles
+_Znam@@GLIBCXX_3.4
+uname@@GLIBC_2.2.5
+_setjmp@@GLIBC_2.2.5
+V_wcsncpy
+V_ExtractFilePath
+fseek@@GLIBC_2.2.5
+_ZdlPv@@GLIBCXX_3.4
+__isoc99_sscanf@@GLIBC_2.7
+toupper@@GLIBC_2.2.5
+SteamStdLib::CCommandLineParam::CCommandLineParam(char const*, char const*)
+V_UTF32CharsToUTF8
+V_StrLeft
+V_UnicodeAdvance(char*, int)
+V_StripUnprintableW
+V_IsValidDomainNameCharacter
+strcasecmp@@GLIBC_2.2.5
+V_FormatAndAppend
+V_StrSkipArticles
+V_towupper32
+V_StrSubst
+V_strcat
+_fini
+V_atoi
+V_SetExtension
+V_MakeAbsolutePath
+strpbrk@@GLIBC_2.2.5
+V_StripFilename
+SteamVProf::CVProfNode::GetSubNode(char const*, int, EVProfBugdetGroup, int)
+V_JoinNumbers
+V_strnappend
+V_isnumeric
+TSQueue_PopIntoFreeList
+V_tolower
+V_UTF32ToUTF8
+read@@GLIBC_2.2.5
+SteamThreadTools::CThreadEvent::Set()
+Coroutine_ValidateGlobals
+getmntent@@GLIBC_2.2.5
+strncmp@@GLIBC_2.2.5
+malloc@@GLIBC_2.2.5
+fopen@@GLIBC_2.2.5
+dup@@GLIBC_2.2.5
+g_VProfManager
+system@@GLIBC_2.2.5
+GetOSType
+SteamThreadTools::CThread::~CThread()
+unlink@@GLIBC_2.2.5
+V_IsTLD
+V_strnistr
+WeakRandomChar
+rmdir@@GLIBC_2.2.5
+V_FixupPathName
+sched_yield@@GLIBC_2.2.5
+V_UnicodeAdvance(wchar_t*, int)
+WeakRandomSeed
+shm_open@@GLIBC_2.2.5
+CURLUtils::IsTLD(char const*)
+__cxa_atexit@@GLIBC_2.2.5
+V_UTF8ToUTF32
+V_isbreakablewspace
+dlmopen@@GLIBC_2.3.4
+V_UnicodeValidate(unsigned short const*)
+V_wcsncat
+CDbgFmtSafeImplT<false>::CDbgFmtSafeImplT(char const*, ...)
+g_pMemAllocSteam
+scandir@@GLIBC_2.2.5
+fgets@@GLIBC_2.2.5
+CreateInterface
+V_UnicodeLength(char const*)
+V_IsValidUChar32
+CUniformRandomStream::SetSeed(int)
+V_RemoveDotSlashes
+__fxstat64@@GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+InstallUniformRandomStream
+Coroutine_IsActive
+V_ExtractFileExtension
+vswprintf@@GLIBC_2.2.5
+WeakRandomInt
+GetPlatformName
+TSListBase_Init
+V_UnicodeCaseConvert(wchar_t const*, wchar_t*, int, int, EStringConvertErrorPolicy)
+Is64BitOS
+__ctype_toupper_loc@@GLIBC_2.3
+CanBreakRepeated
+V_ReplaceBadFilenameCharacters
+SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
+SteamRealPath
+free@@GLIBC_2.2.5
+CValidator::ClaimMemory(void*)
+CURLUtils::FixupSeparatorScheme(CUtlString&)
+strlen@@GLIBC_2.2.5
+_ITM_registerTMCloneTable
+CValidator::IsClaimed(void*)
+V_ConvertUUIDToString(V_UUID const*, EUUIDStringFlags, char*, int)
+CStringNormalization::Normalize(bool, char const*, char*, int)
+DebugStatsSystem
+GetOSDetailString
+opendir@@GLIBC_2.2.5
+__xstat@@GLIBC_2.2.5
+CanEndLine
+V_UChar32ToUTF16
+lchown@@GLIBC_2.2.5
+V_StripLastDir
+ThreadImplOneTimeInit
+V_strncat_length
+V_EscapeShellArgumentAndAppend(CUtlStringBuilder*, char const*)
+__ctype_b_loc@@GLIBC_2.3
+TSListBase_UnsafePeek
+__cxa_finalize@@GLIBC_2.2.5
+StringAfterPrefix
+WeakRandomFloat
+realpath@@GLIBC_2.3
+V_DefaultExtension
 wcstoull@@GLIBC_2.2.5
-web
-windows
+alphasort64@@GLIBC_2.2.5
+SteamThreadTools::CThread::Join(unsigned int)
+V_ParseShellCommandLinePOSIX(char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, int, char const**)
+iswalpha@@GLIBC_2.2.5
+V_hextobinary
+_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
+fdatasync@@GLIBC_2.2.5
+__cxa_guard_release@@CXXABI_1.3
+statvfs64@@GLIBC_2.2.5
+dlerror@@GLIBC_2.2.5
+link@@GLIBC_2.2.5
+sprintf@@GLIBC_2.2.5
+V_NormalizeUTF8
+iswalnum@@GLIBC_2.2.5
+V_wcstoui64
+V_IsDeprecatedW
+V_URLEncodeRaw
+V_MakeRelativePath
+V_UChar32ToUTF16Len
+towupper@@GLIBC_2.2.5
+strrchr@@GLIBC_2.2.5
+V_vsnwprintf
+typeinfo name for CUniformRandomStream
+GetPlatformFromOS
+V_binarytohex
+sscanf@@GLIBC_2.2.5
+SteamStdLib::CCommandLineParam::~CCommandLineParam()
+V_atoui64
+V_UnicodeLength(unsigned short const*)
+Error
+V_EscapeStringForPHP
+msync@@GLIBC_2.2.5
+V_StrRight
+dlclose@@GLIBC_2.2.5
+g_VProfProfilesRunningCount
+V_StrSubstInPlace
+V_StripPrecedingAndTrailingWhitespace
+V_URLParse
+futimes@@GLIBC_2.3
+V_ComposeFileName
+GetPortableOsVersionInformation
+SteamThreadTools::CThread::Start(unsigned long)
+shm_unlink@@GLIBC_2.2.5
+V_EscapeShellArgumentAndAppendWin32(char*, unsigned long, char const*)
+usleep@@GLIBC_2.2.5
+strerror@@GLIBC_2.2.5
+open64@@GLIBC_2.2.5
+V_StripBBCode
+strstr@@GLIBC_2.2.5
+typeinfo for SteamThreadTools::CThread
+V_StrReplaceChar
+Coroutine_Continue
+V_UnicodeRepair(unsigned short*, EStringConvertErrorPolicy)
+CURLUtils::ValidateStatics(CValidator&, char const*)
+_ZSt9terminatev@@GLIBCXX_3.4
+scandir64@@GLIBC_2.2.5
+iswspace@@GLIBC_2.2.5
+CStringNormalization::Test_BValidateStructures()
+V_wcstoi64
+posix_fadvise@@GLIBC_2.2.5
+V_AggressiveStripPrecedingAndTrailingWhitespace
+vstdlib_wcsicmp
+strtol@@GLIBC_2.2.5
+ftruncate64@@GLIBC_2.2.5
+readlink@@GLIBC_2.2.5
+V_URLPartsToString
+getsockname@@GLIBC_2.2.5
+V_URLEncode
+CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(char const*)
+_DMsg
+V_HtmlEntityDecodeToUTF8
+ThreadIsThreadRunning
+V_strupper_fast
+CStringNormalization::ValidateStatics(CValidator&, char const*)
+CreateVProfile
+TSQueueBase_UnsafeDummy
+towlower@@GLIBC_2.2.5
+V_FixSlashes
+CanBreakBetween
+WeakRandomGaussianFloat
+V_SplitString2(char const*, char const* const*, int, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, bool)
+wcstoll@@GLIBC_2.2.5
+WeakRandomFillMemory
+CGaussianRandomStream::CGaussianRandomStream(IUniformRandomStream*)
+TSListBase_Pop
+V_memcpy_nocache
+SteamThreadTools::CThread::CThread()
+V_strnicmp
+V_ParseShellCommandLineWin32(char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, int, char const**)
+__cxa_pure_virtual@@CXXABI_1.3
+V_GetFileExtension
+Coroutine_Cancel
+V_UnicodeRepair(char*, EStringConvertErrorPolicy)
+ThreadInterlockedExchange
+V_FileBase
+SteamThreadTools::CThread::OnExit()
+SteamThreadTools::CThreadLocalBase::CThreadLocalBase()
+V_UTF8ToUChar32
+V_strnlen
+V_EscapeShellArgumentAndAppend(char*, unsigned long, char const*)
+memmove@@GLIBC_2.2.5
+__xmknod@@GLIBC_2.2.5
+V_whextobinary
+strchr@@GLIBC_2.2.5
+__lxstat64@@GLIBC_2.2.5
+V_UnicodeCaseConvert(unsigned short const*, unsigned short*, int, int, EStringConvertErrorPolicy)
+CUniformRandomStream::CUniformRandomStream()
+vsnprintf@@GLIBC_2.2.5
+fread@@GLIBC_2.2.5
+SteamThreadTools::CThreadEvent::CThreadEvent(bool)
+_strupr
+V_ReplaceBadFilenameCharactersInPlace
+V_MatchWildcardString
+SteamThreadTools::CThreadRWLock::WaitForRead()
+getenv@@GLIBC_2.2.5
+TSListBase_Push
+Plat_RelativeTicks
+V_wcscat
+V_UChar32ToUTF8
+dl_iterate_phdr@@GLIBC_2.2.5
+V_strristr
+V_BasicHtmlEntityEncodeBuffer
+typeinfo for CUniformRandomStream
+CValidator::Push(char const*, void*, char const*)
+Plat_OutputDebugString
+pread64@@GLIBC_2.2.5
+__errno_location@@GLIBC_2.2.5
+strdup@@GLIBC_2.2.5
+__bss_start
+_strlwr
+SteamThreadTools::CThreadRWLock::LockForWrite()
+SteamThreadTools::CThreadLocalBase::Set(void*)
+CGaussianRandomStream::AttachToStream(IUniformRandomStream*)
+_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
+V_StripAndPreserveHTML
+V_strlower_fast
+V_snprintf
+CUniformRandomStream::RandomInt(int, int)
+SteamVProf::CVProfNode::ExitScope()
+strncasecmp@@GLIBC_2.2.5
+V_StripUnprintable
+__stack_chk_fail@@GLIBC_2.4
+V_StrTrim
+TSQueueBase_Pop
+CUniformRandomStream::RandomChar()
+strcmp@@GLIBC_2.2.5
+Plat_VirtualAccessFlags
+getcwd@@GLIBC_2.2.5
+ThreadGetCurrentRunningRef
+V_strnchr
+GetNameFromOSType
+V_towlower32
+localeconv@@GLIBC_2.2.5
+V_pretifynum
+SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
+ThreadInterlockedAssignIf
+strcpy@@GLIBC_2.2.5
+V_UnicodeLength(wchar_t const*)
+V_UnicodeCaseConvert(char const*, char*, int, int, EStringConvertErrorPolicy)
+V_IsMeanSpaceW
+longjmp@@GLIBC_2.2.5
+V_AppendSlash
+chown@@GLIBC_2.2.5
+getuid@@GLIBC_2.2.5
+SteamVProf::CVProfNode::EnterScope(void*)
+mktemp@@GLIBC_2.2.5
+V_AggressiveStripPrecedingAndTrailingWhitespaceW
+V_CP437CharsToUTF8
+vtable for CUniformRandomStream
+V_URLCracker
+_ZdaPv@@GLIBCXX_3.4
+wcsncasecmp@@GLIBC_2.2.5
+ThreadSleep
+pthread_once@@GLIBC_2.2.5
+__ctype_tolower_loc@@GLIBC_2.3
+memcmp@@GLIBC_2.2.5
+V_BasicHtmlEntityEncode
+SteamThreadTools::CThread::IsThreadRunning() const
+munmap@@GLIBC_2.2.5
+V_stricmp_prefix
+pwrite64@@GLIBC_2.2.5
+V_StripExtension
+V_GetCurrentDirectory
+SteamThreadTools::CThread::Init()
+_end
+V_isstrlower
+CUniformRandomStream::RandomFloat(float, float)
+wcstol@@GLIBC_2.2.5
+V_ConvertStringToUUID(char const*, EUUIDStringFlags, V_UUID*)
+V_StripAndPreserveHTMLCore
+fclose@@GLIBC_2.2.5
+Coroutine_GetCurrentlyActive
+dlopen@@GLIBC_2.2.5
+freopen@@GLIBC_2.2.5
+statvfs@@GLIBC_2.2.5
+V_UnicodeCaseConvert(CUtlString&, int, EStringConvertErrorPolicy)
+V_UTF32CharsToUTF16
+isalnum@@GLIBC_2.2.5
+TSQueueBase_UnsafePeek
+V_vsnprintf
+Coroutine_YieldToMain
+strncpy@@GLIBC_2.2.5
+CUniformRandomStream::RandomFillMemory(void*, unsigned long)
+V_UTF32ToUTF16
+KeyValuesSystemSteam
+__xstat64@@GLIBC_2.2.5
+isspace@@GLIBC_2.2.5
+lseek64@@GLIBC_2.2.5
+__lxstat@@GLIBC_2.2.5
+strtoull@@GLIBC_2.2.5
+V_MakeFileSafeName
+CUniformRandomStream::CUniformRandomStream()
+dlsym@@GLIBC_2.2.5
+V_ParseURLQueryString
+V_URLDecode
+SteamThreadTools::CThreadRWLock::UnlockWrite()
+closedir@@GLIBC_2.2.5
+CStringNormalization::Initialize()
+mkfifo@@GLIBC_2.2.5
+stderr@@GLIBC_2.2.5
+TSQueueBase_Push
+sendfile64@@GLIBC_2.3
+ftruncate@@GLIBC_2.2.5
+V_SplitString(char const*, char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, bool)
+access@@GLIBC_2.2.5
+SteamStdLib::CCommandLineParam::~CCommandLineParam()
+SteamThreadTools::CThread::SetName(char const*)
+vstdlib_wcsnicmp
+__cxa_guard_abort@@CXXABI_1.3
+Plat_GetExecutablePathUTF8
+__pthread_key_create@@GLIBC_2.2.5
+V_strcmp_prefix
+ThreadGetCurrentId
+V_strtoui64
+wcscasecmp@@GLIBC_2.2.5
+ThreadInterlockedDecrement
+fopen64@@GLIBC_2.2.5
+V_ParseShellCommandLine(char const*, CUtlVector<CUtlString, CUtlMemory<CUtlString>>&, int, char const**)
+strtoll@@GLIBC_2.2.5
+V_UnicodeAdvance(unsigned short*, int)
+V_SetURLParam
+CStringNormalization::Normalize(bool, wchar_t const*, wchar_t*, int)
+V_UnicodeCaseConvert(CUtlStringBuilder&, int, EStringConvertErrorPolicy)
+SteamThreadTools::CThread::GetThreadProc()
+wcscmp@@GLIBC_2.2.5
+fwrite@@GLIBC_2.2.5
+Plat_OutputDebugStringRaw
+pthread_mutex_lock@@GLIBC_2.2.5
+_SpewMessageType
+realloc@@GLIBC_2.2.5
+V_isvalidhex
+CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(DbgFmtFatalMsgTag_t*, char const*)
+Warning
+Coroutine_GetStackDepth
+SteamThreadTools::CThreadSpinLock::Lock(unsigned int) volatile
+_edata
+__gxx_personality_v0@@CXXABI_1.3
+TSQueueBase_Init
+fprintf@@GLIBC_2.2.5
+GetPlatformNameFromEPlatformType
+Coroutine_ReleaseThreadMemory
+GetSpewOutputFunc
 write@@GLIBC_2.2.5
-x
-y
-z
-z#
-z0
-{
-{%0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X}
-{%8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X}
-|
-}
-~
+CValidator::ClaimArrayMemory(void*)
+CGaussianRandomStream::CGaussianRandomStream(IUniformRandomStream*)
+_Znwm@@GLIBCXX_3.4
+V_atof
+V_UChar32ToUTF8Len
+V_FormatAndAppendTail
+strftime@@GLIBC_2.2.5
+Coroutine_Test
+strtoul@@GLIBC_2.2.5
+V_isbreakablewspace32
+V_ConvertStringToUUID(wchar_t const*, EUUIDStringFlags, V_UUID*)
+SteamThreadTools::CThreadLocalBase::Get() const
+V_strncat
+pthread_mutex_unlock@@GLIBC_2.2.5
+SteamStdLib::CommandLine()
+memcpy@@GLIBC_2.14
+fcntl@@GLIBC_2.2.5
+SteamThreadTools::CThreadLocalBase::~CThreadLocalBase()
+V_StrSlice
+V_IsAbsolutePath
+SteamThreadTools::CThread::IsAlive() const
+ThreadInterlockedExchangeAdd
+V_UTF16ToUChar32
+open@@GLIBC_2.2.5
+mmap@@GLIBC_2.2.5
+SteamThreadTools::CThreadMutex::CThreadMutex()
+V_CopyAndFixSlashes
+Coroutine_IsAddressInOurStack
+log@@GLIBC_2.2.5
+rename@@GLIBC_2.2.5
+OSTypesAreCompatible
+AssertMsgImplementation
+V_SetCurrentDirectory
+strtod@@GLIBC_2.2.5
+readdir64@@GLIBC_2.2.5
+ThreadInMainThread
+V_stristr(char const*, char const*)
+mkdir@@GLIBC_2.2.5
+time@@GLIBC_2.2.5
+_init
+V_SplitString2
+fflush@@GLIBC_2.2.5
+V_SplitNumbers
+SteamThreadTools::CThreadMutex::~CThreadMutex()
+sqrtf@@GLIBC_2.2.5
+ThreadInterlockedIncrement
+V_SplitString
+StringAfterPrefixCaseSensitive
+V_pretifymem
+V_strncpy
+GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
+GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3

@@ -1,251 +1,299 @@
+.?AVtype_info@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
                           
-        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
-      </requestedPrivileges>
-      <requestedPrivileges>
-    </security>
-    <security>
-  </trustInfo>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- Base Class Array'
- Base Class Descriptor at (
- CCGG
- Class Hierarchy Descriptor'
- Complete Object Locator'
- GGBB
- Type Descriptor'
- delete
- delete[]
- new[]
-!This program cannot be run in DOS mode.
-( 8PX
-('8PW
-(null)
-+0C0H0
-+t HHt
-- Attempt to initialize the CRT more than once.
-- Attempt to use MSIL code from this assembly during native code initialization
-- CRT not initialized
-- floating point support not loaded
-- not enough space for _onexit/atexit table
-- not enough space for arguments
-- not enough space for environment
-- not enough space for locale information
-- not enough space for lowio initialization
-- not enough space for stdio initialization
-- not enough space for thread data
-- pure virtual function call
-- unable to initialize heap
-- unable to open console device
-- unexpected heap error
-- unexpected multithread lock error
--070H0g0u0
--64OS
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
 .?AVCAitStreamGraph@@
 .?AVUsbScsiCmd@@
-.?AVbad_alloc@std@@
 .?AVbad_exception@std@@
-.?AVexception@std@@
-.?AVtype_info@@
-.guids
-.text
-0 0<0
-0'0/0;0B0K0^0h0t0}0
-0)1V1
-0+060P0\0d0t0
-0,0<0
-0-0S0q0x0|0
-0-171H1d1{1
-0000000000000000
-04080H0l0x0
-041s1
-071a1
-0;1t|
-0>1N1T1`1f1v1|1
-0?152=2
-0?2c3
-0A@@Ju
-0M3T3
-0SSSSS
-0V1a1|1
-0WWWWW
-0l0S1b1}1
-1 282C2g2p2w2
-1!1:1N1T1]1p1
-1#IND
-1#INF
-1#QNAN
-1#SNAN
-1'2Q2
-1(131C1
-1)2I2W2\2
-101L1P1
-11171
-172J2f2x2
-1J2p2
-1R2\2
-1X384
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2$2(2,202z2
-2#2'2+2/23272;2?2L2&3@3O3{3
-2%2c2
-2*2/242:2>2D2I2O2T2c2y2
-2.3X3
-2:3@3`3
-2]3h3p3
-3#454
-3$3,343<3D3L3T3\3d3l3t3|3
-373J3b3t3
-3H5Y5
-3k4q4
-4!4&4,4?4D4J4
-4#5`5
-4%4*424i4
-4(5/5
-444}4
-475B5m5x5
-4J5r5
-4W4\5
-4d4l4
-5 6/676J6W6r6z6
-5!6V6g6
-5"6'6/6
-5#6t6
-5&525k5t5
-5'52585>5C5L5i5o5z5
-525H5
-585w5
-596D6N6_6j6
-5D5J5R5_5s5
-5E6y6
-5F5T5]5c5
-5J6t6
-5P6h6
-6 6&676
-6'898K8m8
-6)7K7
-6-676J6n6
-68:D:w:
-6:6c6
-6D7^8c8h8m8}8
-6]7z7
-6d7h7
-7#7'7+7/73777;7?7C7G7
-7.8M8
-700PP
-700WP
-737>7F7Y7d7q7
-747]7
-777`7e7|7
-7:7W7
-7f8x8
-8 8084888@8X8\8t8
-8$9X9
-8&818T8
-8'9<<
-8,9Z9
-8-8@8V8
-8.868<8A8G8
-80X0H1q1
-828?8=:
-82:V:e:m:
-879A9Y9
-898H8U8a8q8x8
-8G9e:
-8VVVVV
-8]9h9p9
-9$9=9V9n9
-9)9\9k9t9
-909@9D9T9X9\9d9|9
-959N9j9s9y9
-97:d:
-9J:h:
-9K9P9W9\9c9h9
-9W:]:m:
-9] SS
-9]$SS
-:	:*:/:g:
-:	;T;
-:$;L;
-:$;l;
-:(:0:D:`:
-:);X;
-:H;f<x<
-:P>X>`>i>
-:d:l:
-; ;<;@;\;`;
-;!;-;
-;#;2;7;A;O;
-;#;6;A;N;i;t;|;
-;$;/;D;K;Q;g;
-;$;T;
-;1<W<'=:>
-;1=8=>=n=y=
-;4;M;f;
-;8<e<
-;X<^<
-;^<}>
-;`;f;
-;t$,v-
-< <@<`<
-< tK<	tG
-<!<-<Q<Y<d<s<|<
-<$=,=K=[=m=r=
-<+<D<]<v<
-<+t(<-t$:
-</assembly>
-<0=6=B=
-<?<G<Z<j<
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<A=]=
-<O<_<z<
-<Rich
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+kU'9
+HMXB
+?q=\n
+?Zd;
+?/L[
+S;uD
+z?aUY
+D?$?
+U>c{
+zc%C1
+.:3q
+-64OS
+NKeb
+YUY2
+qMJPG
+Vbad allocation
+CorExitProcess
+runtime error 
+TLOSS error\r\n
+SING error\r\n
+DOMAIN error\r\n
+R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
+R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
+R6032\r\n- not enough space for locale information\r\n
+R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
+R6030\r\n- CRT not initialized\r\n
+R6028\r\n- unable to initialize heap\r\n
+R6027\r\n- not enough space for lowio initialization\r\n
+R6026\r\n- not enough space for stdio initialization\r\n
+R6025\r\n- pure virtual function call\r\n
+R6024\r\n- not enough space for _onexit/atexit table\r\n
+R6019\r\n- unable to open console device\r\n
+R6018\r\n- unexpected heap error\r\n
+R6017\r\n- unexpected multithread lock error\r\n
+R6016\r\n- not enough space for thread data\r\n
+\r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
+R6009\r\n- not enough space for environment\r\n
+R6008\r\n- not enough space for arguments\r\n
+R6002\r\n- floating point support not loaded\r\n
+Microsoft Visual C++ Runtime Library
 <program name unknown>
-= =$=(=,=0=4=L=
-= =0=@=P=t=
-=!=4=D=
-="=*=2=:=F=O=T=Z=d=m=x=
-=$>L>
-=(=H=h=
-=(=i=
-=->?>
-=/=5=@=L=a=h=|=
-=<=X=
-=?=X=_=g=l=p=t=
-=\>d>|>
-=`>m>|>
-> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
->!>M>S>\>c>
->">(>4>C>I>R>^>l>r>~>
->'>E>g>/?E?
->-?Z?
->0>;>K>
->3?g?
->8>X>x>
->9?^?
->=Yt1j
->C>U>
->N>T>X>\>`>
->b<5F
-? ?@?H?P?X?d?
-?!?K?}?
-?$?-?4?V?
-?&?d?
-?/?t?
-?;?{?
-?@?L?s?
+Runtime Error!\n\nProgram: 
+Unknown exception
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+EncodePointer
+DecodePointer
+FlsFree
+FlsSetValue
+FlsGetValue
+FlsAlloc
+(null)
+( 8PX
+700WP
+`h````
+xpxxxx
+('8PW
+700PP
+`h`hhh
+xppwpp
+GetProcessWindowStation
+GetUserObjectInformationA
+GetLastActivePopup
+GetActiveWindow
+MessageBoxA
+USER32.DLL
+ Complete Object Locator'
+ Class Hierarchy Descriptor'
+ Base Class Array'
+ Base Class Descriptor at (
+ Type Descriptor'
+`local static thread guard'
+`managed vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`vector copy constructor iterator'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector vbase copy constructor iterator'
+`eh vector copy constructor iterator'
+`managed vector destructor iterator'
+`managed vector constructor iterator'
+`placement delete[] closure'
+`placement delete closure'
+`omni callsig'
+ delete[]
+ new[]
+`local vftable constructor closure'
+`local vftable'
+`RTTI
+`udt returning'
+`copy constructor closure'
+`eh vector vbase constructor iterator'
+`eh vector destructor iterator'
+`eh vector constructor iterator'
+`virtual displacement map'
+`vector vbase constructor iterator'
+`vector destructor iterator'
+`vector constructor iterator'
+`scalar deleting destructor'
+`default constructor closure'
+`vector deleting destructor'
+`vbase destructor'
+`string'
+`local static guard'
+`typeof'
+`vcall'
+`vbtable'
+`vftable'
+operator
+ delete
+ new
+__unaligned
+__restrict
+__ptr64
+__clrcall
+__fastcall
+__thiscall
+__stdcall
+__pascal
+__cdecl
+__based(
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+HH:mm:ss
+dddd, MMMM dd, yyyy
+MM/dd/yy
+December
+November
+October
+September
+August
+July
+June
+April
+March
+February
+January
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Sunday
+CONOUT$
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+J\rr3u
+J\rr3u
+0000000000000000
+e+000
+GAIsProcessorFeaturePresent
+KERNEL32
+bad exception
+1#QNAN
+1#INF
+1#IND
+1#SNAN
+RSDSwu
+d:\VCProject\Namuga\AitH264CamSample\release\AitUVCExtApi.pdb
+OutputDebugStringW
+Sleep
+CloseHandle
+CreateThread
+SetEvent
+WaitForSingleObject
+GetModuleFileNameW
+GetPrivateProfileIntW
+CreateEventW
+TerminateThread
+GetExitCodeThread
+GetLocalTime
+GetWindowsDirectoryW
+CreateFileW
+DeviceIoControl
+GetLastError
+KERNEL32.dll
+MessageBoxW
+GetMessageW
+DispatchMessageW
+PeekMessageW
+TranslateMessage
+USER32.dll
+CoCreateInstance
+CoInitialize
+CoGetMalloc
+ole32.dll
+OLEAUT32.dll
+PathRemoveFileSpecW
+SHLWAPI.dll
+HeapFree
+HeapAlloc
+GetCurrentThreadId
+GetCommandLineA
+TerminateProcess
+GetCurrentProcess
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsDebuggerPresent
+HeapCreate
+HeapDestroy
+VirtualFree
+DeleteCriticalSection
+LeaveCriticalSection
+EnterCriticalSection
+VirtualAlloc
+HeapReAlloc
+GetModuleHandleW
+GetProcAddress
+ExitProcess
+WriteFile
+GetStdHandle
+GetModuleFileNameA
+RaiseException
+RtlUnwind
+WideCharToMultiByte
+GetConsoleCP
+GetConsoleMode
+SetFilePointer
+SetHandleCount
+GetFileType
+GetStartupInfoA
+MultiByteToWideChar
+ReadFile
+GetCPInfo
+InterlockedIncrement
+InterlockedDecrement
+GetACP
+GetOEMCP
+IsValidCodePage
+TlsGetValue
+TlsAlloc
+TlsSetValue
+TlsFree
+SetLastError
+FreeEnvironmentStringsA
+GetEnvironmentStrings
+FreeEnvironmentStringsW
+GetEnvironmentStringsW
+QueryPerformanceCounter
+GetTickCount
+GetCurrentProcessId
+GetSystemTimeAsFileTime
+InitializeCriticalSectionAndSpinCount
+LoadLibraryA
+HeapSize
+WriteConsoleA
+GetConsoleOutputCP
+WriteConsoleW
+SetStdHandle
+FlushFileBuffers
+LCMapStringA
+LCMapStringW
+GetStringTypeA
+GetStringTypeW
+GetLocaleInfoA
+SetEndOfFile
+GetProcessHeap
+CreateFileA
+GetModuleHandleA
+AitUVCExtApi.dll
+AITAPI_GetCameraControl
+AITAPI_GetCameraControlRange
 ?AITAPI_GetFWVersion@@YGJPAXPAD@Z
+AITAPI_GetSensorRegisterW
+AITAPI_GetSerialNumber
+AITAPI_SetCameraControl
+AITAPI_SetLensPos
+AITAPI_SetSensorRegisterW
+AITROMAPI_CloseDevice
+AITROMAPI_LoadUpdater
+AITROMAPI_OpenDevice
+AITUVCEXT_WriteFWData
+TUCK_CloseDevice
+TUCK_CommitGet
+TUCK_CommitSet
 ?TUCK_EuGet@@YGJPAXI0G@Z
-@.data
-@.reloc
-@.rsrc
-@PWSS
-@_^[]
-AABBf
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
+TUCK_EuSet
+TUCK_OpenDevice
+TUCK_ProbeGet
+TUCK_ProbeSet
+TUCK_WriteLog
 AITAPI_AitExtGet
 AITAPI_AitExtSet
 AITAPI_AudioCloseDevice
@@ -264,19 +312,18 @@ AITAPI_ForceIFrame
 AITAPI_GetAFACC
 AITAPI_GetAWBGain
 AITAPI_GetAudioRegisterW
-AITAPI_GetCameraControl
-AITAPI_GetCameraControlRange
 AITAPI_GetCheckSumResult
 AITAPI_GetDeviceInfo
 AITAPI_GetFWBuildDate
 AITAPI_GetFWVersion
 AITAPI_GetH264FrameList
 AITAPI_GetH264_UVC_PayloadFormat
+_AITAPI_GetMiscSetting@8
 AITAPI_GetRegister
 AITAPI_GetSensorRegister
-AITAPI_GetSensorRegisterW
-AITAPI_GetSerialNumber
+_AITAPI_GetSkypeXUVersion@8
 AITAPI_GetTableSize
+_AITAPI_GetVCMRegister@12
 AITAPI_GetVideoProcAmp
 AITAPI_GetVideoProcAmpRange
 AITAPI_Get_IVideoProcAmp_Interface
@@ -299,20 +346,19 @@ AITAPI_ReleaseH264FrameList
 AITAPI_SetAWBGain
 AITAPI_SetAudioRegisterW
 AITAPI_SetBitRate
-AITAPI_SetCameraControl
 AITAPI_SetFps
 AITAPI_SetH264FrameIndex
 AITAPI_SetH264Mode
 AITAPI_SetImageEffect
-AITAPI_SetLensPos
 AITAPI_SetMaxQP
+_AITAPI_SetMinQP@8
 AITAPI_SetMiscSetting
 AITAPI_SetMjpgQuality
 AITAPI_SetPframeCount
 AITAPI_SetRegister
 AITAPI_SetSensorRegister
-AITAPI_SetSensorRegisterW
 AITAPI_SetShadding
+_AITAPI_SetVCMRegister@12
 AITAPI_SetVideoProcAmp
 AITAPI_SetVideoRecMode
 AITAPI_UpdateCaliData
@@ -328,9 +374,6 @@ AITAPI_WriteInitialTable
 AITAPI_WriteNVMEM
 AITAPI_WriteTable
 AITAPI_WriteTableEx
-AITROMAPI_CloseDevice
-AITROMAPI_LoadUpdater
-AITROMAPI_OpenDevice
 AITUVCEXT_DoAF
 AITUVCEXT_GetChipInfo
 AITUVCEXT_GetFWBuildDay
@@ -359,296 +402,8 @@ AITUVCEXT_UpdateFW
 AITUVCEXT_UpdateFW_Vision
 AITUVCEXT_UpdateFW_with_progress
 AITUVCEXT_UpdateFW_with_progressEx
-AITUVCEXT_WriteFWData
-AitUVCExtApi.dll
-An application has made an attempt to load the C runtime library incorrectly.
-April
-August
-B#Phh7
-B-Phx=
-CONOUT$
-CloseHandle
-CoCreateInstance
-CoGetMalloc
-CoInitialize
 ConvertNV12toBMP
 ConvertRGBtoBMP
 ConvertYUY2toBMP
-CorExitProcess
-CreateEventW
-CreateFileA
-CreateFileW
-CreateThread
-DOMAIN error
-December
-DecodePointer
-DeleteCriticalSection
-DeviceIoControl
-DispatchMessageW
-EncodePointer
-EnterCriticalSection
-ExitProcess
-February
-FlsAlloc
-FlsFree
-FlsGetValue
-FlsSetValue
-FlushFileBuffers
-FreeEnvironmentStringsA
-FreeEnvironmentStringsW
-Friday
-GAIsProcessorFeaturePresent
-GetACP
-GetActiveWindow
-GetCPInfo
-GetCommandLineA
-GetConsoleCP
-GetConsoleMode
-GetConsoleOutputCP
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThreadId
-GetEnvironmentStrings
-GetEnvironmentStringsW
-GetExitCodeThread
-GetFileType
-GetLastActivePopup
-GetLastError
-GetLocalTime
-GetLocaleInfoA
-GetMessageW
-GetModuleFileNameA
-GetModuleFileNameW
-GetModuleHandleA
-GetModuleHandleW
-GetOEMCP
-GetPrivateProfileIntW
-GetProcAddress
-GetProcessHeap
-GetProcessWindowStation
-GetStartupInfoA
-GetStdHandle
-GetStringTypeA
-GetStringTypeW
-GetSystemTimeAsFileTime
-GetTickCount
-GetUserObjectInformationA
-GetWindowsDirectoryW
-H#Qh8<
-HH:mm:ss
-HH_^[
-HeapAlloc
-HeapCreate
-HeapDestroy
-HeapFree
-HeapReAlloc
-HeapSize
-InitializeCriticalSectionAndSpinCount
-InterlockedDecrement
-InterlockedIncrement
-IsDebuggerPresent
-IsValidCodePage
-JanFebMarAprMayJunJulAugSepOctNovDec
-January
-KERNEL32
-KERNEL32.dll
-L6P6T6X6
-LCMapStringA
-LCMapStringW
-LeaveCriticalSection
-LoadLibraryA
-MM/dd/yy
-March
-MessageBoxA
-MessageBoxW
-Microsoft Visual C++ Runtime Library
-Monday
-MultiByteToWideChar
 NV12_to_RGB
-November
-OLEAUT32.dll
-October
-OutputDebugStringW
-PPPPP
-PPPPPPPP
 PackWavFile
-PathRemoveFileSpecW
-PeekMessageW
-Please contact the application's support team for more information.
-Program: 
-QQSVWd
-QSWVj
-QueryPerformanceCounter
-R6002
-R6008
-R6009
-R6016
-R6017
-R6018
-R6019
-R6024
-R6025
-R6026
-R6027
-R6028
-R6030
-R6031
-R6032
-R6033
-R6034
-RSDSwu
-RaiseException
-ReadFile
-RtlUnwind
-Runtime Error!
-SHLWAPI.dll
-SING error
-SSSSS
-SSSSW
-SVWUj
-Saturday
-September
-SetEndOfFile
-SetEvent
-SetFilePointer
-SetHandleCount
-SetLastError
-SetStdHandle
-SetUnhandledExceptionFilter
-Sleep
-SunMonTueWedThuFriSat
-Sunday
-TLOSS error
-TUCK_CloseDevice
-TUCK_CommitGet
-TUCK_CommitSet
-TUCK_EuSet
-TUCK_OpenDevice
-TUCK_ProbeGet
-TUCK_ProbeSet
-TUCK_WriteLog
-TerminateProcess
-TerminateThread
-This application has requested the Runtime to terminate it in an unusual way.
-This indicates a bug in your application.
-This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
-Thursday
-TlsAlloc
-TlsFree
-TlsGetValue
-TlsSetValue
-TranslateMessage
-Tuesday
-UQPXY]Y[
-URPQQhL~
-USER32.DLL
-USER32.dll
-UnhandledExceptionFilter
-Unknown exception
-VVVVV
-VW|[;
-Vbad allocation
-VirtualAlloc
-VirtualFree
-WWWWV
-WWWWW
-WaitForSingleObject
-Wednesday
-WideCharToMultiByte
-WriteConsoleA
-WriteConsoleW
-WriteFile
-Y_^[]
-Y__^[
-[j@j 
-^SSSSS
-^WWWWW
-_AITAPI_GetMiscSetting@8
-_AITAPI_GetSkypeXUVersion@8
-_AITAPI_GetVCMRegister@12
-_AITAPI_SetMinQP@8
-_AITAPI_SetVCMRegister@12
-_VVVVV
-__based(
-__cdecl
-__clrcall
-__fastcall
-__pascal
-__ptr64
-__restrict
-__stdcall
-__thiscall
-__unaligned
-`.rdata
-`RTTI
-`copy constructor closure'
-`default constructor closure'
-`dynamic atexit destructor for '
-`dynamic initializer for '
-`eh vector constructor iterator'
-`eh vector copy constructor iterator'
-`eh vector destructor iterator'
-`eh vector vbase constructor iterator'
-`eh vector vbase copy constructor iterator'
-`h````
-`h`hhh
-`local static guard'
-`local static thread guard'
-`local vftable constructor closure'
-`local vftable'
-`managed vector constructor iterator'
-`managed vector copy constructor iterator'
-`managed vector destructor iterator'
-`omni callsig'
-`placement delete closure'
-`placement delete[] closure'
-`scalar deleting destructor'
-`string'
-`typeof'
-`udt returning'
-`vbase destructor'
-`vbtable'
-`vcall'
-`vector constructor iterator'
-`vector copy constructor iterator'
-`vector deleting destructor'
-`vector destructor iterator'
-`vector vbase constructor iterator'
-`vector vbase copy constructor iterator'
-`vftable'
-`virtual displacement map'
-abcdefghijklmnopqrstuvwxyz
-bad exception
-d:\VCProject\Namuga\AitH264CamSample\release\AitUVCExtApi.pdb
-dddd, MMMM dd, yyyy
-e+000
-f93u 
-g1	292q2
-h1l1p1t1x1|1
-j h N
-j"^SSSSS
-j@j ^V
-ole32.dll
-operator
-qMJPG
-runtime error 
-s[S;7|G;w
-t"SS9]
-t+WWVPV
-tCHt/
-tGHt.Ht&
-tJj@h
-tNVSP
-tPj@h,A
-tR99u2
-tVHtG
-u WPS
-u&WVS
-u8SS3
-v	N+D$
-wIVSP
-xppwpp
-xpxxxx
-z?aUY
-zc%C1
-~,WPV

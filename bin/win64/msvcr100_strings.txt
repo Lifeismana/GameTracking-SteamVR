@@ -1,452 +1,1395 @@
-	 E9|$
-	JR>8o
-	T$0H
-	kE>fvw
-                          
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- 'L>[
- A\_^
- A]A\_
- A^A\_
- A^A]A\
- A^A]A\_^
- A^A]_
- A_A]A\
- A_A^A]A\_
- A_A^A]A\_I
- A_A^A]A\_^]
- B\kji2
- Base Class Array'
- Base Class Descriptor at (
- C>TQ
- Class Hierarchy Descriptor'
- Complete Object Locator'
- D	h`I
- D8;u
- Type Descriptor'
- ]Asinh
- data
- delete
- delete[]
- new[]
- t?D9
- throw(
- volatile
-!	@cb
-!>6'Y
-!This program cannot be run in DOS mode.
-!\$ E3
-!\$0!\$(!\$ L
-!t$(H!t$ A
-!t$(H!t$ H
-!|$ H!|$0D
-!|$DHc
-!|$XI
-"Copyright (c) 1997 Microsoft Corp.1
-"e?<<<<<<l?
-"u!E3
-$ uHI
-$ uO@
-$ uXA
-$I10_OUTPUT
-$Ib?s
-%GoU?*
-%M9wt
-%_hypotf
-&	$@06p
-&9A(s	A
-&?PPPPPPP?
-&D;B u
-'V)l9X
-( 8PX
-('8PW
-(A\_^[
-(A^A\_]
-(D$ H
-(D$@H
-(D$PD
-(D$PH
-(L$ H
-(L$@D
-(Press Retry to debug the application - JIT must be enabled)
-(T$0D
-(T?j?Y
-(\$ H
-(l$ H
-(l$0H
-(l$0f
-(l$@f
-(l$PH
-(l$`f
-(l$pH
-(null)
-(t$ H
-(t$0H
-(t$@D
-(t$PH
-(t$`H
-(t$`I
-(t$pH
-(|$ H
-(|$0D
-(|$0H
-(|$@D
-(|$PH
-(|$`D
-)/o>	
-)>6{1n
-)D$PH
-)D$PH;
-)T$PH#
-)fA;K
-)fA;S
-)t$ f
-)t$0H
-)t$0I
-)t$0f
-)t$@E
-)t$PH
-)t$PL
-)t$Pf
-)t$`A
-)t$`H
-)t$`I
-)t$pH
-)|$ f
-)|$ w]
-)|$0f
-)|$PA
-)|$Pf
-)|$`D
-)|$`f
-)|B?d!
-*StO9>T
-*Yp3.CP+
-*Zp3.;P
-+D9-Y
-+M0+M
-+M<7>
-+f)>0'
-+h->|
-+p':*
-+u(E3
-,$u	A
-,$u>E
-,<ellipsis>
-,HR>O
-,http://www.microsoft.com/pki/certs/CSPCA.crt0
-,http://www.microsoft.com/pki/certs/tspca.crt0
--64OS
--9D	/9a
--BH>t
-..om?
-.>PJ;I:qE>
-.?AUIExecutionContext@Concurrency@@
-.?AUIExecutionResource@Concurrency@@
-.?AUIResourceManager@Concurrency@@
-.?AUIScheduler@Concurrency@@
-.?AUISchedulerProxy@Concurrency@@
-.?AUIThreadProxy@Concurrency@@
-.?AUIThreadProxyFactory@details@Concurrency@@
-.?AUIUMSCompletionList@Concurrency@@
-.?AUIUMSScheduler@Concurrency@@
-.?AUIUMSThreadProxy@Concurrency@@
-.?AUIUMSUnblockNotification@Concurrency@@
-.?AUIVirtualProcessorRoot@Concurrency@@
-.?AU_Chore@details@Concurrency@@
-.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@VFreeThreadProxyFactory@23@@details@Concurrency@@
-.?AV?$ThreadProxyFactory@VUMSFreeThreadProxy@details@Concurrency@@VUMSFreeThreadProxyFactory@23@@details@Concurrency@@
+.?AVbad_exception@std@@
+.?AVbad_weak_ptr@tr1@std@@
+.?AV_Ref_count_base@tr1@std@@
 .?AV?$_Ref_count@V__ExceptionPtr@@@tr1@std@@
 .?AV?$_Ref_count_del_alloc@V__ExceptionPtr@@P6AXPEAV1@@ZV?$_DebugMallocator@H@@@tr1@std@@
-.?AVCacheLocalScheduleGroup@details@Concurrency@@
-.?AVCachedTransmogrifiedPrimary@details@Concurrency@@
+.P6AXPEAV__ExceptionPtr@@@Z
+t$|y
+l$|y
+|$|y
+d$|y
+t$|y
+l$|y
+|$|y
+d$|y
+P*~y
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+p&|y
+`&|y
+.?AVbad_cast@std@@
+.?AVbad_typeid@std@@
+.?AV__non_rtti_object@std@@
+.?AVtype_info@@
+.?AVexception@@
+p>|y
+`>|y
+T>|y
+H>|y
+D>|y
+@>|y
+<>|y
+8>|y
+4>|y
+0>|y
+,>|y
+(>|y
+$>|y
+ >|y
+4>|y
+p=|y
+`=|y
+X=|y
+P=|y
+H=|y
+@=|y
+8=|y
+0=|y
+(=|y
+x<|y
+p<|y
+h<|y
+`<|y
+X<|y
+P<|y
+H<|y
+@<|y
+0<|y
+x<|y
+p;|y
+d;|y
+\;|y
+H;|y
+ ;|y
+PD|y
+ 5~y
+xL|y
+hL|y
+HL|y
+0L|y
+pK|y
+XK|y
+HK|y
+8K|y
+(K|y
+`J|y
+8K|y
+PJ|y
+8J|y
+(J|y
+8K|y
+8K|y
+xI|y
+XI|y
+@I|y
+(I|y
+8K|y
+Assertion failed: %s, file %s, line %d\n
+kU'9
+HMXB
+?q=\n
+?Zd;
+?/L[
+S;uD
+z?aUY
+D?$?
+U>c{
+zc%C1
+.:3q
+-64OS
+NKeb
+FlR!<B
+I:!A9
+FlR!<B
+Y_,0
+ub8c@
+)3M3
+@hcjz
+@~dV=x
+?X(X
+{bi@
+{DA5
+kNB'
+JIE]0\
+8+ D
+/&A2/
+!\t@cb
+8^|y
+|\|y
+hv|y
+Ip/n/P+
+Mp/n_
+Kp/n7P+
+Up/n1P+
+Op/n5P+
+Sp/n
+Ip'n/P%
+Mp'n_
+Kp'n7P%
+Up'n1P%
+Op'n5P%
+Sp'n
+Wpon
+Wpgn
+/h<P+
+'h<P
+*Zp3.;P
+*Yp3.CP+
+hp/n
+hp'n
+ip/nEP+
+jp/n
+ip'nEP%
+jp'n
+mpon
+mpgn
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+$Izy
+.?AVmissing_wait@Concurrency@@
+.?AVexception@std@@
+.?AVtask_canceled@details@Concurrency@@
 .?AVContext@Concurrency@@
 .?AVContextBase@details@Concurrency@@
-.?AVExecutionResource@details@Concurrency@@
-.?AVExternalContextBase@details@Concurrency@@
-.?AVFairScheduleGroup@details@Concurrency@@
-.?AVFreeThreadProxy@details@Concurrency@@
-.?AVFreeThreadProxyFactory@details@Concurrency@@
-.?AVFreeVirtualProcessorRoot@details@Concurrency@@
-.?AVInternalContextBase@details@Concurrency@@
-.?AVMultiWaitBlock@details@Concurrency@@
-.?AVRealizedChore@details@Concurrency@@
-.?AVResourceManager@details@Concurrency@@
-.?AVScheduleGroup@Concurrency@@
-.?AVScheduleGroupBase@details@Concurrency@@
-.?AVScheduler@Concurrency@@
-.?AVSchedulerBase@details@Concurrency@@
-.?AVSchedulerProxy@details@Concurrency@@
-.?AVSchedulerResourceManagement@details@Concurrency@@
-.?AVSingleWaitBlock@details@Concurrency@@
-.?AVThreadInternalContext@details@Concurrency@@
-.?AVThreadProxy@details@Concurrency@@
-.?AVThreadScheduler@details@Concurrency@@
-.?AVThreadVirtualProcessor@details@Concurrency@@
-.?AVTimerObj@?6??wait@Concurrency@@YAXI@Z@
-.?AVTransmogrifiedPrimary@details@Concurrency@@
-.?AVUMSBaseObject@details@Concurrency@@
-.?AVUMSFreeThreadProxy@details@Concurrency@@
-.?AVUMSFreeThreadProxyFactory@details@Concurrency@@
-.?AVUMSFreeVirtualProcessorRoot@details@Concurrency@@
-.?AVUMSSchedulerProxy@details@Concurrency@@
-.?AVUMSSchedulingContext@details@Concurrency@@
-.?AVUMSThreadInternalContext@details@Concurrency@@
-.?AVUMSThreadProxy@details@Concurrency@@
-.?AVUMSThreadScheduler@details@Concurrency@@
-.?AVUMSThreadVirtualProcessor@details@Concurrency@@
-.?AVVirtualProcessor@details@Concurrency@@
-.?AVVirtualProcessorRoot@details@Concurrency@@
-.?AVWaitAllBlock@details@Concurrency@@
+.?AVscheduler_not_attached@Concurrency@@
 .?AVWaitAnyBlock@details@Concurrency@@
+.?AVWaitAllBlock@details@Concurrency@@
+.?AVMultiWaitBlock@details@Concurrency@@
+.?AVSingleWaitBlock@details@Concurrency@@
 .?AVWaitBlock@details@Concurrency@@
-.?AV_Ref_count_base@tr1@std@@
-.?AV_Timer@details@Concurrency@@
-.?AV__non_rtti_object@std@@
 .?AVbad_alloc@std@@
-.?AVbad_cast@std@@
-.?AVbad_exception@std@@
+.?AVinvalid_argument@std@@
+.?AVlogic_error@std@@
+.?AVimproper_lock@Concurrency@@
+.?AVinvalid_oversubscribe_operation@Concurrency@@
+.?AVinvalid_multiple_scheduling@Concurrency@@
+.?AVoperation_timed_out@Concurrency@@
+.?AVnested_scheduler_missing_detach@Concurrency@@
+.?AVinvalid_operation@Concurrency@@
+.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
+.?AVinvalid_scheduler_policy_value@Concurrency@@
+.?AVinvalid_scheduler_policy_key@Concurrency@@
+.?AVinvalid_link_target@Concurrency@@
+.?AVmessage_not_found@Concurrency@@
 .?AVbad_target@Concurrency@@
-.?AVbad_typeid@std@@
-.?AVbad_weak_ptr@tr1@std@@
 .?AVcontext_self_unblock@Concurrency@@
 .?AVcontext_unblock_unbalanced@Concurrency@@
 .?AVdefault_scheduler_exists@Concurrency@@
-.?AVexception@@
-.?AVexception@std@@
-.?AVimproper_lock@Concurrency@@
-.?AVimproper_scheduler_attach@Concurrency@@
-.?AVimproper_scheduler_detach@Concurrency@@
 .?AVimproper_scheduler_reference@Concurrency@@
-.?AVinvalid_argument@std@@
-.?AVinvalid_link_target@Concurrency@@
-.?AVinvalid_multiple_scheduling@Concurrency@@
-.?AVinvalid_operation@Concurrency@@
-.?AVinvalid_oversubscribe_operation@Concurrency@@
-.?AVinvalid_scheduler_policy_key@Concurrency@@
-.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
-.?AVinvalid_scheduler_policy_value@Concurrency@@
-.?AVlogic_error@std@@
-.?AVmessage_not_found@Concurrency@@
-.?AVmissing_wait@Concurrency@@
-.?AVnested_scheduler_missing_detach@Concurrency@@
-.?AVoperation_timed_out@Concurrency@@
-.?AVscheduler_not_attached@Concurrency@@
-.?AVscheduler_resource_allocation_error@Concurrency@@
-.?AVtask_canceled@details@Concurrency@@
-.?AVtype_info@@
+.?AVimproper_scheduler_detach@Concurrency@@
+.?AVimproper_scheduler_attach@Concurrency@@
 .?AVunsupported_os@Concurrency@@
-.P6AXPEAV__ExceptionPtr@@@Z
-.i?0@I
-.pdata
-.text
-.xJ>Hf
-/&A2/
-/2GG>!B
-/>58d%
-/L9\$ t
-/h<P+
-060916010447Z
-070822223102Z
-080725190115Z
-0><[cZUg^>
-0A\_^
-0A\_^][
-0A]A\_
-0A]A\_^[
-0A]A\_^]
-0A]_^
-0A^A\_^[
-0A^A\_^]
-0A^A]A\
-0A^A]A\_^H
-0A_A]A\
-0A_A]A\_^
-0A_A^A]A\_
-0A_A^A]A\_^[
-0A_A^A]A\_^]
-0D8?t)
-0L*8K
-0X8b?~
-0_^]H
-0iN>/
-0p1+0)
-1#IND
-1#INF
-1#QNAN
-1#SNAN
-110221205312Z
-110611080631Z0#
-120521205312Z0
-120825070000Z0y1
-130725191115Z0
-190915070000Z0y1
-1<.	/>:
-2%vi%
-2]fQ	?
-3+5<t
-333333
-3>N;kU
-3>fvw
-3http://crl.microsoft.com/pki/crl/products/CSPCA.crl0H
-3http://crl.microsoft.com/pki/crl/products/tspca.crl0H
-4$u	A
-4IcD$
-5m8>8=t
-6}@T`
-700PP
+.?AVscheduler_resource_allocation_error@Concurrency@@
+.?AUIExecutionResource@Concurrency@@
+.?AVExecutionResource@details@Concurrency@@
+.?AVExternalContextBase@details@Concurrency@@
+.?AVFreeVirtualProcessorRoot@details@Concurrency@@
+.?AUIVirtualProcessorRoot@Concurrency@@
+.?AVVirtualProcessorRoot@details@Concurrency@@
+.?AUIExecutionContext@Concurrency@@
+.?AVInternalContextBase@details@Concurrency@@
+.?AUIResourceManager@Concurrency@@
+.?AVResourceManager@details@Concurrency@@
+.?AVScheduleGroup@Concurrency@@
+.?AVScheduleGroupBase@details@Concurrency@@
+.?AVRealizedChore@details@Concurrency@@
+.?AU_Chore@details@Concurrency@@
+.?AVScheduler@Concurrency@@
+.?AVSchedulerBase@details@Concurrency@@
+.?AUISchedulerProxy@Concurrency@@
+.?AVSchedulerProxy@details@Concurrency@@
+.?AUIScheduler@Concurrency@@
+.?AUIUMSScheduler@Concurrency@@
+.?AVSchedulerResourceManagement@details@Concurrency@@
+.?AVFairScheduleGroup@details@Concurrency@@
+.?AVCacheLocalScheduleGroup@details@Concurrency@@
+.?AVThreadInternalContext@details@Concurrency@@
+.?AVThreadScheduler@details@Concurrency@@
+.?AUIThreadProxy@Concurrency@@
+.?AVThreadProxy@details@Concurrency@@
+.?AV?$ThreadProxyFactory@VUMSFreeThreadProxy@details@Concurrency@@VUMSFreeThreadProxyFactory@23@@details@Concurrency@@
+.?AVUMSFreeThreadProxyFactory@details@Concurrency@@
+.?AUIUMSUnblockNotification@Concurrency@@
+.?AUIUMSThreadProxy@Concurrency@@
+.?AVUMSBaseObject@details@Concurrency@@
+.?AVUMSThreadProxy@details@Concurrency@@
+.?AVUMSFreeThreadProxy@details@Concurrency@@
+.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@VFreeThreadProxyFactory@23@@details@Concurrency@@
+.?AVFreeThreadProxyFactory@details@Concurrency@@
+.?AUIThreadProxyFactory@details@Concurrency@@
+.?AVFreeThreadProxy@details@Concurrency@@
+.?AVVirtualProcessor@details@Concurrency@@
+.?AVThreadVirtualProcessor@details@Concurrency@@
+.?AVTimerObj@?6??wait@Concurrency@@YAXI@Z@
+.?AV_Timer@details@Concurrency@@
+.?AVCachedTransmogrifiedPrimary@details@Concurrency@@
+.?AVTransmogrifiedPrimary@details@Concurrency@@
+.?AVUMSFreeVirtualProcessorRoot@details@Concurrency@@
+.?AUIUMSCompletionList@Concurrency@@
+.?AVUMSSchedulerProxy@details@Concurrency@@
+.?AVUMSSchedulingContext@details@Concurrency@@
+.?AVUMSThreadInternalContext@details@Concurrency@@
+.?AVUMSThreadScheduler@details@Concurrency@@
+.?AVUMSThreadVirtualProcessor@details@Concurrency@@
+Dyvy
+tr1::bad_weak_ptr
+$Izy
+bad exception
+$Izy
+CorExitProcess
+`!|y
+P |y
+.com
+.bat
+.cmd
+.exe
+SystemRoot
+PATH
+cmd.exe
+COMSPEC
+UTF-8
+UTF-16LE
+UNICODE
+ /c 
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+(null)
+( 8PX
 700WP
-7;|$0t,
-7h>?8
-7~floor
-8$u"H
-8$u$L9U
-8$u$L9]
-8$u,D
-8$u.D
-80tVD
-80|'A
-82Pa8
-8?u$H
-8?u-H
-8@tJH
-8@txH
-8@u!H
-8@u<H
-8A\_^[
-8A_A^A]A\_^[]
-8A_A^A]A\_^][
-8D$!uBI
-8D$8t
-8E;|$
-8F;|6
-8Ft0A
-8Ht*A
-8J;@ts
-8L$8t
-8QupI
-8T$4udE
-8T$4utM
-8Xu3H
-8Zu"H
-8\$8t
-8_^][
-8_uNH
-8ke?;
-9	t	H
-9	tmH
-9.~*E3
-91~)3
-99jd9
-9?uPH
-9D$@t
-9D$Du
-9D$Hu
-9D$Pt
-9D$Ttg
-9D$Xt
-9D$Xu
-9D$dt
-9L$Xt
-9L$\t
-9T$Xt
-9T$\t
-9T$dt
-9WP~FM
-9WP~HM
-9WP~IM
-9Z=K7
-9\$ ~>H
-9\$dt
-9\$du
-9\$hu
-9\$lu
-9\$pu
-9\$tu
-9\$xu
-9_8~53
-9_P~#3
-9_P~$3
-9_P~83
-9g>@3
-9t$,t
-9t$HI
-9t$P~98\$vt3H
-9uPu	A
-9{8~Y3
-9|$Pt
-9|$Xt
-9|$\t
-:>)*	v
-:>t6k'
-:St	A
-:u*8Y
-:}+M8fff?tanhf
-;.uAL
-;/t)H
-;/t-L
-;7sUH
-;:t/f
-;:u+H
-;:u+M
-;:u,H
-;:u,M
-;?tJA
-;A$v~Hk
-;B$tOH
-;H9>&X
-;\$ |
-;\$p|
-;\t5f
-< tD<	t@
-< tG<	tC
-<$-Hc
-<$/t,L
-<$D9Q(
-<-uZE
-<-umE
-<-u{E
-<0:08
-<0|/<9
-<1~1<3~$<4t9<5t
-<3u_A
-<:u	D
-<;tUL
-<>#n2
-<?u7H
-<A|2<P
-<B=u?3
-<Et	H
-<GM9<$u
-<Xt	D
-<\t	<.u	H
-<\t$</t <:t!H
-<\t1<:t-</t)H
-<_uyI
+`h````
+xpxxxx
+('8PW
+700PP
+`h`hhh
+xppwpp
+am/pm
+Unknown exception
+Access violation - no RTTI data!
+Bad read pointer - no RTTI data!
+Attempted a typeid of NULL pointer!
+Bad dynamic_cast!
+ Complete Object Locator'
+ Class Hierarchy Descriptor'
+ Base Class Array'
+ Base Class Descriptor at (
+ Type Descriptor'
+`local static thread guard'
+`managed vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`vector copy constructor iterator'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector vbase copy constructor iterator'
+`eh vector copy constructor iterator'
+`managed vector destructor iterator'
+`managed vector constructor iterator'
+`placement delete[] closure'
+`placement delete closure'
+`omni callsig'
+ delete[]
+ new[]
+`local vftable constructor closure'
+`local vftable'
+`RTTI
+`udt returning'
+`copy constructor closure'
+`eh vector vbase constructor iterator'
+`eh vector destructor iterator'
+`eh vector constructor iterator'
+`virtual displacement map'
+`vector vbase constructor iterator'
+`vector destructor iterator'
+`vector constructor iterator'
+`scalar deleting destructor'
+`default constructor closure'
+`vector deleting destructor'
+`vbase destructor'
+`string'
+`local static guard'
+`typeof'
+`vcall'
+`vbtable'
+`vftable'
+operator
+ delete
+ new
+__unaligned
+__restrict
+__ptr64
+__eabi
+__clrcall
+__fastcall
+__thiscall
+__stdcall
+__pascal
+__cdecl
+__based(
+p/|y
+`/|y
+P/|y
+@/|y
+0/|y
+(/|y
+ /|y
+|.|y
+x.|y
+t.|y
+p.|y
+l.|y
+h.|y
+d.|y
+`.|y
+\.|y
+X.|y
+T.|y
+P.|y
+L.|y
+@.|y
+0.|y
+(.|y
+x-|y
+X-|y
+8-|y
+`,|y
+P,|y
+H,|y
+@,|y
+0,|y
+x+|y
+P+|y
+(+|y
+X*|y
+(*|y
+x)|y
+0*yy
+<*yy
+0+yy
+`+yy
+d/yy
+p/yy
+ ?? 
+{flat}
+{for 
+`non-type-template-parameter
+unsigned 
+char 
+short 
+int 
+long 
+void
 <ellipsis>
-<et	H
-<program name unknown>
+,...
+,<ellipsis>
+ throw(
+`template-parameter
+NULL
+cli::pin_ptr<
+cli::array<
+void 
+`anonymous namespace'
+generic-type-
+template-parameter-
+`unknown ecsu'
+union 
+struct 
+class 
+enum 
+coclass 
+cointerface 
+extern "C" 
+[thunk]:
+public: 
+protected: 
+private: 
+virtual 
+static 
+`template static data member destructor helper'
+`template static data member constructor helper'
+`local static destructor helper'
+`adjustor{
+`vtordisp{
+`vtordispex{
+const 
+volatile 
+CV: 
+volatile
+ volatile
+const
+signed 
+double
+bool
 <unknown>
-<z~$<A|
-= {[8V
-=0;09
-=D8:t'
-=cosh
-=imb;D
->+>ZQ"v
->0!0	
->Rich
->jtm}S
+wchar_t
+UNKNOWN
+__int128
+__int32
+__int64
+__int16
+__w64 
+__int8
+char
+short
+long
+float
+std::nullptr_t
+SystemFunction036
+GetProcessWindowStation
+GetUserObjectInformationW
+GetLastActivePopup
+GetActiveWindow
+MessageBoxW
+HH:mm:ss
+dddd, MMMM dd, yyyy
+MM/dd/yy
+December
+November
+October
+September
+August
+July
+June
+April
+March
+February
+January
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Sunday
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+LC_TIME
+LC_NUMERIC
+LC_MONETARY
+LC_CTYPE
+LC_COLLATE
+LC_ALL
+$Izy
+$Izy
+h(zy
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+Illegal byte sequence
+Directory not empty
+Function not implemented
+No locks available
+Filename too long
+Resource deadlock avoided
+Result too large
+Domain error
+Broken pipe
+Too many links
+Read-only file system
+Invalid seek
+No space left on device
+File too large
+Inappropriate I/O control operation
+Too many open files
+Too many open files in system
+Invalid argument
+Is a directory
+Not a directory
+No such device
+Improper link
+File exists
+Resource device
+Unknown error
+Bad address
+Permission denied
+Not enough space
+Resource temporarily unavailable
+No child processes
+Bad file descriptor
+Exec format error
+Arg list too long
+No such device or address
+Input/output error
+Interrupted function call
+No such process
+No such file or directory
+Operation not permitted
+No error
+Microsoft Visual C++ Runtime Library
+(Press Retry to debug the application - JIT must be enabled)
+For information on how your program can cause an assertion\nfailure, see the Visual C++ documentation on asserts
+Expression: 
+Line: 
+File: 
+<program name unknown>
+Program: 
+Assertion failed!
+Visual C++ CRT: Not enough memory to complete call to strerror.
+united-states
+united-kingdom
+trinidad & tobago
+south-korea
+south-africa
+south korea
+south africa
+slovak
+puerto-rico
+pr-china
+pr china
+new-zealand
+hong-kong
+holland
+great britain
+england
+czech
+china
+britain
+america
+swiss
+swedish-finland
+spanish-venezuela
+spanish-uruguay
+spanish-puerto rico
+spanish-peru
+spanish-paraguay
+spanish-panama
+spanish-nicaragua
+spanish-modern
+spanish-mexican
+spanish-honduras
+spanish-guatemala
+spanish-el salvador
+spanish-ecuador
+spanish-dominican republic
+spanish-costa rica
+spanish-colombia
+spanish-chile
+spanish-bolivia
+spanish-argentina
+portuguese-brazilian
+norwegian-nynorsk
+norwegian-bokmal
+norwegian
+italian-swiss
+irish-english
+german-swiss
+german-luxembourg
+german-lichtenstein
+german-austrian
+french-swiss
+french-luxembourg
+french-canadian
+french-belgian
+english-usa
+english-us
+english-uk
+english-trinidad y tobago
+english-south africa
+english-nz
+english-jamaica
+english-ire
+english-caribbean
+english-can
+english-belize
+english-aus
+english-american
+dutch-belgian
+chinese-traditional
+chinese-singapore
+chinese-simplified
+chinese-hongkong
+chinese
+canadian
+belgian
+australian
+american-english
+american english
+american
+XV|y
+@V|y
+(V|y
+hU|y
+XU|y
+HU|y
+8U|y
+ U|y
+xT|y
+hT|y
+PT|y
+@T|y
+0T|y
+xS|y
+`S|y
+PS|y
+@S|y
+(S|y
+xR|y
+`R|y
+PR|y
+8R|y
+(R|y
+pQ|y
+`Q|y
+\Q|y
+PQ|y
+@Q|y
+0Q|y
+(Q|y
+Norwegian-Nynorsk
+GetUserObjectInformationA
+MessageBoxA
+e+000
+1#QNAN
+1#INF
+1#IND
+1#SNAN
+sqrt
+_nextafter
+_nextafterf
+_scalb
+_scalbf
+_hypot
+%_hypotf
+?_logb
+_logbf
+&~){
+FF\n@Y
+2]fQ\t?
+?acos
+?acosf
+asin
+asinf
++z<O
+Catan
+H>p&
+k>4\tF
+Q>.3Z<
+p>.G1
+?t_v>
+I;u>A
+*Bw>
+\n~Nu
+{&1q>
+P|> ,o
+@Ao>
+!oi 
+Cy2@K>
+c>F2
+p>Y3
+q>F,3
+fGa>
+rNm>)
+`>n>w%
+jeTb
+Wak>E
+|>fj;
+^W>;
+7yp>
+11UT
+E|@]
+}=H>
+ZSq>
+A`1w>
+y>h\n
+)/o>\t
+IW`>
+9g>@3
+z>@G'h
+_W>6
+mO-B
+\tJR>8o
+M'y>0y
+>rm~
+c><m
+!B>\
+B\fu>
+>vR%
+GrJoq>@
+>8'3
+z>h4
+/so>
+>0K>
+{]a>
+J `>,
+@8UUUUU
+yE>}-
+UUUU
+atan2
+?=+!
+?y2@
+?\vxMW
+?m.t
+?6W 
+8+V=
+W 7x
+?2}l
+?\vS^>#/
+BC1%M
+?\rz0w
+?id7
+?\n\t;ud
+?U[y[
+3+5<t
+?`B$
+#9fm
+?W(~N
+?3Fx
+?^1]
+?Ji@9
+lWi]
+atan2f
+ujGs?
+Catanf
+ceil
+ceilf
+UUUUUU
+UUUUUU
+UUUUUU
+UUUUUU
+UUUUUU
+UUUUUU
+H>r1
+[*ncd>TQ
+\>$hkDh$h>
 >uZ>`
-?!5WOo
-?+>^m
-?7zQ6$
-?8bunz8
-?:kP<
-?:u.H
-?:udH
+6\fXO>
+b>*>
+i>VF
+$E>\t
+&\t$@
+8J;@
+4\tgA
+:Q>@
+GfZ+?p
+i\t?8
+AS?<
+F?@\
+?P\v&
+4\tgA
+(yaX
+>+>ZQ"v
+^axb
+ZS?\
+W @G
+ ]A|
+TUUU
+?N]TUUU
+V?UUUUUU
+UUUUU
+V?}>
+= {[8V
+%Ak=
+=cosh
+H>r1
+[*ncd>TQ
+\>$hkDh$h>
+>uZ>`
+6\fXO>
+b>*>
+i>VF
+$E>\t
+f>c.
+&\t$@06p
+8J;@ts
+4\tgA
+ B\kji2
+\veBV
+B,fK
+@vN?
+@-qS
+4\tgA
+ B\kji2
+\veBV
+B,fK
+Ccoshf
+7~floor
+floorf
+fmod
+fmodf
+UUUUUU
+UUUUUU
+UUUUUU
+UUUUUU
+UUUUUU
+UUUUUU
+H>r1
+[*ncd>TQ
+\>$hkDh$h>
+>uZ>`
+6\fXO>
+b>*>
+i>VF
+$E>\t
+&\t$@
+8J;@
+4\tgA
+:Q>@
+GfZ+?p
+i\t?8
+AS?<
+F?@\
+?P\v&
+4\tgA
+(yaX
+>+>ZQ"v
+^axb
+ZS?\
+W @G
+ ]Asinh
+H>r1
+[*ncd>TQ
+\>$hkDh$h>
+>uZ>`
+6\fXO>
+b>*>
+i>VF
+$E>\t
+f>c.
+&\t$@06p
+8J;@ts
+4\tgA
+ B\kji2
+\veBV
+B,fK
+@vN?
+@-qS
+4\tgA
+ B\kji2
+\veBV
+B,fK
+Csinhf
+sqrtf
+?1cb
+?JV8f
+u.?Z8
+Atan
+UUUUUU
+?1cb
+{9.:
+?tanf
+H>r1
+[*ncd>TQ
+\>$hkDh$h>
+>uZ>`
+6\fXO>
+b>*>
+i>VF
+$E>\t
+Z|Y(
+&?Xw
+?tanh
+yv>_
+:}+M8fff?tanhf
+expf
+frexp
+fmod
+_cabs
+ldexp
+modf
+fabs
+log10
+sinf
+cosf
+?logf
+log10f
+powf
+Y/}J
+rLp>B
+bad allocation
+pEvents
+$>sy
+|>sy
+|>sy
+D?sy
+pScheduler
+$Jsy
+0Jsy
+8Usy
+ Vsy
+XVsy
+<Wsy
+$Izy
+DSsy
+pContext
+HYsy
+(Ysy
+hZsy
+`[sy
+HYsy
+(Ysy
+pThreadProxy
+$tsy
+0tsy
+Dtsy
+Ttsy
+Pmsy
+@ssy
+0_sy
+`wsy
+0fsy
+pasy
+ _sy
+@bsy
+xesy
+Lusy
+Lock already taken
+Lock already taken as a writer
+bad cast
+bad typeid
+SetThreadGroupAffinity
+GetThreadGroupAffinity
+FlushProcessWriteBuffers
+GetCurrentProcessorNumberEx
+GetCurrentProcessorNumber
+GetLogicalProcessorInformationEx
+version
+proc
+eventObject
+MaxPolicyElementKey
+DynamicProgressFeedback
+SchedulingProtocol
+ContextPriority
+ContextStackSize
+LocalContextCacheSize
+TargetOversubscriptionFactor
+MinConcurrency
+MaxConcurrency
+SchedulerKind
+pExecutionResource
+(&ty
+D(ty
+<*ty
+\f0ty
+`'ty
+P9ty
+ppVirtualProcessorRoots
+count
+@:ty
+T:ty
+d:ty
+\f<ty
+p=ty
+dXsy
+PFty
+dXsy
+PFty
+$tsy
+0tsy
+Dtsy
+Ttsy
+Pmsy
+@ssy
+0_sy
+`wsy
+0fsy
+pasy
+ _sy
+@bsy
+xesy
+Lusy
+4]sy
+T^sy
+$Izy
+$Izy
+$Izy
+$Izy
+RegisterTraceGuidsW
+UnregisterTraceGuids
+TraceEvent
+GetTraceLoggerHandle
+GetTraceEnableLevel
+GetTraceEnableFlags
+|>sy
+(&ty
+<*ty
+P9ty
+$tsy
+0tsy
+Dtsy
+Ttsy
+@ssy
+`wsy
+0fsy
+pasy
+@bsy
+XVsy
+Lusy
+CreateUmsCompletionList
+DequeueUmsCompletionListItems
+GetUmsCompletionListEvent
+ExecuteUmsThread
+UmsThreadYield
+DeleteUmsCompletionList
+GetCurrentUmsThread
+GetNextUmsListItem
+QueryUmsThreadInformation
+SetUmsThreadInformation
+DeleteUmsThreadContext
+CreateUmsThreadContext
+EnterUmsSchedulingMode
+CreateRemoteThreadEx
+InitializeProcThreadAttributeList
+UpdateProcThreadAttribute
+DeleteProcThreadAttributeList
+$Izy
+$Izy
+Mbp?
+333333
+RSDS
+ne%P
+msvcr100.amd64.pdb
+\fp\v`
+4\n5#t%
+\fp\v`
+\np\t`
+\fp\v`
+2\vpL
+\fp\v`
+2\vpL
+\rp\f`\vP
+\rp\f`\v0
+\fp\v`\nP
+\rp\f0\vP
+p\r`\fP\v0
+2\vpL
+2\vpL
+\fp\v`
+2\vpL
+\fp\v`
+R\vpL
+2\vpL
+2\vpL
+2\vpL
+2\vpL
+2\vpL
+\np\t`
+2\vpL
+\vp\n`L
+2\vpL
+R\vpL
+p\r`\f0\vP
+R\vpL
+p\r`\f0\vP
+\vp\n`L
+2\vpL
+\fp\v`
+2\vpL
+\fp\v`
+\fp\vP
+\fp\vP
+\rp\f`\vP
+\rp\f`\vP
+p\r`\fP
+\fp\vP
+2\vpL
+\rp\f`
+\rp\f`\vP
+\np\t`
+\rp\f`\vP
+\fp\v`L
+5\f%'t
+\vp\n`L
+\rp\f`\v0\nP
+\vp\n`L
+\vp\n`L
+\vp\n`L
+\vp\n`L
+\vp\n`L
+\vp\n`L
+\vp\n`L
+\vp\n`L
+\fp\vP
+2\vpL
+2\n0L
+2\vpL
+R\fpL
+\fp\vP
+2\vpL
+\rp\f`\vP
+\vp\nP
+\fp\v`
+\np\t`
+r\fp\t
+\np\t`
+\np\t`
+2\vpL
+\np\t`
+\rp\f`\vP
+\fp\v`
+\np\t`
+\fp\v`
+\rp\f`\vP
+\fp\v`
+\fp\vP
+\fp\v`
+p\r`\fP\v0
+\np\t`
+\fp\v`
+\fp\v`
+\fp\v`
+\np\t`
+\rp\f`
+\np\t`
+\fp\v`
+\fp\v`
+5\r%'
+\np\t`
+1\v%#t
+\rp\f`\v0
+\fp\v`L
+EncodePointer
+DecodePointer
+RaiseException
+RtlPcToFileHeader
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleW
+GetProcAddress
+ExitProcess
+WriteFile
+GetStdHandle
+GetCurrentThreadId
+FlsSetValue
+FlsGetValue
+GetCommandLineW
+GetCommandLineA
+InitializeCriticalSectionAndSpinCount
+DeleteCriticalSection
+LeaveCriticalSection
+EnterCriticalSection
+ExitThread
+CloseHandle
+GetLastError
+ResumeThread
+CreateThread
+FlsFree
+SetLastError
+GetCurrentThread
+FlsAlloc
+FindNextFileA
+FindFirstFileExA
+FindClose
+FindNextFileW
+FindFirstFileExW
+GetLogicalDrives
+GetDiskFreeSpaceA
+FileTimeToSystemTime
+FileTimeToLocalFileTime
+SetErrorMode
+Sleep
+Beep
+GetFileAttributesA
+SetFileAttributesA
+SetEnvironmentVariableA
+GetCurrentDirectoryA
+SetCurrentDirectoryA
+GetCurrentDirectoryW
+SetCurrentDirectoryW
+GetFullPathNameA
+GetDriveTypeW
+GetCurrentProcessId
+CreateDirectoryA
+MoveFileA
+RemoveDirectoryA
+GetDriveTypeA
+DeleteFileA
+GetFileAttributesW
+SetEnvironmentVariableW
+SetFileAttributesW
+GetFullPathNameW
+CreateDirectoryW
+MoveFileW
+RemoveDirectoryW
+DeleteFileW
+GetExitCodeProcess
+WaitForSingleObject
+CreateProcessA
+LoadLibraryA
+FreeLibrary
+CreateProcessW
+ReadFile
+DuplicateHandle
+GetCurrentProcess
+GetSystemTimeAsFileTime
+GetTimeZoneInformation
+GetLocalTime
+WideCharToMultiByte
+SetFileTime
+LocalFileTimeToFileTime
+SystemTimeToFileTime
+SetLocalTime
+TlsGetValue
+TlsSetValue
+InterlockedPopEntrySList
+InterlockedFlushSList
+QueryDepthSList
+InterlockedPushEntrySList
+CreateTimerQueue
+CreateTimerQueueTimer
+DeleteTimerQueueTimer
+SetEvent
+CreateEventW
+SwitchToThread
+SignalObjectAndWait
+TryEnterCriticalSection
+GetTickCount
+VirtualFree
+GetVersionExW
+SetThreadPriority
+VirtualAlloc
+GetLogicalProcessorInformation
+GetSystemInfo
+GetProcessAffinityMask
+VirtualProtect
+SetThreadAffinityMask
+InitializeSListHead
+ReleaseSemaphore
+CreateSemaphoreW
+WaitForMultipleObjects
+TlsAlloc
+TlsFree
+GetThreadPriority
+LoadLibraryW
+SleepEx
+OutputDebugStringW
+FreeLibraryAndExitThread
+GetModuleHandleA
+GetThreadTimes
+DebugBreak
+MultiByteToWideChar
+GetStringTypeW
+GetCPInfo
+GetACP
+GetOEMCP
+IsValidCodePage
+GetDateFormatA
+GetTimeFormatA
+GetDateFormatW
+GetTimeFormatW
+RtlLookupFunctionEntry
+RtlUnwindEx
+HeapAlloc
+HeapFree
+HeapSetInformation
+GetVersion
+HeapCreate
+HeapDestroy
+HeapQueryInformation
+HeapReAlloc
+HeapSize
+HeapValidate
+HeapCompact
+HeapWalk
+SetThreadStackGuarantee
+VirtualQuery
+SetHandleCount
+GetFileType
+GetStartupInfoW
+GetFileInformationByHandle
+PeekNamedPipe
+CreateFileA
+CreateFileW
+SetFilePointer
+GetConsoleCP
+GetConsoleMode
+FlushFileBuffers
+CreatePipe
+SetStdHandle
+ReadConsoleInputA
+SetConsoleMode
+PeekConsoleInputA
+GetNumberOfConsoleInputEvents
+ReadConsoleInputW
+WriteConsoleW
+ReadConsoleW
+SetEndOfFile
+GetProcessHeap
+LockFile
+UnlockFile
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+IsDebuggerPresent
+RtlVirtualUnwind
+RtlCaptureContext
+TerminateProcess
+SetConsoleCtrlHandler
+GetLocaleInfoW
+FreeEnvironmentStringsW
+GetEnvironmentStringsW
+QueryPerformanceCounter
+LCMapStringW
+CompareStringW
+GetUserDefaultLCID
+GetLocaleInfoA
+EnumSystemLocalesA
+IsValidLocale
+KERNEL32.dll
+MSVCR100.dll
+$I10_OUTPUT
 ??0?$_SpinWait@$00@details@Concurrency@@QEAA@P6AXXZ@Z
 ??0?$_SpinWait@$0A@@details@Concurrency@@QEAA@P6AXXZ@Z
 ??0SchedulerPolicy@Concurrency@@QEAA@AEBV01@@Z
@@ -569,14 +1512,12 @@ $Ib?s
 ??_U@YAPEAX_K@Z
 ??_U@YAPEAX_KHPEBDH@Z
 ??_V@YAXPEAX@Z
-?@En[vP
 ?Alloc@Concurrency@@YAPEAX_K@Z
 ?Block@Context@Concurrency@@SAXXZ
 ?Create@CurrentScheduler@Concurrency@@SAXAEBVSchedulerPolicy@2@@Z
 ?Create@Scheduler@Concurrency@@SAPEAV12@AEBVSchedulerPolicy@2@@Z
 ?CreateResourceManager@Concurrency@@YAPEAUIResourceManager@1@XZ
 ?CreateScheduleGroup@CurrentScheduler@Concurrency@@SAPEAVScheduleGroup@2@XZ
-?CuND8g
 ?CurrentContext@Context@Concurrency@@SAPEAV12@XZ
 ?Detach@CurrentScheduler@Concurrency@@SAXXZ
 ?DisableTracing@Concurrency@@YAJXZ
@@ -595,13 +1536,8 @@ $Ib?s
 ?Id@Context@Concurrency@@SAIXZ
 ?Id@CurrentScheduler@Concurrency@@SAIXZ
 ?IsCurrentTaskCollectionCanceling@Context@Concurrency@@SA_NXZ
-?JV8f
-?Ji@9
 ?Log2@details@Concurrency@@YAK_K@Z
-?N]TUUU
 ?Oversubscribe@Context@Concurrency@@SAX_N@Z
-?QY^&
-?R0I?
 ?RegisterShutdownEvent@CurrentScheduler@Concurrency@@SAXPEAX@Z
 ?ResetDefaultSchedulerPolicy@Scheduler@Concurrency@@SAXXZ
 ?ScheduleGroupId@Context@Concurrency@@SAIXZ
@@ -609,12 +1545,7 @@ $Ib?s
 ?SetConcurrencyLimits@SchedulerPolicy@Concurrency@@QEAAXII@Z
 ?SetDefaultSchedulerPolicy@Scheduler@Concurrency@@SAXAEBVSchedulerPolicy@2@@Z
 ?SetPolicyValue@SchedulerPolicy@Concurrency@@QEAAIW4PolicyElementKey@2@I@Z
-?UUUUUU
-?U[y[
 ?VirtualProcessorId@Context@Concurrency@@SAIXZ
-?W(~N
-?XucH
-?XugI
 ?Yield@Context@Concurrency@@SAXXZ
 ?_Abort@_StructuredTaskCollection@details@Concurrency@@AEAAXXZ
 ?_Acquire@_NonReentrantBlockingLock@details@Concurrency@@QEAAXXZ
@@ -683,10 +1614,10 @@ $Ib?s
 ?__ExceptionPtrCurrentException@@YAXPEAX@Z
 ?__ExceptionPtrDestroy@@YAXPEAX@Z
 ?__ExceptionPtrRethrow@@YAXPEBX@Z
+__uncaught_exception
 ?_inconsistency@@YAXXZ
 ?_invalid_parameter@@YAXPEBG00I_K@Z
 ?_is_exception_typeof@@YAHAEBVtype_info@@PEAU_EXCEPTION_POINTERS@@@Z
-?_logb
 ?_name_internal_method@type_info@@QEBAPEBDPEAU__type_info_node@@@Z
 ?_open@@YAHPEBDHH@Z
 ?_query_new_handler@@YAP6AH_K@ZXZ
@@ -700,16 +1631,11 @@ $Ib?s
 ?_type_info_dtor_internal_method@type_info@@QEAAXXZ
 ?_wopen@@YAHPEB_WHH@Z
 ?_wsopen@@YAHPEB_WHHH@Z
-?acos
-?acosf
 ?before@type_info@@QEBAHAEBV1@@Z
-?f`Y4
 ?get_error_code@scheduler_resource_allocation_error@Concurrency@@QEBAJXZ
-?kxG2)
 ?lock@critical_section@Concurrency@@QEAAXXZ
 ?lock@reader_writer_lock@Concurrency@@QEAAXXZ
 ?lock_read@reader_writer_lock@Concurrency@@QEAAXXZ
-?logf
 ?name@type_info@@QEBAPEBDPEAU__type_info_node@@@Z
 ?native_handle@critical_section@Concurrency@@QEAAAEAV12@XZ
 ?raw_name@type_info@@QEBAPEBDXZ
@@ -720,9 +1646,6 @@ $Ib?s
 ?set_terminate@@YAP6AXXZP6AXXZ@Z
 ?set_unexpected@@YAP6AXXZH@Z
 ?set_unexpected@@YAP6AXXZP6AXXZ@Z
-?t_v>
-?tanf
-?tanh
 ?terminate@@YAXXZ
 ?try_lock@critical_section@Concurrency@@QEAA_NXZ
 ?try_lock@reader_writer_lock@Concurrency@@QEAA_NXZ
@@ -734,1085 +1657,6 @@ $Ib?s
 ?wait@event@Concurrency@@QEAA_KI@Z
 ?wait_for_multiple@event@Concurrency@@SA_KPEAPEAV12@_K_NI@Z
 ?what@exception@std@@UEBAPEBDXZ
-?{Q}<
-@ D!H
-@ D!P
-@ D!X
-@.data
-@.reloc
-@.rsrc
-@83tVH
-@87t-
-@87t.
-@87tC
-@8>uSH
-@8L9GH
-@8UUUUU
-@8l$8t
-@8l$H
-@8l$Ht
-@8ppu
-@8t$8
-@8t$8t
-@8|$0
-@8|$0t
-@8|$8
-@8|$8t
-@8|$8tbH
-@8|$<
-@8|$<E
-@8|$D
-@8~pt
-@>%>b
-@A\_^
-@A\_^][
-@A]A\]
-@A]A\_
-@A]A\_^[
-@A]A\_^]
-@A^A\_
-@A^A]A\
-@A^A]]
-@A^A]_
-@A_A]A\
-@A_A^A\
-@A_A^A]A\_
-@A_A^A]A\_^]
-@H@uvH
-@SUVWATAUAVAWH
-@SUVWATAUAVH
-@SUVWATH
-@SUVWH
-@SVWATAUAVAWH
-@SVWATAUH
-@SVWATAVH
-@SVWH
-@UATAUAVAWH
-@UATAUH
-@UATAVH
-@UAUAVH
-@UAUAWH
-@USVWATAUAVAWH
-@USVWATAUAVH
-@USVWH
-@USWH
-@UVWATAUAVAWH
-@UVWH
-@VWATAUAVH
-@VWATH
-@_CONST
-@hcjz
-@~dV=x
-A HcqDHci@L
-A fA9
-A(A9A 
-A(H9P
-A+I,A
-A+L$$A
-A+Q(A
-A+\$$
-A,A9A$
-A,u+H
-A03>A|
-A8Y1t
-A8h1t
-A9D$$vDD
-A9\$$
-A;1~	I
-A;I$s!H
-A>l$/
-A>pP&
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-AHD9`
-AK>(v
-APAQM3
-ATAUAVH
-ATAUAWH
-AUAVAWH
-A\_^[
-A\_^][
-A]A\]
-A]A\_
-A]A\_^[]
-A]A\_^]
-A^A\]
-A^A]A\
-A^A]A\_]
-A^A]A\_^
-A^A]A\_^[]
-A^A]A\_^][
-A^A]]
-A_A]A\
-A_A]A\_^
-A_A]A\_^][
-A_A]]
-A_A^A\_]
-A_A^A]
-A_A^A]A\]
-A_A^A]A\]H
-A_A^A]A\_
-A_A^A]A\_[]
-A_A^A]A\_^[
-A_A^A]A\_^[]
-A_A^A]A\_^]
-A_A^A]A\_^][
-A`1w>
-Access violation - no RTTI data!
-April
-Arg list too long
-Assertion failed!
-Assertion failed: %s, file %s, line %d
-Attempted a typeid of NULL pointer!
-August
-B ;B,t
-B$C8|
-B(E8X1t
-B2L 8
-B2L(8A
-BC1%M
-BC?>6t9^	c:>
-BF>^G
-BP,A+@,;
-BS,A+C,;
-B`E;Jh|
-Bad address
-Bad dynamic_cast!
-Bad file descriptor
-Bad read pointer - no RTTI data!
-Broken pipe
-C D9|$du
-C$D9|$lu
-C(D9|$lu
-C(LcC<I
-C0HcF
-C0HcH
-C0HcK<A
-C5R?	
-C@IcP
-CL:>8
-COMSPEC
-CWD>~3
-CXF9<
-C`D;Ch|
-Catan
-Catanf
-Ccoshf
-CfD9#u
-CloseHandle
-CompareStringW
-ContextPriority
-ContextStackSize
-CorExitProcess
-CreateDirectoryA
-CreateDirectoryW
-CreateEventW
-CreateFileA
-CreateFileW
-CreatePipe
-CreateProcessA
-CreateProcessW
-CreateRemoteThreadEx
-CreateSemaphoreW
-CreateThread
-CreateTimerQueue
-CreateTimerQueueTimer
-CreateUmsCompletionList
-CreateUmsThreadContext
-Csinhf
-Cy2@K>
-D	!D9
-D W?{W
-D!}dH
-D$ -l
-D$ 9h
-D$ D	h
-D$ D	h`I
-D$ D	p
-D$ E	l$
-D$ E3
-D$ H#
-D$ H;
-D$ M#
-D$ fA
-D$&8\$&t-8X
-D$(A9x
-D$(D;l$ s
-D$(E3
-D$(H9A
-D$(H;
-D$0A+C 
-D$0E3
-D$0H;
-D$0Lc
-D$0t_A
-D$8E3
-D$8HcH
-D$8Mk
-D$<<x
-D$<<xtd<Xt`D
-D$<A;
-D$<D9D$`t
-D$<D9L$Pt
-D$@D;
-D$@E3
-D$@H+
-D$@H;
-D$A:.
-D$DD;
-D$DE3
-D$DH3\$@H
-D$Dua
-D$H9\$P
-D$HD9T$\
-D$I:\
-D$P0A
-D$PE3
-D$PH#
-D$PH;
-D$PL9oXt
-D$PL;
-D$PfA
-D$T0A
-D$TE3
-D$XE3
-D$`D9[
-D$`E3
-D$`H+
-D$`H;
-D$`HcK
-D$`I;
-D$`L;
-D$`csm
-D$hE3
-D$hH#
-D$hu,A
-D$p H
-D$pH;
-D$tMc
-D$xE3
-D$xHc
-D$xIc
-D)\$4A;
-D)t$4
-D+=0k
-D+ChB
-D+d$TD+
-D+d$XD+
-D1:Hc
-D8"u%H
-D8(t,
-D80tEH
-D80tTH
-D86tuH
-D8;t	
-D8;t}
-D8?t:
-D8?u#
-D8D$0
-D8D$0u
-D8D$0u+
-D8D$0u-H
-D8D$0uaE
-D8D$8t
-D8D$@
-D8D$H
-D8D$Ht
-D8L$0
-D8L$@
-D8\$(u|H
-D8\$4
-D8\$4u D
-D8\$4utM
-D8\$5t
-D8\$8t
-D8\$8t#H
-D8\$<
-D8\$<t
-D8d$8t
-D8d$Ht
-D8d$x
-D8d$xt
-D8l$0
-D8l$0u&H
-D8l$8t
-D8l$Ht
-D8l$x
-D8l$xt
-D8t$ t
-D8t$4
-D8t$4u$
-D8t$5t
-D8t$8
-D8t$8t
-D8|$0
-D8|$4
-D8|$4u!D
-D8|$5t
-D8|$8t
-D8|$Ht
-D9B,tEH
-D9BTtEH
-D9D$Xt
-D9D$`t
-D9L$Pt
-D9T$(t^M
-D9T$l
-D9T$x
-D9\$(thM
-D9\$Pt
-D9d$ 
-D9gH~
-D9l$xttI
-D9l$xtuI
-D9t$du
-D9t$hu
-D9t$lu
-D9t$pu
-D9t$tu
-D9t$xu
-D9t$|t
-D9y8~-A
-D9|$hu
-D9|$p
-D9|$pu
-D9|$tu
-D9|$x
-D9|$xu
-D;+t1
-D;B v
-D;Cl|
-D;[t~NH
-D;[t~cH
-D;_t~NH
-D;_t~XH
-D;_t~cH
-D;_t~fH
-D;c8|
-D;|$x
-D\$hH
-DebugBreak
-December
-DecodePointer
-DeleteCriticalSection
-DeleteFileA
-DeleteFileW
-DeleteProcThreadAttributeList
-DeleteTimerQueueTimer
-DeleteUmsCompletionList
-DeleteUmsThreadContext
-DequeueUmsCompletionListItems
-Directory not empty
-Domain error
-DuplicateHandle
-DynamicProgressFeedback
-E+H A
-E+H$twH
-E+JhA
-E0A9<
-E84$t
-E8<$t
-E8<$t#A
-E8J0t$L
-E8J0tg
-E8X0t8A
-E9,$~T3
-E;,$w%Hc
-E;,$|
-E;Jl}jI
-E>nEA
-EL$(H
-EncodePointer
-EnterCriticalSection
-EnterUmsSchedulingMode
-EnumSystemLocalesA
-Et$0@
-Exec format error
-ExecuteUmsThread
-ExitProcess
-ExitThread
-Expression: 
-F$u6A
-F0HcH
-F8<+t
-F>qUxv
-FPE9x
-F`H9{ t1H
-February
-File exists
-File too large
-File: 
-FileTimeToLocalFileTime
-FileTimeToSystemTime
-Filename too long
-FindClose
-FindFirstFileExA
-FindFirstFileExW
-FindNextFileA
-FindNextFileW
-FlR!<B
-FlsAlloc
-FlsFree
-FlsGetValue
-FlsSetValue
-FlushFileBuffers
-FlushProcessWriteBuffers
-For information on how your program can cause an assertion
-FreeEnvironmentStringsW
-FreeLibrary
-FreeLibraryAndExitThread
-Friday
-Function not implemented
-G 	p`H
-G 3C`
-G 9\$du
-G 9\$lu
-G D	g
-G D9t$lu
-G$9\$lu
-G(9\$lu
-G,9G(
-G0Hc	H
-GA7<^u
-GHD9`
-G`;Wh|
-GetACP
-GetActiveWindow
-GetCPInfo
-GetCommandLineA
-GetCommandLineW
-GetConsoleCP
-GetConsoleMode
-GetCurrentDirectoryA
-GetCurrentDirectoryW
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentProcessorNumber
-GetCurrentProcessorNumberEx
-GetCurrentThread
-GetCurrentThreadId
-GetCurrentUmsThread
-GetDateFormatA
-GetDateFormatW
-GetDiskFreeSpaceA
-GetDriveTypeA
-GetDriveTypeW
-GetEnvironmentStringsW
-GetExitCodeProcess
-GetFileAttributesA
-GetFileAttributesW
-GetFileInformationByHandle
-GetFileType
-GetFullPathNameA
-GetFullPathNameW
-GetLastActivePopup
-GetLastError
-GetLocalTime
-GetLocaleInfoA
-GetLocaleInfoW
-GetLogicalDrives
-GetLogicalProcessorInformation
-GetLogicalProcessorInformationEx
-GetModuleFileNameA
-GetModuleFileNameW
-GetModuleHandleA
-GetModuleHandleW
-GetNextUmsListItem
-GetNumberOfConsoleInputEvents
-GetOEMCP
-GetProcAddress
-GetProcessAffinityMask
-GetProcessHeap
-GetProcessWindowStation
-GetStartupInfoW
-GetStdHandle
-GetStringTypeW
-GetSystemInfo
-GetSystemTimeAsFileTime
-GetThreadGroupAffinity
-GetThreadPriority
-GetThreadTimes
-GetTickCount
-GetTimeFormatA
-GetTimeFormatW
-GetTimeZoneInformation
-GetTraceEnableFlags
-GetTraceEnableLevel
-GetTraceLoggerHandle
-GetUmsCompletionListEvent
-GetUserDefaultLCID
-GetUserObjectInformationA
-GetUserObjectInformationW
-GetVersion
-GetVersionExW
-GfZ+?p
-GrJoq>@
-H ATAVAWH
-H ATH
-H SVWATH
-H SVWH
-H SWH
-H!D$ D
-H!T$(3
-H!\$ H
-H!t$ E3
-H!|$ E3
-H!|$ L
-H(H9J(u
-H+D$`H+D$H3
-H+M0x
-H+T$0JcL8
-H9A(s
-H9Cxt
-H9D$8ubI
-H9Fxt
-H9L$Xt'H
-H9X8u
-H9]8t|H
-H9^0A
-H9_ u(
-H9_@u
-H9_`t2H
-H9h@u
-H9hpu
-H9ixu
-H9l$Pt
-H9n0t
-H9o t9H
-H9p@u
-H9t$Pt
-H9x0t
-H9|$x
-H;@0u
-H;@Xt
-H;@Xu
-H;D$xu
-H;FHt
-H;{xt
-HA\_^[
-HA_A^A]A\_^][
-HH:mm:ss
-H[><y5
-HcC H
-HcD$0H
-HcD$H
-HcD$HH
-HcD$HH;
-HcD$L
-HcD$LH
-HcD$PH
-HcD$hH
-HcD$xH
-HcE Hc
-HcE8H
-HcGl;Gh}
-HcH<H
-HcKhL
-HcM H
-HcO H
-HcOhL
-Hc]$H
-Hct$@H
-Hct$PH
-Hc|$p
-HeapAlloc
-HeapCompact
-HeapCreate
-HeapDestroy
-HeapFree
-HeapQueryInformation
-HeapReAlloc
-HeapSetInformation
-HeapSize
-HeapValidate
-HeapWalk
-I,A9S,A
-I94$t%H
-I94$tt
-I:!A9
-I;u>A
-Ic6E3
-IcJhL
-IcqHH
-IcqHI
-IfE;"u
-Il/$>e
-Il?333333c?
-Illegal byte sequence
-Improper link
-Inappropriate I/O control operation
-InitializeCriticalSectionAndSpinCount
-InitializeProcThreadAttributeList
-InitializeSListHead
-Input/output error
-InterlockedFlushSList
-InterlockedPopEntrySList
-InterlockedPushEntrySList
-Interrupted function call
-Invalid argument
-Invalid seek
-Ip'n/P%
-Ip/n/P+
-Is a directory
-IsDebuggerPresent
-IsValidCodePage
-IsValidLocale
-J `>,
-J,A9P,A
-JD8'u
-JIE]0\
-JanFebMarAprMayJunJulAugSepOctNovDec
-January
-JnYC H
-K tGH
-K&>.yC
-K(uuH
-K,D9K(viH
-K0HcQ
-K0LcY
-KERNEL32.dll
-Kp'n7P%
-Kp/n7P+
-K~Je#>!
-L 82L*8
-L!d$ A
-L!d$0H
-L!d$8H
-L!l$HL!l$@
-L!t$ E3
-L$ D	i
-L$ D	q
-L$ E3
-L$ H3
-L$ H;
-L$ SUVWH
-L$ SVWH
-L$ SWH
-L$ USVWATH
-L$ USVWH
-L$ USWH
-L$ UVWH
-L$ WATAUH
-L$ fD
-L$$fA;
-L$(E;
-L$(H3
-L$(I#
-L$(I;
-L$0<`t
-L$0D;
-L$0E3
-L$0H3
-L$0H;
-L$0Hk
-L$0f;
-L$0u8
-L$0vd
-L$4A;
-L$4E3
-L$4fD
-L$8H3
-L$8M#
-L$@;|
-L$@E3
-L$@H3
-L$@Lc
-L$@f;
-L$@vd
-L$DE+
-L$HH3
-L$PD;
-L$PE3
-L$PH3
-L$PIc
-L$PLc
-L$PfA
-L$PfH
-L$PfI
-L$XE3
-L$XH3
-L$`H3
-L$`Lc
-L$`uT
-L$dLc
-L$hH3
-L$hH;
-L$pH3
-L$pH;L$xr
-L$xH3
-L$|Lc
-L$|fD
-L(0B9|
-L(8A2L
-L0	A:
-L09A:
-L0:A:
-L9Axtn
-L9`@u
-L9d$Pt
-L9d$`t
-L9k(u.
-L9l$`
-L9l$x
-L9pPu
-L9|$`
-L?UUUUUUU?
-LCMapStringW
-LC_ALL
-LC_COLLATE
-LC_CTYPE
-LC_MONETARY
-LC_NUMERIC
-LC_TIME
-LcA<E3
-LcC<I
-LcCpI
-LcGLMk
-LcGP3
-LcGp3
-LcGpI
-LcmhA
-LcupA
-Lc|$hB
-LeaveCriticalSection
-Line: 
-Lj[;>
-LoadLibraryA
-LoadLibraryW
-LocalContextCacheSize
-LocalFileTimeToFileTime
-Lock already taken
-Lock already taken as a writer
-LockFile
-M HcM,E3
-M'y>0y
-M9.t=H
-M94$tiA
-M94$t|A
-M9<$t?A
-M9<$tA
-M9<$u
-MM/dd/yy
-MOPR1
-MOPR1'0%
-MSVCR100.dll
-March
-MaxConcurrency
-MaxPolicyElementKey
-Mc,$E
-MdD!}XA
-MessageBoxA
-MessageBoxW
-MfE;"u
-Microsoft Code Signing PCA
-Microsoft Code Signing PCA0
-Microsoft Corporation0
-Microsoft Corporation1
-Microsoft Corporation1!0
-Microsoft Corporation1#0!
-Microsoft Root Authority
-Microsoft Root Authority0
-Microsoft Time-Stamp Service0
-Microsoft Timestamping PCA
-Microsoft Timestamping PCA0
-Microsoft Visual C++ Runtime Library
-MinConcurrency
-Monday
-MoveFileA
-MoveFileW
-Mp'n_
-Mp/n_
-MultiByteToWideChar
-N+"\hE
-N3`d?
-N>O=I9
-No child processes
-No error
-No locks available
-No space left on device
-No such device
-No such device or address
-No such file or directory
-No such process
-Norwegian-Nynorsk
-Not a directory
-Not enough space
-November
-O H9q
-O u`H
-O0HcQ
-OF>;^
-October
-Op'n5P%
-Op/n5P+
-Operation not permitted
-OutputDebugStringW
-Oxu2H
-P A9Y
-P>q_Y~
-PA\_^
-PA\_^[]
-PA]_^
-PA^A]A\_^][
-PA_A^A]A\_^[
-PA_A^A]_^
-PeekConsoleInputA
-PeekNamedPipe
-Permission denied
-Program: 
-P|> ,o
-Q5rHg,>
-Q>.3Z<
-QueryDepthSList
-QueryPerformanceCounter
-QueryUmsThreadInformation
-Qw t<
-R(E8X1t
-RaiseException
-Read-only file system
-ReadConsoleInputA
-ReadConsoleInputW
-ReadConsoleW
-ReadFile
-Redmond1
-RegisterTraceGuidsW
-ReleaseSemaphore
-RemoveDirectoryA
-RemoveDirectoryW
-Resource deadlock avoided
-Resource device
-Resource temporarily unavailable
-Result too large
-ResumeThread
-RtlCaptureContext
-RtlLookupFunctionEntry
-RtlPcToFileHeader
-RtlUnwindEx
-RtlVirtualUnwind
-S>$hkDh$h>[2
-STu'H
-SUVWATAUAVAWH
-SUVWATAUAWH
-SVWATAUAVAWH
-SVWATH
-S^>#/
-Saturday
-SchedulerKind
-SchedulingProtocol
-September
-SetConsoleCtrlHandler
-SetConsoleMode
-SetCurrentDirectoryA
-SetCurrentDirectoryW
-SetEndOfFile
-SetEnvironmentVariableA
-SetEnvironmentVariableW
-SetErrorMode
-SetEvent
-SetFileAttributesA
-SetFileAttributesW
-SetFilePointer
-SetFileTime
-SetHandleCount
-SetLastError
-SetLocalTime
-SetStdHandle
-SetThreadAffinityMask
-SetThreadGroupAffinity
-SetThreadPriority
-SetThreadStackGuarantee
-SetUmsThreadInformation
-SetUnhandledExceptionFilter
-SignalObjectAndWait
-Sleep
-SleepEx
-SunMonTueWedThuFriSat
-Sunday
-SwitchToThread
-SystemFunction036
-SystemRoot
-SystemTimeToFileTime
-T$ E3
-T$ Mk
-T$0E3
-T$0H#
-T$0Mk
-T$4A;
-T$4fD
-T$@A;
-T$@D9
-T$@fE
-T$DA;
-T$HA#
-T$LHc
-T$PD;
-T$PE3
-T$PMcB
-T$THc
-T$XE3
-T$XHc
-T$XfA;
-T$XfD;
-T$\E3
-T$`D:
-T$`E3
-T$`fA;
-T$`fD;
-T$eLc
-T$hE3
-T$hfA;
-T$hfD;
-T$hfE;"
-T$iLc
-T$pD:
-T$pE3
-T$pH3
-T$pfA;
-T$pfD;
-T$pfE;"
-T$xA+
-T$xE3
-T>0E3
-TUUUU
-TargetOversubscriptionFactor
-TerminateProcess
-Thursday
-TlsAlloc
-TlsFree
-TlsGetValue
-TlsSetValue
-Too many links
-Too many open files
-Too many open files in system
-TraceEvent
-TryEnterCriticalSection
-Tuesday
-UA>N0Wl
-UATAUAVAWH
-UATAUH
-UAUAVH
-UNICODE
-UNKNOWN
-USVWATAUAVAWH
-USVWATAUH
-USWATAUAVAWH
-UTF-16LE
-UTF-8
-UUUUU
-UUUUUU
-UVWATAUAVAWH
-UVWATAUH
-UVWATAVH
-UWATAUAVH
-UWATAVAWH
-UWATAVH
-UWATH
-UmsThreadYield
-UnhandledExceptionFilter
-Unknown error
-Unknown exception
-UnlockFile
-UnregisterTraceGuids
-Up'n1P%
-Up/n1P+
-UpdateProcThreadAttribute
-Uy]E3
-V6E>`"(5
-V?UUUUUU
-VD$pf
-VT$pD
-VWATAUAVH
-VWATAUAWH
-VWATH
-VWAUAVAWH
-VWAUH
-VirtualAlloc
-VirtualFree
-VirtualProtect
-VirtualQuery
-Visual C++ CRT: Not enough memory to complete call to strerror.
-W=2:	
-WATAUAVAWH
-WATAUH
-WATAVH
-WAUAVH
-WaNd?
-WaitForMultipleObjects
-WaitForSingleObject
-Wak>E
-Washington1
-Wednesday
-WideCharToMultiByte
-WriteConsoleW
-WriteFile
-X 843"8
-X't*u
-XA_A^A]A\_^[]
-XA_A^A]A\_^][
-X_^[]
-Xt)fA
-XuxfA
-Y tRH
-Y(tRH
-Y>kX>M
-YD$0H
-YD$`f
-Z0X03
-Z\>z8
-Zod(^?
-[ UVWH
-[*ncd>0
-[*ncd>TQ
-[0L9[(r
-[thunk]:
-\$ E	k
-\$ E	k`
-\$ E	k`I
-\$ E3
-\$ E9c
-\$ H=
-\$ UVWATAUAVAWH
-\$ WH
-\$ fD
-\$$A;
-\$0E3
-\$0H;
-\$0I;
-\$0Mc
-\$8L3
-\$@@8=j8
-\$@Ic
-\$@fE
-\$DA;
-\$DfA9	u
-\$L9|$Ht
-\$L9|$Xt
-\$L9|$\t
-\$L@8|$=t
-\$L@8|$Dt
-\$LE3
-\$PI;
-\$T9|$Pt
-\$TE3
-\$Xt4I
-\$`D8}
-\$gm?
-\$hD8m
-\$hD8}
-\$hE2
-\$hE3
-\$hf;
-\$p9|$Ht
-\$p@8|$=
-\$pE3
-\$pf;
-\>$hkDh$h>
-])6M>&
-]>)2X
-]PIcC
-^8U)zj
-^RfN>
-_ A	s
-_ A	s`H
 _CRT_RTC_INIT
 _CRT_RTC_INITW
 _CreateFrameInfo
@@ -1866,10 +1710,7 @@ ___unguarded_readlc_active_add_func
 __argc
 __argv
 __badioinfo
-__based(
-__cdecl
 __clean_type_info_names_internal
-__clrcall
 __create_locale
 __crtCompareStringA
 __crtCompareStringW
@@ -1880,8 +1721,6 @@ __daylight
 __dllonexit
 __doserrno
 __dstbias
-__eabi
-__fastcall
 __fls_getvalue
 __fls_setvalue
 __fpecode
@@ -1891,11 +1730,6 @@ __get_flsindex
 __get_tlsindex
 __getmainargs
 __initenv
-__int128
-__int16
-__int32
-__int64
-__int8
 __iob_func
 __isascii
 __iscsym
@@ -1928,24 +1762,19 @@ __p__tzname
 __p__wcmdln
 __p__wenviron
 __p__wpgmptr
-__pascal
 __pctype_func
 __pioinfo
-__ptr64
 __pwctype_func
 __pxcptinfoptrs
 __report_gsfailure
-__restrict
 __set_app_type
 __set_flsgetvalue
 __setlc_active
 __setusermatherr
-__stdcall
 __strncnt
 __swprintf_l
 __sys_errlist
 __sys_nerr
-__thiscall
 __threadhandle
 __threadid
 __timezone
@@ -1954,11 +1783,8 @@ __tzname
 __unDName
 __unDNameEx
 __unDNameHelper
-__unaligned
-__uncaught_exception
 __unguarded_readlc_active
 __vswprintf_l
-__w64 
 __wargv
 __wcserror
 __wcserror_s
@@ -2056,6 +1882,7 @@ _difftime32
 _difftime64
 _dosmaperr
 _dstbias
+_dup
 _dup2
 _dupenv_s
 _ecvt
@@ -2064,6 +1891,7 @@ _encoded_null
 _endthread
 _endthreadex
 _environ
+_eof
 _errno
 _execl
 _execle
@@ -2213,6 +2041,7 @@ _invalid_parameter
 _invalid_parameter_noinfo
 _invalid_parameter_noinfo_noreturn
 _invoke_watson
+_iob
 _isalnum_l
 _isalpha_l
 _isatty
@@ -2482,7 +2311,6 @@ _mktime64
 _msize
 _nextafter
 _nextafterf
-_oD>Kg
 _onexit
 _open
 _open_osfhandle
@@ -2877,223 +2705,48 @@ _wtol_l
 _wunlink
 _wutime32
 _wutime64
-` AUH
-` AVH
-` UAUAVH
-`+!]?
-`.rdata
-`>n>w%
-`A\_]
-`A_A^A]A\_^]
-`G#{'
-`RTTI
-`adjustor{
-`anonymous namespace'
-`copy constructor closure'
-`default constructor closure'
-`dynamic atexit destructor for '
-`dynamic initializer for '
-`eh vector constructor iterator'
-`eh vector copy constructor iterator'
-`eh vector destructor iterator'
-`eh vector vbase constructor iterator'
-`eh vector vbase copy constructor iterator'
-`h````
-`h`hhh
-`local static destructor helper'
-`local static guard'
-`local static thread guard'
-`local vftable constructor closure'
-`local vftable'
-`managed vector constructor iterator'
-`managed vector copy constructor iterator'
-`managed vector destructor iterator'
-`non-type-template-parameter
-`omni callsig'
-`placement delete closure'
-`placement delete[] closure'
-`scalar deleting destructor'
-`string'
-`template static data member constructor helper'
-`template static data member destructor helper'
-`template-parameter
-`typeof'
-`udt returning'
-`unknown ecsu'
-`vbase destructor'
-`vbtable'
-`vcall'
-`vector constructor iterator'
-`vector copy constructor iterator'
-`vector deleting destructor'
-`vector destructor iterator'
-`vector vbase constructor iterator'
-`vector vbase copy constructor iterator'
-`vftable'
-`virtual displacement map'
-`vtordispex{
-`vtordisp{
-abcdefghijklmnopqrstuvwxyz
 abort
+acos
 acosf
-am/pm
-america
-american
-american english
-american-english
 asctime
 asctime_s
+asin
 asinf
+atan
 atan2
 atan2f
 atanf
 atexit
-australian
-b?^Cy
-bad allocation
-bad cast
-bad exception
-bad typeid
-belgian
-bp(=>?g
-britain
+atof
+atoi
+atol
 bsearch
 bsearch_s
 btowc
-c AUH
-c AVH
-c [1>H'
-c(>\,
-c0&>`
-c?FA@s}
 calloc
-canadian
+ceil
 ceilf
-cf91t
-char 
-china
-chinese
-chinese-hongkong
-chinese-simplified
-chinese-singapore
-chinese-traditional
-class 
 clearerr
 clearerr_s
-cli::array<
-cli::pin_ptr<
 clock
-cmd.exe
-coclass 
-cointerface 
-const
-const 
+cosf
+cosh
 coshf
-count
-czech
-d$ E3
-d$ UH
-d$(A9|$
-d$0f;
-d$8D;A
-d$8H+
-d$@f;
-d$Df;
-d$DfD;
-d$HE3
-d$PE3
-d$PMk
-d$\D+d$HD+
-d$xfE
-d?000000`?
-dddd, MMMM dd, yyyy
-df91t
-double
-dt D:
-dt"fD;
-dt%fD;
-dtfD:
-dtwfD;
-dutch-belgian
-e+000
-e0A]A\]
-e0A_A^A]A\_^]
-e8A_A^A]A\_^[]
-e@A^A]]
-e@E94$
-england
-english-american
-english-aus
-english-belize
-english-can
-english-caribbean
-english-ire
-english-jamaica
-english-nz
-english-south africa
-english-trinidad y tobago
-english-uk
-english-us
-english-usa
-enum 
-epA]A\]
-eventObject
-extern "C" 
-f91u	fA
-f9]"u
-f9]2u
-f;D$@uD
-f;D$@ug
-f;NPu
-fA9(t
-fA98u
-fA99u
-fB94h
-fD9	t
-fD9 t
-fD9#tSH
-fD9#u
-fD9#uC
-fD9(t
-fD9)t
-fD9*t
-fD9*u
-fD9.u"
-fD90t
-fD90u
-fD91t
-fD91u
-fD91u:@
-fD91u:A
-fD93u
-fD98t
-fD98t	H
-fD98u
-fD99t
-fD9:r
-fD9:t
-fD9:t,
-fD9:u
-fD9;t
-fD9>t
-fD9t$b
-fD; L
-fJBGo
-failure, see the Visual C++ documentation on asserts
+exit
+expf
+fabs
 fclose
+feof
 ferror
-fffff
-ffffff
-fffffff
 fflush
 fgetc
 fgetpos
 fgets
 fgetwc
 fgetws
-float
 floor
 floorf
+fmod
 fmodf
 fopen
 fopen_s
@@ -3105,10 +2758,7 @@ fputwc
 fputws
 fread
 fread_s
-french-belgian
-french-canadian
-french-luxembourg
-french-swiss
+free
 freopen
 freopen_s
 frexp
@@ -3122,34 +2772,14 @@ fwprintf_s
 fwrite
 fwscanf
 fwscanf_s
-g9@x!8
-generic-type-
-german-austrian
-german-lichtenstein
-german-luxembourg
-german-swiss
+getc
 getchar
 getenv
 getenv_s
+gets
 gets_s
 getwc
 getwchar
-gf9*t
-gfffA
-gffff
-gffffE
-gfffffffH
-great britain
-h AVL
-h>1my
-hA_A^A]A\_^][
-holland
-hong-kong
-http://microsoft.com0
-ip'nEP%
-ip/nEP+
-ipfx'f
-irish-english
 is_wctype
 isalnum
 isalpha
@@ -3176,50 +2806,15 @@ iswspace
 iswupper
 iswxdigit
 isxdigit
-it7E;
-italian-swiss
-j>>A?1
-j?V()
-j?{$*
-jf9*t
-k>4	F
-kxu0H
-l$ A^A]
-l$ D!
-l$ VWATAUAVH
-l$ VWATAUAWH
-l$ VWATH
-l$ WATAUH
-l$ WH
-l$(A^
-l$0E+
-l$0E3
-l$0fD;
-l$4A;
-l$8fA
-l$@@2
-l$DD;
-l$DE3
-l$PD;
-l$PE3
-l$PMcE
-l$TD;
-l$XE+
-l$hE3
-l$p8]
-l$p9o
-l$p;o
-l$pE3
-l$pMc
-l$xD8u
-l$xfD
+labs
 ldexp
+ldiv
 llabs
 lldiv
 localeconv
 log10
 log10f
-long 
+logf
 longjmp
 malloc
 mblen
@@ -3230,7 +2825,6 @@ mbsrtowcs_s
 mbstowcs
 mbstowcs_s
 mbtowc
-mdmJT
 memchr
 memcmp
 memcpy
@@ -3238,124 +2832,43 @@ memcpy_s
 memmove
 memmove_s
 memset
+modf
 modff
-msvcr100.amd64.pdb
-n03>Pu
-n9|$ltYL
-nCipher DSE ESN:85D3-305C-5BCF1%0#
-n]?iJ
-new-zealand
-norwegian
-norwegian-bokmal
-norwegian-nynorsk
-o@H9n0t
-oI>O7
-operator
-ot$@H
-ot>fA
-oxu0H
-oypfD
-p WATAUAVAWH
-p WATAUH
-p>.G1
-pA\_^][
-pA]A\_^]
-pA_A^A]A\_^]
-pContext
-pEvents
-pExecutionResource
-pScheduler
-pThreadProxy
 perror
-portuguese-brazilian
-ppVirtualProcessorRoots
-pr china
-pr-china
+powf
 printf
 printf_s
-private: 
-protected: 
-public: 
-puerto-rico
+putc
 putchar
+puts
 putwc
 putwchar
-q(t}H
-q>F,3
-qA8^pt
-qS>g?h3
 qsort
 qsort_s
-r	Vr.>T
-r"fA;K
-r"fA;S
-r%f;A
-r&D8g
-r0p1+0)
-r<u!@
-rLp>B
-rNm>)
-rUvMf
-r[uHH
 raise
+rand
 rand_s
 realloc
 remove
 rename
 rewind
-rmvNf
-rvD85
-s	A9;A
-s WATAUAVAWH
-s1A9?A
-s\HcL$HH
-scHcL$HH
 scanf
 scanf_s
 setbuf
 setjmp
 setlocale
 setvbuf
-sf91t
-shHcD$XH
-short
-short 
 signal
-signed 
+sinf
+sinh
 sinhf
-slovak
-soHcD$XH
-south africa
-south korea
-south-africa
-south-korea
-spanish-argentina
-spanish-bolivia
-spanish-chile
-spanish-colombia
-spanish-costa rica
-spanish-dominican republic
-spanish-ecuador
-spanish-el salvador
-spanish-guatemala
-spanish-honduras
-spanish-mexican
-spanish-modern
-spanish-nicaragua
-spanish-panama
-spanish-paraguay
-spanish-peru
-spanish-puerto rico
-spanish-uruguay
-spanish-venezuela
 sprintf
 sprintf_s
+sqrt
 sqrtf
 srand
 sscanf
 sscanf_s
-static 
-std::nullptr_t
 strcat
 strcat_s
 strchr
@@ -3383,189 +2896,35 @@ strtok
 strtok_s
 strtol
 strtoul
-struct 
 strxfrm
-swedish-finland
-swiss
 swprintf_s
 swscanf
 swscanf_s
 system
-t	D8#
-t	D8{
-t"H;CxtIH
-t#fA;
-t$ @80
-t$ E3
-t$ UH
-t$ UWATAUAVH
-t$ UWATH
-t$ WATAUAVAW
-t$ WATAUAVAWH
-t$ WATAUH
-t$ WH
-t$0D+
-t$4A;
-t$4D8D$8t
-t$4D8L$8t
-t$4D9L$P@
-t$4D9|$X@
-t$4E+
-t$4E3
-t$89D$Pt
-t$89L$\t
-t$8f;
-t$8fA9:
-t$8fA;
-t$8fE9"
-t$<9L$Xt
-t$<f;
-t$<fD;
-t$<fE9"
-t$@8{9u
-t$@D9T$d
-t$@E3
-t$@H3
-t$@H;
-t$@Ic
-t$DA;
-t$DuW
-t$HA;
-t$HD;
-t$PE3
-t$PHk
-t$TE3
-t$\9D$Xt
-t$\D8D$@t
-t$\D8L$@t
-t$\D9D$`t
-t$\D9L$Pt
-t$`8\$At
-t$`9\$dt
-t$`fE
-t$hA;
-t$hH+
-t$htG
-t$pD+d$HD+
-t$pE+
-t$pfD
-t$|fD
-t&<"t
-t'HcU0H
-t(D83t(H
-t(Hc\$0H
-t)A8T$
-t*HcO
-t+<.t"H
-t,!L$0H
-t0<@t
-t2A9|$
-t4A90}
-t5D85
-t5f9(t
-t5f9t$(u
-t7H9sxt1
-t8L9-a
-t;A9;
-t=f99t8
-t>9t$ t3H
-t?H9p8u
-tBD8#u
-tBD8'u
-tCH;F
-tED;]
-tEI90}
-tF@8ppu@H
-tND8>
-tO8K9u
-tO<_t<<$t8<<t4<>t0<-t,<a|
-tPfA99tJI
-tXfA;
-t\9t$ tRf9l$(u
-t\A9?
-t^Lcw
-t^fD9#tXA
+tanf
+tanh
 tanhf
-tb<A|M<P
-template-parameter-
-tfL9l
-tifA9(tcH
-tlD8&u
-tmfD9C
 tmpfile
 tmpfile_s
 tmpnam
 tmpnam_s
-tnLcV
 tolower
 toupper
 towlower
 towupper
-tpD8'u
-tr1::bad_weak_ptr
-trinidad & tobago
-tvI9|$8toI
-u	A!A
-u 9w$r
-u#!D$(H
-u&!D$(H
-u'HcUHH
-u.?Z8
-u1!D$0
-u8B8D
-u8E8,$t2I
-u9L9}
-u;fE9<$t4
-u=D8U
-u?D9Z
-u?HcE
-uGf9O
-uLffff
-uNM9u
-uNffffff
-uQI91tLH
-u[Lc@<L
-u_D9u
-ub8c@
-ui;w$
-uiHcB
-ujGs?
-ulD9m
-ulHcOP
 ungetc
 ungetwc
-union 
-united-kingdom
-united-states
-unsigned 
-uqfD;
-ut7fA
-utfD9K
-uuH9X8uo
-uzKs@>
-v&D8{
-v'D;E$w!
-v.D9R
-version
 vfprintf
 vfprintf_s
 vfwprintf
 vfwprintf_s
-virtual 
-void 
-volatile
-volatile 
 vprintf
 vprintf_s
 vsprintf
 vsprintf_s
 vswprintf_s
-vwD9R
 vwprintf
 vwprintf_s
-v}`[>
-wHHcC
-wchar_t
 wcrtomb
 wcrtomb_s
 wcscat
@@ -3607,106 +2966,3 @@ wprintf
 wprintf_s
 wscanf
 wscanf_s
-x AT3
-x ATAU
-x ATAUAVAWf
-x ATAUAVH
-x ATAUAWA
-x ATAUAWH
-x ATAVAWH
-x ATH
-x AUAVL
-x AUH
-x0t#@
-x8@~*Hc@8H
-x8}0	9
-xA_A^A]A\_^[]
-x_^][
-xppwpp
-xpxxxx
-xt0fA
-xv;=;
-yE>}-
-y\PD>!
-yf9*t
-ytjA+
-z tJH
-z>@G'h
-z?*[FS	<
-z?aUY
-zY;>u:m	
-zc%C1
-zux!l$ E3
-{&1q>
-{flat}
-{for 
-{t-fA92
-{t0fA92
-{t5fA92
-{w8&-
-|$ ;=:
-|$ ATAUAVH
-|$ ATH
-|$ E3
-|$ H;
-|$ Hc
-|$ UATAUAVAWH
-|$ UH
-|$(A\
-|$(E3
-|$0-H
-|$0A]A\
-|$0E3
-|$4A+
-|$4E3
-|$4t	fD
-|$89^
-|$8A_A]A\
-|$<A;
-|$@-D
-|$@-H
-|$@A_A^A]A\
-|$@f;
-|$@fD;
-|$DA;
-|$DD9d$X
-|$Df;
-|$DfD;
-|$Du	
-|$Duq
-|$Dut
-|$HE3
-|$HfA
-|$PA;
-|$PD9U
-|$PE3
-|$PM3
-|$TA;
-|$XA;
-|$XD9]
-|$XD;
-|$Xf;
-|$`D;
-|$`H+
-|$`f;
-|$h3W
-|$hD9V
-|$hE3
-|$pD8u
-|$pE3
-|$xE+
-|$xfD
-|$|fD
-|>fj;
-|b=})>
-|zI94$ua
-}PA3L$
-}Y+E0H
-}`E	k`I
-~!HcG
-~"HcG
-~/8\$vt)H
-~ID;c
-~NH;u
-~THcE
-~`HcE H

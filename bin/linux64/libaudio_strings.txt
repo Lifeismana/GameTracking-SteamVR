@@ -1,826 +1,905 @@
-
-!! Last miles service delay: %u
-"%s"
-#!/bin/shexit 0
-%.18g
-%A %b %d
-%X
-%d%s
-%d:00
-%f
-%lld
-%llu
-%s overflow!
-%s%c%s
-%s%c.temp_write_%x
-%s%s
-%s.async%u.tmp
-%s/%s
-%s/.steam/%s
-%s/.steam/steam
-%u
-'
-( CMilesAudioOutputStream * ) m_vecAudioOutputStreams[i]
-( CMilesAudioSound * ) m_vecAudioSounds[i]
-(%s%d)
-(%zu) Descend: %s, (%s), %s
-(%zu) readdir failed to find '%s' in '%s'
-*.*
-..
-../common/audio/audiocontroller.cpp
-../common/audio/audiosink_pulse.cpp
-../common/audio/milesaudiosound.cpp
-../common/audio/mileswrapper.cpp
-../tier1/fileio.cpp
-../tier1/interface.cpp
-../tier1/utlbuffer.cpp
-../tier1/utlmemory.cpp
-../tier1/utlstring.cpp
-../tier1/utlsymbol.cpp
-.cpl
-.mp3
-.steam_exec_test.sh
-/
-/dev
-/etc/mtab
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/tslist.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/interface.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlbuffer.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utllinkedlist.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlrbtree.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlstring.h
-/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlvector.h
-/proc/mounts
-/tmp
-0123456789ABCDEF
-0123456789abcdef
-1.0.0
-10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE25CDefRBTreeBalanceListenerItEE
-10CUtlRBTreeIN7CUtlMapI10CUtlSymbolPvi8CDefLessIS1_EE6Node_tEiNS5_8CKeyLessE25CDefRBTreeBalanceListenerIiEE
-10CUtlString
-10CUtlVectorIP11IAudioSound10CUtlMemoryIS1_EE
-10CUtlVectorIP17CMilesAudioDevice10CUtlMemoryIS1_EE
-10CUtlVectorIP18IAudioOutputStream10CUtlMemoryIS1_EE
-10CUtlVectorIP20IAudioDeviceListener10CUtlMemoryIS1_EE
-10CUtlVectorIPN15CUtlSymbolTable12StringPool_tE10CUtlMemoryIS2_EE
-11CPathString
-11IAudioSound
-12CDLLValidate
-12CDynamicFuncIPFP11_DIG_DRIVERjiijyEE
-12CDynamicFuncIPFP7_SAMPLEP11_DIG_DRIVEREE
-12CDynamicFuncIPFPFvP7_SAMPLEES1_S3_EE
-12CDynamicFuncIPFPcPKcEE
-12CDynamicFuncIPFPcvEE
-12CDynamicFuncIPFPvPKcS0_S2_jEE
-12CDynamicFuncIPFiP11_DIG_DRIVEREE
-12CDynamicFuncIPFiP11_DIG_DRIVERiiEE
-12CDynamicFuncIPFiP7_SAMPLE11SAMPLESTAGEPKciPvPKvS5_EE
-12CDynamicFuncIPFiP7_SAMPLEEE
-12CDynamicFuncIPFiP7_SAMPLEPKcPKvjiEE
-12CDynamicFuncIPFiP7_SAMPLEPKviEE
-12CDynamicFuncIPFiP7_SAMPLEiEE
-12CDynamicFuncIPFiP7_SAMPLEiPKvjEE
-12CDynamicFuncIPFiP7_SAMPLEiPjS2_PiS3_EE
-12CDynamicFuncIPFiPKcS1_jEE
-12CDynamicFuncIPFiPcPyEE
-12CDynamicFuncIPFiPv21MSS_PLATFORM_PROPERTYS0_PKvS0_EE
-12CDynamicFuncIPFiPxPyPPcEE
-12CDynamicFuncIPFjP7_SAMPLEEE
-12CDynamicFuncIPFjvEE
-12CDynamicFuncIPFvP11_DIG_DRIVEREE
-12CDynamicFuncIPFvP7_SAMPLEEE
-12CDynamicFuncIPFvP7_SAMPLEPKvjEE
-12CDynamicFuncIPFvP7_SAMPLEPfS2_EE
-12CDynamicFuncIPFvP7_SAMPLEPiS2_EE
-12CDynamicFuncIPFvP7_SAMPLEffEE
-12CDynamicFuncIPFvP7_SAMPLEiEE
-12CDynamicFuncIPFvP7_SAMPLEjEE
-12CDynamicFuncIPFvP7_SAMPLEjxEE
-12CDynamicFuncIPFvPFjPKcPyEPFvyEPFiyijEPFjyPvjEEE
-12CDynamicFuncIPFvPvEE
-12CDynamicFuncIPFvvEE
-12CDynamicFuncIPFxP7_SAMPLEjEE
-12CDynamicFuncIPFxjEE
-12CDynamicFuncIPFxjxEE
-12CDynamicFuncIPFyP7_SAMPLE11SAMPLESTAGEyEE
-12CDynamicFuncIPFyPKcS1_S1_S1_S1_EE
-12CDynamicFuncIPFyPvEE
-12IAudioDevice
-13CMilesLibrary
-14CUtlMemoryBase
-14IAudioSinkList
-16CAudioController
-16CMilesAudioSound
-16IDynamicFunction
-17CMilesAudioDevice
-18CUtlCharConversion
-18IAudioOutputStream
-19CUtlNoEscConversion
-20CIAudioSinkListPulse
-21CUtlCStringConversion
-23CMilesAudioOutputStream
-7CUtlMapI10CUtlSymbolPvi8CDefLessIS0_EE
-9IValidate
-?
-@../common/audio/milesaudiodevice.cpp
-AIL_allocate_sample_handle
-AIL_close_digital_driver
-AIL_digital_latency
-AIL_enumerate_filters
-AIL_file_read_info
-AIL_file_size_info
-AIL_find_filter
-AIL_get_preference
-AIL_get_timer_highest_delay
-AIL_init_sample
-AIL_last_error
-AIL_load_sample_buffer
-AIL_mem_free_lock
-AIL_minimum_sample_buffer_size
-AIL_open_generic_digital_driver
-AIL_output_oal
-AIL_platform_property
-AIL_register_EOS_callback
-AIL_release_sample_handle
-AIL_resume_sample
-AIL_sample_buffer_available
-AIL_sample_buffer_info
-AIL_sample_loop_count
-AIL_sample_mixed_ms
-AIL_sample_ms_position
-AIL_sample_stage_property
-AIL_sample_status
-AIL_sample_user_data
-AIL_sample_volume_pan
-AIL_serve
-AIL_set_file_callbacks
-AIL_set_named_sample_file
-AIL_set_preference
-AIL_set_redist_directory
-AIL_set_sample_address
-AIL_set_sample_buffer_count
-AIL_set_sample_file
-AIL_set_sample_loop_count
-AIL_set_sample_playback_rate
-AIL_set_sample_position
-AIL_set_sample_processor
-AIL_set_sample_user_data
-AIL_set_sample_volume_levels
-AIL_set_sample_volume_pan
-AIL_shutdown
-AIL_start_sample
-AIL_startup
-AIL_stop_sample
-AM
-AssertMsgImplementation
-Assertion Failed: !IsExternallyAllocated()
-Assertion Failed: !m_data.HasError()
-Assertion Failed: !pArray || (Base() >= (pArray + size)) || (pArray >= (Base() + Count()) )
-Assertion Failed: !pszString || pszString[nChars] == '\0'
-Assertion Failed: !s_bInRunFrame
-Assertion Failed: (&src < Base()) || (&src >= (Base() + Count()) )
-Assertion Failed: (&src < Base()) || (&src >= (Base() + Count()))
-Assertion Failed: (elem == Count()) || IsValidIndex(elem)
-Assertion Failed: 0
-Assertion Failed: IsText()
-Assertion Failed: IsValidIndex( elem )
-Assertion Failed: IsValidIndex(elem)
-Assertion Failed: PrepareBuffer( nNewLength ) == pstrNew
-Assertion Failed: _IsValidIndex( y, unNodeSize, pMemBase )
-Assertion Failed: buf.TellPut() < FIO_MAX_IO_BYTES
-Assertion Failed: cActualReplacements == cReplacements
-Assertion Failed: cbActual < (uint32)nBufSizeWithTerminator
-Assertion Failed: count >= 0
-Assertion Failed: cubBytesToRead < INT32_MAX
-Assertion Failed: cubData < FIO_MAX_IO_BYTES
-Assertion Failed: cubData < INT32_MAX
-Assertion Failed: existingLen < k_cchMaxString && cubInput * 2 < k_cchMaxString - existingLen
-Assertion Failed: g_VecLoadedModules[ iLoadedModules ].m_cRef > 0
-Assertion Failed: g_pFioAsyncEnqueue == NULL
-Assertion Failed: g_pFioAsyncFinalize == NULL
-Assertion Failed: info.m_pReplacementString == 0
-Assertion Failed: len > 0 || HasError()
-Assertion Failed: m_Count == 0
-Assertion Failed: m_Put >= 0
-Assertion Failed: m_TotalElements != InvalidIndex()
-Assertion Failed: m_bAsync
-Assertion Failed: m_nBytesPerSample == 2
-Assertion Failed: m_nChannels == 1 || m_nChannels == 2
-Assertion Failed: m_nCount == 0
-Assertion Failed: m_nCount == 1
-Assertion Failed: m_nCount >= 0
-Assertion Failed: m_pMemory
-Assertion Failed: m_pModule
-Assertion Failed: m_queueItemsPending.Count() == 0
-Assertion Failed: m_unSizeOfElements == mem.m_unSizeOfElements
-Assertion Failed: m_unSizeOfElements > 0
-Assertion Failed: m_vecRegisteredWriters.HasElement( pFile )
-Assertion Failed: nChannels == 1 || nChannels == 2
-Assertion Failed: nGrowSize >= 0
-Assertion Failed: nMinCapacity <= k_nMaxStringSize
-Assertion Failed: nMinCapacity > Capacity()
-Assertion Failed: nMinCapacity >= nChars
-Assertion Failed: nPut + nPutDelta <= outBuf.TellMaxPut()
-Assertion Failed: nSize >= 0
-Assertion Failed: num > 0
-Assertion Failed: numElements <= m_nAllocationCount
-Assertion Failed: numElements >= 0
-Assertion Failed: offset != INT_MIN && offset <= m_nMaxPut && -offset <= INT_MAX-m_nMaxPut
-Assertion Failed: offset >= -m_Put && offset <= INT_MAX-m_Put
-Assertion Failed: offset >= 0
-Assertion Failed: pConv && pConv->GetDelimiterLength() > 0
-Assertion Failed: pEndingDelim && pEndingDelim[0]
-Assertion Failed: pFile && !m_bExit
-Assertion Failed: pFmt
-Assertion Failed: pNode && pNode->Next == QueueEnd()
-Assertion Failed: pPool->m_SpaceUsed < 0xFFFF
-Assertion Failed: pToken
-Assertion Failed: pWatcher != NULL
-Assertion Failed: pstrDest[nNewLength] == '\0'
-Assertion Failed: pstrNew + nNewLength == pstrDestination + 1
-Assertion Failed: pstrNew == pstrDestination
-Assertion Failed: pstrNew == pszString
-Assertion Failed: ret != 0
-Assertion Failed: s_bAllowStaticSymbolTable
-Assertion Failed: strlen(pchModuleName) + V_strlen(pModuleExtension) < MAX_UNICODE_PATH_IN_UTF8
-Assertion Failed: success >= 0
-Assertion Failed: unReadAheadChunkSize < INT32_MAX/2
-Assertion failed: length > k_cchMaxString
-AudioSinkList
-Breaking '%s' in '%s'
-CDbgFmtSafeImplT<false>::CDbgFmtSafeImplT(char const*, ...)
-CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(char const*)
-CFileWriterThread
-CFileWriterThread: pending file writer %s
-CPathString
-CUtlBuffer
-CUtlBuffer::GetStringFast: binary buffers only
-CUtlBuffer::GetStringFast: no string termination
-CUtlSymbol
-CUtlSymbolTable
-CValidator::ClaimArrayMemory(void*)
-CValidator::ClaimMemory(void*)
-CValidator::IsClaimed(void*)
-CValidator::Pop()
-CValidator::Push(char const*, void*, char const*)
-CXXABI_1.3
-Calling Tell on an async file writer is unsafe, will race with thread and may corrupt file pointer.
-Capture Stream
-Couldn't write %s: %s
-CreateInterface
-CreateMilesMusicAudioDevice
-CreateMilesSoundAudioDevice
-CreateMilesVoiceAudioDevice
-DBG_PATHMATCH
-DLOPEN Error:%s
-Don't know how to check filesystem type on POSIX!
-Error
-Error State on string being set.
-Expected %lld but got %lld!
-Failed system(%s) in execute test: %s
-Failed to connect to Pulse.
-Failed to determine free disk space for %s, error %d
-Failed to open digital audio driver %s
-FreeAudioDevice
-GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
-GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
-GLIBCXX_3.4
-GLIBC_2.14
-GLIBC_2.2.5
-GLIBC_2.3
-GLIBC_2.3.4
-GLIBC_2.4
-GLIBC_2.8
-GNU
-HOME
-IVALIDATE001
-Log
-Lowered '%s' -> '%s'
-MUSIC
-Matched '%s' -> '%s'
-Msg
-PM
-PULSE_0
-Plat_FloatTime
-Plat_GetExecutablePathUTF8
-Plat_VirtualAccessFlags
-Plat_localtime
-RIB_find_files_provider
-Ramp To
-SOUND
-Seeking to a position not supported with async io
-Seeking to a position which is not sector aligned will break unbuffered io
-Server info callback failure
-Steam
-Steam - DirWatcher
-SteamRealPath
-SteamThreadTools::CThread::CThread()
-SteamThreadTools::CThread::GetThreadProc()
-SteamThreadTools::CThread::Init()
-SteamThreadTools::CThread::IsAlive() const
-SteamThreadTools::CThread::IsThreadRunning() const
-SteamThreadTools::CThread::Join(unsigned int)
-SteamThreadTools::CThread::OnExit()
-SteamThreadTools::CThread::SetName(char const*)
-SteamThreadTools::CThread::Start(unsigned long)
-SteamThreadTools::CThread::~CThread()
-SteamThreadTools::CThreadEvent::CThreadEvent(bool)
-SteamThreadTools::CThreadEvent::Set()
-SteamThreadTools::CThreadMutex::CThreadMutex()
-SteamThreadTools::CThreadMutex::~CThreadMutex()
-SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
-SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
-TMPDIR
-TSListBase_Init
-TSListBase_Pop
-TSListBase_Push
-TSListBase_SwapList
-TSListBase_UnsafePeek
-TSQueueBase_Init
-TSQueueBase_Pop
-TSQueueBase_Push
-TSQueueBase_UnsafeDummy
-TSQueueBase_UnsafePeek
-TSQueue_PopIntoFreeList
-ThreadGetCurrentProcessId
-ThreadInterlockedDecrement
-ThreadInterlockedExchange
-ThreadInterlockedExchangeAdd
-ThreadInterlockedIncrement
-ThreadSleep
-Unbuffered read should be called with cubData length that is aligned to system page size (4kb)
-Unbuffered read should be called with pvData buffer that is aligned to system page size (4kb)
-Unmatched %s
-VOICE
-V_AppendSlash
-V_ComposeFileName
-V_ExtractFilePath
-V_FixDoubleSlashes
-V_FixSlashes
-V_IsAbsolutePath
-V_MakeAbsolutePath
-V_RemoveDotSlashes
-V_RemoveDotSlashes failed for "%s".
-V_StrTrim
-V_StripFilename
-V_UTF8ToUTF32
-V_UnqualifiedFileName
-V_atoi
-V_snprintf
-V_stristr(char const*, char const*)
-V_strncat
-V_strncat_length
-V_strnchr
-V_strncmp
-V_strncpy
-V_strnicmp
-V_strnistr
-V_vsnprintf
-ValidateFileIOStatics
-Volume Ramp Filter
-Waited %u iterations in CFileWriter::Flush - m_cubOutstanding = %d
-WeakRandomUint32
-\
+__gmon_start__
+_fini
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
-_Jv_RegisterClasses
-_ZSt9terminatev@@GLIBCXX_3.4
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZdaPv@@GLIBCXX_3.4
-_ZdlPv@@GLIBCXX_3.4
-_Znam@@GLIBCXX_3.4
-_Znwm@@GLIBCXX_3.4
-__bss_start
-__ctype_b_loc
-__ctype_b_loc@@GLIBC_2.3
-__ctype_tolower_loc
-__ctype_tolower_loc@@GLIBC_2.3
-__cxa_atexit
-__cxa_atexit@@GLIBC_2.2.5
 __cxa_finalize
-__cxa_finalize@@GLIBC_2.2.5
-__cxa_guard_abort
-__cxa_guard_abort@@CXXABI_1.3
-__cxa_guard_acquire
-__cxa_guard_acquire@@CXXABI_1.3
-__cxa_guard_release
-__cxa_guard_release@@CXXABI_1.3
-__cxa_pure_virtual
-__cxa_pure_virtual@@CXXABI_1.3
-__errno_location
-__errno_location@@GLIBC_2.2.5
-__fprintf_chk
-__fprintf_chk@@GLIBC_2.3.4
-__fxstat64
-__fxstat64@@GLIBC_2.2.5
-__gmon_start__
-__gxx_personality_v0
-__gxx_personality_v0@@CXXABI_1.3
-__lxstat
-__lxstat64
-__lxstat64@@GLIBC_2.2.5
-__lxstat@@GLIBC_2.2.5
-__printf_chk
-__printf_chk@@GLIBC_2.3.4
-__pthread_key_create
-__pthread_key_create@@GLIBC_2.2.5
-__realpath_chk
-__realpath_chk@@GLIBC_2.4
-__snprintf_chk
-__snprintf_chk@@GLIBC_2.3.4
-__stack_chk_fail
-__stack_chk_fail@@GLIBC_2.4
-__vasprintf_chk
-__vasprintf_chk@@GLIBC_2.8
-__vsnprintf_chk
-__vsnprintf_chk@@GLIBC_2.3.4
-__xmknod
-__xmknod@@GLIBC_2.2.5
-__xstat
-__xstat64
-__xstat64@@GLIBC_2.2.5
-__xstat@@GLIBC_2.2.5
-_edata
-_end
-_fini
-_init
-_strlwr
-abort@@GLIBC_2.2.5
-access
-access@@GLIBC_2.2.5
-alcCloseDevice
-alcCreateContext
-alcDestroyContext
-alcMakeContextCurrent
-alcOpenDevice
-alcSuspendContext
-alphasort64
-alphasort64@@GLIBC_2.2.5
-application.icon_name
-application.id
-application.name
-application.version
-bin64
-chmod
-chmod@@GLIBC_2.2.5
-chown@@GLIBC_2.2.5
-close@@GLIBC_2.2.5
-closedir
-closedir@@GLIBC_2.2.5
-device.description
-dl_iterate_phdr
-dl_iterate_phdr@@GLIBC_2.2.5
-dlclose
-dlclose@@GLIBC_2.2.5
-dlerror
-dlerror@@GLIBC_2.2.5
-dlmopen
-dlmopen@@GLIBC_2.3.4
-dlopen
-dlopen@@GLIBC_2.2.5
-dlsym
-dlsym@@GLIBC_2.2.5
-endmntent
-endmntent@@GLIBC_2.2.5
-failed to load miles library
-false
-fclose
-fclose@@GLIBC_2.2.5
-fcntl
-fcntl@@GLIBC_2.2.5
-fdatasync
-fdatasync@@GLIBC_2.2.5
-fflush
-fflush@@GLIBC_2.2.5
-fopen
-fopen64
-fopen64@@GLIBC_2.2.5
-fopen@@GLIBC_2.2.5
-fread
-fread@@GLIBC_2.2.5
-free@@GLIBC_2.2.5
-freopen
-freopen@@GLIBC_2.2.5
-ftruncate64
-ftruncate64@@GLIBC_2.2.5
-futimes
-futimes@@GLIBC_2.3
-fwrite
-fwrite@@GLIBC_2.2.5
-g_VecLoadedModules
-g_pMemAllocSteam
-getcwd
-getcwd@@GLIBC_2.2.5
-getenv
-getenv@@GLIBC_2.2.5
-getmntent
-getmntent@@GLIBC_2.2.5
-hdmi
-isspace
-isspace@@GLIBC_2.2.5
-lchown
-lchown@@GLIBC_2.2.5
-ld-linux-x86-64.so.2
-libc.so.6
-libdl.so.2
-libm.so.6
-libmiles.so
-libopenal.so.1
-libpthread.so.0
-libpulse.so.0
-libstdc++.so.6
-libtier0_vr.so
-libvstdlib_vr.so
-link@@GLIBC_2.2.5
-lseek64
-lseek64@@GLIBC_2.2.5
-m_Elements
-m_Lookup
-m_Memory
-m_StringPools
-m_Tree
-m_buffer
-m_listChangedFiles
-m_listChangedFiles[i]
-m_mapFileTimes
-m_mapSoundImages
-m_pthreadWatcher
-m_strDirectory
-m_strFileName
-m_strUniqueName
-m_vecAudioDeviceListeners
-m_vecAudioOutputStreams
-m_vecAudioSounds
-m_vecDevices
-m_vecDevices[i]
-m_vecRegisteredWriters
-malloc
-malloc@@GLIBC_2.2.5
-memcpy
-memcpy@@GLIBC_2.14
-memmove
-memmove@@GLIBC_2.2.5
-memset
-memset@@GLIBC_2.2.5
-mkdir
-mkdir@@GLIBC_2.2.5
-mkfifo
-mkfifo@@GLIBC_2.2.5
-mktemp
-mktemp@@GLIBC_2.2.5
-mmap64
-mmap64@@GLIBC_2.2.5
-mount
-mount@@GLIBC_2.2.5
-msync
-msync@@GLIBC_2.2.5
-munmap
-munmap@@GLIBC_2.2.5
-nBytesItem is %d in UtlMemory_CalcNewAllocationCount
-open64@@GLIBC_2.2.5
-open@@GLIBC_2.2.5
-opendir
-opendir@@GLIBC_2.2.5
-operator delete(void*)
-operator delete[](void*)
+_Jv_RegisterClasses
+Plat_FloatTime
 operator new(unsigned long)
-operator new[](unsigned long)
-org.valvesoftware.steam
-pa_context_connect
-pa_context_connect@@PULSE_0
-pa_context_errno
-pa_context_errno@@PULSE_0
-pa_context_get_card_info_by_index
-pa_context_get_card_info_by_index() failed
-pa_context_get_card_info_by_index@@PULSE_0
-pa_context_get_card_info_list
-pa_context_get_card_info_list() failed
-pa_context_get_card_info_list@@PULSE_0
-pa_context_get_client_info
-pa_context_get_client_info() failed
-pa_context_get_client_info@@PULSE_0
-pa_context_get_server_info
-pa_context_get_server_info() failed
-pa_context_get_server_info@@PULSE_0
-pa_context_get_sink_info_by_index
-pa_context_get_sink_info_by_index() failed
-pa_context_get_sink_info_by_index@@PULSE_0
-pa_context_get_sink_info_list
-pa_context_get_sink_info_list() failed
-pa_context_get_sink_info_list@@PULSE_0
-pa_context_get_sink_input_info
-pa_context_get_sink_input_info() failed
-pa_context_get_sink_input_info@@PULSE_0
-pa_context_get_sink_input_info_list
-pa_context_get_sink_input_info_list() failed
-pa_context_get_sink_input_info_list@@PULSE_0
-pa_context_get_source_info_by_index
-pa_context_get_source_info_by_index() failed
-pa_context_get_source_info_by_index@@PULSE_0
-pa_context_get_source_info_list
-pa_context_get_source_info_list() failed
-pa_context_get_source_info_list@@PULSE_0
-pa_context_get_source_output_info
-pa_context_get_source_output_info() failed
-pa_context_get_source_output_info@@PULSE_0
-pa_context_get_source_output_info_list
-pa_context_get_source_output_info_list() failed
-pa_context_get_source_output_info_list@@PULSE_0
-pa_context_get_state
-pa_context_get_state@@PULSE_0
-pa_context_move_sink_input_by_index
-pa_context_move_sink_input_by_index failed
-pa_context_move_sink_input_by_index() failed
-pa_context_move_sink_input_by_index@@PULSE_0
-pa_context_move_source_output_by_index
-pa_context_move_source_output_by_index failed
-pa_context_move_source_output_by_index@@PULSE_0
-pa_context_new_with_proplist
-pa_context_new_with_proplist@@PULSE_0
-pa_context_set_card_profile_by_index
-pa_context_set_card_profile_by_index() failed
-pa_context_set_card_profile_by_index@@PULSE_0
-pa_context_set_default_sink
-pa_context_set_default_sink() failed
-pa_context_set_default_sink@@PULSE_0
-pa_context_set_default_source
-pa_context_set_default_source@@PULSE_0
-pa_context_set_sink_mute_by_index
-pa_context_set_sink_mute_by_index() failed
-pa_context_set_sink_mute_by_index@@PULSE_0
-pa_context_set_sink_port_by_index
-pa_context_set_sink_port_by_index() failed
-pa_context_set_sink_port_by_index@@PULSE_0
-pa_context_set_sink_port_by_name
-pa_context_set_sink_port_by_name() failed
-pa_context_set_sink_port_by_name@@PULSE_0
-pa_context_set_sink_volume_by_index
-pa_context_set_sink_volume_by_index() failed
-pa_context_set_sink_volume_by_index@@PULSE_0
-pa_context_set_source_mute_by_index
-pa_context_set_source_mute_by_index@@PULSE_0
-pa_context_set_source_port_by_index
-pa_context_set_source_port_by_index@@PULSE_0
-pa_context_set_source_volume_by_index
-pa_context_set_source_volume_by_index@@PULSE_0
-pa_context_set_state_callback
-pa_context_set_state_callback@@PULSE_0
-pa_context_set_subscribe_callback
-pa_context_set_subscribe_callback@@PULSE_0
-pa_context_subscribe
-pa_context_subscribe() failed
-pa_context_subscribe@@PULSE_0
+operator delete(void*)
+__gxx_personality_v0
+alcMakeContextCurrent
+alcSuspendContext
+alcDestroyContext
+alcCloseDevice
+memmove
+AssertMsgImplementation
+AudioSinkList
+alcOpenDevice
+alcCreateContext
+SteamRealPath
+__stack_chk_fail
+CValidator::Push(char const*, void*, char const*)
+CValidator::IsClaimed(void*)
+CValidator::Pop()
+CValidator::ClaimMemory(void*)
+CreateMilesSoundAudioDevice
+CreateMilesMusicAudioDevice
+CreateMilesVoiceAudioDevice
+FreeAudioDevice
 pa_context_unref
-pa_context_unref@@PULSE_0
-pa_cvolume_init
-pa_cvolume_init@@PULSE_0
-pa_cvolume_set
-pa_cvolume_set@@PULSE_0
-pa_ext_device_restore_read_formats
-pa_ext_device_restore_read_formats@@PULSE_0
-pa_ext_device_restore_read_formats_all
-pa_ext_device_restore_read_formats_all() failed
-pa_ext_device_restore_read_formats_all@@PULSE_0
-pa_ext_device_restore_read_sink_formats() failed
-pa_ext_device_restore_save_formats
-pa_ext_device_restore_save_formats@@PULSE_0
-pa_ext_device_restore_save_sink_formats() failed
-pa_ext_device_restore_set_subscribe_cb
-pa_ext_device_restore_set_subscribe_cb@@PULSE_0
-pa_ext_device_restore_subscribe
-pa_ext_device_restore_subscribe() failed
-pa_ext_device_restore_subscribe@@PULSE_0
-pa_format_info_new
-pa_format_info_new@@PULSE_0
-pa_operation_unref
-pa_operation_unref@@PULSE_0
-pa_proplist_free
-pa_proplist_free@@PULSE_0
-pa_proplist_gets
-pa_proplist_gets@@PULSE_0
-pa_proplist_new
-pa_proplist_new@@PULSE_0
-pa_proplist_sets
-pa_proplist_sets@@PULSE_0
-pa_threaded_mainloop_free
-pa_threaded_mainloop_free@@PULSE_0
-pa_threaded_mainloop_get_api
-pa_threaded_mainloop_get_api@@PULSE_0
-pa_threaded_mainloop_in_thread
-pa_threaded_mainloop_in_thread@@PULSE_0
-pa_threaded_mainloop_lock
-pa_threaded_mainloop_lock@@PULSE_0
-pa_threaded_mainloop_new
-pa_threaded_mainloop_new@@PULSE_0
-pa_threaded_mainloop_start
-pa_threaded_mainloop_start@@PULSE_0
 pa_threaded_mainloop_stop
-pa_threaded_mainloop_stop@@PULSE_0
-pa_threaded_mainloop_unlock
-pa_threaded_mainloop_unlock@@PULSE_0
-pm
-posix_fadvise
-posix_fadvise@@GLIBC_2.2.5
-pread64
-pread64@@GLIBC_2.2.5
+pa_threaded_mainloop_free
 pthread_mutex_lock
-pthread_mutex_lock@@GLIBC_2.2.5
 pthread_mutex_unlock
-pthread_mutex_unlock@@GLIBC_2.2.5
-pthread_once
-pthread_once@@GLIBC_2.2.5
-pwrite64
-pwrite64@@GLIBC_2.2.5
-rb
-read@@GLIBC_2.2.5
-readdir64
-readdir64@@GLIBC_2.2.5
-readlink
-readlink@@GLIBC_2.2.5
-realloc
-realloc@@GLIBC_2.2.5
-realpath
-realpath@@GLIBC_2.3
-rename
-rename@@GLIBC_2.2.5
-rmdir
-rmdir@@GLIBC_2.2.5
-s_pAudioController
-s_pSymbolTable
-scandir
-scandir64
-scandir64@@GLIBC_2.2.5
-scandir@@GLIBC_2.2.5
-sched_yield
-sched_yield@@GLIBC_2.2.5
-sendfile64
-sendfile64@@GLIBC_2.3
-setmntent
-setmntent@@GLIBC_2.2.5
-static_cast<Node_t*>(pNode)->elem
-statvfs
-statvfs64
-statvfs64@@GLIBC_2.2.5
-statvfs@@GLIBC_2.2.5
-std::terminate()
-stderr
-stderr@@GLIBC_2.2.5
-strcasecmp
-strcasecmp@@GLIBC_2.2.5
-strcasestr
-strcasestr@@GLIBC_2.2.5
-strchr
-strchr@@GLIBC_2.2.5
 strcmp
-strcmp@@GLIBC_2.2.5
-strdup
-strdup@@GLIBC_2.2.5
-strerror
-strerror@@GLIBC_2.2.5
-strftime
-strftime@@GLIBC_2.2.5
+V_stristr(char const*, char const*)
+g_pMemAllocSteam
+pa_threaded_mainloop_in_thread
+pa_ext_device_restore_read_formats
+pa_operation_unref
+pa_threaded_mainloop_unlock
+pa_threaded_mainloop_lock
 strlen
-strlen@@GLIBC_2.2.5
-strncasecmp
-strncasecmp@@GLIBC_2.2.5
-strncpy@@GLIBC_2.2.5
-strpbrk
-strpbrk@@GLIBC_2.2.5
-strrchr
-strrchr@@GLIBC_2.2.5
-strstr
-strstr@@GLIBC_2.2.5
-strtod
-strtod@@GLIBC_2.2.5
-strtol
-strtol@@GLIBC_2.2.5
-strtoul
-strtoul@@GLIBC_2.2.5
-symlink
-symlink@@GLIBC_2.2.5
-system
-system@@GLIBC_2.2.5
-time@@GLIBC_2.2.5
-toupper
-toupper@@GLIBC_2.2.5
-true
-trunc
-trunc@@GLIBC_2.2.5
-typeinfo for SteamThreadTools::CThread
-unReadAheadChunkSize should be zero when using bUnbuffered = true
-unlink
-unlink@@GLIBC_2.2.5
-unsupported flags 0x%x passed to CFileReader::BOpenFile
-usleep
-usleep@@GLIBC_2.2.5
-utime
-utime@@GLIBC_2.2.5
-utimes@@GLIBC_2.2.5
+memcpy
+pa_threaded_mainloop_new
+pa_threaded_mainloop_start
+pa_threaded_mainloop_get_api
+pa_proplist_new
+pa_proplist_sets
+pa_context_new_with_proplist
+pa_proplist_free
+pa_context_set_state_callback
+pa_context_connect
+pa_context_errno
+TSListBase_Push
+pa_context_set_card_profile_by_index
+pa_context_set_sink_mute_by_index
+pa_cvolume_init
+pa_cvolume_set
+pa_context_set_sink_volume_by_index
+pa_context_set_source_mute_by_index
+pa_context_set_source_volume_by_index
+pa_context_get_state
+pa_context_set_subscribe_callback
+pa_context_subscribe
+pa_context_get_server_info
+pa_context_get_card_info_list
+pa_context_get_sink_info_list
+pa_context_get_source_info_list
+pa_context_get_sink_input_info_list
+pa_context_get_source_output_info_list
+pa_ext_device_restore_read_formats_all
+pa_ext_device_restore_set_subscribe_cb
+pa_ext_device_restore_subscribe
+SteamThreadTools::CThreadMutex::~CThreadMutex()
+TSListBase_SwapList
+TSListBase_Pop
+pa_context_set_default_sink
+pa_context_set_sink_port_by_name
+pa_context_move_sink_input_by_index
+CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(char const*)
+pa_context_set_sink_port_by_index
+pa_context_set_source_port_by_index
+pa_format_info_new
+pa_ext_device_restore_save_formats
+pa_context_move_source_output_by_index
+pa_context_set_default_source
+TSListBase_Init
+SteamThreadTools::CThreadMutex::CThreadMutex()
+__cxa_guard_acquire
+__cxa_guard_release
+__cxa_atexit
+__cxa_guard_abort
+pa_context_get_client_info
+pa_context_get_card_info_by_index
+pa_context_get_sink_info_by_index
+pa_context_get_source_info_by_index
+pa_context_get_sink_input_info
+pa_context_get_source_output_info
+pa_proplist_gets
+V_strnicmp
 vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
-w
-w+
-wa+
+__cxa_pure_virtual
+CValidator::ClaimArrayMemory(void*)
+memset
+trunc
+operator new[](unsigned long)
+getenv
+__snprintf_chk
+__realpath_chk
+readlink
+TSListBase_UnsafePeek
+TSQueueBase_UnsafeDummy
+TSQueueBase_UnsafePeek
+toupper
+V_IsAbsolutePath
+getcwd
+V_strncat_length
+operator delete[](void*)
+V_RemoveDotSlashes
+CDbgFmtSafeImplT<false>::CDbgFmtSafeImplT(char const*, ...)
+V_FixDoubleSlashes
+SteamThreadTools::CThreadEvent::Set()
+SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
+ThreadInterlockedDecrement
+TSQueueBase_Pop
+SteamThreadTools::CThread::~CThread()
+V_UTF8ToUTF32
+posix_fadvise
+__errno_location
+pread64
+pwrite64
+lseek64
+__fxstat64
+ftruncate64
+fdatasync
+Plat_VirtualAccessFlags
+mmap64
+munmap
+msync
+mktemp
+fread
+fclose
+Plat_localtime
+strftime
+V_snprintf
+sendfile64
+V_StripFilename
+WeakRandomUint32
+fwrite
+fflush
+SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
+TSQueue_PopIntoFreeList
+ThreadInterlockedExchange
+ThreadInterlockedExchangeAdd
+ThreadGetCurrentProcessId
+V_ExtractFilePath
+readdir64
+V_strncat
+closedir
+setmntent
+getmntent
+endmntent
+V_ComposeFileName
+system
+strerror
+stderr
+__fprintf_chk
+fcntl
+V_atoi
+Plat_GetExecutablePathUTF8
+V_AppendSlash
+usleep
+sched_yield
+futimes
+V_strncpy
+strrchr
+alphasort64
+strcasecmp
+SteamThreadTools::CThread::Join(unsigned int)
+Error
+ThreadSleep
+V_MakeAbsolutePath
+SteamThreadTools::CThread::CThread()
+TSQueueBase_Init
+SteamThreadTools::CThreadEvent::CThreadEvent(bool)
+SteamThreadTools::CThread::SetName(char const*)
+V_UnqualifiedFileName
+TSQueueBase_Push
+ThreadInterlockedIncrement
+SteamThreadTools::CThread::IsAlive() const
+SteamThreadTools::CThread::Start(unsigned long)
+__vsnprintf_chk
+std::terminate()
+typeinfo for SteamThreadTools::CThread
+SteamThreadTools::CThread::Init()
+SteamThreadTools::CThread::OnExit()
+SteamThreadTools::CThread::IsThreadRunning() const
+SteamThreadTools::CThread::GetThreadProc()
+CreateInterface
+dlclose
+dlerror
+__printf_chk
+dlsym
+V_FixSlashes
+realpath
+realloc
+strdup
+access
+opendir
+strncasecmp
+__ctype_tolower_loc
+strcasestr
+strpbrk
+freopen
+fopen
+fopen64
+scandir
+scandir64
+__xstat
+__lxstat
+__xstat64
+__lxstat64
+statvfs
+statvfs64
+chmod
+lchown
+symlink
+mount
+unlink
+mkfifo
+rename
+utime
+mkdir
+rmdir
+dlopen
+dlmopen
+__ctype_b_loc
+V_strncmp
+V_strnistr
+strchr
+V_vsnprintf
+V_strnchr
+strtol
+strtoul
+strtod
+strstr
+isspace
+V_StrTrim
+__vasprintf_chk
+_strlwr
+libtier0_vr.so
+libvstdlib_vr.so
+libpulse.so.0
+libopenal.so.1
+libdl.so.2
+libstdc++.so.6
+libpthread.so.0
+ld-linux-x86-64.so.2
+libm.so.6
+__pthread_key_create
+pthread_once
+malloc
+dl_iterate_phdr
+libc.so.6
+__xmknod
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBCXX_3.4
+CXXABI_1.3
+PULSE_0
+GLIBC_2.8
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.3
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlvector.h
+Assertion Failed: (&src < Base()) || (&src >= (Base() + Count()) )
+Assertion Failed: (elem == Count()) || IsValidIndex(elem)
+../common/audio/audiocontroller.cpp
+!! Last miles service delay: %u\n
+m_vecDevices
+m_mapSoundImages
+m_Tree
+m_Elements
+m_Memory
+m_vecDevices[i]
+16CAudioController
+7CUtlMapI10CUtlSymbolPvi8CDefLessIS0_EE
+10CUtlVectorIP17CMilesAudioDevice10CUtlMemoryIS1_EE
+10CUtlRBTreeIN7CUtlMapI10CUtlSymbolPvi8CDefLessIS1_EE6Node_tEiNS5_8CKeyLessE25CDefRBTreeBalanceListenerIiEE
+../common/audio/audiosink_pulse.cpp
+Assertion Failed: !s_bInRunFrame
+Assertion Failed: success >= 0
+pa_ext_device_restore_read_sink_formats() failed
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlstring.h
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/tslist.h
+pa_context_set_card_profile_by_index() failed
+pa_context_set_sink_mute_by_index() failed
+pa_context_set_sink_volume_by_index() failed
+Assertion Failed: (&src < Base()) || (&src >= (Base() + Count()))
+pa_context_get_server_info() failed
+pa_context_get_card_info_list() failed
+pa_context_get_sink_info_list() failed
+pa_context_get_source_info_list() failed
+pa_context_get_sink_input_info_list() failed
+pa_context_get_source_output_info_list() failed
+pa_ext_device_restore_read_formats_all() failed
+pa_ext_device_restore_subscribe() failed
+pa_context_set_default_sink() failed
+pa_context_set_sink_port_by_name() failed
+pa_context_move_sink_input_by_index failed
+pa_context_set_sink_port_by_index() failed
+pa_ext_device_restore_save_sink_formats() failed
+pa_context_move_sink_input_by_index() failed
+pa_context_move_source_output_by_index failed
+Assertion Failed: !pArray || (Base() >= (pArray + size)) || (pArray >= (Base() + Count()) )
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlrbtree.h
+Assertion Failed: IsValidIndex( elem )
+Assertion Failed: _IsValidIndex( y, unNodeSize, pMemBase )
+pa_context_get_sink_info_by_index() failed
+pa_context_get_source_info_by_index() failed
+pa_context_get_sink_input_info() failed
+pa_context_get_source_output_info() failed
+pa_context_get_client_info() failed
+pa_context_get_card_info_by_index() failed
+hdmi
+Steam
+application.name
+org.valvesoftware.steam
+application.id
+application.icon_name
+1.0.0
+application.version
+Failed to connect to Pulse.
+Server info callback failure
+pa_context_subscribe() failed
+Assertion Failed: count >= 0
+device.description
+Capture Stream
+14IAudioSinkList
+20CIAudioSinkListPulse
+@../common/audio/milesaudiodevice.cpp
+Assertion Failed: m_nChannels == 1 || m_nChannels == 2
+Failed to open digital audio driver %s\n
+( CMilesAudioSound * ) m_vecAudioSounds[i]
+( CMilesAudioOutputStream * ) m_vecAudioOutputStreams[i]
+MUSIC
+SOUND
+VOICE
+(%s%d)
+m_strUniqueName
+m_vecAudioDeviceListeners
+m_vecAudioSounds
+m_vecAudioOutputStreams
+m_strFileName
+12IAudioDevice
+10CUtlString
+17CMilesAudioDevice
+10CUtlVectorIP20IAudioDeviceListener10CUtlMemoryIS1_EE
+10CUtlVectorIP11IAudioSound10CUtlMemoryIS1_EE
+10CUtlVectorIP18IAudioOutputStream10CUtlMemoryIS1_EE
+?../common/audio/milesaudiooutputstream.cpp
+Assertion Failed: nChannels == 1 || nChannels == 2
+Assertion Failed: m_nBytesPerSample == 2
+18IAudioOutputStream
+23CMilesAudioOutputStream
+?333333
+?Ramp Time
+Ramp To
+.mp3
+Volume Ramp Filter
+../common/audio/milesaudiosound.cpp
+Assertion Failed: m_nCount == 1
+Assertion Failed: m_nCount >= 0
+Assertion Failed: m_nCount == 0
+11IAudioSound
+16CMilesAudioSound
+MilesLoader
+s_pAudioController
+CUtlSymbol
+libmiles.so
+Assertion Failed: m_pModule
+HOME
+%s/.steam/%s
+bin64
+failed to load miles library
+AIL_startup
+AIL_shutdown
+AIL_set_file_callbacks
+AIL_output_oal
+AIL_close_digital_driver
+AIL_set_redist_directory
+AIL_mem_free_lock
+AIL_serve
+AIL_get_timer_highest_delay
+AIL_last_error
+AIL_get_preference
+AIL_set_preference
+AIL_digital_latency
+AIL_sample_buffer_available
+AIL_allocate_sample_handle
+AIL_init_sample
+AIL_release_sample_handle
+AIL_load_sample_buffer
+AIL_sample_status
+AIL_set_sample_address
+AIL_set_sample_user_data
+AIL_set_sample_playback_rate
+AIL_set_sample_buffer_count
+AIL_set_sample_processor
+AIL_set_sample_volume_pan
+AIL_set_sample_loop_count
+AIL_sample_user_data
+AIL_sample_buffer_info
+AIL_sample_mixed_ms
+AIL_sample_loop_count
+AIL_sample_ms_position
+AIL_register_EOS_callback
+AIL_start_sample
+AIL_resume_sample
+AIL_stop_sample
+AIL_set_named_sample_file
+AIL_set_sample_file
+AIL_find_filter
+AIL_sample_stage_property
+AIL_file_read_info
+RIB_find_files_provider
+AIL_platform_property
+AIL_file_size_info
+AIL_set_sample_volume_levels
+AIL_sample_volume_pan
+AIL_enumerate_filters
+AIL_set_sample_position
+IVALIDATE001
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/interface.h
+../common/audio/mileswrapper.cpp
+AIL_open_generic_digital_driver
+AIL_minimum_sample_buffer_size
+9IValidate
+16IDynamicFunction
+12CDynamicFuncIPFvvEE
+12CDynamicFuncIPFvPFjPKcPyEPFvyEPFiyijEPFjyPvjEEE
+12CDynamicFuncIPFyPvEE
+12CDynamicFuncIPFP11_DIG_DRIVERjiijyEE
+12CDynamicFuncIPFvP11_DIG_DRIVEREE
+12CDynamicFuncIPFPcPKcEE
+12CDynamicFuncIPFvPvEE
+12CDynamicFuncIPFjvEE
+12CDynamicFuncIPFPcvEE
+12CDynamicFuncIPFxjEE
+12CDynamicFuncIPFxjxEE
+12CDynamicFuncIPFiP11_DIG_DRIVEREE
+12CDynamicFuncIPFiP7_SAMPLEEE
+12CDynamicFuncIPFP7_SAMPLEP11_DIG_DRIVEREE
+12CDynamicFuncIPFiP7_SAMPLEiEE
+12CDynamicFuncIPFvP7_SAMPLEEE
+12CDynamicFuncIPFiP7_SAMPLEiPKvjEE
+12CDynamicFuncIPFjP7_SAMPLEEE
+12CDynamicFuncIPFvP7_SAMPLEPKvjEE
+12CDynamicFuncIPFvP7_SAMPLEjxEE
+12CDynamicFuncIPFvP7_SAMPLEiEE
+12CDynamicFuncIPFyP7_SAMPLE11SAMPLESTAGEyEE
+12CDynamicFuncIPFvP7_SAMPLEffEE
+12CDynamicFuncIPFiP11_DIG_DRIVERiiEE
+12CDynamicFuncIPFxP7_SAMPLEjEE
+12CDynamicFuncIPFiP7_SAMPLEiPjS2_PiS3_EE
+12CDynamicFuncIPFvP7_SAMPLEPiS2_EE
+12CDynamicFuncIPFPFvP7_SAMPLEES1_S3_EE
+12CDynamicFuncIPFiP7_SAMPLEPKcPKvjiEE
+12CDynamicFuncIPFiP7_SAMPLEPKviEE
+12CDynamicFuncIPFiPcPyEE
+12CDynamicFuncIPFiP7_SAMPLE11SAMPLESTAGEPKciPvPKvS5_EE
+12CDynamicFuncIPFPvPKcS0_S2_jEE
+12CDynamicFuncIPFyPKcS1_S1_S1_S1_EE
+12CDynamicFuncIPFiPv21MSS_PLATFORM_PROPERTYS0_PKvS0_EE
+12CDynamicFuncIPFiPKcS1_jEE
+12CDynamicFuncIPFvP7_SAMPLEPfS2_EE
+12CDynamicFuncIPFiPxPyPPcEE
+12CDynamicFuncIPFvP7_SAMPLEjEE
+13CMilesLibrary
+12CDLLValidate
+CPathString
+m_buffer
+CUtlBuffer
+m_vecRegisteredWriters
+../tier1/fileio.cpp
+Assertion Failed: ret != 0
+/tmp
+TMPDIR
+%s/%s
+%d%s
+%d:00
+%A %b %d
+%s%c.temp_write_%x
+%s.async%u.tmp
+/dev
+/proc/mounts
+/etc/mtab
+.steam_exec_test.sh
+#!/bin/sh\nexit 0\n
+"%s"
+Couldn't write %s: %s\n
+Assertion Failed: IsText()
+%s%c%s
+%s overflow!\n
+m_listChangedFiles
+m_strDirectory
+m_listChangedFiles[i]
+m_mapFileTimes
+m_pthreadWatcher
+CFileWriterThread
+Assertion Failed: m_bAsync
+ValidateFileIOStatics
+Steam - DirWatcher
+static_cast<Node_t*>(pNode)->elem
+V_RemoveDotSlashes failed for "%s".
+Assertion Failed: m_queueItemsPending.Count() == 0
+CFileWriterThread: pending file writer %s
+Assertion Failed: m_Count == 0
+Assertion Failed: pNode && pNode->Next == QueueEnd()
+Assertion Failed: g_pFioAsyncEnqueue == NULL
+Assertion Failed: g_pFioAsyncFinalize == NULL
+Failed to determine free disk space for %s, error %d
+Don't know how to check filesystem type on POSIX!
+Failed system(%s) in execute test: %s\n
+unReadAheadChunkSize should be zero when using bUnbuffered = true
+Assertion Failed: unReadAheadChunkSize < INT32_MAX/2
+unsupported flags 0x%x passed to CFileReader::BOpenFile
+Assertion Failed: cubBytesToRead < INT32_MAX
+Unbuffered read should be called with pvData buffer that is aligned to system page size (4kb)
+Unbuffered read should be called with cubData length that is aligned to system page size (4kb)
+Seeking to a position which is not sector aligned will break unbuffered io
+Assertion Failed: cbActual < (uint32)nBufSizeWithTerminator
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utlbuffer.h
+Seeking to a position not supported with async io
+Calling Tell on an async file writer is unsafe, will race with thread and may corrupt file pointer.
+/home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier1/utllinkedlist.h
+Assertion Failed: m_TotalElements != InvalidIndex()
+Assertion Failed: IsValidIndex(elem)
+Assertion Failed: buf.TellPut() < FIO_MAX_IO_BYTES
+Assertion Failed: pFile && !m_bExit
+Assertion Failed: cubData < INT32_MAX
+Assertion Failed: cubData < FIO_MAX_IO_BYTES
+Assertion Failed: m_vecRegisteredWriters.HasElement( pFile )
+Waited %u iterations in CFileWriter::Flush - m_cubOutstanding = %d
+Assertion Failed: pWatcher != NULL
+11CPathString
+DLOPEN Error:%s\n
+../tier1/interface.cpp
+.cpl
+%s%s
+g_VecLoadedModules
+CreateInterface
+Assertion Failed: strlen(pchModuleName) + V_strlen(pModuleExtension) < MAX_UNICODE_PATH_IN_UTF8
+Assertion Failed: g_VecLoadedModules[ iLoadedModules ].m_cRef > 0
+%s/.steam/steam
+true
+false 
+(%zu) Descend: %s, (%s), %s\n
+\t(%zu) comparing %s with %s\n
+DBG_PATHMATCH
+Lowered '%s' -> '%s'\n
+Breaking '%s' in '%s'\n
+Matched '%s' -> '%s'\n
+Unmatched %s\n
+(%zu) readdir failed to find '%s' in '%s'\n
+../tier1/utlbuffer.cpp
+Assertion Failed: m_Put >= 0
+Assertion Failed: pToken
+Assertion Failed: nSize >= 0
+Assertion Failed: offset >= 0
+%llu
+%lld
+%.18g
+Expected %lld but got %lld!
+Assertion Failed: pFmt
+Assertion Failed: 0
+Assertion Failed: info.m_pReplacementString == 0
+CUtlBuffer::GetStringFast: binary buffers only
+CUtlBuffer::GetStringFast: no string termination
+Assertion Failed: pEndingDelim && pEndingDelim[0]
+Assertion Failed: offset >= -m_Put && offset <= INT_MAX-m_Put
+Assertion Failed: offset != INT_MIN && offset <= m_nMaxPut && -offset <= INT_MAX-m_nMaxPut
+Assertion Failed: nPut + nPutDelta <= outBuf.TellMaxPut()
+Assertion Failed: pConv && pConv->GetDelimiterLength() > 0
+18CUtlCharConversion
+21CUtlCStringConversion
+19CUtlNoEscConversion
+../tier1/utlmemory.cpp
+Assertion Failed: num > 0
+Assertion Failed: m_pMemory
+Assertion Failed: m_unSizeOfElements > 0
+Assertion Failed: nGrowSize >= 0
+Assertion Failed: m_unSizeOfElements == mem.m_unSizeOfElements
+Assertion Failed: !IsExternallyAllocated()
+nBytesItem is %d in UtlMemory_CalcNewAllocationCount
+Assertion Failed: numElements >= 0
+Assertion Failed: numElements <= m_nAllocationCount
+14CUtlMemoryBase
+../tier1/utlstring.cpp
+0123456789abcdef
+0123456789ABCDEF
+Assertion Failed: pstrNew + nNewLength == pstrDestination + 1
+Assertion Failed: cActualReplacements == cReplacements
+Assertion failed: length > k_cchMaxString
+Assertion Failed: existingLen < k_cchMaxString && cubInput * 2 < k_cchMaxString - existingLen
+Assertion Failed: pstrDest[nNewLength] == '\0'
+Error State on string being set.
+Assertion Failed: nMinCapacity > Capacity()
+Assertion Failed: nMinCapacity >= nChars
+Assertion Failed: nMinCapacity <= k_nMaxStringSize
+Assertion Failed: !pszString || pszString[nChars] == '\0'
+Assertion Failed: len > 0 || HasError()
+Assertion Failed: pstrNew == pszString
+Assertion Failed: pstrNew == pstrDestination
+Assertion Failed: PrepareBuffer( nNewLength ) == pstrNew
+Assertion Failed: !m_data.HasError()
+s_pSymbolTable
+CUtlSymbolTable
+m_StringPools
+m_Lookup
+../tier1/utlsymbol.cpp
+Assertion Failed: pPool->m_SpaceUsed < 0xFFFF
+Assertion Failed: s_bAllowStaticSymbolTable
+10CUtlVectorIPN15CUtlSymbolTable12StringPool_tE10CUtlMemoryIS2_EE
+10CUtlRBTreeIN15CUtlSymbolTable16CStringPoolIndexEtNS0_5CLessE25CDefRBTreeBalanceListenerItEE
+chmod@@GLIBC_2.2.5
+pa_context_get_server_info@@PULSE_0
+setmntent@@GLIBC_2.2.5
+mount@@GLIBC_2.2.5
+symlink@@GLIBC_2.2.5
+pa_ext_device_restore_subscribe@@PULSE_0
+endmntent@@GLIBC_2.2.5
+Plat_localtime
+strcasestr@@GLIBC_2.2.5
+V_FixDoubleSlashes
+WeakRandomUint32
+alcCreateContext
+memset@@GLIBC_2.2.5
+ThreadGetCurrentProcessId
+pa_context_get_source_info_by_index@@PULSE_0
+mmap64@@GLIBC_2.2.5
+V_UnqualifiedFileName
+pa_context_get_sink_info_list@@PULSE_0
+close@@GLIBC_2.2.5
+V_strncmp
+TSListBase_SwapList
+utime@@GLIBC_2.2.5
+abort@@GLIBC_2.2.5
+pa_context_set_sink_port_by_index@@PULSE_0
+__cxa_guard_acquire@@CXXABI_1.3
+__fprintf_chk@@GLIBC_2.3.4
+utimes@@GLIBC_2.2.5
+FreeAudioDevice
+CValidator::Pop()
+pa_context_get_source_info_list@@PULSE_0
+__gmon_start__
+_Jv_RegisterClasses
+_Znam@@GLIBCXX_3.4
+V_ExtractFilePath
+pa_context_get_sink_input_info@@PULSE_0
+_ZdlPv@@GLIBCXX_3.4
+alcCloseDevice
+toupper@@GLIBC_2.2.5
+alcOpenDevice
+__printf_chk@@GLIBC_2.3.4
+pa_context_get_source_output_info@@PULSE_0
+strcasecmp@@GLIBC_2.2.5
+_fini
+V_atoi
+V_MakeAbsolutePath
+strpbrk@@GLIBC_2.2.5
+V_StripFilename
+pa_format_info_new@@PULSE_0
+TSQueue_PopIntoFreeList
+read@@GLIBC_2.2.5
+SteamThreadTools::CThreadEvent::Set()
+getmntent@@GLIBC_2.2.5
+malloc@@GLIBC_2.2.5
+fopen@@GLIBC_2.2.5
+pa_threaded_mainloop_stop@@PULSE_0
+system@@GLIBC_2.2.5
+pa_context_move_source_output_by_index@@PULSE_0
+SteamThreadTools::CThread::~CThread()
+unlink@@GLIBC_2.2.5
+V_strnistr
+pa_context_set_source_volume_by_index@@PULSE_0
+pa_context_get_client_info@@PULSE_0
+rmdir@@GLIBC_2.2.5
+pa_context_get_card_info_by_index@@PULSE_0
+CreateMilesMusicAudioDevice
+sched_yield@@GLIBC_2.2.5
+pa_context_set_default_sink@@PULSE_0
+__cxa_atexit@@GLIBC_2.2.5
+V_UTF8ToUTF32
+pa_cvolume_init@@PULSE_0
+dlmopen@@GLIBC_2.3.4
+CDbgFmtSafeImplT<false>::CDbgFmtSafeImplT(char const*, ...)
+g_pMemAllocSteam
+scandir@@GLIBC_2.2.5
+CreateInterface
+__vsnprintf_chk@@GLIBC_2.3.4
+V_RemoveDotSlashes
+__fxstat64@@GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+pa_context_connect@@PULSE_0
+pa_proplist_sets@@PULSE_0
+pa_context_get_sink_input_info_list@@PULSE_0
+TSListBase_Init
+pa_context_get_state@@PULSE_0
+SteamThreadTools::CThreadSyncObject::~CThreadSyncObject()
+SteamRealPath
+free@@GLIBC_2.2.5
+CValidator::ClaimMemory(void*)
+strlen@@GLIBC_2.2.5
+_ITM_registerTMCloneTable
+pa_ext_device_restore_read_formats_all@@PULSE_0
+CValidator::IsClaimed(void*)
+pa_threaded_mainloop_get_api@@PULSE_0
+opendir@@GLIBC_2.2.5
+__xstat@@GLIBC_2.2.5
+lchown@@GLIBC_2.2.5
+alcMakeContextCurrent
+pa_threaded_mainloop_free@@PULSE_0
+V_strncat_length
+__ctype_b_loc@@GLIBC_2.3
+TSListBase_UnsafePeek
+__cxa_finalize@@GLIBC_2.2.5
+realpath@@GLIBC_2.3
+pa_context_unref@@PULSE_0
+alphasort64@@GLIBC_2.2.5
+SteamThreadTools::CThread::Join(unsigned int)
+_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
+pa_context_errno@@PULSE_0
+fdatasync@@GLIBC_2.2.5
+__cxa_guard_release@@CXXABI_1.3
+statvfs64@@GLIBC_2.2.5
+dlerror@@GLIBC_2.2.5
+link@@GLIBC_2.2.5
+pa_threaded_mainloop_unlock@@PULSE_0
+pa_context_set_subscribe_callback@@PULSE_0
+strrchr@@GLIBC_2.2.5
+trunc@@GLIBC_2.2.5
+Error
+msync@@GLIBC_2.2.5
+dlclose@@GLIBC_2.2.5
+pa_context_set_sink_mute_by_index@@PULSE_0
+futimes@@GLIBC_2.3
+V_ComposeFileName
+SteamThreadTools::CThread::Start(unsigned long)
+CreateMilesVoiceAudioDevice
+usleep@@GLIBC_2.2.5
+strerror@@GLIBC_2.2.5
+open64@@GLIBC_2.2.5
+pa_cvolume_set@@PULSE_0
+strstr@@GLIBC_2.2.5
+typeinfo for SteamThreadTools::CThread
+pa_context_set_source_mute_by_index@@PULSE_0
+_ZSt9terminatev@@GLIBCXX_3.4
+scandir64@@GLIBC_2.2.5
+pa_threaded_mainloop_new@@PULSE_0
+posix_fadvise@@GLIBC_2.2.5
+strtol@@GLIBC_2.2.5
+ftruncate64@@GLIBC_2.2.5
+readlink@@GLIBC_2.2.5
+pa_context_set_sink_volume_by_index@@PULSE_0
+CDbgFmtSafeImplT<true>::CDbgFmtSafeImplT(char const*)
+TSQueueBase_UnsafeDummy
+V_FixSlashes
+TSListBase_Pop
+SteamThreadTools::CThread::CThread()
+V_strnicmp
+pa_ext_device_restore_set_subscribe_cb@@PULSE_0
+__cxa_pure_virtual@@CXXABI_1.3
+pa_threaded_mainloop_lock@@PULSE_0
+pa_context_get_card_info_list@@PULSE_0
+ThreadInterlockedExchange
+pa_ext_device_restore_read_formats@@PULSE_0
+SteamThreadTools::CThread::OnExit()
+pa_proplist_new@@PULSE_0
+pa_context_get_source_output_info_list@@PULSE_0
+memmove@@GLIBC_2.2.5
+__xmknod@@GLIBC_2.2.5
+strchr@@GLIBC_2.2.5
+__lxstat64@@GLIBC_2.2.5
+fread@@GLIBC_2.2.5
+SteamThreadTools::CThreadEvent::CThreadEvent(bool)
+getenv@@GLIBC_2.2.5
+TSListBase_Push
+pa_operation_unref@@PULSE_0
+dl_iterate_phdr@@GLIBC_2.2.5
+CValidator::Push(char const*, void*, char const*)
+pread64@@GLIBC_2.2.5
+__errno_location@@GLIBC_2.2.5
+pa_proplist_gets@@PULSE_0
+strdup@@GLIBC_2.2.5
+__bss_start
+_strlwr
+_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
+V_snprintf
+strncasecmp@@GLIBC_2.2.5
+__stack_chk_fail@@GLIBC_2.4
+AudioSinkList
+V_StrTrim
+pa_threaded_mainloop_start@@PULSE_0
+pa_context_move_sink_input_by_index@@PULSE_0
+TSQueueBase_Pop
+strcmp@@GLIBC_2.2.5
+Plat_VirtualAccessFlags
+getcwd@@GLIBC_2.2.5
+pa_context_new_with_proplist@@PULSE_0
+V_strnchr
+pa_context_set_source_port_by_index@@PULSE_0
+SteamThreadTools::CThreadSyncObject::Wait(unsigned int)
+pa_proplist_free@@PULSE_0
+V_AppendSlash
+chown@@GLIBC_2.2.5
+pa_context_set_state_callback@@PULSE_0
+mktemp@@GLIBC_2.2.5
+Plat_FloatTime
+_ZdaPv@@GLIBCXX_3.4
+ThreadSleep
+pthread_once@@GLIBC_2.2.5
+__ctype_tolower_loc@@GLIBC_2.3
+SteamThreadTools::CThread::IsThreadRunning() const
+munmap@@GLIBC_2.2.5
+pwrite64@@GLIBC_2.2.5
+SteamThreadTools::CThread::Init()
+pa_context_set_card_profile_by_index@@PULSE_0
+_end
+fclose@@GLIBC_2.2.5
+dlopen@@GLIBC_2.2.5
+freopen@@GLIBC_2.2.5
+statvfs@@GLIBC_2.2.5
+TSQueueBase_UnsafePeek
+V_vsnprintf
+strncpy@@GLIBC_2.2.5
+__xstat64@@GLIBC_2.2.5
+isspace@@GLIBC_2.2.5
+lseek64@@GLIBC_2.2.5
+__lxstat@@GLIBC_2.2.5
+pa_ext_device_restore_save_formats@@PULSE_0
+dlsym@@GLIBC_2.2.5
+closedir@@GLIBC_2.2.5
+pa_context_get_sink_info_by_index@@PULSE_0
+mkfifo@@GLIBC_2.2.5
+stderr@@GLIBC_2.2.5
+TSQueueBase_Push
+sendfile64@@GLIBC_2.3
+__realpath_chk@@GLIBC_2.4
+pa_threaded_mainloop_in_thread@@PULSE_0
+__snprintf_chk@@GLIBC_2.3.4
+access@@GLIBC_2.2.5
+SteamThreadTools::CThread::SetName(char const*)
+__cxa_guard_abort@@CXXABI_1.3
+Plat_GetExecutablePathUTF8
+__pthread_key_create@@GLIBC_2.2.5
+ThreadInterlockedDecrement
+fopen64@@GLIBC_2.2.5
+pa_context_set_sink_port_by_name@@PULSE_0
+SteamThreadTools::CThread::GetThreadProc()
+fwrite@@GLIBC_2.2.5
+pthread_mutex_lock@@GLIBC_2.2.5
+realloc@@GLIBC_2.2.5
+_edata
+__gxx_personality_v0@@CXXABI_1.3
+TSQueueBase_Init
+pa_context_subscribe@@PULSE_0
+pa_context_set_default_source@@PULSE_0
 write@@GLIBC_2.2.5
-zD
+CValidator::ClaimArrayMemory(void*)
+CreateMilesSoundAudioDevice
+_Znwm@@GLIBCXX_3.4
+strftime@@GLIBC_2.2.5
+alcDestroyContext
+strtoul@@GLIBC_2.2.5
+V_strncat
+pthread_mutex_unlock@@GLIBC_2.2.5
+memcpy@@GLIBC_2.14
+fcntl@@GLIBC_2.2.5
+V_IsAbsolutePath
+SteamThreadTools::CThread::IsAlive() const
+ThreadInterlockedExchangeAdd
+open@@GLIBC_2.2.5
+__vasprintf_chk@@GLIBC_2.8
+SteamThreadTools::CThreadMutex::CThreadMutex()
+rename@@GLIBC_2.2.5
+AssertMsgImplementation
+strtod@@GLIBC_2.2.5
+readdir64@@GLIBC_2.2.5
+V_stristr(char const*, char const*)
+mkdir@@GLIBC_2.2.5
+time@@GLIBC_2.2.5
+alcSuspendContext
+_init
+fflush@@GLIBC_2.2.5
+SteamThreadTools::CThreadMutex::~CThreadMutex()
+ThreadInterlockedIncrement
+V_strncpy
+GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
+GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3

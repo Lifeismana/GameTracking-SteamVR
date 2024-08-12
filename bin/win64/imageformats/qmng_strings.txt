@@ -1,658 +1,106 @@
-	?blue@QColor@@QEBAHXZ
-	?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-	A;Q@r
-	tRE;
-	tVE;
-	tYE;
-	t]E;
-	t^E;
-	tbE;
-	tdE;
-	tfE;
-	thE;
- A\^]
- A^A\_
- A^A]A\_^
- A^A]]
- A^][
- A^_]
- A^_^
- A_A\]
- A_A\^
- A_A]_
- A_A^A\
- A_A^A\^[
- A_A^A]A\[
- A_A^A]A\_
- A_A^A]A\_^]
- A_A^]
- A_A^_
- A_A^_][
- H3E H3E
-!This program cannot be run in DOS mode.
-(A]A\_[
-(A__][
-(t$@H
-(|$0H
--Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
-.00cfg
-.?AVQImageIOHandler@@
-.?AVQImageIOPlugin@@
 .?AVQMngHandler@@
+.?AVQImageIOHandler@@
 .?AVQMngPlugin@@
+.?AVQImageIOPlugin@@
 .?AVQObject@@
-.?AVbad_alloc@std@@
-.?AVbad_array_new_length@std@@
-.?AVexception@std@@
 .?AVtype_info@@
-.CRT$XCA
-.CRT$XCU
-.CRT$XCZ
-.CRT$XIA
-.CRT$XIC
-.CRT$XIZ
-.CRT$XLA
-.CRT$XLZ
-.CRT$XPA
-.CRT$XPZ
-.CRT$XTA
-.CRT$XTZ
-.data
-.data$r
-.edata
-.idata$2
-.idata$3
-.idata$4
-.idata$5
-.idata$6
-.pdata
-.qtmetadata
-.rdata
-.rdata$T
-.rdata$r
-.rdata$zzzdbg
-.rsrc$01
-.rsrc$02
-.rtc$IAA
-.rtc$IZZ
-.rtc$TAA
-.rtc$TZZ
-.text
-.text$di
-.text$mn
-.text$mn$00
-.text$x
-.text$yd
-.tls$
-.tls$ZZZ
-.xdata
-.xdata$x
-/+w H
-0A]A\_
-0A^_^
-0A^_^][
-0A_A]A\_^
-0A_A^A\
-0A_A^^][
-0A_A^_
-1.2.5
-8	?convert@QVariant@@QEBA_NHPEAX@Z
-8AMAgt
-8A^A]
-8BFu	8BG
-8BFu	8BP
-8BGRst
-8BGtbA
-8BGtyA
-8BJt?A
-8BPu%8BQu 8BRu
-8CSIDI
-8DEEnI
-8DGKbt
-8DNEIt
-8DNEMt
-8EMItt
-8ETLPM
-8EVASI
-8EVOMt
-8GNPIt
-8GxtdH
-8IFEDt
-8IPXeI
-8IRPft
-8ISABt
-8JJt'
-8JVtqA
-8KCABt
-8KEESI
-8KYBDI
-8LDNEt
-8MARFI
-8MORPt
-8MRETt
-8MRETu.H
-8MRETu/H
-8MRHct
-8NGAMt
-8NOLCt
-8PCCiI
-8PILCt
-8POOLI
-8PORDI
-8RDHDt
-8RDHIt
-8RDHMt
-8RDROI
-8SNRtM
-8T$`u	H
-8T$ht/8T$pu
-8TADII
-8TIBst
-8TLPPL
-8TLPsI
-8TNveI
-8TSAPI
-8TSIhL
-8WOHSt
-8_^][
-8gADpt
-8sYHpt
-8tXEtI
-8tXTiI
-8tXTzI
-9RDHMt
-9iTv;
-9pDv=M
-9t$0t
-9t$8t
-9z@v.H
-9zDv0H
-9|$Ht,E3
-9|$Hu<
-9|$Pt
-:RDHIu
-;@@@@u
-;STs%D
-;kTseD
-;kTskD
-;n<sW
-;u<s=H
-<$fff
-??0QByteArray@@QEAA@PEBDH@Z
-??0QImage@@QEAA@HHW4Format@0@@Z
-??0QImage@@QEAA@XZ
-??0QImageIOHandler@@QEAA@XZ
-??0QImageIOPlugin@@QEAA@PEAVQObject@@@Z
-??0QMessageLogger@@QEAA@PEBDH0@Z
-??0QVariant@@QEAA@XZ
-??0QVariant@@QEAA@_N@Z
-??1QByteArray@@QEAA@XZ
-??1QImage@@UEAA@XZ
-??1QImageIOHandler@@UEAA@XZ
-??1QImageIOPlugin@@UEAA@XZ
-??4QImage@@QEAAAEAV0@$$QEAV0@@Z
-??4QImage@@QEAAAEAV0@AEBV0@@Z
-??BQColor@@QEBA?AVQVariant@@XZ
-?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
-?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?constData@QVariant@@QEBAPEBXXZ
-?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-?debug@QMessageLogger@@QEBAXPEBDZZ
-?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?event@QObject@@UEAA_NPEAVQEvent@@@Z
-?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?fill@QImage@@QEAAXI@Z
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-?isOpen@QIODevice@@QEBA_NXZ
-?isReadable@QIODevice@@QEBA_NXZ
-?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
-?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
-?read@QIODevice@@QEAA_JPEAD_J@Z
-?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
-?userType@QVariant@@QEBAHXZ
-?warning@QMessageLogger@@QEBAXPEBDZZ
-?write@QIODevice@@QEAA_JPEBD_J@Z
-@.data
-@.qtmetad$
-@.reloc
-@8p3tEH
-@8pTuW@8pUuQ
-@8s5t f9r0t
-@8xTu
-@8xUt
-@8~Lt~D9
-@@@@H
-@A]^[
-@A^A][
-@A^_^
-@A_A^A]A\_
-@A_A^_
-@A__^
-@SATAUAVAWH
-@SAWH
-@SUAVH
-@SUVAVAWH
-@SUVH
-@SUVWATAUAVAWH
-@SUVWH
-@SUWAVAWH
-@SUWAWH
-@SVATAVAWH
-@SVATHc
-@SVWATH
-@SVWAUH
-@SVWH
-@SWATAUH
-@UATAWH
-@USVWATAVAWH
-@UVWH
-@VWATH
-@WATAUH
-@p;pTv
-@p@8x5t
-A required callback is not defined
-A8t$L
-A8x@tT
-A8~@u
-A;HDA
-A;HHA
-A;HLA
-A;HPA
-A;ITsa
-A;ITsl
-A;JTv"E3
-A;L$Tsm
-A;N A
-A;PTsE
-A;QTs
-A;ZTr
-A;ZTv
-AMAgf
-ATAVAWH
-AUAVH
-A]A\]
-A]A\^]
-A^A]A\_[]
-A^A]_]
-A_A^A\_^[]
-A_A^A]A\_
-A_A^A]A\_^]
-A_A^A]A\_^][
-A_A^A]_^
-Application signalled CMS error
-Application signalled I/O error
-Application signalled an error
-Application signalled error during trace-callback
-Application signalled timing error
-Attempt to access an non-existing entry
-Attempt to access the wrong chunk
-Au9@8s
-AuthD
-B08A0t&H
-B08A0u
-BD9B@|u
-BDD8BRuy
-BGRsf
-BTA9yTv4D
-Bp@8xL
-BpD:P@s
-CSIDf
-Canvas_style is invalid
-Chunk cannot be empty
-Chunk cannot occur multiple times
-Chunk must not end with NULL byte
-Chunk not allowed at this point
-Chunk out of sequence
-Chunk-length is invalid
-Chunklength is incredibly large
-CloseHandle
-CreateEventW
-D	LA;QDr
-D$ DNEIH
-D$ DNEMH
-D$ E3
-D$ MRETH
-D$ RDHIH
-D$ RDHMH
-D$4A+
-D$@@@@@H
-D$@D8
-D$PfA;
-D$PfE
-D$XA;
-D$`@:
-D$`t#E;
-D$l@8s
-D$xA;
-D+t$lA
-D8B@t
-D8KLtpD9
-D8p4t
-D8~Kt^D8
-D8~Mt
-D8~Ntd
-D8~Ot
-D8~PtrH
-D8~QtI
-D9ZD;NTr
-D9~@vAH
-D9~Dv@H
-D9~Tv=ff
-D;BDr
-D;J@r
-D;R@r
-D;[@r
-D;[pr
-DEEnf
-DGKbf
-DNEIH
-DNEMf
-DeleteCriticalSection
-Delta block width and or height invalid
-Destination object for PAST must be abstract
-DisableThreadLibraryCalls
-E8CLtKD9
-E8gUt
-E8t$L
-E;ADr
-E;JDr
-E;|$@
-E@NOLCf
-ED$XL
-ENDL without matching LOOP
-ETLPf
-EVASH
-EVOMf
-Encountered unexpected end-of-file
-EnterCriticalSection
-Event type is invalid
-FT9GTs
-Framenr out of bounds
-Function is invalid at this point
-Function not yet implemented
-GNPIf
-GenuA
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThreadId
-GetModuleHandleW
-GetProcAddress
-GetSystemTimeAsFileTime
-Global data length invalid
-HA\_^[
-HA^A]_[
-HA__^[
-HE;ADr
-Handle could not be initialized
-Hp:Q@u
-Hp@8y5
-Hp@8yQt
-IFEDH
-IPXef
-IRPff
-ISABH
-Image is frozen
-Image is larger than defined maximum
-Image is not an animation
-Index-value out of bounds
-InitializeConditionVariable
-InitializeSListHead
-Internal buffer for JPEG processing too small
-Internal buffer-overflow
-Internal error in libmng
-IsDebuggerPresent
-IsProcessorFeaturePresent
-J?green@QColor@@QEBAHXZ
-JDf;JBu
-K?height@QImage@@QEBAHXZ
-K?invalidate@QColor@@AEAAXXZ
-KCABH
-KCABISABPILCNOLCIFEDRDHDCSIDLDNEMARFTADIDNEIRDHIGNPIPOOLNGAMDNEMRDHMEVOMTSAPETLPTLPPMORPEVASKEESWOHSMRETDGKbMRHcTNveAMAgPCCitXTiDEEnBGRstXEtEMIt,e
-KEESf
-KERNEL32.dll
-KYBDf
-Keyword cannot be zero-length
-L$ E3
-L$ SUVWAVH
-L$@E3
-L$@H3
-L$HD+
-L$PH3
-L$`;S<sT
-L$`E2
-L9?uB
-LDNEf
-LOOP encountered when playback cache is turned off
-Layernr out of bounds
-LeaveCriticalSection
-M H1E
-MARFf
-MHDR simplicity indicates unsupported feature(s)
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
 MNG error %d: %s; chunk %c%c%c%c; subcode %d:%d
-MORPf
-MRETf
-MRHcf
-Mask type is invalid
-MetaData
-Method is invalid
-MimeTypes
-Missing IDAT chunk(s)
-Missing PLTE chunk
-N	D9ZD
-NGAMf
-NULL separator not found
-No MNG header (MHDR) found
+mng trace: iFuncnr: %d iFuncseq: %d zFuncname: %s
+QMngHandler::canRead() called with no device
+MNG\r\n
+Photoshop ICC profile
+KCABISABPILCNOLCIFEDRDHDCSIDLDNEMARFTADIDNEIRDHIGNPIPOOLNGAMDNEMRDHMEVOMTSAPETLPTLPPMORPEVASKEESWOHSMRETDGKbMRHcTNveAMAgPCCitXTiDEEnBGRstXEtEMIt,e
 No error
-No memory for gamma-table(s)
+Out of memory
+The handle is invalid
+A required callback is not defined
+Encountered unexpected end-of-file
+zlib encountered an error
+lcms encountered an error
 No output-profile defined for CMS
 No sRGB-profile defined for CMS
-No valid header-chunk
-Object already exists
-Object does not exist
-Opt,H
-Out of memory
-P.rsrc
-P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-PA\_[
-PA^_[
-PCCif
-PILCf
-POOLf
-PORDf
-Palette-index out of bounds
-Parent chunk not found
-Photoshop ICC profile
-Playtime out of bounds
-Q?red@QColor@@QEBAHXZ
-QMngHandler::canRead() called with no device
-QMngPlugin
-QTMETADATA  qbjs
-Qt5Core.dll
-Qt5Gui.dll
-QueryPerformanceCounter
-R?scanLine@QImage@@QEAAPEAEH@Z
-RDHDf
-RDHIf
-RDHIu
-RDHJt
-RDHMH
-RDHMt
-RDROf
+Internal buffer-overflow
+Function is invalid at this point
+Writing was unsuccessful; disk full?
+Internal buffer for JPEG processing too small
 Reading suspended; waiting for I/O to catch up
-Requested nEED resources are not supported
-ResetEvent
-Rich#9{
-RtlCaptureContext
-RtlLookupFunctionEntry
-RtlVirtualUnwind
-SATAWH
-SAUAVH
+Timer suspension; normal animation delay
 SEEK suspension; application decides
-SNRtA
-SNRtf
-SRuCL
-SRuJH
-SUVWH
-SVAUH
-SVWAWH
-SWATH
-SWAUAVH
-SWAVH
-SetEvent
-SetUnhandledExceptionFilter
-SleepConditionVariableCS
-T$8D+
-T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-TADIf
-TERM misplaced during creation of MNG stream
-TIBsf
-TLPPf
-TLPsf
-TNveH
-TSAPf
-TSIhf
-Target object for DHDR must be concrete
-Target object must have alpha-channel
-TerminateProcess
+LOOP encountered when playback cache is turned off
+Application signalled I/O error
+Application signalled timing error
+Application signalled CMS error
+Application signalled an error
+Application signalled error during trace-callback
+Internal error in libmng
+The signature is invalid
 The CRC for this chunk is invalid
+Chunk-length is invalid
+Chunk out of sequence
+Chunk not allowed at this point
+Chunk cannot occur multiple times
+Missing PLTE chunk
+Missing IDAT chunk(s)
+Chunk cannot be empty
+Global data length invalid
 The bit_depth is invalid
 The color_type is invalid
 The compression_method is invalid
-The delta operation is invalid (mismatched color_types?)
-The delta_type is invalid
-The entry_type is invalid
-The fill_method is invalid
 The filter_method or filter_type is invalid
-The handle is invalid
-The image_type is invalid
 The interlace_method is invalid
-The offset_type is invalid
-The sample_depth is invalid
-The signature is invalid
 There is not enough data in the IDAT chunk(s)
-Timer suspension; normal animation delay
+Palette-index out of bounds
+NULL separator not found
+Keyword cannot be zero-length
+Object does not exist
+Object already exists
 Too much data in IDAT chunk(s)
-Transformation could not be initialized
-U?setRgb@QColor@@QEAAXHHHH@Z
-UATAUH
-UAUAVH
-UAVAWH
-USWATAUAVH
-UVATAUH
-UVWATAUAVAWH
-UWAUAVH
-UWAVH
-UnhandledExceptionFilter
+The sample_depth is invalid
+The offset_type is invalid
+The entry_type is invalid
+Chunk must not end with NULL byte
+The image_type is invalid
+The delta_type is invalid
+Index-value out of bounds
+The fill_method is invalid
+Target object for DHDR must be concrete
+Target object must have alpha-channel
+MHDR simplicity indicates unsupported feature(s)
 Unknown critical chunk encountered
-Unknown error
-Unknown exception
-VCRUNTIME140.dll
-VWATAUAVH
-VWATAUAWH
-VWAUAVAWH
-VWAVH
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
-WATAUAVAWH
-WAVAWH
-WOHSf
-WaitForSingleObjectEx
-WakeAllConditionVariable
-Writing was unsuccessful; disk full?
-XA]_^[
-Z?width@QImage@@QEBAHXZ
-ZA;yTr
-ZE;QTr
-\$ ATAVAWH
-\$ UATAWH
-\$ UAVAWH
-\$ UH
-\$ UVATH
-\$ VH
-\$ VWAWH
-\$ WH
-\$(E3
-\$0t"H
-\$0tZH
-\$0u(E3
-\$@tf
-\$PI+
-\$hD;
-_CxxThrowException
-__C_specific_handler
-__std_exception_copy
-__std_exception_destroy
-__std_type_info_destroy_list
-__vcrt_InitializeCriticalSectionEx
-_callnewh
-_cexit
-_configure_narrow_argv
-_crt_atexit
-_execute_onexit_table
-_initialize_narrow_environment
-_initialize_onexit_table
-_initterm
-_initterm_e
-_register_onexit_function
-_seh_filter_dll
-`.rdata
-`A_A\[
-`A_A^A\
-`A_A^_
-api-ms-win-crt-heap-l1-1-0.dll
-api-ms-win-crt-math-l1-1-0.dll
-api-ms-win-crt-runtime-l1-1-0.dll
-api-ms-win-crt-string-l1-1-0.dll
-bad allocation
-bad array new length
-calloc
-className
-d$0A;
-d$HD+
-d$PE3
-d$PE8gTu
-debug
+Requested nEED resources are not supported
+The delta operation is invalid (mismatched color_types?)
+Method is invalid
+Chunklength is incredibly large
+Delta block width and or height invalid
+Event type is invalid
+Mask type is invalid
+ENDL without matching LOOP
 evNT points to unknown SEEK
-f9BBu
-f9BJuAA
-f9BLuMA
-f9BTA
-f9JNu]
-f9JPu
-f9JPuiA
-f9JRu
-f9P0t	H
-f9i0v*H
-f9q0v*H
-fD9A0v	H
-ffffff
-gADpH
-gfffA+
-h_^][
-image/x-mng
+Destination object for PAST must be abstract
+TERM misplaced during creation of MNG stream
 invalid fieldvalue (generic)
-invalid frame/image height
 invalid frame/image width
-l$ M+
-l$ VATAWH
-l$ VAVH
-l$ VH
-l$ VWAVH
-l$ WH
-l$(A;
-l$0A;
-l$0A^^
-l$0E9VL
-l$`@8
-l$`E2
-l$xE;
-lcms encountered an error
-malloc
-memcpy
-memset
-mng trace: iFuncnr: %d iFuncseq: %d zFuncname: %s
+invalid frame/image height
+Canvas_style is invalid
+Attempt to access the wrong chunk
+Attempt to access an non-existing entry
+No valid header-chunk
+Parent chunk not found
+No MNG header (MHDR) found
+Image is larger than defined maximum
+Image is not an animation
+Framenr out of bounds
+Layernr out of bounds
+Playtime out of bounds
+Function not yet implemented
+Image is frozen
+Handle could not be initialized
+No memory for gamma-table(s)
+Transformation could not be initialized
+Unknown error
 mng_cleanup
 mng_copy_chunk
 mng_create
@@ -859,13 +307,13 @@ mng_putchunk_unkown
 mng_putchunk_ztxt
 mng_putimgdata_ihdr
 mng_putimgdata_jhdr
+mng_reset
 mng_read
 mng_read_pushchunk
 mng_read_pushdata
 mng_read_pushsig
 mng_read_resume
 mng_readdisplay
-mng_reset
 mng_set_bgcolor
 mng_set_bkgdstyle
 mng_set_cacheplayback
@@ -943,102 +391,194 @@ mng_version_release
 mng_version_so
 mng_version_text
 mng_write
-ntelA
-org.qt-project.Qt.QImageIOHandlerFactoryInterface
+1.2.5
+QMngPlugin
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+Unknown exception
+bad allocation
+bad array new length
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.tls
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data
+.data$r
+.bss
+.pdata
+.qtmetadata
+.rsrc$01
+.rsrc$02
+2\vp!
+2\v`!
+R\vp!
+\fp\v`!
+\fp\v0
+2\v`!\n
+2\vp!\n
+r\rp\fP\v0!
+2\vp!\n
+2\vp!
+\fp\v`!
+\fp\v`
+\fp\v`!
+\rp\f`\vP
+2\vp!
+\fp\v`
+\rp\fP
+\v`!\r
+\fp\v`!
+2\vp<w
+\fp\v`
 qmng.dll
 qt_plugin_instance
 qt_plugin_query_metadata
-sYHpf
-strncmp
-t$ 8Cxt+L
-t$ ATAVAWH
-t$ AVAW
-t$ AVH
-t$ E3
-t$ WATAUAVAWH
-t$ WATAVH
-t$ WAUAWH
-t$ WAVAWH
-t$ WH
-t$08Cx
-t$0A_A^
-t$0t.H
-t$0tHL
-t$0tQH
-t$0tjH
-t$0t{H
-t$88CL
-t$8E+
-t$@8Cx
-t$@8CxtxH
-t$HE3
-t$`8Cx
-t$`E3
-t$dE2
-t$l@8
-t$p8Cx
-t$pE2
-t$pL+
-t$x8Ext|H
-t*D8p2u$D8p3t
-t29x<t-A
-t8fff
-t?;~ w:H
-tXEtf
-tXTif
-tXTzH
-tXTzf
-u$8U@w
-u-fE;
-u48U@w
-u7fE;
-u98Cxt
-u?@8{^t9H9
-uA8U@w
-uBI98u2I
-uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-uy8U@w
-u|8Cxt`L
-u}9F uJH
-vOfff
+??0QImageIOHandler@@QEAA@XZ
+??1QImageIOHandler@@UEAA@XZ
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
 vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-vZ9VTv 
-v^fff
-version
-wStB-
+??0QImage@@QEAA@XZ
+??0QImage@@QEAA@HHW4Format@0@@Z
+??1QImage@@UEAA@XZ
+??4QImage@@QEAAAEAV0@AEBV0@@Z
+??4QImage@@QEAAAEAV0@$$QEAV0@@Z
+Z?width@QImage@@QEBAHXZ
+K?height@QImage@@QEBAHXZ
+R?scanLine@QImage@@QEAAPEAEH@Z
+\r?fill@QImage@@QEAAXI@Z
+\\n?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+Q?red@QColor@@QEBAHXZ
+J?green@QColor@@QEBAHXZ
+\t?blue@QColor@@QEBAHXZ
+U?setRgb@QColor@@QEAAXHHHH@Z
+??BQColor@@QEBA?AVQVariant@@XZ
+K?invalidate@QColor@@AEAAXXZ
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+-Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
+P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+??0QImageIOPlugin@@QEAA@PEAVQObject@@@Z
+??1QImageIOPlugin@@UEAA@XZ
+W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+Qt5Gui.dll
+??0QMessageLogger@@QEAA@PEBDH0@Z
+b\n?debug@QMessageLogger@@QEBAXPEBDZZ
+?warning@QMessageLogger@@QEBAXPEBDZZ
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+??0QByteArray@@QEAA@PEBDH@Z
+??1QByteArray@@QEAA@XZ
+?read@QIODevice@@QEAA_JPEAD_J@Z
+?write@QIODevice@@QEAA_JPEBD_J@Z
+?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
+??0QVariant@@QEAA@XZ
+??0QVariant@@QEAA@_N@Z
+?userType@QVariant@@QEBAHXZ
+?constData@QVariant@@QEBAPEBXXZ
+8\t?convert@QVariant@@QEBA_NHPEAX@Z
 z_deflate
 z_deflateEnd
-z_deflateInit2_
 z_inflate
 z_inflateEnd
 z_inflateInit_
-zlib encountered an error
-|$ A8YL
-|$ ATAVAW
-|$ ATAVAWH
-|$ AVH
-|$ E;
-|$ L9
-|$ Lc
-|$ ff
-|$(M+
-|$08Cxt
-|$0A8Ex
-|$0tTH
-|$0tqH
-|$0twH
-|$0t|H
-|$8A_A^A\
-|$@D+
-|$H@8sxtnH
-|$HD+
-|$PA;
-|$PE3
-|$`fff
-|$`uu
-|$hA8G@
-~#fff
-~2fff
-~Bfff
-~MfE;
-~Zfff
+z_deflateInit2_
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+?isOpen@QIODevice@@QEBA_NXZ
+?isReadable@QIODevice@@QEBA_NXZ
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
+?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
+Qt5Core.dll
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+CloseHandle
+EnterCriticalSection
+LeaveCriticalSection
+DeleteCriticalSection
+SetEvent
+ResetEvent
+WaitForSingleObjectEx
+CreateEventW
+GetModuleHandleW
+GetProcAddress
+IsDebuggerPresent
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+DisableThreadLibraryCalls
+InitializeSListHead
+KERNEL32.dll
+memcpy
+__C_specific_handler
+__vcrt_InitializeCriticalSectionEx
+__std_exception_copy
+__std_exception_destroy
+_CxxThrowException
+memset
+__std_type_info_destroy_list
+VCRUNTIME140.dll
+calloc
+free
+strncmp
+_callnewh
+malloc
+_seh_filter_dll
+_configure_narrow_argv
+_initialize_narrow_environment
+_initialize_onexit_table
+_register_onexit_function
+_execute_onexit_table
+_crt_atexit
+_cexit
+_initterm
+_initterm_e
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll

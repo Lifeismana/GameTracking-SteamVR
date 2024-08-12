@@ -1,997 +1,828 @@
-
-!
-"
-"%s"
-"%s" = "%s"
-"@
-"channels" attribute not found in the header.
-"compression" attribute not found in the header.
-"dataWindow" attribute not found in the header or invalid.
-"displayWindow" attribute not found in the header.
-"lineOrder" attribute not found in the header.
-"pixelAspectRatio" attribute not found in the header.
-"screenWindowCenter" attribute not found in the header.
-"screenWindowWidth" attribute not found in the header.
-#
-# of channels is zero.
-#;
-#RenderSystem_CannotCreateDevice
-#RenderSystem_UnableToStartGame
-#bML
-#base
-#base is NULL
-#empty#
-#include
-#include is NULL
-#int#
-$
-$@
-$ORIGIN
-%
-%-120s
-%-120s - %s
-%01d
-%02d
-%03d
-%04d
-%05d
-%06d
-%3d %3d %3d %3d %3d %3d %3d %3d
-%4u %4u %4u %4u %4u %4u %4u %4u
-%d %s %d %02d:%02d:%02d +0000
-%f %f %f %f
-%hd
-%hu
-%i %i %i %i
-%ld%c
-%lg
-%lld
-%llu
-%ls [wstring, len = %d]
-%s / %s MB
-%s / %s MB (non-evictable: %s MB)
-%s%d
-%s,
-%s/
-%s: string format requested %d chars
-&
-'
-(
-( def. "%s" )
-(%s): ADD %s = %s
-(%s): Setting %s to %s
-(*%s*),
-(>q
-)
-*
-*0"Z
-+
-+OQv
-,
-, channels =
-, height =
--
--adapter
--autoconfig
--autoconfig_level
--avx
--debugdxsupport
--deferTextureLoads
--disallowhwmorph
--dontEvictTextures
--dx11
--dx9
--empty
--force_recommend_gl
--gl
--ignoredxsupportcfg
--mantle
--maxdxlevel
--maxtextureres
--preloadtextures
--r_max_device_threads
--rendersystem_thread_mode
--shaderstats
--shadowTargetSize
--shadowTargetSize forcing nPoolSizeInMb size to %d from %d, bLarge %d, avail %lld
--sse2
--sse3
--sse4
--vulkan
-.
-...
-../public/ordered_constructor.h
-../public/tier0/tslist.h
-../public/tier1/memstack.h
-../public/tier1/utlfixedmemory.h
-../public/tier1/utllinkedlist.h
-../public/tier1/utlrbtree.h
-../public/tier1/utltshash.h
-.exr
-.jpg
-.pfm
-.png
-.psd
-.tif
-/
-/P8i
-0
-0: Bilinear, 1: Trilinear, 2: Aniso 2x, 3: Aniso 4x, 4: Aniso 8x, 5: Aniso 16x
-0A
-0x%016llX
-0x%p
-1
-1.2.5
-1.5.2
-1.8
-10ConCommand
-10IAppSystem
-11CFunctorJob
-11IRefCounted
-12CDeviceFence
-12CRefCounted1I11IRefCounted20CRefCountServiceBaseILb1E6CRefMTEE
-12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
-12CRenderUtils
-12CThreadEvent
-12CThreadedJob
-12IRenderUtils
-13IRenderDevice
-14CBaseAppSystemI12IRenderUtilsE
-14CBaseAppSystemI16IRenderDeviceMgrE
-14CSwapChainBase
-14ConCommandBase
-14IRenderContext
-15CMemberFunctor5IP19CTextureManagerBaseMS0_FvP25IAsyncResourceDataRequest11CWeakHandleI31InfoForResourceTypeCTextureBaseEP12CTextureBase22TextureSpecification_tiES3_S6_S8_S9_i12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CMemberFunctor9IP19CTextureManagerBaseMS0_FvP12CTextureBase11CWeakHandleI31InfoForResourceTypeCTextureBaseE12ResourceId_tPvj22TextureSpecification_tS9_i23TextureBitsMemoryType_tES3_S6_S7_S8_iS9_S9_iSA_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-15CRenderPassDesc
-15CSwapChainEmpty
-15CTier0AppSystemI12IRenderUtilsE
-15CTier0AppSystemI16IRenderDeviceMgrE
-15CTier1AppSystemI12IRenderUtilsLi0EE
-15CTier1AppSystemI16IRenderDeviceMgrLi0EE
-15CTier2AppSystemI12IRenderUtilsLi0EE
-15CTier2AppSystemI16IRenderDeviceMgrLi0EE
-1600
-16CDefaultAccessor
-16CDeviceFenceBase
-16ICommandCallback
-16IRenderDeviceMgr
-17CRenderDeviceBase
-18CEmptyShaderBuffer
-18CPlaceholderConVar
-18CRenderDeviceEmpty
-19CRenderContextEmpty
-19CSchemaRegistration
-19CTextureManagerBase
-19IKeyValuesErrorSpew
-19IRenderShaderBuffer
-2
-2.0
-2.2
-20CPostConnectCallback
-20CRefCountServiceBaseILb1E6CRefMTE
-20CRenderDeviceMgrBase
-20CTextureManagerEmpty
-20IResourceTypeManager
-21CRenderDeviceMgrEmpty
-21CRenderHardwareConfig
-21CTextureInfoChunkBase
-21IRenderHardwareConfig
-22CSchemaInstallCallback
-22IToolsResourceListener
-23IConCommandBaseAccessor
-25CConCommandMemberAccessorI17CRenderDeviceBaseE
-25CConCommandMemberAccessorI19CTextureManagerBaseE
-26CDefaultKeyValuesErrorSpew
-26ICommandCompletionCallback
-27CSchemaUtlVectorManipulatorI10CUtlVectorI25VsInputSignatureElement_t10CUtlMemoryIS1_iEES1_E
-28ISchemaCollectionManipulator
-3
-37CSchemaRegistration_rendersystemempty
-3C
-4
-4C
-5
-6
-6ConVar
-7
-7IConVar
-8
-8CFmtStrNILi256ELb0EE
-8CFunctor
-8b  16-May-2010
-9
-9.1.15
-:
-:1X:
-:X1:
-;
-<
-<< NULL >>
-<NULL>
-<deferred>
-<invalid %d>
-<no deferred ref found>
-<no failure reason set>
-<none>
-<null>
-<unconnected>
-<unknown multisample type
-<x360>
-=
->
->!h
->jm
-?
-?"N
-?(3w
-@
-@&LH
-@@
-A
-A':
-A8
-ALIGN_TYPE is wrong, please fix
-AMD
-APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
-ASCII conversion buffer too small
-ATI1N
-ATI2N
-ATI_DST16
-ATI_DST24
-Access of unconnected ConVarRef
-Access of unconnected SplitScreenConVarRef
-Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
-AllocInternal
-AllocateAndUploadSequenceData
-Allow immediately loading mips of textures (when possible) when their headers are loaded, saving IO & reducing latency.
-AnimGraphEditorUtils001
-AnimationSystemUtils_001
-AnimationSystem_001
-Application built with libpng-%.20s but running with %.20s
-Application must supply a known background gamma
-Application transferred too few scanlines
-Application transferred too many scanlines
-Apr
-Arithmetic table 0x%02x was not defined
-AssertMsg_ConditionFailed
-AssetBrowserSystem_001
-AssetPreviewSystem_001
-AssetSystem001
-AssetSystemTest001
-Async Texture hookup uses its own threadpool instead of the global pool.
-AsyncHookUpTextureBits
-AsyncTextureHookup
-At marker 0x%02x, recovery action %d
-Attempt to set buffer size beyond max ignored
-Aug
-B channel not found
-B channel not found!
-BC6H
-BC7
-BGR565
-BGR888_BLUESCREEN
-BGRA1010102
-BGRA4444
-BGRA5551
-BGRA8888_LINEAR
-BGRX8888_LINEAR
-Backing store not supported
-Bad VTEX data for '%s'
-Bad expression operator: '%c%c', expected C style boolean expression operator.
-Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
-Bad expression token: %c
-BakedLODBuilderMgr001
-BenchmarkService001
-Biases the mip level the texture streaming system choses to stream for each texture.
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
 BinaryProperties_GetValue
-Bogus DAC index %d
-Bogus DAC value 0x%x
-Bogus DHT index %d
-Bogus DQT index %d
-Bogus Huffman table definition
-Bogus JPEG colorspace
-Bogus buffer control mode
-Bogus input colorspace
-Bogus marker length
-Bogus sampling factors
-Bogus virtual array access
-Buffer error in compressed datastream in %s chunk
-Buffer passed to JPEG library is too small
-C
-CB: %u buffers, %.2f MB
-CBufferString::AppendConcat(int, char const* const*, int const*, bool)
-CBufferString::AppendFormatV(char const*, __va_list_tag*)
-CBufferString::ComposeFileName(char const*, char const*, char)
-CBufferString::Concat(char const*, char const*, ...)
-CBufferString::ExtendPath(char const*, char)
-CBufferString::ExtractFilePath(char const*)
-CBufferString::FixSlashes(char)
-CBufferString::FixupPathName()
-CBufferString::Format(char const*, ...)
-CBufferString::Insert(int, char const*, int, bool)
-CBufferString::MakeAbsolutePath(char const*, char const*)
-CBufferString::MakeRelativePath(char const*, char const*)
-CBufferString::Purge(int)
-CBufferString::Relinquish(CBufferString::EAllocationOption_t)
-CBufferString::RemoveAt(int, int)
-CBufferString::RemoveDotSlashes(char)
-CBufferString::RemoveFirstDir(CBufferString*)
-CBufferString::SetExtension(char const*)
-CBufferString::SetPtr(char*, int, int, bool, bool)
-CBufferString::ShortenPath()
-CBufferString::StripTrailingSlash()
-CBufferString::Swap(CBufferString&)
-CBufferString::ToLowerFast(int)
-CCIR601 sampling not implemented yet
-CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
-CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
-CCommandBufferChunk CUtlMemoryPoolMT
-CEntityIndex
-CLargeCommandBufferChunk CUtlMemoryPoolMT
-CMediumCommandBufferChunk CUtlMemoryPoolMT
-CMemAllocSystemInitialize
-COLORCORRECTION_VERSION_1
-CONTENT
-CONTENTROOT
-CRC error
-CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s
-CRenderDeviceBase::InitPerFrameMemoryStack
-CResourceArray
-CResourceString
-CTSQueue corruption
-CTextureManagerBase::MarkAsyncUpdatedThisFrame - Invalid texture handle.
-CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.
-CThreadEvent::CThreadEvent(bool)
-CThreadEvent::Set()
-CThreadFastMutex::Lock(char const*, int, unsigned long long, unsigned int) volatile
-CThreadMultiWaitEvent::CThreadMultiWaitEvent(bool)
-CThreadMultiWaitEvent::Set()
-CThreadMultiWaitEvent::~CThreadMultiWaitEvent()
-CThreadRWLock_FastRead::CThreadRWLock_FastRead()
-CThreadRWLock_FastRead::HandleFirstWriteLockTransition()
-CThreadRWLock_FastRead::UnlockReadAccounting(char const*, int, unsigned int)
-CThreadRWLock_FastRead::WaitForReadLockTransition(unsigned int, char const*, int)
-CThreadSemaphore::Release(int, int*)
-CThreadSemaphore::~CThreadSemaphore()
-CThreadSpinRWLock::LockForRead(char const*, int)
-CThreadSpinRWLock::SpinLockForWrite(char const*, int, unsigned long long)
-CThreadSpinRWLock::UnlockRead(char const*, int)
-CThreadSpinRWLock::UnlockWrite(char const*, int)
-CThreadSyncObject::Wait(unsigned int)
-CThreadSyncObject::WaitImpl(unsigned int)
-CThreadSyncObject::~CThreadSyncObject()
-CTransform
-CUBEMAP_FACE_NEGATIVE_X
-CUBEMAP_FACE_NEGATIVE_Y
-CUBEMAP_FACE_NEGATIVE_Z
-CUBEMAP_FACE_POSITIVE_X
-CUBEMAP_FACE_POSITIVE_Y
-CUBEMAP_FACE_POSITIVE_Z
-CUtlBlockMemory overflow!
-CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
-CUtlFixedMemory overflow!
-CUtlLinkedList overflow! (exhausted index range)
-CUtlLinkedList overflow! (exhausted memory allocator)
-CUtlMemoryPoolBase
-CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
-CUtlRBTree overflow with %u elements!
-CUtlString
-CUtlStringToken
-CUtlSymbol
-CUtlSymbolLarge
-CUtlVector
-CXXABI_1.3
-CXXABI_1.3.3
-Call to NULL read function
-Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request
-Can't clear TEXTURE_WAITING_FOR_IO flag because pTexture is NULL
-Can't detect memory size on this platform!
-Can't discard critical data on CRC error
-Can't set both read_data_fn and write_data_fn in the same structure
-Can't specify initial state of dynamic constant buffers at creation time!
-Cannot quantize more than %d color components
-Cannot quantize to fewer than %d colors
-Cannot quantize to more than %d colors
-Cannot read a file
-Cannot read file
-Cannot reconstruct lineOffset table in DecodeEXRImage.
-Cannot transcode due to multiple use of quantization table %d
-Cannot write a file
-Caution: quantization tables are too coarse for baseline JPEG
-ChangeCallbackOnChange
-Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore
-Closed temporary file %s
-CommandLine
-Component %d: %dhx%dv q=%d
-Component %d: dc=%d ac=%d
-Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
-Compressed texture decoded in %.2f ms
-ConMsg(char const*, ...)
-ConVar(%s) defined with infinite float value (%s)
-ConVarRef %s doesn't point to an existing ConVar
-Conditional Error: %s
-ConfigurationSystem_001
-ConnectInterfaces
-CopyAttrFrom
-Copyright (C) 2010, Thomas G. Lane, Guido Vollbeding
-Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
-Corrupt JPEG data: bad Huffman code
-Corrupt JPEG data: bad arithmetic code
-Corrupt JPEG data: found marker 0x%02x instead of RST%d
-Corrupt JPEG data: premature end of data segment
-CreateInterface
-CreateNewThreadPool
-CubeMapFace_t
-D15S1
-D16
-D16_SHADOW
-D24FS8
-D24X4S4
-D24X8
-D24X8_SHADOW
-D32
-DCT coefficient out of range
-DCT scaled block size %dx%d not supported
-DEMO
-DX11
-DX9
-DXT1
-DXT1_ONEBITALPHA
-DXT3
-DXT5
-DXT5_NM
-Data error in compressed datastream in %s chunk
-Data size too short
-DebugTextureInfo001
-Dec
-Decompressed %i texture mips in %.2f ms (%.1fmb/s)
-Decompression Error
-Decompression error
-Define Arithmetic Table 0x%02x: 0x%02x
-Define Huffman Table 0x%02x
-Define Quantization Table %d  precision %d
-Define Restart Interval %u
-DegreeEuler
-Deleting texture with outstanding streaming request (%s)
-DevMsg
-DevMsg(char const*, ...)
-DevWarning(char const*, ...)
-Didn't expect more than one scan
-Direct3D 11
-Direct3D 9
-Discarding abandoned streaming texture load for %s
-Display GPU memory usage.
-DotaCardGameClient_001
-Duplicate PLTE chunk
-Duplicate bKGD chunk
-Duplicate cHRM chunk
-Duplicate gAMA chunk
-Duplicate hIST chunk
-Duplicate iCCP chunk
-Duplicate oFFs chunk
-Duplicate pCAL chunk
-Duplicate pHYs chunk
-Duplicate sBIT chunk
-Duplicate sCAL chunk
-Duplicate sRGB chunk
-Duplicate tIME chunk
-Duplicate tRNS chunk
-ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!
-ERROR: Specified full path %s does not lie under the mod search path!)
-ERROR: Specified path %s could not be made content-relative
-EXECUTABLE_PATH
-EXPORTSYSTEM_INTERFACE_VERSION_001
-EXRHeader variable is not initialized.
-EXRReadFile() - B channel not found!
-EXRReadFile() - G channel not found!
-EXRReadFile() - R channel not found!
-EarlyInit_Tier0
-EconItemToolModel_001
-Empty
-Empty Driver
-Empty JPEG image (DNL not supported)
-Empty input file
-End Of Image
-EngineServiceMgr001
-EnvironmentMapBuilder_001
-EventSystem001
-Evict all resident texture.
-Exceeded size limit while expanding chunk
-Extra compressed data
-Extra compression data
-FATAL ERROR: unable to register all schema data: %s
-FCVAR_NEVER_AS_STRING
-Failed AllocateTexture for '%s'
-Failed to compute channel layout.
-Failed to create device. Modules loaded: %s
-Failed to create temporary file %s
-Failed to parse EXR version
-Failed to parse attribute
-Failed to parse channel info
-Failed to parse channel info.
-Failed to read attribute.
-Failed to save video settings config to '%s'
-Feb
-File size is zero :
-File size too short
-FileKeys
-FillAttr
-FilterFrom
-FindClosestMatchingRegion
-FindOrCreateTexture: Cannot create static textures with no data!
-FindOrCreateTexture: Cannot load multiple mipmaps into cubemap texture: %s
-FindOrCreateTexture: Only dynamic textures can have non-global scope!
-FindOrCreateTexture: Texture scope is unspecified!
-FindOrCreateTexture: Texture usage is unspecified!
-FixupResourceName: Illegal full path passed in ("%s")!
-FixupResourceName: Illegal path, missing extension passed in ("%s")!
-FlattenedSerializersVersion001
-FloatBitMap::QuarterSize
-FontManager_001
-FormatV
-Found %d streaming textures in array, but in-flight count is %d
-Fractional sampling not implemented yet
-Freed EMS handle %u
-Freed XMS handle %u
-G channel not found
-G channel not found!
-GAME
-GAMECONSOLE
-GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
-GCC: (Ubuntu 4.8.4-1ubuntu15~12.04+steamrt1+srt2) 4.8.4
-GCC: (crosstool-NG 1.17.0) 4.6.3
-GLIBCXX_3.4
-GLIBCXX_3.4.11
-GLIBCXX_3.4.14
-GLIBCXX_3.4.15
-GLIBCXX_3.4.19
-GLIBCXX_3.4.20
-GLIBCXX_3.4.9
-GLIBC_2.11
-GLIBC_2.14
-GLIBC_2.2.5
-GLIBC_2.3
-GLIBC_2.3.4
-GLIBC_2.4
-GNU
-GPU reports %dMB available memory which is too low, using %d MB
-GameResourceServiceClientV001
-GameResourceServiceServerV001
-GameUIService_001
-GenerateDistanceField
-GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
-GetCPUInformation
-GetResourceManifestCount
-GetResourceManifests
-Graphics Device changed, resetting video config
-Grow
-HIGHDPI
-HammerMapLoader001
-HelpSystem_001
-HookUpConfigValue
-HostStateMgr001
-Huffman code size table overflow
-Huffman table 0x%02x was not defined
-I
-IA88
-IB: %d buffers, %.2f MB
-INPUT_LAYOUT_VARIATION_DEFAULT
-INPUT_LAYOUT_VARIATION_MAX
-INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID
-INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_LIGHTMAP_PARAMS
-INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
-INPUT_LAYOUT_VARIATION_STREAM1_MAT3X4
-IQuickTime001
-Ignoring PLTE chunk in grayscale PNG
-Ignoring attempt to set cHRM RGB triangle with zero area
-Ignoring attempt to set negative chromaticity value
-Ignoring bad adaptive filter type
-Ignoring cHRM chunk with negative chromaticities
-Ignoring extra png_read_update_info() call; row buffer not reallocated
-Ignoring extra png_start_read_image() call; row buffer not reallocated
-Ignoring gAMA chunk with out of range gamma
-Ignoring iCCP chunk with declared size = %u and actual length = %u
-Ignoring incorrect cHRM value when sRGB is also present
-Ignoring incorrect gAMA value when sRGB is also present
-Ignoring nonzero compression type in iCCP chunk
-IiGM
-Image data size is zero or too large: width =
-Image height exceeds user limit in IHDR
-Image height is zero in IHDR
-Image is too high to process with png_read_png()
-Image too wide for this implementation
-Image width exceeds user limit in IHDR
-Image width is zero in IHDR
-Improper call to JPEG library in state %d
-Incomplete compressed datastream in %s chunk
-Inconsistent progression sequence for component %d coefficient %d
-Incorrect IEND chunk length
-Incorrect bKGD chunk index value
-Incorrect bKGD chunk length
-Incorrect cHRM chunk length
-Incorrect gAMA chunk length
-Incorrect hIST chunk length
-Incorrect oFFs chunk length
-Incorrect pHYs chunk length
-Incorrect sBIT chunk length
-Incorrect sRGB chunk length
-Incorrect tIME chunk length
-Incorrect tRNS chunk length
-Input file read error
-InputLayoutVariation_t
-InputService_001
-InputStackSystemVersion001
-InputSystemVersion001
-InstallChangeCallback called with NULL callback, ignoring!!!
-InstallChangeCallback ignoring duplicate change callback!!!
-InstallSchemaBindings
-Insufficient data length.
-Insufficient data size for attributes.
-Insufficient data size in offset table.
-Insufficient data size.
-Insufficient header/data size.
-Insufficient memory (case %d)
-Insufficient memory for hIST chunk data
-Insufficient memory for pCAL parameter
-Insufficient memory for pCAL params
-Insufficient memory for pCAL purpose
-Insufficient memory for pCAL units
-Insufficient memory to process iCCP chunk
-Insufficient memory to process iCCP profile
-Insufficient memory to process text chunk
-Insufficient memory to store iTXt chunk
-Insufficient memory to store text
-Insufficient memory to store zTXt chunk
-Intel
-Intentionally vague touch behavior for %p
-Interlace handling should be turned on when using png_read_image
-Invalid EXR header.
-Invalid IHDR chunk
-Invalid IHDR data
-Invalid JPEG file structure: SOS before SOF
-Invalid JPEG file structure: missing SOS marker
-Invalid JPEG file structure: two SOF markers
-Invalid JPEG file structure: two SOI markers
-Invalid PLTE after IDAT
-Invalid SOS parameters for sequential JPEG
-Invalid `part number' in EXR header chunks.
-Invalid access of deferred ConVarRef for '%s'
-Invalid argument for DecodeEXRImage().
-Invalid argument for LoadDeepEXR
-Invalid argument for LoadEXR()
-Invalid argument for LoadEXRFromMemory
-Invalid argument for LoadEXRImageFromFile
-Invalid argument for LoadEXRImageFromMemory
-Invalid argument for LoadEXRMultipartImageFromFile
-Invalid argument for LoadEXRMultipartImageFromMemory()
-Invalid argument for ParseEXRHeaderFromFile
-Invalid argument for ParseEXRMultipartHeaderFromFile()
-Invalid argument for ParseEXRMultipartHeaderFromMemory
-Invalid argument for SaveEXRImageToFile
-Invalid argument for SaveEXRImageToMemory
-Invalid argument. `memory` or `exr_header` argument is null in ParseEXRHeaderFromMemory()
-Invalid attempt to read row data
-Invalid bKGD after IDAT
-Invalid bit depth in IHDR
-Invalid cHRM after IDAT
-Invalid cHRM blue point
-Invalid cHRM green point
-Invalid cHRM red point
-Invalid cHRM white point
-Invalid channels format
-Invalid color quantization mode change
-Invalid color type in IHDR
-Invalid color type/bit depth combination in IHDR
-Invalid component ID %d in SOS
-Invalid crop request
-Invalid data found when decoding pixels.
-Invalid data height value
-Invalid data width or data height:
-Invalid data width value
-Invalid filter method in IHDR
-Invalid format for pCAL parameter
-Invalid gAMA after IDAT
-Invalid hIST after IDAT
-Invalid iCCP after IDAT
-Invalid image height in IHDR
-Invalid image width in IHDR
-Invalid magic number
-Invalid memory pool code %d
-Invalid oFFs after IDAT
-Invalid offset size in EXR header chunks.
-Invalid offset value in DecodeEXRImage.
-Invalid pCAL after IDAT
-Invalid pCAL data
-Invalid pCAL equation type
-Invalid pCAL parameters for equation type
-Invalid pHYs after IDAT
-Invalid palette chunk
-Invalid palette length
-Invalid palette size, hIST allocation skipped
-Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
-Invalid progressive parameters at scan script entry %d
-Invalid rendersystem %d
-Invalid sBIT after IDAT
-Invalid sCAL after IDAT
-Invalid sCAL chunk ignored: bad height format
-Invalid sCAL chunk ignored: bad width format
-Invalid sCAL height
-Invalid sCAL height ignored
-Invalid sCAL ignored: invalid unit
-Invalid sCAL unit
-Invalid sCAL width
-Invalid sCAL width ignored
-Invalid sPLT after IDAT
-Invalid sRGB after IDAT
-Invalid scan script at entry %d
-Invalid sequence number %d!!!
-Invalid tRNS after IDAT
-Invalid thread index (%d) given
-Invalid tile size x :
-Invalid tile size y :
-JFIF APP0 marker: version %d.%02d, density %dx%d  %d
-JFIF extension marker: JPEG-compressed thumbnail image, length %u
-JFIF extension marker: RGB thumbnail image, length %u
-JFIF extension marker: palette thumbnail image, length %u
-JFIF extension marker: type 0x%02x, length %u
-JPEG datastream contains no image
-JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
-JPEGMEM
-JSON error, unterminated element:
-Jan
-Jul
-Jun
-KMeansQuantization
-KNQ
-KV Conditional Evaluation Error
-KeyValueCache001
-KeyValues Error: %s in file %s
-KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
-KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
-KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
-KeyValuesSystem
-LE_BGRA8888
-LE_BGRX8888
-LINEAR_ABGR8888
-LINEAR_ARGB8888
-LINEAR_BGR888
-LINEAR_BGRA8888
-LINEAR_BGRX5551
-LINEAR_BGRX8888
-LINEAR_D24S8
-LINEAR_I8
-LINEAR_RGB888
-LINEAR_RGBA16161616
-LINEAR_RGBA8888
-LINUX
-LMb#
+Plat_DebugPrint
+__cxa_atexit
 LOG_GENERAL
-LOWVIOLENCE
-Linear
-LoadEXRImageFromMemory() failed! Error message: %s
-LoadFromBuffer: expected '{', found '%s'
-Loaded video settings config from '%s'
-Loading multipart or DeepImage is not supported  in LoadEXR() API
-Localize_001
 LoggingSystem_IsChannelEnabled
-LoggingSystem_Log
 LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, char const*, ...)
-LoggingSystem_LogDirect
+Plat_ShouldCollectMiniDumpsForFatalErrors
+Plat_ExitProcess
+vtable for __cxxabiv1::__class_type_info
+pthread_mutex_destroy
+operator delete(void*)
+g_pMemAlloc
+pthread_mutex_lock
+pthread_mutex_unlock
+ThreadGetCurrentId
+__cxa_guard_acquire
+pthread_mutexattr_init
+pthread_mutexattr_settype
+pthread_mutex_init
+__cxa_guard_release
+vtable for __cxxabiv1::__si_class_type_info
+operator new[](unsigned long)
+memcpy
+operator delete[](void*)
+_V_strnicmp_fast
+DevWarning(char const*, ...)
+Plat_IsInDebugSession
+CThreadFastMutex::Lock(char const*, int, unsigned long long, unsigned int) volatile
+CThreadRWLock_FastRead::UnlockReadAccounting(char const*, int, unsigned int)
+operator new(unsigned long)
+Plat_GetThreadIndex
+vtable for __cxxabiv1::__vmi_class_type_info
+__cxa_pure_virtual
+__stack_chk_fail
+CommandLine
+memset
+Plat_GetCPUFrequency
+ThreadYield
+CBufferString::Purge(int)
+Plat_ReconfigureWindow
+V_PrettifyNum
+LoggingSystem_Log
+CThreadRWLock_FastRead::HandleFirstWriteLockTransition()
+CThreadEvent::Set()
+CThreadSemaphore::Release(int, int*)
+CThreadSyncObject::Wait(unsigned int)
+memcmp
+CThreadSpinRWLock::LockForRead(char const*, int)
+CThreadSpinRWLock::UnlockRead(char const*, int)
+CThreadSpinRWLock::SpinLockForWrite(char const*, int, unsigned long long)
+CThreadSpinRWLock::UnlockWrite(char const*, int)
+Plat_OsSpecificHandleToPlatWindow
+Plat_WindowToOsSpecificHandle
+CThreadEvent::CThreadEvent(bool)
+CThreadRWLock_FastRead::CThreadRWLock_FastRead()
+Plat_GetClockStart
+g_pThreadPool
+V_stricmp_fast
+CThreadRWLock_FastRead::WaitForReadLockTransition(unsigned int, char const*, int)
+Plat_GetWindowMonitorIndex
+Plat_GetDesktopResolution
+Plat_GetDefaultMonitorIndex
+CThreadSyncObject::~CThreadSyncObject()
+memmove
+CThreadSemaphore::~CThreadSemaphore()
+typeinfo for CThreadSyncObject
+CThreadSyncObject::WaitImpl(unsigned int)
+_V_strncpy
+AssertMsg_ConditionFailed
+Plat_MessageBox
+V_strtoi64
+V_stristr_fast(char const*, char const*)
+GetCPUInformation
+Plat_GlobalMemoryStatus
 LoggingSystem_RegisterLoggingChannel
-Logic Error in CExpressionEvaluator
-M0@
-MATCHFRAMEWORK_001
-MAX_ALLOC_CHUNK is wrong, please fix
-MGiI
-MNG features are not allowed in a PNG datastream
-MN_BuildRequestedResourcesList
-MN_OnResourceFileLoaded
-MN_OnResourceLoadCompleted
-MN_OnResourceLoadFailed
-MNetworkBitCount
-MNetworkChangeCallback
-MNetworkEncoder
-MNetworkOverride_Invalid
-MNetworkPriority
-MNetworkRemoveAll
-MNetworkSerializer
-MNetworkUserGroup
-MOD
-MODEL_PROCESSING_SCRIPT_INTERFACE_001
-MODEL_PROCESSING_SERVICES_INTERFACE_001
-Malformed iCCP chunk
-Malformed iTXt chunk
-Mantle
-MapListService_001
-Mar
-MaterialUtils_001
-MathLib_Init
-MaxDeviceID
-Maximum supported image dimension is %u pixels
-May
+V_vsnprintf
+V_logf
+floorf
+CreateNewThreadPool
+ReturnJobManualEventToPool
+CBufferString::Insert(int, char const*, int, bool)
+Plat_NeedsLowFragmentation
+SeriousWarning
+V_qsort
+Plat_FloatTime
+Plat_GetMonitorResolution
+EarlyInit_Tier0
+operator new[](unsigned long, std::nothrow_t const&)
+operator new(unsigned long, std::nothrow_t const&)
+V_snprintf
+strlen
+_V_strncat
+strchr
+V_atoi
+V_sscanf
+V_atofloat64
+ConMsg(char const*, ...)
+V_atof
+strcmp
+CreateInterface
+KeyValuesSystem
+DevMsg
+LoggingSystem_LogDirect
+V_strtoui64
+V_UTF32ToUTF8
+V_UnicodeLength(char const*)
+V_UTF8CharsToUTF16
+V_wcstoi64
+V_swscanf
+V_wcstod
+wcslen
+V_UTF8ToUTF32
+V_snwprintf_cch
+wcscmp
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
-Memory allocation failed while processing sCAL
-MeshSystem001
-MeshUtils001
-MinDeviceID
-Miscellaneous marker 0x%02x, length %u
-Missing Huffman code table entry
-Missing IHDR before IDAT
-Missing IHDR before PLTE
-Missing IHDR before bKGD
-Missing IHDR before cHRM
-Missing IHDR before gAMA
-Missing IHDR before hIST
-Missing IHDR before iCCP
-Missing IHDR before iTXt
-Missing IHDR before oFFs
-Missing IHDR before pCAL
-Missing IHDR before pHYs
-Missing IHDR before sBIT
-Missing IHDR before sCAL
-Missing IHDR before sPLT
-Missing IHDR before sRGB
-Missing IHDR before tEXt
-Missing IHDR before tRNS
-Missing IHDR before zTXt
-Missing PLTE before IDAT
-Missing PLTE before bKGD
-Missing PLTE before cHRM
-Missing PLTE before hIST
-Missing PLTE before tRNS
-ModelDocUtils001
-N
-N24CFieldPathHuffmanEncoder12InternalNodeE
-N24CFieldPathHuffmanEncoder8LeafNodeE
-NETWORK_FIELD_LOWEST_PRIORITY
-NSt13__future_base19_Async_state_commonE
-NULL row buffer for row %ld, pass %d
-NV_DST16
-NV_DST24
-NV_INTZ
-NV_NULL
-NV_RAWZ
-Negative or zero gamma ignored
-NetworkClientService_001
-NetworkMessagesVersion001
-NetworkP2PService_001
-NetworkServerService_001
-NetworkService_001
-NetworkSystemUtilsVersion001
-NetworkSystemVersion001
-NewNode
-No image in file
-No memory for pCAL params
-No memory for pCAL purpose
-No memory for sPLT palettes
-No memory to process iTXt chunk
-No memory to process text chunk
-No space in chunk cache for iTXt
-No space in chunk cache for sPLT
-No space in chunk cache for tEXt
-No space in chunk cache for unknown chunk
-No space in chunk cache for zTXt
-None
-Not a JPEG file: starts with 0x%02x 0x%02x
-Not a PNG file
-Not enough image data
-Not enough memory to decompress chunk
-Not enough memory to process iTXt chunk
-Not enough memory to process text chunk
-Not enough memory to process zTXt chunk
-Not implemented yet
-Nov
-O
-O*9y
-OSX
-OUTSTANDING_HOOKUP_REQUEST
-Obtained EMS handle %u
-Obtained XMS handle %u
-Oct
-Only immediately load textures which have a fullmipchain.
-OpenGL
-Opened temporary file %s
-Out of memory processing zTXt chunk
-Out of memory while processing sCAL chunk
-Out of memory while processing sPLT chunk
-Out of memory while processing unknown chunk
-Out of place IHDR
-Out of place gAMA chunk
-Out of place iCCP chunk
-Out of place sBIT chunk
-Out of place sRGB chunk
-Out of place tIME chunk
-Output file write error --- out of disk space?
-Output memory size is zero
-Overall System GPU memory use:
-Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!
-Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!
-P
-P8
-P@
-PARALLEL_PROCESS tinyexr_impl.cpp:163
-PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.
-PF%d %d-1.000000
-PNG file corrupted by ASCII conversion
-PNG unsigned integer out of range
-POSIX
-PS3
-PWL
-PanoramaTextServices001
-PanoramaUIClient001
-PanoramaUIEngine001
-ParseEXRHeaderFromMemory() failed! Error message: %s
-ParticleSystemMgr003
-Pf%d %d-1.000000
-Physics2 Interface Old v0.5
-PhysicsBuilderMgr001
-Plat_DebugPrint
-Plat_ExitProcess
-Plat_FloatTime
-Plat_GetCPUFrequency
-Plat_GetClockStart
-Plat_GetDefaultMonitorIndex
-Plat_GetDesktopResolution
-Plat_GetEnv
-Plat_GetModuleFilename
-Plat_GetMonitorResolution
-Plat_GetOSType
-Plat_GetThreadIndex
-Plat_GetWindowMonitorIndex
-Plat_GlobalMemoryStatus
-Plat_IsHighDPI
-Plat_IsInDebugSession
-Plat_MessageBox
-Plat_NeedsLowFragmentation
-Plat_OsSpecificHandleToPlatWindow
-Plat_ReconfigureWindow
-Plat_ShouldCollectMiniDumpsForFatalErrors
+V_vsnprintfWarnTrunc
+V_SetErrno
+V_strtod
+V_GetErrno
+V_UTF16ToUTF8
+DevMsg(char const*, ...)
+_V_StringAfterPrefix
+CMemAllocSystemInitialize
 Plat_VirtualAlloc
 Plat_VirtualFree
-Plat_WindowToOsSpecificHandle
-PostProcessingSystem_001
-Potential overflow in png_zalloc()
-PreloadTextureBits
-Premature end of JPEG file
-Premature end of input file
-Profile size field missing from iCCP chunk
-PropertyEditorSystem_001
-QAngle
-QC,A
-Quantization table 0x%02x was not defined
-Quantizing to %d = %d*%d*%d colors
-Quantizing to %d colors
-QuarterSizeAttrWithBoxFilter
-Quaternion
-QueuedLoaderVersion001
-R channel not found
-R channel not found!
-R11_EAC
-R16
-R16F
-R16F_EXPAND
-R32F
-R32_UINT
-R8G8B8A8_ETC2_EAC
-R8G8B8_ETC2
-RENDER_BUFFER_APPEND_CONSUME_BUFFER
-RENDER_BUFFER_BYTEADDRESS_BUFFER
-RENDER_BUFFER_STRUCTURED_BUFFER
-RENDER_BUFFER_UAV_COUNTER
-RENDER_BUFFER_USAGE_INDEX_BUFFER
-RENDER_BUFFER_USAGE_SHADER_RESOURCE
-RENDER_BUFFER_USAGE_UNORDERED_ACCESS
-RENDER_BUFFER_USAGE_VERTEX_BUFFER
-RENDER_MULTISAMPLE_16X
+_V_strncmp
+_V_strnistr_fast
+V_strnchr
+CBufferString::Relinquish(CBufferString::EAllocationOption_t)
+V_strlower_fast
+V_strupper_fast
+V_UnicodeCaseConvert(char const*, char*, int, int, EStringConvertErrorPolicy)
+V_vsnprintfSize
+V_FixSlashes
+V_RemoveDotSlashes
+V_FixDoubleSlashes
+_V_MakeAbsolutePath
+V_UnqualifiedFileName
+_V_StripLastDir
+V_StripTrailingSlash
+_V_StripExtension
+_V_FileBase
+_V_ExtractFileExtension
+_V_ComposeFileName
+V_strnlen
+V_StrTrim
+V_tier0_strstr
+V_localeconv
+g_Tier1_CRC32Table
+g_Tier1_CRC64Table
+Plat_GetOSType
+Plat_IsHighDPI
+V_qsort_s
+V_CopyMemory3D
+__memcpy_chk
+V_powf
+V_expf
+g_Mathlib_GammaToLinearByteTable
+V_pow
+CThreadMultiWaitEvent::Set()
+ceilf
+sqrtf
+V_sinf
+std::ctype<char>::do_widen(char) const
+free
+malloc
+realloc
+std::string::_Rep::_M_destroy(std::allocator<char> const&)
+std::__throw_out_of_range_fmt(char const*, ...)
+std::__throw_bad_alloc()
+fopen64
+fseek
+ftell
+fread
+fclose
+std::vector<unsigned char, std::allocator<unsigned char>>::vector(unsigned long, std::allocator<unsigned char> const&)
+std::vector<unsigned char, std::allocator<unsigned char>>::vector(unsigned long, std::allocator<unsigned char> const&)
+std::vector<unsigned short, std::allocator<unsigned short>>::vector(unsigned long, std::allocator<unsigned short> const&)
+std::vector<unsigned short, std::allocator<unsigned short>>::vector(unsigned long, std::allocator<unsigned short> const&)
+std::vector<unsigned char, std::allocator<unsigned char>>::_M_default_append(unsigned long)
+std::__throw_length_error(char const*)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned long, std::allocator<char> const&)
+std::string::swap(std::string&)
+std::string::_Rep::_S_empty_rep_storage
+std::string::compare(char const*) const
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_emplace_back_aux<unsigned char const&>(unsigned char const&)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_emplace_back_aux<unsigned char const&>(unsigned char const&)
+void std::vector<std::vector<unsigned long, std::allocator<unsigned long>>, std::allocator<std::vector<unsigned long, std::allocator<unsigned long>>>>::_M_emplace_back_aux<std::vector<unsigned long, std::allocator<unsigned long>> const&>(std::vector<unsigned long, std::allocator<unsigned long>> const&)
+void std::vector<std::vector<unsigned long, std::allocator<unsigned long>>, std::allocator<std::vector<unsigned long, std::allocator<unsigned long>>>>::_M_emplace_back_aux<std::vector<unsigned long, std::allocator<unsigned long>> const&>(std::vector<unsigned long, std::allocator<unsigned long>> const&)
+std::vector<float, std::allocator<float>>::_M_default_append(unsigned long)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<unsigned char const*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, unsigned char const*, unsigned char const*, std::forward_iterator_tag)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, char*, char*, std::forward_iterator_tag)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, std::forward_iterator_tag)
+__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>> std::vector<unsigned char, std::allocator<unsigned char>>::insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, void>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>)
+strdup
+fwrite
+char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag)
+std::__throw_logic_error(char const*)
+std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
+std::ios_base::ios_base()
+vtable for std::basic_ios<char, std::char_traits<char>>
+VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>
+std::locale::locale()
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)
+std::ostream::operator<<(int)
+std::ostream::put(char)
+std::ostream::flush()
+std::locale::~locale()
+std::ios_base::~ios_base()
+std::ctype<char>::_M_widen_init() const
+std::string::assign(std::string const&)
+std::__throw_bad_cast()
+std::string::assign(char const*, unsigned long)
+std::string::append(char const*, unsigned long)
+std::string::append(std::string const&)
+std::string::insert(unsigned long, char const*, unsigned long)
+calloc
+std::string::operator+=(char const*)
+__pthread_key_create
+__longjmp_chk
+_setjmp
+V_acosf
+V_sincosf
+RandomFloat
+V_atan2f
+floor
+V_frexpf
+V_cosf
+V_asinf
+V_fmodf
+V_tanf
+V_atanf
+RandomSeed
+ThreadSleep
+V_strtok
+strcpy
+InstallSchemaBindings
+GetResourceManifestCount
+GetResourceManifests
+CBufferString::Format(char const*, ...)
+V_IsAbsolutePath
+V_GetFileExtension
+CBufferString::ToLowerFast(int)
+CBufferString::RemoveAt(int, int)
+CBufferString::FixupPathName()
+CBufferString::FixSlashes(char)
+CBufferString::SetPtr(char*, int, int, bool, bool)
+CBufferString::Concat(char const*, char const*, ...)
+CBufferString::SetExtension(char const*)
+CBufferString::AppendFormatV(char const*, __va_list_tag*)
+_V_SetExtension
+g_Tier1_BitWriteMasks
+g_Tier1_ExtraMasks
+ThreadMultiWait
+CThreadMultiWaitEvent::CThreadMultiWaitEvent(bool)
+CThreadMultiWaitEvent::~CThreadMultiWaitEvent()
+trunc
+frexp
+stderr
+fprintf
+fputc
+abort
+longjmp
+__sprintf_chk
+__fprintf_chk
+getenv
+__gxx_personality_v0
+__cxa_begin_catch
+__cxa_rethrow
+__cxa_end_catch
+std::__future_base::_State_base::~_State_base()
+std::terminate()
+std::__future_base::_Result_base::~_Result_base()
+std::__throw_bad_function_call()
+std::current_exception()
+std::__exception_ptr::exception_ptr::swap(std::__exception_ptr::exception_ptr&)
+std::__exception_ptr::exception_ptr::~exception_ptr()
+__assert_fail
+std::__once_callable
+__tls_get_addr
+std::__throw_system_error(int)
+std::thread::join()
+std::__once_call
+__once_proxy
+std::condition_variable::notify_all()
+std::__throw_future_error(int)
+vtable for std::__future_base::_State_base
+std::condition_variable::condition_variable()
+std::__future_base::_Result_base::_Result_base()
+std::thread::_M_start_thread(std::shared_ptr<std::thread::_Impl_base>)
+std::chrono::_V2::steady_clock::now()
+std::condition_variable::wait(std::unique_lock<std::mutex>&)
+std::__exception_ptr::operator==(std::__exception_ptr::exception_ptr const&, std::__exception_ptr::exception_ptr const&)
+roundf
+__printf_chk
+std::__exception_ptr::exception_ptr::exception_ptr(std::__exception_ptr::exception_ptr const&)
+std::rethrow_exception(std::__exception_ptr::exception_ptr)
+typeinfo for std::__future_base::_Result_base
+typeinfo for std::__future_base::_State_base
+vtable for __cxxabiv1::__pointer_type_info
+pthread_once
+ceil
+__isnanf
+sqrt
+V_PathContainsPath
+CBufferString::MakeRelativePath(char const*, char const*)
+CBufferString::RemoveFirstDir(CBufferString*)
+CBufferString::ComposeFileName(char const*, char const*, char)
+CBufferString::Swap(CBufferString&)
+CBufferString::StripTrailingSlash()
+CBufferString::RemoveDotSlashes(char)
+CBufferString::ExtendPath(char const*, char)
+CBufferString::ExtractFilePath(char const*)
+CBufferString::AppendConcat(int, char const* const*, int const*, bool)
+Plat_GetModuleFilename
+CBufferString::ShortenPath()
+Plat_GetEnv
+CBufferString::MakeAbsolutePath(char const*, char const*)
+libm.so.6
+libstdc++.so.6
+libpthread.so.0
+ld-linux-x86-64.so.2
+libtier0.so
+libvstdlib.so
+dl_iterate_phdr
+libc.so.6
+_edata
+__bss_start
+_end
+librendersystemempty.so
+$ORIGIN
+GLIBC_2.3
+GLIBC_2.2.5
+GLIBCXX_3.4.20
+GLIBCXX_3.4.19
+GLIBCXX_3.4.9
+GLIBCXX_3.4.15
+GLIBCXX_3.4.11
+CXXABI_1.3
+CXXABI_1.3.3
+GLIBCXX_3.4.14
+GLIBCXX_3.4
+GLIBC_2.4
+GLIBC_2.14
+GLIBC_2.11
+GLIBC_2.3.4
+Intentionally vague touch behavior for %p\n
+../public/ordered_constructor.h
+Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
+Release
+rendersystemempty
+AddRef
+text
+binary
+binary_bc
+binary_lz4
+binary_auto
+generic
+TestFormatA
+TestFormatB
+TestFormatC
+TestFormatD
+TestFormatE
+5t~BC
+\r<unknown>
+blocking issue in occlusion queries!!\n
+../public/tier1/utlfixedmemory.h
+../public/tier1/utllinkedlist.h
+CUtlLinkedList overflow! (exhausted memory allocator)\n
+CUtlLinkedList overflow! (exhausted index range)\n
+occlusionquerymgr.cpp
+CUtlFixedMemory overflow!\n
+AllocInternal
+Grow
+rendercontextbase.cpp
+Invalid thread index (%d) given\n
+Too many threads (%d) accessing the render device, need to increase -r_max_device_threads (%d)\n
+CCommandBufferChunk CUtlMemoryPoolMT
+CMediumCommandBufferChunk CUtlMemoryPoolMT
+CLargeCommandBufferChunk CUtlMemoryPoolMT
+14IRenderContext
+RENDER_MULTISAMPLE_INVALID
+<unknown multisample type
+-shaderstats
+renderstatehelper.h
+  VB: %d buffers, %.2f MB\n
+  IB: %d buffers, %.2f MB\n
+  CB: %u buffers, %.2f MB\n
+  TEX: %u textures, %.2f MB\n
+  TOTAL: %.2f MB\n
+Texture Streaming:\n
+  %s / %s MB\n
+../public/tier1/utltshash.h
+Display GPU memory usage.
+r_gpu_mem_stats
+-r_max_device_threads
+-rendersystem_thread_mode
+single
+queued
+renderdevicebase.cpp
+../public/tier1/memstack.h
+r_texturefilteringquality
+r_fullscreen_gamma
+r_wait_on_present
+RENDER_MULTISAMPLE_NONE
 RENDER_MULTISAMPLE_2X
 RENDER_MULTISAMPLE_4X
 RENDER_MULTISAMPLE_6X
 RENDER_MULTISAMPLE_8X
-RENDER_MULTISAMPLE_INVALID
-RENDER_MULTISAMPLE_NONE
+RENDER_MULTISAMPLE_16X
+rendersystem (%s) tracked resources:\n
+  %s / %s MB (non-evictable: %s MB)\n
+Overall System GPU memory use:\n
+FindOrCreateTexture: Texture usage is unspecified!\n
+FindOrCreateTexture: Texture scope is unspecified!\n
+FindOrCreateTexture: Only dynamic textures can have non-global scope!\n
+FindOrCreateTexture: Cannot create static textures with no data!\n
+WARNING: Trying to create a CRenderContextPtr without a valid context.\n
+FindOrCreateTexture: Cannot load multiple mipmaps into cubemap texture: %s\n
+CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s\n
+Warning: have oustanding per-frame memory stack with %d allocations\n
+Warning: have %d in use and %d free per-frame memory stacks outstanding. The oldest stack was created at present %d, and we're now on present %d\n
+ Can't specify initial state of dynamic constant buffers at creation time!\n
+CRenderDeviceBase::InitPerFrameMemoryStack
+0: Bilinear, 1: Trilinear, 2: Aniso 2x, 3: Aniso 4x, 4: Aniso 8x, 5: Aniso 16x
+Screen Gamma (only in fullscreen modes)
+AllocInternal
+Grow
+12CThreadEvent
+16ICommandCallback
+26ICommandCompletionCallback
+13IRenderDevice
+12CDeviceFence
+16CDeviceFenceBase
+14CSwapChainBase
+25CConCommandMemberAccessorI17CRenderDeviceBaseE
+17CRenderDeviceBase
+15CRenderPassDesc
+5cfg/moddefaults.txt
+video.cfg
+VendorID
+min megahertz
+max megahertz
+Intel
+MinDeviceID
+MaxDeviceID
+min megabytes
+max megabytes
+min megatexels
+max megatexels
+-ignoredxsupportcfg
+EXECUTABLE_PATH
+dxsupport.cfg
+setting.MaxDXLevel
+setting.MinDXLevel
+setting.DXLevel
+setting.CentroidHack
+setting.PreferZPrepass
+setting.PreferHardwareSync
+setting.Unsupported
+-debugdxsupport
+setting.fullscreen
+setting.coop_fullscreen
+setting.nowindowborder
+setting.mat_vsync
+setting.defaultres
+setting.defaultresheight
+setting.shaderquality
+setting.high_dpi
+cfg/videodefaults.txt
+setting.
+(%s): Setting %s to %s\n
+(%s): ADD %s = %s\n
+makemelast
+Video Card %s (%04x : %04x)\n
+min_processor_count
+max_processor_count
+setting.maxdxlevel
+FileKeys
+Version
+setting.knowndevice
+setting.recommendedwidth
+setting.recommendedheight
+setting.refreshrate_numerator
+setting.resettodefaults
+cfg/video.txt
+cfg/video_%02d.txt
+_tools.txt
+video_version
+cfg/video_version.txt
+-autoconfig
+-autoconfig_level
+RenderDevice003
+RenderHardwareConfig002
+RenderSystem
+filesystem_stdio
+VNewAsyncFileSystem001
+resourcesystem
+ResourceSystem013
+vstdlib
+ConfigurationSystem_001
+localize
+Localize_001
+EventSystem001
+renderdevicemgrbase.cpp
+false
+#RenderSystem_UnableToStartGame
+#RenderSystem_CannotCreateDevice
+Failed to create device. Modules loaded: %s\n
+setting.DisableShaderOptimizations
+setting.SuppressPixelShaderCentroidHackFixup
+setting.PreferTexturesInHWMemory
+setting.HasBrokenPipelineStats
+setting.fullscreen_min_on_focus_loss
+Can't detect memory size on this platform!\n
+setting.refreshrate_denominator
+Saved video settings config to '%s'\n
+Failed to save video settings config to '%s'\n
+Loaded video settings config from '%s'\n
+Graphics Device changed, resetting video config\n
+Video config version number changed ( '%s' is version %i, current version is %i ). Resetting video config.\n
+10IAppSystem
+16IRenderDeviceMgr
+14CBaseAppSystemI16IRenderDeviceMgrE
+15CTier0AppSystemI16IRenderDeviceMgrE
+15CTier1AppSystemI16IRenderDeviceMgrLi0EE
+15CTier2AppSystemI16IRenderDeviceMgrLi0EE
+20CRenderDeviceMgrBase
+-force_recommend_gl
+-adapter
+-disallowhwmorph
+-maxdxlevel
+None
+DX11
+OpenGL
+Xbox 360
+Empty
+Mantle
+Vulkan
+Invalid rendersystem %d
+Direct3D 9
+Direct3D 11
+<none>
+-dx9
+-dx11
+<x360>
+-empty
+-mantle
+-vulkan
+<invalid %d>
+Trying to set dxlevel (%d) which is lower than the card can support (%d)!\n
+Trying to set dxlevel (%d) which is higher than the card can support (%d)!\n
+21IRenderHardwareConfig
+21CRenderHardwareConfig
+RenderUtils_001
+12IRenderUtils
+14CBaseAppSystemI12IRenderUtilsE
+15CTier0AppSystemI12IRenderUtilsE
+15CTier1AppSystemI12IRenderUtilsLi0EE
+15CTier2AppSystemI12IRenderUtilsLi0EE
+12CRenderUtils
+sheetcache.cpp
+sheetcachetexture_.vtex
+Overflow of the sheet cache texture. Releasing and starting over. This is ok in asset browser, not so ok if the game is triggering this!\n
+Overflow of the sheet cache texture: Try increasing SheetCacheTextureRows in gameinfo.gi (current value %d)!\n
+Rendersystem/SheetCacheTextureRows
+Rendersystem/SheetCacheTextureCols
+AllocateAndUploadSequenceData
+AJob
+RESOURCE_TYPE_TEXTURE
+-dontEvictTextures
+-maxtextureres
+-deferTextureLoads
+-preloadtextures
+AsyncTextureHookup
+Evict all resident texture.
+r_textures_evict_all
+-shadowTargetSize
+texturebase.cpp
+Streaming Validation: %s 
+WAITING_FOR_IO 
+WAITING_FOR_HOOKUP_JOB 
+OUTSTANDING_HOOKUP_REQUEST 
+TEXMAN: Deleting %d textures\n
+AsyncHookUpTextureBits
+png/jpg
+immediate
+TEXMAN: Abandoning job in %s\n
+Bad VTEX data for '%s'\n
+1600
+r_texture_pool_size
+r_texture_stream_mip_bias
+r_max_texture_pool_size
+r_texture_nonstreaming_load
+r_validate_texture_streaming
+RenderSystem/AllowSampleableDepthInVr
+RenderSystem/AlwaysPreloadTexturesInGame
+TEXMAN: Outstanding stream count %d -> %d (%s)\n
+ -shadowTargetSize forcing nPoolSizeInMb size to %d from %d, bLarge %d, avail %lld\n
+PERF WARNING: Texture pool size set to more than 80%% of total GPU memory.\n
+GPU reports %dMB available memory which is too low, using %d MB\n
+Texture memory discrepancy! %llu != %llu\n
+Texture streaming validation OK (%d texture loads in flight).\n
+Found %d streaming textures in array, but in-flight count is %d\n
+CTextureManagerBase::MarkAsyncUpdatedThisFrame - Invalid texture handle.\n
+CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.\n
+Texture manager out of space! Can't allocate new texture!\n
+texturebase.cpp(2740):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2761):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2772):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2783):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2794):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2815):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2826):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2837):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+texturebase.cpp(2848):ResourceHandleToData( %s ) failed! Falling back to error texture!\n
+TEXMAN: Adding %s, %llx to abandoned hookup jobs\n
+TEXMAN: %s MarkTextureBitsLoaded (%s)\n
+TEXMAN: DeferTextureLoads %s MarkTextureBitsLoaded (%s)\n
+Discarding abandoned streaming texture load for %s\n
+texturebase.cpp(1803):Error loading texture: %s\n
+Deleting texture with outstanding streaming request (%s)\n
+TEXMAN: Abandoning streaming request early in %s\n
+Unable to stream in resource file "%s" (Error: %s)\n
+Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request\n
+Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore\n
+Can't clear TEXTURE_WAITING_FOR_IO flag because pTexture is NULL\n
+TEXMAN: Abandoning streaming request in %s\n
+TEXMAN: %s loaded %s %i/%i mips (%ix%i / %ix%i) of %s (%i bytes)\n
+Compressed texture decoded in %.2f ms\n
+Decompressed %i texture mips in %.2f ms (%.1fmb/s)\n
+Unexpected resource version '%d' for '%s'\n
+Failed AllocateTexture for '%s'\n
+Total size of the texture pool in MB
+Biases the mip level the texture streaming system choses to stream for each texture.
+Upper limit on texture pool size.
+Allow immediately loading mips of textures (when possible) when their headers are loaded, saving IO & reducing latency.
+Only immediately load textures which have a fullmipchain.
+r_texture_nonstreaming_only_fullmipchain
+Async Texture hookup uses its own threadpool instead of the global pool.
+r_texture_hookup_uses_threadpool
+MN_BuildRequestedResourcesList
+MN_OnResourceLoadCompleted
+MN_OnResourceLoadFailed
+AsyncHookUpTextureBits
+MN_OnResourceFileLoaded
+PreloadTextureBits
+RemoveTextureFromAnyQueues
+20IResourceTypeManager
+22IToolsResourceListener
+11IRefCounted
+20CRefCountServiceBaseILb1E6CRefMTE
+8CFunctor
+21CTextureInfoChunkBase
+25CConCommandMemberAccessorI19CTextureManagerBaseE
+19CTextureManagerBase
+12CRefCounted1I11IRefCounted20CRefCountServiceBaseILb1E6CRefMTEE
+12CThreadedJob
+11CFunctorJob
+12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
+15CMemberFunctor5IP19CTextureManagerBaseMS0_FvP25IAsyncResourceDataRequest11CWeakHandleI31InfoForResourceTypeCTextureBaseEP12CTextureBase22TextureSpecification_tiES3_S6_S8_S9_i12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+15CMemberFunctor9IP19CTextureManagerBaseMS0_FvP12CTextureBase11CWeakHandleI31InfoForResourceTypeCTextureBaseE12ResourceId_tPvj22TextureSpecification_tS9_i23TextureBitsMemoryType_tES3_S6_S7_S8_iS9_S9_iSA_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+@vb_created_input_layout
+19CRenderContextEmpty
+Render Device Empty\n
+19IRenderShaderBuffer
+15CSwapChainEmpty
+18CRenderDeviceEmpty
+18CEmptyShaderBuffer
+RenderDeviceMgr001
+Empty Driver
+21CRenderDeviceMgrEmpty
+20CTextureManagerEmpty
+VectorAligned
+Vector2D
+Vector4D
+QAngle
+Quaternion
+RadianEuler
+DegreeEuler
+VMatrix
+matrix3x4_t
+matrix3x4a_t
+CTransform
+CUtlSymbolLarge
+CUtlString
+CUtlSymbol
+CUtlStringToken
+fltx4
+CEntityIndex
+CResourceString
+SheetSequenceFrame_t
+CResourceArray
+SequenceFloatParam_t
+SheetFrameImage_t
+SheetSequence_t
+RenderSlotType_t
+VsInputSignatureElement_t
+CUtlVector
+none
+rnd_down
+rnd_up
+MNetworkOverride_Invalid
+MNetworkSerializer
+MNetworkEncoder
+MNetworkChangeCallback
+MNetworkBitCount
+MNetworkUserGroup
+MNetworkPriority
+MNetworkRemoveAll
+ChangeCallbackOnChange
+NETWORK_FIELD_LOWEST_PRIORITY
+28ISchemaCollectionManipulator
+19CSchemaRegistration
+37CSchemaRegistration_rendersystemempty
+27CSchemaUtlVectorManipulatorI10CUtlVectorI25VsInputSignatureElement_t10CUtlMemoryIS1_iEES1_E
+CubeMapFace_t
+CUBEMAP_FACE_POSITIVE_X
+CUBEMAP_FACE_NEGATIVE_X
+CUBEMAP_FACE_POSITIVE_Y
+CUBEMAP_FACE_NEGATIVE_Y
+CUBEMAP_FACE_POSITIVE_Z
+CUBEMAP_FACE_NEGATIVE_Z
+TextureSpecificationFlags_t
+TSPEC_FLAGS
+TSPEC_RENDER_TARGET
+TSPEC_VERTEX_TEXTURE
+TSPEC_UNFILTERABLE_OK
+TSPEC_SUGGEST_CLAMPS
+TSPEC_SUGGEST_CLAMPT
+TSPEC_SUGGEST_CLAMPU
+TSPEC_NO_LOD
+TSPEC_CUBE_TEXTURE
+TSPEC_VOLUME_TEXTURE
+TSPEC_TEXTURE_ARRAY
+TSPEC_TEXTURE_GEN_MIP_MAPS
+TSPEC_LINE_TEXTURE_360
+TSPEC_LINEAR_ADDRESSING_360
+TSPEC_USE_TYPED_IMAGEFORMAT
+TSPEC_SHARED_RESOURCE
+TSPEC_UAV
+TSPEC_INPUT_ATTACHMENT
+TSPEC_LINEAR_COLOR_SPACE
+TSPEC_RENDER_TARGET_SAMPLEABLE
+TSPEC_CUBE_CAN_SAMPLE_AS_ARRAY
+Sheet_t
+m_Sequences
+uvCropped
+uvUncropped
+m_flDisplayTime
+m_Images
+m_nId
+m_bClamp
+m_bAlphaCrop
+m_bNoColor
+m_bNoAlpha
+m_Frames
+m_flTotalTime
+m_name
+m_floatParams
+m_value
+VsInputSignature_t
+m_elems
+m_pName
+m_pSemantic
+m_pD3DSemanticName
+m_nD3DSemanticIndex
+RenderInputLayoutField_t
+m_pSemanticName
+m_nSemanticIndex
+m_Format
+m_nOffset
+m_nSlot
+m_nSlotType
+m_nInstanceStepRate
+RenderMultisampleType_t
 RENDER_MULTISAMPLE_TYPE_COUNT
+InputLayoutVariation_t
+INPUT_LAYOUT_VARIATION_MAX
+RenderPrimitiveType_t
+RENDER_PRIM_POINTS
+RENDER_PRIM_LINES
+RENDER_PRIM_LINE_STRIP
+RENDER_PRIM_TRIANGLES
+RENDER_PRIM_TRIANGLE_STRIP
+RENDER_PRIM_INSTANCED_QUADS
+RENDER_PRIM_HETEROGENOUS
+RENDER_PRIM_COMPUTE_SHADER
+RENDER_PRIM_TYPE_COUNT
+RenderBufferFlags_t
+RENDER_BUFFER_UAV_COUNTER
+RENDER_SLOT_INVALID
+RENDER_SLOT_PER_VERTEX
+RENDER_SLOT_PER_INSTANCE
+INPUT_LAYOUT_VARIATION_DEFAULT
+INPUT_LAYOUT_VARIATION_STREAM1_MAT3X4
+INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID
+INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_LIGHTMAP_PARAMS
+INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID
+RENDER_PRIM_LINES_WITH_ADJACENCY
+RENDER_PRIM_LINE_STRIP_WITH_ADJACENCY
+RENDER_PRIM_TRIANGLES_WITH_ADJACENCY
+RENDER_PRIM_TRIANGLE_STRIP_WITH_ADJACENCY
+RENDER_PRIM_1_CONTROL_POINT_PATCHLIST
+RENDER_PRIM_2_CONTROL_POINT_PATCHLIST
+RENDER_PRIM_3_CONTROL_POINT_PATCHLIST
+RENDER_PRIM_4_CONTROL_POINT_PATCHLIST
+RENDER_PRIM_5_CONTROL_POINT_PATCHLIST
+RENDER_PRIM_6_CONTROL_POINT_PATCHLIST
+RENDER_PRIM_7_CONTROL_POINT_PATCHLIST
+RENDER_PRIM_8_CONTROL_POINT_PATCHLIST
+RENDER_PRIM_9_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_10_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_11_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_12_CONTROL_POINT_PATCHLIST
@@ -1002,7 +833,6 @@ RENDER_PRIM_16_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_17_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_18_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_19_CONTROL_POINT_PATCHLIST
-RENDER_PRIM_1_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_20_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_21_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_22_CONTROL_POINT_PATCHLIST
@@ -1013,868 +843,986 @@ RENDER_PRIM_26_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_27_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_28_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_29_CONTROL_POINT_PATCHLIST
-RENDER_PRIM_2_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_30_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_31_CONTROL_POINT_PATCHLIST
 RENDER_PRIM_32_CONTROL_POINT_PATCHLIST
-RENDER_PRIM_3_CONTROL_POINT_PATCHLIST
-RENDER_PRIM_4_CONTROL_POINT_PATCHLIST
-RENDER_PRIM_5_CONTROL_POINT_PATCHLIST
-RENDER_PRIM_6_CONTROL_POINT_PATCHLIST
-RENDER_PRIM_7_CONTROL_POINT_PATCHLIST
-RENDER_PRIM_8_CONTROL_POINT_PATCHLIST
-RENDER_PRIM_9_CONTROL_POINT_PATCHLIST
-RENDER_PRIM_COMPUTE_SHADER
-RENDER_PRIM_HETEROGENOUS
-RENDER_PRIM_INSTANCED_QUADS
-RENDER_PRIM_LINES
-RENDER_PRIM_LINES_WITH_ADJACENCY
-RENDER_PRIM_LINE_STRIP
-RENDER_PRIM_LINE_STRIP_WITH_ADJACENCY
-RENDER_PRIM_POINTS
-RENDER_PRIM_TRIANGLES
-RENDER_PRIM_TRIANGLES_WITH_ADJACENCY
-RENDER_PRIM_TRIANGLE_STRIP
-RENDER_PRIM_TRIANGLE_STRIP_WITH_ADJACENCY
-RENDER_PRIM_TYPE_COUNT
-RENDER_SLOT_INVALID
-RENDER_SLOT_PER_INSTANCE
-RENDER_SLOT_PER_VERTEX
-RESOURCE_TYPE_TEXTURE
-RG11_EAC
-RG1616
-RG1616F
-RG1616F_EXPAND
-RG3232F
-RGB323232F
-RGB565
-RGB888_BLUESCREEN
-RGBA1010102
-RGBA1010102F_EDRAM
-RGBA16161616F
-RGBA16161616F_EDRAM_RGBA1010102F
-RGBA16161616F_EXPAND
-RGBA16161616F_EXPAND_EDRAM_RGBA1010102F
-RGBA16161616_EDRAM
-RGBA16161616_EDRAM_RGBA16161616
-RGBA32323232F
-RGBA8888_LINEAR
-RGBX555
-RGBX8888
-RST%d
-RadianEuler
-RandomFloat
-RandomSeed
-Read failed on temporary file
-Read from EMS failed
-Read from XMS failed
-ReadToken overflow
-RecursiveLoadFromBuffer:  got EOF instead of keyname
-RecursiveLoadFromBuffer:  got NULL key
-RecursiveLoadFromBuffer:  got conditional between key and value
-RecursiveLoadFromBuffer:  got empty keyname
-RecursiveLoadFromBuffer:  got } in key
+RENDER_BUFFER_USAGE_VERTEX_BUFFER
+RENDER_BUFFER_USAGE_INDEX_BUFFER
+RENDER_BUFFER_USAGE_SHADER_RESOURCE
+RENDER_BUFFER_USAGE_UNORDERED_ACCESS
+RENDER_BUFFER_BYTEADDRESS_BUFFER
+RENDER_BUFFER_STRUCTURED_BUFFER
+RENDER_BUFFER_APPEND_CONSUME_BUFFER
+librendersystemempty.so
+configvalue.cpp
+RegisterConfigValue: Unknown error constructing config value "%s"!\n
+HookUpConfigValue
+{}()':
+%i %i %i %i
+FCVAR_NEVER_AS_STRING
+"%s" = "%s"
+ ( def. "%s" )
+ min. %f
+ max. %f
+"%s" 
+%-120s - %s\n
+%-120s\n
+<deferred>
+<no deferred ref found>
+<unconnected>
+<null>
+%s%d
+game
+client
+archive
+notify
+singleplayer
+notconnected
+cheat
+replicated
+server_can_execute
+clientcmd_can_execute
+user
+ss_added
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
+Warning:  %s = '%s' is infinite, clamping value.\n
+Access of unconnected SplitScreenConVarRef\n
+ [%.3f server clamped to %.3f]
+InstallChangeCallback called with NULL callback, ignoring!!!\n
+InstallChangeCallback ignoring duplicate change callback!!!\n
+ConVar(%s) defined with infinite float value (%s)\n
+Invalid access of deferred ConVarRef for '%s'\n
+Access of unconnected ConVarRef\n
+ConVarRef %s doesn't point to an existing ConVar\n
+7IConVar
+23IConCommandBaseAccessor
+14ConCommandBase
+10ConCommand
+6ConVar
+16CDefaultAccessor
+18CPlaceholderConVar
+<< NULL >>\n
+developer
+"\t\t"
+0x%016llX
+%lld
+%f %f %f %f
+0x%p
+%llu
+%s, 
+(*%s*), 
+ ReadToken overflow
+<NULL>
+#include
+#include is NULL 
+#base
+#base is NULL 
+int( %d = 0x%X )
+float( %f )
+ptr( 0x%p )
+%ls [wstring, len = %d]
+u64( %lld = 0x%llX )
+#int#
+#empty#
+update
+delete
+borrow
+keyvalues.cpp
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
+JSON error, unterminated element: 
+KeyValues Error: %s in file %s\n
+KV Conditional Evaluation Error
 RecursiveLoadFromBuffer:  recursion overflow
-RegisterAllModuleData
-RegisterConfigValue: Unknown error constructing config value "%s"!
-Release
-RemoveTextureFromAnyQueues
-Render Device Empty
-RenderBufferFlags_t
-RenderDevice003
-RenderDeviceMgr001
-RenderHardwareConfig002
-RenderInputLayoutField_t
-RenderMultisampleType_t
-RenderPrimitiveType_t
-RenderService_001
-RenderSlotType_t
-RenderSystem
-RenderSystem/AllowSampleableDepthInVr
-RenderSystem/AlwaysPreloadTexturesInGame
-RenderSystemSurface001
-RenderUtils_001
-Rendersystem/SheetCacheTextureCols
-Rendersystem/SheetCacheTextureRows
-Requested feature was omitted at compile time
-ResourceCompilerSystem001
-ResourceHandleUtils001
-ResourceManifestRegistry001
-ResourceSystem013
-ReturnJobManualEventToPool
-Row has too many bytes to allocate in memory
-S
-SSE and SSE2 are required.
-Sampling factors too large for interleaved scan
-Saved video settings config to '%s'
-Scan script does not transmit all data
-SceneSystem_002
-SceneUtils_001
-SchemaSystem_001
-SchemaTestExternal_One_001
-SchemaTestExternal_Two_001
-Screen Gamma (only in fullscreen modes)
-Seek failed on temporary file
-Selected %d colors for quantization
-Sep
-SequenceFloatParam_t
-SerializedEntitiesVersion001
-SeriousWarning
-ServerUploadGameStats001
-SheetFrameImage_t
-SheetSequenceFrame_t
-SheetSequence_t
-Smoothing not supported with nonstandard sampling ratios
-SoundOpSystem001
-SoundOpSystemEdit001
-SoundService_001
-SoundSystem001
-Source2Client002
-Source2ClientPrediction001
-Source2ClientUI001
-Source2EngineToClient001
-Source2EngineToClientStringTable001
-Source2EngineToServer001
-Source2EngineToServerStringTable001
-Source2GameClients001
-Source2GameEntities001
-Source2Host001
-Source2Server001
-Source2ServerSerializers002
-Ss=%d, Se=%d, Ah=%d, Al=%d
-Start Of Frame 0x%02x: width=%u, height=%u, components=%d
-Start Of Scan: %d components
-Start of Image
-StatsService_001
-SteamAudio001
-Streaming Validation: %s
-Suspension not allowed here
-TEX: %u textures, %.2f MB
-TEXMAN: %s MarkTextureBitsLoaded (%s)
-TEXMAN: %s loaded %s %i/%i mips (%ix%i / %ix%i) of %s (%i bytes)
-TEXMAN: Abandoning job in %s
-TEXMAN: Abandoning streaming request early in %s
-TEXMAN: Abandoning streaming request in %s
-TEXMAN: Adding %s, %llx to abandoned hookup jobs
-TEXMAN: DeferTextureLoads %s MarkTextureBitsLoaded (%s)
-TEXMAN: Deleting %d textures
-TEXMAN: Outstanding stream count %d -> %d (%s)
-TF<)
-TOTAL: %.2f MB
-TSPEC_CUBE_CAN_SAMPLE_AS_ARRAY
-TSPEC_CUBE_TEXTURE
-TSPEC_FLAGS
-TSPEC_INPUT_ATTACHMENT
-TSPEC_LINEAR_ADDRESSING_360
-TSPEC_LINEAR_COLOR_SPACE
-TSPEC_LINE_TEXTURE_360
-TSPEC_NO_LOD
-TSPEC_RENDER_TARGET
-TSPEC_RENDER_TARGET_SAMPLEABLE
-TSPEC_SHARED_RESOURCE
-TSPEC_SUGGEST_CLAMPS
-TSPEC_SUGGEST_CLAMPT
-TSPEC_SUGGEST_CLAMPU
-TSPEC_TEXTURE_ARRAY
-TSPEC_TEXTURE_GEN_MIP_MAPS
-TSPEC_UAV
-TSPEC_UNFILTERABLE_OK
-TSPEC_USE_TYPED_IMAGEFORMAT
-TSPEC_VERTEX_TEXTURE
-TSPEC_VOLUME_TEXTURE
-TestFormatA
-TestFormatB
-TestFormatC
-TestFormatD
-TestFormatE
-TestScriptMgr001
-TextLayout_001
-TextMessageMgr_001
-Texture Streaming:
-Texture manager out of space! Can't allocate new texture!
-Texture memory discrepancy! %llu != %llu
-Texture streaming validation OK (%d texture loads in flight).
-TextureSpecificationFlags_t
-ThreadGetCurrentId
-ThreadMultiWait
-ThreadSleep
-ThreadYield
-Too many IDATs found
-Too many color components: %d, max %d
-Too many threads (%d) accessing the render device, need to increase -r_max_device_threads (%d)
-ToolFramework2_002
-ToolGameSimulationDispatcher_001
-ToolGameSimulationSystem_001
-ToolSceneNodeFactory_001
-ToolScriptManager001
-ToolService_001
-Total size of the texture pool in MB
-Truncated iTXt chunk
-Truncated zTXt chunk
-Truncating incorrect info tRNS chunk length
-Truncating incorrect tRNS chunk length
-Trying to set dxlevel (%d) which is higher than the card can support (%d)!
-Trying to set dxlevel (%d) which is lower than the card can support (%d)!
-U
-UNKNOWN
-UV88
-UVLX8888
-UVWQ8888
-Unable to read file %s
-Unable to stream in resource file "%s" (Error: %s)
-Unexpected marker 0x%02x
-Unexpected resource version '%d' for '%s'
-Unknown
-Unknown APP0 marker (not JFIF), length %u
-Unknown APP14 marker (not Adobe), length %u
-Unknown Adobe color transform code %d
-Unknown compression method in IHDR
-Unknown compression type in zTXt chunk
-Unknown compression type.
-Unknown filter method in IHDR
-Unknown freer parameter in png_data_freer
-Unknown interlace method in IHDR
-Unknown sRGB intent
-Unknown zTXt compression type %d
-Unknown zlib error
-Unrecognized component IDs %d %d %d, assuming YCbCr
-Unrecognized equation type for pCAL chunk
-Unsupported JPEG data precision %d
-Unsupported JPEG process: SOF type 0x%02x
-Unsupported PSD color mode!
-Unsupported color conversion request
-Unsupported component value :
-Unsupported compression format
-Unsupported compression type :
-Unsupported marker type 0x%02x
-Unsupported version or scanline
-Upper limit on texture pool size.
-UserInfoChangeService_001
-V
-VApplication001
-VAvi001
-VB: %d buffers, %.2f MB
-VBAllocTracker001
-VBaseFileSystem011
-VBik001
-VConComm001
-VDebugService_001
-VEngineCvar007
-VFileSystem017
-VGUI_Input005
-VGUI_Panel010
-VGUI_Scheme010
-VGUI_Surface032
-VGUI_System010
-VGUI_ivgui008
-VGy#
-VMDLLIB001
-VMaterialSystem2_001
-VMatrix
-VMediaFoundation001
-VNewAsyncFileSystem001
-VP4003
-VPhysX Interface ResourceMgr v0.1
-VPhysics2_Handle_Interface_001
-VPhysics2_Interface_001
-VProcessUtils002
-VProfService_001
-VR_001
-VRenderDeviceSetupV001
-VScript
-VScriptDbg
-VScriptManager010
-VStringTokenSystem001
-VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
-V_CopyMemory3D
-V_FixDoubleSlashes
-V_FixSlashes
-V_GetErrno
-V_GetFileExtension
-V_IsAbsolutePath
-V_PathContainsPath
-V_PrettifyNum
-V_RemoveDotSlashes
-V_SetErrno
-V_StrTrim
-V_StripTrailingSlash
-V_UTF16ToUTF8
-V_UTF32ToUTF8
-V_UTF8CharsToUTF16
-V_UTF8ToUTF32
-V_UnicodeCaseConvert(char const*, char*, int, int, EStringConvertErrorPolicy)
-V_UnicodeLength(char const*)
-V_UnqualifiedFileName
-V_acosf
-V_asinf
-V_atan2f
-V_atanf
-V_atof
-V_atofloat64
-V_atoi
-V_cosf
-V_expf
-V_fmodf
-V_frexpf
-V_localeconv
-V_logf
-V_pow
-V_powf
-V_qsort
-V_qsort_s
-V_sincosf
-V_sinf
-V_snprintf
-V_snwprintf_cch
-V_sscanf
-V_stricmp_fast
-V_stristr_fast(char const*, char const*)
-V_strlower_fast
-V_strnchr
-V_strnlen
-V_strtod
-V_strtoi64
-V_strtok
-V_strtoui64
-V_strupper_fast
-V_swscanf
-V_tanf
-V_tier0_strstr
-V_vsnprintf
-V_vsnprintfSize
-V_vsnprintfWarnTrunc
-V_wcstod
-V_wcstoi64
+RecursiveLoadFromBuffer:  got EOF instead of keyname
+RecursiveLoadFromBuffer:  got empty keyname
+RecursiveLoadFromBuffer:  got NULL key
+RecursiveLoadFromBuffer:  got } in key
+RecursiveLoadFromBuffer:  got conditional between key and value
+LoadFromBuffer: expected '{', found '%s'
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
+19IKeyValuesErrorSpew
+26CDefaultKeyValuesErrorSpew
+8CFmtStrNILi256ELb0EE
+mempool.cpp
+../public/tier1/utlrbtree.h
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!\n
+CUtlRBTree overflow with %u elements!\n
+NewNode
+CUtlMemoryPoolBase
+utlbuffer.cpp
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 VaPrintf
-Vector2D
-Vector4D
-VectorAligned
-VendorID
-Version
-Video Card %s (%04x : %04x)
-Video config version number changed ( '%s' is version %i, current version is %i ). Resetting video config.
-Virtual array controller messed up
-VisBuilder_001
-VsInputSignatureElement_t
-Vulkan
-WAITING_FOR_HOOKUP_JOB
-WAITING_FOR_IO
-WARNING: Trying to create a CRenderContextPtr without a valid context.
+utlstring.cpp
+%s: string format requested %d chars\n
+FormatV
 WIN32
 WINDOWS
-WINXP
-Warning:  %s = '%s' is infinite, clamping value.
-Warning: have %d in use and %d free per-frame memory stacks outstanding. The oldest stack was created at present %d, and we're now on present %d
-Warning: have oustanding per-frame memory stack with %d allocations
-Warning: thumbnail image size does not match data length %u
-Warning: unknown JFIF revision number %d.%02d
-Width is too large for libpng to process pixels
-WorkshopSetup001
-WorldRendererBuilderMgr001
-WorldRendererMgr001
-Write failed on temporary file --- out of disk space?
-Write to EMS failed
-Write to XMS failed
-Wrong JPEG library version: library is %d, caller expects %d
-X
 X360
+LINUX
+POSIX
+WINXP
+GAMECONSOLE
+DEMO
+LOWVIOLENCE
+HIGHDPI
+Conditional Error: %s\n
+Bad expression token: %c
+Logic Error in CExpressionEvaluator
+Bad expression operator: '%c%c', expected C style boolean expression operator.
+Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
+VApplication001
+interfaces.cpp
+VEngineCvar007
+VStringTokenSystem001
+TestScriptMgr001
+VProcessUtils002
+Physics2 Interface Old v0.5
+VBaseFileSystem011
+VFileSystem017
+ResourceManifestRegistry001
+ResourceHandleUtils001
+SchemaSystem_001
+ResourceCompilerSystem001
+VMaterialSystem2_001
+PostProcessingSystem_001
+InputSystemVersion001
+InputStackSystemVersion001
+SoundSystem001
+SoundOpSystemEdit001
+SoundOpSystem001
+SteamAudio001
+DebugTextureInfo001
+VBAllocTracker001
+COLORCORRECTION_VERSION_1
+VP4003
+VMDLLIB001
+QueuedLoaderVersion001
+VGUI_ivgui008
+VGUI_Input005
+VGUI_Panel010
+VGUI_Surface032
+VGUI_Scheme010
+VGUI_System010
+VMediaFoundation001
+VAvi001
+VBik001
+IQuickTime001
+MeshSystem001
+MeshUtils001
+VRenderDeviceSetupV001
+SceneSystem_002
+SceneUtils_001
+WorldRendererMgr001
+RenderSystemSurface001
+AssetSystem001
+AssetSystemTest001
+ParticleSystemMgr003
+VScriptManager010
+ToolScriptManager001
+PropertyEditorSystem_001
+MATCHFRAMEWORK_001
+PanoramaUIEngine001
+PanoramaUIClient001
+PanoramaTextServices001
+ToolFramework2_002
+WorldRendererBuilderMgr001
+PhysicsBuilderMgr001
+VisBuilder_001
+EnvironmentMapBuilder_001
+BakedLODBuilderMgr001
+DotaCardGameClient_001
+HelpSystem_001
+ToolSceneNodeFactory_001
+EconItemToolModel_001
+ToolGameSimulationSystem_001
+SchemaTestExternal_Two_001
+SchemaTestExternal_One_001
+AnimationSystem_001
+AnimationSystemUtils_001
+HammerMapLoader001
+MaterialUtils_001
+FontManager_001
+TextLayout_001
+AssetPreviewSystem_001
+AssetBrowserSystem_001
+VConComm001
+NetworkSystemVersion001
+NetworkSystemUtilsVersion001
+NetworkMessagesVersion001
+SerializedEntitiesVersion001
+Source2Client002
+Source2ClientUI001
+Source2ClientPrediction001
+Source2Server001
+Source2ServerSerializers002
+Source2Host001
+Source2GameClients001
+Source2GameEntities001
+EngineServiceMgr001
+HostStateMgr001
+NetworkService_001
+NetworkClientService_001
+NetworkP2PService_001
+NetworkServerService_001
+TextMessageMgr_001
+ToolService_001
+RenderService_001
+StatsService_001
+UserInfoChangeService_001
+VProfService_001
+InputService_001
+MapListService_001
+GameUIService_001
+SoundService_001
+BenchmarkService001
+VDebugService_001
+KeyValueCache001
+GameResourceServiceClientV001
+GameResourceServiceServerV001
+Source2EngineToClient001
+Source2EngineToServer001
+VPhysics2_Interface_001
+ServerUploadGameStats001
+VR_001
+WorkshopSetup001
+ModelDocUtils001
+AnimGraphEditorUtils001
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
+VPhysX Interface ResourceMgr v0.1
+ToolGameSimulationDispatcher_001
+MODEL_PROCESSING_SERVICES_INTERFACE_001
+FlattenedSerializersVersion001
+Source2EngineToServerStringTable001
+Source2EngineToClientStringTable001
+VPhysics2_Handle_Interface_001
+MODEL_PROCESSING_SCRIPT_INTERFACE_001
+EXPORTSYSTEM_INTERFACE_VERSION_001
+ConnectInterfaces
+20CPostConnectCallback
+ParseEXRHeaderFromMemory() failed! Error message: %s\n
+LoadEXRImageFromMemory() failed! Error message: %s\n
+EXRReadFile() - R channel not found!\n
+EXRReadFile() - G channel not found!\n
+EXRReadFile() - B channel not found!\n
+Unknown
+Linear
+floatbitmap.cpp
+R channel not found!\n
+G channel not found!\n
+B channel not found!\n
+Unable to read file %s\n
+Pf\n%d %d\n-1.000000\n
+PF\n%d %d\n-1.000000\n
+%01d
+%02d
+%03d
+%04d
+%05d
+%06d
+.pfm
+.psd
+.tif
+.png
+.jpg
+.exr
+FloatBitMap::QuarterSize
+sub%dx%d.tga
+submrg%dx%d.tga
+after solve err=%f\n
+before solve err=%f\n
+UNKNOWN
+RGB565
+IA88
+RGB888_BLUESCREEN
+BGR888_BLUESCREEN
+DXT1
+DXT3
+DXT5
+BGR565
+BGRA4444
+DXT1_ONEBITALPHA
+BGRA5551
+UV88
+UVWQ8888
+RGBA16161616F
+UVLX8888
+R32F
+RGB323232F
+RGBA32323232F
+NV_DST16
+NV_DST24
+NV_INTZ
+NV_RAWZ
+ATI_DST16
+ATI_DST24
+ATI2N
+ATI1N
 X360_DST16
 X360_DST24
 X360_DST24F
-Xbox 360
-Y
-Z
-Z"0*
-ZEo^
-ZFP compression is not supported in this build
-ZFP compression is not supported.
-Zero length tRNS chunk
-[
-[%.3f server clamped to %.3f]
-^oEZ
-_ITM_deregisterTMCloneTable
-_ITM_registerTMCloneTable
-_Jv_RegisterClasses
-_V_ComposeFileName
-_V_ExtractFileExtension
-_V_FileBase
-_V_MakeAbsolutePath
-_V_SetExtension
-_V_StringAfterPrefix
-_V_StripExtension
-_V_StripLastDir
-_V_strncat
-_V_strncmp
-_V_strncpy
-_V_strnicmp_fast
-_V_strnistr_fast
-__assert_fail
-__bss_start
-__cxa_atexit
-__cxa_begin_catch
-__cxa_end_catch
-__cxa_finalize
-__cxa_guard_acquire
-__cxa_guard_release
-__cxa_pure_virtual
-__cxa_rethrow
-__fprintf_chk
-__gmon_start__
-__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > > std::vector<unsigned char, std::allocator<unsigned char> >::insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, void>(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >)
-__gxx_personality_v0
-__isnanf
-__longjmp_chk
-__memcpy_chk
-__once_proxy
-__printf_chk
-__pthread_key_create
-__sprintf_chk
-__stack_chk_fail
-__tls_get_addr
-_c
-_edata
-_end
-_fini
-_setjmp
-_tools.txt
-_z0
-`chunkCount' attribute is not found in the header.
-`fread' error. file may be corrupted.
-a
-a\">
-abort
-after solve err=%f
+LINEAR_BGRX8888
+LINEAR_RGBA8888
+LINEAR_ABGR8888
+LINEAR_ARGB8888
+LINEAR_BGRA8888
+LINEAR_RGB888
+LINEAR_BGR888
+LINEAR_BGRX5551
+LINEAR_I8
+LINEAR_RGBA16161616
+LE_BGRX8888
+LE_BGRA8888
+RG1616F
+RG3232F
+RGBX8888
+NV_NULL
+RGBA1010102
+BGRA1010102
+R16F
+D15S1
+LINEAR_D24S8
+D24X8
+D24X4S4
+D24FS8
+D16_SHADOW
+D24X8_SHADOW
+RGBA16161616_EDRAM
+RGBA1010102F_EDRAM
+R16F_EXPAND
+RG1616F_EXPAND
+RGBA16161616F_EXPAND
+DXT5_NM
+RG1616
+RGBA8888_LINEAR
+BGRA8888_LINEAR
+BGRX8888_LINEAR
+RGBX555
+BC6H
+R32_UINT
+R8G8B8_ETC2
+R8G8B8A8_ETC2_EAC
+R11_EAC
+RG11_EAC
+RGBA16161616F_EDRAM_RGBA1010102F
+RGBA16161616F_EXPAND_EDRAM_RGBA1010102F
+RGBA16161616_EDRAM_RGBA16161616
+Unsupported PSD color mode!\n
 alpha
-archive
-b;!l
-basic_string::_S_construct null not valid
-before solve err=%f
-binary
-binary_auto
-binary_bc
-binary_lz4
-blocking issue in occlusion queries!!
-borrow
-box2i
-buf error
-c
-cHRM Blue X
-cHRM Green X
-cHRM Green Y
-cHRM Red X
-cHRM Red Y
-cHRM White X
-cHRM White Y
-c]$8
-c]^7
-calloc
-ceil
-ceilf
-cfg/video.txt
-cfg/video_%02d.txt
-cfg/video_version.txt
-cfg/videodefaults.txt
-channels
-char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag)
-cheat
+transparency
+sequence number %d too low in sheet file!!!\n
+Invalid sequence number %d!!!\n
+9.1.15
+vector::_M_default_append
+string
+vector::_M_emplace_back_aux
+vector::_M_range_insert
 chlist
-chunkCount
-client
-clientcmd_can_execute
+channels
 compression
-configvalue.cpp
-d
-data error
-data height too large.
-data width or data height is negative.
-data width too large.
+box2i
 dataWindow
-data_height =
-data_with or data_height too large. data_width:
-delete
-developer
-dir=%d %d %d, err=%f
 displayWindow
-dl_iterate_phdr
-dxsupport.cfg
-eaFO
-eikonal
-error in user chunk
-f
-false
-fclose
-fff?fff?fff?fff?
-file error
-filesystem_stdio
-filterinY
-filterinZ
-fixed point overflow ignored
-float
-float( %f )
-floatbitmap.cpp
-floor
-floorf
-fltx4
-fopen64
-fprintf
-fputc
-fread
-fread() error on
-free
-frexp
-fseek
-ftell
-fwrite
-g_Mathlib_GammaToLinearByteTable
-g_Tier1_BitWriteMasks
-g_Tier1_CRC32Table
-g_Tier1_CRC64Table
-g_Tier1_ExtraMasks
-g_pMemAlloc
-g_pThreadPool
-game
-gamma = (%d/100000)
-gc^A
-generic
-getenv
-gpu
-gx=%d, gy=%d, bx=%d, by=%d
-h
-hd=<
-header crc mismatch
-i8P/
-if1R
-ignoring out of range rgb_to_gray coefficients
-immediate
-incorrect data check
-incorrect gamma=(%d/100000)
-incorrect header check
-incorrect length check
-int( %d = 0x%X )
-interfaces.cpp
-invalid background gamma type
-invalid bit length repeat
-invalid block type
-invalid chunk type
-invalid chunklength
-invalid code -- missing end-of-block
-invalid code lengths set
-invalid distance code
-invalid distance too far back
-invalid distances set
-invalid error action to rgb_to_gray
-invalid literal/length code
-invalid literal/lengths set
-invalid stored block lengths
-invalid window size
-keyvalues.cpp
-kh9F
-l
-l!;b
-ld-linux-x86-64.so.2
-libc.so.6
-libm.so.6
-libpng error: %s
-libpng version 1.5.2 - March 31, 2011
-libpng version 1.5.2 - March 31, 2011Copyright (c) 1998-2011 Glenn Randers-PehrsonCopyright (c) 1996-1997 Andreas DilgerCopyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
-libpng warning: %s
-libpthread.so.0
-librendersystemempty.so
-libstdc++.so.6
-libtier0.so
-libvstdlib.so
 lineOrder
-lineartogamma
-localize
-longjmp
-m_Format
-m_Frames
-m_Images
-m_Sequences
-m_bAlphaCrop
-m_bClamp
-m_bNoAlpha
-m_bNoColor
-m_elems
-m_flDisplayTime
-m_flTotalTime
-m_floatParams
-m_nD3DSemanticIndex
-m_nId
-m_nInstanceStepRate
-m_nOffset
-m_nSemanticIndex
-m_nSlot
-m_nSlotType
-m_name
-m_pD3DSemanticName
-m_pName
-m_pSemantic
-m_pSemanticName
-m_value
-makemelast
-malformed sPLT chunk
-malloc
-mathlib.cpp
-matrix3x4_t
-matrix3x4a_t
-max megabytes
-max megahertz
-max megatexels
-max. %f
-max_processor_count
-mdl
-memcmp
-memcpy
-memmove
-mempool.cpp
-memset
-min megabytes
-min megahertz
-min megatexels
-min. %f
-min_processor_count
-mj>
-nTries < 10000000
-need dictionary
-none
-notconnected
-notify
-occlusionquerymgr.cpp
-okOP
-operator delete(void*)
-operator delete[](void*)
-operator new(unsigned long)
-operator new(unsigned long, std::nothrow_t const&)
-operator new[](unsigned long)
-operator new[](unsigned long, std::nothrow_t const&)
-out of memory
-parameter error
+float
 pixelAspectRatio
-pm"U
-png/jpg
-png_do_quantize returned rowbytes=0
-png_do_rgb_to_gray found nongray pixel
-png_inflate logic error
-png_set_background
-png_set_gAMA
-png_set_gamma file gamma
-png_set_gamma screen gamma
-pthread_mutex_destroy
-pthread_mutex_init
-pthread_mutex_lock
-pthread_mutex_unlock
-pthread_mutexattr_init
-pthread_mutexattr_settype
-pthread_once
-ptr( 0x%p )
-q>(
-queued
-r_fullscreen_gamma
-r_gpu_mem_stats
-r_max_texture_pool_size
-r_texture_hookup_uses_threadpool
-r_texture_nonstreaming_load
-r_texture_nonstreaming_only_fullmipchain
-r_texture_pool_size
-r_texture_stream_mip_bias
-r_texturefilteringquality
-r_textures_evict_all
-r_validate_texture_streaming
-r_wait_on_present
-rb
-realloc
-rendercontextbase.cpp
-renderdevicebase.cpp
-renderdevicemgrbase.cpp
-renderstatehelper.h
-rendersystemempty
-replicated
-resourcesystem
-rgb to gray green coefficient
-rgb to gray red coefficient
-rnd_down
-rnd_up
-roundf
-s
-sPLT chunk has bad length
-sPLT chunk requires too much memory
-schemabindings.cpp
 screenWindowCenter
 screenWindowWidth
-sequence number %d too low in sheet file!!!
-server_can_execute
-setting.
-setting.CentroidHack
-setting.DXLevel
-setting.DisableShaderOptimizations
-setting.HasBrokenPipelineStats
-setting.MaxDXLevel
-setting.MinDXLevel
-setting.PreferHardwareSync
-setting.PreferTexturesInHWMemory
-setting.PreferZPrepass
-setting.SuppressPixelShaderCentroidHackFixup
-setting.Unsupported
-setting.coop_fullscreen
-setting.defaultres
-setting.defaultresheight
-setting.fullscreen
-setting.fullscreen_min_on_focus_loss
-setting.high_dpi
-setting.knowndevice
-setting.mat_vsync
-setting.maxdxlevel
-setting.nowindowborder
-setting.recommendedheight
-setting.recommendedwidth
-setting.refreshrate_denominator
-setting.refreshrate_numerator
-setting.resettodefaults
-setting.shaderquality
-sheetcache.cpp
-sheetcachetexture_.vtex
-sin
-single
-singleplayer
-sqrt
-sqrtf
-srgbgammatolinear
-ss_added
-std::__exception_ptr::exception_ptr::exception_ptr(std::__exception_ptr::exception_ptr const&)
-std::__exception_ptr::exception_ptr::swap(std::__exception_ptr::exception_ptr&)
-std::__exception_ptr::exception_ptr::~exception_ptr()
-std::__exception_ptr::operator==(std::__exception_ptr::exception_ptr const&, std::__exception_ptr::exception_ptr const&)
-std::__future_base::_Result_base::_Result_base()
-std::__future_base::_Result_base::~_Result_base()
-std::__future_base::_State_base::~_State_base()
-std::__once_call
-std::__once_callable
-std::__throw_bad_alloc()
-std::__throw_bad_cast()
-std::__throw_bad_function_call()
-std::__throw_future_error(int)
-std::__throw_length_error(char const*)
-std::__throw_logic_error(char const*)
-std::__throw_out_of_range_fmt(char const*, ...)
-std::__throw_system_error(int)
-std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
-std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, unsigned long, std::allocator<char> const&)
-std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&)
-std::chrono::_V2::steady_clock::now()
-std::condition_variable::condition_variable()
-std::condition_variable::notify_all()
-std::condition_variable::wait(std::unique_lock<std::mutex>&)
-std::ctype<char>::_M_widen_init() const
-std::ctype<char>::do_widen(char) const
-std::current_exception()
-std::ios_base::ios_base()
-std::ios_base::~ios_base()
-std::locale::locale()
-std::locale::~locale()
-std::ostream::flush()
-std::ostream::operator<<(int)
-std::ostream::put(char)
-std::rethrow_exception(std::__exception_ptr::exception_ptr)
-std::string::_Rep::_M_destroy(std::allocator<char> const&)
-std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
-std::string::_Rep::_S_empty_rep_storage
-std::string::append(char const*, unsigned long)
-std::string::append(std::string const&)
-std::string::assign(char const*, unsigned long)
-std::string::assign(std::string const&)
-std::string::compare(char const*) const
-std::string::insert(unsigned long, char const*, unsigned long)
-std::string::operator+=(char const*)
-std::string::swap(std::string&)
-std::terminate()
-std::thread::_M_start_thread(std::shared_ptr<std::thread::_Impl_base>)
-std::thread::join()
-std::vector<float, std::allocator<float> >::_M_default_append(unsigned long)
-std::vector<unsigned char, std::allocator<unsigned char> >::_M_default_append(unsigned long)
-std::vector<unsigned char, std::allocator<unsigned char> >::vector(unsigned long, std::allocator<unsigned char> const&)
-std::vector<unsigned short, std::allocator<unsigned short> >::vector(unsigned long, std::allocator<unsigned short> const&)
-stderr
-strchr
-strcmp
-strcpy
-strdup
-stream end
-string
-strlen
-sub%dx%d.tga
-submrg%dx%d.tga
-t
-tRNS chunk has out-of-range samples for bit_depth
-tRNS chunk not allowed with alpha channel
-text
-text compression mode is out of range
-texturebase.cpp
-texturebase.cpp(1803):Error loading texture: %s
-texturebase.cpp(2740):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2761):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2772):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2783):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2794):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2815):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2826):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2837):ResourceHandleToData( %s ) failed! Falling back to error texture!
-texturebase.cpp(2848):ResourceHandleToData( %s ) failed! Falling back to error texture!
+Output memory size is zero
+Cannot write a file
+Failed to read attribute.\n
 tiles
-too many length or distance symbols
-transparency
-trunc
-typeinfo for CThreadSyncObject
-typeinfo for std::__future_base::_Result_base
-typeinfo for std::__future_base::_State_base
-u64( %lld = 0x%llX )
-unknown compression method
-unknown critical chunk
-unknown header flags set
-update
-user
-utlbuffer.cpp
-utlstring.cpp
-uvCropped
-uvUncropped
-v2f
-vQO+
-vector::_M_default_append
-vector::_M_emplace_back_aux
+Unknown compression type.
+# of channels is zero.\n
+chunkCount
+Data size too short
+Cannot read file 
+fread() error on 
+data_height = 
+Invalid tile size x : 
+Invalid tile size y : 
+Insufficient data size.\n
+Insufficient data length.\n
+, height = 
+, channels = 
+Invalid data width value
+Invalid data height value
+data width too large.
+data height too large.
+File size too short 
+Invalid EXR header.
+R channel not found
+G channel not found
+B channel not found
+Failed to parse EXR version
+Cannot read a file 
+File size is zero : 
+Invalid magic number
+Failed to parse attribute\n
+Failed to parse channel info
+Invalid channels format
+stream end
+need dictionary
+file error
+data error
+out of memory
+buf error
+parameter error
 vector::_M_range_check: __n (which is %zu) >= this->size() (which is %zu)
-vector::_M_range_insert
-video.cfg
-video_version
-void std::vector<std::vector<unsigned long, std::allocator<unsigned long> >, std::allocator<std::vector<unsigned long, std::allocator<unsigned long> > > >::_M_emplace_back_aux<std::vector<unsigned long, std::allocator<unsigned long> > const&>(std::vector<unsigned long, std::allocator<unsigned long> > const&)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_emplace_back_aux<unsigned char const&>(unsigned char const&)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > > >(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, std::forward_iterator_tag)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, char*, char*, std::forward_iterator_tag)
-void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<unsigned char const*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char const*, unsigned char const*, std::forward_iterator_tag)
-vstdlib
-vtable for __cxxabiv1::__class_type_info
-vtable for __cxxabiv1::__pointer_type_info
-vtable for __cxxabiv1::__si_class_type_info
-vtable for __cxxabiv1::__vmi_class_type_info
-vtable for std::__future_base::_State_base
-vtable for std::basic_ios<char, std::char_traits<char> >
-vtable for std::basic_streambuf<char, std::char_traits<char> >
-vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
-vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
-w3(?
-wb
-wcscmp
-wcslen
-with %d x %d thumbnail image
-wx=%d, wy=%d, rx=%d, ry=%d
-y9*O
-zD
+PARALLEL_PROCESS tinyexr_impl.cpp:163
+Invalid argument for SaveEXRImageToMemory
+ZFP compression is not supported in this build
+Invalid argument for SaveEXRImageToFile
+basic_string::_S_construct null not valid
+Unsupported component value : 
+Insufficient data size for attributes.\n
+ZFP compression is not supported.
+Failed to parse channel info.\n
+"compression" attribute not found in the header.
+"channels" attribute not found in the header.
+"lineOrder" attribute not found in the header.
+"displayWindow" attribute not found in the header.
+"dataWindow" attribute not found in the header or invalid.
+"pixelAspectRatio" attribute not found in the header.
+"screenWindowWidth" attribute not found in the header.
+"screenWindowCenter" attribute not found in the header.
+Invalid argument for ParseEXRMultipartHeaderFromMemory
+`chunkCount' attribute is not found in the header.
+Invalid argument for ParseEXRMultipartHeaderFromFile()
+`fread' error. file may be corrupted.
+Invalid argument. `memory` or `exr_header` argument is null in ParseEXRHeaderFromMemory()
+Insufficient header/data size.\n
+Invalid argument for ParseEXRHeaderFromFile
+Invalid data width or data height: 
+data_with or data_height too large. data_width: 
+Failed to compute channel layout.\n
+Image data size is zero or too large: width = 
+Invalid data found when decoding pixels.\n
+Invalid argument for LoadEXRMultipartImageFromMemory()
+EXRHeader variable is not initialized.
+Invalid offset size in EXR header chunks.
+Invalid `part number' in EXR header chunks.
+Invalid argument for LoadEXRMultipartImageFromFile
+Invalid argument for LoadEXRImageFromMemory
+Invalid argument for DecodeEXRImage().
+data width or data height is negative.
+Invalid offset value in DecodeEXRImage.
+Insufficient data size in offset table.
+Cannot reconstruct lineOffset table in DecodeEXRImage.
+Invalid argument for LoadEXRImageFromFile
+Invalid argument for LoadEXR()
+Loading multipart or DeepImage is not supported  in LoadEXR() API
+Invalid argument for LoadEXRFromMemory
+Invalid argument for LoadDeepEXR
+Unsupported version or scanline
+Unsupported compression type : 
+Unsupported compression format
+8PNG load error %s\n
+1.5.2
+mathlib.cpp
+SSE and SSE2 are required.
+-sse2
+-sse3
+-sse4
+-avx
+MathLib_Init
+.eB5
+'7_p
+@?a\v6C
+?N24CFieldPathHuffmanEncoder5INodeE
+N24CFieldPathHuffmanEncoder12InternalNodeE
+N24CFieldPathHuffmanEncoder8LeafNodeE
+VScript
+VScriptDbg
+22CSchemaInstallCallback
+<no failure reason set>
+schemabindings.cpp
+FATAL ERROR: unable to register all schema data: %s\n
+RegisterAllModuleData
+CONTENTROOT
+GAME
+CONTENT
+FixupResourceName: Illegal full path passed in ("%s")!\n
+FixupResourceName: Illegal path, missing extension passed in ("%s")!\n
+GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
+ERROR: Specified full path %s does not lie under the mod search path!)\n
+ERROR: Specified path %s could not be made content-relative\n
+ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
+CTSQueue corruption
+dir=%d %d %d, err=%f\n
+KMeansQuantization
+CopyAttrFrom
+FillAttr
+srgbgammatolinear
+lineartogamma
+GenerateDistanceField
+FilterFrom
+QuarterSizeAttrWithBoxFilter
+filterinY
+filterinZ
+FindClosestMatchingRegion
+eikonal
+CUtlBlockMemory overflow!\n
+../public/tier0/tslist.h
+nTries < 10000000
+fff?fff?fff?fff?
+>Too many bytes for PNG signature
+Potential overflow in png_zalloc()
+Unknown freer parameter in png_data_freer
+\nlibpng version 1.5.2 - March 31, 2011\nCopyright (c) 1998-2011 Glenn Randers-Pehrson\nCopyright (c) 1996-1997 Andreas Dilger\nCopyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.\n
+ libpng version 1.5.2 - March 31, 2011\n\n
+Image width exceeds user limit in IHDR
+Image height exceeds user limit in IHDR
+Width is too large for libpng to process pixels
+Invalid color type/bit depth combination in IHDR
+Unknown interlace method in IHDR
+Unknown compression method in IHDR
+MNG features are not allowed in a PNG datastream
+ASCII conversion buffer too small
+Ignoring attempt to set negative chromaticity value
+Ignoring attempt to set cHRM RGB triangle with zero area
+%d %s %d %02d:%02d:%02d +0000
+Image width is zero in IHDR
+Image height is zero in IHDR
+Invalid image width in IHDR
+Invalid image height in IHDR
+Invalid bit depth in IHDR
+Invalid color type in IHDR
+Unknown filter method in IHDR
+Invalid filter method in IHDR
+Invalid IHDR data
+fixed point overflow ignored
+Invalid cHRM white point
+Invalid cHRM red point
+Invalid cHRM green point
+Invalid cHRM blue point
+libpng warning: %s
+libpng error: %s
+0123456789ABCDEF
+\nF%u
+?Out of Memory
+1.2.5
 zlib memory error
 zlib stream error
 zlib version error
-{
-{}()':
-|B
-
-C
+Unknown zlib error
+Missing IHDR before IDAT
+Missing PLTE before IDAT
+Decompression error
+Not enough image data
+Extra compressed data
+Too many IDATs found
+Application built with libpng-%.20s but running with %.20s
+Ignoring extra png_read_update_info() call; row buffer not reallocated
+Ignoring extra png_start_read_image() call; row buffer not reallocated
+Invalid attempt to read row data
+Interlace handling should be turned on when using png_read_image
+Image is too high to process with png_read_png()
+Read Error
+Call to NULL read function
+Can't set both read_data_fn and write_data_fn in the same structure
+Can't discard critical data on CRC error
+Application must supply a known background gamma
+invalid error action to rgb_to_gray
+ignoring out of range rgb_to_gray coefficients
+NULL row buffer for row %ld, pass %d
+png_do_rgb_to_gray found nongray pixel
+png_do_quantize returned rowbytes=0
+png_set_background
+png_set_gamma file gamma
+png_set_gamma screen gamma
+rgb to gray green coefficient
+rgb to gray red coefficient
+invalid background gamma type
+Buffer error in compressed datastream in %s chunk
+Data error in compressed datastream in %s chunk
+Incomplete compressed datastream in %s chunk
+PNG unsigned integer out of range
+PNG file corrupted by ASCII conversion
+Exceeded size limit while expanding chunk
+Not enough memory to decompress chunk
+Unknown zTXt compression type %d
+Ignoring PLTE chunk in grayscale PNG
+Truncating incorrect tRNS chunk length
+Truncating incorrect info tRNS chunk length
+Ignoring gAMA chunk with out of range gamma
+Ignoring incorrect gAMA value when sRGB is also present
+Ignoring cHRM chunk with negative chromaticities
+Ignoring incorrect cHRM value when sRGB is also present
+Ignoring nonzero compression type in iCCP chunk
+Profile size field missing from iCCP chunk
+Ignoring iCCP chunk with declared size = %u and actual length = %u
+No space in chunk cache for sPLT
+sPLT chunk requires too much memory
+tRNS chunk not allowed with alpha channel
+Incorrect bKGD chunk index value
+Invalid pCAL parameters for equation type
+Unrecognized equation type for pCAL chunk
+Out of memory while processing sCAL chunk
+Invalid sCAL ignored: invalid unit
+Invalid sCAL chunk ignored: bad width format
+Invalid sCAL chunk ignored: bad height format
+No space in chunk cache for tEXt
+No memory to process text chunk
+Not enough memory to process text chunk
+Insufficient memory to process text chunk
+No space in chunk cache for zTXt
+Out of memory processing zTXt chunk
+Unknown compression type in zTXt chunk
+Not enough memory to process zTXt chunk
+Insufficient memory to store zTXt chunk
+No space in chunk cache for iTXt
+No memory to process iTXt chunk
+Not enough memory to process iTXt chunk
+Insufficient memory to store iTXt chunk
+No space in chunk cache for unknown chunk
+Ignoring bad adaptive filter type
+Row has too many bytes to allocate in memory
+Not a PNG file
+CRC error
+invalid chunklength
+png_inflate logic error
+Out of place IHDR
+Invalid IHDR chunk
+Missing IHDR before PLTE
+Invalid PLTE after IDAT
+Duplicate PLTE chunk
+Invalid palette chunk
+No image in file
+Incorrect IEND chunk length
+Missing IHDR before gAMA
+Invalid gAMA after IDAT
+Out of place gAMA chunk
+Duplicate gAMA chunk
+Incorrect gAMA chunk length
+gamma = (%d/100000)
+Missing IHDR before sBIT
+Invalid sBIT after IDAT
+Out of place sBIT chunk
+Duplicate sBIT chunk
+Incorrect sBIT chunk length
+Missing IHDR before cHRM
+Invalid cHRM after IDAT
+Missing PLTE before cHRM
+Duplicate cHRM chunk
+Incorrect cHRM chunk length
+wx=%d, wy=%d, rx=%d, ry=%d\n
+gx=%d, gy=%d, bx=%d, by=%d\n
+Missing IHDR before sRGB
+Invalid sRGB after IDAT
+Out of place sRGB chunk
+Duplicate sRGB chunk
+Incorrect sRGB chunk length
+Unknown sRGB intent
+incorrect gamma=(%d/100000)\n
+Missing IHDR before iCCP
+Invalid iCCP after IDAT
+Out of place iCCP chunk
+Duplicate iCCP chunk
+Malformed iCCP chunk
+Missing IHDR before sPLT
+Invalid sPLT after IDAT
+malformed sPLT chunk
+sPLT chunk has bad length
+Missing IHDR before tRNS
+Invalid tRNS after IDAT
+Duplicate tRNS chunk
+Incorrect tRNS chunk length
+Missing PLTE before tRNS
+Zero length tRNS chunk
+Missing IHDR before bKGD
+Invalid bKGD after IDAT
+Missing PLTE before bKGD
+Duplicate bKGD chunk
+Incorrect bKGD chunk length
+Missing IHDR before hIST
+Invalid hIST after IDAT
+Missing PLTE before hIST
+Duplicate hIST chunk
+Incorrect hIST chunk length
+Missing IHDR before pHYs
+Invalid pHYs after IDAT
+Duplicate pHYs chunk
+Incorrect pHYs chunk length
+Missing IHDR before oFFs
+Invalid oFFs after IDAT
+Duplicate oFFs chunk
+Incorrect oFFs chunk length
+Missing IHDR before pCAL
+Invalid pCAL after IDAT
+Duplicate pCAL chunk
+No memory for pCAL purpose
+Invalid pCAL data
+No memory for pCAL params
+Missing IHDR before sCAL
+Invalid sCAL after IDAT
+Duplicate sCAL chunk
+Out of place tIME chunk
+Duplicate tIME chunk
+Incorrect tIME chunk length
+Missing IHDR before tEXt
+Missing IHDR before zTXt
+Truncated zTXt chunk
+Missing IHDR before iTXt
+Truncated iTXt chunk
+Malformed iTXt chunk
+unknown critical chunk
+error in user chunk
+invalid chunk type
+Decompression Error
+Extra compression data
+cHRM Blue Y
+cHRM Blue X
+cHRM Green Y
+cHRM Green X
+cHRM Red Y
+cHRM Red X
+cHRM White Y
+cHRM White X
+png_set_gAMA
+Invalid pCAL equation type
+Invalid sCAL unit
+Invalid sCAL width
+Invalid sCAL height
+Invalid sCAL width ignored
+Invalid sCAL height ignored
+Invalid palette length
+No memory for sPLT palettes
+Negative or zero gamma ignored
+Invalid palette size, hIST allocation skipped
+Insufficient memory for hIST chunk data
+Invalid format for pCAL parameter
+Insufficient memory for pCAL purpose
+Insufficient memory for pCAL units
+Insufficient memory for pCAL params
+Insufficient memory for pCAL parameter
+Memory allocation failed while processing sCAL
+Insufficient memory to process iCCP chunk
+Insufficient memory to process iCCP profile
+text compression mode is out of range
+Insufficient memory to store text
+tRNS chunk has out-of-range samples for bit_depth
+Out of memory while processing sPLT chunk
+Out of memory while processing unknown chunk
+Attempt to set buffer size beyond max ignored
+ 0@P`p
+!1AQaq
+"2BRbr
+#3CScs
+$4DTdt
+%5EUeu
+&6FVfv
+'7GWgw
+(8HXhx
+)9IYiy
+*:JZjz
++;K[k{
+,<L\l|
+-=M]m}
+.>N^n~
+/?O_o
+Bogus message code %d
+Bogus buffer control mode
+Invalid crop request
+DCT coefficient out of range
+Bogus input colorspace
+Bogus JPEG colorspace
+Bogus marker length
+Invalid memory pool code %d
+Bogus sampling factors
+Bogus virtual array access
+Suspension not allowed here
+Bogus DAC index %d
+Bogus DAC value 0x%x
+Bogus DHT index %d
+Bogus DQT index %d
+Read from EMS failed
+Write to EMS failed
+Input file read error
+Empty input file
+Premature end of input file
+Not implemented yet
+Backing store not supported
+Insufficient memory (case %d)
+Read failed on temporary file
+Seek failed on temporary file
+Read from XMS failed
+Write to XMS failed
+8b  16-May-2010
+Define Huffman Table 0x%02x
+Define Restart Interval %u
+Freed EMS handle %u
+Obtained EMS handle %u
+End Of Image
+Unexpected marker 0x%02x
+Quantizing to %d colors
+RST%d
+Start of Image
+Start Of Scan: %d components
+    Component %d: dc=%d ac=%d
+  Ss=%d, Se=%d, Ah=%d, Al=%d
+Closed temporary file %s
+Opened temporary file %s
+Freed XMS handle %u
+Obtained XMS handle %u
+Premature end of JPEG file
+ALIGN_TYPE is wrong, please fix
+MAX_ALLOC_CHUNK is wrong, please fix
+Invalid component ID %d in SOS
+DCT scaled block size %dx%d not supported
+Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
+Bogus Huffman table definition
+Wrong JPEG library version: library is %d, caller expects %d
+Sampling factors too large for interleaved scan
+Unsupported JPEG data precision %d
+Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
+Invalid progressive parameters at scan script entry %d
+Invalid scan script at entry %d
+Improper call to JPEG library in state %d
+JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+Buffer passed to JPEG library is too small
+CCIR601 sampling not implemented yet
+Too many color components: %d, max %d
+Unsupported color conversion request
+Empty JPEG image (DNL not supported)
+Didn't expect more than one scan
+Output file write error --- out of disk space?
+Fractional sampling not implemented yet
+Huffman code size table overflow
+Missing Huffman code table entry
+Maximum supported image dimension is %u pixels
+Cannot transcode due to multiple use of quantization table %d
+Scan script does not transmit all data
+Invalid color quantization mode change
+Requested feature was omitted at compile time
+Arithmetic table 0x%02x was not defined
+Huffman table 0x%02x was not defined
+JPEG datastream contains no image
+Quantization table 0x%02x was not defined
+Not a JPEG file: starts with 0x%02x 0x%02x
+Cannot quantize more than %d color components
+Cannot quantize to fewer than %d colors
+Cannot quantize to more than %d colors
+Invalid JPEG file structure: two SOF markers
+Invalid JPEG file structure: missing SOS marker
+Unsupported JPEG process: SOF type 0x%02x
+Invalid JPEG file structure: two SOI markers
+Invalid JPEG file structure: SOS before SOF
+Failed to create temporary file %s
+Write failed on temporary file --- out of disk space?
+Application transferred too few scanlines
+Unsupported marker type 0x%02x
+Virtual array controller messed up
+Image too wide for this implementation
+Copyright (C) 2010, Thomas G. Lane, Guido Vollbeding
+Caution: quantization tables are too coarse for baseline JPEG
+Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
+Unknown APP0 marker (not JFIF), length %u
+Unknown APP14 marker (not Adobe), length %u
+Define Arithmetic Table 0x%02x: 0x%02x
+Define Quantization Table %d  precision %d
+        %3d %3d %3d %3d %3d %3d %3d %3d
+JFIF APP0 marker: version %d.%02d, density %dx%d  %d
+Warning: thumbnail image size does not match data length %u
+JFIF extension marker: type 0x%02x, length %u
+    with %d x %d thumbnail image
+Miscellaneous marker 0x%02x, length %u
+        %4u %4u %4u %4u %4u %4u %4u %4u
+Quantizing to %d = %d*%d*%d colors
+Selected %d colors for quantization
+At marker 0x%02x, recovery action %d
+Smoothing not supported with nonstandard sampling ratios
+Start Of Frame 0x%02x: width=%u, height=%u, components=%d
+    Component %d: %dhx%dv q=%d
+JFIF extension marker: JPEG-compressed thumbnail image, length %u
+JFIF extension marker: palette thumbnail image, length %u
+JFIF extension marker: RGB thumbnail image, length %u
+Unrecognized component IDs %d %d %d, assuming YCbCr
+Unknown Adobe color transform code %d
+Corrupt JPEG data: bad arithmetic code
+Inconsistent progression sequence for component %d coefficient %d
+Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: bad Huffman code
+Warning: unknown JFIF revision number %d.%02d
+Corrupt JPEG data: found marker 0x%02x instead of RST%d
+Invalid SOS parameters for sequential JPEG
+Application transferred too many scanlines
+JPEGMEM
+%ld%c
+E\v0~
+sAmTb
+BKbhTb~XBK!;
+A!;I2
+"\v0A-
+?u='@
+@&LH
+A'\r:
+QC,A
+TF<)
+VGy#
+KNQ\r
+M0@\n
+a\">
+c]$8
+eaFO
+hd=<
+c]^7
+if1R
+kh9F
+gc^A
+okOP
+pm"U
+NSt13__future_base19_Async_state_commonE
+>jm\r
+MGiI
+_~6\f
+=G\\v
+LMb#
+q\n>(
++OQv
+ZEo^
+i8P/
+?(3w
+*0"Z
+l!;b
+:1X:
+y9*O
+\rmj>
+IiGM
+\f6~_
+\v\G=
+#bML
+(>\nq
+vQO+
+^oEZ
+/P8i
+w3(?
+Z"0*
+b;!l
+:X1:
+O*9y
+incorrect header check
+unknown compression method
+invalid window size
+unknown header flags set
+header crc mismatch
+invalid block type
+invalid stored block lengths
+invalid code lengths set
+invalid bit length repeat
+invalid literal/lengths set
+invalid distances set
+invalid literal/length code
+invalid distance code
+invalid distance too far back
+incorrect data check
+incorrect length check
+too many length or distance symbols
+invalid code -- missing end-of-block
+\f   
+    
+GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
+GCC: (crosstool-NG 1.17.0) 4.6.3
+GCC: (Ubuntu 4.8.4-1ubuntu15~12.04+steamrt1+srt2) 4.8.4

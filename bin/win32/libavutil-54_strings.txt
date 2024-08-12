@@ -1,558 +1,338 @@
-	-f3F2
+sqrt
+atan
+asin
+acos
+?pow
                           
-    Last message repeated %d times
-   %-15s 
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
- (8H8h8
- 4xtx
- 8!8"8
- 8!8"8#8
- 8%8E8
- D"$%$ 
- D#$-$ 
- PjPW
- SVW3
- cf>	
- iciNWq
- is not implemented. Update your Libav version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
-!	@iW
-!4xtx
-!This program cannot be run in DOS mode.
-"$%$ 
-"020@0
-#$-$ 
-#+3;$,4<*'- 735
-#wi#:
-#wi#:=
-$@%@&@
-$@%@&@'@
-$H%H&H
-$H%H&H'H
-$H-HmH
-$PjQW
-$x%x&x
-$x%x&x'x
-%-11s %7d %10d
-%-6s   %2d 
-%-7s 
-%0_0m0
-%3333
-%H%M%S
-%H:%M:%S
-%UUUU+
-%Y%m%d
-%Y-%m-%d
-%d channels
-%d/%d
-%s AVOptions:
-&2@UUUUUU
-&?~YK|
-'<'u 
-( 8PX
-('8PW
-(null)
-)0{0/1
-)2#.!%,4
-)L	u@
-*+xi(
-*PjTW
-+*tsJ
-+PjUW
-+infinity
-+t"HHt
-,8L8l8
-,PjVW
-,SVWj0X
--%-17s 
---prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+kU'9
+HMXB
+?q=\n
+?Zd;
+?/L[
+S;uD
+z?aUY
+D?$?
+U>c{
+zc%C1
+.:3q
 -64OS
--PjWW
+NKeb
+infinity
++infinity
++inf
 -infinity
--jd[;
--t*j0X;
-.97yY
-.K="=
-.PjRW
-.idata
-.text
-/PjSW
-0 0$0(0,0004080<0@0L0P0T0X0\0`0d0h0l0p0t0x0|0
-0 0%0*03080>0F0K0Q0Y0^0d0l0q0w0
-0 0(00080@0H0P0X0`0h0p0x0
-0 8!8"8
-0!1G1e1l1p1t1x1|1
-0#070
-0$141D1T1d1
-0$@%@&@
-0$H%H&H
-0$x%x&x
-0)LK>
-0+1g1
-0/060
-000P0p0
-0123456789ABCDEFabcdef
-020i0
-060b0
-06b6k6
-0G1`1q1
-0K0a0w0
-0Q1\1g1o1{1&7}7
-0R0\0b0l0{0
-0^1i1
-0x%08X
-0}0.1
-1 1(10181@1H1P1X1`1h1p1x1
-1 11161
-1!1M1U1x1
-1"1*1/151=1B1H1P1U1Z1c1h1n1v1|1
-1#IND
-1#INF
-1#QNAN
-1#SNAN
-1$@%@&@
-1$H%H&H
-1$x%x&x
-1%111N1T1i1
-1%2,2Z2h2w283n3
-1&1,1K1Q1
-1'1,121>1H1_1g1u1
-1)252M2U2
-1)2g2
-101D1X1l1
-101L1P1p1
-121z1
-16cif
-1D1H1L1P1T1X1\1`1p1
-1D2\2p2
-1G4w6|7
-1J2U2p2w2|2
-1N_^[
-1Y2_2
-1]2g2
-1j2|2
-2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
-2 2(20282@2H2P2X2`2h2p2x2
-2 2,2H2T2p2|2
-2 202@2P2`2p2
-2 242H2\2p2
-2"2&2*2.222f7
-2#2(243
-2$2,242<2D2L2T2\2d2l2t2|2
-2)373I3T3
-2*212>2G2Q2W2q2
-2,252>2R2
-233!4q4
-24282<2@2D2H2L2
-273Q3Z3b3{3
-2;2O2U2
-2E3R3]3p3{3
-2a2k2
-2ieO=
-3	494
-3 3$3(3,3034383<3@3D3
-3 3$3(3,3034383<3@3D3H3L3P3T3t3x3|3
-3 3$3n3t3x3|3
-3 3(30383@3H3P3X3`3h3p3x3
-3 303@3P3`3p3
-3 303o3
-3 30646<7
-3!3,4
-3#3B3H3
-3$383L3\3`3p3t3
-3%3-393
-3(3H3h3
-3.0(back)
-30}->
-313E3Y3m3
-333333
-33K3r3
-3D4P4
-3M3V3~3
-3Y4g4y4
-3dnow
-3dnowext
-3j8n8r8v8
-4 4(40484@4H4P4X4`4h4p4x4
-4 525r5}5
-4!4'4-4
-4&656l6x6
-4(4<4P4d4x4
-4(4H4T4p4
-4(4t5|5
-4)434a4t4
-4,474I4
-4/4g4|4
-404:4D4
-43696_6e6
-455J5d5
-4f4n4
-4h5o5.6D6H6L6P6T6X6h7
-4lkQg
-5 5(50585@5H5P5X5`5h5p5x5
-5 5L5P5|5
-5 6*6S6[6d6m6
-5 6,6p6
-5"5&5*5.525`6
-5"525:5P5d5l5
-5#5:5X5
-5#6S6m6
-5%5N5j5+6_6
-5)585F5
-5,575Y5n5
-5,5@5T5h5|5
-5-6~6
-5/5f5
-5/6p6
-505L5P5p5
-505O5f5u5
-50878
-50O0X0~0
-525?5k5u5
-52H2W2j2y2
-576?6G6
-5:7A7|7
-5Genu
-5K8p8
-5SmT4
-5X6e6
-5^6f6
-5k5s5
-5ntel
-5s3R6=
-6 6(60686@6H6P6X6`6h6p6x6
-6 6.636B6p6
-6#7;7S7k7
-6$606<6H6T6`6\8d8l8t8|8
-6%6)6/63696=6D6
-6%8_:c:g:k:o:s:w:{:
-6&6-646;6F6S6Z6a6h6o6
-6-7H7
-6.0(front)
-6.1(front)
-606D6X6l6
-606P6p6
-60757	8
-607R7v7
-646C6f6w6}6
-676=6X6
-677=7C7I7O7U7\7c7j7q7x7
-6:6O6U6
-6<6@6l6p6
-6<6G6i6t6
-6@6]6v6
-6C7O7
-6I7x7
-6X7n7
-6r9|9
-6u7]9::
-6{7"8s8T9e9
-7 7$7\7`7
-7 7,787D7P7\7h7t7
-7 747H7\7p7
-7"747L7R7[7a7k7v7
-7$7,747<7D7L7T7\7d7l7t7|7
-7'717A7F7K7\7a7r7w7
-7'8:8
-7,707\7`7
+-inf
++nan
+-nan
+libavutil/aes.c
+libavutil/audio_fifo.c
+libavutil/avstring.c
+?456789:;<=
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+!(Ew
+~&jE
+ iciNWq
+x`\`U
+S2zw
+Qjh/T
+w?6r
+\^c$j
+E9_\v
+yU\n2`
+yr,@
+H{1S
+"//w
+AJsN
+\r*!ec
+pzKD)
+ilRdV
+)L\tu@
+?kh\t
+|sG2
+U$qk.
+fC\tc
+27;C
+qUN1
+/n[(
+Ze2Zh@
+Wcr"
+T0.S
+ap?#
+r3A~
+;"lY7
+@n2w
+_g@Cg
+%xP(
+B*k@5
+mK1f
+n:2C[
+V@E'
+::SU
+^|1)
+A4x{%`
+>3b\v$;"
+AcG\nt
+no:7
 7,gm;
+.97yY
+Bh;+j
+.x7B
+{x`M`
+BFUa.X
+YnFpW
+\t-f3F2
+|K=\nr9$|
+n6j/
+HWyn
+9)PF
+(-}|
+W;()f
+_xU`u
+08bX
+Y:D\n5>
+w``u N
+-%\t?
+libavutil/buffer.c
+LFE2
+mono
+stereo
+3.0(back)
+quad
+quad(side)
+6.0(front)
+hexagonal
+6.1(front)
 7.0(front)
 7.1(wide)
-7/7;7J7S7`7
-700PP
-700WP
-708N8m8
-738E8k8
-757?7V7
-777M7_7r7
-7:8B8V8`8~8
-7;7B7
-7;8E8d8
-7B8G8L8c8
-7H7^7
-7H8N8Y8^8X9_9
-7L8P8T8X8\8`8G9z9
-7O8c8{8
-7P:T:
-7R7e7s7a8
-7Z8>	
-7^7j7
-7b7t7
-7n9r9v9z9~9
-8 8L8P8|8
-8$888L8`8t8
-8'8,878A8W8
-8'878<8W8\8
-8(848@8L8X8d8p8|8
-8(9R9Z9w9
-8*:2:C:T:G;
-8+90999E9J9t9
-8/878
-808K8c8:9
-879G9u9
-879J9T9u9
-8::d:p;t;x;|;
-8;8U8{8
-8>8D8J8P8V8\8c8j8q8x8
-8G9l9
-8H9N9R:
-8\8h8
-8`9g9m9t9
-8h9l9
-9 9&9,92989>9D9J9P9V9\9b9h9n9t9z9
-9 9&9,939:9A9H9O9V9]9e9m9u9
-9!:Y:a:
-9$9,949<9D9L9T9\9d9l9t9|9
-9%9,9094989<9@9D9H9
-9'929Q9V9
-9(949@9t9~9
-9(959@9K9S9
-9(9<9P9d9x9
-9,9X9_9
-9.959
-91979N9a9w9
-94:Q:o:
-98:N:a:
-9@9D9H9
-9E9P9r9
-9O:b:
-9S:`:
-9] t"
-9ctWj
-9k:r:
-9m:}:
-9t:J=P=V=
-9v@tt
-:	:%:+:6:=:Q:W:y:
-: :+:N:S:_:d:
-: :,:d:s:{:
-:":(:.:4:::@:F:L:R:X:^:d:j:p:v:|:
-:":):3:::B:~:
-:":Z:
-:";*;6;
-:$:*:3:>:W:
-:$:,:4:<:D:L:T:\:d:l:t:|:
-:';B;Z;f;u;
-:*:B;h;
-:*;r;
-:,:@:T:h:
-:.;4;8;<;@;
-:/;6;X;_;
-:0:7:<:@:D:e:
-:0:^:c:
-:2;7;M;
-:5;^;
-:6;P;v;
-:8;@;
-:G:e:
-:J:R:_:7;
-:K;d;
-:P:m:&;
-:R;Z;f;k;q;
-:U:\:c:
-:W<f<
-:]=O>
-:_<p<v<
-:ct-j
-:h"?bC
-;!;*;3;;;I;Q;
-;"lY7
-;$;,;4;<;D;L;T;\;d;l;t;|;
-;$;0;<;H;T;`;l;x;
-;$;K;
-;'<W<t<
-;-;F;^;
-;-<7<Y<t<
-;2<E<
-;:<H<W<`<I>e>
-;;;z;.<Q<
-;=<W<d<
-;E w7
-;G<b<
-;L;V;
-;S<[<k<==D=~>
-;U wE;
-;V<f<|<
-;Y;n;
-;_tr.
-;e<v<
-;t$,v-
-< <,<8<D<P<\<h<t<
-< t8<	t4
-<!<3<E<W<
-<$<,<4<<<D<L<T<\<d<l<t<|<
-<$t6f
-<$tPf
-<$tTf
-<$tmf
-<+=4=R=
-<+t	<|t
-<-u&9{
-<0=Y=f=l=
-<0=n=
-<0|m<9
-<8<><O<U<f<l<
-<8bunz8
-<:<K<g<x<
-<;<Q<]<
-<@En[vP
-<ItH<ht<<lt
-<T=]=e=
-<[<f<
-<binary>
-<double>
-<flags>
-<float>
-<i=9>k?u?{?
-<int64>
-<int>
-<rational>
-<string>
-<t=~=
-<zQ}<
-<{Q}<
-=	?L?
-= ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?
-=">@>`>r>
-=$=,=4=<=D=L=T=\=d=l=t=|=
-=%=+=F=L=\=d=j=y=
-=(=0===G=m=
-=(=4=@=L=X=d=p=|=
-=,=H=Y=u=
-=4>q>
-=5=K=j=
-=C>I>g>
-=J>`>l>r>
-=\uI=
-> >,>2>F>Z>r>x>
-> >,>B>m>
->$>,>4><>D>L>T>\>d>l>t>|>
->&>2>
->,'1D=
->.?Z?
->0t-N
->1>P>o>
->2>n>
->4>>>m>w>
->6>L>b>j>t?
->6>b>
->8?<?@?D?H?L?P?T?
-><?L?
->Cu/f9F
->j>t>
->l?t?
->o3fW
-?!?)?.?4?<?A?G?O?T?Z?b?g?m?u?z?
-?#%X.y
-?#?2?S?
-?$?*?L?V?\?n?
-?$?,?4?<?D?L?T?\?d?l?t?x?
-?$rxxx
-?(FN\
-?."S-
-?333333
-?43-s
-?456789:;<=
-?4j<=
-?5L$.
-?6FID
-?765@Z
-?7Tf(
-?:uBGW
-?>6)}
-?A%My
-?C;0=
-?Dj0Q:W$=
-?IT$7
-?N?R?V?Z?^?b?f?j?n?r?v?z?~?
-?P`E5
-?QNT	
-?RbSQ
-?UUUUUU
-?V:e:
-?X&eB
-?ZEM-'^
-?c3y?
-?e')lW
-?g)([|X>=
-?h6_~
-?ju!4
-?l$G~
-?uZEeu
-?{fHn
-?{yK+;
-?|I7Z#
-@.data
-@.reloc
-@H#?43
-@HvT2
-@PSjU
-@jd_u	
-A4x{%`
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-ADVAPI32.dll
-AP;BPu<
-AVOption type %d of option %s not implemented yet
+octagonal
+downmix
+%d channels
+flags
+mmxext
+sse2
+sse2slow
+sse3
+sse3slow
+ssse3
+atom
+sse4.1
+sse4.2
+fma3
+fma4
+avx2
+bmi1
+bmi2
+3dnow
+3dnowext
+cmov
+cpuflags
+&.6>
+$,4<
+"*2:
+ (08
+'/7?
+%-5=
+#+3;
+!)19
+'/7?
+&.6>
+%-5=
+!)19
+"*2:
+#+3;$,4<*'- 735
+)2#.!%,4
+libavutil/dict.c
+Bitstream filter not found
+Decoder not found
+Demuxer not found
+Encoder not found
+End of file
+Immediate exit requested
+Filter not found
+Invalid data found when processing input
+Muxer not found
+Option not found
+Not yet implemented in Libav, patches welcome
+Protocol not found
+Stream not found
+Bug detected, please report the issue
+Unknown error occurred
+Experimental feature
+Error number %d occurred
+Eval
+libavutil/eval.c
+Undefined constant or missing '(' in '%s'\n
+Missing ')' in '%s'\n
+Missing ')' or too many args in '%s'\n
+sinh
+cosh
+tanh
+atan
+asin
+acos
+squish
+gauss
+isnan
+isinf
+while
+floor
+ceil
+trunc
+sqrt
+Unknown function in '%s'\n
+Invalid chars '%s' at the end of expression '%s'\n
+333333
+libavutil/fifo.c
+FILE
+Cannot read file '%s': %s\n
+Error occurred in fstat(): %s\n
+File size for file '%s' is too big\n
+Error occurred in CreateFileMapping()\n
+Error occurred in MapViewOfFile()\n
+libavutil/file_open.c
+libavutil/frame.c
+libavutil/hmac.c
+IMGUTILS
+libavutil/imgutils.c
+Picture size %ux%u is invalid\n
+NO_COLOR
 AV_LOG_FORCE_NOCOLOR
-A\vT2
-A]?VJ
-A_^[]
-AiFC.
+[%s @ %p] 
+    Last message repeated %d times\r
+    Last message repeated %d times\n
+ is not implemented. Update your Libav version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.\n
+If you want to help, upload a sample of this file to ftp://upload.libav.org/incoming/ and contact the libav-devel mailing list.\n
+QZ^&
+libavutil/md5.c
+libavutil/mem.c
+!\t@iW
+QP2LAMBDA
+Value %f for parameter '%s' out of range\n
+libavutil/opt.c
+default
+none
+Unable to parse option value "%s"\n
+Invalid option type.\n
+0x%08X
+%lld
+%d/%d
+%02X
+   %-15s 
+-%-17s 
+<flags>
+%-7s 
+<int>
+<int64>
+<double>
+<float>
+<string>
+<rational>
+<binary>
+%s AVOptions:\n
+AVOption type %d of option %s not implemented yet\n
+Missing key or no key/value separator found after key '%s'\n
+Setting value '%s' for key '%s'\n
+Key '%s' not found.\n
+Error setting option %s to value %s.\n
+Orchid
+PaleGoldenRod
+PaleGreen
+PaleTurquoise
+PaleVioletRed
+PapayaWhip
+PeachPuff
+Peru
+Pink
+Plum
+PowderBlue
+Purple
+RosyBrown
+RoyalBlue
+SaddleBrown
+Salmon
+SandyBrown
+SeaGreen
+SeaShell
+Sienna
+Silver
+SkyBlue
+SlateBlue
+SlateGray
+Snow
+SpringGreen
+SteelBlue
+Teal
+Thistle
+Tomato
+Turquoise
+Violet
+Wheat
+White
+WhiteSmoke
+Yellow
+YellowGreen
+%Y-%m-%d
+%Y%m%d
+%H:%M:%S
+%H%M%S
+ntsc
+qntsc
+qpal
+sntsc
+spal
+film
+ntsc-film
+sqcif
+qcif
+4cif
+16cif
+qqvga
+qvga
+svga
+uxga
+qxga
+sxga
+qsxga
+hsxga
+wvga
+wxga
+wsxga
+wuxga
+woxga
+wqsxga
+wquxga
+whsxga
+whuxga
+hd480
+hd720
+hd1080
 AliceBlue
 AntiqueWhite
-April
+Aqua
 Aquamarine
-AreFileApisANSI
-August
-AuthenticAMD
-Ax#?uN}*
 Azure
-B'=>>
-B*k@5
-BFUa.X
 Beige
-Bh;+j
 Bisque
-Bitstream filter not found
 Black
 BlanchedAlmond
+Blue
 BlueViolet
 Brown
-Bug detected, please report the issue
 BurlyWood
 CadetBlue
-Cannot find color '%s'
-Cannot read file '%s': %s
 Chartreuse
 Chocolate
-CloseHandle
-CloseThreadpoolTimer
-CloseThreadpoolWait
-CompareStringEx
-CompareStringW
-CorExitProcess
 Coral
 CornflowerBlue
 Cornsilk
-CqTR;
-CreateEventExW
-CreateEventW
-CreateFile2
-CreateFileMappingA
-CreateFileW
-CreateSemaphoreExW
-CreateSemaphoreW
-CreateSymbolicLinkW
-CreateThreadpoolTimer
-CreateThreadpoolWait
 Crimson
-CryptAcquireContextA
-CryptGenRandom
-CryptReleaseContext
-D8,8l8
-D<xZu
+Cyan
 DarkBlue
 DarkCyan
 DarkGoldenRod
@@ -561,6 +341,7 @@ DarkGreen
 DarkKhaki
 DarkMagenta
 DarkOliveGreen
+Darkorange
 DarkOrchid
 DarkRed
 DarkSalmon
@@ -569,185 +350,37 @@ DarkSlateBlue
 DarkSlateGray
 DarkTurquoise
 DarkViolet
-Darkorange
-December
-Decoder not found
 DeepPink
 DeepSkyBlue
-DeleteCriticalSection
-Demuxer not found
 DimGray
 DodgerBlue
-E SVWf
-E$QPSW
-Eb2]A=
-Encoder not found
-End of file
-EnterCriticalSection
-EnumSystemLocalesEx
-EnumSystemLocalesW
-Error number %d occurred
-Error occurred in CreateFileMapping()
-Error occurred in MapViewOfFile()
-Error occurred in fstat(): %s
-Error setting option %s to value %s.
-ExitProcess
-Experimental feature
-F"VM>
-F0$?3=1
-FD;GD
-FH;GH
-FVWPP
-F\IE>
-FatalAppExitA
-February
-File size for file '%s' is too big
-FileTimeToLocalFileTime
-FileTimeToSystemTime
-Filter not found
 FireBrick
 FloralWhite
-FlsAlloc
-FlsFree
-FlsGetValue
-FlsSetValue
-FlushFileBuffers
-FlushProcessWriteBuffers
 ForestGreen
-FreeEnvironmentStringsW
-FreeLibrary
-FreeLibraryWhenCallbackReturns
-Friday
 Fuchsia
-F||<##
-G Pj*S
-G$Pj+S
-G(Pj,S
-G,Pj-S
-G0Pj.S
-G4Pj/S
-G8PjDS
-G<PjES
-G@PjFS
-GDPjGS
-GHPjHS
-GL;BLu[
-GLPjIS
-GPPjJS
-GTPjKS
-GWVj	
-GXPjLS
-G\PjMS
-G`PjNS
 Gainsboro
-GdPjOS
-GenuineIntel
-GetACP
-GetActiveWindow
-GetCPInfo
-GetCommandLineA
-GetConsoleCP
-GetConsoleMode
-GetConsoleScreenBufferInfo
-GetCurrentPackageId
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentProcessorNumber
-GetCurrentThread
-GetCurrentThreadId
-GetDateFormatEx
-GetDateFormatW
-GetEnvironmentStringsW
-GetFileInformationByHandle
-GetFileInformationByHandleExW
-GetFileType
-GetLastActivePopup
-GetLastError
-GetLocaleInfoEx
-GetLocaleInfoW
-GetLogicalProcessorInformation
-GetModuleFileNameA
-GetModuleFileNameW
-GetModuleHandleExW
-GetModuleHandleW
-GetOEMCP
-GetProcAddress
-GetProcessAffinityMask
-GetProcessHeap
-GetProcessWindowStation
-GetStartupInfoW
-GetStdHandle
-GetStringTypeW
-GetSystemTimeAsFileTime
-GetTickCount
-GetTickCount64
-GetTimeFormatEx
-GetTimeFormatW
-GetTimeZoneInformation
-GetUserDefaultLCID
-GetUserDefaultLocaleName
-GetUserObjectInformationW
-GhPj8S
 GhostWhite
-GlPj9S
+Gold
 GoldenRod
-GpPj:S
+Gray
 Green
 GreenYellow
-GtPj;S
-GxPj<S
-G|Pj=S
-H0X0`0h0p0x0
-HH:mm:ss
-HHtVHHt
-HPjPW
-H`$?h|
-HeapAlloc
-HeapFree
-HeapQueryInformation
-HeapReAlloc
-HeapSize
 HoneyDew
 HotPink
-Ht+Ht$Ht
-IMGUTILS
-If you want to help, upload a sample of this file to ftp://upload.libav.org/incoming/ and contact the libav-devel mailing list.
-Immediate exit requested
 IndianRed
 Indigo
-InitializeCriticalSectionAndSpinCount
-InitializeCriticalSectionEx
-Invalid 0xRRGGBB[AA] color string: '%s'
-Invalid alpha value specifier '%s' in '%s'
-Invalid chars '%s' at the end of expression '%s'
-Invalid data found when processing input
-Invalid option type.
-IsDebuggerPresent
-IsProcessorFeaturePresent
-IsValidCodePage
-IsValidLocale
-IsValidLocaleName
 Ivory
-JanFebMarAprMayJunJulAugSepOctNovDec
-January
-K<<H!
-KERNEL32.dll
-Key '%s' not found.
 Khaki
-LCMapStringEx
-LCMapStringW
-LPjQW
 Lavender
 LavenderBlush
 LawnGreen
-LeaveCriticalSection
 LemonChiffon
 LightBlue
 LightCoral
 LightCyan
 LightGoldenRodYellow
-LightGreen
 LightGrey
+LightGreen
 LightPink
 LightSalmon
 LightSeaGreen
@@ -755,15 +388,10 @@ LightSkyBlue
 LightSlateGray
 LightSteelBlue
 LightYellow
+Lime
 LimeGreen
 Linen
-LoadLibraryExW
-Lyc>=
-MM/dd/yy
-MVx:>
 Magenta
-MapViewOfFile
-March
 Maroon
 MediumAquaMarine
 MediumBlue
@@ -774,197 +402,830 @@ MediumSlateBlue
 MediumSpringGreen
 MediumTurquoise
 MediumVioletRed
-MessageBoxW
 MidnightBlue
 MintCream
-Missing ')' in '%s'
-Missing ')' or too many args in '%s'
-Missing key or no key/value separator found after key '%s'
 MistyRose
 Moccasin
-Monday
-MultiByteToWideChar
-Muxer not found
-ND3F@3
-NO_COLOR
 NavajoWhite
-Nl,"=
-Not yet implemented in Libav, patches welcome
-November
-Nu?-HF
-O0a0s0
-October
+Navy
 OldLace
 Olive
 OliveDrab
-Option not found
 Orange
 OrangeRed
-Orchid
-OutputDebugStringW
-PP9E u
-PPPPP
-PPPPPPPP
-PPPPj
-PPWVj
-PRPQh
-PSSSSV
-PSSSj
-PVVVVQ
-PWWWWV
-PaleGoldenRod
-PaleGreen
-PaleTurquoise
-PaleVioletRed
-PapayaWhip
-PeachPuff
-PeekNamedPipe
-Pex?0
-Picture size %ux%u is invalid
-Pj@Sj
-PjOSj
-PjdSQ
-PjdVS
-PowderBlue
-Protocol not found
-Purple
-QP2LAMBDA
-QQQQQ
-QRPWS
-QRVWS
-QSVW3
-QVWSj
-QVj;h
-Qjh/T
-QueryPerformanceCounter
-R9V9Z9^9b9f9j9n9r9v9z9~9
-RSDSl
-RUUUUU
-RaiseException
-ReadConsoleW
-ReadFile
-Rich:\
-RosyBrown
-RoyalBlue
-RtlUnwind
-SPPP+
-SSPQSW
-SSSSS
-SVWPP
-SVWUj
-SVWjA_jZ+
-SVjA[jZ^+
-SaddleBrown
-Salmon
-SandyBrown
-Saturday
-SeaGreen
-SeaShell
-September
-SetConsoleCtrlHandler
-SetConsoleTextAttribute
-SetDefaultDllDirectories
-SetEndOfFile
-SetEnvironmentVariableA
-SetFileInformationByHandleW
-SetFilePointerEx
-SetLastError
-SetStdHandle
-SetThreadStackGuarantee
-SetThreadpoolTimer
-SetThreadpoolWait
-SetUnhandledExceptionFilter
-Setting value '%s' for key '%s'
-Sienna
-Silver
-SkyBlue
-SlateBlue
-SlateGray
-Sleep
-SpringGreen
-SteelBlue
-Stream not found
-SunMonTueWedThuFriSat
+random
+bikeshed
+0123456789ABCDEFabcdef
+Invalid 0xRRGGBB[AA] color string: '%s'\n
+Cannot find color '%s'\n
+Invalid alpha value specifier '%s' in '%s'\n
+ 8!8"8
+$8L8
+ (8H8h8
+ (8H8h8
+ 8!8"8
+ 8!8"8
+ 8!8"8
+ 8!8"8
+ 8!8"8
+ 8!8"8
+ 8!8"8
+D8,8l8
+L848
+ 8%8E8
+ 8%8E8
+,8L8l8
+,8L8l8
+,8L8l8
+,8L8l8
+ 8!8"8
+ 8!8"8
+ 8!8"8#8
+!4xtx
+ 4xtx
+#$-$ 
+ D#$-$ 
+"$%$ 
+ D"$%$ 
+#$-$ 
+ D#$-$ 
+"$%$ 
+ D"$%$ 
+$x%x&x
+$x%x&x
+$x%x&x
+$x%x&x
+$x%x&x
+$x%x&x
+$8D8
+!4xtx
+ 4xtx
+$@%@&@
+$@%@&@
+$H%H&H
+$H%H&H
+$H%H&H
+$H%H&H
+$@%@&@
+$@%@&@
+$H%H&H
+$H%H&H
+$@%@&@
+$@%@&@
+0 8!8"8
+1$@%@&@
+0$@%@&@
+1$H%H&H
+0$H%H&H
+1$x%x&x
+0$x%x&x
+ 8!8"8#8
+ 8!8"8#8
+$@%@&@'@
+$@%@&@'@
+$@%@&@'@
+$@%@&@'@
+$@%@&@'@
+$@%@&@'@
+$H%H&H'H
+$H%H&H'H
+$H%H&H'H
+$H%H&H'H
+$H%H&H'H
+$H%H&H'H
+$x%x&x'x
+$x%x&x'x
+$x%x&x'x
+$x%x&x'x
+$x%x&x'x
+$x%x&x'x
+4\t\
+4\t\
+ 8%8E8
+$H-HmH
+$H-HmH
+<x|x
+<x|x
+4xtx
+4xtx
+$8L8
+,xlx
+,xlx
+yuv420p
+yuyv422
+rgb24
+bgr24
+yuv422p
+yuv444p
+yuv410p
+yuv411p
+gray
+gray8,y8
+monow
+monob
+pal8
+yuvj420p
+yuvj422p
+yuvj444p
+xvmcmc
+xvmcidct
+uyvy422
+uyyvyy411
+bgr8
+bgr4
+bgr4_byte
+rgb8
+rgb4
+rgb4_byte
+nv12
+nv21
+argb
+rgba
+abgr
+bgra
+gray16be
+y16be
+gray16le
+y16le
+yuv440p
+yuvj440p
+yuva420p
+vdpau_h264
+vdpau_mpeg1
+vdpau_mpeg2
+vdpau_wmv3
+vdpau_vc1
+rgb48be
+rgb48le
+rgb565be
+rgb565le
+rgb555be
+rgb555le
+bgr565be
+bgr565le
+bgr555be
+bgr555le
+vaapi_moco
+vaapi_idct
+vaapi_vld
+yuv420p16le
+yuv420p16be
+yuv422p16le
+yuv422p16be
+yuv444p16le
+yuv444p16be
+vdpau_mpeg4
+dxva2_vld
+rgb444le
+rgb444be
+bgr444le
+bgr444be
+gray8a
+bgr48be
+bgr48le
+yuv420p9be
+yuv420p9le
+yuv420p10be
+yuv420p10le
+yuv422p10be
+yuv422p10le
+yuv444p9be
+yuv444p9le
+yuv444p10be
+yuv444p10le
+yuv422p9be
+yuv422p9le
+vda_vld
+gbrp
+gbrp9be
+gbrp9le
+gbrp10be
+gbrp10le
+gbrp16be
+gbrp16le
+yuva422p
+yuva444p
+yuva420p9be
+yuva420p9le
+yuva422p9be
+yuva422p9le
+yuva444p9be
+yuva444p9le
+yuva420p10be
+yuva420p10le
+yuva422p10be
+yuva422p10le
+yuva444p10be
+yuva444p10le
+yuva420p16be
+yuva420p16le
+yuva422p16be
+yuva422p16le
+yuva444p16be
+yuva444p16le
+vdpau
+xyz12le
+xyz12be
+nv16
+nv20le
+nv20be
+rgba64be
+rgba64le
+bgra64be
+bgra64le
+yvyu422
+ya16be
+ya16le
+rgb32
+bgr32
+%s%s
+name nb_components nb_bits
+%-11s %7d %10d
+s16p
+s32p
+fltp
+dblp
+name   depth
+%-6s   %2d 
+libavutil/samplefmt.c
+}\fUt]
+\f$o,
+vRQ>
+\r8STs\ne
+\njv.
+LwH'
+libavutil/sha.c
+libavutil/stereo3d.c
+libavutil/tree.c
+--prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
+libavutil license: LGPL version 2.1 or later
+AuthenticAMD
+GenuineIntel
+CreateFile2
+(null)
+( 8PX
+700WP
+`h````
+xpxxxx
 Sunday
-SystemFunction036
-TUUUU
-TerminateProcess
-Thistle
-Thursday
-TlsAlloc
-TlsFree
-TlsGetValue
-TlsSetValue
-Tomato
+Monday
 Tuesday
-Turquoise
-T~OXu
-U$qk.
-UQPXY]Y[
-URPQQh
-UUUUU
-UUUUUU
-Unable to parse option value "%s"
-Undefined constant or missing '(' in '%s'
-UnhandledExceptionFilter
-Unknown error occurred
-Unknown function in '%s'
-UnmapViewOfFile
-V%A+=
-VVVVV
-VWPQS
-VWhL	
-VWj/S
-Value %f for parameter '%s' out of range
-Violet
-VjFh0
-VjqhL
-W;()f
-WHPhX
-WPPPPj
-WWWWW
-WaitForThreadpoolTimerCallbacks
 Wednesday
-Wheat
-White
-WhiteSmoke
-WideCharToMultiByte
-Wj0XPV
-Wj5_f;
-WriteConsoleW
-WriteFile
-X5d5p5|5
-Y:/(A6>
-Y<E|X<z
-YYHtIHt8
-Y_^[]
-Y__^[
-Yellow
-YellowGreen
-YnFpW
-Yu2Vj@h
-Ze2Zh@
-[%s @ %p] 
-[@_^3
-[]_^[
-[j&,>
-\^c$j
-\tB=EOF
-]vQ<)8
+Thursday
+Friday
+Saturday
+January
+February
+March
+April
+June
+July
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+e+000
+atan2
+?1mm
+?Xw$
+?uZEeu
+?P/Y
+uZEeu
+uZEeu
+?uZEeu
+?Xw$
+?1mm
+?UUUUUU
+?UUUUUU
+m0_$@
+?1mm
+?Xw$
+?uZEeu
+?P/Y
+uZEeu
+uZEeu
+?uZEeu
+?Xw$
+?1mm
+?UUUUUU
+?UUUUUU
+m0_$@
+RUUUUU
+TUUUU
+?\r0\vH_
+?|}}
+?)0>
+'HR%
+cb~q
+4lkQg
+n@4`
+ibzP
+  %X
+?iT\t
+w7H-
+?ju!4
+V-Ai
+?Zxg
+4{#s
+PO79
+?V:e:
+?4Td
+[b\rU
+o]2'
+?o.x
+@g\t=
+5SmT4
+<{\f=
+*+xi(
+r\nly
+?\rT9
+}Tw5
+?M]-
+?1-\nI
+?y]h
+?FnH
+C1\v]
+?dDR
+?ZEM-'^
+?m}I
+?VV&
+?>6)}
+fSOs
+?{yK+;
+?i|e\f
+?)Ao\n:
+?765@Z
+?}>v
+H|As
+_\v0.m
+?B?}
+D<xZu
+?`\@
+?)]G
+?KB\t
+E0d\f
+?KYC
+?\nQ-
+?$*2
+?l$G~
+?s7\f
+>|.~
 ^\sY0
-_^@[]
+?:Rp
+}6lw
+7Z8>\t
+?e')lW
+?zD@
+?* A
+yx|o
+6 d!
+ZyrI
+?PV3
+UUUUUU
+?333333
+?333333
+?UUUUUU
+?$rxxx
+?\r0\vH_
+?|}}
+?)0>
+'HR%
+cb~q
+4lkQg
+n@4`
+ibzP
+  %X
+?iT\t
+w7H-
+?ju!4
+V-Ai
+?Zxg
+4{#s
+PO79
+?V:e:
+?4Td
+[b\rU
+o]2'
+?o.x
+@g\t=
+5SmT4
+<{\f=
+*+xi(
+r\nly
+?\rT9
+}Tw5
+?M]-
+?1-\nI
+?y]h
+?FnH
+C1\v]
+?dDR
+?ZEM-'^
+?m}I
+?VV&
+?>6)}
+fSOs
+?{yK+;
+?i|e\f
+?)Ao\n:
+?765@Z
+?}>v
+H|As
+_\v0.m
+?B?}
+D<xZu
+?`\@
+?)]G
+?KB\t
+E0d\f
+?KYC
+?\nQ-
+?$*2
+?l$G~
+?s7\f
+>|.~
+^\sY0
+?:Rp
+}6lw
+7Z8>\t
+?e')lW
+?zD@
+?* A
+yx|o
+6 d!
+ZyrI
+?PV3
+UUUUUU
+333333
+?333333
+?UUUUUU
+?$rxxx
+sinh
+cosh
+tanh
+fUUU
+?RbSQ
+<zQ}<
+_/:>
+<8bunz8
+cC<-
+v<'*6
+<)TH
+<$"U
+e<bN
+{<6w
+]{f\f\n
+<\%>
+l,kg<i
+<'Za
+<@En[vP
+atan2
+fabs
+modf
+ldexp
 _cabs
-_g@Cg
 _hypot
+fmod
+frexp
 _logb
 _nextafter
-_tcPVj@
-_xU`u
-`.rdata
-`h````
+log10
+UUUUU
+?Dj0Q:W$=
+Lyc>=
+?C;0=
+5M[g
+?D\fi
+\f0$=
+M_8=
+/r(=
+?4j<=
+Nl,"=
+\v>)g
+Xg+=
+?{fHn
+5s3R6=
+\fO4W
+?#60
+?UUUUUU
+=mm?
+u+E6
+|u?!u$
+Nu?-HF
+d? cf>\t
+e-CS
+?(F_
+X2CQ
+?X1U
+?P),
+? ,6
+5DKB
+?7C\f
+U&X>
+f*"!
+a\rg\f
+n}in
+&2@UUUUUU
+=m=@
+u+E6
+."S-
+$9t?
+>Xzv
+#wi#:
+?c3y
+g\>{
++*tsJ
+0vB-
+s{c|H
+o3fW
+f6\tn
+jVa?
+UUUUUU
+f6\tn
+"Q??
+>o3fW
+0vB-
+s{c|H
++*tsJ
+F?cf
+?c3y?
+g\>{
+O?>>
+3{9=
+?m|1
+>Xzv
+#wi#:=
+?."S-
+$9t?
+A]?VJ
+&2@UUUUUU
+=m=@
+u+E6
+a\rg\f
+n}in
+U&X>
+f*"!
+5DKB
+?7C\f
+?P),
+Mpm<
+e-CS
+X2CQ
+?X1U
+Nu?-HF
+ cf>\t
+m0_$@
+m0_$@
+F=J4
+:Esp
+?X&eB
+?Ltm
+tLVv
+?h6_~
+37.=
+?7Tf(
+=\uI=
+g:"(
+$O1=
+uXO=
+1w<=
+>'eH
+pnJ=
+Ht=c
+t\f'=
+]vQ<)8
+z1}B
+X4I+
+|)P!?Ua0
+\t\t!=
++34?
+??7;\fW
+MkK?
+R_V?
+\r9&\?
+Eb2]A=
+f#I=
+hb?O2
+H`3=
+c?e2
+Le?2
+0h?[
+2ieO=
+|W8A=
+np?z 
+m{\rM=
+)(q?
+}~:f
+&\rt?,&
+u?^p?o4
+!9v?
+GYM=
+Pex?0
+6K{?
+E\tM=
+X-F=
+w}?0
+y1~?|"
+x\vI=
+V%A+=
+4';=
+q\t! 
+#D5p
+\n^!E
+La8i
+{4Wf
+Ai0T
+@VNQ
+p4"%
+P'E=
+ls1=
+?PiB
+{^C=
+ `\v?
+r" \f?
+n{;=
+3<L=
+?|I7Z#
+aDJ=
+>,'1D=
++NB=
+?g)([|X>=
+?|[{
+~*L=
+u!K=
+?IT$7
+-8 ?
+.h ?
+2 !?
+\f4P!?
+!y##
+98"?
+:h"?bC
+? #?
+@H#?43
+Ax#?uN}*
+r7Yr7=
+.K="=
+F0$?3=1
+H`$?h|
+%?uY
+NH%?
+Px%?
+%?\9\f
+&?~YK|
+sU0&?W
+VX&?
+4g%6
+:]=O>
+#w_j
+(+E 
+V~|_
+!|.4
+G"jm\n>;
+/h\f7
+6(`J
+k:UG
+UY =
+Bfe9
+E=|\n
+CqTR;
+AiFC.
+?5a1
+<{Q}<
+hI{L[
+<8bunz8
+?}\r?
+<V/>
+?(FN\
+<'*6
+C}<\r
+?3xj
+<)TH
+K<<H!
+m1WY$
+?#%X.y
+F||<##
+$x<e
+]{f\f
+<]%>
+T~OXu
+?.)T
+zyC7
+k7+%
+<@En[vP
+exp10
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+InitializeCriticalSectionEx
+CreateEventExW
+CreateSemaphoreExW
+SetThreadStackGuarantee
+CreateThreadpoolTimer
+SetThreadpoolTimer
+WaitForThreadpoolTimerCallbacks
+CloseThreadpoolTimer
+CreateThreadpoolWait
+SetThreadpoolWait
+CloseThreadpoolWait
+FlushProcessWriteBuffers
+FreeLibraryWhenCallbackReturns
+GetCurrentProcessorNumber
+GetLogicalProcessorInformation
+CreateSymbolicLinkW
+SetDefaultDllDirectories
+EnumSystemLocalesEx
+CompareStringEx
+GetDateFormatEx
+GetLocaleInfoEx
+GetTimeFormatEx
+GetUserDefaultLocaleName
+IsValidLocaleName
+LCMapStringEx
+GetCurrentPackageId
+GetTickCount64
+GetFileInformationByHandleExW
+SetFileInformationByHandleW
+CorExitProcess
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+('8PW
+700PP
 `h`hhh
-abcdefghijklmnopqrstuvwxyz
-atan2
+xppwpp
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+2n{a
+?\v{4
+i^^?(>
+0H<>
+Y:/(A6>
+!'\t>
+|#<>
+MVx:>
+?edf
+?RE\
+?B6)
+Jg >
+hb">
+\r\n@>
+[j&,>
+2G<>
+?x(3
+O,ib
+?6FID
+gsL>
+09C>
+V\tC>
+?9\v!
+NcB>
+%\fF>
+?5L$.
++oF>
+j\&"
+#O#`
+F\IE>
+?Ly5
+?A%My
+f7O>
+B'=>>
+?QNT\t
+;,*>
+in]D>
+F"VM>
+30}->
+~F\ty
+?[s$
+0)LK>
+DcI>
+l"w 
+#tF>
+O\n>>
+?43-s
+?P`E5
+MessageBoxW
+GetActiveWindow
+GetLastActivePopup
+GetUserObjectInformationW
+GetProcessWindowStation
+SystemFunction036
+1#SNAN
+1#IND
+1#INF
+1#QNAN
+RSDSl
+]"-\
+c:\buildslave\libav_win32\build\dev\libavutil\libavutil-54.pdb
+libavutil-54.dll
 av_add_q
 av_adler32_update
 av_aes_alloc
@@ -1234,267 +1495,3 @@ avpriv_vsnprintf
 avutil_configuration
 avutil_license
 avutil_version
-bWWWWj
-bgr24
-bgr32
-bgr444be
-bgr444le
-bgr48be
-bgr48le
-bgr4_byte
-bgr555be
-bgr555le
-bgr565be
-bgr565le
-bgra64be
-bgra64le
-bikeshed
-c:\buildslave\libav_win32\build\dev\libavutil\libavutil-54.pdb
-cpuflags
-d? cf>	
-dddd, MMMM dd, yyyy
-default
-downmix
-dxva2_vld
-e+000
-exp10
-f- 8f=
-f-00f=
-flags
-floor
-frexp
-gauss
-gbrp10be
-gbrp10le
-gbrp16be
-gbrp16le
-gbrp9be
-gbrp9le
-gray16be
-gray16le
-gray8,y8
-gray8a
-hI{L[
-hb?O2
-hd1080
-hd480
-hd720
-hexagonal
-hsxga
-i^^?(>
-ilRdV
-in]D>
-infinity
-isinf
-isnan
-j	PjYV
-j	Yf;
-j"X_^[]
-j.Yf;
-j0Xf;
-j0Yf;
-j;Yf9
-j@j _W
-jAZjZ^
-jA[jZZ+
-jXYf;
-jlhpO
-jxYf;
-l,kg<i
-ldexp
-libavutil license: LGPL version 2.1 or later
-libavutil-54.dll
-libavutil/aes.c
-libavutil/audio_fifo.c
-libavutil/avstring.c
-libavutil/buffer.c
-libavutil/dict.c
-libavutil/eval.c
-libavutil/fifo.c
-libavutil/file_open.c
-libavutil/frame.c
-libavutil/hmac.c
-libavutil/imgutils.c
-libavutil/md5.c
-libavutil/mem.c
-libavutil/opt.c
-libavutil/samplefmt.c
-libavutil/sha.c
-libavutil/stereo3d.c
-libavutil/tree.c
-log10
-m0_$@
-m1WY$
-mmxext
-monob
-monow
-n:2C[
-name   depth
-name nb_components nb_bits
-np?z 
-ntsc-film
-nv20be
-nv20le
-octagonal
-pzKD)
-qntsc
-qqvga
-qsxga
-quad(side)
-r%f;M
-r7Yr7=
-random
-rgb24
-rgb32
-rgb444be
-rgb444le
-rgb48be
-rgb48le
-rgb4_byte
-rgb555be
-rgb555le
-rgb565be
-rgb565le
-rgba64be
-rgba64le
-s Wu>
-sU0&?W
-sntsc
-sqcif
-squish
-sse2slow
-sse3slow
-sse4.1
-sse4.2
-ssse3
-stereo
-s{c|H
-t	_^3
-t WW9}
-t"<'t
-t#=BUG
-t$$SVSRQ
-t&HHt
-t/HHt
-t5j S
-t7QVW
-t@VSP
-tFh 7
-tHHt*Ht#
-tMj_S
-tWh@	
-t\j=S
-tfHtWHtHHt/
-trunc
-tyPVj@W
-u#j,Xf;
-u'j0X
-u)Ph@B
-u>_^3
-u?^p?o4
-uBjAYjZ+
-uCPVj
-uHjAXf;
-uJSSR
-uWjAXf;
-uZEeu
-uyvy422
-uyyvyy411
-v	N+D$
-v<'*6
-vaapi_idct
-vaapi_moco
-vaapi_vld
-vda_vld
-vdpau
-vdpau_h264
-vdpau_mpeg1
-vdpau_mpeg2
-vdpau_mpeg4
-vdpau_vc1
-vdpau_wmv3
-w``u N
-while
-whsxga
-whuxga
-woxga
-wqsxga
-wquxga
-wsxga
-wtVj	
-wuxga
-x`\`U
-xppwpp
-xpxxxx
-xvmcidct
-xvmcmc
-xyz12be
-xyz12le
-y16be
-y16le
-y1~?|"
-ya16be
-ya16le
-yuv410p
-yuv411p
-yuv420p
-yuv420p10be
-yuv420p10le
-yuv420p16be
-yuv420p16le
-yuv420p9be
-yuv420p9le
-yuv422p
-yuv422p10be
-yuv422p10le
-yuv422p16be
-yuv422p16le
-yuv422p9be
-yuv422p9le
-yuv440p
-yuv444p
-yuv444p10be
-yuv444p10le
-yuv444p16be
-yuv444p16le
-yuv444p9be
-yuv444p9le
-yuva420p
-yuva420p10be
-yuva420p10le
-yuva420p16be
-yuva420p16le
-yuva420p9be
-yuva420p9le
-yuva422p
-yuva422p10be
-yuva422p10le
-yuva422p16be
-yuva422p16le
-yuva422p9be
-yuva422p9le
-yuva444p
-yuva444p10be
-yuva444p10le
-yuva444p16be
-yuva444p16le
-yuva444p9be
-yuva444p9le
-yuvj420p
-yuvj422p
-yuvj440p
-yuvj444p
-yuyv422
-yvyu422
-z?aUY
-zc%C1
-{ta=UNK
-{x`M`
-|)P!?Ua0
-|W8A=
-|u?!u$
-} j@W
-} kE$<
-~';_t|%3
-~@t	W
-~pjCXf

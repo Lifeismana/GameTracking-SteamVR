@@ -1,904 +1,316 @@
-															
-	 	$	6	I	Y	h	s	z	
-	,	m	s
-	0/0L0
-	4	N	\a
-	?clipboard@QPlatformIntegration@@UBEPAVQPlatformClipboard@@XZ
-	?closeSubpath@QPainterPath@@QAEXXZ
-	?contains@QRect@@QBE_NABV1@_N@Z
-	?createUuid@QUuid@@SA?AV1@XZ
-	?customEvent@QObject@@MAEXPAVQEvent@@@Z
-	Q?qt_metacall@QPlatformIntegrationPlugin@@UAEHW4Call@QMetaObject@@HPAPAX@Z
-	}!kM
- 	?contains@QRect@@QBE_NABVQPoint@@_N@Z
-      
-                                
-  close cubicTo
-  closeSubpath
-  cubicTo
-  end point is on curve, start is not
-  lineTo
-  start and end point are not on curve
-  start at
- "@^@h
- < C O [ c
- DICu5
- gnptc
- gnpw
- gpjtZ
- tvct
-!!!!!!
-!This program cannot be run in DOS mode.
-!face_
-!result || int(*length) > 0
-!weakref.load()
-!x->ref.isStatic()
-"("4"<"Da
-"[?windowState@QWindow@@QBE?AW4WindowState@Qt@@XZ
-#JHuP
-#P?populateFamily@QPlatformFontDatabase@@UAEXABVQString@@@Z
-#\#g#w#
-$2$r$
-$3(3,3034383<3@3D3H3Z5
-$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-$V?setSupported@QSupportedWritingSystems@@QAEXW4WritingSystem@QFontDatabase@@_N@Z
-$tPkM
-%!FontType
-%!PS-Adobe-3.0 Resource-CIDFont
-%!PS-AdobeFont
-%!PS-TrueTypeFont
-%2%6%:%>%B%F%J%N%R%V0
-%ADOBeginFontDict
-%[?windowSystemEventsQueued@QWindowSystemInterface@@SAHXZ
-%r%v%z%~%
-%u"j	h<g
-&2&6&:&>&B&F&J&N&R&V0
-&r&v&z&~&
-' '$'(','0'4'8'<'@0
-'!$J$N$R$V$Z$^$b$f$j$n0
-'\'`'d'h'l'p't'x'|'
-( ($(((,(0(4(8(<(@0
-(00080@0H0P0X0`0h0
-(3,3034383<3@3D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-(D(~(
-(Hex)
-(Z(^(b(f(j(n(r(v(z1
-(|akM
-)*)4);
-)232]2
-)P)y)
-*.otf
-*.pfa
-*.pfb
-*.ttc
-*.ttf
-*I*T*e*l*u
-*U?setMouseGrabEnabled@QPlatformWindow@@UAE_N_N@Z
-*node == e || (*node)->next
-+!+5-
-+>-V-
-+Z+^+b7
-, ,^,
-,0,1p1
-,0L0&1p1
-,6,:,>,B,F,J,N,R,V,Z0
-,X?styleHint@QPlatformIntegration@@UBE?AVQVariant@@W4StyleHint@1@@Z
-,t,x,|,
--.-2-6-:->-B-F-J-N-R0
--222<2H2O2z3
--j'j2j>jU
--v-z-~-
-.	?contains@QString@@QBE_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
-.".08
-.(.,1
-..\gui\text\qfontengine_ft.cpp
-.00cfg
-.?AV?$QOffscreenEventDispatcher@VQEventDispatcherWin32@@@@
-.?AVQAbstractEventDispatcher@@
-.?AVQBasicFontDatabase@@
-.?AVQEventDispatcherWin32@@
-.?AVQFontEngine@@
-.?AVQFontEngineFT@@
-.?AVQFontEngineFTRawData@?A0x9b52941c@@
-.?AVQObject@@
-.?AVQOffscreenBackingStore@@
-.?AVQOffscreenCursor@@
-.?AVQOffscreenDrag@@
-.?AVQOffscreenIntegration@@
-.?AVQOffscreenIntegrationPlugin@@
-.?AVQOffscreenScreen@@
-.?AVQOffscreenWindow@@
-.?AVQPlatformBackingStore@@
-.?AVQPlatformCursor@@
-.?AVQPlatformDrag@@
-.?AVQPlatformFontDatabase@@
-.?AVQPlatformIntegration@@
-.?AVQPlatformIntegrationPlugin@@
-.?AVQPlatformScreen@@
-.?AVQPlatformServices@@
-.?AVQPlatformSurface@@
-.?AVQPlatformWindow@@
-.?AVbad_alloc@std@@
-.?AVbad_array_new_length@std@@
-.?AVexception@std@@
-.?AVtype_info@@
-.AppleDouble/
-.B.F.J.N.R.V.Z.^2
-.idata
-.notdef
-.null
-.resource/
-.text
-/"/&/*0
-/..namedfork/rsrc
-/./f/
+type1
+type1
+OTTO
+truetype
+truetype
 /rsrc
+/..namedfork/rsrc
+resource.frk/
+.resource/
+.AppleDouble/
+kerning
+glyph-dict
+glyph-dict
+postscript-font-name
+sfnt-table
+sfnt-table
+sfnt-table
+tt-cmaps
+tt-cmaps
+properties
+type42
+type42
+truetype
+truetype-engine
+postscript-info
+postscript-info
+postscript-info
+postscript-info
+fallback-script
+default-script
+increase-x-height
+glyph-to-script-map
+fallback-script
+default-script
+increase-x-height
+properties
+autofitter
+Weight
+Width
+OpticalSize
+Slant
+.notdef
+sfnt
+interpreter-version
+interpreter-version
+xf86-driver-name
+TrueType
+multi-masters
+truetype-engine
+tt-glyf
+properties
+sfnt
+truetype
+CharStrings
+.notdef
+.notdef
+pshinter
+pshinter
+postscript-cmaps
+psaux
+pshinter
+Regular
+Regular
+Bold
+Black
+%!PS-AdobeFont
+%!FontType
+eexec
+postscript-font-name
+glyph-dict
+xf86-driver-name
+Type 1
+postscript-info
+kerning
+multi-masters
+Weight
+Width
+OpticalSize
+type1
+.notdef
+StandardEncoding
+ExpertEncoding
+ISOLatin1Encoding
+.notdef
+.notdef
+.notdef
+version
+Notice
+FullName
+FamilyName
+Weight
+ItalicAngle
+isFixedPitch
+UnderlinePosition
+UnderlineThickness
+FSType
+UniqueID
+lenIV
+LanguageGroup
+password
+BlueScale
+BlueShift
+BlueFuzz
+BlueValues
+OtherBlues
+FamilyBlues
+FamilyOtherBlues
+StdHW
+StdVW
+MinFeature
+StemSnapH
+StemSnapV
+ExpansionFactor
+ForceBold
+FontName
+PaintType
+FontType
+StrokeWidth
+FontBBox
+DesignVector
+FontMatrix
+Encoding
+Subrs
+CharStrings
+Private
+BlendDesignPositions
+BlendDesignMap
+BlendAxisTypes
+WeightVector
+BuildCharArray
+eexec
+eexec
+closefile
+closefile
+FontDirectory
+FontDirectory
+pshinter
+pshinter
+postscript-cmaps
+sfnt
+postscript-cmaps
+pshinter
+sfnt
+tt-cmaps
+Regular
+Bold
+Black
+Bold
+Black
+darkening-parameters
+hinting-engine
+no-stem-darkening
+darkening-parameters
+hinting-engine
+no-stem-darkening
+xf86-driver-name
+postscript-info
+postscript-font-name
+glyph-dict
+tt-cmaps
+properties
+sfnt
+%!PS-Adobe-3.0 Resource-CIDFont
+StartData
 /sfnts
-0	+R+f+
-0	0p0F1
-0 0$0(0,00040X0\0`0d0h0l0p0t0x0|0
-0!0%0)0-014
-0!0'010;0P0U0
-0"0(0.040:0@0F0L0R0X0^0d0j0p0v0|0
-0#01090C0P0]0
-0%0^0c0i0
-0(080H0X0h0x0
-0*1:1B1V1z1
-001.000
-001.001
-001.002
-001.003
-050s0
-051.373
-070T0w0
-0<0B0H0N0T0Z0`0f0l0r0x0~0
-0<0`0
-0B2K2W2
-0J:T:^:
-0K0O0S0W0[0_0c0g0k0o0
-0L0Y0b0
-1 1$1(1,1014181<1@1D1
-1 1&1,12181>1D1J1P1V1\1b1h1n1t1z1
-1 4\?`?d?h?l?p?t?x?|?
-1!1&1+111H1
-1!1,11171A1s1
-1"1i3
-1#1,1N1_1o1t1z1
-1$1*10161<1B1H1N1T1Z1`1f1l1r1x1~1
-1$2(2,20242
-1%2{2
-1(181H1X1h1x1
-1*1V1[0
-1.1.4
-1.2>2W2a2u2
-10646
-14181<1@1
-181\1
-1:1>1B1F1J1N1R0
-1@2R2\2f2}2
-1H2Q2
-1PYTu3
-1Y?toImage@QPlatformBackingStore@@UBE?AVQImage@@XZ
-1\2f2
-1`2s2
-1a1e1
-1h1m1s1
-1o1v1
-1pytt
-1talt8
-2	2-2K2_2
-2 2$242<2D2L2\2`2d2h2
-2 2&2,22282>2D2J2P2V2\2b2h2n2t2z2
-2%2,2y2
-2&202=2J2
-2(282H2X2h2x2
-2)2*3s3
-2)202<2U2e2
-242X2|2
-253d3
-2>3\3p3
-2C4P4
-2S?setAlertState@QPlatformWindow@@UAEX_N@Z
-2T5[5
-2d5h5l5p5t5x5|5
-2g3G4z5
-2k3h4
-2q2z2
-2q3}3
-3"3(3.343:3@3F3L3R3X3^3d3j3p3v3|3
-3$3K3
-3(383H3X3h3x3
-3(3d3j3
-3)323A3O3
-3)3L3
-3,5\5
-3-3;3^3f3u3|3C4k4
-3/3X3b3
-30383<3D3\3t3|3
-303<3T3`3x3
-334~4
-343X3|3
-375A5#6-6
-38792:S>
-3C4H4R4^4e4
-3N5W5q5
-3P3Z3`3i3o3
-3Q3V3[3a3
-4 4$4(4,4044484<4@4D4H4L4P4T4X4\4`4d4h4l4p4t4x4|4
-4 5$5(5,50545
-4"464
-4$4(4,4044484<4@4D4H4L4P4X4\4`4d4h4l4p4t4x4|4
-4$4*40464<4B4H4N4T4Z4`4f4l4r4x4~4
-4$40444@4T4`4t4
-4$5.5W5]5d5k5r5y5
-4(484H4L4P4T4X4`4d4h4l4p4
-4,484P4h4p4
-4/;4;:;
-40454:4y4
-404T4x4
-4383<3@3\3`3d3h3
-44585<5@5
-474<4B4
-47k7.868?8H8Q8Z8
-4;4';
-4<7M9
-4G4Pe
-4L566
-4Z5b5r5y5
-4d5i5o5
-4e6r6
-4j4r4}4
-5 5$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5x5|5
-5 5$5(50545P5T5X5\5`5d5h5l5p5t5x5|5
-5 5$585@5D5L5d5p5
-5 5&5,52585>5D5J5P5V5\5b5h5n5t5z5
-5 6'6}6
-5 6s6
-5$6P6
-5*6T6
-5,585P5\5
-545\5
-5Genu
-5X7\7`7d7h7l7
-5_5i5p
-6 6$6(6,60646
-6 6$6(6,6064686<6@6D6H6L6P6T6X6\6x6|6
-6 6@6H6L6h6l6
-6"6(6
-6$7H7p7
-6%606:6A6M6y6
-6*6.6[
-6,6D6L6P6T6\6t6
-6-6m6}6
-626E6
-6Q7Y7
-6b6i6
-6o6v6
-7 7$7(7,7074787<7@7D7H7L7P7T7X7\7`7d7h7l7p7
-7 7$7(7,70747H7`7p7t7
-7!8+848J8T8]8F9L:x:
-7*838L9-:
-7+80868
-7.767>7D7I7P7Y7`7l7u7~7
-70787<7D7\7t7|7
-707H7h9
-788u8
-797k7
-7;8K8
-7@8S8
-7A8W8s8}8G9Q9
-7B8G8R8
-7F7W7c
-7\8d8h8
-7d8h8l8p8t8
-7n7s7x7~7
-7n9z:W;
-8	8!8j8{8
-8 9D9
-8#?*?
-8(8,8084888<8@8D8H8L8P8T8X8\8`8d8
-8,808D8L8P8X8p8|8
-8.8M8
-8/8K8m8
-80RFPu
-848X8|8
-849z9
-8<8`8
-8<9':
-8?8H8p8}8
-8D9H9
-8E8M8i8t8~8
-8L>P>T>X>\>`>
-8P9R:
-8T8Y8_8
-8Z;j>
-8\;7=
-9 9$9(9,9094989<9P9T9X9\9`9d9h9l9p9t9x9|9
-9 9$9(9,90949L9
-9!:/:9:B:W:
-9#:B:
-9$919:9t9y9
-9(<1<Y<p?
-9)9\9p9y9
-9,999L9o9x9
-9.9G9Q9e9
-9.:o;W?v?
-909T9x9
-90C0M0Y0~0
-949=9K9T9
-949L9T9X9l9p9
-9<9f9
-9@9Y9`9y9
-9@:H:L:h:l:
-9@<L<S<g<
-9A$|^
-9AXt!
-9Ahu!
-9D:H:L:P:T:X:\:`:d:h:l:p:
-9F9S9
-9H:r:
-9Q9d9{9
-9W9g9o9
-9X?subPixelPositionForX@QFontEngine@@UBE?AUQFixed@@U2@@Z
-: :$:(:,:
-: :$:(:,:0:4:N:
-: on curve =
-:!;N;b;{;
-:#;-;
-:%<@<
-:&:E:f:u:
-:(:,:@:P:T:\:`:d:h:
-:):Y:
-:);[;s;
-:+:;:O:x:
-:,:P:t:
-:.:k:
-:4	/B/F/J/N/R/V/Z/^/b0
-:4:<:P:T:h:l:
-:4:=:Z:p:y:
-:4;H;d;
-:7<3=
-:8<<<@<D<X<h<x<|<
-:>:H:`:g:
-:H;L;P;T;X;\;
-:I:S:]:g:q:{:
-:K;U;
-:`=e=k=
-:d<~<
-:qmemoryfonts/
-; <G=
-;&;3;=;R;`;h;
-;&?+?
-;';Q?[?
-;(;1;?;];
-;(;L;p;
-;0;8;<;D;\;t;x;
-;0=<=
-;1<L=
-;<<E<l<u<
-;A$sE
-;A$sZ
-;A8rd
-;A`vQ
-;B,uE
-;BH}	
-;BH}I
-;BH~U
-;BL~	
-;BP}Y
-;BP}\
-;BT~	
-;BX~	
-;C?i?
-;F<K<]<|<
-;H w#
-;H$s>
-;H$}/
-;H$}=
-;H$}K
-;H(s	
-;H,uE
-;H4sB
-;HL~	
-;HhsT
-;HpsB
-;J$s2
-;PDv#
-;PDw	
-;Q$}-
-;Q$};
-;Q,u	
-;Q,uE
-;Q0s`kE
-;Q@sB
-;QDt;
-;QHsJ
-;QP}	
-;QP}h
-;QX}	
-;Q\s*
-;Qxu%
-;\;|;
-;h;a<]=u=
-;t>x>|>
-< <$<
-< <$<(<,<0<4<8<
-< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
-< =D=h=
-<$<H<l<
-<$<L<V<~<
-<,?C?Z?q?
-<9>M>
-<L=l=
-<U<`<k<y<
-<X?subpixelAntialiasingTypeHint@QPlatformFontDatabase@@QBE?AW4SubpixelAntialiasingType@QFontEngine@@XZ
-<f=h>
-<o>y>
-<w<9=@=X>\>`>d>
-=	=:=O=[=k=
-= =$=(=,=0=4=
-= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
-= =$=0=D=X=l=
-= >D>h>
-=%=/=8=
-=%=4=<=L=[=c=s=
-=(=K=k=q=z=
-=0>T>b>
-=H>`>p>t>
-=Q>V>[>a>
-=X?subpixelAntialiasingTypeHint@QPlatformScreen@@UBE?AW4SubpixelAntialiasingType@1@XZ
-=f>,?q?
-=m>|>
-> >4>H>\>p>
-> >8><>@>D>H>L>P>T>X>\>`>d>h>l>x>
->">[>h>
->$>*>0>6><>B>H>N>T>Z>`>f>l>r>x>~>
->$?2?9?T?r?y?
->&?0?
->(>;>
->7>Ba
->7>j>~>
->@>d>p>
->H>T>
->L>R>X>^>d>j>q>x>
->O?Y?
->P?position@QWindow@@QBE?AVQPoint@@XZ
->\>i>t
->n?s?
-? ?&?,?2?8?>?D?J?P?V?\?b?h?n?t?z?
-? ?(?-
-?(?,?0?4?8?<?@?P?X?\?l?p?t?x?|?
-?(?8?H?X?h?x?
-?)?B?
-?)?Q?^?
-?2?T?x?
-??0QByteArray@@QAE@$$QAV0@@Z
-??0QByteArray@@QAE@ABV0@@Z
-??0QByteArray@@QAE@XZ
-??0QDir@@QAE@ABVQString@@@Z
-??0QEventDispatcherWin32@@QAE@PAVQObject@@@Z
-??0QFile@@QAE@ABVQString@@@Z
-??0QFileInfo@@QAE@ABVQString@@@Z
-??0QFontEngine@@IAE@W4Type@0@@Z
-??0QImage@@QAE@$$QAV0@@Z
-??0QImage@@QAE@ABVQSize@@W4Format@0@@Z
-??0QImage@@QAE@PBEHHHW4Format@0@P6AXPAX@Z2@Z
-??0QImage@@QAE@XZ
-??0QMessageLogger@@QAE@PBDH0@Z
-??0QMessageLogger@@QAE@XZ
-??0QMutex@@QAE@W4RecursionMode@0@@Z
-??0QPixmap@@QAE@XZ
-??0QPlatformBackingStore@@QAE@PAVQWindow@@@Z
-??0QPlatformCursor@@QAE@XZ
-??0QPlatformDrag@@QAE@XZ
-??0QPlatformFontDatabase@@QAE@XZ
-??0QPlatformIntegration@@QAE@XZ
-??0QPlatformIntegrationPlugin@@QAE@PAVQObject@@@Z
-??0QPlatformScreen@@QAE@XZ
-??0QPlatformServices@@QAE@XZ
-??0QPlatformWindow@@QAE@PAVQWindow@@@Z
-??0QPoint@@QAE@HH@Z
-??0QPoint@@QAE@XZ
-??0QPointF@@QAE@ABVQPoint@@@Z
-??0QPointF@@QAE@NN@Z
-??0QPointF@@QAE@XZ
-??0QRect@@QAE@ABVQPoint@@ABVQSize@@@Z
-??0QRect@@QAE@HHHH@Z
-??0QRect@@QAE@XZ
-??0QRectF@@QAE@NNNN@Z
-??0QRectF@@QAE@XZ
-??0QRegion@@QAE@ABVQRect@@W4RegionType@0@@Z
-??0QRegion@@QAE@XZ
-??0QString@@QAE@ABV0@@Z
-??0QString@@QAE@VQLatin1String@@@Z
-??0QString@@QAE@XZ
-??0QSupportedWritingSystems@@QAE@XZ
-??0QThreadStorageData@@QAE@P6AXPAX@Z@Z
-??0QTransform@@QAE@XZ
-??0glyph_metrics_t@@QAE@XZ
-??1QByteArray@@QAE@XZ
-??1QDebug@@QAE@XZ
-??1QDir@@QAE@XZ
-??1QEventDispatcherWin32@@UAE@XZ
-??1QFile@@UAE@XZ
-??1QFileInfo@@QAE@XZ
-??1QFontEngine@@UAE@XZ
-??1QImage@@UAE@XZ
-??1QMutex@@QAE@XZ
-??1QPlatformBackingStore@@UAE@XZ
-??1QPlatformCursor@@UAE@XZ
-??1QPlatformDrag@@UAE@XZ
-??1QPlatformFontDatabase@@UAE@XZ
-??1QPlatformIntegration@@UAE@XZ
-??1QPlatformIntegrationPlugin@@UAE@XZ
-??1QPlatformScreen@@UAE@XZ
-??1QPlatformServices@@UAE@XZ
-??1QPlatformWindow@@UAE@XZ
-??1QRegion@@QAE@XZ
-??1QString@@QAE@XZ
-??1QSupportedWritingSystems@@QAE@XZ
-??1QThreadStorageData@@QAE@XZ
-??4QByteArray@@QAEAAV0@$$QAV0@@Z
-??4QByteArray@@QAEAAV0@ABV0@@Z
-??4QByteArray@@QAEAAV0@PBD@Z
-??4QImage@@QAEAAV0@$$QAV0@@Z
-??4QString@@QAEAAV0@$$QAV0@@Z
-??4QString@@QAEAAV0@ABV0@@Z
-??4QSupportedWritingSystems@@QAEAAV0@ABV0@@Z
-??6QDebug@@QAEAAV0@H@Z
-??6QDebug@@QAEAAV0@P6AAAVQTextStream@@AAV1@@Z@Z
-??6QDebug@@QAEAAV0@PBD@Z
-??AQDir@@QBE?AVQString@@H@Z
-??BQByteArray@@QBEPBDXZ
-??IQRect@@QBE?AV0@ABV0@@Z
-??YQByteArray@@QAEAAV0@ABV0@@Z
-??YQPointF@@QAEAAV0@ABV0@@Z
-??ZQPoint@@QAEAAV0@ABV0@@Z
-??_4QRegion@@QAEAAV0@ABVQRect@@@Z
-?@?d?
-?absoluteFilePath@QDir@@QBE?AVQString@@ABV2@@Z
-?accessibility@QPlatformIntegration@@UBEPAVQPlatformAccessibility@@XZ
-?addOutlineToPath@QFontEngine@@UAEXNNABUQGlyphLayout@@PAVQPainterPath@@V?$QFlags@W4RenderFlag@QTextItem@@@@@Z
-?adjusted@QRect@@QBE?AV1@HHHH@Z
-?allocateNode@QHashData@@QAEPAXH@Z
-?alphaMapForGlyph@QFontEngine@@UAE?AVQImage@@I@Z
-?alphaMapForGlyph@QFontEngine@@UAE?AVQImage@@IABVQTransform@@@Z
-?alphaRGBMapForGlyph@QFontEngine@@UAE?AVQImage@@IUQFixed@@ABVQTransform@@@Z
-?append@QListData@@QAEPAPAXXZ
-?at@QListData@@QBEPAPAXH@Z
-?availableGeometry@QPlatformScreen@@UBE?AVQRect@@XZ
-?averageCharWidth@QFontEngine@@UBE?AUQFixed@@XZ
-?begin@QListData@@QBEPAPAXXZ
-?beginPaint@QPlatformBackingStore@@UAEXABVQRegion@@@Z
-?bitmapForGlyph@QFontEngine@@UAE?AVQImage@@IUQFixed@@ABVQTransform@@@Z
-?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
-?closingDown@QEventDispatcherWin32@@UAEXXZ
-?compare@QString@@QBEHVQLatin1String@@W4CaseSensitivity@Qt@@@Z
-?composeAndFlush@QPlatformBackingStore@@UAEXPAVQWindow@@ABVQRegion@@ABVQPoint@@PAVQPlatformTextureList@@PAVQOpenGLContext@@_N@Z
-?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?constData@QByteArray@@QBEPBDXZ
-?convertToPostscriptFontFamilyName@QFontEngine@@SA?AVQByteArray@@ABV2@@Z
-?copy@QImage@@QBE?AV1@ABVQRect@@@Z
-?create@QPlatformIntegrationPlugin@@UAEPAVQPlatformIntegration@@ABVQString@@ABVQStringList@@AAHPAPAD@Z
-?createImagePaintEngine@QPlatformIntegration@@UBEPAVQPaintEngine@@PAVQPaintDevice@@@Z
-?createPlatformOffscreenSurface@QPlatformIntegration@@UBEPAVQPlatformOffscreenSurface@@PAVQOffscreenSurface@@@Z
-?createPlatformOpenGLContext@QPlatformIntegration@@UBEPAVQPlatformOpenGLContext@@PAVQOpenGLContext@@@Z
-?createPlatformPixmap@QPlatformIntegration@@UBEPAVQPlatformPixmap@@W4PixelType@2@@Z
-?createPlatformSessionManager@QPlatformIntegration@@UBEPAVQPlatformSessionManager@@ABVQString@@0@Z
-?createPlatformSharedGraphicsCache@QPlatformIntegration@@UBEPAVQPlatformSharedGraphicsCache@@PBD@Z
-?createPlatformTheme@QPlatformIntegration@@UBEPAVQPlatformTheme@@ABVQString@@@Z
-?cubicTo@QPainterPath@@QAEXABVQPointF@@00@Z
-?data@QArrayData@@QAEPAXXZ
-?data_ptr@QImage@@QAEAAPAUQImageData@@XZ
-?deallocate@QArrayData@@SAXPAU1@II@Z
-?debug@QMessageLogger@@QBE?AVQDebug@@XZ
-?decodeName@QFile@@SA?AVQString@@ABVQByteArray@@@Z
-?defaultAction@QPlatformDrag@@UBE?AW4DropAction@Qt@@V?$QFlags@W4DropAction@Qt@@@@V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
-?defaultFont@QPlatformFontDatabase@@UBE?AVQFont@@XZ
-?defaultWindowState@QPlatformIntegration@@UBE?AW4WindowState@Qt@@V?$QFlags@W4WindowType@Qt@@@@@Z
-?desktopEnvironment@QPlatformServices@@UBE?AVQByteArray@@XZ
-?destroy@QPlatformIntegration@@UAEXXZ
-?det@QTransform@@QBENXZ
-?detach@QListData@@QAEPAUData@1@H@Z
-?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
-?detach_helper@QHashData@@QAEPAU1@P6AXPAUNode@1@PAX@ZP6AX0@ZHH@Z
-?devicePixelRatio@QPlatformScreen@@UBENXZ
-?devicePixelRatio@QPlatformWindow@@UBENXZ
-?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
-?dispose@QListData@@QAEXXZ
-?dispose@QListData@@SAXPAUData@1@@Z
-?doKerning@QFontEngine@@UBEXPAUQGlyphLayout@@V?$QFlags@W4ShaperFlag@QFontEngine@@@@@Z
-?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
-?encodeName@QFile@@SA?AVQByteArray@@ABVQString@@@Z
-?end@QListData@@QBEPAPAXXZ
-?endPaint@QPlatformBackingStore@@UAEXXZ
-?event@QEventDispatcherWin32@@UAE_NPAVQEvent@@@Z
-?event@QObject@@UAE_NPAVQEvent@@@Z
-?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
-?exists@QFile@@SA_NABVQString@@@Z
-?firstNode@QHashData@@QAEPAUNode@1@XZ
-?flags@QWindow@@QBE?AV?$QFlags@W4WindowType@Qt@@@@XZ
-?flush@QEventDispatcherWin32@@UAEXXZ
-?flushWindowSystemEvents@QWindowSystemInterface@@SAXV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
-?fontDir@QPlatformFontDatabase@@UBE?AVQString@@XZ
-?fontEngineMulti@QPlatformFontDatabase@@UAEPAVQFontEngineMulti@@PAVQFontEngine@@W4Script@QChar@@@Z
-?fontsAlwaysScalable@QPlatformFontDatabase@@UBE_NXZ
-?format@QPlatformWindow@@UBE?AVQSurfaceFormat@@XZ
-?frameStrutEventsEnabled@QPlatformWindow@@UBE_NXZ
-?freeNode@QHashData@@QAEXPAX@Z
-?free_helper@QHashData@@QAEXP6AXPAUNode@1@@Z@Z
-?fromImage@QPixmap@@SA?AV1@$$QAVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-?fromLatin1@QString@@SA?AV1@PBDH@Z
-?fromUtf8@QString@@SA?AV1@PBDH@Z
-?geometry@QPlatformWindow@@UBE?AVQRect@@XZ
-?geometry@QWindow@@QBE?AVQRect@@XZ
-?get@QThreadStorageData@@QBEPAPAXXZ
-?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPAU12@PBVQObject@@@Z
-?getGlyphBearings@QFontEngine@@UAEXIPAN0@Z
-?getGlyphPositions@QFontEngine@@QAEXABUQGlyphLayout@@ABVQTransform@@V?$QFlags@W4RenderFlag@QTextItem@@@@AAV?$QVarLengthArray@I$0BAA@@@AAV?$QVarLengthArray@UQFixedPoint@@$0BAA@@@@Z
-?hasPendingEvents@QEventDispatcherWin32@@UAE_NXZ
-?hasShrunk@QHashData@@QAEXXZ
-?height@QRect@@QBEHXZ
-?height@QSize@@QBEHXZ
-?hex@@YAAAVQTextStream@@AAV1@@Z
-?instance@QCoreApplication@@SAPAV1@XZ
-?interrupt@QEventDispatcherWin32@@UAEXXZ
-?isEmpty@QByteArray@@QBE_NXZ
-?isEmpty@QRect@@QBE_NXZ
-?isEmpty@QSize@@QBE_NXZ
-?isHighSurrogate@QChar@@QBE_NXZ
-?isLowSurrogate@QChar@@QBE_NXZ
-?isNativePath@QFileInfo@@QBE_NXZ
-?isNull@QRect@@QBE_NXZ
-?isSurrogate@QChar@@QBE_NXZ
-?left@QRect@@QBEHXZ
-?lock@QMutex@@QAEXXZ
-?metaObject@QEventDispatcherWin32@@UBEPBUQMetaObject@@XZ
-?metaObject@QObject@@UBEPBUQMetaObject@@XZ
-?move@QListData@@QAEXHH@Z
-?nextNode@QHashData@@SAPAUNode@1@PAU21@@Z
-?noDebug@QMessageLogger@@QBE?AVQNoDebug@@XZ
-?open@QFile@@UAE_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-?prepend@QListData@@QAEPAPAXXZ
-?processEvents@QEventDispatcherWin32@@UAE_NV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
-?qHash@@YAIABVQByteArray@@I@Z
-?qgetenv@@YA?AVQByteArray@@PBD@Z
-?qt_assert@@YAXPBD0H@Z
-?qt_assert_x@@YAXPBD00H@Z
-?qt_check_pointer@@YAXPBDH@Z
-?qt_metacall@QEventDispatcherWin32@@UAEHW4Call@QMetaObject@@HPAPAX@Z
-?qt_metacall@QObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z
-?qt_metacast@QEventDispatcherWin32@@UAEPAXPBD@Z
-?qt_metacast@QObject@@UAEPAXPBD@Z
-?readAll@QIODevice@@QAE?AVQByteArray@@XZ
-?realloc@QListData@@QAEXH@Z
-?refresh@QDir@@QBEXXZ
-?registerEventNotifier@QEventDispatcherWin32@@UAE_NPAVQWinEventNotifier@@@Z
-?registerSocketNotifier@QEventDispatcherWin32@@UAEXPAVQSocketNotifier@@@Z
-?registerTimer@QEventDispatcherWin32@@UAEXHHW4TimerType@Qt@@PAVQObject@@@Z
-?registeredTimers@QEventDispatcherWin32@@UBE?AV?$QList@UTimerInfo@QAbstractEventDispatcher@@@@PAVQObject@@@Z
-?remainingTime@QEventDispatcherWin32@@UAEHH@Z
-?remove@QByteArray@@QAEAAV1@HH@Z
-?sendPostedEvents@QCoreApplication@@SAXPAVQObject@@H@Z
-?sendPostedEvents@QEventDispatcherWin32@@MAEXXZ
-?set@QThreadStorageData@@QAEPAPAXPAX@Z
-?setHeight@QRect@@QAEXH@Z
-?setNameFilters@QDir@@QAEXABVQStringList@@@Z
-?setWidth@QRect@@QAEXH@Z
-?shared_null@QHashData@@2U1@B
-?shared_null@QListData@@2UData@1@B
-?size@QByteArray@@QBEHXZ
-?size@QListData@@QBEHXZ
-?size@QRect@@QBE?AVQSize@@XZ
-?startingUp@QEventDispatcherWin32@@UAEXXZ
-?startsWith@QByteArray@@QBE_NPBD@Z
-?surrogateToUcs4@QChar@@SAIV1@0@Z
-?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
-?toByteArray@QUuid@@QBE?AVQByteArray@@XZ
-?toInt@QByteArray@@QBEHPA_NH@Z
-?toLocal8Bit@QString@@QGBE?AVQByteArray@@XZ
-?toLocal8Bit@QString@@QHAE?AVQByteArray@@XZ
-?toUtf8@QString@@QGBE?AVQByteArray@@XZ
-?top@QRect@@QBEHXZ
-?topLeft@QRect@@QBE?AVQPoint@@XZ
-?translate@QRect@@QAEXHH@Z
-?translated@QRect@@QBE?AV1@ABVQPoint@@@Z
-?unicode@QChar@@QBEGXZ
-?unlock@QMutex@@QAEXXZ
-?unregisterEventNotifier@QEventDispatcherWin32@@UAEXPAVQWinEventNotifier@@@Z
-?unregisterSocketNotifier@QEventDispatcherWin32@@UAEXPAVQSocketNotifier@@@Z
-?unregisterTimer@QEventDispatcherWin32@@UAE_NH@Z
-?unregisterTimers@QEventDispatcherWin32@@UAE_NPAVQObject@@@Z
-?wakeUp@QEventDispatcherWin32@@UAEXXZ
-?warning@QMessageLogger@@QBAXPBDZZ
-?width@QRect@@QBEHXZ
-?width@QSize@@QBEHXZ
-?willGrow@QHashData@@QAE_NXZ
-?x@QPointF@@QBENXZ
-?y@QPointF@@QBENXZ
-@'@0a
-@.data
-@.qtmetadK
-@.reloc
-@.rsrc
-@0D0H0L0P0T0X0
-@0R0k0
-@1X1h1l1x1|1
-@8@C@N
-@@+B8
-@Hltuo
-@Hpmoc
-@Hstib
-@}`}i
-A ;B t
-A ;B }
-A ;B }"
-A ;B ~
-A ;B ~ 
-A ;B$s
-A(;B$r
-A(hcinu
-A,+B(
-A0;B(t7
-A0;B4tY
-A4;B(s
-A4;B0uJ
-A;AAA[
+StartData
+(Hex)
+/sfnts
+CIDFontName
+CIDFontVersion
+CIDFontType
+Registry
+Ordering
+Supplement
+UIDBase
+CIDMapOffset
+FDBytes
+GDBytes
+CIDCount
+version
+Notice
+FullName
+FamilyName
+Weight
+ItalicAngle
+isFixedPitch
+UnderlinePosition
+UnderlineThickness
+FSType
+PaintType
+FontType
+SubrMapOffset
+SDBytes
+SubrCount
+lenBuildCharArray
+ForceBoldThreshold
+StrokeWidth
+UniqueID
+lenIV
+LanguageGroup
+password
+BlueScale
+BlueShift
+BlueFuzz
+BlueValues
+OtherBlues
+FamilyBlues
+FamilyOtherBlues
+StdHW
+StdVW
+MinFeature
+StemSnapH
+StemSnapV
+ForceBold
+FontBBox
+FDArray
+FontMatrix
+ExpansionFactor
+%ADOBeginFontDict
+pshinter
+pshinter
+psaux
+pshinter
+Regular
+Bold
+Black
+xf86-driver-name
+CID Type 1
+postscript-font-name
+postscript-info
+t1cid
+pfr-metrics
+xf86-driver-name
+.notdef
+.notdef
+postscript-cmaps
+psaux
+Regular
+truetype
+truetype
+version
+Notice
+FullName
+FamilyName
+Weight
+ItalicAngle
+isFixedPitch
+UnderlinePosition
+UnderlineThickness
+FSType
+FontName
+PaintType
+FontType
+StrokeWidth
+FontBBox
+FontMatrix
+Encoding
+CharStrings
+sfnts
+%!PS-TrueTypeFont
+.notdef
+StandardEncoding
+ExpertEncoding
+ISOLatin1Encoding
+.notdef
+.notdef
+FontDirectory
+known
+glyph-dict
+postscript-font-name
+postscript-info
+xf86-driver-name
+Type 42
+type42
+Regular
+Bold Italic
+Bold
+Italic
+xf86-driver-name
+Windows FNT
+winfonts
+winfonts
+SLANT
+Oblique
+Italic
+WEIGHT_NAME
+Bold
+SETWIDTH_NAME
 ADD_STYLE_NAME
-AEsmall
-AHltuo
-AHltuo3
-AHltuoh
-AHltuohp
-AHpmoc
-AHstib
-AL+BD
-AT+BP
-ATEMu
+Regular
+FAMILY_NAME
 AVERAGE_WIDTH
-AVG_CAPITAL_WIDTH
-AVG_LOWERCASE_WIDTH
-A\;B`r
-Aacute
-Aacutesmall
-Acircumflex
-Acircumflexsmall
-Acutesmall
-Adieresis
-Adieresissmall
-Agrave
-Agravesmall
-Aharoni
-AiAtA
-Andale Mono
-Andalus
-Angsana New
-AngsanaUPC
-Apple Legacy Fonts
-Arabic Transparent
-Arial
-Arial Black
-Arial Narrow
-Arial Unicode MS
-Aring
-Aringsmall
+POINT_SIZE
+PIXEL_SIZE
+RESOLUTION_X
+RESOLUTION_Y
+CHARSET_REGISTRY
+CHARSET_ENCODING
+10646
+8859
+xf86-driver-name
+postscript-cmaps
 Ascender
-Asmall
-Atilde
-Atildesmall
 AxisLabel
 AxisType
-B0G0R0
-B<B{B
-BFBQB[Bb
-BHltuo
-BHstib
-BITMAP
-BODA3
-Baskerville
-Batang
-Bitstream Vera Sans
-Black
 BlendAxisTypes
 BlendDesignMap
 BlendDesignPositions
-BlueFuzz
-BlueScale
-BlueShift
-BlueValues
-Bold Italic
-Bold/BoldItalic Class
-Bold/Italic/BoldItalic Class
-Brevesmall
-Browallia New
-BrowalliaUPC
-Bsmall
-BuildCharArray
-CAP_HEIGHT
-CBDAt
-CBDAta
-CHARS
-CHARSET_COLLECTIONS
-CHARSET_ENCODING
-CHARSET_REGISTRY
-CID Type 1
-CIDCount
-CIDFontName
-CIDFontType
-CIDFontVersion
-CIDMapOffset
-COMMENT
-COPYRIGHT
-CQCtC
-CS?setApplicationIcon@QPlatformIntegration@@UBEXABVQIcon@@@Z
-CU?setOpacity@QPlatformWindow@@UAEXN@Z
-Cacute
 CapHeight
-Caronsmall
-Ccaron
-Ccedilla
-Ccedillasmall
-Cedillasmall
-Century
-Century Gothic
-Chalkboard
-CharStrings
 CharWidth
 CharacterSet
 Characters
-Circumflexsmall
-CloseHandle
-Comic Sans MS
-Consolas
-Cordia New
-CordiaUPC
-Core MS Legacy Fonts
-Courier New
-CreateEventW
-Csmall
-D	?boundingRect@QRegion@@QBE?AVQRect@@XZ
-D&D4a
-D3H3L3P3T3X3\3`3d3h3l3p3t3x3|3
-DEFAULT_CHAR
-DESTINATION
-DEVICE_FONT_NAME
-DFKai-SB
-DFKaiSho-SB
-DFKaiShu
-DWDbDgD
-DWIDTH
-Dark Courier
-David
-David Transparent
-DejaVu Sans
-DeleteCriticalSection
-Delta
 Descender
-DesignVector
-Dieresissmall
-DilleniaUPC
-DisableThreadLibraryCalls
-Dotaccentsmall
-Droid Sans
-Droid Sans Mono
-Dsmall
-E+E\HTH\HfHrH
-E3EAEL
-ENCODING
-ENDCHAR
-ENDFONT
-ENDPROPERTIES
-END_SPACE
-Eacute
-Eacutesmall
-Ecircumflex
-Ecircumflexsmall
-Edieresis
-Edieresissmall
-Egrave
-Egravesmall
-EnEyE
-Encoding
 EncodingScheme
 EndAxis
 EndCharMetrics
@@ -908,352 +320,140 @@ EndFontMetrics
 EndKernData
 EndKernPairs
 EndTrackKern
-EnterCriticalSection
 EscChar
-Esmall
-Estrangelo Edessa
-Ethsmall
-EucrosiaUPC
-ExpansionFactor
-ExpertEncoding
-F'F2F>F\Fsa
-F0p0c1W2
-F:\qt5\qtbase\plugins\platforms\qoffscreend.pdb
+FamilyName
+FontBBox
+FontName
+FullName
+IsBaseFont
+IsCIDFont
+IsFixedPitch
+IsFixedV
+ItalicAngle
+MappingScheme
+MetricsSets
+Notice
+StartAxis
+StartCharMetrics
+StartComposites
+StartDirection
+StartFontMetrics
+StartKernData
+StartKernPairs
+StartKernPairs0
+StartKernPairs1
+StartTrackKern
+StdHW
+StdVW
+TrackKern
+UnderlinePosition
+UnderlineThickness
+VVector
+Version
+Weight
+WeightVector
+XHeight
+true
+StartFontMetrics
+psaux
+postscript-cmaps
+psnames
+pshinter
+raster1
+raster5
+CHARSET_REGISTRY
+CHARSET_ENCODING
+sfnt-table
+postscript-font-name
+glyph-dict
+tt-cmaps
+sfnt
+sfnt
+postscript-cmaps
+smooth
+smooth-lcd
+smooth-lcdv
+COMMENT
+DEFAULT_CHAR
+FONT_ASCENT
+FONT_DESCENT
+SPACING
+COMMENT
+CHARS
+ENDFONT
+ENDCHAR
+STARTCHAR
+ENCODING
+SWIDTH
+DWIDTH
+BITMAP
+ENDPROPERTIES
+FONT_ASCENT
+FONT_ASCENT
+FONT_DESCENT
+FONT_DESCENT
+_XFREE86_GLYPH_RANGES
+COMMENT
+COMMENT
+STARTFONT
+STARTPROPERTIES
+FONTBOUNDINGBOX
+FONT
+SIZE
+CHARS
+FONT_ASCENT
+FONT_DESCENT
+SLANT
+Oblique
+Italic
+WEIGHT_NAME
+Bold
+SETWIDTH_NAME
+ADD_STYLE_NAME
+Regular
+SPACING
+FAMILY_NAME
+AVERAGE_WIDTH
+POINT_SIZE
+PIXEL_SIZE
+RESOLUTION_X
+RESOLUTION_Y
+CHARSET_REGISTRY
+CHARSET_ENCODING
+10646
+8859
+xf86-driver-name
+ADD_STYLE_NAME
+AVERAGE_WIDTH
+AVG_CAPITAL_WIDTH
+AVG_LOWERCASE_WIDTH
+CAP_HEIGHT
+CHARSET_COLLECTIONS
+CHARSET_ENCODING
+CHARSET_REGISTRY
+COMMENT
+COPYRIGHT
+DEFAULT_CHAR
+DESTINATION
+DEVICE_FONT_NAME
+END_SPACE
 FACE_NAME
 FAMILY_NAME
-FDArray
-FDBytes
-FFOwt	
-FFOwuT3
 FIGURE_WIDTH
-FONTBOUNDINGBOX
+FONT
 FONTNAME_REGISTRY
 FONT_ASCENT
 FONT_DESCENT
 FOUNDRY
-FSType
-FT_New_Face failed with index
 FULL_NAME
-FamilyBlues
-FamilyName
-FamilyOtherBlues
-FangSong_GB2312
-Fixed Miriam Transparent
-FontBBox
-FontDirectory
-FontMatrix
-FontName
-FontType
-ForceBold
-ForceBoldThreshold
-FrankRuehl
-Franklin Gothic Medium
-FreesiaUPC
-Fsmall
-FullName
-G!G&C
-G+GXGfGkGpGuG{G
-G7G;G@GEGJM
-GDBytes
-GNISu	
-GPGTB
-G^GbF
-Garamond
-Gautami
-Gbreve
-Geneva
-Georgia
-GetCurrentProcess
-GetCurrentProcessId
-GetCurrentThreadId
-GetModuleHandleW
-GetProcAddress
-GetStartupInfoW
-GetSystemTimeAsFileTime
-Gill Sans
-Gravesmall
-Gsmall
-Gulim
-H0Qj$
-HEZLOCUS
-HP?possibleKeys@QPlatformIntegration@@UBE?AV?$QList@H@@PBVQKeyEvent@@@Z
-HZ?type@QTransform@@QBE?AW4TransformationType@1@XZ
-Helvetica
-Helvetica Neue
-Ho	hwh
-Hsmall
-HuaTianKaiTi?
-HuaTianSongTi?
-Hungarumlautsmall
-I +J$
-I&I,I:IJ
-I5	/z/~/
-I8V8c8p8
-ISOLatin1Encoding
 ITALIC_ANGLE
-IaIrI
-Iacute
-Iacutesmall
-Icircumflex
-Icircumflexsmall
-Idieresis
-Idieresissmall
-Idotaccent
-Igrave
-Igravesmall
-Impact
-InitializeConditionVariable
-InitializeSListHead
-IrisUPC
-IsBaseFont
-IsCIDFont
-IsDebuggerPresent
-IsFixedPitch
-IsFixedV
-IsProcessorFeaturePresent
-Ismall
-Italic
-ItalicAngle
-J +H 
-J ;H ~
-J$+H$Q
-J(;H$r
-J(;H$s	
-J0;H(t7
-J1J7JU
-J4;H(s
-J4;H,u
-J8;H<
-J8;H<rJ
-J?graphicsBuffer@QPlatformBackingStore@@UBEPAVQPlatformGraphicsBuffer@@XZ
-J?handle@QScreen@@QBEPAVQPlatformScreen@@XZ
-J?handle@QWindow@@QBEPAVQPlatformWindow@@XZ
-J?handleContentOrientationChange@QPlatformWindow@@UAEXW4ScreenOrientation@Qt@@@Z
-J?handleEnterLeaveEvent@QWindowSystemInterface@@SAXPAVQWindow@@0ABVQPointF@@1@Z
-J?handleExposeEvent@QWindowSystemInterface@@SAXPAVQWindow@@ABVQRegion@@@Z
-J?handleGeometryChange@QWindowSystemInterface@@SAXPAVQWindow@@ABVQRect@@1@Z
-J?handleMouseEvent@QWindowSystemInterface@@SAXPAVQWindow@@ABVQPointF@@1V?$QFlags@W4MouseButton@Qt@@@@V?$QFlags@W4KeyboardModifier@Qt@@@@W4MouseEventSource@Qt@@@Z
-J?handleWindowActivated@QWindowSystemInterface@@SAXPAVQWindow@@W4FocusReason@Qt@@@Z
-J?handleWindowStateChanged@QWindowSystemInterface@@SAXPAVQWindow@@W4WindowState@Qt@@@Z
-J?harfbuzzFace@QFontEngine@@QBEPAXXZ
-J?hasCapability@QPlatformIntegration@@UBE_NW4Capability@1@@Z
-J?hasUnreliableGlyphOutline@QFontEngine@@UBE_NXZ
-J@;H<uJ
-JL+HH
-JL;HH
-JZ?type@QWindow@@QBE?AW4WindowType@Qt@@XZ
-J\;H`r
-JasmineUPC
-Jsmall
-JvKsK}l	J
-K&K8KFKQ
-K?height@QWindow@@QBEHXZ
-K?inputContext@QPlatformIntegration@@UBEPAVQPlatformInputContext@@XZ
-K?invalidate@QPlatformFontDatabase@@UAEXXZ
-K?invalidateSurface@QPlatformWindow@@UAEXXZ
-KERNEL32.dll
-KUMUX
-KaiTi_GB2312
-KodchiangUPC
-Ksmall
-L'LZa
-L0L:LA
-L?isActive@QPlatformWindow@@UBE_NXZ
-L?isAlertState@QPlatformWindow@@UBE_NXZ
-L?isNull@QImage@@QBE_NXZ
-L?isPrivateFontFamily@QPlatformFontDatabase@@UBE_NABVQString@@@Z
-LL?isEmbedded@QPlatformWindow@@UBE_NPBV1@@Z
-LQ?qt_metacast@QPlatformIntegrationPlugin@@UAEPAXPBD@Z
-LanguageGroup
-Latha
-LeaveCriticalSection
-Legacy Sans Fonts
-Levenim MT
-Liberation Sans
-Light
-LilyUPC
-Lobster
-LrMDM
-Lslash
-Lslashsmall
-Lsmall
-Lucida Console
-Lucida Grande
-Lucida Sans Typewriter
-Lucida Sans Unicode
-M?keyboardModifiers@QGuiApplication@@SA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
-M?loadKerningPairs@QFontEngine@@QAEXUQFixed@@@Z
-M?lockedAlphaMapForGlyph@QFontEngine@@UAEPAVQImage@@IUQFixed@@W4GlyphFormat@1@ABVQTransform@@PAVQPoint@@@Z
-M?logicalDpi@QPlatformScreen@@UBE?AU?$QPair@NN@@XZ
-M?lower@QPlatformWindow@@UAEXXZ
-M?m11@QTransform@@QBENXZ
-M?m12@QTransform@@QBENXZ
-M?m21@QTransform@@QBENXZ
-M?m22@QTransform@@QBENXZ
-M?mapFromGlobal@QPlatformWindow@@UBE?AVQPoint@@ABV2@@Z
-M?mapToGlobal@QPlatformWindow@@UBE?AVQPoint@@ABV2@@Z
 MAX_SPACE
 MIN_SPACE
-MJM|a
-MO?openDocument@QPlatformServices@@UAE_NABVQUrl@@@Z
-MRM\Mc
-MS Gothic
-MS Legacy Fonts
-MS Mincho
-MV Boli
-Macronsmall
-Mangal
-MappingScheme
-Marlett
-Medium
-MetaData
-MetricsSets
-Microsoft Sans Serif
-MinFeature
-Ming(for ISO10646)
-MingLi43
-MingLiU
-Mingliu
-Miriam
-Miriam Fixed
-Miriam Transparent
-Misc Legacy Fonts
-Monaco
-Msmall
-N;NHNQNkN
-N?mouseButtons@QGuiApplication@@SA?AV?$QFlags@W4MouseButton@Qt@@@@XZ
-N?moveTo@QPainterPath@@QAEXABVQPointF@@@Z
-N?name@QPlatformScreen@@UBE?AVQString@@XZ
-N?nativeInterface@QPlatformIntegration@@UBEPAVQPlatformNativeInterface@@XZ
-N?nativeOrientation@QPlatformScreen@@UBE?AW4ScreenOrientation@Qt@@XZ
 NORM_SPACE
 NOTICE
-NY?toTexture@QPlatformBackingStore@@UBEIABVQRegion@@PAVQSize@@PAV?$QFlags@W4TextureFlag@QPlatformBackingStore@@@@@Z
-N[?writingSystemsFromTrueTypeBits@QPlatformFontDatabase@@SA?AVQSupportedWritingSystems@@QAI0@Z
-Narkisim
-Normal
-Notice
-Nsmall
-Ntilde
-Ntildesmall
-O5OFO\OgO
-O?normalGeometry@QPlatformWindow@@UBE?AVQRect@@XZ
-O?physicalSize@QPlatformScreen@@UBE?AVQSizeF@@XZ
-OEsmall
-OTTOt
-OTTOt"
-OTTOt)
-Oacute
-Oacutesmall
-Oblique
-Ocircumflex
-Ocircumflexsmall
-Odieresis
-Odieresissmall
-Ogoneksmall
-Ograve
-Ogravesmall
-Omega
-OpOti
-OpticalSize
-Optima
-Ordering
-Oslash
-Oslashsmall
-Osmall
-OtherBlues
-Otilde
-Otildesmall
-P	?count@QDir@@QBEIXZ
-P +Q 
-P$+Q4
-P$;Q(w
-P(P;P`
-P,+Q 
-P.tls
-P0+Q$
-P0;Q(t7
-P8;Q0sY
-P8;QTr
-P<+Q4
-P?pointerEvent@QPlatformCursor@@UAEXABVQMouseEvent@@@Z
-P?propagateSizeHints@QPlatformWindow@@UAEXXZ
-P?qt_addBitmapToPath@@YAXNNPBEHHHPAVQPainterPath@@@Z
-P?qt_fontdata_from_index@@YA?AVQByteArray@@H@Z
-P@+Q8
-PD;QDs
-PH;QL|B
-PH;QP
 PIXEL_SIZE
-PMingLiU
 POINT_SIZE
-PT+QP
-P\;Q`
-PaintType
-Palatino Linotype
-Ph FDB
-Ph2/SO
-PhTDBC
-Phacol
-Pheman
-Phltuo
-Phrava
-Phravc
-Phravg
-Phtsop
-Phxibs
-Phxmdh
-PmXh]=b
-Private
-Psmall
-Pt;Qp|
-Q)Q7QWQ
-Q<Rj$
-Q?qt_window_private@@YAPAVQWindowPrivate@@PAVQWindow@@@Z
-Q?queryKeyboardModifiers@QPlatformIntegration@@UBE?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
-Q?raise@QPlatformWindow@@UAEXXZ
-Q?rects@QRegion@@QBE?AV?$QVector@VQRect@@@@XZ
-Q?refreshRate@QPlatformScreen@@UBENXZ
-QFontDatabase: Cannot find font directory %s - is Qt installed correctly?
-QFontEngine: Glyph neither outline nor bitmap format=%d
-QLRhp^
-QList<T>::at
-QList<T>::move
-QList<T>::operator[]
-QOffscreenIntegrationPlugin
-QTMETADATA  qbjs
-QT_NO_FT_CACHE
 QUAD_WIDTH
-QVarLengthArray::QVarLengthArray()
-QVector::insert
-QVector<T>::at
-QW?size@QImage@@QBE?AVQSize@@XZ
-Q\Rj$
-Q_UNREACHABLE was reached
-Q_UNREACHABLE()
-Qh tvc
-QhTLCP
-Qhaehh
-Qhcolb
-Qhfylg
-Qhnrek
-Qhpamc
-Qhpxam
-Qhravg
-Qhtadb
-Qhtsop
-Qhxibs
-QliB(p
-Qsmall
-Qt5Cored.dll
-Qt5Guid.dll
-QueryPerformanceCounter
-R%R<RqS
-R<+Q4
-R?registerFont@QPlatformFontDatabase@@SAXABVQString@@00W4Weight@QFont@@W4Style@4@W4Stretch@4@_N4H4ABVQSupportedWritingSystems@@PAX@Z
-R?resolveFontFamilyAlias@QPlatformFontDatabase@@UBE?AVQString@@ABV2@@Z
-R?screen@QPlatformWindow@@QBEPAVQPlatformScreen@@XZ
-R?screenAdded@QPlatformIntegration@@IAEXPAVQPlatformScreen@@_N@Z
 RAW_ASCENT
 RAW_AVERAGE_WIDTH
 RAW_AVG_CAPITAL_WIDTH
@@ -1265,10 +465,10 @@ RAW_FIGURE_WIDTH
 RAW_MAX_SPACE
 RAW_MIN_SPACE
 RAW_NORM_SPACE
-RAW_PIXELSIZE
 RAW_PIXEL_SIZE
-RAW_POINTSIZE
 RAW_POINT_SIZE
+RAW_PIXELSIZE
+RAW_POINTSIZE
 RAW_QUAD_WIDTH
 RAW_SMALL_CAP_SIZE
 RAW_STRIKEOUT_ASCENT
@@ -1287,41 +487,10 @@ RELATIVE_WEIGHT
 RESOLUTION
 RESOLUTION_X
 RESOLUTION_Y
-RFRQR\Rf
-Raavi
-Registry
-Regular
-Regular Class
-Regular/Bold Class
-Regular/Italic Class
-ResetEvent
-Rh FFC
-RhCLBC
-RhCLBE
-RhTDBE
-Rhaehv
-Rhdaeh
-Rhmgpf
-Rhperp
-Rhpsag
-Rhravf
-Rhxibs
-Ringsmall
-Rod Transparent
-Roman
-Rsmall
-S%S?a
-S?sendWindowSystemEvents@QWindowSystemInterface@@SA_NV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
-SDBytes
 SETWIDTH_NAME
 SLANT
-SLSnSzS
 SMALL_CAP_SIZE
-SO?openGLModuleType@QPlatformIntegration@@UAE?AW4OpenGLModuleType@QOpenGLContext@@XZ
 SPACING
-STARTCHAR
-STARTFONT
-STARTPROPERTIES
 STRIKEOUT_ASCENT
 STRIKEOUT_DESCENT
 SUBSCRIPT_SIZE
@@ -1330,699 +499,1667 @@ SUBSCRIPT_Y
 SUPERSCRIPT_SIZE
 SUPERSCRIPT_X
 SUPERSCRIPT_Y
-SWIDTH
-Scaron
-Scaronsmall
-Scedilla
-Segoe UI
-Semibold
-SetEvent
-SetUnhandledExceptionFilter
-Shruti
-SimHei
-Simplified Arabic
-Simplified Arabic Fixed
-Simsun
-Size must be greater than or equal to 0.
-Slant
-SleepConditionVariableCS
-Ssmall
-StandardEncoding
-StartAxis
-StartCharMetrics
-StartComposites
-StartData
-StartDirection
-StartFontMetrics
-StartKernData
-StartKernPairs
-StartKernPairs0
-StartKernPairs1
-StartTrackKern
-StdHW
-StdVW
-StemSnapH
-StemSnapV
-StrokeWidth
-Su@j	h
-SuSj	h0j
-SubrCount
-SubrMapOffset
-Subrs
-Supplement
-Sylfaen
-Symbol
-T#T.Tk
-T0X0\0`0d0h0$2\4`4d4h4l4p4
-T?setFrameStrutEventsEnabled@QPlatformWindow@@UAEX_N@Z
-T?setGeometry@QPlatformWindow@@UAEXABVQRect@@@Z
-T?setKeyboardGrabEnabled@QPlatformWindow@@UAE_N_N@Z
-T?setMask@QPlatformWindow@@UAEXABVQRegion@@@Z
-TETNTc
-THEZOCQS
-Tahoma
-Tcommaaccent
-TerminateProcess
-The specified iterator argument 'before' is invalid
-Thorn
-Thornsmall
-Tildesmall
-Times
-Times New Roman
-TrackKern
-Traditional Arabic
-Trebuchet MS
-TrueType
-Tsmall
-Tunga
-Type 1
-Type 42
-UEUeUt
-UIDBase
 UNDERLINE_POSITION
 UNDERLINE_THICKNESS
-UO?openUrl@QPlatformServices@@UAE_NABVQUrl@@@Z
-Uacute
-Uacutesmall
-Ubuntu
-Ucircumflex
-Ucircumflexsmall
-Udieresis
-Udieresissmall
-Ugrave
-Ugravesmall
-UnderlinePosition
-UnderlineThickness
-UnhandledExceptionFilter
-UniqueID
-Unknown exception
-Usmall
-V$VYW
-V,V7VB
-V?setWindowFilePath@QPlatformWindow@@UAEXABVQString@@@Z
-V?setWindowFlags@QPlatformWindow@@UAEXV?$QFlags@W4WindowType@Qt@@@@@Z
-V?setWindowIcon@QPlatformWindow@@UAEXABVQIcon@@@Z
-V?setWindowModified@QPlatformWindow@@UAE_N_N@Z
-VCRUNTIME140D.dll
-VU?setOrientationUpdateMask@QPlatformScreen@@UAEXV?$QFlags@W4ScreenOrientation@Qt@@@@@Z
-VVector
-Verdana
-Verdana Clones
-Verdana and Clones
-Version
-VgVrV
-Vsmall
-W$W>WBWSW
-W?setWindowTitle@QPlatformWindow@@UAEXABVQString@@@Z
-W?standardSizes@QPlatformFontDatabase@@UBE?AV?$QList@H@@XZ
-W?startSystemResize@QPlatformWindow@@UAE_NABVQPoint@@W4Corner@Qt@@@Z
-W?staticMetaObject@QPlatformIntegrationPlugin@@2UQMetaObject@@B
 WEIGHT
 WEIGHT_NAME
-WaitForSingleObjectEx
-WakeAllConditionVariable
-Webdings
-Weight
-WeightVector
-Width
-Windows FNT
-Wingdings
-Wsmall
-X?sync@QPlatformIntegration@@UAEXXZ
-XCXVXac
-XHeight
 X_HEIGHT
-XeRich9
-Xsmall
-Y!Q!t!
-Y?themeNames@QPlatformIntegration@@UBE?AVQStringList@@XZ
-YLYVh
-Y]Ym[u[
-Yacute
-Yacutesmall
-Ydieresis
-Ydieresissmall
-YeYii
-Ysmall
-Z?translate@QTransform@@QAEAAV1@NN@Z
-Z?virtualSiblings@QPlatformScreen@@UBE?AV?$QList@PAVQPlatformScreen@@@@XZ
-Z?weightFromInteger@QPlatformFontDatabase@@SA?AW4Weight@QFont@@H@Z
-ZDZUZ]Zj
-Zcaron
-Zcaronsmall
-Zsmall
-[#[/[:[[[c[n
-[5h5w5
-[?O?T?Y?e
-[?width@QWindow@@QBEHXZ
-[?winId@QWindow@@QBEIXZ
-[?window@QPlatformWindow@@QBEPAVQWindow@@XZ
-[?windowEvent@QPlatformWindow@@UAEXPAVQEvent@@@Z
-[P?primaryScreen@QGuiApplication@@SAPAVQScreen@@XZ
-[R?requestUpdate@QPlatformWindow@@UAEXXZ
-\!\(\A\\\~\
-\[?xHeight@QFontEngine@@UBE?AUQFixed@@XZ
-]!])a
-]L?isExposed@QPlatformWindow@@UBE_NXZ
-^0R1W1b1
-^L?isExposed@QWindow@@QBE_NXZ
-^L^S^\^r
-_A`:`
-_CrtDbgReportW
-_CxxThrowException
 _MULE_BASELINE_OFFSET
 _MULE_RELATIVE_COMPOSE
-_W_a_x_
-_XFREE86_GLYPH_RANGES
-__std_exception_copy
-__std_exception_destroy
-__std_type_info_destroy_list
-__stdio_common_vsprintf
-__vcrt_InitializeCriticalSectionEx
-_callnewh
-_cexit
-_configure_narrow_argv
-_crt_at_quick_exit
-_crt_atexit
-_except_handler4_common
-_execute_onexit_table
-_free_dbg
-_initialize_narrow_environment
-_initialize_onexit_table
-_initterm
-_initterm_e
-_register_onexit_function
-_seh_filter_dll
-_setjmp3
-`*`0a
-`.rdata
-`0`9d9h9l9p9t9x9|9
-`5d5h5l5p5t5x5|5
-`B`M`X
-a	]u]
-a'aCaYb"b8b
-aacute
+oversubscribed dynamic bit lengths tree
+incomplete dynamic bit lengths tree
+oversubscribed literal/length tree
+incomplete literal/length tree
+oversubscribed distance tree
+incomplete distance tree
+empty distance tree with lengths
+invalid literal/length code
+invalid distance code
+invalid block type
+invalid stored block lengths
+too many length or distance symbols
+invalid bit length repeat
+1.1.4
+unknown compression method
+invalid window size
+incorrect header check
+need dictionary
+incorrect data check
+1.1.4
+1.1.4
+.?AVQOffscreenIntegrationPlugin@@
+.?AVQPlatformIntegrationPlugin@@
+.?AVQObject@@
+.?AVQPlatformServices@@
+.?AVQOffscreenIntegration@@
+.?AVQPlatformIntegration@@
+.?AVQOffscreenDrag@@
+.?AVQPlatformDrag@@
+.?AVQBasicFontDatabase@@
+.?AVQPlatformFontDatabase@@
+.?AV?$QOffscreenEventDispatcher@VQEventDispatcherWin32@@@@
+.?AVQEventDispatcherWin32@@
+.?AVQAbstractEventDispatcher@@
+.?AVQOffscreenWindow@@
+.?AVQPlatformWindow@@
+.?AVQPlatformSurface@@
+.?AVQOffscreenScreen@@
+.?AVQPlatformScreen@@
+.?AVQOffscreenBackingStore@@
+.?AVQPlatformBackingStore@@
+.?AVQOffscreenCursor@@
+.?AVQPlatformCursor@@
+.?AVQFontEngineFTRawData@?A0x9b52941c@@
+.?AVQFontEngineFT@@
+.?AVQFontEngine@@
+.?AVtype_info@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+offscreen
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+QOffscreenIntegrationPlugin
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+!weakref.load()
+strongref.load() <= 0
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+!x->ref.isStatic()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+int(d->alloc) == aalloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+isDetached()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+x == d
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->data()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+uint(d->size) <= d->alloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d != Data::unsharableEmpty()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
 aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
-acircumflex
-acute
-adieresis
-agrave
-ampersand
-ampersandsmall
-antialias
-apple
-approxequal
-aring
-asciicircum
-asciitilde
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->alloc >= uint(aalloc)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->size == asize
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+f:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/text/qfragmentmap_p.h
+qRegisterNormalizedMetaType
+field < Fragment::size_array_max
+f:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/text/qfragmentmap_p.h
+field < Fragment::size_array_max
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+The specified iterator argument 'before' is invalid
+QVector::insert
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
 asize >= 0 && asize <= aalloc
-asterisk
-asuperior
-atilde
-autofitter
-bBbMb
-backslash
-bad allocation
-bad array new length
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+!x->ref.isStatic()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+int(d->alloc) == aalloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+isDetached()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+x == d
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->data()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+uint(d->size) <= d->alloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d != Data::unsharableEmpty()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->alloc >= uint(aalloc)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->size == asize
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+asize >= 0 && asize <= aalloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qhash.h
+*node == e || (*node)->next
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+asize >= 0 && asize <= aalloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+!x->ref.isStatic()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+int(d->alloc) == aalloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+isDetached()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+x == d
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->data()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+uint(d->size) <= d->alloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d != Data::unsharableEmpty()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->alloc >= uint(aalloc)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->size == asize
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+The specified iterator argument 'before' is invalid
+QVector::insert
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+index out of range
+QVector<T>::at
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+asize >= 0 && asize <= aalloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+!x->ref.isStatic()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+int(d->alloc) == aalloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+isDetached()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+x == d
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->data()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+uint(d->size) <= d->alloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d != Data::unsharableEmpty()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->alloc >= uint(aalloc)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->size == asize
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+void __thiscall QBasicFontDatabase::populateFontDatabase(void)
+fontdatabases\basic\qbasicfontdatabase.cpp
+field < Fragment::size_array_max
+QFontDatabase: Cannot find font directory %s - is Qt installed correctly?
+*.ttf
+*.ttc
+*.pfa
+*.pfb
+*.otf
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/text/qfragmentmap_p.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+field < Fragment::size_array_max
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+f:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/text/qfragmentmap_p.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+class QStringList __cdecl QBasicFontDatabase::addTTFile(const class QByteArray &,const class QByteArray &,class QSupportedWritingSystems *)
+fontdatabases\basic\qbasicfontdatabase.cpp
+FT_New_Face failed with index
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+The specified iterator argument 'before' is invalid
+QVector::insert
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+asize >= 0 && asize <= aalloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+!x->ref.isStatic()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+int(d->alloc) == aalloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+isDetached()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+x == d
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->data()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+uint(d->size) <= d->alloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d != Data::unsharableEmpty()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->alloc >= uint(aalloc)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->size == asize
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+asize >= 0 && asize <= aalloc
+..\gui\text\qfontengine_ft.cpp
+glyphs->numGlyphs >= *nglyphs
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+!x->ref.isStatic()
+x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+int(d->alloc) == aalloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+isDetached()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+x == d
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->data()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+uint(d->size) <= d->alloc
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d != Data::unsharableEmpty()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->alloc >= uint(aalloc)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+d->size == asize
+..\gui\text\qfontengine_ft.cpp
+!result || int(*length) > 0
+..\gui\text\qfontengine_ft.cpp
+Q_UNREACHABLE was reached
+Q_UNREACHABLE()
+..\gui\text\qfontengine_ft.cpp
+currentlyLockedAlphaMap.isNull()
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+f:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/text/qfragmentmap_p.h
+field < Fragment::size_array_max
+field < Fragment::size_array_max
+f:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/text/qfragmentmap_p.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+:qmemoryfonts/
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+contour:
+  start and end point are not on curve
+  end point is on curve, start is not
+  start at
+    
+tag =
+: on curve =
+  lineTo
+  cubicTo
+  closeSubpath
+  close cubicTo
+qRegisterNormalizedMetaType
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+QT_NO_FT_CACHE
+symbol
+..\gui\text\qfontengine_ft.cpp
+!face_
+..\gui\text\qfontengine_ft.cpp
+format != Format_None
+struct QFontEngineFT::Glyph *__thiscall QFontEngineFT::loadGlyph(struct QFontEngineFT::QGlyphSet *,unsigned int,struct QFixed,enum QFontEngine::GlyphFormat,bool) const
+..\gui\text\qfontengine_ft.cpp
+load glyph failed due to broken hinting bytecode in font, switching to auto hinting
+load glyph failed err=%x face=%p, glyph=%d
+struct QFontEngineFT::Glyph *__thiscall QFontEngineFT::loadGlyph(struct QFontEngineFT::QGlyphSet *,unsigned int,struct QFixed,enum QFontEngine::GlyphFormat,bool) const
+..\gui\text\qfontengine_ft.cpp
+..\gui\text\qfontengine_ft.cpp
+glyph_buffer_size <= bitmap_buffer_size
+..\gui\text\qfontengine_ft.cpp
 bitmap.pixel_mode == FT_PIXEL_MODE_GRAY
-bmystM
-bmysu"j
+..\gui\text\qfontengine_ft.cpp
+antialias
+..\gui\text\qfontengine_ft.cpp
+slot->bitmap.pixel_mode == FT_PIXEL_MODE_MONO
+..\gui\text\qfontengine_ft.cpp
+QFontEngine: Glyph neither outline nor bitmap format=%d
+struct QFontEngineFT::Glyph *__thiscall QFontEngineFT::loadGlyph(struct QFontEngineFT::QGlyphSet *,unsigned int,struct QFixed,enum QFontEngine::GlyphFormat,bool) const
+..\gui\text\qfontengine_ft.cpp
+gs != 0
+f:\qt5\qtbase\include\qtcore\5.5.0\qtcore\private\../../../../../src/corelib/tools/qstringiterator_p.h
+iterator hasn't a next item
+unsigned int __thiscall QStringIterator::next(unsigned int)
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvarlengtharray.h
+idx >= 0 && idx < s
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qlist.h
+QList<T>::at
+Size must be greater than or equal to 0.
+QVarLengthArray::QVarLengthArray()
+QList<T>::operator[]
+QList<T>::move
+THEZOCQS
+HEZLOCUS
+fijkdbh
+xzroesc
+pqgjy
+DFKaiSho-SB
+DFKaiShu
+DFKai-SB
+HuaTianKaiTi?
+HuaTianSongTi?
+Ming(for ISO10646)
+MingLiU
+PMingLiU
+MingLi43
+Z\n9|
+FC\r4
+_Zt@
+      
+!!!!!!
+!!!!
+                                
+MS Legacy Fonts
+Aharoni
+Andale Mono
+Andalus
+Angsana New
+AngsanaUPC
+Arabic Transparent
+Arial Black
+Arial Narrow
+Arial Unicode MS
+Arial
+Batang
+Browallia New
+BrowalliaUPC
+Comic Sans MS
+Cordia New
+CordiaUPC
+Courier New
+DFKai-SB
+David Transparent
+David
+DilleniaUPC
+Estrangelo Edessa
+EucrosiaUPC
+FangSong_GB2312
+Fixed Miriam Transparent
+FrankRuehl
+Franklin Gothic Medium
+FreesiaUPC
+Garamond
+Gautami
+Georgia
+Gulim
+Impact
+IrisUPC
+JasmineUPC
+KaiTi_GB2312
+KodchiangUPC
+Latha
+Levenim MT
+LilyUPC
+Lucida Console
+Lucida Sans Unicode
+MS Gothic
+MS Mincho
+MV Boli
+Mangal
+Marlett
+Microsoft Sans Serif
+Mingliu
+Miriam Fixed
+Miriam Transparent
+Miriam
+Narkisim
+Palatino Linotype
+Raavi
+Rod Transparent
+Shruti
+SimHei
+Simplified Arabic Fixed
+Simplified Arabic
+Simsun
+Sylfaen
+Symbol
+Tahoma
+Times New Roman
+Traditional Arabic
+Trebuchet MS
+Tunga
+Verdana
+Webdings
+Wingdings
+Core MS Legacy Fonts
+Arial Black
+Arial Narrow
+Arial Unicode MS
+Arial
+Comic Sans MS
+Courier New
+Garamond
+Georgia
+Impact
+Lucida Console
+Lucida Sans Unicode
+Microsoft Sans Serif
+Palatino Linotype
+Tahoma
+Times New Roman
+Trebuchet MS
+Verdana
+Apple Legacy Fonts
+Geneva
+Times
+Monaco
+Century
+Chalkboard
+Lobster
+Century Gothic
+Optima
+Lucida Grande
+Gill Sans
+Baskerville
+Helvetica
+Helvetica Neue
+Legacy Sans Fonts
+Andale Mono
+Arial Unicode MS
+Arial
+Century Gothic
+Comic Sans MS
+Franklin Gothic Medium
+Geneva
+Lucida Console
+Lucida Grande
+Lucida Sans Unicode
+Lucida Sans Typewriter
+Microsoft Sans Serif
+Monaco
+Tahoma
+Trebuchet MS
+Verdana
+Misc Legacy Fonts
+Dark Courier
+Verdana Clones
+DejaVu Sans
+Bitstream Vera Sans
+Verdana and Clones
+DejaVu Sans
+Bitstream Vera Sans
+Verdana
+Regular Class
+Regular
+Book
+Medium
+Roman
+Normal
+Regular/Italic Class
+Regular
+Book
+Medium
+Italic
+Oblique
+Roman
+Normal
+Bold/BoldItalic Class
+Bold
+Bold Italic
+Black
+Bold/Italic/BoldItalic Class
+Bold
+Bold Italic
+Black
+Italic
+Oblique
+Regular/Bold Class
+Regular
+Book
+Medium
+Normal
+Roman
+Bold
+Black
+Verdana Clones
+Courier New
+Italic
+Courier New
+Italic
+Consolas
+Core MS Legacy Fonts
+Regular
+Legacy Sans Fonts
+Verdana Clones
+Courier New
+Regular
+Times New Roman
+Regular/Bold Class
+Georgia
+Regular/Bold Class
+Droid Sans
+Regular/Italic Class
+Droid Sans Mono
+Verdana
+Regular
+Times New Roman
+Regular
+Times New Roman
+Regular
+Times New Roman
+Regular
+Times New Roman
+Regular
+Times New Roman
+Regular
+Times New Roman
+Regular
+Times New Roman
+Regular
+Times
+Courier New
+Arial
+Regular
+Geneva
+Georgia
+Regular
+Trebuchet MS
+Regular
+Trebuchet MS
+Regular
+Trebuchet MS
+Regular
+Trebuchet MS
+Italic
+Trebuchet MS
+Italic
+Trebuchet MS
+Regular
+Arial
+Regular
+Verdana
+Regular
+Verdana
+Regular
+Legacy Sans Fonts
+Legacy Sans Fonts
+Arial
+Regular
+Arial
+Bold/BoldItalic Class
+Arial
+Bold
+Arial
+Bold
+Arial
+Bold
+Arial
+Bold
+Arial
+Bold
+Arial
+Bold
+Arial
+Bold
+Arial
+Regular
+Arial
+Regular
+Courier New
+Bold
+Courier New
+Bold
+Courier New
+Bold
+Courier New
+Bold
+Courier New
+Bold
+Courier New
+Bold
+Courier New
+Bold
+Courier New
+Bold
+Courier New
+Bold
+Courier New
+Regular
+Courier New
+Italic
+Times New Roman
+Italic
+Times New Roman
+Italic
+Times New Roman
+Italic
+Times New Roman
+Regular
+Times New Roman
+Regular
+Times New Roman
+Regular
+Times New Roman
+Italic
+Times New Roman
+Italic
+Times New Roman
+Italic
+Times New Roman
+Regular
+Times New Roman
+Regular
+Times New Roman
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Courier New
+Regular
+Arial Unicode MS
+Regular Class
+Arial Unicode MS
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+DejaVu Sans
+Regular Class
+Microsoft Sans Serif
+Regular Class
+Microsoft Sans Serif
+Regular Class
+Segoe UI
+Regular Class
+Monaco
+Regular Class
+Segoe UI
+Regular Class
+Segoe UI
+Regular Class
+Tahoma
+Regular Class
+Times New Roman
+Regular Class
+Times New Roman
+Regular Class
+Times New Roman
+Regular Class
+Times New Roman
+Regular Class
+Trebuchet MS
+Regular Class
+Trebuchet MS
+Regular Class
+Trebuchet MS
+Regular Class
+Trebuchet MS
+Regular Class
+Ubuntu
+Regular Class
+Verdana
+Regular Class
+Verdana
+Regular Class
+Verdana and Clones
+Regular Class
+Verdana and Clones
+Regular Class
+Verdana and Clones
+Regular Class
+Verdana and Clones
+Regular Class
+Verdana and Clones
+Regular Class
+Verdana and Clones
+Regular Class
+Verdana and Clones
+Regular Class
+Verdana and Clones
+Regular Class
+DejaVu Sans
+Regular Class
+Verdana and Clones
+Regular Class
+Verdana and Clones
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Arial
+Regular Class
+Bitstream Vera Sans
+Regular/Italic Class
+Bitstream Vera Sans
+Regular/Italic Class
+Bitstream Vera Sans
+Regular Class
+Bitstream Vera Sans
+Regular/Italic Class
+DejaVu Sans
+Regular Class
+DejaVu Sans
+Regular Class
+DejaVu Sans
+Regular Class
+DejaVu Sans
+Regular Class
+DejaVu Sans
+Regular Class
+DejaVu Sans
+Regular Class
+DejaVu Sans
+Regular/Italic Class
+DejaVu Sans
+Regular/Italic Class
+Georgia
+Georgia
+Georgia
+Georgia
+Georgia
+Georgia
+Liberation Sans
+Regular Class
+Lucida Grande
+Regular Class
+Microsoft Sans Serif
+Regular Class
+Microsoft Sans Serif
+Regular Class
+Segoe UI
+Regular Class
+Segoe UI
+Regular Class
+Segoe UI
+Regular Class
+Tahoma
+Regular Class
+Tahoma
+Regular Class
+Tahoma
+Regular Class
+Tahoma
+Regular Class
+Verdana
+Regular/Italic Class
+Verdana
+Regular Class
+Verdana
+Regular/Italic Class
+Verdana
+Regular/Italic Class
+Verdana
+Regular/Italic Class
+Verdana
+Regular/Italic Class
+Verdana
+Regular Class
+Verdana
+Regular/Italic Class
+Times New Roman
+Regular Class
+Trebuchet MS
+Regular Class
+Trebuchet MS
+Regular Class
+\n\v\f\r
+ !"#
+\n\v\f\r
+ !"#
+.null
+nonmarkingreturn
+notequal
+infinity
+lessequal
+greaterequal
+partialdiff
+summation
+product
+integral
+Omega
+radical
+approxequal
+Delta
+nonbreakingspace
+lozenge
+apple
+franc
+Gbreve
+gbreve
+Idotaccent
+Scedilla
+scedilla
+Cacute
+cacute
+Ccaron
+ccaron
+dcroat
+.notdef
+space
+exclam
+quotedbl
+numbersign
+dollar
+percent
+ampersand
+quoteright
+parenleft
+parenright
+asterisk
+plus
+comma
+hyphen
+period
+slash
+zero
+three
+four
+five
+seven
+eight
+nine
+colon
+semicolon
+less
+equal
+greater
+question
+bracketleft
+backslash
+bracketright
+asciicircum
+underscore
+quoteleft
 braceleft
 braceright
-bracketleft
-bracketright
-breve
-brokenbar
-bsuperior
-bullet
-c7cPc
-cO?orientation@QPlatformScreen@@UBE?AW4ScreenOrientation@Qt@@XZ
-cZcccqc
-cacute
-caron
-ccaron
-ccedilla
-cedilla
-centinferior
-centoldstyle
-centsuperior
-cinuj
-cinut
-cinuu
-cinuua
-cinuus
-circumflex
-class QStringList __cdecl QBasicFontDatabase::addTTFile(const class QByteArray &,const class QByteArray &,class QSupportedWritingSystems *)
-className
-closefile
-colon
-colonmonetary
-comma
-commainferior
-commasuperior
-contour:
-copyright
-currency
-currentlyLockedAlphaMap.isNull()
-d != Data::unsharableEmpty()
-d->alloc >= uint(aalloc)
-d->data()
-d->size == asize
-d2h2l2x2
-d6d?a
-d]dbdpdyd
-daeht
-dagger
-daggerdbl
-darkening-parameters
-dcroat
-debug
-default-script
-degree
-dhdl3
-dieresis
-divide
-dollar
-dollarinferior
-dollaroldstyle
-dollarsuperior
-dotaccent
-dotlessi
-dsuperior
-e e%e.e=eM
-eZe}e
-eacute
-ebegeq
-ecircumflex
-edieresis
-eexec
-egrave
-eight
-eightinferior
-eightoldstyle
-eightsuperior
-ellipsis
-emdash
-empty distance tree with lengths
-endash
-epudt
-equal
-esuperior
-eurtt	3
-eurtt 
-eurtu
-exclam
+asciitilde
 exclamdown
-exclamdownsmall
-exclamsmall
-f!f=fEfwf
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qhash.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qlist.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvarlengtharray.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\5.5.0\qtcore\private\../../../../../src/corelib/tools/qstringiterator_p.h
-f:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/text/qfragmentmap_p.h
-fY?topLevelAt@QPlatformScreen@@UBEPAVQWindow@@ABVQPoint@@@Z
-fallback-script
-fclose
-fcttt2
-fcttu
-ffittF
-field < Fragment::size_array_max
-figuredash
-fijkdbh
-fiveeighths
-fiveinferior
-fiveoldstyle
-fivesuperior
-florin
-fontdatabases\basic\qbasicfontdatabase.cpp
-fopen
-format != Format_None
-fourinferior
-fouroldstyle
-foursuperior
-fpgiu
+cent
+sterling
 fraction
-franc
-fread
-fseek
-ftell
-g5g>gK
-gZgnhKhWhci
-g]a^+^B^
-gbreve
-germandbls
-glyph-dict
-glyph-to-script-map
-glyph_buffer_size <= bitmap_buffer_size
-glyphs->numGlyphs >= *nglyphs
-grave
-greater
-greaterequal
-gs != 0
+florin
+section
+currency
+quotesingle
+quotedblleft
 guillemotleft
-guillemotright
 guilsinglleft
 guilsinglright
-h FFC
-hTSOP
-hY?topLevelWindows@QGuiApplication@@SA?AV?$QList@PAVQWindow@@@@XZ
-hcinu
-hdaeh
-hdehb
-hfylg
-hinting-engine
-hltuo
-htdwu
-htnfs
+endash
+dagger
+daggerdbl
+periodcentered
+paragraph
+bullet
+quotesinglbase
+quotedblbase
+quotedblright
+guillemotright
+ellipsis
+perthousand
+questiondown
+grave
+acute
+circumflex
+tilde
+macron
+breve
+dotaccent
+dieresis
+ring
+cedilla
 hungarumlaut
-hyphen
-hypheninferior
-hyphensuperior
-i(i4i:iP
+ogonek
+caron
+emdash
+ordfeminine
+Lslash
+Oslash
+ordmasculine
+dotlessi
+lslash
+oslash
+germandbls
+onesuperior
+logicalnot
+trademark
+onehalf
+plusminus
+Thorn
+onequarter
+divide
+brokenbar
+degree
+thorn
+threequarters
+twosuperior
+registered
+minus
+multiply
+threesuperior
+copyright
+Aacute
+Acircumflex
+Adieresis
+Agrave
+Aring
+Atilde
+Ccedilla
+Eacute
+Ecircumflex
+Edieresis
+Egrave
+Iacute
+Icircumflex
+Idieresis
+Igrave
+Ntilde
+Oacute
+Ocircumflex
+Odieresis
+Ograve
+Otilde
+Scaron
+Uacute
+Ucircumflex
+Udieresis
+Ugrave
+Yacute
+Ydieresis
+Zcaron
+aacute
+acircumflex
+adieresis
+agrave
+aring
+atilde
+ccedilla
+eacute
+ecircumflex
+edieresis
+egrave
 iacute
 icircumflex
 idieresis
-idx >= 0 && idx < s
 igrave
-incomplete distance tree
-incomplete dynamic bit lengths tree
-incomplete literal/length tree
-incorrect data check
-incorrect header check
-increase-x-height
-index out of range
-infinity
-int(d->alloc) == aalloc
-integral
-interpreter-version
-invalid bit length repeat
-invalid block type
-invalid distance code
-invalid literal/length code
-invalid stored block lengths
-invalid window size
-isDetached()
-isFixedPitch
-isuperior
-iterator hasn't a next item
-j[ros
-k k.k;m
-kH 	;
-kQ 	;
-kZ?unlockAlphaMapForGlyph@QFontEngine@@UAEXXZ
-kZkjk
-kerning
-known
-lElblrl
-lbgrtO
-lenBuildCharArray
-lenIV
-lessequal
-load glyph failed due to broken hinting bytecode in font, switching to auto hinting
-load glyph failed err=%x face=%p, glyph=%d
-logicalnot
-longjmp
-lozenge
-lslash
-lsuperior
-ltuo@
-ltuoP
-ltuo`
-ltuop
-ltuot
-ltuou
-m	m9e
-mRmom}m
-macron
-malloc
-memchr
-memcmp
-memcpy
-memmove
-memset
-mgpft
-minus
-msuperior
-multi-masters
-multiply
-need dictionary
-nineinferior
-nineoldstyle
-ninesuperior
-nmrat&
-no-stem-darkening
-nonbreakingspace
-nonmarkingreturn
-notequal
-nsuperior
 ntilde
-numbersign
-oEoOoZoaozo
-oK?initialize@QPlatformIntegration@@UAEXXZ
 oacute
 ocircumflex
 odieresis
-offscreen
-ogonek
 ograve
-onedotenleader
-oneeighth
-onefitted
-onehalf
-oneinferior
-oneoldstyle
-onequarter
-onesuperior
-onethird
-ordfeminine
-ordmasculine
-org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3
-oslash
-osuperior
 otilde
-oversubscribed distance tree
-oversubscribed dynamic bit lengths tree
-oversubscribed literal/length tree
-p#p7pP
-p0t5x5|5
-paragraph
-parenleft
-parenleftinferior
-parenleftsuperior
-parenright
-parenrightinferior
-parenrightsuperior
-partialdiff
-password
-percent
-period
-periodcentered
-periodinferior
-periodsuperior
-perpt
-perthousand
-pfr-metrics
-plusminus
-postscript-cmaps
-postscript-font-name
-postscript-info
-pqgjy
-product
-properties
-psaux
-pshinter
-psnames
-q4qIqQ
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qYqaqnq
-qoffscreend.dll
-qsort
-qt_plugin_instance
-qt_plugin_query_metadata
-question
-questiondown
-questiondownsmall
-questionsmall
-quotedbl
-quotedblbase
-quotedblleft
-quotedblright
-quoteleft
-quoteright
-quotesinglbase
-quotesingle
-r*r4r;
-radical
-raster1
-raster5
-rcniu
-realloc
-registered
-resource.frk/
-rsuperior
-rupiah
-s1s:sHsX
 scaron
-scedilla
-section
-semicolon
-seven
-seveneighths
-seveninferior
-sevenoldstyle
-sevensuperior
-sfnt-table
-sfnts
-sixinferior
-sixoldstyle
-sixsuperior
-slash
-slot->bitmap.pixel_mode == FT_PIXEL_MODE_MONO
-smooth
-smooth-lcd
-smooth-lcdv
-space
-spgiu
-ssuperior
-sterling
-stibt
-strcat
-strcmp
-strlen
-strncmp
-strncpy
-strongref.load() <= 0
-strrchr
-strstr
-struct QFontEngineFT::Glyph *__thiscall QFontEngineFT::loadGlyph(struct QFontEngineFT::QGlyphSet *,unsigned int,struct QFixed,enum QFontEngine::GlyphFormat,bool) const
-summation
-symbol
-t!hravg
-t"h$a
-t/tOtet
-t1cid
-t6hravf
-tDh@h
-tM?lineTo@QPainterPath@@QAEXABVQPointF@@@Z
-tag =
-tcommaaccent
-terminate
-thgwu
-thorn
-three
-threeeighths
-threeinferior
-threeoldstyle
-threequarters
-threequartersemdash
-threesuperior
-tilde
-tnlsu	
-too many length or distance symbols
-trademark
-truetype
-truetype-engine
-tsuperior
-tt-cmaps
-tt-glyf
-twodotenleader
-twoinferior
-twooldstyle
-twosuperior
-twothirds
-type1
-type42
-u,uEu
-u0hfylg
-uLj&hHy
 uacute
 ucircumflex
-ucrtbased.dll
 udieresis
 ugrave
-uint(d->size) <= d->alloc
-uluzu
-underscore
-unknown compression method
-unsigned int __thiscall QStringIterator::next(unsigned int)
-v8vUb
-vQ?qt_scrollRectInImage@@YAXAAVQImage@@ABVQRect@@ABVQPoint@@@Z
-version
-vnvyv
-void __thiscall QBasicFontDatabase::populateFontDatabase(void)
-wDwNwYw`wy
-winfonts
-x == d
-x$ltuou!
-x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
-x>xoxyx~
-xD&u:
-xD&uD
-xD&uI
-xD&u`
-xD&us
-xHltuo
-xHltuot
-xHltuou
-xHltuou8
-xHpmoct
-xHpmoct:
-xHpmocu&
-xHstib
-xHstibu
-xIxRx[xe
-xf86-driver-name
-xzroesc
-y'y6y?yMa
-yD&u 
-yD&u)
-yD&u3
-yD&u4
-yD&u:
-yD&u<
-yD&uG
-yD&uN
-yD&uO
-yD&uR
-yD&uS
-yD&ut
-yHltuot
-yHpmocur
-yZygy
 yacute
 ydieresis
-z$ltuou!
-z$ltuouK
-z<zRz_zvz
-zD&u.
-zD&u2
-zD&u3
-zD&u?
-zD&u@
-zD&uB
-zD&uV
-zHltuou
-zHltuouF
-zHstibt
-zHstibtF
-zHstibu
 zcaron
-zeroinferior
+exclamsmall
+Hungarumlautsmall
+dollaroldstyle
+dollarsuperior
+ampersandsmall
+Acutesmall
+parenleftsuperior
+parenrightsuperior
+twodotenleader
+onedotenleader
 zerooldstyle
+oneoldstyle
+twooldstyle
+threeoldstyle
+fouroldstyle
+fiveoldstyle
+sixoldstyle
+sevenoldstyle
+eightoldstyle
+nineoldstyle
+commasuperior
+threequartersemdash
+periodsuperior
+questionsmall
+asuperior
+bsuperior
+centsuperior
+dsuperior
+esuperior
+isuperior
+lsuperior
+msuperior
+nsuperior
+osuperior
+rsuperior
+ssuperior
+tsuperior
+parenleftinferior
+parenrightinferior
+Circumflexsmall
+hyphensuperior
+Gravesmall
+Asmall
+Bsmall
+Csmall
+Dsmall
+Esmall
+Fsmall
+Gsmall
+Hsmall
+Ismall
+Jsmall
+Ksmall
+Lsmall
+Msmall
+Nsmall
+Osmall
+Psmall
+Qsmall
+Rsmall
+Ssmall
+Tsmall
+Usmall
+Vsmall
+Wsmall
+Xsmall
+Ysmall
+Zsmall
+colonmonetary
+onefitted
+rupiah
+Tildesmall
+exclamdownsmall
+centoldstyle
+Lslashsmall
+Scaronsmall
+Zcaronsmall
+Dieresissmall
+Brevesmall
+Caronsmall
+Dotaccentsmall
+Macronsmall
+figuredash
+hypheninferior
+Ogoneksmall
+Ringsmall
+Cedillasmall
+questiondownsmall
+oneeighth
+threeeighths
+fiveeighths
+seveneighths
+onethird
+twothirds
 zerosuperior
-zspou
-{O?ownsDragObject@QPlatformDrag@@UBE_NXZ
-{U?setParent@QPlatformWindow@@UAEXPBV1@@Z
-{U{c{
-|=|K|^|n|
-}	?canRender@QFontEngine@@UBE_NPBVQChar@@H@Z
-}%}.}I
+foursuperior
+fivesuperior
+sixsuperior
+sevensuperior
+eightsuperior
+ninesuperior
+zeroinferior
+oneinferior
+twoinferior
+threeinferior
+fourinferior
+fiveinferior
+sixinferior
+seveninferior
+eightinferior
+nineinferior
+centinferior
+dollarinferior
+periodinferior
+commainferior
+Agravesmall
+Aacutesmall
+Acircumflexsmall
+Atildesmall
+Adieresissmall
+Aringsmall
+AEsmall
+Ccedillasmall
+Egravesmall
+Eacutesmall
+Ecircumflexsmall
+Edieresissmall
+Igravesmall
+Iacutesmall
+Icircumflexsmall
+Idieresissmall
+Ethsmall
+Ntildesmall
+Ogravesmall
+Oacutesmall
+Ocircumflexsmall
+Otildesmall
+Odieresissmall
+OEsmall
+Oslashsmall
+Ugravesmall
+Uacutesmall
+Ucircumflexsmall
+Udieresissmall
+Yacutesmall
+Thornsmall
+Ydieresissmall
+001.000
+001.001
+001.002
+001.003
+Black
+Bold
+Book
+Light
+Medium
+Regular
+Roman
+Semibold
+\t \t$\t6\tI\tY\th\ts\tz\t
+\n"\n)\n7\nA\nH\nS\nc\np\n|\n
+\v"\v,\v9\vE\vR\v[\ve\vr\v
+\f(\f6\fC\fP\f_\fn\f|\f
+\r%\r1\rB\rQ\rZ\rf\rr\r~\r
+:\n@zH
+PmXh]=b
+j[ros
+\t,\tm\ts
+\t\r\t!\t%
+\t4\tN\t\a
+\t<\tF
+G\n3\n=\nk\ns\n
+\v'\v4\vA\vZ\vk
+\nE\nL\n^
+\vG\vO
+\f(\fM\fu\f
+\f.\f7
+\f?\fD
+\fS\f]
+\fd\fm
+\r%\r^\r
+\r-\r4\rT
+\r<\rA
+\rf\rp\r
+%a2\t
+%T4\n
+V \v 
+ < C O [ c
+ % 0
+W { 
+!#!/
+Y!Q!t!
+"("4"<"Da
+!W!h
+"K"q
+"S"^
+#!#L
+#'#:
+#\#g#w#
+(D(~(
+$2$r$
+'!$J$N$R$V$Z$^$b$f$j$n0
+'\r%2%6%:%>%B%F%J%N%R%V0
+%r%v%z%~%
+&2&6&:&>&B&F&J&N&R&V0
+&r&v&z&~&
+' '$'(','0'4'8'<'@0
+'\'`'d'h'l'p't'x'|'
+( ($(((,(0(4(8(<(@0
+(Z(^(b(f(j(n(r(v(z1
+)*)4);
+)P)y)
+)_)n
+*%*1
+*I*T*e*l*u
+*Z*_
++!+5-
+.\v1o0
++'+.
++>-V-
+0\t+R+f+
+, ,^,
++Z+^+b7
+2\n+|+
+%4\n+
+/5\n,6,:,>,B,F,J,N,R,V,Z0
+\n6\n,t,x,|,
+47\n,
+=8\n,
+G9\n-.-2-6-:->-B-F-J-N-R0
+0\n-v-z-~-
+1"1i3
+.".08
+.(.,1
+.B.F.J.N.R.V.Z.^2
+/./f/
+!1\n.
++2\n.
+/"/&/*0
+:4\t/B/F/J/N/R/V/Z/^/b0
+I5\t/z/~/
+050s0
+0!0%0)0-014
+7\n0K0O0S0W0[0_0c0g0k0o0
+1*1V1[0
+1:1>1B1F1J1N1R0
+1a1e1
+2)202<2U2e2
+2C2L
+2q2z2
+4G4Pe
+3)323A3O3
+4%43
+3h3q
+4j4r4}4
+575A
+5 5'
+5G5S
+5_5i5p
+6*6.6[
+646B
+6K6S
+6o6v6
+797k7
+7F7W7c
+8&8=
+8n8y
+9"9*
+9@9Y9`9y9
+9F9O
+9g9p
+b:.:
+<\v<I<
+>H>T>
+@'@0a
+:>:H:`:g:
+:n:w
+;(;1;?;];
+;E;T
+;d;q
+<#<*
+<1<:
+<U<`<k<y<
+>7>Ba
+=!=5
+=S=b
+>\>i>t
+?\n? ?(?-
+?@?j
+[?O?T?Y?e
+]?z?
+@8@C@N
+@U@s
+ "@^@h
+AiAtA
+E+E\HTH\HfHrH
+A*A3
+A;AAA[
+AJAU
+B<B{B
+BFBQB[Bb
+BiBr
+CQCtC
+CWCf
+D&D4a
+DWDbDgD
+DmDs
+E3EAEL
+EnEyE
+H=HF
+F'F2F>F\Fsa
+FKFV
+FbFi
+G+GXGfGkGpGuG{G
+G!G&C
+G7G;G@GEGJM
+GPGTB
+G^GbF
+LrMDM
+N;NHNQNkN
+J1J7JU
+I&I,I:IJ
+IaIrI
+  Iz
+J?JH
+JvKsK}l\tJ
+K&K8KFKQ
+K^Kd
+L'LZa
+L0L:LA
+LHLQ
+LaLj
+MJM|a
+MRM\Mc
+MjMs
+N$N/
+NWNb
+NqNy
+O5OFO\OgO
+OQOV
+OpOti
+P(P;P`
+P.P5
+PAPU
+R%R<RqS
+V$VYW
+Q)Q7QWQ
+Q=QH
+Q_Qd
+R+R2
+RFRQR\Rf
+SLSnSzS
+S%S?a
+S+S6
+SRSd
+T#T.Tk
+T4T;
+TETNTc
+TTT[
+ &Tv
+UEUeUt
+KUMUX
+V,V7VB
+VgVrV
+W$W>WBWSW
+W,W6
+WiWr
+XCXVXac
+XIXP
+Y]Ym[u[
+]!])a
+YLYVh
+Y-Y=
+YeYii
+ZDZUZ]Zj
+Z!Z1
+[#[/[:[[[c[n
+[@[G
+[N[T
+\!\(\A\\\~\
+\/\8
+\H\S
+\b\t
+]0]8
+g]a^+^B^
+_A`:`
+a'aCaYb"b8b
+a\t]u]
+^1^;
+^L^S^\^r
+^d^i
+_ _/
+`*`0a
+_W_a_x_
+_g_r
+`B`M`X
+`^`i
+a-a8
+aJaP
+aeam
+`a~a
+b(b0
+bBbMb
+bTbm
+b^be
+bwb~
+eZe}e
+gZgnhKhWhci
+c7cPc
+d6d?a
+c c2
+c>cG
+cZcccqc
+d]dbdpdyd
+dhdl3
+e e%e.e=eM
+ebegeq
+g5g>gK
+f!f=fEfwf
+f'f5
+fPfo
+fWfc
+h.h>
+Ho\thwh
+i(i4i:iP
+-j'j2j>jU
+jDjK
+qYqaqnq
+nPnq
+k\vnK
+k k.k;m
+n n,
+kZkjk
+lElblrl
+l*l3
+lKlV
+m\tm9e
+mRmom}m
+mXme
+n2n?
+n^nf
+oEoOoZoaozo
+ohoq
+p#p7pP
+q!q)
+q4qIqQ
+r*r4r;
+rQr\
+s&sg
+s1s:sHsX
+smsv
+vnvyv
+yZygy
+z<zRz_zvz
+a\ft/tOtet
+u,uEu
+v8vUb
+t5tF
+tUt[
+tlt~
+uKu`
+uluzu
+v\fv(
+wDwNwYw`wy
+wgwp
+x>xoxyx~
+xIxRx[xe
+y'y6y?yMa
+ymyx
+zCzI
+zezn
 }V}|~
 ~-~E~W~
+Em\n{C|
+|=|K|^|n|
+{U{c{
+| |4
+}%}.}I
+}6};
+@}`}i
+~3~8
 ~c~{~
+~i~p
+Delta
+Omega
+fraction
+hyphen
+macron
+periodcentered
+space
+Tcommaaccent
+tcommaaccent
+ltuo`
+ltuo`
+ltuop
+cinu
+cinu
+nmra
+bmys
+cinu
+cinu
+sijs
+  bg
+5gib
+snaw
+ahoj
+ltuo
+ltuo
+ltuoP
+ltuo@
+\n\v\f\r
+\n\v\f\r
+InitializeConditionVariable
+SleepConditionVariableCS
+WakeAllConditionVariable
+Unknown exception
+bad allocation
+bad array new length
+RSDS
+6/2J
+F:\qt5\qtbase\plugins\platforms\qoffscreend.pdb
+qoffscreend.dll
+qt_plugin_instance
+qt_plugin_query_metadata
