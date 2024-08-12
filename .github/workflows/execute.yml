@@ -34,3 +34,4 @@ jobs:
                 GPG_KEY: ${{ secrets.GPG_KEY }}
                 GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
                 GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+                GITHUB_APP_ID: ${{ secrets.GH_APP_ID }}
