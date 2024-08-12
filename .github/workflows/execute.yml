@@ -15,15 +15,16 @@ jobs:
             contents: write
         environment: Execute
         steps:
-            - uses: actions/checkout@v4
+            - name: Generate a token
+              id: generate-token
+              uses: actions/create-github-app-token@v1
               with:
-                repository: steamdatabase/gametracking
-                ref: master
-
-            - uses: actions/checkout@v4
-              with:
-                ref: master
-                path: 'steamvr'
+                app-id: ${{ secrets.GH_APP_ID }}
+                private-key: ${{ secrets.GH_APP_PK }}
+            - name: Hide token
+              run: echo "::add-mask::$GITHUB_TOKEN"
+              env:
+                GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
             - uses: docker://ghcr.io/lifeismana/gametracking-steamvr:latest
               env:
                 GIT_NAME: ${{ secrets.GIT_NAME }}
@@ -32,3 +33,4 @@ jobs:
                 STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
                 GPG_KEY: ${{ secrets.GPG_KEY }}
                 GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
+                GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
