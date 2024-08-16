@@ -2715,8 +2715,8 @@
         }
       };
       (V.Name = "developer_settings"), (V = (0, i.gn)([l.Pi], V));
-      var P = n(2743);
-      let F = class extends _.d9 {
+      var F = n(2743);
+      let P = class extends _.d9 {
         constructor(e) {
           super(e);
         }
@@ -2725,11 +2725,11 @@
             ? c.createElement(
                 c.Fragment,
                 null,
-                c.createElement(P.DX, null),
-                c.createElement(P.nb, null),
-                c.createElement(P.RR, null),
-                c.createElement(P.TO, null),
-                c.createElement(P.Dc, null),
+                c.createElement(F.DX, null),
+                c.createElement(F.nb, null),
+                c.createElement(F.RR, null),
+                c.createElement(F.TO, null),
+                c.createElement(F.Dc, null),
                 !B.BV.isVRGamepadUI &&
                   c.createElement(_.Xp, {
                     name: h.o1,
@@ -2770,7 +2770,7 @@
             : null;
         }
       };
-      (F.Name = "general_settings"), (F = (0, i.gn)([l.Pi], F));
+      (P.Name = "general_settings"), (P = (0, i.gn)([l.Pi], P));
       const x = (e) => {
         var t;
         const [n, i] = (0, c.useState)(!1),
@@ -4431,7 +4431,7 @@
           const t = e.controller ? e.controller : "generic",
             n = this.state.sActiveSettingSection === e.controller,
             i =
-              [y, ue, ie, P.Yw, M, F, I, O, V, $, k.P].find(
+              [y, ue, ie, F.Yw, M, P, I, O, V, $, k.P].find(
                 (e) => e.Name === t,
               ) || _.d9;
           return c.createElement(i, { key: e.title, section: e, active: n });
@@ -5812,9 +5812,9 @@
         Xp: () => V,
         TB: () => z,
         U5: () => j,
-        t0: () => P,
+        t0: () => F,
         D3: () => L,
-        U4: () => F,
+        U4: () => P,
         wy: () => O,
         hR: () => N,
         vE: () => G,
@@ -5876,7 +5876,7 @@
             detents: void 0 !== s ? [s] : void 0,
           };
         return r.createElement(
-          F,
+          P,
           Object.assign(
             {
               renderValue: (t) => {
@@ -6007,7 +6007,7 @@
                   value: e.value,
                   sLabel: (0, l.Xx)(e.label),
                 }));
-              t = r.createElement(P, {
+              t = r.createElement(F, {
                 key: e.name,
                 name: e.name,
                 label: e.label ? (0, l.Xx)(e.label) : "",
@@ -6440,7 +6440,7 @@
       (0, o.gn)([c.Fl], V.prototype, "value", null),
         (0, o.gn)([a.ak], V.prototype, "onChange", null),
         (V = (0, o.gn)([d.Pi], V));
-      let P = class extends r.Component {
+      let F = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -6489,10 +6489,10 @@
           );
         }
       };
-      (0, o.gn)([c.Fl], P.prototype, "value", null),
-        (0, o.gn)([a.ak], P.prototype, "onChange", null),
-        (P = (0, o.gn)([d.Pi], P));
-      let F = class extends r.Component {
+      (0, o.gn)([c.Fl], F.prototype, "value", null),
+        (0, o.gn)([a.ak], F.prototype, "onChange", null),
+        (F = (0, o.gn)([d.Pi], F));
+      let P = class extends r.Component {
         constructor(e) {
           if (
             (super(e),
@@ -6582,11 +6582,11 @@
           ("0" + Math.floor(255 * e.a).toString(16)).slice(-2)
         ).toUpperCase();
       }
-      (0, o.gn)([a.ak], F.prototype, "onInteractionStart", null),
-        (0, o.gn)([a.ak], F.prototype, "onInteractionEnd", null),
-        (0, o.gn)([c.Fl], F.prototype, "value", null),
-        (0, o.gn)([a.ak], F.prototype, "onChange", null),
-        (F = (0, o.gn)([d.Pi], F));
+      (0, o.gn)([a.ak], P.prototype, "onInteractionStart", null),
+        (0, o.gn)([a.ak], P.prototype, "onInteractionEnd", null),
+        (0, o.gn)([c.Fl], P.prototype, "value", null),
+        (0, o.gn)([a.ak], P.prototype, "onChange", null),
+        (P = (0, o.gn)([d.Pi], P));
       let G = (i = class extends r.Component {
         static HueToRGB(e, t, n) {
           return 6 * (n = (n + 1) % 1) < 1
@@ -6662,7 +6662,7 @@
           const s = i.RGBtoHueLuminance(e, t, n),
             o = 360 / (1 - i.WHITE_SIZE_PERCENT),
             a = 255 == e && 255 == t && 255 == n ? o : s.hue;
-          return r.createElement(F, {
+          return r.createElement(P, {
             additionalClassName: "Hue",
             label: this.props.label,
             labelSpans: !0,
@@ -6693,7 +6693,7 @@
           const e = this.props.color
             ? this.props.color
             : { r: 255, g: 255, b: 255 };
-          return r.createElement(F, {
+          return r.createElement(P, {
             additionalClassName: "Alpha",
             label: this.props.label,
             title: this.props.text,
@@ -7101,8 +7101,8 @@
         Dc: () => A,
         RR: () => k,
         TO: () => E,
-        Ux: () => D,
-        Yw: () => L,
+        Ux: () => L,
+        Yw: () => O,
         nb: () => R,
       });
       var i,
@@ -7681,7 +7681,7 @@
           ),
         );
       };
-      var B, T;
+      var B, T, I;
       !(function (e) {
         (e[(e.UseGlobal = 0)] = "UseGlobal"),
           (e[(e.ForceOn = 1)] = "ForceOn"),
@@ -7689,18 +7689,23 @@
           (e[(e.ForceAlwaysOn = 3)] = "ForceAlwaysOn");
       })(B || (B = {})),
         (function (e) {
+          (e[(e.Default = 0)] = "Default"),
+            (e[(e.Letterbox = 1)] = "Letterbox"),
+            (e[(e.Advanced = 2)] = "Advanced");
+        })(T || (T = {})),
+        (function (e) {
           (e[(e.Off = 0)] = "Off"),
             (e[(e.Fine = 1)] = "Fine"),
             (e[(e.Normal = 2)] = "Normal"),
             (e[(e.Extreme = 3)] = "Extreme");
-        })(T || (T = {}));
-      const I = {
-        [T.Fine]: { min: 0.8, max: 1.25, step: 0.001 },
-        [T.Normal]: { min: 0.5, max: 2, step: 0.01 },
-        [T.Extreme]: { min: 0.1, max: 10, step: 0.1 },
-        [T.Off]: { min: 0, max: 100, step: 1 },
+        })(I || (I = {}));
+      const D = {
+        [I.Fine]: { min: 0.8, max: 1.25, step: 0.001 },
+        [I.Normal]: { min: 0.5, max: 2, step: 0.01 },
+        [I.Extreme]: { min: 0.1, max: 10, step: 0.1 },
+        [I.Off]: { min: 0, max: 100, step: 1 },
       };
-      let D = (i = class extends o.Component {
+      let L = (i = class extends o.Component {
         constructor(e) {
           super(e),
             (this.m_routeObservingAutorunDisposer = null),
@@ -7710,7 +7715,10 @@
               currentApp: null,
               nResolutionMultiplier: null,
               nFovScaleMultiplier: null,
-              bFovScaleLetterboxed: null,
+              nFovScaleMultiplierInner: null,
+              nFovScaleMultiplierUpper: null,
+              nFovScaleMultiplierLower: null,
+              eFovScaleFormat: T.Default,
               bShowRefreshRateOptions: null,
               nPreferredRefreshRate: null,
               eSmoothingMode: null,
@@ -7718,7 +7726,7 @@
               bShowThrottleOptions: null,
               nFramesToThrottle: null,
               nAdditionalPrediction: null,
-              eWorldScaleRange: T.Off,
+              eWorldScaleRange: I.Off,
               flWorldScaleMultiplier: null,
             });
         }
@@ -7790,13 +7798,13 @@
           );
         }
         get worldScaleRangeMin() {
-          return I[this.state.eWorldScaleRange].min;
+          return D[this.state.eWorldScaleRange].min;
         }
         get worldScaleRangeMax() {
-          return I[this.state.eWorldScaleRange].max;
+          return D[this.state.eWorldScaleRange].max;
         }
         get worldScaleRangeStep() {
-          return I[this.state.eWorldScaleRange].step;
+          return D[this.state.eWorldScaleRange].step;
         }
         onApplicationDropdownChange(e) {
           this.setState((t, n) => {
@@ -7813,7 +7821,6 @@
                   currentApp: e,
                   nResolutionMultiplier: null,
                   nFovScaleMultiplier: null,
-                  bFovScaleLetterboxed: null,
                   bShowRefreshRateOptions: null,
                   nPreferredRefreshRate: null,
                   eSmoothingMode: null,
@@ -7822,32 +7829,44 @@
           });
         }
         updateAppState(e) {
-          var t, n;
+          var t, n, i;
           if (void 0 !== e.resolution) {
-            let i = null !== (t = e.throttling) && void 0 !== t ? t : 0,
-              s = null !== (n = e.prediction) && void 0 !== n ? n : 0,
-              o = T.Off;
+            let s = null !== (t = e.throttling) && void 0 !== t ? t : 0,
+              o = null !== (n = e.prediction) && void 0 !== n ? n : 0,
+              r = I.Off;
             1 !== e.worldscale &&
-              (o =
+              (r =
                 Math.round(1e3 * e.worldscale) % 10 != 0
-                  ? T.Fine
-                  : e.worldscale < I[T.Normal].min ||
-                      e.worldscale > I[T.Normal].max
-                    ? T.Extreme
-                    : T.Normal),
+                  ? I.Fine
+                  : e.worldscale < D[I.Normal].min ||
+                      e.worldscale > D[I.Normal].max
+                    ? I.Extreme
+                    : I.Normal),
               (this.m_initialAppState = {
                 nResolutionMultiplier: e.resolution / 100,
                 nFovScaleMultiplier: e.fovscale / 100,
-                bFovScaleLetterboxed: e.fovscale_letterboxed,
+                nFovScaleMultiplierInner: e.fovscale_inner
+                  ? e.fovscale_inner / 100
+                  : 1,
+                nFovScaleMultiplierUpper: e.fovscale_upper
+                  ? e.fovscale_upper / 100
+                  : 1,
+                nFovScaleMultiplierLower: e.fovscale_lower
+                  ? e.fovscale_lower / 100
+                  : 1,
+                eFovScaleFormat:
+                  null !== (i = e.fovscale_format) && void 0 !== i
+                    ? i
+                    : T.Default,
                 bShowRefreshRateOptions: e.preferred_refresh_rate > 0,
                 nPreferredRefreshRate: e.preferred_refresh_rate,
                 eSmoothingMode: e.smoothing,
                 disableAsyncReprojection: e.disable_async_reprojection,
                 bShowThrottleOptions:
                   void 0 !== e.throttling || void 0 !== e.prediction,
-                nFramesToThrottle: i,
-                nAdditionalPrediction: s - i,
-                eWorldScaleRange: o,
+                nFramesToThrottle: s,
+                nAdditionalPrediction: o - s,
+                eWorldScaleRange: r,
                 flWorldScaleMultiplier: e.worldscale ? e.worldscale : 1,
               }),
               this.setState(this.m_initialAppState);
@@ -7869,12 +7888,23 @@
           if (null == e || null == this.state.nResolutionMultiplier) return "";
           let t = c.G3.SliderposToSupersample(this.state.nResolutionMultiplier),
             n = t;
+          switch (this.state.eFovScaleFormat) {
+            case T.Letterbox:
+              n *= this.state.nFovScaleMultiplier;
+              break;
+            case T.Advanced:
+              const e =
+                  this.state.nFovScaleMultiplier +
+                  this.state.nFovScaleMultiplierInner,
+                i =
+                  this.state.nFovScaleMultiplierUpper +
+                  this.state.nFovScaleMultiplierLower;
+              e < i ? (t *= e / i) : (n *= i / e);
+          }
           if (
-            (this.state.bFovScaleLetterboxed &&
-              (n *= this.state.nFovScaleMultiplier),
             c.G3.systemInfo &&
-              null != c.G3.systemInfo.render_target_size.width &&
-              0 != c.G3.systemInfo.render_target_size.height)
+            null != c.G3.systemInfo.render_target_size.width &&
+            0 != c.G3.systemInfo.render_target_size.height
           ) {
             let i = Math.max(
                 512,
@@ -7911,9 +7941,21 @@
           this.setState({ nFovScaleMultiplier: e }),
             this.setAppState("fovscale", 100 * e);
         }
-        onFovScaleLetterboxChange(e) {
-          this.setState({ bFovScaleLetterboxed: e }),
-            this.setAppState("fovscale_letterboxed", e);
+        onFovScaleSliderChangeInner(e) {
+          this.setState({ nFovScaleMultiplierInner: e }),
+            this.setAppState("fovscale_inner", 100 * e);
+        }
+        onFovScaleSliderChangeUpper(e) {
+          this.setState({ nFovScaleMultiplierUpper: e }),
+            this.setAppState("fovscale_upper", 100 * e);
+        }
+        onFovScaleSliderChangeLower(e) {
+          this.setState({ nFovScaleMultiplierLower: e }),
+            this.setAppState("fovscale_lower", 100 * e);
+        }
+        onFovScaleFormatChange(e) {
+          this.setState({ eFovScaleFormat: e }),
+            this.setAppState("fovscale_format", e);
         }
         onMotionSmoothChange(e) {
           this.setState({ eSmoothingMode: e }),
@@ -7979,13 +8021,13 @@
           this.setState({
             eWorldScaleRange: e,
             flWorldScaleMultiplier: Math.max(
-              I[e].min,
-              Math.min(I[e].max, this.state.flWorldScaleMultiplier),
+              D[e].min,
+              Math.min(D[e].max, this.state.flWorldScaleMultiplier),
             ),
           }),
             this.setAppState(
               "worldscale",
-              e == T.Off ? 1 : this.state.flWorldScaleMultiplier,
+              e == I.Off ? 1 : this.state.flWorldScaleMultiplier,
             );
         }
         onWorldScaleMultiplierSliderChange(e) {
@@ -8015,182 +8057,181 @@
         render() {
           var e;
           let t = null;
-          return (
-            this.state.eSmoothingMode == B.ForceAlwaysOn &&
-              (t = o.createElement(
-                o.Fragment,
-                null,
-                (0, l.Xx)(
-                  "#Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc",
-                ),
-              )),
-            o.createElement(
+          this.state.eSmoothingMode == B.ForceAlwaysOn &&
+            (t = o.createElement(
               o.Fragment,
               null,
-              o.createElement(
-                d.GV,
-                { className: "SettingsItem" },
-                o.createElement(
-                  p.z,
-                  { className: "ButtonControl", onClick: this.show },
-                  (0, l.Xx)("#Settings_PerApplication_VideoSettings"),
-                ),
+              (0, l.Xx)(
+                "#Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc",
               ),
-              this.shouldShowModal &&
-                o.createElement(
-                  d.TB,
-                  {
-                    className: "AppVideoModal",
-                    onDismissRequested: this.close,
-                    header: o.createElement(
-                      o.Fragment,
-                      null,
-                      o.createElement(
-                        "h1",
-                        null,
-                        (0, l.Xx)("#Settings_ManageVideoSettingsForApp"),
-                      ),
-                      o.createElement(d.YL, {
-                        ref: this.m_refAppSelectDropdown,
-                        stateKey: "settings_applications",
-                        defaultAppKey:
-                          null !== (e = this.currentRouteAppKey) && void 0 !== e
-                            ? e
-                            : null === VRHTML || void 0 === VRHTML
-                              ? void 0
-                              : VRHTML.VRApplications.GetSceneApplicationKey(),
-                        showOverlays: !1,
-                        defaultLabel: (0, l.Xx)(
-                          "#Settings_PerApplication_ChooseApplication",
-                        ),
-                        onChange: this.onApplicationDropdownChange,
-                      }),
-                    ),
-                    footer: o.createElement(d.U5, {
-                      showResetButton: this.hasCurrentApp(),
-                      onResetRequested: this.resetAppToDefaults,
-                      onDismissRequested: this.close,
-                    }),
-                  },
-                  this.hasCurrentApp() &&
+            ));
+          const n = this.state.eFovScaleFormat == T.Advanced;
+          return o.createElement(
+            o.Fragment,
+            null,
+            o.createElement(
+              d.GV,
+              { className: "SettingsItem" },
+              o.createElement(
+                p.z,
+                { className: "ButtonControl", onClick: this.show },
+                (0, l.Xx)("#Settings_PerApplication_VideoSettings"),
+              ),
+            ),
+            this.shouldShowModal &&
+              o.createElement(
+                d.TB,
+                {
+                  className: "AppVideoModal",
+                  onDismissRequested: this.close,
+                  header: o.createElement(
+                    o.Fragment,
+                    null,
                     o.createElement(
-                      o.Fragment,
+                      "h1",
                       null,
-                      this.enableMotionSmoothingOverrideSettings &&
-                        null !== this.state.eSmoothingMode &&
-                        !this.state.disableAsyncReprojection &&
-                        o.createElement(d.Xp, {
-                          label: (0, l.Xx)(
-                            "#Settings_Advanced_MotionSmoothing_Header",
-                          ),
-                          items: [
-                            {
-                              value: B.UseGlobal,
-                              sLabel: (0, l.Xx)(
-                                "#Settings_PerApplication_MotionSmoothing_Global",
-                              ),
-                            },
-                            {
-                              value: B.ForceOn,
-                              sLabel: (0, l.Xx)(
-                                "#Settings_PerApplication_MotionSmoothing_On",
-                              ),
-                            },
-                            {
-                              value: B.ForceOff,
-                              sLabel: (0, l.Xx)(
-                                "#Settings_PerApplication_MotionSmoothing_Off",
-                              ),
-                            },
-                            {
-                              value: B.ForceAlwaysOn,
-                              sLabel: (0, l.Xx)(
-                                "#Settings_PerApplication_MotionSmoothing_AlwaysOn",
-                              ),
-                            },
-                          ],
-                          value: this.state.eSmoothingMode,
-                          onChange: this.onMotionSmoothChange,
-                          subsection: t,
-                        }),
-                      null !== this.state.nResolutionMultiplier &&
-                        o.createElement(
-                          d.GV,
+                      (0, l.Xx)("#Settings_ManageVideoSettingsForApp"),
+                    ),
+                    o.createElement(d.YL, {
+                      ref: this.m_refAppSelectDropdown,
+                      stateKey: "settings_applications",
+                      defaultAppKey:
+                        null !== (e = this.currentRouteAppKey) && void 0 !== e
+                          ? e
+                          : null === VRHTML || void 0 === VRHTML
+                            ? void 0
+                            : VRHTML.VRApplications.GetSceneApplicationKey(),
+                      showOverlays: !1,
+                      defaultLabel: (0, l.Xx)(
+                        "#Settings_PerApplication_ChooseApplication",
+                      ),
+                      onChange: this.onApplicationDropdownChange,
+                    }),
+                  ),
+                  footer: o.createElement(d.U5, {
+                    showResetButton: this.hasCurrentApp(),
+                    onResetRequested: this.resetAppToDefaults,
+                    onDismissRequested: this.close,
+                  }),
+                },
+                this.hasCurrentApp() &&
+                  o.createElement(
+                    o.Fragment,
+                    null,
+                    this.enableMotionSmoothingOverrideSettings &&
+                      null !== this.state.eSmoothingMode &&
+                      !this.state.disableAsyncReprojection &&
+                      o.createElement(d.Xp, {
+                        label: (0, l.Xx)(
+                          "#Settings_Advanced_MotionSmoothing_Header",
+                        ),
+                        items: [
                           {
-                            title: (0, l.Xx)(
-                              "#Settings_PerApplication_AppResHeader",
-                              (0, l.Xx)("#Settings_SectionTitle_General"),
+                            value: B.UseGlobal,
+                            sLabel: (0, l.Xx)(
+                              "#Settings_PerApplication_MotionSmoothing_Global",
                             ),
-                            className: "SettingsItem",
                           },
+                          {
+                            value: B.ForceOn,
+                            sLabel: (0, l.Xx)(
+                              "#Settings_PerApplication_MotionSmoothing_On",
+                            ),
+                          },
+                          {
+                            value: B.ForceOff,
+                            sLabel: (0, l.Xx)(
+                              "#Settings_PerApplication_MotionSmoothing_Off",
+                            ),
+                          },
+                          {
+                            value: B.ForceAlwaysOn,
+                            sLabel: (0, l.Xx)(
+                              "#Settings_PerApplication_MotionSmoothing_AlwaysOn",
+                            ),
+                          },
+                        ],
+                        value: this.state.eSmoothingMode,
+                        onChange: this.onMotionSmoothChange,
+                        subsection: t,
+                      }),
+                    null !== this.state.nResolutionMultiplier &&
+                      o.createElement(
+                        d.GV,
+                        {
+                          title: (0, l.Xx)(
+                            "#Settings_PerApplication_AppResHeader",
+                            (0, l.Xx)("#Settings_SectionTitle_General"),
+                          ),
+                          className: "SettingsItem",
+                        },
+                        o.createElement(
+                          "div",
+                          { className: "Label" },
+                          (0, l.Xx)("#Settings_PerApplication_AppResTitle"),
+                        ),
+                        o.createElement(
+                          "div",
+                          { className: "SubsectionStem Label Resolution" },
                           o.createElement(
                             "div",
-                            { className: "Label" },
-                            (0, l.Xx)("#Settings_PerApplication_AppResTitle"),
+                            { className: "Dimensions" },
+                            this.computedResolution,
                           ),
                           o.createElement(
                             "div",
-                            { className: "SubsectionStem Label Resolution" },
-                            o.createElement(
-                              "div",
-                              { className: "Dimensions" },
-                              this.computedResolution,
-                            ),
-                            o.createElement(
-                              "div",
-                              { className: "Percentage" },
-                              Math.round(
-                                100 * this.state.nResolutionMultiplier,
-                              ).toString() + "%",
-                            ),
-                          ),
-                          o.createElement(
-                            "div",
-                            { className: "Subsection WithStem" },
-                            o.createElement(d.U4, {
-                              min: c.BQ,
-                              max: c._g,
-                              step: c.A3,
-                              value: this.state.nResolutionMultiplier,
-                              detents: [1],
-                              onChange: this.onResolutionSliderChange,
-                            }),
-                            o.createElement(
-                              d.GV,
-                              { className: "SettingsItem" },
-                              o.createElement(C, null),
-                            ),
+                            { className: "Percentage" },
+                            Math.round(
+                              100 * this.state.nResolutionMultiplier,
+                            ).toString() + "%",
                           ),
                         ),
-                      null !== this.state.nFovScaleMultiplier &&
-                        (c.G3.showAdvancedSettings ||
-                          (this.m_initialAppState &&
-                            1 != this.m_initialAppState.nFovScaleMultiplier)) &&
                         o.createElement(
-                          d.GV,
-                          {
-                            title: (0, l.Xx)(
-                              "#Settings_PerApplication_FovScale_Description",
-                            ),
-                            className: "SettingsItem Advanced",
-                          },
+                          "div",
+                          { className: "Subsection WithStem" },
+                          o.createElement(d.U4, {
+                            min: c.BQ,
+                            max: c._g,
+                            step: c.A3,
+                            value: this.state.nResolutionMultiplier,
+                            detents: [1],
+                            onChange: this.onResolutionSliderChange,
+                          }),
+                          o.createElement(
+                            d.GV,
+                            { className: "SettingsItem" },
+                            o.createElement(C, null),
+                          ),
+                        ),
+                      ),
+                    null !== this.state.nFovScaleMultiplier &&
+                      (c.G3.showAdvancedSettings ||
+                        (this.m_initialAppState &&
+                          1 != this.m_initialAppState.nFovScaleMultiplier)) &&
+                      o.createElement(
+                        d.GV,
+                        {
+                          title: (0, l.Xx)(
+                            "#Settings_PerApplication_FovScale_Description",
+                          ),
+                          className: "SettingsItem Advanced",
+                        },
+                        o.createElement(
+                          "div",
+                          { className: "Label" },
+                          (0, l.Xx)("#Settings_PerApplication_FovScale_Label"),
+                        ),
+                        o.createElement(
+                          "div",
+                          { className: "SubsectionStem Label Resolution" },
                           o.createElement(
                             "div",
-                            { className: "Label" },
+                            { className: "Dimensions" },
                             (0, l.Xx)(
-                              "#Settings_PerApplication_FovScale_Label",
+                              "#Settings_PerApplication_FovScale_Multiplier",
                             ),
                           ),
-                          o.createElement(
-                            "div",
-                            { className: "SubsectionStem Label Resolution" },
-                            o.createElement(
-                              "div",
-                              { className: "Dimensions" },
-                              (0, l.Xx)(
-                                "#Settings_PerApplication_FovScale_Multiplier",
-                              ),
-                            ),
+                          !n &&
                             o.createElement(
                               "div",
                               { className: "Percentage" },
@@ -8198,315 +8239,368 @@
                                 100 * this.state.nFovScaleMultiplier,
                               ).toString() + "%",
                             ),
-                          ),
-                          o.createElement(
-                            "div",
-                            { className: "Subsection WithStem" },
-                            o.createElement(d.U4, {
-                              min: 0.5,
-                              max: 1,
-                              step: 0.01,
-                              value: this.state.nFovScaleMultiplier,
-                              onChange: this.onFovScaleSliderChange,
-                            }),
-                            1 != this.state.nFovScaleMultiplier &&
-                              o.createElement(d.wy, {
-                                label: (0, l.Xx)(
-                                  "#Settings_PerApplication_FovScale_Letterboxed",
-                                ),
-                                value: this.state.bFovScaleLetterboxed,
-                                onChange: this.onFovScaleLetterboxChange,
-                              }),
-                          ),
                         ),
-                      null !== this.state.flWorldScaleMultiplier &&
-                        (c.G3.showAdvancedSettings ||
-                          (this.m_initialAppState &&
-                            this.m_initialAppState.eWorldScaleRange !==
-                              T.Off)) &&
                         o.createElement(
-                          d.GV,
-                          {
-                            title: (0, l.Xx)(
-                              "#Settings_PerApplication_WorldScale_Description",
-                            ),
-                            className: "SettingsItem Advanced",
-                          },
-                          o.createElement(
-                            "div",
-                            { className: "Label" },
-                            (0, l.Xx)(
-                              "#Settings_PerApplication_WorldScale_Label",
-                            ),
-                          ),
-                          o.createElement(d.Xp, {
-                            items: [
-                              {
-                                value: T.Off,
-                                sLabel: (0, l.Xx)(
-                                  "#Settings_PerApplication_WorldScale_Off",
-                                ),
-                              },
-                              {
-                                value: T.Fine,
-                                sLabel: (0, l.Xx)(
-                                  "#Settings_PerApplication_WorldScale_Fine",
-                                ),
-                              },
-                              {
-                                value: T.Normal,
-                                sLabel: (0, l.Xx)(
-                                  "#Settings_PerApplication_WorldScale_Normal",
-                                ),
-                              },
-                              {
-                                value: T.Extreme,
-                                sLabel: (0, l.Xx)(
-                                  "#Settings_PerApplication_WorldScale_Extreme",
-                                ),
-                              },
-                            ],
-                            value: this.state.eWorldScaleRange,
-                            onChange: this.onWorldScaleRangeChange,
+                          "div",
+                          { className: "Subsection WithStem" },
+                          o.createElement(d.U4, {
+                            min: 0.5,
+                            max: 1,
+                            step: 0.01,
+                            value: this.state.nFovScaleMultiplier,
+                            valueStyleVariant: n ? _.px.OnHandle : void 0,
+                            renderValue: n
+                              ? (e) =>
+                                  Math.round(
+                                    100 * this.state.nFovScaleMultiplier,
+                                  ).toString() + "%"
+                              : void 0,
+                            onChange: this.onFovScaleSliderChange,
+                            label: n ? "Outer" : void 0,
                           }),
-                        ),
-                      this.state.eWorldScaleRange !== T.Off &&
-                        o.createElement(
-                          d.GV,
-                          { className: "SettingsItem Advanced" },
-                          o.createElement("div", { className: "Label" }),
-                          o.createElement(
-                            "div",
-                            { className: "SubsectionStem Label Resolution" },
+                          n &&
                             o.createElement(
-                              "div",
-                              { className: "Dimensions" },
-                              (0, l.Xx)(
-                                "#Settings_PerApplication_WorldScale_Range",
-                                100 * this.worldScaleRangeMin,
-                                100 * this.worldScaleRangeMax,
-                              ),
-                            ),
-                            o.createElement(
-                              "div",
-                              { className: "Percentage" },
-                              (
-                                Math.round(
-                                  1e3 * this.state.flWorldScaleMultiplier,
-                                ) / 10
-                              ).toString() + "%",
-                            ),
-                          ),
-                          o.createElement(
-                            "div",
-                            { className: "Subsection WithStem" },
-                            o.createElement(d.U4, {
-                              min: this.worldScaleRangeMin,
-                              max: this.worldScaleRangeMax,
-                              step: this.worldScaleRangeStep,
-                              value: this.state.flWorldScaleMultiplier,
-                              detents: [1],
-                              onChange: this.onWorldScaleMultiplierSliderChange,
-                            }),
-                            o.createElement(
-                              "div",
-                              { className: "SettingsItemValueLabel Fixed" },
-                              (0, l.Xx)(
-                                "#Settings_PerApplication_WorldScale_Warning",
-                              ),
-                            ),
-                          ),
-                        ),
-                      this.allowPerAppRefreshRate &&
-                        c.G3.systemInfo &&
-                        c.G3.systemInfo.refresh_rates.actual_display_frequency >
-                          0 &&
-                        c.G3.systemInfo.refresh_rates.supported_rates.length >
-                          1 &&
-                        o.createElement(
-                          o.Fragment,
-                          null,
-                          null !== this.state.bShowRefreshRateOptions &&
-                            o.createElement(d.wy, {
-                              label: (0, l.Xx)(
-                                "#Settings_PerApplication_RefreshRateOverride_Checkbox",
-                              ),
-                              title: (0, l.Xx)(
-                                "#Settings_Perapplication_RefreshRateOverride_Description",
-                              ),
-                              value: this.state.bShowRefreshRateOptions,
-                              onChange: this.onRefreshRateOverrideChange,
-                              onSubsection: o.createElement(d.t0, {
-                                label: (0, l.Xx)(
-                                  "#Settings_Video_RefreshRate_Label_Hz",
-                                ),
-                                onChange: this.onRefreshRateChange,
-                                value: this.state.nPreferredRefreshRate,
-                                items:
-                                  c.G3.systemInfo.refresh_rates.supported_rates.map(
-                                    (e) => ({
-                                      value: e,
-                                      sLabel: Math.round(e).toString(),
-                                    }),
-                                  ),
+                              o.Fragment,
+                              null,
+                              o.createElement(d.U4, {
+                                min: 0.5,
+                                max: 1,
+                                step: 0.01,
+                                value: this.state.nFovScaleMultiplierInner,
+                                valueStyleVariant: _.px.OnHandle,
+                                renderValue: (e) =>
+                                  Math.round(
+                                    100 * this.state.nFovScaleMultiplierInner,
+                                  ).toString() + "%",
+                                onChange: this.onFovScaleSliderChangeInner,
+                                label: "Inner",
                               }),
+                              o.createElement(d.U4, {
+                                min: 0.5,
+                                max: 1,
+                                step: 0.01,
+                                value: this.state.nFovScaleMultiplierUpper,
+                                valueStyleVariant: _.px.OnHandle,
+                                renderValue: (e) =>
+                                  Math.round(
+                                    100 * this.state.nFovScaleMultiplierUpper,
+                                  ).toString() + "%",
+                                onChange: this.onFovScaleSliderChangeUpper,
+                                label: "Upper",
+                              }),
+                              o.createElement(d.U4, {
+                                min: 0.5,
+                                max: 1,
+                                step: 0.01,
+                                value: this.state.nFovScaleMultiplierLower,
+                                valueStyleVariant: _.px.OnHandle,
+                                renderValue: (e) =>
+                                  Math.round(
+                                    100 * this.state.nFovScaleMultiplierLower,
+                                  ).toString() + "%",
+                                onChange: this.onFovScaleSliderChangeLower,
+                                label: "Lower",
+                              }),
+                            ),
+                          (1 != this.state.nFovScaleMultiplier || n) &&
+                            o.createElement(d.Xp, {
+                              items: [
+                                { value: T.Default, sLabel: "Default" },
+                                { value: T.Letterbox, sLabel: "Letterbox" },
+                                { value: T.Advanced, sLabel: "Advanced" },
+                              ],
+                              value: this.state.eFovScaleFormat,
+                              onChange: this.onFovScaleFormatChange,
                             }),
                         ),
-                      this.enableLegacyReprojectionSettings &&
-                        null !== this.state.disableAsyncReprojection &&
-                        (c.G3.showAdvancedSettings ||
-                          (this.m_initialAppState &&
-                            this.m_initialAppState.disableAsyncReprojection)) &&
+                      ),
+                    null !== this.state.flWorldScaleMultiplier &&
+                      (c.G3.showAdvancedSettings ||
+                        (this.m_initialAppState &&
+                          this.m_initialAppState.eWorldScaleRange !== I.Off)) &&
+                      o.createElement(
+                        d.GV,
+                        {
+                          title: (0, l.Xx)(
+                            "#Settings_PerApplication_WorldScale_Description",
+                          ),
+                          className: "SettingsItem Advanced",
+                        },
                         o.createElement(
-                          d.GV,
-                          {
-                            title: (0, l.Xx)(
-                              "#Settings_PerApplication_Reprojection_Description",
+                          "div",
+                          { className: "Label" },
+                          (0, l.Xx)(
+                            "#Settings_PerApplication_WorldScale_Label",
+                          ),
+                        ),
+                        o.createElement(d.Xp, {
+                          items: [
+                            {
+                              value: I.Off,
+                              sLabel: (0, l.Xx)(
+                                "#Settings_PerApplication_WorldScale_Off",
+                              ),
+                            },
+                            {
+                              value: I.Fine,
+                              sLabel: (0, l.Xx)(
+                                "#Settings_PerApplication_WorldScale_Fine",
+                              ),
+                            },
+                            {
+                              value: I.Normal,
+                              sLabel: (0, l.Xx)(
+                                "#Settings_PerApplication_WorldScale_Normal",
+                              ),
+                            },
+                            {
+                              value: I.Extreme,
+                              sLabel: (0, l.Xx)(
+                                "#Settings_PerApplication_WorldScale_Extreme",
+                              ),
+                            },
+                          ],
+                          value: this.state.eWorldScaleRange,
+                          onChange: this.onWorldScaleRangeChange,
+                        }),
+                      ),
+                    this.state.eWorldScaleRange !== I.Off &&
+                      o.createElement(
+                        d.GV,
+                        { className: "SettingsItem Advanced" },
+                        o.createElement("div", { className: "Label" }),
+                        o.createElement(
+                          "div",
+                          { className: "SubsectionStem Label Resolution" },
+                          o.createElement(
+                            "div",
+                            { className: "Dimensions" },
+                            (0, l.Xx)(
+                              "#Settings_PerApplication_WorldScale_Range",
+                              100 * this.worldScaleRangeMin,
+                              100 * this.worldScaleRangeMax,
                             ),
-                            className: "SettingsItem Advanced",
-                          },
+                          ),
+                          o.createElement(
+                            "div",
+                            { className: "Percentage" },
+                            (
+                              Math.round(
+                                1e3 * this.state.flWorldScaleMultiplier,
+                              ) / 10
+                            ).toString() + "%",
+                          ),
+                        ),
+                        o.createElement(
+                          "div",
+                          { className: "Subsection WithStem" },
+                          o.createElement(d.U4, {
+                            min: this.worldScaleRangeMin,
+                            max: this.worldScaleRangeMax,
+                            step: this.worldScaleRangeStep,
+                            value: this.state.flWorldScaleMultiplier,
+                            detents: [1],
+                            onChange: this.onWorldScaleMultiplierSliderChange,
+                          }),
+                          o.createElement(
+                            "div",
+                            { className: "SettingsItemValueLabel Fixed" },
+                            (0, l.Xx)(
+                              "#Settings_PerApplication_WorldScale_Warning",
+                            ),
+                          ),
+                        ),
+                      ),
+                    this.allowPerAppRefreshRate &&
+                      c.G3.systemInfo &&
+                      c.G3.systemInfo.refresh_rates.actual_display_frequency >
+                        0 &&
+                      c.G3.systemInfo.refresh_rates.supported_rates.length >
+                        1 &&
+                      o.createElement(
+                        o.Fragment,
+                        null,
+                        null !== this.state.bShowRefreshRateOptions &&
                           o.createElement(d.wy, {
                             label: (0, l.Xx)(
-                              "#Settings_PerApplication_Reprojection_Checkbox",
+                              "#Settings_PerApplication_RefreshRateOverride_Checkbox",
                             ),
-                            value: this.state.disableAsyncReprojection,
-                            onChange: this.onDisableAsyncReprojection,
-                          }),
-                        ),
-                      this.enableThrottleOverrideSettings &&
-                        (c.G3.showAdvancedSettings ||
-                          (this.m_initialAppState &&
-                            this.m_initialAppState.bShowThrottleOptions)) &&
-                        o.createElement(
-                          d.GV,
-                          {
                             title: (0, l.Xx)(
-                              "#Settings_PerApplication_ThrottlingOverride_Description",
+                              "#Settings_Perapplication_RefreshRateOverride_Description",
                             ),
-                            className: "SettingsItem Advanced",
-                          },
+                            value: this.state.bShowRefreshRateOptions,
+                            onChange: this.onRefreshRateOverrideChange,
+                            onSubsection: o.createElement(d.t0, {
+                              label: (0, l.Xx)(
+                                "#Settings_Video_RefreshRate_Label_Hz",
+                              ),
+                              onChange: this.onRefreshRateChange,
+                              value: this.state.nPreferredRefreshRate,
+                              items:
+                                c.G3.systemInfo.refresh_rates.supported_rates.map(
+                                  (e) => ({
+                                    value: e,
+                                    sLabel: Math.round(e).toString(),
+                                  }),
+                                ),
+                            }),
+                          }),
+                      ),
+                    this.enableLegacyReprojectionSettings &&
+                      null !== this.state.disableAsyncReprojection &&
+                      (c.G3.showAdvancedSettings ||
+                        (this.m_initialAppState &&
+                          this.m_initialAppState.disableAsyncReprojection)) &&
+                      o.createElement(
+                        d.GV,
+                        {
+                          title: (0, l.Xx)(
+                            "#Settings_PerApplication_Reprojection_Description",
+                          ),
+                          className: "SettingsItem Advanced",
+                        },
+                        o.createElement(d.wy, {
+                          label: (0, l.Xx)(
+                            "#Settings_PerApplication_Reprojection_Checkbox",
+                          ),
+                          value: this.state.disableAsyncReprojection,
+                          onChange: this.onDisableAsyncReprojection,
+                        }),
+                      ),
+                    this.enableThrottleOverrideSettings &&
+                      (c.G3.showAdvancedSettings ||
+                        (this.m_initialAppState &&
+                          this.m_initialAppState.bShowThrottleOptions)) &&
+                      o.createElement(
+                        d.GV,
+                        {
+                          title: (0, l.Xx)(
+                            "#Settings_PerApplication_ThrottlingOverride_Description",
+                          ),
+                          className: "SettingsItem Advanced",
+                        },
+                        o.createElement(
+                          "div",
+                          { className: "Label" },
+                          (0, l.Xx)(
+                            "#Settings_PerApplication_ThrottlingOverride_Label",
+                          ),
+                        ),
+                        o.createElement(d.wy, {
+                          title: (0, l.Xx)(
+                            "#Settings_PerApplication_ThrottlingOverride_Toggle",
+                          ),
+                          onLabel: (0, l.Xx)(
+                            "#Settings_PerApplication_ThrottlingOverride_Toggle_On",
+                          ),
+                          offLabel: (0, l.Xx)(
+                            "#Settings_PerApplication_ThrottlingOverride_Toggle_Off",
+                          ),
+                          value: this.state.bShowThrottleOptions,
+                          onChange: this.onShowThrottleOptions,
+                        }),
+                        this.state.bShowThrottleOptions &&
                           o.createElement(
                             "div",
-                            { className: "Label" },
-                            (0, l.Xx)(
-                              "#Settings_PerApplication_ThrottlingOverride_Label",
-                            ),
-                          ),
-                          o.createElement(d.wy, {
-                            title: (0, l.Xx)(
-                              "#Settings_PerApplication_ThrottlingOverride_Toggle",
-                            ),
-                            onLabel: (0, l.Xx)(
-                              "#Settings_PerApplication_ThrottlingOverride_Toggle_On",
-                            ),
-                            offLabel: (0, l.Xx)(
-                              "#Settings_PerApplication_ThrottlingOverride_Toggle_Off",
-                            ),
-                            value: this.state.bShowThrottleOptions,
-                            onChange: this.onShowThrottleOptions,
-                          }),
-                          this.state.bShowThrottleOptions &&
+                            { className: "Subsection WithStem" },
                             o.createElement(
                               "div",
-                              { className: "Subsection WithStem" },
-                              o.createElement(
-                                "div",
-                                { className: "Label" },
-                                (0, l.Xx)(
-                                  "#Settings_PerApplication_ThrottlingOverride_Framerate",
-                                ),
+                              { className: "Label" },
+                              (0, l.Xx)(
+                                "#Settings_PerApplication_ThrottlingOverride_Framerate",
                               ),
-                              o.createElement(d.U4, {
-                                min: 5,
-                                max: 0,
-                                step: 1,
-                                value: this.state.nFramesToThrottle,
-                                valueStyleVariant: _.px.OnHandle,
-                                renderValue: (e) =>
-                                  (this.currentRefreshRate / (e + 1)).toFixed(
-                                    1,
-                                  ),
-                                onChange: this.onThrottleSliderChange,
-                              }),
-                              o.createElement(
-                                "div",
-                                { className: "Label" },
-                                (0, l.Xx)(
-                                  "#Settings_PerApplication_ThrottlingOverride_Prediction",
-                                ),
-                              ),
-                              o.createElement(d.U4, {
-                                min: 0,
-                                max: 3,
-                                step: 1,
-                                value: this.state.nAdditionalPrediction,
-                                valueStyleVariant: _.px.OnHandle,
-                                renderValue: (e) =>
-                                  ((1e3 * e) / this.currentRefreshRate).toFixed(
-                                    2,
-                                  ),
-                                onChange: this.onPredictionSliderChange,
-                              }),
                             ),
-                        ),
-                    ),
-                  !this.hasCurrentApp() &&
-                    o.createElement(
-                      "div",
-                      { className: "ModalPlaceholder" },
-                      (0, l.Xx)("#Settings_PerApplication_ChooseApplication"),
-                    ),
-                ),
-            )
+                            o.createElement(d.U4, {
+                              min: 5,
+                              max: 0,
+                              step: 1,
+                              value: this.state.nFramesToThrottle,
+                              valueStyleVariant: _.px.OnHandle,
+                              renderValue: (e) =>
+                                (this.currentRefreshRate / (e + 1)).toFixed(1),
+                              onChange: this.onThrottleSliderChange,
+                            }),
+                            o.createElement(
+                              "div",
+                              { className: "Label" },
+                              (0, l.Xx)(
+                                "#Settings_PerApplication_ThrottlingOverride_Prediction",
+                              ),
+                            ),
+                            o.createElement(d.U4, {
+                              min: 0,
+                              max: 3,
+                              step: 1,
+                              value: this.state.nAdditionalPrediction,
+                              valueStyleVariant: _.px.OnHandle,
+                              renderValue: (e) =>
+                                ((1e3 * e) / this.currentRefreshRate).toFixed(
+                                  2,
+                                ),
+                              onChange: this.onPredictionSliderChange,
+                            }),
+                          ),
+                      ),
+                  ),
+                !this.hasCurrentApp() &&
+                  o.createElement(
+                    "div",
+                    { className: "ModalPlaceholder" },
+                    (0, l.Xx)("#Settings_PerApplication_ChooseApplication"),
+                  ),
+              ),
           );
         }
       });
-      (D.PAGE_SECTION = "appvideosettings"),
-        (0, s.gn)([r.Fl], D.prototype, "shouldShowModal", null),
-        (0, s.gn)([r.Fl], D.prototype, "currentRouteAppKey", null),
-        (0, s.gn)([r.Fl], D.prototype, "enableThrottleOverrideSettings", null),
+      (L.PAGE_SECTION = "appvideosettings"),
+        (0, s.gn)([r.Fl], L.prototype, "shouldShowModal", null),
+        (0, s.gn)([r.Fl], L.prototype, "currentRouteAppKey", null),
+        (0, s.gn)([r.Fl], L.prototype, "enableThrottleOverrideSettings", null),
         (0, s.gn)(
           [r.Fl],
-          D.prototype,
+          L.prototype,
           "enableMotionSmoothingOverrideSettings",
           null,
         ),
         (0, s.gn)(
           [r.Fl],
-          D.prototype,
+          L.prototype,
           "enableLegacyReprojectionSettings",
           null,
         ),
-        (0, s.gn)([r.Fl], D.prototype, "worldScaleRangeMin", null),
-        (0, s.gn)([r.Fl], D.prototype, "worldScaleRangeMax", null),
-        (0, s.gn)([r.Fl], D.prototype, "worldScaleRangeStep", null),
-        (0, s.gn)([a.ak], D.prototype, "onApplicationDropdownChange", null),
-        (0, s.gn)([a.ak], D.prototype, "updateAppState", null),
-        (0, s.gn)([r.Fl], D.prototype, "computedResolution", null),
-        (0, s.gn)([a.ak], D.prototype, "onResolutionSliderChange", null),
-        (0, s.gn)([a.ak], D.prototype, "onFovScaleSliderChange", null),
-        (0, s.gn)([a.ak], D.prototype, "onFovScaleLetterboxChange", null),
-        (0, s.gn)([a.ak], D.prototype, "onMotionSmoothChange", null),
-        (0, s.gn)([a.ak], D.prototype, "onRefreshRateOverrideChange", null),
-        (0, s.gn)([a.ak], D.prototype, "onRefreshRateChange", null),
-        (0, s.gn)([a.ak], D.prototype, "onDisableAsyncReprojection", null),
-        (0, s.gn)([a.ak], D.prototype, "onShowThrottleOptions", null),
-        (0, s.gn)([a.ak], D.prototype, "onThrottleSliderChange", null),
-        (0, s.gn)([a.ak], D.prototype, "onPredictionSliderChange", null),
-        (0, s.gn)([a.ak], D.prototype, "onWorldScaleRangeChange", null),
+        (0, s.gn)([r.Fl], L.prototype, "worldScaleRangeMin", null),
+        (0, s.gn)([r.Fl], L.prototype, "worldScaleRangeMax", null),
+        (0, s.gn)([r.Fl], L.prototype, "worldScaleRangeStep", null),
+        (0, s.gn)([a.ak], L.prototype, "onApplicationDropdownChange", null),
+        (0, s.gn)([a.ak], L.prototype, "updateAppState", null),
+        (0, s.gn)([r.Fl], L.prototype, "computedResolution", null),
+        (0, s.gn)([a.ak], L.prototype, "onResolutionSliderChange", null),
+        (0, s.gn)([a.ak], L.prototype, "onFovScaleSliderChange", null),
+        (0, s.gn)([a.ak], L.prototype, "onFovScaleSliderChangeInner", null),
+        (0, s.gn)([a.ak], L.prototype, "onFovScaleSliderChangeUpper", null),
+        (0, s.gn)([a.ak], L.prototype, "onFovScaleSliderChangeLower", null),
+        (0, s.gn)([a.ak], L.prototype, "onFovScaleFormatChange", null),
+        (0, s.gn)([a.ak], L.prototype, "onMotionSmoothChange", null),
+        (0, s.gn)([a.ak], L.prototype, "onRefreshRateOverrideChange", null),
+        (0, s.gn)([a.ak], L.prototype, "onRefreshRateChange", null),
+        (0, s.gn)([a.ak], L.prototype, "onDisableAsyncReprojection", null),
+        (0, s.gn)([a.ak], L.prototype, "onShowThrottleOptions", null),
+        (0, s.gn)([a.ak], L.prototype, "onThrottleSliderChange", null),
+        (0, s.gn)([a.ak], L.prototype, "onPredictionSliderChange", null),
+        (0, s.gn)([a.ak], L.prototype, "onWorldScaleRangeChange", null),
         (0, s.gn)(
           [a.ak],
-          D.prototype,
+          L.prototype,
           "onWorldScaleMultiplierSliderChange",
           null,
         ),
-        (0, s.gn)([a.ak], D.prototype, "resetAppToDefaults", null),
-        (0, s.gn)([a.ak], D.prototype, "show", null),
-        (0, s.gn)([a.ak], D.prototype, "close", null),
-        (0, s.gn)([r.Fl], D.prototype, "allowPerAppRefreshRate", null),
-        (0, s.gn)([r.Fl], D.prototype, "currentRefreshRate", null),
-        (D = i = (0, s.gn)([h.Pi], D));
-      class L extends d.d9 {
+        (0, s.gn)([a.ak], L.prototype, "resetAppToDefaults", null),
+        (0, s.gn)([a.ak], L.prototype, "show", null),
+        (0, s.gn)([a.ak], L.prototype, "close", null),
+        (0, s.gn)([r.Fl], L.prototype, "allowPerAppRefreshRate", null),
+        (0, s.gn)([r.Fl], L.prototype, "currentRefreshRate", null),
+        (L = i = (0, s.gn)([h.Pi], L));
+      class O extends d.d9 {
         render() {
           if (!this.props.active) return null;
           const e = VRHTML.VRProperties.GetBoolProperty(
@@ -8534,7 +8628,7 @@
               label: (0, l.Xx)("#Settings_FadeToGrid"),
               swapOnOff: !0,
             }),
-            o.createElement(D, null),
+            o.createElement(L, null),
             o.createElement(d.wy, {
               name: "/settings/steamvr/allowSupersampleFiltering",
               label: (0, l.Xx)("#Settings_Advanced_AllowSupersampleFiltering"),
@@ -8592,7 +8686,7 @@
           );
         }
       }
-      L.Name = "video_settings";
+      O.Name = "video_settings";
     },
     2609: (e, t, n) => {
       n.d(t, { Z: () => s });
@@ -10754,7 +10848,7 @@
         aT: () => G,
         bU: () => ue,
         bp: () => W,
-        bt: () => F,
+        bt: () => P,
         dG: () => O,
         eW: () => x,
         f$: () => V,
@@ -10765,7 +10859,7 @@
         gC: () => b,
         hK: () => i,
         jW: () => a,
-        je: () => P,
+        je: () => F,
         jw: () => E,
         k3: () => u,
         k_: () => ee,
@@ -10817,8 +10911,8 @@
         L = "DashboardControlStripTransform",
         O = "DashboardGrabHandleTransform",
         V = "DashboardGrabHandleTransform_Legacy",
-        P = "/settings/steamvr/enableHomeApp",
-        F = "/settings/steamvr/supersampleManualOverride",
+        F = "/settings/steamvr/enableHomeApp",
+        P = "/settings/steamvr/supersampleManualOverride",
         x = "/settings/steamvr/supersampleScale",
         G = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
         N = "/settings/camera/roomViewStyle",
@@ -17025,4 +17119,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=008c8822f2ec085aad1e
+//# sourceMappingURL=vrwebui_shared.js.map?v=b7e5a4795fb05271a09b

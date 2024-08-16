@@ -1156,7 +1156,10 @@ framesToThrottle
 additionalFramesToPredict
 worldScale
 fovScale
-fovScaleLetterboxed
+fovScaleInner
+fovScaleUpper
+fovScaleLower
+fovScaleFormat
 startMonitorFromAppLaunch
 startCompositorFromAppLaunch
 startDashboardFromAppLaunch
@@ -1211,23 +1214,23 @@ XRRenderModelUuidCache
 IVRScreenshots_001
 IVRResources_001
 IVRDriverManager_001
+SteamVR/OpenXR
 ITrackedDeviceServerDriver_
 IVRServer_XXX
 IVRSystemLayerInternal_XXX
 IVRChaperoneInternal_001
 IVRDriverLog_001
-IVRClientInternal_XXX
 IServerTrackedDeviceProvider_004
 IVRWatchdogProvider_001
-IVRMailbox_002
+IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
+IVRMailbox_002
 ITrackedDeviceServerDriver_005
-/dashboard/visible
 IVRServerDriverHost_006
+/dashboard/visible
 /device_was_drawn
 IVRWatchdogHost_002
 IVRVirtualDisplay_002
-SteamVR/OpenXR
 /input/system
 /input/menu
 /input/menu/click
@@ -1309,6 +1312,7 @@ XR_KHR_binding_modification
 XR_KHR_composition_layer_depth
 XR_KHR_visibility_mask
 XR_EXT_dpad_binding
+XR_EXT_eye_gaze_interaction
 XR_EXT_frame_composition_report
 XR_EXT_hand_tracking
 XR_EXT_hand_tracking_data_source
@@ -1343,6 +1347,7 @@ CSxrInstance::CreateVulkanInstanceKHR: invalid createInfo parameters\n
 xrCreateVulkanDeviceKHR error: invalid parameters\n
 xrCreateVulkanDeviceKHR error: invalid createInfo parameters\n
 xrCreateVulkanDeviceKHR error: invalid VkPhysicalDevice\n
+/user/eyes_ext
 Could not translate path %s. Trying the raw path\n
 Skipping bindings for interaction profile %s because we don't know it\n
 vive_tracker
@@ -1361,6 +1366,7 @@ chords
 sources
 haptics
 poses
+eyetracking
 Receiving binding with input source we've never heard of %s\n
 vive_tracker_htcx
 output
@@ -1398,6 +1404,7 @@ Unknown float->float binding: %s -> %s
 scalar_constant
 Unable to coerce float action to input source that supports neither float nor boolean: %s\n
 Unable to coerce vector2 action to input source that does not support vector2: %s\n
+ext_eye_gaze_interaction
 Unable to coerce pose action to input source that does not support pose: %s\n
 Unable to coerce haptic vibration action to input source that does not support haptic vibration: %s\n
 bindings
@@ -1516,7 +1523,7 @@ CSxrCompositorPrism::ComposeLayerProjection
 %s: failed to add projection layer
 CSxrCompositorPrism::ComposeLayerQuad
 %s: failed to add quad layer
-?CSxrSession
+CSxrSession
 ForwardRequestToServer
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_conformance.cpp
 _response
@@ -1816,10 +1823,10 @@ CSxrSwapchainVulkanOpenVR::GetPresentableTexture
 This is legal spec behavior but is probably broken in Vulkan due to barrier transition taking place in acquire.
 CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle
-const unsigned int __cdecl CAnimResource::MyTypeID(void)
 L?<I
 <L3]<
 ZA<a`
+const unsigned int __cdecl CAnimResource::MyTypeID(void)
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_hand_tracker.cpp
 xrCreateHandTracker: Requested data source count was 0
 xrCreateHandTrackerEXT: Data source was duplicated
@@ -2010,6 +2017,8 @@ CSxrSession::ReadCachedActionState
 /user/wrist_htc/right/input/a/click
 /user/wrist_htc/right/input/entity_htc/pose
 /interaction_profiles/htc/vive_wrist_tracker
+/user/eyes_ext/input/gaze_ext/pose
+/interaction_profiles/ext/eye_gaze_interaction
 pInstance
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_interaction_profiles.cpp
 left
@@ -2134,7 +2143,7 @@ sxr_xrGetFrameCompositionReportEXT
 sxr_xrEnumerateDisplayRefreshRatesFB
 sxr_xrGetDisplayRefreshRateFB
 sxr_xrRequestDisplayRefreshRateFB
-$tI(knN"
+$tI(knN
 sxr_xrDestroySpace
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_space.cpp
 CSxrSpace::Init
@@ -2199,8 +2208,9 @@ vkGetPhysicalDeviceProperties2KHR
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: vkEnumeratePhysicalDevices failed with error %d\n
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID\n
-mesh.pVertexData != nullptr && mesh.unTriangleCount > 0
+pFovScale
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\hmdlatest.cpp
+mesh.pVertexData != nullptr && mesh.unTriangleCount > 0
 pSrcVertices != nullptr && pDstVertices != nullptr
 ReprojectVertices: Failed to invert projectin matrix\n
 Lost connection to VR Server\n
@@ -2242,6 +2252,7 @@ Done reading EDID vendor Id.\n
 Reading EDID vendor Id timed out.\n
 it == m_vecOverlaysToDestroyOnClose.end() || *it != ulOverlayHandle
 vector<bool> too long
+FnTable:IVRChaperone_003
 IVRCompositor_025
 IVROverlay_013
 IVRChaperone_002
@@ -2477,7 +2488,6 @@ IVRSystem_015
 IVRChaperone_003
 FnTable:IVROverlay_027
 IVRInput_004
-FnTable:IVRChaperone_003
 IVRControlPanel_006
 IVRClientCore_003
 IVROverlayInternal_XXX
@@ -3346,6 +3356,8 @@ showCompatibilityModeNotification
 [Input] GetEyeTrackingDataAtTime failed. Error with current frame.\n
 [Input] GetEyeTrackingDataAtTime failed. ulEyeTrackingDataSize incorrect size. Got: %u. Expected: %zu.\n
 [Input] GetEyeTrackingDataAtTime failed. Action is of the wrong type.\n
+[Input] GetInputActionType failed. Input is disabled.\n
+[Input] GetInputActionType failed. Error with current frame.\n
 invalid map<K, T> key
 invalid vector<T> subscript
 ()$^.*+?[]|\-{},:=!\n\r
@@ -4958,7 +4970,6 @@ false
 invalid stoul argument
 stoul argument out of range
 vector3
-eyetracking
 actionset
 application
 global
@@ -6066,6 +6077,8 @@ runtime
 /input/application_menu/touch
 /input/thumbstick
 /input/joystick
+/input/gaze_ext
+/eyetracking
 description
 internet
 VR_SETTINGS_FILE
@@ -6104,8 +6117,6 @@ khr_simple_controller
 vive_pro
 gamepad
 vive_focus3_controller
-/interaction_profiles/ext/eye_gaze_interaction
-ext_eye_gaze_interaction
 VK_NV_external_memory_capabilities
 VK_KHR_external_memory
 VK_KHR_external_semaphore
@@ -7734,7 +7745,7 @@ vid_%04x
 pid_%04x
 device implements %s, but this runtime doesn't have an adapter for that version\n
 [UUID] Failed to generate UUID
-%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x
+%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x
 [UUID] Failed to convert string to UUID %i
 11 4 22 44 44 22 444444
 )+\t\v
@@ -7927,7 +7938,7 @@ Unable to read %u bytes to offset %u in %s\n
 PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 Property container - found and recovered a locked container at generation %x\n
 Cannot open file [
-@Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
+Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
 Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
 Deactivation threshold of %f will be set to the minimum allowed value %f in filter %s.
 long_press_delay
@@ -7965,7 +7976,7 @@ offset
 off/
 Invalid dead zone %f\n
 Invalid max zone %f. Ignoring it.\n
-p}?discrete_scroll_trackpad_globalscalefactor
+discrete_scroll_trackpad_globalscalefactor
 discrete_scroll_trackpad_haptic_on_touchstart_enabled
 discrete_scroll_trackpad_direct_directionlock_enabled
 discrete_scroll_trackpad_flick_enabled
@@ -7984,7 +7995,7 @@ discrete_scroll_trackpad_slideandhold_pulseratefactor
 discrete_scroll_trackpad_slideandhold_bordertop
 discrete_scroll_trackpad_slideandhold_borderbottom
 discrete_scroll_trackpad_slideandhold_hapticenabled
-?smooth_scroll_trackpad_aspect_ratio
+smooth_scroll_trackpad_aspect_ratio
 smooth_scroll_multiplier
 smooth_scroll_acceleration_power
 smooth_scroll_haptic_notches_per_touchpad
@@ -8006,7 +8017,7 @@ discrete_scroll_joystick_deadzone_horizontal
 discrete_scroll_joystick_deadzone_vertical
 smooth_scroll_joystick_max_scroll_velocity
 smooth_scroll_joystick_min_input_magnitude
-BMissing haptic name in output of haptic filter %s\n
+Missing haptic name in output of haptic filter %s\n
 haptic_delay
 CBoneMaskResource
 \mfpmp.exe
@@ -8288,7 +8299,8 @@ CHECK failed: value.size() <= kint32max:
 (In Legacy Hub)
 (Enumerating)
 (Reset)
-RSDS_D:e
+RSDS*
+R+CjC
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\Retail\win64\2017\vrclient_x64.pdb
 .text
 .text$di
@@ -8366,6 +8378,7 @@ p\r`\fP
 2\vp!
 \rp\f`\vP
 `!*\n
+\fp\vP
 \rp\f`!
 \fp\v`
 \fp\v`
@@ -8381,6 +8394,7 @@ p!*\n
 p\r`\fP\v0
 >\f%>4
 p\r`\f0\vP
+\np\t`
 \rp\f`\vP\n0
 \fp\vP
 \rp\f`\vP

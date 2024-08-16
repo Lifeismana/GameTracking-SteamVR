@@ -1153,7 +1153,8 @@ SleepConditionVariableCS
 WakeAllConditionVariable
 bad allocation
 bad array new length
-RSDS
+RSDStZ
+/!:@
 c:\buildslave\steamvr_rel_win64\build\src\nrfserlib\Retail\win64\2017\nrfserlib.pdb
 .text$di
 .text$mn

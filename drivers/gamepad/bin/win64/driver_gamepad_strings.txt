@@ -74,7 +74,7 @@ SleepConditionVariableCS
 WakeAllConditionVariable
 bad allocation
 bad array new length
-RSDS.
+RSDS
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 .text$di
 .text$mn

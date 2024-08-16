@@ -142,7 +142,7 @@ PauseCamera (delayed...)\n
 ResumeCamera\n
 CAMCMD_GET_OPENCAMERA_RESULT\n
 deque<T> too long
-@LocalizationManager
+LocalizationManager
 IVRSystem_022
 IVRExtendedDisplay_001
 IVRApplications_007
@@ -357,7 +357,7 @@ SleepConditionVariableCS
 WakeAllConditionVariable
 bad allocation
 bad array new length
-RSDSfGU>I|@N
+RSDSV/f
 c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
 .text$di
 .text$mn

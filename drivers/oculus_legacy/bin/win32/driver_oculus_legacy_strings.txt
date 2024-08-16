@@ -147,7 +147,8 @@ SleepConditionVariableCS
 WakeAllConditionVariable
 bad allocation
 bad array new length
-RSDSf
+RSDSHE
+31XM
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 .text$di
 .text$mn

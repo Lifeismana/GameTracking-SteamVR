@@ -1375,7 +1375,7 @@ facet::CVkInteropImageD3D11::CreateTexture
 %s: failed to create D3D11 2D texture
 facet::CVkInteropImageD3D11::ImportTexture
 %s: failed to open shared resource
-] ,'
+]@-'
 facet::CVkInteropImageNull::Initialize
 %s: failed to allocate Null aliased vulkan texture
 facet::CVkInteropDeviceNull::CreateImage
@@ -2968,7 +2968,7 @@ render_target_scale
 acc_bias
 acc_scale
 ,$SG
-\OPN'
+\OpO'
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 vr_glove_right_poses.glb
@@ -3838,7 +3838,8 @@ const unsigned int __cdecl CAnimResource::MyTypeID(void)
 /input/skeleton/right
 /input/skeleton/left
 Index Controller CreateSkeletonComponent failed.  Error: %i\n
-0a\v6<framesToThrottle
+0a\v6<
+framesToThrottle
 additionalFramesToPredict
 ALVRInit
 Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d\n
@@ -5273,6 +5274,7 @@ Index out-of-bounds (field is empty).
 (Enumerating)
 (Reset)
 RSDS
+@\fAK
 c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
 .text
 .text$di

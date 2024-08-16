@@ -1754,7 +1754,7 @@ InitializeConditionVariable
 SleepConditionVariableCS
 WakeAllConditionVariable
 bad array new length
-RSDSL
+RSDSr
 c:\buildslave\steamvr_rel_win64\build\src\prism\Retail\win64\2017\prism.pdb
 .text
 .text$di

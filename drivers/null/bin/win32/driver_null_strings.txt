@@ -68,7 +68,7 @@ vector<T> too long
 Unknown exception
 bad allocation
 bad array new length
-RSDS
+RSDS{
 c:\buildslave\steamvr_rel_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
 .text$di
 .text$mn

@@ -2477,8 +2477,8 @@ Executable: %s\n
 SteamAPI_SetBreakpadAppID
 SteamAPI_SetMiniDumpComment
 SteamAPI_WriteMiniDump
-20:02:05
-Aug  9 2024
+21:55:15
+Aug 16 2024
 /steamvr/
 Socket closed\n
 Error reading from socket\n
@@ -6186,6 +6186,7 @@ N10Reflection8TypeInfoE
 N10Reflection6Detail9TypeInfoTI17CBoneMaskResourceEE
 N10Reflection6Detail7ToBaseTI17CBoneMaskResource13CAnimResourceEE
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN18CHandAnimEvaluatorC4EPN2vr14IVRDriverInputEyP14IHandPoseLogicNS4_11EVRHandSideEEUlvE_EEEEEE
+FbRKSsPSsPvE
 FbPN8tinygltf5ImageEiPSsS2_iiPKhiPvE
 FbPKSsS0_PKN8tinygltf5ImageEbPKNS1_11FsCallbacksEPKNS1_12URICallbacksEPSsPvE
 FbRKSsPvE
@@ -6193,7 +6194,6 @@ FSsRKSsPvE
 FbPSt6vectorIhSaIhEEPSsRKSsPvE
 FbPSsRKSsRKSt6vectorIhSaIhEEPvE
 FbPjPSsRKSsPvE
-FbRKSsPSsPvE
 22CKeyframedDataResource
 N10Reflection6Detail9TypeInfoTI22CKeyframedDataResourceEE
 N10Reflection6Detail7ToBaseTI22CKeyframedDataResource13CAnimResourceEE
@@ -20143,6 +20143,8 @@ std::vector<tinygltf::Material, std::allocator<tinygltf::Material>>::~vector()
 CKeyframedDataResource::Load(std::string const&)
 vtable for Reflection::Detail::TypeInfoT<CKeyframedDataResource>
 vtable for Reflection::Detail::ToBaseT<CKeyframedDataResource, CAnimResource>
+typeinfo name for bool (std::string const&, std::string*, void*)
+typeinfo for bool (std::string const&, std::string*, void*)
 typeinfo name for bool (tinygltf::Image*, int, std::string*, std::string*, int, int, unsigned char const*, int, void*)
 typeinfo for bool (tinygltf::Image*, int, std::string*, std::string*, int, int, unsigned char const*, int, void*)
 typeinfo name for bool (std::string const*, std::string const*, tinygltf::Image const*, bool, tinygltf::FsCallbacks const*, tinygltf::URICallbacks const*, std::string*, void*)
@@ -20157,8 +20159,6 @@ typeinfo name for bool (std::string*, std::string const&, std::vector<unsigned c
 typeinfo for bool (std::string*, std::string const&, std::vector<unsigned char, std::allocator<unsigned char>> const&, void*)
 typeinfo name for bool (unsigned int*, std::string*, std::string const&, void*)
 typeinfo for bool (unsigned int*, std::string*, std::string const&, void*)
-typeinfo name for bool (std::string const&, std::string*, void*)
-typeinfo for bool (std::string const&, std::string*, void*)
 typeinfo name for CKeyframedDataResource
 typeinfo for CKeyframedDataResource
 typeinfo name for Reflection::Detail::TypeInfoT<CKeyframedDataResource>
@@ -26006,3 +26006,4 @@ _ITM_deregisterTMCloneTable
 __gmon_start__
 GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
+ndt$

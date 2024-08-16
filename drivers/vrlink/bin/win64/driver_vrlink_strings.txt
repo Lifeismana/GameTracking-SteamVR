@@ -37,9 +37,9 @@ XXXX PNG chunk not known
 .?AVsystem_error@std@@
 .?AV_System_error@std@@
 .?AV<lambda_b05e443f3b21806c8efcecd322b95173>@@
-.?AV<lambda_bfc8c64826029333c4630dc9491775e9>@@
+.?AV<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@
 .?AV<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@
-.?AV<lambda_9b6d1a00674c00ebe3a218c26d11db0d>@@
+.?AV<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@
 .?AV<lambda_1b183cf92bfcc7a986ca41b48af450da>@@
 .?AV<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@
 .?AV<lambda_7b6f6392411fd0bed81b6492ee534b9b>@@
@@ -65,9 +65,9 @@ XXXX PNG chunk not known
 .?AV?$_Func_impl_no_alloc@V<lambda_7b6f6392411fd0bed81b6492ee534b9b>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1b183cf92bfcc7a986ca41b48af450da>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_9b6d1a00674c00ebe3a218c26d11db0d>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_bfc8c64826029333c4630dc9491775e9>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b05e443f3b21806c8efcecd322b95173>@@XW4ValueTransportID@@_N@std@@
 .?AVSVLHMDDriverD3D11@@
 .?AV<lambda_0881c9906f05f503e42109ac226d18eb>@@
@@ -105,8 +105,8 @@ XXXX PNG chunk not known
 .?AVSVLBaseControllerDriver@@
 .?AVSVLControllerDriver@@
 .?AV<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@
-.?AV<lambda_9e22a490ed44db458c470077f1602590>@@
-.?AV?$_Func_impl_no_alloc@V<lambda_9e22a490ed44db458c470077f1602590>@@XW4ValueTransportID@@_N@std@@
+.?AV<lambda_e42fa156de2f49294253c79a98c6cd37>@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e42fa156de2f49294253c79a98c6cd37>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@XW4ValueTransportID@@_N@std@@
 .?AVSVLHandTrackingDriver@@
 .?AVvideoamfenc@@
@@ -420,7 +420,7 @@ streamFormatWidth
 maxVideoQueueLatencyUs
 Setting m_nTargetEncodeWidth: %d\n
 backoffRecoveryCoefficient
-useOSCEyes
+shareEyeTrackingData
 useOSCFace
 useOSC
 OSCOutPort
@@ -474,6 +474,8 @@ rift
 {oculus}/icons/quest_headset_error.png
 {oculus}/icons/quest_headset_standby.png
 Error setting client handles dashboard state\n
+Client HMD type (%d) supports eye tracking, creating input component
+/eyetracking
 SVLHMDDriver::Activate: HMD supports multiple framerates
 SVLHMDDriver::Activate: HMD did not support multiple framerates
 ,fff
@@ -1165,7 +1167,7 @@ Warning: Trying to set a width (%d) that is higher than the max (%d). Setting to
 Warning: Trying to set a height (%d) that is higher than the max (%d). Setting to max instead.\n
 Mbp?H
 ?ffffff
-PCG@y
+PCG`
 option requires an argument -- %c
 option requires an argument -- %s
 ambiguous option -- %.*s
@@ -1534,7 +1536,7 @@ ambiguous option -- %.*s
 option doesn't take an argument -- %.*s
 unknown option -- %c
 unknown option -- %s
-Doption requires an argument -- %c
+option requires an argument -- %c
 option requires an argument -- %s
 ambiguous option -- %.*s
 option doesn't take an argument -- %.*s
@@ -1928,7 +1930,7 @@ FEC decode failure %d %d %d\n
 FAULT: Packet too big!!! Can't send!!! Dropping\n
 sBWFECLim
 txTimeMS
-cAoption requires an argument -- %c
+option requires an argument -- %c
 option requires an argument -- %s
 ambiguous option -- %.*s
 option doesn't take an argument -- %.*s
@@ -3107,7 +3109,7 @@ Creating playback mirror thread for device %s\n
 CreateThread for playback failed: last error is %u\n
 const unsigned int __cdecl CAnimResource::MyTypeID(void)
 Index Controller CreateSkeletonComponent failed.  Error: %i\n
-0a\v6<@y
+0a\v6<`
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 touch_poses_right.glb
@@ -3542,7 +3544,7 @@ null}
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899x
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 value
 <U+%.4X>
 syntax error 
@@ -3840,6 +3842,7 @@ WakeAllConditionVariable
 bad allocation
 bad array new length
 RSDS
+F8'gC
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
 .text
 .text$di

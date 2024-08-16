@@ -594,8 +594,7 @@ pThreadProxy
 proc
 switchState
 bad exception
-RSDSL
-ccWF
+RSDS
 c:\buildslave\steamvr_rel_win32\build\src\vrcamera_api\Retail\win32\2017\vrcamera_api.pdb
 .text$di
 .text$mn

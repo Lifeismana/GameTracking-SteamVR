@@ -1143,7 +1143,7 @@ e<bN
 l,kg<i
 <'Za
 <@En[vP
-RSDSw
+RSDS_
 c:\buildslave\steamvr_rel_win32\build\src\openvr_api\Retailopenvr_api\win32\2017\openvr_api.pdb
 .text$di
 .text$mn

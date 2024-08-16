@@ -474,7 +474,7 @@ SleepConditionVariableCS
 WakeAllConditionVariable
 bad array new length
 RSDS
-m@uQL
+A0Sw.g
 c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
 .text$di
 .text$mn

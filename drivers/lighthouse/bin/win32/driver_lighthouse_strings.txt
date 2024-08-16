@@ -19,6 +19,7 @@ Sc?Nb
 nr?/
 L=B`
 H@\rn
+!\t@$M
 XXXX PNG chunk not known
 IVRDisplayComponent_
 IVRDriverDirectModeComponent_
@@ -364,13 +365,13 @@ PRISM_GetMotionEstimatorSubsystems
 PRISM_CreateMotionEstimator
 PRISM_DestroyMotionEstimator
 IVRMailbox_002
-ITrackedDeviceServerDriver_
 IVRSettings_003
 IVRDriverLog_001
 IServerTrackedDeviceProvider_004
 IVRWatchdogProvider_001
 IVRCompositorPluginProvider_001
 ITrackedDeviceServerDriver_005
+ITrackedDeviceServerDriver_
 /user/hand/right
 /user/hand/left
 /pose/raw
@@ -426,6 +427,10 @@ Valve Corporation
 VR_OVERRIDE
 VR_CONFIG_PATH
 VR_LOG_PATH
+IVRServer_XXX
+IVRSystemLayerInternal_XXX
+IVRChaperoneInternal_001
+IVRBlockQueue_005
 Watchman
 WatchmanFPGA
 Dongle
@@ -438,10 +443,6 @@ Audio
 AudioBridge
 ImageBridge
 PeripheralApplication
-IVRServer_XXX
-IVRSystemLayerInternal_XXX
-IVRChaperoneInternal_001
-IVRBlockQueue_005
 modelPoints
 steamvr
 ipdOffset
@@ -811,7 +812,7 @@ rEyeFile:%s width:%d height:%d components:%d\n
 Unable to query MC Image size\n
 Unable to fetch %s to store MC data\n
 Unable to store MC image: %s\n
-X@LO
+X@XO
 UserData
 camera
 enableCamera
@@ -854,7 +855,7 @@ s?Ks
 -t!?Ks
 -t1?Ks
 -tA?Ks
--tQ?xL
+-tQ?hL
 DP Init
 MIPI Init
 Wait For Sync
@@ -1393,7 +1394,7 @@ pitch
 white_balance
 UUUUUU
 ?UUUUUU
-y?xL
+y?hL
 Warning: CVrController::CreateInputComponents called on empty input_profile\n
 Error parsing device profile JSON: %s: %s\n
 Error loading device profile: %s\n
@@ -2643,7 +2644,7 @@ const unsigned int __cdecl CAnimResource::MyTypeID(void)
 /input/skeleton/right
 /input/skeleton/left
 Index Controller CreateSkeletonComponent failed.  Error: %i\n
-0a\v6<l
+0a\v6<
 ALVRInit
 Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d\n
 ALVRDisplayInit
@@ -3954,7 +3955,7 @@ Index out-of-bounds (field is empty).
 (In Legacy Hub)
 (Enumerating)
 (Reset)
-RSDSL5
+RSDS2J
 c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\Retail_lighthouse\win32\2017\driver_lighthouse.pdb
 .text
 .text$di

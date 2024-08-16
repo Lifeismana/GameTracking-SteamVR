@@ -1,9 +1,10 @@
 tl_pWatchdog
 tl_pLeafSharedState
-dl_iterate_phdr
+strpbrk
 GLIBC_2.2.5
 libc.so.6
 ./obj_vrclient_linux64/release/vrclient.so
+dl_iterate_phdr
 __wcsftime_l
 GLIBC_2.3
 __strftime_l
@@ -34,9 +35,6 @@ toupper
 strncat
 gettext
 fprintf
-shutdown
-listen
-bind
 putwc
 ungetwc
 getwc
@@ -45,10 +43,11 @@ fseeko64
 putc
 ungetc
 getc
+semctl
 semop
+semget
 sched_setaffinity
 GLIBC_2.3.4
-semctl
 isalpha
 sched_get_priority_max
 sched_get_priority_min
@@ -57,30 +56,33 @@ tolower
 getpriority
 __xstat64
 chdir
-chmod
+getcwd
 btowc
 wctob
 __iswctype_l
-rename
 __towlower_l
 __towupper_l
-ftell
 fseek
+ftell
+rename
+chmod
 execvp
 setsid
-popen
-getdelim
 pclose
+popen
 feof
+getdelim
+bind
+listen
+shutdown
 getpwnam_r
 kill
-mkdtemp
-wmemcmp
-getcwd
 pipe2
 GLIBC_2.9
-rmdir
+wmemcmp
+mkdtemp
 remove
+rmdir
 wmemset
 wmemmove
 transaction clone for operator delete(void*)
@@ -119,6 +121,7 @@ __uselocale
 __fxstat64
 ioctl
 writev
+fileno
 fopen64
 setvbuf
 fdopen
@@ -328,7 +331,6 @@ typeinfo name for __cxxabiv1::__class_type_info
 pthread_cond_broadcast
 GLIBC_2.3.2
 libpthread.so.0
-strpbrk
 recv
 pthread_cond_wait
 recvfrom
@@ -380,7 +382,6 @@ usleep
 dlerror
 strstr
 fork
-__cxa_finalize
 pthread_mutex_init
 dlsym
 strerror
@@ -408,14 +409,14 @@ __fxstat
 fflush
 strncasecmp
 pthread_mutexattr_settype
-pthread_cond_destroy
 pthread_getspecific
 dlopen
 readdir
-semget
 pthread_cond_init
+__wctype_l
 __xstat
 asinf
+pthread_cond_destroy
 pthread_getschedparam
 memcpy
 GLIBC_2.14
@@ -426,10 +427,10 @@ syscall
 tanf
 acosf
 strtoull
+pthread_cond_signal
 fgets
 pthread_attr_init
 read
-fileno
 alphasort
 closedir
 close
@@ -438,7 +439,6 @@ memset
 sched_setscheduler
 sched_getparam
 setpriority
-pthread_cond_signal
 gettimeofday
 strrchr
 nanosleep
@@ -449,7 +449,6 @@ strchr
 __stack_chk_fail
 GLIBC_2.4
 opendir
-__wctype_l
 fclose
 getpid
 write
@@ -469,12 +468,13 @@ strcasecmp
 pthread_create
 sigprocmask
 getenv
+__cxa_finalize
 sprintf
 __cxa_atexit
 __pthread_key_create
-pthread_mutex_lock
-malloc
 pthread_mutex_unlock
+malloc
+pthread_mutex_lock
 free
 frexpf
 typeinfo name for void (*)(char const*, char const*, unsigned int, bool, void*, bool*)
@@ -508,21 +508,21 @@ atan2f
 powf
 fmodf
 exit
-sincosf
 posix_memalign
 strtof
 strtod
-strcmp
-fwrite
 stderr
+fwrite
+strcmp
 strncmp
 vsnprintf
 strcpy
+sincosf
 pthread_mutex_timedlock
 pthread_setname_np
 GLIBC_2.12
-memcmp
 strlen
+memcmp
 typeinfo for int
 typeinfo name for bool (*)(char)
 typeinfo for bool (char)
@@ -613,8 +613,11 @@ DriverDirect_NewFrame
 DriverDirect_Presented
 DriverDirect_Acquired
 worldScale
+fovScaleFormat
 fovScale
-fovScaleLetterboxed
+fovScaleInner
+fovScaleUpper
+fovScaleLower
 supersampleManualOverride
 steamvr
 supersampleScale
@@ -623,6 +626,7 @@ GpuSpeed
 resolutionScale
 valve.steam.desktopgame.
 maxRecommendedResolution
+pFovScale
 SteamAppId
 650000
 VR_EventMutex
@@ -935,6 +939,7 @@ TextureMsaaResolveRenderer
 m_unSxrMagic == sSxrMagic
 /user/gamepad
 /user/treadmill
+/user/eyes_ext
 %s: Invalid %s handle: %lx\n
 CSxrInstance
 sxr_xrCreateVulkanInstanceKHR
@@ -977,6 +982,7 @@ chords
 sources
 haptics
 poses
+eyetracking
 vive_tracker_htcx
 /user/hand/primary
 output
@@ -1007,6 +1013,7 @@ trigger
 force_sensor
 scalar_constant
 position
+ext_eye_gaze_interaction
 debugInputBinding
 /user/foot/left
 /user/foot/right
@@ -1084,6 +1091,7 @@ XR_KHR_binding_modification
 XR_EXT_uuid
 sxr_xrGetSystem
 sxr_xrGetSystemProperties
+XR_EXT_eye_gaze_interaction
 sxr_xrGetInstanceProperties
 sxr_xrStringToPath
 sxr_xrPathToString
@@ -1255,6 +1263,7 @@ sxr_xrDestroyHandTrackerEXT
 sxr_xrLocateHandJointsEXT
 pActionSetPriorities
 pActionset
+actions
 CSxrActionSet
 sxr_xrDestroyActionSet
 boolean
@@ -1286,7 +1295,6 @@ dpad_left
 west
 dpad_center
 center
-actions
 action_sets
 single
 usage
@@ -2377,8 +2385,8 @@ Executable: %s\n
 SteamAPI_SetBreakpadAppID
 SteamAPI_SetMiniDumpComment
 SteamAPI_WriteMiniDump
-20:02:14
-Aug  9 2024
+21:55:21
+Aug 16 2024
 XDG_CONFIG_HOME
 .config
 openvr
@@ -2646,7 +2654,6 @@ on/y
 Unknown action set %s\n
 chord_%d_%lu
 boolean_and
-eyetracking
 fake_trigger_
 mirror_mappings
 /user/hand/left/input/x
@@ -3200,7 +3207,6 @@ khr_simple_controller
 vive_pro
 gamepad
 vive_focus3_controller
-ext_eye_gaze_interaction
 vive_tracker_
 /interaction_profiles/
 knuckles_ev1
@@ -3423,6 +3429,8 @@ VALVE_runtime_is_steamvr
 /input/back/click
 /input/back
 /input/application_menu/touch
+/input/gaze_ext
+/eyetracking
 %s contains an empty %s
 /openxr/1/api_layers/
 implicit.d/
@@ -4559,8 +4567,8 @@ IVRSystem::GetOutputDevice: Unsupported textureType, only TextureType_Vulkan sup
 pSrcVertices != nullptr && pDstVertices != nullptr
 /data/src/vrclient/hmdlatest.cpp
 ReprojectVertices: Failed to invert projectin matrix\n
-mesh.pVertexData != nullptr && mesh.unTriangleCount > 0
 openvr.tool.steamvr_media_player
+mesh.pVertexData != nullptr && mesh.unTriangleCount > 0
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 Unable to send event to client in PostGlobalEvent\n
 Unable to convert event in PoseOverlayEvent\n
@@ -4937,6 +4945,8 @@ Generated action manifest: %s\n
 /user/wrist_htc/right/input/a/click
 /user/wrist_htc/right/input/entity_htc/pose
 /interaction_profiles/htc/vive_wrist_tracker
+/user/eyes_ext/input/gaze_ext/pose
+/interaction_profiles/ext/eye_gaze_interaction
 /data/src/vrclient/openxr_interaction_profiles.cpp
 [xrRenderModel] Could not find backing asset for model
 [xrRenderModel] nodeStateCount was not equal to animatableNodeCount
@@ -5329,6 +5339,8 @@ Hi Joe(D). Your text goes here
 [Input] GetEyeTrackingDataAtTime failed. Error with current frame.\n
 [Input] GetEyeTrackingDataAtTime failed. ulEyeTrackingDataSize incorrect size. Got: %u. Expected: %zu.\n
 [Input] GetEyeTrackingDataAtTime failed. Action is of the wrong type.\n
+[Input] GetInputActionType failed. Input is disabled.\n
+[Input] GetInputActionType failed. Error with current frame.\n
 [Input] DoesActionHaveOrigin failed. Input is disabled.\n
 [Input] DoesActionHaveOrigin failed. Origin handle invalid.\n
 [Input] DoesActionHaveOrigin failed. Error with current frame.\n
@@ -6741,7 +6753,6 @@ input/default_vive_cosmos_controller_remapping.json
 Resource input profile missing controller_type
 Resource input profile missing driver_name
 Resource input profile missing device_class
-/interaction_profiles/ext/eye_gaze_interaction
 config/legacy_bindings_knuckles_ev1.json
 config/legacy_bindings_generic.json
 config/legacy_bindings_generic_hmd.json
@@ -7227,7 +7238,7 @@ Render model %s specifies multiple diffuse texture materials. Only one diffuse t
 [Settings] %s %s unknown type\n
 [Settings] Unable to read path registry...\n
 [Settings] No or invalid additional device settings at '%s'\n
-%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x
+%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x
 [UUID] Failed to convert string to UUID
 Standing transform was not updated when writing the universe to paths
 Chaperone Universe was missing ID\n
@@ -8682,6 +8693,7 @@ XR_KHR_composition_layer_depth
 XR_KHR_visibility_mask
 XR_EXT_active_action_set_priority
 XR_EXT_dpad_binding
+XR_EXT_eye_gaze_interaction
 XR_EXT_frame_composition_report
 XR_EXT_hand_tracking
 XR_EXT_hand_tracking_data_source
@@ -10143,9 +10155,6 @@ guard variable for CVRSystemLatest::GetRuntimeVersion()::s_sVersion
 CVRSystemLatest::GetRuntimeVersion()::s_sVersion
 CVRSystemLatest::GetRuntimeVersion() (.cold)
 CVRSystemLatest::IsTrackedDeviceValid(unsigned int) (.part.0)
-ConvertHiddenAreaMesh(vr::HiddenAreaMesh_t const&, vr::EHiddenAreaMeshType, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType)
-std::_Function_handler<bool (vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&), ConvertHiddenAreaMesh(vr::HiddenAreaMesh_t const&, vr::EHiddenAreaMeshType, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType)::'lambda'(vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&)>::_M_invoke(std::_Any_data const&, vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&)
-ConvertHiddenAreaMesh(vr::HiddenAreaMesh_t const&, vr::EHiddenAreaMeshType, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType) (.cold)
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<vr::HmdVector2_t const, int>, true>>>::_M_allocate_buckets(unsigned long) (.isra.0)
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::pair<int, int> const, unsigned int>, true>>>::_M_allocate_buckets(unsigned long) (.isra.0)
 CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_FrameTiming*, unsigned int) (.cold)
@@ -10159,11 +10168,11 @@ CVRSystemLatest::PostVsyncEvent(float, unsigned long) (.cold)
 CVRSystemLatest::GetCompositorError() (.cold)
 CVRSystemLatest::GetCompositorProcessId() (.cold)
 CVRSystemLatest::GetHoverTargetOverlay() (.cold)
-CVRSystemLatest::IsSteamVRDrawingControllers() (.cold)
 CVRSystemLatest::ShouldApplicationPause() (.cold)
+CVRSystemLatest::IsSteamVRDrawingControllers() (.cold)
 CVRSystemLatest::GetDriverRecommendedRenderTargetSize(unsigned int*, unsigned int*) (.cold)
-CVRSystemLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*) (.cold)
 CVRSystemLatest::GetEyeToHeadTransformCompositorResidual(vr::EVREye) (.cold)
+CVRSystemLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*) (.cold)
 CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float) (.cold)
 CVRSystemLatest::GetDXGIOutputInfo(int*, int*) (.cold)
 CVRSystemLatest::IsDisplayOnDesktop() (.cold)
@@ -10177,10 +10186,10 @@ s_mat34Identity
 CVRSystemLatest::GetDeviceToAbsoluteTrackingPoseAtTime(vr::ETrackingUniverseOrigin, double, vr::TrackedDevicePose_t*, unsigned int, vr::IVRCompositorSystemInternal::PredictionFlags_t, bool) (.cold)
 CVRSystemLatest::GetLatestGazePoint(vr::HmdVector3_t*, vr::ETrackingUniverseOrigin) const (.cold)
 CVRSystemLatest::GetApplicationSpecificScaling() (.cold)
-CVRSystemLatest::GetProjectionRawWithScale(vr::EVREye, float*, float*, float*, float*, float, bool) (.cold)
-CVRSystemLatest::ScaleHiddenAreaMesh(vr::EVREye, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType, float, bool) (.part.0)
-CVRSystemLatest::GetApplicationSpecificFovScale(bool*) const (.cold)
+CVRSystemLatest::GetProjectionRawWithScale(vr::EVREye, float*, float*, float*, float*, CVRSystemLatest::FovScale_t const*) (.cold)
+CVRSystemLatest::GetApplicationSpecificFovScale(CVRSystemLatest::FovScale_t*) const (.cold)
 CVRSystemLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*) (.cold)
+std::_Function_handler<bool (vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&), ConvertHiddenAreaMesh(vr::HiddenAreaMesh_t const&, vr::EHiddenAreaMeshType, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType)::'lambda'(vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&)>::_M_invoke(std::_Any_data const&, vr::HiddenAreaMesh_t const&, vr::HiddenAreaMesh_t&)
 CVRSystemLatest::GetHiddenAreaMesh(vr::EVREye, vr::EHiddenAreaMeshType) (.cold)
 CVRSystemLatest::Init(vr::EVRApplicationType, CVRClient*, IVRClientInternal*, CRenderModelManager*, vr::IVRControlPanel*, vr::CVRApplicationsLatest*) (.cold)
 CVRSystemLatest::GetControllerStateWithPoseInternal(vr::ETrackingUniverseOrigin, unsigned int, vr::VRControllerState001_t*, unsigned int, vr::TrackedDevicePose_t*) (.cold)
@@ -13788,7 +13797,7 @@ std::_Function_handler<bool (XrInteractionProfileDpadBindingEXT const*), Process
 std::_Function_base::_Base_manager<ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long>>&)::'lambda'(XrInteractionProfileDpadBindingEXT const*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 typeinfo for ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long>>&)::'lambda'(XrInteractionProfileDpadBindingEXT const*)
 std::_Function_handler<XrResult (XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*), sxr_xrGetActionStateBoolean(XrSession_T*, XrActionStateGetInfo const*, XrActionStateBoolean*)::'lambda'(XrAction_T*, unsigned long, XrActionStateBoolean*, unsigned long*)>::_M_invoke(std::_Any_data const&, XrAction_T*&&, unsigned long&&, XrActionStateBoolean*&&, unsigned long*&&)
-CSWTCH.514
+CSWTCH.553
 std::_Function_handler<XrResult (XrAction_T*, unsigned long, XrActionStateFloat*, unsigned long*), sxr_xrGetActionStateFloat(XrSession_T*, XrActionStateGetInfo const*, XrActionStateFloat*)::'lambda'(XrAction_T*, unsigned long, XrActionStateFloat*, unsigned long*)>::_M_invoke(std::_Any_data const&, XrAction_T*&&, unsigned long&&, XrActionStateFloat*&&, unsigned long*&&)
 std::_Function_handler<XrResult (XrAction_T*, unsigned long, XrActionStateVector2f*, unsigned long*), sxr_xrGetActionStateVector2f(XrSession_T*, XrActionStateGetInfo const*, XrActionStateVector2f*)::'lambda'(XrAction_T*, unsigned long, XrActionStateVector2f*, unsigned long*)>::_M_invoke(std::_Any_data const&, XrAction_T*&&, unsigned long&&, XrActionStateVector2f*&&, unsigned long*&&)
 std::_Function_handler<XrResult (XrAction_T*, unsigned long, XrActionStatePose*, unsigned long*), sxr_xrGetActionStatePose(XrSession_T*, XrActionStateGetInfo const*, XrActionStatePose*)::'lambda'(XrAction_T*, unsigned long, XrActionStatePose*, unsigned long*)>::_M_invoke(std::_Any_data const&, XrAction_T*&&, unsigned long&&, XrActionStatePose*&&, unsigned long*&&)
@@ -13800,6 +13809,8 @@ void std::__insertion_sort<__gnu_cxx::__normal_iterator<CSxrActionSet**, std::ve
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>>(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, __gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>) (.isra.0)
 std::_Function_handler<bool (XrInteractionProfileAnalogThresholdVALVE const*), ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CSxrAction const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, std::set<XrActionType, std::less<XrActionType>, std::allocator<XrActionType>> const*, SuggestedBinding*)::'lambda0'(XrInteractionProfileAnalogThresholdVALVE const*)>::_M_invoke(std::_Any_data const&, XrInteractionProfileAnalogThresholdVALVE const*&&)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>>(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, __gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>)
+s_mat33Identity
+ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&) (.cold)
 CSxrAction::BuildManifestEntry() (.cold)
 sxr_xrCreateActionSpace(XrSession_T*, XrActionSpaceCreateInfo const*, XrSpace_T**) (.cold)
 guard variable for sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHead
@@ -13857,6 +13868,7 @@ g_legalInteractionProfiles
 AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t>>) (.cold)
 g_isViveTrackerProfileEnabled
 k_rDevicePaths
+g_isEyeGazeInteractionEnabled
 AddLegalInteractionProfiles() (.cold)
 IsInputPathLegal(unsigned long, std::string const&, std::string const&) (.cold)
 guard variable for GetInputPathTypes(unsigned long, unsigned long)::s_emptySet
@@ -13922,8 +13934,8 @@ std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pa
 void std::_Rb_tree<std::string, std::pair<std::string const, tinygltf::Value>, std::_Select1st<std::pair<std::string const, tinygltf::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, tinygltf::Value>>>::_M_construct_node<std::pair<std::string const, tinygltf::Value> const&>(std::_Rb_tree_node<std::pair<std::string const, tinygltf::Value>>*, std::pair<std::string const, tinygltf::Value> const&) (.isra.0)
 void std::_Rb_tree<std::string, std::pair<std::string const, tinygltf::Value>, std::_Select1st<std::pair<std::string const, tinygltf::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, tinygltf::Value>>>::_M_construct_node<std::pair<std::string const, tinygltf::Value> const&>(std::_Rb_tree_node<std::pair<std::string const, tinygltf::Value>>*, std::pair<std::string const, tinygltf::Value> const&) (.isra.0) (.cold)
 ComputeModel(std::string const&, std::vector<std::string, std::allocator<std::string>> const&, tinygltf::Model&)
-C.9.216359
-C.77.214469
+C.9.216404
+C.77.214514
 ComputeModel(std::string const&, std::vector<std::string, std::allocator<std::string>> const&, tinygltf::Model&) (.cold)
 RenderModelToGLTF::Convert(std::string const&, std::vector<std::string, std::allocator<std::string>> const&, std::ostream&) (.cold)
 _GLOBAL__sub_I_rendermodelconverter.cpp
@@ -14197,8 +14209,8 @@ CapitalizeFirstLetter(std::string const&) (.cold)
 GetInputSourceType(Json::Value const&, std::string) (.cold)
 CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&) (.cold)
 CVRInputLatest::SendCompatibilityNotification(std::string const&) (.cold)
-C.1875.372438
-C.1876.372449
+C.1875.372521
+C.1876.372532
 AddPathHandleToJson(Json::Value*, std::string const&, unsigned long) (.cold)
 CachedActionToJson(CachedActionValue_t const&, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>> const&)
 CachedActionToJson(CachedActionValue_t const&, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>> const&) (.cold)
@@ -14215,6 +14227,7 @@ CVRInputLatest::GetSkeletalTrackingLevel(unsigned long, vr::EVRSkeletalTrackingL
 CVRInputLatest::GetSkeletalBoneData(unsigned long, vr::EVRSkeletalTransformSpace, vr::EVRSkeletalMotionRange, vr::VRBoneTransform_t*, unsigned int) (.cold)
 CVRInputLatest::GetPoseModificationRestricted(unsigned long, vr::HmdMatrix34_t*, unsigned long) (.cold)
 CVRInputLatest::GetEyeTrackingDataAtTime(unsigned long, vr::ETrackingUniverseOrigin, unsigned long, vr::VREyeTrackingData_t*, unsigned int, unsigned long*) (.cold)
+CVRInputLatest::GetInputActionType(unsigned long, EInputActionType*) (.cold)
 CVRInputLatest::DoesActionHaveOrigin(unsigned long, unsigned long, bool&) (.cold)
 CVRInputLatest::IsActionBound(unsigned long) (.cold)
 CVRInputLatest::TriggerHapticVibrationAction(unsigned long, float, float, float, float, unsigned long) (.cold)
@@ -17600,15 +17613,15 @@ CVRSystemLatest::GetCompositorProcessId()
 non-virtual thunk to CVRSystemLatest::GetCompositorProcessId()
 CVRSystemLatest::GetHoverTargetOverlay()
 non-virtual thunk to CVRSystemLatest::GetHoverTargetOverlay()
-CVRSystemLatest::IsSteamVRDrawingControllers()
 CVRSystemLatest::ShouldApplicationPause()
 CVRSystemLatest::ShouldApplicationReduceRenderingWork()
+CVRSystemLatest::IsSteamVRDrawingControllers()
 CVRSystemLatest::GetDriverRecommendedRenderTargetSize(unsigned int*, unsigned int*)
 non-virtual thunk to CVRSystemLatest::GetDriverRecommendedRenderTargetSize(unsigned int*, unsigned int*)
-CVRSystemLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
-non-virtual thunk to CVRSystemLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
 CVRSystemLatest::GetEyeToHeadTransformCompositorResidual(vr::EVREye)
 non-virtual thunk to CVRSystemLatest::GetEyeToHeadTransformCompositorResidual(vr::EVREye)
+CVRSystemLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+non-virtual thunk to CVRSystemLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
 CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float)
 non-virtual thunk to CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float)
 CVRSystemLatest::GetDXGIOutputInfo(int*, int*)
@@ -17633,16 +17646,16 @@ CVRSharedState::~CVRSharedState()
 HmdMatrix_Invert(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t*)
 CVRSystemLatest::ReprojectVertices(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t const&, unsigned int, vr::HmdVector2_t const*, vr::HmdVector2_t*)
 non-virtual thunk to CVRSystemLatest::ReprojectVertices(vr::HmdMatrix44_t const&, vr::HmdMatrix44_t const&, unsigned int, vr::HmdVector2_t const*, vr::HmdVector2_t*)
-CVRSystemLatest::GetProjectionRawWithScale(vr::EVREye, float*, float*, float*, float*, float, bool)
+CVRSystemLatest::GetProjectionRawWithScale(vr::EVREye, float*, float*, float*, float*, CVRSystemLatest::FovScale_t const*)
 CVRSystemLatest::PredictRawPose(vr::HmdMatrix34_t const&, bool, double, VRTrackingState_DeviceInfo_t const&, VRTrackingState_Pose_t const&, vr::TrackedDevicePose_t*)
 CVRSystemLatest::GetZeroPoseFromDevicePose(VRTrackingState_Pose_t const&, vr::HmdMatrix34_t*) const
 CVRSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, double, unsigned int, vr::TrackedDevicePose_t*)
 CVRSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
-CVRSystemLatest::GetApplicationSpecificFovScale(bool*) const
+CVRSystemLatest::GetApplicationSpecificFovScale(CVRSystemLatest::FovScale_t*) const
 CVRSystemLatest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
 CVRSystemLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+CVRSystemLatest::ScaleHiddenAreaMesh(vr::EVREye, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType, CVRSystemLatest::FovScale_t const*)
 CVRSystemLatest::GetHiddenAreaMesh(vr::EVREye, vr::EHiddenAreaMeshType)
-CVRSystemLatest::ScaleHiddenAreaMesh(vr::EVREye, vr::HiddenAreaMesh_t&, vr::EHiddenAreaMeshType, float, bool)
 CVRSystemLatest::IsTrackedDeviceValid(unsigned int)
 CVRSystemLatest::ShouldBlockThisEventForThisProcess(vr::VREvent_t const&, unsigned long, unsigned long, unsigned int, unsigned int)
 CVRSystemLatest::ClearHiddenAreaCache()
@@ -24940,8 +24953,8 @@ non-virtual thunk to CSxrChildHandle<CSxrAction, XrAction_T*, CSxrActionSet>::~C
 non-virtual thunk to CSxrChildHandle<CSxrActionSet, XrActionSet_T*, CSxrInstance>::~CSxrChildHandle()
 CSxrChildHandle<CSxrAction, XrAction_T*, CSxrActionSet>::~CSxrChildHandle()
 CSxrChildHandle<CSxrActionSet, XrActionSet_T*, CSxrInstance>::~CSxrChildHandle()
-non-virtual thunk to CSxrChildHandle<CSxrActionSet, XrActionSet_T*, CSxrInstance>::~CSxrChildHandle()
 non-virtual thunk to CSxrChildHandle<CSxrAction, XrAction_T*, CSxrActionSet>::~CSxrChildHandle()
+non-virtual thunk to CSxrChildHandle<CSxrActionSet, XrActionSet_T*, CSxrInstance>::~CSxrChildHandle()
 CSxrActionSet::~CSxrActionSet()
 vtable for CSxrActionSet
 non-virtual thunk to CSxrActionSet::~CSxrActionSet()
@@ -24958,12 +24971,15 @@ CSxrAction::~CSxrAction()
 CSxrAction::~CSxrAction()
 non-virtual thunk to CSxrAction::~CSxrAction()
 non-virtual thunk to CSxrAction::~CSxrAction()
+HmdMatrix_LookAt(vr::HmdVector3_t const&, vr::HmdVector3_t const&)
 CSxrActionSet::Init()
 CSxrActionSet::GetOverridePriority(XrActiveActionSetPrioritiesEXT const*, CSxrActionSet*)
+ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&)
 sxr_xrDestroyActionSet(XrActionSet_T*)
 CSxrAction::Init()
 CSxrAction::GetTrackedDeviceIndexForPoseAction(unsigned long) const
 CSxrAction::GetUniverseFromPoseAction(XrSpaceLocation&, XrSpaceVelocity&, unsigned long, long, vr::ETrackingUniverseOrigin)
+CSxrAction::GetUniverseFromGazeAction(XrSpaceLocation&, unsigned long, long, vr::ETrackingUniverseOrigin, long*)
 CSxrAction::BuildManifestEntry()
 CSxrAction::BHasSubactionPath(unsigned long) const
 sxr_xrDestroyAction(XrAction_T*)
@@ -25299,7 +25315,7 @@ CSxrSpace::CSxrSpace(CSxrSession*, XrRenderModelSpaceCreateInfoEXT const*)
 CSxrSpace::CSxrSpace(CSxrSession*, XrRenderModelSpaceCreateInfoEXT const*)
 CSxrSpace::Init()
 GetUniverseFromReferenceSpace(XrSpaceLocation&, XrSpaceVelocity&, long, XrReferenceSpaceType, vr::ETrackingUniverseOrigin)
-CSxrSpace::GetUniverseFromSpace(XrSpaceLocation&, XrSpaceVelocity&, long, vr::ETrackingUniverseOrigin)
+CSxrSpace::GetUniverseFromSpace(XrSpaceLocation&, XrSpaceVelocity&, long, vr::ETrackingUniverseOrigin, XrSpaceLocation*)
 CSxrSpace::GetTrackedDeviceIndexAndPoseModification(vr::HmdMatrix34_t&) const
 sxr_xrCreateReferenceSpace(XrSession_T*, XrReferenceSpaceCreateInfo const*, XrSpace_T**)
 sxr_xrGetReferenceSpaceBoundsRect(XrSession_T*, XrReferenceSpaceType, XrExtent2Df*)
@@ -26476,17 +26492,17 @@ CVRInputLatest::GetBoneCount(unsigned long, unsigned int*)
 non-virtual thunk to CVRInputLatest::IsInTutorialMode()
 CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const
 non-virtual thunk to CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const
-std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true>>::_M_invoke(std::_Any_data const&, char&&)
 std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false>>::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, true>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true>>::_M_invoke(std::_Any_data const&, char&&)
 std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, false>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, true>>::_M_invoke(std::_Any_data const&, char&&)
 CInputFilterValueStore::GetDevicePose(vr::ETrackingUniverseOrigin, unsigned long, float, vr::TrackedDevicePose_t*)
-std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>>::_M_invoke(std::_Any_data const&, char&&)
-guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
-std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
 std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>>::_M_invoke(std::_Any_data const&, char&&)
 guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
 std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>>::_M_invoke(std::_Any_data const&, char&&)
+guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
+std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
 CVRInputLatest::GetBoneHierarchy(unsigned long, int*, unsigned int)
 CVRInputLatest::GetBoneName(unsigned long, int, char*, unsigned int)
 CVRInputLatest::GetComponentStateForBinding(char const*, char const*, vr::InputBindingInfo_t const*, unsigned int, unsigned int, vr::RenderModel_ComponentState_t*)
@@ -26579,6 +26595,8 @@ CVRInputLatest::GetPoseModificationRestricted(unsigned long, vr::HmdMatrix34_t*,
 non-virtual thunk to CVRInputLatest::GetPoseModificationRestricted(unsigned long, vr::HmdMatrix34_t*, unsigned long)
 CVRInputLatest::GetEyeTrackingDataAtTime(unsigned long, vr::ETrackingUniverseOrigin, unsigned long, vr::VREyeTrackingData_t*, unsigned int, unsigned long*)
 non-virtual thunk to CVRInputLatest::GetEyeTrackingDataAtTime(unsigned long, vr::ETrackingUniverseOrigin, unsigned long, vr::VREyeTrackingData_t*, unsigned int, unsigned long*)
+CVRInputLatest::GetInputActionType(unsigned long, EInputActionType*)
+non-virtual thunk to CVRInputLatest::GetInputActionType(unsigned long, EInputActionType*)
 CVRInputLatest::DoesActionHaveOrigin(unsigned long, unsigned long, bool&)
 non-virtual thunk to CVRInputLatest::DoesActionHaveOrigin(unsigned long, unsigned long, bool&)
 CVRInputLatest::IsActionBound(unsigned long)
@@ -44648,6 +44666,7 @@ _Unwind_Find_FDE
 __TMC_END__
 _DYNAMIC
 _GLOBAL_OFFSET_TABLE_
+strpbrk
 dl_iterate_phdr
 __wcsftime_l
 __strftime_l
@@ -44674,17 +44693,15 @@ get_nprocs
 toupper
 strncat
 fprintf
-shutdown
-listen
-bind
 putwc
 ungetwc
 ftello64
 fseeko64
 ungetc
-semop
-sched_setaffinity
 semctl
+semop
+semget
+sched_setaffinity
 isalpha
 sched_get_priority_max
 sched_get_priority_min
@@ -44693,28 +44710,31 @@ tolower
 getpriority
 __xstat64
 chdir
-chmod
+getcwd
 btowc
 wctob
 __iswctype_l
-rename
 __towlower_l
 __towupper_l
-ftell
 fseek
+ftell
+rename
+chmod
 execvp
 setsid
-popen
-getdelim
 pclose
+popen
 feof
+getdelim
+bind
+listen
+shutdown
 getpwnam_r
-mkdtemp
-wmemcmp
-getcwd
 pipe2
-rmdir
+wmemcmp
+mkdtemp
 remove
+rmdir
 wmemset
 wmemmove
 transaction clone for operator delete(void*)
@@ -44752,6 +44772,7 @@ __uselocale
 __fxstat64
 ioctl
 writev
+fileno
 fopen64
 setvbuf
 fdopen
@@ -44958,7 +44979,6 @@ vtable for __gnu_cxx::__concurrence_lock_error
 typeinfo for __cxxabiv1::__class_type_info
 typeinfo name for __cxxabiv1::__class_type_info
 pthread_cond_broadcast
-strpbrk
 recv
 pthread_cond_wait
 recvfrom
@@ -45002,7 +45022,6 @@ usleep
 dlerror
 strstr
 fork
-__cxa_finalize
 pthread_mutex_init
 dlsym
 strerror
@@ -45027,14 +45046,14 @@ __fxstat
 fflush
 strncasecmp
 pthread_mutexattr_settype
-pthread_cond_destroy
 pthread_getspecific
 dlopen
 readdir
-semget
 pthread_cond_init
+__wctype_l
 __xstat
 asinf
+pthread_cond_destroy
 pthread_getschedparam
 strtol
 wcsstr
@@ -45042,16 +45061,15 @@ sigemptyset
 syscall
 acosf
 strtoull
+pthread_cond_signal
 fgets
 pthread_attr_init
-fileno
 alphasort
 closedir
 scandir
 sched_setscheduler
 sched_getparam
 setpriority
-pthread_cond_signal
 gettimeofday
 strrchr
 nanosleep
@@ -45061,7 +45079,6 @@ pthread_setspecific
 strchr
 __stack_chk_fail
 opendir
-__wctype_l
 fclose
 getpid
 readlink
@@ -45077,11 +45094,12 @@ strcasecmp
 pthread_create
 sigprocmask
 getenv
+__cxa_finalize
 sprintf
 __cxa_atexit
 __pthread_key_create
-pthread_mutex_lock
 pthread_mutex_unlock
+pthread_mutex_lock
 frexpf
 typeinfo name for void (*)(char const*, char const*, unsigned int, bool, void*, bool*)
 typeinfo for void (char const*, char const*, unsigned int, bool, void*, bool*)
@@ -45109,16 +45127,16 @@ backtrace
 atan2f
 powf
 fmodf
-sincosf
 posix_memalign
 strtof
 strtod
-strcmp
-fwrite
 stderr
+fwrite
+strcmp
 strncmp
 vsnprintf
 strcpy
+sincosf
 pthread_mutex_timedlock
 pthread_setname_np
 strlen
