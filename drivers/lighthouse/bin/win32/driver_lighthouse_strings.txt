@@ -3955,7 +3955,8 @@ Index out-of-bounds (field is empty).
 (In Legacy Hub)
 (Enumerating)
 (Reset)
-RSDS2J
+RSDS
+nhbH
 c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\Retail_lighthouse\win32\2017\driver_lighthouse.pdb
 .text
 .text$di

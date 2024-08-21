@@ -1,10 +1,9 @@
 tl_pWatchdog
 tl_pLeafSharedState
-strpbrk
+dl_iterate_phdr
 GLIBC_2.2.5
 libc.so.6
 ./obj_vrclient_linux64/release/vrclient.so
-dl_iterate_phdr
 __wcsftime_l
 GLIBC_2.3
 __strftime_l
@@ -19,7 +18,6 @@ __duplocale
 __freelocale
 __newlocale
 strtold_l
-__strtod_l
 __strtof_l
 typeinfo name for __cxxabiv1::__pointer_to_member_type_info
 vtable for __cxxabiv1::__pointer_to_member_type_info
@@ -44,8 +42,8 @@ putc
 ungetc
 getc
 semctl
-semop
 semget
+semop
 sched_setaffinity
 GLIBC_2.3.4
 isalpha
@@ -55,34 +53,35 @@ bindtextdomain
 tolower
 getpriority
 __xstat64
-chdir
-getcwd
+rmdir
+remove
 btowc
 wctob
+chdir
 __iswctype_l
 __towlower_l
+getcwd
 __towupper_l
-fseek
+__wctype_l
 ftell
-rename
+fseek
 chmod
-execvp
+rename
 setsid
+execvp
 pclose
-popen
 feof
+popen
 getdelim
-bind
-listen
 shutdown
+listen
+bind
 getpwnam_r
 kill
+wmemcmp
 pipe2
 GLIBC_2.9
-wmemcmp
 mkdtemp
-remove
-rmdir
 wmemset
 wmemmove
 transaction clone for operator delete(void*)
@@ -358,16 +357,16 @@ shm_open
 librt.so.1
 shm_unlink
 pthread_setschedparam
-pthread_cancel
+strpbrk
 sched_yield
 fputs
 dladdr
 libdl.so.2
 abort
 modf
-strftime
 mktime
 localtime
+strftime
 __snprintf_chk
 munmap
 ftruncate
@@ -386,15 +385,15 @@ pthread_mutex_init
 dlsym
 strerror
 getrlimit
-__fprintf_chk
 strtoul
 unsetenv
 pthread_join
 sysconf
 fopen
 open
+pthread_cancel
+pthread_cond_destroy
 waitpid
-pthread_cond_timedwait
 pthread_self
 memmove
 poll
@@ -413,13 +412,12 @@ pthread_getspecific
 dlopen
 readdir
 pthread_cond_init
-__wctype_l
 __xstat
 asinf
-pthread_cond_destroy
 pthread_getschedparam
 memcpy
 GLIBC_2.14
+__strtod_l
 strtol
 wcsstr
 sigemptyset
@@ -434,6 +432,7 @@ read
 alphasort
 closedir
 close
+__fprintf_chk
 scandir
 memset
 sched_setscheduler
@@ -450,6 +449,7 @@ __stack_chk_fail
 GLIBC_2.4
 opendir
 fclose
+pthread_cond_timedwait
 getpid
 write
 setenv
@@ -473,8 +473,8 @@ sprintf
 __cxa_atexit
 __pthread_key_create
 pthread_mutex_unlock
-malloc
 pthread_mutex_lock
+malloc
 free
 frexpf
 typeinfo name for void (*)(char const*, char const*, unsigned int, bool, void*, bool*)
@@ -511,9 +511,9 @@ exit
 posix_memalign
 strtof
 strtod
-stderr
-fwrite
 strcmp
+fwrite
+stderr
 strncmp
 vsnprintf
 strcpy
@@ -2385,8 +2385,8 @@ Executable: %s\n
 SteamAPI_SetBreakpadAppID
 SteamAPI_SetMiniDumpComment
 SteamAPI_WriteMiniDump
-21:55:21
-Aug 16 2024
+01:23:57
+Aug 21 2024
 XDG_CONFIG_HOME
 .config
 openvr
@@ -4820,16 +4820,16 @@ Failed to init vulkan binding: renderer init error\n
 This is legal spec behavior but is probably broken in Vulkan due to barrier transition taking place in acquire.
 Failed to create vk swapchain image: Unsupported number of faces: %d\n
 Failed to create vk swapchain image: failed to create %d\n
+SetHandLocationsInactive: locations was nullptr
 /data/src/vrclient/openxr_hand_tracker.cpp
 static const uint32_t CAnimResource::MyTypeID()
 XR_EXT_hand_tracking_data_source
 xrCreateHandTracker: Requested data source count was 0
 xrCreateHandTrackerEXT: Data source was duplicated
 nChildIndex != vr::k_unInvalidBoneIndex
-xrLocateHandJoints: Time was invalid.
-xrLocateHandJoints: Failed to get skeletal tracking level for hand
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 XR_EXT_hand_joints_motion_range
+xrLocateHandJoints: Time was invalid
 /data/src/vrclient/openxr_input.cpp
 sxr_xrGetCurrentInteractionProfile
 sxr_xrEnumerateBoundSourcesForAction
@@ -4972,6 +4972,9 @@ sxr_xrEnumerateRenderModelSubactionPathsEXT
 [xrRenderModel] Component was not a render model component: %s. Skipping.
 [xrRenderModel] Initializing render model for %s with %lu nodes
 [xrRenderModel] failed to initialize xrRenderModelEXT
+[xrRenderModel] renderModelIdCountOutput was nullptr
+sxr_xrEnumerateInteractionRenderModelIdsEXT
+[xrRenderModel] Attempted to enumerate, but there aren't any attached action sets
 [xrRenderModel] Failed to compute crc as the render model was not loaded.
 [xrRenderModel] Asset was not loaded in memory when trying to retrieve data
 [xrRenderModel] %s: nodePropertyCount was not equal to animatableNodeCount (was %i, expected %lu)
@@ -13769,8 +13772,10 @@ CSxrSwapchainVulkanOpenVR::Init() (.cold)
 CSxrGraphicsBindingVulkanOpenVR::CSxrGraphicsBindingVulkanOpenVR(CSxrInstance*, XrGraphicsBindingVulkanKHR const*, CSxrCompositorOpenVR*) (.cold)
 _GLOBAL__sub_I_openxr_graphics_vulkan_openvr.cpp
 _GLOBAL__sub_I_openxr_graphics_vulkan_openvr.cpp.cold
+SetAllHandJointLocationsInactive(XrHandJointLocationsEXT*)
 CSxrHandTrackerEXT::CSxrHandTrackerEXT(CSxrSession*, XrHandTrackerCreateInfoEXT const*) (.cold)
 k_flJointRadii
+CSxrHandTrackerEXT::LocateJoints(XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*) (.part.0)
 sxr_xrCreateHandTrackerEXT(XrSession_T*, XrHandTrackerCreateInfoEXT const*, XrHandTrackerEXT_T**) (.cold)
 _GLOBAL__sub_I_openxr_hand_tracker.cpp
 _GLOBAL__sub_I_openxr_hand_tracker.cpp.cold
@@ -13876,7 +13881,6 @@ GetInputPathTypes(unsigned long, unsigned long)::s_emptySet
 _GLOBAL__sub_I_openxr_interaction_profiles.cpp
 _GLOBAL__sub_I_openxr_interaction_profiles.cpp.cold
 sxr_xrCreateRenderModelSpaceEXT(XrSession_T*, XrRenderModelSpaceCreateInfoEXT const*, XrSpace_T**) (.cold)
-sxr_xrEnumerateInteractionRenderModelIdsEXT(XrSession_T*, XrInteractionRenderModelIdsEnumerateInfoEXT const*, unsigned int, unsigned int*, unsigned long*) (.cold)
 CSxrRenderModelEXT::CSxrRenderModelEXT(CSxrSession*, XrRenderModelCreateInfoEXT const*) (.cold)
 CSxrRenderModelEXT::GetInfo(XrRenderModelPropertiesGetInfoEXT const*, XrRenderModelPropertiesEXT*) (.cold)
 CSxrRenderModelAssetEXT::CSxrRenderModelAssetEXT(CSxrSession*, XrRenderModelAssetCreateInfoEXT const*) (.cold)
@@ -13884,6 +13888,7 @@ sxr_xrCreateRenderModelAssetEXT(XrSession_T*, XrRenderModelAssetCreateInfoEXT co
 CSxrRenderModelEXT::GetRelatedSubactionPaths(XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*) (.cold)
 CSxrRenderModelEXT::Init() (.cold)
 sxr_xrCreateRenderModelEXT(XrSession_T*, XrRenderModelCreateInfoEXT const*, XrRenderModelEXT_T**) (.cold)
+sxr_xrEnumerateInteractionRenderModelIdsEXT(XrSession_T*, XrInteractionRenderModelIdsEnumerateInfoEXT const*, unsigned int, unsigned int*, unsigned long*) (.cold)
 _GLOBAL__sub_I_openxr_render_model.cpp
 _GLOBAL__sub_I_openxr_render_model.cpp.cold
 CSXrBackingRenderModelAsset::GetData(XrRenderModelAssetDataEXT*) (.cold)
@@ -13934,8 +13939,8 @@ std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pa
 void std::_Rb_tree<std::string, std::pair<std::string const, tinygltf::Value>, std::_Select1st<std::pair<std::string const, tinygltf::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, tinygltf::Value>>>::_M_construct_node<std::pair<std::string const, tinygltf::Value> const&>(std::_Rb_tree_node<std::pair<std::string const, tinygltf::Value>>*, std::pair<std::string const, tinygltf::Value> const&) (.isra.0)
 void std::_Rb_tree<std::string, std::pair<std::string const, tinygltf::Value>, std::_Select1st<std::pair<std::string const, tinygltf::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, tinygltf::Value>>>::_M_construct_node<std::pair<std::string const, tinygltf::Value> const&>(std::_Rb_tree_node<std::pair<std::string const, tinygltf::Value>>*, std::pair<std::string const, tinygltf::Value> const&) (.isra.0) (.cold)
 ComputeModel(std::string const&, std::vector<std::string, std::allocator<std::string>> const&, tinygltf::Model&)
-C.9.216404
-C.77.214514
+C.9.216409
+C.77.214519
 ComputeModel(std::string const&, std::vector<std::string, std::allocator<std::string>> const&, tinygltf::Model&) (.cold)
 RenderModelToGLTF::Convert(std::string const&, std::vector<std::string, std::allocator<std::string>> const&, std::ostream&) (.cold)
 _GLOBAL__sub_I_rendermodelconverter.cpp
@@ -14209,8 +14214,8 @@ CapitalizeFirstLetter(std::string const&) (.cold)
 GetInputSourceType(Json::Value const&, std::string) (.cold)
 CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&) (.cold)
 CVRInputLatest::SendCompatibilityNotification(std::string const&) (.cold)
-C.1875.372521
-C.1876.372532
+C.1875.372529
+C.1876.372540
 AddPathHandleToJson(Json::Value*, std::string const&, unsigned long) (.cold)
 CachedActionToJson(CachedActionValue_t const&, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>> const&)
 CachedActionToJson(CachedActionValue_t const&, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>> const&) (.cold)
@@ -14274,6 +14279,7 @@ CVRInputLatest::BGetInputOptionString(unsigned long, std::string const&) (.cold)
 CVRInputLatest::GetBindingVariant(unsigned long, char*, unsigned int) (.cold)
 CVRControllerTypeBindings::AddAction(CInputActionSet*, std::string const&, std::string const&, EInputActionType) (.cold)
 CVRControllerTypeBindings::GetBindingInfo(unsigned long) const (.cold)
+CVRInputLatest::GetBoundDevicesClasses() (.cold)
 CVRInputLatest::ShowBindingsForActionSet(vr::VRActiveActionSet_t*, unsigned int, unsigned int, unsigned long) (.cold)
 CVRInputLatest::GetActionBindingInfo(unsigned long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*) (.cold)
 CVRInputLatest::GetInputValue(std::shared_ptr<CVRInputLatest::InputFrame_t>, unsigned long, int, VRInputValue_t*, bool*) (.cold)
@@ -25074,12 +25080,12 @@ CSxrDispatchableHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*>::~CSxrDispatchab
 CSxrChildHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*, CSxrSession>::~CSxrChildHandle()
 vtable for CSxrChildHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*, CSxrSession>
 CSxrChildHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*, CSxrSession>::~CSxrChildHandle()
-non-virtual thunk to CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>::~CSxrChildHandle()
 non-virtual thunk to CSxrChildHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*, CSxrSession>::~CSxrChildHandle()
-CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>::~CSxrChildHandle()
+non-virtual thunk to CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>::~CSxrChildHandle()
 CSxrChildHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*, CSxrSession>::~CSxrChildHandle()
-non-virtual thunk to CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>::~CSxrChildHandle()
+CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>::~CSxrChildHandle()
 non-virtual thunk to CSxrChildHandle<CSxrRenderModelEXT, XrRenderModelEXT_T*, CSxrSession>::~CSxrChildHandle()
+non-virtual thunk to CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>::~CSxrChildHandle()
 CSxrRenderModelAssetEXT::~CSxrRenderModelAssetEXT()
 vtable for CSxrRenderModelAssetEXT
 non-virtual thunk to CSxrRenderModelAssetEXT::~CSxrRenderModelAssetEXT()
@@ -25106,7 +25112,6 @@ sxr_xrDestroyRenderModelAssetEXT(XrRenderModelAssetEXT_T*)
 sxr_xrGetRenderModelAssetDataEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetDataGetInfoEXT const*, XrRenderModelAssetDataEXT*)
 sxr_xrGetRenderModelAssetPropertiesEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetPropertiesGetInfoEXT const*, XrRenderModelAssetPropertiesEXT*)
 sxr_xrGetRenderModelStateEXT(XrRenderModelEXT_T*, XrRenderModelStateGetInfoEXT const*, XrRenderModelStateEXT*)
-sxr_xrEnumerateInteractionRenderModelIdsEXT(XrSession_T*, XrInteractionRenderModelIdsEnumerateInfoEXT const*, unsigned int, unsigned int*, unsigned long*)
 CSxrRenderModelEXT::CSxrRenderModelEXT(CSxrSession*, XrRenderModelCreateInfoEXT const*)
 CSxrRenderModelEXT::CSxrRenderModelEXT(CSxrSession*, XrRenderModelCreateInfoEXT const*)
 CSxrRenderModelEXT::GetInfo(XrRenderModelPropertiesGetInfoEXT const*, XrRenderModelPropertiesEXT*)
@@ -25120,8 +25125,11 @@ CSxrRenderModelAssetEXT::CSxrRenderModelAssetEXT(CSxrSession*, XrRenderModelAsse
 sxr_xrCreateRenderModelAssetEXT(XrSession_T*, XrRenderModelAssetCreateInfoEXT const*, XrRenderModelAssetEXT_T**)
 CSxrRenderModelEXT::GetRelatedSubactionPaths(XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*)
 sxr_xrEnumerateRenderModelSubactionPathsEXT(XrRenderModelEXT_T*, XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*)
+std::_Rb_tree<vr::ETrackedDeviceClass, vr::ETrackedDeviceClass, std::_Identity<vr::ETrackedDeviceClass>, std::less<vr::ETrackedDeviceClass>, std::allocator<vr::ETrackedDeviceClass>>::_M_erase(std::_Rb_tree_node<vr::ETrackedDeviceClass>*)
 CSxrRenderModelEXT::Init()
 sxr_xrCreateRenderModelEXT(XrSession_T*, XrRenderModelCreateInfoEXT const*, XrRenderModelEXT_T**)
+void std::vector<unsigned long, std::allocator<unsigned long>>::_M_realloc_insert<unsigned long>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long>>>, unsigned long&&)
+sxr_xrEnumerateInteractionRenderModelIdsEXT(XrSession_T*, XrInteractionRenderModelIdsEnumerateInfoEXT const*, unsigned int, unsigned int*, unsigned long*)
 typeinfo name for CSxrDispatchableHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*>
 typeinfo for CSxrDispatchableHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*>
 typeinfo name for CSxrChildHandle<CSxrRenderModelAssetEXT, XrRenderModelAssetEXT_T*, CSxrSession>
@@ -26494,8 +26502,8 @@ CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const
 non-virtual thunk to CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const
 std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, false>>::_M_invoke(std::_Any_data const&, char&&)
 std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, true, true, true>>::_M_invoke(std::_Any_data const&, char&&)
-std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, false>>::_M_invoke(std::_Any_data const&, char&&)
 std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, true>>::_M_invoke(std::_Any_data const&, char&&)
+std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, false>>::_M_invoke(std::_Any_data const&, char&&)
 CInputFilterValueStore::GetDevicePose(vr::ETrackingUniverseOrigin, unsigned long, float, vr::TrackedDevicePose_t*)
 std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>>::_M_invoke(std::_Any_data const&, char&&)
 guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
@@ -26642,6 +26650,8 @@ void std::vector<vr::InputBindingInfo_t, std::allocator<vr::InputBindingInfo_t>>
 CVRControllerTypeBindings::GetBindingInfo(unsigned long) const
 std::_Rb_tree<vr::ETrackedDeviceProperty, std::pair<vr::ETrackedDeviceProperty const, std::string>, std::_Select1st<std::pair<vr::ETrackedDeviceProperty const, std::string>>, std::less<vr::ETrackedDeviceProperty>, std::allocator<std::pair<vr::ETrackedDeviceProperty const, std::string>>>::_M_erase(std::_Rb_tree_node<std::pair<vr::ETrackedDeviceProperty const, std::string>>*)
 std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::find(std::string const&) const
+CVRInputLatest::GetBoundDevicesClasses()
+non-virtual thunk to CVRInputLatest::GetBoundDevicesClasses()
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_SetActionManifestPathResponse>(unsigned int, unsigned int, CVRMsg_Input_SetActionManifestPathResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_GetActionBindingsResponse>(unsigned int, unsigned int, CVRMsg_Input_GetActionBindingsResponse&, unsigned int)
 void std::vector<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>, std::allocator<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>>>::_M_realloc_insert<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>>(__gnu_cxx::__normal_iterator<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>*, std::vector<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>, std::allocator<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>>>>, std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>&&)
@@ -26799,20 +26809,20 @@ std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char con
 void std::vector<std::regex_traits<char>::_RegexMask, std::allocator<std::regex_traits<char>::_RegexMask>>::_M_realloc_insert<std::regex_traits<char>::_RegexMask const&>(__gnu_cxx::__normal_iterator<std::regex_traits<char>::_RegexMask*, std::vector<std::regex_traits<char>::_RegexMask, std::allocator<std::regex_traits<char>::_RegexMask>>>, std::regex_traits<char>::_RegexMask const&)
 __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>> std::__unique<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__ops::_Iter_equal_to_iter)
 std::vector<char, std::allocator<char>>::_M_erase(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>)
-typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>
 typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>
+typeinfo for std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>
 std::_Deque_base<long, std::allocator<long>>::_M_initialize_map(unsigned long)
 bool std::binary_search<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char>>>, char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char>>>, char const&)
 std::regex_traits<char>::isctype(char, std::regex_traits<char>::_RegexMask) const
-std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_dfs(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_Match_mode, long)
-std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_rep_once_more(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_Match_mode, long)
-std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_is_word(char) const::__s
-std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_lookahead(long)
 std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, false>::_M_dfs(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, false>::_Match_mode, long)
 std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, false>::_M_rep_once_more(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, false>::_Match_mode, long)
 std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, false>::_M_is_word(char) const::__s
 std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, false>::_M_lookahead(long)
 std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, false>::_M_main_dispatch(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, false>::_Match_mode, std::integral_constant<bool, false>)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_dfs(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_Match_mode, long)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_rep_once_more(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_Match_mode, long)
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_is_word(char) const::__s
+std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_lookahead(long)
 bool std::__detail::__regex_algo_impl<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, char, std::regex_traits<char>, (std::__detail::_RegexExecutorPolicy)0, false>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::match_results<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>>&, std::basic_regex<char, std::regex_traits<char>> const&, std::regex_constants::match_flag_type)
 std::regex_iterator<__gnu_cxx::__normal_iterator<char const*, std::string>, char, std::regex_traits<char>>::operator++()
 std::back_insert_iterator<std::string> std::regex_replace<std::back_insert_iterator<std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::regex_traits<char>, char>(std::back_insert_iterator<std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::basic_regex<char, std::regex_traits<char>> const&, char const*, std::regex_constants::match_flag_type)
@@ -26843,12 +26853,12 @@ void std::__introsort_loop<__gnu_cxx::__normal_iterator<char*, std::vector<char,
 std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>::_M_ready()
 void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<false, true>()
 void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<false, true>(bool)
-std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::_M_ready()
-void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<true, true>()
-void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<true, true>(bool)
 std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>::_M_ready()
 void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<false, false>()
 void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<false, false>(bool)
+std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::_M_ready()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<true, true>()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<true, true>(bool)
 std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>::_M_ready()
 void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<true, false>()
 void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<true, false>(bool)
@@ -36960,7 +36970,6 @@ std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::vector<PathHand
 void std::vector<vr::PathHandleDebugInfo_t, std::allocator<vr::PathHandleDebugInfo_t>>::_M_realloc_insert<vr::PathHandleDebugInfo_t const&>(__gnu_cxx::__normal_iterator<vr::PathHandleDebugInfo_t*, std::vector<vr::PathHandleDebugInfo_t, std::allocator<vr::PathHandleDebugInfo_t>>>, vr::PathHandleDebugInfo_t const&)
 CPathManager_Server::GetAllPathHandles() const
 non-virtual thunk to CPathManager_Server::GetAllPathHandles() const
-void std::vector<unsigned long, std::allocator<unsigned long>>::_M_realloc_insert<unsigned long>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long>>>, unsigned long&&)
 unsigned long& std::vector<unsigned long, std::allocator<unsigned long>>::emplace_back<unsigned long>(unsigned long&&)
 void std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t>>::_M_range_insert<__gnu_cxx::__normal_iterator<vr::PathRead_t*, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t>>>>(__gnu_cxx::__normal_iterator<vr::PathRead_t*, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t>>>, __gnu_cxx::__normal_iterator<vr::PathRead_t*, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t>>>, __gnu_cxx::__normal_iterator<vr::PathRead_t*, std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t>>>, std::forward_iterator_tag)
 void std::vector<vr::PathWrite_t, std::allocator<vr::PathWrite_t>>::_M_range_insert<__gnu_cxx::__normal_iterator<vr::PathWrite_t*, std::vector<vr::PathWrite_t, std::allocator<vr::PathWrite_t>>>>(__gnu_cxx::__normal_iterator<vr::PathWrite_t*, std::vector<vr::PathWrite_t, std::allocator<vr::PathWrite_t>>>, __gnu_cxx::__normal_iterator<vr::PathWrite_t*, std::vector<vr::PathWrite_t, std::allocator<vr::PathWrite_t>>>, __gnu_cxx::__normal_iterator<vr::PathWrite_t*, std::vector<vr::PathWrite_t, std::allocator<vr::PathWrite_t>>>, std::forward_iterator_tag)
@@ -44666,7 +44675,6 @@ _Unwind_Find_FDE
 __TMC_END__
 _DYNAMIC
 _GLOBAL_OFFSET_TABLE_
-strpbrk
 dl_iterate_phdr
 __wcsftime_l
 __strftime_l
@@ -44681,7 +44689,6 @@ __duplocale
 __freelocale
 __newlocale
 strtold_l
-__strtod_l
 __strtof_l
 typeinfo name for __cxxabiv1::__pointer_to_member_type_info
 vtable for __cxxabiv1::__pointer_to_member_type_info
@@ -44699,8 +44706,8 @@ ftello64
 fseeko64
 ungetc
 semctl
-semop
 semget
+semop
 sched_setaffinity
 isalpha
 sched_get_priority_max
@@ -44709,32 +44716,33 @@ bindtextdomain
 tolower
 getpriority
 __xstat64
-chdir
-getcwd
+rmdir
+remove
 btowc
 wctob
+chdir
 __iswctype_l
 __towlower_l
+getcwd
 __towupper_l
-fseek
+__wctype_l
 ftell
-rename
+fseek
 chmod
-execvp
+rename
 setsid
+execvp
 pclose
-popen
 feof
+popen
 getdelim
-bind
-listen
 shutdown
+listen
+bind
 getpwnam_r
-pipe2
 wmemcmp
+pipe2
 mkdtemp
-remove
-rmdir
 wmemset
 wmemmove
 transaction clone for operator delete(void*)
@@ -45003,13 +45011,13 @@ strncpy
 shm_open
 shm_unlink
 pthread_setschedparam
-pthread_cancel
+strpbrk
 sched_yield
 fputs
 dladdr
-strftime
 mktime
 localtime
+strftime
 __snprintf_chk
 munmap
 ftruncate
@@ -45026,14 +45034,14 @@ pthread_mutex_init
 dlsym
 strerror
 getrlimit
-__fprintf_chk
 strtoul
 unsetenv
 pthread_join
 sysconf
 fopen
+pthread_cancel
+pthread_cond_destroy
 waitpid
-pthread_cond_timedwait
 pthread_self
 poll
 setrlimit
@@ -45050,11 +45058,10 @@ pthread_getspecific
 dlopen
 readdir
 pthread_cond_init
-__wctype_l
 __xstat
 asinf
-pthread_cond_destroy
 pthread_getschedparam
+__strtod_l
 strtol
 wcsstr
 sigemptyset
@@ -45066,6 +45073,7 @@ fgets
 pthread_attr_init
 alphasort
 closedir
+__fprintf_chk
 scandir
 sched_setscheduler
 sched_getparam
@@ -45080,6 +45088,7 @@ strchr
 __stack_chk_fail
 opendir
 fclose
+pthread_cond_timedwait
 getpid
 readlink
 atanf
@@ -45130,9 +45139,9 @@ fmodf
 posix_memalign
 strtof
 strtod
-stderr
-fwrite
 strcmp
+fwrite
+stderr
 strncmp
 vsnprintf
 strcpy
@@ -45197,3 +45206,4 @@ _ITM_deregisterTMCloneTable
 __gmon_start__
 GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
 GCC: (Ubuntu 4.8.4-1ubuntu15~12.04+steamrt1+srt2) 4.8.4
+3o{a0

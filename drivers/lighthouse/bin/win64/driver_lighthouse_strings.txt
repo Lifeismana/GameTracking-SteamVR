@@ -404,6 +404,7 @@ PRISM_RegisterMotionEstimatorSubsystem
 PRISM_GetMotionEstimatorSubsystems
 PRISM_CreateMotionEstimator
 PRISM_DestroyMotionEstimator
+ITrackedDeviceServerDriver_
 IVRServer_XXX
 IVRSystemLayerInternal_XXX
 IVRChaperoneInternal_001
@@ -465,7 +466,6 @@ vector<T> too long
 /lighthouse/depthAugmentedPassthrough/meshIsUpToDate
 {\n\t\t"useBackgroundProcessingForFullDepthEstimation": true,\n\t\t"initialDepthAlgo": "StereoSGBM",\n\t\t"sparseDepthCleaningAlgo": "None",\n\t\t"useRawDepthHistory" : true,\n\t\t"useMaskOnTheBorders" : true,\n\t\t"sgbm":\n\t\t{\n\t\t\t"SADWindowSize": 9,\n\t\t\t"preFilterCap": 63,\n\t\t\t"disp12MaxDiff": 0, // left <> right check disabled\n\t\t\t"P1": 0,\n\t\t\t"P2": 0,\n\t\t\t"speckleRange": 1,\n\t\t\t"speckleWindowSize": 200,\n\t\t\t"uniquenessRatio": 20,\n\t\t},\n\t\t"postprocesssingFilter":"HardwareFriendlyBilateral",\n\t\t"hardwareFriendlyBilateralSolver": {\n\t\t\t"temporalConsistentStrategy":"WithoutBlurWhenStillNoneWhenMoving",\n\t\t\t"preventInitialValuesToChangeDuringOptimization": true,\n\t\t\t"closeDepthStrategy": "SmartDilatationOfClosDepth",\n\t\t\t"keepInputDepthValues": true, \n\t\t},\n\t\t"controllerRenderingType":"GPU",\n\t\t"addDilatedController": "onTopOfWarpedFrame",\n\t\t"postProcessingStrategy":"None",\n\t}
 {\n\t\t"useBackgroundProcessingForFullDepthEstimation": true,\n\t\t"initialDepthAlgo": "StereoSGBM",\n\t\t"sparseDepthCleaningAlgo": "None",\n\t\t"useRawDepthHistory" : true,\n\t\t"fillRightDepthFrame" : true,\n\t\t"sgbm":\n\t\t{\n\t\t\t"SADWindowSize": 9,\n\t\t\t"preFilterCap": 63,\n\t\t\t"disp12MaxDiff": 0, // left <> right check disabled\n\t\t\t"P1": 0,\n\t\t\t"P2": 0,\n\t\t\t"speckleRange": 1,\n\t\t\t"speckleWindowSize": 200,\n\t\t\t"uniquenessRatio": 20,\n\t\t},\n\t\t"postprocesssingFilter":"HardwareFriendlyBilateral",\n\t\t"hardwareFriendlyBilateralSolver": {\n\t\t\t"temporalConsistentStrategy":"WithoutBlurWhenStillNoneWhenMoving",\n\t\t\t"preventInitialValuesToChangeDuringOptimization": true,\n\t\t\t"closeDepthStrategy": "SmartDilatationOfClosDepth",\n\t\t\t"keepInputDepthValues": true, \n\t\t},\n\t\t"controllerRenderingType":"GPU",\n\t\t"addDilatedController": "onTopOfWarpedFrame",\n\t\t"postProcessingStrategy":"None",\n\t}
-ITrackedDeviceServerDriver_
 IVRProperties_001
 [DepthAugmentedPassthrough] : Object is destroyed \n
 [DepthAugmentedPassthrough] : Object is created \n
@@ -5274,7 +5274,6 @@ Index out-of-bounds (field is empty).
 (Enumerating)
 (Reset)
 RSDS
-@\fAK
 c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
 .text
 .text$di

@@ -1,46 +1,45 @@
 tl_pWatchdog
 tl_pLeafSharedState
-localtime
+setsid
 GLIBC_2.0
 libc.so.6
 ./obj_vrclient_linux32/release/vrclient.so
 mktime
-strftime
+localtime
 sched_get_priority_max
-listen
-__stack_chk_fail
-GLIBC_2.4
+sched_setaffinity
+GLIBC_2.3.4
 pipe2
 GLIBC_2.9
 tolower
-setsid
-popen
-GLIBC_2.1
-feof
-pclose
 execvp
+feof
 getdelim
+pclose
+GLIBC_2.1
+getpriority
 semop
 semget
 isalpha
-__xstat64
-GLIBC_2.2
-getpriority
 semctl
-sched_get_priority_min
+GLIBC_2.2
 bind
-fprintf
+sched_get_priority_min
+listen
 shutdown
+dl_iterate_phdr
+GLIBC_2.2.4
+fprintf
 getcwd
 chdir
 ftell
 mkdtemp
 fseek
-chmod
 rename
+chmod
 kill
-remove
 rmdir
+remove
 strpbrk
 __wcsftime_l
 GLIBC_2.3
@@ -73,7 +72,6 @@ putwc
 ungetwc
 getwc
 ftello64
-fseeko64
 putc
 ungetc
 getc
@@ -328,10 +326,9 @@ recv
 pthread_once
 sendto
 pthread_key_delete
-pthread_cond_wait
-GLIBC_2.3.2
 recvmsg
 pthread_cond_broadcast
+GLIBC_2.3.2
 lseek64
 system
 accept
@@ -345,19 +342,14 @@ rewind
 time
 ___tls_get_addr
 ld-linux.so.2
-shm_unlink
-librt.so.1
-shm_open
 pthread_setschedparam
+pthread_cancel
 fputs
 abort
 dladdr
 libdl.so.2
 sched_yield
 __snprintf_chk
-GLIBC_2.3.4
-dl_iterate_phdr
-GLIBC_2.2.4
 munmap
 ftruncate
 mmap
@@ -375,24 +367,26 @@ close
 pthread_getspecific
 strtol
 strncmp
-pthread_detach
 sigaction
 clock_gettime
+librt.so.1
+pthread_detach
 pthread_create
 __fprintf_chk
 nanosleep
 dlopen
 sched_getscheduler
 alphasort
+pthread_join
 sscanf
+pthread_cond_destroy
 strrchr
 pthread_setspecific
-pthread_cancel
 pthread_cond_timedwait
 readdir
+popen
 sigemptyset
 fork
-pthread_join
 pthread_attr_setstacksize
 strncasecmp
 scandir
@@ -413,52 +407,58 @@ strerror
 __fxstat
 puts
 setpriority
+pthread_cond_wait
 malloc
+strftime
 setrlimit
 getenv
+pthread_cond_signal
 __cxa_atexit
 GLIBC_2.1.3
 sched_getparam
-pthread_cond_signal
 getpid
+fread
 usleep
 waitpid
+__xstat64
 pthread_getschedparam
+shm_open
 fwrite
 poll
 __xstat
 __cxa_finalize
 readlink
+__stack_chk_fail
+GLIBC_2.4
 pthread_mutex_lock
 dlerror
 getrlimit
 sysconf
+shm_unlink
 dlclose
 pthread_key_create
 gettimeofday
-fread
 fclose
 pthread_mutex_init
 fgets
 pthread_self
+fseeko64
 free
 memmove
 sigprocmask
 _exit
 stderr
 fflush
-pthread_cond_destroy
 pthread_mutex_destroy
 read
 strcmp
 pthread_mutexattr_init
-sched_setaffinity
 pthread_attr_init
 pthread_mutex_unlock
 unsetenv
 sprintf
-memset
 memcpy
+memset
 frexpf
 typeinfo name for void (*)(char const*, char const*, unsigned int, bool, void*, bool*)
 typeinfo for void (char const*, char const*, unsigned int, bool, void*, bool*)
@@ -469,9 +469,9 @@ strspn
 strtoll
 localeconv
 isalnum
-memcmp
 strlen
 calloc
+memcmp
 realloc
 qsort
 getpwnam_r
@@ -495,8 +495,8 @@ backtrace
 powf
 GLIBC_2.27
 fmodf
-strncat
 strncpy
+strncat
 exit
 posix_memalign
 strtof
@@ -1920,8 +1920,8 @@ Executable: %s\n
 SteamAPI_SetBreakpadAppID
 SteamAPI_SetMiniDumpComment
 SteamAPI_WriteMiniDump
-21:55:15
-Aug 16 2024
+01:26:48
+Aug 21 2024
 XDG_CONFIG_HOME
 .config
 openvr
@@ -11942,8 +11942,8 @@ CapitalizeFirstLetter(std::string const&) (.cold)
 GetInputSourceType(Json::Value const&, std::string) (.cold)
 CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&) (.cold)
 CVRInputLatest::SendCompatibilityNotification(std::string const&) (.cold)
-C.1891.373752
-C.1892.373763
+C.1891.373760
+C.1892.373771
 AddPathHandleToJson(Json::Value*, std::string const&, unsigned long long) (.cold)
 CachedActionToJson(CachedActionValue_t const&, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>> const&)
 CachedActionToJson(CachedActionValue_t const&, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>> const&) (.cold)
@@ -12007,6 +12007,7 @@ CVRInputLatest::BGetInputOptionString(unsigned long long, std::string const&) (.
 CVRInputLatest::GetBindingVariant(unsigned long long, char*, unsigned int) (.cold)
 CVRControllerTypeBindings::AddAction(CInputActionSet*, std::string const&, std::string const&, EInputActionType) (.cold)
 CVRControllerTypeBindings::GetBindingInfo(unsigned long long) const (.cold)
+CVRInputLatest::GetBoundDevicesClasses() (.cold)
 CVRInputLatest::ShowBindingsForActionSet(vr::VRActiveActionSet_t*, unsigned int, unsigned int, unsigned long long) (.cold)
 CVRInputLatest::GetActionBindingInfo(unsigned long long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*) (.cold)
 std::_Rb_tree_iterator<std::pair<unsigned long long const, VRInputValue_t>> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, VRInputValue_t>, std::_Select1st<std::pair<unsigned long long const, VRInputValue_t>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, VRInputValue_t>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long long const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<unsigned long long const, VRInputValue_t>>, std::piecewise_construct_t const&, std::tuple<unsigned long long const&>&&, std::tuple<>&&) (.isra.0)
@@ -12040,9 +12041,9 @@ typeinfo name for CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAct
 .L1859
 .L3655
 .L3759
-.L16280
-.L11400
-.L11555
+.L16366
+.L11486
+.L11641
 .L1866
 .L1865
 .L1864
@@ -12057,36 +12058,36 @@ typeinfo name for CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAct
 .L3763
 .L3762
 .L3760
-.L16289
-.L16288
-.L16287
-.L16286
-.L16285
-.L16284
-.L16283
-.L16281
-.L11413
-.L11412
-.L11411
-.L11410
-.L11409
-.L11408
-.L11407
-.L11406
-.L11405
-.L11404
-.L11402
-.L11569
-.L11568
-.L11567
-.L11566
-.L11565
-.L11564
-.L11563
-.L11562
-.L11561
-.L11560
-.L11558
+.L16375
+.L16374
+.L16373
+.L16372
+.L16371
+.L16370
+.L16369
+.L16367
+.L11499
+.L11498
+.L11497
+.L11496
+.L11495
+.L11494
+.L11493
+.L11492
+.L11491
+.L11490
+.L11488
+.L11655
+.L11654
+.L11653
+.L11652
+.L11651
+.L11650
+.L11649
+.L11648
+.L11647
+.L11646
+.L11644
 _GLOBAL__sub_I_vrmailboxclient.cpp
 CVRMailboxClient::GetNextMessage(unsigned long long, char*, unsigned int, unsigned int*) (.cold)
 CVRMailboxClient::SendMailboxMessage(unsigned long long, char const*, char const*) (.cold)
@@ -24796,12 +24797,12 @@ std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_trait
 std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::regex_traits<char>, true, true>>::_M_invoke(std::_Any_data const&, char&&)
 CInputFilterValueStore::GetDevicePose(vr::ETrackingUniverseOrigin, unsigned long long, float, vr::TrackedDevicePose_t*)
 CInputFilterValueStore::WriteSkeletonValue(unsigned long long, VRInputValue_Skeleton_t const&, unsigned long long, unsigned long long)
-std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>>::_M_invoke(std::_Any_data const&, char&&)
-guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
-std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
 std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>>::_M_invoke(std::_Any_data const&, char&&)
 guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
 std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, false>::operator()(char) const::__nul
+std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>>::_M_invoke(std::_Any_data const&, char&&)
+guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
+std::__detail::_AnyMatcher<std::regex_traits<char>, false, true, true>::operator()(char) const::__nul
 CVRInputLatest::GetComponentStateForBinding(char const*, char const*, vr::InputBindingInfo_t const*, unsigned int, unsigned int, vr::RenderModel_ComponentState_t*)
 CVRInputLatest::SetDominantHand(vr::ETrackedControllerRole)
 CVRInputLatest::GetSkeletalTrackingLevelForHand(vr::EVRHandSide, vr::EVRSkeletalTrackingLevel*)
@@ -24946,6 +24947,9 @@ void std::vector<vr::InputBindingInfo_t, std::allocator<vr::InputBindingInfo_t>>
 CVRControllerTypeBindings::GetBindingInfo(unsigned long long) const
 std::_Rb_tree<vr::ETrackedDeviceProperty, std::pair<vr::ETrackedDeviceProperty const, std::string>, std::_Select1st<std::pair<vr::ETrackedDeviceProperty const, std::string>>, std::less<vr::ETrackedDeviceProperty>, std::allocator<std::pair<vr::ETrackedDeviceProperty const, std::string>>>::_M_erase(std::_Rb_tree_node<std::pair<vr::ETrackedDeviceProperty const, std::string>>*)
 std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::find(std::string const&) const
+std::_Rb_tree<vr::ETrackedDeviceClass, vr::ETrackedDeviceClass, std::_Identity<vr::ETrackedDeviceClass>, std::less<vr::ETrackedDeviceClass>, std::allocator<vr::ETrackedDeviceClass>>::_M_erase(std::_Rb_tree_node<vr::ETrackedDeviceClass>*)
+CVRInputLatest::GetBoundDevicesClasses()
+non-virtual thunk to CVRInputLatest::GetBoundDevicesClasses()
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_SetActionManifestPathResponse>(unsigned int, unsigned int, CVRMsg_Input_SetActionManifestPathResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Input_GetActionBindingsResponse>(unsigned int, unsigned int, CVRMsg_Input_GetActionBindingsResponse&, unsigned int)
 void std::vector<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>, std::allocator<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>>>::_M_realloc_insert<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>>(__gnu_cxx::__normal_iterator<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>*, std::vector<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>, std::allocator<std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>>>>, std::unique_ptr<CVRControllerTypeBindings, std::default_delete<CVRControllerTypeBindings>>&&)
@@ -25136,18 +25140,18 @@ std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::_M_make_ran
 bool std::__detail::_Compiler<std::regex_traits<char>>::_M_expression_term<true, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>&)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, int, char, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, int, int, char, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, int, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, int, __gnu_cxx::__ops::_Iter_less_iter)
-std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::_M_ready()
-void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<true, true>()
-void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<true, true>(bool)
 std::__detail::_BracketMatcher<std::regex_traits<char>, false, true>::_M_ready()
 void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<false, true>()
 void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<false, true>(bool)
-std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>::_M_ready()
-void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<true, false>()
-void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<true, false>(bool)
 std::__detail::_BracketMatcher<std::regex_traits<char>, false, false>::_M_ready()
 void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<false, false>()
 void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<false, false>(bool)
+std::__detail::_BracketMatcher<std::regex_traits<char>, true, false>::_M_ready()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<true, false>()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<true, false>(bool)
+std::__detail::_BracketMatcher<std::regex_traits<char>, true, true>::_M_ready()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_character_class_matcher<true, true>()
+void std::__detail::_Compiler<std::regex_traits<char>>::_M_insert_bracket_matcher<true, true>(bool)
 std::__detail::_Compiler<std::regex_traits<char>>::_M_bracket_expression()
 std::__detail::_Compiler<std::regex_traits<char>>::_M_atom()
 std::__detail::_Compiler<std::regex_traits<char>>::_M_disjunction()
@@ -42598,39 +42602,37 @@ __stack_chk_fail_local
 __TMC_END__
 _DYNAMIC
 _GLOBAL_OFFSET_TABLE_
-localtime
+setsid
 mktime
-strftime
+localtime
 sched_get_priority_max
-listen
-__stack_chk_fail
+sched_setaffinity
 pipe2
 tolower
-setsid
-popen
-feof
-pclose
 execvp
+feof
 getdelim
+pclose
+getpriority
 semop
 semget
 isalpha
-__xstat64
-getpriority
 semctl
-sched_get_priority_min
 bind
-fprintf
+sched_get_priority_min
+listen
 shutdown
+dl_iterate_phdr
+fprintf
 getcwd
 chdir
 ftell
 mkdtemp
 fseek
-chmod
 rename
-remove
+chmod
 rmdir
+remove
 strpbrk
 __wcsftime_l
 __strftime_l
@@ -42658,7 +42660,6 @@ toupper
 putwc
 ungetwc
 ftello64
-fseeko64
 ungetc
 bindtextdomain
 btowc
@@ -42908,7 +42909,6 @@ recv
 pthread_once
 sendto
 pthread_key_delete
-pthread_cond_wait
 recvmsg
 pthread_cond_broadcast
 lseek64
@@ -42922,14 +42922,12 @@ getppid
 flock
 rewind
 ___tls_get_addr
-shm_unlink
-shm_open
 pthread_setschedparam
+pthread_cancel
 fputs
 dladdr
 sched_yield
 __snprintf_chk
-dl_iterate_phdr
 munmap
 ftruncate
 mmap
@@ -42944,24 +42942,25 @@ closedir
 pthread_getspecific
 strtol
 strncmp
-pthread_detach
 sigaction
 clock_gettime
+pthread_detach
 pthread_create
 __fprintf_chk
 nanosleep
 dlopen
 sched_getscheduler
 alphasort
+pthread_join
 sscanf
+pthread_cond_destroy
 strrchr
 pthread_setspecific
-pthread_cancel
 pthread_cond_timedwait
 readdir
+popen
 sigemptyset
 fork
-pthread_join
 pthread_attr_setstacksize
 strncasecmp
 scandir
@@ -42978,40 +42977,45 @@ strtoul
 strerror
 __fxstat
 setpriority
+pthread_cond_wait
+strftime
 setrlimit
 getenv
+pthread_cond_signal
 __cxa_atexit
 sched_getparam
-pthread_cond_signal
 getpid
+fread
 usleep
 waitpid
+__xstat64
 pthread_getschedparam
+shm_open
 fwrite
 poll
 __xstat
 __cxa_finalize
 readlink
+__stack_chk_fail
 pthread_mutex_lock
 dlerror
 getrlimit
 sysconf
+shm_unlink
 dlclose
 gettimeofday
-fread
 fclose
 pthread_mutex_init
 fgets
 pthread_self
+fseeko64
 sigprocmask
 _exit
 stderr
 fflush
-pthread_cond_destroy
 pthread_mutex_destroy
 strcmp
 pthread_mutexattr_init
-sched_setaffinity
 pthread_attr_init
 pthread_mutex_unlock
 unsetenv
@@ -43047,8 +43051,8 @@ backtrace_symbols
 backtrace
 powf
 fmodf
-strncat
 strncpy
+strncat
 posix_memalign
 strtof
 strtod
@@ -43096,4 +43100,4 @@ _ITM_deregisterTMCloneTable
 __gmon_start__
 GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
-^c~.4
+ N$^DM}

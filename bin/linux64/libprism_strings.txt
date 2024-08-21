@@ -1203,8 +1203,8 @@ Executable: %s\n
 SteamAPI_SetBreakpadAppID
 SteamAPI_SetMiniDumpComment
 SteamAPI_WriteMiniDump
-21:55:21
-Aug 16 2024
+01:23:57
+Aug 21 2024
 XDG_CONFIG_HOME
 HOME
 .config

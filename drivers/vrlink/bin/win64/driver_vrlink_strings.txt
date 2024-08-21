@@ -276,8 +276,8 @@ IServerTrackedDeviceProvider_004
 IVRWatchdogProvider_001
 IVRCompositorPluginProvider_001
 IVRServer_XXX
-IVRSystemLayerInternal_XXX
 IVRServerDriverHost_006
+IVRSystemLayerInternal_XXX
 IVRChaperoneInternal_001
 IVRVirtualDisplay_002
 IVRClientInternal_XXX
@@ -3841,8 +3841,7 @@ SleepConditionVariableCS
 WakeAllConditionVariable
 bad allocation
 bad array new length
-RSDS
-F8'gC
+RSDS#
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
 .text
 .text$di

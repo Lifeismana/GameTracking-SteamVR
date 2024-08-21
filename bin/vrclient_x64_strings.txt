@@ -1826,12 +1826,13 @@ CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle
 L?<I
 <L3]<
 ZA<a`
+(<`\n;
 const unsigned int __cdecl CAnimResource::MyTypeID(void)
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_hand_tracker.cpp
 xrCreateHandTracker: Requested data source count was 0
 xrCreateHandTrackerEXT: Data source was duplicated
-xrLocateHandJoints: Time was invalid.
-xrLocateHandJoints: Failed to get skeletal tracking level for hand
+SetHandLocationsInactive: locations was nullptr
+xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 CSxrHandTrackerEXT::LocateJoints
 nChildIndex != vr::k_unInvalidBoneIndex
@@ -2057,6 +2058,9 @@ sxr_xrGetRenderModelAssetDataEXT
 [xrRenderModel] Parameter was nullptr
 sxr_xrGetRenderModelAssetPropertiesEXT
 sxr_xrGetRenderModelStateEXT
+[xrRenderModel] renderModelIdCountOutput was nullptr
+sxr_xrEnumerateInteractionRenderModelIdsEXT
+[xrRenderModel] Attempted to enumerate, but there aren't any attached action sets
 sxr_xrEnumerateRenderModelSubactionPathsEXT
 [xrRenderModel] Failure occurred trying to convert render model to gltf.
 [xrRenderModel] Failed to compute crc as the render model was not loaded.
@@ -2324,8 +2328,8 @@ IVRSystem_011
 IVRApplications_001
 FnTable:IVRCompositor_021
 IVRNotifications_001
-IVROverlayView_001
 IVRSteamPrivate_003
+IVROverlayView_001
 IVRSteamPrivate_004
 FnTable:IVROverlayView_001
 IVRSteamPrivate_005
@@ -2345,19 +2349,19 @@ IVRSteamPrivate_009
 IVRBlockQueue_003
 IVRSteamPrivate_010
 IVRControlPanel_003
-IVRBlockQueue_002
 IVRSteamPrivate_011
+IVRBlockQueue_002
 IVRSystem_010
 FnTable:IVRCompositor_020
 IVRSteamPrivate_012
 IVROverlay_010
 IVRBlockQueue_001
-IVRControlPanel_002
 IVRSteamPrivate_013
+IVRControlPanel_002
 IVRSteamPrivate_014
 IVRCompositor_019
-IVRControlPanel_001
 IVRSteamPrivate_015
+IVRControlPanel_001
 IVRSystem_009
 IVROverlay_017
 IVRDashboardManager_001
@@ -2369,8 +2373,8 @@ IVRSteamPrivate_018
 FnTable:IVRCompositor_019
 IVRSystem_008
 FnTable:IVRTrackedCamera_005
-IVRRenderModels_001
 IVRSteamPrivate_019
+IVRRenderModels_001
 FnTable:IVROverlay_010
 IVRSteamPrivate_020
 IVRTrackedCamera_004
@@ -6949,7 +6953,7 @@ null}
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899x;<
 <U+%.4X>
 syntax error 
 while parsing 
@@ -8299,8 +8303,7 @@ CHECK failed: value.size() <= kint32max:
 (In Legacy Hub)
 (Enumerating)
 (Reset)
-RSDS*
-R+CjC
+RSDS
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\Retail\win64\2017\vrclient_x64.pdb
 .text
 .text$di
@@ -8375,7 +8378,6 @@ p\r`\fP
 \rp\f0\vP!#
 2\v`!
 2\vp!\n
-2\vp!
 \rp\f`\vP
 `!*\n
 \fp\vP
@@ -8452,6 +8454,7 @@ p\r`\f0\vP!.
 \rp\f`\vP
 \fp\v`
 \np\t`
+P\r04
 \fp\vP
 \vp!\n
 \rp\f`\v0

@@ -1296,7 +1296,8 @@ Bad dynamic_cast!
 ?UUUUUU
 ?UUUUUU
 ?UUUUUU
-RSDSo
+RSDS`
+)K\r@
 c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 .text$di
 .text$mn

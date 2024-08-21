@@ -2477,8 +2477,8 @@ Executable: %s\n
 SteamAPI_SetBreakpadAppID
 SteamAPI_SetMiniDumpComment
 SteamAPI_WriteMiniDump
-21:55:15
-Aug 16 2024
+01:26:48
+Aug 21 2024
 /steamvr/
 Socket closed\n
 Error reading from socket\n
@@ -26006,4 +26006,4 @@ _ITM_deregisterTMCloneTable
 __gmon_start__
 GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
-ndt$
+.[aGuP

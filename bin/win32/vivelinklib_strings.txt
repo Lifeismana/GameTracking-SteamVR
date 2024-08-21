@@ -572,6 +572,7 @@ WakeAllConditionVariable
 bad allocation
 bad array new length
 RSDS
+QnEJ
 c:\buildslave\steamvr_rel_win32\build\src\vivelinklib\Retail\win32\2017\vivelinklib.pdb
 .text$di
 .text$mn
