@@ -1,75 +1,40 @@
-.?AVQImage@@
-.?AVQPaintDevice@@
-.?AVQtIcoHandler@@
-.?AVQImageIOHandler@@
+!weakref.load()
 .?AVQICOPlugin@@
+.?AVQImage@@
+.?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
 .?AVQObject@@
-.?AVtype_info@@
+.?AVQPaintDevice@@
+.?AVQtIcoHandler@@
 .?AVbad_alloc@std@@
-.?AVexception@std@@
 .?AVbad_array_new_length@std@@
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-bool __thiscall QtIcoHandler::canRead(void) const
-qicohandler.cpp
-QtIcoHandler::canRead() called with no device
-qicohandler.cpp
-device
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qicohandler.cpp
-_q_icoOrigDepth
-PNG\r\n
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qlist.h
-index out of range
-QList<T>::operator[]
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-QICOPlugin
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-!weakref.load()
-strongref.load() <= 0
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+.?AVexception@std@@
+.?AVtype_info@@
+F:\qt5\qtbase\plugins\imageformats\qicod.pdb
 InitializeConditionVariable
+PNG\r\n
+QICOPlugin
+QList<T>::operator[]
+QtIcoHandler::canRead() called with no device
+RSDS
 SleepConditionVariableCS
-WakeAllConditionVariable
 Unknown exception
+WakeAllConditionVariable
+_q_icoOrigDepth
 bad allocation
 bad array new length
-RSDS
-~l;jH
-F:\qt5\qtbase\plugins\imageformats\qicod.pdb
+bool __thiscall QtIcoHandler::canRead(void) const
+device
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qlist.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+index out of range
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
 qicod.dll
+qicohandler.cpp
 qt_plugin_instance
 qt_plugin_query_metadata
+strongref.load() <= 0
+~l;jH

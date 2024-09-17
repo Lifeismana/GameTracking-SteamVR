@@ -1,90 +1,48 @@
+!weakref.load()
+!x->ref.isStatic()
+..\..\..\gui\image\qgifhandler.cpp
 .?AVQGifHandler@@
-.?AVQImageIOHandler@@
 .?AVQGifPlugin@@
+.?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
 .?AVQObject@@
-.?AVtype_info@@
 .?AVbad_alloc@std@@
-.?AVexception@std@@
 .?AVbad_array_new_length@std@@
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-x == d
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-NETSCAPE
-NETSCAPE
+.?AVexception@std@@
+.?AVtype_info@@
+F:\qt5\qtbase\plugins\imageformats\qgifd.pdb
 GIF87a
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-asize >= 0 && asize <= aalloc
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-!x->ref.isStatic()
-x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-int(d->alloc) == aalloc
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-isDetached()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->data()
 GIF89a
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-uint(d->size) <= d->alloc
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d != Data::unsharableEmpty()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->alloc >= uint(aalloc)
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->size == asize
-bool __cdecl QGifHandler::canRead(class QIODevice *)
-..\..\..\gui\image\qgifhandler.cpp
-QGifHandler::canRead() called with no device
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-index out of range
-QVector<T>::at
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-QGifPlugin
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-!weakref.load()
-strongref.load() <= 0
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
 InitializeConditionVariable
+NETSCAPE
+QGifHandler::canRead() called with no device
+QGifPlugin
+QVector<T>::at
+RSDSY
 SleepConditionVariableCS
-WakeAllConditionVariable
 Unknown exception
+WakeAllConditionVariable
+aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
+asize >= 0 && asize <= aalloc
 bad allocation
 bad array new length
-RSDSY
-F:\qt5\qtbase\plugins\imageformats\qgifd.pdb
+bool __cdecl QGifHandler::canRead(class QIODevice *)
+d != Data::unsharableEmpty()
+d->alloc >= uint(aalloc)
+d->data()
+d->size == asize
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+index out of range
+int(d->alloc) == aalloc
+isDetached()
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
 qgifd.dll
 qt_plugin_instance
 qt_plugin_query_metadata
+strongref.load() <= 0
+uint(d->size) <= d->alloc
+x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)

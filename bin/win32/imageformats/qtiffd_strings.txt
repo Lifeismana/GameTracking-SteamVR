@@ -1,1113 +1,825 @@
-Integer overflow in %s
-Integer overflow in %s
-Failed to allocate memory for %s (%ld elements of %ld bytes each)
-=No space for "TransferFunction" tag
-Tag 
-None
-PackBits
-ThunderScan
-NeXT
-JPEG
-Old-style JPEG
-CCITT RLE
-CCITT RLE/W
-CCITT Group 3
-CCITT Group 4
-ISO JBIG
-Deflate
-AdobeDeflate
-PixarLog
-SGILog
-SGILog24
-LZMA
-%s compression support is not configured
-tile
+    %2d: %5g %5g\n
+    %2lu: %5u
+    %3lu: [%8I64u, %8I64u]\n
+   %5lu: %5u %5u %5u\n
+  Bad Fax Lines: %lu\n
+  Bits/Sample: %u\n
+  Color Map: 
+  Compression Scheme: 
+  Consecutive Bad Fax Lines: %lu\n
+  Dot Range: %u-%u\n
+  Extra Samples: %u<
+  Fax Data:
+  FillOrder: 
+  Group 3 Options:
+  Group 4 Options:
+  Halftone Hints: light %u dark %u\n
+  ICC Profile: <present>, %lu bytes\n
+  Image Width: %lu Image Length: %lu
+  Ink Names: 
+  Ink Set: 
+  Max Sample Value: %u\n
+  Min Sample Value: %u\n
+  Orientation: 
+  Page Number: %u-%u\n
+  Photometric Interpretation: 
+  Photoshop Data: <present>, %lu bytes\n
+  Planar Configuration: 
+  Position: %g, %g\n
+  Predictor: 
+  Reference Black/White:\n
+  Resolution: %g, %g
+  RichTIFFIPTC Data: <present>, %lu bytes\n
+  Rows/Strip: 
+  SMax Sample Value:
+  SMin Sample Value:
+  Sample Format: 
+  Sample to Nits conversion factor: %.4e\n
+  Samples/Pixel: %u\n
+  SubIFD Offsets:
+  Subfile Type:
+  Thresholding: 
+  Tile Width: %lu Tile Length: %lu
+  Transfer Function: 
+  White Point: %g-%g\n
+  XMLPacket (XMP Metadata):\n
+  YCbCr Positioning: 
+  YCbCr Subsampling: %u, %u\n
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ %5I64u
+ (%lu = 0x%lx)\n
+ (%u = 0x%x)\n
+ (unit %u = 0x%x)
+ (unitless)
+ Image Depth: %lu
+ Tile Depth: %lu
+ clean
+ pixels/cm
+ pixels/inch
+ receiver regenerated
+ uncorrected errors
+!weakref.load()
+!x->ref.isStatic()
+"%s": Bad mode
+"Predictor" value %d not supported
+%.100s: Can not read TIFF directory
+%I64d
+%I64u
+%I64u: Invalid strip byte count, strip %lu
+%I64u: Invalid tile byte count, tile %lu
+%S: Cannot open
+%d bit input not supported in PixarLog
+%lu: Col out of range, max %lu
+%lu: Depth out of range, max %lu
+%lu: Row out of range, max %lu
+%lu: Sample out of range, max %lu
+%lu: Strip out of range, max %lu
+%lu: Tile out of range, max %lu
 %s %s decoding is not implemented
-Compression scheme %u %s decoding is not implemented
-scanline
-strip
-tile
-Compression algorithm does not support random access
-No space to register compression scheme %s
-TIFFRegisterCODEC
-Cannot remove compression scheme %s; not registered
-TIFFUnRegisterCODEC
 %s %s encoding is not implemented
-Compression scheme %u %s encoding is not implemented
-scanline
-strip
-%s: Invalid InkNames value; expecting %d names, found %d
-TIFFSetField
-Nonstandard tile width %d, convert file
-Nonstandard tile length %d, convert file
-%s: Sorry, cannot nest SubIFDs
-Unknown
-pseudo-
-%s: Invalid %stag "%s" (not supported by codec)
-%s: Failed to allocate space for list of custom values
+%s at line %u of %s %u (got %u, expected %u)
+%s compression support is not configured
+%s data at scanline %lu (%I64u != %I64u)
+%s%u (0x%x)
+%s2-d encoding
 %s: Bad field type %d for "%s"
-%s: Null count for "%s" (type %d, writecount %d, passcount %d)
-custom tag binary object
-DotRange
-Unknown
 %s: Bad value %u for "%s" tag
-Unknown
-%s: Bad value %u for "%s" tag
-pseudo-
-%s: Unknown %stag %u
-TIFFSetField
+%s: Can not read TIFF directory count
+%s: Can not read TIFF directory entry.
+%s: Can not write TIFF directory entry.
 %s: Cannot modify tag "%s" while writing
-TIFFSetField
-Unknown
-pseudo-
+%s: Cannot open
+%s: Could not find tag %d.
+%s: Error fetching directory count
+%s: Error fetching directory link
+%s: Failed to allocate space for list of custom values
 %s: Invalid %stag "%s" (not supported by codec)
-_TIFFVGetField
-DotRange
-Error fetching directory count
-Error fetching directory link
-Error fetching directory count
-Sanity check on directory count failed
-Error fetching directory link
-%s: Error fetching directory count
-%s: Error fetching directory link
-%s: Error fetching directory count
-Error fetching directory count
-%s: Error fetching directory link
-Can not unlink directory in read-only file
-Directory %d does not exist
-Error writing directory link
-Error writing directory link
-SubfileType
-OldSubfileType
-ImageWidth
-ImageLength
-BitsPerSample
-Compression
-PhotometricInterpretation
-Threshholding
-CellWidth
-CellLength
-FillOrder
-DocumentName
-ImageDescription
-Make
-Model
-StripOffsets
-Orientation
-SamplesPerPixel
-RowsPerStrip
-StripByteCounts
-MinSampleValue
-MaxSampleValue
-XResolution
-YResolution
-PlanarConfiguration
-PageName
-XPosition
-YPosition
-FreeOffsets
-FreeByteCounts
-GrayResponseUnit
-GrayResponseCurve
-ResolutionUnit
-PageNumber
-ColorResponseUnit
-TransferFunction
-Software
-DateTime
-Artist
-HostComputer
-WhitePoint
-PrimaryChromaticities
-ColorMap
-HalftoneHints
-TileWidth
-TileLength
-TileOffsets
-TileByteCounts
-SubIFD
-InkSet
-InkNames
-NumberOfInks
-DotRange
-TargetPrinter
-ExtraSamples
-SampleFormat
-SMinSampleValue
-SMaxSampleValue
-ClipPath
-XClipPathUnits
-XClipPathUnits
-YClipPathUnits
-YCbCrCoefficients
-YCbCrSubsampling
-YCbCrPositioning
-ReferenceBlackWhite
-XMLPacket
-Matteing
-DataType
-ImageDepth
-TileDepth
-ImageFullWidth
-ImageFullLength
-TextureFormat
-TextureWrapModes
-FieldOfViewCotangent
-MatrixWorldToScreen
-MatrixWorldToCamera
-Copyright
-RichTIFFIPTC
-Photoshop
-EXIFIFDOffset
-ICC Profile
-GPSIFDOffset
-FaxRecvParams
-FaxSubAddress
-FaxRecvTime
-FaxDcs
-StoNits
-InteroperabilityIFDOffset
-DNGVersion
-DNGBackwardVersion
-UniqueCameraModel
-LocalizedCameraModel
-CFAPlaneColor
-CFALayout
-LinearizationTable
-BlackLevelRepeatDim
-BlackLevel
-BlackLevelDeltaH
-BlackLevelDeltaV
-WhiteLevel
-DefaultScale
-BestQualityScale
-DefaultCropOrigin
-DefaultCropSize
-ColorMatrix1
-ColorMatrix2
-CameraCalibration1
-CameraCalibration2
-ReductionMatrix1
-ReductionMatrix2
+%s: Invalid InkNames value; expecting %d names, found %d
+%s: No space for LogLuv state block
+%s: Null count for "%s" (type %d, writecount %d, passcount %d)
+%s: Out of memory (TIFF structure)
+%s: Seek error accessing TIFF directory
+%s: Sorry, cannot nest SubIFDs
+%s: Unknown %stag %u
+%sEOL padding
+%sassoc-alpha
+%smulti-page document
+%sreduced-resolution image
+%stransparency mask
+%sunassoc-alpha
+%suncompressed data
+%sunspecified
+(infinite)\n
+(present)\n
+.?AVQImageIOHandler@@
+.?AVQImageIOPlugin@@
+.?AVQObject@@
+.?AVQTiffHandler@@
+.?AVQTiffPlugin@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+0 (0x0)
+0x%I64x
+0x%lx
+0x%x
+1.2.5
+7 (0x7)
+8&Kx
+<unknown>
+<unsupported data type in TIFFPrint>
+=No space for "TransferFunction" tag
+?EPredictorSetup
+ASCII value for tag "%s" contains null byte in value; value incorrectly truncated during reading due to implementation limitations
+ASCII value for tag "%s" does not end in null byte
+ActiveArea
+AdobeDeflate
 AnalogBalance
+AntiAliasStrength
+ApertureValue
+Artist
+AsShotICCProfile
 AsShotNeutral
+AsShotPreProfileMatrix
 AsShotWhiteXY
+Assuming 8-bit colormap
+Attempt to reset field on directory not already on disk.
+Attempt to write value larger than 0xFFFFFFFF in Classic TIFF file.
+Bad code word at line %u of %s %u (x %u)
+BadFaxLines
 BaselineExposure
 BaselineNoise
 BaselineSharpness
 BayerGreenSplit
-LinearResponseLimit
-CameraSerialNumber
-LensInfo
-ChromaBlurRadius
-AntiAliasStrength
-ShadowScale
-DNGPrivateData
-MakerNoteSafety
+BestQualityScale
+Bits/sample must be 1 for Group 3/4 encoding/decoding
+BitsPerSample
+BitsPerSample tag is missing, assuming 8 bits per sample
+BlackLevel
+BlackLevelDeltaH
+BlackLevelDeltaV
+BlackLevelRepeatDim
+Bogus "StripByteCounts" field, ignoring and calculating from imagelength
+Bogus encoding, loop in the code table; scanline %d
+BrightnessValue
+BuildMapBitdepth16To8
+BuildMapUaToAa
+CCITT Group 3
+CCITT Group 4
+CCITT RLE
+CCITT RLE/W
+CFALayout
+CFAPattern
+CFAPlaneColor
+CIE L*a*b*
+CIE Log2(L) (u',v')\n
+CIE Log2(L)\n
+CMYK\n
 CalibrationIlluminant1
 CalibrationIlluminant2
-RawDataUniqueID
-OriginalRawFileName
-OriginalRawFileData
-ActiveArea
-MaskedAreas
-AsShotICCProfile
-AsShotPreProfileMatrix
-CurrentICCProfile
-CurrentPreProfileMatrix
-PerSample
-Indexed
-GlobalParametersIFD
-ProfileType
-FaxProfile
+CameraCalibration1
+CameraCalibration2
+CameraSerialNumber
+Can not change "ImageLength" when using separate planes
+Can not grow image by strips when using separate planes
+Can not read TIFF directory
+Can not read TIFF directory count
+Can not read scanlines from a tiled image
+Can not read tiles from a stripped image
+Can not unlink directory in read-only file
+Can not write scanlines to a tiled image
+Can not write tiles to a stripped image
+Can't allocate space for filename conversion buffer
+Can't use TIFFReadRGBAStrip() with tiled file.
+Can't use TIFFReadRGBATile() with stripped file.
+Cannot determine size of unknown tag type %d
+Cannot handle different values per sample for "%s"
+Cannot handle different values per sample for "%s"; tag ignored
+Cannot handle zero number of %s
+Cannot handle zero scanline size
+Cannot handle zero strip size
+Cannot handle zero tile size
+Cannot read TIFF header
+Cannot remove compression scheme %s; not registered
+CellLength
+CellWidth
+ChromaBlurRadius
+CleanFaxData
+ClipPath
 CodingMethods
-VersionYear
-ModeNumber
-Decode
-ImageBaseColor
-T82Options
-StripRowCounts
-ImageLayer
-ExposureTime
-FNumber
-ExposureProgram
-SpectralSensitivity
-ISOSpeedRatings
-OptoelectricConversionFactor
-ExifVersion
-DateTimeOriginal
-DateTimeDigitized
+Color channels
+ColorMap
+ColorMatrix1
+ColorMatrix2
+ColorResponseUnit
+ColorSpace
+Colormap
 ComponentsConfiguration
 CompressedBitsPerPixel
-ShutterSpeedValue
-ApertureValue
-BrightnessValue
-ExposureBiasValue
-MaxApertureValue
-SubjectDistance
-MeteringMode
-LightSource
-Flash
-FocalLength
-SubjectArea
-MakerNote
-UserComment
-SubSecTime
-SubSecTimeOriginal
-SubSecTimeDigitized
-FlashpixVersion
-ColorSpace
-PixelXDimension
-PixelYDimension
-RelatedSoundFile
-FlashEnergy
-SpatialFrequencyResponse
-FocalPlaneXResolution
-FocalPlaneYResolution
-FocalPlaneResolutionUnit
-SubjectLocation
-ExposureIndex
-SensingMethod
-FileSource
-SceneType
-CFAPattern
-CustomRendered
-ExposureMode
-WhiteBalance
-DigitalZoomRatio
-FocalLengthIn35mmFilm
-SceneCaptureType
-GainControl
-Contrast
-Saturation
-Sharpness
-DeviceSettingDescription
-SubjectDistanceRange
-ImageUniqueID
-Tag 
-Setting up field info failed
-_TIFFSetupFields
-Failed to allocate fields array
-%s: \n
-TRUE
-FALSE
-TRUE
-FALSE
-field[%2d] %5lu, %2d, %2d, %d, %2d, %5s, %5s, %s\n
-Internal error, unknown tag 0x%x
-TIFFFieldWithTag
-Internal error, unknown tag %s
-TIFFFieldWithName
-Tag %d
-Failed to allocate fields array
-Failed to allocate fields array
-Setting up field info failed
-Incorrect count for "%s"
-Incompatible type for "%s"
-IO error during reading of "%s"
-Incorrect value for "%s"
-Cannot handle different values per sample for "%s"
-Sanity check on size of "%s" value failed
-Out of memory reading of "%s"
-Incorrect count for "%s"; tag ignored
-Incompatible type for "%s"; tag ignored
-IO error during reading of "%s"; tag ignored
-Incorrect value for "%s"; tag ignored
-Cannot handle different values per sample for "%s"; tag ignored
-Sanity check on size of "%s" value failed; tag ignored
-Out of memory reading of "%s"; tag ignored
-Failed to read directory at offset %llu
 Compression
-Unknown field with tag %d (0x%x) encountered
-Registering anonymous field with tag %d (0x%x) failed
-Planarconfig tag value assumed incorrect, assuming data is contig instead of chunky
-ImageLength
-tiles
-strips
-Cannot handle zero number of %s
-TileOffsets
-StripOffsets
-unknown tagname
-unknown tagname
-unknown tagname
-Photometric tag is missing, assuming data is YCbCr
-Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
-BitsPerSample tag is missing, assuming 8 bits per sample
-Colormap
-SamplesPerPixel tag is missing, assuming correct SamplesPerPixel value is 3
-Cannot handle zero scanline size
-SamplesPerPixel tag is missing, applying correct SamplesPerPixel value of 3
-StripByteCounts
-TIFF directory is missing required "StripByteCounts" field, calculating from imagelength
-Cannot handle zero strip size
-Invalid TIFF directory; tags are not sorted in ascending order
-Wrong data type %d for "%s"; tag ignored
-Bogus "StripByteCounts" field, ignoring and calculating from imagelength
-Failed to read custom directory at offset %llu
-Wrong "StripByteCounts" field, ignoring and calculating from imagelength
-Cannot handle zero tile size
-Unknown field with tag %d (0x%x) encountered
-Registering anonymous field with tag %d (0x%x) failed
-ReadDirEntryArray
-for "StripByteCounts" array
-Cannot determine size of unknown tag type %d
-TIFF directory is missing required "%s" field
-for IFD list
-unknown tagname
-incorrect count for field "%s" (%llu, expecting %u); tag ignored
-unknown tagname
-%.100s: Can not read TIFF directory
-incorrect count for field "%s" (%llu, expecting %u); tag trimmed
-%s: Seek error accessing TIFF directory
-Can not read TIFF directory count
-%s: Can not read TIFF directory count
-Sanity check on directory count failed, this is probably not a valid IFD offset
-%s: Can not read TIFF directory count
-Sanity check on directory count failed, this is probably not a valid IFD offset
-to read TIFF directory
-Can not read TIFF directory count
-Can not read TIFF directory count
-Sanity check on directory count failed, this is probably not a valid IFD offset
-Sanity check on directory count failed, this is probably not a valid IFD offset
-Sanity check on directory count failed, zero tag directories not supported
-to read TIFF directory
-Can not read TIFF directory
-to read TIFF directory
-No definition found for tag %d
-TIFFFetchNormalTag
-ASCII value for tag "%s" does not end in null byte
-incorrect count for field "%s", expected 2, got %d
-ASCII value for tag "%s" contains null byte in value; value incorrectly truncated during reading due to implementation limitations
-incorrect count for field "%s", expected %d, got %d
-for chopped "StripByteCounts" array
-for chopped "StripOffsets" array
-unknown tagname
-unknown tagname
-for strip array
-SubjectDistance
-Error writing SubIFD directory link
-Error writing TIFF header
-Error fetching directory count
-Error fetching directory link
-Error writing directory link
-Error writing TIFF header
-Error fetching directory count
-Sanity check on tag count failed, likely corrupt TIFF
-Error fetching directory link
-Error writing directory link
-Attempt to reset field on directory not already on disk.
-Memory mapped files not currently supported for this operation.
-%s: Seek error accessing TIFF directory
-%s: Can not read TIFF directory count
-%s: Can not read TIFF directory count
-%s: Can not read TIFF directory entry.
-%s: Could not find tag %d.
-for field buffer.
-Value exceeds 32bit range of output type.
-Value exceeds 32bit range of output type.
-%s: Seek error accessing TIFF directory
-Error writing directory link
-Error writing directory link
-%s: Seek error accessing TIFF directory
-%s: Can not write TIFF directory entry.
-Error updating TIFF header
-Error fetching directory count
-Error fetching directory link
-Error writing directory link
-Error updating TIFF header
-Error fetching directory count
-Sanity check on tag count failed, likely corrupt TIFF
-Error fetching directory link
-Error writing directory link
-Error post-encoding before directory write
-Error flushing data before directory write
-Maximum TIFF file size exceeded
-IO error writing directory
-IO error writing directory
-Out of memory
-Out of memory
-Out of memory
-Out of memory
-Out of memory
-Attempt to write value larger than 0xFFFFFFFF in Classic TIFF file.
-Out of memory
-Attempt to write value larger than 0xFFFFFFFF in Classic TIFF file.
-Out of memory
-Out of memory
-Out of memory
-Maximum TIFF file size exceeded
-IO error writing tag data
-IO error writing tag data
-Error writing SubIFD directory link
-Out of memory
-Out of memory
-Not enough data for scanline %lu, expected a request for at most %I64d bytes, got a request for %I64d bytes
-Fractional scanlines cannot be written
-tile
-strip
-Merging CCITT Fax 4 codec-specific tags failed
-Bad code word at line %u of %s %u (x %u)
-TIFFInitCCITTFax4
-tile
-strip
-Uncompressed data (not supported) at line %u of %s %u (x %u)
-tile
-strip
-Premature EOL
-Line length mismatch
-%s at line %u of %s %u (got %u, expected %u)
-tile
-strip
-Premature EOF at line %u of %s %u (x %u)
-Fractional scanlines cannot be read
-Fractional scanlines cannot be read
-Fractional scanlines cannot be read
-Row pixels integer overflow (rowpixels %u)
-Bits/sample must be 1 for Group 3/4 encoding/decoding
-for Group 3/4 run arrays
-No space for Group 3/4 reference line
-Fractional scanlines cannot be written
-FaxFillFunc
-FaxMode
-BadFaxLines
+Compression algorithm does not support random access
+Compression scheme %u %s decoding is not implemented
+Compression scheme %u %s encoding is not implemented
+Compression scheme does not support access to raw uncompressed data
 ConsecutiveBadFaxLines
-  Group 4 Options:
-%suncompressed data
-  Group 3 Options:
-%s2-d encoding
-CleanFaxData
-Group3Options
-Group4Options
-%suncompressed data
- (%lu = 0x%lx)\n
-  Fax Data:
- clean
- uncorrected errors
-%sEOL padding
- receiver regenerated
- (%u = 0x%x)\n
-  Bad Fax Lines: %lu\n
-  Consecutive Bad Fax Lines: %lu\n
-Merging common CCITT Fax codec-specific tags failed
-InitCCITTFax3
-No space for state block
-Merging CCITT Fax 3 codec-specific tags failed
-TIFFInitCCITTFax3
-Fractional scanlines cannot be read
-Sorry, can not handle images with %d-bit samples
-Missing needed %s tag
-Samples/pixel
-Color channels
-Sorry, can not handle RGB image with %s=%d
-Sorry, can not handle contiguous data with %s=%d, and %s=%d and Bits/Sample=%d
-InkSet
-Sorry, can not handle separated image with %s=%d
-Samples/pixel
-Sorry, can not handle separated image with %s=%d
-Compression
-Sorry, LogL data must have %s=%d
-Compression
-Sorry, LogLuv data must have %s=%d or %d
-Planarconfiguration
-Sorry, can not handle LogLuv images with %s=%d
-Sorry, can not handle image with %s=%d
-Sorry, can not handle images with %d-bit samples
-Missing needed %s tag
-Missing required "Colormap" tag
-Out of memory for colormap copy
-Samples/pixel
-Sorry, can not handle contiguous data with %s=%d, and %s=%d and Bits/Sample=%d
-Color channels
-Sorry, can not handle RGB image with %s=%d
-InkSet
-Sorry, can not handle separated image with %s=%d
-Samples/pixel
-Sorry, can not handle separated image with %s=%d
-Compression
-Sorry, LogL data must have %s=%d
-Compression
-Sorry, LogLuv data must have %s=%d or %d
-Planarconfiguration
-Sorry, can not handle LogLuv images with %s=%d
-Sorry, can not handle image with %s=%d
-Sorry, can not handle image
-Sorry, can not handle image
-No "get" routine setup
-No "put" routine setupl; probably can not handle image format
-No space for tile buffer
-gtTileSeparate
-Integer overflow in %s
-No space for tile buffer
-No space for strip buffer
-gtStripSeparate
-Integer overflow in %s
-No space for tile buffer
-No space for YCbCr->RGB conversion state
-No space for CIE L*a*b*->RGB conversion state.
-Failed to initialize CIE L*a*b*->RGB conversion state.
-No space for B&W mapping table
-No space for photometric conversion table
-No space for Palette mapping table
-Assuming 8-bit colormap
-Out of memory
-Out of memory
-Can't use TIFFReadRGBAStrip() with tiled file.
-Row passed to TIFFReadRGBAStrip() must be first in a strip.
-Can't use TIFFReadRGBATile() with stripped file.
-Row/col passed to TIFFReadRGBATile() must be topleft corner of a tile.
-Sorry, requested compression method is not configured
-No support for converting user data format to LogL
-No space for SGILog translation buffer
-SGILog compression cannot handle non-contiguous data
-No support for converting user data format to LogLuv
-No space for SGILog translation buffer
-must be either LogLUV or LogL
-Inappropriate photometric interpretation %d for SGILog compression; %s
-must be either LogLUV or LogL
-Inappropriate photometric interpretation %d for SGILog compression; %s
-Y, L
-XYZ, Luv
-SGILog compression supported only for %s, or raw data
-Unknown data format %d for LogLuv compression
-Unknown encoding %d for LogLuv compression
-SGILogDataFmt
-SGILogEncode
-Merging SGILog codec-specific tags failed
-%s: No space for LogLuv state block
-Not enough data at row %lu (short %I64d pixels)
-Not enough data at row %lu (short %I64d pixels)
-Not enough data at row %lu (short %I64d pixels)
-4F> 
-aoB>"
-L7>(
-!0>,
-!0>,
-\fs">4
-\fs">4
-\fs">4
-x^j=|
-x^j=|
-x^j=|
-x^j=|
-n$Kx
-8&Kx
-No space for LZW state block
-No space for LZW code table
-Old-style LZW codes, convert file
-Bogus encoding, loop in the code table; scanline %d
-LZWDecode: Strip %d not terminated with EOI code
-LZWDecode: Strip %d not terminated with EOI code
-LZWDecode: Corrupted LZW table at scanline %d
+Contrast
+Copyright
 Corrupted LZW table at scanline %d
-Corrupted LZW table at scanline %d
-Wrong length of decoded string: data probably corrupted at scanline %d
-Not enough data at scanline %d (short %I64d bytes)
-LZWDecode: Strip %d not terminated with EOI code
-LZWDecode: Strip %d not terminated with EOI code
-LZWDecode: Corrupted LZW table at scanline %d
-Corrupted LZW table at scanline %d
-Corrupted LZW table at scanline %d
-Wrong length of decoded string: data probably corrupted at scanline %d
-Not enough data at scanline %d (short %I64d bytes)
-No space for LZW hash table
-No space for LZW state block
-Not enough data for scanline %ld
-Fractional scanlines cannot be read
-%s: Out of memory (TIFF structure)
-One of the client procedures is NULL pointer.
-Cannot read TIFF header
-Error writing TIFF header
-Not a TIFF or MDI file, bad magic number %d (0x%x)
-Not a TIFF file, bad version number %d (0x%x)
-Cannot read TIFF header
-Not a TIFF file, bad BigTIFF offsetsize %d (0x%x)
-Not a TIFF file, bad BigTIFF unused %d (0x%x)
-"%s": Bad mode
-Discarding %lu bytes to avoid buffer overrun
-Discarding %lu bytes to avoid buffer overrun
-Terminating PackBitsDecode due to lack of data.
-Not enough data for scanline %lu
-%d bit input not supported in PixarLog
-%d bit input not supported in PixarLog
-ZLib cannot deal with buffers this size
-Encoder error: %s
-ZLib error: %s
-Merging PixarLog codec-specific tags failed
-ZLib error: %s
-No space for PixarLog state block
-ZLib cannot deal with buffers this size
-Decoding error at scanline %lu, %s
-PixarLog compression can't handle bits depth/data format combination (depth: %d)
-1.2.5
-%d bit input not supported in PixarLog
-ZLib cannot deal with buffers this size
-Not enough data at scanline %lu (short %llu bytes)
-ZLib error: %s
-Unsupported bits/sample: %d
-PixarLog compression can't handle %d bit linear encodings
-stride %lu is not a multiple of sample count, %lu, data truncated.
-1.2.5
-ZLib cannot deal with buffers this size
-Horizontal differencing "Predictor" not supported with %d-bit samples
-Floating point "Predictor" not supported with %d data format
-"Predictor" value %d not supported
-Out of memory allocating %ld byte temp buffer.
-Predictor
-  Predictor: 
-none 
-horizontal differencing 
-floating point predictor 
-%u (0x%x)\n
-Merging Predictor codec-specific tags failed
-TIFFPredictorInit
-  %s: 
-0x%x
-0x%lx
-%I64u
-%I64d
-0x%I64x
-<unsupported data type in TIFFPrint>
-Tag 
-  Ink Set: 
-CMYK\n
-%u (0x%x)\n
-  Dot Range: %u-%u\n
-  White Point: %g-%g\n
-  XMLPacket (XMP Metadata):\n
-  RichTIFFIPTC Data: <present>, %lu bytes\n
-  Photoshop Data: <present>, %lu bytes\n
-  ICC Profile: <present>, %lu bytes\n
-  Sample to Nits conversion factor: %.4e\n
-TIFF Directory at offset 0x%I64x (%I64u)\n
-  Subfile Type:
-%sreduced-resolution image
-%smulti-page document
-%stransparency mask
- (%lu = 0x%lx)\n
-  Image Width: %lu Image Length: %lu
- Image Depth: %lu
-  Tile Width: %lu Tile Length: %lu
- Tile Depth: %lu
-  Resolution: %g, %g
- (unitless)
- pixels/inch
- pixels/cm
- (unit %u = 0x%x)
-  Position: %g, %g\n
-  Bits/Sample: %u\n
-  Sample Format: 
-void\n
-signed integer\n
-unsigned integer\n
-IEEE floating point\n
-complex signed integer\n
-complex IEEE floating point\n
-%u (0x%x)\n
-  Compression Scheme: 
-%u (0x%x)\n
-  Photometric Interpretation: 
-CIE Log2(L)\n
-CIE Log2(L) (u',v')\n
-%u (0x%x)\n
-  Extra Samples: %u<
-%sunspecified
-%sassoc-alpha
-%sunassoc-alpha
-%s%u (0x%x)
-  Ink Names: 
-  Thresholding: 
-bilevel art scan\n
-halftone or dithered scan\n
-error diffused\n
-%u (0x%x)\n
-  FillOrder: 
-msb-to-lsb\n
-lsb-to-msb\n
-%u (0x%x)\n
-  YCbCr Subsampling: %u, %u\n
-  YCbCr Positioning: 
-centered\n
-cosited\n
-%u (0x%x)\n
-  Halftone Hints: light %u dark %u\n
-  Orientation: 
-%u (0x%x)\n
-  Samples/Pixel: %u\n
-  Rows/Strip: 
-(infinite)\n
-%lu\n
-  Min Sample Value: %u\n
-  Max Sample Value: %u\n
-  SMin Sample Value:
-  SMax Sample Value:
-  Planar Configuration: 
-single image plane\n
-separate image planes\n
-%u (0x%x)\n
-  Page Number: %u-%u\n
-  Color Map: 
-   %5lu: %5u %5u %5u\n
-(present)\n
-  Reference Black/White:\n
-    %2d: %5g %5g\n
-  Transfer Function: 
-    %2lu: %5u
- %5u
-(present)\n
-  SubIFD Offsets:
- %5I64u
-DotRange
-  %lu %s:\n
-Tiles
-Strips
-    %3lu: [%8I64u, %8I64u]\n
-b\rr\nn\vv
-\%03o
-  %s: "
-min-is-white
-min-is-black
-RGB color
-palette color (RGB from colormap)
-transparency mask
-separated
-YCbCr
-7 (0x7)
-CIE L*a*b*
-ICC L*a*b*
-ITU L*a*b*
-0 (0x0)
-row 0 top, col 0 lhs
-row 0 top, col 0 rhs
-row 0 bottom, col 0 rhs
-row 0 bottom, col 0 lhs
-row 0 lhs, col 0 top
-row 0 rhs, col 0 top
-row 0 rhs, col 0 bottom
-row 0 lhs, col 0 bottom
+CurrentICCProfile
+CurrentPreProfileMatrix
+CustomRendered
+DNGBackwardVersion
+DNGPrivateData
+DNGVersion
 Data buffer too small to hold part of strip %lu
-Seek error at scanline %lu, strip %lu
-Read error at scanline %lu; got %I64u bytes, expected %I64u
-%lu: Row out of range, max %lu
-%lu: Sample out of range, max %lu
-%lu: Strip out of range, max %lu
-Seek error at scanline %lu, strip %lu
-Read error at scanline %lu; got %I64u bytes, expected %I64u
-Read error at scanline %lu, strip %lu; got %I64u bytes, expected %I64u
-%lu: Strip out of range, max %lu
-Compression scheme does not support access to raw uncompressed data
-%I64u: Invalid strip byte count, strip %lu
-Integer overflow
-Invalid strip byte count %I64u, strip %lu
-Read error on strip %lu; got %I64u bytes, expected %I64u
-Integer overflow
 Data buffer too small to hold strip %lu
-%lu: Tile out of range, max %lu
-Seek error at row %lu, col %lu, tile %lu
-Read error at row %lu, col %lu; got %I64u bytes, expected %I64u
-Read error at row %lu, col %lu, tile %lu; got %I64u bytes, expected %I64u
-%lu: Tile out of range, max %lu
-Compression scheme does not support access to raw uncompressed data
-Integer overflow
-%I64u: Invalid tile byte count, tile %lu
-Integer overflow
 Data buffer too small to hold tile %lu
-No space for data buffer at scanline %lu
-File not open for reading
-Can not read tiles from a stripped image
-Can not read scanlines from a tiled image
-Invalid td_samplesperpixel value
-Invalid YCbCr subsampling (%dx%d)
-Integer overflow
-%I64u: Invalid strip byte count, strip %lu
-Integer overflow
-Integer overflow
-Invalid td_samplesperpixel value
-Invalid YCbCr subsampling
-Integer arithmetic overflow
-Integer arithmetic overflow
-%lu: Sample out of range, max %lu
-TIFFNumberOfStrips
-Not enough
-Too much
-%s data at scanline %lu (%I64u != %I64u)
-Fractional scanlines cannot be read
-Wrong bitspersample value (%d), Thunder decoder only supports 4bits per sample.
-%lu: Col out of range, max %lu
-%lu: Row out of range, max %lu
-%lu: Depth out of range, max %lu
-%lu: Sample out of range, max %lu
-TIFFNumberOfTiles
-TIFFNumberOfTiles
-TIFFNumberOfTiles
-TIFFTileRowSize
-TIFFTileRowSize
-Integer overflow
-Invalid YCbCr subsampling (%dx%d)
-Integer overflow
-Integer overflow
-%lu: Sample out of range, max %lu
-Can not grow image by strips when using separate planes
-Can not grow image by strips when using separate planes
-Tile %lu out of range, max %lu
-Tile %lu out of range, max %lu
-File not open for writing
-Can not write tiles to a stripped image
-Can not write scanlines to a tiled image
-Must set "ImageWidth" before writing data
-Must set "PlanarConfiguration" before writing data
-tile
-strip
-No space for %s arrays
-No space for output buffer
-No space to expand strip arrays
-Seek error at scanline %lu
-Maximum TIFF file size exceeded
-Write error at scanline %lu
-Can not change "ImageLength" when using separate planes
-1.2.5
-ZLib cannot deal with buffers this size
+DataType
+DateTime
+DateTimeDigitized
+DateTimeOriginal
+Decode
 Decoding error at scanline %lu, %s
-ZLib cannot deal with buffers this size
-ZLib error: %s
-Not enough data at scanline %lu (short %llu bytes)
-1.2.5
-ZLib cannot deal with buffers this size
-ZLib cannot deal with buffers this size
-Encoder error: %s
-ZLib error: %s
-Merging Deflate codec-specific tags failed
-ZLib error: %s
-No space for ZIP state block
-%s: Cannot open
-%S: Cannot open
-Can't allocate space for filename conversion buffer
-<unknown>
-%s: 
-Warning, 
-%s: 
-.?AVQTiffPlugin@@
-.?AVQImageIOPlugin@@
-.?AVQObject@@
-.?AVQTiffHandler@@
-.?AVQImageIOHandler@@
-.?AVtype_info@@
-.?AVbad_alloc@std@@
-.?AVexception@std@@
-.?AVbad_array_new_length@std@@
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-tiff
-tiff
-QTiffPlugin
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-!weakref.load()
-strongref.load() <= 0
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
-class QFlags<enum QImageIOHandler::Transformation> __cdecl exif2Qt(int)
-qtiffhandler.cpp
-Invalid EXIF orientation
-int __cdecl qt2Exif(class QFlags<enum QImageIOHandler::Transformation>)
-qtiffhandler.cpp
-Invalid Qt image transformation
-bool __cdecl QTiffHandlerPrivate::canRead(class QIODevice *)
-qtiffhandler.cpp
-QTiffHandler::canRead() called with no device
-tiff
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-Size must be greater than or equal to 0.
-QVector::QVector
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qtiffhandler.cpp
-Q_UNREACHABLE was reached
-Q_UNREACHABLE()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qtiffhandler.cpp
-tableSize <= 256
-tiff
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-asize >= 0 && asize <= aalloc
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-!x->ref.isStatic()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-int(d->alloc) == aalloc
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-isDetached()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-x == d
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->data()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-uint(d->size) <= d->alloc
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d != Data::unsharableEmpty()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->alloc >= uint(aalloc)
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->size == asize
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvarlengtharray.h
-idx >= 0 && idx < s
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-index out of range
-QVector<T>::at
-QVector<T>::operator[]
-Size must be greater than or equal to 0.
-QVarLengthArray::QVarLengthArray()
-isDetached()
-_TIFFVSetField
-TIFFAdvanceDirectory
-TIFFUnlinkDirectory
-_TIFFMergeFields
-for fields array
-TIFFMergeFieldInfo
-for fields array
-TIFFReadDirectory
-TIFFReadDirectoryCheckOrder
-TIFFReadCustomDirectory
-EstimateStripByteCounts
-MissingRequired
-TIFFFetchDirectory
-TIFFFetchNormalTag
-TIFFFetchStripThing
-TIFFFetchSubjectDistance
-TIFFResetField
-TIFFRewriteDirectory
-TIFFWriteDirectorySec
-TIFFWriteDirectoryTagSampleformatArray
-TIFFWriteDirectoryTagShortPerSample
-TIFFWriteDirectoryTagLongLong8Array
-TIFFWriteDirectoryTagIfdIfd8Array
-TIFFWriteDirectoryTagColormap
-TIFFWriteDirectoryTagTransferfunction
-TIFFWriteDirectoryTagSubifd
-TIFFWriteDirectoryTagCheckedRationalArray
-TIFFWriteDirectoryTagCheckedSrationalArray
-TIFFWriteDirectoryTagData
-TIFFLinkDirectory
+DefaultCropOrigin
+DefaultCropSize
+DefaultScale
+Deflate
+DeviceSettingDescription
+DigitalZoomRatio
+Directory %d does not exist
+Discarding %lu bytes to avoid buffer overrun
+DocumentName
+DotRange
 DumpModeDecode
-Fax4Encode
-Fax3DecodeRLE
+EXIFIFDOffset
+Encoder error: %s
+Error fetching directory count
+Error fetching directory link
+Error flushing data before directory write
+Error post-encoding before directory write
+Error updating TIFF header
+Error writing SubIFD directory link
+Error writing TIFF header
+Error writing directory link
+EstimateStripByteCounts
+ExifVersion
+ExposureBiasValue
+ExposureIndex
+ExposureMode
+ExposureProgram
+ExposureTime
+ExtraSamples
+F:\qt5\qtimageformats\plugins\imageformats\qtiffd.pdb
+FALSE
+FNumber
+Failed to allocate fields array
+Failed to allocate memory for %s (%ld elements of %ld bytes each)
+Failed to initialize CIE L*a*b*->RGB conversion state.
+Failed to read custom directory at offset %llu
+Failed to read directory at offset %llu
 Fax3Decode1D
 Fax3Decode2D
-Fax3SetupState
+Fax3DecodeRLE
 Fax3Encode
-InitCCITTFax3
+Fax3SetupState
 Fax4Decode
-initYCbCrConversion
-initCIELabConversion
-BuildMapUaToAa
-BuildMapBitdepth16To8
-PhotometricInterpretation
+Fax4Encode
+FaxDcs
+FaxFillFunc
+FaxMode
+FaxProfile
+FaxRecvParams
+FaxRecvTime
+FaxSubAddress
+FieldOfViewCotangent
+File not open for reading
+File not open for writing
+FileSource
+FillOrder
+Flash
+FlashEnergy
+FlashpixVersion
+Floating point "Predictor" not supported with %d data format
+FocalLength
+FocalLengthIn35mmFilm
+FocalPlaneResolutionUnit
+FocalPlaneXResolution
+FocalPlaneYResolution
+Fractional scanlines cannot be read
+Fractional scanlines cannot be written
+FreeByteCounts
+FreeOffsets
+GPSIFDOffset
+GainControl
+GlobalParametersIFD
+GrayResponseCurve
+GrayResponseUnit
+Group3Options
+Group4Options
+HalftoneHints
+Horizontal differencing "Predictor" not supported with %d-bit samples
+HostComputer
+ICC L*a*b*
+ICC Profile
+IEEE floating point\n
+IO error during reading of "%s"
+IO error during reading of "%s"; tag ignored
+IO error writing directory
+IO error writing tag data
+ISO JBIG
+ISOSpeedRatings
+ITU L*a*b*
+ImageBaseColor
+ImageDepth
+ImageDescription
+ImageFullLength
+ImageFullWidth
+ImageLayer
+ImageLength
+ImageUniqueID
+ImageWidth
+Inappropriate photometric interpretation %d for SGILog compression; %s
+Incompatible type for "%s"
+Incompatible type for "%s"; tag ignored
+Incorrect count for "%s"
+Incorrect count for "%s"; tag ignored
+Incorrect value for "%s"
+Incorrect value for "%s"; tag ignored
+Indexed
+InitCCITTFax3
+InitializeConditionVariable
+InkNames
+InkSet
+Integer arithmetic overflow
+Integer overflow
+Integer overflow in %s
+Internal error, unknown tag %s
+Internal error, unknown tag 0x%x
+InteroperabilityIFDOffset
+Invalid EXIF orientation
+Invalid Qt image transformation
+Invalid TIFF directory; tags are not sorted in ascending order
+Invalid YCbCr subsampling
+Invalid YCbCr subsampling (%dx%d)
+Invalid strip byte count %I64u, strip %lu
+Invalid td_samplesperpixel value
+JPEG
+LIBTIFF, Version 4.0.3\nCopyright (c) 1988-1996 Sam Leffler\nCopyright (c) 1991-1996 Silicon Graphics, Inc.
+LZMA
+LZWDecode
+LZWDecode: Corrupted LZW table at scanline %d
+LZWDecode: Strip %d not terminated with EOI code
+LZWDecodeCompat
+LZWPreDecode
+LZWSetupDecode
+LZWSetupEncode
+LensInfo
+LightSource
+Line length mismatch
+LinearResponseLimit
+LinearizationTable
+LocalizedCameraModel
+LogL16Decode
 LogL16InitState
+LogLuvDecode24
+LogLuvDecode32
 LogLuvInitState
 LogLuvSetupDecode
 LogLuvSetupEncode
 LogLuvVSetField
-TIFFInitSGILog
-LogL16Decode
-LogLuvDecode24
-LogLuvDecode32
-B.f?
-B.F@
-LZWSetupDecode
-LZWPreDecode
-LZWDecode
-LZWDecodeCompat
-LZWSetupEncode
-TIFFInitLZW
+Make
+MakerNote
+MakerNoteSafety
+MaskedAreas
+MatrixWorldToCamera
+MatrixWorldToScreen
+Matteing
+MaxApertureValue
+MaxSampleValue
+Maximum TIFF file size exceeded
+Memory mapped files not currently supported for this operation.
+Merging CCITT Fax 3 codec-specific tags failed
+Merging CCITT Fax 4 codec-specific tags failed
+Merging Deflate codec-specific tags failed
+Merging PixarLog codec-specific tags failed
+Merging Predictor codec-specific tags failed
+Merging SGILog codec-specific tags failed
+Merging common CCITT Fax codec-specific tags failed
+MeteringMode
+MinSampleValue
+Missing needed %s tag
+Missing required "Colormap" tag
+MissingRequired
+ModeNumber
+Model
+Must set "ImageWidth" before writing data
+Must set "PlanarConfiguration" before writing data
+NeXT
 NeXTDecode
-TIFFClientOpen
+No "get" routine setup
+No "put" routine setupl; probably can not handle image format
+No definition found for tag %d
+No space for %s arrays
+No space for B&W mapping table
+No space for CIE L*a*b*->RGB conversion state.
+No space for Group 3/4 reference line
+No space for LZW code table
+No space for LZW hash table
+No space for LZW state block
+No space for Palette mapping table
+No space for PixarLog state block
+No space for SGILog translation buffer
+No space for YCbCr->RGB conversion state
+No space for ZIP state block
+No space for data buffer at scanline %lu
+No space for output buffer
+No space for photometric conversion table
+No space for state block
+No space for strip buffer
+No space for tile buffer
+No space to expand strip arrays
+No space to register compression scheme %s
+No support for converting user data format to LogL
+No support for converting user data format to LogLuv
+None
+Nonstandard tile length %d, convert file
+Nonstandard tile width %d, convert file
+Not a TIFF file, bad BigTIFF offsetsize %d (0x%x)
+Not a TIFF file, bad BigTIFF unused %d (0x%x)
+Not a TIFF file, bad version number %d (0x%x)
+Not a TIFF or MDI file, bad magic number %d (0x%x)
+Not enough
+Not enough data at row %lu (short %I64d pixels)
+Not enough data at scanline %d (short %I64d bytes)
+Not enough data at scanline %lu (short %llu bytes)
+Not enough data for scanline %ld
+Not enough data for scanline %lu
+Not enough data for scanline %lu, expected a request for at most %I64d bytes, got a request for %I64d bytes
+NumberOfInks
+Old-style JPEG
+Old-style LZW codes, convert file
+OldSubfileType
+One of the client procedures is NULL pointer.
+OptoelectricConversionFactor
+Orientation
+OriginalRawFileData
+OriginalRawFileName
+Out of memory
+Out of memory allocating %ld byte temp buffer.
+Out of memory for colormap copy
+Out of memory reading of "%s"
+Out of memory reading of "%s"; tag ignored
+PackBits
 PackBitsDecode
+PageName
+PageNumber
+PerSample
+Photometric tag is missing, assuming data is YCbCr
+Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
+PhotometricInterpretation
+Photoshop
+PixarLog
+PixarLog compression can't handle %d bit linear encodings
+PixarLog compression can't handle bits depth/data format combination (depth: %d)
+PixarLogDecode
 PixarLogEncode
 PixarLogPostEncode
-PixarLogVSetField
-TIFFInitPixarLog
-PixarLogSetupDecode
 PixarLogPreDecode
-PixarLogDecode
-PixarLogSetupEncode
 PixarLogPreEncode
-?EPredictorSetup
+PixarLogSetupDecode
+PixarLogSetupEncode
+PixarLogVSetField
+PixelXDimension
+PixelYDimension
+PlanarConfiguration
+Planarconfig tag value assumed incorrect, assuming data is contig instead of chunky
+Planarconfiguration
+Predictor
 PredictorEncodeTile
-TIFFReadEncodedStrip
-TIFFReadRawStrip
-TIFFFillStrip
-TIFFReadEncodedTile
-TIFFReadRawTile
-TIFFFillTile
-TIFFReadBufferSetup
-TIFFFillStripPartial
-TIFFVStripSize
-TIFFRawStripSize64
-TIFFRawStripSize
-TIFFStripSize
-TIFFScanlineSize64
-TIFFScanlineSize
-TIFFRasterScanlineSize64
-TIFFRasterScanlineSize
-TIFFComputeStrip
-TIFFVStripSize64
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-ThunderDecodeRow
-ThunderSetupDecode
-ThunderDecode
-TIFFTileRowSize
-TIFFVTileSize64
-TIFFVTileSize
-TIFFTileSize
-LIBTIFF, Version 4.0.3\nCopyright (c) 1988-1996 Sam Leffler\nCopyright (c) 1991-1996 Silicon Graphics, Inc.
-TIFFWriteEncodedStrip
-TIFFWriteRawStrip
-TIFFWriteEncodedTile
-TIFFWriteRawTile
-TIFFWriteBufferSetup
+Premature EOF at line %u of %s %u (x %u)
+Premature EOL
+PrimaryChromaticities
+ProfileType
+QTiffHandler::canRead() called with no device
+QTiffPlugin
+QVarLengthArray::QVarLengthArray()
+QVector::QVector
+QVector<T>::at
+QVector<T>::operator[]
+Q_UNREACHABLE was reached
+Q_UNREACHABLE()
+RGB color
+RSDS
+RawDataUniqueID
+Read error at row %lu, col %lu, tile %lu; got %I64u bytes, expected %I64u
+Read error at row %lu, col %lu; got %I64u bytes, expected %I64u
+Read error at scanline %lu, strip %lu; got %I64u bytes, expected %I64u
+Read error at scanline %lu; got %I64u bytes, expected %I64u
+Read error on strip %lu; got %I64u bytes, expected %I64u
+ReadDirEntryArray
+ReductionMatrix1
+ReductionMatrix2
+ReferenceBlackWhite
+Registering anonymous field with tag %d (0x%x) failed
+RelatedSoundFile
+ResolutionUnit
+RichTIFFIPTC
+Row passed to TIFFReadRGBAStrip() must be first in a strip.
+Row pixels integer overflow (rowpixels %u)
+Row/col passed to TIFFReadRGBATile() must be topleft corner of a tile.
+RowsPerStrip
+SGILog
+SGILog compression cannot handle non-contiguous data
+SGILog compression supported only for %s, or raw data
+SGILog24
+SGILogDataFmt
+SGILogEncode
+SMaxSampleValue
+SMinSampleValue
+SampleFormat
+Samples/pixel
+SamplesPerPixel
+SamplesPerPixel tag is missing, applying correct SamplesPerPixel value of 3
+SamplesPerPixel tag is missing, assuming correct SamplesPerPixel value is 3
+Sanity check on directory count failed
+Sanity check on directory count failed, this is probably not a valid IFD offset
+Sanity check on directory count failed, zero tag directories not supported
+Sanity check on size of "%s" value failed
+Sanity check on size of "%s" value failed; tag ignored
+Sanity check on tag count failed, likely corrupt TIFF
+Saturation
+SceneCaptureType
+SceneType
+Seek error at row %lu, col %lu, tile %lu
+Seek error at scanline %lu
+Seek error at scanline %lu, strip %lu
+SensingMethod
+Setting up field info failed
+ShadowScale
+Sharpness
+ShutterSpeedValue
+Size must be greater than or equal to 0.
+SleepConditionVariableCS
+Software
+Sorry, LogL data must have %s=%d
+Sorry, LogLuv data must have %s=%d or %d
+Sorry, can not handle LogLuv images with %s=%d
+Sorry, can not handle RGB image with %s=%d
+Sorry, can not handle contiguous data with %s=%d, and %s=%d and Bits/Sample=%d
+Sorry, can not handle image
+Sorry, can not handle image with %s=%d
+Sorry, can not handle images with %d-bit samples
+Sorry, can not handle separated image with %s=%d
+Sorry, requested compression method is not configured
+SpatialFrequencyResponse
+SpectralSensitivity
+StoNits
+StripByteCounts
+StripOffsets
+StripRowCounts
+Strips
+SubIFD
+SubSecTime
+SubSecTimeDigitized
+SubSecTimeOriginal
+SubfileType
+SubjectArea
+SubjectDistance
+SubjectDistanceRange
+SubjectLocation
+T82Options
+TIFF Directory at offset 0x%I64x (%I64u)\n
+TIFF directory is missing required "%s" field
+TIFF directory is missing required "StripByteCounts" field, calculating from imagelength
+TIFFAdvanceDirectory
 TIFFAppendToStrip
-TIFFWriteScanline
-ZIPSetupDecode
-ZIPPreDecode
-ZIPDecode
-ZIPSetupEncode
-ZIPPreEncode
-ZIPEncode
-ZIPPostEncode
-ZIPVSetField
+TIFFClientOpen
+TIFFComputeStrip
+TIFFFetchDirectory
+TIFFFetchNormalTag
+TIFFFetchStripThing
+TIFFFetchSubjectDistance
+TIFFFieldWithName
+TIFFFieldWithTag
+TIFFFillStrip
+TIFFFillStripPartial
+TIFFFillTile
+TIFFInitCCITTFax3
+TIFFInitCCITTFax4
+TIFFInitLZW
+TIFFInitPixarLog
+TIFFInitSGILog
 TIFFInitZIP
+TIFFLinkDirectory
+TIFFMergeFieldInfo
+TIFFNumberOfStrips
+TIFFNumberOfTiles
 TIFFOpen
 TIFFOpenW
-InitializeConditionVariable
-SleepConditionVariableCS
-WakeAllConditionVariable
+TIFFPredictorInit
+TIFFRasterScanlineSize
+TIFFRasterScanlineSize64
+TIFFRawStripSize
+TIFFRawStripSize64
+TIFFReadBufferSetup
+TIFFReadCustomDirectory
+TIFFReadDirectory
+TIFFReadDirectoryCheckOrder
+TIFFReadEncodedStrip
+TIFFReadEncodedTile
+TIFFReadRawStrip
+TIFFReadRawTile
+TIFFRegisterCODEC
+TIFFResetField
+TIFFRewriteDirectory
+TIFFScanlineSize
+TIFFScanlineSize64
+TIFFSetField
+TIFFStripSize
+TIFFTileRowSize
+TIFFTileSize
+TIFFUnRegisterCODEC
+TIFFUnlinkDirectory
+TIFFVStripSize
+TIFFVStripSize64
+TIFFVTileSize
+TIFFVTileSize64
+TIFFWriteBufferSetup
+TIFFWriteDirectorySec
+TIFFWriteDirectoryTagCheckedRationalArray
+TIFFWriteDirectoryTagCheckedSrationalArray
+TIFFWriteDirectoryTagColormap
+TIFFWriteDirectoryTagData
+TIFFWriteDirectoryTagIfdIfd8Array
+TIFFWriteDirectoryTagLongLong8Array
+TIFFWriteDirectoryTagSampleformatArray
+TIFFWriteDirectoryTagShortPerSample
+TIFFWriteDirectoryTagSubifd
+TIFFWriteDirectoryTagTransferfunction
+TIFFWriteEncodedStrip
+TIFFWriteEncodedTile
+TIFFWriteRawStrip
+TIFFWriteRawTile
+TIFFWriteScanline
+TRUE
+Tag 
+Tag %d
+TargetPrinter
+Terminating PackBitsDecode due to lack of data.
+TextureFormat
+TextureWrapModes
+Threshholding
+ThunderDecode
+ThunderDecodeRow
+ThunderScan
+ThunderSetupDecode
+Tile %lu out of range, max %lu
+TileByteCounts
+TileDepth
+TileLength
+TileOffsets
+TileWidth
+Tiles
+Too much
+TransferFunction
+Uncompressed data (not supported) at line %u of %s %u (x %u)
+UniqueCameraModel
+Unknown
+Unknown data format %d for LogLuv compression
+Unknown encoding %d for LogLuv compression
 Unknown exception
+Unknown field with tag %d (0x%x) encountered
+Unsupported bits/sample: %d
+UserComment
+Value exceeds 32bit range of output type.
+VersionYear
+WakeAllConditionVariable
+Warning, 
+WhiteBalance
+WhiteLevel
+WhitePoint
+Write error at scanline %lu
+Wrong "StripByteCounts" field, ignoring and calculating from imagelength
+Wrong bitspersample value (%d), Thunder decoder only supports 4bits per sample.
+Wrong data type %d for "%s"; tag ignored
+Wrong length of decoded string: data probably corrupted at scanline %d
+XClipPathUnits
+XMLPacket
+XPosition
+XResolution
+XYZ, Luv
+YCbCr
+YCbCrCoefficients
+YCbCrPositioning
+YCbCrSubsampling
+YClipPathUnits
+YPosition
+YResolution
+ZIPDecode
+ZIPEncode
+ZIPPostEncode
+ZIPPreDecode
+ZIPPreEncode
+ZIPSetupDecode
+ZIPSetupEncode
+ZIPVSetField
+ZLib cannot deal with buffers this size
+ZLib error: %s
+\%03o
+_TIFFMergeFields
+_TIFFSetupFields
+_TIFFVGetField
+_TIFFVSetField
+aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
+aoB>"
+asize >= 0 && asize <= aalloc
+b\rr\nn\vv
 bad allocation
 bad array new length
-RSDS
-F:\qt5\qtimageformats\plugins\imageformats\qtiffd.pdb
-qtiffd.dll
+bilevel art scan\n
+bool __cdecl QTiffHandlerPrivate::canRead(class QIODevice *)
+centered\n
+class QFlags<enum QImageIOHandler::Transformation> __cdecl exif2Qt(int)
+complex IEEE floating point\n
+complex signed integer\n
+cosited\n
+custom tag binary object
+d != Data::unsharableEmpty()
+d->alloc >= uint(aalloc)
+d->data()
+d->size == asize
+error diffused\n
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvarlengtharray.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+field[%2d] %5lu, %2d, %2d, %d, %2d, %5s, %5s, %s\n
+floating point predictor 
+for "StripByteCounts" array
+for Group 3/4 run arrays
+for IFD list
+for chopped "StripByteCounts" array
+for chopped "StripOffsets" array
+for field buffer.
+for fields array
+for strip array
+gtStripSeparate
+gtTileSeparate
+halftone or dithered scan\n
+horizontal differencing 
+idx >= 0 && idx < s
+incorrect count for field "%s" (%llu, expecting %u); tag ignored
+incorrect count for field "%s" (%llu, expecting %u); tag trimmed
+incorrect count for field "%s", expected %d, got %d
+incorrect count for field "%s", expected 2, got %d
+index out of range
+initCIELabConversion
+initYCbCrConversion
+int __cdecl qt2Exif(class QFlags<enum QImageIOHandler::Transformation>)
+int(d->alloc) == aalloc
+isDetached()
+lsb-to-msb\n
+min-is-black
+min-is-white
+msb-to-lsb\n
+must be either LogLUV or LogL
+n$Kx
+none 
+palette color (RGB from colormap)
+pseudo-
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
 qt_plugin_instance
 qt_plugin_query_metadata
+qtiffd.dll
+qtiffhandler.cpp
+row 0 bottom, col 0 lhs
+row 0 bottom, col 0 rhs
+row 0 lhs, col 0 bottom
+row 0 lhs, col 0 top
+row 0 rhs, col 0 bottom
+row 0 rhs, col 0 top
+row 0 top, col 0 lhs
+row 0 top, col 0 rhs
+scanline
+separate image planes\n
+separated
+signed integer\n
+single image plane\n
+stride %lu is not a multiple of sample count, %lu, data truncated.
+strip
+strips
+strongref.load() <= 0
+tableSize <= 256
+tiff
+tile
+tiles
+to read TIFF directory
+transparency mask
+uint(d->size) <= d->alloc
+unknown tagname
+unsigned integer\n
+void\n
+x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)

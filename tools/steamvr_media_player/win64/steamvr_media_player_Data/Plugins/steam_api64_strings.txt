@@ -1,727 +1,137 @@
-|OA;
-|OA;
-|OA;
-|OA;
-|OA;
-|OA;
-|OA;
-|OA;
-|OA;
-|OA;
                           
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-PiC;
-PoC;
-|lC;
-|lC;
-|lC;
-|lC;
-|lC;
-puC;
-PoC;
-PiC;
-$9B;
-,9B;
-49B;
-<9B;
-D9B;
-L9B;
-T9B;
-\9B;
-d9B;
-h9B;
-l9B;
-p9B;
-x9B;
-\fvC;
-puC;
-kU'9
-HMXB
-?q=\n
-?Zd;
-?/L[
-S;uD
-z?aUY
-D?$?
-U>c{
-zc%C1
-.:3q
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ Type Descriptor'
+ delete
+ delete[]
+ new
+%02d:%02d:%02d
+%04d%02d%02d%02d%02d%02d
+%llu
+( 8PX
+('8PW
+(null)
 -64OS
-NKeb
-`CB;
-.?AVCCallbackBase@@
-.?AV?$CCallResult@VCRemoteStorageFileReadAsyncComplete_t_result@@URemoteStorageFileReadAsyncComplete_t@@@@
-.?AV?$CCallResult@VCRemoteStorageGetPublishedItemVoteDetailsResult_t_result@@URemoteStorageGetPublishedItemVoteDetailsResult_t@@@@
-.?AV?$CCallResult@VCFileDetailsResult_t_result@@UFileDetailsResult_t@@@@
-.?AV?$CCallResult@VCGSStatsStored_t_result@@UGSStatsStored_t@@@@
-.?AV?$CCallResult@VCStartPlaytimeTrackingResult_t_result@@UStartPlaytimeTrackingResult_t@@@@
-.?AV?$CCallResult@VCFriendsGetFollowerCount_t_result@@UFriendsGetFollowerCount_t@@@@
-.?AV?$CCallResult@VCFriendsIsFollowing_t_result@@UFriendsIsFollowing_t@@@@
-.?AV?$CCallResult@VCLobbyMatchList_t_result@@ULobbyMatchList_t@@@@
-.?AV?$CCallResult@VCRemoteStorageUpdatePublishedFileResult_t_result@@URemoteStorageUpdatePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCStoreAuthURLResponse_t_result@@UStoreAuthURLResponse_t@@@@
-.?AV?$CCallResult@VCLobbyCreated_t_result@@ULobbyCreated_t@@@@
-.?AV?$CCallResult@VCRemoteStorageFileWriteAsyncComplete_t_result@@URemoteStorageFileWriteAsyncComplete_t@@@@
-.?AV?$CCallResult@VCRemoteStorageDeletePublishedFileResult_t_result@@URemoteStorageDeletePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageGetPublishedFileDetailsResult_t_result@@URemoteStorageGetPublishedFileDetailsResult_t@@@@
+.?AV?$CCallResult@VCAddAppDependencyResult_t_result@@UAddAppDependencyResult_t@@@@
 .?AV?$CCallResult@VCAddUGCDependencyResult_t_result@@UAddUGCDependencyResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageDownloadUGCResult_t_result@@URemoteStorageDownloadUGCResult_t@@@@
-.?AV?$CCallResult@VCSteamUGCQueryCompleted_t_result@@USteamUGCQueryCompleted_t@@@@
-.?AV?$CCallResult@VCRemoteStorageFileShareResult_t_result@@URemoteStorageFileShareResult_t@@@@
-.?AV?$CCallResult@VCLobbyEnter_t_result@@ULobbyEnter_t@@@@
-.?AV?$CCallResult@VCSubmitItemUpdateResult_t_result@@USubmitItemUpdateResult_t@@@@
-.?AV?$CCallResult@VCNumberOfCurrentPlayers_t_result@@UNumberOfCurrentPlayers_t@@@@
-.?AV?$CCallResult@VCGSStatsReceived_t_result@@UGSStatsReceived_t@@@@
-.?AV?$CCallResult@VCHTML_BrowserReady_t_result@@UHTML_BrowserReady_t@@@@
-.?AV?$CCallResult@VCLeaderboardScoresDownloaded_t_result@@ULeaderboardScoresDownloaded_t@@@@
-.?AV?$CCallResult@VCRemoteStorageUpdateUserPublishedItemVoteResult_t_result@@URemoteStorageUpdateUserPublishedItemVoteResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumerateUserSubscribedFilesResult_t_result@@URemoteStorageEnumerateUserSubscribedFilesResult_t@@@@
+.?AV?$CCallResult@VCAssociateWithClanResult_t_result@@UAssociateWithClanResult_t@@@@
+.?AV?$CCallResult@VCCheckFileSignature_t_result@@UCheckFileSignature_t@@@@
+.?AV?$CCallResult@VCClanOfficerListResponse_t_result@@UClanOfficerListResponse_t@@@@
+.?AV?$CCallResult@VCComputeNewPlayerCompatibilityResult_t_result@@UComputeNewPlayerCompatibilityResult_t@@@@
 .?AV?$CCallResult@VCCreateItemResult_t_result@@UCreateItemResult_t@@@@
 .?AV?$CCallResult@VCDeleteItemResult_t_result@@UDeleteItemResult_t@@@@
-.?AV?$CCallResult@VCSetUserItemVoteResult_t_result@@USetUserItemVoteResult_t@@@@
-.?AV?$CCallResult@VCComputeNewPlayerCompatibilityResult_t_result@@UComputeNewPlayerCompatibilityResult_t@@@@
-.?AV?$CCallResult@VCLeaderboardScoreUploaded_t_result@@ULeaderboardScoreUploaded_t@@@@
+.?AV?$CCallResult@VCEncryptedAppTicketResponse_t_result@@UEncryptedAppTicketResponse_t@@@@
+.?AV?$CCallResult@VCFileDetailsResult_t_result@@UFileDetailsResult_t@@@@
+.?AV?$CCallResult@VCFriendsEnumerateFollowingList_t_result@@UFriendsEnumerateFollowingList_t@@@@
+.?AV?$CCallResult@VCFriendsGetFollowerCount_t_result@@UFriendsGetFollowerCount_t@@@@
+.?AV?$CCallResult@VCFriendsIsFollowing_t_result@@UFriendsIsFollowing_t@@@@
+.?AV?$CCallResult@VCGSReputation_t_result@@UGSReputation_t@@@@
+.?AV?$CCallResult@VCGSStatsReceived_t_result@@UGSStatsReceived_t@@@@
+.?AV?$CCallResult@VCGSStatsStored_t_result@@UGSStatsStored_t@@@@
+.?AV?$CCallResult@VCGetAppDependenciesResult_t_result@@UGetAppDependenciesResult_t@@@@
+.?AV?$CCallResult@VCGetUserItemVoteResult_t_result@@UGetUserItemVoteResult_t@@@@
 .?AV?$CCallResult@VCGlobalAchievementPercentagesReady_t_result@@UGlobalAchievementPercentagesReady_t@@@@
 .?AV?$CCallResult@VCGlobalStatsReceived_t_result@@UGlobalStatsReceived_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumeratePublishedFilesByUserActionResult_t_result@@URemoteStorageEnumeratePublishedFilesByUserActionResult_t@@@@
-.?AV?$CCallResult@VCClanOfficerListResponse_t_result@@UClanOfficerListResponse_t@@@@
-.?AV?$CCallResult@VCRemoteStoragePublishFileProgress_t_result@@URemoteStoragePublishFileProgress_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumerateWorkshopFilesResult_t_result@@URemoteStorageEnumerateWorkshopFilesResult_t@@@@
-.?AV?$CCallResult@VCRemoveUGCDependencyResult_t_result@@URemoveUGCDependencyResult_t@@@@
-.?AV?$CCallResult@VCGSReputation_t_result@@UGSReputation_t@@@@
-.?AV?$CCallResult@VCUserFavoriteItemsListChanged_t_result@@UUserFavoriteItemsListChanged_t@@@@
-.?AV?$CCallResult@VCAddAppDependencyResult_t_result@@UAddAppDependencyResult_t@@@@
-.?AV?$CCallResult@VCEncryptedAppTicketResponse_t_result@@UEncryptedAppTicketResponse_t@@@@
-.?AV?$CCallResult@VCRemoteStorageSetUserPublishedFileActionResult_t_result@@URemoteStorageSetUserPublishedFileActionResult_t@@@@
-.?AV?$CCallResult@VCStopPlaytimeTrackingResult_t_result@@UStopPlaytimeTrackingResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumerateUserPublishedFilesResult_t_result@@URemoteStorageEnumerateUserPublishedFilesResult_t@@@@
-.?AV?$CCallResult@VCFriendsEnumerateFollowingList_t_result@@UFriendsEnumerateFollowingList_t@@@@
-.?AV?$CCallResult@VCRemoteStorageSubscribePublishedFileResult_t_result@@URemoteStorageSubscribePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCGetUserItemVoteResult_t_result@@UGetUserItemVoteResult_t@@@@
-.?AV?$CCallResult@VCAssociateWithClanResult_t_result@@UAssociateWithClanResult_t@@@@
-.?AV?$CCallResult@VCLeaderboardUGCSet_t_result@@ULeaderboardUGCSet_t@@@@
-.?AV?$CCallResult@VCCheckFileSignature_t_result@@UCheckFileSignature_t@@@@
-.?AV?$CCallResult@VCGetAppDependenciesResult_t_result@@UGetAppDependenciesResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageUnsubscribePublishedFileResult_t_result@@URemoteStorageUnsubscribePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCSetPersonaNameResponse_t_result@@USetPersonaNameResponse_t@@@@
-.?AV?$CCallResult@VCRemoveAppDependencyResult_t_result@@URemoveAppDependencyResult_t@@@@
-.?AV?$CCallResult@VCUserStatsReceived_t_result@@UUserStatsReceived_t@@@@
-.?AV?$CCallResult@VCSteamInventoryEligiblePromoItemDefIDs_t_result@@USteamInventoryEligiblePromoItemDefIDs_t@@@@
+.?AV?$CCallResult@VCHTML_BrowserReady_t_result@@UHTML_BrowserReady_t@@@@
 .?AV?$CCallResult@VCJoinClanChatRoomCompletionResult_t_result@@UJoinClanChatRoomCompletionResult_t@@@@
 .?AV?$CCallResult@VCLeaderboardFindResult_t_result@@ULeaderboardFindResult_t@@@@
-.?AV?$CCallbackManual@VCUserStatsReceived_t@@UUserStatsReceived_t@@$0A@@@
+.?AV?$CCallResult@VCLeaderboardScoreUploaded_t_result@@ULeaderboardScoreUploaded_t@@@@
+.?AV?$CCallResult@VCLeaderboardScoresDownloaded_t_result@@ULeaderboardScoresDownloaded_t@@@@
+.?AV?$CCallResult@VCLeaderboardUGCSet_t_result@@ULeaderboardUGCSet_t@@@@
+.?AV?$CCallResult@VCLobbyCreated_t_result@@ULobbyCreated_t@@@@
+.?AV?$CCallResult@VCLobbyEnter_t_result@@ULobbyEnter_t@@@@
+.?AV?$CCallResult@VCLobbyMatchList_t_result@@ULobbyMatchList_t@@@@
+.?AV?$CCallResult@VCNumberOfCurrentPlayers_t_result@@UNumberOfCurrentPlayers_t@@@@
+.?AV?$CCallResult@VCRemoteStorageDeletePublishedFileResult_t_result@@URemoteStorageDeletePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageDownloadUGCResult_t_result@@URemoteStorageDownloadUGCResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumeratePublishedFilesByUserActionResult_t_result@@URemoteStorageEnumeratePublishedFilesByUserActionResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumerateUserPublishedFilesResult_t_result@@URemoteStorageEnumerateUserPublishedFilesResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumerateUserSubscribedFilesResult_t_result@@URemoteStorageEnumerateUserSubscribedFilesResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumerateWorkshopFilesResult_t_result@@URemoteStorageEnumerateWorkshopFilesResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageFileReadAsyncComplete_t_result@@URemoteStorageFileReadAsyncComplete_t@@@@
+.?AV?$CCallResult@VCRemoteStorageFileShareResult_t_result@@URemoteStorageFileShareResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageFileWriteAsyncComplete_t_result@@URemoteStorageFileWriteAsyncComplete_t@@@@
+.?AV?$CCallResult@VCRemoteStorageGetPublishedFileDetailsResult_t_result@@URemoteStorageGetPublishedFileDetailsResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageGetPublishedItemVoteDetailsResult_t_result@@URemoteStorageGetPublishedItemVoteDetailsResult_t@@@@
+.?AV?$CCallResult@VCRemoteStoragePublishFileProgress_t_result@@URemoteStoragePublishFileProgress_t@@@@
+.?AV?$CCallResult@VCRemoteStorageSetUserPublishedFileActionResult_t_result@@URemoteStorageSetUserPublishedFileActionResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageSubscribePublishedFileResult_t_result@@URemoteStorageSubscribePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageUnsubscribePublishedFileResult_t_result@@URemoteStorageUnsubscribePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageUpdatePublishedFileResult_t_result@@URemoteStorageUpdatePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageUpdateUserPublishedItemVoteResult_t_result@@URemoteStorageUpdateUserPublishedItemVoteResult_t@@@@
+.?AV?$CCallResult@VCRemoveAppDependencyResult_t_result@@URemoveAppDependencyResult_t@@@@
+.?AV?$CCallResult@VCRemoveUGCDependencyResult_t_result@@URemoveUGCDependencyResult_t@@@@
+.?AV?$CCallResult@VCSetPersonaNameResponse_t_result@@USetPersonaNameResponse_t@@@@
+.?AV?$CCallResult@VCSetUserItemVoteResult_t_result@@USetUserItemVoteResult_t@@@@
+.?AV?$CCallResult@VCStartPlaytimeTrackingResult_t_result@@UStartPlaytimeTrackingResult_t@@@@
+.?AV?$CCallResult@VCSteamInventoryEligiblePromoItemDefIDs_t_result@@USteamInventoryEligiblePromoItemDefIDs_t@@@@
+.?AV?$CCallResult@VCSteamUGCQueryCompleted_t_result@@USteamUGCQueryCompleted_t@@@@
+.?AV?$CCallResult@VCStopPlaytimeTrackingResult_t_result@@UStopPlaytimeTrackingResult_t@@@@
+.?AV?$CCallResult@VCStoreAuthURLResponse_t_result@@UStoreAuthURLResponse_t@@@@
+.?AV?$CCallResult@VCSubmitItemUpdateResult_t_result@@USubmitItemUpdateResult_t@@@@
+.?AV?$CCallResult@VCUserFavoriteItemsListChanged_t_result@@UUserFavoriteItemsListChanged_t@@@@
+.?AV?$CCallResult@VCUserStatsReceived_t_result@@UUserStatsReceived_t@@@@
+.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
+.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
+.?AV?$CCallback@VCGetOPFSettingsResult_t@@UGetOPFSettingsResult_t@@$0A@@@
 .?AV?$CCallback@VCUserStatsReceived_t@@UUserStatsReceived_t@@$0A@@@
+.?AV?$CCallbackImpl@$07@@
+.?AV?$CCallbackImpl@$0BA@@@
 .?AV?$CCallbackImpl@$0BI@@@
 .?AV?$CCallbackManual@VCGetOPFSettingsResult_t@@UGetOPFSettingsResult_t@@$0A@@@
-.?AV?$CCallback@VCGetOPFSettingsResult_t@@UGetOPFSettingsResult_t@@$0A@@@
-.?AV?$CCallbackImpl@$07@@
-.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
-.?AV?$CCallbackImpl@$0BA@@@
-.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
-.?AVbad_alloc@std@@
-.?AVexception@std@@
-.?AVtype_info@@
-.?AVbad_exception@std@@
-.?AVlogic_error@std@@
-.?AVlength_error@std@@
-.?AVout_of_range@std@@
-.?AVerror_category@std@@
+.?AV?$CCallbackManual@VCUserStatsReceived_t@@UUserStatsReceived_t@@$0A@@@
+.?AVCCallbackBase@@
 .?AV_Generic_error_category@std@@
 .?AV_Iostream_error_category@std@@
 .?AV_System_error_category@std@@
-PYB;
-PZB;
-P[B;
-P\B;
-P]B;
-P^B;
-P_B;
-P`B;
-PaB;
-PbB;
-PcB;
-PdB;
-PeB;
-PfB;
-PgB;
-PhB;
-PiB;
-PjB;
-PkB;
-PlB;
-PmB;
-PnB;
-PoB;
-PpB;
-PqB;
-PrB;
-PsB;
-PtB;
-PuB;
-PvB;
-0yB;
-8zB;
-Steam_BGetCallback
-Steam_FreeLastCallback
-Steam_GetAPICallResult
-map/set<T> too long
-steamclient.dll
-steamclient64.dll
-steam2.dll
-steamui.dll
-bin\clientui.dll
-steamconsole64.dll
-gameoverlayrenderer64.dll
-win64\audio.dll
-SteamClient017
-SteamUser019
-SteamUtils009
-SteamController005
-%s%c%s
+.?AVbad_alloc@std@@
+.?AVbad_exception@std@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVtype_info@@
 0123456789ABCDEF
-CreateInterface
-HKEY_LOCAL_MACHINE
-HKLM
-HKEY_CURRENT_USER
-HKCU
-HKEY_CLASSES_ROOT
-HKCR
-SteamClientDll64
-Software\Valve\Steam\ActiveProcess
-[S_API FAIL] SteamAPI_Init() failed; Sys_LoadModule failed to load: %s\n
-[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.\n
-[S_API FAIL] SteamAPI_Init() failed; unable to locate a running instance of Steam, or a local %s.\n
-[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.\n
-Steam_ReleaseThreadLocalMemory
-[S_API FAIL] SteamAPI_Init() failed; connect to global user failed.
-[S_API FAIL] SteamAPI_Init() failed; create pipe failed.
-[S_API FAIL] SteamAPI_Init() failed; no appID found.\nEither launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.\n
-SteamAppId
-SteamGameId
-%llu
-steam_appid.txt
-steam://run/%u
-steam://run/%u//
-InstallPath
-Software\Valve\Steam
-\steam.exe
-%s\%s
-Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
-Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
-Looking up breakpad interfaces from steamclient\n
-Breakpad_SteamWriteMiniDumpUsingExceptionInfoWithBuildId
-Breakpad_SteamWriteMiniDumpSetComment
-Breakpad_SteamSetSteamID
-Breakpad_SteamSetAppID
-Breakpad_SteamMiniDumpInit
-Calling BreakpadMiniDumpSystemInit\n
-Setting breakpad minidump AppID = %u\n
-Forcing breakpad minidump interfaces to load\n
-Using breakpad crash handler\n
-%02d:%02d:%02d
-%04d%02d%02d%02d%02d%02d
-SteamClientDll
-SteamGameServer012
-bad allocation
-_hypot
-Unknown exception
-e+000
-CorExitProcess
-0|B;
-bad exception
-Sunday
-Monday
-Tuesday
-Wednesday
-Thursday
-Friday
-Saturday
-January
-February
-March
-April
-June
-July
-August
-September
-October
-November
-December
-MM/dd/yy
-dddd, MMMM dd, yyyy
-HH:mm:ss
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-UTF-8
-UTF-16LE
-UNICODE
-(null)
-( 8PX
-700WP
-`h````
-xpxxxx
-FlsAlloc
-FlsFree
-FlsGetValue
-FlsSetValue
-InitializeCriticalSectionEx
-CreateEventExW
-CreateSemaphoreExW
-SetThreadStackGuarantee
-CreateThreadpoolTimer
-SetThreadpoolTimer
-WaitForThreadpoolTimerCallbacks
-CloseThreadpoolTimer
-CreateThreadpoolWait
-SetThreadpoolWait
-CloseThreadpoolWait
-FlushProcessWriteBuffers
-FreeLibraryWhenCallbackReturns
-GetCurrentProcessorNumber
-GetLogicalProcessorInformation
-CreateSymbolicLinkW
-SetDefaultDllDirectories
-EnumSystemLocalesEx
-CompareStringEx
-GetDateFormatEx
-GetLocaleInfoEx
-GetTimeFormatEx
-GetUserDefaultLocaleName
-IsValidLocaleName
-LCMapStringEx
-GetCurrentPackageId
-GetTickCount64
-GetFileInformationByHandleExW
-SetFileInformationByHandleW
-  B;
-0 B;
-H B;
-X B;
-h B;
-x B;
- !B;
-0!B;
-@!B;
-P!B;
-`!B;
-p!B;
-("B;
-8"B;
-P"B;
-`"B;
-p"B;
-(#B;
-8#B;
-H#B;
-X#B;
-h#B;
-x#B;
-($B;
-8$B;
-H$B;
-X$B;
-h$B;
-x$B;
- %B;
-0%B;
-@%B;
-P%B;
-`%B;
-p%B;
- &B;
-8&B;
-H&B;
-X&B;
-h&B;
-x&B;
-('B;
-8'B;
-H'B;
-X'B;
-h'B;
-x'B;
-((B;
-8(B;
-H(B;
-X(B;
-h(B;
-x(B;
-()B;
-8)B;
-H)B;
-X)B;
-h)B;
-x)B;
-(*B;
-8*B;
-H*B;
-X*B;
-h*B;
-x*B;
-(+B;
-8+B;
-H+B;
-X+B;
-h+B;
-x+B;
-(,B;
-8,B;
-H,B;
-X,B;
-h,B;
-x,B;
-0-B;
-H-B;
-`-B;
-x-B;
-(.B;
-8.B;
-P.B;
-h.B;
-x.B;
-(2B;
-82B;
-@2B;
-P2B;
-`2B;
-p2B;
- 3B;
-$3B;
-(3B;
-,3B;
 03B;
-43B;
-83B;
-<3B;
-@3B;
-D3B;
-H3B;
-L3B;
-P3B;
-T3B;
-X3B;
-\3B;
-`3B;
-d3B;
-h3B;
-l3B;
-p3B;
-t3B;
-x3B;
-|3B;
 04B;
-P4B;
-p4B;
- 5B;
-@5B;
-h5B;
-(6B;
-H6B;
-p6B;
-87B;
-`7B;
 08B;
-P8B;
-__based(
-__cdecl
-__pascal
-__stdcall
-__thiscall
-__fastcall
-__vectorcall
-__clrcall
-__eabi
-__ptr64
-__restrict
-__unaligned
-restrict(
- new
- delete
-operator
-`vftable'
-`vbtable'
-`vcall'
-`typeof'
-`local static guard'
-`string'
-`vbase destructor'
-`vector deleting destructor'
-`default constructor closure'
-`scalar deleting destructor'
-`vector constructor iterator'
-`vector destructor iterator'
-`vector vbase constructor iterator'
-`virtual displacement map'
-`eh vector constructor iterator'
-`eh vector destructor iterator'
-`eh vector vbase constructor iterator'
-`copy constructor closure'
-`udt returning'
-`RTTI
-`local vftable'
-`local vftable constructor closure'
- new[]
- delete[]
-`omni callsig'
-`placement delete closure'
-`placement delete[] closure'
-`managed vector constructor iterator'
-`managed vector destructor iterator'
-`eh vector copy constructor iterator'
-`eh vector vbase copy constructor iterator'
-`dynamic initializer for '
-`dynamic atexit destructor for '
-`vector copy constructor iterator'
-`vector vbase copy constructor iterator'
-`managed vector copy constructor iterator'
-`local static thread guard'
- Type Descriptor'
- Base Class Descriptor at (
- Base Class Array'
- Class Hierarchy Descriptor'
- Complete Object Locator'
-MessageBoxW
-GetActiveWindow
-GetLastActivePopup
-GetUserObjectInformationW
-GetProcessWindowStation
-log10
-sinh
-cosh
-tanh
-asin
-acos
-atan
-atan2
-sqrt
-ceil
-floor
-fabs
-modf
-ldexp
-_cabs
-fmod
-frexp
-_logb
-_nextafter
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-('8PW
-700PP
-`h`hhh
-xppwpp
-1#SNAN
+0yB;
 1#IND
 1#INF
 1#QNAN
-CreateFile2
-0}B;
-@~B;
-generic
-unknown error
-iostream
-iostream stream error
-system
-string too long
-invalid string position
-(NB;
+1#SNAN
+43B;
+49B;
+700PP
+700WP
+82B;
+83B;
+87B;
 8NB;
-HNB;
-`NB;
-`NB;
-xNB;
-xNB;
-xNB;
-8NB;
-`NB;
-(NB;
-8NB;
- OB;
 8OB;
-XOB;
-xNB;
-`NB;
-pOB;
- OB;
-xNB;
-8OB;
-xNB;
-xNB;
- PB;
 8PB;
-PPB;
-hPB;
- QB;
 8QB;
-HQB;
-`QB;
-pQB;
-(RB;
 8RB;
-PRB;
-pRB;
-(SB;
-@SB;
-`SB;
-xSB;
-XOB;
-`NB;
-(NB;
-HNB;
- TB;
-HTB;
-xNB;
-XTB;
-hTB;
-xTB;
- UB;
 8UB;
-8NB;
-XUB;
-hUB;
-xUB;
- OB;
-pOB;
-(VB;
 8VB;
-PVB;
-hVB;
-8OB;
 8WB;
-HWB;
-permission denied
-file exists
-no such device
-filename too long
-device or resource busy
-io error
-directory not empty
-invalid argument
-no space on device
-no such file or directory
-function not supported
-no lock available
-not enough memory
-resource unavailable try again
-cross device link
-operation canceled
-too many files open
-permission_denied
-address_in_use
-address_not_available
-address_family_not_supported
-connection_already_in_progress
-bad_file_descriptor
-connection_aborted
-connection_refused
-connection_reset
-destination_address_required
-bad_address
-host_unreachable
-operation_in_progress
-interrupted
-invalid_argument
-already_connected
-too_many_files_open
-message_size
-filename_too_long
-network_down
-network_reset
-network_unreachable
-no_buffer_space
-no_protocol_option
-not_connected
-not_a_socket
-operation_not_supported
-protocol_not_supported
-wrong_protocol_type
-timed_out
-operation_would_block
-address family not supported
-address in use
-address not available
-already connected
-argument list too long
-argument out of domain
-bad address
-bad file descriptor
-bad message
-broken pipe
-connection aborted
-connection already in progress
-connection refused
-connection reset
-destination address required
-executable format error
-file too large
-host unreachable
-identifier removed
-illegal byte sequence
-inappropriate io control operation
-invalid seek
-is a directory
-message size
-network down
-network reset
-network unreachable
-no buffer space
-no child process
-no link
-no message available
-no message
-no protocol option
-no stream resources
-no such device or address
-no such process
-not a directory
-not a socket
-not a stream
-not connected
-not supported
-operation in progress
-operation not permitted
-operation not supported
-operation would block
-owner dead
-protocol error
-protocol not supported
-read only file system
-resource deadlock would occur
-result out of range
-state not recoverable
-stream timeout
-text file busy
-timed out
-too many files open in system
-too many links
-too many symbolic link levels
-value too large
-wrong protocol type
- gC;
-RSDS(e
-c:\buildslave\steam_rel_client_win64\build\src\steam_api\win64\Release\steam_api64.pdb
-\fp\v`
-\fp\v`
-\fp\v`
-\fp\v`
-\rp\f`\vP
-\rp\f`\t
-\rp\f`\vP\t\r
-\fp\v`|
-\fp\v`
-\vp\n`
-\fp\v`
-\vp\n`
-\vp\n`
-\rp\f`\v0\nP
-\vp\n`
-steam_api64.dll
+8zB;
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADVAPI32.dll
+April
+AreFileApisANSI
+August
+Breakpad_SteamMiniDumpInit
+Breakpad_SteamSetAppID
+Breakpad_SteamSetSteamID
+Breakpad_SteamWriteMiniDumpSetComment
+Breakpad_SteamWriteMiniDumpUsingExceptionInfoWithBuildId
 CAddAppDependencyResult_t_RemoveCallResult
 CAddAppDependencyResult_t_SetCallResult
 CAddUGCDependencyResult_t_RemoveCallResult
@@ -844,8 +254,197 @@ CUserStatsReceived_t_RemoveCallResult
 CUserStatsReceived_t_RemoveCallback
 CUserStatsReceived_t_SetCallResult
 CUserStatsReceived_t_SetCallback
+Calling BreakpadMiniDumpSystemInit\n
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CompareStringEx
+CorExitProcess
+CreateEventExW
+CreateFile2
+CreateFileW
+CreateInterface
+CreateSemaphoreExW
+CreateSymbolicLinkW
+CreateThreadpoolTimer
+CreateThreadpoolWait
+D3B;
+D9B;
+December
+DecodePointer
+DeleteCriticalSection
+EncodePointer
+EnterCriticalSection
+EnumSystemLocalesEx
+ExitProcess
+February
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+Forcing breakpad minidump interfaces to load\n
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryWhenCallbackReturns
+Friday
+GetACP
+GetActiveWindow
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetConsoleCP
+GetConsoleMode
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentThreadId
+GetDateFormatEx
+GetEnvironmentStringsW
+GetEnvironmentVariableA
+GetExitCodeProcess
+GetFileAttributesW
+GetFileInformationByHandleExW
+GetFileType
 GetHSteamPipe
 GetHSteamUser
+GetLastActivePopup
+GetLastError
+GetLocaleInfoEx
+GetLogicalProcessorInformation
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetProcessWindowStation
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTimeAsFileTime
+GetTickCount64
+GetTimeFormatEx
+GetUserDefaultLocaleName
+GetUserObjectInformationW
+H3B;
+H6B;
+HH:mm:ss
+HKCR
+HKCU
+HKEY_CLASSES_ROOT
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHINE
+HKLM
+HMXB
+HNB;
+HQB;
+HTB;
+HWB;
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InstallPath
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+IsValidLocaleName
+January
+July
+June
+KERNEL32.dll
+L3B;
+L9B;
+LCMapStringEx
+LCMapStringW
+LeaveCriticalSection
+LoadLibraryExA
+LoadLibraryExW
+Looking up breakpad interfaces from steamclient\n
+MM/dd/yy
+March
+MessageBoxW
+Monday
+MultiByteToWideChar
+NKeb
+November
+October
+OpenProcess
+OutputDebugStringA
+OutputDebugStringW
+P2B;
+P3B;
+P4B;
+P8B;
+PPB;
+PRB;
+PVB;
+PYB;
+PZB;
+PaB;
+PbB;
+PcB;
+PdB;
+PeB;
+PfB;
+PgB;
+PhB;
+PiB;
+PiC;
+PjB;
+PkB;
+PlB;
+PmB;
+PnB;
+PoB;
+PoC;
+PpB;
+PqB;
+PrB;
+PsB;
+PtB;
+PuB;
+PvB;
+QueryPerformanceCounter
+RSDS(e
+RaiseException
+ReadConsoleW
+ReadFile
+RegCloseKey
+RegOpenKeyExW
+RegQueryValueExW
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+S;uD
+SHELL32.dll
+Saturday
+September
+SetDefaultDllDirectories
+SetEndOfFile
+SetEnvironmentVariableA
+SetFileInformationByHandleW
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetThreadStackGuarantee
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUnhandledExceptionFilter
+Setting breakpad minidump AppID = %u\n
+ShellExecuteW
+Sleep
+Software\Valve\Steam
+Software\Valve\Steam\ActiveProcess
 SteamAPI_GetHSteamPipe
 SteamAPI_GetHSteamUser
 SteamAPI_GetSteamInstallPath
@@ -1548,7 +1147,14 @@ SteamAPI_UnregisterCallResult
 SteamAPI_UnregisterCallback
 SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
+SteamAppId
 SteamClient
+SteamClient017
+SteamClientDll
+SteamClientDll64
+SteamController005
+SteamGameId
+SteamGameServer012
 SteamGameServer_BSecure
 SteamGameServer_GetHSteamPipe
 SteamGameServer_GetHSteamUser
@@ -1560,93 +1166,284 @@ SteamGameServer_Shutdown
 SteamInternal_ContextInit
 SteamInternal_CreateInterface
 SteamInternal_GameServer_Init
+SteamUser019
+SteamUtils009
+Steam_BGetCallback
+Steam_FreeLastCallback
+Steam_GetAPICallResult
 Steam_GetHSteamUserCurrent
 Steam_RegisterInterfaceFuncs
+Steam_ReleaseThreadLocalMemory
 Steam_RunCallbacks
-g_pSteamClientGameServer
-GetProcAddress
-FreeLibrary
-OpenProcess
-GetExitCodeProcess
-CloseHandle
-LoadLibraryExA
-LoadLibraryExW
-GetModuleFileNameW
-GetModuleHandleA
-GetModuleHandleExW
-GetCommandLineW
-GetEnvironmentVariableA
-SetEnvironmentVariableA
-OutputDebugStringA
-GetFileAttributesW
-MultiByteToWideChar
-WideCharToMultiByte
-KERNEL32.dll
-RegCloseKey
-RegOpenKeyExW
-RegQueryValueExW
-ADVAPI32.dll
-ShellExecuteW
-SHELL32.dll
-EncodePointer
-DecodePointer
-GetLastError
-HeapFree
-HeapAlloc
-RtlPcToFileHeader
-RaiseException
-RtlLookupFunctionEntry
-RtlUnwindEx
-EnterCriticalSection
-LeaveCriticalSection
-GetCommandLineA
-GetCurrentThreadId
-IsProcessorFeaturePresent
-ExitProcess
-AreFileApisANSI
-HeapSize
-GetProcessHeap
-GetStdHandle
-WriteFile
-SetLastError
-IsDebuggerPresent
-IsValidCodePage
-GetACP
-GetOEMCP
-GetCPInfo
-DeleteCriticalSection
-GetFileType
-GetStartupInfoW
-GetModuleFileNameA
-QueryPerformanceCounter
-GetCurrentProcessId
-GetSystemTimeAsFileTime
-GetEnvironmentStringsW
-FreeEnvironmentStringsW
-RtlCaptureContext
-RtlVirtualUnwind
-UnhandledExceptionFilter
-SetUnhandledExceptionFilter
-InitializeCriticalSectionAndSpinCount
-Sleep
-GetCurrentProcess
+Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
+Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
+Sunday
+T3B;
+T9B;
 TerminateProcess
+Thursday
 TlsAlloc
+TlsFree
 TlsGetValue
 TlsSetValue
-TlsFree
-GetModuleHandleW
-LCMapStringW
-HeapReAlloc
-OutputDebugStringW
-GetStringTypeW
-FlushFileBuffers
-GetConsoleCP
-GetConsoleMode
-SetStdHandle
-ReadFile
-ReadConsoleW
-SetFilePointerEx
+Tuesday
+UNICODE
+UTF-16LE
+UTF-8
+UnhandledExceptionFilter
+Unknown exception
+Using breakpad crash handler\n
+WaitForThreadpoolTimerCallbacks
+Wednesday
+WideCharToMultiByte
 WriteConsoleW
-CreateFileW
-SetEndOfFile
+WriteFile
+X3B;
+XOB;
+XTB;
+XUB;
+[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.\n
+[S_API FAIL] SteamAPI_Init() failed; Sys_LoadModule failed to load: %s\n
+[S_API FAIL] SteamAPI_Init() failed; connect to global user failed.
+[S_API FAIL] SteamAPI_Init() failed; create pipe failed.
+[S_API FAIL] SteamAPI_Init() failed; no appID found.\nEither launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.\n
+[S_API FAIL] SteamAPI_Init() failed; unable to locate a running instance of Steam, or a local %s.\n
+[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.\n
+\steam.exe
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_hypot
+_logb
+_nextafter
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+acos
+address family not supported
+address in use
+address not available
+address_family_not_supported
+address_in_use
+address_not_available
+already connected
+already_connected
+argument list too long
+argument out of domain
+asin
+atan
+atan2
+bad address
+bad allocation
+bad exception
+bad file descriptor
+bad message
+bad_address
+bad_file_descriptor
+bin\clientui.dll
+broken pipe
+c:\buildslave\steam_rel_client_win64\build\src\steam_api\win64\Release\steam_api64.pdb
+ceil
+connection aborted
+connection already in progress
+connection refused
+connection reset
+connection_aborted
+connection_already_in_progress
+connection_refused
+connection_reset
+cosh
+cross device link
+d3B;
+d9B;
+dddd, MMMM dd, yyyy
+destination address required
+destination_address_required
+device or resource busy
+directory not empty
+e+000
+executable format error
+fabs
+file exists
+file too large
+filename too long
+filename_too_long
+floor
+fmod
+frexp
+function not supported
+g_pSteamClientGameServer
+gameoverlayrenderer64.dll
+generic
+h3B;
+h5B;
+h9B;
+hPB;
+hTB;
+hUB;
+hVB;
+host unreachable
+host_unreachable
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+interrupted
+invalid argument
+invalid seek
+invalid string position
+invalid_argument
+io error
+iostream
+iostream stream error
+is a directory
+kU'9
+l3B;
+l9B;
+ldexp
+log10
+map/set<T> too long
+message size
+message_size
+modf
+network down
+network reset
+network unreachable
+network_down
+network_reset
+network_unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+no_buffer_space
+no_protocol_option
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+not_a_socket
+not_connected
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operation_in_progress
+operation_not_supported
+operation_would_block
+operator
+owner dead
+p2B;
+p3B;
+p4B;
+p6B;
+p9B;
+pOB;
+pQB;
+pRB;
+permission denied
+permission_denied
+protocol error
+protocol not supported
+protocol_not_supported
+puC;
+read only file system
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+sinh
+sqrt
+state not recoverable
+steam2.dll
+steam://run/%u
+steam://run/%u//
+steam_api64.dll
+steam_appid.txt
+steamclient.dll
+steamclient64.dll
+steamconsole64.dll
+steamui.dll
+stream timeout
+string too long
+system
+t3B;
+tanh
+text file busy
+timed out
+timed_out
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+too_many_files_open
+unknown error
+value too large
+win64\audio.dll
+wrong protocol type
+wrong_protocol_type
+x3B;
+x9B;
+xNB;
+xSB;
+xTB;
+xUB;
+xppwpp
+xpxxxx
+z?aUY
+zc%C1

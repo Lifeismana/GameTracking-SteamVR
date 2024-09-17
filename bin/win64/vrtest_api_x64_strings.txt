@@ -1,259 +1,238 @@
-.?AVbad_alloc@std@@
-.?AVexception@std@@
-.?AVlogic_error@std@@
-.?AVlength_error@std@@
-.?AVout_of_range@std@@
-.?AVtype_info@@
-.?AVbad_exception@std@@
                           
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-IHmdSystem_003
-IHmd_005
-invalid string position
-string too long
-HmdSystemFactory
-vrclient_x64.dll
-./vr
-VR_PLATFORM_INSTALL_PATH
-VR_OVERRIDE
-config
-logs
-Connect to VR Server Failed (301)
-Shared IPC State Init Failed (302)
-Unable to connect to Oculus Runtime (1000)
-Unknown error (%d)
-VR Server Init Failed (300)
-Driver Not Loaded (202)
-HMD Not Known (201)
-Driver Not Known (201)
-Driver Failed (200)
-Not Initialized (109)
-Hmd Not Found (108)
-User Config Directory Invalid (107)
-Invalid Interface (106)
-Interface Not Found (105)
-Factory Function Not Found (104)
-File Not Found (103)
-vrclient Shared Lib Not Found (102)
-Installation Corrupt (101)
-Installation Not Found (100)
-No Error (0)
-Unknown exception
-bad allocation
-bad exception
-CorExitProcess
-(null)
-( 8PX
-700WP
-`h````
-xpxxxx
-.com
-.bat
-.cmd
-.exe
- Complete Object Locator'
- Class Hierarchy Descriptor'
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
  Type Descriptor'
-`local static thread guard'
-`managed vector copy constructor iterator'
-`vector vbase copy constructor iterator'
-`vector copy constructor iterator'
-`dynamic atexit destructor for '
-`dynamic initializer for '
-`eh vector vbase copy constructor iterator'
-`eh vector copy constructor iterator'
-`managed vector destructor iterator'
-`managed vector constructor iterator'
-`placement delete[] closure'
-`placement delete closure'
-`omni callsig'
- delete[]
- new[]
-`local vftable constructor closure'
-`local vftable'
-`RTTI
-`udt returning'
-`copy constructor closure'
-`eh vector vbase constructor iterator'
-`eh vector destructor iterator'
-`eh vector constructor iterator'
-`virtual displacement map'
-`vector vbase constructor iterator'
-`vector destructor iterator'
-`vector constructor iterator'
-`scalar deleting destructor'
-`default constructor closure'
-`vector deleting destructor'
-`vbase destructor'
-`string'
-`local static guard'
-`typeof'
-`vcall'
-`vbtable'
-`vftable'
-operator
  delete
+ delete[]
  new
-__unaligned
-__restrict
-__ptr64
-__eabi
-__clrcall
-__fastcall
-__thiscall
-__stdcall
-__pascal
-__cdecl
-__based(
-HH:mm:ss
-dddd, MMMM dd, yyyy
-MM/dd/yy
-December
-November
-October
-September
-August
-July
-June
-April
-March
-February
-January
-Saturday
-Friday
-Thursday
-Wednesday
-Tuesday
-Monday
-Sunday
+( 8PX
 ('8PW
+(null)
+.?AVbad_alloc@std@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVtype_info@@
+.bat
+.cmd
+.com
+.exe
 700PP
-`h`hhh
-xppwpp
-SunMonTueWedThuFriSat
-JanFebMarAprMayJunJulAugSepOctNovDec
-GetProcessWindowStation
-GetUserObjectInformationW
-GetLastActivePopup
-GetActiveWindow
-MessageBoxW
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-RSDS
-c:\buildslave\steamvr_main_win32\build\src\vrtest_api\Release\win64\vrtest_api_x64.pdb
-\rp\f`
-\rp\f`\vP
-\fp\vP
-\vp\n`
-\vp\n`
-\vp\n`
-p\r`\fP
-\fp\vP
-\rp\f`\v0\nP
-\fp\v`
-\vp\n`
-\fp\v`\nP
-LoadLibraryExA
-GetProcAddress
-FreeLibrary
-GetModuleFileNameA
-GetLastError
-WideCharToMultiByte
-GetModuleFileNameW
-SetEnvironmentVariableA
-GetEnvironmentVariableA
-RaiseException
-RtlPcToFileHeader
-RtlLookupFunctionEntry
-RtlUnwindEx
-GetCurrentThreadId
-FlsSetValue
-GetCommandLineA
-FindClose
-FileTimeToSystemTime
-FileTimeToLocalFileTime
-GetDriveTypeA
-FindFirstFileExA
-EnterCriticalSection
-LeaveCriticalSection
-GetDriveTypeW
-GetFullPathNameA
-HeapAlloc
-HeapFree
-EncodePointer
-DecodePointer
-FlsGetValue
-FlsFree
-SetLastError
-FlsAlloc
-TerminateProcess
-GetCurrentProcess
-UnhandledExceptionFilter
-SetUnhandledExceptionFilter
-IsDebuggerPresent
-RtlVirtualUnwind
-RtlCaptureContext
-Sleep
-GetModuleHandleW
-ExitProcess
-SetHandleCount
-GetStdHandle
-InitializeCriticalSectionAndSpinCount
-GetFileType
-GetStartupInfoW
-DeleteCriticalSection
-FreeEnvironmentStringsW
-GetEnvironmentStringsW
-HeapSetInformation
-GetVersion
-HeapCreate
-HeapDestroy
-QueryPerformanceCounter
-GetTickCount
-GetCurrentProcessId
-GetSystemTimeAsFileTime
+700WP
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+April
+August
 CloseHandle
-GetFileInformationByHandle
-PeekNamedPipe
+CompareStringW
+Connect to VR Server Failed (301)
+CorExitProcess
 CreateFileA
-GetCurrentDirectoryW
-WriteFile
-HeapSize
-GetCPInfo
+CreateFileW
+December
+DecodePointer
+DeleteCriticalSection
+Driver Failed (200)
+Driver Not Known (201)
+Driver Not Loaded (202)
+EncodePointer
+EnterCriticalSection
+ExitProcess
+Factory Function Not Found (104)
+February
+File Not Found (103)
+FileTimeToLocalFileTime
+FileTimeToSystemTime
+FindClose
+FindFirstFileExA
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FreeEnvironmentStringsW
+FreeLibrary
+Friday
 GetACP
-GetOEMCP
-IsValidCodePage
-HeapReAlloc
-LoadLibraryW
-SetFilePointer
+GetActiveWindow
+GetCPInfo
+GetCommandLineA
 GetConsoleCP
 GetConsoleMode
-SetStdHandle
-SetEndOfFile
+GetCurrentDirectoryW
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetDriveTypeA
+GetDriveTypeW
+GetEnvironmentStringsW
+GetEnvironmentVariableA
+GetFileInformationByHandle
+GetFileType
+GetFullPathNameA
+GetLastActivePopup
+GetLastError
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
 GetProcessHeap
-MultiByteToWideChar
-ReadFile
-GetTimeZoneInformation
-LCMapStringW
-FlushFileBuffers
+GetProcessWindowStation
+GetStartupInfoW
+GetStdHandle
 GetStringTypeW
-WriteConsoleW
-CreateFileW
-CompareStringW
+GetSystemTimeAsFileTime
+GetTickCount
+GetTimeZoneInformation
+GetUserObjectInformationW
+GetVersion
+HH:mm:ss
+HMD Not Known (201)
+HeapAlloc
+HeapCreate
+HeapDestroy
+HeapFree
+HeapReAlloc
+HeapSetInformation
+HeapSize
+Hmd Not Found (108)
+HmdSystemFactory
+IHmdSystem_003
+IHmd_005
+InitializeCriticalSectionAndSpinCount
+Installation Corrupt (101)
+Installation Not Found (100)
+Interface Not Found (105)
+Invalid Interface (106)
+IsDebuggerPresent
+IsValidCodePage
+JanFebMarAprMayJunJulAugSepOctNovDec
+January
+July
+June
 KERNEL32.dll
-vrtest_api_x64.dll
+LCMapStringW
+LeaveCriticalSection
+LoadLibraryExA
+LoadLibraryW
+MM/dd/yy
+March
+MessageBoxW
+Monday
+MultiByteToWideChar
+No Error (0)
+Not Initialized (109)
+November
+October
+PeekNamedPipe
+QueryPerformanceCounter
+RSDS
+RaiseException
+ReadFile
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+Saturday
+September
+SetEndOfFile
+SetEnvironmentVariableA
+SetFilePointer
+SetHandleCount
+SetLastError
+SetStdHandle
+SetUnhandledExceptionFilter
+Shared IPC State Init Failed (302)
+Sleep
+SunMonTueWedThuFriSat
+Sunday
+TerminateProcess
+Thursday
+Tuesday
+Unable to connect to Oculus Runtime (1000)
+UnhandledExceptionFilter
+Unknown error (%d)
+Unknown exception
+User Config Directory Invalid (107)
+VR Server Init Failed (300)
 VR_GetGenericInterface
 VR_GetStringForHmdError
 VR_Init
 VR_IsHmdPresent
+VR_OVERRIDE
+VR_PLATFORM_INSTALL_PATH
 VR_Shutdown
+Wednesday
+WideCharToMultiByte
+WriteConsoleW
+WriteFile
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+bad allocation
+bad exception
+c:\buildslave\steamvr_main_win32\build\src\vrtest_api\Release\win64\vrtest_api_x64.pdb
+config
+dddd, MMMM dd, yyyy
+invalid string position
+logs
+operator
+string too long
+vrclient Shared Lib Not Found (102)
+vrclient_x64.dll
+vrtest_api_x64.dll
+xppwpp
+xpxxxx

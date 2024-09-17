@@ -1,43 +1,18 @@
-.?AVQTgaHandler@@
-.?AVQImageIOHandler@@
-.?AUTgaReader@@
+-Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
+.00cfg
 .?AUTga16Reader@@
 .?AUTga24Reader@@
 .?AUTga32Reader@@
-.?AVQTgaPlugin@@
+.?AUTgaReader@@
+.?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
 .?AVQObject@@
-.?AVtype_info@@
+.?AVQTgaHandler@@
+.?AVQTgaPlugin@@
 .?AVbad_alloc@std@@
-.?AVexception@std@@
 .?AVbad_array_new_length@std@@
-QTgaHandler::canRead() called with no device
-QTgaFile
-Could not read image data
-Sequential device (eg socket) for image read not supported
-Seek file/device for image read failed
-Image header read failed
-Image type not supported
-Image depth not valid
-Could not seek to image read footer
-Could not read footer
-TRUEVISION-XFILE
-Image type (non-TrueVision 2.0) not supported
-Could not reset to read data
-QTgaPlugin
-InitializeConditionVariable
-SleepConditionVariableCS
-WakeAllConditionVariable
-Unknown exception
-bad allocation
-bad array new length
-.text$di
-.text$mn
-.text$mn$00
-.text$x
-.text$yd
-.idata$5
-.00cfg
+.?AVexception@std@@
+.?AVtype_info@@
 .CRT$XCA
 .CRT$XCU
 .CRT$XCZ
@@ -50,137 +25,161 @@ bad array new length
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.qtmetadata
 .rdata
 .rdata$T
 .rdata$r
 .rdata$zzzdbg
+.rsrc$01
+.rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
 .tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-.edata
-.idata$2
-.idata$3
-.idata$4
-.idata$6
-.data
-.data$r
-.bss
-.pdata
-.qtmetadata
-.rsrc$01
-.rsrc$02
-\fp\v`
-qtga.dll
-qt_plugin_instance
-qt_plugin_query_metadata
-??0QImageIOHandler@@QEAA@XZ
-??1QImageIOHandler@@UEAA@XZ
-\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
-??1QImage@@UEAA@XZ
-??4QImage@@QEAAAEAV0@$$QEAV0@@Z
-L?isNull@QImage@@QEBA_NXZ
-\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
-\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-FK?imageCount@QImageIOHandler@@UEBAHXZ
-L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
-L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
-M?loopCount@QImageIOHandler@@UEBAHXZ
-O?nextImageDelay@QImageIOHandler@@UEBAHXZ
 1[?write@QImageIOHandler@@UEAA_NAEBVQImage@@@Z
-??0QImage@@QEAA@XZ
-??0QImage@@QEAA@HHW4Format@0@@Z
-??0QImage@@QEAA@$$QEAV0@@Z
-U?setPixel@QImage@@QEAAXHHI@Z
-T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
-uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
--Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
-P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-??0QImageIOPlugin@@QEAA@PEAVQObject@@@Z
-??1QImageIOPlugin@@UEAA@XZ
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
-Qt5Gui.dll
-??0QMessageLogger@@QEAA@PEBDH0@Z
-?warning@QMessageLogger@@QEBAXPEBDZZ
 ??0QByteArray@@QEAA@PEBDH@Z
-??1QByteArray@@QEAA@XZ
-??0QVariant@@QEAA@XZ
-??0QVariant@@QEAA@H@Z
-??0QVariant@@QEAA@AEBVQSize@@@Z
+??0QImage@@QEAA@$$QEAV0@@Z
+??0QImage@@QEAA@HHW4Format@0@@Z
+??0QImage@@QEAA@XZ
+??0QImageIOHandler@@QEAA@XZ
+??0QImageIOPlugin@@QEAA@PEAVQObject@@@Z
+??0QMessageLogger@@QEAA@PEBDH0@Z
 ??0QString@@QEAA@XZ
+??0QVariant@@QEAA@AEBVQSize@@@Z
+??0QVariant@@QEAA@H@Z
+??0QVariant@@QEAA@XZ
+??1QByteArray@@QEAA@XZ
+??1QImage@@UEAA@XZ
+??1QImageIOHandler@@UEAA@XZ
+??1QImageIOPlugin@@UEAA@XZ
 ??1QString@@QEAA@XZ
+??4QImage@@QEAAAEAV0@$$QEAV0@@Z
 ??4QString@@QEAAAEAV0@$$QEAV0@@Z
-?isReadable@QIODevice@@QEBA_NXZ
-?read@QIODevice@@QEAA_JPEAD_J@Z
-\f?getChar@QIODevice@@QEAA_NPEAD@Z
-?translate@QCoreApplication@@SA?AVQString@@PEBD00H@Z
-?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
-\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?isOpen@QIODevice@@QEBA_NXZ
-\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
-\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+?isOpen@QIODevice@@QEBA_NXZ
+?isReadable@QIODevice@@QEBA_NXZ
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?read@QIODevice@@QEAA_JPEAD_J@Z
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
-Qt5Core.dll
+?translate@QCoreApplication@@SA?AVQString@@PEBD00H@Z
+?warning@QMessageLogger@@QEBAXPEBDZZ
 CloseHandle
-EnterCriticalSection
-LeaveCriticalSection
-DeleteCriticalSection
-SetEvent
-ResetEvent
-WaitForSingleObjectEx
+Could not read footer
+Could not read image data
+Could not reset to read data
+Could not seek to image read footer
 CreateEventW
+DeleteCriticalSection
+DisableThreadLibraryCalls
+EnterCriticalSection
+FK?imageCount@QImageIOHandler@@UEBAHXZ
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
 GetModuleHandleW
 GetProcAddress
+GetSystemTimeAsFileTime
+Image depth not valid
+Image header read failed
+Image type (non-TrueVision 2.0) not supported
+Image type not supported
+InitializeConditionVariable
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+KERNEL32.dll
+L?isNull@QImage@@QEBA_NXZ
+L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
+L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
+LeaveCriticalSection
+M?loopCount@QImageIOHandler@@UEBAHXZ
+O?nextImageDelay@QImageIOHandler@@UEBAHXZ
+P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+QTgaFile
+QTgaHandler::canRead() called with no device
+QTgaPlugin
+Qt5Core.dll
+Qt5Gui.dll
+QueryPerformanceCounter
+ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-UnhandledExceptionFilter
+Seek file/device for image read failed
+Sequential device (eg socket) for image read not supported
+SetEvent
 SetUnhandledExceptionFilter
-GetCurrentProcess
+SleepConditionVariableCS
+T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+TRUEVISION-XFILE
 TerminateProcess
-IsProcessorFeaturePresent
-IsDebuggerPresent
-QueryPerformanceCounter
-GetCurrentProcessId
-GetCurrentThreadId
-GetSystemTimeAsFileTime
-DisableThreadLibraryCalls
-InitializeSListHead
-KERNEL32.dll
-_purecall
+U?setPixel@QImage@@QEAAXHHI@Z
+UnhandledExceptionFilter
+Unknown exception
+VCRUNTIME140.dll
+W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+WaitForSingleObjectEx
+WakeAllConditionVariable
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\f?getChar@QIODevice@@QEAA_NPEAD@Z
+\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+_CxxThrowException
 __C_specific_handler
-__vcrt_InitializeCriticalSectionEx
 __std_exception_copy
 __std_exception_destroy
-_CxxThrowException
-memset
 __std_type_info_destroy_list
-VCRUNTIME140.dll
-strncmp
+__vcrt_InitializeCriticalSectionEx
 _callnewh
-malloc
-free
-_seh_filter_dll
+_cexit
 _configure_narrow_argv
+_crt_atexit
+_execute_onexit_table
 _initialize_narrow_environment
 _initialize_onexit_table
-_register_onexit_function
-_execute_onexit_table
-_crt_atexit
-_cexit
 _initterm
 _initterm_e
-api-ms-win-crt-string-l1-1-0.dll
+_purecall
+_register_onexit_function
+_seh_filter_dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+bad allocation
+bad array new length
+free
+malloc
+memset
+qt_plugin_instance
+qt_plugin_query_metadata
+qtga.dll
+strncmp
+uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z

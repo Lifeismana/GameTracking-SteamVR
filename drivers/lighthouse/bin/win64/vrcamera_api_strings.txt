@@ -1,625 +1,238 @@
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
-.?AVexception@std@@
-.?AVCVRCameraException@vrcamera@@
-.?AVsystem_error@std@@
-.?AV_System_error@std@@
-.?AVruntime_error@std@@
-.?AVfailure@ios_base@std@@
-.?AVbad_cast@std@@
-.?AUIUnknown@@
-.?AVios_base@std@@
-.?AV?$_Iosb@H@std@@
-.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
-.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
-.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
-.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
-.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
-.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
-.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
-.?AV_Ref_count_base@std@@
-.?AVCUnknown@@
-.?AUINonDelegatingUnknown@@
-.?AVCBaseObject@@
-.?AVerror_category@std@@
-.?AV_Generic_error_category@std@@
-.?AV_Iostream_error_category@std@@
-.?AV_Facet_base@std@@
-.?AVfacet@locale@std@@
-.?AU_Crt_new_delete@std@@
-.?AUctype_base@std@@
-.?AV?$ctype@D@std@@
-.?AVIVRCameraFrame@vrcamera@@
-.?AVCVRCameraFilterFrameDS@vrcamera@@
-.?AVCTransInPlaceFilter@@
-.?AVCTransformFilter@@
-.?AVCBaseFilter@@
-.?AUIBaseFilter@@
-.?AUIMediaFilter@@
-.?AUIPersist@@
-.?AUIAMovieSetup@@
-.?AVIVRCameraStream@vrcamera@@
-.?AV?$_Ref_count_obj@VCVRCameraFrameWindowsDS@vrcamera@@@std@@
-.?AVCVRCameraFrameWindowsDS@vrcamera@@
-.?AVCVRCameraFrameWindowsVector@vrcamera@@
-.?AVrange_error@std@@
-.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
-.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
-.?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@
-.?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@
-.?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@
-.?AV?$basic_ostream@_WU?$char_traits@_W@std@@@std@@
-.?AV?$basic_iostream@_WU?$char_traits@_W@std@@@std@@
-.?AV?$basic_stringbuf@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
-.?AV?$basic_stringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
-.?AVcodecvt_base@std@@
-.?AV?$codecvt@_WDU_Mbstatet@@@std@@
-.?AV?$ctype@_W@std@@
-.?AVCVRCameraStreamWindowsDS@vrcamera@@
-.?AV?$collate@_W@std@@
-.?AV_Node_base@std@@
-.?AV_Root_node@std@@
-.?AV_Node_end_group@std@@
-.?AV_Node_assert@std@@
-.?AV_Node_capture@std@@
-.?AV_Node_back@std@@
-.?AV_Node_endif@std@@
-.?AV_Node_if@std@@
-.?AV_Node_rep@std@@
-.?AV_Node_end_rep@std@@
-.?AV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
-.?AV?$codecvt@DDU_Mbstatet@@@std@@
-.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
-.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
-.?AV?$numpunct@D@std@@
-.?AV?$_Node_class@_WV?$regex_traits@_W@std@@@std@@
-.?AV?$_Node_str@_W@std@@
-.?AVCVRCameraWindows@vrcamera@@
-.?AVIVRCamera@vrcamera@@
-.?AVCVRCameraWindowsDS@vrcamera@@
-.?AV?$num_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
-.?AV?$numpunct@_W@std@@
-.?AUIPin@@
-.?AUIEnumPins@@
-.?AUIEnumMediaTypes@@
-.?AUIQualityControl@@
-.?AVCBasePin@@
-.?AVCEnumPins@@
-.?AVCEnumMediaTypes@@
-.?AVCBaseOutputPin@@
-.?AVCTransformInputPin@@
-.?AVCBaseInputPin@@
-.?AUIMemInputPin@@
-.?AVCTransformOutputPin@@
-.?AVCTransInPlaceInputPin@@
-.?AVCTransInPlaceOutputPin@@
-.?AVbad_alloc@std@@
-.?AVinvalid_argument@std@@
-.?AVlogic_error@std@@
-.?AVlength_error@std@@
-.?AVout_of_range@std@@
-.?AVbad_function_call@std@@
-.?AVregex_error@std@@
-.?AVstl_critical_section_interface@details@Concurrency@@
-.?AVstl_critical_section_vista@details@Concurrency@@
-.?AVstl_critical_section_win7@details@Concurrency@@
-.?AVstl_critical_section_concrt@details@Concurrency@@
-.?AV_Locimp@locale@std@@
-.?AV?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
-.?AV?$basic_filebuf@_WU?$char_traits@_W@std@@@std@@
-.?AV?$codecvt@GDU_Mbstatet@@@std@@
-.?AV?$ctype@G@std@@
-.?AUmessages_base@std@@
-.?AUmoney_base@std@@
-.?AUtime_base@std@@
-.?AV?$num_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
-.?AV?$messages@_W@std@@
-.?AV?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
-.?AV?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
-.?AV?$moneypunct@_W$0A@@std@@
-.?AV?$_Mpunct@_W@std@@
-.?AV?$moneypunct@_W$00@std@@
-.?AV?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
-.?AV?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
-.?AV?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
-.?AV?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
-.?AV?$numpunct@G@std@@
-.?AV?$collate@G@std@@
-.?AV?$messages@G@std@@
-.?AV?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
-.?AV?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
-.?AV?$moneypunct@G$0A@@std@@
-.?AV?$_Mpunct@G@std@@
-.?AV?$moneypunct@G$00@std@@
-.?AV?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
-.?AV?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
-.?AV?$collate@D@std@@
-.?AV?$messages@D@std@@
-.?AV?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
-.?AV?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
-.?AV?$moneypunct@D$0A@@std@@
-.?AV?$_Mpunct@D@std@@
-.?AV?$moneypunct@D$00@std@@
-.?AV?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
-.?AV?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
-.?AVstl_condition_variable_interface@details@Concurrency@@
-.?AVstl_condition_variable_vista@details@Concurrency@@
-.?AVstl_condition_variable_win7@details@Concurrency@@
-.?AVstl_condition_variable_concrt@details@Concurrency@@
-.?AVtype_info@@
-.?AVbad_array_new_length@std@@
-.?AVimproper_lock@Concurrency@@
-.?AVWaitBlock@details@Concurrency@@
-.?AVSingleWaitBlock@details@Concurrency@@
-.?AVMultiWaitBlock@details@Concurrency@@
-.?AVWaitAllBlock@details@Concurrency@@
-.?AVWaitAnyBlock@details@Concurrency@@
-.?AVTimedSingleWaitBlock@details@Concurrency@@
-.?AV?$_MallocaArrayHolder@PEAVContext@Concurrency@@@details@Concurrency@@
-.?AVscheduler_resource_allocation_error@Concurrency@@
-.?AVscheduler_worker_creation_error@Concurrency@@
-.?AVunsupported_os@Concurrency@@
-.?AVimproper_scheduler_attach@Concurrency@@
-.?AVimproper_scheduler_reference@Concurrency@@
-.?AVcontext_unblock_unbalanced@Concurrency@@
-.?AVcontext_self_unblock@Concurrency@@
-.?AVmissing_wait@Concurrency@@
-.?AVinvalid_scheduler_policy_key@Concurrency@@
-.?AVinvalid_scheduler_policy_value@Concurrency@@
-.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
-.?AVnested_scheduler_missing_detach@Concurrency@@
-.?AVinvalid_oversubscribe_operation@Concurrency@@
-.?AVinvalid_operation@Concurrency@@
-.?AVResourceManager@details@Concurrency@@
-.?AUIResourceManager@Concurrency@@
-.?AUITopologyExecutionResource@Concurrency@@
-.?AUITopologyNode@Concurrency@@
-.?AUTopologyObject@GlobalCore@details@Concurrency@@
-.?AUTopologyObject@GlobalNode@details@Concurrency@@
-.?AVScheduleGroupBase@details@Concurrency@@
-.?AVScheduleGroup@Concurrency@@
-.?AVCacheLocalScheduleGroup@details@Concurrency@@
-.?AVFairScheduleGroup@details@Concurrency@@
-.?AVSchedulerBase@details@Concurrency@@
-.?AVScheduler@Concurrency@@
-.?AU_Chore@details@Concurrency@@
-.?AVRealizedChore@details@Concurrency@@
-.?AVCacheLocalScheduleGroupSegment@details@Concurrency@@
-.?AVScheduleGroupSegmentBase@details@Concurrency@@
-.?AVFairScheduleGroupSegment@details@Concurrency@@
-.?AVContextBase@details@Concurrency@@
-.?AVContext@Concurrency@@
-.?AV_Interruption_exception@details@Concurrency@@
-.?AV_RefCounter@details@Concurrency@@
-.?AV_CancellationTokenRegistration@details@Concurrency@@
-.?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
-.?AV?$_MallocaArrayHolder@PEAVevent@Concurrency@@@details@Concurrency@@
-.?AVExecutionResource@details@Concurrency@@
-.?AUIExecutionResource@Concurrency@@
-.?AVSchedulerProxy@details@Concurrency@@
-.?AUISchedulerProxy@Concurrency@@
-.?AVFreeThreadProxy@details@Concurrency@@
-.?AVThreadProxy@details@Concurrency@@
-.?AUIThreadProxy@Concurrency@@
-.?AUIThreadProxyFactory@details@Concurrency@@
-.?AVFreeThreadProxyFactory@details@Concurrency@@
-.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@
-.?AVVirtualProcessor@details@Concurrency@@
-.?AVInternalContextBase@details@Concurrency@@
-.?AUIExecutionContext@Concurrency@@
-.?AVExternalContextBase@details@Concurrency@@
-.?AVThreadScheduler@details@Concurrency@@
-.?AUIScheduler@Concurrency@@
-.?AVThreadInternalContext@details@Concurrency@@
-.?AVVirtualProcessorRoot@details@Concurrency@@
-.?AUIVirtualProcessorRoot@Concurrency@@
-.?AVFreeVirtualProcessorRoot@details@Concurrency@@
-.?AVThreadVirtualProcessor@details@Concurrency@@
-.?AVbad_exception@std@@
-.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
-.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
-Unknown exception
-No Description
-jyvids
-bad cast
-generic
-iostream
-iostream stream error
-bad locale name
-ios_base::badbit set
-ios_base::failbit set
-ios_base::eofbit set
-Camera Exception while receiving camera frame: 
-Unhandled Exception while receiving camera frame: 
-vector<T> too long
-string too long
-MJPEG color format is not yet implemented.
-Unrecognized color format.
-Unrecognized depth format.
-false
-true
-invalid stoul argument
-stoul argument out of range
-Beginning detectedStream 
-Failed to Run Graph.
-Failed to create IGraphBuilder.
-Failed to create ICaptureGraphBuilder2.
-Failed to SetFiltergraph.
-Failed to QI IMediaEventEx.
-Failed to QI IMediaControl.
-Failed to create IBaseFilter
-Failed to create ICreateDeviceEnum
-Failed to CreateClassEnumerator.
-Failed to BindToStorage.
-Failed to read DevicePath
-Device Path: 
-Failed to parse device path.
-Failed to parse device path.\n
-Found device path.
-Failed to read FriendlyName.
-Friendly Name: 
-Target device found.
-Failed to BindToObject.
-Failed to AddFilter.
-Failed to find target device.
-J\rr3u
-DFailed to EnumPins.
-Failed to QueryPinInfo.
-Failed to QI IAMVideoProcAmp.
-Failed to QI IAMCameraControl.
-No IPin available.
-Failed to QI IAMStreamConfig.
-Failed to GetNumberOfCapabilities.
- Capability Size: 
-Capability Count: 
-Unexpected capability size.
-Failed to GetStreamCaps.
- Height: 
- Width: 
-Index: 
-Failed to set white balance.
-Failed to set exposure.
-Failed to set denoise level...
-Failed to set denoise edge threshold...
-Failed to set edge enhancement threshold...
-Failed to set edge enhancement gain...
-Applying first frame camera configuration options...
   GetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x\r\n
   GetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x\r\n
   SetMultiByteHWValue:Get Value Fail-1! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x\r\n
   SetMultiByteHWValue:Get Value Fail-2! Status:%x, Data:%x, Mode:%x, DeviceAdd:%x, Address:%x\r\n
   SetMultiByteHWValue:Set Addr Fail! Mode:%x, DeviceAdd:%x, Address:%x\r\n
-Firmware Register Buffer: 
-Failed to KsProperty.
-Setting register failed: 
-Failed to create IKsControl.
-Get ASIC register value failed\n
-EI2C support not yet implemented
-Etron Camera: Writing FW 
-Failed to write firmware packet.
-Failed to write firmware packet properties.
-Applying depth format 
-Failed to read flash file chunk.
-Set Color Config: 
-?Failed to RenderStream: 
-Failed to AddToRot: 
-Camera reconnect failed\n
-Exception connecting to camera: 
-Etron: Wait SPI time out!!(%f sec)\n
-Etron Camera: Updating FW image in SPI flash via bootloader\n
-Etron Camera: Erase whole chip to prepare for FW update\n
-Writing failed at 0x%X/0x%X Bytes\n
-Done\n
-Etron Camera: Verify FW 
-Etron read flash failed\n
-Verify failed at 0x%X/0x%X Bytes\n
-Etron Camera: FW update success.  Please re-connect the camera to apply FW update\n
-Saw DEVICE LOST event
-Failed to apply depth format.
-bad conversion
-invalid string position
-vector<bool> too long
-()$^.*+?[]|\-{},:=!\n\r
-alnum
-alpha
-blank
-cntrl
-digit
-graph
-lower
-print
-punct
-space
-upper
-xdigit
-MbP?
-Exception constructing Camera: 
-CVRCameraWindows Destructor...
-Begin Streaming Video...
-Camera Exception while beginning video stream: 
-Unhandled Exception while beginning video stream: 
-Begin Streaming Depth...
-Camera Exception while beginning depth stream: 
-Unhandled Exception while beginning depth stream: 
-End Streaming Video...
-Camera Exception while ending video stream: 
-Unhandled Exception while ending video stream: 
-End Streaming Depth...
-Camera Exception while ending depth stream: 
-Unhandled Exception while ending depth stream: 
-Camera Exception while adding frame handler to video stream: 
-Unhandled Exception while adding frame handler to video stream: 
-Camera Exception while adding configuration change handler to video stream: 
-Unhandled Exception while adding configuration change handler to video stream: 
-No color stream to configure.
-Camera Exception while setting color configuration: 
-Unhandled Exception while setting color configuration: 
-No depth stream to configure.
-Camera Exception while setting depth configuration: 
-Unhandled Exception while setting depth configuration: 
-Camera Exception while clearing video frame handlers: 
-Unhandled Exception while clearing video frame handlers: 
-Camera Exception while clearing depth frame handlers: 
-Unhandled Exception while clearing depth frame handlers: 
-Camera Exception while connecting to camera: 
-Unhandled Exception while connecting to camera: 
-Camera Exception while setting depth format: 
-Unhandled Exception while setting depth format: 
-Camera Exception while getting color configuration: 
-Unhandled Exception while getting color configuration: 
-Camera Exception while getting depth configuration: 
-Unhandled Exception while getting depth configuration: 
-Camera Exception while handling configuration change: 
-Unhandled Exception while handling configuration change: 
-Camera Exception while applying configuration: 
-Unhandled Exception while applying configuration: 
-Camera Exception while reading configuration: 
-Unhandled Exception while reading configuration: 
-Auto White Balance:\t\t
-White Balance:\t\t\t
-Auto Exposure:\t\t\t
-Exposure:\t\t\t
-Backlight Compensation:\t\t
-Global Gain:\t\t\t
-Color Gain:\t\t\t
-Auto Exposure Target:\t\t
-Unrecognized color configuration.
-No depth or color data. Cannot determine frame number.
-bad allocation
-bad function call
-regex_error(error_collate): The expression contained an invalid collating element name.
-regex_error(error_ctype): The expression contained an invalid character class name.
-regex_error(error_escape): The expression contained an invalid escaped character, or a trailing escape.
-regex_error(error_backref): The expression contained an invalid back reference.
-regex_error(error_brack): The expression contained mismatched [ and ].
-regex_error(error_paren): The expression contained mismatched ( and ).
-regex_error(error_brace): The expression contained mismatched { and }.
-regex_error(error_badbrace): The expression contained an invalid range in a { expression }.
-regex_error(error_range): The expression contained an invalid character range, such as [b-a] in most encodings.
-regex_error(error_space): There was insufficient memory to convert the expression into a finite state machine.
-regex_error(error_badrepeat): One of *?+{ was not preceded by a valid regular expression.
-regex_error(error_complexity): The complexity of an attempted match against a regular expression exceeded a pre-set level.
-regex_error(error_stack): There was insufficient memory to determine whether the regular expression could match the specified character sequence.
-regex_error(error_parse)
-regex_error(error_syntax)
-regex_error
-unknown error
-address family not supported
-address in use
-address not available
-already connected
-argument list too long
-argument out of domain
-bad address
-bad file descriptor
-bad message
-broken pipe
-connection aborted
-connection already in progress
-connection refused
-connection reset
-cross device link
-destination address required
-device or resource busy
-directory not empty
-executable format error
-file exists
-file too large
-filename too long
-function not supported
-host unreachable
-identifier removed
-illegal byte sequence
-inappropriate io control operation
-interrupted
-invalid argument
-invalid seek
-io error
-is a directory
-message size
-network down
-network reset
-network unreachable
-no buffer space
-no child process
-no link
-no lock available
-no message available
-no message
-no protocol option
-no space on device
-no stream resources
-no such device or address
-no such device
-no such file or directory
-no such process
-not a directory
-not a socket
-not a stream
-not connected
-not enough memory
-not supported
-operation canceled
-operation in progress
-operation not permitted
-operation not supported
-operation would block
-owner dead
-permission denied
-protocol error
-protocol not supported
-read only file system
-resource deadlock would occur
-resource unavailable try again
-result out of range
-state not recoverable
-stream timeout
-text file busy
-timed out
-too many files open in system
-too many files open
-too many links
-too many symbolic link levels
-value too large
-wrong protocol type
-0123456789-+Ee
-0123456789ABCDEFabcdef-+Xx
-0123456789ABCDEFabcdef-+XxPp
-FlsAlloc
-FlsFree
-FlsGetValue
-FlsSetValue
-InitializeCriticalSectionEx
-InitOnceExecuteOnce
-CreateEventExW
-CreateSemaphoreW
-CreateSemaphoreExW
-CreateThreadpoolTimer
-SetThreadpoolTimer
-WaitForThreadpoolTimerCallbacks
-CloseThreadpoolTimer
-CreateThreadpoolWait
-SetThreadpoolWait
-CloseThreadpoolWait
-FlushProcessWriteBuffers
-FreeLibraryWhenCallbackReturns
-GetCurrentProcessorNumber
-CreateSymbolicLinkW
-GetCurrentPackageId
-GetTickCount64
-GetFileInformationByHandleEx
-SetFileInformationByHandle
-GetSystemTimePreciseAsFileTime
-InitializeConditionVariable
-WakeConditionVariable
-WakeAllConditionVariable
-SleepConditionVariableCS
-InitializeSRWLock
-AcquireSRWLockExclusive
-TryAcquireSRWLockExclusive
-ReleaseSRWLockExclusive
-SleepConditionVariableSRW
-CreateThreadpoolWork
-SubmitThreadpoolWork
-CloseThreadpoolWork
-CompareStringEx
-GetLocaleInfoEx
-LCMapStringEx
-:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
-:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
-%b %d %H : %M : %S %Y
-%m / %d / %y
-:AM:am:PM:pm
-%I : %M : %S %p
-%H : %M
-%H : %M : %S
-%d / %m / %y
-0123456789-
+ Capability Size: 
+ Height: 
+ Width: 
 %.0Lf
-0123456789-
-0123456789-
-0123456789-+Ee
-0123456789ABCDEFabcdef-+Xx
-0123456789-
-0123456789-+Ee
-0123456789ABCDEFabcdef-+Xx
-$+xv
-0123456789ABCDEFabcdef-+XxPp
-0123456789ABCDEFabcdef-+XxPp
+%H : %M : %S
+%I : %M : %S %p
+%b %d %H : %M : %S %Y
+%d / %m / %y
+%m / %d / %y
+()$^.*+?[]|\-{},:=!\n\r
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
-raB3G
-0123456789-
-0123456789-
-0123456789abcdefghijklmnopqrstuvwxyz
-\r\f\v\v\n\n\t\t\t\t\t
-0123456789abcdefghijklmnopqrstuvwxyz
-\r\r\r\r\r\r
-bad array new length
-Lock already taken
-pEvents
-SetThreadGroupAffinity
-GetThreadGroupAffinity
-GetCurrentProcessorNumberEx
-GetLogicalProcessorInformationEx
-count
-pScheduler
-version
-eventObject
-ppVirtualProcessorRoots
-SchedulerKind
-MaxConcurrency
-MinConcurrency
-TargetOversubscriptionFactor
-LocalContextCacheSize
-ContextStackSize
-ContextPriority
-SchedulingProtocol
-DynamicProgressFeedback
-WinRTInitialization
-MaxPolicyElementKey
-Mbp?333333
-pContext
-pExecutionResource
-CreateRemoteThreadEx
-CreateUmsCompletionList
-CreateUmsThreadContext
-DeleteProcThreadAttributeList
-DeleteUmsCompletionList
-DeleteUmsThreadContext
-DequeueUmsCompletionListItems
-EnterUmsSchedulingMode
-ExecuteUmsThread
-GetCurrentUmsThread
-GetNextUmsListItem
-GetUmsCompletionListEvent
-InitializeProcThreadAttributeList
-QueryUmsThreadInformation
-SetUmsThreadInformation
-UmsThreadYield
-UpdateProcThreadAttribute
-RoInitialize
-RoUninitialize
-Y/}J
-rLp>B
-1eaB@
-RegisterTraceGuidsW
-UnregisterTraceGuids
-TraceEvent
-GetTraceLoggerHandle
-GetTraceEnableLevel
-GetTraceEnableFlags
-pThreadProxy
-proc
-switchState
-bad exception
-RSDS
-c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
-.text$di
-.text$mn
-.text$mn$00
-.text$x
-.text$yd
-.idata$5
 .00cfg
+.?AUIAMovieSetup@@
+.?AUIBaseFilter@@
+.?AUIEnumMediaTypes@@
+.?AUIEnumPins@@
+.?AUIExecutionContext@Concurrency@@
+.?AUIExecutionResource@Concurrency@@
+.?AUIMediaFilter@@
+.?AUIMemInputPin@@
+.?AUINonDelegatingUnknown@@
+.?AUIPersist@@
+.?AUIPin@@
+.?AUIQualityControl@@
+.?AUIResourceManager@Concurrency@@
+.?AUIScheduler@Concurrency@@
+.?AUISchedulerProxy@Concurrency@@
+.?AUIThreadProxy@Concurrency@@
+.?AUIThreadProxyFactory@details@Concurrency@@
+.?AUITopologyExecutionResource@Concurrency@@
+.?AUITopologyNode@Concurrency@@
+.?AUIUnknown@@
+.?AUIVirtualProcessorRoot@Concurrency@@
+.?AUTopologyObject@GlobalCore@details@Concurrency@@
+.?AUTopologyObject@GlobalNode@details@Concurrency@@
+.?AU_Chore@details@Concurrency@@
+.?AU_Crt_new_delete@std@@
+.?AUctype_base@std@@
+.?AUmessages_base@std@@
+.?AUmoney_base@std@@
+.?AUtime_base@std@@
+.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@@details@Concurrency@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_MallocaArrayHolder@PEAVContext@Concurrency@@@details@Concurrency@@
+.?AV?$_MallocaArrayHolder@PEAVevent@Concurrency@@@details@Concurrency@@
+.?AV?$_Mpunct@D@std@@
+.?AV?$_Mpunct@G@std@@
+.?AV?$_Mpunct@_W@std@@
+.?AV?$_Node_class@_WV?$regex_traits@_W@std@@@std@@
+.?AV?$_Node_str@_W@std@@
+.?AV?$_Ref_count_obj@VCVRCameraFrameWindowsDS@vrcamera@@@std@@
+.?AV?$_Ref_count_obj@V__ExceptionPtr@@@std@@
+.?AV?$_Ref_count_obj_alloc@V__ExceptionPtr@@U?$_StaticAllocator@H@@@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_filebuf@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringbuf@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+.?AV?$codecvt@DDU_Mbstatet@@@std@@
+.?AV?$codecvt@GDU_Mbstatet@@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+.?AV?$collate@D@std@@
+.?AV?$collate@G@std@@
+.?AV?$collate@_W@std@@
+.?AV?$ctype@D@std@@
+.?AV?$ctype@G@std@@
+.?AV?$ctype@_W@std@@
+.?AV?$messages@D@std@@
+.?AV?$messages@G@std@@
+.?AV?$messages@_W@std@@
+.?AV?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$moneypunct@D$00@std@@
+.?AV?$moneypunct@D$0A@@std@@
+.?AV?$moneypunct@G$00@std@@
+.?AV?$moneypunct@G$0A@@std@@
+.?AV?$moneypunct@_W$00@std@@
+.?AV?$moneypunct@_W$0A@@std@@
+.?AV?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$num_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$num_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$numpunct@D@std@@
+.?AV?$numpunct@G@std@@
+.?AV?$numpunct@_W@std@@
+.?AV?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+.?AV?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVCBaseFilter@@
+.?AVCBaseInputPin@@
+.?AVCBaseObject@@
+.?AVCBaseOutputPin@@
+.?AVCBasePin@@
+.?AVCEnumMediaTypes@@
+.?AVCEnumPins@@
+.?AVCTransInPlaceFilter@@
+.?AVCTransInPlaceInputPin@@
+.?AVCTransInPlaceOutputPin@@
+.?AVCTransformFilter@@
+.?AVCTransformInputPin@@
+.?AVCTransformOutputPin@@
+.?AVCUnknown@@
+.?AVCVRCameraException@vrcamera@@
+.?AVCVRCameraFilterFrameDS@vrcamera@@
+.?AVCVRCameraFrameWindowsDS@vrcamera@@
+.?AVCVRCameraFrameWindowsVector@vrcamera@@
+.?AVCVRCameraStreamWindowsDS@vrcamera@@
+.?AVCVRCameraWindows@vrcamera@@
+.?AVCVRCameraWindowsDS@vrcamera@@
+.?AVCacheLocalScheduleGroup@details@Concurrency@@
+.?AVCacheLocalScheduleGroupSegment@details@Concurrency@@
+.?AVCancellationTokenRegistration_TaskProc@details@Concurrency@@
+.?AVContext@Concurrency@@
+.?AVContextBase@details@Concurrency@@
+.?AVExecutionResource@details@Concurrency@@
+.?AVExternalContextBase@details@Concurrency@@
+.?AVFairScheduleGroup@details@Concurrency@@
+.?AVFairScheduleGroupSegment@details@Concurrency@@
+.?AVFreeThreadProxy@details@Concurrency@@
+.?AVFreeThreadProxyFactory@details@Concurrency@@
+.?AVFreeVirtualProcessorRoot@details@Concurrency@@
+.?AVIVRCamera@vrcamera@@
+.?AVIVRCameraFrame@vrcamera@@
+.?AVIVRCameraStream@vrcamera@@
+.?AVInternalContextBase@details@Concurrency@@
+.?AVMultiWaitBlock@details@Concurrency@@
+.?AVRealizedChore@details@Concurrency@@
+.?AVResourceManager@details@Concurrency@@
+.?AVScheduleGroup@Concurrency@@
+.?AVScheduleGroupBase@details@Concurrency@@
+.?AVScheduleGroupSegmentBase@details@Concurrency@@
+.?AVScheduler@Concurrency@@
+.?AVSchedulerBase@details@Concurrency@@
+.?AVSchedulerProxy@details@Concurrency@@
+.?AVSingleWaitBlock@details@Concurrency@@
+.?AVThreadInternalContext@details@Concurrency@@
+.?AVThreadProxy@details@Concurrency@@
+.?AVThreadScheduler@details@Concurrency@@
+.?AVThreadVirtualProcessor@details@Concurrency@@
+.?AVTimedSingleWaitBlock@details@Concurrency@@
+.?AVVirtualProcessor@details@Concurrency@@
+.?AVVirtualProcessorRoot@details@Concurrency@@
+.?AVWaitAllBlock@details@Concurrency@@
+.?AVWaitAnyBlock@details@Concurrency@@
+.?AVWaitBlock@details@Concurrency@@
+.?AV_CancellationTokenRegistration@details@Concurrency@@
+.?AV_Facet_base@std@@
+.?AV_Generic_error_category@std@@
+.?AV_Interruption_exception@details@Concurrency@@
+.?AV_Iostream_error_category@std@@
+.?AV_Locimp@locale@std@@
+.?AV_Node_assert@std@@
+.?AV_Node_back@std@@
+.?AV_Node_base@std@@
+.?AV_Node_capture@std@@
+.?AV_Node_end_group@std@@
+.?AV_Node_end_rep@std@@
+.?AV_Node_endif@std@@
+.?AV_Node_if@std@@
+.?AV_Node_rep@std@@
+.?AV_RefCounter@details@Concurrency@@
+.?AV_Ref_count_base@std@@
+.?AV_Root_node@std@@
+.?AV_System_error@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVbad_function_call@std@@
+.?AVcodecvt_base@std@@
+.?AVcontext_self_unblock@Concurrency@@
+.?AVcontext_unblock_unbalanced@Concurrency@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVfailure@ios_base@std@@
+.?AVimproper_lock@Concurrency@@
+.?AVimproper_scheduler_attach@Concurrency@@
+.?AVimproper_scheduler_reference@Concurrency@@
+.?AVinvalid_argument@std@@
+.?AVinvalid_operation@Concurrency@@
+.?AVinvalid_oversubscribe_operation@Concurrency@@
+.?AVinvalid_scheduler_policy_key@Concurrency@@
+.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
+.?AVinvalid_scheduler_policy_value@Concurrency@@
+.?AVios_base@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVmissing_wait@Concurrency@@
+.?AVnested_scheduler_missing_detach@Concurrency@@
+.?AVout_of_range@std@@
+.?AVrange_error@std@@
+.?AVregex_error@std@@
+.?AVruntime_error@std@@
+.?AVscheduler_resource_allocation_error@Concurrency@@
+.?AVscheduler_worker_creation_error@Concurrency@@
+.?AVstl_condition_variable_concrt@details@Concurrency@@
+.?AVstl_condition_variable_interface@details@Concurrency@@
+.?AVstl_condition_variable_vista@details@Concurrency@@
+.?AVstl_condition_variable_win7@details@Concurrency@@
+.?AVstl_critical_section_concrt@details@Concurrency@@
+.?AVstl_critical_section_interface@details@Concurrency@@
+.?AVstl_critical_section_vista@details@Concurrency@@
+.?AVstl_critical_section_win7@details@Concurrency@@
+.?AVsystem_error@std@@
+.?AVtype_info@@
+.?AVunsupported_os@Concurrency@@
 .CRT$XCA
 .CRT$XCC
 .CRT$XCL
@@ -635,6 +248,16 @@ c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamer
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
 .rdata
 .rdata$T
 .rdata$r
@@ -643,66 +266,25 @@ c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamer
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
 .tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-.edata
-.idata$2
-.idata$3
-.idata$4
-.idata$6
-.data
-.data$r
-.bss
-.pdata
-\fp\v`!
-2\vp!
-2\vp!
-\rp\f`\v0
-p\r`\fP\v0
-\fp\v`
-r\r`\fP\v0!
-\np\t`
-\np\t`
-2\v`!
-\vp\n`\tP
-\rp\f`\vP
-\fp\v`!
-2\vp!
-\np\t`
-\rp\f`\v0
-\rp\f`\v0
-\fp\v`\n0
-\np\t`
-r\vp!
-\fp\v`
-\fp\v`
-\rp\f`
-\fp\v`
-p\r`\fP\v0
-\rp\f`\vP
-\fp\v`
-\np\t`
-\rp\f`\vP
-\rp\f`\vP
-\fp\v`
-\fp\v`\nP
-\rp\f`\vP
-\fp\v`
-\fp\v`
-\fp\v`
-R\np\t`
-\fp\v`
-1\v%#t
-\fp\v`
-\fp\vP
-\fp\v`
-\fp\v`
-\np\t`
-4\n5#t%
-vrcamera_api.dll
+0123456789-
+0123456789-+Ee
+0123456789ABCDEFabcdef-+Xx
+0123456789ABCDEFabcdef-+XxPp
+0123456789abcdefghijklmnopqrstuvwxyz
+1eaB@
+:AM:am:PM:pm
+:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
 ??0CVRCameraWindows@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
 ??0CVRCameraWindows@vrcamera@@QEAA@GGE_N@Z
 ??0CVRCameraWindowsDS@vrcamera@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@E_N@Z
@@ -742,6 +324,7 @@ vrcamera_api.dll
 ?DumpScaledDepth@IVRCameraFrame@vrcamera@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
 ?EndStreamingDepth@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@XZ
 ?EndStreamingVideo@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@XZ
+?Failed to RenderStream: 
 ?GetAutoExposureTarget@IVRCamera@vrcamera@@UEAAGXZ
 ?GetCameraRegister@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@GAEAGW4RegisterType@IVRCamera@2@E_N@Z
 ?GetColorConfig@CVRCameraWindows@vrcamera@@UEAA?AW4ColorStreamConfig@IVRCamera@2@XZ
@@ -810,205 +393,561 @@ vrcamera_api.dll
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@_N@Z
 ?WTrace@IVRCamera@vrcamera@@UEAAXAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
 ?YUVToRGB@IVRCameraFrame@vrcamera@@MEAAXEEEAEAD00@Z
-CoUninitialize
-CoInitializeEx
-CoCreateInstance
-CoTaskMemFree
-CreateItemMoniker
-GetRunningObjectTable
-ole32.dll
-OLEAUT32.dll
-EnterCriticalSection
-LeaveCriticalSection
-CloseHandle
-ResetEvent
-WaitForSingleObject
-CreateEventA
-GetCurrentProcessId
-FreeLibrary
-LoadLibraryW
-DuplicateHandle
-InitializeCriticalSection
-DeleteCriticalSection
-SetEvent
-ReleaseSemaphore
-CreateEventW
-GetCurrentProcess
-GetCurrentThreadId
-VirtualAlloc
-VirtualFree
-lstrcmpW
-GetLastError
-CreateThread
-GetCurrentThread
-SetThreadPriority
-GetThreadPriority
-GetTickCount
-GetVersionExW
-GetModuleHandleW
-GetProcAddress
-WideCharToMultiByte
-TryEnterCriticalSection
-MultiByteToWideChar
-GetStringTypeW
-QueryPerformanceCounter
-QueryPerformanceFrequency
-WaitForSingleObjectEx
-Sleep
-SwitchToThread
-SetLastError
-InitializeCriticalSectionAndSpinCount
-TlsAlloc
-TlsGetValue
-TlsSetValue
-TlsFree
-GetSystemTimeAsFileTime
-EncodePointer
-DecodePointer
-GetCPInfo
-CompareStringW
-LCMapStringW
-GetLocaleInfoW
-RtlCaptureContext
-RtlLookupFunctionEntry
-RtlVirtualUnwind
-IsDebuggerPresent
-UnhandledExceptionFilter
-SetUnhandledExceptionFilter
-IsProcessorFeaturePresent
-DisableThreadLibraryCalls
-InitializeSListHead
-TerminateProcess
-CreateTimerQueue
-SignalObjectAndWait
-GetLogicalProcessorInformation
-CreateTimerQueueTimer
+AcquireSRWLockExclusive
+Applying depth format 
+Applying first frame camera configuration options...
+Auto Exposure Target:\t\t
+Auto Exposure:\t\t\t
+Auto White Balance:\t\t
+Backlight Compensation:\t\t
+Begin Streaming Depth...
+Begin Streaming Video...
+Beginning detectedStream 
+CVRCameraWindows Destructor...
+Camera Exception while adding configuration change handler to video stream: 
+Camera Exception while adding frame handler to video stream: 
+Camera Exception while applying configuration: 
+Camera Exception while beginning depth stream: 
+Camera Exception while beginning video stream: 
+Camera Exception while clearing depth frame handlers: 
+Camera Exception while clearing video frame handlers: 
+Camera Exception while connecting to camera: 
+Camera Exception while ending depth stream: 
+Camera Exception while ending video stream: 
+Camera Exception while getting color configuration: 
+Camera Exception while getting depth configuration: 
+Camera Exception while handling configuration change: 
+Camera Exception while reading configuration: 
+Camera Exception while receiving camera frame: 
+Camera Exception while setting color configuration: 
+Camera Exception while setting depth configuration: 
+Camera Exception while setting depth format: 
+Camera reconnect failed\n
+Capability Count: 
 ChangeTimerQueueTimer
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CloseThreadpoolWork
+CoCreateInstance
+CoFreeUnusedLibraries
+CoInitialize
+CoInitializeEx
+CoTaskMemAlloc
+CoTaskMemFree
+CoUninitialize
+Color Gain:\t\t\t
+CompareStringEx
+CompareStringW
+ContextPriority
+ContextStackSize
+Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
+CreateEventA
+CreateEventExW
+CreateEventW
+CreateItemMoniker
+CreateRemoteThreadEx
+CreateSemaphoreExW
+CreateSemaphoreW
+CreateSymbolicLinkW
+CreateThread
+CreateThreadpoolTimer
+CreateThreadpoolWait
+CreateThreadpoolWork
+CreateTimerQueue
+CreateTimerQueueTimer
+CreateUmsCompletionList
+CreateUmsThreadContext
+DFailed to EnumPins.
+DecodePointer
+DeleteCriticalSection
+DeleteProcThreadAttributeList
 DeleteTimerQueueTimer
-GetNumaHighestNodeNumber
-GetProcessAffinityMask
-SetThreadAffinityMask
-RegisterWaitForSingleObject
-UnregisterWait
-GetThreadTimes
+DeleteUmsCompletionList
+DeleteUmsThreadContext
+DequeueUmsCompletionListItems
+Device Path: 
+DisableThreadLibraryCalls
+Done\n
+DuplicateHandle
+DynamicProgressFeedback
+EI2C support not yet implemented
+EncodePointer
+End Streaming Depth...
+End Streaming Video...
+EnterCriticalSection
+EnterUmsSchedulingMode
+Etron Camera: Erase whole chip to prepare for FW update\n
+Etron Camera: FW update success.  Please re-connect the camera to apply FW update\n
+Etron Camera: Updating FW image in SPI flash via bootloader\n
+Etron Camera: Verify FW 
+Etron Camera: Writing FW 
+Etron read flash failed\n
+Etron: Wait SPI time out!!(%f sec)\n
+Exception connecting to camera: 
+Exception constructing Camera: 
+ExecuteUmsThread
+Exposure:\t\t\t
+Failed to AddFilter.
+Failed to AddToRot: 
+Failed to BindToObject.
+Failed to BindToStorage.
+Failed to CreateClassEnumerator.
+Failed to GetNumberOfCapabilities.
+Failed to GetStreamCaps.
+Failed to KsProperty.
+Failed to QI IAMCameraControl.
+Failed to QI IAMStreamConfig.
+Failed to QI IAMVideoProcAmp.
+Failed to QI IMediaControl.
+Failed to QI IMediaEventEx.
+Failed to QueryPinInfo.
+Failed to Run Graph.
+Failed to SetFiltergraph.
+Failed to apply depth format.
+Failed to create IBaseFilter
+Failed to create ICaptureGraphBuilder2.
+Failed to create ICreateDeviceEnum
+Failed to create IGraphBuilder.
+Failed to create IKsControl.
+Failed to find target device.
+Failed to parse device path.
+Failed to parse device path.\n
+Failed to read DevicePath
+Failed to read FriendlyName.
+Failed to read flash file chunk.
+Failed to set denoise edge threshold...
+Failed to set denoise level...
+Failed to set edge enhancement gain...
+Failed to set edge enhancement threshold...
+Failed to set exposure.
+Failed to set white balance.
+Failed to write firmware packet properties.
+Failed to write firmware packet.
+Firmware Register Buffer: 
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushProcessWriteBuffers
+Found device path.
+FreeLibrary
 FreeLibraryAndExitThread
+FreeLibraryWhenCallbackReturns
+Friendly Name: 
+Get ASIC register value failed\n
+GetCPInfo
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentProcessorNumberEx
+GetCurrentThread
+GetCurrentThreadId
+GetCurrentUmsThread
+GetFileInformationByHandleEx
+GetLastError
+GetLocaleInfoEx
+GetLocaleInfoW
+GetLogicalProcessorInformation
+GetLogicalProcessorInformationEx
 GetModuleFileNameW
 GetModuleHandleA
-LoadLibraryExW
-VirtualProtect
+GetModuleHandleW
+GetNextUmsListItem
+GetNumaHighestNodeNumber
+GetProcAddress
+GetProcessAffinityMask
+GetRunningObjectTable
+GetStringTypeW
+GetSystemTimeAsFileTime
+GetSystemTimePreciseAsFileTime
+GetThreadGroupAffinity
+GetThreadPriority
+GetThreadTimes
+GetTickCount
+GetTickCount64
+GetTraceEnableFlags
+GetTraceEnableLevel
+GetTraceLoggerHandle
+GetUmsCompletionListEvent
+GetVersionExW
+Global Gain:\t\t\t
+Index: 
+InitOnceExecuteOnce
+InitializeConditionVariable
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeProcThreadAttributeList
+InitializeSListHead
+InitializeSRWLock
+InterlockedFlushSList
 InterlockedPopEntrySList
 InterlockedPushEntrySList
-InterlockedFlushSList
-QueryDepthSList
-UnregisterWaitEx
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J\rr3u
 KERNEL32.dll
-__std_exception_copy
-__std_exception_destroy
-_purecall
-__std_terminate
-_CxxThrowException
-__CxxFrameHandler3
-memcpy
-memmove
-memset
-strchr
-memcmp
-__uncaught_exception
-memchr
-__C_specific_handler
-__std_type_info_destroy_list
-__RTDynamicCast
+LCMapStringEx
+LCMapStringW
+LeaveCriticalSection
+LoadLibraryExW
+LoadLibraryW
+LocalContextCacheSize
+Lock already taken
+MJPEG color format is not yet implemented.
+MaxConcurrency
+MaxPolicyElementKey
+MbP?
+Mbp?333333
+MinConcurrency
+MultiByteToWideChar
+No Description
+No IPin available.
+No color stream to configure.
+No depth or color data. Cannot determine frame number.
+No depth stream to configure.
+OLEAUT32.dll
+QueryDepthSList
+QueryPerformanceCounter
+QueryPerformanceFrequency
+QueryUmsThreadInformation
+RSDS
+RaiseException
+RegisterTraceGuidsW
+RegisterWaitForSingleObject
+ReleaseSRWLockExclusive
+ReleaseSemaphore
+ResetEvent
+RoInitialize
+RoUninitialize
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlVirtualUnwind
+Saw DEVICE LOST event
+SchedulerKind
+SchedulingProtocol
+Set Color Config: 
+SetEvent
+SetFileInformationByHandle
+SetLastError
+SetThreadAffinityMask
+SetThreadGroupAffinity
+SetThreadPriority
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUmsThreadInformation
+SetUnhandledExceptionFilter
+Setting register failed: 
+SignalObjectAndWait
+Sleep
+SleepConditionVariableCS
+SleepConditionVariableSRW
+SubmitThreadpoolWork
+SwitchToThread
+Target device found.
+TargetOversubscriptionFactor
+TerminateProcess
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+TraceEvent
+TryAcquireSRWLockExclusive
+TryEnterCriticalSection
+UmsThreadYield
+Unexpected capability size.
+Unhandled Exception while adding configuration change handler to video stream: 
+Unhandled Exception while adding frame handler to video stream: 
+Unhandled Exception while applying configuration: 
+Unhandled Exception while beginning depth stream: 
+Unhandled Exception while beginning video stream: 
+Unhandled Exception while clearing depth frame handlers: 
+Unhandled Exception while clearing video frame handlers: 
+Unhandled Exception while connecting to camera: 
+Unhandled Exception while ending depth stream: 
+Unhandled Exception while ending video stream: 
+Unhandled Exception while getting color configuration: 
+Unhandled Exception while getting depth configuration: 
+Unhandled Exception while handling configuration change: 
+Unhandled Exception while reading configuration: 
+Unhandled Exception while receiving camera frame: 
+Unhandled Exception while setting color configuration: 
+Unhandled Exception while setting depth configuration: 
+Unhandled Exception while setting depth format: 
+UnhandledExceptionFilter
+Unknown exception
+Unrecognized color configuration.
+Unrecognized color format.
+Unrecognized depth format.
+UnregisterTraceGuids
+UnregisterWait
+UnregisterWaitEx
+UpdateProcThreadAttribute
 VCRUNTIME140.dll
-_invalid_parameter_noinfo_noreturn
-free
-terminate
-_invalid_parameter_noinfo
-_errno
-calloc
-malloc
-realloc
-wcstoul
-frexp
-__acrt_iob_func
-__stdio_common_vswprintf
-_get_stream_buffer_pointers
-fclose
-fflush
-fgetc
-fgetpos
-fputc
-fsetpos
-_fseeki64
-fwrite
-setvbuf
-ungetc
-_lock_file
-_unlock_file
-__stdio_common_vfprintf
-__stdio_common_vsprintf_s
-strcspn
-localeconv
-_lock_locales
-_unlock_locales
-__pctype_func
-isupper
-_wcsdup
-___lc_locale_name_func
-___lc_codepage_func
-islower
-setlocale
-___lc_collate_cp_func
-___mb_cur_max_func
-_ismbblead
-strtof
-strtod
-ldexp
-powf
-abort
-_fsopen
-fseek
-fgetwc
-fputwc
-ungetwc
-__strncnt
-wcsnlen
+Verify failed at 0x%X/0x%X Bytes\n
+VirtualAlloc
+VirtualFree
+VirtualProtect
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
+WakeAllConditionVariable
+WakeConditionVariable
+White Balance:\t\t\t
+WideCharToMultiByte
+WinRTInitialization
+Writing failed at 0x%X/0x%X Bytes\n
+\r\f\v\v\n\n\t\t\t\t\t
+_CxxThrowException
 _Getdays
 _Getmonths
+_Gettnames
+_Strftime
 _W_Getdays
 _W_Getmonths
 _W_Gettnames
 _Wcsftime
-_Gettnames
-_Strftime
-isspace
-tolower
+__AdjustPointer
+__C_specific_handler
+__CxxFrameHandler3
+__RTDynamicCast
+___lc_codepage_func
+___lc_collate_cp_func
+___lc_locale_name_func
+___mb_cur_max_func
+__acrt_iob_func
+__current_exception
+__pctype_func
+__processing_throw
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__std_type_info_destroy_list
+__stdio_common_vfprintf
+__stdio_common_vsprintf_s
+__stdio_common_vswprintf
+__strncnt
+__uncaught_exception
 _callnewh
-_seh_filter_dll
+_cexit
 _configure_narrow_argv
+_crt_atexit
+_errno
+_execute_onexit_table
+_fseeki64
+_fsopen
+_get_stream_buffer_pointers
 _initialize_narrow_environment
 _initialize_onexit_table
-_register_onexit_function
-_execute_onexit_table
-_crt_atexit
-_cexit
 _initterm
 _initterm_e
-sqrt
-api-ms-win-crt-runtime-l1-1-0.dll
-api-ms-win-crt-heap-l1-1-0.dll
+_invalid_parameter_noinfo
+_invalid_parameter_noinfo_noreturn
+_ismbblead
+_lock_file
+_lock_locales
+_purecall
+_register_onexit_function
+_seh_filter_dll
+_unlock_file
+_unlock_locales
+_wcsdup
+abort
+address family not supported
+address in use
+address not available
+alnum
+alpha
+already connected
 api-ms-win-crt-convert-l1-1-0.dll
-api-ms-win-crt-math-l1-1-0.dll
-api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-filesystem-l1-1-0.dll
-api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-multibyte-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
-CoFreeUnusedLibraries
-CoTaskMemAlloc
-CoInitialize
-RtlPcToFileHeader
-RaiseException
-__current_exception
-__processing_throw
-__AdjustPointer
+argument list too long
+argument out of domain
+bad address
+bad allocation
+bad array new length
+bad cast
+bad conversion
+bad exception
+bad file descriptor
+bad function call
+bad locale name
+bad message
+blank
+broken pipe
+c:\buildslave\steamvr_rel_win64\build\src\vrcamera_api\Retail\win64\2017\vrcamera_api.pdb
+calloc
+cntrl
+connection aborted
+connection already in progress
+connection refused
+connection reset
+count
+cross device link
+destination address required
+device or resource busy
+digit
+directory not empty
+eventObject
+executable format error
+false
+fclose
+fflush
+fgetc
+fgetpos
+fgetwc
+file exists
+file too large
+filename too long
+fputc
+fputwc
+free
+frexp
+fseek
+fsetpos
+function not supported
+fwrite
+generic
+graph
+host unreachable
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+interrupted
+invalid argument
+invalid seek
+invalid stoul argument
+invalid string position
+io error
+ios_base::badbit set
+ios_base::eofbit set
+ios_base::failbit set
+iostream
+iostream stream error
+is a directory
+islower
+isspace
+isupper
+jyvids
+ldexp
+localeconv
+lower
+lstrcmpW
+malloc
+memchr
+memcmp
+memcpy
+memmove
+memset
+message size
+network down
+network reset
+network unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+ole32.dll
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+owner dead
+pContext
+pEvents
+pExecutionResource
+pScheduler
+pThreadProxy
+permission denied
+powf
+ppVirtualProcessorRoots
+print
+proc
+protocol error
+protocol not supported
+punct
+rLp>B
+raB3G
+read only file system
+realloc
+regex_error
+regex_error(error_backref): The expression contained an invalid back reference.
+regex_error(error_badbrace): The expression contained an invalid range in a { expression }.
+regex_error(error_badrepeat): One of *?+{ was not preceded by a valid regular expression.
+regex_error(error_brace): The expression contained mismatched { and }.
+regex_error(error_brack): The expression contained mismatched [ and ].
+regex_error(error_collate): The expression contained an invalid collating element name.
+regex_error(error_complexity): The complexity of an attempted match against a regular expression exceeded a pre-set level.
+regex_error(error_ctype): The expression contained an invalid character class name.
+regex_error(error_escape): The expression contained an invalid escaped character, or a trailing escape.
+regex_error(error_paren): The expression contained mismatched ( and ).
+regex_error(error_parse)
+regex_error(error_range): The expression contained an invalid character range, such as [b-a] in most encodings.
+regex_error(error_space): There was insufficient memory to convert the expression into a finite state machine.
+regex_error(error_stack): There was insufficient memory to determine whether the regular expression could match the specified character sequence.
+regex_error(error_syntax)
+resource deadlock would occur
+resource unavailable try again
+result out of range
+setlocale
+setvbuf
+space
+sqrt
+state not recoverable
+stoul argument out of range
+strchr
+strcspn
+stream timeout
+string too long
+strtod
+strtof
+switchState
+terminate
+text file busy
+timed out
+tolower
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+true
+ungetc
+ungetwc
+unknown error
+upper
+value too large
+vector<T> too long
+vector<bool> too long
+version
+vrcamera_api.dll
+wcsnlen
+wcstoul
+wrong protocol type
+xdigit

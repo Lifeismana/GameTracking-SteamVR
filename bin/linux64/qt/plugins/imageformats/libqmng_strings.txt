@@ -1,198 +1,231 @@
-__gmon_start__
-_init
-_fini
-_ITM_deregisterTMCloneTable
-_ITM_registerTMCloneTable
-__cxa_finalize
-_Jv_RegisterClasses
-QImage::scanLine(int)
-QMessageLogger::warning(char const*, ...) const
-QMessageLogger::debug(char const*, ...) const
-free
-calloc
-QImageIOHandler::device() const
-QIODevice::write(char const*, long long)
+$ORIGIN/../../lib
+1.0.10
+1.2.5
+10QMngPlugin
+11QMngHandler
+A required callback is not defined
+AMAg
+Application signalled CMS error
+Application signalled I/O error
+Application signalled an error
+Application signalled error during trace-callback
+Application signalled timing error
+Attempt to access an non-existing entry
+Attempt to access the wrong chunk
+BGRs
+CSID
+CXXABI_1.3
+Canvas_style is invalid
+Chunk cannot be empty
+Chunk cannot occur multiple times
+Chunk must not end with NULL byte
+Chunk not allowed at this point
+Chunk out of sequence
+Chunk-length is invalid
+Chunklength is incredibly large
+DEEn
+DGKb
+DNEI
+DNEM
+Delta block width and or height invalid
+Destination object for PAST must be abstract
+EMIt
+ENDL without matching LOOP
+ETLP
+EVAS
+EVOM
+Encountered unexpected end-of-file
+Event type is invalid
+Framenr out of bounds
+Function is invalid at this point
+Function not yet implemented
+GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
+GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
+GLIBCXX_3.4
+GLIBC_2.2.5
+GNPI
+Global data length invalid
+Handle could not be initialized
+IFED
+IPXe
+IRPf
+ISAB
+Image is frozen
+Image is larger than defined maximum
+Image is not an animation
+Index-value out of bounds
+Internal buffer for JPEG processing too small
+Internal buffer-overflow
+Internal error in libmng
+KCAB
+KCABISABPILCNOLCIFEDRDHDCSIDLDNEMARFTADIDNEIRDHIGNPIPOOLNGAMDNEMRDHMEVOMTSAPETLPTLPPMORPEVASKEESWOHSMRETDGKbMRHcTNveAMAgPCCitXTiDEEnBGRstXEtEMItSNRttXTz
+KEES
+KYBD
+Keyword cannot be zero-length
+LDNE
+LOOP encountered when playback cache is turned off
+Layernr out of bounds
+MARF
+MHDR simplicity indicates unsupported feature(s)
+MNG error %d: %s; chunk %c%c%c%c; subcode %d:%d
+MNG\r\n
+MORP
+MRET
+MRHc
+Mask type is invalid
+Method is invalid
+Missing IDAT chunk(s)
+Missing PLTE chunk
+NGAM
+NOLC
+NULL separator not found
+No MNG header (MHDR) found
+No error
+No memory for gamma-table(s)
+No output-profile defined for CMS
+No sRGB-profile defined for CMS
+No valid header-chunk
+Object already exists
+Object does not exist
+Out of memory
+PCCi
+PILC
+POOL
+PORD
+Palette-index out of bounds
+Parent chunk not found
+Photoshop ICC profile
+Playtime out of bounds
+QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
 QByteArray::QByteArray(char const*, int)
-QImage::QImage()
-QIODevice::read(char*, long long)
-QImage::operator=(QImage const&)
-QColor::red() const
 QColor::blue() const
 QColor::green() const
-QVariant::userType() const
 QColor::invalidate()
-QVariant::convert(int, void*) const
-QVariant::constData() const
-QColor::setRgb(int, int, int, int)
-QVariant::QVariant(bool)
 QColor::operator QVariant() const
-QImageIOHandler::QImageIOHandler()
-operator new(unsigned long)
-QIODevice::peek(long long)
-qstrcmp(QByteArray const&, char const*)
-QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
-QImageIOHandler::setFormat(QByteArray const&) const
-QImage::~QImage()
-operator delete(void*)
-QImageIOHandler::~QImageIOHandler()
-QImage::QImage(int, int, QImage::Format)
-QImage::fill(unsigned int)
-QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const
-QImage::width() const
-QImage::height() const
-vtable for __cxxabiv1::__si_class_type_info
-typeinfo for QImageIOHandler
-QImageIOHandler::currentImageRect() const
-memcpy
-strcmp
-z_inflateInit_
-z_inflate
-z_inflateEnd
-z_deflateInit2_
-z_deflate
-z_deflateEnd
-QImageIOHandler::setDevice(QIODevice*)
-QImageIOHandler::setFormat(QByteArray const&)
-QObjectData::dynamicMetaObject() const
-QImageIOPlugin::~QImageIOPlugin()
+QColor::red() const
+QColor::setRgb(int, int, int, int)
 QIODevice::isOpen() const
 QIODevice::isReadable() const
-QListData::dispose(QListData::Data*)
-qt_plugin_query_metadata
-qt_plugin_instance
+QIODevice::peek(long long)
+QIODevice::read(char*, long long)
+QIODevice::write(char const*, long long)
+QImage::QImage()
+QImage::QImage(int, int, QImage::Format)
+QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const
+QImage::fill(unsigned int)
+QImage::height() const
+QImage::operator=(QImage const&)
+QImage::scanLine(int)
+QImage::width() const
+QImage::~QImage()
+QImageIOHandler::QImageIOHandler()
+QImageIOHandler::currentImageRect() const
+QImageIOHandler::device() const
+QImageIOHandler::setDevice(QIODevice*)
+QImageIOHandler::setFormat(QByteArray const&)
+QImageIOHandler::setFormat(QByteArray const&) const
+QImageIOHandler::~QImageIOHandler()
 QImageIOPlugin::QImageIOPlugin(QObject*)
-QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
-__cxa_guard_acquire
-__cxa_guard_release
-__cxa_atexit
-QListData::detach_grow(int*, int)
-QString::fromLatin1_helper(char const*, int)
-QListData::shared_null
-QListData::detach(int)
-QListData::append()
-QImageIOPlugin::qt_metacast(char const*)
 QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)
-typeinfo for QImageIOPlugin
+QImageIOPlugin::qt_metacast(char const*)
+QImageIOPlugin::staticMetaObject
+QImageIOPlugin::~QImageIOPlugin()
+QListData::append()
+QListData::detach(int)
+QListData::detach_grow(int*, int)
+QListData::dispose(QListData::Data*)
+QListData::shared_null
+QMessageLogger::debug(char const*, ...) const
+QMessageLogger::warning(char const*, ...) const
+QMngHandler::canRead() called with no device
+QMngPlugin
+QObject::childEvent(QChildEvent*)
+QObject::connectNotify(QMetaMethod const&)
+QObject::customEvent(QEvent*)
+QObject::disconnectNotify(QMetaMethod const&)
 QObject::event(QEvent*)
 QObject::eventFilter(QObject*, QEvent*)
 QObject::timerEvent(QTimerEvent*)
-QObject::childEvent(QChildEvent*)
-QObject::customEvent(QEvent*)
-QObject::connectNotify(QMetaMethod const&)
-QObject::disconnectNotify(QMetaMethod const&)
-QImageIOPlugin::staticMetaObject
-libQt5Gui.so.5
-libQt5Core.so.5
-libGL.so.1
-libpthread.so.0
-libstdc++.so.6
-libm.so.6
-libgcc_s.so.1
-libc.so.6
-_edata
-__bss_start
-_end
-$ORIGIN/../../lib
-GLIBC_2.2.5
-GLIBCXX_3.4
-CXXABI_1.3
-default
-MNG\r\n
-MNG error %d: %s; chunk %c%c%c%c; subcode %d:%d
-mng trace: iFuncnr: %d iFuncseq: %d zFuncname: %s
-QMngHandler::canRead() called with no device
-11QMngHandler
-KCABISABPILCNOLCIFEDRDHDCSIDLDNEMARFTADIDNEIRDHIGNPIPOOLNGAMDNEMRDHMEVOMTSAPETLPTLPPMORPEVASKEESWOHSMRETDGKbMRHcTNveAMAgPCCitXTiDEEnBGRstXEtEMItSNRttXTz
-Photoshop ICC profile
-Unknown error
-No error
-Out of memory
-The handle is invalid
-zlib encountered an error
-lcms encountered an error
-Internal buffer-overflow
-Internal error in libmng
-The signature is invalid
-Chunk-length is invalid
-Chunk out of sequence
-Missing PLTE chunk
-Missing IDAT chunk(s)
-Chunk cannot be empty
-Global data length invalid
-The bit_depth is invalid
-The color_type is invalid
-Palette-index out of bounds
-NULL separator not found
-Keyword cannot be zero-length
-Object does not exist
-Object already exists
-The sample_depth is invalid
-The offset_type is invalid
-The entry_type is invalid
-The image_type is invalid
-The delta_type is invalid
-Index-value out of bounds
-The fill_method is invalid
-Method is invalid
-Event type is invalid
-Mask type is invalid
-ENDL without matching LOOP
-evNT points to unknown SEEK
-invalid fieldvalue (generic)
-invalid frame/image width
-invalid frame/image height
-Canvas_style is invalid
-No valid header-chunk
-Parent chunk not found
-No MNG header (MHDR) found
-Image is not an animation
-Framenr out of bounds
-Layernr out of bounds
-Playtime out of bounds
-Function not yet implemented
-Image is frozen
-No memory for gamma-table(s)
-A required callback is not defined
-Encountered unexpected end-of-file
-No output-profile defined for CMS
-No sRGB-profile defined for CMS
-Function is invalid at this point
-Writing was unsuccessful; disk full?
-Internal buffer for JPEG processing too small
+QObjectData::dynamicMetaObject() const
+QString::fromLatin1_helper(char const*, int)
+QVariant::QVariant(bool)
+QVariant::constData() const
+QVariant::convert(int, void*) const
+QVariant::userType() const
+QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
+RDHD
+RDHI
+RDHM
+RDRO
 Reading suspended; waiting for I/O to catch up
-Timer suspension; normal animation delay
+Requested nEED resources are not supported
 SEEK suspension; application decides
-LOOP encountered when playback cache is turned off
-Application signalled I/O error
-Application signalled timing error
-Application signalled CMS error
-Application signalled an error
-Application signalled error during trace-callback
-The CRC for this chunk is invalid
-Chunk not allowed at this point
-Chunk cannot occur multiple times
-The compression_method is invalid
-The filter_method or filter_type is invalid
-The interlace_method is invalid
-There is not enough data in the IDAT chunk(s)
-Too much data in IDAT chunk(s)
-Chunk must not end with NULL byte
+SNRt
+TADI
+TERM misplaced during creation of MNG stream
+TIBs
+TLPP
+TLPs
+TNve
+TSAP
+TSIh
 Target object for DHDR must be concrete
 Target object must have alpha-channel
-MHDR simplicity indicates unsupported feature(s)
-Unknown critical chunk encountered
-Requested nEED resources are not supported
+The CRC for this chunk is invalid
+The bit_depth is invalid
+The color_type is invalid
+The compression_method is invalid
 The delta operation is invalid (mismatched color_types?)
-Chunklength is incredibly large
-Delta block width and or height invalid
-Destination object for PAST must be abstract
-TERM misplaced during creation of MNG stream
-Attempt to access the wrong chunk
-Attempt to access an non-existing entry
-Image is larger than defined maximum
-Handle could not be initialized
+The delta_type is invalid
+The entry_type is invalid
+The fill_method is invalid
+The filter_method or filter_type is invalid
+The handle is invalid
+The image_type is invalid
+The interlace_method is invalid
+The offset_type is invalid
+The sample_depth is invalid
+The signature is invalid
+There is not enough data in the IDAT chunk(s)
+Timer suspension; normal animation delay
+Too much data in IDAT chunk(s)
 Transformation could not be initialized
-1.0.10
+Unknown critical chunk encountered
+Unknown error
+WOHS
+Writing was unsuccessful; disk full?
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+__bss_start
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__gmon_start__
+_edata
+_end
+_fini
+_init
+calloc
+default
+evNT points to unknown SEEK
+free
+gADp
+invalid fieldvalue (generic)
+invalid frame/image height
+invalid frame/image width
+lcms encountered an error
+libGL.so.1
+libQt5Core.so.5
+libQt5Gui.so.5
+libc.so.6
+libgcc_s.so.1
+libm.so.6
+libpthread.so.0
+libstdc++.so.6
+memcpy
+mng trace: iFuncnr: %d iFuncseq: %d zFuncname: %s
 mng_cleanup
 mng_copy_chunk
 mng_create
@@ -399,13 +432,13 @@ mng_putchunk_unkown
 mng_putchunk_ztxt
 mng_putimgdata_ihdr
 mng_putimgdata_jhdr
-mng_reset
 mng_read
 mng_read_pushchunk
 mng_read_pushdata
 mng_read_pushsig
 mng_read_resume
 mng_readdisplay
+mng_reset
 mng_set_bgcolor
 mng_set_bkgdstyle
 mng_set_cacheplayback
@@ -483,56 +516,23 @@ mng_version_release
 mng_version_so
 mng_version_text
 mng_write
-1.2.5
-QMngPlugin
-10QMngPlugin
-KCAB
-ISAB
-PILC
-NOLC
-KYBD
-IFED
-RDHD
-CSID
-PORD
-LDNE
-MARF
-TADI
-DNEI
-RDHI
-GNPI
-POOL
-NGAM
-DNEM
-RDHM
-EVOM
-RDRO
-TSAP
-ETLP
-TLPP
-MORP
-EVAS
-KEES
-WOHS
-MRET
-DGKb
-MRHc
-IPXe
-TNve
-IRPf
-AMAg
-TSIh
-PCCi
-tXTi
-DEEn
-gADp
+operator delete(void*)
+operator new(unsigned long)
+qstrcmp(QByteArray const&, char const*)
+qt_plugin_instance
+qt_plugin_query_metadata
 sYHp
-TIBs
-TLPs
-BGRs
+strcmp
 tXEt
-EMIt
-SNRt
+tXTi
 tXTz
-GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
-GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
+typeinfo for QImageIOHandler
+typeinfo for QImageIOPlugin
+vtable for __cxxabiv1::__si_class_type_info
+z_deflate
+z_deflateEnd
+z_deflateInit2_
+z_inflate
+z_inflateEnd
+z_inflateInit_
+zlib encountered an error

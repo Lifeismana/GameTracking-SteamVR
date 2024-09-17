@@ -1,299 +1,36 @@
-.?AVtype_info@@
-.?AVbad_alloc@std@@
-.?AVexception@std@@
                           
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-.?AVCAitStreamGraph@@
-.?AVUsbScsiCmd@@
-.?AVbad_exception@std@@
-kU'9
-HMXB
-?q=\n
-?Zd;
-?/L[
-S;uD
-z?aUY
-D?$?
-U>c{
-zc%C1
-.:3q
--64OS
-NKeb
-YUY2
-qMJPG
-Vbad allocation
-CorExitProcess
-runtime error 
-TLOSS error\r\n
-SING error\r\n
-DOMAIN error\r\n
-R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
-R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
-R6032\r\n- not enough space for locale information\r\n
-R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
-R6030\r\n- CRT not initialized\r\n
-R6028\r\n- unable to initialize heap\r\n
-R6027\r\n- not enough space for lowio initialization\r\n
-R6026\r\n- not enough space for stdio initialization\r\n
-R6025\r\n- pure virtual function call\r\n
-R6024\r\n- not enough space for _onexit/atexit table\r\n
-R6019\r\n- unable to open console device\r\n
-R6018\r\n- unexpected heap error\r\n
-R6017\r\n- unexpected multithread lock error\r\n
-R6016\r\n- not enough space for thread data\r\n
-\r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
-R6009\r\n- not enough space for environment\r\n
-R6008\r\n- not enough space for arguments\r\n
-R6002\r\n- floating point support not loaded\r\n
-Microsoft Visual C++ Runtime Library
-<program name unknown>
-Runtime Error!\n\nProgram: 
-Unknown exception
-\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-EncodePointer
-DecodePointer
-FlsFree
-FlsSetValue
-FlsGetValue
-FlsAlloc
-(null)
-( 8PX
-700WP
-`h````
-xpxxxx
-('8PW
-700PP
-`h`hhh
-xppwpp
-GetProcessWindowStation
-GetUserObjectInformationA
-GetLastActivePopup
-GetActiveWindow
-MessageBoxA
-USER32.DLL
- Complete Object Locator'
- Class Hierarchy Descriptor'
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
  Type Descriptor'
-`local static thread guard'
-`managed vector copy constructor iterator'
-`vector vbase copy constructor iterator'
-`vector copy constructor iterator'
-`dynamic atexit destructor for '
-`dynamic initializer for '
-`eh vector vbase copy constructor iterator'
-`eh vector copy constructor iterator'
-`managed vector destructor iterator'
-`managed vector constructor iterator'
-`placement delete[] closure'
-`placement delete closure'
-`omni callsig'
- delete[]
- new[]
-`local vftable constructor closure'
-`local vftable'
-`RTTI
-`udt returning'
-`copy constructor closure'
-`eh vector vbase constructor iterator'
-`eh vector destructor iterator'
-`eh vector constructor iterator'
-`virtual displacement map'
-`vector vbase constructor iterator'
-`vector destructor iterator'
-`vector constructor iterator'
-`scalar deleting destructor'
-`default constructor closure'
-`vector deleting destructor'
-`vbase destructor'
-`string'
-`local static guard'
-`typeof'
-`vcall'
-`vbtable'
-`vftable'
-operator
  delete
+ delete[]
  new
-__unaligned
-__restrict
-__ptr64
-__clrcall
-__fastcall
-__thiscall
-__stdcall
-__pascal
-__cdecl
-__based(
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-HH:mm:ss
-dddd, MMMM dd, yyyy
-MM/dd/yy
-December
-November
-October
-September
-August
-July
-June
-April
-March
-February
-January
-Saturday
-Friday
-Thursday
-Wednesday
-Tuesday
-Monday
-Sunday
-CONOUT$
-SunMonTueWedThuFriSat
-JanFebMarAprMayJunJulAugSepOctNovDec
-J\rr3u
-J\rr3u
+( 8PX
+('8PW
+(null)
+-64OS
+.?AVCAitStreamGraph@@
+.?AVUsbScsiCmd@@
+.?AVbad_alloc@std@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
+.?AVtype_info@@
 0000000000000000
-e+000
-GAIsProcessorFeaturePresent
-KERNEL32
-bad exception
-1#QNAN
-1#INF
 1#IND
+1#INF
+1#QNAN
 1#SNAN
-RSDSwu
-d:\VCProject\Namuga\AitH264CamSample\release\AitUVCExtApi.pdb
-OutputDebugStringW
-Sleep
-CloseHandle
-CreateThread
-SetEvent
-WaitForSingleObject
-GetModuleFileNameW
-GetPrivateProfileIntW
-CreateEventW
-TerminateThread
-GetExitCodeThread
-GetLocalTime
-GetWindowsDirectoryW
-CreateFileW
-DeviceIoControl
-GetLastError
-KERNEL32.dll
-MessageBoxW
-GetMessageW
-DispatchMessageW
-PeekMessageW
-TranslateMessage
-USER32.dll
-CoCreateInstance
-CoInitialize
-CoGetMalloc
-ole32.dll
-OLEAUT32.dll
-PathRemoveFileSpecW
-SHLWAPI.dll
-HeapFree
-HeapAlloc
-GetCurrentThreadId
-GetCommandLineA
-TerminateProcess
-GetCurrentProcess
-UnhandledExceptionFilter
-SetUnhandledExceptionFilter
-IsDebuggerPresent
-HeapCreate
-HeapDestroy
-VirtualFree
-DeleteCriticalSection
-LeaveCriticalSection
-EnterCriticalSection
-VirtualAlloc
-HeapReAlloc
-GetModuleHandleW
-GetProcAddress
-ExitProcess
-WriteFile
-GetStdHandle
-GetModuleFileNameA
-RaiseException
-RtlUnwind
-WideCharToMultiByte
-GetConsoleCP
-GetConsoleMode
-SetFilePointer
-SetHandleCount
-GetFileType
-GetStartupInfoA
-MultiByteToWideChar
-ReadFile
-GetCPInfo
-InterlockedIncrement
-InterlockedDecrement
-GetACP
-GetOEMCP
-IsValidCodePage
-TlsGetValue
-TlsAlloc
-TlsSetValue
-TlsFree
-SetLastError
-FreeEnvironmentStringsA
-GetEnvironmentStrings
-FreeEnvironmentStringsW
-GetEnvironmentStringsW
-QueryPerformanceCounter
-GetTickCount
-GetCurrentProcessId
-GetSystemTimeAsFileTime
-InitializeCriticalSectionAndSpinCount
-LoadLibraryA
-HeapSize
-WriteConsoleA
-GetConsoleOutputCP
-WriteConsoleW
-SetStdHandle
-FlushFileBuffers
-LCMapStringA
-LCMapStringW
-GetStringTypeA
-GetStringTypeW
-GetLocaleInfoA
-SetEndOfFile
-GetProcessHeap
-CreateFileA
-GetModuleHandleA
-AitUVCExtApi.dll
-AITAPI_GetCameraControl
-AITAPI_GetCameraControlRange
+700PP
+700WP
+<program name unknown>
 ?AITAPI_GetFWVersion@@YGJPAXPAD@Z
-AITAPI_GetSensorRegisterW
-AITAPI_GetSerialNumber
-AITAPI_SetCameraControl
-AITAPI_SetLensPos
-AITAPI_SetSensorRegisterW
-AITROMAPI_CloseDevice
-AITROMAPI_LoadUpdater
-AITROMAPI_OpenDevice
-AITUVCEXT_WriteFWData
-TUCK_CloseDevice
-TUCK_CommitGet
-TUCK_CommitSet
 ?TUCK_EuGet@@YGJPAXI0G@Z
-TUCK_EuSet
-TUCK_OpenDevice
-TUCK_ProbeGet
-TUCK_ProbeSet
-TUCK_WriteLog
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AITAPI_AitExtGet
 AITAPI_AitExtSet
 AITAPI_AudioCloseDevice
@@ -312,18 +49,19 @@ AITAPI_ForceIFrame
 AITAPI_GetAFACC
 AITAPI_GetAWBGain
 AITAPI_GetAudioRegisterW
+AITAPI_GetCameraControl
+AITAPI_GetCameraControlRange
 AITAPI_GetCheckSumResult
 AITAPI_GetDeviceInfo
 AITAPI_GetFWBuildDate
 AITAPI_GetFWVersion
 AITAPI_GetH264FrameList
 AITAPI_GetH264_UVC_PayloadFormat
-_AITAPI_GetMiscSetting@8
 AITAPI_GetRegister
 AITAPI_GetSensorRegister
-_AITAPI_GetSkypeXUVersion@8
+AITAPI_GetSensorRegisterW
+AITAPI_GetSerialNumber
 AITAPI_GetTableSize
-_AITAPI_GetVCMRegister@12
 AITAPI_GetVideoProcAmp
 AITAPI_GetVideoProcAmpRange
 AITAPI_Get_IVideoProcAmp_Interface
@@ -346,19 +84,20 @@ AITAPI_ReleaseH264FrameList
 AITAPI_SetAWBGain
 AITAPI_SetAudioRegisterW
 AITAPI_SetBitRate
+AITAPI_SetCameraControl
 AITAPI_SetFps
 AITAPI_SetH264FrameIndex
 AITAPI_SetH264Mode
 AITAPI_SetImageEffect
+AITAPI_SetLensPos
 AITAPI_SetMaxQP
-_AITAPI_SetMinQP@8
 AITAPI_SetMiscSetting
 AITAPI_SetMjpgQuality
 AITAPI_SetPframeCount
 AITAPI_SetRegister
 AITAPI_SetSensorRegister
+AITAPI_SetSensorRegisterW
 AITAPI_SetShadding
-_AITAPI_SetVCMRegister@12
 AITAPI_SetVideoProcAmp
 AITAPI_SetVideoRecMode
 AITAPI_UpdateCaliData
@@ -374,6 +113,9 @@ AITAPI_WriteInitialTable
 AITAPI_WriteNVMEM
 AITAPI_WriteTable
 AITAPI_WriteTableEx
+AITROMAPI_CloseDevice
+AITROMAPI_LoadUpdater
+AITROMAPI_OpenDevice
 AITUVCEXT_DoAF
 AITUVCEXT_GetChipInfo
 AITUVCEXT_GetFWBuildDay
@@ -402,8 +144,251 @@ AITUVCEXT_UpdateFW
 AITUVCEXT_UpdateFW_Vision
 AITUVCEXT_UpdateFW_with_progress
 AITUVCEXT_UpdateFW_with_progressEx
+AITUVCEXT_WriteFWData
+AitUVCExtApi.dll
+April
+August
+CONOUT$
+CloseHandle
+CoCreateInstance
+CoGetMalloc
+CoInitialize
 ConvertNV12toBMP
 ConvertRGBtoBMP
 ConvertYUY2toBMP
+CorExitProcess
+CreateEventW
+CreateFileA
+CreateFileW
+CreateThread
+DOMAIN error\r\n
+December
+DecodePointer
+DeleteCriticalSection
+DeviceIoControl
+DispatchMessageW
+EncodePointer
+EnterCriticalSection
+ExitProcess
+February
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FreeEnvironmentStringsA
+FreeEnvironmentStringsW
+Friday
+GAIsProcessorFeaturePresent
+GetACP
+GetActiveWindow
+GetCPInfo
+GetCommandLineA
+GetConsoleCP
+GetConsoleMode
+GetConsoleOutputCP
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetEnvironmentStrings
+GetEnvironmentStringsW
+GetExitCodeThread
+GetFileType
+GetLastActivePopup
+GetLastError
+GetLocalTime
+GetLocaleInfoA
+GetMessageW
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleW
+GetOEMCP
+GetPrivateProfileIntW
+GetProcAddress
+GetProcessHeap
+GetProcessWindowStation
+GetStartupInfoA
+GetStdHandle
+GetStringTypeA
+GetStringTypeW
+GetSystemTimeAsFileTime
+GetTickCount
+GetUserObjectInformationA
+GetWindowsDirectoryW
+HH:mm:ss
+HMXB
+HeapAlloc
+HeapCreate
+HeapDestroy
+HeapFree
+HeapReAlloc
+HeapSize
+InitializeCriticalSectionAndSpinCount
+InterlockedDecrement
+InterlockedIncrement
+IsDebuggerPresent
+IsValidCodePage
+J\rr3u
+JanFebMarAprMayJunJulAugSepOctNovDec
+January
+July
+June
+KERNEL32
+KERNEL32.dll
+LCMapStringA
+LCMapStringW
+LeaveCriticalSection
+LoadLibraryA
+MM/dd/yy
+March
+MessageBoxA
+MessageBoxW
+Microsoft Visual C++ Runtime Library
+Monday
+MultiByteToWideChar
+NKeb
 NV12_to_RGB
+November
+OLEAUT32.dll
+October
+OutputDebugStringW
 PackWavFile
+PathRemoveFileSpecW
+PeekMessageW
+QueryPerformanceCounter
+R6002\r\n- floating point support not loaded\r\n
+R6008\r\n- not enough space for arguments\r\n
+R6009\r\n- not enough space for environment\r\n
+R6016\r\n- not enough space for thread data\r\n
+R6017\r\n- unexpected multithread lock error\r\n
+R6018\r\n- unexpected heap error\r\n
+R6019\r\n- unable to open console device\r\n
+R6024\r\n- not enough space for _onexit/atexit table\r\n
+R6025\r\n- pure virtual function call\r\n
+R6026\r\n- not enough space for stdio initialization\r\n
+R6027\r\n- not enough space for lowio initialization\r\n
+R6028\r\n- unable to initialize heap\r\n
+R6030\r\n- CRT not initialized\r\n
+R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
+R6032\r\n- not enough space for locale information\r\n
+R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
+R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
+RSDSwu
+RaiseException
+ReadFile
+RtlUnwind
+Runtime Error!\n\nProgram: 
+S;uD
+SHLWAPI.dll
+SING error\r\n
+Saturday
+September
+SetEndOfFile
+SetEvent
+SetFilePointer
+SetHandleCount
+SetLastError
+SetStdHandle
+SetUnhandledExceptionFilter
+Sleep
+SunMonTueWedThuFriSat
+Sunday
+TLOSS error\r\n
+TUCK_CloseDevice
+TUCK_CommitGet
+TUCK_CommitSet
+TUCK_EuSet
+TUCK_OpenDevice
+TUCK_ProbeGet
+TUCK_ProbeSet
+TUCK_WriteLog
+TerminateProcess
+TerminateThread
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+TranslateMessage
+Tuesday
+USER32.DLL
+USER32.dll
+UnhandledExceptionFilter
+Unknown exception
+Vbad allocation
+VirtualAlloc
+VirtualFree
+WaitForSingleObject
+Wednesday
+WideCharToMultiByte
+WriteConsoleA
+WriteConsoleW
+WriteFile
+YUY2
+\r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
+_AITAPI_GetMiscSetting@8
+_AITAPI_GetSkypeXUVersion@8
+_AITAPI_GetVCMRegister@12
+_AITAPI_SetMinQP@8
+_AITAPI_SetVCMRegister@12
+__based(
+__cdecl
+__clrcall
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+bad exception
+d:\VCProject\Namuga\AitH264CamSample\release\AitUVCExtApi.pdb
+dddd, MMMM dd, yyyy
+e+000
+kU'9
+ole32.dll
+operator
+qMJPG
+runtime error 
+xppwpp
+xpxxxx
+z?aUY
+zc%C1

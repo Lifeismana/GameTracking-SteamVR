@@ -1,180 +1,180 @@
-__gmon_start__
-_init
-_fini
-_ITM_deregisterTMCloneTable
-_ITM_registerTMCloneTable
-__cxa_finalize
-_Jv_RegisterClasses
-QDataStream::operator>>(int&)
-QDataStream::operator<<(int)
-operator new(unsigned long)
-QImageIOHandler::setDevice(QIODevice*)
-QImageIOHandler::setFormat(QByteArray const&)
-QObjectData::dynamicMetaObject() const
-QImageIOPlugin::~QImageIOPlugin()
-operator delete(void*)
-QIODevice::isOpen() const
-memcmp
-QIODevice::isReadable() const
-QIODevice::isWritable() const
-qt_plugin_query_metadata
-qt_plugin_instance
-QImageIOPlugin::QImageIOPlugin(QObject*)
-QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
-__cxa_guard_acquire
-__cxa_guard_release
-__cxa_atexit
-strcmp
-QImageIOPlugin::qt_metacast(char const*)
-QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)
-vtable for __cxxabiv1::__si_class_type_info
-typeinfo for QImageIOPlugin
-QObject::event(QEvent*)
-QObject::eventFilter(QObject*, QEvent*)
-QObject::timerEvent(QTimerEvent*)
-QObject::childEvent(QChildEvent*)
-QObject::customEvent(QEvent*)
-QObject::connectNotify(QMetaMethod const&)
-QObject::disconnectNotify(QMetaMethod const&)
-QImageIOPlugin::staticMetaObject
-QDataStream::operator>>(short&)
-QByteArray::QByteArray(char const*, int)
-QImageIOHandler::~QImageIOHandler()
-QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
-QListData::dispose(QListData::Data*)
-QImage::QImage(int, int, QImage::Format)
-QImage::scanLine(int)
-QDataStream::operator>>(signed char&)
-QVariant::toByteArray() const
-QByteArray::toUpper_helper(QByteArray const&)
-QByteArray::toLower_helper(QByteArray const&)
-QByteArray::toLower_helper(QByteArray&)
-QMessageLogger::warning() const
-QString::fromUtf8_helper(char const*, int)
-QTextStream::operator<<(QString const&)
-QTextStream::operator<<(char)
-QDebug::putByteArray(char const*, unsigned long, QDebug::Latin1Content)
-QDebug::~QDebug()
-QDataStream::floatingPointPrecision() const
-QDataStream::setFloatingPointPrecision(QDataStream::FloatingPointPrecision)
-QDataStream::operator>>(float&)
-QDataStream::operator>>(long long&)
-QImage::QImage()
-sqrt
-QImage::pixel(int, int) const
-QImage::setColor(int, unsigned int)
-QImage::setPixel(int, int, unsigned int)
-QImageIOHandler::QImageIOHandler()
-QIODevice::peek(long long)
-QImageIOHandler::setFormat(QByteArray const&) const
-QImageIOHandler::device() const
-QTextStream::operator<<(unsigned int)
-QDataStream::QDataStream(QIODevice*)
-QDataStream::setByteOrder(QDataStream::ByteOrder)
-QDataStream::status() const
-QDataStream::~QDataStream()
-QListData::detach_grow(int*, int)
-QVariant::QVariant(QByteArray const&)
-QVariant::QVariant(QSize const&)
-QListData::shared_null
-QVariant::QVariant(int, void const*, unsigned int)
-QListData::append()
-QImage::fill(unsigned int)
-QImage::scanLine(int) const
-memcpy
-QImage::~QImage()
-QImage::isNull() const
-QImage::operator=(QImage const&)
-QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const
-QImage::height() const
-QImage::width() const
-typeinfo for QImageIOHandler
-QImageIOHandler::jumpToNextImage()
-QImageIOHandler::loopCount() const
-QImageIOHandler::nextImageDelay() const
-QImageIOHandler::currentImageNumber() const
-QImageIOHandler::currentImageRect() const
-libQt5Gui.so.5
-libQt5Core.so.5
-libGL.so.1
-libpthread.so.0
-libstdc++.so.6
-libm.so.6
-libgcc_s.so.1
-libc.so.6
-_edata
-__bss_start
-_end
 $ORIGIN/../../lib
-GLIBC_2.2.5
-GLIBCXX_3.4
-CXXABI_1.3
-QDDSPlugin
 10QDDSPlugin
-unknown
-default
-unknown format
-Wrong dds.size: actual =
-expected =
-Format
-is not supported
-A8R8G8B8
-X8R8G8B8
-R5G6B5
-X1R5G5B5
-A1R5G5B5
-A4R4G4B4
-A8R3G3B2
-X4R4G4B4
-A2B10G10R10
-A8B8G8R8
-X8B8G8R8
-A2R10G10B10
+11QDDSHandler
 A16B16G16R16
-A8P8
-A8L8
-A4L4
-L6V5U5
-X8L8V8U8
-Q8W8V8U8
+A16B16G16R16F
+A1R5G5B5
+A2B10G10R10
+A2B10G10R10_XR_BIAS
+A2R10G10B10
 A2W10V10U10
-UYVY
-R8G8_B8G8
-YUY2
-G8R8_G8B8
+A32B32G32R32F
+A4L4
+A4P4
+A4R4G4B4
+A8B8G8R8
+A8L8
+A8P8
+A8R3G3B2
+A8R8G8B8
+ATI2
+BinaryBuffer
+CXXABI_1.3
+Can't read image with w/h bigger than INT_MAX
+CxV8U8
+D15S1
+D16Lockable
+D24FS8
+D24S8
+D24X4S4
+D24X8
+D32FLockable
+D32Lockable
+DDS 
+DDSHandler::canRead() called with no device
 DXT1
 DXT2
 DXT3
 DXT4
 DXT5
-RXGB
-ATI2
-D16Lockable
-D15S1
-D24S8
-D24X8
-D24X4S4
-D32FLockable
-D24FS8
-D32Lockable
-S8Lockable
-VertexData
-Index32
-Q16W16V16U16
-Multi2ARGB8
-A16B16G16R16F
-A32B32G32R32F
-CxV8U8
-A2B10G10R10_XR_BIAS
-BinaryBuffer
-A4P4
-DDSHandler::canRead() called with no device
-Wrong dds.flags - not all required flags present. Actual flags :
-Wrong dds.pixelFormat.size: actual =
-Can't read image with w/h bigger than INT_MAX
-Sequential devices are not supported
-DDS 
-UYVYRGBGYUY2GRGBDXT1DXT2DXT3DXT4DXT5RXGBATI2n
-11QDDSHandler
+Format
+G8R8_G8B8
 GCC: (GNU) 4.4.7 20120313 (Red Hat 4.4.7-9)
 GCC: (GNU) 4.9.1 20140922 (Red Hat 4.9.1-10)
+GLIBCXX_3.4
+GLIBC_2.2.5
+Index32
+L6V5U5
+Multi2ARGB8
+Q16W16V16U16
+Q8W8V8U8
+QArrayData::deallocate(QArrayData*, unsigned long, unsigned long)
+QByteArray::QByteArray(char const*, int)
+QByteArray::toLower_helper(QByteArray const&)
+QByteArray::toLower_helper(QByteArray&)
+QByteArray::toUpper_helper(QByteArray const&)
+QDDSPlugin
+QDataStream::QDataStream(QIODevice*)
+QDataStream::floatingPointPrecision() const
+QDataStream::operator<<(int)
+QDataStream::operator>>(float&)
+QDataStream::operator>>(int&)
+QDataStream::operator>>(long long&)
+QDataStream::operator>>(short&)
+QDataStream::operator>>(signed char&)
+QDataStream::setByteOrder(QDataStream::ByteOrder)
+QDataStream::setFloatingPointPrecision(QDataStream::FloatingPointPrecision)
+QDataStream::status() const
+QDataStream::~QDataStream()
+QDebug::putByteArray(char const*, unsigned long, QDebug::Latin1Content)
+QDebug::~QDebug()
+QIODevice::isOpen() const
+QIODevice::isReadable() const
+QIODevice::isWritable() const
+QIODevice::peek(long long)
+QImage::QImage()
+QImage::QImage(int, int, QImage::Format)
+QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const
+QImage::fill(unsigned int)
+QImage::height() const
+QImage::isNull() const
+QImage::operator=(QImage const&)
+QImage::pixel(int, int) const
+QImage::scanLine(int)
+QImage::scanLine(int) const
+QImage::setColor(int, unsigned int)
+QImage::setPixel(int, int, unsigned int)
+QImage::width() const
+QImage::~QImage()
+QImageIOHandler::QImageIOHandler()
+QImageIOHandler::currentImageNumber() const
+QImageIOHandler::currentImageRect() const
+QImageIOHandler::device() const
+QImageIOHandler::jumpToNextImage()
+QImageIOHandler::loopCount() const
+QImageIOHandler::nextImageDelay() const
+QImageIOHandler::setDevice(QIODevice*)
+QImageIOHandler::setFormat(QByteArray const&)
+QImageIOHandler::setFormat(QByteArray const&) const
+QImageIOHandler::~QImageIOHandler()
+QImageIOPlugin::QImageIOPlugin(QObject*)
+QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)
+QImageIOPlugin::qt_metacast(char const*)
+QImageIOPlugin::staticMetaObject
+QImageIOPlugin::~QImageIOPlugin()
+QListData::append()
+QListData::detach_grow(int*, int)
+QListData::dispose(QListData::Data*)
+QListData::shared_null
+QMessageLogger::warning() const
+QObject::childEvent(QChildEvent*)
+QObject::connectNotify(QMetaMethod const&)
+QObject::customEvent(QEvent*)
+QObject::disconnectNotify(QMetaMethod const&)
+QObject::event(QEvent*)
+QObject::eventFilter(QObject*, QEvent*)
+QObject::timerEvent(QTimerEvent*)
+QObjectData::dynamicMetaObject() const
+QString::fromUtf8_helper(char const*, int)
+QTextStream::operator<<(QString const&)
+QTextStream::operator<<(char)
+QTextStream::operator<<(unsigned int)
+QVariant::QVariant(QByteArray const&)
+QVariant::QVariant(QSize const&)
+QVariant::QVariant(int, void const*, unsigned int)
+QVariant::toByteArray() const
+QtSharedPointer::ExternalRefCountData::getAndRef(QObject const*)
+R5G6B5
+R8G8_B8G8
+RXGB
+S8Lockable
+Sequential devices are not supported
+UYVY
+UYVYRGBGYUY2GRGBDXT1DXT2DXT3DXT4DXT5RXGBATI2n
+VertexData
+Wrong dds.flags - not all required flags present. Actual flags :
+Wrong dds.pixelFormat.size: actual =
+Wrong dds.size: actual =
+X1R5G5B5
+X4R4G4B4
+X8B8G8R8
+X8L8V8U8
+X8R8G8B8
+YUY2
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+__bss_start
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__gmon_start__
+_edata
+_end
+_fini
+_init
+default
+expected =
+is not supported
+libGL.so.1
+libQt5Core.so.5
+libQt5Gui.so.5
+libc.so.6
+libgcc_s.so.1
+libm.so.6
+libpthread.so.0
+libstdc++.so.6
+memcmp
+memcpy
+operator delete(void*)
+operator new(unsigned long)
+qt_plugin_instance
+qt_plugin_query_metadata
+sqrt
+strcmp
+typeinfo for QImageIOHandler
+typeinfo for QImageIOPlugin
+unknown
+unknown format
+vtable for __cxxabiv1::__si_class_type_info

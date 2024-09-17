@@ -1,573 +1,104 @@
                           
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-kU'9
-HMXB
-?q=\n
-?Zd;
-?/L[
-S;uD
-z?aUY
-D?$?
-U>c{
-zc%C1
-.:3q
--64OS
-NKeb
-raw ADTS AAC (Advanced Audio Coding)
-audio/aac,audio/aacp,audio/x-aac
-URLContext
-NULL
-libavformat/avio.c
-file
-abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+-.
-AVIOContext
-libavformat/aviobuf.c
-libavformat/cutils.c
-%08x 
- %02x
-stream #%d:\n
-  keyframe=%d\n
-  duration=%0.3f\n
-  dts=
-%0.3f
-  pts=
-  size=%d\n
-, %3.2f %s
-, %1.0f %s
-, %1.0fk %s
-language
-%sMetadata:\n
-%s  %-16s: %s\n
-channel count %lu, 
-channel layout: %s, 
-sample_rate %lu, 
-width %lu height %lu
-unknown param
-%s - 
-unknown
-invalid data
-track gain
-track peak
-album gain
-album peak
-%sSide data:\n
-%s  
-palette
-new extradata
-paramchange: 
-h263 macroblock info
-replaygain: 
-displaymatrix: rotation of %.2f degrees
-unknown side data type %d (%d bytes)
+    Chapter #%d.%d: 
     Stream #%d.%d
-[0x%x]
-(%s)
-, %d, %d/%d
-: %s
-, PAR %d:%d DAR %d:%d
- (default)
- (dub)
- (original)
+  Duration: 
+  No Program\n
+  Program %d %s\n
+  duration=%0.3f\n
+  keyframe=%d\n
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ %02x
+ (clean effects)
  (comment)
- (lyrics)
- (karaoke)
+ (default)
  (forced)
  (hearing impaired)
+ (karaoke)
+ (lyrics)
+ (original)
  (visual impaired)
- (clean effects)
-    
-libavformat/dump.c
-from
-Output
-Input
-%s #%d, %s, %s '%s':\n
-  Duration: 
+ 23\fq
+%+08.4f%+09.4f/
+%0.3f
 %02d:%02d:%02d.%02d
-, start: 
-%d.%06d
-, bitrate: 
+%02d:%02d:%02d.%03d
+%06lx%s
+%08x 
+%Y-%m-%d %H:%M:%S
 %d kb/s
-    Chapter #%d.%d: 
-start %f, 
-end %f\n
-name
-  Program %d %s\n
-  No Program\n
-Oc:\buildslave\libav_win32\build\dev\libavutil/file_open.c
-Invalid picture type: %d.\n
-Could not read mimetype from an attached picture.\n
-Unknown attached picture mimetype: %s.\n
-libavformat/flac_picture.c
-Error reading attached picture description.\n
-Invalid attached picture size: %d.\n
-Error reading attached picture data.\n
-comment
-title
-mime_type
-Format detected only with low score of %d, misdetection possible!\n
-Probed with size=%d and score=%d\n
-GIF87a
-GIF89a
-min_delay
-minimum valid delay between frames (in hundredths of second)
-default_delay
-default delay between frames (in hundredths of second)
-ignore_loop
-ignore loop setting (netscape extension)
-CompuServe Graphics Interchange Format (GIF)
-Graphic Control Extension block's size less than 4.\n
-lzw minimum code size must be >= 1\n
-invalid block label: code=%02x '%c'\n
-Blues
-Classic Rock
-Country
-Dance
-Disco
-Funk
-Grunge
-Hip-Hop
-Jazz
-Metal
-New Age
-Oldies
-Other
-Reggae
-Rock
-Techno
-Industrial
-Alternative
-Death Metal
-Pranks
-Soundtrack
-Euro-Techno
-Ambient
-Trip-Hop
-Vocal
-Jazz+Funk
-Fusion
-Trance
-Classical
-Instrumental
-Acid
-House
-Game
-Sound Clip
-Gospel
-Noise
-AlternRock
-Bass
-Soul
-Punk
-Space
-Meditative
-Instrumental Pop
-Instrumental Rock
-Ethnic
-Gothic
-Darkwave
-Techno-Industrial
-Electronic
-Pop-Folk
-Eurodance
-Dream
-Southern Rock
-Comedy
-Cult
-Gangsta
-Top 40
-Christian Rap
-Pop/Funk
-Jungle
-Native American
-Cabaret
-New Wave
-Psychadelic
-Rave
-Showtunes
-Trailer
-Lo-Fi
-Tribal
-Acid Punk
-Acid Jazz
-Polka
-Retro
-Musical
-Rock & Roll
-Hard Rock
-Folk
-Folk-Rock
-National Folk
-Swing
-Fast Fusion
-Bebob
-Latin
-Revival
-Celtic
-Bluegrass
-Avantgarde
-Gothic Rock
-Progressive Rock
-Psychedelic Rock
-Symphonic Rock
-Slow Rock
-Big Band
-Chorus
-Easy Listening
-Acoustic
-Humour
-Speech
-Chanson
-Opera
-Chamber Music
-Sonata
-Symphony
-Booty Bass
-Primus
-Porn Groove
-Satire
-Slow Jam
-Club
-Tango
-Samba
-Folklore
-Ballad
-Power Ballad
-Rhythmic Soul
-Freestyle
-Duet
-Punk Rock
-Drum Solo
-A capella
-Euro-House
-Dance Hall
-Drum & Bass
-Club-House
-Hardcore
-Terror
-Indie
-BritPop
-Negerpunk
-Polsk Punk
-Beat
-Christian Gangsta
-Heavy Metal
-Black Metal
-Crossover
-Contemporary Christian
-Christian Rock
-Merengue
-Salsa
-Thrash Metal
-Anime
-JPop
-SynthPop
-artist
-album
-date
-track
-genre
-TALBTBPMTCOMTCONTCOPTDLYTENCTEXTTFLTTIT1TIT2TIT3TKEYTLANTLENTMEDTOALTOFNTOLYTOPETOWNTPE1TPE2TPE3TPE4TPOSTPUBTRCKTRSNTRSOTSRCTSSE
-TDENTDORTDRCTDRLTDTGTIPLTMCLTMOOTPROTSOATSOPTSOTTSST
-TDATTIMETORYTRDATSIZTYER
-image/gif
-image/jpeg
-image/jpg
-image/png
-image/tiff
-image/bmp
-TALB
-TCOM
-composer
-TCON
-TCOP
-copyright
-TENC
-encoded_by
-TIT2
-TLAN
-TPE1
-TPE2
-album_artist
-TPE3
-performer
-TPOS
-disc
-TPUB
-publisher
-TRCK
-TSSE
-encoder
-TDRL
-TDRC
-TDEN
-creation_time
-TSOA
-album-sort
-TSOP
-artist-sort
-TSOT
-title-sort
-32x32 pixels 'file icon'
-Other file icon
-Cover (front)
-Cover (back)
-Leaflet page
-Media (e.g. label side of CD)
-Lead artist/lead performer/soloist
-Artist/performer
-Conductor
-Band/Orchestra
-Composer
-Lyricist/text writer
-Recording Location
-During recording
-During performance
-Movie/video screen capture
-A bright coloured fish
-Illustration
-Band/artist logotype
-Publisher/Studio logotype
-GEOB
-APIC
-Error opening memory stream\n
-Cannot read BOM value, input too short\n
-Incorrect BOM value\n
-Unknown encoding\n
-Error reading frame %s, skipped\n
-(%d)
-TXXX
-libavformat/id3v2.c
-Failed to alloc %zu bytes\n
-Failed to alloc %d bytes\n
-Error reading GEOB frame, data truncated.\n
-TYER
-TDAT
--%.2s-%.2s
-TIME
- %.2s:%.2s
-Unknown attached picture mimetype: %s, skipping.\n
-Unknown attached picture type %d.\n
-Error decoding attached picture description.\n
-compression
-version
-invalid extended header length
-Invalid size in frame %s, skipping the rest of tag.\n
-Invalid empty frame %s, skipping.\n
-Skipping encrypted/compressed ID3v2 frame %s.\n
-invalid frame id, assuming padding
-ID3v2.%d tag skipped, cannot handle %s\n
-raw 
-yuv2
-AVUI
-2vuy
-yuvs
-L555
-L565
-B565
-24BG
-BGRA
-RGBA
-ABGR
-b16g
-b48r
-bxbg
-bxrg
-bxyv
-NO16
-DVOO
-R420
-R411
-R10k
-R10g
-r210
-v210
-bxy2
-v410
-jpeg
-mjpa
-AVDJ
-dmb1\t
-mjpb
-SVQ1
-svq1
-svqi
-SVQ3\r
-mp4v\r
-DIVX\r
-XVID\r
-3IV2
-h263
-s263
-dvcp
-dvc 
-dvpp
-dv5p
-dv5n
-AVdv
-AVd1
-dvhq
-dvhp
-dvh1
-dvh2
-dvh4
-dvh5
-dvh6
-dvh3
-VP31+
-rpza,
-cvid1
-8BPS2
-smc 8
-rle 
-rle1.
-WRLE;
-qdrw
-WRAW
-hev1
-hvc1
-avc1
-ai5p
-ai5q
-ai52
-ai53
-ai55
-ai56
-ai1p
-ai1q
-ai12
-ai13
-ai15
-ai16
-AVin
-aivx
-m1v 
-m1v1
-mpeg
-m2v1
-hdv1
-hdv2
-hdv3
-hdv4
-hdv5
-hdv6
-hdv7
-hdv8
-hdv9
-hdva
-mx5n
-mx5p
-mx4n
-mx4p
-mx3n
-mx3p
-xd51
-xd54
-xd55
-xd59
-xd5a
-xd5b
-xd5c
-xd5d
-xd5e
-xd5f
-xdv1
-xdv2
-xdv3
-xdv4
-xdv5
-xdv6
-xdv7
-xdv8
-xdv9
-xdva
-xdvb
-xdvc
-xdvd
-xdve
-xdvf
-xdhd
-xdh2
-AVmp
-mp2vY
-mjp2^
-tga a
-tiffb
-gif >
-png >
-MNG G
-vc-1X
-avs2u
-dracd
-AVdn
-H263
-3IVD
-AV1x
-AVupf
-sgi 
-dpx 
-exr 
-apch
-apcn
-apcs
-apco
-ap4h3
-flic
-icod
-mp4a
-ac-3
-sac3
-ima4
-alac
-samr
-sawb
-dtsc
-dtsh
-dtsl
-DTS )P
-ec-3
-vdva
-dvca
-agsm<P
-ilbc\tP
-MAC3\nP
-MAC6+P
+%d.%06d
+%s  %-16s: %s\n
+%s #%d, %s, %s '%s':\n
+%sMetadata:\n
+%sSide data:\n
+%ti bytes of comment header remain\n
+( 8PX
+('8PW
+(none)
+(null)
+*pkt_buffer
+, %1.0fk %s
+, %d, %d/%d
+, PAR %d:%d DAR %d:%d
+, bitrate: 
+, start: 
+--prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
+-64OS
 .mp1
 .mp2
 .mp3
-sm"P
-nmos
-alaw
-fl32
-fl32
-fl64
-fl64
-ulaw
-twos
-sowt
-lpcm
-lpcm\r
-in24\f
-in24\t
-in32
-in32
-sowt
-raw 
-NONE
-Qclp
-Qclq
-sqcp
-QDM23P
-QDMC$P
-spex$P
-SPXN
-WMA2
-text
-tx3g
-libavformat/isom.c
+0123456789ABCDEF0123456789abcdef
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+2 F!\#J&U(8*W+A-;0O1]3Y7_=LCSMP
+24BG
+2Vu1
+2vuy
+32x32 pixels 'file icon'
+33f33333
+3IV2
+3IV2\r
+3IVD
+3ff3f33f
+4XMV
+700PP
+700WP
+8BPS2
+:Feje$
+A bright coloured fish
+A capella
+A(L4
+AAS4K
+AASCL
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ABGR
+ACDV
+AFLC
+ALBUMARTIST
+AP41
+APIC
+ASV1!
+ASV2$
+AUR2
+AURA}
+AV1x
+AVDJ
+AVFormatContext
+AVI1
+AVI2
+AVIOContext
+AVRn
+AVUI
+AVd1
+AVdn
+AVdv
+AVin
+AVmp
+AVupf
 A_AAC
 A_AC3
 A_ALAC
@@ -575,18 +106,13 @@ A_DTS
 A_EAC3
 A_FLAC
 A_MLP
-A_MPEG/L2
 A_MPEG/L1
+A_MPEG/L2
 A_MPEG/L3
+A_MS/ACM
 A_OPUS
 A_PCM/FLOAT/IEEE
-A_PCM/FLOAT/IEEE
 A_PCM/INT/BIG
-A_PCM/INT/BIG
-A_PCM/INT/BIG
-A_PCM/INT/LIT
-A_PCM/INT/LIT
-A_PCM/INT/LIT
 A_PCM/INT/LIT
 A_QUICKTIME/QDM2
 A_REAL/14_4
@@ -598,26 +124,628 @@ A_TRUEHD
 A_TTA1
 A_VORBIS
 A_WAVPACK4
-S_TEXT/UTF8
-S_TEXT/UTF8
+Acid
+Acid Jazz
+Acid Punk
+Acoustic
+All info found\n
+AlternRock
+Alternative
+Ambient
+Anime
+Application provided invalid, non monotonically increasing dts to muxer in stream %d: %lld >= %lld\n
+April
+Artist/performer
+Aspect ratio mismatch between muxer (%d/%d) and encoder layer (%d/%d)\n
+Assertion %s failed at %s:%d\n
+August
+Avantgarde
+B565
+BBCD
+BGRA
+BLZ0\r
+BW10
+Ballad
+Band/Orchestra
+Band/artist logotype
+Bass
+Beat
+Bebob
+Big Band
+Black Metal
+Bluegrass
+Blues
+Booty Bass
+BritPop
+CAVSY
+CDV5
+CDVH
+CHAPTER%03d
+CJPG
+CLJRu
+CLLC
+COL0
+COL1
+CRAM/
+CSCDR
+CYUV
+Cabaret
+Cannot append palette to packet\n
+Cannot read BOM value, input too short\n
+Celtic
+Chamber Music
+Chanson
+Chapter %d not found in file\n
+Chorus
+Christian Gangsta
+Christian Rap
+Christian Rock
+Classic Rock
+Classical
+CloseThreadpoolTimer
+CloseThreadpoolWait
+Club
+Club-House
+Codec for stream %d does not use global headers but container format requires global headers\n
+Codec not found\n
+Comedy
+CompareStringEx
+Composer
+CompuServe Graphics Interchange Format (GIF)
+Conductor
+Contemporary Christian
+CorExitProcess
+Corrupt generic RM-style audio packet size\n
+Corrupt int4 RM-style audio packet size\n
+Corrupt sipr RM-style audio packet size\n
+Could not find codec parameters (%s)\n
+Could not parse framerate: %s.\n
+Could not read mimetype from an attached picture.\n
+Country
+Cover (back)
+Cover (front)
+CreateEventExW
+CreateFile2
+CreateSemaphoreExW
+CreateSymbolicLinkW
+CreateThreadpoolTimer
+CreateThreadpoolWait
+Crossover
+Cult
+DAVC
+DCOD\r
+DIGI\r
+DISCNUMBER
+DIV1\r
+DIV2
+DIV3
+DIV4
+DIV5
+DIV6
+DIVX\r
+DM4V\r
+DMK2\r
+DTS )P
+DTS discontinuity in stream %d: packet %d with DTS %lld, packet %d with DTS %lld\n
+DUCK4
+DVOO
+DVR 
+DVX3
+DX50\r
+DXGM\r
+DYM4\r
+Dance
+Dance Hall
+Darkwave
+Death Metal
+December
+Delay between the first packet and last packet in the muxing queue is %lld > %lld: forcing output\n
+Dialogue: %s,%d:%02d:%02d.%02d,%d:%02d:%02d.%02d,%s\r\n
+Direct Show Samples embedded in Ogg
+Disco
+DreX\r
+Dream
+Dropped corrupted packet (stream = %d)\n
+Drum & Bass
+Drum Solo
+Duet
+During performance
+During recording
+E130
+EBML block data error\n
+EBML header using unsupported features\n(EBML version %llu, doctype %s, doc version %llu)\n
+EM2V
+EM4A\r
+EPHV\r
+Easy Listening
+Electronic
+EnumSystemLocalesEx
+Error decoding attached picture description.\n
+Error opening memory stream\n
+Error parsing a wavpack block.\n
+Error parsing cover art.\n
+Error reading GEOB frame, data truncated.\n
+Error reading attached picture data.\n
+Error reading attached picture description.\n
+Error reading frame %s, skipped\n
+Estimating duration from bitrate, this may be inaccurate\n
+Ethnic
+Euro-House
+Euro-Techno
+Eurodance
+FFDS\r
+FFV1*
+FFVH
+FICV
+FLAC
+FLV1
+FLV4
+FMP4\r
+FPS1
+FRWU
+FSV1
+FVFW\r
+Failed to alloc %d bytes\n
+Failed to alloc %zu bytes\n
+Failed to decode codec private data\n
+Failed to parse cover art block.\n
+Fast Fusion
+February
+File moves beyond max. allowed depth (%d)\n
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushProcessWriteBuffers
+Folk
+Folk-Rock
+Folklore
+Format detected only with low score of %d, misdetection possible!\n
+FreeLibraryWhenCallbackReturns
+Freestyle
+Friday
+Funk
+Fusion
+G264\r
+G2M2
+G2M3
+G2M4
+GAVC
+GEOB
+GEOV\r
+GEOX\r
+GH7z^U
+GIF87a
+GIF89a
+GXVE
+Game
+Gangsta
+GetActiveWindow
+GetCurrentPackageId
+GetCurrentProcessorNumber
+GetDateFormatEx
+GetFileInformationByHandleExW
+GetLastActivePopup
+GetLocaleInfoEx
+GetLogicalProcessorInformation
+GetProcessWindowStation
+GetTickCount64
+GetTimeFormatEx
+GetUserDefaultLocaleName
+GetUserObjectInformationW
+Gospel
+Gothic
+Gothic Rock
+Graphic Control Extension block's size less than 4.\n
+Grunge
+H261
+H263
+H264
+HDX4\r
+HDYC
+HFYUD
+HH:mm:ss
+HMXB
+Hard Rock
+Hardcore
+Headers mismatch for stream %d: expected %d received %d.\n
+Heavy Metal
+Hip-Hop
+House
+Humour
+I263
+I420
+IART
+ICMT
+ICOP
+ICRD
+ID3v2.%d tag skipped, cannot handle %s\n
+IGNR
+IJLV
+IJPG
+ILNG
+INAM
+INMC\r
+IPJ2Z
+IPRD
+IPRT
+ISFT
+ISMP
+ISO: File Type Major Brand: %.4s\n
+ITCH
+ITRK
+IV31
+IV32p
+IV41q
+IV50
+IYUV
+Ignoring attempt to set invalid timebase for st:%d\n
+Illustration
+Incorrect BOM value\n
+Incorrect block_duration, possibly corrupted container
+Indie
+Industrial
+InitializeCriticalSectionEx
+Input
+Instrumental
+Instrumental Pop
+Instrumental Rock
+Invalid EBML number size tag 0x%02x at pos %llu (0x%llx)\n
+Invalid FLAC private data\n
+Invalid attached picture size: %d.\n
+Invalid element\n
+Invalid empty frame %s, skipping.\n
+Invalid length 0x%llx > 0x%llx for syntax element %i\n
+Invalid packet stream index: %d\n
+Invalid picture type: %d.\n
+Invalid sample field size %d\n
+Invalid sample rate: %d\n
+Invalid sample_count=%d\n
+Invalid size in frame %s, skipping the rest of tag.\n
+Invalid stream %llu or size %u\n
+Invalid time base in theora stream, assuming 25 FPS\n
+Invalid timestamps stream=%d, pts=%lld, dts=%lld, size=%d\n
+Invalid timing values.\n
+Invalid track number %d\n
+Invalid value of WAVEFORMATEXTENSIBLE_CHANNEL_MASK\n
+IsValidLocaleName
+JPGL\f
+JPop
+JanFebMarAprMayJunJulAugSepOctNovDec
+January
+Jazz
+Jazz+Funk
+July
+June
+Jungle
+KGV1
+KMVCX
+KW-DIRAC
+L263
+L555
+L565
+LAGS
+LCMapStringEx
+LEAD_PERFORMER
+LJ2CY
+LJ2KY
+LJPG
+LM20.
+LMP2
+LOCOJ
+Last packet is truncated to %d (because of unimplemented end trim support).\n
+Latin
+Lavf56.0.0
+Lead artist/lead performer/soloist
+Leaflet page
+Lo-Fi
+Lyricist/text writer
+M263
+M4CC\r
+M4S2\r
+M4T3\r
+M701
+MAC3\nP
+MAC6+P
+MAIN
+METADATA_BLOCK_PICTURE
+MJ2CY
+MJLS
+MJLS\f
+MJPG
+MM/dd/yy
+MMES
+MMJP
+MNG G
+MP41
+MP42
+MP43
+MP4S\r
+MPEG
+MPG3
+MPG4
+MPNG>
+MSA1
+MSS1
+MSS2
+MSVC/
+MSZH7
+MTS2
+MTSJ
+MVJP
+MVXM\r
+March
+Matroska / WebM
+Max EBML element depth (%d) reached, cannot parse further.\n
+Media (e.g. label side of CD)
+Meditative
+Merengue
+MessageBoxW
+Metal
+Monday
+Movie/video screen capture
+Multiple combined encodings not supported
+Multiple fisbone for the same stream
+Multiple mdhd?\n
+Musical
+NAME
+NKeb
+NO16
+NONE
+NULL
+NV12
+NV21
+National Folk
+Native American
+Negerpunk
+New Age
+New Wave
+Noise
+Non-increasing DTS in stream %d: packet %d with DTS %lld, packet %d with DTS %lld\n
+November
+Oc:\buildslave\libav_win32\build\dev\libavutil/file_open.c
+October
+Oldies
+Opera
+Opus
+OpusHead
+Other
+Other file icon
+Output
+P422
+PART_NUMBER
+PIM1
+PIM2
+PLV1
+PM4V\r
+PNG1%
+PVEZ6
+Page at %lld is missing granule\n
+Planar Y'CbCr 8-bit 4:2:0
+Polka
+Polsk Punk
+Pop-Folk
+Pop/Funk
+Porn Groove
+Power Ballad
+Pranks
+Primus
+Probe buffer size limit %d reached\n
+Probe with size=%d, packets=%d detected %s with score=%d\n
+Probed with size=%d and score=%d\n
+Progressive Rock
+Psychadelic
+Psychedelic Rock
+Publisher/Studio logotype
+Punk
+Punk Rock
+Q1.0=
+Q1.1H
+Q264
+QDM23P
+QDMC$P
+QIVG
+QMP4\r
+QPEG=
+Qclp
+Qclq
+QuickTime / MOV
+R10g
+R10k
+R411
+R420
+REPLAYGAIN_ALBUM_GAIN
+REPLAYGAIN_ALBUM_PEAK
+REPLAYGAIN_TRACK_GAIN
+REPLAYGAIN_TRACK_PEAK
+RGBA
+RMP4\r
+RPZA+
+RSDSv
+RT21M
+Rave
+Read error at pos. %llu (0x%llx)\n
+Read error\n
+Received a packet for an attachment stream.\n
+Recording Location
+Referenced QT chapter track not found\n
+Reggae
+Retro
+Revival
+Rhythmic Soul
+Rock
+Rock & Roll
+S263W
+S;uD
+SEDG\r
+SIPP\r
+SL25
+SLDV
+SLMJ
+SM4V\r
+SMI 
+SMP4\r
+SMV2
+SN40\r
+SP54|
+SPXN
+SVQ1
+SVQ3
+SVQ3\r
+S_ASS
+S_HDMV/PGS
+S_SSA
 S_TEXT/ASCII
 S_TEXT/ASS
 S_TEXT/SSA
-S_ASS
-S_SSA
+S_TEXT/UTF8
 S_VOBSUB
-S_HDMV/PGS
+Salsa
+Samba
+Satire
+Saturday
+September
+SetDefaultDllDirectories
+SetFileInformationByHandleW
+SetThreadStackGuarantee
+SetThreadpoolTimer
+SetThreadpoolWait
+Showtunes
+Skipping encrypted/compressed ID3v2 frame %s.\n
+Skipping invalid tag with no TagName.\n
+Slow Jam
+Slow Rock
+Sonata
+Sorenson H263
+Soul
+Sound Clip
+Soundtrack
+Southern Rock
+Space
+Speech
+Speex   
+SunMonTueWedThuFriSat
+Sunday
+Swing
+Symphonic Rock
+Symphony
+SynthPop
+SystemFunction036
+T263
+TALB
+TALBTBPMTCOMTCONTCOPTDLYTENCTEXTTFLTTIT1TIT2TIT3TKEYTLANTLENTMEDTOALTOFNTOLYTOPETOWNTPE1TPE2TPE3TPE4TPOSTPUBTRCKTRSNTRSOTSRCTSSE
+TCOM
+TCON
+TCOP
+TDAT
+TDATTIMETORYTRDATSIZTYER
+TDEN
+TDENTDORTDRCTDRLTDTGTIPLTMCLTMOOTPROTSOATSOPTSOTTSST
+TDRC
+TDRL
+TENC
+TIME
+TIT2
+TLAN
+TM20P
+TPE1
+TPE2
+TPE3
+TPOS
+TPUB
+TRACKNUMBER
+TRCK
+TSC2
+TSOA
+TSOP
+TSOT
+TSSE
+TTA1
+TXXX
+TYER
+Tag %s/0x%08x incompatible with output codec id '%d'\n
+Tango
+Techno
+Techno-Industrial
+Terror
+Thrash Metal
+Thursday
+Too old or unsupported Theora (%x)\n
+Top 40
+Trailer
+Trance
+Tribal
+Trip-Hop
+Tuesday
+U263
+ULDX\r
+ULH0
+ULH2
+ULRA
+ULRG
+ULTI<
+ULY0
+ULY2
+UMP4\r
+UMSV
+URLContext
+UYNV
+UYNY
+UYVY
+Unhandled or malformed custom metadata of size %lld\n
+Unknown EBML doctype '%s'\n
+Unknown MOV field order 0x%04x\n
+Unknown attached picture mimetype: %s, skipping.\n
+Unknown attached picture mimetype: %s.\n
+Unknown attached picture type %d.\n
+Unknown cover type: 0x%x.\n
+Unknown encoding\n
+Unknown entry 0x%lX\n
+Unknown or unsupported track type %llu\n
+Unknown skeleton version %d.%d\n
+Unknown/unsupported AVCodecID %s.\n
+Unsupported encoding type
+Using AVStream.codec.time_base as a timebase hint to the muxer is deprecated. Set AVStream.time_base instead.\n
+V264
+V422
+VBLE
+VCR1"
+VCR2
+VDTZ
+VIDM\r
+VIXL=
+VMnc^
+VNna
+VP30[
+VP31
+VP31+
+VP50\
+VP60\
+VP61\
+VP62k
+VP6A]
+VP6F]
+VP70
+VP71
+VP80
+VP90 
+VSPX\r
+VSSH
+VX1K
+VYUY
 V_DIRAC
 V_MJPEG
 V_MPEG1
 V_MPEG2
-V_MPEG4/ISO/ASP
 V_MPEG4/ISO/AP
-V_MPEG4/ISO/SP
+V_MPEG4/ISO/ASP
 V_MPEG4/ISO/AVC
-V_MPEGH/ISO/HEVC
+V_MPEG4/ISO/SP
 V_MPEG4/MS/V3
+V_MPEGH/ISO/HEVC
+V_MS/VFW/FOURCC
 V_PRORES
+V_QUICKTIME
 V_REAL/RV10
 V_REAL/RV20
 V_REAL/RV30
@@ -626,766 +754,93 @@ V_THEORA
 V_UNCOMPRESSED
 V_VP8
 V_VP9
-text/plain
-image/gif
-image/jpeg
-image/png
-image/tiff
-application/x-truetype-font
-application/x-font
-LEAD_PERFORMER
-PART_NUMBER
-matroska
-webm
-matroska,webm
-Matroska / WebM
-audio/webm,audio/x-matroska,video/webm,video/x-matroska
-MAIN
-(none)
-Read error at pos. %llu (0x%llx)\n
-Invalid EBML number size tag 0x%02x at pos %llu (0x%llx)\n
-libavformat/matroskadec.c
-File moves beyond max. allowed depth (%d)\n
-Unknown entry 0x%lX\n
-Invalid length 0x%llx > 0x%llx for syntax element %i\n
-Invalid element\n
-Read error\n
-Invalid track number %d\n
-Dialogue: %s,%d:%02d:%02d.%02d,%d:%02d:%02d.%02d,%s\r\n
-Skipping invalid tag with no TagName.\n
-%s/%s
-Max EBML element depth (%d) reached, cannot parse further.\n
-Working around broken index.\n
-Invalid FLAC private data\n
-WAVEFORMATEXTENSIBLE_CHANNEL_MASK
-Invalid value of WAVEFORMATEXTENSIBLE_CHANNEL_MASK\n
-Unknown or unsupported track type %llu\n
-Multiple combined encodings not supported
-Unsupported encoding type
-Failed to decode codec private data\n
-V_MS/VFW/FOURCC
-A_MS/ACM
-V_QUICKTIME
-TTA1
-Unknown/unsupported AVCodecID %s.\n
-EBML header using unsupported features\n(EBML version %llu, doctype %s, doc version %llu)\n
-Unknown EBML doctype '%s'\n
-incomplete attachment\n
-filename
-mimetype
-EBML block data error\n
-Corrupt int4 RM-style audio packet size\n
-Corrupt sipr RM-style audio packet size\n
-Corrupt generic RM-style audio packet size\n
-Error parsing a wavpack block.\n
-Invalid stream %llu or size %u\n
-Incorrect block_duration, possibly corrupted container
-avss
-chpl
-co64`,
-ctts
-dinf`7
-dref
-edts`7
-elstP%
-endaP"
-fiel
-ftyp`
-glbl )
-hdlr
-ilstP\n
-jp2h
-mdat
-mdhd@
-mdia`7
-meta
-minf`7
-moof
-moov
-mvex`7
-mvhd
-SMI 
-alac
-avcC )
-pasp@
-stbl`7
-stco`,
-stps
-strfp+
-stsc
-stsdp;
-stss
-stsz
-stts
-stz2
-tkhdp
-tfhd
-tfdt 
-trak
-traf`7
-tref`7
-chap
-trex`
-trun@
-udta`7
-wave
-esdsp\v
-dac3
-dec3p
-wide
-wfex
-cmov
-chan
-dvc1
-sbgp
-hvcC )
-----
-GH7z^U
-fffff3ff
-f3ff33f3
-3ff3f33f
-33f33333
-wwwUUUDDD"""
-mov,mp4,m4a,3gp,3g2,mj2
-QuickTime / MOV
-%d/%d
-Unknown cover type: 0x%x.\n
-libavformat/mov.c
-location
-%+08.4f%+09.4f/
-%s-%s
-description
-synopsis
-show
-episode_id
-network
-episode_sort
-season_number
-media_type
-hd_video
-gapless_playback
-Error parsing cover art.\n
-volume %s, len %d\n
-filename %s, len %d\n
-nlvl from %d, nlvl to %d\n
-type %d, len %d\n
-path %s\n
-dir %s\n
-sample aspect ratio already set to %d:%d, ignoring 'pasp' atom (%d:%d)\n
-qt  
-ISO: File Type Major Brand: %.4s\n
-major_brand
-minor_version
-compatible_brands
-%Y-%m-%d %H:%M:%S
-Multiple mdhd?\n
 Version %d
-Unknown MOV field order 0x%04x\n
-Planar Y'CbCr 8-bit 4:2:0
-Sorenson H263
-size: %dx%d\n
-palette: 
-%06lx%s
-multiple fourcc not supported\n
-invalid size %lu in stsd\n
-Invalid sample field size %d\n
-Invalid sample_count=%d\n
-wrong sample count\n
-error unaligned chunk\n
-wrong chunk count %d\n
-stream %d, missing mandatory atoms, broken header\n
-stream %d, timescale not set\n
-stream %d, error opening alias: path='%s', dir='%s', filename='%s', volume='%s', nlvl_from=%d, nlvl_to=%d\n
-org.hydrogenaudio.replaygain
-Unhandled or malformed custom metadata of size %lld\n
-could not find corresponding trex\n
-could not find corresponding track id %d\n
-this file requires zlib support compiled in\n
-multiple edit list entries, a/v desync might occur, patch welcome\n
-overread end of atom '%.4s' by %lld bytes\n
-Referenced QT chapter track not found\n
-Chapter %d not found in file\n
-error reading header: %d\n
-moov atom not found\n
-stream %d, offset 0x%llx: partial file\n
-Cannot append palette to packet\n
-no streams\n
-Using AVStream.codec.time_base as a timebase hint to the muxer is deprecated. Set AVStream.time_base instead.\n
-sample rate not set\n
-dimensions not set\n
-Aspect ratio mismatch between muxer (%d/%d) and encoder layer (%d/%d)\n
-Tag %s/0x%08x incompatible with output codec id '%d'\n
-Codec for stream %d does not use global headers but container format requires global headers\n
-libavformat/mux.c
-Lavf56.0.0
-Application provided invalid, non monotonically increasing dts to muxer in stream %d: %lld >= %lld\n
-pts < dts in stream %d\n
-Invalid packet stream index: %d\n
-Received a packet for an attachment stream.\n
-Delay between the first packet and last packet in the muxing queue is %lld > %lld: forcing output\n
-libavformat/oggdec.c
-cannot find sync word\n
-Codec not found\n
-Page at %lld is missing granule\n
-Headers mismatch for stream %d: expected %d received %d.\n
-CELT    
-libavformat/oggparsecelt.c
-BBCD
-KW-DIRAC
-FLAC
-fLaC
-libavformat/oggparseflac.c
-video
-audio
-text
-Direct Show Samples embedded in Ogg
-Invalid timing values.\n
-OpusHead
-Opus
-libavformat/oggparseopus.c
-Last packet is truncated to %d (because of unimplemented end trim support).\n
-fishead
-Unknown skeleton version %d.%d\n
-fisbone
-Multiple fisbone for the same stream
-Speex   
-libavformat/oggparsespeex.c
-invalid channel count. Speex must be mono or stereo.\n
-theora
-libavformat/oggparsetheora.c
-Too old or unsupported Theora (%x)\n
-Invalid time base in theora stream, assuming 25 FPS\n
-vorbis
-CHAPTER%03d
-%02d:%02d:%02d.%03d
-NAME
-libavformat/oggparsevorbis.c
-METADATA_BLOCK_PICTURE
-Failed to parse cover art block.\n
-%ti bytes of comment header remain\n
-truncated comment header, %i comments not found\n
-probesize
-set probing size
-packetsize
-set packet size
-fflags
-flush_packets
-reduce the latency by flushing out packets immediately
-ignidx
-ignore index
-genpts
-generate pts
-nofillin
-do not fill in missing values that can be exactly calculated
-noparse
-disable AVParsers, this needs nofillin too
-igndts
-ignore dts
-discardcorrupt
-discard corrupted frames
-nobuffer
-reduce the latency introduced by optional buffering
-bitexact
-do not write random/volatile data
-analyzeduration
-how many microseconds are analyzed to estimate duration
-cryptokey
-decryption key
-indexmem
-max memory used for timestamp index (per stream)
-rtbufsize
-max memory used for buffering real-time frames
-fdebug
-print specific debug info
-max_delay
-maximum muxing or demuxing delay in microseconds
-fpsprobesize
-number of frames used to probe fps
-f_err_detect
-set error detection flags (deprecated; use err_detect, save via avconv)
-err_detect
-set error detection flags
-crccheck
-verify embedded CRCs
-bitstream
-detect bitstream specification deviations
-buffer
-detect improper bitstream length
-explode
-abort decoding on minor error detection
-max_interleave_delta
-maximum buffering duration for interleaving
-f_strict
-how strictly to follow the standards (deprecated; use strict, save via avconv)
-strict
-how strictly to follow the standards
-strictly conform to all the things in the spec no matter what the consequences
-normal
-experimental
-allow non-standardized experimental variants
-AVFormatContext
-libavformat/options.c
-framerate
-Could not parse framerate: %s.\n
-libavformat/replaygain.c
-REPLAYGAIN_TRACK_GAIN
-REPLAYGAIN_TRACK_PEAK
-REPLAYGAIN_ALBUM_GAIN
-REPLAYGAIN_ALBUM_PEAK
-H264
-h264
-X264
-x264
-avc1
-DAVC
-SMV2
-VSSH
-Q264
-V264
-GAVC
-UMSV
-H263
-X263
-T263
-L263
-VX1K
-ZyGo
-M263
-lsvm
-H263
-I263
-H261
-U263
-viv1\r
-FMP4\r
-DIVX\r
-DX50\r
-XVID\r
-MP4S\r
-M4S2\r
-ZMP4\r
-DIV1\r
-BLZ0\r
-mp4v\r
-UMP4\r
-WV1F\r
-SEDG\r
-RMP4\r
-3IV2\r
+Vocal
+WAVEFORMATEXTENSIBLE_CHANNEL_MASK
 WAWV\r
-FFDS\r
-FVFW\r
-DCOD\r
-MVXM\r
-PM4V\r
-SMP4\r
-DXGM\r
-VIDM\r
-M4T3\r
-GEOX\r
-G264\r
-HDX4\r
-DM4V\r
-DMK2\r
-DYM4\r
-DIGI\r
-INMC\r
-EPHV\r
-EM4A\r
-M4CC\r
-SN40\r
-VSPX\r
-ULDX\r
-GEOV\r
-SIPP\r
-SM4V\r
-XVIX\r
-DreX\r
-QMP4\r
-PLV1
-MP43
-DIV3
-MPG3
-DIV5
-DIV6
-DIV4
-DVX3
-AP41
-COL1
-COL0
-MP42
-DIV2
-MPG4
-MP41
+WHAM/
+WMA2
 WMV1
 WMV2
-GXVE
-dvsd
-dvhd
-dvh1
-dvsl
-dv25
-dv50
-cdvc
-CDVH
-CDV5
-dvc 
-dvcs
-dvh1
-dvis
-pdvc
-SL25
-SLDV
-mpg1
-mpg2
-mpg2
-MPEG
-PIM1
-PIM2
-VCR2
-DVR 
-MMES
-LMP2
-slif
-EM2V
-M701
-mpgv
-BW10
+WMV3
+WMVA
+WMVPG
+WNV1J
+WRAW
+WRLE;
+WV1F\r
+WVC1G
+WVP2I
+WaitForThreadpoolTimerCallbacks
+Wednesday
+Working around broken index.\n
+X263
+X264
 XMPG
-MJPG
-LJPG
-dmb1
-mjpa\n
-LJPG
-JPGL\f
-MJLS\f
-MJPG
-MJLS
-jpeg
-IJPG
-AVRn
-ACDV
-QIVG
-SLMJ
-CJPG
-IJLV
-MVJP
-AVI1
-AVI2
-MTSJ
-ZJPG
-MMJP
-HFYUD
-FFVH
-CYUV
-I420
-YUY2
+XVID\r
+XVIX\r
+Xxanr
+Y411
+Y41B
 Y422
-V422
+Y42B
+Y800
 YUNV
-UYNV
-UYNY
-uyv1
-2Vu1
-2vuy
-yuvs
-yuv2
-P422
+YUV8K
+YUV9
+YUY2
 YV12
 YV16
 YV24
-UYVY
-VYUY
-IYUV
-Y800
-Y8  
-HDYC
 YVU9
-VDTZ
-Y411
-NV12
-NV21
-Y41B
-Y42B
-YUV9
-YVU9
-auv2
 YVYU
-FRWU
-R10k
-r210
-v210
-v410
-IV31
-IV32p
-IV41q
-IV50
-VP31
-VP30[
-VP50\
-VP60\
-VP61\
-VP62k
-VP6A]
-VP6F]
-FLV4
-VP70
-VP71
-VP80
-VP90 
-ASV1!
-ASV2$
-VCR1"
-FFV1*
-Xxanr
-LM20.
-mrle.
-MSVC/
-msvc/
-CRAM/
-cram/
-WHAM/
-wham,
-cvid4
-DUCK4
-PVEZ6
-MSZH7
-ZLIB#
-4XMV
-FLV1
-S263W
-FSV1
-svq19
-tscc:
-ULTI<
-VIXL=
-QPEG=
-Q1.0=
-Q1.1H
-WMV3
-WMVPG
-WVC1G
-WMVA
-WVP2I
-LOCOJ
-WNV1J
-YUV8K
-AAS4K
-AASCL
-RT21M
-FPS1
-theoN
-TM20P
-CSCDR
-ZMBVV
-KMVCX
-CAVSY
-mjp2Y
-MJ2CY
-LJ2CY
-LJ2KY
-IPJ2Z
-VMnc^
-tga >
-MPNG>
-PNG1%
-CLJRu
-drac+
-azpr+
-RPZA+
-rpza\v
-SP54|
-AURA}
-AUR2
-dpx 
-KGV1
-LAGS
-ULRA
-ULRG
-ULY0
-ULY2
-ULH0
-ULH2
-VBLE
-E130
-xtor
 ZECO3
-AFLC
-MSS1
-MSA1
-TSC2
-MTS2
-CLLC
-MSS2
-SVQ3
-G2M2
-G2M3
-G2M4
-FICV
-IART
-ICMT
-ICOP
-ICRD
-IGNR
-ILNG
-INAM
-IPRD
-IPRT
-ITRK
-ISFT
-ISMP
-timecode
-ITCH
-unknown subformat:%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x\n
-libavformat/riffdec.c
-Invalid sample rate: %d\n
-too big INFO subchunk\n
-truncated file\n
-out of memory, unable to read INFO tag\n
-premature end of file while reading INFO tag\n
-V\t:\n$\fD\r'
-2 F!\#J&U(8*W+A-;0O1]3Y7_=LCSMP
-libavformat/seek.c
-%s://
-=}~O
-:Feje$
-$iH0@.
-A(L4
-<`  (
- 23\fq
-VNna
-@Tf;
-0123456789ABCDEF0123456789abcdef
-eac3
-h264
-latm
-mpegvideo
---prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
-libavformat license: LGPL version 2.1 or later
-Probe with size=%d, packets=%d detected %s with score=%d\n
-libavformat/utils.c
-probing stream %d\n
-nothing to probe for stream %d\n
-probed stream %d\n
-Dropped corrupted packet (stream = %d)\n
-invalid dts/pts combination\n
-*pkt_buffer
-Assertion %s failed at %s:%d\n
-Invalid timestamps stream=%d, pts=%lld, dts=%lld, size=%d\n
-ff_read_packet stream=%d, pts=%lld, dts=%lld, size=%d, duration=%d, flags=%d\n
-read_frame_internal stream=%d, pts=%lld, dts=%lld, size=%d, duration=%d, flags=%d\n
-read_timestamp() failed in the middle\n
-start time is not set in estimate_timings_from_pts\n
-mpeg
-mpegts
-Estimating duration from bitrate, this may be inaccurate\n
-threads
-interrupted\n
-All info found\n
-Probe buffer size limit %d reached\n
-decoding for stream %d failed\n
-Could not find codec parameters (%s)\n
-Non-increasing DTS in stream %d: packet %d with DTS %lld, packet %d with DTS %lld\n
-DTS discontinuity in stream %d: packet %d with DTS %lld, packet %d with DTS %lld\n
-max_analyze_duration %d reached\n
-stream index %d is not valid\n
-%0*d
- \t\r\n
-st:%d removing common factor %d from timebase\n
-st:%d has too large timebase, reducing\n
-Ignoring attempt to set invalid timebase for st:%d\n
-strptime() unavailable on this system, cannot convert the date string.\n
-Mb@?
-ALBUMARTIST
-TRACKNUMBER
-DISCNUMBER
-CreateFile2
-(null)
-( 8PX
-700WP
-`h````
-xpxxxx
-e+000
-CorExitProcess
-FlsAlloc
-FlsFree
-FlsGetValue
-FlsSetValue
-InitializeCriticalSectionEx
-CreateEventExW
-CreateSemaphoreExW
-SetThreadStackGuarantee
-CreateThreadpoolTimer
-SetThreadpoolTimer
-WaitForThreadpoolTimerCallbacks
-CloseThreadpoolTimer
-CreateThreadpoolWait
-SetThreadpoolWait
-CloseThreadpoolWait
-FlushProcessWriteBuffers
-FreeLibraryWhenCallbackReturns
-GetCurrentProcessorNumber
-GetLogicalProcessorInformation
-CreateSymbolicLinkW
-SetDefaultDllDirectories
-EnumSystemLocalesEx
-CompareStringEx
-GetDateFormatEx
-GetLocaleInfoEx
-GetTimeFormatEx
-GetUserDefaultLocaleName
-IsValidLocaleName
-LCMapStringEx
-GetCurrentPackageId
-GetTickCount64
-GetFileInformationByHandleExW
-SetFileInformationByHandleW
-Sunday
-Monday
-Tuesday
-Wednesday
-Thursday
-Friday
-Saturday
-January
-February
-March
-April
-June
-July
-August
-September
-October
-November
-December
-MM/dd/yy
-dddd, MMMM dd, yyyy
-HH:mm:ss
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-MessageBoxW
-GetActiveWindow
-GetLastActivePopup
-GetUserObjectInformationW
-GetProcessWindowStation
-('8PW
-700PP
+ZJPG
+ZLIB#
+ZMBVV
+ZMP4\r
+ZyGo
 `h`hhh
-xppwpp
-SystemFunction036
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-SunMonTueWedThuFriSat
-JanFebMarAprMayJunJulAugSepOctNovDec
-1#SNAN
-1#IND
-1#INF
-1#QNAN
-RSDSv
-c:\buildslave\libav_win32\build\dev\libavformat\libavformat-56.pdb
-libavformat-56.dll
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+-.
+abort decoding on minor error detection
+ac-3
+agsm<P
+ai12
+ai13
+ai15
+ai16
+ai1p
+ai1q
+ai52
+ai53
+ai55
+ai56
+ai5p
+ai5q
+aivx
+alac
+alaw
+album
+album gain
+album peak
+album-sort
+album_artist
+allow non-standardized experimental variants
+analyzeduration
+ap4h3
+apch
+apcn
+apco
+apcs
+application/x-font
+application/x-truetype-font
+artist
+artist-sort
+audio
+audio/aac,audio/aacp,audio/x-aac
+audio/webm,audio/x-matroska,video/webm,video/x-matroska
+auv2
 av_add_index_entry
 av_append_packet
 av_codec_get_id
@@ -1424,6 +879,8 @@ av_stream_get_side_data
 av_url_split
 av_write_frame
 av_write_trailer
+avc1
+avcC )
 avformat_alloc_context
 avformat_close_input
 avformat_configuration
@@ -1483,3 +940,460 @@ avio_wl64
 avio_write
 avpriv_new_chapter
 avpriv_set_pts_info
+avs2u
+avss
+azpr+
+b16g
+b48r
+bitexact
+bitstream
+buffer
+bxbg
+bxrg
+bxy2
+bxyv
+c:\buildslave\libav_win32\build\dev\libavformat\libavformat-56.pdb
+cannot find sync word\n
+cdvc
+chan
+channel count %lu, 
+channel layout: %s, 
+chap
+chpl
+cmov
+co64`,
+comment
+compatible_brands
+composer
+compression
+copyright
+could not find corresponding track id %d\n
+could not find corresponding trex\n
+cram/
+crccheck
+creation_time
+cryptokey
+ctts
+cvid1
+cvid4
+dac3
+date
+dddd, MMMM dd, yyyy
+dec3p
+decoding for stream %d failed\n
+decryption key
+default delay between frames (in hundredths of second)
+default_delay
+description
+detect bitstream specification deviations
+detect improper bitstream length
+dimensions not set\n
+dinf`7
+dir %s\n
+disable AVParsers, this needs nofillin too
+disc
+discard corrupted frames
+discardcorrupt
+displaymatrix: rotation of %.2f degrees
+dmb1
+dmb1\t
+do not fill in missing values that can be exactly calculated
+do not write random/volatile data
+dpx 
+drac+
+dracd
+dref
+dtsc
+dtsh
+dtsl
+dv25
+dv50
+dv5n
+dv5p
+dvc 
+dvc1
+dvca
+dvcp
+dvcs
+dvh1
+dvh2
+dvh3
+dvh4
+dvh5
+dvh6
+dvhd
+dvhp
+dvhq
+dvis
+dvpp
+dvsd
+dvsl
+e+000
+eac3
+ec-3
+edts`7
+elstP%
+encoded_by
+encoder
+end %f\n
+endaP"
+episode_id
+episode_sort
+err_detect
+error reading header: %d\n
+error unaligned chunk\n
+esdsp\v
+experimental
+explode
+exr 
+f3ff33f3
+fLaC
+f_err_detect
+f_strict
+fdebug
+ff_read_packet stream=%d, pts=%lld, dts=%lld, size=%d, duration=%d, flags=%d\n
+fffff3ff
+fflags
+fiel
+file
+filename
+filename %s, len %d\n
+fisbone
+fishead
+fl32
+fl64
+flic
+flush_packets
+fpsprobesize
+framerate
+from
+ftyp`
+gapless_playback
+generate pts
+genpts
+genre
+gif >
+glbl )
+h263
+h263 macroblock info
+h264
+hd_video
+hdlr
+hdv1
+hdv2
+hdv3
+hdv4
+hdv5
+hdv6
+hdv7
+hdv8
+hdv9
+hdva
+hev1
+how many microseconds are analyzed to estimate duration
+how strictly to follow the standards
+how strictly to follow the standards (deprecated; use strict, save via avconv)
+hvc1
+hvcC )
+icod
+igndts
+ignidx
+ignore dts
+ignore index
+ignore loop setting (netscape extension)
+ignore_loop
+ilbc\tP
+ilstP\n
+ima4
+image/bmp
+image/gif
+image/jpeg
+image/jpg
+image/png
+image/tiff
+in24\f
+in24\t
+in32
+incomplete attachment\n
+indexmem
+interrupted\n
+invalid block label: code=%02x '%c'\n
+invalid channel count. Speex must be mono or stereo.\n
+invalid data
+invalid dts/pts combination\n
+invalid extended header length
+invalid frame id, assuming padding
+invalid size %lu in stsd\n
+jp2h
+jpeg
+kU'9
+language
+latm
+libavformat license: LGPL version 2.1 or later
+libavformat-56.dll
+libavformat/avio.c
+libavformat/aviobuf.c
+libavformat/cutils.c
+libavformat/dump.c
+libavformat/flac_picture.c
+libavformat/id3v2.c
+libavformat/isom.c
+libavformat/matroskadec.c
+libavformat/mov.c
+libavformat/mux.c
+libavformat/oggdec.c
+libavformat/oggparsecelt.c
+libavformat/oggparseflac.c
+libavformat/oggparseopus.c
+libavformat/oggparsespeex.c
+libavformat/oggparsetheora.c
+libavformat/oggparsevorbis.c
+libavformat/options.c
+libavformat/replaygain.c
+libavformat/riffdec.c
+libavformat/seek.c
+libavformat/utils.c
+location
+lpcm
+lpcm\r
+lsvm
+lzw minimum code size must be >= 1\n
+m1v 
+m1v1
+m2v1
+major_brand
+matroska
+matroska,webm
+max memory used for buffering real-time frames
+max memory used for timestamp index (per stream)
+max_analyze_duration %d reached\n
+max_delay
+max_interleave_delta
+maximum buffering duration for interleaving
+maximum muxing or demuxing delay in microseconds
+mdat
+mdhd@
+mdia`7
+media_type
+meta
+mime_type
+mimetype
+min_delay
+minf`7
+minimum valid delay between frames (in hundredths of second)
+minor_version
+mjp2Y
+mjp2^
+mjpa
+mjpa\n
+mjpb
+moof
+moov
+moov atom not found\n
+mov,mp4,m4a,3gp,3g2,mj2
+mp2vY
+mp4a
+mp4v\r
+mpeg
+mpegts
+mpegvideo
+mpg1
+mpg2
+mpgv
+mrle.
+msvc/
+multiple edit list entries, a/v desync might occur, patch welcome\n
+multiple fourcc not supported\n
+mvex`7
+mvhd
+mx3n
+mx3p
+mx4n
+mx4p
+mx5n
+mx5p
+name
+network
+new extradata
+nlvl from %d, nlvl to %d\n
+nmos
+no streams\n
+nobuffer
+nofillin
+noparse
+normal
+nothing to probe for stream %d\n
+number of frames used to probe fps
+org.hydrogenaudio.replaygain
+out of memory, unable to read INFO tag\n
+overread end of atom '%.4s' by %lld bytes\n
+packetsize
+palette
+palette: 
+paramchange: 
+pasp@
+path %s\n
+pdvc
+performer
+png >
+premature end of file while reading INFO tag\n
+print specific debug info
+probed stream %d\n
+probesize
+probing stream %d\n
+pts < dts in stream %d\n
+publisher
+qdrw
+r210
+raw 
+raw ADTS AAC (Advanced Audio Coding)
+read_frame_internal stream=%d, pts=%lld, dts=%lld, size=%d, duration=%d, flags=%d\n
+read_timestamp() failed in the middle\n
+reduce the latency by flushing out packets immediately
+reduce the latency introduced by optional buffering
+replaygain: 
+rle 
+rle1.
+rpza,
+rpza\v
+rtbufsize
+s263
+sac3
+sample aspect ratio already set to %d:%d, ignoring 'pasp' atom (%d:%d)\n
+sample rate not set\n
+sample_rate %lu, 
+samr
+sawb
+sbgp
+season_number
+set error detection flags
+set error detection flags (deprecated; use err_detect, save via avconv)
+set packet size
+set probing size
+sgi 
+show
+size: %dx%d\n
+slif
+sm"P
+smc 8
+sowt
+spex$P
+sqcp
+st:%d has too large timebase, reducing\n
+st:%d removing common factor %d from timebase\n
+start %f, 
+start time is not set in estimate_timings_from_pts\n
+stbl`7
+stco`,
+stps
+stream #%d:\n
+stream %d, error opening alias: path='%s', dir='%s', filename='%s', volume='%s', nlvl_from=%d, nlvl_to=%d\n
+stream %d, missing mandatory atoms, broken header\n
+stream %d, offset 0x%llx: partial file\n
+stream %d, timescale not set\n
+stream index %d is not valid\n
+strfp+
+strict
+strictly conform to all the things in the spec no matter what the consequences
+strptime() unavailable on this system, cannot convert the date string.\n
+stsc
+stsdp;
+stss
+stsz
+stts
+stz2
+svq1
+svq19
+svqi
+synopsis
+text
+text/plain
+tfdt 
+tfhd
+tga >
+tga a
+theoN
+theora
+this file requires zlib support compiled in\n
+threads
+tiffb
+timecode
+title
+title-sort
+tkhdp
+too big INFO subchunk\n
+track
+track gain
+track peak
+traf`7
+trak
+tref`7
+trex`
+trun@
+truncated comment header, %i comments not found\n
+truncated file\n
+tscc:
+twos
+tx3g
+type %d, len %d\n
+udta`7
+ulaw
+unknown
+unknown param
+unknown side data type %d (%d bytes)
+unknown subformat:%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x\n
+uyv1
+v210
+v410
+vc-1X
+vdva
+verify embedded CRCs
+version
+video
+viv1\r
+volume %s, len %d\n
+vorbis
+wave
+webm
+wfex
+wham,
+wide
+width %lu height %lu
+wrong chunk count %d\n
+wrong sample count\n
+wwwUUUDDD"""
+x264
+xd51
+xd54
+xd55
+xd59
+xd5a
+xd5b
+xd5c
+xd5d
+xd5e
+xd5f
+xdh2
+xdhd
+xdv1
+xdv2
+xdv3
+xdv4
+xdv5
+xdv6
+xdv7
+xdv8
+xdv9
+xdva
+xdvb
+xdvc
+xdvd
+xdve
+xdvf
+xppwpp
+xpxxxx
+xtor
+yuv2
+yuvs
+z?aUY
+zc%C1

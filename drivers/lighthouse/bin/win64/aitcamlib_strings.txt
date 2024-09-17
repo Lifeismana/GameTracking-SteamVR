@@ -1,371 +1,36 @@
-XXXX PNG chunk not known
-.?AVCAitCamera@@
-.?AVCBaseCamera@@
-.?AVICameraHAL@vr@@
-.?AVICameraCompletionCallback@@
-.?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
-.?AV?$_Func_base@PEAXPEBD@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_022a9aff244731cf200ee99aeca958ed>@@PEAXPEBD@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CEtronCamera@@EAAXV?$shared_ptr@VIVRCameraFrame@vrcamera@@@2@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
-.?AVCEtronCamera@@
-.?AV?$_Func_base@XV?$shared_ptr@VIVRCameraFrame@vrcamera@@@std@@@std@@
-.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CEtronCamera@@EAAXV?$shared_ptr@VIVRCameraFrame@vrcamera@@@2@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XV?$shared_ptr@VIVRCameraFrame@vrcamera@@@2@@std@@
-.?AVCThread@@
-.?AVCCameraWorkThread@@
-.?AVexception@std@@
-.?AVruntime_error@std@@
-.?AVrange_error@std@@
-.?AVcodecvt_base@std@@
-.?AVfacet@locale@std@@
-.?AV_Facet_base@std@@
+#?RADIANCE
+#?RADIANCE\n
+#?RGBE
+#?RGBE\n
+'.5<=6/7>????????????????
+, last executing in 
+.00cfg
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_022a9aff244731cf200ee99aeca958ed>@@
+.?AV?$_Binder@U_Unforced@std@@P8CEtronCamera@@EAAXV?$shared_ptr@VIVRCameraFrame@vrcamera@@@2@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Func_base@PEAXPEBD@std@@
+.?AV?$_Func_base@XV?$shared_ptr@VIVRCameraFrame@vrcamera@@@std@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_022a9aff244731cf200ee99aeca958ed>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CEtronCamera@@EAAXV?$shared_ptr@VIVRCameraFrame@vrcamera@@@2@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XV?$shared_ptr@VIVRCameraFrame@vrcamera@@@2@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
-.?AVtype_info@@
+.?AVCAitCamera@@
+.?AVCBaseCamera@@
+.?AVCCameraWorkThread@@
+.?AVCEtronCamera@@
+.?AVCThread@@
+.?AVICameraCompletionCallback@@
+.?AVICameraHAL@vr@@
+.?AV_Facet_base@std@@
 .?AVbad_alloc@std@@
 .?AVbad_array_new_length@std@@
-5\vqB
-/user/hand/right
-/user/hand/left
-/user/foot/left
-/user/foot/right
-/user/shoulder/left
-/user/shoulder/right
-/user/elbow/left
-/user/elbow/right
-/user/knee/left
-/user/knee/right
-/user/wrist/left
-/user/wrist/right
-/user/ankle/left
-/user/ankle/right
-/user/waist
-/user/chest
-/user/camera
-/user/keyboard
-IVRServer_XXX
-IVRSystemLayerInternal_XXX
-IVRChaperoneInternal_001
-IVRClientInternal_XXX
-IVRMailbox_002
-IVRBlockQueue_005
-/width
-/height
-/format
-/frame_sequence
-/frame_size
-/frame_time_monotonic
-/server_time_ticks
-/delivery_rate
-/elapsed_time
-Enabled
-Not Available
-TrackedCamera: ISP Sync: %s (Divisor:%d).\n
-TrackedCamera: Starting Video Stream.\n
-TrackedCamera: Failed to start preview (err=0x%08X)!\n
-TrackedCamera: StartVideoStream() took %.0f ms\n
-TrackedCamera: Video Stream Stopped (failed startup).\n
-TrackedCamera: Failed to create video graph interface!\n
-TrackedCamera: Failed to open device using video graph interface!\n
-TrackedCamera: Failed to query interface, IID_IConnectVideoSink!\n
-TrackedCamera: OpenCamera()\n
-TrackedCamera: Expecting drivers at '%s'\n
-TrackedCamera: Failed to find camera at USB VID:%04X, USB PID:%04X\n
-TrackedCamera: Found Camera at USB VID:%04X, USB PID:%04X\n
-TrackedCamera: Found Dual Cameras at USB VID:%04X, USB PID:%04X\n
-Version: %X%X.%X%X.%X%X Date: %s
-TrackedCamera: CloseCamera()\n
-Failed to acquire raw camera block for writing: %d
-pvBuffer != nullptr
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
-ulBlockContainer != vr::k_ulInvalidPropertyContainer
-Received camera frame of size %u that is larger than the block queue we are copying into %u
-string too long
-MbP?{
-H264
-driver_lighthouse
-Success
-Failed
-PermissionDenied
-WorkerThreadInitFailed
-FailedToGetFirmwareVersion
-Closed
-NotFound
-Unknown
-aitcamlib
-etronlib
-TrackedCamera: Video Stream Stopped.\n
-cameraFrameCaptureOffsetTime
-cameraFrameRate
-cameraSensorFrameRate
-cameraEdgeEnhancement
-cameraISPSyncDivisor
-TrackedCamera: Failed to queue.\n
-TrackedCamera: Worker thread OpenCamera result: %s.\n
-TrackedCamera: Failed to get firmware version.\n
-TrackedCamera: Incompatible firmware version: %llu.\n
-/lighthouse/camera/raw_frames
-vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
-TrackedCamera: Stopping Video Stream For Camera Shutdown.\n
-TrackedCamera: Video Stream Stopped (abnormal shutdown).\n
-TrackedCamera: Degenerate Frame Buffering size %d.\n
-TrackedCamera: Frame Buffering, missing buffer %d.\n
-[Camera] OnCamSyncEvent(%d,%d,%lf)
-[Camera] OnISPSyncEvent(%d,%lf)
-TrackedCamera: Stopping Video Stream.\n
-map/set<T> too long
-[Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
-Error: Can't decode MJPG frame. The failed output frame will be blacked.
-TrackedCamera: OnStartCommand_StartVideoStreamInternal()\n
-TrackedCamera: Failed to start preview (err=%d)!\n
-TrackedCamera: OnWorkThread_OpenCamera()\n
-TrackedCamera: Couldn't find Dual Cameras at USB VID:%04X, USB PID:%04X\n
-VIVIAN-B02-B0135P-BL60U-012-GPIO33_Beta7
-VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
-Etron_%d_%d_v%d
-TrackedCamera: Detailed Firmware Information: model:%d, date:%d, version:%d\n
-TrackedCamera: OnWorkThread_CloseCamera()\n
-TrackedCamera: OnWorkThread_PauseCamera()\n
-TrackedCamera: Failed to end video stream (err=0x%08X)!\n
-TrackedCamera: OnWorkThread_ResumeCamera()\n
-TrackedCamera: Failed to resume video stream (err=0x08X)!\n
-Failed to join thread CameraWorkThread /+/ TID: %d\n
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
-CameraWork
-PauseCamera\n
-StartVideoStream\n
-StopVideoStream\n
-PauseCamera (immediate)\n
-PauseCamera (delayed...)\n
-ResumeCamera\n
-CAMCMD_GET_OPENCAMERA_RESULT\n
-deque<T> too long
-LocalizationManager
-IVRSystem_022
-IVRExtendedDisplay_001
-IVRApplications_007
-IVRChaperone_004
-IVRChaperoneSetup_006
-IVROverlay_028
-IVRRenderModels_006
-IVRSettings_003
-IVRResources_001
-IVRDriverManager_001
-IVRInput_010
-IVRDebug_001
-IVRProperties_001
-IVRPaths_001
-IVRPathsInternal_001
-IVRSettingsInternal_001
-IVRRenderModelsInternal_XXX
-IVRInputInternal_002
-IVRApplicationsInternal_XXX
-IVRPropertiesInternal_001
-IVROverlayInternal_XXX
-IVRControlPanel_006
-IVRDriverDirectInternal_XXX
-IVRTrackedCameraInternal_XXX
-IVRCompositorSystemInternal_XXX
-IVRNotificationsInternal_001
-en_us
-english
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-!(0)"
-#*1892+$
-%,3:;4-&
-'.5<=6/7>????????????????
-unknown image type
-outofmem
-bad code lengths
-bad huffman code
-can't merge dc and ac
-JFIF
-Adobe
-expected marker
-bad DRI len
-bad DQT type
-bad DQT table
-bad DHT header
-bad COM len
-bad APP len
-unknown marker
-bad SOS component count
-bad SOS len
-bad DC huff
-bad AC huff
-bad SOS
-bad SOF len
-only 8-bit
-no header height
-0 width
-bad component count
-bad H
-bad V
-bad TQ
-too large
-no SOI
-no SOF
-bad DNL len
-bad DNL height
-bad req_comp
-bad sizes
-bad codelengths
-output buffer limit
-bad dist
-zlib corrupt
-read past buffer
-bad zlib header
-no preset dict
-bad compression
-PNG\r\n
-\nbad png sig
-not enough pixels
-invalid filter
-multiple IHDR
-bad IHDR len
-1/2/4/8/16-bit only
-bad ctype
-bad comp method
-bad filter method
-bad interlace method
-0-pixel image
-first not IHDR
-invalid PLTE
-tRNS after IDAT
-tRNS before PLTE
-bad tRNS len
-tRNS with alpha
-no PLTE
-outofdata
-no IDAT
-not BMP
-unknown BMP
-bad BMP
-BMP RLE
-invalid
-bad bpp
-bad masks
-bad format
-bad palette
-not PSD
-wrong version
-wrong channel count
-unsupported bit depth
-wrong color format
-corrupt
-PICT
-bad file
-not GIF
-no clear code
-too many codes
-illegal code in raster
-bad Image Descriptor
-missing color table
-unknown code
-#?RADIANCE\n
-#?RGBE\n
-#?RADIANCE
-#?RGBE
-not HDR
-FORMAT=32-bit_rle_rgbe
-unsupported format
-unsupported data layout
-invalid decoded scanline length
-max value > 255
-brazilian
-pt_br
-bulgarian
-bg_bg
-czech
-cs_cz
-danish
-da_dk
-dutch
-nl_nl
-finnish
-fi_fi
-french
-fr_fr
-german
-de_de
-greek
-el_gr
-hungarian
-hu_hu
-italian
-it_it
-japanese
-ja_jp
-koreana
-ko_kr
-latam
-es_mx
-norwegian
-nb_no
-polish
-pl_pl
-portuguese
-pt_pt
-romanian
-ro_ro
-russian
-ru_ru
-schinese
-zh_cn
-sc_schinese
-spanish
-es_es
-swedish
-sv_se
-tchinese
-zh_tw
-thai
-th_th
-turkish
-tr_tr
-ukrainian
-uk_ua
-vietnamese
-vi_vn
-<unknown>
-ASSERT: "%s" at %s:%d.\n
-MainThrd
-Out of thread local storage!\n
-Thread failed to initialize 1\n
-Thread failed to initialize 2\n
-Thread exited immediately\n
-8c8f13b1-60eb-4b6a-a433-de86104115ac
-8d8f13b1-60eb-4b6a-a433-de86104115ac
-8e8f13b1-60eb-4b6a-a433-de86104115ac
-tdh.dll
-TdhEnumerateManifestProviderEvents
-Unknown exception
-NULL
-Error! EventWriteString Severe: %s\n
-EventWriteString
-bad conversion
-startup
-, last executing in 
-Warning: Watchdog %s not properly cleaned up%s%s\n
-VR_OVERRIDE
-VR_CONFIG_PATH
-VR_LOG_PATH
-InitializeConditionVariable
-SleepConditionVariableCS
-WakeAllConditionVariable
-bad allocation
-bad array new length
-RSDS
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
-.text$di
-.text$mn
-.text$mn$00
-.text$x
-.text$yd
-.idata$5
-.00cfg
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU
@@ -379,6 +44,16 @@ c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
 .rdata
 .rdata$T
 .rdata$r
@@ -387,182 +62,486 @@ c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
 .tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-.edata
-.idata$2
-.idata$3
-.idata$4
-.idata$6
-.data
-.data$r
-.bss
-.pdata
-p\r`\fP\v0
-\fp\v`!
-\rp\fP
-p\r`\fP\v0
-2\v`!H
-\rp\f`\vP
-\rp\f`\vP\n0
-2\vp!\f
-\fp\v`!
-2\vp!
-`!?\n
-p\r`\fP\v0
-\rp\f`\v0\nP!\n
-\fp\v`!
-\fp\v`
-R\vp!
-\fp\v`
-aitcamlib.dll
-ECameraHAL_OpenError_ToString
-GetCameraHALInterface
-InitCameraHAL
-ShutdownCameraHAL
-AITAPI_OpenDeviceEx
-AITAPI_CloseDevice
-AITAPI_AitExtSet
-AITAPI_AitExtGet
-AITAPI_IspCommand
-AITAPI_MmpCommand
-AITAPI_GetFWVersion
-AITAPI_GetFWBuildDate
-AitUVCExtApi.dll
-CallCreateObject
-AitH264Capture.dll
-?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
-vrcamera_api.dll
-ADVAPI32.dll
-?_Xlength_error@std@@YAXPEBD@Z
-?_Xbad_function_call@std@@YAXXZ
-_Mtx_init_in_situ
-_Mtx_destroy_in_situ
-_Mtx_lock
-_Mtx_unlock
-?_Throw_C_error@std@@YAXH@Z
-??Bid@locale@std@@QEAA_KXZ
-_Cnd_signal
-??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
-?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
-?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
-?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
-?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
-?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+/delivery_rate
+/elapsed_time
+/format
+/frame_sequence
+/frame_size
+/frame_time_monotonic
+/height
+/lighthouse/camera/raw_frames
+/server_time_ticks
+/user/ankle/left
+/user/ankle/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/user/wrist/left
+/user/wrist/right
+/width
+0 width
+0-pixel image
+1/2/4/8/16-bit only
+5\vqB
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e8f13b1-60eb-4b6a-a433-de86104115ac
+<unknown>
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
-??_7_Facet_base@std@@6B@
-??_7facet@locale@std@@6B@
-??_7codecvt_base@std@@6B@
-?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
-??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
-_Thrd_join
-_Thrd_id
-_Cnd_init_in_situ
-_Cnd_destroy_in_situ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
-MSVCP140.dll
-EnterCriticalSection
-LeaveCriticalSection
-OutputDebugStringA
-QueryPerformanceCounter
-QueryPerformanceFrequency
-Sleep
-GetTickCount64
-IsDebuggerPresent
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+ADVAPI32.dll
+AITAPI_AitExtGet
+AITAPI_AitExtSet
+AITAPI_CloseDevice
+AITAPI_GetFWBuildDate
+AITAPI_GetFWVersion
+AITAPI_IspCommand
+AITAPI_MmpCommand
+AITAPI_OpenDeviceEx
+ASSERT: "%s" at %s:%d.\n
+Adobe
+AitH264Capture.dll
+AitUVCExtApi.dll
+BMP RLE
+CAMCMD_GET_OPENCAMERA_RESULT\n
+CallCreateObject
+CameraWork
 CloseHandle
-GetLastError
-GetProcAddress
-RaiseException
-InitializeCriticalSectionAndSpinCount
-DeleteCriticalSection
-SetEvent
-ResetEvent
-WaitForSingleObject
+Closed
 CreateEventA
-GetCurrentProcessId
+CreateEventW
 CreateThread
+DeleteCriticalSection
+DisableThreadLibraryCalls
+ECameraHAL_OpenError_ToString
+Enabled
+EnterCriticalSection
+Error! EventWriteString Severe: %s\n
+Error: Can't decode MJPG frame. The failed output frame will be blacked.
+Etron_%d_%d_v%d
+EventRegister
+EventUnregister
+EventWriteString
+EventWriteTransfer
+FORMAT=32-bit_rle_rgbe
+Failed
+Failed to acquire raw camera block for writing: %d
+Failed to join thread CameraWorkThread /+/ TID: %d\n
+FailedToGetFirmwareVersion
+FreeLibrary
+GetCameraHALInterface
+GetCurrentProcessId
 GetCurrentThreadId
 GetExitCodeThread
-TlsAlloc
-TlsGetValue
-TlsSetValue
-TlsFree
-FreeLibrary
-LoadLibraryA
-WaitForSingleObjectEx
-CreateEventW
+GetLastError
 GetModuleHandleW
+GetProcAddress
+GetSystemTimeAsFileTime
+GetTickCount64
+H264
+IVRApplicationsInternal_XXX
+IVRApplications_007
+IVRBlockQueue_005
+IVRChaperoneInternal_001
+IVRChaperoneSetup_006
+IVRChaperone_004
+IVRClientInternal_XXX
+IVRCompositorSystemInternal_XXX
+IVRControlPanel_006
+IVRDebug_001
+IVRDriverDirectInternal_XXX
+IVRDriverManager_001
+IVRExtendedDisplay_001
+IVRInputInternal_002
+IVRInput_010
+IVRMailbox_002
+IVRNotificationsInternal_001
+IVROverlayInternal_XXX
+IVROverlay_028
+IVRPathsInternal_001
+IVRPaths_001
+IVRPropertiesInternal_001
+IVRProperties_001
+IVRRenderModelsInternal_XXX
+IVRRenderModels_006
+IVRResources_001
+IVRServer_XXX
+IVRSettingsInternal_001
+IVRSettings_003
+IVRSystemLayerInternal_XXX
+IVRSystem_022
+IVRTrackedCameraInternal_XXX
+InitCameraHAL
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+JFIF
+KERNEL32.dll
+LeaveCriticalSection
+LoadLibraryA
+LocalizationManager
+MSVCP140.dll
+MainThrd
+MbP?{
+NULL
+Not Available
+NotFound
+Out of thread local storage!\n
+OutputDebugStringA
+PICT
+PNG\r\n
+PauseCamera (delayed...)\n
+PauseCamera (immediate)\n
+PauseCamera\n
+PermissionDenied
+QueryPerformanceCounter
+QueryPerformanceFrequency
+RPCRT4.dll
+RSDS
+RaiseException
+Received camera frame of size %u that is larger than the block queue we are copying into %u
+ResetEvent
+ResumeCamera\n
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-UnhandledExceptionFilter
+SetEvent
 SetUnhandledExceptionFilter
-IsProcessorFeaturePresent
-GetSystemTimeAsFileTime
-DisableThreadLibraryCalls
-InitializeSListHead
-KERNEL32.dll
-memcmp
-memcpy
-memmove
-_purecall
+ShutdownCameraHAL
+Sleep
+SleepConditionVariableCS
+StartVideoStream\n
+StopVideoStream\n
+Success
+TdhEnumerateManifestProviderEvents
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+TrackedCamera: CloseCamera()\n
+TrackedCamera: Couldn't find Dual Cameras at USB VID:%04X, USB PID:%04X\n
+TrackedCamera: Degenerate Frame Buffering size %d.\n
+TrackedCamera: Detailed Firmware Information: model:%d, date:%d, version:%d\n
+TrackedCamera: Expecting drivers at '%s'\n
+TrackedCamera: Failed to create video graph interface!\n
+TrackedCamera: Failed to end video stream (err=0x%08X)!\n
+TrackedCamera: Failed to find camera at USB VID:%04X, USB PID:%04X\n
+TrackedCamera: Failed to get firmware version.\n
+TrackedCamera: Failed to open device using video graph interface!\n
+TrackedCamera: Failed to query interface, IID_IConnectVideoSink!\n
+TrackedCamera: Failed to queue.\n
+TrackedCamera: Failed to resume video stream (err=0x08X)!\n
+TrackedCamera: Failed to start preview (err=%d)!\n
+TrackedCamera: Failed to start preview (err=0x%08X)!\n
+TrackedCamera: Found Camera at USB VID:%04X, USB PID:%04X\n
+TrackedCamera: Found Dual Cameras at USB VID:%04X, USB PID:%04X\n
+TrackedCamera: Frame Buffering, missing buffer %d.\n
+TrackedCamera: ISP Sync: %s (Divisor:%d).\n
+TrackedCamera: Incompatible firmware version: %llu.\n
+TrackedCamera: OnStartCommand_StartVideoStreamInternal()\n
+TrackedCamera: OnWorkThread_CloseCamera()\n
+TrackedCamera: OnWorkThread_OpenCamera()\n
+TrackedCamera: OnWorkThread_PauseCamera()\n
+TrackedCamera: OnWorkThread_ResumeCamera()\n
+TrackedCamera: OpenCamera()\n
+TrackedCamera: StartVideoStream() took %.0f ms\n
+TrackedCamera: Starting Video Stream.\n
+TrackedCamera: Stopping Video Stream For Camera Shutdown.\n
+TrackedCamera: Stopping Video Stream.\n
+TrackedCamera: Video Stream Stopped (abnormal shutdown).\n
+TrackedCamera: Video Stream Stopped (failed startup).\n
+TrackedCamera: Video Stream Stopped.\n
+TrackedCamera: Worker thread OpenCamera result: %s.\n
+UnhandledExceptionFilter
+Unknown
+Unknown exception
+UuidFromStringA
+VCRUNTIME140.dll
+VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
+VIVIAN-B02-B0135P-BL60U-012-GPIO33_Beta7
+VR_CONFIG_PATH
+VR_LOG_PATH
+VR_OVERRIDE
+Version: %X%X.%X%X.%X%X Date: %s
+WaitForSingleObject
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Warning: Watchdog %s not properly cleaned up%s%s\n
+WorkerThreadInitFailed
+XXXX PNG chunk not known
+[Camera] OnCamSyncEvent(%d,%d,%lf)
+[Camera] OnISPSyncEvent(%d,%lf)
+[Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
+\nbad png sig
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+_Cnd_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_signal
 _CxxThrowException
-__CxxFrameHandler3
-memset
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Thrd_id
+_Thrd_join
 __C_specific_handler
+__CxxFrameHandler3
 __std_exception_copy
 __std_exception_destroy
 __std_terminate
 __std_type_info_destroy_list
-VCRUNTIME140.dll
-_invalid_parameter_noinfo_noreturn
 __stdio_common_vsprintf
-strncpy
-strcmp
 __stdio_common_vsscanf
-feof
-fread
-fseek
 _aligned_free
 _aligned_malloc
 _aligned_realloc
-strtol
-strncmp
-ldexp
-powf
-_wgetcwd
-_wchdir
-free
-malloc
-strncpy_s
-terminate
 _callnewh
-_seh_filter_dll
+_cexit
 _configure_narrow_argv
+_crt_atexit
+_execute_onexit_table
 _initialize_narrow_environment
 _initialize_onexit_table
-_register_onexit_function
-_execute_onexit_table
-_crt_atexit
-_cexit
 _initterm
 _initterm_e
+_invalid_parameter_noinfo_noreturn
+_purecall
+_register_onexit_function
+_seh_filter_dll
+_wchdir
+_wgetcwd
+aitcamlib
+aitcamlib.dll
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-api-ms-win-crt-heap-l1-1-0.dll
-api-ms-win-crt-convert-l1-1-0.dll
-api-ms-win-crt-math-l1-1-0.dll
-api-ms-win-crt-environment-l1-1-0.dll
-api-ms-win-crt-filesystem-l1-1-0.dll
-EventRegister
-EventUnregister
-EventWriteTransfer
-EventWriteString
-UuidFromStringA
-RPCRT4.dll
+bad AC huff
+bad APP len
+bad BMP
+bad COM len
+bad DC huff
+bad DHT header
+bad DNL height
+bad DNL len
+bad DQT table
+bad DQT type
+bad DRI len
+bad H
+bad IHDR len
+bad Image Descriptor
+bad SOF len
+bad SOS
+bad SOS component count
+bad SOS len
+bad TQ
+bad V
+bad allocation
+bad array new length
+bad bpp
+bad code lengths
+bad codelengths
+bad comp method
+bad component count
+bad compression
+bad conversion
+bad ctype
+bad dist
+bad file
+bad filter method
+bad format
+bad huffman code
+bad interlace method
+bad masks
+bad palette
+bad req_comp
+bad sizes
+bad tRNS len
+bad zlib header
+bg_bg
+brazilian
+bulgarian
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
+cameraEdgeEnhancement
+cameraFrameCaptureOffsetTime
+cameraFrameRate
+cameraISPSyncDivisor
+cameraSensorFrameRate
+can't merge dc and ac
+corrupt
+cs_cz
+czech
+da_dk
+danish
+de_de
+deque<T> too long
+driver_lighthouse
+dutch
+el_gr
+en_us
+english
+es_es
+es_mx
+etronlib
+expected marker
+feof
+fi_fi
+finnish
+first not IHDR
+fr_fr
+fread
+free
+french
+fseek
+german
+greek
+hu_hu
+hungarian
+illegal code in raster
+invalid
+invalid PLTE
+invalid decoded scanline length
+invalid filter
+it_it
+italian
+ja_jp
+japanese
+ko_kr
+koreana
+latam
+ldexp
+malloc
+map/set<T> too long
+max value > 255
+memcmp
+memcpy
+memmove
+memset
+missing color table
+multiple IHDR
+nb_no
+nl_nl
+no IDAT
+no PLTE
+no SOF
+no SOI
+no clear code
+no header height
+no preset dict
+norwegian
+not BMP
+not GIF
+not HDR
+not PSD
+not enough pixels
+only 8-bit
+outofdata
+outofmem
+output buffer limit
+pl_pl
+polish
+portuguese
+powf
+pt_br
+pt_pt
+pvBuffer != nullptr
+read past buffer
+ro_ro
+romanian
+ru_ru
+russian
+sc_schinese
+schinese
+spanish
+startup
+strcmp
+string too long
+strncmp
+strncpy
+strncpy_s
+strtol
+sv_se
+swedish
+tRNS after IDAT
+tRNS before PLTE
+tRNS with alpha
+tchinese
+tdh.dll
+terminate
+th_th
+thai
+too large
+too many codes
+tr_tr
+turkish
+uk_ua
+ukrainian
+ulBlockContainer != vr::k_ulInvalidPropertyContainer
+unknown BMP
+unknown code
+unknown image type
+unknown marker
+unsupported bit depth
+unsupported data layout
+unsupported format
+vi_vn
+vietnamese
+vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
+vrcamera_api.dll
+wrong channel count
+wrong color format
+wrong version
+zh_cn
+zh_tw
+zlib corrupt

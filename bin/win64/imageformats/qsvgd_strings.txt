@@ -1,63 +1,32 @@
-.?AVQSvgPlugin@@
+!weakref.load()
+.?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
 .?AVQObject@@
 .?AVQSvgIOHandler@@
-.?AVQImageIOHandler@@
-.?AVtype_info@@
+.?AVQSvgPlugin@@
 .?AVbad_alloc@std@@
-.?AVexception@std@@
 .?AVbad_array_new_length@std@@
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-svgz
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-svgz
-QSvgPlugin
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-!weakref.load()
-strongref.load() <= 0
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-svgz
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-svgz
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-<?xml
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-<svg
+.?AVexception@std@@
+.?AVtype_info@@
 <?xml
 <svg
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+F:\qt5\qtsvg\plugins\imageformats\qsvgd.pdb
 InitializeConditionVariable
+QSvgPlugin
+RSDS
 SleepConditionVariableCS
-WakeAllConditionVariable
 Unknown exception
+WakeAllConditionVariable
 bad allocation
 bad array new length
-RSDS
-x!lO
-F:\qt5\qtsvg\plugins\imageformats\qsvgd.pdb
-\fp\v`
-\fp\v`
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
 qsvgd.dll
 qt_plugin_instance
 qt_plugin_query_metadata
+strongref.load() <= 0
+svgz
+x!lO

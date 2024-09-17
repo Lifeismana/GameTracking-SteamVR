@@ -1,1360 +1,716 @@
-?v<y5
-UUUUU
-?DR>
-33333
-NEJ(~
-?>UUUUU
-ri7f>
-\fa\ 
-!\t@|
-!)@:F,@zj/@\G1@|
-:@:F<@Z
-=@zj?@L~@@\GA@l
-?1cb
-?LUUUUU
--Dt>
-@ %z8
-?IUUUUU
-PIDVID^
-PIDVID^
-PIDVID8y\v
-\t\n\v\f\r
+     precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform sampler2D u_texture_v;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.y = texture2D(u_texture_u, v_texCoord).r - 0.5;         yuv.z = texture2D(u_texture_v, v_texCoord).r - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.yz = texture2D(u_texture_u, v_texCoord).ar - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.yz = texture2D(u_texture_u, v_texCoord).ra - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         gl_FragColor = texture2D(u_texture, v_texCoord);         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.a = 1.0;         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor.a = 1.0;         gl_FragColor *= u_modulation;     } 
+     precision mediump float;     uniform vec4 u_color;         void main()     {         gl_FragColor = u_color;     } 
+     uniform mat4 u_projection;     attribute vec2 a_position;     attribute vec2 a_texCoord;     attribute float a_angle;     attribute vec2 a_center;     varying vec2 v_texCoord;         void main()     {         float angle = radians(a_angle);         float c = cos(angle);         float s = sin(angle);         mat2 rotationMatrix = mat2(c, -s, s, c);         vec2 position = rotationMatrix * (a_position - a_center) + a_center;         v_texCoord = a_texCoord;         gl_Position = u_projection * vec4(position, 0.0, 1.0);        gl_PointSize = 1.0;     } 
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  "$&(*,.02468:<>@BDFHJLNPRTVXZ\^`bdfhjlnprtvxz|~
  $(,048<@DHLPUY]aeimquy}
  )19AJRZbjs{
-"3DUfw
-?UUUUUU
-<cUUUUU
-"mm?
-DC?h
-?sS`
->sS`
-<\rUUUUU
-\rv$K{
-?/lj,D
-?/lj,D
-?Application didn't initialize properly, did you include SDL_main.h in the file containing your main() function?
-hg-0:aaaaaaaaaaah
-Windows
-Assertion Failed
-always_ignore
-ignore
-retry
-break
-abort
-SDL_ASSERT
-\n\n%s\n\n
-Assertion failure at %s (%s:%d), triggered %u %s:\r\n  '%s'
-times
-time
-Always Ignore
-Ignore
-Abort
-Break
-Retry
-'%s'\n    * %s (%s:%d)\n    * triggered %u time%s.\n    * always ignore: %s.\n
-All SDL assertions between last init/quit:\n\n
-\n\nSDL assertion report.\n
-Invalid audio device ID
-Audio device has a callback, queueing not allowed
-F32SYS
-F32MSB
-F32LSB
-S32SYS
-S32MSB
-S32LSB
-S16SYS
-U16SYS
-S16MSB
-U16MSB
-S16LSB
-U16LSB
-No such device
-No capture support
-Audio subsystem is not initialized
-System audio capture device
-System audio output device
-No available audio device
-Audio target '%s' not available
-SDL_AUDIODRIVER
-Unsupported number of audio channels.
-SDL_AUDIO_SAMPLES
-SDL_AUDIO_CHANNELS
-SDL_AUDIO_FORMAT
-SDL_AUDIO_FREQUENCY
-Couldn't create audio thread
-SDLAudioDev%d
-ACouldn't create mixer lock
-No such device.
-Audio device already open
-SDL_AUDIO_DEVICE_NAME
-Too many open audio devices
-Audio device is already opened
-No buffer allocated for conversion
-No conversion available for these formats
-No conversion available for these rates
-Source or destination channels is zero
-Source or destination rate is zero
-Invalid destination format
-Invalid source format
-Parameter '%s' is invalid
-APassed NULL destination surface
-SDL_BlendFillRects(): Unsupported surface format
-SDL_BlendLines(): Unsupported surface format
-SDL_BlendLines(): Passed NULL destination surface
-SDL_BlendPoint(): Unsupported surface format
-SDL_BlendPoints(): Unsupported surface format
-SDL_BLIT_CPU_FEATURES
-Blit combination not supported
-Error reading from BMP
-Compressed BMP files not supported
-File is not a Windows BMP file
-Couldn't convert image to %d bpp
-%d bpp BMP files not supported
-Video subsystem must be initialized to set clipboard text
-Video subsystem must be initialized to get clipboard text
-Video subsystem must be initialized to check clipboard text
-Unknown
-AuthenticAMD
-GenuineIntel
-?Haptic error %s
-UTF-8
-UTF-16LE
-Haptic: Internal error on finding supported effects.
-Enumerating supported effects
-Enabling actuators
-Resetting device
-Acquiring DirectInput device
-Getting device axes
-Setting data format
-Setting cooperative level to exclusive
-Querying DirectInput interface
-Creating DirectInput device
-Couldn't find joystick in haptic device list
-Haptic: Unknown direction type.
-Haptic: Unknown effect type.
-Unable to create effect
-Unable to update effect
-Running the effect
-Unable to stop effect
-Removing effect from the device
-Getting effect status
-Setting gain
-Setting autocenter
-Pausing the device
-Stopping the device
-Enumerating DirectInput devices
-Initializing DirectInput device
-GetModuleHandle() failed with error code %lu.
-CoCreateInstance
-Coinitialize
-Haptic: SubSystem already open.
-%s() DirectX error 0x%8.8lx
-IDirectInput::Initialize
-CoInitialize
-IDirectInputDevice8::SetProperty
-IDirectInputDevice8::Unacquire
-IDirectInputDevice8::Acquire
-IDirectInputDevice8::GetCapabilities
-IDirectInputDevice8::SetDataFormat
-IDirectInputDevice8::SetCooperativeLevel
-IDirectInputDevice8::QueryInterface
-IDirectInput::CreateDevice
-DirectSound
-directsound
-DirectSound: System doesn't appear to have DX8.
-DirectSoundCaptureEnumerateW
-DirectSoundEnumerateW
-DirectSoundCreate8
-DirectSound: failed to load DSOUND.DLL
-DSOUND.DLL
-%s: %s
-%s: Unknown DirectSound error: 0x%x
-Caller doesn't have priority
-No audio device found
-Invalid call for the current state
-Mixing buffer was lost
-Unsupported audio format
-Control requested is not available
-Invalid parameter
-Audio device in use
-Out of memory
-Function not supported
-Unsupported interface -- Is DirectX 8.0 or later installed?
-DirectSound GetCurrentPosition
-DirectSound Lock
-Sound buffer size must be between %d and %d
-DirectSound CreateSoundBuffer
-DirectSound SetCooperativeLevel
-DirectSound: Unsupported audio format
-DirectSoundCreate
-direct-to-disk audio
-disk
-sdlaudio.raw
-SDL_DISKAUDIOFILE
-SDL_DISKAUDIODELAY
-SDL_DrawLines(): Unsupported surface format
-SDL_DrawLines(): Passed NULL destination surface
-SDL_DrawPoint(): Unsupported surface format
-SDL_DrawPoints(): Unsupported surface format
-SDL dummy audio driver
-dummy
-SDL_DYNAPI_entry
-SDL_DYNAMIC_API
-Could not load EGL library
-Could not initialize EGL
-Could not get EGL display
-Could not retrieve EGL function eglQueryString
-eglQueryString
-Could not retrieve EGL function eglBindAPI
-eglBindAPI
-Could not retrieve EGL function eglWaitGL
-eglWaitGL
-Could not retrieve EGL function eglWaitNative
-eglWaitNative
-Could not retrieve EGL function eglSwapInterval
-eglSwapInterval
-Could not retrieve EGL function eglSwapBuffers
-eglSwapBuffers
-Could not retrieve EGL function eglMakeCurrent
-eglMakeCurrent
-Could not retrieve EGL function eglDestroySurface
-eglDestroySurface
-Could not retrieve EGL function eglCreateWindowSurface
-eglCreateWindowSurface
-Could not retrieve EGL function eglDestroyContext
-eglDestroyContext
-Could not retrieve EGL function eglCreateContext
-eglCreateContext
-Could not retrieve EGL function eglGetConfigAttrib
-eglGetConfigAttrib
-Could not retrieve EGL function eglChooseConfig
-Could not retrieve EGL function eglGetProcAddress
-eglGetProcAddress
-Could not retrieve EGL function eglTerminate
-eglTerminate
-Could not retrieve EGL function eglInitialize
-eglInitialize
-Could not retrieve EGL function eglGetDisplay
-eglGetDisplay
-libEGL.dll
-SDL_VIDEO_EGL_DRIVER
-eglChooseConfig
-Could not initialize OpenGL / GLES library
-libGLES_CM.dll
-libGLESv1_CM.dll
-libGLESv2.dll
-SDL_VIDEO_GL_DRIVER
-none
-d3dcompiler_43.dll
-d3dcompiler_46.dll
-SDL_VIDEO_WIN_D3DCOMPILER
-OpenGL ES context already created
-Couldn't find matching EGL config
-EGL implementation does not support sRGB system framebuffers
-EGL_KHR_create_context
-EGL_KHR_gl_colorspace
-Unable to make EGL context current
-OpenGL not initialized
-EGL not initialized
-Could not create EGL context (context attributes are not supported)
-Could not make EGL context current
-Could not create EGL context
-(null)
-Unknown SDL error
-That operation is not supported
-Error seeking in datastream
-Error writing to datastream
-Error reading from datastream
-SDL EVENT QUEUE: Maximum events in-flight: %d\n
-SDL_EVENT_QUEUE_STATISTICS
-Event queue is full (%d events)
-Couldn't lock event queue
-The event system has been shut down
-SDL_FillRect(): You must lock the surface
-SDL_FillRect(): Unsupported surface format
-SDL_FillRects() passed NULL rects
-dpright
-dpleft
-dpdown
-dpup
-rightshoulder
-leftshoulder
-rightstick
-leftstick
-start
-guide
-back
-righttrigger
-lefttrigger
-righty
-rightx
-lefty
-leftx
-4c05c405000000000000504944564944,PS4 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
-25090500000000000000504944564944,PS3 DualShock,a:b2,b:b1,back:b9,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b8,x:b0,y:b3,
-4c056802000000000000504944564944,PS3 Controller,a:b14,b:b13,back:b0,dpdown:b6,dpleft:b7,dpright:b5,dpup:b4,guide:b16,leftshoulder:b10,leftstick:b1,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b11,rightstick:b2,righttrigger:b9,rightx:a2,righty:a3,start:b3,x:b15,y:b12,
-88880803000000000000504944564944,PS3 Controller,a:b2,b:b1,back:b8,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b9,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:b7,rightx:a3,righty:a4,start:b11,x:b0,y:b3,
-4d6963726f736f66742050432d6a6f79,OUYA Controller,a:b0,b:b3,dpdown:b9,dpleft:b10,dpright:b11,dpup:b8,guide:b14,leftshoulder:b4,leftstick:b6,lefttrigger:b12,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b7,righttrigger:b13,rightx:a5,righty:a4,x:b1,y:b2,
-6d0419c2000000000000504944564944,Logitech F710 Gamepad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
-6d0416c2000000000000504944564944,Generic DirectInput Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
-ffff0000000000000000504944564944,GameStop Gamepad,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
-e8206058000000000000504944564944,Cideko AK08b,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
-341a3608000000000000504944564944,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
-xinput,XInput Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,leftstick:b8,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,
-X-Box
-Xbox
-Hat index too large: %d
-Button index too large: %d
-Axis index too large: %d
-Joystick button name too large: %s
-Button name too large: %s
-Couldn't parse %s
-Couldn't parse name from %s
-emscripten
-xinput
-Couldn't parse GUID from %s
-mappingString
-%s,%s,%s
-SDL_GAMECONTROLLERCONFIG
-There are %d joysticks available
-Couldn't find mapping for device (%d)
-platform:
-Could not read DB
-Could not allocate space to read DB into memory
-Invalid RWops
-Unknown gestureId
-no gesture touch devices registered
-could not read any dollar gesture from rwops
-given touch id not found
-p@ERROR: NumPoints = %i\n
-FHaptic: Invalid haptic device identifier
-Haptic: There are %d haptic devices available
-Haptic: Joystick isn't a haptic device.
-Haptic: Joystick isn't valid.
-Haptic: Device has no free space left.
-Haptic: Effect not supported by haptic device.
-Haptic: Invalid effect identifier.
-Haptic: Updating effect type is illegal.
-Haptic: Device does not support status queries.
-Haptic: Gain must be between 0 and 100.
-SDL_HAPTIC_GAIN_MAX
-Haptic: Device does not support setting gain.
-Haptic: Autocenter must be between 0 and 100.
-Haptic: Device does not support setting autocenter.
-Haptic: Device does not support setting pausing.
-Device doesn't support rumble
-Haptic: Rumble effect not initialized on haptic device
-Haptic: Mouse isn't a haptic device.
-name
-callback
-UCS-4-INTERNAL
-UCS-4BE
-UCS-4LE
-UCS-4
-UCS4
-UCS-2-INTERNAL
-UCS-2BE
-UCS-2LE
-UCS-2
-UCS2
-UTF-32LE
-UTF32LE
-UTF-32BE
-UTF32BE
-UTF-32
-UTF32
-UTF16LE
-UTF-16BE
-UTF16BE
-UTF-16
-UTF16
-UTF8
-ISO-8859-1
-8859-1
-US-ASCII
-ASCII
-LANG
-LC_MESSAGES
-LC_CTYPE
-LC_ALL
-0123456789abcdef
-SDL_JOYSTICK_ALLOW_BACKGROUND_EVENTS
-Joystick hasn't been opened yet
-Joystick only has %d axes
-Joystick only has %d hats
-Joystick only has %d balls
-Joystick only has %d buttons
-Sleep
-Eject
-KBDIllumUp
-KBDIllumDown
-KBDIllumToggle
-DisplaySwitch
-BrightnessUp
-BrightnessDown
-AC Bookmarks
-AC Refresh
-AC Stop
-AC Forward
-AC Back
-AC Home
-AC Search
-Computer
-Calculator
-Mail
-MediaSelect
-AudioMute
-AudioPlay
-AudioStop
-AudioPrev
-AudioNext
-ModeSwitch
-Right GUI
-Right Alt
-Right Shift
-Right Ctrl
-Left GUI
-Left Alt
-Left Shift
-Left Ctrl
-Keypad Hexadecimal
-Keypad Decimal
-Keypad Octal
-Keypad Binary
-Keypad ClearEntry
-Keypad Clear
-Keypad +/-
-Keypad MemDivide
-Keypad MemMultiply
-Keypad MemSubtract
-Keypad MemAdd
-Keypad MemClear
-Keypad MemRecall
-Keypad MemStore
-Keypad !
-Keypad @
-Keypad Space
-Keypad #
-Keypad :
-Keypad ||
-Keypad |
-Keypad &&
-Keypad &
-Keypad >
-Keypad <
-Keypad %
-Keypad ^
-Keypad XOR
-Keypad F
-Keypad E
-Keypad D
-Keypad C
-Keypad B
-Keypad A
-Keypad Backspace
-Keypad Tab
-Keypad }
-Keypad {
-Keypad )
-Keypad (
-CurrencySubUnit
-CurrencyUnit
-DecimalSeparator
-ThousandsSeparator
-Keypad 000
-Keypad 00
-ExSel
-CrSel
-Clear / Again
-Oper
-Separator
-Prior
-Clear
-Cancel
-SysReq
-AltErase
-Keypad = (AS400)
-Keypad ,
-VolumeDown
-VolumeUp
-Mute
-Find
-Paste
-Copy
-Undo
-Again
-Stop
-Select
-Menu
-Help
-Execute
-Keypad =
-Power
-Application
-Keypad .
-Keypad 0
-Keypad 9
-Keypad 8
-Keypad 7
-Keypad 6
-Keypad 5
-Keypad 4
-Keypad 3
-Keypad 2
-Keypad 1
-Keypad Enter
-Keypad +
-Keypad -
-Keypad *
-Keypad /
-Numlock
-Down
-Left
-Right
-PageDown
-Delete
-PageUp
-Home
-Insert
-Pause
-ScrollLock
-PrintScreen
-CapsLock
-Space
-Backspace
-Escape
-Return
-scancode
-CRITICAL
-ERROR
-WARN
-INFO
-DEBUG
-VERBOSE
-%s: %s\r\n
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-SDL_MixAudio(): unknown audio format
-SDL_MOUSE_RELATIVE_MODE_WARP
-No window has focus
-Cursor hot spot doesn't lie within cursor
-Cursors are not currently supported
-Passed NULL cursor surface
-CreateSystemCursor is not currently supported
-Cursor not associated with the current mouse
-_SDL_DummySurface
-SDL_window%d-%8.8d.bmp
-SDL_VIDEO_DUMMY_SAVE_FRAMES
-Couldn't find dummy surface for window
-SDL dummy video driver
-SDL_VIDEODRIVER
-SDL_PIXELFORMAT_YVYU
-SDL_PIXELFORMAT_IYUV
-SDL_PIXELFORMAT_UYVY
-SDL_PIXELFORMAT_UNKNOWN
-SDL_PIXELFORMAT_YUY2
-SDL_PIXELFORMAT_YV12
-SDL_PIXELFORMAT_NV12
-SDL_PIXELFORMAT_BGR24
-SDL_PIXELFORMAT_NV21
-SDL_PIXELFORMAT_RGB24
-SDL_PIXELFORMAT_BGRA8888
-SDL_PIXELFORMAT_ABGR8888
-SDL_PIXELFORMAT_BGR888
-SDL_PIXELFORMAT_BGRX8888
-SDL_PIXELFORMAT_RGBA8888
-SDL_PIXELFORMAT_ARGB2101010
-SDL_PIXELFORMAT_ARGB8888
-SDL_PIXELFORMAT_RGB888
-SDL_PIXELFORMAT_RGBX8888
-SDL_PIXELFORMAT_BGRA5551
-SDL_PIXELFORMAT_ABGR4444
-SDL_PIXELFORMAT_ABGR1555
-SDL_PIXELFORMAT_BGRA4444
-SDL_PIXELFORMAT_BGR565
-SDL_PIXELFORMAT_BGR555
-SDL_PIXELFORMAT_RGBA5551
-SDL_PIXELFORMAT_ARGB1555
-SDL_PIXELFORMAT_RGBA4444
-SDL_PIXELFORMAT_ARGB4444
-SDL_PIXELFORMAT_RGB565
-SDL_PIXELFORMAT_RGB555
-SDL_PIXELFORMAT_RGB332
-SDL_PIXELFORMAT_RGB444
-SDL_PIXELFORMAT_INDEX8
-SDL_PIXELFORMAT_INDEX4MSB
-SDL_PIXELFORMAT_INDEX4LSB
-SDL_PIXELFORMAT_INDEX1LSB
-SDL_PIXELFORMAT_INDEX1MSB
-Unknown pixel format
-FOURCC pixel formats are not supported
-ncolors
-palette
-p?ramp
-gamma
-format
-SDL_SetPixelFormatPalette() passed a palette that doesn't match the format
-SDL_SetPixelFormatPalette() passed NULL format
-<qsort.c gjm 1.12 1998-03-19>
-SDL_NO_SIGNAL_HANDLERS
-result
-count
-points
-rect
-numrects
-span
-rects
-height
-width
-index must be in the range of 0 - %d
-_SDL_WindowRenderData
-Invalid renderer
-Invalid texture
-SDL_LockTexture(): texture must be streaming
-Texture not created with SDL_TEXTUREACCESS_TARGET
-Texture was not created with this renderer
-SDL_RenderDrawPoints(): Passed NULL points
-SDL_RenderDrawLines(): Passed NULL points
-SDL_RenderDrawRects(): Passed NULL rects
-SDL_RenderFillRects(): Passed NULL rects
-Renderer does not support RenderCopyEx
-Renderer doesn't support querying output size
-Palettized textures are not supported
-Texture dimensions can't be 0
-Texture dimensions are limited to %dx%d
-Invalid texture format
-pitch
-pixels
-Texture format must by YV12 or IYUV
-Vpitch
-Vplane
-Upitch
-Uplane
-Ypitch
-Yplane
-SDL_CreateTextureFromSurface() passed NULL surface
-?Created renderer: %s
-index must be -1 or in the range of 0 - %d
-Couldn't find matching render driver
-SDL_RENDER_DRIVER
-SDL_RENDER_VSYNC
-Renderer already associated with window
-Invalid window
-direct3d
-UNKNOWN
-DRIVERINVALIDCALL
-INVALIDCALL
-INVALIDDEVICE
-NOTAVAILABLE
-DEVICENOTRESET
-DEVICELOST
-MOREDATA
-NOTFOUND
-DRIVERINTERNALERROR
-CONFLICTINGTEXTUREPALETTE
-UNSUPPORTEDTEXTUREFILTER
-CONFLICTINGRENDERSTATE
-UNSUPPORTEDFACTORVALUE
-CONFLICTINGTEXTUREFILTER
-TOOMANYOPERATIONS
-UNSUPPORTEDALPHAARG
-UNSUPPORTEDALPHAOPERATION
-UNSUPPORTEDCOLORARG
-UNSUPPORTEDCOLOROPERATION
-WRONGTEXTUREFORMAT
-OUTOFVIDEOMEMORY
-WASSTILLDRAWING
-nearest
-SDL_RENDER_SCALE_QUALITY
-CreateTexture(D3DPOOL_DEFAULT)
-CreateTexture(D3DPOOL_SYSTEMMEM)
-SetTexture()
-UpdateTexture()
-UnlockRect()
-LockRect()
-Texture is not currently available
-SetRenderTarget()
-GetSurfaceLevel()
-SetScissor()
-GetRenderTargetData()
-CreateOffscreenPlainSurface()
-GetDesc()
-Renderer is not a D3D renderer
-Reset()
-BeginScene()
-Clear()
-DrawPrimitiveUP()
-SetShader()
+!)@:F,@zj/@\G1@|
+!QPW
 !\t@Present()
-CreatePixelShader()
-GetPresentParameters()
-GetSwapChain()
-CreateDevice()
-SDL_RENDER_DIRECT3D_THREADSAFE
-Unable to create Direct3D interface
-opengl
-;GL_TABLE_TOO_LARGE
-GL_STACK_UNDERFLOW
-GL_STACK_OVERFLOW
-GL_OUT_OF_MEMORY
-GL_INVALID_OPERATION
-GL_INVALID_VALUE
-GL_INVALID_ENUM
-GL_NO_ERROR
-%s: %s (%d): %s %s (0x%X)
-generic
-%s: %s (%d): %s %s
-glViewport
-glVertex3fv
-glVertex2f
-glTranslatef
-glTexSubImage2D
-glTexParameteri
-glTexImage2D
-glTexEnvf
-glTexCoord2f
-glShadeModel
-glScissor
-glRotatef
-glRotated
-glRectf
-glReadPixels
-glReadBuffer
-glRasterPos2i
-glPushMatrix
-glPopMatrix
-glPointSize
-glPixelStorei
-glOrtho
-glMatrixMode
-glLoadIdentity
-glLineWidth
-glGetString
-glGetPointerv
-glGetIntegerv
-glGetError
-glGenTextures
-glEnd
-glEnable
-glDrawPixels
-glDisable
-glDepthFunc
-glDeleteTextures
-glColor4f
-glColor3fv
-glClearColor
-glClear
-glBlendFuncSeparate
-glBlendFunc
-glBindTexture
-Couldn't load GL function %s: %s\n
-glBegin
-..\..\src\render\opengl\SDL_render_gl.c
-GL_UpdateViewport
-EGL_DestroyRenderer
-glDebugMessageCallbackARB
-GL_ResetState
-glTexImage2D()
-glGenTextures()
-GL_CreateTexture
-Texture format %s not supported by OpenGL
-GL_UpdateTexture
-glTexSubImage2D()
-GL_UpdateTextureYUV
-glFramebufferTexture2DEXT() failed
-GL_RenderDrawLines
-GL_RenderFillRects
-GL_RenderCopy
-GL_RenderCopyEx
-GL_RenderReadPixels
-glReadPixels()
-glCheckFramebufferStatusEXT
-glBindFramebufferEXT
-glFramebufferTexture2DEXT
-glDeleteFramebuffersEXT
-glGenFramebuffersEXT
-GL_EXT_framebuffer_object
-OpenGL shaders: %s
-DISABLED
-ENABLED
-SDL_RENDER_OPENGL_SHADERS
-glActiveTextureARB
-GL_ARB_multitexture
-GL_EXT_texture_rectangle
-GL_ARB_texture_rectangle
-GL_ARB_texture_non_power_of_two
-GL_ARB_debug_output
-opengles2
-;glBufferSubData
-glBufferData
-glBindBuffer
-glGenBuffers
-glGetProgramInfoLog
-glGetAttribLocation
-glDeleteFramebuffers
-glCheckFramebufferStatus
-glFramebufferTexture2D
-glBindFramebuffer
-glVertexAttribPointer
-glUseProgram
-glUniformMatrix4fv
-glUniform4f
-glUniform1i
-glShaderSource
-glShaderBinary
-glLinkProgram
-glGetUniformLocation
-glGetShaderiv
-glGetShaderInfoLog
-glGetProgramiv
-glGetBooleanv
-glGenFramebuffers
-glFinish
-glEnableVertexAttribArray
-glDrawArrays
-glDisableVertexAttribArray
-glDeleteShader
-glDeleteProgram
-glCreateShader
-glCreateProgram
-glCompileShader
-glBindAttribLocation
-glAttachShader
-Couldn't load GLES2 function %s: %s\n
-glActiveTexture
-glFramebufferTexture2D() failed
-Failed to load the shader
-Failed to load the shader: %s
-The specified shader cannot be loaded on the current platform
-No shader matching the requested characteristics was found
-..\..\src\render\opengles2\SDL_render_gles2.c
-GLES2_UpdateViewport
-u_color
-u_modulation
-u_texture
-u_texture_u
-u_texture_v
-u_projection
-Failed to link shader program
-a_center
-a_angle
-a_texCoord
-a_position
-Unsupported texture format
-GLES2_DestroyRenderer
-glGenTexures()
-GLES2_CreateTexture
-Texture format not supported
-GLES2_UpdateTexture
-GLES2_UpdateTextureYUV
-GLES2_RenderDrawLines
-GLES2_RenderFillRects
-GLES2_RenderCopy
-GLES2_RenderCopyEx
-v@GLES2_RenderReadPixels
-GLES2_ResetState
-software
-Unknown texture format
-Software renderer doesn't have an output surface
-Tried to read outside of surface bounds
-Can't create renderer for NULL surface
-@Couldn't open %s
-windows_file_size: invalid context/file not opened
-windows_file_size
-windows_file_seek: invalid context/file not opened
-windows_file_seek
-windows_file_seek: Unknown value for 'whence'
-Unknown value for 'whence'
-Can't write to read-only memory
-SDL not compiled with stdio support
-SDL_RWFromFile(): No file or no mode specified
-size
-varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0; // Y \nuniform sampler2D tex1; // U/V \n\n// YUV offset \nconst vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);\n\n// RGB coefficients \nconst vec3 Rcoeff = vec3(1.164,  0.000,  1.596);\nconst vec3 Gcoeff = vec3(1.164, -0.391, -0.813);\nconst vec3 Bcoeff = vec3(1.164,  2.018,  0.000);\n\nvoid main()\n{\n    vec2 tcoord;\n    vec3 yuv, rgb;\n\n    // Get the Y value \n    tcoord = v_texCoord;\n    yuv.x = texture2D(tex0, tcoord).r;\n\n    // Get the U and V values \n    tcoord *= UVCoordScale;\n    yuv.yz = texture2D(tex1, tcoord).ar;\n\n    // Do the color transform \n    yuv += offset;\n    rgb.r = dot(yuv, Rcoeff);\n    rgb.g = dot(yuv, Gcoeff);\n    rgb.b = dot(yuv, Bcoeff);\n\n    // That was easy. :) \n    gl_FragColor = vec4(rgb, 1.0) * v_color;\n}
-varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0; // Y \nuniform sampler2D tex1; // U/V \n\n// YUV offset \nconst vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);\n\n// RGB coefficients \nconst vec3 Rcoeff = vec3(1.164,  0.000,  1.596);\nconst vec3 Gcoeff = vec3(1.164, -0.391, -0.813);\nconst vec3 Bcoeff = vec3(1.164,  2.018,  0.000);\n\nvoid main()\n{\n    vec2 tcoord;\n    vec3 yuv, rgb;\n\n    // Get the Y value \n    tcoord = v_texCoord;\n    yuv.x = texture2D(tex0, tcoord).r;\n\n    // Get the U and V values \n    tcoord *= UVCoordScale;\n    yuv.yz = texture2D(tex1, tcoord).ra;\n\n    // Do the color transform \n    yuv += offset;\n    rgb.r = dot(yuv, Rcoeff);\n    rgb.g = dot(yuv, Gcoeff);\n    rgb.b = dot(yuv, Bcoeff);\n\n    // That was easy. :) \n    gl_FragColor = vec4(rgb, 1.0) * v_color;\n}
-varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0; // Y \nuniform sampler2D tex1; // U \nuniform sampler2D tex2; // V \n\n// YUV offset \nconst vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);\n\n// RGB coefficients \nconst vec3 Rcoeff = vec3(1.164,  0.000,  1.596);\nconst vec3 Gcoeff = vec3(1.164, -0.391, -0.813);\nconst vec3 Bcoeff = vec3(1.164,  2.018,  0.000);\n\nvoid main()\n{\n    vec2 tcoord;\n    vec3 yuv, rgb;\n\n    // Get the Y value \n    tcoord = v_texCoord;\n    yuv.x = texture2D(tex0, tcoord).r;\n\n    // Get the U and V values \n    tcoord *= UVCoordScale;\n    yuv.y = texture2D(tex1, tcoord).r;\n    yuv.z = texture2D(tex2, tcoord).r;\n\n    // Do the color transform \n    yuv += offset;\n    rgb.r = dot(yuv, Rcoeff);\n    rgb.g = dot(yuv, Gcoeff);\n    rgb.b = dot(yuv, Bcoeff);\n\n    // That was easy. :) \n    gl_FragColor = vec4(rgb, 1.0) * v_color;\n}
-varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0;\n\nvoid main()\n{\n    gl_FragColor = texture2D(tex0, v_texCoord) * v_color;\n}
-varying vec4 v_color;\nvarying vec2 v_texCoord;\n\nvoid main()\n{\n    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;\n    v_color = gl_Color;\n    v_texCoord = vec2(gl_MultiTexCoord0);\n}
-varying vec4 v_color;\n\nvoid main()\n{\n    gl_FragColor = v_color;\n}
-varying vec4 v_color;\n\nvoid main()\n{\n    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;\n    v_color = gl_Color;\n}
-Failed to compile shader:\n%s%s\n%s
-tex%d
+"3DUfw
 #define UVCoordScale 1.0\n
 #define sampler2D sampler2DRect\n#define texture2D texture2DRect\n#define UVCoordScale 0.5\n
-glUseProgramObjectARB
-glUniform1fARB
-glUniform1iARB
-glShaderSourceARB
-glLinkProgramARB
-glGetUniformLocationARB
-glGetObjectParameterivARB
-glGetInfoLogARB
-glDeleteObjectARB
-glCreateShaderObjectARB
-glCreateProgramObjectARB
-glCompileShaderARB
-glAttachObjectARB
-GL_ARB_fragment_shader
-GL_ARB_vertex_shader
-GL_ARB_shading_language_100
-GL_ARB_shader_objects
-     uniform mat4 u_projection;     attribute vec2 a_position;     attribute vec2 a_texCoord;     attribute float a_angle;     attribute vec2 a_center;     varying vec2 v_texCoord;         void main()     {         float angle = radians(a_angle);         float c = cos(angle);         float s = sin(angle);         mat2 rotationMatrix = mat2(c, -s, s, c);         vec2 position = rotationMatrix * (a_position - a_center) + a_center;         v_texCoord = a_texCoord;         gl_Position = u_projection * vec4(position, 0.0, 1.0);        gl_PointSize = 1.0;     } 
-     precision mediump float;     uniform vec4 u_color;         void main()     {         gl_FragColor = u_color;     } 
-     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         gl_FragColor = texture2D(u_texture, v_texCoord);         gl_FragColor *= u_modulation;     } 
-     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor *= u_modulation;     } 
-     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor.a = 1.0;         gl_FragColor *= u_modulation;     } 
-     precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.a = 1.0;         gl_FragColor *= u_modulation;     } 
-     precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform sampler2D u_texture_v;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.y = texture2D(u_texture_u, v_texCoord).r - 0.5;         yuv.z = texture2D(u_texture_v, v_texCoord).r - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
-     precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.yz = texture2D(u_texture_u, v_texCoord).ra - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
-     precision mediump float;     uniform sampler2D u_texture;     uniform sampler2D u_texture_u;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         mediump vec3 yuv;         lowp vec3 rgb;         yuv.x = texture2D(u_texture,   v_texCoord).r;         yuv.yz = texture2D(u_texture_u, v_texCoord).ar - 0.5;         rgb = mat3( 1,        1,       1,                     0,       -0.39465, 2.03211,                     1.13983, -0.58060, 0) * yuv;         gl_FragColor = vec4(rgb, 1);         gl_FragColor *= u_modulation;     } 
-?Unable to lock source surface
-Unable to lock destination surface
-Invalid destination blit rectangle
-Invalid source blit rectangle
-Only works with same format surfaces
-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0x
-SDL_SetSurfacePalette() passed a NULL surface
-surface
-SDL_UpperBlit: passed a NULL surface
-Surfaces must not be locked during blit
-Indexed pixel formats not supported
-Unknown FOURCC pixel format
-dst_pitch
-SDL_UpperBlitScaled: passed a NULL surface
-Empty destination palette
-Passed a NULL condition variable
-Couldn't locate our .exe
-Couldn't find GetModuleFileNameExW
-GetModuleFileNameExW
-Couldn't load psapi.dll
-Couldn't create a prefpath.
-Path too long.
-Couldn't locate our prefpath
-Failed loading 
-Passed a NULL mutex
-Couldn't create semaphore
-WaitForSingleObject() failed
-Passed a NULL sem
-ReleaseSemaphore() failed
-Not enough resources to create thread
-SetThreadPriority()
-SDL_TIMER_RESOLUTION
-TlsSetValue() failed
-SDLTimer
-Unknown touch device
-Unknown touch finger
-SDL_FRAMEBUFFER_ACCELERATION
-Video subsystem has not been initialized
-displayIndex must be in the range 0 - %d
-Missing desired mode or closest mode parameter
-Video driver doesn't support changing display mode
-No video mode large enough for %dx%d
-Couldn't find any displays
-Couldn't find display mode match
-mode
-Window surface is invalid, please call SDL_GetWindowSurface() to get a new surface
-SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS
-No dynamic GL support in video driver
-OpenGL library already loaded
-No GL driver has been loaded
-glGetStringi
-Unknown OpenGL attribute
-Unknown OpenGL context profile %d
-Unknown OpenGL context flag %d
-Failed getting OpenGL glGetIntegerv entry point
-OpenGL error: %08X
-OpenGL error: GL_INVALID_VALUE
-OpenGL error: GL_INVALID_ENUM
-Failed getting OpenGL glGetFramebufferAttachmentParameteriv entry point
-glGetFramebufferAttachmentParameteriv
-Failed getting OpenGL glGetError entry point
-Failed getting OpenGL glGetString entry point
-The specified window isn't an OpenGL window
-Setting the swap interval is not supported
-No OpenGL context has been made current
-The specified window has not been made current
-info
-No message system available
-messageboxdata
-SDL_ALLOW_TOPMOST
-No hardware accelerated renderers available
-_SDL_WindowTextureData
-No window texture data
-min_h
-min_w
-max_h
-max_w
-No OpenGL support in video driver
-SDL_VIDEO_ALLOW_SCREENSAVER
-The video driver did not add any displays
-No available video device
+%d bpp BMP files not supported
 %s not available
-Window is too large.
-SDL_VIDEO_HIGHDPI_DISABLED
-Unknown set of MS_ADPCM coefficients
-IMA ADPCM decoder can only handle %u channels
-Unrecognized file type (not WAVE)
-Unknown WAVE data format: 0x%.4x
-MPEG Layer 3 data not supported
-Unknown %d-bit PCM data format
-Complex WAVE files not supported
-%s%s%s
-Couldn't open clipboard
-Couldn't set clipboard data
-Couldn't get clipboard data
-SDL_WINDOWS_NO_CLOSE_ON_ALT_F4
-Couldn't register application class
-SDL_app
-Unable to create DIB
-DEST
-DEST
-DEST
-DEST
-DEST
-DEST
-DEST
-DEST
-DEST
-n5Failed to create notify device for joystick autodetect
-Failed to create message window for joystick autodetect
-Failed to create register class for joystick autodetect
-SDL_joystick
-MSSCIPYA.IME
-PINTLGNT.IME
-MSTCIPHA.IME
-CINTLGNT.IME
-TINTLGNT.IME
-ShowReadingWindow
-GetReadingString
-Right Windows
-Left Windows
-ImmUnlockIMCC
-ImmLockIMCC
-ImmUnlockIMC
-ImmLockIMC
-imm32.dll
-`ff9@No displays available
-DISP_CHANGE_FAILED
-DISP_CHANGE_BADPARAM
-DISP_CHANGE_BADMODE
-ChangeDisplaySettingsEx() failed: %s
-DISP_CHANGE_BADFLAGS
-Unknown reason
-CreateIconIndirect()
-Could not retrieve OpenGL functions
-wglShareLists
-wglMakeCurrent
-wglDeleteContext
-wglCreateContext
-wglGetProcAddress
-OPENGL32.DLL
-SDL_OPENGL_LIBRARY
-WGL_ARB_context_flush_control
-WGL_EXT_create_context_es2_profile
-WGL_EXT_swap_control_tear
-wglGetSwapIntervalEXT
-wglSwapIntervalEXT
-WGL_EXT_swap_control
-wglGetPixelFormatAttribivARB
-wglChoosePixelFormatARB
-WGL_ARB_pixel_format
-wglGetExtensionsStringARB
-SetPixelFormat()
-No matching GL pixel format available
-wglMakeCurrent()
-wglSwapIntervalEXT()
-Negative swap interval unsupported in this GL
-GL 3.x is not supported
-wglCreateContextAttribsARB
-Could not create GL context
-Could not create GLES window surface
-WARNING: Ignoring SDL_GL_SetSwapInterval call due to ANGLE bug
-SDL Windows video driver
-windows
-SDL_WINDOW_FRAME_USABLE_WHILE_CURSOR_HIDDEN
-SDL_WINDOWS_ENABLE_MESSAGELOOP
-Direct3DCreate9
-D3D9.DLL
-Invalid display index
-CreateDXGIFactory
-DXGI.DLL
-Unable to create DXGI interface
-outputIndex
-adapterIndex
-GetDpiForMonitor
-SHCORE.DLL
-RegisterTouchWindow
-GetTouchInputInfo
-CloseTouchInputHandle
-USER32.DLL
-SetProp() failed
-SDL_VIDEO_WINDOW_SHARE_PIXEL_FORMAT
-SetDeviceGammaRamp()
-GetDeviceGammaRamp()
-Application not compiled with SDL %d.%d\n
-Unable to create Helper Window
-Unable to create Helper Window Class
-Unable to destroy Helper Window Class
-Unable to destroy Helper Window
-Couldn't create window
-Windows Waveform Audio
-winmm
-%s: 
-waveOutPrepareHeader()
-waveOutOpen()
-XAudio2
-xaudio2
-XAudio2: SDL was built without XAudio2 support (old DirectX SDK).
-XInputGetBatteryInformation
-XInputGetCapabilities
-XInputSetState
-XInputGetState
-XInput Controller #%u
-Couldn't create XInput haptic thread
-SDLXInputDev%d
-Couldn't create XInput haptic mutex
-SDL_XINPUT_ENABLED
-SDL_XINPUT_USE_OLD_JOYSTICK_MAPPING
-XInput Device #%u
-XInput ArcadePad #%u
-XInput DrumKit #%u
-XInput Guitar #%u
-XInput DancePad #%u
-XInput FlightStick #%u
-XInput ArcadeStick #%u
-XInput Wheel #%u
-X360 Controller #%u
-Failed to obtain XInput device capabilities. Device disconnected?
-Unsupported YUV destination format
-YV12 and IYUV textures only support full surface locks
-Unsupported YUV format in copy
-Invalid target pixel format
-?P+X
-?Unsupported YUV format
-6lo"
-=[H+
-nmP:F
-k\vtH
- :\@
-Rp&/
-!QPW
-Fc?u(5
-`5Sf
-}h><PE
-c\t4
+%s() DirectX error 0x%8.8lx
+%s: %s (%d): %s %s
+%s: %s (%d): %s %s (0x%X)
+%s: Unknown DirectSound error: 0x%x
+'%s'\n    * %s (%s:%d)\n    * triggered %u time%s.\n    * always ignore: %s.\n
+(null)
+..\..\src\render\opengl\SDL_render_gl.c
+..\..\src\render\opengles2\SDL_render_gles2.c
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0x
+0123456789abcdef
+25090500000000000000504944564944,PS3 DualShock,a:b2,b:b1,back:b9,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b8,x:b0,y:b3,
+33333
+341a3608000000000000504944564944,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+4c056802000000000000504944564944,PS3 Controller,a:b14,b:b13,back:b0,dpdown:b6,dpleft:b7,dpright:b5,dpup:b4,guide:b16,leftshoulder:b10,leftstick:b1,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b11,rightstick:b2,righttrigger:b9,rightx:a2,righty:a3,start:b3,x:b15,y:b12,
+4c05c405000000000000504944564944,PS4 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
+4d6963726f736f66742050432d6a6f79,OUYA Controller,a:b0,b:b3,dpdown:b9,dpleft:b10,dpright:b11,dpup:b8,guide:b14,leftshoulder:b4,leftstick:b6,lefttrigger:b12,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b7,righttrigger:b13,rightx:a5,righty:a4,x:b1,y:b2,
 5cjMT
-TTar
-eFlv!@r
-\ck_
-dNtsq
-timeBeginPeriod
-timeEndPeriod
-timeGetTime
-waveOutGetDevCapsW
-waveOutGetNumDevs
-waveInGetDevCapsW
-waveInGetNumDevs
-waveOutGetErrorTextW
-waveOutWrite
-waveOutClose
-waveInClose
-waveOutUnprepareHeader
-waveOutOpen
-waveInOpen
-waveOutPrepareHeader
-WINMM.dll
-ImmReleaseContext
-ImmSetCompositionWindow
-ImmGetContext
-ImmGetIMEFileNameA
-ImmSetCompositionStringW
-ImmNotifyIME
-ImmGetCompositionStringW
-ImmGetCandidateListW
-ImmAssociateContext
-IMM32.dll
-VerQueryValueA
-GetFileVersionInfoA
-GetFileVersionInfoSizeA
-VERSION.dll
-ExitProcess
-GetSystemInfo
-GlobalMemoryStatusEx
-GetLastError
-GetModuleHandleW
-FreeLibrary
-GetProcAddress
-LoadLibraryA
-SetEnvironmentVariableA
-GetEnvironmentVariableA
-WriteConsoleW
-lstrlenW
-GetStdHandle
-OutputDebugStringW
-AttachConsole
-VirtualAlloc
-VirtualQuery
-VirtualFree
-Sleep
-InterlockedCompareExchange
-InterlockedExchange
-CreateFileW
-SetErrorMode
-GetFileSizeEx
-SetFilePointerEx
-ReadFile
-WriteFile
-SetFilePointer
-CloseHandle
-GetCurrentProcess
-LoadLibraryW
-CreateDirectoryW
-lstrcatW
-InitializeCriticalSectionAndSpinCount
-DeleteCriticalSection
-EnterCriticalSection
-TryEnterCriticalSection
-LeaveCriticalSection
-GetSystemPowerStatus
-CreateSemaphoreW
-InterlockedDecrement
-WaitForSingleObject
-ReleaseSemaphore
-InterlockedIncrement
-CreateThread
-GetCurrentThreadId
-SetThreadPriority
-GetCurrentThread
-QueryPerformanceCounter
-QueryPerformanceFrequency
-TlsGetValue
-TlsAlloc
-TlsSetValue
-FormatMessageW
-VerifyVersionInfoW
-VerSetConditionMask
-GlobalUnlock
-GlobalLock
-GlobalAlloc
-GetTickCount
-CompareStringA
-GetVersionExA
-MulDiv
-WideCharToMultiByte
-KERNEL32.dll
-GetRawInputDeviceInfoA
-GetRawInputDeviceList
-GetDesktopWindow
-CloseClipboard
-GetClipboardSequenceNumber
-SetClipboardData
-EmptyClipboard
-OpenClipboard
-GetClipboardData
-IsClipboardFormatAvailable
-GetAsyncKeyState
-DefWindowProcW
-IsIconic
-GetMessageExtraInfo
-WindowFromPoint
-GetRawInputData
-ValidateRect
-GetUpdateRect
-SetCursor
-ClientToScreen
-IsRectEmpty
-GetClientRect
+6d0416c2000000000000504944564944,Generic DirectInput Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+6d0419c2000000000000504944564944,Logitech F710 Gamepad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
+6lo"
+8859-1
+88880803000000000000504944564944,PS3 Controller,a:b2,b:b1,back:b8,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b9,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:b7,rightx:a3,righty:a4,start:b11,x:b0,y:b3,
+;GL_TABLE_TOO_LARGE
+;glBufferSubData
+<\rUUUUU
+<cUUUUU
+<qsort.c gjm 1.12 1998-03-19>
+=@zj?@L~@@\GA@l
+?1cb
+?>UUUUU
+?Application didn't initialize properly, did you include SDL_main.h in the file containing your main() function?
+?Created renderer: %s
+?Haptic error %s
+?IUUUUU
+?LUUUUU
+?UUUUUU
+?Unable to lock source surface
+?Unsupported YUV format
+?v<y5
+@Couldn't open %s
+AC Back
+AC Bookmarks
+AC Forward
+AC Home
+AC Refresh
+AC Search
+AC Stop
+ACouldn't create mixer lock
+APassed NULL destination surface
+ASCII
+Abort
+Acquiring DirectInput device
 AdjustWindowRectEx
-GetMenu
-GetWindowLongW
-GetWindowRect
-ClipCursor
-ScreenToClient
-GetCursorPos
-CallWindowProcW
-GetPropW
-GetKeyState
-DispatchMessageW
-TranslateMessage
-PeekMessageW
-RegisterClassW
-LoadImageW
-UnregisterClassW
-GetClassInfoW
-DestroyWindow
-UnregisterDeviceNotification
-RegisterDeviceNotificationW
-CreateWindowExW
-RegisterClassExW
-GetMessageW
-MapVirtualKeyW
-GetKeyboardLayout
-EndDialog
-ReleaseDC
-GetDC
-SystemParametersInfoA
-DialogBoxIndirectParamW
-DrawTextW
-SystemParametersInfoW
-EnumDisplayMonitors
-EnumDisplaySettingsW
-EnumDisplayDevicesW
-ChangeDisplaySettingsExW
-RegisterRawInputDevices
-LoadCursorW
-DestroyIcon
-CreateIconIndirect
-SetCursorPos
-GetDoubleClickTime
-SetWindowRgn
-SetWindowPos
-GetFocus
-SetWindowLongW
-SetPropW
-GetWindowTextW
-GetWindowTextLengthW
-SetWindowTextW
-SendMessageW
-CreateIconFromResource
-ShowWindow
-RemovePropW
-TrackMouseEvent
-USER32.dll
-SelectObject
-CreateDIBSection
-CreateCompatibleDC
-GetDIBits
-CreateCompatibleBitmap
-DeleteObject
-DeleteDC
+Again
+All SDL assertions between last init/quit:\n\n
+AltErase
+Always Ignore
+Application
+Application not compiled with SDL %d.%d\n
+Assertion Failed
+Assertion failure at %s (%s:%d), triggered %u %s:\r\n  '%s'
+AttachConsole
+Audio device already open
+Audio device has a callback, queueing not allowed
+Audio device in use
+Audio device is already opened
+Audio subsystem is not initialized
+Audio target '%s' not available
+AudioMute
+AudioNext
+AudioPlay
+AudioPrev
+AudioStop
+AuthenticAMD
+Axis index too large: %d
+Backspace
+BeginScene()
 BitBlt
-GetDeviceCaps
-GetTextMetricsW
-CreateFontIndirectW
-CreateDCW
-CreateBitmap
-DescribePixelFormat
-SetPixelFormat
+Blit combination not supported
+Break
+BrightnessDown
+BrightnessUp
+Button index too large: %d
+Button name too large: %s
+CINTLGNT.IME
+CONFLICTINGRENDERSTATE
+CONFLICTINGTEXTUREFILTER
+CONFLICTINGTEXTUREPALETTE
+CRITICAL
+Calculator
+CallWindowProcW
+Caller doesn't have priority
+Can't create renderer for NULL surface
+Can't write to read-only memory
+Cancel
+CapsLock
+ChangeDisplaySettingsEx() failed: %s
+ChangeDisplaySettingsExW
 ChoosePixelFormat
-SwapBuffers
-GetPixelFormat
-CombineRgn
-CreateRectRgn
-SetDeviceGammaRamp
-GetDeviceGammaRamp
-GDI32.dll
-SHGetFolderPathW
-DragFinish
-DragQueryFileW
-DragAcceptFiles
-SHELL32.dll
+Clear
+Clear / Again
+Clear()
+ClientToScreen
+ClipCursor
+CloseClipboard
+CloseHandle
+CloseTouchInputHandle
 CoCreateInstance
+CoInitialize
 CoInitializeEx
 CoUninitialize
-ole32.dll
+Coinitialize
+CombineRgn
+CompareStringA
+Complex WAVE files not supported
+Compressed BMP files not supported
+Computer
+Control requested is not available
+Copy
+Could not allocate space to read DB into memory
+Could not create EGL context
+Could not create EGL context (context attributes are not supported)
+Could not create GL context
+Could not create GLES window surface
+Could not get EGL display
+Could not initialize EGL
+Could not initialize OpenGL / GLES library
+Could not load EGL library
+Could not make EGL context current
+Could not read DB
+Could not retrieve EGL function eglBindAPI
+Could not retrieve EGL function eglChooseConfig
+Could not retrieve EGL function eglCreateContext
+Could not retrieve EGL function eglCreateWindowSurface
+Could not retrieve EGL function eglDestroyContext
+Could not retrieve EGL function eglDestroySurface
+Could not retrieve EGL function eglGetConfigAttrib
+Could not retrieve EGL function eglGetDisplay
+Could not retrieve EGL function eglGetProcAddress
+Could not retrieve EGL function eglInitialize
+Could not retrieve EGL function eglMakeCurrent
+Could not retrieve EGL function eglQueryString
+Could not retrieve EGL function eglSwapBuffers
+Could not retrieve EGL function eglSwapInterval
+Could not retrieve EGL function eglTerminate
+Could not retrieve EGL function eglWaitGL
+Could not retrieve EGL function eglWaitNative
+Could not retrieve OpenGL functions
+Couldn't convert image to %d bpp
+Couldn't create XInput haptic mutex
+Couldn't create XInput haptic thread
+Couldn't create a prefpath.
+Couldn't create audio thread
+Couldn't create semaphore
+Couldn't create window
+Couldn't find GetModuleFileNameExW
+Couldn't find any displays
+Couldn't find display mode match
+Couldn't find dummy surface for window
+Couldn't find joystick in haptic device list
+Couldn't find mapping for device (%d)
+Couldn't find matching EGL config
+Couldn't find matching render driver
+Couldn't get clipboard data
+Couldn't load GL function %s: %s\n
+Couldn't load GLES2 function %s: %s\n
+Couldn't load psapi.dll
+Couldn't locate our .exe
+Couldn't locate our prefpath
+Couldn't lock event queue
+Couldn't open clipboard
+Couldn't parse %s
+Couldn't parse GUID from %s
+Couldn't parse name from %s
+Couldn't register application class
+Couldn't set clipboard data
+CrSel
+CreateBitmap
+CreateCompatibleBitmap
+CreateCompatibleDC
+CreateDCW
+CreateDIBSection
+CreateDXGIFactory
+CreateDevice()
+CreateDirectoryW
+CreateFileW
+CreateFontIndirectW
+CreateIconFromResource
+CreateIconIndirect
+CreateIconIndirect()
+CreateOffscreenPlainSurface()
+CreatePixelShader()
+CreateRectRgn
+CreateSemaphoreW
+CreateSystemCursor is not currently supported
+CreateTexture(D3DPOOL_DEFAULT)
+CreateTexture(D3DPOOL_SYSTEMMEM)
+CreateThread
+CreateWindowExW
+Creating DirectInput device
+CurrencySubUnit
+CurrencyUnit
+Cursor hot spot doesn't lie within cursor
+Cursor not associated with the current mouse
+Cursors are not currently supported
+D3D9.DLL
+DC?h
+DEBUG
+DEST
+DEVICELOST
+DEVICENOTRESET
+DISABLED
+DISP_CHANGE_BADFLAGS
+DISP_CHANGE_BADMODE
+DISP_CHANGE_BADPARAM
+DISP_CHANGE_FAILED
+DRIVERINTERNALERROR
+DRIVERINVALIDCALL
+DSOUND.DLL
+DXGI.DLL
+DecimalSeparator
+DefWindowProcW
+Delete
+DeleteCriticalSection
+DeleteDC
+DeleteObject
+DescribePixelFormat
+DestroyIcon
+DestroyWindow
+Device doesn't support rumble
+DialogBoxIndirectParamW
+Direct3DCreate9
+DirectSound
+DirectSound CreateSoundBuffer
+DirectSound GetCurrentPosition
+DirectSound Lock
+DirectSound SetCooperativeLevel
+DirectSound: System doesn't appear to have DX8.
+DirectSound: Unsupported audio format
+DirectSound: failed to load DSOUND.DLL
+DirectSoundCaptureEnumerateW
+DirectSoundCreate
+DirectSoundCreate8
+DirectSoundEnumerateW
+DispatchMessageW
+DisplaySwitch
+Down
+DragAcceptFiles
+DragFinish
+DragQueryFileW
+DrawPrimitiveUP()
+DrawTextW
+EGL implementation does not support sRGB system framebuffers
+EGL not initialized
+EGL_DestroyRenderer
+EGL_KHR_create_context
+EGL_KHR_gl_colorspace
+ENABLED
+ERROR
+Eject
+Empty destination palette
+EmptyClipboard
+Enabling actuators
+EndDialog
+EnterCriticalSection
+EnumDisplayDevicesW
+EnumDisplayMonitors
+EnumDisplaySettingsW
+Enumerating DirectInput devices
+Enumerating supported effects
+Error reading from BMP
+Error reading from datastream
+Error seeking in datastream
+Error writing to datastream
+Escape
+Event queue is full (%d events)
+ExSel
+Execute
+ExitProcess
+F32LSB
+F32MSB
+F32SYS
+FHaptic: Invalid haptic device identifier
+FOURCC pixel formats are not supported
+Failed getting OpenGL glGetError entry point
+Failed getting OpenGL glGetFramebufferAttachmentParameteriv entry point
+Failed getting OpenGL glGetIntegerv entry point
+Failed getting OpenGL glGetString entry point
+Failed loading 
+Failed to compile shader:\n%s%s\n%s
+Failed to create message window for joystick autodetect
+Failed to create register class for joystick autodetect
+Failed to link shader program
+Failed to load the shader
+Failed to load the shader: %s
+Failed to obtain XInput device capabilities. Device disconnected?
+Fc?u(5
+File is not a Windows BMP file
+Find
+FormatMessageW
+FreeLibrary
+Function not supported
+GDI32.dll
+GL 3.x is not supported
+GLES2_CreateTexture
+GLES2_DestroyRenderer
+GLES2_RenderCopy
+GLES2_RenderCopyEx
+GLES2_RenderDrawLines
+GLES2_RenderFillRects
+GLES2_ResetState
+GLES2_UpdateTexture
+GLES2_UpdateTextureYUV
+GLES2_UpdateViewport
+GL_ARB_debug_output
+GL_ARB_fragment_shader
+GL_ARB_multitexture
+GL_ARB_shader_objects
+GL_ARB_shading_language_100
+GL_ARB_texture_non_power_of_two
+GL_ARB_texture_rectangle
+GL_ARB_vertex_shader
+GL_CreateTexture
+GL_EXT_framebuffer_object
+GL_EXT_texture_rectangle
+GL_INVALID_ENUM
+GL_INVALID_OPERATION
+GL_INVALID_VALUE
+GL_NO_ERROR
+GL_OUT_OF_MEMORY
+GL_RenderCopy
+GL_RenderCopyEx
+GL_RenderDrawLines
+GL_RenderFillRects
+GL_RenderReadPixels
+GL_ResetState
+GL_STACK_OVERFLOW
+GL_STACK_UNDERFLOW
+GL_UpdateTexture
+GL_UpdateTextureYUV
+GL_UpdateViewport
+GenuineIntel
+GetAsyncKeyState
+GetClassInfoW
+GetClientRect
+GetClipboardData
+GetClipboardSequenceNumber
+GetCurrentProcess
+GetCurrentThread
+GetCurrentThreadId
+GetCursorPos
+GetDC
+GetDIBits
+GetDesc()
+GetDesktopWindow
+GetDeviceCaps
+GetDeviceGammaRamp
+GetDeviceGammaRamp()
+GetDoubleClickTime
+GetDpiForMonitor
+GetEnvironmentVariableA
+GetFileSizeEx
+GetFileVersionInfoA
+GetFileVersionInfoSizeA
+GetFocus
+GetKeyState
+GetKeyboardLayout
+GetLastError
+GetMenu
+GetMessageExtraInfo
+GetMessageW
+GetModuleFileNameExW
+GetModuleHandle() failed with error code %lu.
+GetModuleHandleW
+GetPixelFormat
+GetPresentParameters()
+GetProcAddress
+GetPropW
+GetRawInputData
+GetRawInputDeviceInfoA
+GetRawInputDeviceList
+GetReadingString
+GetRenderTargetData()
+GetStdHandle
+GetSurfaceLevel()
+GetSwapChain()
+GetSystemInfo
+GetSystemPowerStatus
+GetTextMetricsW
+GetTickCount
+GetTouchInputInfo
+GetUpdateRect
+GetVersionExA
+GetWindowLongW
+GetWindowRect
+GetWindowTextLengthW
+GetWindowTextW
+Getting device axes
+Getting effect status
+GlobalAlloc
+GlobalLock
+GlobalMemoryStatusEx
+GlobalUnlock
+Haptic: Autocenter must be between 0 and 100.
+Haptic: Device does not support setting autocenter.
+Haptic: Device does not support setting gain.
+Haptic: Device does not support setting pausing.
+Haptic: Device does not support status queries.
+Haptic: Device has no free space left.
+Haptic: Effect not supported by haptic device.
+Haptic: Gain must be between 0 and 100.
+Haptic: Internal error on finding supported effects.
+Haptic: Invalid effect identifier.
+Haptic: Joystick isn't a haptic device.
+Haptic: Joystick isn't valid.
+Haptic: Mouse isn't a haptic device.
+Haptic: Rumble effect not initialized on haptic device
+Haptic: SubSystem already open.
+Haptic: There are %d haptic devices available
+Haptic: Unknown direction type.
+Haptic: Unknown effect type.
+Haptic: Updating effect type is illegal.
+Hat index too large: %d
+Help
+Home
+IDirectInput::CreateDevice
+IDirectInput::Initialize
+IDirectInputDevice8::Acquire
+IDirectInputDevice8::GetCapabilities
+IDirectInputDevice8::QueryInterface
+IDirectInputDevice8::SetCooperativeLevel
+IDirectInputDevice8::SetDataFormat
+IDirectInputDevice8::SetProperty
+IDirectInputDevice8::Unacquire
+IMA ADPCM decoder can only handle %u channels
+IMM32.dll
+INFO
+INVALIDCALL
+INVALIDDEVICE
+ISO-8859-1
+Ignore
+ImmAssociateContext
+ImmGetCandidateListW
+ImmGetCompositionStringW
+ImmGetContext
+ImmGetIMEFileNameA
+ImmLockIMC
+ImmLockIMCC
+ImmNotifyIME
+ImmReleaseContext
+ImmSetCompositionStringW
+ImmSetCompositionWindow
+ImmUnlockIMC
+ImmUnlockIMCC
+Indexed pixel formats not supported
+InitializeCriticalSectionAndSpinCount
+Initializing DirectInput device
+Insert
+InterlockedCompareExchange
+InterlockedDecrement
+InterlockedExchange
+InterlockedIncrement
+Invalid RWops
+Invalid audio device ID
+Invalid call for the current state
+Invalid destination blit rectangle
+Invalid destination format
+Invalid display index
+Invalid parameter
+Invalid renderer
+Invalid source blit rectangle
+Invalid source format
+Invalid target pixel format
+Invalid texture
+Invalid texture format
+Invalid window
+IsClipboardFormatAvailable
+IsIconic
+IsRectEmpty
+Joystick button name too large: %s
+Joystick hasn't been opened yet
+Joystick only has %d axes
+Joystick only has %d balls
+Joystick only has %d buttons
+Joystick only has %d hats
+KBDIllumDown
+KBDIllumToggle
+KBDIllumUp
+KERNEL32.dll
+Keypad !
+Keypad #
+Keypad %
+Keypad &
+Keypad &&
+Keypad (
+Keypad )
+Keypad *
+Keypad +
+Keypad +/-
+Keypad ,
+Keypad -
+Keypad .
+Keypad /
+Keypad 0
+Keypad 00
+Keypad 000
+Keypad 1
+Keypad 2
+Keypad 3
+Keypad 4
+Keypad 5
+Keypad 6
+Keypad 7
+Keypad 8
+Keypad 9
+Keypad :
+Keypad <
+Keypad =
+Keypad = (AS400)
+Keypad >
+Keypad @
+Keypad A
+Keypad B
+Keypad Backspace
+Keypad Binary
+Keypad C
+Keypad Clear
+Keypad ClearEntry
+Keypad D
+Keypad Decimal
+Keypad E
+Keypad Enter
+Keypad F
+Keypad Hexadecimal
+Keypad MemAdd
+Keypad MemClear
+Keypad MemDivide
+Keypad MemMultiply
+Keypad MemRecall
+Keypad MemStore
+Keypad MemSubtract
+Keypad Octal
+Keypad Space
+Keypad Tab
+Keypad XOR
+Keypad ^
+Keypad {
+Keypad |
+Keypad ||
+Keypad }
+LANG
+LC_ALL
+LC_CTYPE
+LC_MESSAGES
+LeaveCriticalSection
+Left
+Left Alt
+Left Ctrl
+Left GUI
+Left Shift
+Left Windows
+LoadCursorW
+LoadImageW
+LoadLibraryA
+LoadLibraryW
+LockRect()
+MOREDATA
+MPEG Layer 3 data not supported
+MSSCIPYA.IME
+MSTCIPHA.IME
+Mail
+MapVirtualKeyW
+MediaSelect
+Menu
+Missing desired mode or closest mode parameter
+Mixing buffer was lost
+ModeSwitch
+MulDiv
+Mute
+NEJ(~
+NOTAVAILABLE
+NOTFOUND
+Negative swap interval unsupported in this GL
+No GL driver has been loaded
+No OpenGL context has been made current
+No OpenGL support in video driver
+No audio device found
+No available audio device
+No available video device
+No buffer allocated for conversion
+No capture support
+No conversion available for these formats
+No conversion available for these rates
+No dynamic GL support in video driver
+No hardware accelerated renderers available
+No matching GL pixel format available
+No message system available
+No shader matching the requested characteristics was found
+No such device
+No such device.
+No video mode large enough for %dx%d
+No window has focus
+No window texture data
+Not enough resources to create thread
+Numlock
 OLEAUT32.dll
+OPENGL32.DLL
+OUTOFVIDEOMEMORY
+Only works with same format surfaces
+OpenClipboard
+OpenGL ES context already created
+OpenGL error: %08X
+OpenGL error: GL_INVALID_ENUM
+OpenGL error: GL_INVALID_VALUE
+OpenGL library already loaded
+OpenGL not initialized
+OpenGL shaders: %s
+Oper
+Out of memory
+OutputDebugStringW
+PIDVID8y\v
+PIDVID^
+PINTLGNT.IME
+PageDown
+PageUp
+Palettized textures are not supported
+Parameter '%s' is invalid
+Passed NULL cursor surface
+Passed a NULL condition variable
+Passed a NULL mutex
+Passed a NULL sem
+Paste
+Path too long.
+Pause
+Pausing the device
+PeekMessageW
+Power
+PrintScreen
+Prior
+QueryPerformanceCounter
+QueryPerformanceFrequency
+Querying DirectInput interface
+RSDS"
+ReadFile
+RegisterClassExW
+RegisterClassW
+RegisterDeviceNotificationW
+RegisterRawInputDevices
+RegisterTouchWindow
+ReleaseDC
+ReleaseSemaphore
+ReleaseSemaphore() failed
+RemovePropW
+Removing effect from the device
+Renderer already associated with window
+Renderer does not support RenderCopyEx
+Renderer doesn't support querying output size
+Renderer is not a D3D renderer
+Reset()
+Resetting device
+Retry
+Return
+Right
+Right Alt
+Right Ctrl
+Right GUI
+Right Shift
+Right Windows
+Running the effect
+S16LSB
+S16MSB
+S16SYS
+S32LSB
+S32MSB
+S32SYS
+SDL EVENT QUEUE: Maximum events in-flight: %d\n
+SDL Windows video driver
+SDL dummy audio driver
+SDL dummy video driver
+SDL not compiled with stdio support
 SDL2.dll
+SDLAudioDev%d
+SDLTimer
+SDLXInputDev%d
+SDL_ALLOW_TOPMOST
+SDL_ASSERT
+SDL_AUDIODRIVER
+SDL_AUDIO_CHANNELS
+SDL_AUDIO_DEVICE_NAME
+SDL_AUDIO_FORMAT
+SDL_AUDIO_FREQUENCY
+SDL_AUDIO_SAMPLES
 SDL_AddEventWatch
 SDL_AddHintCallback
 SDL_AddTimer
@@ -1373,6 +729,12 @@ SDL_AtomicTryLock
 SDL_AtomicUnlock
 SDL_AudioInit
 SDL_AudioQuit
+SDL_BLIT_CPU_FEATURES
+SDL_BlendFillRects(): Unsupported surface format
+SDL_BlendLines(): Passed NULL destination surface
+SDL_BlendLines(): Unsupported surface format
+SDL_BlendPoint(): Unsupported surface format
+SDL_BlendPoints(): Unsupported surface format
 SDL_BuildAudioCVT
 SDL_CalculateGammaRamp
 SDL_CaptureMouse
@@ -1402,11 +764,15 @@ SDL_CreateSoftwareRenderer
 SDL_CreateSystemCursor
 SDL_CreateTexture
 SDL_CreateTextureFromSurface
+SDL_CreateTextureFromSurface() passed NULL surface
 SDL_CreateThread
 SDL_CreateWindow
 SDL_CreateWindowAndRenderer
 SDL_CreateWindowFrom
+SDL_DISKAUDIODELAY
+SDL_DISKAUDIOFILE
 SDL_DXGIGetOutputInfo
+SDL_DYNAMIC_API
 SDL_DYNAPI_entry
 SDL_DelEventWatch
 SDL_DelHintCallback
@@ -1420,12 +786,21 @@ SDL_DestroyWindow
 SDL_DetachThread
 SDL_Direct3D9GetAdapterIndex
 SDL_DisableScreenSaver
+SDL_DrawLines(): Passed NULL destination surface
+SDL_DrawLines(): Unsupported surface format
+SDL_DrawPoint(): Unsupported surface format
+SDL_DrawPoints(): Unsupported surface format
+SDL_EVENT_QUEUE_STATISTICS
 SDL_EnableScreenSaver
 SDL_EnclosePoints
 SDL_Error
 SDL_EventState
+SDL_FRAMEBUFFER_ACCELERATION
 SDL_FillRect
+SDL_FillRect(): Unsupported surface format
+SDL_FillRect(): You must lock the surface
 SDL_FillRects
+SDL_FillRects() passed NULL rects
 SDL_FilterEvents
 SDL_FlushEvent
 SDL_FlushEvents
@@ -1435,6 +810,7 @@ SDL_FreePalette
 SDL_FreeRW
 SDL_FreeSurface
 SDL_FreeWAV
+SDL_GAMECONTROLLERCONFIG
 SDL_GL_BindTexture
 SDL_GL_CreateContext
 SDL_GL_DeleteContext
@@ -1573,6 +949,7 @@ SDL_GetWindowSize
 SDL_GetWindowSurface
 SDL_GetWindowTitle
 SDL_GetWindowWMInfo
+SDL_HAPTIC_GAIN_MAX
 SDL_HapticClose
 SDL_HapticDestroyEffect
 SDL_HapticEffectSupported
@@ -1626,6 +1003,7 @@ SDL_IsScreenKeyboardShown
 SDL_IsScreenSaverEnabled
 SDL_IsShapedWindow
 SDL_IsTextInputActive
+SDL_JOYSTICK_ALLOW_BACKGROUND_EVENTS
 SDL_JoystickClose
 SDL_JoystickCurrentPowerLevel
 SDL_JoystickEventState
@@ -1658,6 +1036,7 @@ SDL_LockAudioDevice
 SDL_LockMutex
 SDL_LockSurface
 SDL_LockTexture
+SDL_LockTexture(): texture must be streaming
 SDL_Log
 SDL_LogCritical
 SDL_LogDebug
@@ -1675,18 +1054,60 @@ SDL_LogVerbose
 SDL_LogWarn
 SDL_LowerBlit
 SDL_LowerBlitScaled
+SDL_MOUSE_RELATIVE_MODE_WARP
 SDL_MapRGB
 SDL_MapRGBA
 SDL_MasksToPixelFormatEnum
 SDL_MaximizeWindow
 SDL_MinimizeWindow
 SDL_MixAudio
+SDL_MixAudio(): unknown audio format
 SDL_MixAudioFormat
 SDL_MouseIsHaptic
+SDL_NO_SIGNAL_HANDLERS
 SDL_NumHaptics
 SDL_NumJoysticks
+SDL_OPENGL_LIBRARY
 SDL_OpenAudio
 SDL_OpenAudioDevice
+SDL_PIXELFORMAT_ABGR1555
+SDL_PIXELFORMAT_ABGR4444
+SDL_PIXELFORMAT_ABGR8888
+SDL_PIXELFORMAT_ARGB1555
+SDL_PIXELFORMAT_ARGB2101010
+SDL_PIXELFORMAT_ARGB4444
+SDL_PIXELFORMAT_ARGB8888
+SDL_PIXELFORMAT_BGR24
+SDL_PIXELFORMAT_BGR555
+SDL_PIXELFORMAT_BGR565
+SDL_PIXELFORMAT_BGR888
+SDL_PIXELFORMAT_BGRA4444
+SDL_PIXELFORMAT_BGRA5551
+SDL_PIXELFORMAT_BGRA8888
+SDL_PIXELFORMAT_BGRX8888
+SDL_PIXELFORMAT_INDEX1LSB
+SDL_PIXELFORMAT_INDEX1MSB
+SDL_PIXELFORMAT_INDEX4LSB
+SDL_PIXELFORMAT_INDEX4MSB
+SDL_PIXELFORMAT_INDEX8
+SDL_PIXELFORMAT_IYUV
+SDL_PIXELFORMAT_NV12
+SDL_PIXELFORMAT_NV21
+SDL_PIXELFORMAT_RGB24
+SDL_PIXELFORMAT_RGB332
+SDL_PIXELFORMAT_RGB444
+SDL_PIXELFORMAT_RGB555
+SDL_PIXELFORMAT_RGB565
+SDL_PIXELFORMAT_RGB888
+SDL_PIXELFORMAT_RGBA4444
+SDL_PIXELFORMAT_RGBA5551
+SDL_PIXELFORMAT_RGBA8888
+SDL_PIXELFORMAT_RGBX8888
+SDL_PIXELFORMAT_UNKNOWN
+SDL_PIXELFORMAT_UYVY
+SDL_PIXELFORMAT_YUY2
+SDL_PIXELFORMAT_YV12
+SDL_PIXELFORMAT_YVYU
 SDL_PauseAudio
 SDL_PauseAudioDevice
 SDL_PeepEvents
@@ -1698,9 +1119,15 @@ SDL_QueryTexture
 SDL_QueueAudio
 SDL_Quit
 SDL_QuitSubSystem
+SDL_RENDER_DIRECT3D_THREADSAFE
+SDL_RENDER_DRIVER
+SDL_RENDER_OPENGL_SHADERS
+SDL_RENDER_SCALE_QUALITY
+SDL_RENDER_VSYNC
 SDL_RWFromConstMem
 SDL_RWFromFP
 SDL_RWFromFile
+SDL_RWFromFile(): No file or no mode specified
 SDL_RWFromMem
 SDL_RaiseWindow
 SDL_ReadBE16
@@ -1719,12 +1146,16 @@ SDL_RenderCopy
 SDL_RenderCopyEx
 SDL_RenderDrawLine
 SDL_RenderDrawLines
+SDL_RenderDrawLines(): Passed NULL points
 SDL_RenderDrawPoint
 SDL_RenderDrawPoints
+SDL_RenderDrawPoints(): Passed NULL points
 SDL_RenderDrawRect
 SDL_RenderDrawRects
+SDL_RenderDrawRects(): Passed NULL rects
 SDL_RenderFillRect
 SDL_RenderFillRects
+SDL_RenderFillRects(): Passed NULL rects
 SDL_RenderGetClipRect
 SDL_RenderGetD3D9Device
 SDL_RenderGetLogicalSize
@@ -1762,6 +1193,8 @@ SDL_SetMainReady
 SDL_SetModState
 SDL_SetPaletteColors
 SDL_SetPixelFormatPalette
+SDL_SetPixelFormatPalette() passed NULL format
+SDL_SetPixelFormatPalette() passed a palette that doesn't match the format
 SDL_SetRelativeMouseMode
 SDL_SetRenderDrawBlendMode
 SDL_SetRenderDrawColor
@@ -1770,6 +1203,7 @@ SDL_SetSurfaceAlphaMod
 SDL_SetSurfaceBlendMode
 SDL_SetSurfaceColorMod
 SDL_SetSurfacePalette
+SDL_SetSurfacePalette() passed a NULL surface
 SDL_SetSurfaceRLE
 SDL_SetTextInputRect
 SDL_SetTextureAlphaMod
@@ -1799,6 +1233,7 @@ SDL_ShowWindow
 SDL_SoftStretch
 SDL_StartTextInput
 SDL_StopTextInput
+SDL_TIMER_RESOLUTION
 SDL_TLSCreate
 SDL_TLSGet
 SDL_TLSSet
@@ -1817,9 +1252,23 @@ SDL_UpdateWindowSurface
 SDL_UpdateWindowSurfaceRects
 SDL_UpdateYUVTexture
 SDL_UpperBlit
+SDL_UpperBlit: passed a NULL surface
 SDL_UpperBlitScaled
+SDL_UpperBlitScaled: passed a NULL surface
+SDL_VIDEODRIVER
+SDL_VIDEO_ALLOW_SCREENSAVER
+SDL_VIDEO_DUMMY_SAVE_FRAMES
+SDL_VIDEO_EGL_DRIVER
+SDL_VIDEO_GL_DRIVER
+SDL_VIDEO_HIGHDPI_DISABLED
+SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS
+SDL_VIDEO_WINDOW_SHARE_PIXEL_FORMAT
+SDL_VIDEO_WIN_D3DCOMPILER
 SDL_VideoInit
 SDL_VideoQuit
+SDL_WINDOWS_ENABLE_MESSAGELOOP
+SDL_WINDOWS_NO_CLOSE_ON_ALT_F4
+SDL_WINDOW_FRAME_USABLE_WHILE_CURSOR_HIDDEN
 SDL_WaitEvent
 SDL_WaitEventTimeout
 SDL_WaitThread
@@ -1833,8 +1282,11 @@ SDL_WriteLE16
 SDL_WriteLE32
 SDL_WriteLE64
 SDL_WriteU8
+SDL_XINPUT_ENABLED
+SDL_XINPUT_USE_OLD_JOYSTICK_MAPPING
 SDL_abs
 SDL_acos
+SDL_app
 SDL_asin
 SDL_atan
 SDL_atan2
@@ -1856,6 +1308,7 @@ SDL_iconv_string
 SDL_isdigit
 SDL_isspace
 SDL_itoa
+SDL_joystick
 SDL_lltoa
 SDL_log
 SDL_ltoa
@@ -1907,5 +1360,513 @@ SDL_vsscanf
 SDL_wcslcat
 SDL_wcslcpy
 SDL_wcslen
-RSDS"
+SDL_window%d-%8.8d.bmp
+SHCORE.DLL
+SHELL32.dll
+SHGetFolderPathW
+ScreenToClient
+ScrollLock
+Select
+SelectObject
+SendMessageW
+Separator
+SetClipboardData
+SetCursor
+SetCursorPos
+SetDeviceGammaRamp
+SetDeviceGammaRamp()
+SetEnvironmentVariableA
+SetErrorMode
+SetFilePointer
+SetFilePointerEx
+SetPixelFormat
+SetPixelFormat()
+SetProp() failed
+SetPropW
+SetRenderTarget()
+SetScissor()
+SetShader()
+SetTexture()
+SetThreadPriority
+SetThreadPriority()
+SetWindowLongW
+SetWindowPos
+SetWindowRgn
+SetWindowTextW
+Setting autocenter
+Setting cooperative level to exclusive
+Setting data format
+Setting gain
+Setting the swap interval is not supported
+ShowReadingWindow
+ShowWindow
+Sleep
+Software renderer doesn't have an output surface
+Sound buffer size must be between %d and %d
+Source or destination channels is zero
+Source or destination rate is zero
+Space
+Stop
+Stopping the device
+Surfaces must not be locked during blit
+SwapBuffers
+SysReq
+System audio capture device
+System audio output device
+SystemParametersInfoA
+SystemParametersInfoW
+TINTLGNT.IME
+TOOMANYOPERATIONS
+TTar
+Texture dimensions are limited to %dx%d
+Texture dimensions can't be 0
+Texture format %s not supported by OpenGL
+Texture format must by YV12 or IYUV
+Texture format not supported
+Texture is not currently available
+Texture not created with SDL_TEXTUREACCESS_TARGET
+Texture was not created with this renderer
+That operation is not supported
+The event system has been shut down
+The specified shader cannot be loaded on the current platform
+The specified window has not been made current
+The specified window isn't an OpenGL window
+The video driver did not add any displays
+There are %d joysticks available
+ThousandsSeparator
+TlsAlloc
+TlsGetValue
+TlsSetValue
+TlsSetValue() failed
+Too many open audio devices
+TrackMouseEvent
+TranslateMessage
+Tried to read outside of surface bounds
+TryEnterCriticalSection
+U16LSB
+U16MSB
+U16SYS
+UCS-2
+UCS-2-INTERNAL
+UCS-2BE
+UCS-2LE
+UCS-4
+UCS-4-INTERNAL
+UCS-4BE
+UCS-4LE
+UCS2
+UCS4
+UNKNOWN
+UNSUPPORTEDALPHAARG
+UNSUPPORTEDALPHAOPERATION
+UNSUPPORTEDCOLORARG
+UNSUPPORTEDCOLOROPERATION
+UNSUPPORTEDFACTORVALUE
+UNSUPPORTEDTEXTUREFILTER
+US-ASCII
+USER32.DLL
+USER32.dll
+UTF-16
+UTF-16BE
+UTF-16LE
+UTF-32
+UTF-32BE
+UTF-32LE
+UTF-8
+UTF16
+UTF16BE
+UTF16LE
+UTF32
+UTF32BE
+UTF32LE
+UTF8
+UUUUU
+Unable to create DIB
+Unable to create DXGI interface
+Unable to create Direct3D interface
+Unable to create Helper Window
+Unable to create Helper Window Class
+Unable to create effect
+Unable to destroy Helper Window
+Unable to destroy Helper Window Class
+Unable to lock destination surface
+Unable to make EGL context current
+Unable to stop effect
+Unable to update effect
+Undo
+Unknown
+Unknown %d-bit PCM data format
+Unknown FOURCC pixel format
+Unknown OpenGL attribute
+Unknown OpenGL context flag %d
+Unknown OpenGL context profile %d
+Unknown SDL error
+Unknown WAVE data format: 0x%.4x
+Unknown gestureId
+Unknown pixel format
+Unknown reason
+Unknown set of MS_ADPCM coefficients
+Unknown texture format
+Unknown touch device
+Unknown touch finger
+Unknown value for 'whence'
+UnlockRect()
+Unrecognized file type (not WAVE)
+UnregisterClassW
+UnregisterDeviceNotification
+Unsupported YUV destination format
+Unsupported YUV format in copy
+Unsupported audio format
+Unsupported interface -- Is DirectX 8.0 or later installed?
+Unsupported number of audio channels.
+Unsupported texture format
+UpdateTexture()
+Upitch
+Uplane
+VERBOSE
+VERSION.dll
+ValidateRect
+VerQueryValueA
+VerSetConditionMask
+VerifyVersionInfoW
+Video driver doesn't support changing display mode
+Video subsystem has not been initialized
+Video subsystem must be initialized to check clipboard text
+Video subsystem must be initialized to get clipboard text
+Video subsystem must be initialized to set clipboard text
+VirtualAlloc
+VirtualFree
+VirtualQuery
+VolumeDown
+VolumeUp
+Vpitch
+Vplane
+WARN
+WARNING: Ignoring SDL_GL_SetSwapInterval call due to ANGLE bug
+WASSTILLDRAWING
+WGL_ARB_context_flush_control
+WGL_ARB_pixel_format
+WGL_EXT_create_context_es2_profile
+WGL_EXT_swap_control
+WGL_EXT_swap_control_tear
+WINMM.dll
+WRONGTEXTUREFORMAT
+WaitForSingleObject
+WaitForSingleObject() failed
+WideCharToMultiByte
+Window is too large.
+Window surface is invalid, please call SDL_GetWindowSurface() to get a new surface
+WindowFromPoint
+Windows
+Windows Waveform Audio
+WriteConsoleW
+WriteFile
+X-Box
+X360 Controller #%u
+XAudio2
+XAudio2: SDL was built without XAudio2 support (old DirectX SDK).
+XInput ArcadePad #%u
+XInput ArcadeStick #%u
+XInput Controller #%u
+XInput DancePad #%u
+XInput Device #%u
+XInput DrumKit #%u
+XInput FlightStick #%u
+XInput Guitar #%u
+XInput Wheel #%u
+XInputGetBatteryInformation
+XInputGetCapabilities
+XInputGetState
+XInputSetState
+Xbox
+YV12 and IYUV textures only support full surface locks
+Ypitch
+Yplane
+\n\nSDL assertion report.\n
+_SDL_DummySurface
+_SDL_WindowRenderData
+_SDL_WindowTextureData
+`5Sf
+`ff9@No displays available
+a_angle
+a_center
+a_position
+a_texCoord
+abort
+adapterIndex
+always_ignore
+back
+break
 c:\buildslave\sdl_win32\build\dev\VisualC\Win32\Release\SDL2.pdb
+c\t4
+callback
+could not read any dollar gesture from rwops
+count
+d3dcompiler_43.dll
+d3dcompiler_46.dll
+dNtsq
+direct-to-disk audio
+direct3d
+directsound
+disk
+displayIndex must be in the range 0 - %d
+dpdown
+dpleft
+dpright
+dpup
+dst_pitch
+dummy
+e8206058000000000000504944564944,Cideko AK08b,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
+eFlv!@r
+eglBindAPI
+eglChooseConfig
+eglCreateContext
+eglCreateWindowSurface
+eglDestroyContext
+eglDestroySurface
+eglGetConfigAttrib
+eglGetDisplay
+eglGetProcAddress
+eglInitialize
+eglMakeCurrent
+eglQueryString
+eglSwapBuffers
+eglSwapInterval
+eglTerminate
+eglWaitGL
+eglWaitNative
+emscripten
+ffff0000000000000000504944564944,GameStop Gamepad,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
+format
+gamma
+generic
+given touch id not found
+glActiveTexture
+glActiveTextureARB
+glAttachObjectARB
+glAttachShader
+glBegin
+glBindAttribLocation
+glBindBuffer
+glBindFramebuffer
+glBindFramebufferEXT
+glBindTexture
+glBlendFunc
+glBlendFuncSeparate
+glBufferData
+glCheckFramebufferStatus
+glCheckFramebufferStatusEXT
+glClear
+glClearColor
+glColor3fv
+glColor4f
+glCompileShader
+glCompileShaderARB
+glCreateProgram
+glCreateProgramObjectARB
+glCreateShader
+glCreateShaderObjectARB
+glDebugMessageCallbackARB
+glDeleteFramebuffers
+glDeleteFramebuffersEXT
+glDeleteObjectARB
+glDeleteProgram
+glDeleteShader
+glDeleteTextures
+glDepthFunc
+glDisable
+glDisableVertexAttribArray
+glDrawArrays
+glDrawPixels
+glEnable
+glEnableVertexAttribArray
+glEnd
+glFinish
+glFramebufferTexture2D
+glFramebufferTexture2D() failed
+glFramebufferTexture2DEXT
+glFramebufferTexture2DEXT() failed
+glGenBuffers
+glGenFramebuffers
+glGenFramebuffersEXT
+glGenTextures
+glGenTextures()
+glGenTexures()
+glGetAttribLocation
+glGetBooleanv
+glGetError
+glGetFramebufferAttachmentParameteriv
+glGetInfoLogARB
+glGetIntegerv
+glGetObjectParameterivARB
+glGetPointerv
+glGetProgramInfoLog
+glGetProgramiv
+glGetShaderInfoLog
+glGetShaderiv
+glGetString
+glGetStringi
+glGetUniformLocation
+glGetUniformLocationARB
+glLineWidth
+glLinkProgram
+glLinkProgramARB
+glLoadIdentity
+glMatrixMode
+glOrtho
+glPixelStorei
+glPointSize
+glPopMatrix
+glPushMatrix
+glRasterPos2i
+glReadBuffer
+glReadPixels
+glReadPixels()
+glRectf
+glRotated
+glRotatef
+glScissor
+glShadeModel
+glShaderBinary
+glShaderSource
+glShaderSourceARB
+glTexCoord2f
+glTexEnvf
+glTexImage2D
+glTexImage2D()
+glTexParameteri
+glTexSubImage2D
+glTexSubImage2D()
+glTranslatef
+glUniform1fARB
+glUniform1i
+glUniform1iARB
+glUniform4f
+glUniformMatrix4fv
+glUseProgram
+glUseProgramObjectARB
+glVertex2f
+glVertex3fv
+glVertexAttribPointer
+glViewport
+guide
+height
+hg-0:aaaaaaaaaaah
+ignore
+imm32.dll
+index must be -1 or in the range of 0 - %d
+index must be in the range of 0 - %d
+info
+k\vtH
+leftshoulder
+leftstick
+lefttrigger
+leftx
+lefty
+libEGL.dll
+libGLES_CM.dll
+libGLESv1_CM.dll
+libGLESv2.dll
+lstrcatW
+lstrlenW
+mappingString
+max_h
+max_w
+messageboxdata
+min_h
+min_w
+mode
+n5Failed to create notify device for joystick autodetect
+name
+ncolors
+nearest
+nmP:F
+no gesture touch devices registered
+none
+numrects
+ole32.dll
+opengl
+opengles2
+outputIndex
+p?ramp
+p@ERROR: NumPoints = %i\n
+palette
+pitch
+pixels
+platform:
+points
+rect
+rects
+result
+retry
+ri7f>
+rightshoulder
+rightstick
+righttrigger
+rightx
+righty
+scancode
+sdlaudio.raw
+size
+software
+span
+start
+surface
+tex%d
+time
+timeBeginPeriod
+timeEndPeriod
+timeGetTime
+times
+u_color
+u_modulation
+u_projection
+u_texture
+u_texture_u
+u_texture_v
+v@GLES2_RenderReadPixels
+varying vec4 v_color;\n\nvoid main()\n{\n    gl_FragColor = v_color;\n}
+varying vec4 v_color;\n\nvoid main()\n{\n    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;\n    v_color = gl_Color;\n}
+varying vec4 v_color;\nvarying vec2 v_texCoord;\n\nvoid main()\n{\n    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;\n    v_color = gl_Color;\n    v_texCoord = vec2(gl_MultiTexCoord0);\n}
+varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0; // Y \nuniform sampler2D tex1; // U \nuniform sampler2D tex2; // V \n\n// YUV offset \nconst vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);\n\n// RGB coefficients \nconst vec3 Rcoeff = vec3(1.164,  0.000,  1.596);\nconst vec3 Gcoeff = vec3(1.164, -0.391, -0.813);\nconst vec3 Bcoeff = vec3(1.164,  2.018,  0.000);\n\nvoid main()\n{\n    vec2 tcoord;\n    vec3 yuv, rgb;\n\n    // Get the Y value \n    tcoord = v_texCoord;\n    yuv.x = texture2D(tex0, tcoord).r;\n\n    // Get the U and V values \n    tcoord *= UVCoordScale;\n    yuv.y = texture2D(tex1, tcoord).r;\n    yuv.z = texture2D(tex2, tcoord).r;\n\n    // Do the color transform \n    yuv += offset;\n    rgb.r = dot(yuv, Rcoeff);\n    rgb.g = dot(yuv, Gcoeff);\n    rgb.b = dot(yuv, Bcoeff);\n\n    // That was easy. :) \n    gl_FragColor = vec4(rgb, 1.0) * v_color;\n}
+varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0; // Y \nuniform sampler2D tex1; // U/V \n\n// YUV offset \nconst vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);\n\n// RGB coefficients \nconst vec3 Rcoeff = vec3(1.164,  0.000,  1.596);\nconst vec3 Gcoeff = vec3(1.164, -0.391, -0.813);\nconst vec3 Bcoeff = vec3(1.164,  2.018,  0.000);\n\nvoid main()\n{\n    vec2 tcoord;\n    vec3 yuv, rgb;\n\n    // Get the Y value \n    tcoord = v_texCoord;\n    yuv.x = texture2D(tex0, tcoord).r;\n\n    // Get the U and V values \n    tcoord *= UVCoordScale;\n    yuv.yz = texture2D(tex1, tcoord).ar;\n\n    // Do the color transform \n    yuv += offset;\n    rgb.r = dot(yuv, Rcoeff);\n    rgb.g = dot(yuv, Gcoeff);\n    rgb.b = dot(yuv, Bcoeff);\n\n    // That was easy. :) \n    gl_FragColor = vec4(rgb, 1.0) * v_color;\n}
+varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0; // Y \nuniform sampler2D tex1; // U/V \n\n// YUV offset \nconst vec3 offset = vec3(-0.0627451017, -0.501960814, -0.501960814);\n\n// RGB coefficients \nconst vec3 Rcoeff = vec3(1.164,  0.000,  1.596);\nconst vec3 Gcoeff = vec3(1.164, -0.391, -0.813);\nconst vec3 Bcoeff = vec3(1.164,  2.018,  0.000);\n\nvoid main()\n{\n    vec2 tcoord;\n    vec3 yuv, rgb;\n\n    // Get the Y value \n    tcoord = v_texCoord;\n    yuv.x = texture2D(tex0, tcoord).r;\n\n    // Get the U and V values \n    tcoord *= UVCoordScale;\n    yuv.yz = texture2D(tex1, tcoord).ra;\n\n    // Do the color transform \n    yuv += offset;\n    rgb.r = dot(yuv, Rcoeff);\n    rgb.g = dot(yuv, Gcoeff);\n    rgb.b = dot(yuv, Bcoeff);\n\n    // That was easy. :) \n    gl_FragColor = vec4(rgb, 1.0) * v_color;\n}
+varying vec4 v_color;\nvarying vec2 v_texCoord;\nuniform sampler2D tex0;\n\nvoid main()\n{\n    gl_FragColor = texture2D(tex0, v_texCoord) * v_color;\n}
+waveInClose
+waveInGetDevCapsW
+waveInGetNumDevs
+waveInOpen
+waveOutClose
+waveOutGetDevCapsW
+waveOutGetErrorTextW
+waveOutGetNumDevs
+waveOutOpen
+waveOutOpen()
+waveOutPrepareHeader
+waveOutPrepareHeader()
+waveOutUnprepareHeader
+waveOutWrite
+wglChoosePixelFormatARB
+wglCreateContext
+wglCreateContextAttribsARB
+wglDeleteContext
+wglGetExtensionsStringARB
+wglGetPixelFormatAttribivARB
+wglGetProcAddress
+wglGetSwapIntervalEXT
+wglMakeCurrent
+wglMakeCurrent()
+wglShareLists
+wglSwapIntervalEXT
+wglSwapIntervalEXT()
+width
+windows
+windows_file_seek
+windows_file_seek: Unknown value for 'whence'
+windows_file_seek: invalid context/file not opened
+windows_file_size
+windows_file_size: invalid context/file not opened
+winmm
+xaudio2
+xinput
+xinput,XInput Controller,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b10,leftshoulder:b4,leftstick:b8,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,

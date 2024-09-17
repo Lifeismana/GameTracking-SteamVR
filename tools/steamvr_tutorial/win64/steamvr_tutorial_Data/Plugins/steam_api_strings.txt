@@ -1,859 +1,149 @@
-@[L;
-X[L;
-X[L;
-p[L;
-LoL;
-@\fG;
-@\fG;
-@\fG;
-@\fG;
-@\fG;
-@\fG;
-@\fG;
-@\fG;
-@\fG;
-@\fG;
                           
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-0RM;
-@XM;
-4TM;
- >M;
-$>M;
-(>M;
-,>M;
-4>M;
-<>M;
-D>M;
-L>M;
-T>M;
-\>M;
-d>M;
-l>M;
-t>M;
-x>M;
-|>M;
-0RM;
-2TM;
-kU'9
-HMXB
-?q=\n
-?Zd;
-?/L[
-S;uD
-z?aUY
-D?$?
-U>c{
-zc%C1
-.:3q
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ Data: <%s> %s\n
+ Type Descriptor'
+ delete
+ delete[]
+ new
+ throw(
+ volatile
+#File Error#(%d) : 
+%02d:%02d:%02d
+%04d%02d%02d%02d%02d%02d
+%Id bytes in %Id %hs Blocks.\n
+%hs located at 0x%p is %Iu bytes long.\n
+%hs located at 0x%p is %Iu bytes long.\n\nMemory allocated at %hs(%d).\n
+%llu
+%s(%d) : %s
+( 8PX
+('8PW
+(null)
+, Line 
+,<ellipsis>
 -64OS
-NKeb
-.?AVCCallbackBase@@
-.?AV?$CCallResult@VCRemoteStorageFileReadAsyncComplete_t_result@@URemoteStorageFileReadAsyncComplete_t@@@@
-.?AV?$CCallResult@VCRemoteStorageGetPublishedItemVoteDetailsResult_t_result@@URemoteStorageGetPublishedItemVoteDetailsResult_t@@@@
-.?AV?$CCallResult@VCGSStatsStored_t_result@@UGSStatsStored_t@@@@
-.?AV?$CCallResult@VCHTML_BrowserReady_t_result@@UHTML_BrowserReady_t@@@@
+.?AV?$CCallResult@VCAssociateWithClanResult_t_result@@UAssociateWithClanResult_t@@@@
+.?AV?$CCallResult@VCCheckFileSignature_t_result@@UCheckFileSignature_t@@@@
+.?AV?$CCallResult@VCClanOfficerListResponse_t_result@@UClanOfficerListResponse_t@@@@
+.?AV?$CCallResult@VCComputeNewPlayerCompatibilityResult_t_result@@UComputeNewPlayerCompatibilityResult_t@@@@
+.?AV?$CCallResult@VCCreateItemResult_t_result@@UCreateItemResult_t@@@@
+.?AV?$CCallResult@VCEncryptedAppTicketResponse_t_result@@UEncryptedAppTicketResponse_t@@@@
+.?AV?$CCallResult@VCFriendsEnumerateFollowingList_t_result@@UFriendsEnumerateFollowingList_t@@@@
 .?AV?$CCallResult@VCFriendsGetFollowerCount_t_result@@UFriendsGetFollowerCount_t@@@@
 .?AV?$CCallResult@VCFriendsIsFollowing_t_result@@UFriendsIsFollowing_t@@@@
-.?AV?$CCallResult@VCLobbyMatchList_t_result@@ULobbyMatchList_t@@@@
-.?AV?$CCallResult@VCRemoteStorageUpdatePublishedFileResult_t_result@@URemoteStorageUpdatePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCStoreAuthURLResponse_t_result@@UStoreAuthURLResponse_t@@@@
-.?AV?$CCallResult@VCLobbyCreated_t_result@@ULobbyCreated_t@@@@
-.?AV?$CCallResult@VCRemoteStorageFileWriteAsyncComplete_t_result@@URemoteStorageFileWriteAsyncComplete_t@@@@
-.?AV?$CCallResult@VCRemoteStorageDeletePublishedFileResult_t_result@@URemoteStorageDeletePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageGetPublishedFileDetailsResult_t_result@@URemoteStorageGetPublishedFileDetailsResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageDownloadUGCResult_t_result@@URemoteStorageDownloadUGCResult_t@@@@
-.?AV?$CCallResult@VCSteamUGCQueryCompleted_t_result@@USteamUGCQueryCompleted_t@@@@
-.?AV?$CCallResult@VCRemoteStorageFileShareResult_t_result@@URemoteStorageFileShareResult_t@@@@
-.?AV?$CCallResult@VCLobbyEnter_t_result@@ULobbyEnter_t@@@@
-.?AV?$CCallResult@VCSubmitItemUpdateResult_t_result@@USubmitItemUpdateResult_t@@@@
-.?AV?$CCallResult@VCNumberOfCurrentPlayers_t_result@@UNumberOfCurrentPlayers_t@@@@
+.?AV?$CCallResult@VCGSReputation_t_result@@UGSReputation_t@@@@
 .?AV?$CCallResult@VCGSStatsReceived_t_result@@UGSStatsReceived_t@@@@
-.?AV?$CCallResult@VCLeaderboardScoresDownloaded_t_result@@ULeaderboardScoresDownloaded_t@@@@
-.?AV?$CCallResult@VCRemoteStorageUpdateUserPublishedItemVoteResult_t_result@@URemoteStorageUpdateUserPublishedItemVoteResult_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumerateUserSubscribedFilesResult_t_result@@URemoteStorageEnumerateUserSubscribedFilesResult_t@@@@
-.?AV?$CCallResult@VCCreateItemResult_t_result@@UCreateItemResult_t@@@@
-.?AV?$CCallResult@VCSetUserItemVoteResult_t_result@@USetUserItemVoteResult_t@@@@
-.?AV?$CCallResult@VCComputeNewPlayerCompatibilityResult_t_result@@UComputeNewPlayerCompatibilityResult_t@@@@
-.?AV?$CCallResult@VCLeaderboardScoreUploaded_t_result@@ULeaderboardScoreUploaded_t@@@@
+.?AV?$CCallResult@VCGSStatsStored_t_result@@UGSStatsStored_t@@@@
+.?AV?$CCallResult@VCGetUserItemVoteResult_t_result@@UGetUserItemVoteResult_t@@@@
 .?AV?$CCallResult@VCGlobalAchievementPercentagesReady_t_result@@UGlobalAchievementPercentagesReady_t@@@@
 .?AV?$CCallResult@VCGlobalStatsReceived_t_result@@UGlobalStatsReceived_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumeratePublishedFilesByUserActionResult_t_result@@URemoteStorageEnumeratePublishedFilesByUserActionResult_t@@@@
-.?AV?$CCallResult@VCClanOfficerListResponse_t_result@@UClanOfficerListResponse_t@@@@
-.?AV?$CCallResult@VCRemoteStoragePublishFileProgress_t_result@@URemoteStoragePublishFileProgress_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumerateWorkshopFilesResult_t_result@@URemoteStorageEnumerateWorkshopFilesResult_t@@@@
-.?AV?$CCallResult@VCGSReputation_t_result@@UGSReputation_t@@@@
-.?AV?$CCallResult@VCUserFavoriteItemsListChanged_t_result@@UUserFavoriteItemsListChanged_t@@@@
-.?AV?$CCallResult@VCEncryptedAppTicketResponse_t_result@@UEncryptedAppTicketResponse_t@@@@
-.?AV?$CCallResult@VCRemoteStorageEnumerateUserPublishedFilesResult_t_result@@URemoteStorageEnumerateUserPublishedFilesResult_t@@@@
-.?AV?$CCallResult@VCFriendsEnumerateFollowingList_t_result@@UFriendsEnumerateFollowingList_t@@@@
-.?AV?$CCallResult@VCRemoteStorageSubscribePublishedFileResult_t_result@@URemoteStorageSubscribePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCGetUserItemVoteResult_t_result@@UGetUserItemVoteResult_t@@@@
-.?AV?$CCallResult@VCAssociateWithClanResult_t_result@@UAssociateWithClanResult_t@@@@
-.?AV?$CCallResult@VCLeaderboardUGCSet_t_result@@ULeaderboardUGCSet_t@@@@
-.?AV?$CCallResult@VCCheckFileSignature_t_result@@UCheckFileSignature_t@@@@
-.?AV?$CCallResult@VCRemoteStorageUnsubscribePublishedFileResult_t_result@@URemoteStorageUnsubscribePublishedFileResult_t@@@@
-.?AV?$CCallResult@VCSetPersonaNameResponse_t_result@@USetPersonaNameResponse_t@@@@
-.?AV?$CCallResult@VCUserStatsReceived_t_result@@UUserStatsReceived_t@@@@
+.?AV?$CCallResult@VCHTML_BrowserReady_t_result@@UHTML_BrowserReady_t@@@@
 .?AV?$CCallResult@VCJoinClanChatRoomCompletionResult_t_result@@UJoinClanChatRoomCompletionResult_t@@@@
 .?AV?$CCallResult@VCLeaderboardFindResult_t_result@@ULeaderboardFindResult_t@@@@
-.?AV?$CCallbackManual@VCUserStatsReceived_t@@UUserStatsReceived_t@@$0A@@@
-.?AV?$CCallback@VCUserStatsReceived_t@@UUserStatsReceived_t@@$0A@@@
-.?AV?$CCallbackImpl@$0BI@@@
-.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
-.?AV?$CCallbackImpl@$07@@
+.?AV?$CCallResult@VCLeaderboardScoreUploaded_t_result@@ULeaderboardScoreUploaded_t@@@@
+.?AV?$CCallResult@VCLeaderboardScoresDownloaded_t_result@@ULeaderboardScoresDownloaded_t@@@@
+.?AV?$CCallResult@VCLeaderboardUGCSet_t_result@@ULeaderboardUGCSet_t@@@@
+.?AV?$CCallResult@VCLobbyCreated_t_result@@ULobbyCreated_t@@@@
+.?AV?$CCallResult@VCLobbyEnter_t_result@@ULobbyEnter_t@@@@
+.?AV?$CCallResult@VCLobbyMatchList_t_result@@ULobbyMatchList_t@@@@
+.?AV?$CCallResult@VCNumberOfCurrentPlayers_t_result@@UNumberOfCurrentPlayers_t@@@@
+.?AV?$CCallResult@VCRemoteStorageDeletePublishedFileResult_t_result@@URemoteStorageDeletePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageDownloadUGCResult_t_result@@URemoteStorageDownloadUGCResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumeratePublishedFilesByUserActionResult_t_result@@URemoteStorageEnumeratePublishedFilesByUserActionResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumerateUserPublishedFilesResult_t_result@@URemoteStorageEnumerateUserPublishedFilesResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumerateUserSubscribedFilesResult_t_result@@URemoteStorageEnumerateUserSubscribedFilesResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageEnumerateWorkshopFilesResult_t_result@@URemoteStorageEnumerateWorkshopFilesResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageFileReadAsyncComplete_t_result@@URemoteStorageFileReadAsyncComplete_t@@@@
+.?AV?$CCallResult@VCRemoteStorageFileShareResult_t_result@@URemoteStorageFileShareResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageFileWriteAsyncComplete_t_result@@URemoteStorageFileWriteAsyncComplete_t@@@@
+.?AV?$CCallResult@VCRemoteStorageGetPublishedFileDetailsResult_t_result@@URemoteStorageGetPublishedFileDetailsResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageGetPublishedItemVoteDetailsResult_t_result@@URemoteStorageGetPublishedItemVoteDetailsResult_t@@@@
+.?AV?$CCallResult@VCRemoteStoragePublishFileProgress_t_result@@URemoteStoragePublishFileProgress_t@@@@
+.?AV?$CCallResult@VCRemoteStorageSubscribePublishedFileResult_t_result@@URemoteStorageSubscribePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageUnsubscribePublishedFileResult_t_result@@URemoteStorageUnsubscribePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageUpdatePublishedFileResult_t_result@@URemoteStorageUpdatePublishedFileResult_t@@@@
+.?AV?$CCallResult@VCRemoteStorageUpdateUserPublishedItemVoteResult_t_result@@URemoteStorageUpdateUserPublishedItemVoteResult_t@@@@
+.?AV?$CCallResult@VCSetPersonaNameResponse_t_result@@USetPersonaNameResponse_t@@@@
+.?AV?$CCallResult@VCSetUserItemVoteResult_t_result@@USetUserItemVoteResult_t@@@@
+.?AV?$CCallResult@VCSteamUGCQueryCompleted_t_result@@USteamUGCQueryCompleted_t@@@@
+.?AV?$CCallResult@VCStoreAuthURLResponse_t_result@@UStoreAuthURLResponse_t@@@@
+.?AV?$CCallResult@VCSubmitItemUpdateResult_t_result@@USubmitItemUpdateResult_t@@@@
+.?AV?$CCallResult@VCUserFavoriteItemsListChanged_t_result@@UUserFavoriteItemsListChanged_t@@@@
+.?AV?$CCallResult@VCUserStatsReceived_t_result@@UUserStatsReceived_t@@@@
 .?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
-.?AVbad_alloc@std@@
-.?AVexception@std@@
-.?AVtype_info@@
-.?AVbad_cast@std@@
-.?AVbad_typeid@std@@
-.?AV__non_rtti_object@std@@
-.?AVbad_exception@std@@
+.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
+.?AV?$CCallback@VCUserStatsReceived_t@@UUserStatsReceived_t@@$0A@@@
+.?AV?$CCallbackImpl@$07@@
+.?AV?$CCallbackImpl@$0BI@@@
+.?AV?$CCallbackManual@VCUserStatsReceived_t@@UUserStatsReceived_t@@$0A@@@
+.?AVCCallbackBase@@
 .?AVDNameNode@@
-.?AVcharNode@@
-.?AVpcharNode@@
-.?AVpDNameNode@@
 .?AVDNameStatusNode@@
-.?AVpairNode@@
-.?AVinvalid_argument@std@@
-.?AVlogic_error@std@@
-.?AVlength_error@std@@
-.?AVout_of_range@std@@
-.?AVoverflow_error@std@@
-.?AVruntime_error@std@@
-.?AVbad_function_call@std@@
-.?AVregex_error@std@@
-.?AVerror_category@std@@
 .?AV_Generic_error_category@std@@
 .?AV_Iostream_error_category@std@@
 .?AV_System_error_category@std@@
- X@;
-0W@;
-`W@;
-`Y@;
-PX@;
- Y@;
-@Y@;
-pZ@;
- ,@;
-#$@;
-F$@;
-\r0@;
-}3@;
-!0@;
-w/@;
-l0@;
-@*@;
-, @;
--.@;
-\'@;
-$2@;
-a'@;
-f,@;
-{0@;
-,%@;
-u"@;
-:+@;
- 1@;
-I&@;
-"%@;
-:!@;
-*1@;
-9"@;
-`#@;
-`#@;
-h%@;
-`#@;
-Steam_BGetCallback
-Steam_FreeLastCallback
-Steam_GetAPICallResult
-Standard C++ Libraries Invalid Argument
-Standard C++ Libraries Out of Range
-list<T> too long
-map/set<T> too long
-steamclient.dll
-steamclient64.dll
-steam2.dll
-steamui.dll
-steamconsole64.dll
-gameoverlayrenderer64.dll
-win64\audio.dll
-SteamUser018
-SteamFriends015
-SteamUtils007
-SteamMatchMaking009
-SteamMatchMakingServers002
-STEAMUSERSTATS_INTERFACE_VERSION011
-STEAMAPPS_INTERFACE_VERSION007
-SteamNetworking005
-STEAMREMOTESTORAGE_INTERFACE_VERSION013
-STEAMSCREENSHOTS_INTERFACE_VERSION002
-STEAMHTTP_INTERFACE_VERSION002
-STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
-SteamController003
-STEAMUGC_INTERFACE_VERSION007
-STEAMAPPLIST_INTERFACE_VERSION001
-STEAMMUSIC_INTERFACE_VERSION001
-STEAMMUSICREMOTE_INTERFACE_VERSION001
-STEAMHTMLSURFACE_INTERFACE_VERSION_003
-STEAMINVENTORY_INTERFACE_V001
-STEAMVIDEO_INTERFACE_V001
-%s%c%s
-0123456789ABCDEF
-CreateInterface
-UpdateDLLWrapper.dll
-Init
-HKEY_LOCAL_MACHINE
-HKLM
-HKEY_CURRENT_USER
-HKCU
-HKEY_CLASSES_ROOT
-HKCR
-SteamClientDll64
-Software\Valve\Steam\ActiveProcess
-[S_API FAIL] SteamAPI_Init() failed; Sys_LoadModule failed to load: %s\n
-[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.\n
-[S_API FAIL] SteamAPI_Init() failed; unable to locate a running instance of Steam, or a local %s.\n
-[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.\n
-SteamClient017
-[S_API FAIL] SteamAPI_Init() failed; no appID found.\nEither launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.\n
-SteamAppId
-SteamGameId
-%llu
-steam_appid.txt
-steam://run/%u
-steam://run/%u//%s
-InstallPath
-Software\Valve\Steam
-\steam.exe
-%s\%s
-Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
-Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
-Looking up breakpad interfaces from steamclient\n
-Breakpad_SteamWriteMiniDumpUsingExceptionInfoWithBuildId
-Breakpad_SteamWriteMiniDumpSetComment
-Breakpad_SteamSetSteamID
-Breakpad_SteamSetAppID
-Breakpad_SteamMiniDumpInit
-Calling BreakpadMiniDumpSystemInit\n
-Setting breakpad minidump AppID = %u\n
-Forcing breakpad minidump interfaces to load\n
-Using breakpad crash handler\n
-%02d:%02d:%02d
-%04d%02d%02d%02d%02d%02d
-SteamClientDll
-SteamGameServer012
-SteamGameServerStats001
-H\tN;
-P0C;
-bad allocation
-p?C;
-f:\dd\vctools\crt\crtw32\misc\onexit.c
-_hypot
-8hL;
-HhL;
-XhL;
-f:\dd\vctools\crt\crtw32\misc\dbgrpt.c
-f:\dd\vctools\crt\crtw32\stdio\_file.c
-f:\dd\vctools\crt\crtw32\startup\dllcrt0.c
-f:\dd\vctools\crt\crtw32\misc\inithelp.c
-@\nN;
-Unknown exception
-h\nN;
-h\vN;
-f:\dd\vctools\crt\crtw32\startup\mlock.c
-Free
-Normal
-Ignore
-Client
-Client hook allocation failure at file %hs line %d.\n
-Client hook allocation failure.\n
-Invalid allocation size: %Iu bytes.\n
-Error: memory allocation: bad memory block type.\n
-Client hook re-allocation failure at file %hs line %d.\n
-Client hook re-allocation failure.\n
-Invalid allocation size: %Iu bytes.\n\nMemory allocated at %hs(%d).\n
-Error: memory allocation: bad memory block type.\n\nMemory allocated at %hs(%d).\n
-The Block at 0x%p was allocated by aligned routines, use _aligned_realloc()
-Error: possible heap corruption at or near 0x%p
-The Block at 0x%p was allocated by aligned routines, use _aligned_free()
-Client hook free failure.\n
-HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory before start of heap buffer.\n\nMemory allocated at %hs(%d).\n
-HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory before start of heap buffer.\n
-HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n\nMemory allocated at %hs(%d).\n
-HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n
-_heapchk fails with _HEAPBADBEGIN.\n
-_heapchk fails with _HEAPBADNODE.\n
-_heapchk fails with _HEAPBADEND.\n
-_heapchk fails with _HEAPBADPTR.\n
-_heapchk fails with unknown return value!\n
-DAMAGED
-HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n\nMemory allocated at %hs(%d).\n
-HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n
-%hs located at 0x%p is %Iu bytes long.\n\nMemory allocated at %hs(%d).\n
-%hs located at 0x%p is %Iu bytes long.\n
-Bad memory block found at 0x%p.\n\nMemory allocated at %hs(%d).\n
-Bad memory block found at 0x%p.\n
-%.2X 
- Data: <%s> %s\n
-Dumping objects ->\n
-#File Error#(%d) : 
-%hs(%d) : 
-{%ld} 
-client block at 0x%p, subtype %x, %Iu bytes long.\n
-normal block at 0x%p, %Iu bytes long.\n
-crt block at 0x%p, subtype %x, %Iu bytes long.\n
-Object dump complete.\n
-Detected memory leaks!\n
-%Id bytes in %Id %hs Blocks.\n
-Largest number used: %Id bytes.\n
-Total allocations: %Id bytes.\n
-The block at 0x%p was not allocated by _aligned routines, use realloc()
-Damage before 0x%p which was allocated by aligned routine\n
-The block at 0x%p was not allocated by _aligned routines, use free()
-f:\dd\vctools\crt\crtw32\startup\tidtable.c
-P\fD;
-bad exception
-e+000
-CorExitProcess
-f:\dd\vctools\crt\crtw32\startup\crt0dat.c
-FlsAlloc
-FlsFree
-FlsGetValue
-FlsSetValue
-InitializeCriticalSectionEx
-CreateEventExW
-CreateSemaphoreExW
-SetThreadStackGuarantee
-CreateThreadpoolTimer
-SetThreadpoolTimer
-WaitForThreadpoolTimerCallbacks
-CloseThreadpoolTimer
-CreateThreadpoolWait
-SetThreadpoolWait
-CloseThreadpoolWait
-FlushProcessWriteBuffers
-FreeLibraryWhenCallbackReturns
-GetCurrentProcessorNumber
-GetLogicalProcessorInformation
-CreateSymbolicLinkW
-SetDefaultDllDirectories
-EnumSystemLocalesEx
-CompareStringEx
-GetDateFormatEx
-GetLocaleInfoEx
-GetTimeFormatEx
-GetUserDefaultLocaleName
-IsValidLocaleName
-LCMapStringEx
-GetCurrentPackageId
-GetTickCount64
-GetFileInformationByHandleExW
-SetFileInformationByHandleW
-f:\dd\vctools\crt\crtw32\misc\winsig.c
-MessageBoxW
-GetActiveWindow
-GetLastActivePopup
-GetUserObjectInformationW
-GetProcessWindowStation
-Second Chance Assertion Failed: File 
-<file unknown>
-, Line 
-_CrtDbgReport: String too long or IO Error
-Assertion failed: 
-Assertion failed!
-%s(%d) : %s
-_CrtDbgReport: String too long or Invalid characters in String
-f:\dd\vctools\crt\crtw32\stdio\setvbuf.c
-f:\dd\vctools\crt\crtw32\mbstring\mbctype.c
-Sunday
-Monday
-Tuesday
-Wednesday
-Thursday
-Friday
-Saturday
-January
-February
-March
-April
-June
-July
-August
-September
-October
-November
-December
-MM/dd/yy
-dddd, MMMM dd, yyyy
-HH:mm:ss
-@7H;
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-f:\dd\vctools\crt\crtw32\misc\wsetloca.c
-f:\dd\vctools\crt\crtw32\lowio\ioinit.c
-f:\dd\vctools\crt\crtw32\stdio\stream.c
-UTF-8
-UTF-16LE
-UNICODE
-f:\dd\vctools\crt\crtw32\stdio\_sftbuf.c
-(null)
-( 8PX
-700WP
-`h````
-xpxxxx
-f:\dd\vctools\crt\crtw32\stdio\output.c
-f:\dd\vctools\crt\crtw32\stdio\input.c
-f:\dd\vctools\crt\crtw32\startup\stdargv.c
-f:\dd\vctools\crt\crtw32\startup\stdenvp.c
-f:\dd\vctools\crt\crtw32\misc\a_env.c
-  M;
-0 M;
-@ M;
-P M;
-` M;
-p M;
- !M;
-0!M;
-@!M;
-P!M;
-`!M;
-p!M;
- "M;
-0"M;
-@"M;
-P"M;
-`"M;
-p"M;
- #M;
-0#M;
-@#M;
-P#M;
-`#M;
-p#M;
- $M;
-0$M;
-@$M;
-P$M;
-`$M;
-p$M;
- %M;
-0%M;
-@%M;
-P%M;
-`%M;
-p%M;
-(&M;
-@&M;
-P&M;
-`&M;
-p&M;
-0'M;
-@'M;
-P'M;
-`'M;
-p'M;
-8hL;
-HhL;
-XhL;
-<program name unknown>
-8/M;
-H/M;
-P/M;
-`/M;
-p/M;
-\f0M;
- 0M;
-,0M;
+.?AV__non_rtti_object@std@@
+.?AVbad_alloc@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVbad_function_call@std@@
+.?AVbad_typeid@std@@
+.?AVcharNode@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVinvalid_argument@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVoverflow_error@std@@
+.?AVpDNameNode@@
+.?AVpairNode@@
+.?AVpcharNode@@
+.?AVregex_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
 00M;
-40M;
-80M;
-<0M;
-@0M;
-D0M;
-H0M;
-L0M;
-P0M;
-T0M;
-X0M;
-\0M;
-`0M;
-d0M;
-h0M;
-l0M;
-p0M;
-t0M;
-x0M;
-|0M;
- 1M;
-@1M;
-`1M;
+0123456789ABCDEF
 02M;
-P2M;
-x2M;
-83M;
-X3M;
- 4M;
-H4M;
-p4M;
-(5M;
-@5M;
-`5M;
-__based(
-__cdecl
-__pascal
-__stdcall
-__thiscall
-__fastcall
-__vectorcall
-__clrcall
-__eabi
-__ptr64
-__restrict
-__unaligned
-restrict(
- new
- delete
-operator
-`vftable'
-`vbtable'
-`vcall'
-`typeof'
-`local static guard'
-`string'
-`vbase destructor'
-`vector deleting destructor'
-`default constructor closure'
-`scalar deleting destructor'
-`vector constructor iterator'
-`vector destructor iterator'
-`vector vbase constructor iterator'
-`virtual displacement map'
-`eh vector constructor iterator'
-`eh vector destructor iterator'
-`eh vector vbase constructor iterator'
-`copy constructor closure'
-`udt returning'
-`RTTI
-`local vftable'
-`local vftable constructor closure'
- new[]
- delete[]
-`omni callsig'
-`placement delete closure'
-`placement delete[] closure'
-`managed vector constructor iterator'
-`managed vector destructor iterator'
-`eh vector copy constructor iterator'
-`eh vector vbase copy constructor iterator'
-`dynamic initializer for '
-`dynamic atexit destructor for '
-`vector copy constructor iterator'
-`vector vbase copy constructor iterator'
-`managed vector copy constructor iterator'
-`local static thread guard'
- Type Descriptor'
- Base Class Descriptor at (
- Base Class Array'
- Class Hierarchy Descriptor'
- Complete Object Locator'
-CV: 
-template-parameter-
-generic-type-
-`anonymous namespace'
-`non-type-template-parameter
-void
-`template-parameter
-NULL
-`vtordispex{
-`vtordisp{
-`adjustor{
-`local static destructor helper'
-`template static data member constructor helper'
-`template static data member destructor helper'
-static 
-virtual 
-private: 
-protected: 
-public: 
-[thunk]:
-extern "C" 
-char 
-short 
-int 
-long 
-unsigned 
-void 
-volatile
-std::nullptr_t
-<ellipsis>
-,...
-,<ellipsis>
- throw(
-char
-short
-long
-float
-double
-bool
-__int8
-__int16
-__int32
-__int64
-__int128
-<unknown>
-wchar_t
-__w64 
-UNKNOWN
-signed 
-const
- volatile
-`unknown ecsu'
-union 
-struct 
-class 
-coclass 
-cointerface 
-enum 
-volatile 
-const 
-cli::array<
-cli::pin_ptr<
-{flat}
-{for 
-p\fN;
-h\rN;
- ?? 
-SystemFunction036
-log10
-sinh
-cosh
-tanh
-asin
-acos
-atan
-atan2
-sqrt
-ceil
-floor
-fabs
-modf
-ldexp
-_cabs
-fmod
-frexp
-_logb
-_nextafter
-f:\dd\vctools\crt\crtw32\misc\initmon.c
-f:\dd\vctools\crt\crtw32\misc\initnum.c
-f:\dd\vctools\crt\crtw32\misc\inittime.c
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-f:\dd\vctools\crt\crtw32\misc\initctyp.c
-(^M;
-P^M;
-x^M;
-(_M;
-P_M;
-x_M;
-8`M;
-P`M;
-p`M;
- aM;
-8aM;
-XaM;
-xaM;
+0RM;
 0bM;
-PbM;
-pbM;
-(cM;
-PcM;
-pcM;
-8dM;
-`dM;
-8eM;
-`eM;
-(fM;
- hM;
-8hM;
-PhM;
-XhM;
-phM;
- iM;
-HiM;
-hiM;
-f:\dd\vctools\crt\crtw32\lowio\osfinfo.c
-f:\dd\vctools\crt\crtw32\lowio\read.c
-f:\dd\vctools\crt\crtw32\stdio\_getbuf.c
-('8PW
-700PP
-`h`hhh
-xppwpp
-1#SNAN
 1#IND
 1#INF
 1#QNAN
-CreateFile2
-f:\dd\vctools\crt\crtw32\convert\wcstoq.c
-alnum
-alpha
-blank
-cntrl
-digit
-graph
-lower
-print
-punct
-space
-upper
-xdigit
-bad function call
-generic
-unknown error
-iostream
-iostream stream error
-system
-regex_error(error_collate): The expression contained an invalid collating element name.
-regex_error(error_ctype): The expression contained an invalid character class name.
-regex_error(error_escape): The expression contained an invalid escaped character, or a trailing escape.
-regex_error(error_backref): The expression contained an invalid back reference.
-regex_error(error_brack): The expression contained mismatched [ and ].
-regex_error(error_paren): The expression contained mismatched ( and ).
-regex_error(error_brace): The expression contained mismatched { and }.
-regex_error(error_badbrace): The expression contained an invalid range in a { expression }.
-regex_error(error_range): The expression contained an invalid character range, such as [b-a] in most encodings.
-regex_error(error_space): There was insufficient memory to convert the expression into a finite state machine.
-regex_error(error_badrepeat): One of *?+{ was not preceded by a valid regular expression.
-regex_error(error_complexity): The complexity of an attempted match against a regular expression exceeded a pre-set level.
-regex_error(error_stack): There was insufficient memory to determine whether the regular expression could match the specified character sequence.
-regex_error(error_parse)
-regex_error(error_syntax)
-regex_error
-string too long
-invalid string position
-permission denied
-file exists
-no such device
-filename too long
-device or resource busy
-io error
-directory not empty
-invalid argument
-no space on device
-no such file or directory
-function not supported
-no lock available
-not enough memory
-resource unavailable try again
-cross device link
-operation canceled
-too many files open
-permission_denied
-address_in_use
-address_not_available
-address_family_not_supported
-connection_already_in_progress
-bad_file_descriptor
-connection_aborted
-connection_refused
-connection_reset
-destination_address_required
-bad_address
-host_unreachable
-operation_in_progress
-interrupted
-invalid_argument
-already_connected
-too_many_files_open
-message_size
-filename_too_long
-network_down
-network_reset
-network_unreachable
-no_buffer_space
-no_protocol_option
-not_connected
-not_a_socket
-operation_not_supported
-protocol_not_supported
-wrong_protocol_type
-timed_out
-operation_would_block
-address family not supported
-address in use
-address not available
-already connected
-argument list too long
-argument out of domain
-bad address
-bad file descriptor
-bad message
-broken pipe
-connection aborted
-connection already in progress
-connection refused
-connection reset
-destination address required
-executable format error
-file too large
-host unreachable
-identifier removed
-illegal byte sequence
-inappropriate io control operation
-invalid seek
-is a directory
-message size
-network down
-network reset
-network unreachable
-no buffer space
-no child process
-no link
-no message available
-no message
-no protocol option
-no stream resources
-no such device or address
-no such process
-not a directory
-not a socket
-not a stream
-not connected
-not supported
-operation in progress
-operation not permitted
-operation not supported
-operation would block
-owner dead
-protocol error
-protocol not supported
-read only file system
-resource deadlock would occur
-result out of range
-state not recoverable
-stream timeout
-text file busy
-timed out
-too many files open in system
-too many links
-too many symbolic link levels
-value too large
-wrong protocol type
-RSDS
-F:\full\Steam\main\src\steam_api\win64\Debug\steam_api64.pdb
-\fp\v`
-B\fp\v`
-B\fp\v`
-\fp\v`
-\fp\v`
-steam_api64.dll
+1#SNAN
+2TM;
+40M;
+4TM;
+700PP
+700WP
+80M;
+83M;
+8aM;
+8dM;
+8eM;
+8hL;
+8hM;
+<ellipsis>
+<file unknown>
+<program name unknown>
+<unknown>
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+April
+Assertion failed!
+Assertion failed: 
+August
+Bad memory block found at 0x%p.\n
+Bad memory block found at 0x%p.\n\nMemory allocated at %hs(%d).\n
+Breakpad_SteamMiniDumpInit
+Breakpad_SteamSetAppID
+Breakpad_SteamSetSteamID
+Breakpad_SteamWriteMiniDumpSetComment
+Breakpad_SteamWriteMiniDumpUsingExceptionInfoWithBuildId
 CAssociateWithClanResult_t_RemoveCallResult
 CAssociateWithClanResult_t_SetCallResult
 CCheckFileSignature_t_RemoveCallResult
@@ -952,8 +242,137 @@ CUserStatsReceived_t_RemoveCallResult
 CUserStatsReceived_t_RemoveCallback
 CUserStatsReceived_t_SetCallResult
 CUserStatsReceived_t_SetCallback
+Calling BreakpadMiniDumpSystemInit\n
+Client
+Client hook allocation failure at file %hs line %d.\n
+Client hook allocation failure.\n
+Client hook free failure.\n
+Client hook re-allocation failure at file %hs line %d.\n
+Client hook re-allocation failure.\n
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CompareStringEx
+CorExitProcess
+CreateEventExW
+CreateFile2
+CreateInterface
+CreateSemaphoreExW
+CreateSymbolicLinkW
+CreateThreadpoolTimer
+CreateThreadpoolWait
+D0M;
+DAMAGED
+Damage before 0x%p which was allocated by aligned routine\n
+December
+Detected memory leaks!\n
+Dumping objects ->\n
+EnumSystemLocalesEx
+Error: memory allocation: bad memory block type.\n
+Error: memory allocation: bad memory block type.\n\nMemory allocated at %hs(%d).\n
+Error: possible heap corruption at or near 0x%p
+F:\full\Steam\main\src\steam_api\win64\Debug\steam_api64.pdb
+February
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushProcessWriteBuffers
+Forcing breakpad minidump interfaces to load\n
+Free
+FreeLibraryWhenCallbackReturns
+Friday
+GetActiveWindow
+GetCurrentPackageId
+GetCurrentProcessorNumber
+GetDateFormatEx
+GetFileInformationByHandleExW
 GetHSteamPipe
 GetHSteamUser
+GetLastActivePopup
+GetLocaleInfoEx
+GetLogicalProcessorInformation
+GetProcessWindowStation
+GetTickCount64
+GetTimeFormatEx
+GetUserDefaultLocaleName
+GetUserObjectInformationW
+H0M;
+H4M;
+HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n
+HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n\nMemory allocated at %hs(%d).\n
+HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory before start of heap buffer.\n
+HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory before start of heap buffer.\n\nMemory allocated at %hs(%d).\n
+HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n
+HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n\nMemory allocated at %hs(%d).\n
+HH:mm:ss
+HKCR
+HKCU
+HKEY_CLASSES_ROOT
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHINE
+HKLM
+HMXB
+HhL;
+HiM;
+Ignore
+Init
+InitializeCriticalSectionEx
+InstallPath
+Invalid allocation size: %Iu bytes.\n
+Invalid allocation size: %Iu bytes.\n\nMemory allocated at %hs(%d).\n
+IsValidLocaleName
+January
+July
+June
+L0M;
+LCMapStringEx
+Largest number used: %Id bytes.\n
+LoL;
+Looking up breakpad interfaces from steamclient\n
+MM/dd/yy
+March
+MessageBoxW
+Monday
+NKeb
+NULL
+Normal
+November
+Object dump complete.\n
+October
+P0C;
+P0M;
+P2M;
+PbM;
+PcM;
+PhM;
+RSDS
+S;uD
+STEAMAPPLIST_INTERFACE_VERSION001
+STEAMAPPS_INTERFACE_VERSION007
+STEAMHTMLSURFACE_INTERFACE_VERSION_003
+STEAMHTTP_INTERFACE_VERSION002
+STEAMINVENTORY_INTERFACE_V001
+STEAMMUSICREMOTE_INTERFACE_VERSION001
+STEAMMUSIC_INTERFACE_VERSION001
+STEAMREMOTESTORAGE_INTERFACE_VERSION013
+STEAMSCREENSHOTS_INTERFACE_VERSION002
+STEAMUGC_INTERFACE_VERSION007
+STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
+STEAMUSERSTATS_INTERFACE_VERSION011
+STEAMVIDEO_INTERFACE_V001
+Saturday
+Second Chance Assertion Failed: File 
+September
+SetDefaultDllDirectories
+SetFileInformationByHandleW
+SetThreadStackGuarantee
+SetThreadpoolTimer
+SetThreadpoolWait
+Setting breakpad minidump AppID = %u\n
+Software\Valve\Steam
+Software\Valve\Steam\ActiveProcess
+Standard C++ Libraries Invalid Argument
+Standard C++ Libraries Out of Range
 SteamAPI_GetHSteamPipe
 SteamAPI_GetHSteamUser
 SteamAPI_GetSteamInstallPath
@@ -1609,17 +1028,26 @@ SteamAPI_UnregisterCallResult
 SteamAPI_UnregisterCallback
 SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
+SteamAppId
 SteamAppList
 SteamApps
 SteamClient
+SteamClient017
+SteamClientDll
+SteamClientDll64
 SteamController
+SteamController003
 SteamFriends
+SteamFriends015
+SteamGameId
 SteamGameServer
+SteamGameServer012
 SteamGameServerApps
 SteamGameServerHTTP
 SteamGameServerInventory
 SteamGameServerNetworking
 SteamGameServerStats
+SteamGameServerStats001
 SteamGameServerUGC
 SteamGameServerUtils
 SteamGameServer_BSecure
@@ -1634,20 +1062,402 @@ SteamGameServer_Shutdown
 SteamHTMLSurface
 SteamHTTP
 SteamInventory
+SteamMatchMaking009
+SteamMatchMakingServers002
 SteamMatchmaking
 SteamMatchmakingServers
 SteamMusic
 SteamMusicRemote
 SteamNetworking
+SteamNetworking005
 SteamRemoteStorage
 SteamScreenshots
 SteamUGC
 SteamUnifiedMessages
 SteamUser
+SteamUser018
 SteamUserStats
 SteamUtils
+SteamUtils007
 SteamVideo
+Steam_BGetCallback
+Steam_FreeLastCallback
+Steam_GetAPICallResult
 Steam_GetHSteamUserCurrent
 Steam_RegisterInterfaceFuncs
 Steam_RunCallbacks
+Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
+Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
+Sunday
+SystemFunction036
+T0M;
+The Block at 0x%p was allocated by aligned routines, use _aligned_free()
+The Block at 0x%p was allocated by aligned routines, use _aligned_realloc()
+The block at 0x%p was not allocated by _aligned routines, use free()
+The block at 0x%p was not allocated by _aligned routines, use realloc()
+Thursday
+Total allocations: %Id bytes.\n
+Tuesday
+UNICODE
+UNKNOWN
+UTF-16LE
+UTF-8
+Unknown exception
+UpdateDLLWrapper.dll
+Using breakpad crash handler\n
+WaitForThreadpoolTimerCallbacks
+Wednesday
+X0M;
+X3M;
+XaM;
+XhL;
+XhM;
+[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.\n
+[S_API FAIL] SteamAPI_Init() failed; Sys_LoadModule failed to load: %s\n
+[S_API FAIL] SteamAPI_Init() failed; no appID found.\nEither launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.\n
+[S_API FAIL] SteamAPI_Init() failed; unable to locate a running instance of Steam, or a local %s.\n
+[S_API FAIL] SteamAPI_Init() failed; unable to locate interface factory in %s.\n
+[thunk]:
+\steam.exe
+_CrtDbgReport: String too long or IO Error
+_CrtDbgReport: String too long or Invalid characters in String
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__int128
+__int16
+__int32
+__int64
+__int8
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_heapchk fails with _HEAPBADBEGIN.\n
+_heapchk fails with _HEAPBADEND.\n
+_heapchk fails with _HEAPBADNODE.\n
+_heapchk fails with _HEAPBADPTR.\n
+_heapchk fails with unknown return value!\n
+_hypot
+_logb
+_nextafter
+`RTTI
+`adjustor{
+`anonymous namespace'
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h`hhh
+`local static destructor helper'
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`non-type-template-parameter
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`template static data member constructor helper'
+`template static data member destructor helper'
+`template-parameter
+`typeof'
+`udt returning'
+`unknown ecsu'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+`vtordispex{
+`vtordisp{
+abcdefghijklmnopqrstuvwxyz
+acos
+address family not supported
+address in use
+address not available
+address_family_not_supported
+address_in_use
+address_not_available
+alnum
+alpha
+already connected
+already_connected
+argument list too long
+argument out of domain
+asin
+atan
+atan2
+bad address
+bad allocation
+bad exception
+bad file descriptor
+bad function call
+bad message
+bad_address
+bad_file_descriptor
+blank
+bool
+broken pipe
+ceil
+char
+char 
+class 
+cli::array<
+cli::pin_ptr<
+client block at 0x%p, subtype %x, %Iu bytes long.\n
+cntrl
+coclass 
+cointerface 
+connection aborted
+connection already in progress
+connection refused
+connection reset
+connection_aborted
+connection_already_in_progress
+connection_refused
+connection_reset
+const
+const 
+cosh
+cross device link
+crt block at 0x%p, subtype %x, %Iu bytes long.\n
+d0M;
+dddd, MMMM dd, yyyy
+destination address required
+destination_address_required
+device or resource busy
+digit
+directory not empty
+double
+e+000
+enum 
+executable format error
+extern "C" 
+f:\dd\vctools\crt\crtw32\convert\wcstoq.c
+f:\dd\vctools\crt\crtw32\lowio\ioinit.c
+f:\dd\vctools\crt\crtw32\lowio\osfinfo.c
+f:\dd\vctools\crt\crtw32\lowio\read.c
+f:\dd\vctools\crt\crtw32\mbstring\mbctype.c
+f:\dd\vctools\crt\crtw32\misc\a_env.c
+f:\dd\vctools\crt\crtw32\misc\dbgrpt.c
+f:\dd\vctools\crt\crtw32\misc\initctyp.c
+f:\dd\vctools\crt\crtw32\misc\inithelp.c
+f:\dd\vctools\crt\crtw32\misc\initmon.c
+f:\dd\vctools\crt\crtw32\misc\initnum.c
+f:\dd\vctools\crt\crtw32\misc\inittime.c
+f:\dd\vctools\crt\crtw32\misc\onexit.c
+f:\dd\vctools\crt\crtw32\misc\winsig.c
+f:\dd\vctools\crt\crtw32\misc\wsetloca.c
+f:\dd\vctools\crt\crtw32\startup\crt0dat.c
+f:\dd\vctools\crt\crtw32\startup\dllcrt0.c
+f:\dd\vctools\crt\crtw32\startup\mlock.c
+f:\dd\vctools\crt\crtw32\startup\stdargv.c
+f:\dd\vctools\crt\crtw32\startup\stdenvp.c
+f:\dd\vctools\crt\crtw32\startup\tidtable.c
+f:\dd\vctools\crt\crtw32\stdio\_file.c
+f:\dd\vctools\crt\crtw32\stdio\_getbuf.c
+f:\dd\vctools\crt\crtw32\stdio\_sftbuf.c
+f:\dd\vctools\crt\crtw32\stdio\input.c
+f:\dd\vctools\crt\crtw32\stdio\output.c
+f:\dd\vctools\crt\crtw32\stdio\setvbuf.c
+f:\dd\vctools\crt\crtw32\stdio\stream.c
+fabs
+file exists
+file too large
+filename too long
+filename_too_long
+float
+floor
+fmod
+frexp
+function not supported
 g_pSteamClientGameServer
+gameoverlayrenderer64.dll
+generic
+generic-type-
+graph
+h0M;
+hiM;
+host unreachable
+host_unreachable
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+int 
+interrupted
+invalid argument
+invalid seek
+invalid string position
+invalid_argument
+io error
+iostream
+iostream stream error
+is a directory
+kU'9
+l0M;
+ldexp
+list<T> too long
+log10
+long
+long 
+lower
+map/set<T> too long
+message size
+message_size
+modf
+network down
+network reset
+network unreachable
+network_down
+network_reset
+network_unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+no_buffer_space
+no_protocol_option
+normal block at 0x%p, %Iu bytes long.\n
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+not_a_socket
+not_connected
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operation_in_progress
+operation_not_supported
+operation_would_block
+operator
+owner dead
+p0M;
+p4M;
+pbM;
+pcM;
+permission denied
+permission_denied
+phM;
+print
+private: 
+protected: 
+protocol error
+protocol not supported
+protocol_not_supported
+public: 
+punct
+read only file system
+regex_error
+regex_error(error_backref): The expression contained an invalid back reference.
+regex_error(error_badbrace): The expression contained an invalid range in a { expression }.
+regex_error(error_badrepeat): One of *?+{ was not preceded by a valid regular expression.
+regex_error(error_brace): The expression contained mismatched { and }.
+regex_error(error_brack): The expression contained mismatched [ and ].
+regex_error(error_collate): The expression contained an invalid collating element name.
+regex_error(error_complexity): The complexity of an attempted match against a regular expression exceeded a pre-set level.
+regex_error(error_ctype): The expression contained an invalid character class name.
+regex_error(error_escape): The expression contained an invalid escaped character, or a trailing escape.
+regex_error(error_paren): The expression contained mismatched ( and ).
+regex_error(error_parse)
+regex_error(error_range): The expression contained an invalid character range, such as [b-a] in most encodings.
+regex_error(error_space): There was insufficient memory to convert the expression into a finite state machine.
+regex_error(error_stack): There was insufficient memory to determine whether the regular expression could match the specified character sequence.
+regex_error(error_syntax)
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+short
+short 
+signed 
+sinh
+space
+sqrt
+state not recoverable
+static 
+std::nullptr_t
+steam2.dll
+steam://run/%u
+steam://run/%u//%s
+steam_api64.dll
+steam_appid.txt
+steamclient.dll
+steamclient64.dll
+steamconsole64.dll
+steamui.dll
+stream timeout
+string too long
+struct 
+system
+t0M;
+tanh
+template-parameter-
+text file busy
+timed out
+timed_out
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+too_many_files_open
+union 
+unknown error
+unsigned 
+upper
+value too large
+virtual 
+void
+void 
+volatile
+volatile 
+wchar_t
+win64\audio.dll
+wrong protocol type
+wrong_protocol_type
+x0M;
+x2M;
+xaM;
+xdigit
+xppwpp
+xpxxxx
+z?aUY
+zc%C1
+{flat}
+{for 

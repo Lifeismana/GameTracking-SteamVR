@@ -1,290 +1,162 @@
-sqrt
                           
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-kU'9
-HMXB
-?q=\n
-?Zd;
-?/L[
-S;uD
-z?aUY
-D?$?
-U>c{
-zc%C1
-.:3q
--64OS
-NKeb
-audio_convert: found function: %-4s to %-4s (%s)\n
-libavresample/audio_convert.c
-cannot remap packed format during conversion\n
-AudioData
-invalid channel count: %d\n
-invalid sample format\n
-invalid NULL pointer for src[%d]\n
-{no name}
-libavresample/audio_data.c
-cannot remap packed format during copy\n
-sample format mismatch\n
-offset out-of-bounds: src=%d dst=%d\n
-dst is read-only\n
-error reallocating dst\n
-[%d to %d] 
-[%d to any] 
-[any to %d] 
-[any to any] 
-audio_mix: found function: [fmt=%s] [c=%s] %s(%s)\n
-audio_mix: NO FUNCTION FOUND: [fmt=%s] [c=%s] [%d to %d]\n
-libavresample/audio_mix.c
-Unsupported internal format for mixing: %s\n
-error setting mix matrix\n
-Invalid channel counts\n
-matrix is not set\n
-Invalid mix coeff type\n
-audio_mix: %s to %s\n
-matrix size: %d x %d\n
-  (ZERO)
-  (SKIP)
-  %0.3f 
-\r><9
-libavresample/dither.c
-dithering %s to %s is not supported\n
-sample rate must be 48000 or 44100 Hz for triangular_ns dither. using triangular_hp instead.\n
-dither s16 buffer
-dither flt buffer
-in_channel_layout
-Input Channel Layout
-in_sample_fmt
-Input Sample Format
-in_sample_rate
-Input Sample Rate
-out_channel_layout
-Output Channel Layout
-out_sample_fmt
-Output Sample Format
-out_sample_rate
-Output Sample Rate
-internal_sample_fmt
-Internal Sample Format
-8-bit unsigned integer
-16-bit signed integer
-32-bit signed integer
-32-bit float
-64-bit double
-8-bit unsigned integer planar
-s16p
-16-bit signed integer planar
-s32p
-32-bit signed integer planar
-fltp
-32-bit float planar
-dblp
-64-bit double planar
-mix_coeff_type
-Mixing Coefficient Type
-16-bit 8.8 Fixed-Point
-32-bit 17.15 Fixed-Point
-Floating-Point
-center_mix_level
-Center Mix Level
-surround_mix_level
-Surround Mix Level
-lfe_mix_level
-LFE Mix Level
-normalize_mix_level
-Normalize Mix Level
-force_resampling
-Force Resampling
-filter_size
-Resampling Filter Size
-phase_shift
-Resampling Phase Shift
-linear_interp
-Use Linear Interpolation
-cutoff
-Cutoff Frequency Ratio
-resample_cutoff
-matrix_encoding
-Matrixed Stereo Encoding
-none
-None
-dolby
-Dolby
-dplii
-Dolby Pro Logic II
-filter_type
-Filter Type
-cubic
-Cubic
-blackman_nuttall
-Blackman Nuttall Windowed Sinc
-kaiser
-Kaiser Windowed Sinc
-kaiser_beta
-Kaiser Window Beta
-dither_method
-Dither Method
-No Dithering
-rectangular
-Rectangular Dither
-triangular
-Triangular Dither
-triangular_hp
-Triangular Dither With High Pass
-triangular_ns
-Triangular Dither With Noise Shaping
-AVAudioResampleContext
-libavresample/options.c
-libavresample/resample.c
-Unsupported internal format for resampling: %s\n
-resample buffer
-resample: %s from %d Hz to %d Hz\n
-Error reallocating resampling buffer\n
-error reallocating output\n
-error during resampling\n
-The resampling context is already open.\n
-Invalid input channel layout: %llu\n
-Invalid output channel layout: %llu\n
-Using %s as internal sample format\n
-in_buffer
-resample_out_buffer
-out_buffer
-output
-input
-Invalid channel layouts\n
-libavresample/utils.c
-Invalid input channel layout\n
-Invalid channel map\n
-libavresample license: LGPL version 2.1 or later
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 --prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
-SSE2
-SSE2SLOW
-SSSE3
-SSE4
-FMA4
-e+000
-?1mm
-?Xw$
-?uZEeu
-?P/Y
-uZEeu
-uZEeu
-?uZEeu
-?Xw$
-?1mm
-?UUUUUU
-?UUUUUU
-m0_$@
-?1mm
-?Xw$
-?uZEeu
-?P/Y
-uZEeu
-uZEeu
-?uZEeu
-?Xw$
+-64OS
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+16-bit 8.8 Fixed-Point
+16-bit signed integer
+16-bit signed integer planar
+32-bit 17.15 Fixed-Point
+32-bit float
+32-bit float planar
+32-bit signed integer
+32-bit signed integer planar
+64-bit double
+64-bit double planar
+8-bit unsigned integer
+8-bit unsigned integer planar
 ?1mm
 ?UUUUUU
-?UUUUUU
-m0_$@
-log10
-asin
-acos
-exp10
-atan
-ceil
-floor
-modf
-sqrt
+?uZEeu
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+AVAudioResampleContext
+April
+AudioData
+August
+Blackman Nuttall Windowed Sinc
+Center Mix Level
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CompareStringEx
 CorExitProcess
+CreateEventExW
+CreateSemaphoreExW
+CreateSymbolicLinkW
+CreateThreadpoolTimer
+CreateThreadpoolWait
+Cubic
+Cutoff Frequency Ratio
+December
+Dither Method
+Dolby
+Dolby Pro Logic II
+EnumSystemLocalesEx
+Error reallocating resampling buffer\n
+FMA4
+February
+Filter Type
+Floating-Point
 FlsAlloc
 FlsFree
 FlsGetValue
 FlsSetValue
-InitializeCriticalSectionEx
-CreateEventExW
-CreateSemaphoreExW
-SetThreadStackGuarantee
-CreateThreadpoolTimer
-SetThreadpoolTimer
-WaitForThreadpoolTimerCallbacks
-CloseThreadpoolTimer
-CreateThreadpoolWait
-SetThreadpoolWait
-CloseThreadpoolWait
 FlushProcessWriteBuffers
+Force Resampling
 FreeLibraryWhenCallbackReturns
+Friday
+GetActiveWindow
+GetCurrentPackageId
 GetCurrentProcessorNumber
-GetLogicalProcessorInformation
-CreateSymbolicLinkW
-SetDefaultDllDirectories
-EnumSystemLocalesEx
-CompareStringEx
 GetDateFormatEx
+GetFileInformationByHandleExW
+GetLastActivePopup
 GetLocaleInfoEx
+GetLogicalProcessorInformation
+GetProcessWindowStation
+GetTickCount64
 GetTimeFormatEx
 GetUserDefaultLocaleName
-IsValidLocaleName
-LCMapStringEx
-GetCurrentPackageId
-GetTickCount64
-GetFileInformationByHandleExW
-SetFileInformationByHandleW
-Sunday
-Monday
-Tuesday
-Wednesday
-Thursday
-Friday
-Saturday
-January
-February
-March
-April
-June
-July
-August
-September
-October
-November
-December
-MM/dd/yy
-dddd, MMMM dd, yyyy
+GetUserObjectInformationW
 HH:mm:ss
-tanh
-atan2
-fabs
-ldexp
+HMXB
+InitializeCriticalSectionEx
+Input Channel Layout
+Input Sample Format
+Input Sample Rate
+Internal Sample Format
+Invalid channel counts\n
+Invalid channel layouts\n
+Invalid channel map\n
+Invalid input channel layout: %llu\n
+Invalid input channel layout\n
+Invalid mix coeff type\n
+Invalid output channel layout: %llu\n
+IsValidLocaleName
+January
+July
+June
+Kaiser Window Beta
+Kaiser Windowed Sinc
+LCMapStringEx
+LFE Mix Level
+MM/dd/yy
+March
+Matrixed Stereo Encoding
+MessageBoxW
+Mixing Coefficient Type
+Monday
+NKeb
+No Dithering
+None
+Normalize Mix Level
+November
+October
+Output Channel Layout
+Output Sample Format
+Output Sample Rate
+RSDSm{7
+Rectangular Dither
+Resampling Filter Size
+Resampling Phase Shift
+S;uD
+SSE2
+SSE2SLOW
+SSE4
+SSSE3
+Saturday
+September
+SetDefaultDllDirectories
+SetFileInformationByHandleW
+SetThreadStackGuarantee
+SetThreadpoolTimer
+SetThreadpoolWait
+Sunday
+Surround Mix Level
+SystemFunction036
+The resampling context is already open.\n
+Thursday
+Triangular Dither
+Triangular Dither With High Pass
+Triangular Dither With Noise Shaping
+Tuesday
+Unsupported internal format for mixing: %s\n
+Unsupported internal format for resampling: %s\n
+Use Linear Interpolation
+Using %s as internal sample format\n
+WaitForThreadpoolTimerCallbacks
+Wednesday
+[%d to %d] 
+[%d to any] 
+[any to %d] 
+[any to any] 
 _cabs
 _hypot
-fmod
-frexp
 _logb
 _nextafter
-sinh
-cosh
-SystemFunction036
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-1#SNAN
-1#IND
-1#INF
-1#QNAN
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-MessageBoxW
-GetActiveWindow
-GetLastActivePopup
-GetUserObjectInformationW
-GetProcessWindowStation
-RSDSm{7
-c:\buildslave\libav_win32\build\dev\libavresample\libavresample-2.pdb
-libavresample-2.dll
+abcdefghijklmnopqrstuvwxyz
+acos
+asin
+atan
+atan2
+audio_convert: found function: %-4s to %-4s (%s)\n
+audio_mix: %s to %s\n
+audio_mix: NO FUNCTION FOUND: [fmt=%s] [c=%s] [%d to %d]\n
+audio_mix: found function: [fmt=%s] [c=%s] %s(%s)\n
 avresample_alloc_context
 avresample_available
 avresample_build_matrix
@@ -306,3 +178,94 @@ avresample_set_channel_mapping
 avresample_set_compensation
 avresample_set_matrix
 avresample_version
+blackman_nuttall
+c:\buildslave\libav_win32\build\dev\libavresample\libavresample-2.pdb
+cannot remap packed format during conversion\n
+cannot remap packed format during copy\n
+ceil
+center_mix_level
+cosh
+cubic
+cutoff
+dblp
+dddd, MMMM dd, yyyy
+dither flt buffer
+dither s16 buffer
+dither_method
+dithering %s to %s is not supported\n
+dolby
+dplii
+dst is read-only\n
+e+000
+error during resampling\n
+error reallocating dst\n
+error reallocating output\n
+error setting mix matrix\n
+exp10
+fabs
+filter_size
+filter_type
+floor
+fltp
+fmod
+force_resampling
+frexp
+in_buffer
+in_channel_layout
+in_sample_fmt
+in_sample_rate
+input
+internal_sample_fmt
+invalid NULL pointer for src[%d]\n
+invalid channel count: %d\n
+invalid sample format\n
+kU'9
+kaiser
+kaiser_beta
+ldexp
+lfe_mix_level
+libavresample license: LGPL version 2.1 or later
+libavresample-2.dll
+libavresample/audio_convert.c
+libavresample/audio_data.c
+libavresample/audio_mix.c
+libavresample/dither.c
+libavresample/options.c
+libavresample/resample.c
+libavresample/utils.c
+linear_interp
+log10
+matrix is not set\n
+matrix size: %d x %d\n
+matrix_encoding
+mix_coeff_type
+modf
+none
+normalize_mix_level
+offset out-of-bounds: src=%d dst=%d\n
+out_buffer
+out_channel_layout
+out_sample_fmt
+out_sample_rate
+output
+phase_shift
+rectangular
+resample buffer
+resample: %s from %d Hz to %d Hz\n
+resample_cutoff
+resample_out_buffer
+s16p
+s32p
+sample format mismatch\n
+sample rate must be 48000 or 44100 Hz for triangular_ns dither. using triangular_hp instead.\n
+sinh
+sqrt
+surround_mix_level
+tanh
+triangular
+triangular_hp
+triangular_ns
+uZEeu
+z?aUY
+zc%C1
+{no name}

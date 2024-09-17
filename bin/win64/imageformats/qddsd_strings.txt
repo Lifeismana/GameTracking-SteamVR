@@ -1,151 +1,110 @@
+!weakref.load()
+.?AVQDDSHandler@@
 .?AVQDDSPlugin@@
+.?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
 .?AVQObject@@
-.?AVQDDSHandler@@
-.?AVQImageIOHandler@@
-.?AVtype_info@@
 .?AVbad_alloc@std@@
-.?AVexception@std@@
 .?AVbad_array_new_length@std@@
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-QDDSPlugin
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qbytearray.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-!weakref.load()
-strongref.load() <= 0
-ba.ref.isStatic()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-Format
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-bool __cdecl QDDSHandler::write(const class QImage &)
-qddshandler.cpp
-is not supported
-void __cdecl QDDSHandler::setOption(enum QImageIOHandler::ImageOption,const class QVariant &)
-qddshandler.cpp
-unknown format
-bool __cdecl QDDSHandler::canRead(class QIODevice *)
-qddshandler.cpp
-DDSHandler::canRead() called with no device
-bool __cdecl QDDSHandler::ensureScanned(void) const
-qddshandler.cpp
-Sequential devices are not supported
-qddshandler.cpp
-Wrong dds.pixelFormat.size: actual =
-bool __cdecl QDDSHandler::verifyHeader(const struct DDSHeader &) const
-qddshandler.cpp
-unknown
-Wrong dds.flags - not all required flags present. Actual flags :
-expected =
-qddshandler.cpp
-R8G8B8
-bool __cdecl QDDSHandler::verifyHeader(const struct DDSHeader &) const
-Wrong dds.size: actual =
-expected =
-qddshandler.cpp
-R5G6B5
-bool __cdecl QDDSHandler::verifyHeader(const struct DDSHeader &) const
-R3G3B2
-bool __cdecl QDDSHandler::verifyHeader(const struct DDSHeader &) const
-Can't read image with w/h bigger than INT_MAX
-G16R16
-A8P8
-UYVYRGBGYUY2GRGBDXT1DXT2DXT3DXT4DXT5RXGBATI2n
-A8R8G8B8
-L6V5U5
-X8R8G8B8
-V16U16
-X1R5G5B5
-D15S1
-D24FS8
-A1R5G5B5
-D24S8
-CxV8U8
-A4R4G4B4
-D24X8
-A8R3G3B2
-X4R4G4B4
-A2B10G10R10
-A8B8G8R8
-X8B8G8R8
-A2R10G10B10
+.?AVexception@std@@
+.?AVtype_info@@
 A16B16G16R16
-A8L8
-A4L4
-V8U8
-X8L8V8U8
-Q8W8V8U8
+A16B16G16R16F
+A1R5G5B5
+A2B10G10R10
+A2B10G10R10_XR_BIAS
+A2R10G10B10
 A2W10V10U10
-UYVY
-R8G8_B8G8
-YUY2
-G8R8_G8B8
+A32B32G32R32F
+A4L4
+A4P4
+A4R4G4B4
+A8B8G8R8
+A8L8
+A8P8
+A8R3G3B2
+A8R8G8B8
+ATI2
+BinaryBuffer
+Can't read image with w/h bigger than INT_MAX
+CxV8U8
+D15S1
+D16Lockable
+D24FS8
+D24S8
+D24X4S4
+D24X8
+D32FLockable
+D32Lockable
+DDS 
+DDSHandler::canRead() called with no device
 DXT1
 DXT2
 DXT3
 DXT4
 DXT5
-RXGB
-ATI2
-D16Lockable
-D24X4S4
-D32FLockable
-D32Lockable
-S8Lockable
-VertexData
-Index32
-Index32
-Q16W16V16U16
-Multi2ARGB8
-R16F
+F:\qt5\qtimageformats\plugins\imageformats\qddsd.pdb
+Format
+G16R16
 G16R16F
-A16B16G16R16F
-R32F
 G32R32F
-A32B32G32R32F
-A2B10G10R10_XR_BIAS
-BinaryBuffer
-A4P4
-qddshandler.cpp
-size == 8 || size == 16 || size == 24 || size == 32
-qddshandler.cpp
-sizeof(float) == 4
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-DDS 
+G8R8_G8B8
+Index32
 InitializeConditionVariable
+L6V5U5
+Multi2ARGB8
+Q16W16V16U16
+Q8W8V8U8
+QDDSPlugin
+R16F
+R32F
+R3G3B2
+R5G6B5
+R8G8B8
+R8G8_B8G8
+RSDS\v
+RXGB
+S8Lockable
+Sequential devices are not supported
 SleepConditionVariableCS
-WakeAllConditionVariable
+UYVY
+UYVYRGBGYUY2GRGBDXT1DXT2DXT3DXT4DXT5RXGBATI2n
 Unknown exception
+V16U16
+V8U8
+VertexData
+WakeAllConditionVariable
+Wrong dds.flags - not all required flags present. Actual flags :
+Wrong dds.pixelFormat.size: actual =
+Wrong dds.size: actual =
+X1R5G5B5
+X4R4G4B4
+X8B8G8R8
+X8L8V8U8
+X8R8G8B8
+YUY2
+ba.ref.isStatic()
 bad allocation
 bad array new length
-RSDS\v
-F:\qt5\qtimageformats\plugins\imageformats\qddsd.pdb
+bool __cdecl QDDSHandler::canRead(class QIODevice *)
+bool __cdecl QDDSHandler::ensureScanned(void) const
+bool __cdecl QDDSHandler::verifyHeader(const struct DDSHeader &) const
+bool __cdecl QDDSHandler::write(const class QImage &)
+expected =
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qbytearray.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+is not supported
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
 qddsd.dll
+qddshandler.cpp
 qt_plugin_instance
 qt_plugin_query_metadata
+size == 8 || size == 16 || size == 24 || size == 32
+sizeof(float) == 4
+strongref.load() <= 0
+unknown
+unknown format
+void __cdecl QDDSHandler::setOption(enum QImageIOHandler::ImageOption,const class QVariant &)

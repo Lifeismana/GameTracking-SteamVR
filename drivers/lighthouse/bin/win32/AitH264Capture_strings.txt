@@ -1,588 +1,549 @@
-.?AVCWinApp@@
-.?AVCWinThread@@
-.?AVCCmdTarget@@
-.?AVCObject@@
-.PAVCException@@
-.?AVCOleException@@
-.?AVCException@@
-.PAVCOleException@@
-.PAVCObject@@
-.PAX
-.PAVCMemoryException@@
-.PAVCSimpleException@@
-.PAVCNotSupportedException@@
-.PAVCInvalidArgException@@
-.?AVCSimpleException@@
-.?AVCMemoryException@@
-.?AVCNotSupportedException@@
-.?AVCInvalidArgException@@
-.?AVCAfxStringMgr@@
-.?AUIAtlStringMgr@ATL@@
-.?AV_AFX_THREAD_STATE@@
-.?AVCNoTrackObject@@
-.?AVAFX_MODULE_THREAD_STATE@@
-.?AVAFX_MODULE_STATE@@
-.?AVCDllIsolationWrapperBase@@
-.?AVCComCtlWrapper@@
-.?AVCCommDlgWrapper@@
-.?AVCShellWrapper@@
-.?AV_AFX_BASE_MODULE_STATE@@
-.?AUCThreadData@@
-.?AVCHandleMap@@
-.?AVCCmdUI@@
-.PAVCUserException@@
-.?AVCResourceException@@
-.?AVCUserException@@
-.?AVCGdiObject@@
-.?AVCDC@@
-.?AVXAccessible@CWnd@@
-.?AVXAccessibleServer@CWnd@@
-.?AVCWnd@@
-.?AV_AFX_HTMLHELP_STATE@@
-.?AVCTestCmdUI@@
-.?AV?$IAccessibleProxyImpl@VCAccessibleProxy@ATL@@@ATL@@
-.?AUIAccessible@@
-.?AUIDispatch@@
-.?AUIAccessibleProxy@@
-.?AV?$CMFCComObject@VCAccessibleProxy@ATL@@@@
-.?AVCAccessibleProxy@ATL@@
-.?AV?$CComObjectRootEx@VCComSingleThreadModel@ATL@@@ATL@@
-.?AVCComObjectRootBase@ATL@@
-.?AUIOleWindow@@
-.PAVCArchiveException@@
-.?AVCArchiveException@@
-.?AVCMapPtrToPtr@@
-.?AVCMenu@@
-.?AVCByteArray@@
-.?AV?$CArray@W4LoadArrayObjType@CArchive@@ABW412@@@
-.?AVCObArray@@
-.?AVCPtrArray@@
-.?AVtype_info@@
                           
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-.?AVbad_exception@std@@
-kU'9
-HMXB
-?q=\n
-?Zd;
-?/L[
-S;uD
-z?aUY
-D?$?
-U>c{
-zc%C1
-.:3q
--64OS
-NKeb
-.?AVout_of_range@std@@
-.?AVCAitAudio@@
-.?AVCVideoPreview@@
-.?AVComDllLoader@@
-.?AUISampleGrabberCB@@
-.?AVCSampleGrabberCB@@
-.?AUIInputMixer@@
-.?AUIAitAudio@@
-.?AUIVideoDevOpenMethod@@
-.?AUIPropertiePage@@
-.?AUIAitH264LocalPreview@@
-.?AUIAitH264Record@@
-.?AUILgtLocalPreview@@
-.?AUIMsH264PreviewMode0@@
-.?AUILgtH264Preview@@
-.?AUIArcsoftH264Preview@@
-.?AUIConnectVideoSink@@
-.?AUIKitePayload@@
-.?AUIAitH264Preview@@
-.?AUIAitCamStillCapture@@
-.?AUIUnknown@@
-.?AUIAitCamGraph@@
-!<l<H
-'=Qo
-m1\f|1
-7oAC4u
-.?AU_AMMediaType@@
-.?AVCMediaType@@
-.?AVCMediaTypeEx@@
-.?AVexception@std@@
-.?AVlogic_error@std@@
-.?AVlength_error@std@@
-.?AVbad_alloc@std@@
-vids
-qYUY2
-qUYVY
-qMJPG
-qH264
-CWinApp
-DeactivateActCtx
-ActivateActCtx
-ReleaseActCtx
-CreateActCtxW
-FindActCtxSectionStringW
-GetSystemDefaultUILanguage
-GetUserDefaultUILanguage
-NotifyWinEvent
-COleException
-CInvalidArgException
-CNotSupportedException
-CMemoryException
-CSimpleException
-CException
-CObject
-CWinThread
-CCmdTarget
-CGdiObject
-CUserException
-CResourceException
-CWnd
-GetMonitorInfoA
-GetMonitorInfoW
-EnumDisplayDevicesW
-EnumDisplayMonitors
-MonitorFromPoint
-MonitorFromRect
-MonitorFromWindow
-GetSystemMetrics
-DISPLAY
-InitCommonControls
-InitCommonControlsEx
-FHtmlHelpW
-hhctrl.ocx
-CArchiveException
-CMapPtrToPtr
-CMenu
-CByteArray
-CPtrArray
-CObArray
-bad allocation
-Unknown exception
-CorExitProcess
-HeapQueryInformation
-EncodePointer
-DecodePointer
-FlsFree
-FlsSetValue
-FlsGetValue
-FlsAlloc
-\t\n\v\f\r
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-runtime error 
-TLOSS error\r\n
-SING error\r\n
-DOMAIN error\r\n
-R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
-R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
-R6032\r\n- not enough space for locale information\r\n
-R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
-R6030\r\n- CRT not initialized\r\n
-R6028\r\n- unable to initialize heap\r\n
-R6027\r\n- not enough space for lowio initialization\r\n
-R6026\r\n- not enough space for stdio initialization\r\n
-R6025\r\n- pure virtual function call\r\n
-R6024\r\n- not enough space for _onexit/atexit table\r\n
-R6019\r\n- unable to open console device\r\n
-R6018\r\n- unexpected heap error\r\n
-R6017\r\n- unexpected multithread lock error\r\n
-R6016\r\n- not enough space for thread data\r\n
-\r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
-R6009\r\n- not enough space for environment\r\n
-R6008\r\n- not enough space for arguments\r\n
-R6002\r\n- floating point support not loaded\r\n
-Microsoft Visual C++ Runtime Library
-<program name unknown>
-Runtime Error!\n\nProgram: 
-bad exception
-e+000
-GAIsProcessorFeaturePresent
-KERNEL32
-SunMonTueWedThuFriSat
-JanFebMarAprMayJunJulAugSepOctNovDec
-(null)
-( 8PX
-700WP
-`h````
-xpxxxx
- Complete Object Locator'
- Class Hierarchy Descriptor'
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
  Type Descriptor'
-`local static thread guard'
-`managed vector copy constructor iterator'
-`vector vbase copy constructor iterator'
-`vector copy constructor iterator'
-`dynamic atexit destructor for '
-`dynamic initializer for '
-`eh vector vbase copy constructor iterator'
-`eh vector copy constructor iterator'
-`managed vector destructor iterator'
-`managed vector constructor iterator'
-`placement delete[] closure'
-`placement delete closure'
-`omni callsig'
- delete[]
- new[]
-`local vftable constructor closure'
-`local vftable'
-`RTTI
-`udt returning'
-`copy constructor closure'
-`eh vector vbase constructor iterator'
-`eh vector destructor iterator'
-`eh vector constructor iterator'
-`virtual displacement map'
-`vector vbase constructor iterator'
-`vector destructor iterator'
-`vector constructor iterator'
-`scalar deleting destructor'
-`default constructor closure'
-`vector deleting destructor'
-`vbase destructor'
-`string'
-`local static guard'
-`typeof'
-`vcall'
-`vbtable'
-`vftable'
-operator
  delete
+ delete[]
  new
-__unaligned
-__restrict
-__ptr64
-__clrcall
-__fastcall
-__thiscall
-__stdcall
-__pascal
-__cdecl
-__based(
+( 8PX
 ('8PW
-700PP
-`h`hhh
-xppwpp
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-HH:mm:ss
-dddd, MMMM dd, yyyy
-MM/dd/yy
-December
-November
-October
-September
-August
-July
-June
-April
-March
-February
-January
-Saturday
-Friday
-Thursday
-Wednesday
-Tuesday
-Monday
-Sunday
-GetProcessWindowStation
-GetUserObjectInformationA
-GetLastActivePopup
-GetActiveWindow
-MessageBoxA
-USER32.DLL
-1#QNAN
-1#INF
+(null)
+-64OS
+.?AUCThreadData@@
+.?AUIAccessible@@
+.?AUIAccessibleProxy@@
+.?AUIAitAudio@@
+.?AUIAitCamGraph@@
+.?AUIAitCamStillCapture@@
+.?AUIAitH264LocalPreview@@
+.?AUIAitH264Preview@@
+.?AUIAitH264Record@@
+.?AUIArcsoftH264Preview@@
+.?AUIAtlStringMgr@ATL@@
+.?AUIConnectVideoSink@@
+.?AUIDispatch@@
+.?AUIInputMixer@@
+.?AUIKitePayload@@
+.?AUILgtH264Preview@@
+.?AUILgtLocalPreview@@
+.?AUIMsH264PreviewMode0@@
+.?AUIOleWindow@@
+.?AUIPropertiePage@@
+.?AUISampleGrabberCB@@
+.?AUIUnknown@@
+.?AUIVideoDevOpenMethod@@
+.?AU_AMMediaType@@
+.?AV?$CArray@W4LoadArrayObjType@CArchive@@ABW412@@@
+.?AV?$CComObjectRootEx@VCComSingleThreadModel@ATL@@@ATL@@
+.?AV?$CMFCComObject@VCAccessibleProxy@ATL@@@@
+.?AV?$IAccessibleProxyImpl@VCAccessibleProxy@ATL@@@ATL@@
+.?AVAFX_MODULE_STATE@@
+.?AVAFX_MODULE_THREAD_STATE@@
+.?AVCAccessibleProxy@ATL@@
+.?AVCAfxStringMgr@@
+.?AVCAitAudio@@
+.?AVCArchiveException@@
+.?AVCByteArray@@
+.?AVCCmdTarget@@
+.?AVCCmdUI@@
+.?AVCComCtlWrapper@@
+.?AVCComObjectRootBase@ATL@@
+.?AVCCommDlgWrapper@@
+.?AVCDC@@
+.?AVCDllIsolationWrapperBase@@
+.?AVCException@@
+.?AVCGdiObject@@
+.?AVCHandleMap@@
+.?AVCInvalidArgException@@
+.?AVCMapPtrToPtr@@
+.?AVCMediaType@@
+.?AVCMediaTypeEx@@
+.?AVCMemoryException@@
+.?AVCMenu@@
+.?AVCNoTrackObject@@
+.?AVCNotSupportedException@@
+.?AVCObArray@@
+.?AVCObject@@
+.?AVCOleException@@
+.?AVCPtrArray@@
+.?AVCResourceException@@
+.?AVCSampleGrabberCB@@
+.?AVCShellWrapper@@
+.?AVCSimpleException@@
+.?AVCTestCmdUI@@
+.?AVCUserException@@
+.?AVCVideoPreview@@
+.?AVCWinApp@@
+.?AVCWinThread@@
+.?AVCWnd@@
+.?AVComDllLoader@@
+.?AVXAccessible@CWnd@@
+.?AVXAccessibleServer@CWnd@@
+.?AV_AFX_BASE_MODULE_STATE@@
+.?AV_AFX_HTMLHELP_STATE@@
+.?AV_AFX_THREAD_STATE@@
+.?AVbad_alloc@std@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVtype_info@@
+.PAVCArchiveException@@
+.PAVCException@@
+.PAVCInvalidArgException@@
+.PAVCMemoryException@@
+.PAVCNotSupportedException@@
+.PAVCObject@@
+.PAVCOleException@@
+.PAVCSimpleException@@
+.PAVCUserException@@
+.PAX
 1#IND
+1#INF
+1#QNAN
 1#SNAN
-CONOUT$
-string too long
-invalid string position
-=L9o<
-OLEACC.dll
-bad allocation
-7/Ja
 5\vqB
-L^}?
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-DllGetClassObject
-list<T> too long
-RSDSO)
-d:\VCProject\SecMPTool\release\AitH264Capture.pdb
-CreateStdAccessibleObject
-LresultFromObject
-GetModuleHandleW
-GetWindowsDirectoryW
-GetProcAddress
-GetModuleFileNameW
-FindResourceW
-LoadResource
-SizeofResource
-FreeLibrary
-LoadLibraryW
-GetPrivateProfileIntW
-OutputDebugStringW
-GetPrivateProfileStringW
-LockResource
-GetLocalTime
-GlobalAlloc
-lstrcmpW
-GlobalLock
-InterlockedExchange
-WideCharToMultiByte
-MultiByteToWideChar
-LoadLibraryExW
-GetLocaleInfoW
-lstrcmpA
-EnumResourceLanguagesW
-ConvertDefaultLocale
-GetCurrentThreadId
-GetCurrentThread
-GlobalDeleteAtom
-lstrlenW
-SetErrorMode
-LocalFree
-FormatMessageW
-GlobalUnlock
-GlobalFree
-SetLastError
-GetLastError
-InterlockedDecrement
-LocalAlloc
-LeaveCriticalSection
-TlsGetValue
-EnterCriticalSection
-GlobalReAlloc
-GlobalHandle
-InitializeCriticalSection
-TlsAlloc
-TlsSetValue
-LocalReAlloc
-DeleteCriticalSection
-TlsFree
-CloseHandle
-WritePrivateProfileStringW
-GetModuleHandleA
-GlobalFlags
-InterlockedIncrement
-GlobalAddAtomW
-GetCurrentProcessId
-GetVersionExA
-LoadLibraryA
-GlobalFindAtomW
-lstrlenA
-ReadFile
-WriteFile
-SetFilePointer
-FlushFileBuffers
-SetEndOfFile
-GetCurrentProcess
-CreateFileW
-TerminateProcess
-UnhandledExceptionFilter
-SetUnhandledExceptionFilter
-IsDebuggerPresent
-GetCommandLineA
-HeapAlloc
-HeapFree
-RtlUnwind
-Sleep
-ExitProcess
-RaiseException
-HeapReAlloc
-HeapSize
-GetCPInfo
-GetACP
-GetOEMCP
-IsValidCodePage
-GetStdHandle
-GetModuleFileNameA
-SetHandleCount
-GetFileType
-GetStartupInfoA
-FreeEnvironmentStringsA
-GetEnvironmentStrings
-FreeEnvironmentStringsW
-GetEnvironmentStringsW
-HeapCreate
-HeapDestroy
-VirtualFree
-QueryPerformanceCounter
-GetTickCount
-GetSystemTimeAsFileTime
-VirtualAlloc
-InitializeCriticalSectionAndSpinCount
-GetConsoleCP
-GetConsoleMode
-LCMapStringA
-LCMapStringW
-GetStringTypeA
-GetStringTypeW
-GetLocaleInfoA
-SetStdHandle
-WriteConsoleA
-GetConsoleOutputCP
-WriteConsoleW
-GetProcessHeap
-CreateFileA
-KERNEL32.dll
-MessageBoxW
-PostQuitMessage
-PostMessageW
-GetSubMenu
-GetMenuItemCount
-GetMenuItemID
-GetMenuState
-UnhookWindowsHookEx
-ValidateRect
-GetCursorPos
-PeekMessageW
-GetKeyState
-SendMessageW
-IsWindowVisible
-GetActiveWindow
-DispatchMessageW
-TranslateMessage
-GetMessageW
-CallNextHookEx
-SetWindowsHookExW
-UnregisterClassW
-CheckMenuItem
-EnableMenuItem
-ModifyMenuW
-GetParent
-GetFocus
-LoadBitmapW
-GetMenuCheckMarkDimensions
-SetMenuItemBitmaps
-SetCursor
-TabbedTextOutW
-DrawTextW
-DrawTextExW
-GrayStringW
-ClientToScreen
-GetDC
-ReleaseDC
-GetSysColor
-SetWindowTextW
-GetWindowTextW
-PtInRect
-GetClassNameW
-GetWindowLongW
-GetWindowRect
-GetDlgCtrlID
-GetWindow
-EnableWindow
-IsWindowEnabled
-GetLastActivePopup
-GetWindowThreadProcessId
-GetSystemMetrics
-GetWindowPlacement
-IsIconic
-SystemParametersInfoA
-SetWindowPos
-SetWindowLongW
-GetMenu
-CopyRect
-CallWindowProcW
-DefWindowProcW
-AdjustWindowRectEx
-RegisterClassW
-GetClassInfoW
-GetClassInfoExW
-CreateWindowExW
-GetClientRect
-SetForegroundWindow
-SetMenu
-MapWindowPoints
-GetMessagePos
-GetMessageTime
-DestroyWindow
-GetTopWindow
-GetDlgItem
-GetForegroundWindow
-IsWindow
-RemovePropW
-GetPropW
-SetPropW
-GetClassLongW
-GetCapture
-WinHelpW
-LoadIconW
-RegisterWindowMessageW
-GetSysColorBrush
-LoadCursorW
-ShowWindow
-DestroyMenu
-USER32.dll
-GetDeviceCaps
-CreateBitmap
-SaveDC
-RestoreDC
-SetBkColor
-SetTextColor
-SetMapMode
-GetClipBox
-DeleteObject
-PtVisible
-RectVisible
-TextOutW
-ExtTextOutW
-Escape
-SelectObject
-SetViewportOrgEx
-OffsetViewportOrgEx
-SetViewportExtEx
-ScaleViewportExtEx
-SetWindowExtEx
-ScaleWindowExtEx
-DeleteDC
-GetStockObject
-GDI32.dll
-ClosePrinter
-DocumentPropertiesW
-OpenPrinterW
-WINSPOOL.DRV
-RegCloseKey
-RegQueryValueExW
-RegOpenKeyExW
-RegCreateKeyExW
-RegSetValueExW
-RegDeleteKeyW
-RegEnumKeyW
-RegOpenKeyW
-RegQueryValueW
+7/Ja
+700PP
+700WP
+7oAC4u
+<program name unknown>
+=L9o<
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
-PathRemoveFileSpecW
-PathFindFileNameW
-PathFindExtensionW
-SHLWAPI.dll
-CoTaskMemFree
+ActivateActCtx
+AdjustWindowRectEx
+AitH264Capture.dll
+April
+August
+CArchiveException
+CByteArray
+CCmdTarget
+CException
+CGdiObject
+CInvalidArgException
+CMapPtrToPtr
+CMemoryException
+CMenu
+CNotSupportedException
+CONOUT$
+CObArray
+CObject
+COleException
+CPtrArray
+CResourceException
+CSimpleException
+CUserException
+CWinApp
+CWinThread
+CWnd
+CallCreateObject
+CallNextHookEx
+CallWindowProcW
+CheckMenuItem
+ClientToScreen
+CloseHandle
+ClosePrinter
 CoCreateInstance
 CoGetMalloc
 CoTaskMemAlloc
-ole32.dll
+CoTaskMemFree
+ConvertDefaultLocale
+CopyRect
+CorExitProcess
+CreateActCtxW
+CreateBitmap
+CreateFileA
+CreateFileW
+CreateStdAccessibleObject
+CreateWindowExW
+DISPLAY
+DOMAIN error\r\n
+DeactivateActCtx
+December
+DecodePointer
+DefWindowProcW
+DeleteCriticalSection
+DeleteDC
+DeleteObject
+DestroyMenu
+DestroyWindow
+DispatchMessageW
+DllGetClassObject
+DocumentPropertiesW
+DrawTextExW
+DrawTextW
+EnableMenuItem
+EnableWindow
+EncodePointer
+EnterCriticalSection
+EnumDisplayDevicesW
+EnumDisplayMonitors
+EnumResourceLanguagesW
+Escape
+ExitProcess
+ExtTextOutW
+FHtmlHelpW
+February
+FindActCtxSectionStringW
+FindResourceW
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FormatMessageW
+FreeEnvironmentStringsA
+FreeEnvironmentStringsW
+FreeLibrary
+Friday
+GAIsProcessorFeaturePresent
+GDI32.dll
+GetACP
+GetActiveWindow
+GetCPInfo
+GetCapture
+GetClassInfoExW
+GetClassInfoW
+GetClassLongW
+GetClassNameW
+GetClientRect
+GetClipBox
+GetCommandLineA
+GetConsoleCP
+GetConsoleMode
+GetConsoleOutputCP
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetCursorPos
+GetDC
+GetDeviceCaps
+GetDlgCtrlID
+GetDlgItem
+GetEnvironmentStrings
+GetEnvironmentStringsW
+GetFileType
+GetFocus
+GetForegroundWindow
+GetKeyState
+GetLastActivePopup
+GetLastError
+GetLocalTime
+GetLocaleInfoA
+GetLocaleInfoW
+GetMenu
+GetMenuCheckMarkDimensions
+GetMenuItemCount
+GetMenuItemID
+GetMenuState
+GetMessagePos
+GetMessageTime
+GetMessageW
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleW
+GetMonitorInfoA
+GetMonitorInfoW
+GetOEMCP
+GetParent
+GetPrivateProfileIntW
+GetPrivateProfileStringW
+GetProcAddress
+GetProcessHeap
+GetProcessWindowStation
+GetPropW
+GetStartupInfoA
+GetStdHandle
+GetStockObject
+GetStringTypeA
+GetStringTypeW
+GetSubMenu
+GetSysColor
+GetSysColorBrush
+GetSystemDefaultUILanguage
+GetSystemMetrics
+GetSystemTimeAsFileTime
+GetTickCount
+GetTopWindow
+GetUserDefaultUILanguage
+GetUserObjectInformationA
+GetVersionExA
+GetWindow
+GetWindowLongW
+GetWindowPlacement
+GetWindowRect
+GetWindowTextW
+GetWindowThreadProcessId
+GetWindowsDirectoryW
+GlobalAddAtomW
+GlobalAlloc
+GlobalDeleteAtom
+GlobalFindAtomW
+GlobalFlags
+GlobalFree
+GlobalHandle
+GlobalLock
+GlobalReAlloc
+GlobalUnlock
+GrayStringW
+HH:mm:ss
+HMXB
+HeapAlloc
+HeapCreate
+HeapDestroy
+HeapFree
+HeapQueryInformation
+HeapReAlloc
+HeapSize
+InitCommonControls
+InitCommonControlsEx
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InterlockedDecrement
+InterlockedExchange
+InterlockedIncrement
+IsDebuggerPresent
+IsIconic
+IsValidCodePage
+IsWindow
+IsWindowEnabled
+IsWindowVisible
+JanFebMarAprMayJunJulAugSepOctNovDec
+January
+July
+June
+KERNEL32
+KERNEL32.dll
+LCMapStringA
+LCMapStringW
+LeaveCriticalSection
+LoadBitmapW
+LoadCursorW
+LoadIconW
+LoadLibraryA
+LoadLibraryExW
+LoadLibraryW
+LoadResource
+LocalAlloc
+LocalFree
+LocalReAlloc
+LockResource
+LresultFromObject
+MM/dd/yy
+MapWindowPoints
+March
+MessageBoxA
+MessageBoxW
+Microsoft Visual C++ Runtime Library
+ModifyMenuW
+Monday
+MonitorFromPoint
+MonitorFromRect
+MonitorFromWindow
+MultiByteToWideChar
+NKeb
+NotifyWinEvent
+November
+OLEACC.dll
 OLEAUT32.dll
-AitH264Capture.dll
-CallCreateObject
+October
+OffsetViewportOrgEx
+OpenPrinterW
+OutputDebugStringW
+PathFindExtensionW
+PathFindFileNameW
+PathRemoveFileSpecW
+PeekMessageW
+PostMessageW
+PostQuitMessage
+PtInRect
+PtVisible
+QueryPerformanceCounter
+R6002\r\n- floating point support not loaded\r\n
+R6008\r\n- not enough space for arguments\r\n
+R6009\r\n- not enough space for environment\r\n
+R6016\r\n- not enough space for thread data\r\n
+R6017\r\n- unexpected multithread lock error\r\n
+R6018\r\n- unexpected heap error\r\n
+R6019\r\n- unable to open console device\r\n
+R6024\r\n- not enough space for _onexit/atexit table\r\n
+R6025\r\n- pure virtual function call\r\n
+R6026\r\n- not enough space for stdio initialization\r\n
+R6027\r\n- not enough space for lowio initialization\r\n
+R6028\r\n- unable to initialize heap\r\n
+R6030\r\n- CRT not initialized\r\n
+R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
+R6032\r\n- not enough space for locale information\r\n
+R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
+R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
+RSDSO)
+RaiseException
+ReadFile
+RectVisible
+RegCloseKey
+RegCreateKeyExW
+RegDeleteKeyW
+RegEnumKeyW
+RegOpenKeyExW
+RegOpenKeyW
+RegQueryValueExW
+RegQueryValueW
+RegSetValueExW
+RegisterClassW
+RegisterWindowMessageW
+ReleaseActCtx
+ReleaseDC
+RemovePropW
+RestoreDC
+RtlUnwind
+Runtime Error!\n\nProgram: 
+S;uD
+SHLWAPI.dll
+SING error\r\n
+Saturday
+SaveDC
+ScaleViewportExtEx
+ScaleWindowExtEx
+SelectObject
+SendMessageW
+September
+SetBkColor
+SetCursor
+SetEndOfFile
+SetErrorMode
+SetFilePointer
+SetForegroundWindow
+SetHandleCount
+SetLastError
+SetMapMode
+SetMenu
+SetMenuItemBitmaps
+SetPropW
+SetStdHandle
+SetTextColor
+SetUnhandledExceptionFilter
+SetViewportExtEx
+SetViewportOrgEx
+SetWindowExtEx
+SetWindowLongW
+SetWindowPos
+SetWindowTextW
+SetWindowsHookExW
+ShowWindow
+SizeofResource
+Sleep
+SunMonTueWedThuFriSat
+Sunday
+SystemParametersInfoA
+TLOSS error\r\n
+TabbedTextOutW
+TerminateProcess
+TextOutW
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+TranslateMessage
+Tuesday
+USER32.DLL
+USER32.dll
+UnhandledExceptionFilter
+UnhookWindowsHookEx
+Unknown exception
+UnregisterClassW
+ValidateRect
+VirtualAlloc
+VirtualFree
+WINSPOOL.DRV
+Wednesday
+WideCharToMultiByte
+WinHelpW
+WriteConsoleA
+WriteConsoleW
+WriteFile
+WritePrivateProfileStringW
+\r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
+__based(
+__cdecl
+__clrcall
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+bad allocation
+bad exception
+d:\VCProject\SecMPTool\release\AitH264Capture.pdb
+dddd, MMMM dd, yyyy
+e+000
+hhctrl.ocx
+invalid string position
+kU'9
+list<T> too long
+lstrcmpA
+lstrcmpW
+lstrlenA
+lstrlenW
+m1\f|1
+ole32.dll
+operator
+qH264
+qMJPG
+qUYVY
+qYUY2
+runtime error 
+string too long
+vids
+xppwpp
+xpxxxx
+z?aUY
+zc%C1

@@ -1,152 +1,69 @@
+!weakref.load()
+!x->ref.isStatic()
+.?AVQICNSHandler@@
 .?AVQICNSPlugin@@
+.?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
 .?AVQObject@@
-.?AVQICNSHandler@@
-.?AVQImageIOHandler@@
-.?AVtype_info@@
 .?AVbad_alloc@std@@
-.?AVexception@std@@
 .?AVbad_array_new_length@std@@
-QICNSPlugin
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qbytearray.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-!weakref.load()
-strongref.load() <= 0
-icns
-ba.ref.isStatic()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
-bool __cdecl QICNSHandler::canRead(class QIODevice *)
-qicnshandler.cpp
-QICNSHandler::canRead() called without a readable device
-bool __cdecl QICNSHandler::canRead(class QIODevice *)
-qicnshandler.cpp
+.?AVexception@std@@
+.?AVtype_info@@
+F:\qt5\qtimageformats\plugins\imageformats\qicnsd.pdb
+InitializeConditionVariable
+PNG\r\n
 QICNSHandler::canRead() called on a sequential device
-bool __cdecl QICNSHandler::read(class QImage *)
-qicnshandler.cpp
-x == d
-QICNSHandler::read(): The device wasn't parsed properly!
-x == d
-bool __cdecl QICNSHandler::read(class QImage *)
-qicnshandler.cpp
-unknown
-QICNSHandler::read(): Failed, unsupported icon bit depth: %u, OSType: "%s"
-bool __cdecl QICNSHandler::read(class QImage *)
-qicnshandler.cpp
-qRegisterNormalizedMetaType
-qicnshandler.cpp
+QICNSHandler::canRead() called without a readable device
 QICNSHandler::read(): Failed, compressed format "%s" is not supported by your Qt library or this file is corrupt. OSType: "%s"
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-bool __cdecl QICNSHandler::scanDevice(void)
-qicnshandler.cpp
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
+QICNSHandler::read(): Failed, unsupported icon bit depth: %u, OSType: "%s"
+QICNSHandler::read(): The device wasn't parsed properly!
 QICNSHandler::scanDevice(): Failed, bad header at pos %s. OSType "%s", length %u
-bool __cdecl QICNSHandler::scanDevice(void)
 QICNSHandler::scanDevice(): Failed, file is incomplete.
-bool __cdecl QICNSHandler::scanDevice(void)
-qicnshandler.cpp
-bool __cdecl QICNSHandler::scanDevice(void)
-qicnshandler.cpp
-Scan of the icon variant container ("%s") failed at pos %s.\nReason: Scan didn't reach the end of this container's block, delta: %s bytes. This file may be corrupted.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-!x->ref.isStatic()
 QICNSHandler::scanDevice(): Warning! Table of contents contains a bad entry! Stop at device pos: %s bytes. This file may be corrupted.
-asize >= 0 && asize <= aalloc
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-int(d->alloc) == aalloc
-x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-isDetached()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->data()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-uint(d->size) <= d->alloc
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d != Data::unsharableEmpty()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->alloc >= uint(aalloc)
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->size == asize
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-!x->ref.isStatic()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-asize >= 0 && asize <= aalloc
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-int(d->alloc) == aalloc
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-isDetached()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->data()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-uint(d->size) <= d->alloc
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d != Data::unsharableEmpty()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->alloc >= uint(aalloc)
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-d->size == asize
-qicnshandler.cpp
+QICNSPlugin
+QVector<T>::at
 Q_UNREACHABLE was reached
 Q_UNREACHABLE()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType
-bool __cdecl parseIconEntryInfo(struct ICNSEntry &)
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qicnshandler.cpp
-parseIconEntryInfo(): Failed, OSType doesn't match: "%s"
-bool __cdecl parseIconEntryInfo(struct ICNSEntry &)
-qicnshandler.cpp
-qicnshandler.cpp
-parseIconEntryInfo(): Failed, 32bit icon from an unknown group. OSType: "%s"
-class QImage __cdecl readMask(const struct ICNSEntry &,class QDataStream &)
-readMask(): Failed, unusual bit depth: %u OSType: "%s"
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qstring.h
-PNG\r\n
-\fjP  \r\n
-icns
-icns
-icns
-str.ref.isStatic()
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
-isDetached()
-index out of range
-QVector<T>::at
-InitializeConditionVariable
+RSDS
+Scan of the icon variant container ("%s") failed at pos %s.\nReason: Scan didn't reach the end of this container's block, delta: %s bytes. This file may be corrupted.
 SleepConditionVariableCS
-WakeAllConditionVariable
 Unknown exception
+WakeAllConditionVariable
+aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
+asize >= 0 && asize <= aalloc
+ba.ref.isStatic()
 bad allocation
 bad array new length
-RSDS
-F:\qt5\qtimageformats\plugins\imageformats\qicnsd.pdb
-\fp\v`
-\vp\n`
+bool __cdecl QICNSHandler::canRead(class QIODevice *)
+bool __cdecl QICNSHandler::read(class QImage *)
+bool __cdecl QICNSHandler::scanDevice(void)
+bool __cdecl parseIconEntryInfo(struct ICNSEntry &)
+class QImage __cdecl readMask(const struct ICNSEntry &,class QDataStream &)
+d != Data::unsharableEmpty()
+d->alloc >= uint(aalloc)
+d->data()
+d->size == asize
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qbytearray.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qstring.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
+icns
+index out of range
+int(d->alloc) == aalloc
+isDetached()
+parseIconEntryInfo(): Failed, 32bit icon from an unknown group. OSType: "%s"
+parseIconEntryInfo(): Failed, OSType doesn't match: "%s"
+qRegisterNormalizedMetaType
+qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
 qicnsd.dll
+qicnshandler.cpp
 qt_plugin_instance
 qt_plugin_query_metadata
+readMask(): Failed, unusual bit depth: %u OSType: "%s"
+str.ref.isStatic()
+strongref.load() <= 0
+uint(d->size) <= d->alloc
+unknown
+x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)

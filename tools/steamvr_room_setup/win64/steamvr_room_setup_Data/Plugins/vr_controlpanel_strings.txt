@@ -1,530 +1,296 @@
                           
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-kU'9
-HMXB
-?q=\n
-?Zd;
-?/L[
-S;uD
-z?aUY
-D?$?
-U>c{
-zc%C1
-.:3q
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ Type Descriptor'
+ delete
+ delete[]
+ for detail.\n
+ new
+%a %b %d %H:%M:%S %Y
+%a %b %d %Y %H:%M:%S.%%03u
+' is not a number.
+( 8PX
+('8PW
+(null)
 -64OS
-NKeb
-Copyright (c) 1992-2004 by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
-.?AVerror_category@std@@
+.?AVDefaultValueAllocator@Json@@
+.?AVValueAllocator@Json@@
 .?AV_Generic_error_category@std@@
 .?AV_Iostream_error_category@std@@
 .?AV_System_error_category@std@@
-.?AVruntime_error@std@@
-.?AVexception@std@@
-.?AVValueAllocator@Json@@
-.?AVDefaultValueAllocator@Json@@
 .?AVbad_alloc@std@@
-.?AVtype_info@@
 .?AVbad_exception@std@@
-.?AVlogic_error@std@@
+.?AVerror_category@std@@
+.?AVexception@std@@
 .?AVlength_error@std@@
+.?AVlogic_error@std@@
 .?AVout_of_range@std@@
-IVRRenderModels_002
-IVRControlPanel_001
-IVRSettings_001
-IVRSystem_010
-IVRExtendedDisplay_001
-IVRTrackedCamera_001
-IVRClientCore_002
-IVRApplications_002
-IVRChaperone_003
-IVRChaperoneSetup_004
-IVRDashboardManager_001
-IVRCompositor_009
-VR_OVERRIDE
-VR_CONFIG_PATH
-VR_LOG_PATH
-IVROverlay_008
-generic
-unknown error
-iostream
-iostream stream error
-system
-vrclient_x64.dll
-VRClientCoreFactory
-string too long
-invalid string position
-opengl32.dll
-glGetFramebufferAttachmentParameteriv
-No Error (0)
-Installation Not Found (100)
-Installation Corrupt (101)
-vrclient Shared Lib Not Found (102)
-File Not Found (103)
-Factory Function Not Found (104)
-Interface Not Found (105)
-Invalid Interface (106)
-User Config Directory Invalid (107)
-Hmd Not Found (108)
-Not Initialized (109)
-Installation path could not be located (110)
-Config path could not be located (111)
-Log path could not be located (112)
-Unable to write path registry (113)
-App info manager init failed (114)
-Internal Retry (115)
-User Canceled Init (116)
+.?AVruntime_error@std@@
+.?AVtype_info@@
+0123456789abcdefABCDEF
+0123456789abcdefghijklmnopqrstuvwxyz
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+2\vpX
+700PP
+700WP
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+A valid JSON document must be either an array or an object value.
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADVAPI32.dll
 Another app was already launching (117)
-Settings manager init failed (118)
-VR system shutting down (119)
-Too many tracked objects (120)
-Not starting vrserver for background app (121)
-The requested interface is in compatible with the compositor and the compositor is running (122)
-This interface is not availble to utility applications (123)
+App info manager init failed (114)
+April
+AreFileApisANSI
+August
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+CloseHandle
+CloseThreadpoolTimer
+CloseThreadpoolWait
+Comments must start with /
+CompareStringEx
+CompareStringW
+Config path could not be located (111)
+Connect to VR Server Failed (301)
+Copyright (c) 1992-2004 by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
+CorExitProcess
+CreateEventExW
+CreateFile2
+CreateFileW
+CreateSemaphoreExW
+CreateSymbolicLinkW
+CreateThreadpoolTimer
+CreateThreadpoolWait
+December
+DecodePointer
+DeleteCriticalSection
+Device Calibration is invalid (207)
+Device is not calibrated (206)
 Driver Failed (200)
 Driver Not Known (201)
-HMD Not Known (202)
 Driver Not Loaded (203)
 Driver runtime is out of date (204)
+Empty escape sequence in string
+EncodePointer
+EnterCriticalSection
+EnumSystemLocalesEx
+EventRegister
+EventWriteString
+ExitProcess
+Factory Function Not Found (104)
+February
+File Not Found (103)
+FileTimeToLocalFileTime
+FileTimeToSystemTime
+FindClose
+FindFirstFileExW
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryWhenCallbackReturns
+Friday
+GetACP
+GetActiveWindow
+GetCPInfo
+GetCommandLineA
+GetConsoleCP
+GetConsoleMode
+GetCurrentDirectoryW
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentThreadId
+GetDateFormatEx
+GetDateFormatW
+GetDriveTypeW
+GetEnvironmentStringsW
+GetEnvironmentVariableA
+GetFileInformationByHandle
+GetFileInformationByHandleExW
+GetFileType
+GetFullPathNameW
+GetLastActivePopup
+GetLastError
+GetLocaleInfoEx
+GetLogicalProcessorInformation
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetProcessWindowStation
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTime
+GetSystemTimeAsFileTime
+GetTickCount64
+GetTimeFormatEx
+GetTimeFormatW
+GetTimeZoneInformation
+GetUserDefaultLocaleName
+GetUserObjectInformationW
+HH:mm:ss
+HMD Not Known (202)
 HMD already in use by another application (205)
-Device is not calibrated (206)
-Device Calibration is invalid (207)
 HMD detected over USB, but Monitor not found (208)
-VR Server Init Failed (300)
-Connect to VR Server Failed (301)
-Shared IPC State Init Failed (302)
-Shared IPC Compositor Init Failed (303)
-Shared IPC Mutex Init Failed (304)
-Shared IPC Failed (305)
-Unable to connect to Oculus Runtime (1000)
 HMD found, but (1100)
 HMD found, but can not open device (1101)
-HMD found, but unable to request config (1102)
-HMD found, but no stored config (1103)
-HMD found, but failed configuration check (1113)
 HMD found, but config too big (1104)
 HMD found, but config too small (1105)
-HMD found, but unable to init ZLib (1106)
+HMD found, but failed configuration check (1113)
+HMD found, but no stored config (1103)
 HMD found, but problems with the data (1107)
 HMD found, but problems with the data (1108)
 HMD found, but problems with the data (1109)
 HMD found, but problems with the data (1110)
 HMD found, but problems with the data (1111)
 HMD found, but problems with the data (1112)
-Unable to find Steam installation (2000)
-Unknown error (%d)
-VRInitError_None
-VRInitError_Unknown
-VRInitError_Init_InstallationNotFound
-VRInitError_Init_InstallationCorrupt
-VRInitError_Init_VRClientDLLNotFound
-VRInitError_Init_FileNotFound
-VRInitError_Init_FactoryNotFound
-VRInitError_Init_InterfaceNotFound
-VRInitError_Init_InvalidInterface
-VRInitError_Init_HmdNotFound
-VRInitError_Init_NotInitialized
-VRInitError_Init_PathRegistryNotFound
-VRInitError_Init_NoConfigPath
-VRInitError_Init_NoLogPath
-VRInitError_Init_PathRegistryNotWritable
-VRInitError_Init_AppInfoInitFailed
-VRInitError_Init_Retry
-VRInitError_Init_InitCanceledByUser
-VRInitError_Init_AnotherAppLaunching
-VRInitError_Init_NotAvailableToUtilityApps
-VRInitError_Init_SettingsInitFailed
-VRInitError_Driver_Failed
-VRInitError_Driver_Unknown
-VRInitError_Driver_HmdUnknown
-VRInitError_Driver_NotLoaded
-VRInitError_Driver_RuntimeOutOfDate
-VRInitError_Driver_HmdInUse
-VRInitError_Driver_NotCalibrated
-VRInitError_Driver_CalibrationInvalid
-VRInitError_Driver_HmdDisplayNotFound
-VRInitError_IPC_ServerInitFailed
-VRInitError_IPC_ConnectFailed
-VRInitError_IPC_SharedStateInitFailed
-VRInitError_IPC_CompositorInitFailed
-VRInitError_IPC_MutexInitFailed
-VRInitError_IPC_Failed
-VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
-VRInitError_VendorSpecific_HmdFound_But
-VRInitError_VendorSpecific_HmdFound_CantOpenDevice
-VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart
-VRInitError_VendorSpecific_HmdFound_NoStoredConfig
-VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck
-VRInitError_VendorSpecific_HmdFound_ConfigTooBig
-VRInitError_VendorSpecific_HmdFound_ConfigTooSmall
-VRInitError_VendorSpecific_HmdFound_UnableToInitZLib
-VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion
-VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
-VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart
-VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext
-VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
-VRInitError_VendorSpecific_HmdFound_UserDataError
-VRInitError_Steam_SteamInstallationNotFound
-openvrpaths.vrpath
-openvr
-VR Path Registry node %s is not an array\n
-Unable to determine VR Path Registry filename\n
-Unable to read VR Path Registry from %s\n
-Unable to parse %s: %s\n
-runtime
-config
-vector<T> too long
-8c8f13b1-60eb-4b6a-a433-de86104115ac
-false
-true
-Comments must start with /
-Type is not convertible to string
-map/set<T> too long
-A valid JSON document must be either an array or an object value.
-Syntax error: value, object or array expected.
-alse
-Missing ':' after object member name
-Missing ',' or '}' in object declaration
-Missing '}' or object member name
-Missing ',' or ']' in array declaration
-' is not a number.
-Empty escape sequence in string
-Bad escape sequence in string
-additional six characters expected to parse unicode surrogate pair.
-expecting another \u token to begin the second half of a unicode surrogate pair
-Bad unicode escape sequence in string: four digits expected.
-Bad unicode escape sequence in string: hexadecimal digit expected.
-Line %d, Column %d
- for detail.\n
-See 
-deque<T> too long
-%s - 
-MainThrd
-Out of thread local storage!\n
-%a %b %d %Y %H:%M:%S.%%03u
-%a %b %d %H:%M:%S %Y
-bad allocation
-_hypot
-Unknown exception
-e+000
-CorExitProcess
-bad exception
-FlsAlloc
-FlsFree
-FlsGetValue
-FlsSetValue
+HMD found, but unable to init ZLib (1106)
+HMD found, but unable to request config (1102)
+HMXB
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+Hmd Not Found (108)
+IVRApplications_002
+IVRChaperoneSetup_004
+IVRChaperone_003
+IVRClientCore_002
+IVRCompositor_009
+IVRControlPanel_001
+IVRDashboardManager_001
+IVRExtendedDisplay_001
+IVROverlay_008
+IVRRenderModels_002
+IVRSettings_001
+IVRSystem_010
+IVRTrackedCamera_001
+InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
-CreateEventExW
-CreateSemaphoreExW
-SetThreadStackGuarantee
-CreateThreadpoolTimer
-SetThreadpoolTimer
-WaitForThreadpoolTimerCallbacks
-CloseThreadpoolTimer
-CreateThreadpoolWait
-SetThreadpoolWait
-CloseThreadpoolWait
-FlushProcessWriteBuffers
-FreeLibraryWhenCallbackReturns
-GetCurrentProcessorNumber
-GetLogicalProcessorInformation
-CreateSymbolicLinkW
-SetDefaultDllDirectories
-EnumSystemLocalesEx
-CompareStringEx
-GetDateFormatEx
-GetLocaleInfoEx
-GetTimeFormatEx
-GetUserDefaultLocaleName
+Installation Corrupt (101)
+Installation Not Found (100)
+Installation path could not be located (110)
+Interface Not Found (105)
+Internal Retry (115)
+Invalid Interface (106)
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
 IsValidLocaleName
-LCMapStringEx
-GetCurrentPackageId
-GetTickCount64
-GetFileInformationByHandleExW
-SetFileInformationByHandleW
-UTF-8
-UTF-16LE
-UNICODE
-(null)
-( 8PX
-700WP
-`h````
-xpxxxx
-Sunday
-Monday
-Tuesday
-Wednesday
-Thursday
-Friday
-Saturday
-January
-February
-March
-April
-June
-July
-August
-September
-October
-November
-December
-MM/dd/yy
-dddd, MMMM dd, yyyy
-HH:mm:ss
-('8PW
-700PP
-`h`hhh
-xppwpp
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-SunMonTueWedThuFriSat
 JanFebMarAprMayJunJulAugSepOctNovDec
-log10
-sinh
-cosh
-tanh
-asin
-acos
-atan
-atan2
-sqrt
-ceil
-floor
-fabs
-modf
-ldexp
-_cabs
-fmod
-frexp
-_logb
-_nextafter
-__based(
-__cdecl
-__pascal
-__stdcall
-__thiscall
-__fastcall
-__vectorcall
-__clrcall
-__eabi
-__ptr64
-__restrict
-__unaligned
-restrict(
- new
- delete
-operator
-`vftable'
-`vbtable'
-`vcall'
-`typeof'
-`local static guard'
-`string'
-`vbase destructor'
-`vector deleting destructor'
-`default constructor closure'
-`scalar deleting destructor'
-`vector constructor iterator'
-`vector destructor iterator'
-`vector vbase constructor iterator'
-`virtual displacement map'
-`eh vector constructor iterator'
-`eh vector destructor iterator'
-`eh vector vbase constructor iterator'
-`copy constructor closure'
-`udt returning'
-`RTTI
-`local vftable'
-`local vftable constructor closure'
- new[]
- delete[]
-`omni callsig'
-`placement delete closure'
-`placement delete[] closure'
-`managed vector constructor iterator'
-`managed vector destructor iterator'
-`eh vector copy constructor iterator'
-`eh vector vbase copy constructor iterator'
-`dynamic initializer for '
-`dynamic atexit destructor for '
-`vector copy constructor iterator'
-`vector vbase copy constructor iterator'
-`managed vector copy constructor iterator'
-`local static thread guard'
- Type Descriptor'
- Base Class Descriptor at (
- Base Class Array'
- Class Hierarchy Descriptor'
- Complete Object Locator'
-CreateFile2
+January
+July
+June
+KERNEL32.dll
+LCMapStringEx
+LCMapStringW
+LeaveCriticalSection
+Line %d, Column %d
+LoadLibraryExA
+LoadLibraryExW
+Log path could not be located (112)
+MM/dd/yy
+MainThrd
+March
 MessageBoxW
-GetActiveWindow
-GetLastActivePopup
-GetUserObjectInformationW
-GetProcessWindowStation
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-1#SNAN
-1#IND
-1#INF
-1#QNAN
-permission denied
-file exists
-no such device
-filename too long
-device or resource busy
-io error
-directory not empty
-invalid argument
-no space on device
-no such file or directory
-function not supported
-no lock available
-not enough memory
-resource unavailable try again
-cross device link
-operation canceled
-too many files open
-permission_denied
-address_in_use
-address_not_available
-address_family_not_supported
-connection_already_in_progress
-bad_file_descriptor
-connection_aborted
-connection_refused
-connection_reset
-destination_address_required
-bad_address
-host_unreachable
-operation_in_progress
-interrupted
-invalid_argument
-already_connected
-too_many_files_open
-message_size
-filename_too_long
-network_down
-network_reset
-network_unreachable
-no_buffer_space
-no_protocol_option
-not_connected
-not_a_socket
-operation_not_supported
-protocol_not_supported
-wrong_protocol_type
-timed_out
-operation_would_block
-address family not supported
-address in use
-address not available
-already connected
-argument list too long
-argument out of domain
-bad address
-bad file descriptor
-bad message
-broken pipe
-connection aborted
-connection already in progress
-connection refused
-connection reset
-destination address required
-executable format error
-file too large
-host unreachable
-identifier removed
-illegal byte sequence
-inappropriate io control operation
-invalid seek
-is a directory
-message size
-network down
-network reset
-network unreachable
-no buffer space
-no child process
-no link
-no message available
-no message
-no protocol option
-no stream resources
-no such device or address
-no such process
-not a directory
-not a socket
-not a stream
-not connected
-not supported
-operation in progress
-operation not permitted
-operation not supported
-operation would block
-owner dead
-protocol error
-protocol not supported
-read only file system
-resource deadlock would occur
-result out of range
-state not recoverable
-stream timeout
-text file busy
-timed out
-too many files open in system
-too many links
-too many symbolic link levels
-value too large
-wrong protocol type
-0123456789abcdefghijklmnopqrstuvwxyz
-\r\f\v\v\n\n\t\t\t\t\t
-0123456789abcdefghijklmnopqrstuvwxyz
-\r\r\r\r\r\r
-0123456789abcdefABCDEF
-\t\n\v\f\r
-\n\v\f\r
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+Monday
+MultiByteToWideChar
+NKeb
+No Error (0)
+Not Initialized (109)
+Not starting vrserver for background app (121)
+November
+OPENGL32.dll
+October
+Out of thread local storage!\n
+OutputDebugStringA
+OutputDebugStringW
+PeekNamedPipe
+QueryPerformanceCounter
+RPCRT4.dll
 RSDS
-c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Release\win64\openvr_api.pdb
-2\v`!
-2\vp!
-\fp\v`
-\rB\tp
-2\vp!
-\fp\v`
-2\vp!
-2\v`!
-\fp\vP
-\fp\v`
-\fp\v`
-2\vpX
-\rp\f`\vP
-2\vpX
-2\vpX
-p\r`\f0\vP
-\rp\f`\vP
-\rp\f`\t
-\rp\f`\vP
 R\vpX
-\vp\n`X
-R\vpX
-\fp\v`
-\rp\f`\v0\nP
-\vp\n`X
-\vp\n`X
-\vp\n`X
-\vp\n`X
-\fp\v`
-\fp\v`
-\fp\v`
-\fp\v`
-\fp\v`
-\fp\v`
-openvr_api.dll
+RaiseException
+ReadConsoleW
+ReadFile
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+S;uD
+SHELL32.dll
+SHGetFolderPathW
+Saturday
+See 
+September
+SetDefaultDllDirectories
+SetEndOfFile
+SetEnvironmentVariableA
+SetFileInformationByHandleW
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetThreadStackGuarantee
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUnhandledExceptionFilter
+Settings manager init failed (118)
+Shared IPC Compositor Init Failed (303)
+Shared IPC Failed (305)
+Shared IPC Mutex Init Failed (304)
+Shared IPC State Init Failed (302)
+Sleep
+SunMonTueWedThuFriSat
+Sunday
+Syntax error: value, object or array expected.
+SystemTimeToFileTime
+SystemTimeToTzSpecificLocalTime
+TerminateProcess
+The requested interface is in compatible with the compositor and the compositor is running (122)
+This interface is not availble to utility applications (123)
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Too many tracked objects (120)
+Tuesday
+Type is not convertible to string
+UNICODE
+UTF-16LE
+UTF-8
+Unable to connect to Oculus Runtime (1000)
+Unable to determine VR Path Registry filename\n
+Unable to find Steam installation (2000)
+Unable to parse %s: %s\n
+Unable to read VR Path Registry from %s\n
+Unable to write path registry (113)
+UnhandledExceptionFilter
 UnityHooks_EventWriteString
 UnityHooks_GetRenderEventFunc
 UnityHooks_SetColorSpace
@@ -532,18 +298,80 @@ UnityHooks_SetSubmitParams
 UnityPluginLoad
 UnityRenderEvent
 UnitySetGraphicsDevice
+Unknown error (%d)
+Unknown exception
+User Canceled Init (116)
+User Config Directory Invalid (107)
+UuidFromStringA
+VR Path Registry node %s is not an array\n
+VR Server Init Failed (300)
+VR system shutting down (119)
 VRApplications
 VRChaperone
 VRChaperoneSetup
+VRClientCoreFactory
 VRCompositor
 VRControlPanel
 VRDashboardManager
 VRExtendedDisplay
+VRInitError_Driver_CalibrationInvalid
+VRInitError_Driver_Failed
+VRInitError_Driver_HmdDisplayNotFound
+VRInitError_Driver_HmdInUse
+VRInitError_Driver_HmdUnknown
+VRInitError_Driver_NotCalibrated
+VRInitError_Driver_NotLoaded
+VRInitError_Driver_RuntimeOutOfDate
+VRInitError_Driver_Unknown
+VRInitError_IPC_CompositorInitFailed
+VRInitError_IPC_ConnectFailed
+VRInitError_IPC_Failed
+VRInitError_IPC_MutexInitFailed
+VRInitError_IPC_ServerInitFailed
+VRInitError_IPC_SharedStateInitFailed
+VRInitError_Init_AnotherAppLaunching
+VRInitError_Init_AppInfoInitFailed
+VRInitError_Init_FactoryNotFound
+VRInitError_Init_FileNotFound
+VRInitError_Init_HmdNotFound
+VRInitError_Init_InitCanceledByUser
+VRInitError_Init_InstallationCorrupt
+VRInitError_Init_InstallationNotFound
+VRInitError_Init_InterfaceNotFound
+VRInitError_Init_InvalidInterface
+VRInitError_Init_NoConfigPath
+VRInitError_Init_NoLogPath
+VRInitError_Init_NotAvailableToUtilityApps
+VRInitError_Init_NotInitialized
+VRInitError_Init_PathRegistryNotFound
+VRInitError_Init_PathRegistryNotWritable
+VRInitError_Init_Retry
+VRInitError_Init_SettingsInitFailed
+VRInitError_Init_VRClientDLLNotFound
+VRInitError_None
+VRInitError_Steam_SteamInstallationNotFound
+VRInitError_Unknown
+VRInitError_VendorSpecific_HmdFound_But
+VRInitError_VendorSpecific_HmdFound_CantOpenDevice
+VRInitError_VendorSpecific_HmdFound_CantReadFirmwareVersion
+VRInitError_VendorSpecific_HmdFound_ConfigFailedSanityCheck
+VRInitError_VendorSpecific_HmdFound_ConfigTooBig
+VRInitError_VendorSpecific_HmdFound_ConfigTooSmall
+VRInitError_VendorSpecific_HmdFound_NoStoredConfig
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataNext
+VRInitError_VendorSpecific_HmdFound_UnableToGetUserDataStart
+VRInitError_VendorSpecific_HmdFound_UnableToInitZLib
+VRInitError_VendorSpecific_HmdFound_UnableToRequestConfigStart
+VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
+VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
+VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VROverlay
 VRRenderModels
 VRSettings
 VRSystem
 VRTrackedCamera
+VR_CONFIG_PATH
 VR_GetGenericInterface
 VR_GetStringForHmdError
 VR_GetVRInitErrorAsEnglishDescription
@@ -796,105 +624,226 @@ VR_IVRTrackedCamera_UnlockSharedTextureGL
 VR_Init
 VR_IsHmdPresent
 VR_IsRuntimeInstalled
+VR_LOG_PATH
+VR_OVERRIDE
 VR_Shutdown
-wglGetProcAddress
-OPENGL32.dll
-UuidFromStringA
-EventRegister
-EventWriteString
-RPCRT4.dll
-ADVAPI32.dll
-GetModuleHandleA
-FreeLibrary
-GetLastError
-GetModuleFileNameA
-GetModuleFileNameW
+WaitForThreadpoolTimerCallbacks
+Wednesday
 WideCharToMultiByte
-GetProcAddress
-LoadLibraryExA
-EnterCriticalSection
-LeaveCriticalSection
-OutputDebugStringA
-GetEnvironmentVariableA
-SetEnvironmentVariableA
-FindClose
-IsDebuggerPresent
-GetCurrentProcess
-GetCurrentProcessId
-TerminateProcess
-RaiseException
-GetCurrentThreadId
-SetLastError
-InitializeCriticalSectionAndSpinCount
-DeleteCriticalSection
-Sleep
-CloseHandle
-TlsAlloc
-TlsGetValue
-TlsSetValue
-TlsFree
-MultiByteToWideChar
-CreateFileW
-GetSystemTime
-SystemTimeToFileTime
-QueryPerformanceCounter
-EncodePointer
-DecodePointer
-RtlPcToFileHeader
-RtlLookupFunctionEntry
-RtlUnwindEx
-GetCommandLineA
-ReadFile
-GetDriveTypeW
-HeapFree
-HeapAlloc
-IsProcessorFeaturePresent
-GetSystemTimeAsFileTime
-ExitProcess
-GetModuleHandleExW
-AreFileApisANSI
-HeapSize
-GetProcessHeap
-GetStdHandle
-GetFileType
-GetStartupInfoW
-GetEnvironmentStringsW
-FreeEnvironmentStringsW
-RtlCaptureContext
-RtlVirtualUnwind
-UnhandledExceptionFilter
-SetUnhandledExceptionFilter
-GetModuleHandleW
-GetConsoleMode
-ReadConsoleW
-SetFilePointerEx
-WriteFile
-GetConsoleCP
-GetCurrentDirectoryW
-FindFirstFileExW
-SystemTimeToTzSpecificLocalTime
-FileTimeToSystemTime
-FlushFileBuffers
-IsValidCodePage
-GetACP
-GetOEMCP
-GetCPInfo
-GetTimeZoneInformation
-GetDateFormatW
-GetTimeFormatW
-CompareStringW
-LCMapStringW
-LoadLibraryExW
-HeapReAlloc
-SetStdHandle
 WriteConsoleW
-FileTimeToLocalFileTime
-GetFileInformationByHandle
-PeekNamedPipe
-GetFullPathNameW
-OutputDebugStringW
-GetStringTypeW
-SetEndOfFile
-KERNEL32.dll
-SHGetFolderPathW
-SHELL32.dll
+WriteFile
+\r\f\v\v\n\n\t\t\t\t\t
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_hypot
+_logb
+_nextafter
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+acos
+additional six characters expected to parse unicode surrogate pair.
+address family not supported
+address in use
+address not available
+address_family_not_supported
+address_in_use
+address_not_available
+already connected
+already_connected
+alse
+argument list too long
+argument out of domain
+asin
+atan
+atan2
+bad address
+bad allocation
+bad exception
+bad file descriptor
+bad message
+bad_address
+bad_file_descriptor
+broken pipe
+c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Release\win64\openvr_api.pdb
+ceil
+config
+connection aborted
+connection already in progress
+connection refused
+connection reset
+connection_aborted
+connection_already_in_progress
+connection_refused
+connection_reset
+cosh
+cross device link
+dddd, MMMM dd, yyyy
+deque<T> too long
+destination address required
+destination_address_required
+device or resource busy
+directory not empty
+e+000
+executable format error
+expecting another \u token to begin the second half of a unicode surrogate pair
+fabs
+false
+file exists
+file too large
+filename too long
+filename_too_long
+floor
+fmod
+frexp
+function not supported
+generic
+glGetFramebufferAttachmentParameteriv
+host unreachable
+host_unreachable
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+interrupted
+invalid argument
+invalid seek
+invalid string position
+invalid_argument
+io error
+iostream
+iostream stream error
+is a directory
+kU'9
+ldexp
+log10
+map/set<T> too long
+message size
+message_size
+modf
+network down
+network reset
+network unreachable
+network_down
+network_reset
+network_unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+no_buffer_space
+no_protocol_option
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+not_a_socket
+not_connected
+opengl32.dll
+openvr
+openvr_api.dll
+openvrpaths.vrpath
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operation_in_progress
+operation_not_supported
+operation_would_block
+operator
+owner dead
+permission denied
+permission_denied
+protocol error
+protocol not supported
+protocol_not_supported
+read only file system
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+runtime
+sinh
+sqrt
+state not recoverable
+stream timeout
+string too long
+system
+tanh
+text file busy
+timed out
+timed_out
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+too_many_files_open
+true
+unknown error
+value too large
+vector<T> too long
+vrclient Shared Lib Not Found (102)
+vrclient_x64.dll
+wglGetProcAddress
+wrong protocol type
+wrong_protocol_type
+xppwpp
+xpxxxx
+z?aUY
+zc%C1

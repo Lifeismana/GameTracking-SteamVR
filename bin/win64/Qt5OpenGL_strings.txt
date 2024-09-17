@@ -1,276 +1,137 @@
-.?AVQObject@@
-.?AVQWindow@@
-.?AVQSurface@@
-.?AVQOpenGLContext@@
-.?AVQGLContext@@
-.?AVQGLWidget@@
-.?AVQWidget@@
-.?AVQPaintDevice@@
-.?AVQObjectPrivate@@
-.?AVQObjectData@@
-.?AVQGLWidgetPrivate@@
-.?AVQWidgetPrivate@@
-.?AVQOpenGLSharedResourceGuard@@
-.?AVQOpenGLSharedResource@@
-.?AVQGLSignalProxy@@
-.?AVQGLCustomShaderStage@@
-.?AUQGLFunctionsPrivateEx@@
-.?AUQGLFunctionsPrivate@@
-.?AVQGLPixelBuffer@@
-.?AVQOpenGLFramebufferObject@@
-.?AVQGLPBufferGLPaintDevice@@
-.?AVQGLPaintDevice@@
-.?AVQGLFramebufferObject@@
-.?AVQGLFBOGLPaintDevice@@
-.?AVQGLSharedResourceGuardBase@@
-.?AV?$QGLSharedResourceGuard@P6AXPEAVQGLContext@@I@Z@@
-.?AVQGLWidgetGLPaintDevice@@
-.?AVQGLShaderProgram@@
-.?AVQGLShaderPrivate@@
-.?AVQGLShader@@
-.?AVQGLShaderProgramPrivate@@
-.?AVQGraphicsEffectPrivate@@
-.?AVQGLCustomShaderEffectStage@@
-.?AVQGraphicsShaderEffectPrivate@@
-.?AVQGraphicsShaderEffect@@
-.?AVQGraphicsEffect@@
-.?AVQGL2GradientCache@@
-.?AVQGLEngineShaderManager@@
-.?AVQGLEngineSharedShadersResource@@
-.?AVQGL2PaintEngineEx@@
-.?AVQPaintEngineEx@@
-.?AVQPaintEngine@@
-.?AVQGL2PaintEngineExPrivate@@
-.?AVQPaintEngineExPrivate@@
-.?AVQPaintEnginePrivate@@
-.?AVQOpenGLExtensions@@
-.?AVQOpenGLFunctions@@
-.?AVQGLTextureGlyphCache@@
-.?AVQImageTextureGlyphCache@@
-.?AVQTextureGlyphCache@@
-.?AVQFontEngineGlyphCache@@
-.?AVQSharedData@@
-.?AVQGL2PaintEngineState@@
-.?AVQPainterState@@
-.?AVQPaintEngineState@@
-.?AVQStaticTextUserData@@
-.?AVQOpenGLStaticTextUserData@?A0x3245cc19@@
-.?AUQGLGlyphTexture@@
-.?AVtype_info@@
-.?AVbad_alloc@std@@
-.?AVexception@std@@
-.?AVbad_array_new_length@std@@
-QGLFormat::setSamples: Cannot have negative number of samples per pixel %d
-QGLFormat::setDepthBufferSize: Cannot set negative depth buffer size %d
-QGLFormat::setRedBufferSize: Cannot set negative red buffer size %d
-QGLFormat::setGreenBufferSize: Cannot set negative green buffer size %d
-QGLFormat::setBlueBufferSize: Cannot set negative blue buffer size %d
-QGLFormat::setAlphaBufferSize: Cannot set negative alpha buffer size %d
-QGLFormat::setAccumBufferSize: Cannot set negative accumulate buffer size %d
-QGLFormat::setStencilBufferSize: Cannot set negative stencil buffer size %d
-QGLFormat::setVersion: Cannot set zero or negative version number %d.%d
-OpenGL ES
-Unrecognised OpenGL ES version
-QGLFormat(
-options 
-, plane 
-, depthBufferSize 
+    lowp vec4 customShader(lowp sampler2D imageTexture, highp vec2 textureCoords) {         return texture2D(imageTexture, textureCoords);     }\n
+  Error Log:\n
+ !?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
+ ?glGetBufferParameteriv@QOpenGLFunctions@@QEAAXIIPEAH@Z
+ ?glGetBufferSubData@QOpenGLExtensions@@QEAAXI_J0PEAX@Z
+ ?updatesEnabled@QWidget@@QEBA_NXZ
+ T?setDevicePixelRatio@QImage@@QEAAXN@Z
+!?glGetError@QOpenGLFunctions@@QEAAIXZ
+!?glGetFloatv@QOpenGLFunctions@@QEAAXIPEAM@Z
+!?glGetFramebufferAttachmentParameteriv@QOpenGLFunctions@@QEAAXIIIPEAH@Z
+!C?glUseProgram@QOpenGLFunctions@@QEAAXI@Z
+!E?glVertexAttrib1f@QOpenGLFunctions@@QEAAXIM@Z
+!Q?qt_metacall@QWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+!V?setSurfaceType@QWindow@@QEAAXW4SurfaceType@QSurface@@@Z
+"V?setSwapBehavior@QSurfaceFormat@@QEAAXW4SwapBehavior@1@@Z
+"\r?elementCount@QDashedStrokeProcessor@@QEBAHXZ
+#?glGetProgramInfoLog@QOpenGLFunctions@@QEAAXIHPEAHPEAD@Z
+#define lowp\n#define mediump\n#define highp\n
+#extension
+#version
+$?glGetProgramiv@QOpenGLFunctions@@QEAAXIIPEAH@Z
+$?glGetRenderbufferParameteriv@QOpenGLFunctions@@QEAAXIIPEAH@Z
+$?glGetShaderInfoLog@QOpenGLFunctions@@QEAAXIHPEAHPEAD@Z
+$I?glVertexPointer@QOpenGLFunctions_1_1@@QEAAXHIHPEBX@Z
+$V?setSwapInterval@QSurfaceFormat@@QEAAXH@Z
+$W?shareContext@QOpenGLContext@@QEBAPEAV1@XZ
+%%?glGetShaderiv@QOpenGLFunctions@@QEAAXIIPEAH@Z
+%?glGetShaderPrecisionFormat@QOpenGLFunctions@@QEAAXIIPEAH0@Z
+%?glGetShaderSource@QOpenGLFunctions@@QEAAXIHPEAHPEAD@Z
+%\r?elementTypes@QDashedStrokeProcessor@@QEBAPEAW4ElementType@QPainterPath@@XZ
+%s: Could not create shader of type %d.
+&?glGetTexLevelParameteriv@QOpenGLFunctions_1_1@@QEAAXIHIPEAH@Z
+&?glGetUniformLocation@QOpenGLFunctions@@QEAAHIPEBD@Z
+&W?shareGroup@QOpenGLContext@@QEBAPEAVQOpenGLContextGroup@@XZ
+&\v?end@QListData@@QEBAPEAPEAXXZ
+'?glGetUniformfv@QOpenGLFunctions@@QEAAXIHPEAM@Z
+'?glGetUniformiv@QOpenGLFunctions@@QEAAXIHPEAH@Z
+'?glGetVertexAttribfv@QOpenGLFunctions@@QEAAXIIPEAM@Z
+'?glGetVertexAttribiv@QOpenGLFunctions@@QEAAXIIPEAH@Z
+'?glHint@QOpenGLFunctions@@QEAAXII@Z
+()?glIsBuffer@QOpenGLFunctions@@QEAAEI@Z
+(W?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
+): shader program is not linked
+)?glIsProgram@QOpenGLFunctions@@QEAAEI@Z
+)?glIsRenderbuffer@QOpenGLFunctions@@QEAAEI@Z
+)?glIsShader@QOpenGLFunctions@@QEAAEI@Z
+*?glLinkProgram@QOpenGLFunctions@@QEAAXI@Z
++2?glPopMatrix@QOpenGLFunctions_1_1@@QEAAXXZ
++>vSa
++?glLoadIdentity@QOpenGLFunctions_1_1@@QEAAXXZ
++?glMapBuffer@QOpenGLExtensions@@QEAAPEAXII@Z
++Y?toImage@QPixmap@@QEBA?AVQImage@@XZ
 , accumBufferSize 
-, stencilBufferSize 
-, redBufferSize 
-, greenBufferSize 
-, blueBufferSize 
 , alphaBufferSize 
-, samples 
-, swapInterval 
+, blueBufferSize 
+, depthBufferSize 
+, greenBufferSize 
 , majorVersion 
 , minorVersion 
+, plane 
 , profile 
-drawTexture() with OpenGL ES 2.0 requires an active OpenGL2 paint engine
-drawTexture(const QPointF &point, GLuint textureId, GLenum textureTarget) not supported with OpenGL ES, use rect version instead
-QGLContext: Unsupported paint device type
-Mali
-QGLWidget::setContext: Cannot set null context
-QGLWidget::renderText is not supported under OpenGL/ES
-DDS 
-PVR!
-QGLContext::bindTexture(): DDS texture compression is not supported.
-QGLContext::bindTexture(): DDS image size is not valid.
-QGLContext::bindTexture(): DDS image format not supported.
-QGLContext::bindTexture(): PVR image format 0x%x not supported.
-QGLContext::bindTexture(): ETC1 texture compression is not supported.
-QGLContext::bindTexture(): PVRTC texture compression is not supported.
-QGLContext::bindTexture(): PVR image size is not valid.
-QFlags(
-GL_OES_texture_npot
-GL_IMG_texture_npot
-GL_ARB_multitexture
-GL_ARB_shader_objects
-GL_EXT_framebuffer_object
-GL_ARB_framebuffer_object
-GL_EXT_blend_color
-GL_EXT_blend_equation_separate
-GL_EXT_blend_func_separate
-GL_EXT_blend_subtract
-GL_ARB_texture_compression
-GL_ARB_multisample
-GL_ARB_texture_non_power_of_two
-QGLPixelBuffer::metric(), Unhandled metric type: %d\n
-\nF%u
-QGLFramebufferObject: Unsupported framebuffer format.
-QGLFramebufferObject: Framebuffer incomplete attachment.
-QGLFramebufferObject: Framebuffer incomplete, missing attachment.
-QGLFramebufferObject: Framebuffer incomplete, missing draw buffer.
-QGLFramebufferObject: Framebuffer incomplete, missing read buffer.
-QGLFramebufferObject: Framebuffer incomplete, attachments must have same number of samples per pixel.
-QGLFramebufferObject: An undefined error has occurred: 
-QGLFramebufferObject::metric(), Unhandled metric type: %d.\n
-QGLPaintDevice::metric() - metric %d not known
-Pixmap type not supported for GL rendering
-QGLPaintDevice::getDevice() - Unknown device type %d
-#define lowp\n#define mediump\n#define highp\n
-bool __cdecl QGLShaderPrivate::create(void)
-%s: Could not create shader of type %d.
-Fragment
-Vertex
-Geometry
-QGLShader::compile(%s): %s
-QGLShader::compile(%s)[%s]: %s
-#version
-#extension
-QGLShader: Unable to open file
-glProgramParameteri
-glProgramParameteriEXT
-QGLShaderProgram: could not create shader program
-QGLShaderProgram: shader programs are not supported
-QGLShaderProgram::addShader: Program and shader are not associated with same context.
-1shaderDestroyed()
-2destroyed()
-QGLShader::link:
-QGLShader::link[
-QGLShaderProgram::attributeLocation(
-): shader program is not linked
-QGLShaderProgram::setAttributeValue: rows
-not supported
-QGLShaderProgram::uniformLocation(
-QGLShaderProgram::setUniformValue: size
-GL_EXT_geometry_shader4
-    lowp vec4 customShader(lowp sampler2D imageTexture, highp vec2 textureCoords) {         return texture2D(imageTexture, textureCoords);     }\n
-\n    void setPosition(); \n    void main(void) \n    { \n        setPosition(); \n    }\n
-\n    attribute highp   vec2      textureCoordArray; \n    varying   highp   vec2      textureCoords; \n    void setPosition(); \n    void main(void) \n    { \n        setPosition(); \n        textureCoords = textureCoordArray; \n    }\n
-\n    attribute highp   vec2      textureCoordArray; \n    attribute lowp    float     opacityArray; \n    varying   highp   vec2      textureCoords; \n    varying   lowp    float     opacity; \n    void setPosition(); \n    void main(void) \n    { \n        setPosition(); \n        textureCoords = textureCoordArray; \n        opacity = opacityArray; \n    }\n
-\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position = vec4(transformedPos.xy, 0.0, transformedPos.z); \n    }\n
-\n    uniform highp mat3 matrix; \n    uniform highp float translateZ; \n    attribute highp vec2 vertexCoordsArray; \n    void setPosition(void) \n    { \n      vec3 v = matrix * vec3(vertexCoordsArray, 1.0); \n      vec4 vz = mat4(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, translateZ, 1) * vec4(v, 1.0); \n      gl_Position = vec4(vz.xyz, 1.0);\n    } \n
-\n    attribute highp   vec4      vertexCoordsArray; \n    void setPosition(void) \n    { \n        gl_Position = vertexCoordsArray; \n    }\n
-\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   vec2      invertedTextureSize; \n    uniform   highp   mat3      brushTransform; \n    varying   highp   vec2      patternTexCoords; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1.0); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        patternTexCoords.xy = (hTexCoords.xy * 0.125) * invertedHTexCoordsZ; \n    }\n
-\n    uniform           sampler2D brushTexture; \n    uniform   lowp    vec4      patternColor; \n    varying   highp   vec2      patternTexCoords;\n    lowp vec4 srcPixel() \n    { \n        return patternColor * (1.0 - texture2D(brushTexture, patternTexCoords).r); \n    }\n
-\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   vec3      linearData; \n    uniform   highp   mat3      brushTransform; \n    varying   mediump float     index; \n    void setPosition() \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        index = (dot(linearData.xy, hTexCoords.xy) * linearData.z) * invertedHTexCoordsZ; \n    }\n
-\n    uniform           sampler2D brushTexture; \n    varying   mediump float     index; \n    lowp vec4 srcPixel() \n    { \n        mediump vec2 val = vec2(index, 0.5); \n        return texture2D(brushTexture, val); \n    }\n
-\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   mat3      brushTransform; \n    varying   highp   vec2      A; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2  viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        A = hTexCoords.xy * invertedHTexCoordsZ; \n    }\n
-\n    #define INVERSE_2PI 0.1591549430918953358 \n    uniform           sampler2D brushTexture; \n    uniform   mediump float     angle; \n    varying   highp   vec2      A; \n    lowp vec4 srcPixel() \n    { \n        highp float t; \n        if (abs(A.y) == abs(A.x)) \n            t = (atan(-A.y + 0.002, A.x) + angle) * INVERSE_2PI; \n        else \n            t = (atan(-A.y, A.x) + angle) * INVERSE_2PI; \n        return texture2D(brushTexture, vec2(t - floor(t), 0.5)); \n    }\n
-\n    attribute highp   vec2      vertexCoordsArray;\n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   mat3      brushTransform; \n    uniform   highp   vec2      fmp; \n    uniform   mediump vec3      bradius; \n    varying   highp   float     b; \n    varying   highp   vec2      A; \n    void setPosition(void) \n    {\n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        A = hTexCoords.xy * invertedHTexCoordsZ; \n        b = bradius.x + 2.0 * dot(A, fmp); \n    }\n
-\n    uniform           sampler2D brushTexture; \n    uniform   highp   float     fmp2_m_radius2; \n    uniform   highp   float     inverse_2_fmp2_m_radius2; \n    uniform   highp   float     sqrfr; \n    varying   highp   float     b; \n    varying   highp   vec2      A; \n    uniform   mediump vec3      bradius; \n    lowp vec4 srcPixel() \n    { \n        highp float c = sqrfr-dot(A, A); \n        highp float det = b*b - 4.0*fmp2_m_radius2*c; \n        lowp vec4 result = vec4(0.0); \n        if (det >= 0.0) { \n            highp float detSqrt = sqrt(det); \n            highp float w = max((-b - detSqrt) * inverse_2_fmp2_m_radius2, (-b + detSqrt) * inverse_2_fmp2_m_radius2); \n            if (bradius.y + w * bradius.z >= 0.0) \n                result = texture2D(brushTexture, vec2(w, 0.5)); \n        } \n        return result; \n    }\n
-\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   vec2      invertedTextureSize; \n    uniform   highp   mat3      brushTransform; \n    varying   highp   vec2      brushTextureCoords; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        brushTextureCoords.xy = (hTexCoords.xy * invertedTextureSize) * gl_Position.w; \n    }\n
-\n    varying highp   vec2      brushTextureCoords; \n    uniform         sampler2D brushTexture; \n    lowp vec4 srcPixel() { \n        return texture2D(brushTexture, fract(brushTextureCoords)); \n    }\n
-\n    varying   highp   vec2      brushTextureCoords; \n    uniform           sampler2D brushTexture; \n    lowp vec4 srcPixel() \n    { \n        return texture2D(brushTexture, brushTextureCoords); \n    }\n
-\n    varying   highp   vec2      brushTextureCoords; \n    uniform   lowp    vec4      patternColor; \n    uniform           sampler2D brushTexture; \n    lowp vec4 srcPixel() \n    { \n        return patternColor * (1.0 - texture2D(brushTexture, brushTextureCoords).r); \n    }\n
-\n    uniform   lowp    vec4      fragmentColor; \n    lowp vec4 srcPixel() \n    { \n        return fragmentColor; \n    }\n
-\n    varying   highp   vec2      textureCoords; \n    uniform           sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \nreturn texture2D(imageTexture, textureCoords); \n}\n
-\n    varying   highp   vec2      textureCoords; \n    uniform           sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \n        return customShader(imageTexture, textureCoords); \n    }\n
-\n    varying   highp   vec2      textureCoords; \n    uniform   lowp    vec4      patternColor; \n    uniform           sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \n        return patternColor * (1.0 - texture2D(imageTexture, textureCoords).r); \n    }\n
-\n    varying   highp   vec2      textureCoords; \n    uniform          sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \n        lowp vec4 sample = texture2D(imageTexture, textureCoords); \n        sample.rgb = sample.rgb * sample.a; \n        return sample; \n    }\n
-\n    lowp vec4 srcPixel() \n    { \n        return vec4(0.98, 0.06, 0.75, 1.0); \n    }\n
-\n    varying   lowp    float     opacity; \n    lowp vec4 srcPixel(); \n    void main() \n    { \n        gl_FragColor = srcPixel() * opacity; \n    }\n
-\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(compose(srcPixel()*globalOpacity))); \n    }\n
-\n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(compose(srcPixel())); \n    }\n
-\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(srcPixel()*globalOpacity); \n    }\n
-\n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(srcPixel()); \n    }\n
-\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = compose(srcPixel()*globalOpacity); \n    }\n
-\n    lowp vec4 srcPixel(); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = compose(srcPixel()); \n    }\n
-\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    void main() \n    { \n        gl_FragColor = srcPixel()*globalOpacity; \n    }\n
-\n    lowp vec4 srcPixel(); \n    void main() \n    { \n        gl_FragColor = srcPixel(); \n    }\n
-\n    varying   highp   vec2      textureCoords;\n    uniform           sampler2D maskTexture;\n    lowp vec4 applyMask(lowp vec4 src) \n    {\n        lowp vec4 mask = texture2D(maskTexture, textureCoords); \n        return src * mask.a; \n    }\n
-\n    varying   highp   vec2      textureCoords;\n    uniform           sampler2D maskTexture;\n    lowp vec4 applyMask(lowp vec4 src) \n    { \n        lowp vec4 mask = texture2D(maskTexture, textureCoords); \n        return src.a * mask; \n    }\n
-\n    varying   highp   vec2      textureCoords;\n    uniform           sampler2D maskTexture;\n    lowp vec4 applyMask(lowp vec4 src) \n    { \n        lowp vec4 mask = texture2D(maskTexture, textureCoords); \n        return src * mask; \n    }\n
-Vertex shader for simpleShaderProg (MainVertexShader & PositionOnlyVertexShader) failed to compile
-Fragment shader for simpleShaderProg (MainFragmentShader & ShockingPinkSrcFragmentShader) failed to compile
-vertexCoordsArray
-pmvMatrix1
-pmvMatrix2
-pmvMatrix3
-Errors linking simple shader: %s
-Vertex shader for blitShaderProg (MainWithTexCoordsVertexShader & UntransformedPositionVertexShader) failed to compile
-Fragment shader for blitShaderProg (MainFragmentShader & ImageSrcFragmentShader) failed to compile
-textureCoordArray
-Errors linking blit shader: %s
-Warning:
-failed to compile!
-opacityArray
-Shader program failed to link,
-    
-  Error Log:\n
-maskTexture
-imageTexture
-patternColor
-globalOpacity
-depth
-fragmentColor
-linearData
-angle
-halfViewportSize
-fmp2_m_radius2
-inverse_2_fmp2_m_radius2
-sqrfr
-bradius
-invertedTextureSize
-brushTransform
-brushTexture
-matrix
-translateZ
-QGLEngineShaderManager - Ignoring custom shader stage for non image src
-QGLEngineShaderManager::useCorrectShaderProg() - Qt::NoBrush style is set
-QGLEngineShaderManager::useCorrectShaderProg() - Unknown mask type
-QGLEngineShaderManager::useCorrectShaderProg() - Unsupported composition mode
-QGL2PaintEngineEx: Unimplemented fill style
-Unsupported composition mode
-GL_ARB_compatibility
-Painter path exceeds +/-32767 pixels.
-m0_D@
-QGLCustomShaderStage::setOnPainter() - paint engine not OpenGL2
-Custom shader is already set on a painter
-QGLTextureGlyphCache::createTextureData: Called with no context
-QGLTextureGlyphCache::resizeTextureData: Called with no context
-QGLTextureGlyphCache::fillTexture: Called with no context
-NVIDIA
-QGLWidget
-updateGL
-updateOverlayGL
-QGLSignalProxy
-aboutToDestroyContext
-const QGLContext*
-context
-QGLShader
-QGLShaderProgram
-shaderDestroyed
-QGraphicsShaderEffect
-QGLEngineSharedShaders
-QGLEngineShaderManager
-InitializeConditionVariable
-SleepConditionVariableCS
-WakeAllConditionVariable
-Unknown exception
-bad allocation
-bad array new length
-RSDS5
-+>vSa
-D:\qt5\qtbase\lib\Qt5OpenGL.pdb
-.text$di
-.text$mn
-.text$mn$00
-.text$x
-.text$yd
-.idata$5
+, redBufferSize 
+, samples 
+, stencilBufferSize 
+, swapInterval 
+,?glMatrixMode@QOpenGLFunctions_1_1@@QEAAXI@Z
+,\f?firstNode@QHashData@@QEAAPEAUNode@1@XZ
+-:?glStencilMaskSeparate@QOpenGLFunctions@@QEAAXII@Z
+-[?worldTransform@QPainter@@QEBAAEBVQTransform@@XZ
+-\f?grabFramebuffer@QWidgetPrivate@@UEAA?AVQImage@@XZ
+-\n?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z
 .00cfg
+.?AUQGLFunctionsPrivate@@
+.?AUQGLFunctionsPrivateEx@@
+.?AUQGLGlyphTexture@@
+.?AV?$QGLSharedResourceGuard@P6AXPEAVQGLContext@@I@Z@@
+.?AVQFontEngineGlyphCache@@
+.?AVQGL2GradientCache@@
+.?AVQGL2PaintEngineEx@@
+.?AVQGL2PaintEngineExPrivate@@
+.?AVQGL2PaintEngineState@@
+.?AVQGLContext@@
+.?AVQGLCustomShaderEffectStage@@
+.?AVQGLCustomShaderStage@@
+.?AVQGLEngineShaderManager@@
+.?AVQGLEngineSharedShadersResource@@
+.?AVQGLFBOGLPaintDevice@@
+.?AVQGLFramebufferObject@@
+.?AVQGLPBufferGLPaintDevice@@
+.?AVQGLPaintDevice@@
+.?AVQGLPixelBuffer@@
+.?AVQGLShader@@
+.?AVQGLShaderPrivate@@
+.?AVQGLShaderProgram@@
+.?AVQGLShaderProgramPrivate@@
+.?AVQGLSharedResourceGuardBase@@
+.?AVQGLSignalProxy@@
+.?AVQGLTextureGlyphCache@@
+.?AVQGLWidget@@
+.?AVQGLWidgetGLPaintDevice@@
+.?AVQGLWidgetPrivate@@
+.?AVQGraphicsEffect@@
+.?AVQGraphicsEffectPrivate@@
+.?AVQGraphicsShaderEffect@@
+.?AVQGraphicsShaderEffectPrivate@@
+.?AVQImageTextureGlyphCache@@
+.?AVQObject@@
+.?AVQObjectData@@
+.?AVQObjectPrivate@@
+.?AVQOpenGLContext@@
+.?AVQOpenGLExtensions@@
+.?AVQOpenGLFramebufferObject@@
+.?AVQOpenGLFunctions@@
+.?AVQOpenGLSharedResource@@
+.?AVQOpenGLSharedResourceGuard@@
+.?AVQOpenGLStaticTextUserData@?A0x3245cc19@@
+.?AVQPaintDevice@@
+.?AVQPaintEngine@@
+.?AVQPaintEngineEx@@
+.?AVQPaintEngineExPrivate@@
+.?AVQPaintEnginePrivate@@
+.?AVQPaintEngineState@@
+.?AVQPainterState@@
+.?AVQSharedData@@
+.?AVQStaticTextUserData@@
+.?AVQSurface@@
+.?AVQTextureGlyphCache@@
+.?AVQWidget@@
+.?AVQWidgetPrivate@@
+.?AVQWindow@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
 .CRT$XCA
 .CRT$XCU
 .CRT$XCZ
@@ -283,61 +144,97 @@ D:\qt5\qtbase\lib\Qt5OpenGL.pdb
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
 .rdata
 .rdata$T
 .rdata$r
 .rdata$zzzdbg
+.rsrc$01
+.rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
 .tls
 .tls$
 .tls$ZZZ
 .xdata
 .xdata$x
-.edata
-.idata$2
-.idata$3
-.idata$4
-.idata$6
-.data
-.data$r
-.bss
-.pdata
-.rsrc$01
-.rsrc$02
-2\vp!
-\fp\v`
-\fp\v`
-\fp\v`!\r
-\fp\v0! 
-\rp\f`\vP!
-\fp\v`
-\fp\v`!
-\fp\v`!
-\fp\v`\nP!\n
-p\r`\f0\vP
-2\v`!
-r\fp\v`\n0
-\fp\v`!
-\fp\v`\n0
-\nP!"
-2\v`!
-2\vp!
-p\r`\fP
-\rp\f`\vP
-P!/\n
-0!*\n
-\rp\f`
-\np\t`
-\v`!\r
-\fp\v`!
-\fp\v`
-\fp\v`!
-p\r`\fP\v0
-\fp\v`
-Qt5OpenGL.dll
+/E?glVertexAttrib1fv@QOpenGLFunctions@@QEAAXIPEBM@Z
+0R?removeImageHook@QImagePixmapCleanupHooks@@QEAAXP6AX_J@Z@Z
+0\n?data@QArrayData@@QEAAPEAXXZ
+17?glReleaseShaderCompiler@QOpenGLFunctions@@QEAAXXZ
+1?glPixelStorei@QOpenGLFunctions@@QEAAXIH@Z
+1W?shouldDrawCachedGlyphs@QPaintEngineEx@@UEBA_NPEAVQFontEngine@@AEBVQTransform@@@Z
+1shaderDestroyed()
+2?glPopAttrib@QOpenGLFunctions_1_1@@QEAAXXZ
+2?glPopClientAttrib@QOpenGLFunctions_1_1@@QEAAXXZ
+2destroyed()
+3R?removePlatformPixmapDestructionHook@QImagePixmapCleanupHooks@@QEAAXP6AXPEAVQPlatformPixmap@@@Z@Z
+4?glPushAttrib@QOpenGLFunctions_1_1@@QEAAXI@Z
+4?glPushClientAttrib@QOpenGLFunctions_1_1@@QEAAXI@Z
+4?glPushMatrix@QOpenGLFunctions_1_1@@QEAAXXZ
+4I?glViewport@QOpenGLFunctions@@QEAAXHHHH@Z
+4R?removePlatformPixmapModificationHook@QImagePixmapCleanupHooks@@QEAAXP6AXPEAVQPlatformPixmap@@@Z@Z
+4\n?constBits@QImage@@QEBAPEBEXZ
+5Q?qt_metacast@QOpenGLContext@@UEAAPEAXPEBD@Z
+5S?setAlphaBufferSize@QSurfaceFormat@@QEAAXH@Z
+5\n?constData@QMatrix4x4@@QEBAPEBMXZ
+6?glReadPixels@QOpenGLFunctions@@QEAAXHHHHIIPEAX@Z
+7?glSampleCoverage@QOpenGLFunctions@@QEAAXME@Z
+7@?glUniform2f@QOpenGLFunctions@@QEAAXHMM@Z
+7\n?constScanLine@QImage@@QEBAPEBEH@Z
+8S?setAlphaF@QColor@@QEAAXN@Z
+8W?showEvent@QWindow@@MEAAXPEAVQShowEvent@@@Z
+8Z?type@QGradient@@QEBA?AW4Type@1@XZ
+9 ?glGetAttachedShaders@QOpenGLFunctions@@QEAAXIHPEAHPEAI@Z
+9?glShadeModel@QOpenGLFunctions_1_1@@QEAAXI@Z
+9?glShaderBinary@QOpenGLFunctions@@QEAAXHPEBIIPEBXH@Z
+9?glShaderSource@QOpenGLFunctions@@QEAAXIHPEAPEBDPEBH@Z
+9?glStencilFunc@QOpenGLFunctions@@QEAAXIHI@Z
+9?glStencilFuncSeparate@QOpenGLFunctions@@QEAAXIIHI@Z
+9L?isCosmetic@QPen@@QEBA_NXZ
+:%?glGetString@QOpenGLFunctions@@QEAAPEBEI@Z
+:?glStencilMask@QOpenGLFunctions@@QEAAXI@Z
+;\r?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z
+<\f?doneCurrent@QOpenGLContext@@QEAAXXZ
+=?glTexImage2D@QOpenGLFunctions@@QEAAXIHHHHHIIPEBX@Z
+=\n?data@QString@@QEAAPEAVQChar@@XZ
+>)?glIsEnabled@QOpenGLFunctions@@QEAAEI@Z
+>+?glLoadMatrixf@QOpenGLFunctions_1_1@@QEAAXPEBM@Z
+>?glTexParameteri@QOpenGLFunctions@@QEAAXIIH@Z
+>?glTexSubImage2D@QOpenGLFunctions@@QEAAXIHHHHHIIPEBX@Z
+??0QBrush@@QEAA@AEBV0@@Z
+??0QBrush@@QEAA@W4GlobalColor@Qt@@W4BrushStyle@2@@Z
+??0QBrush@@QEAA@XZ
+??0QByteArray@@QEAA@$$QEAV0@@Z
+??0QByteArray@@QEAA@AEBV0@@Z
+??0QByteArray@@QEAA@PEBDH@Z
+??0QByteArray@@QEAA@UQByteArrayDataPtr@@@Z
+??0QByteArray@@QEAA@XZ
+??0QChar@@QEAA@UQLatin1Char@@@Z
+??0QColor@@QEAA@AEBV0@@Z
+??0QColor@@QEAA@I@Z
+??0QColor@@QEAA@XZ
+??0QDashedStrokeProcessor@@QEAA@XZ
+??0QDebug@@QEAA@AEBV0@@Z
+??0QDebugStateSaver@@QEAA@AEAVQDebug@@@Z
+??0QFile@@QEAA@AEBVQString@@@Z
+??0QFont@@QEAA@AEBV0@@Z
 ??0QGL2PaintEngineEx@@QEAA@XZ
 ??0QGLBuffer@@QEAA@AEBV0@@Z
 ??0QGLBuffer@@QEAA@W4Type@0@@Z
@@ -382,7 +279,83 @@ Qt5OpenGL.dll
 ??0QGLWidget@@QEAA@PEAVQWidget@@PEBV0@V?$QFlags@W4WindowType@Qt@@@@@Z
 ??0QGLWidgetGLPaintDevice@@QEAA@XZ
 ??0QGLWidgetPrivate@@QEAA@XZ
+??0QGraphicsEffect@@IEAA@AEAVQGraphicsEffectPrivate@@PEAVQObject@@@Z
+??0QGraphicsEffectPrivate@@QEAA@XZ
 ??0QGraphicsShaderEffect@@QEAA@PEAVQObject@@@Z
+??0QImage@@QEAA@$$QEAV0@@Z
+??0QImage@@QEAA@AEBV0@@Z
+??0QImage@@QEAA@AEBVQSize@@W4Format@0@@Z
+??0QImage@@QEAA@XZ
+??0QImageTextureGlyphCache@@QEAA@AEBV0@@Z
+??0QImageTextureGlyphCache@@QEAA@W4GlyphFormat@QFontEngine@@AEBVQTransform@@@Z
+??0QMessageLogger@@QEAA@PEBDH0@Z
+??0QMutex@@QEAA@W4RecursionMode@0@@Z
+??0QMutexLocker@@QEAA@PEAVQBasicMutex@@@Z
+??0QObject@@IEAA@AEAVQObjectPrivate@@PEAV0@@Z
+??0QObject@@QEAA@PEAV0@@Z
+??0QObjectPrivate@@QEAA@H@Z
+??0QOpenGLContext@@QEAA@PEAVQObject@@@Z
+??0QOpenGLExtensionMatcher@@QEAA@XZ
+??0QOpenGLExtensions@@QEAA@PEAVQOpenGLContext@@@Z
+??0QOpenGLExtensions@@QEAA@XZ
+??0QOpenGLFramebufferObject@@QEAA@AEBVQSize@@AEBVQOpenGLFramebufferObjectFormat@@@Z
+??0QOpenGLFramebufferObject@@QEAA@AEBVQSize@@I@Z
+??0QOpenGLFramebufferObjectFormat@@QEAA@XZ
+??0QOpenGLFunctions@@QEAA@PEAVQOpenGLContext@@@Z
+??0QOpenGLFunctions@@QEAA@XZ
+??0QOpenGLMultiGroupSharedResource@@QEAA@XZ
+??0QOpenGLSharedResource@@QEAA@PEAVQOpenGLContextGroup@@@Z
+??0QPaintDevice@@IEAA@XZ
+??0QPaintEngineEx@@IEAA@AEAVQPaintEngineExPrivate@@@Z
+??0QPaintEngineExPrivate@@QEAA@XZ
+??0QPainter@@QEAA@PEAVQPaintDevice@@@Z
+??0QPainterPath@@QEAA@XZ
+??0QPainterState@@QEAA@AEBV0@@Z
+??0QPainterState@@QEAA@XZ
+??0QPen@@QEAA@AEBV0@@Z
+??0QPixmap@@QEAA@XZ
+??0QPoint@@QEAA@HH@Z
+??0QPoint@@QEAA@XZ
+??0QPointF@@QEAA@NN@Z
+??0QPointF@@QEAA@XZ
+??0QReadLocker@@QEAA@PEAVQReadWriteLock@@@Z
+??0QReadWriteLock@@QEAA@W4RecursionMode@0@@Z
+??0QRect@@QEAA@AEBVQPoint@@AEBVQSize@@@Z
+??0QRect@@QEAA@HHHH@Z
+??0QRect@@QEAA@XZ
+??0QRectF@@QEAA@AEBVQPointF@@0@Z
+??0QRectF@@QEAA@AEBVQPointF@@AEBVQSizeF@@@Z
+??0QRectF@@QEAA@AEBVQRect@@@Z
+??0QRectF@@QEAA@NNNN@Z
+??0QRegion@@QEAA@AEBVQRect@@W4RegionType@0@@Z
+??0QRegion@@QEAA@XZ
+??0QSize@@QEAA@HH@Z
+??0QSize@@QEAA@XZ
+??0QSizeF@@QEAA@NN@Z
+??0QStaticTextItem@@QEAA@XZ
+??0QString@@QEAA@AEBV0@@Z
+??0QString@@QEAA@VQLatin1String@@@Z
+??0QString@@QEAA@XZ
+??0QSurfaceFormat@@QEAA@XZ
+??0QThreadStorageData@@QEAA@P6AXPEAX@Z@Z
+??0QTransform@@QEAA@AEBV0@@Z
+??0QTransform@@QEAA@NNNNNN@Z
+??0QTransform@@QEAA@XZ
+??0QTriangulatingStroker@@QEAA@XZ
+??0QVector2D@@QEAA@MM@Z
+??0QVector3D@@QEAA@MMM@Z
+??0QWidget@@IEAA@AEAVQWidgetPrivate@@PEAV0@V?$QFlags@W4WindowType@Qt@@@@@Z
+??0QWidgetPrivate@@QEAA@H@Z
+??0QWindow@@QEAA@PEAVQScreen@@@Z
+??0QWriteLocker@@QEAA@PEAVQReadWriteLock@@@Z
+??1Connection@QMetaObject@@QEAA@XZ
+??1QBrush@@QEAA@XZ
+??1QByteArray@@QEAA@XZ
+??1QDashedStrokeProcessor@@QEAA@XZ
+??1QDebug@@QEAA@XZ
+??1QDebugStateSaver@@QEAA@XZ
+??1QFile@@UEAA@XZ
+??1QFont@@QEAA@XZ
 ??1QGL2PaintEngineEx@@UEAA@XZ
 ??1QGLBuffer@@QEAA@XZ
 ??1QGLColormap@@QEAA@XZ
@@ -404,7 +377,50 @@ Qt5OpenGL.dll
 ??1QGLWidget@@UEAA@XZ
 ??1QGLWidgetGLPaintDevice@@UEAA@XZ
 ??1QGLWidgetPrivate@@UEAA@XZ
+??1QGraphicsEffect@@UEAA@XZ
 ??1QGraphicsShaderEffect@@UEAA@XZ
+??1QImage@@UEAA@XZ
+??1QImageTextureGlyphCache@@UEAA@XZ
+??1QMutex@@QEAA@XZ
+??1QMutexLocker@@QEAA@XZ
+??1QObject@@UEAA@XZ
+??1QObjectPrivate@@UEAA@XZ
+??1QOpenGLContext@@UEAA@XZ
+??1QOpenGLExtensionMatcher@@QEAA@XZ
+??1QOpenGLExtensions@@QEAA@XZ
+??1QOpenGLFramebufferObject@@UEAA@XZ
+??1QOpenGLFramebufferObjectFormat@@QEAA@XZ
+??1QOpenGLFunctions@@QEAA@XZ
+??1QOpenGLMultiGroupSharedResource@@QEAA@XZ
+??1QOpenGLSharedResource@@UEAA@XZ
+??1QOpenGLVersionProfile@@QEAA@XZ
+??1QPaintDevice@@UEAA@XZ
+??1QPaintEngine@@UEAA@XZ
+??1QPaintEngineExPrivate@@UEAA@XZ
+??1QPainter@@QEAA@XZ
+??1QPainterPath@@QEAA@XZ
+??1QPainterState@@UEAA@XZ
+??1QPen@@QEAA@XZ
+??1QPixmap@@UEAA@XZ
+??1QReadLocker@@QEAA@XZ
+??1QReadWriteLock@@QEAA@XZ
+??1QRegion@@QEAA@XZ
+??1QStaticTextItem@@QEAA@XZ
+??1QString@@QEAA@XZ
+??1QSurfaceFormat@@QEAA@XZ
+??1QThreadStorageData@@QEAA@XZ
+??1QTriangleSet@@QEAA@XZ
+??1QTriangulatingStroker@@QEAA@XZ
+??1QVectorPath@@QEAA@XZ
+??1QWidget@@UEAA@XZ
+??1QWidgetPrivate@@UEAA@XZ
+??1QWindow@@UEAA@XZ
+??1QWriteLocker@@QEAA@XZ
+??4QBrush@@QEAAAEAV0@$$QEAV0@@Z
+??4QBrush@@QEAAAEAV0@AEBV0@@Z
+??4QByteArray@@QEAAAEAV0@$$QEAV0@@Z
+??4QByteArray@@QEAAAEAV0@AEBV0@@Z
+??4QColor@@QEAAAEAV0@AEBV0@@Z
 ??4QGLBuffer@@QEAAAEAV0@AEBV0@@Z
 ??4QGLColormap@@QEAAAEAV0@AEBV0@@Z
 ??4QGLCustomShaderStage@@QEAAAEAV0@AEBV0@@Z
@@ -415,13 +431,32 @@ Qt5OpenGL.dll
 ??4QGLShareContextScope@@QEAAAEAV0@AEBV0@@Z
 ??4QGLTextureDestroyer@@QEAAAEAV0@$$QEAV0@@Z
 ??4QGLTextureDestroyer@@QEAAAEAV0@AEBV0@@Z
+??4QImage@@QEAAAEAV0@$$QEAV0@@Z
+??4QPixmap@@QEAAAEAV0@$$QEAV0@@Z
+??4QRegion@@QEAAAEAV0@$$QEAV0@@Z
+??4QString@@QEAAAEAV0@$$QEAV0@@Z
+??4QString@@QEAAAEAV0@VQLatin1String@@@Z
+??4QTransform@@QEAAAEAV0@AEBV0@@Z
 ??6@YA?AVQDebug@@V0@AEBVQGLFormat@@@Z
+??6QDebug@@QEAAAEAV0@AEBVQByteArray@@@Z
+??6QDebug@@QEAAAEAV0@AEBVQString@@@Z
+??6QDebug@@QEAAAEAV0@D@Z
+??6QDebug@@QEAAAEAV0@H@Z
+??6QDebug@@QEAAAEAV0@I@Z
+??6QDebug@@QEAAAEAV0@P6AAEAVQTextStream@@AEAV1@@Z@Z
+??6QDebug@@QEAAAEAV0@PEBD@Z
 ??8@YA_NAEBVQGLFormat@@0@Z
+??8QColor@@QEBA_NAEBV0@@Z
 ??8QGLFramebufferObjectFormat@@QEBA_NAEBV0@@Z
 ??9@YA_NAEBVQGLFormat@@0@Z
+??9@YA_NAEBVQSurfaceFormat@@0@Z
 ??9QGLFramebufferObjectFormat@@QEBA_NAEBV0@@Z
+??AQString@@QEBA?BVQChar@@H@Z
 ??BQGLShareContextScope@@QEAAPEAVQGLContext@@XZ
 ??CQGLShareContextScope@@QEAAPEAVQGLContext@@XZ
+??DQTransform@@QEBA?AV0@AEBV0@@Z
+??YQPointF@@QEAAAEAV0@AEBV0@@Z
+??ZQRegion@@QEAAAEAV0@AEBV0@@Z
 ??_7QGL2PaintEngineEx@@6B@
 ??_7QGLContext@@6B@
 ??_7QGLCustomShaderStage@@6B@
@@ -441,34 +476,65 @@ Qt5OpenGL.dll
 ??_FQGLShaderProgram@@QEAAXXZ
 ??_FQGLWidget@@QEAAXXZ
 ??_FQGraphicsShaderEffect@@QEAAXXZ
+??glUniform1f@QOpenGLFunctions@@QEAAXHM@Z
+??glUniform1fv@QOpenGLFunctions@@QEAAXHHPEBM@Z
+??glUniform1i@QOpenGLFunctions@@QEAAXHH@Z
+??glUniform1iv@QOpenGLFunctions@@QEAAXHHPEBH@Z
+?\r?enableCleanupHooks@QImagePixmapCleanupHooks@@SAXAEBVQImage@@@Z
 ?aboutToDestroy@QGLWidgetPrivate@@UEAAXXZ
 ?aboutToDestroyContext@QGLSignalProxy@@QEAAXPEBVQGLContext@@@Z
+?accessibleRoot@QWindow@@UEBAPEAVQAccessibleInterface@@XZ
 ?accum@QGLFormat@@QEBA_NXZ
 ?accumBufferSize@QGLFormat@@QEBAHXZ
+?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
+?activate@QMetaObject@@SAXPEAVQObject@@PEBU1@HPEAPEAX@Z
+?addCacheData@QVectorPath@@QEBAPEAUCacheEntry@1@PEAVQPaintEngineEx@@PEAXP6AX01@Z@Z
+?addImageHook@QImagePixmapCleanupHooks@@QEAAXP6AX_J@Z@Z
+?addPlatformPixmapDestructionHook@QImagePixmapCleanupHooks@@QEAAXP6AXPEAVQPlatformPixmap@@@Z@Z
+?addPlatformPixmapModificationHook@QImagePixmapCleanupHooks@@QEAAXP6AXPEAVQPlatformPixmap@@@Z@Z
+?addRegion@QPainterPath@@QEAAXAEBVQRegion@@@Z
 ?addShader@QGLShaderProgram@@QEAA_NPEAVQGLShader@@@Z
 ?addShaderFromSourceCode@QGLShaderProgram@@QEAA_NV?$QFlags@W4ShaderTypeBit@QGLShader@@@@AEBVQByteArray@@@Z
 ?addShaderFromSourceCode@QGLShaderProgram@@QEAA_NV?$QFlags@W4ShaderTypeBit@QGLShader@@@@AEBVQString@@@Z
 ?addShaderFromSourceCode@QGLShaderProgram@@QEAA_NV?$QFlags@W4ShaderTypeBit@QGLShader@@@@PEBD@Z
 ?addShaderFromSourceFile@QGLShaderProgram@@QEAA_NV?$QFlags@W4ShaderTypeBit@QGLShader@@@@AEBVQString@@@Z
+?adjusted@QRectF@@QEBA?AV1@NNNN@Z
+?allocate@QArrayData@@SAPEAU1@_K00V?$QFlags@W4AllocationOption@QArrayData@@@@@Z
 ?allocate@QGLBuffer@@QEAAXH@Z
 ?allocate@QGLBuffer@@QEAAXPEBXH@Z
+?allocateNode@QHashData@@QEAAPEAXH@Z
 ?alpha@QGLFormat@@QEBA_NXZ
 ?alphaBufferSize@QGLFormat@@QEBAHXZ
+?alphaBufferSize@QSurfaceFormat@@QEBAHXZ
+?alphaF@QColor@@QEBANXZ
 ?alphaRequested@QGLPaintDevice@@UEBA_NXZ
+?angle@QConicalGradient@@QEBANXZ
+?append@QByteArray@@QEAAAEAV1@AEBV1@@Z
+?append@QByteArray@@QEAAAEAV1@PEBD@Z
+?append@QListData@@QEAAPEAPEAXXZ
+?append@QString@@QEAAAEAV1@VQLatin1String@@@Z
+?appendLatin1To@QAbstractConcatenable@@KAXPEBDHPEAVQChar@@@Z
 ?areSharing@QGLContext@@SA_NPEBV1@0@Z
+?at@QListData@@QEBAPEAPEAXH@Z
 ?attachment@QGLFramebufferObject@@QEBA?AW4Attachment@1@XZ
 ?attachment@QGLFramebufferObjectFormat@@QEBA?AW4Attachment@QGLFramebufferObject@@XZ
 ?attributeLocation@QGLShaderProgram@@QEBAHAEBVQByteArray@@@Z
 ?attributeLocation@QGLShaderProgram@@QEBAHAEBVQString@@@Z
 ?attributeLocation@QGLShaderProgram@@QEBAHPEBD@Z
 ?autoBufferSwap@QGLWidget@@IEBA_NXZ
+?autoFillBackground@QWidget@@QEBA_NXZ
+?backgroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 ?begin@QGL2PaintEngineEx@@UEAA_NPEAVQPaintDevice@@@Z
+?begin@QListData@@QEBAPEAPEAXXZ
+?beginBackingStorePainting@QWidgetPrivate@@UEAAXXZ
+?beginCompose@QWidgetPrivate@@UEAAXXZ
 ?beginNativePainting@QGL2PaintEngineEx@@UEAAXXZ
 ?beginPaint@QGLPaintDevice@@UEAAXXZ
 ?beginPaint@QGLWidgetGLPaintDevice@@UEAAXXZ
 ?bind@QGLBuffer@@QEAA_NXZ
 ?bind@QGLFramebufferObject@@QEAA_NXZ
 ?bind@QGLShaderProgram@@QEAA_NXZ
+?bind@QOpenGLFramebufferObject@@QEAA_NXZ
 ?bindAttributeLocation@QGLShaderProgram@@QEAAXAEBVQByteArray@@H@Z
 ?bindAttributeLocation@QGLShaderProgram@@QEAAXAEBVQString@@H@Z
 ?bindAttributeLocation@QGLShaderProgram@@QEAAXPEBDH@Z
@@ -487,20 +553,31 @@ Qt5OpenGL.dll
 ?bindTexture@QGLWidget@@QEAAIAEBVQPixmap@@IHV?$QFlags@W4BindOption@QGLContext@@@@@Z
 ?bindTexture@QGLWidget@@QEAAIAEBVQString@@@Z
 ?bindToDynamicTexture@QGLPixelBuffer@@QEAA_NI@Z
+?bits@QImage@@QEAAPEAEXZ
+?bits@QImage@@QEBAPEBEXZ
 ?blitFramebuffer@QGLFramebufferObject@@SAXPEAV1@AEBVQRect@@01II@Z
+?blitFramebuffer@QOpenGLFramebufferObject@@SAXPEAV1@0II@Z
 ?blitProgram@QGLEngineShaderManager@@QEAAPEAVQGLShaderProgram@@XZ
 ?blitProgram@QGLEngineSharedShaders@@QEAAPEAVQGLShaderProgram@@XZ
 ?blueBufferSize@QGLFormat@@QEBAHXZ
+?bottom@QRectF@@QEBANXZ
+?boundingRectFor@QGraphicsEffect@@UEBA?AVQRectF@@AEBV2@@Z
 ?brushChanged@QGL2PaintEngineEx@@UEAAXXZ
 ?brushOriginChanged@QGL2PaintEngineEx@@UEAAXXZ
 ?bufferId@QGLBuffer@@QEBAIXZ
+?cast@QMetaObject@@QEBAPEAVQObject@@PEAV2@@Z
+?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
+?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?chooseContext@QGLContext@@MEAA_NPEBV1@@Z
 ?cleanup@QGLColormap@@CAXPEAUQGLColormapData@1@@Z
 ?cleanupColormaps@QGLWidgetPrivate@@QEAAXXZ
 ?cleanupCustomStage@QGLEngineSharedShaders@@QEAAXPEAVQGLCustomShaderStage@@@Z
+?clear@QByteArray@@QEAAXXZ
 ?clear@QGLTextureGlyphCache@@QEAAXXZ
 ?clip@QGL2PaintEngineEx@@UEAAXAEBVQVectorPath@@W4ClipOperation@Qt@@@Z
 ?clipEnabledChanged@QGL2PaintEngineEx@@UEAAXXZ
+?close@QFileDevice@@UEAAXXZ
+?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z
 ?colorIndex@QGLContext@@IEBAIAEBVQColor@@@Z
 ?colormap@QGLWidget@@QEBAAEBVQGLColormap@@XZ
 ?compileSourceCode@QGLShader@@QEAA_NAEBVQByteArray@@@Z
@@ -508,11 +585,16 @@ Qt5OpenGL.dll
 ?compileSourceCode@QGLShader@@QEAA_NPEBD@Z
 ?compileSourceFile@QGLShader@@QEAA_NAEBVQString@@@Z
 ?compositionModeChanged@QGL2PaintEngineEx@@UEAAXXZ
+?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
+?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?constData@QByteArray@@QEBAPEBDXZ
+?constData@QString@@QEBAPEBVQChar@@XZ
 ?context@QGLPixelBuffer@@QEBAPEAVQGLContext@@XZ
 ?context@QGLWidget@@QEBAPEAVQGLContext@@XZ
 ?context@QGLWidgetGLPaintDevice@@UEBAPEAVQGLContext@@XZ
 ?contextGroup@QGLTextureGlyphCache@@QEBAPEBVQOpenGLContextGroup@@XZ
 ?contextHandle@QGLContext@@QEBAPEAVQOpenGLContext@@XZ
+?contextMenuEvent@QWidget@@MEAAXPEAVQContextMenuEvent@@@Z
 ?convertToGLFormat@QGLWidget@@SA?AVQImage@@AEBV2@@Z
 ?create@QGLBuffer@@QEAA_NXZ
 ?create@QGLContext@@UEAA_NPEBV1@@Z
@@ -600,59 +682,140 @@ Qt5OpenGL.dll
 ?find@QGLColormap@@QEBAHI@Z
 ?findNearest@QGLColormap@@QEBAHI@Z
 ?findProgramInCache@QGLEngineSharedShaders@@QEAAPEAVQGLEngineShaderProg@@AEBV2@@Z
+?flags@QPaintEngineEx@@UEBAIXZ
+?focalPoint@QRadialGradient@@QEBA?AVQPointF@@XZ
+?focalRadius@QRadialGradient@@QEBANXZ
+?focusInEvent@QWindow@@MEAAXPEAVQFocusEvent@@@Z
+?focusObject@QWindow@@UEBAPEAVQObject@@XZ
+?focusOutEvent@QWindow@@MEAAXPEAVQFocusEvent@@@Z
+?font@QPainter@@QEBAAEBVQFont@@XZ
 ?format@QGLContext@@QEBA?AVQGLFormat@@XZ
 ?format@QGLFramebufferObject@@QEBA?AVQGLFramebufferObjectFormat@@XZ
 ?format@QGLPaintDevice@@UEBA?AVQGLFormat@@XZ
 ?format@QGLPixelBuffer@@QEBA?AVQGLFormat@@XZ
 ?format@QGLWidget@@QEBA?AVQGLFormat@@XZ
+?format@QImage@@QEBA?AW4Format@1@XZ
+?format@QOpenGLContext@@QEBA?AVQSurfaceFormat@@XZ
+?format@QOpenGLFramebufferObject@@QEBA?AVQOpenGLFramebufferObjectFormat@@XZ
+?format@QWindow@@UEBA?AVQSurfaceFormat@@XZ
+?free@QOpenGLSharedResource@@QEAAXXZ
+?freeResource@QOpenGLSharedResourceGuard@@MEAAXPEAVQOpenGLContext@@@Z
 ?freeTextureFunc@QGLTextureDestroyer@@CAXPEAVQOpenGLFunctions@@I@Z
+?fromImage@QPixmap@@SA?AV1@$$QEAVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ?fromOpenGLContext@QGLContext@@SAPEAV1@PEAVQOpenGLContext@@@Z
+?fromPoints@QBezier@@SA?AV1@AEBVQPointF@@000@Z
+?fromScale@QTransform@@SA?AV1@NN@Z
 ?fromSurfaceFormat@QGLFormat@@SA?AV1@AEBVQSurfaceFormat@@@Z
+?fromTranslate@QTransform@@SA?AV1@NN@Z
 ?functions@QGLContext@@QEBAPEAVQGLFunctions@@XZ
+?functions@QOpenGLContext@@QEBAPEAVQOpenGLFunctions@@XZ
 ?generateDynamicTexture@QGLPixelBuffer@@QEBAIXZ
 ?geometryInputType@QGLShaderProgram@@QEBAIXZ
 ?geometryOutputType@QGLShaderProgram@@QEBAIXZ
 ?geometryOutputVertexCount@QGLShaderProgram@@QEBAHXZ
+?get@QOpenGLContextPrivate@@SAPEAV1@PEAVQOpenGLContext@@@Z
 ?getDevice@QGLPaintDevice@@SAPEAV1@PEAVQPaintDevice@@@Z
+?getGlyphPositions@QFontEngine@@QEAAXAEBUQGlyphLayout@@AEBVQTransform@@V?$QFlags@W4RenderFlag@QTextItem@@@@AEAV?$QVarLengthArray@I$0BAA@@@AEAV?$QVarLengthArray@UQFixedPoint@@$0BAA@@@@Z
 ?getProcAddress@QGLContext@@QEBAP6AXXZAEBVQString@@@Z
+?getProcAddress@QOpenGLContext@@QEBAP6AXXZAEBVQByteArray@@@Z
 ?getUniformLocation@QGLEngineShaderManager@@QEAAIW4Uniform@1@@Z
 ?glActiveTexture@QGLFunctions@@QEAAXI@Z
+?glActiveTexture@QOpenGLFunctions@@QEAAXI@Z
+?glAlphaFunc@QOpenGLFunctions_1_1@@QEAAXIM@Z
 ?glAttachShader@QGLFunctions@@QEAAXII@Z
+?glAttachShader@QOpenGLFunctions@@QEAAXII@Z
 ?glBindAttribLocation@QGLFunctions@@QEAAXIIPEBD@Z
+?glBindAttribLocation@QOpenGLFunctions@@QEAAXIIPEBD@Z
 ?glBindBuffer@QGLFunctions@@QEAAXII@Z
+?glBindBuffer@QOpenGLFunctions@@QEAAXII@Z
 ?glBindFramebuffer@QGLFunctions@@QEAAXII@Z
+?glBindFramebuffer@QOpenGLFunctions@@QEAAXII@Z
 ?glBindRenderbuffer@QGLFunctions@@QEAAXII@Z
+?glBindRenderbuffer@QOpenGLFunctions@@QEAAXII@Z
+?glBindTexture@QOpenGLFunctions@@QEAAXII@Z
 ?glBlendColor@QGLFunctions@@QEAAXMMMM@Z
+?glBlendColor@QOpenGLFunctions@@QEAAXMMMM@Z
 ?glBlendEquation@QGLFunctions@@QEAAXI@Z
+?glBlendEquation@QOpenGLFunctions@@QEAAXI@Z
 ?glBlendEquationSeparate@QGLFunctions@@QEAAXII@Z
+?glBlendEquationSeparate@QOpenGLFunctions@@QEAAXII@Z
+?glBlendFunc@QOpenGLFunctions@@QEAAXII@Z
 ?glBlendFuncSeparate@QGLFunctions@@QEAAXIIII@Z
+?glBlendFuncSeparate@QOpenGLFunctions@@QEAAXIIII@Z
+?glBlitFramebuffer@QOpenGLExtensions@@QEAAXHHHHHHHHII@Z
 ?glBufferData@QGLFunctions@@QEAAXI_JPEBXI@Z
+?glBufferData@QOpenGLFunctions@@QEAAXI_JPEBXI@Z
 ?glBufferSubData@QGLFunctions@@QEAAXI_J0PEBX@Z
+?glBufferSubData@QOpenGLFunctions@@QEAAXI_J0PEBX@Z
 ?glCheckFramebufferStatus@QGLFunctions@@QEAAII@Z
+?glCheckFramebufferStatus@QOpenGLFunctions@@QEAAII@Z
+?glClear@QOpenGLFunctions@@QEAAXI@Z
+?glClearColor@QOpenGLFunctions@@QEAAXMMMM@Z
 ?glClearDepthf@QGLFunctions@@QEAAXM@Z
+?glClearDepthf@QOpenGLFunctions@@QEAAXM@Z
+?glClearIndex@QOpenGLFunctions_1_1@@QEAAXM@Z
+?glClearStencil@QOpenGLFunctions@@QEAAXH@Z
+?glColor4f@QOpenGLFunctions_1_1@@QEAAXMMMM@Z
+?glColorMask@QOpenGLFunctions@@QEAAXEEEE@Z
 ?glCompileShader@QGLFunctions@@QEAAXI@Z
+?glCompileShader@QOpenGLFunctions@@QEAAXI@Z
 ?glCompressedTexImage2D@QGLFunctions@@QEAAXIHIHHHHPEBX@Z
+?glCompressedTexImage2D@QOpenGLFunctions@@QEAAXIHIHHHHPEBX@Z
 ?glCompressedTexSubImage2D@QGLFunctions@@QEAAXIHHHHHIHPEBX@Z
+?glCompressedTexSubImage2D@QOpenGLFunctions@@QEAAXIHHHHHIHPEBX@Z
+?glCopyTexImage2D@QOpenGLFunctions@@QEAAXIHIHHHHH@Z
+?glCopyTexSubImage2D@QOpenGLFunctions@@QEAAXIHHHHHHH@Z
 ?glCreateProgram@QGLFunctions@@QEAAIXZ
+?glCreateProgram@QOpenGLFunctions@@QEAAIXZ
 ?glCreateShader@QGLFunctions@@QEAAII@Z
+?glCreateShader@QOpenGLFunctions@@QEAAII@Z
 ?glDeleteBuffers@QGLFunctions@@QEAAXHPEBI@Z
+?glDeleteBuffers@QOpenGLFunctions@@QEAAXHPEBI@Z
 ?glDeleteFramebuffers@QGLFunctions@@QEAAXHPEBI@Z
+?glDeleteFramebuffers@QOpenGLFunctions@@QEAAXHPEBI@Z
 ?glDeleteProgram@QGLFunctions@@QEAAXI@Z
+?glDeleteProgram@QOpenGLFunctions@@QEAAXI@Z
 ?glDeleteRenderbuffers@QGLFunctions@@QEAAXHPEBI@Z
+?glDeleteRenderbuffers@QOpenGLFunctions@@QEAAXHPEBI@Z
 ?glDeleteShader@QGLFunctions@@QEAAXI@Z
+?glDeleteShader@QOpenGLFunctions@@QEAAXI@Z
+?glDeleteTextures@QOpenGLFunctions@@QEAAXHPEBI@Z
+?glDepthFunc@QOpenGLFunctions@@QEAAXI@Z
+?glDepthMask@QOpenGLFunctions@@QEAAXE@Z
 ?glDepthRangef@QGLFunctions@@QEAAXMM@Z
+?glDepthRangef@QOpenGLFunctions@@QEAAXMM@Z
 ?glDetachShader@QGLFunctions@@QEAAXII@Z
+?glDetachShader@QOpenGLFunctions@@QEAAXII@Z
+?glDisable@QOpenGLFunctions@@QEAAXI@Z
+?glDisableClientState@QOpenGLFunctions_1_1@@QEAAXI@Z
 ?glDisableVertexAttribArray@QGLFunctions@@QEAAXI@Z
+?glDisableVertexAttribArray@QOpenGLFunctions@@QEAAXI@Z
 ?glDraw@QGLWidget@@MEAAXXZ
+?glDrawArrays@QOpenGLFunctions@@QEAAXIHH@Z
+?glDrawBuffer@QOpenGLFunctions_1_1@@QEAAXI@Z
+?glDrawElements@QOpenGLFunctions@@QEAAXIHIPEBX@Z
+?glEnable@QOpenGLFunctions@@QEAAXI@Z
+?glEnableClientState@QOpenGLFunctions_1_1@@QEAAXI@Z
 ?glEnableVertexAttribArray@QGLFunctions@@QEAAXI@Z
+?glEnableVertexAttribArray@QOpenGLFunctions@@QEAAXI@Z
+?glFlush@QOpenGLFunctions@@QEAAXXZ
 ?glFramebufferRenderbuffer@QGLFunctions@@QEAAXIIII@Z
+?glFramebufferRenderbuffer@QOpenGLFunctions@@QEAAXIIII@Z
 ?glFramebufferTexture2D@QGLFunctions@@QEAAXIIIIH@Z
+?glFramebufferTexture2D@QOpenGLFunctions@@QEAAXIIIIH@Z
 ?glGenBuffers@QGLFunctions@@QEAAXHPEAI@Z
+?glGenBuffers@QOpenGLFunctions@@QEAAXHPEAI@Z
 ?glGenFramebuffers@QGLFunctions@@QEAAXHPEAI@Z
+?glGenFramebuffers@QOpenGLFunctions@@QEAAXHPEAI@Z
 ?glGenRenderbuffers@QGLFunctions@@QEAAXHPEAI@Z
+?glGenRenderbuffers@QOpenGLFunctions@@QEAAXHPEAI@Z
+?glGenTextures@QOpenGLFunctions@@QEAAXHPEAI@Z
 ?glGenerateMipmap@QGLFunctions@@QEAAXI@Z
+?glGenerateMipmap@QOpenGLFunctions@@QEAAXI@Z
 ?glGetActiveAttrib@QGLFunctions@@QEAAXIIHPEAH0PEAIPEAD@Z
+?glGetActiveAttrib@QOpenGLFunctions@@QEAAXIIHPEAH0PEAIPEAD@Z
 ?glGetActiveUniform@QGLFunctions@@QEAAXIIHPEAH0PEAIPEAD@Z
+?glGetActiveUniform@QOpenGLFunctions@@QEAAXIIHPEAH0PEAIPEAD@Z
 ?glGetAttachedShaders@QGLFunctions@@QEAAXIHPEAHPEAI@Z
 ?glGetAttribLocation@QGLFunctions@@QEAAHIPEBD@Z
 ?glGetBufferParameteriv@QGLFunctions@@QEAAXIIPEAH@Z
@@ -746,6 +909,9 @@ Qt5OpenGL.dll
 ?isCompiled@QGLShader@@QEBA_NXZ
 ?isCreated@QGLBuffer@@QEBA_NXZ
 ?isEmpty@QGLColormap@@QEBA_NXZ
+?isEmpty@QListData@@QEBA_NXZ
+?isEmpty@QSize@@QEBA_NXZ
+?isEmpty@QString@@QEBA_NXZ
 ?isFlipped@QGLPaintDevice@@UEBA_NXZ
 ?isInitialized@QGLFunctions@@CA_NPEBUQGLFunctionsPrivate@@@Z
 ?isLinked@QGLShaderProgram@@QEBA_NXZ
@@ -756,6 +922,12 @@ Qt5OpenGL.dll
 ?isValid@QGLFramebufferObject@@QEBA_NXZ
 ?isValid@QGLPixelBuffer@@QEBA_NXZ
 ?isValid@QGLWidget@@QEBA_NXZ
+?isValid@QSize@@QEBA_NXZ
+?keyPressEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z
+?keyReleaseEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z
+?leaveEvent@QWidget@@MEAAXPEAVQEvent@@@Z
+?left@QRect@@QEBAHXZ
+?left@QRectF@@QEBANXZ
 ?link@QGLShaderProgram@@UEAA_NXZ
 ?log@QGLShader@@QEBA?AVQString@@XZ
 ?log@QGLShaderProgram@@QEBA?AVQString@@XZ
@@ -777,10 +949,24 @@ Qt5OpenGL.dll
 ?metric@QGLFramebufferObject@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
 ?metric@QGLPaintDevice@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
 ?metric@QGLPixelBuffer@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
+?metric@QWidget@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
+?minimumSizeHint@QWidget@@UEBA?AVQSize@@XZ
 ?minorVersion@QGLFormat@@QEBAHXZ
 ?mipmap@QGLFramebufferObjectFormat@@QEBA_NXZ
+?mouseDoubleClickEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?mouseMoveEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?mousePressEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
+?move@QListData@@QEAAXHH@Z
+?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z
 ?moveToThread@QGLContext@@QEAAXPEAVQThread@@@Z
+?moveToThread@QObject@@QEAAXPEAVQThread@@@Z
+?nativeEvent@QWidget@@MEAA_NAEBVQByteArray@@PEAXPEAJ@Z
+?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
+?nospace@QDebug@@QEAAAEAV1@XZ
+?objectName@QObject@@QEBA?AVQString@@XZ
 ?opacityChanged@QGL2PaintEngineEx@@UEAAXXZ
+?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 ?openGLFeatures@QGLFunctions@@QEBA?AV?$QFlags@W4OpenGLFeature@QGLFunctions@@@@XZ
 ?openGLVersionFlags@QGLFormat@@SA?AV?$QFlags@W4OpenGLVersionFlag@QGLFormat@@@@XZ
 ?optimiseForBrushTransform@QGLEngineShaderManager@@QEAAXW4TransformationType@QTransform@@@Z
@@ -793,6 +979,7 @@ Qt5OpenGL.dll
 ?paintEvent@QGLWidget@@MEAAXPEAVQPaintEvent@@@Z
 ?paintGL@QGLWidget@@MEAAXXZ
 ?paintOverlayGL@QGLWidget@@MEAAXXZ
+?palette@QWidget@@QEBAAEBVQPalette@@XZ
 ?penChanged@QGL2PaintEngineEx@@UEAAXXZ
 ?pixelShaderFragment@QGraphicsShaderEffect@@QEBA?AVQByteArray@@XZ
 ?plane@QGLFormat@@QEBAHXZ
@@ -803,32 +990,46 @@ Qt5OpenGL.dll
 ?q_func@QGLWidgetPrivate@@AEBAPEBVQGLWidget@@XZ
 ?qglClearColor@QGLWidget@@QEBAXAEBVQColor@@@Z
 ?qglColor@QGLWidget@@QEBAXAEBVQColor@@@Z
+?qrand@@YAHXZ
 ?qt_metacall@QGLEngineShaderManager@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QGLShader@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QGLShaderProgram@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QGLSignalProxy@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QGLWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QGraphicsEffect@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QGraphicsShaderEffect@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacast@QGLEngineShaderManager@@UEAAPEAXPEBD@Z
 ?qt_metacast@QGLShader@@UEAAPEAXPEBD@Z
 ?qt_metacast@QGLShaderProgram@@UEAAPEAXPEBD@Z
 ?qt_metacast@QGLSignalProxy@@UEAAPEAXPEBD@Z
 ?qt_metacast@QGLWidget@@UEAAPEAXPEBD@Z
+?qt_metacast@QGraphicsEffect@@UEAAPEAXPEBD@Z
 ?qt_metacast@QGraphicsShaderEffect@@UEAAPEAXPEBD@Z
+?qt_metacast@QObject@@UEAAPEAXPEBD@Z
+?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
 ?qt_qgl_paint_engine@@YAPEAVQPaintEngine@@XZ
+?qt_sine_table@@3QBNB
 ?qt_static_metacall@QGLEngineShaderManager@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_static_metacall@QGLShader@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_static_metacall@QGLShaderProgram@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_static_metacall@QGLSignalProxy@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_static_metacall@QGLWidget@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_static_metacall@QGraphicsShaderEffect@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
+?qt_widget_private@@YAPEAVQWidgetPrivate@@PEAVQWidget@@@Z
 ?read@QGLBuffer@@QEAA_NHPEAXH@Z
+?readAll@QIODevice@@QEAA?AVQByteArray@@XZ
+?realloc@QListData@@QEAAXH@Z
+?rect@QWidget@@QEBA?AVQRect@@XZ
 ?redBufferSize@QGLFormat@@QEBAHXZ
+?redirected@QWidget@@MEBAPEAVQPaintDevice@@PEAVQPoint@@@Z
 ?release@QGLBuffer@@QEAAXXZ
 ?release@QGLBuffer@@SAXW4Type@1@@Z
 ?release@QGLFramebufferObject@@QEAA_NXZ
 ?release@QGLShaderProgram@@QEAAXXZ
 ?releaseFromDynamicTexture@QGLPixelBuffer@@QEAAXXZ
+?remove@QListData@@QEAAXH@Z
 ?removeAllShaders@QGLShaderProgram@@QEAAXXZ
 ?removeCustomStage@QGLEngineShaderManager@@QEAAXXZ
 ?removeFromPainter@QGLCustomShaderStage@@QEAAXPEAVQPainter@@@Z
@@ -840,21 +1041,32 @@ Qt5OpenGL.dll
 ?renderText@QGLWidget@@QEAAXNNNAEBVQString@@AEBVQFont@@@Z
 ?requestedFormat@QGLContext@@QEBA?AVQGLFormat@@XZ
 ?requiresPretransformedGlyphPositions@QGL2PaintEngineEx@@UEBA_NPEAVQFontEngine@@AEBVQTransform@@@Z
+?reserve@QString@@QEAAXH@Z
 ?reset@QGLContext@@QEAAXXZ
+?resetFormat@QDebug@@QEAAAEAV1@XZ
+?resize@QString@@QEAAXH@Z
+?resize@QWidget@@QEAAXHH@Z
 ?resizeEvent@QGLWidget@@MEAAXPEAVQResizeEvent@@@Z
+?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
 ?resizeGL@QGLWidget@@MEAAXHH@Z
 ?resizeOverlayGL@QGLWidget@@MEAAXHH@Z
 ?resizeTextureData@QGLTextureGlyphCache@@UEAAXHH@Z
+?resizeViewportFramebuffer@QWidgetPrivate@@UEAAXXZ
+?resolveSamples@QWidgetPrivate@@UEAAXXZ
 ?rgba@QGLFormat@@QEBA_NXZ
+?right@QRectF@@QEBANXZ
 ?sampleBuffers@QGLFormat@@QEBA_NXZ
 ?samples@QGLFormat@@QEBAHXZ
 ?samples@QGLFramebufferObjectFormat@@QEBAHXZ
+?sender@QObject@@IEBAPEAV1@XZ
 ?serialNumber@QGLTextureGlyphCache@@QEBAHXZ
+?set@QThreadStorageData@@QEAAPEAPEAXPEAX@Z
 ?setAccum@QGLFormat@@QEAAX_N@Z
 ?setAccumBufferSize@QGLFormat@@QEAAXH@Z
 ?setAlpha@QGLFormat@@QEAAX_N@Z
 ?setAlphaBufferSize@QGLFormat@@QEAAXH@Z
 ?setAttachment@QGLFramebufferObjectFormat@@QEAAXW4Attachment@QGLFramebufferObject@@@Z
+?setAttribute@QWidget@@QEAAXW4WidgetAttribute@Qt@@_N@Z
 ?setAttributeArray@QGLShaderProgram@@QEAAXHIPEBXHH@Z
 ?setAttributeArray@QGLShaderProgram@@QEAAXHPEBMHH@Z
 ?setAttributeArray@QGLShaderProgram@@QEAAXHPEBVQVector2D@@H@Z
@@ -886,6 +1098,7 @@ Qt5OpenGL.dll
 ?setAttributeValue@QGLShaderProgram@@QEAAXPEBDMMMM@Z
 ?setAttributeValue@QGLShaderProgram@@QEAAXPEBDPEBMHH@Z
 ?setAutoBufferSwap@QGLWidget@@IEAAX_N@Z
+?setAutoFillBackground@QWidget@@QEAAX_N@Z
 ?setBlueBufferSize@QGLFormat@@QEAAXH@Z
 ?setColormap@QGLWidget@@QEAAXAEBVQGLColormap@@@Z
 ?setCompositionMode@QGLEngineShaderManager@@QEAAXW4CompositionMode@QPainter@@@Z
@@ -1031,24 +1244,42 @@ Qt5OpenGL.dll
 ?setUsagePattern@QGLBuffer@@QEAAXW4UsagePattern@1@@Z
 ?setValid@QGLContext@@IEAAX_N@Z
 ?setVersion@QGLFormat@@QEAAXHH@Z
+?setVisible@QWidget@@UEAAX_N@Z
 ?setWidget@QGLWidgetGLPaintDevice@@QEAAXPEAVQGLWidget@@@Z
 ?setWindowCreated@QGLContext@@IEAAX_N@Z
+?setWindowFlags@QWidgetPrivate@@UEAAXV?$QFlags@W4WindowType@Qt@@@@@Z
 ?shaderDestroyed@QGLShaderProgram@@AEAAXXZ
 ?shaderId@QGLShader@@QEBAIXZ
 ?shaderType@QGLShader@@QEBA?AV?$QFlags@W4ShaderTypeBit@QGLShader@@@@XZ
 ?shaders@QGLShaderProgram@@QEBA?AV?$QList@PEAVQGLShader@@@@XZ
 ?shadersForContext@QGLEngineSharedShaders@@SAPEAV1@PEBVQGLContext@@@Z
+?sharedNull@QArrayData@@SAPEAU1@XZ
+?sharedPainter@QWidget@@MEBAPEAVQPainter@@XZ
 ?shared_null@QGLColormap@@0UQGLColormapData@1@A
+?shared_null@QHashData@@2U1@B
+?shared_null@QListData@@2UData@1@B
 ?shouldDrawCachedGlyphs@QGL2PaintEngineEx@@UEBA_NPEAVQFontEngine@@AEBVQTransform@@@Z
+?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
+?showbase@@YAAEAVQTextStream@@AEAV1@@Z
 ?simpleProgram@QGLEngineShaderManager@@QEAAPEAVQGLShaderProgram@@XZ
 ?simpleProgram@QGLEngineSharedShaders@@QEAAPEAVQGLShaderProgram@@XZ
+?size@QByteArray@@QEBAHXZ
 ?size@QGLBuffer@@QEBAHXZ
 ?size@QGLColormap@@QEBAHXZ
 ?size@QGLFramebufferObject@@QEBA?AVQSize@@XZ
 ?size@QGLPixelBuffer@@QEBA?AVQSize@@XZ
 ?size@QGLWidgetGLPaintDevice@@UEBA?AVQSize@@XZ
+?size@QListData@@QEBAHXZ
+?size@QString@@QEBAHXZ
+?size@QWidget@@QEBA?AVQSize@@XZ
+?sizeHint@QWidget@@UEBA?AVQSize@@XZ
 ?source@QGLCustomShaderStage@@QEBA?AVQByteArray@@XZ
+?sourceChanged@QGraphicsEffect@@MEAAXV?$QFlags@W4ChangeFlag@QGraphicsEffect@@@@@Z
 ?sourceCode@QGLShader@@QEBA?AVQByteArray@@XZ
+?sourceIsPixmap@QGraphicsEffect@@IEBA_NXZ
+?sourcePixmap@QGraphicsEffect@@IEBA?AVQPixmap@@W4CoordinateSystem@Qt@@PEAVQPoint@@W4PixmapPadMode@1@@Z
+?split@QString@@QEBA?AVQStringList@@VQChar@@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
+?startsWith@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
 ?state@QGL2PaintEngineEx@@QEAAPEAVQGL2PaintEngineState@@XZ
 ?state@QGL2PaintEngineEx@@QEBAPEBVQGL2PaintEngineState@@XZ
 ?staticMetaObject@QGLEngineShaderManager@@2UQMetaObject@@B
@@ -1057,7 +1288,10 @@ Qt5OpenGL.dll
 ?staticMetaObject@QGLShaderProgram@@2UQMetaObject@@B
 ?staticMetaObject@QGLSignalProxy@@2UQMetaObject@@B
 ?staticMetaObject@QGLWidget@@2UQMetaObject@@B
+?staticMetaObject@QGraphicsEffect@@2UQMetaObject@@B
 ?staticMetaObject@QGraphicsShaderEffect@@2UQMetaObject@@B
+?staticMetaObject@QObject@@2UQMetaObject@@B
+?staticMetaObject@QWidget@@2UQMetaObject@@B
 ?stencil@QGLFormat@@QEBA_NXZ
 ?stencilBufferSize@QGLFormat@@QEBAHXZ
 ?stereo@QGLFormat@@QEBA_NXZ
@@ -1065,20 +1299,33 @@ Qt5OpenGL.dll
 ?swapBuffers@QGLContext@@UEBAXXZ
 ?swapBuffers@QGLWidget@@QEAAXXZ
 ?swapInterval@QGLFormat@@QEBAHXZ
+?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
+?testAttribute@QWidget@@QEBA_NW4WidgetAttribute@Qt@@@Z
 ?testOption@QGLFormat@@QEBA_NV?$QFlags@W4FormatOption@QGL@@@@@Z
 ?texture@QGLFramebufferObject@@QEBAIXZ
 ?texture@QGLTextureGlyphCache@@QEBAIXZ
 ?textureCacheLimit@QGLContext@@SAHXZ
+?textureId@QWidgetPrivate@@UEBAIXZ
 ?textureTarget@QGLFramebufferObjectFormat@@QEBAIXZ
+?thread@QObject@@QEBAPEAVQThread@@XZ
+?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
+?toAlignedRect@QRectF@@QEBA?AVQRect@@XZ
 ?toImage@QGLFramebufferObject@@QEBA?AVQImage@@XZ
 ?toImage@QGLPixelBuffer@@QEBA?AVQImage@@XZ
+?toLatin1@QChar@@QEBADXZ
+?toLatin1@QString@@QEGBA?AVQByteArray@@XZ
+?toLocal8Bit@QString@@QEHAA?AVQByteArray@@XZ
+?toRect@QRectF@@QEBA?AVQRect@@XZ
 ?toSurfaceFormat@QGLFormat@@SA?AVQSurfaceFormat@@AEBV1@@Z
+?top@QRect@@QEBAHXZ
+?top@QRectF@@QEBANXZ
 ?tr@QGLEngineShaderManager@@SA?AVQString@@PEBD0H@Z
 ?tr@QGLShader@@SA?AVQString@@PEBD0H@Z
 ?tr@QGLShaderProgram@@SA?AVQString@@PEBD0H@Z
 ?tr@QGLSignalProxy@@SA?AVQString@@PEBD0H@Z
 ?tr@QGLWidget@@SA?AVQString@@PEBD0H@Z
 ?tr@QGraphicsShaderEffect@@SA?AVQString@@PEBD0H@Z
+?tr@QMetaObject@@QEBA?AVQString@@PEBD0H@Z
 ?trUtf8@QGLEngineShaderManager@@SA?AVQString@@PEBD0H@Z
 ?trUtf8@QGLShader@@SA?AVQString@@PEBD0H@Z
 ?trUtf8@QGLShaderProgram@@SA?AVQString@@PEBD0H@Z
@@ -1086,6 +1333,7 @@ Qt5OpenGL.dll
 ?trUtf8@QGLWidget@@SA?AVQString@@PEBD0H@Z
 ?trUtf8@QGraphicsShaderEffect@@SA?AVQString@@PEBD0H@Z
 ?transformChanged@QGL2PaintEngineEx@@UEAAXXZ
+?type@QEvent@@QEBA?AW4Type@1@XZ
 ?type@QGL2PaintEngineEx@@UEBA?AW4Type@QPaintEngine@@XZ
 ?type@QGLBuffer@@QEBA?AW4Type@1@XZ
 ?uniformLocation@QGLShaderProgram@@QEBAHAEBVQByteArray@@@Z
@@ -1099,453 +1347,132 @@ Qt5OpenGL.dll
 ?useBlitProgram@QGLEngineShaderManager@@QEAAXXZ
 ?useCorrectShaderProg@QGLEngineShaderManager@@QEAA_NXZ
 ?useSimpleProgram@QGLEngineShaderManager@@QEAAXXZ
+?warning@QMessageLogger@@QEBA?AVQDebug@@XZ
+?warning@QMessageLogger@@QEBAXPEBDZZ
 ?width@QGLTextureGlyphCache@@QEBAHXZ
+?width@QRect@@QEBAHXZ
+?width@QRectF@@QEBANXZ
+?width@QSize@@QEBAHXZ
+?width@QSizeF@@QEBANXZ
+?willGrow@QHashData@@QEAA_NXZ
 ?windowCreated@QGLContext@@IEBA_NXZ
 ?write@QGLBuffer@@QEAAXHPEBXH@Z
-??1QWidget@@UEAA@XZ
-?size@QWidget@@QEBA?AVQSize@@XZ
-A!?width@QWidget@@QEBAHXZ
-w\f?height@QWidget@@QEBAHXZ
-?rect@QWidget@@QEBA?AVQRect@@XZ
-H!?window@QWidget@@QEBAPEAV1@XZ
- ?updatesEnabled@QWidget@@QEBA_NXZ
-?setAttribute@QWidget@@QEAAXW4WidgetAttribute@Qt@@_N@Z
-?testAttribute@QWidget@@QEBA_NW4WidgetAttribute@Qt@@@Z
-?setAutoFillBackground@QWidget@@QEAAX_N@Z
-Q!?windowHandle@QWidget@@QEBAPEAVQWindow@@XZ
-\n?event@QWidget@@MEAA_NPEAVQEvent@@@Z
-?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z
-??0QWidget@@IEAA@AEAVQWidgetPrivate@@PEAV0@V?$QFlags@W4WindowType@Qt@@@@@Z
-?qt_widget_private@@YAPEAVQWidgetPrivate@@PEAVQWidget@@@Z
-??0QWidgetPrivate@@QEAA@H@Z
-??1QWidgetPrivate@@UEAA@XZ
-?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z
-?beginBackingStorePainting@QWidgetPrivate@@UEAAXXZ
-?beginCompose@QWidgetPrivate@@UEAAXXZ
-?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z
-?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z
-?contextMenuEvent@QWidget@@MEAAXPEAVQContextMenuEvent@@@Z
-\t?devType@QWidget@@UEBAHXZ
-\n?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
-\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
--\n?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z
-h\n?dropEvent@QWidget@@MEAAXPEAVQDropEvent@@@Z
-\n?endBackingStorePainting@QWidgetPrivate@@UEAAXXZ
-\n?endCompose@QWidgetPrivate@@UEAAXXZ
-\n?enterEvent@QWidget@@MEAAXPEAVQEvent@@@Z
-\v?focusInEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
-\v?focusNextPrevChild@QWidget@@MEAA_N_N@Z
-\v?focusObject@QWidgetPrivate@@UEAAPEAVQObject@@XZ
-\v?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
--\f?grabFramebuffer@QWidgetPrivate@@UEAA?AVQImage@@XZ
-a\f?hasHeightForWidth@QWidget@@UEBA_NXZ
-\f?heightForWidth@QWidget@@UEBAHH@Z
-\f?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
-;\r?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z
-c\r?initializeViewportFramebuffer@QWidgetPrivate@@UEAAXXZ
-r\r?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z
-\r?inputMethodQuery@QWidget@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
-?keyPressEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z
-?keyReleaseEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z
-?leaveEvent@QWidget@@MEAAXPEAVQEvent@@@Z
-?metric@QWidget@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
-?minimumSizeHint@QWidget@@UEBA?AVQSize@@XZ
-?mouseDoubleClickEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
-?mouseMoveEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
-?mousePressEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
-?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
-?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z
-?nativeEvent@QWidget@@MEAA_NAEBVQByteArray@@PEAXPEAJ@Z
-?redirected@QWidget@@MEBAPEAVQPaintDevice@@PEAVQPoint@@@Z
-?resizeViewportFramebuffer@QWidgetPrivate@@UEAAXXZ
-?resolveSamples@QWidgetPrivate@@UEAAXXZ
-?setVisible@QWidget@@UEAAX_N@Z
-?setWindowFlags@QWidgetPrivate@@UEAAXV?$QFlags@W4WindowType@Qt@@@@@Z
-?sharedPainter@QWidget@@MEBAPEAVQPainter@@XZ
-?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z
-?sizeHint@QWidget@@UEBA?AVQSize@@XZ
-?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z
-?textureId@QWidgetPrivate@@UEBAIXZ
- !?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
-?resize@QWidget@@QEAAXHH@Z
-?palette@QWidget@@QEBAAEBVQPalette@@XZ
-?backgroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
-?autoFillBackground@QWidget@@QEBA_NXZ
-??1QGraphicsEffect@@UEAA@XZ
-??0QGraphicsEffect@@IEAA@AEAVQGraphicsEffectPrivate@@PEAVQObject@@@Z
-?sourceIsPixmap@QGraphicsEffect@@IEBA_NXZ
-?sourcePixmap@QGraphicsEffect@@IEBA?AVQPixmap@@W4CoordinateSystem@Qt@@PEAVQPoint@@W4PixmapPadMode@1@@Z
-??0QGraphicsEffectPrivate@@QEAA@XZ
-?boundingRectFor@QGraphicsEffect@@UEBA?AVQRectF@@AEBV2@@Z
-?sourceChanged@QGraphicsEffect@@MEAAXV?$QFlags@W4ChangeFlag@QGraphicsEffect@@@@@Z
-?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
-?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-?staticMetaObject@QWidget@@2UQMetaObject@@B
-?qt_metacast@QGraphicsEffect@@UEAAPEAXPEBD@Z
-?qt_metacall@QGraphicsEffect@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-?staticMetaObject@QGraphicsEffect@@2UQMetaObject@@B
-Qt5Widgets.dll
-??0QColor@@QEAA@XZ
-?alphaF@QColor@@QEBANXZ
-Q?redF@QColor@@QEBANXZ
-J?greenF@QColor@@QEBANXZ
-\t?blueF@QColor@@QEBANXZ
-U?setRgbF@QColor@@QEAAXNNNN@Z
-R?rgb@QColor@@QEBAIXZ
-??4QColor@@QEAAAEAV0@AEBV0@@Z
-O?paintingActive@QPaintDevice@@QEBA_NXZ
-Z?width@QPaintDevice@@QEBAHXZ
-K?height@QPaintDevice@@QEBAHXZ
-\f?devicePixelRatio@QPaintDevice@@QEBAHXZ
-??0QImage@@QEAA@XZ
-??0QImage@@QEAA@AEBVQSize@@W4Format@0@@Z
-??0QImage@@QEAA@AEBV0@@Z
-??0QImage@@QEAA@$$QEAV0@@Z
-??1QImage@@UEAA@XZ
-??4QImage@@QEAAAEAV0@$$QEAV0@@Z
-L?isNull@QImage@@QEBA_NXZ
-CL?isDetached@QImage@@QEBA_NXZ
-?format@QImage@@QEBA?AW4Format@1@XZ
-Z\n?convertToFormat@QImage@@QEGBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-Z?width@QImage@@QEBAHXZ
-K?height@QImage@@QEBAHXZ
-MW?size@QImage@@QEBA?AVQSize@@XZ
-?bits@QImage@@QEAAPEAEXZ
-?bits@QImage@@QEBAPEBEXZ
-R?scanLine@QImage@@QEAAPEAEH@Z
-R?scanLine@QImage@@QEBAPEBEH@Z
-7\n?constScanLine@QImage@@QEBAPEBEH@Z
-j\t?bytesPerLine@QImage@@QEBAHXZ
- T?setDevicePixelRatio@QImage@@QEAAXN@Z
-J?hasAlphaChannel@QImage@@QEBA_NXZ
-R?scaled@QImage@@QEBA?AV1@HHW4AspectRatioMode@Qt@@W4TransformationMode@3@@Z
-N?mirrored@QImage@@QEGBA?AV1@_N0@Z
-o\t?cacheKey@QImage@@QEBA_JXZ
-??0QPixmap@@QEAA@XZ
-??1QPixmap@@UEAA@XZ
-??4QPixmap@@QEAAAEAV0@$$QEAV0@@Z
-L?isNull@QPixmap@@QEBA_NXZ
-\v?depth@QPixmap@@QEBAHXZ
-+Y?toImage@QPixmap@@QEBA?AVQImage@@XZ
-?fromImage@QPixmap@@SA?AV1@$$QEAVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-q\t?cacheKey@QPixmap@@QEBA_JXZ
-J?handle@QPixmap@@QEBAPEAVQPlatformPixmap@@XZ
-??0QFont@@QEAA@AEBV0@@Z
-??1QFont@@QEAA@XZ
-??0QSurfaceFormat@@QEAA@XZ
-??1QSurfaceFormat@@QEAA@XZ
-T?setDepthBufferSize@QSurfaceFormat@@QEAAXH@Z
-\v?depthBufferSize@QSurfaceFormat@@QEBAHXZ
-V?setStencilBufferSize@QSurfaceFormat@@QEAAXH@Z
-X?stencilBufferSize@QSurfaceFormat@@QEBAHXZ
-U?setRedBufferSize@QSurfaceFormat@@QEAAXH@Z
-Q?redBufferSize@QSurfaceFormat@@QEBAHXZ
-T?setGreenBufferSize@QSurfaceFormat@@QEAAXH@Z
-J?greenBufferSize@QSurfaceFormat@@QEBAHXZ
-tS?setBlueBufferSize@QSurfaceFormat@@QEAAXH@Z
-\t?blueBufferSize@QSurfaceFormat@@QEBAHXZ
-5S?setAlphaBufferSize@QSurfaceFormat@@QEAAXH@Z
-?alphaBufferSize@QSurfaceFormat@@QEBAHXZ
-U?setSamples@QSurfaceFormat@@QEAAXH@Z
-R?samples@QSurfaceFormat@@QEBAHXZ
-"V?setSwapBehavior@QSurfaceFormat@@QEAAXW4SwapBehavior@1@@Z
-X?swapBehavior@QSurfaceFormat@@QEBA?AW4SwapBehavior@1@XZ
-U?setProfile@QSurfaceFormat@@QEAAXW4OpenGLContextProfile@1@@Z
-xP?profile@QSurfaceFormat@@QEBA?AW4OpenGLContextProfile@1@XZ
-T?setMajorVersion@QSurfaceFormat@@QEAAXH@Z
-M?majorVersion@QSurfaceFormat@@QEBAHXZ
-U?setMinorVersion@QSurfaceFormat@@QEAAXH@Z
-N?minorVersion@QSurfaceFormat@@QEBAHXZ
-X?stereo@QSurfaceFormat@@QEBA_NXZ
-V?setStereo@QSurfaceFormat@@QEAAX_N@Z
-HU?setOption@QSurfaceFormat@@QEAAXW4FormatOption@1@_N@Z
-X?swapInterval@QSurfaceFormat@@QEBAHXZ
-$V?setSwapInterval@QSurfaceFormat@@QEAAXH@Z
-??9@YA_NAEBVQSurfaceFormat@@0@Z
-??1QOpenGLVersionProfile@@QEAA@XZ
-??0QOpenGLContext@@QEAA@PEAVQObject@@@Z
-??1QOpenGLContext@@UEAA@XZ
-{T?setFormat@QOpenGLContext@@QEAAXAEBVQSurfaceFormat@@@Z
-U?setShareContext@QOpenGLContext@@QEAAXPEAV1@@Z
-{\n?create@QOpenGLContext@@QEAA_NXZ
-L?isValid@QOpenGLContext@@QEBA_NXZ
-?format@QOpenGLContext@@QEBA?AVQSurfaceFormat@@XZ
-$W?shareContext@QOpenGLContext@@QEBAPEAV1@XZ
-&W?shareGroup@QOpenGLContext@@QEBAPEAVQOpenGLContextGroup@@XZ
-\v?defaultFramebufferObject@QOpenGLContext@@QEBAIXZ
-M?makeCurrent@QOpenGLContext@@QEAA_NPEAVQSurface@@@Z
-<\f?doneCurrent@QOpenGLContext@@QEAAXXZ
-X?swapBuffers@QOpenGLContext@@QEAAXPEAVQSurface@@@Z
-?getProcAddress@QOpenGLContext@@QEBAP6AXXZAEBVQByteArray@@@Z
-\n?currentContext@QOpenGLContext@@SAPEAV1@XZ
-?functions@QOpenGLContext@@QEBAPEAVQOpenGLFunctions@@XZ
-Z?versionFunctions@QOpenGLContext@@QEBAPEAVQAbstractOpenGLFunctions@@AEBVQOpenGLVersionProfile@@@Z
-OO?openGLModuleType@QOpenGLContext@@SA?AW4OpenGLModuleType@1@XZ
-L?isOpenGLES@QOpenGLContext@@QEBA_NXZ
-P?qGLContextHandle@QOpenGLContext@@AEBAPEAXXZ
-U?setQGLContextHandle@QOpenGLContext@@AEAAXPEAXP6AX0@Z@Z
-??0QWindow@@QEAA@PEAVQScreen@@@Z
-??1QWindow@@UEAA@XZ
-!V?setSurfaceType@QWindow@@QEAAXW4SurfaceType@QSurface@@@Z
-\n?create@QWindow@@QEAAXXZ
-T?setFormat@QWindow@@QEAAXAEBVQSurfaceFormat@@@Z
-[R?requestedFormat@QWindow@@QEBA?AVQSurfaceFormat@@XZ
-\f?devicePixelRatio@QWindow@@QEBANXZ
-T?setGeometry@QWindow@@QEAAXAEBVQRect@@@Z
-\v?destroy@QWindow@@QEAAXXZ
-J?handle@QWindow@@QEBAPEAVQPlatformWindow@@XZ
-MO?openGLFeatures@QOpenGLFunctions@@QEBA?AV?$QFlags@W4OpenGLFeature@QOpenGLFunctions@@@@XZ
-J?hasOpenGLFeature@QOpenGLFunctions@@QEBA_NW4OpenGLFeature@1@@Z
-?glBindTexture@QOpenGLFunctions@@QEAAXII@Z
-?glBlendFunc@QOpenGLFunctions@@QEAAXII@Z
-?glClear@QOpenGLFunctions@@QEAAXI@Z
-?glClearColor@QOpenGLFunctions@@QEAAXMMMM@Z
-?glDeleteTextures@QOpenGLFunctions@@QEAAXHPEBI@Z
-?glDisable@QOpenGLFunctions@@QEAAXI@Z
-?glDrawArrays@QOpenGLFunctions@@QEAAXIHH@Z
-?glEnable@QOpenGLFunctions@@QEAAXI@Z
-?glFlush@QOpenGLFunctions@@QEAAXXZ
-?glGenTextures@QOpenGLFunctions@@QEAAXHPEAI@Z
-!?glGetFloatv@QOpenGLFunctions@@QEAAXIPEAM@Z
-i"?glGetIntegerv@QOpenGLFunctions@@QEAAXIPEAH@Z
-:%?glGetString@QOpenGLFunctions@@QEAAPEBEI@Z
-'?glHint@QOpenGLFunctions@@QEAAXII@Z
->)?glIsEnabled@QOpenGLFunctions@@QEAAEI@Z
-1?glPixelStorei@QOpenGLFunctions@@QEAAXIH@Z
-6?glReadPixels@QOpenGLFunctions@@QEAAXHHHHIIPEAX@Z
-]8?glScissor@QOpenGLFunctions@@QEAAXHHHH@Z
-=?glTexImage2D@QOpenGLFunctions@@QEAAXIHHHHHIIPEBX@Z
->?glTexParameteri@QOpenGLFunctions@@QEAAXIIH@Z
-4I?glViewport@QOpenGLFunctions@@QEAAXHHHH@Z
-?glActiveTexture@QOpenGLFunctions@@QEAAXI@Z
-?glAttachShader@QOpenGLFunctions@@QEAAXII@Z
-?glBindAttribLocation@QOpenGLFunctions@@QEAAXIIPEBD@Z
-?glBindBuffer@QOpenGLFunctions@@QEAAXII@Z
-?glBindFramebuffer@QOpenGLFunctions@@QEAAXII@Z
-?glBindRenderbuffer@QOpenGLFunctions@@QEAAXII@Z
-?glBlendColor@QOpenGLFunctions@@QEAAXMMMM@Z
-?glBlendEquation@QOpenGLFunctions@@QEAAXI@Z
-?glBlendEquationSeparate@QOpenGLFunctions@@QEAAXII@Z
-?glBlendFuncSeparate@QOpenGLFunctions@@QEAAXIIII@Z
-?glBufferData@QOpenGLFunctions@@QEAAXI_JPEBXI@Z
-?glBufferSubData@QOpenGLFunctions@@QEAAXI_J0PEBX@Z
-?glCheckFramebufferStatus@QOpenGLFunctions@@QEAAII@Z
-?glClearDepthf@QOpenGLFunctions@@QEAAXM@Z
-?glCompileShader@QOpenGLFunctions@@QEAAXI@Z
-?glCompressedTexImage2D@QOpenGLFunctions@@QEAAXIHIHHHHPEBX@Z
-?glCompressedTexSubImage2D@QOpenGLFunctions@@QEAAXIHHHHHIHPEBX@Z
-?glCreateProgram@QOpenGLFunctions@@QEAAIXZ
-?glCreateShader@QOpenGLFunctions@@QEAAII@Z
-?glDeleteBuffers@QOpenGLFunctions@@QEAAXHPEBI@Z
-?glDeleteFramebuffers@QOpenGLFunctions@@QEAAXHPEBI@Z
-?glDeleteProgram@QOpenGLFunctions@@QEAAXI@Z
-?glDeleteRenderbuffers@QOpenGLFunctions@@QEAAXHPEBI@Z
-?glDeleteShader@QOpenGLFunctions@@QEAAXI@Z
-?glDepthRangef@QOpenGLFunctions@@QEAAXMM@Z
-?glDetachShader@QOpenGLFunctions@@QEAAXII@Z
-?glDisableVertexAttribArray@QOpenGLFunctions@@QEAAXI@Z
-?glEnableVertexAttribArray@QOpenGLFunctions@@QEAAXI@Z
-?glFramebufferRenderbuffer@QOpenGLFunctions@@QEAAXIIII@Z
-?glFramebufferTexture2D@QOpenGLFunctions@@QEAAXIIIIH@Z
-?glGenBuffers@QOpenGLFunctions@@QEAAXHPEAI@Z
-?glGenerateMipmap@QOpenGLFunctions@@QEAAXI@Z
-?glGenFramebuffers@QOpenGLFunctions@@QEAAXHPEAI@Z
-?glGenRenderbuffers@QOpenGLFunctions@@QEAAXHPEAI@Z
-?glGetActiveAttrib@QOpenGLFunctions@@QEAAXIIHPEAH0PEAIPEAD@Z
-?glGetActiveUniform@QOpenGLFunctions@@QEAAXIIHPEAH0PEAIPEAD@Z
-9 ?glGetAttachedShaders@QOpenGLFunctions@@QEAAXIHPEAHPEAI@Z
-N ?glGetAttribLocation@QOpenGLFunctions@@QEAAHIPEBD@Z
- ?glGetBufferParameteriv@QOpenGLFunctions@@QEAAXIIPEAH@Z
-!?glGetFramebufferAttachmentParameteriv@QOpenGLFunctions@@QEAAXIIIPEAH@Z
-$?glGetProgramiv@QOpenGLFunctions@@QEAAXIIPEAH@Z
-#?glGetProgramInfoLog@QOpenGLFunctions@@QEAAXIHPEAHPEAD@Z
-$?glGetRenderbufferParameteriv@QOpenGLFunctions@@QEAAXIIPEAH@Z
-%%?glGetShaderiv@QOpenGLFunctions@@QEAAXIIPEAH@Z
-$?glGetShaderInfoLog@QOpenGLFunctions@@QEAAXIHPEAHPEAD@Z
-%?glGetShaderPrecisionFormat@QOpenGLFunctions@@QEAAXIIPEAH0@Z
-%?glGetShaderSource@QOpenGLFunctions@@QEAAXIHPEAHPEAD@Z
-'?glGetUniformfv@QOpenGLFunctions@@QEAAXIHPEAM@Z
-'?glGetUniformiv@QOpenGLFunctions@@QEAAXIHPEAH@Z
-&?glGetUniformLocation@QOpenGLFunctions@@QEAAHIPEBD@Z
-'?glGetVertexAttribfv@QOpenGLFunctions@@QEAAXIIPEAM@Z
-'?glGetVertexAttribiv@QOpenGLFunctions@@QEAAXIIPEAH@Z
-s'?glGetVertexAttribPointerv@QOpenGLFunctions@@QEAAXIIPEAPEAX@Z
-()?glIsBuffer@QOpenGLFunctions@@QEAAEI@Z
-k)?glIsFramebuffer@QOpenGLFunctions@@QEAAEI@Z
-)?glIsProgram@QOpenGLFunctions@@QEAAEI@Z
-)?glIsRenderbuffer@QOpenGLFunctions@@QEAAEI@Z
-)?glIsShader@QOpenGLFunctions@@QEAAEI@Z
-*?glLinkProgram@QOpenGLFunctions@@QEAAXI@Z
-17?glReleaseShaderCompiler@QOpenGLFunctions@@QEAAXXZ
-M7?glRenderbufferStorage@QOpenGLFunctions@@QEAAXIIHH@Z
-7?glSampleCoverage@QOpenGLFunctions@@QEAAXME@Z
-9?glShaderBinary@QOpenGLFunctions@@QEAAXHPEBIIPEBXH@Z
-9?glShaderSource@QOpenGLFunctions@@QEAAXIHPEAPEBDPEBH@Z
-9?glStencilFuncSeparate@QOpenGLFunctions@@QEAAXIIHI@Z
--:?glStencilMaskSeparate@QOpenGLFunctions@@QEAAXII@Z
-]:?glStencilOpSeparate@QOpenGLFunctions@@QEAAXIIII@Z
-??glUniform1f@QOpenGLFunctions@@QEAAXHM@Z
-??glUniform1fv@QOpenGLFunctions@@QEAAXHHPEBM@Z
-??glUniform1i@QOpenGLFunctions@@QEAAXHH@Z
-??glUniform1iv@QOpenGLFunctions@@QEAAXHHPEBH@Z
-7@?glUniform2f@QOpenGLFunctions@@QEAAXHMM@Z
-L@?glUniform2fv@QOpenGLFunctions@@QEAAXHHPEBM@Z
-a@?glUniform2i@QOpenGLFunctions@@QEAAXHHH@Z
-v@?glUniform2iv@QOpenGLFunctions@@QEAAXHHPEBH@Z
+?x@QPoint@@QEBAHXZ
+?x@QPointF@@QEBANXZ
+?x@QRectF@@QEBANXZ
+?y@QPoint@@QEBAHXZ
+?y@QPointF@@QEBANXZ
+?y@QRectF@@QEBANXZ
 @?glUniform3f@QOpenGLFunctions@@QEAAXHMMM@Z
 @?glUniform3fv@QOpenGLFunctions@@QEAAXHHPEBM@Z
 @?glUniform3i@QOpenGLFunctions@@QEAAXHHHH@Z
+@C?glValidateProgram@QOpenGLFunctions@@QEAAXI@Z
+@\r?enableCleanupHooks@QImagePixmapCleanupHooks@@SAXAEBVQPixmap@@@Z
+A!?width@QWidget@@QEBAHXZ
 A?glUniform3iv@QOpenGLFunctions@@QEAAXHHPEBH@Z
-WA?glUniform4f@QOpenGLFunctions@@QEAAXHMMMM@Z
-lA?glUniform4fv@QOpenGLFunctions@@QEAAXHHPEBM@Z
 A?glUniform4i@QOpenGLFunctions@@QEAAXHHHHH@Z
 A?glUniform4iv@QOpenGLFunctions@@QEAAXHHPEBH@Z
 A?glUniformMatrix2fv@QOpenGLFunctions@@QEAAXHHEPEBM@Z
-KB?glUniformMatrix3fv@QOpenGLFunctions@@QEAAXHHEPEBM@Z
+B:?glStencilOp@QOpenGLFunctions@@QEAAXIII@Z
 B?glUniformMatrix4fv@QOpenGLFunctions@@QEAAXHHEPEBM@Z
-!C?glUseProgram@QOpenGLFunctions@@QEAAXI@Z
-@C?glValidateProgram@QOpenGLFunctions@@QEAAXI@Z
-!E?glVertexAttrib1f@QOpenGLFunctions@@QEAAXIM@Z
-/E?glVertexAttrib1fv@QOpenGLFunctions@@QEAAXIPEBM@Z
-qE?glVertexAttrib2f@QOpenGLFunctions@@QEAAXIMM@Z
+BZ?type@QTransform@@QEBA?AW4TransformationType@1@XZ
+B\r?indexOf@QByteArray@@QEBAHPEBDH@Z
+CL?isDetached@QImage@@QEBA_NXZ
+CS?setAttachment@QOpenGLFramebufferObjectFormat@@QEAAXW4Attachment@QOpenGLFramebufferObject@@@Z
+CloseHandle
+CreateEventW
+Custom shader is already set on a painter
+D:\qt5\qtbase\lib\Qt5OpenGL.pdb
+DDS 
+D\t?boundingRect@QRegion@@QEBA?AVQRect@@XZ
+DeleteCriticalSection
+DisableThreadLibraryCalls
 E?glVertexAttrib2fv@QOpenGLFunctions@@QEAAXIPEBM@Z
 E?glVertexAttrib3f@QOpenGLFunctions@@QEAAXIMMM@Z
 E?glVertexAttrib3fv@QOpenGLFunctions@@QEAAXIPEBM@Z
-yF?glVertexAttrib4f@QOpenGLFunctions@@QEAAXIMMMM@Z
+EnterCriticalSection
+Errors linking blit shader: %s
+Errors linking simple shader: %s
 F?glVertexAttrib4fv@QOpenGLFunctions@@QEAAXIPEBM@Z
+F\t?bounds@QBezier@@QEBA?AVQRectF@@XZ
+Fragment
+Fragment shader for blitShaderProg (MainFragmentShader & ImageSrcFragmentShader) failed to compile
+Fragment shader for simpleShaderProg (MainFragmentShader & ShockingPinkSrcFragmentShader) failed to compile
+GL_ARB_compatibility
+GL_ARB_framebuffer_object
+GL_ARB_multisample
+GL_ARB_multitexture
+GL_ARB_shader_objects
+GL_ARB_texture_compression
+GL_ARB_texture_non_power_of_two
+GL_EXT_blend_color
+GL_EXT_blend_equation_separate
+GL_EXT_blend_func_separate
+GL_EXT_blend_subtract
+GL_EXT_framebuffer_object
+GL_EXT_geometry_shader4
+GL_IMG_texture_npot
+GL_OES_texture_npot
+Geometry
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetModuleHandleW
+GetProcAddress
+GetSystemTimeAsFileTime
+H!?window@QWidget@@QEBAPEAV1@XZ
 H?glVertexAttribPointer@QOpenGLFunctions@@QEAAXIHIEHPEBX@Z
-??0QPen@@QEAA@AEBV0@@Z
-??1QPen@@QEAA@XZ
-??0QPainter@@QEAA@PEAVQPaintDevice@@@Z
-??1QPainter@@QEAA@XZ
-K\r?end@QPainter@@QEAA_NXZ
-?font@QPainter@@QEBAAEBVQFont@@XZ
-ZT?setFont@QPainter@@QEAAXAEBVQFont@@@Z
-{U?setPen@QPainter@@QEAAXAEBVQColor@@@Z
-|U?setPen@QPainter@@QEAAXAEBVQPen@@@Z
-O?pen@QPainter@@QEBAAEBVQPen@@XZ
-\f?drawText@QPainter@@QEAAXHHAEBVQString@@@Z
-O?paintEngine@QPainter@@QEBAPEAVQPaintEngine@@XZ
-L?isActive@QPaintEngine@@QEBA_NXZ
-rU?setPaintDevice@QPaintEngine@@QEAAXPEAVQPaintDevice@@@Z
-O?paintDevice@QPaintEngine@@QEBAPEAVQPaintDevice@@XZ
-O?painter@QPaintEngine@@QEBAPEAVQPainter@@XZ
-??0QOpenGLSharedResource@@QEAA@PEAVQOpenGLContextGroup@@@Z
-??1QOpenGLSharedResource@@UEAA@XZ
-?free@QOpenGLSharedResource@@QEAAXXZ
-?get@QOpenGLContextPrivate@@SAPEAV1@PEAVQOpenGLContext@@@Z
-LO?openGLExtensions@QOpenGLExtensions@@QEAA?AV?$QFlags@W4OpenGLExtension@QOpenGLExtensions@@@@XZ
-J?hasOpenGLExtension@QOpenGLExtensions@@QEBA_NW4OpenGLExtension@1@@Z
-r\t?cacheKey@QPlatformPixmap@@QEBA_JXZ
-K?instance@QImagePixmapCleanupHooks@@SAPEAV1@XZ
-?\r?enableCleanupHooks@QImagePixmapCleanupHooks@@SAXAEBVQImage@@@Z
-@\r?enableCleanupHooks@QImagePixmapCleanupHooks@@SAXAEBVQPixmap@@@Z
-?addPlatformPixmapModificationHook@QImagePixmapCleanupHooks@@QEAAXP6AXPEAVQPlatformPixmap@@@Z@Z
-?addPlatformPixmapDestructionHook@QImagePixmapCleanupHooks@@QEAAXP6AXPEAVQPlatformPixmap@@@Z@Z
-?addImageHook@QImagePixmapCleanupHooks@@QEAAXP6AX_J@Z@Z
-4R?removePlatformPixmapModificationHook@QImagePixmapCleanupHooks@@QEAAXP6AXPEAVQPlatformPixmap@@@Z@Z
-3R?removePlatformPixmapDestructionHook@QImagePixmapCleanupHooks@@QEAAXP6AXPEAVQPlatformPixmap@@@Z@Z
-0R?removeImageHook@QImagePixmapCleanupHooks@@QEAAXP6AX_J@Z@Z
-&?glGetTexLevelParameteriv@QOpenGLFunctions_1_1@@QEAAXIHIPEAH@Z
-v!?glGetDoublev@QOpenGLFunctions_1_1@@QEAAXIPEAN@Z
-?glDrawBuffer@QOpenGLFunctions_1_1@@QEAAXI@Z
-4?glPushMatrix@QOpenGLFunctions_1_1@@QEAAXXZ
-+2?glPopMatrix@QOpenGLFunctions_1_1@@QEAAXXZ
-,?glMatrixMode@QOpenGLFunctions_1_1@@QEAAXI@Z
-+?glLoadIdentity@QOpenGLFunctions_1_1@@QEAAXXZ
-?glAlphaFunc@QOpenGLFunctions_1_1@@QEAAXIM@Z
-4?glPushAttrib@QOpenGLFunctions_1_1@@QEAAXI@Z
-2?glPopAttrib@QOpenGLFunctions_1_1@@QEAAXXZ
-?glClearIndex@QOpenGLFunctions_1_1@@QEAAXM@Z
-9?glShadeModel@QOpenGLFunctions_1_1@@QEAAXI@Z
-n(?glIndexi@QOpenGLFunctions_1_1@@QEAAXH@Z
-?glColor4f@QOpenGLFunctions_1_1@@QEAAXMMMM@Z
-4?glPushClientAttrib@QOpenGLFunctions_1_1@@QEAAXI@Z
-2?glPopClientAttrib@QOpenGLFunctions_1_1@@QEAAXXZ
-$I?glVertexPointer@QOpenGLFunctions_1_1@@QEAAXHIHPEBX@Z
-\t=?glTexCoordPointer@QOpenGLFunctions_1_1@@QEAAXHIHPEBX@Z
-?glEnableClientState@QOpenGLFunctions_1_1@@QEAAXI@Z
-?glDisableClientState@QOpenGLFunctions_1_1@@QEAAXI@Z
-Z?versionProfile@QOpenGLFunctions_1_1@@CA?AVQOpenGLVersionProfile@@XZ
-?accessibleRoot@QWindow@@UEBAPEAVQAccessibleInterface@@XZ
-\r?event@QWindow@@MEAA_NPEAVQEvent@@@Z
-\r?exposeEvent@QWindow@@MEAAXPEAVQExposeEvent@@@Z
-?focusInEvent@QWindow@@MEAAXPEAVQFocusEvent@@@Z
-?focusObject@QWindow@@UEBAPEAVQObject@@XZ
-?focusOutEvent@QWindow@@MEAAXPEAVQFocusEvent@@@Z
-?format@QWindow@@UEBA?AVQSurfaceFormat@@XZ
-?freeResource@QOpenGLSharedResourceGuard@@MEAAXPEAVQOpenGLContext@@@Z
-K?hideEvent@QWindow@@MEAAXPEAVQHideEvent@@@Z
-K?invalidateResource@QOpenGLSharedResourceGuard@@MEAAXXZ
-\nM?keyPressEvent@QWindow@@MEAAXPEAVQKeyEvent@@@Z
-\vM?keyReleaseEvent@QWindow@@MEAAXPEAVQKeyEvent@@@Z
-LN?metaObject@QOpenGLContext@@UEBAPEBUQMetaObject@@XZ
-{N?metaObject@QWindow@@UEBAPEBUQMetaObject@@XZ
-N?mouseDoubleClickEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
-N?mouseMoveEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
-N?mousePressEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
-N?mouseReleaseEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
-N?moveEvent@QWindow@@MEAAXPEAVQMoveEvent@@@Z
-N?nativeEvent@QWindow@@MEAA_NAEBVQByteArray@@PEAXPEAJ@Z
-P?qt_metacall@QOpenGLContext@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-!Q?qt_metacall@QWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-5Q?qt_metacast@QOpenGLContext@@UEAAPEAXPEBD@Z
-dQ?qt_metacast@QWindow@@UEAAPEAXPEBD@Z
-pR?resizeEvent@QWindow@@MEAAXPEAVQResizeEvent@@@Z
-8W?showEvent@QWindow@@MEAAXPEAVQShowEvent@@@Z
-^W?size@QWindow@@UEBA?AVQSize@@XZ
-cX?surfaceHandle@QWindow@@EEBAPEAVQPlatformSurface@@XZ
-eX?surfaceType@QWindow@@UEBA?AW4SurfaceType@QSurface@@XZ
-X?tabletEvent@QWindow@@MEAAXPEAVQTabletEvent@@@Z
-gY?touchEvent@QWindow@@MEAAXPEAVQTouchEvent@@@Z
-Z?wheelEvent@QWindow@@MEAAXPEAVQWheelEvent@@@Z
-\fP?platform_integration@QGuiApplicationPrivate@@2PEAVQPlatformIntegration@@EA
-??0QColor@@QEAA@I@Z
-\v?d_func@QOpenGLContextGroup@@AEAAPEAVQOpenGLContextGroupPrivate@@XZ
-??0QOpenGLFunctions@@QEAA@PEAVQOpenGLContext@@@Z
-??1QOpenGLFunctions@@QEAA@XZ
-sK?initializeOpenGLFunctions@QOpenGLFunctions@@QEAAXXZ
-??0QOpenGLMultiGroupSharedResource@@QEAA@XZ
-??1QOpenGLMultiGroupSharedResource@@QEAA@XZ
-K?insert@QOpenGLMultiGroupSharedResource@@QEAAXPEAVQOpenGLContext@@PEAVQOpenGLSharedResource@@@Z
-??0QOpenGLExtensionMatcher@@QEAA@XZ
-\vN?match@QOpenGLExtensionMatcher@@QEBA_NAEBVQByteArray@@@Z
-??1QOpenGLExtensionMatcher@@QEAA@XZ
-??1QPaintDevice@@UEAA@XZ
-??0QPaintDevice@@IEAA@XZ
-??0QOpenGLFramebufferObject@@QEAA@AEBVQSize@@I@Z
-??0QOpenGLFramebufferObject@@QEAA@AEBVQSize@@AEBVQOpenGLFramebufferObjectFormat@@@Z
-??1QOpenGLFramebufferObject@@UEAA@XZ
-?format@QOpenGLFramebufferObject@@QEBA?AVQOpenGLFramebufferObjectFormat@@XZ
-?bind@QOpenGLFramebufferObject@@QEAA_NXZ
-X?texture@QOpenGLFramebufferObject@@QEBAIXZ
+HU?setOption@QSurfaceFormat@@QEAAXW4FormatOption@1@_N@Z
+I\v?endsWith@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
+InitializeConditionVariable
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J?gradient@QBrush@@QEBAPEBVQGradient@@XZ
+J?greenBufferSize@QSurfaceFormat@@QEBAHXZ
+J?greenF@QColor@@QEBANXZ
 J?handle@QOpenGLFramebufferObject@@QEBAIXZ
-?blitFramebuffer@QOpenGLFramebufferObject@@SAXPEAV1@0II@Z
-??0QOpenGLFramebufferObjectFormat@@QEAA@XZ
-??1QOpenGLFramebufferObjectFormat@@QEAA@XZ
-U?setSamples@QOpenGLFramebufferObjectFormat@@QEAAXH@Z
-R?samples@QOpenGLFramebufferObjectFormat@@QEBAHXZ
-CS?setAttachment@QOpenGLFramebufferObjectFormat@@QEAAXW4Attachment@QOpenGLFramebufferObject@@@Z
-?glCopyTexImage2D@QOpenGLFunctions@@QEAAXIHIHHHHH@Z
-??0QOpenGLExtensions@@QEAA@PEAVQOpenGLContext@@@Z
-??1QOpenGLExtensions@@QEAA@XZ
-P?qt_defaultDpiX@@YAHXZ
-P?qt_defaultDpiY@@YAHXZ
-hK?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
-Q?redirected@QPaintDevice@@MEBAPEAV1@PEAVQPoint@@@Z
-(W?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
-^X?surface@QOpenGLContext@@QEBAPEAVQSurface@@XZ
-\rK?height@QWindow@@QEBAHXZ
-??0QOpenGLExtensions@@QEAA@XZ
-?glBlitFramebuffer@QOpenGLExtensions@@QEAAXHHHHHHHHII@Z
-`7?glRenderbufferStorageMultisample@QOpenGLExtensions@@QEAAXIHIHH@Z
-\t?color@QBrush@@QEBAAEBVQColor@@XZ
+J?handle@QPixmap@@QEBAPEAVQPlatformPixmap@@XZ
+J?handle@QWindow@@QEBAPEAVQPlatformWindow@@XZ
+J?hasAlpha@QPixmap@@QEBA_NXZ
+J?hasAlphaChannel@QImage@@QEBA_NXZ
+J?hasClipOperations@QPaintEngineExPrivate@@QEBA_NXZ
+J?hasClipping@QPainter@@QEBA_NXZ
+J?hasExtension@QOpenGLContext@@QEBA_NAEBVQByteArray@@@Z
+J?hasOpenGLExtension@QOpenGLExtensions@@QEBA_NW4OpenGLExtension@1@@Z
+J?hasOpenGLFeature@QOpenGLFunctions@@QEBA_NW4OpenGLFeature@1@@Z
+K?height@QImage@@QEBAHXZ
+K?height@QPaintDevice@@QEBAHXZ
+K?height@QPixmap@@QEBAHXZ
+K?hideEvent@QWindow@@MEAAXPEAVQHideEvent@@@Z
+K?insert@QOpenGLMultiGroupSharedResource@@QEAAXPEAVQOpenGLContext@@PEAVQOpenGLSharedResource@@@Z
+K?instance@QImagePixmapCleanupHooks@@SAPEAV1@XZ
+K?interpolationMode@QGradient@@QEBA?AW4InterpolationMode@1@XZ
+K?intersected@QRegion@@QEBA?AV1@AEBVQRect@@@Z
+K?intersects@QRegion@@QEBA_NAEBVQRect@@@Z
+K?invalidateResource@QOpenGLSharedResourceGuard@@MEAAXXZ
+K?inverted@QTransform@@QEBA?AV1@PEA_N@Z
+KB?glUniformMatrix3fv@QOpenGLFunctions@@QEAAXHHEPEBM@Z
+KERNEL32.dll
+KM?length@QVector2D@@QEBAMXZ
+K\r?end@QPainter@@QEAA_NXZ
+L?isActive@QPaintEngine@@QEBA_NXZ
+L?isAffine@QTransform@@QEBA_NXZ
+L?isNull@QImage@@QEBA_NXZ
+L?isNull@QPixmap@@QEBA_NXZ
+L?isOpaque@QBrush@@QEBA_NXZ
+L?isOpenGLES@QOpenGLContext@@QEBA_NXZ
+L?isQBitmap@QPixmap@@QEBA_NXZ
+L?isValid@QOpenGLContext@@QEBA_NXZ
+L?joinStyle@QPen@@QEBA?AW4PenJoinStyle@Qt@@XZ
+L@?glUniform2fv@QOpenGLFunctions@@QEAAXHHPEBM@Z
+LN?metaObject@QOpenGLContext@@UEBAPEBUQMetaObject@@XZ
+LO?openGLExtensions@QOpenGLExtensions@@QEAA?AV?$QFlags@W4OpenGLExtension@QOpenGLExtensions@@@@XZ
+LR?replayClipOperations@QPaintEngineExPrivate@@QEAAXXZ
+L\f?draw@QPaintEngineEx@@UEAAXAEBVQVectorPath@@@Z
 L\t?brush@QPalette@@QEBAAEBVQBrush@@W4ColorRole@1@@Z
-\n?currentContextGroup@QOpenGLContextGroup@@SAPEAV1@XZ
-!?glGetError@QOpenGLFunctions@@QEAAIXZ
-+?glMapBuffer@QOpenGLExtensions@@QEAAPEAXII@Z
-\tC?glUnmapBuffer@QOpenGLExtensions@@QEAAEI@Z
- ?glGetBufferSubData@QOpenGLExtensions@@QEAAXI_J0PEAX@Z
+LeaveCriticalSection
+M7?glRenderbufferStorage@QOpenGLFunctions@@QEAAXIIHH@Z
 M?m11@QTransform@@QEBANXZ
 M?m12@QTransform@@QEBANXZ
 M?m13@QTransform@@QEBANXZ
@@ -1555,164 +1482,215 @@ M?m23@QTransform@@QEBANXZ
 M?m31@QTransform@@QEBANXZ
 M?m32@QTransform@@QEBANXZ
 M?m33@QTransform@@QEBANXZ
-5\n?constData@QMatrix4x4@@QEBAPEBMXZ
-??0QOpenGLFunctions@@QEAA@XZ
-??0QTransform@@QEAA@XZ
-??0QTransform@@QEAA@AEBV0@@Z
-W?setWorldTransform@QPainter@@QEAAXAEBVQTransform@@_N@Z
--[?worldTransform@QPainter@@QEBAAEBVQTransform@@XZ
-\f?drawPixmap@QPainter@@QEAAXAEBVQPoint@@AEBVQPixmap@@@Z
-??0QColor@@QEAA@AEBV0@@Z
-R?rgba@QColor@@QEBAIXZ
-??8QColor@@QEBA_NAEBV0@@Z
-X?stops@QGradient@@QEBA?AV?$QVector@U?$QPair@NVQColor@@@@@@XZ
-K?interpolationMode@QGradient@@QEBA?AW4InterpolationMode@1@XZ
-L?isAffine@QTransform@@QEBA_NXZ
-?fromPoints@QBezier@@SA?AV1@AEBVQPointF@@000@Z
-P?pointAt@QBezier@@QEBA?AVQPointF@@N@Z
-F\t?bounds@QBezier@@QEBA?AVQRectF@@XZ
-8S?setAlphaF@QColor@@QEAAXN@Z
-U?setRedF@QColor@@QEAAXN@Z
-T?setGreenF@QColor@@QEAAXN@Z
-uS?setBlueF@QColor@@QEAAXN@Z
-??0QRegion@@QEAA@XZ
-??0QRegion@@QEAA@AEBVQRect@@W4RegionType@0@@Z
-??1QRegion@@QEAA@XZ
-??4QRegion@@QEAAAEAV0@$$QEAV0@@Z
-QL?isEmpty@QRegion@@QEBA_NXZ
-K?intersected@QRegion@@QEBA?AV1@AEBVQRect@@@Z
-K?intersects@QRegion@@QEBA_NAEBVQRect@@@Z
-D\t?boundingRect@QRegion@@QEBA?AVQRect@@XZ
-Q?rects@QRegion@@QEBA?AV?$QVector@VQRect@@@@XZ
-Q?rectCount@QRegion@@QEBAHXZ
-??ZQRegion@@QEAAAEAV0@AEBV0@@Z
-??0QVector2D@@QEAA@MM@Z
-KM?length@QVector2D@@QEBAMXZ
-??0QPainterPath@@QEAA@XZ
-??1QPainterPath@@QEAA@XZ
-?addRegion@QPainterPath@@QEAAXAEBVQRegion@@@Z
-P?qtVectorPathForPath@@YAAEBVQVectorPath@@AEBVQPainterPath@@@Z
-??0QTransform@@QEAA@NNNNNN@Z
-BZ?type@QTransform@@QEBA?AW4TransformationType@1@XZ
-\v?determinant@QTransform@@QEBANXZ
-\r?dx@QTransform@@QEBANXZ
-\r?dy@QTransform@@QEBANXZ
-K?inverted@QTransform@@QEBA?AV1@PEA_N@Z
-Z?translate@QTransform@@QEAAAEAV1@NN@Z
-R?scale@QTransform@@QEAAAEAV1@NN@Z
-??DQTransform@@QEBA?AV0@AEBV0@@Z
-??4QTransform@@QEAAAEAV0@AEBV0@@Z
+M?majorVersion@QSurfaceFormat@@QEBAHXZ
+M?makeCurrent@QOpenGLContext@@QEAA_NPEAVQSurface@@@Z
 M?map@QTransform@@QEBA?AVQPainterPath@@AEBV2@@Z
 M?mapRect@QTransform@@QEBA?AVQRectF@@AEBV2@@Z
-?fromTranslate@QTransform@@SA?AV1@NN@Z
-?fromScale@QTransform@@SA?AV1@NN@Z
-Z?width@QPixmap@@QEBAHXZ
-K?height@QPixmap@@QEBAHXZ
-VW?size@QPixmap@@QEBA?AVQSize@@XZ
-J?hasAlpha@QPixmap@@QEBA_NXZ
-R?scaled@QPixmap@@QEBA?AV1@HHW4AspectRatioMode@Qt@@W4TransformationMode@3@@Z
-L?isQBitmap@QPixmap@@QEBA_NXZ
-??0QBrush@@QEAA@XZ
-??0QBrush@@QEAA@W4GlobalColor@Qt@@W4BrushStyle@2@@Z
-??0QBrush@@QEAA@AEBV0@@Z
-??1QBrush@@QEAA@XZ
-??4QBrush@@QEAAAEAV0@AEBV0@@Z
-??4QBrush@@QEAAAEAV0@$$QEAV0@@Z
-X?style@QBrush@@QEBA?AW4BrushStyle@Qt@@XZ
-Y?transform@QBrush@@QEBA?AVQTransform@@XZ
-X?texture@QBrush@@QEBA?AVQPixmap@@XZ
-J?gradient@QBrush@@QEBAPEBVQGradient@@XZ
-L?isOpaque@QBrush@@QEBA_NXZ
+MO?openGLFeatures@QOpenGLFunctions@@QEBA?AV?$QFlags@W4OpenGLFeature@QOpenGLFunctions@@@@XZ
+MW?size@QImage@@QEBA?AVQSize@@XZ
+M\f?freeNode@QHashData@@QEAAXPEAX@Z
+M\t?brush@QPen@@QEBA?AVQBrush@@XZ
+Mali
+N ?glGetAttribLocation@QOpenGLFunctions@@QEAAHIPEBD@Z
+N?minorVersion@QSurfaceFormat@@QEBAHXZ
+N?mirrored@QImage@@QEGBA?AV1@_N0@Z
+N?miterLimit@QPen@@QEBANXZ
+N?mouseDoubleClickEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
+N?mouseMoveEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
+N?mousePressEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
+N?mouseReleaseEvent@QWindow@@MEAAXPEAVQMouseEvent@@@Z
+N?moveEvent@QWindow@@MEAAXPEAVQMoveEvent@@@Z
+N?nativeEvent@QWindow@@MEAA_NAEBVQByteArray@@PEAXPEAJ@Z
+NVIDIA
+O?paintDevice@QPaintEngine@@QEBAPEAVQPaintDevice@@XZ
+O?paintEngine@QPainter@@QEBAPEAVQPaintEngine@@XZ
+O?painter@QPaintEngine@@QEBAPEAVQPainter@@XZ
+O?paintingActive@QPaintDevice@@QEBA_NXZ
+O?pen@QPainter@@QEBAAEBVQPen@@XZ
+OO?openGLModuleType@QOpenGLContext@@SA?AW4OpenGLModuleType@1@XZ
+OpenGL ES
+P?pointAt@QBezier@@QEBA?AVQPointF@@N@Z
+P?points@QDashedStrokeProcessor@@QEBAPEANXZ
+P?populate@QTextureGlyphCache@@QEAA_NPEAVQFontEngine@@HPEBIPEBUQFixedPoint@@@Z
+P?qGLContextHandle@QOpenGLContext@@AEBAPEAXXZ
 P?qHasPixmapTexture@@YA_NAEBVQBrush@@@Z
-\v?data_ptr@QBrush@@QEAAAEAV?$QScopedPointer@UQBrushData@@UQBrushDataPointerDeleter@@@@XZ
-8Z?type@QGradient@@QEBA?AW4Type@1@XZ
+P?qTriangulate@@YA?AUQTriangleSet@@AEBVQVectorPath@@AEBVQTransform@@N@Z
+P?qtVectorPathForPath@@YAAEBVQVectorPath@@AEBVQPainterPath@@@Z
+P?qt_defaultDpiX@@YAHXZ
+P?qt_defaultDpiY@@YAHXZ
+P?qt_imageForBrush@@YA?AVQImage@@H_N@Z
+P?qt_metacall@QOpenGLContext@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+PVR!
+P\f?free_helper@QHashData@@QEAAXP6AXPEAUNode@1@@Z@Z
+P\n?controlPointRect@QVectorPath@@QEBA?AVQRectF@@XZ
+Painter path exceeds +/-32767 pixels.
+Pixmap type not supported for GL rendering
+Q!?windowHandle@QWidget@@QEBAPEAVQWindow@@XZ
+Q?rectCount@QRegion@@QEBAHXZ
+Q?rects@QRegion@@QEBA?AV?$QVector@VQRect@@@@XZ
+Q?redBufferSize@QSurfaceFormat@@QEBAHXZ
+Q?redF@QColor@@QEBANXZ
+Q?redirected@QPaintDevice@@MEBAPEAV1@PEAVQPoint@@@Z
+QFlags(
+QGL2PaintEngineEx: Unimplemented fill style
+QGLContext: Unsupported paint device type
+QGLContext::bindTexture(): DDS image format not supported.
+QGLContext::bindTexture(): DDS image size is not valid.
+QGLContext::bindTexture(): DDS texture compression is not supported.
+QGLContext::bindTexture(): ETC1 texture compression is not supported.
+QGLContext::bindTexture(): PVR image format 0x%x not supported.
+QGLContext::bindTexture(): PVR image size is not valid.
+QGLContext::bindTexture(): PVRTC texture compression is not supported.
+QGLCustomShaderStage::setOnPainter() - paint engine not OpenGL2
+QGLEngineShaderManager
+QGLEngineShaderManager - Ignoring custom shader stage for non image src
+QGLEngineShaderManager::useCorrectShaderProg() - Qt::NoBrush style is set
+QGLEngineShaderManager::useCorrectShaderProg() - Unknown mask type
+QGLEngineShaderManager::useCorrectShaderProg() - Unsupported composition mode
+QGLEngineSharedShaders
+QGLFormat(
+QGLFormat::setAccumBufferSize: Cannot set negative accumulate buffer size %d
+QGLFormat::setAlphaBufferSize: Cannot set negative alpha buffer size %d
+QGLFormat::setBlueBufferSize: Cannot set negative blue buffer size %d
+QGLFormat::setDepthBufferSize: Cannot set negative depth buffer size %d
+QGLFormat::setGreenBufferSize: Cannot set negative green buffer size %d
+QGLFormat::setRedBufferSize: Cannot set negative red buffer size %d
+QGLFormat::setSamples: Cannot have negative number of samples per pixel %d
+QGLFormat::setStencilBufferSize: Cannot set negative stencil buffer size %d
+QGLFormat::setVersion: Cannot set zero or negative version number %d.%d
+QGLFramebufferObject: An undefined error has occurred: 
+QGLFramebufferObject: Framebuffer incomplete attachment.
+QGLFramebufferObject: Framebuffer incomplete, attachments must have same number of samples per pixel.
+QGLFramebufferObject: Framebuffer incomplete, missing attachment.
+QGLFramebufferObject: Framebuffer incomplete, missing draw buffer.
+QGLFramebufferObject: Framebuffer incomplete, missing read buffer.
+QGLFramebufferObject: Unsupported framebuffer format.
+QGLFramebufferObject::metric(), Unhandled metric type: %d.\n
+QGLPaintDevice::getDevice() - Unknown device type %d
+QGLPaintDevice::metric() - metric %d not known
+QGLPixelBuffer::metric(), Unhandled metric type: %d\n
+QGLShader
+QGLShader: Unable to open file
+QGLShader::compile(%s): %s
+QGLShader::compile(%s)[%s]: %s
+QGLShader::link:
+QGLShader::link[
+QGLShaderProgram
+QGLShaderProgram: could not create shader program
+QGLShaderProgram: shader programs are not supported
+QGLShaderProgram::addShader: Program and shader are not associated with same context.
+QGLShaderProgram::attributeLocation(
+QGLShaderProgram::setAttributeValue: rows
+QGLShaderProgram::setUniformValue: size
+QGLShaderProgram::uniformLocation(
+QGLSignalProxy
+QGLTextureGlyphCache::createTextureData: Called with no context
+QGLTextureGlyphCache::fillTexture: Called with no context
+QGLTextureGlyphCache::resizeTextureData: Called with no context
+QGLWidget
+QGLWidget::renderText is not supported under OpenGL/ES
+QGLWidget::setContext: Cannot set null context
+QGraphicsShaderEffect
+QL?isEmpty@QRegion@@QEBA_NXZ
+Qt5Core.dll
+Qt5Gui.dll
+Qt5OpenGL.dll
+Qt5Widgets.dll
+QueryPerformanceCounter
+R?rgb@QColor@@QEBAIXZ
+R?rgba@QColor@@QEBAIXZ
+R?samples@QOpenGLFramebufferObjectFormat@@QEBAHXZ
+R?samples@QSurfaceFormat@@QEBAHXZ
+R?scale@QTransform@@QEAAAEAV1@NN@Z
+R?scaled@QImage@@QEBA?AV1@HHW4AspectRatioMode@Qt@@W4TransformationMode@3@@Z
+R?scaled@QPixmap@@QEBA?AV1@HHW4AspectRatioMode@Qt@@W4TransformationMode@3@@Z
+R?scanLine@QImage@@QEAAPEAEH@Z
+R?scanLine@QImage@@QEBAPEBEH@Z
+RSDS5
+ResetEvent
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+SetEvent
+SetUnhandledExceptionFilter
+Shader program failed to link,
+SleepConditionVariableCS
+T?setDepthBufferSize@QSurfaceFormat@@QEAAXH@Z
+T?setFormat@QWindow@@QEAAXAEBVQSurfaceFormat@@@Z
+T?setGeometry@QWindow@@QEAAXAEBVQRect@@@Z
+T?setGlyphCache@QFontEngine@@QEAAXPEBXPEAVQFontEngineGlyphCache@@@Z
+T?setGreenBufferSize@QSurfaceFormat@@QEAAXH@Z
+T?setGreenF@QColor@@QEAAXN@Z
+T?setMajorVersion@QSurfaceFormat@@QEAAXH@Z
+TerminateProcess
+U?setMinorVersion@QSurfaceFormat@@QEAAXH@Z
+U?setProfile@QSurfaceFormat@@QEAAXW4OpenGLContextProfile@1@@Z
+U?setQGLContextHandle@QOpenGLContext@@AEAAXPEAXP6AX0@Z@Z
+U?setRedBufferSize@QSurfaceFormat@@QEAAXH@Z
+U?setRedF@QColor@@QEAAXN@Z
+U?setRgbF@QColor@@QEAAXNNNN@Z
+U?setSamples@QOpenGLFramebufferObjectFormat@@QEAAXH@Z
+U?setSamples@QSurfaceFormat@@QEAAXH@Z
+U?setShareContext@QOpenGLContext@@QEAAXPEAV1@@Z
+UnhandledExceptionFilter
+Unknown exception
+Unrecognised OpenGL ES version
+Unsupported composition mode
+V?setStencilBufferSize@QSurfaceFormat@@QEAAXH@Z
+V?setStereo@QSurfaceFormat@@QEAAX_N@Z
+V?setUserData@QStaticTextItem@@QEAAXPEAVQStaticTextUserData@@@Z
+VCRUNTIME140.dll
+VW?size@QPixmap@@QEBA?AVQSize@@XZ
+Vertex
+Vertex shader for blitShaderProg (MainWithTexCoordsVertexShader & UntransformedPositionVertexShader) failed to compile
+Vertex shader for simpleShaderProg (MainVertexShader & PositionOnlyVertexShader) failed to compile
+W?setWorldTransform@QPainter@@QEAAXAEBVQTransform@@_N@Z
 W?spread@QGradient@@QEBA?AW4Spread@1@XZ
 W?start@QLinearGradient@@QEBA?AVQPointF@@XZ
-\r?finalStop@QLinearGradient@@QEBA?AVQPointF@@XZ
-\t?center@QRadialGradient@@QEBA?AVQPointF@@XZ
-?focalPoint@QRadialGradient@@QEBA?AVQPointF@@XZ
-\t?centerRadius@QRadialGradient@@QEBANXZ
-?focalRadius@QRadialGradient@@QEBANXZ
-\t?center@QConicalGradient@@QEBA?AVQPointF@@XZ
-?angle@QConicalGradient@@QEBANXZ
-J?hasExtension@QOpenGLContext@@QEBA_NAEBVQByteArray@@@Z
-??0QVector3D@@QEAA@MMM@Z
-?glClearStencil@QOpenGLFunctions@@QEAAXH@Z
-?glColorMask@QOpenGLFunctions@@QEAAXEEEE@Z
-?glDepthFunc@QOpenGLFunctions@@QEAAXI@Z
-?glDepthMask@QOpenGLFunctions@@QEAAXE@Z
-?glDrawElements@QOpenGLFunctions@@QEAAXIHIPEBX@Z
-9?glStencilFunc@QOpenGLFunctions@@QEAAXIHI@Z
-:?glStencilMask@QOpenGLFunctions@@QEAAXI@Z
-B:?glStencilOp@QOpenGLFunctions@@QEAAXIII@Z
-N?miterLimit@QPen@@QEBANXZ
-\t?color@QPen@@QEBA?AVQColor@@XZ
-M\t?brush@QPen@@QEBA?AVQBrush@@XZ
-L?joinStyle@QPen@@QEBA?AW4PenJoinStyle@Qt@@XZ
-9L?isCosmetic@QPen@@QEBA_NXZ
-\v?data_ptr@QPen@@QEAAAEAPEAVQPenPrivate@@XZ
-J?hasClipping@QPainter@@QEBA_NXZ
-??1QPaintEngine@@UEAA@XZ
-\r?drawTextItem@QPaintEngine@@UEAAXAEBVQPointF@@AEBVQTextItem@@@Z
-X?systemClip@QPaintEngine@@QEBA?AVQRegion@@XZ
-Y?transform@QPaintEngineState@@QEBA?AVQTransform@@XZ
-qQ?qt_scaleForTransform@@YA_NAEBVQTransform@@PEAN@Z
-??0QPainterState@@QEAA@XZ
-??1QPainterState@@UEAA@XZ
-??0QPainterState@@QEAA@AEBV0@@Z
-??1QVectorPath@@QEAA@XZ
-P\n?controlPointRect@QVectorPath@@QEBA?AVQRectF@@XZ
-?addCacheData@QVectorPath@@QEBAPEAUCacheEntry@1@PEAVQPaintEngineEx@@PEAXP6AX01@Z@Z
+WA?glUniform4f@QOpenGLFunctions@@QEAAXHMMMM@Z
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Warning:
+X?stencilBufferSize@QSurfaceFormat@@QEBAHXZ
+X?stereo@QSurfaceFormat@@QEBA_NXZ
+X?stops@QGradient@@QEBA?AV?$QVector@U?$QPair@NVQColor@@@@@@XZ
 X?stroke@QPaintEngineEx@@UEAAXAEBVQVectorPath@@AEBVQPen@@@Z
-\f?drawPixmapFragments@QPaintEngineEx@@UEAAXPEBVPixmapFragment@QPainter@@HAEBVQPixmap@@V?$QFlags@W4PixmapFragmentHint@QPainter@@@@@Z
-\f?drawStaticTextItem@QPaintEngineEx@@UEAAXPEAVQStaticTextItem@@@Z
-\tV?setState@QPaintEngineEx@@UEAAXPEAVQPainterState@@@Z
-1W?shouldDrawCachedGlyphs@QPaintEngineEx@@UEBA_NPEAVQFontEngine@@AEBVQTransform@@@Z
-??0QPaintEngineEx@@IEAA@AEAVQPaintEngineExPrivate@@@Z
-??0QPaintEngineExPrivate@@QEAA@XZ
-??1QPaintEngineExPrivate@@UEAA@XZ
-LR?replayClipOperations@QPaintEngineExPrivate@@QEAAXXZ
-J?hasClipOperations@QPaintEngineExPrivate@@QEBA_NXZ
-?getGlyphPositions@QFontEngine@@QEAAXAEBUQGlyphLayout@@AEBVQTransform@@V?$QFlags@W4RenderFlag@QTextItem@@@@AEAV?$QVarLengthArray@I$0BAA@@@AEAV?$QVarLengthArray@UQFixedPoint@@$0BAA@@@@Z
-T?setGlyphCache@QFontEngine@@QEAAXPEBXPEAVQFontEngineGlyphCache@@@Z
-fJ?glyphCache@QFontEngine@@QEBAPEAVQFontEngineGlyphCache@@PEBXW4GlyphFormat@1@AEBVQTransform@@@Z
-??0QTriangulatingStroker@@QEAA@XZ
-\P?process@QTriangulatingStroker@@QEAAXAEBVQVectorPath@@AEBVQPen@@AEBVQRectF@@V?$QFlags@W4RenderHint@QPainter@@@@@Z
+X?style@QBrush@@QEBA?AW4BrushStyle@Qt@@XZ
+X?swapBehavior@QSurfaceFormat@@QEBA?AW4SwapBehavior@1@XZ
+X?swapBuffers@QOpenGLContext@@QEAAXPEAVQSurface@@@Z
+X?swapInterval@QSurfaceFormat@@QEBAHXZ
+X?sync@QPaintEngineEx@@UEAAXXZ
+X?systemClip@QPaintEngine@@QEBA?AVQRegion@@XZ
+X?tabletEvent@QWindow@@MEAAXPEAVQTabletEvent@@@Z
+X?texture@QBrush@@QEBA?AVQPixmap@@XZ
+X?texture@QOpenGLFramebufferObject@@QEBAIXZ
+Y?textureMapForGlyph@QTextureGlyphCache@@QEBA?AVQImage@@IUQFixed@@@Z
+Y?transform@QBrush@@QEBA?AVQTransform@@XZ
+Y?transform@QPaintEngineState@@QEBA?AVQTransform@@XZ
+Z?translate@QTransform@@QEAAAEAV1@NN@Z
+Z?updateState@QPaintEngineEx@@UEAAXAEBVQPaintEngineState@@@Z
+Z?versionFunctions@QOpenGLContext@@QEBAPEAVQAbstractOpenGLFunctions@@AEBVQOpenGLVersionProfile@@@Z
+Z?versionProfile@QOpenGLFunctions_1_1@@CA?AVQOpenGLVersionProfile@@XZ
 Z?vertexCount@QTriangulatingStroker@@QEBAHXZ
 Z?vertices@QTriangulatingStroker@@QEBAPEBMXZ
-??1QTriangulatingStroker@@QEAA@XZ
-??0QDashedStrokeProcessor@@QEAA@XZ
+Z?wheelEvent@QWindow@@MEAAXPEAVQWheelEvent@@@Z
+Z?width@QImage@@QEBAHXZ
+Z?width@QPaintDevice@@QEBAHXZ
+Z?width@QPixmap@@QEBAHXZ
+ZT?setFont@QPainter@@QEAAXAEBVQFont@@@Z
+Z\n?convertToFormat@QImage@@QEGBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 [P?process@QDashedStrokeProcessor@@QEAAXAEBVQVectorPath@@AEBVQPen@@AEBVQRectF@@V?$QFlags@W4RenderHint@QPainter@@@@@Z
-"\r?elementCount@QDashedStrokeProcessor@@QEBAHXZ
-P?points@QDashedStrokeProcessor@@QEBAPEANXZ
-%\r?elementTypes@QDashedStrokeProcessor@@QEBAPEAW4ElementType@QPainterPath@@XZ
-??1QDashedStrokeProcessor@@QEAA@XZ
-P?populate@QTextureGlyphCache@@QEAA_NPEAVQFontEngine@@HPEBIPEBUQFixedPoint@@@Z
-\r?fillInPendingGlyphs@QTextureGlyphCache@@QEAAXXZ
-??0QImageTextureGlyphCache@@QEAA@AEBV0@@Z
-??0QStaticTextItem@@QEAA@XZ
-??1QStaticTextItem@@QEAA@XZ
-V?setUserData@QStaticTextItem@@QEAAXPEAVQStaticTextUserData@@@Z
-bT?setFontEngine@QStaticTextItem@@QEAAXPEAVQFontEngine@@@Z
-\v?data@QVertexIndexVector@@QEBAPEBXXZ
-]W?size@QVertexIndexVector@@QEBAHXZ
-??1QTriangleSet@@QEAA@XZ
-P?qTriangulate@@YA?AUQTriangleSet@@AEBVQVectorPath@@AEBVQTransform@@N@Z
-n0?glOrtho@QOpenGLFunctions_1_1@@QEAAXNNNNNN@Z
->+?glLoadMatrixf@QOpenGLFunctions_1_1@@QEAAXPEBM@Z
-P?qt_imageForBrush@@YA?AVQImage@@H_N@Z
-\t?clip@QPaintEngineEx@@UEAAXAEBVQPainterPath@@W4ClipOperation@Qt@@@Z
-\t?clip@QPaintEngineEx@@UEAAXAEBVQRect@@W4ClipOperation@Qt@@@Z
-\t?clip@QPaintEngineEx@@UEAAXAEBVQRegion@@W4ClipOperation@Qt@@@Z
-b\n?coordinateOffset@QPaintEngine@@UEBA?AVQPoint@@XZ
-L\f?draw@QPaintEngineEx@@UEAAXAEBVQVectorPath@@@Z
-f\f?drawEllipse@QPaintEngineEx@@UEAAXAEBVQRect@@@Z
-g\f?drawEllipse@QPaintEngineEx@@UEAAXAEBVQRectF@@@Z
-s\f?drawImage@QPaintEngineEx@@UEAAXAEBVQPointF@@AEBVQImage@@@Z
+[R?requestedFormat@QWindow@@QEBA?AVQSurfaceFormat@@XZ
+\P?process@QTriangulatingStroker@@QEAAXAEBVQVectorPath@@AEBVQPen@@AEBVQRectF@@V?$QFlags@W4RenderHint@QPainter@@@@@Z
+\\n?deallocate@QArrayData@@SAXPEAU1@_K1@Z
+\f?devicePixelRatio@QPaintDevice@@QEBAHXZ
+\f?devicePixelRatio@QWindow@@QEBANXZ
 \f?drawLines@QPaintEngineEx@@UEAAXPEBVQLine@@H@Z
 \f?drawLines@QPaintEngineEx@@UEAAXPEBVQLineF@@H@Z
 \f?drawPath@QPaintEngineEx@@UEAAXAEBVQPainterPath@@@Z
 \f?drawPixmap@QPaintEngineEx@@UEAAXAEBVQPointF@@AEBVQPixmap@@@Z
+\f?drawPixmap@QPainter@@QEAAXAEBVQPoint@@AEBVQPixmap@@@Z
+\f?drawPixmapFragments@QPaintEngineEx@@UEAAXPEBVPixmapFragment@QPainter@@HAEBVQPixmap@@V?$QFlags@W4PixmapFragmentHint@QPainter@@@@@Z
 \f?drawPoints@QPaintEngineEx@@UEAAXPEBVQPoint@@H@Z
 \f?drawPoints@QPaintEngineEx@@UEAAXPEBVQPointF@@H@Z
 \f?drawPolygon@QPaintEngineEx@@UEAAXPEBVQPoint@@HW4PolygonDrawMode@QPaintEngine@@@Z
@@ -1720,261 +1698,251 @@ s\f?drawImage@QPaintEngineEx@@UEAAXAEBVQPointF@@AEBVQImage@@@Z
 \f?drawRects@QPaintEngineEx@@UEAAXPEBVQRect@@H@Z
 \f?drawRects@QPaintEngineEx@@UEAAXPEBVQRectF@@H@Z
 \f?drawRoundedRect@QPaintEngineEx@@UEAAXAEBVQRectF@@NNW4SizeMode@Qt@@@Z
-\v\r?drawTiledPixmap@QPaintEngineEx@@UEAAXAEBVQRectF@@AEBVQPixmap@@AEBVQPointF@@@Z
-\r?fillRect@QPaintEngineEx@@UEAAXAEBVQRectF@@AEBVQBrush@@@Z
-\r?fillRect@QPaintEngineEx@@UEAAXAEBVQRectF@@AEBVQColor@@@Z
-?flags@QPaintEngineEx@@UEBAIXZ
-X?sync@QPaintEngineEx@@UEAAXXZ
-Z?updateState@QPaintEngineEx@@UEAAXAEBVQPaintEngineState@@@Z
-\v?depth@QImage@@QEBAHXZ
-4\n?constBits@QImage@@QEBAPEBEXZ
-?glCopyTexSubImage2D@QOpenGLFunctions@@QEAAXIHHHHHHH@Z
->?glTexSubImage2D@QOpenGLFunctions@@QEAAXIHHHHHIIPEBX@Z
-Y?textureMapForGlyph@QTextureGlyphCache@@QEBA?AVQImage@@IUQFixed@@@Z
-??0QImageTextureGlyphCache@@QEAA@W4GlyphFormat@QFontEngine@@AEBVQTransform@@@Z
+\f?drawStaticTextItem@QPaintEngineEx@@UEAAXPEAVQStaticTextItem@@@Z
+\f?drawText@QPainter@@QEAAXHHAEBVQString@@@Z
+\f?get@QThreadStorageData@@QEBAPEAPEAXXZ
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\f?heightForWidth@QWidget@@UEBAHH@Z
+\f?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
+\fP?platform_integration@QGuiApplicationPrivate@@2PEAVQPlatformIntegration@@EA
+\n    #define INVERSE_2PI 0.1591549430918953358 \n    uniform           sampler2D brushTexture; \n    uniform   mediump float     angle; \n    varying   highp   vec2      A; \n    lowp vec4 srcPixel() \n    { \n        highp float t; \n        if (abs(A.y) == abs(A.x)) \n            t = (atan(-A.y + 0.002, A.x) + angle) * INVERSE_2PI; \n        else \n            t = (atan(-A.y, A.x) + angle) * INVERSE_2PI; \n        return texture2D(brushTexture, vec2(t - floor(t), 0.5)); \n    }\n
+\n    attribute highp   vec2      textureCoordArray; \n    attribute lowp    float     opacityArray; \n    varying   highp   vec2      textureCoords; \n    varying   lowp    float     opacity; \n    void setPosition(); \n    void main(void) \n    { \n        setPosition(); \n        textureCoords = textureCoordArray; \n        opacity = opacityArray; \n    }\n
+\n    attribute highp   vec2      textureCoordArray; \n    varying   highp   vec2      textureCoords; \n    void setPosition(); \n    void main(void) \n    { \n        setPosition(); \n        textureCoords = textureCoordArray; \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   mat3      brushTransform; \n    varying   highp   vec2      A; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2  viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        A = hTexCoords.xy * invertedHTexCoordsZ; \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   vec2      invertedTextureSize; \n    uniform   highp   mat3      brushTransform; \n    varying   highp   vec2      brushTextureCoords; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        brushTextureCoords.xy = (hTexCoords.xy * invertedTextureSize) * gl_Position.w; \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   vec2      invertedTextureSize; \n    uniform   highp   mat3      brushTransform; \n    varying   highp   vec2      patternTexCoords; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1.0); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        patternTexCoords.xy = (hTexCoords.xy * 0.125) * invertedHTexCoordsZ; \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   vec3      linearData; \n    uniform   highp   mat3      brushTransform; \n    varying   mediump float     index; \n    void setPosition() \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        index = (dot(linearData.xy, hTexCoords.xy) * linearData.z) * invertedHTexCoordsZ; \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray; \n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    void setPosition(void) \n    { \n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position = vec4(transformedPos.xy, 0.0, transformedPos.z); \n    }\n
+\n    attribute highp   vec2      vertexCoordsArray;\n    attribute highp   vec3      pmvMatrix1; \n    attribute highp   vec3      pmvMatrix2; \n    attribute highp   vec3      pmvMatrix3; \n    uniform   mediump vec2      halfViewportSize; \n    uniform   highp   mat3      brushTransform; \n    uniform   highp   vec2      fmp; \n    uniform   mediump vec3      bradius; \n    varying   highp   float     b; \n    varying   highp   vec2      A; \n    void setPosition(void) \n    {\n        highp mat3 pmvMatrix = mat3(pmvMatrix1, pmvMatrix2, pmvMatrix3); \n        vec3 transformedPos = pmvMatrix * vec3(vertexCoordsArray.xy, 1.0); \n        gl_Position.xy = transformedPos.xy / transformedPos.z; \n        mediump vec2 viewportCoords = (gl_Position.xy + 1.0) * halfViewportSize; \n        mediump vec3 hTexCoords = brushTransform * vec3(viewportCoords, 1); \n        mediump float invertedHTexCoordsZ = 1.0 / hTexCoords.z; \n        gl_Position = vec4(gl_Position.xy * invertedHTexCoordsZ, 0.0, invertedHTexCoordsZ); \n        A = hTexCoords.xy * invertedHTexCoordsZ; \n        b = bradius.x + 2.0 * dot(A, fmp); \n    }\n
+\n    attribute highp   vec4      vertexCoordsArray; \n    void setPosition(void) \n    { \n        gl_Position = vertexCoordsArray; \n    }\n
+\n    lowp vec4 srcPixel() \n    { \n        return vec4(0.98, 0.06, 0.75, 1.0); \n    }\n
+\n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(compose(srcPixel())); \n    }\n
+\n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(srcPixel()); \n    }\n
+\n    lowp vec4 srcPixel(); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = compose(srcPixel()); \n    }\n
+\n    lowp vec4 srcPixel(); \n    void main() \n    { \n        gl_FragColor = srcPixel(); \n    }\n
+\n    uniform           sampler2D brushTexture; \n    uniform   highp   float     fmp2_m_radius2; \n    uniform   highp   float     inverse_2_fmp2_m_radius2; \n    uniform   highp   float     sqrfr; \n    varying   highp   float     b; \n    varying   highp   vec2      A; \n    uniform   mediump vec3      bradius; \n    lowp vec4 srcPixel() \n    { \n        highp float c = sqrfr-dot(A, A); \n        highp float det = b*b - 4.0*fmp2_m_radius2*c; \n        lowp vec4 result = vec4(0.0); \n        if (det >= 0.0) { \n            highp float detSqrt = sqrt(det); \n            highp float w = max((-b - detSqrt) * inverse_2_fmp2_m_radius2, (-b + detSqrt) * inverse_2_fmp2_m_radius2); \n            if (bradius.y + w * bradius.z >= 0.0) \n                result = texture2D(brushTexture, vec2(w, 0.5)); \n        } \n        return result; \n    }\n
+\n    uniform           sampler2D brushTexture; \n    uniform   lowp    vec4      patternColor; \n    varying   highp   vec2      patternTexCoords;\n    lowp vec4 srcPixel() \n    { \n        return patternColor * (1.0 - texture2D(brushTexture, patternTexCoords).r); \n    }\n
+\n    uniform           sampler2D brushTexture; \n    varying   mediump float     index; \n    lowp vec4 srcPixel() \n    { \n        mediump vec2 val = vec2(index, 0.5); \n        return texture2D(brushTexture, val); \n    }\n
+\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(compose(srcPixel()*globalOpacity))); \n    }\n
+\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    lowp vec4 applyMask(lowp vec4); \n    void main() \n    { \n        gl_FragColor = applyMask(srcPixel()*globalOpacity); \n    }\n
+\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    lowp vec4 compose(lowp vec4); \n    void main() \n    { \n        gl_FragColor = compose(srcPixel()*globalOpacity); \n    }\n
+\n    uniform   lowp    float     globalOpacity; \n    lowp vec4 srcPixel(); \n    void main() \n    { \n        gl_FragColor = srcPixel()*globalOpacity; \n    }\n
+\n    uniform   lowp    vec4      fragmentColor; \n    lowp vec4 srcPixel() \n    { \n        return fragmentColor; \n    }\n
+\n    uniform highp mat3 matrix; \n    uniform highp float translateZ; \n    attribute highp vec2 vertexCoordsArray; \n    void setPosition(void) \n    { \n      vec3 v = matrix * vec3(vertexCoordsArray, 1.0); \n      vec4 vz = mat4(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, translateZ, 1) * vec4(v, 1.0); \n      gl_Position = vec4(vz.xyz, 1.0);\n    } \n
+\n    varying   highp   vec2      brushTextureCoords; \n    uniform           sampler2D brushTexture; \n    lowp vec4 srcPixel() \n    { \n        return texture2D(brushTexture, brushTextureCoords); \n    }\n
+\n    varying   highp   vec2      brushTextureCoords; \n    uniform   lowp    vec4      patternColor; \n    uniform           sampler2D brushTexture; \n    lowp vec4 srcPixel() \n    { \n        return patternColor * (1.0 - texture2D(brushTexture, brushTextureCoords).r); \n    }\n
+\n    varying   highp   vec2      textureCoords; \n    uniform           sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \n        return customShader(imageTexture, textureCoords); \n    }\n
+\n    varying   highp   vec2      textureCoords; \n    uniform           sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \nreturn texture2D(imageTexture, textureCoords); \n}\n
+\n    varying   highp   vec2      textureCoords; \n    uniform          sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \n        lowp vec4 sample = texture2D(imageTexture, textureCoords); \n        sample.rgb = sample.rgb * sample.a; \n        return sample; \n    }\n
+\n    varying   highp   vec2      textureCoords; \n    uniform   lowp    vec4      patternColor; \n    uniform           sampler2D imageTexture; \n    lowp vec4 srcPixel() \n    { \n        return patternColor * (1.0 - texture2D(imageTexture, textureCoords).r); \n    }\n
+\n    varying   highp   vec2      textureCoords;\n    uniform           sampler2D maskTexture;\n    lowp vec4 applyMask(lowp vec4 src) \n    { \n        lowp vec4 mask = texture2D(maskTexture, textureCoords); \n        return src * mask; \n    }\n
+\n    varying   highp   vec2      textureCoords;\n    uniform           sampler2D maskTexture;\n    lowp vec4 applyMask(lowp vec4 src) \n    { \n        lowp vec4 mask = texture2D(maskTexture, textureCoords); \n        return src.a * mask; \n    }\n
+\n    varying   highp   vec2      textureCoords;\n    uniform           sampler2D maskTexture;\n    lowp vec4 applyMask(lowp vec4 src) \n    {\n        lowp vec4 mask = texture2D(maskTexture, textureCoords); \n        return src * mask.a; \n    }\n
+\n    varying   lowp    float     opacity; \n    lowp vec4 srcPixel(); \n    void main() \n    { \n        gl_FragColor = srcPixel() * opacity; \n    }\n
+\n    varying highp   vec2      brushTextureCoords; \n    uniform         sampler2D brushTexture; \n    lowp vec4 srcPixel() { \n        return texture2D(brushTexture, fract(brushTextureCoords)); \n    }\n
+\n    void setPosition(); \n    void main(void) \n    { \n        setPosition(); \n    }\n
+\n?create@QWindow@@QEAAXXZ
 \n?createTextureData@QImageTextureGlyphCache@@UEAAXHH@Z
-uR?resizeTextureData@QImageTextureGlyphCache@@UEAAXHH@Z
-\r?fillTexture@QImageTextureGlyphCache@@UEAAXAEBUCoord@QTextureGlyphCache@@IUQFixed@@@Z
-??1QImageTextureGlyphCache@@UEAA@XZ
-Qt5Gui.dll
-??0QMessageLogger@@QEAA@PEBDH0@Z
-?warning@QMessageLogger@@QEBAXPEBDZZ
-?tr@QMetaObject@@QEBA?AVQString@@PEBD0H@Z
-??0QChar@@QEAA@UQLatin1Char@@@Z
-?toLatin1@QChar@@QEBADXZ
-??1QByteArray@@QEAA@XZ
-?size@QByteArray@@QEBAHXZ
-?constData@QByteArray@@QEBAPEBDXZ
-??0QString@@QEAA@XZ
-??0QString@@QEAA@VQLatin1String@@@Z
-??0QString@@QEAA@AEBV0@@Z
-??1QString@@QEAA@XZ
-?isEmpty@QString@@QEBA_NXZ
-??AQString@@QEBA?BVQChar@@H@Z
-?startsWith@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
-I\v?endsWith@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
-?split@QString@@QEBA?AVQStringList@@VQChar@@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
-?toLatin1@QString@@QEGBA?AVQByteArray@@XZ
+\n?currentContext@QOpenGLContext@@SAPEAV1@XZ
+\n?currentContextGroup@QOpenGLContextGroup@@SAPEAV1@XZ
 \n?detach@QListData@@QEAAPEAUData@1@H@Z
 \n?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-?realloc@QListData@@QEAAXH@Z
-\n?dispose@QListData@@SAXPEAUData@1@@Z
-?append@QListData@@QEAAPEAPEAXXZ
-?remove@QListData@@QEAAXH@Z
-?size@QListData@@QEBAHXZ
-?isEmpty@QListData@@QEBA_NXZ
-?at@QListData@@QEBAPEAPEAXH@Z
-?begin@QListData@@QEBAPEAPEAXXZ
-&\v?end@QListData@@QEBAPEAPEAXXZ
-??0QObject@@QEAA@PEAV0@@Z
-??1QObject@@UEAA@XZ
-?thread@QObject@@QEBAPEAVQThread@@XZ
-?moveToThread@QObject@@QEAAXPEAVQThread@@@Z
-~\n?deleteLater@QObject@@QEAAXXZ
-?allocateNode@QHashData@@QEAAPEAXH@Z
-M\f?freeNode@QHashData@@QEAAXPEAX@Z
 \n?detach_helper@QHashData@@QEAAPEAU1@P6AXPEAUNode@1@PEAX@ZP6AX0@ZHH@Z
-?willGrow@QHashData@@QEAA_NXZ
-\r?hasShrunk@QHashData@@QEAAXXZ
-P\f?free_helper@QHashData@@QEAAXP6AXPEAUNode@1@@Z@Z
-,\f?firstNode@QHashData@@QEAAPEAUNode@1@XZ
-?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z
-?readAll@QIODevice@@QEAA?AVQByteArray@@XZ
-\r?hex@@YAAEAVQTextStream@@AEAV1@@Z
-?showbase@@YAAEAVQTextStream@@AEAV1@@Z
-??0QDebug@@QEAA@AEBV0@@Z
-??1QDebug@@QEAA@XZ
-?resetFormat@QDebug@@QEAAAEAV1@XZ
-?nospace@QDebug@@QEAAAEAV1@XZ
-??6QDebug@@QEAAAEAV0@D@Z
-??6QDebug@@QEAAAEAV0@H@Z
-??6QDebug@@QEAAAEAV0@PEBD@Z
-??6QDebug@@QEAAAEAV0@P6AAEAVQTextStream@@AEAV1@@Z@Z
-??0QDebugStateSaver@@QEAA@AEAVQDebug@@@Z
-??1QDebugStateSaver@@QEAA@XZ
-?close@QFileDevice@@UEAAXXZ
-??0QFile@@QEAA@AEBVQString@@@Z
-??1QFile@@UEAA@XZ
-?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
-?type@QEvent@@QEBA?AW4Type@1@XZ
-\r?instance@QCoreApplication@@SAPEAV1@XZ
-??0QMutex@@QEAA@W4RecursionMode@0@@Z
-??1QMutex@@QEAA@XZ
-??0QMutexLocker@@QEAA@PEAVQBasicMutex@@@Z
-??1QMutexLocker@@QEAA@XZ
-??0QReadWriteLock@@QEAA@W4RecursionMode@0@@Z
-??1QReadWriteLock@@QEAA@XZ
-??0QReadLocker@@QEAA@PEAVQReadWriteLock@@@Z
-??1QReadLocker@@QEAA@XZ
-??0QWriteLocker@@QEAA@PEAVQReadWriteLock@@@Z
-??1QWriteLocker@@QEAA@XZ
-\t?currentThread@QThread@@SAPEAV1@XZ
-??0QThreadStorageData@@QEAA@P6AXPEAX@Z@Z
-??1QThreadStorageData@@QEAA@XZ
-\f?get@QThreadStorageData@@QEBAPEAPEAXXZ
-?set@QThreadStorageData@@QEAAPEAPEAXPEAX@Z
-??0QSize@@QEAA@XZ
-??0QSize@@QEAA@HH@Z
-?isEmpty@QSize@@QEBA_NXZ
-?isValid@QSize@@QEBA_NXZ
-?width@QSize@@QEBAHXZ
-\r?height@QSize@@QEBAHXZ
-??0QSizeF@@QEAA@NN@Z
-??0QRect@@QEAA@HHHH@Z
-??0QRectF@@QEAA@AEBVQPointF@@AEBVQSizeF@@@Z
-??0QRectF@@QEAA@NNNN@Z
-?left@QRectF@@QEBANXZ
-?top@QRectF@@QEBANXZ
-?right@QRectF@@QEBANXZ
-?bottom@QRectF@@QEBANXZ
-?width@QRectF@@QEBANXZ
-\r?height@QRectF@@QEBANXZ
-?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
-?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\n?disconnect@QObject@@SA_NPEBV1@PEBD01@Z
 \n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dispose@QListData@@SAXPEAUData@1@@Z
+\n?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
+\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\n?endBackingStorePainting@QWidgetPrivate@@UEAAXXZ
+\n?endCompose@QWidgetPrivate@@UEAAXXZ
+\n?enterEvent@QWidget@@MEAAXPEAVQEvent@@@Z
+\n?event@QWidget@@MEAA_NPEAVQEvent@@@Z
+\nM?keyPressEvent@QWindow@@MEAAXPEAVQKeyEvent@@@Z
+\r?drawTextItem@QPaintEngine@@UEAAXAEBVQPointF@@AEBVQTextItem@@@Z
+\r?dx@QTransform@@QEBANXZ
+\r?dy@QTransform@@QEBANXZ
+\r?event@QWindow@@MEAA_NPEAVQEvent@@@Z
+\r?exposeEvent@QWindow@@MEAAXPEAVQExposeEvent@@@Z
+\r?fillInPendingGlyphs@QTextureGlyphCache@@QEAAXXZ
+\r?fillRect@QPaintEngineEx@@UEAAXAEBVQRectF@@AEBVQBrush@@@Z
+\r?fillRect@QPaintEngineEx@@UEAAXAEBVQRectF@@AEBVQColor@@@Z
+\r?fillTexture@QImageTextureGlyphCache@@UEAAXAEBUCoord@QTextureGlyphCache@@IUQFixed@@@Z
+\r?finalStop@QLinearGradient@@QEBA?AVQPointF@@XZ
+\r?hasShrunk@QHashData@@QEAAXXZ
+\r?height@QRect@@QEBAHXZ
+\r?height@QRectF@@QEBANXZ
+\r?height@QSize@@QEBAHXZ
+\r?height@QSizeF@@QEBANXZ
+\r?hex@@YAAEAVQTextStream@@AEAV1@@Z
+\r?inputMethodQuery@QWidget@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+\r?insert@QListData@@QEAAPEAPEAXH@Z
+\r?instance@QCoreApplication@@SAPEAV1@XZ
+\r?intersected@QRect@@QEBA?AV1@AEBV1@@Z
+\rK?height@QWindow@@QEBAHXZ
+\t=?glTexCoordPointer@QOpenGLFunctions_1_1@@QEAAXHIHPEBX@Z
+\t?blueBufferSize@QSurfaceFormat@@QEBAHXZ
+\t?blueF@QColor@@QEBANXZ
+\t?center@QConicalGradient@@QEBA?AVQPointF@@XZ
+\t?center@QRadialGradient@@QEBA?AVQPointF@@XZ
+\t?centerRadius@QRadialGradient@@QEBANXZ
+\t?clip@QPaintEngineEx@@UEAAXAEBVQPainterPath@@W4ClipOperation@Qt@@@Z
+\t?clip@QPaintEngineEx@@UEAAXAEBVQRect@@W4ClipOperation@Qt@@@Z
+\t?clip@QPaintEngineEx@@UEAAXAEBVQRegion@@W4ClipOperation@Qt@@@Z
+\t?color@QBrush@@QEBAAEBVQColor@@XZ
+\t?color@QPen@@QEBA?AVQColor@@XZ
+\t?contains@QByteArray@@QEBA_NPEBD@Z
+\t?critical@QMessageLogger@@QEBAXPEBDZZ
+\t?currentThread@QThread@@SAPEAV1@XZ
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\t?devType@QWidget@@UEBAHXZ
+\tC?glUnmapBuffer@QOpenGLExtensions@@QEAAEI@Z
+\tV?setState@QPaintEngineEx@@UEAAXPEAVQPainterState@@@Z
+\v?d_func@QOpenGLContextGroup@@AEAAPEAVQOpenGLContextGroupPrivate@@XZ
+\v?data@QVertexIndexVector@@QEBAPEBXXZ
+\v?data_ptr@QBrush@@QEAAAEAV?$QScopedPointer@UQBrushData@@UQBrushDataPointerDeleter@@@@XZ
+\v?data_ptr@QPen@@QEAAAEAPEAVQPenPrivate@@XZ
+\v?defaultFramebufferObject@QOpenGLContext@@QEBAIXZ
+\v?depth@QImage@@QEBAHXZ
+\v?depth@QPixmap@@QEBAHXZ
+\v?depthBufferSize@QSurfaceFormat@@QEBAHXZ
+\v?destroy@QWindow@@QEAAXXZ
+\v?determinant@QTransform@@QEBANXZ
 \v?event@QObject@@UEAA_NPEAVQEvent@@@Z
 \v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
-?shared_null@QListData@@2UData@1@B
-?shared_null@QHashData@@2U1@B
-0\n?data@QArrayData@@QEAAPEAXXZ
-?allocate@QArrayData@@SAPEAU1@_K00V?$QFlags@W4AllocationOption@QArrayData@@@@@Z
-\\n?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-?sharedNull@QArrayData@@SAPEAU1@XZ
-??0QByteArray@@QEAA@PEBDH@Z
-\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-b\n?debug@QMessageLogger@@QEBAXPEBDZZ
-_\n?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
-??0QPoint@@QEAA@HH@Z
-??6QDebug@@QEAAAEAV0@I@Z
-??0QRect@@QEAA@AEBVQPoint@@AEBVQSize@@@Z
-?left@QRect@@QEBAHXZ
-?top@QRect@@QEBAHXZ
-?width@QRect@@QEBAHXZ
-\r?height@QRect@@QEBAHXZ
-?warning@QMessageLogger@@QEBA?AVQDebug@@XZ
-?cast@QMetaObject@@QEBAPEAVQObject@@PEAV2@@Z
-??1Connection@QMetaObject@@QEAA@XZ
-??0QByteArray@@QEAA@XZ
-??0QByteArray@@QEAA@$$QEAV0@@Z
-\t?contains@QByteArray@@QEBA_NPEBD@Z
-??4QString@@QEAAAEAV0@$$QEAV0@@Z
-?toLocal8Bit@QString@@QEHAA?AVQByteArray@@XZ
-`\f?fromLatin1@QString@@SA?AV1@PEBDH@Z
-?objectName@QObject@@QEBA?AVQString@@XZ
-?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
-\n?disconnect@QObject@@SA_NPEBV1@PEBD01@Z
-?sender@QObject@@IEBAPEAV1@XZ
-??0QObject@@IEAA@AEAVQObjectPrivate@@PEAV0@@Z
-?x@QPoint@@QEBAHXZ
-?y@QPoint@@QEBAHXZ
-?x@QPointF@@QEBANXZ
-?y@QPointF@@QEBANXZ
-??6QDebug@@QEAAAEAV0@AEBVQString@@@Z
-?width@QSizeF@@QEBANXZ
-\r?height@QSizeF@@QEBANXZ
-??0QObjectPrivate@@QEAA@H@Z
-??1QObjectPrivate@@UEAA@XZ
-??0QByteArray@@QEAA@AEBV0@@Z
-??4QByteArray@@QEAAAEAV0@AEBV0@@Z
-??0QPoint@@QEAA@XZ
-?qrand@@YAHXZ
-\t?critical@QMessageLogger@@QEBAXPEBDZZ
 \v?fatal@QMessageLogger@@QEBAXPEBDZZ
-??4QByteArray@@QEAAAEAV0@$$QEAV0@@Z
-?clear@QByteArray@@QEAAXXZ
-?append@QByteArray@@QEAAAEAV1@PEBD@Z
-?append@QByteArray@@QEAAAEAV1@AEBV1@@Z
-??4QString@@QEAAAEAV0@VQLatin1String@@@Z
-?size@QString@@QEBAHXZ
-?resize@QString@@QEAAXH@Z
-?reserve@QString@@QEAAXH@Z
-=\n?data@QString@@QEAAPEAVQChar@@XZ
-?constData@QString@@QEBAPEBVQChar@@XZ
-?appendLatin1To@QAbstractConcatenable@@KAXPEBDHPEAVQChar@@@Z
-q\v?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z
-\r?insert@QListData@@QEAAPEAPEAXH@Z
-?move@QListData@@QEAAXHH@Z
-??6QDebug@@QEAAAEAV0@AEBVQByteArray@@@Z
-??0QPointF@@QEAA@NN@Z
-??YQPointF@@QEAAAEAV0@AEBV0@@Z
-??0QByteArray@@QEAA@UQByteArrayDataPtr@@@Z
-??0QPointF@@QEAA@XZ
-??0QRect@@QEAA@XZ
-\r?intersected@QRect@@QEBA?AV1@AEBV1@@Z
-??0QRectF@@QEAA@AEBVQPointF@@0@Z
-??0QRectF@@QEAA@AEBVQRect@@@Z
-?x@QRectF@@QEBANXZ
-?y@QRectF@@QEBANXZ
-?adjusted@QRectF@@QEBA?AV1@NNNN@Z
-?toRect@QRectF@@QEBA?AVQRect@@XZ
-?toAlignedRect@QRectF@@QEBA?AVQRect@@XZ
-?qt_sine_table@@3QBNB
-B\r?indexOf@QByteArray@@QEBAHPEBDH@Z
-?append@QString@@QEAAAEAV1@VQLatin1String@@@Z
-\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-?activate@QMetaObject@@SAXPEAVQObject@@PEBU1@HPEAPEAX@Z
-?qt_metacast@QObject@@UEAAPEAXPEBD@Z
-?qt_metacall@QObject@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-?staticMetaObject@QObject@@2UQMetaObject@@B
-Qt5Core.dll
-CloseHandle
-EnterCriticalSection
-LeaveCriticalSection
-DeleteCriticalSection
-SetEvent
-ResetEvent
-WaitForSingleObjectEx
-CreateEventW
-GetModuleHandleW
-GetProcAddress
-RtlCaptureContext
-RtlLookupFunctionEntry
-RtlVirtualUnwind
-IsDebuggerPresent
-UnhandledExceptionFilter
-SetUnhandledExceptionFilter
-IsProcessorFeaturePresent
-GetCurrentProcess
-TerminateProcess
-QueryPerformanceCounter
-GetCurrentProcessId
-GetCurrentThreadId
-GetSystemTimeAsFileTime
-DisableThreadLibraryCalls
-InitializeSListHead
-KERNEL32.dll
-strstr
-memcpy
-memset
-_purecall
-memcmp
+\v?focusInEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
+\v?focusNextPrevChild@QWidget@@MEAA_N_N@Z
+\v?focusObject@QWidgetPrivate@@UEAAPEAVQObject@@XZ
+\v?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
+\vM?keyReleaseEvent@QWindow@@MEAAXPEAVQKeyEvent@@@Z
+\vN?match@QOpenGLExtensionMatcher@@QEBA_NAEBVQByteArray@@@Z
+\v\r?drawTiledPixmap@QPaintEngineEx@@UEAAXAEBVQRectF@@AEBVQPixmap@@AEBVQPointF@@@Z
+]8?glScissor@QOpenGLFunctions@@QEAAXHHHH@Z
+]:?glStencilOpSeparate@QOpenGLFunctions@@QEAAXIIII@Z
+]W?size@QVertexIndexVector@@QEBAHXZ
+^W?size@QWindow@@UEBA?AVQSize@@XZ
+^X?surface@QOpenGLContext@@QEBAPEAVQSurface@@XZ
+_CxxThrowException
+_\n?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
 __C_specific_handler
-__vcrt_InitializeCriticalSectionEx
 __std_exception_copy
 __std_exception_destroy
-_CxxThrowException
 __std_type_info_destroy_list
-VCRUNTIME140.dll
-strncmp
-free
-malloc
-realloc
-ceilf
-floor
+__vcrt_InitializeCriticalSectionEx
 _callnewh
-_seh_filter_dll
+_cexit
 _configure_narrow_argv
+_crt_atexit
+_execute_onexit_table
 _initialize_narrow_environment
 _initialize_onexit_table
-_register_onexit_function
-_execute_onexit_table
-_crt_atexit
-_cexit
 _initterm
 _initterm_e
-api-ms-win-crt-string-l1-1-0.dll
+_purecall
+_register_onexit_function
+_seh_filter_dll
+`7?glRenderbufferStorageMultisample@QOpenGLExtensions@@QEAAXIHIHH@Z
+`\f?fromLatin1@QString@@SA?AV1@PEBDH@Z
+a@?glUniform2i@QOpenGLFunctions@@QEAAXHHH@Z
+a\f?hasHeightForWidth@QWidget@@UEBA_NXZ
+aboutToDestroyContext
+angle
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+bT?setFontEngine@QStaticTextItem@@QEAAXPEAVQFontEngine@@@Z
+b\n?coordinateOffset@QPaintEngine@@UEBA?AVQPoint@@XZ
+b\n?debug@QMessageLogger@@QEBAXPEBDZZ
+bad allocation
+bad array new length
+bool __cdecl QGLShaderPrivate::create(void)
+bradius
+brushTexture
+brushTransform
+cX?surfaceHandle@QWindow@@EEBAPEAVQPlatformSurface@@XZ
+c\r?initializeViewportFramebuffer@QWidgetPrivate@@UEAAXXZ
+ceilf
+const QGLContext*
+context
+dQ?qt_metacast@QWindow@@UEAAPEAXPEBD@Z
+depth
+drawTexture() with OpenGL ES 2.0 requires an active OpenGL2 paint engine
+drawTexture(const QPointF &point, GLuint textureId, GLenum textureTarget) not supported with OpenGL ES, use rect version instead
+eX?surfaceType@QWindow@@UEBA?AW4SurfaceType@QSurface@@XZ
+fJ?glyphCache@QFontEngine@@QEBAPEAVQFontEngineGlyphCache@@PEBXW4GlyphFormat@1@AEBVQTransform@@@Z
+f\f?drawEllipse@QPaintEngineEx@@UEAAXAEBVQRect@@@Z
+failed to compile!
+floor
+fmp2_m_radius2
+fragmentColor
+free
+gY?touchEvent@QWindow@@MEAAXPEAVQTouchEvent@@@Z
+g\f?drawEllipse@QPaintEngineEx@@UEAAXAEBVQRectF@@@Z
+glProgramParameteri
+glProgramParameteriEXT
+globalOpacity
+hK?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
+h\n?dropEvent@QWidget@@MEAAXPEAVQDropEvent@@@Z
+halfViewportSize
+i"?glGetIntegerv@QOpenGLFunctions@@QEAAXIPEAH@Z
+imageTexture
+inverse_2_fmp2_m_radius2
+invertedTextureSize
+j\t?bytesPerLine@QImage@@QEBAHXZ
+k)?glIsFramebuffer@QOpenGLFunctions@@QEAAEI@Z
+lA?glUniform4fv@QOpenGLFunctions@@QEAAXHHPEBM@Z
+linearData
+m0_D@
+malloc
+maskTexture
+matrix
+memcmp
+memcpy
+memset
+n(?glIndexi@QOpenGLFunctions_1_1@@QEAAXH@Z
+n0?glOrtho@QOpenGLFunctions_1_1@@QEAAXNNNNNN@Z
+not supported
+o\t?cacheKey@QImage@@QEBA_JXZ
+opacityArray
+options 
+pR?resizeEvent@QWindow@@MEAAXPEAVQResizeEvent@@@Z
+patternColor
+pmvMatrix1
+pmvMatrix2
+pmvMatrix3
+qE?glVertexAttrib2f@QOpenGLFunctions@@QEAAXIMM@Z
+qQ?qt_scaleForTransform@@YA_NAEBVQTransform@@PEAN@Z
+q\t?cacheKey@QPixmap@@QEBA_JXZ
+q\v?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z
+rU?setPaintDevice@QPaintEngine@@QEAAXPEAVQPaintDevice@@@Z
+r\r?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z
+r\t?cacheKey@QPlatformPixmap@@QEBA_JXZ
+realloc
+s'?glGetVertexAttribPointerv@QOpenGLFunctions@@QEAAXIIPEAPEAX@Z
+sK?initializeOpenGLFunctions@QOpenGLFunctions@@QEAAXXZ
+s\f?drawImage@QPaintEngineEx@@UEAAXAEBVQPointF@@AEBVQImage@@@Z
+shaderDestroyed
+sqrfr
+strncmp
+strstr
+tS?setBlueBufferSize@QSurfaceFormat@@QEAAXH@Z
+textureCoordArray
+translateZ
+uR?resizeTextureData@QImageTextureGlyphCache@@UEAAXHH@Z
+uS?setBlueF@QColor@@QEAAXN@Z
+updateGL
+updateOverlayGL
+v!?glGetDoublev@QOpenGLFunctions_1_1@@QEAAXIPEAN@Z
+v@?glUniform2iv@QOpenGLFunctions@@QEAAXHHPEBH@Z
+vertexCoordsArray
+w\f?height@QWidget@@QEBAHXZ
+xP?profile@QSurfaceFormat@@QEBA?AW4OpenGLContextProfile@1@XZ
+yF?glVertexAttrib4f@QOpenGLFunctions@@QEAAXIMMMM@Z
+{N?metaObject@QWindow@@UEBAPEBUQMetaObject@@XZ
+{T?setFormat@QOpenGLContext@@QEAAXAEBVQSurfaceFormat@@@Z
+{U?setPen@QPainter@@QEAAXAEBVQColor@@@Z
+{\n?create@QOpenGLContext@@QEAA_NXZ
+|U?setPen@QPainter@@QEAAXAEBVQPen@@@Z
+~\n?deleteLater@QObject@@QEAAXXZ

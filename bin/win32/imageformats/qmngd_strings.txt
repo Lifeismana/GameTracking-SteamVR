@@ -1,93 +1,120 @@
-Photoshop ICC profile
-No error
-Out of memory
-The handle is invalid
+!weakref.load()
+.?AVQImageIOHandler@@
+.?AVQImageIOPlugin@@
+.?AVQMngHandler@@
+.?AVQMngPlugin@@
+.?AVQObject@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+1.0.10
+1.2.5
 A required callback is not defined
-Encountered unexpected end-of-file
-zlib encountered an error
-lcms encountered an error
-No output-profile defined for CMS
-No sRGB-profile defined for CMS
-Internal buffer-overflow
-Function is invalid at this point
-Writing was unsuccessful; disk full?
-Internal buffer for JPEG processing too small
-Reading suspended; waiting for I/O to catch up
-Timer suspension; normal animation delay
-SEEK suspension; application decides
-LOOP encountered when playback cache is turned off
-Application signalled I/O error
-Application signalled timing error
 Application signalled CMS error
+Application signalled I/O error
 Application signalled an error
 Application signalled error during trace-callback
-Internal error in libmng
-The signature is invalid
-The CRC for this chunk is invalid
-Chunk-length is invalid
-Chunk out of sequence
-Chunk not allowed at this point
-Chunk cannot occur multiple times
-Missing PLTE chunk
-Missing IDAT chunk(s)
+Application signalled timing error
+Attempt to access an non-existing entry
+Attempt to access the wrong chunk
+Canvas_style is invalid
 Chunk cannot be empty
+Chunk cannot occur multiple times
+Chunk must not end with NULL byte
+Chunk not allowed at this point
+Chunk out of sequence
+Chunk-length is invalid
+Chunklength is incredibly large
+Delta block width and or height invalid
+Destination object for PAST must be abstract
+ENDL without matching LOOP
+Encountered unexpected end-of-file
+Event type is invalid
+F:\qt5\qtimageformats\plugins\imageformats\qmngd.pdb
+Framenr out of bounds
+Function is invalid at this point
+Function not yet implemented
 Global data length invalid
+Handle could not be initialized
+Image is frozen
+Image is larger than defined maximum
+Image is not an animation
+Index-value out of bounds
+InitializeConditionVariable
+Internal buffer for JPEG processing too small
+Internal buffer-overflow
+Internal error in libmng
+Keyword cannot be zero-length
+LOOP encountered when playback cache is turned off
+Layernr out of bounds
+MHDR simplicity indicates unsupported feature(s)
+MNG error %d: %s; chunk %c%c%c%c; subcode %d:%d
+MNG\r\n
+Mask type is invalid
+Method is invalid
+Missing IDAT chunk(s)
+Missing PLTE chunk
+NULL separator not found
+No MNG header (MHDR) found
+No error
+No memory for gamma-table(s)
+No output-profile defined for CMS
+No sRGB-profile defined for CMS
+No valid header-chunk
+Object already exists
+Object does not exist
+Out of memory
+Palette-index out of bounds
+Parent chunk not found
+Photoshop ICC profile
+Playtime out of bounds
+QMngHandler::canRead() called with no device
+QMngPlugin
+RSDS
+Reading suspended; waiting for I/O to catch up
+Requested nEED resources are not supported
+SEEK suspension; application decides
+SleepConditionVariableCS
+TERM misplaced during creation of MNG stream
+Target object for DHDR must be concrete
+Target object must have alpha-channel
+The CRC for this chunk is invalid
 The bit_depth is invalid
 The color_type is invalid
 The compression_method is invalid
-The filter_method or filter_type is invalid
-The interlace_method is invalid
-There is not enough data in the IDAT chunk(s)
-Palette-index out of bounds
-NULL separator not found
-Keyword cannot be zero-length
-Object does not exist
-Object already exists
-Too much data in IDAT chunk(s)
-The sample_depth is invalid
-The offset_type is invalid
-The entry_type is invalid
-Chunk must not end with NULL byte
-The image_type is invalid
-The delta_type is invalid
-Index-value out of bounds
-The fill_method is invalid
-Target object for DHDR must be concrete
-Target object must have alpha-channel
-MHDR simplicity indicates unsupported feature(s)
-Unknown critical chunk encountered
-Requested nEED resources are not supported
 The delta operation is invalid (mismatched color_types?)
-Method is invalid
-Chunklength is incredibly large
-Delta block width and or height invalid
-Event type is invalid
-Mask type is invalid
-ENDL without matching LOOP
-evNT points to unknown SEEK
-Destination object for PAST must be abstract
-TERM misplaced during creation of MNG stream
-invalid fieldvalue (generic)
-invalid frame/image width
-invalid frame/image height
-Canvas_style is invalid
-Attempt to access the wrong chunk
-Attempt to access an non-existing entry
-No valid header-chunk
-Parent chunk not found
-No MNG header (MHDR) found
-Image is larger than defined maximum
-Image is not an animation
-Framenr out of bounds
-Layernr out of bounds
-Playtime out of bounds
-Function not yet implemented
-Image is frozen
-Handle could not be initialized
-No memory for gamma-table(s)
+The delta_type is invalid
+The entry_type is invalid
+The fill_method is invalid
+The filter_method or filter_type is invalid
+The handle is invalid
+The image_type is invalid
+The interlace_method is invalid
+The offset_type is invalid
+The sample_depth is invalid
+The signature is invalid
+There is not enough data in the IDAT chunk(s)
+Timer suspension; normal animation delay
+Too much data in IDAT chunk(s)
 Transformation could not be initialized
+Unknown critical chunk encountered
 Unknown error
-1.0.10
+Unknown exception
+WakeAllConditionVariable
+Writing was unsuccessful; disk full?
+bad allocation
+bad array new length
+bool __cdecl QMngHandler::canRead(class QIODevice *)
+evNT points to unknown SEEK
+f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
+f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
+invalid fieldvalue (generic)
+invalid frame/image height
+invalid frame/image width
+lcms encountered an error
+mng trace: iFuncnr: %d iFuncseq: %d zFuncname: %s
 mng_cleanup
 mng_copy_chunk
 mng_create
@@ -294,13 +321,13 @@ mng_putchunk_unkown
 mng_putchunk_ztxt
 mng_putimgdata_ihdr
 mng_putimgdata_jhdr
-mng_reset
 mng_read
 mng_read_pushchunk
 mng_read_pushdata
 mng_read_pushsig
 mng_read_resume
 mng_readdisplay
+mng_reset
 mng_set_bgcolor
 mng_set_bkgdstyle
 mng_set_cacheplayback
@@ -378,61 +405,13 @@ mng_version_release
 mng_version_so
 mng_version_text
 mng_write
-1.2.5
-1.2.5
-.?AVQMngHandler@@
-.?AVQImageIOHandler@@
-.?AVQMngPlugin@@
-.?AVQImageIOPlugin@@
-.?AVQObject@@
-.?AVtype_info@@
-.?AVbad_alloc@std@@
-.?AVexception@std@@
-.?AVbad_array_new_length@std@@
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
 qRegisterNormalizedMetaType
 qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qmnghandler.cpp
-mng trace: iFuncnr: %d iFuncseq: %d zFuncname: %s
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-signed char __cdecl myerror(struct mng_data_struct *,int,signed char,int,unsigned int,int,int,char *)
-MNG error %d: %s; chunk %c%c%c%c; subcode %d:%d
-signed char __cdecl mytrace(struct mng_data_struct *,int,int,char *)
-qmnghandler.cpp
-bool __cdecl QMngHandler::canRead(class QIODevice *)
-qmnghandler.cpp
-QMngHandler::canRead() called with no device
-MNG\r\n
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qRegisterNormalizedMetaType
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-QMngPlugin
-qRegisterNormalizedMetaType
-f:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
-qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qsharedpointer_impl.h
-!weakref.load()
-strongref.load() <= 0
-f:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qscopedpointer.h
-InitializeConditionVariable
-SleepConditionVariableCS
-WakeAllConditionVariable
-Unknown exception
-bad allocation
-bad array new length
-RSDS
-F:\qt5\qtimageformats\plugins\imageformats\qmngd.pdb
 qmngd.dll
+qmnghandler.cpp
 qt_plugin_instance
 qt_plugin_query_metadata
+signed char __cdecl myerror(struct mng_data_struct *,int,signed char,int,unsigned int,int,int,char *)
+signed char __cdecl mytrace(struct mng_data_struct *,int,int,char *)
+strongref.load() <= 0
+zlib encountered an error

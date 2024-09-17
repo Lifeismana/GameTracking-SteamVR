@@ -1,455 +1,37 @@
-fB;(fB;<fB;PfB;hfB;DgB;
                           
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-tsB;
-.?AVbad_array_new_length@std@@
-tsB;
-.?AVbad_alloc@std@@
-tsB;
-.?AVexception@std@@
-tsB;
-.?AVlogic_error@std@@
-tsB;
-.?AVlength_error@std@@
-tsB;
-.?AVbad_exception@std@@
-tsB;
-.?AVCCallbackBase@@
-tsB;
-.?AV?$CCallbackManual@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
-tsB;
-.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
-tsB;
-.?AV?$CCallbackImpl@$0BA@@@
-tsB;
-.?AV?$CCallbackManual@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
-tsB;
-.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
-tsB;
-.?AVCKeyValuesParser@@
-tsB;
-.?AVCAppManifestParser@@
-tsB;
-.?AVtype_info@@
-!A;w&B;
-4B;dAB;
-SteamUser023
-SteamFriends017
-SteamUtils010
-%u.%u.%u.%u:%i
-SteamMatchMaking009
-SteamMatchMakingServers002
-SteamMatchGameSearch001
-SteamParties002
-STEAMREMOTESTORAGE_INTERFACE_VERSION016
-STEAMUSERSTATS_INTERFACE_VERSION012
-STEAMAPPS_INTERFACE_VERSION008
-SteamNetworking006
-STEAMSCREENSHOTS_INTERFACE_VERSION003
-STEAMMUSIC_INTERFACE_VERSION001
-STEAMMUSICREMOTE_INTERFACE_VERSION001
-STEAMHTTP_INTERFACE_VERSION003
-SteamInput006
-SteamController008
-STEAMUGC_INTERFACE_VERSION018
-STEAMAPPLIST_INTERFACE_VERSION001
-STEAMHTMLSURFACE_INTERFACE_VERSION_005
-STEAMINVENTORY_INTERFACE_V003
-STEAMVIDEO_INTERFACE_V003
-STEAMPARENTALSETTINGS_INTERFACE_VERSION001
-STEAMREMOTEPLAY_INTERFACE_VERSION002
-SteamNetworkingMessages002
-SteamNetworkingSockets012
-SteamNetworkingUtils004
-SteamGameServer015
-SteamGameServerStats001
-x@;Unknown exception
-x@;bad array new length
-map/set too long
-o@;Ph@;0
-h@;(
-h@;Steam_BGetCallback
-Steam_FreeLastCallback
-Steam_GetAPICallResult
-steamclient.dll
-steamclient64.dll
-steam2.dll
-steamui.dll
-bin\clientui.dll
-steamconsole.dll
-gameoverlayrenderer.dll
-bin\audio.dll
-fB;a
-InitializeCriticalSectionEx
-steam.dll
-~@;@
-@;appid
-LauncherPath
-%s%c%s
-CreateInterface
-HKEY_LOCAL_MACHINE
-HKLM
-HKEY_CURRENT_USER
-HKCU
-HKEY_CLASSES_ROOT
-HKCR
-SteamClientDll
-Software\Valve\Steam\ActiveProcess
-[S_API] SteamAPI_Init(): Loaded local '%s' OK.\n
-[S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.\n
-Could not determine Steam client install directory.
-[S_API] SteamAPI_Init(): %s\n
-Failed to load module '%s'
-[S_API] SteamAPI_Init(): Loaded '%s' OK.  (First tried local '%s')\n
-[S_API] SteamAPI_Init(): Loaded '%s' OK.\n
-Unable to locate interface factory in %s.\n
-SteamClient017
-Steam_ReleaseThreadLocalMemory
-No %s
-SteamClient020
-CreateLocalUser failed
-ConnectToGlobalUser failed.
-Cannot create IPC pipe to Steam client process.  Steam is probably not running.
-No appID found.  Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
-SteamAppId
-SteamGameId
-%llu
-SteamOverlayGameId
-0123456789ABCDEF
-steam_appid.txt
-steam://run/%u
-steam://run/%u//
-InstallPath
-Software\Valve\Steam
-\steam.exe
-%s\%s
-SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
-SteamInternal_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
-Looking up breakpad interfaces from steamclient\n
-Breakpad_SteamWriteMiniDumpUsingExceptionInfoWithBuildId
-Breakpad_SteamWriteMiniDumpSetComment
-Breakpad_SteamSetSteamID
-Breakpad_SteamSetAppID
-Breakpad_SteamMiniDumpInit
-Calling BreakpadMiniDumpSystemInit\n
-SteamWriteMiniDumpUsingExceptionInfoWithBuildId
-SteamWriteMiniDumpSetComment
-SteamMiniDumpInit
-[S_API FAIL] Standard callback dispatch cannot be used; manual dispatch has already been selected.\n
-[S_API FAIL] SteamAPI_RegisterCallback cannot be used; manual dispatch has already been selected.\n
-[S_API FAIL] SteamAPI_RegisterCallResult cannot be used; manual dispatch has already been selected.\n
-[S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used yet, must init library first.\n
-[S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used, standard dispatch has already been selected.\n
-[S_API FAIL] SteamAPI_ManualDispatch_RunFrame() Cannot be used, must call SteamAPI_ManualDispatch_Init first.\n
-[S_API FAIL] SteamAPI_ManualDispatch_GetNextCallback() Cannot be used, must call SteamAPI_ManualDispatch_Init first.\n
-Setting breakpad minidump AppID = %u\n
-Forcing breakpad minidump interfaces to load\n
-Using breakpad crash handler\n
-%02d:%02d:%02d
-%04d%02d%02d%02d%02d%02d
-[S_API FAIL] Tried to access Steam interface %s before SteamAPI_Init succeeded.\n
-Steam_NotifyMissingInterface
-Steam_IsKnownInterface
-Can't determine AppID
-InitGameServer failed
-bad allocation
-SleepConditionVariableCS
-WakeAllConditionVariable
-x@;bad exception
-(wB;
-4wB;
-<wB;
-HwB;\t
-TwB;\n
-`wB;\n
-lwB;\f
-|wB;\t
-wB;\t
-wB;\t
-wB;\n
-wB;\v
-wB;\t
-\fxB;
- xB;
-$xB;
-(xB;
-,xB;
-0xB;
-4xB;
-8xB;
-<xB;
-@xB;
-DxB;
-HxB;
-LxB;
-PxB;
-TxB;
-XxB;
-\xB;
-`xB;
-dxB;
-hxB;
-lxB;
-pxB;
-txB;
-xxB;
-|xB;
-xB;\t
-xB;\t
-\fyB;
-,yB;
-LyB;
-lyB;
-yB;#
-yB; 
-zB;&
-8zB;
-TzB;
-dzB;
-hzB;
-pzB;
-zB;#
-zB;\t
-{B;%
-,{B;$
-T{B;%
-|{B;+
-{B; 
-{B;"
-\f|B;(
-8|B;*
-d|B;
-|B;\f
-|B;\v
-$xB;
-XxB;
-PxB;
-0xB;
-0}B;
-__based(
-__cdecl
-__pascal
-__stdcall
-__thiscall
-__fastcall
-__vectorcall
-__clrcall
-__eabi
-__swift_1
-__swift_2
-__ptr64
-__restrict
-__unaligned
-restrict(
- new
- delete
-operator
-`vftable'
-`vbtable'
-`vcall'
-`typeof'
-`local static guard'
-`string'
-`vbase destructor'
-`vector deleting destructor'
-`default constructor closure'
-`scalar deleting destructor'
-`vector constructor iterator'
-`vector destructor iterator'
-`vector vbase constructor iterator'
-`virtual displacement map'
-`eh vector constructor iterator'
-`eh vector destructor iterator'
-`eh vector vbase constructor iterator'
-`copy constructor closure'
-`udt returning'
-`RTTI
-`local vftable'
-`local vftable constructor closure'
- new[]
- delete[]
-`omni callsig'
-`placement delete closure'
-`placement delete[] closure'
-`managed vector constructor iterator'
-`managed vector destructor iterator'
-`eh vector copy constructor iterator'
-`eh vector vbase copy constructor iterator'
-`dynamic initializer for '
-`dynamic atexit destructor for '
-`vector copy constructor iterator'
-`vector vbase copy constructor iterator'
-`managed vector copy constructor iterator'
-`local static thread guard'
-operator "" 
-operator co_await
-operator<=>
- Type Descriptor'
- Base Class Descriptor at (
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
+ Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
-`anonymous namespace'
-(null)
-d8L2
-[aOni*{
-@2&@
-"RP(
-eLK(w
-m\nXo
-FEMh\f
-h0'D
-owM&
-~ $s%r
-@b;zO]
-$qE}
-;*xh
-["93
-iu+-,
-\lo}
-obwQ4
+ Type Descriptor'
+ delete
+ delete[]
+ new
+%02d:%02d:%02d
+%04d%02d%02d%02d%02d%02d
+%llu
+%u.%u.%u.%u:%i
 &Sgw
-R\tE]
-?nz(
-0+L\v
-=87M
-v2!L.2
-\tcQr
-X/4B
-k=yI
-^<V7w
-W&|.
-INITY
-inity
-SNAN)
-snan)
-IND)ind)
-CorExitProcess
-B;INF
-NAN(SNAN)
-nan(snan)
-NAN(IND)
-nan(ind)
-e+000
-qB;,
-qB;P
-B;Sun
-Sunday
-Monday
-Tuesday
-Wednesday
-Thursday
-Friday
-Saturday
-January
-February
-March
-April
-June
-July
-August
-September
-October
-November
-December
-MM/dd/yy
-dddd, MMMM dd, yyyy
-HH:mm:ss
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-AreFileApisANSI
-FlsAlloc
-FlsFree
-FlsGetValue
-FlsSetValue
-LCMapStringEx
-LocaleNameToLCID
-AppPolicyGetProcessTerminationMethod
-UTF-8
-UTF-16LEUNICODE
-1#INF
-1#QNAN
-1#SNAN
-1#IND
-B;\t\f
-B;\n\f
-B;\f\f
-B;;\f
-B;k\f
-B;\t 
-B;\n 
-B;; 
-B;\t$
-B;\n$
-B;;$
-B;\t(
-B;\n(
-B;\t,
-B;\n,
-B;\t0
-B;\n0
-B;\t4
-B;\n4
-B;\n8
-B;\n<
-B;\n@
-B;\nD
-B;\nH
-B;\nL
-B;\nP
-log10
-lzZ?
-log10
-asin
-acos
-sqrt
-\tk8=
-?5Wg4p
-Nv$^
-w(@\t
-BC .=
-(lX 
-#{ =
-`~R=
-}s"=
-\tE[\n
-%S#[k
-"B <1=
-\-!y
-\f#.X'=
-i9+=
-B;sinh
-cosh
-tanh
-atan
-atan2
-ceil
-floor
-fabs
-modf
-ldexp
-_cabs
-_hypot
-fmod
-frexp
-_logb
-_nextafter
-laB;
-RSDSO
 'sK#F
-c:\buildslave\steam_rel_client_win32\build\src\steam_api\Release\steam_api.pdb
-.text$di
-.text$mn
-.text$x
-.text$yd
-.idata$5
+(null)
 .00cfg
+.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
+.?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
+.?AV?$CCallbackImpl@$0BA@@@
+.?AV?$CCallbackManual@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
+.?AV?$CCallbackManual@VCCallbackMgr@@USteamAPICallCompleted_t@@$0A@@@
+.?AVCAppManifestParser@@
+.?AVCCallbackBase@@
+.?AVCKeyValuesParser@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_exception@std@@
+.?AVexception@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVtype_info@@
 .CRT$XCA
 .CRT$XCU
 .CRT$XCZ
@@ -464,45 +46,223 @@ c:\buildslave\steam_rel_client_win32\build\src\steam_api\Release\steam_api.pdb
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
+.data
+.data$r
+.data$rs
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
 .rdata
 .rdata$T
 .rdata$r
 .rdata$sxdata
 .rdata$voltmd
 .rdata$zzzdbg
+.rsrc$01
+.rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
+.text$di
+.text$mn
+.text$x
+.text$yd
 .tls
 .tls$
 .tls$ZZZ
 .xdata$x
-.edata
-.idata$2
-.idata$3
-.idata$4
-.idata$6
-.data
-.data$r
-.data$rs
-.bss
-.rsrc$01
-.rsrc$02
-\nn@;
-TB;"
-`TB;
-hTB;"
+0123456789ABCDEF
 0TB;
+0xB;
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+4B;dAB;
+4wB;
+4xB;
 8TB;"
-Pf@;
-TB;"
->)A;
-RrA;
-\tOB;
-steam_api.dll
+8xB;
+8zB;
+=87M
+?5Wg4p
+@;appid
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADVAPI32.dll
+AppPolicyGetProcessTerminationMethod
+April
+AreFileApisANSI
+August
+B;INF
+B;Sun
+B;sinh
+Breakpad_SteamMiniDumpInit
+Breakpad_SteamSetAppID
+Breakpad_SteamSetSteamID
+Breakpad_SteamWriteMiniDumpSetComment
+Breakpad_SteamWriteMiniDumpUsingExceptionInfoWithBuildId
+Calling BreakpadMiniDumpSystemInit\n
+Can't determine AppID
+Cannot create IPC pipe to Steam client process.  Steam is probably not running.
+CloseHandle
+ConnectToGlobalUser failed.
+CorExitProcess
+Could not determine Steam client install directory.
+CreateEventW
+CreateFileW
+CreateInterface
+CreateLocalUser failed
+December
+DecodePointer
+DeleteCriticalSection
+DxB;
+EncodePointer
+EnterCriticalSection
+ExitProcess
+FEMh\f
+Failed to load module '%s'
+February
+FindClose
+FindFirstFileExW
+FindNextFileW
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+Forcing breakpad minidump interfaces to load\n
+FreeEnvironmentStringsW
+FreeLibrary
+Friday
+GetACP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetConsoleMode
+GetConsoleOutputCP
+GetCurrentDirectoryW
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetEnvironmentStringsW
+GetEnvironmentVariableA
+GetExitCodeProcess
+GetFileAttributesExW
+GetFileAttributesW
+GetFileSizeEx
+GetFileType
 GetHSteamPipe
 GetHSteamUser
+GetLastError
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTimeAsFileTime
+HH:mm:ss
+HKCR
+HKCU
+HKEY_CLASSES_ROOT
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHINE
+HKLM
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+HwB;\t
+HxB;
+IND)ind)
+INITY
+InitGameServer failed
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+InstallPath
+InterlockedFlushSList
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+January
+July
+June
+KERNEL32.dll
+LCMapStringEx
+LCMapStringW
+LauncherPath
+LeaveCriticalSection
+LoadLibraryExA
+LoadLibraryExW
+LocaleNameToLCID
+Looking up breakpad interfaces from steamclient\n
+LxB;
+LyB;
+MM/dd/yy
+March
+Monday
+MultiByteToWideChar
+NAN(IND)
+NAN(SNAN)
+No %s
+No appID found.  Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
+November
+October
+OpenProcess
+OutputDebugStringA
+PxB;
+QueryPerformanceCounter
+RSDSO
+RaiseException
+ReadConsoleW
+ReadFile
+RegCloseKey
+RegOpenKeyExW
+RegQueryValueExW
+ResetEvent
+RrA;
+RtlUnwind
+SHELL32.dll
+SNAN)
+STEAMAPPLIST_INTERFACE_VERSION001
+STEAMAPPS_INTERFACE_VERSION008
+STEAMHTMLSURFACE_INTERFACE_VERSION_005
+STEAMHTTP_INTERFACE_VERSION003
+STEAMINVENTORY_INTERFACE_V003
+STEAMMUSICREMOTE_INTERFACE_VERSION001
+STEAMMUSIC_INTERFACE_VERSION001
+STEAMPARENTALSETTINGS_INTERFACE_VERSION001
+STEAMREMOTEPLAY_INTERFACE_VERSION002
+STEAMREMOTESTORAGE_INTERFACE_VERSION016
+STEAMSCREENSHOTS_INTERFACE_VERSION003
+STEAMUGC_INTERFACE_VERSION018
+STEAMUSERSTATS_INTERFACE_VERSION012
+STEAMVIDEO_INTERFACE_V003
+Saturday
+September
+SetEndOfFile
+SetEnvironmentVariableA
+SetEvent
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetUnhandledExceptionFilter
+Setting breakpad minidump AppID = %u\n
+ShellExecuteW
+SleepConditionVariableCS
+Software\Valve\Steam
+Software\Valve\Steam\ActiveProcess
 SteamAPI_GetHSteamPipe
 SteamAPI_GetHSteamUser
 SteamAPI_GetSteamInstallPath
@@ -1561,7 +1321,16 @@ SteamAPI_servernetadr_t_IsLessThan
 SteamAPI_servernetadr_t_SetConnectionPort
 SteamAPI_servernetadr_t_SetIP
 SteamAPI_servernetadr_t_SetQueryPort
+SteamAppId
 SteamClient
+SteamClient017
+SteamClient020
+SteamClientDll
+SteamController008
+SteamFriends017
+SteamGameId
+SteamGameServer015
+SteamGameServerStats001
 SteamGameServer_BSecure
 SteamGameServer_GetHSteamPipe
 SteamGameServer_GetHSteamUser
@@ -1570,101 +1339,200 @@ SteamGameServer_GetSteamID
 SteamGameServer_InitSafe
 SteamGameServer_RunCallbacks
 SteamGameServer_Shutdown
+SteamInput006
 SteamInternal_ContextInit
 SteamInternal_CreateInterface
 SteamInternal_FindOrCreateGameServerInterface
 SteamInternal_FindOrCreateUserInterface
 SteamInternal_GameServer_Init_V2
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
+SteamInternal_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
 SteamInternal_SteamAPI_Init
-g_pSteamClientGameServer
-GetProcAddress
-GetLastError
-InitializeCriticalSectionAndSpinCount
+SteamMatchGameSearch001
+SteamMatchMaking009
+SteamMatchMakingServers002
+SteamMiniDumpInit
+SteamNetworking006
+SteamNetworkingMessages002
+SteamNetworkingSockets012
+SteamNetworkingUtils004
+SteamOverlayGameId
+SteamParties002
+SteamUser023
+SteamUtils010
+SteamWriteMiniDumpSetComment
+SteamWriteMiniDumpUsingExceptionInfoWithBuildId
+Steam_FreeLastCallback
+Steam_GetAPICallResult
+Steam_IsKnownInterface
+Steam_NotifyMissingInterface
+Steam_ReleaseThreadLocalMemory
+Sunday
+TerminateProcess
+Thursday
 TlsAlloc
+TlsFree
 TlsGetValue
 TlsSetValue
-TlsFree
-FreeLibrary
-LoadLibraryExW
-GetCommandLineW
-GetEnvironmentVariableA
-SetEnvironmentVariableA
-GetCurrentDirectoryW
-GetFileAttributesW
-GetFileAttributesExW
-OutputDebugStringA
-CloseHandle
-InitializeCriticalSection
-EnterCriticalSection
-LeaveCriticalSection
-DeleteCriticalSection
-GetExitCodeProcess
-OpenProcess
-GetModuleFileNameW
-GetModuleHandleA
-GetModuleHandleExW
-LoadLibraryExA
-MultiByteToWideChar
-WideCharToMultiByte
-KERNEL32.dll
-RegCloseKey
-RegOpenKeyExW
-RegQueryValueExW
-ADVAPI32.dll
-ShellExecuteW
-SHELL32.dll
-SetEvent
-ResetEvent
-WaitForSingleObjectEx
-CreateEventW
-GetModuleHandleW
-IsProcessorFeaturePresent
-IsDebuggerPresent
+Tuesday
+TwB;\n
+TxB;
+TzB;
+UTF-16LEUNICODE
+UTF-8
+Unable to locate interface factory in %s.\n
 UnhandledExceptionFilter
-SetUnhandledExceptionFilter
-GetStartupInfoW
-QueryPerformanceCounter
-GetCurrentProcessId
-GetCurrentThreadId
-GetSystemTimeAsFileTime
-InitializeSListHead
-GetCurrentProcess
-TerminateProcess
-RaiseException
-RtlUnwind
-InterlockedFlushSList
-SetLastError
-EncodePointer
-ExitProcess
-HeapFree
-HeapAlloc
-GetStdHandle
-GetFileType
-LCMapStringW
-ReadFile
-GetConsoleMode
-ReadConsoleW
-FindClose
-FindFirstFileExW
-FindNextFileW
-IsValidCodePage
-GetACP
-GetOEMCP
-GetCPInfo
-GetCommandLineA
-GetEnvironmentStringsW
-FreeEnvironmentStringsW
-GetProcessHeap
-GetFileSizeEx
-SetFilePointerEx
-GetStringTypeW
-SetStdHandle
-FlushFileBuffers
-WriteFile
-GetConsoleOutputCP
-CreateFileW
-HeapSize
-HeapReAlloc
-SetEndOfFile
-DecodePointer
+Using breakpad crash handler\n
+WaitForSingleObjectEx
+WakeAllConditionVariable
+Wednesday
+WideCharToMultiByte
 WriteConsoleW
+WriteFile
+X/4B
+XxB;
+[S_API FAIL] Standard callback dispatch cannot be used; manual dispatch has already been selected.\n
+[S_API FAIL] SteamAPI_ManualDispatch_GetNextCallback() Cannot be used, must call SteamAPI_ManualDispatch_Init first.\n
+[S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used yet, must init library first.\n
+[S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used, standard dispatch has already been selected.\n
+[S_API FAIL] SteamAPI_ManualDispatch_RunFrame() Cannot be used, must call SteamAPI_ManualDispatch_Init first.\n
+[S_API FAIL] SteamAPI_RegisterCallResult cannot be used; manual dispatch has already been selected.\n
+[S_API FAIL] SteamAPI_RegisterCallback cannot be used; manual dispatch has already been selected.\n
+[S_API FAIL] Tried to access Steam interface %s before SteamAPI_Init succeeded.\n
+[S_API] SteamAPI_Init(): %s\n
+[S_API] SteamAPI_Init(): Loaded '%s' OK.  (First tried local '%s')\n
+[S_API] SteamAPI_Init(): Loaded '%s' OK.\n
+[S_API] SteamAPI_Init(): Loaded local '%s' OK.\n
+[S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.\n
+[aOni*{
+\steam.exe
+\tcQr
+^<V7w
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__swift_1
+__swift_2
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_hypot
+_logb
+_nextafter
+`RTTI
+`anonymous namespace'
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+abcdefghijklmnopqrstuvwxyz
+acos
+asin
+atan
+atan2
+bad allocation
+bin\audio.dll
+bin\clientui.dll
+c:\buildslave\steam_rel_client_win32\build\src\steam_api\Release\steam_api.pdb
+ceil
+cosh
+d8L2
+dddd, MMMM dd, yyyy
+dxB;
+dzB;
+e+000
+eLK(w
+fB;(fB;<fB;PfB;hfB;DgB;
+fB;a
+fabs
+floor
+fmod
+frexp
+g_pSteamClientGameServer
+gameoverlayrenderer.dll
+h0'D
+h@;Steam_BGetCallback
+hTB;"
+hxB;
+hzB;
+inity
+k=yI
+laB;
+ldexp
+log10
+lwB;\f
+lxB;
+lyB;
+lzZ?
+m\nXo
+map/set too long
+modf
+nan(ind)
+nan(snan)
+obwQ4
+operator
+operator "" 
+operator co_await
+operator<=>
+owM&
+pxB;
+pzB;
+qB;P
+restrict(
+snan)
+sqrt
+steam.dll
+steam2.dll
+steam://run/%u
+steam://run/%u//
+steam_api.dll
+steam_appid.txt
+steamclient.dll
+steamclient64.dll
+steamconsole.dll
+steamui.dll
+tanh
+tsB;
+txB;
+v2!L.2
+x@;Unknown exception
+x@;bad array new length
+x@;bad exception
+xxB;

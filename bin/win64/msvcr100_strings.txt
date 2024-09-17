@@ -1,1395 +1,177 @@
-.?AVbad_exception@std@@
-.?AVbad_weak_ptr@tr1@std@@
-.?AV_Ref_count_base@tr1@std@@
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ B\kji2
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ Type Descriptor'
+ Vsy
+ ]Asinh
+ delete
+ delete[]
+ new
+ throw(
+ volatile
+#9fm
+$I10_OUTPUT
+$Izy
+$Jsy
+$tsy
+%_hypotf
+( 8PX
+('8PW
+(Press Retry to debug the application - JIT must be enabled)
+(Ysy
+(null)
+(yaX
+)3M3
+*Yp3.CP+
+*Zp3.;P
+,<ellipsis>
+-64OS
+.?AUIExecutionContext@Concurrency@@
+.?AUIExecutionResource@Concurrency@@
+.?AUIResourceManager@Concurrency@@
+.?AUIScheduler@Concurrency@@
+.?AUISchedulerProxy@Concurrency@@
+.?AUIThreadProxy@Concurrency@@
+.?AUIThreadProxyFactory@details@Concurrency@@
+.?AUIUMSCompletionList@Concurrency@@
+.?AUIUMSScheduler@Concurrency@@
+.?AUIUMSThreadProxy@Concurrency@@
+.?AUIUMSUnblockNotification@Concurrency@@
+.?AUIVirtualProcessorRoot@Concurrency@@
+.?AU_Chore@details@Concurrency@@
+.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@VFreeThreadProxyFactory@23@@details@Concurrency@@
+.?AV?$ThreadProxyFactory@VUMSFreeThreadProxy@details@Concurrency@@VUMSFreeThreadProxyFactory@23@@details@Concurrency@@
 .?AV?$_Ref_count@V__ExceptionPtr@@@tr1@std@@
 .?AV?$_Ref_count_del_alloc@V__ExceptionPtr@@P6AXPEAV1@@ZV?$_DebugMallocator@H@@@tr1@std@@
-.P6AXPEAV__ExceptionPtr@@@Z
-t$|y
-l$|y
-|$|y
-d$|y
-t$|y
-l$|y
-|$|y
-d$|y
-P*~y
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-p&|y
-`&|y
-.?AVbad_cast@std@@
-.?AVbad_typeid@std@@
-.?AV__non_rtti_object@std@@
-.?AVtype_info@@
-.?AVexception@@
-p>|y
-`>|y
-T>|y
-H>|y
-D>|y
-@>|y
-<>|y
-8>|y
-4>|y
-0>|y
-,>|y
-(>|y
-$>|y
- >|y
-4>|y
-p=|y
-`=|y
-X=|y
-P=|y
-H=|y
-@=|y
-8=|y
-0=|y
-(=|y
-x<|y
-p<|y
-h<|y
-`<|y
-X<|y
-P<|y
-H<|y
-@<|y
-0<|y
-x<|y
-p;|y
-d;|y
-\;|y
-H;|y
- ;|y
-PD|y
- 5~y
-xL|y
-hL|y
-HL|y
-0L|y
-pK|y
-XK|y
-HK|y
-8K|y
-(K|y
-`J|y
-8K|y
-PJ|y
-8J|y
-(J|y
-8K|y
-8K|y
-xI|y
-XI|y
-@I|y
-(I|y
-8K|y
-Assertion failed: %s, file %s, line %d\n
-kU'9
-HMXB
-?q=\n
-?Zd;
-?/L[
-S;uD
-z?aUY
-D?$?
-U>c{
-zc%C1
-.:3q
--64OS
-NKeb
-FlR!<B
-I:!A9
-FlR!<B
-Y_,0
-ub8c@
-)3M3
-@hcjz
-@~dV=x
-?X(X
-{bi@
-{DA5
-kNB'
-JIE]0\
-8+ D
-/&A2/
-!\t@cb
-8^|y
-|\|y
-hv|y
-Ip/n/P+
-Mp/n_
-Kp/n7P+
-Up/n1P+
-Op/n5P+
-Sp/n
-Ip'n/P%
-Mp'n_
-Kp'n7P%
-Up'n1P%
-Op'n5P%
-Sp'n
-Wpon
-Wpgn
-/h<P+
-'h<P
-*Zp3.;P
-*Yp3.CP+
-hp/n
-hp'n
-ip/nEP+
-jp/n
-ip'nEP%
-jp'n
-mpon
-mpgn
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-$Izy
-.?AVmissing_wait@Concurrency@@
-.?AVexception@std@@
-.?AVtask_canceled@details@Concurrency@@
+.?AVCacheLocalScheduleGroup@details@Concurrency@@
+.?AVCachedTransmogrifiedPrimary@details@Concurrency@@
 .?AVContext@Concurrency@@
 .?AVContextBase@details@Concurrency@@
-.?AVscheduler_not_attached@Concurrency@@
-.?AVWaitAnyBlock@details@Concurrency@@
-.?AVWaitAllBlock@details@Concurrency@@
-.?AVMultiWaitBlock@details@Concurrency@@
-.?AVSingleWaitBlock@details@Concurrency@@
-.?AVWaitBlock@details@Concurrency@@
-.?AVbad_alloc@std@@
-.?AVinvalid_argument@std@@
-.?AVlogic_error@std@@
-.?AVimproper_lock@Concurrency@@
-.?AVinvalid_oversubscribe_operation@Concurrency@@
-.?AVinvalid_multiple_scheduling@Concurrency@@
-.?AVoperation_timed_out@Concurrency@@
-.?AVnested_scheduler_missing_detach@Concurrency@@
-.?AVinvalid_operation@Concurrency@@
-.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
-.?AVinvalid_scheduler_policy_value@Concurrency@@
-.?AVinvalid_scheduler_policy_key@Concurrency@@
-.?AVinvalid_link_target@Concurrency@@
-.?AVmessage_not_found@Concurrency@@
-.?AVbad_target@Concurrency@@
-.?AVcontext_self_unblock@Concurrency@@
-.?AVcontext_unblock_unbalanced@Concurrency@@
-.?AVdefault_scheduler_exists@Concurrency@@
-.?AVimproper_scheduler_reference@Concurrency@@
-.?AVimproper_scheduler_detach@Concurrency@@
-.?AVimproper_scheduler_attach@Concurrency@@
-.?AVunsupported_os@Concurrency@@
-.?AVscheduler_resource_allocation_error@Concurrency@@
-.?AUIExecutionResource@Concurrency@@
 .?AVExecutionResource@details@Concurrency@@
 .?AVExternalContextBase@details@Concurrency@@
+.?AVFairScheduleGroup@details@Concurrency@@
+.?AVFreeThreadProxy@details@Concurrency@@
+.?AVFreeThreadProxyFactory@details@Concurrency@@
 .?AVFreeVirtualProcessorRoot@details@Concurrency@@
-.?AUIVirtualProcessorRoot@Concurrency@@
-.?AVVirtualProcessorRoot@details@Concurrency@@
-.?AUIExecutionContext@Concurrency@@
 .?AVInternalContextBase@details@Concurrency@@
-.?AUIResourceManager@Concurrency@@
+.?AVMultiWaitBlock@details@Concurrency@@
+.?AVRealizedChore@details@Concurrency@@
 .?AVResourceManager@details@Concurrency@@
 .?AVScheduleGroup@Concurrency@@
 .?AVScheduleGroupBase@details@Concurrency@@
-.?AVRealizedChore@details@Concurrency@@
-.?AU_Chore@details@Concurrency@@
 .?AVScheduler@Concurrency@@
 .?AVSchedulerBase@details@Concurrency@@
-.?AUISchedulerProxy@Concurrency@@
 .?AVSchedulerProxy@details@Concurrency@@
-.?AUIScheduler@Concurrency@@
-.?AUIUMSScheduler@Concurrency@@
 .?AVSchedulerResourceManagement@details@Concurrency@@
-.?AVFairScheduleGroup@details@Concurrency@@
-.?AVCacheLocalScheduleGroup@details@Concurrency@@
+.?AVSingleWaitBlock@details@Concurrency@@
 .?AVThreadInternalContext@details@Concurrency@@
-.?AVThreadScheduler@details@Concurrency@@
-.?AUIThreadProxy@Concurrency@@
 .?AVThreadProxy@details@Concurrency@@
-.?AV?$ThreadProxyFactory@VUMSFreeThreadProxy@details@Concurrency@@VUMSFreeThreadProxyFactory@23@@details@Concurrency@@
-.?AVUMSFreeThreadProxyFactory@details@Concurrency@@
-.?AUIUMSUnblockNotification@Concurrency@@
-.?AUIUMSThreadProxy@Concurrency@@
-.?AVUMSBaseObject@details@Concurrency@@
-.?AVUMSThreadProxy@details@Concurrency@@
-.?AVUMSFreeThreadProxy@details@Concurrency@@
-.?AV?$ThreadProxyFactory@VFreeThreadProxy@details@Concurrency@@VFreeThreadProxyFactory@23@@details@Concurrency@@
-.?AVFreeThreadProxyFactory@details@Concurrency@@
-.?AUIThreadProxyFactory@details@Concurrency@@
-.?AVFreeThreadProxy@details@Concurrency@@
-.?AVVirtualProcessor@details@Concurrency@@
+.?AVThreadScheduler@details@Concurrency@@
 .?AVThreadVirtualProcessor@details@Concurrency@@
 .?AVTimerObj@?6??wait@Concurrency@@YAXI@Z@
-.?AV_Timer@details@Concurrency@@
-.?AVCachedTransmogrifiedPrimary@details@Concurrency@@
 .?AVTransmogrifiedPrimary@details@Concurrency@@
+.?AVUMSBaseObject@details@Concurrency@@
+.?AVUMSFreeThreadProxy@details@Concurrency@@
+.?AVUMSFreeThreadProxyFactory@details@Concurrency@@
 .?AVUMSFreeVirtualProcessorRoot@details@Concurrency@@
-.?AUIUMSCompletionList@Concurrency@@
 .?AVUMSSchedulerProxy@details@Concurrency@@
 .?AVUMSSchedulingContext@details@Concurrency@@
 .?AVUMSThreadInternalContext@details@Concurrency@@
+.?AVUMSThreadProxy@details@Concurrency@@
 .?AVUMSThreadScheduler@details@Concurrency@@
 .?AVUMSThreadVirtualProcessor@details@Concurrency@@
-Dyvy
-tr1::bad_weak_ptr
-$Izy
-bad exception
-$Izy
-CorExitProcess
-`!|y
-P |y
-.com
+.?AVVirtualProcessor@details@Concurrency@@
+.?AVVirtualProcessorRoot@details@Concurrency@@
+.?AVWaitAllBlock@details@Concurrency@@
+.?AVWaitAnyBlock@details@Concurrency@@
+.?AVWaitBlock@details@Concurrency@@
+.?AV_Ref_count_base@tr1@std@@
+.?AV_Timer@details@Concurrency@@
+.?AV__non_rtti_object@std@@
+.?AVbad_alloc@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVbad_target@Concurrency@@
+.?AVbad_typeid@std@@
+.?AVbad_weak_ptr@tr1@std@@
+.?AVcontext_self_unblock@Concurrency@@
+.?AVcontext_unblock_unbalanced@Concurrency@@
+.?AVdefault_scheduler_exists@Concurrency@@
+.?AVexception@@
+.?AVexception@std@@
+.?AVimproper_lock@Concurrency@@
+.?AVimproper_scheduler_attach@Concurrency@@
+.?AVimproper_scheduler_detach@Concurrency@@
+.?AVimproper_scheduler_reference@Concurrency@@
+.?AVinvalid_argument@std@@
+.?AVinvalid_link_target@Concurrency@@
+.?AVinvalid_multiple_scheduling@Concurrency@@
+.?AVinvalid_operation@Concurrency@@
+.?AVinvalid_oversubscribe_operation@Concurrency@@
+.?AVinvalid_scheduler_policy_key@Concurrency@@
+.?AVinvalid_scheduler_policy_thread_specification@Concurrency@@
+.?AVinvalid_scheduler_policy_value@Concurrency@@
+.?AVlogic_error@std@@
+.?AVmessage_not_found@Concurrency@@
+.?AVmissing_wait@Concurrency@@
+.?AVnested_scheduler_missing_detach@Concurrency@@
+.?AVoperation_timed_out@Concurrency@@
+.?AVscheduler_not_attached@Concurrency@@
+.?AVscheduler_resource_allocation_error@Concurrency@@
+.?AVtask_canceled@details@Concurrency@@
+.?AVtype_info@@
+.?AVunsupported_os@Concurrency@@
+.P6AXPEAV__ExceptionPtr@@@Z
 .bat
 .cmd
+.com
 .exe
-SystemRoot
-PATH
-cmd.exe
-COMSPEC
-UTF-8
-UTF-16LE
-UNICODE
- /c 
-SunMonTueWedThuFriSat
-JanFebMarAprMayJunJulAugSepOctNovDec
-(null)
-( 8PX
-700WP
-`h````
-xpxxxx
-('8PW
-700PP
-`h`hhh
-xppwpp
-am/pm
-Unknown exception
-Access violation - no RTTI data!
-Bad read pointer - no RTTI data!
-Attempted a typeid of NULL pointer!
-Bad dynamic_cast!
- Complete Object Locator'
- Class Hierarchy Descriptor'
- Base Class Array'
- Base Class Descriptor at (
- Type Descriptor'
-`local static thread guard'
-`managed vector copy constructor iterator'
-`vector vbase copy constructor iterator'
-`vector copy constructor iterator'
-`dynamic atexit destructor for '
-`dynamic initializer for '
-`eh vector vbase copy constructor iterator'
-`eh vector copy constructor iterator'
-`managed vector destructor iterator'
-`managed vector constructor iterator'
-`placement delete[] closure'
-`placement delete closure'
-`omni callsig'
- delete[]
- new[]
-`local vftable constructor closure'
-`local vftable'
-`RTTI
-`udt returning'
-`copy constructor closure'
-`eh vector vbase constructor iterator'
-`eh vector destructor iterator'
-`eh vector constructor iterator'
-`virtual displacement map'
-`vector vbase constructor iterator'
-`vector destructor iterator'
-`vector constructor iterator'
-`scalar deleting destructor'
-`default constructor closure'
-`vector deleting destructor'
-`vbase destructor'
-`string'
-`local static guard'
-`typeof'
-`vcall'
-`vbtable'
-`vftable'
-operator
- delete
- new
-__unaligned
-__restrict
-__ptr64
-__eabi
-__clrcall
-__fastcall
-__thiscall
-__stdcall
-__pascal
-__cdecl
-__based(
-p/|y
-`/|y
-P/|y
-@/|y
-0/|y
-(/|y
- /|y
-|.|y
-x.|y
-t.|y
-p.|y
-l.|y
-h.|y
-d.|y
-`.|y
-\.|y
-X.|y
-T.|y
-P.|y
-L.|y
-@.|y
-0.|y
-(.|y
-x-|y
-X-|y
-8-|y
-`,|y
-P,|y
-H,|y
-@,|y
-0,|y
-x+|y
-P+|y
-(+|y
-X*|y
-(*|y
-x)|y
 0*yy
-<*yy
 0+yy
-`+yy
-d/yy
-p/yy
- ?? 
-{flat}
-{for 
-`non-type-template-parameter
-unsigned 
-char 
-short 
-int 
-long 
-void
-<ellipsis>
-,...
-,<ellipsis>
- throw(
-`template-parameter
-NULL
-cli::pin_ptr<
-cli::array<
-void 
-`anonymous namespace'
-generic-type-
-template-parameter-
-`unknown ecsu'
-union 
-struct 
-class 
-enum 
-coclass 
-cointerface 
-extern "C" 
-[thunk]:
-public: 
-protected: 
-private: 
-virtual 
-static 
-`template static data member destructor helper'
-`template static data member constructor helper'
-`local static destructor helper'
-`adjustor{
-`vtordisp{
-`vtordispex{
-const 
-volatile 
-CV: 
-volatile
- volatile
-const
-signed 
-double
-bool
-<unknown>
-wchar_t
-UNKNOWN
-__int128
-__int32
-__int64
-__int16
-__w64 
-__int8
-char
-short
-long
-float
-std::nullptr_t
-SystemFunction036
-GetProcessWindowStation
-GetUserObjectInformationW
-GetLastActivePopup
-GetActiveWindow
-MessageBoxW
-HH:mm:ss
-dddd, MMMM dd, yyyy
-MM/dd/yy
-December
-November
-October
-September
-August
-July
-June
-April
-March
-February
-January
-Saturday
-Friday
-Thursday
-Wednesday
-Tuesday
-Monday
-Sunday
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-LC_TIME
-LC_NUMERIC
-LC_MONETARY
-LC_CTYPE
-LC_COLLATE
-LC_ALL
-$Izy
-$Izy
-h(zy
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-Illegal byte sequence
-Directory not empty
-Function not implemented
-No locks available
-Filename too long
-Resource deadlock avoided
-Result too large
-Domain error
-Broken pipe
-Too many links
-Read-only file system
-Invalid seek
-No space left on device
-File too large
-Inappropriate I/O control operation
-Too many open files
-Too many open files in system
-Invalid argument
-Is a directory
-Not a directory
-No such device
-Improper link
-File exists
-Resource device
-Unknown error
-Bad address
-Permission denied
-Not enough space
-Resource temporarily unavailable
-No child processes
-Bad file descriptor
-Exec format error
-Arg list too long
-No such device or address
-Input/output error
-Interrupted function call
-No such process
-No such file or directory
-Operation not permitted
-No error
-Microsoft Visual C++ Runtime Library
-(Press Retry to debug the application - JIT must be enabled)
-For information on how your program can cause an assertion\nfailure, see the Visual C++ documentation on asserts
-Expression: 
-Line: 
-File: 
-<program name unknown>
-Program: 
-Assertion failed!
-Visual C++ CRT: Not enough memory to complete call to strerror.
-united-states
-united-kingdom
-trinidad & tobago
-south-korea
-south-africa
-south korea
-south africa
-slovak
-puerto-rico
-pr-china
-pr china
-new-zealand
-hong-kong
-holland
-great britain
-england
-czech
-china
-britain
-america
-swiss
-swedish-finland
-spanish-venezuela
-spanish-uruguay
-spanish-puerto rico
-spanish-peru
-spanish-paraguay
-spanish-panama
-spanish-nicaragua
-spanish-modern
-spanish-mexican
-spanish-honduras
-spanish-guatemala
-spanish-el salvador
-spanish-ecuador
-spanish-dominican republic
-spanish-costa rica
-spanish-colombia
-spanish-chile
-spanish-bolivia
-spanish-argentina
-portuguese-brazilian
-norwegian-nynorsk
-norwegian-bokmal
-norwegian
-italian-swiss
-irish-english
-german-swiss
-german-luxembourg
-german-lichtenstein
-german-austrian
-french-swiss
-french-luxembourg
-french-canadian
-french-belgian
-english-usa
-english-us
-english-uk
-english-trinidad y tobago
-english-south africa
-english-nz
-english-jamaica
-english-ire
-english-caribbean
-english-can
-english-belize
-english-aus
-english-american
-dutch-belgian
-chinese-traditional
-chinese-singapore
-chinese-simplified
-chinese-hongkong
-chinese
-canadian
-belgian
-australian
-american-english
-american english
-american
-XV|y
-@V|y
-(V|y
-hU|y
-XU|y
-HU|y
-8U|y
- U|y
-xT|y
-hT|y
-PT|y
-@T|y
-0T|y
-xS|y
-`S|y
-PS|y
-@S|y
-(S|y
-xR|y
-`R|y
-PR|y
-8R|y
-(R|y
-pQ|y
-`Q|y
-\Q|y
-PQ|y
-@Q|y
-0Q|y
-(Q|y
-Norwegian-Nynorsk
-GetUserObjectInformationA
-MessageBoxA
-e+000
-1#QNAN
-1#INF
-1#IND
-1#SNAN
-sqrt
-_nextafter
-_nextafterf
-_scalb
-_scalbf
-_hypot
-%_hypotf
-?_logb
-_logbf
-&~){
-FF\n@Y
-2]fQ\t?
-?acos
-?acosf
-asin
-asinf
-+z<O
-Catan
-H>p&
-k>4\tF
-Q>.3Z<
-p>.G1
-?t_v>
-I;u>A
-*Bw>
-\n~Nu
-{&1q>
-P|> ,o
-@Ao>
-!oi 
-Cy2@K>
-c>F2
-p>Y3
-q>F,3
-fGa>
-rNm>)
-`>n>w%
-jeTb
-Wak>E
-|>fj;
-^W>;
-7yp>
-11UT
-E|@]
-}=H>
-ZSq>
-A`1w>
-y>h\n
-)/o>\t
-IW`>
-9g>@3
-z>@G'h
-_W>6
-mO-B
-\tJR>8o
-M'y>0y
->rm~
-c><m
-!B>\
-B\fu>
->vR%
-GrJoq>@
->8'3
-z>h4
-/so>
->0K>
-{]a>
-J `>,
-@8UUUUU
-yE>}-
-UUUU
-atan2
-?=+!
-?y2@
-?\vxMW
-?m.t
-?6W 
-8+V=
-W 7x
-?2}l
-?\vS^>#/
-BC1%M
-?\rz0w
-?id7
-?\n\t;ud
-?U[y[
-3+5<t
-?`B$
-#9fm
-?W(~N
-?3Fx
-?^1]
-?Ji@9
-lWi]
-atan2f
-ujGs?
-Catanf
-ceil
-ceilf
-UUUUUU
-UUUUUU
-UUUUUU
-UUUUUU
-UUUUUU
-UUUUUU
-H>r1
-[*ncd>TQ
-\>$hkDh$h>
->uZ>`
-6\fXO>
-b>*>
-i>VF
-$E>\t
-&\t$@
-8J;@
-4\tgA
-:Q>@
-GfZ+?p
-i\t?8
-AS?<
-F?@\
-?P\v&
-4\tgA
-(yaX
->+>ZQ"v
-^axb
-ZS?\
-W @G
- ]A|
-TUUU
-?N]TUUU
-V?UUUUUU
-UUUUU
-V?}>
-= {[8V
-%Ak=
-=cosh
-H>r1
-[*ncd>TQ
-\>$hkDh$h>
->uZ>`
-6\fXO>
-b>*>
-i>VF
-$E>\t
-f>c.
-&\t$@06p
-8J;@ts
-4\tgA
- B\kji2
-\veBV
-B,fK
-@vN?
-@-qS
-4\tgA
- B\kji2
-\veBV
-B,fK
-Ccoshf
-7~floor
-floorf
-fmod
-fmodf
-UUUUUU
-UUUUUU
-UUUUUU
-UUUUUU
-UUUUUU
-UUUUUU
-H>r1
-[*ncd>TQ
-\>$hkDh$h>
->uZ>`
-6\fXO>
-b>*>
-i>VF
-$E>\t
-&\t$@
-8J;@
-4\tgA
-:Q>@
-GfZ+?p
-i\t?8
-AS?<
-F?@\
-?P\v&
-4\tgA
-(yaX
->+>ZQ"v
-^axb
-ZS?\
-W @G
- ]Asinh
-H>r1
-[*ncd>TQ
-\>$hkDh$h>
->uZ>`
-6\fXO>
-b>*>
-i>VF
-$E>\t
-f>c.
-&\t$@06p
-8J;@ts
-4\tgA
- B\kji2
-\veBV
-B,fK
-@vN?
-@-qS
-4\tgA
- B\kji2
-\veBV
-B,fK
-Csinhf
-sqrtf
-?1cb
-?JV8f
-u.?Z8
-Atan
-UUUUUU
-?1cb
-{9.:
-?tanf
-H>r1
-[*ncd>TQ
-\>$hkDh$h>
->uZ>`
-6\fXO>
-b>*>
-i>VF
-$E>\t
-Z|Y(
-&?Xw
-?tanh
-yv>_
-:}+M8fff?tanhf
-expf
-frexp
-fmod
-_cabs
-ldexp
-modf
-fabs
-log10
-sinf
-cosf
-?logf
-log10f
-powf
-Y/}J
-rLp>B
-bad allocation
-pEvents
-$>sy
-|>sy
-|>sy
-D?sy
-pScheduler
-$Jsy
 0Jsy
-8Usy
- Vsy
-XVsy
-<Wsy
-$Izy
-DSsy
-pContext
-HYsy
-(Ysy
-hZsy
-`[sy
-HYsy
-(Ysy
-pThreadProxy
-$tsy
-0tsy
-Dtsy
-Ttsy
-Pmsy
-@ssy
+0L|y
+0Q|y
+0T|y
 0_sy
-`wsy
 0fsy
-pasy
- _sy
-@bsy
-xesy
-Lusy
-Lock already taken
-Lock already taken as a writer
-bad cast
-bad typeid
-SetThreadGroupAffinity
-GetThreadGroupAffinity
-FlushProcessWriteBuffers
-GetCurrentProcessorNumberEx
-GetCurrentProcessorNumber
-GetLogicalProcessorInformationEx
-version
-proc
-eventObject
-MaxPolicyElementKey
-DynamicProgressFeedback
-SchedulingProtocol
-ContextPriority
-ContextStackSize
-LocalContextCacheSize
-TargetOversubscriptionFactor
-MinConcurrency
-MaxConcurrency
-SchedulerKind
-pExecutionResource
-(&ty
-D(ty
-<*ty
-\f0ty
-`'ty
-P9ty
-ppVirtualProcessorRoots
-count
-@:ty
-T:ty
-d:ty
-\f<ty
-p=ty
-dXsy
-PFty
-dXsy
-PFty
-$tsy
 0tsy
-Dtsy
-Ttsy
-Pmsy
-@ssy
-0_sy
-`wsy
-0fsy
-pasy
- _sy
-@bsy
-xesy
-Lusy
-4]sy
-T^sy
-$Izy
-$Izy
-$Izy
-$Izy
-RegisterTraceGuidsW
-UnregisterTraceGuids
-TraceEvent
-GetTraceLoggerHandle
-GetTraceEnableLevel
-GetTraceEnableFlags
-|>sy
-(&ty
-<*ty
-P9ty
-$tsy
-0tsy
-Dtsy
-Ttsy
-@ssy
-`wsy
-0fsy
-pasy
-@bsy
-XVsy
-Lusy
-CreateUmsCompletionList
-DequeueUmsCompletionListItems
-GetUmsCompletionListEvent
-ExecuteUmsThread
-UmsThreadYield
-DeleteUmsCompletionList
-GetCurrentUmsThread
-GetNextUmsListItem
-QueryUmsThreadInformation
-SetUmsThreadInformation
-DeleteUmsThreadContext
-CreateUmsThreadContext
-EnterUmsSchedulingMode
-CreateRemoteThreadEx
-InitializeProcThreadAttributeList
-UpdateProcThreadAttribute
-DeleteProcThreadAttributeList
-$Izy
-$Izy
-Mbp?
-333333
-RSDS
-ne%P
-msvcr100.amd64.pdb
-\fp\v`
-4\n5#t%
-\fp\v`
-\np\t`
-\fp\v`
-2\vpL
-\fp\v`
-2\vpL
-\rp\f`\vP
-\rp\f`\v0
-\fp\v`\nP
-\rp\f0\vP
-p\r`\fP\v0
-2\vpL
-2\vpL
-\fp\v`
-2\vpL
-\fp\v`
-R\vpL
-2\vpL
-2\vpL
-2\vpL
-2\vpL
-2\vpL
-\np\t`
-2\vpL
-\vp\n`L
-2\vpL
-R\vpL
-p\r`\f0\vP
-R\vpL
-p\r`\f0\vP
-\vp\n`L
-2\vpL
-\fp\v`
-2\vpL
-\fp\v`
-\fp\vP
-\fp\vP
-\rp\f`\vP
-\rp\f`\vP
-p\r`\fP
-\fp\vP
-2\vpL
-\rp\f`
-\rp\f`\vP
-\np\t`
-\rp\f`\vP
-\fp\v`L
-5\f%'t
-\vp\n`L
-\rp\f`\v0\nP
-\vp\n`L
-\vp\n`L
-\vp\n`L
-\vp\n`L
-\vp\n`L
-\vp\n`L
-\vp\n`L
-\vp\n`L
-\fp\vP
-2\vpL
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+11UT
 2\n0L
 2\vpL
-R\fpL
-\fp\vP
-2\vpL
-\rp\f`\vP
-\vp\nP
-\fp\v`
-\np\t`
-r\fp\t
-\np\t`
-\np\t`
-2\vpL
-\np\t`
-\rp\f`\vP
-\fp\v`
-\np\t`
-\fp\v`
-\rp\f`\vP
-\fp\v`
-\fp\vP
-\fp\v`
-p\r`\fP\v0
-\np\t`
-\fp\v`
-\fp\v`
-\fp\v`
-\np\t`
-\rp\f`
-\np\t`
-\fp\v`
-\fp\v`
-5\r%'
-\np\t`
-1\v%#t
-\rp\f`\v0
-\fp\v`L
-EncodePointer
-DecodePointer
-RaiseException
-RtlPcToFileHeader
-GetModuleFileNameA
-GetModuleFileNameW
-GetModuleHandleW
-GetProcAddress
-ExitProcess
-WriteFile
-GetStdHandle
-GetCurrentThreadId
-FlsSetValue
-FlsGetValue
-GetCommandLineW
-GetCommandLineA
-InitializeCriticalSectionAndSpinCount
-DeleteCriticalSection
-LeaveCriticalSection
-EnterCriticalSection
-ExitThread
-CloseHandle
-GetLastError
-ResumeThread
-CreateThread
-FlsFree
-SetLastError
-GetCurrentThread
-FlsAlloc
-FindNextFileA
-FindFirstFileExA
-FindClose
-FindNextFileW
-FindFirstFileExW
-GetLogicalDrives
-GetDiskFreeSpaceA
-FileTimeToSystemTime
-FileTimeToLocalFileTime
-SetErrorMode
-Sleep
-Beep
-GetFileAttributesA
-SetFileAttributesA
-SetEnvironmentVariableA
-GetCurrentDirectoryA
-SetCurrentDirectoryA
-GetCurrentDirectoryW
-SetCurrentDirectoryW
-GetFullPathNameA
-GetDriveTypeW
-GetCurrentProcessId
-CreateDirectoryA
-MoveFileA
-RemoveDirectoryA
-GetDriveTypeA
-DeleteFileA
-GetFileAttributesW
-SetEnvironmentVariableW
-SetFileAttributesW
-GetFullPathNameW
-CreateDirectoryW
-MoveFileW
-RemoveDirectoryW
-DeleteFileW
-GetExitCodeProcess
-WaitForSingleObject
-CreateProcessA
-LoadLibraryA
-FreeLibrary
-CreateProcessW
-ReadFile
-DuplicateHandle
-GetCurrentProcess
-GetSystemTimeAsFileTime
-GetTimeZoneInformation
-GetLocalTime
-WideCharToMultiByte
-SetFileTime
-LocalFileTimeToFileTime
-SystemTimeToFileTime
-SetLocalTime
-TlsGetValue
-TlsSetValue
-InterlockedPopEntrySList
-InterlockedFlushSList
-QueryDepthSList
-InterlockedPushEntrySList
-CreateTimerQueue
-CreateTimerQueueTimer
-DeleteTimerQueueTimer
-SetEvent
-CreateEventW
-SwitchToThread
-SignalObjectAndWait
-TryEnterCriticalSection
-GetTickCount
-VirtualFree
-GetVersionExW
-SetThreadPriority
-VirtualAlloc
-GetLogicalProcessorInformation
-GetSystemInfo
-GetProcessAffinityMask
-VirtualProtect
-SetThreadAffinityMask
-InitializeSListHead
-ReleaseSemaphore
-CreateSemaphoreW
-WaitForMultipleObjects
-TlsAlloc
-TlsFree
-GetThreadPriority
-LoadLibraryW
-SleepEx
-OutputDebugStringW
-FreeLibraryAndExitThread
-GetModuleHandleA
-GetThreadTimes
-DebugBreak
-MultiByteToWideChar
-GetStringTypeW
-GetCPInfo
-GetACP
-GetOEMCP
-IsValidCodePage
-GetDateFormatA
-GetTimeFormatA
-GetDateFormatW
-GetTimeFormatW
-RtlLookupFunctionEntry
-RtlUnwindEx
-HeapAlloc
-HeapFree
-HeapSetInformation
-GetVersion
-HeapCreate
-HeapDestroy
-HeapQueryInformation
-HeapReAlloc
-HeapSize
-HeapValidate
-HeapCompact
-HeapWalk
-SetThreadStackGuarantee
-VirtualQuery
-SetHandleCount
-GetFileType
-GetStartupInfoW
-GetFileInformationByHandle
-PeekNamedPipe
-CreateFileA
-CreateFileW
-SetFilePointer
-GetConsoleCP
-GetConsoleMode
-FlushFileBuffers
-CreatePipe
-SetStdHandle
-ReadConsoleInputA
-SetConsoleMode
-PeekConsoleInputA
-GetNumberOfConsoleInputEvents
-ReadConsoleInputW
-WriteConsoleW
-ReadConsoleW
-SetEndOfFile
-GetProcessHeap
-LockFile
-UnlockFile
-UnhandledExceptionFilter
-SetUnhandledExceptionFilter
-IsDebuggerPresent
-RtlVirtualUnwind
-RtlCaptureContext
-TerminateProcess
-SetConsoleCtrlHandler
-GetLocaleInfoW
-FreeEnvironmentStringsW
-GetEnvironmentStringsW
-QueryPerformanceCounter
-LCMapStringW
-CompareStringW
-GetUserDefaultLCID
-GetLocaleInfoA
-EnumSystemLocalesA
-IsValidLocale
-KERNEL32.dll
-MSVCR100.dll
-$I10_OUTPUT
+3+5<t
+333333
+4\tgA
+4]sy
+6\fXO>
+700PP
+700WP
+7yp>
+7~floor
+8J;@ts
+8J|y
+8K|y
+8R|y
+8Usy
+8U|y
+9g>@3
+:}+M8fff?tanhf
+<Wsy
+<ellipsis>
+<program name unknown>
+<unknown>
+=cosh
+?1cb
+?3Fx
 ??0?$_SpinWait@$00@details@Concurrency@@QEAA@P6AXXZ@Z
 ??0?$_SpinWait@$0A@@details@Concurrency@@QEAA@P6AXXZ@Z
 ??0SchedulerPolicy@Concurrency@@QEAA@AEBV01@@Z
@@ -1536,7 +318,10 @@ $I10_OUTPUT
 ?Id@Context@Concurrency@@SAIXZ
 ?Id@CurrentScheduler@Concurrency@@SAIXZ
 ?IsCurrentTaskCollectionCanceling@Context@Concurrency@@SA_NXZ
+?JV8f
+?Ji@9
 ?Log2@details@Concurrency@@YAK_K@Z
+?N]TUUU
 ?Oversubscribe@Context@Concurrency@@SAX_N@Z
 ?RegisterShutdownEvent@CurrentScheduler@Concurrency@@SAXPEAX@Z
 ?ResetDefaultSchedulerPolicy@Scheduler@Concurrency@@SAXXZ
@@ -1547,6 +332,8 @@ $I10_OUTPUT
 ?SetPolicyValue@SchedulerPolicy@Concurrency@@QEAAIW4PolicyElementKey@2@I@Z
 ?VirtualProcessorId@Context@Concurrency@@SAIXZ
 ?Yield@Context@Concurrency@@SAXXZ
+?\rz0w
+?\vxMW
 ?_Abort@_StructuredTaskCollection@details@Concurrency@@AEAAXXZ
 ?_Acquire@_NonReentrantBlockingLock@details@Concurrency@@QEAAXXZ
 ?_Acquire@_NonReentrantPPLLock@details@Concurrency@@QEAAXPEAX@Z
@@ -1614,10 +401,10 @@ $I10_OUTPUT
 ?__ExceptionPtrCurrentException@@YAXPEAX@Z
 ?__ExceptionPtrDestroy@@YAXPEAX@Z
 ?__ExceptionPtrRethrow@@YAXPEBX@Z
-__uncaught_exception
 ?_inconsistency@@YAXXZ
 ?_invalid_parameter@@YAXPEBG00I_K@Z
 ?_is_exception_typeof@@YAHAEBVtype_info@@PEAU_EXCEPTION_POINTERS@@@Z
+?_logb
 ?_name_internal_method@type_info@@QEBAPEBDPEAU__type_info_node@@@Z
 ?_open@@YAHPEBDHH@Z
 ?_query_new_handler@@YAP6AH_K@ZXZ
@@ -1631,11 +418,15 @@ __uncaught_exception
 ?_type_info_dtor_internal_method@type_info@@QEAAXXZ
 ?_wopen@@YAHPEB_WHH@Z
 ?_wsopen@@YAHPEB_WHHH@Z
+?acos
+?acosf
 ?before@type_info@@QEBAHAEBV1@@Z
 ?get_error_code@scheduler_resource_allocation_error@Concurrency@@QEBAJXZ
+?id7
 ?lock@critical_section@Concurrency@@QEAAXXZ
 ?lock@reader_writer_lock@Concurrency@@QEAAXXZ
 ?lock_read@reader_writer_lock@Concurrency@@QEAAXXZ
+?logf
 ?name@type_info@@QEBAPEBDPEAU__type_info_node@@@Z
 ?native_handle@critical_section@Concurrency@@QEAAAEAV12@XZ
 ?raw_name@type_info@@QEBAPEBDXZ
@@ -1646,6 +437,8 @@ __uncaught_exception
 ?set_terminate@@YAP6AXXZP6AXXZ@Z
 ?set_unexpected@@YAP6AXXZH@Z
 ?set_unexpected@@YAP6AXXZP6AXXZ@Z
+?tanf
+?tanh
 ?terminate@@YAXXZ
 ?try_lock@critical_section@Concurrency@@QEAA_NXZ
 ?try_lock@reader_writer_lock@Concurrency@@QEAA_NXZ
@@ -1657,6 +450,420 @@ __uncaught_exception
 ?wait@event@Concurrency@@QEAA_KI@Z
 ?wait_for_multiple@event@Concurrency@@SA_KPEAPEAV12@_K_NI@Z
 ?what@exception@std@@UEBAPEBDXZ
+@8UUUUU
+@bsy
+@hcjz
+@ssy
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+A`1w>
+Access violation - no RTTI data!
+April
+Arg list too long
+Assertion failed!
+Assertion failed: %s, file %s, line %d\n
+Atan
+Attempted a typeid of NULL pointer!
+August
+B,fK
+BC1%M
+Bad address
+Bad dynamic_cast!
+Bad file descriptor
+Bad read pointer - no RTTI data!
+Beep
+Broken pipe
+COMSPEC
+Catan
+Catanf
+Ccoshf
+CloseHandle
+CompareStringW
+ContextPriority
+ContextStackSize
+CorExitProcess
+CreateDirectoryA
+CreateDirectoryW
+CreateEventW
+CreateFileA
+CreateFileW
+CreatePipe
+CreateProcessA
+CreateProcessW
+CreateRemoteThreadEx
+CreateSemaphoreW
+CreateThread
+CreateTimerQueue
+CreateTimerQueueTimer
+CreateUmsCompletionList
+CreateUmsThreadContext
+Csinhf
+Cy2@K>
+D(ty
+D?sy
+DSsy
+DebugBreak
+December
+DecodePointer
+DeleteCriticalSection
+DeleteFileA
+DeleteFileW
+DeleteProcThreadAttributeList
+DeleteTimerQueueTimer
+DeleteUmsCompletionList
+DeleteUmsThreadContext
+DequeueUmsCompletionListItems
+Directory not empty
+Domain error
+Dtsy
+DuplicateHandle
+DynamicProgressFeedback
+Dyvy
+EncodePointer
+EnterCriticalSection
+EnterUmsSchedulingMode
+EnumSystemLocalesA
+Exec format error
+ExecuteUmsThread
+ExitProcess
+ExitThread
+Expression: 
+FF\n@Y
+February
+File exists
+File too large
+File: 
+FileTimeToLocalFileTime
+FileTimeToSystemTime
+Filename too long
+FindClose
+FindFirstFileExA
+FindFirstFileExW
+FindNextFileA
+FindNextFileW
+FlR!<B
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+For information on how your program can cause an assertion\nfailure, see the Visual C++ documentation on asserts
+FreeEnvironmentStringsW
+FreeLibrary
+FreeLibraryAndExitThread
+Friday
+Function not implemented
+GetACP
+GetActiveWindow
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+GetConsoleCP
+GetConsoleMode
+GetCurrentDirectoryA
+GetCurrentDirectoryW
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentProcessorNumberEx
+GetCurrentThread
+GetCurrentThreadId
+GetCurrentUmsThread
+GetDateFormatA
+GetDateFormatW
+GetDiskFreeSpaceA
+GetDriveTypeA
+GetDriveTypeW
+GetEnvironmentStringsW
+GetExitCodeProcess
+GetFileAttributesA
+GetFileAttributesW
+GetFileInformationByHandle
+GetFileType
+GetFullPathNameA
+GetFullPathNameW
+GetLastActivePopup
+GetLastError
+GetLocalTime
+GetLocaleInfoA
+GetLocaleInfoW
+GetLogicalDrives
+GetLogicalProcessorInformation
+GetLogicalProcessorInformationEx
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleW
+GetNextUmsListItem
+GetNumberOfConsoleInputEvents
+GetOEMCP
+GetProcAddress
+GetProcessAffinityMask
+GetProcessHeap
+GetProcessWindowStation
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemInfo
+GetSystemTimeAsFileTime
+GetThreadGroupAffinity
+GetThreadPriority
+GetThreadTimes
+GetTickCount
+GetTimeFormatA
+GetTimeFormatW
+GetTimeZoneInformation
+GetTraceEnableFlags
+GetTraceEnableLevel
+GetTraceLoggerHandle
+GetUmsCompletionListEvent
+GetUserDefaultLCID
+GetUserObjectInformationA
+GetUserObjectInformationW
+GetVersion
+GetVersionExW
+GfZ+?p
+GrJoq>@
+H>r1
+HH:mm:ss
+HK|y
+HL|y
+HMXB
+HU|y
+HYsy
+HeapAlloc
+HeapCompact
+HeapCreate
+HeapDestroy
+HeapFree
+HeapQueryInformation
+HeapReAlloc
+HeapSetInformation
+HeapSize
+HeapValidate
+HeapWalk
+I:!A9
+I;u>A
+Illegal byte sequence
+Improper link
+Inappropriate I/O control operation
+InitializeCriticalSectionAndSpinCount
+InitializeProcThreadAttributeList
+InitializeSListHead
+Input/output error
+InterlockedFlushSList
+InterlockedPopEntrySList
+InterlockedPushEntrySList
+Interrupted function call
+Invalid argument
+Invalid seek
+Ip'n/P%
+Ip/n/P+
+Is a directory
+IsDebuggerPresent
+IsValidCodePage
+IsValidLocale
+JIE]0\
+JanFebMarAprMayJunJulAugSepOctNovDec
+January
+July
+June
+KERNEL32.dll
+Kp'n7P%
+Kp/n7P+
+LCMapStringW
+LC_ALL
+LC_COLLATE
+LC_CTYPE
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+LeaveCriticalSection
+Line: 
+LoadLibraryA
+LoadLibraryW
+LocalContextCacheSize
+LocalFileTimeToFileTime
+Lock already taken
+Lock already taken as a writer
+LockFile
+Lusy
+M'y>0y
+MM/dd/yy
+MSVCR100.dll
+March
+MaxConcurrency
+MaxPolicyElementKey
+Mbp?
+MessageBoxA
+MessageBoxW
+Microsoft Visual C++ Runtime Library
+MinConcurrency
+Monday
+MoveFileA
+MoveFileW
+Mp'n_
+Mp/n_
+MultiByteToWideChar
+NKeb
+NULL
+No child processes
+No error
+No locks available
+No space left on device
+No such device
+No such device or address
+No such file or directory
+No such process
+Norwegian-Nynorsk
+Not a directory
+Not enough space
+November
+October
+Op'n5P%
+Op/n5P+
+Operation not permitted
+OutputDebugStringW
+P9ty
+PATH
+PD|y
+PFty
+PJ|y
+PQ|y
+PR|y
+PS|y
+PT|y
+PeekConsoleInputA
+PeekNamedPipe
+Permission denied
+Pmsy
+Program: 
+QueryDepthSList
+QueryPerformanceCounter
+QueryUmsThreadInformation
+RSDS
+R\fpL
+R\vpL
+RaiseException
+Read-only file system
+ReadConsoleInputA
+ReadConsoleInputW
+ReadConsoleW
+ReadFile
+RegisterTraceGuidsW
+ReleaseSemaphore
+RemoveDirectoryA
+RemoveDirectoryW
+Resource deadlock avoided
+Resource device
+Resource temporarily unavailable
+Result too large
+ResumeThread
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlPcToFileHeader
+RtlUnwindEx
+RtlVirtualUnwind
+S;uD
+Saturday
+SchedulerKind
+SchedulingProtocol
+September
+SetConsoleCtrlHandler
+SetConsoleMode
+SetCurrentDirectoryA
+SetCurrentDirectoryW
+SetEndOfFile
+SetEnvironmentVariableA
+SetEnvironmentVariableW
+SetErrorMode
+SetEvent
+SetFileAttributesA
+SetFileAttributesW
+SetFilePointer
+SetFileTime
+SetHandleCount
+SetLastError
+SetLocalTime
+SetStdHandle
+SetThreadAffinityMask
+SetThreadGroupAffinity
+SetThreadPriority
+SetThreadStackGuarantee
+SetUmsThreadInformation
+SetUnhandledExceptionFilter
+SignalObjectAndWait
+Sleep
+SleepEx
+Sp'n
+Sp/n
+SunMonTueWedThuFriSat
+Sunday
+SwitchToThread
+SystemFunction036
+SystemRoot
+SystemTimeToFileTime
+T:ty
+TUUU
+T^sy
+TargetOversubscriptionFactor
+TerminateProcess
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Too many links
+Too many open files
+Too many open files in system
+TraceEvent
+TryEnterCriticalSection
+Ttsy
+Tuesday
+UNICODE
+UNKNOWN
+UTF-16LE
+UTF-8
+UUUU
+UUUUU
+UUUUUU
+UmsThreadYield
+UnhandledExceptionFilter
+Unknown error
+Unknown exception
+UnlockFile
+UnregisterTraceGuids
+Up'n1P%
+Up/n1P+
+UpdateProcThreadAttribute
+V?UUUUUU
+VirtualAlloc
+VirtualFree
+VirtualProtect
+VirtualQuery
+Visual C++ CRT: Not enough memory to complete call to strerror.
+W 7x
+WaitForMultipleObjects
+WaitForSingleObject
+Wak>E
+Wednesday
+WideCharToMultiByte
+Wpgn
+Wpon
+WriteConsoleW
+WriteFile
+XI|y
+XK|y
+XU|y
+XVsy
+XV|y
+ZSq>
+[*ncd>TQ
+[thunk]:
+\f0ty
+\tJR>8o
+\veBV
+^axb
 _CRT_RTC_INIT
 _CRT_RTC_INITW
 _CreateFrameInfo
@@ -1710,7 +917,10 @@ ___unguarded_readlc_active_add_func
 __argc
 __argv
 __badioinfo
+__based(
+__cdecl
 __clean_type_info_names_internal
+__clrcall
 __create_locale
 __crtCompareStringA
 __crtCompareStringW
@@ -1721,6 +931,8 @@ __daylight
 __dllonexit
 __doserrno
 __dstbias
+__eabi
+__fastcall
 __fls_getvalue
 __fls_setvalue
 __fpecode
@@ -1730,6 +942,11 @@ __get_flsindex
 __get_tlsindex
 __getmainargs
 __initenv
+__int128
+__int16
+__int32
+__int64
+__int8
 __iob_func
 __isascii
 __iscsym
@@ -1739,8 +956,6 @@ __iswcsymf
 __lconv
 __lconv_init
 __mb_cur_max
-__p___argc
-__p___argv
 __p___initenv
 __p___mb_cur_max
 __p___wargv
@@ -1751,7 +966,6 @@ __p__daylight
 __p__dstbias
 __p__environ
 __p__fmode
-__p__iob
 __p__mbcasemap
 __p__mbctype
 __p__pctype
@@ -1762,19 +976,24 @@ __p__tzname
 __p__wcmdln
 __p__wenviron
 __p__wpgmptr
+__pascal
 __pctype_func
 __pioinfo
+__ptr64
 __pwctype_func
 __pxcptinfoptrs
 __report_gsfailure
+__restrict
 __set_app_type
 __set_flsgetvalue
 __setlc_active
 __setusermatherr
+__stdcall
 __strncnt
 __swprintf_l
 __sys_errlist
 __sys_nerr
+__thiscall
 __threadhandle
 __threadid
 __timezone
@@ -1783,6 +1002,8 @@ __tzname
 __unDName
 __unDNameEx
 __unDNameHelper
+__unaligned
+__uncaught_exception
 __unguarded_readlc_active
 __vswprintf_l
 __wargv
@@ -2705,9 +1926,62 @@ _wtol_l
 _wunlink
 _wutime32
 _wutime64
+`RTTI
+`adjustor{
+`anonymous namespace'
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h`hhh
+`local static destructor helper'
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`non-type-template-parameter
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`template static data member constructor helper'
+`template static data member destructor helper'
+`template-parameter
+`typeof'
+`udt returning'
+`unknown ecsu'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+`vtordispex{
+`vtordisp{
+`wsy
+abcdefghijklmnopqrstuvwxyz
 abort
 acos
 acosf
+am/pm
+america
+american
+american english
+american-english
 asctime
 asctime_s
 asin
@@ -2720,20 +1994,73 @@ atexit
 atof
 atoi
 atol
+australian
+bad allocation
+bad cast
+bad exception
+bad typeid
+belgian
+bool
+britain
 bsearch
 bsearch_s
 btowc
+c>F2
 calloc
+canadian
 ceil
 ceilf
+char
+char 
+china
+chinese
+chinese-hongkong
+chinese-simplified
+chinese-singapore
+chinese-traditional
+class 
 clearerr
 clearerr_s
+cli::array<
+cli::pin_ptr<
 clock
+cmd.exe
+coclass 
+cointerface 
+const
+const 
 cosf
 cosh
 coshf
+count
+czech
+d/yy
+d:ty
+dXsy
+dddd, MMMM dd, yyyy
+double
+dutch-belgian
+e+000
+england
+english-american
+english-aus
+english-belize
+english-can
+english-caribbean
+english-ire
+english-jamaica
+english-nz
+english-south africa
+english-trinidad y tobago
+english-uk
+english-us
+english-usa
+enum 
+eventObject
 exit
 expf
+extern "C" 
+fGa>
 fabs
 fclose
 feof
@@ -2744,6 +2071,7 @@ fgetpos
 fgets
 fgetwc
 fgetws
+float
 floor
 floorf
 fmod
@@ -2759,6 +2087,10 @@ fputws
 fread
 fread_s
 free
+french-belgian
+french-canadian
+french-luxembourg
+french-swiss
 freopen
 freopen_s
 frexp
@@ -2772,6 +2104,11 @@ fwprintf_s
 fwrite
 fwscanf
 fwscanf_s
+generic-type-
+german-austrian
+german-lichtenstein
+german-luxembourg
+german-swiss
 getc
 getchar
 getenv
@@ -2780,6 +2117,22 @@ gets
 gets_s
 getwc
 getwchar
+great britain
+h(zy
+hL|y
+hT|y
+hU|y
+hZsy
+holland
+hong-kong
+hp'n
+hp/n
+hv|y
+i>VF
+int 
+ip'nEP%
+ip/nEP+
+irish-english
 is_wctype
 isalnum
 isalpha
@@ -2806,6 +2159,14 @@ iswspace
 iswupper
 iswxdigit
 isxdigit
+italian-swiss
+jeTb
+jp'n
+jp/n
+k>4\tF
+kNB'
+kU'9
+lWi]
 labs
 ldexp
 ldiv
@@ -2815,7 +2176,10 @@ localeconv
 log10
 log10f
 logf
+long
+long 
 longjmp
+mO-B
 malloc
 mblen
 mbrlen
@@ -2834,17 +2198,50 @@ memmove_s
 memset
 modf
 modff
+mpgn
+mpon
+msvcr100.amd64.pdb
+ne%P
+new-zealand
+norwegian
+norwegian-bokmal
+norwegian-nynorsk
+operator
+p/yy
+p=ty
+p>.G1
+p>Y3
+pContext
+pEvents
+pExecutionResource
+pK|y
+pQ|y
+pScheduler
+pThreadProxy
+pasy
 perror
+portuguese-brazilian
 powf
+ppVirtualProcessorRoots
+pr china
+pr-china
 printf
 printf_s
+private: 
+proc
+protected: 
+public: 
+puerto-rico
 putc
 putchar
 puts
 putwc
 putwchar
+q>F,3
 qsort
 qsort_s
+rLp>B
+rNm>)
 raise
 rand
 rand_s
@@ -2858,10 +2255,37 @@ setbuf
 setjmp
 setlocale
 setvbuf
+short
+short 
 signal
+signed 
 sinf
 sinh
 sinhf
+slovak
+south africa
+south korea
+south-africa
+south-korea
+spanish-argentina
+spanish-bolivia
+spanish-chile
+spanish-colombia
+spanish-costa rica
+spanish-dominican republic
+spanish-ecuador
+spanish-el salvador
+spanish-guatemala
+spanish-honduras
+spanish-mexican
+spanish-modern
+spanish-nicaragua
+spanish-panama
+spanish-paraguay
+spanish-peru
+spanish-puerto rico
+spanish-uruguay
+spanish-venezuela
 sprintf
 sprintf_s
 sqrt
@@ -2869,6 +2293,8 @@ sqrtf
 srand
 sscanf
 sscanf_s
+static 
+std::nullptr_t
 strcat
 strcat_s
 strchr
@@ -2896,7 +2322,10 @@ strtok
 strtok_s
 strtol
 strtoul
+struct 
 strxfrm
+swedish-finland
+swiss
 swprintf_s
 swscanf
 swscanf_s
@@ -2904,6 +2333,7 @@ system
 tanf
 tanh
 tanhf
+template-parameter-
 tmpfile
 tmpfile_s
 tmpnam
@@ -2912,12 +2342,27 @@ tolower
 toupper
 towlower
 towupper
+tr1::bad_weak_ptr
+trinidad & tobago
+u.?Z8
+ub8c@
+ujGs?
 ungetc
 ungetwc
+union 
+united-kingdom
+united-states
+unsigned 
+version
 vfprintf
 vfprintf_s
 vfwprintf
 vfwprintf_s
+virtual 
+void
+void 
+volatile
+volatile 
 vprintf
 vprintf_s
 vsprintf
@@ -2925,6 +2370,7 @@ vsprintf_s
 vswprintf_s
 vwprintf
 vwprintf_s
+wchar_t
 wcrtomb
 wcrtomb_s
 wcscat
@@ -2966,3 +2412,17 @@ wprintf
 wprintf_s
 wscanf
 wscanf_s
+xI|y
+xL|y
+xR|y
+xS|y
+xT|y
+xesy
+xppwpp
+xpxxxx
+z>h4
+z?aUY
+zc%C1
+{DA5
+{flat}
+{for 

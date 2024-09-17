@@ -1,1152 +1,853 @@
-\t^\v>
-\t4\fl
-V\nJ\r>
-"='c
-i%*+ 
-"()}/
-N&E-<4
-y""*
-1t9,
-8HBzL
-A'z2
-H Te
-S%A40C
-*-;?LQ]cnu
-EmYLm,
-L_b;x
-<'T4l?
-\t\t\t\t\f
-\t\t\t\t\f
-\n\n\n\n\r
-\n\n\n\n\r
-\v\v\v\v
-\v\v\v\v
-\f\f\f\f
-\f\f\f\f
-\r\r\r\r
-\r\r\r\r
- "$&
- "$&
-!#%'
-!#%'
-"$&(
-"$&(    #%')    #%')!!!!$&(*!!!!$&(*""""%')+""""%')+####&(*,####&(*,$$$$')+-$$$$')+-%%%%(*,.%%%%(*,.&&&&)+-/&&&&)+-/''''*,.0''''*,.0((((+-/1((((+-/1)))),.02)))),.02****-/13****-/13++++.024++++.024,,,,/135,,,,/135----0246----0246....1357....1357////2468////246800003579000035791111468:1111468:2222579;2222579;333368:<333368:<444479;=444479;=55558:<>55558:<>66669;=?66669;=?7777:<>@7777:<>@8888;=?A8888;=?A9999<>@B9999<>@B::::=?AC::::=?AC;;;;>@BD;;;;>@BD<<<<?ACE<<<<?ACE====@BDF====@BDF>>>>ACEG>>>>ACEG????BDFH????BDFH@@@@CEGI@@@@CEGIAAAADFHJAAAADFHJBBBBEGIKBBBBEGIKCCCCFHJLCCCCFHJLDDDDGIKMDDDDGIKMEEEEHJLNEEEEHJLNFFFFIKMOFFFFIKMOGGGGJLNPGGGGJLNPHHHHKMOQHHHHKMOQIIIILNPRIIIILNPRJJJJMOQSJJJJMOQSKKKKNPRTKKKKNPRTLLLLOQSULLLLOQSUMMMMPRTVMMMMPRTVNNNNQSUWNNNNQSUWOOOORTVXOOOORTVXPPPPSUWXPPPPSUWXQQQQTVXXQQQQTVXXRRRRUWXXRRRRUWXXSSSSVXXXSSSSVXXXTTTTWXXXTTTTWXXXUUUUXXXXUUUUXXXXVVVVXXXXVVVVXXXXWWWWXXXXWWWWXXXX
                           
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
                                 
-?X94<
-)>X94<
-?X94<
-S#?\n
-F?X94<
-1@B`e>X94<
-=X94<
-?X94<
-?X94<
- @X94<
-\f@Tl
-acos
-?pow
-fmod
-kU'9
-HMXB
-?q=\n
-?Zd;
-?/L[
-S;uD
-z?aUY
-D?$?
-U>c{
-zc%C1
-.:3q
--64OS
-NKeb
-(null)
-( 8PX
-700WP
-`h````
-xpxxxx
-UTF-8
-UTF-16LE
-UNICODE
-SunMonTueWedThuFriSat
-JanFebMarAprMayJunJulAugSepOctNovDec
-EncodePointer
-DecodePointer
-FlsFree
-FlsSetValue
-FlsGetValue
-FlsAlloc
-CorExitProcess
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-('8PW
-700PP
-`h`hhh
-xppwpp
-runtime error 
-TLOSS error\r\n
-SING error\r\n
-DOMAIN error\r\n
-R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
-R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
-R6032\r\n- not enough space for locale information\r\n
-R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
-R6030\r\n- CRT not initialized\r\n
-R6028\r\n- unable to initialize heap\r\n
-R6027\r\n- not enough space for lowio initialization\r\n
-R6026\r\n- not enough space for stdio initialization\r\n
-R6025\r\n- pure virtual function call\r\n
-R6024\r\n- not enough space for _onexit/atexit table\r\n
-R6019\r\n- unable to open console device\r\n
-R6018\r\n- unexpected heap error\r\n
-R6017\r\n- unexpected multithread lock error\r\n
-R6016\r\n- not enough space for thread data\r\n
-\r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
-R6009\r\n- not enough space for environment\r\n
-R6008\r\n- not enough space for arguments\r\n
-R6002\r\n- floating point support not loaded\r\n
-Microsoft Visual C++ Runtime Library
-<program name unknown>
-Runtime Error!\n\nProgram: 
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-HH:mm:ss
-dddd, MMMM dd, yyyy
-MM/dd/yy
-December
-November
-October
-September
-August
-July
-June
-April
-March
-February
-January
-Saturday
-Friday
-Thursday
-Wednesday
-Tuesday
-Monday
-Sunday
-GetProcessWindowStation
-GetUserObjectInformationA
-GetLastActivePopup
-GetActiveWindow
-MessageBoxA
-USER32.DLL
-CONOUT$
-;%d;
-;%s;
-%s;%s;%s;%s;%s;%s;%s;%s;
-%04x;
-%c;%s;%d;
-%f;%f;%f;%f;%f;%f;
-;%s;%s;%f;%s;%x;%x;%x;
-%s;%s;%s;%s;%d;%d;%d;%02x;%d;
-%s;%f;%f;%d;%d;%f;%f;%f;
-Insufficient Buffer Space
-Invalid event version - required version is: 4
-ssfsd1d1d1
-sssssc1d1fd1
-sssd1
-ssssd4d4d4c4d4
-sffd4d4fff
-ssssssssd4d1d1uuc1c1sfffffd1d1
-C:\devel\projects\mss\src\shared\stringbuilder.h
-\t\n%&(
-`EdFIhJ
-=yX(=
-A8r.-
- 9^;O
-]r2<
-yE>H
-MbP?{
-vH7B
-W4vC
-9Y>)F$
-raB3G
-C:\devel\projects\mss\src\sdk\shared\mileseventexec.cpp
-_AuxBusDAC0
-_MainBusDAC
-_AuxBusDb0
-_MainBusDb
-_Bus
-%00d
-FailedEvict
-Silence
-Event System Count: %d\n
-System #%d\n
-Sound Source Count: %d\n
-Sound Instance Count: %d\n
-Persistent Preset Count: %d\n
-Source Dump:\n
-\t%s: refcount: %d\n
-Current Instances:\n
-playing
-pending
-complete
-\t%s, labeled (%s) - status %s\n
-Current Persists:\n
-\t%s - %s\n
-Loaded Bank Count: %d\n
-Bank Dump:\n
-\t%s\n
-Input file types
-.wav
-Couldn't find provider for this file type -- check your AIL_set_redist_directory() call.
-C:\devel\projects\mss\src\sdk\shared\mileseventsupport.cpp
-SampleStart
-SampleEnd
-MilesEvent: Out Of Memory (AIL_mem_alloc_lock failed).
-MilesEvent: Bad string passed to SetLimits.
-MilesEvent: The command buffer was full.
-MilesEvent: Missing Variable.
-MilesEvent: Out of event system memory (pool passed to event system startup exhausted).
-MilesEvent: An asset requested by an event was not found in memory.
-MilesEvent: An asynchronous load returned failure (file doesn't exist?).
-MilesEvent: Too many sounds were start in a blended sound.
-MilesEvent: The requested blend has not been set as it doesn't exist.
-MilesEvent: The enqueue buffer is full.
-MilesEvent: The event expected a selection that did not exist.
-Can't audition without a sound bank name.
-C:\devel\projects\mss\src\sdk\shared\hlbank.cpp
-Failed to open sound bank.
-Sound file isn't a bank.
-Bank file version doesn't match this runtime.
-Bank file name doesn't match the loaded file.
-Event Not Found.
-Environment Not Found.
-Preset Not Found.
-Network Bank
-Sound Preset Error - Filter Not Found.
-Compressor Filter
-Input
-C:\devel\projects\mss\src\sdk\shared\wavefile.cpp
-Channel buffer allocation failed.
-WAVE
-Not a WAV file.
-fmt 
-data
-Not a WAVEFORMATPCMEX file.
-Not KSDATAFORMAT_SUBTYPE_PCM.
-Unsupported multichannel format.
-fact
-.raw
-Output file types
-Input wave tag
-ASI codec
-Unsupported wave file format.
-Creative
-.binka
-Bink Audio provider not found.
-Bink Audio provider failed to initialize.
-OggS
-.ogg
-Speex
-.spx
-Unknown file type.
-Invalid or missing data block.
-.mp3
-.WAV
-.VOC
-ASI provider for this file type failed to initialize
-MIXER_merge
-MSS mixer services
-ASI_stream_property
-ASI_stream_open
-ASI_stream_seek
-ASI_stream_close
-ASI_stream_process
-Input bit rate
-Input sample rate
-Input sample width
-Input channels
-Output bit rate
-Output sample rate
-Output sample width
-Output channels
-Output reservoir
-Position
-Percent done
-Minimum input block size
-Raw source sample rate
-Raw source sample width
-Raw source channels
-Requested sample rate
-Requested sample width
-Requested channels
-Output channel mask
-Stream seek position
-Data offset
-Data length
-Exact seek
-Exact get position
-Seek table lookup
-Set Looping Samples
-Clear Loop Meta
-ASI stream
-Profile index
-MIXER_flush
-MIXER_copy
-MIXER_mc_copy
-MIXER_adpcm_decode
-Both indices must refer to installed busses.
-Compressor Filter Not Found
-Out of available busses.
-Out of memory for bus buffer.
-Out of sample handles.
-Hardware voice assignment failed.
-Invalid sample interval specified.
-Sample's ASI Decoder doesn't support looping at sample accuracy.
-Minimum sample buffer size
-Miles mixing
-ADCPM decompression
-Input deinterlace
-Reverb mix
-Format conversion
-Low-pass
-DSP filters
-Copy to final output
-Start of buffer callbacks
-End of buffer callbacks
-End of sample callbacks
-Waiting on SPU
-Other decompression
-Bink Audio decompression
-MP3 decompression
-Ogg decompression
-Miles/ADPCM (samples)
-Miles/Input deinterlace (samples)
-Miles/Mix (samples)
-Miles/Reverb mix (samples)
-Miles/Format conversion (samples)
-Miles/Low-pass (samples)
-Miles/DSP (samples)
-Miles/Other codec (samples)
-Miles/Bink Audio (samples)
-Miles/MP3 (samples)
-Miles/Ogg (samples)
-Miles mutex block
-C:\devel\projects\mss\src\sdk\shared\genericmss.cpp
-Miles mutex
-Miles API mutex
-Miles Mixer
-*.mix
-*.asi
-*.flt
-MIXER_startup
-ASI_startup
-MSS pipeline filter
-FLT_startup
-Miles Timer
-Timer waiting
-Miles background processing
-FLT_shutdown
-ASI_shutdown
-MIXER_shutdown
-MSSTimer
-Mismatched Miles/Telemetry versions.
-Miles Error
-The MSS DLL file is installed in the Windows or Windows system directory - it must be installed in the application directory.
-C:\devel\projects\mss\src\sdk\shared\rib.cpp
-_RIB_Main@20
-PROVIDER_property
-Attempt to load obsolete (pre-V1.30) RIB
-One or more requested entries not found
-One or more entries not found
-0x%X
-%3.1f
-%3.1f%%
-True
-False
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (Read only)
-Flags
-C:\devel\projects\mss\src\sdk\shared\flt.cpp
-Out of memory
-FLT_error
-FLT_open_driver
-FLT_close_driver
-FLT_premix_process
-FLT_postmix_process
-Sample_state_size
-Driver_state_size
-FLTSMP_open_sample
-FLTSMP_close_sample
-FLTSMP_sample_process
-FLTSMP_sample_property
-VFLT_startup
-VFLT_error
-VFLT_shutdown
-VFLT_open_driver
-VFLT_close_driver
-VFLT_assign_sample_voice
-VFLT_release_sample_voice
-VFLT_start_sample_voice
-VDRV_driver_property
-VDRV_force_update
-VSMP_sample_property
-Pipeline filter sample services
-MSS voice filter
-Voice filter already associated with driver
-Voice filter driver services
-Voice filter sample services
-Not a filter provider
-Matrix filter already associated with driver
-Error loading filter
-C:\devel\projects\mss\src\sdk\shared\miscutil.cpp
-Out of memory.
-ASI_error
-Requested bit rate
-No codec found for requested input type.
-Decompression cancelled.
-Unsupported .WAV format
-cue 
-smpl
-No marker or loop information in file.
-Data is not IMA compressed.
-LoopStart
-LoopEnd
-Marker not found
-(Marker name not found)
-LIST
-adtl
-labl
-No list chunk found
-Cue point not found
-FORM
-CAT 
-XDIR
-XDLS
-MThd
-.v12
-.v24
-.v29
-.SPEEX8
-.SPEEX16
-.SPEEX32
-C:\devel\projects\mss\src\sdk\shared\mssstrm.cpp
-Unable to open file.
-Unable to obtain a sample handle.
-Error getting sound format.
-Minimum input stream size
-Out of timer handles.
-Miles/Streams/Stream %d %%
-[%.02d:%.02d:%.02d.%.03d] 
-!-Result = %f
 !-Result = %d
+!-Result = %f
+!-Result = %ld
 !-Result = %llu
 !-Result = %s
 !-Result = 0x%X
-!-Result = %ld
 !-Result = 0x%lX
+!Miles detected memory error - Double freed memory...?(%X)
+!Miles memory allocation failed! (requested %d bytes)
+"$&(    #%')    #%')!!!!$&(*!!!!$&(*""""%')+""""%')+####&(*,####&(*,$$$$')+-$$$$')+-%%%%(*,.%%%%(*,.&&&&)+-/&&&&)+-/''''*,.0''''*,.0((((+-/1((((+-/1)))),.02)))),.02****-/13****-/13++++.024++++.024,,,,/135,,,,/135----0246----0246....1357....1357////2468////246800003579000035791111468:1111468:2222579;2222579;333368:<333368:<444479;=444479;=55558:<>55558:<>66669;=?66669;=?7777:<>@7777:<>@8888;=?A8888;=?A9999<>@B9999<>@B::::=?AC::::=?AC;;;;>@BD;;;;>@BD<<<<?ACE<<<<?ACE====@BDF====@BDF>>>>ACEG>>>>ACEG????BDFH????BDFH@@@@CEGI@@@@CEGIAAAADFHJAAAADFHJBBBBEGIKBBBBEGIKCCCCFHJLCCCCFHJLDDDDGIKMDDDDGIKMEEEEHJLNEEEEHJLNFFFFIKMOFFFFIKMOGGGGJLNPGGGGJLNPHHHHKMOQHHHHKMOQIIIILNPRIIIILNPRJJJJMOQSJJJJMOQSKKKKNPRTKKKKNPRTLLLLOQSULLLLOQSUMMMMPRTVMMMMPRTVNNNNQSUWNNNNQSUWOOOORTVXOOOORTVXPPPPSUWXPPPPSUWXQQQQTVXXQQQQTVXXRRRRUWXXRRRRUWXXSSSSVXXXSSSSVXXXTTTTWXXXTTTTWXXXUUUUXXXXUUUUXXXXVVVVXXXXVVVVXXXXWWWWXXXXWWWWXXXX
+#D5p
+%00d
+%04x;
+%3.1f
+%f;%f;%f;%f;%f;%f;
+%s;%f;%f;%d;%d;%f;%f;%f;
+%s;%s;%s;%s;%d;%d;%d;%02x;%d;
+%s;%s;%s;%s;%s;%s;%s;%s;
+( 8PX
+('8PW
+(Marker name not found)
+(null)
+*.asi
+*.flt
+*.mix
 -------------------------------------------------------------------------------
-Miles Sound System usage script generated by MSS V9.3k
-Start time: %s
-@AIL_startup()
-@AIL_shutdown()
-@AIL_mem_alloc_lock(%ld) from: %s, line: %d 
-Miles alloc: %t
-@AIL_mem_free_lock(0x%lX)
-C:\devel\projects\mss\src\sdk\shared\mssdbg.c
-@AIL_set_preference(%ld,%ld)
-@AIL_last_error()
-@AIL_set_error(NULL)
-@AIL_set_error(%s)
-@AIL_sleep(%ld)
-@AIL_register_timer(0x%lX)
-@AIL_set_timer_user(%ld,%ld)
-@AIL_set_timer_period(%ld,%lu)
-@AIL_set_timer_frequency(%ld,%lu)
-@AIL_start_timer(%lu)
-@AIL_start_all_timers()
-@AIL_stop_timer(%lu)
-@AIL_stop_all_timers()
-@AIL_release_timer_handle(%lu)
-@AIL_release_all_timers()
-Matrix filters require 16-bit PCM output format
-Required output filter not found
-@AIL_open_digital_driver(%ld, %ld, %ld, 0x%lX)
-@AIL_close_digital_driver(0x%lX)
-@AIL_digital_handle_release(0x%lX)
-@AIL_digital_handle_reacquire(0x%lX)
-@AIL_open_input(0x%lX)
-@AIL_close_input(0x%lX)
-@AIL_get_input_info(0x%lX)
-@AIL_set_input_state(0x%lX,%ld)
-@AIL_digital_CPU_percent(0x%lX)
-@AIL_background_CPU_percent()
-@AIL_digital_latency(0x%lX)
-@AIL_allocate_sample_handle(0x%lX)
-@AIL_allocate_bus(0x%lX)
-@AIL_install_bus_compressor(0x%lX,%d,%d,%d)
-@AIL_set_sample_bus(0x%lX,%d)
-@AIL_sample_bus(0x%lX)
-@AIL_bus_sample_handle(0x%lX,%d)
-@AIL_release_sample_handle(0x%lX)
-@AIL_init_sample(0x%lX,%ld)
-@AIL_set_sample_file(0x%lX,0x%lX,%ld)
-@AIL_set_sample_info(0x%lX,0x%lX)
-@AIL_set_named_sample_file(0x%lX,%s,0x%lX,%ld,%ld)
-@AIL_set_sample_processor(0x%lX,%ld,%ld)
-@AIL_sample_processor(0x%lX,%ld)
-@AIL_set_digital_driver_processor(0x%lX,%ld,%ld)
-@AIL_digital_driver_processor(0x%lX,%ld)
-@AIL_set_sample_address(0x%lX,0x%lX,%lu)
-@AIL_set_sample_adpcm_block_size(0x%lX,%lu)
-@AIL_start_sample(0x%lX)
-@AIL_stop_sample(0x%lX)
-@AIL_end_fade_sample(0x%lX)
-@AIL_set_sample_id(0x%lX,%d)
-@AIL_start_sample_group(0x%lX,%d,%d)
-@AIL_stop_sample_group(0x%lX,%d,%d)
-@AIL_resume_sample_group(0x%lX,%d,%d)
-@AIL_end_sample_group(0x%lX,%d)
-@AIL_schedule_start_sample(0x%lX,%llu)
-@AIL_push_system_state(0x%lX,%d,%d)
-@AIL_pop_system_state(0x%lX,%d)
-@AIL_set_sample_level_mask(0x%lX,%d)
-@AIL_resume_sample(0x%lX)
-@AIL_end_sample(0x%lX)
-@AIL_set_sample_playback_rate(0x%lX,%ld)
-@AIL_set_sample_playback_rate_factor(0x%lX,%f)
-@AIL_set_sample_playback_delay(0x%lX,%ld)
-@AIL_set_sample_channel_levels(0x%lX,0x%lX,0x%lX,0x%lX,%d)
-@AIL_sample_channel_levels(0x%lX,0x%lX,0x%lX,0x%lX,%d)
-@AIL_set_sample_speaker_scale_factors(0x%lX,0x%lX,0x%lX, %d)
-@AIL_sample_speaker_scale_factors(0x%lX,0x%lX,0x%lX, %d)
-@AIL_set_sample_is_3D(0x%lX, %d )
-@AIL_sample_output_levels(0x%lX,0x%lX,0x%lX,0x%lX,%d)
-@AIL_set_speaker_configuration(0x%lX,0x%lX,%ld,%f)
-@AIL_speaker_configuration(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_set_listener_relative_receiver_array(0x%lX,0x%lX,%d)
-@AIL_listener_relative_receiver_array(0x%lX,0x%lX)
-@AIL_set_speaker_reverb_levels(0x%lX,0x%lX,0x%lX,0x%lX,%d)
-@AIL_speaker_reverb_levels(0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_calculate_3D_channel_levels(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,%f,%f,%f,%f,%f,0x%lX,0x%lX,0x%lX,%f,0x%lX,%s)
-@AIL_set_sample_volume_pan(0x%lX,%f,%f)
-@AIL_set_sample_51_volume_pan(0x%lX,%f,%f,%f,%f,%f)
-@AIL_sample_51_volume_pan(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_set_sample_51_volume_levels(0x%lX,%f,%f,%f,%f,%f)
-@AIL_sample_51_volume_levels(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_set_sample_volume_levels(0x%lX,%f,%f)
-@AIL_set_sample_reverb_levels(0x%lX,%f,%f)
-@AIL_set_sample_low_pass_cut_off(0x%lX,%d,%f)
-@AIL_set_sample_loop_count(0x%lX,%ld)
-@AIL_set_sample_loop_block(0x%lX,%ld,%ld)
-@AIL_sample_loop_block(0x%lX,0x%lX,0x%lX)
-@AIL_sample_status(0x%lX)
-@AIL_sample_playback_rate(0x%lX)
-@AIL_sample_playback_rate_factor(0x%lX)
-@AIL_sample_playback_delay(0x%lX)
-@AIL_sample_volume_pan(0x%lX,0x%lX,0x%lX)
-@AIL_sample_volume_levels(0x%lX,0x%lX,0x%lX)
-@AIL_sample_reverb_levels(0x%lX,0x%lX,0x%lX)
-@AIL_sample_low_pass_cut_off(0x%lX, %d)
-@AIL_sample_loop_count(0x%lX)
-@AIL_set_digital_master_volume_level(0x%lX,%f)
-@AIL_digital_master_volume_level(0x%lX)
-@AIL_set_digital_master_reverb_levels(0x%lX,%ld,%f,%f)
-@AIL_digital_master_reverb_levels(0x%lX,%ld,0x%lX,0x%lX)
-@AIL_set_digital_master_reverb(0x%lX,%ld,%f,%f,%f)
-@AIL_digital_master_reverb(0x%lX,%ld,0x%lX,0x%lX,0x%lX)
-@AIL_minimum_sample_buffer_size(0x%lX,%ld,%ld)
-@AIL_sample_buffer_available(0x%lX)
-@AIL_sample_buffer_count(0x%lX)
-@AIL_sample_loaded_len(0x%lX)
-@AIL_set_sample_buffer_count(0x%lX)
-@AIL_load_sample_buffer(0x%lX,%ld,0x%lX,%lu)
-@AIL_sample_buffer_info(0x%lX,%ld,0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_sample_granularity(0x%lX)
-@AIL_sample_channel_count(0x%lX,0x%lX)
-@AIL_set_sample_position(0x%lX,%lu)
-@AIL_sample_position(0x%lX)
-@AIL_register_SOB_callback(0x%lX,0x%lX)
-@AIL_register_EOB_callback(0x%lX,0x%lX)
-@AIL_register_EOS_callback(0x%lX,0x%lX)
-@AIL_register_mix_callback(0x%lX,0x%lX)
-@AIL_register_falloff_function_callback(0x%lX,0x%lX)
-@AIL_set_sample_user_data(0x%lX,%ld,%ld)
-@AIL_sample_user_data(0x%lX,%lu)
-@AIL_active_sample_count(0x%lX)
-@AIL_digital_configuration(0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_file_error()
-@AIL_file_size(%s) from: %s, line: %d 
-@AIL_file_read(%s,0x%lX) from: %s, line: %d 
-@AIL_file_write(%s,0x%lX,%ld)
+-64OS
+.SPEEX16
+.SPEEX32
+.SPEEX8
+.VOC
+.WAV
+.binka
+.mp3
+.ogg
+.raw
+.spx
+.v12
+.v24
+.v29
+.wav
+0x%X
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+1@B`e>X94<
+1t9,
+2ieO=
+333333
+333?333
+4g%6
+4lkQg
+5SmT4
+700PP
+700WP
+7Z8>\t
+8HBzL
+;%s;%s;%f;%s;%x;%x;%x;
+<8bunz8
+<@En[vP
+<program name unknown>
+=X94<
+?$rxxx
+?333333
+?3xj
+?4Td
+?5a1
+?765@Z
+?7Tf(
+?FnH
+?IT$7
+?KYC
+?Ltm
+?PV3
+?PiB
+?UUUUUU
+?X&eB
+?X94<
+?Zxg
+?dDR
+?ju!4
+?pow
+@AIL_3D_distance_factor(0x%lX)
+@AIL_3D_doppler_factor(0x%lX)
+@AIL_3D_rolloff_factor(0x%lX)
+@AIL_MMX_available()
 @AIL_WAV_file_write(%s,0x%lX,%ld,%ld,%ld)
-@AIL_serve()
-@AIL_open_stream(0x%lX, %s, %ld)
-@AIL_close_stream(0x%lX)
-@AIL_stream_sample_handle(0x%lX)
-@AIL_service_stream(0x%lX, %ld)
-@AIL_start_stream(0x%lX)
-@AIL_pause_stream(0x%lX, %ld)
-@AIL_stream_loop_count(0x%lX)
-@AIL_set_stream_loop_block(0x%lX,%ld,%ld)
-@AIL_set_stream_loop_count(0x%lX, %ld)
-@AIL_stream_status(0x%lX)
-@AIL_stream_filled_percent(0x%lX)
-@AIL_set_stream_position(0x%lX, %ld)
-@AIL_stream_position(0x%lX)
-@AIL_stream_info(0x%lX, 0x%lX, 0x%lX, 0x%lX, 0x%lX)
-@AIL_register_stream_callback(0x%lX, 0x%lX)
-@AIL_auto_service_stream(0x%lX, %ld)
-@AIL_set_stream_user_data(0x%lX,%ld,%ld)
-@AIL_stream_user_data(0x%lX,%lu)
-@AIL_sample_ms_lookup(0x%lX,%d,0x%lX)
-@AIL_sample_ms_position(0x%lX,0x%lX,0x%lX)
-@AIL_set_sample_ms_position(0x%lX,%lu)
-@AIL_stream_ms_position(0x%lX,0x%lX,0x%lX)
-@AIL_set_stream_ms_position(0x%lX,%lu)
-@AIL_decompress_ADPCM(0x%lX,0x%lX,0x%lX)
 @AIL_WAV_info(0x%lX,0x%lX)
+@AIL_active_sample_count(0x%lX)
+@AIL_allocate_bus(0x%lX)
+@AIL_allocate_sample_handle(0x%lX)
+@AIL_auto_service_stream(0x%lX, %ld)
+@AIL_background_CPU_percent()
+@AIL_bus_sample_handle(0x%lX,%d)
+@AIL_calculate_3D_channel_levels(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,%f,%f,%f,%f,%f,0x%lX,0x%lX,0x%lX,%f,0x%lX,%s)
+@AIL_close_digital_driver(0x%lX)
+@AIL_close_filter(0x%lX)
+@AIL_close_input(0x%lX)
+@AIL_close_stream(0x%lX)
+@AIL_decompress_ADPCM(0x%lX,0x%lX,0x%lX)
+@AIL_digital_CPU_percent(0x%lX)
+@AIL_digital_configuration(0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_digital_driver_processor(0x%lX,%ld)
+@AIL_digital_handle_reacquire(0x%lX)
+@AIL_digital_handle_release(0x%lX)
+@AIL_digital_latency(0x%lX)
+@AIL_digital_master_reverb(0x%lX,%ld,0x%lX,0x%lX,0x%lX)
+@AIL_digital_master_reverb_levels(0x%lX,%ld,0x%lX,0x%lX)
+@AIL_digital_master_volume_level(0x%lX)
+@AIL_digital_output_filter(0x%lX)
+@AIL_end_fade_sample(0x%lX)
+@AIL_end_sample(0x%lX)
+@AIL_end_sample_group(0x%lX,%d)
+@AIL_enumerate_filter_properties(%ld,0x%lX,0x%lX)
+@AIL_enumerate_filter_sample_properties(%ld,0x%lX,0x%lX)
+@AIL_enumerate_filters(0x%lX,0x%lX,0x%lX)
+@AIL_enumerate_output_filter_driver_properties(%ld,0x%lX,0x%lX)
+@AIL_enumerate_output_filter_sample_properties(%ld,0x%lX,0x%lX)
+@AIL_enumerate_sample_stage_properties(0x%lX,%ld,0x%lX,0x%lX)
+@AIL_file_error()
+@AIL_file_read(%s,0x%lX) from: %s, line: %d 
+@AIL_file_size(%s) from: %s, line: %d 
 @AIL_file_type(0x%lX,%lu)
 @AIL_file_type(0x%lX,%s,%lu)
-AIL_find_event(0x%lX,%s)
-AIL_clear_event_queue()
-AIL_register_random(0x%lX)
-AIL_enumerate_sound_instances(0x%lX,%d,%s,%ld,0x%lX)
-AIL_enumerate_preset_persists(0x%lX,0x%lX)
-AIL_enqueue_event(%s,0x%lX,%d,%d,%ld)
-AIL_begin_event_queue_processing()
-AIL_complete_event_queue_processing()
-AIL_startup_event_system(0x%lX,%d,0x%lX
-AIL_shutdown_event_system()
-AIL_add_soundbank(%s)
-AIL_set_event_error_callback(0x%lX)
-AIL_release_soundbank(0x%lX)
-AIL_set_sound_label_limits(%s)
-CodeLimit
-AIL_text_dump_event_system()
-AIL_enqueue_event_context(0x%lX,%s,0x%lX,%d,%d,%ld)
-AIL_enqueue_event_by_name(%s)
-AIL_set_sound_start_offset(0x%lX,%d,%d)
-AIL_add_event_system(0x%lX)
-AIL_variable_int(0x%lX%s, 0x%lX)
-AIL_variable_float(0x%lX%s, 0x%lX)
-AIL_set_variable_float(0x%lX%s, %f)
-AIL_set_variable_int(0x%lX%s, %d)
-AIL_requeue_failed_asyncs()
+@AIL_file_write(%s,0x%lX,%ld)
+@AIL_filter_property(%ld,%s,0x%lX,0x%lX,0x%lX)
+@AIL_get_input_info(0x%lX)
+@AIL_init_sample(0x%lX,%ld)
+@AIL_install_bus_compressor(0x%lX,%d,%d,%d)
+@AIL_last_error()
+@AIL_listener_3D_orientation(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_listener_3D_position(0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_listener_3D_velocity(0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_listener_relative_receiver_array(0x%lX,0x%lX)
+@AIL_load_sample_buffer(0x%lX,%ld,0x%lX,%lu)
+@AIL_mem_alloc_lock(%ld) from: %s, line: %d 
+@AIL_mem_free_lock(0x%lX)
+@AIL_minimum_sample_buffer_size(0x%lX,%ld,%ld)
+@AIL_open_digital_driver(%ld, %ld, %ld, 0x%lX)
+@AIL_open_filter(%ld,0x%lX)
+@AIL_open_input(0x%lX)
+@AIL_open_stream(0x%lX, %s, %ld)
+@AIL_output_filter_driver_property(0x%lX,%s,0x%lX,0x%lX,0x%lX)
+@AIL_pause_stream(0x%lX, %ld)
+@AIL_pop_system_state(0x%lX,%d)
 @AIL_primary_digital_driver(0x%lX)
-@AIL_set_sample_obstruction(0x%lX,%f)
-@AIL_set_sample_exclusion(0x%lX,%f)
-@AIL_set_sample_occlusion(0x%lX,%s)
-@AIL_set_sample_3D_cone(0x%lX,%f,%f,%f)
-@AIL_sample_obstruction(0x%lX)
-@AIL_sample_exclusion(0x%lX)
-@AIL_sample_occlusion(0x%lX)
-@AIL_sample_3D_cone(0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_set_sample_3D_distances(0x%lX,%f,%f,%ld)
-@AIL_sample_3D_distances(0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_process_digital_audio(0x%lX,%li,%li,%li,%li,0x%lX)
+@AIL_push_system_state(0x%lX,%d,%d)
+@AIL_register_EOB_callback(0x%lX,0x%lX)
+@AIL_register_EOS_callback(0x%lX,0x%lX)
+@AIL_register_SOB_callback(0x%lX,0x%lX)
+@AIL_register_falloff_function_callback(0x%lX,0x%lX)
+@AIL_register_mix_callback(0x%lX,0x%lX)
+@AIL_register_stream_callback(0x%lX, 0x%lX)
+@AIL_register_timer(0x%lX)
+@AIL_release_all_timers()
+@AIL_release_sample_handle(0x%lX)
+@AIL_release_timer_handle(%lu)
+@AIL_resume_sample(0x%lX)
+@AIL_resume_sample_group(0x%lX,%d,%d)
 @AIL_room_type(0x%lX,%ld)
-@AIL_set_room_type(0x%lX,%ld,%d)
-@AIL_3D_rolloff_factor(0x%lX)
-@AIL_set_3D_rolloff_factor(0x%lX,%f)
-@AIL_3D_doppler_factor(0x%lX)
-@AIL_set_3D_doppler_factor(0x%lX,%f)
-@AIL_3D_distance_factor(0x%lX)
-@AIL_set_3D_distance_factor(0x%lX,%f)
-@AIL_set_sample_3D_position(0x%lX,%f,%f,%f)
-@AIL_set_sample_3D_velocity(0x%lX,%f,%f,%f,%f)
-@AIL_set_sample_3D_velocity_vector(0x%lX,%f,%f,%f)
-@AIL_set_sample_3D_orientation(0x%lX,%f,%f,%f,%f,%f,%f)
+@AIL_sample_3D_cone(0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_sample_3D_distances(0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_sample_3D_orientation(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX)
 @AIL_sample_3D_position(0x%lX,0x%lX,0x%lX,0x%lX)
 @AIL_sample_3D_velocity(0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_sample_3D_orientation(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_update_sample_3D_position(0x%lX,%f)
+@AIL_sample_51_volume_levels(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_sample_51_volume_pan(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_sample_buffer_available(0x%lX)
+@AIL_sample_buffer_count(0x%lX)
+@AIL_sample_buffer_info(0x%lX,%ld,0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_sample_bus(0x%lX)
+@AIL_sample_channel_count(0x%lX,0x%lX)
+@AIL_sample_channel_levels(0x%lX,0x%lX,0x%lX,0x%lX,%d)
+@AIL_sample_exclusion(0x%lX)
+@AIL_sample_granularity(0x%lX)
+@AIL_sample_loaded_len(0x%lX)
+@AIL_sample_loop_block(0x%lX,0x%lX,0x%lX)
+@AIL_sample_loop_count(0x%lX)
+@AIL_sample_low_pass_cut_off(0x%lX, %d)
+@AIL_sample_ms_lookup(0x%lX,%d,0x%lX)
+@AIL_sample_ms_position(0x%lX,0x%lX,0x%lX)
+@AIL_sample_obstruction(0x%lX)
+@AIL_sample_occlusion(0x%lX)
+@AIL_sample_output_levels(0x%lX,0x%lX,0x%lX,0x%lX,%d)
+@AIL_sample_playback_delay(0x%lX)
+@AIL_sample_playback_rate(0x%lX)
+@AIL_sample_playback_rate_factor(0x%lX)
+@AIL_sample_position(0x%lX)
+@AIL_sample_processor(0x%lX,%ld)
+@AIL_sample_reverb_levels(0x%lX,0x%lX,0x%lX)
+@AIL_sample_speaker_scale_factors(0x%lX,0x%lX,0x%lX, %d)
+@AIL_sample_stage_property(0x%lX,%ld,%s,%ld,0x%lX,0x%lX,0x%lX)
+@AIL_sample_status(0x%lX)
+@AIL_sample_user_data(0x%lX,%lu)
+@AIL_sample_volume_levels(0x%lX,0x%lX,0x%lX)
+@AIL_sample_volume_pan(0x%lX,0x%lX,0x%lX)
+@AIL_schedule_start_sample(0x%lX,%llu)
+@AIL_serve()
+@AIL_service_stream(0x%lX, %ld)
+@AIL_set_3D_distance_factor(0x%lX,%f)
+@AIL_set_3D_doppler_factor(0x%lX,%f)
+@AIL_set_3D_rolloff_factor(0x%lX,%f)
+@AIL_set_digital_driver_processor(0x%lX,%ld,%ld)
+@AIL_set_digital_master_reverb(0x%lX,%ld,%f,%f,%f)
+@AIL_set_digital_master_reverb_levels(0x%lX,%ld,%f,%f)
+@AIL_set_digital_master_volume_level(0x%lX,%f)
+@AIL_set_error(%s)
+@AIL_set_error(NULL)
+@AIL_set_input_state(0x%lX,%ld)
+@AIL_set_listener_3D_orientation(0x%lX,%f,%f,%f,%f,%f,%f)
 @AIL_set_listener_3D_position(0x%lX,%f,%f,%f)
 @AIL_set_listener_3D_velocity(0x%lX,%f,%f,%f,%f)
 @AIL_set_listener_3D_velocity_vector(0x%lX,%f,%f,%f)
-@AIL_set_sample_3D_volume_falloff(0x%lX,0x%lX,%d)
-@AIL_set_sample_3D_lowpass_falloff(0x%lX,0x%lX,%d)
+@AIL_set_listener_relative_receiver_array(0x%lX,0x%lX,%d)
+@AIL_set_named_sample_file(0x%lX,%s,0x%lX,%ld,%ld)
+@AIL_set_preference(%ld,%ld)
+@AIL_set_room_type(0x%lX,%ld,%d)
+@AIL_set_sample_3D_cone(0x%lX,%f,%f,%f)
+@AIL_set_sample_3D_distances(0x%lX,%f,%f,%ld)
 @AIL_set_sample_3D_exclusion_falloff(0x%lX,0x%lX,%d)
-@AIL_set_sample_3D_spread_falloff(0x%lX,0x%lX,%d)
-@AIL_set_sample_3D_spread(0x%lX,%f)
+@AIL_set_sample_3D_lowpass_falloff(0x%lX,0x%lX,%d)
+@AIL_set_sample_3D_orientation(0x%lX,%f,%f,%f,%f,%f,%f)
+@AIL_set_sample_3D_position(0x%lX,%f,%f,%f)
 @AIL_set_sample_3D_position_segments(0x%lX,0x%lX,%d)
-@AIL_set_listener_3D_orientation(0x%lX,%f,%f,%f,%f,%f,%f)
-@AIL_listener_3D_position(0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_listener_3D_velocity(0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_listener_3D_orientation(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX,0x%lX)
-@AIL_update_listener_3D_position(0x%lX,%f)
-@AIL_digital_output_filter(0x%lX)
-@AIL_enumerate_filters(0x%lX,0x%lX,0x%lX)
-@AIL_open_filter(%ld,0x%lX)
-@AIL_close_filter(0x%lX)
-@AIL_enumerate_filter_properties(%ld,0x%lX,0x%lX)
-@AIL_enumerate_filter_sample_properties(%ld,0x%lX,0x%lX)
-@AIL_enumerate_output_filter_driver_properties(%ld,0x%lX,0x%lX)
-Pipeline filter driver services
-@AIL_enumerate_output_filter_sample_properties(%ld,0x%lX,0x%lX)
-@AIL_filter_property(%ld,%s,0x%lX,0x%lX,0x%lX)
-@AIL_enumerate_sample_stage_properties(0x%lX,%ld,0x%lX,0x%lX)
-@AIL_sample_stage_property(0x%lX,%ld,%s,%ld,0x%lX,0x%lX,0x%lX)
-@AIL_output_filter_driver_property(0x%lX,%s,0x%lX,0x%lX,0x%lX)
+@AIL_set_sample_3D_spread(0x%lX,%f)
+@AIL_set_sample_3D_spread_falloff(0x%lX,0x%lX,%d)
+@AIL_set_sample_3D_velocity(0x%lX,%f,%f,%f,%f)
+@AIL_set_sample_3D_velocity_vector(0x%lX,%f,%f,%f)
+@AIL_set_sample_3D_volume_falloff(0x%lX,0x%lX,%d)
+@AIL_set_sample_51_volume_levels(0x%lX,%f,%f,%f,%f,%f)
+@AIL_set_sample_51_volume_pan(0x%lX,%f,%f,%f,%f,%f)
+@AIL_set_sample_address(0x%lX,0x%lX,%lu)
+@AIL_set_sample_adpcm_block_size(0x%lX,%lu)
+@AIL_set_sample_buffer_count(0x%lX)
+@AIL_set_sample_bus(0x%lX,%d)
+@AIL_set_sample_channel_levels(0x%lX,0x%lX,0x%lX,0x%lX,%d)
+@AIL_set_sample_exclusion(0x%lX,%f)
+@AIL_set_sample_file(0x%lX,0x%lX,%ld)
+@AIL_set_sample_id(0x%lX,%d)
+@AIL_set_sample_info(0x%lX,0x%lX)
+@AIL_set_sample_is_3D(0x%lX, %d )
+@AIL_set_sample_level_mask(0x%lX,%d)
+@AIL_set_sample_loop_block(0x%lX,%ld,%ld)
+@AIL_set_sample_loop_count(0x%lX,%ld)
+@AIL_set_sample_low_pass_cut_off(0x%lX,%d,%f)
+@AIL_set_sample_ms_position(0x%lX,%lu)
+@AIL_set_sample_obstruction(0x%lX,%f)
+@AIL_set_sample_occlusion(0x%lX,%s)
+@AIL_set_sample_playback_delay(0x%lX,%ld)
+@AIL_set_sample_playback_rate(0x%lX,%ld)
+@AIL_set_sample_playback_rate_factor(0x%lX,%f)
+@AIL_set_sample_position(0x%lX,%lu)
+@AIL_set_sample_processor(0x%lX,%ld,%ld)
+@AIL_set_sample_reverb_levels(0x%lX,%f,%f)
+@AIL_set_sample_speaker_scale_factors(0x%lX,0x%lX,0x%lX, %d)
+@AIL_set_sample_user_data(0x%lX,%ld,%ld)
+@AIL_set_sample_volume_levels(0x%lX,%f,%f)
+@AIL_set_sample_volume_pan(0x%lX,%f,%f)
+@AIL_set_speaker_configuration(0x%lX,0x%lX,%ld,%f)
+@AIL_set_speaker_reverb_levels(0x%lX,0x%lX,0x%lX,0x%lX,%d)
+@AIL_set_stream_loop_block(0x%lX,%ld,%ld)
+@AIL_set_stream_loop_count(0x%lX, %ld)
+@AIL_set_stream_ms_position(0x%lX,%lu)
+@AIL_set_stream_position(0x%lX, %ld)
+@AIL_set_stream_user_data(0x%lX,%ld,%ld)
+@AIL_set_timer_frequency(%ld,%lu)
+@AIL_set_timer_period(%ld,%lu)
+@AIL_set_timer_user(%ld,%ld)
+@AIL_shutdown()
 @AIL_size_processed_digital_audio(%li,%li,%li,0x%lX)
-@AIL_process_digital_audio(0x%lX,%li,%li,%li,%li,0x%lX)
-@AIL_MMX_available()
-waveInAddBuffer() failed, code = 0x%X\n
-C:\devel\projects\mss\src\sdk\win\mssinput.cpp
-Could not allocate memory for input driver descriptor.
-Out of timer handles
-waveInOpen() failed, code = 0x%X\n
-Insufficient memory for input buffer
-waveInPrepareHeader() failed, code = 0x%X\n
-waveInStart() failed, code = 0x%X\n
-!Miles memory allocation failed! (requested %d bytes)
-!Miles detected memory error - Double freed memory...?(%X)
-Unable to create file.
-Unable to write to file (disk full?).
-Default Miles Mixer
-C:\devel\projects\mss\src\sdk\shared\io.cpp
-Miles IO mutex block
-C:\devel\projects\mss\src\sdk\shared\milesasync.cpp
-Miles IO mutex
-Waiting on Miles IO
-unknown
-File open: %s (%s line: %d)
-File seek: %s to %d (%s line: %d)
-File read: %s bytes: %d (%s line: %d)
-Miles IO
-Waiting for IO request
-MSSAsync
-DSOUND.DLL
-DirectSoundCreate
-DirectSoundEnumerateA
-DirectSoundCreate() failed.
-DirectSoundCreate() custom handler failed.
-SetCooperativeLevel() failed.
-CreateSoundBuffer() failed on primary buffer.
-SetFormat() failed on primary buffer.
-Could not load DirectSound to query speaker configuration
-DirectSoundCreate() failed in get_system_speaker_configuration()
-GetSpeakerConfig() failed
-SRS Circle Surround 6.1 Matrix Filter
-Dolby Surround Matrix Filter
-Emulated DirectSound - 
-DirectSound - Voice filter
-DirectSound - Matrix filter
-DirectSound - MSS software mixer
-DirectSound already initialized.
-The DirectSound DLL could not be loaded.
-Could not create secondary buffer
-Could not get buffer position
-Could not start output buffer
-Warning: DirectSound playback reset due to non-moving playback cursor (buggy sound driver) time: %i play: %i write: %i.\n
-Unsupported PCM data format.
-Unsupported multichannel PCM data format.
-Non-PCM wave data type not supported.
-C:\devel\projects\mss\src\sdk\win\mssdig.cpp
-Could not allocate memory for driver descriptor.
-waveOutOpen() failed.
-None
-Reset
-Could not allocate memory for test WAVEHDR.
+@AIL_sleep(%ld)
+@AIL_speaker_configuration(0x%lX,0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_speaker_reverb_levels(0x%lX,0x%lX,0x%lX,0x%lX)
+@AIL_start_all_timers()
+@AIL_start_sample(0x%lX)
+@AIL_start_sample_group(0x%lX,%d,%d)
+@AIL_start_stream(0x%lX)
+@AIL_start_timer(%lu)
+@AIL_startup()
+@AIL_stop_all_timers()
+@AIL_stop_sample(0x%lX)
+@AIL_stop_sample_group(0x%lX,%d,%d)
+@AIL_stop_timer(%lu)
+@AIL_stream_filled_percent(0x%lX)
+@AIL_stream_info(0x%lX, 0x%lX, 0x%lX, 0x%lX, 0x%lX)
+@AIL_stream_loop_count(0x%lX)
+@AIL_stream_ms_position(0x%lX,0x%lX,0x%lX)
+@AIL_stream_position(0x%lX)
+@AIL_stream_sample_handle(0x%lX)
+@AIL_stream_status(0x%lX)
+@AIL_stream_user_data(0x%lX,%lu)
+@AIL_update_listener_3D_position(0x%lX,%f)
+@AIL_update_sample_3D_position(0x%lX,%f)
+@VNQ
+A'z2
+A8r.-
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADCPM decompression
+AIL_add_event_system(0x%lX)
+AIL_add_soundbank(%s)
+AIL_begin_event_queue_processing()
+AIL_clear_event_queue()
+AIL_complete_event_queue_processing()
+AIL_debug
+AIL_debug_log
+AIL_enqueue_event(%s,0x%lX,%d,%d,%ld)
+AIL_enqueue_event_by_name(%s)
+AIL_enqueue_event_context(0x%lX,%s,0x%lX,%d,%d,%ld)
+AIL_enumerate_preset_persists(0x%lX,0x%lX)
+AIL_enumerate_sound_instances(0x%lX,%d,%s,%ld,0x%lX)
+AIL_find_event(0x%lX,%s)
+AIL_indent
+AIL_mem_printf
+AIL_register_random(0x%lX)
+AIL_release_soundbank(0x%lX)
+AIL_requeue_failed_asyncs()
+AIL_set_event_error_callback(0x%lX)
+AIL_set_sound_label_limits(%s)
+AIL_set_sound_start_offset(0x%lX,%d,%d)
+AIL_set_variable_float(0x%lX%s, %f)
+AIL_set_variable_int(0x%lX%s, %d)
+AIL_shutdown_event_system()
+AIL_sprintf
+AIL_startup_event_system(0x%lX,%d,0x%lX
+AIL_sys_debug
+AIL_text_dump_event_system()
+AIL_variable_float(0x%lX%s, 0x%lX)
+AIL_variable_int(0x%lX%s, 0x%lX)
+ASI codec
+ASI provider for this file type failed to initialize
+ASI stream
+ASI_error
+ASI_shutdown
+ASI_startup
+ASI_stream_close
+ASI_stream_open
+ASI_stream_process
+ASI_stream_property
+ASI_stream_seek
+Ai0T
+AiFC.
+April
+Attempt to load obsolete (pre-V1.30) RIB
+August
+Bank Dump:\n
+Bank file name doesn't match the loaded file.
+Bank file version doesn't match this runtime.
+Bfe9
+Bink Audio decompression
+Bink Audio provider failed to initialize.
+Bink Audio provider not found.
+Both indices must refer to installed busses.
 Broken waveOut driver - 'buffer done' flag never set.
-Could not allocate build buffer.
-Could not allocate reverb build buffer.
+C:\devel\projects\mss\build\win\mss32.pdb
+C:\devel\projects\mss\src\sdk\shared\flt.cpp
+C:\devel\projects\mss\src\sdk\shared\genericmss.cpp
+C:\devel\projects\mss\src\sdk\shared\hlbank.cpp
+C:\devel\projects\mss\src\sdk\shared\io.cpp
+C:\devel\projects\mss\src\sdk\shared\milesasync.cpp
+C:\devel\projects\mss\src\sdk\shared\mileseventexec.cpp
+C:\devel\projects\mss\src\sdk\shared\mileseventsupport.cpp
+C:\devel\projects\mss\src\sdk\shared\miscutil.cpp
+C:\devel\projects\mss\src\sdk\shared\mssdbg.c
+C:\devel\projects\mss\src\sdk\shared\mssstrm.cpp
+C:\devel\projects\mss\src\sdk\shared\rib.cpp
+C:\devel\projects\mss\src\sdk\shared\wavefile.cpp
+C:\devel\projects\mss\src\sdk\win\mssdig.cpp
+C:\devel\projects\mss\src\sdk\win\mssinput.cpp
+C:\devel\projects\mss\src\shared\stringbuilder.h
+CAT 
+CONOUT$
+Can't audition without a sound bank name.
+Channel buffer allocation failed.
+Clear Loop Meta
+CloseHandle
+CodeLimit
+CompareStringA
+CompareStringW
+Compressor Filter
+Compressor Filter Not Found
+Copy to final output
+CorExitProcess
+Could not allocate HDR_USER structures.
 Could not allocate SAMPLE structures.
 Could not allocate WAVEHDR structures.
-Could not allocate HDR_USER structures.
+Could not allocate build buffer.
+Could not allocate memory for driver descriptor.
+Could not allocate memory for input driver descriptor.
+Could not allocate memory for test WAVEHDR.
 Could not allocate output buffer.
-WaveOut - 
-Failed to open multichannel driver
-Failed to get speaker configuration
-Unsupported output format (MSS_MC_SPEC enum required)
-DTS 4.0/5.1 Matrix Filter
-DirectSound3D Hardware Support
+Could not allocate reverb build buffer.
+Could not create secondary buffer
+Could not get buffer position
+Could not load DirectSound to query speaker configuration
+Could not start output buffer
+Couldn't find provider for this file type -- check your AIL_set_redist_directory() call.
+CqTR;
+CreateFileA
+CreateMutexA
+CreateSemaphoreA
+CreateSoundBuffer() failed on primary buffer.
+CreateThread
+Creative
 Creative Labs EAX 2 (TM)
 Creative Labs EAX 3 (TM)
 Creative Labs EAX 4 (TM)
-Failed to associate driver with output filter
-qRAD_USE_TGT
-KERNEL32
-GetLogicalProcessorInformation
-MbP?o
-MbP?
-?X94<
-333?333
-e+000
-GAIsProcessorFeaturePresent
-?\r0\vH_
-?|}}
-?)0>
-'HR%
-cb~q
-4lkQg
-n@4`
-ibzP
-  %X
-?iT\t
-w7H-
-?ju!4
-V-Ai
-?Zxg
-4{#s
-PO79
-?V:e:
-?4Td
-[b\rU
-o]2'
-?o.x
-@g\t=
-5SmT4
-<{\f=
-*+xi(
-r\nly
-?\rT9
-}Tw5
-?M]-
-?1-\nI
-?y]h
-?FnH
-C1\v]
-?dDR
-?ZEM-'^
-?m}I
-?VV&
-?>6)}
-fSOs
-?{yK+;
-?i|e\f
-?)Ao\n:
-?765@Z
-?}>v
-H|As
-_\v0.m
-?B?}
+Cue point not found
+Current Instances:\n
+Current Persists:\n
 D<xZu
-?`\@
-?)]G
-?KB\t
-E0d\f
-?KYC
-?\nQ-
-?$*2
-?l$G~
-?s7\f
->|.~
-^\sY0
-?:Rp
-}6lw
-7Z8>\t
-?e')lW
-?zD@
-?* A
-yx|o
-6 d!
-ZyrI
-?PV3
-UUUUUU
-333333
-?333333
-?UUUUUU
-?$rxxx
-?X&eB
-?Ltm
-tLVv
-?h6_~
-37.=
-?7Tf(
-=\uI=
-g:"(
-$O1=
-uXO=
-1w<=
->'eH
-pnJ=
-Ht=c
-t\f'=
-]vQ<)8
-z1}B
-X4I+
-|)P!?Ua0
-\t\t!=
-+34?
-??7;\fW
-MkK?
-R_V?
-\r9&\?
-Eb2]A=
-f#I=
-hb?O2
-H`3=
-c?e2
-Le?2
-0h?[
-2ieO=
-|W8A=
-np?z 
-m{\rM=
-)(q?
-}~:f
-&\rt?,&
-u?^p?o4
-!9v?
-GYM=
-Pex?0
-6K{?
-E\tM=
-X-F=
-w}?0
-y1~?|"
-x\vI=
-V%A+=
-4';=
-q\t! 
-#D5p
-\n^!E
-La8i
-{4Wf
-Ai0T
-@VNQ
-p4"%
-P'E=
-ls1=
-?PiB
-{^C=
- `\v?
-r" \f?
-n{;=
-3<L=
-?|I7Z#
-aDJ=
->,'1D=
-+NB=
-?g)([|X>=
-?|[{
-~*L=
-u!K=
-?IT$7
--8 ?
-.h ?
-2 !?
-\f4P!?
-!y##
-98"?
-:h"?bC
-? #?
-@H#?43
-Ax#?uN}*
-r7Yr7=
-.K="=
-F0$?3=1
-H`$?h|
-%?uY
-NH%?
-Px%?
-%?\9\f
-&?~YK|
-sU0&?W
-VX&?
-4g%6
-:]=O>
-#w_j
-(+E 
-V~|_
-!|.4
-G"jm\n>;
-/h\f7
-6(`J
-k:UG
-UY =
-Bfe9
-E=|\n
-CqTR;
-AiFC.
-?5a1
-<{Q}<
-hI{L[
-<8bunz8
-?}\r?
-<V/>
-?(FN\
-<'*6
-C}<\r
-?3xj
-<)TH
-K<<H!
-m1WY$
-?#%X.y
-F||<##
-$x<e
-]{f\f
-<]%>
-T~OXu
-?.)T
-zyC7
-k7+%
-<@En[vP
-modf
-floor
-ceil
-atan
-exp10
-acos
-asin
-log10
-1#QNAN
-1#INF
-1#IND
-1#SNAN
-_nextafter
-_logb
-frexp
-fmod
-_hypot
-_cabs
-ldexp
-fabs
-sqrt
-atan2
-tanh
-cosh
-sinh
-RSDS?
-C:\devel\projects\mss\build\win\mss32.pdb
-GetWindow
-GetWindowThreadProcessId
-IsWindow
-GetActiveWindow
-GetWindowLongA
-MessageBoxA
-GetForegroundWindow
-GetTopWindow
-wsprintfA
-USER32.dll
-GetWindowsDirectoryA
-GetSystemDirectoryA
-GetModuleFileNameA
-GetModuleHandleA
-GetCurrentProcessId
-SetErrorMode
-FreeLibrary
-FindFirstFileA
-GetProcAddress
-FindClose
-LoadLibraryA
-FindNextFileA
-OutputDebugStringA
-Sleep
-CreateFileA
-WriteFile
-GlobalAlloc
-GlobalFree
-CloseHandle
-SetFilePointer
-ReadFile
-lstrcatA
-GetProfileStringA
-TlsGetValue
-SetUnhandledExceptionFilter
-WaitForSingleObject
-GetCurrentThread
-InitializeCriticalSection
-TlsSetValue
-LeaveCriticalSection
-CreateSemaphoreA
-GetEnvironmentVariableA
-SetThreadPriority
-ReleaseSemaphore
-RaiseException
-EnterCriticalSection
-GetThreadPriority
-CreateMutexA
+DOMAIN error\r\n
+DSOUND.DLL
+DSP filters
+DTS 4.0/5.1 Matrix Filter
+Data is not IMA compressed.
+Data length
+Data offset
+December
+DecodePointer
+Decompression cancelled.
+Default Miles Mixer
 DeleteCriticalSection
-GetCurrentThreadId
-ReleaseMutex
-TlsAlloc
-ResumeThread
-CreateThread
-QueryPerformanceCounter
-GetTickCount
-QueryPerformanceFrequency
-GetSystemInfo
-KERNEL32.dll
-waveInStart
-waveInUnprepareHeader
-waveInReset
-waveInAddBuffer
-waveInOpen
-waveInPrepareHeader
-waveInClose
-waveOutPrepareHeader
-waveOutGetID
-waveOutOpen
-waveOutUnprepareHeader
-waveOutGetDevCapsA
-timeGetTime
-waveOutReset
-waveOutWrite
-waveOutClose
-timeEndPeriod
-timeBeginPeriod
-WINMM.dll
-GetSystemTimeAsFileTime
-GetCommandLineA
-TerminateProcess
-GetCurrentProcess
-UnhandledExceptionFilter
-IsDebuggerPresent
-RtlUnwind
-SetHandleCount
-GetStdHandle
-GetFileType
-GetStartupInfoA
-GetModuleHandleW
-TlsFree
-InterlockedIncrement
-SetLastError
-GetLastError
-InterlockedDecrement
-WideCharToMultiByte
-GetTimeZoneInformation
-HeapFree
+DirectSound - MSS software mixer
+DirectSound - Matrix filter
+DirectSound - Voice filter
+DirectSound already initialized.
+DirectSound3D Hardware Support
+DirectSoundCreate
+DirectSoundCreate() custom handler failed.
+DirectSoundCreate() failed in get_system_speaker_configuration()
+DirectSoundCreate() failed.
+DirectSoundEnumerateA
+Dolby Surround Matrix Filter
+Driver_state_size
+E0d\f
+Eb2]A=
+EmYLm,
+Emulated DirectSound - 
+EncodePointer
+End of buffer callbacks
+End of sample callbacks
+EnterCriticalSection
+Environment Not Found.
+Error getting sound format.
+Error loading filter
+Event Not Found.
+Event System Count: %d\n
+Exact get position
+Exact seek
 ExitProcess
+F0$?3=1
+F?X94<
+FLTSMP_close_sample
+FLTSMP_open_sample
+FLTSMP_sample_process
+FLTSMP_sample_property
+FLT_close_driver
+FLT_error
+FLT_open_driver
+FLT_postmix_process
+FLT_premix_process
+FLT_shutdown
+FLT_startup
+FORM
+Failed to associate driver with output filter
+Failed to get speaker configuration
+Failed to open multichannel driver
+Failed to open sound bank.
+FailedEvict
+False
+February
+File open: %s (%s line: %d)
+File read: %s bytes: %d (%s line: %d)
+File seek: %s to %d (%s line: %d)
+FindClose
+FindFirstFileA
+FindNextFileA
+Flags
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+Format conversion
 FreeEnvironmentStringsA
-GetEnvironmentStrings
 FreeEnvironmentStringsW
-GetEnvironmentStringsW
-HeapCreate
-HeapDestroy
-VirtualFree
+FreeLibrary
+Friday
+GAIsProcessorFeaturePresent
+GYM=
+GetACP
+GetActiveWindow
+GetCPInfo
+GetCommandLineA
 GetConsoleCP
 GetConsoleMode
-GetCPInfo
-GetACP
-GetOEMCP
-IsValidCodePage
-InitializeCriticalSectionAndSpinCount
-HeapAlloc
-HeapReAlloc
-VirtualAlloc
-SetStdHandle
-FlushFileBuffers
-WriteConsoleA
 GetConsoleOutputCP
-WriteConsoleW
-MultiByteToWideChar
-LCMapStringA
-LCMapStringW
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetEnvironmentStrings
+GetEnvironmentStringsW
+GetEnvironmentVariableA
+GetFileType
+GetForegroundWindow
+GetLastActivePopup
+GetLastError
+GetLocaleInfoA
+GetLogicalProcessorInformation
+GetModuleFileNameA
+GetModuleHandleA
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetProcessWindowStation
+GetProfileStringA
+GetSpeakerConfig() failed
+GetStartupInfoA
+GetStdHandle
 GetStringTypeA
 GetStringTypeW
-GetLocaleInfoA
-SetEndOfFile
-GetProcessHeap
+GetSystemDirectoryA
+GetSystemInfo
+GetSystemTimeAsFileTime
+GetThreadPriority
+GetTickCount
+GetTimeZoneInformation
+GetTopWindow
+GetUserObjectInformationA
+GetWindow
+GetWindowLongA
+GetWindowThreadProcessId
+GetWindowsDirectoryA
+GlobalAlloc
+GlobalFree
+H Te
+HH:mm:ss
+HMXB
+Hardware voice assignment failed.
+HeapAlloc
+HeapCreate
+HeapDestroy
+HeapFree
+HeapReAlloc
 HeapSize
-CompareStringA
-CompareStringW
+Ht=c
+H|As
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+Input
+Input bit rate
+Input channels
+Input deinterlace
+Input file types
+Input sample rate
+Input sample width
+Input wave tag
+Insufficient Buffer Space
+Insufficient memory for input buffer
+InterlockedDecrement
+InterlockedIncrement
+Invalid event version - required version is: 4
+Invalid or missing data block.
+Invalid sample interval specified.
+IsDebuggerPresent
+IsValidCodePage
+IsWindow
+JanFebMarAprMayJunJulAugSepOctNovDec
+January
+July
+June
+KERNEL32
+KERNEL32.dll
+LCMapStringA
+LCMapStringW
+LIST
+L_b;x
+La8i
+Le?2
+LeaveCriticalSection
+LoadLibraryA
+Loaded Bank Count: %d\n
+LoopEnd
+LoopStart
+Low-pass
+MIXER_adpcm_decode
+MIXER_copy
+MIXER_flush
+MIXER_mc_copy
+MIXER_merge
+MIXER_shutdown
+MIXER_startup
+MM/dd/yy
+MP3 decompression
+MSS mixer services
+MSS pipeline filter
+MSS voice filter
+MSSAsync
+MSSTimer
+MThd
+March
+Marker not found
+Matrix filter already associated with driver
+Matrix filters require 16-bit PCM output format
+MbP?
+MbP?o
+MbP?{
+MessageBoxA
+Microsoft Visual C++ Runtime Library
+Miles API mutex
+Miles Error
+Miles IO
+Miles IO mutex
+Miles IO mutex block
+Miles Mixer
+Miles Sound System usage script generated by MSS V9.3k
+Miles Timer
+Miles alloc: %t
+Miles background processing
+Miles mixing
+Miles mutex
+Miles mutex block
+Miles/ADPCM (samples)
+Miles/Bink Audio (samples)
+Miles/DSP (samples)
+Miles/Format conversion (samples)
+Miles/Input deinterlace (samples)
+Miles/Low-pass (samples)
+Miles/MP3 (samples)
+Miles/Mix (samples)
+Miles/Ogg (samples)
+Miles/Other codec (samples)
+Miles/Reverb mix (samples)
+Miles/Streams/Stream %d %%
+MilesEvent: An asset requested by an event was not found in memory.
+MilesEvent: An asynchronous load returned failure (file doesn't exist?).
+MilesEvent: Bad string passed to SetLimits.
+MilesEvent: Missing Variable.
+MilesEvent: Out Of Memory (AIL_mem_alloc_lock failed).
+MilesEvent: Out of event system memory (pool passed to event system startup exhausted).
+MilesEvent: The command buffer was full.
+MilesEvent: The enqueue buffer is full.
+MilesEvent: The event expected a selection that did not exist.
+MilesEvent: The requested blend has not been set as it doesn't exist.
+MilesEvent: Too many sounds were start in a blended sound.
+Minimum input block size
+Minimum input stream size
+Minimum sample buffer size
+Mismatched Miles/Telemetry versions.
+MkK?
+Monday
+MultiByteToWideChar
+NKeb
+Network Bank
+No codec found for requested input type.
+No list chunk found
+No marker or loop information in file.
+Non-PCM wave data type not supported.
+None
+Not KSDATAFORMAT_SUBTYPE_PCM.
+Not a WAV file.
+Not a WAVEFORMATPCMEX file.
+Not a filter provider
+November
+October
+Ogg decompression
+OggS
+One or more entries not found
+One or more requested entries not found
+Other decompression
+Out of available busses.
+Out of memory
+Out of memory for bus buffer.
+Out of memory.
+Out of sample handles.
+Out of timer handles
+Out of timer handles.
+Output bit rate
+Output channel mask
+Output channels
+Output file types
+Output reservoir
+Output sample rate
+Output sample width
+OutputDebugStringA
+PO79
+PROVIDER_property
+Percent done
+Persistent Preset Count: %d\n
+Pex?0
+Pipeline filter driver services
+Pipeline filter sample services
+Position
+Preset Not Found.
+Profile index
+QueryPerformanceCounter
+QueryPerformanceFrequency
+R6002\r\n- floating point support not loaded\r\n
+R6008\r\n- not enough space for arguments\r\n
+R6009\r\n- not enough space for environment\r\n
+R6016\r\n- not enough space for thread data\r\n
+R6017\r\n- unexpected multithread lock error\r\n
+R6018\r\n- unexpected heap error\r\n
+R6019\r\n- unable to open console device\r\n
+R6024\r\n- not enough space for _onexit/atexit table\r\n
+R6025\r\n- pure virtual function call\r\n
+R6026\r\n- not enough space for stdio initialization\r\n
+R6027\r\n- not enough space for lowio initialization\r\n
+R6028\r\n- unable to initialize heap\r\n
+R6030\r\n- CRT not initialized\r\n
+R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n
+R6032\r\n- not enough space for locale information\r\n
+R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
+R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
+RSDS?
+RaiseException
+Raw source channels
+Raw source sample rate
+Raw source sample width
+ReadFile
+ReleaseMutex
+ReleaseSemaphore
+Requested bit rate
+Requested channels
+Requested sample rate
+Requested sample width
+Required output filter not found
+Reset
+ResumeThread
+Reverb mix
+RtlUnwind
+Runtime Error!\n\nProgram: 
+S%A40C
+S;uD
+SING error\r\n
+SRS Circle Surround 6.1 Matrix Filter
+Sample's ASI Decoder doesn't support looping at sample accuracy.
+SampleEnd
+SampleStart
+Sample_state_size
+Saturday
+Seek table lookup
+September
+Set Looping Samples
+SetCooperativeLevel() failed.
+SetEndOfFile
 SetEnvironmentVariableA
-mss32.dll
+SetErrorMode
+SetFilePointer
+SetFormat() failed on primary buffer.
+SetHandleCount
+SetLastError
+SetStdHandle
+SetThreadPriority
+SetUnhandledExceptionFilter
+Silence
+Sleep
+Sound Instance Count: %d\n
+Sound Preset Error - Filter Not Found.
+Sound Source Count: %d\n
+Sound file isn't a bank.
+Source Dump:\n
+Speex
+Start of buffer callbacks
+Start time: %s
+Stream seek position
+SunMonTueWedThuFriSat
+Sunday
+System #%d\n
+TLOSS error\r\n
+TerminateProcess
+The DirectSound DLL could not be loaded.
+The MSS DLL file is installed in the Windows or Windows system directory - it must be installed in the application directory.
+Thursday
+Timer waiting
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+True
+Tuesday
+T~OXu
+UNICODE
+USER32.DLL
+USER32.dll
+UTF-16LE
+UTF-8
+UUUUUU
+Unable to create file.
+Unable to obtain a sample handle.
+Unable to open file.
+Unable to write to file (disk full?).
+UnhandledExceptionFilter
+Unknown file type.
+Unsupported .WAV format
+Unsupported PCM data format.
+Unsupported multichannel PCM data format.
+Unsupported multichannel format.
+Unsupported output format (MSS_MC_SPEC enum required)
+Unsupported wave file format.
+V-Ai
+VDRV_driver_property
+VDRV_force_update
+VFLT_assign_sample_voice
+VFLT_close_driver
+VFLT_error
+VFLT_open_driver
+VFLT_release_sample_voice
+VFLT_shutdown
+VFLT_start_sample_voice
+VFLT_startup
+VSMP_sample_property
+VirtualAlloc
+VirtualFree
+Voice filter already associated with driver
+Voice filter driver services
+Voice filter sample services
+W4vC
+WAVE
+WINMM.dll
+WaitForSingleObject
+Waiting for IO request
+Waiting on Miles IO
+Waiting on SPU
+Warning: DirectSound playback reset due to non-moving playback cursor (buggy sound driver) time: %i play: %i write: %i.\n
+WaveOut - 
+Wednesday
+WideCharToMultiByte
+WriteConsoleA
+WriteConsoleW
+WriteFile
+X4I+
+XDIR
+XDLS
+ZyrI
+[%.02d:%.02d:%.02d.%.03d] 
+\r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
+\t%s, labeled (%s) - status %s\n
+\t%s: refcount: %d\n
+^\sY0
 _AIL_3D_distance_factor@4
 _AIL_3D_doppler_factor@4
 _AIL_3D_rolloff_factor@4
@@ -1192,8 +893,6 @@ _AIL_close_soundbank@4
 _AIL_close_stream@4
 _AIL_configure_logging@12
 _AIL_create_event@0
-AIL_debug
-AIL_debug_log
 _AIL_decompress_ADPCM@12
 _AIL_decompress_ASI@24
 _AIL_digital_CPU_percent@4
@@ -1256,7 +955,6 @@ _AIL_get_soundbank_mem_usage@4
 _AIL_get_soundbank_name@4
 _AIL_get_time@0
 _AIL_get_timer_highest_delay@0
-AIL_indent
 _AIL_init_sample@8
 _AIL_install_bus_compressor@16
 _AIL_last_error@0
@@ -1276,7 +974,6 @@ _AIL_mem_free_lock@4
 _AIL_mem_open@8
 _AIL_mem_pos@4
 _AIL_mem_printc@8
-AIL_mem_printf
 _AIL_mem_prints@8
 _AIL_mem_read@12
 _AIL_mem_seek@8
@@ -1440,7 +1137,6 @@ _AIL_sleep@4
 _AIL_sound_asset_info@16
 _AIL_speaker_configuration@20
 _AIL_speaker_reverb_levels@16
-AIL_sprintf
 _AIL_start_all_timers@0
 _AIL_start_sample@4
 _AIL_start_sample_group@12
@@ -1461,7 +1157,6 @@ _AIL_stream_status@4
 _AIL_stream_user_data@8
 _AIL_stricmp@8
 _AIL_strnicmp@12
-AIL_sys_debug
 _AIL_system_state_level@4
 _AIL_time_to_ms@8
 _AIL_timer_thread_handle@4
@@ -1474,9 +1169,14 @@ _AIL_update_listener_3D_position@8
 _AIL_update_sample_3D_position@8
 _AIL_us_count64@0
 _AIL_us_count@0
+_AuxBusDAC0
+_AuxBusDb0
+_Bus
 _MIX_RIB_MAIN@20
 _MSS_alloc_info@16
 _MSS_free_info@16
+_MainBusDAC
+_MainBusDb
 _MilesAddEventSystem@4
 _MilesAddSoundBank@8
 _MilesAsyncFileCancel@4
@@ -1518,6 +1218,7 @@ _MilesStopSoundInstances@12
 _MilesTextDumpEventSystem@0
 _MilesUseTelemetry@4
 _MilesUseTmLite@4
+_RIB_Main@20
 _RIB_alloc_provider_handle@4
 _RIB_enumerate_interface@20
 _RIB_enumerate_providers@12
@@ -1540,3 +1241,108 @@ _RIB_set_provider_system_data@12
 _RIB_set_provider_user_data@12
 _RIB_type_string@8
 _RIB_unregister_interface@16
+_cabs
+_hypot
+_logb
+_nextafter
+`EdFIhJ
+`h`hhh
+aDJ=
+abcdefghijklmnopqrstuvwxyz
+acos
+adtl
+asin
+atan
+atan2
+c?e2
+cb~q
+ceil
+complete
+cosh
+cue 
+data
+dddd, MMMM dd, yyyy
+e+000
+exp10
+fSOs
+fabs
+fact
+floor
+fmod
+fmt 
+frexp
+hI{L[
+hb?O2
+ibzP
+k:UG
+kU'9
+labl
+ldexp
+log10
+ls1=
+lstrcatA
+m1WY$
+modf
+mss32.dll
+np?z 
+pending
+playing
+pnJ=
+qRAD_USE_TGT
+r7Yr7=
+r\nly
+raB3G
+runtime error 
+sU0&?W
+sffd4d4fff
+sinh
+smpl
+sqrt
+ssfsd1d1d1
+sssd1
+ssssd4d4d4c4d4
+sssssc1d1fd1
+ssssssssd4d1d1uuc1c1sfffffd1d1
+tLVv
+tanh
+timeBeginPeriod
+timeEndPeriod
+timeGetTime
+u?^p?o4
+uXO=
+unknown
+vH7B
+w7H-
+waveInAddBuffer
+waveInAddBuffer() failed, code = 0x%X\n
+waveInClose
+waveInOpen
+waveInOpen() failed, code = 0x%X\n
+waveInPrepareHeader
+waveInPrepareHeader() failed, code = 0x%X\n
+waveInReset
+waveInStart
+waveInStart() failed, code = 0x%X\n
+waveInUnprepareHeader
+waveOutClose
+waveOutGetDevCapsA
+waveOutGetID
+waveOutOpen
+waveOutOpen() failed.
+waveOutPrepareHeader
+waveOutReset
+waveOutUnprepareHeader
+waveOutWrite
+wsprintfA
+xppwpp
+xpxxxx
+yE>H
+yx|o
+z1}B
+z?aUY
+zc%C1
+zyC7
+{4Wf
+|W8A=
+}6lw
+}Tw5

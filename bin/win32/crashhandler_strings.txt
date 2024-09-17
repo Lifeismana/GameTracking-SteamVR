@@ -1,888 +1,182 @@
-Mb@?
                           
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-                          
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
-.?AVIBreakpadFactory@@
+   ! " % & ' : < G H I 
+  HEAP_ZERO_MEMORY is specified.\n
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ GiB
+ KiB
+ MiB
+ Type Descriptor'
+ bytes
+ delete
+ delete[]
+ new
+"; filename="
+#D5p
+%02d:%02d:%02d
+%04d%02d%02d%02d%02d%02d
+%d,%p,%u,%u,%u,%u,%u,%d,%s\n
+%lld
+%u MB address space used assuming maximum PageHeap overhead.\n
+%u MB allocated.\n
+%u MB memory used assuming maximum PageHeap overhead.\n
+%u lifetime allocations (%u delta).\n
+%u outstanding allocations (%d delta).\n
+&AElig;
+&Aacute;
+&Acirc;
+&Agrave;
+&Aring;
+&Atilde;
+&Auml;
+&Ccedil;
+&ETH;
+&Eacute;
+&Ecirc;
+&Egrave;
+&Euml;
+&Iacute;
+&Icirc;
+&Igrave;
+&Iuml;
+&Ntilde;
+&Oacute;
+&Ocirc;
+&Ograve;
+&Oslash;
+&Otilde;
+&Ouml;
+&Sgw
+&THORN;
+&Uacute;
+&Ucirc;
+&Ugrave;
+&Uuml;
+&Yacute;
+&aacute;
+&acirc;
+&acute;
+&aelig;
+&agrave;
+&amp;
+&apos;
+&aring;
+&atilde;
+&auml;
+&brvbar;
+&ccedil;
+&cedil;
+&cent;
+&copy;
+&curren;
+&deg;
+&divide;
+&eacute;
+&ecirc;
+&egrave;
+&eth;
+&euml;
+&euro;
+&frac12;
+&frac14;
+&frac34;
+&iacute;
+&icirc;
+&iexcl;
+&igrave;
+&iquest;
+&iuml;
+&laquo;
+&macr;
+&mdash;
+&micro;
+&middot;
+&nbsp;
+&ndash;
+&not;
+&ntilde;
+&oacute;
+&ocirc;
+&ograve;
+&ordf;
+&ordm;
+&oslash;
+&otilde;
+&ouml;
+&para;
+&plusmn;
+&pound;
+&quot;
+&raquo;
+&reg;
+&sect;
+&shy;
+&sup1;
+&sup2;
+&sup3;
+&szlig;
+&thorn;
+&times;
+&trade;
+&uacute;
+&ucirc;
+&ugrave;
+&uml;
+&uuml;
+&yacute;
+&yen;
+&yuml;
+( 8PX
+('8PW
+(Function name not found)
+(null)
+***** OUT OF MEMORY! attempted allocation size: %I64d ****\n
+***** OUT OF MEMORY! attempted allocation size: %llu ****\n
+-NOPROCESSHEAP
+-PROCESSHEAP
+-PROCESSHEAPZEROMEM
+-RESERVELOWMEM
+-noassert
+-nocrashdialog
+.00cfg
+.=log10
+.?AU_Crt_new_delete@std@@
+.?AUctype_base@std@@
+.?AV?$codecvt@DDU_Mbstatet@@@std@@
+.?AV?$ctype@D@std@@
 .?AVCBreakpadFactory@@
-.?AVICrashHandler@@
 .?AVCCrashHandler@@
-.?AVIMemAlloc@@
-.?AVCStdMemAlloc@@
 .?AVCHeapDefault@@
 .?AVCHeapMemAlloc@@
 .?AVCPathString@@
+.?AVCStdMemAlloc@@
+.?AVCUniformRandomStream@@
+.?AVCUtlCStringConversion@@
 .?AVCUtlCharConversion@@
 .?AVCUtlNoEscConversion@@
-.?AVCUtlCStringConversion@@
+.?AVIBreakpadFactory@@
+.?AVICrashHandler@@
+.?AVIMemAlloc@@
 .?AVIUniformRandomStream@@
-.?AVCUniformRandomStream@@
+.?AV_Facet_base@std@@
+.?AV_Locimp@locale@std@@
 .?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_exception@std@@
+.?AVcodecvt_base@std@@
 .?AVexception@std@@
-.?AVlogic_error@std@@
+.?AVfacet@locale@std@@
 .?AVlength_error@std@@
+.?AVlogic_error@std@@
 .?AVout_of_range@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
-.?AVbad_array_new_length@std@@
-.?AVbad_exception@std@@
-.?AV_Facet_base@std@@
-.?AV_Locimp@locale@std@@
-.?AVfacet@locale@std@@
-.?AU_Crt_new_delete@std@@
-.?AVcodecvt_base@std@@
-.?AUctype_base@std@@
-.?AV?$ctype@D@std@@
-.?AV?$codecvt@DDU_Mbstatet@@@std@@
-SteamErrorReporter_Running
-Starting minidump reporter process\n
-Failed spawning steam error reporter process.\n
-%lld
-crashhandler.dll
-/steamerrorreporter.exe
-Failed to find steamerrorreporter.exe\n
-/dumps
-map/set<T> too long
-crashhandler001
-crashhandler002
-c:\buildslave\vrpanorama_main_win32\build\src\public\tier0\vprof.h
-No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
-Assertion Failed: m_pParent
-Assertion Failed: m_pvOrigNameAddress
-Fatal assert failed: %s, line %d.  Application exiting.\n
-Fatal assert
-_ExitOnFatalAssert\n
-console
-\src\
-%s (%d) : 
-Exiting on SPEW_ABORT\n
-IsSpewActive
-Assertion Failed: %s
-Fatal Assertion Failed: %s
-Assertion Failed: 
-DONT_BREAK_ON_ASSERT
-c:\buildslave\vrpanorama_main_win32\build\src\public\tier0\threadtools.h
-Assertion Failed: m_cReentrancyCount >= 0
 .Aunknown
-c:\buildslave\vrpanorama_main_win32\build\src\tier0\memstd.h
-InitVirtualHeap( %d ) called twice (%d, %d)\n
-c:\buildslave\vrpanorama_main_win32\build\src\tier0\memstd.cpp
-Assertion Failed: ((size_t)(m_nLogicalBytesAllocated) % 8) == 0
-Total Virtual %llu\n
-Avail Virtual %llu\n
-hHeap %p\n
-Uncommitted %llu\n
-Uncommitted OverHead %llu\n
-Uncommitted blocks %u\n
-Used %llu\n
-Used Overhead %llu\n
-Used blocks %u\n
-Used Overhead ( beyond 4 byte alignment ) %llu\n
-Other %llu\n
-Other Overhead %llu\n
-Other blocks %u\n
-Other Overhead ( beyond 4 byte alignment ) %llu\n
-Committed size %llu\n
-Committed size in large blocks %llu\n
-Uncommitted size %llu\n
-Free fragments %llu\n
-total bytes
-count
-Free blocks size %12s %12s %12s %12s\n
-Free blocks size %12u %12u %12u %12llu\n
-Used blocks size %12u %12u %12u %12llu\n
-Other blocks size %12u %12u %12u %12llu\n
-The low-fragmentation heap has been enabled for heap %p.\n
-Failed to enable the low-fragmentation heap on %p with LastError %d.\n
-HeapCompatibilityInformation for %p is %d.\n
-heap %p is a standard heap.\n
-heap %p supports look-aside lists.\n
-heap %p has the low-fragmentation heap enabled.\n
-Unrecognized HeapInformation reported for heap %p.\n
-Failed to query heap information.\n
-No tracked allocs currently in use. Total %d\n
-Tracked allocs currently in use. %d Total %d\n
-item %p sentinel corrupted. skipping.\n
-Busy, please retry.\n
-\t%s - %s:%d\n
-SBH:\n
-Compact is no longer supported\n
-***** OUT OF MEMORY! attempted allocation size: %llu ****\n
-Assertion Failed: (iub & (m_nSizeWithStack-1)) == 0
-Assertion Failed: pAllocTracker->m_uSentinel == 0xaa110ced
-invalid hash bucket count
-Assertion Failed: iCurPool == GET_NUM_POOLS( SBH_MAX )
-Assertion Failed: ShouldUse( nBytes )
-Pool %i: Size: %llu Allocated: %i Free: %i Committed: %i CommittedSize: %i\n
-Totals: blocks:%u Committed:%u kb Allocated:%u kb\n
-Pool %4llu: allocated:%6i free:%6i committed:%6i (size:%5u kb)\n
-Totals: blocks:%u Committed:%u MB Allocated:%u MB\n
-Alloc(): iPage >= 0 && iPage < %d, iPage == %d, pResult = 0x%p, pSharedData->m_pBase == 0x%p
-Free( 0x%p ): iPage >= 0 && iPage < %d, iPage == %d
-O-debugbreak
--noassert
--nocrashdialog
-File: %s\r\nLine: %d\r\nAssertion: %s\r\n
-Couldn't copy to clipboard.
-Assert
-Assert Dialog
-c:\buildslave\vrpanorama_main_win32\build\src\tier0\minidump.cpp
-Someone called SetWritingMinidump without holding the minidump lock.
-Someone called ClearWritingMinidump without holding the minidump lock.
-tier0_s.dll
-Steam
-16:14:19
-Apr  9 2018
-CreateInterface
-%02d:%02d:%02d
-%04d%02d%02d%02d%02d%02d
-Assert( %s ):%s:%d\n
-EnumProcesses
-psapi.dll
-EnumProcessModules
-GetModuleBaseNameA
-MainThrd
-c:\buildslave\vrpanorama_main_win32\build\src\tier0\threadtools.cpp
-Bad thread local
-Out of thread local storage!\n
-c:\buildslave\vrpanorama_main_win32\build\src\tier0\validator.cpp
-CValidator : too many memory nodes to store, try again with a higher threshold value\n
-Assertion Failed: NULL != m_pValObjectCur
-C-runtime internal
-PS3 Unattributed
- bytes
- GiB
- MiB
- KiB
-%i%s
-%%.%if%s
->c:\buildslave\vrpanorama_main_win32\build\src\tier0\vprof.cpp
-Assertion Failed: m_nRecursions > 0
-Root
-Assertion Failed: m_pBudgetGroups == NULL
-Unaccounted
-Sleeping
-VGUI
-FileSystem
-ClientDLL
-SteamUI
-Network
-Encryption
-OverlayRendering
-OverlayInput
-GameOverlayUI
-RunCallbacks
-Logger
-Jobs/Coroutines
-ServerMain
-Streaming
-ThreadWorkItem
-TenFoot
-Assertion Failed: m_CounterNames[n]
-Assertion Failed: m_pBudgetGroups
-@DbgHelp.dll
-StackWalk64
-SymSetOptions
-SymInitialize
-SymGetLineFromAddr64
-SymFromAddr
-SymCleanup
-SymFunctionTableAccess64
-SymGetModuleBase64
-(Function name not found)
-Global Constructor
-Failed to capture symbols - gle %d - make sure frame pointers are being emited\n
-Assertion Failed: stack%2d: %s (%d): %s
-Stack:%2d    %s (%d): %s\n
-Stack:%2d    0x%08I64x (File and line number not available): %s\n
-PageHeap is on. Memory use will be larger than normal.\n
-PageHeap is off. Memory use will be normal.\n
-  HEAP_ZERO_MEMORY is specified.\n
-***** OUT OF MEMORY! attempted allocation size: %I64d ****\n
-Sorry -- no stats saved to file memstats.txt when the heap allocator is enabled.\n
-%u MB allocated.\n
-%u MB memory used assuming maximum PageHeap overhead.\n
-%u MB address space used assuming maximum PageHeap overhead.\n
-%u outstanding allocations (%d delta).\n
-%u lifetime allocations (%u delta).\n
-HeapSetInformation
-HeapQueryInformation
-Failed to query heap information, HeapQueryInformation() not found\n
-Failed to enable the low-fragmentation, HeapSetInformation() not found\n
-Trailing space on executable name! This will cause Application Verifier and ETW Heap tracing to fail!\n
-Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\%s
-StackTraceDatabaseSizeInMB
-PageHeapFlags
-TracingFlags
--RESERVELOWMEM
--PROCESSHEAP
--PROCESSHEAPZEROMEM
--NOPROCESSHEAP
-@Fv^k
-&3\t\v&!
-/Tw\n4
-[9x)bwCTSListBase: Misaligned list\n
-C Runtime heap
-Default heap
-App Heap
-c:\buildslave\vrpanorama_main_win32\build\src\tier0\heapdump.cpp
-No Process Heaps!
-\nHeap Dump - All (%d heaps)\n
-CRT Heap index=%p, Default Heap index=%p\n
-Heap(%4.4d) Base=0x%p TotalAlloc=0x%p AllocWithOverhead=0x%p TotalFree=0x%p TotalBytes=0x%p Blocks=%8d Type=%2.2d Note=%12.12s\n
-Total      TotalBytes=0x%llx TotalAlloc=0x%llx TotalAllocWithOverhead=0x%llx TotalFree=0x%llx Total Blocks=%8lld\n
-heapdump.csv
-Can't dump heaps until you've walked them!\n
-Heap#,Heap Handle,Allocated Bytes,Allocated Bytes(with overhead),Free Bytes,Total Bytes,Blocks,Heap Type,HeapNote\n
-%d,%p,%u,%u,%u,%u,%u,%d,%s\n
-Free blocks size,%12u,%12u,%12u,%u\n
-Alc blocks size,%12u,%12u,%12u,%u\n
-Subj blocks,%12d,%12d,%12u\n
-c:\buildslave\vrpanorama_main_win32\build\src\tier0\valobject.cpp
-Assertion Failed: NULL == pValObjectPrev->m_pValObjectNext
-BSQ_cache_reference
-GenuineIntel
-AuthenticAMD
-\\.\GDPERF
-\\.\GDPERF.VXD
-CPathString
-c:\buildslave\vrpanorama_main_win32\build\src\tier1\fileio.cpp
-V_RemoveDotSlashes failed for "%s".
-GetFileInformationByHandleEx
-c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlbuffer.cpp
-Assertion Failed: info.m_pReplacementString == 0
-&Uacute;
-&Ucirc;
-&Uuml;
-&Yacute;
-&THORN;
-&szlig;
-&agrave;
-&aacute;
-&acirc;
-&atilde;
-&auml;
-&aring;
-&aelig;
-&ccedil;
-&egrave;
-&eacute;
-&ecirc;
-&euml;
-&igrave;
-&iacute;
-&icirc;
-&iuml;
-&eth;
-&ntilde;
-&ograve;
-&oacute;
-&ocirc;
-&otilde;
-&ouml;
-&oslash;
-&ugrave;
-&uacute;
-&ucirc;
-&uuml;
-&yacute;
-&thorn;
-&yuml;
-   ! " % & ' : < G H I 
-!6"t%
-0\t0\v0\r0
-0;0A0C0E0G0I0c0
- 5 9 
-0\n0\f0
-&quot;
-&#039;
-&lt;
-&gt;
-&amp;
-&nbsp;
-<br>
-&apos;
-&trade;
-&copy;
-&reg;
-&ndash;
-&mdash;
-&euro;
-&iexcl;
-&cent;
-&pound;
-&curren;
-&yen;
-&brvbar;
-&sect;
-&uml;
-&ordf;
-&laquo;
-&not;
-&shy;
-&macr;
-&deg;
-&plusmn;
-&sup2;
-&sup3;
-&acute;
-&micro;
-&para;
-&middot;
-&cedil;
-&sup1;
-&ordm;
-&raquo;
-&frac14;
-&frac12;
-&frac34;
-&iquest;
-&times;
-&divide;
-&Agrave;
-&Aacute;
-&Acirc;
-&Atilde;
-&Auml;
-&Aring;
-&AElig;
-&Ccedil;
-&Egrave;
-&Eacute;
-&Ecirc;
-&Euml;
-&Igrave;
-&Iacute;
-&Icirc;
-&Iuml;
-&ETH;
-&Ntilde;
-&Ograve;
-&Oacute;
-&Ocirc;
-&Otilde;
-&Ouml;
-&Oslash;
-&Ugrave;
-c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools.cpp
-Assertion Failed: n == 0 || s1 != NULL
-Assertion Failed: n == 0 || s2 != NULL
-Assertion Failed: maxLen == 0 || pDest != NULL
-Assertion Failed: pSrc != NULL
-Assertion Failed: maxLenInBytes >= 0
-Assertion Failed: maxLenInBytes == 0 || pDest != NULL
-Assertion Failed: bufferLen > 0 && bufferLen <= INT_MAX
-Assertion Failed: pDest != NULL
-Assertion Failed: pFormat != NULL
-Assertion Failed: destCapacity != 0
-Assertion Failed: ppath
-Assertion Failed: len < maxlen
-c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools_unicode.cpp
-invalid input pointer
-Unknown exception
-bad allocation
-bad array new length
-bad exception
-FlsAlloc
-FlsFree
-FlsGetValue
-FlsSetValue
-InitializeCriticalSectionEx
-__based(
-__cdecl
-__pascal
-__stdcall
-__thiscall
-__fastcall
-__vectorcall
-__clrcall
-__eabi
-__ptr64
-__restrict
-__unaligned
-restrict(
- new
- delete
-operator
-`vftable'
-`vbtable'
-`vcall'
-`typeof'
-`local static guard'
-`string'
-`vbase destructor'
-`vector deleting destructor'
-`default constructor closure'
-`scalar deleting destructor'
-`vector constructor iterator'
-`vector destructor iterator'
-`vector vbase constructor iterator'
-`virtual displacement map'
-`eh vector constructor iterator'
-`eh vector destructor iterator'
-`eh vector vbase constructor iterator'
-`copy constructor closure'
-`udt returning'
-`RTTI
-`local vftable'
-`local vftable constructor closure'
- new[]
- delete[]
-`omni callsig'
-`placement delete closure'
-`placement delete[] closure'
-`managed vector constructor iterator'
-`managed vector destructor iterator'
-`eh vector copy constructor iterator'
-`eh vector vbase copy constructor iterator'
-`dynamic initializer for '
-`dynamic atexit destructor for '
-`vector copy constructor iterator'
-`vector vbase copy constructor iterator'
-`managed vector copy constructor iterator'
-`local static thread guard'
-operator "" 
-operator co_await
- Type Descriptor'
- Base Class Descriptor at (
- Base Class Array'
- Class Hierarchy Descriptor'
- Complete Object Locator'
-( 8PX
-700WP
-`h````
-xpxxxx
-('8PW
-700PP
-`h`hhh
-xwpwpp
-(null)
-d8L2
-[aOni*{
-@2&@
-"RP(
-eLK(w
-m\nXo
-FEMh\f
-h0'D
-owM&
-~ $s%r
-@b;zO]
-$qE}
-;*xh
-["93
-iu+-,
-\lo}
-obwQ4
-&Sgw
-R\tE]
-?nz(
-0+L\v
-=87M
-v2!L.2
-\tcQr
-X/4B
-k=yI
-^<V7w
-W&|.
-INITY
-inity
-INITY
-inity
-SNAN)
-snan)
-IND)ind)SNAN)
-snan)
-IND)ind)m
-CorExitProcess
-sqrt
-NAN(SNAN)
-nan(snan)
-NAN(IND)
-nan(ind)
-e+000
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-Sunday
-Monday
-Tuesday
-Wednesday
-Thursday
-Friday
-Saturday
-January
-February
-March
-April
-June
-July
-August
-September
-October
-November
-December
-MM/dd/yy
-dddd, MMMM dd, yyyy
-HH:mm:ss
-UTF-8
-UTF-16LEUNICODE
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-\t\n\v\f\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
-AreFileApisANSI
-CompareStringEx
-EnumSystemLocalesEx
-GetCurrentPackageId
-GetLocaleInfoEx
-GetSystemTimePreciseAsFileTime
-GetUserDefaultLocaleName
-IsValidLocaleName
-LCMapStringEx
-LCIDToLocaleName
-LocaleNameToLCID
-UUUUU
-1#INF
-1#QNAN
-1#SNAN
-1#IND
-log10
-asin
-acos
-sqrt
-?Dj0Q:W$=
-Lyc>=
-?C;0=
-5M[g
-?D\fi
-\f0$=
-M_8=
-/r(=
-?4j<=
-Nl,"=
-\v>)g
-Xg+=
-?{fHn
-5s3R6=
-\fO4W
-?#60
-.=log10
-tanh
-atan
-atan2
-ceil
-floor
-fabs
-modf
-ldexp
-_cabs
-_hypot
-fmod
-frexp
-_logb
-_nextafter
-sinh
-cosh
-lzZ?
-\tk8=
-?5Wg4p
-Nv$^
-w(@\t
-BC .=
-(lX 
-#{ =
-`~R=
-}s"=
-\tE[\n
-%S#[k
-"B <1=
-\-!y
-\f#.X'=
-i9+=
-address family not supported
-address in use
-address not available
-already connected
-argument list too long
-argument out of domain
-bad address
-bad file descriptor
-bad message
-broken pipe
-connection aborted
-connection already in progress
-connection refused
-connection reset
-cross device link
-destination address required
-device or resource busy
-directory not empty
-executable format error
-file exists
-file too large
-filename too long
-function not supported
-host unreachable
-identifier removed
-illegal byte sequence
-inappropriate io control operation
-interrupted
-invalid argument
-invalid seek
-io error
-is a directory
-message size
-network down
-network reset
-network unreachable
-no buffer space
-no child process
-no link
-no lock available
-no message available
-no message
-no protocol option
-no space on device
-no stream resources
-no such device or address
-no such device
-no such file or directory
-no such process
-not a directory
-not a socket
-not a stream
-not connected
-not enough memory
-not supported
-operation canceled
-operation in progress
-operation not permitted
-operation not supported
-operation would block
-owner dead
-permission denied
-protocol error
-protocol not supported
-read only file system
-resource deadlock would occur
-resource unavailable try again
-result out of range
-state not recoverable
-stream timeout
-text file busy
-timed out
-too many files open in system
-too many files open
-too many links
-too many symbolic link levels
-value too large
-wrong protocol type
-unknown error
-InitOnceExecuteOnce
-CreateEventExW
-CreateSemaphoreW
-CreateSemaphoreExW
-CreateThreadpoolTimer
-SetThreadpoolTimer
-WaitForThreadpoolTimerCallbacks
-CloseThreadpoolTimer
-CreateThreadpoolWait
-SetThreadpoolWait
-CloseThreadpoolWait
-FlushProcessWriteBuffers
-FreeLibraryWhenCallbackReturns
-GetCurrentProcessorNumber
-CreateSymbolicLinkW
-GetTickCount64
-SetFileInformationByHandle
-InitializeConditionVariable
-WakeConditionVariable
-WakeAllConditionVariable
-SleepConditionVariableCS
-InitializeSRWLock
-AcquireSRWLockExclusive
-TryAcquireSRWLockExclusive
-ReleaseSRWLockExclusive
-SleepConditionVariableSRW
-CreateThreadpoolWork
-SubmitThreadpoolWork
-CloseThreadpoolWork
-0123456789abcdefghijklmnopqrstuvwxyz
-\r\f\v\v\n\n\t\t\t\t\t
-0123456789abcdefghijklmnopqrstuvwxyz
-\r\r\r\r\r\r
-?X&eB
-?Ltm
-tLVv
-?h6_~
-37.=
-?7Tf(
-=\uI=
-g:"(
-$O1=
-uXO=
-1w<=
->'eH
-pnJ=
-Ht=c
-t\f'=
-]vQ<)8
-z1}B
-X4I+
-|)P!?Ua0
-\t\t!=
-+34?
-??7;\fW
-MkK?
-R_V?
-\r9&\?
-Eb2]A=
-f#I=
-hb?O2
-H`3=
-c?e2
-Le?2
-0h?[
-2ieO=
-|W8A=
-np?z 
-m{\rM=
-)(q?
-}~:f
-&\rt?,&
-u?^p?o4
-!9v?
-GYM=
-Pex?0
-6K{?
-E\tM=
-X-F=
-w}?0
-y1~?|"
-x\vI=
-V%A+=
-4';=
-q\t! 
-#D5p
-\n^!E
-La8i
-{4Wf
-Ai0T
-@VNQ
-p4"%
-P'E=
-ls1=
-?PiB
-{^C=
- `\v?
-r" \f?
-n{;=
-3<L=
-?|I7Z#
-aDJ=
->,'1D=
-+NB=
-?g)([|X>=
-?|[{
-~*L=
-u!K=
-?IT$7
--8 ?
-.h ?
-2 !?
-\f4P!?
-!y##
-98"?
-:h"?bC
-? #?
-@H#?43
-Ax#?uN}*
-r7Yr7=
-.K="=
-F0$?3=1
-H`$?h|
-%?uY
-NH%?
-Px%?
-%?\9\f
-&?~YK|
-sU0&?W
-VX&?
-4g%6
-:]=O>
-#w_j
-(+E 
-V~|_
-!|.4
-G"jm\n>;
-/h\f7
-6(`J
-k:UG
-UY =
-Bfe9
-E=|\n
-CqTR;
-AiFC.
-?5a1
-<{Q}<
-hI{L[
-<8bunz8
-?}\r?
-<V/>
-?(FN\
-<'*6
-C}<\r
-?3xj
-<)TH
-K<<H!
-m1WY$
-?#%X.y
-F||<##
-$x<e
-]{f\f
-<]%>
-T~OXu
-?.)T
-zyC7
-k7+%
-<@En[vP
-string too long
-invalid string position
-GBP1\n
-kernel32.dll
-GetProcessId
-ntdll.dll
-ZwQueryInformationProcess
-MiniDumpWriteDump
-UuidCreate
-warning: removing Breakpad handler out of order\n
-invalid vector<T> subscript
-vector<T> too long
-list<T> too long
-unknown exception
-bad locale name
-iostream
-iostream stream error
-ios_base::badbit set
-ios_base::failbit set
-ios_base::eofbit set
-"\r\n\r\n
-Content-Disposition: form-data; name="
-"; filename="
-Content-Type: application/octet-stream\r\n
---\r\n
-RSDS
-c:\buildslave\vrpanorama_main_win32\build\src\crashhandler\Release\crashhandler.pdb
-GCTL
-.text$di
-.text$mn
-.text$x
-.text$yd
-.idata$5
-.00cfg
 .CRT$XCA
 .CRT$XCC
 .CRT$XCD
@@ -900,206 +194,752 @@ GCTL
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.bss
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
 .rdata
 .rdata$T
 .rdata$r
 .rdata$sxdata
 .rdata$zzzdbg
+.rsrc$01
+.rsrc$02
 .rtc$IAA
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
+.text$di
+.text$mn
+.text$x
+.text$yd
 .tls
 .tls$
 .tls$ZZZ
 .xdata$x
-.edata
-.idata$2
-.idata$3
-.idata$4
-.idata$6
-.data
-.data$r
-.bss
-.rsrc$01
-.rsrc$02
-crashhandler.dll
+/Tw\n4
+/dumps
+/steamerrorreporter.exe
+0123456789abcdefghijklmnopqrstuvwxyz
+0;0A0C0E0G0I0c0
+0\n0\f0
+0\t0\v0\r0
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+16:14:19
+2ieO=
+4g%6
+5M[g
+5s3R6=
+700PP
+700WP
+<8bunz8
+<@En[vP
+=87M
+>c:\buildslave\vrpanorama_main_win32\build\src\tier0\vprof.cpp
+?3xj
+?5Wg4p
+?5a1
+?7Tf(
+?Dj0Q:W$=
+?IT$7
+?Ltm
+?PiB
+?X&eB
+?{fHn
+@DbgHelp.dll
+@Fv^k
+@VNQ
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ADVAPI32.dll
+AcquireSRWLockExclusive
+Ai0T
+AiFC.
+Alc blocks size,%12u,%12u,%12u,%u\n
+Alloc(): iPage >= 0 && iPage < %d, iPage == %d, pResult = 0x%p, pSharedData->m_pBase == 0x%p
+App Heap
+Apr  9 2018
+April
+AreFileApisANSI
+Assert
+Assert Dialog
+Assert( %s ):%s:%d\n
+Assertion Failed: 
+Assertion Failed: %s
+Assertion Failed: ((size_t)(m_nLogicalBytesAllocated) % 8) == 0
+Assertion Failed: (iub & (m_nSizeWithStack-1)) == 0
+Assertion Failed: NULL != m_pValObjectCur
+Assertion Failed: NULL == pValObjectPrev->m_pValObjectNext
+Assertion Failed: ShouldUse( nBytes )
+Assertion Failed: bufferLen > 0 && bufferLen <= INT_MAX
+Assertion Failed: destCapacity != 0
+Assertion Failed: iCurPool == GET_NUM_POOLS( SBH_MAX )
+Assertion Failed: info.m_pReplacementString == 0
+Assertion Failed: len < maxlen
+Assertion Failed: m_CounterNames[n]
+Assertion Failed: m_cReentrancyCount >= 0
+Assertion Failed: m_nRecursions > 0
+Assertion Failed: m_pBudgetGroups
+Assertion Failed: m_pBudgetGroups == NULL
+Assertion Failed: m_pParent
+Assertion Failed: m_pvOrigNameAddress
+Assertion Failed: maxLen == 0 || pDest != NULL
+Assertion Failed: maxLenInBytes == 0 || pDest != NULL
+Assertion Failed: maxLenInBytes >= 0
+Assertion Failed: n == 0 || s1 != NULL
+Assertion Failed: n == 0 || s2 != NULL
+Assertion Failed: pAllocTracker->m_uSentinel == 0xaa110ced
+Assertion Failed: pDest != NULL
+Assertion Failed: pFormat != NULL
+Assertion Failed: pSrc != NULL
+Assertion Failed: ppath
+Assertion Failed: stack%2d: %s (%d): %s
+August
+AuthenticAMD
+Avail Virtual %llu\n
+BSQ_cache_reference
+Bad thread local
+Bfe9
 Breakpad_SetSteamID
-CreateInterface
-g_dwDllEntryThreadId
-GetLastError
-Sleep
+Busy, please retry.\n
+C Runtime heap
+C-runtime internal
+CPathString
+CRT Heap index=%p, Default Heap index=%p\n
+CValidator : too many memory nodes to store, try again with a higher threshold value\n
+Can't dump heaps until you've walked them!\n
+ClientDLL
+CloseClipboard
 CloseHandle
-GetSystemTimeAsFileTime
-CreateEventA
-GetModuleFileNameW
-GetModuleHandleA
-CreateProcessW
-OutputDebugStringA
-OutputDebugStringW
-KERNEL32.dll
-EnumProcessModules
-GetModuleBaseNameW
-GetProcessMemoryInfo
-PSAPI.DLL
-GetSystemTime
-RtlCaptureContext
-EnterCriticalSection
-GetCurrentProcess
-ReleaseSemaphore
-InterlockedDecrement
-LeaveCriticalSection
-InitializeCriticalSection
-WaitForSingleObject
-CreateFileW
-GetCurrentThreadId
-TerminateThread
-LoadLibraryW
-CreateThread
-GetProcAddress
-DeleteCriticalSection
-FreeLibrary
-CreateSemaphoreW
-InterlockedIncrement
-OpenThread
-VirtualQueryEx
-SetUnhandledExceptionFilter
-TerminateProcess
-IsDebuggerPresent
-QueryPerformanceCounter
-QueryPerformanceFrequency
-InterlockedCompareExchange
-GlobalMemoryStatusEx
-LocalAlloc
-LocalFree
-VirtualAlloc
-GetCurrentProcessId
-LoadLibraryA
-GetModuleFileNameA
-GetCommandLineW
-WideCharToMultiByte
-GetProcessHeap
-HeapLock
-HeapUnlock
-HeapWalk
-HeapSetInformation
-HeapQueryInformation
-GetCommandLineA
-GlobalAlloc
-GlobalLock
-GlobalUnlock
-LoadLibraryExA
-LoadLibraryExW
-MultiByteToWideChar
-SetEvent
-RaiseException
-GetCurrentThread
-GetExitCodeThread
-SetLastError
-InitializeCriticalSectionAndSpinCount
-TryEnterCriticalSection
-ResetEvent
-WaitForMultipleObjects
-TlsAlloc
-TlsGetValue
-TlsSetValue
-TlsFree
-InterlockedExchange
-DebugBreak
-InterlockedExchangeAdd
-HeapAlloc
-HeapFree
-HeapSize
-HeapValidate
-GetProcessHeaps
-GetCurrentDirectoryW
-CreateDirectoryW
-GetFullPathNameW
-GetFileAttributesW
-DeviceIoControl
-CreateFileA
-GetVersionExA
-WriteFile
-ReadFile
-FlushFileBuffers
-SetEndOfFile
-FindClose
-GetDriveTypeW
-UnhandledExceptionFilter
-IsProcessorFeaturePresent
-GetStartupInfoW
-GetModuleHandleW
-InitializeSListHead
-RtlUnwind
-InterlockedFlushSList
-VirtualQuery
-ExitProcess
-GetModuleHandleExW
-SetEnvironmentVariableA
-GetACP
-GetStdHandle
-GetFileType
-GetStringTypeW
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CloseThreadpoolWork
+CommandLineToArgvW
+Committed size %llu\n
+Committed size in large blocks %llu\n
+Compact is no longer supported\n
+CompareStringEx
 CompareStringW
-LCMapStringW
-GetLocaleInfoW
-IsValidLocale
-GetUserDefaultLCID
+Content-Disposition: form-data; name="
+Content-Type: application/octet-stream\r\n
+Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
+CorExitProcess
+Couldn't copy to clipboard.
+CqTR;
+CreateDirectoryW
+CreateEventA
+CreateEventExW
+CreateEventW
+CreateFileA
+CreateFileW
+CreateInterface
+CreateProcessW
+CreateSemaphoreExW
+CreateSemaphoreW
+CreateSymbolicLinkW
+CreateThread
+CreateThreadpoolTimer
+CreateThreadpoolWait
+CreateThreadpoolWork
+DONT_BREAK_ON_ASSERT
+DebugBreak
+December
+Default heap
+DeleteCriticalSection
+DeviceIoControl
+DialogBoxParamA
+Eb2]A=
+EmptyClipboard
+Encryption
+EndDialog
+EnterCriticalSection
+EnumProcessModules
+EnumProcesses
+EnumSystemLocalesEx
 EnumSystemLocalesW
-GetTimeZoneInformation
-HeapReAlloc
+EnumWindows
+ExitProcess
+Exiting on SPEW_ABORT\n
+F0$?3=1
+FEMh\f
+Failed spawning steam error reporter process.\n
+Failed to capture symbols - gle %d - make sure frame pointers are being emited\n
+Failed to enable the low-fragmentation heap on %p with LastError %d.\n
+Failed to enable the low-fragmentation, HeapSetInformation() not found\n
+Failed to find steamerrorreporter.exe\n
+Failed to query heap information, HeapQueryInformation() not found\n
+Failed to query heap information.\n
+Fatal Assertion Failed: %s
+Fatal assert
+Fatal assert failed: %s, line %d.  Application exiting.\n
+February
+File: %s\r\nLine: %d\r\nAssertion: %s\r\n
+FileSystem
+FindClose
 FindFirstFileExA
 FindNextFileA
-IsValidCodePage
-GetOEMCP
-GetCPInfo
-GetEnvironmentStringsW
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FlushProcessWriteBuffers
+Free blocks size %12s %12s %12s %12s\n
+Free blocks size %12u %12u %12u %12llu\n
+Free blocks size,%12u,%12u,%12u,%u\n
+Free fragments %llu\n
+Free( 0x%p ): iPage >= 0 && iPage < %d, iPage == %d
 FreeEnvironmentStringsW
-SetStdHandle
+FreeLibrary
+FreeLibraryWhenCallbackReturns
+Friday
+GBP1\n
+GCTL
+GYM=
+GameOverlayUI
+GenuineIntel
+GetACP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
 GetConsoleCP
 GetConsoleMode
-SetFilePointerEx
-ReadConsoleW
-WriteConsoleW
-WaitForSingleObjectEx
-wsprintfA
-SetWindowPos
-IsWindowVisible
-DialogBoxParamA
-EndDialog
-GetDlgItem
-SetDlgItemInt
-GetDlgItemInt
-SetDlgItemTextA
-OpenClipboard
-CloseClipboard
-SetClipboardData
-EmptyClipboard
-GetWindowTextLengthA
-GetWindowRect
-MessageBoxA
+GetCurrentDirectoryW
+GetCurrentPackageId
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentProcessorNumber
+GetCurrentThread
+GetCurrentThreadId
 GetDesktopWindow
-EnumWindows
+GetDlgItem
+GetDlgItemInt
+GetDriveTypeW
+GetEnvironmentStringsW
+GetExitCodeThread
+GetFileAttributesW
+GetFileInformationByHandleEx
+GetFileType
+GetFullPathNameW
+GetLastError
+GetLocaleInfoEx
+GetLocaleInfoW
+GetModuleBaseNameA
+GetModuleBaseNameW
+GetModuleFileNameA
+GetModuleFileNameW
+GetModuleHandleA
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetProcessHeaps
+GetProcessId
+GetProcessMemoryInfo
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemTime
+GetSystemTimeAsFileTime
+GetSystemTimePreciseAsFileTime
+GetTickCount64
+GetTimeZoneInformation
+GetUserDefaultLCID
+GetUserDefaultLocaleName
+GetVersionExA
+GetWindowRect
+GetWindowTextLengthA
 GetWindowThreadProcessId
-USER32.dll
+Global Constructor
+GlobalAlloc
+GlobalLock
+GlobalMemoryStatusEx
+GlobalUnlock
+HH:mm:ss
+Heap#,Heap Handle,Allocated Bytes,Allocated Bytes(with overhead),Free Bytes,Total Bytes,Blocks,Heap Type,HeapNote\n
+Heap(%4.4d) Base=0x%p TotalAlloc=0x%p AllocWithOverhead=0x%p TotalFree=0x%p TotalBytes=0x%p Blocks=%8d Type=%2.2d Note=%12.12s\n
+HeapAlloc
+HeapCompatibilityInformation for %p is %d.\n
+HeapFree
+HeapLock
+HeapQueryInformation
+HeapReAlloc
+HeapSetInformation
+HeapSize
+HeapUnlock
+HeapValidate
+HeapWalk
+Ht=c
+HttpAddRequestHeadersW
+HttpOpenRequestW
+HttpQueryInfoW
+HttpSendRequestW
+IND)ind)SNAN)
+IND)ind)m
+INITY
+InitOnceExecuteOnce
+InitVirtualHeap( %d ) called twice (%d, %d)\n
+InitializeConditionVariable
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+InitializeSRWLock
+InterlockedCompareExchange
+InterlockedDecrement
+InterlockedExchange
+InterlockedExchangeAdd
+InterlockedFlushSList
+InterlockedIncrement
+InternetCloseHandle
+InternetConnectW
+InternetCrackUrlW
+InternetOpenW
+InternetQueryDataAvailable
+InternetReadFile
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsSpewActive
+IsValidCodePage
+IsValidLocale
+IsValidLocaleName
+IsWindowVisible
+January
+Jobs/Coroutines
+July
+June
+KERNEL32.dll
+LCIDToLocaleName
+LCMapStringEx
+LCMapStringW
+La8i
+Le?2
+LeaveCriticalSection
+LoadLibraryA
+LoadLibraryExA
+LoadLibraryExW
+LoadLibraryW
+LocalAlloc
+LocalFree
+LocaleNameToLCID
+Logger
+Lyc>=
+MM/dd/yy
+MainThrd
+March
+MessageBoxA
+MiniDumpWriteDump
+MkK?
+Monday
+MultiByteToWideChar
+NAN(IND)
+NAN(SNAN)
+Network
+No Process Heaps!
+No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
+No tracked allocs currently in use. Total %d\n
+November
+O-debugbreak
+October
+OpenClipboard
+OpenThread
+Other %llu\n
+Other Overhead %llu\n
+Other Overhead ( beyond 4 byte alignment ) %llu\n
+Other blocks %u\n
+Other blocks size %12u %12u %12u %12llu\n
+Out of thread local storage!\n
+OutputDebugStringA
+OutputDebugStringW
+OverlayInput
+OverlayRendering
+PS3 Unattributed
+PSAPI.DLL
+PageHeap is off. Memory use will be normal.\n
+PageHeap is on. Memory use will be larger than normal.\n
+PageHeapFlags
+Pex?0
+Pool %4llu: allocated:%6i free:%6i committed:%6i (size:%5u kb)\n
+Pool %i: Size: %llu Allocated: %i Free: %i Committed: %i CommittedSize: %i\n
+QueryPerformanceCounter
+QueryPerformanceFrequency
+RSDS
+RaiseException
+ReadConsoleW
+ReadFile
 RegCloseKey
 RegOpenKeyA
 RegQueryValueExA
-ADVAPI32.dll
-CommandLineToArgvW
+ReleaseSRWLockExclusive
+ReleaseSemaphore
+ResetEvent
+Root
+RtlCaptureContext
+RtlUnwind
+RunCallbacks
+SBH:\n
 SHELL32.dll
-HttpOpenRequestW
-InternetQueryDataAvailable
-InternetOpenW
-HttpQueryInfoW
-InternetCrackUrlW
-HttpSendRequestW
-InternetCloseHandle
-InternetConnectW
-InternetReadFile
-HttpAddRequestHeadersW
-WININET.dll
+SNAN)
+Saturday
+September
+ServerMain
+SetClipboardData
+SetDlgItemInt
+SetDlgItemTextA
+SetEndOfFile
+SetEnvironmentVariableA
+SetEvent
+SetFileInformationByHandle
+SetFilePointerEx
+SetLastError
 SetNamedPipeHandleState
+SetStdHandle
+SetThreadpoolTimer
+SetThreadpoolWait
+SetUnhandledExceptionFilter
+SetWindowPos
+Sleep
+SleepConditionVariableCS
+SleepConditionVariableSRW
+Sleeping
+Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\%s
+Someone called ClearWritingMinidump without holding the minidump lock.
+Someone called SetWritingMinidump without holding the minidump lock.
+Sorry -- no stats saved to file memstats.txt when the heap allocator is enabled.\n
+Stack:%2d    %s (%d): %s\n
+Stack:%2d    0x%08I64x (File and line number not available): %s\n
+StackTraceDatabaseSizeInMB
+StackWalk64
+Starting minidump reporter process\n
+Steam
+SteamErrorReporter_Running
+SteamUI
+Streaming
+Subj blocks,%12d,%12d,%12u\n
+SubmitThreadpoolWork
+Sunday
+SymCleanup
+SymFromAddr
+SymFunctionTableAccess64
+SymGetLineFromAddr64
+SymGetModuleBase64
+SymInitialize
+SymSetOptions
+TenFoot
+TerminateProcess
+TerminateThread
+The low-fragmentation heap has been enabled for heap %p.\n
+ThreadWorkItem
+Thursday
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Total      TotalBytes=0x%llx TotalAlloc=0x%llx TotalAllocWithOverhead=0x%llx TotalFree=0x%llx Total Blocks=%8lld\n
+Total Virtual %llu\n
+Totals: blocks:%u Committed:%u MB Allocated:%u MB\n
+Totals: blocks:%u Committed:%u kb Allocated:%u kb\n
+TracingFlags
+Tracked allocs currently in use. %d Total %d\n
+Trailing space on executable name! This will cause Application Verifier and ETW Heap tracing to fail!\n
 TransactNamedPipe
+TryAcquireSRWLockExclusive
+TryEnterCriticalSection
+Tuesday
+T~OXu
+USER32.dll
+UTF-16LEUNICODE
+UTF-8
+UUUUU
+Unaccounted
+Uncommitted %llu\n
+Uncommitted OverHead %llu\n
+Uncommitted blocks %u\n
+Uncommitted size %llu\n
+UnhandledExceptionFilter
+Unknown exception
+Unrecognized HeapInformation reported for heap %p.\n
+Used %llu\n
+Used Overhead %llu\n
+Used Overhead ( beyond 4 byte alignment ) %llu\n
+Used blocks %u\n
+Used blocks size %12u %12u %12u %12llu\n
+UuidCreate
+VGUI
+V_RemoveDotSlashes failed for "%s".
+VirtualAlloc
+VirtualQuery
+VirtualQueryEx
+WININET.dll
+WaitForMultipleObjects
+WaitForSingleObject
+WaitForSingleObjectEx
+WaitForThreadpoolTimerCallbacks
 WaitNamedPipeW
-CreateEventW
+WakeAllConditionVariable
+WakeConditionVariable
+Wednesday
+WideCharToMultiByte
+WriteConsoleW
+WriteFile
+X/4B
+X4I+
+ZwQueryInformationProcess
+[9x)bwCTSListBase: Misaligned list\n
+[aOni*{
+\\.\GDPERF
+\\.\GDPERF.VXD
+\fO4W
+\nHeap Dump - All (%d heaps)\n
+\r\f\v\v\n\n\t\t\t\t\t
+\src\
+\t%s - %s:%d\n
+\tcQr
+^<V7w
+_ExitOnFatalAssert\n
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__thiscall
+__unaligned
+__vectorcall
+_cabs
+_hypot
+_logb
+_nextafter
+`RTTI
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`h`hhh
+`local static guard'
+`local static thread guard'
+`local vftable constructor closure'
+`local vftable'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+aDJ=
+abcdefghijklmnopqrstuvwxyz
+acos
+address family not supported
+address in use
+address not available
+already connected
+argument list too long
+argument out of domain
+asin
+atan
+atan2
+bad address
+bad allocation
+bad array new length
+bad exception
+bad file descriptor
+bad locale name
+bad message
+broken pipe
+c:\buildslave\vrpanorama_main_win32\build\src\crashhandler\Release\crashhandler.pdb
+c:\buildslave\vrpanorama_main_win32\build\src\public\tier0\threadtools.h
+c:\buildslave\vrpanorama_main_win32\build\src\public\tier0\vprof.h
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\heapdump.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\memstd.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\memstd.h
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\minidump.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\threadtools.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\validator.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\valobject.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier1\fileio.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlbuffer.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools_unicode.cpp
+c?e2
+ceil
+connection aborted
+connection already in progress
+connection refused
+connection reset
+console
+cosh
+count
+crashhandler.dll
+crashhandler001
+crashhandler002
+cross device link
+d8L2
+dddd, MMMM dd, yyyy
+destination address required
+device or resource busy
+directory not empty
+e+000
+eLK(w
+executable format error
+fabs
+file exists
+file too large
+filename too long
+floor
+fmod
+frexp
+function not supported
+g_dwDllEntryThreadId
+h0'D
+hHeap %p\n
+hI{L[
+hb?O2
+heap %p has the low-fragmentation heap enabled.\n
+heap %p is a standard heap.\n
+heap %p supports look-aside lists.\n
+heapdump.csv
+host unreachable
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+inity
+interrupted
+invalid argument
+invalid hash bucket count
+invalid input pointer
+invalid seek
+invalid string position
+invalid vector<T> subscript
+io error
+ios_base::badbit set
+ios_base::eofbit set
+ios_base::failbit set
+iostream
+iostream stream error
+is a directory
+item %p sentinel corrupted. skipping.\n
+k:UG
+k=yI
+kernel32.dll
+ldexp
+list<T> too long
+log10
+ls1=
+lzZ?
+m1WY$
+m\nXo
+map/set<T> too long
+message size
+modf
+nan(ind)
+nan(snan)
+network down
+network reset
+network unreachable
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+np?z 
+ntdll.dll
+obwQ4
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operator
+operator "" 
+operator co_await
+owM&
+owner dead
+permission denied
+pnJ=
+protocol error
+protocol not supported
+psapi.dll
+r7Yr7=
+read only file system
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+sU0&?W
+sinh
+snan)
+sqrt
+state not recoverable
+stream timeout
+string too long
+tLVv
+tanh
+text file busy
+tier0_s.dll
+timed out
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+total bytes
+u?^p?o4
+uXO=
+unknown error
+unknown exception
+v2!L.2
+value too large
+vector<T> too long
+warning: removing Breakpad handler out of order\n
+wrong protocol type
+wsprintfA
+xpxxxx
+xwpwpp
+z1}B
+zyC7
+{4Wf
+|W8A=
