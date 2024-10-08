@@ -871,7 +871,6 @@ proc
 protocol error
 protocol not supported
 punct
-qcIF
 rLp>B
 raB3G
 read only file system

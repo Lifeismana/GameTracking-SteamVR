@@ -1122,85 +1122,87 @@
               : se.Visible;
           }
           buildNode(e, t) {
-            var r, i, o, n, s;
+            var r, i, o, n, s, a;
             if (this.visibility != se.Visible) return [e, null];
-            let a = Object.assign(Object.assign({}, e), {
+            let l = Object.assign(Object.assign({}, e), {
                 bInsideReparentedPanel: !1,
                 currentPanel: this,
               }),
-              l = this.createSgNode(t),
-              d = { x: 0, y: 0 };
-            d =
+              d = this.createSgNode(t),
+              p = { x: 0, y: 0 };
+            p =
               "object" == typeof this.props.origin
                 ? j(this.props.origin, { x: 0, y: 0 })
                 : ye(this.props.origin);
-            const p = this.props.overlay_key,
-              c = q();
+            const c = this.props.overlay_key,
+              u = q();
             return (
-              p && p.length > 0
-                ? (l.properties.key = p)
-                : c
-                  ? (l.properties.key = c)
-                  : (l.properties.overlay_handle =
+              c && c.length > 0
+                ? (d.properties.key = c)
+                : u
+                  ? (d.properties.key = u)
+                  : (d.properties.overlay_handle =
                       null === VRHTML || void 0 === VRHTML
                         ? void 0
                         : VRHTML.VROverlay.ThisOverlayHandle()),
-              (l.properties.uv_min =
+              (d.properties.uv_min =
                 null !== (r = be(this.m_UVsMin)) && void 0 !== r ? r : void 0),
-              (l.properties.uv_max =
+              (d.properties.uv_max =
                 null !== (i = be(this.m_UVsMax)) && void 0 !== i ? i : void 0),
-              (l.properties.width =
+              (d.properties.width =
                 null !== (o = this.props.width) && void 0 !== o ? o : void 0),
-              (l.properties.height =
+              (d.properties.height =
                 null !== (n = this.props.height) && void 0 !== n ? n : void 0),
-              (l.properties["min-width"] =
-                null !== (s = this.props.min_width) && void 0 !== s
-                  ? s
+              (d.properties["scale-index"] =
+                null !== (s = this.props.scale_index) && void 0 !== s ? s : 0),
+              (d.properties["min-width"] =
+                null !== (a = this.props.min_width) && void 0 !== a
+                  ? a
                   : void 0),
-              (l.properties["target-width-anchor-id"] = z(
+              (d.properties["target-width-anchor-id"] = z(
                 this.props.target_width_anchor_id,
               )),
-              (l.properties["target-dpi-panel-id"] = z(
+              (d.properties["target-dpi-panel-id"] = z(
                 this.props.target_dpi_panel_id,
               )),
-              (l.properties["target-dpi-multiplier"] =
+              (d.properties["target-dpi-multiplier"] =
                 this.props.target_dpi_multiplier),
-              (l.properties["meters-per-pixel"] = this.props.meters_per_pixel),
-              (l.properties["subview-parent-panel-key"] =
+              (d.properties["meters-per-pixel"] = this.props.meters_per_pixel),
+              (d.properties["subview-parent-panel-key"] =
                 this.props.subview_parent_panel_key),
-              (l.properties.curvature = this.props.curvature),
-              (l.properties["curvature-origin-id"] = z(
+              (d.properties.curvature = this.props.curvature),
+              (d.properties["curvature-origin-id"] = z(
                 this.props.curvature_origin_id,
               )),
-              (l.properties.spherical = this.props.spherical),
-              (l.properties.interactive = this.props.interactive),
-              (l.properties.scrollable = this.props.scrollable),
-              (l.properties.undocked = this.props.undocked),
-              (l.properties.modal = this.props.modal),
-              (l.properties["requires-laser"] = this.props.requires_laser),
-              (l.properties["allow-input-capture"] =
+              (d.properties.spherical = this.props.spherical),
+              (d.properties.interactive = this.props.interactive),
+              (d.properties.scrollable = this.props.scrollable),
+              (d.properties.undocked = this.props.undocked),
+              (d.properties.modal = this.props.modal),
+              (d.properties["requires-laser"] = this.props.requires_laser),
+              (d.properties["allow-input-capture"] =
                 this.props.allow_input_capture),
-              (l.properties["hide-laser-when-clicking"] =
+              (d.properties["hide-laser-when-clicking"] =
                 this.props.hide_lasermouse_when_clicking),
-              (l.properties["make-overlays-interactive-if-visible"] =
+              (d.properties["make-overlays-interactive-if-visible"] =
                 this.props.make_overlays_interactive_if_visible),
-              (l.properties["is-grab-handle"] = this.props.is_grab_handle),
-              (l.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
-              (l.properties.origin = (function (e) {
+              (d.properties["is-grab-handle"] = this.props.is_grab_handle),
+              (d.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
+              (d.properties.origin = (function (e) {
                 if (e) return [e.x, e.y];
-              })(d)),
-              (l.properties.debug_name = this.props.debug_name),
-              (l.properties.sampler = this.props.sampler),
-              (l.properties.reflect = this.props.reflect),
-              (l.properties.stereoscopy = this.props.stereoscopy),
-              (l.properties.rendermodel_component_device_index =
+              })(p)),
+              (d.properties.debug_name = this.props.debug_name),
+              (d.properties.sampler = this.props.sampler),
+              (d.properties.reflect = this.props.reflect),
+              (d.properties.stereoscopy = this.props.stereoscopy),
+              (d.properties.rendermodel_component_device_index =
                 this.props.rendermodel_component_device_index),
-              (l.properties.rendermodel_component_name =
+              (d.properties.rendermodel_component_name =
                 this.props.rendermodel_component_name),
-              (l.properties["texture-id"] = z(this.props.texture_id)),
-              (l.properties["sort-order"] = this.props.sort_order),
-              (l.properties["sort-depth-bias"] = this.props.sort_depth_bias),
-              [a, l]
+              (d.properties["texture-id"] = z(this.props.texture_id)),
+              (d.properties["sort-order"] = this.props.sort_order),
+              (d.properties["sort-depth-bias"] = this.props.sort_depth_bias),
+              [l, d]
             );
           }
           scaleLocalUVToGlobal(e) {
@@ -2272,10 +2274,12 @@
                 const r = this.createSgNode(t);
                 return (
                   (r.properties["target-id"] = this.props.target_id),
+                  (r.properties["is-active"] = this.props.is_active),
                   (r.properties["min-target-scale"] =
                     this.props.min_target_scale),
                   (r.properties["max-target-scale"] =
                     this.props.max_target_scale),
+                  (r.properties.displacement = this.props.displacement),
                   [e, r]
                 );
               }
@@ -2752,4 +2756,4 @@
   var o = i.O(void 0, [968], () => i(9119));
   o = i.O(o);
 })();
-//# sourceMappingURL=scenegraphtest.js.map?v=237fd00cf9eee5b699ca
+//# sourceMappingURL=scenegraphtest.js.map?v=9b1c8b4eaf251e025ebf

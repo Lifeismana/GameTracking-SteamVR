@@ -2342,7 +2342,6 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
-01:26:48
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -2435,6 +2434,7 @@ $3br
 15CVRSettings_001
 15CVRSettings_002
 15CVRSystemLatest
+16:54:40
 16CHmdSystemLatest
 16CInputFilterBase
 16CPathManagerBase
@@ -3169,7 +3169,6 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Attempting to wait on a fence that has already been waited for. Current: %llx Wait: %llx\n
 Attempting to wait on a fence value that is too large. Current: %llx Wait: %llx\n
 Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %llx, Signaled: %llx\n
-Aug 21 2024
 August
 AuthenticAMD
 AutosaveURL
@@ -22910,6 +22909,7 @@ NvAPI::WaitForVBlank(void*, unsigned int)
 OPAQUE
 OSWaitForDebugger()
 Object
+Oct  3 2024
 October
 OculusSDKStart
 OldAppQuitSent

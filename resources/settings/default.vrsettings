@@ -267,9 +267,6 @@
         "overlayFilteringBeta": 5,
         "overlayFilteringDerivCutoff": 5
     },
-    "WebInterface": {
-        "WebLogging": true
-    },
     "version": "1",
     "jsonid": "vrsettings"
 }

@@ -20,50 +20,50 @@
   {
     "/input/index_pinch" : {
         "type" : "trigger",
-        "binding_image_point" : [ 22, 85 ],
+        "binding_image_point" : [ 15, 25 ],
         "value" : true,
         "order" : 1
     },
     "/input/middle_pinch" : {
         "type" : "trigger",
-        "binding_image_point" : [ 22, 85 ],
+        "binding_image_point" : [ 35, 6 ],
         "value" : true,
         "order" : 1
     },
     "/input/ring_pinch" : {
         "type" : "trigger",
-        "binding_image_point" : [ 22, 85 ],
+        "binding_image_point" : [ 47, 8 ],
         "value" : true,
         "order" : 1
     },
     "/input/pinky_pinch" : {
         "type" : "trigger",
-        "binding_image_point" : [ 100, 86 ],
+        "binding_image_point" : [ 57, 15 ],
         "value" : true,
         "order" : 3
     },
     "/input/grip" : {
         "type" : "trigger",
-        "binding_image_point" : [ 100, 86 ],
+        "binding_image_point" : [ 45, 50 ],
         "value" : true,
         "order" : 3
     },
     "/input/index_point": {
         "type": "trigger",
-        "binding_image_point" : [ 100, 86 ],
+        "binding_image_point" : [ 25, 10 ],
         "touch": true
     },
     "/input/skeleton/right" : {
         "type" : "skeleton",
         "side" : "right",
         "skeleton" : "/skeleton/hand/right",
-        "binding_image_point" : [ 11, 150 ]
+        "binding_image_point" : [ 40, 50 ]
     },
     "/input/skeleton/left" : {
         "type" : "skeleton",
         "side" : "left",
         "skeleton" : "/skeleton/hand/left",
-        "binding_image_point" : [ 11, 150 ]
+        "binding_image_point" : [ 40, 50 ]
     },
     "/input/system" : {
         "type" : "button",

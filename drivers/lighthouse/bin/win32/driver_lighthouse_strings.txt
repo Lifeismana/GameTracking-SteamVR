@@ -3645,7 +3645,6 @@ nb_no
 need dictionary
 negative_int_value
 nfinity
-nhbH
 nl_nl
 no IDAT
 no PLTE

@@ -1467,7 +1467,6 @@ realloc
 reference temporary #
 reinterpret_cast
 rewind
-sSv[
 s_pLogCallback
 s_pLogFile
 sched_get_priority_max

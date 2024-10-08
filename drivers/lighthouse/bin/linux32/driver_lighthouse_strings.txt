@@ -2582,7 +2582,6 @@ $3br
 .L998
 .L999
 .PLACEHOLDER_VALUE
-.[aGuP
 .backup
 .bak
 .bin
@@ -2738,7 +2737,6 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:26:48
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -2786,6 +2784,7 @@ $3br
 15IStatePoseMaker
 15IVRAudioDevices
 15StaticPoseMaker
+16:54:40
 16CPropertyManager
 16CSettingsManager
 16CVrcDecodeTagged
@@ -3033,7 +3032,6 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Attempting HID Open %s: %s\n
 Audio
 AudioBridge
-Aug 21 2024
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)\n
@@ -7296,6 +7294,7 @@ OPAQUE
 OTGT timed out\n
 O\tu~w
 Object
+Oct  3 2024
 October
 Old Normal: %f %f %f \n
 On laptop, HMD detected over USB, but Monitor not found (213)

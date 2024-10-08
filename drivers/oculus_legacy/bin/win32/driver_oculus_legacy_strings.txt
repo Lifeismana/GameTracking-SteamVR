@@ -138,7 +138,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS
+RSDSp
 RaiseException
 SDL2.dll
 SDL_CreateWindow
@@ -282,7 +282,6 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s\n
 ovr_TraceMessage
-r%GC
 startup
 string too long
 strncpy
