@@ -331,10 +331,10 @@ $3br
 .L1010
 .L1011
 .L1012
-.L1015
+.L1013
+.L1016
 .L102
-.L1020
-.L1022
+.L1021
 .L1023
 .L1024
 .L1025
@@ -378,9 +378,9 @@ $3br
 .L1040
 .L10400
 .L10401
+.L1041
 .L10414
-.L1042
-.L1045
+.L1043
 .L10459
 .L1046
 .L10460
@@ -389,12 +389,13 @@ $3br
 .L10464
 .L10465
 .L10466
+.L1047
 .L10478
-.L1048
 .L1049
 .L105
 .L1050
-.L1052
+.L1051
+.L1053
 .L106
 .L10625
 .L10627
@@ -406,8 +407,7 @@ $3br
 .L10633
 .L10634
 .L10635
-.L1064
-.L1066
+.L1065
 .L1067
 .L1068
 .L1069
@@ -425,7 +425,8 @@ $3br
 .L108
 .L1080
 .L1081
-.L1083
+.L1082
+.L1084
 .L109
 .L1095
 .L11
@@ -1012,7 +1013,7 @@ $3br
 .L2216
 .L2217
 .L2218
-.L223
+.L222
 .L224
 .L225
 .L226
@@ -1315,6 +1316,7 @@ $3br
 .L339
 .L34
 .L340
+.L341
 .L342
 .L343
 .L344
@@ -1352,7 +1354,6 @@ $3br
 .L349
 .L35
 .L350
-.L351
 .L352
 .L353
 .L354
@@ -1383,6 +1384,7 @@ $3br
 .L368
 .L369
 .L37
+.L370
 .L372
 .L373
 .L374
@@ -1419,7 +1421,8 @@ $3br
 .L391
 .L392
 .L393
-.L395
+.L394
+.L396
 .L39616
 .L39617
 .L39619
@@ -1439,7 +1442,6 @@ $3br
 .L406
 .L407
 .L408
-.L409
 .L41
 .L410
 .L411
@@ -1464,10 +1466,9 @@ $3br
 .L424
 .L425
 .L426
-.L428
+.L427
 .L429
 .L43
-.L433
 .L434
 .L435
 .L436
@@ -1476,9 +1477,10 @@ $3br
 .L439
 .L44
 .L440
-.L442
+.L441
 .L443
 .L4439
+.L444
 .L4441
 .L4442
 .L4443
@@ -1673,12 +1675,10 @@ $3br
 .L601
 .L602
 .L603
-.L604
 .L605
-.L609
+.L606
 .L61
 .L610
-.L611
 .L612
 .L613
 .L614
@@ -1691,15 +1691,15 @@ $3br
 .L620
 .L621
 .L622
-.L624
+.L623
+.L625
 .L63
-.L631
-.L633
+.L632
 .L634
 .L635
 .L636
+.L637
 .L638
-.L639
 .L64
 .L640
 .L641
@@ -1712,22 +1712,22 @@ $3br
 .L648
 .L649
 .L65
-.L651
+.L650
 .L652
 .L653
 .L654
 .L655
 .L656
 .L657
-.L659
+.L658
 .L66
-.L661
+.L660
 .L662
 .L663
 .L664
 .L665
 .L666
-.L668
+.L667
 .L669
 .L67
 .L670
@@ -1950,7 +1950,6 @@ $3br
 .L833
 .L834
 .L835
-.L839
 .L84
 .L840
 .L841
@@ -2031,7 +2030,8 @@ $3br
 .L930
 .L931
 .L932
-.L934
+.L933
+.L935
 .L9352
 .L9353
 .L9355
@@ -2039,16 +2039,16 @@ $3br
 .L9357
 .L9358
 .L9359
-.L937
 .L938
+.L939
 .L94
-.L940
 .L941
 .L942
 .L943
 .L944
 .L945
-.L947
+.L946
+.L948
 .L9499
 .L95
 .L9500
@@ -2057,9 +2057,8 @@ $3br
 .L9504
 .L9505
 .L9506
-.L951
 .L9515
-.L953
+.L952
 .L954
 .L955
 .L956
@@ -2067,13 +2066,14 @@ $3br
 .L9576
 .L9577
 .L9579
+.L958
 .L9580
 .L9581
 .L9582
 .L9583
-.L959
 .L9592
 .L96
+.L960
 .L9609
 .L9610
 .L9612
@@ -2107,10 +2107,9 @@ $3br
 .L9855
 .L9856
 .L99
-.L992
 .L993
 .L9931
-.L995
+.L994
 .L996
 .L997
 .L998
@@ -2434,7 +2433,6 @@ $3br
 15CVRSettings_001
 15CVRSettings_002
 15CVRSystemLatest
-16:54:40
 16CHmdSystemLatest
 16CInputFilterBase
 16CPathManagerBase
@@ -2593,6 +2591,7 @@ $3br
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:25:39
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -3289,8 +3288,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1181.232812
-C.1891.373760
-C.1892.373771
+C.1891.373761
+C.1892.373772
 C.73.341431
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -22909,7 +22908,7 @@ NvAPI::WaitForVBlank(void*, unsigned int)
 OPAQUE
 OSWaitForDebugger()
 Object
-Oct  3 2024
+Oct 21 2024
 October
 OculusSDKStart
 OldAppQuitSent
@@ -24428,6 +24427,7 @@ VREvent_Quit
 VREvent_QuitAcknowledged
 VREvent_ReloadOverlays
 VREvent_ReprojectionSettingHasChanged
+VREvent_RequestDisconnectWirelessHMD
 VREvent_RequestScreenshot
 VREvent_ResetDashboard
 VREvent_RestartRequested
@@ -33364,6 +33364,7 @@ steam-runtime-launch-client
 steam.app.
 steam.overlay.
 steamMatchesHMDFramerate
+steam_streaming_launch
 steamrt
 steamtours
 steamvr

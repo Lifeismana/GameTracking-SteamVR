@@ -536,10 +536,10 @@ $3br
 .L1010
 .L1011
 .L1012
-.L1015
+.L1013
+.L1016
 .L102
-.L1020
-.L1022
+.L1021
 .L1023
 .L1024
 .L1025
@@ -605,6 +605,7 @@ $3br
 .L1050
 .L1051
 .L1052
+.L1053
 .L106
 .L10625
 .L10627
@@ -616,8 +617,7 @@ $3br
 .L10633
 .L10634
 .L10635
-.L1064
-.L1066
+.L1065
 .L1067
 .L1068
 .L1069
@@ -635,7 +635,8 @@ $3br
 .L108
 .L1080
 .L1081
-.L1083
+.L1082
+.L1084
 .L109
 .L1095
 .L11
@@ -1579,6 +1580,7 @@ $3br
 .L339
 .L34
 .L340
+.L341
 .L3417
 .L3419
 .L342
@@ -1596,7 +1598,6 @@ $3br
 .L349
 .L35
 .L350
-.L351
 .L352
 .L353
 .L354
@@ -1629,6 +1630,7 @@ $3br
 .L368
 .L369
 .L37
+.L370
 .L372
 .L373
 .L374
@@ -1656,6 +1658,7 @@ $3br
 .L3936
 .L3938
 .L3939
+.L394
 .L3940
 .L3941
 .L3942
@@ -1663,7 +1666,7 @@ $3br
 .L3944
 .L3945
 .L3946
-.L395
+.L396
 .L399
 .L40
 .L403
@@ -1699,7 +1702,7 @@ $3br
 .L424
 .L425
 .L426
-.L428
+.L427
 .L429
 .L43
 .L430
@@ -2010,12 +2013,10 @@ $3br
 .L601
 .L602
 .L603
-.L604
 .L605
-.L609
+.L606
 .L61
 .L610
-.L611
 .L612
 .L613
 .L614
@@ -2037,8 +2038,7 @@ $3br
 .L629
 .L63
 .L630
-.L631
-.L633
+.L632
 .L634
 .L635
 .L636
@@ -2344,7 +2344,6 @@ $3br
 .L834
 .L835
 .L838
-.L839
 .L84
 .L840
 .L841
@@ -2461,7 +2460,8 @@ $3br
 .L930
 .L931
 .L932
-.L934
+.L933
+.L935
 .L9352
 .L9353
 .L9355
@@ -2469,16 +2469,15 @@ $3br
 .L9357
 .L9358
 .L9359
-.L937
 .L938
 .L9384
 .L9386
 .L9387
 .L9388
 .L9389
+.L939
 .L9390
 .L94
-.L940
 .L941
 .L942
 .L943
@@ -2490,7 +2489,8 @@ $3br
 .L9442
 .L9443
 .L945
-.L947
+.L946
+.L948
 .L9490
 .L9492
 .L9493
@@ -2505,9 +2505,8 @@ $3br
 .L9504
 .L9505
 .L9506
-.L951
 .L9515
-.L953
+.L952
 .L954
 .L9543
 .L9545
@@ -2521,16 +2520,17 @@ $3br
 .L9576
 .L9577
 .L9579
+.L958
 .L9580
 .L9581
 .L9582
 .L9583
-.L959
 .L9592
 .L9596
 .L9598
 .L9599
 .L96
+.L960
 .L9600
 .L9601
 .L9602
@@ -2573,10 +2573,9 @@ $3br
 .L9855
 .L9856
 .L99
-.L992
 .L993
 .L9931
-.L995
+.L994
 .L996
 .L997
 .L998
@@ -2784,7 +2783,6 @@ $3br
 15IStatePoseMaker
 15IVRAudioDevices
 15StaticPoseMaker
-16:54:40
 16CPropertyManager
 16CSettingsManager
 16CVrcDecodeTagged
@@ -2816,6 +2814,7 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
+23:25:39
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -5387,6 +5386,7 @@ DumpLogStrings(CVRLog*, std::vector<std::string, std::allocator<std::string>>&) 
 DumpLogStrings(std::vector<std::string, std::allocator<std::string>>&)
 Duplicate basestation serials detected.\n
 Duplicate key: '
+E7`}I
 ECameraHAL_OpenError_ToString
 ECameraHAL_OpenError_ToString.cold
 ECameraHAL_OpenError_ToString::mapStrings
@@ -7294,7 +7294,7 @@ OPAQUE
 OTGT timed out\n
 O\tu~w
 Object
-Oct  3 2024
+Oct 21 2024
 October
 Old Normal: %f %f %f \n
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -8691,6 +8691,7 @@ VREvent_Quit
 VREvent_QuitAcknowledged
 VREvent_ReloadOverlays
 VREvent_ReprojectionSettingHasChanged
+VREvent_RequestDisconnectWirelessHMD
 VREvent_RequestScreenshot
 VREvent_ResetDashboard
 VREvent_RestartRequested

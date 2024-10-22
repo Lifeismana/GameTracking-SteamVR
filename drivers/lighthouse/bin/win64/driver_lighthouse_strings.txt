@@ -2526,7 +2526,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSkb*
+RSDS?
 R\vp~Z
 Radio
 RaiseException

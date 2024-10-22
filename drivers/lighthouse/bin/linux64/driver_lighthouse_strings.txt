@@ -913,7 +913,6 @@ $3br
 15IStatePoseMaker
 15IVRAudioDevices
 15StaticPoseMaker
-16:54:46
 16CPropertyManager
 16CSettingsManager
 16CVkCommandBuffer
@@ -951,6 +950,7 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
+23:25:45
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -5756,7 +5756,7 @@ OPAQUE
 OTGT timed out\n
 O\tu~w
 Object
-Oct  3 2024
+Oct 21 2024
 October
 Old Normal: %f %f %f \n
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -7215,6 +7215,7 @@ VREvent_Quit
 VREvent_QuitAcknowledged
 VREvent_ReloadOverlays
 VREvent_ReprojectionSettingHasChanged
+VREvent_RequestDisconnectWirelessHMD
 VREvent_RequestScreenshot
 VREvent_ResetDashboard
 VREvent_RestartRequested

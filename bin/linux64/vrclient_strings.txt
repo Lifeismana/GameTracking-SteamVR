@@ -1109,7 +1109,6 @@ $tI(kn
 15CVRSystemLatest
 15CVkResourceBase
 15CVkResourcePoolI16CVkCommandBufferE
-16:54:46
 16CHmdSystemLatest
 16CInputFilterBase
 16CPathManagerBase
@@ -1290,6 +1289,7 @@ $tI(kn
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:25:45
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -2027,11 +2027,11 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
-C.1875.372529
-C.1876.372540
+C.1875.372530
+C.1876.372541
 C.71.340283
-C.77.214519
-C.9.216409
+C.77.214520
+C.9.216410
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -22016,6 +22016,7 @@ KHR_audio
 KHR_lights_punctual
 KIM 11
 KTX 11
+L'ah
 L=fff?
 LC_ADDRESS
 LC_COLLATE
@@ -22494,7 +22495,7 @@ NvAPI::WaitForVBlank(void*, unsigned int)
 OPAQUE
 OSWaitForDebugger()
 Object
-Oct  3 2024
+Oct 21 2024
 October
 OculusSDKStart
 OldAppQuitSent
@@ -24109,6 +24110,7 @@ VREvent_Quit
 VREvent_QuitAcknowledged
 VREvent_ReloadOverlays
 VREvent_ReprojectionSettingHasChanged
+VREvent_RequestDisconnectWirelessHMD
 VREvent_RequestScreenshot
 VREvent_ResetDashboard
 VREvent_RestartRequested
@@ -34291,6 +34293,7 @@ steam-runtime-launch-client
 steam.app.
 steam.overlay.
 steamMatchesHMDFramerate
+steam_streaming_launch
 steamrt
 steamtours
 steamvr

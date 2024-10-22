@@ -1605,6 +1605,7 @@ OSCInPort
 OSCOutPort
 OUT %d
 Object
+Oculus Quest 3S
 Oculus Quest Pro
 Oculus Quest Pro (Left Controller)
 Oculus Quest Pro (Right Controller)
@@ -1671,7 +1672,7 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS:
+RSDS_
 RX Fail:%d
 RaiseException
 Rate Remark: %d %d\n
@@ -3102,6 +3103,7 @@ unknown option -- %c
 unknown option -- %s
 unknown token
 unknown_eureka
+unknown_panther
 unmuted
 unsupported bit depth
 unsupported data layout

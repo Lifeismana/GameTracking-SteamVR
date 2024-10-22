@@ -695,12 +695,11 @@ PerspectiveCamera
 Positional emitter description not found.
 Primitive
 Program Files
-QUM\f
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDS|
 RaiseException
 ResetEvent
 RootNode
