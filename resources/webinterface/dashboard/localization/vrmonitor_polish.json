@@ -112,7 +112,7 @@
 	"Settings_ShowSettingsInDashboard": "Pokaż kartę ustawień",
 	"Settings_ShowPowerMenu": "Pokaż opcje zasilania",
 	"Settings_AllowAppQuitting": "Zezwalaj na wyłączanie aplikacji z panelu głównego",
-	"Settings_ShowDesktopViews": "Pokaz zakładki pulpitu",
+	"Settings_ShowDesktopViews": "Pokaż zakładki pulpitu",
 	"Settings_CheckForSteam": "Sprawdź obecność Steam",
 	"Settings_DebugInputBindings": "Włącz opcje debugowania w interfejsie użytkownika dot. przypisywania danych wejściowych",
 	"Advanced_GlobalActionSetPriority": "Włącz globalne wprowadzanie z nakładek (eksperymentalne)",

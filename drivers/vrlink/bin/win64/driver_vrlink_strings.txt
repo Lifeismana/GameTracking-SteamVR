@@ -431,6 +431,7 @@ $3br
 /avatar/parameters/RightEyeWidenToggle
 /avatar/parameters/RightEyeX
 /avatar/parameters/RightEyeY
+/client_streaming_mode_on_demand
 /client_will_handle_dashboard_state
 /dashboard/visible
 /dashboard_head_pose_from_standing
@@ -601,10 +602,13 @@ $3br
 0 width
 0(`xPH
 0-pixel image
+0.0.0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899H
 00P`00P`
 0\v2;i
 0`P0
+0a\v6<p
 0n\n&pa
 0x%I64x
 1 Sec
@@ -868,10 +872,10 @@ AudioThread finished\n
 AudioThread started\n
 Auto
 Autodetected %s
+Autodetected Headset, using Oculus Quest 3 profile
+Autodetected Headset, using Oculus Quest Pro profile
 Autodetected Headset: %d
 Autodetected Oculus Quest 2
-Autodetected Oculus Quest 3
-Autodetected Oculus Quest Pro
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
@@ -1034,6 +1038,7 @@ CryptReleaseContext
 CryptSetKeyParam
 CryptSetKeyParam Failed to set cypher (%08x)
 CtrlCClk
+CtrlFClk
 CtrlHClk
 Current Driver Version does not support this NvEncodeAPI version, please upgrade driver\n
 D3D11CreateDevice
@@ -1381,7 +1386,7 @@ IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
@@ -1632,7 +1637,7 @@ OutputDebugStringW
 Overriding Quest specific properties for %s\n
 P00`
 P<xD<
-PCG`
+PCGp
 PICT
 PID_
 PNG\r\n
@@ -1672,7 +1677,7 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS_
+RSDS
 RX Fail:%d
 RaiseException
 Rate Remark: %d %d\n
@@ -1827,7 +1832,6 @@ SVLFEC: substantive retry (%d packets) due to frame skip (skipped %d, last sub %
 SVLFEC::InternalAcceptFrameFromRX: Failed to acquire pRender
 SVLFEC::ProcessTXVideoFrameThreadFunction
 SVLFEC::ReportStreamReset() (m_iLastAcknowledgeFrameNumber = %d)
-SVLFECRXFrame::AcceptVFD: Failed to acquire pRender
 SVLFECRXFrame::AcceptVideoPacket: m_pData was not suitable for video (null or insufficient size)
 SVLHMDDriver::Activate: HMD did not support multiple framerates
 SVLHMDDriver::Activate: HMD supports multiple framerates
@@ -2017,6 +2021,7 @@ VERSION MISMATCH
 VID_
 VR Path Registry node %s is not an array\n
 VRAudioDevices_Init
+VRLINK_EVENT_QUIT
 VRLink Hand Tracker (Left Hand)
 VRLink Hand Tracker (Right Hand)
 VRLinkRX
@@ -2045,7 +2050,6 @@ WARNING: Could not find steam streaming microphone output.
 WARNING: Could not initialize frame on hardware.\n
 WARNING: GPU Does not support 10BIT_ENCODE for video compression\n
 WARNING: Packet was XMITTed that was too big. [%d %d %d %d / %d]\n
-WARNING: SVLFECRXFrame::Initialize called before SVLRenderer available.\n
 WARNING: Too many bytes in TX Audio aggregate.  This should be impossible.\n
 WASAPI Could not get policy config\n
 WASAPI: EnumAudioEndpoints failed: hr = 0x%08x\n

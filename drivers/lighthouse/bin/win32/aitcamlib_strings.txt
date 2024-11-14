@@ -216,7 +216,7 @@ IVRProperties_001
 IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
@@ -253,7 +253,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSn9
+RSDS
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -378,7 +378,6 @@ _seh_filter_dll
 _strupr_s
 _wchdir
 _wgetcwd
-aUJg
 aitcamlib
 aitcamlib.dll
 api-ms-win-crt-convert-l1-1-0.dll

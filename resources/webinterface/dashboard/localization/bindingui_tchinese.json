@@ -300,7 +300,7 @@
   "TrackedControllerRole_Invalid": "任一隻手",
   "TrackedControllerRole_LeftHand": "左手",
   "TrackedControllerRole_RightHand": "右手",
-  "BindingUI_ChordTitle": "控制器和絃",
+  "BindingUI_ChordTitle": "控制器組合鍵",
   "BindingUI_Chord_Action": "動作：",
   "BindingUI_Chord_Inputs": "輸入：",
   "BindingUI_Chord_SelectActionModalHeader": "選擇和絃動作：",

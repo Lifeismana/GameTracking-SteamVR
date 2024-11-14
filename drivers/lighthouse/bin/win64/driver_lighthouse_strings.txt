@@ -252,6 +252,7 @@ $tAUUPE
 %s: Applying scale %0.04f from reference object %s\n
 %s: Attached device ID not set.  No controller input available.\n
 %s: Can't create source of type "%s"\n
+%s: Checking to see if display has connected...\n
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
 %s: Connected to receiver %s\n
 %s: Controller subprotocol changed version %d\n
@@ -1026,6 +1027,7 @@ $tAUUPE
 /input/volume_up/click
 /input/x/click
 /input/y/click
+/input_profile.json
 /lighthouse/
 /lighthouse/camera/raw_frames
 /lighthouse/depthAugmentedPassthrough/leftMeshElementCount
@@ -1068,6 +1070,7 @@ $tAUUPE
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899`y'
 0123456789abcdef
 0\tFAJ
 0a\v6<
@@ -1118,7 +1121,6 @@ $tAUUPE
 >X9t?
 >fff?
 ?!std::isnan( flSystemTimeInSeconds )
-?%s: Checking to see if display has connected...\n
 ?&x0O
 ?333333
 ?333?
@@ -2153,7 +2155,7 @@ IVRRenderModels_006
 IVRResources_001
 IVRServerDriverHost_004
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
@@ -2526,8 +2528,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS?
-R\vp~Z
+RSDSc\t
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3340,7 +3341,6 @@ Zjz\v
 [libprotobuf %s %s:%d] %s\n
 [packed = true] can only be specified for repeated primitive fields.
 \%03o
-\OpO'
 \U%08x
 \mfpmp.exe
 \n    Actual    : 
@@ -5473,6 +5473,7 @@ znear
 {\n   "tracked_cameras" : [\n      {\n         "name" : "left",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, 0.08715574274765797 ],\n            "plus_z" : [ -0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ 0.06749, -0.03294, 0.06881 ]\n         }\n      },\n      {\n         "name" : "right",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, -0.08715574274765797 ],\n            "plus_z" : [  0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ -0.06749, -0.03294, 0.06881 ]\n         }\n      }\n   ]\n}
 {\n\t\t"useBackgroundProcessingForFullDepthEstimation": true,\n\t\t"initialDepthAlgo": "StereoSGBM",\n\t\t"sparseDepthCleaningAlgo": "None",\n\t\t"useRawDepthHistory" : true,\n\t\t"fillRightDepthFrame" : true,\n\t\t"sgbm":\n\t\t{\n\t\t\t"SADWindowSize": 9,\n\t\t\t"preFilterCap": 63,\n\t\t\t"disp12MaxDiff": 0, // left <> right check disabled\n\t\t\t"P1": 0,\n\t\t\t"P2": 0,\n\t\t\t"speckleRange": 1,\n\t\t\t"speckleWindowSize": 200,\n\t\t\t"uniquenessRatio": 20,\n\t\t},\n\t\t"postprocesssingFilter":"HardwareFriendlyBilateral",\n\t\t"hardwareFriendlyBilateralSolver": {\n\t\t\t"temporalConsistentStrategy":"WithoutBlurWhenStillNoneWhenMoving",\n\t\t\t"preventInitialValuesToChangeDuringOptimization": true,\n\t\t\t"closeDepthStrategy": "SmartDilatationOfClosDepth",\n\t\t\t"keepInputDepthValues": true, \n\t\t},\n\t\t"controllerRenderingType":"GPU",\n\t\t"addDilatedController": "onTopOfWarpedFrame",\n\t\t"postProcessingStrategy":"None",\n\t}
 {\n\t\t"useBackgroundProcessingForFullDepthEstimation": true,\n\t\t"initialDepthAlgo": "StereoSGBM",\n\t\t"sparseDepthCleaningAlgo": "None",\n\t\t"useRawDepthHistory" : true,\n\t\t"useMaskOnTheBorders" : true,\n\t\t"sgbm":\n\t\t{\n\t\t\t"SADWindowSize": 9,\n\t\t\t"preFilterCap": 63,\n\t\t\t"disp12MaxDiff": 0, // left <> right check disabled\n\t\t\t"P1": 0,\n\t\t\t"P2": 0,\n\t\t\t"speckleRange": 1,\n\t\t\t"speckleWindowSize": 200,\n\t\t\t"uniquenessRatio": 20,\n\t\t},\n\t\t"postprocesssingFilter":"HardwareFriendlyBilateral",\n\t\t"hardwareFriendlyBilateralSolver": {\n\t\t\t"temporalConsistentStrategy":"WithoutBlurWhenStillNoneWhenMoving",\n\t\t\t"preventInitialValuesToChangeDuringOptimization": true,\n\t\t\t"closeDepthStrategy": "SmartDilatationOfClosDepth",\n\t\t\t"keepInputDepthValues": true, \n\t\t},\n\t\t"controllerRenderingType":"GPU",\n\t\t"addDilatedController": "onTopOfWarpedFrame",\n\t\t"postProcessingStrategy":"None",\n\t}
+{deckard}
 {htc}
 {htc}/input/vive_controller_profile.json
 {htc}/input/vive_pro_profile.json

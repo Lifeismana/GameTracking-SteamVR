@@ -830,6 +830,7 @@ $3br
 /input/volume_up/click
 /input/x/click
 /input/y/click
+/input_profile.json
 /lighthouse/
 /lighthouse/camera/raw_frames
 /observed_basestations
@@ -925,6 +926,7 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
+19:51:52
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -950,7 +952,6 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
-23:25:45
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -2550,7 +2551,7 @@ CPropertyManager::CreatePropertyContainerInternal(unsigned long, bool)
 CPropertyManager::CreatePropertyContainerInternal(unsigned long, bool) (.cold)
 CPropertyManager::DestroyPropertyContainer(unsigned long)
 CPropertyManager::EnableChangeNotifications(unsigned long, bool)
-CPropertyManager::FindOrAddContainer(unsigned long)
+CPropertyManager::FindOrAddContainer(unsigned long, bool)
 CPropertyManager::GetAllContainers()
 CPropertyManager::GetAllContainers() (.cold)
 CPropertyManager::GetAllProperties(unsigned long, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>*)
@@ -2706,8 +2707,8 @@ CSettingsManager::GetUserSettingsJson(Json::Value&, std::string const&)
 CSettingsManager::GetUserSettingsJson(Json::Value&, std::string const&) (.cold)
 CSettingsManager::GetValueType(ESettingValueType*, char const*, char const*)
 CSettingsManager::GetValueType(ESettingValueType*, char const*, char const*) (.cold)
-CSettingsManager::Init(CDriverManager*, IVRServer*)
-CSettingsManager::Init(CDriverManager*, IVRServer*) (.cold)
+CSettingsManager::Init(CDriverManager*, IVRServerInternal*)
+CSettingsManager::Init(CDriverManager*, IVRServerInternal*) (.cold)
 CSettingsManager::LoadDefaultSettingsFromRootPath(std::string const&, Json::Value&)
 CSettingsManager::LoadDefaultSettingsFromRootPath(std::string const&, Json::Value&) (.cold)
 CSettingsManager::LoadDriverDefaultSettings(std::string const&, CDriverManager*, Json::Value&)
@@ -2921,7 +2922,8 @@ CTrackedDeviceConfig::from_json(Json::Value const&)
 CTrackedDeviceConfig::from_json(Json::Value const&) (.cold)
 CTrackedDeviceConfig::from_json(std::string, std::string&)
 CTrackedDeviceConfig::from_json(std::string, std::string&) (.cold)
-CTrackedDeviceConfig::getRawJsonString() const
+CTrackedDeviceConfig::getRawJsonString(bool) const
+CTrackedDeviceConfig::getRawJsonString(bool) const (.cold)
 CTrackedDeviceConfig::parseCameraJson(Json::Value const&)
 CTrackedDeviceConfig::parseCameraJson(Json::Value const&) (.cold)
 CTrackedDeviceConfig::to_json() const
@@ -4282,6 +4284,7 @@ GetBacktraceStrings(std::vector<std::string, std::allocator<std::string>>&) (.co
 GetBacktraceStrings(std::vector<std::string, std::allocator<std::string>>&) (.constprop.0) (.cold)
 GetBool
 GetCameraHALInterface
+GetClockRealtime()
 GetColumnOffsetBase(std::string const&)
 GetColumnOffsetBase(std::string const&) (.cold)
 GetCommandLineArguments(std::vector<std::string, std::allocator<std::string>>&)
@@ -4605,7 +4608,7 @@ IVRRenderModels_006
 IVRResources_001
 IVRServerDriverHost_004
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
@@ -5234,6 +5237,7 @@ Json::valueToString(unsigned int)
 Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
+JsonValueToBoolOrDefault(Json::Value const&, bool)
 July
 June
 KHR_audio
@@ -5718,6 +5722,7 @@ Not starting vrserver for background app (121)
 Not the preferred basestation\n
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
+Nov 13 2024
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
@@ -5756,7 +5761,6 @@ OPAQUE
 OTGT timed out\n
 O\tu~w
 Object
-Oct 21 2024
 October
 Old Normal: %f %f %f \n
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -7135,7 +7139,6 @@ VREvent_ConsoleOpened
 VREvent_DashboardActivated
 VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
-VREvent_DashboardRequested
 VREvent_DashboardSectionSettingChanged
 VREvent_DesktopViewReady
 VREvent_DesktopViewUpdating
@@ -7565,6 +7568,7 @@ VRMsg_DestroySwapTextureSet
 VRMsg_DriverDebugRequest
 VRMsg_DriverDebugRequestAsync
 VRMsg_DriverDebugResponse
+VRMsg_ExtendActivityTimeout
 VRMsg_GetApplicationInfo
 VRMsg_GetApplicationInfoResponse
 VRMsg_GetDisplayInfo
@@ -9188,21 +9192,20 @@ cplus_demangle_builtin_types
 cplus_demangle_operators
 crc32
 create
-cryptor::string_encryptor<10ul>::decrypt() const
-cryptor::string_encryptor<11ul>::decrypt() const
-cryptor::string_encryptor<12ul>::decrypt() const
-cryptor::string_encryptor<13ul>::decrypt() const
-cryptor::string_encryptor<14ul>::decrypt() const
-cryptor::string_encryptor<15ul>::decrypt() const
-cryptor::string_encryptor<16ul>::decrypt() const
-cryptor::string_encryptor<19ul>::decrypt() const
-cryptor::string_encryptor<22ul>::decrypt() const
-cryptor::string_encryptor<29ul>::decrypt() const
-cryptor::string_encryptor<3ul>::decrypt() const
-cryptor::string_encryptor<5ul>::decrypt() const
-cryptor::string_encryptor<7ul>::decrypt() const
-cryptor::string_encryptor<8ul>::decrypt() const
-cryptor::string_encryptor<9ul>::decrypt() const
+cryptor::string_encryptor_base<10ul>::decrypt() const
+cryptor::string_encryptor_base<11ul>::decrypt() const
+cryptor::string_encryptor_base<12ul>::decrypt() const
+cryptor::string_encryptor_base<13ul>::decrypt() const
+cryptor::string_encryptor_base<14ul>::decrypt() const
+cryptor::string_encryptor_base<15ul>::decrypt() const
+cryptor::string_encryptor_base<16ul>::decrypt() const
+cryptor::string_encryptor_base<19ul>::decrypt() const
+cryptor::string_encryptor_base<22ul>::decrypt() const
+cryptor::string_encryptor_base<3ul>::decrypt() const
+cryptor::string_encryptor_base<5ul>::decrypt() const
+cryptor::string_encryptor_base<7ul>::decrypt() const
+cryptor::string_encryptor_base<8ul>::decrypt() const
+cryptor::string_encryptor_base<9ul>::decrypt() const
 cs_cz
 ctime
 ctype
@@ -9723,7 +9726,6 @@ ftruncate of %s, %d, %u failed: %d
 futex robust_list not initialized by pthreads
 futex robust_list not pthreads-compatible
 fwrite
-fyx~v|oy`2tsmhiB6
 g_AITCamera
 g_EtronCamera
 g_LoggingMutex
@@ -9793,7 +9795,7 @@ g_pVRPathsInternal
 g_pVRProperties
 g_pVRPropertiesInternal
 g_pVRResources
-g_pVRServer
+g_pVRServerInternal
 g_pVRSettings
 g_pVRSettingsInternal
 g_pVRSystem
@@ -22223,7 +22225,7 @@ vr_internal::VRPropertiesRaw()
 vr_internal::VRRenderModels()
 vr_internal::VRRenderModelsInternal()
 vr_internal::VRResources()
-vr_internal::VRServer()
+vr_internal::VRServerInternal()
 vr_internal::VRSettings()
 vr_internal::VRSettingsInternal()
 vr_internal::VRSettingsRaw()
@@ -22773,6 +22775,7 @@ znear
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,2,'NV12'" ] }
 {"driver":"etronlib", "usbVID":1234, "usbPID":1234, "streams": [ "2,1,'YUYV',16", "4,1,'MJPG',32" ] }
 {\n   "tracked_cameras" : [\n      {\n         "name" : "left",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, 0.08715574274765797 ],\n            "plus_z" : [ -0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ 0.06749, -0.03294, 0.06881 ]\n         }\n      },\n      {\n         "name" : "right",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, -0.08715574274765797 ],\n            "plus_z" : [  0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ -0.06749, -0.03294, 0.06881 ]\n         }\n      }\n   ]\n}
+{deckard}
 {default arg#
 {htc}
 {htc}/input/vive_controller_profile.json

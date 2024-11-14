@@ -456,18 +456,17 @@
 16CVkCommandBuffer
 18CPrismDisplay_Null
 18IPrismPoseProvider
+19:51:52
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-23:25:45
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 30CSharedResourceNamespaceServer
 33s?+
-5j]c
 6CPrism
 7CThread
 8CVkImage
@@ -1086,8 +1085,8 @@ CVkCommandBufferPool::Initialize(CVkDevice*, char const*, unsigned int) (.cold)
 CVkCommandBufferPool::Release()
 CVkCommandBufferPool::~CVkCommandBufferPool()
 CVkDescriptorAllocator::Allocate(VkDescriptorSet_T**, CVkDescriptorBindings const*)
-CVkDescriptorAllocator::CVkDescriptorAllocator(CVkDevice*, char const*)
-CVkDescriptorAllocator::CVkDescriptorAllocator(CVkDevice*, char const*) (.cold)
+CVkDescriptorAllocator::CVkDescriptorAllocator(CVkDevice*, char const*, unsigned int)
+CVkDescriptorAllocator::CVkDescriptorAllocator(CVkDevice*, char const*, unsigned int) (.cold)
 CVkDescriptorAllocator::GetOrCreatePool(CVkDescriptorBindings const*)
 CVkDescriptorAllocator::GetOrCreatePool(CVkDescriptorBindings const*) (.cold)
 CVkDescriptorAllocator::Release()
@@ -1405,6 +1404,7 @@ GLIBC_2.3.2
 GLIBC_2.3.4
 GLSL.std.450
 GenerateVisibleAreaMesh
+GetClockRealtime()
 GetCompatibleMemoryType
 GetDisplayModes
 GetEnvironmentVariable(char const*)
@@ -2122,10 +2122,10 @@ NewBatch
 NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t>> const&)
 NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t>> const&) (.cold)
 None
+Nov 13 2024
 November
 Null
 Null Client
-Oct 21 2024
 October
 OnPreSubmit
 Out of thread local storage!\n

@@ -24,6 +24,8 @@
 	"Resetting_Countdown" : "Resetting...",
 	"Button_Recenter": "Recenter",
 	"Recentering_Countdown" : "Recentering...",
+	"MenuPlayspaceSetup": "Playspace Setup",
+	"MenuPlayspaceMenu": "Playspace Menu",
 	"PowerMenuTurnOffController": "Turn Off Controller",
 	"PowerMenuShutdown": "Shutdown",
 	"PowerMenuQuitSceneApp": "Exit %1$s",
