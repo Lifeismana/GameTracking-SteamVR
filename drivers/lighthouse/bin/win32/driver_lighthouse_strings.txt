@@ -1570,6 +1570,7 @@ HTC Vive Developer Edition
 HTC Vive Pro
 HTC-VIVE
 HWID Signature not found
+H\ hPS
 HasField
 Hex and octal numbers must be integers.
 Hid not open\n
@@ -2057,7 +2058,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSv
+RSDS
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE

@@ -2739,6 +2739,7 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+01:39:50
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -2796,7 +2797,6 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
-19:51:46
 19CWirelessDecoderWv2
 1e+9999
 2#.google.protobuf.FieldOptions.CType:
@@ -7261,7 +7261,7 @@ Not starting vrserver for background app (121)
 Not the preferred basestation\n
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
-Nov 13 2024
+Nov 21 2024
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
@@ -9562,7 +9562,6 @@ Zjz\v
 \%03o
 \@UUUUUU
 \U%08x
-\f84vYW
 \n    Actual    : 
 \n    Field type: 
 \n  Field       : 

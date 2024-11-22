@@ -1178,6 +1178,7 @@ VerifyTidIntegrity()
 Wednesday
 Zjz\v
 [abi:
+\ruwp
 _Accum
 _DYNAMIC
 _Fract

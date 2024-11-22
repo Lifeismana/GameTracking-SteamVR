@@ -863,6 +863,7 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+01:40:04
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -926,7 +927,6 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
-19:51:52
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -5722,7 +5722,7 @@ Not starting vrserver for background app (121)
 Not the preferred basestation\n
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
-Nov 13 2024
+Nov 21 2024
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
