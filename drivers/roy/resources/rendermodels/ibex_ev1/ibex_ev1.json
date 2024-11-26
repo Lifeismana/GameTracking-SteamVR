@@ -1,0 +1,42 @@
+{
+    "thumbnail" : "ibex_ev1_thumb.png",
+    "components": {
+        "body": {
+            "filename": "ibex_ev1_body.obj",
+            "component_local" : {
+            "origin": [0.0, 0.0, 0.0],
+            "rotate_xyz" : [0.0, 0.0, 0.0]
+            }
+        },
+        "tip": {
+            "component_local" : {
+                "origin": [-0.00, -0.0, 0.0],
+                "rotate_xyz" : [-10.0, 0.0, 0.0]
+            }
+        },
+        "base": {
+            "component_local" : {
+                "origin": [-0.004758, -0.037977, 0.200466],
+                "rotate_xyz" : [-155.4, -0.427, -7.081]
+            }
+        },
+        "gdc2015": {
+            "component_local" : {
+                "origin": [0.0, 0.0, 0.0],
+                "rotate_xyz" : [0,0,0]
+            }
+        },
+        "handgrip": {
+            "component_local" : {
+                "origin": [0.003851, 0.003715, 0.075948],
+                "rotate_xyz" : [15.392, 2.071, -0.303]
+             }
+        },
+        "grip": {
+            "component_local" : {
+                "origin": [0.0, -0.015, 0.13],
+                "rotate_xyz" : [15.392, 2.071, -0.303]
+             }
+        }
+    }
+}

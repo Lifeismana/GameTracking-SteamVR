@@ -1,0 +1,11 @@
+Content Manifest for Depot 250829 
+
+Manifest ID / date     : 8853391724673135535 / 01/04/2017 00:20:46 
+Total number of files  : 1 
+Total number of chunks : 1 
+Total bytes on disk    : 22 
+Total bytes compressed : 80 
+
+
+          Size Chunks File SHA                                 Flags Name
+            22      1 df4a2c65bf5fb8a07eb3911e7ab54de7b8b58d27     0 resources/readme.txt

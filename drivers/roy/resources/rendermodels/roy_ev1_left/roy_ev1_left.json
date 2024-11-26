@@ -1,0 +1,366 @@
+{
+    "thumbnail": "roy_ev1_left_thumb.png",
+    "components": {
+        "body": {
+            "filename": "roy_ev1_left_body.obj",
+            "component_local": {
+                "origin": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotate_xyz": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "thumbstick": {
+            "filename": "roy_ev1_left_thumbstick.obj",
+            "motion": {
+                "type": "joystick",
+                "controller_axis": 0,
+                "joystick_path": "/input/thumbstick",
+                "center": [
+                    0.023734815418720245,
+                    -0.006856570951640606,
+                    0.05272476747632027
+                ],
+                "rotate_xyz": [
+                    -35.25240947637669,
+                    -10.270844884214252,
+                    -4.411359637722775
+                ],
+                "joystick_rotation_x": [
+                    18,
+                    -18
+                ],
+                "joystick_rotation_y": [
+                    18,
+                    -18
+                ],
+                "component_path": "/input/thumbstick",
+                "press_translate": [
+                    0.0,
+                    -0.0005,
+                    0.0
+                ]
+            },
+            "component_local": {
+                "origin": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotate_xyz": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "dpad": {
+            "filename": "roy_ev1_left_dpad.obj",
+            "motion": {
+                "type": "joystick",
+                "controller_axis": 2,
+                "joystick_path": "/input/dpad_as_trackpad",
+                "center": [
+                    -0.0029549289029091597,
+                    -0.0037605545949190855,
+                    0.03859725594520569
+                ],
+                "rotate_xyz": [
+                    -35.25240947637669,
+                    -10.270844884214252,
+                    -4.411360064609599
+                ],
+                "joystick_rotation_x": [
+                    9,
+                    -9
+                ],
+                "joystick_rotation_y": [
+                    9,
+                    -9
+                ],
+                "component_path": "/input/dpad_as_trackpad",
+                "press_translate": [
+                    0.0,
+                    -0.000927,
+                    0.0
+                ]
+            },
+            "component_local": {
+                "origin": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotate_xyz": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "button_grip": {
+            "note": "does this go with grip component?",
+            "filename": "roy_ev1_left_grip_button.obj",
+            "component_local": {
+                "origin": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotate_xyz": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "motion": {
+                "type": "rotate",
+                "controller_axis": 1,
+                "controller_axis_component": 0,
+                "trigger_path": "/input/grip",
+                "value_mapping": [
+                    0.0,
+                    -14
+                ],
+                "pivot": [
+                    0.012834629975259304,
+                    -0.015039217658340931,
+                    0.06545531749725342
+                ],
+                "axis": [
+                    0.16541872918605804,
+                    0.8062824606895447,
+                    -0.5679306983947754
+                ],
+                "pressed_value_override": -15
+            }
+        },
+        "trigger": {
+            "filename": "roy_ev1_left_trigger.obj",
+            "motion": {
+                "type": "rotate",
+                "controller_axis": 1,
+                "controller_axis_component": 0,
+                "trigger_path": "/input/trigger",
+                "value_mapping": [
+                    0.0,
+                    -14.0
+                ],
+                "pivot": [
+                    0.00031527827377431095,
+                    -0.020631544291973114,
+                    0.049590565264225006
+                ],
+                "axis": [
+                    0.9837794303894043,
+                    -0.17579041421413422,
+                    0.03572014719247818
+                ],
+                "pressed_value_override": -16.0
+            },
+            "component_local": {
+                "origin": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotate_xyz": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "button_view": {
+            "filename": "roy_ev1_left_view_button.obj",
+            "component_local": {
+                "origin": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotate_xyz": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "motion": {
+                "type": "translate",
+                "pressed_path": "/input/view/click",
+                "controller_button": 1,
+                "value_mapping": [
+                    0.0,
+                    0.0007
+                ],
+                "axis": [
+                    -0.16541865468025208,
+                    -0.8062824606895447,
+                    0.5679306983947754
+                ]
+            }
+        },
+        "button_system": {
+            "filename": "roy_ev1_left_system_button.obj",
+            "component_local": {
+                "origin": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotate_xyz": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "motion": {
+                "type": "translate",
+                "pressed_path": "/input/system/click",
+                "controller_button": 0,
+                "value_mapping": [
+                    0.0,
+                    0.001
+                ],
+                "axis": [
+                    -0.16541865468025208,
+                    -0.8062824606895447,
+                    0.5679306983947754
+                ]
+            }
+        },
+        "bumper": {
+            "filename": "roy_ev1_left_bumper.obj",
+            "component_local": {
+                "origin": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotate_xyz": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "motion": {
+                "type": "translate",
+                "pressed_path": "/input/bumper/click",
+                "controller_button": 0,
+                "value_mapping": [
+                    0.0,
+                    0.001
+                ],
+                "axis": [
+                    0.10272946208715439,
+                    0.5458095073699951,
+                    0.8315879702568054
+                ]
+            }
+        },
+        "base": {
+            "component_local": {
+                "origin": [
+                    -0.0024,
+                    -0.0024,
+                    0.1531
+                ],
+                "rotate_xyz": [
+                    -0.4,
+                    180.0,
+                    0.0
+                ]
+            }
+        },
+        "tip": {
+            "component_local": {
+                "origin": [
+                    0.012694,
+                    -0.02522,
+                    0.020687
+                ],
+                "rotate_xyz": [
+                    -40,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "openxr_aim": {
+            "component_local": {
+                "origin": [
+                    0.012694,
+                    -0.02522,
+                    0.020687
+                ],
+                "rotate_xyz": [
+                    -40,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "openxr_grip": {
+            "component_local": {
+                "origin": [
+                    -0.003117,
+                    -0.004277,
+                    0.099501
+                ],
+                "rotate_xyz": [
+                    2.8091,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "openxr_handmodel": {
+            "component_local": {
+                "origin": [
+                    -0.01125,
+                    -0.00182941,
+                    0.1019482
+                ],
+                "rotate_xyz": [
+                    -39.4,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "handgrip": {
+            "component_local": {
+                "origin": [
+                    -0.003117,
+                    -0.004277,
+                    0.099501
+                ],
+                "rotate_xyz": [
+                    2.8091,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "grip": {
+            "component_local": {
+                "origin": [
+                    -0.003117,
+                    -0.004277,
+                    0.099501
+                ],
+                "rotate_xyz": [
+                    2.8091,
+                    0.0,
+                    0.0
+                ]
+            }
+        }
+    }
+}

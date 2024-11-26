@@ -1,0 +1,119 @@
+{
+    "thumbnail" : "roy_controller_right_thumb.png",
+    "components": {
+        "body": {
+            "filename": "body.obj",
+            "component_local" : {
+            "origin": [0.0, 0.0, 0.0],
+            "rotate_xyz" : [0.0, 0.0, 0.0]
+            }
+        },
+        "trigger": {
+            "filename": "trigger.obj",
+            "motion":{
+                "type":"rotate",
+                "controller_axis":1,
+                "controller_axis_component":0,
+                "trigger_path" : "/input/trigger",
+                "value_mapping": [0.0,-18.0],
+                "pivot": [-0.00477, -0.023787, 0.049142],
+                "axis": [0.977, 0.119, -0.179],
+                "pressed_value_override" : -20.0
+            },
+            "component_local" : {
+            "origin": [-0.00623, -0.037688, 0.048241],
+            "rotate_xyz" : [-39.0, 8.0, 2.0]
+            }
+        },
+        "thumbstick": {
+            "filename": "thumbstick.obj",
+            "motion":{
+                "type":"joystick",
+                "controller_axis": 0,
+                "joystick_path" : "/input/joystick",
+                "center": [ 0.003, 0.005, 0.052 ],
+                "rotate_xyz": [0.0,0.0,0.0],
+                "joystick_rotation_x": [18,-18],
+                "joystick_rotation_y": [18,-18],
+                "component_path" : "/input/joystick",
+                "press_translate": [0.0, -0.000927, 0.000375]
+            },
+            "component_local" : {
+                "origin": [0.014054, 0.007286, 0.040605],
+                "rotate_xyz" : [65.0, 0.0, 0.0]
+            }
+        },
+        "sys_button": {
+            "filename": "button_system.obj",
+            "motion":{
+                "type":"translate",
+                "pressed_path" : "/input/system/click",
+                "controller_button": 0,
+                "value_mapping": [0.0, 0.00005],
+                "axis": [0.0, -0.927, 0.375]
+            },
+            "component_local" : {
+                "origin": [-0.00856, 0.012283, 0.066286],
+                "rotate_xyz" : [90.0, 0.0, 0.0]
+            }
+        },
+         "button_b": {
+            "filename": "button_b.obj",
+            "motion":{
+                "type":"translate",
+                "pressed_path" : "/input/b/click",
+                "controller_button": 1,
+                "value_mapping": [0.0, 0.002],
+                "axis": [0.0, -0.927, 0.375]
+            },
+            "component_local" : {
+                "origin": [-0.020039, 0.005817, 0.046078],
+                "rotate_xyz" : [65.0, 0.0, 0.0]
+            }
+        },
+        "button_a": {
+            "filename": "button_a.obj",
+            "motion":{
+                "type":"translate",
+                "pressed_path" : "/input/a/click",
+                "controller_button": 2,
+                "value_mapping": [0.0, 0.001],
+                "axis": [0.0, -0.927, 0.375]
+            },
+            "component_local" : {
+                "origin": [-0.018, 0.01093, 0.057597],
+                "rotate_xyz" : [65.0, 0.0, 0.0]
+            }
+        },
+        "tip": {
+            "component_local" : {
+                "origin": [-0.006, -0.015, 0.02],
+                "rotate_xyz" : [-40.0, 5.0, 0.0]
+            }
+        },
+        "base": {
+            "component_local" : {
+                "origin": [-0.004758, -0.037977, 0.200466],
+                "rotate_xyz" : [-155.4, -0.427, -7.081]
+            }
+        },
+        "gdc2015": {
+            "component_local" : {
+                "origin": [0.0, 0.0, 0.0],
+                "rotate_xyz" : [0,0,0]
+            }
+        },
+        "handgrip": {
+            "component_local" : {
+                "origin": [0.003851, 0.003715, 0.075948],
+                "rotate_xyz" : [15.392, 2.071, -0.303]
+             }
+        },
+        "grip": {
+            "component_local" : {
+                "origin": [0.0, -0.015, 0.13],
+                "rotate_xyz" : [15.392, 2.071, -0.303]
+             }
+        }
+    }
+}
