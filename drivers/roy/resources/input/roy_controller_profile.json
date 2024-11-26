@@ -1,0 +1,125 @@
+{
+  "jsonid": "input_profile",
+  "controller_type": "roy",
+  "device_class" : "TrackedDeviceClass_Controller",
+  "resource_root" : "roy",
+  "driver_name" : "roy",
+  "legacy_binding" :  "{roy}/input/legacy_bindings_roy_controller.json",
+  "remapping" :  "{roy}/input/roy_controller_remapping.json",
+  "input_bindingui_mode" : "controller_handed",
+  "should_show_binding_errors": true,
+  "input_bindingui_left" :
+  {
+    "image": "{indexcontroller}/icons/indexcontroller_left.svg"
+  },
+  "input_bindingui_right" :
+  {
+    "image": "{indexcontroller}/icons/indexcontroller_right.svg"
+  },
+  "input_source" :
+  {
+    "/input/system" : {
+      "type" : "button",
+      "click" : true,
+      "touch" : true,
+      "binding_image_point" : [ 34,45 ],
+      "order" : 1
+    },
+    "/input/a" : {
+      "type" : "button",
+      "click" : true,
+      "touch" : true,
+      "binding_image_point" : [ 26, 42 ],
+      "order" : 6
+    },
+    "/input/b" : {
+      "type" : "button",
+      "click" : true,
+      "touch" : true,
+      "binding_image_point" : [ 18, 37  ],
+      "order" : 5
+    },
+    "/input/trigger" : {
+      "type" : "trigger",
+      "value" : true,
+      "binding_image_point" : [ 11, 60 ],
+      "order" : 2
+    },
+    "/input/grip" : {
+      "type" : "trigger",
+      "force" : true,
+      "input_activity_path" : "/input/grip/force",
+      "input_activity_threshold" : 0.1,
+      "binding_image_point" : [ 47, 86 ],
+      "order" : 7
+    },
+    "/input/joystick" : {
+      "type" : "joystick",
+      "click" : true,
+      "touch" : true,
+      "binding_image_point" : [ 31, 26 ],
+      "order" : 4
+    },
+
+    "/pose/raw" : {
+      "type" : "pose",
+      "binding_image_point" : [ 5, 35 ]
+    },
+    "/pose/base" : {
+      "type" : "pose",
+      "binding_image_point" : [ 65, 136 ]
+    },
+    "/pose/handgrip" : {
+      "type" : "pose",
+      "binding_image_point" : [ 56, 95 ]
+    },
+    "/pose/grip" : {
+      "type" : "pose",
+      "binding_image_point" : [ 56, 95 ]
+    },
+    "/pose/tip" : {
+      "type" : "pose",
+      "binding_image_point" : [ 5, 35 ]
+    },
+    "/pose/gdc2015" : {
+      "type" : "pose",
+      "binding_image_point" : [ 5, 35 ]
+    },
+
+    "/input/skeleton/left" : {
+      "type" : "skeleton",
+      "skeleton": "/skeleton/hand/left",
+      "side" : "left",
+      "binding_image_point" : [ 5, 35 ]
+    },
+    "/input/skeleton/right" : {
+      "type" : "skeleton",
+      "skeleton": "/skeleton/hand/right",
+      "side" : "right",
+      "binding_image_point" : [ 5, 35 ]
+    },
+
+    "/output/haptic" : {
+      "type" : "vibration",
+      "binding_image_point" : [ 5, 35 ]
+    }
+  },
+  "default_bindings": [
+    {
+      "app_key": "openvr.component.vrcompositor",
+      "binding_url" : "vrcompositor_bindings_roy.json"
+    },
+    {
+      "app_key" : "vrlink.client",
+      "binding_url" : "vrlink_legacy_bindings_roy_controller.json"
+    },
+    {
+      "app_key" : "steam.app.348250",
+      "binding_url": "google_earth_legacy_bindings_roy_controller.json"
+    },
+    {
+      "app_key" : "steam.app.605450",
+      "binding_url": "in_death_legacy_bindings_roy_controller.json"
+    }
+  ]
+}

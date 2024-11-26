@@ -1,0 +1,40 @@
+{
+	"jsonid" : "input_profile",
+  "controller_type": "deckard",
+  "input_bindingui_mode" : "hmd",
+  "input_bindingui_right" :
+  {
+    "image": "{deckard}/deckard_bindings.svg"
+  },
+  "input_source" :
+  {
+    "/input/system" : {
+        "type" : "button",
+        "order" :  1,
+        "binding_image_point" : [ 127, 62 ],
+	      "click" : true
+    },
+    "/input/volume_up" : {
+        "type" : "button",
+        "order" :  2,
+        "binding_image_point" : [ 210, 100 ],
+	      "click" : true
+    },
+    "/input/volume_down" : {
+        "type" : "button",
+        "order" :  3,
+        "binding_image_point" : [ 210, 130 ],
+	      "click" : true
+    },
+    "/pose/raw" : {
+        "type" : "pose",
+        "binding_image_point" : [ 63, 148 ]
+    }
+  },
+  "default_bindings" :[
+   {
+        "app_key" : "openvr.component.vrcompositor",
+        "binding_url" : "vrcompositor_bindings_deckard.json"
+   }
+  ]
+}
