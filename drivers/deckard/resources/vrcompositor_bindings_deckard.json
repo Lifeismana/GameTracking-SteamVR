@@ -52,6 +52,24 @@
                },
                "mode" : "complex_button",
                "path" : "/user/head/input/system"
+            },
+            {
+               "inputs": {
+                  "click": {
+                     "output": "/actions/system/in/volumeup"
+                  }
+               },
+               "mode": "button",
+               "path": "/user/head/input/volume_up"
+            },
+            {
+               "inputs": {
+                  "click": {
+                     "output": "/actions/system/in/volumedown"
+                  }
+               },
+               "mode": "button",
+               "path": "/user/head/input/volume_down"
             }
          ]
       }

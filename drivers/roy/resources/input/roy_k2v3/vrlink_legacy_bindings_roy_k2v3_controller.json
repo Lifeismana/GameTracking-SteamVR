@@ -164,6 +164,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/left_system_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_system_touch"
                   }
                },
                "mode" : "button",
@@ -173,6 +176,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/right_system_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_system_touch"
                   }
                },
                "mode" : "button",
@@ -182,6 +188,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/left_applicationmenu_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_applicationmenu_touch"
                   }
                },
                "mode" : "button",
@@ -191,6 +200,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/right_applicationmenu_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_applicationmenu_touch"
                   }
                },
                "mode" : "button",
@@ -200,6 +212,9 @@
                "inputs" : {
                   "pull" : {
                      "output" : "/actions/legacy/in/left_axis2_value1"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/head_proximity"
                   }
                },
                "parameters" : {
@@ -212,6 +227,9 @@
                "inputs" : {
                   "pull" : {
                      "output" : "/actions/legacy/in/right_axis2_value1"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/head_proximity"
                   }
                },
                "parameters" : {
@@ -227,6 +245,9 @@
                   },
                   "click" : {
                      "output" : "/actions/legacy/in/left_grip_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_grip_touch"
                   }
                },
                "parameters" : {
@@ -242,6 +263,9 @@
                   },
                   "click" : {
                      "output" : "/actions/legacy/in/right_grip_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_grip_touch"
                   }
                },
                "parameters" : {
@@ -255,6 +279,9 @@
                   "click" : {
                      "output" : "/actions/legacy/in/left_axis0_press"
                   },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_axis0_touch"
+                  },
                   "position" : {
                      "output" : "/actions/legacy/in/left_axis0_value"
                   }
@@ -267,6 +294,9 @@
                   "click" : {
                      "output" : "/actions/legacy/in/right_axis0_press"
                   },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_axis0_touch"
+                  },
                   "position" : {
                      "output" : "/actions/legacy/in/right_axis0_value"
                   }
@@ -278,6 +308,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/left_a_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_a_touch"
                   }
                },
                "mode" : "button",
@@ -287,6 +320,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/right_a_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_a_touch"
                   }
                },
                "mode" : "button",
@@ -296,6 +332,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/left_axis2_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_axis2_touch"
                   }
                },
                "mode" : "button",
@@ -305,6 +344,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/right_axis2_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_axis2_touch"
                   }
                },
                "mode" : "button",
@@ -314,6 +356,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/left_axis1_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_axis1_touch"
                   }
                },
                "mode" : "button",
@@ -323,6 +368,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/right_axis1_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_axis1_touch"
                   }
                },
                "mode" : "button",
@@ -332,6 +380,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/left_axis3_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_axis3_touch"
                   }
                },
                "mode" : "button",
@@ -341,6 +392,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/right_axis3_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_axis3_touch"
                   }
                },
                "mode" : "button",
@@ -350,6 +404,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/left_axis4_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/left_axis4_touch"
                   }
                },
                "mode" : "button",
@@ -359,6 +416,9 @@
                "inputs" : {
                   "click" : {
                      "output" : "/actions/legacy/in/right_axis4_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/legacy/in/right_axis4_touch"
                   }
                },
                "mode" : "button",

@@ -207,6 +207,10 @@
     {
       "app_key": "steam.app.1957780",
       "binding_url": "ghosts_of_tabor_bindings_roy_k2v3_controller.json"
+    },
+    {
+      "app_key" : "steam.app.620980",
+      "binding_url": "beat_saber_bindings_roy_k2v3_controller.json"
     }
   ]
 }
