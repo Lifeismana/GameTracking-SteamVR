@@ -166,6 +166,8 @@ $3br
 (anonymous namespace)::GetChildPathHandle(unsigned long long*, unsigned long long*, char const*, Json::Value const&, vr::IVRPaths*) (.cold)
 (anonymous namespace)::GetChildVector2d(double*, char const*, Json::Value const&)
 (anonymous namespace)::GetChildVector3d(vr::HmdVector3d_t*, char const*, Json::Value const&)
+(anonymous namespace)::GetDecryptionKeyChar(unsigned int)
+(anonymous namespace)::GetDecryptionKeyChar(unsigned int)::decryptionKey
 (anonymous namespace)::GetDestinationFormat(VkFormat, vr::EColorSpace, VkFormat*)
 (anonymous namespace)::ValidBounds(vr::VRTextureBounds_t const*)
 (anonymous namespace)::ValidBounds(vr::VRTextureBounds_t const*)::__executeCount
@@ -2336,9 +2338,9 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:40:01
 0123456789
 0123456789ABCDEF
-01:39:50
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -3050,7 +3052,6 @@ $3br
 : one or more FS callback not set
 ; expected 
 ; last read: '
-;}zda`;vaydqf;wx
 <?xml version="1.0" encoding="UTF-8"?>\n<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">\n\t<mime-type type="
 <NONE>
 <discarded>
@@ -3063,7 +3064,6 @@ $3br
 =====================================
 ================================================================================================\n
 >333?
->dbtc>yp
 ?N2vr10IVRMCStoreE
 @UUUUUU
 A protocol message was rejected because it was too big (more than 
@@ -3621,6 +3621,7 @@ CDriverManager::BGetGpuLuid(unsigned long long*, unsigned int*) const
 CDriverManager::BGetGpuLuid(unsigned long long*, unsigned int*) const (.cold)
 CDriverManager::BHasHmdServerDriver()
 CDriverManager::BHmdDeviceMightBePresent(unsigned int)
+CDriverManager::BHmdDeviceMightBePresent(unsigned int)::'lambda'()::operator()() const::encrypted
 CDriverManager::BIsSafeDriver(unsigned int) const
 CDriverManager::BIsSafeDriverByName(std::string const&) const
 CDriverManager::BShowEnableInSettings(unsigned int)
@@ -3668,6 +3669,8 @@ CDriverManager::GetWatchdogProvider(unsigned int)
 CDriverManager::HasLoadableDriver(unsigned int) const
 CDriverManager::InitFromPathRegistry(CPropertyManager*)
 CDriverManager::InitFromPathRegistry(CPropertyManager*) (.cold)
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda'()::operator()() const::encrypted
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda1'()::operator()() const::encrypted
 CDriverManager::IsBlockedBySafemode(unsigned int) const
 CDriverManager::IsEnabled(unsigned int) const
 CDriverManager::IsEnabledByDefault(unsigned int) const
@@ -17757,6 +17760,7 @@ Debug markers: disabled, missing extension support. Is the Renderdoc layer enabl
 Debug markers: enabled\n
 DebugDriverLog(char const*, ...)
 DebuggerEnabled
+Dec  7 2024
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -22943,7 +22947,6 @@ Not writing scalar value because it didn't change\n
 Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
-Nov 21 2024
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t>>*)
@@ -27109,11 +27112,6 @@ count
 covariant return thunk to 
 cplus_demangle_builtin_types
 cplus_demangle_operators
-cryptor::string_encryptor_base<16u>::decrypt() const
-cryptor::string_encryptor_base<17u>::decrypt() const
-cryptor::string_encryptor_base<20u>::decrypt() const
-cryptor::string_encryptor_base<3u>::decrypt() const
-cryptor::string_encryptor_base<7u>::decrypt() const
 cs_cz
 cursor_index
 czech
@@ -27950,6 +27948,7 @@ greek
 green
 gripLimitData
 guard variable for 
+guard variable for (anonymous namespace)::GetDecryptionKeyChar(unsigned int)::decryptionKey
 guard variable for (anonymous namespace)::__io_category_instance()::__ec
 guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
 guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
@@ -36382,7 +36381,6 @@ typeinfo name for vr::IXrProto
 typeinfo name for wchar_t
 typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
-u>cxvye?ecub?xq~t?|uvd
 uk_ua
 ukrainian
 umask
@@ -37778,6 +37776,9 @@ vr::CVRSteamPrivateLatest::GetOverlayInteractionAffordance(unsigned long long, v
 vr::CVRSteamPrivateLatest::GetOverlayInteractionAffordances(unsigned long long, unsigned int*)
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int) (.cold)
+vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::'lambda'()::operator()() const::encrypted
+vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::'lambda0'()::operator()() const::encrypted
+vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::'lambda1'()::operator()() const::encrypted
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_PathEmpty
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2ButtonLeftPressed
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2ButtonRightPressed

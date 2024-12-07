@@ -4373,6 +4373,7 @@
         holographic: "Windows MR / Holographic",
         "00natural": "Natural Locomotion",
         "00inputemulator": "OpenVR-InputEmulator",
+        "01spacecalibrator": "Space Calibrator",
         aapvr: "Pimax",
         ivry: "iVRy (Phone, PSVR)",
         kinoni: "Kinoni (Phone)",
@@ -17600,4 +17601,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=e76b22780abaa62e5e90
+//# sourceMappingURL=vrwebui_shared.js.map?v=9606e932daacd5ebb767

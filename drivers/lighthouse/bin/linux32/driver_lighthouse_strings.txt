@@ -359,6 +359,8 @@ $3br
 (\v2-.google.protobuf.UninterpretedOption.NamePart
 (\v2/.google.protobuf.DescriptorProto.ExtensionRange
 (anonymous namespace)
+(anonymous namespace)::GetDecryptionKeyChar(unsigned int)
+(anonymous namespace)::GetDecryptionKeyChar(unsigned int)::decryptionKey
 (anonymous namespace)::__io_category_instance()::__ec
 (anonymous namespace)::__new_handler
 (anonymous namespace)::c_locale
@@ -598,18 +600,11 @@ $3br
 .L10466
 .L1047
 .L10478
-.L1048
 .L1049
 .L105
 .L1050
 .L1051
-.L1052
 .L1053
-.L1054
-.L1055
-.L1056
-.L1057
-.L1058
 .L106
 .L10625
 .L10627
@@ -2707,7 +2702,6 @@ $3br
 /input/volume_up/click
 /input/x/click
 /input/y/click
-/input_profile.json
 /lighthouse/
 /lighthouse/camera/raw_frames
 /observed_basestations
@@ -2736,10 +2730,10 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:40:01
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:39:50
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -3572,6 +3566,7 @@ CDriverManager::BGetGpuLuid(unsigned long long*, unsigned int*) const
 CDriverManager::BGetGpuLuid(unsigned long long*, unsigned int*) const (.cold)
 CDriverManager::BHasHmdServerDriver()
 CDriverManager::BHmdDeviceMightBePresent(unsigned int)
+CDriverManager::BHmdDeviceMightBePresent(unsigned int)::'lambda'()::operator()() const::encrypted
 CDriverManager::BIsSafeDriver(unsigned int) const
 CDriverManager::BIsSafeDriverByName(std::string const&) const
 CDriverManager::BShowEnableInSettings(unsigned int)
@@ -3619,6 +3614,8 @@ CDriverManager::GetWatchdogProvider(unsigned int)
 CDriverManager::HasLoadableDriver(unsigned int) const
 CDriverManager::InitFromPathRegistry(CPropertyManager*)
 CDriverManager::InitFromPathRegistry(CPropertyManager*) (.cold)
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda'()::operator()() const::encrypted
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda1'()::operator()() const::encrypted
 CDriverManager::IsBlockedBySafemode(unsigned int) const
 CDriverManager::IsEnabled(unsigned int) const
 CDriverManager::IsEnabledByDefault(unsigned int) const
@@ -4047,6 +4044,8 @@ CLighthouseHmdDriver::HandleDebug_SetSubpixel(char const*)
 CLighthouseHmdDriver::HasTrackedCamera()
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&) (.cold)
+CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)::'lambda'()::operator()() const::encrypted
+CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)::'lambda0'()::operator()() const::encrypted
 CLighthouseHmdDriver::InitImageSensorProcessors()
 CLighthouseHmdDriver::InitPrismDirect()
 CLighthouseHmdDriver::InitRenderModelName()
@@ -4104,6 +4103,42 @@ CLighthouseHmdDriver::SendOtgtResultsToLog(vortex::WatchmanOtgtResults_t const&,
 CLighthouseHmdDriver::SendOtgtResultsToLog(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&) (.cold)
 CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)
 CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&) (.cold)
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda0'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda1'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda10'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda11'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda12'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda13'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda14'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda15'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda16'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda17'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda18'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda19'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda2'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda20'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda21'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda22'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda23'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda24'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda25'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda26'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda27'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda28'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda29'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda3'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda30'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda31'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda32'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda33'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda34'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda4'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda5'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda6'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda7'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda8'()::operator()() const::encrypted
+CLighthouseHmdDriver::SendOtgtResultsToOgs(vortex::WatchmanOtgtResults_t const&, CLighthouseHmdDriver::OtgtResultsContext_t const&)::'lambda9'()::operator()() const::encrypted
 CLighthouseHmdDriver::SetAutoExposure(bool)
 CLighthouseHmdDriver::SetCameraCompatibilityMode(vr::ECameraCompatibilityMode)
 CLighthouseHmdDriver::SetCameraFrameBuffering(int, void**, unsigned int)
@@ -4728,6 +4763,7 @@ CTrackedDeviceConfig::clear()
 CTrackedDeviceConfig::clear() (.cold)
 CTrackedDeviceConfig::from_json(Json::Value const&)
 CTrackedDeviceConfig::from_json(Json::Value const&) (.cold)
+CTrackedDeviceConfig::from_json(Json::Value const&)::'lambda'()::operator()() const::encrypted
 CTrackedDeviceConfig::from_json(std::string, std::string&)
 CTrackedDeviceConfig::from_json(std::string, std::string&) (.cold)
 CTrackedDeviceConfig::getRawJsonString(bool) const
@@ -4736,6 +4772,7 @@ CTrackedDeviceConfig::parseCameraJson(Json::Value const&)
 CTrackedDeviceConfig::parseCameraJson(Json::Value const&) (.cold)
 CTrackedDeviceConfig::to_json() const
 CTrackedDeviceConfig::to_json() const (.cold)
+CTrackedDeviceConfig::to_json() const::'lambda'()::operator()() const::encrypted
 CTrackedDeviceConfig::~CTrackedDeviceConfig()
 CTrackedDeviceServerDriverAdapter::Create(void*, vr::IVRDriverContext*, std::set<std::string, std::less<std::string>, std::allocator<std::string>> const&)
 CTrackedDeviceServerDriverAdapter::Create(void*, vr::IVRDriverContext*, std::set<std::string, std::less<std::string>, std::allocator<std::string>> const&) (.cold)
@@ -5288,6 +5325,7 @@ DXGI2::WaitForVBlank(void*)
 Data Invalid
 Data len %d\r\n
 DebugDriverLog(char const*, ...)
+Dec  7 2024
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -5413,7 +5451,6 @@ EVRSceneApplicationState_Running
 EVRSceneApplicationState_Starting
 EVRSceneApplicationState_Waiting
 EXPOSURE=          1.0000000000000\n\n-Y %d +X %d\n
-Ebsw{@DUyxbdyzzs
 Edid already edid_id %d, no change needed\n
 Eigen::CommaInitializer<Eigen::Block<Eigen::Diagonal<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 0>, -1, 1, false>>::operator,(double const&)
 Eigen::LLT<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 1>& Eigen::LLT<Eigen::Matrix<double, 3, 3, 0, 3, 3>, 1>::compute<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Matrix<double, 3, 3, 0, 3, 3> const, Eigen::Matrix<double, 3, 3, 0, 3, 3> const>>(Eigen::EigenBase<Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<double, double>, Eigen::Matrix<double, 3, 3, 0, 3, 3> const, Eigen::Matrix<double, 3, 3, 0, 3, 3> const>> const&)
@@ -5819,7 +5856,6 @@ Four_Threes
 Four_TwoThirds
 Four_Twos
 Four_Zeros
-Fq|fu0Y~tuh0X]T
 Framer sensorType: %d\n
 Framer total=%d invalid_long=%d runt=%d sync_miss=%d unidentified_frame_splits=%d\n
 Friday
@@ -7261,7 +7297,6 @@ Not starting vrserver for background app (121)
 Not the preferred basestation\n
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
-Nov 21 2024
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
@@ -9448,10 +9483,10 @@ Vortex_ReadTextFile(std::string const&) (.cold)
 Vortex_SetDriversPath(std::string const&)
 Vortex_WriteStringToTextFile(std::string const&, char const*)
 Vortex_WriteStringToTextFile(std::string const&, char const*) (.cold)
+Vq`c-
 VrController
 VrInitGpuProfiling()
 Vulkan Direk'
-Vyb}gqbuFubcy
 WARNING
 WARNING: Base %08X has no factory calibration and will be ignored\n
 WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1\n
@@ -10649,20 +10684,6 @@ covariant return thunk to
 cplus_demangle_builtin_types
 cplus_demangle_operators
 crc32
-cryptor::string_encryptor_base<10u>::decrypt() const
-cryptor::string_encryptor_base<11u>::decrypt() const
-cryptor::string_encryptor_base<12u>::decrypt() const
-cryptor::string_encryptor_base<13u>::decrypt() const
-cryptor::string_encryptor_base<14u>::decrypt() const
-cryptor::string_encryptor_base<15u>::decrypt() const
-cryptor::string_encryptor_base<16u>::decrypt() const
-cryptor::string_encryptor_base<19u>::decrypt() const
-cryptor::string_encryptor_base<22u>::decrypt() const
-cryptor::string_encryptor_base<3u>::decrypt() const
-cryptor::string_encryptor_base<5u>::decrypt() const
-cryptor::string_encryptor_base<7u>::decrypt() const
-cryptor::string_encryptor_base<8u>::decrypt() const
-cryptor::string_encryptor_base<9u>::decrypt() const
 cs_cz
 ctime
 ctype
@@ -10878,7 +10899,6 @@ es-8R
 es_es
 es_mx
 etronlib
-ev3F}zwv}gzuzs
 exception thrown in JSON library
 execute_cfa_program
 execute_cfa_program.cold
@@ -13126,6 +13146,7 @@ greek
 group
 grow_for_undistort
 guard variable for 
+guard variable for (anonymous namespace)::GetDecryptionKeyChar(unsigned int)::decryptionKey
 guard variable for (anonymous namespace)::__io_category_instance()::__ec
 guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
 guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
@@ -22426,6 +22447,13 @@ vortex::CVrControllerUsbThread::VrcSetTrackpadDebugEnable(bool)
 vortex::CVrControllerUsbThread::VrcTriggerHapticPulse(unsigned int, unsigned short, unsigned short, unsigned short, unsigned char)
 vortex::CVrControllerUsbThread::~CVrControllerUsbThread()
 vortex::ComputeHmdModelDetail(char const*, char const*)
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda0'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda1'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda2'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda3'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda4'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda5'()::operator()() const::encrypted
 vortex::ComputePoseDifference(math::PoseT<float> const&, math::PoseT<float> const&, float*, float*)
 vortex::CreateDisambiguator(vortex::Disambiguator_t, vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
 vortex::CreateDisambiguator_Framer(vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
@@ -22474,6 +22502,10 @@ vortex::GetDisambiguatorString(vortex::Disambiguator_t)
 vortex::GetVideoStateString(int)::m
 vortex::GetWatchmanPowerLevelMagicStr(vortex::EPowerLevel)
 vortex::HMDModelToStr(vortex::EHmdModelDetail)
+vortex::HMDModelToStr(vortex::EHmdModelDetail)::'lambda'()::operator()() const::encrypted
+vortex::HMDModelToStr(vortex::EHmdModelDetail)::'lambda0'()::operator()() const::encrypted
+vortex::HMDModelToStr(vortex::EHmdModelDetail)::'lambda1'()::operator()() const::encrypted
+vortex::HMDModelToStr(vortex::EHmdModelDetail)::'lambda2'()::operator()() const::encrypted
 vortex::HalfPi
 vortex::HalfSqrtEpsilon
 vortex::IDisambiguator::~IDisambiguator()
@@ -23176,7 +23208,6 @@ znear
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,2,'NV12'" ] }
 {"driver":"etronlib", "usbVID":1234, "usbPID":1234, "streams": [ "2,1,'YUYV',16", "4,1,'MJPG',32" ] }
 {\n   "tracked_cameras" : [\n      {\n         "name" : "left",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, 0.08715574274765797 ],\n            "plus_z" : [ -0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ 0.06749, -0.03294, 0.06881 ]\n         }\n      },\n      {\n         "name" : "right",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, -0.08715574274765797 ],\n            "plus_z" : [  0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ -0.06749, -0.03294, 0.06881 ]\n         }\n      }\n   ]\n}
-{deckard}
 {default arg#
 {htc}
 {htc}/input/vive_controller_profile.json

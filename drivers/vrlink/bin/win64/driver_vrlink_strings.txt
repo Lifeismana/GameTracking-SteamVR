@@ -604,7 +604,6 @@ $3br
 0-pixel image
 0.0.0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899H
 00P`00P`
 0\v2;i
 0`P0
@@ -1638,6 +1637,8 @@ Overriding Quest specific properties for %s\n
 P00`
 P<xD<
 PCGp
+PICO 4 (Left Controller)
+PICO 4 (Right Controller)
 PICT
 PID_
 PNG\r\n
@@ -1677,7 +1678,7 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS5
+RSDS
 RX Fail:%d
 RaiseException
 Rate Remark: %d %d\n
@@ -2306,6 +2307,7 @@ _jbF~T
 _left
 _localtime64
 _lock_file
+_mon
 _purecall
 _recalloc
 _register_onexit_function
@@ -2784,6 +2786,7 @@ lHt\
 lNrZ
 latam
 ldexp
+left
 light
 lights
 link_action
@@ -2913,6 +2916,8 @@ path
 payload
 pbrMetallicRoughness
 perspective
+pico
+pico_controller
 ping
 pl_pl
 playing
@@ -2960,6 +2965,7 @@ returnAddress
 rexmitReq
 rexmitSent
 rift
+right
 ro_ro
 rolloffFactor
 romanian
@@ -3219,7 +3225,9 @@ znear
 {vrlink}/icons/right_handtracking_ready.png
 {vrlink}/icons/right_handtracking_ready_info.png
 {vrlink}/icons/right_handtracking_searching.gif
+{vrlink}/input/pico_controller_profile.json
 {vrlink}/input/svl_hand_interaction_augmented_input_profile.json
+{vrlink}/rendermodels/pico_4_controller_
 {vrlink}/rendermodels/shuttlecock
 {vrlink}/shaders/client_construct_override.frag
 {vrlink}/shaders/client_construct_override.vert

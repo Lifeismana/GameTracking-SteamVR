@@ -363,11 +363,15 @@ $tI(kn
 (anonymous namespace)
 (anonymous namespace)::DeleteRenderModel(vr::RenderModel_t*)
 (anonymous namespace)::DeleteTexture(vr::RenderModel_TextureMap_t*)
+(anonymous namespace)::EncryptedString<32ul>::decrypt() const
+(anonymous namespace)::EncryptedString<9ul>::decrypt() const
 (anonymous namespace)::From(Compositor_OverlaySettings_004 const&, vr::IVRCompositor*) (.isra.0)
 (anonymous namespace)::GetChildPathHandle(unsigned long*, unsigned long*, char const*, Json::Value const&, vr::IVRPaths*)
 (anonymous namespace)::GetChildPathHandle(unsigned long*, unsigned long*, char const*, Json::Value const&, vr::IVRPaths*) (.cold)
 (anonymous namespace)::GetChildVector2d(double*, char const*, Json::Value const&)
 (anonymous namespace)::GetChildVector3d(vr::HmdVector3d_t*, char const*, Json::Value const&)
+(anonymous namespace)::GetDecryptionKeyChar(unsigned long)
+(anonymous namespace)::GetDecryptionKeyChar(unsigned long)::decryptionKey
 (anonymous namespace)::GetDestinationFormat(VkFormat, vr::EColorSpace, VkFormat*)
 (anonymous namespace)::ValidBounds(vr::VRTextureBounds_t const*)
 (anonymous namespace)::ValidBounds(vr::VRTextureBounds_t const*)::__executeCount
@@ -676,14 +680,7 @@ $tI(kn
 /input/application_menu/touch
 /input/back
 /input/back/click
-/input/dpad_down/click
-/input/dpad_down/touch
-/input/dpad_left/click
-/input/dpad_left/touch
-/input/dpad_right/click
-/input/dpad_right/touch
-/input/dpad_up/click
-/input/dpad_up/touch
+/input/dpad_
 /input/finger
 /input/finger/index
 /input/finger/middle
@@ -703,14 +700,12 @@ $tI(kn
 /input/joystick
 /input/menu
 /input/menu/click
-/input/menu/touch
 /input/palm_ext
 /input/palm_ext/pose
 /input/squeeze
 /input/squeeze/click
 /input/system
 /input/system/click
-/input/system/touch
 /input/thumbstick
 /input/trackpad
 /input/trackpad/click
@@ -722,13 +717,8 @@ $tI(kn
 /input/trigger/value
 /input/view/click
 /input/x
-/input/x/click
-/input/x/touch
-/input/y/click
-/input/y/touch
 /input_debugger_pid
 /input_profile
-/interaction_profiles
 /interaction_profiles/
 /interaction_profiles/ext/eye_gaze_interaction
 /interaction_profiles/google/daydream_controller
@@ -1010,9 +1000,9 @@ $tI(kn
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:40:08
 0123456789
 0123456789ABCDEF
-01:40:04
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -1776,7 +1766,6 @@ $tI(kn
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 ; expected 
 ; last read: '
-;}zda`;vaydqf;wx;}zda`;vaydqf;`{
 <?xml version="1.0" encoding="UTF-8"?>\n<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">\n\t<mime-type type="
 <NONE>
 <discarded>
@@ -1793,13 +1782,20 @@ $tI(kn
 ?N2vr10IVRMCStoreE
 @(knN
 @UUUUUU
+@mx)a
+@mx)b
+@mx)d
+@mx)k
+@mx)n
+@mx)p
+@mx)w
+@mx)z
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 AB24
 AB30
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
-AKFOXUO\Fkv`Fpwm
 AKST
 AR24
 AR30
@@ -1840,6 +1836,61 @@ AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, s
 AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t>>) (.cold)
 AddLegalInteractionProfiles()
 AddLegalInteractionProfiles() (.cold)
+AddLegalInteractionProfiles()::'lambda'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda0'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda1'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda10'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda11'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda12'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda13'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda14'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda15'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda16'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda17'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda18'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda19'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda2'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda20'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda21'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda22'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda23'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda24'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda25'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda26'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda27'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda28'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda29'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda3'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda30'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda31'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda32'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda33'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda34'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda35'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda36'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda37'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda38'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda39'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda4'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda40'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda41'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda42'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda43'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda44'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda45'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda46'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda47'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda48'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda49'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda5'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda50'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda51'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda52'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda53'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda6'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda7'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda8'()::operator()() const::encrypted
+AddLegalInteractionProfiles()::'lambda9'()::operator()() const::encrypted
 AddOverlayToResult(vr::DashboardOverlayState_t*, unsigned int, unsigned long, unsigned long, unsigned int&)
 AddPathHandleToJson(Json::Value*, std::string const&, unsigned long)
 AddPathHandleToJson(Json::Value*, std::string const&, unsigned long) (.cold)
@@ -2378,6 +2429,7 @@ CDriverManager::BGetGpuLuid(unsigned long*, unsigned int*) const
 CDriverManager::BGetGpuLuid(unsigned long*, unsigned int*) const (.cold)
 CDriverManager::BHasHmdServerDriver()
 CDriverManager::BHmdDeviceMightBePresent(unsigned int)
+CDriverManager::BHmdDeviceMightBePresent(unsigned int)::'lambda'()::operator()() const::encrypted
 CDriverManager::BIsSafeDriver(unsigned int) const
 CDriverManager::BIsSafeDriverByName(std::string const&) const
 CDriverManager::BShowEnableInSettings(unsigned int)
@@ -2425,6 +2477,8 @@ CDriverManager::GetWatchdogProvider(unsigned int)
 CDriverManager::HasLoadableDriver(unsigned int) const
 CDriverManager::InitFromPathRegistry(CPropertyManager*)
 CDriverManager::InitFromPathRegistry(CPropertyManager*) (.cold)
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda'()::operator()() const::encrypted
+CDriverManager::InitFromPathRegistry(CPropertyManager*)::'lambda1'()::operator()() const::encrypted
 CDriverManager::IsBlockedBySafemode(unsigned int) const
 CDriverManager::IsEnabled(unsigned int) const
 CDriverManager::IsEnabledByDefault(unsigned int) const
@@ -3457,8 +3511,8 @@ CSWTCH.16
 CSWTCH.212
 CSWTCH.23
 CSWTCH.28
-CSWTCH.368
-CSWTCH.556
+CSWTCH.384
+CSWTCH.557
 CSWTCH.823
 CSWTCH.869
 CSXrBackingRenderModelAsset::CSXrBackingRenderModelAsset(std::string&, std::vector<std::string, std::allocator<std::string>>)
@@ -4083,6 +4137,8 @@ CSxrInstance::Init warning: Headset not found, unable to create a functional vr 
 CSxrInstance::Init()
 CSxrInstance::Init() (.cold)
 CSxrInstance::InitExtensions()
+CSxrInstance::InitExtensions()::'lambda'()::operator()() const::encrypted
+CSxrInstance::InitExtensions()::'lambda0'()::operator()() const::encrypted
 CSxrInstance::InitSupportedFeatures()
 CSxrInstance::InitSupportedFeatures() (.cold)
 CSxrInstance::IsEnvironmentBlendModeSupported(XrViewConfigurationType, XrEnvironmentBlendMode)
@@ -4097,6 +4153,7 @@ CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*>>, std::unique_p
 CSxrInstance::PushEvent(std::vector<void*, std::allocator<void*>>, std::unique_ptr<XrEventDataBuffer, std::default_delete<XrEventDataBuffer>>) (.cold)
 CSxrInstance::RememberSuggestedBindings(unsigned long, std::vector<SuggestedBinding, std::allocator<SuggestedBinding>>&&)
 CSxrInstance::ShouldPresentMetaCompatibility()
+CSxrInstance::ShouldPresentMetaCompatibility()::'lambda'()::operator()() const::encrypted
 CSxrInstance::StringToPath failed: %s\n
 CSxrInstance::StringToPath failed: No hmd detected - a valid tracking system isn't available. Please check SteamVR is running and that your hmd is properly connected.\n
 CSxrInstance::StringToPath(std::string, unsigned long&)
@@ -17235,6 +17292,7 @@ DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebuggerEnabled
+Dec  7 2024
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -17249,6 +17307,7 @@ Determined this is a steamvr_input app.
 Device Calibration is invalid (207)
 Device is not calibrated (206)
 DeviceGC
+Dhyr,
 Did not find any drivers!
 DirectX::XMMatrixInverse(DirectX::__vector4*, DirectX::XMMATRIX const&)
 Disabling advanced image processing of scene textures. Only enabled on latest OSs.\n
@@ -17338,6 +17397,15 @@ EXRHandleType GetXRHandleType<XrSession_T*>()
 EXRHandleType GetXRHandleType<XrSpace_T*>()
 EXRHandleType GetXRHandleType<XrSwapchain_T*>()
 EXTRASYSCONFDIR
+El#aq
+El#bs
+El#dv
+El#gj
+El#pj
+El#rk
+El#rq
+El#ur
+El#uz
 Element in "action_sets" is not a string
 Empty escape sequence in string
 Empty file.
@@ -17803,6 +17871,7 @@ GL_EXT_semaphore_fd
 GenSessionId()::sNextSessionId
 GenerateChangeNotifications
 GenerateInteractionProfiles(CSxrInstance*)
+GenerateInteractionProfiles(CSxrInstance*)::'lambda'()::operator()() const::encrypted
 GenerateLinuxManifest(std::string, std::string)
 GenerateLinuxManifest(std::string, std::string) (.cold)
 GenerateSwapchainId()::s_currentId
@@ -17838,6 +17907,7 @@ GetDeviceExtensionProperties - no instance extensions supported\n
 GetDevicePoseFromSpace(XrSpaceLocation&, XrSpaceVelocity&, long, unsigned int, vr::ETrackingUniverseOrigin)
 GetDpadBindings(char const*)
 GetDpadBindings(char const*) (.cold)
+GetDpadBindings(char const*)::'lambda'()::operator()() const::encrypted
 GetDpadDirection(std::string)
 GetDpadSubMode(std::string)
 GetEnglishStringForHmdError(vr::EVRInitError)
@@ -17876,10 +17946,6 @@ GetInputValueVisibilityFromString(char const*)
 GetInstanceExtensionProperties - failed to enumerate extensions\n
 GetInstanceExtensionProperties - failed to get extension count\n
 GetInstanceExtensionProperties - no instance extensions supported\n
-GetInteractionProfileValveRoy()
-GetInteractionProfileValveRoy()::inited
-GetInteractionProfileValveRoy()::sInteractionProfileValveRoy
-GetInteractionProfileValveRoy()::valveRoy
 GetInteropImage
 GetKeyboardOverlay(VRSystemLayerState_t const*, vr::EVROverlayError*)
 GetKeyboardOverlay(VRSystemLayerState_t*, vr::EVROverlayError*)
@@ -21535,8 +21601,12 @@ Insufficient Chunk1(BIN) data size.
 Insufficient storage space for Chunk1(BIN data). At least Chunk1 Must have 8 or more bytes, but got 
 InteractionProfileFromControllerType(std::string)
 InteractionProfileFromControllerType(std::string) (.cold)
+InteractionProfileFromControllerType(std::string)::'lambda'()::operator()() const::encrypted
+InteractionProfileFromControllerType(std::string)::'lambda0'()::operator()() const::encrypted
 InteractionProfileInput_t& std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t>>::emplace_back<InteractionProfileInput_t>(InteractionProfileInput_t&&)
 InteractionProfileToControllerType(std::string)
+InteractionProfileToControllerType(std::string)::'lambda'()::operator()() const::encrypted
+InteractionProfileToControllerType(std::string)::'lambda0'()::operator()() const::encrypted
 Interface Not Found (105)
 InterfaceRegistrationBase::Find(char const*)
 InterfaceRegistrationBase::InterfaceRegistrationBase(char const*)
@@ -22553,7 +22623,6 @@ Not writing scalar value because it didn't change\n
 Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
-Nov 21 2024
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t>>*)
@@ -23317,6 +23386,7 @@ Skipping role %s because the device is invalid\n
 Skipping simulated trackpad action %s(%d) because it doesn't have an output hand\n
 Skipping simulated trigger action %s(%d) because it doesn't have an output action\n
 Skipping vrwebhelper init. To override set STEAMVR_WEBHELPER=1\n
+Sleim
 Slerp(CTransform const&, CTransform const&, float)
 Socket closed\n
 SolveQuadratic(float, float, float, float*, float*)
@@ -26324,6 +26394,7 @@ Zjz\v
 [xrRenderModel] nodeStateCount was not equal to animatableNodeCount
 [xrRenderModel] parameter was nullptr
 [xrRenderModel] renderModelIdCountOutput was nullptr
+\fUk#pb
 \nComment=Application for the 
 \nComment=URI handler for 
 \nDDS 
@@ -27454,13 +27525,6 @@ covariant return thunk to
 cplus_demangle_builtin_types
 cplus_demangle_operators
 create
-cryptor::string_encryptor_base<11ul>::decrypt() const
-cryptor::string_encryptor_base<16ul>::decrypt() const
-cryptor::string_encryptor_base<17ul>::decrypt() const
-cryptor::string_encryptor_base<20ul>::decrypt() const
-cryptor::string_encryptor_base<25ul>::decrypt() const
-cryptor::string_encryptor_base<3ul>::decrypt() const
-cryptor::string_encryptor_base<7ul>::decrypt() const
 cs_cz
 cursor_index
 czech
@@ -27691,7 +27755,6 @@ extensionsUsed
 external_drivers
 extras
 eyetracking
-f\fn\nr\r>dbtc>yp
 facet::AppendToNextChain(void const*&, void const*)
 facet::AppendToNextChain(void*&, void*)
 facet::BytesPerCompressedBlock(VkFormat)
@@ -28519,6 +28582,7 @@ greek
 green
 gripLimitData
 guard variable for 
+guard variable for (anonymous namespace)::GetDecryptionKeyChar(unsigned long)::decryptionKey
 guard variable for (anonymous namespace)::__io_category_instance()::__ec
 guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
 guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
@@ -28564,8 +28628,6 @@ guard variable for CVRSystemLatest::TriggerHapticPulse(unsigned int, unsigned in
 guard variable for CVulkanVRRenderer::GetDmabufModifiers(vr::EVRApplicationType, unsigned int) const::k_InvalidMod
 guard variable for FillPipeAddr(sockaddr_un&, std::string)::sPrefix
 guard variable for GetInputPathTypes(unsigned long, unsigned long)::s_emptySet
-guard variable for GetInteractionProfileValveRoy()::sInteractionProfileValveRoy
-guard variable for GetInteractionProfileValveRoy()::valveRoy
 guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
 guard variable for GetTrackedDeviceProperties()::eKeysVector
 guard variable for GetVulkanDeviceFunctions(VkDevice_T*)::s_MapVulkanDeviceFunctions
@@ -28731,8 +28793,6 @@ input/default_pico_controller_remapping.json
 input/default_vive_cosmos_controller_remapping.json
 input/generic_controller.png
 input/generic_hmd.png
-input/view/click
-input/view/touch
 inputDebugSpam
 inputSource
 input_bindingui_left
@@ -37941,7 +38001,6 @@ typeinfo name for vr::IXrProto
 typeinfo name for wchar_t
 typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
-u>cxvye?ecub?xq~t?|uvd
 uk_ua
 ukrainian
 umask
@@ -39451,6 +39510,9 @@ vr::CVRSteamPrivateLatest::GetOverlayInteractionAffordance(unsigned long, vr::VR
 vr::CVRSteamPrivateLatest::GetOverlayInteractionAffordances(unsigned long, unsigned int*)
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int) (.cold)
+vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::'lambda'()::operator()() const::encrypted
+vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::'lambda0'()::operator()() const::encrypted
+vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::'lambda1'()::operator()() const::encrypted
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_PathEmpty
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2ButtonLeftPressed
 vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2ButtonRightPressed
