@@ -354,6 +354,7 @@ XR_RUNTIME_JSON
 \ApiLayers\Explicit
 \ApiLayers\Implicit
 \fplO
+\rxWg
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ

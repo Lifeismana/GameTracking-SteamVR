@@ -2527,7 +2527,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS-g
+RSDS
 R\rp\f`\v0ng
 R\vpng
 Radio

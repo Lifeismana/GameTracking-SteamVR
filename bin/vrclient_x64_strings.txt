@@ -342,6 +342,7 @@ $tI(knN
 (Reset)
 (cannot determine missing fields for lite message)
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+)yWg
 **** JUDDER **** expected %u got %u\n
 ***** Reloading Shaders Begin\n
 ***** Reloading Shaders End\n
@@ -3852,7 +3853,7 @@ QueryServiceConfigW
 RADV
 RGBG
 RPCRT4.dll
-RSDSTt
+RSDS
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n

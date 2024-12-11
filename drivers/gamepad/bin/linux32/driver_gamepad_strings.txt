@@ -1660,6 +1660,7 @@ dlopen
 dlsym
 double
 dynamic_cast
+ejxb15
 execute_cfa_program
 execute_cfa_program.cold
 execute_native_thread_routine
