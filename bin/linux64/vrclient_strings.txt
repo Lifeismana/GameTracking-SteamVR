@@ -659,6 +659,7 @@ $tI(kn
 /dev/null
 /dev/random
 /dev/urandom
+/device_path
 /device_was_drawn
 /devices/htc/vive_tracker
 /dpad_
@@ -1243,6 +1244,7 @@ $tI(kn
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:03:04
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1267,7 +1269,6 @@ $tI(kn
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:41:17
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -4195,6 +4196,9 @@ CSxrRenderModelEXT::GetInfo(XrRenderModelPropertiesGetInfoEXT const*, XrRenderMo
 CSxrRenderModelEXT::GetRelatedSubactionPaths(XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*)
 CSxrRenderModelEXT::GetRelatedSubactionPaths(XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*) (.cold)
 CSxrRenderModelEXT::GetState(XrRenderModelStateGetInfoEXT const*, XrRenderModelStateEXT*)
+CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)
+CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*) (.cold)
+CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::k_pathDevicePath
 CSxrRenderModelEXT::Init()
 CSxrRenderModelEXT::Init() (.cold)
 CSxrRenderModelEXT::~CSxrRenderModelEXT()
@@ -4232,6 +4236,8 @@ CSxrSession::Init()
 CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView>>&, XrViewLocateInfo const*, XrViewState*)
 CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView>>&, XrViewLocateInfo const*, XrViewState*) (.part.0)
 CSxrSession::LocateViews(std::vector<XrView, std::allocator<XrView>>&, XrViewLocateInfo const*, XrViewState*)::unLastSeatedSpaceRequestTime
+CSxrSession::QueueUserPresenceChangedEvent(bool)
+CSxrSession::QueueUserPresenceChangedEvent(bool) (.cold)
 CSxrSession::RefreshSessionStateForFocus()
 CSxrSession::RefreshSessionStateForFocus() (.cold)
 CSxrSession::RequestDisplayRefreshRateFB(float)
@@ -17292,7 +17298,6 @@ DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebuggerEnabled
-Dec  9 2024
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -21731,6 +21736,7 @@ JArray
 JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
+Jan  7 2025
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -25654,9 +25660,11 @@ XR_EXT_hand_tracking
 XR_EXT_hand_tracking_data_source
 XR_EXT_hp_mixed_reality_controller
 XR_EXT_interaction_render_model
+XR_EXT_irm_toplevel_path
 XR_EXT_local_floor
 XR_EXT_palm_pose
 XR_EXT_render_model
+XR_EXT_user_presence
 XR_EXT_uuid
 XR_FB_display_refresh_rate
 XR_FRAME_DISCARDED
@@ -26367,6 +26375,7 @@ Zjz\v
 [abi:
 [json.exception.
 [libprotobuf %s %s:%d] %s\n
+[xrInteractionRenderModelGetTopLevelUserPathEXT] Device %u didn't have %s set
 [xrRenderModel] %s: nodePropertyCount was not equal to animatableNodeCount (was %i, expected %lu)
 [xrRenderModel] Asset was not loaded in memory when trying to retrieve data
 [xrRenderModel] Attempted to enumerate, but there aren't any attached action sets
@@ -26401,6 +26410,7 @@ Zjz\v
 \nTerminal=false\nType=Application\nCategories=Game;\nMimeType=
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\tyuk
 \u%04x
 \u%04x\u%04x
 \ufffd
@@ -28606,6 +28616,7 @@ guard variable for CSXrRenderModelManager::GetInstance()::instance
 guard variable for CServerTrackedDeviceProvider_002::GetInterfaceVersions()::k_InterfaceVersions
 guard variable for CSettingsSetting::GetDefaultValue() const::Empty
 guard variable for CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
+guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::k_pathDevicePath
 guard variable for CSxrSession::UpdateInteractionProfile()::rTopLevelPaths
 guard variable for CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)::s_pVrSettings
 guard variable for CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
@@ -34670,6 +34681,8 @@ sxr_wrap_xrGetVulkanGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGrap
 sxr_wrap_xrGetVulkanGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsVulkanKHR*) (.cold)
 sxr_wrap_xrGetVulkanInstanceExtensionsKHR(XrInstance_T*, unsigned long, unsigned int, unsigned int*, char*)
 sxr_wrap_xrGetVulkanInstanceExtensionsKHR(XrInstance_T*, unsigned long, unsigned int, unsigned int*, char*) (.cold)
+sxr_wrap_xrInteractionRenderModelGetTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*)
+sxr_wrap_xrInteractionRenderModelGetTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*) (.cold)
 sxr_wrap_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*)
 sxr_wrap_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*) (.cold)
 sxr_wrap_xrLocateSpace(XrSpace_T*, XrSpace_T*, long, XrSpaceLocation*)
@@ -34878,6 +34891,8 @@ sxr_xrGetVulkanGraphicsRequirementsKHR
 sxr_xrGetVulkanGraphicsRequirementsKHR(XrInstance_T*, unsigned long, XrGraphicsRequirementsVulkanKHR*)
 sxr_xrGetVulkanInstanceExtensionsKHR
 sxr_xrGetVulkanInstanceExtensionsKHR(XrInstance_T*, unsigned long, unsigned int, unsigned int*, char*)
+sxr_xrInteractionRenderModelGetTopLevelUserPathEXT
+sxr_xrInteractionRenderModelGetTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*)
 sxr_xrLocateHandJointsEXT
 sxr_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*)
 sxr_xrLocateSpace
@@ -41072,6 +41087,7 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
+xrInteractionRenderModelGetTopLevelUserPathEXT
 xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 xrLocateHandJointsEXT

@@ -933,6 +933,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Instalează"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Instalezi VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "VIVE Hub este necesar pentru ca echipamentul tău VIVE să funcționeze cu SteamVR."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Instalează"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problemă la conectarea ecranului"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Placa ta grafică nu se poate conecta corespunzător la ecranul căștii. Dacă utilizezi adaptoare sau prelungitoare pentru cablu, încearcă să le îndepărtezi. Dacă este disponibil, încearcă un alt port al plăcii grafice. <b>Utilizează linkul de resetare de mai jos pentru a reseta casca, astfel încât placa grafică va putea încerca din nou conectarea.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Resetează casca"

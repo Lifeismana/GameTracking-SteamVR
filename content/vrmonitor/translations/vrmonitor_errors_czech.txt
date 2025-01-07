@@ -976,6 +976,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Nainstalovat"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Nainstalovat VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "Aby byl režim SteamVR schopný pracovat s Vašimi zařízeními, je vyžadována instalace softwaru VIVE Hub."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Nainstalovat"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problém s připojením k displeji"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Vaší grafické kartě se nepodařilo připojit k displeji headsetu. Zkuste odebrat veškeré adaptéry nebo prodlužovače a také (pokud je dostupný) zkuste jiný port GPU. <b>Kliknutím níže bude resetován Váš headset, takže se GPU pokusí znovu připojit.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Restartovat headset"

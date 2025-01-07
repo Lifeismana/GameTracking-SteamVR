@@ -962,6 +962,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Installer"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Souhaitez-vous installer VIVE Hub ?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "VIVE Hub est nécessaire pour faire fonctionner votre matériel VIVE avec SteamVR."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Installer"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problème d'affichage lié à la connexion"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Votre carte graphique n'a pas réussi à se connecter à l'affichage de votre casque. Essayez de débrancher tout adaptateur de câble ou tout câble d'extension que vous pourriez utiliser. Essayez de brancher votre casque à un autre port de votre carte graphique. <b>Utilisez le lien de réinitialisation ci-dessous pour réinitialiser le casque et réessayer.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Réinitialiser le casque"

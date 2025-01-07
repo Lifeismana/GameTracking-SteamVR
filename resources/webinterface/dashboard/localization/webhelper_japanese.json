@@ -20,6 +20,8 @@
 	"Resetting_Countdown": "リセットしています...",
 	"Button_Recenter": "中央に戻す",
 	"Recentering_Countdown": "中央に戻しています...",
+	"MenuPlayspaceSetup": "プレイエリアのセットアップ",
+	"MenuPlayspaceMenu": "プレイエリアのメニュー",
 	"PowerMenuTurnOffController": "コントローラの電源を切る",
 	"PowerMenuShutdown": "シャットダウン",
 	"PowerMenuQuitSceneApp": "%1$sを終了",

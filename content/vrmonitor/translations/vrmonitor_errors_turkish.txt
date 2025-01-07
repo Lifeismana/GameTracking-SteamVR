@@ -973,6 +973,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Yükle"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "VIVE Hub yüklensin mi?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "VIVE ekipmanınızı SteamVR ile çalıştırmak için VIVE Hub gereklidir."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Yükle"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Ekran Bağlantısı Sorunu"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ekran kartınız başlığınızın ekranına başarılı bir şekilde bağlanamıyor. Eğer kullanıyorsanız bütün kablo adaptörlerini ve uzatmaları çıkartmayı deneyin. Mevcutsa, ekran kartınızın farklı bir girişini deneyin. <b>Ekran kartınızın tekrar denemesi için aşağıdaki yeniden başlatma bağlantısını kullanarak başlığınızı yeniden başlatın.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Başlığı Yeniden Başlat"

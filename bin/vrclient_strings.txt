@@ -2551,6 +2551,7 @@ $3br
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:02:50
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -2574,7 +2575,6 @@ $3br
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:43:19
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -17760,7 +17760,6 @@ Debug markers: disabled, missing extension support. Is the Renderdoc layer enabl
 Debug markers: enabled\n
 DebugDriverLog(char const*, ...)
 DebuggerEnabled
-Dec  9 2024
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -22066,6 +22065,7 @@ JArray
 JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
+Jan  7 2025
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)

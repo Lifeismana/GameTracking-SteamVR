@@ -956,6 +956,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Asenna"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Asennetaanko VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "VIVE Hub tarvitaan VIVE-laitteiden käyttämiseksi SteamVR:n kanssa."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Asenna"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Näytön yhteysongelma"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Näytönohjaimesi ei voi yhdistää VR-lasien näyttöön. Poista kaikki kaapelin adapterit ja lisäosat ja yritä uudelleen. Kokeile muita näytönohjaimen portteja, jos mahdollista. <b>Klikkaa nollaa-linkkiä alta nollataksesi VR-lasisi, jotta näytönohjain yrittää yhdistää uudelleen.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Nollaa VR-lasit"

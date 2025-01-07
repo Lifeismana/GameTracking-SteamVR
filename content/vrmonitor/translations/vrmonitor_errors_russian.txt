@@ -958,6 +958,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Установить"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Установить VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "Приложение VIVE Hub требуется для использования оборудования VIVE со SteamVR."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Установить"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Ошибка при подключении дисплея"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ошибка подключения видеокарты к экрану шлема. Попробуйте отсоединить все используемые кабельные адаптеры и удлинители. Если возможно, попробуйте другой порт на видеокарте. <b>Воспользуйтесь ссылкой ниже, чтобы сбросить настройки шлема для повторного подключения видеокарты.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Перезагрузить шлем"

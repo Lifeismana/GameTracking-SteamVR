@@ -20,6 +20,8 @@
 	"Resetting_Countdown": "Resetowanie...",
 	"Button_Recenter": "Wyśrodkuj",
 	"Recentering_Countdown": "Wyśrodkowywanie...",
+	"MenuPlayspaceSetup": "Konfiguracja obszaru gry",
+	"MenuPlayspaceMenu": "Menu obszaru gry",
 	"PowerMenuTurnOffController": "Wyłącz kontroler",
 	"PowerMenuShutdown": "Zamknij",
 	"PowerMenuQuitSceneApp": "Opuść %1$s",

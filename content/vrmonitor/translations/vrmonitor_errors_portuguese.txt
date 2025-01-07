@@ -976,6 +976,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Instalar"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Instalar VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "É necessário o VIVE Hub para que o teu equipamento VIVE funcione com o SteamVR."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Instalar"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problema com ligação do ecrã"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "A tua placa gráfica não pôde estabelecer ligação com o ecrã do teu headset. Experimenta remover adaptadores ou extensores de cabos que estejas a usar. Experimenta outra porta na tua placa gráfica, se possível.<b>Usa o link abaixo para reiniciares o headset e assim a placa gráfica tentar novamente.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Reiniciar headset"

@@ -1,14 +1,14 @@
 Content Manifest for Depot 250824 
 
-Manifest ID / date     : 7127281283062737346 / 12/09/2024 23:52:52 
-Total number of files  : 2896 
-Total number of chunks : 2807 
-Total bytes on disk    : 600628227 
-Total bytes compressed : 284798720 
+Manifest ID / date     : 8187731703011595545 / 01/07/2025 21:23:56 
+Total number of files  : 2936 
+Total number of chunks : 2847 
+Total bytes on disk    : 600740996 
+Total bytes compressed : 284866608 
 
 
           Size Chunks File SHA                                 Flags Name
-            12      1 dc127812cd1ddbaed8a44c7692562d0b1aee4d62     0 bin/version.txt
+            12      1 6e0af6422350b4f6f0922283aa91b546a326c110     0 bin/version.txt
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/demoloop
          34709      1 f7557b27d169b830a48321e3760e38e08e771172     0 content/vrmonitor/demoloop/card_aperture.png
          21464      1 b32ccaa0cd6d5d8b4acbdb11ea0c28bfe2791d0d     0 content/vrmonitor/demoloop/card_archery.png
@@ -219,36 +219,36 @@ Total bytes compressed : 284798720
         164910      1 55cb1ed34e303a64ef429020d6a9a83bab212bd6     0 content/vrmonitor/translations/vrmonitor_danish.txt
         171378      1 2088659627e6b9bb0099ef08d49f3b4844b01082     0 content/vrmonitor/translations/vrmonitor_dutch.txt
         162962      1 b755b41c3b8a73abad95c88743f78f38ffb3732c     0 content/vrmonitor/translations/vrmonitor_english.txt
-        165478      1 c88611a18aaf33743964aab5f897c98f6eb0d7cd     0 content/vrmonitor/translations/vrmonitor_errors_brazilian.txt
-        168334      1 7125289d79390ad42f132f6c193853825de0b7ac     0 content/vrmonitor/translations/vrmonitor_errors_bulgarian.txt
-        165178      1 0afa5ea754e7aa0b9806392aa969332b41a254a4     0 content/vrmonitor/translations/vrmonitor_errors_czech.txt
-        160908      1 b45848b922457bf74857d1d92db36971ea489e60     0 content/vrmonitor/translations/vrmonitor_errors_danish.txt
-        169002      1 1d37be5fac251d1222dc56ce0a14ccedb1da5683     0 content/vrmonitor/translations/vrmonitor_errors_dutch.txt
+        166266      1 6c58bc7f229601a28f68a39e048720558ca804ba     0 content/vrmonitor/translations/vrmonitor_errors_brazilian.txt
+        169152      1 2616d7e71eb28ed311caf4123a9864cd33733646     0 content/vrmonitor/translations/vrmonitor_errors_bulgarian.txt
+        166048      1 a17921b39757905331bea6bb0f0d6c194ac001cf     0 content/vrmonitor/translations/vrmonitor_errors_czech.txt
+        161672      1 2155fe2f724b4b54e33fa2738275507888b1bb3e     0 content/vrmonitor/translations/vrmonitor_errors_danish.txt
+        169812      1 354a7a614e7cdc0fa3b87a59cd0b8fa8c3a50b86     0 content/vrmonitor/translations/vrmonitor_errors_dutch.txt
         163782      1 45ca6dd1b4f189d825548835adf4f8f6e86901e8     0 content/vrmonitor/translations/vrmonitor_errors_english.txt
-        158892      1 6abb0d5f581fe568faad4f9b63ac596d40e689de     0 content/vrmonitor/translations/vrmonitor_errors_finnish.txt
-        173970      1 e2a6a2b21a198804355a7c5fbe03587c763d3549     0 content/vrmonitor/translations/vrmonitor_errors_french.txt
-        175414      1 fe6b2236db5092ab1d45e96afc34c585433fa1c0     0 content/vrmonitor/translations/vrmonitor_errors_german.txt
-        172694      1 f15bc0e606f88bd95f9f4db71e4d6ab70c31dbc5     0 content/vrmonitor/translations/vrmonitor_errors_greek.txt
-        166284      1 c5a89b2484b0ba3c3c6ee1e073b0574953debd4b     0 content/vrmonitor/translations/vrmonitor_errors_hungarian.txt
-        170776      1 90432b0e80291b9ef973acea18306ae854308acb     0 content/vrmonitor/translations/vrmonitor_errors_italian.txt
-        138956      1 d15eb6634e7a4f77f2c7a89768d637ecceee604d     0 content/vrmonitor/translations/vrmonitor_errors_japanese.txt
-        136884      1 a5881b27ff02f1a87eb9beed87e30908c960edcc     0 content/vrmonitor/translations/vrmonitor_errors_korean.txt
-        136884      1 a5881b27ff02f1a87eb9beed87e30908c960edcc     0 content/vrmonitor/translations/vrmonitor_errors_koreana.txt
-        169870      1 1a17aed2a2d31b53f7cea343ed72a266f86e0723     0 content/vrmonitor/translations/vrmonitor_errors_latam.txt
-        159846      1 bea73784a18780a50f67b6cbe7a456acf6d91630     0 content/vrmonitor/translations/vrmonitor_errors_norwegian.txt
-        168056      1 389e083ef692aa1cce24754ae0e44dc7ef7ccb35     0 content/vrmonitor/translations/vrmonitor_errors_polish.txt
-        169770      1 1ed634790d9a1550f85f0eaa38606054161635ef     0 content/vrmonitor/translations/vrmonitor_errors_portuguese.txt
+        159678      1 098ae301261760425ad325181415b8bebcb7bcae     0 content/vrmonitor/translations/vrmonitor_errors_finnish.txt
+        174816      1 6baec6df8c8ea31c48534c35a8668cc9f50f87d3     0 content/vrmonitor/translations/vrmonitor_errors_french.txt
+        176220      1 e401c19e20aaeb6d51885c44e311fc2712b07f17     0 content/vrmonitor/translations/vrmonitor_errors_german.txt
+        173536      1 2f8e39f6394be0b39183b72104e4ca739e08da6c     0 content/vrmonitor/translations/vrmonitor_errors_greek.txt
+        167070      1 99539813b52338314d5ed30bf0a3ce5f7f85b853     0 content/vrmonitor/translations/vrmonitor_errors_hungarian.txt
+        171584      1 c6f5b90c920702d383cdd3b334bef7c468179d75     0 content/vrmonitor/translations/vrmonitor_errors_italian.txt
+        139676      1 6541c3db82cf9f209e92a46c8886c907ba0d21d4     0 content/vrmonitor/translations/vrmonitor_errors_japanese.txt
+        137598      1 0d4e14252c3c1d8c4df4de42a61e8f9b096d1145     0 content/vrmonitor/translations/vrmonitor_errors_korean.txt
+        137598      1 0d4e14252c3c1d8c4df4de42a61e8f9b096d1145     0 content/vrmonitor/translations/vrmonitor_errors_koreana.txt
+        170646      1 c0b394baf2a1b4d8f77f884c69bd55b5746066ee     0 content/vrmonitor/translations/vrmonitor_errors_latam.txt
+        160608      1 bf9a7b2520c241848cc70167f6785d1f2bc785e1     0 content/vrmonitor/translations/vrmonitor_errors_norwegian.txt
+        168888      1 33583bfc20ca8178e83c4ec24f5f8e980b5139e4     0 content/vrmonitor/translations/vrmonitor_errors_polish.txt
+        170578      1 ade53028a7c3061888114dea3d7bf70cad3a62ad     0 content/vrmonitor/translations/vrmonitor_errors_portuguese.txt
          65000      1 ae8917de4c66c1e8e9a143334396e0e4f652c1ad     0 content/vrmonitor/translations/vrmonitor_errors_pseudo.txt
-        172084      1 2db921958efc06ad0274c53b513ad3ca2973feba     0 content/vrmonitor/translations/vrmonitor_errors_romanian.txt
-        162164      1 834e32d97b737821f5e5e4c21dbaae319a2f1a91     0 content/vrmonitor/translations/vrmonitor_errors_russian.txt
-        131276      1 3f1ce085edf5a18aa152afaac9816f5fee7e72c0     0 content/vrmonitor/translations/vrmonitor_errors_schinese.txt
-        169296      1 2936d9a501c150b6959b1fb092098937b3bf5f4e     0 content/vrmonitor/translations/vrmonitor_errors_spanish.txt
-        162174      1 3d0e1d4b4922fc8f45f2341027a38590deac33a2     0 content/vrmonitor/translations/vrmonitor_errors_swedish.txt
-        132726      1 c4e8895e28f5b582e8bbb4d9729dfef3ee105003     0 content/vrmonitor/translations/vrmonitor_errors_tchinese.txt
-        162846      1 1bc0f15daf94b6d72f9351d47cd0a6d15b8cc38e     0 content/vrmonitor/translations/vrmonitor_errors_thai.txt
-        165496      1 0b67b33e73f11505ac5945c1fe6005eee4428469     0 content/vrmonitor/translations/vrmonitor_errors_turkish.txt
-        164068      1 f20129dcbfa961454310e66d74edc9ff6b23dcfa     0 content/vrmonitor/translations/vrmonitor_errors_ukrainian.txt
-        159962      1 29136653d4cdd8fcc6a450e91ec2b2b9e16164da     0 content/vrmonitor/translations/vrmonitor_errors_vietnamese.txt
+        172900      1 d8f391d763330101aa6dd70f5cd4bd2b1ec08056     0 content/vrmonitor/translations/vrmonitor_errors_romanian.txt
+        162976      1 422562f7b40d688e69bd6fdc6cea27488c730d88     0 content/vrmonitor/translations/vrmonitor_errors_russian.txt
+        131980      1 81fd4cb4aaf7939ace7786ea479e9eb2d867385f     0 content/vrmonitor/translations/vrmonitor_errors_schinese.txt
+        170080      1 d5a66e590f1f93c540c4505f2af9f44c2c4c4610     0 content/vrmonitor/translations/vrmonitor_errors_spanish.txt
+        162944      1 ec3fe804d2070458fda31735af78c959c902bb1d     0 content/vrmonitor/translations/vrmonitor_errors_swedish.txt
+        133432      1 2320f1e00cd9f70f39903fa09279100b2f2138ad     0 content/vrmonitor/translations/vrmonitor_errors_tchinese.txt
+        163654      1 cb1fd468fc7cb8c745d7f3066169af4b8fc35df7     0 content/vrmonitor/translations/vrmonitor_errors_thai.txt
+        166282      1 3613c7d5d0bb2f35f605d8fd6a926f2079abe1f7     0 content/vrmonitor/translations/vrmonitor_errors_turkish.txt
+        164860      1 4c2461053025fca4d13c091253074610174a293b     0 content/vrmonitor/translations/vrmonitor_errors_ukrainian.txt
+        160584      1 e314aeea6dce70d42f8d566ed48d3d6192a3092e     0 content/vrmonitor/translations/vrmonitor_errors_vietnamese.txt
         164690      1 03ba02d9bf954e03fbbc84c275f08fc8f3ba2486     0 content/vrmonitor/translations/vrmonitor_finnish.txt
         179186      1 01d167704b74377d6d10383c243364bb2c3115c7     0 content/vrmonitor/translations/vrmonitor_french.txt
         176532      1 309b094fc67ef8450c3658cf76535eba5fbd4aa9     0 content/vrmonitor/translations/vrmonitor_german.txt
@@ -263,11 +263,11 @@ Total bytes compressed : 284798720
         162530      1 8512221444d6eddc3c39fa2e88bade7d5e589564     0 content/vrmonitor/translations/vrmonitor_norwegian.txt
           4646      1 7519e3b0e55adb98394a26256610a65e87b0eba6     0 content/vrmonitor/translations/vrmonitor_pirate.txt
         172974      1 0d9d191a89c56cfe9190d86ba59689bf812da6b3     0 content/vrmonitor/translations/vrmonitor_polish.txt
-        172114      1 5ab38f648259d2b4b11deeb67bfe6ef8d2986b95     0 content/vrmonitor/translations/vrmonitor_portuguese.txt
+        172118      1 644e5ba24c86b449b047270f9fce5dd22cc252b5     0 content/vrmonitor/translations/vrmonitor_portuguese.txt
          93864      1 9a052312e0e09b087513af9ab5afdca6f754955f     0 content/vrmonitor/translations/vrmonitor_pseudo.txt
         177442      1 35e92af3d861b3490eacbf7790c02085360a8858     0 content/vrmonitor/translations/vrmonitor_romanian.txt
         168394      1 145c5159f106e5dbdd66f0493383452eaa7b1e6d     0 content/vrmonitor/translations/vrmonitor_russian.txt
-        115138      1 896b4a6c0239041708f023a5ad43ab7c6fd019d2     0 content/vrmonitor/translations/vrmonitor_schinese.txt
+        115138      1 cc91e9bd1d73e6f3c1bcce18f111f45e552379ce     0 content/vrmonitor/translations/vrmonitor_schinese.txt
         175690      1 460806f70b7e4a701ef62b0048794acdd542bc2b     0 content/vrmonitor/translations/vrmonitor_spanish.txt
         164162      1 dac3924db405e2050cb63192cc42e9ab99fa956e     0 content/vrmonitor/translations/vrmonitor_swedish.txt
         117528      1 c064b92492eae1d6c7d766ba581a1a1b32ae83fd     0 content/vrmonitor/translations/vrmonitor_tchinese.txt
@@ -812,7 +812,7 @@ Total bytes compressed : 284798720
          34324      1 957e1681db23ab89f68dd7f93c725eacb519cfd9     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand.svg
           5707      1 44f43289f6e2f1f15b3f8c778e6687289206db10     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand_callouts.svg
           6043      1 7ecb337cfd5795f7e0ff416225080f05797c35a4     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand_callouts_text.svg
-        215199      1 bec7175c2bd8406fcf1f3fd275910f5194d7a913     0 drivers/lighthouse/resources/webinterface/libraries.js
+        215199      1 7b42b18812da4372f361f4766ae3bb3654739c14     0 drivers/lighthouse/resources/webinterface/libraries.js
           2045      1 c7a144974a9a3961929f2d078236aa6fcb3c7698     0 drivers/lighthouse/resources/webinterface/libraries.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/localization
              0      0 0000000000000000000000000000000000000000     0 drivers/lighthouse/resources/webinterface/localization/empty.dir
@@ -844,7 +844,7 @@ Total bytes compressed : 284798720
           2873      1 8c4d7efbb7b1d73b8001765ae5c3999801ef0613     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_turkish.json
           3570      1 df5830bbf45f712892f465b9485cc3555d0e3afb     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_ukrainian.json
           3107      1 9720cf264a2f461590a5801d66acd1a650631599     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_vietnamese.json
-           508      1 a78a5d25a8aa99df001406964dad3fe500b34a66     0 drivers/lighthouse/resources/webinterface/pairing.html
+           508      1 a716aa9e2a1a45c3028e2efb2a76b87f941123d4     0 drivers/lighthouse/resources/webinterface/pairing.html
         211248      1 2371eee209a087f14eb0f681d6405fd6dcbb8afe     0 drivers/lighthouse/resources/webinterface/pairing.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 drivers/lighthouse/resources/webinterface/pairing.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/sounds
@@ -1183,6 +1183,26 @@ Total bytes compressed : 284798720
           4220      1 47f05e26a498afd190aa71e907d0b70ab7978e0a     0 drivers/vrlink/resources/icons/left_handtracking_ready@2x.png
          30545      1 c8f09b9a2f81e551361f13b253f36d0224410a61     0 drivers/vrlink/resources/icons/left_handtracking_searching.gif
          80433      1 d49c072e79bc3f2a3c0a14d6692b561a695ac754     0 drivers/vrlink/resources/icons/left_handtracking_searching@2x.gif
+          2574      1 fea2e794fd15b7942272e9b2856b8dc3375e30c3     0 drivers/vrlink/resources/icons/left_pico4u_error.png
+          1621      1 c6ba00fad7284cd4b50f9f971af431404a8572d0     0 drivers/vrlink/resources/icons/left_pico4u_error@2x.png
+          2167      1 4cb62c9df234509b9ef181cb06c2641eb8abafb6     0 drivers/vrlink/resources/icons/left_pico4u_info.png
+          1292      1 03ca13555fc4d89c0ac164b4d67f1669afb90626     0 drivers/vrlink/resources/icons/left_pico4u_info@2x.png
+          1969      1 a6d618fccc7cdfc7acf7a0444c6af5a5401ec327     0 drivers/vrlink/resources/icons/left_pico4u_off.png
+          1064      1 042c9911df18b1b4eb01e66781b36bf99359f4f7     0 drivers/vrlink/resources/icons/left_pico4u_off@2x.png
+          1971      1 4513ddba887856f6a95929d5be0074cb02350368     0 drivers/vrlink/resources/icons/left_pico4u_ready.png
+          1068      1 cb275c025823cafe015906aa23bf4cc1e4492191     0 drivers/vrlink/resources/icons/left_pico4u_ready@2x.png
+          2516      1 5ed7e99ee88aea108cae75ebfc77af6845ad35d9     0 drivers/vrlink/resources/icons/left_pico4u_ready_low.png
+          1682      1 192efc805e67f5ba7ef5d80031165dc1ab0c701e     0 drivers/vrlink/resources/icons/left_pico4u_ready_low@2x.png
+          2598      1 5b5a4dac5cdaa0060ebeed98342fe3ad449130c6     0 drivers/vrlink/resources/icons/left_pico4_error.png
+          1709      1 3dcd0066faeb3c86b0b51060e3b5a796b8030e83     0 drivers/vrlink/resources/icons/left_pico4_error@2x.png
+          2210      1 03e30ba07db09b3a0d2ea79de7a7e786ff4fffb6     0 drivers/vrlink/resources/icons/left_pico4_info.png
+          1394      1 881fa31ee570735ce8a6ea463fb3494353f997cd     0 drivers/vrlink/resources/icons/left_pico4_info@2x.png
+          2039      1 e807797b1b0780c60f5dac365d7cd8ca669be3d8     0 drivers/vrlink/resources/icons/left_pico4_off.png
+          1176      1 aad84d2f6e0d6bcfbcd173eb355931890dee8550     0 drivers/vrlink/resources/icons/left_pico4_off@2x.png
+          2036      1 e154ca51435083a08a58eb2e4328c33a4aa3dd32     0 drivers/vrlink/resources/icons/left_pico4_ready.png
+          1167      1 c5f1fa83e0192353172f76b298b40317ba8c349b     0 drivers/vrlink/resources/icons/left_pico4_ready@2x.png
+          2565      1 b03104e39e83d3b46cf7c5361f04f03bac798b0b     0 drivers/vrlink/resources/icons/left_pico4_ready_low.png
+          1785      1 40cd388220532dc12b9a684f8315575340909258     0 drivers/vrlink/resources/icons/left_pico4_ready_low@2x.png
           1222      1 0711a579d9665abb85ccc620b420429dfe36de7b     0 drivers/vrlink/resources/icons/right_handtracking_off.png
           3219      1 c87ac2f4665b09595397fe8c3aa5d60e6e7ba0b4     0 drivers/vrlink/resources/icons/right_handtracking_off@2x.png
           1478      1 84c3daa377c3dce742997487b48ef7e72cc7f1e4     0 drivers/vrlink/resources/icons/right_handtracking_ready.png
@@ -1191,10 +1211,30 @@ Total bytes compressed : 284798720
           4509      1 4f0f9e0d29357f886397902afc05511c45b46729     0 drivers/vrlink/resources/icons/right_handtracking_ready_info@2x.png
          31113      1 7611f77fecfe854eda10cdc312d306cff529c01f     0 drivers/vrlink/resources/icons/right_handtracking_searching.gif
          80049      1 9b58549603ff7350fa2aedca85984bcf7cf9f0d8     0 drivers/vrlink/resources/icons/right_handtracking_searching@2x.gif
+          2557      1 2e2a991736e061a006936703bef1fc1ed1dfd509     0 drivers/vrlink/resources/icons/right_pico4u_error.png
+          1736      1 bdeba9fda7a2d5ea6f3342ed0955ff195136a013     0 drivers/vrlink/resources/icons/right_pico4u_error@2x.png
+          2149      1 857c39f999b883133abdd69394c7963a49cd9e4a     0 drivers/vrlink/resources/icons/right_pico4u_info.png
+          1329      1 bb2ff8888703663aa97e2ce31cdd6764e1751ea2     0 drivers/vrlink/resources/icons/right_pico4u_info@2x.png
+          2005      1 d891119fac2a73293c14c0b726d057f33ea9ed95     0 drivers/vrlink/resources/icons/right_pico4u_off.png
+          1108      1 f15c3cafec7f621afd54bf3b824fecbe0dba88be     0 drivers/vrlink/resources/icons/right_pico4u_off@2x.png
+          2009      1 92c2b1ef69838f571c00474d179ecafc2ed488b1     0 drivers/vrlink/resources/icons/right_pico4u_ready.png
+          1092      1 19cda1426d6bd83281efd5265e89b7c0a71bacb6     0 drivers/vrlink/resources/icons/right_pico4u_ready@2x.png
+          2496      1 0c3b8392ee062a050536815d59404171202132c6     0 drivers/vrlink/resources/icons/right_pico4u_ready_low.png
+          1717      1 a510bac79627337544e275d3e7faa71b82ec5e65     0 drivers/vrlink/resources/icons/right_pico4u_ready_low@2x.png
+          2659      1 6f42d2758559e8fc28b29603b5f64dfd736535fd     0 drivers/vrlink/resources/icons/right_pico4_error.png
+          1825      1 c9fe461928867c6f446b65dd75f96b6b11f7d938     0 drivers/vrlink/resources/icons/right_pico4_error@2x.png
+          2224      1 580ca5baa0214402707c38961646e88175fd2dca     0 drivers/vrlink/resources/icons/right_pico4_info.png
+          1426      1 5ed68c063f14cd835ed5ffbf58341f785775f333     0 drivers/vrlink/resources/icons/right_pico4_info@2x.png
+          2070      1 c811ca4b75e79b1d29c264f2d6dac986608d650c     0 drivers/vrlink/resources/icons/right_pico4_off.png
+          1218      1 ff5d2159815157cae34839645d87f00f7f3e21b8     0 drivers/vrlink/resources/icons/right_pico4_off@2x.png
+          2071      1 1efcfbe0b818580451f9d3e6f6206c5345ca868a     0 drivers/vrlink/resources/icons/right_pico4_ready.png
+          1200      1 417f30bb210646bd939b231fe2154b02d4e786c2     0 drivers/vrlink/resources/icons/right_pico4_ready@2x.png
+          2628      1 88041cfff2e66172cc0ba7681dfe1b3830aa93fc     0 drivers/vrlink/resources/icons/right_pico4_ready_low.png
+          1832      1 a2c0549f9bd63bd6b7c77ae3338161a416bae222     0 drivers/vrlink/resources/icons/right_pico4_ready_low@2x.png
              0      0 0000000000000000000000000000000000000000    40 drivers/vrlink/resources/input
          11338      1 d5f2de9d387f60692c761cbcfa6711ef3ff72bd8     0 drivers/vrlink/resources/input/legacy_bindings_svl_hand_interaction_augmented.json
           2862      1 7daeaa45cd680c561932d0b20a2afadd2d73a045     0 drivers/vrlink/resources/input/pico_controller_profile.json
-          1261      1 f9cf33b069ba9cd3f7d7d2c05d763274e7b9a334     0 drivers/vrlink/resources/input/pico_controller_remapping.json
+          1261      1 2cfd57cb3865febc1d3bd036aa1d5a6e48d93b7d     0 drivers/vrlink/resources/input/pico_controller_remapping.json
          20660      1 6ca4343bd107a5b5a3d98a0bf7e96c053342ffa1     0 drivers/vrlink/resources/input/steam_app_450390_bindings_svl_hand_interaction_augmented.json
           2886      1 da0c38505ea4d85fe8bc68a93269fe19208e65d6     0 drivers/vrlink/resources/input/svl_hand_interaction_augmented_input_profile.json
           1530      1 452868c6d5635d0ec115513b925c2d50d57ace90     0 drivers/vrlink/resources/input/svl_hand_interaction_augmented_remapping.json
@@ -1207,7 +1247,7 @@ Total bytes compressed : 284798720
           1058      1 245de9cdf015786a8eb0f7adca01f575494947e6     0 drivers/vrlink/resources/localization/localization_da_DK.json
           1099      1 775223e5eb1ca0fb25a96a1970a8dc4211f5cbee     0 drivers/vrlink/resources/localization/localization_de_DE.json
           1619      1 dc6742cd896ba77a8b604862b3fd283a745d7d81     0 drivers/vrlink/resources/localization/localization_el_GR.json
-          1263      1 2ab074062e5d966fa5dbec50a46e1e41f754b0a3     0 drivers/vrlink/resources/localization/localization_en_us.json
+          1331      1 6fbfe1102541034518e0daa765bb3ed3cb7699b5     0 drivers/vrlink/resources/localization/localization_en_us.json
           1215      1 19965fe4c92ae96ef913e85f2d5d5617510c9330     0 drivers/vrlink/resources/localization/localization_es_ES.json
           1171      1 1dcc34f3f688342a2907bc22d4f6ca1fecab9d22     0 drivers/vrlink/resources/localization/localization_es_MX.json
           1210      1 9a49683462cffaa3740dee4ce77aeafe688d07bf     0 drivers/vrlink/resources/localization/localization_fi_FI.json
@@ -1286,8 +1326,8 @@ Total bytes compressed : 284798720
          19997      1 15427c6aeca957003293dd282aa1bf55a423df1a     0 drivers/vrlink/resources/rendermodels/shuttlecock/shuttlecock.obj
           9920      1 2cea077614a3fd3faea215440b0f3e581943b04d     0 drivers/vrlink/resources/rendermodels/shuttlecock/shuttlecock_tex_lores.png
              0      0 0000000000000000000000000000000000000000    40 drivers/vrlink/resources/settings
-          1239      1 913d30de0aed686229fc049756bb8699de9c3987     0 drivers/vrlink/resources/settings/default.vrsettings
-          5458      1 9c6eeee0a825c166c3045849af1e39f0bbb7c0d3     0 drivers/vrlink/resources/settings/settingsschema.vrsettings
+          1277      1 06bd26e2faab14f539f620ce458040705d9443d4     0 drivers/vrlink/resources/settings/default.vrsettings
+          5662      1 398400dde4fbf16c69bbcbf61db68b152f8e579c     0 drivers/vrlink/resources/settings/settingsschema.vrsettings
              0      0 0000000000000000000000000000000000000000    40 resources/anims
             91      1 340cace7e2b9a0d07745adf2c3546d29611aa53e     0 resources/anims/bonemask_aux.txt
             91      1 b18088ac87a10b642c7c5a4482cc30eea021605c     0 resources/anims/bonemask_index.txt
@@ -2342,10 +2382,10 @@ Total bytes compressed : 284798720
            985      1 e40938f3cce2387e1b2d9b22056e66574f508731     0 resources/webinterface/console/console_colors.js
           2021      1 bd3b80338a12c2e5f06e6ec8d22f157cbde8060b     0 resources/webinterface/console/index.html
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard
-          1697      1 f62dffa057307fda0b3eee39c75afa3d0ecd38ea     0 resources/webinterface/dashboard/bindingcallouts.html
+          1697      1 d31fc85dbbd8c4d0f318b10a7e53b17311b20010     0 resources/webinterface/dashboard/bindingcallouts.html
         265053      1 1436e94981dde9fcee2c4f84b4e18f2f3d43865a     0 resources/webinterface/dashboard/bindingcallouts.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/bindingcallouts.js.LICENSE.txt
-          1727      1 7cf7fdfe827c5c0b09042cf180098509b27dfa95     0 resources/webinterface/dashboard/controllerbinding.html
+          1727      1 1da26d7ce05eca57929073d616fe6da445d959a5     0 resources/webinterface/dashboard/controllerbinding.html
           5226      1 bfa89383b4e7f29cdd1baed9fc5ec4660f17c3c8     0 resources/webinterface/dashboard/controllerbinding.js
         436299      1 3ba261c4ff4142f06294f0b5f47993a522a90895     0 resources/webinterface/dashboard/controllerbindingui.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/controllerbindingui.js.LICENSE.txt
@@ -2366,10 +2406,10 @@ Total bytes compressed : 284798720
           6377      1 e6af1c03c5c6f1738433278713c90ac55b40d0ef     0 resources/webinterface/dashboard/css/vrmonitor.css
          48434      1 df9d38863b068217142968ae91d27d2ed746d4bd     0 resources/webinterface/dashboard/css/vrsettings.css
            752      1 56e02bdbb44405fe8e4cdb4c0d2d4197b93ec5ec     0 resources/webinterface/dashboard/css/vrwebui_shared.css
-          1573      1 e19a7adbe44e42315106d6f42a5bccca2db6b2ed     0 resources/webinterface/dashboard/debugcommands.html
+          1573      1 d85f79aa54709758c59b5df21a8c7dcea3688671     0 resources/webinterface/dashboard/debugcommands.html
         257055      1 dd9bee254ecdd8ff63160a4be069529788baacba     0 resources/webinterface/dashboard/debugcommands.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/debugcommands.js.LICENSE.txt
-          2630      1 97aa9b4e7a5978f0078a971232845584993d17d0     0 resources/webinterface/dashboard/fallback.html
+          2630      1 6f2355bdb9d7cba0cb701066f6bc2bfc4196bcb1     0 resources/webinterface/dashboard/fallback.html
          66814      1 bf8cec63fc921ac98a215e45c7b2ec86d75b897a     0 resources/webinterface/dashboard/fallback.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/fallback.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/images
@@ -2580,7 +2620,7 @@ Total bytes compressed : 284798720
            296      1 0563127707cce8b0f9db0e6fd9f00ddb37b4a876     0 resources/webinterface/dashboard/index.html
           1391      1 8cc630938b4ab4d8464e0c74a00942c2efe5416b     0 resources/webinterface/dashboard/ipd.html
          16220      1 3d9030f41d4556d1458a77e51069e77d93f59183     0 resources/webinterface/dashboard/ipd.js
-          1752      1 b85eebd8e1fdc052d811a60312288eece19bcd85     0 resources/webinterface/dashboard/keyboard.html
+          1752      1 8274d8d5a43b50ff80e36fe9cede7611a38311aa     0 resources/webinterface/dashboard/keyboard.html
         258464      1 71148f34405ba23344713cc23c0ba111206df6fe     0 resources/webinterface/dashboard/keyboard.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/keyboard.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/keyboards
@@ -2603,141 +2643,141 @@ Total bytes compressed : 284798720
           7063      1 b56921655ae9014c0aad496cffc8f2a9b211f94c     0 resources/webinterface/dashboard/keyboards/layout_swedish_overlay.json
           7065      1 24ed81cb282a08a0c670f4762d9d5cc67f0b3412     0 resources/webinterface/dashboard/keyboards/layout_turkish_overlay.json
           7123      1 af317dd439c8c7bff954a1de199a988fbd588541     0 resources/webinterface/dashboard/keyboards/layout_ukranian_overlay.json
-        545364      1 47950de6d53b037e218c2af2335fd98ead7ebe42     0 resources/webinterface/dashboard/libraries.js
+        545364      1 1ddfdedb2d1d4618c19cff0e8129caa6895a1e80     0 resources/webinterface/dashboard/libraries.js
           3535      1 cd6d70c5d2b97000416fec8417e070a2baa5d7a1     0 resources/webinterface/dashboard/libraries.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/localization
-         41719      1 a8203182fd54a064e13eb0ba5d17b301da871d94     0 resources/webinterface/dashboard/localization/bindingui_brazilian.json
-         58512      1 04b2a8bc7c3ae06fecb649927a61c2f1c3d02180     0 resources/webinterface/dashboard/localization/bindingui_bulgarian.json
-         43569      1 fe1f7b5d7bf92397e150097560f13a835980af2e     0 resources/webinterface/dashboard/localization/bindingui_czech.json
-         40695      1 f251761718d3609d39c8f2dabd9441b3ddec56ee     0 resources/webinterface/dashboard/localization/bindingui_danish.json
-         41834      1 115c234a6b9467e64ea5dca19029ec7ce58c136d     0 resources/webinterface/dashboard/localization/bindingui_dutch.json
+         41897      1 5cd798acda2755d389cb1ca9e349d9f6f741a1c4     0 resources/webinterface/dashboard/localization/bindingui_brazilian.json
+         58724      1 008feb829f6714767521e13f32b8afaff1b36bec     0 resources/webinterface/dashboard/localization/bindingui_bulgarian.json
+         43750      1 df42e9f255d55fa31b9fabf5daee19ed00067ca3     0 resources/webinterface/dashboard/localization/bindingui_czech.json
+         40873      1 570a1f4f191e7ed003043a7b08af238ccc62abb3     0 resources/webinterface/dashboard/localization/bindingui_danish.json
+         42012      1 24a79adcb3a7d232fdc8c3f0a6ccd553a8f00e07     0 resources/webinterface/dashboard/localization/bindingui_dutch.json
          39095      1 2cc2a55066ffd6b150e8f75e046eda015c114145     0 resources/webinterface/dashboard/localization/bindingui_english.json
-         41117      1 3ef82516f2c3750eca5c9567f374e276199a978c     0 resources/webinterface/dashboard/localization/bindingui_finnish.json
-         43944      1 339e746a3b8ed74ead051f9cc16452afd70babe6     0 resources/webinterface/dashboard/localization/bindingui_french.json
-         43721      1 6a747956d02095032fbf8c80b76b818c22a2ce8d     0 resources/webinterface/dashboard/localization/bindingui_german.json
-         57078      1 f5f4a0cdf827eea6579232d96766e977013ebe61     0 resources/webinterface/dashboard/localization/bindingui_greek.json
-         43126      1 dab4ef226d70388416df6566d7238251234c8543     0 resources/webinterface/dashboard/localization/bindingui_hungarian.json
-         42954      1 e2339d872701f73fc6f3ad4fb4fbebec3cba042b     0 resources/webinterface/dashboard/localization/bindingui_italian.json
-         45509      1 e3c71ab5b977d4b6621de269dc7ec7868f60b033     0 resources/webinterface/dashboard/localization/bindingui_japanese.json
-         42141      1 628863227db8774b74abc584e6302e7f9323613a     0 resources/webinterface/dashboard/localization/bindingui_korean.json
-         43251      1 8571335f2a7a618ff6d5e86e94e46086947a9e95     0 resources/webinterface/dashboard/localization/bindingui_latam.json
-         39725      1 30745394694ae2145c37c1429445ac73fe98a3a2     0 resources/webinterface/dashboard/localization/bindingui_norwegian.json
-         42813      1 a8c6feb2230fd6647ffbdc8e46b984d307f663db     0 resources/webinterface/dashboard/localization/bindingui_polish.json
-         41971      1 41d91d3619bf1fe9897bb2d05110df230a887e8e     0 resources/webinterface/dashboard/localization/bindingui_portuguese.json
-         43524      1 47e47128c855bf5373bcc7e6c2c5c7d34ba9263e     0 resources/webinterface/dashboard/localization/bindingui_romanian.json
-         56743      1 920ce8853ed01a1bf7a02dce2b7277d9e9deca95     0 resources/webinterface/dashboard/localization/bindingui_russian.json
-         37019      1 fd963c7e7c419ca7d366a685efb614b096c3162d     0 resources/webinterface/dashboard/localization/bindingui_schinese.json
-         43128      1 140718ef6d318e2564e511463d089356b327448b     0 resources/webinterface/dashboard/localization/bindingui_spanish.json
-         40919      1 6b4208fb6108e6cd08ce8fa9a1e8910d5066d08f     0 resources/webinterface/dashboard/localization/bindingui_swedish.json
-         37264      1 8d2f28a9443776cf3c6dd5c3469fc601190c0e6e     0 resources/webinterface/dashboard/localization/bindingui_tchinese.json
-         68150      1 dc0d3c9fbfd9e7f8e3530984fefed7bd684c7717     0 resources/webinterface/dashboard/localization/bindingui_thai.json
-         41947      1 5b3c851a73d31bcbd106a240960e6cdf825eb3f0     0 resources/webinterface/dashboard/localization/bindingui_turkish.json
-         55673      1 3b1c2b7ab9fd9909001c5ef548f6fccf410852a3     0 resources/webinterface/dashboard/localization/bindingui_ukrainian.json
-         44506      1 c4fcf72645d67b41e23852d9ee1caa58a0de4d29     0 resources/webinterface/dashboard/localization/bindingui_vietnamese.json
-          3358      1 25b42c9eb9751b26633796a180729c95e6e817d4     0 resources/webinterface/dashboard/localization/dashboard_brazilian.json
-          4990      1 858b87a1f0ca050c0493508179627781d1339550     0 resources/webinterface/dashboard/localization/dashboard_bulgarian.json
-          3299      1 0186233074cb4d5727aa445b7f57b583a31dfb93     0 resources/webinterface/dashboard/localization/dashboard_czech.json
-          3172      1 4bad42fd0d0c6779d87b7cc8d7ea457c4be19dd9     0 resources/webinterface/dashboard/localization/dashboard_danish.json
-          3259      1 3a3c8a44e8f674ee63a4e77451bf8fa00433d116     0 resources/webinterface/dashboard/localization/dashboard_dutch.json
+         41297      1 ca288a12e721cebd3c12220236d2880d9ac80c9e     0 resources/webinterface/dashboard/localization/bindingui_finnish.json
+         44127      1 ae4bc635d388a599330ebf446fe0948b26c24369     0 resources/webinterface/dashboard/localization/bindingui_french.json
+         43899      1 795ce7ae1cb1f807721257cae09c1749d0862922     0 resources/webinterface/dashboard/localization/bindingui_german.json
+         57297      1 79438af52ff92c090b5c652f39f83b74704db4c0     0 resources/webinterface/dashboard/localization/bindingui_greek.json
+         43307      1 fae7c6d8e0ade1400ef40778dc9aa7dae91104e2     0 resources/webinterface/dashboard/localization/bindingui_hungarian.json
+         43137      1 b8888168f0871ded327400ed4310fa541c0a20f8     0 resources/webinterface/dashboard/localization/bindingui_italian.json
+         45708      1 b112250f5168cc3b12286c4ee536885108148b00     0 resources/webinterface/dashboard/localization/bindingui_japanese.json
+         42320      1 575ded5339f7a616a1f1e00d443653d16dffbbdf     0 resources/webinterface/dashboard/localization/bindingui_korean.json
+         43433      1 f7db54a976cf83fa853701ac11bf0fe91ec35ac9     0 resources/webinterface/dashboard/localization/bindingui_latam.json
+         39904      1 412988c25a311a8382b5349ad5e1478dad8c7036     0 resources/webinterface/dashboard/localization/bindingui_norwegian.json
+         43005      1 215c431d44d7a17d13c823681df98fdd2196791e     0 resources/webinterface/dashboard/localization/bindingui_polish.json
+         42146      1 11fdda3ce0401bbad03e2350f296b8a7fa9dbd3e     0 resources/webinterface/dashboard/localization/bindingui_portuguese.json
+         43703      1 fb23903f9bb843292b9c9cd1ec4d51cd5de22607     0 resources/webinterface/dashboard/localization/bindingui_romanian.json
+         56982      1 0380cd840bc5fe2aedae92eca56ec96af3629f77     0 resources/webinterface/dashboard/localization/bindingui_russian.json
+         37206      1 1c100c1fd79c752967374e26b70c1b2cc24d36d2     0 resources/webinterface/dashboard/localization/bindingui_schinese.json
+         43310      1 0894359fffa1e1c4eea908fa8ce0b3015f924fa5     0 resources/webinterface/dashboard/localization/bindingui_spanish.json
+         41096      1 bf5ad8625e8768eea9a2ac49052c19949d47ab38     0 resources/webinterface/dashboard/localization/bindingui_swedish.json
+         37454      1 20e1e6aa06becea6502e3e121e3aa3f5979c32b3     0 resources/webinterface/dashboard/localization/bindingui_tchinese.json
+         68440      1 e78f17ad8ed94985869090fbf4172cadca8250a3     0 resources/webinterface/dashboard/localization/bindingui_thai.json
+         42134      1 9f512b6232de74f04f4c2e50ee5b7dd6800bca51     0 resources/webinterface/dashboard/localization/bindingui_turkish.json
+         55885      1 caa240c35579edd3ede704c9cd2819836d11765e     0 resources/webinterface/dashboard/localization/bindingui_ukrainian.json
+         44693      1 850686ae360bead9e79341ab02f2209f700a91e8     0 resources/webinterface/dashboard/localization/bindingui_vietnamese.json
+          3439      1 67e6c3c8d4bf28a08be807566cee2fbeac7327b7     0 resources/webinterface/dashboard/localization/dashboard_brazilian.json
+          5116      1 a138e2630e1c00a191f6bc2216f9cf84f3907297     0 resources/webinterface/dashboard/localization/dashboard_bulgarian.json
+          3397      1 197c1b347d50eb8008a2f2893e458592d7e14128     0 resources/webinterface/dashboard/localization/dashboard_czech.json
+          3263      1 ac7d97afcb5f7f886ac1cf5566625053c70ac84a     0 resources/webinterface/dashboard/localization/dashboard_danish.json
+          3356      1 39032db3c2c0fbaf28d36e92aca66ff058092d73     0 resources/webinterface/dashboard/localization/dashboard_dutch.json
           3053      1 81da1251f71b0c741970ab1859dfecc7b8fe4fa8     0 resources/webinterface/dashboard/localization/dashboard_english.json
-          3340      1 ec12f50b63d34e853197729b4850b86ff4c516cd     0 resources/webinterface/dashboard/localization/dashboard_finnish.json
-          3377      1 9497e754d94d89e4ece9285a15c31b91f2b71afd     0 resources/webinterface/dashboard/localization/dashboard_french.json
-          3367      1 85d41fbdb8ed9f73df21382ed3af302a1ba69adc     0 resources/webinterface/dashboard/localization/dashboard_german.json
-          4676      1 da8b1ba247b837bc6c7f2d7faa154ce0d52df210     0 resources/webinterface/dashboard/localization/dashboard_greek.json
-          3511      1 c6745f1843cb5f6cce214e9dc081ef2ae4eb5c5e     0 resources/webinterface/dashboard/localization/dashboard_hungarian.json
-          3303      1 30a9759c561e621404be37aa70cc67ae0aa5e878     0 resources/webinterface/dashboard/localization/dashboard_italian.json
-          3869      1 87034d35ae1841dbced78260819d4e0c3060f8d3     0 resources/webinterface/dashboard/localization/dashboard_japanese.json
-          3468      1 b93af3517bc23a8bc3d6bb29778e4d72bbf97c8a     0 resources/webinterface/dashboard/localization/dashboard_korean.json
+          3431      1 bd2ffc0f32888abdd068c3286743d1c007cf5e7d     0 resources/webinterface/dashboard/localization/dashboard_finnish.json
+          3482      1 5dc0ce34816addce2905c169e3addb2625bf83f6     0 resources/webinterface/dashboard/localization/dashboard_french.json
+          3468      1 1f2595ff0afbc3d46286a9bb7de654ced1d11ee5     0 resources/webinterface/dashboard/localization/dashboard_german.json
+          4831      1 5ebef0e65a0b54a03b09127c0935c01e7e36294c     0 resources/webinterface/dashboard/localization/dashboard_greek.json
+          3611      1 2a48a0dcce5f5a084604d0dac5904df857dd6da4     0 resources/webinterface/dashboard/localization/dashboard_hungarian.json
+          3411      1 9fa51f240bb7bf91018121c8262bd35e3ec237cf     0 resources/webinterface/dashboard/localization/dashboard_italian.json
+          3981      1 9175795771f6627022a4029c2504bc0ad19df299     0 resources/webinterface/dashboard/localization/dashboard_japanese.json
+          3570      1 d8481cfdd555790a66b3e169e8d6d7135862fe89     0 resources/webinterface/dashboard/localization/dashboard_korean.json
          15477      1 6adf3dba852a540e9bea9fdd8501eb31621825c7     0 resources/webinterface/dashboard/localization/dashboard_koreana.json
-          3386      1 d89508f9b7a3137f3ef995e35796b17ea6026c40     0 resources/webinterface/dashboard/localization/dashboard_latam.json
-          3128      1 9c763052ce9753aec18592c9f4055c6f454059ea     0 resources/webinterface/dashboard/localization/dashboard_norwegian.json
+          3489      1 867470f904c9cc6ea0e1cab58a90440b659dc338     0 resources/webinterface/dashboard/localization/dashboard_latam.json
+          3210      1 e4ddf7bfb7d2ca7f3adaa8f9cd3bbda890c7efcd     0 resources/webinterface/dashboard/localization/dashboard_norwegian.json
           5256      1 3445e18c4864c9687daaac0d32fd8d261f0403a6     0 resources/webinterface/dashboard/localization/dashboard_pirate.json
-          3322      1 821832be85831a9111beb97d42c003edd7102560     0 resources/webinterface/dashboard/localization/dashboard_polish.json
-          3314      1 855e0dbf8a2edcc175d31cca33d0544011fb46d2     0 resources/webinterface/dashboard/localization/dashboard_portuguese.json
+          3415      1 7197b46b5aef5866a80129fb10c3fd963b6c743a     0 resources/webinterface/dashboard/localization/dashboard_polish.json
+          3410      1 1e223049ddbc50c78cc3fb6e449d86eb5ca94515     0 resources/webinterface/dashboard/localization/dashboard_portuguese.json
          14498      1 2d17369479fe75190ea2e7aa7a0e9cd84b8366a6     0 resources/webinterface/dashboard/localization/dashboard_pseudo.json
-          3494      1 45a6f13480ef3098e228a5ff2e5c68d5c3e2b9e6     0 resources/webinterface/dashboard/localization/dashboard_romanian.json
-          4572      1 5aa665c5399e0765a84519073922c3578c0152c6     0 resources/webinterface/dashboard/localization/dashboard_russian.json
-          3072      1 7bfe48997738a92518c47152e414085ca6125eba     0 resources/webinterface/dashboard/localization/dashboard_schinese.json
-          3368      1 6f15c5f98ac5dd8cfe218021477e23c90d02219e     0 resources/webinterface/dashboard/localization/dashboard_spanish.json
-          3153      1 ec0f67caf9d8a49ba8549bc915ff6a6e54c3a9cd     0 resources/webinterface/dashboard/localization/dashboard_swedish.json
-          3111      1 8407190a90498d384ea03e52545f41e3f93ce281     0 resources/webinterface/dashboard/localization/dashboard_tchinese.json
-          5281      1 67f98f8fbb8d4d92190be03cd1afa17269c4b083     0 resources/webinterface/dashboard/localization/dashboard_thai.json
-          3281      1 986692048b004d903f42ef6bfb3504c8dfb1899c     0 resources/webinterface/dashboard/localization/dashboard_turkish.json
-          4500      1 d30eb61211f09c0bfeeee585fd4386994d752367     0 resources/webinterface/dashboard/localization/dashboard_ukrainian.json
-          3539      1 5180c5bc57df36d0206ba7cdaf1e77c8e3565300     0 resources/webinterface/dashboard/localization/dashboard_vietnamese.json
+          3599      1 4be39db2dc5eb674f68761075e19ba882b532e1b     0 resources/webinterface/dashboard/localization/dashboard_romanian.json
+          4709      1 dd9737c90222cb6dfad3c4d6ba06830d253c1a93     0 resources/webinterface/dashboard/localization/dashboard_russian.json
+          3157      1 899b868582af442dd9fcd53134ff59a0c8d652da     0 resources/webinterface/dashboard/localization/dashboard_schinese.json
+          3471      1 850195aab6c12825bfb0764eecdfc7b72ee05ec7     0 resources/webinterface/dashboard/localization/dashboard_spanish.json
+          3250      1 a39fad1e3ce6a3876b381d0b1755304b1b952968     0 resources/webinterface/dashboard/localization/dashboard_swedish.json
+          3202      1 cb90ef3a191c7d26ed666505790a90ace58015c6     0 resources/webinterface/dashboard/localization/dashboard_tchinese.json
+          5450      1 ae86fe6d5f8c3846d70a2329679192a3e1ecf899     0 resources/webinterface/dashboard/localization/dashboard_thai.json
+          3379      1 346479b826cd527ec3c9697b199f135a18258c5d     0 resources/webinterface/dashboard/localization/dashboard_turkish.json
+          4659      1 76a72f12956f8ed58f32fc6c1e579872e3778f07     0 resources/webinterface/dashboard/localization/dashboard_ukrainian.json
+          3647      1 512862572513f2aa5b3db1df012a11d1ce3799b0     0 resources/webinterface/dashboard/localization/dashboard_vietnamese.json
              0      0 0000000000000000000000000000000000000000     0 resources/webinterface/dashboard/localization/empty.dir
-         32094      1 07a490badd579d7c66c59a2e7946748928e557c5     0 resources/webinterface/dashboard/localization/vrmonitor_brazilian.json
-         45907      1 33055bc687c0e0850a08430858054ebb42f78721     0 resources/webinterface/dashboard/localization/vrmonitor_bulgarian.json
-         31633      1 9d52ed50010b5c3431b683637c8264c37c4473a9     0 resources/webinterface/dashboard/localization/vrmonitor_czech.json
-         30876      1 e45f9cdae45d3ed1ed0f7dba59bdb3198b6cb3b6     0 resources/webinterface/dashboard/localization/vrmonitor_danish.json
-         31484      1 348efb3be16f1cd9d247de028128d4d9027cfb69     0 resources/webinterface/dashboard/localization/vrmonitor_dutch.json
+         32274      1 0c35ca4e8d0052481b967452998184b33270d2eb     0 resources/webinterface/dashboard/localization/vrmonitor_brazilian.json
+         46132      1 f49c8854a3dd4e968981614e01fe5553dde8cb02     0 resources/webinterface/dashboard/localization/vrmonitor_bulgarian.json
+         31828      1 70c25589c201e8cda0ec8f6e686d1953fbf87bb1     0 resources/webinterface/dashboard/localization/vrmonitor_czech.json
+         31065      1 6fc40893821909c56d70c2baf8a1bec265d830d8     0 resources/webinterface/dashboard/localization/vrmonitor_danish.json
+         31669      1 91d2c090cda3a93f6a7ccec4acf76620ae3df088     0 resources/webinterface/dashboard/localization/vrmonitor_dutch.json
          29809      1 72897a9e356fe617f2dc7de5a6e34bf6a0055988     0 resources/webinterface/dashboard/localization/vrmonitor_english.json
-         31772      1 10841e5abd9fa44f0d6736660199213fa788ddac     0 resources/webinterface/dashboard/localization/vrmonitor_finnish.json
-         33616      1 c1b3c0efddcd66c8d2dda2ddbeb5f13811370ec2     0 resources/webinterface/dashboard/localization/vrmonitor_french.json
-         32258      1 a3ffb569cd888c6284d38ec02c9e403ab848d405     0 resources/webinterface/dashboard/localization/vrmonitor_german.json
-         44131      1 e7d29805a914e7da9b38f884d2fa23c388903ae3     0 resources/webinterface/dashboard/localization/vrmonitor_greek.json
-         33026      1 1260928a61fa7bd9876068cb12786f68511c9442     0 resources/webinterface/dashboard/localization/vrmonitor_hungarian.json
-         32317      1 1abaef682f3975222f54f4ecb6ecbff04406bb89     0 resources/webinterface/dashboard/localization/vrmonitor_italian.json
-         35868      1 4b4446de7f897fb7e75b7d2057528a8243e04930     0 resources/webinterface/dashboard/localization/vrmonitor_japanese.json
-         32417      1 2999dbfe6bdf019eef900e24a0ab947ee3d7b28c     0 resources/webinterface/dashboard/localization/vrmonitor_korean.json
-         32867      1 f58ee2ccf8e3e13abf857461da670577fb1870fa     0 resources/webinterface/dashboard/localization/vrmonitor_latam.json
-         30438      1 e8cdddff2693b96b0aeeff4dc56267ffcca66b22     0 resources/webinterface/dashboard/localization/vrmonitor_norwegian.json
-         32116      1 919ec46dad0272058886b98ffd1c5d54834d249b     0 resources/webinterface/dashboard/localization/vrmonitor_polish.json
-         31666      1 e0fc7fe903417c301027523531701048820435f9     0 resources/webinterface/dashboard/localization/vrmonitor_portuguese.json
-         33378      1 c3ae9202f4ebc0b8d2ae8b94104107fd50483722     0 resources/webinterface/dashboard/localization/vrmonitor_romanian.json
-         42548      1 1052ddb0dc373c855f12955d92503676f9caed94     0 resources/webinterface/dashboard/localization/vrmonitor_russian.json
-         28745      1 3befd56d6805390d2d1832068e520c64298c6c28     0 resources/webinterface/dashboard/localization/vrmonitor_schinese.json
-         32856      1 f74604096b5bf898e2c34b10e7f82f0941f2b863     0 resources/webinterface/dashboard/localization/vrmonitor_spanish.json
-         31228      1 6d333908e930660a2535f5e0675d5f4bf22dbd63     0 resources/webinterface/dashboard/localization/vrmonitor_swedish.json
-         28703      1 06e88dde0490834910d99dc667ebddc014ae213a     0 resources/webinterface/dashboard/localization/vrmonitor_tchinese.json
-         52606      1 b9830d3193a72c3b76f15fc7ef5770c030a851b9     0 resources/webinterface/dashboard/localization/vrmonitor_thai.json
-         32059      1 fb2fe30999727dfbde7cef50d0c3e61cabf0c0e9     0 resources/webinterface/dashboard/localization/vrmonitor_turkish.json
-         42752      1 8afb29702259d0a3990395182020f400fa185c0f     0 resources/webinterface/dashboard/localization/vrmonitor_ukrainian.json
-         34084      1 d74f41b8788fc37cf49a980746b69f018436298f     0 resources/webinterface/dashboard/localization/vrmonitor_vietnamese.json
-          3127      1 f1ba5476627c887f0556f9fecbde130713226923     0 resources/webinterface/dashboard/localization/webhelper_brazilian.json
-          3822      1 e009854909f9e9cdcde6eff7d629fc754c44e073     0 resources/webinterface/dashboard/localization/webhelper_bulgarian.json
-          3129      1 7435d0274db8875a0b38dc2a7b4da0c326c60605     0 resources/webinterface/dashboard/localization/webhelper_czech.json
-          2973      1 0245be54beab57d312c3a9e886702215d74b1e05     0 resources/webinterface/dashboard/localization/webhelper_danish.json
-          3037      1 6a0f3c1902e97f57a2918d4a22b1da02115b732f     0 resources/webinterface/dashboard/localization/webhelper_dutch.json
-          3068      1 c866a5f8956f7bf7b084d8779e523680f412f20f     0 resources/webinterface/dashboard/localization/webhelper_english.json
-          3069      1 a19ddba2e8d7c2cec7435613ddf99e8a70cda9e1     0 resources/webinterface/dashboard/localization/webhelper_finnish.json
-          3138      1 d835b7c4282bee61bcfc8b8cd3e29a84808ee5e8     0 resources/webinterface/dashboard/localization/webhelper_french.json
-          3063      1 d1bde4870f9a790bd4460ad83be77318cde2937f     0 resources/webinterface/dashboard/localization/webhelper_german.json
-          3826      1 804bbaee849ae23856f0f81122866aca923d4d56     0 resources/webinterface/dashboard/localization/webhelper_greek.json
-          3109      1 eb04bacfc0f26b2eb9e4415f5cc0ada504ae8c27     0 resources/webinterface/dashboard/localization/webhelper_hungarian.json
-          3118      1 cd6a76ee87d90765468c6d3068cc3323c4f27399     0 resources/webinterface/dashboard/localization/webhelper_italian.json
-          3288      1 49f28c9d252cb4aeadcd687d9901a6843dd2ad00     0 resources/webinterface/dashboard/localization/webhelper_japanese.json
-          3087      1 6c26e6d8714c64547f7b3d08baf3b9148b9cc68c     0 resources/webinterface/dashboard/localization/webhelper_korean.json
-          3111      1 291f58b3766f04ee87fbcc29eed0aaef3f71cbb9     0 resources/webinterface/dashboard/localization/webhelper_latam.json
-          3020      1 482314cde4c076958917baf27903000e95c5275f     0 resources/webinterface/dashboard/localization/webhelper_norwegian.json
-          3074      1 39895352480aa2588228ddf673f6afb50a720139     0 resources/webinterface/dashboard/localization/webhelper_polish.json
-          3065      1 946335d7bc6d3d3047ca61c202efc4740d302772     0 resources/webinterface/dashboard/localization/webhelper_portuguese.json
-          3140      1 9c133031f1713554e4a1e45d9521fae015b22e2b     0 resources/webinterface/dashboard/localization/webhelper_romanian.json
-          3759      1 f23bcb662893cb9a1465f75c52b079287149fbc8     0 resources/webinterface/dashboard/localization/webhelper_russian.json
-          2855      1 97217f15817df15ed978a501f696abb5ae09f93f     0 resources/webinterface/dashboard/localization/webhelper_schinese.json
-          3118      1 075604e46e4a653770dea2a104d27b21ba4f8f7b     0 resources/webinterface/dashboard/localization/webhelper_spanish.json
-          2989      1 067ff243635a4fcf0283008011521abb506ea7c1     0 resources/webinterface/dashboard/localization/webhelper_swedish.json
-          2880      1 ae6377aa1965519d80fa0c3e663bd6be2ce5ce51     0 resources/webinterface/dashboard/localization/webhelper_tchinese.json
-          4252      1 ca3f39bb09bbecb6b3af8610c6b47e1ce4aed0b4     0 resources/webinterface/dashboard/localization/webhelper_thai.json
-          3007      1 bfe15c2dfb1782d935355801a59922d95333a4d5     0 resources/webinterface/dashboard/localization/webhelper_turkish.json
-          3729      1 3df514f16264bc2a6ef82af8525894c37ba89757     0 resources/webinterface/dashboard/localization/webhelper_ukrainian.json
-          3222      1 d9ed90a535742e0f5156ffcc7a6c57ea8fd8cc58     0 resources/webinterface/dashboard/localization/webhelper_vietnamese.json
-          1699      1 effd589384eef15af833e1f0423b2c0d7ff60e4b     0 resources/webinterface/dashboard/messageoverlay.html
+         31951      1 b34639b6bae517ba0e71e6081ae272866f07d0d3     0 resources/webinterface/dashboard/localization/vrmonitor_finnish.json
+         33814      1 3be5ea830f08e9780c813c3d280a255db408f7fd     0 resources/webinterface/dashboard/localization/vrmonitor_french.json
+         32449      1 6b109abff44033964966fab03e395b6afd945230     0 resources/webinterface/dashboard/localization/vrmonitor_german.json
+         44399      1 bdfbbd192b4a243a014f5ba247a8cab92e6d80cc     0 resources/webinterface/dashboard/localization/vrmonitor_greek.json
+         33220      1 3cdd146e8d190fb60f416a1888fafafaae876737     0 resources/webinterface/dashboard/localization/vrmonitor_hungarian.json
+         32520      1 9a29c0abeb190d5f763d8e4fc0964052709e1e4a     0 resources/webinterface/dashboard/localization/vrmonitor_italian.json
+         36070      1 d6c31585f5c7ef857ee71976bc75be686bd5a6a5     0 resources/webinterface/dashboard/localization/vrmonitor_japanese.json
+         32603      1 f15792d80c2f5dd411a971e8d638df1f7df3d06e     0 resources/webinterface/dashboard/localization/vrmonitor_korean.json
+         33072      1 93fb95c644696a5cfd370af793df189647df8600     0 resources/webinterface/dashboard/localization/vrmonitor_latam.json
+         30614      1 957811c039dab69be8bde1445c3617fc6ab74185     0 resources/webinterface/dashboard/localization/vrmonitor_norwegian.json
+         32297      1 429de56f163ec0a8230761d3e4f4715ffad5307d     0 resources/webinterface/dashboard/localization/vrmonitor_polish.json
+         31857      1 fb779d844688c8b92cad54dff75f8982fca8139d     0 resources/webinterface/dashboard/localization/vrmonitor_portuguese.json
+         33579      1 fe57ed9e603b71bf1d390c9b1685e140e5572f5d     0 resources/webinterface/dashboard/localization/vrmonitor_romanian.json
+         42781      1 758a3fdf46ce2d1a5e18a6e5cc72194897d3e064     0 resources/webinterface/dashboard/localization/vrmonitor_russian.json
+         28920      1 1ba4390a9a70549100922ed7d7866ffd7108cb8b     0 resources/webinterface/dashboard/localization/vrmonitor_schinese.json
+         33061      1 26748b9940cf3c9ed0965e32a9e0efd7a893d515     0 resources/webinterface/dashboard/localization/vrmonitor_spanish.json
+         31416      1 be81db43816396db8b90b64eea6e19ca7da02014     0 resources/webinterface/dashboard/localization/vrmonitor_swedish.json
+         28884      1 5bc0f42e5369b85ad64be4b95b4a36f39c8f3d15     0 resources/webinterface/dashboard/localization/vrmonitor_tchinese.json
+         52892      1 a30bc47bdb2307ae45bb38697ac00bbaa4262ca4     0 resources/webinterface/dashboard/localization/vrmonitor_thai.json
+         32242      1 d8eca5f5208127ed3fc923a0e6512d7da75c6539     0 resources/webinterface/dashboard/localization/vrmonitor_turkish.json
+         42999      1 422d13299261253057551ddee7fdabb9e10d247e     0 resources/webinterface/dashboard/localization/vrmonitor_ukrainian.json
+         34287      1 a45c95befb0fd1a9ba37898dd6a1a2e02d5dc904     0 resources/webinterface/dashboard/localization/vrmonitor_vietnamese.json
+          3232      1 a3dd50de060447a1b3833d713377de9c2a20518d     0 resources/webinterface/dashboard/localization/webhelper_brazilian.json
+          4001      1 49d7f0eccd3b38af2b267f76cd1fdaeafcaee814     0 resources/webinterface/dashboard/localization/webhelper_bulgarian.json
+          3239      1 a475c69d92054230a38d882a13260de0c705a05b     0 resources/webinterface/dashboard/localization/webhelper_czech.json
+          3072      1 ea9a08525a0ca1210a2a4e08a7e4ddaac5c5dea0     0 resources/webinterface/dashboard/localization/webhelper_danish.json
+          3137      1 f59c2b4239dff518e697272822918fdf6dcdc005     0 resources/webinterface/dashboard/localization/webhelper_dutch.json
+          3127      1 05a768ea7e6a6340508f2b25972a3fb9f586e757     0 resources/webinterface/dashboard/localization/webhelper_english.json
+          3163      1 fecffead348c4ea3c2297ea28d849c7bc78295f7     0 resources/webinterface/dashboard/localization/webhelper_finnish.json
+          3244      1 a3de5df77d0ef1318b91fa95e7161ebda3df7278     0 resources/webinterface/dashboard/localization/webhelper_french.json
+          3163      1 48bed5114cb2b7d73da97e3154395cd1de8e7341     0 resources/webinterface/dashboard/localization/webhelper_german.json
+          3981      1 1e58909cc442e1caed08a2972f69cf15c8acfc80     0 resources/webinterface/dashboard/localization/webhelper_greek.json
+          3214      1 5d3651749640c924f3b0e908b0d51e462fcc80a3     0 resources/webinterface/dashboard/localization/webhelper_hungarian.json
+          3229      1 6a526c44fb1632d38d0d0e9ecfdfd9295ffcfb27     0 resources/webinterface/dashboard/localization/webhelper_italian.json
+          3415      1 10767c8dc00b3a85c081b257f334eea3daf2901a     0 resources/webinterface/dashboard/localization/webhelper_japanese.json
+          3188      1 a547fc77670330685fc6e6ea750640dd77b2c72f     0 resources/webinterface/dashboard/localization/webhelper_korean.json
+          3227      1 d8c64f97626655ad217e3707284f399bb2d18395     0 resources/webinterface/dashboard/localization/webhelper_latam.json
+          3116      1 e456cebc29d09dc264bc98900a81efe776188adf     0 resources/webinterface/dashboard/localization/webhelper_norwegian.json
+          3169      1 12630f47650f701793f807f944756eb647633a02     0 resources/webinterface/dashboard/localization/webhelper_polish.json
+          3176      1 7fce1778b85b38f65446bd3f7596d6a63ec8b9a5     0 resources/webinterface/dashboard/localization/webhelper_portuguese.json
+          3249      1 a380b83a39dffbb56aeb923c0e244433bf75153f     0 resources/webinterface/dashboard/localization/webhelper_romanian.json
+          3888      1 c4901a6b4154857836e46f3d8a79e7c177b68975     0 resources/webinterface/dashboard/localization/webhelper_russian.json
+          2946      1 b83f55dd75bfab397b2582d3b67d26354868e0ee     0 resources/webinterface/dashboard/localization/webhelper_schinese.json
+          3230      1 c8b9b7736df1ffced911d081736ae74714595a20     0 resources/webinterface/dashboard/localization/webhelper_spanish.json
+          3088      1 db1136732116b5f66390602c2855a0ebdc8edf63     0 resources/webinterface/dashboard/localization/webhelper_swedish.json
+          2971      1 ff176d38c80a9921562401a26bdf8189afc7ca56     0 resources/webinterface/dashboard/localization/webhelper_tchinese.json
+          4415      1 421e4c9e2ae18b9808cec8b5360c99987a3328e1     0 resources/webinterface/dashboard/localization/webhelper_thai.json
+          3102      1 2b2c2ed8e95003d6f39e1578203328fe9a9cadc1     0 resources/webinterface/dashboard/localization/webhelper_turkish.json
+          3884      1 8a9aef0e7d0e288480a1be6f46f27d4adb125d39     0 resources/webinterface/dashboard/localization/webhelper_ukrainian.json
+          3330      1 6668c9ac141dc03d7c2361ee3c43975ecf7f762f     0 resources/webinterface/dashboard/localization/webhelper_vietnamese.json
+          1699      1 f991a0cc0f60fc5ba909ac0afc93d601f81ddaf7     0 resources/webinterface/dashboard/messageoverlay.html
         249622      1 1f7a680e9e863e9b106b9d29a63c5570fc6ff996     0 resources/webinterface/dashboard/messageoverlay.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/messageoverlay.js.LICENSE.txt
-          1706      1 7e412fdd78415a7104449865f6be799d48527aea     0 resources/webinterface/dashboard/notificationtoast.html
+          1706      1 6a28ac33d43e521dcd5224f191c970f671173396     0 resources/webinterface/dashboard/notificationtoast.html
         247376      1 f29d3589958540ec3dc474a8248f8bbc79f8502a     0 resources/webinterface/dashboard/notificationtoast.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/notificationtoast.js.LICENSE.txt
           1787      1 f62b158400fe8827a0ff82e77e2591ec108bc874     0 resources/webinterface/dashboard/powermenu.html
          55386      1 225a15a2379386930714565e072c827ef39d5c46     0 resources/webinterface/dashboard/powermenu.js
           2418      1 f0cc36dab2d0676bb1a7e481100c7971a13f8587     0 resources/webinterface/dashboard/progressindicator.html
          55960      1 0d1838e59d0cf2b92cd0b647f98aff366e5c73fd     0 resources/webinterface/dashboard/progressindicator.js
-           379      1 394b623e5931d632ecfeef889357fae913ad587b     0 resources/webinterface/dashboard/scenegraphtest.html
+           379      1 01989578d415997840ee5c1b950fcd4ee6091324     0 resources/webinterface/dashboard/scenegraphtest.html
          66631      1 593091c9c1c8741b5b32415b8d0e1a97f46b828d     0 resources/webinterface/dashboard/scenegraphtest.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/scenegraphtest.js.LICENSE.txt
           1822      1 cda5140be34b4036be4aeb88d8256192e14a851f     0 resources/webinterface/dashboard/settings.html
         147622      1 2d58100e19503d4badc52382d576bde40194d442     0 resources/webinterface/dashboard/settings.js
-           949      1 ec78f7fd717a2b16bd3906b2015747bf2be74fac     0 resources/webinterface/dashboard/settings_desktop.html
+           949      1 c08e91811881cfc366f92c2be96e93f8aadbe2ee     0 resources/webinterface/dashboard/settings_desktop.html
         246426      1 3ed7802db2376802bd6b560a4f21ac87aafd4583     0 resources/webinterface/dashboard/settings_desktop.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/settings_desktop.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/sounds
@@ -2792,13 +2832,13 @@ Total bytes compressed : 284798720
        2089014      2 e57e3548b85061188a27d73ef3f6c222db732d61     0 resources/webinterface/dashboard/suggestions/russian_compiled_words.dict
        1899183      2 ea052b25ca43011621259565e168992670d09030     0 resources/webinterface/dashboard/suggestions/spanish_compiled_words.dict
        1844461      2 ba84b935f9aef2457d8e030f3e97ab663924c442     0 resources/webinterface/dashboard/suggestions/swedish_compiled_words.dict
-           392      1 aff273c5bbbd2b6232ed72770593be57c5584715     0 resources/webinterface/dashboard/systemreportviewer.html
+           392      1 73f767bbb24c64a8b163e26e92f36a849f4a3dcd     0 resources/webinterface/dashboard/systemreportviewer.html
          17124      1 a643304ca9d34b9f933616f5e91d44411cac225f     0 resources/webinterface/dashboard/systemreportviewer.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/systemreportviewer.js.LICENSE.txt
-           776      1 5c1a739aa27a31504e02025e34665ee4341d8f03     0 resources/webinterface/dashboard/systemui.html
+           776      1 32127d067cc2ee2fb3405b48e93bace49ec84500     0 resources/webinterface/dashboard/systemui.html
         285322      1 2ac3cc16debf06f0635fccf6221472f1345aee43     0 resources/webinterface/dashboard/systemui.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/systemui.js.LICENSE.txt
-          1688      1 b5fdac7bfb4be8957c2d8342bf71556d319f5a27     0 resources/webinterface/dashboard/vrmonitor.html
+          1688      1 b1b98b900b675478a80b4aa64546973bedac7737     0 resources/webinterface/dashboard/vrmonitor.html
         258870      1 a2f76045613d42d08cb4eb339a912ae06afc7fb4     0 resources/webinterface/dashboard/vrmonitor.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/vrmonitor.js.LICENSE.txt
         189046      1 708662e7f08d479c9564bf2001df6c958056f98e     0 resources/webinterface/dashboard/vrwebui_core.js

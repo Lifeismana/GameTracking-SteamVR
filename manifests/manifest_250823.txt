@@ -1,10 +1,10 @@
 Content Manifest for Depot 250823 
 
-Manifest ID / date     : 8973562349744659565 / 12/09/2024 23:52:48 
+Manifest ID / date     : 8989393707420592972 / 01/07/2025 21:23:53 
 Total number of files  : 337 
 Total number of chunks : 1190 
-Total bytes on disk    : 1061741825 
-Total bytes compressed : 351272080 
+Total bytes on disk    : 1061746729 
+Total bytes compressed : 351272944 
 
 
           Size Chunks File SHA                                 Flags Name
@@ -16,13 +16,13 @@ Total bytes compressed : 351272080
         209557      1 d2acea4bea63ba2751119f28db4639212917a061     0 bin/linux64/libaudio.so
        2726101      3 b010f3fe20daaf54aa3de732179896bd6fdf9903     0 bin/linux64/libicui18n.so
       12341952     12 d100285eae341c90742af141fa028fcdd220e420     0 bin/linux64/libicuuc.so
-       2138520      3 c7837ca9d9ebf0abd972aa865586595b680903e1     0 bin/linux64/libnrfserlib.so
-       1752088      2 2e6bc24e2de4b36a4b766a6b3a862b9a386ed536     0 bin/linux64/libopenvr_api.so
-       2002592      2 e7411fae16fff1518cc43445871828b452c8b37b     0 bin/linux64/libopenxr_loader.so
+       2138520      3 099dc723cd3ea540676b9d28f7eaa6582dafd152     0 bin/linux64/libnrfserlib.so
+       1752088      2 02047c3a35c1e0bb444b929bf5ab587fee89e2b8     0 bin/linux64/libopenvr_api.so
+       2002592      2 a0d3fa596e63ce918096023c3c9c044849583675     0 bin/linux64/libopenxr_loader.so
        2831996      3 808700926108f6e10397cd54f6237a3076d42310     0 bin/linux64/libpango-1.0.so
        6949851      7 80f6da038040b571172e4e6221a591526888ea42     0 bin/linux64/libpangoft2-1.0.so
         691250      1 788296aa55d9c9af7adad8f9fee8ac58094eaa93     0 bin/linux64/libpc_ble_driver_shared_sd_api_v6.so
-       2484040      3 247f01d4c24295c7c251afa2af5fab6ae116dc8f     0 bin/linux64/libprism.so
+       2484040      3 d420eeb282996481fa47481306f5beecd41a9de3     0 bin/linux64/libprism.so
         395696      1 6168abb266945c10c017568d014dc1abf3f623ae     0 bin/linux64/libsteam_api.so
         204354      1 480f7058827ced170ba7330be672dc5713b0be64     0 bin/linux64/libtier0_s.so
         229787      1 46279da9796e16b6317a1115d8008d3aa86380ec     0 bin/linux64/libtier0_vr.so
@@ -33,7 +33,7 @@ Total bytes compressed : 351272080
          64864      1 04ce499a7c14c4891d0de9a19339c8f0e31c9380     0 bin/linux64/libXpresent.so.1
           8512      1 4f0667c32fb839704389b0c9824b2ab94fec9d3a     0 bin/linux64/openvr_api_canary
          49024      1 f99b910035f1ed14d338d5b9fd1aab2fd47ac32f     0 bin/linux64/openxr_runtimelist
-       2205728      3 e8f781d9d6def7dcadab9f8f78ac7fa783569ac8     0 bin/linux64/overlay_viewer
+       2205728      3 27b682efb3ed6b6de0ecfcdcf91bc6950deecab6     0 bin/linux64/overlay_viewer
        8126864      8 05e1dc7f30cd3e5399ce18cb7dd5fefe3a5777d0     0 bin/linux64/panorama_vr.so
              0      0 0000000000000000000000000000000000000000    40 bin/linux64/qt
              0      0 0000000000000000000000000000000000000000    40 bin/linux64/qt/lib
@@ -73,24 +73,24 @@ Total bytes compressed : 351272080
         254464      1 6d9552e8c7d36cc6055e30994babbe1a6ce257a0     0 bin/linux64/qt/plugins/platformthemes/libqgtk2.so
              0      0 0000000000000000000000000000000000000000    40 bin/linux64/qt/plugins/xcbglintegrations
          63288      1 d30d56160e52a16b5e51d3fe464b6a8a452aa180     0 bin/linux64/qt/plugins/xcbglintegrations/libqxcb-glx-integration.so
-       1519392      2 de56c479e1ff8bd8e72f92cbd44fc78a56734903     0 bin/linux64/restarthelper
+       1519392      2 9faa661c14326b7243924610c7099d5545e51861     0 bin/linux64/restarthelper
         825504      1 9138686a8f60fdd89f8dcaa0f60c7d9eeddf1268     0 bin/linux64/trace-cmd
            989      1 954c9024dcbad624980a17423cae4feb448c1d59     0 bin/linux64/VkLayer_envextensions_layer.json
-      10675680     11 18dba027289a60db469ebb4997ba66f722c07957     0 bin/linux64/vrclient.so
-       2151848      3 bef6d9d66cbc9a67ce39d116503b3e16259d2a44     0 bin/linux64/vrcmd
-       6955280      7 a1fb26095acf1e917e6c9e061289ed69ecce36f0     0 bin/linux64/vrcompositor
+      10680584     11 1523bdd4f098b8f13b3405dd8cc5f3e92b9277d6     0 bin/linux64/vrclient.so
+       2151848      3 d5300772bc25126a1e156e2922e23310917eb751     0 bin/linux64/vrcmd
+       6955280      7 647834158841f553b616be599101342d3b20eb53     0 bin/linux64/vrcompositor
         234848      1 c3a23d5731359d67e1adf45d82372a384dc7ce80     0 bin/linux64/vrcompositor-launcher
           2199      1 90b4c014ffe3b2b4105039eb1b5c6c327de2891b     0 bin/linux64/vrcompositor-launcher.sh
-       1850520      2 0baf1366713fd75b4ee1bc1c73ba019a09c4510f     0 bin/linux64/vrdashboard
-       6967024      7 44b37b576c269aa22ff16bef6f3b9aacc0c5da2c     0 bin/linux64/vrmonitor
-       1675584      2 0ffe81ee0c431630f4c65894c1939e00abd6c045     0 bin/linux64/vrpathreg
-       1994288      2 d11c9f09dd009a99207ac85deb3e1c5af25d2b08     0 bin/linux64/vrprismhost
-       8791400      9 c639612e3c4121bf313e486654acf8f14d65cd0d     0 bin/linux64/vrserver
-       2354864      3 07d28bc5dbf8684bd397eada3fc1270891d37842     0 bin/linux64/vrstartup
-       2363232      3 19ec1c6d338002f8a149f15105c4651045cd883a     0 bin/linux64/vrurlhandler
+       1850520      2 2e458a237b2522e82c54f7e3781b3f41b96e6a84     0 bin/linux64/vrdashboard
+       6967024      7 6e32ae4cc0cf8831aca2df8bfa2b21289346dad5     0 bin/linux64/vrmonitor
+       1675584      2 979a980888188ae08b0a06688aecd915618054f8     0 bin/linux64/vrpathreg
+       1994288      2 3db1ac43c51e92d5da2b7629023ae0f115d1c0dc     0 bin/linux64/vrprismhost
+       8791400      9 44148e49c62ab5b510ac03a11234c339bf8dc209     0 bin/linux64/vrserver
+       2354864      3 143eb3852d57138d6a1ec9c6c223acfac9d14c55     0 bin/linux64/vrstartup
+       2363232      3 da2dace48a87324ecbbf5d9f9ae6612a55e0fbc3     0 bin/linux64/vrurlhandler
           2000      1 db3f880cc8b6ddb7d16464f37adecfb51b153a4e     0 bin/steamvr_msg.sh
            945      1 334c149e8a4cc9c0b0a35fce39e2da236bc39143     0 bin/steamvr_question.sh
-       9450064     10 95e79d2b24283103095fba793be60f75ff76a3a4     0 bin/vrclient.so
+       9450064     10 13d8df4159f44c258acbe837c037241813a97a70     0 bin/vrclient.so
           1097      1 84b485ca1e53a28dc177d3d3f9fc8e67cdd15691     0 bin/vrenv.sh
            359      1 f85179706133b8837ef657225c631fb23d0b04d8     0 bin/vrmonitor.sh
            359      1 1c68eee472720106ff91b3fe5cb1a3189146bf80     0 bin/vrpathreg.sh
@@ -108,7 +108,7 @@ Total bytes compressed : 351272080
        1836024      2 368972151d3db11367ab6a3e4c69d1a4380d86cb     0 bin/vrwebhelper/linux64/libEGL.so
       43826096     42 52606d377ce30d2e568118bb43790587353f8b45     0 bin/vrwebhelper/linux64/libGLESv2.so
        1662888      2 68590ed556b01f183b13c0d70eb58dd8d72b1444     0 bin/vrwebhelper/linux64/libminigbm.so
-       1752088      2 2e6bc24e2de4b36a4b766a6b3a862b9a386ed536     0 bin/vrwebhelper/linux64/libopenvr_api.so
+       1752088      2 02047c3a35c1e0bb444b929bf5ab587fee89e2b8     0 bin/vrwebhelper/linux64/libopenvr_api.so
              0      0 0000000000000000000000000000000000000000    40 bin/vrwebhelper/linux64/locales
         392942      1 206c35feadbb4f85fb7fffac9278735446b9c095     0 bin/vrwebhelper/linux64/locales/am.pak
         406051      1 5196502330a0c1838b947b98fec97fe956da4626     0 bin/vrwebhelper/linux64/locales/ar.pak
@@ -173,19 +173,19 @@ Total bytes compressed : 351272080
        1780024      2 a944b6f93dc66aea71f468fcf7acff32fc862542     0 bin/vrwebhelper/linux64/swiftshader/libEGL.so
       11531400     11 bdf47f50c48150e14ed826b8063733d3a90454b2     0 bin/vrwebhelper/linux64/swiftshader/libGLESv2.so
         171503      1 067db85a98df27e5efff6b2d5783dca6624d1338     0 bin/vrwebhelper/linux64/v8_context_snapshot.bin
-       4717184      5 c908b1e9fe68b05319f064c4a2e5a314e0a9b206     0 bin/vrwebhelper/linux64/vrwebhelper
+       4717184      5 dfc100234c2e565b5df4ccf076fac6412259d916     0 bin/vrwebhelper/linux64/vrwebhelper
            713      1 ea66c8ec52144e12979aff7826a06db476383bb3     0 bin/vrwebhelper/linux64/vrwebhelper.sh
-       1553500      2 cd44a80166f0a81d6e569248ab2564a7b1f62b95     0 drivers/gamepad/bin/linux32/driver_gamepad.so
-       1556984      2 265e25df3b5d83c896a37d3a5b587c5c741281e4     0 drivers/gamepad/bin/linux64/driver_gamepad.so
-       6379112      7 dbe2f630279c9dc6105f38bd4719da30ce94f4e1     0 drivers/lighthouse/bin/linux32/driver_lighthouse.so
-       6813864      7 f2cc2720c0db46427eeb7f552c1c1484470acee6     0 drivers/lighthouse/bin/linux64/driver_lighthouse.so
+       1553500      2 fc1cbe86ae573b057af5f971f2b5ec0482ac1b91     0 drivers/gamepad/bin/linux32/driver_gamepad.so
+       1556984      2 26a72e43ce9c39edf5a375988a4b550a67a101d7     0 drivers/gamepad/bin/linux64/driver_gamepad.so
+       6379112      7 e25492c1fe112a6681f7c8991fc9ef9e91153bd6     0 drivers/lighthouse/bin/linux32/driver_lighthouse.so
+       6813864      7 1c95710809d03c88edb1822f4fb2fb30a48603c2     0 drivers/lighthouse/bin/linux64/driver_lighthouse.so
              0      0 0000000000000000000000000000000000000000     0 drivers/lighthouse/bin/linux64/empty.dir
         164291      1 a0b48676165a9d5b7a9946e89a24ffc394f9f82d     0 drivers/lighthouse/bin/linux64/libaitcamlib.so
         232034      1 fd00f408f46152b02e7411ae4d6f3a5197548a90     0 drivers/null/bin/linux32/driver_null.so
-       1489408      2 78cb2671d7b0f17fffe5c4ceec805cd5efd36077     0 drivers/null/bin/linux64/driver_null.so
+       1489408      2 9bdf61709715450fa37f85089d1ac6fae4a5269f     0 drivers/null/bin/linux64/driver_null.so
            239      1 0c4c3963821b625587a34077c0ca162ce01f2e14     0 steamxr_linux64.json
-       4333192      5 8f34aa21b6546b3501fe5d659c1020d49a30fe38     0 tools/lighthouse/bin/linux64/lighthouse_console
-       1966768      2 86ddb9948b07ef13f8ee1f0dea297ce4d12f951a     0 tools/lighthouse/bin/linux64/lighthouse_watchman_update
+       4333192      5 3925fbff37daabde9965f018959f99c811f8f4f7     0 tools/lighthouse/bin/linux64/lighthouse_console
+       1966768      2 bbccf74b7af2d8029dcb5fda3be9a5daba24cce9     0 tools/lighthouse/bin/linux64/lighthouse_watchman_update
         661672      1 b6a054eb8eecf759c48128b42c6387ee53266efb     0 tools/lighthouse/bin/linux64/vivelink
        1173319      2 5288ecd9ecb4fe9b3967cf212759e2528ce743f9     0 tools/lighthouse/bin/linux64/vivetools
       31221760     30 6b7582e98f0aebf4102a41faf32525b678c67337     0 tools/steamvr_room_setup/linux64/steamvr_room_setup

@@ -20,6 +20,8 @@
 	"Resetting_Countdown": "กำลังรีเซ็ต...",
 	"Button_Recenter": "ปรับศูนย์อีกครั้ง",
 	"Recentering_Countdown": "กำลังปรับศูนย์อีกครั้ง...",
+	"MenuPlayspaceSetup": "การตั้งค่าพื้นที่เล่น",
+	"MenuPlayspaceMenu": "เมนูพื้นที่เล่น",
 	"PowerMenuTurnOffController": "ปิดคอนโทรลเลอร์",
 	"PowerMenuShutdown": "ปิดเครื่อง",
 	"PowerMenuQuitSceneApp": "ออกจาก %1$s",

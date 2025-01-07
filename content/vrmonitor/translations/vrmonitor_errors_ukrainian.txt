@@ -958,6 +958,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Інсталювати"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Інсталювати VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "Щоб обладнання VIVE працювало зі SteamVR, потрібно мати VIVE Hub."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Інсталювати"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Проблеми з підключенням екрана"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Відеокарті не вдалося підключитися до екрана шолома. Спробуйте від’єднати всі адаптери та подовжувачі, які ви використовуєте. Також спробуйте інший порт відеокарти, якщо це можливо. <b>Скористайтеся наведеним нижче посиланням для скидання налаштувань шолома, щоб повторити спробу підключення відеокарти.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Скинути налаштування шолома"

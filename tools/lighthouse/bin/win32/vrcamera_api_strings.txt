@@ -596,7 +596,7 @@ OLEAUT32.dll
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS%
+RSDSy-
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -677,7 +677,6 @@ WideCharToMultiByte
 WinRTInitialization
 Writing failed at 0x%X/0x%X Bytes\n
 \r\f\v\v\n\n\t\t\t\t\t
-]DjD
 _CIexp
 _CIpow
 _CIsqrt

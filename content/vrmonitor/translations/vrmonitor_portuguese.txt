@@ -137,7 +137,7 @@
 "SteamVRSystemState_Paused" "Em pausa"
 "SteamVRSystemState_UnpauseRequested" "A iniciar..."
 "SteamVRSystemState_Paused_FirmwareUpdate" "A atualizar dispositivos..."
-"SteamVRSystemState_PseudoState_Waiting" "À espera..."
+"SteamVRSystemState_PseudoState_Waiting" "A aguardar..."
 "SteamVRSystemState_PseudoState_Welcome" "Bem-vindo(a)"
 
 "SteamVRSystemState_Ready_Application" "%1"

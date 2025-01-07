@@ -431,7 +431,6 @@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9wWg
 <P)9Y
 <unknown>
 >ffv?
@@ -914,7 +913,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDS!
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

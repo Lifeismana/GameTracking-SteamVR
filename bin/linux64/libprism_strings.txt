@@ -462,7 +462,7 @@
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-22:41:17
+21:03:04
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 30CSharedResourceNamespaceServer
@@ -1306,7 +1306,6 @@ DW.ref._ZTISt9exception
 DW.ref.__gxx_personality_v0
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
-Dec  9 2024
 December
 DeclareCurrentThreadIsMainThread
 Destroying a held mutex\n
@@ -1530,6 +1529,7 @@ IsRunningInAppContainer()::s_bDeterminedAppContainerStatus
 IsRunningInAppContainer()::s_bIsRunningInAppContainer
 IsWorkstationLocked()
 JArray
+Jan  7 2025
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)

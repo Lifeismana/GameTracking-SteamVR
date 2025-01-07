@@ -956,6 +956,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Installer"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Installer VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "VIVE Hub kreves for å kjøre VIVE-utstyret med SteamVR."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Installer"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problem med skjermforbindelse"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Skjermkortet kan ikke opprette en forbindelse til skjermen i hodesettet. Prøv å fjerne eventuelle kabeladaptere eller forlengere. Prøv en annen port på skjermkortet hvis det er mulig. <b>Trykk tilbakestill nedenfor for å tilbakestille hodesettet slik at skjermkortet prøver forbindelsen på nytt.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Tilbakestill hodesett"

@@ -976,6 +976,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Zainstaluj"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Czy zainstalować VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "Program VIVE Hub jest wymagany w celu obsługi twojego sprzętu VIVE przez SteamVR."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Zainstaluj"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problem z podłączeniem wyświetlacza"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Twoja karta graficzna nie może pomyślnie połączyć się z wyświetlaczem gogli. Spróbuj odpiąć wszelkie przejściówki kabli lub przedłużacze, z których korzystasz. Spróbuj skorzystać z innego portu w twojej karcie graficznej, jeżeli jakiś jest dostępny. <b>Użyj linku do resetowania poniżej, by zresetować gogle, przez co karta graficzna ponowi próbę.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Zresetuj gogle"

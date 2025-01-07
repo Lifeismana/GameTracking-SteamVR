@@ -976,6 +976,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Installera"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Installera VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "VIVE Hub krävs för att köra VIVE-utrustning med SteamVR."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Installera"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Anslutningsproblem med skärmen"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Ditt grafikkort lyckas inte ansluta till din HMD-display. Prova att ta bort eventuella kabeladaptrar eller förlängningssladdar. Prova en annan port på din GPU om du har en tillgänglig. <b>Använd återställningslänken nedan för att starta om din HMD så att GPU:n försöker igen.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Återställ headset"

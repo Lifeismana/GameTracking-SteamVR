@@ -163,9 +163,9 @@ $3br
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_d9087ec1b066ca1e3572bac849fab0c2>@@
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
-.?AV<lambda_e42fa156de2f49294253c79a98c6cd37>@@
 .?AV<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@
 .?AV<lambda_e803815bbec8a90ad45197b0df03d3d8>@@
+.?AV<lambda_edae242ce60d9d34539dda1d28baf3bf>@@
 .?AV<lambda_ef8cd50b187808a213c6f694a155665f>@@
 .?AV<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@
 .?AV<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@
@@ -230,9 +230,9 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9087ec1b066ca1e3572bac849fab0c2>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_e42fa156de2f49294253c79a98c6cd37>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e803815bbec8a90ad45197b0df03d3d8>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_edae242ce60d9d34539dda1d28baf3bf>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ef8cd50b187808a213c6f694a155665f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@XW4ValueTransportID@@_N@std@@
@@ -873,6 +873,7 @@ Auto
 Autodetected %s
 Autodetected Headset, using Oculus Quest 3 profile
 Autodetected Headset, using Oculus Quest Pro profile
+Autodetected Headset, using Pico 4x profile
 Autodetected Headset: %d
 Autodetected Oculus Quest 2
 AvRevertMmThreadCharacteristics
@@ -2146,6 +2147,7 @@ Zjz\v
 [EOS] Encoder not setup, not sending EOS.
 [EOS] Error: Frame %d failed to reset completion event %p\n
 [EOS] Threads never reset. Waited 10s. Timed out.
+[GetHmdModel] Unknown HMD Model number: %s
 [KeyFramedDataResource] Failed to load GLTF file: %s
 [Manage] Deallocate: %p. Queue size: %d
 [Manage] Initialize new frame[%d]: %p
@@ -2173,6 +2175,8 @@ Zjz\v
 [Perf warning] %0.3fms - videonvenc::ReinitEncoder
 [Perf warning] %0.3fms - videonvenc::StartEncodeData
 [Perf warning] %0.3fms - videonvenc::SubmitFrame
+[SVLBaseControllerDriver] Received static props for %s hand
+[SVLBaseController] Not enabling hand tracking as it was disabled in settings.
 [SVLBaseController] Ready to activate controller %s
 [SVLControllerHand] Activating controller on TrackedDeviceIndex_t %d\n
 [SVLControllerHand] Activating hand tracking driver
@@ -2188,7 +2192,9 @@ Zjz\v
 [SVLController] Haptic Failed to send\n
 [SVLController] Overriding Quest specific properties for %s\n
 [SVLController] Reported HMD model is %d\n
+[SVLController] Setting up Pico 4 Controller: %s
 [SVLHMD] Re-requesting static props: projectionParams: %i chaperone: %i power: %i statichmd: %i defaults: %i framerateUs: %i
+[SVLHandTrackingDriver] ~SVLHandTrackingDriver()
 [SVLS] ResetVideoStream
 [SVLServer] Switched active controller driver to: %i
 [SVL] !!!! AcquireSync FAILED with E_FAIL
@@ -2592,6 +2598,7 @@ en_us
 enableAmfEncoder
 enableEncryption
 enableEventDebugging
+enableHandTracking
 enableQoS
 enableTimedRetry
 enableYAMLCompatibility
@@ -2600,6 +2607,7 @@ encSubmitFrameMS
 end of input
 english
 error
+error.png
 errorsAsFatal
 es_es
 es_mx
@@ -2707,6 +2715,7 @@ indentation
 index
 indices
 inet_ntop
+info.png
 innerConeAngle
 input
 instant_room_setup
@@ -2787,6 +2796,7 @@ lNrZ
 latam
 ldexp
 left
+left_
 light
 lights
 link_action
@@ -2880,6 +2890,7 @@ oculus_quest_plus_controller
 oculus_quest_pro
 oculus_quest_pro_controller
 oculus_touch
+off.png
 ole32.dll
 only 8-bit
 open
@@ -2917,6 +2928,8 @@ payload
 pbrMetallicRoughness
 perspective
 pico
+pico4_
+pico4u_
 pico_controller
 ping
 pl_pl
@@ -2945,6 +2958,8 @@ rZlN
 rand
 range
 read past buffer
+ready.png
+ready_low.png
 realloc
 received VTE_DASHBOARD_ACTION %d %d
 received VTE_DASHBOARD_ACTION close_dashboard
@@ -2966,6 +2981,7 @@ rexmitReq
 rexmitSent
 rift
 right
+right_
 ro_ro
 rolloffFactor
 romanian
@@ -2998,6 +3014,7 @@ scale
 scene
 scenes
 schinese
+searching.gif
 select returned %d
 send_to_remote
 send_to_remote message is larger than 65535 bytes: %u
@@ -3217,6 +3234,7 @@ znear
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
 {vrlink}
+{vrlink}/icons/
 {vrlink}/icons/left_handtracking_off.png
 {vrlink}/icons/left_handtracking_ready.png
 {vrlink}/icons/left_handtracking_ready_info.png

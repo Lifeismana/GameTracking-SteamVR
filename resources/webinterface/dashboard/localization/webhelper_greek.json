@@ -20,6 +20,8 @@
 	"Resetting_Countdown": "Επαναφορά...",
 	"Button_Recenter": "Επαναφορά στο κέντρο",
 	"Recentering_Countdown": "Γίνεται επαναφορά στο κέντρο…",
+	"MenuPlayspaceSetup": "Ρύθμιση περιοχής παιχνιδιού",
+	"MenuPlayspaceMenu": "Μενού περιοχής παιχνιδιού",
 	"PowerMenuTurnOffController": "Απενεργοποίηση χειριστηρίου",
 	"PowerMenuShutdown": "Τερματισμός",
 	"PowerMenuQuitSceneApp": "Έξοδος από %1$s",

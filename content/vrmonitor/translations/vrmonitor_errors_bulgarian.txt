@@ -956,6 +956,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Инсталиране"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Инсталиране на VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "VIVE Hub се изисква, за да бъде пуснато Вашето VIVE оборудване със SteamVR."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Инсталиране"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Проблем при свързване на екрана"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Графичната Ви карта не може да се свърже успешно с екрана на ВР шлема. Опитайте да премахнете всякакви адаптери за кабели или удължители, които използвате. Опитайте друг порт на видеокартата Ви, ако има достъпен такъв. <b>Използвайте връзката за нулиране по-долу, за да нулирате ВР шлема и видеокартата да опита отново</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Нулиране на ВР шлема"

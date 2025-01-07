@@ -20,6 +20,8 @@
 	"Resetting_Countdown": "Ripristino...",
 	"Button_Recenter": "Centra",
 	"Recentering_Countdown": "Centramento in corso...",
+	"MenuPlayspaceSetup": "Configurazione dell'area di gioco",
+	"MenuPlayspaceMenu": "Menu dell'area di gioco",
 	"PowerMenuTurnOffController": "Spegni il controller",
 	"PowerMenuShutdown": "Spegni",
 	"PowerMenuQuitSceneApp": "Esci da %1$s",

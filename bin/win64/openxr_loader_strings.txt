@@ -276,7 +276,7 @@ OpenXR-Loader
 OutputDebugStringA
 PERF
 QueryPerformanceCounter
-RSDS
+RSDSy
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -354,7 +354,6 @@ XR_RUNTIME_JSON
 \ApiLayers\Explicit
 \ApiLayers\Implicit
 \fplO
-\rxWg
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ

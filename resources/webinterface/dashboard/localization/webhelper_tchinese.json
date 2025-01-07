@@ -20,6 +20,8 @@
 	"Resetting_Countdown": "重設中…",
 	"Button_Recenter": "重設居中狀態",
 	"Recentering_Countdown": "正在重設居中狀態…",
+	"MenuPlayspaceSetup": "遊玩範圍設定",
+	"MenuPlayspaceMenu": "遊玩範圍選單",
 	"PowerMenuTurnOffController": "關閉控制器",
 	"PowerMenuShutdown": "關機",
 	"PowerMenuQuitSceneApp": "結束 %1$s",

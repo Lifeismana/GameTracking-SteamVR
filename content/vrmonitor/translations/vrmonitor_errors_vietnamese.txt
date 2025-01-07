@@ -20,7 +20,7 @@
 "Error_NoCompositorAvailable_ActionURL" "vrmonitor://restartsystem"
 
 "Error_NoChaperoneAvailable_Header" "Thiết lập phòng"
-"Error_NoChaperoneAvailable_Description" "Có vẻ như đã đến lúc thiết lập không gian chơi VR và đường bao chaperone."
+"Error_NoChaperoneAvailable_Description" "Có vẻ đã đến lúc thiết lập khu vực chơi VR và đường bao chaperone."
 "Error_NoChaperoneAvailable_Action" "Tiến hành thiết lập phòng"
 "Error_NoChaperoneAvailable_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
@@ -506,12 +506,12 @@
 "VRInitError_Steam_SteamInstallationNotFound_ActionURL" "vrmonitor://installsteam"
 
 "ChaperoneCalibrationState_Warning_Header" "Thiết lập phòng"
-"ChaperoneCalibrationState_Warning_Description" "Vui lòng tiến hành thiết lập phòng để xác định không gian chơi và đường bao chaperone."
+"ChaperoneCalibrationState_Warning_Description" "Vui lòng thiết lập phòng để xác định khu vực chơi và đường bao chaperone."
 "ChaperoneCalibrationState_Warning_Action" "Tiến hành thiết lập phòng"
 "ChaperoneCalibrationState_Warning_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
 "ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Header" "Thiết lập phòng"
-"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description" "Có vẻ như một trạm theo dõi đã bị di chuyển, vui lòng tiến hành thiết lập phòng để xác định lại không gian chơi và đường bao chaperone."
+"ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Description" "Có vẻ như một trạm theo dõi đã bị di chuyển, vui lòng thiết lập phòng để xác định lại khu vực chơi và đường bao chaperone."
 "ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_Action" "Tiến hành thiết lập phòng"
 "ChaperoneCalibrationState_Warning_BaseStationMayHaveMoved_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
@@ -526,7 +526,7 @@
 "ChaperoneCalibrationState_Warning_SeatedBoundsInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
 "ChaperoneCalibrationState_Error_Header" "Thiết lập phòng"
-"ChaperoneCalibrationState_Error_Description" "Vui lòng tiến hành thiết lập phòng để xác định không gian chơi và đường bao chaperone."
+"ChaperoneCalibrationState_Error_Description" "Vui lòng thiết lập phòng để xác định khu vực chơi và đường bao chaperone."
 "ChaperoneCalibrationState_Error_Action" "Tiến hành thiết lập phòng"
 "ChaperoneCalibrationState_Error_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
@@ -536,12 +536,12 @@
 "ChaperoneCalibrationState_Error_BaseStationUninitialized_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
 "ChaperoneCalibrationState_Error_BaseStationConflict_Header" "Thiết lập phòng"
-"ChaperoneCalibrationState_Error_BaseStationConflict_Description" "Vui lòng tiến hành thiết lập phòng để xác định lại không gian chơi và đường bao chaperone."
+"ChaperoneCalibrationState_Error_BaseStationConflict_Description" "Vui lòng thiết lập phòng để xác định lại khu vực chơi và đường bao chaperone."
 "ChaperoneCalibrationState_Error_BaseStationConflict_Action" "Tiến hành thiết lập phòng"
 "ChaperoneCalibrationState_Error_BaseStationConflict_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
 "ChaperoneCalibrationState_Error_PlayAreaInvalid_Header" "Thiết lập phòng"
-"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "Vui lòng tiến hành thiết lập phòng để xác định lại không gian chơi và đường bao chaperone."
+"ChaperoneCalibrationState_Error_PlayAreaInvalid_Description" "Vui lòng thiết lập phòng để xác định lại khu vực chơi và đường bao chaperone."
 "ChaperoneCalibrationState_Error_PlayAreaInvalid_Action" "Tiến hành thiết lập phòng"
 "ChaperoneCalibrationState_Error_PlayAreaInvalid_ActionURL" "vrmonitor://runapp/openvr.tool.steamvr_room_setup"
 
@@ -975,6 +975,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Description" "Cần phải cài đặt driver để khởi động mũ chụp Bigscreen Beyond trên SteamVR."
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Cài đặt"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
+
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Cài đặt VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "Cần cài đặt VIVE Hub để thiết bị VIVE hoạt động với SteamVR."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Cài đặt"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
 
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Vấn đề kết nối hiển thị"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Card đồ họa của bạn không thể kết nối thành công với màn hình hiển thị của mũ chụp. Hãy thử tháo dây đầu chuyển đổi hoặc dây nối dài nếu bạn đang sử dụng. Thử cổng kết nối khác trên GPU nếu có. <b>Sử dụng đường dẫn đặt lại (reset) bên dưới để đặt lại mũ chụp và GPU sẽ thử kết nối lại.</b>"

@@ -20,6 +20,8 @@
 	"Resetting_Countdown": "Сброс...",
 	"Button_Recenter": "Центрировать заново",
 	"Recentering_Countdown": "Центрирование...",
+	"MenuPlayspaceSetup": "Настройка игровой зоны",
+	"MenuPlayspaceMenu": "Меню игровой зоны",
 	"PowerMenuTurnOffController": "Выключить контроллер",
 	"PowerMenuShutdown": "Выключить",
 	"PowerMenuQuitSceneApp": "Выйти из %1$s",

@@ -956,6 +956,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Instalar"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Instalar VIVE Hub?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "O VIVE Hub é necessário para usar equipamentos da VIVE com o SteamVR."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Instalar"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Problema de conexão da tela"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "A placa de vídeo não conseguiu se conectar à tela do headset. Tente remover todos os adaptadores ou extensões de cabos que estiver usando. Experimente usar outra porta da placa de vídeo, se houver.<b>Usa o link abaixo para reiniciar o headset para que a placa de vídeo seja forçada a tentar novamente.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Reiniciar headset"

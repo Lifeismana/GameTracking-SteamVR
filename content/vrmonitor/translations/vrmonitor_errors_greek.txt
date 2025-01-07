@@ -974,6 +974,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Εγκατάσταση"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Να γίνει εγκατάσταση του VIVE Hub;"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "Το VIVE Hub απαιτείται για τη λειτουργία των συσκευών VIVE σας με το SteamVR."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Εγκατάσταση"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Πρόβλημα σύνδεσης προβολής"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Η κάρτα γραφικών σας δεν μπορεί να συνδεθεί επιτυχώς στην προβολή του headset σας. Δοκιμάστε να αφαιρέσετε οποιουσδήποτε προσαρμογείς ή επεκτάσεις καλωδίων χρησιμοποιείτε. Δοκιμάστε μια διαφορετική θύρα στην κάρτα γραφικών σας, αν υπάρχει μία διαθέσιμη. <b>Χρησιμοποιήστε τον παρακάτω σύνδεσμο επαναφοράς για να επαναφέρετε την προβολή του headset ώστε να προσπαθήσει ξανά η κάρτα γραφικών.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Επαναφορά headset"

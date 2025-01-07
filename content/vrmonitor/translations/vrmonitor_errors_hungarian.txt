@@ -976,6 +976,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "Telepítés"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "Telepíted a VIVE Hubot?"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "VIVE eszközöd SteamVR-rel működtetéséhez a VIVE Hub szükséges."
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "Telepítés"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "Kijelzőcsatlakozási probléma"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "Videokártyád nem tud csatlakozni HMD kijelződhöz. Próbáld meg eltávolítani a használt kábeladaptereket vagy -hosszabbítókat. Próbálj ki egy másik csatlakozót a videokártyádon, ha van. <b>Használd a lenti alaphelyzetbe állító hivatkozást a HMD alaphelyzetbe állításához, hogy a videokártya újrapróbálja.</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "Fejszett alaphelyzetbe"

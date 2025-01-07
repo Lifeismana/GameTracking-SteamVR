@@ -394,7 +394,7 @@
 "Settings_Advanced_RefreshRate_Header" "刷新率"
 "Settings_Advanced_RefreshRate_HzSuffix" "hz"
 "Settings_Advanced_RefreshRate_NotFound" "<b>注意：</b>您的头戴式显示器支持额外的刷新率，但显卡驱动程序未检测到。请确认您的头戴式显示器固件及显卡驱动为最新版本。"
-"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>注意：</b>您的头戴式显示器支持额外的刷新率，但 SteamVR 无法在头戴式显示器处于扩展模式时管理刷新率。<a href='vrmonitor://directmode/enable'><span style='color:white;'>启用直接模式</span></a>"
+"Settings_Advanced_RefreshRate_NotAvailableExtended" "<b>注意：</b>您的头戴式显示器支持额外的刷新率，但 SteamVR 无法在头戴式显示器处于扩展模式时管理刷新率。<a href='vrmonitor://directmode/enable'><span style='color:white;'>启用直连模式</span></a>"
 "Settings_Advanced_Restart" "<i>此待实施的更改将在您<a href='vrmonitor://restartsystem'><span style='color:white;'>重启 SteamVR</span></a> 后立即生效</i>"
 
 "Settings_Advanced_Supersampling_Header" "应用程序分辨率"

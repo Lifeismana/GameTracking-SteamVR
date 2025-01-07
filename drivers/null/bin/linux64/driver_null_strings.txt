@@ -212,6 +212,7 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
+Ij}V
 InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) (.cold)
 IpAndPortToString(unsigned int, unsigned short)

@@ -699,7 +699,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSk
 RaiseException
 ResetEvent
 RootNode
@@ -805,6 +805,7 @@ Zjz\v
 [OculusDirect] ovr_EndFrame:%lli
 [OculusDirect] ovr_WaitToBeginFrame:%lli
 [json.exception.
+\n02nL
 \nbad png sig
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t

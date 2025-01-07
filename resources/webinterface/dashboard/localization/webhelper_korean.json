@@ -20,6 +20,8 @@
 	"Resetting_Countdown": "초기화 중...",
 	"Button_Recenter": "위치 재조정",
 	"Recentering_Countdown": "위치 재조정 중...",
+	"MenuPlayspaceSetup": "플레이 구역 설정",
+	"MenuPlayspaceMenu": "플레이 구역 메뉴",
 	"PowerMenuTurnOffController": "컨트롤러 끄기",
 	"PowerMenuShutdown": "종료",
 	"PowerMenuQuitSceneApp": "%1$s 끝내기",

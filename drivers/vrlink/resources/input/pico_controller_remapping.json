@@ -10,11 +10,11 @@
       "autoremappings" : [
         {
           "from" : "/user/hand/right/input/grip",
-          "to" : "/user/hand/rgiht/input/grip"
+          "to" : "/user/hand/right/input/grip"
         },
         {
-          "from" : "/user/hand/rgiht/input/trigger",
-          "to" :  "/user/hand/rgiht/input/trigger"
+          "from" : "/user/hand/right/input/trigger",
+          "to" :  "/user/hand/right/input/trigger"
         },
         {
           "from" : "/user/hand/right/input/joystick",

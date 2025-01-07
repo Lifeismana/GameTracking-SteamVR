@@ -956,6 +956,11 @@
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_Action" "安装"
 "Warning_DismissableWarning_InstallBigscreenBeyondPrompt_ActionURL" "vrmonitor://installdriver/bigscreenbeyond"
 
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Header" "是否安装 VIVE Hub？"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Description" "需要 VIVE Hub 才能用 SteamVR 运行您的 VIVE 设备。"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_Action" "安装"
+"Warning_DismissableWarning_InstallHtcViveHubPrompt_ActionURL" "vrmonitor://installdriver/vivehub"
+
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Header" "显示屏连接故障"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_Description" "您的显卡无法成功连接至您的头戴式显示器显示屏。尝试移除您正在使用的所有线缆适配器或延长线。如 GPU 上另有端口可用，请尝试该端口。<b>请使用下方的重置链接重置头戴式显示器，以便 GPU 可以重试。</b>"
 "VRInitError_Compositor_FailedToCreateDirectModeDisplay_FirstAction" "重置头戴式显示器"
