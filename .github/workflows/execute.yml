@@ -2,6 +2,12 @@ name: Execute
 
 on:
     workflow_dispatch:
+        inputs:
+            branch:
+                description: 'Steam VR Branch'
+                required: false
+                default: 'beta'
+                type: string
     repository_dispatch:
 
 concurrency:
@@ -37,6 +43,7 @@ jobs:
                 GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
                 GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
                 GITHUB_APP_ID: ${{ secrets.GH_APP_ID }}
+                STEAM_BRANCH: ${{ github.event.inputs.branch }}
             - name: Dispatch svg script
               run: |
                 curl \
