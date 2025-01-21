@@ -6,6 +6,7 @@ cd "${0%/*}"
 echo "Processing SteamVR..."
 
 ProcessDepot ".dll"
+ProcessDepot ".exe"
 ProcessDepot ".so"
 ProcessVPK
 ProcessToolAssetInfo
