@@ -127,7 +127,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:40:54
+13:02:54
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -215,7 +215,6 @@ CreateDirectoryW
 CreateEventW
 CreateFileW
 CreateProcessA
-Dec  9 2024
 DeleteCriticalSection
 DeleteFileW
 Detail
@@ -306,7 +305,7 @@ IVRDriverLog_001
 IVRMailbox_002
 IVRServerDriverHost_004
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
@@ -328,6 +327,7 @@ Invalid Arguments
 Invalid Interface (106)
 IsDebuggerPresent
 IsProcessorFeaturePresent
+Jan  7 2025
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -780,9 +780,9 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
 camera
 collectComments
 collisionBounds

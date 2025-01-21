@@ -61,6 +61,7 @@
 ??6QDebug@@QAEAAV0@D@Z
 ??6QDebug@@QAEAAV0@PBD@Z
 ??6QTextStream@@QAEAAV0@D@Z
+?QwH
 ?actionEvent@QWidget@@MAEXPAVQActionEvent@@@Z
 ?addMSecs@QTime@@QBE?AV1@H@Z
 ?arguments@QCoreApplication@@SA?AVQStringList@@XZ
@@ -136,7 +137,7 @@ QLabel { background-color: rgb( 38, 38, 38);border-width: 1px;border-style: soli
 Qt5Core.dll
 Qt5Widgets.dll
 QueryPerformanceCounter
-RSDS<
+RSDS#\t
 SHELL32.dll
 SetUnhandledExceptionFilter
 Starting
@@ -203,7 +204,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 b\n?debug@QMessageLogger@@QBE?AVQDebug@@XZ
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\restarthelper\Retail\win32\2017\restarthelper.pdb
+c:\buildslave\steamvr_rel_win32\build\src\restarthelper\Retail\win32\2017\restarthelper.pdb
 exit
 failed.
 free

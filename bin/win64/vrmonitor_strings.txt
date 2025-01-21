@@ -745,7 +745,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-14:40:54
+13:02:54
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -3810,7 +3810,6 @@ D\v?endsWith@QByteArray@@QEBA_ND@Z
 DashboardVisibleTime
 DebugInputBindings
 DebuggerEnabled
-Dec  9 2024
 Default Playback Audio Devices: %s, %s (Comm)\n
 Default Record Audio Device: %s, %s (Comm)\n
 Delay done\n
@@ -4667,7 +4666,7 @@ IVRRenderModels_006
 IVRResources_001
 IVRServerDriverHost_004
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
@@ -4738,6 +4737,7 @@ JN?metaObject@QMovie@@UEBAPEBUQMetaObject@@XZ
 J\n?drawForeground@QGraphicsScene@@MEAAXPEAVQPainter@@AEBVQRectF@@@Z
 J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 J\t?brush@QPainter@@QEBAAEBVQBrush@@XZ
+Jan  7 2025
 JoysticksFound
 K32EnumProcessModules
 K32EnumProcesses
@@ -8118,13 +8118,13 @@ bugreport.zip
 bugsub
 bulgarian
 c ?updateEditorGeometry@QStyledItemDelegate@@UEBAXPEAVQWidget@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrmonitor\Retail\win64\2017\vrmonitor.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrmonitor\imagetool.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\Retail\win64\2017\vrmonitor.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\imagetool.cpp
 cR?reset@QTransform@@QEAAXXZ
 c\n?dropEvent@QListWidget@@UEAAXPEAVQDropEvent@@@Z
 c\v?finished@QDialog@@QEAAXH@Z

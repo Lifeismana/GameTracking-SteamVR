@@ -277,6 +277,7 @@ $d`D-laM
 .?AVCVRMsg_DriverDebugRequest@@
 .?AVCVRMsg_DriverDebugResponse@@
 .?AVCVRMsg_ExchangeCapabilities@@
+.?AVCVRMsg_ExtendActivityTimeout@@
 .?AVCVRMsg_GetApplicationInfo@@
 .?AVCVRMsg_GetApplicationLaunchArguments@@
 .?AVCVRMsg_GetApplicationLaunchArgumentsResponse@@
@@ -500,8 +501,8 @@ $d`D-laM
 0pp@5tqE?|sO541
 1!1'1-191C1E1K1]1a1g1m1s1
 11M|
+13:02:54
 14 (default)
-14:40:54
 1H@H
 1\v5#d
 1bS1
@@ -1203,6 +1204,7 @@ CVRMsg_DestroySwapTextureSet
 CVRMsg_DriverDebugRequest
 CVRMsg_DriverDebugResponse
 CVRMsg_ExchangeCapabilities
+CVRMsg_ExtendActivityTimeout
 CVRMsg_GetApplicationInfo
 CVRMsg_GetApplicationLaunchArguments
 CVRMsg_GetApplicationLaunchArgumentsResponse
@@ -1486,7 +1488,6 @@ DSTU curve 9
 DVCS
 Data Encipherment
 DcO/lcK+hSK
-Dec  9 2024
 Decipher Only
 DeleteCriticalSection
 DeleteFiber
@@ -1936,6 +1937,7 @@ IsValidSid
 J:xrG
 JOINT-ISO-ITU-T
 J\nHBF
+Jan  7 2025
 K-163
 K-233
 K-283
@@ -2512,7 +2514,8 @@ RSA_sign_ASN1_OCTET_STRING
 RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
-RSDST
+RSDSu
+R\vpx,
 RaiseException
 Rbg.E
 ReadConsoleA
@@ -3583,14 +3586,14 @@ c2tnb239v2
 c2tnb239v3
 c2tnb359v1
 c2tnb431r1
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\valvepesignature.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrservice\Retail\win64\2017\vrservice.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\valvepesignature.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win64\build\src\vrservice\Retail\win64\2017\vrservice.pdb
 cACertificate
 cNAMERecord
 cRLSign
@@ -5946,7 +5949,6 @@ rK99
 rUUT
 rZlN
 r\tU[B
-r\vpT
 r_32_12_16_init_key
 raise
 rand_drbg_enable_locking

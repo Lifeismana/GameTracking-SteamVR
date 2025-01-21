@@ -124,7 +124,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:55:10
+13:03:22
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -212,7 +212,6 @@ CreateDirectoryW
 CreateEventW
 CreateFileW
 CreateProcessA
-Dec  9 2024
 DeleteCriticalSection
 DeleteFileW
 Detail
@@ -303,7 +302,7 @@ IVRDriverLog_001
 IVRMailbox_002
 IVRServerDriverHost_004
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_022
@@ -325,6 +324,7 @@ Invalid Arguments
 Invalid Interface (106)
 IsDebuggerPresent
 IsProcessorFeaturePresent
+Jan  7 2025
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -353,7 +353,7 @@ Out of thread local storage!\n
 OutputDebugStringA
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSkd
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey
@@ -775,9 +775,9 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vrstartup\Retail\win32\2017\vrstartup.pdb
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win32\build\src\vrstartup\Retail\win32\2017\vrstartup.pdb
 camera
 collectComments
 collisionBounds
@@ -923,7 +923,6 @@ uk_ua
 ukrainian
 useSpecialFloats
 userinterface
-uvWg
 vector<T> too long
 version
 version.txt

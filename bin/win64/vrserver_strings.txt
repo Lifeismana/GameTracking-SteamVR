@@ -210,7 +210,11 @@ $\n k_EProtoServiceTypeSteamMessages
 %s.gz
 %s: %p port=%d
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
+%s: CreatePipe failed: %d
+%s: CreateProcess failed: %d
+%s: GetExitCodeProcess failed: %d
 %s: GetMonitorInfoA failed\n
+%s: ReadFile failed: %d
 %s: WSAStartup failed: %d
 %s: bind error: %d
 %s: buffer underrun!
@@ -252,6 +256,7 @@ $\n k_EProtoServiceTypeSteamMessages
 'uri' is missing from non binary glTF file buffer.\n
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( vecData.size() % arrayEntrySize ) == 0
+()$^.*+?[]|\-{},:=!\n\r
 (Enumerating)
 (Failed Enumeration)
 (General Failure)
@@ -363,6 +368,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_AbortApplicationTransition@@VCVRMsg_NoResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_AcknowledgeQuit_Exiting@@VCVRMsg_NoResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ApplicationManifestRequest@@VCVRMsg_ApplicationManifestResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
+.?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_CancelApplicationLaunch@@VCVRMsg_CancelApplicationLaunchResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ChangeAppType@@VCVRMsg_ChangeAppTypeResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ClientMailbox_GetNextMessage@@VCVRMsg_ClientMailbox_GetNextMessageResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ClientMailbox_RegisterMailbox@@VCVRMsg_ClientMailbox_RegisterMailboxResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
@@ -377,6 +383,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_DriverDebugRequest@@VCVRMsg_DriverDebugResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_DriverDebugRequest@@VCVRMsg_NoResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ExchangeCapabilities@@V3@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV3@@Z@CConnectionThread@@
+.?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ExtendActivityTimeout@@VCVRMsg_NoResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_GetApplicationInfo@@VCVRMsg_ApplicationInfo@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_GetApplicationLaunchArguments@@VCVRMsg_GetApplicationLaunchArgumentsResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_GetDisplayInfo@@VCVRMsg_GetDisplayInfoResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
@@ -438,6 +445,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRInputServer@@VCVRMsg_Input_SetActionManifestPath@@VCVRMsg_Input_SetActionManifestPathResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRInputServer@@VCVRMsg_Input_SetXrInputConfig@@VCVRMsg_Input_SetXrInputConfigResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ApplicationManifestRequest@@VCVRMsg_ApplicationManifestResponse@@@CConnectionThread@@
+.?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_CancelApplicationLaunch@@VCVRMsg_CancelApplicationLaunchResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ChangeAppType@@VCVRMsg_ChangeAppTypeResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ClientMailbox_GetNextMessage@@VCVRMsg_ClientMailbox_GetNextMessageResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ClientMailbox_RegisterMailbox@@VCVRMsg_ClientMailbox_RegisterMailboxResponse@@@CConnectionThread@@
@@ -501,6 +509,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AU?$FunctionNoResponseMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_DashboardStarted@@VCVRMsg_NoResponse@@@CConnectionThread@@
 .?AU?$FunctionNoResponseMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_DestroySwapTextureSet@@VCVRMsg_NoResponse@@@CConnectionThread@@
 .?AU?$FunctionNoResponseMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_DriverDebugRequest@@VCVRMsg_NoResponse@@@CConnectionThread@@
+.?AU?$FunctionNoResponseMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ExtendActivityTimeout@@VCVRMsg_NoResponse@@@CConnectionThread@@
 .?AU?$FunctionNoResponseMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_LogMessageToServer@@VCVRMsg_NoResponse@@@CConnectionThread@@
 .?AU?$FunctionNoResponseMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_OculusSDKStart@@VCVRMsg_NoResponse@@@CConnectionThread@@
 .?AU?$FunctionNoResponseMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_PowerOffTrackedDevice@@VCVRMsg_NoResponse@@@CConnectionThread@@
@@ -536,6 +545,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_11d26080b3820719662302cdf688baf3>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_3182ac4ae678b07d5b5e3bcc5eda0ca2>@@
+.?AV<lambda_36710ba34f60850543e95844aec2da55>@@
 .?AV<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@
 .?AV<lambda_497480e309245c2386a170b7cab9a01d>@@
 .?AV<lambda_546a552fb27e114be7daaf2115f17be0>@@
@@ -619,13 +629,14 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Binder@U_Unforced@std@@P8CVRInputServer@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
-.?AV?$_Func_base@UResult_t@?A0x531250b2@@AEBU12@@std@@
+.?AV?$_Func_base@UResult_t@?A0x94e1095d@@AEBU12@@std@@
 .?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
 .?AV?$_Func_base@VValue@Json@@PEBE@std@@
 .?AV?$_Func_base@X$$QEAUBindingFileOption_t@@_N@std@@
 .?AV?$_Func_base@X$$V@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_AudioSettings_ChangeSettings_Request@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_AudioSettings_RegisterForSettings_Request@@@std@@
+.?AV?$_Func_base@XAEBVCSteamVR_Settings_SetValue_Request@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_VRGamepadUI_Message@@@std@@
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
 .?AV?$_Func_base@XPEBDPEBDI_NPEAXPEA_N@std@@
@@ -655,10 +666,11 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@UResult_t@?A0x531250b2@@AEBU23@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_11d26080b3820719662302cdf688baf3>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3182ac4ae678b07d5b5e3bcc5eda0ca2>@@XAEBVCSteamVR_AudioSettings_ChangeSettings_Request@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_36710ba34f60850543e95844aec2da55>@@XAEBVCSteamVR_Settings_SetValue_Request@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_497480e309245c2386a170b7cab9a01d>@@XV?$shared_ptr@VCVRClientContext@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_546a552fb27e114be7daaf2115f17be0>@@XAEBVValue@Json@@@std@@
@@ -668,7 +680,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_69d7cfdb26c0e9f64e7ad3a53e04b1be>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7207bd48646ee98f0ccd3edd2a23475f>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7279be59127ec4c7605f4ea650037eca>@@XAEBVCSteamVR_AudioSettings_RegisterForSettings_Request@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_7ae16b2637cba7bd77168fd784026ad4>@@UResult_t@?A0x531250b2@@AEBU23@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7ae16b2637cba7bd77168fd784026ad4>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_819d6e727c32014dc6eae969efe567db>@@_NGGG@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_86ef558310816f2df58623fa9115c944>@@XV?$shared_ptr@VCVRClientContext@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_97a9cdda7ab58672ccc551d0827e40cc>@@VValue@Json@@PEBE@std@@
@@ -681,7 +693,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_ce3fbf3c947ad2e658381da75700eeba>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d4ea458dafa46560c4bdc7db4653ba2d>@@UResult_t@?A0x531250b2@@AEBU23@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d4ea458dafa46560c4bdc7db4653ba2d>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9c8d5500ac3dfddb02459f8a53a1949>@@X$$QEAUBindingFileOption_t@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dcd68f11e779e636b3af35198369d081>@@XAEBVValue@Json@@@std@@
@@ -691,11 +703,14 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRInputServer@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8CPoseExtrapolator@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8CPoseExtrapolator@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8CRemotePerfStats@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8CRemotePerfStats@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_4847441ab6a0e6d5cb10f69b19ba34ab>@@@std@@U?$default_delete@V?$tuple@V<lambda_4847441ab6a0e6d5cb10f69b19ba34ab>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_c11b31c47c43c3dd7dbf5bef5b1ecc9c>@@@std@@U?$default_delete@V?$tuple@V<lambda_c11b31c47c43c3dd7dbf5bef5b1ecc9c>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_fa3245fa43628abed5f7a06d18aa6cb6>@@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@std@@U?$default_delete@V?$tuple@V<lambda_fa3245fa43628abed5f7a06d18aa6cb6>@@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@std@@@2@@std@@@std@@
+.?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@
+.?AV?$_Node_str@D@std@@
 .?AV?$_Ref_count_obj@UMailbox_t@CVRMailboxServer@@@std@@
 .?AV?$_Ref_count_obj@UModelInfo_t@CRenderModelManager@@@std@@
 .?AV?$_Ref_count_obj@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@
@@ -730,6 +745,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$codecvt_utf16@_W$0BAPPPP@$03@std@@
 .?AV?$codecvt_utf8@_U$0BAPPPP@$0A@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$collate@D@std@@
 .?AV?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVAggregateErrorCollector@?A0x247e964a@protobuf@google@@
@@ -782,6 +798,8 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCSteamVR_AudioSettings_SettingsChanged_Notification@@
 .?AVCSteamVR_AudioSettings_Settings_Channel@@
 .?AVCSteamVR_Header@@
+.?AVCSteamVR_Settings_SetValue_Request@@
+.?AVCSteamVR_Settings_SetValue_Response@@
 .?AVCSteamVR_VRGamepadUI_Message@@
 .?AVCTaskCreateBindingItem@@
 .?AVCTaskDeleteBindingConfig@@
@@ -918,6 +936,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCVRMsg_DriverDebugRequest@@
 .?AVCVRMsg_DriverDebugResponse@@
 .?AVCVRMsg_ExchangeCapabilities@@
+.?AVCVRMsg_ExtendActivityTimeout@@
 .?AVCVRMsg_GetApplicationInfo@@
 .?AVCVRMsg_GetApplicationLaunchArguments@@
 .?AVCVRMsg_GetApplicationLaunchArgumentsResponse@@
@@ -1158,8 +1177,8 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVIVRRenderModelsInternal@vr@@
 .?AVIVRResources@vr@@
 .?AVIVRResourcesInternal@vr@@
-.?AVIVRServer@@
 .?AVIVRServerDriverHost@vr@@
+.?AVIVRServerInternal@@
 .?AVIVRSettings@vr@@
 .?AVIVRSettingsInternal@vr@@
 .?AVIVRVirtualDisplay001@@
@@ -1201,8 +1220,18 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVZeroCopyOutputStream@io@protobuf@google@@
 .?AV_Facet_base@std@@
 .?AV_Generic_error_category@std@@
+.?AV_Node_assert@std@@
+.?AV_Node_back@std@@
+.?AV_Node_base@std@@
+.?AV_Node_capture@std@@
+.?AV_Node_end_group@std@@
+.?AV_Node_end_rep@std@@
+.?AV_Node_endif@std@@
+.?AV_Node_if@std@@
+.?AV_Node_rep@std@@
 .?AV_Pad@std@@
 .?AV_Ref_count_base@std@@
+.?AV_Root_node@std@@
 .?AV_System_error@std@@
 .?AVbad_alloc@std@@
 .?AVbad_array_new_length@std@@
@@ -1579,25 +1608,26 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899`;8@
+00F(
 0123456789ABCDEF
 0123456789abcdef
-016@
-0E5@
-0M5@
-0O5@
-0P6@
-0f5@
-0k5@
-0l6@
-0v2@
-0w2@
+017@
+024@
+050@
+067@
+070@
+0J8@
+0M8@
+0a8@
+0rF(
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-14:40:54
+13:02:54
 1A26b
 1\f514
 1e+9999
@@ -1610,25 +1640,26 @@ $\n k_EProtoServiceTypeSteamMessages
 4\f54d
 52F*
 5I)7
+5JCy7
+5JCy7JCy7JCy7JCy7
 5\n\vnested_type
 6\n\fmessage_type
 7\n\tenum_type
 7^d[L
-7aX(}B
 7~8A
-865@
-875@
-885@
-8F1@
-8I6@
-8Q6@
+827@
+840@
+877@
+8K8@
+8L8@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-8g5@
-8j6@
-8l5@
+8giP9giP9giP9giP9
+8x7@
+8y7@
+8z7@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1658,7 +1689,9 @@ $\n k_EProtoServiceTypeSteamMessages
 ??0?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAA@XZ
 ??0?$codecvt@_UDU_Mbstatet@@@std@@QEAA@_K@Z
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??0_Locinfo@std@@QEAA@PEBD@Z
 ??0_Lockit@std@@QEAA@H@Z
+??0facet@locale@std@@IEAA@_K@Z
 ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
 ??1?$basic_ios@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
 ??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
@@ -1669,6 +1702,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ??1?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
 ??1?$codecvt@_WDU_Mbstatet@@@std@@MEAA@XZ
 ??1_Facet_base@std@@UEAA@XZ
+??1_Locinfo@std@@QEAA@XZ
 ??1_Lockit@std@@QEAA@XZ
 ??1codecvt_base@std@@UEAA@XZ
 ??1facet@locale@std@@MEAA@XZ
@@ -1700,6 +1734,8 @@ $\n k_EProtoServiceTypeSteamMessages
 ?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z
 ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
 ?_Getcat@?$codecvt@_WDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+?_Getcoll@_Locinfo@std@@QEBA?AU_Collvec@@XZ
 ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
 ?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
 ?_Gninc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAPEA_WXZ
@@ -1726,6 +1762,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ?_Xinvalid_argument@std@@YAXPEBD@Z
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
+?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
 ?clear@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAAXH_N@Z
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
@@ -1735,6 +1772,8 @@ $\n k_EProtoServiceTypeSteamMessages
 ?getloc@ios_base@std@@QEBA?AVlocale@2@XZ
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?id@?$collate@D@std@@2V0locale@2@A
+?id@?$ctype@D@std@@2V0locale@2@A
 ?imbue@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAA?AVlocale@2@AEBV32@@Z
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
@@ -1766,6 +1805,8 @@ $\n k_EProtoServiceTypeSteamMessages
 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
+?tolower@?$ctype@D@std@@QEBADD@Z
+?tolower@?$ctype@D@std@@QEBAPEBDPEADPEBD@Z
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exception@std@@YA_NXZ
 ?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
@@ -1951,7 +1992,6 @@ CHECK failed: result != NULL:
 CHECK failed: trees: 
 CHECK failed: uninterpreted_options_field != NULL: 
 CHECK failed: value.size() <= kint32max: 
-CIVRServerDriverHost_
 CKeyframedDataResource
 CMMNotificationClient::Register
 CORD
@@ -1966,6 +2006,10 @@ CPPTYPE_STRING
 CPPTYPE_UINT32
 CPPTYPE_UINT64
 CPackedBoneTransforms
+CPoseExtrapolateRNN: Loading weights from: %s\n
+CPoseExtrapolator dev:%u - Reset
+CPoseExtrapolator device %u: Reset (dropped data, dt %f)
+CPoseExtrapolator device %u: Skipping update (input not all finite)
 CRemotePerfStats::CRemotePerfStats
 CRemotePerfStats::Decompress
 CRenderModelManager::GetRenderModelAbsolutePath
@@ -2000,6 +2044,8 @@ CSteamVR_AudioSettings_Settings
 CSteamVR_AudioSettings_Settings.Channel
 CSteamVR_AudioSettings_SettingsChanged_Notification
 CSteamVR_Header
+CSteamVR_Settings_SetValue_Request
+CSteamVR_Settings_SetValue_Response
 CSteamVR_VRGamepadUI_Message
 CSteamWorker::ReleaseCurrentThreadMemory
 CType
@@ -2101,6 +2147,7 @@ CVRMsg_DestroySwapTextureSet
 CVRMsg_DriverDebugRequest
 CVRMsg_DriverDebugResponse
 CVRMsg_ExchangeCapabilities
+CVRMsg_ExtendActivityTimeout
 CVRMsg_GetApplicationInfo
 CVRMsg_GetApplicationLaunchArguments
 CVRMsg_GetApplicationLaunchArgumentsResponse
@@ -2354,6 +2401,7 @@ CreateMediaType(pwfxIn) failed hr = 0x%08x\n
 CreateMediaType(pwfxOut) failed hr = 0x%08x\n
 CreateMutexA
 CreateNamedPipeA
+CreatePipe
 CreatePipeInternal failed on pipe %s because %s\n
 CreateProcessA
 CreateResampler failed: hr = 0x%08x\n
@@ -2386,7 +2434,6 @@ DXT3
 DXT4
 DXT5
 DebuggerEnabled
-Dec  9 2024
 Default
 Default audio endpoint restored\n
 Default endpoint is correct. Skipping restore.\n
@@ -2477,7 +2524,10 @@ Error! Failed to load %s\n
 Error! Unable to load firmware manifest %s after allocating memory\n
 Error! Unable to load image %s: %s\n
 Error: AppInfoManager.StartSceneApplicationTransitionFromProcess: No app info for starting key=%s, passed key=%s, unStartingProcessId=%d\n
+Error: Failed to load weights: %s\n
+Error: Failed to open weights file: %s
 Error: Failed to restore audio device\n
+Error: Failure reading weights from file: %s
 Error: Invalid audio devices helper. Can't cleanup\n
 Error: LiquidVR ALVRDisplayManager::RegisterHiddenDisplay failed (%d)\n
 Error: failed to remove audio mirror device\n
@@ -2583,6 +2633,7 @@ Failed to read file:
 Failed to read font file %s. File is too small or too large. Size = %d.\n
 Failed to read font file %s. ReadBinaryFile failed.\n
 Failed to read loc files specified in 'localization_files'
+Failed to read matrix
 Failed to ref VRCompositor resource 0x%llx\n
 Failed to relisten to already-disconnected connection\n
 Failed to relisten to pipe after connection\n
@@ -2682,6 +2733,7 @@ Gateway Timeout
 Generic tracker %u didn't have %s set\n
 GetACP
 GetBool
+GetCommandOutput
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
@@ -2754,11 +2806,11 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
-H35@
-H96@
+H40@
+H47@
+H97@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
-HL6@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2779,6 +2831,9 @@ HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
+HO8@
+HP8@
+HQ8@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2793,19 +2848,19 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
+HZ8@
 Hang the server for the specified number of seconds (default 3600)
 HasField
 Hex and octal numbers must be integers.
-Hi5@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
-Hn5@
 HostController
 How did we get here with a non-position slot?
-Hw6@
+Hp0@
+Hv7@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -2933,10 +2988,11 @@ IVRProperties_001
 IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
+IVRServerDriverHost_
 IVRServerDriverHost_004
 IVRServerDriverHost_005
 IVRServerDriverHost_006
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_
 IVRSettings_001
@@ -3047,6 +3103,7 @@ Invalid tracker bind setting %s for controller serial %s
 Invalid tracker settings for device %s. Discarding the settings\n
 Invalid type in  '
 Invalid value for boolean field "
+Invalid value type
 Invalid weak dependency index.
 Invalid wildcard root %s. Must match an alias\n
 Invalid wire type for CPPTYPE_INT32: 
@@ -3081,11 +3138,13 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
+Jan  7 2025
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
 Kernel32.dll
 Kill process %s because it didn't quit in time\n
+Kill process?
 L=SteamFriends017
 LABEL_OPTIONAL
 LABEL_REPEATED
@@ -3122,6 +3181,7 @@ Listener thread can't start because pipe didn't open (probably in use)\n
 Listener thread ending\n
 Listener thread joined\n
 Live chaperone preview process %u isn't running anymore, reloading saved chaperone\n
+Load weights: Success
 LoadDriver called when there is no user config directory set\n
 LoadLibraryA
 LoadLibraryExA
@@ -3136,6 +3196,7 @@ Loaded image %s (%dx%d) dur=%fms\n
 Loaded render model: %s
 Loaded resource-only driver %s from %s\n
 Loaded server driver %s (%s) from %s\n
+Loaded weights matrix contains NaN!
 Loading of firmware manifest file (%s) not successful: (%d)\n
 Loading render model texture data from: %s
 LocalAlloc
@@ -3152,6 +3213,7 @@ Lost master process %u due to pipe corruption. Quitting all in %g seconds if it 
 Lost master process %u due to restart hint. Quitting all in %g seconds if it doesn't reconnect. \n
 Lost master process %u for an unknown reason. Quitting all immediately. \n
 Low Power Watchdog Not Supported (129)
+Lp0@
 LwH'
 M8MF
 MAT2
@@ -3192,6 +3254,7 @@ Main Thread
 MainThrd
 MapViewOfFile
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
+Mbp?
 Message class "
 Message extensions cannot have required fields.
 Message missing required fields: 
@@ -3331,16 +3394,21 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
+P0F(
+P50@
+P57@
+P58@
+P68@
+P78@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
-PF5@
+PGB@
 PICT
 PID_
+PK0@
 PLACEHOLDER_VALUE
-PN6@
 PNG\r\n
 POST
-PQ5@
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
@@ -3368,6 +3436,8 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
+PT0@
+PY8@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3378,14 +3448,14 @@ Path not found
 Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
+Pc8@
 Pe6^
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Pj5@
-Po5@
+Pg5@
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
 Positional emitter description not found.
@@ -3622,11 +3692,11 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
-Pt2@
-Py6@
+Pu7@
 QkkXa
 Qkkbal
 Query failed
+QueryFullProcessImageNameA
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfig failed: %s\n
@@ -3646,6 +3716,8 @@ R1h58
 RGBG
 RPCRT4.dll
 RSDS
+R\np0F(
+R\vp0F(
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3834,6 +3906,7 @@ SetEvent
 SetFileAttributesW
 SetFilePointerEx
 SetFloat
+SetHandleInformation
 SetInt32
 SetInt64
 SetLastError
@@ -3924,6 +3997,7 @@ SourceCodeInfo
 SparseAccessor
 Spot light description not found.
 Standing transform was not updated when writing the universe to paths
+Start advanced prediction for tracked device idx: %u\n
 StartApplicationTransition
 StartSceneApplicationTransitionFromProcess BEGIN
 StartSceneApplicationTransitionFromProcess END
@@ -4125,6 +4199,8 @@ Unable to get default from IMMDevice, hr = 0x%08x\n
 Unable to get property container handle for tracker device %s\n
 Unable to get to IMMDevice %s, hr = 0x%08x\n
 Unable to initialize spatial anchor shared state\n
+Unable to launch SteamVR. Port %d in use by %s.
+Unable to launch SteamVR. Port %d in use.
 Unable to load action manifest
 Unable to load avrt.dll\n
 Unable to load bind mfplat.dll and/or avrt.dll\n
@@ -4330,7 +4406,6 @@ VREvent_ConsoleOpened
 VREvent_DashboardActivated
 VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
-VREvent_DashboardRequested
 VREvent_DashboardSectionSettingChanged
 VREvent_DesktopViewReady
 VREvent_DesktopViewUpdating
@@ -4760,6 +4835,7 @@ VRMsg_DestroySwapTextureSet
 VRMsg_DriverDebugRequest
 VRMsg_DriverDebugRequestAsync
 VRMsg_DriverDebugResponse
+VRMsg_ExtendActivityTimeout
 VRMsg_GetApplicationInfo
 VRMsg_GetApplicationInfoResponse
 VRMsg_GetDisplayInfo
@@ -4986,6 +5062,7 @@ Warning: Unused import: "
 Warning: Watchdog %s not properly cleaned up%s%s\n
 Warning: vrclient connection from %s with client DLL "%s" (v%u.%u.%u)\n
 Watchdog disabled in settings (132)
+We don't yet have an input context. This should be okay, but noted.\n
 We got an unexpected error while waiting for a server event
 Web Thread
 Web language is %s\n
@@ -5031,13 +5108,22 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-XO5@
+X08@
+X18@
+X24@
+X28@
+X38@
+X40@
+X48@
+X60@
+X67@
+X70@
+XV7@
+XX8@
 XXXX PNG chunk not known
-Xk5@
-Xp5@
+Xh0@
 XsBI
-Xu2@
-Xu6@
+Xt7@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -5215,7 +5301,7 @@ Zjz\v
 [OpenXR] SetXrInputConfig failed. Unable to parse binding for controller type %s: %s\n
 [OpenXR] SetXrInputConfig failed. Unable to write OpenXR binding to %s\n
 [OpenXR] SetXrInputConfig: Created default binding for app '%s'. Controller type '%s': %s\n
-[OpenXR] SetXrInputConfig: Loading bindings into context.\n
+[OpenXR] SetXrInputConfig: Loading %d bindings into context.\n
 [Port%d]
 [Port%d]: %s 
 [Remapping] AutoRemapBinding failed. No remapping available for controller type: %s.\n
@@ -5269,6 +5355,7 @@ Zjz\v
 [Settings] Unable to read path registry...\n
 [Settings] Using default values. No Json Settings available at %s\n
 [Steam] Connected to Steam, calling StartVRDashboard\n
+[Steam] Invalid setting type specified for %s.%s
 [Steam] Steam API %s\n
 [Steam] Steam INIT.\n
 [Steam] Steam SHUTDOWN.\n
@@ -5376,6 +5463,9 @@ Zjz\v
 [vrserver] watchdogs enabled
 \%03o
 \U%08x
+\b\d+\b\s*$
+\fUk#pb
+\fp0F(
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -5429,6 +5519,8 @@ Zjz\v
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \rmj>zjZ
+\rp\f`\v0\nP,((
+\rp\f`\vP\n00F(
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
@@ -5436,6 +5528,7 @@ Zjz\v
 \u%04x
 \u%04x\u%04x
 \ufffd
+\vp0F(
 \x%02x
 ] buffer "
 ] bufferView "
@@ -5465,7 +5558,9 @@ _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock
 _RDATA
+_Strcoll
 _String
+_Strxfrm
 _TEST
 _Thrd_detach
 _Thrd_id
@@ -5504,6 +5599,7 @@ _dsign
 _dtest
 _errno
 _exit
+_fdtest
 _fseeki64
 _get_narrow_winmain_command_line
 _get_stream_buffer_pointers
@@ -5573,6 +5669,7 @@ abort
 accept_conn
 accessor[
 accessors
+acos
 acosf
 actionManifestVersion
 action_bindings_reloaded
@@ -5592,6 +5689,7 @@ active_origin
 actual_display_frequency
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
+advpredictweights
 aggregate_value
 alias_info
 alias_info field exists, but it is not an object
@@ -5603,6 +5701,8 @@ allowSpecialFloats
 allowSupersampleFiltering
 allowVRGamepadUIViaGamescope
 allow_master
+alnum
+alpha
 alphaCutoff
 alphaMode
 alse
@@ -5736,6 +5836,7 @@ binding_subscription_changed
 binding_url
 bindings
 bindingui/Overlay
+blank
 blocked_by_safe_mode
 bone_count
 bool
@@ -5760,43 +5861,43 @@ byteOffset
 byteStride
 bytes
 bytes=
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\steammessages_unified_base.steamclient.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vrshared_audiosettings.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vrshared_base.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vrshared_vrmessages.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\actionbindingconfig.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\blockqueue.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\drivermanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\propertymanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\remoteperfstats.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\rendermodelmanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailboxserver.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrserviceclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystem.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcpipe.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\mongoose\mongoose.c
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\Retail\win64\2017\vrserver.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\appinfomanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\vrinputserver.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\vrserver.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_input.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_mailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_server_thread.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_steam.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_steam.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_steam_audiosettings.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\steammessages_unified_base.steamclient.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vrshared_audiosettings.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vrshared_base.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vrshared_vrmessages.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\actionbindingconfig.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\blockqueue.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\drivermanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\remoteperfstats.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\rendermodelmanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailboxserver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrserviceclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystem.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcpipe.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadtools.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\mongoose\mongoose.c
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\Retail\win64\2017\vrserver.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\appinfomanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrinputserver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_input.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_mailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_server_thread.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.h
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam_audiosettings.cpp
 cache_path
 calloc
 camera
@@ -5832,6 +5933,8 @@ client
 client_connection
 client_container_handle
 close
+cmd.exe /C netstat -ano | findstr :%d | findstr LISTENING
+cntrl
 collectComments
 collisionBounds
 collision_bounds
@@ -5959,6 +6062,7 @@ device_path_handle
 device_path_string
 device_type
 devices
+digit
 directMode
 directModeGraphicsDriverVersion
 directModeGraphicsVendor
@@ -6049,6 +6153,7 @@ exit
 expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
 experimental_map_key
+expf
 exponent
 exponent_%s
 export_
@@ -6139,7 +6244,6 @@ fromType
 from_controller_type
 fseek
 fsetpos
-ftWg
 ftell
 fu`z
 fwrite
@@ -6173,19 +6277,20 @@ gpu_profiler_capture
 gqr<
 grab
 grab_value_and_force
+graph
 greek
 grip
 grip_limit_transforms
 group
 guid
 gzip
-hA6@
-hK6@
-hL5@
+h40@
+h87@
+h88@
+hA8@
 hPU3
-hS6@
-hT6@
-hU6@
+hV8@
+hW8@
 half_thresholds
 hand_priority
 hand_right_poses.glb
@@ -6202,19 +6307,22 @@ header crc mismatch
 height
 held
 hex_property
+hf7@
+hf8@
+hg5@
+hg8@
+hh0@
+hh8@
+hi8@
 hidden
 hide_callout
 hlvr/mailbox
 hlvr/webui
-hm5@
 hmd_presence
 hmd_settings_key
-hn6@
 holographic
 holographic_controller
 hpmotioncontroller
-hr5@
-ht2@
 html
 http:
 http://
@@ -6596,6 +6704,7 @@ loglevel
 logmessage
 long
 loop
+lower
 mSx@
 m_bIsInitialized
 m_compositorSharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed\n
@@ -6798,9 +6907,12 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p25@
+p0F(
+p50@
+p60@
+p70@
+p97@
 pBegin == pEnd
-pC6@
 pEnd > pBegin
 pMGConnect != nullptr
 pNewResource
@@ -6809,6 +6921,8 @@ pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
+pR8@
+pS8@
 pSharedState != nullptr
 pUrl != nullptr
 pWebSocketMessage
@@ -6829,15 +6943,21 @@ path_handles
 paths
 payload
 pbrMetallicRoughness
-pd6@
+pc7@
+pe8@
 pending_file_saved
 perfcheck
 personal
 perspective
+ph7@
+pi7@
 pico_controller
 pinch
 pinchgrab
 pivot
+pj7@
+pk7@
+pl7@
 pl_pl
 playAreaColor
 play_area
@@ -6848,7 +6968,8 @@ playbackMirrorDevice
 playbackMirrorDeviceName
 playback_devices
 playing
-pn5@
+pm7@
+pn7@
 polish
 portrait
 portuguese
@@ -6872,6 +6993,7 @@ positional
 positive_int_value
 power
 powf
+prF(
 precision
 prediction
 prediction parameter out of range
@@ -6888,6 +7010,7 @@ preview
 previous_binding_url
 primitive indices accessor out of bounds
 primitives
+print
 priority
 prism.dll
 progress
@@ -6896,13 +7019,13 @@ property_containers
 property_contents
 property_number
 proximity
-ps5@
 pt_br
 pt_pt
 public
 public_dependency
 publishedfileid
 pull
+punct
 putchar
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
@@ -7102,6 +7225,7 @@ source_code_info
 source_type
 sources
 south
+space
 span
 spanish
 sparse
@@ -7136,7 +7260,6 @@ steamvr_english.txt
 steamvr_input
 steamvr_restart
 steamvr_vrstartup
-stickyDashboard
 sticky_activate_threshold
 sticky_click
 sticky_deactivate_threshold
@@ -7315,6 +7438,7 @@ unsupported format
 update_component_states
 update_time
 updated_apps
+upper
 uri_to_path2
 usage
 usb_devices
@@ -7453,13 +7577,15 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x15@
+x24@
+x30@
+x40@
+xT8@
+xU8@
 x_path
-xe6@
-xl2@
+xdigit
+xg7@
 xmag
-xo5@
-xt5@
 y9*O
 y_path
 yfov
@@ -7487,3 +7613,4 @@ zt?9
 {setting}
 }/backgrounds
 }/localization/localization.json
+~3a*~3a*~3a*~3a*A

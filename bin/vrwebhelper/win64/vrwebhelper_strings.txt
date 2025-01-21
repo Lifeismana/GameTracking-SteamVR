@@ -43,11 +43,9 @@
 .?AV<lambda_0226ced0a467b3a2f51427ae22fd2c88>@@
 .?AV<lambda_027df6bada1cdfef4655b3ef8579ce72>@@
 .?AV<lambda_0284abe8d656743b1f2568d054bbc02c>@@
-.?AV<lambda_054e14e9fbb5bbc7b89bcb2cd7a67b38>@@
 .?AV<lambda_061f784e71ebb296771b9640c2ec9a49>@@
 .?AV<lambda_063a4532d1ce476d773b81bdc2f50ce6>@@
 .?AV<lambda_07311e8ccb6383d3991043a63f6da946>@@
-.?AV<lambda_07f73a4e17bdc622ea4ebc7ddcd0c0e8>@@
 .?AV<lambda_09692edda68723b22ccd215ab5f83e15>@@
 .?AV<lambda_09d6a735306b7f19c17795eebdabf0b0>@@
 .?AV<lambda_09e1eef475eb04f2d2c1e432de9374eb>@@
@@ -124,11 +122,10 @@
 .?AV<lambda_8a7ad99aca39292efb04dc85651d0932>@@
 .?AV<lambda_8b63f162cd21649f700b7c5302e13018>@@
 .?AV<lambda_8c1b8585c9b389a176b3471d2b6a1697>@@
+.?AV<lambda_8c6620b99dc26369200d5df66e8a0d03>@@
 .?AV<lambda_8ef46939c8a9401e189d237616716b28>@@
 .?AV<lambda_90411ff0f008f9a087c9b16591659692>@@
-.?AV<lambda_906735abd8b80575b2fad261b9bcda1e>@@
 .?AV<lambda_9079bb928fce830dc9375c604b5b69a7>@@
-.?AV<lambda_9445cc74768df132a3d8e5bccb2532c0>@@
 .?AV<lambda_945ed55ea9201846bd121833b35f54c4>@@
 .?AV<lambda_981c3e9f9c1162a2dcc40ae71de46103>@@
 .?AV<lambda_98e6cd95438b1f6d7bc676b4a4ff6b7f>@@
@@ -212,11 +209,9 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_0226ced0a467b3a2f51427ae22fd2c88>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_027df6bada1cdfef4655b3ef8579ce72>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0284abe8d656743b1f2568d054bbc02c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_054e14e9fbb5bbc7b89bcb2cd7a67b38>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_061f784e71ebb296771b9640c2ec9a49>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_063a4532d1ce476d773b81bdc2f50ce6>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_07311e8ccb6383d3991043a63f6da946>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_07f73a4e17bdc622ea4ebc7ddcd0c0e8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_09692edda68723b22ccd215ab5f83e15>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_09d6a735306b7f19c17795eebdabf0b0>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_09e1eef475eb04f2d2c1e432de9374eb>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -293,11 +288,10 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_8a7ad99aca39292efb04dc85651d0932>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8b63f162cd21649f700b7c5302e13018>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8c1b8585c9b389a176b3471d2b6a1697>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8c6620b99dc26369200d5df66e8a0d03>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8ef46939c8a9401e189d237616716b28>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_90411ff0f008f9a087c9b16591659692>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_906735abd8b80575b2fad261b9bcda1e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9079bb928fce830dc9375c604b5b69a7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_9445cc74768df132a3d8e5bccb2532c0>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_945ed55ea9201846bd121833b35f54c4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_981c3e9f9c1162a2dcc40ae71de46103>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_98e6cd95438b1f6d7bc676b4a4ff6b7f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -525,6 +519,7 @@
 .xdata$x
 //==============================================================================================\n
 /best_alias_path
+/client_streaming_mode_on_demand
 /client_will_handle_dashboard_state
 /dashboard_head_pose_from_standing
 /device_path
@@ -551,10 +546,11 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-0pP\f
+0hE\f
 127.0.0.1
-14:40:54
+13:02:54
 1e+9999
+4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
 7^d[L
 864498db9f12dd977766dc74abc56f198b39e2ce
@@ -646,7 +642,6 @@
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A"QT
-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ACTIVE
 ADVAPI32.dll
 ASSERT: "%s" at %s:%d.\n
@@ -670,8 +665,6 @@ AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
-BIsLinkClient
-BIsLinkServer
 BSupportsMultitaskingView
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
@@ -773,7 +766,6 @@ DXGI1: Failed to find matching adapter!\n\n
 Debug
 DebuggerEnabled
 DebuggerPort
-Dec  9 2024
 Default
 DeleteCriticalSection
 DeleteFileW
@@ -999,7 +991,7 @@ IVRProperties_001
 IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
-IVRServer_XXX
+IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
@@ -1028,6 +1020,7 @@ IsIconic
 IsProcessorFeaturePresent
 IsValidSid
 IsWindowShown
+Jan  7 2025
 KERNEL32.dll
 Language
 Launching 
@@ -1104,9 +1097,8 @@ PPPP
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
 Parsing of JSON string "%s" failed: %s\n
-PdE\f
 PeekNamedPipe
-PpP\f
+PhE\f
 Pro Audio
 PromptUserForDirectMode
 PropVariantClear
@@ -1115,9 +1107,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QuitOpenVR
 QuitSceneApp
-RSDS4^
-R\v0pP\f
-R\vppP\f
+RSDSJ
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1138,6 +1128,7 @@ RegOpenKeyExW
 RegQueryInfoKeyA
 RegQueryValueExA
 RegisterForAllOverlayInfo
+RegisterForAudioDeviceChangedEvents
 RegisterForBatteryStateChangedEvents
 RegisterForBindingSubscriptionChangedEvents
 RegisterForChaperoneChangedEvents
@@ -1148,14 +1139,18 @@ RegisterForDeviceRoleChangedEvents
 RegisterForDisplayModeNotSupportedEvents
 RegisterForEyeTrackingServerStatus
 RegisterForFirmwareStateChangedEvents
+RegisterForGamepadFocusChangedEvents
 RegisterForIPDEvents
 RegisterForKeyboardVisibilityChangedEvents
-RegisterForLinkStreamActiveEvents
+RegisterForLinkStreamStatusEvents
 RegisterForMutualSteamCapabilitiesChanged
 RegisterForOverlayStateEvents
 RegisterForOverlayThumbnailsChanged
 RegisterForProgressIndicatorEvents
+RegisterForRoomViewChangedEvents
 RegisterForSceneApplicationStateChangedEvents
+RegisterForTrackingSpaceChangedEvents
+RegisterForVolumeChangedEvents
 RegisterForWindowEvents
 Registering to receive audio changes because of callback\n
 ReleaseMutex
@@ -1381,8 +1376,6 @@ VRAudioDevices.GetMirrorSoundVolume
 VRAudioDevices.IsMasterMicrophoneMute
 VRAudioDevices.IsMasterSoundVolumeMute
 VRAudioDevices.IsMirrorSoundVolumeMute
-VRAudioDevices.RegisterForDeviceChangedEvents
-VRAudioDevices.RegisterForVolumeChangedEvents
 VRAudioDevices.SetMasterMicrophoneMute
 VRAudioDevices.SetMasterMicrophoneVolume
 VRAudioDevices.SetMasterSoundVolume
@@ -1406,10 +1399,7 @@ VRClientInternal is not available
 VRClientInternal.GetGraphicsHardwareVendorInfo
 VRClientInternal.GetMutualSteamCapabilities
 VRCompositor.GetTrackingSpace
-VRCompositor.RegisterForRoomViewChangedEvents
-VRCompositor.RegisterForTrackingSpaceChangedEvents
 VRControlPanel
-VRControlPanel.GetCameraRoomViewVisible
 VRControlPanel.SetCameraRoomViewVisible
 VRDashboardManager.CloseKeyboard
 VRDashboardManager.GetDashboardOverlayKeys
@@ -1829,7 +1819,6 @@ Zjz\v
 [VRWebHelper] Launching template %s -> %s\n
 [[[[[[[[[[[[js
 \ApiLayers\
-\fppP\f
 \n\t\t\t\t{\n\t\t\t\t\t"type" : "show_tracker_ui"\n\t\t\t\t}\n\t\t\t
 \n\t\t\t{\n\t\t\t\t"type" : "show_app_select"\n\t\t\t}\n\t\t
 _Cnd_destroy_in_situ
@@ -1936,17 +1925,17 @@ browser_size
 bulgarian
 button
 c++ NewPromise
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\computedsettings.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\Retail\win64\2017\vrwebhelper.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\cefclient_handler.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\cefexecuteprocess_handler.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\vrwebhelper_app.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\computedsettings.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\Retail\win64\2017\vrwebhelper.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\cefclient_handler.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\cefexecuteprocess_handler.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_app.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp
 cefMaxFrameRate
 cef_api_hash
 cef_browser_host_create_browser
@@ -2200,12 +2189,12 @@ parameters
 persist_layout
 persist_visibility
 persisted
+phE\f
 pixel_size
 pl_pl
 polish
 portuguese
 powf
-ppP\f
 precision
 preload
 preload_setting
