@@ -4958,11 +4958,11 @@
                     s.Uk.HasCamera_Bool,
                   ))
             ) &&
-              "internet_settings" != e.controller &&
-                !!(
-                  e.controller != y.Name ||
-                  (S.G3.systemInfo && S.G3.systemInfo.os_type >= 0)
-                ) &&
+            "internet_settings" != e.controller &&
+            !!(
+              e.controller != y.Name ||
+              (S.G3.systemInfo && S.G3.systemInfo.os_type >= 0)
+            ) &&
             !(!s.Co && e.web_helper_only)
           );
         }
@@ -12599,7 +12599,7 @@
             0 !=
               this.SelectedActionSetActions.filter((e) => "skeleton" == e.type)
                 .length &&
-              null != this.SelectedControllerTypeInfo &&
+            null != this.SelectedControllerTypeInfo &&
             !!this.GetFirstInputSourceOfType("skeleton")
           );
         }

@@ -12552,18 +12552,16 @@
             return (
               o &&
                 o.length > 0 &&
-                (n = o
-                  .filter(t)
-                  .map((e, t) =>
-                    i.createElement(Se, {
-                      key: t,
-                      currentBinding: u.w.CurrentBinding,
-                      result: e,
-                      fnViewBinding: this.ViewBinding,
-                      fnSelectBinding: this.SelectBinding,
-                      bCurrentlySelectedBinding: !1,
-                    }),
-                  )),
+                (n = o.filter(t).map((e, t) =>
+                  i.createElement(Se, {
+                    key: t,
+                    currentBinding: u.w.CurrentBinding,
+                    result: e,
+                    fnViewBinding: this.ViewBinding,
+                    fnSelectBinding: this.SelectBinding,
+                    bCurrentlySelectedBinding: !1,
+                  }),
+                )),
               n.length > 0 &&
                 i.createElement(
                   "div",
