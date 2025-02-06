@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-13:02:54
+13:58:53
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -303,6 +303,7 @@ Failed to write app container status to pipe %s after connecting because %s\n
 Failed to write event process handle after connecting because %s\n
 Failure
 Fatal
+Feb  5 2025
 Format string parse failure
 FormatMessageA
 FreeLibrary
@@ -382,7 +383,6 @@ InvalidPoseProvider
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
-Jan  7 2025
 KERNEL32.dll
 Kernel32.dll
 LeaveCriticalSection
@@ -454,7 +454,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDS\te=E
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

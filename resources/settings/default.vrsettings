@@ -257,6 +257,14 @@
         "loadPriority": -900,
         "enable": false
     },
+    "driver_oculus": {
+        "hmdAllowsClientToControlTextureIndex" : false,
+        "forceSystemLayerUseAppPoses" : false
+    },
+    "driver_holographic": {
+        "hmdAllowsClientToControlTextureIndex" : false,
+        "forceSystemLayerUseAppPoses" : false
+    },
     "input": {
         "leftThumbstickRotation": 0,
         "rightThumbstickRotation": 0,

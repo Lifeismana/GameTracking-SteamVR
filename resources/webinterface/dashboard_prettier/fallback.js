@@ -1206,9 +1206,9 @@
           Hb: () => D,
           Mb: () => u,
           ac: () => c,
-          k7: () => C,
+          k7: () => I,
           mK: () => S,
-          sX: () => I,
+          sX: () => C,
         });
         var o = r(655),
           i = r(4671);
@@ -1456,10 +1456,10 @@
             ? e
             : h;
         }
-        function I(e) {
-          f.push(e), C();
+        function C(e) {
+          f.push(e), I();
         }
-        function C() {
+        function I() {
           b ||
             (b = window.setTimeout(
               () =>
@@ -1964,7 +1964,7 @@
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
           })(s || (s = {}));
         let a = 0;
-        var l, d, p, c, u, _, h, m, g, v, f, b, y, S, D, R, I;
+        var l, d, p, c, u, _, h, m, g, v, f, b, y, S, D, R, C;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -2015,11 +2015,14 @@
               (e[(e.WantsModalBehavior = 1048576)] = "WantsModalBehavior"),
               (e[(e.IsPremultiplied = 2097152)] = "IsPremultiplied"),
               (e[(e.IgnoreTextureAlpha = 4194304)] = "IgnoreTextureAlpha"),
-              (e[(e.EnableControlBar = 8388608)] = "EnableControlBar"),
               (e[(e.EnableControlBarKeyboard = 16777216)] =
                 "EnableControlBarKeyboard"),
               (e[(e.EnableControlBarClose = 33554432)] =
-                "EnableControlBarClose");
+                "EnableControlBarClose"),
+              (e[(e.MinimalControlBar = 67108864)] = "MinimalControlBar"),
+              (e[(e.EnableClickStabilization = 134217728)] =
+                "EnableClickStabilization"),
+              (e[(e.MultiCursor = 268435456)] = "MultiCursor");
           })(p || (p = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
@@ -2134,7 +2137,7 @@
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(I || (I = {}));
+          })(C || (C = {}));
       },
       7074: (e, t, r) => {
         var o, i, n, s, a, l, d;
@@ -2874,4 +2877,4 @@
   var i = o.O(void 0, [968, 683], () => o(844));
   i = o.O(i);
 })();
-//# sourceMappingURL=fallback.js.map?v=e6ba959bcc67e1c00cd9
+//# sourceMappingURL=fallback.js.map?v=8180dd7e0df6cb496e58

@@ -1141,7 +1141,6 @@ Protocol message was modified concurrently during serialization.
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R#vQ
 R1h58
 RPCRT4.dll
 RSDS

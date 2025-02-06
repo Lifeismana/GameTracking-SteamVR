@@ -1342,8 +1342,8 @@
           iN: () => k,
           k7: () => T,
           mK: () => R,
-          qI: () => M,
-          sX: () => D,
+          qI: () => D,
+          sX: () => M,
         });
         var r = o(655),
           n = o(4671);
@@ -1595,10 +1595,10 @@
             ? e
             : m;
         }
-        function D(e) {
+        function M(e) {
           y.push(e), T();
         }
-        function M() {
+        function D() {
           g = !0;
         }
         function V(e) {
@@ -2224,7 +2224,7 @@
           Op: () => s,
           Pw: () => b,
           QZ: () => i,
-          Qu: () => M,
+          Qu: () => D,
           XX: () => p,
           Z9: () => h,
           a0: () => C,
@@ -2235,7 +2235,7 @@
           qR: () => _,
           wU: () => d,
           xY: () => g,
-          zA: () => D,
+          zA: () => M,
           zq: () => a,
         }),
           (function (e) {
@@ -2272,7 +2272,7 @@
         let l = 0,
           d = 0,
           c = -1;
-        var u, p, h, m, _, v, g, y, b, f, S, R, k, w, C, D, M;
+        var u, p, h, m, _, v, g, y, b, f, S, R, k, w, C, M, D;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -2323,11 +2323,14 @@
               (e[(e.WantsModalBehavior = 1048576)] = "WantsModalBehavior"),
               (e[(e.IsPremultiplied = 2097152)] = "IsPremultiplied"),
               (e[(e.IgnoreTextureAlpha = 4194304)] = "IgnoreTextureAlpha"),
-              (e[(e.EnableControlBar = 8388608)] = "EnableControlBar"),
               (e[(e.EnableControlBarKeyboard = 16777216)] =
                 "EnableControlBarKeyboard"),
               (e[(e.EnableControlBarClose = 33554432)] =
-                "EnableControlBarClose");
+                "EnableControlBarClose"),
+              (e[(e.MinimalControlBar = 67108864)] = "MinimalControlBar"),
+              (e[(e.EnableClickStabilization = 134217728)] =
+                "EnableClickStabilization"),
+              (e[(e.MultiCursor = 268435456)] = "MultiCursor");
           })(h || (h = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
@@ -2437,12 +2440,12 @@
           })(C || (C = {})),
           (function (e) {
             e[(e.Hostname = 0)] = "Hostname";
-          })(D || (D = {})),
+          })(M || (M = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(M || (M = {}));
+          })(D || (D = {}));
       },
       7074: (e, t, o) => {
         "use strict";
@@ -5168,7 +5171,7 @@
           k = o(2743),
           w = o(7095),
           C = o(8980);
-        let D = (r = class extends l.Component {
+        let M = (r = class extends l.Component {
           constructor(e) {
             super(e),
               (this.m_imageSources = []),
@@ -5270,15 +5273,15 @@
             );
           }
         });
-        (D.defaultProps = {
+        (M.defaultProps = {
           fallbackImageUrl: "images/appimage_default_portrait.png",
         }),
-          (D.s_failedImages = []),
-          (0, n.gn)([a.ak], D.prototype, "loadNextImage", null),
-          (0, n.gn)([a.ak], D.prototype, "onLoad", null),
-          (0, n.gn)([a.ak], D.prototype, "onError", null),
-          (D = r = (0, n.gn)([y.Pi], D));
-        var M = o(8242);
+          (M.s_failedImages = []),
+          (0, n.gn)([a.ak], M.prototype, "loadNextImage", null),
+          (0, n.gn)([a.ak], M.prototype, "onLoad", null),
+          (0, n.gn)([a.ak], M.prototype, "onError", null),
+          (M = r = (0, n.gn)([y.Pi], M));
+        var D = o(8242);
         class V extends l.Component {
           constructor(e) {
             super(e), (this.state = {});
@@ -5350,7 +5353,7 @@
               l.createElement(
                 "div",
                 { className: "ArtworkColumn" },
-                l.createElement(D, { appkey: t, title: o, imageUrl: m }),
+                l.createElement(M, { appkey: t, title: o, imageUrl: m }),
               ),
               l.createElement(
                 "div",
@@ -5368,17 +5371,17 @@
                 ),
                 s &&
                   l.createElement(
-                    M.ls,
+                    D.ls,
                     {
-                      icon: M.uc.PopOut,
+                      icon: D.uc.PopOut,
                       onClick: this.onOpenAppControllerBindingSettings,
                     },
                     (0, h.Xx)("#Controller_Bindings"),
                   ),
                 s &&
                   l.createElement(
-                    M.ls,
-                    { icon: M.uc.PopOut, onClick: this.onOpenAppVideoSettings },
+                    D.ls,
+                    { icon: D.uc.PopOut, onClick: this.onOpenAppVideoSettings },
                     (0, h.Xx)("#App_Video_Settings"),
                   ),
                 a &&
@@ -5401,8 +5404,8 @@
           ),
           (0, n.gn)([a.ak], V.prototype, "onOpenAppVideoSettings", null);
         var T,
-          E = o(9669),
-          I = o.n(E),
+          I = o(9669),
+          E = o.n(I),
           x = o(7475);
         !(function (e) {
           (e[(e.Left = 0)] = "Left"), (e[(e.Right = 1)] = "Right");
@@ -5621,7 +5624,7 @@
                     onMouseLeave: this.buttonMouseLeave,
                     onClick: this.props.onClick,
                   },
-                  l.createElement(D, Object.assign({}, e), this.props.children),
+                  l.createElement(M, Object.assign({}, e), this.props.children),
                 ),
               )
             );
@@ -5666,7 +5669,7 @@
             super(e), (this.state = { storeData: null });
           }
           componentDidMount() {
-            I()
+            E()
               .get(
                 "https://steamcommunity.com/steamvr/ajaxgethomedata/?include_apps=1&include_free_apps=1&num_apps=20",
               )
@@ -8395,50 +8398,57 @@
             );
           }
           renderDashboard() {
-            var e, t, o, r;
-            const n = this.computeFilteredOverlayTabs(!1),
-              a = K.BV.isVRGamepadUIReady,
-              s = !K.BV.isVRGamepadUI || K.BV.m_bShowLegacyBar;
-            let d = [],
-              c = [],
-              u =
+            var e, t, o, r, n;
+            const a = this.computeFilteredOverlayTabs(!1),
+              s = K.BV.isVRGamepadUIReady,
+              d = !K.BV.isVRGamepadUI || K.BV.m_bShowLegacyBar;
+            let c = [],
+              u = [],
+              h =
                 null !== (e = g.G3.settings.get(p.FM)) && void 0 !== e ? e : 2;
-            if (n.length > u) {
+            if (a.length > h) {
               const e = g.G3.settings.get(p.nf);
-              (d = [
-                null !== (t = n.find((t) => t.summon_overlay_key == e)) &&
+              (c = [
+                null !== (t = a.find((t) => t.summon_overlay_key == e)) &&
                 void 0 !== t
                   ? t
-                  : n[0],
+                  : a[0],
               ]),
-                (c = n.filter((e) => !d.includes(e)));
-            } else d = n;
-            let h = [];
+                (u = a.filter((e) => !c.includes(e)));
+            } else c = a;
+            let m = [];
             this.state.mapWindows.forEach((e) => {
-              "" == e.overlay_key && h.push(e);
+              "" == e.overlay_key && m.push(e);
             });
-            const m = this.getActiveOverlayDockLocation(),
-              _ = (0, f.fT)(m),
-              v = (0, f.sg)(m),
-              y =
+            const _ = this.getActiveOverlayDockLocation(),
+              v = (0, f.fT)(_),
+              y = (0, f.sg)(_),
+              b = this.getActiveOverlayKey(),
+              R =
+                null === (o = re.U.GetOverlayInfo(b)) || void 0 === o
+                  ? void 0
+                  : o.sHandle,
+              k = !!R && VRHTML.VROverlay.GetFlag(R, i.Z9.MinimalControlBar),
+              w =
                 null ===
-                  (o = g.G3.settings.get(
+                  (r = g.G3.settings.get(
                     "/settings/dashboard/allowCurvature",
                   )) ||
-                void 0 === o ||
-                o,
-              b = y ? p.ml : null,
-              R = a ? { y: -1.2, z: 0.35 } : { y: -1.2, z: 0.15 },
-              k = Y.k_nControlBarPitch;
-            let w = y ? 1 : 0;
-            const C =
+                void 0 === r ||
+                r,
+              C = w ? p.ml : null,
+              M = { y: k ? -1.03375 : -0.9, z: 0.05 },
+              D = s ? { y: -1.2, z: 0.35 } : { y: -1.2, z: 0.15 },
+              V = Y.k_nControlBarPitch;
+            let T = w ? 1 : 0;
+            const I =
                 null !==
-                  (r = g.G3.settings.get(
+                  (n = g.G3.settings.get(
                     "/settings/dashboard/allowFreeTransform",
                   )) &&
-                void 0 !== r &&
-                r,
-              D = this.GetActiveOverlayAnchorIDs().strTopCenterAnchorID;
+                void 0 !== n &&
+                n,
+              E = this.GetActiveOverlayAnchorIDs().strTopCenterAnchorID;
             return l.createElement(
               l.Fragment,
               null,
@@ -8446,7 +8456,7 @@
                 i.eK,
                 {
                   bContinuousRelatch: this.state.bPlacementModeActive,
-                  bFreeDashboardTransform: C && this.state.bPlacementModeActive,
+                  bFreeDashboardTransform: I && this.state.bPlacementModeActive,
                 },
                 l.createElement(
                   i.wx,
@@ -8480,7 +8490,7 @@
                           i.wx,
                           { translation: { y: 0.15 } },
                           l.createElement(i.wx, {
-                            id: b,
+                            id: C,
                             translation: { z: Y.getDashboardDistance() + 1.8 },
                           }),
                           l.createElement(
@@ -8488,27 +8498,27 @@
                             { scale: Y.getDashboardScale() },
                             l.createElement(
                               i.wx,
-                              { parent_id: D },
+                              { parent_id: E },
                               K.BV.isVRGamepadUI
-                                ? this.renderVRGamepadUIHeader(b)
-                                : this.renderLegacyHeader(b),
+                                ? this.renderVRGamepadUIHeader(C)
+                                : this.renderLegacyHeader(C),
                             ),
                             l.createElement(
                               i.wx,
                               {
                                 id: "active_overlay_transform",
-                                translation: { y: -0.9, z: 0.05 },
+                                translation: M,
                                 ref: this.m_refOverlayTransform,
                               },
-                              !_ && v && this.renderActiveOverlay(),
+                              !v && y && this.renderActiveOverlay(),
                             ),
                             !1,
                             !1,
                             l.createElement(
                               i.wx,
-                              { parent_id: a ? p.dG : p.f$ },
+                              { parent_id: s ? p.dG : p.f$ },
                               l.createElement(W.J, {
-                                curvature_origin_id: b,
+                                curvature_origin_id: C,
                                 tint: K.BV.GrabHandleTint,
                                 onStartMove: this.onGrabStart,
                                 onEndMove: this.onGrabEnd,
@@ -8517,8 +8527,8 @@
                             !1,
                             l.createElement(
                               i.wx,
-                              { translation: R, id: p.Qg },
-                              this.renderOverlayControlBar(),
+                              { translation: D, id: p.Qg },
+                              !k && this.renderOverlayControlBar(),
                               l.createElement(i.wx, {
                                 id: p.f$,
                                 translation: { y: 0.08, z: -0.12 },
@@ -8526,26 +8536,26 @@
                               l.createElement(
                                 i.wx,
                                 {
-                                  rotation: { x: k },
-                                  curvature_pitch: k,
-                                  translation: a ? { y: -0.65, z: 0.2 } : {},
+                                  rotation: { x: V },
+                                  curvature_pitch: V,
+                                  translation: s ? { y: -0.65, z: 0.2 } : {},
                                 },
-                                s && this.renderLegacyControlBar(d, c),
+                                d && this.renderLegacyControlBar(c, u),
                                 l.createElement(
                                   i.wx,
                                   { translation: { y: -0.65, z: -0.01 } },
                                   l.createElement(he, null),
                                 ),
                               ),
-                              a &&
+                              s &&
                                 l.createElement(
                                   i.wx,
-                                  { rotation: { x: k }, curvature_pitch: k },
-                                  this.renderVRGamepadUIBar(b),
+                                  { rotation: { x: V }, curvature_pitch: V },
+                                  this.renderVRGamepadUIBar(C),
                                 ),
                               l.createElement(
                                 i.wx,
-                                { rotation: { x: k } },
+                                { rotation: { x: V } },
                                 l.createElement(
                                   i.wx,
                                   {
@@ -8577,7 +8587,7 @@
                                         i.wx,
                                         {
                                           rotation: { x: -10 },
-                                          curvature_pitch: k,
+                                          curvature_pitch: V,
                                         },
                                         !1,
                                         this.state.bKeyboardVisible &&
@@ -8596,12 +8606,12 @@
                                   i.wx,
                                   {
                                     translation: { x: -0.4, y: 0.15, z: 0.05 },
-                                    rotation: { y: 19 * w },
+                                    rotation: { y: 19 * T },
                                   },
                                   l.createElement(
                                     i.s_,
                                     {
-                                      curvature_origin_id: b,
+                                      curvature_origin_id: C,
                                       height: void 0,
                                       width: 0.925,
                                       interactive: !0,
@@ -8618,12 +8628,12 @@
                                   i.wx,
                                   {
                                     translation: { x: 0.2, y: 0.15, z: 0.05 },
-                                    rotation: { y: 6 * w },
+                                    rotation: { y: 6 * T },
                                   },
                                   l.createElement(
                                     i.s_,
                                     {
-                                      curvature_origin_id: b,
+                                      curvature_origin_id: C,
                                       height: void 0,
                                       width: 0.925,
                                       interactive: !0,
@@ -8636,7 +8646,7 @@
                                         l.Fragment,
                                         null,
                                         " ",
-                                        c.map((e) =>
+                                        u.map((e) =>
                                           l.createElement(S.dy, {
                                             key: e.mountable_id,
                                             imageUrl:
@@ -8660,12 +8670,12 @@
                                   i.wx,
                                   {
                                     translation: { x: 1.25, y: -0.1, z: 0.35 },
-                                    rotation: { y: -16 * w },
+                                    rotation: { y: -16 * T },
                                   },
                                   l.createElement(
                                     i.s_,
                                     {
-                                      curvature_origin_id: b,
+                                      curvature_origin_id: C,
                                       height: void 0,
                                       width: 0.925,
                                       interactive: !0,
@@ -8678,7 +8688,7 @@
                                         l.Fragment,
                                         null,
                                         " ",
-                                        h.map((e) =>
+                                        m.map((e) =>
                                           l.createElement(S.dy, {
                                             key: e.hwnd,
                                             imageUrl:
@@ -8897,10 +8907,10 @@
         o.d(t, {
           MH: () => w,
           RA: () => n,
-          Sm: () => E,
+          Sm: () => I,
           Uj: () => i,
-          fT: () => M,
-          sg: () => D,
+          fT: () => D,
+          sg: () => M,
         });
         var r,
           n,
@@ -8948,10 +8958,10 @@
             (e[(e.Curved = 0)] = "Curved"), (e[(e.Flat = 1)] = "Flat");
           })(i || (i = {}));
         const C = "TheaterCurvatureOriginId";
-        function D(e) {
+        function M(e) {
           return e == n.Dashboard;
         }
-        function M(e) {
+        function D(e) {
           return e == n.World;
         }
         function V(e) {
@@ -8967,7 +8977,7 @@
               return "";
           }
         }
-        let E = (r = class extends c.Component {
+        let I = (r = class extends c.Component {
           constructor(e) {
             super(e),
               (this.state = {
@@ -9312,16 +9322,16 @@
                 m.BV.eTheaterCurvature == i.Curved && (l = C);
             }
             const b = VRHTML.VROverlay.FindOverlay(this.props.sOverlayKey),
-              D =
-                b && VRHTML.VROverlay.GetFlag(b, s.Z9.EnableControlBarKeyboard),
               M =
+                b && VRHTML.VROverlay.GetFlag(b, s.Z9.EnableControlBarKeyboard),
+              D =
                 (null === VRHTML || void 0 === VRHTML
                   ? void 0
                   : VRHTML.BSupportsMultitaskingView()) &&
                 this.props.sOverlayKey.startsWith(p.r4),
               T = { x: 0, y: -0.15, z: 0.1 },
-              E = (0, s.iN)(p.Az, "Floating-Panel"),
-              I = (e) =>
+              I = (0, s.iN)(p.Az, "Floating-Panel"),
+              E = (e) =>
                 c.createElement(
                   s.wx,
                   {
@@ -9359,7 +9369,7 @@
               let g = -0.1,
                 y = 4;
               const b = !0;
-              let D = b ? 0.075 : -0.05,
+              let M = b ? 0.075 : -0.05,
                 V = a.width,
                 x = a.height,
                 L = 0.75;
@@ -9393,7 +9403,7 @@
                           c.createElement(
                             s.s_,
                             {
-                              id: E,
+                              id: I,
                               overlay_key: this.props.sOverlayKey,
                               height: x,
                               width:
@@ -9431,7 +9441,7 @@
                         ),
                         u &&
                           c.createElement(s.bt, {
-                            target_id: E,
+                            target_id: I,
                             "near-z": g,
                             "far-z": 0.1,
                             specular: { color: { r: d, g: d, b: d } },
@@ -9460,7 +9470,7 @@
                                   c.createElement(
                                     s.s_,
                                     {
-                                      height: D,
+                                      height: M,
                                       width: void 0,
                                       interactive: !0,
                                       requires_laser: !0,
@@ -9476,7 +9486,7 @@
                                       c.createElement(
                                         "div",
                                         { className: "Section" },
-                                        M &&
+                                        D &&
                                           c.createElement(S.zN, {
                                             key: "multitask",
                                             iconUrl:
@@ -9510,7 +9520,7 @@
                                   ),
                                 c.createElement(
                                   s.wx,
-                                  { translation: { y: -D - 0.065, z: 0.03 } },
+                                  { translation: { y: -M - 0.065, z: 0.03 } },
                                   c.createElement(v.J, {
                                     scale: 1,
                                     tint: m.BV.GrabHandleTint,
@@ -9518,9 +9528,9 @@
                                   }),
                                 ),
                               ),
-                              c.createElement(I, {
+                              c.createElement(E, {
                                 parent_id: "Floating-Panel-BottomRight",
-                                target_id: E,
+                                target_id: I,
                                 scale: f.g.getUiScaleForLocation(
                                   this.props.dockLocation,
                                 ),
@@ -9559,7 +9569,7 @@
                 c.createElement(
                   s.s_,
                   {
-                    id: E,
+                    id: I,
                     overlay_key: this.props.sOverlayKey,
                     height: a.height,
                     width: void 0,
@@ -9600,9 +9610,9 @@
                   }),
                 ),
               ),
-              c.createElement(I, {
+              c.createElement(E, {
                 parent_id: "Floating-Panel-BottomRight",
-                target_id: E,
+                target_id: I,
                 scale:
                   f.g.getUiScaleForLocation(this.props.dockLocation) *
                   (V(this.props.dockLocation) ? 1.5 : 1),
@@ -9632,7 +9642,7 @@
                     c.createElement(
                       "div",
                       { className: "Section" },
-                      M &&
+                      D &&
                         c.createElement(S.zN, {
                           key: "multitask",
                           iconUrl:
@@ -9645,7 +9655,7 @@
                     c.createElement(
                       "div",
                       { className: "Section" },
-                      D &&
+                      M &&
                         c.createElement(S.CS, {
                           overlayKey: this.props.sOverlayKey,
                           showTooltip: !1,
@@ -9699,14 +9709,14 @@
             );
           }
         });
-        (E.sfMaxDockDist = 0.4),
-          (E.sfMovePulseMS = 100),
-          (E.sfOverlayTrayHeight = 0.12),
-          (E.flGrabTransformLerpSpeed = 0.125),
-          (0, a.gn)([l.ZP], E.prototype, "computeDestination", null),
-          (0, a.gn)([l.ZP], E.prototype, "startMove", null),
-          (0, a.gn)([l.ZP], E.prototype, "endMove", null),
-          (E = r = (0, a.gn)([d.Pi], E));
+        (I.sfMaxDockDist = 0.4),
+          (I.sfMovePulseMS = 100),
+          (I.sfOverlayTrayHeight = 0.12),
+          (I.flGrabTransformLerpSpeed = 0.125),
+          (0, a.gn)([l.ZP], I.prototype, "computeDestination", null),
+          (0, a.gn)([l.ZP], I.prototype, "startMove", null),
+          (0, a.gn)([l.ZP], I.prototype, "endMove", null),
+          (I = r = (0, a.gn)([d.Pi], I));
       },
       6459: (e, t, o) => {
         "use strict";
@@ -9724,7 +9734,7 @@
           dy: () => L,
           j4: () => z,
           j6: () => U,
-          lL: () => E,
+          lL: () => I,
           z: () => W,
           zN: () => j,
           zk: () => B,
@@ -9752,8 +9762,8 @@
           k = o(8322),
           w = o.n(k),
           C = o(7726),
-          D = o(7471),
-          M = o(9626);
+          M = o(7471),
+          D = o(9626);
         const V = new l.vP();
         function T(e) {
           const { summonOverlayKey: t } = e,
@@ -9807,13 +9817,13 @@
             t ? r : null
           );
         }
-        const E = (0, d.Pi)(function (e) {
+        const I = (0, d.Pi)(function (e) {
             return c.createElement(
-              I,
-              Object.assign({}, e, { VRGamepadUI: M.BV.isVRGamepadUI }),
+              E,
+              Object.assign({}, e, { VRGamepadUI: D.BV.isVRGamepadUI }),
             );
           }),
-          I = (e) => {
+          E = (e) => {
             var t, o, r;
             const n = e.VRGamepadUI,
               i = c.useRef(null),
@@ -10825,7 +10835,7 @@
             e.label && c.createElement("span", null, e.label),
             e.iconUrl &&
               c.createElement("img", {
-                className: (0, D.Z)(
+                className: (0, M.Z)(
                   "Icon",
                   (null === (t = e.iconIsInverted) || void 0 === t || t) &&
                     "BlackToWhite",
@@ -11560,12 +11570,12 @@
             k,
             w,
             C,
-            D,
             M,
+            D,
             V,
             T,
-            E,
             I,
+            E,
             x,
             L,
             P,
@@ -11657,36 +11667,36 @@
             $ = {
               x:
                 null !==
-                  (D =
+                  (M =
                     null === (C = q.offset) || void 0 === C
                       ? void 0
-                      : C.x_pixels) && void 0 !== D
-                  ? D
+                      : C.x_pixels) && void 0 !== M
+                  ? M
                   : 0,
               y:
                 null !==
                   (V =
-                    null === (M = q.offset) || void 0 === M
+                    null === (D = q.offset) || void 0 === D
                       ? void 0
-                      : M.y_pixels) && void 0 !== V
+                      : D.y_pixels) && void 0 !== V
                   ? V
                   : 0,
               z:
                 null !==
-                  (E =
+                  (I =
                     null === (T = q.offset) || void 0 === T
                       ? void 0
-                      : T.z_pixels) && void 0 !== E
-                  ? E
+                      : T.z_pixels) && void 0 !== I
+                  ? I
                   : 0,
             },
             ee = {
               x:
                 null !==
                   (x =
-                    null === (I = q.offset) || void 0 === I
+                    null === (E = q.offset) || void 0 === E
                       ? void 0
-                      : I.x_meters) && void 0 !== x
+                      : E.x_meters) && void 0 !== x
                   ? x
                   : 0,
               y:
@@ -12669,4 +12679,4 @@
   var n = r.O(void 0, [968, 683], () => r(5953));
   n = r.O(n);
 })();
-//# sourceMappingURL=debugcommands.js.map?v=ce38ce3f012c85b857ff
+//# sourceMappingURL=debugcommands.js.map?v=d7b55609e88b6f3be70b

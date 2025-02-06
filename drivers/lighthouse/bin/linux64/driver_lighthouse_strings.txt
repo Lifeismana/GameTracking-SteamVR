@@ -942,7 +942,7 @@ $3br
 20CVkCommandBufferPool
 20IVRAudioNotification
 20IVRVirtualDisplay001
-21:03:04
+21:49:39
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
@@ -1724,13 +1724,14 @@ CDriverManager::AddDriver(std::string const&, std::string const&) (.cold)
 CDriverManager::AddServerDevice() !GetServerProvider( nDriver ) -> VRInitError_Driver_NotLoaded
 CDriverManager::AddServerDevice() nDriver == vr::k_nDriverNone -> VRInitError_Init_Internal
 CDriverManager::AddServerDevice() nDriver >= m_vecDrivers.size() -> VRInitError_Driver_HmdDriverIdOutOfBounds
-CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*)
-CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*) (.cold)
+CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, CSettingsManager&, unsigned int*)
+CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, CSettingsManager&, unsigned int*) (.cold)
 CDriverManager::AllocateDeviceSlot(unsigned int, vr::ETrackedDeviceClass, unsigned int*)
 CDriverManager::ApplyDriverResourceProperties(unsigned long)
 CDriverManager::ApplyDriverResourceProperties(unsigned long) (.cold)
 CDriverManager::AreAnyDriversBlockedForSafeMode() const
 CDriverManager::BAlwaysActivateDriver(unsigned int)
+CDriverManager::BAnyEnabledDriverAllowsMultipleDriverActivation() const
 CDriverManager::BCurrentlyActivating(unsigned int, unsigned int) const
 CDriverManager::BGetGpuLuid(unsigned long*, unsigned int*) const
 CDriverManager::BGetGpuLuid(unsigned long*, unsigned int*) const (.cold)
@@ -1739,6 +1740,7 @@ CDriverManager::BHmdDeviceMightBePresent(unsigned int)
 CDriverManager::BHmdDeviceMightBePresent(unsigned int)::'lambda'()::operator()() const::encrypted
 CDriverManager::BIsSafeDriver(unsigned int) const
 CDriverManager::BIsSafeDriverByName(std::string const&) const
+CDriverManager::BShouldActivateOtherDriversWhenEnabled(unsigned int) const
 CDriverManager::BShowEnableInSettings(unsigned int)
 CDriverManager::BlockDriversForSafeMode(CSettingsManager*)
 CDriverManager::BlockDriversForSafeMode(CSettingsManager*) (.cold)
@@ -4208,6 +4210,7 @@ FbPmPSsRKSsPvE
 FbRKSsPSsPvE
 FbRKSsPvE
 FbcE
+Feb  5 2025
 February
 Feel free to add support for more if you need it.
 Field "
@@ -4839,7 +4842,6 @@ JSON
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON Update
 JSON string too short.\n
-Jan  7 2025
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -8632,6 +8634,7 @@ accessor[
 accessors
 acos
 acosf
+activateOtherDriversWhenEnabled
 adcr
 add a secondary base
 add_fdes
@@ -9719,6 +9722,7 @@ fopen
 fopen64
 for 
 forceSoloEdid
+forceSystemLayerUseAppPoses
 force_old_controller_radio
 force_pid
 force_pid_val
@@ -11995,6 +11999,7 @@ highFrameJitter
 high_frame_jitter
 high_mm
 hits: 
+hmdAllowsClientToControlTextureIndex
 hmd_presence
 htc/vive_controller
 htc/vive_tracker
@@ -13763,7 +13768,6 @@ pvBuffer != nullptr
 py_generic_services
 r2max
 rEyeFile:%s width:%d height:%d components:%d\n
-rG1|
 rand
 random_device::random_device(const std::string&)
 range

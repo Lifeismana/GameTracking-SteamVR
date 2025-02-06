@@ -126,7 +126,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-13:02:54
+13:58:53
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -245,6 +245,7 @@ Failed to register window class.\n
 Failed to set thread %p priority: invalid priority %d\n
 Failed to set up logging.
 Fatal
+Feb  5 2025
 GDI32.dll
 GetCurrentProcess
 GetCurrentProcessId
@@ -313,7 +314,6 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-Jan  7 2025
 KERNEL32.dll
 LeaveCriticalSection
 Line %d, Column %d
@@ -339,7 +339,7 @@ PeekMessageA
 Process VR events.
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS!@
+RSDS
 RaiseException
 ReadFile
 RegCloseKey

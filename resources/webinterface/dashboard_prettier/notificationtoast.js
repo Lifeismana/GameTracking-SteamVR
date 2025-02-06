@@ -2323,11 +2323,14 @@
               (e[(e.WantsModalBehavior = 1048576)] = "WantsModalBehavior"),
               (e[(e.IsPremultiplied = 2097152)] = "IsPremultiplied"),
               (e[(e.IgnoreTextureAlpha = 4194304)] = "IgnoreTextureAlpha"),
-              (e[(e.EnableControlBar = 8388608)] = "EnableControlBar"),
               (e[(e.EnableControlBarKeyboard = 16777216)] =
                 "EnableControlBarKeyboard"),
               (e[(e.EnableControlBarClose = 33554432)] =
-                "EnableControlBarClose");
+                "EnableControlBarClose"),
+              (e[(e.MinimalControlBar = 67108864)] = "MinimalControlBar"),
+              (e[(e.EnableClickStabilization = 134217728)] =
+                "EnableClickStabilization"),
+              (e[(e.MultiCursor = 268435456)] = "MultiCursor");
           })(h || (h = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
@@ -7887,50 +7890,57 @@
             );
           }
           renderDashboard() {
-            var e, t, o, r;
-            const n = this.computeFilteredOverlayTabs(!1),
-              a = K.BV.isVRGamepadUIReady,
-              s = !K.BV.isVRGamepadUI || K.BV.m_bShowLegacyBar;
-            let d = [],
-              c = [],
-              u =
+            var e, t, o, r, n;
+            const a = this.computeFilteredOverlayTabs(!1),
+              s = K.BV.isVRGamepadUIReady,
+              d = !K.BV.isVRGamepadUI || K.BV.m_bShowLegacyBar;
+            let c = [],
+              u = [],
+              h =
                 null !== (e = g.G3.settings.get(p.FM)) && void 0 !== e ? e : 2;
-            if (n.length > u) {
+            if (a.length > h) {
               const e = g.G3.settings.get(p.nf);
-              (d = [
-                null !== (t = n.find((t) => t.summon_overlay_key == e)) &&
+              (c = [
+                null !== (t = a.find((t) => t.summon_overlay_key == e)) &&
                 void 0 !== t
                   ? t
-                  : n[0],
+                  : a[0],
               ]),
-                (c = n.filter((e) => !d.includes(e)));
-            } else d = n;
-            let h = [];
+                (u = a.filter((e) => !c.includes(e)));
+            } else c = a;
+            let m = [];
             this.state.mapWindows.forEach((e) => {
-              "" == e.overlay_key && h.push(e);
+              "" == e.overlay_key && m.push(e);
             });
-            const m = this.getActiveOverlayDockLocation(),
-              _ = (0, f.fT)(m),
-              v = (0, f.sg)(m),
-              y =
+            const _ = this.getActiveOverlayDockLocation(),
+              v = (0, f.fT)(_),
+              y = (0, f.sg)(_),
+              b = this.getActiveOverlayKey(),
+              R =
+                null === (o = re.U.GetOverlayInfo(b)) || void 0 === o
+                  ? void 0
+                  : o.sHandle,
+              k = !!R && VRHTML.VROverlay.GetFlag(R, i.Z9.MinimalControlBar),
+              w =
                 null ===
-                  (o = g.G3.settings.get(
+                  (r = g.G3.settings.get(
                     "/settings/dashboard/allowCurvature",
                   )) ||
-                void 0 === o ||
-                o,
-              b = y ? p.ml : null,
-              R = a ? { y: -1.2, z: 0.35 } : { y: -1.2, z: 0.15 },
-              k = Y.k_nControlBarPitch;
-            let w = y ? 1 : 0;
-            const C =
+                void 0 === r ||
+                r,
+              C = w ? p.ml : null,
+              M = { y: k ? -1.03375 : -0.9, z: 0.05 },
+              D = s ? { y: -1.2, z: 0.35 } : { y: -1.2, z: 0.15 },
+              V = Y.k_nControlBarPitch;
+            let T = w ? 1 : 0;
+            const I =
                 null !==
-                  (r = g.G3.settings.get(
+                  (n = g.G3.settings.get(
                     "/settings/dashboard/allowFreeTransform",
                   )) &&
-                void 0 !== r &&
-                r,
-              M = this.GetActiveOverlayAnchorIDs().strTopCenterAnchorID;
+                void 0 !== n &&
+                n,
+              E = this.GetActiveOverlayAnchorIDs().strTopCenterAnchorID;
             return l.createElement(
               l.Fragment,
               null,
@@ -7938,7 +7948,7 @@
                 i.eK,
                 {
                   bContinuousRelatch: this.state.bPlacementModeActive,
-                  bFreeDashboardTransform: C && this.state.bPlacementModeActive,
+                  bFreeDashboardTransform: I && this.state.bPlacementModeActive,
                 },
                 l.createElement(
                   i.wx,
@@ -7972,7 +7982,7 @@
                           i.wx,
                           { translation: { y: 0.15 } },
                           l.createElement(i.wx, {
-                            id: b,
+                            id: C,
                             translation: { z: Y.getDashboardDistance() + 1.8 },
                           }),
                           l.createElement(
@@ -7980,27 +7990,27 @@
                             { scale: Y.getDashboardScale() },
                             l.createElement(
                               i.wx,
-                              { parent_id: M },
+                              { parent_id: E },
                               K.BV.isVRGamepadUI
-                                ? this.renderVRGamepadUIHeader(b)
-                                : this.renderLegacyHeader(b),
+                                ? this.renderVRGamepadUIHeader(C)
+                                : this.renderLegacyHeader(C),
                             ),
                             l.createElement(
                               i.wx,
                               {
                                 id: "active_overlay_transform",
-                                translation: { y: -0.9, z: 0.05 },
+                                translation: M,
                                 ref: this.m_refOverlayTransform,
                               },
-                              !_ && v && this.renderActiveOverlay(),
+                              !v && y && this.renderActiveOverlay(),
                             ),
                             !1,
                             !1,
                             l.createElement(
                               i.wx,
-                              { parent_id: a ? p.dG : p.f$ },
+                              { parent_id: s ? p.dG : p.f$ },
                               l.createElement(W.J, {
-                                curvature_origin_id: b,
+                                curvature_origin_id: C,
                                 tint: K.BV.GrabHandleTint,
                                 onStartMove: this.onGrabStart,
                                 onEndMove: this.onGrabEnd,
@@ -8009,8 +8019,8 @@
                             !1,
                             l.createElement(
                               i.wx,
-                              { translation: R, id: p.Qg },
-                              this.renderOverlayControlBar(),
+                              { translation: D, id: p.Qg },
+                              !k && this.renderOverlayControlBar(),
                               l.createElement(i.wx, {
                                 id: p.f$,
                                 translation: { y: 0.08, z: -0.12 },
@@ -8018,26 +8028,26 @@
                               l.createElement(
                                 i.wx,
                                 {
-                                  rotation: { x: k },
-                                  curvature_pitch: k,
-                                  translation: a ? { y: -0.65, z: 0.2 } : {},
+                                  rotation: { x: V },
+                                  curvature_pitch: V,
+                                  translation: s ? { y: -0.65, z: 0.2 } : {},
                                 },
-                                s && this.renderLegacyControlBar(d, c),
+                                d && this.renderLegacyControlBar(c, u),
                                 l.createElement(
                                   i.wx,
                                   { translation: { y: -0.65, z: -0.01 } },
                                   l.createElement(he, null),
                                 ),
                               ),
-                              a &&
+                              s &&
                                 l.createElement(
                                   i.wx,
-                                  { rotation: { x: k }, curvature_pitch: k },
-                                  this.renderVRGamepadUIBar(b),
+                                  { rotation: { x: V }, curvature_pitch: V },
+                                  this.renderVRGamepadUIBar(C),
                                 ),
                               l.createElement(
                                 i.wx,
-                                { rotation: { x: k } },
+                                { rotation: { x: V } },
                                 l.createElement(
                                   i.wx,
                                   {
@@ -8069,7 +8079,7 @@
                                         i.wx,
                                         {
                                           rotation: { x: -10 },
-                                          curvature_pitch: k,
+                                          curvature_pitch: V,
                                         },
                                         !1,
                                         this.state.bKeyboardVisible &&
@@ -8088,12 +8098,12 @@
                                   i.wx,
                                   {
                                     translation: { x: -0.4, y: 0.15, z: 0.05 },
-                                    rotation: { y: 19 * w },
+                                    rotation: { y: 19 * T },
                                   },
                                   l.createElement(
                                     i.s_,
                                     {
-                                      curvature_origin_id: b,
+                                      curvature_origin_id: C,
                                       height: void 0,
                                       width: 0.925,
                                       interactive: !0,
@@ -8110,12 +8120,12 @@
                                   i.wx,
                                   {
                                     translation: { x: 0.2, y: 0.15, z: 0.05 },
-                                    rotation: { y: 6 * w },
+                                    rotation: { y: 6 * T },
                                   },
                                   l.createElement(
                                     i.s_,
                                     {
-                                      curvature_origin_id: b,
+                                      curvature_origin_id: C,
                                       height: void 0,
                                       width: 0.925,
                                       interactive: !0,
@@ -8128,7 +8138,7 @@
                                         l.Fragment,
                                         null,
                                         " ",
-                                        c.map((e) =>
+                                        u.map((e) =>
                                           l.createElement(S.dy, {
                                             key: e.mountable_id,
                                             imageUrl:
@@ -8152,12 +8162,12 @@
                                   i.wx,
                                   {
                                     translation: { x: 1.25, y: -0.1, z: 0.35 },
-                                    rotation: { y: -16 * w },
+                                    rotation: { y: -16 * T },
                                   },
                                   l.createElement(
                                     i.s_,
                                     {
-                                      curvature_origin_id: b,
+                                      curvature_origin_id: C,
                                       height: void 0,
                                       width: 0.925,
                                       interactive: !0,
@@ -8170,7 +8180,7 @@
                                         l.Fragment,
                                         null,
                                         " ",
-                                        h.map((e) =>
+                                        m.map((e) =>
                                           l.createElement(S.dy, {
                                             key: e.hwnd,
                                             imageUrl:
@@ -12161,4 +12171,4 @@
   var n = r.O(void 0, [968, 683], () => r(855));
   n = r.O(n);
 })();
-//# sourceMappingURL=notificationtoast.js.map?v=a8973d477b17c23f0cd2
+//# sourceMappingURL=notificationtoast.js.map?v=4e4de07cad373be0d2f0

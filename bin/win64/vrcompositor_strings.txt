@@ -871,7 +871,7 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
-13:02:54
+13:58:53
 1A26b
 1e+9999
 1wsHp
@@ -1879,6 +1879,7 @@ Failed to write process id after connecting pipe %s because %s\n
 Failed with %s! Quitting.\n
 Failed with %s!\n
 Feathering mura correction for %s\n - Inner(l=%d, r=%d, t=%d, b=%d)\n - Outer(l=%d, r=%d, t=%d, b=%d)\n
+Feb  5 2025
 File Not Found (103)
 FindClose
 FindFirstFileW
@@ -1993,6 +1994,7 @@ HMD found, but problems with the data (1112)
 HMD found, but problems with the data (1115)
 HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
+HMD is using legacy frame submission mechanism via Prop_Hmd_AllowsClientToControlTextureIndex = false
 HallucinationConstantBuffer
 Handoff event is NULL!\n
 Headset View
@@ -2219,7 +2221,6 @@ IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d\n
 IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 It shouldn't be possible to add a child twice because of move semantics
 JFIF
-Jan  7 2025
 Journaling %s\n
 KERNEL32.dll
 Kernel32.dll
@@ -2667,7 +2668,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS.
+RSDS
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -4196,6 +4197,7 @@ acceleration-factor-x-squared-coefficient
 acos
 acosf
 action
+activateOtherDriversWhenEnabled
 add_pending_release_texture
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict

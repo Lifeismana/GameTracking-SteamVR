@@ -657,6 +657,7 @@ _nextafter
 aDJ=
 abcdefghijklmnopqrstuvwxyz
 acos
+activateOtherDriversWhenEnabled
 additional six characters expected to parse unicode surrogate pair.
 address family not supported
 address in use
@@ -839,7 +840,7 @@ protocol error
 protocol not supported
 r7Yr7=
 rLp>B
-raB3G(
+raB3GH
 read only file system
 redirectsDisplay
 rejectDupKeys

@@ -562,7 +562,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDSz
+RSDSl
 RaiseException
 ReadConsoleW
 ReadFile
@@ -742,6 +742,7 @@ _oD>Kg
 a6>r
 abcdefghijklmnopqrstuvwxyz
 acos
+activateOtherDriversWhenEnabled
 adddriver
 additional six characters expected to parse unicode surrogate pair.
 address family not supported

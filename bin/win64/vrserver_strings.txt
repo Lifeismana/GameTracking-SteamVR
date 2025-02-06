@@ -1608,26 +1608,23 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899`;8@
-00F(
 0123456789ABCDEF
 0123456789abcdef
-017@
-024@
 050@
-067@
 070@
-0J8@
-0M8@
-0a8@
-0rF(
+0D7@
+0I7@
+0L8@
+0Z7@
+0bG(
+0e7@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-13:02:54
+13:58:53
 1A26b
 1\f514
 1e+9999
@@ -1647,19 +1644,21 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-827@
 840@
-877@
-8K8@
-8L8@
+8A8@
+8E7@
+8J7@
+8P8@
+8Q8@
+8Z8@
 8\n\textension
+8c8@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8x7@
-8y7@
-8z7@
+8v7@
+8w7@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -2661,6 +2660,7 @@ Failed to write process id after connecting pipe %s because %s\n
 Failed: %s, errno %d
 False
 Fatal
+Feb  5 2025
 Field "
 Field does not match message type.
 Field is repeated; the method requires a singular field.
@@ -2806,11 +2806,17 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
+H08@
+H18@
+H28@
+H38@
 H40@
-H47@
-H97@
+H48@
+H58@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
+HG7@
+HL7@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2831,9 +2837,6 @@ HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
-HO8@
-HP8@
-HQ8@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2848,9 +2851,10 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
-HZ8@
+HY8@
 Hang the server for the specified number of seconds (default 3600)
 HasField
+Hd8@
 Hex and octal numbers must be integers.
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
@@ -2860,7 +2864,8 @@ HmdDriverFactory
 HostController
 How did we get here with a non-position slot?
 Hp0@
-Hv7@
+Ht7@
+Hu7@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3138,7 +3143,6 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jan  7 2025
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
@@ -3394,19 +3398,17 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P0F(
 P50@
-P57@
-P58@
-P68@
-P78@
+PC8@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PGB@
+PH7@
 PICT
 PID_
 PK0@
 PLACEHOLDER_VALUE
+PM7@
 PNG\r\n
 POST
 PRISM_AcquireDisplay
@@ -3437,7 +3439,7 @@ PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
 PT0@
-PY8@
+PX8@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3448,14 +3450,12 @@ Path not found
 Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
-Pc8@
 Pe6^
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Pg5@
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
 Positional emitter description not found.
@@ -3692,7 +3692,6 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
-Pu7@
 QkkXa
 Qkkbal
 Query failed
@@ -3715,9 +3714,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS
-R\np0F(
-R\vp0F(
+RSDS-H
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5108,22 +5105,21 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X08@
-X18@
-X24@
-X28@
-X38@
 X40@
-X48@
 X60@
-X67@
 X70@
-XV7@
-XX8@
+XB8@
+XI7@
+XI8@
+XN7@
+XS8@
+XW8@
 XXXX PNG chunk not known
+Xe8@
+Xg7@
+Xg8@
 Xh0@
 XsBI
-Xt7@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -5465,7 +5461,6 @@ Zjz\v
 \U%08x
 \b\d+\b\s*$
 \fUk#pb
-\fp0F(
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -5519,8 +5514,7 @@ Zjz\v
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \rmj>zjZ
-\rp\f`\v0\nP,((
-\rp\f`\vP\n00F(
+\rp\f`\vP\n0 G(
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
@@ -5528,7 +5522,6 @@ Zjz\v
 \u%04x
 \u%04x\u%04x
 \ufffd
-\vp0F(
 \x%02x
 ] buffer "
 ] bufferView "
@@ -5682,6 +5675,7 @@ action_sets
 actions
 actionset
 activateMultipleDrivers
+activateOtherDriversWhenEnabled
 activate_threshold
 active
 activePlaybackMirrorDevice
@@ -6212,6 +6206,7 @@ fopen
 fopen_s
 forbidden_options
 force
+forceSystemLayerUseAppPoses
 force_emit_message
 force_emit_service
 force_input
@@ -6285,12 +6280,9 @@ group
 guid
 gzip
 h40@
-h87@
-h88@
-hA8@
+hK7@
 hPU3
-hV8@
-hW8@
+hT8@
 half_thresholds
 hand_priority
 hand_right_poses.glb
@@ -6307,17 +6299,12 @@ header crc mismatch
 height
 held
 hex_property
-hf7@
-hf8@
-hg5@
-hg8@
 hh0@
-hh8@
-hi8@
 hidden
 hide_callout
 hlvr/mailbox
 hlvr/webui
+hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_settings_key
 holographic
@@ -6907,13 +6894,15 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p0F(
+p07@
 p50@
 p60@
 p70@
-p97@
+p98@
 pBegin == pEnd
+pD8@
 pEnd > pBegin
+pL7@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
@@ -6921,8 +6910,6 @@ pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
-pR8@
-pS8@
 pSharedState != nullptr
 pUrl != nullptr
 pWebSocketMessage
@@ -6942,22 +6929,16 @@ path_handle
 path_handles
 paths
 payload
+pbG(
 pbrMetallicRoughness
-pc7@
-pe8@
 pending_file_saved
 perfcheck
 personal
 perspective
-ph7@
-pi7@
 pico_controller
 pinch
 pinchgrab
 pivot
-pj7@
-pk7@
-pl7@
 pl_pl
 playAreaColor
 play_area
@@ -6968,8 +6949,6 @@ playbackMirrorDevice
 playbackMirrorDeviceName
 playback_devices
 playing
-pm7@
-pn7@
 polish
 portrait
 portuguese
@@ -6993,7 +6972,6 @@ positional
 positive_int_value
 power
 powf
-prF(
 precision
 prediction
 prediction parameter out of range
@@ -7577,14 +7555,17 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x24@
+x17@
 x30@
 x40@
-xT8@
-xU8@
+xC8@
+xE8@
+xF8@
+xJ8@
+xM7@
 x_path
+xa7@
 xdigit
-xg7@
 xmag
 y9*O
 y_path

@@ -61,7 +61,6 @@
 ??6QDebug@@QAEAAV0@D@Z
 ??6QDebug@@QAEAAV0@PBD@Z
 ??6QTextStream@@QAEAAV0@D@Z
-?QwH
 ?actionEvent@QWidget@@MAEXPAVQActionEvent@@@Z
 ?addMSecs@QTime@@QBE?AV1@H@Z
 ?arguments@QCoreApplication@@SA?AVQStringList@@XZ
@@ -137,7 +136,7 @@ QLabel { background-color: rgb( 38, 38, 38);border-width: 1px;border-style: soli
 Qt5Core.dll
 Qt5Widgets.dll
 QueryPerformanceCounter
-RSDS#\t
+RSDS
 SHELL32.dll
 SetUnhandledExceptionFilter
 Starting

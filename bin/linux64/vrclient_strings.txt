@@ -1244,7 +1244,7 @@ $tI(kn
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:03:04
+21:49:39
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -2099,11 +2099,11 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
-C.1875.372781
-C.1876.372792
+C.1875.372795
+C.1876.372806
 C.71.340283
-C.77.214613
-C.9.216503
+C.77.214627
+C.9.216517
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -2418,13 +2418,14 @@ CDriverManager::AddDriver(std::string const&, std::string const&) (.cold)
 CDriverManager::AddServerDevice() !GetServerProvider( nDriver ) -> VRInitError_Driver_NotLoaded
 CDriverManager::AddServerDevice() nDriver == vr::k_nDriverNone -> VRInitError_Init_Internal
 CDriverManager::AddServerDevice() nDriver >= m_vecDrivers.size() -> VRInitError_Driver_HmdDriverIdOutOfBounds
-CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*)
-CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, unsigned int*) (.cold)
+CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, CSettingsManager&, unsigned int*)
+CDriverManager::AddServerDevice(unsigned int, void*, vr::ETrackedDeviceClass, std::string const&, CSettingsManager&, unsigned int*) (.cold)
 CDriverManager::AllocateDeviceSlot(unsigned int, vr::ETrackedDeviceClass, unsigned int*)
 CDriverManager::ApplyDriverResourceProperties(unsigned long)
 CDriverManager::ApplyDriverResourceProperties(unsigned long) (.cold)
 CDriverManager::AreAnyDriversBlockedForSafeMode() const
 CDriverManager::BAlwaysActivateDriver(unsigned int)
+CDriverManager::BAnyEnabledDriverAllowsMultipleDriverActivation() const
 CDriverManager::BCurrentlyActivating(unsigned int, unsigned int) const
 CDriverManager::BGetGpuLuid(unsigned long*, unsigned int*) const
 CDriverManager::BGetGpuLuid(unsigned long*, unsigned int*) const (.cold)
@@ -2433,6 +2434,7 @@ CDriverManager::BHmdDeviceMightBePresent(unsigned int)
 CDriverManager::BHmdDeviceMightBePresent(unsigned int)::'lambda'()::operator()() const::encrypted
 CDriverManager::BIsSafeDriver(unsigned int) const
 CDriverManager::BIsSafeDriverByName(std::string const&) const
+CDriverManager::BShouldActivateOtherDriversWhenEnabled(unsigned int) const
 CDriverManager::BShowEnableInSettings(unsigned int)
 CDriverManager::BlockDriversForSafeMode(CSettingsManager*)
 CDriverManager::BlockDriversForSafeMode(CSettingsManager*) (.cold)
@@ -17706,6 +17708,7 @@ FbPSt6vectorIhSaIhEEPSsRKSsPvE
 FbPmPSsRKSsPvE
 FbRKSsPSsPvE
 FbcE
+Feb  5 2025
 February
 File %s not found\n
 File Not Found (103)
@@ -21736,7 +21739,6 @@ JArray
 JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
-Jan  7 2025
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -26410,7 +26412,6 @@ Zjz\v
 \nTerminal=false\nType=Application\nCategories=Game;\nMimeType=
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\tyuk
 \u%04x
 \u%04x\u%04x
 \ufffd
@@ -26898,6 +26899,7 @@ action_set
 action_sets
 actions
 actionset
+activateOtherDriversWhenEnabled
 activate_threshold
 active
 activeActionSets
@@ -27984,6 +27986,7 @@ fopen
 fopen64
 forbidden_options
 force
+forceSystemLayerUseAppPoses
 force_hold_threshold
 force_input
 force_pid
@@ -28744,6 +28747,7 @@ hmd003
 hmd004
 hmd005
 hmd006
+hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_profile
 holographic_controller

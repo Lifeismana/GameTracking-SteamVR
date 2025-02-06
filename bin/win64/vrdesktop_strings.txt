@@ -1,6 +1,7 @@
  for detail.\n
  formatting error code 
 !! refusing to trigger minidump with debugger attached\n
+&rxB
 ' is not a number.
 , last executing in 
 -1e+9999
@@ -367,7 +368,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS{
+RSDS
 RaiseException
 Reinitializing output duplication for desktop %d.\n
 ResetEvent
