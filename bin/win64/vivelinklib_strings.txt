@@ -796,7 +796,6 @@ true
 unknown compression method
 unknown zip result code
 upper
-v42g
 vector<T> too long
 vector<bool> too long
 vivebtdriver.exe

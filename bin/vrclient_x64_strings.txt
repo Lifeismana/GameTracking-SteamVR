@@ -3852,7 +3852,7 @@ QueryServiceConfigW
 RADV
 RGBG
 RPCRT4.dll
-RSDS
+RSDSz
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -6005,6 +6005,7 @@ action_set
 action_sets
 actions
 actionset
+activateOtherDriversWhenEnabled
 activate_threshold
 active
 activeActionSets

@@ -462,7 +462,7 @@
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-21:03:04
+21:49:39
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 30CSharedResourceNamespaceServer
@@ -1374,6 +1374,7 @@ Failed to spawn share thread for shared fd: %d\n
 Failed to wait for shared fd client\n
 Failed when reading payload of length %u: errno=%d\n
 FbcE
+Feb  5 2025
 February
 File path truncated\n
 FileSelect(dirent const*)
@@ -1529,7 +1530,6 @@ IsRunningInAppContainer()::s_bDeterminedAppContainerStatus
 IsRunningInAppContainer()::s_bIsRunningInAppContainer
 IsWorkstationLocked()
 JArray
-Jan  7 2025
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
