@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-13:58:53
+12:31:51
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -177,6 +177,7 @@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
+?LocalizationManager
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
@@ -303,7 +304,6 @@ Failed to write app container status to pipe %s after connecting because %s\n
 Failed to write event process handle after connecting because %s\n
 Failure
 Fatal
-Feb  5 2025
 Format string parse failure
 FormatMessageA
 FreeLibrary
@@ -336,7 +336,7 @@ IPCPipe(%s): Wrote %u bytes of total message length\n
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -344,6 +344,7 @@ IVRCompositorSystemInternal_XXX
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
+IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
@@ -390,12 +391,12 @@ Line %d, Column %d
 LoadLibraryA
 LocalAlloc
 LocalFree
-LocalizationManager
 MGiI
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
 MapViewOfFile
+Mar 11 2025
 MessageBoxA
 Minidump comment truncated
 Missing ',' or ']' in array declaration
@@ -454,7 +455,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS\te=E
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

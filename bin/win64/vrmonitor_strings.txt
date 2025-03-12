@@ -70,6 +70,7 @@
 !\r?host@QUrl@@QEBA?AVQString@@V?$QFlags@W4ComponentFormattingOption@QUrl@@@@@Z
 !systeminfo,os,gpu,cpu,cores,osmajor,osminor,osspversion
 "Language
+"T?setDevicePixelRatio@QPixmap@@QEAAXN@Z
 "Tokens
 "[english]
 "\n?dragMoveEvent@QAbstractScrollArea@@MEAAXPEAVQDragMoveEvent@@@Z
@@ -241,10 +242,10 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AULiquidVRDll@LiquidVR@@
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_3fd6e5ca82e0518e289160675f532929>@@
 .?AV<lambda_686bfc32f4bcce44b88d49e75aaf1c75>@@
 .?AV<lambda_687bbe8aaa1e7a7d821b415aa811bb6e>@@
 .?AV<lambda_7257f74de7e96abf43452d9052201b09>@@
-.?AV<lambda_b7b9ce01fc30bd3f000c47ae1d1582d3>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_f616c03a6102f2dea4d043e167000184>@@
 .?AV?$CCallResult@VCQVRWorkshopUploadDialog@@UCreateItemResult_t@@@@
@@ -273,10 +274,10 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_impl_no_alloc@P6A_ND@Z_ND@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3fd6e5ca82e0518e289160675f532929>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_686bfc32f4bcce44b88d49e75aaf1c75>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_687bbe8aaa1e7a7d821b415aa811bb6e>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7257f74de7e96abf43452d9052201b09>@@PEAXPEBD@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_b7b9ce01fc30bd3f000c47ae1d1582d3>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f616c03a6102f2dea4d043e167000184>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
@@ -745,7 +746,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-13:58:53
+12:31:51
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -4120,7 +4121,6 @@ Fails: %1
 Failure
 Fatal
 Feature Request
-Feb  5 2025
 Feedback
 File Not Found (103)
 File not found in the zipfile
@@ -4633,13 +4633,13 @@ IVRBlockQueue_005
 IVRCameraComponent_
 IVRCameraComponent_001
 IVRCameraComponent_002
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
 IVRCompositorSystemInternal_XXX
-IVRCompositor_028
+IVRCompositor_029
 IVRControlPanel_006
 IVRControllerComponent_
 IVRDebug_001
@@ -4647,6 +4647,7 @@ IVRDisplayComponent_
 IVRDisplayComponent_001
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
+IVRDriverInputInternal_XXX
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
@@ -4886,6 +4887,7 @@ Manufacturer:
 Manufacturer: 
 Manufacturer: %1\n
 MapViewOfFile
+Mar 11 2025
 MbP?
 MenuAction_AboutQt
 MenuAction_About_vrmonitor
@@ -6079,7 +6081,7 @@ RPCRT4.dll
 RSDS
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
-R\vp4
+R\vpt
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n

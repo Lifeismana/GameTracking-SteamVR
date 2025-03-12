@@ -17,7 +17,6 @@
 -1e+9999
 -Infinity
 -disableepm
--nRVW
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_260c84d0b9d401cca3ce58d3c7847fb5>@@
@@ -245,7 +244,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDS@X
 RaiseException
 RegCloseKey
 RegCreateKeyExW

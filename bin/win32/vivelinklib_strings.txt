@@ -639,6 +639,7 @@ Zjz\v
 \\.\pipe\HTC_BT_BSV2_PIPE_RECV_NAME
 \\.\pipe\HTC_BT_BSV2_PIPE_SEND_NAME
 \\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
+]NQC
 ^(::LHB::)([0-9A-F]{4})
 ^(::LHB::)([0-9A-F]{4})\s(RET:)([0-9A-F]{2})
 _CxxThrowException

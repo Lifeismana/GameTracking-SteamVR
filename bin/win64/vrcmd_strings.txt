@@ -1,3 +1,4 @@
+      %s (%d)\n
     %d pose jumps > 0.5 cm\n
     %d,  %lf %lf %lf, %lf %lf %lf\n
     (Previous: %llu)
@@ -75,8 +76,10 @@
 --spamhaptics
 --speedprops
 --startcapture
+--startlighthouserecording
 --stats
 --stopcapture
+--stoplighthouserecording
 --testdisabledashboard
 --testmessageoverlay
 --testpipe
@@ -98,6 +101,7 @@
 .?AV<lambda_1ecd3b48a05adf783036af8718bb8837>@@
 .?AV<lambda_20b84b0fb08762a3063e740444e60d61>@@
 .?AV<lambda_24ee0f64233c465d2a374777ebcfa21d>@@
+.?AV<lambda_30f3dcc7434776044341948b68d44605>@@
 .?AV<lambda_323e7ed949adb52c6683dcf639e5bbdb>@@
 .?AV<lambda_360280414641a81bf48c7e62f497588d>@@
 .?AV<lambda_3b74b7b94778e034323273b122ec9fc2>@@
@@ -108,6 +112,7 @@
 .?AV<lambda_51de58ccfc1afb1c6b5d6767d3a2105b>@@
 .?AV<lambda_51e6e166e2dc6ed753e067242cbb8bed>@@
 .?AV<lambda_56e39f268d4d29d1a86e3a0f2645c73e>@@
+.?AV<lambda_57d355bbac78b4a8d24872e98f99e048>@@
 .?AV<lambda_58c8a025649506b61407a3f07341a591>@@
 .?AV<lambda_5bb49cc7e122936b34195f22a654d27b>@@
 .?AV<lambda_6010c80f147b9df2ed84dd2933f5472f>@@
@@ -161,6 +166,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_1ecd3b48a05adf783036af8718bb8837>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_20b84b0fb08762a3063e740444e60d61>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_24ee0f64233c465d2a374777ebcfa21d>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_30f3dcc7434776044341948b68d44605>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_323e7ed949adb52c6683dcf639e5bbdb>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_360280414641a81bf48c7e62f497588d>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3b74b7b94778e034323273b122ec9fc2>@@X$$V@std@@
@@ -171,6 +177,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_51de58ccfc1afb1c6b5d6767d3a2105b>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_51e6e166e2dc6ed753e067242cbb8bed>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_56e39f268d4d29d1a86e3a0f2645c73e>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_57d355bbac78b4a8d24872e98f99e048>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_58c8a025649506b61407a3f07341a591>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5bb49cc7e122936b34195f22a654d27b>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6010c80f147b9df2ed84dd2933f5472f>@@X$$V@std@@
@@ -531,15 +538,16 @@ IPCPipe(%s): Wrote %u bytes of total message length\n
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorSystemInternal_XXX
-IVRCompositor_028
+IVRCompositor_029
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
+IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
@@ -828,8 +836,7 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
-R\vp>s
+RSDSSa
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -934,6 +941,7 @@ Unable to read event salt from pipe %s after connecting because %s\n
 Unable to read pid from pipe %s after connecting because %s\n
 Unable to write %u bytes to offset %u in %s\n
 UnhandledExceptionFilter
+Unknown Overlay flag (%d)
 Unknown VRApplicationsError (%d)
 Unknown class (%d)
 Unknown command '%s'\n
@@ -1181,6 +1189,29 @@ VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VRInitError_VendorSpecific_WindowsNotInDevMode
+VROverlayFlags_EnableClickStabilization
+VROverlayFlags_EnableControlBar
+VROverlayFlags_EnableControlBarClose
+VROverlayFlags_EnableControlBarKeyboard
+VROverlayFlags_HideLaserIntersection
+VROverlayFlags_IgnoreTextureAlpha
+VROverlayFlags_IsPremultiplied
+VROverlayFlags_MakeOverlaysInteractiveIfVisible
+VROverlayFlags_MultiCursor
+VROverlayFlags_NoDashboardTab
+VROverlayFlags_Panorama
+VROverlayFlags_ProtectedContent
+VROverlayFlags_SendVRDiscreteScrollEvents
+VROverlayFlags_SendVRSmoothScrollEvents
+VROverlayFlags_SendVRTouchpadEvents
+VROverlayFlags_ShowTouchPadScrollWheel
+VROverlayFlags_SideBySide_Crossed
+VROverlayFlags_SideBySide_Parallel
+VROverlayFlags_SortWithNonSceneOverlays
+VROverlayFlags_StereoPanorama
+VROverlayFlags_TransferOwnershipToInternalProcess
+VROverlayFlags_VisibleInDashboard
+VROverlayFlags_WantsModalBehavior
 VRPaths
 VRSystem is null in watchdog mode\n
 VR_CONFIG_PATH
@@ -1477,6 +1508,8 @@ openvr
 openvr_api.dll
 openvrpaths.vrpath
 operation
+output_path
+overlayflags=0x%08X 
 params
 path
 pid_%04x
@@ -1487,6 +1520,7 @@ portuguese
 pt_br
 pt_pt
 rand
+record
 rejectDupKeys
 reprojected_frames
 reprojected_frames_loading
@@ -1513,6 +1547,7 @@ startup
 status
 steam.app.1234
 stopcapture
+stoprecord
 strcat_s
 strictRoot
 string too long

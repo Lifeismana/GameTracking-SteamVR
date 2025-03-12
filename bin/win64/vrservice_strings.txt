@@ -501,7 +501,7 @@ $d`D-laM
 0pp@5tqE?|sO541
 1!1'1-191C1E1K1]1a1g1m1s1
 11M|
-13:58:53
+12:31:51
 14 (default)
 1H@H
 1\v5#d
@@ -1758,7 +1758,6 @@ Failed to terminate service process(%d)
 Failed to write app container status to pipe %s after connecting because %s\n
 Failed to write event process handle after connecting because %s\n
 Fatal
-Feb  5 2025
 Field Type: %s\n
 Field=
 FindClose
@@ -1999,6 +1998,7 @@ MainThrd
 MakeStartableForAllUsers
 Management
 MapViewOfFile
+Mar 11 2025
 Mask Algorithm: 
 MessageBoxW
 Microsoft CSP Name
@@ -2411,6 +2411,7 @@ Q/xtJ2
 QPeA~S
 QSeA~
 Qjh/T
+Qr:2-
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceObjectSecurity

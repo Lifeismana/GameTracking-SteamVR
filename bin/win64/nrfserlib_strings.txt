@@ -1056,7 +1056,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS
+RSDS?
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n
@@ -1224,6 +1224,7 @@ Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 Zjz\v
+Z}Fj
 [%s] Initialization attempt: %d\n
 [%s] Initialization failed after %d attempts and %.3f seconds\n
 [%s] Initialization succeeded after %d attempts and %.3f seconds\n

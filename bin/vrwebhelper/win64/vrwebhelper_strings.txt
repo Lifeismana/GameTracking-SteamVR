@@ -51,6 +51,7 @@
 .?AV<lambda_09e1eef475eb04f2d2c1e432de9374eb>@@
 .?AV<lambda_0ca07a9722ec1f4e3ead23ff302e8379>@@
 .?AV<lambda_0cf5bf86d553d341ac5b890e248f341f>@@
+.?AV<lambda_1379236db91ab47d509e6b03d88f4170>@@
 .?AV<lambda_1512bb23cf3352db205aa1d7d68d5287>@@
 .?AV<lambda_17bc57861f0f3a2d38c439a5c69073b4>@@
 .?AV<lambda_18c2f4fe5833dde12a1a854bf3fe88c9>@@
@@ -58,15 +59,18 @@
 .?AV<lambda_1c5076e7ec8936b7cd97d66b4c9e08a6>@@
 .?AV<lambda_1cc4271983c9d5c5f44e732df5976c5d>@@
 .?AV<lambda_1d00482917b3fc1508f630bb87c53b5f>@@
+.?AV<lambda_1d6a6a2b85e35fa5b6f34645ebbd6e2c>@@
 .?AV<lambda_283a3330b95e5191ca36293e3a2ddd3a>@@
+.?AV<lambda_28cda170f995934b92ef44bcca78dff1>@@
 .?AV<lambda_28e44ae6d3b41945641446fa3b3f9b9b>@@
 .?AV<lambda_2971968dabe2a4def218b6d4576e314d>@@
 .?AV<lambda_2c2fba081a9c7f253ffb0be449beca57>@@
 .?AV<lambda_2c96dbe4dbf249b8428820ee32e69323>@@
+.?AV<lambda_2cd1b900664cf83fdcf725d82c559e4e>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_2de119738c8b48a8bea1653ef117a48d>@@
 .?AV<lambda_2f252f694aa65b065eade09acfd49981>@@
-.?AV<lambda_301aa702b4c6fffb2b44e4a4f04cc56b>@@
+.?AV<lambda_327caf153951ac28476c73fbcafb7cf1>@@
 .?AV<lambda_3440ef2a812992a4f3cf245b9db03e4c>@@
 .?AV<lambda_3dcf38ae2a20ba43105dc38ae45fd1bb>@@
 .?AV<lambda_401b5dd15efdc26761ae3b8ea1823f88>@@
@@ -77,7 +81,6 @@
 .?AV<lambda_483870017df40bd3b7c81b7c3099dae8>@@
 .?AV<lambda_4a405040d7673e9f5c4a9cc820c8c12e>@@
 .?AV<lambda_4a85699df7b55d01df1dbfef3dde6d70>@@
-.?AV<lambda_4c531fab8be8c1743e7a14f2ba82e5b7>@@
 .?AV<lambda_4c734e7b7ab0decee34e043696b417a1>@@
 .?AV<lambda_4d375c96e7e18af7104c6657eae5aa99>@@
 .?AV<lambda_5071202ed5e366f3c5a084428fdf753c>@@
@@ -93,6 +96,7 @@
 .?AV<lambda_69142ae33fc68971ab9517d8d19b16d4>@@
 .?AV<lambda_6ae23e969401a57e5262a208bdc3b388>@@
 .?AV<lambda_6aea27856a74aa292d4e5b1ffc64942c>@@
+.?AV<lambda_6cad68b163304ec7f73e2692ffb71bc8>@@
 .?AV<lambda_6d8fd5e9840e426618684feae123d314>@@
 .?AV<lambda_6e1d365a63898ea65816557737c22a4b>@@
 .?AV<lambda_6f22078fed7235887e5450d4788e8ff9>@@
@@ -127,6 +131,7 @@
 .?AV<lambda_90411ff0f008f9a087c9b16591659692>@@
 .?AV<lambda_9079bb928fce830dc9375c604b5b69a7>@@
 .?AV<lambda_945ed55ea9201846bd121833b35f54c4>@@
+.?AV<lambda_96316157ec691de021aa69db651f0d9c>@@
 .?AV<lambda_981c3e9f9c1162a2dcc40ae71de46103>@@
 .?AV<lambda_98e6cd95438b1f6d7bc676b4a4ff6b7f>@@
 .?AV<lambda_99b4899bb4115ed12839f66342bb4532>@@
@@ -143,7 +148,6 @@
 .?AV<lambda_ab0352938a459d817ddc43036cc9e95f>@@
 .?AV<lambda_ab5f7900de84fe7a30c4499bf612cd15>@@
 .?AV<lambda_ae358dd38af25d8489c2ed4b193f0f03>@@
-.?AV<lambda_ae840ec1e833563da999c3c291e4c195>@@
 .?AV<lambda_aee1c6e7b48d144dd3c114e09d35b580>@@
 .?AV<lambda_b4357c610f7fce6a108d2cd0677884a8>@@
 .?AV<lambda_b77012c3b48dfb3aed6595c3d234d5d8>@@
@@ -156,18 +160,24 @@
 .?AV<lambda_c596a934bb740c31e043413b6cad5109>@@
 .?AV<lambda_c5b5758d920f82f77894ba7cb4b9b0a9>@@
 .?AV<lambda_c91c3600555f7c2eb1161e6e1693b38e>@@
+.?AV<lambda_c97f1d6f58ccd46024451fc05b11be80>@@
 .?AV<lambda_c9a0c3d3717666a634eece054db41e13>@@
+.?AV<lambda_ca1a34e75583473ac69f8c26426de1f5>@@
 .?AV<lambda_cac93843aaf57ed69e7ab3af6ebf38c9>@@
 .?AV<lambda_cc9147f1ff321c8d876bbdf7414c4e7e>@@
 .?AV<lambda_cd0cf8d663632c4c4fd24d5d87f8fba7>@@
 .?AV<lambda_d0da7b064c429429c8ac5e6bb0722ab8>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_d1b48b8cfe67b05ab8c98df39f1fc62f>@@
+.?AV<lambda_d259f19f16b0491ceb686c4f3521b718>@@
 .?AV<lambda_d286690f83c11f35768d8d047d15cc8d>@@
 .?AV<lambda_d7e7f7055ad1b5f464f24eb88d6aed10>@@
+.?AV<lambda_d8eb2e9995f80f4db4a32fc45746e6c1>@@
 .?AV<lambda_d938c738c531b038b57e07b452e5eddd>@@
+.?AV<lambda_d9d927539fc55050ba68b27592f64bd7>@@
 .?AV<lambda_dc1c5c0f7637a2507c53b120e7208cf1>@@
 .?AV<lambda_dfb5b7ae542318eabfac102c619d5fe8>@@
+.?AV<lambda_e5bcffa07faf8b989031773620f471b7>@@
 .?AV<lambda_e63d1f02475e9c2b1db74c2645695a07>@@
 .?AV<lambda_e6e02ff4dad48f238895d87278ba95eb>@@
 .?AV<lambda_e732acb38691d146bf84245a283c825f>@@
@@ -217,6 +227,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_09e1eef475eb04f2d2c1e432de9374eb>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0ca07a9722ec1f4e3ead23ff302e8379>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0cf5bf86d553d341ac5b890e248f341f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1379236db91ab47d509e6b03d88f4170>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1512bb23cf3352db205aa1d7d68d5287>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_17bc57861f0f3a2d38c439a5c69073b4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_18c2f4fe5833dde12a1a854bf3fe88c9>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -224,15 +235,18 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_1c5076e7ec8936b7cd97d66b4c9e08a6>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1cc4271983c9d5c5f44e732df5976c5d>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1d00482917b3fc1508f630bb87c53b5f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1d6a6a2b85e35fa5b6f34645ebbd6e2c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_283a3330b95e5191ca36293e3a2ddd3a>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_28cda170f995934b92ef44bcca78dff1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_28e44ae6d3b41945641446fa3b3f9b9b>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2971968dabe2a4def218b6d4576e314d>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2c2fba081a9c7f253ffb0be449beca57>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2c96dbe4dbf249b8428820ee32e69323>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2cd1b900664cf83fdcf725d82c559e4e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2de119738c8b48a8bea1653ef117a48d>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2f252f694aa65b065eade09acfd49981>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_301aa702b4c6fffb2b44e4a4f04cc56b>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_327caf153951ac28476c73fbcafb7cf1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3440ef2a812992a4f3cf245b9db03e4c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3dcf38ae2a20ba43105dc38ae45fd1bb>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_401b5dd15efdc26761ae3b8ea1823f88>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -243,7 +257,6 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_483870017df40bd3b7c81b7c3099dae8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4a405040d7673e9f5c4a9cc820c8c12e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4a85699df7b55d01df1dbfef3dde6d70>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_4c531fab8be8c1743e7a14f2ba82e5b7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4c734e7b7ab0decee34e043696b417a1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4d375c96e7e18af7104c6657eae5aa99>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5071202ed5e366f3c5a084428fdf753c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -259,6 +272,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_69142ae33fc68971ab9517d8d19b16d4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6ae23e969401a57e5262a208bdc3b388>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6aea27856a74aa292d4e5b1ffc64942c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6cad68b163304ec7f73e2692ffb71bc8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6d8fd5e9840e426618684feae123d314>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6e1d365a63898ea65816557737c22a4b>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6f22078fed7235887e5450d4788e8ff9>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -293,6 +307,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_90411ff0f008f9a087c9b16591659692>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9079bb928fce830dc9375c604b5b69a7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_945ed55ea9201846bd121833b35f54c4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_96316157ec691de021aa69db651f0d9c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_981c3e9f9c1162a2dcc40ae71de46103>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_98e6cd95438b1f6d7bc676b4a4ff6b7f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_99b4899bb4115ed12839f66342bb4532>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -309,7 +324,6 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_ab0352938a459d817ddc43036cc9e95f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ab5f7900de84fe7a30c4499bf612cd15>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ae358dd38af25d8489c2ed4b193f0f03>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_ae840ec1e833563da999c3c291e4c195>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_aee1c6e7b48d144dd3c114e09d35b580>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4357c610f7fce6a108d2cd0677884a8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b77012c3b48dfb3aed6595c3d234d5d8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -322,18 +336,24 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_c596a934bb740c31e043413b6cad5109>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c5b5758d920f82f77894ba7cb4b9b0a9>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c91c3600555f7c2eb1161e6e1693b38e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c97f1d6f58ccd46024451fc05b11be80>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c9a0c3d3717666a634eece054db41e13>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ca1a34e75583473ac69f8c26426de1f5>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cac93843aaf57ed69e7ab3af6ebf38c9>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cc9147f1ff321c8d876bbdf7414c4e7e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cd0cf8d663632c4c4fd24d5d87f8fba7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d0da7b064c429429c8ac5e6bb0722ab8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1b48b8cfe67b05ab8c98df39f1fc62f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d259f19f16b0491ceb686c4f3521b718>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d286690f83c11f35768d8d047d15cc8d>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d7e7f7055ad1b5f464f24eb88d6aed10>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d8eb2e9995f80f4db4a32fc45746e6c1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d938c738c531b038b57e07b452e5eddd>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d9d927539fc55050ba68b27592f64bd7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dc1c5c0f7637a2507c53b120e7208cf1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dfb5b7ae542318eabfac102c619d5fe8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e5bcffa07faf8b989031773620f471b7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e63d1f02475e9c2b1db74c2645695a07>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6e02ff4dad48f238895d87278ba95eb>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e732acb38691d146bf84245a283c825f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -519,13 +539,22 @@
 .xdata$x
 //==============================================================================================\n
 /best_alias_path
+/chaperone/collision_radius
+/chaperone/perimeter
+/chaperone/play_area
+/chaperone/seated/transform
+/chaperone/setup_standing/transform
+/chaperone/showing_working_pid
+/chaperone/standing/transform
+/chaperone/state
+/chaperone/temporary_playing_outside_playspace_time
+/chaperone/tracking_anchored
 /client_streaming_mode_on_demand
 /client_will_handle_dashboard_state
 /dashboard_head_pose_from_standing
 /device_path
 /is_link_environment
 /is_server_dashboard_visible
-/last_server_dashboard_visible_time
 /link_stream_packet_time
 /system/wakingbasestations
 /user/ankle/left
@@ -546,9 +575,8 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-0hE\f
 127.0.0.1
-13:58:53
+12:31:51
 1e+9999
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
@@ -643,6 +671,7 @@ A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A"QT
 ACTIVE
+ACuC
 ADVAPI32.dll
 ASSERT: "%s" at %s:%d.\n
 AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY\n
@@ -818,7 +847,6 @@ Failed to register method with empty name
 Failed to write app container status to pipe %s after connecting because %s\n
 Failed to write event process handle after connecting because %s\n
 Fatal
-Feb  5 2025
 File Not Found (103)
 Firmware Recovery In Progress (139)
 Firmware Update In Progress (138)
@@ -968,15 +996,16 @@ IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND\n
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorSystemInternal_XXX
-IVRCompositor_028
+IVRCompositor_029
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
+IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
@@ -1048,6 +1077,7 @@ MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
 MapViewOfFile
+Mar 11 2025
 MessageBoxA
 Mirroring from %s to %ls\n
 Mirroring is same as source %s, not mirroring\n
@@ -1098,7 +1128,6 @@ Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
 Parsing of JSON string "%s" failed: %s\n
 PeekNamedPipe
-PhE\f
 Pro Audio
 PromptUserForDirectMode
 PropVariantClear
@@ -1132,6 +1161,7 @@ RegisterForAudioDeviceChangedEvents
 RegisterForBatteryStateChangedEvents
 RegisterForBindingSubscriptionChangedEvents
 RegisterForChaperoneChangedEvents
+RegisterForChaperoneStatusEvents
 RegisterForDesktopViewReadyEvents
 RegisterForDesktopViewUpdatingEvents
 RegisterForDeviceEvents
@@ -1141,6 +1171,7 @@ RegisterForEyeTrackingServerStatus
 RegisterForFirmwareStateChangedEvents
 RegisterForGamepadFocusChangedEvents
 RegisterForIPDEvents
+RegisterForInHmdRoomSetupChangedEvents
 RegisterForKeyboardVisibilityChangedEvents
 RegisterForLinkStreamStatusEvents
 RegisterForMutualSteamCapabilitiesChanged
@@ -1383,14 +1414,21 @@ VRAudioDevices.SetMasterSoundVolumeMute
 VRAudioDevices.SetMirrorSoundVolume
 VRAudioDevices.SetMirrorSoundVolumeMute
 VRAudioDevices_Init
-VRChaperone is not available
 VRChaperone.ForceBoundsVisible
 VRChaperone.GetPlayAreaSize
 VRChaperone.ResetZeroPose
+VRChaperone.SetOkOutsidePlayspace
+VRChaperone.StartInHMDRoomSetup
+VRChaperoneSetup.ClearRoomSetup
+VRChaperoneSetup.CommitDynamicFloorHeight
+VRChaperoneSetup.CommitDynamicFloorRadius
 VRChaperoneSetup.CommitWorkingCopy
 VRChaperoneSetup.GetLiveCollisionBoundsInfo
 VRChaperoneSetup.HideWorkingSetPreview
+VRChaperoneSetup.ResetDynamicFloorHeight
+VRChaperoneSetup.ResetPlayspaceRadius
 VRChaperoneSetup.RevertWorkingCopy
+VRChaperoneSetup.SetFloorDetectEnabled
 VRChaperoneSetup.SetWorkingPerimeter
 VRChaperoneSetup.SetWorkingPlayAreaSize
 VRChaperoneSetup.SetWorkingStandingZeroPoseToRawTrackingPose
@@ -1399,6 +1437,8 @@ VRClientInternal is not available
 VRClientInternal.GetGraphicsHardwareVendorInfo
 VRClientInternal.GetMutualSteamCapabilities
 VRCompositor.GetTrackingSpace
+VRCompositor.IsDashboardVisibleInternal
+VRCompositor.SetAnimatedValue
 VRControlPanel
 VRControlPanel.SetCameraRoomViewVisible
 VRDashboardManager.CloseKeyboard
@@ -1986,6 +2026,7 @@ cef_v8value_create_object
 cef_v8value_create_string
 cef_v8value_create_uint
 changeCallback.m_unOptionalUserData == ulHandle
+channel
 charMax
 chrome-devtools://
 client
@@ -2031,7 +2072,9 @@ disable-spell-checking
 disable_environment
 dockedInDashboard
 double
+driver_hmd
 dropNullPlaceholders
+duration
 dutch
 dxgi.dll
 eCapture
@@ -2044,6 +2087,7 @@ eTrackingResult
 eVendor
 el_gr
 en_us
+enable
 enable-blink-features
 enable-experimental-web-platform-features
 enablePlaybackMirrorIndependentVolume
@@ -2154,6 +2198,7 @@ memset
 message_id
 message_type
 mfplat.dll
+mode
 modf
 nBytesPerPixel invalid
 nHeightInPixels must be positive
@@ -2189,7 +2234,6 @@ parameters
 persist_layout
 persist_visibility
 persisted
-phE\f
 pixel_size
 pl_pl
 polish
@@ -2224,6 +2268,7 @@ retired_sgids
 returnAddress
 ro_ro
 romanian
+room_setup
 rotation
 roundf
 ru_ru
@@ -2249,6 +2294,7 @@ scene_graph
 schinese
 second argument must be ETrackedDeviceProperty
 server
+set_animated_value
 setopenxrapilayerstate 
 setting
 settings_desktop

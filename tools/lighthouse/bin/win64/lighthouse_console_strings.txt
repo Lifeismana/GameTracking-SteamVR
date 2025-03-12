@@ -743,6 +743,7 @@ DISTORT_POLY2
 DISTORT_POLY2_TANGENT
 DISTORT_POLY3
 DISTORT_POLY3_TANGENT
+DISTORT_POLY3_TANGENT_SCALED
 DISTORT_R1_POLY_4
 DISTORT_RPOLY2_1
 DISTORT_RPOLY2_2
@@ -979,7 +980,7 @@ IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRBlockQueue_005
 IVRCameraComponent_003
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
@@ -1143,7 +1144,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS
+RSDSTG
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1392,6 +1393,7 @@ Wrote %d bytes to %s\n
 Wrote 0x%X to 0x%X\n
 Wrote the contents of %s as the config on the device\n
 XsBI
+Y]Ep
 Zjz\v
 [h1R
 [invalid]\t%d\n
@@ -1638,6 +1640,7 @@ display_usb_protocol
 display_usb_vid
 dist=%0.3lfm pos=%0.3lf,%0.3lf,%0.3lf angle=%0.3lf,%0.3lf,%0.3lf error=%.05e
 distort
+distortion
 distortion_blue
 distortion_red
 dongleinfo
@@ -1723,7 +1726,6 @@ fmod
 focal_x
 focal_y
 fopen
-force_old_controller_radio
 forcepairall
 fpgaread
 fpgaread addr\n
@@ -2171,7 +2173,7 @@ wn>Jj
 wrong submessage type
 y9*O
 y?driver
-y@distortion
+y@display_serial_number
 zDUUPE
 zd?/n
 zh_cn

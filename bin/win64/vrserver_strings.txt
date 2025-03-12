@@ -48,6 +48,8 @@
 !g_pSharedResourceNamespaceServer
 !m_dashboardStartedEvent.Check()
 !m_prismStartupEvent.Check()
+!sFind.empty()
+!sString.empty()
 " because it is missing required fields: 
 " conflicts with the existing symbol "
 " does not.
@@ -184,6 +186,7 @@ $\n k_EProtoServiceTypeSteamMessages
 %lu OOM
 %lu WS CLOSE
 %lu accept failed, errno %d
+%lu detaching HTTP handler
 %s %lf , %lf , %lf , %lf , %f , %f , %f
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s - %dth app has no app key. Skipping.\n
@@ -792,6 +795,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCSimulatedTrackpadClick@@
 .?AVCSimulatedTriggerPull@@
 .?AVCSingletonCriticalSection@@
+.?AVCSteamSteamVRPrivate001@@
 .?AVCSteamVR_AudioSettings_ChangeSettings_Request@@
 .?AVCSteamVR_AudioSettings_RegisterForSettings_Request@@
 .?AVCSteamVR_AudioSettings_Settings@@
@@ -1132,6 +1136,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVIServerDriverHost_002_003@@
 .?AVIServerTrackedDeviceProvider@vr@@
 .?AVISharedMem@IPC@@
+.?AVISteamSteamVRPrivate001@@
 .?AVISteamWorkerThreadCallback@@
 .?AVISyncObject@IPC@@
 .?AVITrackedDeviceServerDriver@vr@@
@@ -1161,6 +1166,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVIVRDriverDirectModeComponent_007@@
 .?AVIVRDriverDirectModeComponent_008@@
 .?AVIVRDriverInput@vr@@
+.?AVIVRDriverInputInternal@vr@@
 .?AVIVRDriverLog@vr@@
 .?AVIVRDriverManager@vr@@
 .?AVIVRDriverSpatialAnchors@vr@@
@@ -1382,6 +1388,7 @@ $\n k_EProtoServiceTypeSteamMessages
 /bound_tracker_path
 /bound_tracker_role
 /camera_compatibility.action
+/chaperone/collision_radius
 /chaperone/perimeter
 /chaperone/play_area
 /chaperone/seated/transform
@@ -1389,6 +1396,8 @@ $\n k_EProtoServiceTypeSteamMessages
 /chaperone/showing_working_pid
 /chaperone/standing/transform
 /chaperone/state
+/chaperone/temporary_playing_outside_playspace_time
+/chaperone/tracking_anchored
 /click
 /client_info/app_key
 /client_info/app_type
@@ -1408,10 +1417,8 @@ $\n k_EProtoServiceTypeSteamMessages
 /controller_type/
 /dashboard/controllerbinding.html
 /dashboard/systemreportviewer.html
-/dashboard/visible
 /data
 /device_path
-/device_was_drawn
 /devices.json
 /devices/
 /devices/*
@@ -1608,23 +1615,20 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899`
 0123456789ABCDEF
 0123456789abcdef
-050@
-070@
-0D7@
-0I7@
-0L8@
-0Z7@
-0bG(
-0e7@
+04o(
+083@
+0m7@
+0n7@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-13:58:53
+12:31:51
 1A26b
 1\f514
 1e+9999
@@ -1644,20 +1648,13 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-840@
-8A8@
-8E7@
-8J7@
-8P8@
-8Q8@
-8Z8@
+893@
 8\n\textension
-8c8@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8v7@
+8t8@
 8w7@
 9\n\noneof_decl
 9a&g
@@ -1936,6 +1933,7 @@ Byte size calculation and serialization were inconsistent.  This may indicate a 
 C-Yn
 CAnimResource
 CAppInfoManager::LaunchApplication
+CAppInfoManager::NoMoreSceneAppTransition
 CAppInfoManager::RunFrame
 CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
 CAudioEndpointVolumeCallback::Register
@@ -2006,9 +2004,9 @@ CPPTYPE_UINT32
 CPPTYPE_UINT64
 CPackedBoneTransforms
 CPoseExtrapolateRNN: Loading weights from: %s\n
-CPoseExtrapolator dev:%u - Reset
 CPoseExtrapolator device %u: Reset (dropped data, dt %f)
 CPoseExtrapolator device %u: Skipping update (input not all finite)
+CPoseExtrapolator: Big negative time jump %0.04f -> %0.04f (dt: %0.04f)
 CRemotePerfStats::CRemotePerfStats
 CRemotePerfStats::Decompress
 CRenderModelManager::GetRenderModelAbsolutePath
@@ -2356,7 +2354,7 @@ Connection Broken
 Connection Closed Without Response
 Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x\n
 Console Commands:\n
-Content length missing from request
+Content length missing from %s
 Content-Encoding: gzip\r\n
 Content-Length
 Content-Range: bytes %llu-%llu/%llu\r\n
@@ -2417,6 +2415,7 @@ Creating webui for %s=%s
 CurrentURL
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
+D7q/;M
 DELEGATE 
 DISABLED
 DXGI VSync Thread ended\n
@@ -2660,7 +2659,6 @@ Failed to write process id after connecting pipe %s because %s\n
 Failed: %s, errno %d
 False
 Fatal
-Feb  5 2025
 Field "
 Field does not match message type.
 Field is repeated; the method requires a singular field.
@@ -2806,17 +2804,9 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
-H08@
-H18@
-H28@
-H38@
-H40@
-H48@
-H58@
+H83@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
-HG7@
-HL7@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2837,6 +2827,7 @@ HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
+HO7@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2851,10 +2842,9 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
-HY8@
+HY7@
 Hang the server for the specified number of seconds (default 3600)
 HasField
-Hd8@
 Hex and octal numbers must be integers.
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
@@ -2863,9 +2853,8 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HostController
 How did we get here with a non-position slot?
-Hp0@
-Ht7@
-Hu7@
+Hw8@
+Hy7@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -2955,7 +2944,7 @@ IVRBlockQueue_005
 IVRCameraComponent_
 IVRCameraComponent_001
 IVRCameraComponent_002
-IVRChaperoneInternal_001
+IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -2968,6 +2957,7 @@ IVRDisplayComponent_
 IVRDisplayComponent_001
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
+IVRDriverInputInternal_XXX
 IVRDriverInput_
 IVRDriverInput_001
 IVRDriverInput_002
@@ -3217,7 +3207,6 @@ Lost master process %u due to pipe corruption. Quitting all in %g seconds if it 
 Lost master process %u due to restart hint. Quitting all in %g seconds if it doesn't reconnect. \n
 Lost master process %u for an unknown reason. Quitting all immediately. \n
 Low Power Watchdog Not Supported (129)
-Lp0@
 LwH'
 M8MF
 MAT2
@@ -3257,8 +3246,9 @@ Mailbox name %s is longer than the %u limit.\n
 Main Thread
 MainThrd
 MapViewOfFile
+Mar 11 2025
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
-Mbp?
+Mbp?{
 Message class "
 Message extensions cannot have required fields.
 Message missing required fields: 
@@ -3398,15 +3388,11 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P50@
-PC8@
+P4o(
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
-PGB@
-PH7@
 PICT
 PID_
-PK0@
 PLACEHOLDER_VALUE
 PM7@
 PNG\r\n
@@ -3438,8 +3424,7 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-PT0@
-PX8@
+PX7@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3451,11 +3436,13 @@ Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
 Pe6^
+Pe7@
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
+Playback devices:\n
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
 Positional emitter description not found.
@@ -3714,7 +3701,9 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS-H
+RSDS$
+R\np0
+R\vp0
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3733,6 +3722,7 @@ Received mirror reset event after %u passes, %llu samples\n
 Received mirror reset event\n
 Received mirror stop event after %u passes, %llu samples\n
 Received mirror stop event\n
+Recording devices:\n
 Redirecting...\n
 Referer
 Refreshing audio devices\n
@@ -3964,6 +3954,7 @@ Shared IPC Mutex Init Failed (304)
 Shared IPC Namespace Unavailable (310)
 Shared IPC State Init Failed (302)
 ShellExecuteA
+ShowDashboard on app exit\n
 Shutdown SteamVR
 ShutdownSystem not implemented on this architecture
 Shutting down server after %0.1f seconds. Recent Disconnect: %s; Waiting for connection statuses: Foreground: %d Monitor: %d Web: %d\n
@@ -4037,6 +4028,7 @@ SteamNetworkingMessages002
 SteamNetworkingSockets012
 SteamNetworkingUtils004
 SteamParties002
+SteamSteamVRPrivate001
 SteamStreaming
 SteamUser023
 SteamUtils010
@@ -4053,7 +4045,9 @@ Swap
 Switching Protocols
 Symbol name "
 Syntax error: value, object or array expected.
+System audio devices:\n
 SystemTimeToFileTime
+T83@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -4140,6 +4134,7 @@ Tried to merge messages of different types
 Tried to start binary process %s %s (working directory %s) as app %s but it failed\n
 Tried to start internal process %s %s (working directory %s) from app %s, pid %u but it failed\n
 True
+Ts\ne
 Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
@@ -4382,7 +4377,7 @@ VREvent_ButtonUntouch
 VREvent_CameraSettingsHaveChanged
 VREvent_ChaperoneDataHasChanged
 VREvent_ChaperoneFlushCache
-VREvent_ChaperoneRoomSetupFinished
+VREvent_ChaperoneRoomSetupCommitted
 VREvent_ChaperoneRoomSetupStarting
 VREvent_ChaperoneSettingsHaveChanged
 VREvent_ChaperoneTempDataHasChanged
@@ -4404,6 +4399,9 @@ VREvent_DashboardActivated
 VREvent_DashboardDeactivated
 VREvent_DashboardOverlayCreated
 VREvent_DashboardSectionSettingChanged
+VREvent_DashboardThumbChanged
+VREvent_DesktopMightBeHidden
+VREvent_DesktopMightBeVisible
 VREvent_DesktopViewReady
 VREvent_DesktopViewUpdating
 VREvent_DismissedWarningsSectionSettingChanged
@@ -4453,6 +4451,7 @@ VREvent_Monitor_ShowHeadsetView
 VREvent_MouseButtonDown
 VREvent_MouseButtonUp
 VREvent_MouseMove
+VREvent_MutualSteamCapabilitiesChanged
 VREvent_None
 VREvent_Notification_BeginInteraction
 VREvent_Notification_Destroyed
@@ -4462,6 +4461,8 @@ VREvent_NotificationsSectionSettingChanged
 VREvent_NullSectionSettingChanged
 VREvent_OtherSectionSettingChanged
 VREvent_OverlayClosed
+VREvent_OverlayCreated
+VREvent_OverlayDestroyed
 VREvent_OverlayFocusChanged
 VREvent_OverlayGamepadFocusGained
 VREvent_OverlayGamepadFocusLost
@@ -5061,6 +5062,7 @@ Warning: vrclient connection from %s with client DLL "%s" (v%u.%u.%u)\n
 Watchdog disabled in settings (132)
 We don't yet have an input context. This should be okay, but noted.\n
 We got an unexpected error while waiting for a server event
+Weak RNG: using rand()
 Web Thread
 Web language is %s\n
 WebInterface
@@ -5105,21 +5107,10 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X40@
-X60@
-X70@
-XB8@
-XI7@
-XI8@
-XN7@
-XS8@
-XW8@
+XW7@
 XXXX PNG chunk not known
-Xe8@
-Xg7@
-Xg8@
-Xh0@
 XsBI
+Xx7@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -5131,7 +5122,7 @@ Zjz\v
 [Controller Setup] CreateControllerTypeFromPathIfDriverPresent failed. Not creating controller type '%s' because driver '%s' isn't present.\n
 [Controller Setup] CreateHMDControllerTypeFromPath failed. Unable to load default input profile %s: %s
 [Controller Setup] CreateHMDControllerTypeFromPathIfDriverPresent failed. Not creating controller type '%s' because driver '%s' isn't present.\n
-[Controller Setup] CreateOrUpdateControllerType failed. Input profile somehow got through OnDeviceActivated with no controller type\n\n %s
+[Controller Setup] CreateOrUpdateControllerType failed. Input profile somehow got through OnDeviceActivated with no controller type\n%s
 [Controller Setup] Failed to load input profile for device: %s\n
 [Controller Setup] Warning: Cannot use 'compatibility_mode_controller_type' and 'remapping' in the same input profile. 'compatibility_mode_controller_type' will be ignored.\n
 [Controller Setup] Warning: Cannot use 'fallback_controller_type' and 'compatibility_mode_controller_type' in the same input profile. 'fallback_controller_type' will be ignored.\n
@@ -5461,6 +5452,7 @@ Zjz\v
 \U%08x
 \b\d+\b\s*$
 \fUk#pb
+\fp4o(
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -5514,7 +5506,8 @@ Zjz\v
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \rmj>zjZ
-\rp\f`\vP\n0 G(
+\rp\f`\v0\nP|n(
+\t%s%s,%u,%s,%s,VID_%04X/PID_%04X,%s,%s\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
@@ -5687,6 +5680,7 @@ advpredictweights
 aggregate_value
 alias_info
 alias_info field exists, but it is not an object
+allowAdvPredict
 allowComments
 allowDroppedNullPlaceholders
 allowNumericKeys
@@ -5932,6 +5926,7 @@ cntrl
 collectComments
 collisionBounds
 collision_bounds
+collision_radius
 color
 com.google.protobufB
 commentStyle
@@ -5972,6 +5967,10 @@ controllerType
 controller_axis
 controller_axis_component
 controller_button
+controller_button_dpad_down
+controller_button_dpad_left
+controller_button_dpad_right
+controller_button_dpad_up
 controller_handed
 controller_profile
 controller_role
@@ -6079,7 +6078,11 @@ double_thresholds
 dpad
 dpad_
 dpad_click
+dpad_down_path
+dpad_left_path
+dpad_right_path
 dpad_touch
+dpad_up_path
 driver
 driver is disabled in settings
 driver not found (check vrpathreg)
@@ -6279,10 +6282,45 @@ grip_limit_transforms
 group
 guid
 gzip
-h40@
-hK7@
+h08@
+h18@
+h28@
+h38@
+h48@
+h58@
+h68@
+h78@
+h88@
+h98@
+hA8@
+hB8@
+hC8@
+hD8@
+hE8@
+hF8@
+hG8@
+hH8@
+hI8@
+hJ8@
+hK8@
+hL8@
+hM8@
+hN8@
+hO8@
+hP8@
 hPU3
+hQ8@
+hR8@
+hS8@
 hT8@
+hU7@
+hU8@
+hV8@
+hW8@
+hX8@
+hY8@
+hZ8@
+ha8@
 half_thresholds
 hand_priority
 hand_right_poses.glb
@@ -6294,14 +6332,22 @@ haptic_amplitude
 haptics
 has_click
 has_touch
+hb8@
+hc8@
+hd8@
+he8@
 header
 header crc mismatch
 height
 held
 hex_property
-hh0@
+hf8@
+hg8@
+hh8@
+hi8@
 hidden
 hide_callout
+hj8@
 hlvr/mailbox
 hlvr/webui
 hmdAllowsClientToControlTextureIndex
@@ -6310,14 +6356,19 @@ hmd_settings_key
 holographic
 holographic_controller
 hpmotioncontroller
+hr7@
+hs7@
+ht7@
 html
 http:
 http://
 http_cb
 https:
 https://
+hu7@
 hu_hu
 hungarian
+hv7@
 i91k
 i]Wb
 iauds
@@ -6646,6 +6697,7 @@ knuckles_ev1
 ko_kr
 koreana
 l6qnk
+l83@
 lDa>
 label
 language_tag
@@ -6676,6 +6728,7 @@ links
 list
 list<T> too long
 listen: %d
+lj3@
 loadPriority
 load_drivers
 load_priority
@@ -6761,6 +6814,7 @@ mg_listen
 mg_mgr_free
 mg_mgr_poll
 mg_open_listener
+mg_random
 mg_send
 mg_ws_cb
 mg_ws_send
@@ -6890,19 +6944,15 @@ outofmem
 output
 output buffer limit
 output.size() > 0
+overlay_key
 overlays
 override_throttling
 overwrite.vrsettings
 owned
-p07@
-p50@
-p60@
-p70@
-p98@
+p4o(
+p83@
 pBegin == pEnd
-pD8@
 pEnd > pBegin
-pL7@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
@@ -6911,6 +6961,7 @@ pOutModifierCount MUST not be NULL.
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
+pT7@
 pUrl != nullptr
 pWebSocketMessage
 package
@@ -6929,7 +6980,6 @@ path_handle
 path_handles
 paths
 payload
-pbG(
 pbrMetallicRoughness
 pending_file_saved
 perfcheck
@@ -7013,10 +7063,12 @@ query_results
 quit
 quitall
 rand
+rand_s
 range
 read past buffer
 read_conn
 realloc
+reason
 reboothmd
 record_devices
 recording
@@ -7043,6 +7095,7 @@ rendermodels
 repeated
 replace
 replace_default
+request
 request error
 request_handlers
 request_handlers_response
@@ -7064,6 +7117,7 @@ resource_root
 resources
 resources/
 resources\webinterface\steamvr\localization
+response
 restart
 restrict_to_device
 result
@@ -7167,6 +7221,8 @@ short_name
 should_show_binding_errors
 showEnableInSettings
 showHiddenInputs
+showOnAppExit
+show_dashboard_requested
 show_enable_in_settings
 show_hidden_inputs
 show_overlay_in_quicklaunch
@@ -7297,6 +7353,8 @@ system.vrresources
 systemreport_
 systemreport_*.html
 systemreport_template.html
+systemui_dashboard
+t83@
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -7555,17 +7613,11 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x17@
-x30@
-x40@
-xC8@
-xE8@
-xF8@
-xJ8@
-xM7@
+xS7@
 x_path
-xa7@
+xd7@
 xdigit
+xj3@
 xmag
 y9*O
 y_path

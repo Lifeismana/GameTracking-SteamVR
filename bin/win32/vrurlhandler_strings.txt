@@ -584,4 +584,4 @@ vrstartup.exe
 vrwebhelper
 webconsole/
 webui/
-win32
+win64

@@ -1,19 +1,15 @@
 Content Manifest for Depot 228989 
 
-Manifest ID / date     : 1332597174812030948 / 12/03/2024 00:40:50 
-Total number of files  : 9 
+Manifest ID / date     : 550968249685141759 / 03/06/2025 23:57:07 
+Total number of files  : 5 
 Total number of chunks : 44 
-Total bytes on disk    : 39599660 
-Total bytes compressed : 39052880 
+Total bytes on disk    : 39592707 
+Total bytes compressed : 39046080 
 
 
           Size Chunks File SHA                                 Flags Name
-             0      0 0000000000000000000000000000000000000000    40 _CommonRedist
-             0      0 0000000000000000000000000000000000000000    40 _CommonRedist/vcredist
-             0      0 0000000000000000000000000000000000000000    40 _CommonRedist/vcredist/2022
-           881      1 1ddd9ec028a4a5a8fd5430eff3acdaa2578f65fc   100 _CommonRedist/vcredist/2022/installscript.vdf
-           881      1 220e182899f83d223745a45f6b0785e3576da84b     0 _CommonRedist/vcredist/2022/installscript.vdf.bak
+           881      1 1a4b0f9c773992ce784324ac4f8a627e4d56bbf4   100 _CommonRedist/vcredist/2022/installscript.vdf
            121      1 8b5029489d50b8b93ef9864dd056bd035d98d591     0 _CommonRedist/vcredist/2022/Microsoft Visual C++ 2022 x64.cmd
            121      1 7fe518339330ec20fc78352beb841e7a7b070b87     0 _CommonRedist/vcredist/2022/Microsoft Visual C++ 2022 x86.cmd
-      25640112     25 38b647d37b42378222856972a1e22fbd8cf4b404     0 _CommonRedist/vcredist/2022/VC_redist.x64.exe
-      13957544     15 cb617803813e969be73f2e0e175a67620e53aa59     0 _CommonRedist/vcredist/2022/VC_redist.x86.exe
+      25641968     26 89c70cc31f94bc1fba8b7b5394e2eb235bcbe34a     0 _CommonRedist/vcredist/2022/VC_redist.x64.exe
+      13949616     15 05194f6080b1df46f022bb6243d89b25d8640161     0 _CommonRedist/vcredist/2022/VC_redist.x86.exe
