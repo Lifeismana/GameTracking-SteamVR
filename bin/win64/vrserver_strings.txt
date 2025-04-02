@@ -1615,20 +1615,18 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899`
 0123456789ABCDEF
 0123456789abcdef
-04o(
-083@
-0m7@
-0n7@
+0L7@
+0S7@
+0n8@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-12:31:51
+15:24:52
 1A26b
 1\f514
 1e+9999
@@ -1638,6 +1636,7 @@ $\n k_EProtoServiceTypeSteamMessages
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
+493@
 4\f54d
 52F*
 5I)7
@@ -1649,13 +1648,14 @@ $\n k_EProtoServiceTypeSteamMessages
 7^d[L
 7~8A
 893@
+8R7@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8t8@
-8w7@
+8l7@
+8s3@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1887,6 +1887,7 @@ AppInfoManager.StartSceneApplicationTransitionFromProcess: No app info for start
 AppTransition: Aborting external launch because of timeout after %g seconds\n
 Apps - Completed simple quit transition with exit of %u\n
 Apps - Initiated %s quit transition for %u\n
+Apr  1 2025
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 4\n
@@ -2417,6 +2418,7 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D7q/;M
 DELEGATE 
+DG7@
 DISABLED
 DXGI VSync Thread ended\n
 DXGI VSync Thread started\n
@@ -2805,6 +2807,7 @@ Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
 H83@
+H93@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
 HMD Not Known (202)
@@ -2827,7 +2830,7 @@ HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
-HO7@
+HP7@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2842,7 +2845,6 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
-HY7@
 Hang the server for the specified number of seconds (default 3600)
 HasField
 Hex and octal numbers must be integers.
@@ -2853,8 +2855,9 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HostController
 How did we get here with a non-position slot?
-Hw8@
-Hy7@
+Hs3@
+Hu8@
+Hz8@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3246,7 +3249,6 @@ Mailbox name %s is longer than the %u limit.\n
 Main Thread
 MainThrd
 MapViewOfFile
-Mar 11 2025
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 Mbp?{
 Message class "
@@ -3388,14 +3390,15 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P4o(
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
+PG7@
 PICT
 PID_
 PLACEHOLDER_VALUE
-PM7@
+PN7@
 PNG\r\n
+PO7@
 POST
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
@@ -3424,7 +3427,6 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-PX7@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3436,12 +3438,12 @@ Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
 Pe6^
-Pe7@
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
+Pi2@
 Playback devices:\n
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
@@ -3701,9 +3703,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS$
-R\np0
-R\vp0
+RSDS
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4048,6 +4048,7 @@ Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
 T83@
+T93@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -5107,10 +5108,12 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-XW7@
+X93@
 XXXX PNG chunk not known
+Xm8@
+Xs3@
 XsBI
-Xx7@
+Xy8@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -5452,7 +5455,6 @@ Zjz\v
 \U%08x
 \b\d+\b\s*$
 \fUk#pb
-\fp4o(
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -5506,7 +5508,7 @@ Zjz\v
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \rmj>zjZ
-\rp\f`\v0\nP|n(
+\rp\f`\v0\nP<t(
 \t%s%s,%u,%s,%s,VID_%04X/PID_%04X,%s,%s\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -6282,45 +6284,8 @@ grip_limit_transforms
 group
 guid
 gzip
-h08@
-h18@
-h28@
-h38@
-h48@
-h58@
-h68@
-h78@
-h88@
-h98@
-hA8@
-hB8@
-hC8@
-hD8@
-hE8@
-hF8@
-hG8@
-hH8@
-hI8@
-hJ8@
-hK8@
-hL8@
-hM8@
-hN8@
-hO8@
-hP8@
+h93@
 hPU3
-hQ8@
-hR8@
-hS8@
-hT8@
-hU7@
-hU8@
-hV8@
-hW8@
-hX8@
-hY8@
-hZ8@
-ha8@
 half_thresholds
 hand_priority
 hand_right_poses.glb
@@ -6332,22 +6297,13 @@ haptic_amplitude
 haptics
 has_click
 has_touch
-hb8@
-hc8@
-hd8@
-he8@
 header
 header crc mismatch
 height
 held
 hex_property
-hf8@
-hg8@
-hh8@
-hi8@
 hidden
 hide_callout
-hj8@
 hlvr/mailbox
 hlvr/webui
 hmdAllowsClientToControlTextureIndex
@@ -6356,19 +6312,16 @@ hmd_settings_key
 holographic
 holographic_controller
 hpmotioncontroller
-hr7@
-hs7@
-ht7@
+ht8@
 html
 http:
 http://
 http_cb
 https:
 https://
-hu7@
 hu_hu
 hungarian
-hv7@
+hw7@
 i91k
 i]Wb
 iauds
@@ -6385,6 +6338,7 @@ image/webp
 image/x-icon
 image[
 image_path
+image_path_capsule
 images
 images/icon_blank.png
 images/icon_room_setup.png
@@ -6728,7 +6682,6 @@ links
 list
 list<T> too long
 listen: %d
-lj3@
 loadPriority
 load_drivers
 load_priority
@@ -6949,8 +6902,6 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p4o(
-p83@
 pBegin == pEnd
 pEnd > pBegin
 pMGConnect != nullptr
@@ -6961,9 +6912,9 @@ pOutModifierCount MUST not be NULL.
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
-pT7@
 pUrl != nullptr
 pWebSocketMessage
+pZ7@
 package
 packed
 param1
@@ -6985,10 +6936,13 @@ pending_file_saved
 perfcheck
 personal
 perspective
+ph7@
+pi7@
 pico_controller
 pinch
 pinchgrab
 pivot
+pj7@
 pl_pl
 playAreaColor
 play_area
@@ -7049,6 +7003,7 @@ property_number
 proximity
 pt_br
 pt_pt
+pu8@
 public
 public_dependency
 publishedfileid
@@ -7056,6 +7011,7 @@ pull
 punct
 putchar
 py_generic_services
+pz8@
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
 quarter_thresholds
@@ -7354,7 +7310,6 @@ systemreport_
 systemreport_*.html
 systemreport_template.html
 systemui_dashboard
-t83@
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -7613,12 +7568,14 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-xS7@
+x83@
+xO7@
+xY7@
 x_path
-xd7@
 xdigit
-xj3@
 xmag
+xw8@
+xy7@
 y9*O
 y_path
 yfov

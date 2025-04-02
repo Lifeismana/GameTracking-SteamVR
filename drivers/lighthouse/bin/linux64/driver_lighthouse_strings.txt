@@ -931,7 +931,6 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
-19:31:57
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -951,6 +950,7 @@ $3br
 21CServerDriverHost_003
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:25:12
 22CKeyframedDataResource
 22CLighthouseHmdProvider
 22CVRCameraComponent_001
@@ -1154,6 +1154,7 @@ App Init
 App info manager init failed (114)
 App not found
 ApplyGrowForUndistort(float, vortex::CHmdDisplay::CEyeProjection*)
+Apr  1 2025
 April
 Args
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
@@ -5439,7 +5440,6 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 MainSteamVR
 MakeFileWriteable(char const*)
 ManualURL
-Mar 11 2025
 March
 Mark 1
 Mark 2

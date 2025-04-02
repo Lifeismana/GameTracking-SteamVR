@@ -5422,6 +5422,7 @@ XR_TYPE_INTERACTION_PROFILE_STATE
 XR_TYPE_INTERACTION_PROFILE_SUGGESTED_BINDING
 XR_TYPE_INTERACTION_RENDER_MODEL_IDS_ENUMERATE_INFO_EXT
 XR_TYPE_INTERACTION_RENDER_MODEL_SUBACTION_PATH_INFO_EXT
+XR_TYPE_INTERACTION_RENDER_MODEL_TOP_LEVEL_USER_PATH_GET_INFO_EXT
 XR_TYPE_KEYBOARD_SPACE_CREATE_INFO_FB
 XR_TYPE_KEYBOARD_TRACKING_QUERY_FB
 XR_TYPE_LOADER_INIT_INFO_ANDROID_KHR
@@ -7987,6 +7988,7 @@ turkish
 type
 uk_ua
 ukrainian
+ulNextNextDisplayTime > ulNextDisplayTime
 unCallingProcessID
 unMyPID == data
 unProcessID
@@ -8908,7 +8910,6 @@ xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 xrLocateHandJointsEXT
 xrLocateSpace
-xrLocateSpaces
 xrLocateViews
 xrLocateViews called with a different view configuration type (%d) than was used in xrBeginSession (%d)\n
 xrLocateViews: Display time was invalid.

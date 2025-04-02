@@ -886,13 +886,13 @@ $4DTdt
 00003333
 0123456789ABCDEF
 0123456789ABCDEFundefined
-0\rPB
+0\rPR
 0x%02x 
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
 123456789
-12:31:51
+15:24:52
 1A26b
 1e+9999
 1wsHp
@@ -1027,6 +1027,7 @@ Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 App info manager init failed (114)
 Application built with libpng-
+Apr  1 2025
 Assert( %s ) %s(%d)\n
 Async compositor and reprojection DISABLED!!!
 Asynchronous reprojection not supported - requires NVIDIA driver 372.54 or higher.\n
@@ -2319,7 +2320,6 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 Main
 MainThrd
 MapViewOfFile
-Mar 11 2025
 Mb@?UUU?
 MeasureGpuMegaPixelsPerSecond(%d): Returning %d MP/sec. Total CPU time %.2f seconds.\n
 MeasureGpuMegaPixelsPerSecond(): Error! Initialize() failed! Skipping GPU measurement.\n
@@ -2696,8 +2696,8 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS^5
-R\npB
+RSDSUBj
+R\npR
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -4096,8 +4096,10 @@ Zjz\v
 [NvAPI WaitForPresent] WaitForSingleObject(Present) timed out (%d)
 [NvAPI WaitForPresent] WaitForSingleObject(VBlank) failed!
 [NvAPI WaitForPresent]: %d|%d
+[NvAPI] Current headset frequency: %.2fHz
 [NvAPI] Failed to register for hdcp link failed event!\n
 [NvAPI] Failed to register for hotplug event!\n
+[NvAPI] Frame skip! %d(%d)
 [NvAPI] HDCP EVENT: DEVICE REVOKED\n
 [NvAPI] HDCP EVENT: LINK LOST\n
 [NvAPI] HDCP EVENT: TAMPERED\n
@@ -4112,7 +4114,9 @@ Zjz\v
 [NvAPI] Present(%d): %.2fms
 [NvAPI] Present: Aborting(%d) %d|%d
 [NvAPI] QueryPerformanceCounter in GetLastFrameIndex
+[NvAPI] QueryPerformanceFrequency failed!
 [NvAPI] UpdateStats(%d): %.2fms
+[NvAPI] timeOfLastVSync changed without frameIndex update! old=llu new=llu idx=%d
 [NvAPI]Disconnected
 [NvAPI]DumpLinkInfo:begin
 [NvAPI]DumpLinkInfo:end

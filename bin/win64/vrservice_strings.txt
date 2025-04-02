@@ -501,8 +501,8 @@ $d`D-laM
 0pp@5tqE?|sO541
 1!1'1-191C1E1K1]1a1g1m1s1
 11M|
-12:31:51
 14 (default)
+15:24:52
 1H@H
 1\v5#d
 1bS1
@@ -797,6 +797,7 @@ Ag*g*
 Any Extended Key Usage
 Any Purpose
 Any language
+Apr  1 2025
 Attempted to read payload of %d bytes from pipe but failed\n
 AuthANY
 AuthDSS
@@ -1998,7 +1999,6 @@ MainThrd
 MakeStartableForAllUsers
 Management
 MapViewOfFile
-Mar 11 2025
 Mask Algorithm: 
 MessageBoxW
 Microsoft CSP Name
@@ -2411,7 +2411,6 @@ Q/xtJ2
 QPeA~S
 QSeA~
 Qjh/T
-Qr:2-
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceObjectSecurity
@@ -2515,8 +2514,7 @@ RSA_sign_ASN1_OCTET_STRING
 RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
-RSDS
-R\vpx,
+RSDSH
 RaiseException
 Rbg.E
 ReadConsoleA

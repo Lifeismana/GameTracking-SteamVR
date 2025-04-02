@@ -746,7 +746,6 @@ V_URLEncodeNoPlusForSpace(char*, int, char const*, int) (.cold)
 VerifyTidIntegrity failed for thread %d. Most likely this process was forked after calling ThreadGetCurrentId.
 VerifyTidIntegrity()
 Wednesday
-Z]cQb
 Zjz\v
 [abi:
 _.stapsdt.base

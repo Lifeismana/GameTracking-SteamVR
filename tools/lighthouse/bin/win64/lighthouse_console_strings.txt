@@ -1144,7 +1144,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDSTG
+RSDS%
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1393,7 +1393,6 @@ Wrote %d bytes to %s\n
 Wrote 0x%X to 0x%X\n
 Wrote the contents of %s as the config on the device\n
 XsBI
-Y]Ep
 Zjz\v
 [h1R
 [invalid]\t%d\n

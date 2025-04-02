@@ -1185,7 +1185,6 @@ $tI(kn
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
-19:31:57
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -1280,6 +1279,7 @@ $tI(kn
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
+22:25:12
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -1959,6 +1959,7 @@ ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRe
 ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&)
 ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&) (.cold)
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
+Apr  1 2025
 April
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
@@ -2112,11 +2113,11 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
-C.1883.372047
-C.1884.372058
+C.1883.372084
+C.1884.372095
 C.71.340283
-C.77.213873
-C.9.215763
+C.77.213874
+C.9.215764
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -4224,12 +4225,12 @@ CSxrRenderModelEXT::GetInfo(XrRenderModelPropertiesGetInfoEXT const*, XrRenderMo
 CSxrRenderModelEXT::GetRelatedSubactionPaths(XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*)
 CSxrRenderModelEXT::GetRelatedSubactionPaths(XrInteractionRenderModelSubactionPathInfoEXT const*, unsigned int, unsigned int*, unsigned long*) (.cold)
 CSxrRenderModelEXT::GetState(XrRenderModelStateGetInfoEXT const*, XrRenderModelStateEXT*)
-CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)
-CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*) (.cold)
-CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::s_pathHead
-CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::s_pathLeftHand
-CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::s_pathRightHand
-CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::s_pathTreadmill
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*) (.cold)
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathHead
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathLeftHand
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathRightHand
+CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathTreadmill
 CSxrRenderModelEXT::Init()
 CSxrRenderModelEXT::Init() (.cold)
 CSxrRenderModelEXT::~CSxrRenderModelEXT()
@@ -7147,6 +7148,7 @@ CVRMsg_ApplicationInfo_Manifest::mutable_arguments()
 CVRMsg_ApplicationInfo_Manifest::mutable_binary_path()
 CVRMsg_ApplicationInfo_Manifest::mutable_description()
 CVRMsg_ApplicationInfo_Manifest::mutable_image_path()
+CVRMsg_ApplicationInfo_Manifest::mutable_image_path_capsule()
 CVRMsg_ApplicationInfo_Manifest::mutable_launch_type()
 CVRMsg_ApplicationInfo_Manifest::mutable_manifest_path()
 CVRMsg_ApplicationInfo_Manifest::mutable_name()
@@ -7160,6 +7162,7 @@ CVRMsg_ApplicationInfo_Manifest::release_arguments()
 CVRMsg_ApplicationInfo_Manifest::release_binary_path()
 CVRMsg_ApplicationInfo_Manifest::release_description()
 CVRMsg_ApplicationInfo_Manifest::release_image_path()
+CVRMsg_ApplicationInfo_Manifest::release_image_path_capsule()
 CVRMsg_ApplicationInfo_Manifest::release_launch_type()
 CVRMsg_ApplicationInfo_Manifest::release_manifest_path()
 CVRMsg_ApplicationInfo_Manifest::release_name()
@@ -7176,6 +7179,7 @@ CVRMsg_ApplicationInfo_Manifest::set_allocated_arguments(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_binary_path(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_description(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_image_path(std::string*)
+CVRMsg_ApplicationInfo_Manifest::set_allocated_image_path_capsule(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_launch_type(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_manifest_path(std::string*)
 CVRMsg_ApplicationInfo_Manifest::set_allocated_name(std::string*)
@@ -7198,6 +7202,9 @@ CVRMsg_ApplicationInfo_Manifest::set_description(std::string const&)
 CVRMsg_ApplicationInfo_Manifest::set_image_path(char const*)
 CVRMsg_ApplicationInfo_Manifest::set_image_path(char const*, unsigned long)
 CVRMsg_ApplicationInfo_Manifest::set_image_path(std::string const&)
+CVRMsg_ApplicationInfo_Manifest::set_image_path_capsule(char const*)
+CVRMsg_ApplicationInfo_Manifest::set_image_path_capsule(char const*, unsigned long)
+CVRMsg_ApplicationInfo_Manifest::set_image_path_capsule(std::string const&)
 CVRMsg_ApplicationInfo_Manifest::set_launch_type(char const*)
 CVRMsg_ApplicationInfo_Manifest::set_launch_type(char const*, unsigned long)
 CVRMsg_ApplicationInfo_Manifest::set_launch_type(std::string const&)
@@ -22490,7 +22497,6 @@ MailboxInfo_t::~MailboxInfo_t()
 MailboxInterfaceRegistration<CVRMailbox_001>::GetInterface()
 MailboxInterfaceRegistration<CVRMailbox_001>::~MailboxInterfaceRegistration()
 MakeFileWriteable(char const*)
-Mar 11 2025
 March
 MarkInUse
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
@@ -26142,6 +26148,7 @@ XR_TYPE_INTERACTION_PROFILE_STATE
 XR_TYPE_INTERACTION_PROFILE_SUGGESTED_BINDING
 XR_TYPE_INTERACTION_RENDER_MODEL_IDS_ENUMERATE_INFO_EXT
 XR_TYPE_INTERACTION_RENDER_MODEL_SUBACTION_PATH_INFO_EXT
+XR_TYPE_INTERACTION_RENDER_MODEL_TOP_LEVEL_USER_PATH_GET_INFO_EXT
 XR_TYPE_KEYBOARD_SPACE_CREATE_INFO_FB
 XR_TYPE_KEYBOARD_TRACKING_QUERY_FB
 XR_TYPE_LOADER_INIT_INFO_ANDROID_KHR
@@ -28966,10 +28973,10 @@ guard variable for CSXrRenderModelManager::GetInstance()::instance
 guard variable for CServerTrackedDeviceProvider_002::GetInterfaceVersions()::k_InterfaceVersions
 guard variable for CSettingsSetting::GetDefaultValue() const::Empty
 guard variable for CSxrGenericTrackerManager::ProcessActionSubPath(unsigned long*, unsigned long*)::k_validSubactionPaths
-guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::s_pathHead
-guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::s_pathLeftHand
-guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::s_pathRightHand
-guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(unsigned long*)::s_pathTreadmill
+guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathHead
+guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathLeftHand
+guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathRightHand
+guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathTreadmill
 guard variable for CSxrSession::UpdateInteractionProfile()::rTopLevelPaths
 guard variable for CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)::s_pVrSettings
 guard variable for CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
@@ -29067,6 +29074,7 @@ guard variable for sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned lon
 guard variable for sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHandLeft
 guard variable for sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHandRight
 guard variable for sxr_xrGetCurrentInteractionProfile(XrSession_T*, unsigned long, XrInteractionProfileState*)::k_pathUserHead
+guard variable for sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())::mapFunctions
 guard variable for tinygltf::Value::Get(std::string const&) const::null_value
 guard variable for tinygltf::Value::Get(unsigned long) const::null_value
 guard variable for vkh::BIsInstanceExtensionSupported(std::string)::vecProperties
@@ -29149,6 +29157,8 @@ index
 indexaccessor_
 indexbufferview_
 indices
+initFunctions(std::map<char const*, ProcAddrInfo_t, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>&) (.constprop.0)
+initFunctions(std::map<char const*, ProcAddrInfo_t, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>&)::bFunctionMapInitted
 init_dwarf_reg_size_table
 initial_state
 innerConeAngle
@@ -31247,6 +31257,10 @@ std::_Rb_tree<VkDevice_T*, std::pair<VkDevice_T* const, VulkanFunctionPointers_t
 std::_Rb_tree<XrActionSet_T*, XrActionSet_T*, std::_Identity<XrActionSet_T*>, std::less<XrActionSet_T*>, std::allocator<XrActionSet_T*>>::_M_erase(std::_Rb_tree_node<XrActionSet_T*>*)
 std::_Rb_tree<XrActionType, XrActionType, std::_Identity<XrActionType>, std::less<XrActionType>, std::allocator<XrActionType>>::_M_erase(std::_Rb_tree_node<XrActionType>*)
 std::_Rb_tree<XrSwapchain_T*, XrSwapchain_T*, std::_Identity<XrSwapchain_T*>, std::less<XrSwapchain_T*>, std::allocator<XrSwapchain_T*>>::_M_erase(std::_Rb_tree_node<XrSwapchain_T*>*)
+std::_Rb_tree<char const*, std::pair<char const* const, ProcAddrInfo_t>, std::_Select1st<std::pair<char const* const, ProcAddrInfo_t>>, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::_M_erase(std::_Rb_tree_node<std::pair<char const* const, ProcAddrInfo_t>>*)
+std::_Rb_tree<char const*, std::pair<char const* const, ProcAddrInfo_t>, std::_Select1st<std::pair<char const* const, ProcAddrInfo_t>>, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char const* const, ProcAddrInfo_t>>, char const* const&)
+std::_Rb_tree<char const*, std::pair<char const* const, ProcAddrInfo_t>, std::_Select1st<std::pair<char const* const, ProcAddrInfo_t>>, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::_M_get_insert_unique_pos(char const* const&)
+std::_Rb_tree<char const*, std::pair<char const* const, ProcAddrInfo_t>, std::_Select1st<std::pair<char const* const, ProcAddrInfo_t>>, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::_M_lower_bound(std::_Rb_tree_node<std::pair<char const* const, ProcAddrInfo_t>>*, std::_Rb_tree_node_base*, char const* const&) (.isra.0)
 std::_Rb_tree<char const*, std::pair<char const* const, unsigned long>, std::_Select1st<std::pair<char const* const, unsigned long>>, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long>>>::_M_erase(std::_Rb_tree_node<std::pair<char const* const, unsigned long>>*)
 std::_Rb_tree<char const*, std::pair<char const* const, unsigned long>, std::_Select1st<std::pair<char const* const, unsigned long>>, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char const* const, unsigned long>>, char const* const&)
 std::_Rb_tree<char const*, std::pair<char const* const, unsigned long>, std::_Select1st<std::pair<char const* const, unsigned long>>, std::less<char const*>, std::allocator<std::pair<char const* const, unsigned long>>>::_M_get_insert_unique_pos(char const* const&)
@@ -33946,6 +33960,8 @@ std::logic_error::what() const
 std::logic_error::~logic_error()
 std::map<AssertLookup_t, bool, std::less<AssertLookup_t>, std::allocator<std::pair<AssertLookup_t const, bool>>>::~map()
 std::map<VkDevice_T*, VulkanFunctionPointers_t, std::less<VkDevice_T*>, std::allocator<std::pair<VkDevice_T* const, VulkanFunctionPointers_t>>>::~map()
+std::map<char const*, ProcAddrInfo_t, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::operator[](char const*&&)
+std::map<char const*, ProcAddrInfo_t, StrCmp_t, std::allocator<std::pair<char const* const, ProcAddrInfo_t>>>::~map()
 std::map<std::string, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>>>::operator[](std::string const&)
 std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::operator[](std::string&&)
 std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int>>>::operator[](std::string&&)
@@ -35051,8 +35067,8 @@ sxr_wrap_xrGetRenderModelAssetDataEXT(XrRenderModelAssetEXT_T*, XrRenderModelAss
 sxr_wrap_xrGetRenderModelAssetDataEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetDataGetInfoEXT const*, XrRenderModelAssetDataEXT*) (.cold)
 sxr_wrap_xrGetRenderModelAssetPropertiesEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetPropertiesGetInfoEXT const*, XrRenderModelAssetPropertiesEXT*)
 sxr_wrap_xrGetRenderModelAssetPropertiesEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetPropertiesGetInfoEXT const*, XrRenderModelAssetPropertiesEXT*) (.cold)
-sxr_wrap_xrGetRenderModelPoseTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*)
-sxr_wrap_xrGetRenderModelPoseTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*) (.cold)
+sxr_wrap_xrGetRenderModelPoseTopLevelUserPathEXT(XrRenderModelEXT_T*, XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)
+sxr_wrap_xrGetRenderModelPoseTopLevelUserPathEXT(XrRenderModelEXT_T*, XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*) (.cold)
 sxr_wrap_xrGetRenderModelPropertiesEXT(XrRenderModelEXT_T*, XrRenderModelPropertiesGetInfoEXT const*, XrRenderModelPropertiesEXT*)
 sxr_wrap_xrGetRenderModelPropertiesEXT(XrRenderModelEXT_T*, XrRenderModelPropertiesGetInfoEXT const*, XrRenderModelPropertiesEXT*) (.cold)
 sxr_wrap_xrGetRenderModelStateEXT(XrRenderModelEXT_T*, XrRenderModelStateGetInfoEXT const*, XrRenderModelStateEXT*)
@@ -35083,8 +35099,6 @@ sxr_wrap_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT co
 sxr_wrap_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*) (.cold)
 sxr_wrap_xrLocateSpace(XrSpace_T*, XrSpace_T*, long, XrSpaceLocation*)
 sxr_wrap_xrLocateSpace(XrSpace_T*, XrSpace_T*, long, XrSpaceLocation*) (.cold)
-sxr_wrap_xrLocateSpaces(XrSession_T*, XrSpacesLocateInfo const*, XrSpaceLocations*)
-sxr_wrap_xrLocateSpaces(XrSession_T*, XrSpacesLocateInfo const*, XrSpaceLocations*) (.cold)
 sxr_wrap_xrLocateViews(XrSession_T*, XrViewLocateInfo const*, XrViewState*, unsigned int, unsigned int*, XrView*)
 sxr_wrap_xrLocateViews(XrSession_T*, XrViewLocateInfo const*, XrViewState*, unsigned int, unsigned int*, XrView*) (.cold)
 sxr_wrap_xrPathToString(XrInstance_T*, unsigned long, unsigned int, unsigned int*, char*)
@@ -35266,6 +35280,7 @@ sxr_xrGetInputSourceLocalizedName(XrSession_T*, XrInputSourceLocalizedNameGetInf
 sxr_xrGetInstanceProcAddr
 sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())
 sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)()) (.cold)
+sxr_xrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())::mapFunctions
 sxr_xrGetInstanceProperties
 sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*)
 sxr_xrGetInstanceProperties(XrInstance_T*, XrInstanceProperties*) (.cold)
@@ -35282,7 +35297,7 @@ sxr_xrGetRenderModelAssetDataEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetDat
 sxr_xrGetRenderModelAssetPropertiesEXT
 sxr_xrGetRenderModelAssetPropertiesEXT(XrRenderModelAssetEXT_T*, XrRenderModelAssetPropertiesGetInfoEXT const*, XrRenderModelAssetPropertiesEXT*)
 sxr_xrGetRenderModelPoseTopLevelUserPathEXT
-sxr_xrGetRenderModelPoseTopLevelUserPathEXT(XrRenderModelEXT_T*, unsigned long*)
+sxr_xrGetRenderModelPoseTopLevelUserPathEXT(XrRenderModelEXT_T*, XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)
 sxr_xrGetRenderModelPropertiesEXT
 sxr_xrGetRenderModelPropertiesEXT(XrRenderModelEXT_T*, XrRenderModelPropertiesGetInfoEXT const*, XrRenderModelPropertiesEXT*)
 sxr_xrGetRenderModelStateEXT
@@ -35314,7 +35329,6 @@ sxr_xrLocateHandJointsEXT
 sxr_xrLocateHandJointsEXT(XrHandTrackerEXT_T*, XrHandJointsLocateInfoEXT const*, XrHandJointLocationsEXT*)
 sxr_xrLocateSpace
 sxr_xrLocateSpace(XrSpace_T*, XrSpace_T*, long, XrSpaceLocation*)
-sxr_xrLocateSpaces(XrSession_T*, XrSpacesLocateInfo const*, XrSpaceLocations*)
 sxr_xrLocateViews
 sxr_xrLocateViews(XrSession_T*, XrViewLocateInfo const*, XrViewState*, unsigned int, unsigned int*, XrView*)
 sxr_xrLocateViews(XrSession_T*, XrViewLocateInfo const*, XrViewState*, unsigned int, unsigned int*, XrView*) (.cold)
@@ -38457,6 +38471,7 @@ typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
 uk_ua
 ukrainian
+ulNextNextDisplayTime > ulNextDisplayTime
 umask
 unCallingProcessID
 unMessageID
@@ -41559,7 +41574,6 @@ xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 xrLocateHandJointsEXT
 xrLocateSpace
-xrLocateSpaces
 xrLocateViews
 xrLocateViews called with a different view configuration type (%d) than was used in xrBeginSession (%d)\n
 xrLocateViews: Display time was invalid.
