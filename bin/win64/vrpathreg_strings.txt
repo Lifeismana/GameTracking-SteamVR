@@ -489,6 +489,7 @@ HeapFree
 HeapReAlloc
 HeapSize
 IND)ind)
+IND)ind).
 INITY
 IVRSystem_022
 Il?333333c?
@@ -562,7 +563,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDS
+RSDS9
 RaiseException
 ReadConsoleW
 ReadFile

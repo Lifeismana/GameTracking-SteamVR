@@ -1,14 +1,14 @@
 Content Manifest for Depot 250824 
 
-Manifest ID / date     : 473897709621638587 / 04/01/2025 22:47:36 
-Total number of files  : 3011 
-Total number of chunks : 2919 
-Total bytes on disk    : 600504428 
-Total bytes compressed : 284975792 
+Manifest ID / date     : 6261883264341492400 / 02/05/2025 22:18:51 
+Total number of files  : 2936 
+Total number of chunks : 2847 
+Total bytes on disk    : 600744257 
+Total bytes compressed : 284867648 
 
 
           Size Chunks File SHA                                 Flags Name
-            12      1 02416d7490d5d41b4f7ddc6b1fafafd9846211ae     0 bin/version.txt
+            12      1 44df483aded001eb4cb0e7fd20b19f3204be04ab     0 bin/version.txt
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/demoloop
          34709      1 f7557b27d169b830a48321e3760e38e08e771172     0 content/vrmonitor/demoloop/card_aperture.png
          21464      1 b32ccaa0cd6d5d8b4acbdb11ea0c28bfe2791d0d     0 content/vrmonitor/demoloop/card_archery.png
@@ -213,14 +213,14 @@ Total bytes compressed : 284975792
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/textures
         619034      1 2a2b8b24ad538a64f6171b3762bf02bce70966a5     0 content/vrmonitor/textures/card_intro.png
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/translations
-        169228      1 c3451096d9a31f4be7d781b31558f3930c3cee6e     0 content/vrmonitor/translations/vrmonitor_brazilian.txt
-        181056      1 f1b4c431931433d839d3185a4adfbda4946d04f9     0 content/vrmonitor/translations/vrmonitor_bulgarian.txt
+        169218      1 97d961b57b3cc10b2f7ef2952906560dea6b4308     0 content/vrmonitor/translations/vrmonitor_brazilian.txt
+        177952      1 387b19eb45d90a50b1130d7d5271ef121eb63185     0 content/vrmonitor/translations/vrmonitor_bulgarian.txt
         167866      1 654bc845352c995f7cacb39e92f1729c9bf693ed     0 content/vrmonitor/translations/vrmonitor_czech.txt
         164910      1 55cb1ed34e303a64ef429020d6a9a83bab212bd6     0 content/vrmonitor/translations/vrmonitor_danish.txt
         171378      1 2088659627e6b9bb0099ef08d49f3b4844b01082     0 content/vrmonitor/translations/vrmonitor_dutch.txt
         162962      1 b755b41c3b8a73abad95c88743f78f38ffb3732c     0 content/vrmonitor/translations/vrmonitor_english.txt
         166266      1 6c58bc7f229601a28f68a39e048720558ca804ba     0 content/vrmonitor/translations/vrmonitor_errors_brazilian.txt
-        172954      1 14c53e25ed56f71f720b84593cfe6cdaae80952d     0 content/vrmonitor/translations/vrmonitor_errors_bulgarian.txt
+        169152      1 2616d7e71eb28ed311caf4123a9864cd33733646     0 content/vrmonitor/translations/vrmonitor_errors_bulgarian.txt
         166048      1 a17921b39757905331bea6bb0f0d6c194ac001cf     0 content/vrmonitor/translations/vrmonitor_errors_czech.txt
         161672      1 2155fe2f724b4b54e33fa2738275507888b1bb3e     0 content/vrmonitor/translations/vrmonitor_errors_danish.txt
         169812      1 354a7a614e7cdc0fa3b87a59cd0b8fa8c3a50b86     0 content/vrmonitor/translations/vrmonitor_errors_dutch.txt
@@ -251,7 +251,7 @@ Total bytes compressed : 284975792
         160584      1 e314aeea6dce70d42f8d566ed48d3d6192a3092e     0 content/vrmonitor/translations/vrmonitor_errors_vietnamese.txt
         164690      1 03ba02d9bf954e03fbbc84c275f08fc8f3ba2486     0 content/vrmonitor/translations/vrmonitor_finnish.txt
         179186      1 01d167704b74377d6d10383c243364bb2c3115c7     0 content/vrmonitor/translations/vrmonitor_french.txt
-        176552      1 abe6f6d99cc69fe869218e7a4065c3534a419236     0 content/vrmonitor/translations/vrmonitor_german.txt
+        176532      1 309b094fc67ef8450c3658cf76535eba5fbd4aa9     0 content/vrmonitor/translations/vrmonitor_german.txt
         177088      1 7005eff2bf5561b77fe068b979cf7c8a9eedbd7d     0 content/vrmonitor/translations/vrmonitor_greek.txt
         169798      1 902ba53886f56f14a42c5c6b5fe6084f613d5fe1     0 content/vrmonitor/translations/vrmonitor_hungarian.txt
            736      1 9942720eede6c277491b632fd367fb9813ef7a32     0 content/vrmonitor/translations/vrmonitor_issues_english.txt
@@ -263,12 +263,12 @@ Total bytes compressed : 284975792
         162530      1 8512221444d6eddc3c39fa2e88bade7d5e589564     0 content/vrmonitor/translations/vrmonitor_norwegian.txt
           4646      1 7519e3b0e55adb98394a26256610a65e87b0eba6     0 content/vrmonitor/translations/vrmonitor_pirate.txt
         172974      1 0d9d191a89c56cfe9190d86ba59689bf812da6b3     0 content/vrmonitor/translations/vrmonitor_polish.txt
-        172128      1 a9de1cd86766ba5fa3e12a3eb5730c4693d8010d     0 content/vrmonitor/translations/vrmonitor_portuguese.txt
+        172118      1 644e5ba24c86b449b047270f9fce5dd22cc252b5     0 content/vrmonitor/translations/vrmonitor_portuguese.txt
          93864      1 9a052312e0e09b087513af9ab5afdca6f754955f     0 content/vrmonitor/translations/vrmonitor_pseudo.txt
         177442      1 35e92af3d861b3490eacbf7790c02085360a8858     0 content/vrmonitor/translations/vrmonitor_romanian.txt
         168394      1 145c5159f106e5dbdd66f0493383452eaa7b1e6d     0 content/vrmonitor/translations/vrmonitor_russian.txt
         115138      1 cc91e9bd1d73e6f3c1bcce18f111f45e552379ce     0 content/vrmonitor/translations/vrmonitor_schinese.txt
-        175710      1 9683b946be7510fdf0bba89d16293afe266636b0     0 content/vrmonitor/translations/vrmonitor_spanish.txt
+        175690      1 460806f70b7e4a701ef62b0048794acdd542bc2b     0 content/vrmonitor/translations/vrmonitor_spanish.txt
         164162      1 dac3924db405e2050cb63192cc42e9ab99fa956e     0 content/vrmonitor/translations/vrmonitor_swedish.txt
         117528      1 c064b92492eae1d6c7d766ba581a1a1b32ae83fd     0 content/vrmonitor/translations/vrmonitor_tchinese.txt
         162482      1 670bc60fcf2bfb1e9f8a5be2246ff8aeb4398952     0 content/vrmonitor/translations/vrmonitor_thai.txt
@@ -326,69 +326,69 @@ Total bytes compressed : 284975792
          96443      1 510de1672a35de89b2088636a1ed161d3c93b308     0 drivers/indexcontroller/resources/icons/indexcontroller_right.svg
           2117      1 c5bda0f7d3d845d2ade38dc05d4b079a30a53a96     0 drivers/indexcontroller/resources/icons/left_controller_status_error.b4bfb144.png
           2718      1 08f97023cc8bf130907c4ae61262602afd338d1a     0 drivers/indexcontroller/resources/icons/left_controller_status_error.png
-          4402      1 69c990294eed184b5c299f2c678dbd2ae22cbb74     0 drivers/indexcontroller/resources/icons/left_controller_status_error_2x.b4bfb144.png
-          3821      1 bbf2f99798dd144105e91fb5ede8301fd3d43e1e     0 drivers/indexcontroller/resources/icons/left_controller_status_error_2x.png
+          4402      1 69c990294eed184b5c299f2c678dbd2ae22cbb74     0 drivers/indexcontroller/resources/icons/left_controller_status_error@2x.b4bfb144.png
+          3821      1 bbf2f99798dd144105e91fb5ede8301fd3d43e1e     0 drivers/indexcontroller/resources/icons/left_controller_status_error@2x.png
           1389      1 d4df4f02b32ef6f668103a5f6e309175b2693b7c     0 drivers/indexcontroller/resources/icons/left_controller_status_off.6e6c89c9.png
           1656      1 6ae5cda8dfce99e024328fdfbe6b5672d43fae30     0 drivers/indexcontroller/resources/icons/left_controller_status_off.b4bfb144.png
           2871      1 e633fa8b81a945db759be4505a080569d64406dc     0 drivers/indexcontroller/resources/icons/left_controller_status_off.png
-          2784      1 0836b568534e47e32d64727f694db3e9eddd83af     0 drivers/indexcontroller/resources/icons/left_controller_status_off_2x.6e6c89c9.png
-          3662      1 5ae167ed64dcc0f936e9153260358abc5e2bbde7     0 drivers/indexcontroller/resources/icons/left_controller_status_off_2x.b4bfb144.png
-          5107      1 a9a005417d545368a648e1f6600429d63371d2ff     0 drivers/indexcontroller/resources/icons/left_controller_status_off_2x.png
+          2784      1 0836b568534e47e32d64727f694db3e9eddd83af     0 drivers/indexcontroller/resources/icons/left_controller_status_off@2x.6e6c89c9.png
+          3662      1 5ae167ed64dcc0f936e9153260358abc5e2bbde7     0 drivers/indexcontroller/resources/icons/left_controller_status_off@2x.b4bfb144.png
+          5107      1 a9a005417d545368a648e1f6600429d63371d2ff     0 drivers/indexcontroller/resources/icons/left_controller_status_off@2x.png
           1853      1 287cf680ce2742cd4a542ce85762670a2485cd13     0 drivers/indexcontroller/resources/icons/left_controller_status_ready.b4bfb144.png
           2418      1 fac142a5a7d8fcc0f83ae1a3aff429da8863a469     0 drivers/indexcontroller/resources/icons/left_controller_status_ready.png
-          3747      1 bd866678d4ec8580f00d1c74935e1895fb3d2153     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_2x.b4bfb144.png
-          3246      1 b1b1d434f09aacaf66812134f8d2e4872bd73b0b     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_2x.png
+          3747      1 bd866678d4ec8580f00d1c74935e1895fb3d2153     0 drivers/indexcontroller/resources/icons/left_controller_status_ready@2x.b4bfb144.png
+          3246      1 b1b1d434f09aacaf66812134f8d2e4872bd73b0b     0 drivers/indexcontroller/resources/icons/left_controller_status_ready@2x.png
           2122      1 01dbc387a0bc817f84cf78c3981790dda3595c04     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_alert.b4bfb144.png
           3210      1 9dee877ca2d7c8eebc7d1c70c42fa569c50a8961     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_alert.png
-          4475      1 0c90e6b7739f237ffae636c00fb2e5e022ad165c     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_alert_2x.b4bfb144.png
-          3492      1 1e27f9e7452039bfc0e37f31d25f7247a5580f80     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_alert_2x.png
+          4475      1 0c90e6b7739f237ffae636c00fb2e5e022ad165c     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_alert@2x.b4bfb144.png
+          3492      1 1e27f9e7452039bfc0e37f31d25f7247a5580f80     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_alert@2x.png
           2174      1 e6c73971e151b9eb0c2d953443ce264b3af00a71     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_low.b4bfb144.png
           2695      1 ad2c43185732fc6b295238d0487fb1f2625cec52     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_low.png
-          4514      1 8646fc913ba8db290591c3d0526aa7be1e7d0e9f     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_low_2x.b4bfb144.png
-          3827      1 fb027da84c4bc1ede86b2d2e7ba0ec7a0c0c0eca     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_low_2x.png
+          4514      1 8646fc913ba8db290591c3d0526aa7be1e7d0e9f     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_low@2x.b4bfb144.png
+          3827      1 fb027da84c4bc1ede86b2d2e7ba0ec7a0c0c0eca     0 drivers/indexcontroller/resources/icons/left_controller_status_ready_low@2x.png
          36981      1 9cbec83c840dfe7cebd917770cf6c2db0ec116d0     0 drivers/indexcontroller/resources/icons/left_controller_status_searching.b4bfb144.gif
          11495      1 477dd3d03f4adfea78ee18a797fc9ffb507bda76     0 drivers/indexcontroller/resources/icons/left_controller_status_searching.gif
-         65335      1 4663909f5776473794f6980367f51ec45cc24a50     0 drivers/indexcontroller/resources/icons/left_controller_status_searching_2x.b4bfb144.gif
-         23047      1 dc353541cc96e014ca2bd054a06fc5a483b86ba3     0 drivers/indexcontroller/resources/icons/left_controller_status_searching_2x.gif
+         65335      1 4663909f5776473794f6980367f51ec45cc24a50     0 drivers/indexcontroller/resources/icons/left_controller_status_searching@2x.b4bfb144.gif
+         23047      1 dc353541cc96e014ca2bd054a06fc5a483b86ba3     0 drivers/indexcontroller/resources/icons/left_controller_status_searching@2x.gif
          41277      1 86bfa61ebc6db9bba394c44994309a927c3e438b     0 drivers/indexcontroller/resources/icons/left_controller_status_searching_alert.b4bfb144.gif
          13905      1 bc12262e396f4a19301cc272837a7fd09bf6dd6e     0 drivers/indexcontroller/resources/icons/left_controller_status_searching_alert.gif
-         75808      1 5383e35b0e7dcca03ba52b93b4ee412e1d906e74     0 drivers/indexcontroller/resources/icons/left_controller_status_searching_alert_2x.b4bfb144.gif
-         28528      1 f98b1a77a1f37271dce4a988ffca4dafd8707bee     0 drivers/indexcontroller/resources/icons/left_controller_status_searching_alert_2x.gif
+         75808      1 5383e35b0e7dcca03ba52b93b4ee412e1d906e74     0 drivers/indexcontroller/resources/icons/left_controller_status_searching_alert@2x.b4bfb144.gif
+         28528      1 f98b1a77a1f37271dce4a988ffca4dafd8707bee     0 drivers/indexcontroller/resources/icons/left_controller_status_searching_alert@2x.gif
           2104      1 95153619f5cdc7d3cef9333cdbbac1ec4d1b6189     0 drivers/indexcontroller/resources/icons/right_controller_status_error.b4bfb144.png
           2710      1 3309e22c4d989780adcf4f587657f4392791f5d5     0 drivers/indexcontroller/resources/icons/right_controller_status_error.png
-          4435      1 7187fb8f4f0a7b46b06179b6c4ac1e452f660a40     0 drivers/indexcontroller/resources/icons/right_controller_status_error_2x.b4bfb144.png
-          4332      1 becdb367a3df30e39238fc4bdfeb41ac659aa6aa     0 drivers/indexcontroller/resources/icons/right_controller_status_error_2x.png
+          4435      1 7187fb8f4f0a7b46b06179b6c4ac1e452f660a40     0 drivers/indexcontroller/resources/icons/right_controller_status_error@2x.b4bfb144.png
+          4332      1 becdb367a3df30e39238fc4bdfeb41ac659aa6aa     0 drivers/indexcontroller/resources/icons/right_controller_status_error@2x.png
           1383      1 aeb5909fbc9c91a5f938b97cdcd41c3469db6070     0 drivers/indexcontroller/resources/icons/right_controller_status_off.6e6c89c9.png
           1660      1 13172009273dfc3adad5fcd4d549278af31527c4     0 drivers/indexcontroller/resources/icons/right_controller_status_off.b4bfb144.png
           2871      1 997dc026bb0b0d230793ccbb71848a48c8a7d515     0 drivers/indexcontroller/resources/icons/right_controller_status_off.png
-          2760      1 12754a04371fe783b3cb138c114bbac3cada0ab4     0 drivers/indexcontroller/resources/icons/right_controller_status_off_2x.6e6c89c9.png
-          3610      1 e785ef797a72bdec47b51f8007398e070b9018f4     0 drivers/indexcontroller/resources/icons/right_controller_status_off_2x.b4bfb144.png
-          5581      1 d7a0324b66877bac4059e208b04ed21a174d7a88     0 drivers/indexcontroller/resources/icons/right_controller_status_off_2x.png
+          2760      1 12754a04371fe783b3cb138c114bbac3cada0ab4     0 drivers/indexcontroller/resources/icons/right_controller_status_off@2x.6e6c89c9.png
+          3610      1 e785ef797a72bdec47b51f8007398e070b9018f4     0 drivers/indexcontroller/resources/icons/right_controller_status_off@2x.b4bfb144.png
+          5581      1 d7a0324b66877bac4059e208b04ed21a174d7a88     0 drivers/indexcontroller/resources/icons/right_controller_status_off@2x.png
           1827      1 ba232b609a30c25f2e7349d3e48e0590acef2b63     0 drivers/indexcontroller/resources/icons/right_controller_status_ready.b4bfb144.png
           2417      1 bd90213ccfef6411216470b803f2067e8d3aa105     0 drivers/indexcontroller/resources/icons/right_controller_status_ready.png
-          3719      1 c0cc1322454b3d9a72818f099250b15317c4f996     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_2x.b4bfb144.png
-          3721      1 107ec9834b28bc24f52c7ae9d2b052f2db65a638     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_2x.png
+          3719      1 c0cc1322454b3d9a72818f099250b15317c4f996     0 drivers/indexcontroller/resources/icons/right_controller_status_ready@2x.b4bfb144.png
+          3721      1 107ec9834b28bc24f52c7ae9d2b052f2db65a638     0 drivers/indexcontroller/resources/icons/right_controller_status_ready@2x.png
           2121      1 dd36c5f2a1ce50aa790138ea5e866d788eb9c281     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_alert.b4bfb144.png
           3195      1 fba5c7859306244b2c1d61fa944ea24a0db8d3e7     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_alert.png
-          4565      1 3af830460b4f804acbdfa027f53b57d51c68dfaf     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_alert_2x.b4bfb144.png
-          3971      1 4c96bc75044826fcd5e4d2fdd0da14355f82a600     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_alert_2x.png
+          4565      1 3af830460b4f804acbdfa027f53b57d51c68dfaf     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_alert@2x.b4bfb144.png
+          3971      1 4c96bc75044826fcd5e4d2fdd0da14355f82a600     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_alert@2x.png
           2156      1 f0bc9dc571c74926f89183a75fe327626a4fe641     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_low.b4bfb144.png
           2683      1 c724bf1c471dac4887356cae20b371c04bb861fa     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_low.png
-          4567      1 27a2474a171a3826817e0484d326dba8a9f914ad     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_low_2x.b4bfb144.png
-          4329      1 9386f63b44b219f6e032600421f1f0b95525a41f     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_low_2x.png
+          4567      1 27a2474a171a3826817e0484d326dba8a9f914ad     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_low@2x.b4bfb144.png
+          4329      1 9386f63b44b219f6e032600421f1f0b95525a41f     0 drivers/indexcontroller/resources/icons/right_controller_status_ready_low@2x.png
          38282      1 fc3bbf2a9e58760b08ddd5dc1d4df54009460c95     0 drivers/indexcontroller/resources/icons/right_controller_status_searching.b4bfb144.gif
          11872      1 31c648be9af33ce10659c52852a3df4279d7ac2e     0 drivers/indexcontroller/resources/icons/right_controller_status_searching.gif
-         65365      1 9a66ab5a0a68359e80413dd8e29f03f4e823d5e7     0 drivers/indexcontroller/resources/icons/right_controller_status_searching_2x.b4bfb144.gif
-         23256      1 4f9085f0368a3437dab40903207dfea7f72197ba     0 drivers/indexcontroller/resources/icons/right_controller_status_searching_2x.gif
+         65365      1 9a66ab5a0a68359e80413dd8e29f03f4e823d5e7     0 drivers/indexcontroller/resources/icons/right_controller_status_searching@2x.b4bfb144.gif
+         23256      1 4f9085f0368a3437dab40903207dfea7f72197ba     0 drivers/indexcontroller/resources/icons/right_controller_status_searching@2x.gif
          41421      1 93a1ab8377233ee1c95b50f6bbbea2ce466b52a4     0 drivers/indexcontroller/resources/icons/right_controller_status_searching_alert.b4bfb144.gif
          13820      1 a3ccc00b922357a00e75df6e6638689a24ec4368     0 drivers/indexcontroller/resources/icons/right_controller_status_searching_alert.gif
-         75869      1 7893ef1ee9782ad109ad7da407ac75b889f0276e     0 drivers/indexcontroller/resources/icons/right_controller_status_searching_alert_2x.b4bfb144.gif
-         28608      1 a42c2c91ce9a16ea27c6a21f9b200fc92fd13765     0 drivers/indexcontroller/resources/icons/right_controller_status_searching_alert_2x.gif
+         75869      1 7893ef1ee9782ad109ad7da407ac75b889f0276e     0 drivers/indexcontroller/resources/icons/right_controller_status_searching_alert@2x.b4bfb144.gif
+         28608      1 a42c2c91ce9a16ea27c6a21f9b200fc92fd13765     0 drivers/indexcontroller/resources/icons/right_controller_status_searching_alert@2x.gif
              0      0 0000000000000000000000000000000000000000    40 drivers/indexcontroller/resources/input
           4764      1 b7c84dee567515d88862b6205fa842de60381933     0 drivers/indexcontroller/resources/input/index_controller_profile.json
           2464      1 d7376064a5679ed557341adbc231002eda3edf4a     0 drivers/indexcontroller/resources/input/index_controller_remapping.json
           2900      1 21b4c8911050d8c07b39757f54264a2f15554c82     0 drivers/indexcontroller/resources/input/knuckles_ev1_profile.json
-         14261      1 0747b8610ac0c29ddae9aa9b827106eef077d37f     0 drivers/indexcontroller/resources/input/legacy_bindings_index_controller.json
+         20089      1 9bb1e743f9363de2b12adf87fc30d3089e6239bf     0 drivers/indexcontroller/resources/input/legacy_bindings_index_controller.json
              0      0 0000000000000000000000000000000000000000    40 drivers/indexcontroller/resources/localization
            455      1 c32e25a4bbcaa475b1c9eecc170b0f237d90bcb0     0 drivers/indexcontroller/resources/localization/localization.json
              0      0 0000000000000000000000000000000000000000    40 drivers/indexcontroller/resources/rendermodels
@@ -622,41 +622,41 @@ Total bytes compressed : 284975792
              0      0 0000000000000000000000000000000000000000    40 drivers/indexhmd/resources/icons
           2111      1 a53e5f72139f238b9a39614980bf3281327c6d4e     0 drivers/indexhmd/resources/icons/headset_status_error.b4bfb144.png
           3426      1 5ff7e018faffc47f4b6f8308d01a1e91a88c3854     0 drivers/indexhmd/resources/icons/headset_status_error.png
-          4819      1 ebbb7c359068fd02eaaaa78ced85ecb1bca37342     0 drivers/indexhmd/resources/icons/headset_status_error_2x.b4bfb144.png
-          3615      1 05483714dae0bc5fe91d68194be68f65ff9fbd81     0 drivers/indexhmd/resources/icons/headset_status_error_2x.png
+          4819      1 ebbb7c359068fd02eaaaa78ced85ecb1bca37342     0 drivers/indexhmd/resources/icons/headset_status_error@2x.b4bfb144.png
+          3615      1 05483714dae0bc5fe91d68194be68f65ff9fbd81     0 drivers/indexhmd/resources/icons/headset_status_error@2x.png
            880      1 b77ec78d284df28a71e94d8ba127ea382026b92b     0 drivers/indexhmd/resources/icons/headset_status_off.6e6c89c9.png
           4170      1 137b5a9b30d5f059e84c0e0d60457c0cfd6d3630     0 drivers/indexhmd/resources/icons/headset_status_off.png
-          1442      1 7ec97c0e55de8dd7d4996300db55634c150a0ebf     0 drivers/indexhmd/resources/icons/headset_status_off_2x.6e6c89c9.png
-          7423      1 3cc0cb86f5685dfa597bd1988a636e6a702ddecd     0 drivers/indexhmd/resources/icons/headset_status_off_2x.png
+          1442      1 7ec97c0e55de8dd7d4996300db55634c150a0ebf     0 drivers/indexhmd/resources/icons/headset_status_off@2x.6e6c89c9.png
+          7423      1 3cc0cb86f5685dfa597bd1988a636e6a702ddecd     0 drivers/indexhmd/resources/icons/headset_status_off@2x.png
           1851      1 f753f08500f1da7c10aaec70b5e918839ec4aa66     0 drivers/indexhmd/resources/icons/headset_status_ready.b4bfb144.png
           3213      1 fc0ad97eaec055af949ee029cd8def9c116c8ba0     0 drivers/indexhmd/resources/icons/headset_status_ready.png
-          4176      1 e629b1666f22eeda18b7846010759b0a15eea49c     0 drivers/indexhmd/resources/icons/headset_status_ready_2x.b4bfb144.png
-          2972      1 c9cb421635ba5f2e611568e32406cd4f306194a6     0 drivers/indexhmd/resources/icons/headset_status_ready_2x.png
+          4176      1 e629b1666f22eeda18b7846010759b0a15eea49c     0 drivers/indexhmd/resources/icons/headset_status_ready@2x.b4bfb144.png
+          2972      1 c9cb421635ba5f2e611568e32406cd4f306194a6     0 drivers/indexhmd/resources/icons/headset_status_ready@2x.png
           2136      1 6df167f19f2e1831daa8572837ad167278cdec1b     0 drivers/indexhmd/resources/icons/headset_status_ready_alert.b4bfb144.png
           3879      1 f0ee93fdb4fa729111d7aa25f8d4d4dc0b1beb3a     0 drivers/indexhmd/resources/icons/headset_status_ready_alert.png
-          4850      1 e73cfabfd07f8b4e72f6c0544e75f50515efd2e9     0 drivers/indexhmd/resources/icons/headset_status_ready_alert_2x.b4bfb144.png
-          3247      1 1c12f92e0bb955194dbeb9a5c6343b01f4e47eb6     0 drivers/indexhmd/resources/icons/headset_status_ready_alert_2x.png
+          4850      1 e73cfabfd07f8b4e72f6c0544e75f50515efd2e9     0 drivers/indexhmd/resources/icons/headset_status_ready_alert@2x.b4bfb144.png
+          3247      1 1c12f92e0bb955194dbeb9a5c6343b01f4e47eb6     0 drivers/indexhmd/resources/icons/headset_status_ready_alert@2x.png
          57363      1 a36bd544e5851764815087e1a99036e39c2d019c     0 drivers/indexhmd/resources/icons/headset_status_searching.b4bfb144.gif
          10357      1 d7075503757ffe39b09903ca2f7326da96e1a0fb     0 drivers/indexhmd/resources/icons/headset_status_searching.gif
-        135456      1 cb70401f1728c13951949c9ec91a877b731efdfe     0 drivers/indexhmd/resources/icons/headset_status_searching_2x.b4bfb144.gif
-         20110      1 cf39a2ca008f72a18343a6510fc704bd9c9f0352     0 drivers/indexhmd/resources/icons/headset_status_searching_2x.gif
+        135456      1 cb70401f1728c13951949c9ec91a877b731efdfe     0 drivers/indexhmd/resources/icons/headset_status_searching@2x.b4bfb144.gif
+         20110      1 cf39a2ca008f72a18343a6510fc704bd9c9f0352     0 drivers/indexhmd/resources/icons/headset_status_searching@2x.gif
          58806      1 222404188775eca95c381e0b47895ca129747e98     0 drivers/indexhmd/resources/icons/headset_status_searching_alert.b4bfb144.gif
          12692      1 b9a3d9b3554813bf78b1063068cd75ccf9acfeca     0 drivers/indexhmd/resources/icons/headset_status_searching_alert.gif
-        138266      1 358847e1e6e1a245752f16f6ea3c50682a1791fb     0 drivers/indexhmd/resources/icons/headset_status_searching_alert_2x.b4bfb144.gif
-         25288      1 d4e1a827a7486b3c3c368f575c546e5422b08cbb     0 drivers/indexhmd/resources/icons/headset_status_searching_alert_2x.gif
+        138266      1 358847e1e6e1a245752f16f6ea3c50682a1791fb     0 drivers/indexhmd/resources/icons/headset_status_searching_alert@2x.b4bfb144.gif
+         25288      1 d4e1a827a7486b3c3c368f575c546e5422b08cbb     0 drivers/indexhmd/resources/icons/headset_status_searching_alert@2x.gif
           2225      1 3f8b5aecdb49b2be3c59decbf5f641b96ac7e6a1     0 drivers/indexhmd/resources/icons/headset_status_standby.b4bfb144.png
           3405      1 6df8a4b1aea9afcc0ecbb9b53426ddbe21038963     0 drivers/indexhmd/resources/icons/headset_status_standby.png
-          5065      1 c27e0c241160bc369510423a3e19a47136f48411     0 drivers/indexhmd/resources/icons/headset_status_standby_2x.b4bfb144.png
-          3440      1 3eb4df1f2720b78963a21bb38a6bc82a423bf97a     0 drivers/indexhmd/resources/icons/headset_status_standby_2x.png
+          5065      1 c27e0c241160bc369510423a3e19a47136f48411     0 drivers/indexhmd/resources/icons/headset_status_standby@2x.b4bfb144.png
+          3440      1 3eb4df1f2720b78963a21bb38a6bc82a423bf97a     0 drivers/indexhmd/resources/icons/headset_status_standby@2x.png
           2326      1 1e1155e24cc013f1ac810c801728b993f69e8e27     0 drivers/indexhmd/resources/icons/headset_status_standby_alert.b4bfb144.png
           3492      1 9c2aa5b109a95b653c79fa00a90b692c9ef24c4d     0 drivers/indexhmd/resources/icons/headset_status_standby_alert.png
-          5658      1 74458e8ceff743410cbf9ef890f31aac9438a26b     0 drivers/indexhmd/resources/icons/headset_status_standby_alert_2x.b4bfb144.png
-          3762      1 91871f96fde8c27b6c8dacd9e4d09d3bf87a855f     0 drivers/indexhmd/resources/icons/headset_status_standby_alert_2x.png
+          5658      1 74458e8ceff743410cbf9ef890f31aac9438a26b     0 drivers/indexhmd/resources/icons/headset_status_standby_alert@2x.b4bfb144.png
+          3762      1 91871f96fde8c27b6c8dacd9e4d09d3bf87a855f     0 drivers/indexhmd/resources/icons/headset_status_standby_alert@2x.png
          12338      1 a83668b8b5a8425017ada70de834a519c8835e6d     0 drivers/indexhmd/resources/icons/indexhmd.svg
         351368      1 35120821a3c342b798d187afb12c1a8adb20be57     0 drivers/indexhmd/resources/index_hmd_overrides.bin
              0      0 0000000000000000000000000000000000000000    40 drivers/indexhmd/resources/input
            861      1 e40346a66258e6d5392852250bd065dca823d101     0 drivers/indexhmd/resources/input/indexhmd_profile.json
-          1289      1 b71cc64e739e3aa92ad29a684a94b79a966936b2     0 drivers/indexhmd/resources/input/vrcompositor_bindings_indexhmd.json
+          1902      1 c071e6d61722f4864c861881967a3e99b3d90cca     0 drivers/indexhmd/resources/input/vrcompositor_bindings_indexhmd.json
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/bin
            209      1 43693045c75a68af6fc1a39948f825164c2bd12b     0 drivers/lighthouse/driver.vrdrivermanifest
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources
@@ -671,128 +671,128 @@ Total bytes compressed : 284975792
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/icons
           1312      1 daade0ae45959cc8899d713ff2a0d645a18db264     0 drivers/lighthouse/resources/icons/base2_status_error.b4bfb144.png
           3094      1 b2639d9e3576364b88516dfd4aace03ff0f11355     0 drivers/lighthouse/resources/icons/base2_status_error.png
-          3161      1 c449a3351e381d10af90439033e9baf7c960f44b     0 drivers/lighthouse/resources/icons/base2_status_error_2x.b4bfb144.png
-          3580      1 405fc37108ace8f5e72cb20ae2229aa80151a9cb     0 drivers/lighthouse/resources/icons/base2_status_error_2x.png
+          3161      1 c449a3351e381d10af90439033e9baf7c960f44b     0 drivers/lighthouse/resources/icons/base2_status_error@2x.b4bfb144.png
+          3580      1 405fc37108ace8f5e72cb20ae2229aa80151a9cb     0 drivers/lighthouse/resources/icons/base2_status_error@2x.png
            557      1 f112694a47647e99c64d39cbd05b74c0a6fa7bb1     0 drivers/lighthouse/resources/icons/base2_status_off.6e6c89c9.png
           2738      1 caab26ba70398a3dbe3981a8d26270fb8ff9a8ab     0 drivers/lighthouse/resources/icons/base2_status_off.png
-           755      1 ee745c7c29748f1c2ee4267ed93de136ee4765e1     0 drivers/lighthouse/resources/icons/base2_status_off_2x.6e6c89c9.png
-          3991      1 e8c8a2474c4d13cf1adf829c045ce7b34ec6bb6a     0 drivers/lighthouse/resources/icons/base2_status_off_2x.png
+           755      1 ee745c7c29748f1c2ee4267ed93de136ee4765e1     0 drivers/lighthouse/resources/icons/base2_status_off@2x.6e6c89c9.png
+          3991      1 e8c8a2474c4d13cf1adf829c045ce7b34ec6bb6a     0 drivers/lighthouse/resources/icons/base2_status_off@2x.png
            903      1 7ada9a0b66067d0c6d991459b8861e2bcb32dfd0     0 drivers/lighthouse/resources/icons/base2_status_ready.b4bfb144.png
           2182      1 f9eef2c48009edb96acf288cee43a53c4777af40     0 drivers/lighthouse/resources/icons/base2_status_ready.png
-          2086      1 0efd7ea46fe7d466f207f1ef7201b3a29dc83e26     0 drivers/lighthouse/resources/icons/base2_status_ready_2x.b4bfb144.png
-          2509      1 33c323ec19d9fe05dc021644fb6f235d9ee8a3db     0 drivers/lighthouse/resources/icons/base2_status_ready_2x.png
+          2086      1 0efd7ea46fe7d466f207f1ef7201b3a29dc83e26     0 drivers/lighthouse/resources/icons/base2_status_ready@2x.b4bfb144.png
+          2509      1 33c323ec19d9fe05dc021644fb6f235d9ee8a3db     0 drivers/lighthouse/resources/icons/base2_status_ready@2x.png
           1280      1 a73dad74c195d21a036762547a877c2fde7d0ca7     0 drivers/lighthouse/resources/icons/base2_status_ready_alert.b4bfb144.png
           2827      1 d7f46241a84f11ff181fd84583d89c24cbc8550f     0 drivers/lighthouse/resources/icons/base2_status_ready_alert.png
-          3135      1 1c612059d9928b7df9975a141ed6bcdb125fd1e8     0 drivers/lighthouse/resources/icons/base2_status_ready_alert_2x.b4bfb144.png
-          3021      1 3185753b603c483170a1d8ba40456e535bfa5e52     0 drivers/lighthouse/resources/icons/base2_status_ready_alert_2x.png
+          3135      1 1c612059d9928b7df9975a141ed6bcdb125fd1e8     0 drivers/lighthouse/resources/icons/base2_status_ready_alert@2x.b4bfb144.png
+          3021      1 3185753b603c483170a1d8ba40456e535bfa5e52     0 drivers/lighthouse/resources/icons/base2_status_ready_alert@2x.png
          38563      1 1c56f6c48840bbef579f05e932b2fb4c5ca1358c     0 drivers/lighthouse/resources/icons/base2_status_searching.b4bfb144.gif
           4706      1 ccd49f07bff19f7e637ed61c5dd7c98bb9cd06cc     0 drivers/lighthouse/resources/icons/base2_status_searching.gif
-         73046      1 3a0f748775c483f19d465f117522826649ff0343     0 drivers/lighthouse/resources/icons/base2_status_searching_2x.b4bfb144.gif
-          7687      1 07e577e02e574e34fa9b4d2cc39001d0ccafe51f     0 drivers/lighthouse/resources/icons/base2_status_searching_2x.gif
+         73046      1 3a0f748775c483f19d465f117522826649ff0343     0 drivers/lighthouse/resources/icons/base2_status_searching@2x.b4bfb144.gif
+          7687      1 07e577e02e574e34fa9b4d2cc39001d0ccafe51f     0 drivers/lighthouse/resources/icons/base2_status_searching@2x.gif
          39951      1 3714835a9d06fab718509c7e8e445e3a7abbc097     0 drivers/lighthouse/resources/icons/base2_status_searching_alert.b4bfb144.gif
           7948      1 8d2774903a3a32e5ef6bdabf6bd784228bc1ce7d     0 drivers/lighthouse/resources/icons/base2_status_searching_alert.gif
-         78757      1 96d084b21b4845ab565ce03b80be4d1fa573fc2a     0 drivers/lighthouse/resources/icons/base2_status_searching_alert_2x.b4bfb144.gif
-         17179      1 d09a20befae372b1129a50c1f2e3699db2b13665     0 drivers/lighthouse/resources/icons/base2_status_searching_alert_2x.gif
+         78757      1 96d084b21b4845ab565ce03b80be4d1fa573fc2a     0 drivers/lighthouse/resources/icons/base2_status_searching_alert@2x.b4bfb144.gif
+         17179      1 d09a20befae372b1129a50c1f2e3699db2b13665     0 drivers/lighthouse/resources/icons/base2_status_searching_alert@2x.gif
           1107      1 72c37704a9627bcf4682e5d9050f0262840865fa     0 drivers/lighthouse/resources/icons/base2_status_standby.b4bfb144.png
           2252      1 e727e9ba6a69d9828a2c32527f12b4cdefd4390b     0 drivers/lighthouse/resources/icons/base2_status_standby.png
-          2179      1 d87de62fa3b3c180c1e55161308a989358485103     0 drivers/lighthouse/resources/icons/base2_status_standby_2x.b4bfb144.png
-          2627      1 6a269e0d96884ba49544f65bdd0bd46191212dfb     0 drivers/lighthouse/resources/icons/base2_status_standby_2x.png
+          2179      1 d87de62fa3b3c180c1e55161308a989358485103     0 drivers/lighthouse/resources/icons/base2_status_standby@2x.b4bfb144.png
+          2627      1 6a269e0d96884ba49544f65bdd0bd46191212dfb     0 drivers/lighthouse/resources/icons/base2_status_standby@2x.png
           1312      1 1c4b00c95e73fc8c28b5b1b3f7d00082982fa2a9     0 drivers/lighthouse/resources/icons/base_status_error.b4bfb144.png
           3094      1 b2639d9e3576364b88516dfd4aace03ff0f11355     0 drivers/lighthouse/resources/icons/base_status_error.png
-          3161      1 0b616149c698a56b441d1b347739c1c9341fa182     0 drivers/lighthouse/resources/icons/base_status_error_2x.b4bfb144.png
-          3580      1 405fc37108ace8f5e72cb20ae2229aa80151a9cb     0 drivers/lighthouse/resources/icons/base_status_error_2x.png
+          3161      1 0b616149c698a56b441d1b347739c1c9341fa182     0 drivers/lighthouse/resources/icons/base_status_error@2x.b4bfb144.png
+          3580      1 405fc37108ace8f5e72cb20ae2229aa80151a9cb     0 drivers/lighthouse/resources/icons/base_status_error@2x.png
            557      1 8bb797a0a34eabb2dae01543f4ec28728d9d6962     0 drivers/lighthouse/resources/icons/base_status_off.6e6c89c9.png
           2738      1 caab26ba70398a3dbe3981a8d26270fb8ff9a8ab     0 drivers/lighthouse/resources/icons/base_status_off.png
-           755      1 bdd6367f288f6a13a09e55c7c718ad9333d8a0a3     0 drivers/lighthouse/resources/icons/base_status_off_2x.6e6c89c9.png
-          3991      1 562231e12af31e3826adb4820b50e1e8559cc686     0 drivers/lighthouse/resources/icons/base_status_off_2x.png
+           755      1 bdd6367f288f6a13a09e55c7c718ad9333d8a0a3     0 drivers/lighthouse/resources/icons/base_status_off@2x.6e6c89c9.png
+          3991      1 562231e12af31e3826adb4820b50e1e8559cc686     0 drivers/lighthouse/resources/icons/base_status_off@2x.png
            903      1 9b4bd6177f6fc463d0e29de150e40c493fc99d62     0 drivers/lighthouse/resources/icons/base_status_ready.b4bfb144.png
           2182      1 f9eef2c48009edb96acf288cee43a53c4777af40     0 drivers/lighthouse/resources/icons/base_status_ready.png
-          2086      1 3ec31bbdd23da66557cf0af872821c822d8b8f63     0 drivers/lighthouse/resources/icons/base_status_ready_2x.b4bfb144.png
-          2509      1 33c323ec19d9fe05dc021644fb6f235d9ee8a3db     0 drivers/lighthouse/resources/icons/base_status_ready_2x.png
+          2086      1 3ec31bbdd23da66557cf0af872821c822d8b8f63     0 drivers/lighthouse/resources/icons/base_status_ready@2x.b4bfb144.png
+          2509      1 33c323ec19d9fe05dc021644fb6f235d9ee8a3db     0 drivers/lighthouse/resources/icons/base_status_ready@2x.png
           1280      1 bb7b937b604bc4a47acac62bee72f7ce2f12b4c9     0 drivers/lighthouse/resources/icons/base_status_ready_alert.b4bfb144.png
           2827      1 d7f46241a84f11ff181fd84583d89c24cbc8550f     0 drivers/lighthouse/resources/icons/base_status_ready_alert.png
-          3135      1 2d3a409d5fb6ef06c83c7ee04228571054f987d9     0 drivers/lighthouse/resources/icons/base_status_ready_alert_2x.b4bfb144.png
-          3021      1 3185753b603c483170a1d8ba40456e535bfa5e52     0 drivers/lighthouse/resources/icons/base_status_ready_alert_2x.png
+          3135      1 2d3a409d5fb6ef06c83c7ee04228571054f987d9     0 drivers/lighthouse/resources/icons/base_status_ready_alert@2x.b4bfb144.png
+          3021      1 3185753b603c483170a1d8ba40456e535bfa5e52     0 drivers/lighthouse/resources/icons/base_status_ready_alert@2x.png
          38563      1 1c56f6c48840bbef579f05e932b2fb4c5ca1358c     0 drivers/lighthouse/resources/icons/base_status_searching.b4bfb144.gif
           4706      1 ccd49f07bff19f7e637ed61c5dd7c98bb9cd06cc     0 drivers/lighthouse/resources/icons/base_status_searching.gif
-         73046      1 3a0f748775c483f19d465f117522826649ff0343     0 drivers/lighthouse/resources/icons/base_status_searching_2x.b4bfb144.gif
-          7687      1 07e577e02e574e34fa9b4d2cc39001d0ccafe51f     0 drivers/lighthouse/resources/icons/base_status_searching_2x.gif
+         73046      1 3a0f748775c483f19d465f117522826649ff0343     0 drivers/lighthouse/resources/icons/base_status_searching@2x.b4bfb144.gif
+          7687      1 07e577e02e574e34fa9b4d2cc39001d0ccafe51f     0 drivers/lighthouse/resources/icons/base_status_searching@2x.gif
          39951      1 3714835a9d06fab718509c7e8e445e3a7abbc097     0 drivers/lighthouse/resources/icons/base_status_searching_alert.b4bfb144.gif
           7948      1 8d2774903a3a32e5ef6bdabf6bd784228bc1ce7d     0 drivers/lighthouse/resources/icons/base_status_searching_alert.gif
-         78757      1 96d084b21b4845ab565ce03b80be4d1fa573fc2a     0 drivers/lighthouse/resources/icons/base_status_searching_alert_2x.b4bfb144.gif
-         17179      1 d09a20befae372b1129a50c1f2e3699db2b13665     0 drivers/lighthouse/resources/icons/base_status_searching_alert_2x.gif
+         78757      1 96d084b21b4845ab565ce03b80be4d1fa573fc2a     0 drivers/lighthouse/resources/icons/base_status_searching_alert@2x.b4bfb144.gif
+         17179      1 d09a20befae372b1129a50c1f2e3699db2b13665     0 drivers/lighthouse/resources/icons/base_status_searching_alert@2x.gif
           1107      1 3c98308662a00347421b4fa85658a8e8052cbcc3     0 drivers/lighthouse/resources/icons/base_status_standby.b4bfb144.png
           2252      1 e727e9ba6a69d9828a2c32527f12b4cdefd4390b     0 drivers/lighthouse/resources/icons/base_status_standby.png
-          2179      1 9635c3b3ffb2beb1c656cf7f97f50c2063b11f0f     0 drivers/lighthouse/resources/icons/base_status_standby_2x.b4bfb144.png
-          2627      1 6a269e0d96884ba49544f65bdd0bd46191212dfb     0 drivers/lighthouse/resources/icons/base_status_standby_2x.png
+          2179      1 9635c3b3ffb2beb1c656cf7f97f50c2063b11f0f     0 drivers/lighthouse/resources/icons/base_status_standby@2x.b4bfb144.png
+          2627      1 6a269e0d96884ba49544f65bdd0bd46191212dfb     0 drivers/lighthouse/resources/icons/base_status_standby@2x.png
           1898      1 16afd32e9e1c6f15114a98ed3f58d0c37fef151d     0 drivers/lighthouse/resources/icons/controller_status_error.b4bfb144.png
           4585      1 2970153bf93d050366468dce71e6b03d41204644     0 drivers/lighthouse/resources/icons/controller_status_error.png
-          4114      1 c0393784a41d256896fabb4811c9fa8957d55a6f     0 drivers/lighthouse/resources/icons/controller_status_error_2x.b4bfb144.png
-          5626      1 506e63174bd08add2f976bdb0b01e35499fbeb87     0 drivers/lighthouse/resources/icons/controller_status_error_2x.png
+          4114      1 c0393784a41d256896fabb4811c9fa8957d55a6f     0 drivers/lighthouse/resources/icons/controller_status_error@2x.b4bfb144.png
+          5626      1 506e63174bd08add2f976bdb0b01e35499fbeb87     0 drivers/lighthouse/resources/icons/controller_status_error@2x.png
           1260      1 c6c65f2a109b3e32a9b711f01eea39dc83fb14de     0 drivers/lighthouse/resources/icons/controller_status_off.6e6c89c9.png
           1527      1 69194d9a153d73ee92109e628c02c75b66876098     0 drivers/lighthouse/resources/icons/controller_status_off.b4bfb144.png
           2877      1 e4c02a467a1bfd5452e553bacf96f97bde7282ce     0 drivers/lighthouse/resources/icons/controller_status_off.png
-          2615      1 2d15ad27c4534b8b4cb16eed9be5a6f9029aad2b     0 drivers/lighthouse/resources/icons/controller_status_off_2x.6e6c89c9.png
-          3077      1 fbf5a7175bed557d7859b1c944a104f92a0f5199     0 drivers/lighthouse/resources/icons/controller_status_off_2x.b4bfb144.png
-          3452      1 52301899d7fa15f0b055f0076ced4a4e6039b6f5     0 drivers/lighthouse/resources/icons/controller_status_off_2x.png
+          2615      1 2d15ad27c4534b8b4cb16eed9be5a6f9029aad2b     0 drivers/lighthouse/resources/icons/controller_status_off@2x.6e6c89c9.png
+          3077      1 fbf5a7175bed557d7859b1c944a104f92a0f5199     0 drivers/lighthouse/resources/icons/controller_status_off@2x.b4bfb144.png
+          3452      1 52301899d7fa15f0b055f0076ced4a4e6039b6f5     0 drivers/lighthouse/resources/icons/controller_status_off@2x.png
           1585      1 063c6426a8ccbef42d40df28129e7ccbb80bd06f     0 drivers/lighthouse/resources/icons/controller_status_ready.b4bfb144.png
           3054      1 7401c5f7758abd63c5dba0a07f75e99d40d18a63     0 drivers/lighthouse/resources/icons/controller_status_ready.png
-          3345      1 1b401f9d9e2692e0b923effbba7cbebb1ead40d0     0 drivers/lighthouse/resources/icons/controller_status_ready_2x.b4bfb144.png
-          3899      1 ba0985677961dfdacab685c055602163fc2af1d2     0 drivers/lighthouse/resources/icons/controller_status_ready_2x.png
+          3345      1 1b401f9d9e2692e0b923effbba7cbebb1ead40d0     0 drivers/lighthouse/resources/icons/controller_status_ready@2x.b4bfb144.png
+          3899      1 ba0985677961dfdacab685c055602163fc2af1d2     0 drivers/lighthouse/resources/icons/controller_status_ready@2x.png
           1884      1 4c23bb03833fa05f56811c26f8e4ee89ae4b7c9c     0 drivers/lighthouse/resources/icons/controller_status_ready_alert.b4bfb144.png
           4198      1 567c49c775e104afddeeea0d070989648cbfe9f9     0 drivers/lighthouse/resources/icons/controller_status_ready_alert.png
-          4149      1 5d0ab534e42a451db6a5a3192d033c6c8f9ddb24     0 drivers/lighthouse/resources/icons/controller_status_ready_alert_2x.b4bfb144.png
-          4852      1 161aaf2680a2c00e0ce1eb43bf1e0fc160ebd7dd     0 drivers/lighthouse/resources/icons/controller_status_ready_alert_2x.png
+          4149      1 5d0ab534e42a451db6a5a3192d033c6c8f9ddb24     0 drivers/lighthouse/resources/icons/controller_status_ready_alert@2x.b4bfb144.png
+          4852      1 161aaf2680a2c00e0ce1eb43bf1e0fc160ebd7dd     0 drivers/lighthouse/resources/icons/controller_status_ready_alert@2x.png
           1954      1 47e7f77f7e30816a41b9e53f934e0bcfb4140cbb     0 drivers/lighthouse/resources/icons/controller_status_ready_low.b4bfb144.png
           4394      1 61944d05baac78cd052df69cb369b87400357b65     0 drivers/lighthouse/resources/icons/controller_status_ready_low.png
-          4097      1 142506fe9348d1b3a7db5110f1cd90166b9becb0     0 drivers/lighthouse/resources/icons/controller_status_ready_low_2x.b4bfb144.png
-          5604      1 c855cea7c3c46805553e927f7ad913d9244d3d75     0 drivers/lighthouse/resources/icons/controller_status_ready_low_2x.png
+          4097      1 142506fe9348d1b3a7db5110f1cd90166b9becb0     0 drivers/lighthouse/resources/icons/controller_status_ready_low@2x.b4bfb144.png
+          5604      1 c855cea7c3c46805553e927f7ad913d9244d3d75     0 drivers/lighthouse/resources/icons/controller_status_ready_low@2x.png
          36480      1 95e89be48c0a9c37cf3df41b9ad152d13c742d89     0 drivers/lighthouse/resources/icons/controller_status_searching.b4bfb144.gif
          10466      1 39581fe4ec4b4f718f9ca1c508571f4b8c1ed6ca     0 drivers/lighthouse/resources/icons/controller_status_searching.gif
-         61421      1 33b9a51131a08c2bbfa47be365d0b783bec4a4aa     0 drivers/lighthouse/resources/icons/controller_status_searching_2x.b4bfb144.gif
-         20761      1 ad7a181c7447adac4020e7074834f923e537b74c     0 drivers/lighthouse/resources/icons/controller_status_searching_2x.gif
+         61421      1 33b9a51131a08c2bbfa47be365d0b783bec4a4aa     0 drivers/lighthouse/resources/icons/controller_status_searching@2x.b4bfb144.gif
+         20761      1 ad7a181c7447adac4020e7074834f923e537b74c     0 drivers/lighthouse/resources/icons/controller_status_searching@2x.gif
          40476      1 59922a7cf56dd4d4e9d030b0b6d03bc49665b6c1     0 drivers/lighthouse/resources/icons/controller_status_searching_alert.b4bfb144.gif
          13006      1 c06483cfb27dd8c2d541d02d690c2230b6a90f5e     0 drivers/lighthouse/resources/icons/controller_status_searching_alert.gif
-         72953      1 61b82cb125ef772d4424f7b1ccd80428ca0a913b     0 drivers/lighthouse/resources/icons/controller_status_searching_alert_2x.b4bfb144.gif
-         26591      1 0e6c969a3a56c45a8121819301fc9fb0292efb66     0 drivers/lighthouse/resources/icons/controller_status_searching_alert_2x.gif
+         72953      1 61b82cb125ef772d4424f7b1ccd80428ca0a913b     0 drivers/lighthouse/resources/icons/controller_status_searching_alert@2x.b4bfb144.gif
+         26591      1 0e6c969a3a56c45a8121819301fc9fb0292efb66     0 drivers/lighthouse/resources/icons/controller_status_searching_alert@2x.gif
           1942      1 168fc97dba28a170eaf34285237d0c71c0047f1b     0 drivers/lighthouse/resources/icons/headset_status_error.b4bfb144.png
           3270      1 c1222593369f21d736fc8f20a318875d9a1731a8     0 drivers/lighthouse/resources/icons/headset_status_error.png
-          4587      1 10be3331118ce3f905125a99829bbacac3d8e5b7     0 drivers/lighthouse/resources/icons/headset_status_error_2x.b4bfb144.png
-          4636      1 3fa1873c0e9674244f385476c5287e58766d4028     0 drivers/lighthouse/resources/icons/headset_status_error_2x.png
+          4587      1 10be3331118ce3f905125a99829bbacac3d8e5b7     0 drivers/lighthouse/resources/icons/headset_status_error@2x.b4bfb144.png
+          4636      1 3fa1873c0e9674244f385476c5287e58766d4028     0 drivers/lighthouse/resources/icons/headset_status_error@2x.png
            985      1 94e8c667f3e56ec105cec7c92e03c7131430dab2     0 drivers/lighthouse/resources/icons/headset_status_off.6e6c89c9.png
           2813      1 3e8e36a4ee67c1e7960a063404ce4d87c5dc26cf     0 drivers/lighthouse/resources/icons/headset_status_off.png
-          1784      1 a76a82beaba98ad8c6bab7685b69f9c0725f4eb3     0 drivers/lighthouse/resources/icons/headset_status_off_2x.6e6c89c9.png
-          6899      1 b20a50d95f351397676ff6741e1cd7617a948804     0 drivers/lighthouse/resources/icons/headset_status_off_2x.png
+          1784      1 a76a82beaba98ad8c6bab7685b69f9c0725f4eb3     0 drivers/lighthouse/resources/icons/headset_status_off@2x.6e6c89c9.png
+          6899      1 b20a50d95f351397676ff6741e1cd7617a948804     0 drivers/lighthouse/resources/icons/headset_status_off@2x.png
           1606      1 f4c4b410b54e39df82515abffb07d0544d9b5f66     0 drivers/lighthouse/resources/icons/headset_status_ready.b4bfb144.png
           1737      1 36052c8c2cd7cc7f80542447d7fcac0a2c112250     0 drivers/lighthouse/resources/icons/headset_status_ready.png
-          3901      1 51cfe28966498c7a8ddc75fadccd94d244887912     0 drivers/lighthouse/resources/icons/headset_status_ready_2x.b4bfb144.png
-          3448      1 b928adfd6ae1e538d6d68513a5e8f40eec4b21a2     0 drivers/lighthouse/resources/icons/headset_status_ready_2x.png
+          3901      1 51cfe28966498c7a8ddc75fadccd94d244887912     0 drivers/lighthouse/resources/icons/headset_status_ready@2x.b4bfb144.png
+          3448      1 b928adfd6ae1e538d6d68513a5e8f40eec4b21a2     0 drivers/lighthouse/resources/icons/headset_status_ready@2x.png
           1912      1 d23c29ceb2e74b00c94b38864ff6a6134c4b665c     0 drivers/lighthouse/resources/icons/headset_status_ready_alert.b4bfb144.png
           3085      1 2546db18f65b35875784dd392b82220cb22b5028     0 drivers/lighthouse/resources/icons/headset_status_ready_alert.png
-          4809      1 29d5dec2201be8c9f5fd06c2d211aa36bed97c48     0 drivers/lighthouse/resources/icons/headset_status_ready_alert_2x.b4bfb144.png
-          4105      1 5ec4a0b097a8bcebf8441c538fdad4714c368da5     0 drivers/lighthouse/resources/icons/headset_status_ready_alert_2x.png
+          4809      1 29d5dec2201be8c9f5fd06c2d211aa36bed97c48     0 drivers/lighthouse/resources/icons/headset_status_ready_alert@2x.b4bfb144.png
+          4105      1 5ec4a0b097a8bcebf8441c538fdad4714c368da5     0 drivers/lighthouse/resources/icons/headset_status_ready_alert@2x.png
          53676      1 90d89e9c56278f7b2714c3545db91ccb7b871abe     0 drivers/lighthouse/resources/icons/headset_status_searching.b4bfb144.gif
           8422      1 c910e4a8abf03a3fb2aa5f250a115a7aca226506     0 drivers/lighthouse/resources/icons/headset_status_searching.gif
-        127150      1 2a6e175e00247ab8de238206df581a04a9825fa5     0 drivers/lighthouse/resources/icons/headset_status_searching_2x.b4bfb144.gif
-         24818      1 cfe2579ea751977366c7988107f4edd88fddd887     0 drivers/lighthouse/resources/icons/headset_status_searching_2x.gif
+        127150      1 2a6e175e00247ab8de238206df581a04a9825fa5     0 drivers/lighthouse/resources/icons/headset_status_searching@2x.b4bfb144.gif
+         24818      1 cfe2579ea751977366c7988107f4edd88fddd887     0 drivers/lighthouse/resources/icons/headset_status_searching@2x.gif
          56259      1 0f4c08124d35556d70bf87c7a8be7ceda0ec76ed     0 drivers/lighthouse/resources/icons/headset_status_searching_alert.b4bfb144.gif
          11289      1 a0b773935618e2ad789d86a45603154d5c879189     0 drivers/lighthouse/resources/icons/headset_status_searching_alert.gif
-        130570      1 dea9bd027480bd66e5fb1d0d0d22d20388380d5b     0 drivers/lighthouse/resources/icons/headset_status_searching_alert_2x.b4bfb144.gif
-         23833      1 a37ee969f55fabc9a70173c9cab34298f828bd42     0 drivers/lighthouse/resources/icons/headset_status_searching_alert_2x.gif
+        130570      1 dea9bd027480bd66e5fb1d0d0d22d20388380d5b     0 drivers/lighthouse/resources/icons/headset_status_searching_alert@2x.b4bfb144.gif
+         23833      1 a37ee969f55fabc9a70173c9cab34298f828bd42     0 drivers/lighthouse/resources/icons/headset_status_searching_alert@2x.gif
           1392      1 970d75c055404dcd1974c7f2b4b594032ddf6de5     0 drivers/lighthouse/resources/icons/headset_status_standby.b4bfb144.png
           2314      1 cb583d7a7a8ccc55fe78a4fe592092041482dac5     0 drivers/lighthouse/resources/icons/headset_status_standby.png
-          4348      1 e8482ad8bde6bada762452c14ec140735bfda2f2     0 drivers/lighthouse/resources/icons/headset_status_standby_2x.b4bfb144.png
-          4668      1 b7016268b6c1f2df1a78f52641187b07a20d9e6d     0 drivers/lighthouse/resources/icons/headset_status_standby_2x.png
+          4348      1 e8482ad8bde6bada762452c14ec140735bfda2f2     0 drivers/lighthouse/resources/icons/headset_status_standby@2x.b4bfb144.png
+          4668      1 b7016268b6c1f2df1a78f52641187b07a20d9e6d     0 drivers/lighthouse/resources/icons/headset_status_standby@2x.png
           1851      1 056bc3434ba296df9989b2fadbe7d259f7a84606     0 drivers/lighthouse/resources/icons/headset_status_standby_alert.b4bfb144.png
           3868      1 d7c99c3469990f3bd98be9f2b8df841155a422f5     0 drivers/lighthouse/resources/icons/headset_status_standby_alert.png
-          5061      1 30382f30501799b2f5fcadb9bb97adacdfcc3b37     0 drivers/lighthouse/resources/icons/headset_status_standby_alert_2x.png
+          5061      1 30382f30501799b2f5fcadb9bb97adacdfcc3b37     0 drivers/lighthouse/resources/icons/headset_status_standby_alert@2x.png
          14377      1 fe748b99725be3de13fd2051554cd13b233873f4     0 drivers/lighthouse/resources/lighthouse_scale.json
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/settings
            445      1 2a16de19a10671c1b0a5c2ae9aad015e9cb2eaad     0 drivers/lighthouse/resources/settings/default.vrsettings
            268      1 c2d7485f00585db205e3d7b351fa8771354e6676     0 drivers/lighthouse/resources/webhelperoverlays.json
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/css
-         24529      1 b5ecdd86c1c24e5c1282eee6d4b78723f58cf2be     0 drivers/lighthouse/resources/webinterface/css/base.css
+         24274      1 dc439c5708fede40204a4ba4aa9858d53ee992dd     0 drivers/lighthouse/resources/webinterface/css/base.css
              0      0 0000000000000000000000000000000000000000     0 drivers/lighthouse/resources/webinterface/css/empty.dir
          13953      1 a958fd6edfc75e0249340eabb7e593a0912bafbd     0 drivers/lighthouse/resources/webinterface/css/pairing.css
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/fonts
@@ -812,7 +812,7 @@ Total bytes compressed : 284975792
          34324      1 957e1681db23ab89f68dd7f93c725eacb519cfd9     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand.svg
           5707      1 44f43289f6e2f1f15b3f8c778e6687289206db10     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand_callouts.svg
           6043      1 7ecb337cfd5795f7e0ff416225080f05797c35a4     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand_callouts_text.svg
-        215199      1 6322d47d5bea3916b72defbb2978ebd613865882     0 drivers/lighthouse/resources/webinterface/libraries.js
+        215199      1 323bb2043e24fc2077994b136c3fb4af860b8bd0     0 drivers/lighthouse/resources/webinterface/libraries.js
           2045      1 c7a144974a9a3961929f2d078236aa6fcb3c7698     0 drivers/lighthouse/resources/webinterface/libraries.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/localization
              0      0 0000000000000000000000000000000000000000     0 drivers/lighthouse/resources/webinterface/localization/empty.dir
@@ -844,15 +844,15 @@ Total bytes compressed : 284975792
           2873      1 8c4d7efbb7b1d73b8001765ae5c3999801ef0613     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_turkish.json
           3570      1 df5830bbf45f712892f465b9485cc3555d0e3afb     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_ukrainian.json
           3107      1 9720cf264a2f461590a5801d66acd1a650631599     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_vietnamese.json
-           508      1 cc940be7bd1a348f5392f2f74dc53bc120ec4f22     0 drivers/lighthouse/resources/webinterface/pairing.html
-        154414      1 b5d4c1c50c25c0b135e6134e8de1430c0c8e4f57     0 drivers/lighthouse/resources/webinterface/pairing.js
+           508      1 c25f3eefa932dce10efa1bae813598595cb650a1     0 drivers/lighthouse/resources/webinterface/pairing.html
+        211359      1 a8945c3ae1613a548ad4027488c35201184bb1de     0 drivers/lighthouse/resources/webinterface/pairing.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 drivers/lighthouse/resources/webinterface/pairing.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/sounds
         147172      1 d3ed1d7f8fef28dbc0371ffe9ed607a6b9734429     0 drivers/lighthouse/resources/webinterface/sounds/activation.wav
         112784      1 0e03d4e424300113a4578b466626b7aa8e029d34     0 drivers/lighthouse/resources/webinterface/sounds/activation_change_fail.wav
              0      0 0000000000000000000000000000000000000000     0 drivers/lighthouse/resources/webinterface/sounds/empty.dir
          68408      1 9f7f8ae7a37023d2417efffa5ce793dd5bfe5948     0 drivers/lighthouse/resources/webinterface/sounds/volume_change.wav
-         64055      1 c9a7c9f68feac22a7bbd9d6d7b0239e91a775f87     0 drivers/lighthouse/resources/webinterface/vrwebui_shared.js
+          2853      1 e3bd51155580527ccd4d96c98c2ac61758e8cef4     0 drivers/lighthouse/resources/webinterface/vrwebui_shared.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 drivers/lighthouse/resources/webinterface/vrwebui_shared.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 drivers/null/bin
            136      1 22eb5482a4d344a6fe9a4ac2298639a76ce841a9     0 drivers/null/driver.vrdrivermanifest
@@ -978,127 +978,127 @@ Total bytes compressed : 284975792
          19626      1 548f520f1054e60b3c5fcfacfc5d177adccac469     0 drivers/oculus/resources/icons/oculus_touch_right.svg
          48784      1 7b8bf27e8daadbcf34c3a1a655805f289cf55aa1     0 drivers/oculus/resources/icons/quest_headset_alert_searching.b4bfb144.gif
          10505      1 332de2b390c5f72821013d26cb184e8cf908b58f     0 drivers/oculus/resources/icons/quest_headset_alert_searching.gif
-        108564      1 8a12f9f666725cc39a4e283759285994449f0010     0 drivers/oculus/resources/icons/quest_headset_alert_searching_2x.b4bfb144.gif
-         22737      1 fad90b41472bda8d18cff3ca095fa519b78fadb0     0 drivers/oculus/resources/icons/quest_headset_alert_searching_2x.gif
+        108564      1 8a12f9f666725cc39a4e283759285994449f0010     0 drivers/oculus/resources/icons/quest_headset_alert_searching@2x.b4bfb144.gif
+         22737      1 fad90b41472bda8d18cff3ca095fa519b78fadb0     0 drivers/oculus/resources/icons/quest_headset_alert_searching@2x.gif
           1819      1 9f1512dddf3163d24efabdae76f7a0cb6910cde3     0 drivers/oculus/resources/icons/quest_headset_error.b4bfb144.png
           1774      1 9d08ec1e899b0975679803f08d478d827856fe66     0 drivers/oculus/resources/icons/quest_headset_error.png
-          4266      1 09e7f050c372c8d966f9d44f3d905488caa464f1     0 drivers/oculus/resources/icons/quest_headset_error_2x.b4bfb144.png
-          6556      1 ec945615e0fe1819af1a4e335b7b08bb37f7ac61     0 drivers/oculus/resources/icons/quest_headset_error_2x.png
+          4266      1 09e7f050c372c8d966f9d44f3d905488caa464f1     0 drivers/oculus/resources/icons/quest_headset_error@2x.b4bfb144.png
+          6556      1 ec945615e0fe1819af1a4e335b7b08bb37f7ac61     0 drivers/oculus/resources/icons/quest_headset_error@2x.png
            924      1 d3b2487b7e4d296cae2ddc69473bf650f300e896     0 drivers/oculus/resources/icons/quest_headset_off.6e6c89c9.png
           1486      1 a88f9adacf2827fa99ae1074cdddc3277072fe72     0 drivers/oculus/resources/icons/quest_headset_off.png
-          1825      1 a8949a1428766f47abfcd680e5033beb3f170e0f     0 drivers/oculus/resources/icons/quest_headset_off_2x.6e6c89c9.png
-          5734      1 cb3ff10811a16c1b56a4592d1070b648726caf8c     0 drivers/oculus/resources/icons/quest_headset_off_2x.png
+          1825      1 a8949a1428766f47abfcd680e5033beb3f170e0f     0 drivers/oculus/resources/icons/quest_headset_off@2x.6e6c89c9.png
+          5734      1 cb3ff10811a16c1b56a4592d1070b648726caf8c     0 drivers/oculus/resources/icons/quest_headset_off@2x.png
           1533      1 1d782364e655c73d11c278619f399683fdebe96c     0 drivers/oculus/resources/icons/quest_headset_ready.b4bfb144.png
           1451      1 dbd84b4e9632aad2bccefd1f5fcb5332266360e1     0 drivers/oculus/resources/icons/quest_headset_ready.png
-          3510      1 3ff4632c5d557bcdc4015403bb9eb5cde4b14649     0 drivers/oculus/resources/icons/quest_headset_ready_2x.b4bfb144.png
-          5649      1 d7c086aab355ce77e38a21c6696fa93eb42b22be     0 drivers/oculus/resources/icons/quest_headset_ready_2x.png
+          3510      1 3ff4632c5d557bcdc4015403bb9eb5cde4b14649     0 drivers/oculus/resources/icons/quest_headset_ready@2x.b4bfb144.png
+          5649      1 d7c086aab355ce77e38a21c6696fa93eb42b22be     0 drivers/oculus/resources/icons/quest_headset_ready@2x.png
           1764      1 c08e80b4cf866aadb51bda6ff8298279052f0f7c     0 drivers/oculus/resources/icons/quest_headset_ready_alert.b4bfb144.png
           6259      1 e50ad11d335c162cdf654e91a6bd2d91105176d8     0 drivers/oculus/resources/icons/quest_headset_ready_alert.png
-          4341      1 12c7c7a121ffe2b293303d04f325241a3466b80e     0 drivers/oculus/resources/icons/quest_headset_ready_alert_2x.b4bfb144.png
-          5929      1 9bc7add5dd0c24458efdc0c4b1a1b935fbde0067     0 drivers/oculus/resources/icons/quest_headset_ready_alert_2x.png
+          4341      1 12c7c7a121ffe2b293303d04f325241a3466b80e     0 drivers/oculus/resources/icons/quest_headset_ready_alert@2x.b4bfb144.png
+          5929      1 9bc7add5dd0c24458efdc0c4b1a1b935fbde0067     0 drivers/oculus/resources/icons/quest_headset_ready_alert@2x.png
          46913      1 1d2735a08a650acf2b39e527a4d45d94684b79a2     0 drivers/oculus/resources/icons/quest_headset_searching.b4bfb144.gif
           8544      1 a53be4fdb51ce648b0cb54f3e71e73c1ae10b4b7     0 drivers/oculus/resources/icons/quest_headset_searching.gif
-        101653      1 00def7bb6b089c3b4269ef397fbd47c815d3ae2d     0 drivers/oculus/resources/icons/quest_headset_searching_2x.b4bfb144.gif
-         17267      1 a920f63d90d1b59f1227ac87dc78a7d8b89dd838     0 drivers/oculus/resources/icons/quest_headset_searching_2x.gif
+        101653      1 00def7bb6b089c3b4269ef397fbd47c815d3ae2d     0 drivers/oculus/resources/icons/quest_headset_searching@2x.b4bfb144.gif
+         17267      1 a920f63d90d1b59f1227ac87dc78a7d8b89dd838     0 drivers/oculus/resources/icons/quest_headset_searching@2x.gif
           1490      1 6dfd7a29a42eefe4b43bff03c3da50250e0b3150     0 drivers/oculus/resources/icons/quest_headset_standby.b4bfb144.png
           1518      1 31dbe04fd2579e4566b3a025d9a478c583114e1b     0 drivers/oculus/resources/icons/quest_headset_standby.png
-          3090      1 753c24208d9f76917fa2838d2bd20f83e79f311f     0 drivers/oculus/resources/icons/quest_headset_standby_2x.b4bfb144.png
-          6322      1 4736fcff53014a486cdaca16b61f15b46ca7a76e     0 drivers/oculus/resources/icons/quest_headset_standby_2x.png
+          3090      1 753c24208d9f76917fa2838d2bd20f83e79f311f     0 drivers/oculus/resources/icons/quest_headset_standby@2x.b4bfb144.png
+          6322      1 4736fcff53014a486cdaca16b61f15b46ca7a76e     0 drivers/oculus/resources/icons/quest_headset_standby@2x.png
          52140      1 6afc13d4fef68dfa9b2abf142f299d393d6800f4     0 drivers/oculus/resources/icons/rifts_headset_alert_searching.b4bfb144.gif
          11768      1 8f3ff6ab83095153622693aa5ec1b54f04188de2     0 drivers/oculus/resources/icons/rifts_headset_alert_searching.gif
-        119211      1 661ce4cb38e7f1ff01716d21c7ddb13fd8943da6     0 drivers/oculus/resources/icons/rifts_headset_alert_searching_2x.b4bfb144.gif
-         23749      1 c79dbab9ef36654d77831e84c6f22ae8deba49fc     0 drivers/oculus/resources/icons/rifts_headset_alert_searching_2x.gif
+        119211      1 661ce4cb38e7f1ff01716d21c7ddb13fd8943da6     0 drivers/oculus/resources/icons/rifts_headset_alert_searching@2x.b4bfb144.gif
+         23749      1 c79dbab9ef36654d77831e84c6f22ae8deba49fc     0 drivers/oculus/resources/icons/rifts_headset_alert_searching@2x.gif
           1970      1 9dbc26ee3023d7fa8684d7904d936680baeff391     0 drivers/oculus/resources/icons/rifts_headset_error.b4bfb144.png
           3602      1 5e7267997ceba33450e3582870edd17847292f7c     0 drivers/oculus/resources/icons/rifts_headset_error.png
-          4599      1 92240b3c1c962dd67694113cf3a413a7d9456b9a     0 drivers/oculus/resources/icons/rifts_headset_error_2x.b4bfb144.png
-          5069      1 5a5e66b350ef0c4c946ffc50d1afa7cc031f4cd7     0 drivers/oculus/resources/icons/rifts_headset_error_2x.png
+          4599      1 92240b3c1c962dd67694113cf3a413a7d9456b9a     0 drivers/oculus/resources/icons/rifts_headset_error@2x.b4bfb144.png
+          5069      1 5a5e66b350ef0c4c946ffc50d1afa7cc031f4cd7     0 drivers/oculus/resources/icons/rifts_headset_error@2x.png
           1047      1 5afceac940fd45b2878b42a53d0756ee1df7c153     0 drivers/oculus/resources/icons/rifts_headset_off.6e6c89c9.png
           2837      1 b0ab34795cd704ff2c3bf8962a639e5c7e739101     0 drivers/oculus/resources/icons/rifts_headset_off.png
-          1717      1 2658568ee4fa71323ae4bca8cf4e4f8760f9bbbd     0 drivers/oculus/resources/icons/rifts_headset_off_2x.6e6c89c9.png
-          6390      1 7596821082e247a454fa6f862b1dd8c5d2c35a59     0 drivers/oculus/resources/icons/rifts_headset_off_2x.png
+          1717      1 2658568ee4fa71323ae4bca8cf4e4f8760f9bbbd     0 drivers/oculus/resources/icons/rifts_headset_off@2x.6e6c89c9.png
+          6390      1 7596821082e247a454fa6f862b1dd8c5d2c35a59     0 drivers/oculus/resources/icons/rifts_headset_off@2x.png
           1725      1 e20a979a3e918345d45646a87184bf9e8c83ad00     0 drivers/oculus/resources/icons/rifts_headset_ready.b4bfb144.png
           2230      1 be2312268545fdf52766204c80e88135f5176d9c     0 drivers/oculus/resources/icons/rifts_headset_ready.png
-          3812      1 4015f4473de0bc64482e17c771faf5a51bea0967     0 drivers/oculus/resources/icons/rifts_headset_ready_2x.b4bfb144.png
-          3496      1 b062a50c043e3f92ad6ab700a9d477d35834ab38     0 drivers/oculus/resources/icons/rifts_headset_ready_2x.png
+          3812      1 4015f4473de0bc64482e17c771faf5a51bea0967     0 drivers/oculus/resources/icons/rifts_headset_ready@2x.b4bfb144.png
+          3496      1 b062a50c043e3f92ad6ab700a9d477d35834ab38     0 drivers/oculus/resources/icons/rifts_headset_ready@2x.png
           1960      1 92b109a22148c331c8c35f13ecd26e50d1da7a9f     0 drivers/oculus/resources/icons/rifts_headset_ready_alert.b4bfb144.png
           3411      1 9fce9b0671aee1e5c849766afdf3920aa6463688     0 drivers/oculus/resources/icons/rifts_headset_ready_alert.png
-          4571      1 232c12d1cb2f7c2a02884f6f182ea65b7019f3e7     0 drivers/oculus/resources/icons/rifts_headset_ready_alert_2x.b4bfb144.png
-          4672      1 009356db318c5197c59021b1f9580ca6f136a47e     0 drivers/oculus/resources/icons/rifts_headset_ready_alert_2x.png
+          4571      1 232c12d1cb2f7c2a02884f6f182ea65b7019f3e7     0 drivers/oculus/resources/icons/rifts_headset_ready_alert@2x.b4bfb144.png
+          4672      1 009356db318c5197c59021b1f9580ca6f136a47e     0 drivers/oculus/resources/icons/rifts_headset_ready_alert@2x.png
          50741      1 cc8d9937e645e69af7a0249844b13dfc9f1143de     0 drivers/oculus/resources/icons/rifts_headset_searching.b4bfb144.gif
           9739      1 8a46b68cdfd7e5c357d1a37ef7d0aed79134cbd2     0 drivers/oculus/resources/icons/rifts_headset_searching.gif
-        114925      1 db8b365cfe262e676af0926212697f50531d4bbf     0 drivers/oculus/resources/icons/rifts_headset_searching_2x.b4bfb144.gif
-         17909      1 4add34562317a48a9f81ffc585c4e014ac686427     0 drivers/oculus/resources/icons/rifts_headset_searching_2x.gif
+        114925      1 db8b365cfe262e676af0926212697f50531d4bbf     0 drivers/oculus/resources/icons/rifts_headset_searching@2x.b4bfb144.gif
+         17909      1 4add34562317a48a9f81ffc585c4e014ac686427     0 drivers/oculus/resources/icons/rifts_headset_searching@2x.gif
           1621      1 7a0114c0b680daff4a95dcef5360bf288964d590     0 drivers/oculus/resources/icons/rifts_headset_standby.b4bfb144.png
           3430      1 dc74e418fe3d2c0e2bcfc78fadd3d6db61fe2e21     0 drivers/oculus/resources/icons/rifts_headset_standby.png
-          3469      1 f642f1732175d8f32e598a96f53f5c7711e3ab99     0 drivers/oculus/resources/icons/rifts_headset_standby_2x.b4bfb144.png
-          4779      1 cb8346030c6ea27da3586f20e4928b290124dcfd     0 drivers/oculus/resources/icons/rifts_headset_standby_2x.png
+          3469      1 f642f1732175d8f32e598a96f53f5c7711e3ab99     0 drivers/oculus/resources/icons/rifts_headset_standby@2x.b4bfb144.png
+          4779      1 cb8346030c6ea27da3586f20e4928b290124dcfd     0 drivers/oculus/resources/icons/rifts_headset_standby@2x.png
           2365      1 5f42b7e22dd9315b5e3c69bb3222dd560de05a20     0 drivers/oculus/resources/icons/rifts_left_controller_error.b4bfb144.png
           3541      1 378759598a7c0b0c60e191ef762f8db4d55adbae     0 drivers/oculus/resources/icons/rifts_left_controller_error.png
-          5618      1 005310d083697879cbc4116b38f3346b8e661429     0 drivers/oculus/resources/icons/rifts_left_controller_error_2x.b4bfb144.png
-          5700      1 fd6f352e89de7533357b286bd84a3d7d0893b727     0 drivers/oculus/resources/icons/rifts_left_controller_error_2x.png
+          5618      1 005310d083697879cbc4116b38f3346b8e661429     0 drivers/oculus/resources/icons/rifts_left_controller_error@2x.b4bfb144.png
+          5700      1 fd6f352e89de7533357b286bd84a3d7d0893b727     0 drivers/oculus/resources/icons/rifts_left_controller_error@2x.png
           1610      1 4413afe84532fe4fe29a8a4c2d613e1a5e09d7eb     0 drivers/oculus/resources/icons/rifts_left_controller_off.6e6c89c9.png
           2115      1 fb75013bbded413de70e1d1810acf31425fcc058     0 drivers/oculus/resources/icons/rifts_left_controller_off.b4bfb144.png
           4069      1 e70c209e51e57c5614ff2f44e96f08b586a7143c     0 drivers/oculus/resources/icons/rifts_left_controller_off.png
-          3840      1 6a8c437702a57b84282336e3d9e59d2d0b280222     0 drivers/oculus/resources/icons/rifts_left_controller_off_2x.6e6c89c9.png
-          5026      1 2c061878ac3927f426df304a3bf224089e39daf4     0 drivers/oculus/resources/icons/rifts_left_controller_off_2x.b4bfb144.png
-          5634      1 bd2f6d512a218e66dd6223ddb07c661518529a51     0 drivers/oculus/resources/icons/rifts_left_controller_off_2x.png
+          3840      1 6a8c437702a57b84282336e3d9e59d2d0b280222     0 drivers/oculus/resources/icons/rifts_left_controller_off@2x.6e6c89c9.png
+          5026      1 2c061878ac3927f426df304a3bf224089e39daf4     0 drivers/oculus/resources/icons/rifts_left_controller_off@2x.b4bfb144.png
+          5634      1 bd2f6d512a218e66dd6223ddb07c661518529a51     0 drivers/oculus/resources/icons/rifts_left_controller_off@2x.png
           2146      1 d5ba53d1a30190754d2707739bcf69aa109a372d     0 drivers/oculus/resources/icons/rifts_left_controller_ready.b4bfb144.png
           2284      1 98c6efc75b6805499b642c7bfc300bf1d51f7e24     0 drivers/oculus/resources/icons/rifts_left_controller_ready.png
-          4921      1 00ef2afa16e0dea27b479237b4d042ae9c6c3d17     0 drivers/oculus/resources/icons/rifts_left_controller_ready_2x.b4bfb144.png
-          3326      1 2d0413c63b054e846deacd38d53194392cfc80c1     0 drivers/oculus/resources/icons/rifts_left_controller_ready_2x.png
+          4921      1 00ef2afa16e0dea27b479237b4d042ae9c6c3d17     0 drivers/oculus/resources/icons/rifts_left_controller_ready@2x.b4bfb144.png
+          3326      1 2d0413c63b054e846deacd38d53194392cfc80c1     0 drivers/oculus/resources/icons/rifts_left_controller_ready@2x.png
           2349      1 64db015e8bd1e46ec59c5f65ab7a6b8b58512527     0 drivers/oculus/resources/icons/rifts_left_controller_ready_alert.b4bfb144.png
           3357      1 f3f43a632dcfa4701390385ed3b3b90696b30429     0 drivers/oculus/resources/icons/rifts_left_controller_ready_alert.png
-          5668      1 9b02fa2eda3077d2e7744c59c47ba3867c09981c     0 drivers/oculus/resources/icons/rifts_left_controller_ready_alert_2x.b4bfb144.png
-          5074      1 ac8fd1a5d786c4ccbe9c8f803800f717513eb741     0 drivers/oculus/resources/icons/rifts_left_controller_ready_alert_2x.png
+          5668      1 9b02fa2eda3077d2e7744c59c47ba3867c09981c     0 drivers/oculus/resources/icons/rifts_left_controller_ready_alert@2x.b4bfb144.png
+          5074      1 ac8fd1a5d786c4ccbe9c8f803800f717513eb741     0 drivers/oculus/resources/icons/rifts_left_controller_ready_alert@2x.png
           2424      1 95d6ca309065697323659b8973249c86ef75cd15     0 drivers/oculus/resources/icons/rifts_left_controller_ready_low.b4bfb144.png
           3557      1 3e3e68c70ab9ce8ab650ba223c0ee3ea608234e8     0 drivers/oculus/resources/icons/rifts_left_controller_ready_low.png
-          5775      1 cf83c88a92da36baa03b0273b3d4f2a18711e591     0 drivers/oculus/resources/icons/rifts_left_controller_ready_low_2x.b4bfb144.png
-          5732      1 c40808d15a6583ff6f19f578cbc24e0ffac7112e     0 drivers/oculus/resources/icons/rifts_left_controller_ready_low_2x.png
+          5775      1 cf83c88a92da36baa03b0273b3d4f2a18711e591     0 drivers/oculus/resources/icons/rifts_left_controller_ready_low@2x.b4bfb144.png
+          5732      1 c40808d15a6583ff6f19f578cbc24e0ffac7112e     0 drivers/oculus/resources/icons/rifts_left_controller_ready_low@2x.png
          43130      1 602047bcb39a7790042413484690701f3f60ec68     0 drivers/oculus/resources/icons/rifts_left_controller_searching.b4bfb144.gif
          14748      1 9fc933be7055df9fad2e51476f15f8036b4d0dcd     0 drivers/oculus/resources/icons/rifts_left_controller_searching.gif
-         82112      1 32eb49169f49f87ac525a372c84fbfaddc33b9d0     0 drivers/oculus/resources/icons/rifts_left_controller_searching_2x.b4bfb144.gif
-         30798      1 2b17ea5dbc0de831edb1b976f34e855c2a59216a     0 drivers/oculus/resources/icons/rifts_left_controller_searching_2x.gif
+         82112      1 32eb49169f49f87ac525a372c84fbfaddc33b9d0     0 drivers/oculus/resources/icons/rifts_left_controller_searching@2x.b4bfb144.gif
+         30798      1 2b17ea5dbc0de831edb1b976f34e855c2a59216a     0 drivers/oculus/resources/icons/rifts_left_controller_searching@2x.gif
          45370      1 5d3a5a89b0935a236fd4bc0e4e89e1a8560a3fb0     0 drivers/oculus/resources/icons/rifts_left_controller_searching_alert.b4bfb144.gif
          16103      1 c864b8abe70cdd86e007e39e2174e97d9c53fbc0     0 drivers/oculus/resources/icons/rifts_left_controller_searching_alert.gif
-         91138      1 e17ee2fae3afb0b8c3f881e91440a9f44849ba5c     0 drivers/oculus/resources/icons/rifts_left_controller_searching_alert_2x.b4bfb144.gif
-         35951      1 14c22ea61a7a5d81da1df93bf01deb0233cc2bc8     0 drivers/oculus/resources/icons/rifts_left_controller_searching_alert_2x.gif
+         91138      1 e17ee2fae3afb0b8c3f881e91440a9f44849ba5c     0 drivers/oculus/resources/icons/rifts_left_controller_searching_alert@2x.b4bfb144.gif
+         35951      1 14c22ea61a7a5d81da1df93bf01deb0233cc2bc8     0 drivers/oculus/resources/icons/rifts_left_controller_searching_alert@2x.gif
           2399      1 7004a40065780d48d45f0bd715cefa297396b917     0 drivers/oculus/resources/icons/rifts_right_controller_error.b4bfb144.png
           3549      1 0ee4d2bf3a4d7fd62c5ec8052e2596f08b9a3984     0 drivers/oculus/resources/icons/rifts_right_controller_error.png
-          5754      1 c2e618a8d91d3122260cfee35b48ad1ea1e13654     0 drivers/oculus/resources/icons/rifts_right_controller_error_2x.b4bfb144.png
-          5842      1 4362d336fc3ce6d61020dee5e8e9e2abb904a8f4     0 drivers/oculus/resources/icons/rifts_right_controller_error_2x.png
+          5754      1 c2e618a8d91d3122260cfee35b48ad1ea1e13654     0 drivers/oculus/resources/icons/rifts_right_controller_error@2x.b4bfb144.png
+          5842      1 4362d336fc3ce6d61020dee5e8e9e2abb904a8f4     0 drivers/oculus/resources/icons/rifts_right_controller_error@2x.png
           1612      1 47a12e119f09a652192ec552526a4bb0ce298bf7     0 drivers/oculus/resources/icons/rifts_right_controller_off.6e6c89c9.png
           2111      1 30dd0f3eb13fbb163a110b2be37c03f3297de2d6     0 drivers/oculus/resources/icons/rifts_right_controller_off.b4bfb144.png
           4059      1 93ed71a6d1f93ff98fc20ecb98aafae01bdfd2ff     0 drivers/oculus/resources/icons/rifts_right_controller_off.png
-          3799      1 a90bef34f2a3cf10d6336d18c5cce9547de80394     0 drivers/oculus/resources/icons/rifts_right_controller_off_2x.6e6c89c9.png
-          4896      1 92b53d70d66655f15e7ea24cd9e915366d784f39     0 drivers/oculus/resources/icons/rifts_right_controller_off_2x.b4bfb144.png
-          6998      1 9293e4a6088c78bcf4cae721aad34f04c92edfc4     0 drivers/oculus/resources/icons/rifts_right_controller_off_2x.png
+          3799      1 a90bef34f2a3cf10d6336d18c5cce9547de80394     0 drivers/oculus/resources/icons/rifts_right_controller_off@2x.6e6c89c9.png
+          4896      1 92b53d70d66655f15e7ea24cd9e915366d784f39     0 drivers/oculus/resources/icons/rifts_right_controller_off@2x.b4bfb144.png
+          6998      1 9293e4a6088c78bcf4cae721aad34f04c92edfc4     0 drivers/oculus/resources/icons/rifts_right_controller_off@2x.png
           2152      1 7809e0517a322e589862ce0673a174067a8c1b36     0 drivers/oculus/resources/icons/rifts_right_controller_ready.b4bfb144.png
           3304      1 9793c507b664254fd7c5ff9155c7bf827dd31b0f     0 drivers/oculus/resources/icons/rifts_right_controller_ready.png
-          4768      1 016995223e0b9c9c82105e605c8c610d9a204a41     0 drivers/oculus/resources/icons/rifts_right_controller_ready_2x.b4bfb144.png
-          4674      1 04ecd39168e3399a7f642af3d277fa29de55f050     0 drivers/oculus/resources/icons/rifts_right_controller_ready_2x.png
+          4768      1 016995223e0b9c9c82105e605c8c610d9a204a41     0 drivers/oculus/resources/icons/rifts_right_controller_ready@2x.b4bfb144.png
+          4674      1 04ecd39168e3399a7f642af3d277fa29de55f050     0 drivers/oculus/resources/icons/rifts_right_controller_ready@2x.png
           2442      1 ff43a283bcf855b7ee57b63eaff649ffe97df9f3     0 drivers/oculus/resources/icons/rifts_right_controller_ready_alert.b4bfb144.png
           3393      1 d135b60810f46e18b1b48c02fc5c2829bc130bc9     0 drivers/oculus/resources/icons/rifts_right_controller_ready_alert.png
-          5831      1 4a28fea3d89bf0dfa6180a2052b715a12cf9399c     0 drivers/oculus/resources/icons/rifts_right_controller_ready_alert_2x.b4bfb144.png
-          5177      1 12d71ee5fc0ef03520bb29782e5d3ec8d1cb96cb     0 drivers/oculus/resources/icons/rifts_right_controller_ready_alert_2x.png
+          5831      1 4a28fea3d89bf0dfa6180a2052b715a12cf9399c     0 drivers/oculus/resources/icons/rifts_right_controller_ready_alert@2x.b4bfb144.png
+          5177      1 12d71ee5fc0ef03520bb29782e5d3ec8d1cb96cb     0 drivers/oculus/resources/icons/rifts_right_controller_ready_alert@2x.png
           2512      1 60193192a1393fbdd2a60861081bbefa1c401b5e     0 drivers/oculus/resources/icons/rifts_right_controller_ready_low.b4bfb144.png
           3597      1 72e96e4e4ee95ca9a0954ff0aefc850e1d49275b     0 drivers/oculus/resources/icons/rifts_right_controller_ready_low.png
-          5976      1 1a36acaa9da2ddb704200312c3e45a1e74c34298     0 drivers/oculus/resources/icons/rifts_right_controller_ready_low_2x.b4bfb144.png
-          5857      1 f6510707fb7c6958b59b8a8ec0adc67ec6f959dc     0 drivers/oculus/resources/icons/rifts_right_controller_ready_low_2x.png
+          5976      1 1a36acaa9da2ddb704200312c3e45a1e74c34298     0 drivers/oculus/resources/icons/rifts_right_controller_ready_low@2x.b4bfb144.png
+          5857      1 f6510707fb7c6958b59b8a8ec0adc67ec6f959dc     0 drivers/oculus/resources/icons/rifts_right_controller_ready_low@2x.png
          43189      1 2374699903322b72bf6986310ee9a5c6390976e8     0 drivers/oculus/resources/icons/rifts_right_controller_searching.b4bfb144.gif
          14700      1 f99c793b0458e71e921a0dfe51a83d12d464834e     0 drivers/oculus/resources/icons/rifts_right_controller_searching.gif
-         82126      1 a394ce5be38837d1d4882d28e246639c626868ea     0 drivers/oculus/resources/icons/rifts_right_controller_searching_2x.b4bfb144.gif
-         30758      1 5a5b3838f0d338e661626526341f03c0798ba949     0 drivers/oculus/resources/icons/rifts_right_controller_searching_2x.gif
+         82126      1 a394ce5be38837d1d4882d28e246639c626868ea     0 drivers/oculus/resources/icons/rifts_right_controller_searching@2x.b4bfb144.gif
+         30758      1 5a5b3838f0d338e661626526341f03c0798ba949     0 drivers/oculus/resources/icons/rifts_right_controller_searching@2x.gif
          45912      1 9d1849519ec01dfe084edcb1134e127429abe5be     0 drivers/oculus/resources/icons/rifts_right_controller_searching_alert.b4bfb144.gif
          16741      1 bdf87c8317e034e4dc5fc0e734135e3ed6c19c99     0 drivers/oculus/resources/icons/rifts_right_controller_searching_alert.gif
-         92885      1 7f5396a4df2c67a558bf7e1dd4c639a14ce1aab9     0 drivers/oculus/resources/icons/rifts_right_controller_searching_alert_2x.b4bfb144.gif
-         36090      1 2777a0b45f111119efe47920422886fa7c561acc     0 drivers/oculus/resources/icons/rifts_right_controller_searching_alert_2x.gif
+         92885      1 7f5396a4df2c67a558bf7e1dd4c639a14ce1aab9     0 drivers/oculus/resources/icons/rifts_right_controller_searching_alert@2x.b4bfb144.gif
+         36090      1 2777a0b45f111119efe47920422886fa7c561acc     0 drivers/oculus/resources/icons/rifts_right_controller_searching_alert@2x.gif
              0      0 0000000000000000000000000000000000000000    40 drivers/oculus/resources/input
-           418      1 9cd8982c68c63a387a1cf62b80e85dba081fc83f     0 drivers/oculus/resources/input/legacy_bindings_rift.json
-          4971      1 6eb06b62fd8c6bd18366f4b10675b89be1fc13f7     0 drivers/oculus/resources/input/legacy_bindings_touch.json
+           553      1 b8ffac1c87123346db0c8fd44bf49fd958c71cf5     0 drivers/oculus/resources/input/legacy_bindings_rift.json
+          7297      1 d21029336e22d81d92bbe3da56e303432fc0ab3f     0 drivers/oculus/resources/input/legacy_bindings_touch.json
           1849      1 ebba0c24f3006c82acda7c30bfb0d0ef39ce0411     0 drivers/oculus/resources/input/rift_profile.json
           2917      1 2287eca89c2d7e3108ce092b0b834c6f6dfe115b     0 drivers/oculus/resources/input/touch_controller_remapping.json
           4471      1 b2f801234a1acd88862c68e0545654f6f53fa877     0 drivers/oculus/resources/input/touch_profile.json
-          8018      1 834df8419196e8a03af8683b793fe2cf76e7315a     0 drivers/oculus/resources/input/vrcompositor_bindings_touch.json
+         11868      1 3e624640acda985fe1c3babc459bdc40390e7d97     0 drivers/oculus/resources/input/vrcompositor_bindings_touch.json
              0      0 0000000000000000000000000000000000000000    40 drivers/oculus/resources/localization
            622      1 78037e6d62d00505299d921e89a32be384b89028     0 drivers/oculus/resources/localization/localization.json
              0      0 0000000000000000000000000000000000000000    40 drivers/oculus_legacy/bin
@@ -1114,32 +1114,32 @@ Total bytes compressed : 284975792
              0      0 0000000000000000000000000000000000000000    40 drivers/tundra_labs/resources/icons
           1587      1 6ed43451898f4709098d93777eb797b92408a39c     0 drivers/tundra_labs/resources/icons/tracker_status_error.b4bfb144.png
           6917      1 39937bdfc188e03125bf6db7c6d1304413a9b135     0 drivers/tundra_labs/resources/icons/tracker_status_error.png
-          7332      1 7552a95d29a4f6af25b2c8580eb52d36f07bb01a     0 drivers/tundra_labs/resources/icons/tracker_status_error_2x.png
+          7332      1 7552a95d29a4f6af25b2c8580eb52d36f07bb01a     0 drivers/tundra_labs/resources/icons/tracker_status_error@2x.png
            462      1 4d5062d7215cf89e287a7bd7a35490917e377f66     0 drivers/tundra_labs/resources/icons/tracker_status_off.6e6c89c9.png
           6917      1 180e40340a4bbdbda552a5614094369c4b9bdef8     0 drivers/tundra_labs/resources/icons/tracker_status_off.png
-          5071      1 d3bc4d705de9431c95c3e99645464bfa5a846f92     0 drivers/tundra_labs/resources/icons/tracker_status_off_2x.png
+          5071      1 d3bc4d705de9431c95c3e99645464bfa5a846f92     0 drivers/tundra_labs/resources/icons/tracker_status_off@2x.png
           1337      1 08e27af259778202f95859e468ecceff2d274c93     0 drivers/tundra_labs/resources/icons/tracker_status_ready.b4bfb144.png
           6917      1 90469b231ca832153fb270aa5d0dfbea934f30da     0 drivers/tundra_labs/resources/icons/tracker_status_ready.png
+          6741      1 1521819611fe4a78438dfe3887bdc249976a83b2     0 drivers/tundra_labs/resources/icons/tracker_status_ready_alert.@2xpng.png
           1592      1 cb2b383f909468402a57214ac37351c57309a110     0 drivers/tundra_labs/resources/icons/tracker_status_ready_alert.b4bfb144.png
           6917      1 e0f7078d2472a739c1ee245d10fa7bf1bb75ca9e     0 drivers/tundra_labs/resources/icons/tracker_status_ready_alert.png
-          6741      1 1521819611fe4a78438dfe3887bdc249976a83b2     0 drivers/tundra_labs/resources/icons/tracker_status_ready_alert._2xpng.png
           1689      1 723f25d3559d55e1261fb5dd5fa3ccc60e4eaf89     0 drivers/tundra_labs/resources/icons/tracker_status_ready_low.b4bfb144.png
           6917      1 8d957b3f102a60a90274b56ffe3b6ad973aa0405     0 drivers/tundra_labs/resources/icons/tracker_status_ready_low.png
-          7380      1 6ceaed2ba24441798ccd5b49b3758ebd640a6d44     0 drivers/tundra_labs/resources/icons/tracker_status_ready_low_2x.png
+          7380      1 6ceaed2ba24441798ccd5b49b3758ebd640a6d44     0 drivers/tundra_labs/resources/icons/tracker_status_ready_low@2x.png
          18004      1 8f6d6bb33801f5b41df818024531499848e14907     0 drivers/tundra_labs/resources/icons/tracker_status_searching.b4bfb144.gif
           5506      1 9c8d6392eb4983344233f165ab69c87e0ad36e51     0 drivers/tundra_labs/resources/icons/tracker_status_searching.gif
-         32102      1 4a51bf749350afabda5ba4bd8163b7dfba79abf7     0 drivers/tundra_labs/resources/icons/tracker_status_searching_2x.gif
+         32102      1 4a51bf749350afabda5ba4bd8163b7dfba79abf7     0 drivers/tundra_labs/resources/icons/tracker_status_searching@2x.gif
          36059      1 17ca45cf48993a9610563baeb37fff69fbb42dc2     0 drivers/tundra_labs/resources/icons/tracker_status_searching_alert.b4bfb144.gif
          10369      1 04ea97ded85ffa2d9931aa4eeb9b29847a3f3b69     0 drivers/tundra_labs/resources/icons/tracker_status_searching_alert.gif
-         34987      1 c369be0fcb5ca495b78744129ed69b7b05146569     0 drivers/tundra_labs/resources/icons/tracker_status_searching_alert_2x.gif
+         34987      1 c369be0fcb5ca495b78744129ed69b7b05146569     0 drivers/tundra_labs/resources/icons/tracker_status_searching_alert@2x.gif
           1580      1 c180a43527c9435a04b43d9504f5ed854d30866e     0 drivers/tundra_labs/resources/icons/tracker_status_standby.b4bfb144.png
           6917      1 2857c49f4244906769ebfe635f62c64a318daaf0     0 drivers/tundra_labs/resources/icons/tracker_status_standby.png
-          4773      1 8ee2598338fc974a5b86e8ec6a4f1cad1359d9f1     0 drivers/tundra_labs/resources/icons/tracker_status_standby_2x.png
+          4773      1 8ee2598338fc974a5b86e8ec6a4f1cad1359d9f1     0 drivers/tundra_labs/resources/icons/tracker_status_standby@2x.png
              0      0 0000000000000000000000000000000000000000    40 drivers/tundra_labs/resources/input
              0      0 0000000000000000000000000000000000000000    40 drivers/tundra_labs/resources/input/tracker
-          4348      1 29ffeb3a2360455fc632150dc6512ab6961a05a4     0 drivers/tundra_labs/resources/input/tracker/legacy_bindings_tundra_tracker_handed.json
-          5034      1 8795be88e18680f17d093ff296aaf79523a54c4e     0 drivers/tundra_labs/resources/input/tracker/legacy_bindings_tundra_tracker_handed_pistol.json
-          4374      1 8bcfe528a25662ab8b71b6f693512b4b6a486add     0 drivers/tundra_labs/resources/input/tracker/legacy_bindings_tundra_tracker_handed_rotated.json
+          6344      1 fd6b8c62fcf692d9a353b14e7349042b21288875     0 drivers/tundra_labs/resources/input/tracker/legacy_bindings_tundra_tracker_handed.json
+          7332      1 5d96ac0bd5d3f19f4f305eec054726c131097c71     0 drivers/tundra_labs/resources/input/tracker/legacy_bindings_tundra_tracker_handed_pistol.json
+          6370      1 4f6161288903b1d9d19b10b7317863f908e7aefa     0 drivers/tundra_labs/resources/input/tracker/legacy_bindings_tundra_tracker_handed_rotated.json
           1387      1 5fedc5a41fb42bbbc4b435e64e53be514034b005     0 drivers/tundra_labs/resources/input/tracker/tundra_tracker_camera_profile.json
           1426      1 c061b4c413c4ce424f05f630b749eae1311761cf     0 drivers/tundra_labs/resources/input/tracker/tundra_tracker_chest_profile.json
           2389      1 c2c5b5b7551ff205fd68597b0719c5334a672b5e     0 drivers/tundra_labs/resources/input/tracker/tundra_tracker_handed_profile.json
@@ -1175,160 +1175,102 @@ Total bytes compressed : 284975792
           2924      1 0b3a8c212e0019f328f76f10183fd9a2e0f822d7     0 drivers/vrlink/resources/icons/handtracking_left.svg
           2922      1 85c932f1a3b4074135581dd2c161f845d9fac917     0 drivers/vrlink/resources/icons/handtracking_right.svg
           2922      1 85c932f1a3b4074135581dd2c161f845d9fac917     0 drivers/vrlink/resources/icons/hand_tracking.svg
-          2763      1 090e022b1dacaf96113347f721cfa9f2ec7f51c7     0 drivers/vrlink/resources/icons/headset_pico4_error.png
-          1771      1 8e42a70ec66dd25201db9f32ea30048a7017ead2     0 drivers/vrlink/resources/icons/headset_pico4_error_2x.png
-          2323      1 cd6718fa0299378d00f7c11a02695fa3486adb36     0 drivers/vrlink/resources/icons/headset_pico4_info.png
-          1433      1 dc3ef571ef7b3d2f093a852071c406f7373d7975     0 drivers/vrlink/resources/icons/headset_pico4_info_2x.png
-          2171      1 ce4dac412fc7f16764ce5ee109efdc420369c9bd     0 drivers/vrlink/resources/icons/headset_pico4_off.png
-          1270      1 abe5ea9fdff380e7eaaf8a0633534fe6024faecd     0 drivers/vrlink/resources/icons/headset_pico4_off_2x.png
-          2174      1 904f60a27c47c203b0bd393e0ef86437e32419bf     0 drivers/vrlink/resources/icons/headset_pico4_ready.png
-          1242      1 e6c551a525aed7613c5e8a14580ccb6e42b6c801     0 drivers/vrlink/resources/icons/headset_pico4_ready_2x.png
-          2710      1 a950481c3f9ea067e2e7949622c1ef73647abf1e     0 drivers/vrlink/resources/icons/headset_pico4_ready_low.png
-          1846      1 2b7de4aa93085a6c3a0065a155e47e9bd339dc76     0 drivers/vrlink/resources/icons/headset_pico4_ready_low_2x.png
-         11625      1 20e153a8ce234b7f8f4171a4a098f8a17415bd05     0 drivers/vrlink/resources/icons/headset_pico4_searching.gif
-         21390      1 eac66d5bc0c706b6b92427d03ff7d7c1b41b4322     0 drivers/vrlink/resources/icons/headset_pico4_searching_2x.gif
-          2735      1 424e1ae4c4efc0ca052b0504948f0fa12a46f193     0 drivers/vrlink/resources/icons/headset_vivefocusvision_error.png
-          1699      1 2832a94116693bf7d1ff38b76350d5ee999731ce     0 drivers/vrlink/resources/icons/headset_vivefocusvision_error_2x.png
-          2305      1 8c1b371a821eea26eb4c33c0e2630821e3adf955     0 drivers/vrlink/resources/icons/headset_vivefocusvision_info.png
-          1347      1 2e6df949657d205b4c90afd462f72021571d2cb7     0 drivers/vrlink/resources/icons/headset_vivefocusvision_info_2x.png
-          2160      1 84cccc5b51f58b1cee7df5b59ca663aae0f548bf     0 drivers/vrlink/resources/icons/headset_vivefocusvision_off.png
-          1140      1 3a12c9a354a51f584c20e90a4fb6ae127e23d803     0 drivers/vrlink/resources/icons/headset_vivefocusvision_off_2x.png
-          2159      1 af1127282d72beecee215d4ec229d2f948d5402c     0 drivers/vrlink/resources/icons/headset_vivefocusvision_ready.png
-          1128      1 89304802d9480e298291b8b2ebe7dca025315393     0 drivers/vrlink/resources/icons/headset_vivefocusvision_ready_2x.png
-          2687      1 6c914b75756d9fd6b4bfbfb12d71c9ec45676c8b     0 drivers/vrlink/resources/icons/headset_vivefocusvision_ready_low.png
-          1747      1 46770851195db427224fc0c6d06b2d1c3087dcd1     0 drivers/vrlink/resources/icons/headset_vivefocusvision_ready_low_2x.png
-         12783      1 b66167690b825f5946daf25822a4cab4aa5ed15a     0 drivers/vrlink/resources/icons/headset_vivefocusvision_searching.gif
-         20158      1 e90cb7891aa6cd7b6fa3c18880c21e7ea074cc1c     0 drivers/vrlink/resources/icons/headset_vivefocusvision_searching_2x.gif
           1773      1 4fe3f69edd1064d89c94be489e12df37511c65ca     0 drivers/vrlink/resources/icons/left_handtracking_info.png
-          4653      1 158a1c183d42781783eac5e1da8f9450aae605dd     0 drivers/vrlink/resources/icons/left_handtracking_info_2x.png
+          4653      1 158a1c183d42781783eac5e1da8f9450aae605dd     0 drivers/vrlink/resources/icons/left_handtracking_info@2x.png
           1213      1 1bb0461c40a9fb76ad39af0a4bca9bffb7e5349d     0 drivers/vrlink/resources/icons/left_handtracking_off.png
-          3240      1 48033163fc11e8d04048bfe16863eccf6a6518ca     0 drivers/vrlink/resources/icons/left_handtracking_off_2x.png
+          3240      1 48033163fc11e8d04048bfe16863eccf6a6518ca     0 drivers/vrlink/resources/icons/left_handtracking_off@2x.png
           1555      1 cd98fd5dff92940bb3d2cb87c6549f6d261ecd12     0 drivers/vrlink/resources/icons/left_handtracking_ready.png
-          4220      1 47f05e26a498afd190aa71e907d0b70ab7978e0a     0 drivers/vrlink/resources/icons/left_handtracking_ready_2x.png
+          4220      1 47f05e26a498afd190aa71e907d0b70ab7978e0a     0 drivers/vrlink/resources/icons/left_handtracking_ready@2x.png
          30545      1 c8f09b9a2f81e551361f13b253f36d0224410a61     0 drivers/vrlink/resources/icons/left_handtracking_searching.gif
-         80433      1 d49c072e79bc3f2a3c0a14d6692b561a695ac754     0 drivers/vrlink/resources/icons/left_handtracking_searching_2x.gif
+         80433      1 d49c072e79bc3f2a3c0a14d6692b561a695ac754     0 drivers/vrlink/resources/icons/left_handtracking_searching@2x.gif
           2574      1 fea2e794fd15b7942272e9b2856b8dc3375e30c3     0 drivers/vrlink/resources/icons/left_pico4u_error.png
-          1621      1 c6ba00fad7284cd4b50f9f971af431404a8572d0     0 drivers/vrlink/resources/icons/left_pico4u_error_2x.png
+          1621      1 c6ba00fad7284cd4b50f9f971af431404a8572d0     0 drivers/vrlink/resources/icons/left_pico4u_error@2x.png
           2167      1 4cb62c9df234509b9ef181cb06c2641eb8abafb6     0 drivers/vrlink/resources/icons/left_pico4u_info.png
-          1292      1 03ca13555fc4d89c0ac164b4d67f1669afb90626     0 drivers/vrlink/resources/icons/left_pico4u_info_2x.png
+          1292      1 03ca13555fc4d89c0ac164b4d67f1669afb90626     0 drivers/vrlink/resources/icons/left_pico4u_info@2x.png
           1969      1 a6d618fccc7cdfc7acf7a0444c6af5a5401ec327     0 drivers/vrlink/resources/icons/left_pico4u_off.png
-          1064      1 042c9911df18b1b4eb01e66781b36bf99359f4f7     0 drivers/vrlink/resources/icons/left_pico4u_off_2x.png
+          1064      1 042c9911df18b1b4eb01e66781b36bf99359f4f7     0 drivers/vrlink/resources/icons/left_pico4u_off@2x.png
           1971      1 4513ddba887856f6a95929d5be0074cb02350368     0 drivers/vrlink/resources/icons/left_pico4u_ready.png
-          1068      1 cb275c025823cafe015906aa23bf4cc1e4492191     0 drivers/vrlink/resources/icons/left_pico4u_ready_2x.png
+          1068      1 cb275c025823cafe015906aa23bf4cc1e4492191     0 drivers/vrlink/resources/icons/left_pico4u_ready@2x.png
           2516      1 5ed7e99ee88aea108cae75ebfc77af6845ad35d9     0 drivers/vrlink/resources/icons/left_pico4u_ready_low.png
-          1682      1 192efc805e67f5ba7ef5d80031165dc1ab0c701e     0 drivers/vrlink/resources/icons/left_pico4u_ready_low_2x.png
-         10320      1 d78703f0e11a9f5611381a52096a72341a1436d2     0 drivers/vrlink/resources/icons/left_pico4u_searching.gif
-         18049      1 a9b8fee8544e01926b9db6bffdd4cefe8be01f8e     0 drivers/vrlink/resources/icons/left_pico4u_searching_2x.gif
+          1682      1 192efc805e67f5ba7ef5d80031165dc1ab0c701e     0 drivers/vrlink/resources/icons/left_pico4u_ready_low@2x.png
           2598      1 5b5a4dac5cdaa0060ebeed98342fe3ad449130c6     0 drivers/vrlink/resources/icons/left_pico4_error.png
-          1709      1 3dcd0066faeb3c86b0b51060e3b5a796b8030e83     0 drivers/vrlink/resources/icons/left_pico4_error_2x.png
+          1709      1 3dcd0066faeb3c86b0b51060e3b5a796b8030e83     0 drivers/vrlink/resources/icons/left_pico4_error@2x.png
           2210      1 03e30ba07db09b3a0d2ea79de7a7e786ff4fffb6     0 drivers/vrlink/resources/icons/left_pico4_info.png
-          1394      1 881fa31ee570735ce8a6ea463fb3494353f997cd     0 drivers/vrlink/resources/icons/left_pico4_info_2x.png
+          1394      1 881fa31ee570735ce8a6ea463fb3494353f997cd     0 drivers/vrlink/resources/icons/left_pico4_info@2x.png
           2039      1 e807797b1b0780c60f5dac365d7cd8ca669be3d8     0 drivers/vrlink/resources/icons/left_pico4_off.png
-          1176      1 aad84d2f6e0d6bcfbcd173eb355931890dee8550     0 drivers/vrlink/resources/icons/left_pico4_off_2x.png
+          1176      1 aad84d2f6e0d6bcfbcd173eb355931890dee8550     0 drivers/vrlink/resources/icons/left_pico4_off@2x.png
           2036      1 e154ca51435083a08a58eb2e4328c33a4aa3dd32     0 drivers/vrlink/resources/icons/left_pico4_ready.png
-          1167      1 c5f1fa83e0192353172f76b298b40317ba8c349b     0 drivers/vrlink/resources/icons/left_pico4_ready_2x.png
+          1167      1 c5f1fa83e0192353172f76b298b40317ba8c349b     0 drivers/vrlink/resources/icons/left_pico4_ready@2x.png
           2565      1 b03104e39e83d3b46cf7c5361f04f03bac798b0b     0 drivers/vrlink/resources/icons/left_pico4_ready_low.png
-          1785      1 40cd388220532dc12b9a684f8315575340909258     0 drivers/vrlink/resources/icons/left_pico4_ready_low_2x.png
-         11300      1 f7280964593fecdd697a95b665352c62182e51f8     0 drivers/vrlink/resources/icons/left_pico4_searching.gif
-         19759      1 79c5bc890ed8645c99dcf974e0739d594ac98282     0 drivers/vrlink/resources/icons/left_pico4_searching_2x.gif
-          2710      1 597fd94d64ca39e0e56e43ed43731f8a5e86f4cd     0 drivers/vrlink/resources/icons/left_vivefocusvision_error.png
-          1790      1 cbf536cf1cb3a9115b6de4d739e274e426e8efc8     0 drivers/vrlink/resources/icons/left_vivefocusvision_error_2x.png
-          2173      1 78fda0506702ffa832ec13dac026297bf8038688     0 drivers/vrlink/resources/icons/left_vivefocusvision_info.png
-          1369      1 c81cc139e9bbaa23f2938aa7ce1365a334ab4a32     0 drivers/vrlink/resources/icons/left_vivefocusvision_info_2x.png
-          2002      1 1ff5784b7f23879ff87a29566d602be67203ed86     0 drivers/vrlink/resources/icons/left_vivefocusvision_off.png
-          1196      1 80caa2baec5bea39330cdbdcfab5cc174eef7a6f     0 drivers/vrlink/resources/icons/left_vivefocusvision_off_2x.png
-         10124      1 428133fb790049df15606058f486d46d79e6bf5e     0 drivers/vrlink/resources/icons/left_vivefocusvision_ready.gif
-          1999      1 b6814d747a178b8dc3172f4d84a820da87ae6699     0 drivers/vrlink/resources/icons/left_vivefocusvision_ready.png
-          1134      1 66804f833b4f754c4881948e7b376056e679c13b     0 drivers/vrlink/resources/icons/left_vivefocusvision_ready_2x.png
-          2649      1 54047adb39b3a5aebf94a1897452e87270653acf     0 drivers/vrlink/resources/icons/left_vivefocusvision_ready_low.png
-          1736      1 dd4271d6f0175717c828ff272eb4d9d405cee6c7     0 drivers/vrlink/resources/icons/left_vivefocusvision_ready_low_2x.png
-         17356      1 80623965899e312c70d400f2ecc5cfe11c98cf74     0 drivers/vrlink/resources/icons/left_vivefocusvision_searching_2x.gif
+          1785      1 40cd388220532dc12b9a684f8315575340909258     0 drivers/vrlink/resources/icons/left_pico4_ready_low@2x.png
           1222      1 0711a579d9665abb85ccc620b420429dfe36de7b     0 drivers/vrlink/resources/icons/right_handtracking_off.png
-          3219      1 c87ac2f4665b09595397fe8c3aa5d60e6e7ba0b4     0 drivers/vrlink/resources/icons/right_handtracking_off_2x.png
+          3219      1 c87ac2f4665b09595397fe8c3aa5d60e6e7ba0b4     0 drivers/vrlink/resources/icons/right_handtracking_off@2x.png
           1478      1 84c3daa377c3dce742997487b48ef7e72cc7f1e4     0 drivers/vrlink/resources/icons/right_handtracking_ready.png
-          3935      1 ef4a24734a30c0842f6be4fbb3d86c0693525a94     0 drivers/vrlink/resources/icons/right_handtracking_ready_2x.png
+          3935      1 ef4a24734a30c0842f6be4fbb3d86c0693525a94     0 drivers/vrlink/resources/icons/right_handtracking_ready@2x.png
           1737      1 179e2e45628e2adbf2bf22832d1990a35cdb3214     0 drivers/vrlink/resources/icons/right_handtracking_ready_info.png
-          4509      1 4f0f9e0d29357f886397902afc05511c45b46729     0 drivers/vrlink/resources/icons/right_handtracking_ready_info_2x.png
+          4509      1 4f0f9e0d29357f886397902afc05511c45b46729     0 drivers/vrlink/resources/icons/right_handtracking_ready_info@2x.png
          31113      1 7611f77fecfe854eda10cdc312d306cff529c01f     0 drivers/vrlink/resources/icons/right_handtracking_searching.gif
-         80049      1 9b58549603ff7350fa2aedca85984bcf7cf9f0d8     0 drivers/vrlink/resources/icons/right_handtracking_searching_2x.gif
+         80049      1 9b58549603ff7350fa2aedca85984bcf7cf9f0d8     0 drivers/vrlink/resources/icons/right_handtracking_searching@2x.gif
           2557      1 2e2a991736e061a006936703bef1fc1ed1dfd509     0 drivers/vrlink/resources/icons/right_pico4u_error.png
-          1736      1 bdeba9fda7a2d5ea6f3342ed0955ff195136a013     0 drivers/vrlink/resources/icons/right_pico4u_error_2x.png
+          1736      1 bdeba9fda7a2d5ea6f3342ed0955ff195136a013     0 drivers/vrlink/resources/icons/right_pico4u_error@2x.png
           2149      1 857c39f999b883133abdd69394c7963a49cd9e4a     0 drivers/vrlink/resources/icons/right_pico4u_info.png
-          1329      1 bb2ff8888703663aa97e2ce31cdd6764e1751ea2     0 drivers/vrlink/resources/icons/right_pico4u_info_2x.png
+          1329      1 bb2ff8888703663aa97e2ce31cdd6764e1751ea2     0 drivers/vrlink/resources/icons/right_pico4u_info@2x.png
           2005      1 d891119fac2a73293c14c0b726d057f33ea9ed95     0 drivers/vrlink/resources/icons/right_pico4u_off.png
-          1108      1 f15c3cafec7f621afd54bf3b824fecbe0dba88be     0 drivers/vrlink/resources/icons/right_pico4u_off_2x.png
+          1108      1 f15c3cafec7f621afd54bf3b824fecbe0dba88be     0 drivers/vrlink/resources/icons/right_pico4u_off@2x.png
           2009      1 92c2b1ef69838f571c00474d179ecafc2ed488b1     0 drivers/vrlink/resources/icons/right_pico4u_ready.png
-          1092      1 19cda1426d6bd83281efd5265e89b7c0a71bacb6     0 drivers/vrlink/resources/icons/right_pico4u_ready_2x.png
+          1092      1 19cda1426d6bd83281efd5265e89b7c0a71bacb6     0 drivers/vrlink/resources/icons/right_pico4u_ready@2x.png
           2496      1 0c3b8392ee062a050536815d59404171202132c6     0 drivers/vrlink/resources/icons/right_pico4u_ready_low.png
-          1717      1 a510bac79627337544e275d3e7faa71b82ec5e65     0 drivers/vrlink/resources/icons/right_pico4u_ready_low_2x.png
-         10446      1 4618d30e7c3132ef4a3de8cffc396e0d6702bbfb     0 drivers/vrlink/resources/icons/right_pico4u_searching.gif
-         18245      1 f6657e1200a8f910006f17061b6dfedfa3e56816     0 drivers/vrlink/resources/icons/right_pico4u_searching_2x.gif
+          1717      1 a510bac79627337544e275d3e7faa71b82ec5e65     0 drivers/vrlink/resources/icons/right_pico4u_ready_low@2x.png
           2659      1 6f42d2758559e8fc28b29603b5f64dfd736535fd     0 drivers/vrlink/resources/icons/right_pico4_error.png
-          1825      1 c9fe461928867c6f446b65dd75f96b6b11f7d938     0 drivers/vrlink/resources/icons/right_pico4_error_2x.png
+          1825      1 c9fe461928867c6f446b65dd75f96b6b11f7d938     0 drivers/vrlink/resources/icons/right_pico4_error@2x.png
           2224      1 580ca5baa0214402707c38961646e88175fd2dca     0 drivers/vrlink/resources/icons/right_pico4_info.png
-          1426      1 5ed68c063f14cd835ed5ffbf58341f785775f333     0 drivers/vrlink/resources/icons/right_pico4_info_2x.png
+          1426      1 5ed68c063f14cd835ed5ffbf58341f785775f333     0 drivers/vrlink/resources/icons/right_pico4_info@2x.png
           2070      1 c811ca4b75e79b1d29c264f2d6dac986608d650c     0 drivers/vrlink/resources/icons/right_pico4_off.png
-          1218      1 ff5d2159815157cae34839645d87f00f7f3e21b8     0 drivers/vrlink/resources/icons/right_pico4_off_2x.png
+          1218      1 ff5d2159815157cae34839645d87f00f7f3e21b8     0 drivers/vrlink/resources/icons/right_pico4_off@2x.png
           2071      1 1efcfbe0b818580451f9d3e6f6206c5345ca868a     0 drivers/vrlink/resources/icons/right_pico4_ready.png
-          1200      1 417f30bb210646bd939b231fe2154b02d4e786c2     0 drivers/vrlink/resources/icons/right_pico4_ready_2x.png
+          1200      1 417f30bb210646bd939b231fe2154b02d4e786c2     0 drivers/vrlink/resources/icons/right_pico4_ready@2x.png
           2628      1 88041cfff2e66172cc0ba7681dfe1b3830aa93fc     0 drivers/vrlink/resources/icons/right_pico4_ready_low.png
-          1832      1 a2c0549f9bd63bd6b7c77ae3338161a416bae222     0 drivers/vrlink/resources/icons/right_pico4_ready_low_2x.png
-         11485      1 dbf1d04f069e05f329f5ec23419610132d1f0cbc     0 drivers/vrlink/resources/icons/right_pico4_searching.gif
-         20029      1 ce7922c46fea5649eee35fc1560c37aca1f36354     0 drivers/vrlink/resources/icons/right_pico4_searching_2x.gif
-          2663      1 cd7318a75451e4910c6f24e540ced6f16777f277     0 drivers/vrlink/resources/icons/right_vivefocusvision_error.png
-          1649      1 0ac21c2ee9d396ecd6f9d36f9a9cb4aba5295d7d     0 drivers/vrlink/resources/icons/right_vivefocusvision_error_2x.png
-          2161      1 732a06991bd0e4c3dee6fcc544436972abda9b51     0 drivers/vrlink/resources/icons/right_vivefocusvision_info.png
-          1347      1 c73ab77133dd650f99abfd838d7deba582b795c3     0 drivers/vrlink/resources/icons/right_vivefocusvision_info_2x.png
-          1974      1 79195dd7433a03ce66d74f896bb6ab77a09bca2d     0 drivers/vrlink/resources/icons/right_vivefocusvision_off.png
-          1185      1 af07e618342250a6a02e28e34b6e934048236555     0 drivers/vrlink/resources/icons/right_vivefocusvision_off_2x.png
-          1974      1 f36cce1f8f638633237267208a939ee733292662     0 drivers/vrlink/resources/icons/right_vivefocusvision_ready.png
-          1110      1 fafde07e42c2fff65cf0c844c85ff501d37ad332     0 drivers/vrlink/resources/icons/right_vivefocusvision_ready_2x.png
-          2621      1 061bf3e01f6c91fa07602e500d10b77bd6c27b98     0 drivers/vrlink/resources/icons/right_vivefocusvision_ready_low.png
-          1707      1 1065b2e73c02764173041fad55a249ec39e84c00     0 drivers/vrlink/resources/icons/right_vivefocusvision_ready_low_2x.png
-          9951      1 064f115a359fcc05cc11e8398292f77555df1ae2     0 drivers/vrlink/resources/icons/right_vivefocusvision_searching.gif
-         17371      1 cdb9a7b1dbad13ff42854d1893c212eba4fee20a     0 drivers/vrlink/resources/icons/right_vivefocusvision_searching_2x.gif
+          1832      1 a2c0549f9bd63bd6b7c77ae3338161a416bae222     0 drivers/vrlink/resources/icons/right_pico4_ready_low@2x.png
              0      0 0000000000000000000000000000000000000000    40 drivers/vrlink/resources/input
-          7712      1 15a0733e872d9edb79198b80161a5305c98f8da4     0 drivers/vrlink/resources/input/legacy_bindings_svl_hand_interaction_augmented.json
+         11338      1 d5f2de9d387f60692c761cbcfa6711ef3ff72bd8     0 drivers/vrlink/resources/input/legacy_bindings_svl_hand_interaction_augmented.json
           2862      1 7daeaa45cd680c561932d0b20a2afadd2d73a045     0 drivers/vrlink/resources/input/pico_controller_profile.json
           1261      1 2cfd57cb3865febc1d3bd036aa1d5a6e48d93b7d     0 drivers/vrlink/resources/input/pico_controller_remapping.json
-         13954      1 22bb993678720ae926f4cf004a9008c51695daad     0 drivers/vrlink/resources/input/steam_app_450390_bindings_svl_hand_interaction_augmented.json
+         20660      1 6ca4343bd107a5b5a3d98a0bf7e96c053342ffa1     0 drivers/vrlink/resources/input/steam_app_450390_bindings_svl_hand_interaction_augmented.json
           2886      1 da0c38505ea4d85fe8bc68a93269fe19208e65d6     0 drivers/vrlink/resources/input/svl_hand_interaction_augmented_input_profile.json
           1530      1 452868c6d5635d0ec115513b925c2d50d57ace90     0 drivers/vrlink/resources/input/svl_hand_interaction_augmented_remapping.json
-          2928      1 abe93995f99dab6cf05dbc5aa699f4642db41cde     0 drivers/vrlink/resources/input/vive_focus3_controller_profile.json
-          1268      1 1f7604365f7b58fc3ce73d502506fb4185babd3a     0 drivers/vrlink/resources/input/vive_focus3_controller_remapping.json
-          1205      1 b17346e19dec8b13bb1c4ad08b399eff2b443379     0 drivers/vrlink/resources/input/vrcompositor_bindings_remote_hmd.json
-          3715      1 b4b93978d03a47b15c3ab27e2bdcbee8a2272161     0 drivers/vrlink/resources/input/vrcompositor_bindings_svl_hand_interaction_augmented.json
+          1651      1 9fc1943b7ee95e3ccfb65deb2f27d02966569b8a     0 drivers/vrlink/resources/input/vrcompositor_bindings_remote_hmd.json
+          5306      1 623dc84056ecf2b6a865c9e16d85d2751a4cd332     0 drivers/vrlink/resources/input/vrcompositor_bindings_svl_hand_interaction_augmented.json
              0      0 0000000000000000000000000000000000000000    40 drivers/vrlink/resources/localization
           1652      1 bde49cca1629de457cd77ca678f1f0ca974bf240     0 drivers/vrlink/resources/localization/localization.json
-          2247      1 ebf1c079fda592613e2e1cb3c96c0f31b3c2ec46     0 drivers/vrlink/resources/localization/localization_bg_BG.json
-          1593      1 8f2cb1f411440f82d5c64a87d351202b110f1acc     0 drivers/vrlink/resources/localization/localization_cs_CZ.json
-          1418      1 b9e78658341d090697ac80e8a04f47f0a98e7a99     0 drivers/vrlink/resources/localization/localization_da_DK.json
-          1535      1 0e65486b79b97558280ab4ecc5607ac8a171be19     0 drivers/vrlink/resources/localization/localization_de_DE.json
-          2299      1 4bcb577aa6f51fe0ad34ac77ea2eb755f695f57b     0 drivers/vrlink/resources/localization/localization_el_GR.json
+          1684      1 3593b49f66b496252c0e6ca11f68903f2fd1e1ef     0 drivers/vrlink/resources/localization/localization_bg_BG.json
+          1155      1 6102b95251a065952ef604186c7e6d350fc7e898     0 drivers/vrlink/resources/localization/localization_cs_CZ.json
+          1058      1 245de9cdf015786a8eb0f7adca01f575494947e6     0 drivers/vrlink/resources/localization/localization_da_DK.json
+          1099      1 775223e5eb1ca0fb25a96a1970a8dc4211f5cbee     0 drivers/vrlink/resources/localization/localization_de_DE.json
+          1619      1 dc6742cd896ba77a8b604862b3fd283a745d7d81     0 drivers/vrlink/resources/localization/localization_el_GR.json
           1331      1 6fbfe1102541034518e0daa765bb3ed3cb7699b5     0 drivers/vrlink/resources/localization/localization_en_us.json
-          1620      1 be547e9b09dd70a09d103796836c6079e98009c6     0 drivers/vrlink/resources/localization/localization_es_ES.json
-          1577      1 fca70dac89fee8456c321d90c5ac46f8bcc0acbb     0 drivers/vrlink/resources/localization/localization_es_MX.json
-          1570      1 9a5c5607a54b90817f5f24735cadb7896c16dd48     0 drivers/vrlink/resources/localization/localization_fi_FI.json
-          1600      1 1a9c8b1fb4d26b249d1db1895ff483d7b46bd994     0 drivers/vrlink/resources/localization/localization_fr_FR.json
-          1578      1 296fe0968cd4cac0c5128612707d6c60245214bc     0 drivers/vrlink/resources/localization/localization_hu_HU.json
+          1215      1 19965fe4c92ae96ef913e85f2d5d5617510c9330     0 drivers/vrlink/resources/localization/localization_es_ES.json
+          1171      1 1dcc34f3f688342a2907bc22d4f6ca1fecab9d22     0 drivers/vrlink/resources/localization/localization_es_MX.json
+          1210      1 9a49683462cffaa3740dee4ce77aeafe688d07bf     0 drivers/vrlink/resources/localization/localization_fi_FI.json
+          1202      1 73b9b25546346c80a66de65b066b9628377df0f6     0 drivers/vrlink/resources/localization/localization_fr_FR.json
+          1176      1 b74f4539e17296d40ddcbe437b5ff92b66207b88     0 drivers/vrlink/resources/localization/localization_hu_HU.json
             35      1 aa51ffdb50a65f0aaf0790bef81eb2cafc0a0b30     0 drivers/vrlink/resources/localization/localization_id-ID.json
-          1538      1 b61f4cfda177d64ea730008889af53932c719333     0 drivers/vrlink/resources/localization/localization_it_IT.json
-          1661      1 1ae8fb1caa53ec5e6556e0c0e99481016175752e     0 drivers/vrlink/resources/localization/localization_ja_JP.json
-          1504      1 337e57b18d7f104e42ace4e66569a7a0102f87cf     0 drivers/vrlink/resources/localization/localization_ko_KR.json
+          1167      1 6cf891ff052b2737f55d084fbf6bf4cfaa405cfc     0 drivers/vrlink/resources/localization/localization_it_IT.json
+          1228      1 91f5641952339d94ec196b67a5b74645b56abfc1     0 drivers/vrlink/resources/localization/localization_ja_JP.json
+          1085      1 ad10e90eebffe6c6807b10f84a19cbd198db9d12     0 drivers/vrlink/resources/localization/localization_ko_KR.json
             35      1 bfcc4cfd5024920ecacc0b4688f9b4257f8597c7     0 drivers/vrlink/resources/localization/localization_nb_NO.json
-          1484      1 50b236ffa6926d158bbea950560996198e99cb98     0 drivers/vrlink/resources/localization/localization_nl_NL.json
-          1695      1 f62c6b78bd882e3d6892c56f024827a44c947ba3     0 drivers/vrlink/resources/localization/localization_pl_PL.json
-          1598      1 1a416274e37b3e303fb1bfbb0053fbd4f9682c2d     0 drivers/vrlink/resources/localization/localization_pt_BR.json
-          1526      1 75e429201d779a4788b91378fdcbad74c7389be6     0 drivers/vrlink/resources/localization/localization_pt_PT.json
-          1683      1 7f44b2841610575edf65ea1aa5a99d680bf7ff99     0 drivers/vrlink/resources/localization/localization_ro_RO.json
-          2448      1 4559532f888d6556d0b3d9d5ee76ed7a046fe22f     0 drivers/vrlink/resources/localization/localization_ru_RU.json
-          1437      1 b947224e8c597db8d17ab490de0df6e7cdbbaafc     0 drivers/vrlink/resources/localization/localization_sv_SE.json
-          2361      1 64dc6101c9a0ba9293340c53b1387237ca1f17c0     0 drivers/vrlink/resources/localization/localization_th_TH.json
-          1595      1 d52efb13d8194a7a4a12a018caafc9ce72bfb08c     0 drivers/vrlink/resources/localization/localization_tr_TR.json
-          2175      1 41b4f0f33e84fafb0bfdd0f7ebcfe8ed9e1f6edb     0 drivers/vrlink/resources/localization/localization_uk_UA.json
-          1622      1 4edd823701a67c5df738bb28811e21dd582f19bc     0 drivers/vrlink/resources/localization/localization_vi_VN.json
-          1400      1 36d4e423541c13a7f949758cead9fba0a508b696     0 drivers/vrlink/resources/localization/localization_zh_CN.json
-          1419      1 8235c373273d9341154f7464bd02bcdd9233371e     0 drivers/vrlink/resources/localization/localization_zh_TW.json
+          1095      1 144cc6262707564e6d8eef4081589ca089566eb8     0 drivers/vrlink/resources/localization/localization_nl_NL.json
+          1240      1 e24a458a7bd65f90b9b4af0071e54333971bf3fe     0 drivers/vrlink/resources/localization/localization_pl_PL.json
+          1171      1 da2f15702c2ff6fc19e5d731fb7ba74180919f6c     0 drivers/vrlink/resources/localization/localization_pt_BR.json
+          1137      1 b51adb9d3d5794f50e21f62ff3764e79d4811261     0 drivers/vrlink/resources/localization/localization_pt_PT.json
+          1241      1 e1699933f6a215f740a4dbf8a71e722337e4aac5     0 drivers/vrlink/resources/localization/localization_ro_RO.json
+          1719      1 457ccedc2bacf63006cb5093d8bd132d4bc00d8a     0 drivers/vrlink/resources/localization/localization_ru_RU.json
+          1061      1 c58c73f573931a2a008470c5d03144d94d92b363     0 drivers/vrlink/resources/localization/localization_sv_SE.json
+          1794      1 62ace1879be371342ff116640dfe475bc39f063d     0 drivers/vrlink/resources/localization/localization_th_TH.json
+          1166      1 2a16355ae5bfa47e91ccd1d311d6411da890c743     0 drivers/vrlink/resources/localization/localization_tr_TR.json
+          1573      1 bc15455d8d0600e17d2ec75e55c8d31ba0166f42     0 drivers/vrlink/resources/localization/localization_uk_UA.json
+          1199      1 3ca32cd39c8d132a052ee76f79c380826e9da875     0 drivers/vrlink/resources/localization/localization_vi_VN.json
+          1053      1 25b36328b16023e4fddc4d244ea20daa14feea57     0 drivers/vrlink/resources/localization/localization_zh_CN.json
+          1072      1 9bec20392013f8b22b85fac39dd6a6d73c6c20dd     0 drivers/vrlink/resources/localization/localization_zh_TW.json
              0      0 0000000000000000000000000000000000000000    40 drivers/vrlink/resources/rendermodels
              0      0 0000000000000000000000000000000000000000    40 drivers/vrlink/resources/rendermodels/pico_4_controller_left
           5217      1 690cca3d2e0e9c11cb4abb1b64f716b55c00e879     0 drivers/vrlink/resources/rendermodels/pico_4_controller_left/pico_4_controller_left.json
@@ -1384,7 +1326,7 @@ Total bytes compressed : 284975792
          19997      1 15427c6aeca957003293dd282aa1bf55a423df1a     0 drivers/vrlink/resources/rendermodels/shuttlecock/shuttlecock.obj
           9920      1 2cea077614a3fd3faea215440b0f3e581943b04d     0 drivers/vrlink/resources/rendermodels/shuttlecock/shuttlecock_tex_lores.png
              0      0 0000000000000000000000000000000000000000    40 drivers/vrlink/resources/settings
-          1278      1 3c16340840b2381505fb72c0e21ba094e4cf8e79     0 drivers/vrlink/resources/settings/default.vrsettings
+          1277      1 06bd26e2faab14f539f620ce458040705d9443d4     0 drivers/vrlink/resources/settings/default.vrsettings
           5662      1 398400dde4fbf16c69bbcbf61db68b152f8e579c     0 drivers/vrlink/resources/settings/settingsschema.vrsettings
              0      0 0000000000000000000000000000000000000000    40 resources/anims
             91      1 340cace7e2b9a0d07745adf2c3546d29611aa53e     0 resources/anims/bonemask_aux.txt
@@ -1410,19 +1352,19 @@ Total bytes compressed : 284975792
          40814      1 c14fe4e27063e2ba8f07021238103668ca707da4     0 resources/backgrounds/transition_background_thumbnail.png
            162      1 f3b2215e96c126f301ddd014062d605230aa107b     0 resources/black.png
              0      0 0000000000000000000000000000000000000000    40 resources/config
-         15436      1 d5e381171afdde79c72d9115646be9d6b49c1320     0 resources/config/legacy_actions.json
-          3879      1 2736911ecabfd5ff905a3fc3233d0695a1e25e6f     0 resources/config/legacy_bindings_generic.json
-           408      1 f6568d55325c6443e48b8ac763bfe9135a2772e9     0 resources/config/legacy_bindings_generic_hmd.json
-          5962      1 ff016e29de0d62466d751213b1ca2481d5aec936     0 resources/config/legacy_bindings_knuckles_ev1.json
+         15768      1 48ec777642f1a7a94d072117cf1726a13a8b2392     0 resources/config/legacy_actions.json
+          5668      1 201864fad1691d533494b89e30320e446e3fc01e     0 resources/config/legacy_bindings_generic.json
+           579      1 388b6832c58133257b868cf91e2da665a43b23b5     0 resources/config/legacy_bindings_generic_hmd.json
+          8754      1 d9bcdc04117f05a2aeb933d74af2d9bfe02b3521     0 resources/config/legacy_bindings_knuckles_ev1.json
           2815      1 0dd7b75efff2a006ac8c8db6ea99c78614f202e7     0 resources/config/runtime.vrmanifest
          83611      1 2ddf96a45c97ee47b02aa31f24377b8bcb45c1e3     0 resources/config/steamvr_dashboard_capsule.png
-          8140      1 22b4cb6a40cec2c662d045a1b5c0dbb335570148     0 resources/config/vrcompositor_actions.json
+          8675      1 86d8eab8a9ad488c9d6dc66b38e498e534e5f948     0 resources/config/vrcompositor_actions.json
           4086      1 7b1256512bfe12cc936bc38e9a308a112c7596d8     0 resources/config/vrcompositor_actions_bg_BG.json
           3028      1 993cce0fc2fa7b07a94f93b1a2c082c33c1a4758     0 resources/config/vrcompositor_actions_cs_CZ.json
           2960      1 a79e34e8fed03c73141a325a6358c5cba7c47a49     0 resources/config/vrcompositor_actions_da_DK.json
           2975      1 81df610468308d9f1c295e1af7043269388f858e     0 resources/config/vrcompositor_actions_de_DE.json
           4034      1 d5c3fc85474fe0148c8989f2fe4b78bd506ccf41     0 resources/config/vrcompositor_actions_el_GR.json
-          3036      1 ba00ce99144c03a981e58c847069dba52097b843     0 resources/config/vrcompositor_actions_en_us.json
+          2910      1 67cd7e153d0a485229f96a3f8d5482e06a1886e0     0 resources/config/vrcompositor_actions_en_us.json
           3175      1 d00c5f4515c1b70e1e0f166474b267c3a819f0dc     0 resources/config/vrcompositor_actions_es_ES.json
           3180      1 7a0d9b3a105b2716963395a26cc77ba64ca294c7     0 resources/config/vrcompositor_actions_es_MX.json
           3141      1 2b62657230b6d0e206452228f8b182f9100b5a78     0 resources/config/vrcompositor_actions_fi_FI.json
@@ -1445,17 +1387,17 @@ Total bytes compressed : 284975792
           3207      1 95b14c4c5f9487edcd01e33de3a14965c531421b     0 resources/config/vrcompositor_actions_vi_VN.json
           2804      1 71fbd128f737682e9f1882fa777ddc14514aba09     0 resources/config/vrcompositor_actions_zh_CN.json
           2840      1 b103f0bfd172f6809a8ef8be496f434554fffdc7     0 resources/config/vrcompositor_actions_zh_TW.json
-          4379      1 964c5625054a3bfdfc72503b984475840b85bb46     0 resources/config/vrcompositor_bindings_gamepad.json
-          6068      1 8cb82d27862baaa3d8a647cb8719532df58e8998     0 resources/config/vrcompositor_bindings_generic.json
-           494      1 0acd60b877817d1eaf003cff4496e30fb42e82ba     0 resources/config/vrcompositor_bindings_generic_hmd.json
-         15210      1 32ec9dc5081de061f0674576cebfd779fe9ff56f     0 resources/config/vrcompositor_bindings_holographic.json
-          8116      1 a680c600f873da6d52388c657bab5cab52a7b57b     0 resources/config/vrcompositor_bindings_hpmotioncontroller.json
-         12536      1 169cc05cd020392c2b8a46d11f6136ba79a9711b     0 resources/config/vrcompositor_bindings_knuckles.json
-         14330      1 45c4f07dcb45dd690facac2dfa51fd46b5dfb45e     0 resources/config/vrcompositor_bindings_knuckles_ev1.json
-          1206      1 b33cb19108d72ee399682185778458412998169c     0 resources/config/vrcompositor_bindings_rift.json
-           990      1 be8bcedb52b2a6776f34d924677059237b081ad4     0 resources/config/vrcompositor_bindings_vive.json
-         10257      1 59dbfd0a3c0138611e99637dbf94592a464213c9     0 resources/config/vrcompositor_bindings_vive_controller.json
-          1559      1 6a09693d04caac93e259f082a5c4b237c98bbbd0     0 resources/config/vrcompositor_bindings_vive_pro.json
+          6402      1 abb3ec5fd5129f11af1b17b5572b60d57ad9260b     0 resources/config/vrcompositor_bindings_gamepad.json
+          5708      1 1d0cafd9944a947297d62fd8a0b505185d37aee1     0 resources/config/vrcompositor_bindings_generic.json
+           608      1 b97389b6a3246237f6c3af7074343c66018aa955     0 resources/config/vrcompositor_bindings_generic_hmd.json
+         16535      1 c9d08b367676c1f092e5f90a82cc56cd341999a3     0 resources/config/vrcompositor_bindings_holographic.json
+         11455      1 05db120591cf98a6f4229f0f797427263d8b7e18     0 resources/config/vrcompositor_bindings_hpmotioncontroller.json
+         16924      1 a7a18b8a2945b7b7ea865ffe180818fa9f167a7c     0 resources/config/vrcompositor_bindings_knuckles.json
+         15101      1 8342cd85d9c97ec03b0ba679be68a85ff3012683     0 resources/config/vrcompositor_bindings_knuckles_ev1.json
+          1652      1 aa460b27a2549e9faa41ceb143a588b7978beb0a     0 resources/config/vrcompositor_bindings_rift.json
+          1475      1 0c74a272baa1df66c202a7837f9e78c1247120e5     0 resources/config/vrcompositor_bindings_vive.json
+         14295      1 8297acf8f468294e60dcd2dde9219d98b4a3b2a6     0 resources/config/vrcompositor_bindings_vive_controller.json
+          2341      1 d527afd191c459daa37a07facd75c136fdcdc9af     0 resources/config/vrcompositor_bindings_vive_pro.json
            156      1 70ac2d42dfbbf38e661c302e2caad309d1f7609b     0 resources/darkgrey.png
              0      0 0000000000000000000000000000000000000000    40 resources/distort
            173      1 ec302961f6605c15f9c511ada2431f7ac3928d42     0 resources/distort/gl_bringup.psh
@@ -1991,7 +1933,7 @@ Total bytes compressed : 284975792
         762744      1 5a1251449ec0efcdc31ee0a78905b36ed963fc97     0 resources/rendermodels/vr_glove/vr_glove_right_model_slim.glb
            188      1 9ef9809f83847d4beaf403fbecad7ae8eb0b0ebd     0 resources/safe_mode_driver_whitelist.json
              0      0 0000000000000000000000000000000000000000    40 resources/settings
-          9445      1 ee9c9f83d90b9ec6e1a07e123026266f4442903f     0 resources/settings/default.vrsettings
+          9402      1 0f6e04af292a4865c5ba8f48471edb20491ef9f0     0 resources/settings/default.vrsettings
            181      1 82fc369c6d891f2d251d3721856db84d30128539     0 resources/settings/driver_defaults.vrsettings
          13104      1 1a84f7b58d36b556983ca2a9a450280c25421046     0 resources/settingsschema.vrsettings
              0      0 0000000000000000000000000000000000000000    40 resources/shaders
@@ -2024,7 +1966,6 @@ Total bytes compressed : 284975792
           3104      1 fa5889502f8a0d5a8bfbb3e3bd76d4e3626e3ec5     0 resources/shaders/d3d11/distort_geom_drawregion_simplified_reflect_ps.fxo
           6684      1 3cf89ab595b10754d0218b1ee169cc0304efa4f2     0 resources/shaders/d3d11/distort_geom_drawregion_uvs_embedded_vs.fxo
           3516      1 58c810a5411663d19aa982deb7ade5eaccf14660     0 resources/shaders/d3d11/distort_geom_drawregion_vs.fxo
-          3368      1 2738541d021c0b37a4ab6f5aa2aadc757e1a081b     0 resources/shaders/d3d11/distort_geom_floor_aa_ps.fxo
           2916      1 06df18884de447e9e21109e4231b1c2b367178b3     0 resources/shaders/d3d11/distort_geom_floor_ps.fxo
           3624      1 f1478d2424abe2a7418563762b9a275d52337f46     0 resources/shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
           3152      1 ec469339ab2ca972ec4c5610de2286f9e9f5d609     0 resources/shaders/d3d11/distort_geom_floor_reflect_ps.fxo
@@ -2177,13 +2118,6 @@ Total bytes compressed : 284975792
           1552      1 65b6b2453e6e6118727a18f8dfd41d59f2d129b3     0 resources/shaders/d3d11/overlay_viewer_vs.fxo
            576      1 7896c2f2caadc0913db53636eb7cbd173ae69db1     0 resources/shaders/d3d11/panel_mask_ps.fxo
           1300      1 0753f4373206d130696252ac6acf773f1a662ccf     0 resources/shaders/d3d11/panel_mask_vs.fxo
-          2280      1 c80a80a9758d9c2b5463b18822080dffdcda15cf     0 resources/shaders/d3d11/portal_stencil_apply_disp_distort_vs.fxo
-          1992      1 cae100997099a7c316809c68d6c385ae51d46c83     0 resources/shaders/d3d11/portal_stencil_apply_disp_vs.fxo
-          2280      1 c80a80a9758d9c2b5463b18822080dffdcda15cf     0 resources/shaders/d3d11/portal_stencil_distort_vs.fxo
-           500      1 c67a5346446d48b381d9ffc4157ff0ad76d844ab     0 resources/shaders/d3d11/portal_stencil_estimate_disp_ps.fxo
-          2364      1 7a2a70084d6ecd7dc0c243131f296a663e8f5cc1     0 resources/shaders/d3d11/portal_stencil_gs.fxo
-           500      1 c67a5346446d48b381d9ffc4157ff0ad76d844ab     0 resources/shaders/d3d11/portal_stencil_ps.fxo
-          1992      1 cae100997099a7c316809c68d6c385ae51d46c83     0 resources/shaders/d3d11/portal_stencil_vs.fxo
           1552      1 c47315ddfea01236b7e70cad745ce78a39a66271     0 resources/shaders/d3d11/testgrid2_cs.fxo
           1540      1 fd5b85f6da81c50d57f01abc5c2dd43318e9819b     0 resources/shaders/d3d11/testgrid_cs.fxo
           2852      1 d277ecffa66fa25b818adfbfb0322193be714afd     0 resources/shaders/d3d11/tracked_camera_edgefilter_ps.fxo
@@ -2246,7 +2180,6 @@ Total bytes compressed : 284975792
           2996      1 fbeee864127a4133940fef3008ee2ac670237818     0 resources/shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
           9344      1 62382d22774e1f18cb6b9ebc74708cd597ff4c6c     0 resources/shaders/vulkan/distort_geom_drawregion_uvs_embedded_vs.spv
           3376      1 fa2d882740d6cb3a6fcaabd9530cd173f67c77b7     0 resources/shaders/vulkan/distort_geom_drawregion_vs.spv
-          3632      1 4831b6afdc52ab44eb8cd3cfef48c3eee749cb5a     0 resources/shaders/vulkan/distort_geom_floor_aa_ps.spv
           3196      1 11e7d91bb04dd4287b5f6d1d85a29779e2346b18     0 resources/shaders/vulkan/distort_geom_floor_ps.spv
           4176      1 936293b4ed15c682e745c5edc39da538049894f1     0 resources/shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
           3740      1 ba90daeeb96b372de31197ed05334cacf04ed8b8     0 resources/shaders/vulkan/distort_geom_floor_reflect_ps.spv
@@ -2402,14 +2335,6 @@ Total bytes compressed : 284975792
           1156      1 ffd6db3d78203bf520c4465b42c51952359e2dd7     0 resources/shaders/vulkan/overlay_viewer_vs.spv
            544      1 b6a04656d152330c1b7094f929dc8b0cfdf2c35b     0 resources/shaders/vulkan/panel_mask_ps.spv
           1840      1 c5adfb7100d527bd8ac867e4958414e56c64d81d     0 resources/shaders/vulkan/panel_mask_vs.spv
-          2536      1 d42e1436b89d94bd350d48bc9252f762fbdba3ca     0 resources/shaders/vulkan/portal_stencil_apply_disp_distort_vs.spv
-          1852      1 ab855504f80d79c593e187aff0054865ac48e4fa     0 resources/shaders/vulkan/portal_stencil_apply_disp_vs.spv
-          2020      1 68a66c98d4124995215bf1da7875b9bb11e6f782     0 resources/shaders/vulkan/portal_stencil_distort_vs.spv
-          2212      1 737f623951f295cf83f2d2dc6b9d4c1a3f112f65     0 resources/shaders/vulkan/portal_stencil_estimate_disp_ps.spv
-          3460      1 f26c585337f7609dcc4bbe5ffbd05657c6174ded     0 resources/shaders/vulkan/portal_stencil_estimate_disp_vs.spv
-          2772      1 29a5937c7e293243ea11091792d98c0a855b7a67     0 resources/shaders/vulkan/portal_stencil_gs.spv
-           344      1 26f05d79f2b03e3bf9c3020f3559c29ffcc7bbab     0 resources/shaders/vulkan/portal_stencil_ps.spv
-          1336      1 c8ba0c71a46b15f537d8babfc69383e2fb3446bf     0 resources/shaders/vulkan/portal_stencil_vs.spv
            968      1 57a7cd5e2bf450bfcee2144159dd309cde910308     0 resources/shaders/vulkan/testgrid2_cs.spv
           2432      1 3f5925c09ee649386f29a58b2755e8ff8c1792b0     0 resources/shaders/vulkan/testgrid_cs.spv
           2616      1 c0c4b43e38c36916ff79268fba70245b70487fe0     0 resources/shaders/vulkan/tracked_camera_edgefilter_ps.spv
@@ -2457,15 +2382,15 @@ Total bytes compressed : 284975792
            985      1 e40938f3cce2387e1b2d9b22056e66574f508731     0 resources/webinterface/console/console_colors.js
           2021      1 bd3b80338a12c2e5f06e6ec8d22f157cbde8060b     0 resources/webinterface/console/index.html
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard
-          1697      1 22919f30c4bb178728fc96cfe62a1df3ca5c3b8c     0 resources/webinterface/dashboard/bindingcallouts.html
-        207601      1 a644390bf1190177233efe384c27d4e05bf68354     0 resources/webinterface/dashboard/bindingcallouts.js
+          1697      1 08c0d61dc8b93f3b88c531f3864b87904b78c16f     0 resources/webinterface/dashboard/bindingcallouts.html
+        265337      1 30e57dbd74b7e08695a5ab55fc9915a83bf10eaf     0 resources/webinterface/dashboard/bindingcallouts.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/bindingcallouts.js.LICENSE.txt
-          1727      1 7fb0ed2d0113219d2fe2ed48e02d50cd923bd343     0 resources/webinterface/dashboard/controllerbinding.html
+          1727      1 03fceb681039687044c9b11b51bf658ab0fb6cf4     0 resources/webinterface/dashboard/controllerbinding.html
           5226      1 bfa89383b4e7f29cdd1baed9fc5ec4660f17c3c8     0 resources/webinterface/dashboard/controllerbinding.js
-        380107      1 129c651069e5c2cd1cc4951c8cc005e043aece98     0 resources/webinterface/dashboard/controllerbindingui.js
+        436583      1 5a18531e7f65212010c43bdb1c156b2c80e21bef     0 resources/webinterface/dashboard/controllerbindingui.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/controllerbindingui.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/css
-         24529      1 b5ecdd86c1c24e5c1282eee6d4b78723f58cf2be     0 resources/webinterface/dashboard/css/base.css
+         24274      1 dc439c5708fede40204a4ba4aa9858d53ee992dd     0 resources/webinterface/dashboard/css/base.css
           3071      1 bc9a2556a0d38583ae4cf0ab2a96488156b2c804     0 resources/webinterface/dashboard/css/bindinglist.css
          37738      1 f8a9e1f2c3e5cdbd409be698d3b8bc9eea38821d     0 resources/webinterface/dashboard/css/controllerbinding.css
          10059      1 61f3cf51a7c275c58fafc8a08291d0067fa2771c     0 resources/webinterface/dashboard/css/debugcommands.css
@@ -2476,16 +2401,16 @@ Total bytes compressed : 284975792
           4750      1 cd04f56990ee7405342d4bdf98a9aa7620cf0caa     0 resources/webinterface/dashboard/css/quicklaunch.css
              0      0 0000000000000000000000000000000000000000     0 resources/webinterface/dashboard/css/quickstart.css
           9371      1 82e4e327ac4b88ace022a1544eb84cf95960388c     0 resources/webinterface/dashboard/css/systemreportviewer.css
-         60121      1 5815d046a20d656432d80538f08d25a355996ba5     0 resources/webinterface/dashboard/css/systemui.css
+         58432      1 84d856ebbe953adaa024fc7e8b6eb9bfff8f9e8c     0 resources/webinterface/dashboard/css/systemui.css
           2364      1 569353a1c2996848f91ab166c699f21fb033aa59     0 resources/webinterface/dashboard/css/vrkeyboard.css
           6377      1 e6af1c03c5c6f1738433278713c90ac55b40d0ef     0 resources/webinterface/dashboard/css/vrmonitor.css
          48434      1 df9d38863b068217142968ae91d27d2ed746d4bd     0 resources/webinterface/dashboard/css/vrsettings.css
            752      1 56e02bdbb44405fe8e4cdb4c0d2d4197b93ec5ec     0 resources/webinterface/dashboard/css/vrwebui_shared.css
-          1573      1 198e6981769f7ea45677c9ac890cb201b69a5850     0 resources/webinterface/dashboard/debugcommands.html
-        201535      1 d2d375010ad6dbafd540f71413af116489c8145c     0 resources/webinterface/dashboard/debugcommands.js
+          1573      1 bb59741cd2e3e34a3428fdd1c4138dc5b184338e     0 resources/webinterface/dashboard/debugcommands.html
+        257339      1 4bb47680e94f2401e3c107bc7ea9883e23ef70e3     0 resources/webinterface/dashboard/debugcommands.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/debugcommands.js.LICENSE.txt
-          2630      1 0fa240285876f99f46c2577104045a764354d0d3     0 resources/webinterface/dashboard/fallback.html
-          5305      1 b03666cadf3b61dd0c5b14be337153b0f621e7e0     0 resources/webinterface/dashboard/fallback.js
+          2630      1 53eba8a567bf0ad276658456db2e5469c9251123     0 resources/webinterface/dashboard/fallback.html
+         66925      1 1a57f8fdd653cd83321f5bcde77685fcdfbeecce     0 resources/webinterface/dashboard/fallback.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/fallback.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/images
         161535      1 be0971632f9eeb21c69f21bca2e07b94e7689489     0 resources/webinterface/dashboard/images/appimage_default.png
@@ -2695,8 +2620,8 @@ Total bytes compressed : 284975792
            296      1 0563127707cce8b0f9db0e6fd9f00ddb37b4a876     0 resources/webinterface/dashboard/index.html
           1391      1 8cc630938b4ab4d8464e0c74a00942c2efe5416b     0 resources/webinterface/dashboard/ipd.html
          16220      1 3d9030f41d4556d1458a77e51069e77d93f59183     0 resources/webinterface/dashboard/ipd.js
-          1752      1 f126052f1e847d3a18868d3f277951f77fdfc592     0 resources/webinterface/dashboard/keyboard.html
-        202030      1 d34d3d9bc9cc7f24710f0db297b54798e5079818     0 resources/webinterface/dashboard/keyboard.js
+          1752      1 219995a0023286a70147d800c427ae020c2aa07e     0 resources/webinterface/dashboard/keyboard.html
+        258748      1 004fcc6acc129c5609463c2eb5377815c6758f84     0 resources/webinterface/dashboard/keyboard.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/keyboard.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/keyboards
           3481      1 53406bba10a649542c44da02b3e69e2c4cb3541f     0 resources/webinterface/dashboard/keyboards/layout_base_overlay.json
@@ -2718,7 +2643,7 @@ Total bytes compressed : 284975792
           7063      1 b56921655ae9014c0aad496cffc8f2a9b211f94c     0 resources/webinterface/dashboard/keyboards/layout_swedish_overlay.json
           7065      1 24ed81cb282a08a0c670f4762d9d5cc67f0b3412     0 resources/webinterface/dashboard/keyboards/layout_turkish_overlay.json
           7123      1 af317dd439c8c7bff954a1de199a988fbd588541     0 resources/webinterface/dashboard/keyboards/layout_ukranian_overlay.json
-        545976      1 b52c79385fecd8d959d4a08ccaecf9466f5d0529     0 resources/webinterface/dashboard/libraries.js
+        545364      1 38ad1846385145e7bd686e7d1f6c99a899054f7f     0 resources/webinterface/dashboard/libraries.js
           3535      1 cd6d70c5d2b97000416fec8417e070a2baa5d7a1     0 resources/webinterface/dashboard/libraries.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/localization
          41897      1 5cd798acda2755d389cb1ca9e349d9f6f741a1c4     0 resources/webinterface/dashboard/localization/bindingui_brazilian.json
@@ -2749,7 +2674,7 @@ Total bytes compressed : 284975792
          42134      1 9f512b6232de74f04f4c2e50ee5b7dd6800bca51     0 resources/webinterface/dashboard/localization/bindingui_turkish.json
          55885      1 caa240c35579edd3ede704c9cd2819836d11765e     0 resources/webinterface/dashboard/localization/bindingui_ukrainian.json
          44693      1 850686ae360bead9e79341ab02f2209f700a91e8     0 resources/webinterface/dashboard/localization/bindingui_vietnamese.json
-          3438      1 232bca81b2267083115c28e6f95838db14822210     0 resources/webinterface/dashboard/localization/dashboard_brazilian.json
+          3439      1 67e6c3c8d4bf28a08be807566cee2fbeac7327b7     0 resources/webinterface/dashboard/localization/dashboard_brazilian.json
           5116      1 a138e2630e1c00a191f6bc2216f9cf84f3907297     0 resources/webinterface/dashboard/localization/dashboard_bulgarian.json
           3397      1 197c1b347d50eb8008a2f2893e458592d7e14128     0 resources/webinterface/dashboard/localization/dashboard_czech.json
           3263      1 ac7d97afcb5f7f886ac1cf5566625053c70ac84a     0 resources/webinterface/dashboard/localization/dashboard_danish.json
@@ -2786,12 +2711,12 @@ Total bytes compressed : 284975792
          31828      1 70c25589c201e8cda0ec8f6e686d1953fbf87bb1     0 resources/webinterface/dashboard/localization/vrmonitor_czech.json
          31065      1 6fc40893821909c56d70c2baf8a1bec265d830d8     0 resources/webinterface/dashboard/localization/vrmonitor_danish.json
          31669      1 91d2c090cda3a93f6a7ccec4acf76620ae3df088     0 resources/webinterface/dashboard/localization/vrmonitor_dutch.json
-         29908      1 f747a85b43177d945629ceddc6c0ea8a2a199801     0 resources/webinterface/dashboard/localization/vrmonitor_english.json
+         29809      1 72897a9e356fe617f2dc7de5a6e34bf6a0055988     0 resources/webinterface/dashboard/localization/vrmonitor_english.json
          31951      1 b34639b6bae517ba0e71e6081ae272866f07d0d3     0 resources/webinterface/dashboard/localization/vrmonitor_finnish.json
          33814      1 3be5ea830f08e9780c813c3d280a255db408f7fd     0 resources/webinterface/dashboard/localization/vrmonitor_french.json
-         32439      1 1bea10e89962a2470fe82c1c13d347b3842c2711     0 resources/webinterface/dashboard/localization/vrmonitor_german.json
+         32449      1 6b109abff44033964966fab03e395b6afd945230     0 resources/webinterface/dashboard/localization/vrmonitor_german.json
          44399      1 bdfbbd192b4a243a014f5ba247a8cab92e6d80cc     0 resources/webinterface/dashboard/localization/vrmonitor_greek.json
-         33219      1 e159f51e470d285fae5059814cc54af120f324d6     0 resources/webinterface/dashboard/localization/vrmonitor_hungarian.json
+         33220      1 3cdd146e8d190fb60f416a1888fafafaae876737     0 resources/webinterface/dashboard/localization/vrmonitor_hungarian.json
          32520      1 9a29c0abeb190d5f763d8e4fc0964052709e1e4a     0 resources/webinterface/dashboard/localization/vrmonitor_italian.json
          36070      1 d6c31585f5c7ef857ee71976bc75be686bd5a6a5     0 resources/webinterface/dashboard/localization/vrmonitor_japanese.json
          32603      1 f15792d80c2f5dd411a971e8d638df1f7df3d06e     0 resources/webinterface/dashboard/localization/vrmonitor_korean.json
@@ -2802,58 +2727,58 @@ Total bytes compressed : 284975792
          33579      1 fe57ed9e603b71bf1d390c9b1685e140e5572f5d     0 resources/webinterface/dashboard/localization/vrmonitor_romanian.json
          42781      1 758a3fdf46ce2d1a5e18a6e5cc72194897d3e064     0 resources/webinterface/dashboard/localization/vrmonitor_russian.json
          28920      1 1ba4390a9a70549100922ed7d7866ffd7108cb8b     0 resources/webinterface/dashboard/localization/vrmonitor_schinese.json
-         33056      1 bbe27391ee67dfce05e45380f16c699777a502b8     0 resources/webinterface/dashboard/localization/vrmonitor_spanish.json
+         33061      1 26748b9940cf3c9ed0965e32a9e0efd7a893d515     0 resources/webinterface/dashboard/localization/vrmonitor_spanish.json
          31416      1 be81db43816396db8b90b64eea6e19ca7da02014     0 resources/webinterface/dashboard/localization/vrmonitor_swedish.json
          28884      1 5bc0f42e5369b85ad64be4b95b4a36f39c8f3d15     0 resources/webinterface/dashboard/localization/vrmonitor_tchinese.json
          52892      1 a30bc47bdb2307ae45bb38697ac00bbaa4262ca4     0 resources/webinterface/dashboard/localization/vrmonitor_thai.json
          32242      1 d8eca5f5208127ed3fc923a0e6512d7da75c6539     0 resources/webinterface/dashboard/localization/vrmonitor_turkish.json
          42999      1 422d13299261253057551ddee7fdabb9e10d247e     0 resources/webinterface/dashboard/localization/vrmonitor_ukrainian.json
          34287      1 a45c95befb0fd1a9ba37898dd6a1a2e02d5dc904     0 resources/webinterface/dashboard/localization/vrmonitor_vietnamese.json
-          3295      1 607b48bbf27cc6beb60201cc4c929c566f6c094c     0 resources/webinterface/dashboard/localization/webhelper_brazilian.json
-          4098      1 9cd8cd9765ecab6fc1c76f34af8e2d0b2bbb8ff7     0 resources/webinterface/dashboard/localization/webhelper_bulgarian.json
-          3302      1 5e7d8534ffe9f033dd086cfc8541400e5f666cf9     0 resources/webinterface/dashboard/localization/webhelper_czech.json
-          3129      1 67a451456abae671c08d20890ea919e96fa73f72     0 resources/webinterface/dashboard/localization/webhelper_danish.json
-          3198      1 c5bcdcabcbfd849ad9ccec664316100389b2b8b8     0 resources/webinterface/dashboard/localization/webhelper_dutch.json
+          3232      1 a3dd50de060447a1b3833d713377de9c2a20518d     0 resources/webinterface/dashboard/localization/webhelper_brazilian.json
+          4001      1 49d7f0eccd3b38af2b267f76cd1fdaeafcaee814     0 resources/webinterface/dashboard/localization/webhelper_bulgarian.json
+          3239      1 a475c69d92054230a38d882a13260de0c705a05b     0 resources/webinterface/dashboard/localization/webhelper_czech.json
+          3072      1 ea9a08525a0ca1210a2a4e08a7e4ddaac5c5dea0     0 resources/webinterface/dashboard/localization/webhelper_danish.json
+          3137      1 f59c2b4239dff518e697272822918fdf6dcdc005     0 resources/webinterface/dashboard/localization/webhelper_dutch.json
           3127      1 05a768ea7e6a6340508f2b25972a3fb9f586e757     0 resources/webinterface/dashboard/localization/webhelper_english.json
-          3229      1 454c6dc43f7b1baf03c6db6f6056a5f7ff61e075     0 resources/webinterface/dashboard/localization/webhelper_finnish.json
-          3309      1 5411d8943978de2c1f9930c47d7c142942c1a258     0 resources/webinterface/dashboard/localization/webhelper_french.json
-          3222      1 b78ed802bfd9e7ee5e2070ad3301b17c7416324f     0 resources/webinterface/dashboard/localization/webhelper_german.json
-          4071      1 cd8d69cf837fdffa4a8ad105c3d10b6748c53853     0 resources/webinterface/dashboard/localization/webhelper_greek.json
-          3283      1 20ca45520264f5162c7f243b66da9ccae3094558     0 resources/webinterface/dashboard/localization/webhelper_hungarian.json
-          3297      1 37598256c7da9b30c2fd2bfd6bf7446fe0da78fb     0 resources/webinterface/dashboard/localization/webhelper_italian.json
-          3476      1 7401f00a0a44fb4e429d3394da7d53c639f8dca2     0 resources/webinterface/dashboard/localization/webhelper_japanese.json
-          3248      1 ceb74877cbfe6635a14b04d939efc9c61742f4bb     0 resources/webinterface/dashboard/localization/webhelper_korean.json
-          3294      1 f5f5e7c6097b254e960eb6259ca60799d3829e2e     0 resources/webinterface/dashboard/localization/webhelper_latam.json
-          3173      1 46367b9d4b0110edd10a31a7613827be3d4a43b7     0 resources/webinterface/dashboard/localization/webhelper_norwegian.json
-          3237      1 651e13c142b816255765727924621775577af946     0 resources/webinterface/dashboard/localization/webhelper_polish.json
-          3239      1 941f1e7e1c58b015156d884799c7c14cdcd6536f     0 resources/webinterface/dashboard/localization/webhelper_portuguese.json
-          3319      1 83129e4dee73b999016256b058ac49e5d844960e     0 resources/webinterface/dashboard/localization/webhelper_romanian.json
-          3968      1 0bc6d1ecde4915f877e99a5b7c04f8cfd10d86b2     0 resources/webinterface/dashboard/localization/webhelper_russian.json
-          3004      1 764e6271a7095bf835a39bbdbf5341d0ff4802f1     0 resources/webinterface/dashboard/localization/webhelper_schinese.json
-          3293      1 55a28f9bea46897241a21407dcf1d58a5f866b06     0 resources/webinterface/dashboard/localization/webhelper_spanish.json
-          3145      1 fa0f23fd75ecea66c7a130865f04b83e8a311945     0 resources/webinterface/dashboard/localization/webhelper_swedish.json
-          3029      1 7a476365cb1b718239e7297e2a6d125a7ccf0270     0 resources/webinterface/dashboard/localization/webhelper_tchinese.json
-          4509      1 0d1f1e37874ce9af14237888dfbe90d8df0d7e2e     0 resources/webinterface/dashboard/localization/webhelper_thai.json
-          3169      1 deeddc559c3b1263be68d96feecd498c258b4b3f     0 resources/webinterface/dashboard/localization/webhelper_turkish.json
-          3966      1 c07ebd4416092ff3c1cf855c17a7a7915cc0db20     0 resources/webinterface/dashboard/localization/webhelper_ukrainian.json
-          3400      1 70b073b966fdff52d5d8d3a8fa43184325cb13ae     0 resources/webinterface/dashboard/localization/webhelper_vietnamese.json
-          1699      1 4aa02d171b2545ee824c51d2f1b0ff41373af927     0 resources/webinterface/dashboard/messageoverlay.html
-        194100      1 9248146c119a9f52acc93d5708ca65b95a4ffd8a     0 resources/webinterface/dashboard/messageoverlay.js
+          3163      1 fecffead348c4ea3c2297ea28d849c7bc78295f7     0 resources/webinterface/dashboard/localization/webhelper_finnish.json
+          3244      1 a3de5df77d0ef1318b91fa95e7161ebda3df7278     0 resources/webinterface/dashboard/localization/webhelper_french.json
+          3163      1 48bed5114cb2b7d73da97e3154395cd1de8e7341     0 resources/webinterface/dashboard/localization/webhelper_german.json
+          3981      1 1e58909cc442e1caed08a2972f69cf15c8acfc80     0 resources/webinterface/dashboard/localization/webhelper_greek.json
+          3214      1 5d3651749640c924f3b0e908b0d51e462fcc80a3     0 resources/webinterface/dashboard/localization/webhelper_hungarian.json
+          3229      1 6a526c44fb1632d38d0d0e9ecfdfd9295ffcfb27     0 resources/webinterface/dashboard/localization/webhelper_italian.json
+          3415      1 10767c8dc00b3a85c081b257f334eea3daf2901a     0 resources/webinterface/dashboard/localization/webhelper_japanese.json
+          3188      1 a547fc77670330685fc6e6ea750640dd77b2c72f     0 resources/webinterface/dashboard/localization/webhelper_korean.json
+          3227      1 d8c64f97626655ad217e3707284f399bb2d18395     0 resources/webinterface/dashboard/localization/webhelper_latam.json
+          3116      1 e456cebc29d09dc264bc98900a81efe776188adf     0 resources/webinterface/dashboard/localization/webhelper_norwegian.json
+          3169      1 12630f47650f701793f807f944756eb647633a02     0 resources/webinterface/dashboard/localization/webhelper_polish.json
+          3176      1 7fce1778b85b38f65446bd3f7596d6a63ec8b9a5     0 resources/webinterface/dashboard/localization/webhelper_portuguese.json
+          3249      1 a380b83a39dffbb56aeb923c0e244433bf75153f     0 resources/webinterface/dashboard/localization/webhelper_romanian.json
+          3888      1 c4901a6b4154857836e46f3d8a79e7c177b68975     0 resources/webinterface/dashboard/localization/webhelper_russian.json
+          2946      1 b83f55dd75bfab397b2582d3b67d26354868e0ee     0 resources/webinterface/dashboard/localization/webhelper_schinese.json
+          3230      1 c8b9b7736df1ffced911d081736ae74714595a20     0 resources/webinterface/dashboard/localization/webhelper_spanish.json
+          3088      1 db1136732116b5f66390602c2855a0ebdc8edf63     0 resources/webinterface/dashboard/localization/webhelper_swedish.json
+          2971      1 ff176d38c80a9921562401a26bdf8189afc7ca56     0 resources/webinterface/dashboard/localization/webhelper_tchinese.json
+          4415      1 421e4c9e2ae18b9808cec8b5360c99987a3328e1     0 resources/webinterface/dashboard/localization/webhelper_thai.json
+          3102      1 2b2c2ed8e95003d6f39e1578203328fe9a9cadc1     0 resources/webinterface/dashboard/localization/webhelper_turkish.json
+          3884      1 8a9aef0e7d0e288480a1be6f46f27d4adb125d39     0 resources/webinterface/dashboard/localization/webhelper_ukrainian.json
+          3330      1 6668c9ac141dc03d7c2361ee3c43975ecf7f762f     0 resources/webinterface/dashboard/localization/webhelper_vietnamese.json
+          1699      1 042c7c1e1c87e4d96489bdba33ce6cc1098145ee     0 resources/webinterface/dashboard/messageoverlay.html
+        249906      1 b620009395ee621f513e88ce4f31896390f8d07d     0 resources/webinterface/dashboard/messageoverlay.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/messageoverlay.js.LICENSE.txt
-          1706      1 6671941536cb96903022a28411121fd62dbe3a38     0 resources/webinterface/dashboard/notificationtoast.html
-        191896      1 6280c20ab68de0afe4b06d7781f45dc8331e9a51     0 resources/webinterface/dashboard/notificationtoast.js
+          1706      1 d5f7765813bf3bdca801bf15055441f12cfa1db5     0 resources/webinterface/dashboard/notificationtoast.html
+        247660      1 836819c81334d4265b267a4335410d42b69f087e     0 resources/webinterface/dashboard/notificationtoast.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/notificationtoast.js.LICENSE.txt
           1787      1 f62b158400fe8827a0ff82e77e2591ec108bc874     0 resources/webinterface/dashboard/powermenu.html
          55386      1 225a15a2379386930714565e072c827ef39d5c46     0 resources/webinterface/dashboard/powermenu.js
           2418      1 f0cc36dab2d0676bb1a7e481100c7971a13f8587     0 resources/webinterface/dashboard/progressindicator.html
          55960      1 0d1838e59d0cf2b92cd0b647f98aff366e5c73fd     0 resources/webinterface/dashboard/progressindicator.js
-           457      1 d6c474eb26a6c253ba481412105026bf644c21d7     0 resources/webinterface/dashboard/scenegraphtest.html
-          8073      1 7a3c3169ddaa24cd8ddf55de02ed9ca6c6509771     0 resources/webinterface/dashboard/scenegraphtest.js
+           379      1 197cc50f0c908298b4bc49e83efc4d9b1a7db698     0 resources/webinterface/dashboard/scenegraphtest.html
+         66742      1 ea488b463c9b40aef31a9b7dc279a6c3a08320cf     0 resources/webinterface/dashboard/scenegraphtest.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/scenegraphtest.js.LICENSE.txt
           1822      1 cda5140be34b4036be4aeb88d8256192e14a851f     0 resources/webinterface/dashboard/settings.html
         147622      1 2d58100e19503d4badc52382d576bde40194d442     0 resources/webinterface/dashboard/settings.js
-           949      1 4a9b5e77b217dc2ccdc04cf9a6c1934d9b3a5888     0 resources/webinterface/dashboard/settings_desktop.html
-        190946      1 d9a3a352ed6078262146ae06a7e1abb0f11d9681     0 resources/webinterface/dashboard/settings_desktop.js
+           949      1 40f879cb797a7a8a9264d577c1006a9852b7fc67     0 resources/webinterface/dashboard/settings_desktop.html
+        246710      1 85c413d265e8cf3c065c8ac7d757b4b2e00c272a     0 resources/webinterface/dashboard/settings_desktop.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/settings_desktop.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/sounds
         151956      1 caf6737eafb496dc300b7d7e0ec7a9e8f87f799e     0 resources/webinterface/dashboard/sounds/activation.wav
@@ -2907,17 +2832,17 @@ Total bytes compressed : 284975792
        2089014      2 e57e3548b85061188a27d73ef3f6c222db732d61     0 resources/webinterface/dashboard/suggestions/russian_compiled_words.dict
        1899183      2 ea052b25ca43011621259565e168992670d09030     0 resources/webinterface/dashboard/suggestions/spanish_compiled_words.dict
        1844461      2 ba84b935f9aef2457d8e030f3e97ab663924c442     0 resources/webinterface/dashboard/suggestions/swedish_compiled_words.dict
-           392      1 8764bcdedb231ed4a31087103d5afd7fd96a9b16     0 resources/webinterface/dashboard/systemreportviewer.html
-         17124      1 3e49f66ec0c82ec54af1a19dfb800131a0b61ecc     0 resources/webinterface/dashboard/systemreportviewer.js
+           392      1 2812f7dda72dedc524188e2c308fe33b007dc234     0 resources/webinterface/dashboard/systemreportviewer.html
+         17124      1 a643304ca9d34b9f933616f5e91d44411cac225f     0 resources/webinterface/dashboard/systemreportviewer.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/systemreportviewer.js.LICENSE.txt
-           776      1 4513d66eb6bd0c538300fd93396f151c26a31520     0 resources/webinterface/dashboard/systemui.html
-        220706      1 70d8e3310f664b61b8cfbb6be3919cb200a53f85     0 resources/webinterface/dashboard/systemui.js
+           776      1 d1a478380ffcc4d255a826ccad92d71b9a676e2f     0 resources/webinterface/dashboard/systemui.html
+        285606      1 8b28358c83b4c8ccb0f8627d55aa437f4087da9c     0 resources/webinterface/dashboard/systemui.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/systemui.js.LICENSE.txt
-          1688      1 4f2417cb705a15fddf1021edc64939973d76e14e     0 resources/webinterface/dashboard/vrmonitor.html
-        203390      1 d991ea0f1564c2cc5f4dd1d5ccc26da8efd38a6a     0 resources/webinterface/dashboard/vrmonitor.js
+          1688      1 4c9bfc2a819ac061fb6c0ada19c12be99bc5c35c     0 resources/webinterface/dashboard/vrmonitor.html
+        259154      1 a6122d76c19f14525fa1dd630d0215a353add83a     0 resources/webinterface/dashboard/vrmonitor.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/vrmonitor.js.LICENSE.txt
         189046      1 708662e7f08d479c9564bf2001df6c958056f98e     0 resources/webinterface/dashboard/vrwebui_core.js
-        428086      1 ea96a046041e52f9e4c8ec54401852b66caa3567     0 resources/webinterface/dashboard/vrwebui_shared.js
+        362289      1 580e83ce05fde661dd6ad3209535424083bcfeb2     0 resources/webinterface/dashboard/vrwebui_shared.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/vrwebui_shared.js.LICENSE.txt
           1406      1 57477c2180cc7b6b9e3064a46cf8da4ad7555540     0 resources/webinterface/favicon.ico
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/fonts

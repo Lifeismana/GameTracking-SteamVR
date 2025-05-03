@@ -548,7 +548,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS
+RSDSn
 Radio version:      
 RaiseException
 ReadFile

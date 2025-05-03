@@ -177,7 +177,6 @@
 ??1_Locinfo@std@@QAE@XZ
 ??1_Lockit@std@@QAE@XZ
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z
 ??Bid@locale@std@@QAEIXZ
 ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
 ??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
@@ -782,6 +781,7 @@ strncat
 strncpy
 strrchr
 strstr
+strtod
 strtol
 strtoul
 strtoull

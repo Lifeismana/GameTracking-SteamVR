@@ -59,11 +59,13 @@
 .?AVDebuggerLoaderLogRecorder@?A0x5a548dd3@@
 .?AVException@Json@@
 .?AVFactory@CharReader@Json@@
+.?AVImpl@CharReader@Json@@
 .?AVLoaderInstance@@
 .?AVLoaderLogRecorder@@
 .?AVLogicError@Json@@
 .?AVOstreamLoaderLogRecorder@?A0x5a548dd3@@
 .?AVOurCharReader@Json@@
+.?AVOurImpl@OurCharReader@Json@@
 .?AVRuntimeError@Json@@
 .?AVRuntimeInterface@@
 .?AVbad_alloc@std@@

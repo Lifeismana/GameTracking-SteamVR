@@ -112,7 +112,9 @@
         "HidePopupsWhenStatusMinimized": false,
         "screenshots": true,
         "screenshotType": 2,
-        "laserMouseDebugging": false
+        "laserMouseDebugging": false,
+        "vrmStatusCheckInterval": 1000,
+        "vrmCheckForSteam": true
     },
     "notifications": {
         "DoNotDisturb": false
