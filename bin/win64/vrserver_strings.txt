@@ -546,11 +546,11 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@
 .?AV<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@
 .?AV<lambda_11d26080b3820719662302cdf688baf3>@@
+.?AV<lambda_1a546cd75712cd813bcecece4aff05b0>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_3182ac4ae678b07d5b5e3bcc5eda0ca2>@@
 .?AV<lambda_36710ba34f60850543e95844aec2da55>@@
 .?AV<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@
-.?AV<lambda_497480e309245c2386a170b7cab9a01d>@@
 .?AV<lambda_546a552fb27e114be7daaf2115f17be0>@@
 .?AV<lambda_5cb07d87fbb143573f0e5b51176c2232>@@
 .?AV<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@
@@ -671,11 +671,11 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_11d26080b3820719662302cdf688baf3>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1a546cd75712cd813bcecece4aff05b0>@@XV?$shared_ptr@VCVRClientContext@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3182ac4ae678b07d5b5e3bcc5eda0ca2>@@XAEBVCSteamVR_AudioSettings_ChangeSettings_Request@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_36710ba34f60850543e95844aec2da55>@@XAEBVCSteamVR_Settings_SetValue_Request@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_497480e309245c2386a170b7cab9a01d>@@XV?$shared_ptr@VCVRClientContext@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_546a552fb27e114be7daaf2115f17be0>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5cb07d87fbb143573f0e5b51176c2232>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@_NAEBUHmdVector3_t@vr@@@std@@
@@ -1486,6 +1486,7 @@ $\n k_EProtoServiceTypeSteamMessages
 /interaction_profiles/htc/vive_pro
 /interaction_profiles/htc/vive_tracker_htcx
 /interaction_profiles/htc/vive_wrist_tracker
+/interaction_profiles/khr/generic_controller
 /interaction_profiles/khr/simple_controller
 /interaction_profiles/microsoft/motion_controller
 /interaction_profiles/microsoft/xbox_controller
@@ -1617,16 +1618,15 @@ $\n k_EProtoServiceTypeSteamMessages
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789ABCDEF
 0123456789abcdef
-0L7@
-0S7@
-0n8@
+0h7@
+0j2@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-15:24:52
+15:22:21
 1A26b
 1\f514
 1e+9999
@@ -1647,15 +1647,13 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-893@
-8R7@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8l7@
-8s3@
+8t3@
+8x8@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1705,7 +1703,6 @@ $\n k_EProtoServiceTypeSteamMessages
 ??1ios_base@std@@UEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAI@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEAN@Z
 ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@AEA_K@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
@@ -1887,7 +1884,6 @@ AppInfoManager.StartSceneApplicationTransitionFromProcess: No app info for start
 AppTransition: Aborting external launch because of timeout after %g seconds\n
 Apps - Completed simple quit transition with exit of %u\n
 Apps - Initiated %s quit transition for %u\n
-Apr  1 2025
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 4\n
@@ -2014,7 +2010,7 @@ CRenderModelManager::GetRenderModelAbsolutePath
 CRenderModelManager::LoadRenderModelInternal
 CRenderModelManager::LoadRenderModel_Async
 CRenderModelManager::Tessellate
-CRenderModelManager::Tessellate::<lambda_03306e5cdb0e0863aad20d1a933a0825>::operator ()
+CRenderModelManager::Tessellate::<lambda_20a8e0c0a31c68b97ad28c678f4b4c79>::operator ()
 CSettingsManager::GenerateChangeNotifications
 CSettingsManager::WriteToDiskIfNeeded
 CSharedResourceNamespaceClient::Init(): failed connect\n
@@ -2316,6 +2312,9 @@ Cannot open file [
 Cannot resolve to a specific setting for '%s'\n
 Cannot resolve to section.key from '%s'\n
 Cannot resolve valueType on section.key from '%s'\n
+Changing app type for %s: Refusing because app start error %s\n
+Changing app type for %s: Refusing illegal change from %s to %s\n
+Changing app type for %s: Transition from %s to %s\n
 Chaperone Universe was missing ID\n
 CheckTokenMembership
 Chord for %s had %d bindings, which we don't know how to deal with yet\n
@@ -2418,7 +2417,6 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D7q/;M
 DELEGATE 
-DG7@
 DISABLED
 DXGI VSync Thread ended\n
 DXGI VSync Thread started\n
@@ -2806,8 +2804,6 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
-H83@
-H93@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
 HMD Not Known (202)
@@ -2830,7 +2826,6 @@ HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
-HP7@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2848,6 +2843,7 @@ HTTP_REQUEST Static Content %s
 Hang the server for the specified number of seconds (default 3600)
 HasField
 Hex and octal numbers must be integers.
+Hm8@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -2855,9 +2851,7 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HostController
 How did we get here with a non-position slot?
-Hs3@
-Hu8@
-Hz8@
+Hq7@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3142,6 +3136,7 @@ KHR_lights_punctual
 Kernel32.dll
 Kill process %s because it didn't quit in time\n
 Kill process?
+L93@
 L=SteamFriends017
 LABEL_OPTIONAL
 LABEL_REPEATED
@@ -3250,6 +3245,7 @@ Main Thread
 MainThrd
 MapViewOfFile
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
+May  3 2025
 Mbp?{
 Message class "
 Message extensions cannot have required fields.
@@ -3392,13 +3388,10 @@ OutputDebugStringW
 Overwriting default binding file from web: %s\n
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
-PG7@
 PICT
 PID_
 PLACEHOLDER_VALUE
-PN7@
 PNG\r\n
-PO7@
 POST
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
@@ -3427,6 +3420,7 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
+Pa7@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3443,7 +3437,9 @@ PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Pi2@
+Pi7@
+Pj7@
+Pk7@
 Playback devices:\n
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
@@ -3547,6 +3543,7 @@ Prop_DisplayMCOffset_Float
 Prop_DisplayMCScale_Float
 Prop_DisplayMCType_Int32
 Prop_DisplayMinAnalogGain_Float
+Prop_DisplayMinUIAnalogGain_Float
 Prop_DisplaySupportsAnalogGain_Bool
 Prop_DisplaySupportsMultipleFramerates_Bool
 Prop_DisplaySupportsRuntimeFramerateChange_Bool
@@ -3681,6 +3678,7 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
+Pu8@
 QkkXa
 Qkkbal
 Query failed
@@ -3703,7 +3701,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS
+RSDS]
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3733,8 +3731,6 @@ Refusing connect from %s due to failure to validate process id
 Refusing connect from %s due to unexpected process id (%d vs %d)
 Refusing connect from %s, asserting %s.\n
 Refusing to add binding to %s from a sim action in %s and a mode in %s\n
-Refusing to change app type from %s because app start error %s\n
-Refusing to change app type from %s transition from %s to %s is illegal\n
 Refusing to quit pid 0.\n
 RegCloseKey
 RegEnumValueW
@@ -4047,13 +4043,12 @@ Symbol name "
 Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
-T83@
-T93@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
 TerminateThread
 Terminated service process (%d)
+Tessellation took %f.2ms\n
 TextureInfo
 The current HMD requires an additional driver that is not installed (214)
 The requested interface is incompatible with the compositor and the compositor is running (122)
@@ -5110,10 +5105,7 @@ Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
 X93@
 XXXX PNG chunk not known
-Xm8@
-Xs3@
 XsBI
-Xy8@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -5508,7 +5500,7 @@ Zjz\v
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \rmj>zjZ
-\rp\f`\v0\nP<t(
+\rp\f`\v0\nP\t(
 \t%s%s,%u,%s,%s,VID_%04X/PID_%04X,%s,%s\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -5995,6 +5987,7 @@ current_transforms
 current_transforms_without_controller
 current_user_persona_name
 czech
+d93@
 dQy/
 da_dk
 danish
@@ -6202,6 +6195,7 @@ first not IHDR
 fixed32
 fixed64
 float
+floor_detection_result
 fmodf
 font
 font/ttf
@@ -6284,8 +6278,9 @@ grip_limit_transforms
 group
 guid
 gzip
-h93@
+hK6@
 hPU3
+hY7@
 half_thresholds
 hand_priority
 hand_right_poses.glb
@@ -6309,10 +6304,10 @@ hlvr/webui
 hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_settings_key
+ho8@
 holographic
 holographic_controller
 hpmotioncontroller
-ht8@
 html
 http:
 http://
@@ -6321,7 +6316,6 @@ https:
 https://
 hu_hu
 hungarian
-hw7@
 i91k
 i]Wb
 iauds
@@ -6373,6 +6367,7 @@ input/default_pico_controller_remapping.json
 input/default_vive_cosmos_controller_remapping.json
 input/generic_controller.png
 input/generic_hmd.png
+input/khr_generic_controller.json
 input/khr_simple_controller.json
 input/remapping_templates.json
 input_active_state
@@ -6645,13 +6640,13 @@ keep-alive
 kernel32.dll
 keyboard
 keylength >= 2^30
+khr_generic_controller
 khr_simple_controller
 knuckles
 knuckles_ev1
 ko_kr
 koreana
 l6qnk
-l83@
 lDa>
 label
 language_tag
@@ -6902,6 +6897,7 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
+p93@
 pBegin == pEnd
 pEnd > pBegin
 pMGConnect != nullptr
@@ -6914,7 +6910,7 @@ pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
 pUrl != nullptr
 pWebSocketMessage
-pZ7@
+pX7@
 package
 packed
 param1
@@ -6932,17 +6928,15 @@ path_handles
 paths
 payload
 pbrMetallicRoughness
+pc7@
 pending_file_saved
 perfcheck
 personal
 perspective
-ph7@
-pi7@
 pico_controller
 pinch
 pinchgrab
 pivot
-pj7@
 pl_pl
 playAreaColor
 play_area
@@ -6976,6 +6970,8 @@ positional
 positive_int_value
 power
 powf
+pq7@
+pr7@
 precision
 prediction
 prediction parameter out of range
@@ -7001,9 +6997,10 @@ property_containers
 property_contents
 property_number
 proximity
+ps7@
+pt8@
 pt_br
 pt_pt
-pu8@
 public
 public_dependency
 publishedfileid
@@ -7011,7 +7008,6 @@ pull
 punct
 putchar
 py_generic_services
-pz8@
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
 quarter_thresholds
@@ -7502,6 +7498,7 @@ vrclient Shared Lib Not Found (102)
 vrcombined_log.previous.txt
 vrcombined_log.txt
 vrcompositor_mailbox
+vrcompositor_systemlayer
 vrdashboard.exe
 vrdevices
 vrdisplays
@@ -7568,14 +7565,62 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x83@
-xO7@
-xY7@
+x08@
+x18@
+x28@
+x38@
+x48@
+x58@
+x68@
+x78@
+x88@
+x98@
+xA8@
+xB8@
+xC8@
+xD8@
+xE8@
+xF8@
+xG8@
+xH8@
+xI8@
+xJ8@
+xK8@
+xL8@
+xM8@
+xN8@
+xO8@
+xP8@
+xQ8@
+xR8@
+xS8@
+xT8@
+xU8@
+xV8@
+xW7@
+xW8@
+xX8@
+xY8@
+xZ8@
 x_path
+xa8@
+xb8@
+xc8@
+xd8@
 xdigit
+xe8@
+xf8@
+xg8@
+xh8@
+xi8@
+xj8@
+xk8@
+xl8@
 xmag
-xw8@
-xy7@
+xt7@
+xu7@
+xv7@
+xw7@
 y9*O
 y_path
 yfov

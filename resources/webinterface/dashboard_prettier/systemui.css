@@ -2656,6 +2656,10 @@ div.BindingCalloutModifierIcon {
   color: var(--gamepadui-lightest-grey);
 }
 
+.RoomSetupUI.Slim {
+  width: 20em;
+}
+
 .RoomSetupUI .Title {
   font-size: 1.6em;
   font-weight: bold;
@@ -2703,50 +2707,18 @@ div.BindingCalloutModifierIcon {
   flex-shrink: 0;
 }
 
-.FloorRadiusRoot {
+.AdjustPlayspaceRoot {
   width: 32px;
   height: 32px;
 }
 
-.FloorRadiusRoot .Geo {
+.AdjustPlayspaceRoot .Invalid {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  background: rgba(255, 0, 0, 0.75);
-}
-
-.RoomSetupFloorGeoRoot {
-  width: 1024px;
-  height: 1024px;
-}
-
-.RoomSetupFloorGeoRoot .FloorGeo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 1024px;
-  box-sizing: border-box;
-}
-
-.RoomSetupFloorGeoRoot .FloorGeo.Center {
-  border: 10px solid var(--room-setup-floor-circle); /* Thickness of the circle border */
-
-  background: radial-gradient(
-    circle,
-    var(--room-setup-floor-gradient-start) 50%,
-    var(--room-setup-floor-gradient-end) 100%
-  );
-}
-
-.RoomSetupFloorGeoRoot .FloorGeo.NoCenter {
-  background: radial-gradient(
-    circle,
-    var(--room-setup-floor-gradient-end) 0%,
-    var(--room-setup-floor-gradient-start) 70%
-  );
+  background: rgba(50, 0, 0, 0.75);
+  border: 1px solid red;
 }

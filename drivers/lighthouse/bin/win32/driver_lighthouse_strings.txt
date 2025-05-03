@@ -868,7 +868,6 @@ $tI<unknown>
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
 ??1_Lockit@std@@QAE@XZ
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@G@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@I@Z

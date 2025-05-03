@@ -435,7 +435,7 @@ HeapReAlloc
 HeapSize
 Ht=c
 IND)ind)
-IND)ind)pow
+IND)ind).
 INITY
 IVRSystem_022
 Infinity
@@ -498,7 +498,7 @@ PeekNamedPipe
 Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDS3
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -676,6 +676,7 @@ asin
 assert json failed
 atan
 atan2
+b<log10
 bad address
 bad allocation
 bad array new length
@@ -840,7 +841,7 @@ protocol error
 protocol not supported
 r7Yr7=
 rLp>B
-raB3GH
+raB3G8jH
 read only file system
 redirectsDisplay
 rejectDupKeys

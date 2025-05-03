@@ -172,6 +172,7 @@ $tI(knN
 %s: failed to create buffer (%d)
 %s: failed to create image %s
 %s: failed to create image view (%d)
+%s: failed to create image view for mip=%d(%d) layer=%d(%d)
 %s: failed to create interop device
 %s: failed to create interop texture
 %s: failed to create local timeline
@@ -1593,6 +1594,7 @@ $tI(knN
 /interaction_profiles/htc/vive_pro
 /interaction_profiles/htc/vive_tracker_htcx
 /interaction_profiles/htc/vive_wrist_tracker
+/interaction_profiles/khr/generic_controller
 /interaction_profiles/khr/simple_controller
 /interaction_profiles/microsoft/motion_controller
 /interaction_profiles/microsoft/xbox_controller
@@ -1706,6 +1708,8 @@ $tI(knN
 /user/hand/left/input/joystick/click
 /user/hand/left/input/menu/click
 /user/hand/left/input/palm_ext/pose
+/user/hand/left/input/primary/click
+/user/hand/left/input/secondary/click
 /user/hand/left/input/select/click
 /user/hand/left/input/shoulder/click
 /user/hand/left/input/skeleton/left/data
@@ -1760,6 +1764,8 @@ $tI(knN
 /user/hand/right/input/joystick/click
 /user/hand/right/input/menu/click
 /user/hand/right/input/palm_ext/pose
+/user/hand/right/input/primary/click
+/user/hand/right/input/secondary/click
 /user/hand/right/input/select/click
 /user/hand/right/input/shoulder/click
 /user/hand/right/input/skeleton/right/data
@@ -2130,7 +2136,7 @@ CRenderModelManager::GetRenderModelAbsolutePath
 CRenderModelManager::LoadRenderModelInternal
 CRenderModelManager::LoadRenderModel_Async
 CRenderModelManager::Tessellate
-CRenderModelManager::Tessellate::<lambda_03306e5cdb0e0863aad20d1a933a0825>::operator ()
+CRenderModelManager::Tessellate::<lambda_20a8e0c0a31c68b97ad28c678f4b4c79>::operator ()
 CS_MAIN
 CSharedResourceNamespaceClient::Init(): failed connect\n
 CSharedResourceNamespaceClient::Init(): failed to get server response\n
@@ -2495,6 +2501,7 @@ CVulkanVRRenderer::CreateTexture - Unable to create VkImage\n
 CVulkanVRRenderer::CreateTexture - Unable to create image view\n
 CVulkanVRRenderer::CreateTexture - Unable to prepare image for export\n
 CVulkanVRRenderer::GetTextureLOD
+CVulkanVRRenderer::GetTextureLODLayer
 CVulkanVRRenderer::MapConstantBuffer - vkMapMemory failed with error %d.\n
 CVulkanVRRenderer::MapTexture - attempted to map non-mappable image\n
 CVulkanVRRenderer::MapTexture - bad parameter\n
@@ -2563,9 +2570,11 @@ CoCreateGuid
 Collision Bounds distances: flMinAxis=%f, Hmd=%f->%f, Controllers=%f->%f\n
 CommandBuffer[%u]
 CommandLineToArgvW
-CommitDynamicFloorHeight failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
-CommitDynamicFloorHeight failed. Not going to commit a floor with unset value.
-CommitDynamicFloorHeight is commiting an intial guess. Suspicious...
+CommitFloorHeight failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
+CommitPlayspaceCircleBoundary failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
+CommitPlayspaceCircleBoundary failed. Cannot query GetSetupStandingFromStanding
+CommitPlayspaceCircleBoundary failed. Invalid radius
+CommitPlayspacePerimeter failed. Too few perimeter points
 Committed chaperone working copy\n
 Completed
 ComposeLayerProjection: failed to submit view %u: %s\n
@@ -3411,6 +3420,7 @@ Ignoring user setting "forcedDriver": "%s" because %s\n
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
+ImageView%d[%d]
 ImageViewLOD%d
 Incorrect action type for input binding, input type %s, input mode %s, action type %d on path %s\n
 Incorrect input type for input binding, input type %s on path %s\n
@@ -3740,6 +3750,7 @@ Prop_DisplayMCOffset_Float
 Prop_DisplayMCScale_Float
 Prop_DisplayMCType_Int32
 Prop_DisplayMinAnalogGain_Float
+Prop_DisplayMinUIAnalogGain_Float
 Prop_DisplaySupportsAnalogGain_Bool
 Prop_DisplaySupportsMultipleFramerates_Bool
 Prop_DisplaySupportsRuntimeFramerateChange_Bool
@@ -3879,6 +3890,9 @@ QueryPerformanceFrequency
 QueryPerformanceMetricsCounterMETA was passed a known path but has no logic to handle it.
 QueryPerformanceMetricsCounterMETA was passed an unrecognized XrPath.
 QueryServiceConfigW
+QuickCalibratePlayspace %d\n
+QuickCalibratePlayspace %f %f %f
+QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
@@ -4130,6 +4144,7 @@ TRUE
 TdhEnumerateManifestProviderEvents
 Telling vrstartup that the system was already running.\n
 TerminateProcess
+Tessellation took %f.2ms\n
 TextureInfo
 TextureMsaaResolveRenderer
 The binding lock should have been locked in PreEndFrame prior to calling %s.
@@ -4357,6 +4372,7 @@ VK_EXT_global_priority
 VK_EXT_queue_family_foreign
 VK_EXT_validation_features
 VK_KHR_dedicated_allocation
+VK_KHR_external_fence_capabilities
 VK_KHR_external_memory
 VK_KHR_external_memory_capabilities
 VK_KHR_external_memory_win32
@@ -5567,6 +5583,8 @@ XR_TYPE_SPATIAL_GRAPH_NODE_BINDING_PROPERTIES_GET_INFO_MSFT
 XR_TYPE_SPATIAL_GRAPH_NODE_BINDING_PROPERTIES_MSFT
 XR_TYPE_SPATIAL_GRAPH_NODE_SPACE_CREATE_INFO_MSFT
 XR_TYPE_SPATIAL_GRAPH_STATIC_NODE_BINDING_CREATE_INFO_MSFT
+XR_TYPE_STATIONARY_REFERENCE_SPACE_ID_GET_INFO_EXT
+XR_TYPE_STATIONARY_REFERENCE_SPACE_ID_RESULT_EXT
 XR_TYPE_SWAPCHAIN_CREATE_INFO
 XR_TYPE_SWAPCHAIN_CREATE_INFO_FOVEATION_FB
 XR_TYPE_SWAPCHAIN_IMAGE_ACQUIRE_INFO
@@ -6033,6 +6051,7 @@ ZvFailed to create fence %ls.\n
 [xrRenderModel] failed to allocate xrRenderModelEXT
 [xrRenderModel] failed to initialize xrRenderModelAssetEXT
 [xrRenderModel] failed to initialize xrRenderModelEXT
+[xrRenderModel] invalid render model id
 [xrRenderModel] nodeStateCount was not equal to animatableNodeCount
 [xrRenderModel] parameter was nullptr
 [xrRenderModel] renderModelIdCountOutput was nullptr
@@ -6191,6 +6210,7 @@ alphaCutoff
 alphaMode
 alse
 alwaysActivate
+alwaysEnableSteamInput
 amdwvr
 amplitude
 animations
@@ -6935,6 +6955,7 @@ k_eControllerAxis_Trigger
 keyboard
 keyboard_vrwebui
 keylength >= 2^30
+khr_generic_controller
 khr_simple_controller
 knuckles
 ko_kr
@@ -7354,6 +7375,7 @@ settings
 settings/desktop
 setup_standing2
 setvbuf
+shaders/d3d11/distort_bounds_color_ps.fxo
 shaders/d3d11/distort_cs.fxo
 shaders/d3d11/distort_cs_mc.fxo
 shaders/d3d11/distort_geom_aa_circles_ps.fxo
@@ -7447,6 +7469,7 @@ shaders/d3d11/downsample_srgb_ps.fxo
 shaders/d3d11/downsample_vs.fxo
 shaders/d3d11/frame_hallucination_ps.fxo
 shaders/d3d11/frame_hallucination_vs.fxo
+shaders/d3d11/geom_bounds_color_vs.fxo
 shaders/d3d11/geom_curved_uvs_embedded_vs.fxo
 shaders/d3d11/geom_curved_vs.fxo
 shaders/d3d11/geom_drawregion_curved_uvs_embedded_vs.fxo
@@ -7518,6 +7541,7 @@ shaders/d3d11/unlit_motion_vectors_ps.fxo
 shaders/d3d11/unlit_ps.fxo
 shaders/d3d11/unlit_sint16_ps.fxo
 shaders/d3d11/unlit_vs.fxo
+shaders/vulkan/distort_bounds_color_ps.spv
 shaders/vulkan/distort_cs.spv
 shaders/vulkan/distort_cs_mc.spv
 shaders/vulkan/distort_geom_aa_circles_ps.spv
@@ -7611,6 +7635,7 @@ shaders/vulkan/downsample_srgb_ps.spv
 shaders/vulkan/downsample_vs.spv
 shaders/vulkan/frame_hallucination_ps.spv
 shaders/vulkan/frame_hallucination_vs.spv
+shaders/vulkan/geom_bounds_color_vs.spv
 shaders/vulkan/geom_curved_uvs_embedded_vs.spv
 shaders/vulkan/geom_curved_vs.spv
 shaders/vulkan/geom_drawregion_curved_uvs_embedded_vs.spv
@@ -7993,6 +8018,8 @@ unCallingProcessID
 unMyPID == data
 unProcessID
 unSamples == 1 && unArraySize >= 1
+unSizeInBytes <= pIndexBuffer->AsD3D11()->unSize
+unSizeInBytes <= pIndexBuffer->unSize
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
 unSizeInBytes <= pVertexBuffer->unSize
 unable to allocate vkBuffer-associated memory\n

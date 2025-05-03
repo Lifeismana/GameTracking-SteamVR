@@ -516,7 +516,6 @@ $0option $1;\n
 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
 ??1ios_base@std@@UAE@XZ
 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
-??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@G@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@I@Z
@@ -1143,7 +1142,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS!
+RSDSs
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
