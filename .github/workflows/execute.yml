@@ -33,7 +33,7 @@ jobs:
               env:
                 GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
             - name: Execute script
-              uses: docker://ghcr.io/lifeismana/gametracking-steamvr:latest
+              uses: docker://ghcr.io/lifeismana/gametracking-steamvr:manifesto
               env:
                 GIT_NAME: ${{ secrets.GIT_NAME }}
                 GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
