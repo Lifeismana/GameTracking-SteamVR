@@ -1,10 +1,10 @@
 Content Manifest for Depot 250827 
 
-Manifest ID / date     : 4159532569724364626 / 08/03/2024 05:20:54 
+Manifest ID / date     : 2190029673101935499 / 05/03/2025 22:40:41 
 Total number of files  : 249 
 Total number of chunks : 238 
-Total bytes on disk    : 4839854 
-Total bytes compressed : 3070624 
+Total bytes on disk    : 4832757 
+Total bytes compressed : 3070544 
 
 
           Size Chunks File SHA                                 Flags Name
@@ -26,94 +26,94 @@ Total bytes compressed : 3070624
              0      0 0000000000000000000000000000000000000000    40 drivers/htc/resources/icons
           1312      1 1c4b00c95e73fc8c28b5b1b3f7d00082982fa2a9     0 drivers/htc/resources/icons/base_status_error.b4bfb144.png
           3094      1 b2639d9e3576364b88516dfd4aace03ff0f11355     0 drivers/htc/resources/icons/base_status_error.png
-          3161      1 0b616149c698a56b441d1b347739c1c9341fa182     0 drivers/htc/resources/icons/base_status_error@2x.b4bfb144.png
-          3580      1 405fc37108ace8f5e72cb20ae2229aa80151a9cb     0 drivers/htc/resources/icons/base_status_error@2x.png
+          3161      1 0b616149c698a56b441d1b347739c1c9341fa182     0 drivers/htc/resources/icons/base_status_error_2x.b4bfb144.png
+          3580      1 405fc37108ace8f5e72cb20ae2229aa80151a9cb     0 drivers/htc/resources/icons/base_status_error_2x.png
            557      1 8bb797a0a34eabb2dae01543f4ec28728d9d6962     0 drivers/htc/resources/icons/base_status_off.6e6c89c9.png
           2738      1 caab26ba70398a3dbe3981a8d26270fb8ff9a8ab     0 drivers/htc/resources/icons/base_status_off.png
-           755      1 bdd6367f288f6a13a09e55c7c718ad9333d8a0a3     0 drivers/htc/resources/icons/base_status_off@2x.6e6c89c9.png
-          3991      1 562231e12af31e3826adb4820b50e1e8559cc686     0 drivers/htc/resources/icons/base_status_off@2x.png
+           755      1 bdd6367f288f6a13a09e55c7c718ad9333d8a0a3     0 drivers/htc/resources/icons/base_status_off_2x.6e6c89c9.png
+          3991      1 562231e12af31e3826adb4820b50e1e8559cc686     0 drivers/htc/resources/icons/base_status_off_2x.png
            903      1 9b4bd6177f6fc463d0e29de150e40c493fc99d62     0 drivers/htc/resources/icons/base_status_ready.b4bfb144.png
           2182      1 f9eef2c48009edb96acf288cee43a53c4777af40     0 drivers/htc/resources/icons/base_status_ready.png
-          2086      1 3ec31bbdd23da66557cf0af872821c822d8b8f63     0 drivers/htc/resources/icons/base_status_ready@2x.b4bfb144.png
-          2509      1 33c323ec19d9fe05dc021644fb6f235d9ee8a3db     0 drivers/htc/resources/icons/base_status_ready@2x.png
+          2086      1 3ec31bbdd23da66557cf0af872821c822d8b8f63     0 drivers/htc/resources/icons/base_status_ready_2x.b4bfb144.png
+          2509      1 33c323ec19d9fe05dc021644fb6f235d9ee8a3db     0 drivers/htc/resources/icons/base_status_ready_2x.png
           1280      1 bb7b937b604bc4a47acac62bee72f7ce2f12b4c9     0 drivers/htc/resources/icons/base_status_ready_alert.b4bfb144.png
           2827      1 d7f46241a84f11ff181fd84583d89c24cbc8550f     0 drivers/htc/resources/icons/base_status_ready_alert.png
-          3135      1 2d3a409d5fb6ef06c83c7ee04228571054f987d9     0 drivers/htc/resources/icons/base_status_ready_alert@2x.b4bfb144.png
-          3021      1 3185753b603c483170a1d8ba40456e535bfa5e52     0 drivers/htc/resources/icons/base_status_ready_alert@2x.png
+          3135      1 2d3a409d5fb6ef06c83c7ee04228571054f987d9     0 drivers/htc/resources/icons/base_status_ready_alert_2x.b4bfb144.png
+          3021      1 3185753b603c483170a1d8ba40456e535bfa5e52     0 drivers/htc/resources/icons/base_status_ready_alert_2x.png
          38563      1 1c56f6c48840bbef579f05e932b2fb4c5ca1358c     0 drivers/htc/resources/icons/base_status_searching.b4bfb144.gif
           4706      1 ccd49f07bff19f7e637ed61c5dd7c98bb9cd06cc     0 drivers/htc/resources/icons/base_status_searching.gif
-         73046      1 3a0f748775c483f19d465f117522826649ff0343     0 drivers/htc/resources/icons/base_status_searching@2x.b4bfb144.gif
-          7687      1 07e577e02e574e34fa9b4d2cc39001d0ccafe51f     0 drivers/htc/resources/icons/base_status_searching@2x.gif
+         73046      1 3a0f748775c483f19d465f117522826649ff0343     0 drivers/htc/resources/icons/base_status_searching_2x.b4bfb144.gif
+          7687      1 07e577e02e574e34fa9b4d2cc39001d0ccafe51f     0 drivers/htc/resources/icons/base_status_searching_2x.gif
          39951      1 3714835a9d06fab718509c7e8e445e3a7abbc097     0 drivers/htc/resources/icons/base_status_searching_alert.b4bfb144.gif
           7948      1 8d2774903a3a32e5ef6bdabf6bd784228bc1ce7d     0 drivers/htc/resources/icons/base_status_searching_alert.gif
-         78757      1 96d084b21b4845ab565ce03b80be4d1fa573fc2a     0 drivers/htc/resources/icons/base_status_searching_alert@2x.b4bfb144.gif
-         17179      1 d09a20befae372b1129a50c1f2e3699db2b13665     0 drivers/htc/resources/icons/base_status_searching_alert@2x.gif
+         78757      1 96d084b21b4845ab565ce03b80be4d1fa573fc2a     0 drivers/htc/resources/icons/base_status_searching_alert_2x.b4bfb144.gif
+         17179      1 d09a20befae372b1129a50c1f2e3699db2b13665     0 drivers/htc/resources/icons/base_status_searching_alert_2x.gif
           1107      1 3c98308662a00347421b4fa85658a8e8052cbcc3     0 drivers/htc/resources/icons/base_status_standby.b4bfb144.png
           2252      1 e727e9ba6a69d9828a2c32527f12b4cdefd4390b     0 drivers/htc/resources/icons/base_status_standby.png
-          2179      1 9635c3b3ffb2beb1c656cf7f97f50c2063b11f0f     0 drivers/htc/resources/icons/base_status_standby@2x.b4bfb144.png
-          2627      1 6a269e0d96884ba49544f65bdd0bd46191212dfb     0 drivers/htc/resources/icons/base_status_standby@2x.png
+          2179      1 9635c3b3ffb2beb1c656cf7f97f50c2063b11f0f     0 drivers/htc/resources/icons/base_status_standby_2x.b4bfb144.png
+          2627      1 6a269e0d96884ba49544f65bdd0bd46191212dfb     0 drivers/htc/resources/icons/base_status_standby_2x.png
           1922      1 7ec36b072f4cda5e61c51a1ec73e78c7a6ffb22a     0 drivers/htc/resources/icons/controller_status_error.b4bfb144.png
           4585      1 2970153bf93d050366468dce71e6b03d41204644     0 drivers/htc/resources/icons/controller_status_error.png
-          4267      1 58e7bb5871f38e488d6141a05499cfa215685d6a     0 drivers/htc/resources/icons/controller_status_error@2x.b4bfb144.png
-          5626      1 506e63174bd08add2f976bdb0b01e35499fbeb87     0 drivers/htc/resources/icons/controller_status_error@2x.png
+          4267      1 58e7bb5871f38e488d6141a05499cfa215685d6a     0 drivers/htc/resources/icons/controller_status_error_2x.b4bfb144.png
+          5626      1 506e63174bd08add2f976bdb0b01e35499fbeb87     0 drivers/htc/resources/icons/controller_status_error_2x.png
           1260      1 c6c65f2a109b3e32a9b711f01eea39dc83fb14de     0 drivers/htc/resources/icons/controller_status_off.6e6c89c9.png
           1527      1 69194d9a153d73ee92109e628c02c75b66876098     0 drivers/htc/resources/icons/controller_status_off.b4bfb144.png
           2877      1 e4c02a467a1bfd5452e553bacf96f97bde7282ce     0 drivers/htc/resources/icons/controller_status_off.png
-          2615      1 2d15ad27c4534b8b4cb16eed9be5a6f9029aad2b     0 drivers/htc/resources/icons/controller_status_off@2x.6e6c89c9.png
-          3077      1 fbf5a7175bed557d7859b1c944a104f92a0f5199     0 drivers/htc/resources/icons/controller_status_off@2x.b4bfb144.png
-          3452      1 52301899d7fa15f0b055f0076ced4a4e6039b6f5     0 drivers/htc/resources/icons/controller_status_off@2x.png
+          2615      1 2d15ad27c4534b8b4cb16eed9be5a6f9029aad2b     0 drivers/htc/resources/icons/controller_status_off_2x.6e6c89c9.png
+          3077      1 fbf5a7175bed557d7859b1c944a104f92a0f5199     0 drivers/htc/resources/icons/controller_status_off_2x.b4bfb144.png
+          3452      1 52301899d7fa15f0b055f0076ced4a4e6039b6f5     0 drivers/htc/resources/icons/controller_status_off_2x.png
           1585      1 063c6426a8ccbef42d40df28129e7ccbb80bd06f     0 drivers/htc/resources/icons/controller_status_ready.b4bfb144.png
           3054      1 7401c5f7758abd63c5dba0a07f75e99d40d18a63     0 drivers/htc/resources/icons/controller_status_ready.png
-          3345      1 1b401f9d9e2692e0b923effbba7cbebb1ead40d0     0 drivers/htc/resources/icons/controller_status_ready@2x.b4bfb144.png
-          3899      1 ba0985677961dfdacab685c055602163fc2af1d2     0 drivers/htc/resources/icons/controller_status_ready@2x.png
+          3345      1 1b401f9d9e2692e0b923effbba7cbebb1ead40d0     0 drivers/htc/resources/icons/controller_status_ready_2x.b4bfb144.png
+          3899      1 ba0985677961dfdacab685c055602163fc2af1d2     0 drivers/htc/resources/icons/controller_status_ready_2x.png
           1927      1 83f6a5e69c2fc510b4871f5ff169202644ff597a     0 drivers/htc/resources/icons/controller_status_ready_alert.b4bfb144.png
           4198      1 567c49c775e104afddeeea0d070989648cbfe9f9     0 drivers/htc/resources/icons/controller_status_ready_alert.png
-          4296      1 2e737f2987fff2b48b72a17ba6553329ac3d414a     0 drivers/htc/resources/icons/controller_status_ready_alert@2x.b4bfb144.png
-          4852      1 161aaf2680a2c00e0ce1eb43bf1e0fc160ebd7dd     0 drivers/htc/resources/icons/controller_status_ready_alert@2x.png
+          4296      1 2e737f2987fff2b48b72a17ba6553329ac3d414a     0 drivers/htc/resources/icons/controller_status_ready_alert_2x.b4bfb144.png
+          4852      1 161aaf2680a2c00e0ce1eb43bf1e0fc160ebd7dd     0 drivers/htc/resources/icons/controller_status_ready_alert_2x.png
           2002      1 b61d632a563bfaa402413447321afd21305d1d6a     0 drivers/htc/resources/icons/controller_status_ready_low.b4bfb144.png
           4394      1 61944d05baac78cd052df69cb369b87400357b65     0 drivers/htc/resources/icons/controller_status_ready_low.png
-          4463      1 0195981be183de22f5abf7871d8d1365b0b9f283     0 drivers/htc/resources/icons/controller_status_ready_low@2x.b4bfb144.png
-          5604      1 c855cea7c3c46805553e927f7ad913d9244d3d75     0 drivers/htc/resources/icons/controller_status_ready_low@2x.png
+          4463      1 0195981be183de22f5abf7871d8d1365b0b9f283     0 drivers/htc/resources/icons/controller_status_ready_low_2x.b4bfb144.png
+          5604      1 c855cea7c3c46805553e927f7ad913d9244d3d75     0 drivers/htc/resources/icons/controller_status_ready_low_2x.png
          36480      1 95e89be48c0a9c37cf3df41b9ad152d13c742d89     0 drivers/htc/resources/icons/controller_status_searching.b4bfb144.gif
          10466      1 39581fe4ec4b4f718f9ca1c508571f4b8c1ed6ca     0 drivers/htc/resources/icons/controller_status_searching.gif
-         61421      1 33b9a51131a08c2bbfa47be365d0b783bec4a4aa     0 drivers/htc/resources/icons/controller_status_searching@2x.b4bfb144.gif
-         20761      1 ad7a181c7447adac4020e7074834f923e537b74c     0 drivers/htc/resources/icons/controller_status_searching@2x.gif
+         61421      1 33b9a51131a08c2bbfa47be365d0b783bec4a4aa     0 drivers/htc/resources/icons/controller_status_searching_2x.b4bfb144.gif
+         20761      1 ad7a181c7447adac4020e7074834f923e537b74c     0 drivers/htc/resources/icons/controller_status_searching_2x.gif
          40638      1 9b3e942cf3b32d62e8d6a1b876389ee62740d314     0 drivers/htc/resources/icons/controller_status_searching_alert.b4bfb144.gif
          13006      1 c06483cfb27dd8c2d541d02d690c2230b6a90f5e     0 drivers/htc/resources/icons/controller_status_searching_alert.gif
-         73440      1 a28a955860c64e71a3392a3d404a25c0de1d1a53     0 drivers/htc/resources/icons/controller_status_searching_alert@2x.b4bfb144.gif
-         26591      1 0e6c969a3a56c45a8121819301fc9fb0292efb66     0 drivers/htc/resources/icons/controller_status_searching_alert@2x.gif
+         73440      1 a28a955860c64e71a3392a3d404a25c0de1d1a53     0 drivers/htc/resources/icons/controller_status_searching_alert_2x.b4bfb144.gif
+         26591      1 0e6c969a3a56c45a8121819301fc9fb0292efb66     0 drivers/htc/resources/icons/controller_status_searching_alert_2x.gif
           1942      1 168fc97dba28a170eaf34285237d0c71c0047f1b     0 drivers/htc/resources/icons/headset_status_error.b4bfb144.png
           3270      1 c1222593369f21d736fc8f20a318875d9a1731a8     0 drivers/htc/resources/icons/headset_status_error.png
-          4587      1 10be3331118ce3f905125a99829bbacac3d8e5b7     0 drivers/htc/resources/icons/headset_status_error@2x.b4bfb144.png
-          4636      1 3fa1873c0e9674244f385476c5287e58766d4028     0 drivers/htc/resources/icons/headset_status_error@2x.png
+          4587      1 10be3331118ce3f905125a99829bbacac3d8e5b7     0 drivers/htc/resources/icons/headset_status_error_2x.b4bfb144.png
+          4636      1 3fa1873c0e9674244f385476c5287e58766d4028     0 drivers/htc/resources/icons/headset_status_error_2x.png
            985      1 94e8c667f3e56ec105cec7c92e03c7131430dab2     0 drivers/htc/resources/icons/headset_status_off.6e6c89c9.png
           2813      1 3e8e36a4ee67c1e7960a063404ce4d87c5dc26cf     0 drivers/htc/resources/icons/headset_status_off.png
-          1784      1 a76a82beaba98ad8c6bab7685b69f9c0725f4eb3     0 drivers/htc/resources/icons/headset_status_off@2x.6e6c89c9.png
-          6899      1 b20a50d95f351397676ff6741e1cd7617a948804     0 drivers/htc/resources/icons/headset_status_off@2x.png
+          1784      1 a76a82beaba98ad8c6bab7685b69f9c0725f4eb3     0 drivers/htc/resources/icons/headset_status_off_2x.6e6c89c9.png
+          6899      1 b20a50d95f351397676ff6741e1cd7617a948804     0 drivers/htc/resources/icons/headset_status_off_2x.png
           1606      1 f4c4b410b54e39df82515abffb07d0544d9b5f66     0 drivers/htc/resources/icons/headset_status_ready.b4bfb144.png
           1737      1 36052c8c2cd7cc7f80542447d7fcac0a2c112250     0 drivers/htc/resources/icons/headset_status_ready.png
-          3901      1 51cfe28966498c7a8ddc75fadccd94d244887912     0 drivers/htc/resources/icons/headset_status_ready@2x.b4bfb144.png
-          3448      1 b928adfd6ae1e538d6d68513a5e8f40eec4b21a2     0 drivers/htc/resources/icons/headset_status_ready@2x.png
+          3901      1 51cfe28966498c7a8ddc75fadccd94d244887912     0 drivers/htc/resources/icons/headset_status_ready_2x.b4bfb144.png
+          3448      1 b928adfd6ae1e538d6d68513a5e8f40eec4b21a2     0 drivers/htc/resources/icons/headset_status_ready_2x.png
           1912      1 d23c29ceb2e74b00c94b38864ff6a6134c4b665c     0 drivers/htc/resources/icons/headset_status_ready_alert.b4bfb144.png
           3085      1 2546db18f65b35875784dd392b82220cb22b5028     0 drivers/htc/resources/icons/headset_status_ready_alert.png
-          4809      1 29d5dec2201be8c9f5fd06c2d211aa36bed97c48     0 drivers/htc/resources/icons/headset_status_ready_alert@2x.b4bfb144.png
-          4105      1 5ec4a0b097a8bcebf8441c538fdad4714c368da5     0 drivers/htc/resources/icons/headset_status_ready_alert@2x.png
+          4809      1 29d5dec2201be8c9f5fd06c2d211aa36bed97c48     0 drivers/htc/resources/icons/headset_status_ready_alert_2x.b4bfb144.png
+          4105      1 5ec4a0b097a8bcebf8441c538fdad4714c368da5     0 drivers/htc/resources/icons/headset_status_ready_alert_2x.png
          53676      1 90d89e9c56278f7b2714c3545db91ccb7b871abe     0 drivers/htc/resources/icons/headset_status_searching.b4bfb144.gif
           8422      1 c910e4a8abf03a3fb2aa5f250a115a7aca226506     0 drivers/htc/resources/icons/headset_status_searching.gif
-        127150      1 2a6e175e00247ab8de238206df581a04a9825fa5     0 drivers/htc/resources/icons/headset_status_searching@2x.b4bfb144.gif
-         24818      1 cfe2579ea751977366c7988107f4edd88fddd887     0 drivers/htc/resources/icons/headset_status_searching@2x.gif
+        127150      1 2a6e175e00247ab8de238206df581a04a9825fa5     0 drivers/htc/resources/icons/headset_status_searching_2x.b4bfb144.gif
+         24818      1 cfe2579ea751977366c7988107f4edd88fddd887     0 drivers/htc/resources/icons/headset_status_searching_2x.gif
          56259      1 0f4c08124d35556d70bf87c7a8be7ceda0ec76ed     0 drivers/htc/resources/icons/headset_status_searching_alert.b4bfb144.gif
          11289      1 a0b773935618e2ad789d86a45603154d5c879189     0 drivers/htc/resources/icons/headset_status_searching_alert.gif
-        130570      1 dea9bd027480bd66e5fb1d0d0d22d20388380d5b     0 drivers/htc/resources/icons/headset_status_searching_alert@2x.b4bfb144.gif
-         23833      1 a37ee969f55fabc9a70173c9cab34298f828bd42     0 drivers/htc/resources/icons/headset_status_searching_alert@2x.gif
+        130570      1 dea9bd027480bd66e5fb1d0d0d22d20388380d5b     0 drivers/htc/resources/icons/headset_status_searching_alert_2x.b4bfb144.gif
+         23833      1 a37ee969f55fabc9a70173c9cab34298f828bd42     0 drivers/htc/resources/icons/headset_status_searching_alert_2x.gif
           1392      1 970d75c055404dcd1974c7f2b4b594032ddf6de5     0 drivers/htc/resources/icons/headset_status_standby.b4bfb144.png
           2314      1 cb583d7a7a8ccc55fe78a4fe592092041482dac5     0 drivers/htc/resources/icons/headset_status_standby.png
-          4348      1 e8482ad8bde6bada762452c14ec140735bfda2f2     0 drivers/htc/resources/icons/headset_status_standby@2x.b4bfb144.png
-          4668      1 b7016268b6c1f2df1a78f52641187b07a20d9e6d     0 drivers/htc/resources/icons/headset_status_standby@2x.png
+          4348      1 e8482ad8bde6bada762452c14ec140735bfda2f2     0 drivers/htc/resources/icons/headset_status_standby_2x.b4bfb144.png
+          4668      1 b7016268b6c1f2df1a78f52641187b07a20d9e6d     0 drivers/htc/resources/icons/headset_status_standby_2x.png
           2090      1 3041edc05255050b8b855956911d4cde2aa77df7     0 drivers/htc/resources/icons/headset_status_standby_alert.b4bfb144.png
           3868      1 d7c99c3469990f3bd98be9f2b8df841155a422f5     0 drivers/htc/resources/icons/headset_status_standby_alert.png
-          4861      1 41ea7dd075356315713614fb3909b5e4610f980c     0 drivers/htc/resources/icons/headset_status_standby_alert@2x.b4bfb144.png
-          5061      1 30382f30501799b2f5fcadb9bb97adacdfcc3b37     0 drivers/htc/resources/icons/headset_status_standby_alert@2x.png
+          4861      1 41ea7dd075356315713614fb3909b5e4610f980c     0 drivers/htc/resources/icons/headset_status_standby_alert_2x.b4bfb144.png
+          5061      1 30382f30501799b2f5fcadb9bb97adacdfcc3b37     0 drivers/htc/resources/icons/headset_status_standby_alert_2x.png
           2238      1 ab93049009b976e5e0f621d89ce483dbf60d43dd     0 drivers/htc/resources/icons/other_status_error.png
           1290      1 d3b97f80939b1f763e992f3d95561c0de4d5eb23     0 drivers/htc/resources/icons/other_status_off.png
           1810      1 2f086136f09129e9837c2d7d82420ce7fda3f84d     0 drivers/htc/resources/icons/other_status_ready.png
@@ -124,72 +124,72 @@ Total bytes compressed : 3070624
           1385      1 18bbb2e5b9c3e9071a145e6fda5a17d210b4478e     0 drivers/htc/resources/icons/other_status_standby.png
           1642      1 88fa0412135ee6ae884dbf9abc92155cf38ebea9     0 drivers/htc/resources/icons/tracker_status_error.b4bfb144.png
           3542      1 d23fd6c7b4f4597a3549a13d74b53ea2243dfbb2     0 drivers/htc/resources/icons/tracker_status_error.png
-          3503      1 193a656e636f87bc90a04bfa266e980504f9dd9e     0 drivers/htc/resources/icons/tracker_status_error@2x.b4bfb144.png
-          5381      1 f2761a4059bc4700db3239bcbd80e4e5e694ee3b     0 drivers/htc/resources/icons/tracker_status_error@2x.png
+          3503      1 193a656e636f87bc90a04bfa266e980504f9dd9e     0 drivers/htc/resources/icons/tracker_status_error_2x.b4bfb144.png
+          5381      1 f2761a4059bc4700db3239bcbd80e4e5e694ee3b     0 drivers/htc/resources/icons/tracker_status_error_2x.png
            823      1 3c131dd89b29c8a0fcf0b29ee36e720359f687d9     0 drivers/htc/resources/icons/tracker_status_off.6e6c89c9.png
           3417      1 58f525822cffecade74929902447c3861f4c429e     0 drivers/htc/resources/icons/tracker_status_off.png
-          1397      1 7ccd89af31099422df9b8cf3e2c3158fd1c02596     0 drivers/htc/resources/icons/tracker_status_off@2x.6e6c89c9.png
-          2848      1 4a86fb0979a8f148cbf9cb88b3216eb3bd57479c     0 drivers/htc/resources/icons/tracker_status_off@2x.b4bfb144.png
-          5153      1 00bae10397e854fa27cd669fe626cb91f1108571     0 drivers/htc/resources/icons/tracker_status_off@2x.png
+          1397      1 7ccd89af31099422df9b8cf3e2c3158fd1c02596     0 drivers/htc/resources/icons/tracker_status_off_2x.6e6c89c9.png
+          2848      1 4a86fb0979a8f148cbf9cb88b3216eb3bd57479c     0 drivers/htc/resources/icons/tracker_status_off_2x.b4bfb144.png
+          5153      1 00bae10397e854fa27cd669fe626cb91f1108571     0 drivers/htc/resources/icons/tracker_status_off_2x.png
           1280      1 8eb28aa4b98ce1186f3ff62d5cd54aefec0b08da     0 drivers/htc/resources/icons/tracker_status_ready.b4bfb144.png
           1919      1 1fb37e0ca88e1d96c41a8f684ad9adabbd8bb13b     0 drivers/htc/resources/icons/tracker_status_ready.png
-          4439      1 b2ce1bc342f0560fe43594bbbe6bd59c6af7bc5e     0 drivers/htc/resources/icons/tracker_status_ready_alert.@2xpng.png
           1589      1 f06880d1deeec16ffccf9b55beadc70427272b77     0 drivers/htc/resources/icons/tracker_status_ready_alert.b4bfb144.png
           3350      1 a043524f8099e5ce6a7e9269f02b43a1fe0c3c97     0 drivers/htc/resources/icons/tracker_status_ready_alert.png
+          4439      1 b2ce1bc342f0560fe43594bbbe6bd59c6af7bc5e     0 drivers/htc/resources/icons/tracker_status_ready_alert._2xpng.png
           1715      1 0039323a84aa8518eba2463a532e904fd95f4165     0 drivers/htc/resources/icons/tracker_status_ready_low.b4bfb144.png
           3571      1 60689a21e78cfcd09a7ec987122e5ba6a2eb4675     0 drivers/htc/resources/icons/tracker_status_ready_low.png
-          3751      1 ae407f48f01b456dc2438d5d4509c1e5783aa244     0 drivers/htc/resources/icons/tracker_status_ready_low@2x.b4bfb144.png
-          5387      1 84f8ead9f46c83a5bac8499fdc75c89ce2f6f28b     0 drivers/htc/resources/icons/tracker_status_ready_low@2x.png
+          3751      1 ae407f48f01b456dc2438d5d4509c1e5783aa244     0 drivers/htc/resources/icons/tracker_status_ready_low_2x.b4bfb144.png
+          5387      1 84f8ead9f46c83a5bac8499fdc75c89ce2f6f28b     0 drivers/htc/resources/icons/tracker_status_ready_low_2x.png
          36566      1 a9ac1a790cb5c69d7a93c2f1048bb720e1dea55a     0 drivers/htc/resources/icons/tracker_status_searching.b4bfb144.gif
           7723      1 1003d4018c55d26922698c583f6605ab4e83c5fa     0 drivers/htc/resources/icons/tracker_status_searching.gif
-         65880      1 38bf153014e48d401814ade7569292c9221035cb     0 drivers/htc/resources/icons/tracker_status_searching@2x.b4bfb144.gif
-         13761      1 02102661f6a414f3692aa4cfddaedfe5a6a55e0e     0 drivers/htc/resources/icons/tracker_status_searching@2x.gif
+         65880      1 38bf153014e48d401814ade7569292c9221035cb     0 drivers/htc/resources/icons/tracker_status_searching_2x.b4bfb144.gif
+         13761      1 02102661f6a414f3692aa4cfddaedfe5a6a55e0e     0 drivers/htc/resources/icons/tracker_status_searching_2x.gif
          39993      1 d296345a01f7513b1fab06e44b4af3ec6569cb3e     0 drivers/htc/resources/icons/tracker_status_searching_alert.b4bfb144.gif
          10145      1 ced72844cb5e4b1455e4eba217508a084463e97e     0 drivers/htc/resources/icons/tracker_status_searching_alert.gif
-         75024      1 1af28fb77a7890012eea4f17081a0b53a30cce5d     0 drivers/htc/resources/icons/tracker_status_searching_alert@2x.b4bfb144.gif
-         20384      1 dece8313025bc991a9192fd1db3b4bdabdb96f53     0 drivers/htc/resources/icons/tracker_status_searching_alert@2x.gif
+         75024      1 1af28fb77a7890012eea4f17081a0b53a30cce5d     0 drivers/htc/resources/icons/tracker_status_searching_alert_2x.b4bfb144.gif
+         20384      1 dece8313025bc991a9192fd1db3b4bdabdb96f53     0 drivers/htc/resources/icons/tracker_status_searching_alert_2x.gif
           1629      1 68117762bdc30709fe7835d3b05fcfc59b26d018     0 drivers/htc/resources/icons/tracker_status_standby.b4bfb144.png
           3326      1 d9e0822579143f1054cc5dd00253b4ddf943526d     0 drivers/htc/resources/icons/tracker_status_standby.png
-          4784      1 d12903dabad90dc6aa6d6579de6259e56120e3aa     0 drivers/htc/resources/icons/tracker_status_standby@2x.png
+          4784      1 d12903dabad90dc6aa6d6579de6259e56120e3aa     0 drivers/htc/resources/icons/tracker_status_standby_2x.png
         129748      1 9171d0f6597c58aea4d713492db6e22720d3c3ac     0 drivers/htc/resources/icons/vivepro_hmd.svg
           2260      1 2ca4e45cb3e66e99ccd9d3d06bccc01f890f7b60     0 drivers/htc/resources/icons/vivepro_status_error.b4bfb144.png
           3651      1 ad8d21f99dd590ecf6e264b3736f85151bac3948     0 drivers/htc/resources/icons/vivepro_status_error.png
-          5550      1 d5e84173b294ddf10064fac0bb7e0a7022a86cea     0 drivers/htc/resources/icons/vivepro_status_error@2x.b4bfb144.png
-          5243      1 9dc23e8436244bcd9db310e2ba563327858168bb     0 drivers/htc/resources/icons/vivepro_status_error@2x.png
+          5550      1 d5e84173b294ddf10064fac0bb7e0a7022a86cea     0 drivers/htc/resources/icons/vivepro_status_error_2x.b4bfb144.png
+          5243      1 9dc23e8436244bcd9db310e2ba563327858168bb     0 drivers/htc/resources/icons/vivepro_status_error_2x.png
            975      1 3f614655b5921964816d86201da5637bf507e2ca     0 drivers/htc/resources/icons/vivepro_status_off.6e6c89c9.png
           4285      1 f0dedad916033f5b70bd50af137919054ae160e8     0 drivers/htc/resources/icons/vivepro_status_off.png
-          1676      1 42ac1044e2c70520f5351f4eba27ea8756d0bfb1     0 drivers/htc/resources/icons/vivepro_status_off@2x.6e6c89c9.png
-          7355      1 918733130e7d34e3e172a57416b0ed8142c5be67     0 drivers/htc/resources/icons/vivepro_status_off@2x.png
+          1676      1 42ac1044e2c70520f5351f4eba27ea8756d0bfb1     0 drivers/htc/resources/icons/vivepro_status_off_2x.6e6c89c9.png
+          7355      1 918733130e7d34e3e172a57416b0ed8142c5be67     0 drivers/htc/resources/icons/vivepro_status_off_2x.png
           1957      1 7baf172bc75f63ca98703d0398139908a19fc51e     0 drivers/htc/resources/icons/vivepro_status_ready.b4bfb144.png
           2146      1 63dc50f30aa0fad23c42bdcbfedd270b5d8f7337     0 drivers/htc/resources/icons/vivepro_status_ready.png
-          4614      1 01a62ae6157449cd705ac8449f994e51d478b47c     0 drivers/htc/resources/icons/vivepro_status_ready@2x.b4bfb144.png
-          2544      1 962e9fd1144c938a52ef0c13f9b54c76ff422496     0 drivers/htc/resources/icons/vivepro_status_ready@2x.png
+          4614      1 01a62ae6157449cd705ac8449f994e51d478b47c     0 drivers/htc/resources/icons/vivepro_status_ready_2x.b4bfb144.png
+          2544      1 962e9fd1144c938a52ef0c13f9b54c76ff422496     0 drivers/htc/resources/icons/vivepro_status_ready_2x.png
           2216      1 d83e20670a3397899fc6e9278336b3bdbc8e6106     0 drivers/htc/resources/icons/vivepro_status_ready_alert.b4bfb144.png
           3469      1 0151b3f4d5d7fdf6f19d45abaef370d517201190     0 drivers/htc/resources/icons/vivepro_status_ready_alert.png
-          5401      1 75e21c9928d5d868961e2400c464dd71583c5be3     0 drivers/htc/resources/icons/vivepro_status_ready_alert@2x.b4bfb144.png
-          4315      1 494ef366505df98b70db8080bff3158ccc1d8baf     0 drivers/htc/resources/icons/vivepro_status_ready_alert@2x.png
+          5401      1 75e21c9928d5d868961e2400c464dd71583c5be3     0 drivers/htc/resources/icons/vivepro_status_ready_alert_2x.b4bfb144.png
+          4315      1 494ef366505df98b70db8080bff3158ccc1d8baf     0 drivers/htc/resources/icons/vivepro_status_ready_alert_2x.png
          54889      1 b9507db55d002773113361dbd7d06bccd43a885b     0 drivers/htc/resources/icons/vivepro_status_searching.b4bfb144.gif
          10103      1 1d67af37ed2d068662bc9b54bcf51473a376bbde     0 drivers/htc/resources/icons/vivepro_status_searching.gif
-        128314      1 b270bc95c0da8cb9a692b324d7cf3adf9047fb30     0 drivers/htc/resources/icons/vivepro_status_searching@2x.b4bfb144.gif
-         20068      1 93156f08e5d17d61187a669cc4c58131a8e241ee     0 drivers/htc/resources/icons/vivepro_status_searching@2x.gif
+        128314      1 b270bc95c0da8cb9a692b324d7cf3adf9047fb30     0 drivers/htc/resources/icons/vivepro_status_searching_2x.b4bfb144.gif
+         20068      1 93156f08e5d17d61187a669cc4c58131a8e241ee     0 drivers/htc/resources/icons/vivepro_status_searching_2x.gif
          55905      1 4f50fd45db1346ab0afa3040e08aaec14af10544     0 drivers/htc/resources/icons/vivepro_status_searching_alert.b4bfb144.gif
          12836      1 bcd10f55fe0798be8ec2fc9ceea154d67ccaf537     0 drivers/htc/resources/icons/vivepro_status_searching_alert.gif
-        130485      1 95e4c45cc07c609bdf169b0c18f36d7d3b06cbc2     0 drivers/htc/resources/icons/vivepro_status_searching_alert@2x.b4bfb144.gif
-         26553      1 4bc4c132b5a3a670a44eeef7c5f3be4ff37d2778     0 drivers/htc/resources/icons/vivepro_status_searching_alert@2x.gif
+        130485      1 95e4c45cc07c609bdf169b0c18f36d7d3b06cbc2     0 drivers/htc/resources/icons/vivepro_status_searching_alert_2x.b4bfb144.gif
+         26553      1 4bc4c132b5a3a670a44eeef7c5f3be4ff37d2778     0 drivers/htc/resources/icons/vivepro_status_searching_alert_2x.gif
           1704      1 648c5985b9514eb73b3fe472d81722effe80df24     0 drivers/htc/resources/icons/vivepro_status_standby.b4bfb144.png
           3375      1 a36f69f6656cafed577ede05e270e9a85ffdb6c2     0 drivers/htc/resources/icons/vivepro_status_standby.png
-          3919      1 cf652d8fb2c26f1e6aa87cbff0c375d61fc9e476     0 drivers/htc/resources/icons/vivepro_status_standby@2x.b4bfb144.png
-          4375      1 62c35b7269deaeb44f3e680d6986c446a9aaaffe     0 drivers/htc/resources/icons/vivepro_status_standby@2x.png
+          3919      1 cf652d8fb2c26f1e6aa87cbff0c375d61fc9e476     0 drivers/htc/resources/icons/vivepro_status_standby_2x.b4bfb144.png
+          4375      1 62c35b7269deaeb44f3e680d6986c446a9aaaffe     0 drivers/htc/resources/icons/vivepro_status_standby_2x.png
         332216      1 f56a1133d6ebe249a5a246e345214e06b3700d25     0 drivers/htc/resources/icons/vive_hmd.svg
           6578      1 e195701d0297c96e0d66f97ac831874318d681a7     0 drivers/htc/resources/icons/vive_tracker.svg
           8332      1 717cc8c4658b31895b6ad6bd26be3b08e654edea     0 drivers/htc/resources/icons/vive_tracker_with_handle.svg
           4065      1 2621650ff2473b6534e495b56db2dd41ad2b1dbf     0 drivers/htc/resources/icons/vive_wand.svg
              0      0 0000000000000000000000000000000000000000    40 drivers/htc/resources/input
-          5428      1 daaf04b2bd0bcc5fe8f94af48fc6eb168952c56f     0 drivers/htc/resources/input/legacy_bindings_vive_controller.json
+          3718      1 85ec03cc72642570f0af9f2553beca1a143a976f     0 drivers/htc/resources/input/legacy_bindings_vive_controller.json
              0      0 0000000000000000000000000000000000000000    40 drivers/htc/resources/input/tracker
-          6344      1 fd6b8c62fcf692d9a353b14e7349042b21288875     0 drivers/htc/resources/input/tracker/legacy_bindings_vive_tracker_handed.json
-          7332      1 5d96ac0bd5d3f19f4f305eec054726c131097c71     0 drivers/htc/resources/input/tracker/legacy_bindings_vive_tracker_handed_pistol.json
-          6370      1 4f6161288903b1d9d19b10b7317863f908e7aefa     0 drivers/htc/resources/input/tracker/legacy_bindings_vive_tracker_handed_rotated.json
+          4348      1 29ffeb3a2360455fc632150dc6512ab6961a05a4     0 drivers/htc/resources/input/tracker/legacy_bindings_vive_tracker_handed.json
+          5034      1 8795be88e18680f17d093ff296aaf79523a54c4e     0 drivers/htc/resources/input/tracker/legacy_bindings_vive_tracker_handed_pistol.json
+          4374      1 8bcfe528a25662ab8b71b6f693512b4b6a486add     0 drivers/htc/resources/input/tracker/legacy_bindings_vive_tracker_handed_rotated.json
           2302      1 42277c5f2ccbc3db6162c9bbc6b97c6adac7f6a0     0 drivers/htc/resources/input/tracker/vive_tracker_camera_profile.json
           2341      1 dc770efc575e7f8a2d72de974944ac12a3c91d4c     0 drivers/htc/resources/input/tracker/vive_tracker_chest_profile.json
           3289      1 99bdd8bf9911e93c758e7af004cb41ec8c406f30     0 drivers/htc/resources/input/tracker/vive_tracker_handed_profile.json
@@ -208,7 +208,7 @@ Total bytes compressed : 3070624
           2307      1 ff98f7752ea55f2ae82d0be9d107dde966fac7f6     0 drivers/htc/resources/input/tracker/vive_tracker_right_wrist_profile.json
           2301      1 12990280d315444c02cd586d70f97453d66c5d8e     0 drivers/htc/resources/input/tracker/vive_tracker_waist_profile.json
           3447      1 2e35ded3fd6f706ee08fcdafdce24962455b1e6f     0 drivers/htc/resources/input/vive_controller_profile.json
-          2707      1 c999646717eb69a888e932362672e9dd8ccd064a     0 drivers/htc/resources/input/vive_controller_remapping.json
+          3610      1 39b00e9f5657c669022b3b0753adc6da156700d4     0 drivers/htc/resources/input/vive_controller_remapping.json
            671      1 4e5dcbf29291a9e71c6f102911391b30346ec06e     0 drivers/htc/resources/input/vive_profile.json
            822      1 08ec8aa95dd98c6c2873b774f04109527750632b     0 drivers/htc/resources/input/vive_pro_profile.json
           3860      1 4a70b1d289b309e9ed892c4a3ba7518759657846     0 drivers/htc/resources/input/vive_tracker_profile.json
