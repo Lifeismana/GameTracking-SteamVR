@@ -502,12 +502,12 @@ $d`D-laM
 1!1'1-191C1E1K1]1a1g1m1s1
 11M|
 14 (default)
-15:24:52
 1H@H
 1\v5#d
 1bS1
 2)252Y2]2c2k2o2u2w2{2
 2+ss
+20:07:55
 27;C
 2Ht\l
 2bT~
@@ -797,7 +797,6 @@ Ag*g*
 Any Extended Key Usage
 Any Purpose
 Any language
-Apr  1 2025
 Attempted to read payload of %d bytes from pipe but failed\n
 AuthANY
 AuthDSS
@@ -2000,6 +1999,7 @@ MakeStartableForAllUsers
 Management
 MapViewOfFile
 Mask Algorithm: 
+May  6 2025
 MessageBoxW
 Microsoft CSP Name
 Microsoft Commercial Code Signing
@@ -2514,7 +2514,7 @@ RSA_sign_ASN1_OCTET_STRING
 RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
-RSDSH
+RSDSx
 RaiseException
 Rbg.E
 ReadConsoleA
@@ -3585,14 +3585,14 @@ c2tnb239v2
 c2tnb239v3
 c2tnb359v1
 c2tnb431r1
-c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\valvepesignature.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_win64\build\src\vrservice\Retail\win64\2017\vrservice.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\valvepesignature.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrservice\Retail\win64\2017\vrservice.pdb
 cACertificate
 cNAMERecord
 cRLSign

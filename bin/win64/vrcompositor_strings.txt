@@ -20,6 +20,7 @@
  of the Protocol Buffer runtime library, but the installed version is 
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
 !! refusing to trigger minidump with debugger attached\n
+!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !1AQaq
 !AxU
 !params.m_vecSortedOverlays.empty()
@@ -892,17 +893,16 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
-15:24:52
 1A26b
 1e+9999
 1wsHp
+20:07:55
 214l5
 3333
 3333UUUU
 416.16
 52F*
 5I)7
-7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 7^d[L
 7~8A
 8c8f13b1-60eb-4b6a-a433-de86104115ac
@@ -1027,7 +1027,6 @@ Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 App info manager init failed (114)
 Application built with libpng-
-Apr  1 2025
 Assert( %s ) %s(%d)\n
 Async compositor and reprojection DISABLED!!!
 Asynchronous reprojection not supported - requires NVIDIA driver 372.54 or higher.\n
@@ -2320,6 +2319,7 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 Main
 MainThrd
 MapViewOfFile
+May  6 2025
 Mb@?UUU?
 MeasureGpuMegaPixelsPerSecond(%d): Returning %d MP/sec. Total CPU time %.2f seconds.\n
 MeasureGpuMegaPixelsPerSecond(): Error! Initialize() failed! Skipping GPU measurement.\n
@@ -2696,7 +2696,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSUBj
+RSDS
 R\npR
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
@@ -4380,37 +4380,37 @@ blue
 brazilian
 buffer error
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\drivermanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvr_internal.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\remoteperfstats.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrkeyboard.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystem.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.h
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcpipe.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadtools.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\panelmask.cpp
-c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\Retail\win64\2017\vrcompositor.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\framemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\geometry.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\lasermouse.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\rendererutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraph.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\simpledraw.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\drivermanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvr_internal.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\remoteperfstats.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrkeyboard.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystem.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystemlayersharedstate.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcpipe.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadtools.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\panelmask.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\Retail\win64\2017\vrcompositor.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\framemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\geometry.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\lasermouse.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\rendererutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\scenegraph.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\scenegraphrenderer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\simpledraw.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\standaloneoverlays.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\systemlayer.cpp
 cached.last.poseIsValid
 callout-transform
 camera

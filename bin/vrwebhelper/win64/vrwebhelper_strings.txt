@@ -576,9 +576,8 @@
 /user/wrist/left
 /user/wrist/right
 127.0.0.1
-15:24:52
 1e+9999
-4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+20:07:55
 5I)7
 7^d[L
 864498db9f12dd977766dc74abc56f198b39e2ce
@@ -670,6 +669,7 @@
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A"QT
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ACTIVE
 ADVAPI32.dll
 ASSERT: "%s" at %s:%d.\n
@@ -685,7 +685,6 @@ Alert
 Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 App info manager init failed (114)
-Apr  1 2025
 ArrayBuffer
 Assert( %s ) %s(%d)\n
 Attempt to init shared state %s twice
@@ -1077,6 +1076,7 @@ MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
 MapViewOfFile
+May  6 2025
 MessageBoxA
 Mirroring from %s to %ls\n
 Mirroring is same as source %s, not mirroring\n
@@ -1135,7 +1135,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QuitOpenVR
 QuitSceneApp
-RSDS
+RSDSE
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1964,17 +1964,17 @@ browser_size
 bulgarian
 button
 c++ NewPromise
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\computedsettings.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\Retail\win64\2017\vrwebhelper.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\cefclient_handler.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\cefexecuteprocess_handler.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_app.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\computedsettings.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\Retail\win64\2017\vrwebhelper.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\cefclient_handler.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\cefexecuteprocess_handler.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\vrwebhelper_app.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp
 cefMaxFrameRate
 cef_api_hash
 cef_browser_host_create_browser

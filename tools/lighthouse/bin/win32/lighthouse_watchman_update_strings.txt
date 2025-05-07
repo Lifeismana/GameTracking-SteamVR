@@ -45,6 +45,7 @@
 *5KS
 , IMU susp: 
 , VRC susp: 
+,s2F
 --force-update
 --hwid
 --multi
@@ -750,7 +751,7 @@ bad cast
 bad conversion
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win32\build\src\lighthouse_watchman_update\Retail\win32\2017\lighthouse_watchman_update.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\lighthouse_watchman_update\Retail\win32\2017\lighthouse_watchman_update.pdb
 calloc
 dQy/
 data error
