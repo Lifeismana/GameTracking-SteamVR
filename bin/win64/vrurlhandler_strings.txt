@@ -507,6 +507,7 @@ driver_defaults.vrsettings
 driver_holographic
 driver_lighthouse
 driver_null
+eG,v
 enable
 enableCameraSurfaces
 enableHomeApp

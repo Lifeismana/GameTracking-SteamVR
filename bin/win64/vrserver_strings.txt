@@ -1615,23 +1615,20 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899P
 0123456789ABCDEF
 0123456789abcdef
-04t(
-093@
-0L2@
-0i7@
-0j7@
-0k7@
-0s3@
-0v8@
+0R7@
+0Tw(
+0b7@
+0r8@
+0s8@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
+16:45:12
 1A26b
 1\f514
 1e+9999
@@ -1640,7 +1637,6 @@ $\n k_EProtoServiceTypeSteamMessages
 2).google.protobuf.FileOptions.OptimizeMode:
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
-20:07:55
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
 4\f54d
 52F*
@@ -1652,16 +1648,12 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-8P7@
-8Z7@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8s2@
-8x8@
-8z7@
+8t3@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1838,12 +1830,11 @@ ATI2
 AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY\n
 AUDIO: 
 AUDIO: %s
-AbortAppTransition
+Abort
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Aborting due to fatal assertion failure.
 Aborting kill all because master process %s reconnected\n
 Aborting kill all because master process %s restarted\n
-Aborting launch of '%s'\n
 Accept-Encoding
 Accepted
 Accessor
@@ -2329,6 +2320,7 @@ CheckTokenMembership
 Chord for %s had %d bindings, which we don't know how to deal with yet\n
 Cleaning up audio defaults\n
 Cleaning up launching app %u\n
+ClearAppTransition: Reason: %s. Was %s for '%s'\n
 ClearField
 Clearing starting app %u because it isn't running\n
 Client
@@ -2850,7 +2842,6 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
-HX7@
 Hang the server for the specified number of seconds (default 3600)
 HasField
 Hex and octal numbers must be integers.
@@ -2861,7 +2852,8 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HostController
 How did we get here with a non-position slot?
-Hy7@
+Ht3@
+Hx8@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3155,6 +3147,7 @@ Label
 Language
 LastKnown
 LaunchApplication
+LaunchApplication failed
 LaunchApplication_AlreadyRunning
 LaunchApplication_Failure
 Launching %s as %s
@@ -3254,7 +3247,7 @@ Main Thread
 MainThrd
 MapViewOfFile
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
-May  6 2025
+May  7 2025
 Mbp?{
 Message class "
 Message extensions cannot have required fields.
@@ -3342,7 +3335,6 @@ Not killing process %s because it is on the list to never kill\n
 Not killing process %s because neverKillProcesses is true\n
 Not loading driver %s because it is disabled in settings\n
 Not loading driver %s because it was blocked by a previous safe mode event\n
-Not starting SteamVR Home launch on %s exit because it was not the most recent scene app\n
 Not starting vrserver for background app (121)
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Notification_BasestationsTooFarApart
@@ -3395,7 +3387,6 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P4t(
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
@@ -3430,7 +3421,7 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-PW7@
+PTw(
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3441,6 +3432,7 @@ Path not found
 Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
+Pd7@
 Pe6^
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
@@ -3448,13 +3440,14 @@ Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
 Playback devices:\n
+Pn7@
+Po7@
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
 Positional emitter description not found.
 PowerOffTrackedDevice for %d - Could not find driver\n
 PowerOffTrackedDevice for %d\n
-Pq7@
-Pr7@
+Pp7@
 Precondition Failed
 Precondition Required
 PreviousURL
@@ -3468,6 +3461,8 @@ Process32First
 Process32Next
 ProcessConnected
 ProcessDisconnected
+ProcessDisconnected of m_pidLaunchingApp
+ProcessDisconnected/simple quit
 Processing
 Processing Message of type %s (%u bytes) from %s\n
 Processing message %s from %s took %0.3g seconds\n
@@ -3686,7 +3681,7 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
-Ps2@
+Pz8@
 QkkXa
 Qkkbal
 Query failed
@@ -3710,8 +3705,8 @@ R1h58
 RGBG
 RPCRT4.dll
 RSDS
-R\np0
-R\vp0
+R\npP
+R\vpP
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3997,6 +3992,8 @@ StartSceneApplicationTransitionFromProcess BEGIN
 StartSceneApplicationTransitionFromProcess END
 StartSceneApplicationTransitionFromProcess with an invalid eTransitionState\n
 StartSceneApplicationTransitionFromProcess( %u, %s, %s)\n
+StartSceneApplicationTransitionFromProcess/NewAppLaunched
+StartSceneApplicationTransitionFromProcess/WaitingForExternalLaunch
 StartService failed: %s
 StartServiceA
 Started auto launch dashboard %s.\n
@@ -5113,62 +5110,11 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X08@
-X18@
-X28@
-X38@
-X48@
-X58@
-X68@
-X78@
-X88@
-X98@
-XA8@
-XB8@
-XC8@
-XD8@
-XE8@
-XF8@
-XG8@
-XH8@
-XI8@
-XJ8@
-XK8@
-XL8@
-XM8@
-XN8@
-XO8@
-XP8@
-XQ8@
-XR8@
-XS8@
-XT8@
-XU8@
-XV7@
-XV8@
-XW8@
-XX8@
 XXXX PNG chunk not known
-XY8@
-XZ8@
-Xa8@
-Xb8@
-Xc8@
-Xd8@
-Xe8@
-Xf8@
-Xg8@
-Xh8@
-Xi8@
-Xj8@
-Xk8@
-Xs3@
-Xs7@
+Xm8@
+Xq7@
 XsBI
-Xt7@
-Xu7@
-Xv7@
-Xw7@
+Xt3@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -5510,7 +5456,7 @@ Zjz\v
 \U%08x
 \b\d+\b\s*$
 \fUk#pb
-\fp4t(
+\fpTw(
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -5564,7 +5510,6 @@ Zjz\v
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \rmj>zjZ
-\rp\f`\v0\nP|s(
 \t%s%s,%u,%s,%s,VID_%04X/PID_%04X,%s,%s\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -6224,7 +6169,6 @@ external transition
 external_drivers
 extras
 eyetracking
-f?/sA
 f?IVRControllerComponent_001
 fP~V
 failIfExtra
@@ -6341,8 +6285,8 @@ grip_limit_transforms
 group
 guid
 gzip
+hK6@
 hPU3
-hT7@
 half_thresholds
 hand_priority
 hand_right_poses.glb
@@ -6354,7 +6298,6 @@ haptic_amplitude
 haptics
 has_click
 has_touch
-he7@
 header
 header crc mismatch
 height
@@ -6958,11 +6901,8 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p4t(
 pBegin == pEnd
 pEnd > pBegin
-pL7@
-pM7@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
@@ -6970,10 +6910,11 @@ pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
-pS7@
 pSharedState != nullptr
+pTw(
 pUrl != nullptr
 pWebSocketMessage
+pZ7@
 package
 packed
 param1
@@ -6991,11 +6932,11 @@ path_handles
 paths
 payload
 pbrMetallicRoughness
-pd7@
 pending_file_saved
 perfcheck
 personal
 perspective
+pg7@
 pico_controller
 pinch
 pinchgrab
@@ -7058,7 +6999,6 @@ property_containers
 property_contents
 property_number
 proximity
-ps3@
 pt_br
 pt_pt
 public
@@ -7067,7 +7007,9 @@ publishedfileid
 pull
 punct
 putchar
+px8@
 py_generic_services
+pz7@
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
 quarter_thresholds
@@ -7625,12 +7567,11 @@ ws handshake error
 wss:
 x-steamvr-secret
 x93@
-xR7@
+xY7@
 x_path
 xdigit
-xl7@
 xmag
-xy8@
+xo8@
 y9*O
 y_path
 yfov

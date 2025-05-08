@@ -746,6 +746,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
+16:45:12
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -1204,7 +1205,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1setDataScaleType(QCPAxis::ScaleType)
 1setGradient(QCPColorGradient)
 1updateStyle()
-20:07:55
 2DoInit()
 2DoShutdown()
 2PlaybackVolumeGainStatus( bool )
@@ -4887,7 +4887,7 @@ Manufacturer:
 Manufacturer: 
 Manufacturer: %1\n
 MapViewOfFile
-May  6 2025
+May  7 2025
 MbP?
 MenuAction_AboutQt
 MenuAction_About_vrmonitor
@@ -6078,7 +6078,7 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS&1L
+RSDSc2
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
 R\vpt

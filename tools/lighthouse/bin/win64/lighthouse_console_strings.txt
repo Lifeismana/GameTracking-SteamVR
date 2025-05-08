@@ -1145,7 +1145,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDSh)UL
+RSDSa@?>jX3L
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):

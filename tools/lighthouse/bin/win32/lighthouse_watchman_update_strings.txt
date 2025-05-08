@@ -45,7 +45,6 @@
 *5KS
 , IMU susp: 
 , VRC susp: 
-,s2F
 --force-update
 --hwid
 --multi
@@ -549,7 +548,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS
+RSDS@w 
 Radio version:      
 RaiseException
 ReadFile

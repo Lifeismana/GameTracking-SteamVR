@@ -893,10 +893,10 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
+16:45:12
 1A26b
 1e+9999
 1wsHp
-20:07:55
 214l5
 3333
 3333UUUU
@@ -2319,7 +2319,7 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 Main
 MainThrd
 MapViewOfFile
-May  6 2025
+May  7 2025
 Mb@?UUU?
 MeasureGpuMegaPixelsPerSecond(%d): Returning %d MP/sec. Total CPU time %.2f seconds.\n
 MeasureGpuMegaPixelsPerSecond(): Error! Initialize() failed! Skipping GPU measurement.\n
