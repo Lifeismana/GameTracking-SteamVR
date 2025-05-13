@@ -247,6 +247,7 @@ OutputDebugStringW
 PICT
 PID_%04X
 PNG\r\n
+PSVA
 PauseCamera (delayed...)\n
 PauseCamera (immediate)\n
 PauseCamera\n

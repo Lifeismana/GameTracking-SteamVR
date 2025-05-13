@@ -88,7 +88,7 @@ OLEAUT32.dll
 PathCchAppend
 PathRemoveFileSpecW
 QueryPerformanceCounter
-RSDSv3?k
+RSDS
 ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -174,5 +174,4 @@ pFwRules->Add( pRule ) failed: 0x%08lx\n
 string too long
 strstr
 terminate
-u<U0n
 vector<T> too long

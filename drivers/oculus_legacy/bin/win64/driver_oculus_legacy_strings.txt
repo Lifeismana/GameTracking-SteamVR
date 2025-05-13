@@ -229,6 +229,7 @@ d3d11.dll
 dk2_camera
 driver_oculus_legacy.dll
 free
+fs#h
 getenv
 headset
 malloc

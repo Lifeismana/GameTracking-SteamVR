@@ -911,13 +911,13 @@ $4DTdt
 00003333
 0123456789ABCDEF
 0123456789ABCDEFundefined
-0\rPRP
+09:26:59
+0\rP2Q
 0x%02x 
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
 123456789
-15:22:21
 1A26b
 1e+9999
 1wsHp
@@ -2350,7 +2350,7 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 Main
 MainThrd
 MapViewOfFile
-May  3 2025
+May 13 2025
 Mb@?UUU?fff?
 MeasureGpuMegaPixelsPerSecond(%d): Returning %d MP/sec. Total CPU time %.2f seconds.\n
 MeasureGpuMegaPixelsPerSecond(): Error! Initialize() failed! Skipping GPU measurement.\n
@@ -2729,10 +2729,10 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSF
-R\fp\v`\n0RP
-R\npRP
-R\rp\f`\v0RP
+RSDSv
+R\fp\v`\n02Q
+R\np2Q
+R\rp\f`\v02Q
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -4193,7 +4193,7 @@ Zjz\v
 [h1R
 [libprotobuf %s %s:%d] %s\n
 [no zlib message]
-\fpRP
+\fp2Q
 \gpuvis.exe
 \mfpmp.exe
 \nbad png sig
@@ -4202,7 +4202,7 @@ Zjz\v
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \vCreating systemlayer textures (w=%d,h=%d)\n
-\vpRP
+\vp2Q
 \vrcompositor.exe
 ]CGraphicsDevice::AcquireSync
 ^oEZ_
@@ -4297,8 +4297,8 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
-`\r0\fPRP
-`\rP\f0RP
+`\r0\fP2Q
+`\rP\f02Q
 `anonymous-namespace'::ImportTextureFromSharedHandle
 abort
 acceleration-factor-scale-term
@@ -4850,6 +4850,7 @@ keyboard_vrwebui
 keylength >= 2^30
 ko_kr
 koreana
+kt#h
 l6qnk
 lDa>
 laserMouseDebugging
@@ -5047,8 +5048,8 @@ pSharedState != nullptr
 pSystemLayerState
 pTexture != nullptr
 pTileFloorLightmap != nullptr
-p\r`\f0RP
-p\r`\f0\vPRP
+p\r`\f02Q
+p\r`\f0\vP2Q
 panel
 panel-anchor
 panelMask
@@ -5178,6 +5179,7 @@ schinese
 screenshot_all_request
 screenshot_request
 scrollable
+seated_and_standing_position_reset
 seated_position_reset
 seconds
 sendPerfStats

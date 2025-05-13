@@ -127,7 +127,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-15:22:21
+09:26:59
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -339,7 +339,7 @@ Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 MSVCP140.dll
 MainThrd
-May  3 2025
+May 13 2025
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
@@ -357,7 +357,7 @@ Out of thread local storage!\n
 OutputDebugStringA
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSm
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey

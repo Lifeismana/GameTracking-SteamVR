@@ -2623,12 +2623,46 @@ div.BindingCalloutModifierIcon
 
 .ProgressContainer
 {
-	height: 508px;
-	width: 508px;
-	color: "white";
+	--outer-size: 256px;
+	--icon-size: 72px;
+	--default-scale: 0.60;
+	--throb-max-scale: 0.65;
+	height: calc(var(--outer-size));
+	width: calc(var(--outer-size));
+	color: white;
 	opacity: 0.8;
 	display: flex;
 	position: relative;
+}
+
+@keyframes halothrob
+{
+	0% {
+		transform: scale(0.8);
+	}
+	50% {
+		transform: scale(1.0);
+	}
+	100% {
+		transform: scale(0.8);
+	}
+}
+
+.ProgressContainer.Throb::before {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	border-radius: 50%;
+	background: radial-gradient(circle, 
+	rgb(255, 255, 255, 1.0) 30%, 
+	rgb(255, 255, 255, 0.0) 75%);
+
+	z-index: 0;
+	animation: halothrob 0.5s infinite ease-in-out;
+	pointer-events: none;
 }
 
 .ProgressContainer .CircularProgressbar
@@ -2638,24 +2672,44 @@ div.BindingCalloutModifierIcon
 	bottom: 0;
 	left: 0;
 	right: 0;
+	transform: scale(var(--default-scale));
 }
 
 .ProgressContainer .ProgressIcon
 {
-	width: 255px;
-	height: 255px;
+	width: var(--icon-size);
+	height: var(--icon-size);
 	margin: auto;
 	z-index: 10;
 }
 
 .ProgressContainer .SVGIcon_Button
 {
-	width: 255px;
-	height: 255px;
+	width: var(--icon-size);
+	height: var(--icon-size);
 	margin: auto;
 	z-index: 10;
 }
 
+@keyframes progressthrob
+{
+	0% {
+		transform: scale(var(--default-scale));
+	}
+	50% {
+		transform: scale(var(--throb-max-scale));
+	}
+	100% {
+		transform: scale(var(--default-scale));
+	}
+}
+
+.Throb .CircularProgressbar
+{
+	animation: progressthrob 0.5s infinite ease-in-out;
+	transform-box: fill-box;
+	transform-origin: center;
+}
 
 .Construct .GroupName
 {

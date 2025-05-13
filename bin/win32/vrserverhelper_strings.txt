@@ -85,8 +85,7 @@ OLEAUT32.dll
 PathCchAppend
 PathRemoveFileSpecW
 QueryPerformanceCounter
-R3HwA
-RSDS\r4
+RSDS
 ResetEvent
 SHLWAPI.dll
 SetEvent

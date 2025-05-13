@@ -2439,6 +2439,7 @@ $3br
 15CVRSettings_001
 15CVRSettings_002
 15CVRSystemLatest
+16:27:19
 16CHmdSystemLatest
 16CInputFilterBase
 16CPathManagerBase
@@ -2582,7 +2583,6 @@ $3br
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:22:38
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -3302,8 +3302,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1181.232812
-C.1899.373334
-C.1900.373345
+C.1899.373336
+C.1900.373347
 C.73.341431
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -22814,7 +22814,7 @@ MaterialUtf8FileReader::~MaterialUtf8FileReader()
 Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
-May  3 2025
+May 13 2025
 Member "action_sets" exists, but is not an array
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) (.cold)
@@ -28607,6 +28607,7 @@ long
 long double
 long long
 long_press_delay
+long_press_expiry
 loop
 lower
 lseek64

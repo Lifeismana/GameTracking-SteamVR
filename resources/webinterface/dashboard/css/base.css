@@ -422,16 +422,6 @@ vsg-app:not(.ShowDebugPointer) .DebugPointer {
 	display: none;
 }
 
-/* Fidelity utils */
-
-.NoAnimations *,
-.NoAnimations *::before,
-.NoAnimations *::after
-{
-	transition: none !important;
-	animation-duration: 0s !important;
-}
-
 /* Base text */
 
 .Label

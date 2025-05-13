@@ -3937,7 +3937,7 @@
             }),
           );
         },
-        Q = (e) => {
+        J = (e) => {
           const [t, n] = c.useState(1);
           return c.createElement(
             c.Fragment,
@@ -3955,7 +3955,7 @@
             }),
           );
         },
-        J = (0, l.Pi)(() => {
+        Q = (0, l.Pi)(() => {
           const e = "settingscontrolzoo",
             t = S.G3.routePageSection == e;
           return c.createElement(
@@ -3984,7 +3984,7 @@
                 c.createElement("hr", null),
                 c.createElement($, null),
                 c.createElement("hr", null),
-                c.createElement(Q, null),
+                c.createElement(J, null),
               ),
           );
         });
@@ -4230,17 +4230,12 @@
                   label: "Force Welcome in Quicklaunch",
                   name: "/settings/dashboard/forceWelcomeScreen",
                 }),
-                c.createElement(_.wy, {
-                  name: h.BW,
-                  swapOnOff: !0,
-                  label: (0, m.Xx)("#Settings_Animations"),
-                }),
                 !1,
                 !1,
                 c.createElement(Y, null),
                 c.createElement(K, null),
                 c.createElement(j, null),
-                c.createElement(J, null),
+                c.createElement(Q, null),
                 this.makeResetToDefaultButton(),
               ))
             : null;
@@ -5061,7 +5056,6 @@
           super(e),
             (this.m_refSettingsPageContainer = c.createRef()),
             (this.m_routeObservingAutorunDisposer = null),
-            (this.m_fidelitySettingsObserver = null),
             (this.state = { sActiveSettingSection: null });
         }
         componentDidMount() {
@@ -5073,7 +5067,6 @@
                     .controller,
                 );
           })),
-            (this.m_fidelitySettingsObserver = new g.kB()),
             this.ListenForHomeEnabledChanges();
         }
         componentDidUpdate(e, t) {
@@ -5082,15 +5075,11 @@
             (this.m_refSettingsPageContainer.current.scrollTop = 0);
         }
         componentWillUnmount() {
-          var e, t;
+          var e;
           null === (e = this.m_routeObservingAutorunDisposer) ||
             void 0 === e ||
             e.call(this),
-            (this.m_routeObservingAutorunDisposer = null),
-            null === (t = this.m_fidelitySettingsObserver) ||
-              void 0 === t ||
-              t.cleanup(),
-            (this.m_fidelitySettingsObserver = null);
+            (this.m_routeObservingAutorunDisposer = null);
         }
         render() {
           const e = !S.G3.connected || !S.G3.settingsSchema;
@@ -9495,7 +9484,7 @@
         tS: () => r.tS,
         Nv: () => i.N,
         A4: () => Y,
-        CH: () => J,
+        CH: () => Q,
         pL: () => oe,
         iN: () => E.iN,
         XN: () => d,
@@ -9542,7 +9531,7 @@
         UU: () => r.UU,
         Nz: () => r.Nz,
         sO: () => te,
-        jm: () => Q,
+        jm: () => J,
         bt: () => X,
         JR: () => r.JR,
         LY: () => r.LY,
@@ -10803,7 +10792,7 @@
           );
         }
       }
-      class Q extends (/^(446|627|929)$/.test(n.j) ? l.Mo : null) {
+      class J extends (/^(446|627|929)$/.test(n.j) ? l.Mo : null) {
         constructor(e) {
           super(e);
         }
@@ -11132,8 +11121,10 @@
             "VendorSpecific_Reserved_Start"),
           (e[(e.VendorSpecific_Reserved_End = 10999)] =
             "VendorSpecific_Reserved_End"),
-          (e[(e.SupportsInHMDRoomSetup_Int32 = 11003)] =
-            "SupportsInHMDRoomSetup_Int32"),
+          (e[(e.SupportsInHMDRoomSetup_Bool = 11003)] =
+            "SupportsInHMDRoomSetup_Bool"),
+          (e[(e.VRLinkClientHMDSupportsRoomSetupRequests_Bool = 11004)] =
+            "VRLinkClientHMDSupportsRoomSetupRequests_Bool"),
           (e[(e.TrackedDeviceProperty_Max = 1e6)] =
             "TrackedDeviceProperty_Max");
       })(b || (b = {})),
@@ -11209,7 +11200,7 @@
             (e[(e.SmoothStep = 3)] = "SmoothStep"),
             (e[(e.SmootherStep = 4)] = "SmootherStep");
         })(B || (B = {}));
-      class J extends T.Component {
+      class Q extends T.Component {
         constructor(e) {
           super(e);
           let t = {};
@@ -14760,43 +14751,41 @@
       n.d(t, {
         A4: () => y,
         AC: () => E,
-        Av: () => re,
+        Av: () => ne,
         Az: () => v,
-        BW: () => ee,
         BZ: () => B,
-        CS: () => J,
+        CS: () => Q,
         EL: () => W,
-        Ek: () => te,
         F$: () => x,
-        FM: () => oe,
+        FM: () => re,
         GN: () => _,
         I8: () => s,
-        J9: () => me,
+        J9: () => ue,
         MI: () => l,
-        MJ: () => Se,
-        ML: () => _e,
+        MJ: () => me,
+        ML: () => ge,
         MZ: () => R,
-        Ml: () => ve,
-        N9: () => ue,
-        Ob: () => Q,
+        Ml: () => Se,
+        N9: () => de,
+        Ob: () => J,
         PF: () => d,
         Pt: () => I,
         Pv: () => r,
         Qg: () => L,
-        R3: () => pe,
+        R3: () => ce,
         RD: () => z,
         RM: () => f,
         T2: () => M,
         Us: () => m,
         Vq: () => S,
         W4: () => o,
-        WF: () => de,
+        WF: () => le,
         Xl: () => T,
-        YJ: () => le,
-        YL: () => ce,
+        YJ: () => oe,
+        YL: () => ae,
         ZN: () => P,
         aT: () => H,
-        bU: () => ge,
+        bU: () => he,
         bp: () => X,
         bt: () => N,
         dG: () => O,
@@ -14804,7 +14793,7 @@
         f$: () => F,
         f8: () => C,
         fY: () => j,
-        fj: () => se,
+        fj: () => ie,
         gB: () => p,
         gC: () => b,
         hK: () => i,
@@ -14812,7 +14801,7 @@
         je: () => V,
         jw: () => k,
         k3: () => u,
-        k_: () => ie,
+        k_: () => te,
         ml: () => D,
         nf: () => K,
         o1: () => $,
@@ -14822,11 +14811,11 @@
         r4: () => g,
         rT: () => Y,
         rl: () => A,
-        ro: () => he,
+        ro: () => pe,
         wX: () => w,
-        wc: () => ae,
+        wc: () => se,
         y3: () => Z,
-        yQ: () => ne,
+        yQ: () => ee,
         zL: () => q,
       });
       const i = "openvr.tool.steamvr_environments",
@@ -14877,28 +14866,26 @@
         K = "/settings/dashboard/lastAccessedExternalOverlayKey",
         Z = "/settings/internal/dashboardInitialOverlay",
         $ = "/settings/dashboard/position_2",
-        Q = "/settings/dashboard/theaterCurvature",
-        J = "/settings/dashboard/theaterScreenSize",
+        J = "/settings/dashboard/theaterCurvature",
+        Q = "/settings/dashboard/theaterScreenSize",
         Y = "/settings/dashboard/theaterScreenAlignment",
-        ee = "/settings/dashboard/disableAnimations",
-        te = "/settings/steamvr/overlayRenderQuality_2",
-        ne = "/settings/collisionBounds/CollisionBoundsFadeDistance",
-        ie = "/settings/camera/roomView",
-        re = "/settings/camera/enableCamera",
-        se = "/settings/dashboard/enableWindowView",
-        oe = "/settings/dashboard/maxInlineTabs",
-        ae = "/settings/steamvr/maxRecommendedResolution",
-        le = "/settings/steamvr/disableKeyboardPrivacy",
-        ce = "/settings/dashboard/allowLegacyQuickLaunch",
-        de = "/settings/openxr/metaUnityPluginCompatibility",
-        pe = "/settings/input/overlayFilteringEnabled",
-        ue = "/settings/input/overlayFilteringMinCutoff",
-        he = "/settings/input/overlayFilteringBeta",
-        me = "/settings/input/overlayFilteringDerivCutoff",
-        ge = "/settings/input/overlayMagnetismEnabled",
-        Se = "/settings/input/overlayMagnetismLockDistance",
-        _e = "/settings/input/overlayMagnetismDeadZone",
-        ve = "binding_callouts/main";
+        ee = "/settings/collisionBounds/CollisionBoundsFadeDistance",
+        te = "/settings/camera/roomView",
+        ne = "/settings/camera/enableCamera",
+        ie = "/settings/dashboard/enableWindowView",
+        re = "/settings/dashboard/maxInlineTabs",
+        se = "/settings/steamvr/maxRecommendedResolution",
+        oe = "/settings/steamvr/disableKeyboardPrivacy",
+        ae = "/settings/dashboard/allowLegacyQuickLaunch",
+        le = "/settings/openxr/metaUnityPluginCompatibility",
+        ce = "/settings/input/overlayFilteringEnabled",
+        de = "/settings/input/overlayFilteringMinCutoff",
+        pe = "/settings/input/overlayFilteringBeta",
+        ue = "/settings/input/overlayFilteringDerivCutoff",
+        he = "/settings/input/overlayMagnetismEnabled",
+        me = "/settings/input/overlayMagnetismLockDistance",
+        ge = "/settings/input/overlayMagnetismDeadZone",
+        Se = "binding_callouts/main";
     },
     5211: (e, t, n) => {
       n.d(t, {
@@ -19318,21 +19305,17 @@
     },
     8980: (e, t, n) => {
       n.d(t, {
-        Fc: () => d,
-        LJ: () => p,
-        aB: () => g,
-        cB: () => h,
-        gZ: () => u,
-        kB: () => m,
+        Fc: () => a,
+        LJ: () => l,
+        aB: () => p,
+        cB: () => d,
+        gZ: () => c,
       });
       var i = n(655),
         r = n(7294),
         s = n(7056),
-        o = n(2188),
-        a = n(1628),
-        l = n(7176),
-        c = n(5876);
-      function d(e) {
+        o = n(2188);
+      function a(e) {
         let t = window.location.search.substring(1).split("&");
         for (let n = 0; n < t.length; n++) {
           let i = t[n].split("=");
@@ -19341,19 +19324,19 @@
         }
         return "";
       }
-      function p(...e) {
+      function l(...e) {
         return e
           .filter((e) => null != e && ("string" == typeof e || e[1]))
           .map((e) => ("string" == typeof e ? e : e[0]))
           .join(" ");
       }
-      function u(e, t) {
+      function c(e, t) {
         let n = t;
         for (; n.parentElement && !e.some((e) => n.matches(e)); )
           n = n.parentElement;
         return n;
       }
-      class h {
+      class d {
         constructor() {
           (this.onScroll = null),
             (this.onScrollStop = null),
@@ -19415,75 +19398,7 @@
             (this.m_bScrolling = !1);
         }
       }
-      (0, i.gn)([o.LO], h.prototype, "m_bScrolling", void 0),
-        (0, i.gn)([s.ZP], h.prototype, "ref", null),
-        (0, i.gn)([o.Fl], h.prototype, "isScrolling", null),
-        (0, i.gn)([s.ZP], h.prototype, "onParentScroll", null),
-        (0, i.gn)([s.ZP], h.prototype, "onScrollStopTimeout", null);
-      class m {
-        constructor() {
-          (this.m_settingsSchemaPromiseCancel = null),
-            (this.m_autorunDisposer = null),
-            this.start();
-        }
-        start() {
-          return (0, i.mG)(this, void 0, void 0, function* () {
-            const [e, t] = (function (e) {
-              let t = !1;
-              return [
-                new Promise((n, i) => {
-                  e.then((e) => (t ? i({ canceled: !0 }) : n(e))).catch((e) =>
-                    i(t ? { canceled: !0 } : e),
-                  );
-                }),
-                () => (t = !0),
-              ];
-            })(a.G3.AwaitInitialSettingsSchema());
-            (this.m_settingsSchemaPromiseCancel = t),
-              yield e,
-              (this.m_autorunDisposer = (0, o.EH)(this.updateFidelity));
-          });
-        }
-        updateFidelity() {
-          var e, t;
-          let n =
-            null !== (e = a.G3.settings.get(l.Ek)) && void 0 !== e
-              ? e
-              : c.LL.Auto;
-          n == c.LL.Auto &&
-            (n =
-              null !==
-                (t =
-                  null === VRHTML || void 0 === VRHTML
-                    ? void 0
-                    : VRHTML.GetRecommendedOverlayRenderQuality()) &&
-              void 0 !== t
-                ? t
-                : c.LL.High),
-            (0, c.Op)() == c.qA.Overlay && n != c.LL.High
-              ? document.documentElement.classList.add(
-                  m.AnimationsDisabledClass,
-                )
-              : document.documentElement.classList.remove(
-                  m.AnimationsDisabledClass,
-                );
-        }
-        cleanup() {
-          var e, t;
-          null === (e = this.m_settingsSchemaPromiseCancel) ||
-            void 0 === e ||
-            e.call(this),
-            (this.m_settingsSchemaPromiseCancel = null),
-            null === (t = this.m_autorunDisposer) ||
-              void 0 === t ||
-              t.call(this),
-            (this.m_autorunDisposer = null),
-            document.documentElement.classList.remove(
-              m.AnimationsDisabledClass,
-            );
-        }
-      }
-      function g() {
+      function p() {
         const [e, t] = r.useState(null),
           n = r.useCallback(() => {
             t(
@@ -19504,8 +19419,11 @@
           e
         );
       }
-      (m.AnimationsDisabledClass = "NoAnimations"),
-        (0, i.gn)([s.ZP], m.prototype, "updateFidelity", null);
+      (0, i.gn)([o.LO], d.prototype, "m_bScrolling", void 0),
+        (0, i.gn)([s.ZP], d.prototype, "ref", null),
+        (0, i.gn)([o.Fl], d.prototype, "isScrolling", null),
+        (0, i.gn)([s.ZP], d.prototype, "onParentScroll", null),
+        (0, i.gn)([s.ZP], d.prototype, "onScrollStopTimeout", null);
     },
     9942: (e, t, n) => {
       n.d(t, { H: () => l });
@@ -21016,4 +20934,4 @@
     },
   },
 ]);
-//# sourceMappingURL=vrwebui_shared.js.map?v=15aea3fa89e8bd209e4d
+//# sourceMappingURL=vrwebui_shared.js.map?v=585bdf67d7bc1449e53f

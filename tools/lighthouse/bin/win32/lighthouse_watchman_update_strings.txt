@@ -431,6 +431,7 @@ Found a dongle already in the bootloader...\n
 Found a watchman device already in the bootloader...\n
 Found all expected bootloaders\n
 FreeLibrary
+Fs#h
 Fuel Gauge Reset
 General reset
 GetCurrentProcess
@@ -548,7 +549,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDSn
+RSDS
 Radio version:      
 RaiseException
 ReadFile

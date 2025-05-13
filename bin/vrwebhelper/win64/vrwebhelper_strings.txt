@@ -601,9 +601,9 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
+09:26:59
 0lb\f
 127.0.0.1
-15:22:21
 1e+9999
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
@@ -1105,7 +1105,7 @@ MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
 MapViewOfFile
-May  3 2025
+May 13 2025
 MessageBoxA
 Mirroring from %s to %ls\n
 Mirroring is same as source %s, not mirroring\n
@@ -1160,7 +1160,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QuitOpenVR
 QuitSceneApp
-RSDS
+RSDSO\rS"W
 R\v0lb\f
 R\vplb\f
 RaiseException

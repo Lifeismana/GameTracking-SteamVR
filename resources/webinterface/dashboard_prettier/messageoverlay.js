@@ -1005,78 +1005,87 @@
             return this.m_eRoomSetupStep;
           }
           setRoomSetupStep(e, t) {
+            let a = !!(null === VRHTML || void 0 === VRHTML
+              ? void 0
+              : VRHTML.VRProperties.GetBoolProperty(
+                  "/user/head",
+                  i.Uk.VRLinkClientHMDSupportsRoomSetupRequests_Bool,
+                ));
             if (
               (null === VRHTML || void 0 === VRHTML
                 ? void 0
-                : VRHTML.VRProperties.GetInt32Property(
+                : VRHTML.VRProperties.GetBoolProperty(
                     "/user/head",
-                    i.Uk.SupportsInHMDRoomSetup_Int32,
-                  )) ||
-              !(function (e) {
+                    i.Uk.VRLinkClientHMDSupportsRoomSetupRequests_Bool,
+                  )) &&
+              d.BV.activeLinkServer
+            ) {
+              const t = (function (e) {
                 switch (e) {
-                  case o.Off:
                   case o.RecenterCountdown:
-                    return !1;
+                    return i.o4.RecenterCountdown;
+                  case o.RoomSetupFloor:
+                    return i.o4.RoomSetupFloor;
+                  case o.FloorAdjustExisting:
+                    return i.o4.FloorAdjustExisting;
                   default:
-                    return !0;
+                    return i.o4.Invalid;
                 }
-              })(e)
-            )
-              if (d.BV.activeLinkServer) {
-                const t = (function (e) {
-                  switch (e) {
-                    case o.RecenterCountdown:
-                      return i.o4.RecenterCountdown;
-                    case o.RoomSetupFloor:
-                      return i.o4.RoomSetupFloor;
-                    case o.FloorAdjustExisting:
-                      return i.o4.FloorAdjustExisting;
-                    default:
-                      return i.o4.Invalid;
-                  }
-                })(e);
-                t != i.o4.Invalid
-                  ? (console.log(
-                      `Remoting RoomSetupStep change request to client ${e}`,
-                    ),
-                    VRHTML.VRLink.SendRoomSetupRequest(t))
-                  : console.log(
-                      `Invalid remote RoomSetupStep change request ${e}`,
-                    );
-              } else
-                (e != o.FloorAdjustExisting && e != o.RoomSetupFloor) ||
-                  this.m_eRoomSetupStep == o.RoomSetupPlayspaceCircle ||
-                  null === VRHTML ||
-                  void 0 === VRHTML ||
-                  VRHTML.VRChaperoneSetup.ResetPlayspaceFloorHeight(
-                    e == o.FloorAdjustExisting
-                      ? i.yA.Manual
-                      : i.yA.PendingResetIfNeeded,
+              })(e);
+              t != i.o4.Invalid
+                ? (console.log(
+                    `Remoting RoomSetupStep change request to client ${e}`,
                   ),
-                  e == o.RoomSetupPlayspaceCircle &&
-                    this.m_eRoomSetupStep == o.RoomSetupFloor &&
-                    (null === VRHTML ||
-                      void 0 === VRHTML ||
-                      VRHTML.VRChaperoneSetup.ResetPlayspaceRadius()),
-                  e == o.RoomSetupPlayspaceCircle
+                  VRHTML.VRLink.SendRoomSetupRequest(t))
+                : console.log(
+                    `Invalid remote RoomSetupStep change request ${e}`,
+                  );
+            } else {
+              if (
+                !a &&
+                (function (e) {
+                  switch (e) {
+                    case o.Off:
+                    case o.RecenterCountdown:
+                      return !1;
+                    default:
+                      return !0;
+                  }
+                })(e)
+              )
+                return void console.warn(
+                  "HMD doesnt support setRoomSetupStep " + JSON.stringify(e),
+                );
+              (e != o.FloorAdjustExisting && e != o.RoomSetupFloor) ||
+                this.m_eRoomSetupStep == o.RoomSetupPlayspaceCircle ||
+                null === VRHTML ||
+                void 0 === VRHTML ||
+                VRHTML.VRChaperoneSetup.ResetPlayspaceFloorHeight(
+                  e == o.FloorAdjustExisting
+                    ? i.yA.Manual
+                    : i.yA.PendingResetIfNeeded,
+                ),
+                e == o.RoomSetupPlayspaceCircle &&
+                  this.m_eRoomSetupStep == o.RoomSetupFloor &&
+                  (null === VRHTML ||
+                    void 0 === VRHTML ||
+                    VRHTML.VRChaperoneSetup.ResetPlayspaceRadius()),
+                e == o.RoomSetupPlayspaceCircle
+                  ? null === VRHTML ||
+                    void 0 === VRHTML ||
+                    VRHTML.VRChaperoneSetup.SetPlayspaceMode(u.yv.Circle)
+                  : e == o.RoomSetupPlayspaceDrawn
                     ? null === VRHTML ||
                       void 0 === VRHTML ||
-                      VRHTML.VRChaperoneSetup.SetPlayspaceMode(u.yv.Circle)
-                    : e == o.RoomSetupPlayspaceDrawn
-                      ? null === VRHTML ||
-                        void 0 === VRHTML ||
-                        VRHTML.VRChaperoneSetup.SetPlayspaceMode(u.yv.Drawn)
-                      : null === VRHTML ||
-                        void 0 === VRHTML ||
-                        VRHTML.VRChaperoneSetup.SetPlayspaceMode(u.yv.None),
-                  null === VRHTML ||
-                    void 0 === VRHTML ||
-                    VRHTML.VRChaperoneSetup.NotifyRoomSetupStep(e, !!t),
-                  (this.m_eRoomSetupStep = e);
-            else
-              console.warn(
-                "HMD doesnt support setRoomSetupStep " + JSON.stringify(e),
-              );
+                      VRHTML.VRChaperoneSetup.SetPlayspaceMode(u.yv.Drawn)
+                    : null === VRHTML ||
+                      void 0 === VRHTML ||
+                      VRHTML.VRChaperoneSetup.SetPlayspaceMode(u.yv.None),
+                null === VRHTML ||
+                  void 0 === VRHTML ||
+                  VRHTML.VRChaperoneSetup.NotifyRoomSetupStep(e, !!t),
+                (this.m_eRoomSetupStep = e);
+            }
           }
           Load() {
             var e, t, a, o, r;
@@ -2360,7 +2369,6 @@
             let n = "AppCarousel";
             return (
               e.className && (n += " " + e.className),
-              (n += " NoAnimations"),
               l.createElement(
                 x,
                 { additionalClassNames: n, paginationAlignmentOffset: -20 },
@@ -4217,9 +4225,9 @@
                 null !== (a = g.G3.settings.get(u.k_)) && void 0 !== a ? a : 0;
             let c = !!(null === VRHTML || void 0 === VRHTML
               ? void 0
-              : VRHTML.VRProperties.GetInt32Property(
+              : VRHTML.VRProperties.GetBoolProperty(
                   "/user/head",
-                  r.Uk.SupportsInHMDRoomSetup_Int32,
+                  r.Uk.SupportsInHMDRoomSetup_Bool,
                 ));
             switch (e) {
               case 0:
@@ -9424,4 +9432,4 @@
   var n = o.O(void 0, [968, 683], () => o(3184));
   n = o.O(n);
 })();
-//# sourceMappingURL=messageoverlay.js.map?v=f773af75f06c29a13323
+//# sourceMappingURL=messageoverlay.js.map?v=dbd111dd7e7b1c856f59

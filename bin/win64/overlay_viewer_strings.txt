@@ -759,7 +759,7 @@ Qt5Widgets.dll
 QueryPerformanceCounter
 R?rgb@QColor@@QEBAIXZ
 RPCRT4.dll
-RSDS5
+RSDS1\fh
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

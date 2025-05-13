@@ -1127,6 +1127,7 @@ $tI(kn
 15CVRSystemLatest
 15CVkResourceBase
 15CVkResourcePoolI16CVkCommandBufferE
+16:27:25
 16CHmdSystemLatest
 16CInputFilterBase
 16CPathManagerBase
@@ -1284,7 +1285,6 @@ $tI(kn
 21CVirtualDisplayClient
 21IVRCameraComponent001
 21IVRCameraComponent002
-22:22:49
 22CClientPropertyManager
 22CInputFilterValueStore
 22CKeyframedDataResource
@@ -2120,11 +2120,11 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
-C.1883.372103
-C.1884.372114
+C.1883.372105
+C.1884.372116
 C.71.340283
-C.77.213893
-C.9.215783
+C.77.213895
+C.9.215785
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -22523,7 +22523,7 @@ MaterialUtf8FileReader::~MaterialUtf8FileReader()
 Matrix44Aligned::ToQuaternion() const
 Matrix44Aligned::ToTransform() const
 Matrix44Aligned::mIdentity
-May  3 2025
+May 13 2025
 Member "action_sets" exists, but is not an array
 MergeJsonValues(Json::Value&, Json::Value&)
 MergeJsonValues(Json::Value&, Json::Value&) (.cold)
@@ -29495,6 +29495,7 @@ long std::__copy_streambufs_eof<char, std::char_traits<char>>(std::basic_streamb
 long std::__copy_streambufs_eof<wchar_t, std::char_traits<wchar_t>>(std::basic_streambuf<wchar_t, std::char_traits<wchar_t>>*, std::basic_streambuf<wchar_t, std::char_traits<wchar_t>>*, bool&)
 long& std::vector<long, std::allocator<long>>::emplace_back<long>(long&&)
 long_press_delay
+long_press_expiry
 loop
 lower
 lseek64

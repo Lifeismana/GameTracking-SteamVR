@@ -1618,15 +1618,16 @@ $\n k_EProtoServiceTypeSteamMessages
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789ABCDEF
 0123456789abcdef
-0h7@
-0j2@
+09:26:59
+0J3@
+0e7@
+0tw(
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-15:22:21
 1A26b
 1\f514
 1e+9999
@@ -1636,7 +1637,6 @@ $\n k_EProtoServiceTypeSteamMessages
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
-493@
 4\f54d
 52F*
 5I)7
@@ -1649,11 +1649,10 @@ $\n k_EProtoServiceTypeSteamMessages
 7~8A
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d7@
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8t3@
-8x8@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1829,12 +1828,11 @@ ATI2
 AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY\n
 AUDIO: 
 AUDIO: %s
-AbortAppTransition
+Abort
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Aborting due to fatal assertion failure.
 Aborting kill all because master process %s reconnected\n
 Aborting kill all because master process %s restarted\n
-Aborting launch of '%s'\n
 Accept-Encoding
 Accepted
 Accessor
@@ -2320,6 +2318,7 @@ CheckTokenMembership
 Chord for %s had %d bindings, which we don't know how to deal with yet\n
 Cleaning up audio defaults\n
 Cleaning up launching app %u\n
+ClearAppTransition: Reason: %s. Was %s for '%s'\n
 ClearField
 Clearing starting app %u because it isn't running\n
 Client
@@ -2418,6 +2417,7 @@ D3DKMTQueryAdapterInfo
 D7q/;M
 DELEGATE 
 DISABLED
+DU3@
 DXGI VSync Thread ended\n
 DXGI VSync Thread started\n
 DXGI thread failed to get SDL display index. This will happen if you are not on a direct mode display.\n
@@ -2431,6 +2431,7 @@ DXT2
 DXT3
 DXT4
 DXT5
+DY7@
 DebuggerEnabled
 Default
 Default audio endpoint restored\n
@@ -2806,6 +2807,7 @@ H$6t
 H*0"ZOW
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
+HJ3@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2842,8 +2844,8 @@ HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
 Hang the server for the specified number of seconds (default 3600)
 HasField
+Hb7@
 Hex and octal numbers must be integers.
-Hm8@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -2851,7 +2853,6 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HostController
 How did we get here with a non-position slot?
-Hq7@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3136,7 +3137,6 @@ KHR_lights_punctual
 Kernel32.dll
 Kill process %s because it didn't quit in time\n
 Kill process?
-L93@
 L=SteamFriends017
 LABEL_OPTIONAL
 LABEL_REPEATED
@@ -3146,6 +3146,7 @@ Label
 Language
 LastKnown
 LaunchApplication
+LaunchApplication failed
 LaunchApplication_AlreadyRunning
 LaunchApplication_Failure
 Launching %s as %s
@@ -3245,7 +3246,7 @@ Main Thread
 MainThrd
 MapViewOfFile
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
-May  3 2025
+May 13 2025
 Mbp?{
 Message class "
 Message extensions cannot have required fields.
@@ -3333,7 +3334,6 @@ Not killing process %s because it is on the list to never kill\n
 Not killing process %s because neverKillProcesses is true\n
 Not loading driver %s because it is disabled in settings\n
 Not loading driver %s because it was blocked by a previous safe mode event\n
-Not starting SteamVR Home launch on %s exit because it was not the most recent scene app\n
 Not starting vrserver for background app (121)
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Notification_BasestationsTooFarApart
@@ -3420,6 +3420,7 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
+PY7@
 Pa7@
 Parse error in system resource manifest %s.\n
 Parse failed
@@ -3437,9 +3438,6 @@ PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Pi7@
-Pj7@
-Pk7@
 Playback devices:\n
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
@@ -3459,6 +3457,8 @@ Process32First
 Process32Next
 ProcessConnected
 ProcessDisconnected
+ProcessDisconnected of m_pidLaunchingApp
+ProcessDisconnected/simple quit
 Processing
 Processing Message of type %s (%u bytes) from %s\n
 Processing message %s from %s took %0.3g seconds\n
@@ -3678,7 +3678,7 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
-Pu8@
+Ptw(
 QkkXa
 Qkkbal
 Query failed
@@ -3701,7 +3701,9 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS]
+RSDS
+R\npp
+R\vpp
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3987,6 +3989,8 @@ StartSceneApplicationTransitionFromProcess BEGIN
 StartSceneApplicationTransitionFromProcess END
 StartSceneApplicationTransitionFromProcess with an invalid eTransitionState\n
 StartSceneApplicationTransitionFromProcess( %u, %s, %s)\n
+StartSceneApplicationTransitionFromProcess/NewAppLaunched
+StartSceneApplicationTransitionFromProcess/WaitingForExternalLaunch
 StartService failed: %s
 StartServiceA
 Started auto launch dashboard %s.\n
@@ -4043,6 +4047,7 @@ Symbol name "
 Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
+TJ3@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -5103,8 +5108,8 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X93@
 XXXX PNG chunk not known
+Xp7@
 XsBI
 YUY2
 Zjz\v
@@ -5447,6 +5452,7 @@ Zjz\v
 \U%08x
 \b\d+\b\s*$
 \fUk#pb
+\fptw(
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -5500,7 +5506,6 @@ Zjz\v
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \rmj>zjZ
-\rp\f`\v0\nP\t(
 \t%s%s,%u,%s,%s,VID_%04X/PID_%04X,%s,%s\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -5987,7 +5992,6 @@ current_transforms
 current_transforms_without_controller
 current_user_persona_name
 czech
-d93@
 dQy/
 da_dk
 danish
@@ -6278,9 +6282,8 @@ grip_limit_transforms
 group
 guid
 gzip
-hK6@
+h02@
 hPU3
-hY7@
 half_thresholds
 hand_priority
 hand_right_poses.glb
@@ -6301,10 +6304,10 @@ hidden
 hide_callout
 hlvr/mailbox
 hlvr/webui
+hm7@
 hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_settings_key
-ho8@
 holographic
 holographic_controller
 hpmotioncontroller
@@ -6648,6 +6651,7 @@ ko_kr
 koreana
 l6qnk
 lDa>
+lJ3@
 label
 language_tag
 lastHmdPlaybackDeviceId
@@ -6897,7 +6901,6 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p93@
 pBegin == pEnd
 pEnd > pBegin
 pMGConnect != nullptr
@@ -6910,7 +6913,6 @@ pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
 pUrl != nullptr
 pWebSocketMessage
-pX7@
 package
 packed
 param1
@@ -6928,7 +6930,6 @@ path_handles
 paths
 payload
 pbrMetallicRoughness
-pc7@
 pending_file_saved
 perfcheck
 personal
@@ -6937,6 +6938,7 @@ pico_controller
 pinch
 pinchgrab
 pivot
+pl7@
 pl_pl
 playAreaColor
 play_area
@@ -6971,7 +6973,6 @@ positive_int_value
 power
 powf
 pq7@
-pr7@
 precision
 prediction
 prediction parameter out of range
@@ -6997,10 +6998,9 @@ property_containers
 property_contents
 property_number
 proximity
-ps7@
-pt8@
 pt_br
 pt_pt
+ptw(
 public
 public_dependency
 publishedfileid
@@ -7008,6 +7008,7 @@ pull
 punct
 putchar
 py_generic_services
+pz7@
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
 quarter_thresholds
@@ -7565,62 +7566,12 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x08@
-x18@
-x28@
-x38@
-x48@
-x58@
-x68@
-x78@
-x88@
-x98@
-xA8@
-xB8@
-xC8@
-xD8@
-xE8@
-xF8@
-xG8@
-xH8@
-xI8@
-xJ8@
-xK8@
-xL8@
-xM8@
-xN8@
-xO8@
-xP8@
-xQ8@
-xR8@
-xS8@
-xT8@
-xU8@
-xV8@
-xW7@
-xW8@
-xX8@
-xY8@
-xZ8@
+xJ3@
 x_path
-xa8@
-xb8@
-xc8@
-xd8@
+xa7@
 xdigit
-xe8@
-xf8@
-xg8@
-xh8@
-xi8@
-xj8@
-xk8@
-xl8@
+xk7@
 xmag
-xt7@
-xu7@
-xv7@
-xw7@
 y9*O
 y_path
 yfov

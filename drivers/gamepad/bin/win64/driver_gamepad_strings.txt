@@ -117,8 +117,9 @@ KERNEL32.dll
 MSVCP140.dll
 MainThrd
 Out of thread local storage!\n
+Ps#h
 QueryPerformanceCounter
-RSDSz_
+RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry

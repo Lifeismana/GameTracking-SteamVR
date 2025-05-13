@@ -699,7 +699,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSf\n
+RSDS
 RaiseException
 ResetEvent
 RootNode
@@ -983,6 +983,7 @@ bonemask_middle.txt
 bonemask_middlenocarpal.txt
 bonemask_thumb.txt
 brazilian
+bs#h
 buffer
 bufferView
 bufferViews
@@ -1425,7 +1426,7 @@ scale
 scene
 scenes
 schinese
-seated_position_reset
+seated_and_standing_position_reset
 setvbuf
 shaders/d3d11/distort_bounds_color_ps.fxo
 shaders/d3d11/distort_cs.fxo

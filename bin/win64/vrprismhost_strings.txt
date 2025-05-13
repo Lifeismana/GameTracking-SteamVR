@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-15:22:21
+09:26:59
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -395,7 +395,7 @@ MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
 MapViewOfFile
-May  3 2025
+May 13 2025
 MessageBoxA
 Minidump comment truncated
 Missing ',' or ']' in array declaration

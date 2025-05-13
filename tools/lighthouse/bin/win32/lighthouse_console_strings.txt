@@ -606,6 +606,7 @@ Anx temp:
 App CRC invalid
 App Init
 App not found
+As#h
 Assertion failed:  Explicit right sync does not match pending frame\n
 Attached HID Devices:\n
 Attached lighthouse receiver devices: %d\n
@@ -1142,7 +1143,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDSs
+RSDSc\
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
