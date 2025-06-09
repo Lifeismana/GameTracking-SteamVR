@@ -7,6 +7,7 @@
  at line 
  exceeds maximum allowed file size 
  in Buffer\n
+!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 " not found in the scene.
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
@@ -309,7 +310,6 @@ $3br
 11eU%
 1e+9999
 2.5.4.3
-7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -541,6 +541,7 @@ Getting file size failed :
 Graphics LUID changed\n
 Guardian changed, updating chaperone\n
 HMD no longer present
+HandAnimEvaluator
 HeapAlloc
 HeapFree
 Hmd not found.\n
@@ -564,7 +565,7 @@ IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_009
 IVRDriverInputInternal_XXX
-IVRDriverInput_003
+IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
@@ -587,7 +588,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_022
+IVRSystem_023
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
@@ -699,7 +700,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSt
+RSDS9/
 RaiseException
 ResetEvent
 RootNode
@@ -991,13 +992,13 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
 camera
 cameras
 can't merge dc and ac
@@ -1264,6 +1265,7 @@ oculus_quest_pro_controller_right
 oculus_rifts_controller_left
 oculus_rifts_controller_right
 oculus_touch
+oculus_virtualdesktop
 only 8-bit
 orthographic
 out_of_range

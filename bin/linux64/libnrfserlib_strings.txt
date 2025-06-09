@@ -627,7 +627,7 @@ CSOBChannel::OnBLEEvent_GATTC_WriteResponse(ble_gattc_evt_t const*) (.cold)
 CSOBChannel::SendSOBChannelCommand(int)
 CSWTCH.107
 CSWTCH.157
-CSWTCH.212
+CSWTCH.213
 CScan::CScan()
 CScan::CScan() (.cold)
 CScan::DoScanContext(std::string const&, std::vector<std::string, std::allocator<std::string>> const&, EScanCompletionQualifier_t, float, std::vector<basestation_scan_t, std::allocator<basestation_scan_t>>*)
@@ -1615,6 +1615,8 @@ Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&)
 Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&) (.cold)
 Path_FixSlashes(std::string const&, char)
 Path_FixSlashes(std::string const&, char) (.cold)
+Path_GetExecutableName()
+Path_GetExecutableName() (.cold)
 Path_GetExecutablePath()
 Path_GetExtension(std::string const&)
 Path_GetSlash()
@@ -1918,6 +1920,7 @@ Thread(0x%p/0x%p/0x%x)
 ThreadCloseProcess
 ThreadGetCurrentHandle
 ThreadGetCurrentId
+ThreadGetCurrentId::s_selftid
 ThreadGetCurrentProcessHandle
 ThreadGetCurrentProcessId
 ThreadGetCurrentRunningRef
@@ -2658,6 +2661,7 @@ g_ConnectionParameters
 g_NRFSerLib
 g_SuspendResumeLock
 g_ThreadMainThreadID
+g_bNoCacheThreadIds
 g_bSetSuspendHandlers
 g_bSuspendResumeAck
 g_mutex

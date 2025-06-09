@@ -127,7 +127,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:30:00
+17:17:39
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -308,7 +308,7 @@ IVRServerDriverHost_006
 IVRServerInternal_XXX
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_022
+IVRSystem_023
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
 IVRWatchdogProvider_001
@@ -357,7 +357,7 @@ Out of thread local storage!\n
 OutputDebugStringA
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSm
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey
@@ -780,9 +780,9 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
 camera
 collectComments
 collisionBounds

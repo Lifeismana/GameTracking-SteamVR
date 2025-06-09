@@ -26,7 +26,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e5730e69a408f2c881c006e24b983b82>@@PEAXPEBD@std@@
 .?AV?$_Iosb@H@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@U?$default_delete@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@@2@@std@@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
@@ -128,7 +128,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:30:00
+17:17:39
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -283,7 +283,7 @@ IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorSystemInternal_XXX
-IVRCompositor_029
+IVRCompositor_028
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
@@ -308,7 +308,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_022
+IVRSystem_023
 IVRTrackedCameraInternal_XXX
 Infinity
 Info
@@ -343,7 +343,7 @@ PeekMessageA
 Process VR events.
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDS{n
 RaiseException
 ReadFile
 RegCloseKey
@@ -437,6 +437,7 @@ TEMP
 TerminateProcess
 Thread watchdog timed out %s
 Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
+ThreadWatchdog
 TlsAlloc
 TlsFree
 TranslateMessage
@@ -576,11 +577,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\vrdashboard_main.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp
 collectComments
 config
 cs_cz

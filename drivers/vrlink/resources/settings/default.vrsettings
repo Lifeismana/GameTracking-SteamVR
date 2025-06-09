@@ -1,6 +1,7 @@
 {
     "driver_vrlink": {
         "enable": true,
+		"atlasMode" : -1,
         "enable8814AP" : true,
         "enableNAT" : false,
         "loadPriority": 110,

@@ -450,6 +450,7 @@
 /tmp/.steam-sem-names
 /u%d-%s-ValveIPCSharedObj-SteamVR
 /u%d-Shm_%x
+00:18:09
 0123456789
 0123456789ABCDEF
 11CVkTimeline
@@ -465,7 +466,6 @@
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-21:19:35
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 30CSharedResourceNamespaceServer
@@ -845,7 +845,7 @@ CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
 CSWTCH.141
 CSWTCH.16
-CSWTCH.212
+CSWTCH.213
 CSWTCH.23
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -1974,7 +1974,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 July
-Jun  4 2025
+Jun  5 2025
 June
 LAYER:%2d[%d|%d|%d] [%d|%d|%d]
 LC_ADDRESS
@@ -2206,6 +2206,8 @@ Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&)
 Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&) (.cold)
 Path_FixSlashes(std::string const&, char)
 Path_FixSlashes(std::string const&, char) (.cold)
+Path_GetExecutableName()
+Path_GetExecutableName() (.cold)
 Path_GetExecutablePath()
 Path_GetExtension(std::string const&)
 Path_GetSlash()
@@ -2510,6 +2512,7 @@ Thread(0x%p/0x%p/0x%x)
 ThreadCloseProcess
 ThreadGetCurrentHandle
 ThreadGetCurrentId
+ThreadGetCurrentId::s_selftid
 ThreadGetCurrentProcessHandle
 ThreadGetCurrentProcessId
 ThreadGetCurrentRunningRef
@@ -2556,6 +2559,7 @@ ThreadSuspendSignal(int)
 ThreadTerminate
 ThreadTerminateProcessCode
 ThreadWaitForProcessExit
+ThreadWatchdog
 ThreadYield()
 Thursday
 TimestampQueryPool-%s
@@ -3356,6 +3360,7 @@ futex robust_list not pthreads-compatible
 fwrite
 g_SuspendResumeLock
 g_ThreadMainThreadID
+g_bNoCacheThreadIds
 g_bSetSuspendHandlers
 g_bSuspendResumeAck
 g_bTestMode

@@ -1,14 +1,25 @@
-/*! For license information please see systemreportviewer.js.LICENSE.txt */
+var CLSTAMP = "9806884";
 (() => {
   "use strict";
   var e,
     t = {
-      6315: (e, t, r) => {
+      8195: (e, t, r) => {
         var s,
-          n = r(655),
-          a = r(7294),
-          o = r(3935),
-          i = r(7056);
+          n = r(1635),
+          a = r(6540),
+          o = r(5338);
+        function i(e, t, r) {
+          return {
+            get() {
+              let e = r.value.bind(this);
+              return (
+                Object.prototype.hasOwnProperty.call(this, t) ||
+                  Object.defineProperty(this, t, { value: e }),
+                e
+              );
+            },
+          };
+        }
         class l extends a.Component {
           constructor(e) {
             super(e);
@@ -289,7 +300,7 @@
             );
           }
         }
-        (0, n.gn)([i.ak], h.prototype, "onToggleDetails", null);
+        (0, n.Cg)([i], h.prototype, "onToggleDetails", null);
         class p extends a.Component {
           constructor(e) {
             super(e);
@@ -542,7 +553,7 @@
             );
           }
         }
-        (0, n.gn)([i.ak], u.prototype, "onClickTab", null);
+        (0, n.Cg)([i], u.prototype, "onClickTab", null);
         class d {
           constructor() {
             (this.report = {}), (this.sError = null);
@@ -808,7 +819,7 @@
           }
         }
         var g,
-          m = r(9669),
+          m = r(2505),
           f = r.n(m);
         !(function (e) {
           (e[(e.WaitingForReport = 0)] = "WaitingForReport"),
@@ -922,21 +933,18 @@
             );
           }
         }
-        (0, n.gn)([i.ak], v.prototype, "handleDragOver", null),
-          (0, n.gn)([i.ak], v.prototype, "handleDragLeave", null),
-          (0, n.gn)([i.ak], v.prototype, "handleDrop", null),
-          o.render(
-            a.createElement(v, null),
-            document.getElementById("systemReportRoot"),
-          );
+        (0, n.Cg)([i], v.prototype, "handleDragOver", null),
+          (0, n.Cg)([i], v.prototype, "handleDragLeave", null),
+          (0, n.Cg)([i], v.prototype, "handleDrop", null),
+          o.H(document.getElementById("root")).render(a.createElement(v, null));
       },
     },
     r = {};
   function s(e) {
     var n = r[e];
     if (void 0 !== n) return n.exports;
-    var a = (r[e] = { id: e, exports: {} });
-    return t[e].call(a.exports, a, a.exports, s), a.exports;
+    var a = (r[e] = { exports: {} });
+    return t[e](a, a.exports, s), a.exports;
   }
   (s.m = t),
     (e = []),
@@ -970,18 +978,9 @@
           !s.o(e, r) &&
           Object.defineProperty(e, r, { enumerable: !0, get: t[r] });
     }),
-    (s.g = (function () {
-      if ("object" == typeof globalThis) return globalThis;
-      try {
-        return this || new Function("return this")();
-      } catch (e) {
-        if ("object" == typeof window) return window;
-      }
-    })()),
     (s.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
-    (s.j = 495),
     (() => {
-      var e = { 495: 0 };
+      var e = { 156: 0, 270: 0 };
       s.O.j = (t) => 0 === e[t];
       var t = (t, r) => {
           var n,
@@ -998,9 +997,7 @@
         },
         r = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
       r.forEach(t.bind(null, 0)), (r.push = t.bind(null, r.push.bind(r)));
-    })(),
-    (s.nc = void 0);
-  var n = s.O(void 0, [968], () => s(6315));
+    })();
+  var n = s.O(void 0, [498, 299, 526, 270], () => s(8195));
   n = s.O(n);
-})();
-//# sourceMappingURL=systemreportviewer.js.map?v=1f83bd8ed0889c981d63
+})(); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/systemreportviewer.js.map

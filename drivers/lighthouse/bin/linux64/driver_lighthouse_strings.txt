@@ -865,6 +865,7 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:18:09
 0123456789
 0123456789ABCDEF
 0123456789abcdef
@@ -946,7 +947,6 @@ $3br
 20CVkCommandBufferPool
 20IVRAudioNotification
 20IVRVirtualDisplay001
-21:19:35
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
@@ -2633,8 +2633,8 @@ CSWTCH.141
 CSWTCH.142
 CSWTCH.16
 CSWTCH.162
-CSWTCH.1921
-CSWTCH.212
+CSWTCH.1940
+CSWTCH.213
 CSWTCH.221
 CSWTCH.23
 CSWTCH.876
@@ -4509,6 +4509,7 @@ HTC Vive Developer Edition
 HTC Vive Pro
 HTC-VIVE
 HWID Signature not found
+HandAnimEvaluator
 Handle != NULL
 HasField
 HashToBase64(unsigned long)
@@ -4639,7 +4640,7 @@ IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
 IVRDriverDirectModeComponent_009
 IVRDriverInputInternal_XXX
-IVRDriverInput_003
+IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
@@ -4666,7 +4667,7 @@ IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_022
+IVRSystem_023
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay001_Version
 IVRVirtualDisplay_
@@ -5292,7 +5293,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
 July
-Jun  4 2025
+Jun  5 2025
 June
 KHR_audio
 KHR_lights_punctual
@@ -5930,6 +5931,8 @@ Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&)
 Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&) (.cold)
 Path_FixSlashes(std::string const&, char)
 Path_FixSlashes(std::string const&, char) (.cold)
+Path_GetExecutableName()
+Path_GetExecutableName() (.cold)
 Path_GetExecutablePath()
 Path_GetExtension(std::string const&)
 Path_GetSlash()
@@ -6736,6 +6739,7 @@ Thread(0x%p/0x%p/0x%x)
 ThreadCloseProcess
 ThreadGetCurrentHandle
 ThreadGetCurrentId
+ThreadGetCurrentId::s_selftid
 ThreadGetCurrentProcessHandle
 ThreadGetCurrentProcessId
 ThreadGetCurrentRunningRef
@@ -6782,6 +6786,7 @@ ThreadSuspendSignal(int)
 ThreadTerminate
 ThreadTerminateProcessCode
 ThreadWaitForProcessExit
+ThreadWatchdog
 ThreadYield()
 Thursday
 Time: 
@@ -7321,6 +7326,8 @@ VREvent_TrackedDeviceUpdated
 VREvent_TrackedDeviceUserInteractionEnded
 VREvent_TrackedDeviceUserInteractionStarted
 VREvent_TrackersSectionSettingChanged
+VREvent_TrackingRecordingStarted
+VREvent_TrackingRecordingStopped
 VREvent_UserInterfaceSectionSettingChanged
 VREvent_VendorSpecific_Reserved_Start+%d
 VREvent_WatchdogWakeUpRequested
@@ -9803,6 +9810,7 @@ g_VRLog
 g_VRPathHelpers
 g_VRPropertyHelpers
 g_VRSettingHelper
+g_bNoCacheThreadIds
 g_bSetSuspendHandlers
 g_bSuspendResumeAck
 g_bTestMode
@@ -12341,6 +12349,7 @@ libvulkan.so.1
 libz.so.1
 light
 lighthouse
+lighthouse:
 lighthouse::pb::(anonymous namespace)::CBaseConfigAndDynamicState_descriptor_
 lighthouse::pb::(anonymous namespace)::CBaseConfigAndDynamicState_reflection_
 lighthouse::pb::(anonymous namespace)::CBaseConfig_descriptor_
@@ -13650,7 +13659,6 @@ outofmem
 output
 output buffer limit
 output specified is NULL
-output_path
 output_type
 overwrite.vrsettings
 pClient
@@ -14001,6 +14009,7 @@ standard_subs
 start
 start tracking from base
 start_pairing
+start_tracking_recording
 startup
 static const uint32_t CAnimResource::MyTypeID()
 static const uint32_t CBoneMaskResource::MyTypeID()
@@ -17800,6 +17809,7 @@ stmute
 stmuteb
 stoi
 stop_pairing
+stop_tracking_recording
 stoprecord
 str_to_edid_pid(std::string const&)
 str_to_edid_pid(std::string const&) (.cold)

@@ -527,9 +527,8 @@ $3br
 ./obj_driver_lighthouse_linux32/release/driver_lighthouse.so
 .L10
 .L100
-.L1000
 .L1001
-.L1003
+.L1002
 .L1004
 .L1005
 .L1006
@@ -549,10 +548,10 @@ $3br
 .L1019
 .L102
 .L1020
-.L1023
-.L1028
+.L1021
+.L1024
+.L1029
 .L103
-.L1030
 .L10306
 .L10307
 .L10309
@@ -604,15 +603,16 @@ $3br
 .L1047
 .L10478
 .L1048
+.L1049
 .L105
-.L1050
-.L1053
+.L1051
 .L1054
-.L1056
+.L1055
 .L1057
 .L1058
+.L1059
 .L106
-.L1060
+.L1061
 .L10625
 .L10627
 .L10628
@@ -624,7 +624,7 @@ $3br
 .L10634
 .L10635
 .L107
-.L1072
+.L1073
 .L1074
 .L1075
 .L1076
@@ -643,7 +643,8 @@ $3br
 .L1088
 .L1089
 .L109
-.L1091
+.L1090
+.L1092
 .L1095
 .L11
 .L110
@@ -1396,14 +1397,15 @@ $3br
 .L2842
 .L2843
 .L285
+.L2851
+.L2853
 .L2854
+.L2855
 .L2856
 .L2857
 .L2858
 .L2859
 .L286
-.L2860
-.L2861
 .L2862
 .L2863
 .L2864
@@ -1579,14 +1581,14 @@ $3br
 .L34
 .L340
 .L341
-.L3417
-.L3419
+.L3410
+.L3412
+.L3413
+.L3414
+.L3415
+.L3416
 .L342
 .L3420
-.L3421
-.L3422
-.L3423
-.L3427
 .L343
 .L344
 .L345
@@ -1664,12 +1666,13 @@ $3br
 .L3944
 .L3945
 .L3946
-.L396
+.L395
 .L397
 .L398
 .L399
 .L40
-.L401
+.L400
+.L402
 .L403
 .L404
 .L405
@@ -1711,7 +1714,6 @@ $3br
 .L431
 .L432
 .L433
-.L434
 .L435
 .L436
 .L437
@@ -1740,6 +1742,7 @@ $3br
 .L4459
 .L446
 .L4460
+.L447
 .L448
 .L449
 .L45
@@ -2024,10 +2027,9 @@ $3br
 .L609
 .L61
 .L610
-.L611
 .L612
+.L613
 .L615
-.L616
 .L617
 .L618
 .L619
@@ -2044,7 +2046,7 @@ $3br
 .L629
 .L63
 .L630
-.L631
+.L632
 .L637
 .L638
 .L639
@@ -2264,83 +2266,83 @@ $3br
 .L7990
 .L80
 .L800
-.L8007
-.L8009
+.L8000
+.L8002
+.L8003
+.L8005
+.L8006
 .L801
-.L8010
-.L8012
-.L8013
 .L802
 .L803
+.L8038
 .L804
-.L8045
-.L8047
-.L8048
-.L8049
+.L8040
+.L8041
+.L8042
+.L8043
+.L8044
 .L805
-.L8050
-.L8051
 .L806
 .L807
+.L8076
+.L8078
+.L8079
 .L808
-.L8083
-.L8085
-.L8086
-.L8088
-.L8089
+.L8081
+.L8082
 .L809
 .L81
 .L810
 .L811
+.L8114
+.L8116
+.L8117
+.L8118
+.L8119
 .L812
-.L8121
-.L8123
-.L8124
-.L8125
-.L8126
-.L8127
+.L8120
 .L813
 .L814
 .L815
-.L8159
+.L8152
+.L8154
+.L8155
+.L8157
+.L8158
 .L816
-.L8161
-.L8162
-.L8164
-.L8165
 .L817
 .L818
 .L819
-.L8197
-.L8199
+.L8190
+.L8192
+.L8193
+.L8194
+.L8195
+.L8196
 .L82
 .L820
-.L8200
-.L8201
-.L8202
-.L8203
 .L821
 .L822
 .L823
+.L8236
+.L8238
+.L8239
 .L824
-.L8243
-.L8245
-.L8246
-.L8248
-.L8249
+.L8241
+.L8242
 .L825
 .L826
 .L827
 .L828
 .L829
-.L8297
-.L8299
+.L8290
+.L8292
+.L8293
+.L8294
+.L8295
+.L8296
 .L83
 .L830
-.L8300
-.L8301
-.L8302
-.L8303
 .L831
 .L832
 .L833
@@ -2349,6 +2351,7 @@ $3br
 .L836
 .L837
 .L838
+.L839
 .L84
 .L840
 .L841
@@ -2375,41 +2378,41 @@ $3br
 .L860
 .L861
 .L862
-.L8627
-.L8629
 .L863
-.L8630
-.L8631
-.L8632
-.L8633
+.L8637
+.L8639
 .L864
+.L8640
+.L8641
+.L8642
+.L8643
 .L865
 .L866
 .L867
 .L868
+.L8683
+.L8685
+.L8686
+.L8687
+.L8688
+.L8689
 .L869
-.L8690
-.L8692
-.L8693
-.L8694
-.L8695
-.L8696
 .L87
 .L871
+.L8712
+.L8714
+.L8715
+.L8716
+.L8717
+.L8718
 .L872
 .L873
-.L8736
-.L8738
-.L8739
-.L8740
 .L8741
-.L8742
-.L8765
-.L8767
-.L8768
-.L8769
-.L8770
-.L8771
+.L8743
+.L8744
+.L8745
+.L8746
+.L8747
 .L879
 .L88
 .L880
@@ -2460,9 +2463,7 @@ $3br
 .L9237
 .L9238
 .L924
-.L925
 .L926
-.L927
 .L9270
 .L9271
 .L9273
@@ -2493,17 +2494,17 @@ $3br
 .L939
 .L94
 .L940
-.L942
-.L945
+.L941
+.L943
 .L946
-.L948
+.L947
+.L9483
+.L9485
+.L9486
+.L9487
+.L9488
+.L9489
 .L949
-.L9490
-.L9492
-.L9493
-.L9494
-.L9495
-.L9496
 .L9499
 .L95
 .L950
@@ -2517,13 +2518,14 @@ $3br
 .L9515
 .L952
 .L953
-.L9543
-.L9545
-.L9546
-.L9547
-.L9548
-.L9549
-.L955
+.L9536
+.L9538
+.L9539
+.L954
+.L9540
+.L9541
+.L9542
+.L956
 .L9576
 .L9577
 .L9579
@@ -2531,17 +2533,15 @@ $3br
 .L9581
 .L9582
 .L9583
-.L959
+.L9589
+.L9591
 .L9592
-.L9596
-.L9598
-.L9599
+.L9593
+.L9594
+.L9595
 .L96
-.L9600
-.L9601
-.L9602
+.L960
 .L9609
-.L961
 .L9610
 .L9612
 .L9613
@@ -2552,14 +2552,15 @@ $3br
 .L9625
 .L963
 .L964
-.L9649
+.L9642
+.L9644
+.L9645
+.L9646
+.L9647
+.L9648
 .L965
-.L9651
-.L9652
-.L9653
-.L9654
-.L9655
-.L967
+.L966
+.L968
 .L97
 .L9718
 .L9719
@@ -2739,6 +2740,7 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:18:06
 0123456789
 0123456789ABCDEF
 0123456789abcdef
@@ -2810,7 +2812,6 @@ $3br
 20CVRTrackedDevice_004
 20IVRAudioNotification
 20IVRVirtualDisplay001
-21:19:19
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
@@ -4439,8 +4440,8 @@ CSWTCH.139
 CSWTCH.142
 CSWTCH.146
 CSWTCH.161
-CSWTCH.2110
-CSWTCH.214
+CSWTCH.2129
+CSWTCH.215
 CSWTCH.224
 CSWTCH.925
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
@@ -6062,6 +6063,7 @@ HTC Vive Developer Edition
 HTC Vive Pro
 HTC-VIVE
 HWID Signature not found
+HandAnimEvaluator
 Handle != NULL
 HasField
 HashToBase64(unsigned long long)
@@ -6192,7 +6194,7 @@ IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
 IVRDriverDirectModeComponent_009
 IVRDriverInputInternal_XXX
-IVRDriverInput_003
+IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
@@ -6219,7 +6221,7 @@ IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_022
+IVRSystem_023
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay001_Version
 IVRVirtualDisplay_
@@ -6837,7 +6839,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
 July
-Jun  4 2025
+Jun  5 2025
 June
 KHR_audio
 KHR_lights_punctual
@@ -7461,6 +7463,8 @@ Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&)
 Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&) (.cold)
 Path_FixSlashes(std::string const&, char)
 Path_FixSlashes(std::string const&, char) (.cold)
+Path_GetExecutableName()
+Path_GetExecutableName() (.cold)
 Path_GetExecutablePath()
 Path_GetExtension(std::string const&)
 Path_GetSlash()
@@ -8229,6 +8233,7 @@ Thread(0x%p/0x%p/0x%x)
 ThreadCloseProcess
 ThreadGetCurrentHandle
 ThreadGetCurrentId
+ThreadGetCurrentId::s_selftid
 ThreadGetCurrentProcessHandle
 ThreadGetCurrentProcessId
 ThreadGetCurrentRunningRef
@@ -8275,6 +8280,7 @@ ThreadSuspendSignal(int)
 ThreadTerminate
 ThreadTerminateProcessCode
 ThreadWaitForProcessExit
+ThreadWatchdog
 ThreadYield()
 Thursday
 Time: 
@@ -8792,6 +8798,8 @@ VREvent_TrackedDeviceUpdated
 VREvent_TrackedDeviceUserInteractionEnded
 VREvent_TrackedDeviceUserInteractionStarted
 VREvent_TrackersSectionSettingChanged
+VREvent_TrackingRecordingStarted
+VREvent_TrackingRecordingStopped
 VREvent_UserInterfaceSectionSettingChanged
 VREvent_VendorSpecific_Reserved_Start+%d
 VREvent_WatchdogWakeUpRequested
@@ -11072,6 +11080,7 @@ g_VRLog
 g_VRPathHelpers
 g_VRPropertyHelpers
 g_VRSettingHelper
+g_bNoCacheThreadIds
 g_bSetSuspendHandlers
 g_bSuspendResumeAck
 g_bTestMode
@@ -13608,6 +13617,7 @@ libudev.so.1
 libz.so.1
 light
 lighthouse
+lighthouse:
 lighthouse::pb::(anonymous namespace)::CBaseConfigAndDynamicState_descriptor_
 lighthouse::pb::(anonymous namespace)::CBaseConfigAndDynamicState_reflection_
 lighthouse::pb::(anonymous namespace)::CBaseConfig_descriptor_
@@ -14882,7 +14892,6 @@ outofmem
 output
 output buffer limit
 output specified is NULL
-output_path
 output_type
 overwrite.vrsettings
 pData
@@ -15205,6 +15214,7 @@ standard_subs
 start
 start tracking from base
 start_pairing
+start_tracking_recording
 startup
 static const uint32_t CAnimResource::MyTypeID()
 static const uint32_t CBoneMaskResource::MyTypeID()
@@ -18944,6 +18954,7 @@ stmute
 stmuteb
 stoi
 stop_pairing
+stop_tracking_recording
 stoprecord
 str_to_edid_pid(std::string const&)
 str_to_edid_pid(std::string const&) (.cold)
@@ -23215,7 +23226,6 @@ wmemset
 wn>Jj
 world_from_global
 world_identity
-wq$+0
 wrapS
 wrapT
 write

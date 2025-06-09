@@ -1,6 +1,8 @@
 {
 	"language":		"english",
 
+	"pairing_window_title": "Controller Pairing",
+
 	"pairing_start_failed_title": "Pairing failed",
 	"pairing_start_failed_desc": "Pairing was unable to start.",
 

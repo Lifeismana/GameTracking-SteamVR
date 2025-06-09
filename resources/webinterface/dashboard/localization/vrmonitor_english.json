@@ -144,6 +144,8 @@
 	"MenuAction_ConfigDirectory": "Config Directory",
 	"MenuAction_LogDirectory": "Log Directory",
 	"MenuAction_Update": "Update",
+	"Settings_Developer_TrackingDataHeader": "Record Tracking Data",
+	"Settings_Developer_TrackingDataSavedSuccessfully": "Tracking Data Saved Successfully to log folder in your Steam directory",
 	"Settings_Advanced_AllowSupersampleFiltering": "Advanced Supersample Filtering",
 	"Settings_Video_HDCP14LegacyCompatibility": "HDCP 1.4 Legacy Compatibility",
 	"Settings_Advanced_Paths_Header": "Paths",
@@ -493,6 +495,9 @@
 	"Settings_SetAsOpenXRRuntime": "Set SteamVR as OpenXR Runtime",
 	"Settings_OpenXR_MetaPluginCompatibility": "Meta Plugin Compatibility",
 	"Settings_OpenXR_MetaPluginCompatibilityTip": "EXPERIMENTAL: May create unwanted behavior. Set to have SteamVR try to simulate Meta's OpenXR Unity plugin requirements.",
+
+	"Settings_VersionInfo_SteamVRVersion": "SteamVR Version",
+	"Settings_VersionInfo_WebpackBuildTime": "SteamVR Web Build Date",
 
 	"OpenXR_AnotherSteamVR": "Another copy of SteamVR",
 	"OpenXR_SteamVR": "SteamVR",

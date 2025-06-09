@@ -661,9 +661,9 @@ $tAUUPE
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CLighthousePairing@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_636292ec0dcdb162c491278084ee9b55>@@@std@@U?$default_delete@V?$tuple@V<lambda_636292ec0dcdb162c491278084ee9b55>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@U?$default_delete@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@U?$default_delete@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@@2@@std@@@std@@
 .?AV?$_Ref_count@UMultiCameraColorFrame@ST@@@std@@
 .?AV?$_Ref_count_obj@UMultiCameraColorFrame@ST@@@std@@
 .?AV?$_Ref_count_obj@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
@@ -698,7 +698,7 @@ $tAUUPE
 .?AVCDepthAugmentedPassthrough@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xf3883f88@vortex@@
+.?AVCDisambiguatorTDM@?A0xdd5c741a@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCFirmwareManifest@@
 .?AVCHandPoseLogic_IndexController@vortex@@
@@ -2016,6 +2016,7 @@ HTC Vive Developer Edition
 HTC Vive Pro
 HTC-VIVE
 HWID Signature not found
+HandAnimEvaluator
 HasField
 Hex and octal numbers must be integers.
 Hid not open\n
@@ -2135,7 +2136,7 @@ IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
 IVRDriverDirectModeComponent_009
 IVRDriverInputInternal_XXX
-IVRDriverInput_003
+IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
@@ -2161,7 +2162,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_022
+IVRSystem_023
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
@@ -2531,6 +2532,7 @@ R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
 RSDS
+R\vp>z
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -2549,6 +2551,7 @@ Refreshing audio devices\n
 RegCloseKey
 RegEnumValueW
 RegOpenKeyA
+RegOpenKeyExA
 RegOpenKeyExW
 RegQueryValueExA
 RegQueryValueExW
@@ -2598,6 +2601,7 @@ SKyu
 SOB total=
 SOB: add 
 SOB: drop 
+SOFTWARE\Valve\Steam
 SPEED
 SRB-0
 STEAMVR_DISABLE_CRASH_REPORTING
@@ -2728,6 +2732,7 @@ Start test failed\n
 StartSession
 Started pairing dongle serial=%s timeout=%f\n
 Starting test\n
+SteamPath
 SteamVR_Namespace
 SteamXR Interop Device
 Still waiting for Direct Mode Display...\n
@@ -2772,6 +2777,7 @@ Thread failed to initialize 1\n
 Thread failed to initialize 2\n
 Thread watchdog timed out %s
 Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
+ThreadWatchdog
 Time: 
 Timed Out
 TimestampQueryPool-%s
@@ -3340,6 +3346,8 @@ Zjz\v
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
 [KeyFramedDataResource] Failed to load GLTF file: %s
+[System] No OS path for logs available\n
+[System] No Steam Path available.\n
 [h1R
 [json.exception.
 [lazy = true] can only be specified for submessage fields.
@@ -3673,34 +3681,34 @@ byteLength
 byteOffset
 byteStride
 bytes
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\prismdirect.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
 cal_method
 calloc
 camera
@@ -4265,6 +4273,7 @@ lights
 list<T> too long
 localeconv
 location
+logs
 loop
 low_mm
 mSx@
@@ -4424,7 +4433,6 @@ outofdata
 outofmem
 output
 output buffer limit
-output_path
 pBuffer != nullptr
 pClient
 pCmdBuf
@@ -4612,6 +4620,7 @@ stackLimit
 start
 start tracking from base
 start_pairing
+start_tracking_recording
 startup
 stby
 steamvr
@@ -4619,6 +4628,7 @@ stmute
 stmuteb
 stoi argument out of range
 stop_pairing
+stop_tracking_recording
 stoprecord
 stoul argument out of range
 strcat_s

@@ -1331,6 +1331,7 @@ Got Debug message from client
 Got permanent SVL init failure on hotplug attempt
 GtH|ITJ8K
 H6s<
+HandAnimEvaluator
 HandleUnrecoverableError( %d )\n
 HistogramC
 HistogramH
@@ -1415,7 +1416,7 @@ IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_009
 IVRDriverInputInternal_XXX
-IVRDriverInput_003
+IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
@@ -1438,7 +1439,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_022
+IVRSystem_023
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
@@ -1740,8 +1741,9 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDSl
+RSDS(
 RX Fail:%d
+R\vp\fp
 RaiseException
 Rate Remark: %d %d\n
 Received 0 byte message on control connection. Disconnecting
@@ -2478,6 +2480,7 @@ asset
 asyncSend
 asyncStartEncode
 atan2f
+atlasMode
 atof
 atoi
 atoll
@@ -2554,12 +2557,12 @@ byteLength
 byteOffset
 byteStride
 c!!B0
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c=qx
 cAudBufAvg
 cAudBufMax

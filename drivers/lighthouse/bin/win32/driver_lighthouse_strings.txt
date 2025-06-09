@@ -483,7 +483,7 @@ $tI<unknown>
 .?AVCBoneMaskResource@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xd780313c@vortex@@
+.?AVCDisambiguatorTDM@?A0xf9547aae@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCFirmwareManifest@@
 .?AVCHandPoseLogic_IndexController@vortex@@
@@ -804,7 +804,7 @@ $tI<unknown>
 /yQA
 0 width
 0-pixel image
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899\f
+000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899\x%02x
 0123456789abcdef
 0a\v6<
@@ -1568,6 +1568,7 @@ HTC Vive Developer Edition
 HTC Vive Pro
 HTC-VIVE
 HWID Signature not found
+HandAnimEvaluator
 HasField
 Hex and octal numbers must be integers.
 Hid not open\n
@@ -1680,7 +1681,7 @@ IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
 IVRDriverDirectModeComponent_009
 IVRDriverInputInternal_XXX
-IVRDriverInput_003
+IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
@@ -1706,7 +1707,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_022
+IVRSystem_023
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
@@ -2056,7 +2057,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSc5
+RSDS\
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -2072,7 +2073,9 @@ Recording to "%s"\n
 Refreshing audio devices\n
 RegCloseKey
 RegEnumValueW
+RegOpenKeyExA
 RegOpenKeyExW
+RegQueryValueExA
 RegQueryValueExW
 RegisterClassA
 RegisterDeviceNotificationA
@@ -2112,6 +2115,7 @@ SKyu
 SOB total=
 SOB: add 
 SOB: drop 
+SOFTWARE\Valve\Steam
 SPEED
 SRB-0
 STEAMVR_VERBOSE_HAPTIC_LOG
@@ -2230,6 +2234,7 @@ Start
 Start test failed\n
 Started pairing dongle serial=%s timeout=%f\n
 Starting test\n
+SteamPath
 Still waiting for Direct Mode Display...\n
 Stopped tracking with universe %llu\n
 Stopping playback mirror thread\n
@@ -2753,6 +2758,8 @@ Zjz\v
 [DepthAugmentedPassthrough] supported on this system: %d\n
 [FORCEUPDATE]
 [KeyFramedDataResource] Failed to load GLTF file: %s
+[System] No OS path for logs available\n
+[System] No Steam Path available.\n
 [h1R
 [json.exception.
 [lazy = true] can only be specified for submessage fields.
@@ -3082,16 +3089,16 @@ byteLength
 byteOffset
 byteStride
 bytes
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\lighthouse\Retail_lighthouse\win32\2017\driver_lighthouse.pdb
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\lighthouse\lighthousehmddriver.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\Retail_lighthouse\win32\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_win32\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win32\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_win32\build\src\vortexlib\generated_proto\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_win32\build\src\vortexlib\stereo_setup.cpp
 cal_method
 calloc
 camera
@@ -3588,6 +3595,7 @@ lights
 list<T> too long
 localeconv
 location
+logs
 loop
 low_mm
 lstrcmpW
@@ -3712,7 +3720,6 @@ outofdata
 outofmem
 output
 output buffer limit
-output_path
 pNewResource
 pNewResource->Load( absFilePath )
 package
@@ -3766,7 +3773,6 @@ proximity
 pt_br
 pt_pt
 public_dependency
-pxEX
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 r2max
@@ -3774,6 +3780,7 @@ rEyeFile:%s width:%d height:%d components:%d\n
 range
 read past buffer
 realloc
+record
 recorded
 recorder
 recorder + 
@@ -3878,6 +3885,7 @@ stackLimit
 start
 start tracking from base
 start_pairing
+start_tracking_recording
 startup
 stby
 steamvr
@@ -3885,6 +3893,8 @@ stmute
 stmuteb
 stoi argument out of range
 stop_pairing
+stop_tracking_recording
+stoprecord
 stoul argument out of range
 strchr
 stream end

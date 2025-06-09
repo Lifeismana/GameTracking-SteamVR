@@ -679,6 +679,7 @@ $tI(kn
 /grip/pose
 /haptic
 /icon
+/input
 /input/
 /input/a
 /input/aim
@@ -710,6 +711,8 @@ $tI(kn
 /input/menu/click
 /input/palm_ext
 /input/palm_ext/pose
+/input/pinch_ext/pose
+/input/poke_ext/pose
 /input/squeeze
 /input/squeeze/click
 /input/system
@@ -729,6 +732,7 @@ $tI(kn
 /input_profile
 /interaction_profiles/
 /interaction_profiles/ext/eye_gaze_interaction
+/interaction_profiles/ext/hand_interaction_ext
 /interaction_profiles/google/daydream_controller
 /interaction_profiles/hp/mixed_reality_controller
 /interaction_profiles/htc/vive_controller
@@ -758,6 +762,10 @@ $tI(kn
 /pose/openxr_grip
 /pose/openxr_handmodel
 /pose/openxr_handmodel_r
+/pose/openxr_pinch
+/pose/openxr_pinch_r
+/pose/openxr_poke
+/pose/openxr_poke_r
 /pose/raw
 /pose/tip
 /proc
@@ -846,12 +854,13 @@ $tI(kn
 /user/gamepad/output/haptic_left_trigger
 /user/gamepad/output/haptic_right
 /user/gamepad/output/haptic_right_trigger
-/user/hand/
 /user/hand/left
 /user/hand/left is %X\n
 /user/hand/left/input/a/click
 /user/hand/left/input/a/touch
 /user/hand/left/input/aim/pose
+/user/hand/left/input/aim_activate_ext/ready_ext
+/user/hand/left/input/aim_activate_ext/value
 /user/hand/left/input/b/click
 /user/hand/left/input/b/touch
 /user/hand/left/input/back/click
@@ -859,12 +868,18 @@ $tI(kn
 /user/hand/left/input/dpad_left/click
 /user/hand/left/input/dpad_right/click
 /user/hand/left/input/dpad_up/click
+/user/hand/left/input/grasp_ext/ready_ext
+/user/hand/left/input/grasp_ext/value
 /user/hand/left/input/grip/click
 /user/hand/left/input/grip/pose
 /user/hand/left/input/grip/value
 /user/hand/left/input/joystick/click
 /user/hand/left/input/menu/click
 /user/hand/left/input/palm_ext/pose
+/user/hand/left/input/pinch_ext/pose
+/user/hand/left/input/pinch_ext/ready_ext
+/user/hand/left/input/pinch_ext/value
+/user/hand/left/input/poke_ext/pose
 /user/hand/left/input/primary/click
 /user/hand/left/input/secondary/click
 /user/hand/left/input/select/click
@@ -911,16 +926,24 @@ $tI(kn
 /user/hand/right/input/a/click
 /user/hand/right/input/a/touch
 /user/hand/right/input/aim/pose
+/user/hand/right/input/aim_activate_ext/ready_ext
+/user/hand/right/input/aim_activate_ext/value
 /user/hand/right/input/b
 /user/hand/right/input/b/click
 /user/hand/right/input/b/touch
 /user/hand/right/input/back/click
+/user/hand/right/input/grasp_ext/ready_ext
+/user/hand/right/input/grasp_ext/value
 /user/hand/right/input/grip/click
 /user/hand/right/input/grip/pose
 /user/hand/right/input/grip/value
 /user/hand/right/input/joystick/click
 /user/hand/right/input/menu/click
 /user/hand/right/input/palm_ext/pose
+/user/hand/right/input/pinch_ext/pose
+/user/hand/right/input/pinch_ext/ready_ext
+/user/hand/right/input/pinch_ext/value
+/user/hand/right/input/poke_ext/pose
 /user/hand/right/input/primary/click
 /user/hand/right/input/secondary/click
 /user/hand/right/input/select/click
@@ -1014,6 +1037,7 @@ $tI(kn
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:18:09
 0123456789
 0123456789ABCDEF
 1.0.3.16
@@ -1069,6 +1093,7 @@ $tI(kn
 13CVRSystem_019
 13CVRSystem_020
 13CVRSystem_021
+13CVRSystem_022
 13IXrCompositor
 14CDriverManager
 14CHmdSystem_001
@@ -1175,7 +1200,6 @@ $tI(kn
 17CVRCompositor_025
 17CVRCompositor_026
 17CVRCompositor_027
-17CVRCompositor_028
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
@@ -1260,7 +1284,6 @@ $tI(kn
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:19:35
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1357,6 +1380,7 @@ $tI(kn
 24HmdInterfaceRegistrationI13CVRSystem_019E
 24HmdInterfaceRegistrationI13CVRSystem_020E
 24HmdInterfaceRegistrationI13CVRSystem_021E
+24HmdInterfaceRegistrationI13CVRSystem_022E
 24HmdInterfaceRegistrationI8CHmd_001E
 24HmdInterfaceRegistrationI8CHmd_002E
 24HmdInterfaceRegistrationI8CHmd_003E
@@ -1404,6 +1428,7 @@ $tI(kn
 27CInputFilter_Boolean_Toggle
 27CInputFilter_Pose_Component
 27CInputFilter_RadialMenuBase
+27CInputFilter_Static_Boolean
 27CSxrGraphicsBindingGLOpenVR
 27CVRMsg_CompositorDumpImages
 27CVRMsg_CreateSwapTextureSet
@@ -1548,7 +1573,6 @@ $tI(kn
 31CompositorInterfaceRegistrationI17CVRCompositor_025E
 31CompositorInterfaceRegistrationI17CVRCompositor_026E
 31CompositorInterfaceRegistrationI17CVRCompositor_027E
-31CompositorInterfaceRegistrationI17CVRCompositor_028E
 32CCompositorPluginProvider_Latest
 32CServerTrackedDeviceProvider_002
 32CServerTrackedDeviceProvider_003
@@ -1799,6 +1823,7 @@ $tI(kn
 >333?
 ?FbPKSsS0_PKN8tinygltf5ImageEbPKNS1_11FsCallbacksEPKNS1_12URICallbacksEPSsPvE
 ?N2vr10IVRMCStoreE
+?ffffff
 @(knN
 @UUUUUU
 @mx)a
@@ -1846,9 +1871,6 @@ ActionTypeNameToEnum(std::string const&)
 Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
 Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
 Active pri %u, device=%s
-AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string>>&)
-AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string>>&) (.cold)
-AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string>>&)::dpadDirections
 AddLayerProjection
 AddLayerQuad
 AddLegalInteractionProfile(char const*, std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t>>)
@@ -2120,8 +2142,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
-C.1883.372105
-C.1884.372116
+C.1884.372127
+C.1885.372138
 C.71.340283
 C.77.213895
 C.9.215785
@@ -3083,6 +3105,10 @@ CInputFilter_Scalar_TrackpadScroll_Smooth::ClearLastVelocities() (.cold)
 CInputFilter_Scalar_TrackpadScroll_Smooth::Process(IInputFilterValueStore*)
 CInputFilter_Scalar_TrackpadScroll_Smooth::Process(IInputFilterValueStore*) (.cold)
 CInputFilter_Scalar_TrackpadScroll_Smooth::~CInputFilter_Scalar_TrackpadScroll_Smooth()
+CInputFilter_Static_Boolean::BInit(IInputFilterValueStore*, CActionFilter const&)
+CInputFilter_Static_Boolean::BInit(IInputFilterValueStore*, CActionFilter const&) (.cold)
+CInputFilter_Static_Boolean::Process(IInputFilterValueStore*)
+CInputFilter_Static_Boolean::~CInputFilter_Static_Boolean()
 CInputFilter_TriggerHaptic::BInit(IInputFilterValueStore*, CActionFilter const&)
 CInputFilter_TriggerHaptic::BInit(IInputFilterValueStore*, CActionFilter const&) (.cold)
 CInputFilter_TriggerHaptic::Process(IInputFilterValueStore*)
@@ -3451,6 +3477,7 @@ CRenderModelManager::CacheEmptyModelInfo(unsigned int, std::string const&) (.col
 CRenderModelManager::Cleanup()
 CRenderModelManager::ClearCache()
 CRenderModelManager::ClearDeviceCache()
+CRenderModelManager::Component_t::Component_t()
 CRenderModelManager::Component_t::GetButtonMask()
 CRenderModelManager::Component_t::GetInputState(vr::IVRPaths*, unsigned long)
 CRenderModelManager::Component_t::GetInputState(vr::VRControllerState001_t const*)
@@ -3538,10 +3565,10 @@ CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
 CSWTCH.141
 CSWTCH.16
-CSWTCH.212
+CSWTCH.213
 CSWTCH.23
 CSWTCH.28
-CSWTCH.386
+CSWTCH.392
 CSWTCH.408
 CSWTCH.561
 CSWTCH.828
@@ -4794,6 +4821,7 @@ CVRChaperoneClient::BInit(CVRClient*)
 CVRChaperoneClient::BInit(CVRClient*) (.cold)
 CVRChaperoneClient::ClearRoomSetup()
 CVRChaperoneClient::CommitFloorHeight(float)
+CVRChaperoneClient::CommitFloorHeight(float) (.cold)
 CVRChaperoneClient::CommitPlayspaceCircleBoundary(float, vr::HmdMatrix34_t const&)
 CVRChaperoneClient::CommitPlayspacePerimeter(std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t>>&, vr::HmdMatrix34_t const&)
 CVRChaperoneClient::CommitPlayspacePerimeter(std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t>>&, vr::HmdMatrix34_t const&) (.cold)
@@ -4830,6 +4858,8 @@ CVRChaperoneClient::ImportFromBufferToWorking(char const*, unsigned int)
 CVRChaperoneClient::ImportFromBufferToWorking(char const*, unsigned int) (.cold)
 CVRChaperoneClient::IsHMDOutOfBoundsStrict()
 CVRChaperoneClient::IsOriginCalibrated(vr::ETrackingUniverseOrigin)
+CVRChaperoneClient::IsUsingDefaultPerimeter()
+CVRChaperoneClient::IsUsingDefaultPerimeter() (.cold)
 CVRChaperoneClient::NotifyRoomSetupStep(vr::ERoomSetupStep, bool)
 CVRChaperoneClient::QuickCalibratePlayspace(vr::EQuickCalibrateType)
 CVRChaperoneClient::ReloadFromDisk(vr::EChaperoneConfigFile)
@@ -5036,7 +5066,6 @@ CVRCompositorClient::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
 CVRCompositorClient::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**) (.cold)
 CVRCompositorClient::GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 CVRCompositorClient::GetPreAndPostSubmitTimingMs(float*) const
-CVRCompositorClient::GetSubmitTexture(vr::Texture_t*, bool*, vr::EVRCompositorTextureUsage, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
 CVRCompositorClient::GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
 CVRCompositorClient::GetVulkanInstanceExtensionsRequired(char*, unsigned int)
 CVRCompositorClient::Init(vr::IVRSystem*, vr::IVRCompositorSystemInternal*, vr::IVRApplications*, CVRClient*, IVRClientInternal*)
@@ -5044,6 +5073,7 @@ CVRCompositorClient::Init(vr::IVRSystem*, vr::IVRCompositorSystemInternal*, vr::
 CVRCompositorClient::LockGLSharedTextureForAccess(void*)
 CVRCompositorClient::PostPresentHandoff()
 CVRCompositorClient::PostPresentHandoff() (.cold)
+CVRCompositorClient::PostPresentHandoff()::s_bEnableFrameEndMarkers
 CVRCompositorClient::PredictPoses(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 CVRCompositorClient::PredictPosesInternal(unsigned int, vr::TrackedDevicePose_t*, unsigned int, bool, double*)
 CVRCompositorClient::PredictPosesInternal(unsigned int, vr::TrackedDevicePose_t*, unsigned int, bool, double*) (.cold)
@@ -5130,7 +5160,6 @@ CVRCompositorClientBase::GetLastPoses(vr::TrackedDevicePose_t*, unsigned int, vr
 CVRCompositorClientBase::GetMirrorTextureD3D11(vr::EVREye, void*, void**)
 CVRCompositorClientBase::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
 CVRCompositorClientBase::GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
-CVRCompositorClientBase::GetSubmitTexture(vr::Texture_t*, bool*, vr::EVRCompositorTextureUsage, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
 CVRCompositorClientBase::GetTrackingSpace()
 CVRCompositorClientBase::GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
 CVRCompositorClientBase::GetVulkanInstanceExtensionsRequired(char*, unsigned int)
@@ -5298,6 +5327,7 @@ CVRCompositorSharedTextures::InitVulkanTimingDevice(VkInstance_T*, VkPhysicalDev
 CVRCompositorSharedTextures::InitializeVulkan()
 CVRCompositorSharedTextures::InitializeVulkan()::s_bInitializedVulkan
 CVRCompositorSharedTextures::LockGLSharedTextureForAccess(void*)
+CVRCompositorSharedTextures::MarkFrameEnd(CVRCompositorSharedTextures::CommandBuffer_t*)
 CVRCompositorSharedTextures::MarkTimingEvent(unsigned int, char const*)
 CVRCompositorSharedTextures::OpenSharedTextureD3D11(unsigned long, void*, void**)
 CVRCompositorSharedTextures::Params::GetDepthInfo() const
@@ -6206,58 +6236,6 @@ CVRCompositor_027::SubmitExplicitTimingData()
 CVRCompositor_027::SuspendRendering(bool)
 CVRCompositor_027::UnlockGLSharedTextureForAccess(void*)
 CVRCompositor_027::WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
-CVRCompositor_028::CanRenderScene()
-CVRCompositor_028::ClearLastSubmittedFrame()
-CVRCompositor_028::ClearSkyboxOverride()
-CVRCompositor_028::ClearStageOverride()
-CVRCompositor_028::CompositorBringToFront()
-CVRCompositor_028::CompositorDumpImages()
-CVRCompositor_028::CompositorGoToBack()
-CVRCompositor_028::CompositorQuit()
-CVRCompositor_028::FadeGrid(float, bool)
-CVRCompositor_028::FadeToColor(float, float, float, float, float, bool)
-CVRCompositor_028::ForceInterleavedReprojectionOn(bool)
-CVRCompositor_028::ForceReconnectProcess()
-CVRCompositor_028::GetCompositorBenchmarkResults(vr::Compositor_BenchmarkResults*, unsigned int)
-CVRCompositor_028::GetCumulativeStats(vr::Compositor_CumulativeStats*, unsigned int)
-CVRCompositor_028::GetCurrentFadeColor(bool)
-CVRCompositor_028::GetCurrentGridAlpha()
-CVRCompositor_028::GetCurrentSceneFocusProcess()
-CVRCompositor_028::GetFrameTimeRemaining()
-CVRCompositor_028::GetFrameTiming(vr::Compositor_FrameTiming*, unsigned int)
-CVRCompositor_028::GetFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
-CVRCompositor_028::GetLastFrameRenderer()
-CVRCompositor_028::GetLastPoseForTrackedDeviceIndex(unsigned int, vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t*)
-CVRCompositor_028::GetLastPosePredictionIDs(unsigned int*, unsigned int*)
-CVRCompositor_028::GetLastPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
-CVRCompositor_028::GetMirrorTextureD3D11(vr::EVREye, void*, void**)
-CVRCompositor_028::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
-CVRCompositor_028::GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
-CVRCompositor_028::GetTrackingSpace()
-CVRCompositor_028::GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
-CVRCompositor_028::GetVulkanInstanceExtensionsRequired(char*, unsigned int)
-CVRCompositor_028::HideMirrorWindow()
-CVRCompositor_028::IsCurrentSceneFocusAppLoading()
-CVRCompositor_028::IsFullscreen()
-CVRCompositor_028::IsMirrorWindowVisible()
-CVRCompositor_028::IsMotionSmoothingEnabled()
-CVRCompositor_028::IsMotionSmoothingSupported()
-CVRCompositor_028::LockGLSharedTextureForAccess(void*)
-CVRCompositor_028::PostPresentHandoff()
-CVRCompositor_028::ReleaseMirrorTextureD3D11(void*)
-CVRCompositor_028::ReleaseSharedGLTexture(unsigned int, void*)
-CVRCompositor_028::SetExplicitTimingMode(vr::EVRCompositorTimingMode)
-CVRCompositor_028::SetSkyboxOverride(vr::Texture_t const*, unsigned int)
-CVRCompositor_028::SetStageOverride_Async(char const*, vr::HmdMatrix34_t const*, vr::Compositor_StageRenderSettings const*, unsigned int)
-CVRCompositor_028::SetTrackingSpace(vr::ETrackingUniverseOrigin)
-CVRCompositor_028::ShouldAppRenderWithLowResources()
-CVRCompositor_028::ShowMirrorWindow()
-CVRCompositor_028::Submit(vr::EVREye, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
-CVRCompositor_028::SubmitExplicitTimingData()
-CVRCompositor_028::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
-CVRCompositor_028::SuspendRendering(bool)
-CVRCompositor_028::UnlockGLSharedTextureForAccess(void*)
-CVRCompositor_028::WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 CVRControlPanel_001::AbortTransition()
 CVRControlPanel_001::ForceQuitProcess(unsigned int)
 CVRControlPanel_001::GetCurrentCompositorInterface(char const*)
@@ -13080,6 +13058,7 @@ CVROverlayLatest::ShowMessageOverlay(char const*, char const*, char const*, char
 CVROverlayLatest::ShowMessageOverlay(char const*, char const*, char const*, char const*, char const*, char const*) (.cold)
 CVROverlayLatest::ShowOverlay(unsigned long)
 CVROverlayLatest::ShowOverlay(unsigned long) (.cold)
+CVROverlayLatest::SnoopOverlayEvent(vr::VREvent_t*, unsigned long)
 CVROverlayLatest::TriggerLaserMouseHapticVibration(unsigned long, float, float, float)
 CVROverlayLatest::TriggerLaserMouseHapticVibration(unsigned long, float, float, float) (.cold)
 CVROverlayLatest::WaitFrameSync(unsigned int)
@@ -15643,8 +15622,8 @@ CVRSystemLatest::AddSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags) (.col
 CVRSystemLatest::ApplyApplicationSpecificPoseTransform(unsigned int, vr::TrackedDevicePose_t*, float)
 CVRSystemLatest::ApplyApplicationSpecificPoseTransform(vr::TrackedDevicePose_t*, unsigned int, float)
 CVRSystemLatest::ApplyTransform(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const*, vr::HmdMatrix34_t const*)
-CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*)
-CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*) (.cold)
+CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*, CVROverlayLatest*)
+CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*, CVROverlayLatest*) (.cold)
 CVRSystemLatest::ClearHiddenAreaCache()
 CVRSystemLatest::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
 CVRSystemLatest::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
@@ -15725,6 +15704,7 @@ CVRSystemLatest::GetTrackedDeviceActivityLevel(unsigned int)
 CVRSystemLatest::GetTrackedDeviceClass(unsigned int)
 CVRSystemLatest::GetTrackedDeviceClassUnmodified(unsigned int)
 CVRSystemLatest::GetTrackedDeviceIndexForControllerRole(vr::ETrackedControllerRole)
+CVRSystemLatest::GetTrackingRecordingStatus() const
 CVRSystemLatest::GetUint64TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
 CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
 CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*) (.cold)
@@ -15748,12 +15728,13 @@ CVRSystemLatest::PerformFirmwareUpdate(unsigned int)
 CVRSystemLatest::PollNextEvent(vr::VREvent_t*, unsigned int)
 CVRSystemLatest::PollNextEventInternal(vr::VREvent_t*, unsigned int, unsigned long, unsigned int*)
 CVRSystemLatest::PollNextEventWithPose(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*)
-CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*)
-CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*) (.cold)
-CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*)::bLogOnce
-CVRSystemLatest::PollNextEventWithPoseWrapper(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*)
-CVRSystemLatest::PollNextEventWithPoseWrapper(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*) (.cold)
-CVRSystemLatest::PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int)
+CVRSystemLatest::PollNextEventWithPoseAndOverlays(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long*)
+CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*, unsigned long*)
+CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*, unsigned long*) (.cold)
+CVRSystemLatest::PollNextEventWithPoseInternal(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*, unsigned long*)::bLogOnce
+CVRSystemLatest::PollNextEventWithPoseWrapper(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*, unsigned long*)
+CVRSystemLatest::PollNextEventWithPoseWrapper(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long, unsigned int*, unsigned long*) (.cold)
+CVRSystemLatest::PollNextOverlayEventInternal(vr::ETrackingUniverseOrigin, unsigned long, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long*)
 CVRSystemLatest::PostDriverEvent(vr::VREvent_t const&, unsigned int)
 CVRSystemLatest::PostGlobalEvent(vr::VREvent_t const&, unsigned int)
 CVRSystemLatest::PostLocalEvent(vr::VREvent_t const&)
@@ -16676,6 +16657,52 @@ CVRSystem_021::SetDisplayVisibility(bool)
 CVRSystem_021::ShouldApplicationPause()
 CVRSystem_021::ShouldApplicationReduceRenderingWork()
 CVRSystem_021::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
+CVRSystem_022::AcknowledgeQuit_Exiting()
+CVRSystem_022::ApplyTransform(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const*, vr::HmdMatrix34_t const*)
+CVRSystem_022::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
+CVRSystem_022::GetAppContainerFilePaths(char*, unsigned int)
+CVRSystem_022::GetArrayTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, unsigned int, void*, unsigned int, vr::ETrackedPropertyError*)
+CVRSystem_022::GetBoolTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_022::GetButtonIdNameFromEnum(vr::EVRButtonId)
+CVRSystem_022::GetControllerAxisTypeNameFromEnum(vr::EVRControllerAxisType)
+CVRSystem_022::GetControllerRoleForTrackedDeviceIndex(unsigned int)
+CVRSystem_022::GetControllerState(unsigned int, vr::VRControllerState001_t*, unsigned int)
+CVRSystem_022::GetControllerStateWithPose(vr::ETrackingUniverseOrigin, unsigned int, vr::VRControllerState001_t*, unsigned int, vr::TrackedDevicePose_t*)
+CVRSystem_022::GetD3D9AdapterIndex()
+CVRSystem_022::GetDXGIOutputInfo(int*)
+CVRSystem_022::GetDeviceToAbsoluteTrackingPose(vr::ETrackingUniverseOrigin, float, vr::TrackedDevicePose_t*, unsigned int)
+CVRSystem_022::GetEventTypeNameFromEnum(vr::EVREventType)
+CVRSystem_022::GetEyeToHeadTransform(vr::EVREye)
+CVRSystem_022::GetFloatTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_022::GetHiddenAreaMesh(vr::EVREye, vr::EHiddenAreaMeshType)
+CVRSystem_022::GetInt32TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_022::GetMatrix34TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_022::GetOutputDevice(unsigned long*, vr::ETextureType, VkInstance_T*)
+CVRSystem_022::GetProjectionMatrix(vr::EVREye, float, float)
+CVRSystem_022::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+CVRSystem_022::GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
+CVRSystem_022::GetRawZeroPoseToStandingAbsoluteTrackingPose()
+CVRSystem_022::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+CVRSystem_022::GetRuntimeVersion()
+CVRSystem_022::GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
+CVRSystem_022::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)
+CVRSystem_022::GetStringTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, char*, unsigned int, vr::ETrackedPropertyError*)
+CVRSystem_022::GetTimeSinceLastVsync(float*, unsigned long*)
+CVRSystem_022::GetTrackedDeviceActivityLevel(unsigned int)
+CVRSystem_022::GetTrackedDeviceClass(unsigned int)
+CVRSystem_022::GetTrackedDeviceIndexForControllerRole(vr::ETrackedControllerRole)
+CVRSystem_022::GetUint64TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_022::IsDisplayOnDesktop()
+CVRSystem_022::IsInputAvailable()
+CVRSystem_022::IsSteamVRDrawingControllers()
+CVRSystem_022::IsTrackedDeviceConnected(unsigned int)
+CVRSystem_022::PerformFirmwareUpdate(unsigned int)
+CVRSystem_022::PollNextEvent(vr::VREvent_t*, unsigned int)
+CVRSystem_022::PollNextEventWithPose(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*)
+CVRSystem_022::SetDisplayVisibility(bool)
+CVRSystem_022::ShouldApplicationPause()
+CVRSystem_022::ShouldApplicationReduceRenderingWork()
+CVRSystem_022::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
 CVRTrackedCameraExternalService::CVRTrackedCameraExternalService()
 CVRTrackedCameraExternalService::Cleanup()
 CVRTrackedCameraExternalService::GetTrackedCamera()
@@ -17101,6 +17128,7 @@ CVulkanVRRenderer::MapTexture - bad parameter\n
 CVulkanVRRenderer::MapTexture - image is already mapped\n
 CVulkanVRRenderer::MapTexture - vkMapMemory failed with error %d\n
 CVulkanVRRenderer::MapTexture(VRRenderer::TextureBase*, VRRenderer::MapType, void**, unsigned int*)
+CVulkanVRRenderer::MarkFrameEnd(VkCommandBuffer_T*)
 CVulkanVRRenderer::Present(vr::IHmdWindow::EWindowType)
 CVulkanVRRenderer::Present(vr::IHmdWindow::EWindowType) (.cold)
 CVulkanVRRenderer::QueueClearsIfNeeded()
@@ -17285,8 +17313,6 @@ CommitWorkingCopy
 Committed chaperone working copy\n
 Completed
 ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 9, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_008>::CreateAdapter(void*, std::string const&)
-ComposeDpadInputPath(std::string, std::string, std::string, std::string)
-ComposeDpadInputPath(std::string, std::string, std::string, std::string) (.cold)
 ComposeLayerProjection
 ComposeLayerProjection: failed to submit view %u: %s\n
 ComposeLayerQuad
@@ -17349,8 +17375,6 @@ CompositorInterfaceRegistration<CVRCompositor_026>::GetInterface()
 CompositorInterfaceRegistration<CVRCompositor_026>::~CompositorInterfaceRegistration()
 CompositorInterfaceRegistration<CVRCompositor_027>::GetInterface()
 CompositorInterfaceRegistration<CVRCompositor_027>::~CompositorInterfaceRegistration()
-CompositorInterfaceRegistration<CVRCompositor_028>::GetInterface()
-CompositorInterfaceRegistration<CVRCompositor_028>::~CompositorInterfaceRegistration()
 Compute Client
 ComputeBindingCachePath(std::string const&, std::string const&)
 ComputeBindingCachePath(std::string const&, std::string const&) (.cold)
@@ -17483,6 +17507,7 @@ Dmabuf modifiers disabled by environment variable STEAMVR_DISABLE_DMABUF_MODIFIE
 DominantHand
 Done reading EDID vendor Id.\n
 Dpad binding modification received for component (%s) and interaction profile (%s)
+DpadHelper_t::~DpadHelper_t()
 Driver Failed (200)
 Driver Not Known (201)
 Driver Not Loaded (203)
@@ -17926,7 +17951,6 @@ FnTable:IVRCompositor_024
 FnTable:IVRCompositor_025
 FnTable:IVRCompositor_026
 FnTable:IVRCompositor_027
-FnTable:IVRCompositor_028
 FnTable:IVRIOBuffer_002
 FnTable:IVRInput_001
 FnTable:IVRInput_002
@@ -17972,6 +17996,7 @@ FnTable:IVRSystem_018
 FnTable:IVRSystem_019
 FnTable:IVRSystem_020
 FnTable:IVRSystem_021
+FnTable:IVRSystem_022
 FnTable:IVRTrackedCamera_002
 FnTable:IVRTrackedCamera_003
 FnTable:IVRTrackedCamera_004
@@ -18039,6 +18064,11 @@ GL_EXT_semaphore
 GL_EXT_semaphore_fd
 GenSessionId()::sNextSessionId
 GenerateChangeNotifications
+GenerateDpadPaths(DpadHelper_t)
+GenerateDpadPaths(DpadHelper_t) (.cold)
+GenerateDpadPaths(DpadHelper_t)::dpadDirections
+GenerateDpadPaths(DpadHelper_t)::sThumbstick
+GenerateDpadPaths(DpadHelper_t)::sTrackpad
 GenerateInteractionProfiles(CSxrInstance*)
 GenerateInteractionProfiles(CSxrInstance*)::'lambda'()::operator()() const::encrypted
 GenerateLinuxManifest(std::string, std::string)
@@ -18074,9 +18104,6 @@ GetDeviceExtensionProperties - failed to enumerate extensions\n
 GetDeviceExtensionProperties - failed to get extension count\n
 GetDeviceExtensionProperties - no instance extensions supported\n
 GetDevicePoseFromSpace(XrSpaceLocation&, XrSpaceVelocity&, long, unsigned int, vr::ETrackingUniverseOrigin)
-GetDpadBindings(char const*)
-GetDpadBindings(char const*) (.cold)
-GetDpadBindings(char const*)::'lambda'()::operator()() const::encrypted
 GetDpadDirection(std::string)
 GetDpadSubMode(std::string)
 GetEnglishStringForHmdError(vr::EVRInitError)
@@ -18353,6 +18380,8 @@ HmdInterfaceRegistration<CVRSystem_020>::GetInterface()
 HmdInterfaceRegistration<CVRSystem_020>::~HmdInterfaceRegistration()
 HmdInterfaceRegistration<CVRSystem_021>::GetInterface()
 HmdInterfaceRegistration<CVRSystem_021>::~HmdInterfaceRegistration()
+HmdInterfaceRegistration<CVRSystem_022>::GetInterface()
+HmdInterfaceRegistration<CVRSystem_022>::~HmdInterfaceRegistration()
 HmdMatrix34FromJson(Json::Value const&, vr::HmdMatrix34_t&)
 HmdMatrix34ToJson(vr::HmdMatrix34_t const&)
 HmdMatrix34ToJson(vr::HmdMatrix34_t const&) (.cold)
@@ -18376,6 +18405,7 @@ HmdVector3ToJson(vr::HmdVector3_t const&)
 HmdVector3ToJson(vr::HmdVector3_t const&) (.cold)
 HmdVector3ToJson(vr::HmdVector3d_t const&)
 HmdVector3ToJson(vr::HmdVector3d_t const&) (.cold)
+HmdVector_Normalized(vr::HmdVector3d_t const&)
 How did we get here with a non-position slot?
 IClientTrackedDeviceProvider_003
 IClientTrackedDeviceProvider_004
@@ -19269,59 +19299,6 @@ IVRCompositor_027_FnTable_SuspendRendering(bool)
 IVRCompositor_027_FnTable_UnlockGLSharedTextureForAccess(void*)
 IVRCompositor_027_FnTable_WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 IVRCompositor_028
-IVRCompositor_028_FnTable_CanRenderScene()
-IVRCompositor_028_FnTable_ClearLastSubmittedFrame()
-IVRCompositor_028_FnTable_ClearSkyboxOverride()
-IVRCompositor_028_FnTable_ClearStageOverride()
-IVRCompositor_028_FnTable_CompositorBringToFront()
-IVRCompositor_028_FnTable_CompositorDumpImages()
-IVRCompositor_028_FnTable_CompositorGoToBack()
-IVRCompositor_028_FnTable_CompositorQuit()
-IVRCompositor_028_FnTable_FadeGrid(float, bool)
-IVRCompositor_028_FnTable_FadeToColor(float, float, float, float, float, bool)
-IVRCompositor_028_FnTable_ForceInterleavedReprojectionOn(bool)
-IVRCompositor_028_FnTable_ForceReconnectProcess()
-IVRCompositor_028_FnTable_GetCompositorBenchmarkResults(vr::Compositor_BenchmarkResults*, unsigned int)
-IVRCompositor_028_FnTable_GetCumulativeStats(vr::Compositor_CumulativeStats*, unsigned int)
-IVRCompositor_028_FnTable_GetCurrentFadeColor(bool)
-IVRCompositor_028_FnTable_GetCurrentGridAlpha()
-IVRCompositor_028_FnTable_GetCurrentSceneFocusProcess()
-IVRCompositor_028_FnTable_GetFrameTimeRemaining()
-IVRCompositor_028_FnTable_GetFrameTiming(vr::Compositor_FrameTiming*, unsigned int)
-IVRCompositor_028_FnTable_GetFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
-IVRCompositor_028_FnTable_GetLastFrameRenderer()
-IVRCompositor_028_FnTable_GetLastPoseForTrackedDeviceIndex(unsigned int, vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t*)
-IVRCompositor_028_FnTable_GetLastPosePredictionIDs(unsigned int*, unsigned int*)
-IVRCompositor_028_FnTable_GetLastPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
-IVRCompositor_028_FnTable_GetMirrorTextureD3D11(vr::EVREye, void*, void**)
-IVRCompositor_028_FnTable_GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
-IVRCompositor_028_FnTable_GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
-IVRCompositor_028_FnTable_GetTrackingSpace()
-IVRCompositor_028_FnTable_GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
-IVRCompositor_028_FnTable_GetVulkanInstanceExtensionsRequired(char*, unsigned int)
-IVRCompositor_028_FnTable_HideMirrorWindow()
-IVRCompositor_028_FnTable_IsCurrentSceneFocusAppLoading()
-IVRCompositor_028_FnTable_IsFullscreen()
-IVRCompositor_028_FnTable_IsMirrorWindowVisible()
-IVRCompositor_028_FnTable_IsMotionSmoothingEnabled()
-IVRCompositor_028_FnTable_IsMotionSmoothingSupported()
-IVRCompositor_028_FnTable_LockGLSharedTextureForAccess(void*)
-IVRCompositor_028_FnTable_PostPresentHandoff()
-IVRCompositor_028_FnTable_ReleaseMirrorTextureD3D11(void*)
-IVRCompositor_028_FnTable_ReleaseSharedGLTexture(unsigned int, void*)
-IVRCompositor_028_FnTable_SetExplicitTimingMode(vr::EVRCompositorTimingMode)
-IVRCompositor_028_FnTable_SetSkyboxOverride(vr::Texture_t const*, unsigned int)
-IVRCompositor_028_FnTable_SetStageOverride_Async(char const*, vr::HmdMatrix34_t const*, vr::Compositor_StageRenderSettings const*, unsigned int)
-IVRCompositor_028_FnTable_SetTrackingSpace(vr::ETrackingUniverseOrigin)
-IVRCompositor_028_FnTable_ShouldAppRenderWithLowResources()
-IVRCompositor_028_FnTable_ShowMirrorWindow()
-IVRCompositor_028_FnTable_Submit(vr::EVREye, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
-IVRCompositor_028_FnTable_SubmitExplicitTimingData()
-IVRCompositor_028_FnTable_SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
-IVRCompositor_028_FnTable_SuspendRendering(bool)
-IVRCompositor_028_FnTable_UnlockGLSharedTextureForAccess(void*)
-IVRCompositor_028_FnTable_WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
-IVRCompositor_029
 IVRControlPanel_001
 IVRControlPanel_002
 IVRControlPanel_003
@@ -21645,6 +21622,53 @@ IVRSystem_021_FnTable_ShouldApplicationPause()
 IVRSystem_021_FnTable_ShouldApplicationReduceRenderingWork()
 IVRSystem_021_FnTable_TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
 IVRSystem_022
+IVRSystem_022_FnTable_AcknowledgeQuit_Exiting()
+IVRSystem_022_FnTable_ApplyTransform(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const*, vr::HmdMatrix34_t const*)
+IVRSystem_022_FnTable_ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
+IVRSystem_022_FnTable_GetAppContainerFilePaths(char*, unsigned int)
+IVRSystem_022_FnTable_GetArrayTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, unsigned int, void*, unsigned int, vr::ETrackedPropertyError*)
+IVRSystem_022_FnTable_GetBoolTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_022_FnTable_GetButtonIdNameFromEnum(vr::EVRButtonId)
+IVRSystem_022_FnTable_GetControllerAxisTypeNameFromEnum(vr::EVRControllerAxisType)
+IVRSystem_022_FnTable_GetControllerRoleForTrackedDeviceIndex(unsigned int)
+IVRSystem_022_FnTable_GetControllerState(unsigned int, vr::VRControllerState001_t*, unsigned int)
+IVRSystem_022_FnTable_GetControllerStateWithPose(vr::ETrackingUniverseOrigin, unsigned int, vr::VRControllerState001_t*, unsigned int, vr::TrackedDevicePose_t*)
+IVRSystem_022_FnTable_GetD3D9AdapterIndex()
+IVRSystem_022_FnTable_GetDXGIOutputInfo(int*)
+IVRSystem_022_FnTable_GetDeviceToAbsoluteTrackingPose(vr::ETrackingUniverseOrigin, float, vr::TrackedDevicePose_t*, unsigned int)
+IVRSystem_022_FnTable_GetEventTypeNameFromEnum(vr::EVREventType)
+IVRSystem_022_FnTable_GetEyeToHeadTransform(vr::EVREye)
+IVRSystem_022_FnTable_GetFloatTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_022_FnTable_GetHiddenAreaMesh(vr::EVREye, vr::EHiddenAreaMeshType)
+IVRSystem_022_FnTable_GetInt32TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_022_FnTable_GetMatrix34TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_022_FnTable_GetOutputDevice(unsigned long*, vr::ETextureType, VkInstance_T*)
+IVRSystem_022_FnTable_GetProjectionMatrix(vr::EVREye, float, float)
+IVRSystem_022_FnTable_GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+IVRSystem_022_FnTable_GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
+IVRSystem_022_FnTable_GetRawZeroPoseToStandingAbsoluteTrackingPose()
+IVRSystem_022_FnTable_GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+IVRSystem_022_FnTable_GetRuntimeVersion()
+IVRSystem_022_FnTable_GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
+IVRSystem_022_FnTable_GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)
+IVRSystem_022_FnTable_GetStringTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, char*, unsigned int, vr::ETrackedPropertyError*)
+IVRSystem_022_FnTable_GetTimeSinceLastVsync(float*, unsigned long*)
+IVRSystem_022_FnTable_GetTrackedDeviceActivityLevel(unsigned int)
+IVRSystem_022_FnTable_GetTrackedDeviceClass(unsigned int)
+IVRSystem_022_FnTable_GetTrackedDeviceIndexForControllerRole(vr::ETrackedControllerRole)
+IVRSystem_022_FnTable_GetUint64TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_022_FnTable_IsDisplayOnDesktop()
+IVRSystem_022_FnTable_IsInputAvailable()
+IVRSystem_022_FnTable_IsSteamVRDrawingControllers()
+IVRSystem_022_FnTable_IsTrackedDeviceConnected(unsigned int)
+IVRSystem_022_FnTable_PerformFirmwareUpdate(unsigned int)
+IVRSystem_022_FnTable_PollNextEvent(vr::VREvent_t*, unsigned int)
+IVRSystem_022_FnTable_PollNextEventWithPose(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*)
+IVRSystem_022_FnTable_SetDisplayVisibility(bool)
+IVRSystem_022_FnTable_ShouldApplicationPause()
+IVRSystem_022_FnTable_ShouldApplicationReduceRenderingWork()
+IVRSystem_022_FnTable_TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
+IVRSystem_023
 IVRTrackedCameraInternal_XXX
 IVRTrackedCamera_
 IVRTrackedCamera_002
@@ -21883,7 +21907,7 @@ Invalid job\n
 Invalid magic.
 Invalid max zone %f. Ignoring it.\n
 Invalid output hand 
-Invalid overlay index %d in handle %lx\n
+Invalid overlay index for handle %lx\n
 Invalid queue family index
 Invalid range in brace expression.
 Invalid range in bracket expression.
@@ -21917,6 +21941,7 @@ IsInteractionProfileLegal(unsigned long)
 IsOSUserAdmin()
 IsOnLaptop()
 IsOnMainBranch()
+IsOurOverlayHandle(unsigned long)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&) (.cold)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&)::k_deviceWasDrawn
@@ -22402,7 +22427,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
 July
-Jun  4 2025
+Jun  5 2025
 June
 KHR_audio
 KHR_lights_punctual
@@ -23034,6 +23059,8 @@ Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&)
 Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&) (.cold)
 Path_FixSlashes(std::string const&, char)
 Path_FixSlashes(std::string const&, char) (.cold)
+Path_GetExecutableName()
+Path_GetExecutableName() (.cold)
 Path_GetExecutablePath()
 Path_GetExtension(std::string const&)
 Path_GetSlash()
@@ -23429,7 +23456,10 @@ RenderModelsInterfaceRegistration<CVRRenderModels_005>::GetInterface()
 RenderModelsInterfaceRegistration<CVRRenderModels_005>::~RenderModelsInterfaceRegistration()
 RenderStart
 RendermodelManager: 'components' json entry must be key/value map\n
+RendermodelManager: Both grip and aim are at 0, couldn't guess which direction is outwards for poke/pinch creation.\n
 RendermodelManager: Failed GetOriginalComponentPath(%lu, %s, %s) \n
+RendermodelManager: Failed to create openxr_pinch because no 'openxr_aim' or 'tip' pose was found.\n
+RendermodelManager: Failed to create openxr_pinch because no 'openxr_grip' or 'grip' pose was found.\n
 RendermodelManager: Finished setting up render model template: %s.\n
 RendermodelManager: Model info file %s was empty.\n
 RendermodelManager: Reading data for: '%s' from '%s'\n
@@ -23475,6 +23505,7 @@ SDL_GetError
 SDL_GetPowerInfo
 SDL_SetThreadPriority
 SRT_LAUNCHER_SERVICE_ALONGSIDE_STEAM
+STATIC BOOL BOUND TO: %s
 STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
 STEAMVR_DISABLE_CRASH_REPORTING
@@ -23960,6 +23991,7 @@ Thread(0x%p/0x%p/0x%x)
 ThreadCloseProcess
 ThreadGetCurrentHandle
 ThreadGetCurrentId
+ThreadGetCurrentId::s_selftid
 ThreadGetCurrentProcessHandle
 ThreadGetCurrentProcessId
 ThreadGetCurrentRunningRef
@@ -24006,6 +24038,7 @@ ThreadSuspendSignal(int)
 ThreadTerminate
 ThreadTerminateProcessCode
 ThreadWaitForProcessExit
+ThreadWatchdog
 ThreadYield()
 Thursday
 Timed out waiting for a good app key\n
@@ -24299,7 +24332,6 @@ VK INFO %s %lu:%d: %s\n
 VK PERF %s %lu:%d: %s\n
 VK WARNING %s %lu:%d: %s\n
 VKDebugMessageCallback(unsigned int, VkDebugReportObjectTypeEXT, unsigned long, unsigned long, int, char const*, char const*, void*)
-VK_EXT_debug_marker
 VK_EXT_debug_report
 VK_EXT_debug_utils
 VK_EXT_global_priority
@@ -24571,6 +24603,8 @@ VREvent_TrackedDeviceUpdated
 VREvent_TrackedDeviceUserInteractionEnded
 VREvent_TrackedDeviceUserInteractionStarted
 VREvent_TrackersSectionSettingChanged
+VREvent_TrackingRecordingStarted
+VREvent_TrackingRecordingStopped
 VREvent_UserInterfaceSectionSettingChanged
 VREvent_VendorSpecific_Reserved_Start+%d
 VREvent_WatchdogWakeUpRequested
@@ -25237,7 +25271,6 @@ VR_IVRCompositor_FnTable_GetLastPoses(TrackedDevicePose_t*, unsigned int, Tracke
 VR_IVRCompositor_FnTable_GetMirrorTextureD3D11(EVREye, void*, void**)
 VR_IVRCompositor_FnTable_GetMirrorTextureGL(EVREye, unsigned int*, void**)
 VR_IVRCompositor_FnTable_GetPosesForFrame(unsigned int, TrackedDevicePose_t*, unsigned int)
-VR_IVRCompositor_FnTable_GetSubmitTexture(Texture_t*, bool*, EVRCompositorTextureUsage, Texture_t*, VRTextureBounds_t*, EVRSubmitFlags)
 VR_IVRCompositor_FnTable_GetTrackingSpace()
 VR_IVRCompositor_FnTable_GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
 VR_IVRCompositor_FnTable_GetVulkanInstanceExtensionsRequired(char*, unsigned int)
@@ -25511,6 +25544,7 @@ VR_IVRSystem_FnTable_IsTrackedDeviceConnected(unsigned int)
 VR_IVRSystem_FnTable_PerformFirmwareUpdate(unsigned int)
 VR_IVRSystem_FnTable_PollNextEvent(VREvent_t*, unsigned int)
 VR_IVRSystem_FnTable_PollNextEventWithPose(ETrackingUniverseOrigin, VREvent_t*, unsigned int, TrackedDevicePose_t*)
+VR_IVRSystem_FnTable_PollNextEventWithPoseAndOverlays(ETrackingUniverseOrigin, VREvent_t*, unsigned int, TrackedDevicePose_t*, unsigned long*)
 VR_IVRSystem_FnTable_SetDisplayVisibility(bool)
 VR_IVRSystem_FnTable_ShouldApplicationPause()
 VR_IVRSystem_FnTable_ShouldApplicationReduceRenderingWork()
@@ -25927,6 +25961,7 @@ XR_EXT_conformance_automation
 XR_EXT_dpad_binding
 XR_EXT_eye_gaze_interaction
 XR_EXT_frame_composition_report
+XR_EXT_hand_interaction
 XR_EXT_hand_joints_motion_range
 XR_EXT_hand_tracking
 XR_EXT_hand_tracking_data_source
@@ -26842,6 +26877,7 @@ _GLOBAL__sub_I_inputfilter_scroll_joystick_discrete.cpp
 _GLOBAL__sub_I_inputfilter_scroll_joystick_smooth.cpp
 _GLOBAL__sub_I_inputfilter_scroll_trackpad_discrete.cpp
 _GLOBAL__sub_I_inputfilter_scroll_trackpad_smooth.cpp
+_GLOBAL__sub_I_inputfilter_staticvalue.cpp
 _GLOBAL__sub_I_inputprofileloader.cpp
 _GLOBAL__sub_I_inputprofileloader.cpp.cold
 _GLOBAL__sub_I_interface_adapters_client.cpp
@@ -27865,6 +27901,7 @@ config/legacy_bindings_generic_hmd.json
 config/legacy_bindings_knuckles_ev1.json
 connect
 const_cast
+constant
 construction vtable for 
 construction vtable for CSharedResourceBaseLinux-in-CSharedBufferLinux
 construction vtable for CSharedResourceBaseLinux-in-CSharedCountingSemaphoreLinux
@@ -28433,7 +28470,6 @@ g_IVRCompositor_024_FnTable
 g_IVRCompositor_025_FnTable
 g_IVRCompositor_026_FnTable
 g_IVRCompositor_027_FnTable
-g_IVRCompositor_028_FnTable
 g_IVRIOBuffer_002_FnTable
 g_IVRInput_001_FnTable
 g_IVRInput_002_FnTable
@@ -28479,6 +28515,7 @@ g_IVRSystem_018_FnTable
 g_IVRSystem_019_FnTable
 g_IVRSystem_020_FnTable
 g_IVRSystem_021_FnTable
+g_IVRSystem_022_FnTable
 g_IVRTrackedCamera_002_FnTable
 g_IVRTrackedCamera_003_FnTable
 g_IVRTrackedCamera_004_FnTable
@@ -28532,6 +28569,7 @@ g_VR_IVRSpatialAnchors_FnTable
 g_VR_IVRSystem_FnTable
 g_VR_IVRTrackedCamera_FnTable
 g_arrApiLayerLinuxPaths
+g_bNoCacheThreadIds
 g_bSetSuspendHandlers
 g_bSuspendResumeAck
 g_bTestMode
@@ -28980,13 +29018,13 @@ grave-accent
 greater-than-sign
 greek
 green
+grip
 gripLimitData
 guard variable for 
 guard variable for (anonymous namespace)::GetDecryptionKeyChar(unsigned long)::decryptionKey
 guard variable for (anonymous namespace)::__io_category_instance()::__ec
 guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
 guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
-guard variable for AddDpadPaths(std::string, std::string, std::string, bool, std::vector<std::string, std::allocator<std::string>>&)::dpadDirections
 guard variable for AssertCallbackImplementation(char const*, char const*, unsigned int, bool, void*, bool*)::bMinidumpDisabled
 guard variable for BInitializeLogging()::s_LogMutex
 guard variable for BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
@@ -29011,6 +29049,7 @@ guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderMo
 guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathRightHand
 guard variable for CSxrRenderModelEXT::GetTopLevelUserPath(XrInteractionRenderModelTopLevelUserPathGetInfoEXT const*, unsigned long*)::s_pathTreadmill
 guard variable for CSxrSession::UpdateInteractionProfile()::rTopLevelPaths
+guard variable for CVRCompositorClient::PostPresentHandoff()::s_bEnableFrameEndMarkers
 guard variable for CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)::s_pVrSettings
 guard variable for CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
 guard variable for CVRInputLatest::GetSkeletalSummaryData(unsigned long, vr::EVRSummaryType, vr::VRSkeletalSummaryData_t*)::k_pathCurlIndex
@@ -29031,6 +29070,9 @@ guard variable for CVRSystemLatest::GetRuntimeVersion()::s_sVersion
 guard variable for CVRSystemLatest::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)::k_ulHapticRequestEnforcedDelayMS
 guard variable for CVulkanVRRenderer::GetDmabufModifiers(vr::EVRApplicationType, unsigned int) const::k_InvalidMod
 guard variable for FillPipeAddr(sockaddr_un&, std::string)::sPrefix
+guard variable for GenerateDpadPaths(DpadHelper_t)::dpadDirections
+guard variable for GenerateDpadPaths(DpadHelper_t)::sThumbstick
+guard variable for GenerateDpadPaths(DpadHelper_t)::sTrackpad
 guard variable for GetInputPathTypes(unsigned long, unsigned long)::s_emptySet
 guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
 guard variable for GetTrackedDeviceProperties()::eKeysVector
@@ -29117,6 +29159,7 @@ guard variable for vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawCo
 guard variable for vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2LeftAxes
 guard variable for vr::CVRSteamPrivateLatest::GetRawControllerState(vr::EVRRawControllerRole, vr::VRRawControllerState_t*, unsigned int)::k_pathInputRoyK2RightAxes
 half
+hand_interaction_ext
 hand_right_poses.glb
 handlers
 hangInit
@@ -29934,6 +29977,7 @@ non-virtual thunk to CVRChaperoneClient::HideWorkingSetPreview()
 non-virtual thunk to CVRChaperoneClient::ImportFromBufferToWorking(char const*, unsigned int)
 non-virtual thunk to CVRChaperoneClient::IsHMDOutOfBoundsStrict()
 non-virtual thunk to CVRChaperoneClient::IsOriginCalibrated(vr::ETrackingUniverseOrigin)
+non-virtual thunk to CVRChaperoneClient::IsUsingDefaultPerimeter()
 non-virtual thunk to CVRChaperoneClient::NotifyRoomSetupStep(vr::ERoomSetupStep, bool)
 non-virtual thunk to CVRChaperoneClient::QuickCalibratePlayspace(vr::EQuickCalibrateType)
 non-virtual thunk to CVRChaperoneClient::ReloadFromDisk(vr::EChaperoneConfigFile)
@@ -30063,12 +30107,12 @@ non-virtual thunk to CVRSystemLatest::GetMCImage(unsigned int*, unsigned int*, u
 non-virtual thunk to CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float)
 non-virtual thunk to CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
 non-virtual thunk to CVRSystemLatest::GetTrackedDeviceClassUnmodified(unsigned int)
+non-virtual thunk to CVRSystemLatest::GetTrackingRecordingStatus() const
 non-virtual thunk to CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
 non-virtual thunk to CVRSystemLatest::HasRemoteFrameTiming()
 non-virtual thunk to CVRSystemLatest::HasSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags)
 non-virtual thunk to CVRSystemLatest::IsDashboardVisibleInternal()
 non-virtual thunk to CVRSystemLatest::PollNextEventInternal(vr::VREvent_t*, unsigned int, unsigned long, unsigned int*)
-non-virtual thunk to CVRSystemLatest::PollNextOverlayEvent(unsigned long, vr::VREvent_t*, unsigned int)
 non-virtual thunk to CVRSystemLatest::PostGlobalEvent(vr::VREvent_t const&, unsigned int)
 non-virtual thunk to CVRSystemLatest::PostOverlayEvent(unsigned long, vr::VREvent_t const&)
 non-virtual thunk to CVRSystemLatest::PostVsyncEvent(float, unsigned long)
@@ -30189,6 +30233,10 @@ openvr.tool.steamvr_media_player
 openvr:
 openvrpaths.vrpath
 openxr
+openxr_aim
+openxr_grip
+openxr_pinch
+openxr_poke
 openxr_quadlayer_
 operator
 operator 
@@ -30401,6 +30449,7 @@ pthread_setschedparam
 pthread_setspecific
 pthreads futex robust_list is corrupt
 pull
+punNextEvent
 punct
 pure virtual method called\n
 putc
@@ -30420,6 +30469,7 @@ read_encoded_value_with_base(unsigned char, unsigned long, unsigned char const*,
 read_encoded_value_with_base.cold
 readdir
 readlink
+ready_ext
 realloc
 realpath
 reason
@@ -30504,6 +30554,7 @@ s_rStringPropertiesToRead
 s_rUint64PropertiesToRead
 s_rchProcessIdentifier
 s_thread_pRobustListStruct
+s_ulOurOverlayHandles
 safe_mode_driver_whitelist.json
 sampler
 samplers
@@ -30836,6 +30887,7 @@ static const uint32_t CAnimResource::MyTypeID()
 static const uint32_t CBoneMaskResource::MyTypeID()
 static const uint32_t CKeyframedDataResource::MyTypeID()
 static const uint32_t Reflection::Object::MyTypeID()
+static_bool
 static_cast
 static_descriptor_initializer_vr_5fmessages_2eproto_
 statusicons
@@ -34813,6 +34865,8 @@ std::vector<CRenderModelManager::Component_t, std::allocator<CRenderModelManager
 std::vector<CRenderModelManager::RenderModelTextureContainer_t, std::allocator<CRenderModelManager::RenderModelTextureContainer_t>>::~vector()
 std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*>>::operator=(std::vector<CSxrDeletableBase*, std::allocator<CSxrDeletableBase*>> const&)
 std::vector<CVRInputLatest::FrameActionData_t, std::allocator<CVRInputLatest::FrameActionData_t>>::_M_default_append(unsigned long)
+std::vector<DpadHelper_t, std::allocator<DpadHelper_t>>::~vector()
+std::vector<InteractionProfileInput_t, std::allocator<InteractionProfileInput_t>>::~vector()
 std::vector<ModeSlot_t, std::allocator<ModeSlot_t>>::~vector()
 std::vector<OpResult, std::allocator<OpResult>>::reserve(unsigned long)
 std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t>>::~vector()
@@ -35950,6 +36004,7 @@ typeinfo for CInputFilter_Scalar_JoystickScroll_Smooth
 typeinfo for CInputFilter_Scalar_ScaleAndOffset
 typeinfo for CInputFilter_Scalar_TrackpadScroll_Discrete
 typeinfo for CInputFilter_Scalar_TrackpadScroll_Smooth
+typeinfo for CInputFilter_Static_Boolean
 typeinfo for CInputFilter_TriggerHaptic
 typeinfo for CInputFilter_XRDPad
 typeinfo for CKeyframedDataResource
@@ -36100,7 +36155,6 @@ typeinfo for CVRCompositor_024
 typeinfo for CVRCompositor_025
 typeinfo for CVRCompositor_026
 typeinfo for CVRCompositor_027
-typeinfo for CVRCompositor_028
 typeinfo for CVRControlPanel_001
 typeinfo for CVRControlPanel_002
 typeinfo for CVRControlPanel_003
@@ -36441,6 +36495,7 @@ typeinfo for CVRSystem_018
 typeinfo for CVRSystem_019
 typeinfo for CVRSystem_020
 typeinfo for CVRSystem_021
+typeinfo for CVRSystem_022
 typeinfo for CVRTrackedCamera_002
 typeinfo for CVRTrackedCamera_003
 typeinfo for CVRTrackedCamera_004
@@ -36518,7 +36573,6 @@ typeinfo for CompositorInterfaceRegistration<CVRCompositor_024>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_025>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_026>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_027>
-typeinfo for CompositorInterfaceRegistration<CVRCompositor_028>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_003>
@@ -36554,6 +36608,7 @@ typeinfo for HmdInterfaceRegistration<CVRSystem_018>
 typeinfo for HmdInterfaceRegistration<CVRSystem_019>
 typeinfo for HmdInterfaceRegistration<CVRSystem_020>
 typeinfo for HmdInterfaceRegistration<CVRSystem_021>
+typeinfo for HmdInterfaceRegistration<CVRSystem_022>
 typeinfo for IHmdSystem_002
 typeinfo for IHmdSystem_003
 typeinfo for IInputFilter
@@ -37260,6 +37315,7 @@ typeinfo name for CInputFilter_Scalar_JoystickScroll_Smooth
 typeinfo name for CInputFilter_Scalar_ScaleAndOffset
 typeinfo name for CInputFilter_Scalar_TrackpadScroll_Discrete
 typeinfo name for CInputFilter_Scalar_TrackpadScroll_Smooth
+typeinfo name for CInputFilter_Static_Boolean
 typeinfo name for CInputFilter_TriggerHaptic
 typeinfo name for CInputFilter_XRDPad
 typeinfo name for CKeyframedDataResource
@@ -37410,7 +37466,6 @@ typeinfo name for CVRCompositor_024
 typeinfo name for CVRCompositor_025
 typeinfo name for CVRCompositor_026
 typeinfo name for CVRCompositor_027
-typeinfo name for CVRCompositor_028
 typeinfo name for CVRControlPanel_001
 typeinfo name for CVRControlPanel_002
 typeinfo name for CVRControlPanel_003
@@ -37751,6 +37806,7 @@ typeinfo name for CVRSystem_018
 typeinfo name for CVRSystem_019
 typeinfo name for CVRSystem_020
 typeinfo name for CVRSystem_021
+typeinfo name for CVRSystem_022
 typeinfo name for CVRTrackedCamera_002
 typeinfo name for CVRTrackedCamera_003
 typeinfo name for CVRTrackedCamera_004
@@ -37828,7 +37884,6 @@ typeinfo name for CompositorInterfaceRegistration<CVRCompositor_024>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_025>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_026>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_027>
-typeinfo name for CompositorInterfaceRegistration<CVRCompositor_028>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_003>
@@ -37864,6 +37919,7 @@ typeinfo name for HmdInterfaceRegistration<CVRSystem_018>
 typeinfo name for HmdInterfaceRegistration<CVRSystem_019>
 typeinfo name for HmdInterfaceRegistration<CVRSystem_020>
 typeinfo name for HmdInterfaceRegistration<CVRSystem_021>
+typeinfo name for HmdInterfaceRegistration<CVRSystem_022>
 typeinfo name for IHmdSystem_002
 typeinfo name for IHmdSystem_003
 typeinfo name for IInputFilter
@@ -39615,6 +39671,7 @@ void std::vector<CVulkanVRRenderer::GpuTiming_t, std::allocator<CVulkanVRRendere
 void std::vector<CVulkanVRRenderer::MemoryTypeInfo, std::allocator<CVulkanVRRenderer::MemoryTypeInfo>>::_M_realloc_insert<CVulkanVRRenderer::MemoryTypeInfo const&>(__gnu_cxx::__normal_iterator<CVulkanVRRenderer::MemoryTypeInfo*, std::vector<CVulkanVRRenderer::MemoryTypeInfo, std::allocator<CVulkanVRRenderer::MemoryTypeInfo>>>, CVulkanVRRenderer::MemoryTypeInfo const&)
 void std::vector<CVulkanVRRenderer::MemoryTypeInfo::Heap, std::allocator<CVulkanVRRenderer::MemoryTypeInfo::Heap>>::_M_realloc_insert<CVulkanVRRenderer::MemoryTypeInfo::Heap const&>(__gnu_cxx::__normal_iterator<CVulkanVRRenderer::MemoryTypeInfo::Heap*, std::vector<CVulkanVRRenderer::MemoryTypeInfo::Heap, std::allocator<CVulkanVRRenderer::MemoryTypeInfo::Heap>>>, CVulkanVRRenderer::MemoryTypeInfo::Heap const&)
 void std::vector<CWatchdogDriverContext*, std::allocator<CWatchdogDriverContext*>>::_M_realloc_insert<CWatchdogDriverContext* const&>(__gnu_cxx::__normal_iterator<CWatchdogDriverContext**, std::vector<CWatchdogDriverContext*, std::allocator<CWatchdogDriverContext*>>>, CWatchdogDriverContext* const&)
+void std::vector<DpadHelper_t, std::allocator<DpadHelper_t>>::_M_realloc_insert<DpadHelper_t const&>(__gnu_cxx::__normal_iterator<DpadHelper_t*, std::vector<DpadHelper_t, std::allocator<DpadHelper_t>>>, DpadHelper_t const&)
 void std::vector<DriverPresenceEntry_t, std::allocator<DriverPresenceEntry_t>>::_M_realloc_insert<DriverPresenceEntry_t const&>(__gnu_cxx::__normal_iterator<DriverPresenceEntry_t*, std::vector<DriverPresenceEntry_t, std::allocator<DriverPresenceEntry_t>>>, DriverPresenceEntry_t const&)
 void std::vector<FilterSortInfo_t, std::allocator<FilterSortInfo_t>>::_M_realloc_insert<FilterSortInfo_t const&>(__gnu_cxx::__normal_iterator<FilterSortInfo_t*, std::vector<FilterSortInfo_t, std::allocator<FilterSortInfo_t>>>, FilterSortInfo_t const&)
 void std::vector<ILogListener*, std::allocator<ILogListener*>>::_M_realloc_insert<ILogListener* const&>(__gnu_cxx::__normal_iterator<ILogListener**, std::vector<ILogListener*, std::allocator<ILogListener*>>>, ILogListener* const&)
@@ -39963,8 +40020,6 @@ vr::CVROverlayInternalLatest::SetPassthroughPortalEnabled(bool) (.cold)
 vr::CVROverlayInternalLatest::SetSubviewPosition(unsigned long, int, int)
 vr::CVROverlayInternalLatest::SetToastOverlayRendererToThis()
 vr::CVROverlayInternalLatest::SetToastOverlayRendererToThis() (.cold)
-vr::CVROverlayInternalLatest::ShouldSendOverlayHiddenEvent(unsigned long)
-vr::CVROverlayInternalLatest::ShouldSendOverlayHiddenEvent(unsigned long) (.cold)
 vr::CVROverlayInternalLatest::SwitchToDashboardOverlay(char const*, char const*)
 vr::CVROverlayInternalLatest::SwitchToDashboardOverlay(char const*, char const*) (.cold)
 vr::CVROverlayInternalLatest::ToggleCameraRoomView()
@@ -40326,8 +40381,6 @@ vrcompositor026
 vrcompositor026_FnTable
 vrcompositor027
 vrcompositor027_FnTable
-vrcompositor028
-vrcompositor028_FnTable
 vrcompositor_mailbox
 vrcompositor_notification
 vrcompositor_systemlayer
@@ -40459,6 +40512,8 @@ vrsystem020
 vrsystem020_FnTable
 vrsystem021
 vrsystem021_FnTable
+vrsystem022
+vrsystem022_FnTable
 vrtrackedcamera002
 vrtrackedcamera002_FnTable
 vrtrackedcamera003
@@ -40531,6 +40586,7 @@ vtable for CInputFilter_Scalar_JoystickScroll_Smooth
 vtable for CInputFilter_Scalar_ScaleAndOffset
 vtable for CInputFilter_Scalar_TrackpadScroll_Discrete
 vtable for CInputFilter_Scalar_TrackpadScroll_Smooth
+vtable for CInputFilter_Static_Boolean
 vtable for CInputFilter_TriggerHaptic
 vtable for CInputFilter_XRDPad
 vtable for CKeyframedDataResource
@@ -40661,7 +40717,6 @@ vtable for CVRCompositor_024
 vtable for CVRCompositor_025
 vtable for CVRCompositor_026
 vtable for CVRCompositor_027
-vtable for CVRCompositor_028
 vtable for CVRControlPanel_001
 vtable for CVRControlPanel_002
 vtable for CVRControlPanel_003
@@ -40995,6 +41050,7 @@ vtable for CVRSystem_018
 vtable for CVRSystem_019
 vtable for CVRSystem_020
 vtable for CVRSystem_021
+vtable for CVRSystem_022
 vtable for CVRTrackedCamera_002
 vtable for CVRTrackedCamera_003
 vtable for CVRTrackedCamera_004
@@ -41051,7 +41107,6 @@ vtable for CompositorInterfaceRegistration<CVRCompositor_024>
 vtable for CompositorInterfaceRegistration<CVRCompositor_025>
 vtable for CompositorInterfaceRegistration<CVRCompositor_026>
 vtable for CompositorInterfaceRegistration<CVRCompositor_027>
-vtable for CompositorInterfaceRegistration<CVRCompositor_028>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_003>
@@ -41086,6 +41141,7 @@ vtable for HmdInterfaceRegistration<CVRSystem_018>
 vtable for HmdInterfaceRegistration<CVRSystem_019>
 vtable for HmdInterfaceRegistration<CVRSystem_020>
 vtable for HmdInterfaceRegistration<CVRSystem_021>
+vtable for HmdInterfaceRegistration<CVRSystem_022>
 vtable for IHmdSystem_002
 vtable for IHmdSystem_003
 vtable for IOBufferInterfaceRegistration<CVRIOBuffer_001>
