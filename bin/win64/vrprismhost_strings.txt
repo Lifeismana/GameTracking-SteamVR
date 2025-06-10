@@ -36,7 +36,7 @@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@AEAP8CPrismHost@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@U?$default_delete@V?$tuple@V<lambda_190a6bbd3df9ee1d969edd84cc3d229a>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@U?$default_delete@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@@2@@std@@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
@@ -49,7 +49,7 @@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCNonCopyable@@
 .?AVCPrismHost@@
-.?AVCPrismPoseProvider@?A0xbb7f8539@@
+.?AVCPrismPoseProvider@?A0x6c9f2405@@
 .?AVCVRMailbox@@
 .?AVCVRMailboxBase@@
 .?AVCharReader@Json@@
@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:30:00
+17:17:39
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -363,7 +363,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_022
+IVRSystem_023
 IVRTrackedCameraInternal_XXX
 Infinity
 Info
@@ -454,7 +454,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSOh
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -514,6 +514,7 @@ TerminateProcess
 Thread watchdog timed out %s
 Thread watchdog with a small timout %f. Timeouts should usually be multiple seconds.
 ThreadFailedToStart
+ThreadWatchdog
 TlsAlloc
 TlsFree
 USER32.dll
@@ -897,15 +898,15 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\Retail\win64\2017\vrprismhost.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\prismhost.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\vrprismhost.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\Retail\win64\2017\vrprismhost.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\prismhost.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\vrprismhost.cpp
 client
 collectComments
 command

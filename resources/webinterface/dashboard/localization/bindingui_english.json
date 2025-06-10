@@ -50,6 +50,9 @@
   "SourceInputMode_CancelEdit": "Done",
   "SourceInputMode_Settings": "Settings",
   "SourceInputMode_Default": "Default",
+  "SourceInputMode_Static_Bool": "Constant",
+  "SourceInputMode_StaticBool": "Action To Set",
+  "SourceInputMode_StaticBool_Value": "Value",
   "SourceInputMode_ClickActivateThreshold": "Click Activation Threshold:",
   "SourceInputMode_TouchActivateThreshold": "Touch Activation Threshold:",
   "SourceInputMode_ClickDeactivateThreshold": "Click Deactivation Threshold:",
@@ -588,6 +591,8 @@
   "Settings_General_RightThumbstickAngle": "Right Thumbstick Angle: %1$s°",
   "Settings_General_Reset": "Reset",
 
-  "LegacyDebugger_NoApp": "Run any legacy input application to see its input data here."
+  "LegacyDebugger_NoApp": "Run any legacy input application to see its input data here.",
 
+  "True": "True",
+  "False": "False"
 }

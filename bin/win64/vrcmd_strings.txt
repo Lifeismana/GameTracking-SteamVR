@@ -23,6 +23,7 @@
 %u,%g,%g,%g,%g,%g,%g\n
 ' is not a number.
 (Thread Id %llu)\n
+(visible) 
 , last executing in 
 ---- OVERLAYS ---- \n
 ------------
@@ -547,7 +548,7 @@ IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorSystemInternal_XXX
-IVRCompositor_029
+IVRCompositor_028
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
@@ -573,7 +574,7 @@ IVRSettingsInternal_001
 IVRSettings_003
 IVRSpatialAnchors_001
 IVRSystemLayerInternal_XXX
-IVRSystem_022
+IVRSystem_023
 IVRTrackedCameraInternal_XXX
 Infinity
 InitializeAcl
@@ -1407,10 +1408,10 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\propertymanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcpipe.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcmd\Retail\win64\2017\vrcmd.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcpipe.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcmd\Retail\win64\2017\vrcmd.pdb
 client
 collectComments
 compositor_stats

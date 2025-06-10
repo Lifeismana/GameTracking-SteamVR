@@ -505,6 +505,7 @@ $3br
 0-pixel image
 0.0.0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:18:09
 0123456789
 0123456789ABCDEF
 1 Sec
@@ -547,7 +548,6 @@ $3br
 1e+9999
 20BinaryBlendPoseMaker
 20PassThroughPoseMaker
-21:19:35
 21CSharedSemaphoreLinux
 21SVLHandTrackingDriver
 22CKeyframedDataResource
@@ -1258,8 +1258,8 @@ CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.103
 CSWTCH.107
-CSWTCH.140
-CSWTCH.212
+CSWTCH.141
+CSWTCH.213
 CSWTCH.408
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -2233,6 +2233,7 @@ Got Debug message from client
 Got permanent SVL init failure on hotplug attempt
 HB33
 HOME
+HandAnimEvaluator
 HandleButton
 HandleDestroy
 HandleKey
@@ -2332,7 +2333,7 @@ IVRDisplayComponent_003
 IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_009
 IVRDriverInputInternal_XXX
-IVRDriverInput_003
+IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
@@ -2355,7 +2356,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_022
+IVRSystem_023
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
@@ -2437,6 +2438,7 @@ IsDashboardVisibleInternal()::k_pathDashboardVisible
 IsDriverLogActive()
 IsOnLaptop()
 IsOnMainBranch()
+IsOurOverlayHandle(unsigned long)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&) (.cold)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&)::k_deviceWasDrawn
@@ -2901,7 +2903,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
 July
-Jun  4 2025
+Jun  5 2025
 June
 KHR_audio
 KHR_lights_punctual
@@ -3218,6 +3220,8 @@ Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&)
 Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&) (.cold)
 Path_FixSlashes(std::string const&, char)
 Path_FixSlashes(std::string const&, char) (.cold)
+Path_GetExecutableName()
+Path_GetExecutableName() (.cold)
 Path_GetExecutablePath()
 Path_GetExtension(std::string const&)
 Path_GetSlash()
@@ -4550,6 +4554,7 @@ Thread(0x%p/0x%p/0x%x)
 ThreadCloseProcess
 ThreadGetCurrentHandle
 ThreadGetCurrentId
+ThreadGetCurrentId::s_selftid
 ThreadGetCurrentProcessHandle
 ThreadGetCurrentProcessId
 ThreadGetCurrentRunningRef
@@ -4596,6 +4601,7 @@ ThreadSuspendSignal(int)
 ThreadTerminate
 ThreadTerminateProcessCode
 ThreadWaitForProcessExit
+ThreadWatchdog
 ThreadYield()
 Thursday
 Timed out waiting for another accepted video packet, trying to force the stream reset\n
@@ -4781,8 +4787,6 @@ VK_KHR_external_semaphore_fd
 VK_KHR_get_memory_requirements2
 VK_KHR_image_format_list
 VK_KHR_maintenance1
-VK_KHR_present_id
-VK_KHR_present_wait
 VK_KHR_sampler_ycbcr_conversion
 VK_KHR_timeline_semaphore
 VK_KHR_video_encode_h265
@@ -5006,6 +5010,8 @@ VREvent_TrackedDeviceUpdated
 VREvent_TrackedDeviceUserInteractionEnded
 VREvent_TrackedDeviceUserInteractionStarted
 VREvent_TrackersSectionSettingChanged
+VREvent_TrackingRecordingStarted
+VREvent_TrackingRecordingStopped
 VREvent_UserInterfaceSectionSettingChanged
 VREvent_VendorSpecific_Reserved_Start+%d
 VREvent_WatchdogWakeUpRequested
@@ -6050,6 +6056,7 @@ asyncSend
 atan2
 atan2f
 atanf
+atlasMode
 attributes
 audio.channels
 audio.rate
@@ -6552,6 +6559,7 @@ g_VRLog
 g_VRPathHelpers
 g_VRPropertyHelpers
 g_VRSettingHelper
+g_bNoCacheThreadIds
 g_bSVLQuitting
 g_bSetSuspendHandlers
 g_bSuspendResumeAck
@@ -7474,6 +7482,7 @@ s_pLogCallback
 s_pLogFile
 s_rchProcessIdentifier
 s_thread_pRobustListStruct
+s_ulOurOverlayHandles
 sampler
 samplers
 sbox
@@ -11468,7 +11477,6 @@ tinygltf::detail::ObjectBegin(nlohmann::basic_json<std::map, std::vector, std::s
 tinygltf::detail::ObjectEnd(nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>> const&)
 tl_pLeafSharedState
 tl_pWatchdog
-to be in layout VK_IMAGE_LAYOUT_GENERAL--instead, current layout is VK_IMAGE_LAYOUT_UNDEFINED.
 toggle_dashboard
 tolower
 too large
@@ -12496,7 +12504,7 @@ vkBeginCommandBuffer
 vkBeginCommandBuffer( pCurrentFrame->pVkCommandBuffer, &cmdBufBegin ) failed! (VkResult: %d)
 vkBindAccelerationStructureMemoryNV
 vkBindBufferMemory
-vkBindBufferMemory( m_State.pVkDevice, PickConstantBuffer( i ), m_pVkBufferMemory, PickConstantBufferMemoryOffset( i ) ) failed! (VkResult: %d)
+vkBindBufferMemory( m_State.pVkDevice, m_pVkConstantBuffer, m_pVkBufferMemory, 0 ) failed! (VkResult: %d)
 vkBindBufferMemory( m_pState->pVkDevice, m_pVkBitstreamBuffer, m_pVkBitstreamMemory, 0 ) failed! (VkResult: %d)
 vkBindBufferMemory2
 vkBindBufferMemory2KHR
@@ -12769,7 +12777,7 @@ vkCopyMicromapToMemoryEXT
 vkCreateAccelerationStructureKHR
 vkCreateAccelerationStructureNV
 vkCreateBuffer
-vkCreateBuffer( m_State.pVkDevice, &bufferCreateInfo, nullptr, &PickConstantBuffer( i ) ) failed! (VkResult: %d)
+vkCreateBuffer( m_State.pVkDevice, &bufferCreateInfo, nullptr, &m_pVkConstantBuffer ) failed! (VkResult: %d)
 vkCreateBuffer( m_pState->pVkDevice, &bitstreamBufferCreateInfo, nullptr, &m_pVkBitstreamBuffer ) failed! (VkResult: %d)
 vkCreateBufferView
 vkCreateCommandPool
@@ -13727,7 +13735,6 @@ whichDevice
 while parsing 
 width
 wirelessShutdownTimeout
-without intervening acquire operation.
 wm_res_class
 wm_res_name
 wmemchr

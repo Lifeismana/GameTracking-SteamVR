@@ -1,0 +1,11 @@
+Content Manifest for Depot 250828 
+
+Manifest ID / date     : 7972087267127211047 / 05/02/2017 22:24:04 
+Total number of files  : 1 
+Total number of chunks : 0 
+Total bytes on disk    : 0 
+Total bytes compressed : 0 
+
+
+          Size Chunks File SHA                                 Flags Name
+             0      0 0000000000000000000000000000000000000000    40 EmptySteamDepot

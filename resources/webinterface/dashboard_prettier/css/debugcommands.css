@@ -1,33 +1,86 @@
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-thin.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-regular-italic.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-light-italic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-bold-italic.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
 :root {
   --text-color: #ffffff;
-
   --inputbordercolor: rgb(86, 142, 172);
   --inputbackgroundcolor: rgb(12, 47, 61);
   --inputtextcolor: rgb(255, 255, 255);
   --inputborderradius: 0.1rem;
   --inputfontsize: 1.2rem;
-
   --scrollbar-width: 1.3rem;
   --scrollbar-border-width: 0.45rem;
   --scrollbar-color: var(--button-background);
   --scrollbar-color-hover: var(--button-background-hover);
-
   --transitionspeed-hover: 0.15s;
-
-  /* == Text == */
   --title-color: #fff;
   --title-size: 1.5rem;
   --description-color: #aeb0b3;
   --description-size: 0.8rem;
-
-  /* == Buttons == */
   --button-background-hover: #69b4ff;
-  /* alt is used for icon-style buttons (such as the settings window root) */
   --button-backgroundalt: #1a1818;
   --button-backgroundalt-hover: #2a3746;
-  /* decline styles are used for cancel-like actions */
   --button-background-decline: #364c85;
-
   --bordercolor: #004777;
   --controller-image-margin: 2rem;
   --text-font: "Motiva Sans", "Arial";
@@ -51,7 +104,6 @@
   --description-color: var(--app-text);
   --button-text: var(--app-text);
   --app-text-highlight: var(--pairing-color-green);
-
   --button-width: 30rem;
   --color-pink: #cc4298;
   --color-green: #2ead8c;
@@ -68,10 +120,8 @@
   --input-focus-box-shadow: 0px 0px 6px 2px var(--color-blue);
   --clear-search-button-size: 20px;
   --header-control-spacing: 1rem;
-
   font-size: 16px;
 }
-
 html {
   overflow: hidden;
   background: none;
@@ -79,7 +129,6 @@ html {
   font-weight: normal;
   height: 100%;
 }
-
 body {
   margin: 0;
   overflow: hidden;
@@ -90,74 +139,62 @@ body {
   background: url("/dashboard/images/green_purple_background.png");
   background-size: cover;
 }
-
 ::-webkit-scrollbar {
   width: var(--scrollbar-width);
 }
-
 ::-webkit-scrollbar-thumb {
   height: 6px;
-  border: 0.45rem solid rgba(0, 0, 0, 0);
+  border: .45rem solid rgba(0, 0, 0, 0);
   background-clip: padding-box;
   border-radius: 100px;
   background-color: var(--color-blue);
   cursor: pointer;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-  border-width: 0.35rem;
+  border-width: .35rem;
   background-color: var(--button-background-hover);
 }
-
 ::-webkit-scrollbar-button {
   width: 0;
   height: 0;
   display: none;
 }
-
 ::-webkit-scrollbar-corner {
   background-color: transparent;
 }
-
 #root {
   display: flex;
-  margin-bottom: 0.5rem;
+  margin-bottom: .5rem;
   height: 100%;
 }
-
 .Label {
   font-size: 1rem;
   font-weight: normal;
   color: var(--text-color);
   display: inline;
 }
-
 .Label.Title {
   font-size: var(--title-size);
   color: var(--title-color);
 }
-
 .Label.Description {
   font-size: var(--description-size);
   color: var(--description-color);
 }
-
 .Label.Error {
   border-color: red;
   background-color: #494402;
-  border-width: 0.5rem;
+  border-width: .5rem;
 }
-
 .Label .Highlight {
   color: var(--app-text-highlight);
 }
-
 .ButtonControl {
   font-size: 1.2rem;
   font-weight: normal;
   color: var(--button-text);
-  opacity: 1.0;
-  margin: 0.8rem 0;
+  opacity: 1;
+  margin: .8rem 0;
   padding: .5rem 1rem .5rem 1rem;
   background: var(--button-background);
   align-self: center;
@@ -167,35 +204,29 @@ body {
   cursor: pointer;
   text-align: center;
 }
-
 .ButtonControl:hover {
   background: var(--button-background-hover);
 }
-
 .ButtonControl.Decline {
   background: var(--button-background-decline);
 }
-
 .ButtonControl.Decline:hover {
   background: var(--button-background);
 }
-
 .ButtonControl.Inline {
   display: inline-block;
   white-space: nowrap;
 }
-
 input[type="text"],
 textarea {
   background-color: var(--inputbackgroundcolor);
   border: 1px solid var(--inputbordercolor);
   color: var(--inputtextcolor);
   border-radius: var(--inputborderradius);
-  padding: 0.3rem;
+  padding: .3rem;
   font-size: var(--inputfontsize);
   font-family: var(--text-font);
 }
-
 input[type="text"],
 .ButtonControl {
   --button-padding: var(--page-button-padding);
@@ -213,7 +244,6 @@ input[type="text"],
   font-size: 1rem;
   box-sizing: border-box;
 }
-
 input[type="text"]::after,
 .ButtonControl::after {
   content: "";
@@ -231,24 +261,18 @@ input[type="text"]::after,
   border-image-slice: 1;
   border-width: 1px;
 }
-
 input[type="text"] {
-  transition: box-shadow 0.1s linear;
+  transition: box-shadow .1s linear;
 }
-
 input[type="text"]:hover {
   box-shadow: var(--input-hover-box-shadow);
 }
-
 input[type="text"]:focus {
   box-shadow: var(--input-focus-box-shadow);
 }
-
 .DebugCommands .ButtonControl span {
-  /* Puts text in front of hover background gradient. */
   position: relative;
 }
-
 .ButtonControl::before {
   content: "";
   position: absolute;
@@ -265,31 +289,25 @@ input[type="text"]:focus {
   opacity: 0.25;
   transition: opacity var(--hover-transition-time);
 }
-
 .ButtonControl:hover {
   background: none;
 }
-
 .ButtonControl:hover::before {
   opacity: 0.5;
 }
-
 .ButtonControl:active {
-  color: black;
+  color: #000;
 }
-
 .ButtonControl:active::before,
 .ButtonControl.Active::before {
   opacity: 1;
 }
-
 .DebugCommands {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-
 @keyframes EditingFadeAnimation {
   from {
     opacity: 0;
@@ -298,23 +316,21 @@ input[type="text"]:focus {
     opacity: 0.5;
   }
 }
-
 .DebugCommands .EditingFade {
-  background: black;
+  background: #000;
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
   z-index: 1;
-  animation: EditingFadeAnimation 0.3s forwards;
+  animation: EditingFadeAnimation .3s forwards;
 }
-
 .DebugCommands .Header,
 .DebugCommands .Footer {
   display: flex;
   flex-direction: row;
-  background: black;
+  background: #000;
   flex-shrink: 0;
   padding: 10px;
   background: url("/dashboard/images/green_purple_background.png");
@@ -322,24 +338,20 @@ input[type="text"]:focus {
   box-shadow: 0px 6px 11px 0px #181d1a;
   z-index: 3;
 }
-
 .DebugCommands .Footer {
   box-shadow: 0px -6px 11px 0px #181d1a;
 }
-
 .DebugCommands .Footer h1 {
-  color: grey;
+  color: gray;
   text-align: center;
   font-weight: 300;
   margin: auto;
   font-size: 1rem;
 }
-
 .DebugCommands .Header::after {
   content: "";
   width: var(--scrollbar-width);
 }
-
 .DebugCommands .Header .InnerContainer {
   display: flex;
   flex-direction: row;
@@ -347,17 +359,14 @@ input[type="text"]:focus {
   height: 100%;
   width: var(--button-width);
 }
-
 .DebugCommands .Header .InnerContainer > *:not(:first-child) {
   margin-left: var(--header-control-spacing);
 }
-
 .DebugCommands .Header input[type="text"],
 .DebugCommands .Header .ButtonControl {
   width: auto;
   margin: auto;
 }
-
 .DebugCommands .Header input[type="text"] {
   flex-grow: 1;
   flex-shrink: 0;
@@ -366,20 +375,19 @@ input[type="text"]:focus {
     var(--page-button-padding)
   );
 }
-
 .DebugCommands .Header .ButtonControl {
   flex-grow: 0;
   flex-shrink: 1;
 }
-
 .DebugCommands .Header .InnerContainer .ClearSearchButton {
-  background: grey;
+  background: gray;
   opacity: 0.85;
   width: var(--clear-search-button-size);
   height: var(--clear-search-button-size);
   margin: auto 0;
   margin-left: calc(
-    ((var(--clear-search-button-size) + var(--page-button-padding)) * -1)
+    (var(--clear-search-button-size) + var(--page-button-padding)) *
+    -1
   );
   margin-right: var(--page-button-padding);
   text-align: center;
@@ -388,11 +396,9 @@ input[type="text"]:focus {
   cursor: pointer;
   z-index: 4;
 }
-
 .DebugCommands .Header .InnerContainer .ClearSearchButton:hover:not(:active) {
   opacity: 1;
 }
-
 .DebugCommandsList {
   overflow-y: scroll;
   width: 100%;
@@ -400,11 +406,9 @@ input[type="text"]:focus {
   text-align: center;
   padding: 15px 0;
 }
-
 .DebugCommandButton.Editing:hover {
   background: var(--button-background);
 }
-
 .DebugCommandButton .CommandName {
   flex-grow: 1;
   padding-right: 10px;
@@ -412,13 +416,12 @@ input[type="text"]:focus {
   margin: auto;
   position: relative;
 }
-
 .DebugCommandButton .KeyboardShortcut {
-  transition: box-shadow 0.2s;
+  transition: box-shadow .2s;
   flex-grow: 0;
   background: rgba(255, 255, 255, 0.3);
-  font-size: 0.9rem;
-  padding: 0.2rem 0.8rem;
+  font-size: .9rem;
+  padding: .2rem .8rem;
   float: right;
   margin: auto;
   border-radius: 2px;
@@ -430,36 +433,30 @@ input[type="text"]:focus {
   white-space: nowrap;
   z-index: 1;
 }
-
 .DebugCommandButton.Editing .KeyboardShortcut,
 .DebugCommandButton.Unbound .KeyboardShortcut {
   font-style: italic;
 }
-
 .DebugCommandButton.Unbound .KeyboardShortcut {
   color: rgba(0, 0, 0, 0.5);
 }
-
 .DebugCommandButton.Unbound:not(.Editing):not(:hover) .KeyboardShortcut {
   opacity: 0.4;
 }
-
 .DebugCommandButton .KeyboardShortcut:hover,
 .DebugCommandButton.Editing .KeyboardShortcut {
   background: rgba(255, 255, 255, 0.4);
 }
-
 .DebugCommandButton .KeyboardShortcut:hover {
   box-shadow: var(--input-hover-box-shadow);
 }
-
 .DebugCommandButton.Editing .KeyboardShortcut {
   box-shadow: var(--input-focus-box-shadow);
   z-index: 2;
   color: rgba(0, 0, 0, 0.8);
 }
-
 .DebugCommandButton .KeyboardShortcut .Plus {
   opacity: 0.5;
   font-weight: normal;
 }
+/*# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/debugcommands.css.map*/

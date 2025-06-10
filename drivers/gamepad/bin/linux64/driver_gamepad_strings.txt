@@ -194,7 +194,7 @@ CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
-CSWTCH.212
+CSWTCH.213
 CServerDriver_Gamepad::AddGameControllerByIndex(int)
 CServerDriver_Gamepad::Cleanup()
 CServerDriver_Gamepad::Cleanup_SDL()
@@ -335,7 +335,7 @@ IVRCameraComponent_003
 IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
-IVRDriverInput_003
+IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRIPCResourceManagerClient_001
@@ -644,6 +644,7 @@ Thread(0x%p/0x%p/0x%x)
 ThreadCloseProcess
 ThreadGetCurrentHandle
 ThreadGetCurrentId
+ThreadGetCurrentId::s_selftid
 ThreadGetCurrentProcessHandle
 ThreadGetCurrentProcessId
 ThreadGetCurrentRunningRef
@@ -1261,6 +1262,7 @@ ftello64
 fwrite
 g_SuspendResumeLock
 g_ThreadMainThreadID
+g_bNoCacheThreadIds
 g_bSetSuspendHandlers
 g_bSuspendResumeAck
 g_mutex

@@ -26,6 +26,22 @@
                         "input" : "click",
                         "parameters_mode": "copy"
                     }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
+                    }
                 }
             ]
         },
@@ -92,6 +108,38 @@
                             "click_deactivate_threshold": "$click_deactivate_threshold"
                         }
                     }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
+                    }
                 }
             ]
         },
@@ -156,6 +204,38 @@
                         "parameters": {
                             "click_activate_threshold": "$click_activate_threshold",
                             "click_deactivate_threshold": "$click_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
                         }
                     }
                 }
@@ -384,6 +464,38 @@
                         "path" : "$toPath",
                         "mode" : "button",
                         "input" : "click"
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
                     }
                 },
                 {
@@ -530,6 +642,38 @@
                         },
                         "parameters_mode": "append"
                     }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
+                    }
                 }
             ]
         },
@@ -590,6 +734,38 @@
                         "parameters": {
                             "click_activate_threshold": "$click_activate_threshold",
                             "click_deactivate_threshold": "$click_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
                         }
                     }
                 },
@@ -673,6 +849,38 @@
                             "force_input": "force"
                         },
                         "parameters_mode": "append"
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
                     }
                 },
                 {
@@ -767,6 +975,38 @@
                         "path" : "$toPath",
                         "mode" : "button",
                         "input" : "click"
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
                     }
                 },
                 {
@@ -899,6 +1139,38 @@
                         "parameters": {
                             "click_activate_threshold": "$click_activate_threshold",
                             "click_deactivate_threshold": "$click_deactivate_threshold"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "button",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
+                        }
+                    }
+                },
+                {
+                    "condition": "no_ready_ext",
+                    "from": {
+                        "path" : "$fromPath",
+                        "mode" : "trigger",
+                        "input" : "ready_ext"
+                    },
+                    "to": {
+                        "path" : "$toPath",
+                        "input" : "constant",
+                        "mode" : "static_bool",
+                        "parameters": {
+                            "value": "true"
                         }
                     }
                 },

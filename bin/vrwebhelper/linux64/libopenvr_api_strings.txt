@@ -759,6 +759,7 @@ Log(char const*, ...)
 LogDirect(ELogLevel, char const*, __va_list_tag (&) [1])
 LogHelper(ELogLevel, char const*, __va_list_tag (&) [1])
 Low Power Watchdog Not Supported (129)
+M=n2b
 March
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
@@ -860,6 +861,8 @@ Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&)
 Path_FindParentSubDirectoryRecursively(std::string const&, std::string const&) (.cold)
 Path_FixSlashes(std::string const&, char)
 Path_FixSlashes(std::string const&, char) (.cold)
+Path_GetExecutableName()
+Path_GetExecutableName() (.cold)
 Path_GetExecutablePath()
 Path_GetExtension(std::string const&)
 Path_GetSlash()

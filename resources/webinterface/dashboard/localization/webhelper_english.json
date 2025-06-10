@@ -61,6 +61,10 @@
 	"/pose/grip": "Grip",
 	"/pose/openxr_grip": "OpenXR Grip",
 	"/pose/openxr_aim": "OpenXR Aim",
+	"/pose/openxr_poke": "Poke",
+	"/pose/openxr_poke_r": "Poke",
+	"/pose/openxr_pinch": "Pinch",
+	"/pose/openxr_pinch_r": "Pinch",
 	"/pose/openxr_handmodel": "Palm",
 	"/pose/openxr_handmodel_r": "Palm",
 

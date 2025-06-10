@@ -1,0 +1,15 @@
+Content Manifest for Depot 228989 
+
+Manifest ID / date     : 550968249685141759 / 03/06/2025 23:57:07 
+Total number of files  : 5 
+Total number of chunks : 44 
+Total bytes on disk    : 39592707 
+Total bytes compressed : 39046080 
+
+
+          Size Chunks File SHA                                 Flags Name
+           881      1 1a4b0f9c773992ce784324ac4f8a627e4d56bbf4   100 _CommonRedist/vcredist/2022/installscript.vdf
+           121      1 8b5029489d50b8b93ef9864dd056bd035d98d591     0 _CommonRedist/vcredist/2022/Microsoft Visual C++ 2022 x64.cmd
+           121      1 7fe518339330ec20fc78352beb841e7a7b070b87     0 _CommonRedist/vcredist/2022/Microsoft Visual C++ 2022 x86.cmd
+      25641968     26 89c70cc31f94bc1fba8b7b5394e2eb235bcbe34a     0 _CommonRedist/vcredist/2022/VC_redist.x64.exe
+      13949616     15 05194f6080b1df46f022bb6243d89b25d8640161     0 _CommonRedist/vcredist/2022/VC_redist.x86.exe

@@ -48,6 +48,27 @@
           "to": "/user/hand/right/input/pinky_pinch"
         }
       ]
-    }
+    },
+    {
+      "priority" : 70,
+      "from_controller_type" : "hand_interaction_ext",
+      "simulate_controller_type" : false,
+      "simulate_render_model" : false,
+      "simulate_HMD" : false,
+      "autoremappings" : [
+        {
+          "from" : "/user/hand/right/input/grasp_ext",
+          "to" : "/user/hand/right/input/grip"
+        },
+        {
+          "from" : "/user/hand/right/input/pinch_ext",
+          "to" : "/user/hand/right/input/index_pinch"
+        },
+        {
+          "from" : "/user/hand/right/input/aim_activate_ext",
+          "to" : "/user/hand/right/input/index_point"
+        }
+      ]
+    },
   ] 
 }
