@@ -25,8 +25,6 @@
 !g_pSharedResourceNamespaceServer
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
-!sFind.empty()
-!sString.empty()
 !std::isnan( flSystemTimeInSeconds )
 %F-%H-%M-%S
 %Y-%m-%d %I:%M:%S %p
@@ -450,7 +448,6 @@
 /tmp/.steam-sem-names
 /u%d-%s-ValveIPCSharedObj-SteamVR
 /u%d-Shm_%x
-00:18:09
 0123456789
 0123456789ABCDEF
 11CVkTimeline
@@ -458,6 +455,7 @@
 15CVkResourceBase
 15CVkResourcePoolI16CVkCommandBufferE
 16CVkCommandBuffer
+17:03:24
 18CPrismDisplay_Null
 18IPrismPoseProvider
 19CVkGarbageCollector
@@ -1974,7 +1972,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 July
-Jun  5 2025
+Jun 18 2025
 June
 LAYER:%2d[%d|%d|%d] [%d|%d|%d]
 LC_ADDRESS
@@ -8831,6 +8829,7 @@ xcb_randr_get_screen_resources_reply
 xcb_screen_next
 xcb_setup_roots_iterator
 xdigit
+y1RH
 {default arg#
 {lambda(
 {parm#

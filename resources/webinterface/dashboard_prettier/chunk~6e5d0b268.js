@@ -1,4 +1,4 @@
-var CLSTAMP = "9806884";
+var CLSTAMP = "9839182";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [582],
   {
@@ -3114,11 +3114,11 @@ var CLSTAMP = "9806884";
           }, []);
         c.useEffect(() => {
           console.log("useEffect Hit");
-          return (
+          const e =
             null === VRHTML || void 0 === VRHTML
               ? void 0
-              : VRHTML.RegisterForTrackingRecordingChangedEvents(o)
-          ).unregister;
+              : VRHTML.RegisterForTrackingRecordingChangedEvents(o);
+          return null == e ? void 0 : e.unregister;
         }, [o]);
         let l = [];
         l.push({
@@ -3562,7 +3562,7 @@ var CLSTAMP = "9806884";
           }),
           c.createElement(_.WZ, {
             label: (0, h.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1749082705e3).toLocaleString(),
+            value: new Date(175026621e4).toLocaleString(),
           }),
         );
       });
@@ -3795,7 +3795,10 @@ var CLSTAMP = "9806884";
                 );
         }
         componentWillUnmount() {
-          this.m_eyeTrackingServerStatusHandle.unregister();
+          var e;
+          null === (e = this.m_eyeTrackingServerStatusHandle) ||
+            void 0 === e ||
+            e.unregister();
         }
         onEyeTrackingServerEnabledEventUpdate(e) {
           this.setState({ nStatus: e });
@@ -4556,14 +4559,13 @@ var CLSTAMP = "9806884";
             }
           }, []);
         return (
-          c.useEffect(
-            () =>
-              (null === VRHTML || void 0 === VRHTML
+          c.useEffect(() => {
+            const e =
+              null === VRHTML || void 0 === VRHTML
                 ? void 0
-                : VRHTML.RegisterForChaperoneChangedEvents(n)
-              ).unregister,
-            [n],
-          ),
+                : VRHTML.RegisterForChaperoneChangedEvents(n);
+            return null == e ? void 0 : e.unregister;
+          }, [n]),
           c.createElement(
             "div",
             { className: "SettingsItem" },
@@ -13814,6 +13816,31 @@ var CLSTAMP = "9806884";
       const u = new d();
       window.inputState = u;
     },
+    3804: (e, t, n) => {
+      "use strict";
+      n.d(t, { E: () => i });
+      var s = n(7813);
+      function r(e) {
+        if (((0, s.AT)(e) && (e = (0, s.HO)(e)), null === e || null == e))
+          return e;
+        if (Array.isArray(e)) return e.map(r);
+        if (e instanceof Map) {
+          const t = {};
+          for (const n of e.keys()) t[n] = r(e.get(n));
+          return t;
+        }
+        if ("object" == typeof e) {
+          const t = {};
+          for (const n of Object.keys(e)) t[n] = r(e[n]);
+          return t;
+        }
+        return e;
+      }
+      function i(...e) {
+        const [t, ...n] = e;
+        return JSON.stringify(r(t), ...n);
+      }
+    },
     6575: (e, t, n) => {
       "use strict";
       n.d(t, { b: () => o, l: () => l });
@@ -15897,7 +15924,7 @@ var CLSTAMP = "9806884";
               ? void 0
               : e.call(VRHTML),
           ),
-            t.set_webpack_build_timestamp(1749082705),
+            t.set_webpack_build_timestamp(1750266210),
             (0, h.Z)(t);
         }
         LoadSessionDevData() {

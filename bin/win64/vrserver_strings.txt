@@ -48,8 +48,6 @@
 !g_pSharedResourceNamespaceServer
 !m_dashboardStartedEvent.Check()
 !m_prismStartupEvent.Check()
-!sFind.empty()
-!sString.empty()
 " because it is missing required fields: 
 " conflicts with the existing symbol "
 " does not.
@@ -295,6 +293,7 @@ $\n k_EProtoServiceTypeSteamMessages
 *.ttf
 *5KS
 *\n&k_EProtoServiceTypeVRGamepadUIMessages
++JqW
 , binary size = 
 , but got 
 , column 
@@ -1623,14 +1622,13 @@ $\n k_EProtoServiceTypeSteamMessages
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789ABCDEF
 0123456789abcdef
-0x7@
 1.2.5
 1/2/4/8/16-bit only
+10:02:54
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-17:17:39
 1A26b
 1\f514
 1e+9999
@@ -1657,6 +1655,7 @@ $\n k_EProtoServiceTypeSteamMessages
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
+8q6@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -2808,9 +2807,31 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
-H57@
+H08@
+H18@
+H28@
+H38@
+H48@
+H58@
+H68@
+H78@
+H88@
+H98@
+HA8@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
+HB8@
+HC8@
+HD8@
+HE8@
 HEAD
+HF8@
+HG8@
+HH8@
+HI8@
+HJ8@
+HK8@
+HL8@
+HM8@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2831,6 +2852,13 @@ HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
+HN8@
+HO8@
+HP8@
+HQ8@
+HR8@
+HS8@
+HT8@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2845,16 +2873,48 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
+HU8@
+HV8@
+HW8@
+HX8@
+HY8@
+HZ8@
+Ha8@
 Hang the server for the specified number of seconds (default 3600)
 HasField
+Hb8@
+Hc8@
+Hd8@
+He8@
 Hex and octal numbers must be integers.
+Hf8@
+Hg8@
+Hh8@
+Hi8@
+Hj8@
+Hk8@
+Hl8@
+Hm8@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
+Hn8@
+Ho8@
 HostController
 How did we get here with a non-position slot?
+Hp8@
+Hq8@
+Hr8@
+Hs8@
+Ht8@
+Hu8@
+Hv8@
+Hw8@
+Hx8@
+Hy8@
+Hz8@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3134,7 +3194,7 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jun  4 2025
+Jun 18 2025
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
@@ -3701,7 +3761,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDSP
+RSDS>
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5112,7 +5172,6 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X57@
 XXXX PNG chunk not known
 XsBI
 YUY2
@@ -6287,7 +6346,6 @@ grip_limit_transforms
 group
 guid
 gzip
-h57@
 hPU3
 half_thresholds
 hand_interaction_ext
@@ -6316,7 +6374,6 @@ hmd_settings_key
 holographic
 holographic_controller
 hpmotioncontroller
-hq6@
 html
 http:
 http://
@@ -7009,6 +7066,7 @@ property_containers
 property_contents
 property_number
 proximity
+ps7@
 pt_br
 pt_pt
 public
@@ -7018,6 +7076,7 @@ pull
 punct
 putchar
 py_generic_services
+pz7@
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
 quarter_thresholds
@@ -7577,71 +7636,10 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x08@
-x18@
-x28@
-x38@
-x48@
-x58@
-x68@
-x78@
-x88@
-x98@
-xA8@
-xB8@
-xC8@
-xD8@
-xE8@
-xF8@
-xG8@
-xH8@
-xI8@
-xJ8@
-xK8@
-xL8@
-xM8@
-xN8@
-xO8@
-xP8@
-xQ8@
-xR8@
-xS8@
-xT8@
-xU8@
-xV8@
-xW8@
-xX8@
-xY8@
-xZ8@
 x_path
-xa8@
-xb8@
-xc8@
-xd8@
 xdigit
-xe8@
-xf8@
-xg8@
-xh8@
-xi8@
-xj8@
-xk8@
-xl8@
-xm8@
 xmag
-xn8@
-xo8@
-xp8@
-xq8@
-xr8@
-xs8@
-xt8@
-xu8@
-xv8@
-xw8@
-xx8@
-xy8@
-xz8@
+xy7@
 y9*O
 y_path
 yfov

@@ -9,8 +9,6 @@
  throw
  transaction_safe
  volatile
-!sFind.empty()
-!sString.empty()
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
 %llu
@@ -759,7 +757,6 @@ Log(char const*, ...)
 LogDirect(ELogLevel, char const*, __va_list_tag (&) [1])
 LogHelper(ELogLevel, char const*, __va_list_tag (&) [1])
 Low Power Watchdog Not Supported (129)
-M=n2b
 March
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration

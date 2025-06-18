@@ -9,8 +9,6 @@
  throw
  transaction_safe
  volatile
-!sFind.empty()
-!sString.empty()
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
 %llu

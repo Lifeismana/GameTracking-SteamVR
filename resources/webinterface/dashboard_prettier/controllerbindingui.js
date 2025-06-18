@@ -1,4 +1,4 @@
-var CLSTAMP = "9806884";
+var CLSTAMP = "9839182";
 (() => {
   var e,
     t = {
@@ -419,11 +419,11 @@ var CLSTAMP = "9806884";
       5802: (e, t, n) => {
         "use strict";
         n.d(t, {
-          B$: () => k,
-          Qd: () => f,
-          bR: () => I,
-          mQ: () => B,
-          xM: () => A,
+          B$: () => O,
+          Qd: () => b,
+          bR: () => E,
+          mQ: () => I,
+          xM: () => B,
         });
         var o,
           i = n(1635),
@@ -435,8 +435,9 @@ var CLSTAMP = "9806884";
           c = n(6090),
           p = n(6795),
           h = n(1532),
-          u = n(9118);
-        class m {
+          u = n(9118),
+          m = n(3804);
+        class g {
           constructor() {
             (this.path = void 0),
               (this.mode = void 0),
@@ -445,17 +446,10 @@ var CLSTAMP = "9806884";
               (0, a.Gn)(this);
           }
         }
-        (0, i.Cg)([a.sH], m.prototype, "path", void 0),
-          (0, i.Cg)([a.sH], m.prototype, "mode", void 0),
-          (0, i.Cg)([a.sH], m.prototype, "parameters", void 0),
-          (0, i.Cg)([a.sH], m.prototype, "inputs", void 0);
-        class g {
-          constructor() {
-            (this.path = void 0), (this.output = void 0), (0, a.Gn)(this);
-          }
-        }
         (0, i.Cg)([a.sH], g.prototype, "path", void 0),
-          (0, i.Cg)([a.sH], g.prototype, "output", void 0);
+          (0, i.Cg)([a.sH], g.prototype, "mode", void 0),
+          (0, i.Cg)([a.sH], g.prototype, "parameters", void 0),
+          (0, i.Cg)([a.sH], g.prototype, "inputs", void 0);
         class S {
           constructor() {
             (this.path = void 0), (this.output = void 0), (0, a.Gn)(this);
@@ -472,14 +466,21 @@ var CLSTAMP = "9806884";
           (0, i.Cg)([a.sH], _.prototype, "output", void 0);
         class C {
           constructor() {
+            (this.path = void 0), (this.output = void 0), (0, a.Gn)(this);
+          }
+        }
+        (0, i.Cg)([a.sH], C.prototype, "path", void 0),
+          (0, i.Cg)([a.sH], C.prototype, "output", void 0);
+        class y {
+          constructor() {
             (this.output = void 0),
               (this.inputs = new Array()),
               (0, a.Gn)(this);
           }
         }
-        (0, i.Cg)([a.sH], C.prototype, "output", void 0),
-          (0, i.Cg)([a.sH], C.prototype, "inputs", void 0);
-        class y {
+        (0, i.Cg)([a.sH], y.prototype, "output", void 0),
+          (0, i.Cg)([a.sH], y.prototype, "inputs", void 0);
+        class f {
           constructor() {
             (this.chords = void 0),
               (this.poses = void 0),
@@ -489,17 +490,17 @@ var CLSTAMP = "9806884";
               (0, a.Gn)(this);
           }
         }
-        (0, i.Cg)([a.sH], y.prototype, "chords", void 0),
-          (0, i.Cg)([a.sH], y.prototype, "poses", void 0),
-          (0, i.Cg)([a.sH], y.prototype, "haptics", void 0),
-          (0, i.Cg)([a.sH], y.prototype, "sources", void 0),
-          (0, i.Cg)([a.sH], y.prototype, "skeleton", void 0);
-        class f {
+        (0, i.Cg)([a.sH], f.prototype, "chords", void 0),
+          (0, i.Cg)([a.sH], f.prototype, "poses", void 0),
+          (0, i.Cg)([a.sH], f.prototype, "haptics", void 0),
+          (0, i.Cg)([a.sH], f.prototype, "sources", void 0),
+          (0, i.Cg)([a.sH], f.prototype, "skeleton", void 0);
+        class b {
           constructor() {
             (this.vecRequired = []), (this.vecSuggested = []);
           }
         }
-        class b {
+        class v {
           constructor() {
             (this.device_path_string = void 0),
               (this.device_path_handle = void 0),
@@ -508,16 +509,16 @@ var CLSTAMP = "9806884";
               (0, a.Gn)(this);
           }
         }
-        (0, i.Cg)([a.sH], b.prototype, "device_path_string", void 0),
-          (0, i.Cg)([a.sH], b.prototype, "device_path_handle", void 0),
-          (0, i.Cg)([a.sH], b.prototype, "role", void 0),
-          (0, i.Cg)([a.sH], b.prototype, "controller_role", void 0);
-        class v {
+        (0, i.Cg)([a.sH], v.prototype, "device_path_string", void 0),
+          (0, i.Cg)([a.sH], v.prototype, "device_path_handle", void 0),
+          (0, i.Cg)([a.sH], v.prototype, "role", void 0),
+          (0, i.Cg)([a.sH], v.prototype, "controller_role", void 0);
+        class A {
           constructor() {
             (this.trackers = void 0), (this.valid_roles = []), (0, a.Gn)(this);
           }
         }
-        function A(e) {
+        function B(e) {
           return new Promise(function (t, n) {
             s()
               .get("/input/getactions.json?app_key=" + e)
@@ -529,7 +530,7 @@ var CLSTAMP = "9806884";
               });
           });
         }
-        function B(e, t, n) {
+        function I(e, t, n) {
           return (0, i.sH)(this, void 0, void 0, function* () {
             let o = (yield s().get(
               "/input/loadbindingfromurl.json?binding_url=" +
@@ -543,9 +544,9 @@ var CLSTAMP = "9806884";
             throw new Error(o.error);
           });
         }
-        (0, i.Cg)([a.sH], v.prototype, "trackers", void 0),
-          (0, i.Cg)([a.sH], v.prototype, "valid_roles", void 0);
-        class I {
+        (0, i.Cg)([a.sH], A.prototype, "trackers", void 0),
+          (0, i.Cg)([a.sH], A.prototype, "valid_roles", void 0);
+        class E {
           constructor(e, t) {
             (this.x = e), (this.y = t), this.toString.bind(this);
           }
@@ -553,7 +554,7 @@ var CLSTAMP = "9806884";
             return this.x + "," + this.y;
           }
         }
-        class E {
+        class M {
           constructor(e, t, n, o, i) {
             (this.m_BindingUISource = void 0),
               (this.m_ControllerProfile = void 0),
@@ -568,19 +569,19 @@ var CLSTAMP = "9806884";
               (this.m_eButtonSide = n),
               (this.m_sInputPath = o),
               (this.m_sActionSet = i),
-              (this.m_BindingStoreObserverDisposer = (0, a.lB)(k, (e) => {
+              (this.m_BindingStoreObserverDisposer = (0, a.lB)(O, (e) => {
                 "m_LoadedBinding" == e.name && this.UpdateBindingSource();
               })),
               this.UpdateBindingSource(),
-              k.RegisterBindingWatcher(this.UpdateBindingSource.bind(this)),
+              O.RegisterBindingWatcher(this.UpdateBindingSource.bind(this)),
               (0, a.Gn)(this);
           }
           cancelWatcher() {
             this.m_BindingStoreObserverDisposer(),
-              k.UnregisterBindingWatcher(this.UpdateBindingSource);
+              O.UnregisterBindingWatcher(this.UpdateBindingSource);
           }
           UpdateBindingSource() {
-            this.m_BindingUISource = k.GetActionBinding(
+            this.m_BindingUISource = O.GetActionBinding(
               this.GetFullInputPath,
               this.m_sActionSet,
             );
@@ -590,7 +591,7 @@ var CLSTAMP = "9806884";
             return (e = e.replace(/([^:]\/)\/+/g, "$1")), e;
           }
           GetSVGEndPoint() {
-            return new I(
+            return new E(
               this.m_ControllerProfile.input_source[this.m_sInputPath]
                 .binding_image_point[0],
               this.m_ControllerProfile.input_source[this.m_sInputPath]
@@ -610,12 +611,12 @@ var CLSTAMP = "9806884";
               this.m_BindingUISource[e].inputs.has(t)
             ) {
               let n = this.m_BindingUISource[e].inputs.get(t).output,
-                o = k.GetActionByName(n);
+                o = O.GetActionByName(n);
               if (!o) {
-                let e = k.GetSimulatedActionByPath(n);
-                e && (o = k.CreateActionDefinitionForSimulatedAction(e));
+                let e = O.GetSimulatedActionByPath(n);
+                e && (o = O.CreateActionDefinitionForSimulatedAction(e));
               }
-              let i = k.GetAliasInfo(n);
+              let i = O.GetAliasInfo(n);
               return (
                 o &&
                   i &&
@@ -755,10 +756,10 @@ var CLSTAMP = "9806884";
             t >= this.m_BindingUISource.length
               ? console.error("SetInputMode: Invalid mode index for new mode")
               : (this.ClearNewModeIfSet(t),
-                k.SetInputModeForInputSource(this.GetFullInputPath, t, e));
+                O.SetInputModeForInputSource(this.GetFullInputPath, t, e));
           }
           AddInputMode(e) {
-            this.m_iNewSourceEntry = k.AddInputModeForSource(
+            this.m_iNewSourceEntry = O.AddInputModeForSource(
               this.GetFullInputPath,
               e,
             );
@@ -768,7 +769,7 @@ var CLSTAMP = "9806884";
             e < 0 ||
             e >= this.m_BindingUISource.length
               ? console.error("SetInputMode: Invalid mode index for new mode")
-              : k.DeleteInputModeForSource(this.GetFullInputPath, e);
+              : O.DeleteInputModeForSource(this.GetFullInputPath, e);
           }
           ClearNewModeIfSet(e) {
             -1 != this.m_iNewSourceEntry &&
@@ -779,7 +780,7 @@ var CLSTAMP = "9806884";
             return -1 != this.m_iNewSourceEntry && this.m_iNewSourceEntry == e;
           }
           SetClickAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "click", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "click", t, [
               "button",
               "trackpad",
               "joystick",
@@ -789,7 +790,7 @@ var CLSTAMP = "9806884";
             ]);
           }
           SetTouchAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "touch", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "touch", t, [
               "button",
               "trackpad",
               "joystick",
@@ -799,31 +800,31 @@ var CLSTAMP = "9806884";
             ]);
           }
           SetHeldAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "held", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "held", t, [
               "button",
               "complex_button",
             ]);
           }
           SetLongAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "long", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "long", t, [
               "button",
               "complex_button",
             ]);
           }
           SetSingleAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "single", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "single", t, [
               "button",
               "complex_button",
             ]);
           }
           SetDoubleAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "double", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "double", t, [
               "button",
               "complex_button",
             ]);
           }
           SetPositionAction(e, t) {
-            k.SetActionForInputModeType(
+            O.SetActionForInputModeType(
               this.GetFullInputPath,
               e,
               "position",
@@ -832,67 +833,67 @@ var CLSTAMP = "9806884";
             );
           }
           SetNorthAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "north", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "north", t, [
               "dpad",
               "dpad_click",
               "dpad_touch",
             ]);
           }
           SetEastAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "east", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "east", t, [
               "dpad",
               "dpad_click",
               "dpad_touch",
             ]);
           }
           SetSouthAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "south", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "south", t, [
               "dpad",
               "dpad_click",
               "dpad_touch",
             ]);
           }
           SetWestAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "west", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "west", t, [
               "dpad",
               "dpad_click",
               "dpad_touch",
             ]);
           }
           SetCenterAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "center", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "center", t, [
               "dpad",
               "dpad_click",
               "dpad_touch",
             ]);
           }
           SetScrollAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "scroll", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "scroll", t, [
               "scroll",
             ]);
           }
           SetPullAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "pull", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "pull", t, [
               "trigger",
             ]);
           }
           SetForceAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "force", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "force", t, [
               "force_sensor",
             ]);
           }
           SetGrabAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "grab", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "grab", t, [
               "grab",
             ]);
           }
           SetValueAction(e, t) {
-            k.SetActionForInputModeType(this.GetFullInputPath, e, "value", t, [
+            O.SetActionForInputModeType(this.GetFullInputPath, e, "value", t, [
               "scalar_constant",
             ]);
           }
           SetConstantAction(e, t) {
-            k.SetActionForInputModeType(
+            O.SetActionForInputModeType(
               this.GetFullInputPath,
               e,
               "constant",
@@ -901,11 +902,11 @@ var CLSTAMP = "9806884";
             );
           }
           CopyActions(e) {
-            k.ClearModesForInputPath(this.GetFullInputPath),
+            O.ClearModesForInputPath(this.GetFullInputPath),
               e.GetModes.forEach((e, t) => {
-                k.AddInputModeForSource(this.GetFullInputPath, e.mode),
+                O.AddInputModeForSource(this.GetFullInputPath, e.mode),
                   e.inputs.forEach((e, n) => {
-                    k.SetActionForInputModeType(
+                    O.SetActionForInputModeType(
                       this.GetFullInputPath,
                       t,
                       n,
@@ -936,7 +937,7 @@ var CLSTAMP = "9806884";
             return !0;
           }
           SetClickParameter(e, t, n) {
-            k.SetParameterForInputModeType(
+            O.SetParameterForInputModeType(
               this.GetFullInputPath,
               e,
               "click",
@@ -945,7 +946,7 @@ var CLSTAMP = "9806884";
             );
           }
           SetTouchParameter(e, t, n) {
-            k.SetParameterForInputModeType(
+            O.SetParameterForInputModeType(
               this.GetFullInputPath,
               e,
               "touch",
@@ -954,10 +955,10 @@ var CLSTAMP = "9806884";
             );
           }
           SetParameter(e, t, n, o) {
-            k.SetParameterForInputModeType(this.GetFullInputPath, e, t, n, o);
+            O.SetParameterForInputModeType(this.GetFullInputPath, e, t, n, o);
           }
           GetClickParameter(e, t) {
-            return k.GetParameterForInputModeType(
+            return O.GetParameterForInputModeType(
               this.GetFullInputPath,
               e,
               "click",
@@ -965,7 +966,7 @@ var CLSTAMP = "9806884";
             );
           }
           GetTouchParameter(e, t) {
-            return k.GetParameterForInputModeType(
+            return O.GetParameterForInputModeType(
               this.GetFullInputPath,
               e,
               "touch",
@@ -973,7 +974,7 @@ var CLSTAMP = "9806884";
             );
           }
           GetParameter(e, t, n) {
-            return k.GetParameterForInputModeType(
+            return O.GetParameterForInputModeType(
               this.GetFullInputPath,
               e,
               t,
@@ -982,7 +983,7 @@ var CLSTAMP = "9806884";
           }
           GetTrackpadInvertState(e) {
             switch (
-              k.GetParameterForInputModeType(
+              O.GetParameterForInputModeType(
                 this.GetFullInputPath,
                 e,
                 "trackpad",
@@ -1011,7 +1012,7 @@ var CLSTAMP = "9806884";
               case "xy":
                 n = "xy";
             }
-            k.SetParameterForInputModeType(
+            O.SetParameterForInputModeType(
               this.GetFullInputPath,
               e,
               "trackpad",
@@ -1020,80 +1021,80 @@ var CLSTAMP = "9806884";
             );
           }
         }
-        (0, i.Cg)([a.sH], E.prototype, "m_BindingUISource", void 0),
-          (0, i.Cg)([a.sH], E.prototype, "m_ControllerProfile", void 0),
-          (0, i.Cg)([a.sH], E.prototype, "m_sDeviceInputPath", void 0),
-          (0, i.Cg)([a.sH], E.prototype, "m_eButtonSide", void 0),
-          (0, i.Cg)([a.sH], E.prototype, "m_sInputPath", void 0),
-          (0, i.Cg)([a.sH], E.prototype, "m_sActionSet", void 0),
-          (0, i.Cg)([l.o], E.prototype, "cancelWatcher", null),
-          (0, i.Cg)([a.XI], E.prototype, "UpdateBindingSource", null),
-          (0, i.Cg)([a.EW], E.prototype, "GetFullInputPath", null),
-          (0, i.Cg)([l.o], E.prototype, "GetSVGEndPoint", null),
-          (0, i.Cg)([a.EW], E.prototype, "GetButtonSide", null),
-          (0, i.Cg)([a.EW], E.prototype, "GetNumModes", null),
-          (0, i.Cg)([l.o], E.prototype, "GetActionForInputType", null),
-          (0, i.Cg)([l.o], E.prototype, "GetClickAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetTouchAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetPositionAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetHeldAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetLongAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetSingleAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetDoubleAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetNorthAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetEastAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetSouthAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetWestAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetCenterAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetScrollAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetPullAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetForceAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetConstantAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetGrabAction", null),
-          (0, i.Cg)([l.o], E.prototype, "GetValueAction", null),
-          (0, i.Cg)([a.EW], E.prototype, "GetControllerInputName", null),
-          (0, i.Cg)([a.EW], E.prototype, "GetModes", null),
-          (0, i.Cg)([l.o], E.prototype, "GetMode", null),
-          (0, i.Cg)([a.EW], E.prototype, "GetInputSourceType", null),
-          (0, i.Cg)([a.EW], E.prototype, "GetInputSource", null),
-          (0, i.Cg)([a.EW], E.prototype, "GetInputSourceClickSupport", null),
-          (0, i.Cg)([a.EW], E.prototype, "GetInputSourceTouchSupport", null),
-          (0, i.Cg)([a.EW], E.prototype, "GetInputSourceForceSupport", null),
-          (0, i.Cg)([a.EW], E.prototype, "GetInputSourceDefaultDeadzone", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetInputMode", null),
-          (0, i.Cg)([a.XI], E.prototype, "AddInputMode", null),
-          (0, i.Cg)([a.XI], E.prototype, "DeleteInputMode", null),
-          (0, i.Cg)([l.o], E.prototype, "ClearNewModeIfSet", null),
-          (0, i.Cg)([l.o], E.prototype, "BHasModeSelectionPending", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetClickAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetTouchAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetHeldAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetLongAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetSingleAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetDoubleAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetPositionAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetNorthAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetEastAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetSouthAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetWestAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetCenterAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetScrollAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetPullAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetForceAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetGrabAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetValueAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetConstantAction", null),
-          (0, i.Cg)([a.XI], E.prototype, "CopyActions", null),
-          (0, i.Cg)([l.o], E.prototype, "BindingsMatch", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetClickParameter", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetTouchParameter", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetParameter", null),
-          (0, i.Cg)([a.XI], E.prototype, "GetClickParameter", null),
-          (0, i.Cg)([a.XI], E.prototype, "GetTouchParameter", null),
-          (0, i.Cg)([a.XI], E.prototype, "GetParameter", null),
-          (0, i.Cg)([l.o], E.prototype, "GetTrackpadInvertState", null),
-          (0, i.Cg)([a.XI], E.prototype, "SetTrackpadInvertState", null);
-        class M {
+        (0, i.Cg)([a.sH], M.prototype, "m_BindingUISource", void 0),
+          (0, i.Cg)([a.sH], M.prototype, "m_ControllerProfile", void 0),
+          (0, i.Cg)([a.sH], M.prototype, "m_sDeviceInputPath", void 0),
+          (0, i.Cg)([a.sH], M.prototype, "m_eButtonSide", void 0),
+          (0, i.Cg)([a.sH], M.prototype, "m_sInputPath", void 0),
+          (0, i.Cg)([a.sH], M.prototype, "m_sActionSet", void 0),
+          (0, i.Cg)([l.o], M.prototype, "cancelWatcher", null),
+          (0, i.Cg)([a.XI], M.prototype, "UpdateBindingSource", null),
+          (0, i.Cg)([a.EW], M.prototype, "GetFullInputPath", null),
+          (0, i.Cg)([l.o], M.prototype, "GetSVGEndPoint", null),
+          (0, i.Cg)([a.EW], M.prototype, "GetButtonSide", null),
+          (0, i.Cg)([a.EW], M.prototype, "GetNumModes", null),
+          (0, i.Cg)([l.o], M.prototype, "GetActionForInputType", null),
+          (0, i.Cg)([l.o], M.prototype, "GetClickAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetTouchAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetPositionAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetHeldAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetLongAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetSingleAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetDoubleAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetNorthAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetEastAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetSouthAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetWestAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetCenterAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetScrollAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetPullAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetForceAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetConstantAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetGrabAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetValueAction", null),
+          (0, i.Cg)([a.EW], M.prototype, "GetControllerInputName", null),
+          (0, i.Cg)([a.EW], M.prototype, "GetModes", null),
+          (0, i.Cg)([l.o], M.prototype, "GetMode", null),
+          (0, i.Cg)([a.EW], M.prototype, "GetInputSourceType", null),
+          (0, i.Cg)([a.EW], M.prototype, "GetInputSource", null),
+          (0, i.Cg)([a.EW], M.prototype, "GetInputSourceClickSupport", null),
+          (0, i.Cg)([a.EW], M.prototype, "GetInputSourceTouchSupport", null),
+          (0, i.Cg)([a.EW], M.prototype, "GetInputSourceForceSupport", null),
+          (0, i.Cg)([a.EW], M.prototype, "GetInputSourceDefaultDeadzone", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetInputMode", null),
+          (0, i.Cg)([a.XI], M.prototype, "AddInputMode", null),
+          (0, i.Cg)([a.XI], M.prototype, "DeleteInputMode", null),
+          (0, i.Cg)([l.o], M.prototype, "ClearNewModeIfSet", null),
+          (0, i.Cg)([l.o], M.prototype, "BHasModeSelectionPending", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetClickAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetTouchAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetHeldAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetLongAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetSingleAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetDoubleAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetPositionAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetNorthAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetEastAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetSouthAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetWestAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetCenterAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetScrollAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetPullAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetForceAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetGrabAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetValueAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetConstantAction", null),
+          (0, i.Cg)([a.XI], M.prototype, "CopyActions", null),
+          (0, i.Cg)([l.o], M.prototype, "BindingsMatch", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetClickParameter", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetTouchParameter", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetParameter", null),
+          (0, i.Cg)([a.XI], M.prototype, "GetClickParameter", null),
+          (0, i.Cg)([a.XI], M.prototype, "GetTouchParameter", null),
+          (0, i.Cg)([a.XI], M.prototype, "GetParameter", null),
+          (0, i.Cg)([l.o], M.prototype, "GetTrackpadInvertState", null),
+          (0, i.Cg)([a.XI], M.prototype, "SetTrackpadInvertState", null);
+        class w {
           constructor(e, t, n) {
             (this.m_sSaveType = e),
               (this.m_OutstandingSaveBindingResolve = t),
@@ -1109,8 +1110,8 @@ var CLSTAMP = "9806884";
             return this.m_sSaveType;
           }
         }
-        (0, i.Cg)([l.o], M.prototype, "resolve", null),
-          (0, i.Cg)([l.o], M.prototype, "reject", null),
+        (0, i.Cg)([l.o], w.prototype, "resolve", null),
+          (0, i.Cg)([l.o], w.prototype, "reject", null),
           (function (e) {
             (e[(e.eWebSocketState_Unknown = 0)] = "eWebSocketState_Unknown"),
               (e[(e.eWebSocketState_Disconnected = 1)] =
@@ -1120,7 +1121,7 @@ var CLSTAMP = "9806884";
               (e[(e.eWebSocketState_Connected = 3)] =
                 "eWebSocketState_Connected");
           })(o || (o = {}));
-        class w {
+        class k {
           constructor() {
             (this.m_wsWebSocketToServer = void 0),
               (this.m_eWebSocketState = o.eWebSocketState_Unknown),
@@ -1428,7 +1429,7 @@ var CLSTAMP = "9806884";
           get CurrentBindingSaveType() {
             if (null != this.m_LoadedBinding)
               return "developer" == this.m_LoadedBinding.save_type &&
-                k.SelectedBindingIsLegacy
+                O.SelectedBindingIsLegacy
                 ? "developer_legacy"
                 : this.m_LoadedBinding.save_type;
           }
@@ -2120,14 +2121,14 @@ var CLSTAMP = "9806884";
           }
           AddActionSetIfRequired() {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet)) {
-              let e = new y();
+              let e = new f();
               (e.sources = []),
                 this.m_ModifiedBindingSet.set(this.m_sSelectedActionSet, e);
             }
           }
           AddInputModeForSource(e, t) {
             this.AddActionSetIfRequired();
-            let n = new m();
+            let n = new g();
             return (
               (n.mode = t),
               (n.path = e),
@@ -2201,8 +2202,8 @@ var CLSTAMP = "9806884";
                   return void console.log(
                     "Trying to set new input mode to old mode!",
                   );
-                let o = JSON.parse(JSON.stringify(t)),
-                  l = new m();
+                let o = JSON.parse((0, m.E)(t)),
+                  l = new g();
                 switch (
                   ((l.mode = n), (l.path = e), (l.inputs = a.sH.map()), n)
                 ) {
@@ -2312,7 +2313,7 @@ var CLSTAMP = "9806884";
               ((n =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
-                  .poses.push(new g()) - 1),
+                  .poses.push(new S()) - 1),
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses[
                 n
               ].output = e.output)),
@@ -2344,7 +2345,7 @@ var CLSTAMP = "9806884";
               ((n =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
-                  .poses.push(new g()) - 1),
+                  .poses.push(new S()) - 1),
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses[
                 n
               ].path = e)),
@@ -2400,7 +2401,7 @@ var CLSTAMP = "9806884";
               ((n =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
-                  .haptics.push(new S()) - 1),
+                  .haptics.push(new _()) - 1),
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics[
                 n
               ].output = e.output)),
@@ -2436,7 +2437,7 @@ var CLSTAMP = "9806884";
               ((n =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
-                  .haptics.push(new g()) - 1),
+                  .haptics.push(new S()) - 1),
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics[
                 n
               ].path = e)),
@@ -2484,7 +2485,7 @@ var CLSTAMP = "9806884";
               ((n =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
-                  .skeleton.push(new _()) - 1),
+                  .skeleton.push(new C()) - 1),
               (this.m_ModifiedBindingSet.get(
                 this.m_sSelectedActionSet,
               ).skeleton[n].output = e.output)),
@@ -2520,7 +2521,7 @@ var CLSTAMP = "9806884";
               ((n =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
-                  .skeleton.push(new g()) - 1),
+                  .skeleton.push(new S()) - 1),
               (this.m_ModifiedBindingSet.get(
                 this.m_sSelectedActionSet,
               ).skeleton[n].path = e)),
@@ -2596,7 +2597,7 @@ var CLSTAMP = "9806884";
                 ).chords = []);
             this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
-              .chords.push(new C());
+              .chords.push(new y());
             this.NotifyWatchersOfChange();
           }
           DeleteSourceFromChord(e, t) {
@@ -2711,7 +2712,7 @@ var CLSTAMP = "9806884";
           LoadActionManifest() {
             return (0, i.sH)(this, void 0, void 0, function* () {
               return new Promise((e, t) => {
-                A(this.m_SelectedApp.key).then((t) => {
+                B(this.m_SelectedApp.key).then((t) => {
                   null == t.error
                     ? ((this.m_SelectedAppActions = t),
                       null == this.m_sLoadedBindingURI &&
@@ -2779,7 +2780,7 @@ var CLSTAMP = "9806884";
                 )
               )
                 return;
-              let e = yield B(
+              let e = yield I(
                 this.m_SelectedApp.key,
                 this.SelectedControllerTypeInfo.controller_type,
                 this.m_sLoadedBindingURI,
@@ -2820,8 +2821,8 @@ var CLSTAMP = "9806884";
             return null;
           }
           SetTrackerBinding(e, t, n) {
-            let o = { device_path: e, role: t, controller_role: n },
-              i = JSON.stringify(o);
+            let o = { device_path: e, role: t, controller_role: n };
+            const i = (0, m.E)(o);
             console.log("Saving tracker binding " + e),
               s()
                 .post("/input/settrackerbinding.action", i)
@@ -2832,8 +2833,8 @@ var CLSTAMP = "9806884";
                 .catch((e) => {});
           }
           PulseHaptics(e) {
-            let t = { path_handle: e },
-              n = JSON.stringify(t);
+            let t = { path_handle: e };
+            const n = (0, m.E)(t);
             s()
               .post("/input/pulsehaptics.action", n)
               .then((e) => {
@@ -2861,7 +2862,7 @@ var CLSTAMP = "9806884";
               : Promise.resolve(null);
           }
           GetDefaultBindingNameForSaveType(e) {
-            let t = k.SelectedControllerTypeInfo,
+            let t = O.SelectedControllerTypeInfo,
               n = u.W.LocalizeControllerString(t, t ? t.controller_type : "");
             switch (e) {
               default:
@@ -2883,7 +2884,7 @@ var CLSTAMP = "9806884";
                   u.W.CurrentUserPersonaName,
                 );
               case "replace_default":
-                return k.ConfigName;
+                return O.ConfigName;
             }
           }
           AutosaveBinding() {
@@ -2895,7 +2896,7 @@ var CLSTAMP = "9806884";
                 this.m_sDescription,
                 "autosave",
               ).then((e) => {
-                k.SetBindingURL(e.uri);
+                O.SetBindingURL(e.uri);
               });
           }
           SaveCurrentBinding(e, t, n) {
@@ -2926,7 +2927,7 @@ var CLSTAMP = "9806884";
                 ),
                 app_key: this.SelectedApp,
               };
-              let l = JSON.stringify(i);
+              const l = (0, m.E)(i);
               return (
                 console.log(
                   "Saving binding " +
@@ -2936,7 +2937,7 @@ var CLSTAMP = "9806884";
                     "'.",
                 ),
                 new Promise((e, t) => {
-                  let o = new M(n, e, t);
+                  let o = new w(n, e, t);
                   this.m_OutstandingSaveBindingCalls.push(o),
                     s()
                       .post("/input/savebinding.action", l)
@@ -2964,7 +2965,7 @@ var CLSTAMP = "9806884";
                 controller_type:
                   this.SelectedControllerTypeInfo.controller_type,
               };
-              let n = JSON.stringify(t);
+              const n = (0, m.E)(t);
               yield new Promise(function (e, t) {
                 s()
                   .post("/input/submitworkshopbinding.action", n)
@@ -2999,10 +3000,10 @@ var CLSTAMP = "9806884";
           OnWorkshopUploadComplete(e) {
             if (
               (console.log("OnWorkshopUploadComplete: ", e),
-              e.app_key != k.SelectedApp)
+              e.app_key != O.SelectedApp)
             )
               return void console.log(
-                `Ignoring binding load for an app we aren't viewing. Pending: ${e.app_key}. Current: ${k.SelectedApp}.`,
+                `Ignoring binding load for an app we aren't viewing. Pending: ${e.app_key}. Current: ${O.SelectedApp}.`,
               );
             if (this.m_OutstandingSaveBindingCalls.length <= 0)
               return void console.log(
@@ -3014,9 +3015,9 @@ var CLSTAMP = "9806884";
           OnPendingFileSaved(e) {
             let t = e.success ? "Success" : e.error;
             console.log(`OnPendingFileSaved: ${t}. ${e}`),
-              e.app_key == k.SelectedApp ||
+              e.app_key == O.SelectedApp ||
                 console.log(
-                  `Ignoring pending file saved for an app we aren't viewing. Pending: ${e.app_key}. Current: ${k.SelectedApp}.`,
+                  `Ignoring pending file saved for an app we aren't viewing. Pending: ${e.app_key}. Current: ${O.SelectedApp}.`,
                 );
           }
           get SaveNoticeText() {
@@ -3039,10 +3040,10 @@ var CLSTAMP = "9806884";
                 " selected action set:",
                 this.m_sSelectedActionSet,
               ),
-              e.app_key != k.SelectedApp)
+              e.app_key != O.SelectedApp)
             )
               return void console.log(
-                `Ignoring binding load for an app we aren't viewing. Pending: ${e.app_key}. Current: ${k.SelectedApp}.`,
+                `Ignoring binding load for an app we aren't viewing. Pending: ${e.app_key}. Current: ${O.SelectedApp}.`,
               );
             if (e.uri != this.m_sLoadedBindingURI)
               return void console.log(
@@ -3052,7 +3053,7 @@ var CLSTAMP = "9806884";
               (this.m_LoadedBinding = e),
               (this.m_ModifiedBindingSet = a.sH.map());
             let t = (0, d.we)("#unknown_application"),
-              n = h.s.GetApp(k.SelectedApp);
+              n = h.s.GetApp(O.SelectedApp);
             if (
               (n && (t = n.name),
               (this.m_sName = ""),
@@ -3068,7 +3069,7 @@ var CLSTAMP = "9806884";
                     e.binding_config.interaction_profile)),
               "" == this.m_sName)
             ) {
-              let e = k.SelectedControllerTypeInfo,
+              let e = O.SelectedControllerTypeInfo,
                 n = u.W.LocalizeControllerString(e, e ? e.controller_type : "");
               this.m_sName = (0, d.we)("#BindingUI_SaveDefaultName", t, n);
             }
@@ -3076,7 +3077,7 @@ var CLSTAMP = "9806884";
               e.binding_config.bindings &&
               (Object.keys(e.binding_config.bindings).forEach((t) => {
                 var n;
-                let o = new y();
+                let o = new f();
                 (o.chords = e.binding_config.bindings[t].chords),
                   (o.poses = e.binding_config.bindings[t].poses),
                   (o.haptics = e.binding_config.bindings[t].haptics),
@@ -3085,7 +3086,7 @@ var CLSTAMP = "9806884";
                   null === (n = e.binding_config.bindings[t].sources) ||
                     void 0 === n ||
                     n.forEach((e) => {
-                      let t = new m();
+                      let t = new g();
                       (t.mode = e.mode),
                         (t.path = e.path),
                         (t.inputs = a.sH.map()),
@@ -3158,8 +3159,8 @@ var CLSTAMP = "9806884";
                 "About to start second binding delete when one is already pending",
                 this.m_OutstandingDeleteResolve,
               );
-            let t = { url: e },
-              n = JSON.stringify(t);
+            let t = { url: e };
+            const n = (0, m.E)(t);
             return new Promise((t, o) => {
               (this.m_OutstandingDeleteResolve = t),
                 (this.m_sOutstandingDeleteURL = e),
@@ -3216,8 +3217,8 @@ var CLSTAMP = "9806884";
                   e();
                 })
               );
-            let o = { app_key: e, controller_type: t, url: n },
-              i = JSON.stringify(o);
+            let o = { app_key: e, controller_type: t, url: n };
+            const i = (0, m.E)(o);
             return (
               null != this.m_OutstandingSelectConfigResolve &&
                 console.warn(
@@ -3254,7 +3255,7 @@ var CLSTAMP = "9806884";
             });
           }
           OnActionManifestReloaded(e) {
-            e.app_key == k.SelectedApp && this.ReloadCurrentApp();
+            e.app_key == O.SelectedApp && this.ReloadCurrentApp();
           }
           SetBindingURL(e) {
             this.m_sLoadedBindingURI = e;
@@ -3285,7 +3286,7 @@ var CLSTAMP = "9806884";
                       e,
                     );
               }
-              this.m_ControllerWatchers.set(i, new E(l, e, t, n, o));
+              this.m_ControllerWatchers.set(i, new M(l, e, t, n, o));
             }
             return this.m_ControllerWatchers.get(i);
           }
@@ -3330,7 +3331,7 @@ var CLSTAMP = "9806884";
           get BindingConfig() {
             return null == this.m_ModifiedBindingSet
               ? ""
-              : JSON.stringify(this.m_ModifiedBindingSet, null, "\t");
+              : (0, m.E)(this.m_ModifiedBindingSet, null, "\t");
           }
           get BindingSubscriptionChangedCanary() {
             return this.m_nBindingSubscriptionChangedCanary;
@@ -3365,216 +3366,216 @@ var CLSTAMP = "9806884";
             };
           }
         }
-        (0, i.Cg)([a.sH], w.prototype, "m_eWebSocketState", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_sLoadedBindingURI", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_LoadedBinding", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_ModifiedBindingSet", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_ModifiedOptions", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_ModifiedAliases", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_sName", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_sDescription", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_sInteractionProfile", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_SelectedApp", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_SelectedAppActions", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_sSelectedActionSet", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_sSelectedControllerType", void 0),
-          (0, i.Cg)([a.sH], w.prototype, "m_TrackerBindingSetup", void 0),
+        (0, i.Cg)([a.sH], k.prototype, "m_eWebSocketState", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_sLoadedBindingURI", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_LoadedBinding", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_ModifiedBindingSet", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_ModifiedOptions", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_ModifiedAliases", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_sName", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_sDescription", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_sInteractionProfile", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_SelectedApp", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_SelectedAppActions", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_sSelectedActionSet", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_sSelectedControllerType", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_TrackerBindingSetup", void 0),
           (0, i.Cg)(
             [a.sH],
-            w.prototype,
+            k.prototype,
             "m_OutstandingSaveBindingCalls",
             void 0,
           ),
-          (0, i.Cg)([a.sH], w.prototype, "m_ModifiedSimulatedActions", void 0),
+          (0, i.Cg)([a.sH], k.prototype, "m_ModifiedSimulatedActions", void 0),
           (0, i.Cg)(
             [a.sH],
-            w.prototype,
+            k.prototype,
             "m_nBindingSubscriptionChangedCanary",
             void 0,
           ),
-          (0, i.Cg)([l.o], w.prototype, "OpenWebSocketToHost", null),
-          (0, i.Cg)([a.EW], w.prototype, "SteamVRUnavailable", null),
-          (0, i.Cg)([a.EW], w.prototype, "ActionSets", null),
-          (0, i.Cg)([a.EW], w.prototype, "ManifestOptions", null),
-          (0, i.Cg)([a.EW], w.prototype, "SecondaryControllerOptions", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetOptionValue", null),
-          (0, i.Cg)([a.XI], w.prototype, "AddSimulatedAction", null),
-          (0, i.Cg)([a.XI], w.prototype, "DeleteSimulatedActionByPath", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedApp", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedAppActions", null),
+          (0, i.Cg)([l.o], k.prototype, "OpenWebSocketToHost", null),
+          (0, i.Cg)([a.EW], k.prototype, "SteamVRUnavailable", null),
+          (0, i.Cg)([a.EW], k.prototype, "ActionSets", null),
+          (0, i.Cg)([a.EW], k.prototype, "ManifestOptions", null),
+          (0, i.Cg)([a.EW], k.prototype, "SecondaryControllerOptions", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetOptionValue", null),
+          (0, i.Cg)([a.XI], k.prototype, "AddSimulatedAction", null),
+          (0, i.Cg)([a.XI], k.prototype, "DeleteSimulatedActionByPath", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedApp", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedAppActions", null),
           (0, i.Cg)(
             [a.EW],
-            w.prototype,
+            k.prototype,
             "CurrentAppCanAccessPrivateInputs",
             null,
           ),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedControllerTypeInfo", null),
-          (0, i.Cg)([a.EW], w.prototype, "CurrentBindingSaveType", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedControllerTypeInfo", null),
+          (0, i.Cg)([a.EW], k.prototype, "CurrentBindingSaveType", null),
           (0, i.Cg)(
             [a.EW],
-            w.prototype,
+            k.prototype,
             "CurrentBindingActionManifestVersion",
             null,
           ),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedActionSet", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedActionSetDetails", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedActionSetActions", null),
-          (0, i.Cg)([l.o], w.prototype, "GetSelectedAppDefaultBinding", null),
-          (0, i.Cg)([l.o], w.prototype, "GetActionByName", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedActionSetPoses", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedActionSetHaptics", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedActionSetSkeletons", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedActionSetChords", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedActionSetChordCount", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedActionSetSources", null),
-          (0, i.Cg)([a.EW], w.prototype, "BSelectedActionSetHasPoses", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedActionSet", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedActionSetDetails", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedActionSetActions", null),
+          (0, i.Cg)([l.o], k.prototype, "GetSelectedAppDefaultBinding", null),
+          (0, i.Cg)([l.o], k.prototype, "GetActionByName", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedActionSetPoses", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedActionSetHaptics", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedActionSetSkeletons", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedActionSetChords", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedActionSetChordCount", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedActionSetSources", null),
+          (0, i.Cg)([a.EW], k.prototype, "BSelectedActionSetHasPoses", null),
           (0, i.Cg)(
             [a.EW],
-            w.prototype,
+            k.prototype,
             "BSelectedActionSetHasBoundPoses",
             null,
           ),
-          (0, i.Cg)([a.EW], w.prototype, "BSelectedActionSetHasHaptics", null),
+          (0, i.Cg)([a.EW], k.prototype, "BSelectedActionSetHasHaptics", null),
           (0, i.Cg)(
             [a.EW],
-            w.prototype,
+            k.prototype,
             "BSelectedActionSetHasBoundHaptics",
             null,
           ),
           (0, i.Cg)(
             [a.EW],
-            w.prototype,
+            k.prototype,
             "BSelectedActionSetHasSkeletons",
             null,
           ),
           (0, i.Cg)(
             [a.EW],
-            w.prototype,
+            k.prototype,
             "BSelectedActionSetHasBoundSkeletons",
             null,
           ),
-          (0, i.Cg)([a.XI], w.prototype, "ClearSelectedApp", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetSelectedApp", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetSelectedController", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetSelectedActionSet", null),
+          (0, i.Cg)([a.XI], k.prototype, "ClearSelectedApp", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetSelectedApp", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetSelectedController", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetSelectedActionSet", null),
           (0, i.Cg)(
             [l.o],
-            w.prototype,
+            k.prototype,
             "LocalizeStringForSelectedControllerType",
             null,
           ),
           (0, i.Cg)(
             [l.o],
-            w.prototype,
+            k.prototype,
             "LocalizePathNameForSelectedControllerType",
             null,
           ),
           (0, i.Cg)(
             [a.EW],
-            w.prototype,
+            k.prototype,
             "SelectedControllerTypeLocalizedName",
             null,
           ),
-          (0, i.Cg)([a.XI], w.prototype, "RegisterBindingWatcher", null),
-          (0, i.Cg)([a.XI], w.prototype, "UnregisterBindingWatcher", null),
-          (0, i.Cg)([a.XI], w.prototype, "GetActionBinding", null),
-          (0, i.Cg)([l.o], w.prototype, "GetInputModesForSourceType", null),
-          (0, i.Cg)([l.o], w.prototype, "GetBooleanInputOptionsForMode", null),
-          (0, i.Cg)([l.o], w.prototype, "GetActionBindingsOfType", null),
-          (0, i.Cg)([a.EW], w.prototype, "GetBooleanActionBindings", null),
-          (0, i.Cg)([a.EW], w.prototype, "GetVector1ActionBindings", null),
+          (0, i.Cg)([a.XI], k.prototype, "RegisterBindingWatcher", null),
+          (0, i.Cg)([a.XI], k.prototype, "UnregisterBindingWatcher", null),
+          (0, i.Cg)([a.XI], k.prototype, "GetActionBinding", null),
+          (0, i.Cg)([l.o], k.prototype, "GetInputModesForSourceType", null),
+          (0, i.Cg)([l.o], k.prototype, "GetBooleanInputOptionsForMode", null),
+          (0, i.Cg)([l.o], k.prototype, "GetActionBindingsOfType", null),
+          (0, i.Cg)([a.EW], k.prototype, "GetBooleanActionBindings", null),
+          (0, i.Cg)([a.EW], k.prototype, "GetVector1ActionBindings", null),
           (0, i.Cg)(
             [a.EW],
-            w.prototype,
+            k.prototype,
             "GetLiteralVector1ActionBindings",
             null,
           ),
-          (0, i.Cg)([a.EW], w.prototype, "GetVector2ActionBindings", null),
-          (0, i.Cg)([a.EW], w.prototype, "GetVector3ActionBindings", null),
-          (0, i.Cg)([a.EW], w.prototype, "GetPoseActionBindings", null),
-          (0, i.Cg)([a.EW], w.prototype, "GetHapticsActionBindings", null),
-          (0, i.Cg)([a.EW], w.prototype, "GetSkeletonActionBindings", null),
-          (0, i.Cg)([a.EW], w.prototype, "ConfigName", null),
-          (0, i.Cg)([a.EW], w.prototype, "ConfigDescription", null),
-          (0, i.Cg)([l.o], w.prototype, "GetPoseAction", null),
-          (0, i.Cg)([l.o], w.prototype, "GetPoseActionByPath", null),
-          (0, i.Cg)([l.o], w.prototype, "GetHapticsAction", null),
-          (0, i.Cg)([l.o], w.prototype, "GetHapticsActionByPath", null),
-          (0, i.Cg)([l.o], w.prototype, "GetSkeletonAction", null),
-          (0, i.Cg)([l.o], w.prototype, "GetSkeletonActionByPath", null),
-          (0, i.Cg)([l.o], w.prototype, "NotifyWatchersOfChange", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetActionForInputModeType", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetParameterForInputModeType", null),
-          (0, i.Cg)([l.o], w.prototype, "AddActionSetIfRequired", null),
-          (0, i.Cg)([a.XI], w.prototype, "AddInputModeForSource", null),
-          (0, i.Cg)([a.XI], w.prototype, "DeleteInputModeForSource", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetInputModeForInputSource", null),
-          (0, i.Cg)([a.XI], w.prototype, "ClearModesForInputPath", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetInputPathForPose", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetPoseForInputPath", null),
-          (0, i.Cg)([a.XI], w.prototype, "AddDefaultPose", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetInputPathForHaptics", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetHapticsForInputPath", null),
-          (0, i.Cg)([a.XI], w.prototype, "AddDefaultHaptics", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetInputPathForSkeleton", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetSkeletonForInputPath", null),
-          (0, i.Cg)([a.XI], w.prototype, "AddDefaultSkeleton", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetActionForChord", null),
-          (0, i.Cg)([a.XI], w.prototype, "DeleteChord", null),
-          (0, i.Cg)([a.XI], w.prototype, "AddChord", null),
-          (0, i.Cg)([a.XI], w.prototype, "DeleteSourceFromChord", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetInputTypeForChord", null),
-          (0, i.Cg)([a.XI], w.prototype, "SetInputSourceForChord", null),
-          (0, i.Cg)([a.XI], w.prototype, "LoadActionManifest", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedBindingURL", null),
-          (0, i.Cg)([a.EW], w.prototype, "LoadedBindingURL", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedBindingIsLegacy", null),
-          (0, i.Cg)([a.EW], w.prototype, "SelectedBindingIsOpenXR", null),
-          (0, i.Cg)([a.EW], w.prototype, "IsSecondaryController", null),
-          (0, i.Cg)([a.EW], w.prototype, "TrackerBindings", null),
-          (0, i.Cg)([a.XI], w.prototype, "GetTrackerBindings", null),
-          (0, i.Cg)([l.o], w.prototype, "SetTrackerBinding", null),
-          (0, i.Cg)([l.o], w.prototype, "PulseHaptics", null),
-          (0, i.Cg)([a.EW], w.prototype, "KnownControllerTypes", null),
-          (0, i.Cg)([l.o], w.prototype, "AutosaveBinding", null),
-          (0, i.Cg)([l.o], w.prototype, "OnWebSocketOpen", null),
-          (0, i.Cg)([l.o], w.prototype, "OnWebSocketClose", null),
-          (0, i.Cg)([l.o], w.prototype, "WebSocketSend", null),
-          (0, i.Cg)([l.o], w.prototype, "OnWorkshopUploadComplete", null),
-          (0, i.Cg)([l.o], w.prototype, "OnPendingFileSaved", null),
-          (0, i.Cg)([a.EW], w.prototype, "SaveNoticeText", null),
-          (0, i.Cg)([l.o], w.prototype, "QueryBindingList", null),
-          (0, i.Cg)([l.o], w.prototype, "DeleteBinding", null),
-          (0, i.Cg)([l.o], w.prototype, "OnBindingDeleteComplete", null),
+          (0, i.Cg)([a.EW], k.prototype, "GetVector2ActionBindings", null),
+          (0, i.Cg)([a.EW], k.prototype, "GetVector3ActionBindings", null),
+          (0, i.Cg)([a.EW], k.prototype, "GetPoseActionBindings", null),
+          (0, i.Cg)([a.EW], k.prototype, "GetHapticsActionBindings", null),
+          (0, i.Cg)([a.EW], k.prototype, "GetSkeletonActionBindings", null),
+          (0, i.Cg)([a.EW], k.prototype, "ConfigName", null),
+          (0, i.Cg)([a.EW], k.prototype, "ConfigDescription", null),
+          (0, i.Cg)([l.o], k.prototype, "GetPoseAction", null),
+          (0, i.Cg)([l.o], k.prototype, "GetPoseActionByPath", null),
+          (0, i.Cg)([l.o], k.prototype, "GetHapticsAction", null),
+          (0, i.Cg)([l.o], k.prototype, "GetHapticsActionByPath", null),
+          (0, i.Cg)([l.o], k.prototype, "GetSkeletonAction", null),
+          (0, i.Cg)([l.o], k.prototype, "GetSkeletonActionByPath", null),
+          (0, i.Cg)([l.o], k.prototype, "NotifyWatchersOfChange", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetActionForInputModeType", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetParameterForInputModeType", null),
+          (0, i.Cg)([l.o], k.prototype, "AddActionSetIfRequired", null),
+          (0, i.Cg)([a.XI], k.prototype, "AddInputModeForSource", null),
+          (0, i.Cg)([a.XI], k.prototype, "DeleteInputModeForSource", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetInputModeForInputSource", null),
+          (0, i.Cg)([a.XI], k.prototype, "ClearModesForInputPath", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetInputPathForPose", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetPoseForInputPath", null),
+          (0, i.Cg)([a.XI], k.prototype, "AddDefaultPose", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetInputPathForHaptics", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetHapticsForInputPath", null),
+          (0, i.Cg)([a.XI], k.prototype, "AddDefaultHaptics", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetInputPathForSkeleton", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetSkeletonForInputPath", null),
+          (0, i.Cg)([a.XI], k.prototype, "AddDefaultSkeleton", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetActionForChord", null),
+          (0, i.Cg)([a.XI], k.prototype, "DeleteChord", null),
+          (0, i.Cg)([a.XI], k.prototype, "AddChord", null),
+          (0, i.Cg)([a.XI], k.prototype, "DeleteSourceFromChord", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetInputTypeForChord", null),
+          (0, i.Cg)([a.XI], k.prototype, "SetInputSourceForChord", null),
+          (0, i.Cg)([a.XI], k.prototype, "LoadActionManifest", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedBindingURL", null),
+          (0, i.Cg)([a.EW], k.prototype, "LoadedBindingURL", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedBindingIsLegacy", null),
+          (0, i.Cg)([a.EW], k.prototype, "SelectedBindingIsOpenXR", null),
+          (0, i.Cg)([a.EW], k.prototype, "IsSecondaryController", null),
+          (0, i.Cg)([a.EW], k.prototype, "TrackerBindings", null),
+          (0, i.Cg)([a.XI], k.prototype, "GetTrackerBindings", null),
+          (0, i.Cg)([l.o], k.prototype, "SetTrackerBinding", null),
+          (0, i.Cg)([l.o], k.prototype, "PulseHaptics", null),
+          (0, i.Cg)([a.EW], k.prototype, "KnownControllerTypes", null),
+          (0, i.Cg)([l.o], k.prototype, "AutosaveBinding", null),
+          (0, i.Cg)([l.o], k.prototype, "OnWebSocketOpen", null),
+          (0, i.Cg)([l.o], k.prototype, "OnWebSocketClose", null),
+          (0, i.Cg)([l.o], k.prototype, "WebSocketSend", null),
+          (0, i.Cg)([l.o], k.prototype, "OnWorkshopUploadComplete", null),
+          (0, i.Cg)([l.o], k.prototype, "OnPendingFileSaved", null),
+          (0, i.Cg)([a.EW], k.prototype, "SaveNoticeText", null),
+          (0, i.Cg)([l.o], k.prototype, "QueryBindingList", null),
+          (0, i.Cg)([l.o], k.prototype, "DeleteBinding", null),
+          (0, i.Cg)([l.o], k.prototype, "OnBindingDeleteComplete", null),
           (0, i.Cg)(
             [l.o],
-            w.prototype,
+            k.prototype,
             "ShouldShowBindingFailureForControllerType",
             null,
           ),
-          (0, i.Cg)([l.o], w.prototype, "OnQueryResults", null),
-          (0, i.Cg)([l.o], w.prototype, "SelectConfig", null),
-          (0, i.Cg)([l.o], w.prototype, "OnSelectConfigComplete", null),
-          (0, i.Cg)([l.o], w.prototype, "OnTrackersBindingChanged", null),
-          (0, i.Cg)([l.o], w.prototype, "OnActionManifestReloaded", null),
-          (0, i.Cg)([l.o], w.prototype, "SetBindingURL", null),
-          (0, i.Cg)([l.o], w.prototype, "OnActionBindingsReloaded", null),
+          (0, i.Cg)([l.o], k.prototype, "OnQueryResults", null),
+          (0, i.Cg)([l.o], k.prototype, "SelectConfig", null),
+          (0, i.Cg)([l.o], k.prototype, "OnSelectConfigComplete", null),
+          (0, i.Cg)([l.o], k.prototype, "OnTrackersBindingChanged", null),
+          (0, i.Cg)([l.o], k.prototype, "OnActionManifestReloaded", null),
+          (0, i.Cg)([l.o], k.prototype, "SetBindingURL", null),
+          (0, i.Cg)([l.o], k.prototype, "OnActionBindingsReloaded", null),
           (0, i.Cg)(
             [l.o],
-            w.prototype,
+            k.prototype,
             "GetControllerWatcherForSourceFromControllerType",
             null,
           ),
-          (0, i.Cg)([l.o], w.prototype, "OnWebSocketMessage", null),
-          (0, i.Cg)([a.EW], w.prototype, "BindingConfig", null),
+          (0, i.Cg)([l.o], k.prototype, "OnWebSocketMessage", null),
+          (0, i.Cg)([a.EW], k.prototype, "BindingConfig", null),
           (0, i.Cg)(
             [a.EW],
-            w.prototype,
+            k.prototype,
             "BindingSubscriptionChangedCanary",
             null,
           );
-        const k = new w();
-        window.controllerBindingStore = k;
+        const O = new k();
+        window.controllerBindingStore = O;
       },
       6795: (e, t, n) => {
         "use strict";

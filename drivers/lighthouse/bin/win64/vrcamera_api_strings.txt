@@ -613,7 +613,7 @@ QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-RSDS
+RSDSQw
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -822,6 +822,7 @@ generic
 graph
 host unreachable
 identifier removed
+iiiM
 illegal byte sequence
 inappropriate io control operation
 interrupted
