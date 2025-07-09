@@ -274,8 +274,8 @@ $4DTdt
 .?AV<lambda_b999e20ffa6154705556996545c644f8>@@
 .?AV<lambda_c64c1a9cc02f8aeec11a8ac013daf78e>@@
 .?AV<lambda_cc402e3e286a8766195cab2d89453386>@@
-.?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_d16db97e62c2efde03fd6ec893e59571>@@
+.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_de316f43b8d0f26b94370bf11e74008f>@@
 .?AV<lambda_e0a7300d03579af9117ce96f7cfc1e03>@@
 .?AV<lambda_ebfb3060989199463f5c1ef7bf995d6c>@@
@@ -333,8 +333,8 @@ $4DTdt
 .?AV?$_Func_impl_no_alloc@V<lambda_b999e20ffa6154705556996545c644f8>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c64c1a9cc02f8aeec11a8ac013daf78e>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cc402e3e286a8766195cab2d89453386>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d16db97e62c2efde03fd6ec893e59571>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_de316f43b8d0f26b94370bf11e74008f>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e0a7300d03579af9117ce96f7cfc1e03>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ebfb3060989199463f5c1ef7bf995d6c>@@XAEBVValue@Json@@@std@@
@@ -915,8 +915,8 @@ $4DTdt
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
-10:02:54
 123456789
+12:32:07
 1A26b
 1e+9999
 1wsHp
@@ -1602,6 +1602,7 @@ ERROR
 ERROR! Failed to get Collision Bounds info m_pChaperone->GetCollisionBoundsInfo( nQuadCount = %d )!\n
 ERROR! No valid GPU speed entries found!\n
 ERROR: Failed to dup handle!\n
+ERROR: Failed to open log file %s, attempting timestamped filename\n
 Embedded profile length in iCCP chunk is negative
 Embedded profile length too large in iCCP chunk
 Empty escape sequence in string
@@ -1662,7 +1663,7 @@ Extra non-whitespace after JSON value.
 Eye Tracking Debug
 FAILED
 FATAL
-FATAL: Failed to open log file %s\n
+FATAL: Failed to open log file %s, failing out!\n
 FORMAT=32-bit_rle_rgbe
 Factory Function Not Found (104)
 Failed
@@ -2277,7 +2278,7 @@ IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 It shouldn't be possible to add a child twice because of move semantics
 JFIF
 Journaling %s\n
-Jun 18 2025
+Jul  9 2025
 KERNEL32.dll
 Kernel32.dll
 KillTimer
@@ -2706,6 +2707,7 @@ Prop_SecondsFromPhotonsToVblank_Float
 Prop_SecondsFromVsyncToPhotons_Float
 Prop_SerialNumber_String
 Prop_StatusDisplayTransform_Matrix34
+Prop_SteamRemoteClientID_Uint64
 Prop_SupportedButtons_Uint64
 Prop_SupportsRoomViewDepthProjection_Bool
 Prop_TrackingFirmwareVersion_String
@@ -2728,7 +2730,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS)>Li
+RSDS
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -3296,6 +3298,7 @@ VREvent_ScreenshotTriggered
 VREvent_ScrollDiscrete
 VREvent_ScrollSmooth
 VREvent_SeatedZeroPoseReset
+VREvent_SetTrackingRecordingPath
 VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
@@ -4031,7 +4034,6 @@ Zjz\v
 [Compositor] !!!! ReleaseSync FAILED with E_FAIL
 [Compositor] !!!! ReleaseSync FAILED with unknown hr
 [Compositor] Activating interleaved reprojection\n
-[Compositor] AddAllRenderModelComponentBindings
 [Compositor] AddDeviceModelToUpdate
 [Compositor] Adding %fms to compositor timing for virtual display driver slip
 [Compositor] Bad present: FramesSinceLastPresent=%d
@@ -4054,13 +4056,13 @@ Zjz\v
 [Compositor] Deactivating interleaved reprojection\n
 [Compositor] Deferred command list submitted
 [Compositor] Detected dropped frames: %d
+[Compositor] DoNonRenderingWork
 [Compositor] Dropped Frames: %d
 [Compositor] End AcquireSync
 [Compositor] End ReleaseSync
 [Compositor] End Running Start
 [Compositor] Estimated total render gpu: %.4f (Comp=%.2f App=%.2f+%.2f Slip=%.2f
 [Compositor] FAILED: Wait for GPU work
-[Compositor] FillOverlayParams
 [Compositor] Flush: %s
 [Compositor] Frame used before expected: %d (last=%d)
 [Compositor] GPU work finished
@@ -4092,6 +4094,8 @@ Zjz\v
 [Compositor] PushUpdatesToScenegraph
 [Compositor] Re-predicting( %f ms )
 [Compositor] Read timestamps
+[Compositor] RenderFrame
+[Compositor] RunFrame
 [Compositor] Running Start - Async
 [Compositor] Scene
 [Compositor] SendOverlayVSyncEvent[%d]
@@ -5128,7 +5132,7 @@ qsort
 quad
 quickMouseMode
 quick_reset_room_setup
-r\vPt;
+r\vPd<
 radius-range
 rand
 rawCaptureNumberOfFrames
@@ -5668,6 +5672,7 @@ win64
 winrtdisplay.dll
 wireframe
 wn>Jj
+world
 wrong channel count
 wrong color format
 wrong version

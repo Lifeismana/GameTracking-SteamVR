@@ -110,6 +110,7 @@ $3br
 %F-%H-%M-%S
 %LocalAppData%
 %Y-%m-%d %I:%M:%S %p
+%Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
 %d drivers initialized for watchdog mode.\n
@@ -321,10 +322,8 @@ $3br
 ./obj_vrclient_linux32/release/vrclient.so
 .L10
 .L100
-.L1001
-.L1002
+.L1003
 .L1004
-.L1005
 .L1006
 .L1007
 .L1008
@@ -343,8 +342,9 @@ $3br
 .L102
 .L1020
 .L1021
-.L1024
-.L1029
+.L1022
+.L1023
+.L1026
 .L103
 .L10306
 .L10307
@@ -354,7 +354,6 @@ $3br
 .L10311
 .L10312
 .L10313
-.L1032
 .L10326
 .L1033
 .L1034
@@ -399,18 +398,20 @@ $3br
 .L1048
 .L1049
 .L105
+.L1050
 .L1051
-.L1054
-.L1055
+.L1053
+.L1056
 .L1057
-.L1058
 .L1059
 .L106
+.L1060
 .L1061
 .L10625
 .L10627
 .L10628
 .L10629
+.L1063
 .L10630
 .L10631
 .L10632
@@ -418,10 +419,8 @@ $3br
 .L10634
 .L10635
 .L107
-.L1073
 .L1074
 .L1075
-.L1076
 .L1077
 .L1078
 .L1079
@@ -438,7 +437,9 @@ $3br
 .L1089
 .L109
 .L1090
+.L1091
 .L1092
+.L1094
 .L1095
 .L11
 .L110
@@ -452,32 +453,20 @@ $3br
 .L1146
 .L1147
 .L115
-.L11549
-.L11551
-.L11553
-.L11554
-.L11555
-.L11556
-.L11557
-.L11558
-.L11559
-.L11560
-.L11561
-.L11562
 .L116
+.L11660
+.L11663
+.L11665
+.L11666
+.L11667
+.L11668
+.L11669
+.L11670
+.L11671
+.L11672
+.L11673
+.L11674
 .L117
-.L11704
-.L11707
-.L11709
-.L11710
-.L11711
-.L11712
-.L11713
-.L11714
-.L11715
-.L11716
-.L11717
-.L11718
 .L1173
 .L1176
 .L1177
@@ -493,7 +482,19 @@ $3br
 .L1186
 .L1187
 .L1188
+.L11885
+.L11887
+.L11889
 .L1189
+.L11890
+.L11891
+.L11892
+.L11893
+.L11894
+.L11895
+.L11896
+.L11897
+.L11898
 .L119
 .L1190
 .L1191
@@ -565,32 +566,32 @@ $3br
 .L1292
 .L1293
 .L1294
-.L1297
-.L1299
 .L13
 .L130
-.L1300
-.L1301
-.L1302
-.L1303
-.L1304
-.L1305
 .L131
-.L1311
-.L1312
-.L1314
-.L1315
-.L1316
-.L1317
-.L1318
-.L1319
 .L132
+.L1320
+.L1322
 .L1323
+.L1324
+.L1325
 .L1326
-.L1329
+.L1327
+.L1328
 .L133
+.L1334
+.L1335
+.L1337
+.L1338
+.L1339
 .L134
+.L1340
+.L1341
+.L1342
+.L1346
+.L1349
 .L135
+.L1352
 .L136
 .L137
 .L138
@@ -603,11 +604,19 @@ $3br
 .L144
 .L145
 .L146
+.L1465
+.L1466
+.L1468
+.L1469
 .L147
+.L1470
+.L1471
+.L1472
 .L14722
 .L14726
 .L14727
 .L14729
+.L1473
 .L14730
 .L14731
 .L14732
@@ -618,6 +627,7 @@ $3br
 .L14737
 .L14738
 .L14739
+.L1474
 .L14740
 .L14741
 .L14742
@@ -665,30 +675,22 @@ $3br
 .L1486
 .L1487
 .L149
-.L1498
-.L1499
+.L1490
 .L15
 .L150
-.L1501
 .L15013
 .L15014
 .L15016
 .L15017
 .L15018
 .L15019
-.L1502
 .L15020
 .L15021
 .L15023
 .L15024
 .L15025
-.L1503
-.L1504
-.L1505
-.L1506
 .L15060
 .L15061
-.L1507
 .L151
 .L15136
 .L15137
@@ -702,7 +704,6 @@ $3br
 .L15146
 .L15147
 .L152
-.L1520
 .L153
 .L154
 .L15475
@@ -774,16 +775,16 @@ $3br
 .L1640
 .L1641
 .L1642
-.L16429
-.L16430
-.L16432
-.L16433
-.L16434
-.L16435
-.L16436
-.L16437
-.L16438
 .L165
+.L16533
+.L16534
+.L16536
+.L16537
+.L16538
+.L16539
+.L16540
+.L16541
+.L16542
 .L1655
 .L1657
 .L1658
@@ -873,14 +874,7 @@ $3br
 .L183
 .L184
 .L185
-.L1858
-.L1859
 .L186
-.L1861
-.L1862
-.L1863
-.L1864
-.L1865
 .L187
 .L188
 .L189
@@ -1357,12 +1351,17 @@ $3br
 .L35045
 .L35046
 .L352
+.L3538
 .L354
+.L3540
+.L3541
+.L3542
 .L3544
 .L3545
 .L3547
 .L3548
 .L355
+.L3553
 .L356
 .L357
 .L358
@@ -1376,13 +1375,13 @@ $3br
 .L365
 .L3650
 .L366
+.L3663
+.L3664
+.L3666
+.L3667
+.L3668
 .L367
-.L3672
-.L3674
-.L3675
-.L3676
 .L368
-.L3687
 .L369
 .L37
 .L370
@@ -1397,12 +1396,7 @@ $3br
 .L379
 .L38
 .L380
-.L3809
 .L381
-.L3810
-.L3812
-.L3813
-.L3814
 .L382
 .L383
 .L384
@@ -1422,10 +1416,8 @@ $3br
 .L390
 .L391
 .L392
-.L393
-.L394
 .L395
-.L397
+.L396
 .L398
 .L39863
 .L39864
@@ -1442,7 +1434,7 @@ $3br
 .L399
 .L40
 .L400
-.L402
+.L401
 .L403
 .L404
 .L406
@@ -1476,13 +1468,14 @@ $3br
 .L431
 .L432
 .L433
+.L434
 .L435
 .L436
 .L438
 .L439
 .L44
-.L440
 .L441
+.L442
 .L443
 .L4439
 .L444
@@ -1501,7 +1494,6 @@ $3br
 .L45
 .L450
 .L451
-.L452
 .L453
 .L454
 .L455
@@ -1688,10 +1680,10 @@ $3br
 .L609
 .L61
 .L610
-.L612
+.L611
 .L613
-.L617
-.L619
+.L614
+.L618
 .L62
 .L620
 .L621
@@ -1705,9 +1697,9 @@ $3br
 .L629
 .L63
 .L630
-.L632
+.L631
+.L633
 .L638
-.L639
 .L64
 .L640
 .L641
@@ -1716,8 +1708,7 @@ $3br
 .L644
 .L645
 .L646
-.L647
-.L649
+.L648
 .L65
 .L650
 .L651
@@ -1727,7 +1718,7 @@ $3br
 .L655
 .L656
 .L657
-.L659
+.L658
 .L66
 .L660
 .L661
@@ -1735,8 +1726,8 @@ $3br
 .L663
 .L664
 .L665
-.L667
-.L669
+.L666
+.L668
 .L67
 .L670
 .L6702
@@ -1771,7 +1762,7 @@ $3br
 .L6734
 .L6735
 .L674
-.L676
+.L675
 .L6763
 .L6764
 .L677
@@ -1962,6 +1953,7 @@ $3br
 .L838
 .L839
 .L84
+.L840
 .L841
 .L843
 .L844
@@ -2026,7 +2018,6 @@ $3br
 .L9276
 .L9277
 .L928
-.L929
 .L9293
 .L93
 .L930
@@ -2049,13 +2040,13 @@ $3br
 .L94
 .L940
 .L941
+.L942
 .L943
-.L946
-.L947
+.L945
+.L948
 .L949
 .L9499
 .L95
-.L950
 .L9500
 .L9502
 .L9503
@@ -2067,17 +2058,18 @@ $3br
 .L952
 .L953
 .L954
+.L955
 .L956
 .L9576
 .L9577
 .L9579
+.L958
 .L9580
 .L9581
 .L9582
 .L9583
 .L9592
 .L96
-.L960
 .L9609
 .L9610
 .L9612
@@ -2087,12 +2079,13 @@ $3br
 .L9616
 .L962
 .L9625
-.L963
 .L964
 .L965
 .L966
+.L967
 .L968
 .L97
+.L970
 .L9718
 .L9719
 .L9721
@@ -2457,7 +2450,6 @@ $3br
 16CVRMailboxClient
 16CVROverlayLatest
 16IVRClientHandler
-17:03:20
 17CBoneMaskResource
 17CInputFilter_DPad
 17CSharedImageLinux
@@ -2492,6 +2484,7 @@ $3br
 17CVRCompositor_025
 17CVRCompositor_026
 17CVRCompositor_027
+17CVRCompositor_028
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
@@ -2503,6 +2496,7 @@ $3br
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
+19:32:40
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -2623,6 +2617,7 @@ $3br
 23CVRSpatialAnchorsLatest
 23CVRTrackedDevice_Latest
 24CInputFilter_Boolean_And
+24CInputFilter_Pose_Offset
 24CSharedResourceBaseLinux
 24CVRMsg_CompositorConnect
 24CVRMsg_ComputeDistortion
@@ -2837,6 +2832,7 @@ $3br
 31CompositorInterfaceRegistrationI17CVRCompositor_025E
 31CompositorInterfaceRegistrationI17CVRCompositor_026E
 31CompositorInterfaceRegistrationI17CVRCompositor_027E
+31CompositorInterfaceRegistrationI17CVRCompositor_028E
 32CCompositorPluginProvider_Latest
 32CServerTrackedDeviceProvider_002
 32CServerTrackedDeviceProvider_003
@@ -3186,9 +3182,6 @@ Attempted to read payload of %d bytes from pipe but failed\n
 Attempted to unmap un-allocated BO\n
 Attempted to unmap unmapped BO\n
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
-Attempting to wait on a fence that has already been waited for. Current: %llx Wait: %llx\n
-Attempting to wait on a fence value that is too large. Current: %llx Wait: %llx\n
-Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %llx, Signaled: %llx\n
 August
 AuthenticAMD
 AutosaveURL
@@ -3310,8 +3303,6 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1181.232812
-C.1900.373358
-C.1901.373369
 C.73.341431
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
@@ -3578,6 +3569,8 @@ CCompositorPluginProvider_Latest::GetInterfaceVersions()
 CCompositorPluginProvider_Latest::GetSourceVersion()
 CCompositorPluginProvider_Latest::Init(vr::IVRDriverContext*)
 CCompositorPluginProvider_Latest::~CCompositorPluginProvider_Latest()
+CConditionalScopedEventDuration::CConditionalScopedEventDuration(char const*, ...)
+CConditionalScopedEventDuration::~CConditionalScopedEventDuration()
 CCountedMutexWithLogCache::Log(char const*, ...)
 CCountedMutexWithLogCache::Log(char const*, ...) (.cold)
 CDampedFloat::Update(float, float, float)
@@ -3817,6 +3810,7 @@ CHmdSystemLatest::GetDriverInitError(char const*)
 CHmdSystemLatest::GetDriverInitError(char const*) (.cold)
 CHmdSystemLatest::GetDriverManager()
 CHmdSystemLatest::GetEnglishStringForHmdError(vr::EVRInitError)
+CHmdSystemLatest::GetEyePoseAtTime(double, vr::VREyeTrackingState_Pose_t*)
 CHmdSystemLatest::GetEyeServerStatus()
 CHmdSystemLatest::GetGenericInterface(char const*, vr::EVRInitError*)
 CHmdSystemLatest::GetGenericInterface(char const*, vr::EVRInitError*) (.cold)
@@ -4215,6 +4209,10 @@ CInputFilter_Pose_Constant::BInit(IInputFilterValueStore*, CActionFilter const&)
 CInputFilter_Pose_Constant::BInit(IInputFilterValueStore*, CActionFilter const&) (.cold)
 CInputFilter_Pose_Constant::Process(IInputFilterValueStore*)
 CInputFilter_Pose_Constant::~CInputFilter_Pose_Constant()
+CInputFilter_Pose_Offset::BInit(IInputFilterValueStore*, CActionFilter const&)
+CInputFilter_Pose_Offset::BInit(IInputFilterValueStore*, CActionFilter const&) (.cold)
+CInputFilter_Pose_Offset::Process(IInputFilterValueStore*)
+CInputFilter_Pose_Offset::~CInputFilter_Pose_Offset()
 CInputFilter_RadialMenu::BInit(IInputFilterValueStore*, CActionFilter const&)
 CInputFilter_RadialMenu::BInit(IInputFilterValueStore*, CActionFilter const&) (.cold)
 CInputFilter_RadialMenu::~CInputFilter_RadialMenu()
@@ -4258,6 +4256,7 @@ CInputFilter_Scalar_TrackpadScroll_Discrete::~CInputFilter_Scalar_TrackpadScroll
 CInputFilter_Scalar_TrackpadScroll_Smooth::AddLastVelocity(vr::HmdVector2_t const&)
 CInputFilter_Scalar_TrackpadScroll_Smooth::BInit(IInputFilterValueStore*, CActionFilter const&)
 CInputFilter_Scalar_TrackpadScroll_Smooth::BInit(IInputFilterValueStore*, CActionFilter const&) (.cold)
+CInputFilter_Scalar_TrackpadScroll_Smooth::CInputFilter_Scalar_TrackpadScroll_Smooth()
 CInputFilter_Scalar_TrackpadScroll_Smooth::ClearLastVelocities()
 CInputFilter_Scalar_TrackpadScroll_Smooth::ClearLastVelocities() (.cold)
 CInputFilter_Scalar_TrackpadScroll_Smooth::Process(IInputFilterValueStore*)
@@ -4703,9 +4702,9 @@ CSDLDynamic::~CSDLDynamic()
 CSWTCH.111
 CSWTCH.215
 CSWTCH.28
-CSWTCH.412
-CSWTCH.802
-CSWTCH.848
+CSWTCH.411
+CSWTCH.800
+CSWTCH.846
 CS_MAIN
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -4881,14 +4880,17 @@ CSharedBufferLinux::PrepareVulkanBufferForExport(VkDevice_T*, unsigned long long
 CSharedBufferLinux::RequestSharedVulkanBuffer(unsigned int, unsigned int)
 CSharedBufferLinux::~CSharedBufferLinux()
 CSharedCountingSemaphoreLinux::CSharedCountingSemaphoreLinux(vr::IVRIPCResourceManagerClient*)
-CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*)
-CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*) (.cold)
+CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*, bool)
+CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*, bool) (.cold)
 CSharedCountingSemaphoreLinux::GetType() const
 CSharedCountingSemaphoreLinux::ImportVulkanCountingSemaphore(VkDevice_T*, unsigned long long)
 CSharedCountingSemaphoreLinux::Signal(unsigned long long, vr::VRNativeDevice_t const*)
 CSharedCountingSemaphoreLinux::Signal(unsigned long long, vr::VRNativeDevice_t const*) (.cold)
+CSharedCountingSemaphoreLinux::Signal: %llu
 CSharedCountingSemaphoreLinux::Wait(unsigned long long, vr::VRNativeDevice_t const*)
 CSharedCountingSemaphoreLinux::Wait(unsigned long long, vr::VRNativeDevice_t const*) (.cold)
+CSharedCountingSemaphoreLinux::Wait(unsigned long long, vr::VRNativeDevice_t const*)::s_bDisableTimelineSemaphoreWait
+CSharedCountingSemaphoreLinux::Wait: %llu
 CSharedCountingSemaphoreLinux::~CSharedCountingSemaphoreLinux()
 CSharedImageLinux::CSharedImageLinux(vr::IVRIPCResourceManagerClient*)
 CSharedImageLinux::CreateVulkanImage(VkDevice_T*, VkFormat, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned int)
@@ -4982,6 +4984,7 @@ CSharedResourceBaseLinux::SignalSubmissionCompleted()
 CSharedResourceBaseLinux::SignalSubmissionCompleted() (.cold)
 CSharedResourceBaseLinux::SupportsGLMemoryInterop()
 CSharedResourceBaseLinux::SupportsGLSemaphoreInterop()
+CSharedResourceBaseLinux::SupportsGLTimelineSemaphoreInterop()
 CSharedResourceBaseLinux::WaitSubmissionCompleted(vr::IVRSharedSemaphore*)
 CSharedResourceBaseLinux::WaitSubmissionCompleted(vr::IVRSharedSemaphore*) (.cold)
 CSharedResourceBaseLinux::~CSharedResourceBaseLinux()
@@ -5008,7 +5011,7 @@ CSharedResourceNamespaceServer::Run()
 CSharedResourceNamespaceServer::~CSharedResourceNamespaceServer()
 CSharedSemaphoreLinux::CSharedSemaphoreLinux(vr::IVRIPCResourceManagerClient*)
 CSharedSemaphoreLinux::CreateVulkanSemaphore(VkDevice_T*)
-CSharedSemaphoreLinux::GetOGLSemaphore()
+CSharedSemaphoreLinux::GetOGLSemaphore(bool)
 CSharedSemaphoreLinux::GetState()
 CSharedSemaphoreLinux::GetState() (.cold)
 CSharedSemaphoreLinux::GetType() const
@@ -5732,6 +5735,7 @@ CVRCompositorClient::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
 CVRCompositorClient::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**) (.cold)
 CVRCompositorClient::GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 CVRCompositorClient::GetPreAndPostSubmitTimingMs(float*) const
+CVRCompositorClient::GetSubmitTexture(vr::Texture_t*, bool*, vr::EVRCompositorTextureUsage, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
 CVRCompositorClient::GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
 CVRCompositorClient::GetVulkanInstanceExtensionsRequired(char*, unsigned int)
 CVRCompositorClient::Init(vr::IVRSystem*, vr::IVRCompositorSystemInternal*, vr::IVRApplications*, CVRClient*, IVRClientInternal*)
@@ -5739,7 +5743,6 @@ CVRCompositorClient::Init(vr::IVRSystem*, vr::IVRCompositorSystemInternal*, vr::
 CVRCompositorClient::LockGLSharedTextureForAccess(void*)
 CVRCompositorClient::PostPresentHandoff()
 CVRCompositorClient::PostPresentHandoff() (.cold)
-CVRCompositorClient::PostPresentHandoff()::s_bEnableFrameEndMarkers
 CVRCompositorClient::PredictPoses(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 CVRCompositorClient::PredictPosesInternal(unsigned int, vr::TrackedDevicePose_t*, unsigned int, bool, double*)
 CVRCompositorClient::PredictPosesInternal(unsigned int, vr::TrackedDevicePose_t*, unsigned int, bool, double*) (.cold)
@@ -5748,6 +5751,7 @@ CVRCompositorClient::PredictRenderedFrame(int, float, float, vr::PredictedFrameI
 CVRCompositorClient::PredictRenderedFrameXR(int, float, float, vr::PredictedFrameInfo_t*)
 CVRCompositorClient::PredictRenderedFrameXR(int, float, float, vr::PredictedFrameInfo_t*) (.cold)
 CVRCompositorClient::Present(int)
+CVRCompositorClient::QueueGpuWait(IVRRenderer*)
 CVRCompositorClient::ReleaseMirrorTextureD3D11(void*)
 CVRCompositorClient::ReleaseMirrorTextureD3D11(void*) (.cold)
 CVRCompositorClient::ReleaseSharedGLTexture(unsigned int, void*)
@@ -5826,6 +5830,7 @@ CVRCompositorClientBase::GetLastPoses(vr::TrackedDevicePose_t*, unsigned int, vr
 CVRCompositorClientBase::GetMirrorTextureD3D11(vr::EVREye, void*, void**)
 CVRCompositorClientBase::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
 CVRCompositorClientBase::GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositorClientBase::GetSubmitTexture(vr::Texture_t*, bool*, vr::EVRCompositorTextureUsage, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
 CVRCompositorClientBase::GetTrackingSpace()
 CVRCompositorClientBase::GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
 CVRCompositorClientBase::GetVulkanInstanceExtensionsRequired(char*, unsigned int)
@@ -5956,6 +5961,7 @@ CVRCompositorSharedTextures::GPUWaitForSharedVRTexture(vr::Texture_t*, vr::IVRSh
 CVRCompositorSharedTextures::GetCachedVulkanDeviceData(VkDevice_T*)
 CVRCompositorSharedTextures::GetD3D11Device(void**, void*, void*, unsigned int)
 CVRCompositorSharedTextures::GetDevice(vr::Texture_t const*, vr::EVRSubmitFlags, void**)
+CVRCompositorSharedTextures::GetDevice(vr::Texture_t const*, vr::EVRSubmitFlags, void**) (.part.0)
 CVRCompositorSharedTextures::GetFrameInfo(CompositorFrameInfoConstantBuffer_t*, bool) const
 CVRCompositorSharedTextures::GetFrameTiming(float*, unsigned int)
 CVRCompositorSharedTextures::GetFrameTiming(float*, unsigned int) (.cold)
@@ -5989,6 +5995,7 @@ CVRCompositorSharedTextures::ISharedTextureSet::NeedsPurge(CVRCompositorSharedTe
 CVRCompositorSharedTextures::Init(vr::IVRSystem*, unsigned long long, unsigned int, vr::IVRDriverDirectInternal*, vr::IVRIPCResourceManagerClient*)
 CVRCompositorSharedTextures::InitVulkanInteropDevice()
 CVRCompositorSharedTextures::InitVulkanInteropDevice() (.part.0)
+CVRCompositorSharedTextures::InitVulkanRenderer(vr::VRVulkanTextureData_t const*)
 CVRCompositorSharedTextures::InitVulkanTimingDevice(VkInstance_T*, VkPhysicalDevice_T*, VkDevice_T*, VkQueue_T*, unsigned int)
 CVRCompositorSharedTextures::InitializeVulkan()
 CVRCompositorSharedTextures::InitializeVulkan()::s_bInitializedVulkan
@@ -6902,6 +6909,58 @@ CVRCompositor_027::SubmitExplicitTimingData()
 CVRCompositor_027::SuspendRendering(bool)
 CVRCompositor_027::UnlockGLSharedTextureForAccess(void*)
 CVRCompositor_027::WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositor_028::CanRenderScene()
+CVRCompositor_028::ClearLastSubmittedFrame()
+CVRCompositor_028::ClearSkyboxOverride()
+CVRCompositor_028::ClearStageOverride()
+CVRCompositor_028::CompositorBringToFront()
+CVRCompositor_028::CompositorDumpImages()
+CVRCompositor_028::CompositorGoToBack()
+CVRCompositor_028::CompositorQuit()
+CVRCompositor_028::FadeGrid(float, bool)
+CVRCompositor_028::FadeToColor(float, float, float, float, float, bool)
+CVRCompositor_028::ForceInterleavedReprojectionOn(bool)
+CVRCompositor_028::ForceReconnectProcess()
+CVRCompositor_028::GetCompositorBenchmarkResults(vr::Compositor_BenchmarkResults*, unsigned int)
+CVRCompositor_028::GetCumulativeStats(vr::Compositor_CumulativeStats*, unsigned int)
+CVRCompositor_028::GetCurrentFadeColor(bool)
+CVRCompositor_028::GetCurrentGridAlpha()
+CVRCompositor_028::GetCurrentSceneFocusProcess()
+CVRCompositor_028::GetFrameTimeRemaining()
+CVRCompositor_028::GetFrameTiming(vr::Compositor_FrameTiming*, unsigned int)
+CVRCompositor_028::GetFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
+CVRCompositor_028::GetLastFrameRenderer()
+CVRCompositor_028::GetLastPoseForTrackedDeviceIndex(unsigned int, vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t*)
+CVRCompositor_028::GetLastPosePredictionIDs(unsigned int*, unsigned int*)
+CVRCompositor_028::GetLastPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositor_028::GetMirrorTextureD3D11(vr::EVREye, void*, void**)
+CVRCompositor_028::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
+CVRCompositor_028::GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+CVRCompositor_028::GetTrackingSpace()
+CVRCompositor_028::GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
+CVRCompositor_028::GetVulkanInstanceExtensionsRequired(char*, unsigned int)
+CVRCompositor_028::HideMirrorWindow()
+CVRCompositor_028::IsCurrentSceneFocusAppLoading()
+CVRCompositor_028::IsFullscreen()
+CVRCompositor_028::IsMirrorWindowVisible()
+CVRCompositor_028::IsMotionSmoothingEnabled()
+CVRCompositor_028::IsMotionSmoothingSupported()
+CVRCompositor_028::LockGLSharedTextureForAccess(void*)
+CVRCompositor_028::PostPresentHandoff()
+CVRCompositor_028::ReleaseMirrorTextureD3D11(void*)
+CVRCompositor_028::ReleaseSharedGLTexture(unsigned int, void*)
+CVRCompositor_028::SetExplicitTimingMode(vr::EVRCompositorTimingMode)
+CVRCompositor_028::SetSkyboxOverride(vr::Texture_t const*, unsigned int)
+CVRCompositor_028::SetStageOverride_Async(char const*, vr::HmdMatrix34_t const*, vr::Compositor_StageRenderSettings const*, unsigned int)
+CVRCompositor_028::SetTrackingSpace(vr::ETrackingUniverseOrigin)
+CVRCompositor_028::ShouldAppRenderWithLowResources()
+CVRCompositor_028::ShowMirrorWindow()
+CVRCompositor_028::Submit(vr::EVREye, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+CVRCompositor_028::SubmitExplicitTimingData()
+CVRCompositor_028::SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+CVRCompositor_028::SuspendRendering(bool)
+CVRCompositor_028::UnlockGLSharedTextureForAccess(void*)
+CVRCompositor_028::WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 CVRControlPanel_001::AbortTransition()
 CVRControlPanel_001::ForceQuitProcess(unsigned int)
 CVRControlPanel_001::GetCurrentCompositorInterface(char const*)
@@ -7035,6 +7094,8 @@ CVRControllerTypeBindings::EraseOverridePropertiesForDevice(unsigned long long)
 CVRControllerTypeBindings::EraseSimulatedOverrides()
 CVRControllerTypeBindings::GetBindingInfo(unsigned long long) const
 CVRControllerTypeBindings::GetBindingInfo(unsigned long long) const (.cold)
+CVRControllerTypeBindings::GetBoolFromOptions(std::string, bool)
+CVRControllerTypeBindings::GetBoolFromOptions(std::string, bool) (.cold)
 CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&)
 CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&) (.cold)
 CVRControllerTypeBindings::GetIsHMDBindingSimulation()
@@ -7408,6 +7469,8 @@ CVRInputLatest::SetDominantHand(vr::ETrackedControllerRole)
 CVRInputLatest::SetDominantHand(vr::ETrackedControllerRole) (.cold)
 CVRInputLatest::SetInTutorialMode(bool)
 CVRInputLatest::SetLastCompatibilityControllerType(std::string const&)
+CVRInputLatest::SetLegacyInputAllowed(bool)
+CVRInputLatest::SetLegacyInputAllowed(bool) (.cold)
 CVRInputLatest::SetXrInputConfig(std::string const&, std::vector<std::string, std::allocator<std::string>> const&)
 CVRInputLatest::SetXrInputConfig(std::string const&, std::vector<std::string, std::allocator<std::string>> const&) (.cold)
 CVRInputLatest::ShouldExposeInternalInputs()
@@ -16366,6 +16429,8 @@ CVRSystemLatest::GetTrackedDeviceActivityLevel(unsigned int)
 CVRSystemLatest::GetTrackedDeviceClass(unsigned int)
 CVRSystemLatest::GetTrackedDeviceClassUnmodified(unsigned int)
 CVRSystemLatest::GetTrackedDeviceIndexForControllerRole(vr::ETrackedControllerRole)
+CVRSystemLatest::GetTrackingRecordingPath() const
+CVRSystemLatest::GetTrackingRecordingPath() const (.cold)
 CVRSystemLatest::GetTrackingRecordingStatus() const
 CVRSystemLatest::GetUint64TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
 CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
@@ -17491,24 +17556,26 @@ CVulkanVRRenderer::AcquireSync(unsigned long long)
 CVulkanVRRenderer::AcquireSync(unsigned long long) (.cold)
 CVulkanVRRenderer::AddFencedResource(CVulkanVRRenderer::FencedResourceType_t, unsigned long long, unsigned long long)
 CVulkanVRRenderer::AllocateMemory(VkDevice_T*, unsigned long long, bool, bool, bool, unsigned long long, unsigned long long, unsigned int, unsigned int*, vr::DmabufAttributes_t const*)
-CVulkanVRRenderer::BIsDebugMarkerEnabled()
-CVulkanVRRenderer::BIsDebugMarkerEnabled()::bExtAvailable
 CVulkanVRRenderer::BakeComputePipeline(VRRenderer::DispatchInfo*)
 CVulkanVRRenderer::BakeComputePipeline(VRRenderer::DispatchInfo*) (.cold)
 CVulkanVRRenderer::BakeDescriptor(VRRenderer::DrawInfo*)
 CVulkanVRRenderer::BakeDescriptor(VRRenderer::DrawInfo*) (.cold)
 CVulkanVRRenderer::BakeRenderPass()
 CVulkanVRRenderer::BakeRenderPass() (.cold)
-CVulkanVRRenderer::BeginCmdDebugMarker(VkCommandBuffer_T*, char const*, float*)
-CVulkanVRRenderer::BeginCmdDebugMarker(VkCommandBuffer_T*, char const*, float*) (.part.0)
 CVulkanVRRenderer::BeginCommandBuffer()
+CVulkanVRRenderer::BeginCommandBuffer() (.cold)
 CVulkanVRRenderer::BeginDebugEvent(char const*)
 CVulkanVRRenderer::BeginFrame(unsigned long long)
 CVulkanVRRenderer::BindRenderTargets(unsigned int, VRRenderer::TextureBase**, VRRenderer::TextureBase*, VRRenderer::Viewport*, VRRenderer::FragmentShadingRate*)
-CVulkanVRRenderer::CVulkanVRRenderer()
-CVulkanVRRenderer::CVulkanVRRenderer() (.cold)
+CVulkanVRRenderer::CVulkanVRRenderer(bool)
+CVulkanVRRenderer::CVulkanVRRenderer(bool) (.cold)
 CVulkanVRRenderer::CleanupSyncResources()
 CVulkanVRRenderer::ClearRenderableTexture(VRRenderer::TextureBase*, float*, bool)
+CVulkanVRRenderer::CmdBeginDebugUtilsLabel(VkCommandBuffer_T*, char const*, float*)
+CVulkanVRRenderer::CmdBeginDebugUtilsLabel(VkCommandBuffer_T*, char const*, float*) (.part.0)
+CVulkanVRRenderer::CmdEndDebugUtilsLabel(VkCommandBuffer_T*)
+CVulkanVRRenderer::CmdInsertDebugUtilsLabel(VkCommandBuffer_T*, char const*, float*)
+CVulkanVRRenderer::CmdInsertDebugUtilsLabel(VkCommandBuffer_T*, char const*, float*) (.part.0)
 CVulkanVRRenderer::CompatibilityFlush()
 CVulkanVRRenderer::CopyConstantBufferRegion - copy offset (%d) + size (%d) exceeds dest size (%d)!\n
 CVulkanVRRenderer::CopyConstantBufferRegion - copy offset (%d) + size (%d) exceeds source size (%d)!\n
@@ -17551,7 +17618,6 @@ CVulkanVRRenderer::Dispatch(VRRenderer::DispatchInfo*, char const*)
 CVulkanVRRenderer::Draw(VRRenderer::DrawInfo*, char const*)
 CVulkanVRRenderer::EmitTextureBarrier(VRRenderer::TextureBase*, VkImageLayout, VRRenderer::QueueMode, bool)
 CVulkanVRRenderer::EmitTextureBarrier(VRRenderer::TextureBase*, unsigned int, VkImageLayout, VRRenderer::QueueMode, bool)
-CVulkanVRRenderer::EndCmdDebugMarker(VkCommandBuffer_T*)
 CVulkanVRRenderer::EndCommandBuffer()
 CVulkanVRRenderer::EndCommandBuffer() (.cold)
 CVulkanVRRenderer::EndDebugEvent()
@@ -17600,8 +17666,6 @@ CVulkanVRRenderer::ImportTextureFromSharedHandle(unsigned long long, vr::EColorS
 CVulkanVRRenderer::ImportVertexBufferFromSharedHandle(unsigned long long)
 CVulkanVRRenderer::Initialize(vr::IHmdWindow*, vr::IVRIPCResourceManagerClient*, VkInstance_T*, VkPhysicalDevice_T*, VkDevice_T*, VkQueue_T*, unsigned int, VkQueue_T*, unsigned int, vr::IVRResources*, vr::IVRCompositorSystemInternal*, bool)
 CVulkanVRRenderer::Initialize(vr::IHmdWindow*, vr::IVRIPCResourceManagerClient*, VkInstance_T*, VkPhysicalDevice_T*, VkDevice_T*, VkQueue_T*, unsigned int, VkQueue_T*, unsigned int, vr::IVRResources*, vr::IVRCompositorSystemInternal*, bool) (.cold)
-CVulkanVRRenderer::InsertCmdDebugMarker(VkCommandBuffer_T*, char const*, float*)
-CVulkanVRRenderer::InsertCmdDebugMarker(VkCommandBuffer_T*, char const*, float*) (.part.0)
 CVulkanVRRenderer::InsertEventQuery(VRRenderer::EventQueryBase*)
 CVulkanVRRenderer::IsDeferred() const
 CVulkanVRRenderer::IsEventQueryComplete(VRRenderer::EventQueryBase*)
@@ -17614,6 +17678,8 @@ CVulkanVRRenderer::MapTexture - image is already mapped\n
 CVulkanVRRenderer::MapTexture - vkMapMemory failed with error %d\n
 CVulkanVRRenderer::MapTexture(VRRenderer::TextureBase*, VRRenderer::MapType, void**, unsigned int*)
 CVulkanVRRenderer::MarkFrameEnd(VkCommandBuffer_T*)
+CVulkanVRRenderer::MarkFrameEnd(VkCommandBuffer_T*) (.cold)
+CVulkanVRRenderer::MarkFrameEnd(VkCommandBuffer_T*)::s_bEnableFrameEndMarkers
 CVulkanVRRenderer::Present(vr::IHmdWindow::EWindowType)
 CVulkanVRRenderer::Present(vr::IHmdWindow::EWindowType) (.cold)
 CVulkanVRRenderer::QueueClearsIfNeeded()
@@ -17652,13 +17718,15 @@ CVulkanVRRenderer::SetBufferDebugName(unsigned long long, char const*)
 CVulkanVRRenderer::SetDeferred(bool)
 CVulkanVRRenderer::SetDeviceMemoryDebugName(unsigned long long, char const*)
 CVulkanVRRenderer::SetImageDebugName(unsigned long long, char const*)
+CVulkanVRRenderer::SetImageDebugName(unsigned long long, char const*) (.part.0)
 CVulkanVRRenderer::SetImageLayout - invalid transition to new layout: %d\n
 CVulkanVRRenderer::SetImageLayout - unsupported new image layout: %d\n
 CVulkanVRRenderer::SetImageLayout - unsupported old image layout: %d\n
 CVulkanVRRenderer::SetImageLayout(VkCommandBuffer_T*, unsigned long long, unsigned int, unsigned int, VkImageLayout, VkImageLayout, unsigned int, unsigned int)
 CVulkanVRRenderer::SetImageViewDebugName(unsigned long long, char const*)
-CVulkanVRRenderer::SetObjectDebugName(unsigned long long, VkDebugReportObjectTypeEXT, char const*)
-CVulkanVRRenderer::SetObjectDebugName(unsigned long long, VkDebugReportObjectTypeEXT, char const*) (.part.0)
+CVulkanVRRenderer::SetImageViewDebugName(unsigned long long, char const*) (.part.0)
+CVulkanVRRenderer::SetObjectDebugName(unsigned long long, VkObjectType, char const*)
+CVulkanVRRenderer::SetObjectDebugName(unsigned long long, VkObjectType, char const*) (.part.0)
 CVulkanVRRenderer::SetQueueMode(VRRenderer::QueueMode)
 CVulkanVRRenderer::SetRenderThreadId(unsigned int)
 CVulkanVRRenderer::SetUseExternalCommandBuffer(VkCommandBuffer_T*, VRRenderer::QueueMode)
@@ -17818,6 +17886,8 @@ CompositorInterfaceRegistration<CVRCompositor_026>::GetInterface()
 CompositorInterfaceRegistration<CVRCompositor_026>::~CompositorInterfaceRegistration()
 CompositorInterfaceRegistration<CVRCompositor_027>::GetInterface()
 CompositorInterfaceRegistration<CVRCompositor_027>::~CompositorInterfaceRegistration()
+CompositorInterfaceRegistration<CVRCompositor_028>::GetInterface()
+CompositorInterfaceRegistration<CVRCompositor_028>::~CompositorInterfaceRegistration()
 ComputeBindingCachePath(std::string const&, std::string const&)
 ComputeBindingCachePath(std::string const&, std::string const&) (.cold)
 ComputeConeLineIntersection(vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, float, float*, float*)
@@ -17878,7 +17948,7 @@ CreateSettingKey(char const*, char const*) (.cold)
 CreateSimpleProcess
 CreateSimpleThread(unsigned int (*)(void*), void*, unsigned int*, unsigned int)
 CreateWatchdogDriverProviderAdapter(void* (*)(char const*, int*), vr::IVRDriverContext*, int*)
-Created remote GL texture 0x%llx, dimensions %d x %d, format %d\n
+Created remote GL texture 0x%llx, dimensions %d x %d, format %d
 Created remote Vulkan image 0x%llx, dimensions %d x %d, format %d, memory size %d and memory type %d.\n
 CurrentURL
 DW.ref._ZTIN10__cxxabiv115__forced_unwindE
@@ -17892,9 +17962,8 @@ DXGI1::GetAdapterLuid(int, unsigned long long*)
 DashboardManagerInterfaceRegistration<CVRDashboardManager_001>::GetInterface()
 DashboardManagerInterfaceRegistration<CVRDashboardManager_001>::~DashboardManagerInterfaceRegistration()
 Deactivation threshold of %f will be set to the minimum allowed value %f in filter %s.
-Debug markers: disabled, missing entrypoints\n
-Debug markers: disabled, missing extension support. Is the Renderdoc layer enabled?\n
-Debug markers: enabled\n
+Debug utils: disabled, missing entrypoints
+Debug utils: enabled
 DebugDriverLog(char const*, ...)
 DebuggerEnabled
 December
@@ -17911,6 +17980,7 @@ Determined this is a steamvr_input app.
 Device Calibration is invalid (207)
 Device is not calibrated (206)
 Did not find any drivers!
+DisableTimelineSemaphoreWait
 Disabling advanced image processing of scene textures. Only enabled on latest OSs.\n
 Discarding sequence mismatched message type: %d, sequence: %d, expected type: %d, expected sequence: %d, pipe: %s\n
 DismissedWarnings
@@ -17956,6 +18026,7 @@ DumpLogStrings(std::vector<std::string, std::allocator<std::string>>&)
 Duplicate action '
 Duplicate key: '
 ERROR
+ERROR: Failed to open log file %s, attempting timestamped filename\n
 ERROR: Steam launcher service not detected. Cannot execute at host level for elevated privileges.
 ERROR_DEVICE_LOST
 ERROR_EXTENSION_NOT_PRESENT
@@ -18024,7 +18095,7 @@ ExportVulkanSemaphoreAsFD(VkDevice_T*, unsigned long long, int*)
 Extra non-whitespace after JSON value.
 FALSE
 FATAL
-FATAL: Failed to open log file %s\n
+FATAL: Failed to open log file %s, failing out!\n
 FORMAT=32-bit_rle_rgbe
 FS Callbacks must be completely defined. At least one callback is null.
 FS callback[s] not set\n
@@ -18159,10 +18230,6 @@ Failed to initialize libvcetoy motion estimator: ctx create failed\n
 Failed to initialize server address for shared fd id: 0x%llx\n
 Failed to initialize server address for shared fd: %d\n
 Failed to load compute shader %s! (size=%d)\n
-Failed to load extension: CmdDebugMarkerBeginEXT\n
-Failed to load extension: CmdDebugMarkerEndEXT\n
-Failed to load extension: CmdDebugMarkerInsertEXT\n
-Failed to load extension: DebugMarkerSetObjectNameEXT\n
 Failed to load extension: GetBufferMemoryRequirements2KHR\n
 Failed to load extension: GetImageMemoryRequirements2KHR\n
 Failed to load extension: GetMemoryFdKHR\n
@@ -18309,6 +18376,7 @@ FnTable:IVRCompositor_024
 FnTable:IVRCompositor_025
 FnTable:IVRCompositor_026
 FnTable:IVRCompositor_027
+FnTable:IVRCompositor_028
 FnTable:IVRIOBuffer_002
 FnTable:IVRInput_001
 FnTable:IVRInput_002
@@ -18419,6 +18487,7 @@ GL_EXT_memory_object
 GL_EXT_memory_object_fd
 GL_EXT_semaphore
 GL_EXT_semaphore_fd
+GL_NV_timeline_semaphore
 GenSessionId()::sNextSessionId
 GenerateChangeNotifications
 GenerateLinuxManifest(std::string, std::string)
@@ -19615,6 +19684,59 @@ IVRCompositor_027_FnTable_SuspendRendering(bool)
 IVRCompositor_027_FnTable_UnlockGLSharedTextureForAccess(void*)
 IVRCompositor_027_FnTable_WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
 IVRCompositor_028
+IVRCompositor_028_FnTable_CanRenderScene()
+IVRCompositor_028_FnTable_ClearLastSubmittedFrame()
+IVRCompositor_028_FnTable_ClearSkyboxOverride()
+IVRCompositor_028_FnTable_ClearStageOverride()
+IVRCompositor_028_FnTable_CompositorBringToFront()
+IVRCompositor_028_FnTable_CompositorDumpImages()
+IVRCompositor_028_FnTable_CompositorGoToBack()
+IVRCompositor_028_FnTable_CompositorQuit()
+IVRCompositor_028_FnTable_FadeGrid(float, bool)
+IVRCompositor_028_FnTable_FadeToColor(float, float, float, float, float, bool)
+IVRCompositor_028_FnTable_ForceInterleavedReprojectionOn(bool)
+IVRCompositor_028_FnTable_ForceReconnectProcess()
+IVRCompositor_028_FnTable_GetCompositorBenchmarkResults(vr::Compositor_BenchmarkResults*, unsigned int)
+IVRCompositor_028_FnTable_GetCumulativeStats(vr::Compositor_CumulativeStats*, unsigned int)
+IVRCompositor_028_FnTable_GetCurrentFadeColor(bool)
+IVRCompositor_028_FnTable_GetCurrentGridAlpha()
+IVRCompositor_028_FnTable_GetCurrentSceneFocusProcess()
+IVRCompositor_028_FnTable_GetFrameTimeRemaining()
+IVRCompositor_028_FnTable_GetFrameTiming(vr::Compositor_FrameTiming*, unsigned int)
+IVRCompositor_028_FnTable_GetFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
+IVRCompositor_028_FnTable_GetLastFrameRenderer()
+IVRCompositor_028_FnTable_GetLastPoseForTrackedDeviceIndex(unsigned int, vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t*)
+IVRCompositor_028_FnTable_GetLastPosePredictionIDs(unsigned int*, unsigned int*)
+IVRCompositor_028_FnTable_GetLastPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+IVRCompositor_028_FnTable_GetMirrorTextureD3D11(vr::EVREye, void*, void**)
+IVRCompositor_028_FnTable_GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
+IVRCompositor_028_FnTable_GetPosesForFrame(unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+IVRCompositor_028_FnTable_GetTrackingSpace()
+IVRCompositor_028_FnTable_GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
+IVRCompositor_028_FnTable_GetVulkanInstanceExtensionsRequired(char*, unsigned int)
+IVRCompositor_028_FnTable_HideMirrorWindow()
+IVRCompositor_028_FnTable_IsCurrentSceneFocusAppLoading()
+IVRCompositor_028_FnTable_IsFullscreen()
+IVRCompositor_028_FnTable_IsMirrorWindowVisible()
+IVRCompositor_028_FnTable_IsMotionSmoothingEnabled()
+IVRCompositor_028_FnTable_IsMotionSmoothingSupported()
+IVRCompositor_028_FnTable_LockGLSharedTextureForAccess(void*)
+IVRCompositor_028_FnTable_PostPresentHandoff()
+IVRCompositor_028_FnTable_ReleaseMirrorTextureD3D11(void*)
+IVRCompositor_028_FnTable_ReleaseSharedGLTexture(unsigned int, void*)
+IVRCompositor_028_FnTable_SetExplicitTimingMode(vr::EVRCompositorTimingMode)
+IVRCompositor_028_FnTable_SetSkyboxOverride(vr::Texture_t const*, unsigned int)
+IVRCompositor_028_FnTable_SetStageOverride_Async(char const*, vr::HmdMatrix34_t const*, vr::Compositor_StageRenderSettings const*, unsigned int)
+IVRCompositor_028_FnTable_SetTrackingSpace(vr::ETrackingUniverseOrigin)
+IVRCompositor_028_FnTable_ShouldAppRenderWithLowResources()
+IVRCompositor_028_FnTable_ShowMirrorWindow()
+IVRCompositor_028_FnTable_Submit(vr::EVREye, vr::Texture_t const*, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+IVRCompositor_028_FnTable_SubmitExplicitTimingData()
+IVRCompositor_028_FnTable_SubmitWithArrayIndex(vr::EVREye, vr::Texture_t const*, unsigned int, vr::VRTextureBounds_t const*, vr::EVRSubmitFlags)
+IVRCompositor_028_FnTable_SuspendRendering(bool)
+IVRCompositor_028_FnTable_UnlockGLSharedTextureForAccess(void*)
+IVRCompositor_028_FnTable_WaitGetPoses(vr::TrackedDevicePose_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned int)
+IVRCompositor_029
 IVRControlPanel_001
 IVRControlPanel_002
 IVRControlPanel_003
@@ -22113,7 +22235,6 @@ InputActionType_Vector1
 InputActionType_Vector2
 InputActionType_Vector3
 InputConfig_t::GetOriginInfoInternal(unsigned long long, unsigned long long*, unsigned long long*, unsigned long long*)
-InputConfig_t::GetOriginInfoInternal(unsigned long long, unsigned long long*, unsigned long long*, unsigned long long*) (.part.0)
 InputConfig_t::IsDeviceIncludedInRestriction(unsigned long long, unsigned long long)
 InputConfig_t::IsDeviceIncludedInRestriction(unsigned long long, unsigned long long) (.cold)
 InputConfig_t::IsDeviceIncludedInRestriction(unsigned long long, unsigned long long)::k_head
@@ -22222,11 +22343,11 @@ IsExtendedStorage(PropertyTableEntry_t const*, unsigned int*, unsigned int*, uns
 IsOSUserAdmin()
 IsOnLaptop()
 IsOnMainBranch()
-IsOurOverlayHandle(unsigned long long)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&) (.cold)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&)::k_deviceWasDrawn
 IsPosix()
+IsProcessEmittingEventsForOverlay(unsigned long long)
 IsRunningAsService()
 IsRunningFromPerforce()
 IsRunningFromPerforce() (.cold)
@@ -22707,8 +22828,8 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
+Jul  9 2025
 July
-Jun 18 2025
 June
 KHR_audio
 KHR_lights_punctual
@@ -23582,6 +23703,7 @@ Prop_SecondsFromPhotonsToVblank_Float
 Prop_SecondsFromVsyncToPhotons_Float
 Prop_SerialNumber_String
 Prop_StatusDisplayTransform_Matrix34
+Prop_SteamRemoteClientID_Uint64
 Prop_SupportedButtons_Uint64
 Prop_SupportsRoomViewDepthProjection_Bool
 Prop_TrackingFirmwareVersion_String
@@ -23663,6 +23785,7 @@ Reflection::TypeInfo::TypeInfo(Reflection::TypeInfo const&)
 Reflection::TypeInfo::TypeInfo(char const*, unsigned int)
 Refusing to add binding to %s from a sim action in %s and a mode in %s\n
 Refusing to create memory block because %u blocks are already outstanding\n
+RegisterForOverlayEventPolling(unsigned long long)
 RegisterInterface(char const*, void*)
 RegisterInterface(char const*, void*) (.cold)
 Rejecting ShowKeyboard call from app because the dashboard is visible\n
@@ -24344,6 +24467,7 @@ Unable to connect to Oculus Runtime (1000)
 Unable to connect to Oculus Runtime, possible bad install (1114)
 Unable to connect to pipe errno=%d\n
 Unable to convert event in PoseOverlayEvent\n
+Unable to convert option value %s\n
 Unable to convert param value %s\n
 Unable to create %s\n
 Unable to create click handler for complex button %s, %s\n
@@ -24510,6 +24634,7 @@ VK PERF %s %llu:%d: %s\n
 VK WARNING %s %llu:%d: %s\n
 VKDebugMessageCallback(unsigned int, VkDebugReportObjectTypeEXT, unsigned long long, unsigned int, int, char const*, char const*, void*)
 VK_EXT_debug_report
+VK_EXT_debug_utils
 VK_KHR_dedicated_allocation
 VK_KHR_external_fence_capabilities
 VK_KHR_external_memory
@@ -24522,6 +24647,7 @@ VK_KHR_get_memory_requirements2
 VK_KHR_get_physical_device_properties2
 VK_KHR_image_format_list
 VK_KHR_surface
+VK_KHR_timeline_semaphore
 VK_LAYER_GOOGLE_threading
 VK_LAYER_KHRONOS_validation
 VK_LAYER_LUNARG_core_validation
@@ -24746,6 +24872,7 @@ VREvent_ScreenshotTriggered
 VREvent_ScrollDiscrete
 VREvent_ScrollSmooth
 VREvent_SeatedZeroPoseReset
+VREvent_SetTrackingRecordingPath
 VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
@@ -25437,6 +25564,7 @@ VR_IVRCompositor_FnTable_GetLastPoses(TrackedDevicePose_t*, unsigned int, Tracke
 VR_IVRCompositor_FnTable_GetMirrorTextureD3D11(EVREye, void*, void**)
 VR_IVRCompositor_FnTable_GetMirrorTextureGL(EVREye, unsigned int*, void**)
 VR_IVRCompositor_FnTable_GetPosesForFrame(unsigned int, TrackedDevicePose_t*, unsigned int)
+VR_IVRCompositor_FnTable_GetSubmitTexture(Texture_t*, bool*, EVRCompositorTextureUsage, Texture_t*, VRTextureBounds_t*, EVRSubmitFlags)
 VR_IVRCompositor_FnTable_GetTrackingSpace()
 VR_IVRCompositor_FnTable_GetVulkanDeviceExtensionsRequired(VkPhysicalDevice_T*, char*, unsigned int)
 VR_IVRCompositor_FnTable_GetVulkanInstanceExtensionsRequired(char*, unsigned int)
@@ -26060,6 +26188,10 @@ Zjz\v
 [Input] After initial config load, app appears to not be using SteamVR Input\n
 [Input] After initial config load, app appears to not be using input\n
 [Input] Attempting to load initial input config\n
+[Input] Binding initialization failed because pose offset position array does not have three elements
+[Input] Binding initialization failed because pose offset rotation is not an array
+[Input] Binding initialization failed because pose rotation array does not have three elements
+[Input] Binding initialization failed because pose rotation is not an array
 [Input] Binding path for haptic action %s could not be read: %s\n
 [Input] Binding path for haptic action %s resulted in property type tag %u instead of %u\n
 [Input] ClearXrInputConfig failed. Did not get response from VRMsg_Input_SetXrInputConfig quick enough.
@@ -26282,6 +26414,9 @@ Zjz\v
 [abi:
 [json.exception.
 [libprotobuf %s %s:%d] %s\n
+[vrclient] CLegacyInput::RunInputFrame
+[vrclient] CVRInputLatest::UpdateActionState
+\f@pD9
 \nComment=Application for the 
 \nComment=URI handler for 
 \nDDS 
@@ -26473,6 +26608,8 @@ _Unwind_Resume_or_Rethrow.cold
 _Unwind_SetGR
 _Unwind_SetGR.cold
 _Unwind_SetIP
+_ZGRZN25CVRControllerTypeBindings32EraseOverridePropertiesForDeviceEyE13intProperties_
+_ZGRZN25CVRControllerTypeBindings32EraseOverridePropertiesForDeviceEyE16stringProperties_
 __FRAME_END__
 __TMC_END__
 __TMC_LIST__
@@ -27674,6 +27811,7 @@ g_IVRCompositor_024_FnTable
 g_IVRCompositor_025_FnTable
 g_IVRCompositor_026_FnTable
 g_IVRCompositor_027_FnTable
+g_IVRCompositor_028_FnTable
 g_IVRIOBuffer_002_FnTable
 g_IVRInput_001_FnTable
 g_IVRInput_002_FnTable
@@ -27919,6 +28057,7 @@ glGenTextures
 glGetIntegerv
 glGetMemoryObjectParameterivEXT
 glGetRenderbufferParameteriv
+glGetSemaphoreParameterivNV
 glGetSemaphoreParameterui64vEXT
 glGetStringi
 glGetTexImage
@@ -27929,12 +28068,14 @@ glImportMemoryFdEXT
 glImportSemaphoreFdEXT
 glMemoryObjectParameterivEXT
 glPixelStorei
+glSemaphoreParameterivNV
 glSemaphoreParameterui64vEXT
 glSignalSemaphoreEXT
 glTF
 glTexParameteri
 glTexStorageMem2DEXT
 glTexStorageMem2DMultisampleEXT
+glTexStorageMem3DEXT
 glWaitSemaphoreEXT
 glXGetCurrentContext
 glXGetProcAddress
@@ -28221,7 +28362,7 @@ guard variable for CRenderModelManager::GetBaseModelInfo(char const*, bool)::k_p
 guard variable for CRenderModelManager::GetBaseModelInfo(char const*, bool)::k_pathInputSystem
 guard variable for CServerTrackedDeviceProvider_002::GetInterfaceVersions()::k_InterfaceVersions
 guard variable for CSettingsSetting::GetDefaultValue() const::Empty
-guard variable for CVRCompositorClient::PostPresentHandoff()::s_bEnableFrameEndMarkers
+guard variable for CSharedCountingSemaphoreLinux::Wait(unsigned long long, vr::VRNativeDevice_t const*)::s_bDisableTimelineSemaphoreWait
 guard variable for CVRCompositorSharedTextures::UpdateTextureSet(CVRCompositorSharedTextures::Params const*, VRCompositorState_TextureSet_t*)::s_pVrSettings
 guard variable for CVRControllerTypeBindings::InitFromConfig(std::string const&, CInputActionManifest&, vr::ETrackedControllerRole)::k_bestAlias
 guard variable for CVRInputLatest::GetSkeletalSummaryData(unsigned long long, vr::EVRSummaryType, vr::VRSkeletalSummaryData_t*)::k_pathCurlIndex
@@ -28241,6 +28382,7 @@ guard variable for CVRScreenshotsLatest::UpdateScreenshotProgress(unsigned int, 
 guard variable for CVRSystemLatest::GetRuntimeVersion()::s_sVersion
 guard variable for CVRSystemLatest::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)::k_ulHapticRequestEnforcedDelayMS
 guard variable for CVulkanVRRenderer::GetDmabufModifiers(vr::EVRApplicationType, unsigned int) const::k_InvalidMod
+guard variable for CVulkanVRRenderer::MarkFrameEnd(VkCommandBuffer_T*)::s_bEnableFrameEndMarkers
 guard variable for FillPipeAddr(sockaddr_un&, std::string)::sPrefix
 guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
 guard variable for GetTrackedDeviceProperties()::eKeysVector
@@ -28325,7 +28467,6 @@ hand_right_poses.glb
 handlers
 hangInit
 haptic
-hapticVibrationAmplitude
 haptic_amplitude
 haptic_delay
 haptic_duration
@@ -28810,6 +28951,7 @@ non-virtual thunk to CHmdSystemLatest::GetDriverDisplaySerialNumber(char const*,
 non-virtual thunk to CHmdSystemLatest::GetDriverId(unsigned int, char*, unsigned int)
 non-virtual thunk to CHmdSystemLatest::GetDriverInitError(char const*)
 non-virtual thunk to CHmdSystemLatest::GetDriverManager()
+non-virtual thunk to CHmdSystemLatest::GetEyePoseAtTime(double, vr::VREyeTrackingState_Pose_t*)
 non-virtual thunk to CHmdSystemLatest::GetEyeServerStatus()
 non-virtual thunk to CHmdSystemLatest::GetGraphicsHardwareInfo(GraphicsHardwareInfo_t*)
 non-virtual thunk to CHmdSystemLatest::GetHeadsetViewAspectRatio()
@@ -29081,6 +29223,7 @@ non-virtual thunk to CVRInputLatest::IsActionBound(unsigned long long)
 non-virtual thunk to CVRInputLatest::IsDeviceRenderModelSimulated(unsigned long long)
 non-virtual thunk to CVRInputLatest::IsInTutorialMode()
 non-virtual thunk to CVRInputLatest::SetInTutorialMode(bool)
+non-virtual thunk to CVRInputLatest::SetLegacyInputAllowed(bool)
 non-virtual thunk to CVRInputLatest::SetXrInputConfig(std::string const&, std::vector<std::string, std::allocator<std::string>> const&)
 non-virtual thunk to CVRResourcesLatest::AddNamedResourcePath(std::string const&, std::string const&)
 non-virtual thunk to CVRResourcesLatest::GetResourceFullPath(std::string const&, std::string const&)
@@ -29104,6 +29247,7 @@ non-virtual thunk to CVRSystemLatest::GetMCImage(unsigned int*, unsigned int*, u
 non-virtual thunk to CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float)
 non-virtual thunk to CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
 non-virtual thunk to CVRSystemLatest::GetTrackedDeviceClassUnmodified(unsigned int)
+non-virtual thunk to CVRSystemLatest::GetTrackingRecordingPath() const
 non-virtual thunk to CVRSystemLatest::GetTrackingRecordingStatus() const
 non-virtual thunk to CVRSystemLatest::GetWindowBounds(int*, int*, unsigned int*, unsigned int*)
 non-virtual thunk to CVRSystemLatest::HasRemoteFrameTiming()
@@ -29215,6 +29359,8 @@ off_haptic_amplitude
 off_haptic_duration
 off_haptic_frequency
 offset
+offset_position
+offset_rotation
 old_pid
 on/x
 on/y
@@ -29295,6 +29441,7 @@ pHeader->resourceInfo.image.uWidth
 pHeader->resourceInfo.image.unArraySize
 pHeader->resourceInfo.image.unMipLevels
 pInput != nullptr
+pNativeDevice != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
 pNext == ( m_buffer.data() + m_buffer.size() )
@@ -29308,6 +29455,7 @@ pRead->unRequiredBufferSize == sizeof( T )
 pRead->unTag == unTag
 pRead->unTag == vr::k_unStringPropertyTag
 pSharedHandle MUST not be NULL.
+pSharedSemaphore != nullptr
 pSrcVertices != nullptr && pDstVertices != nullptr
 pSystemLayerSharedState->IsValid()
 page
@@ -29345,6 +29493,7 @@ portuguese
 pose
 pose_component
 pose_constant
+pose_offset
 pose_path
 poses
 position
@@ -29516,7 +29665,7 @@ s_rStringPropertiesToRead
 s_rUint64PropertiesToRead
 s_rchProcessIdentifier
 s_thread_pRobustListStruct
-s_ulOurOverlayHandles
+s_ulTrackedEventOverlayHandles
 safe_mode_driver_whitelist.json
 sampler
 samplers
@@ -30367,6 +30516,7 @@ std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::weak_
 std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData>>, std::_Select1st<std::pair<unsigned long long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData>>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData>>>>::erase(unsigned long long const&)
 std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, unsigned int>, std::_Select1st<std::pair<unsigned long long const, unsigned int>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, unsigned int>>>::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, unsigned int>>*)
 std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, unsigned long long>, std::_Select1st<std::pair<unsigned long long const, unsigned long long>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, unsigned long long>>>::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, unsigned long long>>*)
+std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, unsigned long long>, std::_Select1st<std::pair<unsigned long long const, unsigned long long>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, unsigned long long>>>::_M_get_insert_unique_pos(unsigned long long const&)
 std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, void*>, std::_Select1st<std::pair<unsigned long long const, void*>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, void*>>>::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, void*>>*)
 std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, void*>, std::_Select1st<std::pair<unsigned long long const, void*>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, void*>>>::_M_get_insert_unique_pos(unsigned long long const&)
 std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, vr::VROverlayView_t*>, std::_Select1st<std::pair<unsigned long long const, vr::VROverlayView_t*>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, vr::VROverlayView_t*>>>::_M_erase(std::_Rb_tree_node<std::pair<unsigned long long const, vr::VROverlayView_t*>>*)
@@ -30395,8 +30545,6 @@ std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRM
 std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response>> std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response>>, std::less<std::pair<std::string, std::string>>, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetNumeric_Response>>, std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetString_Response>> std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetString_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetString_Response>>, std::less<std::pair<std::string, std::string>>, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetString_Response>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetString_Response>>, std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response>> std::_Rb_tree<std::pair<std::string, std::string>, std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response>, std::_Select1st<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response>>, std::less<std::pair<std::string, std::string>>, std::allocator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::pair<std::string, std::string> const, CVRMsg_Settings_GetValueType_Response>>, std::piecewise_construct_t const&, std::tuple<std::pair<std::string, std::string> const&>&&, std::tuple<>&&)
-std::_Rb_tree_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>> std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>, std::_Select1st<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>>, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&) (.isra.0)
-std::_Rb_tree_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>> std::_Rb_tree<std::string, std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>, std::_Select1st<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>>, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&) (.isra.0) (.cold)
 std::_Rb_tree_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo>> std::_Rb_tree<std::string, std::pair<std::string const, CVRMsg_ApplicationInfo>, std::_Select1st<std::pair<std::string const, CVRMsg_ApplicationInfo>>, std::less<std::string>, std::allocator<std::pair<std::string const, CVRMsg_ApplicationInfo>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, CVRMsg_ApplicationInfo>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::string const, Json::Value>> std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::string const, Json::Value>> std::_Rb_tree<std::string, std::pair<std::string const, Json::Value>, std::_Select1st<std::pair<std::string const, Json::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string&&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, Json::Value>>, std::piecewise_construct_t const&, std::tuple<std::string&&>&&, std::tuple<>&&)
@@ -30420,6 +30568,7 @@ std::_Rb_tree_iterator<std::pair<unsigned long long const, VulkanVRRenderer::Tex
 std::_Rb_tree_iterator<std::pair<unsigned long long const, bool>> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, bool>, std::_Select1st<std::pair<unsigned long long const, bool>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, bool>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long long const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<unsigned long long const, bool>>, std::piecewise_construct_t const&, std::tuple<unsigned long long const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<unsigned long long const, std::pair<vr::RenderModel_t*, vr::RenderModel_TextureMap_t*>>> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::pair<vr::RenderModel_t*, vr::RenderModel_TextureMap_t*>>, std::_Select1st<std::pair<unsigned long long const, std::pair<vr::RenderModel_t*, vr::RenderModel_TextureMap_t*>>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::pair<vr::RenderModel_t*, vr::RenderModel_TextureMap_t*>>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long long const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<unsigned long long const, std::pair<vr::RenderModel_t*, vr::RenderModel_TextureMap_t*>>>, std::piecewise_construct_t const&, std::tuple<unsigned long long const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<unsigned long long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData>>> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData>>, std::_Select1st<std::pair<unsigned long long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData>>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData>>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long long const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<unsigned long long const, std::weak_ptr<CSharedResourceBaseLinux::CSharedResourceData>>>, std::piecewise_construct_t const&, std::tuple<unsigned long long const&>&&, std::tuple<>&&)
+std::_Rb_tree_iterator<std::pair<unsigned long long const, unsigned long long>> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, unsigned long long>, std::_Select1st<std::pair<unsigned long long const, unsigned long long>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, unsigned long long>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long long const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<unsigned long long const, unsigned long long>>, std::piecewise_construct_t const&, std::tuple<unsigned long long const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<unsigned long long const, void*>> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, void*>, std::_Select1st<std::pair<unsigned long long const, void*>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, void*>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long long const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<unsigned long long const, void*>>, std::piecewise_construct_t const&, std::tuple<unsigned long long const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<unsigned long long const, vr::VROverlayView_t*>> std::_Rb_tree<unsigned long long, std::pair<unsigned long long const, vr::VROverlayView_t*>, std::_Select1st<std::pair<unsigned long long const, vr::VROverlayView_t*>>, std::less<unsigned long long>, std::allocator<std::pair<unsigned long long const, vr::VROverlayView_t*>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<unsigned long long const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<unsigned long long const, vr::VROverlayView_t*>>, std::piecewise_construct_t const&, std::tuple<unsigned long long const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<vr::IHmdWindow::EWindowType const, bool>> std::_Rb_tree<vr::IHmdWindow::EWindowType, std::pair<vr::IHmdWindow::EWindowType const, bool>, std::_Select1st<std::pair<vr::IHmdWindow::EWindowType const, bool>>, std::less<vr::IHmdWindow::EWindowType>, std::allocator<std::pair<vr::IHmdWindow::EWindowType const, bool>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<vr::IHmdWindow::EWindowType const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<vr::IHmdWindow::EWindowType const, bool>>, std::piecewise_construct_t const&, std::tuple<vr::IHmdWindow::EWindowType const&>&&, std::tuple<>&&)
@@ -31485,7 +31634,6 @@ std::__numpunct_cache<wchar_t>::~__numpunct_cache()
 std::__pad<char, std::char_traits<char>>::_S_pad(std::ios_base&, char, char*, char const*, int, int)
 std::__pad<wchar_t, std::char_traits<wchar_t>>::_S_pad(std::ios_base&, wchar_t, wchar_t*, wchar_t const*, int, int)
 std::__shared_count<(__gnu_cxx::_Lock_policy)2>::operator=(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) (.isra.0)
-std::__shared_ptr<CVRInputLatest::InputFrame_t, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<CVRInputLatest::InputFrame_t, (__gnu_cxx::_Lock_policy)2> const&)
 std::__sso_string::__sso_string()
 std::__sso_string::__sso_string(char const*, unsigned int)
 std::__sso_string::__sso_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
@@ -32862,6 +33010,7 @@ std::logic_error::~logic_error()
 std::map<AssertLookup_t, bool, std::less<AssertLookup_t>, std::allocator<std::pair<AssertLookup_t const, bool>>>::~map()
 std::map<VkDevice_T*, VulkanFunctionPointers_t, std::less<VkDevice_T*>, std::allocator<std::pair<VkDevice_T* const, VulkanFunctionPointers_t>>>::~map()
 std::map<std::string, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>>>::operator[](std::string const&)
+std::map<std::string, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t, std::less<std::string>, std::allocator<std::pair<std::string const, CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*)::ChordInputAndAction_t>>>::operator[](std::string const&) (.cold)
 std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>>::operator[](std::string&&)
 std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int>>>::operator[](std::string&&)
 std::map<std::string, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>, std::less<void>, std::allocator<std::pair<std::string const, nlohmann::basic_json<std::map, std::vector, std::string, bool, long long, unsigned long long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>>>::operator[](std::string const&)
@@ -34266,6 +34415,7 @@ typeinfo for CInputFilter_Grab_ValueAndForce
 typeinfo for CInputFilter_JoystickSettings
 typeinfo for CInputFilter_Pose_Component
 typeinfo for CInputFilter_Pose_Constant
+typeinfo for CInputFilter_Pose_Offset
 typeinfo for CInputFilter_RadialMenu
 typeinfo for CInputFilter_RadialMenuBase
 typeinfo for CInputFilter_Scalar_Constant
@@ -34388,6 +34538,7 @@ typeinfo for CVRCompositor_024
 typeinfo for CVRCompositor_025
 typeinfo for CVRCompositor_026
 typeinfo for CVRCompositor_027
+typeinfo for CVRCompositor_028
 typeinfo for CVRControlPanel_001
 typeinfo for CVRControlPanel_002
 typeinfo for CVRControlPanel_003
@@ -34794,6 +34945,7 @@ typeinfo for CompositorInterfaceRegistration<CVRCompositor_024>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_025>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_026>
 typeinfo for CompositorInterfaceRegistration<CVRCompositor_027>
+typeinfo for CompositorInterfaceRegistration<CVRCompositor_028>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 typeinfo for ControlPanelInterfaceRegistration<CVRControlPanel_003>
@@ -35498,6 +35650,7 @@ typeinfo name for CInputFilter_Grab_ValueAndForce
 typeinfo name for CInputFilter_JoystickSettings
 typeinfo name for CInputFilter_Pose_Component
 typeinfo name for CInputFilter_Pose_Constant
+typeinfo name for CInputFilter_Pose_Offset
 typeinfo name for CInputFilter_RadialMenu
 typeinfo name for CInputFilter_RadialMenuBase
 typeinfo name for CInputFilter_Scalar_Constant
@@ -35620,6 +35773,7 @@ typeinfo name for CVRCompositor_024
 typeinfo name for CVRCompositor_025
 typeinfo name for CVRCompositor_026
 typeinfo name for CVRCompositor_027
+typeinfo name for CVRCompositor_028
 typeinfo name for CVRControlPanel_001
 typeinfo name for CVRControlPanel_002
 typeinfo name for CVRControlPanel_003
@@ -36026,6 +36180,7 @@ typeinfo name for CompositorInterfaceRegistration<CVRCompositor_024>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_025>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_026>
 typeinfo name for CompositorInterfaceRegistration<CVRCompositor_027>
+typeinfo name for CompositorInterfaceRegistration<CVRCompositor_028>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 typeinfo name for ControlPanelInterfaceRegistration<CVRControlPanel_003>
@@ -36779,7 +36934,7 @@ virtual thunk to CSharedBufferLinux::GetVulkanMemoryHandleType() const
 virtual thunk to CSharedBufferLinux::ImportVulkanBuffer(VkDevice_T*, unsigned long long)
 virtual thunk to CSharedBufferLinux::PrepareVulkanBufferForExport(VkDevice_T*, unsigned long long, unsigned long long, unsigned int, unsigned int, unsigned int, unsigned int)
 virtual thunk to CSharedBufferLinux::~CSharedBufferLinux()
-virtual thunk to CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*)
+virtual thunk to CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*, bool)
 virtual thunk to CSharedCountingSemaphoreLinux::GetType() const
 virtual thunk to CSharedCountingSemaphoreLinux::ImportVulkanCountingSemaphore(VkDevice_T*, unsigned long long)
 virtual thunk to CSharedCountingSemaphoreLinux::Signal(unsigned long long, vr::VRNativeDevice_t const*)
@@ -36821,7 +36976,7 @@ virtual thunk to CSharedResourceBaseLinux::IncrementUpdateCount()
 virtual thunk to CSharedResourceBaseLinux::SignalSubmissionCompleted()
 virtual thunk to CSharedResourceBaseLinux::WaitSubmissionCompleted(vr::IVRSharedSemaphore*)
 virtual thunk to CSharedResourceBaseLinux::~CSharedResourceBaseLinux()
-virtual thunk to CSharedSemaphoreLinux::GetOGLSemaphore()
+virtual thunk to CSharedSemaphoreLinux::GetOGLSemaphore(bool)
 virtual thunk to CSharedSemaphoreLinux::GetType() const
 virtual thunk to CSharedSemaphoreLinux::GetVulkanSemaphore() const
 virtual thunk to CSharedSemaphoreLinux::ImportVulkanSemaphore(VkDevice_T*, unsigned long long)
@@ -37315,6 +37470,7 @@ vkGetEncodedVideoSessionParametersKHR
 vkGetEventStatus
 vkGetFenceFdKHR
 vkGetFenceStatus
+vkGetFenceStatus: %d
 vkGetFramebufferTilePropertiesQCOM
 vkGetGeneratedCommandsMemoryRequirementsNV
 vkGetImageDrmFormatModifierPropertiesEXT
@@ -37448,10 +37604,10 @@ vkQueueNotifyOutOfBandNV
 vkQueuePresentKHR
 vkQueueSetPerformanceConfigurationINTEL
 vkQueueSubmit
-vkQueueSubmit to signal/wait on counting semaphores failed with result %d. Wait count: %d\n
-vkQueueSubmit to wait on counting semaphores failed with result %d.\n
+vkQueueSubmit to wait on counting semaphores failed with result %d Value: %llx
 vkQueueSubmit2
 vkQueueSubmit2KHR
+vkQueueSubmit: %d
 vkQueueWaitIdle
 vkRegisterDeviceEventEXT
 vkRegisterDisplayEventEXT
@@ -37477,6 +37633,7 @@ vkSetLocalDimmingAMD
 vkSetPrivateData
 vkSetPrivateDataEXT
 vkSignalSemaphore
+vkSignalSemaphore failed with result %d. Value: %llx
 vkSignalSemaphoreKHR
 vkSubmitDebugUtilsMessageEXT
 vkTools::checkDeviceExtensionPresent(VkPhysicalDevice_T*, char const*)
@@ -37993,6 +38150,7 @@ vr::CVROverlayInternalLatest::IsTextureInUse(unsigned long long) const
 vr::CVROverlayInternalLatest::IsTextureInUse(unsigned long long) const (.cold)
 vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayResponse)
 vr::CVROverlayInternalLatest::OnMessageOverlayResponse(vr::VRMessageOverlayResponse) (.cold)
+vr::CVROverlayInternalLatest::RegisterForOverlayEventPolling(unsigned long long)
 vr::CVROverlayInternalLatest::SendKeyboardDone()
 vr::CVROverlayInternalLatest::SendKeyboardDone() (.cold)
 vr::CVROverlayInternalLatest::SendOverlayButtonPress(unsigned long long, vr::EVRButtonId)
@@ -38187,7 +38345,7 @@ vr::IVRSharedBuffer::GetVulkanBufferMemory() const
 vr::IVRSharedBuffer::GetVulkanMemoryHandleType() const
 vr::IVRSharedBuffer::ImportVulkanBuffer(VkDevice_T*, unsigned long long)
 vr::IVRSharedBuffer::PrepareVulkanBufferForExport(VkDevice_T*, unsigned long long, unsigned long long, unsigned int, unsigned int, unsigned int, unsigned int)
-vr::IVRSharedCountingSemaphore::CreateVulkanCountingSemaphore(VkDevice_T*)
+vr::IVRSharedCountingSemaphore::CreateVulkanCountingSemaphore(VkDevice_T*, bool)
 vr::IVRSharedCountingSemaphore::ImportVulkanCountingSemaphore(VkDevice_T*, unsigned long long)
 vr::IVRSharedImage::GetOGLTexture()
 vr::IVRSharedImage::GetVulkanImage() const
@@ -38197,7 +38355,7 @@ vr::IVRSharedImage::ImportOGLImage(unsigned long long)
 vr::IVRSharedImage::ImportVulkanImage(VkDevice_T*, unsigned long long)
 vr::IVRSharedImage::PrepareVulkanImageForExport(VkDevice_T*, unsigned long long, unsigned long long, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
 vr::IVRSharedResource::CreateFD()
-vr::IVRSharedSemaphore::GetOGLSemaphore()
+vr::IVRSharedSemaphore::GetOGLSemaphore(bool)
 vr::IVRSharedSemaphore::GetVulkanSemaphore() const
 vr::IVRSharedSemaphore::ImportVulkanSemaphore(VkDevice_T*, unsigned long long)
 vr::IVRSharedSemaphore::PrepareVulkanSemaphoreForExport(VkDevice_T*, unsigned long long)
@@ -38378,6 +38536,8 @@ vrcompositor026
 vrcompositor026_FnTable
 vrcompositor027
 vrcompositor027_FnTable
+vrcompositor028
+vrcompositor028_FnTable
 vrcompositor_mailbox
 vrcompositor_notification
 vrcompositor_systemlayer
@@ -38573,6 +38733,7 @@ vtable for CInputFilter_Grab_ValueAndForce
 vtable for CInputFilter_JoystickSettings
 vtable for CInputFilter_Pose_Component
 vtable for CInputFilter_Pose_Constant
+vtable for CInputFilter_Pose_Offset
 vtable for CInputFilter_RadialMenu
 vtable for CInputFilter_RadialMenuBase
 vtable for CInputFilter_Scalar_Constant
@@ -38676,6 +38837,7 @@ vtable for CVRCompositor_024
 vtable for CVRCompositor_025
 vtable for CVRCompositor_026
 vtable for CVRCompositor_027
+vtable for CVRCompositor_028
 vtable for CVRControlPanel_001
 vtable for CVRControlPanel_002
 vtable for CVRControlPanel_003
@@ -39055,6 +39217,7 @@ vtable for CompositorInterfaceRegistration<CVRCompositor_024>
 vtable for CompositorInterfaceRegistration<CVRCompositor_025>
 vtable for CompositorInterfaceRegistration<CVRCompositor_026>
 vtable for CompositorInterfaceRegistration<CVRCompositor_027>
+vtable for CompositorInterfaceRegistration<CVRCompositor_028>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_001>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_002>
 vtable for ControlPanelInterfaceRegistration<CVRControlPanel_003>

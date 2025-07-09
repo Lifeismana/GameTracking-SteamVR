@@ -64,6 +64,47 @@
       ]
     },
     {
+      "priority" : 93,
+      "from_controller_type" : "pico_controller",
+      "simulate_controller_type" : true,
+      "simulate_render_model" : true,
+      "simulate_HMD" : true,
+      "autoremappings" : [
+        {
+          "from" : "/user/hand/right/input/grip",
+          "to" : "/user/hand/right/input/grip"
+        },
+        {
+          "from" : "/user/hand/right/input/trigger",
+          "to" : "/user/hand/right/input/trigger"
+        },
+        {
+          "from" : "/user/hand/right/input/joystick",
+          "to" : "/user/hand/right/input/trackpad"
+        },
+        {
+          "from" : "/user/hand/right/input/a",
+          "to" : "/user/hand/right/input/application_menu",
+          "mirror" : false
+        },
+        {
+          "from" : "/user/hand/right/input/b",
+          "to" : "/user/hand/right/input/application_menu",
+          "mirror" : false
+        },
+        {
+          "from" : "/user/hand/left/input/x",
+          "to" : "/user/hand/left/input/application_menu",
+          "mirror" : false
+        },
+        {
+          "from" : "/user/hand/left/input/y",
+          "to" : "/user/hand/left/input/application_menu",
+          "mirror" : false
+        }
+      ]
+    },
+	{
       "priority" : 90,
       "from_controller_type" : "oculus_touch",
       "simulate_controller_type" : true,
@@ -84,19 +125,23 @@
         },
         {
           "from" : "/user/hand/right/input/a",
-          "to" : "/user/hand/left/input/application_menu"
+          "to" : "/user/hand/right/input/application_menu",
+          "mirror" : false
         },
         {
           "from" : "/user/hand/right/input/b",
-          "to" : "/user/hand/left/input/application_menu"
+          "to" : "/user/hand/right/input/application_menu",
+          "mirror" : false
         },
         {
           "from" : "/user/hand/left/input/x",
-          "to" : "/user/hand/left/input/application_menu"
+          "to" : "/user/hand/left/input/application_menu",
+          "mirror" : false
         },
         {
           "from" : "/user/hand/left/input/y",
-          "to" : "/user/hand/left/input/application_menu"
+          "to" : "/user/hand/left/input/application_menu",
+          "mirror" : false
         }
       ]
     },
@@ -138,5 +183,5 @@
         }
       ]
     }
-  ] 
+  ]
 }

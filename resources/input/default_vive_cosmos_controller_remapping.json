@@ -51,6 +51,14 @@
       "remappings" : []
     },
     {
+      "priority" : 93,
+      "from_controller_type" : "pico_controller",
+      "simulate_controller_type" : true,
+      "simulate_render_model" : true,
+      "simulate_HMD" : true,
+      "remappings" : []
+    },
+    {
       "priority" : 90,
       "from_controller_type" : "knuckles",
       "simulate_controller_type" : true,
@@ -164,5 +172,5 @@
         }
       ]
     }
-  ] 
+  ]
 }

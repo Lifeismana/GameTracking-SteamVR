@@ -2,7 +2,6 @@
  formatting error code 
 %s: failed with error '%s' (%d)
 ' is not a number.
-'Ini
 , last executing in 
 -1e+9999
 -IPCWrapper
@@ -294,7 +293,7 @@ Out of thread local storage!\n
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
 QueryPerformanceCounter
-RSDS
+RSDS-
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -507,7 +506,6 @@ driver_defaults.vrsettings
 driver_holographic
 driver_lighthouse
 driver_null
-eeAa
 enable
 enableCameraSurfaces
 enableHomeApp

@@ -275,6 +275,7 @@ $3br
 %04X
 %F-%H-%M-%S
 %Y-%m-%d %I:%M:%S %p
+%Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
 %d bits of actual data (counting padding)\r\n
@@ -922,7 +923,6 @@ $3br
 16CVkCommandBuffer
 16CVrcDecodeTagged
 16CWirelessDecoder
-17:03:24
 17CBoneMaskResource
 17CCameraWorkThread
 17CFirmwareManifest
@@ -930,6 +930,7 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
+19:32:44
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -1698,6 +1699,8 @@ CCompositorPluginProvider_Latest::GetInterfaceVersions()
 CCompositorPluginProvider_Latest::GetSourceVersion()
 CCompositorPluginProvider_Latest::Init(vr::IVRDriverContext*)
 CCompositorPluginProvider_Latest::~CCompositorPluginProvider_Latest()
+CConditionalScopedEventDuration::CConditionalScopedEventDuration(char const*, ...)
+CConditionalScopedEventDuration::~CConditionalScopedEventDuration()
 CCountedMutexWithLogCache::Log(char const*, ...)
 CCountedMutexWithLogCache::Log(char const*, ...) (.cold)
 CDampedFloat::Update(float, float, float)
@@ -2631,7 +2634,7 @@ CSWTCH.141
 CSWTCH.142
 CSWTCH.16
 CSWTCH.162
-CSWTCH.1940
+CSWTCH.1924
 CSWTCH.213
 CSWTCH.221
 CSWTCH.23
@@ -3874,6 +3877,7 @@ ERROR: Expected 1 float args, fPitchDegrees'
 ERROR: Expected 2 float args, '
 ERROR: Expected 2 float args, fClockingAngleDegrees (left), fClockingAngleDegrees (right)
 ERROR: Expected 2 float args, fDegreesLeft fDegreesRight'
+ERROR: Failed to open log file %s, attempting timestamped filename\n
 ERROR: GetEdidId (%d)\n
 ERROR: GetVideoConfig (%d)\n
 ERROR: No display or device\n
@@ -4053,7 +4057,7 @@ Eye Displays must be adjacent: left (%d, %d), right (%d, %d)\nUse Screen Resolut
 EyeFromName(char const*)
 FACET_VULKAN_VALIDATION
 FATAL
-FATAL: Failed to open log file %s\n
+FATAL: Failed to open log file %s, failing out!\n
 FORMAT=32-bit_rle_rgbe
 FPGA susp: 
 FS Callbacks must be completely defined. At least one callback is null.
@@ -5290,8 +5294,8 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
+Jul  9 2025
 July
-Jun 18 2025
 June
 KHR_audio
 KHR_lights_punctual
@@ -5299,6 +5303,7 @@ Knu RevB
 Knuckles
 Knuckles EV1.3
 Knuckles EV1.4
+K~kK
 L=333?O
 LABEL_OPTIONAL
 LABEL_REPEATED
@@ -6200,6 +6205,7 @@ Prop_SecondsFromPhotonsToVblank_Float
 Prop_SecondsFromVsyncToPhotons_Float
 Prop_SerialNumber_String
 Prop_StatusDisplayTransform_Matrix34
+Prop_SteamRemoteClientID_Uint64
 Prop_SupportedButtons_Uint64
 Prop_SupportsRoomViewDepthProjection_Bool
 Prop_TrackingFirmwareVersion_String
@@ -7301,6 +7307,7 @@ VREvent_ScreenshotTriggered
 VREvent_ScrollDiscrete
 VREvent_ScrollSmooth
 VREvent_SeatedZeroPoseReset
+VREvent_SetTrackingRecordingPath
 VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
@@ -12347,7 +12354,6 @@ libvulkan.so.1
 libz.so.1
 light
 lighthouse
-lighthouse:
 lighthouse::pb::(anonymous namespace)::CBaseConfigAndDynamicState_descriptor_
 lighthouse::pb::(anonymous namespace)::CBaseConfigAndDynamicState_reflection_
 lighthouse::pb::(anonymous namespace)::CBaseConfig_descriptor_
@@ -13169,6 +13175,75 @@ math::Vec3T<float>::truncate_length(float) const
 math::Vec3T<float>::try_normalize()
 math::Vec3T<float>::xy() const
 math::Vec3T<float>::zero()
+math::Vec4T<double>::Vec4T()
+math::Vec4T<double>::Vec4T(double, double, double, double)
+math::Vec4T<double>::Vec4T(math::Vec3T<double> const&, double)
+math::Vec4T<double>::as_array()
+math::Vec4T<double>::as_array() const
+math::Vec4T<double>::dot(math::Vec3T<double> const&, double) const
+math::Vec4T<double>::dot(math::Vec4T<double> const&) const
+math::Vec4T<double>::from_json(Json::Value const&, unsigned int)
+math::Vec4T<double>::is_zero() const
+math::Vec4T<double>::operator*=(double)
+math::Vec4T<double>::operator+=(double)
+math::Vec4T<double>::operator+=(math::Vec4T<double> const&)
+math::Vec4T<double>::operator-=(double)
+math::Vec4T<double>::operator-=(math::Vec4T<double> const&)
+math::Vec4T<double>::operator/=(double)
+math::Vec4T<double>::operator=(math::Vec4T<double> const&)
+math::Vec4T<double>::operator[](int)
+math::Vec4T<double>::operator[](int) const
+math::Vec4T<double>::origin()
+math::Vec4T<double>::size()
+math::Vec4T<double>::to_json(Json::Value*, unsigned int) const
+math::Vec4T<double>::xyz() const
+math::Vec4T<double>::zero()
+math::Vec4T<float>::Vec4T()
+math::Vec4T<float>::Vec4T(float, float, float, float)
+math::Vec4T<float>::Vec4T(math::Vec3T<float> const&, float)
+math::Vec4T<float>::as_array()
+math::Vec4T<float>::as_array() const
+math::Vec4T<float>::dot(math::Vec3T<float> const&, float) const
+math::Vec4T<float>::dot(math::Vec4T<float> const&) const
+math::Vec4T<float>::from_json(Json::Value const&, unsigned int)
+math::Vec4T<float>::is_zero() const
+math::Vec4T<float>::operator*=(float)
+math::Vec4T<float>::operator+=(float)
+math::Vec4T<float>::operator+=(math::Vec4T<float> const&)
+math::Vec4T<float>::operator-=(float)
+math::Vec4T<float>::operator-=(math::Vec4T<float> const&)
+math::Vec4T<float>::operator/=(float)
+math::Vec4T<float>::operator=(math::Vec4T<float> const&)
+math::Vec4T<float>::operator[](int)
+math::Vec4T<float>::operator[](int) const
+math::Vec4T<float>::origin()
+math::Vec4T<float>::size()
+math::Vec4T<float>::to_json(Json::Value*, unsigned int) const
+math::Vec4T<float>::xyz() const
+math::Vec4T<float>::zero()
+math::Vec4T<int>::Vec4T()
+math::Vec4T<int>::Vec4T(int, int, int, int)
+math::Vec4T<int>::Vec4T(math::Vec3T<int> const&, int)
+math::Vec4T<int>::as_array()
+math::Vec4T<int>::as_array() const
+math::Vec4T<int>::dot(math::Vec3T<int> const&, int) const
+math::Vec4T<int>::dot(math::Vec4T<int> const&) const
+math::Vec4T<int>::from_json(Json::Value const&, unsigned int)
+math::Vec4T<int>::is_zero() const
+math::Vec4T<int>::operator*=(int)
+math::Vec4T<int>::operator+=(int)
+math::Vec4T<int>::operator+=(math::Vec4T<int> const&)
+math::Vec4T<int>::operator-=(int)
+math::Vec4T<int>::operator-=(math::Vec4T<int> const&)
+math::Vec4T<int>::operator/=(int)
+math::Vec4T<int>::operator=(math::Vec4T<int> const&)
+math::Vec4T<int>::operator[](int)
+math::Vec4T<int>::operator[](int) const
+math::Vec4T<int>::origin()
+math::Vec4T<int>::size()
+math::Vec4T<int>::to_json(Json::Value*, unsigned int) const
+math::Vec4T<int>::xyz() const
+math::Vec4T<int>::zero()
 matrix
 max value > 255
 maxDistance
@@ -13525,7 +13600,9 @@ non-virtual thunk to vortex::CLighthouseDirect::GetFirmwareVersion(std::string*)
 non-virtual thunk to vortex::CLighthouseDirect::GetHardwareRevision(std::string*)
 non-virtual thunk to vortex::CLighthouseDirect::GetTrackingState(vortex::TrackingState*)
 non-virtual thunk to vortex::CLighthouseDirect::Start()
+non-virtual thunk to vortex::CLighthouseDirect::StartTrackingRecording(std::string const&)
 non-virtual thunk to vortex::CLighthouseDirect::Stop()
+non-virtual thunk to vortex::CLighthouseDirect::StopTrackingRecording()
 non-virtual thunk to vortex::CLighthouseDirect::WarnTriggerHapticPulse()
 non-virtual thunk to vortex::CLighthouseDirect::~CLighthouseDirect()
 non-virtual thunk to vortex::CLighthouseIMUThread::GetPeripheralApplicationVersion(unsigned int*)
@@ -13809,7 +13886,6 @@ read_encoded_value_with_base.cold
 readdir
 readlink
 realloc
-record
 recorded
 recorder
 recorder + 
@@ -17808,7 +17884,6 @@ stmuteb
 stoi
 stop_pairing
 stop_tracking_recording
-stoprecord
 str_to_edid_pid(std::string const&)
 str_to_edid_pid(std::string const&) (.cold)
 str_to_edid_vid(std::string const&)
@@ -20437,6 +20512,7 @@ void ceres::QuaternionProduct<ceres::Jet<double, 7>>(ceres::Jet<double, 7> const
 void ceres::QuaternionToAngleAxis<ceres::Jet<double, 49>>(ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
 void ceres::UnitQuaternionRotatePoint<ceres::Jet<double, 49>>(ceres::Jet<double, 49> const*, ceres::Jet<double, 49> const*, ceres::Jet<double, 49>*)
 void ceres::UnitQuaternionRotatePoint<ceres::Jet<double, 7>>(ceres::Jet<double, 7> const*, ceres::Jet<double, 7> const*, ceres::Jet<double, 7>*)
+void ceres::UnitQuaternionRotatePoint<double>(double const*, double const*, double*)
 void ceres::internal::Make1stOrderPerturbation<ceres::Jet<double, 49>, double, 49>(int, double const*, ceres::Jet<double, 49>*)
 void ceres::internal::Take1stOrderPart<ceres::Jet<double, 49>, double, 0, 49>(int, ceres::Jet<double, 49> const*, double*)
 void google::protobuf::DescriptorBuilder::AllocateOptions<google::protobuf::Descriptor>(google::protobuf::Descriptor::OptionsType const&, google::protobuf::Descriptor*)
@@ -21340,7 +21416,10 @@ vortex::CLighthouseDirect::SetInitialProcessCovariance()
 vortex::CLighthouseDirect::SetTrackRefFromHead(CTrackedDeviceConfig const*)
 vortex::CLighthouseDirect::ShowBootstrapProgress(unsigned int)
 vortex::CLighthouseDirect::Start()
+vortex::CLighthouseDirect::StartTrackingRecording(std::string const&)
+vortex::CLighthouseDirect::StartTrackingRecording(std::string const&) (.cold)
 vortex::CLighthouseDirect::Stop()
+vortex::CLighthouseDirect::StopTrackingRecording()
 vortex::CLighthouseDirect::SwapPrimaryAndAlternateBase(unsigned int)
 vortex::CLighthouseDirect::SwapPrimaryAndAlternateBase(unsigned int) (.cold)
 vortex::CLighthouseDirect::TransformTiltByPose(math::PoseT<float> const&, float, vortex::LighthouseBaseTilt_t const&)
@@ -22153,6 +22232,8 @@ vortex::ILighthouseTrackedDeviceServerDriver::RunFrame()
 vortex::ILighthouseTrackedDeviceServerDriver::ShouldBlockStandby()
 vortex::IPoseTracker::DebugRequest(char const*, char*, unsigned int)
 vortex::IPoseTracker::RunFrame()
+vortex::IPoseTracker::StartTrackingRecording(std::string const&)
+vortex::IPoseTracker::StopTrackingRecording()
 vortex::LighthouseBaseTargetPose_t::FromJson(Json::Value const&)
 vortex::LighthouseBaseTargetPose_t::FromJson(Json::Value const&) (.cold)
 vortex::LighthouseBaseTargetPose_t::ToJson() const

@@ -1,9 +1,9 @@
-var CLSTAMP = "9839182";
+var CLSTAMP = "9887103";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [458, 57],
+  [458],
   {
     3361: (e, t, o) => {
-      o.d(t, { d: () => l });
+      o.d(t, { d: () => _ });
       var r,
         n = o(6540),
         i = o(3496),
@@ -13,7 +13,7 @@ var CLSTAMP = "9839182";
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.Raw = 2)] = "Raw");
       })(r || (r = {}));
-      class l extends i._J {
+      class _ extends i._J {
         constructor(e) {
           super(e);
           if (
@@ -28,11 +28,11 @@ var CLSTAMP = "9839182";
         }
         internalRender() {
           var e;
-          let t, o, l;
+          let t, o, _;
           this.props.transform
             ? ((t = (0, i.j_)(this.props.transform.translation)),
               (o = this.props.transform.rotation),
-              (l = this.props.transform.scale))
+              (_ = this.props.transform.scale))
             : ((t = (0, i.XI)(this.props.translation)
                 ? null === (e = (0, i.UM)(this.props.translation)) ||
                   void 0 === e
@@ -50,7 +50,7 @@ var CLSTAMP = "9839182";
                         Math.PI / 180,
                       ),
                     )),
-              (l =
+              (_ =
                 "number" == typeof this.props.scale
                   ? {
                       x: this.props.scale,
@@ -58,14 +58,14 @@ var CLSTAMP = "9839182";
                       z: this.props.scale,
                     }
                   : (0, i.Wi)(this.props.scale, { x: 1, y: 1, z: 1 })));
-          let s = (0, i.hi)(o),
-            _ = (0, i.j_)(l);
+          let l = (0, i.hi)(o),
+            s = (0, i.j_)(_);
           return n.createElement(
             "vsg-transform",
             {
               translation: t,
-              rotation: s,
-              scale: _,
+              rotation: l,
+              scale: s,
               "curvature-pitch": this.props.curvature_pitch,
               "invert-parent-panel-pitch": this.props.invert_parent_panel_pitch,
               "ignore-parent-scale": this.props.ignore_parent_scale,
@@ -81,7 +81,7 @@ var CLSTAMP = "9839182";
     },
     3725: (e, t, o) => {
       var r, n, i, a;
-      function l() {
+      function _() {
         var e;
         return null !==
           (e =
@@ -92,24 +92,24 @@ var CLSTAMP = "9839182";
           : r.Unknown;
       }
       o.d(t, {
-        $Z: () => c,
-        Ee: () => B,
+        $Z: () => p,
+        Ee: () => C,
         GQ: () => k,
-        Gz: () => _,
-        HW: () => h,
+        Gz: () => s,
+        HW: () => I,
         MV: () => i,
         NB: () => S,
         OH: () => r,
-        R$: () => l,
+        R$: () => _,
         Rk: () => m,
-        Xl: () => R,
-        _1: () => A,
-        _E: () => s,
-        b: () => y,
-        gN: () => v,
-        k2: () => M,
-        kG: () => F,
-        ku: () => p,
+        Xl: () => B,
+        _1: () => T,
+        _E: () => l,
+        b: () => R,
+        gN: () => F,
+        k2: () => f,
+        kG: () => v,
+        ku: () => c,
         mo: () => g,
         mu: () => a,
         ne: () => d,
@@ -147,17 +147,17 @@ var CLSTAMP = "9839182";
             (e[(e.Standing = 1)] = "Standing"),
             (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
         })(a || (a = {}));
-      let s = 0,
-        _ = 0,
+      let l = 0,
+        s = 0,
         d = -1;
-      var c, u, p, S, m, g, D, h, I, R, y, C, B, v, F, f, M, P, T, A, k;
+      var p, u, c, S, m, g, D, I, h, B, R, y, C, F, v, M, f, P, A, T, k;
       !(function (e) {
         (e[(e.Invalid = 0)] = "Invalid"),
           (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
           (e[(e.FloorAdjustExisting = 2)] = "FloorAdjustExisting"),
           (e[(e.RoomSetupFloor = 3)] = "RoomSetupFloor"),
           (e[(e.ClearRoomSetup = 4)] = "ClearRoomSetup");
-      })(c || (c = {})),
+      })(p || (p = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -180,7 +180,7 @@ var CLSTAMP = "9839182";
         (function (e) {
           (e[(e.Activated = 0)] = "Activated"),
             (e[(e.Deactivated = 1)] = "Deactivated");
-        })(p || (p = {})),
+        })(c || (c = {})),
         (function (e) {
           (e[(e.NoDashboardTab = 8)] = "NoDashboardTab"),
             (e[(e.AcceptsGamepadEvents = 16)] = "AcceptsGamepadEvents"),
@@ -237,7 +237,7 @@ var CLSTAMP = "9839182";
             (e[(e.Quitting = 2)] = "Quitting"),
             (e[(e.Running = 3)] = "Running"),
             (e[(e.Waiting = 4)] = "Waiting");
-        })(h || (h = {})),
+        })(I || (I = {})),
         (function (e) {
           (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
             (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -247,16 +247,16 @@ var CLSTAMP = "9839182";
             (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
               "CouldntFindOrCreateClientOverlay"),
             (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-        })(I || (I = {})),
+        })(h || (h = {})),
         (function (e) {
           (e[(e.Normal = 0)] = "Normal"),
             (e[(e.Password = 1)] = "Password"),
             (e[(e.Submit = 2)] = "Submit");
-        })(R || (R = {})),
+        })(B || (B = {})),
         (function (e) {
           (e[(e.SingleLine = 0)] = "SingleLine"),
             (e[(e.MultipleLines = 1)] = "MultipleLines");
-        })(y || (y = {})),
+        })(R || (R = {})),
         (function (e) {
           (e[(e.LaserMouse = 1)] = "LaserMouse"),
             (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -269,7 +269,7 @@ var CLSTAMP = "9839182";
               "DriverRequestsApplicationPause"),
             (e[(e.DriverRequestsReducedRendering = 128)] =
               "DriverRequestsReducedRendering");
-        })(C || (C = {})),
+        })(y || (y = {})),
         (function (e) {
           (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
             (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -286,14 +286,14 @@ var CLSTAMP = "9839182";
             (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
             (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
             (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-        })(B || (B = {})),
+        })(C || (C = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
             (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
             (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
             (e[(e.Error = -1)] = "Error");
-        })(v || (v = {})),
+        })(F || (F = {})),
         (function (e) {
           (e[(e.TrackedControllerRole_Invalid = 0)] =
             "TrackedControllerRole_Invalid"),
@@ -307,7 +307,7 @@ var CLSTAMP = "9839182";
               "TrackedControllerRole_Treadmill"),
             (e[(e.TrackedControllerRole_Max = 5)] =
               "TrackedControllerRole_Max");
-        })(F || (F = {})),
+        })(v || (v = {})),
         (function (e) {
           (e[(e.Unknown = 0)] = "Unknown"),
             (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -319,10 +319,10 @@ var CLSTAMP = "9839182";
             (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
             (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
             (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-        })(f || (f = {})),
+        })(M || (M = {})),
         (function (e) {
           e[(e.Hostname = 0)] = "Hostname";
-        })(M || (M = {})),
+        })(f || (f = {})),
         (function (e) {
           (e[(e.Unavailable = 0)] = "Unavailable"),
             (e[(e.Active = 1)] = "Active"),
@@ -330,7 +330,7 @@ var CLSTAMP = "9839182";
         })(P || (P = {})),
         (function (e) {
           (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
-        })(T || (T = {})),
+        })(A || (A = {})),
         (function (e) {
           (e[(e.Inactive = 0)] = "Inactive"),
             (e[(e.PendingReset = 1)] = "PendingReset"),
@@ -338,7 +338,7 @@ var CLSTAMP = "9839182";
             (e[(e.Default = 3)] = "Default"),
             (e[(e.CV = 4)] = "CV"),
             (e[(e.Manual = 5)] = "Manual");
-        })(A || (A = {})),
+        })(T || (T = {})),
         (function (e) {
           (e[(e.Small = 0)] = "Small"),
             (e[(e.Medium = 1)] = "Medium"),
@@ -348,10 +348,10 @@ var CLSTAMP = "9839182";
         })(k || (k = {}));
     },
     4367: (e, t, o) => {
-      var r, n, i, a, l, s, _, d;
+      var r, n, i, a, _, l, s, d;
       o.d(t, {
         $: () => d,
-        KI: () => _,
+        KI: () => s,
         QR: () => a,
         en: () => i,
         fD: () => r,
@@ -424,6 +424,8 @@ var CLSTAMP = "9839182";
             (e[(e.ActualTrackingSystemName_String = 1054)] =
               "ActualTrackingSystemName_String"),
             (e[(e.AllowCameraToggle_Bool = 1055)] = "AllowCameraToggle_Bool"),
+            (e[(e.AllowLightSourceFrequency_Bool = 1056)] =
+              "AllowLightSourceFrequency_Bool"),
             (e[(e.ReportsTimeSinceVSync_Bool = 2e3)] =
               "ReportsTimeSinceVSync_Bool"),
             (e[(e.SecondsFromVsyncToPhotons_Float = 2001)] =
@@ -737,18 +739,18 @@ var CLSTAMP = "9839182";
             (e[(e.UserInteraction_Timeout = 2)] = "UserInteraction_Timeout"),
             (e[(e.Standby = 3)] = "Standby"),
             (e[(e.Idle_Timeout = 4)] = "Idle_Timeout");
-        })(l || (l = {})),
+        })(_ || (_ = {})),
         (function (e) {
           (e[(e.Notification_Shown = 600)] = "Notification_Shown"),
             (e[(e.Notification_Hidden = 601)] = "Notification_Hidden"),
             (e[(e.Notification_BeginInteraction = 602)] =
               "Notification_BeginInteraction"),
             (e[(e.Notification_Destroyed = 603)] = "Notification_Destroyed");
-        })(s || (s = {})),
+        })(l || (l = {})),
         (function (e) {
           (e[(e.TheaterFast = 0)] = "TheaterFast"),
             (e[(e.TheaterSlow = 1)] = "TheaterSlow");
-        })(_ || (_ = {})),
+        })(s || (s = {})),
         (function (e) {
           (e[(e.Constant = 0)] = "Constant"),
             (e[(e.Nearest = 1)] = "Nearest"),
@@ -756,114 +758,6 @@ var CLSTAMP = "9839182";
             (e[(e.SmoothStep = 3)] = "SmoothStep"),
             (e[(e.SmootherStep = 4)] = "SmootherStep");
         })(d || (d = {}));
-    },
-    1139: (e, t, o) => {
-      o.d(t, { FH: () => l, Nc: () => d, aw: () => _, jE: () => s });
-      var r = o(1635),
-        n = o(6540),
-        i = o(3236),
-        a = o(7813);
-      function l(...e) {
-        return e
-          .filter((e) => null != e && ("string" == typeof e || e[1]))
-          .map((e) => ("string" == typeof e ? e : e[0]))
-          .join(" ");
-      }
-      function s(e, t) {
-        let o = t;
-        for (; o.parentElement && !e.some((e) => o.matches(e)); )
-          o = o.parentElement;
-        return o;
-      }
-      class _ {
-        constructor() {
-          (this.onScroll = null),
-            (this.onScrollStop = null),
-            (this.m_elem = null),
-            (this.m_rScrollableParents = []),
-            (this.m_bScrolling = !1),
-            (this.m_scrollStopTimeoutHandle = void 0),
-            (0, a.Gn)(this);
-        }
-        ref(e) {
-          this.m_elem && this.cleanup(),
-            (this.m_elem = e),
-            this.updateScrollableParents();
-        }
-        get isScrolling() {
-          return this.m_bScrolling;
-        }
-        updateScrollableParents() {
-          for (let e of this.m_rScrollableParents)
-            e.removeEventListener("scroll", this.onParentScroll);
-          this.m_rScrollableParents = (function (e) {
-            let t = [];
-            if (!e) return t;
-            let o = e.parentElement;
-            for (; o; ) {
-              const e = o.scrollWidth > o.clientWidth,
-                r = o.scrollHeight > o.clientHeight;
-              (e || r) && t.push(o), (o = o.parentElement);
-            }
-            return t;
-          })(this.m_elem);
-          for (let e of this.m_rScrollableParents)
-            e.addEventListener("scroll", this.onParentScroll);
-        }
-        cleanup() {
-          for (let e of this.m_rScrollableParents)
-            e.removeEventListener("scroll", this.onParentScroll);
-          (this.m_rScrollableParents = []),
-            (this.m_elem = null),
-            this.clearScrollStopTimeout();
-        }
-        onParentScroll() {
-          var e;
-          this.clearScrollStopTimeout(),
-            (this.m_bScrolling = !0),
-            (this.m_scrollStopTimeoutHandle = window.setTimeout(
-              this.onScrollStopTimeout,
-              50,
-            )),
-            null === (e = this.onScroll) || void 0 === e || e.call(this);
-        }
-        clearScrollStopTimeout() {
-          window.clearTimeout(this.m_scrollStopTimeoutHandle),
-            (this.m_scrollStopTimeoutHandle = void 0);
-        }
-        onScrollStopTimeout() {
-          var e;
-          this.m_bScrolling &&
-            (null === (e = this.onScrollStop) || void 0 === e || e.call(this)),
-            (this.m_bScrolling = !1);
-        }
-      }
-      function d() {
-        const [e, t] = n.useState(null),
-          o = n.useCallback(() => {
-            t(
-              null === VRHTML || void 0 === VRHTML
-                ? void 0
-                : VRHTML.VRDashboardManager.GetKeyboardInputInfo(),
-            );
-          }, []);
-        return (
-          n.useEffect(o, []),
-          n.useEffect(() => {
-            const e =
-              null === VRHTML || void 0 === VRHTML
-                ? void 0
-                : VRHTML.RegisterForKeyboardVisibilityChangedEvents(() => o());
-            return () => (null == e ? void 0 : e.unregister());
-          }, [o]),
-          e
-        );
-      }
-      (0, r.Cg)([a.sH], _.prototype, "m_bScrolling", void 0),
-        (0, r.Cg)([i.o], _.prototype, "ref", null),
-        (0, r.Cg)([a.EW], _.prototype, "isScrolling", null),
-        (0, r.Cg)([i.o], _.prototype, "onParentScroll", null),
-        (0, r.Cg)([i.o], _.prototype, "onScrollStopTimeout", null);
     },
   },
 ]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~1a88854fa.js.map

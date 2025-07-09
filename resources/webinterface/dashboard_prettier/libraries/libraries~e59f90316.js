@@ -1,6 +1,6 @@
-var CLSTAMP = "9839182";
+var CLSTAMP = "9887103";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [465],
+  [908],
   {
     5471: (e, t, n) => {
       "use strict";
@@ -183,7 +183,7 @@ var CLSTAMP = "9839182";
             e
           );
         },
-        T =
+        x =
           Object.assign ||
           function (e) {
             for (var t = 1; t < arguments.length; t++) {
@@ -193,8 +193,8 @@ var CLSTAMP = "9839182";
             }
             return e;
           };
-      function x(e) {
-        return T({}, e, { right: e.left + e.width, bottom: e.top + e.height });
+      function T(e) {
+        return x({}, e, { right: e.left + e.width, bottom: e.top + e.height });
       }
       function S(e) {
         var t = {};
@@ -221,7 +221,7 @@ var CLSTAMP = "9839182";
           var p = s(e);
           (c -= b(p, "x")), (f -= b(p, "y")), (o.width -= c), (o.height -= f);
         }
-        return x(o);
+        return T(o);
       }
       function A(e, t) {
         var n = arguments.length > 2 && void 0 !== arguments[2] && arguments[2],
@@ -236,7 +236,7 @@ var CLSTAMP = "9839182";
         n &&
           o &&
           ((a.top = Math.max(a.top, 0)), (a.left = Math.max(a.left, 0)));
-        var m = x({
+        var m = T({
           top: i.top - a.top - p,
           left: i.left - a.left - l,
           width: i.width,
@@ -300,7 +300,7 @@ var CLSTAMP = "9839182";
               i = Math.max(n.clientHeight, window.innerHeight || 0),
               a = t ? 0 : y(n),
               s = t ? 0 : y(n, "left");
-            return x({
+            return T({
               top: a - r.top + r.marginTop,
               left: s - r.left + r.marginLeft,
               width: o,
@@ -347,7 +347,7 @@ var CLSTAMP = "9839182";
           },
           u = Object.keys(s)
             .map(function (e) {
-              return T({ key: e }, s[e], {
+              return x({ key: e }, s[e], {
                 area: ((t = s[e]), t.width * t.height),
               });
               var t;
@@ -381,7 +381,7 @@ var CLSTAMP = "9839182";
           return t[e];
         });
       }
-      function N(e, t, n) {
+      function I(e, t, n) {
         n = n.split("-")[0];
         var r = M(e),
           o = { width: r.width, height: r.height },
@@ -396,7 +396,7 @@ var CLSTAMP = "9839182";
           o
         );
       }
-      function I(e, t) {
+      function N(e, t) {
         return Array.prototype.find ? e.find(t) : e.filter(t)[0];
       }
       function j(e, t, n) {
@@ -410,7 +410,7 @@ var CLSTAMP = "9839182";
                     return e.findIndex(function (e) {
                       return e[t] === n;
                     });
-                  var r = I(e, function (e) {
+                  var r = N(e, function (e) {
                     return e[t] === n;
                   });
                   return e.indexOf(r);
@@ -424,8 +424,8 @@ var CLSTAMP = "9839182";
             var n = e.function || e.fn;
             e.enabled &&
               a(n) &&
-              ((t.offsets.popper = x(t.offsets.popper)),
-              (t.offsets.reference = x(t.offsets.reference)),
+              ((t.offsets.popper = T(t.offsets.popper)),
+              (t.offsets.reference = T(t.offsets.reference)),
               (t = n(t, e)));
           }),
           t
@@ -457,7 +457,7 @@ var CLSTAMP = "9839182";
             )),
             (e.originalPlacement = e.placement),
             (e.positionFixed = this.options.positionFixed),
-            (e.offsets.popper = N(
+            (e.offsets.popper = I(
               this.popper,
               e.offsets.reference,
               e.placement,
@@ -491,7 +491,7 @@ var CLSTAMP = "9839182";
         }
         return null;
       }
-      function H() {
+      function U() {
         return (
           (this.state.isDestroyed = !0),
           F(this.modifiers, "applyStyle") &&
@@ -509,29 +509,29 @@ var CLSTAMP = "9839182";
           this
         );
       }
-      function V(e) {
+      function H(e) {
         var t = e.ownerDocument;
         return t ? t.defaultView : window;
       }
-      function U(e, t, n, r) {
+      function V(e, t, n, r) {
         var o = "BODY" === e.nodeName,
           i = o ? e.ownerDocument.defaultView : e;
         i.addEventListener(t, n, { passive: !0 }),
-          o || U(c(i.parentNode), t, n, r),
+          o || V(c(i.parentNode), t, n, r),
           r.push(i);
       }
       function W(e, t, n, r) {
         (n.updateBound = r),
-          V(e).addEventListener("resize", n.updateBound, { passive: !0 });
+          H(e).addEventListener("resize", n.updateBound, { passive: !0 });
         var o = c(e);
         return (
-          U(o, "scroll", n.updateBound, n.scrollParents),
+          V(o, "scroll", n.updateBound, n.scrollParents),
           (n.scrollElement = o),
           (n.eventsEnabled = !0),
           n
         );
       }
-      function $() {
+      function q() {
         this.state.eventsEnabled ||
           (this.state = W(
             this.reference,
@@ -540,14 +540,14 @@ var CLSTAMP = "9839182";
             this.scheduleUpdate,
           ));
       }
-      function q() {
+      function $() {
         var e, t;
         this.state.eventsEnabled &&
           (cancelAnimationFrame(this.scheduleUpdate),
           (this.state =
             ((e = this.reference),
             (t = this.state),
-            V(e).removeEventListener("resize", t.updateBound),
+            H(e).removeEventListener("resize", t.updateBound),
             t.scrollParents.forEach(function (e) {
               e.removeEventListener("scroll", t.updateBound);
             }),
@@ -572,7 +572,7 @@ var CLSTAMP = "9839182";
       }
       var K = r && /Firefox/i.test(navigator.userAgent);
       function G(e, t, n) {
-        var r = I(e, function (e) {
+        var r = N(e, function (e) {
             return e.name === t;
           }),
           o =
@@ -628,7 +628,7 @@ var CLSTAMP = "9839182";
             return e.trim();
           }),
           s = a.indexOf(
-            I(a, function (e) {
+            N(a, function (e) {
               return -1 !== e.search(/,|\s/);
             }),
           );
@@ -664,7 +664,7 @@ var CLSTAMP = "9839182";
                     a = o[2];
                   if (!i) return e;
                   if (0 === a.indexOf("%")) {
-                    return (x("%p" === a ? n : r)[t] / 100) * i;
+                    return (T("%p" === a ? n : r)[t] / 100) * i;
                   }
                   if ("vh" === a || "vw" === a)
                     return (
@@ -711,7 +711,7 @@ var CLSTAMP = "9839182";
                     start: O({}, u, i[u]),
                     end: O({}, u, i[u] + i[c] - a[c]),
                   };
-                e.offsets.popper = T({}, a, f[r]);
+                e.offsets.popper = x({}, a, f[r]);
               }
               return e;
             },
@@ -792,7 +792,7 @@ var CLSTAMP = "9839182";
                 c.forEach(function (e) {
                   var t =
                     -1 !== ["left", "top"].indexOf(e) ? "primary" : "secondary";
-                  f = T({}, f, p[t](e));
+                  f = x({}, f, p[t](e));
                 }),
                 (e.offsets.popper = f),
                 e
@@ -851,7 +851,7 @@ var CLSTAMP = "9839182";
                 h = M(r)[f];
               u[m] - h < a[l] && (e.offsets.popper[l] -= a[l] - (u[m] - h)),
                 u[l] + h > a[m] && (e.offsets.popper[l] += u[l] + h - a[m]),
-                (e.offsets.popper = x(e.offsets.popper));
+                (e.offsets.popper = T(e.offsets.popper));
               var v = u[l] + u[f] / 2 - h / 2,
                 y = s(e.instance.popper),
                 b = parseFloat(y["margin" + p]),
@@ -944,10 +944,10 @@ var CLSTAMP = "9839182";
                             : e;
                       })(i)),
                     (e.placement = r + (i ? "-" + i : "")),
-                    (e.offsets.popper = T(
+                    (e.offsets.popper = x(
                       {},
                       e.offsets.popper,
-                      N(e.instance.popper, e.offsets.reference, e.placement),
+                      I(e.instance.popper, e.offsets.reference, e.placement),
                     )),
                     (e = j(e.instance.modifiers, e, "flip")));
                 }),
@@ -975,7 +975,7 @@ var CLSTAMP = "9839182";
                 (o[a ? "left" : "top"] =
                   i[n] - (s ? o[a ? "width" : "height"] : 0)),
                 (e.placement = P(t)),
-                (e.offsets.popper = x(o)),
+                (e.offsets.popper = T(o)),
                 e
               );
             },
@@ -986,7 +986,7 @@ var CLSTAMP = "9839182";
             fn: function (e) {
               if (!G(e.instance.modifiers, "hide", "preventOverflow")) return e;
               var t = e.offsets.reference,
-                n = I(e.instance.modifiers, function (e) {
+                n = N(e.instance.modifiers, function (e) {
                   return "preventOverflow" === e.name;
                 }).boundaries;
               if (
@@ -1011,7 +1011,7 @@ var CLSTAMP = "9839182";
               var n = t.x,
                 r = t.y,
                 o = e.offsets.popper,
-                i = I(e.instance.modifiers, function (e) {
+                i = N(e.instance.modifiers, function (e) {
                   return "applyStyle" === e.name;
                 }).gpuAcceleration;
               void 0 !== i &&
@@ -1077,9 +1077,9 @@ var CLSTAMP = "9839182";
               }
               var g = { "x-placement": e.placement };
               return (
-                (e.attributes = T({}, g, e.attributes)),
-                (e.styles = T({}, c, e.styles)),
-                (e.arrowStyles = T({}, e.offsets.arrow, e.arrowStyles)),
+                (e.attributes = x({}, g, e.attributes)),
+                (e.styles = x({}, c, e.styles)),
+                (e.arrowStyles = x({}, e.offsets.arrow, e.arrowStyles)),
                 e
               );
             },
@@ -1148,7 +1148,7 @@ var CLSTAMP = "9839182";
                 return requestAnimationFrame(r.update);
               }),
               (this.update = i(this.update.bind(this))),
-              (this.options = T({}, e.Defaults, o)),
+              (this.options = x({}, e.Defaults, o)),
               (this.state = {
                 isDestroyed: !1,
                 isCreated: !1,
@@ -1157,9 +1157,9 @@ var CLSTAMP = "9839182";
               (this.reference = t && t.jquery ? t[0] : t),
               (this.popper = n && n.jquery ? n[0] : n),
               (this.options.modifiers = {}),
-              Object.keys(T({}, e.Defaults.modifiers, o.modifiers)).forEach(
+              Object.keys(x({}, e.Defaults.modifiers, o.modifiers)).forEach(
                 function (t) {
-                  r.options.modifiers[t] = T(
+                  r.options.modifiers[t] = x(
                     {},
                     e.Defaults.modifiers[t] || {},
                     o.modifiers ? o.modifiers[t] : {},
@@ -1168,7 +1168,7 @@ var CLSTAMP = "9839182";
               ),
               (this.modifiers = Object.keys(this.options.modifiers)
                 .map(function (e) {
-                  return T({ name: e }, r.options.modifiers[e]);
+                  return x({ name: e }, r.options.modifiers[e]);
                 })
                 .sort(function (e, t) {
                   return e.order - t.order;
@@ -1193,19 +1193,19 @@ var CLSTAMP = "9839182";
               {
                 key: "destroy",
                 value: function () {
-                  return H.call(this);
+                  return U.call(this);
                 },
               },
               {
                 key: "enableEventListeners",
                 value: function () {
-                  return $.call(this);
+                  return q.call(this);
                 },
               },
               {
                 key: "disableEventListeners",
                 value: function () {
-                  return q.call(this);
+                  return $.call(this);
                 },
               },
             ]),
@@ -1247,10 +1247,10 @@ var CLSTAMP = "9839182";
           : (function (e) {
                 return he(e, "NodeList");
               })(e)
-            ? xe(e)
+            ? Te(e)
             : Array.isArray(e)
               ? e
-              : xe(document.querySelectorAll(e));
+              : Te(document.querySelectorAll(e));
       }
       function de(e, t, n) {
         if (Array.isArray(e)) {
@@ -1301,10 +1301,10 @@ var CLSTAMP = "9839182";
             };
         var n;
       }
-      function Te(e, t, n) {
+      function xe(e, t, n) {
         e && e !== t && e.apply(void 0, n);
       }
-      function xe(e) {
+      function Te(e) {
         return [].slice.call(e);
       }
       function Se(e, t) {
@@ -1394,7 +1394,7 @@ var CLSTAMP = "9839182";
           },
         ),
         Pe = Object.keys(Me),
-        Ne = [
+        Ie = [
           "arrow",
           "boundary",
           "distance",
@@ -1405,7 +1405,7 @@ var CLSTAMP = "9839182";
           "placement",
           "popperOptions",
         ],
-        Ie = function (e) {
+        Ne = function (e) {
           Object.keys(e).forEach(function (t) {
             Me[t] = e[t];
           });
@@ -1446,14 +1446,14 @@ var CLSTAMP = "9839182";
       }
       var Fe = { passive: !0 },
         Be = "tippy-popper",
-        He = "tippy-tooltip",
-        Ve = "tippy-content",
-        Ue = "tippy-arrow",
+        Ue = "tippy-tooltip",
+        He = "tippy-content",
+        Ve = "tippy-arrow",
         We = "tippy-svg-arrow",
-        $e = "." + Be,
-        qe = "." + He,
-        ze = "." + Ve,
-        Ye = "." + Ue,
+        qe = "." + Be,
+        $e = "." + Ue,
+        ze = "." + He,
+        Ye = "." + Ve,
         Ke = "." + We,
         Ge = { isTouch: !1 },
         Xe = 0;
@@ -1500,7 +1500,7 @@ var CLSTAMP = "9839182";
       }
       function ct(e) {
         return {
-          tooltip: e.querySelector(qe),
+          tooltip: e.querySelector($e),
           content: e.querySelector(ze),
           arrow: e.querySelector(Ye) || e.querySelector(Ke),
         };
@@ -1509,7 +1509,7 @@ var CLSTAMP = "9839182";
         var t = ge();
         return (
           !0 === e
-            ? (t.className = Ue)
+            ? (t.className = Ve)
             : ((t.className = We), ve(e) ? t.appendChild(e) : ce(t, e)),
           t
         );
@@ -1521,14 +1521,14 @@ var CLSTAMP = "9839182";
           (n.style.top = "0"),
           (n.style.left = "0");
         var r = ge();
-        (r.className = He),
+        (r.className = Ue),
           (r.id = "tippy-" + e),
           r.setAttribute("data-state", "hidden"),
           r.setAttribute("tabindex", "-1"),
           mt(r, "add", t.theme);
         var o = ge();
         return (
-          (o.className = Ve),
+          (o.className = He),
           o.setAttribute("data-state", "hidden"),
           t.interactive && st(r),
           t.arrow &&
@@ -1614,12 +1614,12 @@ var CLSTAMP = "9839182";
           w = ht++,
           E = pt(w, i),
           O = ct(E),
-          T = (l = i.plugins).filter(function (e, t) {
+          x = (l = i.plugins).filter(function (e, t) {
             return l.indexOf(e) === t;
           }),
-          x = O.tooltip,
+          T = O.tooltip,
           S = O.content,
-          A = [x, S],
+          A = [T, S],
           C = {
             id: w,
             reference: e,
@@ -1635,7 +1635,7 @@ var CLSTAMP = "9839182";
               isMounted: !1,
               isShown: !1,
             },
-            plugins: T,
+            plugins: x,
             clearDelayTimeouts: function () {
               clearTimeout(n), clearTimeout(r), cancelAnimationFrame(o);
             },
@@ -1643,7 +1643,7 @@ var CLSTAMP = "9839182";
               0;
               if (C.state.isDestroyed) return;
               0;
-              N("onBeforeUpdate", [C, t]), $();
+              I("onBeforeUpdate", [C, t]), q();
               var n = C.props,
                 r = Re(e, se({}, C.props, {}, t, { ignoreAttributes: !0 }));
               (r.ignoreAttributes = Ce(t.ignoreAttributes, n.ignoreAttributes)),
@@ -1660,7 +1660,7 @@ var CLSTAMP = "9839182";
                   : r.triggerTarget && e.removeAttribute("aria-expanded");
               if ((j(), C.popperInstance))
                 if (
-                  Ne.some(function (e) {
+                  Ie.some(function (e) {
                     return pe(t, e) && t[e] !== n[e];
                   })
                 ) {
@@ -1671,7 +1671,7 @@ var CLSTAMP = "9839182";
                     C.state.isVisible &&
                       C.popperInstance.enableEventListeners();
                 } else C.popperInstance.update();
-              N("onAfterUpdate", [C, t]);
+              I("onAfterUpdate", [C, t]);
             },
             setContent: function (e) {
               C.setProps({ content: e });
@@ -1686,7 +1686,7 @@ var CLSTAMP = "9839182";
               if (t || n || r || o) return;
               if (M().hasAttribute("disabled")) return;
               C.popperInstance || X();
-              if ((N("onShow", [C], !1), !1 === C.props.onShow(C))) return;
+              if ((I("onShow", [C], !1), !1 === C.props.onShow(C))) return;
               B(),
                 (E.style.visibility = "visible"),
                 (C.state.isVisible = !0),
@@ -1696,16 +1696,16 @@ var CLSTAMP = "9839182";
                   (we([E], C.props.updateDuration),
                   we(A, e),
                   Ee(A, "visible"),
-                  I(),
+                  N(),
                   j(),
                   _e(yt, C),
                   ot(!0),
                   (C.state.isMounted = !0),
-                  N("onMount", [C]),
+                  I("onMount", [C]),
                   (function (e, t) {
-                    V(e, t);
+                    H(e, t);
                   })(e, function () {
-                    (C.state.isShown = !0), N("onShown", [C]);
+                    (C.state.isShown = !0), I("onShown", [C]);
                   }));
               }),
                 (function () {
@@ -1736,18 +1736,18 @@ var CLSTAMP = "9839182";
                 n = C.state.isDestroyed,
                 r = !C.state.isEnabled && !d;
               if (t || n || r) return;
-              if ((N("onHide", [C], !1), !1 === C.props.onHide(C) && !d))
+              if ((I("onHide", [C], !1), !1 === C.props.onHide(C) && !d))
                 return;
-              H(),
+              U(),
                 (E.style.visibility = "hidden"),
                 (C.state.isVisible = !1),
                 (C.state.isShown = !1),
                 we(A, e),
                 Ee(A, "hidden"),
-                I(),
+                N(),
                 j(),
                 (function (e, t) {
-                  V(e, function () {
+                  H(e, function () {
                     !C.state.isVisible &&
                       E.parentNode &&
                       E.parentNode.contains(E) &&
@@ -1762,7 +1762,7 @@ var CLSTAMP = "9839182";
                         return e !== C;
                       })).length && ot(!1),
                     (C.state.isMounted = !1),
-                    N("onHidden", [C]);
+                    I("onHidden", [C]);
                 });
             },
             enable: function () {
@@ -1777,14 +1777,14 @@ var CLSTAMP = "9839182";
               (d = !0),
                 C.clearDelayTimeouts(),
                 C.hide(0),
-                $(),
+                q(),
                 delete e._tippy,
                 C.popperInstance && C.popperInstance.destroy();
-              (d = !1), (C.state.isDestroyed = !0), N("onDestroy", [C]);
+              (d = !1), (C.state.isDestroyed = !0), I("onDestroy", [C]);
             },
           };
         (e._tippy = C), (E._tippy = C);
-        var k = T.map(function (e) {
+        var k = x.map(function (e) {
             return e.fn(C);
           }),
           _ = e.hasAttribute("aria-expanded");
@@ -1792,7 +1792,7 @@ var CLSTAMP = "9839182";
           W(),
           j(),
           i.lazy || X(),
-          N("onCreate", [C]),
+          I("onCreate", [C]),
           i.showOnCreate && Q(),
           E.addEventListener("mouseenter", function () {
             C.props.interactive && C.state.isVisible && C.clearDelayTimeouts();
@@ -1821,7 +1821,7 @@ var CLSTAMP = "9839182";
             ? 0
             : de(C.props.delay, e ? 0 : 1, Me.delay);
         }
-        function N(e, t, n) {
+        function I(e, t, n) {
           var r;
           (void 0 === n && (n = !0),
           k.forEach(function (n) {
@@ -1829,11 +1829,11 @@ var CLSTAMP = "9839182";
           }),
           n) && (r = C.props)[e].apply(r, t);
         }
-        function I() {
+        function N() {
           var t = C.props.aria;
           if (t) {
             var n = "aria-" + t,
-              r = x.id;
+              r = T.id;
             ke(C.props.triggerTarget || e).forEach(function (e) {
               var t = e.getAttribute(n);
               if (C.state.isVisible) e.setAttribute(n, t ? t + " " + r : r);
@@ -1876,23 +1876,23 @@ var CLSTAMP = "9839182";
               setTimeout(function () {
                 h = !1;
               }),
-              C.state.isMounted || H());
+              C.state.isMounted || U());
           }
         }
         function B() {
           g.addEventListener("mousedown", F, !0);
         }
-        function H() {
+        function U() {
           g.removeEventListener("mousedown", F, !0);
         }
-        function V(e, t) {
+        function H(e, t) {
           function n(e) {
-            e.target === x && (dt(x, "remove", n), t());
+            e.target === T && (dt(T, "remove", n), t());
           }
           if (0 === e) return t();
-          dt(x, "remove", u), dt(x, "add", n), (u = n);
+          dt(T, "remove", u), dt(T, "add", n), (u = n);
         }
-        function U(t, n, r) {
+        function V(t, n, r) {
           void 0 === r && (r = !1),
             ke(C.props.triggerTarget || e).forEach(function (e) {
               e.addEventListener(t, n, r),
@@ -1900,22 +1900,22 @@ var CLSTAMP = "9839182";
             });
         }
         function W() {
-          D() && (U("touchstart", q, Fe), U("touchend", Y, Fe)),
+          D() && (V("touchstart", $, Fe), V("touchend", Y, Fe)),
             Ae(C.props.trigger).forEach(function (e) {
               if ("manual" !== e)
-                switch ((U(e, q), e)) {
+                switch ((V(e, $), e)) {
                   case "mouseenter":
-                    U("mouseleave", Y);
+                    V("mouseleave", Y);
                     break;
                   case "focus":
-                    U(nt ? "focusout" : "blur", K);
+                    V(nt ? "focusout" : "blur", K);
                     break;
                   case "focusin":
-                    U("focusout", K);
+                    V("focusout", K);
                 }
             });
         }
-        function $() {
+        function q() {
           y.forEach(function (e) {
             var t = e.node,
               n = e.eventType,
@@ -1925,7 +1925,7 @@ var CLSTAMP = "9839182";
           }),
             (y = []);
         }
-        function q(e) {
+        function $(e) {
           var t = !1;
           if (C.state.isEnabled && !G(e) && !h) {
             if (
@@ -1967,7 +1967,7 @@ var CLSTAMP = "9839182";
             return t === e || t === E;
           });
           if ("mousemove" !== t.type || !n) {
-            var r = xe(E.querySelectorAll($e))
+            var r = Te(E.querySelectorAll(qe))
               .concat(E)
               .map(function (e) {
                 var t = e._tippy,
@@ -2031,16 +2031,16 @@ var CLSTAMP = "9839182";
                 (e.flipped &&
                   (C.popperInstance.options.placement = e.placement),
                 be(C.popperInstance.modifiers, "flip", "enabled", !1)),
-              x.setAttribute("data-placement", e.placement),
+              T.setAttribute("data-placement", e.placement),
               !1 !== e.attributes["x-out-of-boundaries"]
-                ? x.setAttribute("data-out-of-boundaries", "")
-                : x.removeAttribute("data-out-of-boundaries");
+                ? T.setAttribute("data-out-of-boundaries", "")
+                : T.removeAttribute("data-out-of-boundaries");
             var r = it(e.placement),
               o = Se(["top", "bottom"], r),
               i = Se(["bottom", "right"], r);
-            (x.style.top = "0"),
-              (x.style.left = "0"),
-              (x.style[o ? "top" : "left"] = (i ? 1 : -1) * t + "px"),
+            (T.style.top = "0"),
+              (T.style.left = "0"),
+              (T.style[o ? "top" : "left"] = (i ? 1 : -1) * t + "px"),
               n && n !== e.placement && C.popperInstance.update();
           }
           var s = se({ eventsEnabled: !1, placement: C.props.placement }, n, {
@@ -2077,10 +2077,10 @@ var CLSTAMP = "9839182";
               offset: se({ offset: C.props.offset }, me(n, "offset")),
             }),
             onCreate: function (e) {
-              a(e), Te(n && n.onCreate, s.onCreate, [e]), J();
+              a(e), xe(n && n.onCreate, s.onCreate, [e]), J();
             },
             onUpdate: function (e) {
-              a(e), Te(n && n.onUpdate, s.onUpdate, [e]), J();
+              a(e), xe(n && n.onUpdate, s.onUpdate, [e]), J();
             },
           });
           C.popperInstance = new ae(e, E, s);
@@ -2099,7 +2099,7 @@ var CLSTAMP = "9839182";
         function Q(e) {
           C.clearDelayTimeouts(),
             C.popperInstance || X(),
-            e && N("onTrigger", [C, e]),
+            e && I("onTrigger", [C, e]),
             B();
           var t = P(!0);
           t
@@ -2111,7 +2111,7 @@ var CLSTAMP = "9839182";
         function Z(e) {
           if (
             (C.clearDelayTimeouts(),
-            N("onUntrigger", [C, e]),
+            I("onUntrigger", [C, e]),
             C.state.isVisible)
           ) {
             if (
@@ -2131,7 +2131,7 @@ var CLSTAMP = "9839182";
                     C.hide();
                   }));
             }
-          } else H();
+          } else U();
         }
       }
       function gt(e, t, n) {
@@ -2153,7 +2153,7 @@ var CLSTAMP = "9839182";
       }
       (gt.version = ue),
         (gt.defaultProps = Me),
-        (gt.setDefaultProps = Ie),
+        (gt.setDefaultProps = Ne),
         (gt.currentInput = Ge);
       var wt = n(6540),
         Et = n(961);
@@ -2172,7 +2172,7 @@ var CLSTAMP = "9839182";
           Ot.apply(this, arguments)
         );
       }
-      function Tt(e, t) {
+      function xt(e, t) {
         if (null == e) return {};
         var n,
           r,
@@ -2182,7 +2182,7 @@ var CLSTAMP = "9839182";
           (n = i[r]), t.indexOf(n) >= 0 || (o[n] = e[n]);
         return o;
       }
-      var xt = "undefined" != typeof window && "undefined" != typeof document;
+      var Tt = "undefined" != typeof window && "undefined" != typeof document;
       function St(e, t) {
         e &&
           ("function" == typeof e && e(t),
@@ -2193,7 +2193,7 @@ var CLSTAMP = "9839182";
           n && e.classList[t](n);
         });
       }
-      var Ct = xt ? wt.useLayoutEffect : wt.useEffect;
+      var Ct = Tt ? wt.useLayoutEffect : wt.useEffect;
       function kt(e, t, n) {
         Ct(function () {
           var n = e.instance.popperChildren.tooltip;
@@ -2227,7 +2227,7 @@ var CLSTAMP = "9839182";
           l =
             (e.__source,
             e.__self,
-            Tt(e, [
+            xt(e, [
               "children",
               "content",
               "className",
@@ -2246,7 +2246,7 @@ var CLSTAMP = "9839182";
           y = h[1],
           b = _t(function () {
             return {
-              container: xt && document.createElement("div"),
+              container: Tt && document.createElement("div"),
               renders: 1,
             };
           }),
@@ -2292,7 +2292,7 @@ var CLSTAMP = "9839182";
       }
       const Dt = (0, wt.forwardRef)(function (e, t) {
         var n = e.children,
-          r = Tt(e, ["children"]);
+          r = xt(e, ["children"]);
         return wt.createElement(
           Lt,
           r,
@@ -2357,6 +2357,47 @@ var CLSTAMP = "9839182";
       "use strict";
       e.exports = "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED";
     },
+    3068: (e) => {
+      var t = 0;
+      e.exports = {
+        resetUniqueIds: function () {
+          t = 0;
+        },
+        enableUniqueIds: function (e) {
+          var n;
+          arguments.length > 1 &&
+            "string" != typeof (n = arguments[1]) &&
+            (console.log(
+              "Warning: Expected string as second argument passed to `injectUniqueness`",
+            ),
+            (n = "" + n));
+          var r = e.render,
+            o = {},
+            i = 0,
+            a = n || ++t;
+          (e.render = function () {
+            return (i = 0), r.apply(e);
+          }),
+            (e.nextUniqueId = function () {
+              return ++i, "id-" + a + "-" + i;
+            }),
+            (e.lastUniqueId = function () {
+              return "id-" + a + "-" + i;
+            }),
+            (e.getUniqueId = function (e) {
+              return (
+                "string" != typeof e &&
+                  (console.log(
+                    "Warning: Expected string identifer passed to `getUniqueId`",
+                  ),
+                  (e = "" + e)),
+                o[e] || (o[e] = "id-" + a + "-" + e),
+                o[e]
+              );
+            });
+        },
+      };
+    },
     5287: (e, t) => {
       "use strict";
       var n = Symbol.for("react.element"),
@@ -2410,8 +2451,8 @@ var CLSTAMP = "9839182";
       (w.constructor = g), h(w, y.prototype), (w.isPureReactComponent = !0);
       var E = Array.isArray,
         O = Object.prototype.hasOwnProperty,
-        T = { current: null },
-        x = { key: !0, ref: !0, __self: !0, __source: !0 };
+        x = { current: null },
+        T = { key: !0, ref: !0, __self: !0, __source: !0 };
       function S(e, t, r) {
         var o,
           i = {},
@@ -2421,7 +2462,7 @@ var CLSTAMP = "9839182";
           for (o in (void 0 !== t.ref && (s = t.ref),
           void 0 !== t.key && (a = "" + t.key),
           t))
-            O.call(t, o) && !x.hasOwnProperty(o) && (i[o] = t[o]);
+            O.call(t, o) && !T.hasOwnProperty(o) && (i[o] = t[o]);
         var u = arguments.length - 2;
         if (1 === u) i.children = r;
         else if (1 < u) {
@@ -2436,7 +2477,7 @@ var CLSTAMP = "9839182";
           key: a,
           ref: s,
           props: i,
-          _owner: T.current,
+          _owner: x.current,
         };
       }
       function A(e) {
@@ -2567,12 +2608,12 @@ var CLSTAMP = "9839182";
       }
       var M = { current: null },
         P = { transition: null },
-        N = {
+        I = {
           ReactCurrentDispatcher: M,
           ReactCurrentBatchConfig: P,
-          ReactCurrentOwner: T,
+          ReactCurrentOwner: x,
         };
-      function I() {
+      function N() {
         throw Error("act(...) is not supported in production builds of React.");
       }
       (t.Children = {
@@ -2616,8 +2657,8 @@ var CLSTAMP = "9839182";
         (t.PureComponent = g),
         (t.StrictMode = i),
         (t.Suspense = f),
-        (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = N),
-        (t.act = I),
+        (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = I),
+        (t.act = N),
         (t.cloneElement = function (e, t, r) {
           if (null == e)
             throw Error(
@@ -2631,14 +2672,14 @@ var CLSTAMP = "9839182";
             s = e._owner;
           if (null != t) {
             if (
-              (void 0 !== t.ref && ((a = t.ref), (s = T.current)),
+              (void 0 !== t.ref && ((a = t.ref), (s = x.current)),
               void 0 !== t.key && (i = "" + t.key),
               e.type && e.type.defaultProps)
             )
               var u = e.type.defaultProps;
             for (c in t)
               O.call(t, c) &&
-                !x.hasOwnProperty(c) &&
+                !T.hasOwnProperty(c) &&
                 (o[c] = void 0 === t[c] && void 0 !== u ? u[c] : t[c]);
           }
           var c = arguments.length - 2;
@@ -2703,7 +2744,7 @@ var CLSTAMP = "9839182";
             P.transition = t;
           }
         }),
-        (t.unstable_act = I),
+        (t.unstable_act = N),
         (t.useCallback = function (e, t) {
           return M.current.useCallback(e, t);
         }),
@@ -2994,4 +3035,4 @@ var CLSTAMP = "9839182";
       })();
     },
   },
-]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/libraries/libraries~063ba55be.js.map
+]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/libraries/libraries~e59f90316.js.map

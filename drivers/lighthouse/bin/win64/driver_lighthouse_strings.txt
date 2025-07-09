@@ -2532,7 +2532,6 @@ R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
 RSDS
-R\vp>z
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4510,7 +4509,6 @@ rEyeFile:%s width:%d height:%d components:%d\n
 range
 read past buffer
 realloc
-record
 recorded
 recorder
 recorder + 
@@ -4629,7 +4627,6 @@ stmuteb
 stoi argument out of range
 stop_pairing
 stop_tracking_recording
-stoprecord
 stoul argument out of range
 strcat_s
 strchr

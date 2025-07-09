@@ -17,7 +17,7 @@
 		"url": "/dashboard/controllerbinding.html",
 		"type": "dashboard",
 		"create_from_mailbox": [ "bindingui/Overlay" ],
-		"pixel_size": [ 1920, 1080 ]
+		"pixel_size": [ 2400, 1350 ]
 	},
 	"controllerbinding_desktop": {
 		"url": "/dashboard/controllerbinding.html",
@@ -57,12 +57,6 @@
         "type": "window",
         "pixel_size": [ 800, 600 ]
     },
-	"fallback": {
-		"url": "/dashboard/fallback.html",
-		"type": "overlay",
-		"pixel_size": [ 1024, 2048 ],
-		"setting": [ "driver_lighthouse", "enableImuFallback" ]
-	},
 	"systemui": {
 		"url": "/dashboard/systemui.html",
 		"overlay_key": "system.systemui",

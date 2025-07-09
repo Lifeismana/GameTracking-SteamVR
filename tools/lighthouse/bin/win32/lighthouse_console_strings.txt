@@ -1331,9 +1331,6 @@ VERSION.dll
 VRC Version %i\n
 VRC-
 VRC-%s
-VR_CONFIG_PATH
-VR_LOG_PATH
-VR_OVERRIDE
 VSync
 Value 
 Value must be "true" or "false" for boolean option "

@@ -548,7 +548,7 @@ IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorSystemInternal_XXX
-IVRCompositor_028
+IVRCompositor_029
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
@@ -826,6 +826,7 @@ Prop_SecondsFromPhotonsToVblank_Float
 Prop_SecondsFromVsyncToPhotons_Float
 Prop_SerialNumber_String
 Prop_StatusDisplayTransform_Matrix34
+Prop_SteamRemoteClientID_Uint64
 Prop_SupportedButtons_Uint64
 Prop_SupportsRoomViewDepthProjection_Bool
 Prop_TrackingFirmwareVersion_String
@@ -844,7 +845,7 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSC+S
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

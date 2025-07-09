@@ -1,4 +1,4 @@
-var CLSTAMP = "9839182";
+var CLSTAMP = "9887103";
 (() => {
   "use strict";
   var e,
@@ -10,7 +10,7 @@ var CLSTAMP = "9839182";
           Ay: () => k,
           CU: () => s.CU,
           Ci: () => f.C,
-          Cw: () => a.C,
+          Cw: () => o.C,
           Ee: () => M.Ee,
           Em: () => d.Em,
           FN: () => C.F,
@@ -49,14 +49,14 @@ var CLSTAMP = "9839182";
           _n: () => n._n,
           aX: () => p.a,
           b: () => M.b,
-          b$: () => S.b,
-          cB: () => D.L,
+          b$: () => D.b,
+          cB: () => S.L,
           dL: () => c.d,
           e_: () => s.e_,
           en: () => A.en,
           fD: () => A.fD,
           gN: () => M.gN,
-          gO: () => o.g,
+          gO: () => a.g,
           k2: () => M.k2,
           kG: () => M.kG,
           ku: () => M.ku,
@@ -85,8 +85,8 @@ var CLSTAMP = "9839182";
         });
         var n = i(2824),
           s = i(6292),
-          a = i(3389),
-          o = (i(4120), i(9424)),
+          o = i(3389),
+          a = (i(4120), i(9424)),
           l = i(1230),
           r = i(5830),
           u = i(6186),
@@ -104,18 +104,18 @@ var CLSTAMP = "9839182";
           y = i(1977),
           R = i(6417),
           E = i(2303),
-          D = i(8715),
-          S = (i(4397), i(5459)),
+          S = i(8715),
+          D = (i(4397), i(5459)),
           x = i(8472),
           M = (i(1184), i(3725)),
           A = i(4367);
         const k = VRHTML;
       },
       1977: (e, t, i) => {
-        i.d(t, { N: () => a });
+        i.d(t, { N: () => o });
         var n = i(6540),
           s = i(3496);
-        class a extends s._J {
+        class o extends s._J {
           constructor(e) {
             super(e);
           }
@@ -129,11 +129,11 @@ var CLSTAMP = "9839182";
         }
       },
       322: (e, t, i) => {
-        i.d(t, { m: () => o });
+        i.d(t, { m: () => a });
         var n = i(6540),
           s = i(4367),
-          a = i(3361);
-        class o extends n.Component {
+          o = i(3361);
+        class a extends n.Component {
           constructor(e) {
             super(e);
             let t = {};
@@ -169,7 +169,7 @@ var CLSTAMP = "9839182";
           }
           render() {
             return n.createElement(
-              a.d,
+              o.d,
               {
                 id: this.props.id,
                 parent_path: this.props.sDevicePath,
@@ -182,26 +182,33 @@ var CLSTAMP = "9839182";
       },
       4189: (e, t, i) => {
         i.d(t, { F: () => a });
-        var n = i(6540),
-          s = i(3496);
+        var n = i(1635),
+          s = i(3496),
+          o = i(3236);
         class a extends s._J {
           constructor(e) {
-            super(e);
+            super(e), super.setBuildNodeOverride(this.buildNode);
           }
-          internalRender() {
-            return n.createElement(
-              "vsg-head-facing-transform",
-              null,
-              this.props.children,
+          getNodeType() {
+            return "head-facing-transform";
+          }
+          buildNode(e, t) {
+            var i;
+            const n = this.createSgNode(t);
+            return (
+              (n.properties.up =
+                null !== (i = this.props.up) && void 0 !== i ? i : "world"),
+              [e, n]
             );
           }
         }
+        (0, n.Cg)([o.o], a.prototype, "buildNode", null);
       },
       5227: (e, t, i) => {
-        i.d(t, { N: () => a });
+        i.d(t, { N: () => o });
         var n = i(6540),
           s = i(3496);
-        class a extends s._J {
+        class o extends s._J {
           constructor(e) {
             super(e);
           }
@@ -219,8 +226,8 @@ var CLSTAMP = "9839182";
         i.d(t, { C: () => l });
         var n = i(1635),
           s = i(3496),
-          a = i(7019),
-          o = i(3236);
+          o = i(7019),
+          a = i(3236);
         class l extends s._J {
           constructor(e) {
             super(e),
@@ -243,7 +250,7 @@ var CLSTAMP = "9839182";
             "object" == typeof this.props.location
               ? (i = (0, s.PG)(this.props.location, { x: 0, y: 0 }))
               : "number" == typeof this.props.location &&
-                (i = (0, a.Lr)(this.props.location));
+                (i = (0, o.Lr)(this.props.location));
             let n = this.createSgNode(t);
             if (this.props.latched && null !== this.m_latchedPosition)
               (n.properties["anchor-u"] = this.m_latchedPosition.u),
@@ -264,10 +271,10 @@ var CLSTAMP = "9839182";
                 ];
               const i = t.ownerDocument,
                 s = t.getBoundingClientRect(),
-                a = s.left + s.width / 2,
-                o = s.top + s.height / 2,
+                o = s.left + s.width / 2,
+                a = s.top + s.height / 2,
                 l = e.currentPanel.m_Rect;
-              if (a < l.x || a > l.x + l.width || o < l.y || o > l.y + l.height)
+              if (o < l.x || o > l.x + l.width || a < l.y || a > l.y + l.height)
                 return [
                   Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
                   null,
@@ -279,8 +286,8 @@ var CLSTAMP = "9839182";
                   Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
                   null,
                 ];
-              (n.properties["anchor-u"] = a / r),
-                (n.properties["anchor-v"] = o / u);
+              (n.properties["anchor-u"] = o / r),
+                (n.properties["anchor-v"] = a / u);
             }
             return (
               (this.m_latchedPosition = {
@@ -291,20 +298,20 @@ var CLSTAMP = "9839182";
             );
           }
         }
-        (0, n.Cg)([o.o], l.prototype, "buildNode", null);
+        (0, n.Cg)([a.o], l.prototype, "buildNode", null);
       },
       5178: (e, t, i) => {
         i.d(t, { O: () => u });
         var n,
           s = i(1635),
-          a = i(6540),
-          o = i(7019),
+          o = i(6540),
+          a = i(7019),
           l = i(3236),
           r = i(5723);
         !(function (e) {
           (e[(e.Canvas = 0)] = "Canvas"), (e[(e.Image = 1)] = "Image");
         })(n || (n = {}));
-        class u extends a.Component {
+        class u extends o.Component {
           static get IsSceneGraphApp() {
             return null !== u.Current();
           }
@@ -338,11 +345,11 @@ var CLSTAMP = "9839182";
                   ? n.Canvas
                   : n.Image,
               }),
-              (this.m_DomRef = a.createRef()),
-              (this.m_scalingDomRef = a.createRef()),
-              (this.m_CanvasRef = a.createRef()),
-              (this.m_EmbeddedDataImgRef = a.createRef()),
-              (this.m_DebugPointerRef = a.createRef());
+              (this.m_DomRef = o.createRef()),
+              (this.m_scalingDomRef = o.createRef()),
+              (this.m_CanvasRef = o.createRef()),
+              (this.m_EmbeddedDataImgRef = o.createRef()),
+              (this.m_DebugPointerRef = o.createRef());
           }
           toggleDebugPointer() {
             this.setState({ bShowDebugPointer: !this.state.bShowDebugPointer });
@@ -358,7 +365,7 @@ var CLSTAMP = "9839182";
                 "px )");
           }
           forceLayoutUpdate() {
-            (o.Zk.s_bPanelsAreDirty = !0),
+            (a.Zk.s_bPanelsAreDirty = !0),
               this.setState({
                 nForcedUpdateNumber: this.state.nForcedUpdateNumber + 1,
               });
@@ -408,30 +415,30 @@ var CLSTAMP = "9839182";
             let i = [];
             return (
               this.state.bShowDebugPointer && i.push("ShowDebugPointer"),
-              a.createElement(
+              o.createElement(
                 "vsg-app",
                 {
                   class: i.join(" "),
                   ref: this.m_DomRef,
                   "sg-forced-update-number": this.state.nForcedUpdateNumber,
                 },
-                a.createElement("div", {
+                o.createElement("div", {
                   className: "DebugPointer",
                   ref: this.m_DebugPointerRef,
                 }),
                 e &&
-                  a.createElement("img", {
+                  o.createElement("img", {
                     ref: this.m_EmbeddedDataImgRef,
                     className: "EmbeddedData",
                     height: u.k_EmbeddedDataRows,
                   }),
                 t &&
-                  a.createElement("canvas", {
+                  o.createElement("canvas", {
                     ref: this.m_CanvasRef,
                     className: "EmbeddedData",
                     height: u.k_EmbeddedDataRows,
                   }),
-                a.createElement(
+                o.createElement(
                   "div",
                   { className: "AppSceneGraph", ref: this.m_scalingDomRef },
                   this.state.bFontsLoaded && this.props.children,
@@ -484,20 +491,20 @@ var CLSTAMP = "9839182";
               i = t.width / this.m_fCurrentScale,
               n = t.height / this.m_fCurrentScale,
               s = { x: e.innerWidth / i, y: e.innerHeight / n },
-              a = Math.min(s.x, s.y, 1);
-            a != this.m_fCurrentScale &&
-              (1 != a
+              o = Math.min(s.x, s.y, 1);
+            o != this.m_fCurrentScale &&
+              (1 != o
                 ? this.m_scalingDomRef.current.setAttribute(
                     "style",
-                    "transform: scale(" + a + "); transform-origin: top left",
+                    "transform: scale(" + o + "); transform-origin: top left",
                   )
                 : this.m_scalingDomRef.current.removeAttribute("style"),
-              (this.m_fCurrentScale = a),
-              (o.Zk.s_bPanelsAreDirty = !0)),
-              o.Zk.s_bPanelsAreDirty &&
+              (this.m_fCurrentScale = o),
+              (a.Zk.s_bPanelsAreDirty = !0)),
+              a.Zk.s_bPanelsAreDirty &&
                 (this.m_mapPanels.forEach((e) => e.updateLayoutValues()),
                 (0, r.my)(),
-                (o.Zk.s_bPanelsAreDirty = !1),
+                (a.Zk.s_bPanelsAreDirty = !1),
                 this.updateEmbeddedData());
           }
           updateEmbeddedData() {
@@ -518,18 +525,18 @@ var CLSTAMP = "9839182";
                   let i = e.m_Rect.x,
                     n = e.m_Rect.x + e.m_Rect.width,
                     s = e.m_Rect.y,
-                    a = e.m_Rect.y + e.m_Rect.height,
-                    o = 1 + 3 * e.getEmbeddedIndex();
-                  if (e.isExternal() || i >= n || s >= a)
+                    o = e.m_Rect.y + e.m_Rect.height,
+                    a = 1 + 3 * e.getEmbeddedIndex();
+                  if (e.isExternal() || i >= n || s >= o)
                     for (let e = 0; e < 3; e++)
-                      this.setPixel(o + 1, 0, 0, 0, 0);
+                      this.setPixel(a + 1, 0, 0, 0, 0);
                   else
-                    this.setPixel(o, (65280 & i) >> 8, 255 & i, 0),
-                      this.setPixel(o + 1, (65280 & n) >> 8, 255 & n, 255 & s),
+                    this.setPixel(a, (65280 & i) >> 8, 255 & i, 0),
+                      this.setPixel(a + 1, (65280 & n) >> 8, 255 & n, 255 & s),
                       this.setPixel(
-                        o + 2,
-                        (65280 & a) >> 8,
-                        255 & a,
+                        a + 2,
+                        (65280 & o) >> 8,
+                        255 & o,
                         (65280 & s) >> 8,
                       );
                 }),
@@ -559,7 +566,7 @@ var CLSTAMP = "9839182";
                   (this.m_nDirtyXMax = -1);
               }
           }
-          setPixel(e, t, i, s, a = 255) {
+          setPixel(e, t, i, s, o = 255) {
             if (
               this.m_EmbeddedDataImgRGBBuffer &&
               this.state.eRenderMode == n.Image
@@ -568,14 +575,14 @@ var CLSTAMP = "9839182";
               n.setUint8(4 * e + 0, t),
                 n.setUint8(4 * e + 1, i),
                 n.setUint8(4 * e + 2, s),
-                n.setUint8(4 * e + 3, a);
+                n.setUint8(4 * e + 3, o);
             } else
               this.m_Pixels &&
                 this.state.eRenderMode == n.Canvas &&
                 ((this.m_Pixels.data[4 * e + 0] = t),
                 (this.m_Pixels.data[4 * e + 1] = i),
                 (this.m_Pixels.data[4 * e + 2] = s),
-                (this.m_Pixels.data[4 * e + 3] = a),
+                (this.m_Pixels.data[4 * e + 3] = o),
                 (-1 === this.m_nDirtyXMin || e < this.m_nDirtyXMin) &&
                   (this.m_nDirtyXMin = e),
                 (-1 === this.m_nDirtyXMax || e > this.m_nDirtyXMax) &&
@@ -592,17 +599,17 @@ var CLSTAMP = "9839182";
       1278: (e, t, i) => {
         var n = i(1635),
           s = i(6540),
-          a = i(5338),
-          o = i(3236),
+          o = i(5338),
+          a = i(3236),
           l = i(6090),
           r = i(5802),
           u = i(3714),
           c = i(9118),
           d = i(1532),
           h = i(6138),
-          p = i(7496),
-          m = i(1333),
-          _ = i(4015);
+          p = i(1333),
+          m = i(4015),
+          _ = i(1835);
         function f(e, t) {
           let i = "";
           switch (t.mode) {
@@ -680,8 +687,8 @@ var CLSTAMP = "9839182";
                   src: n,
                 })
               : s.createElement("div", { className: "BindingCalloutIcon" });
-            let a,
-              o = (function (e) {
+            let o,
+              a = (function (e) {
                 let t = "/dashboard/images/bindingcallouts/";
                 switch (e.mode) {
                   case "dpad":
@@ -711,10 +718,10 @@ var CLSTAMP = "9839182";
                 return null;
               })(e);
             return (
-              (a = o
+              (o = a
                 ? s.createElement("img", {
                     className: "BindingCalloutModifierIcon",
-                    src: o,
+                    src: a,
                   })
                 : s.createElement("div", {
                     className: "BindingCalloutModifierIcon",
@@ -723,7 +730,7 @@ var CLSTAMP = "9839182";
                 "div",
                 { className: "BindingCalloutContents", key: t },
                 i,
-                a,
+                o,
                 s.createElement(
                   "div",
                   { className: "BindingCalloutLabelContainer" },
@@ -797,7 +804,7 @@ var CLSTAMP = "9839182";
               t = [];
             for (let i of this.props.chordCallout.inputs) {
               let n = i.device_path + i.input_path + i.slot,
-                a = {
+                o = {
                   device_path: i.device_path,
                   input_path: i.input_path,
                   mode: g(i.slot),
@@ -817,7 +824,7 @@ var CLSTAMP = "9839182";
                   s.createElement("img", {
                     className: "BindingCalloutIcon",
                     key: n + "_icon",
-                    src: f(this.props.controllerType, a),
+                    src: f(this.props.controllerType, o),
                   }),
                 ),
                 t.push(
@@ -904,9 +911,9 @@ var CLSTAMP = "9839182";
               ((t.x = -t.x), (e = -e), (i = !1));
             let n = c.W.GetControllerTypeInfo(this.props.controllerType);
             if (!n) return null;
-            let a = [],
-              o = Object.keys(this.props.device.input_callouts);
-            for (let e of o) {
+            let o = [],
+              a = Object.keys(this.props.device.input_callouts);
+            for (let e of a) {
               let t = this.props.device.input_callouts[e],
                 l = (t.slot_callouts.length, e);
               n && (l = c.W.LocalizeControllerString(n, e));
@@ -918,15 +925,15 @@ var CLSTAMP = "9839182";
                 inputCallout: t,
                 leftAlign: i,
                 inputActive:
-                  1 == o.length || this.state.input_state[t.input_path],
+                  1 == a.length || this.state.input_state[t.input_path],
                 localizedInputName: l,
                 controllerType: this.props.controllerType,
                 key: this.props.device.device_path + e,
               });
-              a.push({ order: u, callout: d });
+              o.push({ order: u, callout: d });
             }
-            a.sort((e, t) => e.order - t.order);
-            let r = a.map((e) => e.callout),
+            o.sort((e, t) => e.order - t.order);
+            let r = o.map((e) => e.callout),
               u = [];
             for (let e of this.props.device.chords) {
               let t = !1;
@@ -974,7 +981,7 @@ var CLSTAMP = "9839182";
             );
           }
         }
-        (0, n.Cg)([o.o], v.prototype, "OnInputActiveState", null);
+        (0, n.Cg)([a.o], v.prototype, "OnInputActiveState", null);
         class y extends s.Component {
           constructor(e) {
             super(e);
@@ -990,9 +997,9 @@ var CLSTAMP = "9839182";
                   i = (7 * Math.PI) / 8,
                   n = [];
                 for (let s = 0; s < e; s++) {
-                  let a = t + ((i - t) * s) / (e - 1),
-                    o = { x: -Math.cos(a), y: Math.sin(a) };
-                  n.push(o);
+                  let o = t + ((i - t) * s) / (e - 1),
+                    a = { x: -Math.cos(o), y: Math.sin(o) };
+                  n.push(a);
                 }
                 return n;
               }
@@ -1024,8 +1031,8 @@ var CLSTAMP = "9839182";
               for (let n = 0; n < e.length; n++) {
                 if (i == n) continue;
                 let s = this.ComputeActualRect(e[i], t),
-                  a = this.ComputeActualRect(e[n], t);
-                if (this.HasIntersection(s, a)) return !0;
+                  o = this.ComputeActualRect(e[n], t);
+                if (this.HasIntersection(s, o)) return !0;
               }
             return !1;
           }
@@ -1076,7 +1083,7 @@ var CLSTAMP = "9839182";
                     this.OnRequestTutorialCallout,
                   );
               }),
-              m.HR.Init(!1),
+              p.HR.Init(!1),
               (this.state = {});
           }
           GetDefaultControllerType() {
@@ -1200,7 +1207,7 @@ var CLSTAMP = "9839182";
           }
           ShowCallouts(e, t, i, n) {
             let s = null,
-              a = null;
+              o = null;
             if (e.action) {
               e: for (let t of i.action_sets)
                 if (this.DoesActionSetHaveBindings(t, n))
@@ -1209,7 +1216,7 @@ var CLSTAMP = "9839182";
                       s = t.name;
                       break e;
                     }
-              a = e.action.toUpperCase();
+              o = e.action.toUpperCase();
             } else
               s = e.action_sets
                 ? e.action_sets[0]
@@ -1219,7 +1226,7 @@ var CLSTAMP = "9839182";
                 actionManifest: i,
                 bindingConfig: n,
                 sActionSet: s,
-                sRestrictToAction: a,
+                sRestrictToAction: o,
                 sAppKey: e.app_key,
                 sControllerType: t,
               });
@@ -1238,11 +1245,11 @@ var CLSTAMP = "9839182";
                       s.output.toUpperCase() != this.state.sRestrictToAction
                     )
                       continue;
-                    let a = n.path.indexOf("/input");
-                    if (-1 == a) continue;
-                    let o = {
-                        device_path: n.path.substring(0, a),
-                        input_path: n.path.substring(a),
+                    let o = n.path.indexOf("/input");
+                    if (-1 == o) continue;
+                    let a = {
+                        device_path: n.path.substring(0, o),
+                        input_path: n.path.substring(o),
                         mode: n.mode,
                         slot: i,
                         localized_action_name: null,
@@ -1258,7 +1265,7 @@ var CLSTAMP = "9839182";
                           this.state.bindingConfig.alias_info[l.name];
                       if (t && (t.alias_name && (e = t.alias_name), t.hidden))
                         continue;
-                      o.localized_action_name = e;
+                      a.localized_action_name = e;
                     } else if (s.output.startsWith("/simactions/")) {
                       let e = parseInt(
                           s.output.slice(s.output.lastIndexOf("/") + 1),
@@ -1267,9 +1274,9 @@ var CLSTAMP = "9839182";
                           (t) => t.id == e,
                         );
                       if (!t) continue;
-                      o.localized_action_name = t.name;
+                      a.localized_action_name = t.name;
                     }
-                    o.localized_action_name && t.push(o);
+                    a.localized_action_name && t.push(a);
                   }
             return t;
           }
@@ -1449,13 +1456,13 @@ var CLSTAMP = "9839182";
                             translation: {
                               x: -0,
                               y: -0,
-                              z: -0.85 * p.c.getDashboardDistance(),
+                              z: -0.85 * _.SW.dashboardDistance,
                             },
                           },
                           s.createElement(
                             l.Zk,
                             {
-                              width: 0.65 * p.c.getDashboardScale(),
+                              width: 0.65 * _.SW.dashboardScale,
                               interactive: !0,
                               debug_name: "bindingcallouts-1",
                             },
@@ -1508,12 +1515,12 @@ var CLSTAMP = "9839182";
             );
           }
         };
-        (0, n.Cg)([o.o], R.prototype, "OnShouldShowBindingCallouts", null),
-          (0, n.Cg)([o.o], R.prototype, "OnRequestBindingCallouts", null),
-          (0, n.Cg)([o.o], R.prototype, "OnCancelBindingCallouts", null),
-          (0, n.Cg)([o.o], R.prototype, "OnRequestTutorialCallout", null),
-          (0, n.Cg)([o.o], R.prototype, "OnCloseCallouts", null),
-          (R = (0, n.Cg)([_.PA], R)),
+        (0, n.Cg)([a.o], R.prototype, "OnShouldShowBindingCallouts", null),
+          (0, n.Cg)([a.o], R.prototype, "OnRequestBindingCallouts", null),
+          (0, n.Cg)([a.o], R.prototype, "OnCancelBindingCallouts", null),
+          (0, n.Cg)([a.o], R.prototype, "OnRequestTutorialCallout", null),
+          (0, n.Cg)([a.o], R.prototype, "OnCloseCallouts", null),
+          (R = (0, n.Cg)([m.PA], R)),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetFlag(
@@ -1536,7 +1543,7 @@ var CLSTAMP = "9839182";
             .then(() => c.W.Init())
             .then(() => d.s.Init())
             .then(() => {
-              a.H(document.getElementById("root")).render(
+              o.H(document.getElementById("root")).render(
                 s.createElement(l.O5, null, s.createElement(R, null)),
               );
             });
@@ -1546,19 +1553,19 @@ var CLSTAMP = "9839182";
   function n(e) {
     var s = i[e];
     if (void 0 !== s) return s.exports;
-    var a = (i[e] = { exports: {} });
-    return t[e].call(a.exports, a, a.exports, n), a.exports;
+    var o = (i[e] = { exports: {} });
+    return t[e].call(o.exports, o, o.exports, n), o.exports;
   }
   (n.m = t),
     (e = []),
-    (n.O = (t, i, s, a) => {
+    (n.O = (t, i, s, o) => {
       if (!i) {
-        var o = 1 / 0;
+        var a = 1 / 0;
         for (c = 0; c < e.length; c++) {
-          for (var [i, s, a] = e[c], l = !0, r = 0; r < i.length; r++)
-            (!1 & a || o >= a) && Object.keys(n.O).every((e) => n.O[e](i[r]))
+          for (var [i, s, o] = e[c], l = !0, r = 0; r < i.length; r++)
+            (!1 & o || a >= o) && Object.keys(n.O).every((e) => n.O[e](i[r]))
               ? i.splice(r--, 1)
-              : ((l = !1), a < o && (o = a));
+              : ((l = !1), o < a && (a = o));
           if (l) {
             e.splice(c--, 1);
             var u = s();
@@ -1567,9 +1574,9 @@ var CLSTAMP = "9839182";
         }
         return t;
       }
-      a = a || 0;
-      for (var c = e.length; c > 0 && e[c - 1][2] > a; c--) e[c] = e[c - 1];
-      e[c] = [i, s, a];
+      o = o || 0;
+      for (var c = e.length; c > 0 && e[c - 1][2] > o; c--) e[c] = e[c - 1];
+      e[c] = [i, s, o];
     }),
     (n.n = (e) => {
       var t = e && e.__esModule ? () => e.default : () => e;
@@ -1591,28 +1598,26 @@ var CLSTAMP = "9839182";
     })()),
     (n.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
     (() => {
-      var e = { 241: 0, 177: 0, 270: 0, 171: 0 };
+      var e = { 241: 0, 797: 0, 527: 0, 500: 0 };
       n.O.j = (t) => 0 === e[t];
       var t = (t, i) => {
           var s,
-            a,
-            [o, l, r] = i,
+            o,
+            [a, l, r] = i,
             u = 0;
-          if (o.some((t) => 0 !== e[t])) {
+          if (a.some((t) => 0 !== e[t])) {
             for (s in l) n.o(l, s) && (n.m[s] = l[s]);
             if (r) var c = r(n);
           }
-          for (t && t(i); u < o.length; u++)
-            (a = o[u]), n.o(e, a) && e[a] && e[a][0](), (e[a] = 0);
+          for (t && t(i); u < a.length; u++)
+            (o = a[u]), n.o(e, o) && e[o] && e[o][0](), (e[o] = 0);
           return n.O(c);
         },
         i = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
       i.forEach(t.bind(null, 0)), (i.push = t.bind(null, i.push.bind(i)));
     })();
-  var s = n.O(
-    void 0,
-    [498, 299, 804, 270, 582, 510, 844, 723, 171, 458, 542],
-    () => n(1278),
+  var s = n.O(void 0, [967, 991, 305, 527, 452, 170, 537, 500, 458, 542], () =>
+    n(1278),
   );
   s = n.O(s);
 })(); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/bindingcallouts.js.map

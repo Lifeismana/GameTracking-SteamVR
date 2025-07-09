@@ -9,6 +9,7 @@
   "vive": "Vive Headset",
   "oculus_touch": "Oculus Touch Controller",
   "rift": "Oculus Headset",
+  "pico_controller": "Pico Controller",
 
   "SourceInputMode_UseAs": "Use as %1$s",
   "SourceInputMode_SelectMode": "Use %1$s %2$s as...",
@@ -68,6 +69,8 @@
   "SourceInputMode_LongPressDelay": "Long press delay:",
   "SourceInputMode_DoublePressDelay": "Double press delay:",
   "SourceInputMode_DeadZone" : "DeadZone",
+  "SourceInputMode_PositionOffset": "Position Offset",
+  "SourceInputMode_RotationOffset": "Rotation Offset",
 
   "BindingUI_Compatibility_Remapped_Text": "This binding has automatically been remapped to your controller.",
 
@@ -111,6 +114,8 @@
   "SourceInputMode_LongPressDelay_tooltip": "The amount of time the button must be down before the long click is engaged.",
   "SourceInputMode_DoublePressDelay_tooltip": "The maximum amount of time between the end of the first click and the start of the second.",
   "SourceInputMode_DeadZone_tooltip" : "The percentage from the center that the zones will need to pass to trigger.",
+  "SourceInputMode_PositionOffset_tooltip": "X+ is right, Y+ is up, Z- is forward. (-0.3 to 0.3 meters)",
+  "SourceInputMode_RotationOffset_tooltip": "Pitch - up and down, Yaw - side to side, Roll - sideways tilt. (-180 to 180 degrees)",
 
 
   "SourceInputMode_InvertYAxis_tooltip": "(ex. a value of -0.75 would become 0.75)",
@@ -594,5 +599,11 @@
   "LegacyDebugger_NoApp": "Run any legacy input application to see its input data here.",
 
   "True": "True",
-  "False": "False"
+  "False": "False",
+  "Yaw": "Yaw",
+  "Pitch": "Pitch",
+  "Roll": "Roll",
+  "X": "X",
+  "Y": "Y",
+  "Z": "Z"
 }

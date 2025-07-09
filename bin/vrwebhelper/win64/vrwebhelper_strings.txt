@@ -6,11 +6,14 @@
  off
 !! refusing to trigger minidump with debugger attached\n
 "%/28;=#$019:>?
+%Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s - SDL could not initialize! SDL Error: %s\n
+%s begin_ctx=%llu
 %s contains an empty %s
+%s end_ctx=%llu
 %s is not a valid api layer json. Missing %s member.
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
 %s: failed with error '%s' (%d)
@@ -129,6 +132,7 @@
 .?AV<lambda_81ea913b97ef7686873b9ad862ba82f4>@@
 .?AV<lambda_82a68b2d658445f9b882505a3ef47564>@@
 .?AV<lambda_831a560fff41ad4f71e90124f8864118>@@
+.?AV<lambda_83a823c72b98165782f99c171cc0907d>@@
 .?AV<lambda_84c0efb04c39e80c487416456b32dc80>@@
 .?AV<lambda_8546e7de9f6f6a4960c1cc3efecffe8b>@@
 .?AV<lambda_87ff75af43c2a8e43061ad1a3d615253>@@
@@ -182,7 +186,6 @@
 .?AV<lambda_cd0cf8d663632c4c4fd24d5d87f8fba7>@@
 .?AV<lambda_cf9dcb6f466145b0e4ef3dabd8425b11>@@
 .?AV<lambda_d0da7b064c429429c8ac5e6bb0722ab8>@@
-.?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_d1b48b8cfe67b05ab8c98df39f1fc62f>@@
 .?AV<lambda_d259f19f16b0491ceb686c4f3521b718>@@
 .?AV<lambda_d286690f83c11f35768d8d047d15cc8d>@@
@@ -190,6 +193,7 @@
 .?AV<lambda_d8eb2e9995f80f4db4a32fc45746e6c1>@@
 .?AV<lambda_d938c738c531b038b57e07b452e5eddd>@@
 .?AV<lambda_d9d927539fc55050ba68b27592f64bd7>@@
+.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_dc1c5c0f7637a2507c53b120e7208cf1>@@
 .?AV<lambda_de67542aaa0b31ad5f9c6b74619eb781>@@
 .?AV<lambda_dfb5b7ae542318eabfac102c619d5fe8>@@
@@ -318,6 +322,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_81ea913b97ef7686873b9ad862ba82f4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_82a68b2d658445f9b882505a3ef47564>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_831a560fff41ad4f71e90124f8864118>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_83a823c72b98165782f99c171cc0907d>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_84c0efb04c39e80c487416456b32dc80>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8546e7de9f6f6a4960c1cc3efecffe8b>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_87ff75af43c2a8e43061ad1a3d615253>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -371,7 +376,6 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_cd0cf8d663632c4c4fd24d5d87f8fba7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cf9dcb6f466145b0e4ef3dabd8425b11>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d0da7b064c429429c8ac5e6bb0722ab8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1b48b8cfe67b05ab8c98df39f1fc62f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d259f19f16b0491ceb686c4f3521b718>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d286690f83c11f35768d8d047d15cc8d>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -379,6 +383,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8eb2e9995f80f4db4a32fc45746e6c1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d938c738c531b038b57e07b452e5eddd>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9d927539fc55050ba68b27592f64bd7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dc1c5c0f7637a2507c53b120e7208cf1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_de67542aaa0b31ad5f9c6b74619eb781>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dfb5b7ae542318eabfac102c619d5fe8>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF16@@@@@std@@
@@ -601,13 +606,19 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-10:02:54
+0Lx\f
+0px\f
 127.0.0.1
+12:32:07
 1e+9999
+3.3578.1860.g36610bd
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
 7^d[L
 864498db9f12dd977766dc74abc56f198b39e2ce
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e8f13b1-60eb-4b6a-a433-de86104115ac
 9a&g
 : LUID=
 : exception thrown in JSON library
@@ -728,6 +739,7 @@ CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
 CAudioEndpointVolumeCallback::Register
 CCefClientHandler::BStartup: Unknown type %s\n
 CEF %s Resource Load Error: %s -> %d%s\n
+CEF Version %s
 CMMNotificationClient::Register
 CSharedResourceNamespaceClient::Init(): failed connect\n
 CSharedResourceNamespaceClient::Init(): failed to get server response\n
@@ -756,6 +768,7 @@ CallWindowProcW
 Cannot initialize crash handling in a project without the Steam API available
 CefCurrentlyOn( TID_RENDERER )
 ChangeBasis
+Chrome Version %d.%d.%d.%d
 Client (%s) app container state: %d
 Close DevTools
 CloseHandle
@@ -836,6 +849,7 @@ Driver runtime is out of date (204)
 Driver unable to initialize video encoder (499)
 Duplicate key: '
 DuplicateHandle
+ERROR: Failed to open log file %s, attempting timestamped filename\n
 Empty escape sequence in string
 Encountered error 
 Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x\n
@@ -846,13 +860,18 @@ Environment
 Error
 Error downloading image, http_status_code: %d, url: %s\n
 Error setting overlay for downloaded image, error: %s, url: %s, \n
+Error! EventWriteString Severe: %s\n
+EventRegister
+EventUnregister
+EventWriteString
+EventWriteTransfer
 Exceeded stackLimit in readValue().
 Exception %08x\n
 Executable: %s\n
 Explicit
 External
 Extra non-whitespace after JSON value.
-FATAL: Failed to open log file %s\n
+FATAL: Failed to open log file %s, failing out!\n
 Factory Function Not Found (104)
 Failed to ShutdownSystem (%d)
 Failed to allocate browser info in VRWebHelperSharedMemory for new browser.
@@ -1026,7 +1045,7 @@ IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorSystemInternal_XXX
-IVRCompositor_028
+IVRCompositor_029
 IVRControlPanel_006
 IVRDebug_001
 IVRDriverDirectInternal_XXX
@@ -1075,7 +1094,7 @@ IsIconic
 IsProcessorFeaturePresent
 IsValidSid
 IsWindowShown
-Jun 18 2025
+Jul  9 2025
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -1119,6 +1138,7 @@ MultiByteToWideChar
 MultiplyTransforms
 Must provide two arguments
 NOTPRESENT
+NULL
 NextSGID
 No Error (0)
 No VRClientInternal.
@@ -1144,7 +1164,9 @@ OpenProcessToken failed. GetLastError returned: %d\n
 OpenThread
 Out of thread local storage!\n
 OutputDebugStringA
+P4m\f
 PID_
+PLx\f
 PPPP
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
@@ -1157,7 +1179,10 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QuitOpenVR
 QuitSceneApp
+RPCRT4.dll
 RSDS
+R\v0Lx\f
+R\vpLx\f
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1201,6 +1226,7 @@ RegisterForProgressIndicatorEvents
 RegisterForRoomViewChangedEvents
 RegisterForSceneApplicationStateChangedEvents
 RegisterForTrackingRecordingChangedEvents
+RegisterForTrackingRecordingPathChangedEvent
 RegisterForTrackingSpaceChangedEvents
 RegisterForVolumeChangedEvents
 RegisterForWindowEvents
@@ -1323,6 +1349,7 @@ Stopping playback mirror thread\n
 SuspendThread
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
+TdhEnumerateManifestProviderEvents
 TerminateProcess
 TestPromise
 The current HMD requires an additional driver that is not installed (214)
@@ -1393,6 +1420,7 @@ User Canceled Init (116)
 User Config Directory Invalid (107)
 User-Agent
 Using htmlcache path %s
+UuidFromStringA
 VALVE_runtime_is_steamvr
 VCRUNTIME140.dll
 VID_
@@ -1699,6 +1727,7 @@ VRInitError_VendorSpecific_WindowsNotInDevMode
 VRKeyboard.GetSuggestions
 VRKeyboard.LoadSuggestionsForLanguage
 VRKeyboard.SetKeyboardText
+VRLink.SendRemoteDashboardOpen
 VRLink.SendRoomSetupRequest
 VRMonitor.DisableEnhancedPowerManagement
 VRMonitor.HasVRMonitor
@@ -1894,7 +1923,12 @@ Zjz\v
 [VRWebHelper] Launching %s\n
 [VRWebHelper] Launching template %s -> %s\n
 [[[[[[[[[[[[js
+[vrwebhelper] ProcessEventCallbacks
+[vrwebhelper] ProcessPollingCallbacks
+[vrwebhelper] RunSingleFrame
+[vrwebhelper] RunSystemFrame
 \ApiLayers\
+\fpLx\f
 \n\t\t\t\t{\n\t\t\t\t\t"type" : "show_tracker_ui"\n\t\t\t\t}\n\t\t\t
 \n\t\t\t{\n\t\t\t\t"type" : "show_app_select"\n\t\t\t}\n\t\t
 _Cnd_destroy_in_situ
@@ -1951,6 +1985,7 @@ _set_app_type
 _set_fmode
 _set_new_mode
 _stricmp
+_time64
 _wfopen_s
 _wfsopen
 _wstat64i32
@@ -2264,6 +2299,7 @@ overlay_key
 overlay_name
 overlays
 owning_overlay
+pLx\f
 pName && *pName != '\0'
 pScreenSurface
 pairing
@@ -2276,6 +2312,7 @@ pl_pl
 polish
 portuguese
 powf
+ppx\f
 precision
 preload
 preload_setting
@@ -2289,6 +2326,7 @@ qMFCreateMediaType failed hr = 0x%08x\n
 realloc
 reject
 rejectDupKeys
+remote_dashboard_open
 removeusbhelper.exe
 request_handlers
 request_handlers_response
@@ -2363,6 +2401,7 @@ string too long
 strncat
 strncmp
 strncpy
+strncpy_s
 strpbrk
 strrchr
 strtod
@@ -2374,6 +2413,7 @@ system.settings
 system.vrwebhelper.
 system.vrwebhelper.controllerbinding
 tchinese
+tdh.dll
 terminate
 th_th
 thai
@@ -2443,6 +2483,7 @@ vv[[[[[[[[[[[
 web_server_mailbox
 webhelperoverlays.json
 webinterface\dashboard\suggestions
+whichDevice
 win32
 win64
 window

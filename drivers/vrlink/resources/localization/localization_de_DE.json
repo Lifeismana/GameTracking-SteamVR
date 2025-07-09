@@ -20,9 +20,9 @@
 	"Setting_AllowVolumeControlSync": "VR-Headset-Lautstärke und Stummschalten mit SteamVR steuern",
 	"Setting_DisableQoS": "QoS deaktivieren",
 	"svl_hand_interaction_augmented": "Hand-Tracking-Controller",
-	"/input/index_pinch": "Berührung: Daumen- und Zeigefinger",
-	"/input/middle_pinch": "Berührung: Daumen und Mittelfinger",
-	"/input/ring_pinch": "Berührung: Daumen und Ringfinger",
-	"/input/pinky_pinch": "Berührung: Daumen und kleiner Finger",
+	"/input/index_pinch": "Kneifen: Daumen- und Zeigefinger",
+	"/input/middle_pinch": "Kneifen: Daumen und Mittelfinger",
+	"/input/ring_pinch": "Kneifen: Daumen und Ringfinger",
+	"/input/pinky_pinch": "Kneifen: Daumen und kleiner Finger",
 	"/input/index_point": "Zeigen: Zeigefinger"
 }

@@ -263,6 +263,7 @@ $3br
 %04X
 %F-%H-%M-%S
 %Y-%m-%d %I:%M:%S %p
+%Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
 %d bits of actual data (counting padding)\r\n
@@ -525,10 +526,8 @@ $3br
 ./obj_driver_lighthouse_linux32/release/driver_lighthouse.so
 .L10
 .L100
-.L1001
-.L1002
+.L1003
 .L1004
-.L1005
 .L1006
 .L1007
 .L1008
@@ -547,8 +546,9 @@ $3br
 .L102
 .L1020
 .L1021
-.L1024
-.L1029
+.L1022
+.L1023
+.L1026
 .L103
 .L10306
 .L10307
@@ -558,7 +558,6 @@ $3br
 .L10311
 .L10312
 .L10313
-.L1032
 .L10326
 .L1033
 .L1034
@@ -603,18 +602,20 @@ $3br
 .L1048
 .L1049
 .L105
+.L1050
 .L1051
-.L1054
-.L1055
+.L1053
+.L1056
 .L1057
-.L1058
 .L1059
 .L106
+.L1060
 .L1061
 .L10625
 .L10627
 .L10628
 .L10629
+.L1063
 .L10630
 .L10631
 .L10632
@@ -622,10 +623,8 @@ $3br
 .L10634
 .L10635
 .L107
-.L1073
 .L1074
 .L1075
-.L1076
 .L1077
 .L1078
 .L1079
@@ -642,7 +641,9 @@ $3br
 .L1089
 .L109
 .L1090
+.L1091
 .L1092
+.L1094
 .L1095
 .L11
 .L110
@@ -1394,11 +1395,12 @@ $3br
 .L2841
 .L2842
 .L2843
+.L2849
 .L285
 .L2851
+.L2852
 .L2853
 .L2854
-.L2855
 .L2856
 .L2857
 .L2858
@@ -1578,15 +1580,15 @@ $3br
 .L339
 .L34
 .L340
+.L3408
 .L341
 .L3410
+.L3411
 .L3412
 .L3413
 .L3414
-.L3415
-.L3416
+.L3418
 .L342
-.L3420
 .L343
 .L344
 .L345
@@ -1652,11 +1654,9 @@ $3br
 .L390
 .L391
 .L392
-.L393
 .L3936
 .L3938
 .L3939
-.L394
 .L3940
 .L3941
 .L3942
@@ -1665,12 +1665,12 @@ $3br
 .L3945
 .L3946
 .L395
-.L397
+.L396
 .L398
 .L399
 .L40
 .L400
-.L402
+.L401
 .L403
 .L404
 .L405
@@ -1712,6 +1712,7 @@ $3br
 .L431
 .L432
 .L433
+.L434
 .L435
 .L436
 .L437
@@ -1746,7 +1747,6 @@ $3br
 .L45
 .L450
 .L451
-.L452
 .L453
 .L454
 .L455
@@ -2025,8 +2025,9 @@ $3br
 .L609
 .L61
 .L610
-.L612
+.L611
 .L613
+.L614
 .L615
 .L617
 .L618
@@ -2044,7 +2045,8 @@ $3br
 .L629
 .L63
 .L630
-.L632
+.L631
+.L633
 .L637
 .L638
 .L639
@@ -2262,83 +2264,83 @@ $3br
 .L798
 .L799
 .L7990
+.L7998
 .L80
 .L800
 .L8000
-.L8002
+.L8001
 .L8003
-.L8005
-.L8006
+.L8004
 .L801
 .L802
 .L803
+.L8036
 .L8038
+.L8039
 .L804
 .L8040
 .L8041
 .L8042
-.L8043
-.L8044
 .L805
 .L806
 .L807
+.L8074
 .L8076
-.L8078
+.L8077
 .L8079
 .L808
-.L8081
-.L8082
+.L8080
 .L809
 .L81
 .L810
 .L811
+.L8112
 .L8114
+.L8115
 .L8116
 .L8117
 .L8118
-.L8119
 .L812
-.L8120
 .L813
 .L814
 .L815
+.L8150
 .L8152
-.L8154
+.L8153
 .L8155
-.L8157
-.L8158
+.L8156
 .L816
 .L817
 .L818
+.L8188
 .L819
 .L8190
+.L8191
 .L8192
 .L8193
 .L8194
-.L8195
-.L8196
 .L82
 .L820
 .L821
 .L822
 .L823
+.L8234
 .L8236
-.L8238
+.L8237
 .L8239
 .L824
-.L8241
-.L8242
+.L8240
 .L825
 .L826
 .L827
 .L828
+.L8288
 .L829
 .L8290
+.L8291
 .L8292
 .L8293
 .L8294
-.L8295
-.L8296
 .L83
 .L830
 .L831
@@ -2368,49 +2370,32 @@ $3br
 .L853
 .L854
 .L855
-.L856
-.L857
-.L858
-.L859
 .L86
-.L860
-.L861
-.L862
-.L863
-.L8637
-.L8639
-.L864
-.L8640
-.L8641
-.L8642
-.L8643
-.L865
+.L8601
+.L8603
+.L8604
+.L8605
+.L8606
+.L8607
 .L866
 .L867
-.L868
-.L8683
-.L8685
-.L8686
-.L8687
-.L8688
-.L8689
 .L869
 .L87
+.L870
 .L871
-.L8712
-.L8714
 .L8715
-.L8716
 .L8717
 .L8718
+.L8719
 .L872
+.L8720
+.L8721
 .L873
-.L8741
-.L8743
-.L8744
-.L8745
-.L8746
-.L8747
+.L874
+.L875
+.L876
+.L877
+.L878
 .L879
 .L88
 .L880
@@ -2421,6 +2406,7 @@ $3br
 .L8817
 .L8818
 .L8819
+.L882
 .L8820
 .L8829
 .L884
@@ -2434,9 +2420,15 @@ $3br
 .L8859
 .L886
 .L8868
-.L887
 .L89
+.L892
+.L893
+.L894
+.L897
+.L898
+.L899
 .L90
+.L900
 .L908
 .L91
 .L911
@@ -2470,7 +2462,6 @@ $3br
 .L9276
 .L9277
 .L928
-.L929
 .L9293
 .L93
 .L930
@@ -2488,24 +2479,36 @@ $3br
 .L9359
 .L936
 .L937
+.L9375
+.L9377
+.L9378
+.L9379
 .L938
+.L9380
+.L9381
 .L939
 .L94
 .L940
 .L941
+.L942
+.L9428
 .L943
-.L946
-.L947
+.L9430
+.L9431
+.L9432
+.L9433
+.L9434
+.L945
+.L948
+.L9481
 .L9483
+.L9484
 .L9485
 .L9486
 .L9487
-.L9488
-.L9489
 .L949
 .L9499
 .L95
-.L950
 .L9500
 .L9502
 .L9503
@@ -2516,29 +2519,30 @@ $3br
 .L9515
 .L952
 .L953
+.L9534
 .L9536
+.L9537
 .L9538
 .L9539
 .L954
 .L9540
-.L9541
-.L9542
+.L955
 .L956
 .L9576
 .L9577
 .L9579
+.L958
 .L9580
 .L9581
 .L9582
 .L9583
+.L9587
 .L9589
+.L9590
 .L9591
 .L9592
 .L9593
-.L9594
-.L9595
 .L96
-.L960
 .L9609
 .L9610
 .L9612
@@ -2548,18 +2552,19 @@ $3br
 .L9616
 .L962
 .L9625
-.L963
 .L964
+.L9640
 .L9642
+.L9643
 .L9644
 .L9645
 .L9646
-.L9647
-.L9648
 .L965
 .L966
+.L967
 .L968
 .L97
+.L970
 .L9718
 .L9719
 .L9721
@@ -2791,7 +2796,6 @@ $3br
 16CPropertyManager
 16CSettingsManager
 16CVrcDecodeTagged
-17:03:20
 17CBoneMaskResource
 17CCameraWorkThread
 17CFirmwareManifest
@@ -2799,6 +2803,7 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
+19:32:40
 19CWirelessDecoderWv2
 1e+9999
 2#.google.protobuf.FieldOptions.CType:
@@ -3534,6 +3539,8 @@ CCompositorPluginProvider_Latest::GetInterfaceVersions()
 CCompositorPluginProvider_Latest::GetSourceVersion()
 CCompositorPluginProvider_Latest::Init(vr::IVRDriverContext*)
 CCompositorPluginProvider_Latest::~CCompositorPluginProvider_Latest()
+CConditionalScopedEventDuration::CConditionalScopedEventDuration(char const*, ...)
+CConditionalScopedEventDuration::~CConditionalScopedEventDuration()
 CCountedMutexWithLogCache::Log(char const*, ...)
 CCountedMutexWithLogCache::Log(char const*, ...) (.cold)
 CDampedFloat::Update(float, float, float)
@@ -4438,7 +4445,7 @@ CSWTCH.139
 CSWTCH.142
 CSWTCH.146
 CSWTCH.161
-CSWTCH.2129
+CSWTCH.2113
 CSWTCH.215
 CSWTCH.224
 CSWTCH.925
@@ -5445,6 +5452,7 @@ ERROR: Expected 1 float args, fPitchDegrees'
 ERROR: Expected 2 float args, '
 ERROR: Expected 2 float args, fClockingAngleDegrees (left), fClockingAngleDegrees (right)
 ERROR: Expected 2 float args, fDegreesLeft fDegreesRight'
+ERROR: Failed to open log file %s, attempting timestamped filename\n
 ERROR: GetEdidId (%d)\n
 ERROR: GetVideoConfig (%d)\n
 ERROR: No display or device\n
@@ -5620,7 +5628,7 @@ Extra non-whitespace after JSON value.
 Eye Displays must be adjacent: left (%d, %d), right (%d, %d)\nUse Screen Resolution control panel to fix
 EyeFromName(char const*)
 FATAL
-FATAL: Failed to open log file %s\n
+FATAL: Failed to open log file %s, failing out!\n
 FORMAT=32-bit_rle_rgbe
 FPGA susp: 
 FS Callbacks must be completely defined. At least one callback is null.
@@ -6836,8 +6844,8 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
+Jul  9 2025
 July
-Jun 18 2025
 June
 KHR_audio
 KHR_lights_punctual
@@ -7719,6 +7727,7 @@ Prop_SecondsFromPhotonsToVblank_Float
 Prop_SecondsFromVsyncToPhotons_Float
 Prop_SerialNumber_String
 Prop_StatusDisplayTransform_Matrix34
+Prop_SteamRemoteClientID_Uint64
 Prop_SupportedButtons_Uint64
 Prop_SupportsRoomViewDepthProjection_Bool
 Prop_TrackingFirmwareVersion_String
@@ -8773,6 +8782,7 @@ VREvent_ScreenshotTriggered
 VREvent_ScrollDiscrete
 VREvent_ScrollSmooth
 VREvent_SeatedZeroPoseReset
+VREvent_SetTrackingRecordingPath
 VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
@@ -13615,7 +13625,6 @@ libudev.so.1
 libz.so.1
 light
 lighthouse
-lighthouse:
 lighthouse::pb::(anonymous namespace)::CBaseConfigAndDynamicState_descriptor_
 lighthouse::pb::(anonymous namespace)::CBaseConfigAndDynamicState_reflection_
 lighthouse::pb::(anonymous namespace)::CBaseConfig_descriptor_
@@ -14406,6 +14415,75 @@ math::Vec3T<float>::truncate_length(float) const
 math::Vec3T<float>::try_normalize()
 math::Vec3T<float>::xy() const
 math::Vec3T<float>::zero()
+math::Vec4T<double>::Vec4T()
+math::Vec4T<double>::Vec4T(double, double, double, double)
+math::Vec4T<double>::Vec4T(math::Vec3T<double> const&, double)
+math::Vec4T<double>::as_array()
+math::Vec4T<double>::as_array() const
+math::Vec4T<double>::dot(math::Vec3T<double> const&, double) const
+math::Vec4T<double>::dot(math::Vec4T<double> const&) const
+math::Vec4T<double>::from_json(Json::Value const&, unsigned int)
+math::Vec4T<double>::is_zero() const
+math::Vec4T<double>::operator*=(double)
+math::Vec4T<double>::operator+=(double)
+math::Vec4T<double>::operator+=(math::Vec4T<double> const&)
+math::Vec4T<double>::operator-=(double)
+math::Vec4T<double>::operator-=(math::Vec4T<double> const&)
+math::Vec4T<double>::operator/=(double)
+math::Vec4T<double>::operator=(math::Vec4T<double> const&)
+math::Vec4T<double>::operator[](int)
+math::Vec4T<double>::operator[](int) const
+math::Vec4T<double>::origin()
+math::Vec4T<double>::size()
+math::Vec4T<double>::to_json(Json::Value*, unsigned int) const
+math::Vec4T<double>::xyz() const
+math::Vec4T<double>::zero()
+math::Vec4T<float>::Vec4T()
+math::Vec4T<float>::Vec4T(float, float, float, float)
+math::Vec4T<float>::Vec4T(math::Vec3T<float> const&, float)
+math::Vec4T<float>::as_array()
+math::Vec4T<float>::as_array() const
+math::Vec4T<float>::dot(math::Vec3T<float> const&, float) const
+math::Vec4T<float>::dot(math::Vec4T<float> const&) const
+math::Vec4T<float>::from_json(Json::Value const&, unsigned int)
+math::Vec4T<float>::is_zero() const
+math::Vec4T<float>::operator*=(float)
+math::Vec4T<float>::operator+=(float)
+math::Vec4T<float>::operator+=(math::Vec4T<float> const&)
+math::Vec4T<float>::operator-=(float)
+math::Vec4T<float>::operator-=(math::Vec4T<float> const&)
+math::Vec4T<float>::operator/=(float)
+math::Vec4T<float>::operator=(math::Vec4T<float> const&)
+math::Vec4T<float>::operator[](int)
+math::Vec4T<float>::operator[](int) const
+math::Vec4T<float>::origin()
+math::Vec4T<float>::size()
+math::Vec4T<float>::to_json(Json::Value*, unsigned int) const
+math::Vec4T<float>::xyz() const
+math::Vec4T<float>::zero()
+math::Vec4T<int>::Vec4T()
+math::Vec4T<int>::Vec4T(int, int, int, int)
+math::Vec4T<int>::Vec4T(math::Vec3T<int> const&, int)
+math::Vec4T<int>::as_array()
+math::Vec4T<int>::as_array() const
+math::Vec4T<int>::dot(math::Vec3T<int> const&, int) const
+math::Vec4T<int>::dot(math::Vec4T<int> const&) const
+math::Vec4T<int>::from_json(Json::Value const&, unsigned int)
+math::Vec4T<int>::is_zero() const
+math::Vec4T<int>::operator*=(int)
+math::Vec4T<int>::operator+=(int)
+math::Vec4T<int>::operator+=(math::Vec4T<int> const&)
+math::Vec4T<int>::operator-=(int)
+math::Vec4T<int>::operator-=(math::Vec4T<int> const&)
+math::Vec4T<int>::operator/=(int)
+math::Vec4T<int>::operator=(math::Vec4T<int> const&)
+math::Vec4T<int>::operator[](int)
+math::Vec4T<int>::operator[](int) const
+math::Vec4T<int>::origin()
+math::Vec4T<int>::size()
+math::Vec4T<int>::to_json(Json::Value*, unsigned int) const
+math::Vec4T<int>::xyz() const
+math::Vec4T<int>::zero()
 matrix
 max value > 255
 maxDistance
@@ -14759,7 +14837,9 @@ non-virtual thunk to vortex::CLighthouseDirect::GetFirmwareVersion(std::string*)
 non-virtual thunk to vortex::CLighthouseDirect::GetHardwareRevision(std::string*)
 non-virtual thunk to vortex::CLighthouseDirect::GetTrackingState(vortex::TrackingState*)
 non-virtual thunk to vortex::CLighthouseDirect::Start()
+non-virtual thunk to vortex::CLighthouseDirect::StartTrackingRecording(std::string const&)
 non-virtual thunk to vortex::CLighthouseDirect::Stop()
+non-virtual thunk to vortex::CLighthouseDirect::StopTrackingRecording()
 non-virtual thunk to vortex::CLighthouseDirect::WarnTriggerHapticPulse()
 non-virtual thunk to vortex::CLighthouseDirect::~CLighthouseDirect()
 non-virtual thunk to vortex::CLighthouseIMUThread::GetPeripheralApplicationVersion(unsigned int*)
@@ -15025,7 +15105,6 @@ read_encoded_value_with_base.cold
 readdir
 readlink
 realloc
-record
 recorded
 recorder
 recorder + 
@@ -18953,7 +19032,6 @@ stmuteb
 stoi
 stop_pairing
 stop_tracking_recording
-stoprecord
 str_to_edid_pid(std::string const&)
 str_to_edid_pid(std::string const&) (.cold)
 str_to_edid_vid(std::string const&)
@@ -21756,8 +21834,11 @@ vortex::CLighthouseDirect::SetInitialProcessCovariance()
 vortex::CLighthouseDirect::SetTrackRefFromHead(CTrackedDeviceConfig const*)
 vortex::CLighthouseDirect::ShowBootstrapProgress(unsigned int)
 vortex::CLighthouseDirect::Start()
+vortex::CLighthouseDirect::StartTrackingRecording(std::string const&)
+vortex::CLighthouseDirect::StartTrackingRecording(std::string const&) (.cold)
 vortex::CLighthouseDirect::State_s::operator=(vortex::CLighthouseDirect::State_s const&)
 vortex::CLighthouseDirect::Stop()
+vortex::CLighthouseDirect::StopTrackingRecording()
 vortex::CLighthouseDirect::SwapPrimaryAndAlternateBase(unsigned int)
 vortex::CLighthouseDirect::SwapPrimaryAndAlternateBase(unsigned int) (.cold)
 vortex::CLighthouseDirect::TransformTiltByPose(math::PoseT<float> const&, float, vortex::LighthouseBaseTilt_t const&)
@@ -22570,6 +22651,8 @@ vortex::ILighthouseTrackedDeviceServerDriver::RunFrame()
 vortex::ILighthouseTrackedDeviceServerDriver::ShouldBlockStandby()
 vortex::IPoseTracker::DebugRequest(char const*, char*, unsigned int)
 vortex::IPoseTracker::RunFrame()
+vortex::IPoseTracker::StartTrackingRecording(std::string const&)
+vortex::IPoseTracker::StopTrackingRecording()
 vortex::LighthouseBaseTargetPose_t::FromJson(Json::Value const&)
 vortex::LighthouseBaseTargetPose_t::FromJson(Json::Value const&) (.cold)
 vortex::LighthouseBaseTargetPose_t::ToJson() const

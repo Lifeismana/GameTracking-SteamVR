@@ -113,6 +113,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 %1_Header
 %2.2X%2.2X-%2.2X%2.2X-%2.2X%2.2X
 %Y-%m-%d %I:%M:%S %p
+%Y-%m-%d-%p_%I_%M_%S
 %\n?dragMoveEvent@QGraphicsScene@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
 %\r?indexOf@QTabWidget@@QEBAHPEAVQWidget@@@Z
 %a %b %d %H:%M:%S %Y
@@ -242,7 +243,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AV<lambda_686bfc32f4bcce44b88d49e75aaf1c75>@@
 .?AV<lambda_687bbe8aaa1e7a7d821b415aa811bb6e>@@
 .?AV<lambda_7257f74de7e96abf43452d9052201b09>@@
-.?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
+.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_f616c03a6102f2dea4d043e167000184>@@
 .?AV?$CCallResult@VCQVRWorkshopUploadDialog@@UCreateItemResult_t@@@@
 .?AV?$CCallResult@VCQVRWorkshopUploadDialog@@USteamUGCQueryCompleted_t@@@@
@@ -274,7 +275,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AV?$_Func_impl_no_alloc@V<lambda_686bfc32f4bcce44b88d49e75aaf1c75>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_687bbe8aaa1e7a7d821b415aa811bb6e>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7257f74de7e96abf43452d9052201b09>@@PEAXPEBD@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f616c03a6102f2dea4d043e167000184>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRStatsTracker@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
@@ -729,7 +730,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-10:02:54
+12:32:07
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -3886,6 +3887,7 @@ EPowerManagementStatusUpdate_t
 EPowerState_t
 ERROR! Did not find %s in firmware manifest for 0x%llx\n
 ERROR! Did not find bin '%s' on disk for 0x%llx\n
+ERROR: Failed to open log file %s, attempting timestamped filename\n
 E\r?indexOf@QString@@QEBAHAEBV1@HW4CaseSensitivity@Qt@@@Z
 Elapsed Time: %1:%2:%3:%4
 Element not in this layout, couldn't take
@@ -3943,7 +3945,7 @@ Exiting Firmware Update\n
 ExpectWirelessHeadset: %d
 Extended Display
 Extra non-whitespace after JSON value.
-FATAL: Failed to open log file %s\n
+FATAL: Failed to open log file %s, failing out!\n
 FOV Bottom:
 FOV Left:
 FOV Right:
@@ -4532,7 +4534,7 @@ IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
 IVRCompositorSystemInternal_XXX
-IVRCompositor_028
+IVRCompositor_029
 IVRControlPanel_006
 IVRControllerComponent_
 IVRDebug_001
@@ -4633,7 +4635,7 @@ J\n?drawForeground@QGraphicsScene@@MEAAXPEAVQPainter@@AEBVQRectF@@@Z
 J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 J\t?brush@QPainter@@QEBAAEBVQBrush@@XZ
 JoysticksFound
-Jun 18 2025
+Jul  9 2025
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA

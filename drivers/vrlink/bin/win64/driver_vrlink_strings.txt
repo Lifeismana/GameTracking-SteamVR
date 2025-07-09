@@ -56,6 +56,7 @@ $3br
 %6.3f mbps %3d FPS\n
 %F-%H-%M-%S
 %I64d
+%Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %c%sFailFuzz
@@ -174,9 +175,10 @@ $3br
 .?AV<lambda_b6062681e27775d12ffe8db432a3c104>@@
 .?AV<lambda_c6544703987fd9d279e84d520bb2c068>@@
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
-.?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
+.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@
+.?AV<lambda_ec7e1e4c4174cdc6d084da9e8ee16749>@@
 .?AV<lambda_ef8cd50b187808a213c6f694a155665f>@@
 .?AV<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@
 .?AV<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@
@@ -243,9 +245,10 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_b6062681e27775d12ffe8db432a3c104>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c6544703987fd9d279e84d520bb2c068>@@XPEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ec7e1e4c4174cdc6d084da9e8ee16749>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ef8cd50b187808a213c6f694a155665f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@XW4ValueTransportID@@_N@std@@
@@ -594,7 +597,6 @@ $3br
 /sl/xrfb/facew/UpperLipRaiserL
 /sl/xrfb/facew/UpperLipRaiserR
 /steam/vr_connection_ready
-/steam/was_running_at_startup
 /tracking/eye/CenterVecFull
 /tracking/eye/EyesClosedAmount
 /transferlatencyms
@@ -1131,6 +1133,7 @@ ERROR: AMF InitDX11() failed [ %s ]\n
 ERROR: AMF SubmitInput() failed [ %s ]\n
 ERROR: Could not initialize UDP driver; unknown session type requested.
 ERROR: Failed to get encryption engine.
+ERROR: Failed to open log file %s, attempting timestamped filename\n
 ERROR: Null VTE_CLIENT_SESSION_ID!\n
 ERROR: Requested GRT type is not supported (type != DIRECTX)\n
 ERROR: Shaders sum to > 64kB\n
@@ -1232,7 +1235,7 @@ F2`a
 FAILED to Activate DirectX 11 Device.\n
 FAILED: Could not create constant buffer.\n
 FALSE
-FATAL: Failed to open log file %s\n
+FATAL: Failed to open log file %s, failing out!\n
 FAULT: Packet too big!!! Can't send!!! Dropping\n
 FEC decode fail %d %d %d\n
 FJQ>Wb
@@ -1667,7 +1670,6 @@ OSCInPort
 OSCOutPort
 OUT %d
 Object
-Oculus Quest 3S
 Oculus Quest Pro
 Oculus Quest Pro (Left Controller)
 Oculus Quest Pro (Right Controller)
@@ -1677,6 +1679,7 @@ Oculus Quest2 (Right Controller)
 Oculus Quest3
 Oculus Quest3 (Left Controller)
 Oculus Quest3 (Right Controller)
+Oculus Quest3S
 OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
 OnDeviceAdded: device = %s\n
 OnDeviceRemoved: device = %s\n
@@ -1741,9 +1744,8 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS!S
+RSDS
 RX Fail:%d
-R\vp\fp
 RaiseException
 Rate Remark: %d %d\n
 Received 0 byte message on control connection. Disconnecting
@@ -2375,7 +2377,7 @@ __stdio_common_vsprintf
 __stdio_common_vsprintf_s
 __stdio_common_vsscanf
 __stdio_common_vswprintf
-_abw2
+_abw3
 _aligned_free
 _aligned_malloc
 _aligned_realloc
@@ -2772,7 +2774,6 @@ hHpX
 hOM/
 h\44Q
 hand_right_poses.glb
-handle_link_button
 handle_recenter
 handlers
 height
@@ -3064,6 +3065,7 @@ received VTE_DRIVER_SYSTEM_FLAGS %d %d %d
 recv failed with error: %d\n
 refDistance
 rejectDupKeys
+remote_dashboard_open
 renderHeight
 renderWidth
 repeating AMF SubmitInput() [ %s ]\n

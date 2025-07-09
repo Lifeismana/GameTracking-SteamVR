@@ -157,6 +157,7 @@ $\n k_EProtoServiceTypeSteamMessages
 %04X
 %08lx
 %3.1f
+%Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %a, %d %b %Y %H:%M:%S GMT
@@ -206,7 +207,9 @@ $\n k_EProtoServiceTypeSteamMessages
 %s - No root object when parsing manifest file\n
 %s - Unable to read app config from \n
 %s - Unable to read manifest. Removing that file for the next startup\n
+%s begin_ctx=%llu
 %s contains one or more NaNs. Discarding pose for %u from %s
+%s end_ctx=%llu
 %s parameter out of range
 %s.gz
 %s: %p port=%d
@@ -293,7 +296,6 @@ $\n k_EProtoServiceTypeSteamMessages
 *.ttf
 *5KS
 *\n&k_EProtoServiceTypeVRGamepadUIMessages
-+JqW
 , binary size = 
 , but got 
 , column 
@@ -569,10 +571,10 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_bd1a83319b220d7e34be44617ed4547e>@@
 .?AV<lambda_ce3fbf3c947ad2e658381da75700eeba>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
-.?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_d4ea458dafa46560c4bdc7db4653ba2d>@@
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
 .?AV<lambda_d9c8d5500ac3dfddb02459f8a53a1949>@@
+.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_dcd68f11e779e636b3af35198369d081>@@
 .?AV<lambda_e8ce496b76c74e3642517b6b1e5cdb64>@@
 .?AV<lambda_f4f5e2f072afd4a5de41e85075878c7c>@@
@@ -695,10 +697,10 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_bd1a83319b220d7e34be44617ed4547e>@@X$$QEAUBindingFileOption_t@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ce3fbf3c947ad2e658381da75700eeba>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d4ea458dafa46560c4bdc7db4653ba2d>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9c8d5500ac3dfddb02459f8a53a1949>@@X$$QEAUBindingFileOption_t@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dcd68f11e779e636b3af35198369d081>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e8ce496b76c74e3642517b6b1e5cdb64>@@VValue@Json@@PEBE@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f4f5e2f072afd4a5de41e85075878c7c>@@X$$QEAUBindingFileOption_t@@_N@std@@
@@ -796,6 +798,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCSimulatedTriggerPull@@
 .?AVCSingletonCriticalSection@@
 .?AVCSteamSteamVRPrivate001@@
+.?AVCSteamSteamVRPrivate002@@
 .?AVCSteamVR_AudioSettings_ChangeSettings_Request@@
 .?AVCSteamVR_AudioSettings_RegisterForSettings_Request@@
 .?AVCSteamVR_AudioSettings_Settings@@
@@ -1138,6 +1141,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVIServerTrackedDeviceProvider@vr@@
 .?AVISharedMem@IPC@@
 .?AVISteamSteamVRPrivate001@@
+.?AVISteamSteamVRPrivate002@@
 .?AVISteamWorkerThreadCallback@@
 .?AVISyncObject@IPC@@
 .?AVITrackedDeviceServerDriver@vr@@
@@ -1620,15 +1624,21 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+009@
 0123456789ABCDEF
 0123456789abcdef
+068@
+078@
+088@
+0U1@
+0m3@
 1.2.5
 1/2/4/8/16-bit only
-10:02:54
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
+12:32:07
 1A26b
 1\f514
 1e+9999
@@ -1638,7 +1648,6 @@ $\n k_EProtoServiceTypeSteamMessages
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
-4E1@
 4\f54d
 52F*
 5I)7
@@ -1649,13 +1658,12 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-857@
+8G7@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8q6@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -2487,9 +2495,11 @@ Duplicate action '
 Duplicate key: '
 Duplicate mailbox name %s. Make one of those unique.\n
 DuplicateHandle
+Dx3@
 EProtoExecutionSite
 EProtoServiceType
 ERROR
+ERROR: Failed to open log file %s, attempting timestamped filename\n
 ETrackedControllerRole_%d
 EVRSceneApplicationState_None
 EVRSceneApplicationState_Quitting
@@ -2570,7 +2580,7 @@ Extensions to non-lite types can only be declared in non-lite files.  Note that 
 ExternalHub
 Extra non-whitespace after JSON value.
 FATAL
-FATAL: Failed to open log file %s\n
+FATAL: Failed to open log file %s, failing out!\n
 FORMAT=32-bit_rle_rgbe
 FS callback[s] not set\n
 F\n\foptimize_for
@@ -2807,31 +2817,9 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
-H08@
-H18@
-H28@
-H38@
-H48@
-H58@
-H68@
-H78@
-H88@
-H98@
-HA8@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
-HB8@
-HC8@
-HD8@
-HE8@
 HEAD
-HF8@
-HG8@
-HH8@
-HI8@
-HJ8@
-HK8@
-HL8@
-HM8@
+HG7@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2852,13 +2840,7 @@ HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
-HN8@
-HO8@
-HP8@
-HQ8@
-HR8@
-HS8@
-HT8@
+HMDSerialNumber
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2873,48 +2855,17 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
-HU8@
-HV8@
-HW8@
-HX8@
-HY8@
-HZ8@
-Ha8@
 Hang the server for the specified number of seconds (default 3600)
 HasField
-Hb8@
-Hc8@
-Hd8@
-He8@
 Hex and octal numbers must be integers.
-Hf8@
-Hg8@
-Hh8@
-Hi8@
-Hj8@
-Hk8@
-Hl8@
-Hm8@
+Hm3@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
-Hn8@
-Ho8@
 HostController
 How did we get here with a non-position slot?
-Hp8@
-Hq8@
-Hr8@
-Hs8@
-Ht8@
-Hu8@
-Hv8@
-Hw8@
-Hx8@
-Hy8@
-Hz8@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3194,7 +3145,7 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jun 18 2025
+Jul  9 2025
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
@@ -3205,7 +3156,6 @@ L=SteamFriends017
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
-LE1@
 LINEAR
 Label
 Language
@@ -3456,6 +3406,7 @@ PID_
 PLACEHOLDER_VALUE
 PNG\r\n
 POST
+PP1@
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
@@ -3483,6 +3434,8 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
+PS6@
+PW6@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3719,6 +3672,7 @@ Prop_SecondsFromPhotonsToVblank_Float
 Prop_SecondsFromVsyncToPhotons_Float
 Prop_SerialNumber_String
 Prop_StatusDisplayTransform_Matrix34
+Prop_SteamRemoteClientID_Uint64
 Prop_SupportedButtons_Uint64
 Prop_SupportsRoomViewDepthProjection_Bool
 Prop_TrackingFirmwareVersion_String
@@ -3761,7 +3715,9 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS>
+RSDSz
+R\npP
+R\vpP
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3814,6 +3770,7 @@ ReleaseMutex
 Releasing ref on rendermodel %s. New ref count %d\n
 Releasing ref on texture %s (id %zu). New ref count %d\n
 Reload all overlays
+RemoteClientID
 RemoveLast
 Removing resource map '%s' for process %d.
 Render model %s has %d vertices. Only 65k are supported\n
@@ -4091,6 +4048,7 @@ SteamNetworkingSockets012
 SteamNetworkingUtils004
 SteamParties002
 SteamSteamVRPrivate001
+SteamSteamVRPrivate002
 SteamStreaming
 SteamUser023
 SteamUtils010
@@ -4139,6 +4097,7 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+Tm3@
 Too Many Requests
 Too many binding loads. Aborting and failing request.
 Too many tracked objects (120)
@@ -4563,6 +4522,7 @@ VREvent_ScreenshotTriggered
 VREvent_ScrollDiscrete
 VREvent_ScrollSmooth
 VREvent_SeatedZeroPoseReset
+VREvent_SetTrackingRecordingPath
 VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
@@ -5172,12 +5132,66 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
+XA8@
+XB8@
+XC8@
+XD8@
+XE8@
+XF8@
+XG8@
+XH8@
+XI8@
+XJ8@
+XK8@
+XL8@
+XM8@
+XN8@
+XO8@
+XP8@
+XQ8@
+XR8@
+XS8@
+XT8@
+XU8@
+XV8@
+XW8@
+XX8@
 XXXX PNG chunk not known
+XY8@
+XZ8@
+Xa8@
+Xb8@
+Xc8@
+Xd8@
+Xe8@
+Xf8@
+Xg8@
+Xh8@
+Xi8@
+Xj8@
+Xk8@
+Xl8@
+Xm8@
+Xn8@
+Xo8@
+Xp8@
+Xq8@
+Xr8@
+Xs8@
 XsBI
+Xt8@
+Xu8@
+Xv8@
+Xw8@
+Xx8@
+Xy8@
+Xz8@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
 [AnimSkeleton] Failed to load GLTF file: %s
+[CSteamInfo] RunSteamFrame
+[CSteamWorker] CSteamWorkerRunFrame
 [Console] 
 [Controller Setup] Adding controller type %s\n
 [Controller Setup] AssignActiveIndicatorForInput failed. Input %s specified %s as its input_activity_path, but that component doesn't exist\n
@@ -6347,6 +6361,7 @@ group
 guid
 gzip
 hPU3
+hS2@
 half_thresholds
 hand_interaction_ext
 hand_priority
@@ -6429,6 +6444,7 @@ innerConeAngle
 input
 input/default_holographic_controller_remapping.json
 input/default_hpmotioncontroller_remapping.json
+input/default_pico_controller_profile.json
 input/default_pico_controller_remapping.json
 input/default_vive_cosmos_controller_remapping.json
 input/generic_controller.png
@@ -6543,6 +6559,7 @@ is_internal
 is_self_identified
 is_steam_available
 is_steamvr_main
+is_stub
 is_template
 isalnum
 isalpha
@@ -6744,6 +6761,7 @@ links
 list
 list<T> too long
 listen: %d
+lm3@
 loadPriority
 load_drivers
 load_priority
@@ -6931,6 +6949,8 @@ object separator
 occlusionTexture
 oculus_touch
 off_haptic_amplitude
+offset_position
+offset_rotation
 ole32.dll
 on/x
 on/y
@@ -6969,9 +6989,7 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-pA6@
 pBegin == pEnd
-pE6@
 pEnd > pBegin
 pMGConnect != nullptr
 pNewResource
@@ -6980,6 +6998,7 @@ pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
+pS6@
 pSharedState != nullptr
 pUrl != nullptr
 pWebSocketMessage
@@ -7031,6 +7050,7 @@ pose.vAngularVelocity
 pose.vPosition
 pose.vVelocity
 pose_component
+pose_offset
 pose_path
 poses
 position
@@ -7066,7 +7086,6 @@ property_containers
 property_contents
 property_number
 proximity
-ps7@
 pt_br
 pt_pt
 public
@@ -7076,7 +7095,6 @@ pull
 punct
 putchar
 py_generic_services
-pz7@
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
 quarter_thresholds
@@ -7636,10 +7654,11 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
+xR2@
 x_path
 xdigit
+xm3@
 xmag
-xy7@
 y9*O
 y_path
 yfov

@@ -1,10 +1,10 @@
 Content Manifest for Depot 250827 
 
-Manifest ID / date     : 696314822747638401 / 06/02/2025 19:53:47 
+Manifest ID / date     : 9126840328386630080 / 07/02/2025 19:04:42 
 Total number of files  : 249 
 Total number of chunks : 238 
-Total bytes on disk    : 4833396 
-Total bytes compressed : 3070608 
+Total bytes on disk    : 4834763 
+Total bytes compressed : 3070640 
 
 
           Size Chunks File SHA                                 Flags Name
@@ -208,7 +208,7 @@ Total bytes compressed : 3070608
           2307      1 ff98f7752ea55f2ae82d0be9d107dde966fac7f6     0 drivers/htc/resources/input/tracker/vive_tracker_right_wrist_profile.json
           2301      1 12990280d315444c02cd586d70f97453d66c5d8e     0 drivers/htc/resources/input/tracker/vive_tracker_waist_profile.json
           3447      1 2e35ded3fd6f706ee08fcdafdce24962455b1e6f     0 drivers/htc/resources/input/vive_controller_profile.json
-          4249      1 1e4d80e90d356ec1928dafe452be9dc3f8b94914     0 drivers/htc/resources/input/vive_controller_remapping.json
+          5616      1 5d87d65d1f88dce65ee75b2c988427bb9ec3b3ad     0 drivers/htc/resources/input/vive_controller_remapping.json
            671      1 4e5dcbf29291a9e71c6f102911391b30346ec06e     0 drivers/htc/resources/input/vive_profile.json
            822      1 08ec8aa95dd98c6c2873b774f04109527750632b     0 drivers/htc/resources/input/vive_pro_profile.json
           3860      1 4a70b1d289b309e9ed892c4a3ba7518759657846     0 drivers/htc/resources/input/vive_tracker_profile.json

@@ -612,7 +612,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDSHB
+RSDS>
 RaiseException
 ReadConsoleW
 ReadFile
@@ -1144,7 +1144,6 @@ ios_base::failbit set
 iostream
 iostream stream error
 is a directory
-jY:h
 k=yI
 keylength >= 2^30
 ldexp

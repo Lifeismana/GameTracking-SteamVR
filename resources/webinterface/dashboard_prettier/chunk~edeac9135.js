@@ -1,21 +1,59 @@
-var CLSTAMP = "9839182";
+var CLSTAMP = "9887103";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [496],
+  [906],
   {
     9864: (e, t, r) => {
-      r(6540);
+      r.d(t, { m: () => a });
       var o,
-        i = r(3496);
+        i = r(6540),
+        n = r(3496);
       !(function (e) {
         (e[(e.LockedToParent = 0)] = "LockedToParent"),
           (e[(e.LockedToWorld = 1)] = "LockedToWorld");
       })(o || (o = {}));
-      i._J;
+      class a extends n._J {
+        constructor(e) {
+          super(e);
+        }
+        internalRender() {
+          let e = this.props.start_angle_threshold
+              ? (this.props.start_angle_threshold * Math.PI) / 180
+              : null,
+            t = this.props.stop_angle_threshold
+              ? (this.props.stop_angle_threshold * Math.PI) / 180
+              : null,
+            r = this.props.ease_out_angle_threshold
+              ? (this.props.ease_out_angle_threshold * Math.PI) / 180
+              : null,
+            o = this.props.min_angular_velocity
+              ? (this.props.min_angular_velocity * Math.PI) / 180
+              : null,
+            n = this.props.max_angular_velocity
+              ? (this.props.max_angular_velocity * Math.PI) / 180
+              : null;
+          return i.createElement(
+            "vsg-elastic-head-transform",
+            {
+              "start-angle-threshold": e,
+              "stop-angle-threshold": t,
+              "ease-in-time": this.props.ease_in_time,
+              "ease-in-power": this.props.ease_in_power,
+              "ease-out-angle-threshold": r,
+              "ease-out-power": this.props.ease_out_power,
+              "min-angular-velocity": o,
+              "max-angular-velocity": n,
+              "lock-to-horizon": this.props.lock_to_horizon,
+              "translation-behavior": this.props.translation_behavior,
+            },
+            this.props.children,
+          );
+        }
+      }
     },
     7019: (e, t, r) => {
       r.d(t, {
         Fi: () => a,
-        Lr: () => h,
+        Lr: () => m,
         MQ: () => n,
         Oi: () => o,
         Zk: () => g,
@@ -26,16 +64,16 @@ var CLSTAMP = "9839182";
         n,
         a,
         s,
-        _ = r(1635),
-        l = r(6540),
+        l = r(1635),
+        _ = r(6540),
         p = r(3496),
         d = r(5178),
         u = r(3236),
         c = r(5723);
-      function m(e) {
+      function h(e) {
         if (e) return [e.u, e.v];
       }
-      function h(e) {
+      function m(e) {
         switch (e) {
           case o.TopLeft:
             return { x: -1, y: 1 };
@@ -222,7 +260,7 @@ var CLSTAMP = "9839182";
             : a.Visible;
         }
         buildNode(e, t) {
-          var r, o, i, n, s, _, l;
+          var r, o, i, n, s, l, _;
           if (
             !(
               this.visibility == a.Visible ||
@@ -239,19 +277,19 @@ var CLSTAMP = "9839182";
           g =
             "object" == typeof this.props.origin
               ? (0, p.PG)(this.props.origin, { x: 0, y: 0 })
-              : h(this.props.origin);
+              : m(this.props.origin);
           const v = this.props.overlay_key,
-            D = (0, c.w5)();
+            y = (0, c.w5)();
           return (
             v && v.length > 0
               ? (u.properties.key = v)
-              : D
-                ? (u.properties.key = D)
+              : y
+                ? (u.properties.key = y)
                 : (u.properties.overlay_handle = (0, c.X4)()),
             (u.properties.uv_min =
-              null !== (r = m(this.m_UVsMin)) && void 0 !== r ? r : void 0),
+              null !== (r = h(this.m_UVsMin)) && void 0 !== r ? r : void 0),
             (u.properties.uv_max =
-              null !== (o = m(this.m_UVsMax)) && void 0 !== o ? o : void 0),
+              null !== (o = h(this.m_UVsMax)) && void 0 !== o ? o : void 0),
             (u.properties.width =
               null !== (i = this.props.width) && void 0 !== i ? i : void 0),
             (u.properties.height =
@@ -259,7 +297,7 @@ var CLSTAMP = "9839182";
             (u.properties["scale-index"] =
               null !== (s = this.props.scale_index) && void 0 !== s ? s : 0),
             (u.properties["min-width"] =
-              null !== (_ = this.props.min_width) && void 0 !== _ ? _ : void 0),
+              null !== (l = this.props.min_width) && void 0 !== l ? l : void 0),
             (u.properties["target-width-anchor-id"] = (0, c.bl)(
               this.props.target_width_anchor_id,
             )),
@@ -284,9 +322,9 @@ var CLSTAMP = "9839182";
             (u.properties["allow-input-capture"] =
               this.props.allow_input_capture),
             (u.properties["lasermouse-filtering"] =
-              null === (l = this.props) || void 0 === l
+              null === (_ = this.props) || void 0 === _
                 ? void 0
-                : l.lasermouse_filtering),
+                : _.lasermouse_filtering),
             (u.properties["hide-laser-when-clicking"] =
               this.props.hide_lasermouse_when_clicking),
             (u.properties["make-overlays-interactive-if-visible"] =
@@ -332,7 +370,7 @@ var CLSTAMP = "9839182";
             });
         }
         internalRender() {
-          return l.createElement(
+          return _.createElement(
             "vsg-node",
             { style: { display: this.visibility == a.Hidden ? "none" : null } },
             this.props.children,
@@ -340,10 +378,10 @@ var CLSTAMP = "9839182";
         }
       }
       (g.s_bPanelsAreDirty = !1),
-        (0, _.Cg)([u.o], g.prototype, "onResizeObserved", null),
-        (0, _.Cg)([u.o], g.prototype, "onPanelMouseDown", null),
-        (0, _.Cg)([u.o], g.prototype, "onWindowMouseUp", null),
-        (0, _.Cg)([u.o], g.prototype, "buildNode", null);
+        (0, l.Cg)([u.o], g.prototype, "onResizeObserved", null),
+        (0, l.Cg)([u.o], g.prototype, "onPanelMouseDown", null),
+        (0, l.Cg)([u.o], g.prototype, "onWindowMouseUp", null),
+        (0, l.Cg)([u.o], g.prototype, "buildNode", null);
     },
     3361: (e, t, r) => {
       r.d(t, { d: () => s });
@@ -401,14 +439,14 @@ var CLSTAMP = "9839182";
                       z: this.props.scale,
                     }
                   : (0, n.Wi)(this.props.scale, { x: 1, y: 1, z: 1 })));
-          let _ = (0, n.hi)(r),
-            l = (0, n.j_)(s);
+          let l = (0, n.hi)(r),
+            _ = (0, n.j_)(s);
           return i.createElement(
             "vsg-transform",
             {
               translation: t,
-              rotation: _,
-              scale: l,
+              rotation: l,
+              scale: _,
               "curvature-pitch": this.props.curvature_pitch,
               "invert-parent-panel-pitch": this.props.invert_parent_panel_pitch,
               "ignore-parent-scale": this.props.ignore_parent_scale,
@@ -423,10 +461,10 @@ var CLSTAMP = "9839182";
       }
     },
     4367: (e, t, r) => {
-      var o, i, n, a, s, _, l, p;
+      var o, i, n, a, s, l, _, p;
       r.d(t, {
         $: () => p,
-        KI: () => l,
+        KI: () => _,
         QR: () => a,
         en: () => n,
         fD: () => o,
@@ -499,6 +537,8 @@ var CLSTAMP = "9839182";
             (e[(e.ActualTrackingSystemName_String = 1054)] =
               "ActualTrackingSystemName_String"),
             (e[(e.AllowCameraToggle_Bool = 1055)] = "AllowCameraToggle_Bool"),
+            (e[(e.AllowLightSourceFrequency_Bool = 1056)] =
+              "AllowLightSourceFrequency_Bool"),
             (e[(e.ReportsTimeSinceVSync_Bool = 2e3)] =
               "ReportsTimeSinceVSync_Bool"),
             (e[(e.SecondsFromVsyncToPhotons_Float = 2001)] =
@@ -819,11 +859,11 @@ var CLSTAMP = "9839182";
             (e[(e.Notification_BeginInteraction = 602)] =
               "Notification_BeginInteraction"),
             (e[(e.Notification_Destroyed = 603)] = "Notification_Destroyed");
-        })(_ || (_ = {})),
+        })(l || (l = {})),
         (function (e) {
           (e[(e.TheaterFast = 0)] = "TheaterFast"),
             (e[(e.TheaterSlow = 1)] = "TheaterSlow");
-        })(l || (l = {})),
+        })(_ || (_ = {})),
         (function (e) {
           (e[(e.Constant = 0)] = "Constant"),
             (e[(e.Nearest = 1)] = "Nearest"),
@@ -833,4 +873,4 @@ var CLSTAMP = "9839182";
         })(p || (p = {}));
     },
   },
-]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~ecd05801f.js.map
+]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~edeac9135.js.map

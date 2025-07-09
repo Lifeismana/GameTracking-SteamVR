@@ -1,3 +1,20 @@
+@keyframes svg_library_AnimationFadeOutIn_1lEwX {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.svg_library_recordingCircle_2ovZQ {
+  animation: svg_library_AnimationFadeOutIn_1lEwX 5s infinite linear;
+}
 :root {
   --text-color: #dee2e5;
   --disabledtext: rgb(144, 147, 150);
@@ -2353,4 +2370,4 @@ div.BindingCalloutModifierIcon {
   border-radius: 50%;
   z-index: 0;
 }
-/*# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~9e21db03c.css.map*/
+/*# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~93a8598f9.css.map*/

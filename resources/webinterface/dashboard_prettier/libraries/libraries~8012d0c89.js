@@ -1,6 +1,6 @@
-var CLSTAMP = "9839182";
+var CLSTAMP = "9887103";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [804],
+  [991],
   {
     2505: (t, e, r) => {
       t.exports = r(8015);
@@ -9036,4 +9036,4 @@ var CLSTAMP = "9839182";
       "function" == typeof SuppressedError && SuppressedError;
     },
   },
-]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/libraries/libraries~6e5d0b268.js.map
+]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/libraries/libraries~8012d0c89.js.map

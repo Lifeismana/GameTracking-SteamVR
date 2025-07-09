@@ -3780,7 +3780,6 @@ rEyeFile:%s width:%d height:%d components:%d\n
 range
 read past buffer
 realloc
-record
 recorded
 recorder
 recorder + 
@@ -3894,7 +3893,6 @@ stmuteb
 stoi argument out of range
 stop_pairing
 stop_tracking_recording
-stoprecord
 stoul argument out of range
 strchr
 stream end

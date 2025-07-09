@@ -41,6 +41,7 @@ $3br
 %6.3f mbps %3d FPS\n
 %F-%H-%M-%S
 %Y-%m-%d %I:%M:%S %p
+%Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
 %c%sFailFuzz
@@ -178,6 +179,7 @@ $3br
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE0_
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE10_
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE11_
+*ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE12_
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE1_
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE2_
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE3_
@@ -424,7 +426,6 @@ $3br
 /sl/xrfb/facew/UpperLipRaiserL
 /sl/xrfb/facew/UpperLipRaiserR
 /steam/vr_connection_ready
-/steam/was_running_at_startup
 /steamvr/
 /sys/kernel/debug/tracing/trace_marker
 /sys/kernel/tracing/trace_marker
@@ -533,7 +534,6 @@ $3br
 15IStatePoseMaker
 15StaticPoseMaker
 16SVLAudioPipewire
-17:03:24
 17CBoneMaskResource
 17CSharedImageLinux
 18CSharedBufferLinux
@@ -542,6 +542,7 @@ $3br
 18SVLFECRAID6TXFrame
 18SVLHMDDriverVulkan
 18SVLHmdNotConnected
+19:32:44
 19SVLControllerDriver
 1e+9999
 20BinaryBlendPoseMaker
@@ -632,7 +633,6 @@ AdvancedFrameTimeMonitoring::UpdateLongLatency(unsigned int) (.cold)
 AdvancedFrameTimeMonitoring::UpdateLongLatency(unsigned int)::k_pathWirelessLatencyMsLong
 AdvancedFrameTimeMonitoring::UpdateLongLatency(unsigned int)::ulDeviceContainer
 AdvancedFrameTimeMonitoring::s_sTSNames
-Afff?
 All VTEs Invalidated.
 AllocSharedMemory failed
 AnimUtils::AngleAboutAxis(VectorAligned const&, VectorAligned const&, VectorAligned const&)
@@ -664,9 +664,6 @@ Array length of `emissiveFactor` parameter in material must be 3, but got 4\n
 Asset
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
-Attempting to wait on a fence that has already been waited for. Current: %lx Wait: %lx\n
-Attempting to wait on a fence value that is too large. Current: %lx Wait: %lx\n
-Attempting to wait on fence value greater than has been signaled.  This is not supported. Value to wait for: %lx, Signaled: %lx\n
 Audio
 Audio/Sink
 Audio/Source
@@ -877,27 +874,7 @@ CAudioJitterBuffer fade in %d %d\n
 CAudioJitterBuffer fade out %d %d\n
 CAudioJitterBuffer init: %d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d\n
 CAudioJitterBuffer underflow %d %d\n
-CAudioJitterBuffer::ApplyCrossfade(CAudioJitterBuffer::Frame_t*)
-CAudioJitterBuffer::ApplyCrossfade(CAudioJitterBuffer::Frame_t*) (.part.0)
-CAudioJitterBuffer::ApplyFade(CAudioJitterBuffer::Frame_t*)
-CAudioJitterBuffer::ApplyFade(CAudioJitterBuffer::Frame_t*) (.part.0)
-CAudioJitterBuffer::BasicPop(CAudioJitterBuffer::Frame_t*, int)
-CAudioJitterBuffer::CAudioJitterBuffer()
-CAudioJitterBuffer::Clear()
-CAudioJitterBuffer::FadeIn(int)
-CAudioJitterBuffer::FadeOut(int)
-CAudioJitterBuffer::FindBestCrossfadeEndpoint(int, int)
-CAudioJitterBuffer::GenerateWindowFunction()
-CAudioJitterBuffer::GetWindowScale(float)
-CAudioJitterBuffer::Pop(CAudioJitterBuffer::Frame_t*, int)
-CAudioJitterBuffer::Push(CAudioJitterBuffer::Frame_t const*, int)
-CAudioJitterBuffer::PushDiscontinuity()
-CAudioJitterBuffer::UpdateStats(int, int)
-CAudioJitterBuffer::WarpBack(int)
-CAudioJitterBuffer::WarpBack(int) (.part.0)
-CAudioJitterBuffer::WarpForward(int)
-CAudioJitterBuffer::WarpForward(int) (.part.0)
-CAudioJitterBuffer::~CAudioJitterBuffer()
+CAudioJitterBuffer<short>::Pop(short*, int)
 CAutoLockAndDrainLogOnExit::~CAutoLockAndDrainLogOnExit()
 CBlendPoseOperation::BlendPoses(CPoseUpdateContext&, CSmartPtr<CAnimPose, CRefCountAccessor>*, float const*, int)
 CBlendPoseOperation::BlendPoses(CPoseUpdateContext&, CSmartPtr<CAnimPose, CRefCountAccessor>*, float const*, int) (.cold)
@@ -925,6 +902,8 @@ CBoneMaskResource::MyTypeID()::sID
 CBoneMaskResource::MyTypeInfo()
 CBoneMaskResource::m_typeInfoCBoneMaskResource
 CBoneMaskResource::~CBoneMaskResource()
+CConditionalScopedEventDuration::CConditionalScopedEventDuration(char const*, ...)
+CConditionalScopedEventDuration::~CConditionalScopedEventDuration()
 CControlConnection::CControlConnection(SVLRoot*, std::unique_ptr<IControlConnectionImpl, std::default_delete<IControlConnectionImpl>>&&)
 CControlConnection::Disconnect()
 CControlConnection::OnConnect(unsigned int, unsigned short)
@@ -1256,9 +1235,9 @@ CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.103
 CSWTCH.107
-CSWTCH.141
+CSWTCH.145
 CSWTCH.213
-CSWTCH.408
+CSWTCH.407
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CSharedBufferLinux::CSharedBufferLinux(vr::IVRIPCResourceManagerClient*)
@@ -1284,14 +1263,17 @@ CSharedBufferLinux::PrepareVulkanBufferForExport(VkDevice_T*, VkBuffer_T*, VkDev
 CSharedBufferLinux::RequestSharedVulkanBuffer(unsigned long, unsigned int)
 CSharedBufferLinux::~CSharedBufferLinux()
 CSharedCountingSemaphoreLinux::CSharedCountingSemaphoreLinux(vr::IVRIPCResourceManagerClient*)
-CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*)
-CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*) (.cold)
+CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*, bool)
+CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*, bool) (.cold)
 CSharedCountingSemaphoreLinux::GetType() const
 CSharedCountingSemaphoreLinux::ImportVulkanCountingSemaphore(VkDevice_T*, unsigned long)
 CSharedCountingSemaphoreLinux::Signal(unsigned long, vr::VRNativeDevice_t const*)
 CSharedCountingSemaphoreLinux::Signal(unsigned long, vr::VRNativeDevice_t const*) (.cold)
+CSharedCountingSemaphoreLinux::Signal: %lu
 CSharedCountingSemaphoreLinux::Wait(unsigned long, vr::VRNativeDevice_t const*)
 CSharedCountingSemaphoreLinux::Wait(unsigned long, vr::VRNativeDevice_t const*) (.cold)
+CSharedCountingSemaphoreLinux::Wait(unsigned long, vr::VRNativeDevice_t const*)::s_bDisableTimelineSemaphoreWait
+CSharedCountingSemaphoreLinux::Wait: %lu
 CSharedCountingSemaphoreLinux::~CSharedCountingSemaphoreLinux()
 CSharedImageLinux*& std::vector<CSharedImageLinux*, std::allocator<CSharedImageLinux*>>::emplace_back<CSharedImageLinux*>(CSharedImageLinux*&&)
 CSharedImageLinux::CSharedImageLinux(vr::IVRIPCResourceManagerClient*)
@@ -1386,6 +1368,7 @@ CSharedResourceBaseLinux::SignalSubmissionCompleted()
 CSharedResourceBaseLinux::SignalSubmissionCompleted() (.cold)
 CSharedResourceBaseLinux::SupportsGLMemoryInterop()
 CSharedResourceBaseLinux::SupportsGLSemaphoreInterop()
+CSharedResourceBaseLinux::SupportsGLTimelineSemaphoreInterop()
 CSharedResourceBaseLinux::WaitSubmissionCompleted(vr::IVRSharedSemaphore*)
 CSharedResourceBaseLinux::WaitSubmissionCompleted(vr::IVRSharedSemaphore*) (.cold)
 CSharedResourceBaseLinux::~CSharedResourceBaseLinux()
@@ -1412,7 +1395,7 @@ CSharedResourceNamespaceServer::Run()
 CSharedResourceNamespaceServer::~CSharedResourceNamespaceServer()
 CSharedSemaphoreLinux::CSharedSemaphoreLinux(vr::IVRIPCResourceManagerClient*)
 CSharedSemaphoreLinux::CreateVulkanSemaphore(VkDevice_T*)
-CSharedSemaphoreLinux::GetOGLSemaphore()
+CSharedSemaphoreLinux::GetOGLSemaphore(bool)
 CSharedSemaphoreLinux::GetState()
 CSharedSemaphoreLinux::GetState() (.cold)
 CSharedSemaphoreLinux::GetType() const
@@ -1782,12 +1765,13 @@ CreateConnectionInfo failed.  Code %d\n
 CreateOverlayInternal(VRSystemLayerState_t*, char const*, char const*, unsigned long*)
 CreateSimpleProcess
 CreateSimpleThread(unsigned int (*)(void*), void*, unsigned int*, unsigned int)
-Created remote GL texture 0x%lx, dimensions %d x %d, format %d\n
+Created remote GL texture 0x%lx, dimensions %d x %d, format %d
 Created remote Vulkan image 0x%lx, dimensions %d x %d, format %d, memory size %d and memory type %d.\n
 Creating canvas"%s"\n
 CtrlCClk
 CtrlFClk
 CtrlHClk
+D;33s?
 DDec
 DEBUG
 DEBUGGER FAST RESET STREAM\n
@@ -1815,6 +1799,7 @@ DestroyOverlayInternal(VRSystemLayerState_t*, unsigned long, bool) (.cold)
 Destroying a held mutex\n
 Detail
 DeviceType %s\n
+DisableTimelineSemaphoreWait
 Disconnected VRLink Headset
 Disconnection from %s
 DriverLog(char const*, ...)
@@ -1837,6 +1822,7 @@ ERROR -- cannot make log tables for w=%d\n
 ERROR -- cannot make multiplication tables for w=%d\n
 ERROR: Could not initialize UDP driver; unknown session type requested.
 ERROR: Failed to get encryption engine.
+ERROR: Failed to open log file %s, attempting timestamped filename\n
 ERROR: Null VTE_CLIENT_SESSION_ID!\n
 ERROR: Shaders sum to > 64kB\n
 ERROR: While trying to request retransmission of packet #%d, too many packets were missing even to retransmit.  Aborting stream.\n
@@ -1913,7 +1899,7 @@ Eye Cross %s
 Eye Filt %s
 Eye Pherphery Q Value
 Eye Trk %s
-FATAL: Failed to open log file %s\n
+FATAL: Failed to open log file %s, failing out!\n
 FAULT: Packet too big!!! Can't send!!! Dropping\n
 FEC decode fail %d %d %d\n
 FORMAT=32-bit_rle_rgbe
@@ -2064,6 +2050,7 @@ GL_EXT_memory_object
 GL_EXT_memory_object_fd
 GL_EXT_semaphore
 GL_EXT_semaphore_fd
+GL_NV_timeline_semaphore
 Galois_create_log_tables Error: j=%d, b=%d, B->J[b]=%d, J->B[j]=%d (0%o)\n
 Galois_single_multiply - no implementation for w=%d\n
 Game
@@ -2436,11 +2423,11 @@ IsDashboardVisibleInternal()::k_pathDashboardVisible
 IsDriverLogActive()
 IsOnLaptop()
 IsOnMainBranch()
-IsOurOverlayHandle(unsigned long)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&) (.cold)
 IsOverlayVisibleInternal(VRSystemLayerState_t const*, VRCompositor_OverlayState_t const&)::k_deviceWasDrawn
 IsPosix()
+IsProcessEmittingEventsForOverlay(unsigned long)
 IsRunningAsService()
 IsRunningFromPerforce()
 IsRunningFromPerforce() (.cold)
@@ -2900,8 +2887,8 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
+Jul  9 2025
 July
-Jun 18 2025
 June
 KHR_audio
 KHR_lights_punctual
@@ -3123,7 +3110,6 @@ OSCOutPort
 OUT %d
 Object
 October
-Oculus Quest 3S
 Oculus Quest Pro
 Oculus Quest Pro (Left Controller)
 Oculus Quest Pro (Right Controller)
@@ -3133,6 +3119,7 @@ Oculus Quest2 (Right Controller)
 Oculus Quest3
 Oculus Quest3 (Left Controller)
 Oculus Quest3 (Right Controller)
+Oculus Quest3S
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenKeyboard(VRSystemLayerState_t*, unsigned long, EKeyboardState, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, char const*, unsigned int, char const*, unsigned int, unsigned long)
 OpenKeyboard(VRSystemLayerState_t*, unsigned long, EKeyboardState, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, char const*, unsigned int, char const*, unsigned int, unsigned long) (.cold)
@@ -3190,6 +3177,7 @@ PackHmdInput(PackedHmdInput_t*)::k_pathInputSystemClick
 PackInt8Setting(unsigned char*, unsigned int*, char const*, char const*, int)
 PackPose(PackedPose_t*, unsigned int, double)
 PackStringProperty(char*, unsigned long, unsigned int*, unsigned int, vr::ETrackedDeviceProperty, int)
+PackVTEProps(VTE_ClientStreamingInfo_t*, LaunchOptions const&)
 PackVTEProps(VTE_HostDefaults_t*)
 PackVTEProps(VTE_PowerProps_t*, unsigned int)
 PackVTEProps(VTE_StaticProps_t*, unsigned int)
@@ -3483,6 +3471,7 @@ Prop_SecondsFromPhotonsToVblank_Float
 Prop_SecondsFromVsyncToPhotons_Float
 Prop_SerialNumber_String
 Prop_StatusDisplayTransform_Matrix34
+Prop_SteamRemoteClientID_Uint64
 Prop_SupportedButtons_Uint64
 Prop_SupportsRoomViewDepthProjection_Bool
 Prop_TrackingFirmwareVersion_String
@@ -3549,6 +3538,7 @@ Reflection::TypeInfo::IsDerivedFrom(unsigned int) const
 Reflection::TypeInfo::IsDerivedFromInternal(unsigned int) const
 Reflection::TypeInfo::TypeInfo(Reflection::TypeInfo const&)
 Reflection::TypeInfo::TypeInfo(char const*, unsigned int)
+RegisterForOverlayEventPolling(unsigned long)
 ReinitEncoderClick(SVLCanvas*, svl_canvas_canned_gui_element_t const*, int, int, precanned_event, int)
 Rejecting ShowKeyboard call from app because the dashboard is visible\n
 Release
@@ -3952,7 +3942,6 @@ SVLFEC::ExperiencedAnUnrecoverableError()
 SVLFEC::GetInFlightAndPendingQueueDepth()
 SVLFEC::GetMetadataForFrameId(unsigned short)
 SVLFEC::InternalAcceptFrameFromRX(unsigned int, unsigned char*, unsigned short)
-SVLFEC::InternalAcceptFrameFromRX(unsigned int, unsigned char*, unsigned short) (.cold)
 SVLFEC::InternalAcceptFrameFromRX: Failed to acquire pRender
 SVLFEC::ProcessTXVideoFrameThreadFunction()
 SVLFEC::ProcessTXVideoFrameThreadFunction() (.part.0)
@@ -3992,6 +3981,7 @@ SVLFECRXFrame::CheckRetry(int) (.cold)
 SVLFECRXFrame::Initialize(unsigned short, unsigned int, SVLVideoFrameDescriptor_t*)
 SVLFECRXFrame::Initialize(unsigned short, unsigned int, SVLVideoFrameDescriptor_t*) (.cold)
 SVLFECRXFrame::Invalidate()
+SVLFECRXFrame::Invalidate() (.part.0)
 SVLFECRXFrame::MarkBlockReceived(unsigned short, int)
 SVLFECRXFrame::SVLFECRXFrame(SVLFEC*)
 SVLFECRXFrame::UnguidedCheckRetry()
@@ -4052,10 +4042,10 @@ SVLHMDDriver::ReceivedHMDStaticProps(VTE_StaticProps_t&)::k_pathDriverVrlinkGotE
 SVLHMDDriver::ResourceCheck()
 SVLHMDDriver::SVLHMDDriver(SVLDriver*)
 SVLHMDDriver::SVLHMDDriver(SVLDriver*) (.cold)
-SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const::k_pathDriverVrlinkClientVersion
+SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const::k_pathDriverVrlinkClientVersion
 SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda5'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const (.constprop.0)
 SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda5'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const (.constprop.0) (.cold)
-SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda8'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const
+SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda9'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const
 SVLHMDDriver::SendUpdatedFramerateRequest()
 SVLHMDDriver::SetAudioPlaybackDeviceId(std::string const&)
 SVLHMDDriver::SetAudioRecordingDeviceId(std::string const&)
@@ -4151,6 +4141,7 @@ SVLRoot::CreateConnectionInfo(int, int, __gnu_cxx::__normal_iterator<char*, std:
 SVLRoot::DebugRender()
 SVLRoot::DebugRequestReset(EVideoResetType)
 SVLRoot::EventsThread()
+SVLRoot::EventsThread() (.cold)
 SVLRoot::FillInBookend(SVLVideoFrameDescriptor_t*)
 SVLRoot::GetControllerDriver(vr::ETrackedControllerRole)
 SVLRoot::GetHmdDriver()
@@ -4162,7 +4153,7 @@ SVLRoot::GetValueS(std::string const&, char const*)
 SVLRoot::GetValueS(std::string const&, char const*) (.cold)
 SVLRoot::HandleConnectionLostEvent()
 SVLRoot::HandleConnectionRegained()
-SVLRoot::HandleEvent(VRLinkPostedEvent_t, int, unsigned long)
+SVLRoot::HandleEvent(VRLinkPostedEvent_t const&)
 SVLRoot::HandleSidebandEvent(SVLRoot::SidebandEventType)
 SVLRoot::HandleSystemTicksTimeUpdateEvent(unsigned long, int)
 SVLRoot::HandleSystemTicksTimeUpdateEvent(unsigned long, int) (.cold)
@@ -4176,7 +4167,9 @@ SVLRoot::ParsePeerValueSettings(TransportValue_t const*, int)
 SVLRoot::ParsePeerValueSettings(TransportValue_t const*, int) (.cold)
 SVLRoot::PopulatePeerValueSettings(TransportValue_t*, int)
 SVLRoot::PopulatePeerValueSettings(TransportValue_t*, int) (.cold)
-SVLRoot::PostEvent(VRLinkPostedEvent_t, int, unsigned long)
+SVLRoot::PostEvent(VRLinkPostedEvent_t const&)
+SVLRoot::PostMultipleEvents(VRLinkPostedEvent_t const*, int)
+SVLRoot::PostMultipleEvents(VRLinkPostedEvent_t const*, int) (.cold)
 SVLRoot::RXBroadcast(dataset*, SVLDataLink*)
 SVLRoot::RXBroadcastReply(dataset*, SVLDataLink*)
 SVLRoot::RXReliableStream(dataset*)
@@ -4223,9 +4216,9 @@ SVLServer::GetHmdDriver()
 SVLServer::GetSessionID()
 SVLServer::HandleConnectionLostEvent()
 SVLServer::HandleConnectionLostEvent() (.cold)
-SVLServer::HandleEvent(VRLinkPostedEvent_t, int, unsigned long)
-SVLServer::HandleEvent(VRLinkPostedEvent_t, int, unsigned long) (.cold)
-SVLServer::HandleEvent(VRLinkPostedEvent_t, int, unsigned long)::'lambda'(Json::Value&, float*, int)::operator()(Json::Value&, float*, int) const (.isra.0)
+SVLServer::HandleEvent(VRLinkPostedEvent_t const&)
+SVLServer::HandleEvent(VRLinkPostedEvent_t const&) (.cold)
+SVLServer::HandleEvent(VRLinkPostedEvent_t const&)::'lambda'(Json::Value&, float*, int)::operator()(Json::Value&, float*, int) const (.isra.0)
 SVLServer::HandleHaptic(int, int, HapticRespData_t&)
 SVLServer::HandleSettingsUpdate()
 SVLServer::HandleUnrecoverableError(int)
@@ -4254,7 +4247,6 @@ SVLServer::SVLServer(LaunchOptions&) (.cold)
 SVLServer::SendShutdownMessage(unsigned long)
 SVLServer::SetRequestedConnectionInfoInternal(std::vector<char, std::allocator<char>>&, int)
 SVLServer::SetRequestedConnectionInfoInternal(std::vector<char, std::allocator<char>>&, int) (.cold)
-SVLServer::SetRequestedConnectionInfoInternal(std::vector<char, std::allocator<char>>&, int)::k_pathSteamRunningAtStartup
 SVLServer::SetRequestedConnectionInfoInternal(std::vector<char, std::allocator<char>>&, int)::k_pathSteamVrConnectionReady
 SVLServer::Shutdown()
 SVLServer::Shutdown()\n
@@ -4756,6 +4748,7 @@ UnpackFloatProperty(float, unsigned int, unsigned long, vr::ETrackedDeviceProper
 UnpackPose(vr::DriverPose_t*, PackedPose_t const&)
 UnpackStringProperty(char const*, unsigned int, unsigned long, vr::ETrackedDeviceProperty, int)
 UnpackStringProperty(char const*, unsigned int, unsigned long, vr::ETrackedDeviceProperty, int) (.part.0)
+UnpackVTEProps(unsigned long, VTE_ClientStreamingInfo_t const&)
 UnpackVTEProps(unsigned long, VTE_PowerProps_t const&)
 UnpackVTEProps(unsigned long, VTE_StaticProps_t const&)
 Unpack_SNORM_Uint8(unsigned char)
@@ -4985,6 +4978,7 @@ VREvent_ScreenshotTriggered
 VREvent_ScrollDiscrete
 VREvent_ScrollSmooth
 VREvent_SeatedZeroPoseReset
+VREvent_SetTrackingRecordingPath
 VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
@@ -5679,6 +5673,7 @@ Zjz\v
 \t],\n\t"latencyLog" : [\n
 \t],\n\t"sPingHistogramv1" : [
 \t],\n\t"soundData" : [\n
+\tcXyMM5M6=,"
 \u%04x
 \u%04x\u%04x
 \ufffd
@@ -5695,7 +5690,6 @@ _GLOBAL__sub_I_AdvancedFrameTimeMonitoring.cpp
 _GLOBAL__sub_I_ByteLogger.cpp
 _GLOBAL__sub_I_SVL.cpp
 _GLOBAL__sub_I_SVLAudio.cpp
-_GLOBAL__sub_I_SVLAudioJitterBuffer.cpp
 _GLOBAL__sub_I_SVLAudioPipewire.cpp
 _GLOBAL__sub_I_SVLCanvas.cpp
 _GLOBAL__sub_I_SVLCodec.cpp
@@ -5980,7 +5974,7 @@ __wcsxfrm_l
 __wctype_l
 __xstat
 __xstat64
-_abw2
+_abw3
 _edata
 _end
 _exit
@@ -6679,6 +6673,7 @@ glGenSemaphoresEXT
 glGenTextures
 glGetIntegerv
 glGetMemoryObjectParameterivEXT
+glGetSemaphoreParameterivNV
 glGetSemaphoreParameterui64vEXT
 glGetStringi
 glGetUnsignedBytei_vEXT
@@ -6687,12 +6682,14 @@ glImportMemoryFdEXT
 glImportSemaphoreFdEXT
 glMemoryObjectParameterivEXT
 glPixelStorei
+glSemaphoreParameterivNV
 glSemaphoreParameterui64vEXT
 glSignalSemaphoreEXT
 glTF
 glTexParameteri
 glTexStorageMem2DEXT
 glTexStorageMem2DMultisampleEXT
+glTexStorageMem3DEXT
 glWaitSemaphoreEXT
 glXGetProcAddress
 global
@@ -6708,6 +6705,7 @@ guard variable for AdvancedFrameTimeMonitoring::UpdateLatency(unsigned int)::ulD
 guard variable for AdvancedFrameTimeMonitoring::UpdateLongLatency(unsigned int)::k_pathWirelessLatencyMsLong
 guard variable for AdvancedFrameTimeMonitoring::UpdateLongLatency(unsigned int)::ulDeviceContainer
 guard variable for BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
+guard variable for CSharedCountingSemaphoreLinux::Wait(unsigned long, vr::VRNativeDevice_t const*)::s_bDisableTimelineSemaphoreWait
 guard variable for CVRLog::InitLog(char const*, char const*, bool, unsigned long)::sb_combinedLogging
 guard variable for ComputeDeviceEnumFromTrackedDeviceIndex(unsigned int)::k_pathLeftHand
 guard variable for ComputeDeviceEnumFromTrackedDeviceIndex(unsigned int)::k_pathRightHand
@@ -6734,8 +6732,7 @@ guard variable for SDLDynamic()::m_instance
 guard variable for SVLAudioPipewire::ProcessSource()::s_pDebugFile
 guard variable for SVLHMDDriver::HandleNetworkTestReportFromClient()::k_pathDriverVrlinkNetworkTestedBandwidth
 guard variable for SVLHMDDriver::ReceivedHMDStaticProps(VTE_StaticProps_t&)::k_pathDriverVrlinkGotEyeAndExpression
-guard variable for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const::k_pathDriverVrlinkClientVersion
-guard variable for SVLServer::SetRequestedConnectionInfoInternal(std::vector<char, std::allocator<char>>&, int)::k_pathSteamRunningAtStartup
+guard variable for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const::k_pathDriverVrlinkClientVersion
 guard variable for SVLServer::SetRequestedConnectionInfoInternal(std::vector<char, std::allocator<char>>&, int)::k_pathSteamVrConnectionReady
 guard variable for SetDashboardVisibleInternal(bool)::k_pathDashboardVisible
 guard variable for SetLinkEnvironment(ELinkEnvironment)::k_pathIsLinkEnvironment
@@ -6791,7 +6788,6 @@ guard variable for videoenc::UpdateBWMux()::k_pathDriverVrlinkNetworkTestedBandw
 guard variable for videovulkan::CreateVideoSessionParamaters()::uMaxTransformHeirarchyDepth
 guest
 hand_right_poses.glb
-handle_link_button
 handle_recenter
 handlers
 height
@@ -7287,6 +7283,7 @@ pHeader->resourceInfo.image.uHeight
 pHeader->resourceInfo.image.uWidth
 pHeader->resourceInfo.image.unArraySize
 pHeader->resourceInfo.image.unMipLevels
+pNativeDevice != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
 pNext == ( m_buffer.data() + m_buffer.size() )
@@ -7294,6 +7291,7 @@ pRead->unBufferSize > 0u
 pRead->unRequiredBufferSize == sizeof( T )
 pRead->unTag == unTag
 pRead->unTag == vr::k_unStringPropertyTag
+pSharedSemaphore != nullptr
 params
 parse error
 parse_error
@@ -7415,6 +7413,7 @@ recvmsg
 refDistance
 rejectDupKeys
 relfovtext
+remote_dashboard_open
 rename
 renderHeight
 renderWidth
@@ -7480,7 +7479,7 @@ s_pLogCallback
 s_pLogFile
 s_rchProcessIdentifier
 s_thread_pRobustListStruct
-s_ulOurOverlayHandles
+s_ulTrackedEventOverlayHandles
 sampler
 samplers
 sbox
@@ -7837,6 +7836,7 @@ std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lamb
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda1'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda2'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda3'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda4'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
@@ -7908,9 +7908,10 @@ std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda1'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda1'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&) (.cold)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
-std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&) (.cold)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&) (.cold)
+std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
+std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&) (.cold)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda2'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda3'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda4'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
@@ -11108,6 +11109,7 @@ std::vector<int, std::allocator<int>>::_M_default_append(unsigned long)
 std::vector<int, std::allocator<int>>::_M_fill_insert(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, unsigned long, int const&)
 std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>>::reserve(unsigned long)
 std::vector<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>, std::allocator<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>>::~vector()
+std::vector<short, std::allocator<short>>::_M_default_append(unsigned long)
 std::vector<std::Catalog_info*, std::allocator<std::Catalog_info*>>::_M_realloc_insert(__gnu_cxx::__normal_iterator<std::Catalog_info**, std::vector<std::Catalog_info*, std::allocator<std::Catalog_info*>>>, std::Catalog_info* const&)
 std::vector<std::pair<void*, std::function<void (ValueTransportID, bool)>>, std::allocator<std::pair<void*, std::function<void (ValueTransportID, bool)>>>>::_M_erase(__gnu_cxx::__normal_iterator<std::pair<void*, std::function<void (ValueTransportID, bool)>>*, std::vector<std::pair<void*, std::function<void (ValueTransportID, bool)>>, std::allocator<std::pair<void*, std::function<void (ValueTransportID, bool)>>>>>)
 std::vector<std::shared_ptr<VariableTransportHolder>, std::allocator<std::shared_ptr<VariableTransportHolder>>>::_M_default_append(unsigned long)
@@ -11654,6 +11656,7 @@ typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda0'(ValueTransportID,
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda1'(ValueTransportID, bool)
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)
+typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda2'(ValueTransportID, bool)
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda3'(ValueTransportID, bool)
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda4'(ValueTransportID, bool)
@@ -12028,6 +12031,7 @@ typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda0'(ValueTranspo
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda1'(ValueTransportID, bool)
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)
+typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda2'(ValueTransportID, bool)
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda3'(ValueTransportID, bool)
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda4'(ValueTransportID, bool)
@@ -12359,6 +12363,9 @@ version
 version.txt
 vi_vn
 video_encode
+videoenc::BWHistoryClear()
+videoenc::BWHistoryGetMean()
+videoenc::BWHistoryPush(float)
 videoenc::ComputeMaxSizeFromAtlasMode()
 videoenc::GetIdealSlicesForAtlasMode()
 videoenc::GetOtherSessionsList(std::vector<std::string, std::allocator<std::string>>&)
@@ -12405,7 +12412,7 @@ virtual thunk to CSharedBufferLinux::GetVulkanMemoryHandleType() const
 virtual thunk to CSharedBufferLinux::ImportVulkanBuffer(VkDevice_T*, unsigned long)
 virtual thunk to CSharedBufferLinux::PrepareVulkanBufferForExport(VkDevice_T*, VkBuffer_T*, VkDeviceMemory_T*, unsigned int, unsigned int, unsigned int, unsigned int)
 virtual thunk to CSharedBufferLinux::~CSharedBufferLinux()
-virtual thunk to CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*)
+virtual thunk to CSharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore(VkDevice_T*, bool)
 virtual thunk to CSharedCountingSemaphoreLinux::GetType() const
 virtual thunk to CSharedCountingSemaphoreLinux::ImportVulkanCountingSemaphore(VkDevice_T*, unsigned long)
 virtual thunk to CSharedCountingSemaphoreLinux::Signal(unsigned long, vr::VRNativeDevice_t const*)
@@ -12447,7 +12454,7 @@ virtual thunk to CSharedResourceBaseLinux::IncrementUpdateCount()
 virtual thunk to CSharedResourceBaseLinux::SignalSubmissionCompleted()
 virtual thunk to CSharedResourceBaseLinux::WaitSubmissionCompleted(vr::IVRSharedSemaphore*)
 virtual thunk to CSharedResourceBaseLinux::~CSharedResourceBaseLinux()
-virtual thunk to CSharedSemaphoreLinux::GetOGLSemaphore()
+virtual thunk to CSharedSemaphoreLinux::GetOGLSemaphore(bool)
 virtual thunk to CSharedSemaphoreLinux::GetType() const
 virtual thunk to CSharedSemaphoreLinux::GetVulkanSemaphore() const
 virtual thunk to CSharedSemaphoreLinux::ImportVulkanSemaphore(VkDevice_T*, unsigned long)
@@ -13108,8 +13115,7 @@ vkQueueNotifyOutOfBandNV
 vkQueuePresentKHR
 vkQueueSetPerformanceConfigurationINTEL
 vkQueueSubmit
-vkQueueSubmit to signal/wait on counting semaphores failed with result %d. Wait count: %d\n
-vkQueueSubmit to wait on counting semaphores failed with result %d.\n
+vkQueueSubmit to wait on counting semaphores failed with result %d Value: %lx
 vkQueueSubmit( m_State.pVkGraphicsQueue, 1u, &submitInfo, VK_NULL_HANDLE ) failed! (VkResult: %d)
 vkQueueSubmit2
 vkQueueSubmit2KHR
@@ -13141,6 +13147,7 @@ vkSetLocalDimmingAMD
 vkSetPrivateData
 vkSetPrivateDataEXT
 vkSignalSemaphore
+vkSignalSemaphore failed with result %d. Value: %lx
 vkSignalSemaphoreKHR
 vkSubmitDebugUtilsMessageEXT
 vkTransitionImageLayoutEXT
@@ -13321,7 +13328,7 @@ vr::IVRSharedBuffer::GetVulkanBufferMemory() const
 vr::IVRSharedBuffer::GetVulkanMemoryHandleType() const
 vr::IVRSharedBuffer::ImportVulkanBuffer(VkDevice_T*, unsigned long)
 vr::IVRSharedBuffer::PrepareVulkanBufferForExport(VkDevice_T*, VkBuffer_T*, VkDeviceMemory_T*, unsigned int, unsigned int, unsigned int, unsigned int)
-vr::IVRSharedCountingSemaphore::CreateVulkanCountingSemaphore(VkDevice_T*)
+vr::IVRSharedCountingSemaphore::CreateVulkanCountingSemaphore(VkDevice_T*, bool)
 vr::IVRSharedCountingSemaphore::ImportVulkanCountingSemaphore(VkDevice_T*, unsigned long)
 vr::IVRSharedImage::GetOGLTexture()
 vr::IVRSharedImage::GetVulkanImage() const
@@ -13331,7 +13338,7 @@ vr::IVRSharedImage::ImportOGLImage(unsigned long)
 vr::IVRSharedImage::ImportVulkanImage(VkDevice_T*, unsigned long)
 vr::IVRSharedImage::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
 vr::IVRSharedResource::CreateFD()
-vr::IVRSharedSemaphore::GetOGLSemaphore()
+vr::IVRSharedSemaphore::GetOGLSemaphore(bool)
 vr::IVRSharedSemaphore::GetVulkanSemaphore() const
 vr::IVRSharedSemaphore::ImportVulkanSemaphore(VkDevice_T*, unsigned long)
 vr::IVRSharedSemaphore::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*)

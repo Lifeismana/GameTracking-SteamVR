@@ -1,6 +1,6 @@
-var CLSTAMP = "9839182";
+var CLSTAMP = "9887103";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [177],
+  [797],
   {
     1977: (e, t, s) => {
       s(6540);
@@ -13,9 +13,27 @@ var CLSTAMP = "9839182";
       i.Component;
     },
     4189: (e, t, s) => {
-      s(6540);
-      var i = s(3496);
-      i._J;
+      var i = s(1635),
+        a = s(3496),
+        n = s(3236);
+      class r extends a._J {
+        constructor(e) {
+          super(e), super.setBuildNodeOverride(this.buildNode);
+        }
+        getNodeType() {
+          return "head-facing-transform";
+        }
+        buildNode(e, t) {
+          var s;
+          const i = this.createSgNode(t);
+          return (
+            (i.properties.up =
+              null !== (s = this.props.up) && void 0 !== s ? s : "world"),
+            [e, i]
+          );
+        }
+      }
+      (0, i.Cg)([n.o], r.prototype, "buildNode", null);
     },
     5227: (e, t, s) => {
       s.d(t, { N: () => n });
@@ -402,4 +420,4 @@ var CLSTAMP = "9839182";
         (0, a.Cg)([d.o], m.prototype, "onMutation", null);
     },
   },
-]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~58e8d1f62.js.map
+]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~7f75cbff5.js.map

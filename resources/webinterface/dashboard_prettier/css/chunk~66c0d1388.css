@@ -1,3 +1,66 @@
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-thin.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-regular-italic.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-light-italic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-bold-italic.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Motiva Sans";
+  src: url("/fonts/get_font?font=motiva-sans-extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
 :root {
   --gamepadui-lightest-grey: #dcdedf;
   --gamepadui-lighter-grey: #b8bcbf;
@@ -820,4 +883,4 @@ img.BlackToWhite {
   filter: invert(100%) sepia(40%) saturate(2%) hue-rotate(196deg)
     brightness(105%) contrast(101%);
 }
-/*# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~ffa236804.css.map*/
+/*# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~66c0d1388.css.map*/

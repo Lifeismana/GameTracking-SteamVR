@@ -1,5 +1,6 @@
  for detail.\n
 !! refusing to trigger minidump with debugger attached\n
+%Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
@@ -21,12 +22,15 @@
 .?AUBuiltStyledStreamWriter@Json@@
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
-.?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
+.?AV<lambda_47c3209da383d7794c817309de1026a4>@@
+.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
+.?AV?$_Func_base@PEAXPEBD@std@@
 .?AV?$_Func_base@XPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_47c3209da383d7794c817309de1026a4>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
@@ -127,7 +131,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-10:02:54
+12:32:07
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -228,6 +232,7 @@ Driver Tracked Device Interface unknown (209)
 Driver runtime is out of date (204)
 Driver unable to initialize video encoder (499)
 Duplicate key: '
+ERROR: Failed to open log file %s, attempting timestamped filename\n
 Empty escape sequence in string
 EnterCriticalSection
 Error
@@ -235,7 +240,7 @@ Exceeded stackLimit in readValue().
 Exception %08x\n
 Executable: %s\n
 Extra non-whitespace after JSON value.
-FATAL: Failed to open log file %s\n
+FATAL: Failed to open log file %s, failing out!\n
 Factory Function Not Found (104)
 Fatal
 File Not Found (103)
@@ -289,26 +294,50 @@ IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_
 ITrackedDeviceServerDriver_004
 ITrackedDeviceServerDriver_005
+IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
 IVRCameraComponent_
 IVRCameraComponent_001
 IVRCameraComponent_002
 IVRChaperoneInternal_XXX
+IVRChaperoneSetup_006
+IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
+IVRCompositorSystemInternal_XXX
+IVRControlPanel_006
 IVRControllerComponent_
+IVRDebug_001
 IVRDisplayComponent_
 IVRDisplayComponent_001
+IVRDriverDirectInternal_XXX
 IVRDriverDirectModeComponent_
+IVRDriverInputInternal_XXX
 IVRDriverLog_001
+IVRDriverManager_001
+IVRExtendedDisplay_001
+IVRInputInternal_002
+IVRInput_010
 IVRMailbox_002
+IVRNotificationsInternal_001
+IVROverlayInternal_XXX
+IVROverlay_028
+IVRPathsInternal_001
+IVRPaths_001
+IVRPropertiesInternal_001
+IVRProperties_001
+IVRRenderModelsInternal_XXX
+IVRRenderModels_006
+IVRResources_001
 IVRServerDriverHost_004
 IVRServerDriverHost_006
 IVRServerInternal_XXX
+IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRSystem_023
+IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
 IVRWatchdogProvider_001
@@ -327,7 +356,7 @@ Invalid Arguments
 Invalid Interface (106)
 IsDebuggerPresent
 IsProcessorFeaturePresent
-Jun 18 2025
+Jul  9 2025
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -357,7 +386,7 @@ Out of thread local storage!\n
 OutputDebugStringA
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSr
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey
@@ -751,6 +780,7 @@ _set_app_type
 _set_fmode
 _set_new_mode
 _stricmp
+_time64
 _wfopen_s
 _wfsopen
 _wstat64i32

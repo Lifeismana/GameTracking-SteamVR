@@ -1,4 +1,4 @@
-var CLSTAMP = "9839182";
+var CLSTAMP = "9887103";
 (() => {
   "use strict";
   var e,
@@ -7,16 +7,16 @@ var CLSTAMP = "9839182";
         var n = Symbol.for("react.element"),
           r = Symbol.for("react.portal"),
           o = Symbol.for("react.fragment"),
-          l = Symbol.for("react.strict_mode"),
-          a = Symbol.for("react.profiler"),
+          a = Symbol.for("react.strict_mode"),
+          s = Symbol.for("react.profiler"),
           i = Symbol.for("react.provider"),
-          s = Symbol.for("react.context"),
+          l = Symbol.for("react.context"),
           u = Symbol.for("react.forward_ref"),
           c = Symbol.for("react.suspense"),
           d = Symbol.for("react.memo"),
           f = Symbol.for("react.lazy"),
           p = Symbol.iterator;
-        var S = {
+        var y = {
             isMounted: function () {
               return !1;
             },
@@ -24,71 +24,71 @@ var CLSTAMP = "9839182";
             enqueueReplaceState: function () {},
             enqueueSetState: function () {},
           },
-          m = Object.assign,
-          h = {};
-        function _(e, t, n) {
-          (this.props = e),
-            (this.context = t),
-            (this.refs = h),
-            (this.updater = n || S);
-        }
-        function y() {}
+          _ = Object.assign,
+          S = {};
         function v(e, t, n) {
           (this.props = e),
             (this.context = t),
-            (this.refs = h),
-            (this.updater = n || S);
+            (this.refs = S),
+            (this.updater = n || y);
         }
-        (_.prototype.isReactComponent = {}),
-          (_.prototype.setState = function (e, t) {
+        function h() {}
+        function m(e, t, n) {
+          (this.props = e),
+            (this.context = t),
+            (this.refs = S),
+            (this.updater = n || y);
+        }
+        (v.prototype.isReactComponent = {}),
+          (v.prototype.setState = function (e, t) {
             if ("object" != typeof e && "function" != typeof e && null != e)
               throw Error(
                 "setState(...): takes an object of state variables to update or a function which returns an object of state variables.",
               );
             this.updater.enqueueSetState(this, e, t, "setState");
           }),
-          (_.prototype.forceUpdate = function (e) {
+          (v.prototype.forceUpdate = function (e) {
             this.updater.enqueueForceUpdate(this, e, "forceUpdate");
           }),
-          (y.prototype = _.prototype);
-        var g = (v.prototype = new y());
-        (g.constructor = v), m(g, _.prototype), (g.isPureReactComponent = !0);
-        var R = Array.isArray,
-          C = Object.prototype.hasOwnProperty,
-          O = { current: null },
+          (h.prototype = v.prototype);
+        var R = (m.prototype = new h());
+        (R.constructor = m), _(R, v.prototype), (R.isPureReactComponent = !0);
+        var g = Array.isArray,
+          O = Object.prototype.hasOwnProperty,
+          C = { current: null },
           b = { key: !0, ref: !0, __self: !0, __source: !0 };
-        function T(e, t, r) {
+        function k(e, t, r) {
           var o,
-            l = {},
-            a = null,
+            a = {},
+            s = null,
             i = null;
           if (null != t)
             for (o in (void 0 !== t.ref && (i = t.ref),
-            void 0 !== t.key && (a = "" + t.key),
+            void 0 !== t.key && (s = "" + t.key),
             t))
-              C.call(t, o) && !b.hasOwnProperty(o) && (l[o] = t[o]);
-          var s = arguments.length - 2;
-          if (1 === s) l.children = r;
-          else if (1 < s) {
-            for (var u = Array(s), c = 0; c < s; c++) u[c] = arguments[c + 2];
-            l.children = u;
+              O.call(t, o) && !b.hasOwnProperty(o) && (a[o] = t[o]);
+          var l = arguments.length - 2;
+          if (1 === l) a.children = r;
+          else if (1 < l) {
+            for (var u = Array(l), c = 0; c < l; c++) u[c] = arguments[c + 2];
+            a.children = u;
           }
           if (e && e.defaultProps)
-            for (o in (s = e.defaultProps)) void 0 === l[o] && (l[o] = s[o]);
+            for (o in (l = e.defaultProps)) void 0 === a[o] && (a[o] = l[o]);
           return {
             $$typeof: n,
             type: e,
-            key: a,
+            key: s,
             ref: i,
-            props: l,
-            _owner: O.current,
+            props: a,
+            _owner: C.current,
           };
         }
-        function k(e) {
+        function T(e) {
           return "object" == typeof e && null !== e && e.$$typeof === n;
         }
-        var P = /\/+/g;
-        function M(e, t) {
+        var M = /\/+/g;
+        function P(e, t) {
           return "object" == typeof e && null !== e && null != e.key
             ? (function (e) {
                 var t = { "=": "=0", ":": "=2" };
@@ -101,37 +101,37 @@ var CLSTAMP = "9839182";
               })("" + e.key)
             : t.toString(36);
         }
-        function E(e, t, o, l, a) {
+        function A(e, t, o, a, s) {
           var i = typeof e;
           ("undefined" !== i && "boolean" !== i) || (e = null);
-          var s = !1;
-          if (null === e) s = !0;
+          var l = !1;
+          if (null === e) l = !0;
           else
             switch (i) {
               case "string":
               case "number":
-                s = !0;
+                l = !0;
                 break;
               case "object":
                 switch (e.$$typeof) {
                   case n:
                   case r:
-                    s = !0;
+                    l = !0;
                 }
             }
-          if (s)
+          if (l)
             return (
-              (a = a((s = e))),
-              (e = "" === l ? "." + M(s, 0) : l),
-              R(a)
+              (s = s((l = e))),
+              (e = "" === a ? "." + P(l, 0) : a),
+              g(s)
                 ? ((o = ""),
-                  null != e && (o = e.replace(P, "$&/") + "/"),
-                  E(a, t, o, "", function (e) {
+                  null != e && (o = e.replace(M, "$&/") + "/"),
+                  A(s, t, o, "", function (e) {
                     return e;
                   }))
-                : null != a &&
-                  (k(a) &&
-                    (a = (function (e, t) {
+                : null != s &&
+                  (T(s) &&
+                    (s = (function (e, t) {
                       return {
                         $$typeof: n,
                         type: e.type,
@@ -141,20 +141,20 @@ var CLSTAMP = "9839182";
                         _owner: e._owner,
                       };
                     })(
-                      a,
+                      s,
                       o +
-                        (!a.key || (s && s.key === a.key)
+                        (!s.key || (l && l.key === s.key)
                           ? ""
-                          : ("" + a.key).replace(P, "$&/") + "/") +
+                          : ("" + s.key).replace(M, "$&/") + "/") +
                         e,
                     )),
-                  t.push(a)),
+                  t.push(s)),
               1
             );
-          if (((s = 0), (l = "" === l ? "." : l + ":"), R(e)))
+          if (((l = 0), (a = "" === a ? "." : a + ":"), g(e)))
             for (var u = 0; u < e.length; u++) {
-              var c = l + M((i = e[u]), u);
-              s += E(i, t, o, c, a);
+              var c = a + P((i = e[u]), u);
+              l += A(i, t, o, c, s);
             }
           else if (
             ((c = (function (e) {
@@ -167,7 +167,7 @@ var CLSTAMP = "9839182";
             "function" == typeof c)
           )
             for (e = c.call(e), u = 0; !(i = e.next()).done; )
-              s += E((i = i.value), t, o, (c = l + M(i, u++)), a);
+              l += A((i = i.value), t, o, (c = a + P(i, u++)), s);
           else if ("object" === i)
             throw (
               ((t = String(e)),
@@ -179,20 +179,20 @@ var CLSTAMP = "9839182";
                   "). If you meant to render a collection of children, use an array instead.",
               ))
             );
-          return s;
+          return l;
         }
-        function A(e, t, n) {
+        function I(e, t, n) {
           if (null == e) return e;
           var r = [],
             o = 0;
           return (
-            E(e, r, "", "", function (e) {
+            A(e, r, "", "", function (e) {
               return t.call(n, e, o++);
             }),
             r
           );
         }
-        function I(e) {
+        function w(e) {
           if (-1 === e._status) {
             var t = e._result;
             (t = t()).then(
@@ -210,12 +210,12 @@ var CLSTAMP = "9839182";
           if (1 === e._status) return e._result.default;
           throw e._result;
         }
-        var w = { current: null },
-          B = { transition: null },
+        var B = { current: null },
+          E = { transition: null },
           x = {
-            ReactCurrentDispatcher: w,
-            ReactCurrentBatchConfig: B,
-            ReactCurrentOwner: O,
+            ReactCurrentDispatcher: B,
+            ReactCurrentBatchConfig: E,
+            ReactCurrentOwner: C,
           };
         function D() {
           throw Error(
@@ -223,9 +223,9 @@ var CLSTAMP = "9839182";
           );
         }
         (t.Children = {
-          map: A,
+          map: I,
           forEach: function (e, t, n) {
-            A(
+            I(
               e,
               function () {
                 t.apply(this, arguments);
@@ -236,7 +236,7 @@ var CLSTAMP = "9839182";
           count: function (e) {
             var t = 0;
             return (
-              A(e, function () {
+              I(e, function () {
                 t++;
               }),
               t
@@ -244,24 +244,24 @@ var CLSTAMP = "9839182";
           },
           toArray: function (e) {
             return (
-              A(e, function (e) {
+              I(e, function (e) {
                 return e;
               }) || []
             );
           },
           only: function (e) {
-            if (!k(e))
+            if (!T(e))
               throw Error(
                 "React.Children.only expected to receive a single React element child.",
               );
             return e;
           },
         }),
-          (t.Component = _),
+          (t.Component = v),
           (t.Fragment = o),
-          (t.Profiler = a),
-          (t.PureComponent = v),
-          (t.StrictMode = l),
+          (t.Profiler = s),
+          (t.PureComponent = m),
+          (t.StrictMode = a),
           (t.Suspense = c),
           (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = x),
           (t.act = D),
@@ -272,34 +272,34 @@ var CLSTAMP = "9839182";
                   e +
                   ".",
               );
-            var o = m({}, e.props),
-              l = e.key,
-              a = e.ref,
+            var o = _({}, e.props),
+              a = e.key,
+              s = e.ref,
               i = e._owner;
             if (null != t) {
               if (
-                (void 0 !== t.ref && ((a = t.ref), (i = O.current)),
-                void 0 !== t.key && (l = "" + t.key),
+                (void 0 !== t.ref && ((s = t.ref), (i = C.current)),
+                void 0 !== t.key && (a = "" + t.key),
                 e.type && e.type.defaultProps)
               )
-                var s = e.type.defaultProps;
+                var l = e.type.defaultProps;
               for (u in t)
-                C.call(t, u) &&
+                O.call(t, u) &&
                   !b.hasOwnProperty(u) &&
-                  (o[u] = void 0 === t[u] && void 0 !== s ? s[u] : t[u]);
+                  (o[u] = void 0 === t[u] && void 0 !== l ? l[u] : t[u]);
             }
             var u = arguments.length - 2;
             if (1 === u) o.children = r;
             else if (1 < u) {
-              s = Array(u);
-              for (var c = 0; c < u; c++) s[c] = arguments[c + 2];
-              o.children = s;
+              l = Array(u);
+              for (var c = 0; c < u; c++) l[c] = arguments[c + 2];
+              o.children = l;
             }
             return {
               $$typeof: n,
               type: e.type,
-              key: l,
-              ref: a,
+              key: a,
+              ref: s,
               props: o,
               _owner: i,
             };
@@ -307,7 +307,7 @@ var CLSTAMP = "9839182";
           (t.createContext = function (e) {
             return (
               ((e = {
-                $$typeof: s,
+                $$typeof: l,
                 _currentValue: e,
                 _currentValue2: e,
                 _threadCount: 0,
@@ -319,9 +319,9 @@ var CLSTAMP = "9839182";
               (e.Consumer = e)
             );
           }),
-          (t.createElement = T),
+          (t.createElement = k),
           (t.createFactory = function (e) {
-            var t = T.bind(null, e);
+            var t = k.bind(null, e);
             return (t.type = e), t;
           }),
           (t.createRef = function () {
@@ -330,144 +330,145 @@ var CLSTAMP = "9839182";
           (t.forwardRef = function (e) {
             return { $$typeof: u, render: e };
           }),
-          (t.isValidElement = k),
+          (t.isValidElement = T),
           (t.lazy = function (e) {
             return {
               $$typeof: f,
               _payload: { _status: -1, _result: e },
-              _init: I,
+              _init: w,
             };
           }),
           (t.memo = function (e, t) {
             return { $$typeof: d, type: e, compare: void 0 === t ? null : t };
           }),
           (t.startTransition = function (e) {
-            var t = B.transition;
-            B.transition = {};
+            var t = E.transition;
+            E.transition = {};
             try {
               e();
             } finally {
-              B.transition = t;
+              E.transition = t;
             }
           }),
           (t.unstable_act = D),
           (t.useCallback = function (e, t) {
-            return w.current.useCallback(e, t);
+            return B.current.useCallback(e, t);
           }),
           (t.useContext = function (e) {
-            return w.current.useContext(e);
+            return B.current.useContext(e);
           }),
           (t.useDebugValue = function () {}),
           (t.useDeferredValue = function (e) {
-            return w.current.useDeferredValue(e);
+            return B.current.useDeferredValue(e);
           }),
           (t.useEffect = function (e, t) {
-            return w.current.useEffect(e, t);
+            return B.current.useEffect(e, t);
           }),
           (t.useId = function () {
-            return w.current.useId();
+            return B.current.useId();
           }),
           (t.useImperativeHandle = function (e, t, n) {
-            return w.current.useImperativeHandle(e, t, n);
+            return B.current.useImperativeHandle(e, t, n);
           }),
           (t.useInsertionEffect = function (e, t) {
-            return w.current.useInsertionEffect(e, t);
+            return B.current.useInsertionEffect(e, t);
           }),
           (t.useLayoutEffect = function (e, t) {
-            return w.current.useLayoutEffect(e, t);
+            return B.current.useLayoutEffect(e, t);
           }),
           (t.useMemo = function (e, t) {
-            return w.current.useMemo(e, t);
+            return B.current.useMemo(e, t);
           }),
           (t.useReducer = function (e, t, n) {
-            return w.current.useReducer(e, t, n);
+            return B.current.useReducer(e, t, n);
           }),
           (t.useRef = function (e) {
-            return w.current.useRef(e);
+            return B.current.useRef(e);
           }),
           (t.useState = function (e) {
-            return w.current.useState(e);
+            return B.current.useState(e);
           }),
           (t.useSyncExternalStore = function (e, t, n) {
-            return w.current.useSyncExternalStore(e, t, n);
+            return B.current.useSyncExternalStore(e, t, n);
           }),
           (t.useTransition = function () {
-            return w.current.useTransition();
+            return B.current.useTransition();
           }),
           (t.version = "18.3.1");
       },
       6090: (e, t, n) => {
         n.d(t, {
-          $: () => b.$,
-          $Z: () => O.$Z,
+          $: () => k.$,
+          $Z: () => b.$Z,
           Ay: () => T,
           CU: () => o.CU,
-          Ci: () => h.C,
-          Cw: () => l.C,
-          Ee: () => O.Ee,
+          Ci: () => S.C,
+          Cw: () => a.C,
+          Ee: () => b.Ee,
           Em: () => d.Em,
           Fb: () => o.Fb,
-          Fi: () => _.Fi,
-          GQ: () => O.GQ,
-          Gz: () => O.Gz,
-          HW: () => O.HW,
+          Fi: () => v.Fi,
+          GQ: () => b.GQ,
+          Gz: () => b.Gz,
+          HW: () => b.HW,
           I0: () => r.I0,
           JZ: () => o.JZ,
-          KI: () => b.KI,
+          KI: () => k.KI,
           Ld: () => o.Ld,
-          MQ: () => _.MQ,
-          MV: () => O.MV,
+          MQ: () => v.MQ,
+          MV: () => b.MV,
           N: () => i.e,
-          N1: () => m.N,
-          NB: () => O.NB,
+          N1: () => _.N,
+          NB: () => b.NB,
           NH: () => o.NH,
           O5: () => f.O,
           O6: () => o.O6,
-          OH: () => O.OH,
-          Oi: () => _.Oi,
-          Ox: () => O.Ox,
+          OH: () => b.OH,
+          Oi: () => v.Oi,
+          Ox: () => b.Ox,
           QB: () => o.QB,
-          QR: () => b.QR,
-          R$: () => O.R$,
-          Rk: () => O.Rk,
+          QR: () => k.QR,
+          R$: () => b.R$,
+          Rk: () => b.Rk,
           Se: () => o.Se,
           Uj: () => o.Uj,
           Vh: () => p.V,
-          Xl: () => O.Xl,
-          Y4: () => s.Y,
-          Zk: () => _.Zk,
-          _1: () => O._1,
-          _h: () => _._h,
+          Xl: () => b.Xl,
+          Y4: () => l.Y,
+          Zk: () => v.Zk,
+          _1: () => b._1,
+          _h: () => v._h,
           _n: () => r._n,
           aX: () => p.a,
-          b: () => O.b,
-          b$: () => R.b,
+          b: () => b.b,
+          b$: () => O.b,
           cB: () => g.L,
           dL: () => c.d,
           e_: () => o.e_,
-          en: () => b.en,
-          fD: () => b.fD,
-          gN: () => O.gN,
-          gO: () => a.g,
-          k2: () => O.k2,
-          kG: () => O.kG,
-          ku: () => O.ku,
-          lq: () => S.l,
+          en: () => k.en,
+          fD: () => k.fD,
+          gN: () => b.gN,
+          gO: () => s.g,
+          k2: () => b.k2,
+          kG: () => b.kG,
+          ku: () => b.ku,
+          lq: () => y.l,
+          m$: () => h.m,
           mX: () => r.mX,
-          mo: () => O.mo,
-          mu: () => O.mu,
+          mo: () => b.mo,
+          mu: () => b.mu,
           nX: () => d.nX,
-          ne: () => O.ne,
-          nq: () => v.n,
+          ne: () => b.ne,
+          nq: () => R.n,
           oN: () => o.oN,
           o_: () => o.o_,
           p0: () => o.p0,
-          pM: () => O.pM,
+          pM: () => b.pM,
           pg: () => r.pg,
           qF: () => o.qF,
           rF: () => u.H,
-          rx: () => O.rx,
-          sJ: () => y.$,
+          rx: () => b.rx,
+          sJ: () => m.$,
           sk: () => r.sk,
           tx: () => o.tx,
           uC: () => C.u,
@@ -475,30 +476,31 @@ var CLSTAMP = "9839182";
         });
         var r = n(2824),
           o = n(6292),
-          l = n(3389),
-          a = (n(4120), n(9424)),
+          a = n(3389),
+          s = (n(4120), n(9424)),
           i = n(1230),
-          s = n(5830),
+          l = n(5830),
           u = n(6186),
           c = n(3361),
           d = (n(111), n(5723)),
           f = (n(3496), n(5178)),
           p = (n(428), n(9011), n(7350)),
-          S = n(6847),
-          m = n(5227),
-          h = (n(10), n(1808)),
-          _ = n(7019),
-          y = (n(1988), n(2527), n(9864), n(4189), n(322), n(1977), n(6417)),
-          v = n(2303),
+          y = n(6847),
+          _ = n(5227),
+          S = (n(10), n(1808)),
+          v = n(7019),
+          h = (n(1988), n(2527), n(9864)),
+          m = (n(4189), n(322), n(1977), n(6417)),
+          R = n(2303),
           g = n(8715),
-          R = (n(4397), n(5459)),
+          O = (n(4397), n(5459)),
           C = n(8472),
-          O = (n(1184), n(3725)),
-          b = n(4367);
+          b = (n(1184), n(3725)),
+          k = n(4367);
         const T = VRHTML;
       },
       3725: (e, t, n) => {
-        var r, o, l, a;
+        var r, o, a, s;
         function i() {
           var e;
           return null !==
@@ -511,29 +513,29 @@ var CLSTAMP = "9839182";
         }
         n.d(t, {
           $Z: () => d,
-          Ee: () => O,
-          GQ: () => I,
+          Ee: () => C,
+          GQ: () => w,
           Gz: () => u,
-          HW: () => y,
-          MV: () => l,
-          NB: () => S,
+          HW: () => h,
+          MV: () => a,
+          NB: () => y,
           OH: () => r,
-          Ox: () => v,
+          Ox: () => m,
           R$: () => i,
-          Rk: () => m,
-          Xl: () => g,
-          _1: () => A,
-          _E: () => s,
-          b: () => R,
+          Rk: () => _,
+          Xl: () => R,
+          _1: () => I,
+          _E: () => l,
+          b: () => g,
           gN: () => b,
-          k2: () => P,
-          kG: () => T,
+          k2: () => M,
+          kG: () => k,
           ku: () => p,
-          mo: () => h,
-          mu: () => a,
+          mo: () => S,
+          mu: () => s,
           ne: () => c,
           pM: () => o,
-          rx: () => M,
+          rx: () => P,
         }),
           (function (e) {
             (e[(e.Desktop = 1)] = "Desktop"),
@@ -560,16 +562,16 @@ var CLSTAMP = "9839182";
                 "TrackingResult_Running_OutOfRange"),
               (e[(e.TrackingResult_Fallback_RotationOnly = 300)] =
                 "TrackingResult_Fallback_RotationOnly");
-          })(l || (l = {})),
+          })(a || (a = {})),
           (function (e) {
             (e[(e.Seated = 0)] = "Seated"),
               (e[(e.Standing = 1)] = "Standing"),
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
-          })(a || (a = {}));
-        let s = 0,
+          })(s || (s = {}));
+        let l = 0,
           u = 0,
           c = -1;
-        var d, f, p, S, m, h, _, y, v, g, R, C, O, b, T, k, P, M, E, A, I;
+        var d, f, p, y, _, S, v, h, m, R, g, O, C, b, k, T, M, P, A, I, w;
         !(function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
@@ -635,10 +637,10 @@ var CLSTAMP = "9839182";
               (e[(e.EnableClickStabilization = 134217728)] =
                 "EnableClickStabilization"),
               (e[(e.MultiCursor = 268435456)] = "MultiCursor");
-          })(S || (S = {})),
+          })(y || (y = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-          })(m || (m = {})),
+          })(_ || (_ = {})),
           (function (e) {
             (e[(e.Invalid = 0)] = "Invalid"),
               (e[(e.HMD = 1)] = "HMD"),
@@ -646,19 +648,19 @@ var CLSTAMP = "9839182";
               (e[(e.GenericTracker = 3)] = "GenericTracker"),
               (e[(e.TrackingReference = 4)] = "TrackingReference"),
               (e[(e.DisplayRedirect = 5)] = "DisplayRedirect");
-          })(h || (h = {})),
+          })(S || (S = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.NVIDIA = 1)] = "NVIDIA"),
               (e[(e.AMD = 2)] = "AMD");
-          })(_ || (_ = {})),
+          })(v || (v = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.Starting = 1)] = "Starting"),
               (e[(e.Quitting = 2)] = "Quitting"),
               (e[(e.Running = 3)] = "Running"),
               (e[(e.Waiting = 4)] = "Waiting");
-          })(y || (y = {})),
+          })(h || (h = {})),
           (function (e) {
             (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
               (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -669,16 +671,16 @@ var CLSTAMP = "9839182";
               (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
                 "CouldntFindOrCreateClientOverlay"),
               (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-          })(v || (v = {})),
+          })(m || (m = {})),
           (function (e) {
             (e[(e.Normal = 0)] = "Normal"),
               (e[(e.Password = 1)] = "Password"),
               (e[(e.Submit = 2)] = "Submit");
-          })(g || (g = {})),
+          })(R || (R = {})),
           (function (e) {
             (e[(e.SingleLine = 0)] = "SingleLine"),
               (e[(e.MultipleLines = 1)] = "MultipleLines");
-          })(R || (R = {})),
+          })(g || (g = {})),
           (function (e) {
             (e[(e.LaserMouse = 1)] = "LaserMouse"),
               (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -691,7 +693,7 @@ var CLSTAMP = "9839182";
                 "DriverRequestsApplicationPause"),
               (e[(e.DriverRequestsReducedRendering = 128)] =
                 "DriverRequestsReducedRendering");
-          })(C || (C = {})),
+          })(O || (O = {})),
           (function (e) {
             (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
               (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -708,7 +710,7 @@ var CLSTAMP = "9839182";
               (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
               (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
               (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-          })(O || (O = {})),
+          })(C || (C = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
@@ -729,7 +731,7 @@ var CLSTAMP = "9839182";
                 "TrackedControllerRole_Treadmill"),
               (e[(e.TrackedControllerRole_Max = 5)] =
                 "TrackedControllerRole_Max");
-          })(T || (T = {})),
+          })(k || (k = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -741,18 +743,18 @@ var CLSTAMP = "9839182";
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(k || (k = {})),
+          })(T || (T = {})),
           (function (e) {
             e[(e.Hostname = 0)] = "Hostname";
-          })(P || (P = {})),
+          })(M || (M = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(M || (M = {})),
+          })(P || (P = {})),
           (function (e) {
             (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
-          })(E || (E = {})),
+          })(A || (A = {})),
           (function (e) {
             (e[(e.Inactive = 0)] = "Inactive"),
               (e[(e.PendingReset = 1)] = "PendingReset"),
@@ -760,134 +762,22 @@ var CLSTAMP = "9839182";
               (e[(e.Default = 3)] = "Default"),
               (e[(e.CV = 4)] = "CV"),
               (e[(e.Manual = 5)] = "Manual");
-          })(A || (A = {})),
+          })(I || (I = {})),
           (function (e) {
             (e[(e.Small = 0)] = "Small"),
               (e[(e.Medium = 1)] = "Medium"),
               (e[(e.Large = 2)] = "Large"),
               (e[(e.Gigantic = 3)] = "Gigantic"),
               (e[(e.Standing = 4)] = "Standing");
-          })(I || (I = {}));
-      },
-      1139: (e, t, n) => {
-        n.d(t, { FH: () => i, Nc: () => c, aw: () => u, jE: () => s });
-        var r = n(1635),
-          o = n(6540),
-          l = n(3236),
-          a = n(7813);
-        function i(...e) {
-          return e
-            .filter((e) => null != e && ("string" == typeof e || e[1]))
-            .map((e) => ("string" == typeof e ? e : e[0]))
-            .join(" ");
-        }
-        function s(e, t) {
-          let n = t;
-          for (; n.parentElement && !e.some((e) => n.matches(e)); )
-            n = n.parentElement;
-          return n;
-        }
-        class u {
-          constructor() {
-            (this.onScroll = null),
-              (this.onScrollStop = null),
-              (this.m_elem = null),
-              (this.m_rScrollableParents = []),
-              (this.m_bScrolling = !1),
-              (this.m_scrollStopTimeoutHandle = void 0),
-              (0, a.Gn)(this);
-          }
-          ref(e) {
-            this.m_elem && this.cleanup(),
-              (this.m_elem = e),
-              this.updateScrollableParents();
-          }
-          get isScrolling() {
-            return this.m_bScrolling;
-          }
-          updateScrollableParents() {
-            for (let e of this.m_rScrollableParents)
-              e.removeEventListener("scroll", this.onParentScroll);
-            this.m_rScrollableParents = (function (e) {
-              let t = [];
-              if (!e) return t;
-              let n = e.parentElement;
-              for (; n; ) {
-                const e = n.scrollWidth > n.clientWidth,
-                  r = n.scrollHeight > n.clientHeight;
-                (e || r) && t.push(n), (n = n.parentElement);
-              }
-              return t;
-            })(this.m_elem);
-            for (let e of this.m_rScrollableParents)
-              e.addEventListener("scroll", this.onParentScroll);
-          }
-          cleanup() {
-            for (let e of this.m_rScrollableParents)
-              e.removeEventListener("scroll", this.onParentScroll);
-            (this.m_rScrollableParents = []),
-              (this.m_elem = null),
-              this.clearScrollStopTimeout();
-          }
-          onParentScroll() {
-            var e;
-            this.clearScrollStopTimeout(),
-              (this.m_bScrolling = !0),
-              (this.m_scrollStopTimeoutHandle = window.setTimeout(
-                this.onScrollStopTimeout,
-                50,
-              )),
-              null === (e = this.onScroll) || void 0 === e || e.call(this);
-          }
-          clearScrollStopTimeout() {
-            window.clearTimeout(this.m_scrollStopTimeoutHandle),
-              (this.m_scrollStopTimeoutHandle = void 0);
-          }
-          onScrollStopTimeout() {
-            var e;
-            this.m_bScrolling &&
-              (null === (e = this.onScrollStop) ||
-                void 0 === e ||
-                e.call(this)),
-              (this.m_bScrolling = !1);
-          }
-        }
-        function c() {
-          const [e, t] = o.useState(null),
-            n = o.useCallback(() => {
-              t(
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.VRDashboardManager.GetKeyboardInputInfo(),
-              );
-            }, []);
-          return (
-            o.useEffect(n, []),
-            o.useEffect(() => {
-              const e =
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.RegisterForKeyboardVisibilityChangedEvents(() =>
-                      n(),
-                    );
-              return () => (null == e ? void 0 : e.unregister());
-            }, [n]),
-            e
-          );
-        }
-        (0, r.Cg)([a.sH], u.prototype, "m_bScrolling", void 0),
-          (0, r.Cg)([l.o], u.prototype, "ref", null),
-          (0, r.Cg)([a.EW], u.prototype, "isScrolling", null),
-          (0, r.Cg)([l.o], u.prototype, "onParentScroll", null),
-          (0, r.Cg)([l.o], u.prototype, "onScrollStopTimeout", null);
+          })(w || (w = {}));
       },
       1583: (e, t, n) => {
         var r = n(1635),
           o = n(6540),
-          l = n(5338),
-          a = n(4015),
+          a = n(5338),
+          s = n(4015),
           i = n(3236),
-          s = n(6090),
+          l = n(6090),
           u = n(3714),
           c = n(6138),
           d = n(1333),
@@ -899,11 +789,11 @@ var CLSTAMP = "9839182";
             e.label,
           );
         }
-        let S = class extends o.Component {
+        let y = class extends o.Component {
           constructor(e) {
             super(e),
               (this.nMaxButtons = 4),
-              (this.m_mailbox = new s._n()),
+              (this.m_mailbox = new l._n()),
               (this.state = {
                 unCallingProcessID: 0,
                 sCaptionText: "Default Caption",
@@ -943,10 +833,10 @@ var CLSTAMP = "9839182";
                   "Close requested from owning process " +
                     this.state.unCallingProcessID,
                 ),
-                null === s.Ay ||
-                  void 0 === s.Ay ||
-                  s.Ay.VRDashboardManager.OnMessageOverlayResponse(
-                    s.Ox.ApplicationQuit,
+                null === l.Ay ||
+                  void 0 === l.Ay ||
+                  l.Ay.VRDashboardManager.OnMessageOverlayResponse(
+                    l.Ox.ApplicationQuit,
                   ),
                 this.ResetState(),
                 !0)
@@ -968,12 +858,12 @@ var CLSTAMP = "9839182";
                 sMessageText: e.sMessageText,
                 sButtonTexts: e.sButtonTexts,
               }),
-              null === s.Ay ||
-                void 0 === s.Ay ||
-                s.Ay.VROverlay.ShowDashboard(f.Qv);
+              null === l.Ay ||
+                void 0 === l.Ay ||
+                l.Ay.VROverlay.ShowDashboard(f.Qv);
           }
           ButtonClicked(e) {
-            if (!s.Ay)
+            if (!l.Ay)
               return (
                 console.log(
                   "Error: VRHTML isn't present--exiting without sending response.",
@@ -983,9 +873,9 @@ var CLSTAMP = "9839182";
             console.log(
               "Button " + e + " clicked, sending OnMessageOverlayResponse.",
             ),
-              null === s.Ay ||
-                void 0 === s.Ay ||
-                s.Ay.VRDashboardManager.OnMessageOverlayResponse(e),
+              null === l.Ay ||
+                void 0 === l.Ay ||
+                l.Ay.VRDashboardManager.OnMessageOverlayResponse(e),
               this.ResetState();
           }
           render() {
@@ -1008,28 +898,28 @@ var CLSTAMP = "9839182";
                     o.createElement(p, {
                       label: this.state.sButtonTexts[0],
                       onClick: () => {
-                        this.ButtonClicked(s.Ox.ButtonPress_0);
+                        this.ButtonClicked(l.Ox.ButtonPress_0);
                       },
                     }),
                   this.state.sButtonTexts[1] &&
                     o.createElement(p, {
                       label: this.state.sButtonTexts[1],
                       onClick: () => {
-                        this.ButtonClicked(s.Ox.ButtonPress_1);
+                        this.ButtonClicked(l.Ox.ButtonPress_1);
                       },
                     }),
                   this.state.sButtonTexts[2] &&
                     o.createElement(p, {
                       label: this.state.sButtonTexts[2],
                       onClick: () => {
-                        this.ButtonClicked(s.Ox.ButtonPress_2);
+                        this.ButtonClicked(l.Ox.ButtonPress_2);
                       },
                     }),
                   this.state.sButtonTexts[3] &&
                     o.createElement(p, {
                       label: this.state.sButtonTexts[3],
                       onClick: () => {
-                        this.ButtonClicked(s.Ox.ButtonPress_3);
+                        this.ButtonClicked(l.Ox.ButtonPress_3);
                       },
                     }),
                 ),
@@ -1037,37 +927,37 @@ var CLSTAMP = "9839182";
             );
           }
         };
-        (0, r.Cg)([i.o], S.prototype, "OnProcessQuit", null),
-          (0, r.Cg)([i.o], S.prototype, "OnMessageOverlayCloseRequested", null),
-          (0, r.Cg)([i.o], S.prototype, "OnRenderMessageOverlay", null),
-          (0, r.Cg)([i.o], S.prototype, "ButtonClicked", null),
-          (S = (0, r.Cg)([a.PA], S)),
-          null === s.Ay ||
-            void 0 === s.Ay ||
-            s.Ay.VROverlay.SetWidthInMeters(
-              s.Ay.VROverlay.ThisOverlayHandle(),
+        (0, r.Cg)([i.o], y.prototype, "OnProcessQuit", null),
+          (0, r.Cg)([i.o], y.prototype, "OnMessageOverlayCloseRequested", null),
+          (0, r.Cg)([i.o], y.prototype, "OnRenderMessageOverlay", null),
+          (0, r.Cg)([i.o], y.prototype, "ButtonClicked", null),
+          (y = (0, r.Cg)([s.PA], y)),
+          null === l.Ay ||
+            void 0 === l.Ay ||
+            l.Ay.VROverlay.SetWidthInMeters(
+              l.Ay.VROverlay.ThisOverlayHandle(),
               1.92,
             ),
-          null === s.Ay ||
-            void 0 === s.Ay ||
-            s.Ay.VROverlay.SetFlag(
-              s.Ay.VROverlay.ThisOverlayHandle(),
-              s.NB.NoDashboardTab,
+          null === l.Ay ||
+            void 0 === l.Ay ||
+            l.Ay.VROverlay.SetFlag(
+              l.Ay.VROverlay.ThisOverlayHandle(),
+              l.NB.NoDashboardTab,
               !0,
             ),
-          null === s.Ay ||
-            void 0 === s.Ay ||
-            s.Ay.VROverlay.SetInputMethod(
-              s.Ay.VROverlay.ThisOverlayHandle(),
-              s.Rk.Mouse,
+          null === l.Ay ||
+            void 0 === l.Ay ||
+            l.Ay.VROverlay.SetInputMethod(
+              l.Ay.VROverlay.ThisOverlayHandle(),
+              l.Rk.Mouse,
             ),
           (0, u.uV)(
             [],
-            null === s.Ay || void 0 === s.Ay ? void 0 : s.Ay.GetSteamLanguage(),
+            null === l.Ay || void 0 === l.Ay ? void 0 : l.Ay.GetSteamLanguage(),
           )
             .then(() => {
-              l.H(document.getElementById("root")).render(
-                o.createElement(S, null),
+              a.H(document.getElementById("root")).render(
+                o.createElement(y, null),
               );
             })
             .catch((e) =>
@@ -1079,19 +969,19 @@ var CLSTAMP = "9839182";
   function r(e) {
     var o = n[e];
     if (void 0 !== o) return o.exports;
-    var l = (n[e] = { exports: {} });
-    return t[e].call(l.exports, l, l.exports, r), l.exports;
+    var a = (n[e] = { exports: {} });
+    return t[e].call(a.exports, a, a.exports, r), a.exports;
   }
   (r.m = t),
     (e = []),
-    (r.O = (t, n, o, l) => {
+    (r.O = (t, n, o, a) => {
       if (!n) {
-        var a = 1 / 0;
+        var s = 1 / 0;
         for (c = 0; c < e.length; c++) {
-          for (var [n, o, l] = e[c], i = !0, s = 0; s < n.length; s++)
-            (!1 & l || a >= l) && Object.keys(r.O).every((e) => r.O[e](n[s]))
-              ? n.splice(s--, 1)
-              : ((i = !1), l < a && (a = l));
+          for (var [n, o, a] = e[c], i = !0, l = 0; l < n.length; l++)
+            (!1 & a || s >= a) && Object.keys(r.O).every((e) => r.O[e](n[l]))
+              ? n.splice(l--, 1)
+              : ((i = !1), a < s && (s = a));
           if (i) {
             e.splice(c--, 1);
             var u = o();
@@ -1100,9 +990,9 @@ var CLSTAMP = "9839182";
         }
         return t;
       }
-      l = l || 0;
-      for (var c = e.length; c > 0 && e[c - 1][2] > l; c--) e[c] = e[c - 1];
-      e[c] = [n, o, l];
+      a = a || 0;
+      for (var c = e.length; c > 0 && e[c - 1][2] > a; c--) e[c] = e[c - 1];
+      e[c] = [n, o, a];
     }),
     (r.n = (e) => {
       var t = e && e.__esModule ? () => e.default : () => e;
@@ -1124,28 +1014,26 @@ var CLSTAMP = "9839182";
     })()),
     (r.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
     (() => {
-      var e = { 868: 0, 57: 0, 270: 0, 171: 0 };
+      var e = { 868: 0, 527: 0, 500: 0 };
       r.O.j = (t) => 0 === e[t];
       var t = (t, n) => {
           var o,
-            l,
-            [a, i, s] = n,
+            a,
+            [s, i, l] = n,
             u = 0;
-          if (a.some((t) => 0 !== e[t])) {
+          if (s.some((t) => 0 !== e[t])) {
             for (o in i) r.o(i, o) && (r.m[o] = i[o]);
-            if (s) var c = s(r);
+            if (l) var c = l(r);
           }
-          for (t && t(n); u < a.length; u++)
-            (l = a[u]), r.o(e, l) && e[l] && e[l][0](), (e[l] = 0);
+          for (t && t(n); u < s.length; u++)
+            (a = s[u]), r.o(e, a) && e[a] && e[a][0](), (e[a] = 0);
           return r.O(c);
         },
         n = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
       n.forEach(t.bind(null, 0)), (n.push = t.bind(null, n.push.bind(n)));
     })();
-  var o = r.O(
-    void 0,
-    [498, 299, 804, 270, 582, 510, 844, 723, 177, 171, 496],
-    () => r(1583),
+  var o = r.O(void 0, [967, 991, 305, 527, 452, 170, 537, 797, 906, 500], () =>
+    r(1583),
   );
   o = r.O(o);
 })(); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/messageoverlay.js.map

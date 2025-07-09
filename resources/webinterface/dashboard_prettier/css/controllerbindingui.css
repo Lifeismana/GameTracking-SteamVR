@@ -63,69 +63,6 @@
 .tippy-content {
   padding: 5px 9px;
 }
-@font-face {
-  font-family: "Motiva Sans";
-  src: url("/fonts/get_font?font=motiva-sans-regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Motiva Sans";
-  src: url("/fonts/get_font?font=motiva-sans-light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Motiva Sans";
-  src: url("/fonts/get_font?font=motiva-sans-thin.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Motiva Sans";
-  src: url("/fonts/get_font?font=motiva-sans-medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Motiva Sans";
-  src: url("/fonts/get_font?font=motiva-sans-bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Motiva Sans";
-  src: url("/fonts/get_font?font=motiva-sans-regular-italic.ttf")
-    format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Motiva Sans";
-  src: url("/fonts/get_font?font=motiva-sans-light-italic.ttf")
-    format("truetype");
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Motiva Sans";
-  src: url("/fonts/get_font?font=motiva-sans-bold-italic.ttf")
-    format("truetype");
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Motiva Sans";
-  src: url("/fonts/get_font?font=motiva-sans-black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Motiva Sans";
-  src: url("/fonts/get_font?font=motiva-sans-extrabold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-}
 html.VROverlay {
   font-size: 24px;
 }
@@ -147,7 +84,7 @@ html.VROverlay {
 }
 .PageTitle {
   margin: 0 auto;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
   color: var(--titletext);
@@ -161,7 +98,7 @@ html.VROverlay {
 }
 .Tab {
   opacity: 1;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   padding: 0 1rem 2px 1rem;
   margin: 2px 1rem;
@@ -255,7 +192,7 @@ html.VROverlay {
 }
 .PageTitleBar .PageSubTitle {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 .PageTitleBar .PageTitleLabel {
   width: 100%;
@@ -457,7 +394,6 @@ html.VROverlay {
 }
 .BottomButtonRow {
   width: 100%;
-  margin-bottom: 1rem;
   position: relative;
 }
 .BottomButtonRow .ButtonControl {
@@ -820,7 +756,7 @@ body .rodal-dialog {
 .BottomButtonHR {
   border-top: 1px solid var(--disabledtext);
   opacity: 0.8;
-  margin-bottom: .5rem;
+  margin-bottom: unset;
 }
 .BottomButtonImage {
   filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
@@ -1004,7 +940,7 @@ body .rodal-dialog {
   left: 0;
   right: 0;
   margin: auto;
-  z-index: 3;
+  z-index: 4;
   opacity: 0;
   transition: opacity var(--button-fade-time);
   color: var(--bindinglistdetails);
@@ -1014,6 +950,13 @@ body .rodal-dialog {
 }
 .ControllerBindingSettingsModal {
   width: 75%;
+}
+.PoseInputSettingsLabel {
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 15rem;
+  color: var(--poseactiontitle);
+  flex: 2;
 }
 .InputSettingsLabel {
   font-weight: bold;
@@ -1053,10 +996,73 @@ body .rodal-dialog {
 .InputSettingsInputContainer input {
   width: 100%;
 }
+.InputSettingsVector3Container {
+  flex: 3;
+  margin: 0 10px;
+}
+.InputSettingsVector3Row {
+  justify-content: flex-end;
+}
+.InputSettingsVector3 {
+  width: auto;
+  margin: .5rem;
+  font-size: 1.5rem;
+}
+.InputSettingsVector3Label {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: var(--poseactiontitle);
+  align-self: center;
+  min-width: 40px;
+  text-align: right;
+}
+.InputSettingsPoseLabel {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.InputSettingsPoseNumber input[type="number"]::-webkit-outer-spin-button,
+.InputSettingsPoseNumber input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.InputSettingsPoseNumber input[type="number"] {
+  padding-right: 2rem;
+  text-align: right;
+  font-size: 1.5rem;
+}
+.InputSettingsPoseNumber {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.InputSettingsPoseNumberArrows {
+  position: absolute;
+  right: .2rem;
+  top: .6rem;
+  bottom: .6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.InputSettingsPoseNumber button {
+  width: 2rem;
+  height: 50%;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: color .2s ease;
+}
+.InputSettingsPoseNumberArrows button:hover {
+  color: #00adee;
+}
 .InputSettingsModal {
   width: 100%;
   display: flex;
   flex-direction: column;
+  z-index: 3;
 }
 .InputSettingsScrollablePanel {
   overflow-y: auto;
@@ -1160,6 +1166,10 @@ body .rodal-dialog {
   padding: .5rem;
   align-items: center;
   background: var(--poseactionlistentry);
+}
+.PoseActionSettingsButton {
+  margin-left: .5rem;
+  margin-right: .5rem;
 }
 .PoseActionListEntryWrapper svg {
   opacity: 0;
@@ -2378,5 +2388,22 @@ input.ActionAliasUserSuppliedName {
 .rodal-door-leave {
   -webkit-animation: rodal-door-leave both;
   animation: rodal-door-leave both;
+}
+@keyframes svg_library_AnimationFadeOutIn_1lEwX {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.svg_library_recordingCircle_2ovZQ {
+  animation: svg_library_AnimationFadeOutIn_1lEwX 5s infinite linear;
 }
 /*# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/controllerbindingui.css.map*/

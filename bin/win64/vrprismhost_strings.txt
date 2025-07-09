@@ -22,7 +22,7 @@
 .?AV<lambda_0f6303ecc7136d050eeb4d9528f10b2c>@@
 .?AV<lambda_1a5b1a927b03a96daaa523192e1096fb>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
-.?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
+.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV?$_Binder@U_Unforced@std@@AEAP8CPrismHost@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
@@ -32,7 +32,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_0f6303ecc7136d050eeb4d9528f10b2c>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1a5b1a927b03a96daaa523192e1096fb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@AEAP8CPrismHost@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-10:02:54
+12:32:07
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -271,6 +271,7 @@ DisplayNotFound
 Duplicate key: '
 DuplicateHandle
 DuplicatePriority
+ERROR: Failed to open log file %s, attempting timestamped filename\n
 Empty escape sequence in string
 EnablePrivilegeFailed
 Encountered error 
@@ -286,7 +287,7 @@ Exceeded stackLimit in readValue().
 Exception %08x\n
 Executable: %s\n
 Extra non-whitespace after JSON value.
-FATAL: Failed to open log file %s\n
+FATAL: Failed to open log file %s, failing out!\n
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
@@ -383,7 +384,7 @@ InvalidPoseProvider
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
-Jun 18 2025
+Jul  9 2025
 KERNEL32.dll
 Kernel32.dll
 LeaveCriticalSection
