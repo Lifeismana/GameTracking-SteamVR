@@ -1697,8 +1697,6 @@ Other processes using this NVENC core:
 Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
-Overriding Pico specific properties for %s\n
-Overriding Quest specific properties for %s\n
 P00`
 P<xD<
 PICO 4 (Left Controller)
@@ -1720,6 +1718,7 @@ Perf warning: Getting from SubmitFrame to StartEncode took %0.3fms
 Performing shutdown.\n
 Perspective camera description not found.
 PerspectiveCamera
+Pico 4
 PolyPolygon
 PolyPolyline
 Positional emitter description not found.
@@ -1952,6 +1951,8 @@ SetThreadPriority
 SetUnhandledExceptionFilter
 SetWindowLongPtrA
 Setting VTE_USE_ENCODE_TARGET_WIDTH = %d\n
+Setting default Pico specific properties for HMD Model: %i \n
+Setting default Quest specific properties for HMD Model: %i \n
 Setting m_nTargetEncodeWidth: %d\n
 Setting up context with NvAPI_D3D1x_CreateLowLatencyDeviceHint() = %d\n
 Setting up context with NvAPI_D3D1x_DeclareVRProcessType(NVAPI_VR_PROCESS_COMPOSITOR) = %d\n

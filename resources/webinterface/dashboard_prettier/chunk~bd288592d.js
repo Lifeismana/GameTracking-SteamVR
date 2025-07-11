@@ -1,4 +1,4 @@
-var CLSTAMP = "9887103";
+var CLSTAMP = "9893112";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [452],
   {
@@ -11,8 +11,8 @@ var CLSTAMP = "9887103";
         l = i.n(r),
         d = i(7813),
         c = i(3714),
-        p = i(6090),
-        a = i(6795),
+        a = i(6090),
+        p = i(6795),
         u = i(1532),
         h = i(9118),
         g = i(3804);
@@ -50,7 +50,8 @@ var CLSTAMP = "9887103";
         }
       }
       (0, n.Cg)([d.sH], f.prototype, "path", void 0),
-        (0, n.Cg)([d.sH], f.prototype, "output", void 0);
+        (0, n.Cg)([d.sH], f.prototype, "output", void 0),
+        (0, n.Cg)([d.sH], f.prototype, "parameters", void 0);
       class y {
         constructor() {
           (this.output = void 0), (this.inputs = new Array()), (0, d.Gn)(this);
@@ -745,12 +746,12 @@ var CLSTAMP = "9887103";
         ComputeControllerTypeScore(t) {
           let e = this.CountDevicesWithControllerType(t.controller_type),
             i =
-              ((null === p.Ay || void 0 === p.Ay ? void 0 : p.Ay.HasHMD())
-                ? null === p.Ay || void 0 === p.Ay
+              ((null === a.Ay || void 0 === a.Ay ? void 0 : a.Ay.HasHMD())
+                ? null === a.Ay || void 0 === a.Ay
                   ? void 0
-                  : p.Ay.VRProperties.GetStringProperty(
+                  : a.Ay.VRProperties.GetStringProperty(
                       "/user/head",
-                      p.fD.Prop_ExpectedControllerType_String,
+                      a.fD.Prop_ExpectedControllerType_String,
                     )
                 : void 0) == t.controller_type
                 ? 2
@@ -786,7 +787,7 @@ var CLSTAMP = "9887103";
                 !this.m_bControllerTypeSelectedByUser
               ) {
                 let t = h.W.FindDeviceClassForControllerType(i.controller_type);
-                a.n.IsSafeToResetControllerType(o, t) &&
+                p.n.IsSafeToResetControllerType(o, t) &&
                   ((this.m_sSelectedControllerType = i.controller_type),
                   (e = !0));
               }
@@ -1640,6 +1641,25 @@ var CLSTAMP = "9887103";
             ? t.parameters.get(e)
             : null;
         }
+        SetParameterForSkeleton(t, e, i) {
+          t
+            ? ((null == t ? void 0 : t.parameters) ||
+                (t.parameters = d.sH.map()),
+              t.parameters.get(e) != i &&
+                (null == i || (Array.isArray(i) && i.every((t) => 0 === t))
+                  ? t.parameters.delete(e)
+                  : t.parameters.set(e, i),
+                this.NotifyWatchersOfChange()))
+            : console.error(
+                "SetParameterForSkeleton: Trying to set parameter for unknown skeleton.",
+              );
+        }
+        GetParameterForSkeleton(t, e) {
+          return (null == t ? void 0 : t.parameters) &&
+            (null == t ? void 0 : t.parameters.has(e))
+            ? t.parameters.get(e)
+            : null;
+        }
         GetParameterForInputModeType(t, e, i, o) {
           if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
             return (
@@ -1909,6 +1929,20 @@ var CLSTAMP = "9887103";
             .poses.findIndex((e) => e.path.toLowerCase() == t.toLowerCase());
           return -1 != e
             ? this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses[e]
+            : void 0;
+        }
+        GetSkeletonForInputPath(t) {
+          if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
+            return void console.error(
+              "SetActionForPose: Invalid action set specified",
+            );
+          let e = this.m_ModifiedBindingSet
+            .get(this.m_sSelectedActionSet)
+            .skeleton.findIndex((e) => e.path.toLowerCase() == t.toLowerCase());
+          return -1 != e
+            ? this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton[
+                e
+              ]
             : void 0;
         }
         GetFirstInputSourceOfType(t) {
@@ -2252,7 +2286,7 @@ var CLSTAMP = "9887103";
                         e.current_binding_url[this.m_sSelectedControllerType]))
                   : ((this.m_SelectedAppActions = void 0),
                     (this.m_sLoadedBindingURI = void 0),
-                    a.n.SetBindingListError(
+                    p.n.SetBindingListError(
                       (0, c.we)("#ActionManifestError_UnknownError"),
                       !1,
                     )),
@@ -2378,7 +2412,7 @@ var CLSTAMP = "9887103";
           );
         }
         PreserveCurrentBindingForUpgrade() {
-          let t = a.n.CurrentBinding;
+          let t = p.n.CurrentBinding;
           return t && "autosave" == t.type
             ? this.SaveCurrentBinding(
                 (0, c.we)("#PreservedAutosaveName"),
@@ -2595,10 +2629,10 @@ var CLSTAMP = "9887103";
           t.binding_config &&
             t.binding_config.bindings &&
             (Object.keys(t.binding_config.bindings).forEach((e) => {
-              var i, o;
-              let n = new A();
-              (n.chords = t.binding_config.bindings[e].chords),
-                (n.poses = []),
+              var i, o, n;
+              let s = new A();
+              (s.chords = t.binding_config.bindings[e].chords),
+                (s.poses = []),
                 null === (i = t.binding_config.bindings[e].poses) ||
                   void 0 === i ||
                   i.forEach((t) => {
@@ -2612,14 +2646,29 @@ var CLSTAMP = "9887103";
                           Object.keys(t.parameters).forEach((i) => {
                             e.parameters.set(i, t.parameters[i]);
                           })),
-                      n.poses.push(e);
+                      s.poses.push(e);
                   }),
-                (n.haptics = t.binding_config.bindings[e].haptics),
-                (n.skeleton = t.binding_config.bindings[e].skeleton),
-                (n.sources = []),
-                null === (o = t.binding_config.bindings[e].sources) ||
+                (s.haptics = t.binding_config.bindings[e].haptics),
+                (s.skeleton = []),
+                null === (o = t.binding_config.bindings[e].skeleton) ||
                   void 0 === o ||
                   o.forEach((t) => {
+                    let e = new f();
+                    (e.output = t.output),
+                      (e.path = t.path),
+                      null != t.parameters &&
+                        Object.keys(t.parameters).length > 0 &&
+                        ((e.parameters = d.sH.map()),
+                        t.hasOwnProperty("parameters") &&
+                          Object.keys(t.parameters).forEach((i) => {
+                            e.parameters.set(i, t.parameters[i]);
+                          })),
+                      s.skeleton.push(e);
+                  }),
+                (s.sources = []),
+                null === (n = t.binding_config.bindings[e].sources) ||
+                  void 0 === n ||
+                  n.forEach((t) => {
                     let e = new S();
                     (e.mode = t.mode),
                       (e.path = t.path),
@@ -2635,9 +2684,9 @@ var CLSTAMP = "9887103";
                           Object.keys(t.parameters).forEach((i) => {
                             e.parameters.set(i, t.parameters[i]);
                           })),
-                      n.sources.push(e);
+                      s.sources.push(e);
                   }),
-                this.m_ModifiedBindingSet.set(e, n);
+                this.m_ModifiedBindingSet.set(e, s);
             }),
             this.m_ModifiedOptions.clear(),
             t.binding_config.options &&
@@ -2778,7 +2827,7 @@ var CLSTAMP = "9887103";
               (this.m_OutstandingSelectConfigResolve = void 0),
               console.log("OnSelectConfigComplete: ", t))
             : t.error_to_show
-              ? a.n.ShowBindingList(t.error_to_show)
+              ? p.n.ShowBindingList(t.error_to_show)
               : console.warn(
                   "Missing outstanding query resolve for select config",
                 );
@@ -3099,8 +3148,8 @@ var CLSTAMP = "9887103";
         l = i(7813),
         d = i(6090),
         c = i(3714),
-        p = i(5802),
-        a = i(1532),
+        a = i(5802),
+        p = i(1532),
         u = i(8108);
       !(function (t) {
         (t[(t.None = 0)] = "None"),
@@ -3167,12 +3216,12 @@ var CLSTAMP = "9887103";
         OnShowAppBinding(t) {
           (this.m_bStandaloneSettingsPage = !1),
             (this.Loading = !0),
-            a.s.UpdateApplications().then(() => {
+            p.s.UpdateApplications().then(() => {
               if (
                 ((0, d.R$)() == d.OH.Overlay
                   ? this.ShowOverlayInDashboard()
                   : (0, d.R$)() == d.OH.Desktop && d.Ay.ShowBindingUI(!0),
-                !a.s.GetApp(t.app_key))
+                !p.s.GetApp(t.app_key))
               )
                 return (
                   console.log(
@@ -3182,13 +3231,13 @@ var CLSTAMP = "9887103";
                   ),
                   void this.ShowAppSelect()
                 );
-              p.B$.SetSelectedApp(t.app_key, !0),
-                p.B$.ReloadCurrentApp().then(() => {
+              a.B$.SetSelectedApp(t.app_key, !0),
+                a.B$.ReloadCurrentApp().then(() => {
                   if (t.controller_type)
                     return (
-                      p.B$.SetSelectedController(t.controller_type, !0),
-                      void p.B$.ReloadControllerConfiguration().then(() => {
-                        t.action_set && p.B$.SetSelectedActionSet(t.action_set),
+                      a.B$.SetSelectedController(t.controller_type, !0),
+                      void a.B$.ReloadControllerConfiguration().then(() => {
+                        t.action_set && a.B$.SetSelectedActionSet(t.action_set),
                           (this.Loading = !1),
                           this.EditCurrentBinding();
                       })
@@ -3206,18 +3255,18 @@ var CLSTAMP = "9887103";
               " " +
               t.error,
           ),
-            a.s.UpdateApplications().then(() => {
-              if (!a.s.ShouldShowBindingFailureForApp(t.app_key)) return;
+            p.s.UpdateApplications().then(() => {
+              if (!p.s.ShouldShowBindingFailureForApp(t.app_key)) return;
               if (
-                !p.B$.ShouldShowBindingFailureForControllerType(
+                !a.B$.ShouldShowBindingFailureForControllerType(
                   t.controller_type,
                 )
               )
                 return;
-              p.B$.RememberFailedLoadUri(t.uri),
-                p.B$.SetSelectedApp(t.app_key),
-                p.B$.SetSelectedController(t.controller_type);
-              let e = a.s.GetApp(t.app_key),
+              a.B$.RememberFailedLoadUri(t.uri),
+                a.B$.SetSelectedApp(t.app_key),
+                a.B$.SetSelectedController(t.controller_type);
+              let e = p.s.GetApp(t.app_key),
                 i = s.W.GetControllerTypeInfo(t.controller_type);
               if (!i) return;
               let o = s.W.LocalizeControllerString(i, t.controller_type);
@@ -3288,7 +3337,7 @@ var CLSTAMP = "9887103";
               this.ShowBindingList();
               break;
             case o.List:
-              this.CurrentBinding.url == p.B$.LoadedBindingURL
+              this.CurrentBinding.url == a.B$.LoadedBindingURL
                 ? this.EditCurrentBinding()
                 : this.ViewCurrentBinding();
             case o.EditBinding:
@@ -3336,7 +3385,7 @@ var CLSTAMP = "9887103";
         get CurrentBinding() {
           if (this.BindingQueryResults)
             return g.BindingQueryResults.find(
-              (t) => t.url == p.B$.SelectedBindingURL,
+              (t) => t.url == a.B$.SelectedBindingURL,
             );
         }
         ReturnToSettingsUI() {
@@ -3346,7 +3395,7 @@ var CLSTAMP = "9887103";
         ShowAppSelect() {
           (this.m_bStandaloneSettingsPage = !1),
             (this.Loading = !0),
-            a.s
+            p.s
               .UpdateApplications()
               .then(() => {
                 (this.Loading = !1), (this.m_State = o.AppSelect);
@@ -3371,11 +3420,11 @@ var CLSTAMP = "9887103";
         }
         ShowDebugger() {
           (this.Loading = !0),
-            a.s
+            p.s
               .UpdateApplications()
               .then(() => {
                 this.Loading = !1;
-                let t = a.s.GetApp(p.B$.SelectedApp);
+                let t = p.s.GetApp(a.B$.SelectedApp);
                 t &&
                   t.client_container_handle &&
                   u.J.AddSubscribedContainer(t.client_container_handle),
@@ -3395,9 +3444,9 @@ var CLSTAMP = "9887103";
             var t;
             (this.Loading = !0), (this.m_rBindingList = []);
             try {
-              const e = p.B$.SelectedControllerTypeInfo,
-                i = yield p.B$.QueryBindingList(
-                  p.B$.SelectedApp,
+              const e = a.B$.SelectedControllerTypeInfo,
+                i = yield a.B$.QueryBindingList(
+                  a.B$.SelectedApp,
                   null !== (t = null == e ? void 0 : e.controller_type) &&
                     void 0 !== t
                     ? t
@@ -3467,7 +3516,7 @@ var CLSTAMP = "9887103";
       window.inputUI = g;
     },
     1139: (t, e, i) => {
-      i.d(e, { FH: () => l, Nc: () => p, aw: () => c, jE: () => d });
+      i.d(e, { FH: () => l, Nc: () => a, aw: () => c, jE: () => d });
       var o = i(1635),
         n = i(6540),
         s = i(3236),
@@ -3547,7 +3596,7 @@ var CLSTAMP = "9887103";
             (this.m_bScrolling = !1);
         }
       }
-      function p() {
+      function a() {
         const [t, e] = n.useState(null),
           i = n.useCallback(() => {
             e(

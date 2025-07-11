@@ -542,11 +542,11 @@ $3br
 18SVLFECRAID6TXFrame
 18SVLHMDDriverVulkan
 18SVLHmdNotConnected
-19:32:44
 19SVLControllerDriver
 1e+9999
 20BinaryBlendPoseMaker
 20PassThroughPoseMaker
+21:11:26
 21CSharedSemaphoreLinux
 21SVLHandTrackingDriver
 22CKeyframedDataResource
@@ -558,6 +558,7 @@ $3br
 24CSharedResourceBaseLinux
 26CHandPoseLogic_OculusTouch
 29CSharedCountingSemaphoreLinux
+2VpO
 30CSharedResourceNamespaceServer
 4fff>fff>fff>fff>
 4gTMHV
@@ -2887,7 +2888,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
-Jul  9 2025
+Jul 11 2025
 July
 June
 KHR_audio
@@ -3136,8 +3137,6 @@ Orthographic camera description not found.
 OrthographicCamera
 Other Encoder Sessions:
 Out of thread local storage!\n
-Overriding Pico specific properties for %s\n
-Overriding Quest specific properties for %s\n
 PCG\n
 PFSsRKSsPvE
 PFbPKSsS0_PKN8tinygltf5ImageEbPKNS1_11FsCallbacksEPKNS1_12URICallbacksEPSsPvE
@@ -3255,6 +3254,7 @@ Path_WriteStringToTextFileAtomic(std::string const&, char const*) (.cold)
 Performing shutdown.\n
 Perspective camera description not found.
 PerspectiveCamera
+Pico 4
 Plat_IsInDebugSession
 Plat_IsInDebugSession::fp
 Playback
@@ -4310,6 +4310,8 @@ SetOverlayTransformTrackedDeviceRelativeInternal(VRSystemLayerState_t*, unsigned
 SetStreamingModeOnDemandEnabled(bool)
 SetStreamingModeOnDemandEnabled(bool) (.cold)
 Setting VTE_USE_ENCODE_TARGET_WIDTH = %d\n
+Setting default Pico specific properties for HMD Model: %i \n
+Setting default Quest specific properties for HMD Model: %i \n
 Setting m_nTargetEncodeWidth: %d\n
 SharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore: failed to create associated semaphores.\n
 SharedLib_GetFunction(void*, char const*)
@@ -5673,7 +5675,6 @@ Zjz\v
 \t],\n\t"latencyLog" : [\n
 \t],\n\t"sPingHistogramv1" : [
 \t],\n\t"soundData" : [\n
-\tcXyMM5M6=,"
 \u%04x
 \u%04x\u%04x
 \ufffd

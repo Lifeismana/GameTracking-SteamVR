@@ -1616,6 +1616,7 @@ Creating playback mirror thread for device %s\n
 D3D11CreateDevice
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
+D6vd
 DISABLED
 DISTORT_BSPLINE
 DISTORT_DPOLY3
@@ -2531,7 +2532,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDSd
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE

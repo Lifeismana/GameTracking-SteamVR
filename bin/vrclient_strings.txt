@@ -454,18 +454,18 @@ $3br
 .L1147
 .L115
 .L116
-.L11660
-.L11663
-.L11665
-.L11666
-.L11667
-.L11668
-.L11669
-.L11670
-.L11671
-.L11672
-.L11673
-.L11674
+.L11642
+.L11645
+.L11647
+.L11648
+.L11649
+.L11650
+.L11651
+.L11652
+.L11653
+.L11654
+.L11655
+.L11656
 .L117
 .L1173
 .L1176
@@ -480,21 +480,21 @@ $3br
 .L1184
 .L1185
 .L1186
+.L11867
+.L11869
 .L1187
+.L11871
+.L11872
+.L11873
+.L11874
+.L11875
+.L11876
+.L11877
+.L11878
+.L11879
 .L1188
-.L11885
-.L11887
-.L11889
+.L11880
 .L1189
-.L11890
-.L11891
-.L11892
-.L11893
-.L11894
-.L11895
-.L11896
-.L11897
-.L11898
 .L119
 .L1190
 .L1191
@@ -776,15 +776,15 @@ $3br
 .L1641
 .L1642
 .L165
-.L16533
-.L16534
-.L16536
-.L16537
-.L16538
-.L16539
-.L16540
-.L16541
-.L16542
+.L16515
+.L16516
+.L16518
+.L16519
+.L16520
+.L16521
+.L16522
+.L16523
+.L16524
 .L1655
 .L1657
 .L1658
@@ -1351,17 +1351,17 @@ $3br
 .L35045
 .L35046
 .L352
+.L3534
+.L3536
+.L3537
 .L3538
 .L354
-.L3540
-.L3541
-.L3542
 .L3544
 .L3545
 .L3547
 .L3548
+.L3549
 .L355
-.L3553
 .L356
 .L357
 .L358
@@ -1374,12 +1374,12 @@ $3br
 .L364
 .L365
 .L3650
+.L3659
 .L366
+.L3660
+.L3662
 .L3663
 .L3664
-.L3666
-.L3667
-.L3668
 .L367
 .L368
 .L369
@@ -2496,7 +2496,6 @@ $3br
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
-19:32:40
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -2560,6 +2559,7 @@ $3br
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:11:42
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -7094,8 +7094,7 @@ CVRControllerTypeBindings::EraseOverridePropertiesForDevice(unsigned long long)
 CVRControllerTypeBindings::EraseSimulatedOverrides()
 CVRControllerTypeBindings::GetBindingInfo(unsigned long long) const
 CVRControllerTypeBindings::GetBindingInfo(unsigned long long) const (.cold)
-CVRControllerTypeBindings::GetBoolFromOptions(std::string, bool)
-CVRControllerTypeBindings::GetBoolFromOptions(std::string, bool) (.cold)
+CVRControllerTypeBindings::GetBoolFromOptions(std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>> const&, std::string, bool)
 CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&)
 CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&) (.cold)
 CVRControllerTypeBindings::GetIsHMDBindingSimulation()
@@ -22828,7 +22827,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
-Jul  9 2025
+Jul 11 2025
 July
 June
 KHR_audio
@@ -26416,7 +26415,6 @@ Zjz\v
 [libprotobuf %s %s:%d] %s\n
 [vrclient] CLegacyInput::RunInputFrame
 [vrclient] CVRInputLatest::UpdateActionState
-\f@pD9
 \nComment=Application for the 
 \nComment=URI handler for 
 \nDDS 

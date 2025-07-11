@@ -140,7 +140,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSv
+RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -181,6 +181,7 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
 \vUnable to create texture set for pid %u: %s\n
+\vZN*PO
 ][OculusDirect] Begin AcquireSync
 _Camera
 _Cnd_destroy_in_situ

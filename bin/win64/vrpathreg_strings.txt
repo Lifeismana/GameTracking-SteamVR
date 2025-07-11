@@ -862,7 +862,6 @@ jsonid
 k=yI
 keylength >= 2^30
 ldexp
-lh]=SyF
 log10
 m?H7
 mG4>

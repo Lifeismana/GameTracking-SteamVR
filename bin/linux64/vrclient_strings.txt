@@ -1213,7 +1213,6 @@ $tI(kn
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
-19:32:44
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -1284,6 +1283,7 @@ $tI(kn
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:11:26
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -6435,8 +6435,7 @@ CVRControllerTypeBindings::EraseOverridePropertiesForDevice(unsigned long)
 CVRControllerTypeBindings::EraseSimulatedOverrides()
 CVRControllerTypeBindings::GetBindingInfo(unsigned long) const
 CVRControllerTypeBindings::GetBindingInfo(unsigned long) const (.cold)
-CVRControllerTypeBindings::GetBoolFromOptions(std::string, bool)
-CVRControllerTypeBindings::GetBoolFromOptions(std::string, bool) (.cold)
+CVRControllerTypeBindings::GetBoolFromOptions(std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>> const&, std::string, bool)
 CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&)
 CVRControllerTypeBindings::GetInputProfileSettings(std::string const&, Json::Value&) (.cold)
 CVRControllerTypeBindings::GetIsHMDBindingSimulation()
@@ -22553,7 +22552,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
-Jul  9 2025
+Jul 11 2025
 July
 June
 KHR_audio
@@ -41790,7 +41789,6 @@ vtable for vr::CVROverlayInternalLatest
 vtable for vr::CVRSettingsLatest
 vtable for vr::CVRSteamPrivateLatest
 vtable for vr::CVRTrackedCamera
-wBLt
 waitpid
 watchdog_controller
 watchdog_hmd

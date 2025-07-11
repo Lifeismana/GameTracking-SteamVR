@@ -494,6 +494,7 @@ $0option $1;\n
 5\n\vnested_type
 6/aG
 6\n\fmessage_type
+6{hB
 7\n\tenum_type
 7~8A
 8\n\textension
@@ -1143,7 +1144,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDSY
+RSDS
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
