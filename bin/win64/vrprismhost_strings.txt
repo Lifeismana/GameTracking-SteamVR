@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:14:30
+11:28:53
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -384,7 +384,7 @@ InvalidPoseProvider
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
-Jul 11 2025
+Jul 17 2025
 KERNEL32.dll
 Kernel32.dll
 LeaveCriticalSection
@@ -455,7 +455,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS|(F|~
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

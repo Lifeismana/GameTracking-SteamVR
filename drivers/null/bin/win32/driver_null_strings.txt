@@ -61,6 +61,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
+<Ayh
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 DisableThreadLibraryCalls
@@ -77,7 +78,7 @@ IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
-IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006

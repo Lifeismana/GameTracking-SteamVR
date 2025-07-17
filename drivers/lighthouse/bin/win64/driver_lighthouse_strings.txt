@@ -1086,6 +1086,7 @@ $tAUUPE
 2).google.protobuf.FileOptions.OptimizeMode:
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
+2Q#y!
 3Pole
 3\n\rdynamic_state
 3\n\roptical_frame
@@ -1616,7 +1617,6 @@ Creating playback mirror thread for device %s\n
 D3D11CreateDevice
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
-D6vd
 DISABLED
 DISTORT_BSPLINE
 DISTORT_DPOLY3
@@ -2142,7 +2142,7 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIOBuffer_002
-IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRInputInternal_002
 IVRInput_010
 IVRMCStore_001
@@ -2532,7 +2532,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSd
+RSDS>/#
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4667,6 +4667,7 @@ swedish
 synconbeam
 syntax error 
 systime
+tAyh
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha

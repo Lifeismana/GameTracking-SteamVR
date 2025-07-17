@@ -494,7 +494,6 @@ $0option $1;\n
 5\n\vnested_type
 6/aG
 6\n\fmessage_type
-6{hB
 7\n\tenum_type
 7~8A
 8\n\textension
@@ -986,7 +985,7 @@ IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverManager_001
-IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRMailbox_002
 IVRResources_001
 IVRServerInternal_XXX

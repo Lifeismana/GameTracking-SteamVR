@@ -131,7 +131,6 @@ $3br
 $tI(kn
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %04X
-%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x
 %F-%H-%M-%S
 %LocalAppData%
 %Y-%m-%d %I:%M:%S %p
@@ -1202,6 +1201,7 @@ $tI(kn
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
+18:29:27
 18CPropertyContainer
 18CSharedBufferLinux
 18CSxrHandTrackerEXT
@@ -1264,6 +1264,7 @@ $tI(kn
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19InMemoryInputStream
 1e+9999
+2%O6
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -1283,7 +1284,6 @@ $tI(kn
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:11:26
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1544,6 +1544,7 @@ $tI(kn
 31BlockQueueInterfaceRegistrationI17CVRBlockQueue_004E
 31CInputFilter_Grab_ValueAndForce
 31CSxrGraphicsBindingVulkanOpenVR
+31CVRIPCResourceManagerClient_001
 31CVRMsg_ApplicationInfo_Manifest
 31CVRMsg_CompositorHookScreenshot
 31CVRMsg_CompositorNewSharedImage
@@ -1766,6 +1767,7 @@ $tI(kn
 45CVRMsg_TrackedCamera_GetDistortion_InputCoord
 45CVRMsg_TrackedCamera_PauseVideoStreamResponse
 45CVRMsg_TrackedCamera_StartVideoStreamResponse
+45IPCResourceManagerClientInterfaceRegistrationI31CVRIPCResourceManagerClient_001E
 46CVRMsg_ClientMailbox_UnregisterMailboxResponse
 46CVRMsg_CompositorGetScreenshotPropertyFilename
 46CVRMsg_ShouldKillTheaterPancakeProcessResponse
@@ -2142,8 +2144,8 @@ BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
 C.71.340283
-C.77.213964
-C.9.215854
+C.77.213965
+C.9.215855
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -3574,10 +3576,10 @@ CSWTCH.213
 CSWTCH.23
 CSWTCH.28
 CSWTCH.392
-CSWTCH.407
+CSWTCH.408
 CSWTCH.593
-CSWTCH.826
-CSWTCH.872
+CSWTCH.825
+CSWTCH.871
 CSXrBackingRenderModelAsset::CSXrBackingRenderModelAsset(std::string&, std::vector<std::string, std::allocator<std::string>>)
 CSXrBackingRenderModelAsset::ComputeCrc(unsigned int&)
 CSXrBackingRenderModelAsset::GetData(XrRenderModelAssetDataEXT*)
@@ -3836,15 +3838,15 @@ CSharedResourceBaseLinux::AcquireSemaphoreToWait(vr::IVRSharedSemaphore**) (.col
 CSharedResourceBaseLinux::AcquireSignalSemaphores failed to import shared semaphore handle=0x%lx slot=%u\n
 CSharedResourceBaseLinux::AcquireSignalSemaphores()
 CSharedResourceBaseLinux::AcquireSignalSemaphores() (.cold)
-CSharedResourceBaseLinux::AllocateSemaphoreSlot(VRCompositorResourceState_t*, VkDevice_T*, unsigned int)
+CSharedResourceBaseLinux::AllocateSemaphoreSlot(VRCompositorResourceState_t*, VkDevice_T*, unsigned int, bool)
 CSharedResourceBaseLinux::CSharedResourceBaseLinux(vr::IVRIPCResourceManagerClient*)
 CSharedResourceBaseLinux::CSharedResourceData::s_CacheLock
 CSharedResourceBaseLinux::CSharedResourceData::s_CachedResourceData
 CSharedResourceBaseLinux::CSharedResourceData::~CSharedResourceData()
 CSharedResourceBaseLinux::CleanupAssociatedResources()
 CSharedResourceBaseLinux::CreateAssociatedResources failed to pre-allocate semaphore handle=0x%lx slot=%u\n
-CSharedResourceBaseLinux::CreateAssociatedResources(VkDevice_T*, unsigned int, bool)
-CSharedResourceBaseLinux::CreateAssociatedResources(VkDevice_T*, unsigned int, bool) (.cold)
+CSharedResourceBaseLinux::CreateAssociatedResources(VkDevice_T*, unsigned int, bool, bool)
+CSharedResourceBaseLinux::CreateAssociatedResources(VkDevice_T*, unsigned int, bool, bool) (.cold)
 CSharedResourceBaseLinux::CreateFD()
 CSharedResourceBaseLinux::CreateForExport()
 CSharedResourceBaseLinux::CreateForExport() (.cold)
@@ -3897,7 +3899,7 @@ CSharedResourceNamespaceServer timed out waiting for client message\n
 CSharedResourceNamespaceServer::Run()
 CSharedResourceNamespaceServer::~CSharedResourceNamespaceServer()
 CSharedSemaphoreLinux::CSharedSemaphoreLinux(vr::IVRIPCResourceManagerClient*)
-CSharedSemaphoreLinux::CreateVulkanSemaphore(VkDevice_T*)
+CSharedSemaphoreLinux::CreateVulkanSemaphore(VkDevice_T*, bool)
 CSharedSemaphoreLinux::GetOGLSemaphore(bool)
 CSharedSemaphoreLinux::GetState()
 CSharedSemaphoreLinux::GetState() (.cold)
@@ -3916,9 +3918,9 @@ CSharedSemaphoreLinux::InitMutex() (.cold)
 CSharedSemaphoreLinux::IsResetRequired()
 CSharedSemaphoreLinux::IsResetRequired() (.cold)
 CSharedSemaphoreLinux::Lock(unsigned int)
-CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*)
-CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*) (.cold)
-CSharedSemaphoreLinux::RequestSharedVulkanSemaphore()
+CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*, bool)
+CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*, bool) (.cold)
+CSharedSemaphoreLinux::RequestSharedVulkanSemaphore(bool)
 CSharedSemaphoreLinux::SetState(VRCompositorResourceState_t::SemaphoreState)
 CSharedSemaphoreLinux::SetState(VRCompositorResourceState_t::SemaphoreState) (.cold)
 CSharedSemaphoreLinux::Unlock()
@@ -6662,8 +6664,8 @@ CVRIPCResourceManagerBase::NewSharedVulkanBuffer(unsigned int, unsigned int, uns
 CVRIPCResourceManagerBase::NewSharedVulkanBuffer(unsigned int, unsigned int, unsigned long*) (.cold)
 CVRIPCResourceManagerBase::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned int, unsigned long*)
 CVRIPCResourceManagerBase::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned int, unsigned long*) (.cold)
-CVRIPCResourceManagerBase::NewSharedVulkanSemaphore(unsigned long*)
-CVRIPCResourceManagerBase::NewSharedVulkanSemaphore(unsigned long*) (.cold)
+CVRIPCResourceManagerBase::NewSharedVulkanSemaphore(bool, unsigned long*)
+CVRIPCResourceManagerBase::NewSharedVulkanSemaphore(bool, unsigned long*) (.cold)
 CVRIPCResourceManagerBase::ReceiveSharedFd(unsigned long, int*)
 CVRIPCResourceManagerBase::RefResource(unsigned long, unsigned long*)
 CVRIPCResourceManagerBase::RefResource(unsigned long, unsigned long*) (.cold)
@@ -6671,6 +6673,15 @@ CVRIPCResourceManagerBase::UnrefResource(unsigned long)
 CVRIPCResourceManagerBase::UnrefResource(unsigned long) (.cold)
 CVRIPCResourceManagerBase::ValidateDmabufAttributes(vr::DmabufAttributes_t const*)
 CVRIPCResourceManagerBase::~CVRIPCResourceManagerBase()
+CVRIPCResourceManagerClient_001::GetDmabufFormats(unsigned int*, unsigned int*)
+CVRIPCResourceManagerClient_001::GetDmabufModifiers(vr::EVRApplicationType, unsigned int, unsigned int*, unsigned long*)
+CVRIPCResourceManagerClient_001::ImportDmabuf(vr::EVRApplicationType, vr::DmabufAttributes_t*, unsigned long*)
+CVRIPCResourceManagerClient_001::NewSharedVulkanBuffer(unsigned int, unsigned int, unsigned long*)
+CVRIPCResourceManagerClient_001::NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned int, unsigned long*)
+CVRIPCResourceManagerClient_001::NewSharedVulkanSemaphore(unsigned long*)
+CVRIPCResourceManagerClient_001::ReceiveSharedFd(unsigned long, int*)
+CVRIPCResourceManagerClient_001::RefResource(unsigned long, unsigned long*)
+CVRIPCResourceManagerClient_001::UnrefResource(unsigned long)
 CVRInputLatest::AddActionSetToPriorityMap(InputConfig_t*, CVRControllerTypeBindings*, unsigned long, int, bool, unsigned long)
 CVRInputLatest::BGetInputOptionBool(unsigned long, std::string const&)
 CVRInputLatest::BGetInputOptionBool(unsigned long, std::string const&) (.cold)
@@ -17118,8 +17129,8 @@ CVulkanVRRenderer::CreateGPUCountingSemaphore(unsigned long*, unsigned int)
 CVulkanVRRenderer::CreateGPUCountingSemaphore(unsigned long*, unsigned int) (.cold)
 CVulkanVRRenderer::CreateGPUSemaphore - Failed to create shared semaphore\n
 CVulkanVRRenderer::CreateGPUSemaphore - Failed to import shared semaphore\n
-CVulkanVRRenderer::CreateGPUSemaphore(unsigned long*, bool)
-CVulkanVRRenderer::CreateGPUSemaphore(unsigned long*, bool) (.cold)
+CVulkanVRRenderer::CreateGPUSemaphore(bool, unsigned long*, bool)
+CVulkanVRRenderer::CreateGPUSemaphore(bool, unsigned long*, bool) (.cold)
 CVulkanVRRenderer::CreateIndexBuffer(unsigned int, unsigned long*)
 CVulkanVRRenderer::CreateIndexBuffer(unsigned int, unsigned long*) (.cold)
 CVulkanVRRenderer::CreateRWStructuredBuffer(unsigned int, void*)
@@ -18567,6 +18578,8 @@ IPC::crc32(unsigned int, void const*, unsigned long)::s_crc32
 IPC::g_SharedObjectManager
 IPCPipe(%s): Sending packed message type %u, seq %u, len %u\n
 IPCPipe(%s): Sending simple message type %u, seq %u\n
+IPCResourceManagerClientInterfaceRegistration<CVRIPCResourceManagerClient_001>::GetInterface()
+IPCResourceManagerClientInterfaceRegistration<CVRIPCResourceManagerClient_001>::~IPCResourceManagerClientInterfaceRegistration()
 IServerTrackedDeviceProvider_002
 IServerTrackedDeviceProvider_003
 IServerTrackedDeviceProvider_004
@@ -19462,6 +19475,7 @@ IVRIOBuffer_002_FnTable_PropertyContainer(unsigned long)
 IVRIOBuffer_002_FnTable_Read(unsigned long, void*, unsigned int, unsigned int*)
 IVRIOBuffer_002_FnTable_Write(unsigned long, void*, unsigned int)
 IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRInputInternal_002
 IVRInput_001
 IVRInput_001_FnTable_ActivateActionSet(unsigned long)
@@ -22552,7 +22566,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
-Jul 11 2025
+Jul 17 2025
 July
 June
 KHR_audio
@@ -25459,7 +25473,7 @@ VR_IVRIPCResourceManagerClient_FnTable_GetDmabufModifiers(EVRApplicationType, un
 VR_IVRIPCResourceManagerClient_FnTable_ImportDmabuf(EVRApplicationType, DmabufAttributes_t*, unsigned long*)
 VR_IVRIPCResourceManagerClient_FnTable_NewSharedVulkanBuffer(unsigned int, unsigned int, unsigned long*)
 VR_IVRIPCResourceManagerClient_FnTable_NewSharedVulkanImage(unsigned int, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned int, unsigned long*)
-VR_IVRIPCResourceManagerClient_FnTable_NewSharedVulkanSemaphore(unsigned long*)
+VR_IVRIPCResourceManagerClient_FnTable_NewSharedVulkanSemaphore(bool, unsigned long*)
 VR_IVRIPCResourceManagerClient_FnTable_ReceiveSharedFd(unsigned long, int*)
 VR_IVRIPCResourceManagerClient_FnTable_RefResource(unsigned long, unsigned long*)
 VR_IVRIPCResourceManagerClient_FnTable_UnrefResource(unsigned long)
@@ -26715,7 +26729,6 @@ XrResult CSxrSession::ReadCachedActionState<XrActionStatePose>(XrAction_T*, unsi
 XrResult CSxrSession::ReadCachedActionState<XrActionStateVector2f>(XrAction_T*, unsigned long, XrActionType, XrActionStateVector2f*, XrActionStateVector2f const&, std::function<XrResult (XrAction_T*, unsigned long, XrActionStateVector2f*, unsigned long*)>)
 XrResult ValidatePathComponent<64ul>(char const (&) [64ul])
 XrView& std::vector<XrView, std::allocator<XrView>>::emplace_back<XrView>(XrView&&)
-ZA<a`
 Zjz\v
 [AnimSkeleton] Failed to load GLTF file: %s
 [CDownsampleRenderer] Allocated MSAA Temp texture %dx%d\n
@@ -27667,6 +27680,7 @@ autoreg_VR_IVRSystem_FnTable
 autoreg_VR_IVRTrackedCamera_FnTable
 available
 axis
+bCounting should only ever come from the resource manager - use CreateGPUCountingSemaphore instead
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
@@ -28848,6 +28862,7 @@ g_pDebug
 g_pExtendedDisplayLatest
 g_pHmdLatest
 g_pIOBufferLatest
+g_pIPCResourceManagerClientLatest
 g_pIVRApplications
 g_pIVRBlockQueue
 g_pIVRChaperone
@@ -36452,6 +36467,7 @@ typeinfo for CVRIOBuffer_001
 typeinfo for CVRIOBuffer_002
 typeinfo for CVRIPCResourceManager
 typeinfo for CVRIPCResourceManagerBase
+typeinfo for CVRIPCResourceManagerClient_001
 typeinfo for CVRInputLatest
 typeinfo for CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long, unsigned long)::'lambda'(unsigned long)
 typeinfo for CVRInput_001
@@ -36893,6 +36909,7 @@ typeinfo for IPC::ISyncObject
 typeinfo for IPC::PosixSharedMemory
 typeinfo for IPC::SharedObjectEvent
 typeinfo for IPC::SharedObjectMutex
+typeinfo for IPCResourceManagerClientInterfaceRegistration<CVRIPCResourceManagerClient_001>
 typeinfo for IServerDriverHost_002_003
 typeinfo for ITrackedDeviceServerDriver_004
 typeinfo for IVRCameraComponent001
@@ -37766,6 +37783,7 @@ typeinfo name for CVRIOBuffer_001
 typeinfo name for CVRIOBuffer_002
 typeinfo name for CVRIPCResourceManager
 typeinfo name for CVRIPCResourceManagerBase
+typeinfo name for CVRIPCResourceManagerClient_001
 typeinfo name for CVRInputLatest
 typeinfo name for CVRInputLatest::InputFrame_t::GetAndCollapseActionValues(VRAction_Entry_t*, unsigned long, unsigned long)::'lambda'(unsigned long)
 typeinfo name for CVRInput_001
@@ -38207,6 +38225,7 @@ typeinfo name for IPC::ISyncObject
 typeinfo name for IPC::PosixSharedMemory
 typeinfo name for IPC::SharedObjectEvent
 typeinfo name for IPC::SharedObjectMutex
+typeinfo name for IPCResourceManagerClientInterfaceRegistration<CVRIPCResourceManagerClient_001>
 typeinfo name for IServerDriverHost_002_003
 typeinfo name for ITrackedDeviceServerDriver_004
 typeinfo name for IVRCameraComponent001
@@ -38893,6 +38912,7 @@ userinterface
 usleep
 uuid_generate
 uuid_parse
+uuid_unparse_lower
 uvaccessor_
 uw_frame_state_for
 uw_frame_state_for.cold
@@ -38996,7 +39016,7 @@ virtual thunk to CSharedSemaphoreLinux::GetVulkanSemaphore() const
 virtual thunk to CSharedSemaphoreLinux::ImportVulkanSemaphore(VkDevice_T*, unsigned long)
 virtual thunk to CSharedSemaphoreLinux::IsResetRequired()
 virtual thunk to CSharedSemaphoreLinux::Lock(unsigned int)
-virtual thunk to CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*)
+virtual thunk to CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*, bool)
 virtual thunk to CSharedSemaphoreLinux::Unlock()
 virtual thunk to CSharedSemaphoreLinux::~CSharedSemaphoreLinux()
 virtual thunk to InMemoryInputStream::~InMemoryInputStream()
@@ -40477,7 +40497,7 @@ vr::IVRSharedResource::CreateFD()
 vr::IVRSharedSemaphore::GetOGLSemaphore(bool)
 vr::IVRSharedSemaphore::GetVulkanSemaphore() const
 vr::IVRSharedSemaphore::ImportVulkanSemaphore(VkDevice_T*, unsigned long)
-vr::IVRSharedSemaphore::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*)
+vr::IVRSharedSemaphore::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*, bool)
 vr::IVRSteamPrivate_Version
 vr::PathRead_t& std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t>>::emplace_back<vr::PathRead_t>(vr::PathRead_t&&)
 vr::RoundTo(float, unsigned int)
@@ -40486,6 +40506,7 @@ vr::VRMessageOverlayMessageDetails::Clear()
 vr::VRMessageOverlayMessageDetails::CopyTo(vr::VRMessageOverlayMessageDetails&) const
 vr::VRMessageOverlayMessageDetails::Set(unsigned int, char const*, char const*, char const**)
 vrIOBuffer001
+vrIPCResourceManagerClient001
 vrMailbox001
 vrOverlayView001
 vrOverlayView001_FnTable
@@ -41022,6 +41043,7 @@ vtable for CVRIOBuffer_001
 vtable for CVRIOBuffer_002
 vtable for CVRIPCResourceManager
 vtable for CVRIPCResourceManagerBase
+vtable for CVRIPCResourceManagerClient_001
 vtable for CVRInputLatest
 vtable for CVRInput_001
 vtable for CVRInput_002
@@ -41429,6 +41451,7 @@ vtable for IOBufferInterfaceRegistration<CVRIOBuffer_002>
 vtable for IPC::PosixSharedMemory
 vtable for IPC::SharedObjectEvent
 vtable for IPC::SharedObjectMutex
+vtable for IPCResourceManagerClientInterfaceRegistration<CVRIPCResourceManagerClient_001>
 vtable for IXrBinding
 vtable for InMemoryInputStream
 vtable for InMemoryStreamInputBuf

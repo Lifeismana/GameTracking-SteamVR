@@ -1575,7 +1575,7 @@ body.SGApp .SettingsSidebarButton .Label {
 }
 .VisualizerImage {
   pointer-events: none;
-  z-index: -1;
+  z-index: 0;
   display: inline-flex;
   position: sticky;
   width: 90%;

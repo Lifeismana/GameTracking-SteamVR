@@ -52,6 +52,7 @@
 (R:)\s*([0-9.X]*),?\s*(M:)\s*([0-9.X]*),?\s*(B:)\s*([0-9.X]*)
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 ) is the dummy baud rate to circumvent a SEGGER J-LINK-OB issue. Please use a different baud rate.
+)Ayh
 , H5 error count: 
 , defaulting to flow_control::none!
 , defaulting to parity::none!

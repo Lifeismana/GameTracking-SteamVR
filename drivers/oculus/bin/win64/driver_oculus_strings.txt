@@ -569,7 +569,7 @@ IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
-IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
@@ -700,7 +700,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDS\tj
 RaiseException
 ResetEvent
 RootNode
@@ -1710,3 +1710,4 @@ znear
 {oculus}/input/rift_dk2.json
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
+|Ayh

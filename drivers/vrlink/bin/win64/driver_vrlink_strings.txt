@@ -1423,7 +1423,7 @@ IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
-IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
@@ -1699,8 +1699,15 @@ OutputDebugStringA
 OutputDebugStringW
 P00`
 P<xD<
+PICO 4
 PICO 4 (Left Controller)
 PICO 4 (Right Controller)
+PICO 4 Enterprise
+PICO 4 Pro
+PICO 4 Ultra
+PICO Neo 3
+PICO Neo 3 (Left Controller)
+PICO Neo 3 (Right Controller)
 PICT
 PID_
 PID_%04X
@@ -2280,7 +2287,6 @@ Zjz\v
 [SVLController] Overriding Quest specific properties for %s\n
 [SVLController] Reported HMD model is %d\n
 [SVLController] Setting up HTC Vive Focus Controller: %s
-[SVLController] Setting up Pico 4 Controller: %s
 [SVLHMD] Re-requesting static props: projectionParams: %i chaperone: %i power: %i statichmd: %i defaults: %i framerateUs: %i
 [SVLHandTrackingDriver] ~SVLHandTrackingDriver()
 [SVLS] ResetVideoStream
@@ -3027,7 +3033,8 @@ perspective
 pico
 pico4_
 pico4u_
-pico_controller
+pico_4_controller
+pico_neo3_controller
 ping
 pl_pl
 playing
@@ -3360,10 +3367,12 @@ znear
 {vrlink}/icons/right_handtracking_ready.png
 {vrlink}/icons/right_handtracking_ready_info.png
 {vrlink}/icons/right_handtracking_searching.gif
-{vrlink}/input/pico_controller_profile.json
+{vrlink}/input/pico_4_controller_profile.json
+{vrlink}/input/pico_neo3_controller_profile.json
 {vrlink}/input/svl_hand_interaction_augmented_input_profile.json
 {vrlink}/input/vive_focus3_controller_profile.json
 {vrlink}/rendermodels/pico_4_controller_
+{vrlink}/rendermodels/pico_4_ultra_controller_
 {vrlink}/rendermodels/shuttlecock
 {vrlink}/shaders/client_construct_override.frag
 {vrlink}/shaders/client_construct_override.vert

@@ -104,6 +104,7 @@
 .xdata
 .xdata$x
 //==============================================================================================\n
+0Byh
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -249,7 +250,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSw
+RSDS
 R\vpn
 RaiseException
 RegCloseKey
@@ -421,7 +422,6 @@ bad allocation
 bad array new length
 bad conversion
 bin/vrclient_x64.dll
-c#gymO
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\app_containers.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\removeusbhelper\Retail\win64\2017\removeusbhelper.pdb

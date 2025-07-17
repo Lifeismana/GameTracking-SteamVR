@@ -2801,6 +2801,7 @@ $3br
 17CFirmwareManifest
 17CImuTrackerThread
 17CLinuxVideoStream
+18:29:23
 18CPropertyContainer
 18IUsbDeviceCallback
 19CWirelessDecoderWv2
@@ -2814,7 +2815,6 @@ $3br
 20CVRTrackedDevice_004
 20IVRAudioNotification
 20IVRVirtualDisplay001
-21:11:42
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
@@ -6205,7 +6205,7 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIOBuffer_002
-IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRInputInternal_002
 IVRInput_010
 IVRMCStore_001
@@ -6844,7 +6844,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
-Jul 11 2025
+Jul 17 2025
 July
 June
 KHR_audio

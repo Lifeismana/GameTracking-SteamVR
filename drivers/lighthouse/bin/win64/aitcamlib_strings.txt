@@ -2,6 +2,7 @@
 #?RADIANCE\n
 #?RGBE
 #?RGBE\n
+%Ayh
 '.5<=6/7>????????????????
 , last executing in 
 .00cfg
@@ -239,7 +240,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS^
+RSDSn
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent

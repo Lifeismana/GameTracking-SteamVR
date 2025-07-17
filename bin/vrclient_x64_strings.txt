@@ -77,7 +77,6 @@
 $3br
 $tI(knN
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x
 %LocalAppData%
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
@@ -585,6 +584,7 @@ $tI(knN
 .?AV?$HmdInterfaceRegistration@VCVRSystem_022@@@@
 .?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_001@@@@
 .?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_002@@@@
+.?AV?$IPCResourceManagerClientInterfaceRegistration@VCVRIPCResourceManagerClient_001@@@@
 .?AV?$InputInterfaceRegistration@VCVRInput_001@@@@
 .?AV?$InputInterfaceRegistration@VCVRInput_002@@@@
 .?AV?$InputInterfaceRegistration@VCVRInput_003@@@@
@@ -935,6 +935,7 @@ $tI(knN
 .?AVCVRIOBuffer_001@@
 .?AVCVRIOBuffer_002@@
 .?AVCVRIPCResourceManagerBase@@
+.?AVCVRIPCResourceManagerClient_001@@
 .?AVCVRInputLatest@@
 .?AVCVRInput_001@@
 .?AVCVRInput_002@@
@@ -3294,6 +3295,7 @@ IVRHmdDistortPresent_001
 IVRIOBuffer_001
 IVRIOBuffer_002
 IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRInputInternal_002
 IVRInput_001
 IVRInput_002
@@ -3923,7 +3925,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDSs|.
+RSDS
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -4000,6 +4002,7 @@ Returning HmdNotFound because the client-side presence check failed.\n
 Right_
 Ring Buffer Wrapped!\n
 RootNode
+RpcStringFreeA
 RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
@@ -4387,6 +4390,7 @@ User Canceled Init (116)
 User Config Directory Invalid (107)
 Using physical device: %s
 UuidFromStringA
+UuidToStringA
 VALVE_runtime_is_steamvr
 VCRUNTIME140.dll
 VEC2
@@ -5835,7 +5839,6 @@ XrProto:suspended
 XrQueryPerformanceMetricsCounterMETA was passed a counter struct with the wrong type member.
 XrQueryPerformanceMetricsCounterMETA was passed a null counter pointer.
 YUY2
-ZA<a`
 Zjz\v
 ZvFailed to create fence %ls.\n
 [%s] Begin Frame Timing: %d
@@ -6162,6 +6165,7 @@ ZvFailed to create fence %ls.\n
 [Tutorial] Adding tutorial action set %s twice!\n
 [Tutorial] Failed to generate action set handle for per-input tutorial action set\n
 [Tutorial] Found input path with unexpected prefix: %s\n
+[UUID] Failed to convert UUID to string: %i
 [UUID] Failed to convert string to UUID %i
 [UUID] Failed to generate UUID
 [VirtualDisplay] Present took to long!
@@ -6392,6 +6396,7 @@ attributes
 audio
 autoLaunchSteamVROnButtonPress
 axis
+bCounting should only ever come from the resource manager - use CreateGPUCountingSemaphore instead
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
 bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
@@ -9139,6 +9144,7 @@ xrconformance/driver
 y_path
 yfov
 ymag
+zByh
 z^KD
 zfar
 zh_cn

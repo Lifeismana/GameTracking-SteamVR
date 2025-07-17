@@ -85,6 +85,7 @@ CloseHandle
 CreateEventW
 DeleteCriticalSection
 DisableThreadLibraryCalls
+Dj<b
 Gamepad
 GetCurrentProcessId
 GetCurrentThreadId
@@ -101,7 +102,7 @@ IVRDriverDirectModeComponent_009
 IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
-IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -202,6 +203,7 @@ bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
 free
+jAyh
 malloc
 map/set<T> too long
 memcpy

@@ -63,6 +63,7 @@
 ([0-9X]*)(.)([0-9X]*)(.)([0-9X]*)
 -1e+9999
 -ADDR %s
+-Ayh
 -Infinity
 -btdriverver
 -start
@@ -449,7 +450,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDSPn
+RSDSz
 RaiseException
 ReadFile
 ReadPipeResponse

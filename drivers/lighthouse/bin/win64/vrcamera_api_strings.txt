@@ -6,6 +6,7 @@
  Capability Size: 
  Height: 
  Width: 
+!Ayh
 %.0Lf
 %H : %M : %S
 %I : %M : %S %p

@@ -475,7 +475,7 @@ IVRCameraComponent_003
 IVRCompositorPluginProvider_001
 IVRDriverDirectModeComponent_009
 IVRDriverManager_001
-IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRResources_001
 IVRSettings_003
 IVRVirtualDisplay_002
@@ -666,6 +666,7 @@ WriteFile
 Wrote image to tempfile %s\n\n
 XsBI
 Zjz\v
+[Ayh
 [h1R
 \FileVersion
 \InternalName

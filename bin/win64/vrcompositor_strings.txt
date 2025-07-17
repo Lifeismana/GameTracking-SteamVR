@@ -911,12 +911,13 @@ $4DTdt
 00003333
 0123456789ABCDEF
 0123456789ABCDEFundefined
+0\rPRX
 0x%02x 
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
+11:28:53
 123456789
-14:14:30
 1A26b
 1e+9999
 1wsHp
@@ -1511,6 +1512,7 @@ CreateThread
 CreateThread for playback failed: last error is %u\n
 CreateWellKnownSid
 CreateWindowExW
+Created static resources for tracked camera complete
 Creating camera roomview. Using %d quads...\n
 Creating camera roomview...\n
 Creating constant buffers\n
@@ -1520,7 +1522,7 @@ Creating liquidvr display\n
 Creating nvapi display. requested size: %d %d, preferred refresh: %f\n
 Creating playback mirror thread for device %s\n
 Creating samplers\n
-Creating static resources for tracked camera\n
+Creating static resources for tracked camera
 Creating swap chain - Format=%d
 Creating swap texture sets (version: %d)\n
 Creating util resources\n
@@ -1619,6 +1621,12 @@ EnumDisplayMonitors
 Error
 Error Logging DisplayPort Link Info\n
 Error Updating HMD DisplayFrequency\n
+Error connecting to camera block queue
+Error creating UndistortionMapTexture
+Error creating YUYVGammaDecodeTexture
+Error creating blends
+Error creating constant buffers
+Error creating samplers
 Error establishing real-time priority of RenderThread
 Error establishing real-time priority of SignalThread
 Error getting center on CommitPlayspaceCircleBoundary
@@ -1695,7 +1703,7 @@ Failed to convert event of type %s\n
 Failed to create D3D device: %u\n
 Failed to create DXGIFactory1!\n
 Failed to create DepthStencilView for texture %s\n
-Failed to create Distorted Frames IOBuffer (%d)\n
+Failed to create Distorted Frames IOBuffer (%d)
 Failed to create LiquidVR motion vector input resource!\n
 Failed to create LiquidVR motion vector input texture\n
 Failed to create LiquidVR texture\n
@@ -1703,7 +1711,7 @@ Failed to create NvEncode output buffer!\n
 Failed to create RTV for texture lod=%d
 Failed to create RTV for texture\n
 Failed to create SRV for texture lod=%d
-Failed to create Undistorted Frames IOBuffer (%d)\n
+Failed to create Undistorted Frames IOBuffer (%d)
 Failed to create VRSettings interface!\n
 Failed to create a D3D11 Device for LiquidVR motion estimation!\n
 Failed to create alpha blend state!\n
@@ -1793,11 +1801,11 @@ Failed to create system layer
 Failed to create texture: %s
 Failed to create tracked camera YUYV gamma decode texture map!\n
 Failed to create tracked camera constant buffer!\n
-Failed to create tracked camera decoded render texture (%d)!\n
-Failed to create tracked camera event query (%d)!\n
+Failed to create tracked camera decoded render texture (%d)
+Failed to create tracked camera event query (%d)
 Failed to create tracked camera rasterizer CW state!\n
 Failed to create tracked camera rasterizer NoCull state!\n
-Failed to create tracked camera render texture!\n
+Failed to create tracked camera render texture
 Failed to create tracked camera undistortion texture map!\n
 Failed to create tracked camera vertex buffer!\n
 Failed to create trilinear clamp sampler state!\n
@@ -1842,8 +1850,8 @@ Failed to get dxgi2 back buffer!\n
 Failed to get fallback sync texture shared handle for driver direct mode (compositor)!\n
 Failed to get render models interface!\n
 Failed to get settings interface!\n
-Failed to get tracked camera projection!\n
-Failed to get tracked camera recommended undistortion dimensions!\n
+Failed to get tracked camera projection
+Failed to get tracked camera recommended undistortion dimensions
 Failed to import client event handle from pipe %s after connecting\n
 Failed to import server event handle from pipe %s after connecting\n
 Failed to init because resource manager client is null\n
@@ -2278,7 +2286,7 @@ IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 It shouldn't be possible to add a child twice because of move semantics
 JFIF
 Journaling %s\n
-Jul 11 2025
+Jul 17 2025
 KERNEL32.dll
 Kernel32.dll
 KillTimer
@@ -2731,6 +2739,9 @@ R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
 RSDS
+R\fp\v`\n0RX
+R\npRX
+R\rp\f`\v0RX
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -3112,7 +3123,6 @@ Unknown EVROverlayError (%d)
 Unknown Ghost Correction Mode Prop_DisplayGCType %d (supported values {0,1}\n
 Unknown VRMsgType (%d)
 Unknown VRSettingsError (%d)
-Unknown camera stream format\n
 Unknown compression method in IHDR
 Unknown compression type @1
 Unknown compression type in iCCP chunk
@@ -3129,6 +3139,7 @@ Unrecognized unit type for pHYs chunk
 UnregisterClassW
 Unsupported RTV type: %d
 Unsupported SRV type: %d
+Unsupported camera stream format %d
 Updated HMD Prop_DisplayFrequency_Float to %f\n
 User Canceled Init (116)
 User Config Directory Invalid (107)
@@ -4230,6 +4241,7 @@ Zjz\v
 [h1R
 [libprotobuf %s %s:%d] %s\n
 [no zlib message]
+\fpRX
 \gpuvis.exe
 \mfpmp.exe
 \nbad png sig
@@ -4238,6 +4250,7 @@ Zjz\v
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \vCreating systemlayer textures (w=%d,h=%d)\n
+\vpRX
 \vrcompositor.exe
 ]CGraphicsDevice::AcquireSync
 ^oEZ_
@@ -4332,6 +4345,8 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
+`\r0\fPRX
+`\rP\f0RX
 `anonymous-namespace'::ImportTextureFromSharedHandle
 abort
 acceleration-factor-scale-term
@@ -5086,6 +5101,8 @@ pSharedState != nullptr
 pSystemLayerState
 pTexture != nullptr
 pTileFloorLightmap != nullptr
+p\r`\f0RX
+p\r`\f0\vPRX
 panel
 panel-anchor
 panelMask
@@ -5132,7 +5149,6 @@ qsort
 quad
 quickMouseMode
 quick_reset_room_setup
-r\vPd<
 radius-range
 rand
 rawCaptureNumberOfFrames

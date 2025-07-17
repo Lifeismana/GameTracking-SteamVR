@@ -983,7 +983,7 @@ IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverManager_001
-IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRMailbox_002
 IVRResources_001
 IVRServerInternal_XXX
@@ -1324,6 +1324,7 @@ UserData Error: Unable to request user data from device (%s), bytesRead %d, byte
 UserData Error: Unable to send start user data feature report \n
 UuidCreate
 UuidToStringA
+VAyh
 VBus: 
 VCRUNTIME140.dll
 VDEST
@@ -1794,6 +1795,7 @@ hmdhidtest
 hu_hu
 hungarian
 i91k
+iPCT
 i]Wb
 identifier_value
 identifycontroller

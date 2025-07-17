@@ -49,6 +49,7 @@
 .xdata$x
 1DoTheWork()
 1show()
+4Byh
 ;\r?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z
 ??0QApplication@@QEAA@AEAHPEAPEADH@Z
 ??0QLabel@@QEAA@PEAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z
@@ -138,7 +139,7 @@ QLabel { background-color: rgb( 38, 38, 38);border-width: 1px;border-style: soli
 Qt5Core.dll
 Qt5Widgets.dll
 QueryPerformanceCounter
-RSDS
+RSDS79
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind

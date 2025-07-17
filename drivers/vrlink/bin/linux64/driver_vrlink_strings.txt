@@ -536,6 +536,7 @@ $3br
 16SVLAudioPipewire
 17CBoneMaskResource
 17CSharedImageLinux
+18:29:27
 18CSharedBufferLinux
 18IUsbDeviceCallback
 18SVLFECRAID6RXFrame
@@ -546,7 +547,6 @@ $3br
 1e+9999
 20BinaryBlendPoseMaker
 20PassThroughPoseMaker
-21:11:26
 21CSharedSemaphoreLinux
 21SVLHandTrackingDriver
 22CKeyframedDataResource
@@ -558,7 +558,6 @@ $3br
 24CSharedResourceBaseLinux
 26CHandPoseLogic_OculusTouch
 29CSharedCountingSemaphoreLinux
-2VpO
 30CSharedResourceNamespaceServer
 4fff>fff>fff>fff>
 4gTMHV
@@ -574,6 +573,7 @@ $3br
 9SVLDriver
 9SVLServer
 9a&g
+9r}Ax]
 : exception thrown in JSON library
 : one or more FS callback not set
 ; expected 
@@ -1238,7 +1238,7 @@ CSWTCH.103
 CSWTCH.107
 CSWTCH.145
 CSWTCH.213
-CSWTCH.407
+CSWTCH.408
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CSharedBufferLinux::CSharedBufferLinux(vr::IVRIPCResourceManagerClient*)
@@ -1334,15 +1334,15 @@ CSharedResourceBaseLinux::AcquireSemaphoreToWait(vr::IVRSharedSemaphore**) (.col
 CSharedResourceBaseLinux::AcquireSignalSemaphores failed to import shared semaphore handle=0x%lx slot=%u\n
 CSharedResourceBaseLinux::AcquireSignalSemaphores()
 CSharedResourceBaseLinux::AcquireSignalSemaphores() (.cold)
-CSharedResourceBaseLinux::AllocateSemaphoreSlot(VRCompositorResourceState_t*, VkDevice_T*, unsigned int)
+CSharedResourceBaseLinux::AllocateSemaphoreSlot(VRCompositorResourceState_t*, VkDevice_T*, unsigned int, bool)
 CSharedResourceBaseLinux::CSharedResourceBaseLinux(vr::IVRIPCResourceManagerClient*)
 CSharedResourceBaseLinux::CSharedResourceData::s_CacheLock
 CSharedResourceBaseLinux::CSharedResourceData::s_CachedResourceData
 CSharedResourceBaseLinux::CSharedResourceData::~CSharedResourceData()
 CSharedResourceBaseLinux::CleanupAssociatedResources()
 CSharedResourceBaseLinux::CreateAssociatedResources failed to pre-allocate semaphore handle=0x%lx slot=%u\n
-CSharedResourceBaseLinux::CreateAssociatedResources(VkDevice_T*, unsigned int, bool)
-CSharedResourceBaseLinux::CreateAssociatedResources(VkDevice_T*, unsigned int, bool) (.cold)
+CSharedResourceBaseLinux::CreateAssociatedResources(VkDevice_T*, unsigned int, bool, bool)
+CSharedResourceBaseLinux::CreateAssociatedResources(VkDevice_T*, unsigned int, bool, bool) (.cold)
 CSharedResourceBaseLinux::CreateFD()
 CSharedResourceBaseLinux::CreateForExport()
 CSharedResourceBaseLinux::CreateForExport() (.cold)
@@ -1395,7 +1395,7 @@ CSharedResourceNamespaceServer timed out waiting for client message\n
 CSharedResourceNamespaceServer::Run()
 CSharedResourceNamespaceServer::~CSharedResourceNamespaceServer()
 CSharedSemaphoreLinux::CSharedSemaphoreLinux(vr::IVRIPCResourceManagerClient*)
-CSharedSemaphoreLinux::CreateVulkanSemaphore(VkDevice_T*)
+CSharedSemaphoreLinux::CreateVulkanSemaphore(VkDevice_T*, bool)
 CSharedSemaphoreLinux::GetOGLSemaphore(bool)
 CSharedSemaphoreLinux::GetState()
 CSharedSemaphoreLinux::GetState() (.cold)
@@ -1414,9 +1414,9 @@ CSharedSemaphoreLinux::InitMutex() (.cold)
 CSharedSemaphoreLinux::IsResetRequired()
 CSharedSemaphoreLinux::IsResetRequired() (.cold)
 CSharedSemaphoreLinux::Lock(unsigned int)
-CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*)
-CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*) (.cold)
-CSharedSemaphoreLinux::RequestSharedVulkanSemaphore()
+CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*, bool)
+CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*, bool) (.cold)
+CSharedSemaphoreLinux::RequestSharedVulkanSemaphore(bool)
 CSharedSemaphoreLinux::SetState(VRCompositorResourceState_t::SemaphoreState)
 CSharedSemaphoreLinux::SetState(VRCompositorResourceState_t::SemaphoreState) (.cold)
 CSharedSemaphoreLinux::Unlock()
@@ -2083,16 +2083,8 @@ GetFilenameTimeString()
 GetGMUnixTime()
 GetGMUnixTimeAtNextLocalTime(unsigned long, int, int, int)
 GetHMDModel(std::string const&)
-GetHMDModel(std::string const&) (.cold)
 GetHMDModel(std::string const&)::'lambda'()::operator()() const::encrypted
 GetHMDModel(std::string const&)::'lambda0'()::operator()() const::encrypted
-GetHMDModel(std::string const&)::'lambda1'()::operator()() const::encrypted
-GetHMDModel(std::string const&)::'lambda2'()::operator()() const::encrypted
-GetHMDModel(std::string const&)::'lambda3'()::operator()() const::encrypted
-GetHMDModel(std::string const&)::'lambda4'()::operator()() const::encrypted
-GetHMDModel(std::string const&)::'lambda5'()::operator()() const::encrypted
-GetHMDModel(std::string const&)::'lambda6'()::operator()() const::encrypted
-GetHMDModel(std::string const&)::'lambda7'()::operator()() const::encrypted
 GetHmdErrorPriority(vr::EVRInitError)
 GetInputValueVisibilityFromString(char const*)
 GetKeyboardOverlay(VRSystemLayerState_t const*, vr::EVROverlayError*)
@@ -2123,6 +2115,7 @@ GetPreferredVRLinkAPName() (.cold)
 GetPrettyName(EHmdModel)::'lambda'()::operator()() const::encrypted
 GetPrettyName(EHmdModel)::'lambda0'()::operator()() const::encrypted
 GetPrettyName(EHmdModel)::'lambda1'()::operator()() const::encrypted
+GetPrettyName(EHmdModel)::'lambda10'()::operator()() const::encrypted
 GetPrettyName(EHmdModel)::'lambda2'()::operator()() const::encrypted
 GetPrettyName(EHmdModel)::'lambda3'()::operator()() const::encrypted
 GetPrettyName(EHmdModel)::'lambda4'()::operator()() const::encrypted
@@ -2130,6 +2123,7 @@ GetPrettyName(EHmdModel)::'lambda5'()::operator()() const::encrypted
 GetPrettyName(EHmdModel)::'lambda6'()::operator()() const::encrypted
 GetPrettyName(EHmdModel)::'lambda7'()::operator()() const::encrypted
 GetPrettyName(EHmdModel)::'lambda8'()::operator()() const::encrypted
+GetPrettyName(EHmdModel)::'lambda9'()::operator()() const::encrypted
 GetResourceBaseDir()
 GetResourceBaseDir() (.cold)
 GetScalarInput(unsigned long, unsigned long)
@@ -2323,7 +2317,7 @@ IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
-IVRIPCResourceManagerClient_001
+IVRIPCResourceManagerClient_002
 IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
@@ -2888,7 +2882,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
-Jul 11 2025
+Jul 17 2025
 July
 June
 KHR_audio
@@ -3147,8 +3141,15 @@ PFbPmPSsRKSsPvE
 PFbRKSsPSsPvE
 PFbRKSsPvE
 PFbcE
+PICO 4
 PICO 4 (Left Controller)
 PICO 4 (Right Controller)
+PICO 4 Enterprise
+PICO 4 Pro
+PICO 4 Ultra
+PICO Neo 3
+PICO Neo 3 (Left Controller)
+PICO Neo 3 (Right Controller)
 PICT
 PNG\r\n
 POSIX
@@ -5583,7 +5584,6 @@ Zjz\v
 [SVLController] Overriding Quest specific properties for %s\n
 [SVLController] Reported HMD model is %d\n
 [SVLController] Setting up HTC Vive Focus Controller: %s
-[SVLController] Setting up Pico 4 Controller: %s
 [SVLHMD] Re-requesting static props: projectionParams: %i chaperone: %i power: %i statichmd: %i defaults: %i framerateUs: %i
 [SVLHandTrackingDriver] ~SVLHandTrackingDriver()
 [SVLRenderer] AcceptFrameMetadata  m_iPresentNumber=%d, history_idx=%d fdiff=%d
@@ -7307,7 +7307,8 @@ pfnSteamAPI_WriteMiniDump
 pico
 pico4_
 pico4u_
-pico_controller
+pico_4_controller
+pico_neo3_controller
 ping
 pipe2
 pl_pl
@@ -12461,7 +12462,7 @@ virtual thunk to CSharedSemaphoreLinux::GetVulkanSemaphore() const
 virtual thunk to CSharedSemaphoreLinux::ImportVulkanSemaphore(VkDevice_T*, unsigned long)
 virtual thunk to CSharedSemaphoreLinux::IsResetRequired()
 virtual thunk to CSharedSemaphoreLinux::Lock(unsigned int)
-virtual thunk to CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*)
+virtual thunk to CSharedSemaphoreLinux::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*, bool)
 virtual thunk to CSharedSemaphoreLinux::Unlock()
 virtual thunk to CSharedSemaphoreLinux::~CSharedSemaphoreLinux()
 virtual thunk to std::basic_fstream<char, std::char_traits<char>>::~basic_fstream()
@@ -13342,7 +13343,7 @@ vr::IVRSharedResource::CreateFD()
 vr::IVRSharedSemaphore::GetOGLSemaphore(bool)
 vr::IVRSharedSemaphore::GetVulkanSemaphore() const
 vr::IVRSharedSemaphore::ImportVulkanSemaphore(VkDevice_T*, unsigned long)
-vr::IVRSharedSemaphore::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*)
+vr::IVRSharedSemaphore::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore_T*, bool)
 vr::OpenVRInternal_ModuleServerDriverContext()::ctx
 vr::PathRead_t& std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t>>::emplace_back<vr::PathRead_t>(vr::PathRead_t&&)
 vr::VRDriverContext()::pHost
@@ -13813,10 +13814,12 @@ znear
 {vrlink}/icons/right_handtracking_ready.png
 {vrlink}/icons/right_handtracking_ready_info.png
 {vrlink}/icons/right_handtracking_searching.gif
-{vrlink}/input/pico_controller_profile.json
+{vrlink}/input/pico_4_controller_profile.json
+{vrlink}/input/pico_neo3_controller_profile.json
 {vrlink}/input/svl_hand_interaction_augmented_input_profile.json
 {vrlink}/input/vive_focus3_controller_profile.json
 {vrlink}/rendermodels/pico_4_controller_
+{vrlink}/rendermodels/pico_4_ultra_controller_
 {vrlink}/rendermodels/shuttlecock
 {vrlink}/shaders/client_construct_override.frag
 {vrlink}/shaders/client_construct_override.vert

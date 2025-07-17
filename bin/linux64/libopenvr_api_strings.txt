@@ -232,7 +232,6 @@ Empty escape sequence in string
 Error from reader: %s
 Exceeded stackLimit in readValue().
 Extra non-whitespace after JSON value.
-F%2ps
 Factory Function Not Found (104)
 FbcE
 February
