@@ -666,7 +666,6 @@ WriteFile
 Wrote image to tempfile %s\n\n
 XsBI
 Zjz\v
-[Ayh
 [h1R
 \FileVersion
 \InternalName

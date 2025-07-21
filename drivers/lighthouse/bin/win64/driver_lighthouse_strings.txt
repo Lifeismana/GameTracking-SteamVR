@@ -1086,7 +1086,6 @@ $tAUUPE
 2).google.protobuf.FileOptions.OptimizeMode:
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
-2Q#y!
 3Pole
 3\n\rdynamic_state
 3\n\roptical_frame
@@ -2532,7 +2531,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS>/#
+RSDS
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4667,7 +4666,6 @@ swedish
 synconbeam
 syntax error 
 systime
-tAyh
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha

@@ -9144,7 +9144,6 @@ xrconformance/driver
 y_path
 yfov
 ymag
-zByh
 z^KD
 zfar
 zh_cn

@@ -61,7 +61,6 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-<Ayh
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
 DisableThreadLibraryCalls
@@ -91,7 +90,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDS
+RSDS)
 SetUnhandledExceptionFilter
 TerminateProcess
 UnhandledExceptionFilter

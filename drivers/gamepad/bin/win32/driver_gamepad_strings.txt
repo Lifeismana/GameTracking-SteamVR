@@ -12,7 +12,6 @@
 .?AVbad_array_new_length@std@@
 .?AVexception@std@@
 .?AVtype_info@@
-.Ayh
 .CRT$XCA
 .CRT$XCL
 .CRT$XCU

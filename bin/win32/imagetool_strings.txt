@@ -5594,7 +5594,6 @@ I2\nZ
 I3PE
 I7WK
 I=uA
-IAyh
 IBH Image Scale Factors
 IBM-037
 IBM-CP1133

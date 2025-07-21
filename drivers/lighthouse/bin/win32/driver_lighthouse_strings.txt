@@ -829,7 +829,6 @@ $tI<unknown>
 5\n\vnested_type
 6/aG
 6\n\fmessage_type
-7Ayh
 7\n\tenum_type
 7^d[L
 7~8A
@@ -2058,7 +2057,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS1
+RSDS
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE

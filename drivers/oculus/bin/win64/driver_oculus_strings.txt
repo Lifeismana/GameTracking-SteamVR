@@ -700,7 +700,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS\tj
+RSDS
 RaiseException
 ResetEvent
 RootNode
@@ -1710,4 +1710,3 @@ znear
 {oculus}/input/rift_dk2.json
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
-|Ayh

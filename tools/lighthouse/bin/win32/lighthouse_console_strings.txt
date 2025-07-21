@@ -1142,7 +1142,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS
+RSDS?v
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1324,7 +1324,6 @@ UserData Error: Unable to request user data from device (%s), bytesRead %d, byte
 UserData Error: Unable to send start user data feature report \n
 UuidCreate
 UuidToStringA
-VAyh
 VBus: 
 VCRUNTIME140.dll
 VDEST
@@ -1795,7 +1794,6 @@ hmdhidtest
 hu_hu
 hungarian
 i91k
-iPCT
 i]Wb
 identifier_value
 identifycontroller
