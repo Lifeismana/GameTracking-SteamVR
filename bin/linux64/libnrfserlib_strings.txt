@@ -1387,6 +1387,8 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
+JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
+JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
 July
 June
 LC_ADDRESS
@@ -2326,6 +2328,7 @@ _txnal_cow_string_c_str(void const*)
 _txnal_logic_error_get_msg(void*)
 _txnal_runtime_error_get_msg(void*)
 _txnal_sso_string_c_str(void const*)
+a value in the array could not be converted to a number
 abort
 add_fdes
 additional six characters expected to parse unicode surrogate pair.
@@ -6200,6 +6203,7 @@ stderr
 stdin
 stdout
 steamrt
+stof
 stoul
 strcasecmp
 strcat
@@ -6225,6 +6229,7 @@ strnicmp(char const*, char const*, unsigned long)
 strpbrk
 strstr
 strtod
+strtof
 strtol
 strtold_l
 strtoul
@@ -6243,6 +6248,8 @@ terminate called after throwing an instance of '
 terminate called recursively\n
 terminate called without an active exception\n
 terminator.9276
+the array does not have 3 elements
+the value is not an array
 this
 three
 throw

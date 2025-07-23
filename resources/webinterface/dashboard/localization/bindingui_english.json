@@ -71,6 +71,10 @@
   "SourceInputMode_DeadZone" : "DeadZone",
   "SourceInputMode_PositionOffset": "Position Offset",
   "SourceInputMode_RotationOffset": "Rotation Offset",
+  "SourceInputMode_LeftController_PositionOffset": "Left Controller Position Offset",
+  "SourceInputMode_LeftController_RotationOffset": "Left Controller Rotation Offset",
+  "SourceInputMode_RightController_PositionOffset": "Right Controller Position Offset",
+  "SourceInputMode_RightController_RotationOffset": "Right Controller Rotation Offset",
 
   "BindingUI_Compatibility_Remapped_Text": "This binding has automatically been remapped to your controller.",
 
@@ -197,6 +201,7 @@
   "BindingUI_Options_simulated_controller_type_tooltip": "When the application requests information about the controller instead return information from the specified controller type.",
   "BindingUI_Options_simulate_rendermodel_tooltip": "When the application requests a 3d model to represent the controller instead return the model for the compatibility mode controller type.",
   "BindingUI_Options_simulate_hmd_tooltip": "When the application requests a information about the HMD instead return information for the most compatible HMD related to the compatibility mode controller type.",
+  "BindingUI_Options_ControllerOffsets_tooltip": "Add offsets to each controller's raw position and rotation.",
 
   "BindingUI_PosesButton_tooltip": "Bindings for the position and rotation of the tracked object.",
   "BindingUI_HapticsButton_tooltip": "Bindings for haptic feedback actions.",
@@ -321,8 +326,10 @@
   "BindingUI_ChordsButton": "Chords",
   "BindingUI_CompatibilityModeInfo": "Compatibility Mode",
   "BindingUI_CompatibilityModeAppearingAsInfo": "Appearing as",
+  "BindingUI_Configure": "Configure",
 
   "BindingSettingsModal_Title": "Input Settings",
+  "BindingSettingsModal_OffsetsTitle": "Raw Device Offsets",
 
   "TrackerRole_None": "Disabled",
   "TrackerRole_Handed": "Held in Hand",
@@ -360,6 +367,7 @@
   "BindingUI_Options_simulated_controller_type_Label": "Compatibility Mode",
   "BindingUI_Options_simulate_rendermodel_Label": "Simulate Render Model",
   "BindingUI_Options_simulate_hmd_Label": "Simulate HMD",
+  "BindingUI_Options_ControllerOffsets_Label": "Controller Offsets",
 
   "BindingUI_MirrorMode": "Mirror Mode",
   "BindingUI_LeftHandController": "Left %1$s",
@@ -605,5 +613,7 @@
   "Roll": "Roll",
   "X": "X",
   "Y": "Y",
-  "Z": "Z"
+  "Z": "Z",
+  "LeftController": "Left Controller Position Offset",
+  "RightController": "Right Controller Position Offset"
 }

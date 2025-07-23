@@ -1629,22 +1629,24 @@ $\n k_EProtoServiceTypeSteamMessages
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789ABCDEF
 0123456789abcdef
-038@
-048@
-058@
-068@
-078@
-088@
 098@
-0Q1@
-0p3@
+0A9@
+0B9@
+0F8@
+0H3@
+0I9@
+0P8@
+0R9@
+0T9@
+0Z8@
+0q1@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-13:11:45
+19:16:37
 1A26b
 1\f514
 1e+9999
@@ -1655,7 +1657,6 @@ $\n k_EProtoServiceTypeSteamMessages
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
 4\f54d
-4p3@
 52F*
 5I)7
 5JCy7
@@ -1665,15 +1666,16 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-809@
-828@
-8J7@
-8V2@
+8C8@
+8D8@
+8O6@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
+8j7@
+8v2@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -2439,6 +2441,7 @@ CurrentURL
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D7q/;M
+DA4@
 DELEGATE 
 DISABLED
 DXGI VSync Thread ended\n
@@ -2828,11 +2831,12 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
+H08@
 H19@
-H39@
+H29@
+H69@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
-HJ7@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2868,10 +2872,10 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
-HU2@
 Hang the server for the specified number of seconds (default 3600)
 HasField
 Hex and octal numbers must be integers.
+Hj7@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -2879,6 +2883,7 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HostController
 How did we get here with a non-position slot?
+Hu2@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3160,7 +3165,7 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jul 21 2025
+Jul 22 2025
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
@@ -3168,6 +3173,7 @@ Kernel32.dll
 Kill process %s because it didn't quit in time\n
 Kill process?
 L=SteamFriends017
+LA4@
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
@@ -3236,7 +3242,6 @@ Lost master process %u due to pipe corruption. Quitting all in %g seconds if it 
 Lost master process %u due to restart hint. Quitting all in %g seconds if it doesn't reconnect. \n
 Lost master process %u for an unknown reason. Quitting all immediately. \n
 Low Power Watchdog Not Supported (129)
-Lp3@
 LwH'
 M8MF
 MAT2
@@ -3415,13 +3420,12 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P08@
-P29@
-P49@
+P18@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
 PID_
+PK9@
 PLACEHOLDER_VALUE
 PNG\r\n
 POST
@@ -3709,6 +3713,8 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
+Pv6@
+Pz6@
 QkkXa
 Qkkbal
 Query failed
@@ -3732,8 +3738,6 @@ R1h58
 RGBG
 RPCRT4.dll
 RSDS
-R\np0
-R\vp0
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3864,7 +3868,6 @@ SHGetFolderPathW
 SKyu
 SPEED
 SSI not enabled
-STATIC BOOL BOUND TO: %s
 STATIC Content Request
 STEAMAPPLIST_INTERFACE_VERSION001
 STEAMAPPS_INTERFACE_VERSION008
@@ -5148,10 +5151,34 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-XJ7@
+X28@
 XXXX PNG chunk not known
-Xp3@
+Xb8@
+Xc8@
+Xd8@
+Xe8@
+Xf8@
+Xg8@
+Xh8@
+Xi8@
+Xj8@
+Xk8@
+Xl8@
+Xm8@
+Xn8@
+Xo8@
+Xp8@
+Xq8@
+Xr8@
+Xs8@
 XsBI
+Xt8@
+Xu8@
+Xv8@
+Xw8@
+Xx8@
+Xy8@
+Xz8@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -6119,7 +6146,6 @@ dominant_hand
 double
 doubleSided
 double_thresholds
-dp3@
 dpad
 dpad_
 dpad_click
@@ -6329,8 +6355,9 @@ grip_limit_transforms
 group
 guid
 gzip
-hJ7@
+h48@
 hPU3
+ha8@
 half_thresholds
 hand_interaction_ext
 hand_priority
@@ -6957,8 +6984,14 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
+p08@
+p58@
+p69@
+p92@
+p99@
 pBegin == pEnd
 pEnd > pBegin
+pM9@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
@@ -6968,9 +7001,7 @@ pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
 pUrl != nullptr
-pV6@
 pWebSocketMessage
-pZ6@
 package
 packed
 param1
@@ -7030,7 +7061,6 @@ positional
 positive_int_value
 power
 powf
-pp3@
 precision
 prediction
 prediction parameter out of range
@@ -7064,6 +7094,7 @@ publishedfileid
 pull
 punct
 putchar
+pv6@
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
@@ -7624,60 +7655,13 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-xB8@
-xC8@
-xD8@
-xE8@
-xF8@
-xG8@
-xH8@
-xI8@
-xJ8@
-xK8@
-xL8@
-xM8@
-xN8@
-xO8@
-xP8@
-xQ8@
-xR8@
-xS8@
-xT8@
-xU8@
-xV8@
-xW8@
-xX8@
-xY8@
-xZ8@
+x18@
+x68@
+x79@
+x89@
 x_path
-xa8@
-xb8@
-xc8@
-xd8@
 xdigit
-xe8@
-xf8@
-xg8@
-xh8@
-xi8@
-xj8@
-xk8@
-xl8@
-xm8@
 xmag
-xn8@
-xo8@
-xp8@
-xq8@
-xr8@
-xs8@
-xt8@
-xu8@
-xv8@
-xw8@
-xx8@
-xy8@
-xz8@
 y9*O
 y_path
 yfov

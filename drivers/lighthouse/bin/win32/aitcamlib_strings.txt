@@ -153,6 +153,7 @@ AitH264Capture.dll
 AitUVCExtApi.dll
 BMP RLE
 CAMCMD_GET_OPENCAMERA_RESULT\n
+CRtG
 CallCreateObject
 Camera Recovery Mode Required
 CameraWork

@@ -1,4 +1,4 @@
-var CLSTAMP = "9914789";
+var CLSTAMP = "9920024";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -3620,7 +3620,7 @@ var CLSTAMP = "9914789";
           }),
           c.createElement(_.WZ, {
             label: (0, h.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1753128747e3).toLocaleString(),
+            value: new Date(1753236894e3).toLocaleString(),
           }),
         );
       });
@@ -13916,12 +13916,14 @@ var CLSTAMP = "9914789";
                   t(e);
                 });
             }).then((e) => {
-              for (let t of e.controller_types)
-                t.controller_type = t.controller_type.toLowerCase();
-              for (let t of e.devices)
-                t.controller_type = t.controller_type.toLowerCase();
-              this.UpdateControllerTypes(e.controller_types),
-                (this.m_InputState = e);
+              (0, s.h5)(() => {
+                for (let t of e.controller_types)
+                  t.controller_type = t.controller_type.toLowerCase();
+                for (let t of e.devices)
+                  t.controller_type = t.controller_type.toLowerCase();
+                this.UpdateControllerTypes(e.controller_types),
+                  (this.m_InputState = e);
+              });
             });
           });
         }
@@ -16074,7 +16076,7 @@ var CLSTAMP = "9914789";
               ? void 0
               : e.call(VRHTML),
           ),
-            t.set_webpack_build_timestamp(1753128747),
+            t.set_webpack_build_timestamp(1753236894),
             (0, h.Z)(t);
         }
         LoadSessionDevData() {

@@ -2746,6 +2746,7 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+02:15:30
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -2809,7 +2810,6 @@ $3br
 2).google.protobuf.FileOptions.OptimizeMode:
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
-20:12:20
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20CVRTrackedDevice_004
@@ -6844,7 +6844,9 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
-Jul 21 2025
+JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
+JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
+Jul 23 2025
 July
 June
 KHR_audio
@@ -10132,6 +10134,7 @@ _txnal_sso_string_c_str(void const*)
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
+a value in the array could not be converted to a number
 abort
 acc_bias
 acc_scale
@@ -19029,6 +19032,7 @@ steamvr
 steamvr.vrsettings
 stmute
 stmuteb
+stof
 stoi
 stop_pairing
 stop_tracking_recording
@@ -19121,9 +19125,11 @@ text/plain
 textures
 th_th
 thai
+the array does not have 3 elements
 the global scope
 the sparse object of this accessor doesn't have indices
 the sparse object of this accessor doesn't have values
+the value is not an array
 this
 throw
 throw 

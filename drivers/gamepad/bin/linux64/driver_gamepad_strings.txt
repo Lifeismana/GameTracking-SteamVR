@@ -1424,6 +1424,7 @@ operator new[](unsigned long)
 operator new[](unsigned long, std::nothrow_t const&)
 operator new[](unsigned long, std::nothrow_t const&) (.cold)
 operator"" 
+pWf3M:n
 parse_lsda_header(_Unwind_Context*, unsigned char const*, lsda_header_info*)
 poll
 print
@@ -5483,6 +5484,7 @@ writev
 wstring_convert::from_bytes
 wstring_convert::to_bytes
 xdigit
+zz]e
 {default arg#
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png

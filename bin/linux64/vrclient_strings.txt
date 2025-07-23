@@ -1037,6 +1037,7 @@ $tI(kn
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
+02:14:59
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -1263,7 +1264,6 @@ $tI(kn
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19InMemoryInputStream
 1e+9999
-20:12:29
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -2143,8 +2143,8 @@ BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
 C.71.340283
-C.77.213965
-C.9.215855
+C.77.213988
+C.9.215878
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -2206,6 +2206,8 @@ CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::s
 CActionBindingConfigGenerator::ParseActionSetBindings(std::string const&, std::string*) (.cold)
 CActionBindingConfigGenerator::ParseHapticBindings(std::string const&, std::string*)
 CActionBindingConfigGenerator::ParseHapticBindings(std::string const&, std::string*) (.cold)
+CActionBindingConfigGenerator::ParsePoseBindings(std::string const&, std::string*)
+CActionBindingConfigGenerator::ParsePoseBindings(std::string const&, std::string*) (.cold)
 CActionBindingConfigGenerator::ParseSimulatedActions(std::string*)
 CActionBindingConfigGenerator::ParseSimulatedActions(std::string*) (.cold)
 CActionBindingConfigGenerator::ParseSkeletonBindings(std::string const&, std::string*)
@@ -6682,6 +6684,7 @@ CVRIPCResourceManagerClient_001::ReceiveSharedFd(unsigned long, int*)
 CVRIPCResourceManagerClient_001::RefResource(unsigned long, unsigned long*)
 CVRIPCResourceManagerClient_001::UnrefResource(unsigned long)
 CVRInputLatest::AddActionSetToPriorityMap(InputConfig_t*, CVRControllerTypeBindings*, unsigned long, int, bool, unsigned long)
+CVRInputLatest::ApplyBindingOffsets(unsigned int, vr::TrackedDevicePose_t*)
 CVRInputLatest::BGetInputOptionBool(unsigned long, std::string const&)
 CVRInputLatest::BGetInputOptionBool(unsigned long, std::string const&) (.cold)
 CVRInputLatest::BGetInputOptionString(unsigned long, std::string const&)
@@ -6724,6 +6727,7 @@ CVRInputLatest::GetDominantHand(vr::ETrackedControllerRole*)
 CVRInputLatest::GetEyeTrackingDataAtTime(unsigned long, vr::ETrackingUniverseOrigin, unsigned long, vr::VREyeTrackingData_t*, unsigned int, unsigned long*)
 CVRInputLatest::GetEyeTrackingDataAtTime(unsigned long, vr::ETrackingUniverseOrigin, unsigned long, vr::VREyeTrackingData_t*, unsigned int, unsigned long*) (.cold)
 CVRInputLatest::GetHandPose(vr::EVRHandSide, float, vr::TrackedDevicePose_t*)
+CVRInputLatest::GetHasBindingOffsets()
 CVRInputLatest::GetInputActionType(unsigned long, EInputActionType*)
 CVRInputLatest::GetInputActionType(unsigned long, EInputActionType*) (.cold)
 CVRInputLatest::GetInputFrame(std::shared_ptr<CVRInputLatest::InputFrame_t>*, std::shared_ptr<CVRInputLatest::InputFrame_t>*)
@@ -15700,6 +15704,8 @@ CVRSystemLatest::AddSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags)
 CVRSystemLatest::AddSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags) (.cold)
 CVRSystemLatest::ApplyApplicationSpecificPoseTransform(unsigned int, vr::TrackedDevicePose_t*, float)
 CVRSystemLatest::ApplyApplicationSpecificPoseTransform(vr::TrackedDevicePose_t*, unsigned int, float)
+CVRSystemLatest::ApplyBindingOffsets(unsigned int, vr::TrackedDevicePose_t*)
+CVRSystemLatest::ApplyBindingOffsets(vr::TrackedDevicePose_t*, unsigned int)
 CVRSystemLatest::ApplyTransform(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const*, vr::HmdMatrix34_t const*)
 CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*, CVROverlayLatest*)
 CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*, CVROverlayLatest*) (.cold)
@@ -22565,7 +22571,11 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
-Jul 21 2025
+JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
+JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
+JsonValuesToHMDVector3s(Json::Value const&, Json::Value const&, vr::HmdMatrix34_t&, vr::HmdMatrix34_t&)
+JsonValuesToHMDVector3s(Json::Value const&, Json::Value const&, vr::HmdMatrix34_t&, vr::HmdMatrix34_t&) (.cold)
+Jul 23 2025
 July
 June
 KHR_audio
@@ -23270,6 +23280,7 @@ ProcessAnalogThresholds(bool, unsigned int, XrBindingModificationsKHR const*, CS
 ProcessDpadBindings
 ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long>>&)
 ProcessDpadBindings(unsigned int, XrBindingModificationsKHR const*, XrInteractionProfileSuggestedBinding const*, XrActionSuggestedBinding const*, SuggestedBinding*, std::vector<unsigned long, std::allocator<unsigned long>>&) (.cold)
+ProcessPoseOffsets(vr::HmdMatrix34_t const&, vr::HmdMatrix34_t const&, vr::HmdMatrix34_t const&)
 Projection
 Prop_
 Prop_ActualTrackingSystemName_String
@@ -23646,7 +23657,6 @@ SDL_GetError
 SDL_GetPowerInfo
 SDL_SetThreadPriority
 SRT_LAUNCHER_SERVICE_ALONGSIDE_STEAM
-STATIC BOOL BOUND TO: %s
 STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
 STEAMVR_DISABLE_CRASH_REPORTING
@@ -26795,10 +26805,6 @@ Zjz\v
 [Input] After initial config load, app appears to not be using SteamVR Input\n
 [Input] After initial config load, app appears to not be using input\n
 [Input] Attempting to load initial input config\n
-[Input] Binding initialization failed because pose offset position array does not have three elements
-[Input] Binding initialization failed because pose offset rotation is not an array
-[Input] Binding initialization failed because pose rotation array does not have three elements
-[Input] Binding initialization failed because pose rotation is not an array
 [Input] Binding path for haptic action %s could not be read: %s\n
 [Input] Binding path for haptic action %s resulted in property type tag %u instead of %u\n
 [Input] ClearXrInputConfig failed. Did not get response from VRMsg_Input_SetXrInputConfig quick enough.
@@ -26815,6 +26821,9 @@ Zjz\v
 [Input] Failed to JSON parse action binding config\n
 [Input] Failed to find device container %lx. Waiting some more.\n
 [Input] Failed to get config binding from server. [app: %s]\n
+[Input] Failed to initialize pose offset filter.
+[Input] Failed to initialize pose offset. Could not read position because %s.
+[Input] Failed to initialize pose offset. Could not read rotation because %s.
 [Input] Failed to load binding file. We'll wait and try again when CRC or load count changes( computed CRC=%u, old CRC=%u, shared CRC=%u, load count=%u, shared load count=%u [app: %s]\n
 [Input] Failed to load input profile for controller type: %s\n
 [Input] Failed to load input profile for simulated controller type: %s\n
@@ -26965,6 +26974,9 @@ Zjz\v
 [Input] Loaded input profile for simulated hmd type: %s\n
 [Input] No controllers detected. Not waiting for config.\n
 [Input] Opening Binding UI. App: %s. Error: %s\n
+[Input] Pose position and rotation offset were 0. Ignoring.
+[Input] Pose position offset value has been clamped from '%f' to '%f'.
+[Input] Pose rotation offset value has been clamped from '%f' to '%f'.
 [Input] Previous frame overflowed per-device vector by %u actions (to %u total) Bumping up the high water mark.\n
 [Input] SetActionManifestPath failed waiting for a response from the server. Path: '%s'\n
 [Input] SetActionManifestPath failed. Input is disabled. Path: '%s'\n
@@ -26982,6 +26994,7 @@ Zjz\v
 [Input] Unexpected error %s when trying to read input value %s (%lX)\n
 [Input] Unknown action %s when loading binding file\n
 [Input] Unknown action set %s when loading binding file\n
+[Input] Unsupported device role in device_offsets: '%s' 
 [Input] UpdateActionState cannot execute because we don't have a config yet.\n
 [Input] Wanted to store %u global priority inputs, but only had space for %u\n
 [KeyFramedDataResource] Failed to load GLTF file: %s
@@ -27554,6 +27567,7 @@ _txnal_sso_string_c_str(void const*)
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
+a value in the array could not be converted to a number
 abort
 accept
 accessor[
@@ -28303,6 +28317,7 @@ device implements %s, but this runtime doesn't have an adapter for that version\
 deviceContainer
 devicePath
 device_class
+device_offsets
 device_path
 dgettext
 digit
@@ -29750,6 +29765,7 @@ left-parenthesis
 left-square-bracket
 leftThumbstickRotation
 left_
+left_hand
 leftright
 legacy
 legacy_axis
@@ -30335,6 +30351,7 @@ non-virtual thunk to CVRDriverDirectModeComponent_Latest::PostPresent(vr::IVRDri
 non-virtual thunk to CVRDriverDirectModeComponent_Latest::Present(unsigned long)
 non-virtual thunk to CVRDriverDirectModeComponent_Latest::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
 non-virtual thunk to CVRDriverDirectModeComponent_Latest::~CVRDriverDirectModeComponent_Latest()
+non-virtual thunk to CVRInputLatest::ApplyBindingOffsets(unsigned int, vr::TrackedDevicePose_t*)
 non-virtual thunk to CVRInputLatest::ClearXrInputConfig()
 non-virtual thunk to CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const
 non-virtual thunk to CVRInputLatest::DoesActionHaveOrigin(unsigned long, unsigned long, bool&)
@@ -30343,6 +30360,7 @@ non-virtual thunk to CVRInputLatest::GetBoundDevicesClasses()
 non-virtual thunk to CVRInputLatest::GetCurrentFrameTime() const
 non-virtual thunk to CVRInputLatest::GetEyeTrackingDataAtTime(unsigned long, vr::ETrackingUniverseOrigin, unsigned long, vr::VREyeTrackingData_t*, unsigned int, unsigned long*)
 non-virtual thunk to CVRInputLatest::GetHandPose(vr::EVRHandSide, float, vr::TrackedDevicePose_t*)
+non-virtual thunk to CVRInputLatest::GetHasBindingOffsets()
 non-virtual thunk to CVRInputLatest::GetInputActionType(unsigned long, EInputActionType*)
 non-virtual thunk to CVRInputLatest::GetOriginalComponentPath(unsigned long, std::string const&, std::string&)
 non-virtual thunk to CVRInputLatest::GetPathFromControllerRole(vr::ETrackedControllerRole)
@@ -30363,6 +30381,8 @@ non-virtual thunk to CVRResourcesLatest::GetResourceFullPath(std::string const&,
 non-virtual thunk to CVRResourcesLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string>>*, std::string const&)
 non-virtual thunk to CVRSystemLatest::ApplyApplicationSpecificPoseTransform(unsigned int, vr::TrackedDevicePose_t*, float)
 non-virtual thunk to CVRSystemLatest::ApplyApplicationSpecificPoseTransform(vr::TrackedDevicePose_t*, unsigned int, float)
+non-virtual thunk to CVRSystemLatest::ApplyBindingOffsets(unsigned int, vr::TrackedDevicePose_t*)
+non-virtual thunk to CVRSystemLatest::ApplyBindingOffsets(vr::TrackedDevicePose_t*, unsigned int)
 non-virtual thunk to CVRSystemLatest::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
 non-virtual thunk to CVRSystemLatest::GetApplicationSpecificScaling()
 non-virtual thunk to CVRSystemLatest::GetCompositorError()
@@ -30796,8 +30816,10 @@ right-parenthesis
 right-square-bracket
 rightThumbstickRotation
 right_
+right_hand
 rmdir
 ro_ro
+role
 rolloffFactor
 romanian
 rotate
@@ -31825,6 +31847,7 @@ std::_Rb_tree<unsigned long, std::pair<unsigned long const, vr::VROverlayView_t*
 std::_Rb_tree<unsigned long, std::pair<unsigned long const, vr::VROverlayView_t*>, std::_Select1st<std::pair<unsigned long const, vr::VROverlayView_t*>>, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, vr::VROverlayView_t*>>>::_M_get_insert_unique_pos(unsigned long const&)
 std::_Rb_tree<unsigned long, std::pair<unsigned long const, vr::VROverlayView_t*>, std::_Select1st<std::pair<unsigned long const, vr::VROverlayView_t*>>, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, vr::VROverlayView_t*>>>::erase(unsigned long const&)
 std::_Rb_tree<unsigned long, unsigned long, std::_Identity<unsigned long>, std::less<unsigned long>, std::allocator<unsigned long>>::_M_erase(std::_Rb_tree_node<unsigned long>*)
+std::_Rb_tree<vr::ETrackedControllerRole, std::pair<vr::ETrackedControllerRole const, DeviceOffset_t>, std::_Select1st<std::pair<vr::ETrackedControllerRole const, DeviceOffset_t>>, std::less<vr::ETrackedControllerRole>, std::allocator<std::pair<vr::ETrackedControllerRole const, DeviceOffset_t>>>::_M_erase(std::_Rb_tree_node<std::pair<vr::ETrackedControllerRole const, DeviceOffset_t>>*)
 std::_Rb_tree<vr::ETrackedDeviceClass, vr::ETrackedDeviceClass, std::_Identity<vr::ETrackedDeviceClass>, std::less<vr::ETrackedDeviceClass>, std::allocator<vr::ETrackedDeviceClass>>::_M_erase(std::_Rb_tree_node<vr::ETrackedDeviceClass>*)
 std::_Rb_tree<vr::ETrackedDeviceProperty, std::pair<vr::ETrackedDeviceProperty const, std::string>, std::_Select1st<std::pair<vr::ETrackedDeviceProperty const, std::string>>, std::less<vr::ETrackedDeviceProperty>, std::allocator<std::pair<vr::ETrackedDeviceProperty const, std::string>>>::_M_erase(std::_Rb_tree_node<std::pair<vr::ETrackedDeviceProperty const, std::string>>*)
 std::_Rb_tree<vr::ETrackedDeviceProperty, std::pair<vr::ETrackedDeviceProperty const, std::string>, std::_Select1st<std::pair<vr::ETrackedDeviceProperty const, std::string>>, std::less<vr::ETrackedDeviceProperty>, std::allocator<std::pair<vr::ETrackedDeviceProperty const, std::string>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<vr::ETrackedDeviceProperty const, std::string>>, vr::ETrackedDeviceProperty const&)
@@ -34793,6 +34816,7 @@ std::pair<std::_Rb_tree_iterator<std::pair<unsigned long const, std::string>>, b
 std::pair<std::_Rb_tree_iterator<std::pair<unsigned long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer>>>>, bool> std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer>>>, std::_Select1st<std::pair<unsigned long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer>>>>, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer>>>>>::_M_emplace_unique<std::pair<unsigned long, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer>>>>(std::pair<unsigned long, std::unique_ptr<CFixedSizePropertyContainer, std::default_delete<CFixedSizePropertyContainer>>>&&)
 std::pair<std::_Rb_tree_iterator<std::pair<unsigned long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem>>>>, bool> std::_Rb_tree<unsigned long, std::pair<unsigned long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem>>>, std::_Select1st<std::pair<unsigned long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem>>>>, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem>>>>>::_M_emplace_unique<std::pair<unsigned long, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem>>>>(std::pair<unsigned long, std::unique_ptr<IPC::ISharedMem, std::default_delete<IPC::ISharedMem>>>&&)
 std::pair<std::_Rb_tree_iterator<std::pair<unsigned long const, unsigned int>>, bool> std::_Rb_tree<unsigned long, std::pair<unsigned long const, unsigned int>, std::_Select1st<std::pair<unsigned long const, unsigned int>>, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, unsigned int>>>::_M_emplace_unique<std::pair<unsigned long, unsigned int>>(std::pair<unsigned long, unsigned int>&&)
+std::pair<std::_Rb_tree_iterator<std::pair<vr::ETrackedControllerRole const, DeviceOffset_t>>, bool> std::_Rb_tree<vr::ETrackedControllerRole, std::pair<vr::ETrackedControllerRole const, DeviceOffset_t>, std::_Select1st<std::pair<vr::ETrackedControllerRole const, DeviceOffset_t>>, std::less<vr::ETrackedControllerRole>, std::allocator<std::pair<vr::ETrackedControllerRole const, DeviceOffset_t>>>::_M_emplace_unique<std::pair<vr::ETrackedControllerRole, DeviceOffset_t>>(std::pair<vr::ETrackedControllerRole, DeviceOffset_t>&&)
 std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string>>::_M_insert_unique<std::string const&>(std::string const&)
 std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string>>::_M_insert_unique<std::string>(std::string&&)
 std::pair<std::_Rb_tree_iterator<unsigned int*>, bool> std::_Rb_tree<unsigned int*, unsigned int*, std::_Identity<unsigned int*>, std::less<unsigned int*>, std::allocator<unsigned int*>>::_M_insert_unique<unsigned int* const&>(unsigned int* const&)
@@ -35128,6 +35152,7 @@ std::vector<CActionBindingConfigGenerator::PendingChordEntry_t, std::allocator<C
 std::vector<CActionBindingProgressIndicator, std::allocator<CActionBindingProgressIndicator>>::operator=(std::vector<CActionBindingProgressIndicator, std::allocator<CActionBindingProgressIndicator>> const&)
 std::vector<CActionBindingProgressIndicator, std::allocator<CActionBindingProgressIndicator>>::~vector()
 std::vector<CActionFilter, std::allocator<CActionFilter>>::operator=(std::vector<CActionFilter, std::allocator<CActionFilter>> const&)
+std::vector<CActionFilter, std::allocator<CActionFilter>>::push_back(CActionFilter const&)
 std::vector<CActionFilter, std::allocator<CActionFilter>>::~vector()
 std::vector<CAnimSkeleton::BoneInfo, std::allocator<CAnimSkeleton::BoneInfo>>::_M_default_append(unsigned long)
 std::vector<CAnimSkeleton::BoneInfo, std::allocator<CAnimSkeleton::BoneInfo>>::~vector()
@@ -35824,8 +35849,10 @@ texture_handle
 textures
 th_th
 thai
+the array does not have 3 elements
 the sparse object of this accessor doesn't have indices
 the sparse object of this accessor doesn't have values
+the value is not an array
 this
 three
 throw

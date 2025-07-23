@@ -1,4 +1,4 @@
-var CLSTAMP = "9914789";
+var CLSTAMP = "9920024";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [452],
   {
@@ -878,7 +878,10 @@ var CLSTAMP = "9914789";
           return this.m_ModifiedOptions.has(t);
         }
         SetOptionValue(t, e) {
-          this.m_ModifiedOptions.set(t, e), this.NotifyWatchersOfChange();
+          null == e
+            ? this.m_ModifiedOptions.delete(t)
+            : this.m_ModifiedOptions.set(t, e),
+            this.NotifyWatchersOfChange();
         }
         GetAliasInfo(t) {
           return this.m_ModifiedAliases.has(t)
@@ -1164,6 +1167,7 @@ var CLSTAMP = "9914789";
             null != this.m_LoadedBinding &&
             null != this.m_sSelectedActionSet &&
             null != this.SelectedActionSetActions &&
+            !this.SelectedBindingIsLegacy &&
             this.SelectedActionSetActions.filter((t) => "pose" == t.type)
               .length > 0
           );
@@ -2277,15 +2281,19 @@ var CLSTAMP = "9914789";
             return new Promise((t, e) => {
               I(this.m_SelectedApp.key).then((e) => {
                 null == e.error
-                  ? ((this.m_SelectedAppActions = e),
+                  ? ((0, d.h5)(() => {
+                      this.m_SelectedAppActions = e;
+                    }),
                     null == this.m_sLoadedBindingURI &&
                       e.current_binding_url.hasOwnProperty(
                         this.m_sSelectedControllerType,
                       ) &&
                       (this.m_sLoadedBindingURI =
                         e.current_binding_url[this.m_sSelectedControllerType]))
-                  : ((this.m_SelectedAppActions = void 0),
-                    (this.m_sLoadedBindingURI = void 0),
+                  : ((0, d.h5)(() => {
+                      (this.m_SelectedAppActions = void 0),
+                        (this.m_sLoadedBindingURI = void 0);
+                    }),
                     p.n.SetBindingListError(
                       (0, c.we)("#ActionManifestError_UnknownError"),
                       !1,
@@ -3103,7 +3111,7 @@ var CLSTAMP = "9914789";
         (0, n.Cg)([s.o], M.prototype, "OnWebSocketOpen", null),
         (0, n.Cg)([s.o], M.prototype, "OnWebSocketClose", null),
         (0, n.Cg)([s.o], M.prototype, "WebSocketSend", null),
-        (0, n.Cg)([s.o], M.prototype, "OnWorkshopUploadComplete", null),
+        (0, n.Cg)([d.XI.bound], M.prototype, "OnWorkshopUploadComplete", null),
         (0, n.Cg)([s.o], M.prototype, "OnPendingFileSaved", null),
         (0, n.Cg)([d.EW], M.prototype, "SaveNoticeText", null),
         (0, n.Cg)([s.o], M.prototype, "QueryBindingList", null),
@@ -3398,7 +3406,9 @@ var CLSTAMP = "9914789";
             p.s
               .UpdateApplications()
               .then(() => {
-                (this.Loading = !1), (this.m_State = o.AppSelect);
+                (0, l.h5)(() => {
+                  (this.Loading = !1), (this.m_State = o.AppSelect);
+                });
               })
               .catch(() => {
                 this.Loading = !1;
@@ -3442,7 +3452,9 @@ var CLSTAMP = "9914789";
         GetBindingList() {
           return (0, n.sH)(this, void 0, void 0, function* () {
             var t;
-            (this.Loading = !0), (this.m_rBindingList = []);
+            (0, l.h5)(() => {
+              (this.Loading = !0), (this.m_rBindingList = []);
+            });
             try {
               const e = a.B$.SelectedControllerTypeInfo,
                 i = yield a.B$.QueryBindingList(
@@ -3452,7 +3464,10 @@ var CLSTAMP = "9914789";
                     ? t
                     : "",
                 );
-              i.success && (this.m_rBindingList = i.results);
+              i.success &&
+                (0, l.h5)(() => {
+                  this.m_rBindingList = i.results;
+                });
             } catch (t) {
               this.SetBindingListError(
                 (0, c.we)("#BindingUI_WorkshopBindingLoadFailed"),
@@ -3502,7 +3517,7 @@ var CLSTAMP = "9914789";
         (0, n.Cg)([l.EW], h.prototype, "BindingQueryResults", null),
         (0, n.Cg)([l.EW], h.prototype, "Loading", null),
         (0, n.Cg)([r.o], h.prototype, "IsSafeToResetControllerType", null),
-        (0, n.Cg)([r.o], h.prototype, "EditCurrentBinding", null),
+        (0, n.Cg)([l.XI.bound], h.prototype, "EditCurrentBinding", null),
         (0, n.Cg)([r.o], h.prototype, "ViewCurrentBinding", null),
         (0, n.Cg)([r.o], h.prototype, "ShowBindingList", null),
         (0, n.Cg)([l.EW], h.prototype, "CurrentBinding", null),
