@@ -1143,7 +1143,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS+
+RSDS|
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1978,7 +1978,6 @@ py_generic_services
 queue_overflow
 quit
 quit\tQuit\n
-r)fRE
 r2max
 reboot
 reboot\tReboot the connected watchman device.\n

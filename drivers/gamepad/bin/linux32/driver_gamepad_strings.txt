@@ -9,7 +9,6 @@
  throw
  transaction_safe
  volatile
-#zIE
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
 %llu
@@ -622,7 +621,7 @@ CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.111
-CSWTCH.215
+CSWTCH.218
 CServerDriver_Gamepad::AddGameControllerByIndex(int)
 CServerDriver_Gamepad::Cleanup()
 CServerDriver_Gamepad::Cleanup_SDL()
@@ -1084,6 +1083,7 @@ ThreadGetProcessExitCode
 ThreadGetProcessListInfo
 ThreadGetProcessParentID
 ThreadGetProcessPriority
+ThreadImplOneTimeInit
 ThreadInMainThread
 ThreadInitSchedulerForRtkit()::sInitMutex
 ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
@@ -1118,6 +1118,7 @@ ThreadSetProcessPriority
 ThreadShellExecute
 ThreadShellExecute::bInstalledSignalHandler
 ThreadSleep
+ThreadSpinWaitForValue
 ThreadSuspendSignal(int)
 ThreadTerminate
 ThreadTerminateProcessCode

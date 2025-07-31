@@ -1629,24 +1629,17 @@ $\n k_EProtoServiceTypeSteamMessages
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789ABCDEF
 0123456789abcdef
-098@
-0A9@
-0B9@
-0F8@
-0H3@
-0I9@
-0P8@
-0R9@
-0T9@
-0Z8@
+0A8@
+0D4@
+0J8@
 0q1@
 1.2.5
 1/2/4/8/16-bit only
+10:51:52
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-19:16:37
 1A26b
 1\f514
 1e+9999
@@ -1666,16 +1659,17 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-8C8@
-8D8@
-8O6@
+809@
+8I9@
+8N8@
+8R9@
+8T8@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8j7@
-8v2@
+8m7@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -2441,7 +2435,6 @@ CurrentURL
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D7q/;M
-DA4@
 DELEGATE 
 DISABLED
 DXGI VSync Thread ended\n
@@ -2831,12 +2824,9 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
-H08@
-H19@
-H29@
-H69@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
+HH9@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2858,6 +2848,7 @@ HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
 HMDSerialNumber
+HS9@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2872,10 +2863,11 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
+HU8@
 Hang the server for the specified number of seconds (default 3600)
 HasField
 Hex and octal numbers must be integers.
-Hj7@
+Hm7@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -2883,7 +2875,6 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HostController
 How did we get here with a non-position slot?
-Hu2@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3165,7 +3156,7 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jul 22 2025
+Jul 31 2025
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
@@ -3173,7 +3164,6 @@ Kernel32.dll
 Kill process %s because it didn't quit in time\n
 Kill process?
 L=SteamFriends017
-LA4@
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
@@ -3420,15 +3410,17 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P18@
+P29@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
+PG9@
 PICT
 PID_
 PK9@
 PLACEHOLDER_VALUE
 PNG\r\n
 POST
+PR6@
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
@@ -3713,8 +3705,6 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
-Pv6@
-Pz6@
 QkkXa
 Qkkbal
 Query failed
@@ -5138,6 +5128,7 @@ Windows ME
 Windows NT
 Windows Vista
 Windows XP
+WorkshopLoadFromURLComplete failed for binding from %s:\n
 WorkshopLoadFromURLComplete for binding from %s, when we asked for:\n
 WorkshopSaveType_Autosave
 WorkshopSaveType_Developer
@@ -5151,34 +5142,16 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X28@
+X19@
+X89@
+XB9@
+XF9@
+XO8@
+XT9@
+XV9@
 XXXX PNG chunk not known
-Xb8@
-Xc8@
-Xd8@
-Xe8@
-Xf8@
-Xg8@
-Xh8@
-Xi8@
-Xj8@
-Xk8@
-Xl8@
-Xm8@
-Xn8@
-Xo8@
-Xp8@
-Xq8@
-Xr8@
-Xs8@
+Xm7@
 XsBI
-Xt8@
-Xu8@
-Xv8@
-Xw8@
-Xx8@
-Xy8@
-Xz8@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -5441,12 +5414,6 @@ Zjz\v
 [Web_Settings] Schema does not exist at '%s' \n
 [Web_Settings] Schema is empty\n
 [Workshop] Aborting delete of binding %s because Steam isn't available\n
-[Workshop] AddLocalFileToResults failed. Could not get action manifest for %s when querying bindings\n
-[Workshop] AddLocalFileToResults failed. Error '%s' reading developer binding '%s'\n
-[Workshop] AddLocalFileToResults failed. Unable to get file path for developer binding URL %s\n
-[Workshop] Binding list query for %s(%s) failed to load action manifest\n
-[Workshop] Binding list query for %s(%s) failed\n
-[Workshop] Binding list query for %s(%s) finished with %d results\n
 [Workshop] Binding upload failed for some other reason %s\n
 [Workshop] Binding upload failed with Limit Exceeded\n
 [Workshop] Cannot save binding to workshop because we don't have an action manifest for app: %s\n
@@ -5454,19 +5421,13 @@ Zjz\v
 [Workshop] CreateBindingItem failed. Binding upload failed with Limit Exceeded\n
 [Workshop] CreateBindingItem failed. Failing to create binding %s for app %s controller %s because Steam is not available\n
 [Workshop] CreateBindingItem failed. Failing to create binding %s for app %s controller %s. Error: %s\n
+[Workshop] CreateBindingItem failed. SteamAPI call invalid.\n
 [Workshop] Delete. Path: %s\n
-[Workshop] Discarding %s (%s) binding query result because its category %s doesn't match the manifest's category %s\n
 [Workshop] Failed to fetch published file ID %llu for delete\n
-[Workshop] Failed to get action manifest for app %s.\n
-[Workshop] Failed to parse action binding config %s: %s\n
-[Workshop] Failed to parse json content of document for: %s. Path: %s.\n
-[Workshop] Failed to read action binding config for %s. Path: %s\n
 [Workshop] Failed with '%s' asking Steam to start playtime tracking for %s\n
 [Workshop] Failed with '%s' asking Steam to stop playtime tracking for %s\n
 [Workshop] Giving up retrying to start playtime tracking for %s\n
 [Workshop] Giving up retrying to stop playtime tracking for %s\n
-[Workshop] Got an extra OnDownloadItemResult when we weren't expecting one: %d file%llu\n
-[Workshop] Got an extra OnQueryComplete when we weren't expecting one\n
 [Workshop] IO Failure asking Steam to start playtime tracking for %s\n
 [Workshop] IO Failure asking Steam to stop playtime tracking for %s\n
 [Workshop] Load complete for: %s\n
@@ -5474,35 +5435,54 @@ Zjz\v
 [Workshop] Load failed for: %s.\n
 [Workshop] Load. ControllerType: %s. App: %s. Path: %s\n
 [Workshop] Marking published file ID %llu as deleted.\n
-[Workshop] OnQueryComplete_Current failed. %s: %s %s\n
-[Workshop] OnQueryCompleted failed. Fetching published file ID %llu for delete\n
-[Workshop] OnQueryCompleted_Dev failed. %s: %s %s\n
-[Workshop] OnQueryCompleted_Personal failed. %s: %s %s\n
-[Workshop] OnQueryCompleted_Public failed. %s: %s %s\n
 [Workshop] Published file ID %llu is already marked as deleted.\n
 [Workshop] Published file ID %llu is an autosave, which we don't delete.\n
 [Workshop] Query. ControllerType: %s. App: %s\n
-[Workshop] ReadImports failed. Failed to parse binding import %s\n
-[Workshop] ReadImports failed. Failed to parse import file %s: %s\n
-[Workshop] ReadImports failed. Getting action manifest for %s\n
-[Workshop] ReadImports failed. Unable to read import file %s\n
 [Workshop] Save with task. Type: %d. App: %s\n
 [Workshop] Save without task. Type: %d. App: %s\n
 [Workshop] Select. ControllerType: %s. App: %s. Path: %s. Reason %d.\n
 [Workshop] SelectBindingConfig failed. File is for app "%s" and we're setting the config for "%s"\n
 [Workshop] SelectBindingConfig file is for app "%s" and we're setting the config for "%s"\n
 [Workshop] Start playtime: %s\n
-[Workshop] Steam gave us a bogus folder for file ID %llu: %s\n
 [Workshop] Stop playtime: %s\n
 [Workshop] Successfully loaded binding file '%s' for app '%s'.\n
 [Workshop] Update Subscription. ControllerType: %s. App: %s. New Path: %s. Category %d.\n
-[Workshop] UpdateBindingAutosave failed. Binding upload failed for some other reason: %s\n
-[Workshop] UpdateBindingAutosave failed. Binding upload failed with Limit Exceeded\n
-[Workshop] UpdateBindingAutosave failed. Call to DownloadItem failed for autosave for %s\n
 [Workshop] UpdateBindingAutosave failed. Failing to update autosave for app %s controller %s because Steam is not available\n
 [Workshop] Updating item failed. ID: %llu.\n
 [Workshop] Updating item success. ID: %llu.\n
 [Workshop] User does not own published file ID %llu.\n
+[Workshop] [Autosave] Failed to create item. SteamAPI available: %d, IO Failure: %d, Callback Result: %d\n
+[Workshop] [Autosave] Failed to update. API Call Invalid\n
+[Workshop] [Autosave] Failed. Binding upload failed for some other reason: %s\n
+[Workshop] [Autosave] Failed. Binding upload failed with Limit Exceeded\n
+[Workshop] [Autosave] Failed. Call to DownloadItem failed for autosave for %s\n
+[Workshop] [Load] Failed to download fileid: '%llu'\n
+[Workshop] [Load] Failed to get action manifest for app %s.\n
+[Workshop] [Load] Failed to parse action binding config %s: %s\n
+[Workshop] [Load] Failed to parse json content of document for: %s. Path: %s.\n
+[Workshop] [Load] Failed to read action binding config for %s. Path: %s\n
+[Workshop] [Load] Got an extra OnDownloadItemResult when we weren't expecting one: %d file%llu\n
+[Workshop] [Load] Got an extra OnQueryComplete when we weren't expecting one\n
+[Workshop] [Load] OnQueryCompleted failed. Fetching published file ID %llu for delete\n
+[Workshop] [Load] Steam gave us a bogus folder for file ID %llu: %s\n
+[Workshop] [Load] The result of downloading the item was a failure: state: '%d' fileid:%'llu'\n
+[Workshop] [Load] Tried to load url that was not a file path and turned out to now be a workshop url. url: '%s'\n
+[Workshop] [Load] Tried to load url that was not a file path while steam is not available or the user is not logged in. url: '%s'\n
+[Workshop] [Query] AddLocalFileToResults failed. Could not get action manifest for %s when querying bindings\n
+[Workshop] [Query] AddLocalFileToResults failed. Error '%s' reading developer binding '%s'\n
+[Workshop] [Query] AddLocalFileToResults failed. Unable to get file path for developer binding URL %s\n
+[Workshop] [Query] Binding list query for %s(%s) failed to load action manifest\n
+[Workshop] [Query] Binding list query for %s(%s) failed\n
+[Workshop] [Query] Binding list query for %s(%s) finished with %d results\n
+[Workshop] [Query] Discarding %s (%s) binding query result because its category %s doesn't match the manifest's category %s\n
+[Workshop] [Query] OnQueryComplete_Current failed. %s: %s %s\n
+[Workshop] [Query] OnQueryCompleted_Dev failed. %s: %s %s\n
+[Workshop] [Query] OnQueryCompleted_Personal failed. %s: %s %s\n
+[Workshop] [Query] OnQueryCompleted_Public failed. %s: %s %s\n
+[Workshop] [Query] ReadImports failed. Failed to parse binding import %s\n
+[Workshop] [Query] ReadImports failed. Failed to parse import file %s: %s\n
+[Workshop] [Query] ReadImports failed. Getting action manifest for %s\n
+[Workshop] [Query] ReadImports failed. Unable to read import file %s\n
 [Workshop] [Remapping] Failed to auto-remap binding file from %s to %s. Error: %s.\n
 [Workshop] [Remapping] Successfully auto-remapped binding file from %s to %s.\n
 [h1R
@@ -6355,9 +6335,12 @@ grip_limit_transforms
 group
 guid
 gzip
-h48@
+h18@
+hC9@
+hF8@
+hG8@
 hPU3
-ha8@
+hR6@
 half_thresholds
 hand_interaction_ext
 hand_priority
@@ -6379,6 +6362,7 @@ hidden
 hide_callout
 hlvr/mailbox
 hlvr/webui
+hm7@
 hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_settings_key
@@ -6393,6 +6377,7 @@ https:
 https://
 hu_hu
 hungarian
+hy2@
 i91k
 i]Wb
 iauds
@@ -6984,11 +6969,8 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p08@
-p58@
-p69@
-p92@
-p99@
+p28@
+p39@
 pBegin == pEnd
 pEnd > pBegin
 pM9@
@@ -7094,7 +7076,7 @@ publishedfileid
 pull
 punct
 putchar
-pv6@
+py6@
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
@@ -7396,6 +7378,7 @@ systemreport_
 systemreport_*.html
 systemreport_template.html
 systemui_dashboard
+tD4@
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -7655,13 +7638,16 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x18@
-x68@
-x79@
-x89@
+x29@
+x38@
+x49@
+x59@
+x99@
 x_path
 xdigit
+xm7@
 xmag
+xx2@
 y9*O
 y_path
 yfov

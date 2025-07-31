@@ -1073,6 +1073,7 @@ message size
 modf
 nan(ind)
 nan(snan)
+nbc&
 network down
 network reset
 network unreachable

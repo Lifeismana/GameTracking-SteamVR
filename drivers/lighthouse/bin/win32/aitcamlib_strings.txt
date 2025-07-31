@@ -153,7 +153,6 @@ AitH264Capture.dll
 AitUVCExtApi.dll
 BMP RLE
 CAMCMD_GET_OPENCAMERA_RESULT\n
-CRtG
 CallCreateObject
 Camera Recovery Mode Required
 CameraWork
@@ -255,7 +254,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSg
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent

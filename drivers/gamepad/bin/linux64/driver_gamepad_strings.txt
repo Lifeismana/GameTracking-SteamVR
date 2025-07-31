@@ -192,7 +192,7 @@ CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
-CSWTCH.213
+CSWTCH.216
 CServerDriver_Gamepad::AddGameControllerByIndex(int)
 CServerDriver_Gamepad::Cleanup()
 CServerDriver_Gamepad::Cleanup_SDL()
@@ -651,6 +651,7 @@ ThreadGetProcessExitCode
 ThreadGetProcessListInfo
 ThreadGetProcessParentID
 ThreadGetProcessPriority
+ThreadImplOneTimeInit
 ThreadInMainThread
 ThreadInitSchedulerForRtkit()::sInitMutex
 ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
@@ -685,6 +686,7 @@ ThreadSetProcessPriority
 ThreadShellExecute
 ThreadShellExecute::bInstalledSignalHandler
 ThreadSleep
+ThreadSpinWaitForValue
 ThreadSuspendSignal(int)
 ThreadTerminate
 ThreadTerminateProcessCode
@@ -1424,7 +1426,6 @@ operator new[](unsigned long)
 operator new[](unsigned long, std::nothrow_t const&)
 operator new[](unsigned long, std::nothrow_t const&) (.cold)
 operator"" 
-pWf3M:n
 parse_lsda_header(_Unwind_Context*, unsigned char const*, lsda_header_info*)
 poll
 print
@@ -5484,7 +5485,6 @@ writev
 wstring_convert::from_bytes
 wstring_convert::to_bytes
 xdigit
-zz]e
 {default arg#
 {gamepad}/icons/gamepad_status_error.png
 {gamepad}/icons/gamepad_status_off.png

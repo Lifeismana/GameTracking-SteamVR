@@ -2359,7 +2359,6 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
-02:15:30
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -2464,6 +2463,7 @@ $3br
 16CVRMailboxClient
 16CVROverlayLatest
 16IVRClientHandler
+17:52:30
 17CBoneMaskResource
 17CInputFilter_DPad
 17CSharedImageLinux
@@ -4716,7 +4716,7 @@ CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.111
-CSWTCH.215
+CSWTCH.218
 CSWTCH.28
 CSWTCH.412
 CSWTCH.799
@@ -22863,7 +22863,7 @@ JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
 JsonValuesToHMDVector3s(Json::Value const&, Json::Value const&, vr::HmdMatrix34_t&, vr::HmdMatrix34_t&)
 JsonValuesToHMDVector3s(Json::Value const&, Json::Value const&, vr::HmdMatrix34_t&, vr::HmdMatrix34_t&) (.cold)
-Jul 23 2025
+Jul 31 2025
 July
 June
 KHR_audio
@@ -24363,6 +24363,7 @@ ThreadGetProcessExitCode
 ThreadGetProcessListInfo
 ThreadGetProcessParentID
 ThreadGetProcessPriority
+ThreadImplOneTimeInit
 ThreadInMainThread
 ThreadInitSchedulerForRtkit()::sInitMutex
 ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
@@ -24397,6 +24398,7 @@ ThreadSetProcessPriority
 ThreadShellExecute
 ThreadShellExecute::bInstalledSignalHandler
 ThreadSleep
+ThreadSpinWaitForValue
 ThreadSuspendSignal(int)
 ThreadTerminate
 ThreadTerminateProcessCode
@@ -26454,7 +26456,6 @@ Zjz\v
 [libprotobuf %s %s:%d] %s\n
 [vrclient] CLegacyInput::RunInputFrame
 [vrclient] CVRInputLatest::UpdateActionState
-\(jrt\tR
 \nComment=Application for the 
 \nComment=URI handler for 
 \nDDS 

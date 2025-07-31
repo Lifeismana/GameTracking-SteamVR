@@ -2746,7 +2746,6 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-02:15:30
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -2797,6 +2796,7 @@ $3br
 16CPropertyManager
 16CSettingsManager
 16CVrcDecodeTagged
+17:52:30
 17CBoneMaskResource
 17CCameraWorkThread
 17CFirmwareManifest
@@ -4446,7 +4446,7 @@ CSWTCH.142
 CSWTCH.146
 CSWTCH.161
 CSWTCH.2113
-CSWTCH.215
+CSWTCH.218
 CSWTCH.224
 CSWTCH.925
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
@@ -6846,7 +6846,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold
 JsonValueToBoolOrDefault(Json::Value const&, bool)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
-Jul 23 2025
+Jul 31 2025
 July
 June
 KHR_audio
@@ -8251,6 +8251,7 @@ ThreadGetProcessExitCode
 ThreadGetProcessListInfo
 ThreadGetProcessParentID
 ThreadGetProcessPriority
+ThreadImplOneTimeInit
 ThreadInMainThread
 ThreadInitSchedulerForRtkit()::sInitMutex
 ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
@@ -8285,6 +8286,7 @@ ThreadSetProcessPriority
 ThreadShellExecute
 ThreadShellExecute::bInstalledSignalHandler
 ThreadSleep
+ThreadSpinWaitForValue
 ThreadSuspendSignal(int)
 ThreadTerminate
 ThreadTerminateProcessCode

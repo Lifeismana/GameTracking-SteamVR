@@ -1938,7 +1938,6 @@ fseeko64
 ftell
 ftello64
 fwrite
-fz}2\nZ
 generic
 get_adjusted_ptr(std::type_info const*, std::type_info const*, void**)
 get_cie_encoding
@@ -6181,6 +6180,7 @@ write
 writev
 wstring_convert::from_bytes
 wstring_convert::to_bytes
+xQox
 xdigit
 {default arg#
 {lambda(

@@ -606,10 +606,8 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-0Lx\f
-0px\f
+10:51:52
 127.0.0.1
-19:16:37
 1e+9999
 3.3578.1860.g36610bd
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
@@ -730,10 +728,12 @@ AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
 BSupportsMultitaskingView
+Backspace
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Basis has no inverse.
+Break
 Browser context created for browser "%s" (overlay key: "%s")\n
 CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
 CAudioEndpointVolumeCallback::Register
@@ -766,9 +766,12 @@ CVRLog::LogDirect
 CVRWebHelperApp::Init
 CallWindowProcW
 Cannot initialize crash handling in a project without the Steam API available
+Caps Lock
+Caps Lock Toggle
 CefCurrentlyOn( TID_RENDERER )
 ChangeBasis
 Chrome Version %d.%d.%d.%d
+Clear
 Client (%s) app container state: %d
 Close DevTools
 CloseHandle
@@ -826,6 +829,7 @@ Creating VRHML JS object\n
 Creating browser pointed at %s (max fps %d)\n
 Creating limited VRHTML object (No HMD present)\n
 Creating playback mirror thread for device %s\n
+Ctrl
 D3D11CreateDevice
 DISABLED
 DXGI1: Failed to find matching adapter!\n\n
@@ -841,6 +845,7 @@ Detected %d playback and %d record devices\n
 DevTools
 Device Calibration is invalid (207)
 Device is not calibrated (206)
+Down
 Driver Failed (200)
 Driver Not Known (201)
 Driver Not Loaded (203)
@@ -854,6 +859,7 @@ Empty escape sequence in string
 Encountered error 
 Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x\n
 Endpoint topology GetConnector(0) failed: hr = 0x%08x\n
+Enter
 EnterCriticalSection
 EnumAudioEndpoints failed: hr = 0x%08x\n
 Environment
@@ -861,6 +867,7 @@ Error
 Error downloading image, http_status_code: %d, url: %s\n
 Error setting overlay for downloaded image, error: %s, url: %s, \n
 Error! EventWriteString Severe: %s\n
+Escape
 EventRegister
 EventUnregister
 EventWriteString
@@ -973,6 +980,7 @@ Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
+Home
 Hooking back up to existing overlay %s\n
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -1094,14 +1102,153 @@ IsIconic
 IsProcessorFeaturePresent
 IsValidSid
 IsWindowShown
-Jul 22 2025
+Jul 31 2025
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
+KEY_0
+KEY_1
+KEY_2
+KEY_3
+KEY_4
+KEY_5
+KEY_6
+KEY_7
+KEY_8
+KEY_9
+KEY_A
+KEY_APOSTROPHE
+KEY_APP
+KEY_B
+KEY_BACKQUOTE
+KEY_BACKSLASH
+KEY_BACKSPACE
+KEY_BREAK
+KEY_C
+KEY_CAPSLOCK
+KEY_CAPSLOCKTOGGLE
+KEY_CLEAR
+KEY_COMMA
+KEY_D
+KEY_DELETE
+KEY_DOWN
+KEY_E
+KEY_END
+KEY_ENTER
+KEY_EQUAL
+KEY_ESCAPE
+KEY_F
+KEY_F1
+KEY_F10
+KEY_F11
+KEY_F12
+KEY_F13
+KEY_F14
+KEY_F15
+KEY_F16
+KEY_F17
+KEY_F18
+KEY_F19
+KEY_F2
+KEY_F20
+KEY_F21
+KEY_F22
+KEY_F23
+KEY_F24
+KEY_F3
+KEY_F4
+KEY_F5
+KEY_F6
+KEY_F7
+KEY_F8
+KEY_F9
+KEY_G
+KEY_H
+KEY_HOME
+KEY_I
+KEY_INSERT
+KEY_J
+KEY_K
+KEY_L
+KEY_LALT
+KEY_LBRACKET
+KEY_LCONTROL
+KEY_LEFT
+KEY_LSHIFT
+KEY_LWIN
+KEY_M
+KEY_MINUS
+KEY_N
+KEY_NONE
+KEY_NUMLOCK
+KEY_NUMLOCKTOGGLE
+KEY_O
+KEY_P
+KEY_PAD_0
+KEY_PAD_1
+KEY_PAD_2
+KEY_PAD_3
+KEY_PAD_4
+KEY_PAD_5
+KEY_PAD_6
+KEY_PAD_7
+KEY_PAD_8
+KEY_PAD_9
+KEY_PAD_DECIMAL
+KEY_PAD_DIVIDE
+KEY_PAD_ENTER
+KEY_PAD_EQUAL
+KEY_PAD_MINUS
+KEY_PAD_MULTIPLY
+KEY_PAD_PLUS
+KEY_PAGEDOWN
+KEY_PAGEUP
+KEY_PERIOD
+KEY_Q
+KEY_R
+KEY_RALT
+KEY_RBRACKET
+KEY_RCONTROL
+KEY_RIGHT
+KEY_RSHIFT
+KEY_RWIN
+KEY_S
+KEY_SCROLLLOCK
+KEY_SCROLLLOCKTOGGLE
+KEY_SEMICOLON
+KEY_SLASH
+KEY_SPACE
+KEY_T
+KEY_TAB
+KEY_U
+KEY_UP
+KEY_V
+KEY_W
+KEY_X
+KEY_Y
+KEY_Z
+Key Pad *
+Key Pad +
+Key Pad -
+Key Pad .
+Key Pad /
+Key Pad 0
+Key Pad 1
+Key Pad 2
+Key Pad 3
+Key Pad 4
+Key Pad 5
+Key Pad 6
+Key Pad 7
+Key Pad 8
+Key Pad 9
+Key Pad =
+Key Pad Enter
 Language
 Launching 
 Launching template 
 LeaveCriticalSection
+Left
 Line %d, Column %d
 LoadLibraryA
 Loading (
@@ -1150,6 +1297,8 @@ Not Initialized (109)
 Not available to watchdog apps (131)
 Not calling InitVRAndLogging() since VR is already initialized.\n
 Not starting vrserver for background app (121)
+Num Lock
+Num Lock Toggle
 On laptop, HMD detected over USB, but Monitor not found (213)
 OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
 OnDeviceAdded: device = %s\n
@@ -1164,14 +1313,14 @@ OpenProcessToken failed. GetLastError returned: %d\n
 OpenThread
 Out of thread local storage!\n
 OutputDebugStringA
-P4m\f
 PID_
-PLx\f
 PPPP
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
 Parsing of JSON string "%s" failed: %s\n
 PeekNamedPipe
+PgDn
+PgUp
 Pro Audio
 PropVariantClear
 Qkkbal
@@ -1181,8 +1330,6 @@ QuitOpenVR
 QuitSceneApp
 RPCRT4.dll
 RSDS
-R\v0Lx\f
-R\vpLx\f
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1238,6 +1385,7 @@ ResizeObserver
 RestartSteamVR
 Restarted browser %s\n
 ResumeThread
+Right
 RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
@@ -1283,6 +1431,8 @@ STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_GPUVIS_ON_ASSERT
 STEAMVR_GPU_LUID
 SceneAppRunning
+Scroll Lock
+Scroll Lock Toggle
 Searching for LUID: 
 Second argument must be a TransformTRS
 Second argument must be a string
@@ -1313,6 +1463,7 @@ Shared IPC State Init Failed (302)
 Shell32.dll
 ShellExecuteA
 ShellExecuteExA
+Shift
 ShowBindingUI
 ShowBindingUIAppSelect
 ShowSettingsUI
@@ -1330,6 +1481,7 @@ Software\Valve\Steam\ActiveProcess
 Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
 Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
 Somebody locked a non-leaf shared memory %s while %s was already locked
+Space
 Spinning up %s because %s was sent to %s\n
 Standalone
 Starting CEF Message Loop...\n
@@ -1347,6 +1499,7 @@ SteamVRVersion
 SteamVR_Namespace
 Stopping playback mirror thread\n
 SuspendThread
+SwitchToThread
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
 TdhEnumerateManifestProviderEvents
@@ -1880,6 +2033,7 @@ Warning
 Warning: Watchdog %s not properly cleaned up%s%s\n
 Watchdog disabled in settings (132)
 WideCharToMultiByte
+Windows
 Windows NT %u.%u
 Windows NT 5.1
 WriteFile
@@ -1928,7 +2082,6 @@ Zjz\v
 [vrwebhelper] RunSingleFrame
 [vrwebhelper] RunSystemFrame
 \ApiLayers\
-\fpLx\f
 \n\t\t\t\t{\n\t\t\t\t\t"type" : "show_tracker_ui"\n\t\t\t\t}\n\t\t\t
 \n\t\t\t{\n\t\t\t\t"type" : "show_app_select"\n\t\t\t}\n\t\t
 _Cnd_destroy_in_situ
@@ -2037,6 +2190,7 @@ browser_size
 bulgarian
 button
 c++ NewPromise
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\commonkeycode.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\computedsettings.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
@@ -2114,6 +2268,7 @@ commit_playspace_radius
 computed
 config
 container must be a string or an unsigned int
+contenteditable
 controllerbinding_desktop
 could not fetch container from path
 could not fetch container from path 
@@ -2131,6 +2286,8 @@ dashboard
 data.m_pSteamObject.get()
 data:image/png;base64,
 date
+datetime
+datetime-local
 de_de
 debugcommands_desktop
 deque<T> too long
@@ -2160,6 +2317,7 @@ eRender
 eTrackingResult
 eVendor
 el_gr
+email
 en_us
 enable
 enable-blink-features
@@ -2222,6 +2380,7 @@ in Json::Value::operator[](int index): index cannot be negative
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 indentation
+input
 inputMode
 invalid array
 invalid property container handle
@@ -2272,6 +2431,7 @@ message_type
 mfplat.dll
 mode
 modf
+month
 nBytesPerPixel invalid
 nHeightInPixels must be positive
 nWidthInPixels must be positive
@@ -2285,6 +2445,7 @@ none
 norwegian
 ntdll.dll
 null
+number
 object
 ole32.dll
 omitDesktopWebhelpers
@@ -2299,11 +2460,11 @@ overlay_key
 overlay_name
 overlays
 owning_overlay
-pLx\f
 pName && *pName != '\0'
 pScreenSurface
 pairing
 parameters
+password
 persist_layout
 persist_visibility
 persisted
@@ -2312,7 +2473,6 @@ pl_pl
 polish
 portuguese
 powf
-ppx\f
 precision
 preload
 preload_setting
@@ -2365,11 +2525,14 @@ sText
 sTitle
 sVersion
 s_pDesiredAdapter != nullptr
+s_pKeyCodeToVirtualKey[ keyMap[ i ].keyCode ] == 0
+s_pVirtualKeyToKeyCode[ pDesc->windowsKeyCode ] == 0 || pDesc->keyCode == KEY_ENTER || pDesc->keyCode == KEY_LSHIFT || pDesc->keyCode == KEY_LALT || pDesc->keyCode == KEY_LCONTROL
 sc_schinese
 scale
 sceneApp
 scene_graph
 schinese
+search
 second argument must be ETrackedDeviceProperty
 server
 set_animated_value
@@ -2402,6 +2565,7 @@ strncat
 strncmp
 strncpy
 strncpy_s
+strnlen
 strpbrk
 strrchr
 strtod
@@ -2415,10 +2579,14 @@ system.vrwebhelper.controllerbinding
 tchinese
 tdh.dll
 terminate
+text
+textarea
 th_th
 thai
 throw '
+time
 tolower
+toupper
 tr_tr
 transform_parent
 translation
@@ -2483,11 +2651,13 @@ vv[[[[[[[[[[[
 web_server_mailbox
 webhelperoverlays.json
 webinterface\dashboard\suggestions
+week
 whichDevice
 win32
 win64
 window
 window_event
+window_focuschanged
 wn>Jj
 x-steamvr-secret
 xdigit

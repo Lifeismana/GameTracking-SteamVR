@@ -730,7 +730,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-19:16:37
+10:51:52
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -4635,7 +4635,7 @@ J\n?drawForeground@QGraphicsScene@@MEAAXPEAVQPainter@@AEBVQRectF@@@Z
 J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 J\t?brush@QPainter@@QEBAAEBVQBrush@@XZ
 JoysticksFound
-Jul 22 2025
+Jul 31 2025
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
@@ -5899,9 +5899,10 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS
+RSDSw
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
+R\vpd
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n
@@ -6349,6 +6350,9 @@ Steam Branch:\t(?<VALUE>.*)
 Steam Streaming Microphone
 Steam Streaming Speakers
 Steam VR(.|\n)*?Render Target Size:.*
+Steam logging invalid\n
+Steam logging not valid\n
+Steam logging valid: %s\n
 Steam:
 Steam:\t%1 (%2)
 Steam:\t(?<VALUE>.*)

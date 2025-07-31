@@ -506,7 +506,6 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
-02:14:59
 1 Sec
 1/2/4/8/16-bit only
 10.35.78
@@ -535,6 +534,7 @@ $3br
 15IStatePoseMaker
 15StaticPoseMaker
 16SVLAudioPipewire
+17:52:36
 17CBoneMaskResource
 17CSharedImageLinux
 18CSharedBufferLinux
@@ -1236,10 +1236,12 @@ CSDLDynamic::~CSDLDynamic()
 CSWTCH.103
 CSWTCH.107
 CSWTCH.145
-CSWTCH.213
+CSWTCH.216
 CSWTCH.408
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
+CScopedWatchdogDetailStringViaIVRServer::CScopedWatchdogDetailStringViaIVRServer(char const*)
+CScopedWatchdogDetailStringViaIVRServer::~CScopedWatchdogDetailStringViaIVRServer()
 CSharedBufferLinux::CSharedBufferLinux(vr::IVRIPCResourceManagerClient*)
 CSharedBufferLinux::CreateVulkanBuffer - vkCreateBuffer failed for local staging buffer\n
 CSharedBufferLinux::CreateVulkanBuffer(VkDevice_T*, VkPhysicalDeviceMemoryProperties*, unsigned long, unsigned int, bool)
@@ -2883,7 +2885,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold
 JsonValueToBoolOrDefault(Json::Value const&, bool)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
-Jul 23 2025
+Jul 31 2025
 July
 June
 KHR_audio
@@ -3749,6 +3751,8 @@ SVLControllerDriver::Activate(unsigned int)::'lambda2'()::operator()() const::en
 SVLControllerDriver::Activate(unsigned int)::'lambda3'()::operator()() const::encrypted
 SVLControllerDriver::Activate(unsigned int)::'lambda4'()::operator()() const::encrypted
 SVLControllerDriver::Activate(unsigned int)::'lambda5'()::operator()() const::encrypted
+SVLControllerDriver::Activate(unsigned int)::'lambda6'()::operator()() const::encrypted
+SVLControllerDriver::Activate(unsigned int)::'lambda7'()::operator()() const::encrypted
 SVLControllerDriver::Deactivate()
 SVLControllerDriver::DebugRequest(char const*, char*, unsigned int)
 SVLControllerDriver::EnterStandby()
@@ -4201,6 +4205,11 @@ SVLRoot::VideoFrameDoneSend(unsigned int, int)
 SVLRoot::WasValueSet(std::string const&)
 SVLRoot::WasValueSet(std::string const&) (.cold)
 SVLRoot::~SVLRoot()
+SVLServer mailbox dashboard_tutorial_dismissed
+SVLServer mailbox handle_recenter
+SVLServer mailbox remote_dashboard_open
+SVLServer mailbox room_setup
+SVLServer mailbox user_interaction_click_info
 SVLServer::ActivateHMDNow()
 SVLServer::CreateConnectionInfo(int, int, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, std::vector<char, std::allocator<char>>&, int)
 SVLServer::CreateConnectionInfo(int, int, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, std::vector<char, std::allocator<char>>&, int) (.cold)
@@ -4243,14 +4252,18 @@ SVLServer::ReportWaterfall(SVLServer::WaterfallEvent, int, int)
 SVLServer::RequestDashboardTutorial()
 SVLServer::RequestDashboardTutorial() (.cold)
 SVLServer::RunFrame()
+SVLServer::RunFrame() (.cold)
+SVLServer::RunFrame: ProcessMessages
 SVLServer::SVLServer(...)\n
 SVLServer::SVLServer(LaunchOptions&)
 SVLServer::SVLServer(LaunchOptions&) (.cold)
 SVLServer::SendShutdownMessage(unsigned long)
+SVLServer::SendShutdownMessage(unsigned long) (.cold)
 SVLServer::SetRequestedConnectionInfoInternal(std::vector<char, std::allocator<char>>&, int)
 SVLServer::SetRequestedConnectionInfoInternal(std::vector<char, std::allocator<char>>&, int) (.cold)
 SVLServer::SetRequestedConnectionInfoInternal(std::vector<char, std::allocator<char>>&, int)::k_pathSteamVrConnectionReady
 SVLServer::Shutdown()
+SVLServer::Shutdown() (.cold)
 SVLServer::Shutdown()\n
 SVLServer::StartCapture(std::string const&)
 SVLServer::StopCapture()
@@ -4270,6 +4283,7 @@ Self queried namespace: %u\n
 SendControlMessage(EControlConnectMessageType, void const*, unsigned long, std::function<void (void const*, unsigned long)>)
 SendControlMessage(EControlConnectMessageType, void const*, unsigned long, std::function<void (void const*, unsigned long)>) (.cold)
 SendErrorClick(SVLCanvas*, svl_canvas_canned_gui_element_t const*, int, int, precanned_event, int)
+SendShutdownMessage
 SendUpdatedFramerateRequest: Failed to find preferred refresh rate of %.2f in available display frequencies. Using set display frequency
 SendUpdatedFramerateRequest: Preferred refresh rate was available. Using %.2f
 SendUpdatedFramerateRequest: Requesting client use %.2f Hz
@@ -4320,6 +4334,7 @@ SharedLib_GetFunction(void*, char const*)
 SharedLib_Load(char const*, std::string*)
 SharedLib_Unload(void*)
 SharedObjMgr().Init() failed
+Shutdown
 ShutdownLPP()
 Sideband Err
 Skin
@@ -4557,6 +4572,7 @@ ThreadGetProcessExitCode
 ThreadGetProcessListInfo
 ThreadGetProcessParentID
 ThreadGetProcessPriority
+ThreadImplOneTimeInit
 ThreadInMainThread
 ThreadInitSchedulerForRtkit()::sInitMutex
 ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
@@ -4591,6 +4607,7 @@ ThreadSetProcessPriority
 ThreadShellExecute
 ThreadShellExecute::bInstalledSignalHandler
 ThreadSleep
+ThreadSpinWaitForValue
 ThreadSuspendSignal(int)
 ThreadTerminate
 ThreadTerminateProcessCode
@@ -5759,6 +5776,7 @@ _GLOBAL__sub_I_subtractposeoperation.cpp
 _GLOBAL__sub_I_system_error.cc
 _GLOBAL__sub_I_threadtools.cpp
 _GLOBAL__sub_I_threadwatchdog.cpp
+_GLOBAL__sub_I_threadwatchdog_server.cpp
 _GLOBAL__sub_I_transform.cpp
 _GLOBAL__sub_I_twoboneikposeoperation.cpp
 _GLOBAL__sub_I_vectoraligned.cpp
@@ -7893,11 +7911,13 @@ std::_Function_handler<void (Json::Value const&), CVRMailbox::AutoForwardMessage
 std::_Function_handler<void (Json::Value const&), SVLServer::Init()::'lambda'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&)
 std::_Function_handler<void (Json::Value const&), SVLServer::Init()::'lambda'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&) (.cold)
 std::_Function_handler<void (Json::Value const&), SVLServer::Init()::'lambda0'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&)
+std::_Function_handler<void (Json::Value const&), SVLServer::Init()::'lambda0'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&) (.cold)
 std::_Function_handler<void (Json::Value const&), SVLServer::Init()::'lambda1'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&)
 std::_Function_handler<void (Json::Value const&), SVLServer::Init()::'lambda1'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&) (.cold)
 std::_Function_handler<void (Json::Value const&), SVLServer::Init()::'lambda2'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&)
 std::_Function_handler<void (Json::Value const&), SVLServer::Init()::'lambda2'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&) (.cold)
 std::_Function_handler<void (Json::Value const&), SVLServer::RequestDashboardTutorial()::'lambda'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&)
+std::_Function_handler<void (Json::Value const&), SVLServer::RequestDashboardTutorial()::'lambda'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&) (.cold)
 std::_Function_handler<void (Json::Value const&), std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)>>::_M_invoke(std::_Any_data const&, Json::Value const&)
 std::_Function_handler<void (ValueTransportID, bool), ByteLogger::SetRoot(SVLRoot*)::'lambda'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)

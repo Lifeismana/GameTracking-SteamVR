@@ -1,4 +1,4 @@
-var CLSTAMP = "9920024";
+var CLSTAMP = "9941881";
 (() => {
   "use strict";
   var e,
@@ -6161,7 +6161,7 @@ var CLSTAMP = "9920024";
           }
         };
         N = (0, o.Cg)([s.PA], N);
-        let T = class extends v {
+        let P = class extends v {
           constructor(e) {
             super(e),
               (this.defaultProperties = [
@@ -6366,9 +6366,9 @@ var CLSTAMP = "9920024";
             );
           }
         };
-        (0, o.Cg)([h.o], T.prototype, "OnActionChanged", null),
-          (T = (0, o.Cg)([s.PA], T));
-        let P = class extends v {
+        (0, o.Cg)([h.o], P.prototype, "OnActionChanged", null),
+          (P = (0, o.Cg)([s.PA], P));
+        let T = class extends v {
           constructor(e) {
             super(e);
             let t = this.props.controllerWatcher[0];
@@ -6643,12 +6643,12 @@ var CLSTAMP = "9920024";
             );
           }
         };
-        (0, o.Cg)([h.o], P.prototype, "OnTrackpadInvertModeChanged", null),
-          (0, o.Cg)([h.o], P.prototype, "OnTrackpadInvertModeReset", null),
-          (0, o.Cg)([h.o], P.prototype, "OnClickActionChanged", null),
-          (0, o.Cg)([h.o], P.prototype, "OnTouchActionChanged", null),
-          (0, o.Cg)([h.o], P.prototype, "OnPositionActionChanged", null),
-          (P = (0, o.Cg)([s.PA], P));
+        (0, o.Cg)([h.o], T.prototype, "OnTrackpadInvertModeChanged", null),
+          (0, o.Cg)([h.o], T.prototype, "OnTrackpadInvertModeReset", null),
+          (0, o.Cg)([h.o], T.prototype, "OnClickActionChanged", null),
+          (0, o.Cg)([h.o], T.prototype, "OnTouchActionChanged", null),
+          (0, o.Cg)([h.o], T.prototype, "OnPositionActionChanged", null),
+          (T = (0, o.Cg)([s.PA], T));
         let R = class extends v {
           constructor(e) {
             super(e),
@@ -8641,8 +8641,8 @@ var CLSTAMP = "9920024";
         };
         (0, o.Cg)([h.o], H.prototype, "OnValueActionChanged", null),
           (H = (0, o.Cg)([s.PA], H));
-        var V = n(9118);
-        let G = class extends i.Component {
+        var G = n(9118);
+        let V = class extends i.Component {
           constructor(e) {
             super(e), (this.state = { bInEditMode: !1 });
           }
@@ -8686,7 +8686,7 @@ var CLSTAMP = "9920024";
                 return i.createElement(w, Object.assign({}, e));
               case "trackpad":
               case "joystick":
-                return i.createElement(P, Object.assign({}, e));
+                return i.createElement(T, Object.assign({}, e));
               case "complex_button":
                 return i.createElement(k, Object.assign({}, e));
               case "button":
@@ -8694,7 +8694,7 @@ var CLSTAMP = "9920024";
               case "dpad":
               case "dpad_touch":
               case "dpad_click":
-                return i.createElement(T, Object.assign({}, e));
+                return i.createElement(P, Object.assign({}, e));
               case "scroll":
               case "trackpad_scroll":
                 return i.createElement(R, Object.assign({}, e));
@@ -8713,8 +8713,8 @@ var CLSTAMP = "9920024";
             }
           }
         };
-        (0, o.Cg)([h.o], G.prototype, "OnEdit", null),
-          (G = (0, o.Cg)([s.PA], G));
+        (0, o.Cg)([h.o], V.prototype, "OnEdit", null),
+          (V = (0, o.Cg)([s.PA], V));
         class W {
           constructor(e, t, n, o) {
             (this.x = e),
@@ -8801,7 +8801,7 @@ var CLSTAMP = "9920024";
               o = t.GetModes.map(
                 (e, t) => (
                   ++n,
-                  i.createElement(G, {
+                  i.createElement(V, {
                     key: t,
                     sMode: e.mode,
                     iMode: t,
@@ -8914,7 +8914,7 @@ var CLSTAMP = "9920024";
                 return null;
               if (
                 "InputValueVisibility_AvailableButHidden" == o.visibility &&
-                !V.W.ShowHiddenInputs
+                !G.W.ShowHiddenInputs
               )
                 return null;
               if (null != o.side)
@@ -10713,7 +10713,7 @@ var CLSTAMP = "9920024";
                 "div",
                 {
                   className:
-                    "PageTitleBar" + (V.W.IsSteamAvailable ? "" : " NoSteam"),
+                    "PageTitleBar" + (G.W.IsSteamAvailable ? "" : " NoSteam"),
                 },
                 i.createElement(
                   "div",
@@ -10779,7 +10779,7 @@ var CLSTAMP = "9920024";
                       ),
                     ),
                 ),
-                !V.W.IsSteamAvailable &&
+                !G.W.IsSteamAvailable &&
                   i.createElement(
                     "div",
                     { className: "NoSteamWarning" },
@@ -11937,60 +11937,6 @@ var CLSTAMP = "9920024";
           BindDescriptionInput(e) {
             this.m_DescriptionInput = e;
           }
-          OnNameFocus(e) {
-            (0, a.R$)() == a.OH.Overlay &&
-              this.m_NameInputCallbackHandle &&
-              (this.m_NameInput.blur(),
-              (this.m_NameInputCallbackHandle =
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.VROverlay.ShowKeyboard(
-                      (0, c.we)("#BindingUI_Binding_Name"),
-                      e.target.value,
-                      128,
-                      this.OnOverlayNameText,
-                    )),
-              null === VRHTML ||
-                void 0 === VRHTML ||
-                VRHTML.VROverlay.SetKeyboardPositionForOverlay(
-                  null === VRHTML || void 0 === VRHTML
-                    ? void 0
-                    : VRHTML.VROverlay.ThisOverlayKey(),
-                  {},
-                ));
-          }
-          OnOverlayNameText(e) {
-            (this.m_NameInput.value = e),
-              this.m_NameInputCallbackHandle.unregister(),
-              (this.m_NameInputCallbackHandle = null);
-          }
-          OnDescriptionFocus(e) {
-            (0, a.R$)() == a.OH.Overlay &&
-              null == this.m_DescriptionCallbackHandle &&
-              (this.m_DescriptionInput.blur(),
-              (this.m_DescriptionCallbackHandle =
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.VROverlay.ShowKeyboard(
-                      (0, c.we)("#BindingUI_Binding_Description"),
-                      e.target.value,
-                      128,
-                      this.OnOverlayDescriptionText,
-                    )),
-              null === VRHTML ||
-                void 0 === VRHTML ||
-                VRHTML.VROverlay.SetKeyboardPositionForOverlay(
-                  null === VRHTML || void 0 === VRHTML
-                    ? void 0
-                    : VRHTML.VROverlay.ThisOverlayKey(),
-                  {},
-                ));
-          }
-          OnOverlayDescriptionText(e) {
-            (this.m_DescriptionInput.value = e),
-              this.m_DescriptionCallbackHandle.unregister(),
-              (this.m_DescriptionCallbackHandle = void 0);
-          }
           GetUnboundActionItems() {
             const e = p.B$.UnboundActions;
             let t = [];
@@ -12105,7 +12051,6 @@ var CLSTAMP = "9920024";
                   type: "text",
                   defaultValue: e,
                   ref: this.BindNameInput,
-                  onFocus: this.OnNameFocus,
                 }),
                 i.createElement(
                   "label",
@@ -12117,7 +12062,6 @@ var CLSTAMP = "9920024";
                   rows: 5,
                   ref: this.BindDescriptionInput,
                   defaultValue: this.props.sDescription,
-                  onFocus: this.OnDescriptionFocus,
                   placeholder: (0, c.we)(
                     "BindingUI_SaveDescriptionPlaceholder",
                   ),
@@ -12150,10 +12094,6 @@ var CLSTAMP = "9920024";
           (0, o.Cg)([h.o], _e.prototype, "ConfirmBindingName", null),
           (0, o.Cg)([h.o], _e.prototype, "BindNameInput", null),
           (0, o.Cg)([h.o], _e.prototype, "BindDescriptionInput", null),
-          (0, o.Cg)([h.o], _e.prototype, "OnNameFocus", null),
-          (0, o.Cg)([h.o], _e.prototype, "OnOverlayNameText", null),
-          (0, o.Cg)([h.o], _e.prototype, "OnDescriptionFocus", null),
-          (0, o.Cg)([h.o], _e.prototype, "OnOverlayDescriptionText", null),
           (0, o.Cg)([h.o], _e.prototype, "GetUnboundActionItems", null),
           (_e = (0, o.Cg)([s.PA], _e));
         let Ce = class extends i.Component {
@@ -12727,11 +12667,11 @@ var CLSTAMP = "9920024";
                       },
                       (0, c.we)("#BindingUI_ImportThisBinding"),
                     ),
-                  V.W.BDevMode &&
+                  G.W.BDevMode &&
                     i.createElement("div", {
                       className: "BindingManageButtonsHR",
                     }),
-                  V.W.BDevMode &&
+                  G.W.BDevMode &&
                     i.createElement(
                       "div",
                       {
@@ -12740,7 +12680,7 @@ var CLSTAMP = "9920024";
                       },
                       s,
                     ),
-                  V.W.BDevMode &&
+                  G.W.BDevMode &&
                     i.createElement(
                       "div",
                       {
@@ -12749,7 +12689,7 @@ var CLSTAMP = "9920024";
                       },
                       (0, c.we)("#BindingUI_ExportBindingFile"),
                     ),
-                  V.W.BDevMode &&
+                  G.W.BDevMode &&
                     !p.B$.SelectedBindingIsLegacy &&
                     !p.B$.SelectedBindingIsOpenXR &&
                     i.createElement(
@@ -13429,7 +13369,7 @@ var CLSTAMP = "9920024";
           CreateControllerTypeDropdown() {
             let e = [],
               t = ee.s.IsAppAllowedPrivateInputs(p.B$.SelectedApp);
-            V.W.ControllerTypes.forEach((n) => {
+            G.W.ControllerTypes.forEach((n) => {
               (t || "InputValueVisibility_SteamVRInternal" != n.visibility) &&
                 "InputValueVisibility_None" != n.visibility &&
                 e.push(n);
@@ -13440,7 +13380,7 @@ var CLSTAMP = "9920024";
               n.push(
                 new C(
                   e.controller_type,
-                  V.W.LocalizeDriverString(e.resource_root, e.controller_type),
+                  G.W.LocalizeDriverString(e.resource_root, e.controller_type),
                 ),
               );
             });
@@ -13472,7 +13412,7 @@ var CLSTAMP = "9920024";
                   vecOptions: n,
                   sModalClass: "PinTop",
                   sValueSelectedItem: s ? s.controller_type : "",
-                  sLocalizedSelectedItem: V.W.LocalizeControllerString(
+                  sLocalizedSelectedItem: G.W.LocalizeControllerString(
                     s,
                     s ? s.controller_type : "",
                   ),
@@ -13750,8 +13690,8 @@ var CLSTAMP = "9920024";
           (0, o.Cg)([h.o], ke.prototype, "OnShowMoreApps", null),
           (ke = (0, o.Cg)([s.PA], ke));
         var Ne = n(4493),
-          Te = n(6138),
-          Pe = n(7379);
+          Pe = n(6138),
+          Te = n(7379);
         const Re = ({ quaternion: e, width: t, height: n }) => {
           const o = (0, i.useRef)(null),
             l = (0, i.useCallback)(
@@ -13851,7 +13791,7 @@ var CLSTAMP = "9920024";
               ? (0, c.we)("#InputDebugger_Priority_Overlay", e - xe)
               : e.toFixed(0);
         }
-        class Ve extends i.Component {
+        class Ge extends i.Component {
           constructor(e) {
             super(e),
               (this.m_mailbox = new a._n()),
@@ -14505,7 +14445,7 @@ var CLSTAMP = "9920024";
             for (let n of e)
               t.push(
                 i.createElement(
-                  Te.$,
+                  Pe.$,
                   {
                     onClick: () => {
                       this.SetActionSet(n);
@@ -14660,7 +14600,7 @@ var CLSTAMP = "9920024";
                   ),
                 ),
               i.createElement(
-                Pe.a,
+                Te.a,
                 {
                   onDismissRequested: () => {
                     this.ShowFilterState(null);
@@ -14744,10 +14684,10 @@ var CLSTAMP = "9920024";
             );
           }
         }
-        (0, o.Cg)([h.o], Ve.prototype, "OnSelectApp", null),
-          (0, o.Cg)([h.o], Ve.prototype, "OnInputFrame", null),
-          (0, o.Cg)([h.o], Ve.prototype, "SetActionSet", null);
-        var Ge = n(8108),
+        (0, o.Cg)([h.o], Ge.prototype, "OnSelectApp", null),
+          (0, o.Cg)([h.o], Ge.prototype, "OnInputFrame", null),
+          (0, o.Cg)([h.o], Ge.prototype, "SetActionSet", null);
+        var Ve = n(8108),
           We = n(1333);
         let Ue = class extends i.Component {
           constructor(e) {
@@ -14757,7 +14697,7 @@ var CLSTAMP = "9920024";
             u.n.Loading
               ? document.body.classList.add("Loading")
               : document.body.classList.remove("Loading"),
-              V.W.IsSteamAvailable
+              G.W.IsSteamAvailable
                 ? document.body.classList.remove("SteamUnavailable")
                 : document.body.classList.add("SteamUnavailable");
             return (
@@ -14773,7 +14713,7 @@ var CLSTAMP = "9920024";
                   }),
                 u.n.GetUIState == u.k.List && i.createElement(we, null),
                 u.n.GetUIState == u.k.AppSelect && i.createElement(ke, null),
-                u.n.GetUIState == u.k.Debugger && i.createElement(Ve, null),
+                u.n.GetUIState == u.k.Debugger && i.createElement(Ge, null),
                 u.n.GetUIState == u.k.None && i.createElement("div", null),
                 i.createElement(
                   r.A,
@@ -14808,9 +14748,9 @@ var CLSTAMP = "9920024";
             ? void 0
             : VRHTML.GetSteamLanguage(),
         )
-          .then(() => Ge.J.Init())
+          .then(() => Ve.J.Init())
           .then(() => ee.s.Init())
-          .then(() => V.W.Init())
+          .then(() => G.W.Init())
           .then(() => We.HR.Init(!1))
           .then(() => p.B$.Init())
           .then(() =>

@@ -1037,7 +1037,6 @@ $tI(kn
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
-02:14:59
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -1162,6 +1161,7 @@ $tI(kn
 16CVROverlayLatest
 16CVkCommandBuffer
 16IVRClientHandler
+17:52:36
 17CBoneMaskResource
 17CInputFilter_DPad
 17CSharedImageLinux
@@ -2143,8 +2143,8 @@ BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
 C.71.340283
-C.77.213988
-C.9.215878
+C.77.213993
+C.9.215883
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -3573,7 +3573,7 @@ CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
 CSWTCH.141
 CSWTCH.16
-CSWTCH.213
+CSWTCH.216
 CSWTCH.23
 CSWTCH.28
 CSWTCH.392
@@ -22575,7 +22575,7 @@ JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
 JsonValuesToHMDVector3s(Json::Value const&, Json::Value const&, vr::HmdMatrix34_t&, vr::HmdMatrix34_t&)
 JsonValuesToHMDVector3s(Json::Value const&, Json::Value const&, vr::HmdMatrix34_t&, vr::HmdMatrix34_t&) (.cold)
-Jul 23 2025
+Jul 31 2025
 July
 June
 KHR_audio
@@ -24151,6 +24151,7 @@ ThreadGetProcessExitCode
 ThreadGetProcessListInfo
 ThreadGetProcessParentID
 ThreadGetProcessPriority
+ThreadImplOneTimeInit
 ThreadInMainThread
 ThreadInitSchedulerForRtkit()::sInitMutex
 ThreadInitSchedulerForRtkit()::sbThreadSchedInitialized
@@ -24185,6 +24186,7 @@ ThreadSetProcessPriority
 ThreadShellExecute
 ThreadShellExecute::bInstalledSignalHandler
 ThreadSleep
+ThreadSpinWaitForValue
 ThreadSuspendSignal(int)
 ThreadTerminate
 ThreadTerminateProcessCode

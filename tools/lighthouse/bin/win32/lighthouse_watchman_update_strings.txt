@@ -69,7 +69,7 @@
 --via-dongle
 -t1?Ks
 -tA?Ks
--tQ?t
+-tQ?8
 . Retrying...
 .00cfg
 .?AU_Crt_new_delete@std@@
@@ -548,7 +548,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS
+RSDSs
 Radio version:      
 RaiseException
 ReadFile
