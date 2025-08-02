@@ -549,7 +549,7 @@ PeekNamedPipe
 Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDS
+RSDS)
 RaiseException
 ReadConsoleW
 ReadFile
@@ -1073,7 +1073,6 @@ message size
 modf
 nan(ind)
 nan(snan)
-nbc&
 network down
 network reset
 network unreachable

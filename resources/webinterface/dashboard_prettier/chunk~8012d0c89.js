@@ -1,4 +1,4 @@
-var CLSTAMP = "9941881";
+var CLSTAMP = "9947453";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -3620,7 +3620,7 @@ var CLSTAMP = "9941881";
           }),
           c.createElement(_.WZ, {
             label: (0, h.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1753984359e3).toLocaleString(),
+            value: new Date(1754101018e3).toLocaleString(),
           }),
         );
       });
@@ -16076,7 +16076,7 @@ var CLSTAMP = "9941881";
               ? void 0
               : e.call(VRHTML),
           ),
-            t.set_webpack_build_timestamp(1753984359),
+            t.set_webpack_build_timestamp(1754101018),
             (0, h.Z)(t);
         }
         LoadSessionDevData() {
@@ -18332,6 +18332,7 @@ var CLSTAMP = "9941881";
                 xfInitial: null,
                 fScale: s,
                 fLastTotalVisibleTimeInSeconds: de(e),
+                bSuppressDoubleOverlayControlBar: !1,
               }),
               null == t ? void 0 : t.starts_theater_mode)
             )
@@ -18422,6 +18423,8 @@ var CLSTAMP = "9941881";
         }
         onGrabEnd() {
           this.setState({ bGrabbed: !1 });
+          for (const e of p.SW.m_mapOverlayState.values())
+            e.bSuppressDoubleOverlayControlBar = !1;
         }
         onSetDashboardForceBoundsVisible(e) {
           this.setState((t, n) => {
@@ -18526,7 +18529,8 @@ var CLSTAMP = "9941881";
                   void 0 === VRHTML ||
                   VRHTML.VROverlay.ShowDashboard(e)),
               pe(e, i, t),
-              (i.xfInitial = n)),
+              (i.xfInitial = n),
+              (i.bSuppressDoubleOverlayControlBar = t == R.$z.World)),
             t === R.$z.Dashboard)
           )
             if (e.startsWith(d.GO)) {
@@ -18774,12 +18778,16 @@ var CLSTAMP = "9941881";
             : console.log("dock_overlay_requested: unknown overlay_key", e);
         }
         onHideDashboardRequested(e) {
-          VRHTML.VRDashboardManager.HasMessageOverlay()
-            ? this.switchToOverlayInternal(d.Qv, "onHideDashboardRequested")
-            : (this.hideMessageOverlay(),
+          if (VRHTML.VRDashboardManager.HasMessageOverlay())
+            this.switchToOverlayInternal(d.Qv, "onHideDashboardRequested");
+          else {
+            this.hideMessageOverlay(),
               VRHTML.VRDashboardManager.CloseKeyboard(),
               this.hide(e.reason),
-              this.setDashboardVisibility(!1, void 0, e.reason));
+              this.setDashboardVisibility(!1, void 0, e.reason);
+            for (const e of p.SW.m_mapOverlayState.values())
+              e.bSuppressDoubleOverlayControlBar = !1;
+          }
         }
         onVRLinkRoomSetup(e) {
           e.mode == s.$Z.RecenterCountdown
@@ -19473,6 +19481,10 @@ var CLSTAMP = "9941881";
                         ),
                       ),
                       this.renderLegacyControlBarTrays(w),
+                      o.createElement(s.dL, {
+                        id: d.zM,
+                        translation: { y: 0.3 },
+                      }),
                     ),
                   ),
                 ),
@@ -19659,176 +19671,200 @@ var CLSTAMP = "9941881";
             VRHTML.VRDashboardManager.SendOverlayClosed(t));
         }
         renderOverlayControlBar() {
-          var e, t, n, r;
-          let i = !1;
-          const a = this.getActiveOverlayKey(),
-            l =
-              null === (e = Y.Q.GetOverlayInfo(a)) || void 0 === e
+          var e, t, n;
+          let r = !1;
+          const i = this.getActiveOverlayKey(),
+            a =
+              null === (e = Y.Q.GetOverlayInfo(i)) || void 0 === e
                 ? void 0
                 : e.sHandle;
-          if (!l) return null;
-          try {
-            i = VRHTML.VROverlay.GetFlag(l, s.NB.EnableControlBarClose);
-          } catch (e) {
-            return (
-              console.log(
-                "Error getting flag on sOverlayKey/sOverlayHandle ",
-                a,
-                l,
-              ),
-              null
-            );
-          }
-          const c =
+          if (a)
+            try {
+              r = VRHTML.VROverlay.GetFlag(a, s.NB.EnableControlBarClose);
+            } catch (e) {
+              return (
+                console.log(
+                  "Error getting flag on sOverlayKey/sOverlayHandle ",
+                  i,
+                  a,
+                ),
+                null
+              );
+            }
+          const l =
               null ===
                 (t = S.HR.settings.get("/settings/dashboard/allowCurvature")) ||
               void 0 === t ||
               t
                 ? d.uv
                 : null,
-            m = { x: 0, y: 0.15, z: 0 },
-            h =
-              (null === (n = p.SW.m_mapOverlayState.get(a)) || void 0 === n
+            c = { x: 0, y: 0.15, z: 0 },
+            m = p.SW.m_mapOverlayState.get(i),
+            h = !m || (null == m ? void 0 : m.dockLocation) == R.$z.Dashboard,
+            g =
+              a &&
+              (VRHTML.VROverlay.GetFlag(a, s.NB.EnableControlBarKeyboard) ||
+                i == d.Bn),
+            v =
+              (null == i ? void 0 : i.startsWith(d.GO)) &&
+              (null === VRHTML || void 0 === VRHTML
                 ? void 0
-                : n.dockLocation) == R.$z.Dashboard;
-          return o.createElement(
-            o.Fragment,
-            null,
-            o.createElement(
-              s.dL,
-              { parent_id: d.zM },
-              o.createElement(
+                : VRHTML.BSupportsMultitaskingView());
+          return !m || m.bSuppressDoubleOverlayControlBar
+            ? null
+            : o.createElement(
                 o.Fragment,
                 null,
                 o.createElement(
-                  s.Zk,
-                  {
-                    curvature_origin_id: c,
-                    origin: s.Oi.TopCenter,
-                    interactive: !0,
-                    meters_per_pixel: d.iZ,
-                    debug_name: "ActiveOverlayControlBar",
-                    reflect: 0.1,
-                  },
+                  s.dL,
+                  { parent_id: d.zM },
                   o.createElement(
-                    "div",
-                    { className: "TransparentOverlayControlBar" },
+                    o.Fragment,
+                    null,
                     o.createElement(
-                      "div",
-                      { className: "Section" },
-                      o.createElement(f.oZ, {
-                        tooltipTranslation: m,
-                        overlayKey: this.getActiveOverlayKey(),
-                        additionalClassNames: "LargeIcon",
-                      }),
-                      null === (r = this.m_refDesktopView.current) ||
-                        void 0 === r
-                        ? void 0
-                        : r.renderControlBarButtons(m),
-                    ),
-                    o.createElement(
-                      "div",
-                      { className: "Section" },
-                      !h &&
-                        o.createElement(f.N2, {
-                          icon: o.createElement(ee.Xj, null),
-                          title: (0, u.we)("#ReturnToDashboard"),
-                          tooltipTranslation: m,
-                          onClick: () => {
-                            const e = this.getActiveOverlayKey();
-                            this.setOverlayDockLocation(e, R.$z.Dashboard);
-                          },
-                          additionalClassNames: "LargeIcon",
-                        }),
-                      h &&
-                        o.createElement(
-                          o.Fragment,
-                          null,
-                          o.createElement(f.N2, {
-                            iconUrl: "/dashboard/images/icons/mirror_left.png",
-                            title: (0, u.we)("#DockOnLeftController"),
-                            tooltipTranslation: m,
-                            onClick: () => {
-                              const e = this.getActiveOverlayKey();
-                              this.setOverlayDockLocation(e, R.$z.LeftHand);
-                            },
-                            enabled:
-                              VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
-                                s.kG.TrackedControllerRole_LeftHand,
-                              ) != s.ne,
-                            active:
-                              this.getActiveOverlayDockLocation() ==
-                              R.$z.LeftHand,
-                            additionalClassNames: "LargeIcon",
-                          }),
-                          o.createElement(f.N2, {
-                            iconUrl: "/dashboard/images/icons/mirror_right.png",
-                            title: (0, u.we)("#DockOnRightController"),
-                            tooltipTranslation: m,
-                            onClick: () => {
-                              const e = this.getActiveOverlayKey();
-                              this.setOverlayDockLocation(e, R.$z.RightHand);
-                            },
-                            enabled:
-                              VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
-                                s.kG.TrackedControllerRole_RightHand,
-                              ) != s.ne,
-                            active:
-                              this.getActiveOverlayDockLocation() ==
-                              R.$z.RightHand,
-                            additionalClassNames: "LargeIcon",
-                          }),
-                          " ",
-                        ),
-                    ),
-                    (h || i) &&
+                      s.Zk,
+                      {
+                        curvature_origin_id: l,
+                        origin: s.Oi.TopCenter,
+                        interactive: !0,
+                        meters_per_pixel: d.iZ,
+                        debug_name: "ActiveOverlayControlBar",
+                        reflect: 0.1,
+                      },
                       o.createElement(
                         "div",
-                        { className: "Section" },
-                        h &&
-                          o.createElement(f.N2, {
-                            icon: o.createElement(ee.YN, null),
-                            title: (0, u.we)("#FloatInWorld"),
-                            tooltipTranslation: m,
-                            onClick: () => {
-                              const e = this.getActiveOverlayKey();
-                              this.setOverlayDockLocation(e, R.$z.World);
-                            },
-                            active:
-                              this.getActiveOverlayDockLocation() == R.$z.World,
-                          }),
-                        h &&
-                          o.createElement(f.N2, {
-                            icon: o.createElement(ee.fr, null),
-                            title: (0, u.we)("#ViewInTheater"),
-                            tooltipTranslation: m,
-                            onClick: () => {
-                              const e = this.getActiveOverlayKey();
-                              this.setOverlayDockLocation(e, R.$z.Theater);
-                            },
-                            active:
-                              this.getActiveOverlayDockLocation() ==
-                              R.$z.Theater,
-                            additionalClassNames: "LargeIcon",
-                          }),
-                        i &&
-                          o.createElement(f.N2, {
-                            iconUrl:
-                              "/dashboard/images/icons/icon_close_black.png",
-                            title: (0, u.we)(
-                              ce(a) ? "#QuitApp" : "#CloseOverlay",
+                        { className: "TransparentOverlayControlBar" },
+                        o.createElement(
+                          "div",
+                          { className: "Section" },
+                          g &&
+                            o.createElement(f.oZ, {
+                              tooltipTranslation: c,
+                              overlayKey: this.getActiveOverlayKey(),
+                              additionalClassNames: "LargeIcon",
+                            }),
+                          v &&
+                            o.createElement(f.N2, {
+                              iconUrl:
+                                "/dashboard/images/icons/icon_multitasking_view.png",
+                              title: (0, u.we)("#MultitaskingView"),
+                              tooltipTranslation: c,
+                              onClick:
+                                null === (n = this.m_refDesktopView.current) ||
+                                void 0 === n
+                                  ? void 0
+                                  : n.ShowMultitaskingView,
+                            }),
+                        ),
+                        o.createElement(
+                          "div",
+                          { className: "Section" },
+                          !h &&
+                            o.createElement(f.N2, {
+                              icon: o.createElement(ee.Xj, null),
+                              title: (0, u.we)("#ReturnToDashboard"),
+                              tooltipTranslation: c,
+                              onClick: () => {
+                                const e = this.getActiveOverlayKey();
+                                this.setOverlayDockLocation(e, R.$z.Dashboard);
+                              },
+                              additionalClassNames: "LargeIcon",
+                            }),
+                          h &&
+                            o.createElement(
+                              o.Fragment,
+                              null,
+                              o.createElement(f.N2, {
+                                iconUrl:
+                                  "/dashboard/images/icons/mirror_left.png",
+                                title: (0, u.we)("#DockOnLeftController"),
+                                tooltipTranslation: c,
+                                onClick: () => {
+                                  const e = this.getActiveOverlayKey();
+                                  this.setOverlayDockLocation(e, R.$z.LeftHand);
+                                },
+                                enabled:
+                                  VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
+                                    s.kG.TrackedControllerRole_LeftHand,
+                                  ) != s.ne,
+                                active:
+                                  this.getActiveOverlayDockLocation() ==
+                                  R.$z.LeftHand,
+                                additionalClassNames: "LargeIcon",
+                              }),
+                              o.createElement(f.N2, {
+                                iconUrl:
+                                  "/dashboard/images/icons/mirror_right.png",
+                                title: (0, u.we)("#DockOnRightController"),
+                                tooltipTranslation: c,
+                                onClick: () => {
+                                  const e = this.getActiveOverlayKey();
+                                  this.setOverlayDockLocation(
+                                    e,
+                                    R.$z.RightHand,
+                                  );
+                                },
+                                enabled:
+                                  VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
+                                    s.kG.TrackedControllerRole_RightHand,
+                                  ) != s.ne,
+                                active:
+                                  this.getActiveOverlayDockLocation() ==
+                                  R.$z.RightHand,
+                                additionalClassNames: "LargeIcon",
+                              }),
+                              " ",
                             ),
-                            tooltipTranslation: m,
-                            onClick: this.onActiveOverlayClosed,
-                            additionalClassNames: "LargeIcon",
-                          }),
+                        ),
+                        (h || r) &&
+                          o.createElement(
+                            "div",
+                            { className: "Section" },
+                            h &&
+                              o.createElement(f.N2, {
+                                icon: o.createElement(ee.YN, null),
+                                title: (0, u.we)("#FloatInWorld"),
+                                tooltipTranslation: c,
+                                onClick: () => {
+                                  const e = this.getActiveOverlayKey();
+                                  this.setOverlayDockLocation(e, R.$z.World);
+                                },
+                                active:
+                                  this.getActiveOverlayDockLocation() ==
+                                  R.$z.World,
+                              }),
+                            h &&
+                              o.createElement(f.N2, {
+                                icon: o.createElement(ee.fr, null),
+                                title: (0, u.we)("#ViewInTheater"),
+                                tooltipTranslation: c,
+                                onClick: () => {
+                                  const e = this.getActiveOverlayKey();
+                                  this.setOverlayDockLocation(e, R.$z.Theater);
+                                },
+                                active:
+                                  this.getActiveOverlayDockLocation() ==
+                                  R.$z.Theater,
+                                additionalClassNames: "LargeIcon",
+                              }),
+                            r &&
+                              o.createElement(f.N2, {
+                                iconUrl:
+                                  "/dashboard/images/icons/icon_close_black.png",
+                                title: (0, u.we)(
+                                  ce(i) ? "#QuitApp" : "#CloseOverlay",
+                                ),
+                                tooltipTranslation: c,
+                                onClick: this.onActiveOverlayClosed,
+                                additionalClassNames: "LargeIcon",
+                              }),
+                          ),
+                        !1,
                       ),
-                    !1,
+                    ),
                   ),
                 ),
-              ),
-            ),
-          );
+              );
         }
         renderLegacyHeader(e) {
           const t = p.SW.isDarkMode,
@@ -20886,6 +20922,8 @@ var CLSTAMP = "9941881";
               l,
             ),
             window.removeEventListener("mouseup", this.endMove);
+          const c = h.SW.m_mapOverlayState.get(this.props.sOverlayKey);
+          c && (c.bSuppressDoubleOverlayControlBar = !1);
         }
         render() {
           var e, t, n;
@@ -20910,7 +20948,10 @@ var CLSTAMP = "9941881";
               h.SW.eTheaterCurvature == i.Curved && (l = E);
           }
           const b = VRHTML.VROverlay.FindOverlay(this.props.sOverlayKey),
-            T = b && VRHTML.VROverlay.GetFlag(b, o.NB.EnableControlBarKeyboard),
+            T =
+              b &&
+              (VRHTML.VROverlay.GetFlag(b, o.NB.EnableControlBarKeyboard) ||
+                this.props.sOverlayKey == p.Bn),
             V =
               (null === VRHTML || void 0 === VRHTML
                 ? void 0
@@ -21283,6 +21324,12 @@ var CLSTAMP = "9941881";
                     d.createElement(
                       "div",
                       { className: "Section" },
+                      T &&
+                        d.createElement(y.oZ, {
+                          overlayKey: this.props.sOverlayKey,
+                          showTooltip: !1,
+                          additionalClassNames: "LargeIcon",
+                        }),
                       V &&
                         d.createElement(y.N2, {
                           key: "multitask",
@@ -21290,16 +21337,6 @@ var CLSTAMP = "9941881";
                             "/dashboard/images/icons/icon_multitasking_view.png",
                           tooltipTranslation: H,
                           onClick: this.props.ShowMultitaskingView,
-                          additionalClassNames: "LargeIcon",
-                        }),
-                    ),
-                    d.createElement(
-                      "div",
-                      { className: "Section" },
-                      T &&
-                        d.createElement(y.oZ, {
-                          overlayKey: this.props.sOverlayKey,
-                          showTooltip: !1,
                           additionalClassNames: "LargeIcon",
                         }),
                     ),
@@ -21676,24 +21713,6 @@ var CLSTAMP = "9941881";
           this.m_mailbox.SendMessage("desktopview", {
             type: "request_task_view",
           });
-        }
-        renderControlBarButtons(e) {
-          const t =
-            (null === VRHTML || void 0 === VRHTML
-              ? void 0
-              : VRHTML.BSupportsMultitaskingView()) &&
-            "" == this.m_sCurrentWindowOverlayKey;
-          return u.createElement(
-            u.Fragment,
-            null,
-            t &&
-              u.createElement(v.N2, {
-                iconUrl: "/dashboard/images/icons/icon_multitasking_view.png",
-                title: (0, h.we)("#MultitaskingView"),
-                tooltipTranslation: e,
-                onClick: this.ShowMultitaskingView,
-              }),
-          );
         }
         render() {
           var e;

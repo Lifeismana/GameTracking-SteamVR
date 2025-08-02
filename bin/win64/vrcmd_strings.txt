@@ -845,7 +845,7 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSj
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1255,6 +1255,7 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 WideCharToMultiByte
 Worst (ms)
 WriteFile
+ZzJS
 [IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n

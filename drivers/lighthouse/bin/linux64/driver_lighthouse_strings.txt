@@ -867,6 +867,7 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+02:16:52
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -923,7 +924,6 @@ $3br
 16CVkCommandBuffer
 16CVrcDecodeTagged
 16CWirelessDecoder
-17:52:36
 17CBoneMaskResource
 17CCameraWorkThread
 17CFirmwareManifest
@@ -1182,6 +1182,7 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Attempting HID Open %s: %s\n
 Audio
 AudioBridge
+Aug  2 2025
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)\n
@@ -5296,7 +5297,6 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold
 JsonValueToBoolOrDefault(Json::Value const&, bool)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
-Jul 31 2025
 July
 June
 KHR_audio
@@ -13961,7 +13961,6 @@ s_pLogFile
 s_pRealCreateInstance
 s_pRealDestroyInstance
 s_pSharedFirmwareManifest
-s_pknfA
 s_rBoolPropertiesToRead
 s_rFloatPropertiesToRead
 s_rInt32PropertiesToRead

@@ -58,15 +58,15 @@
             "motion":{
                 "type":"joystick",
                 "controller_axis": 0,
-                "center": [0.00069, -0.00769, 0.05279],
+                "center": [0.013857, -0.002182, 0.045776],
                 "rotate_xyz": [0.0,0.0,0.0],
-                "joystick_rotation_x": [20,-20],
-                "joystick_rotation_y": [20,-20],
+                "joystick_rotation_x": [15,-15],
+                "joystick_rotation_y": [15,-15],
                  "component_path" : "/input/joystick",
                 "press_translate": [0.0, -0.000927, 0.000375]
             },
             "component_local" : {
-                "origin": [-0.000587, 0.001502, 0.045776],
+                "origin": [0.013857, 0.002182, 0.045776],
                 "rotate_xyz" : [53.0, 0.0, 7.0]
             }
         },
@@ -77,7 +77,7 @@
                 "controller_axis":2,
                 "controller_axis_component":0,
 		        "trigger_path" : "/input/grip",
-                "value_mapping": [0.0, -4.5],    
+                "value_mapping": [0.0, -4.5],
                 "pivot": [ 0.000325, -0.058975, 0.077072 ],
                 "axis": [0.0, 0.0, 1.0]
             },
@@ -97,6 +97,20 @@
             },
             "component_local" : {
                 "origin": [0.004992, 0.007487, 0.064723],
+                "rotate_xyz" : [53.0, 0.0, 7.0]
+            }
+        },
+        "button_system": {
+            "filename": "pico_4_controller_right_button_system.obj",
+            "motion":{
+                "type":"translate",
+                "pressed_path" : "/input/system/click",
+                "controller_button": 0,
+                "value_mapping": [0.0, 0.00075],
+                "axis": [0.0, -0.927, 0.375]
+            },
+            "component_local" : {
+                "origin": [0.016856, 0.008389, 0.061921],
                 "rotate_xyz" : [53.0, 0.0, 7.0]
             }
         },

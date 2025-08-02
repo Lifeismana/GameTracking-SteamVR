@@ -606,8 +606,8 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-10:51:52
 127.0.0.1
+19:16:09
 1e+9999
 3.3578.1860.g36610bd
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
@@ -723,6 +723,7 @@ ArrayBuffer
 Assert( %s ) %s(%d)\n
 Attempt to init shared state %s twice
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
+Aug  1 2025
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
@@ -1102,7 +1103,6 @@ IsIconic
 IsProcessorFeaturePresent
 IsValidSid
 IsWindowShown
-Jul 31 2025
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -1329,7 +1329,7 @@ QueryPerformanceFrequency
 QuitOpenVR
 QuitSceneApp
 RPCRT4.dll
-RSDS
+RSDS]p
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

@@ -6180,7 +6180,6 @@ write
 writev
 wstring_convert::from_bytes
 wstring_convert::to_bytes
-xQox
 xdigit
 {default arg#
 {lambda(

@@ -3,6 +3,31 @@
   "layouts" : [
     {
       "priority" : 100,
+      "from_controller_type" : "khr_generic_controller",
+      "simulate_controller_type" : false,
+      "simulate_render_model" : false,
+      "simulate_HMD" : false,
+      "autoremappings" : [
+        {
+          "from" : "/user/hand/right/input/trigger",
+          "to" : "/user/hand/right/input/index_pinch"
+        },
+        {
+          "from" : "/user/hand/right/input/grip",
+          "to" : "/user/hand/right/input/grip"
+        },
+        {
+          "from" : "/user/hand/right/input/thumbstick",
+          "to" : "/user/hand/right/input/index_point"
+        },
+        {
+          "from" : "/user/hand/right/input/secondary",
+          "to" : "/user/hand/right/input/pinky_pinch"
+        }
+      ]
+    },
+    {
+      "priority" : 95,
       "from_controller_type" : "oculus_touch",
       "simulate_controller_type" : true,
       "simulate_render_model" : true,
@@ -13,8 +38,8 @@
           "to" : "/user/hand/right/input/index_pinch"
         },
         {
-          "from" : "/user/hand/right/input/skeleton/right",
-          "to" : "/user/hand/right/input/skeleton/right"
+          "from" : "/user/hand/right/input/grip",
+          "to" : "/user/hand/right/input/grip"
         },
         {
           "from" : "/user/hand/right/input/b",
@@ -29,7 +54,7 @@
       ]
     },
     {
-      "priority" : 100,
+      "priority" : 90,
       "from_controller_type" : "knuckles",
       "simulate_controller_type" : true,
       "simulate_render_model" : true,
@@ -40,8 +65,8 @@
           "to" : "/user/hand/right/input/index_pinch"
         },
         {
-          "from" : "/user/hand/right/input/skeleton/right",
-          "to" : "/user/hand/right/input/skeleton/right"
+          "from" : "/user/hand/right/input/grip",
+          "to" : "/user/hand/right/input/grip"
         },
         {
           "from": "/user/hand/right/input/b",
@@ -69,6 +94,6 @@
           "to" : "/user/hand/right/input/index_point"
         }
       ]
-    },
-  ] 
+    }
+  ]
 }

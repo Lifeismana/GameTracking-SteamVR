@@ -1635,11 +1635,11 @@ $\n k_EProtoServiceTypeSteamMessages
 0q1@
 1.2.5
 1/2/4/8/16-bit only
-10:51:52
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
+19:16:09
 1A26b
 1\f514
 1e+9999
@@ -1911,6 +1911,7 @@ Attempt to register second handler for message type %s\n
 Attempted to read payload of %d bytes from pipe but failed\n
 Attempting to start home app %s\n
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
+Aug  1 2025
 Auto launch dashboard %s has not started after %u checks. Giving up waiting.\n
 Autobinding role for device path: %s
 AutosaveURL
@@ -3156,7 +3157,6 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jul 31 2025
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
@@ -3232,6 +3232,7 @@ Lost master process %u due to pipe corruption. Quitting all in %g seconds if it 
 Lost master process %u due to restart hint. Quitting all in %g seconds if it doesn't reconnect. \n
 Lost master process %u for an unknown reason. Quitting all immediately. \n
 Low Power Watchdog Not Supported (129)
+Lw+T
 LwH'
 M8MF
 MAT2
@@ -3727,7 +3728,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS
+RSDS|
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
