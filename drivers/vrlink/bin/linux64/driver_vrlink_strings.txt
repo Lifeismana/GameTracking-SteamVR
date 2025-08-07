@@ -506,7 +506,7 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
-02:16:52
+01:23:52
 1 Sec
 1/2/4/8/16-bit only
 10.35.78
@@ -667,7 +667,7 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Audio
 Audio/Sink
 Audio/Source
-Aug  2 2025
+Aug  7 2025
 August
 Auto
 Autodetected %s
@@ -1711,6 +1711,7 @@ ChaperoneReceiver::SetChaperone (len %d)\n
 CharNeedsEscape_Component(char)
 CharNeedsEscape_FullPath(char)
 CheckForLPPChanges()
+CheckForMissingDrivers
 CheckPoseRecipe(CPoseRecipe const&, unsigned char)
 CheckWinsockInitialization()
 ChooseImageView(vr::EVREye, SVLHMDDriverVulkan::SVLDriverVulkanResources_t const*, SVLHMDDriverVulkan::SVLDriverVulkanResources_t const*)
@@ -1763,6 +1764,7 @@ Could not find universeID in JSON.
 Could not find universes in JSON.
 Could not get an X Display.\n%s
 Could not log to disk.\n
+CreateConnectionInfo
 CreateConnectionInfo PermanentFailure.  Code %d\n
 CreateConnectionInfo failed.  Code %d\n
 CreateOverlayInternal(VRSystemLayerState_t*, char const*, char const*, unsigned long*)
@@ -1870,7 +1872,7 @@ Error setting client handles dashboard state\n
 Error: Cannot open file %s\n
 Error: Could not bind socket\n
 Error: Could not connect to host connect(%d)\n
-Error: Could not create socket\n
+Error: Could not create socket: %d\n
 Error: Failed to generate crypt random data.
 Error: Failed to parse JSON.\n
 Error: Payload VTE is too small.\n
@@ -2348,6 +2350,7 @@ Image width mismatch for image[
 Index Controller CreateSkeletonComponent failed.  Error: %i\n
 Infinity
 Info
+Init
 Init state
 InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) (.cold)
@@ -3278,6 +3281,7 @@ Process %d failed to shm_open %s: %d\n
 ProcessControlRxBuffer(std::vector<unsigned char, std::allocator<unsigned char>>&, std::function<void (EControlConnectMessageType, void const*, unsigned long)>)
 ProcessControlRxBufferToMailbox(std::vector<unsigned char, std::allocator<unsigned char>>&, CVRMailbox&)
 ProcessControlRxBufferToMailbox(std::vector<unsigned char, std::allocator<unsigned char>>&, CVRMailbox&) (.cold)
+ProcessEvent
 ProcessMailboxMessageFromNetwork(CVRMailbox&, Json::Value const&)
 ProcessMailboxMessageFromNetwork(CVRMailbox&, Json::Value const&) (.cold)
 ProcessTXVideoFrameThreadFunction
@@ -3584,6 +3588,7 @@ ReturnStdString(std::string const&, char*, unsigned int)
 Root element is not a JSON object\n
 RootNode
 RouterMacPrefix
+RunFrame
 SC Custom 0 %d
 SC Custom 1 %d
 SC Custom 2 %d
@@ -3765,6 +3770,7 @@ SVLControllerDriver::OnBeginUse()
 SVLControllerDriver::OnEndUse()
 SVLControllerDriver::PowerOff()
 SVLControllerDriver::ProcessEvent(vr::VREvent_t const&)
+SVLControllerDriver::ProcessEvent(vr::VREvent_t const&) (.cold)
 SVLControllerDriver::SVLControllerDriver(int, SVLDriver*)
 SVLControllerDriver::m_sendHapticsPacket
 SVLControllerDriver::~SVLControllerDriver()
@@ -3931,6 +3937,7 @@ SVLDriver::TrackedDeviceIdFromCompactDeviceIndex(unsigned int) (.part.0)
 SVLDriver::TriggerDongleDriverInstall()
 SVLDriver::TriggerDongleDriverInstall() (.cold)
 SVLDriver::UpdateConnectionQuitEvent()
+SVLDriver::UpdateConnectionQuitEvent() (.cold)
 SVLDriver::UpdateNetworkInfo()
 SVLDriver::UpdateOGSStatistics()
 SVLDriver::UpdateOGSStatistics() (.cold)
@@ -4241,6 +4248,7 @@ SVLServer::Init()::'lambda3'(ValueTransportID, bool)::operator()(ValueTransportI
 SVLServer::PopTimingEvent(LoggableTimingEvent_t&)
 SVLServer::PopulateMostRecentHapticPair(HapticRespData_t*)
 SVLServer::ProcessEvent(vr::VREvent_t const&)
+SVLServer::ProcessEvent(vr::VREvent_t const&) (.cold)
 SVLServer::RXBroadcast(dataset*, SVLDataLink*)
 SVLServer::RXBroadcast(dataset*, SVLDataLink*) (.cold)
 SVLServer::RXDebugMessage(dataset*)
@@ -4775,8 +4783,11 @@ UnpackVTEProps(unsigned long, VTE_StaticProps_t const&)
 Unpack_SNORM_Uint8(unsigned char)
 Unsupported Prop_ControllerType_String "%s"\n
 Unsupported `type` for accessor object. Got "
+UpdateConnectionQuitEvent
 UpdateMenuTexts(SVLRoot*)
 UpdateMenuTexts(SVLRoot*) (.cold)
+UpdateNetworkInfo
+UpdateOGSStatistics
 UseKeyboardImplementation(VRSystemLayerState_t*, vr::EVRKeyboardImplementation)
 UseKeyboardImplementationInternal(VRSystemLayerState_t*, unsigned long)
 VALVE
@@ -7540,7 +7551,7 @@ send_to_remote message received with an invalid dest
 send_to_remote message received with an invalid payload
 sendmsg
 sendto
-sendto error %d\n
+sendto error %d (return value: %d)\n
 sent VTE_DASHBOARD_EVENT EVTYPE_CLOSE_DASHBOARD
 sequence
 serverTCPEnable

@@ -147,11 +147,12 @@ $3br
 .?AV<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@
 .?AV<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@
 .?AV<lambda_1b183cf92bfcc7a986ca41b48af450da>@@
+.?AV<lambda_1db60d98261e2e5ed663866066a32dcb>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_3775199eb374ee8b8777545cef56c745>@@
 .?AV<lambda_3a0e9dd34797aa579b142ade480c735b>@@
 .?AV<lambda_3fd6e5ca82e0518e289160675f532929>@@
 .?AV<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@
-.?AV<lambda_69d21c18d8bea26fcaf29152e368d4f1>@@
 .?AV<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@
 .?AV<lambda_76b893375c6dd71409cfaed387a60af4>@@
 .?AV<lambda_799c7abc4438a41176f8868c6149585d>@@
@@ -161,26 +162,25 @@ $3br
 .?AV<lambda_876f99566db85b37b4813643d63fd007>@@
 .?AV<lambda_8af3af333305e3d84f47041b3014cca5>@@
 .?AV<lambda_8c41f96c9266656aa778846b9a081afc>@@
+.?AV<lambda_9787ee15003acd9f7960fadc995d16b7>@@
 .?AV<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@
 .?AV<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@
 .?AV<lambda_a3e50aa671c83e58801967e93e8597ee>@@
 .?AV<lambda_a484c5d48bbdf8926a107b4eb4e1349a>@@
 .?AV<lambda_abf0ff52a8b27deb7c253749fd46b9f9>@@
-.?AV<lambda_ac8b876b9bcaa8259795119f30bd9860>@@
 .?AV<lambda_b05e443f3b21806c8efcecd322b95173>@@
 .?AV<lambda_b4bac2e61013943b1b76ac148112d79c>@@
 .?AV<lambda_b6062681e27775d12ffe8db432a3c104>@@
 .?AV<lambda_c6544703987fd9d279e84d520bb2c068>@@
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV<lambda_ca19800c162a615b14dbffc218e93f9c>@@
+.?AV<lambda_cdd09464f928a2ad6955ebdee1b202cb>@@
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
 .?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@
-.?AV<lambda_eb97df11d7909ce4514f36d24197d986>@@
 .?AV<lambda_ec7e1e4c4174cdc6d084da9e8ee16749>@@
 .?AV<lambda_ef8cd50b187808a213c6f694a155665f>@@
 .?AV<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@
-.?AV<lambda_fa28e9443f0739e94d0777bc0ef5594a>@@
 .?AV<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@
 .?AV?$TypeInfoT@VCAnimResource@@@Detail@Reflection@@
 .?AV?$TypeInfoT@VCBoneMaskResource@@@Detail@Reflection@@
@@ -217,11 +217,12 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1b183cf92bfcc7a986ca41b48af450da>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1db60d98261e2e5ed663866066a32dcb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3775199eb374ee8b8777545cef56c745>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3a0e9dd34797aa579b142ade480c735b>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3fd6e5ca82e0518e289160675f532929>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_69d21c18d8bea26fcaf29152e368d4f1>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_76b893375c6dd71409cfaed387a60af4>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_799c7abc4438a41176f8868c6149585d>@@XAEBVValue@Json@@@std@@
@@ -231,26 +232,25 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_876f99566db85b37b4813643d63fd007>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8af3af333305e3d84f47041b3014cca5>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8c41f96c9266656aa778846b9a081afc>@@XW4EControlConnectMessageType@@PEBX_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9787ee15003acd9f7960fadc995d16b7>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a3e50aa671c83e58801967e93e8597ee>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a484c5d48bbdf8926a107b4eb4e1349a>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_abf0ff52a8b27deb7c253749fd46b9f9>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_ac8b876b9bcaa8259795119f30bd9860>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b05e443f3b21806c8efcecd322b95173>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bac2e61013943b1b76ac148112d79c>@@XPEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b6062681e27775d12ffe8db432a3c104>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c6544703987fd9d279e84d520bb2c068>@@XPEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ca19800c162a615b14dbffc218e93f9c>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_cdd09464f928a2ad6955ebdee1b202cb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_eb97df11d7909ce4514f36d24197d986>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ec7e1e4c4174cdc6d084da9e8ee16749>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ef8cd50b187808a213c6f694a155665f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_fa28e9443f0739e94d0777bc0ef5594a>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
@@ -1170,6 +1170,7 @@ Error: Could not allocate resource for NVENC (%d x %d, %d, %d, %p)  Error: %d\n
 Error: Could not bind socket\n
 Error: Could not connect to host connect(%d)\n
 Error: Could not create sampler\n
+Error: Could not create socket: %d\n
 Error: CreateRenderTargetView could not generate target view.\n
 Error: D3DCompile2 failed on pixel shader with file %s (%08x)\n
 Error: D3DCompileFromFile failed on pixel shader with file %s (%08x)\n
@@ -1860,6 +1861,7 @@ SSend
 SUCCESS: Shader compilation successful. %s\n
 SVLAudioWSAPI::AudioThread
 SVLAudioWSAPI::SVLAudioWSAPI(...)\n
+SVLControllerDriver::ProcessEvent
 SVLCryptWindows CryptAcquireContext succeeded for generation.
 SVLCryptWindows CryptAcquireContext succeeded.
 SVLCryptWindows Error during CryptAcquireContext (Error = %08x)
@@ -1873,6 +1875,8 @@ SVLDataLink::InitCrypt(...,%d,%d)
 SVLDataLinkUDP -> Post Shutdown Sock: %d\n
 SVLDataLinkUDP -> Sending: %d\n
 SVLDataLinkUDP -> r = %d\n
+SVLDataLinkUDP: Continued to fail to create socket after failed attempt with QoS: %d\n
+SVLDataLinkUDP: Failed to create socket using QoS: %d\n
 SVLDataLinkUDP: Found available QOS service! (Socket creation = %d)
 SVLDataLinkUDP: LocalAlloc failed with %d
 SVLDataLinkUDP: No QOS service found (But created socket anyway)
@@ -1891,9 +1895,13 @@ SVLDataLinkUDP::Shutdown(); Disconnect() complete\n
 SVLDataLinkUDP::Shutdown(); Thread Join Complete.\n
 SVLDataLinkUDP::Shutdown(); m_nQuit = %d\n
 SVLDriver::ActivateHMDNow()\n
+SVLDriver::CheckForMissingDrivers
 SVLDriver::Init() Complete\n
 SVLDriver::Init() failed. Returning failure from init so we'll be unloaded.
 SVLDriver::Init()\n
+SVLDriver::UpdateConnectionQuitEvent
+SVLDriver::UpdateNetworkInfo
+SVLDriver::UpdateOGSStatistics
 SVLFEC: frame %d was entirely dropped, initializing and re-requesting\n
 SVLFEC: substantive retry (%d packets) due to frame skip (skipped %d, last sub %d, group %d, bookend %d)\n
 SVLFEC::InternalAcceptFrameFromRX: Failed to acquire pRender
@@ -1907,6 +1915,7 @@ SVLHMDDriver::InitializeOSC: OSC was (re)initialized successfully. In Port: %i, 
 SVLHMDDriver::InitializeOSC: OSC was disabled
 SVLHMDDriver::PostPresent
 SVLHMDDriver::Present
+SVLHMDDriver::ProcessEvent
 SVLHMDDriverD3D11::Activate() D3D11CreateDevice(...) = %d\n
 SVLHMDDriverD3D11::CreateSwapTextureSet() completed.
 SVLHMDDriverD3D11::ReleaseSync
@@ -1927,6 +1936,10 @@ SVLServer mailbox handle_recenter
 SVLServer mailbox remote_dashboard_open
 SVLServer mailbox room_setup
 SVLServer mailbox user_interaction_click_info
+SVLServer::CreateConnectionInfo
+SVLServer::Init
+SVLServer::ProcessEvent
+SVLServer::RunFrame
 SVLServer::RunFrame: ProcessMessages
 SVLServer::SVLServer(...)\n
 SVLServer::SendShutdownMessage
@@ -3122,7 +3135,7 @@ send_to_remote
 send_to_remote message is larger than 65535 bytes: %u
 send_to_remote message received with an invalid dest
 send_to_remote message received with an invalid payload
-sendto error %d\n
+sendto error %d (return value: %d)\n
 sent VTE_DASHBOARD_EVENT EVTYPE_CLOSE_DASHBOARD
 sequence
 serverTCPEnable

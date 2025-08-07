@@ -499,6 +499,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVQDialogButtonBox@@
 .?AVQDoubleSpinBox@@
 .?AVQException@@
+.?AVQFileSystemWatcher@@
 .?AVQFormLayout@@
 .?AVQFrame@@
 .?AVQFutureInterfaceBase@@
@@ -730,7 +731,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-19:16:09
+18:23:07
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -1779,6 +1780,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?_Xinvalid_argument@std@@YAXPEBD@Z
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
+?aboutToQuit@QCoreApplication@@QEAAXUQPrivateSignal@1@@Z
 ?absoluteFilePath@QFileInfo@@QEBA?AVQString@@XZ
 ?absolutePath@QFileInfo@@QEBA?AVQString@@XZ
 ?accept@QDialog@@UEAAXXZ
@@ -1822,6 +1824,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?adjusted@QRect@@QEBA?AV1@HHHH@Z
 ?advance@QGraphicsItem@@UEAAXH@Z
 ?alignedRect@QStyle@@SA?AVQRect@@W4LayoutDirection@Qt@@V?$QFlags@W4AlignmentFlag@Qt@@@@AEBVQSize@@AEBV2@@Z
+?allWidgets@QApplication@@SA?AV?$QList@PEAVQWidget@@@@XZ
 ?allocate@QArrayData@@SAPEAU1@_K00V?$QFlags@W4AllocationOption@QArrayData@@@@@Z
 ?allocateNode@QHashData@@QEAAPEAXH@Z
 ?alpha@QColor@@QEBAHXZ
@@ -1916,6 +1919,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?clear@QString@@QEAAXXZ
 ?clear@QTableWidget@@QEAAXXZ
 ?clear@QTextEdit@@QEAAXXZ
+?clear@QThreadPool@@QEAAXXZ
 ?clear@QTreeWidget@@QEAAXXZ
 ?clearSelection@QAbstractItemView@@QEAAXXZ
 ?clone@QListWidgetItem@@UEBAPEAV1@XZ
@@ -2089,6 +2093,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?metaObject@QCheckBox@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QDialogButtonBox@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QDoubleSpinBox@@UEBAPEBUQMetaObject@@XZ
+?metaObject@QFileSystemWatcher@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QFormLayout@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QFrame@@UEBAPEBUQMetaObject@@XZ
 ?metaObject@QGraphicsOpacityEffect@@UEBAPEBUQMetaObject@@XZ
@@ -2304,6 +2309,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?qt_metacall@QDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QDialogButtonBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QDoubleSpinBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacall@QFileSystemWatcher@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QFormLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QFrame@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 ?qt_metacall@QGraphicsOpacityEffect@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
@@ -2346,6 +2352,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?qt_metacast@QDialog@@UEAAPEAXPEBD@Z
 ?qt_metacast@QDialogButtonBox@@UEAAPEAXPEBD@Z
 ?qt_metacast@QDoubleSpinBox@@UEAAPEAXPEBD@Z
+?qt_metacast@QFileSystemWatcher@@UEAAPEAXPEBD@Z
 ?qt_metacast@QFormLayout@@UEAAPEAXPEBD@Z
 ?qt_metacast@QFrame@@UEAAPEAXPEBD@Z
 ?qt_metacast@QGraphicsOpacityEffect@@UEAAPEAXPEBD@Z
@@ -2494,6 +2501,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?selectionChanged@QTreeView@@MEAAXAEBVQItemSelection@@0@Z
 ?selectionCommand@QAbstractItemView@@MEBA?AV?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@AEBVQModelIndex@@PEBVQEvent@@@Z
 ?self@QCoreApplication@@0PEAV1@EA
+?sendPostedEvents@QCoreApplication@@SAXPEAVQObject@@H@Z
 ?sender@QObject@@IEBAPEAV1@XZ
 ?separator@QDir@@SA?AVQChar@@XZ
 ?setAcceptDrops@QWidget@@QEAAX_N@Z
@@ -2814,12 +2822,17 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?state@QAbstractAnimation@@QEBA?AW4State@1@XZ
 ?state@QProcess@@QEBA?AW4ProcessState@1@XZ
 ?staticMetaObject@QAction@@2UQMetaObject@@B
+?staticMetaObject@QAudioOutput@@2UQMetaObject@@B
 ?staticMetaObject@QCheckBox@@2UQMetaObject@@B
 ?staticMetaObject@QComboBox@@2UQMetaObject@@B
+?staticMetaObject@QCoreApplication@@2UQMetaObject@@B
 ?staticMetaObject@QDialog@@2UQMetaObject@@B
 ?staticMetaObject@QFrame@@2UQMetaObject@@B
 ?staticMetaObject@QGraphicsView@@2UQMetaObject@@B
 ?staticMetaObject@QLabel@@2UQMetaObject@@B
+?staticMetaObject@QMediaPlayer@@2UQMetaObject@@B
+?staticMetaObject@QNetworkAccessManager@@2UQMetaObject@@B
+?staticMetaObject@QNetworkReply@@2UQMetaObject@@B
 ?staticMetaObject@QObject@@2UQMetaObject@@B
 ?staticMetaObject@QOpenGLWidget@@2UQMetaObject@@B
 ?staticMetaObject@QProcess@@2UQMetaObject@@B
@@ -2836,6 +2849,8 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?stepBy@QAbstractSpinBox@@UEAAXH@Z
 ?stepEnabled@QAbstractSpinBox@@MEBA?AV?$QFlags@W4StepEnabledFlag@QAbstractSpinBox@@@@XZ
 ?stop@QAbstractAnimation@@QEAAXXZ
+?stop@QAudioOutput@@QEAAXXZ
+?stop@QMediaPlayer@@QEAAXXZ
 ?stop@QTimer@@QEAAXXZ
 ?string@QTextStream@@QEBAPEAVQString@@XZ
 ?style@QWidget@@QEBAPEAVQStyle@@XZ
@@ -2867,6 +2882,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?textFromValue@QSpinBox@@MEBA?AVQString@@H@Z
 ?textInteractionFlags@QTextEdit@@QEBA?AV?$QFlags@W4TextInteractionFlag@Qt@@@@XZ
 ?texture@QGLFramebufferObject@@QEBAIXZ
+?thread@QObject@@QEBAPEAVQThread@@XZ
 ?timeout@QTimer@@QEAAXUQPrivateSignal@1@@Z
 ?timerEvent@QAbstractButton@@MEAAXPEAVQTimerEvent@@@Z
 ?timerEvent@QAbstractSlider@@MEAAXPEAVQTimerEvent@@@Z
@@ -2938,6 +2954,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?wait@QThread@@QEAA_NK@Z
 ?wait@QWaitCondition@@QEAA_NPEAVQMutex@@K@Z
 ?waitForBytesWritten@QProcess@@UEAA_NH@Z
+?waitForDone@QThreadPool@@QEAA_NH@Z
 ?waitForReadyRead@QProcess@@UEAA_NH@Z
 ?wakeAll@QWaitCondition@@QEAAXXZ
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
@@ -3045,7 +3062,7 @@ Audio Firmware: \t%1 / %2 %3\n
 AudioBridge
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
 AudioWorker
-Aug  1 2025
+Aug  6 2025
 Autoplaying loaded playlist\n
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
@@ -5902,7 +5919,6 @@ RPCRT4.dll
 RSDS
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
-R\vpd
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n
@@ -7541,6 +7557,7 @@ Zjz\v
 \t?color@QPen@@QEBA?AVQColor@@XZ
 \t?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
 \t?currentDateTime@QDateTime@@SA?AV1@XZ
+\t?currentThread@QThread@@SAPEAV1@XZ
 \t?currentTime@QTime@@SA?AV1@XZ
 \t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 \t?data@QListWidgetItem@@UEBA?AVQVariant@@H@Z

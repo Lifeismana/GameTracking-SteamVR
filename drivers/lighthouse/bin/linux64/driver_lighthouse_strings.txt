@@ -867,7 +867,7 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-02:16:52
+01:23:52
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -1182,7 +1182,7 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Attempting HID Open %s: %s\n
 Audio
 AudioBridge
-Aug  2 2025
+Aug  7 2025
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)\n

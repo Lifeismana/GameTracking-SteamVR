@@ -404,6 +404,7 @@ Begin Streaming Depth...
 Begin Streaming Video...
 Beginning detectedStream 
 CVRCameraWindows Destructor...
+CXZN
 Camera Exception while adding configuration change handler to video stream: 
 Camera Exception while adding frame handler to video stream: 
 Camera Exception while applying configuration: 
@@ -613,7 +614,7 @@ QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-RSDSh
+RSDS
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject

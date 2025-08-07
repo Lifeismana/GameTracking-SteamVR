@@ -1037,7 +1037,7 @@ $tI(kn
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
-02:16:52
+01:23:52
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -2010,7 +2010,7 @@ Attempted to read payload of %d bytes from pipe but failed\n
 Attempted to unmap un-allocated BO\n
 Attempted to unmap unmapped BO\n
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
-Aug  2 2025
+Aug  7 2025
 August
 AuthenticAMD
 AutosaveURL
@@ -2144,8 +2144,8 @@ BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
 C.71.340283
-C.77.213993
-C.9.215883
+C.77.213990
+C.9.215880
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -30835,6 +30835,7 @@ roughnessFactor
 ru_ru
 runtime
 russian
+s<ww
 sButtonTexts
 sCaptionText
 sMessageText

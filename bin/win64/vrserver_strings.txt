@@ -1629,17 +1629,16 @@ $\n k_EProtoServiceTypeSteamMessages
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789ABCDEF
 0123456789abcdef
-0A8@
-0D4@
-0J8@
-0q1@
+028@
+039@
+0M9@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-19:16:09
+18:23:07
 1A26b
 1\f514
 1e+9999
@@ -1659,11 +1658,11 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-809@
-8I9@
-8N8@
-8R9@
-8T8@
+829@
+838@
+849@
+859@
+899@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -1911,7 +1910,7 @@ Attempt to register second handler for message type %s\n
 Attempted to read payload of %d bytes from pipe but failed\n
 Attempting to start home app %s\n
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug  1 2025
+Aug  6 2025
 Auto launch dashboard %s has not started after %u checks. Giving up waiting.\n
 Autobinding role for device path: %s
 AutosaveURL
@@ -2825,9 +2824,10 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
+H08@
+H58@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
-HH9@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2849,7 +2849,6 @@ HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
 HMDSerialNumber
-HS9@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2864,18 +2863,39 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
-HU8@
 Hang the server for the specified number of seconds (default 3600)
 HasField
+He8@
 Hex and octal numbers must be integers.
+Hf8@
+Hg8@
+Hh8@
+Hi8@
+Hj8@
+Hk8@
+Hl8@
 Hm7@
+Hm8@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
+Hn8@
+Ho8@
 HostController
 How did we get here with a non-position slot?
+Hp8@
+Hq8@
+Hr8@
+Hs8@
+Ht8@
+Hu8@
+Hv8@
+Hw8@
+Hx8@
+Hy8@
+Hz8@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3232,7 +3252,6 @@ Lost master process %u due to pipe corruption. Quitting all in %g seconds if it 
 Lost master process %u due to restart hint. Quitting all in %g seconds if it doesn't reconnect. \n
 Lost master process %u for an unknown reason. Quitting all immediately. \n
 Low Power Watchdog Not Supported (129)
-Lw+T
 LwH'
 M8MF
 MAT2
@@ -3411,17 +3430,20 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P29@
+P18@
+P68@
+P79@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
-PG9@
+PG8@
 PICT
 PID_
-PK9@
+PK3@
 PLACEHOLDER_VALUE
 PNG\r\n
+PO9@
 POST
-PR6@
+PR8@
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
@@ -3728,7 +3750,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS|
+RSDS
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5143,16 +5165,15 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X19@
-X89@
-XB9@
-XF9@
-XO8@
-XT9@
-XV9@
+X28@
+X78@
+XR6@
 XXXX PNG chunk not known
+Xc8@
+Xd8@
 Xm7@
 XsBI
+Xy2@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -6045,6 +6066,7 @@ current_transforms
 current_transforms_without_controller
 current_user_persona_name
 czech
+dD4@
 dQy/
 da_dk
 danish
@@ -6336,12 +6358,10 @@ grip_limit_transforms
 group
 guid
 gzip
-h18@
-hC9@
-hF8@
-hG8@
+h48@
+h98@
 hPU3
-hR6@
+ha8@
 half_thresholds
 hand_interaction_ext
 hand_priority
@@ -6354,6 +6374,7 @@ haptic_amplitude
 haptics
 has_click
 has_touch
+hb8@
 header
 header crc mismatch
 height
@@ -6378,7 +6399,7 @@ https:
 https://
 hu_hu
 hungarian
-hy2@
+hx2@
 i91k
 i]Wb
 iauds
@@ -6713,6 +6734,7 @@ knuckles_ev1
 ko_kr
 koreana
 l6qnk
+lD4@
 lDa>
 label
 language_tag
@@ -6970,21 +6992,21 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p28@
-p39@
+p58@
 pBegin == pEnd
 pEnd > pBegin
-pM9@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
 pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
 pProcessId
+pQ9@
 pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
 pUrl != nullptr
 pWebSocketMessage
+pX9@
 package
 packed
 param1
@@ -7379,7 +7401,6 @@ systemreport_
 systemreport_*.html
 systemreport_template.html
 systemui_dashboard
-tD4@
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -7639,16 +7660,13 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x29@
-x38@
-x49@
-x59@
-x99@
+x68@
+xI9@
+xK8@
+xT8@
 x_path
 xdigit
-xm7@
 xmag
-xx2@
 y9*O
 y_path
 yfov

@@ -199,7 +199,6 @@ $0option $1;\n
 -inf
 -t1?Ks
 -tA?Ks
--tQ?4
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ..\src\google\protobuf\descriptor.cc
 ..\src\google\protobuf\descriptor.pb.cc
@@ -1142,7 +1141,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDSg
+RSDSQ
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):

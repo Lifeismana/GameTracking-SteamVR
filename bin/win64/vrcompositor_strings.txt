@@ -917,7 +917,7 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
-19:16:09
+18:23:07
 1A26b
 1e+9999
 1wsHp
@@ -1062,7 +1062,7 @@ Attempted to read payload of %d bytes from pipe but failed\n
 Audio Transform Quad Debug
 Audio devices initialized
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug  1 2025
+Aug  6 2025
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
@@ -2738,7 +2738,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSSL
+RSDSf
 R\fp\v`\n0RX
 R\npRX
 R\rp\f`\v0RX
