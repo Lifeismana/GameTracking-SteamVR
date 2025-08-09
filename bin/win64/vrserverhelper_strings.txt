@@ -88,7 +88,7 @@ OLEAUT32.dll
 PathCchAppend
 PathRemoveFileSpecW
 QueryPerformanceCounter
-RSDS
+RSDS3
 ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry

@@ -607,7 +607,7 @@
 /user/wrist/left
 /user/wrist/right
 127.0.0.1
-18:23:07
+16:43:08
 1e+9999
 3.3578.1860.g36610bd
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
@@ -723,7 +723,7 @@ ArrayBuffer
 Assert( %s ) %s(%d)\n
 Attempt to init shared state %s twice
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug  6 2025
+Aug  8 2025
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
@@ -1329,7 +1329,7 @@ QueryPerformanceFrequency
 QuitOpenVR
 QuitSceneApp
 RPCRT4.dll
-RSDS\t
+RSDS|f>
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

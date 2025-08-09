@@ -1638,7 +1638,7 @@ $\n k_EProtoServiceTypeSteamMessages
 11eU%
 127.0.0.1
 127.0.0.1:
-18:23:07
+16:43:08
 1A26b
 1\f514
 1e+9999
@@ -1910,7 +1910,7 @@ Attempt to register second handler for message type %s\n
 Attempted to read payload of %d bytes from pipe but failed\n
 Attempting to start home app %s\n
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug  6 2025
+Aug  8 2025
 Auto launch dashboard %s has not started after %u checks. Giving up waiting.\n
 Autobinding role for device path: %s
 AutosaveURL
@@ -3750,7 +3750,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS
+RSDSIJ
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
