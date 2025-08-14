@@ -1,4 +1,4 @@
-var CLSTAMP = "9964676";
+var CLSTAMP = "9975066";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -3620,7 +3620,7 @@ var CLSTAMP = "9964676";
           }),
           c.createElement(_.WZ, {
             label: (0, h.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1754696636e3).toLocaleString(),
+            value: new Date(1755126991e3).toLocaleString(),
           }),
         );
       });
@@ -16076,7 +16076,7 @@ var CLSTAMP = "9964676";
               ? void 0
               : e.call(VRHTML),
           ),
-            t.set_webpack_build_timestamp(1754696636),
+            t.set_webpack_build_timestamp(1755126991),
             (0, h.Z)(t);
         }
         LoadSessionDevData() {

@@ -581,7 +581,6 @@ LoadLibraryExW
 LoadLibraryW
 LocalContextCacheSize
 Lock already taken
-M=x%A
 MJPEG color format is not yet implemented.
 MaxConcurrency
 MaxPolicyElementKey
@@ -597,7 +596,7 @@ OLEAUT32.dll
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS}'
+RSDS4sf
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject

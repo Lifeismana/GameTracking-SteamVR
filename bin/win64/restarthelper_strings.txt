@@ -208,7 +208,6 @@ bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\restarthelper\Retail\win64\2017\restarthelper.pdb
 exit
 failed.
-fou${
 free
 h\n?dropEvent@QWidget@@MEAAXPEAVQDropEvent@@@Z
 malloc

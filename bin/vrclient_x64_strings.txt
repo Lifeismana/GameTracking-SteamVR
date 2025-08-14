@@ -1880,7 +1880,6 @@ $tI(knN
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798998
 0123456789ABCDEF
 0\tFAJ
 1.0.3.16
@@ -2702,6 +2701,7 @@ Driver unable to initialize video encoder (499)
 DriverDirect_Acquired
 DriverDirect_NewFrame
 DriverDirect_Presented
+DriverManager %s init called SetUnhandledExceptionFilter\n
 DriverManager %s load error %su
 Duplicate action '
 Duplicate key: '
@@ -2786,6 +2786,7 @@ EventUnregister
 EventWriteString
 EventWriteTransfer
 Exceeded stackLimit in readValue().
+Exception %08x\n
 Executable: %s\n
 Expected color textures to have already been set above.
 Expected response %s, received %s. Rejecting response.\n
@@ -3682,6 +3683,7 @@ PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
 PS_main
+P\r0D
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
@@ -4112,6 +4114,7 @@ Skipping role %s because the device is invalid\n
 Skipping simulated trackpad action %s(%d) because it doesn't have an output hand\n
 Skipping simulated trigger action %s(%d) because it doesn't have an output action\n
 Skipping starting apps because we're in an app container\n
+Skipping unknown action set: %s\n
 Sleep
 SleepConditionVariableCS
 Sleim
@@ -4361,7 +4364,6 @@ Unknown Path
 Unknown VRApplicationsError (%d)
 Unknown VRSettingsError (%d)
 Unknown VRTrackedCameraError (%d)
-Unknown action set %s\n
 Unknown compositor error (%d)
 Unknown error (%d)
 Unknown exception

@@ -911,13 +911,12 @@ $4DTdt
 00003333
 0123456789ABCDEF
 0123456789ABCDEFundefined
-0\rPRX
 0x%02x 
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
 123456789
-16:43:08
+16:15:44
 1A26b
 1e+9999
 1wsHp
@@ -1062,7 +1061,7 @@ Attempted to read payload of %d bytes from pipe but failed\n
 Audio Transform Quad Debug
 Audio devices initialized
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug  8 2025
+Aug 13 2025
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
@@ -1594,6 +1593,7 @@ Driver requests system layer use app poses.
 Driver runtime is out of date (204)
 Driver unable to initialize video encoder (499)
 DriverDate
+DriverManager %s init called SetUnhandledExceptionFilter\n
 DriverManager %s load error %su
 DriverVersion
 Duplicate key: '
@@ -2738,10 +2738,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
-R\fp\v`\n0RX
-R\npRX
-R\rp\f`\v0RX
+RSDS=
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -4241,7 +4238,6 @@ Zjz\v
 [h1R
 [libprotobuf %s %s:%d] %s\n
 [no zlib message]
-\fpRX
 \gpuvis.exe
 \mfpmp.exe
 \nbad png sig
@@ -4250,7 +4246,6 @@ Zjz\v
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \vCreating systemlayer textures (w=%d,h=%d)\n
-\vpRX
 \vrcompositor.exe
 ]CGraphicsDevice::AcquireSync
 ^oEZ_
@@ -4345,8 +4340,6 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
-`\r0\fPRX
-`\rP\f0RX
 `anonymous-namespace'::ImportTextureFromSharedHandle
 abort
 acceleration-factor-scale-term
@@ -5101,8 +5094,6 @@ pSharedState != nullptr
 pSystemLayerState
 pTexture != nullptr
 pTileFloorLightmap != nullptr
-p\r`\f0RX
-p\r`\f0\vPRX
 panel
 panel-anchor
 panelMask
@@ -5149,6 +5140,7 @@ qsort
 quad
 quickMouseMode
 quick_reset_room_setup
+r\vPD=
 radius-range
 rand
 rawCaptureNumberOfFrames
