@@ -1037,6 +1037,7 @@ $tI(kn
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
+01:26:46
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -1333,7 +1334,6 @@ $tI(kn
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
-23:16:27
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -2003,6 +2003,8 @@ Attempt to add alias root %s after a path handle was generated. That is not supp
 Attempt to init shared state %s twice
 Attempt to launch desktop game theater while vrcompositor not running
 Attempted to access vulkan array info for a non-vulkan texture
+Attempted to get Eye Gaze path, but Eye gaze extension was not enabled!
+Attempted to get Vive Tracker path, but Vive Tracker extension was not enabled!
 Attempted to map already-mapped BO\n
 Attempted to map un-allocated BO\n
 Attempted to map un-mappable BO\n
@@ -2010,7 +2012,7 @@ Attempted to read payload of %d bytes from pipe but failed\n
 Attempted to unmap un-allocated BO\n
 Attempted to unmap unmapped BO\n
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
-Aug 13 2025
+Aug 15 2025
 August
 AuthenticAMD
 AutosaveURL
@@ -3580,7 +3582,7 @@ CSWTCH.23
 CSWTCH.28
 CSWTCH.392
 CSWTCH.408
-CSWTCH.593
+CSWTCH.594
 CSWTCH.825
 CSWTCH.871
 CSXrBackingRenderModelAsset::CSXrBackingRenderModelAsset(std::string&, std::vector<std::string, std::allocator<std::string>>)
@@ -26720,6 +26722,7 @@ XrGenericTracker::~XrGenericTracker()
 XrPathToOpenVrPath(CSxrInstance*, unsigned long, unsigned long*) (.constprop.0)
 XrPathToOpenVrPath(CSxrInstance*, unsigned long, unsigned long*) (.constprop.0) (.cold)
 XrPathToOpenVrPath(CSxrInstance*, unsigned long, unsigned long*)::k_gazePath
+XrPathToOpenVrPath(CSxrInstance*, unsigned long, unsigned long*)::k_headPath
 XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]\n
 XrProto:NewFrameIdx=%d Id=%d Vsync=%d
 XrProto:Predict:%d
@@ -29379,6 +29382,7 @@ guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
 guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&)::s_convert
 guard variable for UTF8to16(std::string const&)::s_convert
 guard variable for XrPathToOpenVrPath(CSxrInstance*, unsigned long, unsigned long*)::k_gazePath
+guard variable for XrPathToOpenVrPath(CSxrInstance*, unsigned long, unsigned long*)::k_headPath
 guard variable for gli::dx::dx()::Table
 guard variable for std::(anonymous namespace)::key_init()::ks
 guard variable for std::__cxx11::collate<char>::id

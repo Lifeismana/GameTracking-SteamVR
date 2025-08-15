@@ -260,6 +260,7 @@ $4DTdt
 .?AV<lambda_6feba0321712c2a78ea63f8c63243d84>@@
 .?AV<lambda_71609843242d085fe97a26a8e4708946>@@
 .?AV<lambda_73b6f06f79d9bfbf88825c299bdd20cd>@@
+.?AV<lambda_74147468b11d4b4283e0190791c7ba5b>@@
 .?AV<lambda_7c6f6c4459582fbd36d681c896fa24b1>@@
 .?AV<lambda_7ce51b90e7d20ae05c43c897d9b3fe79>@@
 .?AV<lambda_822e3955508f850e3f65f7b791312126>@@
@@ -319,6 +320,7 @@ $4DTdt
 .?AV?$_Func_impl_no_alloc@V<lambda_6feba0321712c2a78ea63f8c63243d84>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_71609843242d085fe97a26a8e4708946>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_73b6f06f79d9bfbf88825c299bdd20cd>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_74147468b11d4b4283e0190791c7ba5b>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7c6f6c4459582fbd36d681c896fa24b1>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7ce51b90e7d20ae05c43c897d9b3fe79>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_822e3955508f850e3f65f7b791312126>@@XAEBVValue@Json@@@std@@
@@ -916,7 +918,7 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
-16:15:44
+18:26:16
 1A26b
 1e+9999
 1wsHp
@@ -1061,7 +1063,7 @@ Attempted to read payload of %d bytes from pipe but failed\n
 Audio Transform Quad Debug
 Audio devices initialized
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug 13 2025
+Aug 14 2025
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
@@ -2738,7 +2740,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS=
+RSDS,q
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -4633,6 +4635,7 @@ directory
 disableAsync
 disableAsyncCompositor
 disableKeyboardPrivacy
+disable_theater_mode
 disabled
 displacement
 displayMode.refreshRateNumerator > 0
@@ -5140,7 +5143,7 @@ qsort
 quad
 quickMouseMode
 quick_reset_room_setup
-r\vPD=
+r\vPT>
 radius-range
 rand
 rawCaptureNumberOfFrames

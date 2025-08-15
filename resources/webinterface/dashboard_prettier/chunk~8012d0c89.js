@@ -1,4 +1,4 @@
-var CLSTAMP = "9975066";
+var CLSTAMP = "9979804";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -3620,7 +3620,7 @@ var CLSTAMP = "9975066";
           }),
           c.createElement(_.WZ, {
             label: (0, h.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1755126991e3).toLocaleString(),
+            value: new Date(1755221209e3).toLocaleString(),
           }),
         );
       });
@@ -16076,7 +16076,7 @@ var CLSTAMP = "9975066";
               ? void 0
               : e.call(VRHTML),
           ),
-            t.set_webpack_build_timestamp(1755126991),
+            t.set_webpack_build_timestamp(1755221209),
             (0, h.Z)(t);
         }
         LoadSessionDevData() {
@@ -17942,6 +17942,9 @@ var CLSTAMP = "9975066";
                 ),
                 this.m_mailbox.RegisterHandler("room_setup", (e) =>
                   this.onVRLinkRoomSetup(e),
+                ),
+                this.m_mailbox.RegisterHandler("disable_theater_mode", (e) =>
+                  this.onDisableTheaterMode(e),
                 );
             }),
             $.p.SteamVR.SetImplementation(
@@ -18799,6 +18802,9 @@ var CLSTAMP = "9975066";
                 : e.mode == s.$Z.ClearRoomSetup
                   ? VRHTML.VRChaperoneSetup.ClearRoomSetup()
                   : console.error("Unknown onVRLinkRoomSetup mode ", e.mode);
+        }
+        onDisableTheaterMode(e) {
+          console.log("onDisableTheaterMode"), p.SW.HideTheaterOverlay();
         }
         setDashboardVisibility(e, t, n) {
           let r = {
@@ -20289,6 +20295,7 @@ var CLSTAMP = "9975066";
         (0, r.Cg)([i.o], he.prototype, "onDockOverlayRequested", null),
         (0, r.Cg)([i.o], he.prototype, "onHideDashboardRequested", null),
         (0, r.Cg)([i.o], he.prototype, "onVRLinkRoomSetup", null),
+        (0, r.Cg)([i.o], he.prototype, "onDisableTheaterMode", null),
         (0, r.Cg)([i.o], he.prototype, "show", null),
         (0, r.Cg)([i.o], he.prototype, "hide", null),
         (0, r.Cg)([i.o], he.prototype, "setPlacementModeActive", null),
@@ -20477,7 +20484,7 @@ var CLSTAMP = "9975066";
       "use strict";
       n.d(t, {
         $z: () => s,
-        BO: () => A,
+        BO: () => D,
         C0: () => V,
         Do: () => i,
         HX: () => C,
@@ -20563,7 +20570,16 @@ var CLSTAMP = "9975066";
             return "";
         }
       }
-      let A = (r = class extends d.Component {
+      function A(e, t) {
+        try {
+          return null === VRHTML || void 0 === VRHTML
+            ? void 0
+            : VRHTML.GetPose(e, t);
+        } catch (e) {
+          return;
+        }
+      }
+      let D = (r = class extends d.Component {
         constructor(e) {
           super(e),
             (this.state = {
@@ -20666,10 +20682,7 @@ var CLSTAMP = "9975066";
                     t,
                   );
                   let n = (function () {
-                    const e =
-                      null === VRHTML || void 0 === VRHTML
-                        ? void 0
-                        : VRHTML.GetPose("/user/head", o.mu.Standing);
+                    const e = A("/user/head", o.mu.Standing);
                     if (
                       e &&
                       (null == e ? void 0 : e.bPoseIsValid) &&
@@ -20746,15 +20759,15 @@ var CLSTAMP = "9975066";
         }
         computeDestination() {
           if (!this.state.bIsMoving || null === this.state.xfTransform) return;
-          let e = VRHTML.GetPose(this.m_nMoveDeviceIndex, o.mu.Standing),
-            t = null;
+          const e = A(this.m_nMoveDeviceIndex, o.mu.Standing);
+          let t = null;
           VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
             o.kG.TrackedControllerRole_LeftHand,
-          ) != o.ne && (t = VRHTML.GetPose("/user/hand/left", o.mu.Standing));
+          ) != o.ne && (t = A("/user/hand/left", o.mu.Standing));
           let n = null;
           VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
             o.kG.TrackedControllerRole_RightHand,
-          ) != o.ne && (n = VRHTML.GetPose("/user/hand/right", o.mu.Standing));
+          ) != o.ne && (n = A("/user/hand/right", o.mu.Standing));
           let i = [];
           switch (this.state.sParent) {
             case "/user/hand/left":
@@ -20767,7 +20780,7 @@ var CLSTAMP = "9975066";
               t && i.push({ pose: t, location: s.LeftHand }),
                 n && i.push({ pose: n, location: s.RightHand });
           }
-          if (0 == i.length)
+          if (!e || 0 == i.length)
             return void setTimeout(this.computeDestination, r.sfMovePulseMS);
           let a = VRHTML.MultiplyTransforms(
             e.xfDeviceToAbsoluteTracking,
@@ -20805,9 +20818,8 @@ var CLSTAMP = "9975066";
             VRHTML.VRSystem.GetControllerRoleForTrackedDeviceIndex(
               this.m_nMoveDeviceIndex,
             );
-          let e,
-            t,
-            n = VRHTML.GetPose(this.m_nMoveDeviceIndex, o.mu.Standing);
+          const e = A(this.m_nMoveDeviceIndex, o.mu.Standing);
+          let t, n;
           switch (this.props.dockLocation) {
             case s.LeftHand:
               if (
@@ -20816,7 +20828,7 @@ var CLSTAMP = "9975066";
                 ) == o.ne
               )
                 return;
-              e = VRHTML.GetPose("/user/hand/left", o.mu.Standing);
+              t = A("/user/hand/left", o.mu.Standing);
               break;
             case s.RightHand:
               if (
@@ -20825,10 +20837,10 @@ var CLSTAMP = "9975066";
                 ) == o.ne
               )
                 return;
-              e = VRHTML.GetPose("/user/hand/right", o.mu.Standing);
+              t = A("/user/hand/right", o.mu.Standing);
               break;
             default:
-              e = {
+              t = {
                 xfDeviceToAbsoluteTracking: (0, o.vx)(),
                 vVelocity: { x: 0, y: 0, z: 0 },
                 eTrackingResult: o.MV.TrackingResult_Running_OK,
@@ -20837,23 +20849,23 @@ var CLSTAMP = "9975066";
           }
           switch (this.m_moveDeviceRole) {
             case o.kG.TrackedControllerRole_LeftHand:
-              t = "/user/hand/left";
+              n = "/user/hand/left";
               break;
             case o.kG.TrackedControllerRole_RightHand:
-              t = "/user/hand/right";
+              n = "/user/hand/right";
               break;
             default:
-              t = "/user/head";
+              n = "/user/head";
           }
           let r = VRHTML.MultiplyTransforms(
-              e.xfDeviceToAbsoluteTracking,
+              t.xfDeviceToAbsoluteTracking,
               this.state.xfTransform,
             ),
-            i = VRHTML.ChangeBasis(r, n.xfDeviceToAbsoluteTracking);
+            i = VRHTML.ChangeBasis(r, e.xfDeviceToAbsoluteTracking);
           this.setState(
             {
               xfTransform: i,
-              sParent: t,
+              sParent: n,
               bIsOutsideMaxDist: this.props.dockLocation == s.World,
               bIsMoving: !0,
             },
@@ -20874,7 +20886,7 @@ var CLSTAMP = "9975066";
               ) == o.ne
             )
               return;
-            e = VRHTML.GetPose("/user/hand/left", o.mu.Standing);
+            e = A("/user/hand/left", o.mu.Standing);
           }
           if (
             "/user/hand/right" == this.state.sParent ||
@@ -20886,7 +20898,7 @@ var CLSTAMP = "9975066";
               ) == o.ne
             )
               return;
-            t = VRHTML.GetPose("/user/hand/right", o.mu.Standing);
+            t = A("/user/hand/right", o.mu.Standing);
           }
           let n,
             r = {
@@ -20905,8 +20917,8 @@ var CLSTAMP = "9975066";
             default:
               n = r;
           }
-          let i = VRHTML.GetPose(this.m_nMoveDeviceIndex, o.mu.Standing),
-            a = VRHTML.MultiplyTransforms(
+          const i = A(this.m_nMoveDeviceIndex, o.mu.Standing);
+          let a = VRHTML.MultiplyTransforms(
               i.xfDeviceToAbsoluteTracking,
               this.state.xfTransform,
             ),
@@ -21392,14 +21404,14 @@ var CLSTAMP = "9975066";
           );
         }
       });
-      (A.sfMaxDockDist = 0.4),
-        (A.sfMovePulseMS = 100),
-        (A.sfOverlayTrayHeight = 0.12),
-        (A.flGrabTransformLerpSpeed = 0.125),
-        (0, a.Cg)([l.o], A.prototype, "computeDestination", null),
-        (0, a.Cg)([l.o], A.prototype, "startMove", null),
-        (0, a.Cg)([l.o], A.prototype, "endMove", null),
-        (A = r = (0, a.Cg)([c.PA], A));
+      (D.sfMaxDockDist = 0.4),
+        (D.sfMovePulseMS = 100),
+        (D.sfOverlayTrayHeight = 0.12),
+        (D.flGrabTransformLerpSpeed = 0.125),
+        (0, a.Cg)([l.o], D.prototype, "computeDestination", null),
+        (0, a.Cg)([l.o], D.prototype, "startMove", null),
+        (0, a.Cg)([l.o], D.prototype, "endMove", null),
+        (D = r = (0, a.Cg)([c.PA], D));
     },
     3350: (e, t, n) => {
       "use strict";

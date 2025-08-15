@@ -1,4 +1,4 @@
-var CLSTAMP = "9975066";
+var CLSTAMP = "9979804";
 (() => {
   var e,
     t = {
@@ -2064,7 +2064,7 @@ var CLSTAMP = "9975066";
         "use strict";
         n.d(t, {
           $Z: () => me,
-          Bf: () => q,
+          Bf: () => K,
           Bn: () => x,
           Bz: () => h,
           C6: () => f,
@@ -2111,7 +2111,7 @@ var CLSTAMP = "9975066";
           kx: () => N,
           lP: () => oe,
           mB: () => m,
-          md: () => K,
+          md: () => q,
           nY: () => R,
           np: () => o,
           qf: () => B,
@@ -2177,8 +2177,8 @@ var CLSTAMP = "9975066";
           G = "/settings/driver_lighthouse/indexHmdColumnCorrection",
           j = "/settings/steamvr/showAdvancedSettings",
           $ = "/settings/dashboard/lastAccessedExternalOverlayKey",
-          q = "/settings/internal/dashboardInitialOverlay",
-          K = "/settings/dashboard/position_2",
+          K = "/settings/internal/dashboardInitialOverlay",
+          q = "/settings/dashboard/position_2",
           X = "/settings/dashboard/theaterCurvature",
           J = "/settings/dashboard/theaterScreenSize",
           Q = "/settings/dashboard/theaterScreenAlignment",
@@ -2212,7 +2212,7 @@ var CLSTAMP = "9975066";
           Hz: () => V,
           L_: () => T,
           MA: () => z,
-          N2: () => q,
+          N2: () => K,
           OR: () => A,
           OT: () => x,
           R0: () => B,
@@ -2221,7 +2221,7 @@ var CLSTAMP = "9975066";
           WO: () => F,
           bR: () => D,
           gZ: () => N,
-          oZ: () => K,
+          oZ: () => q,
         });
         var o,
           r = n(1635),
@@ -3287,7 +3287,7 @@ var CLSTAMP = "9975066";
           (0, r.Cg)([s.o], $.prototype, "onWindowMouseMove", null),
           (0, r.Cg)([s.o], $.prototype, "onWindowMouseUp", null),
           ($ = o = (0, r.Cg)([l.PA], $));
-        const q = (e) => {
+        const K = (e) => {
           var t;
           const n = d.useRef(void 0);
           return d.createElement(
@@ -3333,7 +3333,7 @@ var CLSTAMP = "9975066";
             !e.iconUrl && e.icon,
           );
         };
-        function K(e) {
+        function q(e) {
           var t, n;
           const o = (0, C.Nc)(),
             r =
@@ -3349,7 +3349,7 @@ var CLSTAMP = "9975066";
                   : (0, _.we)("#ShowKeyboardTooltip")
                 : void 0;
           return d.createElement(
-            q,
+            K,
             Object.assign(
               {
                 iconUrl: "/dashboard/images/icons/svr_keyboard.svg",
@@ -3470,7 +3470,7 @@ var CLSTAMP = "9975066";
             W;
           const { popupRequest: G, reparent: j } = e,
             $ = null == j || j,
-            q = {
+            K = {
               x:
                 null !==
                   (n =
@@ -3488,7 +3488,7 @@ var CLSTAMP = "9975066";
                   ? l
                   : 0,
             },
-            K = {
+            q = {
               x:
                 null !==
                   (m =
@@ -3657,7 +3657,7 @@ var CLSTAMP = "9975066";
                   requires_laser: re,
                   curvature: ne ? "inherit-from-parent-panel" : void 0,
                   overlay_key: G.popup_overlay_key,
-                  origin: K,
+                  origin: q,
                   meters_per_pixel: s.SW.m_fVRGamepadUI_MetersPerPixel,
                   reflect: 0.03,
                   sort_depth_bias: se,
@@ -3679,13 +3679,13 @@ var CLSTAMP = "9975066";
                   },
                   r.createElement(
                     o.Ci,
-                    { key: G.dashboard_popup_request_id, location: q },
+                    { key: G.dashboard_popup_request_id, location: K },
                     ae,
                   ),
                 )
               : r.createElement(
                   o.Ci,
-                  { key: G.dashboard_popup_request_id, location: q },
+                  { key: G.dashboard_popup_request_id, location: K },
                   ae,
                 );
         }
@@ -5202,8 +5202,8 @@ var CLSTAMP = "9975066";
           G = n(4963),
           j = n(9118),
           $ = n(5802),
-          q = n(1532),
-          K = n(6646),
+          K = n(1532),
+          q = n(6646),
           X = (n(9569), n(5572)),
           J = n.n(X);
         (0, l.PA)(function () {
@@ -5632,6 +5632,7 @@ var CLSTAMP = "9975066";
           le = n(1909),
           de = n(2156),
           ue = n(7600);
+        (0, U.jK)({ enforceActions: "never" });
         class ce extends r.Component {
           constructor(e) {
             super(e),
@@ -5871,8 +5872,8 @@ var CLSTAMP = "9975066";
                       d.HR.Init(!0),
                       j.W.Init(!0),
                       $.B$.Init(),
-                      q.s.Init(),
-                      K.X.Init(),
+                      K.s.Init(),
+                      q.X.Init(),
                     ]),
                       yield Promise.all([
                         ae.Q.Init(),

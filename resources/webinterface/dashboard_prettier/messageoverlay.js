@@ -1,4 +1,4 @@
-var CLSTAMP = "9975066";
+var CLSTAMP = "9979804";
 (() => {
   "use strict";
   var e,
@@ -789,6 +789,7 @@ var CLSTAMP = "9975066";
             e.label,
           );
         }
+        (0, n(7813).jK)({ enforceActions: "never" });
         let y = class extends o.Component {
           constructor(e) {
             super(e),

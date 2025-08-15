@@ -867,6 +867,7 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+01:26:46
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -955,7 +956,6 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
-23:16:27
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -1182,7 +1182,7 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Attempting HID Open %s: %s\n
 Audio
 AudioBridge
-Aug 13 2025
+Aug 15 2025
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)\n

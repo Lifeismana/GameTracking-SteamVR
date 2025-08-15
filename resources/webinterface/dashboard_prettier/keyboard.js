@@ -1,4 +1,4 @@
-var CLSTAMP = "9975066";
+var CLSTAMP = "9979804";
 (() => {
   "use strict";
   var e,
@@ -9,7 +9,7 @@ var CLSTAMP = "9975066";
           $Z: () => V.$Z,
           Ay: () => w,
           CU: () => n.CU,
-          Ci: () => c.C,
+          Ci: () => p.C,
           Cw: () => i.C,
           Ee: () => V.Ee,
           Em: () => g.Em,
@@ -25,7 +25,7 @@ var CLSTAMP = "9975066";
           MQ: () => f.MQ,
           MV: () => V.MV,
           N: () => o.e,
-          N1: () => p.N,
+          N1: () => c.N,
           NB: () => V.NB,
           NH: () => n.NH,
           O5: () => d.O,
@@ -92,8 +92,8 @@ var CLSTAMP = "9975066";
           d = (s(3496), s(5178)),
           y = (s(428), s(9011), s(7350)),
           m = s(6847),
-          p = s(5227),
-          c = (s(10), s(1808)),
+          c = s(5227),
+          p = (s(10), s(1808)),
           f = s(7019),
           b = (s(1988), s(2527), s(9864)),
           k = (s(4189), s(322), s(1977), s(6417)),
@@ -118,7 +118,8 @@ var CLSTAMP = "9975066";
           d = s(9118),
           y = s(1532),
           m = s(6138);
-        class p extends n.Component {
+        (0, s(7813).jK)({ enforceActions: "never" });
+        class c extends n.Component {
           constructor(e) {
             super(e),
               (this.m_genid = 0),
@@ -543,19 +544,19 @@ var CLSTAMP = "9975066";
             let e = this.state.text.substr(0, this.state.textPos),
               t = this.state.text.substr(this.state.textPos);
             return this.bShowPasswordPreview()
-              ? ((e = p.kPasswordChar.repeat(e.length)),
-                (t = p.kPasswordChar.repeat(t.length)),
+              ? ((e = c.kPasswordChar.repeat(e.length)),
+                (t = c.kPasswordChar.repeat(t.length)),
                 [
                   n.createElement(
                     "span",
                     { key: this.genid(), className: "VRKBPreviewTextPart" },
-                    p.kPasswordChar.repeat(e.length),
+                    c.kPasswordChar.repeat(e.length),
                   ),
                   this.makeCursor(),
                   n.createElement(
                     "span",
                     { key: this.genid(), className: "VRKBPreviewTextPart" },
-                    p.kPasswordChar.repeat(t.length),
+                    c.kPasswordChar.repeat(t.length),
                   ),
                 ])
               : [
@@ -692,19 +693,19 @@ var CLSTAMP = "9975066";
             }
           }
         }
-        (p.kPasswordChar = "●"),
-          (0, a.Cg)([r.o], p.prototype, "OnKeyboardHidden", null),
-          (0, a.Cg)([r.o], p.prototype, "OnKeyboardShown", null),
-          (0, a.Cg)([r.o], p.prototype, "handleKey", null),
-          (0, a.Cg)([r.o], p.prototype, "handleReturn", null),
-          (0, a.Cg)([r.o], p.prototype, "handleDel", null),
-          (0, a.Cg)([r.o], p.prototype, "handleShift", null),
-          (0, a.Cg)([r.o], p.prototype, "handleSymbols", null),
-          (0, a.Cg)([r.o], p.prototype, "handleDone", null),
-          (0, a.Cg)([r.o], p.prototype, "handleCancel", null),
-          (0, a.Cg)([r.o], p.prototype, "handleClear", null),
-          (0, a.Cg)([r.o], p.prototype, "handleSuggestionClick", null);
-        const c =
+        (c.kPasswordChar = "●"),
+          (0, a.Cg)([r.o], c.prototype, "OnKeyboardHidden", null),
+          (0, a.Cg)([r.o], c.prototype, "OnKeyboardShown", null),
+          (0, a.Cg)([r.o], c.prototype, "handleKey", null),
+          (0, a.Cg)([r.o], c.prototype, "handleReturn", null),
+          (0, a.Cg)([r.o], c.prototype, "handleDel", null),
+          (0, a.Cg)([r.o], c.prototype, "handleShift", null),
+          (0, a.Cg)([r.o], c.prototype, "handleSymbols", null),
+          (0, a.Cg)([r.o], c.prototype, "handleDone", null),
+          (0, a.Cg)([r.o], c.prototype, "handleCancel", null),
+          (0, a.Cg)([r.o], c.prototype, "handleClear", null),
+          (0, a.Cg)([r.o], c.prototype, "handleSuggestionClick", null);
+        const p =
           null === VRHTML || void 0 === VRHTML
             ? void 0
             : VRHTML.GetSteamLanguage();
@@ -717,12 +718,12 @@ var CLSTAMP = "9975066";
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VRDashboardManager.SetKeyboardOverlayToThis(),
-          (0, u.uV)(["systemui"], c)
+          (0, u.uV)(["systemui"], p)
             .then(() => d.W.Init())
             .then(() => y.s.Init())
             .then(() => {
               i.H(document.getElementById("root")).render(
-                n.createElement(p, { language: c }),
+                n.createElement(c, { language: p }),
               );
             });
       },

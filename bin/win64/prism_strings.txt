@@ -748,7 +748,6 @@ IsProcessorFeaturePresent
 IsValidSid
 KERNEL32.dll
 LAYER:%2d[%d|%d|%d] [%d|%d|%d]
-L\rG3F
 LeaveCriticalSection
 Left Eye
 LiquidVR

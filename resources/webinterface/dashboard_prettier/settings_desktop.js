@@ -1,4 +1,4 @@
-var CLSTAMP = "9975066";
+var CLSTAMP = "9979804";
 (() => {
   "use strict";
   var e,
@@ -780,26 +780,31 @@ var CLSTAMP = "9975066";
           f = n(5818),
           p = n(1835),
           _ = n(6943);
-        Promise.all([
-          (0, i.uV)(
-            ["vrmonitor", "bindingui"],
-            null === a.Ay || void 0 === a.Ay ? void 0 : a.Ay.GetSteamLanguage(),
-          ),
-          u.HR.Init(!0),
-          l.W.Init(!0),
-          c.B$.Init(),
-          s.s.Init(),
-          d.X.Init(),
-          _.Q.Init(),
-          p.SW.Init(),
-        ])
-          .then(() => {
-            (document.title = (0, i.we)("#Settings_Header_SteamVR")),
-              o
-                .H(document.getElementById("root"))
-                .render(r.createElement(f.z, { visible: !0 }));
-          })
-          .catch((e) => console.error("Failed to initialize vr settings:", e));
+        (0, n(7813).jK)({ enforceActions: "never" }),
+          Promise.all([
+            (0, i.uV)(
+              ["vrmonitor", "bindingui"],
+              null === a.Ay || void 0 === a.Ay
+                ? void 0
+                : a.Ay.GetSteamLanguage(),
+            ),
+            u.HR.Init(!0),
+            l.W.Init(!0),
+            c.B$.Init(),
+            s.s.Init(),
+            d.X.Init(),
+            _.Q.Init(),
+            p.SW.Init(),
+          ])
+            .then(() => {
+              (document.title = (0, i.we)("#Settings_Header_SteamVR")),
+                o
+                  .H(document.getElementById("root"))
+                  .render(r.createElement(f.z, { visible: !0 }));
+            })
+            .catch((e) =>
+              console.error("Failed to initialize vr settings:", e),
+            );
       },
     },
     n = {};

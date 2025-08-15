@@ -613,7 +613,7 @@ QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-RSDS
+RSDSBI`8%
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -951,4 +951,3 @@ wcsnlen
 wcstoul
 wrong protocol type
 xdigit
-}7MW

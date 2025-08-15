@@ -1,4 +1,4 @@
-var CLSTAMP = "9975066";
+var CLSTAMP = "9979804";
 (() => {
   "use strict";
   var e,
@@ -821,12 +821,13 @@ var CLSTAMP = "9975066";
         var g,
           m = r(2505),
           f = r.n(m);
-        !(function (e) {
-          (e[(e.WaitingForReport = 0)] = "WaitingForReport"),
-            (e[(e.Parsing = 1)] = "Parsing"),
-            (e[(e.Error = 2)] = "Error"),
-            (e[(e.Viewing = 3)] = "Viewing");
-        })(g || (g = {}));
+        (0, r(7813).jK)({ enforceActions: "never" }),
+          (function (e) {
+            (e[(e.WaitingForReport = 0)] = "WaitingForReport"),
+              (e[(e.Parsing = 1)] = "Parsing"),
+              (e[(e.Error = 2)] = "Error"),
+              (e[(e.Viewing = 3)] = "Viewing");
+          })(g || (g = {}));
         class v extends a.Component {
           constructor(e) {
             super(e),
@@ -978,6 +979,14 @@ var CLSTAMP = "9975066";
           !s.o(e, r) &&
           Object.defineProperty(e, r, { enumerable: !0, get: t[r] });
     }),
+    (s.g = (function () {
+      if ("object" == typeof globalThis) return globalThis;
+      try {
+        return this || new Function("return this")();
+      } catch (e) {
+        if ("object" == typeof window) return window;
+      }
+    })()),
     (s.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
     (() => {
       var e = { 156: 0, 527: 0 };
