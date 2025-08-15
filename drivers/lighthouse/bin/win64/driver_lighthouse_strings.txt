@@ -2413,7 +2413,6 @@ NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!\n
 NvAPI: DirectModeGetDisplayModes trying again with older API!\n
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!\n
 NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d\n
-Nzx6
 O*9y]
 OPAQUE
 OTGT timed out\n
@@ -2532,7 +2531,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSU
+RSDS
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE

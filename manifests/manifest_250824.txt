@@ -1,14 +1,14 @@
 Content Manifest for Depot 250824 
 
-Manifest ID / date     : 8341093161150103650 / 08/15/2025 01:46:08 
+Manifest ID / date     : 68568225326918729 / 08/15/2025 20:35:40 
 Total number of files  : 3080 
 Total number of chunks : 3027 
-Total bytes on disk    : 634392138 
-Total bytes compressed : 312565072 
+Total bytes on disk    : 634392137 
+Total bytes compressed : 312565040 
 
 
           Size Chunks File SHA                                 Flags Name
-            12      1 fa9478f63bfca2dd5d33cd30a6a048bfd43c508d     0 bin/version.txt
+            12      1 8cb9d0e0caacf941ae0ba951131c2d460e5d1510     0 bin/version.txt
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/demoloop
          34709      1 f7557b27d169b830a48321e3760e38e08e771172     0 content/vrmonitor/demoloop/card_aperture.png
          21464      1 b32ccaa0cd6d5d8b4acbdb11ea0c28bfe2791d0d     0 content/vrmonitor/demoloop/card_archery.png
@@ -808,7 +808,7 @@ Total bytes compressed : 312565072
           5707      1 44f43289f6e2f1f15b3f8c778e6687289206db10     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand_callouts.svg
           6043      1 7ecb337cfd5795f7e0ff416225080f05797c35a4     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand_callouts_text.svg
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/libraries
-        223473      1 523786468916e2df03f597276ce3330bd3a376ed     0 drivers/lighthouse/resources/webinterface/libraries/libraries~782e4a39d.js
+        223473      1 52d4ecc26285e84a169028b1f29cc3e20a081083     0 drivers/lighthouse/resources/webinterface/libraries/libraries~782e4a39d.js
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/localization
           2643      1 f66cc2854a5164eb744d3b632b039659cb5c273b     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_brazilian.json
           3753      1 06a8a651bf900cae9f77708ae450207b00153f9b     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_bulgarian.json
@@ -838,8 +838,8 @@ Total bytes compressed : 312565072
           2873      1 8c4d7efbb7b1d73b8001765ae5c3999801ef0613     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_turkish.json
           3570      1 df5830bbf45f712892f465b9485cc3555d0e3afb     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_ukrainian.json
           3107      1 9720cf264a2f461590a5801d66acd1a650631599     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_vietnamese.json
-          1622      1 7be51617f24c0ec6cb75647b24cb57b792c7fce2     0 drivers/lighthouse/resources/webinterface/pairing.html
-        217979      1 2e417dbe5df4518495437a33038de161b3995e38     0 drivers/lighthouse/resources/webinterface/pairing.js
+          1622      1 e2864ea73f055499d1464e0292f08ac98a4cd7f2     0 drivers/lighthouse/resources/webinterface/pairing.html
+        217979      1 b2355878e4a495fafaf563bbc8b7f91fad8c2ff8     0 drivers/lighthouse/resources/webinterface/pairing.js
           9666      1 adc192bb325bdfee0d91ce431b8aa6a60c4fe263     0 drivers/lighthouse/resources/webinterface/third_party_legal_notices_web.txt
              0      0 0000000000000000000000000000000000000000    40 drivers/null/bin
            136      1 22eb5482a4d344a6fe9a4ac2298639a76ce841a9     0 drivers/null/driver.vrdrivermanifest
@@ -2555,18 +2555,18 @@ Total bytes compressed : 312565072
            985      1 e40938f3cce2387e1b2d9b22056e66574f508731     0 resources/webinterface/console/console_colors.js
           2021      1 bd3b80338a12c2e5f06e6ec8d22f157cbde8060b     0 resources/webinterface/console/index.html
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard
-          2370      1 6f495fc04ef31fa97bd4bfc5916dd06951135ad0     0 resources/webinterface/dashboard/bindingcallouts.html
-         30129      1 9d20429902133eb80ab9ca22b5bb94e343738cd0     0 resources/webinterface/dashboard/bindingcallouts.js
-         24828      1 74535f20f5e6087b666638fa5d217460f55d1ef3     0 resources/webinterface/dashboard/chunk~1a88854fa.js
-         49741      1 3221c428db31032762993745632b3e9a579dabf6     0 resources/webinterface/dashboard/chunk~2e670652e.js
-          6305      1 6f8620a96d7286ff35106d4e30b17223084b4b68     0 resources/webinterface/dashboard/chunk~35466222c.js
-          9491      1 5034dba5d65629bf02559895f1129fbfd5a04e7c     0 resources/webinterface/dashboard/chunk~7f75cbff5.js
-        430248      1 ce938e72766c7302f4ca5de8831147ae90559d37     0 resources/webinterface/dashboard/chunk~8012d0c89.js
-         16003      1 3ade4b7ac98a13c85133f9e9a3ed63fab8492aad     0 resources/webinterface/dashboard/chunk~9b020ce54.js
-         86706      1 f80a31035d80af66ac29a308ab28923f147162a7     0 resources/webinterface/dashboard/chunk~bd288592d.js
-         27104      1 f04cd26b1d97e4d2fe8224738cba47838e39ecef     0 resources/webinterface/dashboard/chunk~edeac9135.js
-          2396      1 4c1406861a0da978d0cf984bd204ef5fc61ec400     0 resources/webinterface/dashboard/controllerbinding.html
-        302684      1 17b68db38354e204a16997c960b692b0d6ceea83     0 resources/webinterface/dashboard/controllerbindingui.js
+          2370      1 4bc4ef6cd68dc74a3d0abf9ac0a29587dcf1d831     0 resources/webinterface/dashboard/bindingcallouts.html
+         30129      1 fd2d6cb2562f9c925855eb349201bc77daa89306     0 resources/webinterface/dashboard/bindingcallouts.js
+         24828      1 40a905dd71f7d2d33905bc0660a759096e6dac30     0 resources/webinterface/dashboard/chunk~1a88854fa.js
+         49741      1 7bb61d358a8518c5f8fe6f473c82cf3635d64995     0 resources/webinterface/dashboard/chunk~2e670652e.js
+          6305      1 25b84763d2a365e71a0ef64c5bf5fdfd783812d3     0 resources/webinterface/dashboard/chunk~35466222c.js
+          9491      1 00aec99018136654a68fbde298c0df0cffe8cbbe     0 resources/webinterface/dashboard/chunk~7f75cbff5.js
+        430247      1 2d2334e23a4f9615d8693105442b8ffc5c329cde     0 resources/webinterface/dashboard/chunk~8012d0c89.js
+         16003      1 82939f1aeaa2896c78970500e6592f31c3605329     0 resources/webinterface/dashboard/chunk~9b020ce54.js
+         86706      1 559075552ca798cfe7f0798df8d37247b6e6841a     0 resources/webinterface/dashboard/chunk~bd288592d.js
+         27104      1 8a74bced6fc4f23d2664ef4475b56ec6af9ffffc     0 resources/webinterface/dashboard/chunk~edeac9135.js
+          2396      1 beac5dab766e554864015cf3a678b852f3ea2bb9     0 resources/webinterface/dashboard/controllerbinding.html
+        302684      1 9c9db0663cdce4b82340a471f3513d8c75e45dec     0 resources/webinterface/dashboard/controllerbindingui.js
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/css
          22184      1 d2ccc6311060da4b6a80f2397257079a5237f0f1     0 resources/webinterface/dashboard/css/chunk~66c0d1388.css
          50174      1 48f148ce02174f2de049b3fc0b52bb1542930d5c     0 resources/webinterface/dashboard/css/chunk~93a8598f9.css
@@ -2578,8 +2578,8 @@ Total bytes compressed : 312565072
            370      1 73ea800246264658ed7cbced3b18a004f22f472a     0 resources/webinterface/dashboard/css/settings_desktop.css
           7423      1 f50743d48c12fd71fa64e13446ad8cb80cb2be44     0 resources/webinterface/dashboard/css/systemreportviewer.css
            545      1 421e4695e39199c6fe17f84451b4626c9f45b745     0 resources/webinterface/dashboard/css/systemui.css
-          2188      1 ae5c4061ffab565d3322a9476b5d222244b77fce     0 resources/webinterface/dashboard/debugcommands.html
-         32193      1 b7058937f0c967bf8e4d3f395eceabbf193574ff     0 resources/webinterface/dashboard/debugcommands.js
+          2188      1 8babf0e6e3f4882f8254772ca432d658c7a24240     0 resources/webinterface/dashboard/debugcommands.html
+         32193      1 6b12a6dd9ccbe9e528e5aae5175138db056c1ff6     0 resources/webinterface/dashboard/debugcommands.js
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/images
         161535      1 be0971632f9eeb21c69f21bca2e07b94e7689489     0 resources/webinterface/dashboard/images/appimage_default.png
           4488      1 c34f552b150f52c5b54a17a9542b356797653b6b     0 resources/webinterface/dashboard/images/appimage_default_portrait.png
@@ -2786,8 +2786,8 @@ Total bytes compressed : 312565072
           2694      1 9ffc0fa19e2a436b6e40a667a55aa6bc392a1e8f     0 resources/webinterface/dashboard/images/vrkeyboard/shift.png
           1779      1 5556d5b252131a74fc73ad0f4e4b4fbf39ca413f     0 resources/webinterface/dashboard/images/vrkeyboard/symbols.png
           2372      1 4ade0a5e8df8a980597e0d56ecf739dda27691d1     0 resources/webinterface/dashboard/images/vrkeyboard/textinput_touchpointer.png
-          2525      1 5828ac07abb2e27abf0e73f8d8b53fa651069a85     0 resources/webinterface/dashboard/keyboard.html
-         14458      1 a7c5a04ce411c2d4c278dbe4b371f35602c9b4d1     0 resources/webinterface/dashboard/keyboard.js
+          2525      1 1ee5866be3a9bec31a4666b668b33f4337187a14     0 resources/webinterface/dashboard/keyboard.html
+         14458      1 7a619bacabd38ce2cf09d031a074eb16f547b7da     0 resources/webinterface/dashboard/keyboard.js
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/keyboards
           3481      1 53406bba10a649542c44da02b3e69e2c4cb3541f     0 resources/webinterface/dashboard/keyboards/layout_base_overlay.json
           7074      1 2fe200da46cbf0660aa2daae3a52cfaf749a9138     0 resources/webinterface/dashboard/keyboards/layout_brazilian_overlay.json
@@ -2809,10 +2809,10 @@ Total bytes compressed : 312565072
           7065      1 24ed81cb282a08a0c670f4762d9d5cc67f0b3412     0 resources/webinterface/dashboard/keyboards/layout_turkish_overlay.json
           7123      1 af317dd439c8c7bff954a1de199a988fbd588541     0 resources/webinterface/dashboard/keyboards/layout_ukranian_overlay.json
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/libraries
-        149308      1 f80f4ff5a7b9fa510037460cb812e061c41b5c6b     0 resources/webinterface/dashboard/libraries/libraries~8012d0c89.js
-        152414      1 cec3edbd84d2c00cc1b9653787c3399449c23530     0 resources/webinterface/dashboard/libraries/libraries~989880c99.js
-         50794      1 5f291a21dd19ad9722acbca9e04420081202c661     0 resources/webinterface/dashboard/libraries/libraries~e59f90316.js
-         61405      1 3b34ad7d4f07ed6634b5847098fef030e6233b77     0 resources/webinterface/dashboard/libraries/libraries~f9de2b6b6.js
+        149308      1 14c4228bebbf0b9e189f101a17253ff9b3391904     0 resources/webinterface/dashboard/libraries/libraries~8012d0c89.js
+        152414      1 d9e175a0f524bab1ec89c719a91704e7782b3e41     0 resources/webinterface/dashboard/libraries/libraries~989880c99.js
+         50794      1 a66bec845f41b76e7c9de9aeb632f17b22507160     0 resources/webinterface/dashboard/libraries/libraries~e59f90316.js
+         61405      1 18d8eb02600ddf3dafe903ea4ef4275d02f10545     0 resources/webinterface/dashboard/libraries/libraries~f9de2b6b6.js
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/localization
          42082      1 28de750df2fc0edb6a11ee857854fcc53bc4b6a4     0 resources/webinterface/dashboard/localization/bindingui_brazilian.json
          59003      1 b286470bc04ac448b1a77941faded1dd61c071ac     0 resources/webinterface/dashboard/localization/bindingui_bulgarian.json
@@ -2926,12 +2926,12 @@ Total bytes compressed : 312565072
           3337      1 aa27204918dfc37522e7a0a02af1cb2c1336a53b     0 resources/webinterface/dashboard/localization/webhelper_turkish.json
           4128      1 8fd0fe6edf75133d682976863e299fb469683906     0 resources/webinterface/dashboard/localization/webhelper_ukrainian.json
           3550      1 3ab255a7d0fff2b06356e38777d9623406dcefc5     0 resources/webinterface/dashboard/localization/webhelper_vietnamese.json
-          2368      1 86c7df4ff1bb1bf1f70b050989f0ae4c1191dff2     0 resources/webinterface/dashboard/messageoverlay.html
-         20021      1 db77a19cd3fafe05fb018080c8827926cccced6b     0 resources/webinterface/dashboard/messageoverlay.js
-          2463      1 f10c732753c1c96e58eab251440b33d35032b382     0 resources/webinterface/dashboard/notificationtoast.html
-         17777      1 6642873d0fa35ea5a7d90cc59559f42f67a38cc5     0 resources/webinterface/dashboard/notificationtoast.js
-          2460      1 b56ed829ad4be35ebcfb763fb9a72d04c962d59d     0 resources/webinterface/dashboard/settings_desktop.html
-         16814      1 6861cdb3cd0726abb7d2f85930df10138c02bf2a     0 resources/webinterface/dashboard/settings_desktop.js
+          2368      1 f08e758abcd44ea19b8b800dd2721e14295f4b86     0 resources/webinterface/dashboard/messageoverlay.html
+         20021      1 89f00dd77b2e346ee3f9b4603d6461f74e7ef097     0 resources/webinterface/dashboard/messageoverlay.js
+          2463      1 254ca58bad5adb6f20e8d0731666e589e31f9a4a     0 resources/webinterface/dashboard/notificationtoast.html
+         17777      1 3d0dcda562eb51e5de55f7e36d80756af46a9236     0 resources/webinterface/dashboard/notificationtoast.js
+          2460      1 f4482241b53af7a74217e30aca4dd5f857c5da9b     0 resources/webinterface/dashboard/settings_desktop.html
+         16814      1 22f3944d1cfb56f15ffa980501ed74d09b922d10     0 resources/webinterface/dashboard/settings_desktop.js
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/sounds
         151956      1 caf6737eafb496dc300b7d7e0ec7a9e8f87f799e     0 resources/webinterface/dashboard/sounds/activation.wav
         118218      1 7641783cfac973ee2cd4bde3825e50dce3947e6b     0 resources/webinterface/dashboard/sounds/activation_change_fail.wav
@@ -2984,10 +2984,10 @@ Total bytes compressed : 312565072
        2089014      2 e57e3548b85061188a27d73ef3f6c222db732d61     0 resources/webinterface/dashboard/suggestions/russian_compiled_words.dict
        1899183      2 ea052b25ca43011621259565e168992670d09030     0 resources/webinterface/dashboard/suggestions/spanish_compiled_words.dict
        1844461      2 ba84b935f9aef2457d8e030f3e97ab663924c442     0 resources/webinterface/dashboard/suggestions/swedish_compiled_words.dict
-          1845      1 c5063c2092b369c7871a850f053f8e7411f25de3     0 resources/webinterface/dashboard/systemreportviewer.html
-         17289      1 e7d77f6165c986ac331b72b4ea38de73ddc0fc3f     0 resources/webinterface/dashboard/systemreportviewer.js
-          2345      1 89e826017447b4b96a39170bafdb99bd27f1e62e     0 resources/webinterface/dashboard/systemui.html
-        138604      1 0ba59a4ad2788c2c5d46be922f212b3df181fab1     0 resources/webinterface/dashboard/systemui.js
+          1845      1 4839b2af3a03361c934a9030f28856ac878b096c     0 resources/webinterface/dashboard/systemreportviewer.html
+         17289      1 28371ba272127d37e195b8e09c0dc85da75f8c8d     0 resources/webinterface/dashboard/systemreportviewer.js
+          2345      1 2940bbd238782d80004e8e3f12bb8fc609951eaf     0 resources/webinterface/dashboard/systemui.html
+        138604      1 872b3cfd1194cb983a415c7d87c691a80aee9cf2     0 resources/webinterface/dashboard/systemui.js
           1406      1 57477c2180cc7b6b9e3064a46cf8da4ad7555540     0 resources/webinterface/favicon.ico
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/fonts
              0      0 0000000000000000000000000000000000000000     0 resources/webinterface/fonts/empty.dir

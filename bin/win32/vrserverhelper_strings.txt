@@ -1,4 +1,3 @@
-"oawE
 .00cfg
 .?AV_com_error@@
 .?AVbad_alloc@std@@

@@ -1743,7 +1743,7 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS
+RSDS[
 RX Fail:%d
 RaiseException
 Rate Remark: %d %d\n
@@ -2699,6 +2699,7 @@ dutch
 eCapture
 eCommunications
 eConsole
+eKLN
 eMultimedia
 eRender
 el_gr
