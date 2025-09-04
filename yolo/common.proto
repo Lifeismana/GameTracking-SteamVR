@@ -1,5 +1,37 @@
 import "common_base.proto";
 
+message CClientMetrics_ReportClientError_Notification {
+	optional string product = 1;
+	optional string version = 2;
+	repeated .CClientMetrics_ReportClientError_Notification_Error errors = 3;
+}
+
+// Used by: common.proto
+message CClientMetrics_ReportClientError_Notification_Error {
+	optional string identifier = 1;
+	optional string message = 2;
+	optional uint32 count = 3;
+	optional string context = 4;
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Frame {
+	optional uint32 frame_id = 1;
+	optional .CVRGamepadUI_Frame_FrameMenu menu = 2;
+	optional string tmp_title = 1000;
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Frame_FrameMenu {
+	repeated .CVRGamepadUI_Frame_FrameMenu_Item items = 1;
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Frame_FrameMenu_Item {
+	optional .CVRGamepadUIShared_Icon tmp_icon = 1000;
+	optional string tmp_label = 1001;
+}
+
 message CVRGamepadUI_Message_DashboardActionInvoked_Request {
 	optional uint32 action_id = 1;
 	optional bool toggle_value = 2;
@@ -43,10 +75,16 @@ message CVRGamepadUI_Message_Header {
 }
 
 message CVRGamepadUI_Message_HideDashboardPopup_Request {
-	optional uint32 dashboard_popup_request_id = 1;
+	optional uint32 dashboard_popup_id = 1;
 }
 
 message CVRGamepadUI_Message_HideDashboardPopup_Response {
+}
+
+message CVRGamepadUI_Message_InitFrameSystem_Request {
+}
+
+message CVRGamepadUI_Message_InitFrameSystem_Response {
 }
 
 message CVRGamepadUI_Message_RemoteVideoStream_Request {
@@ -58,7 +96,7 @@ message CVRGamepadUI_Message_RemoteVideoStream_Response {
 }
 
 message CVRGamepadUI_Message_ShowDashboardPopup_Request {
-	optional uint32 dashboard_popup_request_id = 1;
+	optional uint32 dashboard_popup_id = 1;
 	optional string popup_overlay_key = 2;
 	optional string parent_overlay_key = 3;
 	optional .CVRGamepadUI_Message_ShowDashboardPopup_Request_NormalizedPosition origin_on_parent = 4;
@@ -122,29 +160,54 @@ message CVRGamepadUI_Message_ShowOverlay_Request {
 message CVRGamepadUI_Message_ShowOverlay_Response {
 }
 
+message CVRGamepadUI_Message_UpdateFrameUIs_Request {
+	repeated .CVRGamepadUI_Frame updated_frames = 1;
+	repeated uint32 deleted_frames = 2;
+}
+
+message CVRGamepadUI_Message_UpdateFrameUIs_Response {
+	repeated .CVRGamepadUI_Message_UpdateFrameUIs_Response_FrameUpdateResult results = 1;
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Message_UpdateFrameUIs_Response_FrameUpdateResult {
+	optional uint32 frame_id = 1;
+	optional uint32 frame_menu_dashboard_popup_id = 2;
+}
+
 // Used by: common.proto
 message CVRGamepadUIShared_DashboardAction {
 	optional uint32 action_id = 1;
 	optional bool visible_in_dashboard_bar = 2;
 	optional bool enabled = 3;
 	optional string display_name = 4;
-	optional .CVRGamepadUIShared_DashboardActionIcon icon = 5;
-	optional .CVRGamepadUIShared_DashboardActionIcon icon_active = 6;
+	optional .CVRGamepadUIShared_DEPRECATED_DashboardActionIcon deprecated_icon = 5;
+	optional .CVRGamepadUIShared_DEPRECATED_DashboardActionIcon deprecated_icon_active = 6;
 	optional int32 invocation = 7 [default = 1, (.description) = "enum"];
 	optional bool active = 8;
 	optional int32 special_invocation = 9 [(.description) = "enum"];
 	optional bool visible_in_menu = 10;
 	optional bool is_menu = 11;
 	optional uint32 parent_menu_action_id = 12;
+	optional .CVRGamepadUIShared_Icon icon = 13;
+	optional .CVRGamepadUIShared_Icon icon_active = 14;
 }
 
 // Used by: common.proto
-message CVRGamepadUIShared_DashboardActionIcon {
+message CVRGamepadUIShared_DEPRECATED_DashboardActionIcon {
 	optional int32 enum = 1 [(.description) = "enum"];
 }
 
 // Used by: common.proto
-message CVRGamepadUIShared_DashboardTabIcon {
+message CVRGamepadUIShared_DEPRECATED_DashboardTabIcon {
+	optional int32 enum = 1 [(.description) = "enum"];
+	optional uint32 appid = 2;
+	optional string overlay = 3;
+	optional uint32 hwnd = 4;
+}
+
+// Used by: common.proto
+message CVRGamepadUIShared_Icon {
 	optional int32 enum = 1 [(.description) = "enum"];
 	optional uint32 appid = 2;
 	optional string overlay = 3;
@@ -167,8 +230,9 @@ message CVRGamepadUIShared_PathProperty_DashboardTabs_Tab {
 	optional uint32 tab_id = 1;
 	optional bool visible_in_dashboard_bar = 2;
 	optional string display_name = 3;
-	optional .CVRGamepadUIShared_DashboardTabIcon icon = 4;
+	optional .CVRGamepadUIShared_DEPRECATED_DashboardTabIcon deprecated_icon = 4;
 	optional bool visible_in_dashboard_menu = 5;
+	optional .CVRGamepadUIShared_Icon icon = 6;
 }
 
 message CVRGamepadUIShared_PathProperty_DesktopWindows {
