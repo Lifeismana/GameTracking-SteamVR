@@ -25,6 +25,13 @@ enum EButton
 	k_EButton_Max = 64;
 }
 
+enum ECameraExposure
+{
+	ECameraExposure_Unknown = 0;
+	ECameraExposure_Nominal = 1;
+	ECameraExposure_HighExposure = 2;
+}
+
 enum eWebSocketState
 {
 	eWebSocketState_Unknown = 0;
@@ -156,6 +163,13 @@ enum UnnamedEnum118261f6c7849b98
 	BottomRight = 8;
 }
 
+enum UnnamedEnum140aef605f64d2a9
+{
+	Disconnected = 0;
+	Pending = 1;
+	Connected = 2;
+}
+
 enum UnnamedEnum1b2e013c09afd423
 {
 	Success = 0;
@@ -249,15 +263,6 @@ enum UnnamedEnum305ecb99a14e3d59
 	Image = 1;
 }
 
-enum UnnamedEnum31de4770cdc43d40
-{
-	Dashboard = 0;
-	LeftHand = 1;
-	RightHand = 2;
-	World = 3;
-	Theater = 4;
-}
-
 enum UnnamedEnum3214b5410bf09881
 {
 	Large = 0;
@@ -325,6 +330,14 @@ enum UnnamedEnum4e27866ba7e3b669
 	Manual = 5;
 }
 
+enum UnnamedEnum4f229f743a36d563
+{
+	Uninitialized = 0;
+	Pending = 1;
+	Alive = 2;
+	Destroyed = 3;
+}
+
 enum UnnamedEnum4fcabca09621f3e0
 {
 	Mono = 0;
@@ -373,6 +386,20 @@ enum UnnamedEnum57d2ed40cf1f9899
 {
 	PlayArea = 0;
 	Dashboard = 1;
+}
+
+enum UnnamedEnum5af0a572f6ecc3f6
+{
+	OK = 1;
+	Warning = 100;
+	Warning_BaseStationMayHaveMoved = 101;
+	Warning_BaseStationRemoved = 102;
+	Warning_SeatedBoundsInvalid = 103;
+	Error = 200;
+	Error_BaseStationUninitialized = 201;
+	Error_BaseStationConflict = 202;
+	Error_PlayAreaInvalid = 203;
+	Error_CollisionBoundsInvalid = 204;
 }
 
 enum UnnamedEnum64d35f6c1483de1d
@@ -639,6 +666,12 @@ enum UnnamedEnumbebd0257903ce773
 	HitTest = 16;
 }
 
+enum UnnamedEnumc4e5e4812c04650b
+{
+	Alive = 0;
+	Destroyed = 1;
+}
+
 enum UnnamedEnumc5ad9ff397e76037
 {
 	Invalid = 0;
@@ -682,6 +715,16 @@ enum UnnamedEnumd100a79ca34972c3
 	CouldntFindSystemOverlay = 4;
 	CouldntFindOrCreateClientOverlay = 5;
 	ApplicationQuit = 6;
+}
+
+enum UnnamedEnumd2b4522526c2b206
+{
+	Dashboard = 0;
+	LeftHand = 1;
+	RightHand = 2;
+	World = 3;
+	Theater = 4;
+	Boot = 5;
 }
 
 enum UnnamedEnumd3dde09c34ccd726
