@@ -284,6 +284,7 @@ $Ib?s
 11Y@
 1e+9999
 1eaB@
+2\vpP
 3 FB
 37>k
 3>N;kU
@@ -530,7 +531,7 @@ INITY
 IVRClientCore_003
 IVRControlPanel_006
 IVRHeadsetView_001
-IVRPaths_001
+IVRPaths_002
 IVRVirtualDisplay_002
 Il?333333c?
 Infinity
@@ -612,7 +613,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDS
+RSDS1#
 RaiseException
 ReadConsoleW
 ReadFile
@@ -941,9 +942,13 @@ VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
 VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
 VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoVideoSupport
+VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
+VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
 VRPaths
 VRVirtualDisplay

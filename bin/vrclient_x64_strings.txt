@@ -288,6 +288,7 @@ $tI(knN
 %s: no color swapchain available for index: %d
 %s: no timelines
 %s: not supoported with external synchronization!
+%s: only Vulkan graphics devices are supported
 %s: physical device does not match xrGetVulkanGraphicsDeviceKHR
 %s: physical device does not support the requested timeline handle type
 %s: physical device does not support timeline export
@@ -393,6 +394,7 @@ $tI(knN
 .?AU?$CSxrDispatchableHandle@VCSxrSwapchainBase@@PEAUXrSwapchain_T@@@@
 .?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
 .?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
+.?AU?$default_delete@VCSxrGraphicsBindingHeadless@@@std@@
 .?AU?$output_adapter_protocol@D@detail@nlohmann@@
 .?AUALVRDisplayNotification@@
 .?AUBlendState@D3D11VRRenderer@@
@@ -437,20 +439,20 @@ $tI(knN
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_01092690e00c40e7464d5f51ac884483>@@
 .?AV<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@
-.?AV<lambda_1c61f3962b97f3f9ecd354a1e39cff36>@@
 .?AV<lambda_1fd16216e62d16080da99169d98a6b3a>@@
 .?AV<lambda_212c477849f693b06327af67ea9d66dd>@@
+.?AV<lambda_27470757442b9a489df49a92135a5c9b>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_35f5edf565dd984f978d4d90ae4c73f1>@@
 .?AV<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@
 .?AV<lambda_477b20d61bef04a5465dd26d8c218e72>@@
 .?AV<lambda_5cb07d87fbb143573f0e5b51176c2232>@@
 .?AV<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@
-.?AV<lambda_68c2e54811ffa0c51dc89d4c4c4aef46>@@
 .?AV<lambda_7207bd48646ee98f0ccd3edd2a23475f>@@
 .?AV<lambda_79cc3d4038e33a7314ddfae30008a641>@@
 .?AV<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@
 .?AV<lambda_819d6e727c32014dc6eae969efe567db>@@
+.?AV<lambda_8962991448d06d1e6826effaa3e282d2>@@
 .?AV<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
@@ -459,9 +461,9 @@ $tI(knN
 .?AV<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
 .?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
-.?AV<lambda_ddfa7c035eae8da5c041d2f3e2b85a28>@@
 .?AV<lambda_e0c476e382b8c6d6bc44d302313eca83>@@
-.?AV<lambda_ee980cc98c94f910494c409ed0b46757>@@
+.?AV<lambda_ed12992c0ea69eee0aca5c025cd138f3>@@
+.?AV<lambda_fe4534035025238df2ae3b6f7285121d>@@
 .?AV?$ApplicationsInterfaceRegistration@VCVRApplications_001@@@@
 .?AV?$ApplicationsInterfaceRegistration@VCVRApplications_002@@@@
 .?AV?$ApplicationsInterfaceRegistration@VCVRApplications_003@@@@
@@ -625,6 +627,7 @@ $tI(knN
 .?AV?$OverlayInterfaceRegistration@VCVROverlay_027@@@@
 .?AV?$OverlayViewInterfaceRegistration@VCVROverlayView_001@@@@
 .?AV?$OverlayViewInterfaceRegistration@VCVROverlayView_002@@@@
+.?AV?$PathsInterfaceRegistration@VCVRPaths_001@@@@
 .?AV?$RenderModelsInterfaceRegistration@VCVRRenderModels_001@@@@
 .?AV?$RenderModelsInterfaceRegistration@VCVRRenderModels_002@@@@
 .?AV?$RenderModelsInterfaceRegistration@VCVRRenderModels_003@@@@
@@ -711,20 +714,20 @@ $tI(knN
 .?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_01092690e00c40e7464d5f51ac884483>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_1c61f3962b97f3f9ecd354a1e39cff36>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateFloat@@PEA_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1fd16216e62d16080da99169d98a6b3a>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_212c477849f693b06327af67ea9d66dd>@@_NAEBUHiddenAreaMesh_t@vr@@AEAU23@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_27470757442b9a489df49a92135a5c9b>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateFloat@@PEA_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_35f5edf565dd984f978d4d90ae4c73f1>@@_N_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_477b20d61bef04a5465dd26d8c218e72>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5cb07d87fbb143573f0e5b51176c2232>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_68c2e54811ffa0c51dc89d4c4c4aef46>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateBoolean@@PEA_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7207bd48646ee98f0ccd3edd2a23475f>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_79cc3d4038e33a7314ddfae30008a641>@@W4XrResult@@AEAV?$vector@UXrView@@V?$allocator@UXrView@@@std@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_819d6e727c32014dc6eae969efe567db>@@_NGGG@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8962991448d06d1e6826effaa3e282d2>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateBoolean@@PEA_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@_NW4ETrackedDeviceClass@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
@@ -733,9 +736,9 @@ $tI(knN
 .?AV?$_Func_impl_no_alloc@V<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_ddfa7c035eae8da5c041d2f3e2b85a28>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStatePose@@PEA_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e0c476e382b8c6d6bc44d302313eca83>@@_NPEBUXrInteractionProfileDpadBindingEXT@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_ee980cc98c94f910494c409ed0b46757>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateVector2f@@PEA_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ed12992c0ea69eee0aca5c025cd138f3>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStatePose@@PEA_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_fe4534035025238df2ae3b6f7285121d>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateVector2f@@PEA_K@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@U?$default_delete@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@@2@@std@@@std@@
 .?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@
@@ -745,11 +748,19 @@ $tI(knN
 .?AV?$_Ref_count_obj@UModelInfo_t@CRenderModelManager@@@std@@
 .?AV?$_Ref_count_obj@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
 .?AV?$_Ref_count_obj@VCBlockQueue@@@std@@
+.?AV?$_Ref_count_obj@VCCompositionClient@facet@@@std@@
 .?AV?$_Ref_count_obj@VCInputActionSet@@@std@@
 .?AV?$_Ref_count_obj@VCSXrBackingRenderModelAsset@@@std@@
 .?AV?$_Ref_count_obj@VCSimulatedTrackpadClick@@@std@@
 .?AV?$_Ref_count_obj@VCSimulatedTriggerPull@@@std@@
+.?AV?$_Ref_count_obj@VCSxrGraphicsBindingD3D11Direct@@@std@@
+.?AV?$_Ref_count_obj@VCSxrGraphicsBindingD3D11OpenVR@@@std@@
+.?AV?$_Ref_count_obj@VCSxrGraphicsBindingD3D12OpenVR@@@std@@
+.?AV?$_Ref_count_obj@VCSxrGraphicsBindingGLOpenVR@@@std@@
+.?AV?$_Ref_count_obj@VCSxrGraphicsBindingPrism@@@std@@
+.?AV?$_Ref_count_obj@VCSxrGraphicsBindingVulkanOpenVR@@@std@@
 .?AV?$_Ref_count_obj@VCVulkanFence@CVRCompositorSharedTextures@@@std@@
+.?AV?$_Ref_count_resource@PEAVCSxrGraphicsBindingHeadless@@U?$default_delete@VCSxrGraphicsBindingHeadless@@@std@@@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
@@ -830,6 +841,7 @@ $tI(knN
 .?AVCPropertyManager@@
 .?AVCRenderModelLoadThread@@
 .?AVCRenderModelManager@@
+.?AVCSXrCompositor@@
 .?AVCServerDriverHost_002@@
 .?AVCServerDriverHost_003@@
 .?AVCServerTrackedDeviceProvider@@
@@ -844,6 +856,7 @@ $tI(knN
 .?AVCSingletonCriticalSection@@
 .?AVCSxrAction@@
 .?AVCSxrActionSet@@
+.?AVCSxrCompositorHeadless@@
 .?AVCSxrCompositorOpenVR@@
 .?AVCSxrCompositorPrism@@
 .?AVCSxrDeletableBase@@
@@ -852,8 +865,11 @@ $tI(knN
 .?AVCSxrGraphicsBindingD3D11OpenVR@@
 .?AVCSxrGraphicsBindingD3D12OpenVR@@
 .?AVCSxrGraphicsBindingGLOpenVR@@
+.?AVCSxrGraphicsBindingHeadless@@
 .?AVCSxrGraphicsBindingPrism@@
 .?AVCSxrGraphicsBindingVulkanOpenVR@@
+.?AVCSxrGraphicsRequirementsOpenVR@@
+.?AVCSxrGraphicsRequirementsPrism@@
 .?AVCSxrHandTrackerEXT@@
 .?AVCSxrInstance@@
 .?AVCSxrParentBase@@
@@ -884,6 +900,7 @@ $tI(knN
 .?AVCVRBlockQueue_003@@
 .?AVCVRBlockQueue_004@@
 .?AVCVRCVTrackedHmdInternal@@
+.?AVCVRCameraPassthroughInternal@@
 .?AVCVRChaperoneClient@@
 .?AVCVRChaperoneSetup_001@@
 .?AVCVRChaperoneSetup_002@@
@@ -1185,6 +1202,7 @@ $tI(knN
 .?AVCVROverlay_025@@
 .?AVCVROverlay_026@@
 .?AVCVROverlay_027@@
+.?AVCVRPaths_001@@
 .?AVCVRRenderModels_001@@
 .?AVCVRRenderModels_002@@
 .?AVCVRRenderModels_003@@
@@ -1305,6 +1323,7 @@ $tI(knN
 .?AVIVRApplicationsInternal@vr@@
 .?AVIVRBlockQueue@vr@@
 .?AVIVRCVTrackedHmdInternal@vr@@
+.?AVIVRCameraPassthroughInternal@vr@@
 .?AVIVRChaperone@vr@@
 .?AVIVRChaperoneInternal@@
 .?AVIVRChaperoneSetup@vr@@
@@ -1379,7 +1398,7 @@ $tI(knN
 .?AVIVkInteropDevice@facet@@
 .?AVIVkInteropImage@facet@@
 .?AVIXrBinding@@
-.?AVIXrCompositor@@
+.?AVIXrGraphicsRequirements@@
 .?AVIXrProto@vr@@
 .?AVIXrSwapchain@@
 .?AVInterfaceRegistrationBase@@
@@ -1519,10 +1538,11 @@ $tI(knN
 /best_alias_path
 /block_id
 /blocks
-/bound_tracker_role
 /chaperone/collision_radius
+/chaperone/is_default_perimeter
 /chaperone/perimeter
 /chaperone/play_area
+/chaperone/room_setup_done
 /chaperone/seated/transform
 /chaperone/setup_standing/transform
 /chaperone/showing_working_pid
@@ -1877,10 +1897,10 @@ $tI(knN
 /x/touch
 /y/click
 /y/touch
+0 B3
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798998
 0123456789ABCDEF
 0\tFAJ
 1.0.3.16
@@ -1888,7 +1908,6 @@ $tI(knN
 11 4 22 44 44 22 444444
 11eU%
 1e+9999
-333?
 361.75
 416.16
 440.97
@@ -1902,7 +1921,7 @@ $tI(knN
 9a&g
 : exception thrown in JSON library
 : one or more FS callback not set
-::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
+::GetSystemBaseTicks() == m_pClient->GetCompositorBaseTicks()
 ; expected 
 ; last read: '
 <NONE>
@@ -2087,6 +2106,8 @@ Asset
 Attempt to init shared state %s twice
 Attempt to launch desktop game theater while vrcompositor not running
 Attempted to access vulkan array info for a non-vulkan texture
+Attempted to change property type from %d to %d
+Attempted to enable extension index %u, which is not in the range [1, %u]
 Attempted to get Eye Gaze path, but Eye gaze extension was not enabled!
 Attempted to get Vive Tracker path, but Vive Tracker extension was not enabled!
 Attempted to read payload of %d bytes from pipe but failed\n
@@ -2195,13 +2216,8 @@ CSxrCompositorOpenVRGetVulkanGRaphicsDevice error: failed to determine output de
 CSxrCompositorPrism::BeginFrame
 CSxrCompositorPrism::ComposeLayerProjection
 CSxrCompositorPrism::ComposeLayerQuad
-CSxrCompositorPrism::CreateVulkanDevice
-CSxrCompositorPrism::CreateVulkanInstance
 CSxrCompositorPrism::DiscardFrame
 CSxrCompositorPrism::EndFrame
-CSxrCompositorPrism::GetGraphicsRequirements
-CSxrCompositorPrism::GetVulkanGraphicsDevice
-CSxrCompositorPrism::Init
 CSxrCompositorPrism::OnSessionCreated
 CSxrCompositorPrism::WaitFrame
 CSxrFoveationProfile
@@ -2209,6 +2225,11 @@ CSxrGraphicsBindingD3D12OpenVR gpu completion event
 CSxrGraphicsBindingPrism::Init
 CSxrGraphicsBindingPrism::InitD3D11
 CSxrGraphicsBindingPrism::InitVulkan2
+CSxrGraphicsRequirementsPrism::CreateVulkanDevice
+CSxrGraphicsRequirementsPrism::CreateVulkanInstance
+CSxrGraphicsRequirementsPrism::GetGraphicsRequirements
+CSxrGraphicsRequirementsPrism::GetVulkanGraphicsDevice
+CSxrGraphicsRequirementsPrism::Init
 CSxrHandTrackerEXT
 CSxrHandTrackerEXT::LocateJoints
 CSxrInstance
@@ -2222,9 +2243,9 @@ CSxrInstance::GetVulkanGraphicsDevice failed: Invalid system.\n
 CSxrInstance::GetVulkanGraphicsDevice: invalid parameter\n
 CSxrInstance::GetVulkanInstanceExtensions failed: Invalid system.\n
 CSxrInstance::Init failed: error fetching client interface\n
-CSxrInstance::Init failed: failed to create compositor interface\n
 CSxrInstance::Init failed: failed to init SteamVR\n
 CSxrInstance::Init failed: failed to init supported features\n
+CSxrInstance::Init failed: failed to initialize graphics requirements\n
 CSxrInstance::Init warning: Headset not found, unable to create a functional vr instance, fix issue and restart SteamVR.\n
 CSxrInstance::PathToString failed: No hmd detected - a valid tracking system isn't available. Please check SteamVR is running and that your hmd is properly connected\n
 CSxrInstance::StringToPath failed: %s\n
@@ -2261,6 +2282,7 @@ CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle
 CVRApplicationsLatest
+CVRCameraPassthroughInternal::SetGraphicsDevice
 CVRChaperoneClient::CommitWorkingCopy
 CVRClient::Init
 CVRCompositorClient::SubmitTextureSetInfo
@@ -2807,6 +2829,7 @@ Failed CreateTexture2D with 0x%X\n\tw=%d, h=%d, format=%d\n\tArraySize=%d, Usage
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Terminating.\n
 Failed Watchdog timeout in thread %s after %f seconds\n
 Failed calling CreateRenderTargetView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!\n
 Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!\n
@@ -3059,6 +3082,7 @@ FnTable:IVRTrackedCamera_002
 FnTable:IVRTrackedCamera_003
 FnTable:IVRTrackedCamera_004
 FnTable:IVRTrackedCamera_005
+For historical compatibility, KHR_binding_modification has been enabled.
 Foreign timelines unsupported. Leaking resource.
 Format string parse failure
 FormatMessageA
@@ -3224,6 +3248,8 @@ IVRCVTrackedHmdInternal_XXX
 IVRCameraComponent_
 IVRCameraComponent_001
 IVRCameraComponent_002
+IVRCameraPassthroughInternal_
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneSetup_001
 IVRChaperoneSetup_002
@@ -3352,8 +3378,9 @@ IVROverlay_025
 IVROverlay_026
 IVROverlay_027
 IVROverlay_028
-IVRPathsInternal_001
+IVRPathsInternal_XXX
 IVRPaths_001
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -3470,6 +3497,7 @@ InitializeSecurityDescriptor
 Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.\n
 Initializing CVulkanVRRenderer\n
 Initializing IRVCVTrackedHmdInternal interface
+Initializing internal camera passthrough interface
 Initializing the limited version of CVRCompositorClient\n
 InputValueType_Boolean
 InputValueType_EyeTracking
@@ -3562,6 +3590,7 @@ LeaveCriticalSection
 Left_
 Legacy Overlay
 Line %d, Column %d
+LiquidVR did not return a factory function\n
 LiquidVR v1.0.8.0+ required for Vulkan supported on AMD.\n
 LoadDriver called when there is no user config directory set\n
 LoadLibraryA
@@ -3663,6 +3692,7 @@ OpenProcessToken
 OpenProcessToken failed. GetLastError returned: %d\n
 OpenSCManagerW
 OpenServiceW
+OpenXR::AddLegalInteractionProfile: g_pActiveInstance was unexpectedly null
 Optional vulkan device extension is unavailable: %s\n
 Optional vulkan instance extension is unavailable: %s\n
 Or filters need at least one input in filter %s\n
@@ -3671,6 +3701,7 @@ OrthographicCamera
 Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
+P B3
 PATH_TO_LOCAL_STRING failed with %s
 PC_%08llx
 PICT
@@ -3929,7 +3960,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS3
+RSDS\r
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -4170,7 +4201,7 @@ SystemBehaviorFlag_DriverRequestsReducedRendering
 SystemBehaviorFlag_GSSteamVisible
 SystemBehaviorFlag_GamepadFocus
 SystemBehaviorFlag_LaserMouse
-SystemBehaviorFlag_RoomView
+SystemBehaviorFlag_RoomViewOccludingApp
 SystemBehaviorFlag_SystemButtonDown
 SystemTimeToFileTime
 TANGENT
@@ -4182,6 +4213,10 @@ TRUE
 TdhEnumerateManifestProviderEvents
 Telling vrstartup that the system was already running.\n
 TerminateProcess
+Tessellation edge %s.x=%f is too small!
+Tessellation edge %s.y=%f is too small!
+Tessellation edge %s.z=%f is too small!
+Tessellation length %s=%f is too small!
 Tessellation took %f.2ms\n
 TextureInfo
 TextureMsaaResolveRenderer
@@ -4251,6 +4286,7 @@ UNNAMED
 USB Service Busy (140)
 USER32.dll
 UYVY
+Uanble to find enablement index for extension %s
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
 Unable to coerce boolean action to input source that supports neither float nor boolean: %s\n
 Unable to coerce float action to input source that supports neither float nor boolean: %s\n
@@ -4474,6 +4510,7 @@ VRApplicationError_SteamVRIsExiting
 VRApplicationError_TransitionAborted
 VRApplicationError_UnknownApplication
 VRApplicationError_UnknownProperty
+VRApplicationError_WaitingForChaperone
 VRApplicationTransition_NewAppLaunched
 VRApplicationTransition_None
 VRApplicationTransition_OldAppQuitSent
@@ -4890,9 +4927,13 @@ VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
 VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
 VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoVideoSupport
+VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
+VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
 VRInputError_%d
 VRInputError_BufferTooSmall
@@ -4982,6 +5023,8 @@ VR_ApplicationsMutex
 VR_ApplicationsState
 VR_COMBINED_LOGGING
 VR_CONFIG_PATH
+VR_CameraPassthroughMutex
+VR_CameraPassthroughState
 VR_CompositorMutex
 VR_CompositorPipe
 VR_CompositorState
@@ -5077,7 +5120,6 @@ WTSQuerySessionInformationA
 Wait
 WaitForSingleObject
 WaitForSingleObjectEx
-WaitFrame could not retrieve poses on the first frame
 WaitNamedPipe %s failed because %s\n
 WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
@@ -5275,6 +5317,7 @@ XR_KHR_D3D12_enable
 XR_KHR_binding_modification
 XR_KHR_composition_layer_depth
 XR_KHR_generic_controller
+XR_KHR_locate_spaces
 XR_KHR_opengl_enable
 XR_KHR_visibility_mask
 XR_KHR_vulkan_enable
@@ -5282,6 +5325,7 @@ XR_KHR_vulkan_enable2
 XR_KHR_win32_convert_performance_counter_time
 XR_META_foveation_eye_tracked
 XR_META_performance_metrics
+XR_META_recommended_layer_resolution
 XR_MND_headless
 XR_RENDER_MODEL_UNAVAILABLE_FB
 XR_RESULT_MAX_ENUM
@@ -5782,6 +5826,7 @@ XR_TYPE_SYSTEM_SPATIAL_SCENE_PROPERTIES_BD
 XR_TYPE_SYSTEM_SPATIAL_SENSING_PROPERTIES_BD
 XR_TYPE_SYSTEM_USER_PRESENCE_PROPERTIES_EXT
 XR_TYPE_SYSTEM_VIRTUAL_KEYBOARD_PROPERTIES_META
+XR_TYPE_TIMING_UTILS_LABEL_INFO_VALVE
 XR_TYPE_TRIANGLE_MESH_CREATE_INFO_FB
 XR_TYPE_UNKNOWN
 XR_TYPE_UNPERSIST_SPATIAL_ENTITY_COMPLETION_EXT
@@ -5827,6 +5872,7 @@ XR_UNKNOWN_FAILURE_%d
 XR_UNKNOWN_STRUCTURE_TYPE_%d
 XR_UNKNOWN_SUCCESS_%d
 XR_VALVE_analog_threshold
+XR_VALVE_timing_utils
 XXXX PNG chunk not known
 XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]\n
 XrProto:NewFrameIdx=%d Id=%d Vsync=%d
@@ -5841,6 +5887,7 @@ XrProto:loop:timeout!
 XrProto:suspended
 XrQueryPerformanceMetricsCounterMETA was passed a counter struct with the wrong type member.
 XrQueryPerformanceMetricsCounterMETA was passed a null counter pointer.
+Y?fff?
 YUY2
 Zjz\v
 ZvFailed to create fence %ls.\n
@@ -5849,6 +5896,7 @@ ZvFailed to create fence %ls.\n
 [%s] End Reading Timestamps: %d
 [%s] Mark Timing Event: %s(%d)
 [AnimSkeleton] Failed to load GLTF file: %s
+[CAdaptiveQuality:XR_META_recommended_layer_resolution] Default quality level: %i (%.2f)
 [CDownsampleRenderer] Failed to create blend state!\n
 [CDownsampleRenderer] Failed to create depth stencil state!\n
 [CDownsampleRenderer] Failed to create dst texture calling ImportTextureFromNativeTexture()!\n
@@ -5876,6 +5924,7 @@ ZvFailed to create fence %ls.\n
 [CVRCVTrackedHmdInternal] Request-processed event initialization failed
 [CVRCVTrackedHmdInternal] Shared state initialization failed
 [CVRCVTrackedHmdInternal] Timeout reached when waiting for the request to be processed. The driver might have become unreachable.
+[CVRCameraPassthroughInternal] GetCameraFrameFileDescriptor is only supported on Linux.
 [CommandAllocator %d] AddResourceBarrier
 [Compatibility Mode] Could not get notification interface. %d\n
 [Compatibility Mode] Could not get overlay interface. %d\n
@@ -6175,11 +6224,15 @@ ZvFailed to create fence %ls.\n
 [UUID] Failed to convert string to UUID %i
 [UUID] Failed to generate UUID
 [VirtualDisplay] Present took to long!
-[Warning] Invalid Interaction Profile suggested: %s:\n
+[Warning] Invalid Interaction Profile suggested: %s\n
 [json.exception.
 [libprotobuf %s %s:%d] %s\n
 [vrclient] CLegacyInput::RunInputFrame
 [vrclient] CVRInputLatest::UpdateActionState
+[xrLocateSpace/xrLocateSpaces] Location must be valid
+[xrLocateSpaces] required parameter was nullptr
+[xrLocateSpaces] spaceCount must not be 0 and spaceCount must equal locationCount
+[xrLocateSpaces] velocityCount must equal spaceCount
 [xrRenderModel] %s: nodePropertyCount was not equal to animatableNodeCount (was %i, expected %llu)
 [xrRenderModel] Asset was not loaded in memory when trying to retrieve data
 [xrRenderModel] Attempted to enumerate, but has not sycned actions yet
@@ -6265,6 +6318,7 @@ __acrt_iob_func
 __std_exception_copy
 __std_exception_destroy
 __std_terminate
+__std_type_info_compare
 __std_type_info_destroy_list
 __stdio_common_vfprintf
 __stdio_common_vsnprintf_s
@@ -6500,6 +6554,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\actionbindingconfig.cp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\blockqueue.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\drivermanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\ilockablepropertycontainer.h
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openxr_utils.h
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
@@ -6760,6 +6815,7 @@ enableDriverBoundsImport
 enableHomeApp
 enableLegacyGameTheater
 enableYAMLCompatibility
+enabled
 end of input
 english
 entries
@@ -7017,6 +7073,7 @@ input_source_path
 inputs
 intensity
 interaction_profile
+internal
 internet
 interpolation
 invalid
@@ -7118,7 +7175,6 @@ k_eControllerAxis_None
 k_eControllerAxis_TrackPad
 k_eControllerAxis_Trigger
 keyboard
-keyboard_vrwebui
 keylength >= 2^30
 khr_generic_controller
 khr_simple_controller
@@ -7366,6 +7422,7 @@ overlay_handle
 overlay_key
 override_device_class
 overwrite.vrsettings
+p B3
 pBuffer != nullptr
 pClient
 pCmdBuf
@@ -7539,6 +7596,7 @@ serialnumber
 server
 session_destroyed
 session_destroyed_response
+set_camera_roomview_enabled_forsceneapps
 set_input_device_active
 set_input_device_location
 set_input_device_state_bool
@@ -7657,6 +7715,7 @@ shaders/d3d11/geom_drawregion_ptnorm_uvs_embedded_vs.fxo
 shaders/d3d11/geom_drawregion_ptnorm_vs.fxo
 shaders/d3d11/geom_drawregion_uvs_embedded_vs.fxo
 shaders/d3d11/geom_drawregion_vs.fxo
+shaders/d3d11/geom_floor_edge_vs.fxo
 shaders/d3d11/geom_floor_vs.fxo
 shaders/d3d11/geom_fresnel_vs.fxo
 shaders/d3d11/geom_motes_vs.fxo
@@ -7823,6 +7882,7 @@ shaders/vulkan/geom_drawregion_ptnorm_uvs_embedded_vs.spv
 shaders/vulkan/geom_drawregion_ptnorm_vs.spv
 shaders/vulkan/geom_drawregion_uvs_embedded_vs.spv
 shaders/vulkan/geom_drawregion_vs.spv
+shaders/vulkan/geom_floor_edge_vs.spv
 shaders/vulkan/geom_floor_vs.spv
 shaders/vulkan/geom_fresnel_vs.spv
 shaders/vulkan/geom_motes_vs.spv
@@ -8069,6 +8129,7 @@ sxr_xrGetInstanceProcAddr
 sxr_xrGetInstanceProperties
 sxr_xrGetOpenGLGraphicsRequirementsKHR
 sxr_xrGetPerformanceMetricsStateMETA
+sxr_xrGetRecommendedLayerResolutionMETA
 sxr_xrGetReferenceSpaceBoundsRect
 sxr_xrGetRenderModelAssetDataEXT
 sxr_xrGetRenderModelAssetPropertiesEXT
@@ -8088,6 +8149,7 @@ sxr_xrGetVulkanGraphicsRequirementsKHR
 sxr_xrGetVulkanInstanceExtensionsKHR
 sxr_xrLocateHandJointsEXT
 sxr_xrLocateSpace
+sxr_xrLocateSpacesKHR
 sxr_xrLocateViews
 sxr_xrPathToString
 sxr_xrPollEvent
@@ -8111,7 +8173,7 @@ system.messageoverlay.clientpid.%d
 system.systemui
 system.vrresources
 system.window.
-systemui_dashboard
+systemui_dashboard_private
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -8149,7 +8211,7 @@ timeEndPeriod
 timeKillEvent
 timeSetEvent
 toggle_button
-toggle_camera_room_view
+toggle_camera_roomview_forsceneapps
 tolower
 too large
 too many codes
@@ -8295,22 +8357,26 @@ vkAllocateCommandBuffers failed with error %d.\n
 vkAllocateDescriptorSets
 vkAllocateMemory
 vkAllocateMemory failed with result %d\n
+vkAntiLagUpdateAMD
 vkBeginCommandBuffer
 vkBindAccelerationStructureMemoryNV
 vkBindBufferMemory
 vkBindBufferMemory failed with %x\n
 vkBindBufferMemory2
 vkBindBufferMemory2KHR
+vkBindDataGraphPipelineSessionMemoryARM
 vkBindImageMemory
 vkBindImageMemory failed with result %d\n
 vkBindImageMemory2
 vkBindImageMemory2KHR
 vkBindOpticalFlowSessionImageNV
+vkBindTensorMemoryARM
 vkBindVideoSessionMemoryKHR
 vkBuildAccelerationStructuresKHR
 vkBuildMicromapsEXT
 vkCmdBeginConditionalRenderingEXT
 vkCmdBeginDebugUtilsLabelEXT
+vkCmdBeginPerTileExecutionQCOM
 vkCmdBeginQuery
 vkCmdBeginQueryIndexedEXT
 vkCmdBeginRenderPass
@@ -8324,14 +8390,17 @@ vkCmdBindDescriptorBufferEmbeddedSamplers2EXT
 vkCmdBindDescriptorBufferEmbeddedSamplersEXT
 vkCmdBindDescriptorBuffersEXT
 vkCmdBindDescriptorSets
+vkCmdBindDescriptorSets2
 vkCmdBindDescriptorSets2KHR
 vkCmdBindIndexBuffer
+vkCmdBindIndexBuffer2
 vkCmdBindIndexBuffer2KHR
 vkCmdBindInvocationMaskHUAWEI
 vkCmdBindPipeline
 vkCmdBindPipelineShaderGroupNV
 vkCmdBindShadersEXT
 vkCmdBindShadingRateImageNV
+vkCmdBindTileMemoryQCOM
 vkCmdBindTransformFeedbackBuffersEXT
 vkCmdBindVertexBuffers
 vkCmdBindVertexBuffers2
@@ -8342,11 +8411,14 @@ vkCmdBlitImage2KHR
 vkCmdBuildAccelerationStructureNV
 vkCmdBuildAccelerationStructuresIndirectKHR
 vkCmdBuildAccelerationStructuresKHR
+vkCmdBuildClusterAccelerationStructureIndirectNV
 vkCmdBuildMicromapsEXT
+vkCmdBuildPartitionedAccelerationStructuresNV
 vkCmdClearAttachments
 vkCmdClearColorImage
 vkCmdClearDepthStencilImage
 vkCmdControlVideoCodingKHR
+vkCmdConvertCooperativeVectorMatrixNV
 vkCmdCopyAccelerationStructureKHR
 vkCmdCopyAccelerationStructureNV
 vkCmdCopyAccelerationStructureToMemoryKHR
@@ -8369,8 +8441,8 @@ vkCmdCopyMemoryToMicromapEXT
 vkCmdCopyMicromapEXT
 vkCmdCopyMicromapToMemoryEXT
 vkCmdCopyQueryPoolResults
+vkCmdCopyTensorARM
 vkCmdCuLaunchKernelNVX
-vkCmdCudaLaunchKernelNV
 vkCmdDebugMarkerBeginEXT
 vkCmdDebugMarkerEndEXT
 vkCmdDebugMarkerInsertEXT
@@ -8380,7 +8452,9 @@ vkCmdDecompressMemoryNV
 vkCmdDispatch
 vkCmdDispatchBase
 vkCmdDispatchBaseKHR
+vkCmdDispatchDataGraphARM
 vkCmdDispatchIndirect
+vkCmdDispatchTileQCOM
 vkCmdDraw
 vkCmdDrawClusterHUAWEI
 vkCmdDrawClusterIndirectHUAWEI
@@ -8405,16 +8479,19 @@ vkCmdDrawMultiIndexedEXT
 vkCmdEncodeVideoKHR
 vkCmdEndConditionalRenderingEXT
 vkCmdEndDebugUtilsLabelEXT
+vkCmdEndPerTileExecutionQCOM
 vkCmdEndQuery
 vkCmdEndQueryIndexedEXT
 vkCmdEndRenderPass
 vkCmdEndRenderPass2
 vkCmdEndRenderPass2KHR
 vkCmdEndRendering
+vkCmdEndRendering2EXT
 vkCmdEndRenderingKHR
 vkCmdEndTransformFeedbackEXT
 vkCmdEndVideoCodingKHR
 vkCmdExecuteCommands
+vkCmdExecuteGeneratedCommandsEXT
 vkCmdExecuteGeneratedCommandsNV
 vkCmdFillBuffer
 vkCmdInsertDebugUtilsLabelEXT
@@ -8425,11 +8502,17 @@ vkCmdOpticalFlowExecuteNV
 vkCmdPipelineBarrier
 vkCmdPipelineBarrier2
 vkCmdPipelineBarrier2KHR
+vkCmdPreprocessGeneratedCommandsEXT
 vkCmdPreprocessGeneratedCommandsNV
 vkCmdPushConstants
+vkCmdPushConstants2
 vkCmdPushConstants2KHR
+vkCmdPushDescriptorSet
+vkCmdPushDescriptorSet2
 vkCmdPushDescriptorSet2KHR
 vkCmdPushDescriptorSetKHR
+vkCmdPushDescriptorSetWithTemplate
+vkCmdPushDescriptorSetWithTemplate2
 vkCmdPushDescriptorSetWithTemplate2KHR
 vkCmdPushDescriptorSetWithTemplateKHR
 vkCmdResetEvent
@@ -8467,6 +8550,7 @@ vkCmdSetDepthBounds
 vkCmdSetDepthBoundsTestEnable
 vkCmdSetDepthBoundsTestEnableEXT
 vkCmdSetDepthClampEnableEXT
+vkCmdSetDepthClampRangeEXT
 vkCmdSetDepthClipEnableEXT
 vkCmdSetDepthClipNegativeOneToOneEXT
 vkCmdSetDepthCompareOp
@@ -8493,8 +8577,10 @@ vkCmdSetFragmentShadingRateKHR
 vkCmdSetFrontFace
 vkCmdSetFrontFaceEXT
 vkCmdSetLineRasterizationModeEXT
+vkCmdSetLineStipple
 vkCmdSetLineStippleEXT
 vkCmdSetLineStippleEnableEXT
+vkCmdSetLineStippleKHR
 vkCmdSetLineWidth
 vkCmdSetLogicOpEXT
 vkCmdSetLogicOpEnableEXT
@@ -8513,6 +8599,10 @@ vkCmdSetRasterizationStreamEXT
 vkCmdSetRasterizerDiscardEnable
 vkCmdSetRasterizerDiscardEnableEXT
 vkCmdSetRayTracingPipelineStackSizeKHR
+vkCmdSetRenderingAttachmentLocations
+vkCmdSetRenderingAttachmentLocationsKHR
+vkCmdSetRenderingInputAttachmentIndices
+vkCmdSetRenderingInputAttachmentIndicesKHR
 vkCmdSetRepresentativeFragmentTestEnableNV
 vkCmdSetSampleLocationsEXT
 vkCmdSetSampleLocationsEnableEXT
@@ -8556,11 +8646,15 @@ vkCmdWriteTimestamp
 vkCmdWriteTimestamp2
 vkCmdWriteTimestamp2KHR
 vkCompileDeferredNV
+vkConvertCooperativeVectorMatrixNV
 vkCopyAccelerationStructureKHR
 vkCopyAccelerationStructureToMemoryKHR
+vkCopyImageToImage
 vkCopyImageToImageEXT
+vkCopyImageToMemory
 vkCopyImageToMemoryEXT
 vkCopyMemoryToAccelerationStructureKHR
+vkCopyMemoryToImage
 vkCopyMemoryToImageEXT
 vkCopyMemoryToMicromapEXT
 vkCopyMicromapEXT
@@ -8574,8 +8668,8 @@ vkCreateCommandPool
 vkCreateComputePipelines
 vkCreateCuFunctionNVX
 vkCreateCuModuleNVX
-vkCreateCudaFunctionNV
-vkCreateCudaModuleNV
+vkCreateDataGraphPipelineSessionARM
+vkCreateDataGraphPipelinesARM
 vkCreateDebugReportCallbackEXT
 vkCreateDebugUtilsMessengerEXT
 vkCreateDeferredOperationKHR
@@ -8587,6 +8681,7 @@ vkCreateDevice
 vkCreateDisplayModeKHR
 vkCreateDisplayPlaneSurfaceKHR
 vkCreateEvent
+vkCreateExternalComputeQueueNV
 vkCreateFence
 vkCreateFramebuffer
 vkCreateGraphicsPipelines
@@ -8594,11 +8689,14 @@ vkCreateHeadlessSurfaceEXT
 vkCreateImage
 vkCreateImage failed with result %d\n
 vkCreateImageView
+vkCreateIndirectCommandsLayoutEXT
 vkCreateIndirectCommandsLayoutNV
+vkCreateIndirectExecutionSetEXT
 vkCreateInstance
 vkCreateInstance failed with error %d\n
 vkCreateMicromapEXT
 vkCreateOpticalFlowSessionNV
+vkCreatePipelineBinariesKHR
 vkCreatePipelineCache
 vkCreatePipelineLayout
 vkCreatePrivateDataSlot
@@ -8617,6 +8715,8 @@ vkCreateShaderModule
 vkCreateShadersEXT
 vkCreateSharedSwapchainsKHR
 vkCreateSwapchainKHR
+vkCreateTensorARM
+vkCreateTensorViewARM
 vkCreateValidationCacheEXT
 vkCreateVideoSessionKHR
 vkCreateVideoSessionParametersKHR
@@ -8632,8 +8732,7 @@ vkDestroyBufferView
 vkDestroyCommandPool
 vkDestroyCuFunctionNVX
 vkDestroyCuModuleNVX
-vkDestroyCudaFunctionNV
-vkDestroyCudaModuleNV
+vkDestroyDataGraphPipelineSessionARM
 vkDestroyDebugReportCallbackEXT
 vkDestroyDebugUtilsMessengerEXT
 vkDestroyDeferredOperationKHR
@@ -8643,15 +8742,19 @@ vkDestroyDescriptorUpdateTemplate
 vkDestroyDescriptorUpdateTemplateKHR
 vkDestroyDevice
 vkDestroyEvent
+vkDestroyExternalComputeQueueNV
 vkDestroyFence
 vkDestroyFramebuffer
 vkDestroyImage
 vkDestroyImageView
+vkDestroyIndirectCommandsLayoutEXT
 vkDestroyIndirectCommandsLayoutNV
+vkDestroyIndirectExecutionSetEXT
 vkDestroyInstance
 vkDestroyMicromapEXT
 vkDestroyOpticalFlowSessionNV
 vkDestroyPipeline
+vkDestroyPipelineBinaryKHR
 vkDestroyPipelineCache
 vkDestroyPipelineLayout
 vkDestroyPrivateDataSlot
@@ -8666,6 +8769,8 @@ vkDestroyShaderEXT
 vkDestroyShaderModule
 vkDestroySurfaceKHR
 vkDestroySwapchainKHR
+vkDestroyTensorARM
+vkDestroyTensorViewARM
 vkDestroyValidationCacheEXT
 vkDestroyVideoSessionKHR
 vkDestroyVideoSessionParametersKHR
@@ -8702,7 +8807,11 @@ vkGetBufferOpaqueCaptureAddressKHR
 vkGetBufferOpaqueCaptureDescriptorDataEXT
 vkGetCalibratedTimestampsEXT
 vkGetCalibratedTimestampsKHR
-vkGetCudaModuleCacheNV
+vkGetClusterAccelerationStructureBuildSizesNV
+vkGetDataGraphPipelineAvailablePropertiesARM
+vkGetDataGraphPipelinePropertiesARM
+vkGetDataGraphPipelineSessionBindPointRequirementsARM
+vkGetDataGraphPipelineSessionMemoryRequirementsARM
 vkGetDeferredOperationMaxConcurrencyKHR
 vkGetDeferredOperationResultKHR
 vkGetDescriptorEXT
@@ -8725,6 +8834,7 @@ vkGetDeviceImageMemoryRequirements
 vkGetDeviceImageMemoryRequirementsKHR
 vkGetDeviceImageSparseMemoryRequirements
 vkGetDeviceImageSparseMemoryRequirementsKHR
+vkGetDeviceImageSubresourceLayout
 vkGetDeviceImageSubresourceLayoutKHR
 vkGetDeviceMemoryCommitment
 vkGetDeviceMemoryOpaqueCaptureAddress
@@ -8734,6 +8844,7 @@ vkGetDeviceProcAddr
 vkGetDeviceQueue
 vkGetDeviceQueue2
 vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI
+vkGetDeviceTensorMemoryRequirementsARM
 vkGetDisplayModeProperties2KHR
 vkGetDisplayModePropertiesKHR
 vkGetDisplayPlaneCapabilities2KHR
@@ -8743,11 +8854,14 @@ vkGetDrmDisplayEXT
 vkGetDynamicRenderingTilePropertiesQCOM
 vkGetEncodedVideoSessionParametersKHR
 vkGetEventStatus
+vkGetExternalComputeQueueDataNV
 vkGetFenceFdKHR
 vkGetFenceStatus
+vkGetFenceStatus failed with %d
 vkGetFenceStatus: %d
 vkGetFenceWin32HandleKHR
 vkGetFramebufferTilePropertiesQCOM
+vkGetGeneratedCommandsMemoryRequirementsEXT
 vkGetGeneratedCommandsMemoryRequirementsNV
 vkGetImageDrmFormatModifierPropertiesEXT
 vkGetImageMemoryRequirements
@@ -8758,9 +8872,11 @@ vkGetImageSparseMemoryRequirements
 vkGetImageSparseMemoryRequirements2
 vkGetImageSparseMemoryRequirements2KHR
 vkGetImageSubresourceLayout
+vkGetImageSubresourceLayout2
 vkGetImageSubresourceLayout2EXT
 vkGetImageSubresourceLayout2KHR
 vkGetImageViewAddressNVX
+vkGetImageViewHandle64NVX
 vkGetImageViewHandleNVX
 vkGetImageViewOpaqueCaptureDescriptorDataEXT
 vkGetInstanceProcAddr
@@ -8773,12 +8889,15 @@ vkGetMemoryWin32HandleKHR
 vkGetMemoryWin32HandleNV
 vkGetMemoryWin32HandlePropertiesKHR
 vkGetMicromapBuildSizesEXT
+vkGetPartitionedAccelerationStructuresBuildSizesNV
 vkGetPastPresentationTimingGOOGLE
 vkGetPerformanceParameterINTEL
 vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
 vkGetPhysicalDeviceCalibrateableTimeDomainsKHR
+vkGetPhysicalDeviceCooperativeMatrixFlexibleDimensionsPropertiesNV
 vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR
 vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
+vkGetPhysicalDeviceCooperativeVectorPropertiesNV
 vkGetPhysicalDeviceDisplayPlaneProperties2KHR
 vkGetPhysicalDeviceDisplayPlanePropertiesKHR
 vkGetPhysicalDeviceDisplayProperties2KHR
@@ -8790,6 +8909,7 @@ vkGetPhysicalDeviceExternalFencePropertiesKHR
 vkGetPhysicalDeviceExternalImageFormatPropertiesNV
 vkGetPhysicalDeviceExternalSemaphoreProperties
 vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
+vkGetPhysicalDeviceExternalTensorPropertiesARM
 vkGetPhysicalDeviceFeatures
 vkGetPhysicalDeviceFeatures2
 vkGetPhysicalDeviceFeatures2KHR
@@ -8810,6 +8930,8 @@ vkGetPhysicalDevicePresentRectanglesKHR
 vkGetPhysicalDeviceProperties
 vkGetPhysicalDeviceProperties2
 vkGetPhysicalDeviceProperties2KHR
+vkGetPhysicalDeviceQueueFamilyDataGraphProcessingEnginePropertiesARM
+vkGetPhysicalDeviceQueueFamilyDataGraphPropertiesARM
 vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR
 vkGetPhysicalDeviceQueueFamilyProperties
 vkGetPhysicalDeviceQueueFamilyProperties2
@@ -8832,12 +8954,14 @@ vkGetPhysicalDeviceVideoCapabilitiesKHR
 vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR
 vkGetPhysicalDeviceVideoFormatPropertiesKHR
 vkGetPhysicalDeviceWin32PresentationSupportKHR
+vkGetPipelineBinaryDataKHR
 vkGetPipelineCacheData
 vkGetPipelineExecutableInternalRepresentationsKHR
 vkGetPipelineExecutablePropertiesKHR
 vkGetPipelineExecutableStatisticsKHR
 vkGetPipelineIndirectDeviceAddressNV
 vkGetPipelineIndirectMemoryRequirementsNV
+vkGetPipelineKeyKHR
 vkGetPipelinePropertiesEXT
 vkGetPrivateData
 vkGetPrivateDataEXT
@@ -8850,6 +8974,7 @@ vkGetRayTracingShaderGroupHandlesNV
 vkGetRayTracingShaderGroupStackSizeKHR
 vkGetRefreshCycleDurationGOOGLE
 vkGetRenderAreaGranularity
+vkGetRenderingAreaGranularity
 vkGetRenderingAreaGranularityKHR
 vkGetSamplerOpaqueCaptureDescriptorDataEXT
 vkGetSemaphoreCounterValue
@@ -8863,6 +8988,9 @@ vkGetShaderModuleIdentifierEXT
 vkGetSwapchainCounterEXT
 vkGetSwapchainImagesKHR
 vkGetSwapchainStatusKHR
+vkGetTensorMemoryRequirementsARM
+vkGetTensorOpaqueCaptureDescriptorDataARM
+vkGetTensorViewOpaqueCaptureDescriptorDataARM
 vkGetValidationCacheDataEXT
 vkGetVideoSessionMemoryRequirementsKHR
 vkGetWinrtDisplayNV
@@ -8874,6 +9002,7 @@ vkInitializePerformanceApiINTEL
 vkInvalidateMappedMemoryRanges
 vkLatencySleepNV
 vkMapMemory
+vkMapMemory2
 vkMapMemory2KHR
 vkMergePipelineCaches
 vkMergeValidationCachesEXT
@@ -8891,11 +9020,13 @@ vkQueueSubmit: %d
 vkQueueWaitIdle
 vkRegisterDeviceEventEXT
 vkRegisterDisplayEventEXT
+vkReleaseCapturedPipelineDataKHR
 vkReleaseDisplayEXT
 vkReleaseFullScreenExclusiveModeEXT
 vkReleasePerformanceConfigurationINTEL
 vkReleaseProfilingLockKHR
 vkReleaseSwapchainImagesEXT
+vkReleaseSwapchainImagesKHR
 vkResetCommandBuffer
 vkResetCommandPool
 vkResetDescriptorPool
@@ -8916,17 +9047,22 @@ vkSetPrivateDataEXT
 vkSignalSemaphore
 vkSignalSemaphoreKHR
 vkSubmitDebugUtilsMessageEXT
+vkTransitionImageLayout
 vkTransitionImageLayoutEXT
 vkTrimCommandPool
 vkTrimCommandPoolKHR
 vkUninitializePerformanceApiINTEL
 vkUnmapMemory
+vkUnmapMemory2
 vkUnmapMemory2KHR
 vkUpdateDescriptorSetWithTemplate
 vkUpdateDescriptorSetWithTemplateKHR
 vkUpdateDescriptorSets
+vkUpdateIndirectExecutionSetPipelineEXT
+vkUpdateIndirectExecutionSetShaderEXT
 vkUpdateVideoSessionParametersKHR
 vkWaitForFences
+vkWaitForPresent2KHR
 vkWaitForPresentKHR
 vkWaitSemaphores
 vkWaitSemaphoresKHR
@@ -9009,6 +9145,7 @@ xrBeginFrame
 xrBeginFrame: compositor failed BeginFrame()
 xrBeginFrame: compositor failed DiscardFrame()
 xrBeginSession
+xrBeginTimingUtilsLabelVALVE
 xrConvertTimeToWin32PerformanceCounterKHR
 xrConvertTimeToWin32PerformanceCounterKHR: Time was invalid.
 xrConvertTimeToWin32PerformanceCounterKHR: performanceCounter is null\n
@@ -9024,14 +9161,12 @@ xrCreateHandTracker: Requested data source count was 0
 xrCreateHandTrackerEXT
 xrCreateHandTrackerEXT: Data source was duplicated
 xrCreateInstance
-xrCreateInstance error: attempted to enable EXT_DPAD_BINDING_EXTENSION without enabling required KHR_BINDING_MODIFICATION_EXTENSION \n
+xrCreateInstance error: attempted to enable EXT_DPAD_BINDING_EXTENSION without enabling required KHR_BINDING_MODIFICATION_EXTENSION.
 xrCreateInstance error: attempted to enable XR_EXT_INTERACTION_RENDER_MODEL without enabling required XR_EXT_RENDER_MODEL \n
 xrCreateInstance error: attempted to enable XR_EXT_RENDER_MODEL without enabling required XR_EXT_UUID \n
 xrCreateInstance error: attempted to enable XR_FB_foveation without enabling required XR_FB_swapchain_update_state
 xrCreateInstance error: attempted to enable XR_FB_foveation_configuration without enabling required XR_FB_foveation
 xrCreateInstance error: attempted to enable XR_FB_foveation_vulkan without enabling required XR_FB_foveation
-xrCreateInstance error: attempted to enable XR_META_foveation_eye_tracked without enabling required XR_FB_foveation
-xrCreateInstance error: attempted to enable XR_META_foveation_eye_tracked without enabling required XR_FB_foveation_configuration
 xrCreateInstance error: extension unsupported %s\n
 xrCreateInstance error: failed to create instance\n
 xrCreateInstance error: maximum 1 instance\n
@@ -9040,7 +9175,14 @@ xrCreateRenderModelAssetEXT
 xrCreateRenderModelEXT
 xrCreateRenderModelSpaceEXT
 xrCreateSession
-xrCreateSession: Ignoring unsupported extension in next chain of type: %d\n
+xrCreateSession: Failed to create binding
+xrCreateSession: Failed to create compositor
+xrCreateSession: Failed to create session
+xrCreateSession: Failed to initialize binding
+xrCreateSession: Ignoring unsupported structs in next chain of type: %d\n
+xrCreateSession: No binding struct was provided
+xrCreateSession: Only one graphics binding is allowed
+xrCreateSession: Reached limit of supported number of sessions
 xrCreateSession: bad system ID. Arg (%llu), Instance( %llu ) 
 xrCreateSession: failed to call xr*GetGraphicsRequirements before xrCreateSession\n
 xrCreateSession: failed to call xrGetVulkanGraphicsDevice before xrCreateSession
@@ -9064,6 +9206,7 @@ xrEndFrame
 xrEndFrame: compositor failed EndFrame()
 xrEndFrame: swapchain failed EndFrame()
 xrEndSession
+xrEndTimingUtilsLabelVALVE
 xrEnumerateBoundSourcesForAction
 xrEnumerateDisplayRefreshRatesFB
 xrEnumerateEnvironmentBlendModes
@@ -9094,6 +9237,11 @@ xrGetOpenGLGraphicsRequirementsKHR
 xrGetPerformanceMetricsStateMETA
 xrGetPerformanceMetricsStateMETA was passed a null state pointer.
 xrGetPerformanceMetricsStateMETA was passed state struct with the wrong type member.
+xrGetRecommendedLayerResolutionMETA
+xrGetRecommendedLayerResolutionMETA: Extension was not enabled.
+xrGetRecommendedLayerResolutionMETA: Failed to get refresh rate with error: %i
+xrGetRecommendedLayerResolutionMETA: Info or resolution was nullptr.
+xrGetRecommendedLayerResolutionMETA: Invalid display frequency.
 xrGetReferenceSpaceBoundsRect
 xrGetRenderModelAssetDataEXT
 xrGetRenderModelAssetPropertiesEXT
@@ -9115,10 +9263,12 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
+xrInsertTimingUtilsLabelVALVE
 xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.
 xrLocateHandJointsEXT
 xrLocateSpace
+xrLocateSpacesKHR
 xrLocateViews
 xrLocateViews called with a different view configuration type (%d) than was used in xrBeginSession (%d)\n
 xrLocateViews: Display time was invalid.
@@ -9164,7 +9314,5 @@ zh_cn
 zh_tw
 zlib corrupt
 znear
-{ "type": "keyboard_hidden" }
-{ "type": "keyboard_shown" }
 }/localization/localization.json
 ~universe:

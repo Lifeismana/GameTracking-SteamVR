@@ -1,19 +1,19 @@
-var CLSTAMP = "9981652";
+var CLSTAMP = "10029581";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [458],
   {
     3361: (e, t, o) => {
       o.d(t, { d: () => _ });
       var r,
-        n = o(6540),
-        i = o(3496),
-        a = o(6292);
+        i = o(6540),
+        a = o(3496),
+        n = o(6292);
       !(function (e) {
         (e[(e.Seated = 0)] = "Seated"),
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.Raw = 2)] = "Raw");
       })(r || (r = {}));
-      class _ extends i._J {
+      class _ extends a._J {
         constructor(e) {
           super(e);
           if (
@@ -30,23 +30,23 @@ var CLSTAMP = "9981652";
           var e;
           let t, o, _;
           this.props.transform
-            ? ((t = (0, i.j_)(this.props.transform.translation)),
+            ? ((t = (0, a.j_)(this.props.transform.translation)),
               (o = this.props.transform.rotation),
               (_ = this.props.transform.scale))
-            : ((t = (0, i.XI)(this.props.translation)
-                ? null === (e = (0, i.UM)(this.props.translation)) ||
+            : ((t = (0, a.XI)(this.props.translation)
+                ? null === (e = (0, a.UM)(this.props.translation)) ||
                   void 0 === e
                   ? void 0
                   : e.join(" ")
-                : (0, i.j_)(
-                    (0, i.Wi)(this.props.translation, { x: 0, y: 0, z: 0 }),
+                : (0, a.j_)(
+                    (0, a.Wi)(this.props.translation, { x: 0, y: 0, z: 0 }),
                   )),
               (o =
                 this.props.rotation && "w" in this.props.rotation
                   ? this.props.rotation
-                  : (0, a.Fb)(
-                      (0, a.tx)(
-                        (0, i.Wi)(this.props.rotation, { x: 0, y: 0, z: 0 }),
+                  : (0, n.Fb)(
+                      (0, n.tx)(
+                        (0, a.Wi)(this.props.rotation, { x: 0, y: 0, z: 0 }),
                         Math.PI / 180,
                       ),
                     )),
@@ -57,15 +57,15 @@ var CLSTAMP = "9981652";
                       y: this.props.scale,
                       z: this.props.scale,
                     }
-                  : (0, i.Wi)(this.props.scale, { x: 1, y: 1, z: 1 })));
-          let l = (0, i.hi)(o),
-            s = (0, i.j_)(_);
-          return n.createElement(
+                  : (0, a.Wi)(this.props.scale, { x: 1, y: 1, z: 1 })));
+          let s = (0, a.hi)(o),
+            l = (0, a.j_)(_);
+          return i.createElement(
             "vsg-transform",
             {
               translation: t,
-              rotation: l,
-              scale: s,
+              rotation: s,
+              scale: l,
               "curvature-pitch": this.props.curvature_pitch,
               "invert-parent-panel-pitch": this.props.invert_parent_panel_pitch,
               "ignore-parent-scale": this.props.ignore_parent_scale,
@@ -79,281 +79,13 @@ var CLSTAMP = "9981652";
         }
       }
     },
-    3725: (e, t, o) => {
-      var r, n, i, a;
-      function _() {
-        var e;
-        return null !==
-          (e =
-            null === VRHTML || void 0 === VRHTML
-              ? void 0
-              : VRHTML.Environment()) && void 0 !== e
-          ? e
-          : r.Unknown;
-      }
-      o.d(t, {
-        $Z: () => p,
-        Ee: () => C,
-        GQ: () => k,
-        Gz: () => s,
-        HW: () => I,
-        MV: () => i,
-        NB: () => S,
-        OH: () => r,
-        R$: () => _,
-        Rk: () => m,
-        Xl: () => B,
-        _1: () => T,
-        _E: () => l,
-        b: () => R,
-        gN: () => F,
-        k2: () => f,
-        kG: () => v,
-        ku: () => c,
-        mo: () => g,
-        mu: () => a,
-        ne: () => d,
-        pM: () => n,
-        rx: () => P,
-      }),
-        (function (e) {
-          (e[(e.Desktop = 1)] = "Desktop"),
-            (e[(e.Overlay = 2)] = "Overlay"),
-            (e[(e.Unknown = 100)] = "Unknown");
-        })(r || (r = {})),
-        window.hasOwnProperty("VRHTML") || (window.VRHTML = null),
-        (function (e) {
-          (e[(e.Auto = 0)] = "Auto"),
-            (e[(e.Low = 1)] = "Low"),
-            (e[(e.Medium = 2)] = "Medium"),
-            (e[(e.High = 3)] = "High");
-        })(n || (n = {})),
-        (function (e) {
-          (e[(e.TrackingResult_Uninitialized = 1)] =
-            "TrackingResult_Uninitialized"),
-            (e[(e.TrackingResult_Calibrating_InProgress = 100)] =
-              "TrackingResult_Calibrating_InProgress"),
-            (e[(e.TrackingResult_Calibrating_OutOfRange = 101)] =
-              "TrackingResult_Calibrating_OutOfRange"),
-            (e[(e.TrackingResult_Running_OK = 200)] =
-              "TrackingResult_Running_OK"),
-            (e[(e.TrackingResult_Running_OutOfRange = 201)] =
-              "TrackingResult_Running_OutOfRange"),
-            (e[(e.TrackingResult_Fallback_RotationOnly = 300)] =
-              "TrackingResult_Fallback_RotationOnly");
-        })(i || (i = {})),
-        (function (e) {
-          (e[(e.Seated = 0)] = "Seated"),
-            (e[(e.Standing = 1)] = "Standing"),
-            (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
-        })(a || (a = {}));
-      let l = 0,
-        s = 0,
-        d = 4294967295;
-      var p, u, c, S, m, g, D, I, h, B, R, y, C, F, v, M, f, P, A, T, k;
-      !(function (e) {
-        (e[(e.Invalid = 0)] = "Invalid"),
-          (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
-          (e[(e.FloorAdjustExisting = 2)] = "FloorAdjustExisting"),
-          (e[(e.RoomSetupFloor = 3)] = "RoomSetupFloor"),
-          (e[(e.ClearRoomSetup = 4)] = "ClearRoomSetup");
-      })(p || (p = {})),
-        (function (e) {
-          (e[(e.None = 0)] = "None"),
-            (e[(e.Shown = 1)] = "Shown"),
-            (e[(e.Hidden = 2)] = "Hidden"),
-            (e[(e.Exposed = 3)] = "Exposed"),
-            (e[(e.Moved = 4)] = "Moved"),
-            (e[(e.Resized = 5)] = "Resized"),
-            (e[(e.SizeChanged = 6)] = "SizeChanged"),
-            (e[(e.Minimized = 7)] = "Minimized"),
-            (e[(e.Maximized = 8)] = "Maximized"),
-            (e[(e.Restored = 9)] = "Restored"),
-            (e[(e.Enter = 10)] = "Enter"),
-            (e[(e.Leave = 11)] = "Leave"),
-            (e[(e.FocusGained = 12)] = "FocusGained"),
-            (e[(e.FocusLost = 13)] = "FocusLost"),
-            (e[(e.Close = 14)] = "Close"),
-            (e[(e.TakeFocus = 15)] = "TakeFocus"),
-            (e[(e.HitTest = 16)] = "HitTest");
-        })(u || (u = {})),
-        (function (e) {
-          (e[(e.Activated = 0)] = "Activated"),
-            (e[(e.Deactivated = 1)] = "Deactivated");
-        })(c || (c = {})),
-        (function (e) {
-          (e[(e.NoDashboardTab = 8)] = "NoDashboardTab"),
-            (e[(e.AcceptsGamepadEvents = 16)] = "AcceptsGamepadEvents"),
-            (e[(e.ShowGamepadFocus = 32)] = "ShowGamepadFocus"),
-            (e[(e.SendVRDiscreteScrollEvents = 64)] =
-              "SendVRDiscreteScrollEvents"),
-            (e[(e.SendVRTouchpadEvents = 128)] = "SendVRTouchpadEvents"),
-            (e[(e.ShowTouchPadScrollWheel = 256)] = "ShowTouchPadScrollWheel"),
-            (e[(e.TransferOwnershipToInternalProcess = 512)] =
-              "TransferOwnershipToInternalProcess"),
-            (e[(e.SideBySide_Parallel = 1024)] = "SideBySide_Parallel"),
-            (e[(e.SideBySide_Crossed = 2048)] = "SideBySide_Crossed"),
-            (e[(e.Panorama = 4096)] = "Panorama"),
-            (e[(e.StereoPanorama = 8192)] = "StereoPanorama"),
-            (e[(e.SortWithNonSceneOverlays = 16384)] =
-              "SortWithNonSceneOverlays"),
-            (e[(e.VisibleInDashboard = 32768)] = "VisibleInDashboard"),
-            (e[(e.MakeOverlaysInteractiveIfVisible = 65536)] =
-              "MakeOverlaysInteractiveIfVisible"),
-            (e[(e.SendVRSmoothScrollEvents = 131072)] =
-              "SendVRSmoothScrollEvents"),
-            (e[(e.ProtectedContent = 262144)] = "ProtectedContent"),
-            (e[(e.HideLaserIntersection = 524288)] = "HideLaserIntersection"),
-            (e[(e.WantsModalBehavior = 1048576)] = "WantsModalBehavior"),
-            (e[(e.IsPremultiplied = 2097152)] = "IsPremultiplied"),
-            (e[(e.IgnoreTextureAlpha = 4194304)] = "IgnoreTextureAlpha"),
-            (e[(e.EnableControlBarKeyboard = 16777216)] =
-              "EnableControlBarKeyboard"),
-            (e[(e.EnableControlBarClose = 33554432)] = "EnableControlBarClose"),
-            (e[(e.MinimalControlBar = 67108864)] = "MinimalControlBar"),
-            (e[(e.EnableClickStabilization = 134217728)] =
-              "EnableClickStabilization"),
-            (e[(e.MultiCursor = 268435456)] = "MultiCursor");
-        })(S || (S = {})),
-        (function (e) {
-          (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-        })(m || (m = {})),
-        (function (e) {
-          (e[(e.Invalid = 0)] = "Invalid"),
-            (e[(e.HMD = 1)] = "HMD"),
-            (e[(e.Controller = 2)] = "Controller"),
-            (e[(e.GenericTracker = 3)] = "GenericTracker"),
-            (e[(e.TrackingReference = 4)] = "TrackingReference"),
-            (e[(e.DisplayRedirect = 5)] = "DisplayRedirect");
-        })(g || (g = {})),
-        (function (e) {
-          (e[(e.Unknown = 0)] = "Unknown"),
-            (e[(e.NVIDIA = 1)] = "NVIDIA"),
-            (e[(e.AMD = 2)] = "AMD");
-        })(D || (D = {})),
-        (function (e) {
-          (e[(e.None = 0)] = "None"),
-            (e[(e.Starting = 1)] = "Starting"),
-            (e[(e.Quitting = 2)] = "Quitting"),
-            (e[(e.Running = 3)] = "Running"),
-            (e[(e.Waiting = 4)] = "Waiting");
-        })(I || (I = {})),
-        (function (e) {
-          (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
-            (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
-            (e[(e.ButtonPress_2 = 2)] = "ButtonPress_2"),
-            (e[(e.ButtonPress_3 = 3)] = "ButtonPress_3"),
-            (e[(e.CouldntFindSystemOverlay = 4)] = "CouldntFindSystemOverlay"),
-            (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
-              "CouldntFindOrCreateClientOverlay"),
-            (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-        })(h || (h = {})),
-        (function (e) {
-          (e[(e.Normal = 0)] = "Normal"),
-            (e[(e.Password = 1)] = "Password"),
-            (e[(e.Submit = 2)] = "Submit");
-        })(B || (B = {})),
-        (function (e) {
-          (e[(e.SingleLine = 0)] = "SingleLine"),
-            (e[(e.MultipleLines = 1)] = "MultipleLines");
-        })(R || (R = {})),
-        (function (e) {
-          (e[(e.LaserMouse = 1)] = "LaserMouse"),
-            (e[(e.Keyboard = 2)] = "Keyboard"),
-            (e[(e.RoomView = 4)] = "RoomView"),
-            (e[(e.DisplaySuppressed = 8)] = "DisplaySuppressed"),
-            (e[(e.SystemButtonDown = 16)] = "SystemButtonDown"),
-            (e[(e.DriverIsDrawingControllers = 32)] =
-              "DriverIsDrawingControllers"),
-            (e[(e.DriverRequestsApplicationPause = 64)] =
-              "DriverRequestsApplicationPause"),
-            (e[(e.DriverRequestsReducedRendering = 128)] =
-              "DriverRequestsReducedRendering");
-        })(y || (y = {})),
-        (function (e) {
-          (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
-            (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
-            (e[(e.BULK_16K_DMA = 2)] = "BULK_16K_DMA"),
-            (e[(e.BULK_8K_DMA = 3)] = "BULK_8K_DMA"),
-            (e[(e.ISO_52FPS = 4)] = "ISO_52FPS"),
-            (e[(e.ISO_50FPS = 5)] = "ISO_50FPS"),
-            (e[(e.ISO_48FPS = 6)] = "ISO_48FPS"),
-            (e[(e.ISO_46FPS = 7)] = "ISO_46FPS"),
-            (e[(e.ISO_44FPS = 8)] = "ISO_44FPS"),
-            (e[(e.ISO_42FPS = 9)] = "ISO_42FPS"),
-            (e[(e.ISO_40FPS = 10)] = "ISO_40FPS"),
-            (e[(e.ISO_35FPS = 11)] = "ISO_35FPS"),
-            (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
-            (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
-            (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-        })(C || (C = {})),
-        (function (e) {
-          (e[(e.None = 0)] = "None"),
-            (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
-            (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
-            (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
-            (e[(e.Error = -1)] = "Error");
-        })(F || (F = {})),
-        (function (e) {
-          (e[(e.TrackedControllerRole_Invalid = 0)] =
-            "TrackedControllerRole_Invalid"),
-            (e[(e.TrackedControllerRole_LeftHand = 1)] =
-              "TrackedControllerRole_LeftHand"),
-            (e[(e.TrackedControllerRole_RightHand = 2)] =
-              "TrackedControllerRole_RightHand"),
-            (e[(e.TrackedControllerRole_OptOut = 3)] =
-              "TrackedControllerRole_OptOut"),
-            (e[(e.TrackedControllerRole_Treadmill = 4)] =
-              "TrackedControllerRole_Treadmill"),
-            (e[(e.TrackedControllerRole_Max = 5)] =
-              "TrackedControllerRole_Max");
-        })(v || (v = {})),
-        (function (e) {
-          (e[(e.Unknown = 0)] = "Unknown"),
-            (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
-            (e[(e.Steam_StartSteamVRApp = 2)] = "Steam_StartSteamVRApp"),
-            (e[(e.Watchdog_Unknown = 10)] = "Watchdog_Unknown"),
-            (e[(e.Watchdog_Controller = 11)] = "Watchdog_Controller"),
-            (e[(e.Watchdog_Hmd = 12)] = "Watchdog_Hmd"),
-            (e[(e.AppLaunch_Unknown = 20)] = "AppLaunch_Unknown"),
-            (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
-            (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
-            (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-        })(M || (M = {})),
-        (function (e) {
-          e[(e.Hostname = 0)] = "Hostname";
-        })(f || (f = {})),
-        (function (e) {
-          (e[(e.Unavailable = 0)] = "Unavailable"),
-            (e[(e.Active = 1)] = "Active"),
-            (e[(e.Off = 2)] = "Off");
-        })(P || (P = {})),
-        (function (e) {
-          (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
-        })(A || (A = {})),
-        (function (e) {
-          (e[(e.Inactive = 0)] = "Inactive"),
-            (e[(e.PendingReset = 1)] = "PendingReset"),
-            (e[(e.PendingResetIfNeeded = 2)] = "PendingResetIfNeeded"),
-            (e[(e.Default = 3)] = "Default"),
-            (e[(e.CV = 4)] = "CV"),
-            (e[(e.Manual = 5)] = "Manual");
-        })(T || (T = {})),
-        (function (e) {
-          (e[(e.Small = 0)] = "Small"),
-            (e[(e.Medium = 1)] = "Medium"),
-            (e[(e.Large = 2)] = "Large"),
-            (e[(e.Gigantic = 3)] = "Gigantic"),
-            (e[(e.Standing = 4)] = "Standing");
-        })(k || (k = {}));
-    },
     4367: (e, t, o) => {
-      var r, n, i, a, _, l, s, d;
+      var r, i, a, n, _, s, l, p;
       o.d(t, {
-        $: () => d,
-        KI: () => s,
-        QR: () => a,
-        en: () => i,
+        $: () => p,
+        KI: () => l,
+        QR: () => n,
+        en: () => a,
         fD: () => r,
       }),
         (function (e) {
@@ -717,7 +449,7 @@ var CLSTAMP = "9981652";
             (e[(e.k_EButton_Reserved0 = 50)] = "k_EButton_Reserved0"),
             (e[(e.k_EButton_Reserved1 = 51)] = "k_EButton_Reserved1"),
             (e[(e.k_EButton_Max = 64)] = "k_EButton_Max");
-        })(n || (n = {})),
+        })(i || (i = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.ButtonEnter = 1)] = "ButtonEnter"),
@@ -725,13 +457,13 @@ var CLSTAMP = "9981652";
             (e[(e.Snap = 3)] = "Snap"),
             (e[(e.Sliding = 4)] = "Sliding"),
             (e[(e.SlidingEdge = 5)] = "SlidingEdge");
-        })(i || (i = {})),
+        })(a || (a = {})),
         (function (e) {
           (e[(e.Minimal = 1)] = "Minimal"),
             (e[(e.Modal = 2)] = "Modal"),
             (e[(e.ShowArrowKeys = 4)] = "ShowArrowKeys"),
             (e[(e.HideDoneKey = 8)] = "HideDoneKey");
-        })(a || (a = {})),
+        })(n || (n = {})),
         (function (e) {
           (e[(e.Unknown = -1)] = "Unknown"),
             (e[(e.Idle = 0)] = "Idle"),
@@ -746,18 +478,18 @@ var CLSTAMP = "9981652";
             (e[(e.Notification_BeginInteraction = 602)] =
               "Notification_BeginInteraction"),
             (e[(e.Notification_Destroyed = 603)] = "Notification_Destroyed");
-        })(l || (l = {})),
+        })(s || (s = {})),
         (function (e) {
           (e[(e.TheaterFast = 0)] = "TheaterFast"),
             (e[(e.TheaterSlow = 1)] = "TheaterSlow");
-        })(s || (s = {})),
+        })(l || (l = {})),
         (function (e) {
           (e[(e.Constant = 0)] = "Constant"),
             (e[(e.Nearest = 1)] = "Nearest"),
             (e[(e.Linear = 2)] = "Linear"),
             (e[(e.SmoothStep = 3)] = "SmoothStep"),
             (e[(e.SmootherStep = 4)] = "SmootherStep");
-        })(d || (d = {}));
+        })(p || (p = {}));
     },
   },
 ]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~1a88854fa.js.map

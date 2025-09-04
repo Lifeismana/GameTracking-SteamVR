@@ -168,7 +168,7 @@ $3br
 *NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIwLb1EEE
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN11videovulkan12SetupEncoderEvEUlvE_EEEEEE
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN12SVLDebugPane6UpdateEvEUlvE_EEEEEE
-*NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN16SVLAudioPipewire4InitEiEUlvE_EEEEEE
+*NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN16SVLAudioPipewire4InitEbiEUlvE_EEEEEE
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN22CThreadWatchdogManager13InitWatchdogsEvEUlvE_EEEEEE
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN9SVLDriver4InitEPN2vr16IVRDriverContextEEUlvE0_EEEEEE
 *Z13InitDriverLogPN2vr12IVRDriverLogEEUl9ELogLevelPKcPvE_
@@ -200,9 +200,9 @@ $3br
 *ZN6CVRLog7InitLogEPKcS1_bmEUl9ELogLevelS1_PvE_
 *ZN7SVLRoot4InitEvEUl16ValueTransportIDbE0_
 *ZN7SVLRoot4InitEvEUl16ValueTransportIDbE_
-*ZN8SVLAudioC4EP7SVLRootbEUl16ValueTransportIDbE0_
-*ZN8SVLAudioC4EP7SVLRootbEUl16ValueTransportIDbE1_
-*ZN8SVLAudioC4EP7SVLRootbEUl16ValueTransportIDbE_
+*ZN8SVLAudioC4EP7SVLRootEUl16ValueTransportIDbE0_
+*ZN8SVLAudioC4EP7SVLRootEUl16ValueTransportIDbE1_
+*ZN8SVLAudioC4EP7SVLRootEUl16ValueTransportIDbE_
 *ZN9SVLDriver4InitEPN2vr16IVRDriverContextEEUlPKcE_
 *ZN9SVLServer24RequestDashboardTutorialEvEUlRKN4Json5ValueEE_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE3_
@@ -274,6 +274,7 @@ $3br
 /data/src/common/vrcore/src/vripcsharedstate.cpp
 /data/src/vrlink/driver_vrlink/hmdvulkan.cpp
 /data/src/vrlink/driver_vrlink/steamvrlink.cpp
+/data/src/vrlink/driver_vrlink/videovulkan.cpp
 /dev/null
 /dev/random
 /dev/urandom
@@ -431,7 +432,6 @@ $3br
 /sys/kernel/tracing/trace_marker
 /tmp
 /tmp/.steam-sem-names
-/tmp/svl_mic_audio.bin
 /tmp/svl_val_errors.txt
 /tmp/vrlink_debug.h265
 /tracking/eye/CenterVecFull
@@ -542,7 +542,6 @@ $3br
 18SVLFECRAID6TXFrame
 18SVLHMDDriverVulkan
 18SVLHmdNotConnected
-19:30:08
 19SVLControllerDriver
 1e+9999
 20BinaryBlendPoseMaker
@@ -551,6 +550,7 @@ $3br
 21SVLHandTrackingDriver
 22CKeyframedDataResource
 22IControlConnectionImpl
+23:21:24
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -610,7 +610,7 @@ AdjustRelFOVClick(SVLCanvas*, svl_canvas_canned_gui_element_t const*, int, int, 
 AdvancedFrameTimeMonitoring::AppSubmitFrame(unsigned int, int, int)
 AdvancedFrameTimeMonitoring::BeginEncodingFrame(unsigned int, int)
 AdvancedFrameTimeMonitoring::BeginSendingFrame(unsigned int, unsigned short, int, unsigned int, unsigned int, unsigned int)
-AdvancedFrameTimeMonitoring::DegateGame(unsigned int, int)
+AdvancedFrameTimeMonitoring::DegateGame(unsigned int, int, int)
 AdvancedFrameTimeMonitoring::DoneEncodingFrame(unsigned int, int)
 AdvancedFrameTimeMonitoring::DoneSendingFrame(unsigned int, int)
 AdvancedFrameTimeMonitoring::EnctimeHistogramToOgsJsonString(unsigned int const*)
@@ -667,7 +667,7 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Audio
 Audio/Sink
 Audio/Source
-Aug 15 2025
+Aug 29 2025
 August
 Auto
 Autodetected %s
@@ -706,12 +706,12 @@ BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)
 BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty) (.cold)
 BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeys
 BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)::eKeysVector
-BKeyboardIsOpen(VRSystemLayerState_t const*)
+BKeyboardIsOpen(VRCompositorState_Keyboard_t const&)
 BLineSegmentsIntersect(vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t const&, vr::HmdVector2_t*)
 BLinkClientHandlesDashboardState()
 BLinkClientHandlesDashboardState() (.cold)
 BMP RLE
-BOverlayIsKeyboardImplementation(VRSystemLayerState_t const*, unsigned long, vr::EVRKeyboardImplementation*)
+BOverlayIsKeyboardImplementation(VRCompositorState_Keyboard_t const&, unsigned long, vr::EVRKeyboardImplementation*)
 BRenameFile(char const*, char const*)
 BSharedResourceNamespaceAvailable()
 BSharedResourceNamespaceAvailable() (.cold)
@@ -1234,11 +1234,11 @@ CRefCount::Release() const
 CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
-CSWTCH.103
 CSWTCH.107
-CSWTCH.145
+CSWTCH.127
 CSWTCH.216
 CSWTCH.408
+CSWTCH.91
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CScopedWatchdogDetailStringViaIVRServer::CScopedWatchdogDetailStringViaIVRServer(char const*)
@@ -1553,6 +1553,7 @@ CThreadWatchdogManager::InitWatchdogs() (.cold)
 CThreadWatchdogManager::Register(CThreadWatchdog::Status_s*)
 CThreadWatchdogManager::Register(CThreadWatchdog::Status_s*) (.cold)
 CThreadWatchdogManager::ShouldWatchdog()
+CThreadWatchdogManager::ShouldWatchdog() (.part.0)
 CThreadWatchdogManager::Unregister(CThreadWatchdog::Status_s*)
 CThreadWatchdogManager::~CThreadWatchdogManager()
 CTransform::CTransform(vr::VRBoneTransform_t const&)
@@ -1728,7 +1729,6 @@ Client HMD type (%d) supports eye tracking, creating input component
 Client Network Test Result: %s\n
 Client sent SYST_CLIENT_SHUTDOWN\n
 CloseKeyboard(VRSystemLayerState_t*)
-CloseKeyboard(VRSystemLayerState_t*) (.cold)
 CloseLog()
 CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string>>&)
 CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string>>&) (.cold)
@@ -1759,6 +1759,7 @@ Connection inactive for %f > %d seconds. Sending quit event.\n
 Connection inactive for %f > %d seconds. Waiting to quit for scene app %s.\n
 ConstIterator to Iterator should never be allowed.
 Control Connection %d closing...
+Could not acquire encoded data buffer from codec for frame: %i\n
 Could not create OpenGL Context/Window + Debug Window\n
 Could not find universeID in JSON.
 Could not find universes in JSON.
@@ -1798,6 +1799,7 @@ DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkD
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*) (.cold)
 December
 DeclareCurrentThreadIsMainThread
+DecodeCtbSizeFlag(unsigned int) (.part.0)
 DecodeTbSizeFlag(unsigned int)
 DestroyOverlayInternal(VRSystemLayerState_t*, unsigned long, bool)
 DestroyOverlayInternal(VRSystemLayerState_t*, unsigned long, bool) (.cold)
@@ -1909,7 +1911,6 @@ FAULT: Packet too big!!! Can't send!!! Dropping\n
 FEC decode fail %d %d %d\n
 FORMAT=32-bit_rle_rgbe
 FPR: %5.0f%%
-FROG
 FS Callbacks must be completely defined. At least one callback is null.
 FS callback[s] not set\n
 FSsRKSsPvE
@@ -1921,6 +1922,7 @@ FailHistH
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Terminating.\n
 Failed Watchdog timeout in thread %s after %f seconds\n
 Failed to AllocMutex
 Failed to LockMgrMutex in AllocMutex
@@ -2065,7 +2067,7 @@ GenerateUniqueSessionID() (.cold)
 Generating hidden area mesh for vrlink device X %s\n
 GetBacktraceStrings(std::vector<std::string, std::allocator<std::string>>&) (.constprop.0)
 GetBacktraceStrings(std::vector<std::string, std::allocator<std::string>>&) (.constprop.0) (.cold)
-GetBestKeyboardImplementation(VRSystemLayerState_t const*)
+GetBestKeyboardImplementation(VRCompositorState_Keyboard_t const&)
 GetBooleanInput(unsigned long, unsigned long)
 GetCachedFileTime
 GetCachedFileTime.cold
@@ -2093,9 +2095,9 @@ GetHmdErrorPriority(vr::EVRInitError)
 GetInputValueVisibilityFromString(char const*)
 GetKeyboardOverlay(VRSystemLayerState_t const*, vr::EVROverlayError*)
 GetKeyboardOverlay(VRSystemLayerState_t*, vr::EVROverlayError*)
-GetKeyboardOverlayHandle(VRSystemLayerState_t const*)
+GetKeyboardOverlayHandle(VRCompositorState_Keyboard_t const&)
 GetKeyboardOverlayIndex(VRSystemLayerState_t const*, vr::EVROverlayError*)
-GetKeyboardStatus(VRSystemLayerState_t const*, bool*, vr::EKeyboardFlags*)
+GetKeyboardStatus(VRCompositorState_Keyboard_t const&, bool*, vr::EKeyboardFlags*)
 GetLinkEnvironment()
 GetLinkEnvironment() (.cold)
 GetLinkEnvironment()::k_pathIsLinkEnvironment
@@ -2250,7 +2252,6 @@ HmdVector3ToJson(vr::HmdVector3d_t const&)
 HmdVector3ToJson(vr::HmdVector3d_t const&) (.cold)
 HostMacPrefix
 IN %d
-INTEL
 IPC error: LockMgrMutex failed to acquire SysMgrMutex: %d\n
 IPC: recovering abandoned mutex %p\n
 IPC::CIPCHandle::Import() const
@@ -2328,8 +2329,8 @@ IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -2355,7 +2356,6 @@ Init state
 InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) (.cold)
 InitIfNeeded
-InitInternalCameraPassthroughInterface(std::function<void* (char const*)>)
 InitInternalClientInterfaces(std::function<void* (char const*)>)
 InitInternalClientInterfaces(std::function<void* (char const*)>) (.cold)
 InitInternalDriverDirectInterface(std::function<void* (char const*)>)
@@ -3068,7 +3068,6 @@ NSt7__cxx119money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEE
 NSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEE
 NSt8ios_base7failureB5cxx11E
 NSt8ios_base7failureE
-NVIDIA
 NanosecondsFromSystemTicks(unsigned long)
 Neither required `bufferView` nor `uri` defined for image[
 New Session detected; Invalidating.\n
@@ -3122,8 +3121,8 @@ Oculus Quest3 (Left Controller)
 Oculus Quest3 (Right Controller)
 Oculus Quest3S
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
-OpenKeyboard(VRSystemLayerState_t*, unsigned long, EKeyboardState, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, char const*, unsigned int, char const*, unsigned int, unsigned long)
-OpenKeyboard(VRSystemLayerState_t*, unsigned long, EKeyboardState, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, char const*, unsigned int, char const*, unsigned int, unsigned long) (.cold)
+OpenKeyboard(TVRSharedState<VRSystemLayerState_t, false>*, unsigned long, EKeyboardState, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, char const*, unsigned int, char const*, unsigned int, unsigned long)
+OpenKeyboard(TVRSharedState<VRSystemLayerState_t, false>*, unsigned long, EKeyboardState, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, char const*, unsigned int, char const*, unsigned int, unsigned long) (.cold)
 OpenVRDevicePathToEnum(char const*)
 OpenVR_EnsurePathRegistryIntact(std::vector<std::string, std::allocator<std::string>>*)
 OpenVR_EnsurePathRegistryIntact(std::vector<std::string, std::allocator<std::string>>*) (.cold)
@@ -3191,6 +3190,7 @@ PackVTEProps(VTE_StreamingInfo_t*)
 Pack_SNORM_Uint8(float)
 Pairing to address: %s\n
 Pairing to broadcast address not allowed.\n
+Panic! Overwriting vCompleteFramePointer
 Parse error: 
 Parse failed for JSON message in mailbox %s: %s\n
 ParseStringListFromJson(std::vector<std::string, std::allocator<std::string>>*, Json::Value const&, char const*)
@@ -3499,13 +3499,10 @@ Qkkbal
 QoSEnabled
 QuaternionAligned::ToMatrix(VectorAligned const&) const
 QuaternionAligned::qIdentity
-RADV_DEBUG
-RADV_PERFTEST
 RGBAdobe
 RX Fail:%d
 RXThread
 Ran out of IPC SharedObjectManager entries!\n
-Rate Remark: %d %d\n
 RawdrawFontCharData
 RawdrawFontCharMap
 Rcon
@@ -3667,12 +3664,12 @@ SVLAudio::AcceptAudioFramesFromPeer(short*, int)
 SVLAudio::AcceptFramesFromDeviceForSendingOverNetwork(short*, int)
 SVLAudio::FillFrameBuffer(short*, int)
 SVLAudio::FlushAudioPacket()
-SVLAudio::InitJitterBuffer()
+SVLAudio::InitJitterBuffer(int)
 SVLAudio::OnPeerAudioDiscontinuity()
-SVLAudio::SVLAudio(SVLRoot*, bool)
-SVLAudio::SVLAudio(SVLRoot*, bool) (.cold)
-SVLAudio::Stop()
+SVLAudio::SVLAudio(SVLRoot*)
+SVLAudio::SVLAudio(SVLRoot*) (.cold)
 SVLAudio::SyncAudioControls(bool)
+SVLAudio::Tick()
 SVLAudio::TransmitAndUpdateFEC()
 SVLAudio::TransmitAudioPacket(dataset*, unsigned short)
 SVLAudio::TransportRXAudioFrames(dataset*)
@@ -3684,12 +3681,11 @@ SVLAudioPipewire: Failed to create pipewire context.
 SVLAudioPipewire: Failed to create pipewire loop.
 SVLAudioPipewire: Sink (input) stream (%d) state changed: %s
 SVLAudioPipewire: Source (output) stream (%d) state changed: %s
-SVLAudioPipewire::AcceptAudioFramesFromPeer(short*, int)
 SVLAudioPipewire::Cleanup
 SVLAudioPipewire::Cleanup()
-SVLAudioPipewire::Init(int)
-SVLAudioPipewire::Init(int) (.cold)
-SVLAudioPipewire::Init: %d
+SVLAudioPipewire::Init(bool, int)
+SVLAudioPipewire::Init(bool, int) (.cold)
+SVLAudioPipewire::Init: (Source: %d (%d) Sink: %d)
 SVLAudioPipewire::Init: Streams available on: Source: %d Sink: %d
 SVLAudioPipewire::Init: pipe2 failed
 SVLAudioPipewire::Init: pw_loop_iterate failed
@@ -3700,8 +3696,6 @@ SVLAudioPipewire::ProcessNudge()
 SVLAudioPipewire::ProcessSink()
 SVLAudioPipewire::ProcessSink: Out of buffers\n
 SVLAudioPipewire::ProcessSource()
-SVLAudioPipewire::ProcessSource() (.cold)
-SVLAudioPipewire::ProcessSource()::s_pDebugFile
 SVLAudioPipewire::ProcessSource: Out of buffers\n
 SVLAudioPipewire::ProcessThread()
 SVLAudioPipewire::ProcessThread() (.cold)
@@ -3709,8 +3703,8 @@ SVLAudioPipewire::ProcessThread: Lost connection to server
 SVLAudioPipewire::ProcessThread: Poll failed: %d
 SVLAudioPipewire::ProcessThread: Quitting
 SVLAudioPipewire::ProcessThread: pw_loop_iterate failed: %d
-SVLAudioPipewire::SVLAudioPipewire(SVLRoot*, bool)
-SVLAudioPipewire::SVLAudioPipewire(SVLRoot*, bool) (.cold)
+SVLAudioPipewire::SVLAudioPipewire(SVLRoot*)
+SVLAudioPipewire::SVLAudioPipewire(SVLRoot*) (.cold)
 SVLAudioPipewire::SVLAudioPipewire: Constructed
 SVLAudioPipewire::SVLAudioPipewire: Destructed
 SVLAudioPipewire::Stop
@@ -3742,6 +3736,7 @@ SVLCanvas::TackRectangle(int, int, int, int)
 SVLCanvas::TackSegment(int, int, int, int)
 SVLCanvas::Update(int, int, int, int, vr::HmdMatrix34_t*, int, vr::HmdMatrix34_t*)
 SVLCanvas::~SVLCanvas()
+SVLCodec::Flush()
 SVLCodec::HardReset()
 SVLCodec::SVLCodec(SVLRenderer*)
 SVLCodec::SoftReset()
@@ -3752,12 +3747,18 @@ SVLControllerDriver::Activate(unsigned int)
 SVLControllerDriver::Activate(unsigned int) (.cold)
 SVLControllerDriver::Activate(unsigned int)::'lambda0'()::operator()() const::encrypted
 SVLControllerDriver::Activate(unsigned int)::'lambda1'()::operator()() const::encrypted
+SVLControllerDriver::Activate(unsigned int)::'lambda11'()::operator()() const::encrypted
+SVLControllerDriver::Activate(unsigned int)::'lambda12'()::operator()() const::encrypted
+SVLControllerDriver::Activate(unsigned int)::'lambda13'()::operator()() const::encrypted
+SVLControllerDriver::Activate(unsigned int)::'lambda14'()::operator()() const::encrypted
 SVLControllerDriver::Activate(unsigned int)::'lambda2'()::operator()() const::encrypted
 SVLControllerDriver::Activate(unsigned int)::'lambda3'()::operator()() const::encrypted
 SVLControllerDriver::Activate(unsigned int)::'lambda4'()::operator()() const::encrypted
 SVLControllerDriver::Activate(unsigned int)::'lambda5'()::operator()() const::encrypted
 SVLControllerDriver::Activate(unsigned int)::'lambda6'()::operator()() const::encrypted
 SVLControllerDriver::Activate(unsigned int)::'lambda7'()::operator()() const::encrypted
+SVLControllerDriver::Activate(unsigned int)::'lambda8'()::operator()() const::encrypted
+SVLControllerDriver::Activate(unsigned int)::'lambda9'()::operator()() const::encrypted
 SVLControllerDriver::Deactivate()
 SVLControllerDriver::DebugRequest(char const*, char*, unsigned int)
 SVLControllerDriver::EnterStandby()
@@ -3801,7 +3802,7 @@ SVLDataLink::EventWriteStringNetworkF(char*, ...)
 SVLDataLink::EventWriteStringThread()
 SVLDataLink::FrameHasBeenAccepted(unsigned short, int)
 SVLDataLink::FrameHasBeenDecoded(unsigned int, int)
-SVLDataLink::FrameHasBeenSubmittedForDisplay(unsigned int, int)
+SVLDataLink::FrameHasBeenSubmittedForDisplay(unsigned int, int, int)
 SVLDataLink::GetReceiveAddrH()
 SVLDataLink::GetTXQueueDepth()
 SVLDataLink::HandleFECChange( %d )\n
@@ -3816,6 +3817,7 @@ SVLDataLink::InitCrypt(std::vector<char, std::allocator<char>>&, int, SVLTranspo
 SVLDataLink::InitCrypt(std::vector<char, std::allocator<char>>&, int, SVLTransportMode) (.cold)
 SVLDataLink::PrepareForPossibleShutdown()
 SVLDataLink::ProcessEvent(vr::VREvent_t const&)
+SVLDataLink::ReceiveTimedOut()
 SVLDataLink::ReceivedData(dataset*)
 SVLDataLink::Reconnect()
 SVLDataLink::ReportDropCount(int)
@@ -3949,13 +3951,16 @@ SVLDriverLogVerboseOnly
 SVLDriverLogVerboseOnly.cold
 SVLEventWriteString
 SVLFEC: frame %d was entirely dropped, initializing and re-requesting\n
-SVLFEC: substantive retry (%d packets) due to frame skip (skipped %d, last sub %d, group %d, bookend %d)\n
+SVLFEC: substantive retry (%d packets) due to frame skip (skipped %d, last sub %d, group %d, expected size %d)\n
 SVLFEC::AcceptVideoPacket(dataset*)
 SVLFEC::ExperiencedAnUnrecoverableError()
 SVLFEC::GetInFlightAndPendingQueueDepth()
 SVLFEC::GetMetadataForFrameId(unsigned short)
-SVLFEC::InternalAcceptFrameFromRX(unsigned int, unsigned char*, unsigned short)
+SVLFEC::GetMetadataForFrameId(unsigned short) (.cold)
+SVLFEC::InternalAcceptFrameFromRX(unsigned int, unsigned char**, unsigned short)
 SVLFEC::InternalAcceptFrameFromRX: Failed to acquire pRender
+SVLFEC::NoPacketReceived()
+SVLFEC::PeriodicCheckForErrors()
 SVLFEC::ProcessTXVideoFrameThreadFunction()
 SVLFEC::ProcessTXVideoFrameThreadFunction() (.part.0)
 SVLFEC::ProcessVideoReply(dataset*)
@@ -3994,7 +3999,6 @@ SVLFECRXFrame::CheckRetry(int) (.cold)
 SVLFECRXFrame::Initialize(unsigned short, unsigned int, SVLVideoFrameDescriptor_t*)
 SVLFECRXFrame::Initialize(unsigned short, unsigned int, SVLVideoFrameDescriptor_t*) (.cold)
 SVLFECRXFrame::Invalidate()
-SVLFECRXFrame::Invalidate() (.part.0)
 SVLFECRXFrame::MarkBlockReceived(unsigned short, int)
 SVLFECRXFrame::SVLFECRXFrame(SVLFEC*)
 SVLFECRXFrame::UnguidedCheckRetry()
@@ -4144,7 +4148,7 @@ SVLHmdNotConnected::GetPose()
 SVLRenderer::AcceptFrameMetadata(TransportFrameMetadata_t const*, int)
 SVLRenderer::GetFrameMetadataFromCursor(int)
 SVLRenderer::InitDebugCanvas()
-SVLRenderer::MarkMetadataAsInvalid(int)
+SVLRenderer::MarkMetadataAsInvalid(unsigned int)
 SVLRenderer::SVLRenderer(SVLRoot*)
 SVLRenderer::Stop()
 SVLRenderer::~SVLRenderer()
@@ -4282,6 +4286,8 @@ SVLServer::WatchedShader::~WatchedShader()
 SVLServer::s_sWaterfallEventNames
 SVLServer::~SVLServer()
 SVLSpinwait
+SVST_VIDEO_TRANSPORT: WARNING: Could not initialize frame on hardware.\n
+SVST_VIDEO_TRANSPORT_DESCRIPTION: WARNING: Could not initialize frame on hardware.\n
 Saturday
 Sc?Nb
 ScaleOverlayBoundsToSharedTexture(vr::VRTextureBounds_t const&, vr::VRTextureBounds_t const&)
@@ -4507,6 +4513,7 @@ StaticPoseMaker::CreatePose(CPoseRecipe&, unsigned char) const
 StaticPoseMaker::StaticPoseMaker(CKeyframedDataResource const*, int)
 StaticPoseMaker::~StaticPoseMaker()
 Steam Argument Count: %d\n
+Steam Link
 SteamAPI_SetBreakpadAppID
 SteamAPI_SetMiniDumpComment
 SteamAPI_UseBreakpadCrashHandler
@@ -4839,6 +4846,7 @@ VRApplicationError_SteamVRIsExiting
 VRApplicationError_TransitionAborted
 VRApplicationError_UnknownApplication
 VRApplicationError_UnknownProperty
+VRApplicationError_WaitingForChaperone
 VRApplication_Background
 VRApplication_Bootstrapper
 VRApplication_OpenXRInstance
@@ -5077,23 +5085,23 @@ VRLinkTX
 VRLink_BitstreamBuffer
 VRLink_BufferMemory
 VRLink_ChromaImageView
+VRLink_ComputeCommandBuffer
+VRLink_ComputeCommandPool
+VRLink_ComputeQueue
+VRLink_ComputeToVideoSemaphore
 VRLink_ConstantBuffer
 VRLink_DPBImage
 VRLink_DPBImageView
 VRLink_DpbImagesMemory
-VRLink_GraphicsCommandBuffer
-VRLink_GraphicsCommandPool
-VRLink_GraphicsQueue
-VRLink_GraphicsToVideoSemaphore
 VRLink_LumaImageView
 VRLink_VideoCommandBuffer
 VRLink_VideoCommandPool
 VRLink_VideoQueryPool
 VRLink_VideoQueue
+VRLink_VideoSemaphore
 VRLink_VideoSession
 VRLink_VideoSessionMemory
 VRLink_VideoSessionParams
-VRLink_VideoToVideoSemaphore
 VRLink_YUVBackbuffer
 VRLink_YUVImageMemory
 VRLink_YUVImageView
@@ -5462,8 +5470,6 @@ VkSemaphore_T*& std::vector<VkSemaphore_T*, std::allocator<VkSemaphore_T*>>::emp
 VrInitGpuProfiling()
 WARNING Initializing frame number %d.  Expected size too large (%d > %d).\n
 WARNING: Corrupt UDP packet went long (%d size, %d left, %d total length)\n
-WARNING: Could not acquire encoded data buffer from codec.\n
-WARNING: Could not initialize frame on hardware.\n
 WARNING: Could not set IP_TOS on data link
 WARNING: Error to get option on IP_TOS
 WARNING: Packet was XMITTed that was too big. [%d %d %d %d / %d]\n
@@ -5534,17 +5540,19 @@ XXXX PNG chunk not known
 YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
 Zjz\v
 [AnimSkeleton] Failed to load GLTF file: %s
+[Audio] Attempt to set audio rx channels to %d.
+[Audio] frame rate change, reinitializing: %d %d to %d %d\n
 [GetHmdModel] Unknown HMD Model number: %s
 [HMDVulkan]    format: %d
 [HMDVulkan]    imageCreateFlags: %d
 [HMDVulkan]    imageTiling: %d
 [HMDVulkan]    imageType: %d
 [HMDVulkan]    imageUsageFlags: %d
-[HMDVulkan]  Created VkDevice with Graphics Queue Family: %d and Video Encode Queue Family: %d.
+[HMDVulkan]  Created VkDevice with Compute Queue Family: %d and Video Encode Queue Family: %d.
 [HMDVulkan] %s
 [HMDVulkan] %s: unknown vulkan message severity
+[HMDVulkan] AcquireSync: Couldn't find a backbuffer to use! Waiting...
 [HMDVulkan] AcquireSync: Failed waiting for backbuffer. This should never happen!
-[HMDVulkan] AcquireSynxc: Couldn't find a backbuffer to use! Waiting...
 [HMDVulkan] Activate()
 [HMDVulkan] Activate: Done!
 [HMDVulkan] Attempting to allocate YUV image with size: %ux%u
@@ -5566,7 +5574,6 @@ Zjz\v
 [HMDVulkan] Failed to create Vulkan instance: %x
 [HMDVulkan] Failed to create backbuffer images... Exiting...
 [HMDVulkan] Failed to create buffers... Exiting...
-[HMDVulkan] Failed to create chroma pipeline: %x
 [HMDVulkan] Failed to create command pool: %x
 [HMDVulkan] Failed to create compute pipeline: %x
 [HMDVulkan] Failed to create descriptor pool: %x
@@ -5574,7 +5581,6 @@ Zjz\v
 [HMDVulkan] Failed to create device... Exiting...
 [HMDVulkan] Failed to create device: %d
 [HMDVulkan] Failed to create instance... Exiting...
-[HMDVulkan] Failed to create luma pipeline: %x
 [HMDVulkan] Failed to create pipeline layout: %x
 [HMDVulkan] Failed to create pipelines... Exiting...
 [HMDVulkan] Failed to get device memory type
@@ -5605,6 +5611,7 @@ Zjz\v
 [SVLControllerHand] Error activating controller, Prop_ModelNumber_String not set\n
 [SVLControllerHand] Error activating controller, VTE_StaticProps_t not available\n
 [SVLController] Activate Error: Unsupported controller type "%s"\n
+[SVLController] Activate Warning: Unknown render model name "%s", using default "%s"\n
 [SVLController] Activating controller on TrackedDeviceIndex_t %d\n
 [SVLController] Error activating controller, Prop_ControllerType_String not set\n
 [SVLController] Error activating controller, Prop_ModelNumber_String not set\n
@@ -5614,6 +5621,9 @@ Zjz\v
 [SVLController] Overriding Quest specific properties for %s\n
 [SVLController] Reported HMD model is %d\n
 [SVLController] Setting up HTC Vive Focus Controller: %s
+[SVLFEC] Saw a re-accept in InternalAcceptFrameFromRX.
+[SVLFEC] accepting a frame for submission without metadata [ %d ]
+[SVLFEC] received late metadata for frame [ %d ]
 [SVLHMD] Re-requesting static props: projectionParams: %i chaperone: %i power: %i statichmd: %i defaults: %i framerateUs: %i
 [SVLHandTrackingDriver] ~SVLHandTrackingDriver()
 [SVLRenderer] AcceptFrameMetadata  m_iPresentNumber=%d, history_idx=%d fdiff=%d
@@ -5632,10 +5642,7 @@ Zjz\v
 [System] Path Registry contains invalid data, sanitizing: 
 [System] Path Registry not found, initializing: 
 [VideoVulkan-EncodeWaitThread] Encode failed: %i
-[VideoVulkan-EncodeWaitThread] Failed to read from pending encode pipe
-[VideoVulkan-EncodeWaitThread] Goodbye!
-[VideoVulkan-EncodeWaitThread] Poll failed, exiting...
-[VideoVulkan-EncodeWaitThread] Remote hung up in pending encode pipe. Exiting...
+[VideoVulkan-EncodeWaitThread] Failed to wait for frame %u
 [VideoVulkan-EncodeWaitThread] We frogged up! Resetting...
 [VideoVulkan-EncodeWaitThread] pFrame->eFrameState was not SVL_VULKAN_VIDEO_QUEUE_SUBMITTED for frame %u
 [VideoVulkan]    bEnableCrop: %u
@@ -5664,7 +5671,6 @@ Zjz\v
 [VideoVulkan]    uWidth: %u
 [VideoVulkan] Bitstream header size: %u\n
 [VideoVulkan] Couldn't create VkVideoSessionParametersKHR, not submitting frame.
-[VideoVulkan] Couldn't open pending encode pipe
 [VideoVulkan] CreateVideoSessionParamaters: dump
 [VideoVulkan] CreateVideoSessionParamaters: slice count: %d
 [VideoVulkan] Created vkCreateVideoSessionKHR! chosen m_MaxSVLVideoExtent: %ux%u\n
@@ -5674,17 +5680,16 @@ Zjz\v
 [VideoVulkan] Failed to get host device local memory type for dpb\n
 [VideoVulkan] Failed to get host device local memory type for video session memory requirements
 [VideoVulkan] Failed to get host visible + host coherent memory type
-[VideoVulkan] Failed to notify pending encode on pipe\n
-[VideoVulkan] Failed to write to pipe to shutdown, this is bad, we may hang or crash.\n
+[VideoVulkan] Failed to setup video capabilities with: 10bit: %s, ull: %s
 [VideoVulkan] Init Success!
 [VideoVulkan] Init()
 [VideoVulkan] Is 10 bit SUPPORTED? %s
-[VideoVulkan] No free encoder slots. Missing this frame :(
+[VideoVulkan] Is Ultra Low Latency SUPPORTED? %s
 [VideoVulkan] No link to submit frames to!.
 [VideoVulkan] Resize: %d %d
-[VideoVulkan] USING 10-BIT VULKAN VIDEO
-[VideoVulkan] USING 8-BIT VULKAN VIDEO
+[VideoVulkan] Setting video capabilties: 10bit: %s, ull: %s
 [VideoVulkan] Unhandled nSpatialEncodeMode, cannot determine nNumSlices
+[VideoVulkan] Warning!! Quality level: %u does not prefer VBR!
 [VideoVulkan] vkGetPhysicalDeviceVideoFormatPropertiesKHR: %u properties for VK_IMAGE_USAGE_VIDEO_ENCODE_DPB_BIT_KHR:\n
 [json.exception.
 \n==========\n
@@ -5717,40 +5722,19 @@ _.stapsdt.base
 _DYNAMIC
 _GLOBAL_OFFSET_TABLE_
 _GLOBAL__sub_I.00101_ipcposix.cpp
-_GLOBAL__sub_I_AdvancedFrameTimeMonitoring.cpp
 _GLOBAL__sub_I_ByteLogger.cpp
 _GLOBAL__sub_I_SVL.cpp
-_GLOBAL__sub_I_SVLAudio.cpp
 _GLOBAL__sub_I_SVLAudioPipewire.cpp
-_GLOBAL__sub_I_SVLCanvas.cpp
-_GLOBAL__sub_I_SVLCodec.cpp
 _GLOBAL__sub_I_SVLController.cpp
 _GLOBAL__sub_I_SVLControllerBase.cpp
 _GLOBAL__sub_I_SVLControllerHand.cpp
 _GLOBAL__sub_I_SVLCrypt.cpp
-_GLOBAL__sub_I_SVLCryptSoft.cpp
 _GLOBAL__sub_I_SVLDataLink.cpp
-_GLOBAL__sub_I_SVLDataLinkUDP.cpp
 _GLOBAL__sub_I_SVLDebugPane.cpp
-_GLOBAL__sub_I_SVLFEC.cpp
-_GLOBAL__sub_I_SVLFECRAID6.cpp
-_GLOBAL__sub_I_SVLPacking.cpp
-_GLOBAL__sub_I_SVLRenderer.cpp
 _GLOBAL__sub_I_SVLRoot.cpp
 _GLOBAL__sub_I_SVLSkeletonCompression.cpp
-_GLOBAL__sub_I_SoundLogger.cpp
-_GLOBAL__sub_I_VariableTransport.cpp
-_GLOBAL__sub_I_addposeoperation.cpp
-_GLOBAL__sub_I_animpose.cpp
 _GLOBAL__sub_I_animresource.cpp
-_GLOBAL__sub_I_animresourcefactory.cpp
-_GLOBAL__sub_I_animresourcemanager.cpp
-_GLOBAL__sub_I_animskeleton.cpp
-_GLOBAL__sub_I_animstatemachine.cpp
-_GLOBAL__sub_I_animutils.cpp
 _GLOBAL__sub_I_base64.cpp
-_GLOBAL__sub_I_blendposeoperation.cpp
-_GLOBAL__sub_I_bonemaskposeoperation.cpp
 _GLOBAL__sub_I_bonemaskresource.cpp
 _GLOBAL__sub_I_bonemaskresource.cpp.cold
 _GLOBAL__sub_I_controlconnection.cpp
@@ -5761,45 +5745,29 @@ _GLOBAL__sub_I_handanimevaluator.cpp
 _GLOBAL__sub_I_handposelogic_oculustouch.cpp
 _GLOBAL__sub_I_hiddenarea.cpp
 _GLOBAL__sub_I_hmd.cpp
-_GLOBAL__sub_I_hmderrors.cpp
 _GLOBAL__sub_I_hmdvulkan.cpp
 _GLOBAL__sub_I_ipcpipe.cpp
 _GLOBAL__sub_I_keyframeddataresource.cpp
 _GLOBAL__sub_I_keyframeddataresource.cpp.cold
-_GLOBAL__sub_I_keyframesamplerposeoperation.cpp
-_GLOBAL__sub_I_linkbwmonitor.cpp
 _GLOBAL__sub_I_locale_inst.cc
-_GLOBAL__sub_I_localization.cpp
 _GLOBAL__sub_I_logbuffer.cpp
 _GLOBAL__sub_I_matrix44aligned.cpp
-_GLOBAL__sub_I_mempool.cpp
-_GLOBAL__sub_I_mirrorposeoperation.cpp
 _GLOBAL__sub_I_openvr_internal.cpp
-_GLOBAL__sub_I_poserecipe.cpp
-_GLOBAL__sub_I_poseupdatecontext.cpp
 _GLOBAL__sub_I_quaternionaligned.cpp
 _GLOBAL__sub_I_reflection.cpp
 _GLOBAL__sub_I_sharedresource_linux.cpp
 _GLOBAL__sub_I_sharedresourcenamespace.cpp
-_GLOBAL__sub_I_skeletonlist.cpp
 _GLOBAL__sub_I_steamvrlink.cpp
 _GLOBAL__sub_I_strtools_public.cpp
-_GLOBAL__sub_I_subtractposeoperation.cpp
 _GLOBAL__sub_I_system_error.cc
 _GLOBAL__sub_I_threadtools.cpp
 _GLOBAL__sub_I_threadwatchdog.cpp
-_GLOBAL__sub_I_threadwatchdog_server.cpp
 _GLOBAL__sub_I_transform.cpp
-_GLOBAL__sub_I_twoboneikposeoperation.cpp
 _GLOBAL__sub_I_vectoraligned.cpp
 _GLOBAL__sub_I_videoenc.cpp
 _GLOBAL__sub_I_videovulkan.cpp
 _GLOBAL__sub_I_vrcrash.cpp
-_GLOBAL__sub_I_vrkeyboard.cpp
-_GLOBAL__sub_I_vrlinktools.cpp
 _GLOBAL__sub_I_vrlog.cpp
-_GLOBAL__sub_I_vrmailbox.cpp
-_GLOBAL__sub_I_vrsystemlayersharedstate.cpp
 _GLOBAL__sub_I_wlocale_inst.cc
 _ITM_RU1
 _ITM_RU8
@@ -6762,7 +6730,6 @@ guard variable for PackControllerInputRoy(PackedControllerInput_t*, int, vr::VRC
 guard variable for PackControllerInputRoy(PackedControllerInput_t*, int, vr::VRControllerState001_t const&)::k_pathInputRoyRightTouch
 guard variable for PackHmdInput(PackedHmdInput_t*)::k_pathInputSystemClick
 guard variable for SDLDynamic()::m_instance
-guard variable for SVLAudioPipewire::ProcessSource()::s_pDebugFile
 guard variable for SVLHMDDriver::HandleNetworkTestReportFromClient()::k_pathDriverVrlinkNetworkTestedBandwidth
 guard variable for SVLHMDDriver::ReceivedHMDStaticProps(VTE_StaticProps_t&)::k_pathDriverVrlinkGotEyeAndExpression
 guard variable for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const::k_pathDriverVrlinkClientVersion
@@ -6834,6 +6801,7 @@ hu_hu
 hungarian
 iHexCharToInt(char)
 iQ %5.2f
+iRXFrameID %d != pRXFrame->m_iFrameNumber %d
 i]Wb
 iconv
 iconv_close
@@ -7039,7 +7007,6 @@ k_unStringPropertyTag
 k_unUint64PropertyTag
 k_unUnknownPropertyTag_
 k_unWildcardPropertyTag
-keyboard_vrwebui
 keylength >= 2^30
 kill
 ko_kr
@@ -7119,6 +7086,7 @@ mbsrtowcs
 media.category
 media.class
 media.role
+media.software
 media.type
 memchr
 memcmp
@@ -7280,6 +7248,7 @@ oculus_quest_pro
 oculus_quest_pro_controller
 oculus_touch
 off.png
+ojeak
 once_regsizes.9477
 only 8-bit
 open
@@ -7302,6 +7271,7 @@ operator new[](unsigned long, std::nothrow_t const&)
 operator new[](unsigned long, std::nothrow_t const&) (.cold)
 orthographic
 other_error
+oti`w
 out_of_range
 outerConeAngle
 outofdata
@@ -7312,6 +7282,7 @@ overlay_key
 overrideRenderHeight
 overrideRenderWidth
 pData
+pFrame->ulVideoTimeline == ulTimelineSequence
 pHeader->resourceInfo.image.uHeight
 pHeader->resourceInfo.image.uWidth
 pHeader->resourceInfo.image.unArraySize
@@ -7358,8 +7329,6 @@ primitive indices accessor out of bounds
 primitives
 print
 printf
-ps_main
-ps_main_chroma
 pt_br
 pt_pt
 pthread_attr_init
@@ -7405,6 +7374,7 @@ pw_core_disconnect
 pw_init
 pw_loop_destroy
 pw_loop_new
+pw_properties_free
 pw_properties_new
 pw_properties_set
 pw_properties_setf
@@ -7417,6 +7387,8 @@ pw_stream_get_node_id
 pw_stream_new
 pw_stream_queue_buffer
 pw_stream_state_as_string
+pw_stream_update_params
+pw_stream_update_properties
 qualitySharpeningThresholdMbit
 rand
 random_device could not be read
@@ -7474,7 +7446,6 @@ right_
 ro_ro
 rolloffFactor
 romanian
-room_setup
 rotation
 roughnessFactor
 rsbox
@@ -7497,6 +7468,23 @@ sTXerr
 sTimeConf
 sVTXFailFuzz
 s_FileTimeMutex
+s_OpenGLFunctions.pCreateMemoryObjectsEXT != nullptr
+s_OpenGLFunctions.pDeleteMemoryObjectsEXT != nullptr
+s_OpenGLFunctions.pDeleteSemaphoresEXT != nullptr
+s_OpenGLFunctions.pGenSemaphoresEXT != nullptr
+s_OpenGLFunctions.pGetMemoryObjectParameterivEXT != nullptr
+s_OpenGLFunctions.pGetSemaphoreParameterui64vEXT != nullptr
+s_OpenGLFunctions.pGetUnsignedBytei_vEXT != nullptr
+s_OpenGLFunctions.pGetUnsignedBytevEXT != nullptr
+s_OpenGLFunctions.pImportMemoryFdEXT != nullptr
+s_OpenGLFunctions.pImportSemaphoreFdEXT != nullptr
+s_OpenGLFunctions.pMemoryObjectParameterivEXT != nullptr
+s_OpenGLFunctions.pSemaphoreParameterui64vEXT != nullptr
+s_OpenGLFunctions.pSignalSemaphoreEXT != nullptr
+s_OpenGLFunctions.pTexStorageMem2DEXT != nullptr
+s_OpenGLFunctions.pTexStorageMem2DMultisampleEXT != nullptr
+s_OpenGLFunctions.pTexStorageMem3DEXT != nullptr
+s_OpenGLFunctions.pWaitSemaphoreEXT != nullptr
 s_SinkStreamHook
 s_SourceStreamHook
 s_ThreadWatchdogManager
@@ -7857,9 +7845,9 @@ std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::strin
 std::_Function_base::_Base_manager<InitDriverLog(vr::IVRDriverLog*)::'lambda'(ELogLevel, char const*, void*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<InitInternalInterfacesNonStandard(void* (*)(char const*))::'lambda'(char const*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<ProcessControlRxBufferToMailbox(std::vector<unsigned char, std::allocator<unsigned char>>&, CVRMailbox&)::'lambda'(EControlConnectMessageType, void const*, unsigned long)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda0'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda1'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<SVLAudio::SVLAudio(SVLRoot*)::'lambda'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<SVLAudio::SVLAudio(SVLRoot*)::'lambda0'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<SVLAudio::SVLAudio(SVLRoot*)::'lambda1'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLBaseControllerDriver::RegisterVariableListeners()::'lambda'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLBaseControllerDriver::RegisterVariableListeners()::'lambda0'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLDataLinkUDP::PrepareForPossibleShutdown()::'lambda'()>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
@@ -7931,9 +7919,9 @@ std::_Function_handler<void (Json::Value const&), SVLServer::RequestDashboardTut
 std::_Function_handler<void (Json::Value const&), SVLServer::RequestDashboardTutorial()::'lambda'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&) (.cold)
 std::_Function_handler<void (Json::Value const&), std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(Json::Value const&)>>::_M_invoke(std::_Any_data const&, Json::Value const&)
 std::_Function_handler<void (ValueTransportID, bool), ByteLogger::SetRoot(SVLRoot*)::'lambda'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
-std::_Function_handler<void (ValueTransportID, bool), SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
-std::_Function_handler<void (ValueTransportID, bool), SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda0'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
-std::_Function_handler<void (ValueTransportID, bool), SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda1'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
+std::_Function_handler<void (ValueTransportID, bool), SVLAudio::SVLAudio(SVLRoot*)::'lambda'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
+std::_Function_handler<void (ValueTransportID, bool), SVLAudio::SVLAudio(SVLRoot*)::'lambda0'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
+std::_Function_handler<void (ValueTransportID, bool), SVLAudio::SVLAudio(SVLRoot*)::'lambda1'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLBaseControllerDriver::RegisterVariableListeners()::'lambda'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLBaseControllerDriver::RegisterVariableListeners()::'lambda0'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
@@ -11008,8 +10996,8 @@ std::thread::_State_impl<std::thread::_Invoker<std::tuple<CHandAnimEvaluator::CH
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::'lambda'()>>>::_M_run()
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::'lambda'()>>>::_M_run() (.cold)
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::'lambda'()>>>::~_State_impl()
-std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioPipewire::Init(int)::'lambda'()>>>::_M_run()
-std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioPipewire::Init(int)::'lambda'()>>>::~_State_impl()
+std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioPipewire::Init(bool, int)::'lambda'()>>>::_M_run()
+std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioPipewire::Init(bool, int)::'lambda'()>>>::~_State_impl()
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDebugPane::Update()::'lambda'()>>>::_M_run()
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDebugPane::Update()::'lambda'()>>>::~_State_impl()
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDriver::Init(vr::IVRDriverContext*)::'lambda0'()>>>::_M_run()
@@ -11191,6 +11179,7 @@ stdin
 stdout
 steamrt
 steamvr
+steamvr.internal
 stof
 stopcapture
 strcasecmp
@@ -11247,7 +11236,7 @@ systemTicksPerSecond
 systemTicksToNanosecondDenum
 systemTicksToNanosecondNum
 systemTimeInitialized
-systemui_dashboard
+systemui_dashboard_private
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -11667,9 +11656,9 @@ typeinfo for Reflection::Detail::TypeInfoT<Reflection::Object>
 typeinfo for Reflection::Object
 typeinfo for Reflection::TypeInfo
 typeinfo for SVLAudio
-typeinfo for SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda'(ValueTransportID, bool)
-typeinfo for SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda0'(ValueTransportID, bool)
-typeinfo for SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda1'(ValueTransportID, bool)
+typeinfo for SVLAudio::SVLAudio(SVLRoot*)::'lambda'(ValueTransportID, bool)
+typeinfo for SVLAudio::SVLAudio(SVLRoot*)::'lambda0'(ValueTransportID, bool)
+typeinfo for SVLAudio::SVLAudio(SVLRoot*)::'lambda1'(ValueTransportID, bool)
 typeinfo for SVLAudioPipewire
 typeinfo for SVLBaseControllerDriver
 typeinfo for SVLBaseControllerDriver::RegisterVariableListeners()::'lambda'(ValueTransportID, bool)
@@ -11935,7 +11924,7 @@ typeinfo for std::system_error
 typeinfo for std::thread::_State
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CHandAnimEvaluator::CHandAnimEvaluator(vr::IVRDriverInput*, unsigned long, IHandPoseLogic*, vr::EVRHandSide)::'lambda'()>>>
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::'lambda'()>>>
-typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioPipewire::Init(int)::'lambda'()>>>
+typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioPipewire::Init(bool, int)::'lambda'()>>>
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDebugPane::Update()::'lambda'()>>>
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDriver::Init(vr::IVRDriverContext*)::'lambda0'()>>>
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<videovulkan::SetupEncoder()::'lambda'()>>>
@@ -12042,9 +12031,9 @@ typeinfo name for Reflection::Detail::TypeInfoT<Reflection::Object>
 typeinfo name for Reflection::Object
 typeinfo name for Reflection::TypeInfo
 typeinfo name for SVLAudio
-typeinfo name for SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda'(ValueTransportID, bool)
-typeinfo name for SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda0'(ValueTransportID, bool)
-typeinfo name for SVLAudio::SVLAudio(SVLRoot*, bool)::'lambda1'(ValueTransportID, bool)
+typeinfo name for SVLAudio::SVLAudio(SVLRoot*)::'lambda'(ValueTransportID, bool)
+typeinfo name for SVLAudio::SVLAudio(SVLRoot*)::'lambda0'(ValueTransportID, bool)
+typeinfo name for SVLAudio::SVLAudio(SVLRoot*)::'lambda1'(ValueTransportID, bool)
 typeinfo name for SVLAudioPipewire
 typeinfo name for SVLBaseControllerDriver
 typeinfo name for SVLBaseControllerDriver::RegisterVariableListeners()::'lambda'(ValueTransportID, bool)
@@ -12311,7 +12300,7 @@ typeinfo name for std::system_error
 typeinfo name for std::thread::_State
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CHandAnimEvaluator::CHandAnimEvaluator(vr::IVRDriverInput*, unsigned long, IHandPoseLogic*, vr::EVRHandSide)::'lambda'()>>>
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::'lambda'()>>>
-typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioPipewire::Init(int)::'lambda'()>>>
+typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioPipewire::Init(bool, int)::'lambda'()>>>
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDebugPane::Update()::'lambda'()>>>
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDriver::Init(vr::IVRDriverContext*)::'lambda0'()>>>
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<videovulkan::SetupEncoder()::'lambda'()>>>
@@ -12401,7 +12390,6 @@ vector<bool>::_M_insert_aux
 version
 version.txt
 vi_vn
-video_encode
 videoenc::BWHistoryClear()
 videoenc::BWHistoryGetMean()
 videoenc::BWHistoryPush(float)
@@ -12433,9 +12421,11 @@ videovulkan::GetVendorName()
 videovulkan::Init(grttype, void*, void*)
 videovulkan::Is10BitSupported()
 videovulkan::Resize(int, int)
+videovulkan::SetVideoCapabilities(bool, bool)
 videovulkan::SetupEncoder()
 videovulkan::SetupEncoder() (.cold)
 videovulkan::SetupEncoder()::h265StdExtensionVersion
+videovulkan::ShouldUseQualityLevel()
 videovulkan::SubmitFrame(void*, TransportFrameMetadata_t const&, unsigned int)
 videovulkan::videovulkan(SVLDriver*)
 videovulkan::videovulkan(SVLDriver*) (.cold)
@@ -12536,7 +12526,7 @@ vkAcquireNextImageKHR
 vkAcquirePerformanceConfigurationINTEL
 vkAcquireProfilingLockKHR
 vkAllocateCommandBuffers
-vkAllocateCommandBuffers( m_State.pVkDevice, &cmdBufAllocInfo, &yuvImage.pVkGraphicsCommandBuffer ) failed! (VkResult: %d)
+vkAllocateCommandBuffers( m_State.pVkDevice, &cmdBufAllocInfo, &yuvImage.pVkComputeCommandBuffer ) failed! (VkResult: %d)
 vkAllocateCommandBuffers( m_pState->pVkDevice, &cmdbufAllocInfo, &m_vecFrames[ i ].pVkCommandBuffer ) failed! (VkResult: %d)
 vkAllocateDescriptorSets
 vkAllocateMemory
@@ -12545,6 +12535,7 @@ vkAllocateMemory( m_State.pVkDevice, &imageAllocInfo, nullptr, &yuvImage.pVkImag
 vkAllocateMemory( m_pState->pVkDevice, &bitstreamAllocInfo, nullptr, &m_pVkBitstreamMemory ) failed! (VkResult: %d)
 vkAllocateMemory( m_pState->pVkDevice, &dpbImageAllocInfo, nullptr, &m_pVkDpbImageMemories[i] ) failed! (VkResult: %d)
 vkAllocateMemory( m_pState->pVkDevice, &sessionMemoryAllocInfo, nullptr, &pVkVideoSessionMemory ) failed! (VkResult: %d)
+vkAntiLagUpdateAMD
 vkBeginCommandBuffer
 vkBeginCommandBuffer( pCurrentFrame->pVkCommandBuffer, &cmdBufBegin ) failed! (VkResult: %d)
 vkBindAccelerationStructureMemoryNV
@@ -12553,18 +12544,21 @@ vkBindBufferMemory( m_State.pVkDevice, m_pVkConstantBuffer, m_pVkBufferMemory, 0
 vkBindBufferMemory( m_pState->pVkDevice, m_pVkBitstreamBuffer, m_pVkBitstreamMemory, 0 ) failed! (VkResult: %d)
 vkBindBufferMemory2
 vkBindBufferMemory2KHR
+vkBindDataGraphPipelineSessionMemoryARM
 vkBindImageMemory
 vkBindImageMemory( m_State.pVkDevice, yuvImage.pVkImage, yuvImage.pVkImageMemory, 0 ) failed! (VkResult: %d)
 vkBindImageMemory( m_pState->pVkDevice, m_pVkDpbImages[i], m_pVkDpbImageMemories[i], 0 ) failed! (VkResult: %d)
 vkBindImageMemory2
 vkBindImageMemory2KHR
 vkBindOpticalFlowSessionImageNV
+vkBindTensorMemoryARM
 vkBindVideoSessionMemoryKHR
 vkBindVideoSessionMemoryKHR( m_pState->pVkDevice, m_pVkVideoSession, 1u, &bindVideoSessionMemoryInfo ) failed! (VkResult: %d)
 vkBuildAccelerationStructuresKHR
 vkBuildMicromapsEXT
 vkCmdBeginConditionalRenderingEXT
 vkCmdBeginDebugUtilsLabelEXT
+vkCmdBeginPerTileExecutionQCOM
 vkCmdBeginQuery
 vkCmdBeginQueryIndexedEXT
 vkCmdBeginRenderPass
@@ -12578,14 +12572,17 @@ vkCmdBindDescriptorBufferEmbeddedSamplers2EXT
 vkCmdBindDescriptorBufferEmbeddedSamplersEXT
 vkCmdBindDescriptorBuffersEXT
 vkCmdBindDescriptorSets
+vkCmdBindDescriptorSets2
 vkCmdBindDescriptorSets2KHR
 vkCmdBindIndexBuffer
+vkCmdBindIndexBuffer2
 vkCmdBindIndexBuffer2KHR
 vkCmdBindInvocationMaskHUAWEI
 vkCmdBindPipeline
 vkCmdBindPipelineShaderGroupNV
 vkCmdBindShadersEXT
 vkCmdBindShadingRateImageNV
+vkCmdBindTileMemoryQCOM
 vkCmdBindTransformFeedbackBuffersEXT
 vkCmdBindVertexBuffers
 vkCmdBindVertexBuffers2
@@ -12596,11 +12593,14 @@ vkCmdBlitImage2KHR
 vkCmdBuildAccelerationStructureNV
 vkCmdBuildAccelerationStructuresIndirectKHR
 vkCmdBuildAccelerationStructuresKHR
+vkCmdBuildClusterAccelerationStructureIndirectNV
 vkCmdBuildMicromapsEXT
+vkCmdBuildPartitionedAccelerationStructuresNV
 vkCmdClearAttachments
 vkCmdClearColorImage
 vkCmdClearDepthStencilImage
 vkCmdControlVideoCodingKHR
+vkCmdConvertCooperativeVectorMatrixNV
 vkCmdCopyAccelerationStructureKHR
 vkCmdCopyAccelerationStructureNV
 vkCmdCopyAccelerationStructureToMemoryKHR
@@ -12623,8 +12623,8 @@ vkCmdCopyMemoryToMicromapEXT
 vkCmdCopyMicromapEXT
 vkCmdCopyMicromapToMemoryEXT
 vkCmdCopyQueryPoolResults
+vkCmdCopyTensorARM
 vkCmdCuLaunchKernelNVX
-vkCmdCudaLaunchKernelNV
 vkCmdDebugMarkerBeginEXT
 vkCmdDebugMarkerEndEXT
 vkCmdDebugMarkerInsertEXT
@@ -12634,7 +12634,9 @@ vkCmdDecompressMemoryNV
 vkCmdDispatch
 vkCmdDispatchBase
 vkCmdDispatchBaseKHR
+vkCmdDispatchDataGraphARM
 vkCmdDispatchIndirect
+vkCmdDispatchTileQCOM
 vkCmdDraw
 vkCmdDrawClusterHUAWEI
 vkCmdDrawClusterIndirectHUAWEI
@@ -12659,16 +12661,19 @@ vkCmdDrawMultiIndexedEXT
 vkCmdEncodeVideoKHR
 vkCmdEndConditionalRenderingEXT
 vkCmdEndDebugUtilsLabelEXT
+vkCmdEndPerTileExecutionQCOM
 vkCmdEndQuery
 vkCmdEndQueryIndexedEXT
 vkCmdEndRenderPass
 vkCmdEndRenderPass2
 vkCmdEndRenderPass2KHR
 vkCmdEndRendering
+vkCmdEndRendering2EXT
 vkCmdEndRenderingKHR
 vkCmdEndTransformFeedbackEXT
 vkCmdEndVideoCodingKHR
 vkCmdExecuteCommands
+vkCmdExecuteGeneratedCommandsEXT
 vkCmdExecuteGeneratedCommandsNV
 vkCmdFillBuffer
 vkCmdInsertDebugUtilsLabelEXT
@@ -12679,11 +12684,17 @@ vkCmdOpticalFlowExecuteNV
 vkCmdPipelineBarrier
 vkCmdPipelineBarrier2
 vkCmdPipelineBarrier2KHR
+vkCmdPreprocessGeneratedCommandsEXT
 vkCmdPreprocessGeneratedCommandsNV
 vkCmdPushConstants
+vkCmdPushConstants2
 vkCmdPushConstants2KHR
+vkCmdPushDescriptorSet
+vkCmdPushDescriptorSet2
 vkCmdPushDescriptorSet2KHR
 vkCmdPushDescriptorSetKHR
+vkCmdPushDescriptorSetWithTemplate
+vkCmdPushDescriptorSetWithTemplate2
 vkCmdPushDescriptorSetWithTemplate2KHR
 vkCmdPushDescriptorSetWithTemplateKHR
 vkCmdResetEvent
@@ -12721,6 +12732,7 @@ vkCmdSetDepthBounds
 vkCmdSetDepthBoundsTestEnable
 vkCmdSetDepthBoundsTestEnableEXT
 vkCmdSetDepthClampEnableEXT
+vkCmdSetDepthClampRangeEXT
 vkCmdSetDepthClipEnableEXT
 vkCmdSetDepthClipNegativeOneToOneEXT
 vkCmdSetDepthCompareOp
@@ -12747,8 +12759,10 @@ vkCmdSetFragmentShadingRateKHR
 vkCmdSetFrontFace
 vkCmdSetFrontFaceEXT
 vkCmdSetLineRasterizationModeEXT
+vkCmdSetLineStipple
 vkCmdSetLineStippleEXT
 vkCmdSetLineStippleEnableEXT
+vkCmdSetLineStippleKHR
 vkCmdSetLineWidth
 vkCmdSetLogicOpEXT
 vkCmdSetLogicOpEnableEXT
@@ -12767,6 +12781,10 @@ vkCmdSetRasterizationStreamEXT
 vkCmdSetRasterizerDiscardEnable
 vkCmdSetRasterizerDiscardEnableEXT
 vkCmdSetRayTracingPipelineStackSizeKHR
+vkCmdSetRenderingAttachmentLocations
+vkCmdSetRenderingAttachmentLocationsKHR
+vkCmdSetRenderingInputAttachmentIndices
+vkCmdSetRenderingInputAttachmentIndicesKHR
 vkCmdSetRepresentativeFragmentTestEnableNV
 vkCmdSetSampleLocationsEXT
 vkCmdSetSampleLocationsEnableEXT
@@ -12810,11 +12828,15 @@ vkCmdWriteTimestamp
 vkCmdWriteTimestamp2
 vkCmdWriteTimestamp2KHR
 vkCompileDeferredNV
+vkConvertCooperativeVectorMatrixNV
 vkCopyAccelerationStructureKHR
 vkCopyAccelerationStructureToMemoryKHR
+vkCopyImageToImage
 vkCopyImageToImageEXT
+vkCopyImageToMemory
 vkCopyImageToMemoryEXT
 vkCopyMemoryToAccelerationStructureKHR
+vkCopyMemoryToImage
 vkCopyMemoryToImageEXT
 vkCopyMemoryToMicromapEXT
 vkCopyMicromapEXT
@@ -12830,8 +12852,8 @@ vkCreateCommandPool( m_pState->pVkDevice, &poolCreateInfo, nullptr, &m_pVkComman
 vkCreateComputePipelines
 vkCreateCuFunctionNVX
 vkCreateCuModuleNVX
-vkCreateCudaFunctionNV
-vkCreateCudaModuleNV
+vkCreateDataGraphPipelineSessionARM
+vkCreateDataGraphPipelinesARM
 vkCreateDebugReportCallbackEXT
 vkCreateDebugUtilsMessengerEXT
 vkCreateDeferredOperationKHR
@@ -12843,6 +12865,7 @@ vkCreateDevice
 vkCreateDisplayModeKHR
 vkCreateDisplayPlaneSurfaceKHR
 vkCreateEvent
+vkCreateExternalComputeQueueNV
 vkCreateFence
 vkCreateFramebuffer
 vkCreateGraphicsPipelines
@@ -12856,10 +12879,13 @@ vkCreateImageView( m_State.pVkDevice, &imageViewCreateInfo, nullptr, &pResources
 vkCreateImageView( m_State.pVkDevice, &lumaImageViewCreateInfo, nullptr, &yuvImage.pVkLumaImageView ) failed! (VkResult: %d)
 vkCreateImageView( m_State.pVkDevice, &yuvImageViewCreateInfo, nullptr, &yuvImage.pVkYUVImageView ) failed! (VkResult: %d)
 vkCreateImageView( m_pState->pVkDevice, &imageViewCreateInfo, nullptr, &m_pVkDbpImageViews[ i ] ) failed! (VkResult: %d)
+vkCreateIndirectCommandsLayoutEXT
 vkCreateIndirectCommandsLayoutNV
+vkCreateIndirectExecutionSetEXT
 vkCreateInstance
 vkCreateMicromapEXT
 vkCreateOpticalFlowSessionNV
+vkCreatePipelineBinariesKHR
 vkCreatePipelineCache
 vkCreatePipelineLayout
 vkCreatePrivateDataSlot
@@ -12876,17 +12902,16 @@ vkCreateSampler( m_State.pVkDevice, &samplerInfo, nullptr, &m_pVkSampler ) faile
 vkCreateSamplerYcbcrConversion
 vkCreateSamplerYcbcrConversionKHR
 vkCreateSemaphore
-vkCreateSemaphore( m_State.pVkDevice, &semaphoreCreateInfo, nullptr, &yuvImage.pVkGraphicsToVideoQueueSemaphore ) failed! (VkResult: %d)
-vkCreateSemaphore( m_pState->pVkDevice, &semaphoreCreateInfo, nullptr, &m_pVkVideoToVideoSemaphore ) failed! (VkResult: %d)
+vkCreateSemaphore( m_State.pVkDevice, &semaphoreCreateInfo, nullptr, &yuvImage.pVkComputeToVideoQueueSemaphore ) failed! (VkResult: %d)
+vkCreateSemaphore( m_pState->pVkDevice, &semaphoreCreateInfo, nullptr, &m_pVkVideoSemaphore ) failed! (VkResult: %d)
 vkCreateShaderModule
 vkCreateShaderModule( m_State.pVkDevice, &computeChromaShaderModuleInfo, nullptr, &m_ChromaComputeModule ) failed! (VkResult: %d)
 vkCreateShaderModule( m_State.pVkDevice, &computeLumaShaderModuleInfo, nullptr, &m_LumaComputeModule ) failed! (VkResult: %d)
-vkCreateShaderModule( m_State.pVkDevice, &fragChromaShaderModuleInfo, nullptr, &m_ChromaFragModule ) failed! (VkResult: %d)
-vkCreateShaderModule( m_State.pVkDevice, &fragShaderModuleInfo, nullptr, &m_LumaFragModule ) failed! (VkResult: %d)
-vkCreateShaderModule( m_State.pVkDevice, &vertexShaderModuleInfo, nullptr, &m_VertModule ) failed! (VkResult: %d)
 vkCreateShadersEXT
 vkCreateSharedSwapchainsKHR
 vkCreateSwapchainKHR
+vkCreateTensorARM
+vkCreateTensorViewARM
 vkCreateValidationCacheEXT
 vkCreateVideoSessionKHR
 vkCreateVideoSessionKHR( m_pState->pVkDevice, &sessionCreateInfo, nullptr, &m_pVkVideoSession ) failed! (VkResult: %d)
@@ -12903,8 +12928,7 @@ vkDestroyBufferView
 vkDestroyCommandPool
 vkDestroyCuFunctionNVX
 vkDestroyCuModuleNVX
-vkDestroyCudaFunctionNV
-vkDestroyCudaModuleNV
+vkDestroyDataGraphPipelineSessionARM
 vkDestroyDebugReportCallbackEXT
 vkDestroyDebugUtilsMessengerEXT
 vkDestroyDeferredOperationKHR
@@ -12914,15 +12938,19 @@ vkDestroyDescriptorUpdateTemplate
 vkDestroyDescriptorUpdateTemplateKHR
 vkDestroyDevice
 vkDestroyEvent
+vkDestroyExternalComputeQueueNV
 vkDestroyFence
 vkDestroyFramebuffer
 vkDestroyImage
 vkDestroyImageView
+vkDestroyIndirectCommandsLayoutEXT
 vkDestroyIndirectCommandsLayoutNV
+vkDestroyIndirectExecutionSetEXT
 vkDestroyInstance
 vkDestroyMicromapEXT
 vkDestroyOpticalFlowSessionNV
 vkDestroyPipeline
+vkDestroyPipelineBinaryKHR
 vkDestroyPipelineCache
 vkDestroyPipelineLayout
 vkDestroyPrivateDataSlot
@@ -12937,6 +12965,8 @@ vkDestroyShaderEXT
 vkDestroyShaderModule
 vkDestroySurfaceKHR
 vkDestroySwapchainKHR
+vkDestroyTensorARM
+vkDestroyTensorViewARM
 vkDestroyValidationCacheEXT
 vkDestroyVideoSessionKHR
 vkDestroyVideoSessionParametersKHR
@@ -12944,6 +12974,7 @@ vkDeviceWaitIdle
 vkDeviceWaitIdle( m_State.pVkDevice ) failed! (VkResult: %d)
 vkDisplayPowerControlEXT
 vkEndCommandBuffer
+vkEndCommandBuffer( pCurrentFrame->pVkCommandBuffer ) failed! (VkResult: %d)
 vkEnumerateDeviceExtensionProperties
 vkEnumerateDeviceLayerProperties
 vkEnumerateInstanceExtensionProperties
@@ -12973,7 +13004,11 @@ vkGetBufferOpaqueCaptureAddressKHR
 vkGetBufferOpaqueCaptureDescriptorDataEXT
 vkGetCalibratedTimestampsEXT
 vkGetCalibratedTimestampsKHR
-vkGetCudaModuleCacheNV
+vkGetClusterAccelerationStructureBuildSizesNV
+vkGetDataGraphPipelineAvailablePropertiesARM
+vkGetDataGraphPipelinePropertiesARM
+vkGetDataGraphPipelineSessionBindPointRequirementsARM
+vkGetDataGraphPipelineSessionMemoryRequirementsARM
 vkGetDeferredOperationMaxConcurrencyKHR
 vkGetDeferredOperationResultKHR
 vkGetDescriptorEXT
@@ -12995,6 +13030,7 @@ vkGetDeviceImageMemoryRequirements
 vkGetDeviceImageMemoryRequirementsKHR
 vkGetDeviceImageSparseMemoryRequirements
 vkGetDeviceImageSparseMemoryRequirementsKHR
+vkGetDeviceImageSubresourceLayout
 vkGetDeviceImageSubresourceLayoutKHR
 vkGetDeviceMemoryCommitment
 vkGetDeviceMemoryOpaqueCaptureAddress
@@ -13005,6 +13041,7 @@ vkGetDeviceProcAddrStub
 vkGetDeviceQueue
 vkGetDeviceQueue2
 vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI
+vkGetDeviceTensorMemoryRequirementsARM
 vkGetDisplayModeProperties2KHR
 vkGetDisplayModePropertiesKHR
 vkGetDisplayPlaneCapabilities2KHR
@@ -13015,9 +13052,11 @@ vkGetDynamicRenderingTilePropertiesQCOM
 vkGetEncodedVideoSessionParametersKHR
 vkGetEncodedVideoSessionParametersKHR( m_pState->pVkDevice, &getInfo, &feedbackInfo, &zBufferSize, pCurrentFrame->bitstreamHeader.data.data() ) failed! (VkResult: %d)
 vkGetEventStatus
+vkGetExternalComputeQueueDataNV
 vkGetFenceFdKHR
 vkGetFenceStatus
 vkGetFramebufferTilePropertiesQCOM
+vkGetGeneratedCommandsMemoryRequirementsEXT
 vkGetGeneratedCommandsMemoryRequirementsNV
 vkGetImageDrmFormatModifierPropertiesEXT
 vkGetImageMemoryRequirements
@@ -13028,9 +13067,11 @@ vkGetImageSparseMemoryRequirements
 vkGetImageSparseMemoryRequirements2
 vkGetImageSparseMemoryRequirements2KHR
 vkGetImageSubresourceLayout
+vkGetImageSubresourceLayout2
 vkGetImageSubresourceLayout2EXT
 vkGetImageSubresourceLayout2KHR
 vkGetImageViewAddressNVX
+vkGetImageViewHandle64NVX
 vkGetImageViewHandleNVX
 vkGetImageViewOpaqueCaptureDescriptorDataEXT
 vkGetInstanceProcAddr
@@ -13041,12 +13082,15 @@ vkGetMemoryFdPropertiesKHR
 vkGetMemoryHostPointerPropertiesEXT
 vkGetMemoryRemoteAddressNV
 vkGetMicromapBuildSizesEXT
+vkGetPartitionedAccelerationStructuresBuildSizesNV
 vkGetPastPresentationTimingGOOGLE
 vkGetPerformanceParameterINTEL
 vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
 vkGetPhysicalDeviceCalibrateableTimeDomainsKHR
+vkGetPhysicalDeviceCooperativeMatrixFlexibleDimensionsPropertiesNV
 vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR
 vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
+vkGetPhysicalDeviceCooperativeVectorPropertiesNV
 vkGetPhysicalDeviceDisplayPlaneProperties2KHR
 vkGetPhysicalDeviceDisplayPlanePropertiesKHR
 vkGetPhysicalDeviceDisplayProperties2KHR
@@ -13058,6 +13102,7 @@ vkGetPhysicalDeviceExternalFencePropertiesKHR
 vkGetPhysicalDeviceExternalImageFormatPropertiesNV
 vkGetPhysicalDeviceExternalSemaphoreProperties
 vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
+vkGetPhysicalDeviceExternalTensorPropertiesARM
 vkGetPhysicalDeviceFeatures
 vkGetPhysicalDeviceFeatures2
 vkGetPhysicalDeviceFeatures2KHR
@@ -13077,6 +13122,8 @@ vkGetPhysicalDevicePresentRectanglesKHR
 vkGetPhysicalDeviceProperties
 vkGetPhysicalDeviceProperties2
 vkGetPhysicalDeviceProperties2KHR
+vkGetPhysicalDeviceQueueFamilyDataGraphProcessingEnginePropertiesARM
+vkGetPhysicalDeviceQueueFamilyDataGraphPropertiesARM
 vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR
 vkGetPhysicalDeviceQueueFamilyProperties
 vkGetPhysicalDeviceQueueFamilyProperties2
@@ -13095,19 +13142,21 @@ vkGetPhysicalDeviceSurfaceSupportKHR
 vkGetPhysicalDeviceToolProperties
 vkGetPhysicalDeviceToolPropertiesEXT
 vkGetPhysicalDeviceVideoCapabilitiesKHR
-vkGetPhysicalDeviceVideoCapabilitiesKHR( m_pState->pVkPhysicalDevice, &m_VideoProfileInfo, &m_VideoCapabilities ) failed! (VkResult: %d)
 vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR
+vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR( m_pState->pVkPhysicalDevice, &encodeQualityLevelInfo, &encodeQualityLevelProperties ) failed! (VkResult: %d)
 vkGetPhysicalDeviceVideoFormatPropertiesKHR
 vkGetPhysicalDeviceVideoFormatPropertiesKHR( m_State.pVkPhysicalDevice, &videoFormatInfo, &encodeFormatPropertyCount, encodeFormatProperties.data() ) failed! (VkResult: %d)
 vkGetPhysicalDeviceVideoFormatPropertiesKHR( m_State.pVkPhysicalDevice, &videoFormatInfo, &encodeFormatPropertyCount, nullptr ) failed! (VkResult: %d)
 vkGetPhysicalDeviceVideoFormatPropertiesKHR( m_pState->pVkPhysicalDevice, &videoFormatInfo, &dpbFormatPropertyCount, dpbFormatProperties.data() ) failed! (VkResult: %d)
 vkGetPhysicalDeviceVideoFormatPropertiesKHR( m_pState->pVkPhysicalDevice, &videoFormatInfo, &dpbFormatPropertyCount, nullptr ) failed! (VkResult: %d)
+vkGetPipelineBinaryDataKHR
 vkGetPipelineCacheData
 vkGetPipelineExecutableInternalRepresentationsKHR
 vkGetPipelineExecutablePropertiesKHR
 vkGetPipelineExecutableStatisticsKHR
 vkGetPipelineIndirectDeviceAddressNV
 vkGetPipelineIndirectMemoryRequirementsNV
+vkGetPipelineKeyKHR
 vkGetPipelinePropertiesEXT
 vkGetPrivateData
 vkGetPrivateDataEXT
@@ -13120,6 +13169,7 @@ vkGetRayTracingShaderGroupHandlesNV
 vkGetRayTracingShaderGroupStackSizeKHR
 vkGetRefreshCycleDurationGOOGLE
 vkGetRenderAreaGranularity
+vkGetRenderingAreaGranularity
 vkGetRenderingAreaGranularityKHR
 vkGetSamplerOpaqueCaptureDescriptorDataEXT
 vkGetSemaphoreCounterValue
@@ -13132,6 +13182,9 @@ vkGetShaderModuleIdentifierEXT
 vkGetSwapchainCounterEXT
 vkGetSwapchainImagesKHR
 vkGetSwapchainStatusKHR
+vkGetTensorMemoryRequirementsARM
+vkGetTensorOpaqueCaptureDescriptorDataARM
+vkGetTensorViewOpaqueCaptureDescriptorDataARM
 vkGetValidationCacheDataEXT
 vkGetVideoSessionMemoryRequirementsKHR
 vkGetVideoSessionMemoryRequirementsKHR( m_pState->pVkDevice, m_pVkVideoSession, &uVideoSessionMemoryCount, nullptr ) failed! (VkResult: %d)
@@ -13144,6 +13197,7 @@ vkLatencySleepNV
 vkMapMemory
 vkMapMemory( m_State.pVkDevice, m_pVkBufferMemory, 0, (~0ULL), 0, &m_pBufferData ) failed! (VkResult: %d)
 vkMapMemory( m_pState->pVkDevice, m_pVkBitstreamMemory, 0, (~0ULL), 0, &m_pBitstreamData ) failed! (VkResult: %d)
+vkMapMemory2
 vkMapMemory2KHR
 vkMergePipelineCaches
 vkMergeValidationCachesEXT
@@ -13156,18 +13210,20 @@ vkQueuePresentKHR
 vkQueueSetPerformanceConfigurationINTEL
 vkQueueSubmit
 vkQueueSubmit to wait on counting semaphores failed with result %d Value: %lx
-vkQueueSubmit( m_State.pVkGraphicsQueue, 1u, &submitInfo, VK_NULL_HANDLE ) failed! (VkResult: %d)
+vkQueueSubmit( m_State.pVkComputeQueue, 1u, &submitInfo, VK_NULL_HANDLE ) failed! (VkResult: %d)
 vkQueueSubmit2
 vkQueueSubmit2KHR
 vkQueueWaitIdle
-vkQueueWaitIdle( m_State.pVkGraphicsQueue ) failed! (VkResult: %d)
+vkQueueWaitIdle( m_State.pVkComputeQueue ) failed! (VkResult: %d)
 vkQueueWaitIdle( m_pState->pVkVideoQueue ) failed! (VkResult: %d)
 vkRegisterDeviceEventEXT
 vkRegisterDisplayEventEXT
+vkReleaseCapturedPipelineDataKHR
 vkReleaseDisplayEXT
 vkReleasePerformanceConfigurationINTEL
 vkReleaseProfilingLockKHR
 vkReleaseSwapchainImagesEXT
+vkReleaseSwapchainImagesKHR
 vkResetCommandBuffer
 vkResetCommandBuffer( pCurrentFrame->pVkCommandBuffer, 0u ) failed! (VkResult: %d)
 vkResetCommandPool
@@ -13190,17 +13246,22 @@ vkSignalSemaphore
 vkSignalSemaphore failed with result %d. Value: %lx
 vkSignalSemaphoreKHR
 vkSubmitDebugUtilsMessageEXT
+vkTransitionImageLayout
 vkTransitionImageLayoutEXT
 vkTrimCommandPool
 vkTrimCommandPoolKHR
 vkUninitializePerformanceApiINTEL
 vkUnmapMemory
+vkUnmapMemory2
 vkUnmapMemory2KHR
 vkUpdateDescriptorSetWithTemplate
 vkUpdateDescriptorSetWithTemplateKHR
 vkUpdateDescriptorSets
+vkUpdateIndirectExecutionSetPipelineEXT
+vkUpdateIndirectExecutionSetShaderEXT
 vkUpdateVideoSessionParametersKHR
 vkWaitForFences
+vkWaitForPresent2KHR
 vkWaitForPresentKHR
 vkWaitSemaphores
 vkWaitSemaphores( m_pState->pVkDevice, &waitInfo, UINT64_MAX ) failed! (VkResult: %d)
@@ -13219,6 +13280,7 @@ void nlohmann::detail::serializer<nlohmann::basic_json<std::map, std::vector, st
 void nlohmann::detail::serializer<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>::dump_integer<unsigned long, 0>(unsigned long)
 void nlohmann::detail::serializer<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>::dump_integer<unsigned long, 0>(unsigned long)::digits_to_99
 void std::(anonymous namespace)::read_utf16_bom<false>(std::(anonymous namespace)::range<char16_t const, false>&, std::codecvt_mode&)
+void std::__adjust_heap<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, long, int, __gnu_cxx::__ops::_Iter_comp_iter<std::greater<int>>>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, long, long, int, __gnu_cxx::__ops::_Iter_comp_iter<std::greater<int>>)
 void std::__convert_to_v<double>(char const*, double&, std::_Ios_Iostate&, __locale_struct* const&)
 void std::__convert_to_v<float>(char const*, float&, std::_Ios_Iostate&, __locale_struct* const&)
 void std::__convert_to_v<long double>(char const*, long double&, std::_Ios_Iostate&, __locale_struct* const&)
@@ -13258,6 +13320,8 @@ void std::__facet_shims::__numpunct_fill_cache<char>(std::integral_constant<bool
 void std::__facet_shims::__numpunct_fill_cache<char>(std::integral_constant<bool, true>, std::locale::facet const*, std::__numpunct_cache<char>*)
 void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<bool, false>, std::locale::facet const*, std::__numpunct_cache<wchar_t>*)
 void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<bool, true>, std::locale::facet const*, std::__numpunct_cache<wchar_t>*)
+void std::__insertion_sort<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, __gnu_cxx::__ops::_Iter_comp_iter<std::greater<int>>>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, __gnu_cxx::__ops::_Iter_comp_iter<std::greater<int>>)
+void std::__introsort_loop<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<std::greater<int>>>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<std::greater<int>>)
 void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
 void std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_push_back_aux<Json::Reader::ErrorInfo const&>(Json::Reader::ErrorInfo const&)
 void std::deque<LoggableTimingEvent_t, std::allocator<LoggableTimingEvent_t>>::_M_push_back_aux<LoggableTimingEvent_t const&>(LoggableTimingEvent_t const&)
@@ -13385,6 +13449,7 @@ vr::IVRSharedSemaphore::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore
 vr::OpenVRInternal_ModuleServerDriverContext()::ctx
 vr::PathRead_t& std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t>>::emplace_back<vr::PathRead_t>(vr::PathRead_t&&)
 vr::VRDriverContext()::pHost
+vr::k_DefaultPathWriteOptions
 vr::k_InterfaceVersions
 vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
@@ -13404,20 +13469,20 @@ vr_internal::CVRPathReads::ReadBatch(unsigned long, vr_internal::CVRPathHandle c
 vr_internal::CVRPathWrites::CVRPathWrites(unsigned int)
 vr_internal::CVRPathWrites::CVRPathWrites(unsigned int) (.cold)
 vr_internal::CVRPathWrites::CopyToBuffer(char const*)
-vr_internal::CVRPathWrites::Push(char const*, bool)
-vr_internal::CVRPathWrites::Push(char const*, char const*)
-vr_internal::CVRPathWrites::Push(char const*, double)
-vr_internal::CVRPathWrites::Push(char const*, float)
-vr_internal::CVRPathWrites::Push(char const*, int)
-vr_internal::CVRPathWrites::Push(char const*, unsigned long)
-vr_internal::CVRPathWrites::Push(unsigned long, bool)
-vr_internal::CVRPathWrites::Push(unsigned long, char const*)
-vr_internal::CVRPathWrites::Push(unsigned long, double)
-vr_internal::CVRPathWrites::Push(unsigned long, float)
-vr_internal::CVRPathWrites::Push(unsigned long, int)
-vr_internal::CVRPathWrites::Push(unsigned long, unsigned long)
-vr_internal::CVRPathWrites::PushWrite(char const*, unsigned int, unsigned int)
-vr_internal::CVRPathWrites::PushWrite(unsigned long, unsigned int, unsigned int)
+vr_internal::CVRPathWrites::Push(char const*, bool, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, char const*, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, double, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, float, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, int, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, unsigned long, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, bool, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, char const*, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, double, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, float, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, int, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, unsigned long, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::PushWrite(char const*, unsigned int, unsigned int, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::PushWrite(unsigned long, unsigned int, unsigned int, vr::PathWriteOptions_t const*)
 vr_internal::CVRPathWrites::Write(unsigned long)
 vr_internal::GetResourceFullPath(std::string const&)
 vr_internal::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)
@@ -13472,10 +13537,10 @@ vrlink_debug.json
 vrlink_device
 vrlink_microphone
 vrlink_output
+vrlink_room_setup
 vrntfyimg#%d
 vrpathreg
 vrwebhelper
-vs_main
 vsnprintf
 vtable for (anonymous namespace)::generic_error_category
 vtable for (anonymous namespace)::io_error_category
@@ -13740,7 +13805,7 @@ vtable for std::system_error
 vtable for std::thread::_State
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CHandAnimEvaluator::CHandAnimEvaluator(vr::IVRDriverInput*, unsigned long, IHandPoseLogic*, vr::EVRHandSide)::'lambda'()>>>
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<CThreadWatchdogManager::InitWatchdogs()::'lambda'()>>>
-vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioPipewire::Init(int)::'lambda'()>>>
+vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioPipewire::Init(bool, int)::'lambda'()>>>
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDebugPane::Update()::'lambda'()>>>
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDriver::Init(vr::IVRDriverContext*)::'lambda0'()>>>
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<videovulkan::SetupEncoder()::'lambda'()>>>
@@ -13803,14 +13868,11 @@ xmag
 yfov
 ymag
 z^KD
-zerovram
 zfar
 zh_cn
 zh_tw
 zlib corrupt
 znear
-{ "type": "keyboard_hidden" }
-{ "type": "keyboard_shown" }
 {oculus}/icons/quest_headset_alert_searching.gif
 {oculus}/icons/quest_headset_error.png
 {oculus}/icons/quest_headset_off.png
@@ -13875,9 +13937,6 @@ znear
 {vrlink}/shaders/cursor.vert
 {vrlink}/shaders/genforencode_comp_chroma.spv
 {vrlink}/shaders/genforencode_comp_luma.spv
-{vrlink}/shaders/genforencode_ps.spv
-{vrlink}/shaders/genforencode_ps_chroma.spv
-{vrlink}/shaders/genforencode_vs.spv
 {vrlink}/shaders/override_shader_params.json
 }/localization/localization.json
 ~%d~%d~%d,%d,%d~~~~

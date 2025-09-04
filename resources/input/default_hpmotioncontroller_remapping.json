@@ -18,7 +18,7 @@
         },
         {
           "from" : "/user/hand/right/input/thumbstick",
-          "to" : "/user/hand/right/input/thumbstick"
+          "to" : "/user/hand/right/input/joystick"
         },
         {
           "from" : "/user/hand/right/input/primary",

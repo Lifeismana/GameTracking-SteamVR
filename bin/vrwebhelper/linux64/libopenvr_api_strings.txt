@@ -283,7 +283,7 @@ Hmd Not Found Presence Failed (126)
 ILiquidVR_001
 IVRClientCore_003
 IVRControlPanel_006
-IVRPaths_001
+IVRPaths_002
 IVRVirtualDisplay_002
 Infinity
 Installation Corrupt (101)
@@ -1340,9 +1340,13 @@ VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
 VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
 VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoVideoSupport
+VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
+VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
 VRPaths
 VRVirtualDisplay
@@ -1418,8 +1422,6 @@ _GLOBAL__sub_I_cxx11_locale_inst.cc
 _GLOBAL__sub_I_cxx11_wlocale_inst.cc
 _GLOBAL__sub_I_eh_alloc.cc
 _GLOBAL__sub_I_locale_inst.cc
-_GLOBAL__sub_I_openvr_api.cpp
-_GLOBAL__sub_I_openvr_api_headers.cpp
 _GLOBAL__sub_I_strtools_public.cpp
 _GLOBAL__sub_I_system_error.cc
 _GLOBAL__sub_I_wlocale_inst.cc
@@ -5886,7 +5888,6 @@ virtual thunk to std::basic_ostringstream<char, std::char_traits<char>, std::all
 virtual thunk to std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_ostringstream()
 virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_stringstream()
 virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_stringstream()
-vme|!J
 void
 void std::(anonymous namespace)::read_utf16_bom<false>(std::(anonymous namespace)::range<char16_t const, false>&, std::codecvt_mode&)
 void std::__convert_to_v<double>(char const*, double&, std::_Ios_Iostate&, __locale_struct* const&)

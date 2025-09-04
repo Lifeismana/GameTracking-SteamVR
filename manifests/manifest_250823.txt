@@ -1,10 +1,10 @@
 Content Manifest for Depot 250823 
 
-Manifest ID / date     : 1611892435221362243 / 08/15/2025 20:35:37 
-Total number of files  : 338 
-Total number of chunks : 1212 
-Total bytes on disk    : 1120952360 
-Total bytes compressed : 363806208 
+Manifest ID / date     : 6878060978507321347 / 08/29/2025 23:45:00 
+Total number of files  : 332 
+Total number of chunks : 1241 
+Total bytes on disk    : 1167383577 
+Total bytes compressed : 394887936 
 
 
           Size Chunks File SHA                                 Flags Name
@@ -16,13 +16,13 @@ Total bytes compressed : 363806208
         209557      1 d2acea4bea63ba2751119f28db4639212917a061     0 bin/linux64/libaudio.so
        2726101      3 b010f3fe20daaf54aa3de732179896bd6fdf9903     0 bin/linux64/libicui18n.so
       12341952     12 d100285eae341c90742af141fa028fcdd220e420     0 bin/linux64/libicuuc.so
-       2143160      3 716b7a2a2a50afadf590545434818e68654c4bf1     0 bin/linux64/libnrfserlib.so
-       1752264      2 0d9290476fa4084652ed3242f1d5d15543217b9f     0 bin/linux64/libopenvr_api.so
-       2007992      2 f650fc02be680fb461acfd632fde5b4cc7a81730     0 bin/linux64/libopenxr_loader.so
+       2143160      3 5d968a28d87795da68c4d76abe6cebb5849a6f92     0 bin/linux64/libnrfserlib.so
+       1752144      2 262cf26f6dfc53897cf886f562a307e248622dbb     0 bin/linux64/libopenvr_api.so
+       2007992      2 b55c0dc5b9fd3165ce99a6215a32d7918c11866d     0 bin/linux64/libopenxr_loader.so
        2831996      3 808700926108f6e10397cd54f6237a3076d42310     0 bin/linux64/libpango-1.0.so
        6949851      7 80f6da038040b571172e4e6221a591526888ea42     0 bin/linux64/libpangoft2-1.0.so
         691250      1 788296aa55d9c9af7adad8f9fee8ac58094eaa93     0 bin/linux64/libpc_ble_driver_shared_sd_api_v6.so
-       2488800      3 9e7637c8a0ecbc8178583be66322114ce049ae7a     0 bin/linux64/libprism.so
+       2497232      3 efb8b893ecf665cf549397f89e6b5ad66be31265     0 bin/linux64/libprism.so
         395696      1 6168abb266945c10c017568d014dc1abf3f623ae     0 bin/linux64/libsteam_api.so
         204354      1 480f7058827ced170ba7330be672dc5713b0be64     0 bin/linux64/libtier0_s.so
         229787      1 46279da9796e16b6317a1115d8008d3aa86380ec     0 bin/linux64/libtier0_vr.so
@@ -32,8 +32,8 @@ Total bytes compressed : 363806208
         369343      1 7e0524415619caee6c4b3c7b99ca68a47ce879f7     0 bin/linux64/libvstdlib_vr.so
          64864      1 04ce499a7c14c4891d0de9a19339c8f0e31c9380     0 bin/linux64/libXpresent.so.1
           8512      1 4f0667c32fb839704389b0c9824b2ab94fec9d3a     0 bin/linux64/openvr_api_canary
-         49024      1 278fc4509fb5cace23d4dcd7825951246a8f5337     0 bin/linux64/openxr_runtimelist
-       2211064      3 c9a58788ad91a6771d2cffe8ef2c914a8448dab7     0 bin/linux64/overlay_viewer
+         49024      1 e5681e9621ceedf862a911d511a07d723ddd18a5     0 bin/linux64/openxr_runtimelist
+       2219256      3 60252bc404a98ee5197b3468ab558fe1c654a7db     0 bin/linux64/overlay_viewer
              0      0 0000000000000000000000000000000000000000    40 bin/linux64/qt
              0      0 0000000000000000000000000000000000000000    40 bin/linux64/qt/lib
       25337612     25 7ef481c4acf36c0d68424a7cffc1cf6b7753544a     0 bin/linux64/qt/lib/libicudata.so.54
@@ -72,121 +72,115 @@ Total bytes compressed : 363806208
         254464      1 6d9552e8c7d36cc6055e30994babbe1a6ce257a0     0 bin/linux64/qt/plugins/platformthemes/libqgtk2.so
              0      0 0000000000000000000000000000000000000000    40 bin/linux64/qt/plugins/xcbglintegrations
          63288      1 d30d56160e52a16b5e51d3fe464b6a8a452aa180     0 bin/linux64/qt/plugins/xcbglintegrations/libqxcb-glx-integration.so
-       1519496      2 d9915b745b6f68a0c796753ce3ef81505b5d2412     0 bin/linux64/restarthelper
+       1519496      2 fd74337e190e1bcabefee45f7acb8cf8a69ad420     0 bin/linux64/restarthelper
       62817999     60 3fb1eafe8d281178730ac332ff548a2d5f3f79f3     0 bin/linux64/t2788t888t9.tmp
         825504      1 9138686a8f60fdd89f8dcaa0f60c7d9eeddf1268     0 bin/linux64/trace-cmd
            989      1 954c9024dcbad624980a17423cae4feb448c1d59     0 bin/linux64/VkLayer_envextensions_layer.json
-      10891928     11 b8734bc0aa7103cd51a89477957657f4311c839a     0 bin/linux64/vrclient.so
-       2166448      3 06640da88b9241aa7b37bc21b366fec890e617ab     0 bin/linux64/vrcmd
-       7141784      7 7553a49cbd571de195411e4b85d923aaafc2fefe     0 bin/linux64/vrcompositor
-        234848      1 c3a23d5731359d67e1adf45d82372a384dc7ce80     0 bin/linux64/vrcompositor-launcher
+      10996888     11 eb076f16ee29ea144a25e6a684df7e481f002b19     0 bin/linux64/vrclient.so
+       2167248      3 2d71edf3bc47ff01456495a07881a57f184296aa     0 bin/linux64/vrcmd
+       7153432      7 c0737b09a5d3c69ce476c4fa8cc2100e4cfeef98     0 bin/linux64/vrcompositor
+        234848      1 da22a55a2d0086ba63d1280b00321673bd6015a6     0 bin/linux64/vrcompositor-launcher
           2199      1 90b4c014ffe3b2b4105039eb1b5c6c327de2891b     0 bin/linux64/vrcompositor-launcher.sh
-       1872688      2 175ebf11243b4c23ca52b1582aec7c87bbc5e5fc     0 bin/linux64/vrdashboard
-       6731416      7 190027d8ef5936a5a182695daaaa816b082fd086     0 bin/linux64/vrmonitor
-       1680032      2 6170deba24a48d89d1d382d3112bfe146f29b1ff     0 bin/linux64/vrpathreg
-       1995216      2 99a8d4d04fba61da233f1782dfa9b3bc333c9ed6     0 bin/linux64/vrprismhost
-       8853288      9 6299d5c382df18b700a822eee7c63de25e50dbfc     0 bin/linux64/vrserver
-       2360248      3 81c9e69d14bc6f30bc8fa7d9ed8483f1a5c3406d     0 bin/linux64/vrstartup
-       2368248      3 96f9b5482fec55dd6038d937440d20095abcf84d     0 bin/linux64/vrurlhandler
+       1873000      2 bd5034426ed2ed71820b83129a21008b93f94d93     0 bin/linux64/vrdashboard
+       6735216      7 e725f81b88e6dfe862839147cd66094414e1e2b4     0 bin/linux64/vrmonitor
+       1680032      2 9f9d2e6fe0f9d2d322bc8fa5c9e09ef1b5b9ae89     0 bin/linux64/vrpathreg
+       1999632      2 92860e8969c887cf033df2ae0dac3ae35ad47321     0 bin/linux64/vrprismhost
+       8896936      9 cc6f0723306e87dcbb7c856cf214aaa0eead1f67     0 bin/linux64/vrserver
+       2360440      3 41f67f3896a992b624140f65f6d0408ceda3fba0     0 bin/linux64/vrstartup
+       2368136      3 ee11c9c98b0dcac3bb8e930db837031b7a2b26a7     0 bin/linux64/vrurlhandler
           2000      1 db3f880cc8b6ddb7d16464f37adecfb51b153a4e     0 bin/steamvr_msg.sh
            945      1 334c149e8a4cc9c0b0a35fce39e2da236bc39143     0 bin/steamvr_question.sh
-       9589016     10 bbe3ad598f4c2af84c6417f077b52f8b1b1fd4da     0 bin/vrclient.so
+       9626652     10 77a4d5c1f7cf819b1cca1b765b0febc7493d4de6     0 bin/vrclient.so
           1097      1 84b485ca1e53a28dc177d3d3f9fc8e67cdd15691     0 bin/vrenv.sh
            359      1 f85179706133b8837ef657225c631fb23d0b04d8     0 bin/vrmonitor.sh
            359      1 1c68eee472720106ff91b3fe5cb1a3189146bf80     0 bin/vrpathreg.sh
           2736      1 4b18a4da45ac4ab22540a74c83d4196b97210991     0 bin/vrsetup.sh
            486      1 00a63705fa92c60e025173d061c1a8ca04475c9b     0 bin/vrstartup-helper.sh
           1552      1 d78effb6f568bcef3bdc0a9cc1599d03d384b10f     0 bin/vrstartup.sh
-       1963974      2 628c8cd566f764bf21810fd8551176edde2807a9     0 bin/vrwebhelper/linux64/cef.pak
-        268208      1 918b20c279530ce622fc6484927c02517b1a45f3     0 bin/vrwebhelper/linux64/cef_100_percent.pak
-        423883      1 ec028584b48b097912deed5e3c085df7ca60a7fa     0 bin/vrwebhelper/linux64/cef_200_percent.pak
-       1302042      2 0b5cdd5bcbea7ee0f6feb001f8d5e8d29d2be47b     0 bin/vrwebhelper/linux64/cef_extensions.pak
-       1594096      2 c667e7118397e460e50bc0cd5f3638d4cd39f067     0 bin/vrwebhelper/linux64/chrome-sandbox
-       1633209      2 3bca660e212b78be769802ec41da0aeeb9c8edf8     0 bin/vrwebhelper/linux64/devtools_resources.pak
-      10518160     11 6bab2e77925515888808c1ef729c5bb1323100dd     0 bin/vrwebhelper/linux64/icudtl.dat
-     160788200    154 097f5feb6c9d769e7bfa776198150d01abe79398     0 bin/vrwebhelper/linux64/libcef.so
-       1836024      2 368972151d3db11367ab6a3e4c69d1a4380d86cb     0 bin/vrwebhelper/linux64/libEGL.so
-      43826096     42 52606d377ce30d2e568118bb43790587353f8b45     0 bin/vrwebhelper/linux64/libGLESv2.so
-       1662888      2 68590ed556b01f183b13c0d70eb58dd8d72b1444     0 bin/vrwebhelper/linux64/libminigbm.so
-       1752264      2 0d9290476fa4084652ed3242f1d5d15543217b9f     0 bin/vrwebhelper/linux64/libopenvr_api.so
+       5746688      6 bdcb9886fc9936a6fc66a140feb717d1d267c568     0 bin/vrwebhelper/linux64/cefclient
+       2561328      3 46b19c46466542fe25a8e352de0752107c91d1f6     0 bin/vrwebhelper/linux64/cefsimple
+        681786      1 80ef4bdb9295045b7bc0cf5fc43c1167dc206de2     0 bin/vrwebhelper/linux64/chrome_100_percent.pak
+       1065752      2 eddad1f285ec36c220f322f99e5225a3b0571f66     0 bin/vrwebhelper/linux64/chrome_200_percent.pak
+          2923      1 d612a2353058ab61c4f5a4c189f2772a92892896     0 bin/vrwebhelper/linux64/headless_command_resources.pak
+      10468208     10 99f545bc396878c7a53e98a79017d9531af7c1f5     0 bin/vrwebhelper/linux64/icudtl.dat
+     219444168    210 9c32d758489b58629a159f7b5abbc24d18a3af5d     0 bin/vrwebhelper/linux64/libcef.so
+        267128      1 eef4ebfbe9b916cfb623a95a6a1a8a21648a3f7e     0 bin/vrwebhelper/linux64/libEGL.so
+       6899776      7 da4b4d1231b5217dbf650254776bf58e1156facf     0 bin/vrwebhelper/linux64/libGLESv2.so
+       1752144      2 262cf26f6dfc53897cf886f562a307e248622dbb     0 bin/vrwebhelper/linux64/libopenvr_api.so
+      17486552     17 267e197ab4df1534d9896fbd4456df3d376ee591     0 bin/vrwebhelper/linux64/libVkLayer_khronos_validation.so
+       4103376      4 2e9f228c6b9e671af07d5484cbde481579e39629     0 bin/vrwebhelper/linux64/libvk_swiftshader.so
              0      0 0000000000000000000000000000000000000000    40 bin/vrwebhelper/linux64/locales
-        392942      1 206c35feadbb4f85fb7fffac9278735446b9c095     0 bin/vrwebhelper/linux64/locales/am.pak
-        406051      1 5196502330a0c1838b947b98fec97fe956da4626     0 bin/vrwebhelper/linux64/locales/ar.pak
-        444649      1 0139730805aa188ed7fdb278f453d7216d228108     0 bin/vrwebhelper/linux64/locales/bg.pak
-        581023      1 5b70b5b6b6c1bbf9639e1952d988bc98ca612d73     0 bin/vrwebhelper/linux64/locales/bn.pak
-        275753      1 89245677cc223398f1b82a80dd2fd9d3f4a28f82     0 bin/vrwebhelper/linux64/locales/ca.pak
-        281793      1 e65b7d4ffa030d94c34da77d9b85c5f1b8c0572e     0 bin/vrwebhelper/linux64/locales/cs.pak
-        253586      1 a3dd9575dfcbc38e358694e4bf9b13351917fcc9     0 bin/vrwebhelper/linux64/locales/da.pak
-        274215      1 1444fab7636cfc0fc24bd7fb3dae94198be0d19d     0 bin/vrwebhelper/linux64/locales/de.pak
-        489734      1 eff15296e7ab92833daced05c7692203b32d1495     0 bin/vrwebhelper/linux64/locales/el.pak
-        225236      1 3a931fb36de206f2e3554812495adf0a3e0a8969     0 bin/vrwebhelper/linux64/locales/en-GB.pak
-        227677      1 9c44f2f5b253832d3207c28e2d9f88e216d8a7ba     0 bin/vrwebhelper/linux64/locales/en-US.pak
-        270948      1 3f083dac0d448df919d783e8f1f0f77065d0d63d     0 bin/vrwebhelper/linux64/locales/es-419.pak
-        275078      1 cabdcfdabc034d8adc2d69fecd03f6a9a6c238db     0 bin/vrwebhelper/linux64/locales/es.pak
-        244878      1 97164b9728ab442c65dd46b5859990497c5046c8     0 bin/vrwebhelper/linux64/locales/et.pak
-        393193      1 4d4a63308aa88c505f6725dda0b59bc85931dbe9     0 bin/vrwebhelper/linux64/locales/fa.pak
-        253018      1 dc8e1e5e827fc897f8fb97ee50e1c0063789f9f9     0 bin/vrwebhelper/linux64/locales/fi.pak
-        280824      1 745190b585f0b1de7c3378127bc36b82aa499326     0 bin/vrwebhelper/linux64/locales/fil.pak
-        297495      1 b2f89a4dc66dbf9b3bfe9148157217adcbdcec72     0 bin/vrwebhelper/linux64/locales/fr.pak
-        554985      1 066eed34e5c39a8c96eb5c9d0b539631848c55fe     0 bin/vrwebhelper/linux64/locales/gu.pak
-        339786      1 517063fb416fce56cd95fb80f5bf21f680de42e4     0 bin/vrwebhelper/linux64/locales/he.pak
-        573216      1 77b4661a55b208b15393d4333c31b86bf670f60d     0 bin/vrwebhelper/linux64/locales/hi.pak
-        269666      1 bed7091101df5e8a9761721b4ce1e83a051772da     0 bin/vrwebhelper/linux64/locales/hr.pak
-        291045      1 61138f33fd45bfc3ef5ef986b917f06cacabd479     0 bin/vrwebhelper/linux64/locales/hu.pak
-        243282      1 4a591620fba12dab2e9bb988de7d462dcc5577f6     0 bin/vrwebhelper/linux64/locales/id.pak
-        266480      1 36b1fe55645f30e02d8ef842483e47dc9ae69dea     0 bin/vrwebhelper/linux64/locales/it.pak
-        329796      1 b2c972e6892f83177577b8cb42ff5f660d4de055     0 bin/vrwebhelper/linux64/locales/ja.pak
-        645991      1 f2f8203f236d0aa95176c0f46bc46b5d0e9ce522     0 bin/vrwebhelper/linux64/locales/kn.pak
-        277759      1 9eb9a7027953bece72c915f1ce2843cf818b7a07     0 bin/vrwebhelper/linux64/locales/ko.pak
-        289257      1 7c36c4eb6ab10cbdc09307ac5c660e76f4d02497     0 bin/vrwebhelper/linux64/locales/lt.pak
-        287723      1 aabaa6a19bb41b128cf1f492e0183a95ccf2bc65     0 bin/vrwebhelper/linux64/locales/lv.pak
-        681706      1 00d34445a643eeeb983dcb9d910c55a1c4f31260     0 bin/vrwebhelper/linux64/locales/ml.pak
-        546287      1 884b0587088031bb0788d6f35d4ac24dab703e41     0 bin/vrwebhelper/linux64/locales/mr.pak
-        252596      1 e16adcafd687dd2cc742d58caf8d7b699e4572ae     0 bin/vrwebhelper/linux64/locales/ms.pak
-        247986      1 221374ed44574389a027a7ab45ddeed6f1e7a9b2     0 bin/vrwebhelper/linux64/locales/nb.pak
-        258979      1 a88747713874315d9e8b6142726a76af76da4a0c     0 bin/vrwebhelper/linux64/locales/nl.pak
-        281191      1 de57558bfdba92bb23d8505feb91400e44230616     0 bin/vrwebhelper/linux64/locales/pl.pak
-        267576      1 0368d47dcced4f53cde84ce0f7b7de73f1965866     0 bin/vrwebhelper/linux64/locales/pt-BR.pak
-        270655      1 60f298f78a0748db2be560a79fe366a5a7067fe7     0 bin/vrwebhelper/linux64/locales/pt-PT.pak
-        277267      1 445d1b468690d7e57a3cf06abbe1c1f4f0ae20b6     0 bin/vrwebhelper/linux64/locales/ro.pak
-        443977      1 dbbffed7755fdae397f6d850d7f6899e926687e8     0 bin/vrwebhelper/linux64/locales/ru.pak
-        286249      1 649129d0bafef6813339201421043a3165890424     0 bin/vrwebhelper/linux64/locales/sk.pak
-        272847      1 22310f29c04b5597e21f73259c672901d1cefae7     0 bin/vrwebhelper/linux64/locales/sl.pak
-        421659      1 567e59c545865779e4e719751ef8ba842d0e2c0a     0 bin/vrwebhelper/linux64/locales/sr.pak
-        249952      1 7f7f9134eb78968c547a37f0ecd8b2deb9da5520     0 bin/vrwebhelper/linux64/locales/sv.pak
-        255796      1 1a842fddc07c02995a002af3e713090537d3dd7b     0 bin/vrwebhelper/linux64/locales/sw.pak
-        654156      1 f10a9166b6a4d0bbc4698a929631a9837c7003f0     0 bin/vrwebhelper/linux64/locales/ta.pak
-        613429      1 69f38b916d95c69b10594a43fcff9c6e32f31e97     0 bin/vrwebhelper/linux64/locales/te.pak
-        519819      1 30020dcb8f1acfd25371d4d8e6ba344c419eb2b9     0 bin/vrwebhelper/linux64/locales/th.pak
-        265112      1 a9c0c05e82532e58b159e5b80d12ceff4719857c     0 bin/vrwebhelper/linux64/locales/tr.pak
-        444071      1 dcdb45ba78d946fe451c47a89b55f94477ae214d     0 bin/vrwebhelper/linux64/locales/uk.pak
-        310088      1 97d1c0fda7f995f6fdc0a321032343918e3d2df1     0 bin/vrwebhelper/linux64/locales/vi.pak
-        230169      1 1fdb8a986b45610bb9a4f7773dff70eb3930782b     0 bin/vrwebhelper/linux64/locales/zh-CN.pak
-        230103      1 a1fb3539c044b1f11ae9d155ef585d5c748090bc     0 bin/vrwebhelper/linux64/locales/zh-TW.pak
-         92247      1 5860d98d47084650ace3847b956686df01a32d14     0 bin/vrwebhelper/linux64/natives_blob.bin
-         51267      1 041a61ad40c6d42294aef75dc2fbdc7048f5fd8c     0 bin/vrwebhelper/linux64/snapshot_blob.bin
-          6932      1 8ba21bd884a525f14088b454f277b94dde0f73d8     0 bin/vrwebhelper/linux64/steam-runtime-heavy.sh
-      13794768     14 2f12a1dfa8d779e887ce109d6e8258e83997196e     0 bin/vrwebhelper/linux64/steam-runtime-heavy.tar.xz
-            61      1 23d877de0a9d6934d9e529e6faaad6995aba6fb2     0 bin/vrwebhelper/linux64/steam-runtime-heavy.tar.xz.checksum
-            34      1 af9ea8baba27f1f91b9c1e023d5ce9fda3a8bbad     0 bin/vrwebhelper/linux64/steam-runtime-heavy.version.txt
-             0      0 0000000000000000000000000000000000000000    40 bin/vrwebhelper/linux64/swiftshader
-       1780024      2 a944b6f93dc66aea71f468fcf7acff32fc862542     0 bin/vrwebhelper/linux64/swiftshader/libEGL.so
-      11531400     11 bdf47f50c48150e14ed826b8063733d3a90454b2     0 bin/vrwebhelper/linux64/swiftshader/libGLESv2.so
-        171503      1 067db85a98df27e5efff6b2d5783dca6624d1338     0 bin/vrwebhelper/linux64/v8_context_snapshot.bin
-       4821632      5 3891e81e8570267af9e8dc7f9b160a1a0b2e1a2c     0 bin/vrwebhelper/linux64/vrwebhelper
+        513345      1 37cfff9be3bee8fdb72bdc78b0bc34e00f3c6043     0 bin/vrwebhelper/linux64/locales/af.pak
+        828852      1 04b37981f0bcea7e644c3f43d9c1e9892828fa53     0 bin/vrwebhelper/linux64/locales/am.pak
+        911460      1 e6dc4d6a03e4af0eddda45723c4b1fa32f69d051     0 bin/vrwebhelper/linux64/locales/ar.pak
+        946126      1 fd8ce7785ee10e2a081870314e580152efbf17f2     0 bin/vrwebhelper/linux64/locales/bg.pak
+       1215278      2 d5feb1abac0e9148f6eb974b57ce64708335569b     0 bin/vrwebhelper/linux64/locales/bn.pak
+        584673      1 b3211d84dabe05cd393955de30d60a1b4bddea69     0 bin/vrwebhelper/linux64/locales/ca.pak
+        593727      1 69fc39dcab7de9905c7f713fc66297901304ebe7     0 bin/vrwebhelper/linux64/locales/cs.pak
+        541544      1 c6aefe0923cc3ca61ca25932664b6660d4c08b39     0 bin/vrwebhelper/linux64/locales/da.pak
+        582017      1 9aeb8f9dd608c08d1b5ea8b0d247a8ce7a34a24a     0 bin/vrwebhelper/linux64/locales/de.pak
+       1035573      1 b2aa5912fac0f268a9907d1ad7b82c691bbbf581     0 bin/vrwebhelper/linux64/locales/el.pak
+        468542      1 c80ce20e285ed955a6d52ed3ec8b2c363e808dee     0 bin/vrwebhelper/linux64/locales/en-GB.pak
+        472937      1 0763c9c4d0a132b259b7062146c6d899189b6944     0 bin/vrwebhelper/linux64/locales/en-US.pak
+        571013      1 6a91a40085bdfa866881072cce88188c5df2da28     0 bin/vrwebhelper/linux64/locales/es-419.pak
+        569420      1 7bb79856eaffb788b55e22de9a14798d47b3398f     0 bin/vrwebhelper/linux64/locales/es.pak
+        519378      1 f499c9f090ae60435f4979d6109ee7185e806de9     0 bin/vrwebhelper/linux64/locales/et.pak
+        841224      1 dc513b45f3bdf380aa682c88ada8c8995516ffdf     0 bin/vrwebhelper/linux64/locales/fa.pak
+        527601      1 e47bc0098663a75684101a6fe05bad4fa26d125b     0 bin/vrwebhelper/linux64/locales/fi.pak
+        596220      1 09afae4443c95047117fb36d58be80c48b4f54e3     0 bin/vrwebhelper/linux64/locales/fil.pak
+        616828      1 154b0af0ed64027f016f3f6fc240959f022c20e7     0 bin/vrwebhelper/linux64/locales/fr.pak
+       1200833      2 b9f709b7ff2f4de05b0c7f22a2881776ee4a98ce     0 bin/vrwebhelper/linux64/locales/gu.pak
+        743435      1 66e7f52bb40ab869b2af1ca737dad7fff2fb1bda     0 bin/vrwebhelper/linux64/locales/he.pak
+       1274211      2 add05ebdd9176badc546a9539d2b85d7ff7ac97f     0 bin/vrwebhelper/linux64/locales/hi.pak
+        572952      1 e0f4f7114487cca362e1f513dbfdeecd5fe77b7e     0 bin/vrwebhelper/linux64/locales/hr.pak
+        617475      1 854e5921b4df17df65f2f12d187b2f452858b60e     0 bin/vrwebhelper/linux64/locales/hu.pak
+        510400      1 bbf4839697e83e379deb593b7587ff8b81cc3436     0 bin/vrwebhelper/linux64/locales/id.pak
+        567458      1 2875da44a8475a6d31ae221b6abb011e534fe02d     0 bin/vrwebhelper/linux64/locales/it.pak
+        688286      1 b6779a897c296201d9d78e06673ab7f24c3d799e     0 bin/vrwebhelper/linux64/locales/ja.pak
+       1366097      2 8c95b30a3cd5578338501a6d95fd276b91bedd7f     0 bin/vrwebhelper/linux64/locales/kn.pak
+        579024      1 87fdd6f0bd3453d287abcfbf3cdd238d08ab8045     0 bin/vrwebhelper/linux64/locales/ko.pak
+        622370      1 a50f94f54bfadd66b20e164e27dbe3a155524ffd     0 bin/vrwebhelper/linux64/locales/lt.pak
+        620771      1 3aaf578483c1dffba912a166b3719867053e398e     0 bin/vrwebhelper/linux64/locales/lv.pak
+       1421336      2 74eac684ed218dc547fb2597597f22205e8d8aeb     0 bin/vrwebhelper/linux64/locales/ml.pak
+       1172082      2 bf7c46ce23aee1e3c9ad6ce7f5f3cdf68517d9a7     0 bin/vrwebhelper/linux64/locales/mr.pak
+        534448      1 9b8e6e2c7190d5e126018a03cd319bca95e0f96c     0 bin/vrwebhelper/linux64/locales/ms.pak
+        518052      1 5c6c3b8d0f27e62c833bf38de1fee005a0230bca     0 bin/vrwebhelper/linux64/locales/nb.pak
+        536712      1 eccf2f168144a5b8d56b39cef4362edf7f61ea9c     0 bin/vrwebhelper/linux64/locales/nl.pak
+        598021      1 b614038b8e571bb056cb635825b579c40638a661     0 bin/vrwebhelper/linux64/locales/pl.pak
+        560980      1 f1665032c78f8996d1dd671cca1bdf0afd3f1aba     0 bin/vrwebhelper/linux64/locales/pt-BR.pak
+        565666      1 c11dad7a07f2b5d659f70c5fc0cb0c87b692c47c     0 bin/vrwebhelper/linux64/locales/pt-PT.pak
+        584565      1 2f006c9fffaef1ab8ee72f1b00786489e9ceabe4     0 bin/vrwebhelper/linux64/locales/ro.pak
+        959501      1 1b4a285195ea0b6a4942d013e45d1c42766c5993     0 bin/vrwebhelper/linux64/locales/ru.pak
+        602578      1 cc44c863fc2dffd3d64a6add961de321ce7cb91b     0 bin/vrwebhelper/linux64/locales/sk.pak
+        577938      1 38690de2533a87d0e6b229800f8eab88fdb29879     0 bin/vrwebhelper/linux64/locales/sl.pak
+        889392      1 2f9ab117ca2ee10362a175ab6660c9403d058098     0 bin/vrwebhelper/linux64/locales/sr.pak
+        521907      1 df9fd20a856f800dd0293b87459cb7849af69d46     0 bin/vrwebhelper/linux64/locales/sv.pak
+        549670      1 ddddd0652dfe8a809872328c7b4ed5263ef29b61     0 bin/vrwebhelper/linux64/locales/sw.pak
+       1417986      2 a2dc352e51bc37fa4da839a11e1b8ec2924242fa     0 bin/vrwebhelper/linux64/locales/ta.pak
+       1305010      2 8af48d565c86eec087ae0fe28ad1aa2fe186f6f9     0 bin/vrwebhelper/linux64/locales/te.pak
+       1096569      2 0b3f232739c5dcd48ddbeb8d3cfb0335981de11e     0 bin/vrwebhelper/linux64/locales/th.pak
+        560732      1 9c7235f912e47c7f02ee12de5d26884e6fde625c     0 bin/vrwebhelper/linux64/locales/tr.pak
+        956279      1 3b894ed586e44873594d7466be9b110ea8457fa0     0 bin/vrwebhelper/linux64/locales/uk.pak
+        834504      1 c4c73a32c46e04730d135a05c4ee000fc1bd4492     0 bin/vrwebhelper/linux64/locales/ur.pak
+        664580      1 354748c92e4e367760526b173ec0c6d5a0535486     0 bin/vrwebhelper/linux64/locales/vi.pak
+        480007      1 52e9b75ea272abe2044800944bc6923debbaa3e2     0 bin/vrwebhelper/linux64/locales/zh-CN.pak
+        477144      1 047c2ed334256eba28e959bd895381e8cbcf4a1b     0 bin/vrwebhelper/linux64/locales/zh-TW.pak
+       8733209      9 a03ff55392a99c6fdeab4f5f4f88f98158294352     0 bin/vrwebhelper/linux64/resources.pak
+           107      1 08a83ab661feb866ab881fc7cf0e2b1dc4a5c43d     0 bin/vrwebhelper/linux64/vk_swiftshader_icd.json
+       4610712      5 61d821bbcc7401a1bca9a125a7e9911fff35e6ec     0 bin/vrwebhelper/linux64/vrwebhelper
            713      1 ea66c8ec52144e12979aff7826a06db476383bb3     0 bin/vrwebhelper/linux64/vrwebhelper.sh
-       1553664      2 38712644cb9cd0bd7f10ecf1c606edbef35f37b9     0 drivers/gamepad/bin/linux32/driver_gamepad.so
-       1557184      2 44b7d1e013d685425878d8c0213fb1b65da25128     0 drivers/gamepad/bin/linux64/driver_gamepad.so
-       6401020      7 48d2628b9725149f244a204a02189207be3485ca     0 drivers/lighthouse/bin/linux32/driver_lighthouse.so
-       6836344      7 055cddc863645198a325fe6219b701963b4a675b     0 drivers/lighthouse/bin/linux64/driver_lighthouse.so
+       1553664      2 26335e770114fd76cdf18b699e1f681d7030d33d     0 drivers/gamepad/bin/linux32/driver_gamepad.so
+       1557184      2 cb0bb88cbb721b01e8c5b097de78cc6c54486ab3     0 drivers/gamepad/bin/linux64/driver_gamepad.so
+       6409092      7 e511fc3d5dd96caccba821e8bc8a5dd21c412c69     0 drivers/lighthouse/bin/linux32/driver_lighthouse.so
+       6848176      7 0817245bf4a3798c1f71d09a6aefb2277ccb565f     0 drivers/lighthouse/bin/linux64/driver_lighthouse.so
              0      0 0000000000000000000000000000000000000000     0 drivers/lighthouse/bin/linux64/empty.dir
         164291      1 a0b48676165a9d5b7a9946e89a24ffc394f9f82d     0 drivers/lighthouse/bin/linux64/libaitcamlib.so
         232034      1 fd00f408f46152b02e7411ae4d6f3a5197548a90     0 drivers/null/bin/linux32/driver_null.so
-       1489408      2 fe2c034f3f3e3ebd2d305ed30529150ad215cd68     0 drivers/null/bin/linux64/driver_null.so
-       3911248      4 af902359b54a7aa5d2065b794438941e9128a88f     0 drivers/vrlink/bin/linux64/driver_vrlink.so
+       1489408      2 944d74464b8015a7903373a386dd7d11ef410a37     0 drivers/null/bin/linux64/driver_null.so
+       3927224      4 da136a9c0d4e71f0f28fc94cdaf846ddc94b3e54     0 drivers/vrlink/bin/linux64/driver_vrlink.so
            239      1 0c4c3963821b625587a34077c0ca162ce01f2e14     0 steamxr_linux64.json
-       4350720      5 84d0c18bd2b240d2c0ab9506aa56bcf3c97f9014     0 tools/lighthouse/bin/linux64/lighthouse_console
-       1967072      2 aa478909b6caa4dd13552ff1c5e16e8d49cec400     0 tools/lighthouse/bin/linux64/lighthouse_watchman_update
+       4351328      5 00a3c88760b46413f4e15d1478ea9f4a4be00a2f     0 tools/lighthouse/bin/linux64/lighthouse_console
+       1967072      2 84f753e39740c99f2d232377350ee77553c6368f     0 tools/lighthouse/bin/linux64/lighthouse_watchman_update
         661672      1 b6a054eb8eecf759c48128b42c6387ee53266efb     0 tools/lighthouse/bin/linux64/vivelink
        1173319      2 5288ecd9ecb4fe9b3967cf212759e2528ce743f9     0 tools/lighthouse/bin/linux64/vivetools
       31221760     30 6b7582e98f0aebf4102a41faf32525b678c67337     0 tools/steamvr_room_setup/linux64/steamvr_room_setup

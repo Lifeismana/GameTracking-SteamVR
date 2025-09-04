@@ -1,10 +1,10 @@
-var CLSTAMP = "9981652";
+var CLSTAMP = "10029581";
 (() => {
   "use strict";
   var e,
     t = {
-      6090: (e, t, n) => {
-        n.d(t, {
+      6090: (e, t, o) => {
+        o.d(t, {
           $: () => I.$,
           $Z: () => B.$Z,
           Ay: () => E,
@@ -12,13 +12,15 @@ var CLSTAMP = "9981652";
           Ci: () => S.C,
           Cw: () => l.C,
           Ee: () => B.Ee,
-          Em: () => p.Em,
+          Em: () => c.Em,
           Fb: () => i.Fb,
           Fi: () => _.Fi,
+          GM: () => p.GM,
           GQ: () => B.GQ,
           Gz: () => B.Gz,
           HW: () => B.HW,
-          I0: () => o.I0,
+          I0: () => n.I0,
+          IS: () => a.I,
           JZ: () => i.JZ,
           KI: () => I.KI,
           Ld: () => i.Ld,
@@ -40,74 +42,73 @@ var CLSTAMP = "9981652";
           Uj: () => i.Uj,
           Vh: () => u.V,
           Xl: () => B.Xl,
-          Y4: () => a.Y,
+          Y4: () => s.Y,
           Zk: () => _.Zk,
           _1: () => B._1,
           _h: () => _._h,
-          _n: () => o._n,
+          _n: () => n._n,
           aX: () => u.a,
           b: () => B.b,
           b$: () => v.b,
           cB: () => b.L,
-          dL: () => c.d,
+          dL: () => d.d,
           e_: () => i.e_,
           en: () => I.en,
           fD: () => I.fD,
           gN: () => B.gN,
-          gO: () => s.g,
           k2: () => B.k2,
           kG: () => B.kG,
           ku: () => B.ku,
           lq: () => m.l,
           m$: () => C.m,
-          mX: () => o.mX,
+          mX: () => n.mX,
           mo: () => B.mo,
           mu: () => B.mu,
-          nX: () => p.nX,
+          nX: () => c.nX,
           ne: () => B.ne,
           nq: () => f.n,
           oN: () => i.oN,
           o_: () => i.o_,
           p0: () => i.p0,
           pM: () => B.pM,
-          pg: () => o.pg,
+          pg: () => n.pg,
           qF: () => i.qF,
-          rF: () => d.H,
+          rF: () => a.H,
           rx: () => B.rx,
           sJ: () => y.$,
-          sk: () => o.sk,
+          sk: () => n.sk,
           tx: () => i.tx,
           uC: () => A.u,
           vx: () => i.vx,
         });
-        var o = n(2824),
-          i = n(6292),
-          l = n(3389),
-          s = (n(4120), n(9424)),
-          r = n(1230),
-          a = n(5830),
-          d = n(6186),
-          c = n(3361),
-          p = (n(111), n(5723)),
-          h = (n(3496), n(5178)),
-          u = (n(428), n(9011), n(7350)),
-          m = n(6847),
-          g = n(5227),
-          S = (n(10), n(1808)),
-          _ = n(7019),
-          C = (n(1988), n(2527), n(9864)),
-          y = (n(4189), n(322), n(1977), n(6417)),
-          f = n(2303),
-          b = n(8715),
-          v = (n(4397), n(5459)),
-          A = n(8472),
-          B = (n(1184), n(3725)),
-          I = n(4367);
+        var n = o(2824),
+          i = o(6292),
+          l = o(3389),
+          r = (o(4120), o(1230)),
+          s = o(5830),
+          a = o(6186),
+          d = o(3361),
+          c = (o(111), o(5723)),
+          p = o(3496),
+          h = o(5178),
+          u = (o(428), o(9011), o(7350)),
+          m = o(6847),
+          g = o(5227),
+          S = (o(10), o(1808)),
+          _ = o(7019),
+          C = (o(1988), o(2527), o(9864)),
+          y = (o(4189), o(322), o(1977), o(6417)),
+          f = o(2303),
+          b = o(8715),
+          v = (o(4397), o(5459)),
+          A = o(8472),
+          B = (o(1184), o(3725)),
+          I = o(4367);
         const E = VRHTML;
       },
-      3725: (e, t, n) => {
-        var o, i, l, s;
-        function r() {
+      3725: (e, t, o) => {
+        var n, i, l, r;
+        function s() {
           var e;
           return null !==
             (e =
@@ -115,38 +116,38 @@ var CLSTAMP = "9981652";
                 ? void 0
                 : VRHTML.Environment()) && void 0 !== e
             ? e
-            : o.Unknown;
+            : n.Unknown;
         }
-        n.d(t, {
+        o.d(t, {
           $Z: () => p,
           Ee: () => A,
-          GQ: () => N,
+          GQ: () => T,
           Gz: () => d,
           HW: () => C,
           MV: () => l,
           NB: () => m,
-          OH: () => o,
-          R$: () => r,
+          OH: () => n,
+          R$: () => s,
           Rk: () => g,
           Xl: () => f,
-          _1: () => k,
+          _1: () => N,
           _E: () => a,
           b: () => b,
-          gN: () => B,
-          k2: () => M,
-          kG: () => I,
+          gN: () => I,
+          k2: () => w,
+          kG: () => E,
           ku: () => u,
           mo: () => S,
-          mu: () => s,
+          mu: () => r,
           ne: () => c,
           pM: () => i,
-          rx: () => w,
+          rx: () => O,
         }),
           (function (e) {
             (e[(e.Desktop = 1)] = "Desktop"),
               (e[(e.Overlay = 2)] = "Overlay"),
               (e[(e.Unknown = 100)] = "Unknown");
-          })(o || (o = {})),
+          })(n || (n = {})),
           window.hasOwnProperty("VRHTML") || (window.VRHTML = null),
           (function (e) {
             (e[(e.Auto = 0)] = "Auto"),
@@ -172,11 +173,11 @@ var CLSTAMP = "9981652";
             (e[(e.Seated = 0)] = "Seated"),
               (e[(e.Standing = 1)] = "Standing"),
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
-          })(s || (s = {}));
+          })(r || (r = {}));
         let a = 0,
           d = 0,
           c = 4294967295;
-        var p, h, u, m, g, S, _, C, y, f, b, v, A, B, I, E, M, w, O, k, N;
+        var p, h, u, m, g, S, _, C, y, f, b, v, A, B, I, E, M, w, O, k, N, P, T;
         !(function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
@@ -317,12 +318,18 @@ var CLSTAMP = "9981652";
               (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
           })(A || (A = {})),
           (function (e) {
+            (e[(e.ECameraExposure_Unknown = 0)] = "ECameraExposure_Unknown"),
+              (e[(e.ECameraExposure_Nominal = 1)] = "ECameraExposure_Nominal"),
+              (e[(e.ECameraExposure_HighExposure = 2)] =
+                "ECameraExposure_HighExposure");
+          })(B || (B = {})),
+          (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
               (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
               (e[(e.Error = -1)] = "Error");
-          })(B || (B = {})),
+          })(I || (I = {})),
           (function (e) {
             (e[(e.TrackedControllerRole_Invalid = 0)] =
               "TrackedControllerRole_Invalid"),
@@ -336,7 +343,7 @@ var CLSTAMP = "9981652";
                 "TrackedControllerRole_Treadmill"),
               (e[(e.TrackedControllerRole_Max = 5)] =
                 "TrackedControllerRole_Max");
-          })(I || (I = {})),
+          })(E || (E = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -348,18 +355,18 @@ var CLSTAMP = "9981652";
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(E || (E = {})),
+          })(M || (M = {})),
           (function (e) {
             e[(e.Hostname = 0)] = "Hostname";
-          })(M || (M = {})),
+          })(w || (w = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(w || (w = {})),
+          })(O || (O = {})),
           (function (e) {
             (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
-          })(O || (O = {})),
+          })(k || (k = {})),
           (function (e) {
             (e[(e.Inactive = 0)] = "Inactive"),
               (e[(e.PendingReset = 1)] = "PendingReset"),
@@ -367,80 +374,104 @@ var CLSTAMP = "9981652";
               (e[(e.Default = 3)] = "Default"),
               (e[(e.CV = 4)] = "CV"),
               (e[(e.Manual = 5)] = "Manual");
-          })(k || (k = {})),
+          })(N || (N = {})),
+          (function (e) {
+            (e[(e.OK = 1)] = "OK"),
+              (e[(e.Warning = 100)] = "Warning"),
+              (e[(e.Warning_BaseStationMayHaveMoved = 101)] =
+                "Warning_BaseStationMayHaveMoved"),
+              (e[(e.Warning_BaseStationRemoved = 102)] =
+                "Warning_BaseStationRemoved"),
+              (e[(e.Warning_SeatedBoundsInvalid = 103)] =
+                "Warning_SeatedBoundsInvalid"),
+              (e[(e.Error = 200)] = "Error"),
+              (e[(e.Error_BaseStationUninitialized = 201)] =
+                "Error_BaseStationUninitialized"),
+              (e[(e.Error_BaseStationConflict = 202)] =
+                "Error_BaseStationConflict"),
+              (e[(e.Error_PlayAreaInvalid = 203)] = "Error_PlayAreaInvalid"),
+              (e[(e.Error_CollisionBoundsInvalid = 204)] =
+                "Error_CollisionBoundsInvalid");
+          })(P || (P = {})),
           (function (e) {
             (e[(e.Small = 0)] = "Small"),
               (e[(e.Medium = 1)] = "Medium"),
               (e[(e.Large = 2)] = "Large"),
               (e[(e.Gigantic = 3)] = "Gigantic"),
               (e[(e.Standing = 4)] = "Standing");
-          })(N || (N = {}));
+          })(T || (T = {}));
       },
-      5802: (e, t, n) => {
-        n.d(t, {
+      5802: (e, t, o) => {
+        o.d(t, {
           B$: () => k,
           Qd: () => b,
           bR: () => E,
           mQ: () => I,
           xM: () => B,
         });
-        var o,
-          i = n(1635),
-          l = n(3236),
-          s = n(2505),
-          r = n.n(s),
-          a = n(7813),
-          d = n(3714),
-          c = n(6090),
-          p = n(6795),
-          h = n(1532),
-          u = n(9118),
-          m = n(3804);
+        var n,
+          i = o(1635),
+          l = o(3236),
+          r = o(2505),
+          s = o.n(r),
+          a = o(7813),
+          d = o(3714),
+          c = o(6090),
+          p = o(6795),
+          h = o(1532),
+          u = o(9118),
+          m = o(3804);
         class g {
           constructor() {
             (this.path = void 0),
               (this.mode = void 0),
               (this.parameters = new Map()),
               (this.inputs = new Map()),
-              (0, a.Gn)(this);
+              (0, a.makeObservable)(this);
           }
         }
-        (0, i.Cg)([a.sH], g.prototype, "path", void 0),
-          (0, i.Cg)([a.sH], g.prototype, "mode", void 0),
-          (0, i.Cg)([a.sH], g.prototype, "parameters", void 0),
-          (0, i.Cg)([a.sH], g.prototype, "inputs", void 0);
+        (0, i.Cg)([a.observable], g.prototype, "path", void 0),
+          (0, i.Cg)([a.observable], g.prototype, "mode", void 0),
+          (0, i.Cg)([a.observable], g.prototype, "parameters", void 0),
+          (0, i.Cg)([a.observable], g.prototype, "inputs", void 0);
         class S {
           constructor() {
-            (this.path = void 0), (this.output = void 0), (0, a.Gn)(this);
+            (this.path = void 0),
+              (this.output = void 0),
+              (0, a.makeObservable)(this);
           }
         }
-        (0, i.Cg)([a.sH], S.prototype, "path", void 0),
-          (0, i.Cg)([a.sH], S.prototype, "output", void 0),
-          (0, i.Cg)([a.sH], S.prototype, "parameters", void 0);
+        (0, i.Cg)([a.observable], S.prototype, "path", void 0),
+          (0, i.Cg)([a.observable], S.prototype, "output", void 0),
+          (0, i.Cg)([a.observable], S.prototype, "parameters", void 0);
         class _ {
           constructor() {
-            (this.path = void 0), (this.output = void 0), (0, a.Gn)(this);
+            (this.path = void 0),
+              (this.output = void 0),
+              (0, a.makeObservable)(this);
           }
         }
-        (0, i.Cg)([a.sH], _.prototype, "path", void 0),
-          (0, i.Cg)([a.sH], _.prototype, "output", void 0);
+        (0, i.Cg)([a.observable], _.prototype, "path", void 0),
+          (0, i.Cg)([a.observable], _.prototype, "output", void 0);
         class C {
           constructor() {
-            (this.path = void 0), (this.output = void 0), (0, a.Gn)(this);
+            (this.path = void 0),
+              (this.output = void 0),
+              (0, a.makeObservable)(this);
           }
         }
-        (0, i.Cg)([a.sH], C.prototype, "path", void 0),
-          (0, i.Cg)([a.sH], C.prototype, "output", void 0),
-          (0, i.Cg)([a.sH], C.prototype, "parameters", void 0);
+        (0, i.Cg)([a.observable], C.prototype, "path", void 0),
+          (0, i.Cg)([a.observable], C.prototype, "output", void 0),
+          (0, i.Cg)([a.observable], C.prototype, "parameters", void 0);
         class y {
           constructor() {
             (this.output = void 0),
               (this.inputs = new Array()),
-              (0, a.Gn)(this);
+              (0, a.makeObservable)(this);
           }
         }
-        (0, i.Cg)([a.sH], y.prototype, "output", void 0),
-          (0, i.Cg)([a.sH], y.prototype, "inputs", void 0);
+        (0, i.Cg)([a.observable], y.prototype, "output", void 0),
+          (0, i.Cg)([a.observable], y.prototype, "inputs", void 0);
         class f {
           constructor() {
             (this.chords = void 0),
@@ -448,14 +479,14 @@ var CLSTAMP = "9981652";
               (this.haptics = void 0),
               (this.sources = void 0),
               (this.skeleton = void 0),
-              (0, a.Gn)(this);
+              (0, a.makeObservable)(this);
           }
         }
-        (0, i.Cg)([a.sH], f.prototype, "chords", void 0),
-          (0, i.Cg)([a.sH], f.prototype, "poses", void 0),
-          (0, i.Cg)([a.sH], f.prototype, "haptics", void 0),
-          (0, i.Cg)([a.sH], f.prototype, "sources", void 0),
-          (0, i.Cg)([a.sH], f.prototype, "skeleton", void 0);
+        (0, i.Cg)([a.observable], f.prototype, "chords", void 0),
+          (0, i.Cg)([a.observable], f.prototype, "poses", void 0),
+          (0, i.Cg)([a.observable], f.prototype, "haptics", void 0),
+          (0, i.Cg)([a.observable], f.prototype, "sources", void 0),
+          (0, i.Cg)([a.observable], f.prototype, "skeleton", void 0);
         class b {
           constructor() {
             (this.vecRequired = []), (this.vecSuggested = []);
@@ -467,46 +498,48 @@ var CLSTAMP = "9981652";
               (this.device_path_handle = void 0),
               (this.role = void 0),
               (this.controller_role = void 0),
-              (0, a.Gn)(this);
+              (0, a.makeObservable)(this);
           }
         }
-        (0, i.Cg)([a.sH], v.prototype, "device_path_string", void 0),
-          (0, i.Cg)([a.sH], v.prototype, "device_path_handle", void 0),
-          (0, i.Cg)([a.sH], v.prototype, "role", void 0),
-          (0, i.Cg)([a.sH], v.prototype, "controller_role", void 0);
+        (0, i.Cg)([a.observable], v.prototype, "device_path_string", void 0),
+          (0, i.Cg)([a.observable], v.prototype, "device_path_handle", void 0),
+          (0, i.Cg)([a.observable], v.prototype, "role", void 0),
+          (0, i.Cg)([a.observable], v.prototype, "controller_role", void 0);
         class A {
           constructor() {
-            (this.trackers = void 0), (this.valid_roles = []), (0, a.Gn)(this);
+            (this.trackers = void 0),
+              (this.valid_roles = []),
+              (0, a.makeObservable)(this);
           }
         }
         function B(e) {
-          return new Promise(function (t, n) {
-            r()
+          return new Promise(function (t, o) {
+            s()
               .get("/input/getactions.json?app_key=" + e)
-              .then((n) => {
-                console.log("Loaded action manifest for ", e), t(n.data);
+              .then((o) => {
+                console.log("Loaded action manifest for ", e), t(o.data);
               })
               .catch((e) => {
-                n(e);
+                o(e);
               });
           });
         }
-        function I(e, t, n) {
+        function I(e, t, o) {
           return (0, i.sH)(this, void 0, void 0, function* () {
-            let o = (yield r().get(
+            let n = (yield s().get(
               "/input/loadbindingfromurl.json?binding_url=" +
-                encodeURI(n) +
+                encodeURI(o) +
                 "&controller_type=" +
                 encodeURI(t) +
                 "&app_key=" +
                 encodeURI(e),
             )).data;
-            if (o.success) return o;
-            throw new Error(o.error);
+            if (n.success) return n;
+            throw new Error(n.error);
           });
         }
-        (0, i.Cg)([a.sH], A.prototype, "trackers", void 0),
-          (0, i.Cg)([a.sH], A.prototype, "valid_roles", void 0);
+        (0, i.Cg)([a.observable], A.prototype, "trackers", void 0),
+          (0, i.Cg)([a.observable], A.prototype, "valid_roles", void 0);
         class E {
           constructor(e, t) {
             (this.x = e), (this.y = t), this.toString.bind(this);
@@ -516,7 +549,7 @@ var CLSTAMP = "9981652";
           }
         }
         class M {
-          constructor(e, t, n, o, i) {
+          constructor(e, t, o, n, i) {
             (this.m_BindingUISource = void 0),
               (this.m_ControllerProfile = void 0),
               (this.m_sDeviceInputPath = void 0),
@@ -527,15 +560,15 @@ var CLSTAMP = "9981652";
               (this.m_iNewSourceEntry = -1),
               (this.m_sDeviceInputPath = e),
               (this.m_ControllerProfile = t),
-              (this.m_eButtonSide = n),
-              (this.m_sInputPath = o),
+              (this.m_eButtonSide = o),
+              (this.m_sInputPath = n),
               (this.m_sActionSet = i),
-              (this.m_BindingStoreObserverDisposer = (0, a.lB)(k, (e) => {
+              (this.m_BindingStoreObserverDisposer = (0, a.observe)(k, (e) => {
                 "m_LoadedBinding" == e.name && this.UpdateBindingSource();
               })),
               this.UpdateBindingSource(),
               k.RegisterBindingWatcher(this.UpdateBindingSource.bind(this)),
-              (0, a.Gn)(this);
+              (0, a.makeObservable)(this);
           }
           cancelWatcher() {
             this.m_BindingStoreObserverDisposer(),
@@ -571,20 +604,20 @@ var CLSTAMP = "9981652";
               this.m_BindingUISource[e].inputs &&
               this.m_BindingUISource[e].inputs.has(t)
             ) {
-              let n = this.m_BindingUISource[e].inputs.get(t).output,
-                o = k.GetActionByName(n);
-              if (!o) {
-                let e = k.GetSimulatedActionByPath(n);
-                e && (o = k.CreateActionDefinitionForSimulatedAction(e));
+              let o = this.m_BindingUISource[e].inputs.get(t).output,
+                n = k.GetActionByName(o);
+              if (!n) {
+                let e = k.GetSimulatedActionByPath(o);
+                e && (n = k.CreateActionDefinitionForSimulatedAction(e));
               }
-              let i = k.GetAliasInfo(n);
+              let i = k.GetAliasInfo(o);
               return (
-                o &&
+                n &&
                   i &&
                   i.alias_name &&
-                  ((o = Object.assign({}, o)),
-                  (o.localized_name = i.alias_name)),
-                o
+                  ((n = Object.assign({}, n)),
+                  (n.localized_name = i.alias_name)),
+                n
               );
             }
           }
@@ -866,11 +899,11 @@ var CLSTAMP = "9981652";
             k.ClearModesForInputPath(this.GetFullInputPath),
               e.GetModes.forEach((e, t) => {
                 k.AddInputModeForSource(this.GetFullInputPath, e.mode),
-                  e.inputs.forEach((e, n) => {
+                  e.inputs.forEach((e, o) => {
                     k.SetActionForInputModeType(
                       this.GetFullInputPath,
                       t,
-                      n,
+                      o,
                       e.output,
                       [],
                     );
@@ -881,13 +914,13 @@ var CLSTAMP = "9981652";
             let t = e.GetModes;
             if (this.GetModes.length != t.length) return !1;
             for (let e = 0; e < t.length; e++) {
-              let n = t[e],
-                o = this.GetModes.filter((e) => e.mode == n.mode);
-              if (o.length > 0) {
+              let o = t[e],
+                n = this.GetModes.filter((e) => e.mode == o.mode);
+              if (n.length > 0) {
                 let e = !0;
                 return (
-                  o[0].inputs.forEach((t, o) => {
-                    (n.inputs.has(o) && n.inputs.get(o).output == t.output) ||
+                  n[0].inputs.forEach((t, n) => {
+                    (o.inputs.has(n) && o.inputs.get(n).output == t.output) ||
                       (e = !1);
                   }),
                   e
@@ -897,26 +930,26 @@ var CLSTAMP = "9981652";
             }
             return !0;
           }
-          SetClickParameter(e, t, n) {
+          SetClickParameter(e, t, o) {
             k.SetParameterForInputModeType(
               this.GetFullInputPath,
               e,
               "click",
               t,
-              n,
+              o,
             );
           }
-          SetTouchParameter(e, t, n) {
+          SetTouchParameter(e, t, o) {
             k.SetParameterForInputModeType(
               this.GetFullInputPath,
               e,
               "touch",
               t,
-              n,
+              o,
             );
           }
-          SetParameter(e, t, n, o) {
-            k.SetParameterForInputModeType(this.GetFullInputPath, e, t, n, o);
+          SetParameter(e, t, o, n) {
+            k.SetParameterForInputModeType(this.GetFullInputPath, e, t, o, n);
           }
           GetClickParameter(e, t) {
             return k.GetParameterForInputModeType(
@@ -934,12 +967,12 @@ var CLSTAMP = "9981652";
               t,
             );
           }
-          GetParameter(e, t, n) {
+          GetParameter(e, t, o) {
             return k.GetParameterForInputModeType(
               this.GetFullInputPath,
               e,
               t,
-              n,
+              o,
             );
           }
           GetTrackpadInvertState(e) {
@@ -962,38 +995,38 @@ var CLSTAMP = "9981652";
             }
           }
           SetTrackpadInvertState(e, t) {
-            let n = "";
+            let o = "";
             switch (t) {
               case "x":
-                n = "x";
+                o = "x";
                 break;
               case "y":
-                n = "y";
+                o = "y";
                 break;
               case "xy":
-                n = "xy";
+                o = "xy";
             }
             k.SetParameterForInputModeType(
               this.GetFullInputPath,
               e,
               "trackpad",
               "invert",
-              n,
+              o,
             );
           }
         }
-        (0, i.Cg)([a.sH], M.prototype, "m_BindingUISource", void 0),
-          (0, i.Cg)([a.sH], M.prototype, "m_ControllerProfile", void 0),
-          (0, i.Cg)([a.sH], M.prototype, "m_sDeviceInputPath", void 0),
-          (0, i.Cg)([a.sH], M.prototype, "m_eButtonSide", void 0),
-          (0, i.Cg)([a.sH], M.prototype, "m_sInputPath", void 0),
-          (0, i.Cg)([a.sH], M.prototype, "m_sActionSet", void 0),
+        (0, i.Cg)([a.observable], M.prototype, "m_BindingUISource", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_ControllerProfile", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_sDeviceInputPath", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_eButtonSide", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_sInputPath", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_sActionSet", void 0),
           (0, i.Cg)([l.o], M.prototype, "cancelWatcher", null),
-          (0, i.Cg)([a.XI], M.prototype, "UpdateBindingSource", null),
-          (0, i.Cg)([a.EW], M.prototype, "GetFullInputPath", null),
+          (0, i.Cg)([a.action], M.prototype, "UpdateBindingSource", null),
+          (0, i.Cg)([a.computed], M.prototype, "GetFullInputPath", null),
           (0, i.Cg)([l.o], M.prototype, "GetSVGEndPoint", null),
-          (0, i.Cg)([a.EW], M.prototype, "GetButtonSide", null),
-          (0, i.Cg)([a.EW], M.prototype, "GetNumModes", null),
+          (0, i.Cg)([a.computed], M.prototype, "GetButtonSide", null),
+          (0, i.Cg)([a.computed], M.prototype, "GetNumModes", null),
           (0, i.Cg)([l.o], M.prototype, "GetActionForInputType", null),
           (0, i.Cg)([l.o], M.prototype, "GetClickAction", null),
           (0, i.Cg)([l.o], M.prototype, "GetTouchAction", null),
@@ -1013,53 +1046,73 @@ var CLSTAMP = "9981652";
           (0, i.Cg)([l.o], M.prototype, "GetConstantAction", null),
           (0, i.Cg)([l.o], M.prototype, "GetGrabAction", null),
           (0, i.Cg)([l.o], M.prototype, "GetValueAction", null),
-          (0, i.Cg)([a.EW], M.prototype, "GetControllerInputName", null),
-          (0, i.Cg)([a.EW], M.prototype, "GetModes", null),
+          (0, i.Cg)([a.computed], M.prototype, "GetControllerInputName", null),
+          (0, i.Cg)([a.computed], M.prototype, "GetModes", null),
           (0, i.Cg)([l.o], M.prototype, "GetMode", null),
-          (0, i.Cg)([a.EW], M.prototype, "GetInputSourceType", null),
-          (0, i.Cg)([a.EW], M.prototype, "GetInputSource", null),
-          (0, i.Cg)([a.EW], M.prototype, "GetInputSourceClickSupport", null),
-          (0, i.Cg)([a.EW], M.prototype, "GetInputSourceTouchSupport", null),
-          (0, i.Cg)([a.EW], M.prototype, "GetInputSourceForceSupport", null),
-          (0, i.Cg)([a.EW], M.prototype, "GetInputSourceDefaultDeadzone", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetInputMode", null),
-          (0, i.Cg)([a.XI], M.prototype, "AddInputMode", null),
-          (0, i.Cg)([a.XI], M.prototype, "DeleteInputMode", null),
+          (0, i.Cg)([a.computed], M.prototype, "GetInputSourceType", null),
+          (0, i.Cg)([a.computed], M.prototype, "GetInputSource", null),
+          (0, i.Cg)(
+            [a.computed],
+            M.prototype,
+            "GetInputSourceClickSupport",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
+            M.prototype,
+            "GetInputSourceTouchSupport",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
+            M.prototype,
+            "GetInputSourceForceSupport",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
+            M.prototype,
+            "GetInputSourceDefaultDeadzone",
+            null,
+          ),
+          (0, i.Cg)([a.action], M.prototype, "SetInputMode", null),
+          (0, i.Cg)([a.action], M.prototype, "AddInputMode", null),
+          (0, i.Cg)([a.action], M.prototype, "DeleteInputMode", null),
           (0, i.Cg)([l.o], M.prototype, "ClearNewModeIfSet", null),
           (0, i.Cg)([l.o], M.prototype, "BHasModeSelectionPending", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetClickAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetTouchAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetHeldAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetLongAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetSingleAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetDoubleAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetPositionAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetNorthAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetEastAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetSouthAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetWestAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetCenterAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetScrollAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetPullAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetForceAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetGrabAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetValueAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetConstantAction", null),
-          (0, i.Cg)([a.XI], M.prototype, "CopyActions", null),
+          (0, i.Cg)([a.action], M.prototype, "SetClickAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetTouchAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetHeldAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetLongAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetSingleAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetDoubleAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetPositionAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetNorthAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetEastAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetSouthAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetWestAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetCenterAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetScrollAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetPullAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetForceAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetGrabAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetValueAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetConstantAction", null),
+          (0, i.Cg)([a.action], M.prototype, "CopyActions", null),
           (0, i.Cg)([l.o], M.prototype, "BindingsMatch", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetClickParameter", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetTouchParameter", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetParameter", null),
-          (0, i.Cg)([a.XI], M.prototype, "GetClickParameter", null),
-          (0, i.Cg)([a.XI], M.prototype, "GetTouchParameter", null),
-          (0, i.Cg)([a.XI], M.prototype, "GetParameter", null),
+          (0, i.Cg)([a.action], M.prototype, "SetClickParameter", null),
+          (0, i.Cg)([a.action], M.prototype, "SetTouchParameter", null),
+          (0, i.Cg)([a.action], M.prototype, "SetParameter", null),
+          (0, i.Cg)([a.action], M.prototype, "GetClickParameter", null),
+          (0, i.Cg)([a.action], M.prototype, "GetTouchParameter", null),
+          (0, i.Cg)([a.action], M.prototype, "GetParameter", null),
           (0, i.Cg)([l.o], M.prototype, "GetTrackpadInvertState", null),
-          (0, i.Cg)([a.XI], M.prototype, "SetTrackpadInvertState", null);
+          (0, i.Cg)([a.action], M.prototype, "SetTrackpadInvertState", null);
         class w {
-          constructor(e, t, n) {
+          constructor(e, t, o) {
             (this.m_sSaveType = e),
               (this.m_OutstandingSaveBindingResolve = t),
-              (this.m_OutstandingSaveBindingReject = n);
+              (this.m_OutstandingSaveBindingReject = o);
           }
           resolve(e) {
             this.m_OutstandingSaveBindingResolve(e);
@@ -1081,18 +1134,18 @@ var CLSTAMP = "9981652";
                 "eWebSocketState_Connecting"),
               (e[(e.eWebSocketState_Connected = 3)] =
                 "eWebSocketState_Connected");
-          })(o || (o = {}));
+          })(n || (n = {}));
         class O {
           constructor() {
             (this.m_wsWebSocketToServer = void 0),
-              (this.m_eWebSocketState = o.eWebSocketState_Unknown),
+              (this.m_eWebSocketState = n.eWebSocketState_Unknown),
               (this.m_timerWebSocket = void 0),
               (this.m_dateStartTime = new Date()),
               (this.m_sLoadedBindingURI = void 0),
               (this.m_LoadedBinding = void 0),
-              (this.m_ModifiedBindingSet = a.sH.map()),
-              (this.m_ModifiedOptions = a.sH.map()),
-              (this.m_ModifiedAliases = a.sH.map()),
+              (this.m_ModifiedBindingSet = a.observable.map()),
+              (this.m_ModifiedOptions = a.observable.map()),
+              (this.m_ModifiedAliases = a.observable.map()),
               (this.m_sName = void 0),
               (this.m_sDescription = void 0),
               (this.m_sInteractionProfile = void 0),
@@ -1108,15 +1161,17 @@ var CLSTAMP = "9981652";
               (this.m_bIsMissingRequiredActions = !1),
               (this.m_rKnownFailedBindingUris = []),
               (this.m_ControllerWatchers = new Map()),
-              (this.m_ModifiedSimulatedActions = a.sH.map()),
+              (this.m_ModifiedSimulatedActions = a.observable.map()),
               (this.m_nNextSimulatedActionId = 1),
               (this.m_nBindingSubscriptionChangedCanary = 1),
-              (0, a.Gn)(this);
+              (this.m_bIsSaving = !1),
+              (this.m_bHasPendingSave = !1),
+              (0, a.makeObservable)(this);
           }
           OpenWebSocketToHost() {
             return new Promise((e, t) => {
-              this.m_eWebSocketState != o.eWebSocketState_Connecting &&
-                this.m_eWebSocketState != o.eWebSocketState_Connected &&
+              this.m_eWebSocketState != n.eWebSocketState_Connecting &&
+                this.m_eWebSocketState != n.eWebSocketState_Connected &&
                 (this.m_wsWebSocketToServer &&
                   delete this.m_wsWebSocketToServer,
                 (this.m_wsWebSocketToServer = new WebSocket(
@@ -1131,7 +1186,7 @@ var CLSTAMP = "9981652";
                 this.m_wsWebSocketToServer.addEventListener("close", (e) => {
                   this.OnWebSocketClose(e);
                 }),
-                (this.m_eWebSocketState = o.eWebSocketState_Connecting)),
+                (this.m_eWebSocketState = n.eWebSocketState_Connecting)),
                 this.m_timerWebSocket ||
                   (this.m_timerWebSocket = window.setTimeout(
                     this.OpenWebSocketToHost,
@@ -1147,15 +1202,15 @@ var CLSTAMP = "9981652";
           CountDevicesWithControllerType(e) {
             let t = 0;
             return (
-              u.W.ConnectedDevices.forEach((n) => {
-                n.controller_type == e && t++;
+              u.W.ConnectedDevices.forEach((o) => {
+                o.controller_type == e && t++;
               }),
               t
             );
           }
           ComputeControllerTypeScore(e) {
             let t = this.CountDevicesWithControllerType(e.controller_type),
-              n =
+              o =
                 ((null === c.Ay || void 0 === c.Ay ? void 0 : c.Ay.HasHMD())
                   ? null === c.Ay || void 0 === c.Ay
                     ? void 0
@@ -1166,15 +1221,15 @@ var CLSTAMP = "9981652";
                   : void 0) == e.controller_type
                   ? 2
                   : 1;
-            return 1e3 * (999 - e.priority) + 10 * t + n;
+            return 1e3 * (999 - e.priority) + 10 * t + o;
           }
           GetBestControllerType() {
             let e,
               t = 0;
             return (
-              u.W.ControllerTypes.forEach((n) => {
-                let o = this.ComputeControllerTypeScore(n);
-                o > t && ((e = n), (t = o));
+              u.W.ControllerTypes.forEach((o) => {
+                let n = this.ComputeControllerTypeScore(o);
+                n > t && ((e = o), (t = n));
               }),
               e
             );
@@ -1187,20 +1242,20 @@ var CLSTAMP = "9981652";
                   e != u.W.KnownControllerTypes.size &&
                   this.ReloadCurrentApp();
                 let t = !1;
-                const n = this.GetBestControllerType();
-                let o = u.W.FindDeviceClassForControllerType(
+                const o = this.GetBestControllerType();
+                let n = u.W.FindDeviceClassForControllerType(
                   this.m_sSelectedControllerType,
                 );
                 if (
-                  null != n &&
-                  this.m_sSelectedControllerType != n.controller_type &&
+                  null != o &&
+                  this.m_sSelectedControllerType != o.controller_type &&
                   !this.m_bControllerTypeSelectedByUser
                 ) {
                   let e = u.W.FindDeviceClassForControllerType(
-                    n.controller_type,
+                    o.controller_type,
                   );
-                  p.n.IsSafeToResetControllerType(o, e) &&
-                    ((this.m_sSelectedControllerType = n.controller_type),
+                  p.n.IsSafeToResetControllerType(n, e) &&
+                    ((this.m_sSelectedControllerType = o.controller_type),
                     (t = !0));
                 }
                 return t ? this.ReloadControllerConfiguration() : null;
@@ -1208,10 +1263,10 @@ var CLSTAMP = "9981652";
             });
           }
           get SteamVRUnavailable() {
-            return this.m_eWebSocketState == o.eWebSocketState_Connecting ||
-              this.m_eWebSocketState == o.eWebSocketState_Unknown
+            return this.m_eWebSocketState == n.eWebSocketState_Connecting ||
+              this.m_eWebSocketState == n.eWebSocketState_Unknown
               ? Date.now() - this.m_dateStartTime.getTime() > 1e4
-              : this.m_eWebSocketState != o.eWebSocketState_Connected;
+              : this.m_eWebSocketState != n.eWebSocketState_Connected;
           }
           get ActionSets() {
             if (
@@ -1223,17 +1278,17 @@ var CLSTAMP = "9981652";
             return (
               this.m_SelectedAppActions.action_sets.forEach((t) => {
                 if ("hidden" != t.usage) {
-                  let n = !0;
+                  let o = !0;
                   t.required_options &&
                     t.required_options.forEach((e) => {
-                      this.GetOptionValue(e) || (n = !1);
+                      this.GetOptionValue(e) || (o = !1);
                     });
-                  let o = !1;
+                  let n = !1;
                   t.forbidden_options &&
                     t.forbidden_options.forEach((e) => {
-                      this.GetOptionValue(e) && (o = !0);
+                      this.GetOptionValue(e) && (n = !0);
                     }),
-                    n && !o && e.push(t);
+                    o && !n && e.push(t);
                 }
               }),
               e
@@ -1277,8 +1332,8 @@ var CLSTAMP = "9981652";
           GetOptionDefault(e) {
             let t = !1;
             return (
-              this.ManifestOptions.forEach((n) => {
-                n.name == e && (t = n.default);
+              this.ManifestOptions.forEach((o) => {
+                o.name == e && (t = o.default);
               }),
               t
             );
@@ -1304,24 +1359,24 @@ var CLSTAMP = "9981652";
           }
           SetAliasName(e, t) {
             if (this.m_ModifiedAliases.has(e)) {
-              let n = this.m_ModifiedAliases.get(e);
-              (n.alias_name = t),
-                this.m_ModifiedAliases.set(e, n),
+              let o = this.m_ModifiedAliases.get(e);
+              (o.alias_name = t),
+                this.m_ModifiedAliases.set(e, o),
                 this.NotifyWatchersOfChange();
             } else {
-              let n = { alias_name: t, hidden: !1 };
-              this.m_ModifiedAliases.set(e, n), this.NotifyWatchersOfChange();
+              let o = { alias_name: t, hidden: !1 };
+              this.m_ModifiedAliases.set(e, o), this.NotifyWatchersOfChange();
             }
           }
           SetAliasHidden(e, t) {
             if (this.m_ModifiedAliases.has(e)) {
-              let n = this.m_ModifiedAliases.get(e);
-              (n.hidden = t),
-                this.m_ModifiedAliases.set(e, n),
+              let o = this.m_ModifiedAliases.get(e);
+              (o.hidden = t),
+                this.m_ModifiedAliases.set(e, o),
                 this.NotifyWatchersOfChange();
             } else {
-              let n = { alias_name: "", hidden: t };
-              this.m_ModifiedAliases.set(e, n), this.NotifyWatchersOfChange();
+              let o = { alias_name: "", hidden: t };
+              this.m_ModifiedAliases.set(e, o), this.NotifyWatchersOfChange();
             }
           }
           ComputeSimulatedActionPathFromId(e) {
@@ -1343,8 +1398,8 @@ var CLSTAMP = "9981652";
                 id: this.m_nNextSimulatedActionId++,
                 output: "",
               },
-              n = this.ComputeSimulatedActionPathFromId(t.id);
-            this.m_ModifiedSimulatedActions.set(n, t),
+              o = this.ComputeSimulatedActionPathFromId(t.id);
+            this.m_ModifiedSimulatedActions.set(o, t),
               this.NotifyWatchersOfChange();
           }
           DeleteSimulatedActionByPath(e) {
@@ -1371,13 +1426,13 @@ var CLSTAMP = "9981652";
               return u.W.GetControllerTypeInfo(this.m_sSelectedControllerType);
           }
           DeviceForControllerType(e, t) {
-            let n = u.W.GetControllerTypeInfo(e);
-            if (!n) return;
-            let o = !1,
+            let o = u.W.GetControllerTypeInfo(e);
+            if (!o) return;
+            let n = !1,
               i = u.W.ConnectedDevices.find((i) => {
                 if (i.controller_type == e) {
-                  if (((o = !0), !t)) return !0;
-                  if ("controller_handed" != n.input_bindingui_mode) return !0;
+                  if (((n = !0), !t)) return !0;
+                  if ("controller_handed" != o.input_bindingui_mode) return !0;
                   let e = 1 == t ? "/left" : "/right";
                   if (i.root_path && i.root_path.indexOf(e) >= 0) return !0;
                 }
@@ -1385,7 +1440,7 @@ var CLSTAMP = "9981652";
               });
             return (
               i ||
-              (o
+              (n
                 ? u.W.ConnectedDevices.find((t) => t.controller_type == e)
                 : void 0)
             );
@@ -1440,12 +1495,12 @@ var CLSTAMP = "9981652";
             )
               return;
             let t,
-              n = e.toLowerCase();
+              o = e.toLowerCase();
             return (
               this.m_SelectedAppActions.action_sets.forEach((e) => {
                 if (!e.actions) return;
-                let o = e.actions.find((e) => e.name.toLowerCase() == n);
-                o && (t = o);
+                let n = e.actions.find((e) => e.name.toLowerCase() == o);
+                n && (t = n);
               }),
               t
             );
@@ -1459,32 +1514,32 @@ var CLSTAMP = "9981652";
             this.m_bIsMissingRequiredActions = !1;
             for (let e of this.ActionSets) {
               let t = [],
-                n = [];
+                o = [];
               if (!e.actions) break;
-              for (let o of e.actions)
+              for (let n of e.actions)
                 if (
-                  "optional" != o.requirement &&
-                  !this.IsActionBound(e, o.name)
+                  "optional" != n.requirement &&
+                  !this.IsActionBound(e, n.name)
                 ) {
-                  let e = this.GetAliasInfo(o.name);
+                  let e = this.GetAliasInfo(n.name);
                   if (e) {
                     if (e.hidden) continue;
                     e.alias_name &&
-                      ((o = Object.assign({}, o)),
-                      (o.localized_name = e.alias_name));
+                      ((n = Object.assign({}, n)),
+                      (n.localized_name = e.alias_name));
                   }
-                  "mandatory" == o.requirement ? t.push(o) : n.push(o);
+                  "mandatory" == n.requirement ? t.push(n) : o.push(n);
                 }
               if (
                 (t.length > 0 && (this.m_bIsMissingRequiredActions = !0),
                 this.m_mapUnoundActions.has(e.name))
               ) {
-                let o = this.m_mapUnoundActions.get(e.name);
-                (o.vecRequired = t), (o.vecSuggested = n);
+                let n = this.m_mapUnoundActions.get(e.name);
+                (n.vecRequired = t), (n.vecSuggested = o);
               } else
                 this.m_mapUnoundActions.set(e.name, {
                   vecRequired: t,
-                  vecSuggested: n,
+                  vecSuggested: o,
                 });
             }
             let e = this.SelectedControllerTypeInfo;
@@ -1502,21 +1557,21 @@ var CLSTAMP = "9981652";
           }
           IsActionBound(e, t) {
             t = t.toLowerCase();
-            let n = this.GetActionSetSources(e.name);
-            if (n)
-              for (let e of n) {
-                let n = !1;
+            let o = this.GetActionSetSources(e.name);
+            if (o)
+              for (let e of o) {
+                let o = !1;
                 if (
                   (e.inputs.forEach((e) => {
-                    e.output.toLowerCase() == t && (n = !0);
+                    e.output.toLowerCase() == t && (o = !0);
                   }),
-                  n)
+                  o)
                 )
                   return !0;
               }
-            let o = this.GetActionSetChords(e.name);
-            if (o)
-              for (let e of o)
+            let n = this.GetActionSetChords(e.name);
+            if (n)
+              for (let e of n)
                 if (e.output && e.output.toLowerCase() == t) return !0;
             let i = this.GetActionSetPoses(e.name);
             if (i)
@@ -1526,9 +1581,9 @@ var CLSTAMP = "9981652";
             if (l)
               for (let e of l)
                 if (e.output && e.output.toLowerCase() == t) return !0;
-            let s = this.GetActionSetSkeleton(e.name);
-            if (s)
-              for (let e of s)
+            let r = this.GetActionSetSkeleton(e.name);
+            if (r)
+              for (let e of r)
                 if (e.output && e.output.toLowerCase() == t) return !0;
             return !1;
           }
@@ -1656,9 +1711,9 @@ var CLSTAMP = "9981652";
             ) {
               (this.m_rKnownFailedBindingUris = []),
                 this.m_ControllerWatchers.clear();
-              let n = h.s.GetApp(e);
-              n &&
-                ((this.m_SelectedApp = n),
+              let o = h.s.GetApp(e);
+              o &&
+                ((this.m_SelectedApp = o),
                 console.log(`Successfully set selected app to app key: ${e}.`),
                 t || this.ReloadCurrentApp());
             }
@@ -1680,10 +1735,10 @@ var CLSTAMP = "9981652";
           }
           SetSelectedController(e, t) {
             if (e != this.m_sSelectedControllerType) {
-              let n = u.W.GetControllerTypeInfo(e);
-              n &&
+              let o = u.W.GetControllerTypeInfo(e);
+              o &&
                 (this.m_ControllerWatchers.clear(),
-                (this.m_sSelectedControllerType = n.controller_type),
+                (this.m_sSelectedControllerType = o.controller_type),
                 (this.m_bControllerTypeSelectedByUser = !0),
                 (this.m_sLoadedBindingURI = void 0),
                 t || this.ReloadControllerConfiguration());
@@ -1707,8 +1762,8 @@ var CLSTAMP = "9981652";
                 "/user/hand/left",
                 "/user/hand/right",
                 "/user/head",
-              ].forEach((n) => {
-                0 != e.indexOf(n) || (t = n);
+              ].forEach((o) => {
+                0 != e.indexOf(o) || (t = o);
               }),
               t
                 ? (0, d.we)("#" + t) +
@@ -1735,23 +1790,23 @@ var CLSTAMP = "9981652";
           }
           GetActionBinding(e, t) {
             if (null == this.m_ModifiedBindingSet) return;
-            let n = this.m_ModifiedBindingSet;
-            if (n.has(t)) {
-              let o = n.get(t).sources;
-              if (o) {
-                let t = o.filter((t) => t.path == e);
+            let o = this.m_ModifiedBindingSet;
+            if (o.has(t)) {
+              let n = o.get(t).sources;
+              if (n) {
+                let t = n.filter((t) => t.path == e);
                 if (t) return t;
               }
             }
           }
           GetInputModesForSourceType(e, t) {
-            let n = [];
+            let o = [];
             switch (e) {
               case "button":
-                n = ["button", "-", "toggle_button", "scalar_constant"];
+                o = ["button", "-", "toggle_button", "scalar_constant"];
                 break;
               case "trackpad":
-                n = [
+                o = [
                   "trackpad",
                   "dpad",
                   "-",
@@ -1762,7 +1817,7 @@ var CLSTAMP = "9981652";
                 ];
                 break;
               case "trigger":
-                n = [
+                o = [
                   "trigger",
                   "button",
                   "-",
@@ -1771,7 +1826,7 @@ var CLSTAMP = "9981652";
                 ];
                 break;
               case "joystick":
-                n = [
+                o = [
                   "joystick",
                   "dpad",
                   "-",
@@ -1782,13 +1837,13 @@ var CLSTAMP = "9981652";
                 ];
                 break;
               case "pinch":
-                n = ["grab"];
+                o = ["grab"];
                 break;
               default:
-                n = [];
+                o = [];
             }
             return (
-              t && (n.push("force_sensor"), "trigger" == e && n.push("grab")), n
+              t && (o.push("force_sensor"), "trigger" == e && o.push("grab")), o
             );
           }
           GetBooleanInputOptionsForMode(e) {
@@ -1818,28 +1873,28 @@ var CLSTAMP = "9981652";
               null == this.m_SelectedAppActions.action_sets
             )
               return [];
-            let n = this.SelectedActionSetDetails;
-            if (!n) return [];
-            if (null == n.actions) return [];
-            let o = [];
+            let o = this.SelectedActionSetDetails;
+            if (!o) return [];
+            if (null == o.actions) return [];
+            let n = [];
             return (
-              n.actions.forEach((n) => {
-                let i = this.m_ModifiedAliases.get(n.name);
-                if (n.type == e && (!i || !i.hidden || t))
+              o.actions.forEach((o) => {
+                let i = this.m_ModifiedAliases.get(o.name);
+                if (o.type == e && (!i || !i.hidden || t))
                   if (i && i.alias_name) {
-                    let e = Object.assign({}, n);
-                    (e.localized_name = i.alias_name), o.push(e);
-                  } else o.push(n);
+                    let e = Object.assign({}, o);
+                    (e.localized_name = i.alias_name), n.push(e);
+                  } else n.push(o);
               }),
               t ||
                 this.m_ModifiedSimulatedActions.forEach((t) => {
                   if (this.GetActionTypeFromSimulatedActionType(t.type) == e) {
                     this.ComputeSimulatedActionPathFromId(t.id),
                       t.name ? t.name : ((0, d.we)("UnnamedSimAction"), t.id);
-                    o.push(this.CreateActionDefinitionForSimulatedAction(t));
+                    n.push(this.CreateActionDefinitionForSimulatedAction(t));
                   }
                 }),
-              o
+              n
             );
           }
           GetActionTypeFromSimulatedActionType(e) {
@@ -1897,8 +1952,8 @@ var CLSTAMP = "9981652";
               this.m_sSelectedActionSet,
             ).poses;
             if (null == t) return;
-            let n = t.filter((t) => t.output.toLowerCase() == e.toLowerCase());
-            return n.length ? n : void 0;
+            let o = t.filter((t) => t.output.toLowerCase() == e.toLowerCase());
+            return o.length ? o : void 0;
           }
           GetPoseActionByPath(e) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
@@ -1907,8 +1962,8 @@ var CLSTAMP = "9981652";
               this.m_sSelectedActionSet,
             ).poses;
             if (null == t) return;
-            let n = t.filter((t) => t.path.toLowerCase() == e.toLowerCase());
-            return n.length ? n : void 0;
+            let o = t.filter((t) => t.path.toLowerCase() == e.toLowerCase());
+            return o.length ? o : void 0;
           }
           GetHapticsAction(e) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
@@ -1917,8 +1972,8 @@ var CLSTAMP = "9981652";
               this.m_sSelectedActionSet,
             ).haptics;
             if (null == t) return;
-            let n = t.filter((t) => t.output.toLowerCase() == e.toLowerCase());
-            return n.length ? n : void 0;
+            let o = t.filter((t) => t.output.toLowerCase() == e.toLowerCase());
+            return o.length ? o : void 0;
           }
           GetHapticsActionByPath(e) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
@@ -1927,8 +1982,8 @@ var CLSTAMP = "9981652";
               this.m_sSelectedActionSet,
             ).haptics;
             if (null == t) return;
-            let n = t.filter((t) => t.path.toLowerCase() == e.toLowerCase());
-            return n.length ? n : void 0;
+            let o = t.filter((t) => t.path.toLowerCase() == e.toLowerCase());
+            return o.length ? o : void 0;
           }
           GetSkeletonAction(e) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
@@ -1937,8 +1992,8 @@ var CLSTAMP = "9981652";
               this.m_sSelectedActionSet,
             ).skeleton;
             if (null == t) return;
-            let n = t.filter((t) => t.output.toLowerCase() == e.toLowerCase());
-            return n.length ? n : void 0;
+            let o = t.filter((t) => t.output.toLowerCase() == e.toLowerCase());
+            return o.length ? o : void 0;
           }
           GetSkeletonActionByPath(e) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
@@ -1947,8 +2002,8 @@ var CLSTAMP = "9981652";
               this.m_sSelectedActionSet,
             ).skeleton;
             if (null == t) return;
-            let n = t.filter((t) => t.path.toLowerCase() == e.toLowerCase());
-            return n.length ? n : void 0;
+            let o = t.filter((t) => t.path.toLowerCase() == e.toLowerCase());
+            return o.length ? o : void 0;
           }
           NotifyWatchersOfChange() {
             console.log("Binding file changed"),
@@ -1957,7 +2012,7 @@ var CLSTAMP = "9981652";
               }),
               this.AutosaveBinding();
           }
-          SetActionForInputModeType(e, t, n, o, i) {
+          SetActionForInputModeType(e, t, o, n, i) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
               return void console.error(
                 "SetActionForInputModeType: Invalid action set specified",
@@ -1967,14 +2022,14 @@ var CLSTAMP = "9981652";
                 (this.mode = e), (this.sourceIdx = t);
               }
             }
-            let s = [];
+            let r = [];
             if (
               (this.m_ModifiedBindingSet
                 .get(this.m_sSelectedActionSet)
-                .sources.forEach((t, n) => {
-                  t.path == e && s.push(new l(t, n));
+                .sources.forEach((t, o) => {
+                  t.path == e && r.push(new l(t, o));
                 }),
-              s.length <= t)
+              r.length <= t)
             )
               return void console.warn(
                 "Invalid mode index (",
@@ -1982,34 +2037,34 @@ var CLSTAMP = "9981652";
                 ") for path ",
                 e,
               );
-            let r = s[t].sourceIdx;
-            if (r >= 0) {
+            let s = r[t].sourceIdx;
+            if (s >= 0) {
               let e = this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet)
-                .sources[r];
-              if (e.inputs && e.inputs.has(n) && e.inputs.get(n).output == o)
+                .sources[s];
+              if (e.inputs && e.inputs.has(o) && e.inputs.get(o).output == n)
                 return void console.log(
                   "Trying to set new action to old action for type",
-                  n,
-                  " action is ",
                   o,
+                  " action is ",
+                  n,
                 );
               if (i.length > 0 && !i.find((t) => t == e.mode))
                 return void console.log(
                   "Trying to set invalid input type of ",
-                  n,
+                  o,
                   " for current mode ",
                   e.mode,
                 );
-              e.inputs || (e.inputs = a.sH.map()),
-                "none" == o
-                  ? e.inputs.has(n) && e.inputs.delete(n)
-                  : e.inputs.has(n)
-                    ? (e.inputs.get(n).output = o)
-                    : e.inputs.set(n, { output: o }),
+              e.inputs || (e.inputs = a.observable.map()),
+                "none" == n
+                  ? e.inputs.has(o) && e.inputs.delete(o)
+                  : e.inputs.has(o)
+                    ? (e.inputs.get(o).output = n)
+                    : e.inputs.set(o, { output: n }),
                 this.NotifyWatchersOfChange();
             }
           }
-          SetParameterForInputModeType(e, t, n, o, i) {
+          SetParameterForInputModeType(e, t, o, n, i) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
               return void console.error(
                 "SetParameterForInputModeType: Invalid action set specified",
@@ -2018,8 +2073,8 @@ var CLSTAMP = "9981652";
             if (
               (this.m_ModifiedBindingSet
                 .get(this.m_sSelectedActionSet)
-                .sources.forEach((t, n) => {
-                  t.path == e && l.push(n);
+                .sources.forEach((t, o) => {
+                  t.path == e && l.push(o);
                 }),
               l.length <= t)
             )
@@ -2029,31 +2084,31 @@ var CLSTAMP = "9981652";
                 ") for path ",
                 e,
               );
-            let s = l[t];
-            if (s >= 0) {
+            let r = l[t];
+            if (r >= 0) {
               let e = this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet)
-                .sources[s];
+                .sources[r];
               if (!e.inputs)
                 return void console.log(
                   "SetParameterForInputModeType: Trying to set parameter for missing input type of ",
-                  n,
+                  o,
                   " for current mode ",
                   e.mode,
                 );
-              e.parameters || (e.parameters = a.sH.map()),
-                e.parameters.get(o) != i &&
-                  (null == i ? e.parameters.delete(o) : e.parameters.set(o, i),
+              e.parameters || (e.parameters = a.observable.map()),
+                e.parameters.get(n) != i &&
+                  (null == i ? e.parameters.delete(n) : e.parameters.set(n, i),
                   this.NotifyWatchersOfChange());
             }
           }
-          SetParameterForPose(e, t, n) {
+          SetParameterForPose(e, t, o) {
             e
               ? ((null == e ? void 0 : e.parameters) ||
-                  (e.parameters = a.sH.map()),
-                e.parameters.get(t) != n &&
-                  (null == n || (Array.isArray(n) && n.every((e) => 0 === e))
+                  (e.parameters = a.observable.map()),
+                e.parameters.get(t) != o &&
+                  (null == o || (Array.isArray(o) && o.every((e) => 0 === e))
                     ? e.parameters.delete(t)
-                    : e.parameters.set(t, n),
+                    : e.parameters.set(t, o),
                   this.NotifyWatchersOfChange()))
               : console.error(
                   "SetParameterForPose: Trying to set parameter for unknown pose.",
@@ -2065,14 +2120,14 @@ var CLSTAMP = "9981652";
               ? e.parameters.get(t)
               : null;
           }
-          SetParameterForSkeleton(e, t, n) {
+          SetParameterForSkeleton(e, t, o) {
             e
               ? ((null == e ? void 0 : e.parameters) ||
-                  (e.parameters = a.sH.map()),
-                e.parameters.get(t) != n &&
-                  (null == n || (Array.isArray(n) && n.every((e) => 0 === e))
+                  (e.parameters = a.observable.map()),
+                e.parameters.get(t) != o &&
+                  (null == o || (Array.isArray(o) && o.every((e) => 0 === e))
                     ? e.parameters.delete(t)
-                    : e.parameters.set(t, n),
+                    : e.parameters.set(t, o),
                   this.NotifyWatchersOfChange()))
               : console.error(
                   "SetParameterForSkeleton: Trying to set parameter for unknown skeleton.",
@@ -2084,7 +2139,7 @@ var CLSTAMP = "9981652";
               ? e.parameters.get(t)
               : null;
           }
-          GetParameterForInputModeType(e, t, n, o) {
+          GetParameterForInputModeType(e, t, o, n) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
               return (
                 console.error(
@@ -2096,8 +2151,8 @@ var CLSTAMP = "9981652";
             if (
               (this.m_ModifiedBindingSet
                 .get(this.m_sSelectedActionSet)
-                .sources.forEach((t, n) => {
-                  t.path == e && i.push(n);
+                .sources.forEach((t, o) => {
+                  t.path == e && i.push(o);
                 }),
               i.length <= t)
             )
@@ -2109,12 +2164,12 @@ var CLSTAMP = "9981652";
               let e = this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet)
                 .sources[l];
               return e.inputs
-                ? e.parameters && e.parameters.has(o)
-                  ? e.parameters.get(o)
+                ? e.parameters && e.parameters.has(n)
+                  ? e.parameters.get(n)
                   : null
                 : (console.log(
                     "GetParameterForInputModeType: Trying to get parameter for missing input type of ",
-                    n,
+                    o,
                     " for current mode ",
                     e.mode,
                   ),
@@ -2131,14 +2186,14 @@ var CLSTAMP = "9981652";
           }
           AddInputModeForSource(e, t) {
             this.AddActionSetIfRequired();
-            let n = new g();
+            let o = new g();
             return (
-              (n.mode = t),
-              (n.path = e),
-              (n.inputs = a.sH.map()),
+              (o.mode = t),
+              (o.path = e),
+              (o.inputs = a.observable.map()),
               this.m_ModifiedBindingSet
                 .get(this.m_sSelectedActionSet)
-                .sources.push(n),
+                .sources.push(o),
               this.NotifyWatchersOfChange(),
               this.m_ModifiedBindingSet
                 .get(this.m_sSelectedActionSet)
@@ -2150,36 +2205,6 @@ var CLSTAMP = "9981652";
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
               return void console.error(
                 "AddInputModeForType: Invalid action set specified",
-              );
-            let n = [];
-            if (
-              (this.m_ModifiedBindingSet
-                .get(this.m_sSelectedActionSet)
-                .sources.forEach((t, o) => {
-                  t.path.toLowerCase() == e.toLowerCase() && n.push(o);
-                }),
-              n.length <= t)
-            )
-              return void console.warn(
-                "Invalid mode index (",
-                t,
-                ") for path ",
-                e,
-              );
-            let o = n[t];
-            -1 != o
-              ? (this.m_ModifiedBindingSet
-                  .get(this.m_sSelectedActionSet)
-                  .sources.splice(o, 1),
-                this.NotifyWatchersOfChange())
-              : console.error(
-                  "DeleteInputModeForSource: Mode not found for source",
-                );
-          }
-          SetInputModeForInputSource(e, t, n) {
-            if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
-              return void console.error(
-                "SetActionForInputModeType: Invalid action set specified",
               );
             let o = [];
             if (
@@ -2196,80 +2221,113 @@ var CLSTAMP = "9981652";
                 ") for path ",
                 e,
               );
-            let i = o[t];
+            let n = o[t];
+            -1 != n
+              ? (this.m_ModifiedBindingSet
+                  .get(this.m_sSelectedActionSet)
+                  .sources.splice(n, 1),
+                this.NotifyWatchersOfChange())
+              : console.error(
+                  "DeleteInputModeForSource: Mode not found for source",
+                );
+          }
+          SetInputModeForInputSource(e, t, o) {
+            if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
+              return void console.error(
+                "SetActionForInputModeType: Invalid action set specified",
+              );
+            let n = [];
+            if (
+              (this.m_ModifiedBindingSet
+                .get(this.m_sSelectedActionSet)
+                .sources.forEach((t, o) => {
+                  t.path.toLowerCase() == e.toLowerCase() && n.push(o);
+                }),
+              n.length <= t)
+            )
+              return void console.warn(
+                "Invalid mode index (",
+                t,
+                ") for path ",
+                e,
+              );
+            let i = n[t];
             if (-1 != i) {
               let t = this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet)
                 .sources[i];
               if (t.path == e) {
-                if (t.mode == n)
+                if (t.mode == o)
                   return void console.log(
                     "Trying to set new input mode to old mode!",
                   );
-                let o = JSON.parse((0, m.E)(t)),
+                let n = JSON.parse((0, m.E)(t)),
                   l = new g();
                 switch (
-                  ((l.mode = n), (l.path = e), (l.inputs = a.sH.map()), n)
+                  ((l.mode = o),
+                  (l.path = e),
+                  (l.inputs = a.observable.map()),
+                  o)
                 ) {
                   case "button":
                   case "toggle_button":
-                    switch (o.mode) {
+                    switch (n.mode) {
                       case "complex_button":
-                        o.inputs.single &&
-                          (l.inputs.set("single", o.inputs.single),
-                          l.inputs.set("click", o.inputs.single)),
-                          o.inputs.long && l.inputs.set("long", o.inputs.long),
-                          o.inputs.press &&
-                            l.inputs.set("press", o.inputs.press),
-                          o.inputs.double &&
-                            l.inputs.set("double", o.inputs.double),
-                          o.inputs.touch &&
-                            l.inputs.set("touch", o.inputs.touch);
+                        n.inputs.single &&
+                          (l.inputs.set("single", n.inputs.single),
+                          l.inputs.set("click", n.inputs.single)),
+                          n.inputs.long && l.inputs.set("long", n.inputs.long),
+                          n.inputs.press &&
+                            l.inputs.set("press", n.inputs.press),
+                          n.inputs.double &&
+                            l.inputs.set("double", n.inputs.double),
+                          n.inputs.touch &&
+                            l.inputs.set("touch", n.inputs.touch);
                         break;
                       case "button":
                       case "toggle_button":
                       case "trackpad":
                       case "trigger":
-                        o.inputs.click && l.inputs.set("click", o.inputs.click),
-                          o.inputs.touch &&
-                            l.inputs.set("touch", o.inputs.touch);
+                        n.inputs.click && l.inputs.set("click", n.inputs.click),
+                          n.inputs.touch &&
+                            l.inputs.set("touch", n.inputs.touch);
                     }
                     break;
                   case "complex_button":
-                    switch (o.mode) {
+                    switch (n.mode) {
                       case "toggle_button":
                       case "button":
                       case "trackpad":
                       case "trigger":
-                        o.inputs.click &&
-                          l.inputs.set("single", o.inputs.click);
+                        n.inputs.click &&
+                          l.inputs.set("single", n.inputs.click);
                     }
                     break;
                   case "trackpad":
-                    switch (o.mode) {
+                    switch (n.mode) {
                       case "complex_button":
-                        o.inputs.single &&
-                          l.inputs.set("click", o.inputs.single);
+                        n.inputs.single &&
+                          l.inputs.set("click", n.inputs.single);
                         break;
                       case "toggle_button":
                       case "button":
                       case "trigger":
-                        o.inputs.click && l.inputs.set("click", o.inputs.click),
-                          o.inputs.touch &&
-                            l.inputs.set("touch", o.inputs.touch);
+                        n.inputs.click && l.inputs.set("click", n.inputs.click),
+                          n.inputs.touch &&
+                            l.inputs.set("touch", n.inputs.touch);
                     }
                     break;
                   case "trigger":
-                    switch (o.mode) {
+                    switch (n.mode) {
                       case "complex_button":
-                        o.inputs.single &&
-                          l.inputs.set("click", o.inputs.single);
+                        n.inputs.single &&
+                          l.inputs.set("click", n.inputs.single);
                         break;
                       case "toggle_button":
                       case "trackpad":
                       case "button":
-                        o.inputs.click && l.inputs.set("click", o.inputs.click),
-                          o.inputs.touch &&
-                            l.inputs.set("touch", o.inputs.touch);
+                        n.inputs.click && l.inputs.set("click", n.inputs.click),
+                          n.inputs.touch &&
+                            l.inputs.set("touch", n.inputs.touch);
                     }
                 }
                 return (
@@ -2305,26 +2363,26 @@ var CLSTAMP = "9981652";
             this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses ||
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses =
                 []);
-            let n = this.m_ModifiedBindingSet
+            let o = this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
               .poses.findIndex(
                 (t) =>
                   t.path.toLowerCase() == e.path.toLowerCase() &&
                   t.output.toLowerCase() == e.output.toLowerCase(),
               );
-            -1 == n &&
-              ((n =
+            -1 == o &&
+              ((o =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
                   .poses.push(new S()) - 1),
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses[
-                n
+                o
               ].output = e.output)),
-              this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses[n]
+              this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses[o]
                 .path != t
                 ? ((this.m_ModifiedBindingSet.get(
                     this.m_sSelectedActionSet,
-                  ).poses[n].path = t),
+                  ).poses[o].path = t),
                   this.NotifyWatchersOfChange())
                 : console.log(
                     "Trying to set new pose action path to old action path!",
@@ -2336,8 +2394,8 @@ var CLSTAMP = "9981652";
                 (this.m_ModifiedBindingSet.get(
                   this.m_sSelectedActionSet,
                 ).poses = []);
-            let n = this.GetPoseForInputPath(e);
-            if (!n) {
+            let o = this.GetPoseForInputPath(e);
+            if (!o) {
               const t =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
@@ -2345,11 +2403,11 @@ var CLSTAMP = "9981652";
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).poses[
                 t
               ].path = e),
-                (n = this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet)
+                (o = this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet)
                   .poses[t]);
             }
-            n.output != t
-              ? ((n.output = t), this.NotifyWatchersOfChange())
+            o.output != t
+              ? ((o.output = t), this.NotifyWatchersOfChange())
               : console.log(
                   "Trying to set new pose action path to old action path!",
                 );
@@ -2386,8 +2444,8 @@ var CLSTAMP = "9981652";
           GetFirstInputSourceOfType(e) {
             let t = this.SelectedControllerTypeInfo;
             if (null != t)
-              for (let n of Object.keys(t.input_source)) {
-                if (t.input_source[n].type == e) return n;
+              for (let o of Object.keys(t.input_source)) {
+                if (t.input_source[o].type == e) return o;
               }
           }
           AddDefaultPose(e, t) {
@@ -2400,10 +2458,10 @@ var CLSTAMP = "9981652";
               null == this.SelectedControllerTypeInfo)
             )
               return;
-            let n = this.GetFirstInputSourceOfType("pose");
-            if (!n) return;
-            let o = new (class {})();
-            (o.output = e), (o.path = n), this.SetInputPathForPose(o, n);
+            let o = this.GetFirstInputSourceOfType("pose");
+            if (!o) return;
+            let n = new (class {})();
+            (n.output = e), (n.path = o), this.SetInputPathForPose(n, o);
           }
           SetInputPathForHaptics(e, t) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
@@ -2414,27 +2472,27 @@ var CLSTAMP = "9981652";
               (this.m_ModifiedBindingSet.get(
                 this.m_sSelectedActionSet,
               ).haptics = []);
-            let n = this.m_ModifiedBindingSet
+            let o = this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
               .haptics.findIndex(
                 (t) =>
                   t.path.toLowerCase() == e.path.toLowerCase() &&
                   t.output.toLowerCase() == e.output.toLowerCase(),
               );
-            -1 == n &&
-              ((n =
+            -1 == o &&
+              ((o =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
                   .haptics.push(new _()) - 1),
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics[
-                n
+                o
               ].output = e.output)),
               this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics[
-                n
+                o
               ].path != t
                 ? ((this.m_ModifiedBindingSet.get(
                     this.m_sSelectedActionSet,
-                  ).haptics[n].path = t),
+                  ).haptics[o].path = t),
                   this.NotifyWatchersOfChange())
                 : console.log(
                     "Trying to set new haptics action path to old action path!",
@@ -2452,25 +2510,25 @@ var CLSTAMP = "9981652";
               (this.m_ModifiedBindingSet.get(
                 this.m_sSelectedActionSet,
               ).haptics = []);
-            let n = this.m_ModifiedBindingSet
+            let o = this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
               .haptics.findIndex(
                 (t) => t.path.toLowerCase() == e.toLowerCase(),
               );
-            -1 == n &&
-              ((n =
+            -1 == o &&
+              ((o =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
                   .haptics.push(new S()) - 1),
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics[
-                n
+                o
               ].path = e)),
               this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).haptics[
-                n
+                o
               ].output != t
                 ? ((this.m_ModifiedBindingSet.get(
                     this.m_sSelectedActionSet,
-                  ).haptics[n].output = t),
+                  ).haptics[o].output = t),
                   this.NotifyWatchersOfChange())
                 : console.log(
                     "Trying to set new haptic action path to old action path!",
@@ -2483,11 +2541,11 @@ var CLSTAMP = "9981652";
                 (this.m_ModifiedBindingSet.get(
                   this.m_sSelectedActionSet,
                 ).haptics = []);
-            let n = this.GetFirstInputSourceOfType("haptic");
-            if (!n) return;
-            let o = t + n;
+            let o = this.GetFirstInputSourceOfType("haptic");
+            if (!o) return;
+            let n = t + o;
             let i = new (class {})();
-            (i.output = e), (i.path = o), this.SetInputPathForHaptics(i, o);
+            (i.output = e), (i.path = n), this.SetInputPathForHaptics(i, n);
           }
           SetInputPathForSkeleton(e, t) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
@@ -2498,27 +2556,27 @@ var CLSTAMP = "9981652";
               (this.m_ModifiedBindingSet.get(
                 this.m_sSelectedActionSet,
               ).skeleton = []);
-            let n = this.m_ModifiedBindingSet
+            let o = this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
               .skeleton.findIndex(
                 (t) =>
                   t.path.toLowerCase() == e.path.toLowerCase() &&
                   t.output.toLowerCase() == e.output.toLowerCase(),
               );
-            -1 == n &&
-              ((n =
+            -1 == o &&
+              ((o =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
                   .skeleton.push(new C()) - 1),
               (this.m_ModifiedBindingSet.get(
                 this.m_sSelectedActionSet,
-              ).skeleton[n].output = e.output)),
+              ).skeleton[o].output = e.output)),
               this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton[
-                n
+                o
               ].path != t
                 ? ((this.m_ModifiedBindingSet.get(
                     this.m_sSelectedActionSet,
-                  ).skeleton[n].path = t),
+                  ).skeleton[o].path = t),
                   this.NotifyWatchersOfChange())
                 : console.log(
                     "Trying to set new skeleton action path to old action path!",
@@ -2536,25 +2594,25 @@ var CLSTAMP = "9981652";
               (this.m_ModifiedBindingSet.get(
                 this.m_sSelectedActionSet,
               ).skeleton = []);
-            let n = this.m_ModifiedBindingSet
+            let o = this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
               .skeleton.findIndex(
                 (t) => t.path.toLowerCase() == e.toLowerCase(),
               );
-            -1 == n &&
-              ((n =
+            -1 == o &&
+              ((o =
                 this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
                   .skeleton.push(new S()) - 1),
               (this.m_ModifiedBindingSet.get(
                 this.m_sSelectedActionSet,
-              ).skeleton[n].path = e)),
+              ).skeleton[o].path = e)),
               this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).skeleton[
-                n
+                o
               ].output != t
                 ? ((this.m_ModifiedBindingSet.get(
                     this.m_sSelectedActionSet,
-                  ).skeleton[n].output = t),
+                  ).skeleton[o].output = t),
                   this.NotifyWatchersOfChange())
                 : console.log(
                     "Trying to set new skeleton action path to old action path!",
@@ -2567,27 +2625,27 @@ var CLSTAMP = "9981652";
                 (this.m_ModifiedBindingSet.get(
                   this.m_sSelectedActionSet,
                 ).skeleton = []);
-            let n = this.GetFirstInputSourceOfType("skeleton");
-            if (!n) return;
-            let o = t + n;
+            let o = this.GetFirstInputSourceOfType("skeleton");
+            if (!o) return;
+            let n = t + o;
             let i = new (class {})();
-            (i.output = e), (i.path = o), this.SetInputPathForSkeleton(i, o);
+            (i.output = e), (i.path = n), this.SetInputPathForSkeleton(i, n);
           }
           SetActionForChord(e, t) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
               return void console.error(
                 "SetActionForChord: Invalid action set specified",
               );
-            let n = this.m_ModifiedBindingSet
+            let o = this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
               .chords.findIndex((t) => t == e);
-            -1 != n
+            -1 != o
               ? this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords[
-                  n
+                  o
                 ].output != t
                 ? ((this.m_ModifiedBindingSet.get(
                     this.m_sSelectedActionSet,
-                  ).chords[n].output = t),
+                  ).chords[o].output = t),
                   this.NotifyWatchersOfChange())
                 : console.log("Trying to set new chord action to old action!")
               : console.error(
@@ -2629,29 +2687,6 @@ var CLSTAMP = "9981652";
               return void console.error(
                 "DeleteSourceFromChord: Invalid action set specified",
               );
-            let n = this.m_ModifiedBindingSet
-              .get(this.m_sSelectedActionSet)
-              .chords.findIndex((t) => t == e);
-            if (-1 != n) {
-              let e = this.m_ModifiedBindingSet
-                .get(this.m_sSelectedActionSet)
-                .chords[n].inputs.findIndex((e) => e[0] == t);
-              -1 != e &&
-                (this.m_ModifiedBindingSet
-                  .get(this.m_sSelectedActionSet)
-                  .chords[n].inputs.splice(e, 1),
-                this.NotifyWatchersOfChange());
-            } else
-              console.error(
-                "DeleteSourceFromChord: Invalid chord  specified ",
-                e,
-              );
-          }
-          SetInputTypeForChord(e, t, n) {
-            if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
-              return void console.error(
-                "SetInputsForChord: Invalid action set specified",
-              );
             let o = this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
               .chords.findIndex((t) => t == e);
@@ -2659,34 +2694,57 @@ var CLSTAMP = "9981652";
               let e = this.m_ModifiedBindingSet
                 .get(this.m_sSelectedActionSet)
                 .chords[o].inputs.findIndex((e) => e[0] == t);
+              -1 != e &&
+                (this.m_ModifiedBindingSet
+                  .get(this.m_sSelectedActionSet)
+                  .chords[o].inputs.splice(e, 1),
+                this.NotifyWatchersOfChange());
+            } else
+              console.error(
+                "DeleteSourceFromChord: Invalid chord  specified ",
+                e,
+              );
+          }
+          SetInputTypeForChord(e, t, o) {
+            if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
+              return void console.error(
+                "SetInputsForChord: Invalid action set specified",
+              );
+            let n = this.m_ModifiedBindingSet
+              .get(this.m_sSelectedActionSet)
+              .chords.findIndex((t) => t == e);
+            if (-1 != n) {
+              let e = this.m_ModifiedBindingSet
+                .get(this.m_sSelectedActionSet)
+                .chords[n].inputs.findIndex((e) => e[0] == t);
               if (-1 == e)
                 return void console.log(
                   "Invalid bounds for new input chord, trying to add type without source",
                 );
               if (
                 this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords[
-                  o
-                ].inputs[e][1] == n
+                  n
+                ].inputs[e][1] == o
               )
                 return void console.log(
                   "Trying to set new chord inputs to old inputs!",
                 );
               (this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords[
-                o
-              ].inputs[e][1] = n),
+                n
+              ].inputs[e][1] = o),
                 this.NotifyWatchersOfChange();
             } else
               console.error("SetInputsForChord: Invalid chord  specified ", e);
           }
-          SetInputSourceForChord(e, t, n) {
+          SetInputSourceForChord(e, t, o) {
             if (!this.m_ModifiedBindingSet.has(this.m_sSelectedActionSet))
               return void console.error(
                 "SetInputsForChord: Invalid action set specified",
               );
-            let o = this.m_ModifiedBindingSet
+            let n = this.m_ModifiedBindingSet
               .get(this.m_sSelectedActionSet)
               .chords.findIndex((t) => t == e);
-            if (-1 != o) {
+            if (-1 != n) {
               let e = this.GetActionBinding(t, this.SelectedActionSet);
               if (!e)
                 return void console.log(
@@ -2696,38 +2754,38 @@ var CLSTAMP = "9981652";
               if (
                 (e.length &&
                   (i = this.GetBooleanInputOptionsForMode(e[0].mode)[0]),
-                null == n)
+                null == o)
               )
                 this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet).chords[
-                  o
+                  n
                 ].inputs ||
                   (this.m_ModifiedBindingSet.get(
                     this.m_sSelectedActionSet,
-                  ).chords[o].inputs = new Array()),
+                  ).chords[n].inputs = new Array()),
                   this.m_ModifiedBindingSet
                     .get(this.m_sSelectedActionSet)
-                    .chords[o].inputs.push([t, i]);
+                    .chords[n].inputs.push([t, i]);
               else {
                 let e = this.m_ModifiedBindingSet
                   .get(this.m_sSelectedActionSet)
-                  .chords[o].inputs.findIndex((e) => e[0] == n);
+                  .chords[n].inputs.findIndex((e) => e[0] == o);
                 if (-1 == e)
                   return void console.log(
                     "Trying to set replace chord input path when we didn't have that path!",
                   );
                 if (
                   this.m_ModifiedBindingSet.get(this.m_sSelectedActionSet)
-                    .chords[o].inputs[e][0] == t
+                    .chords[n].inputs[e][0] == t
                 )
                   return void console.log(
                     "Trying to set new chord inputs to old inputs!",
                   );
                 (this.m_ModifiedBindingSet.get(
                   this.m_sSelectedActionSet,
-                ).chords[o].inputs[e][0] = t),
+                ).chords[n].inputs[e][0] = t),
                   (this.m_ModifiedBindingSet.get(
                     this.m_sSelectedActionSet,
-                  ).chords[o].inputs[e][1] = i);
+                  ).chords[n].inputs[e][1] = i);
               }
               this.NotifyWatchersOfChange();
             } else
@@ -2738,7 +2796,7 @@ var CLSTAMP = "9981652";
               return new Promise((e, t) => {
                 B(this.m_SelectedApp.key).then((t) => {
                   null == t.error
-                    ? ((0, a.h5)(() => {
+                    ? ((0, a.runInAction)(() => {
                         this.m_SelectedAppActions = t;
                       }),
                       null == this.m_sLoadedBindingURI &&
@@ -2749,7 +2807,7 @@ var CLSTAMP = "9981652";
                           t.current_binding_url[
                             this.m_sSelectedControllerType
                           ]))
-                    : ((0, a.h5)(() => {
+                    : ((0, a.runInAction)(() => {
                         (this.m_SelectedAppActions = void 0),
                           (this.m_sLoadedBindingURI = void 0);
                       }),
@@ -2832,7 +2890,7 @@ var CLSTAMP = "9981652";
           GetTrackerBindings() {
             return (0, i.sH)(this, void 0, void 0, function* () {
               return new Promise(function (e, t) {
-                r()
+                s()
                   .get("/input/gettrackerbindings.json")
                   .then((t) => {
                     e(t.data);
@@ -2848,11 +2906,11 @@ var CLSTAMP = "9981652";
               if (t.device_path_string == e) return t;
             return null;
           }
-          SetTrackerBinding(e, t, n) {
-            let o = { device_path: e, role: t, controller_role: n };
-            const i = (0, m.E)(o);
+          SetTrackerBinding(e, t, o) {
+            let n = { device_path: e, role: t, controller_role: o };
+            const i = (0, m.E)(n);
             console.log("Saving tracker binding " + e),
-              r()
+              s()
                 .post("/input/settrackerbinding.action", i)
                 .then((e) => {
                   console.log("SetTrackerBinding response: ", e.data),
@@ -2862,9 +2920,9 @@ var CLSTAMP = "9981652";
           }
           PulseHaptics(e) {
             let t = { path_handle: e };
-            const n = (0, m.E)(t);
-            r()
-              .post("/input/pulsehaptics.action", n)
+            const o = (0, m.E)(t);
+            s()
+              .post("/input/pulsehaptics.action", o)
               .then((e) => {
                 console.log("PulseHaptics response: ", e.data);
               })
@@ -2891,20 +2949,20 @@ var CLSTAMP = "9981652";
           }
           GetDefaultBindingNameForSaveType(e) {
             let t = k.SelectedControllerTypeInfo,
-              n = u.W.LocalizeControllerString(t, t ? t.controller_type : "");
+              o = u.W.LocalizeControllerString(t, t ? t.controller_type : "");
             switch (e) {
               default:
               case "autosave":
                 return (0, d.we)(
                   "#BindingUI_SaveDefaultName",
                   this.m_SelectedApp.name,
-                  n,
+                  o,
                 );
               case "personal":
                 return (0, d.we)(
                   "#BindingUI_SaveDefaultName_Personal",
                   this.m_SelectedApp.name,
-                  n,
+                  o,
                 );
               case "public":
                 return (0, d.we)(
@@ -2916,34 +2974,46 @@ var CLSTAMP = "9981652";
             }
           }
           AutosaveBinding() {
-            this.m_sName ||
-              (this.m_sName =
-                this.GetDefaultBindingNameForSaveType("autosave")),
-              this.SaveCurrentBinding(
-                this.m_sName,
-                this.m_sDescription,
-                "autosave",
-              ).then((e) => {
+            return (0, i.sH)(this, void 0, void 0, function* () {
+              if (this.m_bIsSaving)
+                return (
+                  console.log("Currently saving, adding a pending save."),
+                  void (this.m_bHasPendingSave = !0)
+                );
+              this.m_sName ||
+                (this.m_sName =
+                  this.GetDefaultBindingNameForSaveType("autosave"));
+              try {
+                const e = yield this.SaveCurrentBinding(
+                  this.m_sName,
+                  this.m_sDescription,
+                  "autosave",
+                );
                 k.SetBindingURL(e.uri);
-              });
+              } finally {
+                (this.m_bIsSaving = !1),
+                  this.m_bHasPendingSave &&
+                    ((this.m_bHasPendingSave = !1), this.AutosaveBinding());
+              }
+            });
           }
-          SaveCurrentBinding(e, t, n) {
+          SaveCurrentBinding(e, t, o) {
             return (0, i.sH)(this, void 0, void 0, function* () {
               if (this.HasUnboundActions)
                 throw new Error("#SaveError_BindingMissingRequiredActions");
               (this.m_sName = e), (this.m_sDescription = t);
-              let o = this.m_sInteractionProfile.trim(),
+              let n = this.m_sInteractionProfile.trim(),
                 i = {
                   app_key: this.SelectedApp,
                   controller_type:
                     this.SelectedControllerTypeInfo.controller_type,
-                  save_type: n,
+                  save_type: o,
                 };
               i.binding = {
                 name: e,
                 description: t,
                 action_manifest_version: this.m_SelectedAppActions.version,
-                interaction_profile: o,
+                interaction_profile: n,
                 category: this.m_SelectedAppActions.category,
                 controller_type:
                   this.SelectedControllerTypeInfo.controller_type,
@@ -2965,9 +3035,9 @@ var CLSTAMP = "9981652";
                     "'.",
                 ),
                 new Promise((e, t) => {
-                  let o = new w(n, e, t);
-                  this.m_OutstandingSaveBindingCalls.push(o),
-                    r()
+                  let n = new w(o, e, t);
+                  this.m_OutstandingSaveBindingCalls.push(n),
+                    s()
                       .post("/input/savebinding.action", l)
                       .then((e) => {
                         e.data.error
@@ -2993,10 +3063,10 @@ var CLSTAMP = "9981652";
                 controller_type:
                   this.SelectedControllerTypeInfo.controller_type,
               };
-              const n = (0, m.E)(t);
+              const o = (0, m.E)(t);
               yield new Promise(function (e, t) {
-                r()
-                  .post("/input/submitworkshopbinding.action", n)
+                s()
+                  .post("/input/submitworkshopbinding.action", o)
                   .then((t) => {
                     console.log("PublishBindingToWorkshop response: ", t), e();
                   })
@@ -3008,7 +3078,7 @@ var CLSTAMP = "9981652";
           }
           OnWebSocketOpen(e) {
             console.log("Websocket connected"),
-              (this.m_eWebSocketState = o.eWebSocketState_Connected),
+              (this.m_eWebSocketState = n.eWebSocketState_Connected),
               this.WebSocketSend("input_open"),
               this.m_timerWebSocket && clearTimeout(this.m_timerWebSocket),
               window.addEventListener("beforeunload", () => {
@@ -3017,7 +3087,7 @@ var CLSTAMP = "9981652";
           }
           OnWebSocketClose(e) {
             console.log("Websocket closed ", e),
-              (this.m_eWebSocketState = o.eWebSocketState_Disconnected),
+              (this.m_eWebSocketState = n.eWebSocketState_Disconnected),
               this.OpenWebSocketToHost();
           }
           WebSocketSend(e) {
@@ -3079,11 +3149,11 @@ var CLSTAMP = "9981652";
               );
             this.m_ControllerWatchers.clear(),
               (this.m_LoadedBinding = e),
-              (this.m_ModifiedBindingSet = a.sH.map());
+              (this.m_ModifiedBindingSet = a.observable.map());
             let t = (0, d.we)("#unknown_application"),
-              n = h.s.GetApp(k.SelectedApp);
+              o = h.s.GetApp(k.SelectedApp);
             if (
-              (n && (t = n.name),
+              (o && (t = o.name),
               (this.m_sName = ""),
               (this.m_sDescription = ""),
               (this.m_sInteractionProfile = " "),
@@ -3098,45 +3168,45 @@ var CLSTAMP = "9981652";
               "" == this.m_sName)
             ) {
               let e = k.SelectedControllerTypeInfo,
-                n = u.W.LocalizeControllerString(e, e ? e.controller_type : "");
-              this.m_sName = (0, d.we)("#BindingUI_SaveDefaultName", t, n);
+                o = u.W.LocalizeControllerString(e, e ? e.controller_type : "");
+              this.m_sName = (0, d.we)("#BindingUI_SaveDefaultName", t, o);
             }
             e.binding_config &&
               e.binding_config.bindings &&
               (Object.keys(e.binding_config.bindings).forEach((t) => {
-                var n, o, i;
+                var o, n, i;
                 let l = new f();
                 (l.chords = e.binding_config.bindings[t].chords),
                   (l.poses = []),
-                  null === (n = e.binding_config.bindings[t].poses) ||
-                    void 0 === n ||
-                    n.forEach((e) => {
+                  null === (o = e.binding_config.bindings[t].poses) ||
+                    void 0 === o ||
+                    o.forEach((e) => {
                       let t = new S();
                       (t.output = e.output),
                         (t.path = e.path),
                         null != e.parameters &&
                           Object.keys(e.parameters).length > 0 &&
-                          ((t.parameters = a.sH.map()),
+                          ((t.parameters = a.observable.map()),
                           e.hasOwnProperty("parameters") &&
-                            Object.keys(e.parameters).forEach((n) => {
-                              t.parameters.set(n, e.parameters[n]);
+                            Object.keys(e.parameters).forEach((o) => {
+                              t.parameters.set(o, e.parameters[o]);
                             })),
                         l.poses.push(t);
                     }),
                   (l.haptics = e.binding_config.bindings[t].haptics),
                   (l.skeleton = []),
-                  null === (o = e.binding_config.bindings[t].skeleton) ||
-                    void 0 === o ||
-                    o.forEach((e) => {
+                  null === (n = e.binding_config.bindings[t].skeleton) ||
+                    void 0 === n ||
+                    n.forEach((e) => {
                       let t = new C();
                       (t.output = e.output),
                         (t.path = e.path),
                         null != e.parameters &&
                           Object.keys(e.parameters).length > 0 &&
-                          ((t.parameters = a.sH.map()),
+                          ((t.parameters = a.observable.map()),
                           e.hasOwnProperty("parameters") &&
-                            Object.keys(e.parameters).forEach((n) => {
-                              t.parameters.set(n, e.parameters[n]);
+                            Object.keys(e.parameters).forEach((o) => {
+                              t.parameters.set(o, e.parameters[o]);
                             })),
                         l.skeleton.push(t);
                     }),
@@ -3147,17 +3217,17 @@ var CLSTAMP = "9981652";
                       let t = new g();
                       (t.mode = e.mode),
                         (t.path = e.path),
-                        (t.inputs = a.sH.map()),
+                        (t.inputs = a.observable.map()),
                         e.hasOwnProperty("inputs") &&
-                          Object.keys(e.inputs).forEach((n) => {
-                            t.inputs.set(n, e.inputs[n]);
+                          Object.keys(e.inputs).forEach((o) => {
+                            t.inputs.set(o, e.inputs[o]);
                           }),
                         null != e.parameters &&
                           Object.keys(e.parameters).length > 0 &&
-                          ((t.parameters = a.sH.map()),
+                          ((t.parameters = a.observable.map()),
                           e.hasOwnProperty("parameters") &&
-                            Object.keys(e.parameters).forEach((n) => {
-                              t.parameters.set(n, e.parameters[n]);
+                            Object.keys(e.parameters).forEach((o) => {
+                              t.parameters.set(o, e.parameters[o]);
                             })),
                         l.sources.push(t);
                     }),
@@ -3196,9 +3266,9 @@ var CLSTAMP = "9981652";
                   "About to start second binding list query when one is already pending",
                   this.m_OutstandingQueryResolve,
                 ),
-              new Promise((n, o) => {
-                (this.m_OutstandingQueryResolve = n),
-                  r()
+              new Promise((o, n) => {
+                (this.m_OutstandingQueryResolve = o),
+                  s()
                     .get(
                       `/input/queryworkshopbindings.json?app_key=${e}&controller_type=${t}`,
                     )
@@ -3206,7 +3276,7 @@ var CLSTAMP = "9981652";
                       console.log("QueryBindingList: ajax request successful");
                     })
                     .catch((e) => {
-                      o(e);
+                      n(e);
                     });
               })
             );
@@ -3218,17 +3288,17 @@ var CLSTAMP = "9981652";
                 this.m_OutstandingDeleteResolve,
               );
             let t = { url: e };
-            const n = (0, m.E)(t);
-            return new Promise((t, o) => {
+            const o = (0, m.E)(t);
+            return new Promise((t, n) => {
               (this.m_OutstandingDeleteResolve = t),
                 (this.m_sOutstandingDeleteURL = e),
-                r()
-                  .post("/input/deleteconfig.action", n)
+                s()
+                  .post("/input/deleteconfig.action", o)
                   .then((e) => {
                     console.log("Delete ajax request successful");
                   })
                   .catch((e) => {
-                    o(e);
+                    n(e);
                   });
             });
           }
@@ -3263,20 +3333,20 @@ var CLSTAMP = "9981652";
                     "Missing outstanding query resolve for binding query",
                   );
           }
-          SelectConfig(e, t, n) {
+          SelectConfig(e, t, o) {
             if (
-              ((this.m_sLoadedBindingURI = n),
-              console.log("Selecting config " + n + " for app " + e),
-              this.SelectedBindingURL == n)
+              ((this.m_sLoadedBindingURI = o),
+              console.log("Selecting config " + o + " for app " + e),
+              this.SelectedBindingURL == o)
             )
               return (
-                console.debug("Selecting the config we already have set", n),
+                console.debug("Selecting the config we already have set", o),
                 new Promise((e, t) => {
                   e();
                 })
               );
-            let o = { app_key: e, controller_type: t, url: n };
-            const i = (0, m.E)(o);
+            let n = { app_key: e, controller_type: t, url: o };
+            const i = (0, m.E)(n);
             return (
               null != this.m_OutstandingSelectConfigResolve &&
                 console.warn(
@@ -3285,7 +3355,7 @@ var CLSTAMP = "9981652";
                 ),
               new Promise((e, t) => {
                 (this.m_OutstandingSelectConfigResolve = e),
-                  r()
+                  s()
                     .post("/input/selectconfig.action", i)
                     .then((e) => {
                       console.log("selectconfig ajax request successful");
@@ -3321,8 +3391,8 @@ var CLSTAMP = "9981652";
           OnActionBindingsReloaded(e) {
             this.RefreshInputState();
           }
-          GetControllerWatcherForSourceFromControllerType(e, t, n, o) {
-            let i = "" + e.controller_type + t + n + o;
+          GetControllerWatcherForSourceFromControllerType(e, t, o, n) {
+            let i = "" + e.controller_type + t + o + n;
             if (!this.m_ControllerWatchers.has(i)) {
               let l = "";
               if ("controller_handed" == e.input_bindingui_mode)
@@ -3344,7 +3414,7 @@ var CLSTAMP = "9981652";
                       e,
                     );
               }
-              this.m_ControllerWatchers.set(i, new M(l, e, t, n, o));
+              this.m_ControllerWatchers.set(i, new M(l, e, t, o, n));
             }
             return this.m_ControllerWatchers.get(i);
           }
@@ -3352,31 +3422,31 @@ var CLSTAMP = "9981652";
             let t = JSON.parse(e.data);
             if ("jsonid" in t && "vr_input_get_notifications" == t.jsonid)
               for (let e in t.notifications) {
-                let n = t.notifications[e];
-                switch (n.type) {
+                let o = t.notifications[e];
+                switch (o.type) {
                   case "pending_file_saved":
-                    this.OnPendingFileSaved(n);
+                    this.OnPendingFileSaved(o);
                     break;
                   case "workshop_upload_complete":
-                    this.OnWorkshopUploadComplete(n);
+                    this.OnWorkshopUploadComplete(o);
                     break;
                   case "query_results":
-                    this.OnQueryResults(n);
+                    this.OnQueryResults(o);
                     break;
                   case "action_bindings_reloaded":
-                    this.OnActionBindingsReloaded(n);
+                    this.OnActionBindingsReloaded(o);
                     break;
                   case "delete_binding_complete":
-                    this.OnBindingDeleteComplete(n);
+                    this.OnBindingDeleteComplete(o);
                     break;
                   case "select_config_complete":
-                    this.OnSelectConfigComplete(n);
+                    this.OnSelectConfigComplete(o);
                     break;
                   case "trackers_binding_changed":
-                    this.OnTrackersBindingChanged(n);
+                    this.OnTrackersBindingChanged(o);
                     break;
                   case "action_manifest_reloaded":
-                    this.OnActionManifestReloaded(n);
+                    this.OnActionManifestReloaded(o);
                     break;
                   case "refresh_input_state":
                     this.RefreshInputState();
@@ -3424,98 +3494,188 @@ var CLSTAMP = "9981652";
             };
           }
         }
-        (0, i.Cg)([a.sH], O.prototype, "m_eWebSocketState", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_sLoadedBindingURI", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_LoadedBinding", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_ModifiedBindingSet", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_ModifiedOptions", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_ModifiedAliases", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_sName", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_sDescription", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_sInteractionProfile", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_SelectedApp", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_SelectedAppActions", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_sSelectedActionSet", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_sSelectedControllerType", void 0),
-          (0, i.Cg)([a.sH], O.prototype, "m_TrackerBindingSetup", void 0),
+        (0, i.Cg)([a.observable], O.prototype, "m_eWebSocketState", void 0),
+          (0, i.Cg)([a.observable], O.prototype, "m_sLoadedBindingURI", void 0),
+          (0, i.Cg)([a.observable], O.prototype, "m_LoadedBinding", void 0),
           (0, i.Cg)(
-            [a.sH],
+            [a.observable],
+            O.prototype,
+            "m_ModifiedBindingSet",
+            void 0,
+          ),
+          (0, i.Cg)([a.observable], O.prototype, "m_ModifiedOptions", void 0),
+          (0, i.Cg)([a.observable], O.prototype, "m_ModifiedAliases", void 0),
+          (0, i.Cg)([a.observable], O.prototype, "m_sName", void 0),
+          (0, i.Cg)([a.observable], O.prototype, "m_sDescription", void 0),
+          (0, i.Cg)(
+            [a.observable],
+            O.prototype,
+            "m_sInteractionProfile",
+            void 0,
+          ),
+          (0, i.Cg)([a.observable], O.prototype, "m_SelectedApp", void 0),
+          (0, i.Cg)(
+            [a.observable],
+            O.prototype,
+            "m_SelectedAppActions",
+            void 0,
+          ),
+          (0, i.Cg)(
+            [a.observable],
+            O.prototype,
+            "m_sSelectedActionSet",
+            void 0,
+          ),
+          (0, i.Cg)(
+            [a.observable],
+            O.prototype,
+            "m_sSelectedControllerType",
+            void 0,
+          ),
+          (0, i.Cg)(
+            [a.observable],
+            O.prototype,
+            "m_TrackerBindingSetup",
+            void 0,
+          ),
+          (0, i.Cg)(
+            [a.observable],
             O.prototype,
             "m_OutstandingSaveBindingCalls",
             void 0,
           ),
-          (0, i.Cg)([a.sH], O.prototype, "m_ModifiedSimulatedActions", void 0),
           (0, i.Cg)(
-            [a.sH],
+            [a.observable],
+            O.prototype,
+            "m_ModifiedSimulatedActions",
+            void 0,
+          ),
+          (0, i.Cg)(
+            [a.observable],
             O.prototype,
             "m_nBindingSubscriptionChangedCanary",
             void 0,
           ),
           (0, i.Cg)([l.o], O.prototype, "OpenWebSocketToHost", null),
-          (0, i.Cg)([a.EW], O.prototype, "SteamVRUnavailable", null),
-          (0, i.Cg)([a.EW], O.prototype, "ActionSets", null),
-          (0, i.Cg)([a.EW], O.prototype, "ManifestOptions", null),
-          (0, i.Cg)([a.EW], O.prototype, "SecondaryControllerOptions", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetOptionValue", null),
-          (0, i.Cg)([a.XI], O.prototype, "AddSimulatedAction", null),
-          (0, i.Cg)([a.XI], O.prototype, "DeleteSimulatedActionByPath", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedApp", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedAppActions", null),
+          (0, i.Cg)([a.computed], O.prototype, "SteamVRUnavailable", null),
+          (0, i.Cg)([a.computed], O.prototype, "ActionSets", null),
+          (0, i.Cg)([a.computed], O.prototype, "ManifestOptions", null),
           (0, i.Cg)(
-            [a.EW],
+            [a.computed],
+            O.prototype,
+            "SecondaryControllerOptions",
+            null,
+          ),
+          (0, i.Cg)([a.action], O.prototype, "SetOptionValue", null),
+          (0, i.Cg)([a.action], O.prototype, "AddSimulatedAction", null),
+          (0, i.Cg)(
+            [a.action],
+            O.prototype,
+            "DeleteSimulatedActionByPath",
+            null,
+          ),
+          (0, i.Cg)([a.computed], O.prototype, "SelectedApp", null),
+          (0, i.Cg)([a.computed], O.prototype, "SelectedAppActions", null),
+          (0, i.Cg)(
+            [a.computed],
             O.prototype,
             "CurrentAppCanAccessPrivateInputs",
             null,
           ),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedControllerTypeInfo", null),
-          (0, i.Cg)([a.EW], O.prototype, "CurrentBindingSaveType", null),
           (0, i.Cg)(
-            [a.EW],
+            [a.computed],
+            O.prototype,
+            "SelectedControllerTypeInfo",
+            null,
+          ),
+          (0, i.Cg)([a.computed], O.prototype, "CurrentBindingSaveType", null),
+          (0, i.Cg)(
+            [a.computed],
             O.prototype,
             "CurrentBindingActionManifestVersion",
             null,
           ),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedActionSet", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedActionSetDetails", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedActionSetActions", null),
+          (0, i.Cg)([a.computed], O.prototype, "SelectedActionSet", null),
+          (0, i.Cg)(
+            [a.computed],
+            O.prototype,
+            "SelectedActionSetDetails",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
+            O.prototype,
+            "SelectedActionSetActions",
+            null,
+          ),
           (0, i.Cg)([l.o], O.prototype, "GetSelectedAppDefaultBinding", null),
           (0, i.Cg)([l.o], O.prototype, "GetActionByName", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedActionSetPoses", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedActionSetHaptics", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedActionSetSkeletons", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedActionSetChords", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedActionSetChordCount", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedActionSetSources", null),
-          (0, i.Cg)([a.EW], O.prototype, "BSelectedActionSetHasPoses", null),
+          (0, i.Cg)([a.computed], O.prototype, "SelectedActionSetPoses", null),
           (0, i.Cg)(
-            [a.EW],
+            [a.computed],
+            O.prototype,
+            "SelectedActionSetHaptics",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
+            O.prototype,
+            "SelectedActionSetSkeletons",
+            null,
+          ),
+          (0, i.Cg)([a.computed], O.prototype, "SelectedActionSetChords", null),
+          (0, i.Cg)(
+            [a.computed],
+            O.prototype,
+            "SelectedActionSetChordCount",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
+            O.prototype,
+            "SelectedActionSetSources",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
+            O.prototype,
+            "BSelectedActionSetHasPoses",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
             O.prototype,
             "BSelectedActionSetHasBoundPoses",
             null,
           ),
-          (0, i.Cg)([a.EW], O.prototype, "BSelectedActionSetHasHaptics", null),
           (0, i.Cg)(
-            [a.EW],
+            [a.computed],
+            O.prototype,
+            "BSelectedActionSetHasHaptics",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
             O.prototype,
             "BSelectedActionSetHasBoundHaptics",
             null,
           ),
           (0, i.Cg)(
-            [a.EW],
+            [a.computed],
             O.prototype,
             "BSelectedActionSetHasSkeletons",
             null,
           ),
           (0, i.Cg)(
-            [a.EW],
+            [a.computed],
             O.prototype,
             "BSelectedActionSetHasBoundSkeletons",
             null,
           ),
-          (0, i.Cg)([a.XI], O.prototype, "ClearSelectedApp", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetSelectedApp", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetSelectedController", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetSelectedActionSet", null),
+          (0, i.Cg)([a.action], O.prototype, "ClearSelectedApp", null),
+          (0, i.Cg)([a.action], O.prototype, "SetSelectedApp", null),
+          (0, i.Cg)([a.action], O.prototype, "SetSelectedController", null),
+          (0, i.Cg)([a.action], O.prototype, "SetSelectedActionSet", null),
           (0, i.Cg)(
             [l.o],
             O.prototype,
@@ -3529,32 +3689,62 @@ var CLSTAMP = "9981652";
             null,
           ),
           (0, i.Cg)(
-            [a.EW],
+            [a.computed],
             O.prototype,
             "SelectedControllerTypeLocalizedName",
             null,
           ),
-          (0, i.Cg)([a.XI], O.prototype, "RegisterBindingWatcher", null),
-          (0, i.Cg)([a.XI], O.prototype, "UnregisterBindingWatcher", null),
-          (0, i.Cg)([a.XI], O.prototype, "GetActionBinding", null),
+          (0, i.Cg)([a.action], O.prototype, "RegisterBindingWatcher", null),
+          (0, i.Cg)([a.action], O.prototype, "UnregisterBindingWatcher", null),
+          (0, i.Cg)([a.action], O.prototype, "GetActionBinding", null),
           (0, i.Cg)([l.o], O.prototype, "GetInputModesForSourceType", null),
           (0, i.Cg)([l.o], O.prototype, "GetBooleanInputOptionsForMode", null),
           (0, i.Cg)([l.o], O.prototype, "GetActionBindingsOfType", null),
-          (0, i.Cg)([a.EW], O.prototype, "GetBooleanActionBindings", null),
-          (0, i.Cg)([a.EW], O.prototype, "GetVector1ActionBindings", null),
           (0, i.Cg)(
-            [a.EW],
+            [a.computed],
+            O.prototype,
+            "GetBooleanActionBindings",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
+            O.prototype,
+            "GetVector1ActionBindings",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
             O.prototype,
             "GetLiteralVector1ActionBindings",
             null,
           ),
-          (0, i.Cg)([a.EW], O.prototype, "GetVector2ActionBindings", null),
-          (0, i.Cg)([a.EW], O.prototype, "GetVector3ActionBindings", null),
-          (0, i.Cg)([a.EW], O.prototype, "GetPoseActionBindings", null),
-          (0, i.Cg)([a.EW], O.prototype, "GetHapticsActionBindings", null),
-          (0, i.Cg)([a.EW], O.prototype, "GetSkeletonActionBindings", null),
-          (0, i.Cg)([a.EW], O.prototype, "ConfigName", null),
-          (0, i.Cg)([a.EW], O.prototype, "ConfigDescription", null),
+          (0, i.Cg)(
+            [a.computed],
+            O.prototype,
+            "GetVector2ActionBindings",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
+            O.prototype,
+            "GetVector3ActionBindings",
+            null,
+          ),
+          (0, i.Cg)([a.computed], O.prototype, "GetPoseActionBindings", null),
+          (0, i.Cg)(
+            [a.computed],
+            O.prototype,
+            "GetHapticsActionBindings",
+            null,
+          ),
+          (0, i.Cg)(
+            [a.computed],
+            O.prototype,
+            "GetSkeletonActionBindings",
+            null,
+          ),
+          (0, i.Cg)([a.computed], O.prototype, "ConfigName", null),
+          (0, i.Cg)([a.computed], O.prototype, "ConfigDescription", null),
           (0, i.Cg)([l.o], O.prototype, "GetPoseAction", null),
           (0, i.Cg)([l.o], O.prototype, "GetPoseActionByPath", null),
           (0, i.Cg)([l.o], O.prototype, "GetHapticsAction", null),
@@ -3562,51 +3752,61 @@ var CLSTAMP = "9981652";
           (0, i.Cg)([l.o], O.prototype, "GetSkeletonAction", null),
           (0, i.Cg)([l.o], O.prototype, "GetSkeletonActionByPath", null),
           (0, i.Cg)([l.o], O.prototype, "NotifyWatchersOfChange", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetActionForInputModeType", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetParameterForInputModeType", null),
+          (0, i.Cg)([a.action], O.prototype, "SetActionForInputModeType", null),
+          (0, i.Cg)(
+            [a.action],
+            O.prototype,
+            "SetParameterForInputModeType",
+            null,
+          ),
           (0, i.Cg)([l.o], O.prototype, "AddActionSetIfRequired", null),
-          (0, i.Cg)([a.XI], O.prototype, "AddInputModeForSource", null),
-          (0, i.Cg)([a.XI], O.prototype, "DeleteInputModeForSource", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetInputModeForInputSource", null),
-          (0, i.Cg)([a.XI], O.prototype, "ClearModesForInputPath", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetInputPathForPose", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetPoseForInputPath", null),
-          (0, i.Cg)([a.XI], O.prototype, "AddDefaultPose", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetInputPathForHaptics", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetHapticsForInputPath", null),
-          (0, i.Cg)([a.XI], O.prototype, "AddDefaultHaptics", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetInputPathForSkeleton", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetSkeletonForInputPath", null),
-          (0, i.Cg)([a.XI], O.prototype, "AddDefaultSkeleton", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetActionForChord", null),
-          (0, i.Cg)([a.XI], O.prototype, "DeleteChord", null),
-          (0, i.Cg)([a.XI], O.prototype, "AddChord", null),
-          (0, i.Cg)([a.XI], O.prototype, "DeleteSourceFromChord", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetInputTypeForChord", null),
-          (0, i.Cg)([a.XI], O.prototype, "SetInputSourceForChord", null),
-          (0, i.Cg)([a.XI], O.prototype, "LoadActionManifest", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedBindingURL", null),
-          (0, i.Cg)([a.EW], O.prototype, "LoadedBindingURL", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedBindingIsLegacy", null),
-          (0, i.Cg)([a.EW], O.prototype, "SelectedBindingIsOpenXR", null),
-          (0, i.Cg)([a.EW], O.prototype, "IsSecondaryController", null),
-          (0, i.Cg)([a.EW], O.prototype, "TrackerBindings", null),
-          (0, i.Cg)([a.XI], O.prototype, "GetTrackerBindings", null),
+          (0, i.Cg)([a.action], O.prototype, "AddInputModeForSource", null),
+          (0, i.Cg)([a.action], O.prototype, "DeleteInputModeForSource", null),
+          (0, i.Cg)(
+            [a.action],
+            O.prototype,
+            "SetInputModeForInputSource",
+            null,
+          ),
+          (0, i.Cg)([a.action], O.prototype, "ClearModesForInputPath", null),
+          (0, i.Cg)([a.action], O.prototype, "SetInputPathForPose", null),
+          (0, i.Cg)([a.action], O.prototype, "SetPoseForInputPath", null),
+          (0, i.Cg)([a.action], O.prototype, "AddDefaultPose", null),
+          (0, i.Cg)([a.action], O.prototype, "SetInputPathForHaptics", null),
+          (0, i.Cg)([a.action], O.prototype, "SetHapticsForInputPath", null),
+          (0, i.Cg)([a.action], O.prototype, "AddDefaultHaptics", null),
+          (0, i.Cg)([a.action], O.prototype, "SetInputPathForSkeleton", null),
+          (0, i.Cg)([a.action], O.prototype, "SetSkeletonForInputPath", null),
+          (0, i.Cg)([a.action], O.prototype, "AddDefaultSkeleton", null),
+          (0, i.Cg)([a.action], O.prototype, "SetActionForChord", null),
+          (0, i.Cg)([a.action], O.prototype, "DeleteChord", null),
+          (0, i.Cg)([a.action], O.prototype, "AddChord", null),
+          (0, i.Cg)([a.action], O.prototype, "DeleteSourceFromChord", null),
+          (0, i.Cg)([a.action], O.prototype, "SetInputTypeForChord", null),
+          (0, i.Cg)([a.action], O.prototype, "SetInputSourceForChord", null),
+          (0, i.Cg)([a.action], O.prototype, "LoadActionManifest", null),
+          (0, i.Cg)([a.computed], O.prototype, "SelectedBindingURL", null),
+          (0, i.Cg)([a.computed], O.prototype, "LoadedBindingURL", null),
+          (0, i.Cg)([a.computed], O.prototype, "SelectedBindingIsLegacy", null),
+          (0, i.Cg)([a.computed], O.prototype, "SelectedBindingIsOpenXR", null),
+          (0, i.Cg)([a.computed], O.prototype, "IsSecondaryController", null),
+          (0, i.Cg)([a.computed], O.prototype, "TrackerBindings", null),
+          (0, i.Cg)([a.action], O.prototype, "GetTrackerBindings", null),
           (0, i.Cg)([l.o], O.prototype, "SetTrackerBinding", null),
           (0, i.Cg)([l.o], O.prototype, "PulseHaptics", null),
-          (0, i.Cg)([a.EW], O.prototype, "KnownControllerTypes", null),
+          (0, i.Cg)([a.computed], O.prototype, "KnownControllerTypes", null),
           (0, i.Cg)([l.o], O.prototype, "AutosaveBinding", null),
           (0, i.Cg)([l.o], O.prototype, "OnWebSocketOpen", null),
           (0, i.Cg)([l.o], O.prototype, "OnWebSocketClose", null),
           (0, i.Cg)([l.o], O.prototype, "WebSocketSend", null),
           (0, i.Cg)(
-            [a.XI.bound],
+            [a.action.bound],
             O.prototype,
             "OnWorkshopUploadComplete",
             null,
           ),
           (0, i.Cg)([l.o], O.prototype, "OnPendingFileSaved", null),
-          (0, i.Cg)([a.EW], O.prototype, "SaveNoticeText", null),
+          (0, i.Cg)([a.computed], O.prototype, "SaveNoticeText", null),
           (0, i.Cg)([l.o], O.prototype, "QueryBindingList", null),
           (0, i.Cg)([l.o], O.prototype, "DeleteBinding", null),
           (0, i.Cg)([l.o], O.prototype, "OnBindingDeleteComplete", null),
@@ -3630,9 +3830,9 @@ var CLSTAMP = "9981652";
             null,
           ),
           (0, i.Cg)([l.o], O.prototype, "OnWebSocketMessage", null),
-          (0, i.Cg)([a.EW], O.prototype, "BindingConfig", null),
+          (0, i.Cg)([a.computed], O.prototype, "BindingConfig", null),
           (0, i.Cg)(
-            [a.EW],
+            [a.computed],
             O.prototype,
             "BindingSubscriptionChangedCanary",
             null,
@@ -3640,18 +3840,18 @@ var CLSTAMP = "9981652";
         const k = new O();
         window.controllerBindingStore = k;
       },
-      6795: (e, t, n) => {
-        n.d(t, { k: () => o, n: () => m });
-        var o,
-          i = n(1635),
-          l = n(9118),
-          s = n(3236),
-          r = n(7813),
-          a = n(6090),
-          d = n(3714),
-          c = n(5802),
-          p = n(1532),
-          h = n(8108);
+      6795: (e, t, o) => {
+        o.d(t, { k: () => n, n: () => m });
+        var n,
+          i = o(1635),
+          l = o(9118),
+          r = o(3236),
+          s = o(7813),
+          a = o(6090),
+          d = o(3714),
+          c = o(5802),
+          p = o(1532),
+          h = o(8108);
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.List = 1)] = "List"),
@@ -3659,10 +3859,10 @@ var CLSTAMP = "9981652";
             (e[(e.EditBinding = 3)] = "EditBinding"),
             (e[(e.AppSelect = 4)] = "AppSelect"),
             (e[(e.Debugger = 5)] = "Debugger");
-        })(o || (o = {}));
+        })(n || (n = {}));
         class u {
           constructor() {
-            (this.m_State = o.None),
+            (this.m_State = n.None),
               (this.m_bLoading = !1),
               (this.m_rBindingList = void 0),
               (this.m_bShowBindingListError = !1),
@@ -3672,7 +3872,7 @@ var CLSTAMP = "9981652";
               (this.m_pathUpdateTimer = void 0),
               (this.m_bStandaloneSettingsPage = !1),
               (this.m_bDesktopMode = !1),
-              (0, r.Gn)(this);
+              (0, s.makeObservable)(this);
           }
           Init() {
             window.addEventListener("popstate", this.OnPopState),
@@ -3699,7 +3899,7 @@ var CLSTAMP = "9981652";
                 "binding_load_failed",
                 this.OnBindingLoadFailed,
               ),
-              (0, r.fm)(this.UpdateWindowTitle);
+              (0, s.autorun)(this.UpdateWindowTitle);
           }
           ShowOverlayInDashboard() {
             null === a.Ay ||
@@ -3769,14 +3969,14 @@ var CLSTAMP = "9981652";
                   c.B$.SetSelectedApp(e.app_key),
                   c.B$.SetSelectedController(e.controller_type);
                 let t = p.s.GetApp(e.app_key),
-                  n = l.W.GetControllerTypeInfo(e.controller_type);
-                if (!n) return;
-                let o = l.W.LocalizeControllerString(n, e.controller_type);
+                  o = l.W.GetControllerTypeInfo(e.controller_type);
+                if (!o) return;
+                let n = l.W.LocalizeControllerString(o, e.controller_type);
                 this.ShowBindingList(
                   (0, d.we)(
                     e.error,
                     t ? t.name : (0, d.we)("#unknown_application"),
-                    o,
+                    n,
                   ),
                 ),
                   null === a.Ay || void 0 === a.Ay || a.Ay.ShowBindingUI(!1);
@@ -3819,31 +4019,31 @@ var CLSTAMP = "9981652";
           GoBackPage() {
             switch (this.m_State) {
               default:
-              case o.None:
-              case o.AppSelect:
+              case n.None:
+              case n.AppSelect:
                 break;
-              case o.Debugger:
-              case o.List:
+              case n.Debugger:
+              case n.List:
                 this.ShowAppSelect();
                 break;
-              case o.EditBinding:
-              case o.ViewBinding:
+              case n.EditBinding:
+              case n.ViewBinding:
                 this.ShowBindingList();
             }
           }
           GoForwardPage() {
             switch (this.m_State) {
               default:
-              case o.None:
-              case o.AppSelect:
+              case n.None:
+              case n.AppSelect:
                 this.ShowBindingList();
                 break;
-              case o.List:
+              case n.List:
                 this.CurrentBinding.url == c.B$.LoadedBindingURL
                   ? this.EditCurrentBinding()
                   : this.ViewCurrentBinding();
-              case o.EditBinding:
-              case o.ViewBinding:
+              case n.EditBinding:
+              case n.ViewBinding:
             }
           }
           get GetUIState() {
@@ -3866,22 +4066,22 @@ var CLSTAMP = "9981652";
           }
           IsSafeToResetControllerType(e, t) {
             return (
-              this.m_State == o.AppSelect ||
-              this.m_State == o.None ||
+              this.m_State == n.AppSelect ||
+              this.m_State == n.None ||
               ("TrackedDeviceClass_HMD" == e &&
                 "TrackedDeviceClass_Controller" == t)
             );
           }
           EditCurrentBinding() {
-            this.m_State = o.EditBinding;
+            this.m_State = n.EditBinding;
           }
           ViewCurrentBinding() {
-            this.m_State = o.ViewBinding;
+            this.m_State = n.ViewBinding;
           }
           ShowBindingList(e = void 0) {
             (this.m_bStandaloneSettingsPage = !1),
               this.SetBindingListError(e),
-              (this.m_State = o.List),
+              (this.m_State = n.List),
               (this.Loading = !1);
           }
           get CurrentBinding() {
@@ -3900,8 +4100,8 @@ var CLSTAMP = "9981652";
               p.s
                 .UpdateApplications()
                 .then(() => {
-                  (0, r.h5)(() => {
-                    (this.Loading = !1), (this.m_State = o.AppSelect);
+                  (0, s.runInAction)(() => {
+                    (this.Loading = !1), (this.m_State = n.AppSelect);
                   });
                 })
                 .catch(() => {
@@ -3911,7 +4111,7 @@ var CLSTAMP = "9981652";
           UpdatePathsTimeout() {
             try {
               h.J.UpdatePaths().then(() => {
-                this.m_State == o.Debugger
+                this.m_State == n.Debugger
                   ? (this.m_pathUpdateTimer = window.setTimeout(
                       this.UpdatePathsTimeout,
                       500,
@@ -3932,7 +4132,7 @@ var CLSTAMP = "9981652";
                   e &&
                     e.client_container_handle &&
                     h.J.AddSubscribedContainer(e.client_container_handle),
-                    (this.m_State = o.Debugger),
+                    (this.m_State = n.Debugger),
                     (this.m_pathUpdateTimer = window.setTimeout(
                       this.UpdatePathsTimeout,
                       500,
@@ -3946,21 +4146,21 @@ var CLSTAMP = "9981652";
           GetBindingList() {
             return (0, i.sH)(this, void 0, void 0, function* () {
               var e;
-              (0, r.h5)(() => {
+              (0, s.runInAction)(() => {
                 (this.Loading = !0), (this.m_rBindingList = []);
               });
               try {
                 const t = c.B$.SelectedControllerTypeInfo,
-                  n = yield c.B$.QueryBindingList(
+                  o = yield c.B$.QueryBindingList(
                     c.B$.SelectedApp,
                     null !== (e = null == t ? void 0 : t.controller_type) &&
                       void 0 !== e
                       ? e
                       : "",
                   );
-                n.success &&
-                  (0, r.h5)(() => {
-                    this.m_rBindingList = n.results;
+                o.success &&
+                  (0, s.runInAction)(() => {
+                    this.m_rBindingList = o.results;
                   });
               } catch (e) {
                 this.SetBindingListError(
@@ -3975,12 +4175,12 @@ var CLSTAMP = "9981652";
           UpdateWindowTitle() {
             setTimeout(() => {
               switch (this.GetUIState) {
-                case o.AppSelect:
-                case o.Debugger:
-                case o.EditBinding:
-                case o.List:
-                case o.None:
-                case o.ViewBinding:
+                case n.AppSelect:
+                case n.Debugger:
+                case n.EditBinding:
+                case n.List:
+                case n.None:
+                case n.ViewBinding:
                   document.title = (0, d.we)(
                     "#BindingUI_WindowTitle_ControllerBinding",
                   );
@@ -3988,76 +4188,84 @@ var CLSTAMP = "9981652";
             }, 0);
           }
         }
-        (0, i.Cg)([r.sH], u.prototype, "m_State", void 0),
-          (0, i.Cg)([r.sH], u.prototype, "m_bLoading", void 0),
-          (0, i.Cg)([r.sH], u.prototype, "m_rBindingList", void 0),
-          (0, i.Cg)([r.sH], u.prototype, "m_bShowBindingListError", void 0),
-          (0, i.Cg)([r.sH], u.prototype, "m_sBindingListError", void 0),
-          (0, i.Cg)([r.sH], u.prototype, "m_bCanCloseBindingListError", void 0),
-          (0, i.Cg)([r.sH], u.prototype, "m_bDesktopMode", void 0),
-          (0, i.Cg)([s.o], u.prototype, "OnShowAppSelect", null),
-          (0, i.Cg)([s.o], u.prototype, "OnShowInputDebugger", null),
-          (0, i.Cg)([s.o], u.prototype, "OnShowAppBinding", null),
-          (0, i.Cg)([s.o], u.prototype, "OnBindingLoadFailed", null),
-          (0, i.Cg)([r.EW], u.prototype, "DesktopMode", null),
-          (0, i.Cg)([s.o], u.prototype, "SetBindingListError", null),
-          (0, i.Cg)([r.EW], u.prototype, "ShowBindingListError", null),
-          (0, i.Cg)([r.EW], u.prototype, "BindingListError", null),
-          (0, i.Cg)([r.EW], u.prototype, "CanCloseBindingListError", null),
-          (0, i.Cg)([s.o], u.prototype, "OnPopState", null),
-          (0, i.Cg)([s.o], u.prototype, "GoBackPage", null),
-          (0, i.Cg)([s.o], u.prototype, "GoForwardPage", null),
-          (0, i.Cg)([r.EW], u.prototype, "GetUIState", null),
-          (0, i.Cg)([r.EW], u.prototype, "BindingQueryResults", null),
-          (0, i.Cg)([r.EW], u.prototype, "Loading", null),
-          (0, i.Cg)([s.o], u.prototype, "IsSafeToResetControllerType", null),
-          (0, i.Cg)([r.XI.bound], u.prototype, "EditCurrentBinding", null),
-          (0, i.Cg)([s.o], u.prototype, "ViewCurrentBinding", null),
-          (0, i.Cg)([s.o], u.prototype, "ShowBindingList", null),
-          (0, i.Cg)([r.EW], u.prototype, "CurrentBinding", null),
-          (0, i.Cg)([s.o], u.prototype, "ReturnToSettingsUI", null),
-          (0, i.Cg)([s.o], u.prototype, "ShowAppSelect", null),
-          (0, i.Cg)([s.o], u.prototype, "UpdatePathsTimeout", null),
-          (0, i.Cg)([s.o], u.prototype, "ShowDebugger", null),
-          (0, i.Cg)([s.o], u.prototype, "GetBindingList", null),
-          (0, i.Cg)([s.o], u.prototype, "UpdateWindowTitle", null);
+        (0, i.Cg)([s.observable], u.prototype, "m_State", void 0),
+          (0, i.Cg)([s.observable], u.prototype, "m_bLoading", void 0),
+          (0, i.Cg)([s.observable], u.prototype, "m_rBindingList", void 0),
+          (0, i.Cg)(
+            [s.observable],
+            u.prototype,
+            "m_bShowBindingListError",
+            void 0,
+          ),
+          (0, i.Cg)([s.observable], u.prototype, "m_sBindingListError", void 0),
+          (0, i.Cg)(
+            [s.observable],
+            u.prototype,
+            "m_bCanCloseBindingListError",
+            void 0,
+          ),
+          (0, i.Cg)([s.observable], u.prototype, "m_bDesktopMode", void 0),
+          (0, i.Cg)([r.o], u.prototype, "OnShowAppSelect", null),
+          (0, i.Cg)([r.o], u.prototype, "OnShowInputDebugger", null),
+          (0, i.Cg)([r.o], u.prototype, "OnShowAppBinding", null),
+          (0, i.Cg)([r.o], u.prototype, "OnBindingLoadFailed", null),
+          (0, i.Cg)([s.computed], u.prototype, "DesktopMode", null),
+          (0, i.Cg)([r.o], u.prototype, "SetBindingListError", null),
+          (0, i.Cg)([s.computed], u.prototype, "ShowBindingListError", null),
+          (0, i.Cg)([s.computed], u.prototype, "BindingListError", null),
+          (0, i.Cg)(
+            [s.computed],
+            u.prototype,
+            "CanCloseBindingListError",
+            null,
+          ),
+          (0, i.Cg)([r.o], u.prototype, "OnPopState", null),
+          (0, i.Cg)([r.o], u.prototype, "GoBackPage", null),
+          (0, i.Cg)([r.o], u.prototype, "GoForwardPage", null),
+          (0, i.Cg)([s.computed], u.prototype, "GetUIState", null),
+          (0, i.Cg)([s.computed], u.prototype, "BindingQueryResults", null),
+          (0, i.Cg)([s.computed], u.prototype, "Loading", null),
+          (0, i.Cg)([r.o], u.prototype, "IsSafeToResetControllerType", null),
+          (0, i.Cg)([s.action.bound], u.prototype, "EditCurrentBinding", null),
+          (0, i.Cg)([r.o], u.prototype, "ViewCurrentBinding", null),
+          (0, i.Cg)([r.o], u.prototype, "ShowBindingList", null),
+          (0, i.Cg)([s.computed], u.prototype, "CurrentBinding", null),
+          (0, i.Cg)([r.o], u.prototype, "ReturnToSettingsUI", null),
+          (0, i.Cg)([r.o], u.prototype, "ShowAppSelect", null),
+          (0, i.Cg)([r.o], u.prototype, "UpdatePathsTimeout", null),
+          (0, i.Cg)([r.o], u.prototype, "ShowDebugger", null),
+          (0, i.Cg)([r.o], u.prototype, "GetBindingList", null),
+          (0, i.Cg)([r.o], u.prototype, "UpdateWindowTitle", null);
         const m = new u();
         window.inputUI = m;
       },
-      1139: (e, t, n) => {
-        n.d(t, {
-          FH: () => a,
-          Nc: () => p,
-          aw: () => c,
-          e6: () => r,
-          jE: () => d,
-        });
-        var o = n(1635),
-          i = n(6540),
-          l = n(3236),
-          s = n(7813);
+      1139: (e, t, o) => {
+        o.d(t, { FH: () => s, aw: () => d, e6: () => r, jE: () => a });
+        var n = o(1635),
+          i = (o(6540), o(3236)),
+          l = o(7813);
         function r(e) {
           let t = window.location.search.substring(1).split("&");
-          for (let n = 0; n < t.length; n++) {
-            let o = t[n].split("=");
-            if (decodeURIComponent(o[0]).toUpperCase() == e.toUpperCase())
-              return decodeURIComponent(o[1]);
+          for (let o = 0; o < t.length; o++) {
+            let n = t[o].split("=");
+            if (decodeURIComponent(n[0]).toUpperCase() == e.toUpperCase())
+              return decodeURIComponent(n[1]);
           }
           return "";
         }
-        function a(...e) {
+        function s(...e) {
           return e
             .filter((e) => null != e && ("string" == typeof e || e[1]))
             .map((e) => ("string" == typeof e ? e : e[0]))
             .join(" ");
         }
-        function d(e, t) {
-          let n = t;
-          for (; n.parentElement && !e.some((e) => n.matches(e)); )
-            n = n.parentElement;
-          return n;
+        function a(e, t) {
+          let o = t;
+          for (; o.parentElement && !e.some((e) => o.matches(e)); )
+            o = o.parentElement;
+          return o;
         }
-        class c {
+        class d {
           constructor() {
             (this.onScroll = null),
               (this.onScrollStop = null),
@@ -4065,7 +4273,7 @@ var CLSTAMP = "9981652";
               (this.m_rScrollableParents = []),
               (this.m_bScrolling = !1),
               (this.m_scrollStopTimeoutHandle = void 0),
-              (0, s.Gn)(this);
+              (0, l.makeObservable)(this);
           }
           ref(e) {
             this.m_elem && this.cleanup(),
@@ -4081,11 +4289,11 @@ var CLSTAMP = "9981652";
             this.m_rScrollableParents = (function (e) {
               let t = [];
               if (!e) return t;
-              let n = e.parentElement;
-              for (; n; ) {
-                const e = n.scrollWidth > n.clientWidth,
-                  o = n.scrollHeight > n.clientHeight;
-                (e || o) && t.push(n), (n = n.parentElement);
+              let o = e.parentElement;
+              for (; o; ) {
+                const e = o.scrollWidth > o.clientWidth,
+                  n = o.scrollHeight > o.clientHeight;
+                (e || n) && t.push(o), (o = o.parentElement);
               }
               return t;
             })(this.m_elem);
@@ -4122,58 +4330,35 @@ var CLSTAMP = "9981652";
               (this.m_bScrolling = !1);
           }
         }
-        function p() {
-          const [e, t] = i.useState(null),
-            n = i.useCallback(() => {
-              t(
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.VRDashboardManager.GetKeyboardInputInfo(),
-              );
-            }, []);
-          return (
-            i.useEffect(n, []),
-            i.useEffect(() => {
-              const e =
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.RegisterForKeyboardVisibilityChangedEvents(() =>
-                      n(),
-                    );
-              return () => (null == e ? void 0 : e.unregister());
-            }, [n]),
-            e
-          );
-        }
-        (0, o.Cg)([s.sH], c.prototype, "m_bScrolling", void 0),
-          (0, o.Cg)([l.o], c.prototype, "ref", null),
-          (0, o.Cg)([s.EW], c.prototype, "isScrolling", null),
-          (0, o.Cg)([l.o], c.prototype, "onParentScroll", null),
-          (0, o.Cg)([l.o], c.prototype, "onScrollStopTimeout", null);
+        (0, n.Cg)([l.observable], d.prototype, "m_bScrolling", void 0),
+          (0, n.Cg)([i.o], d.prototype, "ref", null),
+          (0, n.Cg)([l.computed], d.prototype, "isScrolling", null),
+          (0, n.Cg)([i.o], d.prototype, "onParentScroll", null),
+          (0, n.Cg)([i.o], d.prototype, "onScrollStopTimeout", null);
       },
-      6313: (e, t, n) => {
-        var o = n(1635),
-          i = n(6540),
-          l = n(5338),
-          s = n(4015),
-          r = n(6725),
-          a = n(6090),
-          d = n(1139),
-          c = n(3714),
-          p = n(5802),
-          h = n(3236),
-          u = n(6795),
-          m = n(7960),
-          g = n(7813),
-          S = n(3068),
-          _ = n(5471);
-        n(7750);
+      6313: (e, t, o) => {
+        var n = o(1635),
+          i = o(6540),
+          l = o(5338),
+          r = o(1370),
+          s = o(6725),
+          a = o(6090),
+          d = o(1139),
+          c = o(3714),
+          p = o(5802),
+          h = o(3236),
+          u = o(6795),
+          m = o(7960),
+          g = o(7813),
+          S = o(3068),
+          _ = o(5471);
+        o(7750);
         class C {
-          constructor(e, t, n, o) {
+          constructor(e, t, o, n) {
             (this.sValue = e),
               (this.sLocalized = t),
-              (this.sRequiredLocalized = n),
-              (this.sLocalizedDescription = o);
+              (this.sRequiredLocalized = o),
+              (this.sLocalizedDescription = n);
           }
         }
         class y extends i.Component {
@@ -4230,20 +4415,20 @@ var CLSTAMP = "9981652";
                     e.sLocalized,
                   );
                 {
-                  let n,
-                    o,
+                  let o,
+                    n,
                     l = "InlineDropdownItem";
                   return (
                     this.props.sValueSelectedItem == e.sValue &&
                       (l += " Selected"),
                     null != e.sRequiredLocalized &&
-                      (n = i.createElement(
+                      (o = i.createElement(
                         "span",
                         { className: "BindingLabelActionRequirement" },
                         e.sRequiredLocalized,
                       )),
                     null != e.sLocalizedDescription &&
-                      (o = i.createElement(
+                      (n = i.createElement(
                         _.Ay,
                         {
                           content: e.sLocalizedDescription,
@@ -4265,8 +4450,8 @@ var CLSTAMP = "9981652";
                         },
                       },
                       e.sLocalized,
-                      n,
                       o,
+                      n,
                     )
                   );
                 }
@@ -4276,27 +4461,27 @@ var CLSTAMP = "9981652";
                 (null == this.props.sHeaderClass
                   ? ""
                   : this.props.sHeaderClass),
-              n =
+              o =
                 "InlineOptionsDropDownRodal " +
                 (null == this.props.sModalClass ? "" : this.props.sModalClass);
-            let o = this.props.sLocalizedSelectedItem;
-            !o &&
+            let n = this.props.sLocalizedSelectedItem;
+            !n &&
               this.state.sSelectedOption &&
               this.props.vecOptions.forEach((e) => {
-                e.sValue == this.state.sSelectedOption && (o = e.sLocalized);
+                e.sValue == this.state.sSelectedOption && (n = e.sLocalized);
               });
             let l = this.props.bReadOnly ? () => {} : this.Show;
             return i.createElement(
               "div",
               { className: t, onClick: l },
-              o &&
+              n &&
                 i.createElement(
                   "div",
                   { className: this.props.sMainButtonClass },
-                  o,
+                  n,
                 ),
               i.createElement(
-                r.A,
+                s.A,
                 {
                   visible: this.state.bVisible,
                   onClose: this.Hide,
@@ -4308,7 +4493,7 @@ var CLSTAMP = "9981652";
                   },
                   showCloseButton: !1,
                   animation: "fade",
-                  className: n,
+                  className: o,
                   closeOnEsc: !0,
                 },
                 this.state.bVisible &&
@@ -4331,9 +4516,9 @@ var CLSTAMP = "9981652";
             );
           }
         }
-        (0, o.Cg)([h.o], y.prototype, "Show", null),
-          (0, o.Cg)([h.o], y.prototype, "Hide", null),
-          (0, o.Cg)([h.o], y.prototype, "OnOptionChanged", null);
+        (0, n.Cg)([h.o], y.prototype, "Show", null),
+          (0, n.Cg)([h.o], y.prototype, "Hide", null),
+          (0, n.Cg)([h.o], y.prototype, "OnOptionChanged", null);
         let f = class extends i.Component {
           constructor(e) {
             super(e), (this.state = { bShowDeleteConfirmModal: !1 });
@@ -4359,7 +4544,7 @@ var CLSTAMP = "9981652";
           renderDeleteConfirmModal() {
             let e = this.props.controllerWatcher[0];
             return i.createElement(
-              r.A,
+              s.A,
               {
                 visible: this.state.bShowDeleteConfirmModal,
                 onClose: this.OnDeleteCancel,
@@ -4436,7 +4621,7 @@ var CLSTAMP = "9981652";
               e.GetInputSourceForceSupport,
             );
             if (0 == t.length) return null;
-            let n = t.map(
+            let o = t.map(
               (e, t) =>
                 new C(
                   e,
@@ -4445,14 +4630,14 @@ var CLSTAMP = "9981652";
                   (0, c.we)("#SourceInputMode_" + e + "_tooltip"),
                 ),
             );
-            n.push(new C("none", (0, c.we)("#SourceInputMode_none")));
-            let o =
+            o.push(new C("none", (0, c.we)("#SourceInputMode_none")));
+            let n =
                 1 == e.GetButtonSide
                   ? "#BindingUI_LeftHandController"
                   : "#BindingUI_RightHandController",
               l = p.B$.SelectedControllerTypeLocalizedName;
-            0 != e.GetButtonSide && (l = (0, c.we)(o, l, ""));
-            let s = (0, c.we)(
+            0 != e.GetButtonSide && (l = (0, c.we)(n, l, ""));
+            let r = (0, c.we)(
               "#SourceInputMode_SelectMode",
               l,
               e.GetControllerInputName,
@@ -4461,8 +4646,8 @@ var CLSTAMP = "9981652";
               "div",
               { className: "FlexRow BindingHeaderWrapper" },
               i.createElement(y, {
-                sModalTitleString: s,
-                vecOptions: n,
+                sModalTitleString: r,
+                vecOptions: o,
                 sValueSelectedItem: e.GetMode(this.props.iMode),
                 bShowOptionsOnStart: this.props.bShowModeOptionsDropDownOnStart,
                 sLocalizedSelectedItem: (0, c.we)(
@@ -4480,12 +4665,12 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], f.prototype, "OnDelete", null),
-          (0, o.Cg)([h.o], f.prototype, "OnDeleteConfirmed", null),
-          (0, o.Cg)([h.o], f.prototype, "OnDeleteCancel", null),
-          (0, o.Cg)([h.o], f.prototype, "OnSourceModeChanged", null),
-          (0, o.Cg)([h.o], f.prototype, "renderDeleteConfirmModal", null),
-          (f = (0, o.Cg)([s.PA], f));
+        (0, n.Cg)([h.o], f.prototype, "OnDelete", null),
+          (0, n.Cg)([h.o], f.prototype, "OnDeleteConfirmed", null),
+          (0, n.Cg)([h.o], f.prototype, "OnDeleteCancel", null),
+          (0, n.Cg)([h.o], f.prototype, "OnSourceModeChanged", null),
+          (0, n.Cg)([h.o], f.prototype, "renderDeleteConfirmModal", null),
+          (f = (0, n.Cg)([r.PA], f));
         class b extends i.Component {
           render() {
             let e =
@@ -4496,14 +4681,14 @@ var CLSTAMP = "9981652";
                 null == this.props.SelectedAction
                   ? (0, c.we)("#SourceInputAction_none")
                   : this.props.SelectedAction.localized_name,
-              n = "FlexRow BindingActionWrapper";
-            null == this.props.SelectedAction && (n += " None");
-            let o = "Label BindingLabel";
+              o = "FlexRow BindingActionWrapper";
+            null == this.props.SelectedAction && (o += " None");
+            let n = "Label BindingLabel";
             return (
-              this.props.bReadOnly && (o += " ReadOnly"),
+              this.props.bReadOnly && (n += " ReadOnly"),
               i.createElement(
                 "div",
-                { className: n },
+                { className: o },
                 i.createElement(
                   _.Ay,
                   {
@@ -4514,7 +4699,7 @@ var CLSTAMP = "9981652";
                   },
                   i.createElement(
                     "div",
-                    { className: o },
+                    { className: n },
                     (0, c.we)(this.props.sLocalizedInputType),
                   ),
                 ),
@@ -4529,7 +4714,7 @@ var CLSTAMP = "9981652";
                 this.props.bReadOnly &&
                   i.createElement(
                     "div",
-                    { className: o + " BindingLabelAction" },
+                    { className: n + " BindingLabelAction" },
                     t,
                   ),
               )
@@ -4556,46 +4741,46 @@ var CLSTAMP = "9981652";
             e.GetInputSourceClickSupport && e.GetClickAction(this.props.iMode);
             for (let e of this.defaultProperties)
               this.props.controllerWatcher.forEach((t) => {
-                let n = t.GetParameter(this.props.iMode, e.mode, e.property);
-                (n =
-                  null == n
+                let o = t.GetParameter(this.props.iMode, e.mode, e.property);
+                (o =
+                  null == o
                     ? e.default
                     : "float" == e.type
-                      ? parseFloat(n)
+                      ? parseFloat(o)
                       : "int" == e.type
-                        ? parseInt(n)
+                        ? parseInt(o)
                         : "bool" == e.type
-                          ? "true" == n || "1" == n
-                          : n.toString()),
-                  (this.state[e.variableName] = n);
+                          ? "true" == o || "1" == o
+                          : o.toString()),
+                  (this.state[e.variableName] = o);
               });
           }
           EnsurePropertySet(e) {
             let t = !1;
-            for (let n of this.defaultProperties)
-              if (n.property == e) {
+            for (let o of this.defaultProperties)
+              if (o.property == e) {
                 (t = !0),
                   this.props.controllerWatcher.forEach((e) => {
                     if (
                       null ==
-                      e.GetParameter(this.props.iMode, n.mode, n.property)
+                      e.GetParameter(this.props.iMode, o.mode, o.property)
                     ) {
                       console.log(
                         "Setting currently unset param to default: ",
-                        e.GetParameter(this.props.iMode, n.mode, n.property),
+                        e.GetParameter(this.props.iMode, o.mode, o.property),
                         this.props.iMode,
-                        n.mode,
-                        n.property,
-                        n.default.toString(),
+                        o.mode,
+                        o.property,
+                        o.default.toString(),
                       ),
                         e.SetParameter(
                           this.props.iMode,
-                          n.mode,
-                          n.property,
-                          n.default.toString(),
+                          o.mode,
+                          o.property,
+                          o.default.toString(),
                         );
                       let t = {};
-                      (t[n.variableName] = n.default), this.setState(t);
+                      (t[o.variableName] = o.default), this.setState(t);
                     }
                   });
                 break;
@@ -4607,24 +4792,24 @@ var CLSTAMP = "9981652";
               );
           }
           onPropertyChanged(e, t) {
-            let n = !1;
-            for (let o of this.defaultProperties)
-              if (o.property == e) {
-                n = !0;
+            let o = !1;
+            for (let n of this.defaultProperties)
+              if (n.property == e) {
+                o = !0;
                 let e = {};
-                (e[o.variableName] = t),
+                (e[n.variableName] = t),
                   this.setState(e),
                   this.props.controllerWatcher.forEach((e) => {
                     e.SetParameter(
                       this.props.iMode,
-                      o.mode,
-                      o.property,
+                      n.mode,
+                      n.property,
                       t.toString(),
                     );
                   });
                 break;
               }
-            n ||
+            o ||
               console.log(
                 "Tried to set property %s which is not in the property map.",
                 e,
@@ -4632,16 +4817,16 @@ var CLSTAMP = "9981652";
           }
           onPropertyReset(e) {
             return new Promise((t) => {
-              for (let n of this.defaultProperties)
-                if (n.property == e) {
+              for (let o of this.defaultProperties)
+                if (o.property == e) {
                   let e = {};
-                  (e[n.variableName] = n.default),
+                  (e[o.variableName] = o.default),
                     this.setState(e, t),
                     this.props.controllerWatcher.forEach((e) => {
                       e.SetParameter(
                         this.props.iMode,
-                        n.mode,
-                        n.property,
+                        o.mode,
+                        o.property,
                         void 0,
                       );
                     });
@@ -4670,7 +4855,7 @@ var CLSTAMP = "9981652";
           }
           renderSettingsModal() {
             return i.createElement(
-              r.A,
+              s.A,
               {
                 visible: this.state.bSettingsVisible,
                 customStyles: {
@@ -4784,100 +4969,100 @@ var CLSTAMP = "9981652";
           }
           GetBooleanDropDownItems(e, t) {
             this.AddHeaderItem(e, "#SourceInputSubHeader_BooleanActions");
-            let n = p.B$.GetBooleanActionBindings.map((e, t) =>
+            let o = p.B$.GetBooleanActionBindings.map((e, t) =>
               this.GetActionDropDownItem(e),
             );
-            null == n || 0 == n.length
+            null == o || 0 == o.length
               ? this.AddNoActionsItem(e)
-              : e.push(...n),
+              : e.push(...o),
               this.AddBlankItem(e),
               t && this.AddNoneItems(e);
           }
           GetVector1DropDownItems(e, t) {
             this.AddHeaderItem(e, "#SourceInputSubHeader_Vector1Actions");
-            let n = p.B$.GetVector1ActionBindings.map((e, t) =>
+            let o = p.B$.GetVector1ActionBindings.map((e, t) =>
               this.GetActionDropDownItem(e),
             );
-            null == n || 0 == n.length
+            null == o || 0 == o.length
               ? this.AddNoActionsItem(e)
-              : e.push(...n),
+              : e.push(...o),
               this.AddBlankItem(e),
               t && this.AddNoneItems(e);
           }
           GetVector2DropDownItems(e, t) {
             this.AddHeaderItem(e, "#SourceInputSubHeader_Vector2Actions");
-            let n = p.B$.GetVector2ActionBindings.map((e, t) =>
+            let o = p.B$.GetVector2ActionBindings.map((e, t) =>
               this.GetActionDropDownItem(e),
             );
-            null == n || 0 == n.length
+            null == o || 0 == o.length
               ? this.AddNoActionsItem(e)
-              : e.push(...n),
+              : e.push(...o),
               this.AddBlankItem(e),
               t && this.AddNoneItems(e);
           }
           GetVector3DropDownItems(e, t) {
             this.AddHeaderItem(e, "#SourceInputSubHeader_Vector3Actions");
-            let n = p.B$.GetVector3ActionBindings.map((e, t) =>
+            let o = p.B$.GetVector3ActionBindings.map((e, t) =>
               this.GetActionDropDownItem(e),
             );
-            null == n || 0 == n.length
+            null == o || 0 == o.length
               ? this.AddNoActionsItem(e)
-              : e.push(...n),
+              : e.push(...o),
               this.AddBlankItem(e),
               t && this.AddNoneItems(e);
           }
           GetSkeletonDropDownItems(e, t) {
             this.AddHeaderItem(e, "#SourceInputSubHeader_SkeletonActions");
-            let n = p.B$.GetSkeletonActionBindings.map((e, t) =>
+            let o = p.B$.GetSkeletonActionBindings.map((e, t) =>
               this.GetActionDropDownItem(e),
             );
-            null == n || 0 == n.length
+            null == o || 0 == o.length
               ? this.AddNoActionsItem(e)
-              : e.push(...n),
+              : e.push(...o),
               this.AddBlankItem(e),
               t && this.AddNoneItems(e);
           }
           GetPoseDropDownItems(e, t) {
             this.AddHeaderItem(e, "#SourceInputSubHeader_PoseActions");
-            let n = p.B$.GetPoseActionBindings.map((e, t) =>
+            let o = p.B$.GetPoseActionBindings.map((e, t) =>
               this.GetActionDropDownItem(e),
             );
-            null == n || 0 == n.length
+            null == o || 0 == o.length
               ? this.AddNoActionsItem(e)
-              : e.push(...n),
+              : e.push(...o),
               this.AddBlankItem(e),
               t && this.AddNoneItems(e);
           }
           GetHapticsDropDownItems(e, t) {
             this.AddHeaderItem(e, "#SourceInputSubHeader_HapticsActions");
-            let n = p.B$.GetHapticsActionBindings.map((e, t) =>
+            let o = p.B$.GetHapticsActionBindings.map((e, t) =>
               this.GetActionDropDownItem(e),
             );
-            null == n || 0 == n.length
+            null == o || 0 == o.length
               ? this.AddNoActionsItem(e)
-              : e.push(...n),
+              : e.push(...o),
               this.AddBlankItem(e),
               t && this.AddNoneItems(e);
           }
           GetActionDropDownItem(e) {
             let t,
-              n = e.localized_name;
+              o = e.localized_name;
             return (
               "mandatory" == e.requirement &&
                 (t =
                   " (" + (0, c.we)("#BindingUI_SelectAction_Required") + ")"),
-              new C(e.name, n, t)
+              new C(e.name, o, t)
             );
           }
         }
-        (0, o.Cg)([h.o], v.prototype, "onPropertyChanged", null),
-          (0, o.Cg)([h.o], v.prototype, "onPropertyReset", null),
-          (0, o.Cg)([h.o], v.prototype, "OnEdit", null),
-          (0, o.Cg)([h.o], v.prototype, "OnShowModeSettings", null),
-          (0, o.Cg)([h.o], v.prototype, "CloseModeSettings", null),
-          (0, o.Cg)([h.o], v.prototype, "renderFooter", null),
-          (0, o.Cg)([h.o], v.prototype, "renderHeader", null),
-          (0, o.Cg)([g.EW], v.prototype, "WrapperClasses", null);
+        (0, n.Cg)([h.o], v.prototype, "onPropertyChanged", null),
+          (0, n.Cg)([h.o], v.prototype, "onPropertyReset", null),
+          (0, n.Cg)([h.o], v.prototype, "OnEdit", null),
+          (0, n.Cg)([h.o], v.prototype, "OnShowModeSettings", null),
+          (0, n.Cg)([h.o], v.prototype, "CloseModeSettings", null),
+          (0, n.Cg)([h.o], v.prototype, "renderFooter", null),
+          (0, n.Cg)([h.o], v.prototype, "renderHeader", null),
+          (0, n.Cg)([g.computed], v.prototype, "WrapperClasses", null);
         const A = 0.25,
           B = A;
         class I extends i.Component {
@@ -5029,7 +5214,7 @@ var CLSTAMP = "9981652";
           constructor(e) {
             super(e);
             let t = this.props.controllerWatcher[0].GetInputSource,
-              n = t.value || t.force ? 0.2 : 0;
+              o = t.value || t.force ? 0.2 : 0;
             (this.defaultProperties = [
               {
                 property: "click_activate_threshold",
@@ -5082,7 +5267,7 @@ var CLSTAMP = "9981652";
               },
               {
                 property: "haptic_amplitude",
-                default: n,
+                default: o,
                 type: "float",
                 variableName: "flHapticAmplitude",
                 mode: "click",
@@ -5157,33 +5342,33 @@ var CLSTAMP = "9981652";
           renderSettingsContent() {
             let e,
               t,
-              n,
-              o = this.props.controllerWatcher[0].GetInputSource,
+              o,
+              n = this.props.controllerWatcher[0].GetInputSource,
               l = [];
-            o.click &&
+            n.click &&
               l.push(
                 new C("click", this.LocalizeForceInputModeString("click")),
               ),
-              o.touch &&
+              n.touch &&
                 l.push(
                   new C("touch", this.LocalizeForceInputModeString("touch")),
                 ),
-              o.value &&
+              n.value &&
                 l.push(
                   new C("value", this.LocalizeForceInputModeString("value")),
                 ),
-              o.force &&
+              n.force &&
                 l.push(
                   new C("force", this.LocalizeForceInputModeString("force")),
                 ),
               l.length > 1 &&
                 l.push(new C("", this.LocalizeForceInputModeString("")));
-            let s = this.BShowClickOptions,
-              r = this.BShowTouchOptions,
+            let r = this.BShowClickOptions,
+              s = this.BShowTouchOptions,
               a = "";
             return (
               this.hasOwnProperty("nextUniqueId") && (a = this.nextUniqueId()),
-              s &&
+              r &&
                 (e = i.createElement(
                   "div",
                   { className: "FlexColumn" },
@@ -5222,7 +5407,7 @@ var CLSTAMP = "9981652";
                     renderValue: this.renderSliderValue,
                   }),
                 )),
-              r &&
+              s &&
                 (t = i.createElement(
                   "div",
                   { className: "FlexColumn" },
@@ -5262,7 +5447,7 @@ var CLSTAMP = "9981652";
                   }),
                 )),
               this.props.bToggleButtonMode &&
-                (n = [
+                (o = [
                   i.createElement(E, {
                     key: "click_initial_state",
                     labelName: "#SourceInputMode_ClickInitialState",
@@ -5315,7 +5500,7 @@ var CLSTAMP = "9981652";
                 ),
                 e,
                 t,
-                n,
+                o,
                 l.length > 1 &&
                   i.createElement(M, {
                     labelName: "#SourceInputMode_ButtonModeInputForce_Click",
@@ -5407,11 +5592,11 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], w.prototype, "OnClickActionChanged", null),
-          (0, o.Cg)([h.o], w.prototype, "OnTouchActionChanged", null),
-          (0, o.Cg)([g.EW], w.prototype, "BShowClickOptions", null),
-          (0, o.Cg)([g.EW], w.prototype, "BShowTouchOptions", null),
-          (w = (0, o.Cg)([s.PA], w));
+        (0, n.Cg)([h.o], w.prototype, "OnClickActionChanged", null),
+          (0, n.Cg)([h.o], w.prototype, "OnTouchActionChanged", null),
+          (0, n.Cg)([g.computed], w.prototype, "BShowClickOptions", null),
+          (0, n.Cg)([g.computed], w.prototype, "BShowTouchOptions", null),
+          (w = (0, n.Cg)([r.PA], w));
         let O = class extends v {
           constructor(e) {
             super(e),
@@ -5548,10 +5733,10 @@ var CLSTAMP = "9981652";
           get BShowClickOptions() {
             let e = this.props.controllerWatcher[0],
               t = this.RInputOptions,
-              n = e.GetInputSource;
+              o = e.GetInputSource;
             return (
-              n.value ||
-              n.force ||
+              o.value ||
+              o.force ||
               "position" == this.state.strSelectedForceInput ||
               (1 == t.length &&
                 "position" == t[0] &&
@@ -5581,19 +5766,19 @@ var CLSTAMP = "9981652";
           renderSettingsContent() {
             let e,
               t,
-              n,
-              o = this.props.controllerWatcher[0],
-              l = (o.GetInputSource, this.RInputOptions),
-              s = [];
+              o,
+              n = this.props.controllerWatcher[0],
+              l = (n.GetInputSource, this.RInputOptions),
+              r = [];
             l.length > 1 && l.push("");
             for (let e of l)
-              s.push(new C(e, this.LocalizeForceInputModeString(e)));
-            let r = this.BShowClickOptions,
+              r.push(new C(e, this.LocalizeForceInputModeString(e)));
+            let s = this.BShowClickOptions,
               a = this.BShowTouchOptions,
               d = "";
             return (
               this.hasOwnProperty("nextUniqueId") && (d = this.nextUniqueId()),
-              r &&
+              s &&
                 (e = i.createElement(
                   "div",
                   { className: "FlexColumn" },
@@ -5672,7 +5857,7 @@ var CLSTAMP = "9981652";
                   }),
                 )),
               this.props.bToggleButtonMode &&
-                (n = [
+                (o = [
                   i.createElement(E, {
                     key: "click_initial_state",
                     labelName: "#SourceInputMode_ClickInitialState",
@@ -5725,12 +5910,12 @@ var CLSTAMP = "9981652";
                 ),
                 e,
                 t,
-                n,
-                s.length > 1 &&
+                o,
+                r.length > 1 &&
                   i.createElement(M, {
                     labelName: "#SourceInputMode_ButtonModeInputForce_Click",
                     elementId: d,
-                    vecValues: s,
+                    vecValues: r,
                     selectedValue: this.state.strSelectedForceInput,
                     selectedValueLocalized: this.LocalizeForceInputModeString(
                       this.state.strSelectedForceInput,
@@ -5819,7 +6004,7 @@ var CLSTAMP = "9981652";
                       renderValue: this.renderSliderValue,
                     }),
                   ),
-                o.GetInputSourceTouchSupport &&
+                n.GetInputSourceTouchSupport &&
                   i.createElement(E, {
                     key: "touchy_click",
                     labelName: "#SourceInputMode_TouchyClick",
@@ -5875,12 +6060,12 @@ var CLSTAMP = "9981652";
           render() {
             let e = this.props.controllerWatcher[0],
               t = this.GetCombinedBooleanVector1DropDownItems(),
-              n = this.IsComplex;
+              o = this.IsComplex;
             return i.createElement(
               "div",
               { className: this.WrapperClasses },
               this.renderHeader(),
-              n &&
+              o &&
                 i.createElement(
                   "div",
                   null,
@@ -5921,7 +6106,7 @@ var CLSTAMP = "9981652";
                       bReadOnly: !this.state.bEditMode,
                     }),
                 ),
-              !n &&
+              !o &&
                 i.createElement(
                   "div",
                   null,
@@ -5955,18 +6140,18 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([g.EW], O.prototype, "IsComplex", null),
-          (0, o.Cg)([g.EW], O.prototype, "BShowClickOptions", null),
-          (0, o.Cg)([g.EW], O.prototype, "BShowTouchOptions", null),
-          (0, o.Cg)([g.EW], O.prototype, "RInputOptions", null),
-          (0, o.Cg)([h.o], O.prototype, "OnHeldActionChanged", null),
-          (0, o.Cg)([h.o], O.prototype, "OnLongActionChanged", null),
-          (0, o.Cg)([h.o], O.prototype, "OnSingleActionChanged", null),
-          (0, o.Cg)([h.o], O.prototype, "OnDoubleActionChanged", null),
-          (0, o.Cg)([h.o], O.prototype, "OnClickActionChanged", null),
-          (0, o.Cg)([h.o], O.prototype, "OnTouchActionChanged", null),
-          (0, o.Cg)([h.o], O.prototype, "OnToggleComplex", null),
-          (O = (0, o.Cg)([s.PA], O));
+        (0, n.Cg)([g.computed], O.prototype, "IsComplex", null),
+          (0, n.Cg)([g.computed], O.prototype, "BShowClickOptions", null),
+          (0, n.Cg)([g.computed], O.prototype, "BShowTouchOptions", null),
+          (0, n.Cg)([g.computed], O.prototype, "RInputOptions", null),
+          (0, n.Cg)([h.o], O.prototype, "OnHeldActionChanged", null),
+          (0, n.Cg)([h.o], O.prototype, "OnLongActionChanged", null),
+          (0, n.Cg)([h.o], O.prototype, "OnSingleActionChanged", null),
+          (0, n.Cg)([h.o], O.prototype, "OnDoubleActionChanged", null),
+          (0, n.Cg)([h.o], O.prototype, "OnClickActionChanged", null),
+          (0, n.Cg)([h.o], O.prototype, "OnTouchActionChanged", null),
+          (0, n.Cg)([h.o], O.prototype, "OnToggleComplex", null),
+          (O = (0, n.Cg)([r.PA], O));
         let k = class extends v {
           constructor(e) {
             super(e),
@@ -6143,13 +6328,13 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], k.prototype, "OnHeldActionChanged", null),
-          (0, o.Cg)([h.o], k.prototype, "OnLongActionChanged", null),
-          (0, o.Cg)([h.o], k.prototype, "OnSingleActionChanged", null),
-          (0, o.Cg)([h.o], k.prototype, "OnDoubleActionChanged", null),
-          (0, o.Cg)([h.o], k.prototype, "OnClickActionChanged", null),
-          (0, o.Cg)([h.o], k.prototype, "OnTouchActionChanged", null),
-          (k = (0, o.Cg)([s.PA], k));
+        (0, n.Cg)([h.o], k.prototype, "OnHeldActionChanged", null),
+          (0, n.Cg)([h.o], k.prototype, "OnLongActionChanged", null),
+          (0, n.Cg)([h.o], k.prototype, "OnSingleActionChanged", null),
+          (0, n.Cg)([h.o], k.prototype, "OnDoubleActionChanged", null),
+          (0, n.Cg)([h.o], k.prototype, "OnClickActionChanged", null),
+          (0, n.Cg)([h.o], k.prototype, "OnTouchActionChanged", null),
+          (k = (0, n.Cg)([r.PA], k));
         let N = class extends v {
           render() {
             return i.createElement(
@@ -6160,7 +6345,7 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        N = (0, o.Cg)([s.PA], N);
+        N = (0, n.Cg)([r.PA], N);
         let P = class extends v {
           constructor(e) {
             super(e),
@@ -6275,9 +6460,9 @@ var CLSTAMP = "9981652";
             );
           }
           OnActionChanged(e, t) {
-            this.props.controllerWatcher.forEach((n) => {
+            this.props.controllerWatcher.forEach((o) => {
               p.B$.SetActionForInputModeType(
-                n.GetFullInputPath,
+                o.GetFullInputPath,
                 this.props.iMode,
                 e,
                 t,
@@ -6288,8 +6473,8 @@ var CLSTAMP = "9981652";
           render() {
             let e = this.props.controllerWatcher[0],
               t = this.GetCombinedBooleanVector1DropDownItems(),
-              n = "dpad" == this.props.sMode,
-              o = [
+              o = "dpad" == this.props.sMode,
+              n = [
                 new C("click", (0, c.we)("#SourceInputMode_Click")),
                 new C("touch", (0, c.we)("#SourceInputMode_Touch")),
               ],
@@ -6302,7 +6487,7 @@ var CLSTAMP = "9981652";
               "div",
               { className: this.WrapperClasses },
               this.renderHeader(),
-              n &&
+              o &&
                 i.createElement(
                   "div",
                   { className: "FlexRow BindingActionWrapper" },
@@ -6318,7 +6503,7 @@ var CLSTAMP = "9981652";
                       i.createElement(y, {
                         sLocalizedSelectedItem: l,
                         sValueSelectedItem: this.state.sSubMode,
-                        vecOptions: o,
+                        vecOptions: n,
                         fnOptionSelected: this.onPropertyChanged.bind(
                           this,
                           "sub_mode",
@@ -6366,8 +6551,8 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], P.prototype, "OnActionChanged", null),
-          (P = (0, o.Cg)([s.PA], P));
+        (0, n.Cg)([h.o], P.prototype, "OnActionChanged", null),
+          (P = (0, n.Cg)([r.PA], P));
         let T = class extends v {
           constructor(e) {
             super(e);
@@ -6397,11 +6582,11 @@ var CLSTAMP = "9981652";
                     mode: "joystick",
                   },
                 );
-            let n = t.GetInputSourceDefaultDeadzone;
+            let o = t.GetInputSourceDefaultDeadzone;
             this.defaultProperties.push(
               {
                 property: "deadzone_pct",
-                default: n,
+                default: o,
                 type: "float",
                 variableName: "flDeadzonePct",
                 mode: "joystick",
@@ -6430,17 +6615,17 @@ var CLSTAMP = "9981652";
             return !0;
           }
           OnTrackpadInvertModeChanged(e, t) {
-            let n = this.props.controllerWatcher[0],
-              o = n.GetTrackpadInvertState(this.props.iMode);
+            let o = this.props.controllerWatcher[0],
+              n = o.GetTrackpadInvertState(this.props.iMode);
             switch (e) {
               case "y":
-                o = t ? ("x" == o ? "xy" : "y") : "xy" == o ? "x" : "";
+                n = t ? ("x" == n ? "xy" : "y") : "xy" == n ? "x" : "";
                 break;
               case "x":
-                o = t ? ("y" == o ? "xy" : "x") : "xy" == o ? "y" : "";
+                n = t ? ("y" == n ? "xy" : "x") : "xy" == n ? "y" : "";
             }
-            n.SetTrackpadInvertState(this.props.iMode, o),
-              this.setState({ eTrackpadInvertMode: o });
+            o.SetTrackpadInvertState(this.props.iMode, n),
+              this.setState({ eTrackpadInvertMode: n });
           }
           OnTrackpadInvertModeReset() {
             this.setState({ eTrackpadInvertMode: "" });
@@ -6608,9 +6793,9 @@ var CLSTAMP = "9981652";
           render() {
             let e = this.props.controllerWatcher[0],
               t = this.GetCombinedBooleanVector1DropDownItems(),
-              n = [];
+              o = [];
             return (
-              this.GetVector2DropDownItems(n, !0),
+              this.GetVector2DropDownItems(o, !0),
               i.createElement(
                 "div",
                 { className: this.WrapperClasses },
@@ -6634,7 +6819,7 @@ var CLSTAMP = "9981652";
                 i.createElement(b, {
                   sLocalizedInputType: "#SourceInputMode_Position",
                   SelectedAction: e.GetPositionAction(this.props.iMode),
-                  vecOptions: n,
+                  vecOptions: o,
                   fnOptionSelected: this.OnPositionActionChanged,
                   bReadOnly: !this.state.bEditMode,
                 }),
@@ -6643,12 +6828,12 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], T.prototype, "OnTrackpadInvertModeChanged", null),
-          (0, o.Cg)([h.o], T.prototype, "OnTrackpadInvertModeReset", null),
-          (0, o.Cg)([h.o], T.prototype, "OnClickActionChanged", null),
-          (0, o.Cg)([h.o], T.prototype, "OnTouchActionChanged", null),
-          (0, o.Cg)([h.o], T.prototype, "OnPositionActionChanged", null),
-          (T = (0, o.Cg)([s.PA], T));
+        (0, n.Cg)([h.o], T.prototype, "OnTrackpadInvertModeChanged", null),
+          (0, n.Cg)([h.o], T.prototype, "OnTrackpadInvertModeReset", null),
+          (0, n.Cg)([h.o], T.prototype, "OnClickActionChanged", null),
+          (0, n.Cg)([h.o], T.prototype, "OnTouchActionChanged", null),
+          (0, n.Cg)([h.o], T.prototype, "OnPositionActionChanged", null),
+          (T = (0, n.Cg)([r.PA], T));
         let R = class extends v {
           constructor(e) {
             super(e),
@@ -6998,8 +7183,8 @@ var CLSTAMP = "9981652";
                 new C("smooth", this.LocalizeScrollModeString("smooth")),
                 new C("discrete", this.LocalizeScrollModeString("discrete")),
               ],
-              n = "smooth" === this.state.sScrollMode,
-              o =
+              o = "smooth" === this.state.sScrollMode,
+              n =
                 "joystick" ==
                 this.props.controllerWatcher[0].GetInputSourceType;
             return i.createElement(
@@ -7037,8 +7222,8 @@ var CLSTAMP = "9981652";
                   onReset: this.onPropertyReset.bind(this, "scroll_mode"),
                   onChange: this.onPropertyChanged.bind(this, "scroll_mode"),
                 }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_TrackpadAspectRatio",
@@ -7057,8 +7242,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName: "#SourceInputMode_SmoothScroll_Multiplier",
                     elementId: e,
@@ -7076,8 +7261,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_AccelerationPower",
@@ -7096,8 +7281,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_NotchesPerTouchpad",
@@ -7116,8 +7301,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName: "#SourceInputMode_SmoothScroll_StartDistance",
                     elementId: e,
@@ -7135,8 +7320,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName: "#SourceInputMode_SmoothScroll_MinThrowVelocity",
                     elementId: e,
@@ -7154,8 +7339,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_MaxScrollVelocity",
@@ -7174,8 +7359,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName: "#SourceInputMode_SmoothScroll_Deceleration",
                     elementId: e,
@@ -7193,8 +7378,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_MinLastVelocitiesToAverage",
@@ -7213,8 +7398,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_MaxLastVelocitiesToAverage",
@@ -7233,8 +7418,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_ThrownTerminationVelocity",
@@ -7253,8 +7438,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_EdgeScrollThreshold",
@@ -7273,8 +7458,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_EdgeScrollThresholdVerticalBias",
@@ -7294,8 +7479,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_EdgeScrollVelocity",
@@ -7314,8 +7499,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName: "#SourceInputMode_SmoothScroll_EdgeMinSwipe",
                     elementId: e,
@@ -7333,8 +7518,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  !o &&
+                o &&
+                  !n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_MinSideScrollRatio",
@@ -7353,8 +7538,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  o &&
+                o &&
+                  n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_MaxScrollVelocity",
@@ -7373,8 +7558,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                n &&
-                  o &&
+                o &&
+                  n &&
                   i.createElement(I, {
                     labelName:
                       "#SourceInputMode_SmoothScroll_Joystick_MinInputMagnitude",
@@ -7393,8 +7578,8 @@ var CLSTAMP = "9981652";
                     ),
                     renderValue: this.renderSliderValue,
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7413,8 +7598,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_globalscalefactor",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(E, {
                     elementId: e,
                     labelName:
@@ -7432,8 +7617,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_haptic_on_touchstart_enabled",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(E, {
                     elementId: e,
                     labelName:
@@ -7451,8 +7636,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_direct_directionlock_enabled",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7472,8 +7657,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_noisethreshold_ontouch",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7493,8 +7678,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_noisethreshold_onmove",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7515,8 +7700,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_noisethreshold_onreversal",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7536,8 +7721,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_accumthreshold_ontouch",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7557,8 +7742,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_accumthreshold_onmove",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7579,8 +7764,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_accumthreshold_onreversal",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(E, {
                     elementId: e,
                     labelName:
@@ -7596,8 +7781,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_flick_enabled",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7616,8 +7801,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_flick_threshold",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7637,8 +7822,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_flick_multiplier",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7657,8 +7842,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_flick_speed",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(E, {
                     elementId: e,
                     labelName:
@@ -7676,8 +7861,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_slideandhold_enabled",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7697,8 +7882,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_slideandhold_scalefactor",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7719,8 +7904,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_slideandhold_pulseratefactor",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7740,8 +7925,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_slideandhold_bordertop",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7762,8 +7947,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_slideandhold_borderbottom",
                     ),
                   }),
-                !n &&
-                  !o &&
+                !o &&
+                  !n &&
                   i.createElement(E, {
                     elementId: e,
                     labelName:
@@ -7781,8 +7966,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_trackpad_slideandhold_hapticenabled",
                     ),
                   }),
-                !n &&
-                  o &&
+                !o &&
+                  n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7801,8 +7986,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_joystick_ratefactor",
                     ),
                   }),
-                !n &&
-                  o &&
+                !o &&
+                  n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7821,8 +8006,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_joystick_scalefactor",
                     ),
                   }),
-                !n &&
-                  o &&
+                !o &&
+                  n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7843,8 +8028,8 @@ var CLSTAMP = "9981652";
                       "discrete_scroll_joystick_deadzone_horizontal",
                     ),
                   }),
-                !n &&
-                  o &&
+                !o &&
+                  n &&
                   i.createElement(I, {
                     elementId: e,
                     renderValue: this.renderSliderValue,
@@ -7896,9 +8081,9 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], R.prototype, "OnSave", null),
-          (0, o.Cg)([h.o], R.prototype, "OnScrollActionChanged", null),
-          (R = (0, o.Cg)([s.PA], R));
+        (0, n.Cg)([h.o], R.prototype, "OnSave", null),
+          (0, n.Cg)([h.o], R.prototype, "OnScrollActionChanged", null),
+          (R = (0, n.Cg)([r.PA], R));
         let L = class extends v {
           OnClickActionChanged(e) {
             this.props.controllerWatcher.forEach((t) => {
@@ -7918,9 +8103,9 @@ var CLSTAMP = "9981652";
           render() {
             let e = this.props.controllerWatcher[0],
               t = this.GetCombinedBooleanVector1DropDownItems(),
-              n = [];
+              o = [];
             return (
-              this.GetVector1DropDownItems(n, !0),
+              this.GetVector1DropDownItems(o, !0),
               i.createElement(
                 "div",
                 { className: this.WrapperClasses },
@@ -7944,7 +8129,7 @@ var CLSTAMP = "9981652";
                 i.createElement(b, {
                   sLocalizedInputType: "#SourceInputMode_Pull",
                   SelectedAction: e.GetPullAction(this.props.iMode),
-                  vecOptions: n,
+                  vecOptions: o,
                   fnOptionSelected: this.OnPullActionChanged,
                   bReadOnly: !this.state.bEditMode,
                 }),
@@ -7953,10 +8138,10 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], L.prototype, "OnClickActionChanged", null),
-          (0, o.Cg)([h.o], L.prototype, "OnTouchActionChanged", null),
-          (0, o.Cg)([h.o], L.prototype, "OnPullActionChanged", null),
-          (L = (0, o.Cg)([s.PA], L));
+        (0, n.Cg)([h.o], L.prototype, "OnClickActionChanged", null),
+          (0, n.Cg)([h.o], L.prototype, "OnTouchActionChanged", null),
+          (0, n.Cg)([h.o], L.prototype, "OnPullActionChanged", null),
+          (L = (0, n.Cg)([r.PA], L));
         let D = class extends v {
           OnForceActionChanged(e) {
             this.props.controllerWatcher.forEach((t) => {
@@ -7985,8 +8170,8 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], D.prototype, "OnForceActionChanged", null),
-          (D = (0, o.Cg)([s.PA], D));
+        (0, n.Cg)([h.o], D.prototype, "OnForceActionChanged", null),
+          (D = (0, n.Cg)([r.PA], D));
         let F = class extends v {
           constructor(e) {
             super(e),
@@ -8096,8 +8281,8 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], F.prototype, "OnConstantActionChanged", null),
-          (F = (0, o.Cg)([s.PA], F));
+        (0, n.Cg)([h.o], F.prototype, "OnConstantActionChanged", null),
+          (F = (0, n.Cg)([r.PA], F));
         let x = class extends v {
           constructor(e) {
             super(e),
@@ -8191,9 +8376,9 @@ var CLSTAMP = "9981652";
           renderSliderRawValue(e) {
             return e.toString();
           }
-          renderNormalizedSplitSliderValue(e, t, n) {
-            let o = (e > 1 ? n : t) + ": ";
-            return (e = e > 1 ? e - 1 : e), o + Math.round(100 * e).toString();
+          renderNormalizedSplitSliderValue(e, t, o) {
+            let n = (e > 1 ? o : t) + ": ";
+            return (e = e > 1 ? e - 1 : e), n + Math.round(100 * e).toString();
           }
           renderSpeedSliderValue(e) {
             return (
@@ -8203,15 +8388,15 @@ var CLSTAMP = "9981652";
           renderSettingsContent() {
             let e = this.props.controllerWatcher[0],
               t = "pinch" == e.GetInputSourceType,
-              n = (0, c.we)(
+              o = (0, c.we)(
                 "pinch" == e.GetInputSourceType
                   ? "#SourceInputMode_Pull"
                   : "#SourceInputMode_Proximity",
               ),
               l = !("pinch" == e.GetInputSourceType),
-              s = "";
+              r = "";
             return (
-              this.hasOwnProperty("nextUniqueId") && (s = this.nextUniqueId()),
+              this.hasOwnProperty("nextUniqueId") && (r = this.nextUniqueId()),
               i.createElement(
                 "div",
                 { className: "InputSettingsModal" },
@@ -8239,7 +8424,7 @@ var CLSTAMP = "9981652";
                   t &&
                     i.createElement(I, {
                       labelName: "#SourceInputMode_CapsenseEnableThreshold",
-                      elementId: s,
+                      elementId: r,
                       min: 0,
                       max: 1,
                       step: 0.05,
@@ -8256,14 +8441,14 @@ var CLSTAMP = "9981652";
                     }),
                   i.createElement(I, {
                     labelName: "#SourceInputMode_GrabThreshold",
-                    elementId: s,
+                    elementId: r,
                     halfSplit: l,
                     min: 0,
                     max: l ? 2 : 1,
                     step: 0.05,
                     value: this.state.flGrabThreshold,
                     onReset: () =>
-                      (0, o.sH)(this, void 0, void 0, function* () {
+                      (0, n.sH)(this, void 0, void 0, function* () {
                         yield this.onPropertyReset("value_hold_threshold");
                         const e = this.state.flGrabThreshold;
                         this.state.flReleaseThreshold > e &&
@@ -8277,20 +8462,20 @@ var CLSTAMP = "9981652";
                     renderValue: (e) =>
                       this.renderNormalizedSplitSliderValue(
                         e,
-                        n,
+                        o,
                         (0, c.we)("#SourceInputMode_Force"),
                       ),
                   }),
                   i.createElement(I, {
                     labelName: "#SourceInputMode_ReleaseThreshold",
-                    elementId: s,
+                    elementId: r,
                     halfSplit: l,
                     min: 0,
                     max: l ? 2 : 1,
                     step: 0.05,
                     value: this.state.flReleaseThreshold,
                     onReset: () =>
-                      (0, o.sH)(this, void 0, void 0, function* () {
+                      (0, n.sH)(this, void 0, void 0, function* () {
                         yield this.onPropertyReset("value_release_threshold");
                         const e = this.state.flReleaseThreshold;
                         this.state.flGrabThreshold < e &&
@@ -8304,7 +8489,7 @@ var CLSTAMP = "9981652";
                     renderValue: (e) =>
                       this.renderNormalizedSplitSliderValue(
                         e,
-                        n,
+                        o,
                         (0, c.we)("#SourceInputMode_Force"),
                       ),
                   }),
@@ -8331,7 +8516,7 @@ var CLSTAMP = "9981652";
                       !1,
                       i.createElement(I, {
                         labelName: "#SourceInputMode_ForceHoldThreshold",
-                        elementId: s,
+                        elementId: r,
                         min: 0,
                         max: 1,
                         step: 0.05,
@@ -8348,7 +8533,7 @@ var CLSTAMP = "9981652";
                       }),
                       i.createElement(I, {
                         labelName: "#SourceInputMode_ForceReleaseThreshold",
-                        elementId: s,
+                        elementId: r,
                         min: 0,
                         max: 1,
                         step: 0.05,
@@ -8365,7 +8550,7 @@ var CLSTAMP = "9981652";
                       }),
                       i.createElement(I, {
                         labelName: "#SourceInputMode_DowngradeSpeed",
-                        elementId: s,
+                        elementId: r,
                         min: 0,
                         max: 10,
                         step: 0.1,
@@ -8382,7 +8567,7 @@ var CLSTAMP = "9981652";
                       }),
                       i.createElement(I, {
                         labelName: "#SourceInputMode_DropSpeed",
-                        elementId: s,
+                        elementId: r,
                         min: 0,
                         max: 10,
                         step: 0.1,
@@ -8425,9 +8610,9 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], x.prototype, "OnGrabActionChanged", null),
-          (x = (0, o.Cg)([s.PA], x));
-        let H = class extends v {
+        (0, n.Cg)([h.o], x.prototype, "OnGrabActionChanged", null),
+          (x = (0, n.Cg)([r.PA], x));
+        let G = class extends v {
           constructor(e) {
             super(e),
               (this.defaultProperties = [
@@ -8588,9 +8773,9 @@ var CLSTAMP = "9981652";
               this.GetVector2DropDownItems(t, !1),
               this.GetVector3DropDownItems(t, !1),
               this.AddNoneItems(t);
-            let n = "";
-            this.hasOwnProperty("nextUniqueId") && (n = this.nextUniqueId());
-            let o = this.GetActionArity();
+            let o = "";
+            this.hasOwnProperty("nextUniqueId") && (o = this.nextUniqueId());
+            let n = this.GetActionArity();
             return i.createElement(
               "div",
               { className: this.WrapperClasses },
@@ -8602,10 +8787,10 @@ var CLSTAMP = "9981652";
                 fnOptionSelected: this.OnValueActionChanged,
                 bReadOnly: !this.state.bEditMode,
               }),
-              o >= 1 &&
+              n >= 1 &&
                 i.createElement(I, {
                   labelName: "#SourceInputMode_ScalarOnX",
-                  elementId: n,
+                  elementId: o,
                   min: -1,
                   max: 1,
                   step: 0.1,
@@ -8613,10 +8798,10 @@ var CLSTAMP = "9981652";
                   onChange: this.onPropertyChanged.bind(this, "on/x"),
                   renderValue: this.renderNormalizedSliderValue,
                 }),
-              o >= 2 &&
+              n >= 2 &&
                 i.createElement(I, {
                   labelName: "#SourceInputMode_ScalarOnY",
-                  elementId: n,
+                  elementId: o,
                   min: -1,
                   max: 1,
                   step: 0.1,
@@ -8624,10 +8809,10 @@ var CLSTAMP = "9981652";
                   onChange: this.onPropertyChanged.bind(this, "on/y"),
                   renderValue: this.renderNormalizedSliderValue,
                 }),
-              o >= 3 &&
+              n >= 3 &&
                 i.createElement(I, {
                   labelName: "#SourceInputMode_ScalarOnZ",
-                  elementId: n,
+                  elementId: o,
                   min: -1,
                   max: 1,
                   step: 0.1,
@@ -8639,10 +8824,10 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], H.prototype, "OnValueActionChanged", null),
-          (H = (0, o.Cg)([s.PA], H));
-        var G = n(9118);
-        let V = class extends i.Component {
+        (0, n.Cg)([h.o], G.prototype, "OnValueActionChanged", null),
+          (G = (0, n.Cg)([r.PA], G));
+        var V = o(9118);
+        let H = class extends i.Component {
           constructor(e) {
             super(e), (this.state = { bInEditMode: !1 });
           }
@@ -8705,7 +8890,7 @@ var CLSTAMP = "9981652";
               case "grab":
                 return i.createElement(x, Object.assign({}, e));
               case "scalar_constant":
-                return i.createElement(H, Object.assign({}, e));
+                return i.createElement(G, Object.assign({}, e));
               case "static_bool":
                 return i.createElement(F, Object.assign({}, e));
               default:
@@ -8713,14 +8898,14 @@ var CLSTAMP = "9981652";
             }
           }
         };
-        (0, o.Cg)([h.o], V.prototype, "OnEdit", null),
-          (V = (0, o.Cg)([s.PA], V));
-        class W {
-          constructor(e, t, n, o) {
+        (0, n.Cg)([h.o], H.prototype, "OnEdit", null),
+          (H = (0, n.Cg)([r.PA], H));
+        class U {
+          constructor(e, t, o, n) {
             (this.x = e),
               (this.y = t),
-              (this.width = n),
-              (this.nPointScale = o),
+              (this.width = o),
+              (this.nPointScale = n),
               this.toString.bind(this);
           }
           toString() {
@@ -8729,7 +8914,7 @@ var CLSTAMP = "9981652";
             );
           }
         }
-        let U = class extends i.Component {
+        let W = class extends i.Component {
           constructor() {
             super(...arguments),
               (this.m_HTMLButton = void 0),
@@ -8759,29 +8944,29 @@ var CLSTAMP = "9981652";
             ) {
               let e = this.m_SVGElement.children.namedItem("SourcePath"),
                 t = this.m_SVGElement.children.namedItem("SourceLine"),
-                n = this.m_SVGElement.children.namedItem("SourceCircle"),
-                o = this.props.controllerWatcher[0],
+                o = this.m_SVGElement.children.namedItem("SourceCircle"),
+                n = this.props.controllerWatcher[0],
                 i = 2 == this.props.eControllerButtonSide,
                 l = 0 == this.props.eControllerButtonSide,
-                s = this.m_HTMLButton.getBoundingClientRect(),
-                r = this.m_SVGElement.getBoundingClientRect(),
-                a = o.GetSVGEndPoint();
+                r = this.m_HTMLButton.getBoundingClientRect(),
+                s = this.m_SVGElement.getBoundingClientRect(),
+                a = n.GetSVGEndPoint();
               (a.x *= this.props.ptControllerImagePosition.nPointScale),
                 (a.y *= this.props.ptControllerImagePosition.nPointScale),
                 l ||
                   i ||
                   (a.x = this.props.ptControllerImagePosition.width - a.x),
-                (a.x += this.props.ptControllerImagePosition.x - r.left),
-                (a.y += this.props.ptControllerImagePosition.y - r.top);
-              let d = new p.bR(0, s.top - r.top);
-              d.x = i ? s.left - 10 : s.right + 10;
+                (a.x += this.props.ptControllerImagePosition.x - s.left),
+                (a.y += this.props.ptControllerImagePosition.y - s.top);
+              let d = new p.bR(0, r.top - s.top);
+              d.x = i ? r.left - 10 : r.right + 10;
               let c = i ? -20 : 20,
                 h = d.x + c + "," + d.y + " " + a.x + "," + a.y;
               e.setAttribute("points", h);
               let u = d.x + "," + d.y + " " + (d.x + c) + "," + d.y;
               t.setAttribute("points", u),
-                n.setAttribute("cx", a.x + ""),
-                n.setAttribute("cy", a.y + "");
+                o.setAttribute("cx", a.x + ""),
+                o.setAttribute("cy", a.y + "");
             }
           }
           OnMouseEnter(e) {
@@ -8797,11 +8982,11 @@ var CLSTAMP = "9981652";
             let e = this.props.strSVGClass;
             e += " MenuSVG";
             let t = this.props.controllerWatcher[0],
-              n = 0,
-              o = t.GetModes.map(
+              o = 0,
+              n = t.GetModes.map(
                 (e, t) => (
-                  ++n,
-                  i.createElement(V, {
+                  ++o,
+                  i.createElement(H, {
                     key: t,
                     sMode: e.mode,
                     iMode: t,
@@ -8839,7 +9024,7 @@ var CLSTAMP = "9981652";
                   ),
               ),
               i.createElement("hr", { ref: this.BindButtonRef }),
-              n > 0 && i.createElement("div", { className: "FlexColumn" }, o),
+              o > 0 && i.createElement("div", { className: "FlexColumn" }, n),
               i.createElement(m.A, { onReflow: this.UpdateSVGPath }),
               i.createElement(
                 "svg",
@@ -8887,38 +9072,38 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], U.prototype, "AddMode", null),
-          (0, o.Cg)([h.o], U.prototype, "BindButtonRef", null),
-          (0, o.Cg)([h.o], U.prototype, "BindSVGRef", null),
-          (0, o.Cg)([h.o], U.prototype, "UpdateSVGPath", null),
-          (0, o.Cg)([h.o], U.prototype, "OnMouseEnter", null),
-          (0, o.Cg)([h.o], U.prototype, "OnMouseLeave", null),
-          (U = (0, o.Cg)([s.PA], U));
+        (0, n.Cg)([h.o], W.prototype, "AddMode", null),
+          (0, n.Cg)([h.o], W.prototype, "BindButtonRef", null),
+          (0, n.Cg)([h.o], W.prototype, "BindSVGRef", null),
+          (0, n.Cg)([h.o], W.prototype, "UpdateSVGPath", null),
+          (0, n.Cg)([h.o], W.prototype, "OnMouseEnter", null),
+          (0, n.Cg)([h.o], W.prototype, "OnMouseLeave", null),
+          (W = (0, n.Cg)([r.PA], W));
         let $ = class extends i.Component {
           render() {
             let e = p.B$.SelectedControllerTypeInfo;
             if (!e || !this.props.selectedActionSet) return null;
             p.B$.SelectedControllerTypeLocalizedName;
             let t = [];
-            Object.keys(e.input_source).forEach((n) => {
-              t.push({ name: n, order: e.input_source[n].order });
+            Object.keys(e.input_source).forEach((o) => {
+              t.push({ name: o, order: e.input_source[o].order });
             }),
               t.sort((e, t) => e.order - t.order);
-            let n = t.map((t, n) => {
-              let o = e.input_source[t.name];
-              if ("pose" == o.type || "vibration" == o.type) return null;
+            let o = t.map((t, o) => {
+              let n = e.input_source[t.name];
+              if ("pose" == n.type || "vibration" == n.type) return null;
               if (
-                "InputValueVisibility_SteamVRInternal" == o.visibility &&
+                "InputValueVisibility_SteamVRInternal" == n.visibility &&
                 !p.B$.CurrentAppCanAccessPrivateInputs
               )
                 return null;
               if (
-                "InputValueVisibility_AvailableButHidden" == o.visibility &&
-                !G.W.ShowHiddenInputs
+                "InputValueVisibility_AvailableButHidden" == n.visibility &&
+                !V.W.ShowHiddenInputs
               )
                 return null;
-              if (null != o.side)
-                switch (o.side) {
+              if (null != n.side)
+                switch (n.side) {
                   case "left":
                     if (1 != this.props.eControllerButtonSide) return null;
                     break;
@@ -8945,8 +9130,8 @@ var CLSTAMP = "9981652";
                       this.props.selectedActionSet.name,
                     ),
                   ),
-                i.createElement(U, {
-                  key: n,
+                i.createElement(W, {
+                  key: o,
                   controllerWatcher: l,
                   strSVGClass: this.props.strSVGClass,
                   bReadOnly: this.props.bReadOnly,
@@ -8956,10 +9141,10 @@ var CLSTAMP = "9981652";
                 })
               );
             });
-            return i.createElement("div", null, n);
+            return i.createElement("div", null, o);
           }
         };
-        $ = (0, o.Cg)([s.PA], $);
+        $ = (0, n.Cg)([r.PA], $);
         let z = class extends i.Component {
           constructor(e) {
             super(e),
@@ -8968,52 +9153,52 @@ var CLSTAMP = "9981652";
               this.props.bSingleMode
                 ? (this.state = {
                     bMirrorBinding: !0,
-                    ptLeftController: new W(0, 0, 0, 0),
-                    ptRightController: new W(0, 0, 0, 0),
+                    ptLeftController: new U(0, 0, 0, 0),
+                    ptRightController: new U(0, 0, 0, 0),
                   })
                 : this.props.selectedActionSet &&
                     "single" != this.props.selectedActionSet.usage
                   ? ((this.state = {
                       bMirrorBinding: !1,
-                      ptLeftController: new W(0, 0, 0, 0),
-                      ptRightController: new W(0, 0, 0, 0),
+                      ptLeftController: new U(0, 0, 0, 0),
+                      ptRightController: new U(0, 0, 0, 0),
                     }),
                     this.props.fnSetMirroredMode(!1))
                   : this.props.selectedActionSet &&
                     ((this.state = {
                       bMirrorBinding: !0,
-                      ptLeftController: new W(0, 0, 0, 0),
-                      ptRightController: new W(0, 0, 0, 0),
+                      ptLeftController: new U(0, 0, 0, 0),
+                      ptRightController: new U(0, 0, 0, 0),
                     }),
                     this.props.fnSetMirroredMode(!0));
           }
           componentWillReceiveProps(e) {
             let t = !1,
-              n = e.selectedActionSet;
+              o = e.selectedActionSet;
             if (
-              n &&
+              o &&
               (!this.props.selectedActionSet ||
-                n.name != this.props.selectedActionSet.name)
+                o.name != this.props.selectedActionSet.name)
             ) {
-              if ("single" == n.usage) {
+              if ("single" == o.usage) {
                 (t = !0),
                   Object.keys(
                     p.B$.SelectedControllerTypeInfo.input_source,
                   ).forEach((e) => {
-                    let o =
+                    let n =
                         p.B$.GetControllerWatcherForSourceFromControllerType(
                           p.B$.SelectedControllerTypeInfo,
                           1,
                           e,
-                          n.name,
+                          o.name,
                         ),
                       i = p.B$.GetControllerWatcherForSourceFromControllerType(
                         p.B$.SelectedControllerTypeInfo,
                         2,
                         e,
-                        n.name,
+                        o.name,
                       );
-                    t = t && i.BindingsMatch(o);
+                    t = t && i.BindingsMatch(n);
                   });
               }
               this.setState({ bMirrorBinding: t }),
@@ -9049,17 +9234,17 @@ var CLSTAMP = "9981652";
           }
           UpdatePositionHelper(e) {
             let t = 1,
-              n = 0,
               o = 0,
+              n = 0,
               i = 0;
             if (e) {
               let l = e.getBoundingClientRect();
               if (((i = l.width), e.naturalWidth > 0))
                 return (
                   (t = l.height / e.naturalHeight),
-                  (o = l.left),
-                  (n = l.top),
-                  new W(o, n, i, t)
+                  (n = l.left),
+                  (o = l.top),
+                  new U(n, o, i, t)
                 );
             }
           }
@@ -9089,34 +9274,34 @@ var CLSTAMP = "9981652";
             let e = p.B$.SelectedControllerTypeInfo;
             if (!e) return null;
             let t = "",
-              n = "";
+              o = "";
             this.props.bSingleMode ||
               ((t = e.input_bindingui_left.transform
                 ? e.input_bindingui_left.transform
                 : ""),
-              (n = e.input_bindingui_left.uri
+              (o = e.input_bindingui_left.uri
                 ? e.input_bindingui_left.uri
                 : ""));
-            let o = e.input_bindingui_right.transform
+            let n = e.input_bindingui_right.transform
                 ? e.input_bindingui_right.transform
                 : "",
               l = e.input_bindingui_right.uri
                 ? e.input_bindingui_right.uri
                 : "",
-              s = "",
-              r = this.props.selectedActionSet,
+              r = "",
+              s = this.props.selectedActionSet,
               a = !1,
               d = 0;
             if (!this.props.bSingleMode) {
-              if (null == r)
+              if (null == s)
                 return (
                   console.warn(
                     "ControllerBindingHandedControllers::render - Got undefined actionSet.",
                   ),
                   null
                 );
-              "single" == r.usage &&
-                ((s = this.state.bMirrorBinding ? "Mirrored" : ""),
+              "single" == s.usage &&
+                ((r = this.state.bMirrorBinding ? "Mirrored" : ""),
                 (a = !this.props.bReadOnly),
                 this.state.bMirrorBinding && (d = 2));
             }
@@ -9150,7 +9335,7 @@ var CLSTAMP = "9981652";
                       { className: "FlexColumn ControllerImageColumn" },
                       i.createElement("img", {
                         className: "ControllerImage ControllerImageLeft",
-                        src: n,
+                        src: o,
                         style: { transform: t },
                         ref: this.BindLeftControllerImage,
                         onLoad: this.OnUpdateControllerPicturePosition,
@@ -9161,11 +9346,11 @@ var CLSTAMP = "9981652";
                     ),
                   i.createElement(
                     "div",
-                    { className: s + " ControllerImageColumn FlexColumn" },
+                    { className: r + " ControllerImageColumn FlexColumn" },
                     i.createElement("img", {
                       className: "ControllerImage ControllerImageRight",
                       src: l,
-                      style: { transform: o },
+                      style: { transform: n },
                       ref: this.BindRightControllerImage,
                       onLoad: this.OnUpdateControllerPicturePosition,
                     }),
@@ -9353,7 +9538,7 @@ var CLSTAMP = "9981652";
                   ),
                   i.createElement(
                     "div",
-                    { className: "BindingButtonRow FlexColumn " + s },
+                    { className: "BindingButtonRow FlexColumn " + r },
                     i.createElement(
                       "div",
                       { className: "Label Title ControllerTitle" },
@@ -9372,46 +9557,46 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], z.prototype, "ToggleMirrorMode", null),
-          (0, o.Cg)([h.o], z.prototype, "UpdatePositionHelper", null),
-          (0, o.Cg)(
+        (0, n.Cg)([h.o], z.prototype, "ToggleMirrorMode", null),
+          (0, n.Cg)([h.o], z.prototype, "UpdatePositionHelper", null),
+          (0, n.Cg)(
             [h.o],
             z.prototype,
             "OnUpdateControllerPicturePosition",
             null,
           ),
-          (0, o.Cg)([h.o], z.prototype, "BindLeftControllerImage", null),
-          (0, o.Cg)([h.o], z.prototype, "BindRightControllerImage", null),
-          (z = (0, o.Cg)([s.PA], z));
+          (0, n.Cg)([h.o], z.prototype, "BindLeftControllerImage", null),
+          (0, n.Cg)([h.o], z.prototype, "BindRightControllerImage", null),
+          (z = (0, n.Cg)([r.PA], z));
         let q = class extends i.Component {
           constructor(e) {
             var t;
             super(e),
               (this.onAxisChanged = (e) => (t) => {
-                let n = t.currentTarget.valueAsNumber;
-                Number.isNaN(n) && (n = 0);
-                const o = Math.min(Math.max(n, this.props.min), this.props.max);
+                let o = t.currentTarget.valueAsNumber;
+                Number.isNaN(o) && (o = 0);
+                const n = Math.min(Math.max(o, this.props.min), this.props.max);
                 this.setState(
                   (t) => {
-                    const n = [...t.vec];
-                    return (n[e] = o), { vec: n };
+                    const o = [...t.vec];
+                    return (o[e] = n), { vec: o };
                   },
                   () => this.props.onChange(this.state.vec, this.props.name),
                 );
               }),
               (this.modifyAxis = (e, t) => {
                 this.setState(
-                  (n) => {
-                    const o = [...n.vec],
+                  (o) => {
+                    const n = [...o.vec],
                       i = this.props.step,
                       l = "up" === t ? i : -i,
-                      s = o[e] + l;
+                      r = n[e] + l;
                     return (
-                      (o[e] = Math.min(
-                        Math.max(s, this.props.min),
+                      (n[e] = Math.min(
+                        Math.max(r, this.props.min),
                         this.props.max,
                       )),
-                      { vec: o }
+                      { vec: n }
                     );
                   },
                   () => this.props.onChange(this.state.vec, this.props.name),
@@ -9422,17 +9607,17 @@ var CLSTAMP = "9981652";
                   this.props.onChange(this.state.vec, this.props.name),
                 );
               });
-            let n = ["X", "Y", "Z"];
+            let o = ["X", "Y", "Z"];
             if (Array.isArray(e.axisNames))
-              for (const [t, o] of e.axisNames.entries())
-                o &&
-                  (o && o.startsWith("#") ? (n[t] = (0, c.we)(o)) : (n[t] = o));
+              for (const [t, n] of e.axisNames.entries())
+                n &&
+                  (n && n.startsWith("#") ? (o[t] = (0, c.we)(n)) : (o[t] = n));
             this.state = {
               vec:
                 null !== (t = this.props.vector) && void 0 !== t
                   ? t
                   : [0, 0, 0],
-              axisNames: n,
+              axisNames: o,
             };
           }
           componentDidUpdate(e) {
@@ -9444,12 +9629,12 @@ var CLSTAMP = "9981652";
             const {
                 labelName: e,
                 elementId: t,
-                renderValue: n,
-                min: o,
+                renderValue: o,
+                min: n,
                 max: l,
-                step: s,
+                step: r,
               } = this.props,
-              [r, a, d] = this.state.vec;
+              [s, a, d] = this.state.vec;
             return i.createElement(
               "div",
               { className: "FlexRow InputSettingsRow" },
@@ -9471,8 +9656,8 @@ var CLSTAMP = "9981652";
               i.createElement(
                 "div",
                 { className: "FlexColumn InputSettingsVector3Container" },
-                [r, a, d].map((e, r) => {
-                  const a = r;
+                [s, a, d].map((e, s) => {
+                  const a = s;
                   return i.createElement(
                     "div",
                     { className: "FlexRow InputSettingsVector3Row", key: a },
@@ -9488,11 +9673,11 @@ var CLSTAMP = "9981652";
                         id: `${t}_text_${a}`,
                         className: "InputSettingsVector3",
                         type: "number",
-                        value: n(e),
+                        value: o(e),
                         onChange: this.onAxisChanged(a),
-                        min: o,
+                        min: n,
                         max: l,
-                        step: s,
+                        step: r,
                       }),
                       i.createElement(
                         "div",
@@ -9530,26 +9715,26 @@ var CLSTAMP = "9981652";
           }
         };
         var j;
-        (q = (0, o.Cg)([s.PA], q)),
+        (q = (0, n.Cg)([r.PA], q)),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.Pose = 1)] = "Pose"),
               (e[(e.Haptics = 2)] = "Haptics"),
               (e[(e.Skeleton = 3)] = "Skeleton");
           })(j || (j = {}));
-        let X = class extends i.Component {
+        let Q = class extends i.Component {
           constructor(e) {
             super(e);
             const {
               vecExistingPositionOffset: t,
-              vecExistingRotationOffset: n,
+              vecExistingRotationOffset: o,
             } = this.setupCurrentAction();
             (this.state = {
               SVGElement: void 0,
               WrapperHTMLElement: void 0,
               bSettingsVisible: !1,
               vecPositionOffset: t,
-              vecRotationOffset: n,
+              vecRotationOffset: o,
             }),
               (this.currentAction = void 0);
           }
@@ -9566,8 +9751,8 @@ var CLSTAMP = "9981652";
             if (this.state.SVGElement) {
               let e = this.state.SVGElement.children.namedItem("SourcePath"),
                 t = this.state.SVGElement.children.namedItem("SourceLine"),
-                n = this.state.SVGElement.children.namedItem("SourceCircle"),
-                o = Object.assign({}, this.props.endPoint),
+                o = this.state.SVGElement.children.namedItem("SourceCircle"),
+                n = Object.assign({}, this.props.endPoint),
                 i = Object.assign({}, this.props.startPoint);
               if (this.state.WrapperHTMLElement) {
                 let e = this.state.WrapperHTMLElement.getBoundingClientRect(),
@@ -9576,12 +9761,12 @@ var CLSTAMP = "9981652";
                 i.y += e.top - t.top + e.height / 2;
               }
               let l = 20,
-                s = i.x + l + "," + i.y + " " + o.x + "," + o.y;
-              e.setAttribute("points", s);
-              let r = i.x + "," + i.y + " " + (i.x + l) + "," + i.y;
-              t.setAttribute("points", r),
-                n.setAttribute("cx", o.x + ""),
-                n.setAttribute("cy", o.y + "");
+                r = i.x + l + "," + i.y + " " + n.x + "," + n.y;
+              e.setAttribute("points", r);
+              let s = i.x + "," + i.y + " " + (i.x + l) + "," + i.y;
+              t.setAttribute("points", s),
+                o.setAttribute("cx", n.x + ""),
+                o.setAttribute("cy", n.y + "");
             }
           }
           OnActionChanged(e) {
@@ -9635,31 +9820,31 @@ var CLSTAMP = "9981652";
             this.setState({ vecPositionOffset: e }),
               "pose" == this.props.type
                 ? this.FullInputPaths().forEach((t) => {
-                    const n = p.B$.GetPoseForInputPath(t);
-                    p.B$.SetParameterForPose(n, "offset_position", e);
+                    const o = p.B$.GetPoseForInputPath(t);
+                    p.B$.SetParameterForPose(o, "offset_position", e);
                   })
                 : "skeleton" == this.props.type &&
                   this.FullInputPaths().forEach((t) => {
-                    const n = p.B$.GetSkeletonForInputPath(t);
-                    p.B$.SetParameterForSkeleton(n, "offset_position", e);
+                    const o = p.B$.GetSkeletonForInputPath(t);
+                    p.B$.SetParameterForSkeleton(o, "offset_position", e);
                   });
           }
           OnRotationOffsetChanged(e) {
             this.setState({ vecRotationOffset: e }),
               "pose" == this.props.type
                 ? this.FullInputPaths().forEach((t) => {
-                    const n = p.B$.GetPoseForInputPath(t);
-                    p.B$.SetParameterForPose(n, "offset_rotation", e);
+                    const o = p.B$.GetPoseForInputPath(t);
+                    p.B$.SetParameterForPose(o, "offset_rotation", e);
                   })
                 : "skeleton" == this.props.type &&
                   this.FullInputPaths().forEach((t) => {
-                    const n = p.B$.GetSkeletonForInputPath(t);
-                    p.B$.SetParameterForSkeleton(n, "offset_rotation", e);
+                    const o = p.B$.GetSkeletonForInputPath(t);
+                    p.B$.SetParameterForSkeleton(o, "offset_rotation", e);
                   });
           }
           renderSettingsModal() {
             return i.createElement(
-              r.A,
+              s.A,
               {
                 visible: this.state.bSettingsVisible,
                 customStyles: {
@@ -9748,23 +9933,23 @@ var CLSTAMP = "9981652";
           setupCurrentAction() {
             let e,
               t,
-              n,
               o,
+              n,
               i = "",
               l = (0, c.we)("#SourceInputMode_none"),
-              s = this.FullInputPaths()[0],
-              r = p.B$.LocalizePathNameForSelectedControllerType(s);
+              r = this.FullInputPaths()[0],
+              s = p.B$.LocalizePathNameForSelectedControllerType(r);
             switch (this.props.type) {
               case "pose":
-                (e = p.B$.GetPoseActionByPath(s)),
+                (e = p.B$.GetPoseActionByPath(r)),
                   (t = "#SourceInputSubHeader_PoseActions");
                 break;
               case "skeleton":
-                (e = p.B$.GetSkeletonActionByPath(s)),
+                (e = p.B$.GetSkeletonActionByPath(r)),
                   (t = "#SourceInputSubHeader_SkeletonActions");
                 break;
               case "vibration":
-                (e = p.B$.GetHapticsActionByPath(s)),
+                (e = p.B$.GetHapticsActionByPath(r)),
                   (t = "#SourceInputSubHeader_HapticsActions");
                 break;
               default:
@@ -9783,51 +9968,51 @@ var CLSTAMP = "9981652";
                     e.skeleton.toLowerCase() ==
                       this.props.InputSource.skeleton.toLowerCase())
                 ) && e.type == this.props.type,
-            ).map((t, s) => {
-              let r;
+            ).map((t, r) => {
+              let s;
               return (
                 e &&
                   e[0].output.toLowerCase() == t.name.toLowerCase() &&
                   ((this.currentAction = t),
                   (i = t.name),
                   (l = t.localized_name),
-                  (n = p.B$.GetParameterForPose(e[0], "offset_position")),
-                  (o = p.B$.GetParameterForPose(e[0], "offset_rotation"))),
+                  (o = p.B$.GetParameterForPose(e[0], "offset_position")),
+                  (n = p.B$.GetParameterForPose(e[0], "offset_rotation"))),
                 "mandatory" == t.requirement &&
-                  (r =
+                  (s =
                     " (" + (0, c.we)("#BindingUI_SelectAction_Required") + ")"),
-                new C(t.name, t.localized_name, r)
+                new C(t.name, t.localized_name, s)
               );
             });
             return {
               poses: e,
               poseOptions: a,
-              sourceNameString: r,
+              sourceNameString: s,
               sCurrentPose: i,
               sCurrentPoseLocalized: l,
               sHeaderName: t,
-              sFullPath: s,
-              vecExistingPositionOffset: n,
-              vecExistingRotationOffset: o,
+              sFullPath: r,
+              vecExistingPositionOffset: o,
+              vecExistingRotationOffset: n,
             };
           }
           render() {
             const {
               poses: e,
               poseOptions: t,
-              sourceNameString: n,
-              sCurrentPose: o,
+              sourceNameString: o,
+              sCurrentPose: n,
               sCurrentPoseLocalized: l,
-              sHeaderName: s,
+              sHeaderName: r,
             } = this.setupCurrentAction();
             (null != t && 0 != t.length) ||
               t.push(
                 new C("-nonitem", (0, c.we)("#SourceInputAction_NoItems")),
               ),
-              t.unshift(new C("-subHeader", (0, c.we)(s))),
+              t.unshift(new C("-subHeader", (0, c.we)(r))),
               t.push(new C("-blank", "")),
               t.push(new C("none", (0, c.we)("#SourceInputMode_none")));
-            const r =
+            const s =
               (null == e ? void 0 : e.length) > 0 && "pose" == this.props.type;
             return i.createElement(
               "div",
@@ -9841,20 +10026,20 @@ var CLSTAMP = "9981652";
                 i.createElement(
                   "div",
                   { className: "Label PoseActionLabel" },
-                  n,
+                  o,
                 ),
                 i.createElement(
                   "div",
                   { className: "FlexRow" },
                   i.createElement(y, {
                     vecOptions: t,
-                    sValueSelectedItem: o,
+                    sValueSelectedItem: n,
                     sHeaderClass: "PoseActionLabelDropdown",
                     bReadOnly: !1,
                     sLocalizedSelectedItem: l,
                     fnOptionSelected: this.OnActionChanged,
                   }),
-                  r &&
+                  s &&
                     i.createElement("img", {
                       className:
                         "ActionButtonImage FlexRightAlignChild PoseActionSettingsButton",
@@ -9864,7 +10049,7 @@ var CLSTAMP = "9981652";
                   i.createElement(m.A, { onReflow: this.UpdateSVGPath }),
                 ),
               ),
-              r && this.renderSettingsModal(),
+              s && this.renderSettingsModal(),
               null != this.CurrentAction() &&
                 this.props.endPoint.x > 0 &&
                 this.props.endPoint.y > 0 &&
@@ -9915,18 +10100,18 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], X.prototype, "BindSVGRef", null),
-          (0, o.Cg)([h.o], X.prototype, "BindWrapperElement", null),
-          (0, o.Cg)([h.o], X.prototype, "UpdateSVGPath", null),
-          (0, o.Cg)([h.o], X.prototype, "OnActionChanged", null),
-          (0, o.Cg)([h.o], X.prototype, "OnShowSettings", null),
-          (0, o.Cg)([h.o], X.prototype, "CloseSettings", null),
-          (0, o.Cg)([h.o], X.prototype, "OnPoseActionChanged", null),
-          (0, o.Cg)([h.o], X.prototype, "OnHapticsActionChanged", null),
-          (0, o.Cg)([h.o], X.prototype, "OnSkeletonActionChanged", null),
-          (0, o.Cg)([h.o], X.prototype, "OnPositionOffsetChanged", null),
-          (0, o.Cg)([h.o], X.prototype, "OnRotationOffsetChanged", null),
-          (X = (0, o.Cg)([s.PA], X));
+        (0, n.Cg)([h.o], Q.prototype, "BindSVGRef", null),
+          (0, n.Cg)([h.o], Q.prototype, "BindWrapperElement", null),
+          (0, n.Cg)([h.o], Q.prototype, "UpdateSVGPath", null),
+          (0, n.Cg)([h.o], Q.prototype, "OnActionChanged", null),
+          (0, n.Cg)([h.o], Q.prototype, "OnShowSettings", null),
+          (0, n.Cg)([h.o], Q.prototype, "CloseSettings", null),
+          (0, n.Cg)([h.o], Q.prototype, "OnPoseActionChanged", null),
+          (0, n.Cg)([h.o], Q.prototype, "OnHapticsActionChanged", null),
+          (0, n.Cg)([h.o], Q.prototype, "OnSkeletonActionChanged", null),
+          (0, n.Cg)([h.o], Q.prototype, "OnPositionOffsetChanged", null),
+          (0, n.Cg)([h.o], Q.prototype, "OnRotationOffsetChanged", null),
+          (Q = (0, n.Cg)([r.PA], Q));
         let K = class extends i.Component {
           render() {
             let e;
@@ -9942,8 +10127,8 @@ var CLSTAMP = "9981652";
             }
             let t = p.B$.SelectedActionSetActions.filter((t) => t.type == e);
             if (0 == t.length) return null;
-            let n = p.B$.SelectedControllerTypeInfo,
-              o = p.B$.SelectedControllerTypeInfo.input_source,
+            let o = p.B$.SelectedControllerTypeInfo,
+              n = p.B$.SelectedControllerTypeInfo.input_source,
               l = [];
             if (
               "controller_handed" ==
@@ -9951,7 +10136,7 @@ var CLSTAMP = "9981652";
             )
               l = ["/user/hand/left", "/user/hand/right"];
             else {
-              let e = p.B$.DeviceForControllerType(n.controller_type);
+              let e = p.B$.DeviceForControllerType(o.controller_type);
               e &&
                 (e.root_path && l.push(e.root_path),
                 e.root_path_alt && l.push(e.root_path_alt));
@@ -9959,22 +10144,22 @@ var CLSTAMP = "9981652";
             if (0 == l.length)
               return console.log("Missing base root path for controller"), null;
             p.B$.GetPoseActionBindings;
-            let s,
-              r = [],
+            let r,
+              s = [],
               a = 0;
-            for (let n in o) {
-              let s = o[n];
+            for (let o in n) {
+              let r = n[o];
               for (let d of l) {
-                if (s.type != e) continue;
+                if (r.type != e) continue;
                 let c = "none";
                 if (
                   ("/user/hand/right" == d
                     ? (c = "right")
                     : "/user/hand/left" == d && (c = "left"),
-                  s.side && s.side != c)
+                  r.side && r.side != c)
                 )
                   continue;
-                let h = d + n,
+                let h = d + o,
                   u = "left" == c,
                   m = u
                     ? this.props.ptLeftController.x
@@ -9984,9 +10169,9 @@ var CLSTAMP = "9981652";
                     : this.props.ptRightController.y,
                   S = new p.bR(0, 0);
                 if (
-                  (o.hasOwnProperty(n) &&
-                    ((S.x = s.binding_image_point[0]),
-                    (S.y = s.binding_image_point[1]),
+                  (n.hasOwnProperty(o) &&
+                    ((S.x = r.binding_image_point[0]),
+                    (S.y = r.binding_image_point[1]),
                     (S.x *= this.props.nPointScale),
                     (S.y *= this.props.nPointScale)),
                   u ? (S.x = m - S.x) : (S.x += m),
@@ -9997,11 +10182,11 @@ var CLSTAMP = "9981652";
                 let _ = new p.bR(this.props.ptPoseListOffset.x + 5, 0),
                   C = (a++, t.length, [d]);
                 this.props.bSlaveSecondaryControllerBinding && (C = l),
-                  r.push(
-                    i.createElement(X, {
+                  s.push(
+                    i.createElement(Q, {
                       key: h,
-                      InputSource: s,
-                      sInputPath: n,
+                      InputSource: r,
+                      sInputPath: o,
                       type: e,
                       vecDevicePathsToSet: C,
                       startPoint: _,
@@ -10012,24 +10197,24 @@ var CLSTAMP = "9981652";
             }
             switch (this.props.eActionType) {
               case j.Pose:
-                s = (0, c.we)("#BindingUI_PoseListTitle");
+                r = (0, c.we)("#BindingUI_PoseListTitle");
                 break;
               case j.Haptics:
-                s = (0, c.we)("#BindingUI_HapticsListTitle");
+                r = (0, c.we)("#BindingUI_HapticsListTitle");
                 break;
               case j.Skeleton:
-                s = (0, c.we)("#BindingUI_SkeletonListTitle");
+                r = (0, c.we)("#BindingUI_SkeletonListTitle");
             }
             return i.createElement(
               "div",
               { className: "FlexColumn" },
-              i.createElement("div", { className: "Label Title AllCaps" }, s),
-              r,
+              i.createElement("div", { className: "Label Title AllCaps" }, r),
+              s,
             );
           }
         };
-        K = (0, o.Cg)([s.PA], K);
-        let Q = class extends i.Component {
+        K = (0, n.Cg)([r.PA], K);
+        let X = class extends i.Component {
           render() {
             let e = p.B$.SelectedControllerTypeInfo.input_source,
               t = new p.bR(
@@ -10042,12 +10227,12 @@ var CLSTAMP = "9981652";
                 ? (t.x = this.props.ptController.x - t.x)
                 : (t.x += this.props.ptController.x),
               (t.y += this.props.ptController.y);
-            let n = "";
+            let o = "";
             this.props.vecPosePath.forEach((e, t) => {
-              0 != t && (n += ","),
-                (n += p.B$.LocalizeStringForSelectedControllerType(e));
+              0 != t && (o += ","),
+                (o += p.B$.LocalizeStringForSelectedControllerType(e));
             });
-            let o = this.props.bLeftHandController ? "start" : "end",
+            let n = this.props.bLeftHandController ? "start" : "end",
               l = this.props.bLeftHandController ? 6 : -6;
             return i.createElement(
               "svg",
@@ -10103,24 +10288,24 @@ var CLSTAMP = "9981652";
               i.createElement(
                 "text",
                 {
-                  textAnchor: o,
+                  textAnchor: n,
                   filter: "url(#shadow)",
                   x: t.x + l,
                   y: t.y,
                   style: { fill: "black", fontSize: 24 },
                 },
-                n,
+                o,
               ),
               i.createElement(
                 "text",
                 {
-                  textAnchor: o,
+                  textAnchor: n,
                   filter: "url(#background)",
                   x: t.x + l,
                   y: t.y,
                   style: { fill: "var(--descriptiontext)", fontSize: 24 },
                 },
-                n,
+                o,
               ),
               i.createElement("circle", {
                 id: "SourceCircle",
@@ -10132,7 +10317,7 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        Q = (0, o.Cg)([s.PA], Q);
+        X = (0, n.Cg)([r.PA], X);
         let J = class extends i.Component {
           constructor(e) {
             super(e),
@@ -10154,17 +10339,17 @@ var CLSTAMP = "9981652";
             ) {
               let e = 0,
                 t = 0,
-                n = this.m_LeftControllerImage;
-              if (n) {
-                let o = n.getBoundingClientRect();
-                n.naturalWidth > 0 &&
+                o = this.m_LeftControllerImage;
+              if (o) {
+                let n = o.getBoundingClientRect();
+                o.naturalWidth > 0 &&
                   ((t =
-                    o.right -
-                    n.parentElement.parentElement.parentElement.getBoundingClientRect()
+                    n.right -
+                    o.parentElement.parentElement.parentElement.getBoundingClientRect()
                       .left),
                   (e =
-                    o.top -
-                    n.parentElement.parentElement.parentElement.getBoundingClientRect()
+                    n.top -
+                    o.parentElement.parentElement.parentElement.getBoundingClientRect()
                       .top));
               }
               this.setState({ ptLeftController: new p.bR(t, e) });
@@ -10172,24 +10357,24 @@ var CLSTAMP = "9981652";
             if (this.m_RightControllerImage) {
               let e = 1,
                 t = 0,
-                n = 0,
-                o = this.m_RightControllerImage;
-              if (o) {
-                let i = o.getBoundingClientRect();
-                o.naturalWidth > 0 &&
-                  ((e = i.height / o.naturalHeight),
-                  (n =
+                o = 0,
+                n = this.m_RightControllerImage;
+              if (n) {
+                let i = n.getBoundingClientRect();
+                n.naturalWidth > 0 &&
+                  ((e = i.height / n.naturalHeight),
+                  (o =
                     i.left -
-                    o.parentElement.parentElement.parentElement.getBoundingClientRect()
+                    n.parentElement.parentElement.parentElement.getBoundingClientRect()
                       .left),
-                  (n += (i.width - o.naturalWidth * e) / 2),
+                  (o += (i.width - n.naturalWidth * e) / 2),
                   (t =
                     i.top -
-                    o.parentElement.parentElement.parentElement.getBoundingClientRect()
+                    n.parentElement.parentElement.parentElement.getBoundingClientRect()
                       .top));
               }
               this.setState({
-                ptRightController: new p.bR(n, t),
+                ptRightController: new p.bR(o, t),
                 nPointScale: e,
               });
             }
@@ -10214,11 +10399,11 @@ var CLSTAMP = "9981652";
           render() {
             let e,
               t,
-              n = "",
               o = "",
+              n = "",
               l = "",
-              s = "",
-              r = p.B$.SelectedControllerTypeInfo;
+              r = "",
+              s = p.B$.SelectedControllerTypeInfo;
             switch (this.props.eActionSourceType) {
               case j.Pose:
                 (e = "pose"), (t = (0, c.we)("#BindingUI_PoseTitle"));
@@ -10229,28 +10414,28 @@ var CLSTAMP = "9981652";
               case j.Skeleton:
                 (e = "skeleton"), (t = (0, c.we)("#BindingUI_SkeletonTitle"));
             }
-            (s = r.input_bindingui_right.uri),
-              (o = r.input_bindingui_right.transform),
+            (r = s.input_bindingui_right.uri),
+              (n = s.input_bindingui_right.transform),
               this.props.bSlaveSecondaryControllerBinding ||
-                ((n = r.input_bindingui_left.transform),
-                (l = r.input_bindingui_left.uri));
-            let a = function (t, n, o, i, l) {
-                let s = t.input_source[i];
-                if (s.type == e && (null == s.side || s.side == o)) {
+                ((o = s.input_bindingui_left.transform),
+                (l = s.input_bindingui_left.uri));
+            let a = function (t, o, n, i, l) {
+                let r = t.input_source[i];
+                if (r.type == e && (null == r.side || r.side == n)) {
                   let e = new p.bR(
-                    s.binding_image_point[0],
-                    s.binding_image_point[1],
+                    r.binding_image_point[0],
+                    r.binding_image_point[1],
                   );
-                  n.hasOwnProperty(e.toString()) || (n[e.toString()] = []),
-                    n[e.toString()].push(i);
+                  o.hasOwnProperty(e.toString()) || (o[e.toString()] = []),
+                    o[e.toString()].push(i);
                 }
               },
               d = {},
               h = {};
-            Object.keys(r.input_source).forEach(a.bind(null, r, d, "left")),
-              Object.keys(r.input_source).forEach(a.bind(null, r, h, "right"));
+            Object.keys(s.input_source).forEach(a.bind(null, s, d, "left")),
+              Object.keys(s.input_source).forEach(a.bind(null, s, h, "right"));
             let u = Object.keys(d).map((e, t) =>
-                i.createElement(Q, {
+                i.createElement(X, {
                   key: t,
                   vecPosePath: d[e],
                   ptController: this.state.ptLeftController,
@@ -10260,7 +10445,7 @@ var CLSTAMP = "9981652";
                 }),
               ),
               g = Object.keys(h).map((e, t) =>
-                i.createElement(Q, {
+                i.createElement(X, {
                   key: t,
                   vecPosePath: h[e],
                   ptController: this.state.ptRightController,
@@ -10329,7 +10514,7 @@ var CLSTAMP = "9981652";
                       i.createElement("img", {
                         className: "ControllerImage",
                         src: l,
-                        style: { transform: n },
+                        style: { transform: o },
                         ref: this.BindLeftControllerImage,
                       }),
                     ),
@@ -10338,8 +10523,8 @@ var CLSTAMP = "9981652";
                     { className: "ControllerImageContainer" },
                     i.createElement("img", {
                       className: "ControllerImage",
-                      src: s,
-                      style: { transform: o },
+                      src: r,
+                      style: { transform: n },
                       ref: this.BindRightControllerImage,
                     }),
                   ),
@@ -10359,16 +10544,16 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)(
+        (0, n.Cg)(
           [h.o],
           J.prototype,
           "OnUpdateControllerPicturePosition",
           null,
         ),
-          (0, o.Cg)([h.o], J.prototype, "BindLeftControllerImage", null),
-          (0, o.Cg)([h.o], J.prototype, "BindRightControllerImage", null),
-          (0, o.Cg)([h.o], J.prototype, "BindPropsListDiv", null),
-          (J = (0, o.Cg)([s.PA], J));
+          (0, n.Cg)([h.o], J.prototype, "BindLeftControllerImage", null),
+          (0, n.Cg)([h.o], J.prototype, "BindRightControllerImage", null),
+          (0, n.Cg)([h.o], J.prototype, "BindPropsListDiv", null),
+          (J = (0, n.Cg)([r.PA], J));
         let Y = class extends i.Component {
           OnActionOutputChanged(e) {
             p.B$.SetActionForChord(this.props.chord, e);
@@ -10393,15 +10578,15 @@ var CLSTAMP = "9981652";
                 (e) => "boolean" == e.type,
               ),
               t = "",
-              n = "none",
-              o = !1;
+              o = "none",
+              n = !1;
             this.props.chord.output
               ? ((t = this.props.chord.output),
-                (n = this.props.chord.output.toLowerCase()))
-              : (o = !0);
+                (o = this.props.chord.output.toLowerCase()))
+              : (n = !0);
             let l,
-              s = e.map(
-                (e, n) => (
+              r = e.map(
+                (e, o) => (
                   this.props.chord.output &&
                     e.name.toLowerCase() ==
                       this.props.chord.output.toLowerCase() &&
@@ -10409,11 +10594,11 @@ var CLSTAMP = "9981652";
                   new C(e.name.toLowerCase(), e.localized_name)
                 ),
               ),
-              r = p.B$.SelectedActionSetSources;
-            return r && 0 != r.length
+              s = p.B$.SelectedActionSetSources;
+            return s && 0 != s.length
               ? (this.props.chord.inputs
                   ? (l = this.props.chord.inputs.map((e, t) => {
-                      let n = i.createElement(
+                      let o = i.createElement(
                         "div",
                         { className: "Label ChordBindingPlusLabel" },
                         i.createElement("img", {
@@ -10430,13 +10615,13 @@ var CLSTAMP = "9981652";
                           i.createElement(
                             "div",
                             { className: "FlexColumn" },
-                            (function (e, t, n, o) {
+                            (function (e, t, o, n) {
                               let l = t
                                 .filter((t) => {
-                                  let o = n.inputs.filter(
+                                  let n = o.inputs.filter(
                                     (e) => e[0] == t.path,
                                   );
-                                  return t.path == e || 0 == o.length;
+                                  return t.path == e || 0 == n.length;
                                 })
                                 .map(
                                   (e, t) =>
@@ -10458,36 +10643,36 @@ var CLSTAMP = "9981652";
                                       e,
                                     ),
                                   fnOptionSelected: function (t) {
-                                    p.B$.SetInputSourceForChord(n, t, e);
+                                    p.B$.SetInputSourceForChord(o, t, e);
                                   },
-                                  bReadOnly: o,
+                                  bReadOnly: n,
                                 }),
                               );
-                            })(e[0], r, this.props.chord, this.props.bReadOnly),
-                            (function (e, t, n, o) {
+                            })(e[0], s, this.props.chord, this.props.bReadOnly),
+                            (function (e, t, o, n) {
                               let l = p.B$.GetActionBinding(
                                 e,
                                 p.B$.SelectedActionSet,
                               );
                               if (!l || 0 == l.length) return null;
-                              let s = [],
-                                r = "";
+                              let r = [],
+                                s = "";
                               if (
                                 (l.forEach((e) => {
-                                  let n = p.B$.GetBooleanInputOptionsForMode(
+                                  let o = p.B$.GetBooleanInputOptionsForMode(
                                     e.mode,
                                   );
-                                  for (let o of n)
-                                    s.push({
+                                  for (let n of o)
+                                    r.push({
                                       sActionBindMode: e.mode,
-                                      sInputOption: o,
+                                      sInputOption: n,
                                     }),
-                                      o == t && (r = e.mode);
+                                      n == t && (s = e.mode);
                                 }),
-                                0 == s.length)
+                                0 == r.length)
                               )
                                 return null;
-                              let a = s.map(
+                              let a = r.map(
                                 (e, t) =>
                                   new C(
                                     e.sInputOption,
@@ -10507,13 +10692,13 @@ var CLSTAMP = "9981652";
                                   vecOptions: a,
                                   sValueSelectedItem: t,
                                   sLocalizedSelectedItem:
-                                    (0, c.we)("#SourceInputMode_" + r) +
+                                    (0, c.we)("#SourceInputMode_" + s) +
                                     " " +
                                     (0, c.we)("#SourceInputMode_" + t),
                                   fnOptionSelected: function (t) {
-                                    p.B$.SetInputTypeForChord(n, e, t);
+                                    p.B$.SetInputTypeForChord(o, e, t);
                                   },
-                                  bReadOnly: o,
+                                  bReadOnly: n,
                                 }),
                               );
                             })(
@@ -10533,10 +10718,10 @@ var CLSTAMP = "9981652";
                               src: "images/bindingui/icon_trash.svg",
                             }),
                         ),
-                        t != this.props.chord.inputs.length - 1 && n,
+                        t != this.props.chord.inputs.length - 1 && o,
                       );
                     }))
-                  : o || this.AddSourceToChord(),
+                  : n || this.AddSourceToChord(),
                 i.createElement(
                   "div",
                   { className: "FlexColumn" },
@@ -10548,12 +10733,12 @@ var CLSTAMP = "9981652";
                       { className: "FlexColumn ChordBindingSet" },
                       i.createElement(y, {
                         sHeaderClass: "ChordBindingAction",
-                        vecOptions: s,
-                        sValueSelectedItem: n,
+                        vecOptions: r,
+                        sValueSelectedItem: o,
                         sModalTitleString: (0, c.we)(
                           "#BindingUI_Chord_SelectActionModalHeader",
                         ),
-                        bShowOptionsOnStart: o,
+                        bShowOptionsOnStart: n,
                         sLocalizedSelectedItem: t,
                         fnOptionSelected: this.OnActionOutputChanged,
                         bReadOnly: this.props.bReadOnly,
@@ -10613,11 +10798,11 @@ var CLSTAMP = "9981652";
               : null;
           }
         };
-        (0, o.Cg)([h.o], Y.prototype, "OnActionOutputChanged", null),
-          (0, o.Cg)([h.o], Y.prototype, "DeleteChord", null),
-          (0, o.Cg)([h.o], Y.prototype, "DeleteSourceFromChord", null),
-          (0, o.Cg)([h.o], Y.prototype, "AddSourceToChord", null),
-          (Y = (0, o.Cg)([s.PA], Y));
+        (0, n.Cg)([h.o], Y.prototype, "OnActionOutputChanged", null),
+          (0, n.Cg)([h.o], Y.prototype, "DeleteChord", null),
+          (0, n.Cg)([h.o], Y.prototype, "DeleteSourceFromChord", null),
+          (0, n.Cg)([h.o], Y.prototype, "AddSourceToChord", null),
+          (Y = (0, n.Cg)([r.PA], Y));
         let Z = class extends i.Component {
           constructor(e) {
             super(e);
@@ -10631,15 +10816,15 @@ var CLSTAMP = "9981652";
             return (
               t &&
                 t.length &&
-                (e = t.map((e, n) =>
+                (e = t.map((e, o) =>
                   i.createElement(
                     "div",
-                    { key: n },
+                    { key: o },
                     i.createElement(Y, {
                       chord: e,
                       bReadOnly: this.props.bReadOnly,
                     }),
-                    n != t.length - 1 && i.createElement("hr", null),
+                    o != t.length - 1 && i.createElement("hr", null),
                   ),
                 )),
               i.createElement(
@@ -10697,23 +10882,23 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], Z.prototype, "AddChord", null),
-          (Z = (0, o.Cg)([s.PA], Z));
-        var ee = n(1532);
+        (0, n.Cg)([h.o], Z.prototype, "AddChord", null),
+          (Z = (0, n.Cg)([r.PA], Z));
+        var ee = o(1532);
         let te = class extends i.Component {
           render() {
             let e =
                 null == this.props.bShowBackButton ||
                 this.props.bShowBackButton,
               t = null != this.props.fnOpenOptionsModal,
-              n = "PageTitleLabel";
+              o = "PageTitleLabel";
             return (
-              this.props.strSubTitle || (n += " SingleTitle"),
+              this.props.strSubTitle || (o += " SingleTitle"),
               i.createElement(
                 "div",
                 {
                   className:
-                    "PageTitleBar" + (G.W.IsSteamAvailable ? "" : " NoSteam"),
+                    "PageTitleBar" + (V.W.IsSteamAvailable ? "" : " NoSteam"),
                 },
                 i.createElement(
                   "div",
@@ -10745,7 +10930,7 @@ var CLSTAMP = "9981652";
                     },
                     i.createElement(
                       "div",
-                      { className: n },
+                      { className: o },
                       this.props.strTitle,
                     ),
                     this.props.strSubTitle &&
@@ -10779,7 +10964,7 @@ var CLSTAMP = "9981652";
                       ),
                     ),
                 ),
-                !G.W.IsSteamAvailable &&
+                !V.W.IsSteamAvailable &&
                   i.createElement(
                     "div",
                     { className: "NoSteamWarning" },
@@ -10789,8 +10974,8 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        te = (0, o.Cg)([s.PA], te);
-        let ne = class extends i.Component {
+        te = (0, n.Cg)([r.PA], te);
+        let oe = class extends i.Component {
           constructor(e) {
             super(e);
           }
@@ -10802,9 +10987,9 @@ var CLSTAMP = "9981652";
             return (
               p.B$.ActionSets.forEach((t) => {
                 p.B$.GetActionSetActions(t.name).forEach((t) => {
-                  let n = p.B$.GetAliasInfo(t.name);
-                  n &&
-                    n.hidden &&
+                  let o = p.B$.GetAliasInfo(t.name);
+                  o &&
+                    o.hidden &&
                     "vibration" != t.type &&
                     "skeleton" != t.type &&
                     "pose" != t.type &&
@@ -10832,7 +11017,7 @@ var CLSTAMP = "9981652";
                 });
               }),
               i.createElement(
-                r.A,
+                s.A,
                 {
                   visible: !0,
                   onClose: this.CloseSaveDialog,
@@ -10855,9 +11040,9 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], ne.prototype, "CloseSaveDialog", null),
-          (ne = (0, o.Cg)([s.PA], ne));
-        let oe = class extends i.Component {
+        (0, n.Cg)([h.o], oe.prototype, "CloseSaveDialog", null),
+          (oe = (0, n.Cg)([r.PA], oe));
+        let ne = class extends i.Component {
           constructor(e) {
             super(e);
             let t = p.B$.GetAliasInfo(this.props.sAction);
@@ -10909,9 +11094,9 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], oe.prototype, "onHiddenChanged", null),
-          (0, o.Cg)([h.o], oe.prototype, "onNameChanged", null),
-          (oe = (0, o.Cg)([s.PA], oe));
+        (0, n.Cg)([h.o], ne.prototype, "onHiddenChanged", null),
+          (0, n.Cg)([h.o], ne.prototype, "onNameChanged", null),
+          (ne = (0, n.Cg)([r.PA], ne));
         let ie = class extends i.Component {
           constructor(e) {
             super(e),
@@ -10928,8 +11113,8 @@ var CLSTAMP = "9981652";
             return (
               p.B$.ActionSets.forEach((t) => {
                 p.B$.GetActionSetActions(t.name).forEach((t) => {
-                  let n = p.B$.GetAliasInfo(t.name);
-                  (n && n.hidden) ||
+                  let o = p.B$.GetAliasInfo(t.name);
+                  (o && o.hidden) ||
                     ("vibration" != t.type &&
                       "skeleton" != t.type &&
                       "pose" != t.type &&
@@ -10948,7 +11133,7 @@ var CLSTAMP = "9981652";
                     (0, c.we)("#LegacySetup_ActionAliasesHeader"),
                   ),
                   e.map((e, t) =>
-                    i.createElement(oe, {
+                    i.createElement(ne, {
                       sAction: e,
                       key: e,
                       readOnly: this.props.readOnly,
@@ -10956,7 +11141,7 @@ var CLSTAMP = "9981652";
                   ),
                 ),
                 this.state.bShowHiddenActions &&
-                  i.createElement(ne, { ParentClose: this.OnCloseHidden }),
+                  i.createElement(oe, { ParentClose: this.OnCloseHidden }),
                 !this.props.readOnly &&
                   i.createElement(
                     "div",
@@ -10977,9 +11162,9 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], ie.prototype, "OnShowHidden", null),
-          (0, o.Cg)([h.o], ie.prototype, "OnCloseHidden", null),
-          (ie = (0, o.Cg)([s.PA], ie));
+        (0, n.Cg)([h.o], ie.prototype, "OnShowHidden", null),
+          (0, n.Cg)([h.o], ie.prototype, "OnCloseHidden", null),
+          (ie = (0, n.Cg)([r.PA], ie));
         class le extends i.Component {
           constructor(e) {
             super(e),
@@ -11018,8 +11203,8 @@ var CLSTAMP = "9981652";
             );
           }
         }
-        (0, o.Cg)([h.o], le.prototype, "onCheckboxChanged", null);
-        class se extends i.Component {
+        (0, n.Cg)([h.o], le.prototype, "onCheckboxChanged", null);
+        class re extends i.Component {
           constructor(e) {
             super(e);
             let t = p.B$.GetOptionValue(this.props.sOptionName);
@@ -11032,13 +11217,13 @@ var CLSTAMP = "9981652";
           render() {
             let e = p.B$.SelectedAppActions.simulation_types,
               t = [];
-            for (let n of e)
-              "TrackedDeviceClass_Controller" == n.device_type &&
+            for (let o of e)
+              "TrackedDeviceClass_Controller" == o.device_type &&
                 t.push(
-                  new C(n.controller_type, (0, c.we)("#" + n.controller_type)),
+                  new C(o.controller_type, (0, c.we)("#" + o.controller_type)),
                 );
             t.push(new C("none", (0, c.we)("#None")));
-            let n = "InputOption" + this.props.sOptionName;
+            let o = "InputOption" + this.props.sOptionName;
             return i.createElement(
               "div",
               { className: "FlexRow SetupLegacyRow" },
@@ -11054,14 +11239,14 @@ var CLSTAMP = "9981652";
               ),
               i.createElement(
                 "label",
-                { className: "InputOptionLabel", htmlFor: n },
+                { className: "InputOptionLabel", htmlFor: o },
                 this.props.sOptionLocalizedName,
               ),
             );
           }
         }
-        (0, o.Cg)([h.o], se.prototype, "OnControllerDropdownChanged", null);
-        class re extends i.Component {
+        (0, n.Cg)([h.o], re.prototype, "OnControllerDropdownChanged", null);
+        class se extends i.Component {
           constructor(e) {
             super(e);
           }
@@ -11080,7 +11265,7 @@ var CLSTAMP = "9981652";
                   });
                 case "string":
                   return "simulated_controller_type" == e.name
-                    ? i.createElement(se, {
+                    ? i.createElement(re, {
                         sOptionName: e.name,
                         sOptionLocalizedName: e.localized_name,
                         key: e.name,
@@ -11093,7 +11278,7 @@ var CLSTAMP = "9981652";
             });
           }
         }
-        (0, o.Cg)([h.o], re.prototype, "onCheckboxChanged", null);
+        (0, n.Cg)([h.o], se.prototype, "onCheckboxChanged", null);
         class ae extends i.Component {
           constructor(e) {
             super(e),
@@ -11108,15 +11293,15 @@ var CLSTAMP = "9981652";
             this.setState({ sName: e });
             let t = this.props.simAction;
             t.name = e;
-            let n = p.B$.ComputeSimulatedActionPathFromId(t.id);
-            p.B$.SetSimulatedActionByPath(n, t);
+            let o = p.B$.ComputeSimulatedActionPathFromId(t.id);
+            p.B$.SetSimulatedActionByPath(o, t);
           }
           onActionChanged(e) {
             this.setState({ sOutputAction: e });
             let t = this.props.simAction;
             t.output = "none" == e ? "" : e;
-            let n = p.B$.ComputeSimulatedActionPathFromId(t.id);
-            p.B$.SetSimulatedActionByPath(n, t);
+            let o = p.B$.ComputeSimulatedActionPathFromId(t.id);
+            p.B$.SetSimulatedActionByPath(o, t);
           }
           onDelete() {
             let e = p.B$.ComputeSimulatedActionPathFromId(
@@ -11165,9 +11350,9 @@ var CLSTAMP = "9981652";
             );
           }
         }
-        (0, o.Cg)([h.o], ae.prototype, "onNameChanged", null),
-          (0, o.Cg)([h.o], ae.prototype, "onActionChanged", null),
-          (0, o.Cg)([h.o], ae.prototype, "onDelete", null);
+        (0, n.Cg)([h.o], ae.prototype, "onNameChanged", null),
+          (0, n.Cg)([h.o], ae.prototype, "onActionChanged", null),
+          (0, n.Cg)([h.o], ae.prototype, "onDelete", null);
         class de extends i.Component {
           constructor(e) {
             super(e),
@@ -11188,15 +11373,15 @@ var CLSTAMP = "9981652";
             this.setState({ sName: e });
             let t = this.props.simAction;
             t.name = e;
-            let n = p.B$.ComputeSimulatedActionPathFromId(t.id);
-            p.B$.SetSimulatedActionByPath(n, t);
+            let o = p.B$.ComputeSimulatedActionPathFromId(t.id);
+            p.B$.SetSimulatedActionByPath(o, t);
           }
           onOutputChanged(e) {
             this.setState({ sOutputHand: e });
             let t = this.props.simAction;
             t.output = "none" == e ? "" : e;
-            let n = p.B$.ComputeSimulatedActionPathFromId(t.id);
-            p.B$.SetSimulatedActionByPath(n, t);
+            let o = p.B$.ComputeSimulatedActionPathFromId(t.id);
+            p.B$.SetSimulatedActionByPath(o, t);
           }
           onDelete() {
             let e = p.B$.ComputeSimulatedActionPathFromId(
@@ -11206,11 +11391,11 @@ var CLSTAMP = "9981652";
           }
           OnClickTrackpad(e) {
             let t = e.currentTarget.getBoundingClientRect(),
-              n = (e.clientX - t.left) / (0.5 * t.width) - 1,
-              o = -1 * ((e.clientY - t.top) / (0.5 * t.height) - 1);
-            this.setState({ fPositionX: n, fPositionY: o });
+              o = (e.clientX - t.left) / (0.5 * t.width) - 1,
+              n = -1 * ((e.clientY - t.top) / (0.5 * t.height) - 1);
+            this.setState({ fPositionX: o, fPositionY: n });
             let i = this.props.simAction;
-            (i.position_x = n), (i.position_y = o);
+            (i.position_x = o), (i.position_y = n);
             let l = p.B$.ComputeSimulatedActionPathFromId(i.id);
             p.B$.SetSimulatedActionByPath(l, i);
           }
@@ -11221,7 +11406,7 @@ var CLSTAMP = "9981652";
               e.push(new C("right", (0, c.we)("#TrackpadClickRight"))),
               e.push(new C("none", (0, c.we)("#TrackpadClickNone"))));
             let t = "InputOption" + this.props.simAction.id,
-              n = {
+              o = {
                 left: (100 * (this.state.fPositionX + 1)) / 2 + "%",
                 top: 100 - (100 * (this.state.fPositionY + 1)) / 2 + "%",
               };
@@ -11262,7 +11447,7 @@ var CLSTAMP = "9981652";
                 },
                 i.createElement("div", {
                   className: "TrackpadSelectionPip",
-                  style: n,
+                  style: o,
                 }),
               ),
               !this.props.readOnly &&
@@ -11274,10 +11459,10 @@ var CLSTAMP = "9981652";
             );
           }
         }
-        (0, o.Cg)([h.o], de.prototype, "onNameChanged", null),
-          (0, o.Cg)([h.o], de.prototype, "onOutputChanged", null),
-          (0, o.Cg)([h.o], de.prototype, "onDelete", null),
-          (0, o.Cg)([h.o], de.prototype, "OnClickTrackpad", null);
+        (0, n.Cg)([h.o], de.prototype, "onNameChanged", null),
+          (0, n.Cg)([h.o], de.prototype, "onOutputChanged", null),
+          (0, n.Cg)([h.o], de.prototype, "onDelete", null),
+          (0, n.Cg)([h.o], de.prototype, "OnClickTrackpad", null);
         let ce = class extends i.Component {
           constructor(e) {
             super(e);
@@ -11344,8 +11529,8 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], ce.prototype, "OnCreateSimAction", null),
-          (ce = (0, o.Cg)([s.PA], ce));
+        (0, n.Cg)([h.o], ce.prototype, "OnCreateSimAction", null),
+          (ce = (0, n.Cg)([r.PA], ce));
         let pe = class extends i.Component {
           constructor(e) {
             super(e);
@@ -11372,30 +11557,30 @@ var CLSTAMP = "9981652";
             this.setState({ bShowOffsetsModal: !1 });
           }
           OnPositionOffsetChanged(e, t) {
-            const n = this.state.vecOffsets.map((n) =>
-              n.role === t
-                ? Object.assign(Object.assign({}, n), { offset_position: e })
-                : n,
+            const o = this.state.vecOffsets.map((o) =>
+              o.role === t
+                ? Object.assign(Object.assign({}, o), { offset_position: e })
+                : o,
             );
-            this.setState({ vecOffsets: n }), this.SetOffsetsOptionValue(n);
+            this.setState({ vecOffsets: o }), this.SetOffsetsOptionValue(o);
           }
           OnRotationOffsetChanged(e, t) {
-            const n = this.state.vecOffsets.map((n) =>
-              n.role === t
-                ? Object.assign(Object.assign({}, n), { offset_rotation: e })
-                : n,
+            const o = this.state.vecOffsets.map((o) =>
+              o.role === t
+                ? Object.assign(Object.assign({}, o), { offset_rotation: e })
+                : o,
             );
-            this.setState({ vecOffsets: n }), this.SetOffsetsOptionValue(n);
+            this.setState({ vecOffsets: o }), this.SetOffsetsOptionValue(o);
           }
           SetOffsetsOptionValue(e) {
             p.B$.SetOptionValue("device_offsets", this.GetOffsetsValue(e));
           }
           GetOffsetsValue(e) {
             const t = [];
-            for (const n of e)
-              (this.HasData(n.offset_position) ||
-                this.HasData(n.offset_rotation)) &&
-                t.push(n);
+            for (const o of e)
+              (this.HasData(o.offset_position) ||
+                this.HasData(o.offset_rotation)) &&
+                t.push(o);
             return t.length > 0 ? t : void 0;
           }
           HasData(e) {
@@ -11408,7 +11593,7 @@ var CLSTAMP = "9981652";
             let e = "";
             this.hasOwnProperty("nextUniqueId") && (e = this.nextUniqueId());
             const t = this.state.vecOffsets.find((e) => "left_hand" == e.role),
-              n = this.state.vecOffsets.find((e) => "right_hand" == e.role);
+              o = this.state.vecOffsets.find((e) => "right_hand" == e.role);
             return i.createElement(
               "div",
               { className: "InputSettingsModal" },
@@ -11469,14 +11654,14 @@ var CLSTAMP = "9981652";
                 i.createElement(q, {
                   labelName: "#SourceInputMode_RightController_PositionOffset",
                   elementId: e,
-                  vector: n.offset_position,
+                  vector: o.offset_position,
                   onChange: this.OnPositionOffsetChanged,
                   renderValue: (e) => e.toFixed(2),
                   min: -0.3,
                   max: 0.3,
                   step: 0.01,
                   axisNames: ["#X", "#Y", "#Z"],
-                  name: n.role,
+                  name: o.role,
                 }),
               ),
               i.createElement(
@@ -11485,14 +11670,14 @@ var CLSTAMP = "9981652";
                 i.createElement(q, {
                   labelName: "#SourceInputMode_RightController_RotationOffset",
                   elementId: e,
-                  vector: n.offset_rotation,
+                  vector: o.offset_rotation,
                   onChange: this.OnRotationOffsetChanged,
                   renderValue: (e) => e.toFixed(2),
                   min: -180,
                   max: 180,
                   step: 5,
                   axisNames: ["#Pitch", "#Yaw", "#Roll"],
-                  name: n.role,
+                  name: o.role,
                 }),
               ),
               i.createElement(
@@ -11508,13 +11693,13 @@ var CLSTAMP = "9981652";
           render() {
             var e;
             let t = "openxr" == p.B$.SelectedAppActions.category,
-              n =
+              o =
                 (null === (e = p.B$.SelectedAppActions.interaction_profiles) ||
                 void 0 === e
                   ? void 0
                   : e.length) > 0,
-              o = p.B$.GetOptionValue("simulated_controller_type"),
-              l = o && "none" != o;
+              n = p.B$.GetOptionValue("simulated_controller_type"),
+              l = n && "none" != n;
             return i.createElement(
               "div",
               { className: "FlexColumn ChordBindingModal" },
@@ -11543,7 +11728,7 @@ var CLSTAMP = "9981652";
                     "FlexColumn ChordBindingContents ChordBindingChordsList",
                 },
                 t &&
-                  n &&
+                  o &&
                   i.createElement(he, { bReadOnly: this.props.bReadOnly }),
                 !t &&
                   i.createElement(ue, {
@@ -11605,7 +11790,7 @@ var CLSTAMP = "9981652";
                 (0, c.we)("#Button_Close"),
               ),
               i.createElement(
-                r.A,
+                s.A,
                 {
                   visible: this.state.bShowOffsetsModal,
                   onClose: this.CloseOffsetsModal,
@@ -11627,11 +11812,11 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], pe.prototype, "OpenOffsetsModal", null),
-          (0, o.Cg)([h.o], pe.prototype, "CloseOffsetsModal", null),
-          (0, o.Cg)([h.o], pe.prototype, "OnPositionOffsetChanged", null),
-          (0, o.Cg)([h.o], pe.prototype, "OnRotationOffsetChanged", null),
-          (pe = (0, o.Cg)([s.PA], pe));
+        (0, n.Cg)([h.o], pe.prototype, "OpenOffsetsModal", null),
+          (0, n.Cg)([h.o], pe.prototype, "CloseOffsetsModal", null),
+          (0, n.Cg)([h.o], pe.prototype, "OnPositionOffsetChanged", null),
+          (0, n.Cg)([h.o], pe.prototype, "OnRotationOffsetChanged", null),
+          (pe = (0, n.Cg)([r.PA], pe));
         class he extends i.Component {
           constructor(e) {
             super(e);
@@ -11646,8 +11831,8 @@ var CLSTAMP = "9981652";
               t = [];
             return (
               e.forEach(function (e) {
-                let n = e.replace("/interaction_profiles/", "");
-                t.push(new C(e, n, null, e));
+                let o = e.replace("/interaction_profiles/", "");
+                t.push(new C(e, o, null, e));
               }),
               t.push(new C(" ", (0, c.we)("#None"))),
               i.createElement(
@@ -11694,7 +11879,7 @@ var CLSTAMP = "9981652";
             );
           }
         }
-        (0, o.Cg)(
+        (0, n.Cg)(
           [h.o],
           he.prototype,
           "OnInteractionProfileDropdownChanged",
@@ -11785,7 +11970,7 @@ var CLSTAMP = "9981652";
             );
           }
         }
-        (0, o.Cg)([h.o], ue.prototype, "OnStringDropdownChanged", null);
+        (0, n.Cg)([h.o], ue.prototype, "OnStringDropdownChanged", null);
         class me extends i.Component {
           constructor(e) {
             super(e);
@@ -11836,9 +12021,9 @@ var CLSTAMP = "9981652";
             );
           }
         }
-        (0, o.Cg)([h.o], me.prototype, "onCheckboxChanged", null);
+        (0, n.Cg)([h.o], me.prototype, "onCheckboxChanged", null);
         var ge,
-          Se = n(5615);
+          Se = o(5615);
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Personal = 1)] = "Personal"),
@@ -11850,47 +12035,13 @@ var CLSTAMP = "9981652";
         let _e = class extends i.Component {
           constructor(e) {
             super(e),
-              (this.m_KeyboardVisibilityCallbackHandle = null),
               (this.m_NameInput = null),
               (this.m_DescriptionInput = null),
-              (this.m_NameInputCallbackHandle = null),
-              (this.m_DescriptionCallbackHandle = null),
               (this.m_bSavedOnce = !1),
               (this.state = { sError: null });
           }
-          componentDidMount() {
-            this.m_KeyboardVisibilityCallbackHandle =
-              null === VRHTML || void 0 === VRHTML
-                ? void 0
-                : VRHTML.RegisterForKeyboardVisibilityChangedEvents((e) => {
-                    var t, n;
-                    e ||
-                      (null === (t = this.m_NameInputCallbackHandle) ||
-                        void 0 === t ||
-                        t.unregister(),
-                      (this.m_NameInputCallbackHandle = null),
-                      null === (n = this.m_DescriptionCallbackHandle) ||
-                        void 0 === n ||
-                        n.unregister(),
-                      (this.m_DescriptionCallbackHandle = null));
-                  });
-          }
-          componentWillUnmount() {
-            var e;
-            null === (e = this.m_KeyboardVisibilityCallbackHandle) ||
-              void 0 === e ||
-              e.unregister(),
-              (this.m_KeyboardVisibilityCallbackHandle = null);
-          }
           CloseSaveDialog() {
-            var e, t;
-            null === (e = this.m_NameInputCallbackHandle) ||
-              void 0 === e ||
-              e.unregister(),
-              null === (t = this.m_DescriptionCallbackHandle) ||
-                void 0 === t ||
-                t.unregister(),
-              this.props.ParentClose();
+            this.props.ParentClose();
           }
           GetSaveTypeString(e) {
             switch (e) {
@@ -11940,22 +12091,22 @@ var CLSTAMP = "9981652";
           GetUnboundActionItems() {
             const e = p.B$.UnboundActions;
             let t = [];
-            for (const n of e) {
-              const [e, { vecRequired: o }] = n;
-              for (const n of o)
+            for (const o of e) {
+              const [e, { vecRequired: n }] = o;
+              for (const o of n)
                 t.push(
-                  `${p.B$.GetActionSetLocalizedNameByName(e)}: ${n.localized_name}`,
+                  `${p.B$.GetActionSetLocalizedNameByName(e)}: ${o.localized_name}`,
                 );
             }
-            const n = t.length;
-            return n > 5 && ((t = t.slice(0, 5)), t.push("+ " + (n - 5))), t;
+            const o = t.length;
+            return o > 5 && ((t = t.slice(0, 5)), t.push("+ " + (o - 5))), t;
           }
           render() {
             let e = p.B$.GetDefaultBindingNameForSaveType(
               this.GetSaveTypeString(this.props.eSaveType),
             );
             return i.createElement(
-              r.A,
+              s.A,
               {
                 visible: !0,
                 onClose: this.CloseSaveDialog,
@@ -12090,12 +12241,12 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], _e.prototype, "CloseSaveDialog", null),
-          (0, o.Cg)([h.o], _e.prototype, "ConfirmBindingName", null),
-          (0, o.Cg)([h.o], _e.prototype, "BindNameInput", null),
-          (0, o.Cg)([h.o], _e.prototype, "BindDescriptionInput", null),
-          (0, o.Cg)([h.o], _e.prototype, "GetUnboundActionItems", null),
-          (_e = (0, o.Cg)([s.PA], _e));
+        (0, n.Cg)([h.o], _e.prototype, "CloseSaveDialog", null),
+          (0, n.Cg)([h.o], _e.prototype, "ConfirmBindingName", null),
+          (0, n.Cg)([h.o], _e.prototype, "BindNameInput", null),
+          (0, n.Cg)([h.o], _e.prototype, "BindDescriptionInput", null),
+          (0, n.Cg)([h.o], _e.prototype, "GetUnboundActionItems", null),
+          (_e = (0, n.Cg)([r.PA], _e));
         let Ce = class extends i.Component {
           render() {
             let e = this.props.UnboundActions.vecRequired.map((e, t) =>
@@ -12118,13 +12269,13 @@ var CLSTAMP = "9981652";
                   ),
                 ),
               ),
-              n = "UnboundActionsOverlay";
+              o = "UnboundActionsOverlay";
             return (
-              this.props.Visible && (e.length || t.length) && (n += " Visible"),
+              this.props.Visible && (e.length || t.length) && (o += " Visible"),
               this.props.Visible &&
                 i.createElement(
                   "div",
-                  { className: n },
+                  { className: o },
                   i.createElement(
                     "div",
                     { className: "FlexColumn" },
@@ -12141,7 +12292,7 @@ var CLSTAMP = "9981652";
           }
         };
         var ye;
-        (Ce = (0, o.Cg)([s.PA], Ce)),
+        (Ce = (0, n.Cg)([r.PA], Ce)),
           (function (e) {
             (e[(e.ActionSet = 0)] = "ActionSet"),
               (e[(e.LegacySetup = 1)] = "LegacySetup"),
@@ -12245,10 +12396,10 @@ var CLSTAMP = "9981652";
           }
           SelectThisBinding(e, t) {
             u.n.Loading = !0;
-            let n = p.B$.SelectedControllerTypeInfo;
+            let o = p.B$.SelectedControllerTypeInfo;
             p.B$.SelectConfig(
               p.B$.SelectedApp,
-              n ? n.controller_type : "",
+              o ? o.controller_type : "",
               e,
             ).then(() => {
               p.B$.ReloadCurrentApp().then(() => {
@@ -12313,21 +12464,21 @@ var CLSTAMP = "9981652";
           renderSelectConfirmModal() {
             let e,
               t = null,
-              n = !0,
-              o = (0, c.we)("#Button_Discard");
+              o = !0,
+              n = (0, c.we)("#Button_Discard");
             if (this.ThisConfigNeedsUpgrade()) {
               let i = ee.s.GetApp(p.B$.SelectedApp);
               (e = (0, c.we)("#BindingUI_List_Upgrade_Confirm", i.name)),
-                (n = this.SelectWouldOverwriteAutosave()),
-                n
+                (o = this.SelectWouldOverwriteAutosave()),
+                o
                   ? (t = (0, c.we)("#BindingUI_List_Select_Confirm_Convert"))
-                  : (o = (0, c.we)("#Button_Import"));
+                  : (n = (0, c.we)("#Button_Import"));
             } else e = (0, c.we)("#BindingUI_List_Select_Confirm");
             let l = null;
             return (
               u.n.DesktopMode || (l = { height: "30%", width: "30%" }),
               i.createElement(
-                r.A,
+                s.A,
                 {
                   visible: this.state.bShowSelectConfirmModal,
                   onClose: this.OnSelectDone,
@@ -12366,9 +12517,9 @@ var CLSTAMP = "9981652";
                               this.state.bEditBindingOnSelectConfirm,
                             ),
                         },
-                        o,
+                        n,
                       ),
-                      n &&
+                      o &&
                         i.createElement(
                           "div",
                           {
@@ -12405,25 +12556,25 @@ var CLSTAMP = "9981652";
           render() {
             let e = p.B$.ActionSets,
               t = e.map((e, t) => {
-                let n = "Label Tab PositionRelative",
-                  o = new p.Qd();
+                let o = "Label Tab PositionRelative",
+                  n = new p.Qd();
                 p.B$.UnboundActions.has(e.name) &&
-                  (o = p.B$.UnboundActions.get(e.name));
-                let l = o.vecRequired.length + o.vecSuggested.length;
+                  (n = p.B$.UnboundActions.get(e.name));
+                let l = n.vecRequired.length + n.vecSuggested.length;
                 return (
-                  o.vecRequired.length > 0
-                    ? (n += " Error")
-                    : o.vecSuggested.length > 0 && (n += " Warning"),
+                  n.vecRequired.length > 0
+                    ? (o += " Error")
+                    : n.vecSuggested.length > 0 && (o += " Warning"),
                   e.name == p.B$.SelectedActionSet &&
                     this.state.eTabType == ye.ActionSet &&
-                    (n += " Selected"),
+                    (o += " Selected"),
                   i.createElement(
                     "div",
                     {
                       key: t,
-                      className: n,
+                      className: o,
                       onMouseEnter: () => {
-                        this.ShowUnboundActionsOverlay(o);
+                        this.ShowUnboundActionsOverlay(n);
                       },
                       onMouseLeave: this.HideUnboundActionsOverlay,
                       onClick: () => {
@@ -12474,17 +12625,17 @@ var CLSTAMP = "9981652";
                   ),
                 );
             }
-            let n,
-              o = !1,
+            let o,
+              n = !1,
               l = !1;
             p.B$.SelectedControllerTypeInfo &&
               this.state.eTabType == ye.ActionSet &&
-              ((n = p.B$.SelectedControllerTypeInfo),
-              (o = "controller_handed" == n.input_bindingui_mode),
+              ((o = p.B$.SelectedControllerTypeInfo),
+              (n = "controller_handed" == o.input_bindingui_mode),
               (l =
-                "hmd" == n.input_bindingui_mode ||
-                "single_device" == n.input_bindingui_mode));
-            let s = this.state.bDeveloperOutput
+                "hmd" == o.input_bindingui_mode ||
+                "single_device" == o.input_bindingui_mode));
+            let r = this.state.bDeveloperOutput
               ? "Hide Developer output"
               : "Show Developer output";
             const a = {
@@ -12559,7 +12710,7 @@ var CLSTAMP = "9981652";
                     (0, c.we)(p.B$.SaveNoticeText),
                   ),
               ),
-              o &&
+              n &&
                 i.createElement(z, {
                   bSingleMode: !1,
                   selectedActionSet: p.B$.SelectedActionSetDetails,
@@ -12586,7 +12737,7 @@ var CLSTAMP = "9981652";
                   i.createElement(
                     "div",
                     { className: "LegacySetupContents" },
-                    i.createElement(re, {
+                    i.createElement(se, {
                       readOnly: this.props.bReadOnlyView,
                       options: p.B$.ManifestOptions,
                     }),
@@ -12601,7 +12752,7 @@ var CLSTAMP = "9981652";
                   i.createElement(
                     "div",
                     { className: "LegacySetupContents" },
-                    i.createElement(re, {
+                    i.createElement(se, {
                       readOnly: this.props.bReadOnlyView,
                       options: p.B$.SecondaryControllerOptions,
                     }),
@@ -12667,20 +12818,20 @@ var CLSTAMP = "9981652";
                       },
                       (0, c.we)("#BindingUI_ImportThisBinding"),
                     ),
-                  G.W.BDevMode &&
+                  V.W.BDevMode &&
                     i.createElement("div", {
                       className: "BindingManageButtonsHR",
                     }),
-                  G.W.BDevMode &&
+                  V.W.BDevMode &&
                     i.createElement(
                       "div",
                       {
                         className: "FlexColumn ButtonControl",
                         onClick: this.ToggleDeveloperOutput,
                       },
-                      s,
+                      r,
                     ),
-                  G.W.BDevMode &&
+                  V.W.BDevMode &&
                     i.createElement(
                       "div",
                       {
@@ -12689,7 +12840,7 @@ var CLSTAMP = "9981652";
                       },
                       (0, c.we)("#BindingUI_ExportBindingFile"),
                     ),
-                  G.W.BDevMode &&
+                  V.W.BDevMode &&
                     !p.B$.SelectedBindingIsLegacy &&
                     !p.B$.SelectedBindingIsOpenXR &&
                     i.createElement(
@@ -12702,7 +12853,7 @@ var CLSTAMP = "9981652";
                     ),
                   p.B$.BSelectedActionSetHasPoses &&
                     i.createElement(
-                      r.A,
+                      s.A,
                       {
                         visible: this.state.bShowPoseBindings,
                         onClose: this.ClosePoseBindingsModal,
@@ -12718,14 +12869,14 @@ var CLSTAMP = "9981652";
                           eActionSourceType: j.Pose,
                           bSingleControllerMode: l,
                           bSlaveSecondaryControllerBinding: !(
-                            o && !this.state.bBindingUIInMirroredMode
+                            n && !this.state.bBindingUIInMirroredMode
                           ),
                           bReadOnly: this.props.bReadOnlyView,
                         }),
                     ),
                   p.B$.BSelectedActionSetHasHaptics &&
                     i.createElement(
-                      r.A,
+                      s.A,
                       {
                         visible: this.state.bShowHapticsBindings,
                         onClose: this.CloseHapticsBindingsModal,
@@ -12741,14 +12892,14 @@ var CLSTAMP = "9981652";
                           eActionSourceType: j.Haptics,
                           bSingleControllerMode: l,
                           bSlaveSecondaryControllerBinding: !(
-                            o && !this.state.bBindingUIInMirroredMode
+                            n && !this.state.bBindingUIInMirroredMode
                           ),
                           bReadOnly: this.props.bReadOnlyView,
                         }),
                     ),
                   p.B$.BSelectedActionSetHasSkeletons &&
                     i.createElement(
-                      r.A,
+                      s.A,
                       {
                         visible: this.state.bShowSkeletonBindings,
                         onClose: this.CloseSkeletonBindingsModal,
@@ -12764,13 +12915,13 @@ var CLSTAMP = "9981652";
                           eActionSourceType: j.Skeleton,
                           bSingleControllerMode: l,
                           bSlaveSecondaryControllerBinding: !(
-                            o && !this.state.bBindingUIInMirroredMode
+                            n && !this.state.bBindingUIInMirroredMode
                           ),
                           bReadOnly: this.props.bReadOnlyView,
                         }),
                     ),
                   i.createElement(
-                    r.A,
+                    s.A,
                     {
                       visible: this.state.bShowChordBindings,
                       onClose: this.CloseChordBindingsModal,
@@ -12787,7 +12938,7 @@ var CLSTAMP = "9981652";
                       }),
                   ),
                   i.createElement(
-                    r.A,
+                    s.A,
                     {
                       visible: this.state.bShowOptionsModal,
                       onClose: this.CloseOptionsModal,
@@ -12825,39 +12976,39 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], fe.prototype, "OnAppDropdownChanged", null),
-          (0, o.Cg)([h.o], fe.prototype, "OnActionSetDropdownChanged", null),
-          (0, o.Cg)([h.o], fe.prototype, "ToggleDeveloperOutput", null),
-          (0, o.Cg)([h.o], fe.prototype, "OpenPoseBindingsModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "ClosePoseBindingsModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "OpenHapticsBindingsModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "CloseHapticsBindingsModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "OpenSkeletonBindingsModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "CloseSkeletonBindingsModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "OpenChordBindingsModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "CloseChordBindingsModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "OpenOptionsModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "CloseOptionsModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "CloseSaveModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "ShowPublicModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "ShowPersonalModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "ShowExportModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "ShowReplaceDefaultModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "ShowUnboundActionsOverlay", null),
-          (0, o.Cg)([h.o], fe.prototype, "HideUnboundActionsOverlay", null),
-          (0, o.Cg)([h.o], fe.prototype, "SetBindingUIInMirroredMode", null),
-          (0, o.Cg)([h.o], fe.prototype, "SelectThisBinding", null),
-          (0, o.Cg)([h.o], fe.prototype, "OnSelectBinding", null),
-          (0, o.Cg)([h.o], fe.prototype, "OnSelectConfirmed", null),
-          (0, o.Cg)([h.o], fe.prototype, "OnSelectDone", null),
-          (0, o.Cg)([h.o], fe.prototype, "OnSaveCurrentBinding", null),
-          (0, o.Cg)([h.o], fe.prototype, "renderSelectConfirmModal", null),
-          (0, o.Cg)([h.o], fe.prototype, "OnSaveClicked", null),
-          (0, o.Cg)([h.o], fe.prototype, "OnLegacySetup", null),
-          (0, o.Cg)([h.o], fe.prototype, "OnSecondaryControllerSetup", null),
-          (fe = (0, o.Cg)([s.PA], fe));
-        var be = n(2505),
-          ve = n.n(be);
+        (0, n.Cg)([h.o], fe.prototype, "OnAppDropdownChanged", null),
+          (0, n.Cg)([h.o], fe.prototype, "OnActionSetDropdownChanged", null),
+          (0, n.Cg)([h.o], fe.prototype, "ToggleDeveloperOutput", null),
+          (0, n.Cg)([h.o], fe.prototype, "OpenPoseBindingsModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "ClosePoseBindingsModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "OpenHapticsBindingsModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "CloseHapticsBindingsModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "OpenSkeletonBindingsModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "CloseSkeletonBindingsModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "OpenChordBindingsModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "CloseChordBindingsModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "OpenOptionsModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "CloseOptionsModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "CloseSaveModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "ShowPublicModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "ShowPersonalModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "ShowExportModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "ShowReplaceDefaultModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "ShowUnboundActionsOverlay", null),
+          (0, n.Cg)([h.o], fe.prototype, "HideUnboundActionsOverlay", null),
+          (0, n.Cg)([h.o], fe.prototype, "SetBindingUIInMirroredMode", null),
+          (0, n.Cg)([h.o], fe.prototype, "SelectThisBinding", null),
+          (0, n.Cg)([h.o], fe.prototype, "OnSelectBinding", null),
+          (0, n.Cg)([h.o], fe.prototype, "OnSelectConfirmed", null),
+          (0, n.Cg)([h.o], fe.prototype, "OnSelectDone", null),
+          (0, n.Cg)([h.o], fe.prototype, "OnSaveCurrentBinding", null),
+          (0, n.Cg)([h.o], fe.prototype, "renderSelectConfirmModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "OnSaveClicked", null),
+          (0, n.Cg)([h.o], fe.prototype, "OnLegacySetup", null),
+          (0, n.Cg)([h.o], fe.prototype, "OnSecondaryControllerSetup", null),
+          (fe = (0, n.Cg)([r.PA], fe));
+        var be = o(2505),
+          ve = o.n(be);
         class Ae {
           constructor(e) {
             (this.m_communityData = void 0),
@@ -12866,7 +13017,7 @@ var CLSTAMP = "9981652";
               (this.m_dateLastUpdate = void 0),
               (this.m_sSteamID = e),
               e.length > 0 && this.EnsureCommunityDataLoaded(),
-              (0, g.Gn)(this);
+              (0, g.makeObservable)(this);
           }
           get community_data_ready() {
             return void 0 !== this.m_communityData;
@@ -12909,11 +13060,12 @@ var CLSTAMP = "9981652";
             }
           }
         }
-        (0, o.Cg)([g.sH], Ae.prototype, "m_communityData", void 0),
-          (0, o.Cg)([h.o], Ae.prototype, "EnsureCommunityDataLoaded", null);
+        (0, n.Cg)([g.observable], Ae.prototype, "m_communityData", void 0),
+          (0, n.Cg)([h.o], Ae.prototype, "EnsureCommunityDataLoaded", null);
         class Be {
           constructor() {
-            (this.m_SteamCommunityUsers = g.sH.map()), (0, g.Gn)(this);
+            (this.m_SteamCommunityUsers = g.observable.map()),
+              (0, g.makeObservable)(this);
           }
           GetUserInformation(e) {
             return (
@@ -12927,9 +13079,14 @@ var CLSTAMP = "9981652";
               this.m_SteamCommunityUsers.set(e, new Ae(e));
           }
         }
-        (0, o.Cg)([g.sH], Be.prototype, "m_SteamCommunityUsers", void 0),
-          (0, o.Cg)([h.o], Be.prototype, "GetUserInformation", null),
-          (0, o.Cg)([h.o], Be.prototype, "RequestUserInformation", null);
+        (0, n.Cg)(
+          [g.observable],
+          Be.prototype,
+          "m_SteamCommunityUsers",
+          void 0,
+        ),
+          (0, n.Cg)([h.o], Be.prototype, "GetUserInformation", null),
+          (0, n.Cg)([h.o], Be.prototype, "RequestUserInformation", null);
         const Ie = new Be();
         window.steamcommunity = Ie;
         let Ee = class extends i.Component {
@@ -12944,7 +13101,7 @@ var CLSTAMP = "9981652";
             return (
               u.n.DesktopMode || (e = { height: "30%", width: "30%" }),
               i.createElement(
-                r.A,
+                s.A,
                 {
                   visible: this.state.bIsVisible,
                   onClose: this.CloseDialog,
@@ -12998,8 +13155,8 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], Ee.prototype, "CloseDialog", null),
-          (Ee = (0, o.Cg)([s.PA], Ee));
+        (0, n.Cg)([h.o], Ee.prototype, "CloseDialog", null),
+          (Ee = (0, n.Cg)([r.PA], Ee));
         let Me = class extends i.Component {
           constructor(e) {
             super(e);
@@ -13018,7 +13175,7 @@ var CLSTAMP = "9981652";
             this.setState({ bShowDeleteConfirmModal: !0 });
           }
           OnDeleteConfirmed() {
-            return (0, o.sH)(this, void 0, void 0, function* () {
+            return (0, n.sH)(this, void 0, void 0, function* () {
               this.setState({ bShowDeleteConfirmModal: !1 }),
                 yield p.B$.DeleteBinding(this.props.result.url),
                 yield u.n.GetBindingList();
@@ -13029,7 +13186,7 @@ var CLSTAMP = "9981652";
           }
           renderDeleteConfirmModal(e) {
             return i.createElement(
-              r.A,
+              s.A,
               {
                 visible: this.state.bShowDeleteConfirmModal,
                 onClose: this.OnDeleteCancel,
@@ -13082,46 +13239,46 @@ var CLSTAMP = "9981652";
           render() {
             var e;
             let t,
-              n,
-              o = new Date(),
+              o,
+              n = new Date(),
               l = new Date(1e3 * this.props.result.time),
-              s =
-                o.getTime() - l.getTime() > 1728e5
+              r =
+                n.getTime() - l.getTime() > 1728e5
                   ? l.toLocaleDateString()
                   : l.toLocaleString(),
-              r = this.props.result,
-              a = "developer" == r.type,
-              d = "0" != r.steamIDOwner && !a,
+              s = this.props.result,
+              a = "developer" == s.type,
+              d = "0" != s.steamIDOwner && !a,
               h = ee.s.GetApp(p.B$.SelectedApp),
               u = h ? h.name : "";
             a &&
-              ((r.name && 0 != r.name.length) ||
+              ((s.name && 0 != s.name.length) ||
                 (p.B$.SelectedBindingIsLegacy
-                  ? (r.name = (0, c.we)(
+                  ? (s.name = (0, c.we)(
                       "#BindingUI_List_Legacy_Binding_Title",
                       u,
                     ))
-                  : (r.name = (0, c.we)(
+                  : (s.name = (0, c.we)(
                       "#BindingUI_List_Developer_Binding_Title",
                       u,
                     ))),
-              (r.description && 0 != r.description.length) ||
+              (s.description && 0 != s.description.length) ||
                 (p.B$.SelectedBindingIsLegacy
-                  ? (r.description = (0, c.we)(
+                  ? (s.description = (0, c.we)(
                       "#BindingUI_List_Legacy_Binding_Description",
                     ))
-                  : (r.description = (0, c.we)(
+                  : (s.description = (0, c.we)(
                       "#BindingUI_List_Developer_Binding_Description",
                     )))),
               d &&
-                ((n = Ie.GetUserInformation(r.steamIDOwner).avatar_url),
-                (t = Ie.GetUserInformation(r.steamIDOwner).persona_name));
+                ((o = Ie.GetUserInformation(s.steamIDOwner).avatar_url),
+                (t = Ie.GetUserInformation(s.steamIDOwner).persona_name));
             let m = this.props.bCurrentlySelectedBinding
                 ? (0, c.we)("#BindingUI_List_Edit")
                 : (0, c.we)("#BindingUI_List_View"),
-              g = r.name;
-            "autosave" == r.type &&
-              (g = (0, c.we)("#BindingUI_List_Autosave", r.name));
+              g = s.name;
+            "autosave" == s.type &&
+              (g = (0, c.we)("#BindingUI_List_Autosave", s.name));
             let S = null;
             this.state.bOldVersion &&
               (S = this.props.bCurrentlySelectedBinding
@@ -13131,13 +13288,13 @@ var CLSTAMP = "9981652";
                   )
                 : (0, c.we)("#BindingUI_List_OldVersionWarning", u));
             let _ = null;
-            if (r.secondsPlayed > 0) {
-              let e = r.secondsPlayed / 60;
+            if (s.secondsPlayed > 0) {
+              let e = s.secondsPlayed / 60;
               _ = (0, c.we)("#BindingUI_List_MinutesPlayed", e.toFixed(0));
             }
             let C = null;
-            if (r.secondsPlayedThisMonth > 0) {
-              let e = r.secondsPlayedThisMonth / 60;
+            if (s.secondsPlayedThisMonth > 0) {
+              let e = s.secondsPlayedThisMonth / 60;
               C = (0, c.we)(
                 "#BindingUI_List_MinutesPlayedThisMonth",
                 e.toFixed(0),
@@ -13148,19 +13305,19 @@ var CLSTAMP = "9981652";
                   ? void 0
                   : e.controller_type,
               f =
-                null != r.controllerType &&
-                "" != r.controllerType &&
-                r.controllerType != y;
+                null != s.controllerType &&
+                "" != s.controllerType &&
+                s.controllerType != y;
             return i.createElement(
               "div",
               { className: "BindingEntry FlexRow" },
-              n &&
+              o &&
                 i.createElement("img", {
                   className: "SteamCommunityProfileImage",
-                  src: n,
+                  src: o,
                 }),
               d &&
-                !n &&
+                !o &&
                 i.createElement("div", {
                   className: "SteamCommunityProfileImage",
                 }),
@@ -13178,7 +13335,7 @@ var CLSTAMP = "9981652";
                     },
                     (0, c.we)("#BindingUI_List_Select"),
                   ),
-                !p.B$.HasBindingUriFailedToLoad(r.url) &&
+                !p.B$.HasBindingUriFailedToLoad(s.url) &&
                   i.createElement(
                     "div",
                     {
@@ -13188,7 +13345,7 @@ var CLSTAMP = "9981652";
                     },
                     m,
                   ),
-                r.owned &&
+                s.owned &&
                   !this.props.bCurrentlySelectedBinding &&
                   i.createElement(
                     "div",
@@ -13213,7 +13370,7 @@ var CLSTAMP = "9981652";
                 i.createElement(
                   "span",
                   { className: "BindingDescription" },
-                  r.description,
+                  s.description,
                   i.createElement("br", null),
                 ),
                 t &&
@@ -13223,12 +13380,12 @@ var CLSTAMP = "9981652";
                     (0, c.we)("#BindingUI_List_PublishedBy", t),
                     i.createElement("br", null),
                   ),
-                r.time > 0 &&
+                s.time > 0 &&
                   i.createElement(
                     "span",
                     { className: "BindingLastUpdated" },
                     (0, c.we)("#BindingUI_List_LastUpdated"),
-                    s,
+                    r,
                     C && " - " + C,
                     _ && " - " + _,
                     i.createElement("br", null),
@@ -13259,30 +13416,30 @@ var CLSTAMP = "9981652";
               i.createElement("div", {
                 className: "FlexRow BindingEntryActionButtons",
               }),
-              this.renderDeleteConfirmModal(r),
+              this.renderDeleteConfirmModal(s),
             );
           }
         };
-        (0, o.Cg)([h.o], Me.prototype, "OnDelete", null),
-          (0, o.Cg)([h.o], Me.prototype, "OnDeleteConfirmed", null),
-          (0, o.Cg)([h.o], Me.prototype, "OnDeleteCancel", null),
-          (0, o.Cg)([h.o], Me.prototype, "renderDeleteConfirmModal", null),
-          (0, o.Cg)([h.o], Me.prototype, "OnView", null),
-          (0, o.Cg)([h.o], Me.prototype, "OnSelect", null),
-          (Me = (0, o.Cg)([s.PA], Me));
+        (0, n.Cg)([h.o], Me.prototype, "OnDelete", null),
+          (0, n.Cg)([h.o], Me.prototype, "OnDeleteConfirmed", null),
+          (0, n.Cg)([h.o], Me.prototype, "OnDeleteCancel", null),
+          (0, n.Cg)([h.o], Me.prototype, "renderDeleteConfirmModal", null),
+          (0, n.Cg)([h.o], Me.prototype, "OnView", null),
+          (0, n.Cg)([h.o], Me.prototype, "OnSelect", null),
+          (Me = (0, n.Cg)([r.PA], Me));
         let we = class extends i.Component {
           constructor(e) {
             super(e), (this.state = { bIsBindingsLoading: !0 });
           }
           RefreshBindingList() {
-            return (0, o.sH)(this, void 0, void 0, function* () {
+            return (0, n.sH)(this, void 0, void 0, function* () {
               this.setState({ bIsBindingsLoading: !0 }),
                 yield u.n.GetBindingList(),
                 this.setState({ bIsBindingsLoading: !1 });
             });
           }
           componentDidMount() {
-            return (0, o.sH)(this, void 0, void 0, function* () {
+            return (0, n.sH)(this, void 0, void 0, function* () {
               yield this.RefreshBindingList();
             });
           }
@@ -13326,17 +13483,17 @@ var CLSTAMP = "9981652";
             }
           }
           OnControllerDropdownChanged(e) {
-            return (0, o.sH)(this, void 0, void 0, function* () {
+            return (0, n.sH)(this, void 0, void 0, function* () {
               p.B$.SetSelectedController(e), yield this.RefreshBindingList();
             });
           }
           ComputeResultsSection(e, t) {
             u.n.CurrentBinding && u.n.CurrentBinding.type;
-            let n = u.n.BindingQueryResults,
-              o = [];
-            n &&
-              n.length > 0 &&
-              (o = n
+            let o = u.n.BindingQueryResults,
+              n = [];
+            o &&
+              o.length > 0 &&
+              (n = o
                 .filter(t)
                 .map((e, t) =>
                   i.createElement(Me, {
@@ -13349,7 +13506,7 @@ var CLSTAMP = "9981652";
                   }),
                 ));
             return (
-              o.length > 0 &&
+              n.length > 0 &&
               i.createElement(
                 "div",
                 null,
@@ -13361,7 +13518,7 @@ var CLSTAMP = "9981652";
                 i.createElement(
                   "div",
                   { className: "FlexRowWithWrap BindingListSection" },
-                  o,
+                  n,
                 ),
               )
             );
@@ -13369,29 +13526,29 @@ var CLSTAMP = "9981652";
           CreateControllerTypeDropdown() {
             let e = [],
               t = ee.s.IsAppAllowedPrivateInputs(p.B$.SelectedApp);
-            G.W.ControllerTypes.forEach((n) => {
-              (t || "InputValueVisibility_SteamVRInternal" != n.visibility) &&
-                "InputValueVisibility_None" != n.visibility &&
-                e.push(n);
+            V.W.ControllerTypes.forEach((o) => {
+              (t || "InputValueVisibility_SteamVRInternal" != o.visibility) &&
+                "InputValueVisibility_None" != o.visibility &&
+                e.push(o);
             }),
               e.sort((e, t) => e.priority - t.priority);
-            let n = [];
+            let o = [];
             e.forEach((e) => {
-              n.push(
+              o.push(
                 new C(
                   e.controller_type,
-                  G.W.LocalizeDriverString(e.resource_root, e.controller_type),
+                  V.W.LocalizeDriverString(e.resource_root, e.controller_type),
                 ),
               );
             });
-            let o = "",
+            let n = "",
               l = "",
-              s = p.B$.SelectedControllerTypeInfo;
-            s &&
-              (s.input_bindingui_right.transform &&
-                (o = s.input_bindingui_right.transform),
-              (l = s.input_bindingui_right.uri));
-            s.device_class;
+              r = p.B$.SelectedControllerTypeInfo;
+            r &&
+              (r.input_bindingui_right.transform &&
+                (n = r.input_bindingui_right.transform),
+              (l = r.input_bindingui_right.uri));
+            r.device_class;
             return i.createElement(
               "div",
               { className: "FlexColumn ControllerTypeWrapper" },
@@ -13406,15 +13563,15 @@ var CLSTAMP = "9981652";
                 i.createElement("img", {
                   className: "ControllerImage",
                   src: l,
-                  style: { transform: o },
+                  style: { transform: n },
                 }),
                 i.createElement(y, {
-                  vecOptions: n,
+                  vecOptions: o,
                   sModalClass: "PinTop",
-                  sValueSelectedItem: s ? s.controller_type : "",
-                  sLocalizedSelectedItem: G.W.LocalizeControllerString(
-                    s,
-                    s ? s.controller_type : "",
+                  sValueSelectedItem: r ? r.controller_type : "",
+                  sLocalizedSelectedItem: V.W.LocalizeControllerString(
+                    r,
+                    r ? r.controller_type : "",
                   ),
                   fnOptionSelected: this.OnControllerDropdownChanged,
                 }),
@@ -13425,10 +13582,10 @@ var CLSTAMP = "9981652";
             let e = ee.s.GetApp(p.B$.SelectedApp),
               t = "";
             e && (t = e.name);
-            let n = u.n.CurrentBinding,
-              o = "#BindingUI_List_DeveloperSection";
+            let o = u.n.CurrentBinding,
+              n = "#BindingUI_List_DeveloperSection";
             p.B$.SelectedBindingIsLegacy &&
-              (o = "#BindingUI_List_LegacySection");
+              (n = "#BindingUI_List_LegacySection");
             let l = [];
             return (
               null != u.n.BindingQueryResults &&
@@ -13453,9 +13610,9 @@ var CLSTAMP = "9981652";
                       { className: "BindingListSectionHeader" },
                       (0, c.we)("#BindingUI_List_CurrentSection"),
                     ),
-                    n &&
+                    o &&
                       i.createElement(Me, {
-                        result: n,
+                        result: o,
                         currentBinding: u.n.CurrentBinding,
                         fnViewBinding: this.ViewBinding,
                         bCurrentlySelectedBinding: !0,
@@ -13485,7 +13642,7 @@ var CLSTAMP = "9981652";
                         "div",
                         { className: "AppBindingSection" },
                         this.ComputeResultsSection(
-                          o,
+                          n,
                           (e) =>
                             "developer" == e.type &&
                             e.url != p.B$.SelectedBindingURL,
@@ -13549,14 +13706,14 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], we.prototype, "RefreshBindingList", null),
-          (0, o.Cg)([h.o], we.prototype, "CreateBinding", null),
-          (0, o.Cg)([h.o], we.prototype, "SelectBinding", null),
-          (0, o.Cg)([h.o], we.prototype, "ViewBinding", null),
-          (0, o.Cg)([h.o], we.prototype, "OnControllerDropdownChanged", null),
-          (0, o.Cg)([h.o], we.prototype, "ComputeResultsSection", null),
-          (0, o.Cg)([h.o], we.prototype, "CreateControllerTypeDropdown", null),
-          (we = (0, o.Cg)([s.PA], we));
+        (0, n.Cg)([h.o], we.prototype, "RefreshBindingList", null),
+          (0, n.Cg)([h.o], we.prototype, "CreateBinding", null),
+          (0, n.Cg)([h.o], we.prototype, "SelectBinding", null),
+          (0, n.Cg)([h.o], we.prototype, "ViewBinding", null),
+          (0, n.Cg)([h.o], we.prototype, "OnControllerDropdownChanged", null),
+          (0, n.Cg)([h.o], we.prototype, "ComputeResultsSection", null),
+          (0, n.Cg)([h.o], we.prototype, "CreateControllerTypeDropdown", null),
+          (we = (0, n.Cg)([r.PA], we));
         let Oe = class extends i.Component {
           constructor(e) {
             super(e),
@@ -13591,7 +13748,7 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        Oe = (0, o.Cg)([s.PA], Oe);
+        Oe = (0, n.Cg)([r.PA], Oe);
         let ke = class extends i.Component {
           constructor(e) {
             super(e),
@@ -13608,21 +13765,21 @@ var CLSTAMP = "9981652";
           renderAppColumn() {
             let e = ee.s.GetApp("openvr.component.vrcompositor"),
               t = ee.s.GetApp("openvr.tool.steamvr_environments"),
-              n = ee.s.GetRecentApps();
-            t && (n = n.filter((e) => e.key != t.key));
-            let o,
+              o = ee.s.GetRecentApps();
+            t && (o = o.filter((e) => e.key != t.key));
+            let n,
               l = ee.s.GetCurrentSceneProcess();
             return (
-              !l && n.length > 0 && (l = n[0]),
-              l && (n = n.filter((e) => e.key != l.key)),
-              (o = this.state.bShowRecentApps
+              !l && o.length > 0 && (l = o[0]),
+              l && (o = o.filter((e) => e.key != l.key)),
+              (n = this.state.bShowRecentApps
                 ? i.createElement(
                     "div",
                     { className: "AppSelectList" },
                     i.createElement(
                       "div",
                       { className: "AppSelectListItems" },
-                      n.map((e, t) =>
+                      o.map((e, t) =>
                         i.createElement(Oe, {
                           key: t,
                           app: e,
@@ -13665,7 +13822,7 @@ var CLSTAMP = "9981652";
                       }),
                   ),
                 ),
-                o,
+                n,
               )
             );
           }
@@ -13686,55 +13843,55 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        (0, o.Cg)([h.o], ke.prototype, "SelectApplication", null),
-          (0, o.Cg)([h.o], ke.prototype, "OnShowMoreApps", null),
-          (ke = (0, o.Cg)([s.PA], ke));
-        var Ne = n(4493),
-          Pe = n(6138),
-          Te = n(7379);
-        const Re = ({ quaternion: e, width: t, height: n }) => {
-          const o = (0, i.useRef)(null),
+        (0, n.Cg)([h.o], ke.prototype, "SelectApplication", null),
+          (0, n.Cg)([h.o], ke.prototype, "OnShowMoreApps", null),
+          (ke = (0, n.Cg)([r.PA], ke));
+        var Ne = o(4493),
+          Pe = o(6138),
+          Te = o(7379);
+        const Re = ({ quaternion: e, width: t, height: o }) => {
+          const n = (0, i.useRef)(null),
             l = (0, i.useCallback)(
-              (t, n, i) => {
-                t.clearRect(0, 0, n, i),
+              (t, o, i) => {
+                t.clearRect(0, 0, o, i),
                   (t.lineWidth = 3),
-                  (o.current.style.position = "absolute");
-                const l = n / 2,
-                  s = i / 2,
-                  r = n / 2,
+                  (n.current.style.position = "absolute");
+                const l = o / 2,
+                  r = i / 2,
+                  s = o / 2,
                   a = (e, t) => {
-                    const n = t.w * e.x + t.y * e.z - t.z * e.y,
-                      o = t.w * e.y + t.z * e.x - t.x * e.z,
+                    const o = t.w * e.x + t.y * e.z - t.z * e.y,
+                      n = t.w * e.y + t.z * e.x - t.x * e.z,
                       i = t.w * e.z + t.x * e.y - t.y * e.x,
                       l = -t.x * e.x - t.y * e.y - t.z * e.z;
                     return {
-                      x: n * t.w + l * -t.x + o * -t.z - i * -t.y,
-                      y: o * t.w + l * -t.y + i * -t.x - n * -t.z,
-                      z: i * t.w + l * -t.z + n * -t.y - o * -t.x,
+                      x: o * t.w + l * -t.x + n * -t.z - i * -t.y,
+                      y: n * t.w + l * -t.y + i * -t.x - o * -t.z,
+                      z: i * t.w + l * -t.z + o * -t.y - n * -t.x,
                     };
                   },
                   d = [
-                    { x: 0, y: r, z: 0 },
-                    { x: 0, y: -r, z: 0 },
+                    { x: 0, y: s, z: 0 },
+                    { x: 0, y: -s, z: 0 },
                   ],
                   c = [
-                    { x: 0, y: 0, z: r },
-                    { x: 0, y: 0, z: -r },
+                    { x: 0, y: 0, z: s },
+                    { x: 0, y: 0, z: -s },
                   ],
                   p = [
-                    { x: r, y: 0, z: 0 },
-                    { x: -r, y: 0, z: 0 },
+                    { x: s, y: 0, z: 0 },
+                    { x: -s, y: 0, z: 0 },
                   ].map((t) => a(t, e)),
                   h = d.map((t) => a(t, e)),
                   u = c.map((t) => a(t, e)),
-                  m = (e, n, o, i) => {
-                    const r = t.createLinearGradient(l + e.x, s - e.y, l, s);
-                    r.addColorStop(0, o),
-                      r.addColorStop(1, i),
-                      (t.strokeStyle = r),
+                  m = (e, o, n, i) => {
+                    const s = t.createLinearGradient(l + e.x, r - e.y, l, r);
+                    s.addColorStop(0, n),
+                      s.addColorStop(1, i),
+                      (t.strokeStyle = s),
                       t.beginPath(),
-                      t.moveTo(l + e.x, s - e.y),
-                      t.lineTo(l + n.x, s - n.y),
+                      t.moveTo(l + e.x, r - e.y),
+                      t.lineTo(l + o.x, r - o.y),
                       t.stroke();
                   };
                 m(p[1], p[0], "#00000000", "#FF0000DD"),
@@ -13745,17 +13902,17 @@ var CLSTAMP = "9981652";
             );
           return (
             (0, i.useEffect)(() => {
-              const e = o.current;
+              const e = n.current;
               if (e) {
                 const t = e.getContext("2d");
                 if (t) {
-                  const n = e.width,
-                    o = e.height;
-                  l(t, n, o);
+                  const o = e.width,
+                    n = e.height;
+                  l(t, o, n);
                 }
               }
-            }, [e, t, n, l]),
-            i.createElement("canvas", { ref: o, width: t, height: n })
+            }, [e, t, o, l]),
+            i.createElement("canvas", { ref: n, width: t, height: o })
           );
         };
         var Le, De, Fe;
@@ -13784,14 +13941,14 @@ var CLSTAMP = "9981652";
               (e[(e.Haptic = 5)] = "Haptic");
           })(Fe || (Fe = {}));
         let xe = 16777216;
-        function He(e) {
+        function Ge(e) {
           return "number" != typeof e
             ? "-"
             : e >= xe && e <= 33554431
               ? (0, c.we)("#InputDebugger_Priority_Overlay", e - xe)
               : e.toFixed(0);
         }
-        class Ge extends i.Component {
+        class Ve extends i.Component {
           constructor(e) {
             super(e),
               (this.m_mailbox = new a._n()),
@@ -13872,9 +14029,9 @@ var CLSTAMP = "9981652";
           GetActionName(e) {
             let t;
             if (this.state.actionManifest)
-              for (let n of this.state.actionManifest.action_sets)
+              for (let o of this.state.actionManifest.action_sets)
                 if (
-                  ((t = n.actions.find(
+                  ((t = o.actions.find(
                     (t) => t.name.toLowerCase() == e.toLowerCase(),
                   )),
                   t)
@@ -13883,29 +14040,29 @@ var CLSTAMP = "9981652";
             return t ? t.localized_name : e;
           }
           GetMaxPriority(e) {
-            var t, n, o, i, l, s;
+            var t, o, n, i, l, r;
             return Math.max(
               null !==
-                (o =
+                (n =
                   null ===
-                    (n =
+                    (o =
                       null === (t = this.state.latestState) || void 0 === t
                         ? void 0
-                        : t.priorityMap) || void 0 === n
+                        : t.priorityMap) || void 0 === o
                     ? void 0
-                    : n[e]) && void 0 !== o
-                ? o
+                    : o[e]) && void 0 !== n
+                ? n
                 : null,
               null !==
-                (s =
+                (r =
                   null ===
                     (l =
                       null === (i = this.state.latestState) || void 0 === i
                         ? void 0
                         : i.globalPriorityMap) || void 0 === l
                     ? void 0
-                    : l[e]) && void 0 !== s
-                ? s
+                    : l[e]) && void 0 !== r
+                ? r
                 : null,
             );
           }
@@ -13918,12 +14075,12 @@ var CLSTAMP = "9981652";
               );
             let e = [];
             for (let t of this.state.latestState.activeActionSets) {
-              let n, o;
+              let o, n;
               t.secondaryActionSet
-                ? ((n = t.secondaryActionSet), (o = this.GetActionSetName(n)))
-                : ((o = (0, c.we)("#InputDebugger_None")), (n = ""));
+                ? ((o = t.secondaryActionSet), (n = this.GetActionSetName(o)))
+                : ((n = (0, c.we)("#InputDebugger_None")), (o = ""));
               let l = this.GetActionSetName(t.actionSet),
-                s = t.restrictToDevice
+                r = t.restrictToDevice
                   ? t.restrictToDevice
                   : (0, c.we)("#InputDebugger_None");
               e.push(
@@ -13946,22 +14103,22 @@ var CLSTAMP = "9981652";
                   i.createElement(
                     "div",
                     { className: "Label ActionSetPriority" },
-                    He(t.priority),
+                    Ge(t.priority),
                   ),
                   i.createElement(
                     "div",
                     { className: "Label ActionSetDevice" },
-                    s,
+                    r,
                   ),
                   i.createElement(
                     "div",
                     { className: "Label ActionSetSecondaryName" },
-                    o,
+                    n,
                   ),
                   i.createElement(
                     "div",
                     { className: "Label ActionSetSecondaryPath" },
-                    n,
+                    o,
                   ),
                 ),
               );
@@ -14152,11 +14309,11 @@ var CLSTAMP = "9981652";
             );
           }
           renderBinding(e, t) {
-            var n, o;
+            var o, n;
             if (
-              null === (n = e.binding) || void 0 === n
+              null === (o = e.binding) || void 0 === o
                 ? void 0
-                : n.startsWith("/filters/")
+                : o.startsWith("/filters/")
             )
               return i.createElement(
                 "div",
@@ -14176,11 +14333,11 @@ var CLSTAMP = "9981652";
                 ),
               );
             {
-              let n = this.GetMaxPriority(e.binding),
-                l = null !== (o = e.binding) && void 0 !== o ? o : "-";
+              let o = this.GetMaxPriority(e.binding),
+                l = null !== (n = e.binding) && void 0 !== n ? n : "-";
               return (
-                "number" == typeof n &&
-                  (l += " " + (0, c.we)("#InputDebugger_PriorityValue", He(n))),
+                "number" == typeof o &&
+                  (l += " " + (0, c.we)("#InputDebugger_PriorityValue", Ge(o))),
                 i.createElement(
                   "div",
                   {
@@ -14192,27 +14349,27 @@ var CLSTAMP = "9981652";
               );
             }
           }
-          renderActionEntry(e, t, n) {
-            var o, l, s, r, a, d, c, p, h;
+          renderActionEntry(e, t, o) {
+            var n, l, r, s, a, d, c, p, h;
             switch (e.type) {
               case Le.Boolean:
                 let e = t.data;
                 return [
                   i.createElement(
                     "div",
-                    { className: "Label ActionEntry", key: n + "_source" },
-                    null !== (o = t.inputSource) && void 0 !== o ? o : "-",
+                    { className: "Label ActionEntry", key: o + "_source" },
+                    null !== (n = t.inputSource) && void 0 !== n ? n : "-",
                   ),
-                  this.renderBinding(t, n),
-                  this.renderBoolean(t.data.active, n + "_active"),
+                  this.renderBinding(t, o),
+                  this.renderBoolean(t.data.active, o + "_active"),
                   i.createElement(
                     "div",
-                    { className: "Label ActionEntry", key: n + "_origin" },
+                    { className: "Label ActionEntry", key: o + "_origin" },
                     null !== (l = t.data.activeOrigin) && void 0 !== l
                       ? l
                       : "-",
                   ),
-                  this.renderBoolean(e.state, n + "_value"),
+                  this.renderBoolean(e.state, o + "_value"),
                 ];
               case Le.Vector1:
               case Le.Vector2:
@@ -14225,21 +14382,21 @@ var CLSTAMP = "9981652";
                   [
                     i.createElement(
                       "div",
-                      { className: "Label ActionEntry", key: n + "_source" },
-                      null !== (s = t.inputSource) && void 0 !== s ? s : "-",
+                      { className: "Label ActionEntry", key: o + "_source" },
+                      null !== (r = t.inputSource) && void 0 !== r ? r : "-",
                     ),
-                    this.renderBinding(t, n),
-                    this.renderBoolean(t.data.active, n + "_active"),
+                    this.renderBinding(t, o),
+                    this.renderBoolean(t.data.active, o + "_active"),
                     i.createElement(
                       "div",
-                      { className: "Label ActionEntry", key: n + "_origin" },
-                      null !== (r = t.data.activeOrigin) && void 0 !== r
-                        ? r
+                      { className: "Label ActionEntry", key: o + "_origin" },
+                      null !== (s = t.data.activeOrigin) && void 0 !== s
+                        ? s
                         : "-",
                     ),
                     i.createElement(
                       "div",
-                      { className: "Label ActionEntry", key: n + "_value" },
+                      { className: "Label ActionEntry", key: o + "_value" },
                       m,
                     ),
                   ]
@@ -14257,26 +14414,26 @@ var CLSTAMP = "9981652";
                 return [
                   i.createElement(
                     "div",
-                    { className: "Label ActionEntry", key: n + "_source" },
+                    { className: "Label ActionEntry", key: o + "_source" },
                     null !== (a = t.inputSource) && void 0 !== a ? a : "-",
                   ),
-                  this.renderBinding(t, n),
-                  this.renderBoolean(t.data.active, n + "_active"),
+                  this.renderBinding(t, o),
+                  this.renderBoolean(t.data.active, o + "_active"),
                   i.createElement(
                     "div",
-                    { className: "Label ActionEntry", key: n + "_origin" },
+                    { className: "Label ActionEntry", key: o + "_origin" },
                     null !== (d = t.data.activeOrigin) && void 0 !== d
                       ? d
                       : "-",
                   ),
                   i.createElement(
                     "div",
-                    { className: "Label ActionEntry", key: n + "_position" },
+                    { className: "Label ActionEntry", key: o + "_position" },
                     g ? S : "-",
                   ),
                   i.createElement(
                     "div",
-                    { className: "Label ActionEntry", key: n + "_rotation" },
+                    { className: "Label ActionEntry", key: o + "_rotation" },
                     null != C ? C : "-",
                     i.createElement(Re, {
                       quaternion: _,
@@ -14286,7 +14443,7 @@ var CLSTAMP = "9981652";
                   ),
                   i.createElement(
                     "div",
-                    { className: "Label ActionEntry", key: n + "_state" },
+                    { className: "Label ActionEntry", key: o + "_state" },
                     null !== (c = g.tracking) && void 0 !== c ? c : "-",
                   ),
                 ];
@@ -14297,25 +14454,25 @@ var CLSTAMP = "9981652";
                 return [
                   i.createElement(
                     "div",
-                    { className: "Label ActionEntry", key: n + "_source" },
+                    { className: "Label ActionEntry", key: o + "_source" },
                     null !== (p = t.inputSource) && void 0 !== p ? p : "-",
                   ),
-                  this.renderBinding(t, n),
-                  this.renderBoolean(t.data.active, n + "_active"),
+                  this.renderBinding(t, o),
+                  this.renderBoolean(t.data.active, o + "_active"),
                   i.createElement(
                     "div",
-                    { className: "Label ActionEntry", key: n + "_origin" },
+                    { className: "Label ActionEntry", key: o + "_origin" },
                     null !== (h = t.data.activeOrigin) && void 0 !== h
                       ? h
                       : "-",
                   ),
-                  this.renderBoolean(y.tracked, n + "_tracked"),
-                  this.renderBoolean(y.valid, n + "_valid"),
+                  this.renderBoolean(y.tracked, o + "_tracked"),
+                  this.renderBoolean(y.valid, o + "_valid"),
                   i.createElement(
                     "div",
                     {
                       className: "Label ActionEntry",
-                      key: n + "_origin_position",
+                      key: o + "_origin_position",
                     },
                     y ? f : "-",
                   ),
@@ -14323,7 +14480,7 @@ var CLSTAMP = "9981652";
                     "div",
                     {
                       className: "Label ActionEntry",
-                      key: n + "_target_position",
+                      key: o + "_target_position",
                     },
                     y ? b : "-",
                   ),
@@ -14336,23 +14493,23 @@ var CLSTAMP = "9981652";
             if (!e) return [null, 0];
             let t = this.renderActionHeader(e.type);
             if (!t) return [null, 0];
-            let n = [t],
-              o = 1;
+            let o = [t],
+              n = 1;
             if (e.entries)
               for (let i of e.entries) {
-                let l = this.renderActionEntry(e, i, (o++).toString());
+                let l = this.renderActionEntry(e, i, (n++).toString());
                 if (l) {
                   if (l.length != t.length)
                     throw new Error(
                       "Values must have the same length as header",
                     );
-                  n.push(l);
+                  o.push(l);
                 }
               }
             let l = [];
-            for (let e = 0; e < n[0].length; e++)
-              for (let t = 0; t < n.length; t++) l.push(n[t][e]);
-            let s = Math.max(n.length, 5);
+            for (let e = 0; e < o[0].length; e++)
+              for (let t = 0; t < o.length; t++) l.push(o[t][e]);
+            let r = Math.max(o.length, 5);
             return [
               i.createElement(
                 "div",
@@ -14361,7 +14518,7 @@ var CLSTAMP = "9981652";
                   "div",
                   {
                     className: "ActionName Label",
-                    style: { gridColumn: "1 / " + (s + 1) },
+                    style: { gridColumn: "1 / " + (r + 1) },
                   },
                   this.GetActionName(e.path),
                   i.createElement(
@@ -14374,26 +14531,26 @@ var CLSTAMP = "9981652";
                 ),
                 l,
               ),
-              s,
+              r,
             ];
           }
           renderCurrentActions() {
             if (!this.state.sCurrentActionSet) return null;
             let e = new Set(),
               t = [],
-              n = 0;
-            for (let o of this.state.latestState.actions)
-              if (o.actionSet == this.state.sCurrentActionSet) {
-                let [i, l] = this.renderAction(o);
+              o = 0;
+            for (let n of this.state.latestState.actions)
+              if (n.actionSet == this.state.sCurrentActionSet) {
+                let [i, l] = this.renderAction(n);
                 if (!i) continue;
-                (n = Math.max(l, n)), t.push(i), e.add(o.path.toLowerCase());
+                (o = Math.max(l, o)), t.push(i), e.add(n.path.toLowerCase());
               }
             if (this.state.actionManifest) {
-              let o = this.state.actionManifest.action_sets.find(
+              let n = this.state.actionManifest.action_sets.find(
                 (e) => e.name == this.state.sCurrentActionSet,
               );
-              if (o)
-                for (let l of o.actions)
+              if (n)
+                for (let l of n.actions)
                   e.has(l.name.toLowerCase()) ||
                     ("pose" != l.type &&
                       "skeleton" != l.type &&
@@ -14406,7 +14563,7 @@ var CLSTAMP = "9981652";
                             "div",
                             {
                               className: "ActionName Label",
-                              style: { gridColumn: "1 / " + (n + 1) },
+                              style: { gridColumn: "1 / " + (o + 1) },
                             },
                             l.localized_name,
                             i.createElement(
@@ -14442,21 +14599,21 @@ var CLSTAMP = "9981652";
             let e = new Set();
             for (let t of this.state.latestState.actions) e.add(t.actionSet);
             let t = [];
-            for (let n of e)
+            for (let o of e)
               t.push(
                 i.createElement(
                   Pe.$,
                   {
                     onClick: () => {
-                      this.SetActionSet(n);
+                      this.SetActionSet(o);
                     },
-                    key: n,
+                    key: o,
                     className: (0, d.FH)("ActionSetButton", "ButtonControl", [
                       "Selected",
-                      n == this.state.sCurrentActionSet,
+                      o == this.state.sCurrentActionSet,
                     ]),
                   },
-                  this.GetActionSetName(n),
+                  this.GetActionSetName(o),
                 ),
               );
             return i.createElement(
@@ -14490,41 +14647,41 @@ var CLSTAMP = "9981652";
                 );
           }
           FindFilter(e) {
-            var t, n;
+            var t, o;
             if (this.state.latestState && this.state.latestState.filters)
-              for (let o of this.state.latestState.filters) {
+              for (let n of this.state.latestState.filters) {
                 if (
-                  null === (t = o.inputs) || void 0 === t
+                  null === (t = n.inputs) || void 0 === t
                     ? void 0
                     : t.find((t) => t.path == e)
                 )
-                  return o;
+                  return n;
                 if (
-                  null === (n = o.outputs) || void 0 === n
+                  null === (o = n.outputs) || void 0 === o
                     ? void 0
-                    : n.find((t) => t.path == e)
+                    : o.find((t) => t.path == e)
                 )
-                  return o;
+                  return n;
               }
           }
           renderFilterIO(e, t) {
-            let n;
+            let o;
             switch (e.type) {
               case Fe.Boolean:
-                n = this.renderBoolean(e.value);
+                o = this.renderBoolean(e.value);
                 break;
               case Fe.Scalar:
-                n = this.renderScalar(e.value);
+                o = this.renderScalar(e.value);
                 break;
               default:
-                n = i.createElement("div", { className: "Label" }, Fe[e.type]);
+                o = i.createElement("div", { className: "Label" }, Fe[e.type]);
             }
-            let o = this.GetMaxPriority(e.path);
+            let n = this.GetMaxPriority(e.path);
             return i.createElement(
               "div",
               { className: "FilterIO", key: e.path },
               i.createElement("div", { className: "Label" }, e.path, ": "),
-              n,
+              o,
               t &&
                 e.path.startsWith("/filters/") &&
                 i.createElement(
@@ -14537,11 +14694,11 @@ var CLSTAMP = "9981652";
                   },
                   (0, c.we)("#InputDebugger_FilterDetails"),
                 ),
-              "number" == typeof o &&
+              "number" == typeof n &&
                 i.createElement(
                   "div",
                   { className: "Label" },
-                  (0, c.we)("#InputDebugger_PriorityValue", He(o)),
+                  (0, c.we)("#InputDebugger_PriorityValue", Ge(n)),
                 ),
               e.suppressedByPriority &&
                 i.createElement(
@@ -14555,44 +14712,44 @@ var CLSTAMP = "9981652";
             if (!this.state.sFilterPath) return null;
             let e = this.FindFilter(this.state.sFilterPath),
               t = [];
-            for (let n in e.parameters) {
-              let o,
-                l = e.parameters[n];
+            for (let o in e.parameters) {
+              let n,
+                l = e.parameters[o];
               switch (typeof l) {
                 case "boolean":
-                  o = l ? "true" : "false";
+                  n = l ? "true" : "false";
                   break;
                 case "number":
-                  o = l.toFixed(2);
+                  n = l.toFixed(2);
                   break;
                 default:
-                  o = JSON.stringify(l);
+                  n = JSON.stringify(l);
               }
               t.push(
                 i.createElement(
                   "div",
-                  { className: "Label", key: n },
-                  n,
-                  ": ",
+                  { className: "Label", key: o },
                   o,
+                  ": ",
+                  n,
                 ),
               );
             }
-            let n = [];
-            for (let t of e.inputs) n.push(this.renderFilterIO(t, !0));
-            n ||
-              n.push(
+            let o = [];
+            for (let t of e.inputs) o.push(this.renderFilterIO(t, !0));
+            o ||
+              o.push(
                 i.createElement(
                   "div",
                   { className: "Label", key: "none" },
                   (0, c.we)("#InputDebugger_None"),
                 ),
               );
-            let o = [];
-            for (let t of e.outputs) o.push(this.renderFilterIO(t, !1));
+            let n = [];
+            for (let t of e.outputs) n.push(this.renderFilterIO(t, !1));
             return (
-              o ||
-                o.push(
+              n ||
+                n.push(
                   i.createElement(
                     "div",
                     { className: "Label", key: "none" },
@@ -14635,21 +14792,21 @@ var CLSTAMP = "9981652";
                   { className: "Label InputDebuggerHeading" },
                   (0, c.we)("#InputDebugger_Inputs"),
                 ),
-                i.createElement("div", { className: "InputList" }, n),
+                i.createElement("div", { className: "InputList" }, o),
                 i.createElement(
                   "div",
                   { className: "Label InputDebuggerHeading" },
                   (0, c.we)("#InputDebugger_Outputs"),
                 ),
-                i.createElement("div", { className: "OutputList" }, o),
+                i.createElement("div", { className: "OutputList" }, n),
               )
             );
           }
           render() {
             let e = ee.s.GetRunningApps(),
               t = [];
-            for (let n of e)
-              t.push({ value: n.key, sLabel: `${n.name} (pid: ${n.pid})` });
+            for (let o of e)
+              t.push({ value: o.key, sLabel: `${o.name} (pid: ${o.pid})` });
             return i.createElement(
               "div",
               { className: "DebuggerMain" },
@@ -14684,12 +14841,12 @@ var CLSTAMP = "9981652";
             );
           }
         }
-        (0, o.Cg)([h.o], Ge.prototype, "OnSelectApp", null),
-          (0, o.Cg)([h.o], Ge.prototype, "OnInputFrame", null),
-          (0, o.Cg)([h.o], Ge.prototype, "SetActionSet", null);
-        var Ve = n(8108),
-          We = n(1333);
-        let Ue = class extends i.Component {
+        (0, n.Cg)([h.o], Ve.prototype, "OnSelectApp", null),
+          (0, n.Cg)([h.o], Ve.prototype, "OnInputFrame", null),
+          (0, n.Cg)([h.o], Ve.prototype, "SetActionSet", null);
+        var He = o(8108),
+          Ue = o(1333);
+        let We = class extends i.Component {
           constructor(e) {
             super(e);
           }
@@ -14697,7 +14854,7 @@ var CLSTAMP = "9981652";
             u.n.Loading
               ? document.body.classList.add("Loading")
               : document.body.classList.remove("Loading"),
-              G.W.IsSteamAvailable
+              V.W.IsSteamAvailable
                 ? document.body.classList.remove("SteamUnavailable")
                 : document.body.classList.add("SteamUnavailable");
             return (
@@ -14713,10 +14870,10 @@ var CLSTAMP = "9981652";
                   }),
                 u.n.GetUIState == u.k.List && i.createElement(we, null),
                 u.n.GetUIState == u.k.AppSelect && i.createElement(ke, null),
-                u.n.GetUIState == u.k.Debugger && i.createElement(Ge, null),
+                u.n.GetUIState == u.k.Debugger && i.createElement(Ve, null),
                 u.n.GetUIState == u.k.None && i.createElement("div", null),
                 i.createElement(
-                  r.A,
+                  s.A,
                   {
                     visible: p.B$.SteamVRUnavailable,
                     showCloseButton: !1,
@@ -14740,7 +14897,7 @@ var CLSTAMP = "9981652";
             );
           }
         };
-        Ue = (0, o.Cg)([s.PA], Ue);
+        We = (0, n.Cg)([r.PA], We);
         const $e = document.getElementById("root");
         (0, c.uV)(
           ["bindingui"],
@@ -14748,14 +14905,14 @@ var CLSTAMP = "9981652";
             ? void 0
             : VRHTML.GetSteamLanguage(),
         )
-          .then(() => Ve.J.Init())
+          .then(() => He.J.Init())
           .then(() => ee.s.Init())
-          .then(() => G.W.Init())
-          .then(() => We.HR.Init(!1))
+          .then(() => V.W.Init())
+          .then(() => Ue.HR.Init(!1))
           .then(() => p.B$.Init())
           .then(() =>
             (function () {
-              return (0, o.sH)(this, void 0, void 0, function* () {
+              return (0, n.sH)(this, void 0, void 0, function* () {
                 u.n.SetDesktopMode((0, d.e6)("desktop").length > 0),
                   VRHTML &&
                     !u.n.DesktopMode &&
@@ -14809,29 +14966,29 @@ var CLSTAMP = "9981652";
           .then(() => u.n.Init())
           .then(() => {
             var e;
-            (e = Ue), l.H($e).render(i.createElement(e, null));
+            (e = We), l.H($e).render(i.createElement(e, null));
           })
           .catch((e) => console.log("FAILED TO INITIALIZE BINDINGUI " + e));
       },
     },
-    n = {};
-  function o(e) {
-    var i = n[e];
+    o = {};
+  function n(e) {
+    var i = o[e];
     if (void 0 !== i) return i.exports;
-    var l = (n[e] = { exports: {} });
-    return t[e].call(l.exports, l, l.exports, o), l.exports;
+    var l = (o[e] = { exports: {} });
+    return t[e].call(l.exports, l, l.exports, n), l.exports;
   }
-  (o.m = t),
+  (n.m = t),
     (e = []),
-    (o.O = (t, n, i, l) => {
-      if (!n) {
-        var s = 1 / 0;
+    (n.O = (t, o, i, l) => {
+      if (!o) {
+        var r = 1 / 0;
         for (c = 0; c < e.length; c++) {
-          for (var [n, i, l] = e[c], r = !0, a = 0; a < n.length; a++)
-            (!1 & l || s >= l) && Object.keys(o.O).every((e) => o.O[e](n[a]))
-              ? n.splice(a--, 1)
-              : ((r = !1), l < s && (s = l));
-          if (r) {
+          for (var [o, i, l] = e[c], s = !0, a = 0; a < o.length; a++)
+            (!1 & l || r >= l) && Object.keys(n.O).every((e) => n.O[e](o[a]))
+              ? o.splice(a--, 1)
+              : ((s = !1), l < r && (r = l));
+          if (s) {
             e.splice(c--, 1);
             var d = i();
             void 0 !== d && (t = d);
@@ -14841,19 +14998,19 @@ var CLSTAMP = "9981652";
       }
       l = l || 0;
       for (var c = e.length; c > 0 && e[c - 1][2] > l; c--) e[c] = e[c - 1];
-      e[c] = [n, i, l];
+      e[c] = [o, i, l];
     }),
-    (o.n = (e) => {
+    (n.n = (e) => {
       var t = e && e.__esModule ? () => e.default : () => e;
-      return o.d(t, { a: t }), t;
+      return n.d(t, { a: t }), t;
     }),
-    (o.d = (e, t) => {
-      for (var n in t)
-        o.o(t, n) &&
-          !o.o(e, n) &&
-          Object.defineProperty(e, n, { enumerable: !0, get: t[n] });
+    (n.d = (e, t) => {
+      for (var o in t)
+        n.o(t, o) &&
+          !n.o(e, o) &&
+          Object.defineProperty(e, o, { enumerable: !0, get: t[o] });
     }),
-    (o.g = (function () {
+    (n.g = (function () {
       if ("object" == typeof globalThis) return globalThis;
       try {
         return this || new Function("return this")();
@@ -14861,28 +15018,34 @@ var CLSTAMP = "9981652";
         if ("object" == typeof window) return window;
       }
     })()),
-    (o.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
+    (n.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
+    (n.r = (e) => {
+      "undefined" != typeof Symbol &&
+        Symbol.toStringTag &&
+        Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+        Object.defineProperty(e, "__esModule", { value: !0 });
+    }),
     (() => {
       var e = { 600: 0, 452: 0, 527: 0 };
-      o.O.j = (t) => 0 === e[t];
-      var t = (t, n) => {
+      n.O.j = (t) => 0 === e[t];
+      var t = (t, o) => {
           var i,
             l,
-            [s, r, a] = n,
+            [r, s, a] = o,
             d = 0;
-          if (s.some((t) => 0 !== e[t])) {
-            for (i in r) o.o(r, i) && (o.m[i] = r[i]);
-            if (a) var c = a(o);
+          if (r.some((t) => 0 !== e[t])) {
+            for (i in s) n.o(s, i) && (n.m[i] = s[i]);
+            if (a) var c = a(n);
           }
-          for (t && t(n); d < s.length; d++)
-            (l = s[d]), o.o(e, l) && e[l] && e[l][0](), (e[l] = 0);
-          return o.O(c);
+          for (t && t(o); d < r.length; d++)
+            (l = r[d]), n.o(e, l) && e[l] && e[l][0](), (e[l] = 0);
+          return n.O(c);
         },
-        n = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
-      n.forEach(t.bind(null, 0)), (n.push = t.bind(null, n.push.bind(n)));
+        o = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
+      o.forEach(t.bind(null, 0)), (o.push = t.bind(null, o.push.bind(o)));
     })();
-  var i = o.O(void 0, [967, 991, 908, 305, 527, 170, 537, 797, 906], () =>
-    o(6313),
+  var i = n.O(void 0, [967, 991, 908, 305, 527, 170, 537, 797, 906], () =>
+    n(6313),
   );
-  i = o.O(i);
+  i = n.O(i);
 })(); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/controllerbindingui.js.map

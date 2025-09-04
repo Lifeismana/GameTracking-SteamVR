@@ -23,6 +23,7 @@
         "loglevel": 3,
         "ipd": 0.063,
         "ipdOffset": 0.0,
+        "ipdHUD": true,
         "background": "",
         "backgroundUseDomeProjection": false,
         "backgroundCameraHeight": 1.6,
@@ -167,6 +168,7 @@
     },
     "camera": {
         "enableCamera": false,
+        "enableConstructRoomView": false,
         "showOnController": false,
         "enableCameraForCollisionBounds": false,
         "roomView": 0,
@@ -192,7 +194,8 @@
         "turnOffControllersTimeout": 300.0,
         "returnToWatchdogTimeout": 0.0,
         "pauseCompositorOnStandby": true,
-        "autoLaunchSteamVROnButtonPress": true
+        "autoLaunchSteamVROnButtonPress": true,
+        "overrideWindowsPowerScheme":  false
     },
     "modelskins": {
     },

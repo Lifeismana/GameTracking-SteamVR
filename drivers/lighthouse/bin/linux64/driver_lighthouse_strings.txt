@@ -731,6 +731,7 @@ $3br
 /data/src/aitcamlib/work_thread.cpp
 /data/src/common/vrcommon/animation/animresourcemanager.cpp
 /data/src/common/vrcommon/drivermanager.cpp
+/data/src/common/vrcommon/ilockablepropertycontainer.h
 /data/src/common/vrcommon/openvr_internal.cpp
 /data/src/common/vrcommon/openvrtools.cpp
 /data/src/common/vrcommon/propertymanager.cpp
@@ -930,7 +931,6 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
-19:30:08
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -956,6 +956,7 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
+23:21:24
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -1173,6 +1174,7 @@ Attempt to add tilt observation to DB for %08X which has never had a dynamic sta
 Attempt to init shared state %s twice
 Attempted Default Load: 
 Attempted Gold Load: 
+Attempted to change property type from %d to %d
 Attempted to map already-mapped BO\n
 Attempted to map un-allocated BO\n
 Attempted to map un-mappable BO\n
@@ -1182,7 +1184,7 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Attempting HID Open %s: %s\n
 Audio
 AudioBridge
-Aug 15 2025
+Aug 29 2025
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)\n
@@ -1907,6 +1909,7 @@ CFixedSizePropertyContainer::ReadLock()
 CFixedSizePropertyContainer::ReadUnlock()
 CFixedSizePropertyContainer::SetPropertyErrorLocked(unsigned int, vr::ETrackedPropertyError, bool*)
 CFixedSizePropertyContainer::SetPropertyRawLocked(unsigned int, void const*, unsigned int, unsigned int, bool*)
+CFixedSizePropertyContainer::SetPropertyRawLocked(unsigned int, void const*, unsigned int, unsigned int, bool*) (.cold)
 CFixedSizePropertyContainer::UnsetPropertyLocked(unsigned int, bool*)
 CFixedSizePropertyContainer::WriteLock()
 CFixedSizePropertyContainer::WriteUnlock()
@@ -2627,14 +2630,14 @@ CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
-CSWTCH.126
+CSWTCH.108
+CSWTCH.123
 CSWTCH.131
 CSWTCH.137
 CSWTCH.140
 CSWTCH.141
-CSWTCH.142
+CSWTCH.143
 CSWTCH.16
-CSWTCH.162
 CSWTCH.1924
 CSWTCH.216
 CSWTCH.221
@@ -2941,6 +2944,7 @@ CThreadWatchdogManager::InitWatchdogs() (.cold)
 CThreadWatchdogManager::Register(CThreadWatchdog::Status_s*)
 CThreadWatchdogManager::Register(CThreadWatchdog::Status_s*) (.cold)
 CThreadWatchdogManager::ShouldWatchdog()
+CThreadWatchdogManager::ShouldWatchdog() (.part.0)
 CThreadWatchdogManager::Unregister(CThreadWatchdog::Status_s*)
 CThreadWatchdogManager::~CThreadWatchdogManager()
 CTrackedCameraCalibration::BHasWhiteBalance() const
@@ -3872,6 +3876,7 @@ Duplicate key: '
 ECameraHAL_OpenError_ToString
 ECameraHAL_OpenError_ToString.cold
 ECameraHAL_OpenError_ToString::mapStrings
+ENABLE_VULKAN_RENDERDOC_CAPTURE
 ERROR
 ERROR: Expected 1 float args, fDegrees'
 ERROR: Expected 1 float args, fPitchDegrees'
@@ -4077,6 +4082,7 @@ Failed
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Terminating.\n
 Failed Watchdog timeout in thread %s after %f seconds\n
 Failed to AllocMutex
 Failed to LockMgrMutex in AllocMutex
@@ -4283,6 +4289,7 @@ Format(char const*, ...) (.cold)
 Found Direct Mode Display\n
 Found default audio playback device %s, VID:%04x/PID:%04x %s\n
 Found default audio recording device %s, VID:%04x/PID:%04x %s\n
+Found environment variable %s=1. Enabling RenderDoc.\n
 Found environment variable STEAMVR_MOTION_AMD=1\n
 Found per-device override of unhandled type %d\n
 Found two slave bases (one oblivious cable sync slave and one confused optical sync slave).\n
@@ -4656,8 +4663,8 @@ IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -4704,7 +4711,6 @@ InitDevice
 InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) (.cold)
 InitIfNeeded
-InitInternalCameraPassthroughInterface(std::function<void* (char const*)>)
 InitInternalClientInterfaces(std::function<void* (char const*)>)
 InitInternalClientInterfaces(std::function<void* (char const*)>) (.cold)
 InitInternalDriverDirectInterface(std::function<void* (char const*)>)
@@ -5397,6 +5403,7 @@ LoadInstanceExtensions
 LoadMCImage()
 LoadMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int)
 LoadMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int) (.cold)
+LoadSimplifiedOrExplicitRectJson(Json::Value const&)
 Loaded Chromatic Correction Factors RED (%0.3f, %0.3f, %0.3f, %0.3f) BLUE (%0.3f, %0.3f, %0.3f, %0.3f) x %0.3f\n
 Loaded resource-only driver %s from %s\n
 Loaded server driver %s (%s) from %s\n
@@ -5988,6 +5995,13 @@ PchNameFromDistortion_Type(int)
 PchNameFromDistortion_Type(int) (.part.0)
 PchNameFromEye(int)
 PchNameFromStereo_Device_Type(int)
+PerDisplayScanoutScaling_t::BValid() const
+PerDisplayScanoutScaling_t::SetSimplified(math::Vec4T<int> const&, int, int)
+PerDisplayScanoutScaling_t::clear()
+PerDisplayScanoutScaling_t::from_json(Json::Value const&)
+PerDisplayScanoutScaling_t::from_json(Json::Value const&) (.cold)
+PerDisplayScanoutScaling_t::to_json() const
+PerDisplayScanoutScaling_t::to_json() const (.cold)
 PeripheralApplication
 PermissionDenied
 Persistent statistics file does not exist. Creating new %s\n
@@ -6296,7 +6310,8 @@ RenderDoc connected\n
 RenderDoc::CCaptureScope::CCaptureScope(VkInstance_T*)
 RenderDoc::CCaptureScope::CCaptureScope(void*)
 RenderDoc::CCaptureScope::~CCaptureScope()
-RenderDoc::Initialize()
+RenderDoc::Initialize(char const*)
+RenderDoc::Initialize(char const*) (.cold)
 RenderDoc::IsFrameCapturing()
 RenderDoc::TriggerCapture()
 RenderEnd
@@ -7133,6 +7148,7 @@ VRApplicationError_SteamVRIsExiting
 VRApplicationError_TransitionAborted
 VRApplicationError_UnknownApplication
 VRApplicationError_UnknownProperty
+VRApplicationError_WaitingForChaperone
 VRApplication_Background
 VRApplication_Bootstrapper
 VRApplication_OpenXRInstance
@@ -7556,9 +7572,13 @@ VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
 VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
 VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoVideoSupport
+VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
+VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
 VRInputError_%d
 VRInputError_BufferTooSmall
@@ -8246,20 +8266,11 @@ _Fract
 _GLOBAL_
 _GLOBAL_OFFSET_TABLE_
 _GLOBAL__sub_I.00101_ipcposix.cpp
-_GLOBAL__sub_I_addposeoperation.cpp
 _GLOBAL__sub_I_aitcam_linux.cpp
 _GLOBAL__sub_I_aitcamera.cpp
-_GLOBAL__sub_I_animpose.cpp
 _GLOBAL__sub_I_animresource.cpp
-_GLOBAL__sub_I_animresourcefactory.cpp
-_GLOBAL__sub_I_animresourcemanager.cpp
-_GLOBAL__sub_I_animskeleton.cpp
-_GLOBAL__sub_I_animstatemachine.cpp
-_GLOBAL__sub_I_animutils.cpp
 _GLOBAL__sub_I_atomicops_internals_x86_gcc.cc
 _GLOBAL__sub_I_base64.cpp
-_GLOBAL__sub_I_blendposeoperation.cpp
-_GLOBAL__sub_I_bonemaskposeoperation.cpp
 _GLOBAL__sub_I_bonemaskresource.cpp
 _GLOBAL__sub_I_bonemaskresource.cpp.cold
 _GLOBAL__sub_I_cbasecamera.cpp
@@ -8279,28 +8290,22 @@ _GLOBAL__sub_I_disambiguation_sob.cpp
 _GLOBAL__sub_I_disambiguation_tdm.cpp
 _GLOBAL__sub_I_driver_lighthouse.cpp
 _GLOBAL__sub_I_driverlog.cpp
-_GLOBAL__sub_I_drivermanager.cpp
 _GLOBAL__sub_I_dynamic_message.cc
 _GLOBAL__sub_I_eh_alloc.cc
 _GLOBAL__sub_I_etroncamera.cpp
 _GLOBAL__sub_I_extension_set.cc
 _GLOBAL__sub_I_extension_set_heavy.cc
-_GLOBAL__sub_I_firmwaremanifest.cpp
 _GLOBAL__sub_I_generated_message_reflection.cc
 _GLOBAL__sub_I_generated_message_util.cc
 _GLOBAL__sub_I_handanimevaluator.cpp
-_GLOBAL__sub_I_handposelogic_indexcontroller.cpp
-_GLOBAL__sub_I_handposelogic_vivewand.cpp
 _GLOBAL__sub_I_hiddenarea.cpp
 _GLOBAL__sub_I_hiddevice.cpp
 _GLOBAL__sub_I_hmddisplay.cpp
-_GLOBAL__sub_I_hmderrors.cpp
 _GLOBAL__sub_I_htchmdusb.cpp
 _GLOBAL__sub_I_imu_only_tracker.cpp
 _GLOBAL__sub_I_ipcpipe.cpp
 _GLOBAL__sub_I_keyframeddataresource.cpp
 _GLOBAL__sub_I_keyframeddataresource.cpp.cold
-_GLOBAL__sub_I_keyframesamplerposeoperation.cpp
 _GLOBAL__sub_I_lighthouse_debug.pb.cc
 _GLOBAL__sub_I_lighthousebaseconfig.cpp
 _GLOBAL__sub_I_lighthousebasestationdriver.cpp
@@ -8321,34 +8326,24 @@ _GLOBAL__sub_I_lighthouseusb.cpp.cold
 _GLOBAL__sub_I_lighthouseutils.cpp
 _GLOBAL__sub_I_liquidvr.cpp
 _GLOBAL__sub_I_locale_inst.cc
-_GLOBAL__sub_I_localization.cpp
 _GLOBAL__sub_I_logbuffer.cpp
 _GLOBAL__sub_I_matrix44aligned.cpp
 _GLOBAL__sub_I_mcimage.cpp
-_GLOBAL__sub_I_mempool.cpp
 _GLOBAL__sub_I_message.cc
 _GLOBAL__sub_I_message_lite.cc
-_GLOBAL__sub_I_mirrorposeoperation.cpp
 _GLOBAL__sub_I_once.cc
 _GLOBAL__sub_I_openvr_internal.cpp
-_GLOBAL__sub_I_poserecipe.cpp
-_GLOBAL__sub_I_poseupdatecontext.cpp
-_GLOBAL__sub_I_prismdirect.cpp
-_GLOBAL__sub_I_propertymanager.cpp
 _GLOBAL__sub_I_quaternionaligned.cpp
 _GLOBAL__sub_I_reflection.cpp
 _GLOBAL__sub_I_reflection_ops.cc
 _GLOBAL__sub_I_repeated_field.cc
-_GLOBAL__sub_I_settingsmanager.cpp
 _GLOBAL__sub_I_sharedresourcenamespace.cpp
-_GLOBAL__sub_I_skeletonlist.cpp
 _GLOBAL__sub_I_stringprintf.cc
 _GLOBAL__sub_I_strtod.cc
 _GLOBAL__sub_I_strtools_public.cpp
 _GLOBAL__sub_I_structurally_valid.cc
 _GLOBAL__sub_I_strutil.cc
 _GLOBAL__sub_I_substitute.cc
-_GLOBAL__sub_I_subtractposeoperation.cpp
 _GLOBAL__sub_I_swsyncdetect.cpp
 _GLOBAL__sub_I_syncdetect.cpp
 _GLOBAL__sub_I_system_error.cc
@@ -8357,11 +8352,9 @@ _GLOBAL__sub_I_text_format.cc
 _GLOBAL__sub_I_thread.cpp
 _GLOBAL__sub_I_threadtools.cpp
 _GLOBAL__sub_I_threadwatchdog.cpp
-_GLOBAL__sub_I_threadwatchdog_server.cpp
 _GLOBAL__sub_I_tokenizer.cc
 _GLOBAL__sub_I_trackeddeviceadapters.cpp
 _GLOBAL__sub_I_transform.cpp
-_GLOBAL__sub_I_twoboneikposeoperation.cpp
 _GLOBAL__sub_I_unknown_field_set.cc
 _GLOBAL__sub_I_userdatathread.cpp
 _GLOBAL__sub_I_vectoraligned.cpp
@@ -8372,9 +8365,7 @@ _GLOBAL__sub_I_vr_driver_tracked_camera.cpp
 _GLOBAL__sub_I_vrcontroller.cpp
 _GLOBAL__sub_I_vrcontrollerusb.cpp
 _GLOBAL__sub_I_vrcrash.cpp
-_GLOBAL__sub_I_vrframerategovernor.cpp
 _GLOBAL__sub_I_vrlog.cpp
-_GLOBAL__sub_I_vrmailbox.cpp
 _GLOBAL__sub_I_wire_format.cc
 _GLOBAL__sub_I_wire_format_lite.cc
 _GLOBAL__sub_I_wlocale_inst.cc
@@ -8879,6 +8870,8 @@ bl_ctl
 black_clamp
 blank
 blocked_by_safe_mode
+blue_dest
+blue_src
 bodnok
 bonemask_fingeraux.txt
 bonemask_grip.txt
@@ -12158,6 +12151,7 @@ int32
 int64
 intensity
 interface
+internal
 internet
 interpolation
 intrinsics
@@ -13897,6 +13891,8 @@ recording\n
 recv
 recvfrom
 recvmsg
+red_dest
+red_src
 redirectsDisplay
 refDistance
 reference temporary #
@@ -13978,6 +13974,7 @@ sc_schinese
 scalar
 scale
 scandir
+scanout_scaling
 scene
 scenes
 sched_get_priority_max
@@ -17786,8 +17783,8 @@ std::vector<LighthouseScaleData_t, std::allocator<LighthouseScaleData_t>>::~vect
 std::vector<OpResult, std::allocator<OpResult>>::reserve(unsigned long)
 std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>::_M_default_append(unsigned long)
 std::vector<VkLayerProperties, std::allocator<VkLayerProperties>>::_M_default_append(unsigned long)
-std::vector<VkQueueFamilyGlobalPriorityPropertiesKHR, std::allocator<VkQueueFamilyGlobalPriorityPropertiesKHR>>::_M_default_append(unsigned long)
-std::vector<VkQueueFamilyGlobalPriorityPropertiesKHR, std::allocator<VkQueueFamilyGlobalPriorityPropertiesKHR>>::operator=(std::vector<VkQueueFamilyGlobalPriorityPropertiesKHR, std::allocator<VkQueueFamilyGlobalPriorityPropertiesKHR>> const&)
+std::vector<VkQueueFamilyGlobalPriorityProperties, std::allocator<VkQueueFamilyGlobalPriorityProperties>>::_M_default_append(unsigned long)
+std::vector<VkQueueFamilyGlobalPriorityProperties, std::allocator<VkQueueFamilyGlobalPriorityProperties>>::operator=(std::vector<VkQueueFamilyGlobalPriorityProperties, std::allocator<VkQueueFamilyGlobalPriorityProperties>> const&)
 std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2>>::_M_default_append(unsigned long)
 std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2>>::operator=(std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2>> const&)
 std::vector<bool, std::allocator<bool>>::_M_fill_insert(std::_Bit_iterator, unsigned long, bool)
@@ -19856,20 +19853,24 @@ vkAcquireXlibDisplayEXT
 vkAllocateCommandBuffers
 vkAllocateDescriptorSets
 vkAllocateMemory
+vkAntiLagUpdateAMD
 vkBeginCommandBuffer
 vkBindAccelerationStructureMemoryNV
 vkBindBufferMemory
 vkBindBufferMemory2
 vkBindBufferMemory2KHR
+vkBindDataGraphPipelineSessionMemoryARM
 vkBindImageMemory
 vkBindImageMemory2
 vkBindImageMemory2KHR
 vkBindOpticalFlowSessionImageNV
+vkBindTensorMemoryARM
 vkBindVideoSessionMemoryKHR
 vkBuildAccelerationStructuresKHR
 vkBuildMicromapsEXT
 vkCmdBeginConditionalRenderingEXT
 vkCmdBeginDebugUtilsLabelEXT
+vkCmdBeginPerTileExecutionQCOM
 vkCmdBeginQuery
 vkCmdBeginQueryIndexedEXT
 vkCmdBeginRenderPass
@@ -19883,14 +19884,17 @@ vkCmdBindDescriptorBufferEmbeddedSamplers2EXT
 vkCmdBindDescriptorBufferEmbeddedSamplersEXT
 vkCmdBindDescriptorBuffersEXT
 vkCmdBindDescriptorSets
+vkCmdBindDescriptorSets2
 vkCmdBindDescriptorSets2KHR
 vkCmdBindIndexBuffer
+vkCmdBindIndexBuffer2
 vkCmdBindIndexBuffer2KHR
 vkCmdBindInvocationMaskHUAWEI
 vkCmdBindPipeline
 vkCmdBindPipelineShaderGroupNV
 vkCmdBindShadersEXT
 vkCmdBindShadingRateImageNV
+vkCmdBindTileMemoryQCOM
 vkCmdBindTransformFeedbackBuffersEXT
 vkCmdBindVertexBuffers
 vkCmdBindVertexBuffers2
@@ -19901,11 +19905,14 @@ vkCmdBlitImage2KHR
 vkCmdBuildAccelerationStructureNV
 vkCmdBuildAccelerationStructuresIndirectKHR
 vkCmdBuildAccelerationStructuresKHR
+vkCmdBuildClusterAccelerationStructureIndirectNV
 vkCmdBuildMicromapsEXT
+vkCmdBuildPartitionedAccelerationStructuresNV
 vkCmdClearAttachments
 vkCmdClearColorImage
 vkCmdClearDepthStencilImage
 vkCmdControlVideoCodingKHR
+vkCmdConvertCooperativeVectorMatrixNV
 vkCmdCopyAccelerationStructureKHR
 vkCmdCopyAccelerationStructureNV
 vkCmdCopyAccelerationStructureToMemoryKHR
@@ -19928,8 +19935,8 @@ vkCmdCopyMemoryToMicromapEXT
 vkCmdCopyMicromapEXT
 vkCmdCopyMicromapToMemoryEXT
 vkCmdCopyQueryPoolResults
+vkCmdCopyTensorARM
 vkCmdCuLaunchKernelNVX
-vkCmdCudaLaunchKernelNV
 vkCmdDebugMarkerBeginEXT
 vkCmdDebugMarkerEndEXT
 vkCmdDebugMarkerInsertEXT
@@ -19939,7 +19946,9 @@ vkCmdDecompressMemoryNV
 vkCmdDispatch
 vkCmdDispatchBase
 vkCmdDispatchBaseKHR
+vkCmdDispatchDataGraphARM
 vkCmdDispatchIndirect
+vkCmdDispatchTileQCOM
 vkCmdDraw
 vkCmdDrawClusterHUAWEI
 vkCmdDrawClusterIndirectHUAWEI
@@ -19964,16 +19973,19 @@ vkCmdDrawMultiIndexedEXT
 vkCmdEncodeVideoKHR
 vkCmdEndConditionalRenderingEXT
 vkCmdEndDebugUtilsLabelEXT
+vkCmdEndPerTileExecutionQCOM
 vkCmdEndQuery
 vkCmdEndQueryIndexedEXT
 vkCmdEndRenderPass
 vkCmdEndRenderPass2
 vkCmdEndRenderPass2KHR
 vkCmdEndRendering
+vkCmdEndRendering2EXT
 vkCmdEndRenderingKHR
 vkCmdEndTransformFeedbackEXT
 vkCmdEndVideoCodingKHR
 vkCmdExecuteCommands
+vkCmdExecuteGeneratedCommandsEXT
 vkCmdExecuteGeneratedCommandsNV
 vkCmdFillBuffer
 vkCmdInsertDebugUtilsLabelEXT
@@ -19984,11 +19996,17 @@ vkCmdOpticalFlowExecuteNV
 vkCmdPipelineBarrier
 vkCmdPipelineBarrier2
 vkCmdPipelineBarrier2KHR
+vkCmdPreprocessGeneratedCommandsEXT
 vkCmdPreprocessGeneratedCommandsNV
 vkCmdPushConstants
+vkCmdPushConstants2
 vkCmdPushConstants2KHR
+vkCmdPushDescriptorSet
+vkCmdPushDescriptorSet2
 vkCmdPushDescriptorSet2KHR
 vkCmdPushDescriptorSetKHR
+vkCmdPushDescriptorSetWithTemplate
+vkCmdPushDescriptorSetWithTemplate2
 vkCmdPushDescriptorSetWithTemplate2KHR
 vkCmdPushDescriptorSetWithTemplateKHR
 vkCmdResetEvent
@@ -20026,6 +20044,7 @@ vkCmdSetDepthBounds
 vkCmdSetDepthBoundsTestEnable
 vkCmdSetDepthBoundsTestEnableEXT
 vkCmdSetDepthClampEnableEXT
+vkCmdSetDepthClampRangeEXT
 vkCmdSetDepthClipEnableEXT
 vkCmdSetDepthClipNegativeOneToOneEXT
 vkCmdSetDepthCompareOp
@@ -20052,8 +20071,10 @@ vkCmdSetFragmentShadingRateKHR
 vkCmdSetFrontFace
 vkCmdSetFrontFaceEXT
 vkCmdSetLineRasterizationModeEXT
+vkCmdSetLineStipple
 vkCmdSetLineStippleEXT
 vkCmdSetLineStippleEnableEXT
+vkCmdSetLineStippleKHR
 vkCmdSetLineWidth
 vkCmdSetLogicOpEXT
 vkCmdSetLogicOpEnableEXT
@@ -20072,6 +20093,10 @@ vkCmdSetRasterizationStreamEXT
 vkCmdSetRasterizerDiscardEnable
 vkCmdSetRasterizerDiscardEnableEXT
 vkCmdSetRayTracingPipelineStackSizeKHR
+vkCmdSetRenderingAttachmentLocations
+vkCmdSetRenderingAttachmentLocationsKHR
+vkCmdSetRenderingInputAttachmentIndices
+vkCmdSetRenderingInputAttachmentIndicesKHR
 vkCmdSetRepresentativeFragmentTestEnableNV
 vkCmdSetSampleLocationsEXT
 vkCmdSetSampleLocationsEnableEXT
@@ -20115,11 +20140,15 @@ vkCmdWriteTimestamp
 vkCmdWriteTimestamp2
 vkCmdWriteTimestamp2KHR
 vkCompileDeferredNV
+vkConvertCooperativeVectorMatrixNV
 vkCopyAccelerationStructureKHR
 vkCopyAccelerationStructureToMemoryKHR
+vkCopyImageToImage
 vkCopyImageToImageEXT
+vkCopyImageToMemory
 vkCopyImageToMemoryEXT
 vkCopyMemoryToAccelerationStructureKHR
+vkCopyMemoryToImage
 vkCopyMemoryToImageEXT
 vkCopyMemoryToMicromapEXT
 vkCopyMicromapEXT
@@ -20132,8 +20161,8 @@ vkCreateCommandPool
 vkCreateComputePipelines
 vkCreateCuFunctionNVX
 vkCreateCuModuleNVX
-vkCreateCudaFunctionNV
-vkCreateCudaModuleNV
+vkCreateDataGraphPipelineSessionARM
+vkCreateDataGraphPipelinesARM
 vkCreateDebugReportCallbackEXT
 vkCreateDebugUtilsMessengerEXT
 vkCreateDeferredOperationKHR
@@ -20145,16 +20174,20 @@ vkCreateDevice
 vkCreateDisplayModeKHR
 vkCreateDisplayPlaneSurfaceKHR
 vkCreateEvent
+vkCreateExternalComputeQueueNV
 vkCreateFence
 vkCreateFramebuffer
 vkCreateGraphicsPipelines
 vkCreateHeadlessSurfaceEXT
 vkCreateImage
 vkCreateImageView
+vkCreateIndirectCommandsLayoutEXT
 vkCreateIndirectCommandsLayoutNV
+vkCreateIndirectExecutionSetEXT
 vkCreateInstance
 vkCreateMicromapEXT
 vkCreateOpticalFlowSessionNV
+vkCreatePipelineBinariesKHR
 vkCreatePipelineCache
 vkCreatePipelineLayout
 vkCreatePrivateDataSlot
@@ -20173,6 +20206,8 @@ vkCreateShaderModule
 vkCreateShadersEXT
 vkCreateSharedSwapchainsKHR
 vkCreateSwapchainKHR
+vkCreateTensorARM
+vkCreateTensorViewARM
 vkCreateValidationCacheEXT
 vkCreateVideoSessionKHR
 vkCreateVideoSessionParametersKHR
@@ -20188,8 +20223,7 @@ vkDestroyBufferView
 vkDestroyCommandPool
 vkDestroyCuFunctionNVX
 vkDestroyCuModuleNVX
-vkDestroyCudaFunctionNV
-vkDestroyCudaModuleNV
+vkDestroyDataGraphPipelineSessionARM
 vkDestroyDebugReportCallbackEXT
 vkDestroyDebugUtilsMessengerEXT
 vkDestroyDeferredOperationKHR
@@ -20199,15 +20233,19 @@ vkDestroyDescriptorUpdateTemplate
 vkDestroyDescriptorUpdateTemplateKHR
 vkDestroyDevice
 vkDestroyEvent
+vkDestroyExternalComputeQueueNV
 vkDestroyFence
 vkDestroyFramebuffer
 vkDestroyImage
 vkDestroyImageView
+vkDestroyIndirectCommandsLayoutEXT
 vkDestroyIndirectCommandsLayoutNV
+vkDestroyIndirectExecutionSetEXT
 vkDestroyInstance
 vkDestroyMicromapEXT
 vkDestroyOpticalFlowSessionNV
 vkDestroyPipeline
+vkDestroyPipelineBinaryKHR
 vkDestroyPipelineCache
 vkDestroyPipelineLayout
 vkDestroyPrivateDataSlot
@@ -20222,6 +20260,8 @@ vkDestroyShaderEXT
 vkDestroyShaderModule
 vkDestroySurfaceKHR
 vkDestroySwapchainKHR
+vkDestroyTensorARM
+vkDestroyTensorViewARM
 vkDestroyValidationCacheEXT
 vkDestroyVideoSessionKHR
 vkDestroyVideoSessionParametersKHR
@@ -20257,7 +20297,11 @@ vkGetBufferOpaqueCaptureAddressKHR
 vkGetBufferOpaqueCaptureDescriptorDataEXT
 vkGetCalibratedTimestampsEXT
 vkGetCalibratedTimestampsKHR
-vkGetCudaModuleCacheNV
+vkGetClusterAccelerationStructureBuildSizesNV
+vkGetDataGraphPipelineAvailablePropertiesARM
+vkGetDataGraphPipelinePropertiesARM
+vkGetDataGraphPipelineSessionBindPointRequirementsARM
+vkGetDataGraphPipelineSessionMemoryRequirementsARM
 vkGetDeferredOperationMaxConcurrencyKHR
 vkGetDeferredOperationResultKHR
 vkGetDescriptorEXT
@@ -20279,6 +20323,7 @@ vkGetDeviceImageMemoryRequirements
 vkGetDeviceImageMemoryRequirementsKHR
 vkGetDeviceImageSparseMemoryRequirements
 vkGetDeviceImageSparseMemoryRequirementsKHR
+vkGetDeviceImageSubresourceLayout
 vkGetDeviceImageSubresourceLayoutKHR
 vkGetDeviceMemoryCommitment
 vkGetDeviceMemoryOpaqueCaptureAddress
@@ -20289,6 +20334,7 @@ vkGetDeviceProcAddrStub
 vkGetDeviceQueue
 vkGetDeviceQueue2
 vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI
+vkGetDeviceTensorMemoryRequirementsARM
 vkGetDisplayModeProperties2KHR
 vkGetDisplayModePropertiesKHR
 vkGetDisplayPlaneCapabilities2KHR
@@ -20298,9 +20344,11 @@ vkGetDrmDisplayEXT
 vkGetDynamicRenderingTilePropertiesQCOM
 vkGetEncodedVideoSessionParametersKHR
 vkGetEventStatus
+vkGetExternalComputeQueueDataNV
 vkGetFenceFdKHR
 vkGetFenceStatus
 vkGetFramebufferTilePropertiesQCOM
+vkGetGeneratedCommandsMemoryRequirementsEXT
 vkGetGeneratedCommandsMemoryRequirementsNV
 vkGetImageDrmFormatModifierPropertiesEXT
 vkGetImageMemoryRequirements
@@ -20311,9 +20359,11 @@ vkGetImageSparseMemoryRequirements
 vkGetImageSparseMemoryRequirements2
 vkGetImageSparseMemoryRequirements2KHR
 vkGetImageSubresourceLayout
+vkGetImageSubresourceLayout2
 vkGetImageSubresourceLayout2EXT
 vkGetImageSubresourceLayout2KHR
 vkGetImageViewAddressNVX
+vkGetImageViewHandle64NVX
 vkGetImageViewHandleNVX
 vkGetImageViewOpaqueCaptureDescriptorDataEXT
 vkGetInstanceProcAddr
@@ -20324,12 +20374,15 @@ vkGetMemoryFdPropertiesKHR
 vkGetMemoryHostPointerPropertiesEXT
 vkGetMemoryRemoteAddressNV
 vkGetMicromapBuildSizesEXT
+vkGetPartitionedAccelerationStructuresBuildSizesNV
 vkGetPastPresentationTimingGOOGLE
 vkGetPerformanceParameterINTEL
 vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
 vkGetPhysicalDeviceCalibrateableTimeDomainsKHR
+vkGetPhysicalDeviceCooperativeMatrixFlexibleDimensionsPropertiesNV
 vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR
 vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
+vkGetPhysicalDeviceCooperativeVectorPropertiesNV
 vkGetPhysicalDeviceDisplayPlaneProperties2KHR
 vkGetPhysicalDeviceDisplayPlanePropertiesKHR
 vkGetPhysicalDeviceDisplayProperties2KHR
@@ -20341,6 +20394,7 @@ vkGetPhysicalDeviceExternalFencePropertiesKHR
 vkGetPhysicalDeviceExternalImageFormatPropertiesNV
 vkGetPhysicalDeviceExternalSemaphoreProperties
 vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
+vkGetPhysicalDeviceExternalTensorPropertiesARM
 vkGetPhysicalDeviceFeatures
 vkGetPhysicalDeviceFeatures2
 vkGetPhysicalDeviceFeatures2KHR
@@ -20360,6 +20414,8 @@ vkGetPhysicalDevicePresentRectanglesKHR
 vkGetPhysicalDeviceProperties
 vkGetPhysicalDeviceProperties2
 vkGetPhysicalDeviceProperties2KHR
+vkGetPhysicalDeviceQueueFamilyDataGraphProcessingEnginePropertiesARM
+vkGetPhysicalDeviceQueueFamilyDataGraphPropertiesARM
 vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR
 vkGetPhysicalDeviceQueueFamilyProperties
 vkGetPhysicalDeviceQueueFamilyProperties2
@@ -20381,12 +20437,14 @@ vkGetPhysicalDeviceVideoCapabilitiesKHR
 vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR
 vkGetPhysicalDeviceVideoFormatPropertiesKHR
 vkGetPhysicalDeviceXcbPresentationSupportKHR
+vkGetPipelineBinaryDataKHR
 vkGetPipelineCacheData
 vkGetPipelineExecutableInternalRepresentationsKHR
 vkGetPipelineExecutablePropertiesKHR
 vkGetPipelineExecutableStatisticsKHR
 vkGetPipelineIndirectDeviceAddressNV
 vkGetPipelineIndirectMemoryRequirementsNV
+vkGetPipelineKeyKHR
 vkGetPipelinePropertiesEXT
 vkGetPrivateData
 vkGetPrivateDataEXT
@@ -20400,6 +20458,7 @@ vkGetRayTracingShaderGroupHandlesNV
 vkGetRayTracingShaderGroupStackSizeKHR
 vkGetRefreshCycleDurationGOOGLE
 vkGetRenderAreaGranularity
+vkGetRenderingAreaGranularity
 vkGetRenderingAreaGranularityKHR
 vkGetSamplerOpaqueCaptureDescriptorDataEXT
 vkGetSemaphoreCounterValue
@@ -20412,6 +20471,9 @@ vkGetShaderModuleIdentifierEXT
 vkGetSwapchainCounterEXT
 vkGetSwapchainImagesKHR
 vkGetSwapchainStatusKHR
+vkGetTensorMemoryRequirementsARM
+vkGetTensorOpaqueCaptureDescriptorDataARM
+vkGetTensorViewOpaqueCaptureDescriptorDataARM
 vkGetValidationCacheDataEXT
 vkGetVideoSessionMemoryRequirementsKHR
 vkImportFenceFdKHR
@@ -20420,6 +20482,7 @@ vkInitializePerformanceApiINTEL
 vkInvalidateMappedMemoryRanges
 vkLatencySleepNV
 vkMapMemory
+vkMapMemory2
 vkMapMemory2KHR
 vkMergePipelineCaches
 vkMergeValidationCachesEXT
@@ -20436,10 +20499,12 @@ vkQueueSubmit2KHR
 vkQueueWaitIdle
 vkRegisterDeviceEventEXT
 vkRegisterDisplayEventEXT
+vkReleaseCapturedPipelineDataKHR
 vkReleaseDisplayEXT
 vkReleasePerformanceConfigurationINTEL
 vkReleaseProfilingLockKHR
 vkReleaseSwapchainImagesEXT
+vkReleaseSwapchainImagesKHR
 vkResetCommandBuffer
 vkResetCommandPool
 vkResetDescriptorPool
@@ -20460,17 +20525,22 @@ vkSetPrivateDataEXT
 vkSignalSemaphore
 vkSignalSemaphoreKHR
 vkSubmitDebugUtilsMessageEXT
+vkTransitionImageLayout
 vkTransitionImageLayoutEXT
 vkTrimCommandPool
 vkTrimCommandPoolKHR
 vkUninitializePerformanceApiINTEL
 vkUnmapMemory
+vkUnmapMemory2
 vkUnmapMemory2KHR
 vkUpdateDescriptorSetWithTemplate
 vkUpdateDescriptorSetWithTemplateKHR
 vkUpdateDescriptorSets
+vkUpdateIndirectExecutionSetPipelineEXT
+vkUpdateIndirectExecutionSetShaderEXT
 vkUpdateVideoSessionParametersKHR
 vkWaitForFences
+vkWaitForPresent2KHR
 vkWaitForPresentKHR
 vkWaitSemaphores
 vkWaitSemaphoresKHR
@@ -22322,6 +22392,7 @@ vr::TrackedCamera_ConvertMJPGToRGBX32_CPU(void const*, int, void*, int, int)
 vr::TrackedCamera_ConvertNV12ToRGBX32_CPU(void const*, void*, int, int, bool)
 vr::TrackedCamera_ConvertYUYVToRGBX32_CPU(void const*, void*, int, int)
 vr::VRDriverContext()::pHost
+vr::k_DefaultPathWriteOptions
 vr::k_InterfaceVersions
 vr_glove_left_skeleton.glb
 vr_glove_right_poses.glb
@@ -22343,20 +22414,20 @@ vr_internal::CVRPathReads::ReadBatch(unsigned long, vr_internal::CVRPathHandle c
 vr_internal::CVRPathWrites::CVRPathWrites(unsigned int)
 vr_internal::CVRPathWrites::CVRPathWrites(unsigned int) (.cold)
 vr_internal::CVRPathWrites::CopyToBuffer(char const*)
-vr_internal::CVRPathWrites::Push(char const*, bool)
-vr_internal::CVRPathWrites::Push(char const*, char const*)
-vr_internal::CVRPathWrites::Push(char const*, double)
-vr_internal::CVRPathWrites::Push(char const*, float)
-vr_internal::CVRPathWrites::Push(char const*, int)
-vr_internal::CVRPathWrites::Push(char const*, unsigned long)
-vr_internal::CVRPathWrites::Push(unsigned long, bool)
-vr_internal::CVRPathWrites::Push(unsigned long, char const*)
-vr_internal::CVRPathWrites::Push(unsigned long, double)
-vr_internal::CVRPathWrites::Push(unsigned long, float)
-vr_internal::CVRPathWrites::Push(unsigned long, int)
-vr_internal::CVRPathWrites::Push(unsigned long, unsigned long)
-vr_internal::CVRPathWrites::PushWrite(char const*, unsigned int, unsigned int)
-vr_internal::CVRPathWrites::PushWrite(unsigned long, unsigned int, unsigned int)
+vr_internal::CVRPathWrites::Push(char const*, bool, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, char const*, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, double, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, float, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, int, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, unsigned long, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, bool, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, char const*, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, double, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, float, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, int, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long, unsigned long, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::PushWrite(char const*, unsigned int, unsigned int, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::PushWrite(unsigned long, unsigned int, unsigned int, vr::PathWriteOptions_t const*)
 vr_internal::CVRPathWrites::Write(unsigned long)
 vr_internal::GetResourceFullPath(std::string const&)
 vr_internal::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)

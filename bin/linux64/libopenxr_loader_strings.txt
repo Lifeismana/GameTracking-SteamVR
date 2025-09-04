@@ -5598,6 +5598,7 @@ uw_update_context
 uw_update_context.cold
 uw_update_context_1
 uw_update_context_1.cold
+vDX)
 vector::_M_fill_insert
 vector::_M_realloc_insert
 vector::reserve

@@ -1,4 +1,4 @@
-var CLSTAMP = "9981652";
+var CLSTAMP = "10029581";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [526],
   {
@@ -7,7 +7,7 @@ var CLSTAMP = "9981652";
     },
     7813: (e, t, n) => {
       "use strict";
-      n.d(t, { jK: () => Xt });
+      n.d(t, { configure: () => Xt });
       function r(e) {
         for (
           var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1;

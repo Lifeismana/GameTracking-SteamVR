@@ -526,15 +526,9 @@ $3br
 ./obj_driver_lighthouse_linux32/release/driver_lighthouse.so
 .L10
 .L100
-.L1003
-.L1004
-.L1006
-.L1007
-.L1008
 .L1009
 .L101
 .L1010
-.L1011
 .L1012
 .L1013
 .L1014
@@ -548,20 +542,23 @@ $3br
 .L1021
 .L1022
 .L1023
+.L1024
+.L1025
 .L1026
+.L1027
+.L1028
+.L1029
 .L103
 .L10306
 .L10307
 .L10309
-.L1031
 .L10310
 .L10311
 .L10312
 .L10313
+.L1032
 .L10326
-.L1033
 .L1034
-.L1035
 .L10353
 .L10354
 .L10356
@@ -604,13 +601,15 @@ $3br
 .L105
 .L1050
 .L1051
+.L1052
 .L1053
+.L1054
+.L1055
 .L1056
 .L1057
 .L1059
 .L106
-.L1060
-.L1061
+.L1062
 .L10625
 .L10627
 .L10628
@@ -622,6 +621,10 @@ $3br
 .L10633
 .L10634
 .L10635
+.L1065
+.L1066
+.L1067
+.L1069
 .L107
 .L1074
 .L1075
@@ -629,9 +632,7 @@ $3br
 .L1078
 .L1079
 .L108
-.L1080
 .L1081
-.L1082
 .L1083
 .L1084
 .L1085
@@ -643,10 +644,15 @@ $3br
 .L1090
 .L1091
 .L1092
+.L1093
 .L1094
 .L1095
+.L1096
+.L1097
+.L1098
 .L11
 .L110
+.L1100
 .L111
 .L112
 .L113
@@ -1598,7 +1604,9 @@ $3br
 .L349
 .L35
 .L350
+.L351
 .L352
+.L353
 .L354
 .L3544
 .L3545
@@ -1657,6 +1665,7 @@ $3br
 .L3936
 .L3938
 .L3939
+.L394
 .L3940
 .L3941
 .L3942
@@ -1669,8 +1678,8 @@ $3br
 .L398
 .L399
 .L40
-.L400
 .L401
+.L402
 .L403
 .L404
 .L405
@@ -1702,7 +1711,6 @@ $3br
 .L423
 .L4230
 .L424
-.L425
 .L426
 .L427
 .L428
@@ -1747,13 +1755,12 @@ $3br
 .L45
 .L450
 .L451
+.L452
 .L453
 .L454
-.L455
 .L456
 .L457
 .L4575
-.L458
 .L4580
 .L459
 .L46
@@ -2026,9 +2033,11 @@ $3br
 .L61
 .L610
 .L611
+.L612
 .L613
 .L614
 .L615
+.L616
 .L617
 .L618
 .L619
@@ -2046,7 +2055,11 @@ $3br
 .L63
 .L630
 .L631
+.L632
 .L633
+.L634
+.L635
+.L636
 .L637
 .L638
 .L639
@@ -2127,7 +2140,6 @@ $3br
 .L68
 .L680
 .L681
-.L682
 .L683
 .L684
 .L685
@@ -2370,7 +2382,12 @@ $3br
 .L853
 .L854
 .L855
+.L856
+.L857
+.L858
+.L859
 .L86
+.L860
 .L8601
 .L8603
 .L8604
@@ -2461,15 +2478,9 @@ $3br
 .L9275
 .L9276
 .L9277
-.L928
 .L9293
 .L93
-.L930
-.L931
-.L932
-.L933
 .L934
-.L935
 .L9352
 .L9353
 .L9355
@@ -2498,7 +2509,10 @@ $3br
 .L9432
 .L9433
 .L9434
+.L944
 .L945
+.L946
+.L947
 .L948
 .L9481
 .L9483
@@ -2517,8 +2531,6 @@ $3br
 .L9506
 .L951
 .L9515
-.L952
-.L953
 .L9534
 .L9536
 .L9537
@@ -2527,7 +2539,7 @@ $3br
 .L954
 .L9540
 .L955
-.L956
+.L957
 .L9576
 .L9577
 .L9579
@@ -2538,12 +2550,15 @@ $3br
 .L9583
 .L9587
 .L9589
+.L959
 .L9590
 .L9591
 .L9592
 .L9593
 .L96
+.L960
 .L9609
+.L961
 .L9610
 .L9612
 .L9613
@@ -2559,20 +2574,22 @@ $3br
 .L9644
 .L9645
 .L9646
-.L965
-.L966
-.L967
 .L968
 .L97
 .L970
+.L971
 .L9718
 .L9719
+.L972
 .L9721
 .L9722
 .L9723
 .L9724
 .L9725
+.L973
 .L9734
+.L974
+.L976
 .L98
 .L9825
 .L9826
@@ -2624,6 +2641,7 @@ $3br
 /data/src/aitcamlib/work_thread.cpp
 /data/src/common/vrcommon/animation/animresourcemanager.cpp
 /data/src/common/vrcommon/drivermanager.cpp
+/data/src/common/vrcommon/ilockablepropertycontainer.h
 /data/src/common/vrcommon/openvr_internal.cpp
 /data/src/common/vrcommon/openvrtools.cpp
 /data/src/common/vrcommon/propertymanager.cpp
@@ -2803,7 +2821,6 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
-19:30:02
 19CWirelessDecoderWv2
 1e+9999
 2#.google.protobuf.FieldOptions.CType:
@@ -2825,6 +2842,7 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
+23:21:19
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -3032,6 +3050,7 @@ Attempt to add tilt observation to DB for %08X which has never had a dynamic sta
 Attempt to init shared state %s twice
 Attempted Default Load: 
 Attempted Gold Load: 
+Attempted to change property type from %d to %d
 Attempted to map already-mapped BO\n
 Attempted to map un-allocated BO\n
 Attempted to map un-mappable BO\n
@@ -3041,7 +3060,7 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Attempting HID Open %s: %s\n
 Audio
 AudioBridge
-Aug 15 2025
+Aug 29 2025
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)\n
@@ -3747,6 +3766,7 @@ CFixedSizePropertyContainer::ReadLock()
 CFixedSizePropertyContainer::ReadUnlock()
 CFixedSizePropertyContainer::SetPropertyErrorLocked(unsigned int, vr::ETrackedPropertyError, bool*)
 CFixedSizePropertyContainer::SetPropertyRawLocked(unsigned int, void const*, unsigned int, unsigned int, bool*)
+CFixedSizePropertyContainer::SetPropertyRawLocked(unsigned int, void const*, unsigned int, unsigned int, bool*) (.cold)
 CFixedSizePropertyContainer::UnsetPropertyLocked(unsigned int, bool*)
 CFixedSizePropertyContainer::WriteLock()
 CFixedSizePropertyContainer::WriteUnlock()
@@ -4439,13 +4459,13 @@ CRefCount::Release() const
 CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
+CSWTCH.110
 CSWTCH.111
-CSWTCH.128
+CSWTCH.123
 CSWTCH.131
 CSWTCH.139
 CSWTCH.142
 CSWTCH.146
-CSWTCH.161
 CSWTCH.2113
 CSWTCH.218
 CSWTCH.224
@@ -4751,6 +4771,7 @@ CThreadWatchdogManager::InitWatchdogs() (.cold)
 CThreadWatchdogManager::Register(CThreadWatchdog::Status_s*)
 CThreadWatchdogManager::Register(CThreadWatchdog::Status_s*) (.cold)
 CThreadWatchdogManager::ShouldWatchdog()
+CThreadWatchdogManager::ShouldWatchdog() (.part.0)
 CThreadWatchdogManager::Unregister(CThreadWatchdog::Status_s*)
 CThreadWatchdogManager::~CThreadWatchdogManager()
 CTrackedCameraCalibration::BHasWhiteBalance() const
@@ -5447,6 +5468,7 @@ Duplicate key: '
 ECameraHAL_OpenError_ToString
 ECameraHAL_OpenError_ToString.cold
 ECameraHAL_OpenError_ToString::mapStrings
+ENABLE_VULKAN_RENDERDOC_CAPTURE
 ERROR
 ERROR: Expected 1 float args, fDegrees'
 ERROR: Expected 1 float args, fPitchDegrees'
@@ -5647,6 +5669,7 @@ Failed
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Terminating.\n
 Failed Watchdog timeout in thread %s after %f seconds\n
 Failed to AllocMutex
 Failed to LockMgrMutex in AllocMutex
@@ -5847,6 +5870,7 @@ Format(char const*, ...) (.cold)
 Found Direct Mode Display\n
 Found default audio playback device %s, VID:%04x/PID:%04x %s\n
 Found default audio recording device %s, VID:%04x/PID:%04x %s\n
+Found environment variable %s=1. Enabling RenderDoc.\n
 Found environment variable STEAMVR_MOTION_AMD=1\n
 Found per-device override of unhandled type %d\n
 Found two slave bases (one oblivious cable sync slave and one confused optical sync slave).\n
@@ -6214,8 +6238,8 @@ IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -6257,7 +6281,6 @@ InitCameraHAL.cold
 InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) (.cold)
 InitIfNeeded
-InitInternalCameraPassthroughInterface(std::function<void* (char const*)>)
 InitInternalClientInterfaces(std::function<void* (char const*)>)
 InitInternalClientInterfaces(std::function<void* (char const*)>) (.cold)
 InitInternalDriverDirectInterface(std::function<void* (char const*)>)
@@ -6945,6 +6968,7 @@ LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*)::s_vTrian
 LoadMCImage()
 LoadMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int)
 LoadMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int) (.cold)
+LoadSimplifiedOrExplicitRectJson(Json::Value const&)
 Loaded Chromatic Correction Factors RED (%0.3f, %0.3f, %0.3f, %0.3f) BLUE (%0.3f, %0.3f, %0.3f, %0.3f) x %0.3f\n
 Loaded resource-only driver %s from %s\n
 Loaded server driver %s (%s) from %s\n
@@ -7524,6 +7548,13 @@ PchNameFromDistortion_Type(int)
 PchNameFromDistortion_Type(int) (.part.0)
 PchNameFromEye(int)
 PchNameFromStereo_Device_Type(int)
+PerDisplayScanoutScaling_t::BValid() const
+PerDisplayScanoutScaling_t::SetSimplified(math::Vec4T<int> const&, int, int)
+PerDisplayScanoutScaling_t::clear()
+PerDisplayScanoutScaling_t::from_json(Json::Value const&)
+PerDisplayScanoutScaling_t::from_json(Json::Value const&) (.cold)
+PerDisplayScanoutScaling_t::to_json() const
+PerDisplayScanoutScaling_t::to_json() const (.cold)
 PeripheralApplication
 PermissionDenied
 Persistent statistics file does not exist. Creating new %s\n
@@ -7814,7 +7845,8 @@ RenderDoc connected\n
 RenderDoc::CCaptureScope::CCaptureScope(VkInstance_T*)
 RenderDoc::CCaptureScope::CCaptureScope(void*)
 RenderDoc::CCaptureScope::~CCaptureScope()
-RenderDoc::Initialize()
+RenderDoc::Initialize(char const*)
+RenderDoc::Initialize(char const*) (.cold)
 RenderDoc::IsFrameCapturing()
 RenderDoc::TriggerCapture()
 RepairUTF8(char const*, char const*, std::string&)
@@ -8609,6 +8641,7 @@ VRApplicationError_SteamVRIsExiting
 VRApplicationError_TransitionAborted
 VRApplicationError_UnknownApplication
 VRApplicationError_UnknownProperty
+VRApplicationError_WaitingForChaperone
 VRApplication_Background
 VRApplication_Bootstrapper
 VRApplication_OpenXRInstance
@@ -9032,9 +9065,13 @@ VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
 VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
 VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoVideoSupport
+VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
+VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
 VRInputError_%d
 VRInputError_BufferTooSmall
@@ -9712,20 +9749,11 @@ _Fract
 _GLOBAL_
 _GLOBAL_OFFSET_TABLE_
 _GLOBAL__sub_I.00101_ipcposix.cpp
-_GLOBAL__sub_I_addposeoperation.cpp
 _GLOBAL__sub_I_aitcam_linux.cpp
 _GLOBAL__sub_I_aitcamera.cpp
-_GLOBAL__sub_I_animpose.cpp
 _GLOBAL__sub_I_animresource.cpp
-_GLOBAL__sub_I_animresourcefactory.cpp
-_GLOBAL__sub_I_animresourcemanager.cpp
-_GLOBAL__sub_I_animskeleton.cpp
-_GLOBAL__sub_I_animstatemachine.cpp
-_GLOBAL__sub_I_animutils.cpp
 _GLOBAL__sub_I_atomicops_internals_x86_gcc.cc
 _GLOBAL__sub_I_base64.cpp
-_GLOBAL__sub_I_blendposeoperation.cpp
-_GLOBAL__sub_I_bonemaskposeoperation.cpp
 _GLOBAL__sub_I_bonemaskresource.cpp
 _GLOBAL__sub_I_bonemaskresource.cpp.cold
 _GLOBAL__sub_I_cbasecamera.cpp
@@ -9745,28 +9773,22 @@ _GLOBAL__sub_I_disambiguation_sob.cpp
 _GLOBAL__sub_I_disambiguation_tdm.cpp
 _GLOBAL__sub_I_driver_lighthouse.cpp
 _GLOBAL__sub_I_driverlog.cpp
-_GLOBAL__sub_I_drivermanager.cpp
 _GLOBAL__sub_I_dynamic_message.cc
 _GLOBAL__sub_I_eh_alloc.cc
 _GLOBAL__sub_I_etroncamera.cpp
 _GLOBAL__sub_I_extension_set.cc
 _GLOBAL__sub_I_extension_set_heavy.cc
-_GLOBAL__sub_I_firmwaremanifest.cpp
 _GLOBAL__sub_I_generated_message_reflection.cc
 _GLOBAL__sub_I_generated_message_util.cc
 _GLOBAL__sub_I_handanimevaluator.cpp
-_GLOBAL__sub_I_handposelogic_indexcontroller.cpp
-_GLOBAL__sub_I_handposelogic_vivewand.cpp
 _GLOBAL__sub_I_hiddenarea.cpp
 _GLOBAL__sub_I_hiddevice.cpp
 _GLOBAL__sub_I_hmddisplay.cpp
-_GLOBAL__sub_I_hmderrors.cpp
 _GLOBAL__sub_I_htchmdusb.cpp
 _GLOBAL__sub_I_imu_only_tracker.cpp
 _GLOBAL__sub_I_ipcpipe.cpp
 _GLOBAL__sub_I_keyframeddataresource.cpp
 _GLOBAL__sub_I_keyframeddataresource.cpp.cold
-_GLOBAL__sub_I_keyframesamplerposeoperation.cpp
 _GLOBAL__sub_I_lighthouse_debug.pb.cc
 _GLOBAL__sub_I_lighthousebaseconfig.cpp
 _GLOBAL__sub_I_lighthousebasestationdriver.cpp
@@ -9787,33 +9809,24 @@ _GLOBAL__sub_I_lighthouseusb.cpp.cold
 _GLOBAL__sub_I_lighthouseutils.cpp
 _GLOBAL__sub_I_liquidvr.cpp
 _GLOBAL__sub_I_locale_inst.cc
-_GLOBAL__sub_I_localization.cpp
 _GLOBAL__sub_I_logbuffer.cpp
 _GLOBAL__sub_I_matrix44aligned.cpp
 _GLOBAL__sub_I_mcimage.cpp
-_GLOBAL__sub_I_mempool.cpp
 _GLOBAL__sub_I_message.cc
 _GLOBAL__sub_I_message_lite.cc
-_GLOBAL__sub_I_mirrorposeoperation.cpp
 _GLOBAL__sub_I_once.cc
 _GLOBAL__sub_I_openvr_internal.cpp
-_GLOBAL__sub_I_poserecipe.cpp
-_GLOBAL__sub_I_poseupdatecontext.cpp
-_GLOBAL__sub_I_propertymanager.cpp
 _GLOBAL__sub_I_quaternionaligned.cpp
 _GLOBAL__sub_I_reflection.cpp
 _GLOBAL__sub_I_reflection_ops.cc
 _GLOBAL__sub_I_repeated_field.cc
-_GLOBAL__sub_I_settingsmanager.cpp
 _GLOBAL__sub_I_sharedresourcenamespace.cpp
-_GLOBAL__sub_I_skeletonlist.cpp
 _GLOBAL__sub_I_stringprintf.cc
 _GLOBAL__sub_I_strtod.cc
 _GLOBAL__sub_I_strtools_public.cpp
 _GLOBAL__sub_I_structurally_valid.cc
 _GLOBAL__sub_I_strutil.cc
 _GLOBAL__sub_I_substitute.cc
-_GLOBAL__sub_I_subtractposeoperation.cpp
 _GLOBAL__sub_I_swsyncdetect.cpp
 _GLOBAL__sub_I_syncdetect.cpp
 _GLOBAL__sub_I_system_error.cc
@@ -9822,11 +9835,9 @@ _GLOBAL__sub_I_text_format.cc
 _GLOBAL__sub_I_thread.cpp
 _GLOBAL__sub_I_threadtools.cpp
 _GLOBAL__sub_I_threadwatchdog.cpp
-_GLOBAL__sub_I_threadwatchdog_server.cpp
 _GLOBAL__sub_I_tokenizer.cc
 _GLOBAL__sub_I_trackeddeviceadapters.cpp
 _GLOBAL__sub_I_transform.cpp
-_GLOBAL__sub_I_twoboneikposeoperation.cpp
 _GLOBAL__sub_I_unknown_field_set.cc
 _GLOBAL__sub_I_userdatathread.cpp
 _GLOBAL__sub_I_vectoraligned.cpp
@@ -9836,7 +9847,6 @@ _GLOBAL__sub_I_vrcontroller.cpp
 _GLOBAL__sub_I_vrcontrollerusb.cpp
 _GLOBAL__sub_I_vrcrash.cpp
 _GLOBAL__sub_I_vrlog.cpp
-_GLOBAL__sub_I_vrmailbox.cpp
 _GLOBAL__sub_I_wire_format.cc
 _GLOBAL__sub_I_wire_format_lite.cc
 _GLOBAL__sub_I_wlocale_inst.cc
@@ -10334,6 +10344,8 @@ bl_ctl
 black_clamp
 blank
 blocked_by_safe_mode
+blue_dest
+blue_src
 bodnok
 bonemask_fingeraux.txt
 bonemask_grip.txt
@@ -13433,6 +13445,7 @@ int32
 int64
 intensity
 interface
+internal
 internet
 interpolation
 intrinsics
@@ -15117,6 +15130,8 @@ recording\n
 recv
 recvfrom
 recvmsg
+red_dest
+red_src
 redirectsDisplay
 refDistance
 reference temporary #
@@ -15198,6 +15213,7 @@ sc_schinese
 scalar
 scale
 scandir
+scanout_scaling
 scene
 scenes
 sched_get_priority_max
@@ -22741,6 +22757,7 @@ vr::TrackedCamera_ConvertMJPGToRGBX32_CPU(void const*, int, void*, int, int)
 vr::TrackedCamera_ConvertNV12ToRGBX32_CPU(void const*, void*, int, int, bool)
 vr::TrackedCamera_ConvertYUYVToRGBX32_CPU(void const*, void*, int, int)
 vr::VRDriverContext()::pHost
+vr::k_DefaultPathWriteOptions
 vr::k_InterfaceVersions
 vr_glove_left_skeleton.glb
 vr_glove_right_poses.glb
@@ -22762,20 +22779,20 @@ vr_internal::CVRPathReads::ReadBatch(unsigned long long, vr_internal::CVRPathHan
 vr_internal::CVRPathWrites::CVRPathWrites(unsigned int)
 vr_internal::CVRPathWrites::CVRPathWrites(unsigned int) (.cold)
 vr_internal::CVRPathWrites::CopyToBuffer(char const*)
-vr_internal::CVRPathWrites::Push(char const*, bool)
-vr_internal::CVRPathWrites::Push(char const*, char const*)
-vr_internal::CVRPathWrites::Push(char const*, double)
-vr_internal::CVRPathWrites::Push(char const*, float)
-vr_internal::CVRPathWrites::Push(char const*, int)
-vr_internal::CVRPathWrites::Push(char const*, unsigned long long)
-vr_internal::CVRPathWrites::Push(unsigned long long, bool)
-vr_internal::CVRPathWrites::Push(unsigned long long, char const*)
-vr_internal::CVRPathWrites::Push(unsigned long long, double)
-vr_internal::CVRPathWrites::Push(unsigned long long, float)
-vr_internal::CVRPathWrites::Push(unsigned long long, int)
-vr_internal::CVRPathWrites::Push(unsigned long long, unsigned long long)
-vr_internal::CVRPathWrites::PushWrite(char const*, unsigned int, unsigned int)
-vr_internal::CVRPathWrites::PushWrite(unsigned long long, unsigned int, unsigned int)
+vr_internal::CVRPathWrites::Push(char const*, bool, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, char const*, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, double, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, float, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, int, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(char const*, unsigned long long, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long long, bool, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long long, char const*, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long long, double, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long long, float, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long long, int, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::Push(unsigned long long, unsigned long long, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::PushWrite(char const*, unsigned int, unsigned int, vr::PathWriteOptions_t const*)
+vr_internal::CVRPathWrites::PushWrite(unsigned long long, unsigned int, unsigned int, vr::PathWriteOptions_t const*)
 vr_internal::CVRPathWrites::Write(unsigned long long)
 vr_internal::GetResourceFullPath(std::string const&)
 vr_internal::Localize(std::string const&, std::string const&, std::string const&, std::string const&, std::string const&)

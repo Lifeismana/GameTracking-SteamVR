@@ -1,4 +1,4 @@
-var CLSTAMP = "9981652";
+var CLSTAMP = "10029581";
 (() => {
   "use strict";
   var e,
@@ -821,7 +821,7 @@ var CLSTAMP = "9981652";
         var g,
           m = r(2505),
           f = r.n(m);
-        (0, r(7813).jK)({ enforceActions: "never" }),
+        (0, r(7813).configure)({ enforceActions: "never" }),
           (function (e) {
             (e[(e.WaitingForReport = 0)] = "WaitingForReport"),
               (e[(e.Parsing = 1)] = "Parsing"),

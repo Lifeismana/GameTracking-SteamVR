@@ -377,7 +377,7 @@ Forced execute test failed!\n
 FormatV
 GAMECONSOLE
 GAMEDLL
-GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
+GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt2) 5.4.1 20160803
 GERMAN
 GLIBC_2.11
 GLIBC_2.14
@@ -841,6 +841,7 @@ YieldWait
 [%f %f %f %f]
 [ConsoleOnly]
 [DoNotEcho]
+\rOZi
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses

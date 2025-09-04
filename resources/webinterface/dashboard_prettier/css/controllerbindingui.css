@@ -2406,4 +2406,75 @@ input.ActionAliasUserSuppliedName {
 .svg_library_recordingCircle_2ovZQ {
   animation: svg_library_AnimationFadeOutIn_1lEwX 5s infinite linear;
 }
+.frames_FrameMainContent_1HmEr {
+  background: #222;
+  color: #fff;
+  width: 1920px;
+  height: 450px;
+  font-size: 40px;
+  zoom: 0.5;
+  padding: .4em;
+  border-radius: .4em;
+  overflow-y: auto;
+}
+.frames_DevUI_IZ74H {
+  background: #222;
+  color: #fff;
+  width: 600px;
+  max-height: 400px;
+  padding: .4em;
+  border-radius: .4em;
+  display: flex;
+  flex-direction: column;
+}
+.frames_DevUIFrames_U5mZW {
+  overflow: auto;
+}
+.frames_DevUI_IZ74H input,
+.frames_DevUI_IZ74H button,
+.frames_FrameMainContent_1HmEr input,
+.frames_FrameMainContent_1HmEr button {
+  background: #fff;
+  color: #000;
+  height: 1em;
+  box-sizing: content-box;
+  font-size: 1em;
+  border: none;
+  display: inline-block;
+  margin: 1px;
+  border-radius: 2px;
+}
+.frames_DevUI_IZ74H input:hover,
+.frames_DevUI_IZ74H button:hover,
+.frames_FrameMainContent_1HmEr input:hover,
+.frames_FrameMainContent_1HmEr button:hover {
+  background: #bbb;
+}
+.frames_DevUI_IZ74H input:active,
+.frames_DevUI_IZ74H button:active,
+.frames_FrameMainContent_1HmEr input:active,
+.frames_FrameMainContent_1HmEr button:active {
+  background: #000;
+  color: #fff;
+}
+.frames_DevUI_IZ74H .frames_DevUIFrame_1gzHz button {
+  margin-right: 1ch;
+}
+.frames_DevUI_IZ74H input {
+  height: 1em;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+.frames_DevUI_IZ74H pre {
+  padding: 0;
+  margin: 0;
+  font-size: .8em;
+}
+.frames_DevUIFrame_1gzHz {
+  padding: .5em 0;
+}
+.frames_DevUIFrame_1gzHz:not(:last-child) {
+  border-bottom: solid 1px gray;
+  margin-bottom: .5em;
+}
 /*# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/controllerbindingui.css.map*/

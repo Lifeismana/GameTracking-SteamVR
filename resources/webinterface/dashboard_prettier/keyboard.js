@@ -1,125 +1,287 @@
-var CLSTAMP = "9981652";
+var CLSTAMP = "10029581";
 (() => {
   "use strict";
   var e,
     t = {
+      6035: (e, t, s) => {
+        s.d(t, { P: () => g });
+        var n,
+          a,
+          i = s(6540),
+          o = s(3815),
+          l = s(4452),
+          r = "function" == typeof Symbol && Symbol.for,
+          h =
+            null !==
+              (a =
+                null ===
+                  (n = Object.getOwnPropertyDescriptor(
+                    function () {},
+                    "name",
+                  )) || void 0 === n
+                  ? void 0
+                  : n.configurable) &&
+            void 0 !== a &&
+            a,
+          u = r
+            ? Symbol.for("react.forward_ref")
+            : "function" == typeof i.forwardRef &&
+              (0, i.forwardRef)(function (e) {
+                return null;
+              }).$$typeof,
+          d = r
+            ? Symbol.for("react.memo")
+            : "function" == typeof i.memo &&
+              (0, i.memo)(function (e) {
+                return null;
+              }).$$typeof;
+        function g(e, t) {
+          var s;
+          if (d && e.$$typeof === d)
+            throw new Error(
+              "[mobx-react-lite] You are trying to use `observer` on a function component wrapped in either another `observer` or `React.memo`. The observer already applies 'React.memo' for you.",
+            );
+          if ((0, o.P)()) return e;
+          var n =
+              null !== (s = null == t ? void 0 : t.forwardRef) &&
+              void 0 !== s &&
+              s,
+            a = e,
+            r = e.displayName || e.name;
+          if (
+            u &&
+            e.$$typeof === u &&
+            ((n = !0), "function" != typeof (a = e.render))
+          )
+            throw new Error(
+              "[mobx-react-lite] `render` property of ForwardRef was not a function",
+            );
+          var g,
+            m,
+            c = function (e, t) {
+              return (0, l.q)(function () {
+                return a(e, t);
+              }, r);
+            };
+          return (
+            (c.displayName = e.displayName),
+            h &&
+              Object.defineProperty(c, "name", {
+                value: e.name,
+                writable: !0,
+                configurable: !0,
+              }),
+            e.contextTypes && (c.contextTypes = e.contextTypes),
+            n && (c = (0, i.forwardRef)(c)),
+            (c = (0, i.memo)(c)),
+            (g = e),
+            (m = c),
+            Object.keys(g).forEach(function (e) {
+              y[e] ||
+                Object.defineProperty(
+                  m,
+                  e,
+                  Object.getOwnPropertyDescriptor(g, e),
+                );
+            }),
+            c
+          );
+        }
+        var y = {
+          $$typeof: !0,
+          render: !0,
+          compare: !0,
+          type: !0,
+          displayName: !0,
+        };
+      },
+      4452: (e, t, s) => {
+        s.d(t, { q: () => u });
+        var n = s(7813),
+          a = s(6540),
+          i = s(6356),
+          o = s(3815),
+          l = s(7380),
+          r = s(9888);
+        function h(e) {
+          e.reaction = new n.Reaction("observer".concat(e.name), function () {
+            var t;
+            (e.stateVersion = Symbol()),
+              null === (t = e.onStoreChange) || void 0 === t || t.call(e);
+          });
+        }
+        function u(e, t) {
+          if ((void 0 === t && (t = "observed"), (0, o.P)())) return e();
+          var s = a.useRef(null);
+          if (!s.current) {
+            var n = {
+              reaction: null,
+              onStoreChange: null,
+              stateVersion: Symbol(),
+              name: t,
+              subscribe: function (e) {
+                return (
+                  l.Y.unregister(n),
+                  (n.onStoreChange = e),
+                  n.reaction || (h(n), (n.stateVersion = Symbol())),
+                  function () {
+                    var e;
+                    (n.onStoreChange = null),
+                      null === (e = n.reaction) || void 0 === e || e.dispose(),
+                      (n.reaction = null);
+                  }
+                );
+              },
+              getSnapshot: function () {
+                return n.stateVersion;
+              },
+            };
+            s.current = n;
+          }
+          var u,
+            d,
+            g = s.current;
+          if (
+            (g.reaction || (h(g), l.Y.register(s, g, g)),
+            a.useDebugValue(g.reaction, i.E),
+            (0, r.useSyncExternalStore)(
+              g.subscribe,
+              g.getSnapshot,
+              g.getSnapshot,
+            ),
+            g.reaction.track(function () {
+              try {
+                u = e();
+              } catch (e) {
+                d = e;
+              }
+            }),
+            d)
+          )
+            throw d;
+          return u;
+        }
+      },
       6090: (e, t, s) => {
         s.d(t, {
-          $: () => _.$,
+          $: () => w.$,
           $Z: () => V.$Z,
-          Ay: () => w,
-          CU: () => n.CU,
-          Ci: () => p.C,
+          Ay: () => M,
+          CU: () => a.CU,
+          Ci: () => f.C,
           Cw: () => i.C,
           Ee: () => V.Ee,
-          Em: () => g.Em,
-          Fb: () => n.Fb,
-          Fi: () => f.Fi,
+          Em: () => u.Em,
+          Fb: () => a.Fb,
+          Fi: () => p.Fi,
+          GM: () => d.GM,
           GQ: () => V.GQ,
           Gz: () => V.Gz,
           HW: () => V.HW,
-          I0: () => a.I0,
-          JZ: () => n.JZ,
-          KI: () => _.KI,
-          Ld: () => n.Ld,
-          MQ: () => f.MQ,
+          I0: () => n.I0,
+          IS: () => r.I,
+          JZ: () => a.JZ,
+          KI: () => w.KI,
+          Ld: () => a.Ld,
+          MQ: () => p.MQ,
           MV: () => V.MV,
           N: () => o.e,
           N1: () => c.N,
           NB: () => V.NB,
-          NH: () => n.NH,
-          O5: () => d.O,
-          O6: () => n.O6,
+          NH: () => a.NH,
+          O5: () => g.O,
+          O6: () => a.O6,
           OH: () => V.OH,
-          Oi: () => f.Oi,
-          QB: () => n.QB,
-          QR: () => _.QR,
+          Oi: () => p.Oi,
+          QB: () => a.QB,
+          QR: () => w.QR,
           R$: () => V.R$,
           Rk: () => V.Rk,
-          Se: () => n.Se,
-          Uj: () => n.Uj,
+          Se: () => a.Se,
+          Uj: () => a.Uj,
           Vh: () => y.V,
           Xl: () => V.Xl,
-          Y4: () => r.Y,
-          Zk: () => f.Zk,
+          Y4: () => l.Y,
+          Zk: () => p.Zk,
           _1: () => V._1,
-          _h: () => f._h,
-          _n: () => a._n,
+          _h: () => p._h,
+          _n: () => n._n,
           aX: () => y.a,
           b: () => V.b,
-          b$: () => R.b,
-          cB: () => T.L,
-          dL: () => u.d,
-          e_: () => n.e_,
-          en: () => _.en,
-          fD: () => _.fD,
+          b$: () => T.b,
+          cB: () => S.L,
+          dL: () => h.d,
+          e_: () => a.e_,
+          en: () => w.en,
+          fD: () => w.fD,
           gN: () => V.gN,
-          gO: () => l.g,
           k2: () => V.k2,
           kG: () => V.kG,
           ku: () => V.ku,
           lq: () => m.l,
           m$: () => b.m,
-          mX: () => a.mX,
+          mX: () => n.mX,
           mo: () => V.mo,
           mu: () => V.mu,
-          nX: () => g.nX,
+          nX: () => u.nX,
           ne: () => V.ne,
-          nq: () => v.n,
-          oN: () => n.oN,
-          o_: () => n.o_,
-          p0: () => n.p0,
+          nq: () => k.n,
+          oN: () => a.oN,
+          o_: () => a.o_,
+          p0: () => a.p0,
           pM: () => V.pM,
-          pg: () => a.pg,
-          qF: () => n.qF,
-          rF: () => h.H,
+          pg: () => n.pg,
+          qF: () => a.qF,
+          rF: () => r.H,
           rx: () => V.rx,
-          sJ: () => k.$,
-          sk: () => a.sk,
-          tx: () => n.tx,
-          uC: () => S.u,
-          vx: () => n.vx,
+          sJ: () => v.$,
+          sk: () => n.sk,
+          tx: () => a.tx,
+          uC: () => R.u,
+          vx: () => a.vx,
         });
-        var a = s(2824),
-          n = s(6292),
+        var n = s(2824),
+          a = s(6292),
           i = s(3389),
-          l = (s(4120), s(9424)),
-          o = s(1230),
-          r = s(5830),
-          h = s(6186),
-          u = s(3361),
-          g = (s(111), s(5723)),
-          d = (s(3496), s(5178)),
+          o = (s(4120), s(1230)),
+          l = s(5830),
+          r = s(6186),
+          h = s(3361),
+          u = (s(111), s(5723)),
+          d = s(3496),
+          g = s(5178),
           y = (s(428), s(9011), s(7350)),
           m = s(6847),
           c = s(5227),
-          p = (s(10), s(1808)),
-          f = s(7019),
+          f = (s(10), s(1808)),
+          p = s(7019),
           b = (s(1988), s(2527), s(9864)),
-          k = (s(4189), s(322), s(1977), s(6417)),
-          v = s(2303),
-          T = s(8715),
-          R = (s(4397), s(5459)),
-          S = s(8472),
+          v = (s(4189), s(322), s(1977), s(6417)),
+          k = s(2303),
+          S = s(8715),
+          T = (s(4397), s(5459)),
+          R = s(8472),
           V = (s(1184), s(3725)),
-          _ = s(4367);
-        const w = VRHTML;
+          w = s(4367);
+        const M = VRHTML;
       },
       7511: (e, t, s) => {
-        var a = s(1635),
-          n = s(6540),
+        var n = s(1635),
+          a = s(6540),
           i = s(5338),
-          l = s(2505),
-          o = s.n(l),
+          o = s(2505),
+          l = s.n(o),
           r = s(3236),
           h = s(6090),
           u = s(3714),
-          g = s(1333),
-          d = s(9118),
+          d = s(1333),
+          g = s(9118),
           y = s(1532),
-          m = s(6138);
-        (0, s(7813).jK)({ enforceActions: "never" });
-        class c extends n.Component {
+          m = s(6138),
+          c = s(7813),
+          f = s(582);
+        (0, c.configure)({ enforceActions: "never" });
+        class p extends a.Component {
           constructor(e) {
             super(e),
               (this.m_genid = 0),
@@ -128,17 +290,7 @@ var CLSTAMP = "9981652";
               (this.m_keyTypeToHandler = null),
               (this.m_curShiftPlane = null),
               (this.m_keyElements = null),
-              (this.m_mailbox = new h._n()),
-              this.m_mailbox.Init("keyboard_vrwebui").then(() => {
-                this.m_mailbox.RegisterHandler(
-                  "keyboard_shown",
-                  this.OnKeyboardShown,
-                ),
-                  this.m_mailbox.RegisterHandler(
-                    "keyboard_hidden",
-                    this.OnKeyboardHidden,
-                  );
-              }),
+              (this.m_KeyboardVisibilityCallbackHandle = null),
               this.initializeKeyHandlers(),
               (this.state = {
                 bFading: !1,
@@ -159,28 +311,45 @@ var CLSTAMP = "9981652";
               null === VRHTML ||
                 void 0 === VRHTML ||
                 VRHTML.VRKeyboard.LoadSuggestionsForLanguage(this.language()),
-              g.HR.Init(!1);
+              d.HR.Init(!1);
           }
-          OnKeyboardHidden(e) {
-            this.setState({ bVisible: !1 });
-          }
-          OnKeyboardShown(e) {
-            const t =
-              null === VRHTML || void 0 === VRHTML
+          componentDidMount() {
+            var e;
+            this.m_KeyboardVisibilityCallbackHandle =
+              null ===
+                (e =
+                  null === VRHTML || void 0 === VRHTML
+                    ? void 0
+                    : VRHTML.RegisterForKeyboardInfoChangedEvents) ||
+              void 0 === e
                 ? void 0
-                : VRHTML.VRDashboardManager.GetKeyboardInputInfo();
-            this.setState({
-              bVisible: !0,
-              bDockedInDashboard: t.dockedInDashboard,
-              inputMode: t.inputMode,
-              bMinimalMode: !!(h.QR.Minimal & t.keyboardFlags),
-              bMultilinePreview: t.lineMode == h.b.MultipleLines,
-              text: t.keyboardBuffer,
-              textPos: t.keyboardBuffer.length,
-            }),
-              this.updateSuggestions(t.keyboardBuffer),
-              this.getLayout("base"),
-              this.getLayout(this.language());
+                : e.call(VRHTML, this.onKeyboardInfoChanged);
+          }
+          componentWillUnmount() {
+            var e;
+            null === (e = this.m_KeyboardVisibilityCallbackHandle) ||
+              void 0 === e ||
+              e.unregister();
+          }
+          onKeyboardInfoChanged(e) {
+            if (e.visible) {
+              const t =
+                null === VRHTML || void 0 === VRHTML
+                  ? void 0
+                  : VRHTML.VRDashboardManager.GetKeyboardBuffer();
+              this.setState({
+                bVisible: !0,
+                bDockedInDashboard: e.dockedInDashboard,
+                inputMode: e.inputMode,
+                bMinimalMode: !!(h.QR.Minimal & e.keyboardFlags),
+                bMultilinePreview: e.lineMode == h.b.MultipleLines,
+                text: t,
+                textPos: t.length,
+              }),
+                this.updateSuggestions(t),
+                this.getLayout("base"),
+                this.getLayout(this.language());
+            } else this.setState({ bVisible: !1 });
           }
           startClose() {
             this.setState({ bVisible: !1 }),
@@ -212,9 +381,9 @@ var CLSTAMP = "9981652";
             return this.state.inputMode == h.Xl.Password;
           }
           getLayoutFile(e) {
-            return (0, a.sH)(this, void 0, void 0, function* () {
+            return (0, n.sH)(this, void 0, void 0, function* () {
               let t = `/dashboard/keyboards/layout_${e}_${this.state.presentation}.json`;
-              return o()
+              return l()
                 .get(t)
                 .then((e) => (200 != e.status ? null : e.data))
                 .catch((t) =>
@@ -253,6 +422,7 @@ var CLSTAMP = "9981652";
               this.m_keyTypeToHandler.set("return", this.handleReturn);
           }
           findShiftPlane(e) {
+            if (!this.state.langLayout) return null;
             for (let t of this.state.langLayout.shiftPlanes)
               if (t.name == e) return t;
             return null;
@@ -312,8 +482,8 @@ var CLSTAMP = "9981652";
                 t = this.state.text.substr(this.state.textPos);
               if (e.length > 0) {
                 let s = e.substr(0, e.length - 1) + t,
-                  a = this.state.textPos - 1;
-                this.UpdateText(s, a);
+                  n = this.state.textPos - 1;
+                this.UpdateText(s, n);
               }
             }
           }
@@ -355,9 +525,9 @@ var CLSTAMP = "9981652";
             let s = t;
             for (; s > 0 && !this.isWhite(e[s]); ) s -= 1;
             s < e.length && this.isWhite(e[s]) && (s += 1);
-            let a = s;
-            for (; a < e.length && !this.isWhite(e[a]); ) a += 1;
-            return [s, a];
+            let n = s;
+            for (; n < e.length && !this.isWhite(e[n]); ) n += 1;
+            return [s, n];
           }
           getSuggestionBase(e, t) {
             let s = this.findWordLimits(e, t);
@@ -398,15 +568,15 @@ var CLSTAMP = "9981652";
             if (s) {
               let e = this.state.text.substr(0, s[0]);
               t += " ";
-              let a = e + t + this.state.text.substr(s[1]),
-                n = e.length + t.length;
-              this.UpdateText(a, n);
+              let n = e + t + this.state.text.substr(s[1]),
+                a = e.length + t.length;
+              this.UpdateText(n, a);
             }
           }
           makeKeyFaceElement(e, t) {
             let s = "VRKBKeyFace";
             if ((t && (s += ` VRKBShift_${t.name}`), "string" == typeof e))
-              return n.createElement(
+              return a.createElement(
                 "span",
                 { key: this.genid(), className: s },
                 e,
@@ -416,7 +586,7 @@ var CLSTAMP = "9981652";
               e.value ? e.value : e.text;
               switch (
                 (e.img &&
-                  (t = n.createElement("img", {
+                  (t = a.createElement("img", {
                     src: `/dashboard/images/vrkeyboard/${e.img}.png`,
                   })),
                 "string" == typeof t && t.startsWith("#") && (t = (0, u.we)(t)),
@@ -428,19 +598,19 @@ var CLSTAMP = "9981652";
                 case "cancel":
                 case "shift":
                 case "return":
-                  return n.createElement(
+                  return a.createElement(
                     "span",
                     { key: this.genid(), className: s },
                     t,
                   );
                 case "done":
-                  return n.createElement(
+                  return a.createElement(
                     "span",
                     { key: this.genid(), className: s + " VRKBDone" },
                     t,
                   );
                 case "hole":
-                  return n.createElement("span", {
+                  return a.createElement("span", {
                     key: this.genid(),
                     className: s,
                   });
@@ -471,28 +641,28 @@ var CLSTAMP = "9981652";
                 );
             }
             if (0 == s.length)
-              for (let a of this.state.langLayout.shiftPlanes)
-                e < a.rows.length &&
-                  t < a.rows[e].length &&
-                  s.push(this.makeKeyFaceElement(a.rows[e][t], a));
+              for (let n of this.state.langLayout.shiftPlanes)
+                e < n.rows.length &&
+                  t < n.rows[e].length &&
+                  s.push(this.makeKeyFaceElement(n.rows[e][t], n));
             return s;
           }
           getKeyElements() {
             let e = [];
             for (let t = 0; t < this.state.layout.geometry.length; ++t) {
               let s = this.state.layout.geometry[t],
-                a = [];
+                n = [];
               for (let e = 0; e < s.keys.length; ++e) {
                 let i = s.keys[e],
-                  l = {};
-                i.flexGrow && (l.flexGrow = i.flexGrow),
-                  i.flexShrink && (l.flexShrink = i.flexShrink),
+                  o = {};
+                i.flexGrow && (o.flexGrow = i.flexGrow),
+                  i.flexShrink && (o.flexShrink = i.flexShrink),
                   this.state.shiftPlaneName == i.type &&
-                    (l.background = "#000"),
+                    (o.background = "#000"),
                   this.state.activeKey.nCol == e &&
                     this.state.activeKey.nRow == t &&
-                    (l.background = "#000");
-                let o = this.getKeyFaces(t, e),
+                    (o.background = "#000");
+                let l = this.getKeyFaces(t, e),
                   r = () => {
                     "done" == i.type && this.onKey(t, e);
                   },
@@ -505,8 +675,8 @@ var CLSTAMP = "9981652";
                     "done" != i.type &&
                       this.setState({ activeKey: { nRow: -1, nCol: -1 } });
                   };
-                a.push(
-                  n.createElement(
+                n.push(
+                  a.createElement(
                     m.$,
                     {
                       key: this.genid(),
@@ -515,26 +685,26 @@ var CLSTAMP = "9981652";
                       onClick: r,
                       onMouseDown: h,
                       onMouseUp: u,
-                      style: l,
+                      style: o,
                     },
-                    o,
+                    l,
                   ),
                 );
               }
               let i = {};
               s.height && (i.height = s.height),
                 e.push(
-                  n.createElement(
+                  a.createElement(
                     "div",
                     { key: this.genid(), className: "VRKBRow", style: i },
-                    a,
+                    n,
                   ),
                 );
             }
-            return n.createElement("div", { className: "VRKBRows" }, e);
+            return a.createElement("div", { className: "VRKBRows" }, e);
           }
           makeCursor() {
-            return n.createElement(
+            return a.createElement(
               "span",
               { key: this.genid(), className: "VRKBPreviewTextCursor" },
               "|",
@@ -544,29 +714,29 @@ var CLSTAMP = "9981652";
             let e = this.state.text.substr(0, this.state.textPos),
               t = this.state.text.substr(this.state.textPos);
             return this.bShowPasswordPreview()
-              ? ((e = c.kPasswordChar.repeat(e.length)),
-                (t = c.kPasswordChar.repeat(t.length)),
+              ? ((e = p.kPasswordChar.repeat(e.length)),
+                (t = p.kPasswordChar.repeat(t.length)),
                 [
-                  n.createElement(
+                  a.createElement(
                     "span",
                     { key: this.genid(), className: "VRKBPreviewTextPart" },
-                    c.kPasswordChar.repeat(e.length),
+                    p.kPasswordChar.repeat(e.length),
                   ),
                   this.makeCursor(),
-                  n.createElement(
+                  a.createElement(
                     "span",
                     { key: this.genid(), className: "VRKBPreviewTextPart" },
-                    c.kPasswordChar.repeat(t.length),
+                    p.kPasswordChar.repeat(t.length),
                   ),
                 ])
               : [
-                  n.createElement(
+                  a.createElement(
                     "span",
                     { key: this.genid(), className: "VRKBPreviewTextPart" },
                     e,
                   ),
                   this.makeCursor(),
-                  n.createElement(
+                  a.createElement(
                     "span",
                     { key: this.genid(), className: "VRKBPreviewTextPart" },
                     t,
@@ -578,7 +748,7 @@ var CLSTAMP = "9981652";
             if (this.state.suggestions)
               for (let t = 0; t < this.state.suggestions.length; ++t)
                 e.push(
-                  n.createElement(
+                  a.createElement(
                     "div",
                     {
                       key: this.genid(),
@@ -594,7 +764,7 @@ var CLSTAMP = "9981652";
               ++t
             )
               e.push(
-                n.createElement("div", {
+                a.createElement("div", {
                   key: this.genid(),
                   className: "VRKBSuggestion",
                 }),
@@ -604,15 +774,15 @@ var CLSTAMP = "9981652";
           renderFlatPreview() {
             return this.state.bMinimalMode
               ? null
-              : n.createElement(
+              : a.createElement(
                   "div",
                   { className: "VRKBPreviewWrapper" },
-                  n.createElement(
+                  a.createElement(
                     "div",
                     { key: this.genid(), className: "VRKBPreviewText" },
                     this.makePreviewText(),
                   ),
-                  n.createElement(
+                  a.createElement(
                     "div",
                     { key: this.genid(), className: "VRKBSuggestionWrapper" },
                     this.makeSuggestionElements(),
@@ -620,16 +790,16 @@ var CLSTAMP = "9981652";
                 );
           }
           render_flat() {
-            return n.createElement(
+            return a.createElement(
               h.dL,
               { parent_path: "/user/head" },
-              n.createElement(
+              a.createElement(
                 h.m$,
                 null,
-                n.createElement(
+                a.createElement(
                   h.dL,
                   { translation: this.state.layout.translation },
-                  n.createElement(
+                  a.createElement(
                     h.Zk,
                     {
                       width: void 0,
@@ -638,12 +808,12 @@ var CLSTAMP = "9981652";
                       sort_depth_bias: 0.2,
                       debug_name: "keyboard-flat",
                     },
-                    n.createElement(
+                    a.createElement(
                       "div",
                       {
                         className: `VRKBShiftState VRKBChooseShift_${this.state.shiftPlaneName}`,
                       },
-                      n.createElement(
+                      a.createElement(
                         "div",
                         { className: "VRKBBackground" },
                         this.renderFlatPreview(),
@@ -656,12 +826,12 @@ var CLSTAMP = "9981652";
             );
           }
           render_overlay() {
-            return n.createElement(
+            return a.createElement(
               "div",
               {
                 className: `VRKBContainer VRKBShiftState VRKBChooseShift_${this.state.shiftPlaneName}`,
               },
-              n.createElement(
+              a.createElement(
                 "div",
                 { className: "VRKBBackground" },
                 this.renderFlatPreview(),
@@ -693,19 +863,18 @@ var CLSTAMP = "9981652";
             }
           }
         }
-        (c.kPasswordChar = "●"),
-          (0, a.Cg)([r.o], c.prototype, "OnKeyboardHidden", null),
-          (0, a.Cg)([r.o], c.prototype, "OnKeyboardShown", null),
-          (0, a.Cg)([r.o], c.prototype, "handleKey", null),
-          (0, a.Cg)([r.o], c.prototype, "handleReturn", null),
-          (0, a.Cg)([r.o], c.prototype, "handleDel", null),
-          (0, a.Cg)([r.o], c.prototype, "handleShift", null),
-          (0, a.Cg)([r.o], c.prototype, "handleSymbols", null),
-          (0, a.Cg)([r.o], c.prototype, "handleDone", null),
-          (0, a.Cg)([r.o], c.prototype, "handleCancel", null),
-          (0, a.Cg)([r.o], c.prototype, "handleClear", null),
-          (0, a.Cg)([r.o], c.prototype, "handleSuggestionClick", null);
-        const p =
+        (p.kPasswordChar = "●"),
+          (0, n.Cg)([r.o], p.prototype, "onKeyboardInfoChanged", null),
+          (0, n.Cg)([r.o], p.prototype, "handleKey", null),
+          (0, n.Cg)([r.o], p.prototype, "handleReturn", null),
+          (0, n.Cg)([r.o], p.prototype, "handleDel", null),
+          (0, n.Cg)([r.o], p.prototype, "handleShift", null),
+          (0, n.Cg)([r.o], p.prototype, "handleSymbols", null),
+          (0, n.Cg)([r.o], p.prototype, "handleDone", null),
+          (0, n.Cg)([r.o], p.prototype, "handleCancel", null),
+          (0, n.Cg)([r.o], p.prototype, "handleClear", null),
+          (0, n.Cg)([r.o], p.prototype, "handleSuggestionClick", null);
+        const b =
           null === VRHTML || void 0 === VRHTML
             ? void 0
             : VRHTML.GetSteamLanguage();
@@ -718,36 +887,37 @@ var CLSTAMP = "9981652";
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VRDashboardManager.SetKeyboardOverlayToThis(),
-          (0, u.uV)(["systemui"], p)
-            .then(() => d.W.Init())
+          (0, u.uV)(["systemui"], b)
+            .then(() => g.W.Init())
             .then(() => y.s.Init())
             .then(() => {
-              i.H(document.getElementById("root")).render(
-                n.createElement(c, { language: p }),
-              );
+              (0, f.aj)().Init("SteamVR", CLSTAMP, (0, f.d4)()),
+                i
+                  .H(document.getElementById("root"))
+                  .render(a.createElement(p, { language: b }));
             });
       },
     },
     s = {};
-  function a(e) {
-    var n = s[e];
-    if (void 0 !== n) return n.exports;
+  function n(e) {
+    var a = s[e];
+    if (void 0 !== a) return a.exports;
     var i = (s[e] = { exports: {} });
-    return t[e].call(i.exports, i, i.exports, a), i.exports;
+    return t[e].call(i.exports, i, i.exports, n), i.exports;
   }
-  (a.m = t),
+  (n.m = t),
     (e = []),
-    (a.O = (t, s, n, i) => {
+    (n.O = (t, s, a, i) => {
       if (!s) {
-        var l = 1 / 0;
+        var o = 1 / 0;
         for (u = 0; u < e.length; u++) {
-          for (var [s, n, i] = e[u], o = !0, r = 0; r < s.length; r++)
-            (!1 & i || l >= i) && Object.keys(a.O).every((e) => a.O[e](s[r]))
+          for (var [s, a, i] = e[u], l = !0, r = 0; r < s.length; r++)
+            (!1 & i || o >= i) && Object.keys(n.O).every((e) => n.O[e](s[r]))
               ? s.splice(r--, 1)
-              : ((o = !1), i < l && (l = i));
-          if (o) {
+              : ((l = !1), i < o && (o = i));
+          if (l) {
             e.splice(u--, 1);
-            var h = n();
+            var h = a();
             void 0 !== h && (t = h);
           }
         }
@@ -755,19 +925,19 @@ var CLSTAMP = "9981652";
       }
       i = i || 0;
       for (var u = e.length; u > 0 && e[u - 1][2] > i; u--) e[u] = e[u - 1];
-      e[u] = [s, n, i];
+      e[u] = [s, a, i];
     }),
-    (a.n = (e) => {
+    (n.n = (e) => {
       var t = e && e.__esModule ? () => e.default : () => e;
-      return a.d(t, { a: t }), t;
+      return n.d(t, { a: t }), t;
     }),
-    (a.d = (e, t) => {
+    (n.d = (e, t) => {
       for (var s in t)
-        a.o(t, s) &&
-          !a.o(e, s) &&
+        n.o(t, s) &&
+          !n.o(e, s) &&
           Object.defineProperty(e, s, { enumerable: !0, get: t[s] });
     }),
-    (a.g = (function () {
+    (n.g = (function () {
       if ("object" == typeof globalThis) return globalThis;
       try {
         return this || new Function("return this")();
@@ -775,30 +945,36 @@ var CLSTAMP = "9981652";
         if ("object" == typeof window) return window;
       }
     })()),
-    (a.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
+    (n.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
+    (n.r = (e) => {
+      "undefined" != typeof Symbol &&
+        Symbol.toStringTag &&
+        Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+        Object.defineProperty(e, "__esModule", { value: !0 });
+    }),
     (() => {
       var e = { 884: 0, 527: 0, 500: 0 };
-      a.O.j = (t) => 0 === e[t];
+      n.O.j = (t) => 0 === e[t];
       var t = (t, s) => {
-          var n,
+          var a,
             i,
-            [l, o, r] = s,
+            [o, l, r] = s,
             h = 0;
-          if (l.some((t) => 0 !== e[t])) {
-            for (n in o) a.o(o, n) && (a.m[n] = o[n]);
-            if (r) var u = r(a);
+          if (o.some((t) => 0 !== e[t])) {
+            for (a in l) n.o(l, a) && (n.m[a] = l[a]);
+            if (r) var u = r(n);
           }
-          for (t && t(s); h < l.length; h++)
-            (i = l[h]), a.o(e, i) && e[i] && e[i][0](), (e[i] = 0);
-          return a.O(u);
+          for (t && t(s); h < o.length; h++)
+            (i = o[h]), n.o(e, i) && e[i] && e[i][0](), (e[i] = 0);
+          return n.O(u);
         },
         s = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
       s.forEach(t.bind(null, 0)), (s.push = t.bind(null, s.push.bind(s)));
     })();
-  var n = a.O(
+  var a = n.O(
     void 0,
-    [967, 991, 305, 527, 452, 170, 537, 797, 500, 458, 542],
-    () => a(7511),
+    [967, 991, 305, 527, 452, 170, 537, 797, 500, 554, 458, 542],
+    () => n(7511),
   );
-  n = a.O(n);
+  a = n.O(a);
 })(); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/keyboard.js.map

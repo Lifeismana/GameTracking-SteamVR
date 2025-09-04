@@ -283,6 +283,7 @@ $3br
 /output/haptic
 /pose/raw
 /proximity
+/skeleton/hand/left
 /skeleton/hand/right
 /user/ankle/left
 /user/ankle/right
@@ -305,6 +306,7 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899P#\f
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
@@ -321,7 +323,6 @@ $3br
 <parse error>
 <uninitialized>
 <unknown>
-?/skeleton/hand/left
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -553,6 +554,7 @@ IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
 IVRCameraComponent_003
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -576,8 +578,8 @@ IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -700,7 +702,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS|~
+RSDS
 RaiseException
 ResetEvent
 RootNode
@@ -1534,6 +1536,7 @@ shaders/d3d11/geom_drawregion_ptnorm_uvs_embedded_vs.fxo
 shaders/d3d11/geom_drawregion_ptnorm_vs.fxo
 shaders/d3d11/geom_drawregion_uvs_embedded_vs.fxo
 shaders/d3d11/geom_drawregion_vs.fxo
+shaders/d3d11/geom_floor_edge_vs.fxo
 shaders/d3d11/geom_floor_vs.fxo
 shaders/d3d11/geom_fresnel_vs.fxo
 shaders/d3d11/geom_motes_vs.fxo

@@ -477,7 +477,7 @@ INITY
 IVRClientCore_003
 IVRControlPanel_006
 IVRHeadsetView_001
-IVRPaths_001
+IVRPaths_002
 IVRVirtualDisplay_002
 Infinity
 InitOnceExecuteOnce
@@ -549,7 +549,7 @@ PeekNamedPipe
 Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDS\f
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -867,9 +867,13 @@ VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
 VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
 VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoVideoSupport
+VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
+VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
 VRPaths
 VRVirtualDisplay
@@ -1124,7 +1128,7 @@ protocol error
 protocol not supported
 r7Yr7=
 rLp>B
-raB3Gt
+raB3G
 read only file system
 rejectDupKeys
 resource deadlock would occur

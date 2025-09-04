@@ -1,6 +1,6 @@
-var CLSTAMP = "9981652";
+var CLSTAMP = "10029581";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [906],
+  [906, 458],
   {
     9864: (e, t, r) => {
       r.d(t, { m: () => a });
@@ -53,10 +53,10 @@ var CLSTAMP = "9981652";
     7019: (e, t, r) => {
       r.d(t, {
         Fi: () => a,
-        Lr: () => m,
+        Lr: () => g,
         MQ: () => n,
         Oi: () => o,
-        Zk: () => g,
+        Zk: () => v,
         _h: () => i,
       });
       var o,
@@ -69,11 +69,12 @@ var CLSTAMP = "9981652";
         p = r(3496),
         d = r(5178),
         u = r(3236),
-        c = r(5723);
-      function h(e) {
+        c = r(5723),
+        h = r(7600);
+      function m(e) {
         if (e) return [e.u, e.v];
       }
-      function m(e) {
+      function g(e) {
         switch (e) {
           case o.TopLeft:
             return { x: -1, y: 1 };
@@ -128,7 +129,7 @@ var CLSTAMP = "9981652";
             (e[(e.Disabled = 1)] = "Disabled"),
             (e[(e.Low = 2)] = "Low");
         })(s || (s = {}));
-      class g extends p._J {
+      class v extends p._J {
         constructor(e) {
           super(e),
             (this.m_Rect = { x: 0, y: 0, width: 0, height: 0 }),
@@ -170,14 +171,14 @@ var CLSTAMP = "9981652";
           return this.m_nEmbeddedIndex;
         }
         componentWillReceiveProps_UNSAFE() {
-          g.s_bPanelsAreDirty = !0;
+          v.s_bPanelsAreDirty = !0;
         }
         componentDidMount() {
           super.componentDidMount(),
             (this.m_resizeObserver = new ResizeObserver(this.onResizeObserved)),
             this.m_resizeObserver.observe(this.getCurrentRootElement()),
             (this.m_nEmbeddedIndex = d.O.Current().addEmbeddedPanelUVs(this)),
-            (g.s_bPanelsAreDirty = !0),
+            (v.s_bPanelsAreDirty = !0),
             this.getCurrentRootElement().addEventListener(
               "mousedown",
               this.onPanelMouseDown,
@@ -196,7 +197,7 @@ var CLSTAMP = "9981652";
               "mousedown",
               this.onPanelMouseDown,
             ),
-            (g.s_bPanelsAreDirty = !0),
+            (v.s_bPanelsAreDirty = !0),
             d.O.Current().removeEmbeddedPanelUVs(this),
             super.componentWillUnmount();
         }
@@ -273,11 +274,11 @@ var CLSTAMP = "9981652";
               currentPanel: this,
             }),
             u = this.createSgNode(t),
-            g = { x: 0, y: 0 };
-          g =
+            h = { x: 0, y: 0 };
+          h =
             "object" == typeof this.props.origin
               ? (0, p.PG)(this.props.origin, { x: 0, y: 0 })
-              : m(this.props.origin);
+              : g(this.props.origin);
           const v = this.props.overlay_key,
             y = (0, c.w5)();
           return (
@@ -287,9 +288,9 @@ var CLSTAMP = "9981652";
                 ? (u.properties.key = y)
                 : (u.properties.overlay_handle = (0, c.X4)()),
             (u.properties.uv_min =
-              null !== (r = h(this.m_UVsMin)) && void 0 !== r ? r : void 0),
+              null !== (r = m(this.m_UVsMin)) && void 0 !== r ? r : void 0),
             (u.properties.uv_max =
-              null !== (o = h(this.m_UVsMax)) && void 0 !== o ? o : void 0),
+              null !== (o = m(this.m_UVsMax)) && void 0 !== o ? o : void 0),
             (u.properties.width =
               null !== (i = this.props.width) && void 0 !== i ? i : void 0),
             (u.properties.height =
@@ -331,7 +332,7 @@ var CLSTAMP = "9981652";
               this.props.make_overlays_interactive_if_visible),
             (u.properties["is-grab-handle"] = this.props.is_grab_handle),
             (u.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
-            (u.properties.origin = (0, p.Hm)(g)),
+            (u.properties.origin = (0, p.Hm)(h)),
             (u.properties.debug_name = this.props.debug_name),
             (u.properties.sampler = this.props.sampler),
             (u.properties.reflect = this.props.reflect),
@@ -369,19 +370,22 @@ var CLSTAMP = "9981652";
               v: (this.m_Rect.y + this.m_Rect.height) / e.innerHeight,
             });
         }
+        PanelContextValue() {
+          return this;
+        }
         internalRender() {
           return _.createElement(
             "vsg-node",
             { style: { display: this.visibility == a.Hidden ? "none" : null } },
-            this.props.children,
+            _.createElement(h.tH, null, this.props.children),
           );
         }
       }
-      (g.s_bPanelsAreDirty = !1),
-        (0, l.Cg)([u.o], g.prototype, "onResizeObserved", null),
-        (0, l.Cg)([u.o], g.prototype, "onPanelMouseDown", null),
-        (0, l.Cg)([u.o], g.prototype, "onWindowMouseUp", null),
-        (0, l.Cg)([u.o], g.prototype, "buildNode", null);
+      (v.s_bPanelsAreDirty = !1),
+        (0, l.Cg)([u.o], v.prototype, "onResizeObserved", null),
+        (0, l.Cg)([u.o], v.prototype, "onPanelMouseDown", null),
+        (0, l.Cg)([u.o], v.prototype, "onWindowMouseUp", null),
+        (0, l.Cg)([u.o], v.prototype, "buildNode", null);
     },
     3361: (e, t, r) => {
       r.d(t, { d: () => s });

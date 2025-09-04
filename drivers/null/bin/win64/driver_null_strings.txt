@@ -92,7 +92,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDSM
+RSDS
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind

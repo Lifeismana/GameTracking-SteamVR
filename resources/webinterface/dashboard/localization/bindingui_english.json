@@ -76,7 +76,7 @@
   "SourceInputMode_RightController_PositionOffset": "Right Controller Position Offset",
   "SourceInputMode_RightController_RotationOffset": "Right Controller Rotation Offset",
 
-  "BindingUI_Compatibility_Remapped_Text": "This binding has automatically been remapped to your controller.",
+  "BindingUI_Compatibility_Remapped_Text": "This binding was automatically remapped to your controller.",
 
   "SourceInputMode_button_tooltip": "Use this control like a Button. Handles touches, clicks, holds, double clicks, and long presses.",
   "SourceInputMode_trackpad_tooltip": "Use this control like a Trackpad. XY positioning, touches, and presses.",

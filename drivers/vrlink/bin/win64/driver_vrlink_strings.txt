@@ -141,16 +141,17 @@ $3br
 .?AUIUnknown@@
 .?AUToBase_t@Detail@Reflection@@
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_054ec0d90128816f29bca28af468a816>@@
 .?AV<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@
 .?AV<lambda_0881c9906f05f503e42109ac226d18eb>@@
 .?AV<lambda_088be9d629c529e04e66f668ef48a2de>@@
+.?AV<lambda_0b4ab5e44d357ff40892732314352562>@@
 .?AV<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@
 .?AV<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@
 .?AV<lambda_1b183cf92bfcc7a986ca41b48af450da>@@
 .?AV<lambda_1db60d98261e2e5ed663866066a32dcb>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_3775199eb374ee8b8777545cef56c745>@@
-.?AV<lambda_3a0e9dd34797aa579b142ade480c735b>@@
 .?AV<lambda_3fd6e5ca82e0518e289160675f532929>@@
 .?AV<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@
 .?AV<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@
@@ -172,16 +173,15 @@ $3br
 .?AV<lambda_b4bac2e61013943b1b76ac148112d79c>@@
 .?AV<lambda_b6062681e27775d12ffe8db432a3c104>@@
 .?AV<lambda_c6544703987fd9d279e84d520bb2c068>@@
+.?AV<lambda_c802babf9ad5cf32d7caee1404d3fe40>@@
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV<lambda_ca19800c162a615b14dbffc218e93f9c>@@
 .?AV<lambda_cdd09464f928a2ad6955ebdee1b202cb>@@
+.?AV<lambda_d857d3a3f83f65394e24abd4b6b43fde>@@
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
 .?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@
-.?AV<lambda_ec7e1e4c4174cdc6d084da9e8ee16749>@@
-.?AV<lambda_ef8cd50b187808a213c6f694a155665f>@@
 .?AV<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@
-.?AV<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@
 .?AV?$TypeInfoT@VCAnimResource@@@Detail@Reflection@@
 .?AV?$TypeInfoT@VCBoneMaskResource@@@Detail@Reflection@@
 .?AV?$TypeInfoT@VCKeyframedDataResource@@@Detail@Reflection@@
@@ -211,16 +211,17 @@ $3br
 .?AV?$_Func_impl_no_alloc@P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@Z_NPEAV12@PEAV32@AEBV32@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_054ec0d90128816f29bca28af468a816>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0881c9906f05f503e42109ac226d18eb>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_088be9d629c529e04e66f668ef48a2de>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0b4ab5e44d357ff40892732314352562>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1b183cf92bfcc7a986ca41b48af450da>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1db60d98261e2e5ed663866066a32dcb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3775199eb374ee8b8777545cef56c745>@@XAEBVValue@Json@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_3a0e9dd34797aa579b142ade480c735b>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3fd6e5ca82e0518e289160675f532929>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@XW4ValueTransportID@@_N@std@@
@@ -242,16 +243,15 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bac2e61013943b1b76ac148112d79c>@@XPEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b6062681e27775d12ffe8db432a3c104>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c6544703987fd9d279e84d520bb2c068>@@XPEBX_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c802babf9ad5cf32d7caee1404d3fe40>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ca19800c162a615b14dbffc218e93f9c>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cdd09464f928a2ad6955ebdee1b202cb>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d857d3a3f83f65394e24abd4b6b43fde>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_ec7e1e4c4174cdc6d084da9e8ee16749>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_ef8cd50b187808a213c6f694a155665f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_fe5a3e36cf6802c43b319cc6bb962384>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLAudioWSAPI@@EAAPEAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLAudioWSAPI@@EAAPEAXXZPEAV1@@std@@@2@@std@@@std@@
@@ -629,11 +629,10 @@ $3br
 0-pixel image
 0.0.0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899X
 00P`00P`
 0\v2;i
 0`P0
-0a\v6<
+0a\v6<X
 0n\n&pa
 0x%I64x
 1 Sec
@@ -788,7 +787,6 @@ $3br
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exception@std@@YA_NXZ
 ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
-?vr_glove_left_skeleton.glb
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
@@ -1028,6 +1026,7 @@ Connection inactive for %f > %d seconds. Sending quit event.\n
 Connection inactive for %f > %d seconds. Waiting to quit for scene app %s.\n
 Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x\n
 Control Connection %d closing...
+Could not acquire encoded data buffer from codec for frame: %i\n
 Could not create OpenGL Context/Window + Debug Window\n
 Could not find NvEncodeAPICreateInstance in nvEncodeAPI64.dll
 Could not find NvEncodeAPIGetMaxSupportedVersion in nvEncodeAPI64.dll
@@ -1328,6 +1327,7 @@ GetWindowRect
 Getting devnode property store failed: hr = 0x%08x\n
 Getting file size failed : 
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
+Gf*S
 Got Debug message from client
 Got permanent SVL init failure on hotplug attempt
 GtH|ITJ8K
@@ -1405,6 +1405,7 @@ IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
 IVRCameraComponent_003
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -1428,8 +1429,8 @@ IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -1582,7 +1583,6 @@ NVENCODER.cpp m_encodeConfig.frameIntervalP = %d\n
 NVENCODER.cpp m_encodeConfig.rcParams.lookaheadDepth = %d\n
 NVENCODER.cpp m_nEncoderBuffer = %d\n
 NVENCODER.cpp m_nMaxPoolBuffers = %d\n
-NVIDIA
 NV_ENC_CAPS_ASYNC_ENCODE_SUPPORT
 NV_ENC_CAPS_DYNAMIC_QUERY_ENCODER_CAPACITY
 NV_ENC_CAPS_EXPOSED_COUNT
@@ -1692,6 +1692,7 @@ OutputDebugStringA
 OutputDebugStringW
 P00`
 P<xD<
+PCHoption requires an argument -- %c
 PICO 4
 PICO 4 (Left Controller)
 PICO 4 (Right Controller)
@@ -1709,6 +1710,7 @@ PPxD<<%
 PRECODE
 Pairing to address: %s\n
 Pairing to broadcast address not allowed.\n
+Panic! Overwriting vCompleteFramePointer
 Parse error: 
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON string "%s" failed: %s\n
@@ -1743,10 +1745,9 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS[
+RSDS
 RX Fail:%d
 RaiseException
-Rate Remark: %d %d\n
 Received 0 byte message on control connection. Disconnecting
 Received GPU Architecture %d\n
 Received frame outside of backtrack window.  Resetting.\n
@@ -1903,7 +1904,7 @@ SVLDriver::UpdateConnectionQuitEvent
 SVLDriver::UpdateNetworkInfo
 SVLDriver::UpdateOGSStatistics
 SVLFEC: frame %d was entirely dropped, initializing and re-requesting\n
-SVLFEC: substantive retry (%d packets) due to frame skip (skipped %d, last sub %d, group %d, bookend %d)\n
+SVLFEC: substantive retry (%d packets) due to frame skip (skipped %d, last sub %d, group %d, expected size %d)\n
 SVLFEC::InternalAcceptFrameFromRX: Failed to acquire pRender
 SVLFEC::ProcessTXVideoFrameThreadFunction
 SVLFEC::ReportStreamReset() (m_iLastAcknowledgeFrameNumber = %d)
@@ -1945,6 +1946,8 @@ SVLServer::SVLServer(...)\n
 SVLServer::SendShutdownMessage
 SVLServer::Shutdown
 SVLServer::Shutdown()\n
+SVST_VIDEO_TRANSPORT: WARNING: Could not initialize frame on hardware.\n
+SVST_VIDEO_TRANSPORT_DESCRIPTION: WARNING: Could not initialize frame on hardware.\n
 S\vJsf
 Sample message for keylen=blocklen
 SbEwd
@@ -2155,9 +2158,7 @@ Vive Focus Vision
 W  `@  `@LL
 WARNING Initializing frame number %d.  Expected size too large (%d > %d).\n
 WARNING: Corrupt UDP packet went long (%d size, %d left, %d total length)\n
-WARNING: Could not acquire encoded data buffer from codec.\n
 WARNING: Could not find steam streaming microphone output.
-WARNING: Could not initialize frame on hardware.\n
 WARNING: GPU Does not support 10BIT_ENCODE for video compression\n
 WARNING: Packet was XMITTed that was too big. [%d %d %d %d / %d]\n
 WARNING: Too many bytes in TX Audio aggregate.  This should be impossible.\n
@@ -2243,6 +2244,8 @@ Zjz\v
 [Alloc] Created m_vpCompletionEvent %p\n
 [Alloc] Registered texture resource = %p\n
 [AnimSkeleton] Failed to load GLTF file: %s
+[Audio] Attempt to set audio rx channels to %d.
+[Audio] frame rate change, reinitializing: %d %d to %d %d\n
 [Cleanup] Closed handle for completion event %p\n
 [Cleanup] Unmapped input resource %p\n
 [Cleanup] Unregister completion event %p\n
@@ -2292,6 +2295,7 @@ Zjz\v
 [SVLControllerHand] Error activating controller, Prop_ModelNumber_String not set\n
 [SVLControllerHand] Error activating controller, VTE_StaticProps_t not available\n
 [SVLController] Activate Error: Unsupported controller type "%s"\n
+[SVLController] Activate Warning: Unknown render model name "%s", using default "%s"\n
 [SVLController] Activating controller on TrackedDeviceIndex_t %d\n
 [SVLController] Error activating controller, Prop_ControllerType_String not set\n
 [SVLController] Error activating controller, Prop_ModelNumber_String not set\n
@@ -2301,6 +2305,9 @@ Zjz\v
 [SVLController] Overriding Quest specific properties for %s\n
 [SVLController] Reported HMD model is %d\n
 [SVLController] Setting up HTC Vive Focus Controller: %s
+[SVLFEC] Saw a re-accept in InternalAcceptFrameFromRX.
+[SVLFEC] accepting a frame for submission without metadata [ %d ]
+[SVLFEC] received late metadata for frame [ %d ]
 [SVLHMD] Re-requesting static props: projectionParams: %i chaperone: %i power: %i statichmd: %i defaults: %i framerateUs: %i
 [SVLHandTrackingDriver] ~SVLHandTrackingDriver()
 [SVLS] ResetVideoStream
@@ -2699,7 +2706,6 @@ dutch
 eCapture
 eCommunications
 eConsole
-eKLN
 eMultimedia
 eRender
 el_gr
@@ -3003,6 +3009,7 @@ oculus_quest_pro
 oculus_quest_pro_controller
 oculus_touch
 off.png
+ojeak
 ole32.dll
 only 8-bit
 open
@@ -3016,6 +3023,7 @@ option doesn't take an argument -- %.*s
 option requires an argument -- %c
 option requires an argument -- %s
 orthographic
+oti`w
 out_of_range
 outerConeAngle
 outofdata
@@ -3100,7 +3108,6 @@ right_
 ro_ro
 rolloffFactor
 romanian
-room_setup
 rotation
 roughnessFactor
 rtus_test
@@ -3293,6 +3300,7 @@ vivefocusvision_off.png
 vivefocusvision_ready.png
 vivefocusvision_ready_low.png
 vivefocusvision_searching.gif
+vr_glove_left_skeleton.glb
 vr_glove_right_skeleton.glb
 vrcombined_log.previous.txt
 vrcombined_log.txt
@@ -3301,6 +3309,7 @@ vrlink
 vrlink_client/
 vrlink_debug.json
 vrlink_device
+vrlink_room_setup
 vs_5_0
 vs_main
 wF\ro
