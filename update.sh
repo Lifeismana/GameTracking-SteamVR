@@ -10,7 +10,9 @@ set +e
 ProcessDepot ".dll"
 set -e
 ProcessDepot ".exe"
+set +e
 ProcessDepot ".so"
+set -e
 ProcessVPK
 ProcessToolAssetInfo
 FixUCS2
