@@ -1,0 +1,197 @@
+import "common_base.proto";
+
+message CVRGamepadUI_Message_DashboardActionInvoked_Request {
+	optional uint32 action_id = 1;
+	optional bool toggle_value = 2;
+}
+
+message CVRGamepadUI_Message_DashboardActionInvoked_Response {
+}
+
+message CVRGamepadUI_Message_DashboardDesktopWindowClicked_Request {
+	optional uint32 window_id = 1;
+}
+
+message CVRGamepadUI_Message_DashboardDesktopWindowClicked_Response {
+}
+
+message CVRGamepadUI_Message_DashboardTabClicked_Request {
+	optional uint32 tab_id = 1;
+}
+
+message CVRGamepadUI_Message_DashboardTabClicked_Response {
+}
+
+message CVRGamepadUI_Message_Error_Response {
+	optional int32 error = 1 [(.description) = "enum"];
+	optional string description = 2;
+	optional int32 origin = 3 [(.description) = "enum"];
+}
+
+message CVRGamepadUI_Message_ExecuteSteamURL_Request {
+	optional string url = 1;
+}
+
+message CVRGamepadUI_Message_ExecuteSteamURL_Response {
+}
+
+message CVRGamepadUI_Message_Header {
+	optional string name = 1;
+	optional uint32 message_id = 2;
+	optional uint32 response_to_message_id = 3;
+	optional bool is_error_response = 4;
+}
+
+message CVRGamepadUI_Message_HideDashboardPopup_Request {
+	optional uint32 dashboard_popup_request_id = 1;
+}
+
+message CVRGamepadUI_Message_HideDashboardPopup_Response {
+}
+
+message CVRGamepadUI_Message_RemoteVideoStream_Request {
+	optional uint32 source_accountid = 1;
+	optional string video_uniqueid = 2;
+}
+
+message CVRGamepadUI_Message_RemoteVideoStream_Response {
+}
+
+message CVRGamepadUI_Message_ShowDashboardPopup_Request {
+	optional uint32 dashboard_popup_request_id = 1;
+	optional string popup_overlay_key = 2;
+	optional string parent_overlay_key = 3;
+	optional .CVRGamepadUI_Message_ShowDashboardPopup_Request_NormalizedPosition origin_on_parent = 4;
+	optional .CVRGamepadUI_Message_ShowDashboardPopup_Request_NormalizedPosition origin_on_popup = 5;
+	optional .CVRGamepadUI_Message_ShowDashboardPopup_Request_Position offset = 6;
+	optional .CVRGamepadUI_Message_ShowDashboardPopup_Request_Rotation rotation = 7;
+	optional bool inherit_parent_pitch = 8;
+	optional bool inherit_parent_curvature = 9;
+	optional .CVRGamepadUI_Message_ShowDashboardPopup_Request_Rect clip_rect = 10;
+	optional bool interactive = 11;
+	optional bool requires_laser = 12;
+	optional string parent_device_path = 13;
+	optional int32 sort_order = 14 [(.description) = "enum"];
+	optional int32 parent_enum = 15 [(.description) = "enum"];
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Message_ShowDashboardPopup_Request_NormalizedPosition {
+	optional float x = 1;
+	optional float y = 2;
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Message_ShowDashboardPopup_Request_Position {
+	optional float x_pixels = 1;
+	optional float y_pixels = 2;
+	optional float z_pixels = 3;
+	optional float x_meters = 4;
+	optional float y_meters = 5;
+	optional float z_meters = 6;
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Message_ShowDashboardPopup_Request_Rect {
+	optional float u_min = 1;
+	optional float v_min = 2;
+	optional float u_max = 3;
+	optional float v_max = 4;
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Message_ShowDashboardPopup_Request_Rotation {
+	optional float pitch_degrees = 1;
+	optional float yaw_degrees = 2;
+}
+
+message CVRGamepadUI_Message_ShowDashboardPopup_Response {
+}
+
+message CVRGamepadUI_Message_ShowGame_Request {
+	optional string overlay_key = 1;
+}
+
+message CVRGamepadUI_Message_ShowGame_Response {
+}
+
+message CVRGamepadUI_Message_ShowOverlay_Request {
+	optional string overlay_key = 1;
+}
+
+message CVRGamepadUI_Message_ShowOverlay_Response {
+}
+
+// Used by: common.proto
+message CVRGamepadUIShared_DashboardAction {
+	optional uint32 action_id = 1;
+	optional bool visible_in_dashboard_bar = 2;
+	optional bool enabled = 3;
+	optional string display_name = 4;
+	optional .CVRGamepadUIShared_DashboardActionIcon icon = 5;
+	optional .CVRGamepadUIShared_DashboardActionIcon icon_active = 6;
+	optional int32 invocation = 7 [default = 1, (.description) = "enum"];
+	optional bool active = 8;
+	optional int32 special_invocation = 9 [(.description) = "enum"];
+	optional bool visible_in_menu = 10;
+	optional bool is_menu = 11;
+	optional uint32 parent_menu_action_id = 12;
+}
+
+// Used by: common.proto
+message CVRGamepadUIShared_DashboardActionIcon {
+	optional int32 enum = 1 [(.description) = "enum"];
+}
+
+// Used by: common.proto
+message CVRGamepadUIShared_DashboardTabIcon {
+	optional int32 enum = 1 [(.description) = "enum"];
+	optional uint32 appid = 2;
+	optional string overlay = 3;
+	optional uint32 hwnd = 4;
+}
+
+message CVRGamepadUIShared_PathProperty_DashboardActions {
+	repeated .CVRGamepadUIShared_DashboardAction actions = 1;
+}
+
+message CVRGamepadUIShared_PathProperty_DashboardTabs {
+	repeated .CVRGamepadUIShared_PathProperty_DashboardTabs_Tab tabs = 1;
+	optional uint32 selected_tab_id = 2;
+	optional uint32 vr_settings_tab_id = 3;
+	optional uint32 vr_steam_tab_id = 4;
+}
+
+// Used by: common.proto
+message CVRGamepadUIShared_PathProperty_DashboardTabs_Tab {
+	optional uint32 tab_id = 1;
+	optional bool visible_in_dashboard_bar = 2;
+	optional string display_name = 3;
+	optional .CVRGamepadUIShared_DashboardTabIcon icon = 4;
+	optional bool visible_in_dashboard_menu = 5;
+}
+
+message CVRGamepadUIShared_PathProperty_DesktopWindows {
+	repeated .CVRGamepadUIShared_PathProperty_DesktopWindows_Window windows = 1;
+}
+
+// Used by: common.proto
+message CVRGamepadUIShared_PathProperty_DesktopWindows_Window {
+	optional uint32 window_id = 1;
+	optional uint32 hwnd = 2;
+	optional string title = 3;
+	optional uint32 tab_id = 4;
+}
+
+message CVRGamepadUIShared_PathProperty_PowerOptions {
+	optional bool can_sleep = 1;
+	optional bool can_shutdown = 2;
+	optional bool can_restart_system = 3;
+	optional bool can_exitvr = 4;
+}
+
+message CVRGamepadUIShared_PathProperty_VRVersionInfo {
+	optional string version = 1;
+	optional uint32 webpack_build_timestamp = 2;
+}
+
