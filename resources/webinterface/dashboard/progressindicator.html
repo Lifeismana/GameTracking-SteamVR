@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Progress Indicator</title>
+		<link href="css/base.css?t=1585355046539" rel="stylesheet">
+		<style>
+
+			.CircularProgressbar {
+				/*
+				* This fixes an issue where the CircularProgressbar svg has
+				* 0 width inside a "display: flex" container, and thus not visible.
+				*
+				* If you're not using "display: flex", you can remove this style.
+				*/
+				width: 100%;
+			}
+
+			.CircularProgressbar .CircularProgressbar-path {
+				stroke: #3ec75c;
+				stroke-linecap: round;
+				background-color: black;
+				stroke-width: 0.325rem;
+			}
+
+			.CircularProgressbar .CircularProgressbar-trail {
+				stroke: white;
+				opacity: 0.1;
+				stroke-width: 0.325rem;
+			}
+
+			.CircularProgressbar .CircularProgressbar-text {
+				fill: #3e40c7;
+				font-size: 20px;
+				text-anchor: middle;
+			}
+
+			.CircularProgressbar .CircularProgressbar-background {
+				fill: #414141;
+			}
+
+			.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+				fill: #3ec777;
+			}
+
+			.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+				fill: #fff;
+			}
+
+			.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+				stroke: #fff;
+			}
+
+			.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+				stroke: transparent;
+			}
+
+			body
+			{
+				background: #00000000;
+				padding: 0px;
+				width: 512px;
+				height: 512px;
+				user-select: none;
+			}
+
+			.Label
+			{
+				font-size: 20px;
+
+				text-overflow: ellipsis;
+				text-align: left;
+				color: #14c6fcff;
+			}
+
+			.ProgressContainer
+			{
+				height: 508px;
+				width: 508px;
+				color: "white";
+				opacity: 0.8;
+				display: flex;
+				position: relative;
+			}
+
+			.ProgressContainer .CircularProgressbar
+			{
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+
+			.ProgressContainer .ProgressIcon
+			{
+				width: 255px;
+				height: 255px;
+				margin: auto;
+				z-index: 10;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div id='root'></div>
+	<script type="text/javascript" src="libraries.js?v=8f566fdb2bbc78483bcd"></script><script type="text/javascript" src="vrwebui_shared.js?v=f30ff404ffa0c55048f5"></script><script type="text/javascript" src="progressindicator.js?v=db2a34ec7b6eee15e1f8"></script></body>
+</html>

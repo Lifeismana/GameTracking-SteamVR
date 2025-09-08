@@ -1,0 +1,290 @@
+                          
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+#D5p
+%dx%d -> %dx%d is invalid scaling dimension\n
+%dx%d -> %dx%d\n
+%ibpp not supported by yuv2rgb\n
+%s is not supported as input pixel format\n
+%s is not supported as output pixel format\n
+%s output is not supported with half chroma resolution, switching to full\n
+--prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
+-64OS
+0P(H6V.Np
+1#IND
+1#INF
+1#QNAN
+1#SNAN
+2ieO=
+333333
+4T,L2R*Jt
+4g%6
+<8bunz8
+<@En[vP
+?1mm
+?3xj
+?5a1
+?7Tf(
+?IT$7
+?Ltm
+?PiB
+?RbSQ
+?UUUUUU
+?X&eB
+?pow
+?uZEeu
+@VNQ
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Ai0T
+AiFC.
+April
+Area Averaging scaler, 
+Assertion %s failed at %s:%d\n
+August
+BICUBIC scaler, 
+BILINEAR scaler, 
+Bfe9
+Bicubic spline scaler, 
+Cannot allocate memory.\n
+CloseThreadpoolTimer
+CloseThreadpoolWait
+CompareStringEx
+CorExitProcess
+CqTR;
+CreateEventExW
+CreateSemaphoreExW
+CreateSymbolicLinkW
+CreateThreadpoolTimer
+CreateThreadpoolWait
+December
+Eb2]A=
+EnumSystemLocalesEx
+Exactly one scaler algorithm must be chosen\n
+Experimental scaler, 
+F0$?3=1
+FAST_BILINEAR scaler, 
+February
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushProcessWriteBuffers
+FreeLibraryWhenCallbackReturns
+Friday
+GYM=
+Gaussian scaler, 
+GetActiveWindow
+GetCurrentPackageId
+GetCurrentProcessorNumber
+GetDateFormatEx
+GetFileInformationByHandleExW
+GetLastActivePopup
+GetLocaleInfoEx
+GetLogicalProcessorInformation
+GetProcessWindowStation
+GetTickCount64
+GetTimeFormatEx
+GetUserDefaultLocaleName
+GetUserObjectInformationW
+HH:mm:ss
+HMXB
+Ht=c
+InitializeCriticalSectionEx
+IsValidLocaleName
+January
+July
+June
+LCMapStringEx
+La8i
+Lanczos scaler, 
+Le?2
+MM/dd/yy
+March
+MessageBoxW
+MkK?
+Monday
+NKeb
+Nearest Neighbor / POINT scaler, 
+No accelerated colorspace conversion found from %s to %s.\n
+November
+October
+Pex?0
+RSDS-T
+S;uD
+SWScaler
+Saturday
+September
+SetDefaultDllDirectories
+SetFileInformationByHandleW
+SetThreadStackGuarantee
+SetThreadpoolTimer
+SetThreadpoolWait
+Sinc scaler, 
+Slices start in the middle!\n
+Sunday
+SwScaler: reducing / aligning filtersize %d -> %d\n
+SystemFunction036
+Thursday
+Tuesday
+T~OXu
+Unknown format
+WaitForThreadpoolTimerCallbacks
+Warning: dstStride is not aligned!\n         ->cannot do aligned memory accesses anymore\n
+Wednesday
+X4I+
+_cabs
+_hypot
+_logb
+_nextafter
+aDJ=
+abcdefghijklmnopqrstuvwxyz
+accurate rounding
+accurate_rnd
+acos
+area
+asin
+atan
+atan2
+averaging area
+bad dst image pointers\n
+bad src image pointers\n
+bicubic
+bicublin
+bilinear
+bitexact
+c:\buildslave\libav_win32\build\dev\libswscale/swscale_internal.h
+c:\buildslave\libav_win32\build\dev\libswscale\libswscale-3.pdb
+c:\buildslave\libav_win32\build\dev\libswscale\swscale_internal.h
+c?e2
+ceil
+chr srcW=%d srcH=%d dstW=%d dstH=%d xInc=%d yInc=%d\n
+cosh
+dddd, MMMM dd, yyyy
+desc
+destination format
+destination height
+destination range
+destination width
+dst_format
+dst_range
+dsth
+dstw
+e+000
+e<bN
+ehh flags invalid?! 
+exp10
+experimental
+fUUU
+fabs
+fast bilinear
+fast_bilinear
+floor
+fmod
+frexp
+from %s to %s%s 
+full chroma input
+full chroma interpolation
+full chroma interpolation for destination format '%s' not yet implemented\n
+full_chroma_inp
+full_chroma_int
+gauss
+gaussian
+hI{L[
+hb?O2
+internal error %s -> %s converter\n
+j\n @8X&F>^`
+k:UG
+kU'9
+l,kg<i
+lanczos
+ldexp
+libswscale license: LGPL version 2.1 or later
+libswscale-3.dll
+libswscale/utils.c
+libswscale/yuv2rgb.c
+log10
+ls1=
+lum srcW=%d srcH=%d dstW=%d dstH=%d xInc=%d yInc=%d\n
+luma BICUBIC / chroma BILINEAR scaler, 
+luma bicubic, chroma bilinear
+m1WY$
+modf
+natural bicubic spline
+nearest neighbor
+neighbor
+np?z 
+param0
+param1
+pnJ=
+print info
+print_info
+r7Yr7=
+sU0&?W
+scaler flags
+scaler param 0
+scaler param 1
+sinc
+sinh
+source format
+source height
+source range
+source width
+spline
+sqrt
+src_format
+src_range
+srch
+srcw
+sws_addVec
+sws_allocVec
+sws_alloc_context
+sws_cloneVec
+sws_context_class
+sws_convVec
+sws_convertPalette8ToPacked24
+sws_convertPalette8ToPacked32
+sws_flags
+sws_format_name
+sws_freeContext
+sws_freeFilter
+sws_freeVec
+sws_getCachedContext
+sws_getCoefficients
+sws_getColorspaceDetails
+sws_getConstVec
+sws_getContext
+sws_getDefaultFilter
+sws_getGaussianVec
+sws_getIdentityVec
+sws_get_class
+sws_init_context
+sws_isSupportedEndiannessConversion
+sws_isSupportedInput
+sws_isSupportedOutput
+sws_normalizeVec
+sws_printVec2
+sws_rgb2rgb_init
+sws_scale
+sws_scaleVec
+sws_setColorspaceDetails
+sws_shiftVec
+sws_subVec
+swscale_configuration
+swscale_license
+swscale_version
+swscaler
+tLVv
+tanh
+u?^p?o4
+uXO=
+uZEeu
+unsupported planar RGB conversion %s -> %s\n
+using C\n
+using unscaled %s -> %s special converter\n
+z1}B
+z?aUY
+zc%C1
+zyC7
+{4Wf
+|W8A=

@@ -1,0 +1,29 @@
+{
+	"jsonid" : "input_profile",
+  "controller_type": "vive",
+  "input_bindingui_mode" : "hmd",
+  "input_bindingui_right" :
+  {
+    "image": "{htc}/icons/vive_hmd.svg"
+  },
+  "input_source" :
+  {
+    "/input/system" : {
+        "type" : "button",
+        "binding_image_point" : [ 180, 110 ]
+    },
+    "/pose/raw" : {
+        "type" : "pose",
+        "binding_image_point" : [ 63, 148 ]
+    }
+  },
+  "simulation_settings":
+  {
+    "modelnumber": "Vive",
+    "serialnumber": "LHR-00000000",
+    "rendermodel": "generic_hmd",
+	"registered_device_type": "htc/vive",
+    "tracking_system_name": "lighthouse",
+    "manufacturer_name": "HTC"
+  }
+ }

@@ -1,0 +1,8 @@
+{
+    "dashboard": {
+        "allowVRGamepadUI": true,
+        "enableWindowView": true
+    },
+    "version": "1",
+    "jsonid": "vrsettings"
+}

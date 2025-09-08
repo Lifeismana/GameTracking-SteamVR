@@ -1,0 +1,99 @@
+{
+	"language":		"english",
+
+	"none" : "None",
+
+	"MetersPerSecond_Abbreviation" : "m/s",
+
+	"Button_OK": "OK",
+	"Button_Cancel": "Cancel",
+	"Button_Close": "Close",
+	"Button_Delete": "Delete",
+	"Button_Replace": "Replace",
+	"Button_Discard": "Discard",
+	"Button_Save": "Save",
+	"Button_Done": "Done",
+	"Button_Back": "Back",
+	"Button_Next": "Next",
+	"Button_Retry": "Retry",
+
+	"Settings":	"Settings",
+	"PowerMenuResetSeatedPosition": "Reset Seated Position",
+	"PowerMenuResetStandingPosition": "Reset Standing Position",
+	"Resetting_Countdown" : "Resetting...",
+	"Button_Recenter": "Recenter",
+	"Recentering_Countdown" : "Recentering...",
+	"PowerMenuTurnOffController": "Turn Off Controller",
+	"PowerMenuShutdown": "Shutdown",
+	"PowerMenuQuitSceneApp": "Exit %1$s",
+	"PowerMenuQuitSceneApp_NoApp": "Exit App",
+	"PowerMenuExitVR": "Exit VR",
+	"PowerMenuCancel": "Cancel",
+	"PowerMenuSteamOverlay": "Steam",
+	"PowerMenuHeader": "Power Menu",
+
+	"IPD_Description" : "Distance Between Lenses",
+	"NoSteamWarning" : "Steam is not available. Some features may be disabled.",
+
+	"WakingUpBaseStations" : "Waking up base stations...",
+
+	"/input/joystick" : "Joystick",
+	"/input/trackpad" : "Trackpad",
+	"/input/trigger" : "Trigger",
+	"/input/grip" : "Grip",
+	"/input/application_menu" : "Menu",
+	"/input/system" : "System",
+	"/proximity" : "Proximity Sensor",
+	"/input/a" : "A Button",
+	"/input/b" : "B Button",
+	"/input/x" : "X Button",
+	"/input/y" : "Y Button",
+
+	"/pose/raw" : "Raw",
+	"/pose/base" : "Base",
+	"/pose/tip" : "Tip",
+	"/pose/gdc2015" : "GDC",
+	"/pose/handgrip" : "Hand Grip",
+	"/pose/grip": "Grip",
+	"/pose/openxr_grip": "OpenXR Grip",
+	"/pose/openxr_aim": "OpenXR Aim",
+	"/pose/openxr_handmodel": "Palm",
+	"/pose/openxr_handmodel_r": "Palm",
+
+	"/input/skeleton/left" : "Left skeleton",
+	"/input/skeleton/right" : "Right skeleton",
+
+	"/output/haptic" : "Haptics",
+
+	"/user/hand/right" : "Right Hand",
+	"/user/hand/left" : "Left Hand",
+	"/user/hand/primary" : "Main Hand",
+	"/user/hand/secondary" : "Other Hand",
+	"/user/hand/any" : "Either Hand",
+	"/user/stylus" : "Stylus",
+	"/user/gamepad" : "Gamepad",
+	"/user/foot/left" : "Left Foot",
+	"/user/foot/right" : "Right Foot",
+	"/user/shoulder/left" : "Left Shoulder",
+	"/user/shoulder/right" : "Right Shoulder",
+	"/user/waist" : "Waist",
+	"/user/chest" : "Chest",
+	"/user/camera" : "Camera",
+	"/user/keyboard" : "Keyboard",
+
+	"InputSourceName" : "%1$s %2$s %3$s",
+
+	"OriginString_All": "%1$s %2$s %3$s",
+	"OriginString_HandController": "%1$s %2$s",
+	"OriginString_HandSource": "%1$s %3$s",
+	"OriginString_Hand": "%1$s",
+	"OriginString_ControllerSource": "%2$s %3$s",
+ 	"OriginString_Source": "%3$s",
+ 	"OriginString_Controller": "%2$s",
+
+	"KeyboardDone" : "Done",
+
+	"CompatibilityMode_Notification": "Automatic compatibility mode enabled. Using binding for '%1$s'.",
+
+	"DO_NOT_TRANSLATE": "IgnoreMe"
+}

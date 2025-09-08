@@ -1,0 +1,303 @@
+ (Camera)
+%lld
+%llu
+(18e
+(Unable to load LibOVR)
+, last executing in 
+.00cfg
+.?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
+.?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AVCOVRRuntimeWindowThread@@
+.?AVCOculusCameraTransformDriver@@
+.?AVCOculusHmdLatest@@
+.?AVCServerDriver_Oculus@@
+.?AVCThread@@
+.?AVIServerTrackedDeviceProvider@vr@@
+.?AVITrackedDeviceServerDriver@vr@@
+.?AVIVRDisplayComponent@vr@@
+.?AVIVRDriverDirectModeComponent@vr@@
+.?AVUpdateThread@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.HPN
+.bss
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e8f13b1-60eb-4b6a-a433-de86104115ac
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+ADVAPI32.dll
+COculusHmdLatest::UpdateThread
+Camera tracker driver for rejected by vrserver\n
+CloseHandle
+Code: -1003
+Code: -3003
+CreateEventA
+CreateEventW
+CreateThread
+D3D11CreateDevice
+DeleteCriticalSection
+DisableThreadLibraryCalls
+Error! EventWriteString Severe: %s\n
+EventRegister
+EventUnregister
+EventWrite
+EventWriteString
+Failed to initalize OVR direct mode support.\n
+Failed to initialized Oculus device\n
+FreeLibrary
+GetCurrentDirectoryW
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetExitCodeThread
+GetLastError
+GetModuleFileNameW
+GetModuleHandleExW
+GetModuleHandleW
+GetProcAddress
+GetSystemTimeAsFileTime
+HmdDriverFactory
+IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_005
+IVRCameraComponent_003
+IVRCompositorPluginProvider_001
+IVRDisplayComponent_003
+IVRDriverDirectModeComponent_008
+IVRDriverLog_001
+IVRDriverManager_001
+IVRProperties_001
+IVRResources_001
+IVRServerDriverHost_006
+IVRSettings_003
+IVRVirtualDisplay_002
+IVRWatchdogProvider_001
+InitDirectMode: DX11 level hardware required!\n
+InitDirectMode: Failed to create D3D11 device! (err=%u)\n
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+Initialized Oculus device %s\n
+IsDebuggerPresent
+IsProcessorFeaturePresent
+KERNEL32.dll
+LIBOVR_DLL_DIR
+LoadLibraryA
+LoadLibraryW
+MSVCP140.dll
+MainThrd
+NULL
+OVR Runtime Init
+OVRRuntimeWindowThread
+Oculus
+Out of thread local storage!\n
+QueryPerformanceCounter
+RPCRT4.dll
+RSDSp^]
+RaiseException
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+SDL2.dll
+SDL_CreateWindow
+SDL_DestroyWindow
+SDL_WaitEventTimeout
+SetEvent
+SetUnhandledExceptionFilter
+Sleep
+SleepConditionVariableCS
+TdhEnumerateManifestProviderEvents
+Temp Window to disable SW_HIDE
+TerminateProcess
+Thread exited immediately\n
+Thread failed to initialize 1\n
+Thread failed to initialize 2\n
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+Unable to init oculus camera tracker\n
+UnhandledExceptionFilter
+Unknown exception
+Unknown(%u, %u)
+UuidFromStringA
+VCRUNTIME140.dll
+VR_CONFIG_PATH
+VR_LOG_PATH
+VR_OVERRIDE
+WaitForSingleObject
+WakeAllConditionVariable
+Warning: Watchdog %s not properly cleaned up%s%s\n
+[OculusDirect] Begin ReleaseSync
+[OculusDirect] End AcquireSync
+[OculusDirect] End ReleaseSync
+[OculusDirect] ovr_SubmitFrame - Begin
+[OculusDirect] ovr_SubmitFrame - End
+\vUnable to create texture set for pid %u: %s\n
+][OculusDirect] Begin AcquireSync
+_Camera
+_Cnd_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_signal
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Thrd_id
+_Thrd_join
+__C_specific_handler
+__CxxFrameHandler3
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__std_type_info_destroy_list
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vswprintf
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_execute_onexit_table
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_purecall
+_register_onexit_function
+_seh_filter_dll
+_stricmp
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+bad allocation
+bad array new length
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus_legacy\Retail\win64\2017\driver_oculus_legacy.pdb
+camera
+d3d11.dll
+dk2_camera
+driver_oculus_legacy.dll
+free
+getenv
+headset
+malloc
+map/set<T> too long
+memcmp
+memcpy
+memmove
+memset
+oculus
+ovrHmd_ConfigureTracking failed for %d\n
+ovrHmd_Create failed\n
+ovr_ConfigureTracking
+ovr_Create
+ovr_CreateMirrorTextureD3D11
+ovr_CreateMirrorTextureGL
+ovr_CreateSwapTextureSetD3D11
+ovr_CreateSwapTextureSetGL
+ovr_Destroy
+ovr_DestroyMirrorTexture
+ovr_DestroySwapTextureSet
+ovr_GetBool
+ovr_GetEnabledCaps
+ovr_GetFloat
+ovr_GetFloatArray
+ovr_GetFovTextureSize
+ovr_GetHmdDesc
+ovr_GetInputState
+ovr_GetInt
+ovr_GetLastErrorInfo
+ovr_GetPredictedDisplayTime
+ovr_GetRenderDesc
+ovr_GetSessionStatus
+ovr_GetString
+ovr_GetTimeInSeconds
+ovr_GetTrackingCaps
+ovr_GetTrackingState
+ovr_GetVersionString
+ovr_Initialize
+ovr_InitializeRenderingShimVersion
+ovr_Lookup
+ovr_RecenterPose
+ovr_ResetBackOfHeadTracking
+ovr_ResetMulticameraTracking
+ovr_SetBool
+ovr_SetControllerVibration
+ovr_SetEnabledCaps
+ovr_SetFloat
+ovr_SetFloatArray
+ovr_SetInt
+ovr_SetQueueAheadFraction
+ovr_SetString
+ovr_Shutdown
+ovr_SubmitFrame
+ovr_SubmitFrame failed: %s\n
+ovr_TraceMessage
+startup
+string too long
+strncpy
+strncpy_s
+strstr
+tdh.dll
+terminate
+vector<T> too long
+{ERR-001}
+{ERR-079}
+{oculus_legacy}/icons/%s_%s_alert_searching.gif
+{oculus_legacy}/icons/%s_%s_error.png
+{oculus_legacy}/icons/%s_%s_off.png
+{oculus_legacy}/icons/%s_%s_ready.png
+{oculus_legacy}/icons/%s_%s_ready_alert.png
+{oculus_legacy}/icons/%s_%s_searching.gif
+{oculus_legacy}/icons/%s_%s_standby.png

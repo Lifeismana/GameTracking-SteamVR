@@ -1,0 +1,376 @@
+ !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
+ !"#$%&'()*+,-./0123456789:;<=>?
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~333333
+ !#$&')*,-/0235689;<>???????????????????
+ !#$&')*,-/0235689;<>????????????????????
+ !#$&')*,-/0235689;<>?????????????????????
+ "#%&()+,./124578:;=>???????????????????
+ "#%&()+,./124578:;=>????????????????????
+ C\vw&CG
+ bn0s}Q_@r~aoPq
+!"$%'(*+-.0134679:<=????????????????????
+!"$%'(*+-.0134679:<=?????????????????????
+!/?WiZF4%
+!GnA
+"b}b*XhUu
+#CfU7
+$1CSdsl^L@2,(")-3AM_mvqg\PD<869=EQ]hrwtojaXTJHKUYbkpu
+%*Di-,D 6.D
+%A Is
+%daT
+&5G[ncRB0#
+)2STud>
+*VVw
+,BAl@B=6UB
+-Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
+.00cfg
+.?AVQImageIOHandler@@
+.?AVQImageIOPlugin@@
+.?AVQObject@@
+.?AVQWebpHandler@@
+.?AVQWebpPlugin@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.bss
+.data
+.data$r
+.edata
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.qtmetadata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+0000
+2\vpH
+333333
+333333"@
+4dsg
+5;FJ$,XEK4<
+7&F|If
+7T2,
+8"3hrf
+969p
+9A\n(xA=6
+:dD8XfD\vwhD
+:s6X
+<8bunz8
+<@En[vP
+<ZZ<ZZZZZZZ
+?*hiR
+?0D6J2D
+?333333
+?3ScR.>
+?3xj
+?40V
+?5a1
+?93l
+??0QImage@@QEAA@AEBV0@@Z
+??0QImage@@QEAA@HHW4Format@0@@Z
+??0QImageIOHandler@@QEAA@XZ
+??0QImageIOPlugin@@QEAA@PEAVQObject@@@Z
+??0QMessageLogger@@QEAA@PEBDH0@Z
+??0QVariant@@QEAA@AEBVQSize@@@Z
+??0QVariant@@QEAA@H@Z
+??0QVariant@@QEAA@XZ
+??1QByteArray@@QEAA@XZ
+??1QDebug@@QEAA@XZ
+??1QImage@@UEAA@XZ
+??1QImageIOHandler@@UEAA@XZ
+??1QImageIOPlugin@@UEAA@XZ
+??4QImage@@QEAAAEAV0@$$QEAV0@@Z
+??4QImage@@QEAAAEAV0@AEBV0@@Z
+??6QDebug@@QEAAAEAV0@H@Z
+??6QDebug@@QEAAAEAV0@PEBD@Z
+?AFxD
+?G2Q
+?MKR
+?Tu7R
+?UUUUUU
+?bits@QImage@@QEAAPEAEXZ
+?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
+?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?constData@QByteArray@@QEBAPEBDXZ
+?ffffff
+?format@QImage@@QEBA?AW4Format@1@XZ
+?gibQ^AX>
+?isOpen@QIODevice@@QEBA_NXZ
+?isReadable@QIODevice@@QEBA_NXZ
+?isWritable@QIODevice@@QEBA_NXZ
+?kAf
+?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
+?q42s(
+?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?readAll@QIODevice@@QEAA?AVQByteArray@@XZ
+?rmMx
+?startsWith@QByteArray@@QEBA_NPEBD@Z
+?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
+?toInt@QVariant@@QEBAHPEA_N@Z
+?u1P
+?warning@QMessageLogger@@QEBA?AVQDebug@@XZ
+?warning@QMessageLogger@@QEBAXPEBDZZ
+?write@QIODevice@@QEAA_JPEBD_J@Z
+@\n@33333
+ALPH
+ANIM
+ANMF
+AYl=
+AiFC.
+Bad code word
+CloseHandle
+Could not decode alpha data.
+CreateEventW
+DBM&(
+DB\f Dv
+DeleteCriticalSection
+DisableThreadLibraryCalls
+E<G&Iw
+EXIF
+E\v?endsWith@QByteArray@@QEBA_NPEBD@Z
+EnterCriticalSection
+FK?imageCount@QImageIOHandler@@UEBAHXZ
+FRGM
+FU?setOption@QImageIOHandler@@UEAAXW4ImageOption@1@AEBVQVariant@@@Z
+Frame not displayable.
+Frame setup failed
+G&iC
+G8D>
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetModuleHandleW
+GetProcAddress
+GetSystemTimeAsFileTime
+Gf95)1&!\ry9I
+Gin>
+ICCP
+IT=_9
+Ik6 
+Incorrect keyframe parameters.
+InitializeConditionVariable
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+J\;5yTb
+K?height@QImage@@QEBAHXZ
+KERNEL32.dll
+KQD2cSDy{UD
+L?isNull@QImage@@QEBA_NXZ
+L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
+L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
+LeaveCriticalSection
+M?loopCount@QImageIOHandler@@UEBAHXZ
+MnZ/rs
+NULL VP8Io parameter in VP8Decode().
+N_U9203
+Not a key frame.
+O?nextImageDelay@QImageIOHandler@@UEBAHXZ
+Output aborted.
+P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+PURH
+Premature end-of-file encountered.
+Premature end-of-partition0 encountered.
+QWebpHandler::canRead() called with no device
+QWebpPlugin
+Qt5Core.dll
+Qt5Gui.dll
+QueryPerformanceCounter
+RIFF
+R\vn>
+R_T5Y
+Rd.F
+ResetEvent
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+S\rYkv
+Sequential devices are not supported
+SetEvent
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+Svj>
+T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+T\t5K
+TerminateProcess
+Truncated header.
+T~OXu
+U?1g
+U?wN
+UEj)
+U\8h(
+UcKc
+UnhandledExceptionFilter
+Unknown exception
+Uo\vv
+VCRUNTIME140.dll
+VP8 
+VP8L
+VP8X
+VZ#-DLU[3=h
+W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+WDG,r3
+WEBP
+WR_l%2>
+WY'N
+WaitForSingleObjectEx
+WakeAllConditionVariable
+WmS|
+XL3Z
+XMP 
+Xl=hs>
+Z?width@QImage@@QEBAHXZ
+Z_JmLd
+ZxnI
+[C2zbCSTiC\n7pC&"wCw
+\\n?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+\f#\f<\fB\fK\fQ\f\\fb\fk\fq\f
+\f,\f2\f;\fA\fL\fR\f[\fa\fu\f{\f
+\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+\n!\n5\n;\nD\nJ\nU\n[\nd\nj\n
+\n"\n;\nA\nJ\nP\n[\na\nj\np\n
+\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
+\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+\nwX4C
+\r \r)\r/\r:\r@\rI\rO\rh\rn\rw\r}\r
+\r!\r,\r2\r;\rA\r
+\r"\r(\r1\r7\rP\rV\r_\re\rp\rv\r
+\t$\t/\t5\t>\tD\tX\t^\tg\tm\tx\t~\t
+\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+\t@@@@@@@@@@@@@@@@{N{N{N{N{N{N{N{N
+\tJqAl
+\v \v&\v/\v5\vI\vO\vX\v^\vi\vo\vx\v~\v
+\v'\v-\v8\v>\vG\vM\va\vg\vp\vv\v
+\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
+\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+_CxxThrowException
+_RDATA
+_W4~w
+__C_specific_handler
+__std_exception_copy
+__std_exception_destroy
+__std_type_info_destroy_list
+__vcrt_InitializeCriticalSectionEx
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_execute_onexit_table
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_register_onexit_function
+_seh_filter_dll
+_wjb
+`*Hhq
+`7bu
+`n`lns
+aFN,
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-utility-l1-1-0.dll
+bFbx
+bad allocation
+bad array new length
+bad partition length
+bwD`
+calloc
+cannot parse filter header
+cannot parse partitions
+cannot parse picture header
+cannot parse segment header
+cu\fq7
+dlBNvz!/u{1?cmR^
+dqe-KO{/3
+f@)rM
+failed to encode webp picture, error code: 
+failed to import image data to webp picture.
+failed to init webp picture and config
+fj".T\CMek2>x
+free
+h2yv
+hI{L[
+h\t?byteCount@QImage@@QEBAHXZ
+id@j>
+j,4c
+j\t?bytesPerLine@QImage@@QEBAHXZ
+kBk>
+kGCu!NC
+kU!W>
+kWt>
+log10
+m1WY$
+malloc
+memcpy
+memmove
+memset
+no memory during frame initialization.
+null VP8Io passed to VP8GetHeaders()
+o KPBf
+oY.o<
+ofn}>
+opqMU
+qo-W>
+qsort
+qt_plugin_instance
+qt_plugin_query_metadata
+qwebp.dll
+sD}>uD
+source image is null.
+t14x
+thread initialization failed.
+t|AO
+uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+vECd
+vIK \f3
+vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
+va1+
+wIq?
+webp
+wyS]
+x0Ysqx
+y>1g
+zJO>
+zyC7
+}mxQ>
+~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543210/.-,+*)('&%$#"! 
