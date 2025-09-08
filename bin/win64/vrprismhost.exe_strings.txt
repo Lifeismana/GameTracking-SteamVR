@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-13:59:37
+11:32:39
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -232,6 +232,7 @@ AlreadyRegistered
 AlreadyRunning
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 Attempt to init shared state %s twice
+Aug 31 2023
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -302,7 +303,7 @@ Failed Watchdog timeout in thread %s after %f seconds\n
 Failed creating auto reset event %s (GLE: %u)\n
 Failed creating file mapping %s: %u\n
 Failed creating mutex %s (GLE: %u)\n
-Failed mapping view for %s; Error code: 0x%08x\n
+Failed mapping view for %s\n
 Failed to connect to pipe %s because %s\n
 Failed to import client event handle from pipe %s after connecting\n
 Failed to import server event handle from pipe %s after connecting\n
@@ -429,7 +430,6 @@ NoDisplayFound
 NoValidDisplays
 NoValidMotionEstimators
 NotSupported
-Oct 24 2023
 OpenEventA
 OpenFileMappingA
 OpenMutexA
@@ -473,7 +473,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSz
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -638,7 +638,6 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
-VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -799,7 +798,7 @@ VulkanCreateInstanceFailed
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 WakeAllConditionVariable
 Warning

@@ -69,7 +69,7 @@
 --via-dongle
 -t1?Ks
 -tA?Ks
--tQ?L
+-tQ?4
 . Retrying...
 .00cfg
 .?AU_Crt_new_delete@std@@
@@ -242,7 +242,7 @@
 ??_7ctype_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?IVRCameraComponent_003
+?IServerTrackedDeviceProvider_004
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@GG@Z
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
 ?_BADOFF@std@@3_JB
@@ -469,8 +469,8 @@ HidP_GetCaps
 ICE40
 ISP-ETRON-776
 ISP-ETRON-876
-IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
+IVRCameraComponent_003
 IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
 IVRDriverDirectModeComponent_008
@@ -547,7 +547,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS
+RSDSb
 Radio version:      
 RaiseException
 ReadFile

@@ -165,7 +165,7 @@ CNullHmdLatest::IsDisplayOnDesktop()
 CNullHmdLatest::IsDisplayRealDisplay()
 CNullHmdLatest::RunFrame() (.part.0)
 CNullHmdLatest::~CNullHmdLatest()
-CSWTCH.107
+CSWTCH.100
 CServerDriver_Null::Cleanup()
 CServerDriver_Null::EnterStandby()
 CServerDriver_Null::GetInterfaceVersions()
@@ -192,7 +192,7 @@ Format string parse failure
 Format(char const*, ...)
 Format(char const*, ...) (.cold)
 Friday
-GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
+GCC: (SteamRT 9.3.0-17+steamrt2.3+bsrt2.1) 9.3.1 20210309
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3

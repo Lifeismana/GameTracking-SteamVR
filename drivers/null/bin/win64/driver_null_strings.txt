@@ -1,4 +1,3 @@
-!18e
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@

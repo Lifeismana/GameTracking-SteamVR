@@ -1,5 +1,4 @@
 .00cfg
-.?AV_com_error@@
 .?AVbad_alloc@std@@
 .?AVbad_array_new_length@std@@
 .?AVexception@std@@
@@ -45,29 +44,20 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-:18e
-?_Throw_C_error@std@@YAXH@Z
-?_Xbad_function_call@std@@YAXXZ
-?_Xlength_error@std@@YAXPBD@Z
+Add failed: 0x%08lx\n
+Authorized application %lS is disabled in the firewall.\n
+Authorized application %lS is enabled in the firewall.\n
+Authorized application %lS is now enabled in the firewall.\n
 CloseHandle
-CoCreateGuid
 CoCreateInstance
 CoCreateInstance failed: 0x%08lx\n
-CoCreateInstance for INetFwPolicy2 failed: 0x%08lx\n
-CoCreateInstance for INetFwRule failed: 0x%08lx\n
 CoInitializeEx
-CoInitializeEx failed: 0x%08lx\n
 CoUninitialize
 CreateEventW
-CreateFileW
 DeleteCriticalSection
-EnterCriticalSection
-Failed string allocation\n
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
-GetFileInformationByHandle
-GetLastError
 GetModuleFileNameW
 GetModuleHandleW
 GetProcAddress
@@ -79,38 +69,25 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
 L09n
-LeaveCriticalSection
-LocalFree
 MSVCP140.dll
 OLEAUT32.dll
-PathCchAppend
+PWindowsFirewallAppIsEnabled failed: 0x%08lx\n
+PathAppendW
 PathRemoveFileSpecW
 QueryPerformanceCounter
-RSDS2
-ResetEvent
+RSDS
 SHLWAPI.dll
-SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-StringFromGUID2
+SysAllocString failed: 0x%08lx\n
 TerminateProcess
-Unable to construct path to vrserver.\n
-Unable to disable firewall rule: %d 0x%08lx\n
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
-WaitForSingleObjectEx
 WakeAllConditionVariable
-WideCharToMultiByte
-WindowsFirewallAddRule add %d failed: 0x%08lx\n
-WindowsFirewallAddRule failed to query firewall rule %d 0x%08lx\n
-WindowsFirewallInitialize failed: 0x%08lx\n
-[,i33L
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
-_Mtx_lock
-_Mtx_unlock
 __CxxFrameHandler3
 __acrt_iob_func
 __p___wargv
@@ -119,8 +96,6 @@ __setusermatherr
 __std_exception_copy
 __std_exception_destroy
 __stdio_common_vfprintf
-__stdio_common_vfwprintf
-__stdio_common_vsprintf
 _c_exit
 _callnewh
 _cexit
@@ -128,7 +103,6 @@ _configthreadlocale
 _configure_wide_argv
 _controlfp_s
 _crt_atexit
-_errno
 _except1
 _except_handler4_common
 _exit
@@ -137,37 +111,33 @@ _initialize_onexit_table
 _initialize_wide_environment
 _initterm
 _initterm_e
-_invalid_parameter_noinfo
-_invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _register_thread_local_exe_atexit_callback
 _seh_filter_exe
 _set_app_type
 _set_fmode
 _set_new_mode
-_wcsicmp
-api-ms-win-core-path-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-locale-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
-api-ms-win-crt-string-l1-1-0.dll
+b'kJ
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win32\build\src\vrserverhelper\Retail\win32\2017\vrserverhelper.pdb
 exit
 free
+get_AuthorizedApplications failed: 0x%08lx\n
 get_CurrentProfile failed: 0x%08lx\n
+get_Enabled failed: 0x%08lx\n
 get_LocalPolicy failed: 0x%08lx\n
-get_Rules failed: 0x%08lx\n
 malloc
-memcpy
-memmove
 memset
 ole32.dll
-pFwRules->Add( pRule ) failed: 0x%08lx\n
-string too long
-strstr
+put_Name failed: 0x%08lx\n
+put_ProcessImageFileName failed: 0x%08lx\n
 terminate
-vector<T> too long
+vrserverhelper: CoInitializeEx failed: 0x%08lx\n
+vrserverhelper: WindowsFirewallAddApp failed: 0x%08lx\n
+vrserverhelper: WindowsFirewallInitialize failed: 0x%08lx\n

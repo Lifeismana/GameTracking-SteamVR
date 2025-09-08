@@ -454,12 +454,12 @@
 15CVkResourceBase
 15CVkResourcePoolI16CVkCommandBufferE
 16CVkCommandBuffer
+18:26:30
 18CPrismDisplay_Null
 18IPrismPoseProvider
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
-20:58:53
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
@@ -498,6 +498,7 @@ Apply median filter
 April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
+Aug 31 2023
 August
 Automatically quitting due to idle time > %f seconds.
 BCreateDirectory(char const*)
@@ -836,12 +837,9 @@ CPrismPoseProvider_Null::GetHmdDetails(IPrismPoseProvider::HmdDetails_t*)
 CPrismPoseProvider_Null::GetInstance()
 CPrismPoseProvider_Null::GetInstance()::instance
 CPrismPoseProvider_Null::GetPoses(glm::mat<4, 4, float, (glm::qualifier)0>*, bool*, unsigned int, unsigned long)
-CSDLDynamic::Init()
-CSDLDynamic::Unload()
-CSDLDynamic::~CSDLDynamic()
-CSWTCH.107
+CSWTCH.100
 CSWTCH.16
-CSWTCH.212
+CSWTCH.208
 CSWTCH.23
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -1328,7 +1326,6 @@ Error %d locking shared memory file
 Error from reader: %s
 Error on Release(): Not the lock owner(%d) != %d\n
 Error reading from socket\n
-Error: failed to load dynamic SDL
 EventWriteString(char const*, EVRTraceEvent)
 EventWriteString(char const*, EVRTraceEvent) (.cold)
 EventWriteStringBegin(char const*, unsigned long)
@@ -1395,7 +1392,7 @@ FrameHallucination-Frag
 FrameHallucination-Vert
 Friday
 Fv9ELogLevelPKcPvE
-GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
+GCC: (SteamRT 9.3.0-17+steamrt2.3+bsrt2.1) 9.3.1 20210309
 GLIBC_2.12
 GLIBC_2.14
 GLIBC_2.2.5
@@ -2124,7 +2121,6 @@ None
 November
 Null
 Null Client
-Oct 24 2023
 October
 OnPreSubmit
 Out of thread local storage!\n
@@ -2284,7 +2280,6 @@ RegisterDestinationImage
 ReleaseThreadHandle
 Remap
 RenderDoc::CCaptureScope::CCaptureScope(VkInstance_T*)
-RenderDoc::CCaptureScope::CCaptureScope(void*)
 RenderDoc::CCaptureScope::~CCaptureScope()
 RenderDoc::Initialize()
 RenderDoc::TriggerCapture()
@@ -2299,9 +2294,6 @@ Reset
 ReturnStdString(std::string const&, char*, unsigned int)
 Right Eye
 RunFrame
-SDLDynamic()
-SDLDynamic() (.cold)
-SDLDynamic()::m_instance
 SDL_GetError
 SDL_GetPowerInfo
 SDL_SetThreadPriority
@@ -2321,9 +2313,6 @@ SetDebugName
 SetDisplayMode
 SetEnvironmentVariable(char const*, char const*)
 SetFov
-SharedLib_GetFunction(void*, char const*)
-SharedLib_Load(char const*, std::string*)
-SharedLib_Unload(void*)
 SharedObjMgr().Init() failed
 Shutdown
 Signal
@@ -3167,6 +3156,8 @@ construction vtable for std::ostream-in-std::iostream
 covariant return thunk to 
 cplus_demangle_builtin_types
 cplus_demangle_operators
+crc32(unsigned int, void const*, unsigned long)
+crc32(unsigned int, void const*, unsigned long)::crcTable
 createInfo.pComputeDistortion
 d_abi_tags
 d_append_buffer
@@ -3228,8 +3219,6 @@ dgettext
 digit
 dl_iterate_phdr
 dladdr
-dlclose
-dlerror
 dlopen
 dlsym
 double
@@ -3396,7 +3385,6 @@ guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
 guard variable for CPrismDisplay_Null::GetInstance()::instance
 guard variable for FillPipeAddr(sockaddr_un&, std::string)::sPrefix
 guard variable for GetTraceMarkerFd()::s_TraceMarkerMutex
-guard variable for SDLDynamic()::m_instance
 guard variable for SteamVRVersionAsString()::s_sCachedVersion
 guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
 guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&)::s_convert
@@ -3532,7 +3520,6 @@ long std::__copy_streambufs_eof<char, std::char_traits<char>>(std::basic_streamb
 long std::__copy_streambufs_eof<wchar_t, std::char_traits<wchar_t>>(std::basic_streambuf<wchar_t, std::char_traits<wchar_t>>*, std::basic_streambuf<wchar_t, std::char_traits<wchar_t>>*, bool&)
 lower
 lseek64
-m!SuW
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bSupportsPresentId
@@ -8362,8 +8349,6 @@ volkLoadInstance
 volkLoadInstanceOnly
 vr-input-workshop://
 vr-marker,frame_end,type,application
-vrcore::crc32(unsigned int, void const*, unsigned long)
-vrcore::crc32(unsigned int, void const*, unsigned long)::crcTable
 vrpathreg
 vsnprintf
 vtable for 

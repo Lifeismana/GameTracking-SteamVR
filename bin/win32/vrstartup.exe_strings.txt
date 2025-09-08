@@ -117,7 +117,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:00:08
+11:31:42
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -181,6 +181,7 @@ ADVAPI32.dll
 ASSERT: "%s" at %s:%d.\n
 Aborting due to fatal assertion failure.
 Assert( %s ) %s(%d)\n
+Aug 31 2023
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -252,13 +253,12 @@ Missing ':' after object member name
 Missing '}' or object member name
 MoveFileExW
 New Runtime: %s\n
-Oct 24 2023
 OpenProcess
 Out of thread local storage!\n
 OutputDebugStringA
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSh
+RSDS`
 RaiseException
 RegCloseKey
 RegCreateKeyExA
@@ -339,7 +339,6 @@ WideCharToMultiByte
 [System] Old Runtime Path: 
 [System] Path Registry contains invalid data, sanitizing: 
 [System] Path Registry not found, initializing: 
-^18e
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal

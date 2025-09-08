@@ -684,7 +684,7 @@ Failed Watchdog timeout in thread %s after %f seconds\n
 Failed creating auto reset event %s (GLE: %u)\n
 Failed creating file mapping %s: %u\n
 Failed creating mutex %s (GLE: %u)\n
-Failed mapping view for %s; Error code: 0x%08x\n
+Failed mapping view for %s\n
 Failed to compute distortion parameters!\n
 Failed to connect to pipe %s because %s\n
 Failed to import client event handle from pipe %s after connecting\n
@@ -1051,7 +1051,7 @@ Wait:%llu
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s\n

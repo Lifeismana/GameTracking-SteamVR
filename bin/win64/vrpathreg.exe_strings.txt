@@ -288,7 +288,6 @@ $Ib?s
 11Y@
 1e+9999
 1eaB@
-2\vpl
 3 FB
 37>k
 3>N;kU
@@ -564,7 +563,6 @@ QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
 RSDS
-R\vpl
 RaiseException
 ReadConsoleW
 ReadFile
@@ -947,7 +945,6 @@ setlog
 setruntime
 setthis
 show
-showEnableInSettings
 sinh
 snan)
 spatialAnchorsSupport

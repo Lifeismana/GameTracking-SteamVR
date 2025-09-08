@@ -331,21 +331,6 @@
 				"requires_restart": true
 			},
 			{
-				"name": "/settings/userinterface/laserMouseDebugging",
-				"type": "bool",
-				"control": "toggle",
-				"label": "Laser Mouse Debugging"
-			},
-
-			{ "name": "/settings/input/overlayMagnetismEnabled", "type": "bool" },
-			{ "name": "/settings/input/overlayMagnetismLockDistance", "type": "number" },
-			{ "name": "/settings/input/overlayMagnetismDeadZone", "type": "number" },
-			{ "name": "/settings/input/overlayFilteringEnabled", "type": "bool" },
-			{ "name": "/settings/input/overlayFilteringMinCutoff", "type": "number" },
-			{ "name": "/settings/input/overlayFilteringBeta", "type": "number" },
-			{ "name": "/settings/input/overlayFilteringDerivCutoff", "type": "number" },
-
-			{
 				"name": "/settings/internal/*",
 				"type": "wildcard"
 			}

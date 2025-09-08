@@ -175,6 +175,7 @@ DeleteFileW
 Detail
 Device Parameters
 Duplicate key: '
+E:7k
 Empty escape sequence in string
 EnhancedPowerManagementEnabled
 EnterCriticalSection

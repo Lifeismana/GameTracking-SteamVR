@@ -1,7 +1,6 @@
  (Camera)
 %lld
 %llu
-(18e
 (Unable to load LibOVR)
 , last executing in 
 .00cfg
@@ -140,7 +139,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSp^]
+RSDSYR
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry

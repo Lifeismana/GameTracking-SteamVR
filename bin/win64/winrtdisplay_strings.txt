@@ -102,7 +102,6 @@
 ?_Xlength_error@std@@YAXPEBD@Z
 ASSERT: "%s" at %s:%d.\n
 C++/WinRT version:1.0.190111.3
-C08e
 CWinRTDisplay::GetDisplayModes
 CWinRTDisplay::SetDisplayMode
 CloseHandle
@@ -140,7 +139,7 @@ MultiByteToWideChar
 OLEAUT32.dll
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSL$v
+RSDS
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException

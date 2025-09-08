@@ -48,7 +48,6 @@
  (right sync)
  (selected 
  * Available base %08X\n
- - %dx%d format=%d refresh=%d/%d scan=%d scale=%d dsc: mode=%d version=%d slice=%d out16=%d
  .anx_dp_error = 
  .anx_dp_height = 
  .anx_dp_vtotal = 
@@ -223,7 +222,6 @@ $tI<unknown>
 %s: Checking to see if display has connected...\n
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
 %s: Connected to receiver %s\n
-%s: Controller subprotocol changed version %d\n
 %s: Device does not have a stored config\n
 %s: Disconnected from receiver %s\n
 %s: ERROR: could not query version from watchman board.\n
@@ -234,7 +232,6 @@ $tI<unknown>
 %s: Ignoring unlikely saved IMU calibration %s\n
 %s: Log recorded at %s
 %s: Not loading device config because its size is too large: 0x%X bytes\n
-%s: Optical subprotocol changed version %d\n
 %s: Packet received after %.3fs, keepalive (%d/%d)\n
 %s: Protocol versioning supported, requesting %d\n
 %s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes\n
@@ -689,7 +686,6 @@ $tI<unknown>
 .tls$
 .tls$ZZZ
 .tmp
-.vrstats
 .xdata$x
 /P8i
 /\n\vbase_config
@@ -778,7 +774,6 @@ $tI<unknown>
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899\x%02x
 0123456789abcdef
-0a\v6<
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -856,6 +851,7 @@ $tI<unknown>
 ??_7ios_base@std@@6B@
 ?Nbp?
 ?UUUUUU
+?VR_OVERRIDE
 ?VUUUUU
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
@@ -1287,7 +1283,6 @@ Error parsing text-format
 Error querying Index HMD panel stats\n
 Error querying IndexHmdColumnCorrectionMode\n
 Error reading tracked device config from path 
-Error serializing persistent statistics entry\n
 Error setting column correction\n
 Error setting index audio mute state\n
 Error setting index backlight gain\n
@@ -1367,7 +1362,6 @@ Failed to find entrypoint WINRT_ReleaseDisplay
 Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
 Failed to get HINSTANCE in DeviceMessageWindow_t::Create
-Failed to get log path for persistent statistics.\n
 Failed to load external 'uri' for image[
 Failed to parse JSON object\n
 Failed to parse `bufferView` for image[
@@ -1375,11 +1369,9 @@ Failed to parse `uri` for image[
 Failed to read config when activating watchdog on button press: %s\n
 Failed to read file: 
 Failed to register/find class in DeviceMessageWindow_t::Create
-Failed to send OTGT result\n
 Failed to send pairing result mailbox message. Maybe it didn't have a return address?\n
 Failed to send reply to discover_dongles message: %d\n
 Failed to start pairing on dongle %s\n
-Failed to write file %s\n
 False
 Field "
 Field does not match message type.
@@ -1714,7 +1706,6 @@ Invalid float number:
 Invalid glTF binary.
 Invalid image data for image[
 Invalid magic.
-Invalid persistent statistics serial\n
 Invalid proto descriptor for file "
 Invalid public dependency index.
 Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
@@ -1846,7 +1837,6 @@ NJ2"v
 NOTPRESENT
 NRF52
 NRF52 DTM
-NVAPI_DEBUG_DISPLAY_MODES
 NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
@@ -1877,7 +1867,6 @@ Not the preferred basestation\n
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Numbers starting with leading zero must be in octal.
 NvAPI
-NvAPI DisplayModes:
 NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!\n
 NvAPI: DirectModeGetDisplayModes trying again with older API!\n
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!\n
@@ -1885,7 +1874,6 @@ NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d\n
 O*9y]
 OLocalizationManager
 OPAQUE
-OTGT timed out\n
 OZw3(?
 O\tu~w
 Object
@@ -1966,7 +1954,6 @@ Path_Exists( absFilePath )
 Pe6^
 PeekMessageA
 PeripheralApplication
-Persistent statistics file does not exist. Creating new %s\n
 Perspective camera description not found.
 PerspectiveCamera
 Primitive
@@ -1990,7 +1977,6 @@ RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
 ReadFile
 Reading dangerously large protocol message.  If the message turns out to be larger than 
-Reading persistent statistics file from %s\n
 Received mirror reset event after %u passes, %llu samples\n
 Received mirror reset event\n
 Received mirror stop event after %u passes, %llu samples\n
@@ -2027,7 +2013,6 @@ Robin
 Robin 2
 RootSerial %s\n
 Rotors on basestation out of 180-degree phase lock.\n
-RpcStringFreeA
 RtlGetNtVersionNumbers
 SCALAR
 SETUPAPI.dll
@@ -2090,7 +2075,6 @@ SelectVideoConfig: driver_lighthouse.forceSoloEdid=true\n
 Selected existing universe %llu (%08X is %s)\n
 ServiceDescriptorProto
 ServiceOptions
-SessionID
 Set column correction %f %d %f %d\n
 Set index backlight gain: %f\n
 Set initial
@@ -2150,9 +2134,7 @@ Stable
 Standby toggled
 Standby unknown hmd\n
 Start
-Start test failed\n
 Started pairing dongle serial=%s timeout=%f\n
-Starting test\n
 Still waiting for Direct Mode Display...\n
 Stopped tracking with universe %llu\n
 Stopping playback mirror thread\n
@@ -2285,7 +2267,6 @@ Updated Right Camera Extrinsics: %s
 Updated shift blue in pixels: %f %f\n
 Updated shift red in pixels:  %f %f\n
 Updated:  %f %f %f \n
-Updating %s\n
 Updating additional system report data for %s\n
 Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g\n
 User
@@ -2301,9 +2282,7 @@ Utah DV
 Utah EV1
 Utah EV2
 Utah MP
-UuidCreate
 UuidFromStringA
-UuidToStringA
 V2 HMD with bogus trackrefs detected in configuration:\n
 VBus: 
 VCRUNTIME140.dll
@@ -2395,7 +2374,6 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
-VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -2542,7 +2520,6 @@ VR_CONFIG_PATH
 VR_FIRMWARE_MANIFEST_FILE
 VR_LOG_DEBUG
 VR_LOG_PATH
-VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 Value 
 Value must be "true" or "false" for boolean option "
@@ -2859,7 +2836,6 @@ accessor[
 accessors
 adcr
 add a secondary base
-add_ogs_row
 additional six characters expected to parse unicode surrogate pair.
 adjust_panel_cant
 adjust_panel_cant %f %f
@@ -3075,7 +3051,7 @@ device_pid
 device_serial_number
 device_serial_number_watchman
 device_vid
-devicescannermsgwindow-
+devicescannermsgwindow
 direct_mode_edid_pid
 direct_mode_edid_vid
 disableRuntimeEdidOverride
@@ -3196,7 +3172,6 @@ fgetc
 fgetpos
 fi_fi
 field
-fields
 file
 file error
 file is empty or does not exist
@@ -3338,7 +3313,6 @@ incorrect data check
 incorrect header check
 incorrect length check
 index
-index.
 indexHmdColumnCorrection
 indexHmdColumnOffset_
 indexcontroller
@@ -3591,7 +3565,6 @@ optional
 options
 orthographic
 otds
-otg_device
 out_of_range
 outerConeAngle
 outofdata
@@ -3649,6 +3622,7 @@ proximity
 pt_br
 pt_pt
 public_dependency
+pxEH
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 qinvalid stoul argument
@@ -3718,7 +3692,6 @@ sendStatusUpdates
 serial
 serialNumber
 service
-session_id_field_name
 set_chromatic_correction_factors
 set_chromatic_correction_factors %f %f
 set_index_brightness %f
@@ -3801,7 +3774,6 @@ tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
 tTyY1
-table
 target
 target_pose
 target_serial_number

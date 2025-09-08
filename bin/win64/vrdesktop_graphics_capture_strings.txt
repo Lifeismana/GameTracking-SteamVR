@@ -420,8 +420,8 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSK^
-R\np4
+RSDS?I
+R\npd
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.\n
@@ -652,7 +652,6 @@ it_it
 italian
 ja_jp
 japanese
-k28e
 kernel32.dll
 ko_ko
 korean
@@ -687,7 +686,6 @@ request_handlers
 request_handlers_response
 request_show_desktop
 request_spawn_window_view
-request_task_view
 request_window_list_update
 returnAddress
 ro_ro
@@ -710,7 +708,7 @@ swedish
 system.cursor.ibeam
 system.desktop.%d
 system.desktop.pointer
-system.window.%llu
+system.window.%s
 systemui_dashboard
 tchinese
 terminate

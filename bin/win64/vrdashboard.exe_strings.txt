@@ -126,7 +126,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-13:59:37
+11:32:39
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -186,6 +186,7 @@ Aborting due to fatal assertion failure.
 Alert
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 Assert( %s ) %s(%d)\n
+Aug 31 2023
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -331,14 +332,13 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 MoveFileExW
-Oct 24 2023
 Out of thread local storage!\n
 OutputDebugStringA
 PeekMessageA
 Process VR events.
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSz%
+RSDSez$o
 RaiseException
 ReadFile
 RegCloseKey
@@ -480,7 +480,6 @@ WriteFile
 [Steam] Steam INIT.\n
 [Steam] Steam SHUTDOWN.\n
 [Steam] SteamAppID mismatch: got %d, expected %d\n
-\28e
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit

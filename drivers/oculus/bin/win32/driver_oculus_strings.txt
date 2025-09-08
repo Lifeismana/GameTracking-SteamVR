@@ -251,6 +251,7 @@ $3br
 /output/haptic
 /pose/raw
 /proximity
+/skeleton/hand/left
 /skeleton/hand/right
 /user/ankle/left
 /user/ankle/right
@@ -286,7 +287,6 @@ $3br
 <parse error>
 <uninitialized>
 <unknown>
-?/skeleton/hand/left
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -312,6 +312,7 @@ $3br
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
+?POSITION
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
 ?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z
@@ -442,9 +443,7 @@ Failed calling CreateRenderTargetView() in CD3D11VRRenderer::ImportTextureFromNa
 Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!\n
 Failed to convert guardian data to chaperone\n
 Failed to create DepthStencilView for texture %s\n
-Failed to create RTV for texture lod=%d
 Failed to create RTV for texture\n
-Failed to create SRV for texture lod=%d
 Failed to decode 'uri' : 
 Failed to decode 'uri' for image[
 Failed to get default audio playback device\n
@@ -566,7 +565,7 @@ Invalid glTF binary.
 Invalid image data for image[
 Invalid magic.
 IsDebuggerPresent
-IsDepthFormatDXGI( eTextureFormatConcrete )
+IsDepthFormat( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 JFIF
 JSON string too short.\n
@@ -622,11 +621,9 @@ OpenProcess
 Orhographic camera description not found.
 OrthographicCamera
 Out of thread local storage!\n
-OutputDebugStringW
 PATH
 PICT
 PNG\r\n
-POSITION
 Path_Exists( absFilePath )
 Perspective camera description not found.
 PerspectiveCamera
@@ -639,9 +636,6 @@ RPCRT4.dll
 RSDS
 RaiseException
 ResetEvent
-S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
-S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
-S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
 SCALAR
 SDL2.dll
 SDL_CreateWindow
@@ -692,8 +686,6 @@ UnhandledExceptionFilter
 Unknown exception
 Unknown image format. STB cannot decode image data for image[
 Unknown(%u, %u)
-Unsupported RTV type: %d
-Unsupported SRV type: %d
 Unsupported `type` for accessor object. Got "
 UpdateThrottling
 UuidFromStringA

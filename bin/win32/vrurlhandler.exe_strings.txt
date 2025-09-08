@@ -218,7 +218,7 @@ Extra non-whitespace after JSON value.
 Failed creating auto reset event %s (GLE: %u)\n
 Failed creating file mapping %s: %u\n
 Failed creating mutex %s (GLE: %u)\n
-Failed mapping view for %s; Error code: 0x%08x\n
+Failed mapping view for %s\n
 Failed to connect to pipe %s because %s\n
 Failed to import client event handle from pipe %s after connecting\n
 Failed to import server event handle from pipe %s after connecting\n
@@ -382,7 +382,7 @@ VR_SettingsState
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s\n
@@ -447,7 +447,6 @@ _strnicmp
 _wfopen_s
 _wfsopen
 _wstat64i32
-a18e
 additional six characters expected to parse unicode surrogate pair.
 allowComments
 allowDroppedNullPlaceholders
@@ -516,7 +515,7 @@ fread
 free
 fseek
 ftell
-http://127.0.0.1:
+http://localhost:
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer

@@ -54,7 +54,6 @@
  (right sync)
  (selected 
  * Available base %08X\n
- - %dx%d format=%d refresh=%d/%d scan=%d scale=%d dsc: mode=%d version=%d slice=%d out16=%d
  .anx_dp_error = 
  .anx_dp_height = 
  .anx_dp_vtotal = 
@@ -250,7 +249,6 @@ $tAUUPE
 %s: Can't create source of type "%s"\n
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
 %s: Connected to receiver %s\n
-%s: Controller subprotocol changed version %d\n
 %s: D3D11 feature level required for interop
 %s: Device does not have a stored config\n
 %s: Disconnected from receiver %s\n
@@ -277,7 +275,6 @@ $tAUUPE
 %s: Invalid interop API: %d
 %s: Log recorded at %s
 %s: Not loading device config because its size is too large: 0x%X bytes\n
-%s: Optical subprotocol changed version %d\n
 %s: Packet received after %.3fs, keepalive (%d/%d)\n
 %s: Protocol versioning supported, requesting %d\n
 %s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes\n
@@ -355,6 +352,7 @@ $tAUUPE
 %s: failed to create vulkan resources
 %s: failed to detect prism
 %s: failed to determine D3D11 texture format
+%s: failed to determine typeless D3D11 texture format
 %s: failed to enumerate extensions
 %s: failed to enumerate instance extensions
 %s: failed to enumerate physical devices
@@ -530,10 +528,12 @@ $tAUUPE
 -1e+9999
 -IPCWrapper
 -Infinity
+-OpenProcessToken failed. GetLastError returned: %d\n
 -\n\nimu_sample
 -inf
 -t1?Ks
 -tA?Ks
+-tQ?h
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ... Moving the base for tracking too, which might cause a pop\n
 .... BaseStation Map has %d entries\n
@@ -932,7 +932,6 @@ $tAUUPE
 .tls$
 .tls$ZZZ
 .tmp
-.vrstats
 .xdata
 .xdata$x
 /P8i
@@ -1135,6 +1134,7 @@ $tAUUPE
 ?CVkDevice::CreateDevice
 ?Nbp?
 ?UUUUUU
+?VR_OVERRIDE
 ?VUUUUU
 ?Zero@Intrinsics@ST@@SA?BU12@XZ
 ?_BADOFF@std@@3_JB
@@ -1717,7 +1717,6 @@ Error parsing text-format
 Error querying Index HMD panel stats\n
 Error querying IndexHmdColumnCorrectionMode\n
 Error reading tracked device config from path 
-Error serializing persistent statistics entry\n
 Error setting column correction\n
 Error setting index audio mute state\n
 Error setting index backlight gain\n
@@ -1789,7 +1788,7 @@ Failed Watchdog timeout in thread %s after %f seconds\n
 Failed creating auto reset event %s (GLE: %u)\n
 Failed creating file mapping %s: %u\n
 Failed creating mutex %s (GLE: %u)\n
-Failed mapping view for %s; Error code: 0x%08x\n
+Failed mapping view for %s\n
 Failed to connect to pipe %s because %s\n
 Failed to create IMU IOBuffer for %d (error=%d, handle=%d)\n
 Failed to create vrprismhost_startup
@@ -1811,7 +1810,6 @@ Failed to find entrypoint WINRT_ReleaseDisplay
 Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
 Failed to get HINSTANCE in DeviceMessageWindow_t::Create
-Failed to get log path for persistent statistics.\n
 Failed to import client event handle from pipe %s after connecting\n
 Failed to import server event handle from pipe %s after connecting\n
 Failed to load external 'uri' for image[
@@ -1824,7 +1822,6 @@ Failed to parse `uri` for image[
 Failed to read config when activating watchdog on button press: %s\n
 Failed to read file: 
 Failed to register/find class in DeviceMessageWindow_t::Create
-Failed to send OTGT result\n
 Failed to send pairing result mailbox message. Maybe it didn't have a return address?\n
 Failed to send reply to discover_dongles message: %d\n
 Failed to set thread %p priority: invalid priority %d\n
@@ -1832,7 +1829,6 @@ Failed to start pairing on dongle %s\n
 Failed to start vrprismhost: %s
 Failed to write app container status to pipe %s after connecting because %s\n
 Failed to write event process handle after connecting because %s\n
-Failed to write file %s\n
 False
 Fatal
 Field "
@@ -2189,7 +2185,6 @@ Invalid float number:
 Invalid glTF binary.
 Invalid image data for image[
 Invalid magic.
-Invalid persistent statistics serial\n
 Invalid proto descriptor for file "
 Invalid public dependency index.
 Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
@@ -2325,7 +2320,6 @@ NOTPRESENT
 NRF52
 NRF52 DTM
 NULL
-NVAPI_DEBUG_DISPLAY_MODES
 NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
@@ -2356,14 +2350,12 @@ Not the preferred basestation\n
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Numbers starting with leading zero must be in octal.
 NvAPI
-NvAPI DisplayModes:
 NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!\n
 NvAPI: DirectModeGetDisplayModes trying again with older API!\n
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!\n
 NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d\n
 O*9y]
 OPAQUE
-OTGT timed out\n
 OZw3(?
 Object
 Old Normal: %f %f %f \n
@@ -2380,7 +2372,6 @@ OpenFileMappingA
 OpenMutexA
 OpenProcess
 OpenProcessToken
-OpenProcessToken failed. GetLastError returned: %d\n
 OpenSCManagerW
 OpenServiceW
 OpenVR
@@ -2450,7 +2441,6 @@ Pe6^
 PeekMessageA
 PeekNamedPipe
 PeripheralApplication
-Persistent statistics file does not exist. Creating new %s\n
 Perspective camera description not found.
 PerspectiveCamera
 PoolGC
@@ -2478,9 +2468,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
-R\rp\f`\v0NO
-R\vpNO
+RSDSD
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -2488,7 +2476,6 @@ ReadFile
 ReadFile failed on %s after event was signaled because %s\n
 ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer\n
 Reading dangerously large protocol message.  If the message turns out to be larger than 
-Reading persistent statistics file from %s\n
 Received mirror reset event after %u passes, %llu samples\n
 Received mirror reset event\n
 Received mirror stop event after %u passes, %llu samples\n
@@ -2532,7 +2519,6 @@ Robin 2
 RootNode
 RootSerial %s\n
 Rotors on basestation out of 180-degree phase lock.\n
-RpcStringFreeA
 RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
@@ -2604,7 +2590,6 @@ SelectVideoConfig: driver_lighthouse.forceSoloEdid=true\n
 Selected existing universe %llu (%08X is %s)\n
 ServiceDescriptorProto
 ServiceOptions
-SessionID
 Set column correction %f %d %f %d\n
 Set index backlight gain: %f\n
 Set initial
@@ -2674,10 +2659,8 @@ Stable
 Standby toggled
 Standby unknown hmd\n
 Start
-Start test failed\n
 StartSession
 Started pairing dongle serial=%s timeout=%f\n
-Starting test\n
 SteamVR_Namespace
 SteamXR Interop Device
 Still waiting for Direct Mode Display...\n
@@ -2831,7 +2814,6 @@ Updated Right Camera Extrinsics: %s
 Updated shift blue in pixels: %f %f\n
 Updated shift red in pixels:  %f %f\n
 Updated:  %f %f %f \n
-Updating %s\n
 Updating additional system report data for %s\n
 Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g\n
 User
@@ -2848,9 +2830,7 @@ Utah DV
 Utah EV1
 Utah EV2
 Utah MP
-UuidCreate
 UuidFromStringA
-UuidToStringA
 V2 HMD with bogus trackrefs detected in configuration:\n
 VBus: 
 VCRUNTIME140.dll
@@ -2950,7 +2930,6 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
-VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -3097,7 +3076,6 @@ VR_CONFIG_PATH
 VR_FIRMWARE_MANIFEST_FILE
 VR_LOG_DEBUG
 VR_LOG_PATH
-VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 VSYNC:  %8d>%07.4f
 Value 
@@ -3182,7 +3160,7 @@ WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 Waiting
 Waiting for best bootstrap base station candidate...\n
@@ -3265,7 +3243,6 @@ Zjz\v
 [packed = true] can only be specified for repeated primitive fields.
 \%03o
 \U%08x
-\fpNO
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -3325,7 +3302,6 @@ Zjz\v
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \tvid=0x%x, pid=0x%x, sn=%ls\n
-\vpNO
 \x%02x
 ] buffer "
 ] bufferView "
@@ -3443,7 +3419,6 @@ acos
 acosf
 adcr
 add a secondary base
-add_ogs_row
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
 adjust_panel_cant
@@ -3689,7 +3664,7 @@ device_pid
 device_serial_number
 device_serial_number_watchman
 device_vid
-devicescannermsgwindow-
+devicescannermsgwindow
 direct_mode_edid_pid
 direct_mode_edid_vid
 disableRuntimeEdidOverride
@@ -3865,7 +3840,6 @@ fgetc
 fgetpos
 fi_fi
 field
-fields
 file
 file error
 file is empty or does not exist
@@ -4011,7 +3985,6 @@ incorrect data check
 incorrect header check
 incorrect length check
 index
-index.
 indexHmdColumnCorrection
 indexHmdColumnOffset_
 indexcontroller
@@ -4306,7 +4279,6 @@ optional
 options
 orthographic
 otds
-otg_device
 out_of_range
 outerConeAngle
 outofdata
@@ -4331,8 +4303,6 @@ pTextureSet->pSwapchain
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
-p\r`\f0\vP85
-p\r`\fP\v0NO
 package
 packed
 pairing_result
@@ -4387,7 +4357,6 @@ py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 r2max
 rEyeFile:%s width:%d height:%d components:%d\n
-r\rp\f`\vPNO
 range
 read past buffer
 realloc
@@ -4455,7 +4424,6 @@ serial
 serialNumber
 server
 service
-session_id_field_name
 set_chromatic_correction_factors
 set_chromatic_correction_factors %f %f
 set_index_brightness %f
@@ -4547,7 +4515,6 @@ systime
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-table
 target
 target_pose
 target_serial_number

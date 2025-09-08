@@ -175,6 +175,7 @@ $tI(knN
 %s: failed to create vulkan interop instace
 %s: failed to create vulkan resources
 %s: failed to determine D3D11 texture format
+%s: failed to determine typeless D3D11 texture format
 %s: failed to discard frame
 %s: failed to enable device extension: %s
 %s: failed to enable instance extension: %s
@@ -320,6 +321,7 @@ $tI(knN
 'version' member found for legacy binding manifest. Versions are ignored for legacy binding manifests.
 ( uint32_t )msgResponse.coordinates_size() == nNumCoordinates
 ()$^.*+?[]|\-{},:=!\n\r
+(<CSxrHandTrackerEXT::LocateJoints
 (Enumerating)
 (Failed Enumeration)
 (General Failure)
@@ -340,10 +342,10 @@ $tI(knN
 , last executing in 
 , requestedBytes 
 -1e+9999
+-GetDXGISharedHandle
 -ID3D11On12Device::CreateWrappedResource failed.\n
 -IPCWrapper
 -Infinity
--S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 -disablewatchdogs
 -nokillprocess
 -personality_distort
@@ -426,7 +428,6 @@ $tI(knN
 .?AV<lambda_35f5edf565dd984f978d4d90ae4c73f1>@@
 .?AV<lambda_43c03a047d49e758a40605e26fe3997f>@@
 .?AV<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@
-.?AV<lambda_4e342024cbf6bd484ed43039ee2af7f6>@@
 .?AV<lambda_5cb07d87fbb143573f0e5b51176c2232>@@
 .?AV<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@
 .?AV<lambda_68c2e54811ffa0c51dc89d4c4c4aef46>@@
@@ -434,12 +435,12 @@ $tI(knN
 .?AV<lambda_79cc3d4038e33a7314ddfae30008a641>@@
 .?AV<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@
 .?AV<lambda_819d6e727c32014dc6eae969efe567db>@@
+.?AV<lambda_882126c582943737e7723162cbfa82ae>@@
 .?AV<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
-.?AV<lambda_d2f8106b468992e032cdb40825390ee9>@@
 .?AV<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
 .?AV<lambda_ddfa7c035eae8da5c041d2f3e2b85a28>@@
@@ -622,10 +623,6 @@ $tI(knN
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_012@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_013@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_014@@@@
-.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_015@@@@
-.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_016@@@@
-.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_017@@@@
-.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_018@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -672,7 +669,6 @@ $tI(knN
 .?AV?$_Func_impl_no_alloc@V<lambda_35f5edf565dd984f978d4d90ae4c73f1>@@_N_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_43c03a047d49e758a40605e26fe3997f>@@_NPEBUXrActiveActionSetPrioritiesEXT@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_4e342024cbf6bd484ed43039ee2af7f6>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5cb07d87fbb143573f0e5b51176c2232>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_68c2e54811ffa0c51dc89d4c4c4aef46>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateBoolean@@PEA_K@std@@
@@ -680,12 +676,12 @@ $tI(knN
 .?AV?$_Func_impl_no_alloc@V<lambda_79cc3d4038e33a7314ddfae30008a641>@@W4XrResult@@AEAV?$vector@UXrView@@V?$allocator@UXrView@@@std@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_819d6e727c32014dc6eae969efe567db>@@_NGGG@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_882126c582943737e7723162cbfa82ae>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@_NW4ETrackedDeviceClass@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d2f8106b468992e032cdb40825390ee9>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ddfa7c035eae8da5c041d2f3e2b85a28>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStatePose@@PEA_K@std@@
@@ -829,7 +825,6 @@ $tI(knN
 .?AVCVRBlockQueue_002@@
 .?AVCVRBlockQueue_003@@
 .?AVCVRBlockQueue_004@@
-.?AVCVRCVTrackedHmdInternal@@
 .?AVCVRChaperoneClient@@
 .?AVCVRChaperoneSetup_001@@
 .?AVCVRChaperoneSetup_002@@
@@ -960,7 +955,6 @@ $tI(knN
 .?AVCVRMsg_DestroySwapTextureSet@@
 .?AVCVRMsg_DriverDebugRequest@@
 .?AVCVRMsg_DriverDebugResponse@@
-.?AVCVRMsg_ExchangeCapabilities@@
 .?AVCVRMsg_GetApplicationInfo@@
 .?AVCVRMsg_GetApplicationLaunchArguments@@
 .?AVCVRMsg_GetApplicationLaunchArgumentsResponse@@
@@ -1143,10 +1137,6 @@ $tI(knN
 .?AVCVRSteamPrivate_012@@
 .?AVCVRSteamPrivate_013@@
 .?AVCVRSteamPrivate_014@@
-.?AVCVRSteamPrivate_015@@
-.?AVCVRSteamPrivate_016@@
-.?AVCVRSteamPrivate_017@@
-.?AVCVRSteamPrivate_018@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1228,7 +1218,6 @@ $tI(knN
 .?AVIVRApplications@vr@@
 .?AVIVRApplicationsInternal@vr@@
 .?AVIVRBlockQueue@vr@@
-.?AVIVRCVTrackedHmdInternal@vr@@
 .?AVIVRChaperone@vr@@
 .?AVIVRChaperoneInternal@@
 .?AVIVRChaperoneSetup@vr@@
@@ -1270,23 +1259,7 @@ $tI(knN
 .?AVIVRSettings@vr@@
 .?AVIVRSettingsInternal@vr@@
 .?AVIVRSpatialAnchors@vr@@
-.?AVIVRSteamPrivate_003@vr@@
-.?AVIVRSteamPrivate_004@vr@@
-.?AVIVRSteamPrivate_005@vr@@
-.?AVIVRSteamPrivate_006@vr@@
-.?AVIVRSteamPrivate_007@vr@@
-.?AVIVRSteamPrivate_008@vr@@
-.?AVIVRSteamPrivate_009@vr@@
-.?AVIVRSteamPrivate_010@vr@@
-.?AVIVRSteamPrivate_011@vr@@
-.?AVIVRSteamPrivate_012@vr@@
-.?AVIVRSteamPrivate_013@vr@@
-.?AVIVRSteamPrivate_014@vr@@
 .?AVIVRSteamPrivate_015@vr@@
-.?AVIVRSteamPrivate_016@vr@@
-.?AVIVRSteamPrivate_017@vr@@
-.?AVIVRSteamPrivate_018@vr@@
-.?AVIVRSteamPrivate_019@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -1757,10 +1730,11 @@ $tI(knN
 0-pixel image
 0123456789ABCDEF
 0\tFAJ
+0zV-
 1.0.3.16
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
-128e
+1:wglGetCurrentContext() returned NULL.  No OpenGL context current.\n
 1e+9999
 333?
 361.75
@@ -1893,6 +1867,7 @@ $tI(knN
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 @Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
+@[Compositor Client] Flush (GL) - Begin
 @fff>fff>fff>fff>
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
@@ -2070,7 +2045,6 @@ CSxrGraphicsBindingPrism::Init
 CSxrGraphicsBindingPrism::InitD3D11
 CSxrGraphicsBindingPrism::InitVulkan2
 CSxrHandTrackerEXT
-CSxrHandTrackerEXT::LocateJoints
 CSxrInstance
 CSxrInstance::CreateVulkanInstanceKHR: invalid createInfo parameters\n
 CSxrInstance::CreateVulkanInstanceKHR: invalid parameters\n
@@ -2093,19 +2067,19 @@ CSxrSession::ReadCachedActionState
 CSxrSpace
 CSxrSwapchainBase
 CSxrSwapchainBase::EndFrame
+CSxrSwapchainD3D11OpenVR::GetPresentableDepthTexture
 CSxrSwapchainD3D11OpenVR::GetPresentableTexture
-CSxrSwapchainD3D11OpenVR::GetPresentableTextureHandle
+CSxrSwapchainD3D12OpenVR::GetPresentableDepthTexture
 CSxrSwapchainD3D12OpenVR::GetPresentableTexture
-CSxrSwapchainD3D12OpenVR::GetPresentableTextureHandle
 CSxrSwapchainGLOpenVR::EndFrame
+CSxrSwapchainGLOpenVR::GetPresentableDepthTexture
 CSxrSwapchainGLOpenVR::GetPresentableTexture
-CSxrSwapchainGLOpenVR::GetPresentableTextureHandle
 CSxrSwapchainImageD3D11OpenVR
 CSxrSwapchainPrism::EnumerateSwapchainImages
 CSxrSwapchainPrism::Init
 CSxrSwapchainPrism::RegisterSwapchainImage
+CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture
-CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle
 CVRApplicationsLatest
 CVRClient::Init
 CVRCompositorClient::SubmitTextureSetInfo
@@ -2180,7 +2154,6 @@ CVRMsg_DefaultBinding
 CVRMsg_DestroySwapTextureSet
 CVRMsg_DriverDebugRequest
 CVRMsg_DriverDebugResponse
-CVRMsg_ExchangeCapabilities
 CVRMsg_GetApplicationInfo
 CVRMsg_GetApplicationLaunchArguments
 CVRMsg_GetApplicationLaunchArgumentsResponse
@@ -2303,9 +2276,7 @@ CVRMsg_UpdateZeroPose
 CVRMsg_WritePropertyDataToFile
 CVRMsg_WritePropertyDataToFileResponse
 CVRNotificationsLatest
-CVROverlayLatest::SetOverlayTextureXR
 CVRReplyMailbox requires that the user only specify a group name so the full name can be unique: %s\n
-CVRSteamPrivate::HideDashboard
 CVkAllocator::AllocateMemory
 CVkAllocator::AllocateMemoryFromType
 CVkAllocator::CreateBuffer
@@ -2468,7 +2439,6 @@ CreateWellKnownSid
 CreateWellKnownSid failed for WinBuiltinAnyPackageSid\n
 CreateXrBinding: unsupported graphics binding type: %d\n
 Created depth texture '%s' %dx%d (Format=%d, SampleCount=%d)\n
-Created shared texture '%s' %dx%d (%d mips)\n
 D3D11CreateDevice
 D3D11On12CreateDevice
 D3D11On12CreateDevice failed\n
@@ -2519,7 +2489,6 @@ Driver Tracked Device Interface unknown (209)
 Driver lacks support for KHR vulkan interop: 0x%x\n
 Driver manager failed to start.\n
 Driver runtime is out of date (204)
-Driver unable to initialize video encoder (499)
 DriverDirect_Acquired
 DriverDirect_NewFrame
 DriverDirect_Presented
@@ -2620,7 +2589,7 @@ Failed creating mutex %s (GLE: %u)\n
 Failed get Texture_t from 0x%llx\n
 Failed get glTextureId from 0x%llx\n
 Failed getting mailbox response %s: %d
-Failed mapping view for %s; Error code: 0x%08x\n
+Failed mapping view for %s\n
 Failed to allocate Vulkan ring buffer\n
 Failed to allocate new VRCompositor image: format=%u dimensions=%ux%u\n
 Failed to allocate new VRCompositor semaphore\n
@@ -2639,9 +2608,7 @@ Failed to create D3D12 swapchain texture
 Failed to create DXGIFactory1!\n
 Failed to create DepthStencilView for texture %s\n
 Failed to create LiquidVR GPU Semaphore.\n
-Failed to create RTV for texture lod=%d
 Failed to create RTV for texture\n
-Failed to create SRV for texture lod=%d
 Failed to create Vulkan depth image from D3D11 resource.  Depth image will not be updated.\n
 Failed to create Vulkan image from D3D11 resource.\n
 Failed to create Vulkan image with LiquidVR.\n
@@ -2687,8 +2654,8 @@ Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
 Failed to find interface '%s'\n
 Failed to find system resource manifest %s.\n
-Failed to get AllowSteamOverlays setting (%s). Using default setting.
-Failed to get allowDesktopBPMWithVRGamepadUI setting (%s). Using default setting.
+Failed to get AllowSteamOverlays setting (%s). Allowing by default.
+Failed to get allowDesktopBPMWithVRGamepadUI setting (%s). Disallowing by default.
 Failed to get graphics adapter LUID for EDID VendorId=%#04X\n
 Failed to get steamMatchesHMDFramerate setting (%s). Allowing by default.
 Failed to import client event handle from pipe %s after connecting\n
@@ -2889,7 +2856,6 @@ GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
-GetDXGISharedHandle
 GetDeviceExtensionProperties - failed to enumerate extensions\n
 GetDeviceExtensionProperties - failed to get extension count\n
 GetDeviceExtensionProperties - no instance extensions supported\n
@@ -2987,7 +2953,6 @@ IHmd_006
 ILiquidVR_001
 INCOMPLETE
 INFO
-IPC failure asking about Steam/SteamVR capabilities
 IPC failure changing app type
 IPC failure when Steam asked to kill %u. Returning true
 IPC::CIPCHandle::InitForExport
@@ -3017,8 +2982,6 @@ IVRBlockQueue_002
 IVRBlockQueue_003
 IVRBlockQueue_004
 IVRBlockQueue_005
-IVRCVTrackedHmdInternal_
-IVRCVTrackedHmdInternal_001
 IVRCameraComponent_
 IVRCameraComponent_001
 IVRCameraComponent_002
@@ -3182,10 +3145,6 @@ IVRSteamPrivate_012
 IVRSteamPrivate_013
 IVRSteamPrivate_014
 IVRSteamPrivate_015
-IVRSteamPrivate_016
-IVRSteamPrivate_017
-IVRSteamPrivate_018
-IVRSteamPrivate_019
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID\n
@@ -3224,6 +3183,7 @@ IVRTrackedCamera_005
 IVRTrackedCamera_006
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
+IVRVirtualDisplay_002
 IVRWatchdogHost_
 IVRWatchdogHost_001
 IVRWatchdogHost_002
@@ -3252,7 +3212,6 @@ InitializeSecurityDescriptor
 InitializeSecurityDescriptor failed. GetLastError returned: %d\n
 Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.\n
 Initializing CVulkanVRRenderer\n
-Initializing IRVCVTrackedHmdInternal interface
 Initializing the limited version of CVRCompositorClient\n
 InputValueType_Boolean
 InputValueType_Haptic
@@ -3295,11 +3254,11 @@ Invalid target queue mode during image transition: %d\n
 Invalid texture bounds( %f, %f, %f, %f ) from application\n
 Invalid type in  '
 IsDebuggerPresent
+IsDepthFormat( d3dFormat )
+IsDepthFormat( eTextureFormatConcrete )
 IsDepthFormat( eVkFormat )
 IsDepthFormat( nTextureFormat )
 IsDepthFormat(eVkFormat)
-IsDepthFormatDXGI( d3dFormat )
-IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 IsValid( pSxrStruct )
 IsValidSid
@@ -3385,8 +3344,8 @@ NONE
 NORMAL
 NOT_READY
 NULL
+N\tRe
 Neither required `bufferView` nor `uri` defined for image[
-NextSGID wrapped!
 No Error (0)
 No LoadImageData callback specified.\n
 No VRSettings(), allowing Steam overlays by default.
@@ -3448,7 +3407,6 @@ PS_QUAD
 PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
-P\r0d
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
@@ -3465,7 +3423,6 @@ Process called VR_Init a second time without an intervening VR_Shutdown. Returni
 ProcessDpadBindings
 Projection
 Prop_
-Prop_ActualTrackingSystemName_String
 Prop_AdditionalDeviceSettingsPath_String
 Prop_AdditionalRadioFeatures_Uint64
 Prop_AdditionalSystemReportData_String
@@ -3551,7 +3508,6 @@ Prop_DistortionMeshResolution_Int32
 Prop_DoNotApplyPrediction_Bool
 Prop_DongleVersion_Uint64
 Prop_DriverDirectModeSendsVsyncEvents_Bool
-Prop_DriverDisplaysIPDChanges_Bool
 Prop_DriverIsDrawingControllers_Bool
 Prop_DriverProvidedChaperoneJson_String
 Prop_DriverProvidedChaperonePath_String
@@ -3684,7 +3640,7 @@ QueryServiceConfigW
 RADV
 RGBG
 RPCRT4.dll
-RSDSR
+RSDSCp
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -3760,6 +3716,7 @@ RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
 SCALAR
@@ -3847,7 +3804,6 @@ ShouldKillTheaterProcessHack
 ShowDashboard( %s )\n
 Simulated action 
 Skin
-Skipping HMD presence checks.\n
 Skipping OS external driver %s because it is not a directory\n
 Skipping VRCompositor startup because of settings.\n
 Skipping VRDashboard startup because of settings.\n
@@ -3879,12 +3835,11 @@ Standing transform was not updated when writing the universe to paths
 Start
 StartSession
 Started %s with pid %u\n
-Starting vrcompositor process: %s args: %s, in folder %s\n
+Starting vrcompositor process: %s %s\n
 Starting vrserver process: %s\n
 StartupInfoArg
 SteamAppId
 SteamGameId
-SteamStreaming
 SteamVR
 SteamVR/OpenXR
 SteamVR_Namespace
@@ -3906,6 +3861,7 @@ SystemBehaviorFlag_DisplaySuppressed
 SystemBehaviorFlag_DriverIsDrawingControllers
 SystemBehaviorFlag_DriverRequestsApplicationPause
 SystemBehaviorFlag_DriverRequestsReducedRendering
+SystemBehaviorFlag_Keyboard
 SystemBehaviorFlag_LaserMouse
 SystemBehaviorFlag_RoomView
 SystemBehaviorFlag_SystemButtonDown
@@ -4057,7 +4013,6 @@ Unable to parse init info. Options will be ignored\n
 Unable to parse perimeter\n
 Unable to parse presence entry '%s' in %s\n
 Unable to parse seated origin\n
-Unable to parse setup standing origin\n
 Unable to parse standing origin\n
 Unable to parse token length
 Unable to read %u bytes to offset %u in %s\n
@@ -4083,7 +4038,6 @@ Unable to write path registry (113)
 Unbound input (%s,%s) for chord, ignoring chord.
 Unexpected error while trying to change the OpenXR application type: [%s]
 Unexpected failure when checking for timeline signal
-Unhandled sampler filter type!
 UnhandledExceptionFilter
 Unknown EVRApplicationTransitionState
 Unknown EVRApplicationType (%d)
@@ -4112,8 +4066,6 @@ Unknown render model error (%d)
 Unknown string table context %s
 UnmapViewOfFile
 Unnamed simulated action failed to parse: 
-Unsupported RTV type: %d
-Unsupported SRV type: %d
 Unsupported `type` for accessor object. Got "
 Unsupported action type %d
 Unsupported layer composition type: %d\n
@@ -4234,7 +4186,6 @@ VRCompositorError_SharedTexturesNotSupported
 VRCompositorError_TextureIsOnWrongDevice
 VRCompositorError_TextureUsesUnsupportedFormat
 VREvent_ActionBindingReloaded
-VREvent_AnyDriverSettingsChanged
 VREvent_ApplicationListUpdated
 VREvent_ApplicationMimeTypeLoad
 VREvent_AudioSettingsHaveChanged
@@ -4466,7 +4417,6 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
-VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -4702,10 +4652,6 @@ VR_Compositor_NewPose
 VR_Compositor_NextVsyncIntervalMT
 VR_Compositor_NextVsyncIntervalRT
 VR_Compositor_OverlayVSync
-VR_CvTrackedHmdInternalNewRequestEvent
-VR_CvTrackedHmdInternalRequestProcessedEvent
-VR_CvTrackedHmdMutex
-VR_CvTrackedHmdState
 VR_DriverDirectMutex
 VR_DriverDirectState
 VR_EventMutex
@@ -4788,7 +4734,7 @@ WaitForSingleObject
 WaitForSingleObjectEx
 WaitFrame could not retrieve poses on the first frame
 WaitNamedPipe %s failed because %s\n
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 WakeAllConditionVariable
 Warning
@@ -5288,15 +5234,6 @@ ZvFailed to create fence %ls.\n
 [CMsaaResolveRenderer] Failed to create sampler state!\n
 [CMsaaResolveRenderer] Failed to create shader resource view for src texture calling ImportTextureFromNativeTexture()! Texture doesn't have D3D11_BIND_SHADER_RESOURCE set on desc.BindFlags\n
 [CMsaaResolveRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!\n
-[CVRCVTrackedHmdInternal] Driver inactive, request of type %d cannot be sent
-[CVRCVTrackedHmdInternal] Failed to set the new-request event (error code %d)
-[CVRCVTrackedHmdInternal] Failed to wait for the request to be processed (error code: %d).
-[CVRCVTrackedHmdInternal] Invalid application type.
-[CVRCVTrackedHmdInternal] Invalid driver state, we cannot send the request of type %d. (active:%d processing:%d valid seq:%d)
-[CVRCVTrackedHmdInternal] New-request event initialization failed
-[CVRCVTrackedHmdInternal] Request-processed event initialization failed
-[CVRCVTrackedHmdInternal] Shared state initialization failed
-[CVRCVTrackedHmdInternal] Timeout reached when waiting for the request to be processed. The driver might have become unreachable.
 [CommandAllocator %d] AddResourceBarrier
 [Compatibility Mode] Could not get notification interface. %d\n
 [Compatibility Mode] Could not get overlay interface. %d\n
@@ -5315,7 +5252,6 @@ ZvFailed to create fence %ls.\n
 [Compositor Client] Flush (D3D10) - End
 [Compositor Client] Flush (D3D11) - Begin
 [Compositor Client] Flush (D3D11) - End
-[Compositor Client] Flush (GL) - Begin
 [Compositor Client] Flush (GL) - End
 [Compositor Client] GetFrameTiming
 [Compositor Client] Large mismatch between render (%d) and simulation (%d) poses!\n
@@ -5530,7 +5466,7 @@ ZvFailed to create fence %ls.\n
 \mfpmp.exe
 \nbad png sig
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\vm_pSyncTexture == nullptr
+\vCreated shared texture '%s' %dx%d (%d mips)\n
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -5670,7 +5606,6 @@ allowSingleQuotes
 allowSpecialFloats
 allowSteamOverlays
 allowSupersampleFiltering
-allowVRGamepadUI
 alnum
 alpha
 alphaCutoff
@@ -5819,6 +5754,7 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystem.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.h
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vulkan.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
@@ -5861,7 +5797,6 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_session.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_session.h
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_space.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\skeletalinpututils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrclientcore.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
@@ -5924,10 +5859,10 @@ controller_button
 controller_settings
 controller_type
 corrupt
+cosf
 count
 create
 cs_cs
-cursor_index
 czech
 d3d11.dll
 da_da
@@ -6442,13 +6377,10 @@ m_pDevice
 m_pDevice == VK_NULL_HANDLE
 m_pInstance == VK_NULL_HANDLE
 m_pPhysicalDevice == VK_NULL_HANDLE
-m_pTextureIndex == nullptr
-m_pTextureIndexStaging == nullptr
 m_pendingLock.empty()
 m_pglTexImage3D( target, 0, nTextureFormat, unWidth, unHeight, unArraySize, 0, unTextureType, unDataType, pTextureData )
 m_pglTexStorage3D( GL_TEXTURE_2D_ARRAY, 1, nTextureFormat, unWidth, unHeight, unArraySize )
 m_releaseMutexes.size() == m_releaseKeys.size()
-m_sharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed\n
 m_signalTimelines.size() == m_signalPoints.size()
 m_ulHandle != vr::k_ulInvalidMailbox
 m_ulNanosecondsPerFrame > 1
@@ -6623,10 +6555,8 @@ pSourceBuffer->m_unSizeInBytes >= nSourceOffset + nSizeInBytes
 pSrcVertices != nullptr && pDstVertices != nullptr
 pSwapchain
 pSwapchain != nullptr
-pSystemLayerSharedState->IsValid()
 pSystemLayerState
 pTexture && pFlags
-pTextureHandle != nullptr
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
@@ -6686,6 +6616,7 @@ pt_br
 pt_pt
 pull
 punct
+pzV-
 p}?discrete_scroll_trackpad_globalscalefactor
 qsort
 radial_menu
@@ -6702,6 +6633,7 @@ rendermodel
 rendermodels
 request_binding_callouts
 request_tutorial_callout
+requireHmd
 required_options
 requirement
 resolutionScale
@@ -6765,7 +6697,6 @@ set_overlay_from_file
 set_overlay_from_file_response
 settings
 settings/desktop
-setup_standing2
 setvbuf
 shaders/d3d11/distort_cs.fxo
 shaders/d3d11/distort_cs_mc.fxo
@@ -7048,6 +6979,7 @@ shaders/vulkan/panel_mask_ps.spv
 shaders/vulkan/panel_mask_vs.spv
 shaders/vulkan/portal_stencil_apply_disp_vs.spv
 shaders/vulkan/portal_stencil_estimate_disp_ps.spv
+shaders/vulkan/portal_stencil_estimate_disp_vs.spv
 shaders/vulkan/portal_stencil_ps.spv
 shaders/vulkan/portal_stencil_vs.spv
 shaders/vulkan/testgrid_cs.spv
@@ -7082,7 +7014,6 @@ shaders/vulkan/unlit_vs.spv
 shared_memory_block
 short_alloc: spilling into system allocator
 showCompatibilityModeNotification
-showEnableInSettings
 show_app_binding
 show_dashboard_requested
 side
@@ -7944,7 +7875,6 @@ wglDXSetResourceShareHandleNV
 wglDXUnlockObjectsNV
 wglDXUnregisterObjectNV
 wglGetCurrentContext
-wglGetCurrentContext() returned NULL.  No OpenGL context current.\n
 wglGetProcAddress
 wglMakeCurrent
 wglMakeCurrent failed with 0x%X
@@ -7991,7 +7921,6 @@ xrCreateInstance error: maximum 1 instance\n
 xrCreateReferenceSpace
 xrCreateSession
 xrCreateSession: Ignoring unsupported extension in next chain of type: %d\n
-xrCreateSession: bad system ID. Arg (%llu), Instance( %llu ) 
 xrCreateSession: failed to call xr*GetGraphicsRequirements before xrCreateSession\n
 xrCreateSession: failed to call xrGetVulkanGraphicsDevice before xrCreateSession
 xrCreateSwapchain

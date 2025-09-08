@@ -131,7 +131,6 @@ $0option $1;\n
 %s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total\n
 %s: Attached device ID not set.  No controller input available.\n
 %s: Connected to receiver %s\n
-%s: Controller subprotocol changed version %d\n
 %s: Device does not have a stored config\n
 %s: Disconnected from receiver %s\n
 %s: ERROR: could not query version from watchman board.\n
@@ -139,7 +138,6 @@ $0option $1;\n
 %s: Expected %u bytes of config but only found %d. Rejecting config\n
 %s: Firmware Version %s\n
 %s: Not loading device config because its size is too large: 0x%X bytes\n
-%s: Optical subprotocol changed version %d\n
 %s: Packet received after %.3fs, keepalive (%d/%d)\n
 %s: Protocol versioning supported, requesting %d\n
 %s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes\n
@@ -477,6 +475,7 @@ $0option $1;\n
 /yQA
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789abcdef
+0dY\t
 0x%X\n
 1.2.5
 1A26b
@@ -1130,6 +1129,7 @@ Pairing Success
 Panel Init
 Panel Init Error
 Panic in TDM. basestation offset is invalid: %f\n
+PdY\t
 Pe6^
 PeekMessageA
 Peripheral MCU Application Version: %i\n
@@ -1140,8 +1140,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RPCRT4.dll
-RSDS
+RSDSi
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1162,7 +1161,6 @@ ResetEvent
 Restart
 ResumeThread
 Rotors on basestation out of 180-degree phase lock.\n
-RpcStringFreeA
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -1327,8 +1325,6 @@ User reset
 UserData Error: Data request is out of range, request starting:0x%x, ending:0x%x, max address:0x%x\n
 UserData Error: Unable to request user data from device (%s), bytesRead %d, bytesRemaining %d\n
 UserData Error: Unable to send start user data feature report \n
-UuidCreate
-UuidToStringA
 VBus: 
 VCRUNTIME140.dll
 VDEST
@@ -1456,7 +1452,6 @@ Zjz\v
 \r\n\tTYPE_ENUM
 \rlighthouse.pb"(\n
 \rmj>zjZ
-\rp\f`\v0\nP0]\t
 \tPID  0x%04X\n
 \tVID  0x%04X\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
@@ -1622,7 +1617,7 @@ device_serial_number_watchman
 device_vid
 deviceinfo
 deviceinfo\tPrint information about all connected lighthouse_devices.\n
-devicescannermsgwindow-
+devicescannermsgwindow
 direct_mode_edid_pid
 direct_mode_edid_vid
 dis [<type=auto>]\tToggle disambiguation. types={ auto, tdm, framer, synconbeam }\n
@@ -1947,6 +1942,7 @@ pairall
 parallel_render_cameras
 parse
 path
+pdY\t
 period
 period\tPrint sync statistics\n
 pitch

@@ -17,7 +17,6 @@ extend .google.protobuf.ServiceOptions {
 	optional bool is_service_public = 50004 [default = true];
 	optional bool is_service_deprecated = 50005 [default = false];
 	optional .EProtoExecutionSite service_execution_site = 50008 [default = k_EProtoExecutionSiteServer];
-	optional .EProtoServiceType service_type = 50025 [default = k_EProtoServiceTypeSteamMessages];
 	optional .EProtoWebAPIKeyRequirement service_webapi_key_requirement = 50014 [default = k_EProtoWebAPIKeyNotAccepted];
 	optional bool is_service_exposed_to_client = 50015 [default = false];
 	optional bool service_method_ignores_rate_limiting = 50016 [default = false];
@@ -25,7 +24,6 @@ extend .google.protobuf.ServiceOptions {
 	optional .EWebAPIPartnerGroupPermission service_partner_permission = 50022 [default = k_EWebAPIPartnerGroupPermission_None];
 	optional .ESupportPermissions service_support_permission = 50023 [default = k_ESupportPermissions_Invalid];
 	optional bool service_prevent_user_spoofing = 50024 [default = false];
-	optional bool force_emit_service = 50026 [default = false];
 }
 
 extend .google.protobuf.MethodOptions {
@@ -53,7 +51,6 @@ extend .google.protobuf.MethodOptions {
 
 extend .google.protobuf.MessageOptions {
 	optional string message_description = 51000;
-	optional bool force_emit_message = 50026 [default = false];
 }
 
 extend .google.protobuf.EnumOptions {
@@ -99,11 +96,6 @@ enum EProtoWebAPIKeyRequirement {
 	k_EProtoWebAPIKeyPublisher = 4;
 	k_EProtoWebAPIKeyPublisherOwnsApp = 5;
 	k_EProtoWebAPIKeySpecificKey_VideoProcessingBot = 6;
-}
-
-enum EProtoServiceType {
-	k_EProtoServiceTypeSteamMessages = 0;
-	k_EProtoServiceTypeVRGamepadUIMessages = 1;
 }
 
 enum EProtoExecutionSite {

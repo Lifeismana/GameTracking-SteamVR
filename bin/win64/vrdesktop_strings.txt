@@ -367,7 +367,8 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDST
+R\npl
 RaiseException
 Reinitializing output duplication for desktop %d.\n
 ResetEvent
@@ -478,7 +479,6 @@ _invalid_parameter_noinfo_noreturn
 _purecall
 _register_onexit_function
 _seh_filter_dll
-`28e
 abort
 additional six characters expected to parse unicode surrogate pair.
 alse

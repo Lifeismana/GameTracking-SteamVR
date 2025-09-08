@@ -19,7 +19,6 @@ body {
 .SettingsMain.Loading,
 #settingsRoot:empty {
   display: flex;
-  background-color: var(--background-color);
   background-image: var(--background-image);
   background-size: cover;
 }
@@ -385,7 +384,7 @@ body {
   width: 100%;
 }
 
-body:not(.VRGamepadUI) .SettingsMain.Overlay .SettingsSidebarPageContainer {
+.SettingsMain.Overlay .SettingsSidebarPageContainer {
   padding: 0 var(--settings-left-outer-margin);
 }
 
@@ -405,7 +404,7 @@ body:not(.VRGamepadUI) .SettingsMain.Overlay .SettingsSidebarPageContainer {
   flex-shrink: 0;
 }
 
-body:not(.VRGamepadUI) .SettingsSidebar::before {
+.SettingsSidebar::before {
   content: "";
   position: absolute;
   left: 0;
@@ -413,7 +412,6 @@ body:not(.VRGamepadUI) .SettingsSidebar::before {
   top: 0;
   bottom: 0;
   transform: scaleY(-1);
-  background-color: var(--background-color);
   background-image: var(--background-image);
   background-size: cover;
   background-position: left center;
@@ -422,8 +420,8 @@ body:not(.VRGamepadUI) .SettingsSidebar::before {
   z-index: -1;
 }
 
-body.VRGamepadUI .SettingsMain .SettingsSidebar {
-  background: var(--gamepadui-darker-grey);
+.SettingsMain.Overlay .SettingsSidebar::before {
+  background-image: var(--background-image);
 }
 
 .SettingsSidebar .Spacer {
@@ -435,10 +433,6 @@ body.VRGamepadUI .SettingsMain .SettingsSidebar {
   width: var(--settings-sidebar-min-width);
   box-sizing: border-box;
   margin-top: 2em;
-}
-
-body.VRGamepadUI .SettingsSidebar .SegmentedControlGroup {
-  filter: brightness(150%);
 }
 
 .SettingsSidebar:empty {
@@ -469,10 +463,6 @@ body.VRGamepadUI .SettingsSidebar .SegmentedControlGroup {
   display: flex;
 }
 
-body.VRGamepadUI.SGApp .SettingsSidebarButton .Label {
-  font-size: 0.8rem;
-}
-
 .SettingsSidebarButton::before {
   content: "";
   position: absolute;
@@ -500,14 +490,9 @@ body.VRGamepadUI.SGApp .SettingsSidebarButton .Label {
   border-bottom-left-radius: 0;
 }
 
-body:not(.VRGamepadUI) .SettingsSidebarButton.Active::before {
+.SettingsSidebarButton.Active::before {
   opacity: 1;
   transform: scale(1);
-}
-
-body.VRGamepadUI .SettingsSidebarButton.Active,
-body.VRGamepadUI .SettingsSidebarButton:hover {
-  background: var(--gamepadui-dark-grey);
 }
 
 .SettingsSidebarButton .Label {
@@ -650,7 +635,6 @@ body.VRGamepadUI .SettingsSidebarButton:hover {
 
 .SettingsPageContainer {
   flex-grow: 1;
-  background-color: var(--background-color);
   background-image: var(--background-image);
   background-size: cover;
   background-position: left center;
@@ -1003,11 +987,6 @@ body.VRGamepadUI .SettingsSidebarButton:hover {
 .SettingsItem.RadioButtons .RadioButton:hover,
 .SettingsItem.RadioButtons .RadioButton.Selected {
   background: var(--settings-control-activated-background);
-}
-
-body.VRGamepadUI .SettingsItem.RadioButtons .RadioButton:hover,
-body.VRGamepadUI .SettingsItem.RadioButtons .RadioButton.Selected {
-  background: var(--gamepadui-dark-grey);
 }
 
 .SettingsItem.RadioButtons .RadioButton:not(.Selected):hover {
@@ -1440,20 +1419,6 @@ body.VRGamepadUI .SettingsItem.RadioButtons .RadioButton.Selected {
   flex-direction: column;
 }
 
-body.VRGamepadUI .SettingsMain .Modal > .Subsection.Body {
-  background: var(--gamepadui-darkest-grey);
-}
-
-body.VRGamepadUI .SettingsMain .Modal > .Subsection.Top,
-body.VRGamepadUI .SettingsMain .Modal > .Subsection.Bottom {
-  background: var(--gamepadui-darkish-grey);
-}
-
-body.VRGamepadUI .SettingsMain .Modal > .Subsection.Top .SettingsItem,
-body.VRGamepadUI .SettingsMain .Modal > .Subsection.Bottom .SettingsItem {
-  filter: brightness(150%);
-}
-
 @keyframes SettingsDropdownPopoverFadeIn {
   from {
     opacity: 0;
@@ -1722,16 +1687,37 @@ body.VRGamepadUI .SettingsMain .Modal > .Subsection.Bottom .SettingsItem {
   animation-delay: 0.5s;
 }
 
-.SettingsMain .SettingsSidebar .AdvancedSettingsToggle.Active {
-  --settings-control-activated-background: var(
-    --settings-advanced-control-background-color
-  );
-  --settings-control-hover-background: var(
-    --settings-advanced-control-hover-background-color
-  );
-  --settings-control-active-background: var(
-    --settings-advanced-control-active-background-color
-  );
+.SettingsMain
+  .SettingsSidebar
+  .AdvancedSettingsSegmentedControl
+  .SegmentedControlGroup {
+  transition: opacity 0.3s;
+  opacity: 0.5;
+}
+
+.SettingsMain .SettingsSidebar .AdvancedSettingsSegmentedControl .Label {
+  color: var(--settings-advanced-sidenav-text-color);
+}
+
+.SettingsMain.Desktop
+  .SettingsSidebar
+  .AdvancedSettingsSegmentedControl
+  .Label {
+  filter: brightness(130%);
+}
+
+.SettingsMain
+  .SettingsSidebar
+  .AdvancedSettingsSegmentedControl
+  .SegmentedControlGroup.Fadable:not(:hover) {
+  opacity: 0.4;
+}
+
+.SettingsMain
+  .SettingsSidebar
+  .AdvancedSettingsSegmentedControl
+  .SegmentedControlGroup.On::after {
+  background: var(--settings-advanced-sidenav-control-background-color);
 }
 
 .SettingsMain .SettingsItem.Advanced {

@@ -272,7 +272,6 @@
 1e+9999
 1eaB@
 2ieO=
-318e
 4g%6
 700PP
 700WP
@@ -499,7 +498,7 @@ PeekNamedPipe
 Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDS)
+RSDSvxd
 RaiseException
 ReadConsoleW
 ReadFile
@@ -840,7 +839,7 @@ protocol error
 protocol not supported
 r7Yr7=
 rLp>B
-raB3GheH
+raB3GHeH
 read only file system
 redirectsDisplay
 rejectDupKeys
@@ -852,7 +851,6 @@ restrict(
 result out of range
 runtime
 sU0&?W
-showEnableInSettings
 sinh
 snan)
 spatialAnchorsSupport

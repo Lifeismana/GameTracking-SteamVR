@@ -617,11 +617,8 @@ CLog::s_pInstance
 CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*)
 CLogCallback::Initialize(std::function<void (ELogLevel, char const*, void*)>, void*) (.cold)
 CLogCallback::~CLogCallback()
-CSDLDynamic::Init()
-CSDLDynamic::Unload()
-CSDLDynamic::~CSDLDynamic()
-CSWTCH.111
-CSWTCH.214
+CSWTCH.101
+CSWTCH.210
 CServerDriver_Gamepad::AddGameControllerByIndex(int)
 CServerDriver_Gamepad::Cleanup()
 CServerDriver_Gamepad::Cleanup_SDL()
@@ -729,7 +726,6 @@ DriverLog(char const*, ...)
 DriverLogString(char const*)
 DriverLogVarArgs(char const*, char*)
 Enable multithreading to use std::thread
-Error: failed to load dynamic SDL
 Failed to init scheduler: failed to get rlimit\n
 Failed to init scheduler: failed to get sched params %d\n
 Failed to init scheduler: failed to set rlimit\n
@@ -744,7 +740,7 @@ Format string parse failure
 Format(char const*, ...)
 Format(char const*, ...) (.cold)
 Friday
-GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
+GCC: (SteamRT 9.3.0-17+steamrt2.3+bsrt2.1) 9.3.1 20210309
 GLIBC_2.0
 GLIBC_2.1
 GLIBC_2.1.3
@@ -886,9 +882,6 @@ RepairUTF8(char const*, char const*, std::string&)
 RepairUTF8(char const*, char const*, std::string&) (.cold)
 RepairUTF8(std::string const&, std::string&)
 ReturnStdString(std::string const&, char*, unsigned int)
-SDLDynamic()
-SDLDynamic() (.cold)
-SDLDynamic()::m_instance
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD
 SDL_GAMECONTROLLER_IGNORE_DEVICES
 SDL_GAMECONTROLLER_IGNORE_DEVICES_EXCEPT
@@ -921,9 +914,6 @@ September
 Set thread %p priority to: %d\n
 SetCurrentProcessExplicitAppUserModelID()
 SetEnvironmentVariable(char const*, char const*)
-SharedLib_GetFunction(void*, char const*)
-SharedLib_Load(char const*, std::string*)
-SharedLib_Unload(void*)
 Skipping controller %d because it has the Valve VID\n
 St10bad_typeid
 St10ctype_base
@@ -1598,6 +1588,8 @@ construction vtable for std::ostream-in-std::iostream
 covariant return thunk to 
 cplus_demangle_builtin_types
 cplus_demangle_operators
+crc32(unsigned int, void const*, unsigned int)
+crc32(unsigned int, void const*, unsigned int)::crcTable
 d_abi_tags
 d_append_buffer
 d_bare_function_type
@@ -1653,10 +1645,6 @@ deregister_tm_clones
 dgettext
 digit
 dl_iterate_phdr
-dlclose
-dlerror
-dlopen
-dlsym
 double
 dynamic_cast
 execute_cfa_program
@@ -1726,7 +1714,6 @@ guard variable for
 guard variable for (anonymous namespace)::__io_category_instance()::__ec
 guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
 guard variable for (anonymous namespace)::get_locale_mutex()::locale_mutex
-guard variable for SDLDynamic()::m_instance
 guard variable for SteamVRVersionAsString()::s_sCachedVersion
 guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
 guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&)::s_convert
@@ -1809,7 +1796,6 @@ kill
 ld-linux.so.2
 libSDL2-2.0.so.0
 libc.so.6
-libdl.so.2
 libpthread.so.0
 linear_search_fdes
 locale::_Impl::_M_replace_facet
@@ -5682,8 +5668,6 @@ void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<st
 vr::OpenVRInternal_ModuleServerDriverContext()::ctx
 vr::VRDriverContext()::pHost
 vr::k_InterfaceVersions
-vrcore::crc32(unsigned int, void const*, unsigned int)
-vrcore::crc32(unsigned int, void const*, unsigned int)::crcTable
 vsnprintf
 vtable for 
 vtable for (anonymous namespace)::generic_error_category

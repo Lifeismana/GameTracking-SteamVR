@@ -1516,5 +1516,4 @@ vector<bool> too long
 wcschr
 winsock
 wn>Jj
-x08e
 xdigit

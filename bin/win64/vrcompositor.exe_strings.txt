@@ -4,7 +4,6 @@
    Finished creating camera roomview. (%s)\n
    Finished creating camera roomview.\n
   driver %s implements interfaces %s\n
- - %dx%d format=%d refresh=%d/%d scan=%d scale=%d dsc: mode=%d version=%d slice=%d out16=%d
  PassthroughPortal Stencil Estimate Disp 
  PassthroughPortal Stencil Left 
  PassthroughPortal Stencil Right 
@@ -230,13 +229,12 @@ $4DTdt
 .?AV<lambda_06f7f03917f813d4acaea219b2a15de1>@@
 .?AV<lambda_0e9c682e6668453b3ee5636a438a502c>@@
 .?AV<lambda_0edd1c727e57e3e264339f5f1157a7be>@@
+.?AV<lambda_14eee77b460ecc716baf8994001f5c7d>@@
 .?AV<lambda_23267a36949a3fe0391373d7aa6d6551>@@
 .?AV<lambda_2b6946a8720252ff5d48d62f7b228872>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_30d0f29d2aa872ae28db230989e45d5d>@@
 .?AV<lambda_389c8fe41f46b7f8c4c8989530d782e7>@@
-.?AV<lambda_3eb57d7dc8b21c7108adad21694a38ca>@@
-.?AV<lambda_4cc51148679cf54a62a63f0e2d8d134f>@@
 .?AV<lambda_50aa58e5b1c03e334ff633f4ce1f7d22>@@
 .?AV<lambda_54acbce8f80b2b8330d7ca8793104353>@@
 .?AV<lambda_59b9cd8463f3ed1408b8a16cd649c36c>@@
@@ -246,18 +244,20 @@ $4DTdt
 .?AV<lambda_73b6f06f79d9bfbf88825c299bdd20cd>@@
 .?AV<lambda_7ce51b90e7d20ae05c43c897d9b3fe79>@@
 .?AV<lambda_86d59099bd136058f579e2d0755eafaa>@@
+.?AV<lambda_8c41781d6b7797be8074857041c3f443>@@
 .?AV<lambda_8f0b5e86cb8c7eaac9b7ce3a7ea3e987>@@
 .?AV<lambda_97e897445855b5c257ab424cdd8c8578>@@
 .?AV<lambda_9d4e8af580c7b24b135a5a7f652af4da>@@
+.?AV<lambda_a1737d71037f1515dfa5da25cff6ab0e>@@
 .?AV<lambda_a4a964ec4ce785b696b1db23877b2efa>@@
 .?AV<lambda_a7a54475b4373cd738b216e8e0048e05>@@
 .?AV<lambda_b2db90e26f16d2df5d837253529ec0cb>@@
 .?AV<lambda_b999e20ffa6154705556996545c644f8>@@
 .?AV<lambda_c2e5d97917faf8788a05041f96eba3ce>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
+.?AV<lambda_e212e51e9132ad5376435c47595397cc>@@
 .?AV<lambda_eb7069a766d5d1d53633c47356221461>@@
 .?AV<lambda_ebfb3060989199463f5c1ef7bf995d6c>@@
-.?AV<lambda_f49b65d11ef2d167ad4f340ec140166d>@@
 .?AV<lambda_fc984cde4eba83418bd19490e88ae973>@@
 .?AV?$ComponentAdapterBaseNoParent@VIVRVirtualDisplay001@@$1?k_pchVirtualDisplayComponentPrefix@@3PADA$00VCVRVirtualDisplayComponent_001@@@@
 .?AV?$ComponentAdapterBaseWithParent@VIVRVirtualDisplay@vr@@$1?k_pchVirtualDisplayComponentPrefix@@3PADA$01VCVRVirtualDisplayComponent_Latest@@VCVRVirtualDisplayComponent_001@@@@
@@ -278,13 +278,12 @@ $4DTdt
 .?AV?$_Func_impl_no_alloc@V<lambda_06f7f03917f813d4acaea219b2a15de1>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0e9c682e6668453b3ee5636a438a502c>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0edd1c727e57e3e264339f5f1157a7be>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_14eee77b460ecc716baf8994001f5c7d>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_23267a36949a3fe0391373d7aa6d6551>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2b6946a8720252ff5d48d62f7b228872>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_30d0f29d2aa872ae28db230989e45d5d>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_389c8fe41f46b7f8c4c8989530d782e7>@@XAEBVValue@Json@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_3eb57d7dc8b21c7108adad21694a38ca>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_4cc51148679cf54a62a63f0e2d8d134f>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_50aa58e5b1c03e334ff633f4ce1f7d22>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_54acbce8f80b2b8330d7ca8793104353>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_59b9cd8463f3ed1408b8a16cd649c36c>@@XAEBVValue@Json@@@std@@
@@ -294,18 +293,20 @@ $4DTdt
 .?AV?$_Func_impl_no_alloc@V<lambda_73b6f06f79d9bfbf88825c299bdd20cd>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7ce51b90e7d20ae05c43c897d9b3fe79>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_86d59099bd136058f579e2d0755eafaa>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8c41781d6b7797be8074857041c3f443>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8f0b5e86cb8c7eaac9b7ce3a7ea3e987>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_97e897445855b5c257ab424cdd8c8578>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9d4e8af580c7b24b135a5a7f652af4da>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_a1737d71037f1515dfa5da25cff6ab0e>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a4a964ec4ce785b696b1db23877b2efa>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a7a54475b4373cd738b216e8e0048e05>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b2db90e26f16d2df5d837253529ec0cb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b999e20ffa6154705556996545c644f8>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c2e5d97917faf8788a05041f96eba3ce>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e212e51e9132ad5376435c47595397cc>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_eb7069a766d5d1d53633c47356221461>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ebfb3060989199463f5c1ef7bf995d6c>@@XAEBVValue@Json@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_f49b65d11ef2d167ad4f340ec140166d>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fc984cde4eba83418bd19490e88ae973>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@AEAP8CRemotePerfStats@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@AEAP8CSystemLayer@vr@@EAAXAEBVValue@Json@@@ZAEAPEAV34@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
@@ -376,7 +377,6 @@ $4DTdt
 .?AVCPresentThread@LiquidVR@@
 .?AVCRenderModel@sg@@
 .?AVCRenderThread@@
-.?AVCReparentToPanel@sg@@
 .?AVCRoot@sg@@
 .?AVCSGElasticHeadTransformState@CSceneGraphRenderer@@
 .?AVCSGGrabTransformState@CSceneGraphRenderer@@
@@ -476,7 +476,6 @@ $4DTdt
 .?AVCVRMsg_DestroySwapTextureSet@@
 .?AVCVRMsg_DriverDebugRequest@@
 .?AVCVRMsg_DriverDebugResponse@@
-.?AVCVRMsg_ExchangeCapabilities@@
 .?AVCVRMsg_GetApplicationInfo@@
 .?AVCVRMsg_GetApplicationLaunchArguments@@
 .?AVCVRMsg_GetApplicationLaunchArgumentsResponse@@
@@ -798,7 +797,6 @@ $4DTdt
 /server_time_ticks
 /steam/roomviewgeo
 /steamvr/angulardebug_%u
-/transferlatencyms
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -827,13 +825,12 @@ $4DTdt
 00003333
 0123456789ABCDEF
 0123456789ABCDEFundefined
-0\rPR
 0x%02x 
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
+11:32:39
 123456789
-13:59:37
 1A26b
 1e+9999
 1wsHp
@@ -855,7 +852,6 @@ $4DTdt
 <unknown>
 ================================================================================================\n
 ====> Detected GPU deadlock.. breaking cycle: %llu\n
->333?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -910,7 +906,6 @@ $4DTdt
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
-?fff?fff?fff?
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
@@ -978,6 +973,7 @@ Attempt to init shared state %s twice
 Attempt to register second handler for message type %s\n
 Attempted to read payload of %d bytes from pipe but failed\n
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
+Aug 31 2023
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
@@ -1180,7 +1176,6 @@ CVRMsg_DefaultBinding
 CVRMsg_DestroySwapTextureSet
 CVRMsg_DriverDebugRequest
 CVRMsg_DriverDebugResponse
-CVRMsg_ExchangeCapabilities
 CVRMsg_GetApplicationInfo
 CVRMsg_GetApplicationLaunchArguments
 CVRMsg_GetApplicationLaunchArgumentsResponse
@@ -1325,7 +1320,7 @@ Chaperone Mesh
 ChaperoneUniverseHasChanged (old %d new %d)
 CheckMenuItem
 CircleFade
-Clamping render target scale to 1.5x on each axis.\n
+Clamping render target scale to 1.5x\n
 Cleaning up\n
 Clearing dashboard transform because %s
 Clearing disable all reprojection (pid=%d)\n
@@ -1488,7 +1483,6 @@ Driver Not Known (201)
 Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
 Driver runtime is out of date (204)
-Driver unable to initialize video encoder (499)
 DriverDate
 DriverManager %s load error %su
 DriverVersion
@@ -1575,7 +1569,7 @@ Failed creating auto reset event %s (GLE: %u)\n
 Failed creating file mapping %s: %u\n
 Failed creating mutex %s (GLE: %u)\n
 Failed frame manager initialize %s\n
-Failed mapping view for %s; Error code: 0x%08x\n
+Failed mapping view for %s\n
 Failed system layer initialize %s\n
 Failed system layer pre-initialize %s\n
 Failed to WaitForConnection on pipe %s because %s\n
@@ -1595,9 +1589,7 @@ Failed to create LiquidVR motion vector input resource!\n
 Failed to create LiquidVR motion vector input texture\n
 Failed to create LiquidVR texture\n
 Failed to create NvEncode output buffer!\n
-Failed to create RTV for texture lod=%d
 Failed to create RTV for texture\n
-Failed to create SRV for texture lod=%d
 Failed to create Undistorted Frames IOBuffer (%d)\n
 Failed to create VRSettings interface!\n
 Failed to create a D3D11 Device for LiquidVR motion estimation!\n
@@ -1605,7 +1597,6 @@ Failed to create alpha blend state!\n
 Failed to create aniso sampler state!\n
 Failed to create backbuffer depth
 Failed to create backbuffer for virtual display!\n
-Failed to create bilinear clamp sampler state!\n
 Failed to create blend state (NoBelendingMaskNone)!\n
 Failed to create blend state add!\n
 Failed to create blend state no alpha write!\n
@@ -1615,6 +1606,7 @@ Failed to create camera decode sampler state!\n
 Failed to create clamp to border sampler state!\n
 Failed to create compute hmd pose constant buffer!\n
 Failed to create constant buffer (geom)!\n
+Failed to create constant buffer for portal stencil!\n
 Failed to create default blend state!\n
 Failed to create depth stencil state (compositor)!\n
 Failed to create depth stencil state no depth test (compositor)!\n
@@ -1693,13 +1685,11 @@ Failed to create tracked camera rasterizer NoCull state!\n
 Failed to create tracked camera render texture!\n
 Failed to create tracked camera undistortion texture map!\n
 Failed to create tracked camera vertex buffer!\n
-Failed to create trilinear clamp sampler state!\n
 Failed to create undistort sampler state!\n
 Failed to create vertex buffer for text!\n
 Failed to create vsync interval event!\n
 Failed to create wireframe rasterizer state!\n
 Failed to create wrapped aniso sampler state!\n
-Failed to dismiss dashboard tutorial overlay (%d)\n
 Failed to enable ETW provider\n
 Failed to enable gpu profiling\n
 Failed to enable trace provider\n
@@ -2097,6 +2087,7 @@ InitializeAcl failed. GetLastError returned: %d\n
 InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
 InitializeSListHead
 InitializeSecurityDescriptor
 InitializeSecurityDescriptor failed. GetLastError returned: %d\n
@@ -2104,9 +2095,6 @@ Initializing NVEncode width: %d, height: %d
 Initializing camera\n
 Initializing timing resources\n
 Input
-InputCapture: Cleared
-InputCapture: hover: %d overlay: %llX name: %s
-InputCapture: owner: %d render: %d focus: %d %s
 InsertMenuItemA
 Installation Corrupt (101)
 Installation Not Found (100)
@@ -2154,7 +2142,7 @@ Invalid zlib compression method or flags in non-IDAT chunk
 Inverse Distortion Texture eye %d clippingfailures %d
 InverseDistortUV-%s
 IsDebuggerPresent
-IsDepthFormatDXGI( eTextureFormatConcrete )
+IsDepthFormat( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 IsValidSid
 IsWindowVisible
@@ -2163,14 +2151,11 @@ IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 It shouldn't be possible to add a child twice because of move semantics
 JFIF
 Journaling %s\n
-K28e
 KERNEL32.dll
 Kernel32.dll
 KillTimer
-L>333?
 LTC Quad Debug
-LTCQuad:ping
-LTCQuad:pong
+LTCQuad
 LastKnown
 LeaveCriticalSection
 Left Eye Only
@@ -2248,7 +2233,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Missing action in link_action message
 Missing expected "statusicons" from system resource manifest %s.\n
-Missing sgid: %s
 Mixed
 Motion Estimation Hallucinate
 Motion Estimation Prepare Input
@@ -2284,7 +2268,6 @@ NJ2"v
 NORMAL
 NOTPRESENT
 NULL
-NVAPI_DEBUG_DISPLAY_MODES
 NVIDIA
 Neighbor Averaged Motion Vectors
 New result of GetRecommendedRenderTargetSize for current app: %dx%d\n
@@ -2300,7 +2283,6 @@ Not starting vrserver for background app (121)
 Not writing %s because the texture was null
 Notification mailbox init failed with %d\n
 NvAPI
-NvAPI DisplayModes:
 NvAPI: DirectModeCreateSurface trying again with older API!\n
 NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!\n
 NvAPI: DirectModeGetDisplayModes trying again with older API!\n
@@ -2324,7 +2306,6 @@ NvOpticalFlow Quality: %d\n
 NvOptimusEnablement
 O*9y]
 OZw3(?
-Oct 24 2023
 On laptop, HMD detected over USB, but Monitor not found (213)
 OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
 OnDeviceAdded: device = %s\n
@@ -2388,7 +2369,6 @@ Processing Message of type %s (%u bytes) from %s\n
 Processing message %s from %s took %0.3g seconds\n
 PropVariantClear
 Prop_
-Prop_ActualTrackingSystemName_String
 Prop_AdditionalDeviceSettingsPath_String
 Prop_AdditionalRadioFeatures_Uint64
 Prop_AdditionalSystemReportData_String
@@ -2474,7 +2454,6 @@ Prop_DistortionMeshResolution_Int32
 Prop_DoNotApplyPrediction_Bool
 Prop_DongleVersion_Uint64
 Prop_DriverDirectModeSendsVsyncEvents_Bool
-Prop_DriverDisplaysIPDChanges_Bool
 Prop_DriverIsDrawingControllers_Bool
 Prop_DriverProvidedChaperoneJson_String
 Prop_DriverProvidedChaperonePath_String
@@ -2603,7 +2582,7 @@ R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
 RSDS
-R\npR
+R\npv
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -2683,7 +2662,6 @@ Scene
 Scene / Lens Distortion
 Scene graph visited panel %s that did not have a valid overlay.\n
 Scene graph visited panel %s whose parent panel %s did not have a valid overlay.\n
-Scene graph visited panel %s whose target DPI panel overlay didn't have an overlay index.\n
 Scene graph visited panel anchor %s that did not have a panel as an ancestor.\n
 Screenshot All\tShift+S
 Screenshot: Capturing Mono2D texture\n
@@ -2797,7 +2775,6 @@ SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
 SteamAppId
 SteamGameId
-SteamStreaming
 SteamVR Trace Session
 SteamVR_FrameStatsPath
 SteamVR_Namespace
@@ -2903,7 +2880,6 @@ Tracked Camera: Unexpected or not-specified number of cameras (propertyError=%d,
 TrackedDeviceUserInteractionStarted
 TranslateMessage
 Truncating profile to actual length in iCCP chunk
-TryGetNotificationIndex( pState, unNotificationid, result )
 U4ot
 UNKNOWN
 UNNAMED
@@ -2986,8 +2962,6 @@ Unrecognized equation type for pCAL chunk
 Unrecognized unit type for oFFs chunk
 Unrecognized unit type for pHYs chunk
 UnregisterClassW
-Unsupported RTV type: %d
-Unsupported SRV type: %d
 Updated HMD Prop_DisplayFrequency_Float to %f\n
 User Canceled Init (116)
 User Config Directory Invalid (107)
@@ -3022,7 +2996,6 @@ VR system shutting down (119)
 VRAudioDevices_Init
 VRControlPanel
 VREvent_ActionBindingReloaded
-VREvent_AnyDriverSettingsChanged
 VREvent_ApplicationListUpdated
 VREvent_ApplicationMimeTypeLoad
 VREvent_AudioSettingsHaveChanged
@@ -3254,7 +3227,6 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
-VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -3672,7 +3644,7 @@ WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 Waiting for debugger...
 WakeAllConditionVariable
@@ -4291,7 +4263,6 @@ cuMemFree_v2
 cuMemcpy2D
 cuMemcpy2D_v2
 culling
-cursor_index
 cursor_mountable_id
 cursor_owning_overlay_key
 curvature
@@ -4478,7 +4449,6 @@ hmd_presence
 hmd_supports
 hmdheight
 hmdwindowbase_input
-hoverPanelShift
 html_color
 hu_hu
 hungarian
@@ -4509,16 +4479,12 @@ incorrect data check
 incorrect header check
 incorrect length check
 incorrect png_set_filler call ignored
-inherit-from-parent-panel
 inhibitRecenterOnUserInteraction
 inner-radius
 inner_radius
-input
 input-path
-inputCaptureDismissOnClick
 inserted.second
 insufficient memory
-interaction-dismisses-keyboard
 interactive
 internal write transform logic error
 internet
@@ -4541,7 +4507,6 @@ invalid string position
 invalid vector<T> subscript
 invalid window size
 invalid zlib state
-invert-parent-panel-pitch
 ipdOffset
 ipd_offset_decrement
 ipd_offset_increment
@@ -4562,8 +4527,9 @@ ko_ko
 korean
 l6qnk
 lDa>
-laserMouseDebugging
+laserMouseAutoHideTimeout
 laser_mouse_click
+laser_mouse_suppression_update
 laser_pointer
 lasermouse
 latam
@@ -4593,7 +4559,6 @@ lstrlenA
 ltcquad
 luma-randomization-max-gain
 luma-randomization-min-gain
-m_SGID != vr::k_unInvalidSGID
 m_distortStats.S_SPATIAL_ENCODING == 0
 m_nMaxLogBufferingSize > 0
 m_pDriverDirectInternal
@@ -4604,7 +4569,6 @@ m_pRenderTargetView != nullptr
 m_stream.total_out == nOutputSize
 m_ulHandle != vr::k_ulInvalidMailbox
 mailbox
-make-overlays-interactive-if-visible
 malloc
 manipulation-transform
 map/set<T> too long
@@ -4619,7 +4583,6 @@ memory
 memset
 message
 message_id
-meters-per-pixel
 method
 mfplat.dll
 min-angular-velocity
@@ -4702,7 +4665,6 @@ openvr_api.dll
 openvrpaths.vrpath
 openxr_loader.dll
 origin
-originInfo.trackedDeviceIndex < vr::k_unMaxTrackedDeviceCount
 other_presence
 outer-radius
 outer_radius
@@ -4710,13 +4672,6 @@ outofdata
 outofmem
 output buffer limit
 output.size() > 0
-overlayFilteringBeta
-overlayFilteringDerivCutoff
-overlayFilteringEnabled
-overlayFilteringMinCutoff
-overlayMagnetismDeadZone
-overlayMagnetismEnabled
-overlayMagnetismLockDistance
 overlayRenderQuality_2
 overlay_handle
 overlay_key
@@ -4728,8 +4683,6 @@ owning_overlay_key
 pBegin == pEnd
 pEnd > pBegin
 pHallucinatedFrameSource
-pIntersectedOverlay != nullptr
-pOutPose != nullptr
 pOverlayData->eType == VROverlayTransform_Subview
 pOverlayData->pCursorAnchor
 pOverlayData->pCursorInverseTransform
@@ -4751,7 +4704,6 @@ params
 parent != nullptr
 parent-id
 parent-origin
-parent-overlay-key
 parent-path
 parse
 path
@@ -4809,11 +4761,9 @@ renderdoc.dll
 rendermodel
 rendermodel_component_device_index
 rendermodel_component_name
-reparent-to-panel
 request_dashboard_tabs
 request_handlers
 request_handlers_response
-requires-laser
 resourceOnly
 resources
 result
@@ -4856,6 +4806,7 @@ set_backbuffer_count
 set_background
 set_dashboard_visibility
 set_eye_tracking_debug_mode
+set_laser_mouse_suppression_enabled
 set_notification_image
 set_notification_image_response
 set_overlay
@@ -5025,7 +4976,6 @@ shaders/d3d11/unlit_vs.fxo
 shaders_force_reload
 shared_memory_block
 short_name
-showEnableInSettings
 showGridCircles
 showLegacyMirrorView
 showOnController
@@ -5092,6 +5042,9 @@ strtoul
 strtoull
 subview-parent-panel-id
 summon_overlay_key
+suppress_immediately
+suppression_active
+suppression_enabled
 sv_sv
 swedish
 system
@@ -5103,7 +5056,6 @@ system.desktop.%d
 system.generated.big_box_room.exe
 system.generated.hlvr.exe
 system.pointer
-system.pointer.secondary
 system.standalone
 system.systemui::DashboardCurvatureOrigin
 system.toast
@@ -5179,7 +5131,6 @@ trigger_renderdoc_capture
 true
 turkish
 type
-u=333>ff
 ua_ua
 ukranian
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
@@ -5245,6 +5196,7 @@ vrcompositor_distort
 vrcompositor_mailbox
 vrcompositor_notification
 vrcompositor_systemlayer
+vrlink_device
 vrntfyimg#%d
 vrserver internal error (124)
 vrsharedresourcemanager

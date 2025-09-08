@@ -1,14 +1,14 @@
 Content Manifest for Depot 250824 
 
-Manifest ID / date     : 4910727296404977270 / 10/24/2023 21:28:59 
-Total number of files  : 2706 
-Total number of chunks : 2619 
-Total bytes on disk    : 581384803 
-Total bytes compressed : 269348240 
+Manifest ID / date     : 2232945182712745816 / 08/31/2023 18:55:46 
+Total number of files  : 2610 
+Total number of chunks : 2538 
+Total bytes on disk    : 543322310 
+Total bytes compressed : 241311984 
 
 
           Size Chunks File SHA                                 Flags Name
-            12      1 3be20f859c1aa356d664e351cfdd647babfbb272     0 bin/version.txt
+            12      1 ce5b756b24dfd7712c13ee1ace99f697697a3e44     0 bin/version.txt
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/demoloop
          34709      1 f7557b27d169b830a48321e3760e38e08e771172     0 content/vrmonitor/demoloop/card_aperture.png
          21464      1 b32ccaa0cd6d5d8b4acbdb11ea0c28bfe2791d0d     0 content/vrmonitor/demoloop/card_archery.png
@@ -203,68 +203,68 @@ Total bytes compressed : 269348240
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/textures
         619034      1 2a2b8b24ad538a64f6171b3762bf02bce70966a5     0 content/vrmonitor/textures/card_intro.png
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/translations
-        168584      1 9291be90ee85625876fb022b064a363ff4bfe5e0     0 content/vrmonitor/translations/vrmonitor_brazilian.txt
-        177304      1 c9bff5cfd34ad0123568f67ed86fdead609db50e     0 content/vrmonitor/translations/vrmonitor_bulgarian.txt
-        167220      1 bb5ad8db9219d420976e6724e8ba329f2a4d88c9     0 content/vrmonitor/translations/vrmonitor_czech.txt
-        164272      1 7142210bc258d5c60d15c71fde722aad7b716c56     0 content/vrmonitor/translations/vrmonitor_danish.txt
-        170738      1 c5e7ce50d8c2e36d8ed5fd1d08dcc028eb28cc8b     0 content/vrmonitor/translations/vrmonitor_dutch.txt
-        162544      1 a246ef35b05011ae628387a6fc9199b581cb0d1a     0 content/vrmonitor/translations/vrmonitor_english.txt
-        163678      1 4c7e03bfa00a80446f8668b34db2e859df1f8373     0 content/vrmonitor/translations/vrmonitor_errors_brazilian.txt
-        166518      1 8a23aecd5ec6e930bcd1786debb36f73498fc14d     0 content/vrmonitor/translations/vrmonitor_errors_bulgarian.txt
-        163392      1 4438f5ce07bcddfb077ed540ea50c622e5005039     0 content/vrmonitor/translations/vrmonitor_errors_czech.txt
-        159248      1 e43c502fa6bdd890b42d34b00ce559c9fa5e3345     0 content/vrmonitor/translations/vrmonitor_errors_danish.txt
-        167234      1 0389926e584bdd64a52432ceb108f216ebd2b1ef     0 content/vrmonitor/translations/vrmonitor_errors_dutch.txt
-        161852      1 2c22be59089f6f13a3ef3d9a1f019625bd6fff8b     0 content/vrmonitor/translations/vrmonitor_errors_english.txt
-        157176      1 ed944f73cf399f4765cdbe1ebb1c372bd743549d     0 content/vrmonitor/translations/vrmonitor_errors_finnish.txt
-        172150      1 5043ecc4a5f62fa150e23c3ddced318ab7d82738     0 content/vrmonitor/translations/vrmonitor_errors_french.txt
-        173612      1 91e369fae5931e5cfd39f7048c51afb682c0f375     0 content/vrmonitor/translations/vrmonitor_errors_german.txt
-        170878      1 6ee65e22b92c85a2b49321e3860caa4ac17b18a9     0 content/vrmonitor/translations/vrmonitor_errors_greek.txt
-        164610      1 96069dd40db3c16207848e343ae3163c756b5f40     0 content/vrmonitor/translations/vrmonitor_errors_hungarian.txt
-        169010      1 f80d779a5188171891383dc7314cab5847cbe6d0     0 content/vrmonitor/translations/vrmonitor_errors_italian.txt
-        137584      1 055632b94661971385ff460549622b6b34394291     0 content/vrmonitor/translations/vrmonitor_errors_japanese.txt
-        135560      1 277f161f299ce9b506759afc6df05661ec694024     0 content/vrmonitor/translations/vrmonitor_errors_korean.txt
-        135560      1 277f161f299ce9b506759afc6df05661ec694024     0 content/vrmonitor/translations/vrmonitor_errors_koreana.txt
-        168076      1 009ec17824638b930fb9d802b381abdfedb24115     0 content/vrmonitor/translations/vrmonitor_errors_latam.txt
-        158162      1 d10378a7d17445852a313697c217f899543aceb9     0 content/vrmonitor/translations/vrmonitor_errors_norwegian.txt
-        166256      1 23c92f26d49fef2ea1edc47814d8506e4785f8af     0 content/vrmonitor/translations/vrmonitor_errors_polish.txt
-        167884      1 b684b3cf1cbe295b8c6e45057c754a955590d510     0 content/vrmonitor/translations/vrmonitor_errors_portuguese.txt
+        168184      1 c3dcd3bd8e5dd745cf368f6f4c3ec53adaab7007     0 content/vrmonitor/translations/vrmonitor_brazilian.txt
+        176898      1 21a0f2f736a5b193b48f0bf7ba56a459c33fc23e     0 content/vrmonitor/translations/vrmonitor_bulgarian.txt
+        166786      1 02ef6b8356d6eb8dfd8317146e875286a82dcd36     0 content/vrmonitor/translations/vrmonitor_czech.txt
+        163896      1 0f90493723dc8f424bcc55cc3d72b9312f7025ea     0 content/vrmonitor/translations/vrmonitor_danish.txt
+        170344      1 7697690d9e61369ba4d68df080ec9991b9aeb264     0 content/vrmonitor/translations/vrmonitor_dutch.txt
+        161992      1 8b4d0b6c61c0bca7bcf2d1c4c728f83a8641bef8     0 content/vrmonitor/translations/vrmonitor_english.txt
+        158662      1 d7a67ebc6e1cfd32d5e3e5e1471072401a9722f2     0 content/vrmonitor/translations/vrmonitor_errors_brazilian.txt
+        161154      1 a414a879e7d26ad89d8fae117e639e1269ca43e6     0 content/vrmonitor/translations/vrmonitor_errors_bulgarian.txt
+        158250      1 b04036703f24ee5edb8f30448b932ed6785bfa33     0 content/vrmonitor/translations/vrmonitor_errors_czech.txt
+        154334      1 43592ef23c49f9fdd702a36677e9b2f82adba27d     0 content/vrmonitor/translations/vrmonitor_errors_danish.txt
+        162058      1 d3cba2f12145892418867f9509523aca2f343ea3     0 content/vrmonitor/translations/vrmonitor_errors_dutch.txt
+        156222      1 8aca430a77ac9f70d522a9b375a227433b2b53df     0 content/vrmonitor/translations/vrmonitor_errors_english.txt
+        152280      1 4bab8af6e05e280136fd93e05269c915914ba046     0 content/vrmonitor/translations/vrmonitor_errors_finnish.txt
+        166634      1 15a07ece8c21da54e1dd273561916498d338bd5c     0 content/vrmonitor/translations/vrmonitor_errors_french.txt
+        168226      1 49605f66a07eaf76c009e2ddfdb70a4a6e5de4c1     0 content/vrmonitor/translations/vrmonitor_errors_german.txt
+        165440      1 0d20102bf706bb1af17c142c0505a2a8fc59285d     0 content/vrmonitor/translations/vrmonitor_errors_greek.txt
+        159522      1 f040b206b1bb1153440ac0051d3cdfae02bc3e71     0 content/vrmonitor/translations/vrmonitor_errors_hungarian.txt
+        163726      1 5cb9a64b151a821e688793e508d7367f76fa8db4     0 content/vrmonitor/translations/vrmonitor_errors_italian.txt
+        133218      1 141fc17961177efb172f2d9e48b378493a17408f     0 content/vrmonitor/translations/vrmonitor_errors_japanese.txt
+        131256      1 64f47158daa259bd59e640e4fc3b0a843ff07ca0     0 content/vrmonitor/translations/vrmonitor_errors_korean.txt
+        131256      1 64f47158daa259bd59e640e4fc3b0a843ff07ca0     0 content/vrmonitor/translations/vrmonitor_errors_koreana.txt
+        162718      1 33cac6485c5a787ef1c8779d46e6da8740211109     0 content/vrmonitor/translations/vrmonitor_errors_latam.txt
+        153260      1 3cd3aa2d22fda733f79de2c9cd6dab0b207c51de     0 content/vrmonitor/translations/vrmonitor_errors_norwegian.txt
+        161064      1 93341293198515098b2e0e40b0bd0c4badebca7e     0 content/vrmonitor/translations/vrmonitor_errors_polish.txt
+        162710      1 7af6c4da500c6aa7a85905d6cc90e1a17ded3295     0 content/vrmonitor/translations/vrmonitor_errors_portuguese.txt
          65000      1 ae8917de4c66c1e8e9a143334396e0e4f652c1ad     0 content/vrmonitor/translations/vrmonitor_errors_pseudo.txt
-        170196      1 f3137e59c1543a03b317df934120e67e26c59b64     0 content/vrmonitor/translations/vrmonitor_errors_romanian.txt
-        160496      1 b5e487ba1e5362117297d8f385538fc010815622     0 content/vrmonitor/translations/vrmonitor_errors_russian.txt
-        130020      1 98087a1170d8e801cac7152a1eca9c54235f73e8     0 content/vrmonitor/translations/vrmonitor_errors_schinese.txt
-        167512      1 4a30a6276b730572dd8b861e3847fd75b9f5bea8     0 content/vrmonitor/translations/vrmonitor_errors_spanish.txt
-        160420      1 08b4033e55347f97d00c3f01189c4c4a3f4acf0a     0 content/vrmonitor/translations/vrmonitor_errors_swedish.txt
-        131488      1 2ba99973f27139f3ea7956b652b1a817d16e9f28     0 content/vrmonitor/translations/vrmonitor_errors_tchinese.txt
-        161438      1 1c0c2eba11775963c079b7a24f588b7c6c090c61     0 content/vrmonitor/translations/vrmonitor_errors_thai.txt
-        163790      1 0fd21f5635f7188d6afb46a6c33cbb3d82091bf9     0 content/vrmonitor/translations/vrmonitor_errors_turkish.txt
-        162308      1 fdc9cb0d0ee6df8ea0852862f57f247a6318ebfe     0 content/vrmonitor/translations/vrmonitor_errors_ukrainian.txt
-        158308      1 d23fb41940b524b3b4e2b4e651d1f535259a3f2d     0 content/vrmonitor/translations/vrmonitor_errors_vietnamese.txt
-        164044      1 16b132044426493e1b1d0dbf2f6ad15c040fe459     0 content/vrmonitor/translations/vrmonitor_finnish.txt
-        178510      1 6c4476fda90f7d4298cc4e667dee55c8018bbc78     0 content/vrmonitor/translations/vrmonitor_french.txt
-        175920      1 4731273a19032ad81f518b055fd216e7b1a8c86c     0 content/vrmonitor/translations/vrmonitor_german.txt
-        176428      1 9a37e9bf81bdbabdbf07e58f0a3d7cf03d1456cc     0 content/vrmonitor/translations/vrmonitor_greek.txt
-        169162      1 b1bf8805622487414b47c5597b810ec5ea0c2227     0 content/vrmonitor/translations/vrmonitor_hungarian.txt
+        164802      1 3d6fb191c642b41cdc8274b34db08f42f466577e     0 content/vrmonitor/translations/vrmonitor_errors_romanian.txt
+        155472      1 5db28ecc1be30485d88c6789a0802cdc6457e8f6     0 content/vrmonitor/translations/vrmonitor_errors_russian.txt
+        125950      1 20cbe94df00887dc494d2920d009edf06bc70cef     0 content/vrmonitor/translations/vrmonitor_errors_schinese.txt
+        162298      1 5d6b1b0b1977ad64675b362e23be6bec92ec9490     0 content/vrmonitor/translations/vrmonitor_errors_spanish.txt
+        155448      1 bbdf38bed4c4884d67a04447ee8a7c92c39b1667     0 content/vrmonitor/translations/vrmonitor_errors_swedish.txt
+        127336      1 0ee62db69cf110e0c377f9e459c7cfbdcc183d44     0 content/vrmonitor/translations/vrmonitor_errors_tchinese.txt
+        156362      1 7c96753346ea75438612682a19b1843b5d02485a     0 content/vrmonitor/translations/vrmonitor_errors_thai.txt
+        158656      1 1c6116cfe984cfce03caa2f3d90a556a086abe82     0 content/vrmonitor/translations/vrmonitor_errors_turkish.txt
+        157268      1 f3ed467898266084313e262091ad20188439f083     0 content/vrmonitor/translations/vrmonitor_errors_ukrainian.txt
+        153382      1 9782d6ec465e09009ec69488347f3f42f8d73a90     0 content/vrmonitor/translations/vrmonitor_errors_vietnamese.txt
+        163644      1 c40d3a2cc10b469838cf7512f64b9a5b2d1a56eb     0 content/vrmonitor/translations/vrmonitor_finnish.txt
+        178116      1 7e04bfa161696c8d0f7e31e57b9168bef54f753c     0 content/vrmonitor/translations/vrmonitor_french.txt
+        175506      1 b7105506131a0abca9bfbb4028040ff7a518bf7a     0 content/vrmonitor/translations/vrmonitor_german.txt
+        175970      1 476fb661f6183b8dd018dad5bc62663171deca03     0 content/vrmonitor/translations/vrmonitor_greek.txt
+        168760      1 93c038feecda6dbc05dbca421bed0a92b1a1ee5c     0 content/vrmonitor/translations/vrmonitor_hungarian.txt
            736      1 9942720eede6c277491b632fd367fb9813ef7a32     0 content/vrmonitor/translations/vrmonitor_issues_english.txt
-        175766      1 226e0b30cec87dac30a413d82edf9e0cb72e5152     0 content/vrmonitor/translations/vrmonitor_italian.txt
-        129466      1 82335e7ae6fd918d6966f97db7a57bd5712198ac     0 content/vrmonitor/translations/vrmonitor_japanese.txt
-        128882      1 dd20072222c53a5bf561a645d3a1ba8d15a396aa     0 content/vrmonitor/translations/vrmonitor_korean.txt
-        128882      1 dd20072222c53a5bf561a645d3a1ba8d15a396aa     0 content/vrmonitor/translations/vrmonitor_koreana.txt
-        175168      1 428356c4ac612651bcb9e6024ccdc4e3553b8af0     0 content/vrmonitor/translations/vrmonitor_latam.txt
-        161918      1 bbc6614b30752e851c200868f7a44fc66ad4a11c     0 content/vrmonitor/translations/vrmonitor_norwegian.txt
+        175382      1 265d9ed62dbcc12e8db1161a2cca9e234408b8fc     0 content/vrmonitor/translations/vrmonitor_italian.txt
+        129150      1 2c5723619740e462531856314db4dc4c7c316de1     0 content/vrmonitor/translations/vrmonitor_japanese.txt
+        128568      1 3d00149ac83a07efa57c6f8ce5ea1f8f7db28b13     0 content/vrmonitor/translations/vrmonitor_korean.txt
+        128568      1 3d00149ac83a07efa57c6f8ce5ea1f8f7db28b13     0 content/vrmonitor/translations/vrmonitor_koreana.txt
+        174738      1 02a2e1b6015163463d773b9870eaf1d71a90402c     0 content/vrmonitor/translations/vrmonitor_latam.txt
+        161538      1 14c83ebda3473fa7bba30ae81bf3e2f49de6a5d1     0 content/vrmonitor/translations/vrmonitor_norwegian.txt
           4646      1 7519e3b0e55adb98394a26256610a65e87b0eba6     0 content/vrmonitor/translations/vrmonitor_pirate.txt
-        172334      1 9a32ffe82b55f1d6bcd6414e0c622f12926c73c6     0 content/vrmonitor/translations/vrmonitor_polish.txt
-        171470      1 450a79dd5a883e8cb02a121c96857f8244b044ea     0 content/vrmonitor/translations/vrmonitor_portuguese.txt
+        171918      1 5df6d95a374ba59d533cf0eb29b7fd9ec7ae7dcf     0 content/vrmonitor/translations/vrmonitor_polish.txt
+        171048      1 564f9560a65585bf5bc046858502b1e2a7854d4f     0 content/vrmonitor/translations/vrmonitor_portuguese.txt
          93864      1 9a052312e0e09b087513af9ab5afdca6f754955f     0 content/vrmonitor/translations/vrmonitor_pseudo.txt
-        176760      1 8430ace5c45bbd21203426b65e860715d0866519     0 content/vrmonitor/translations/vrmonitor_romanian.txt
-        167770      1 a0bfc73844c0c26887da5fbab49b492b06e43e5d     0 content/vrmonitor/translations/vrmonitor_russian.txt
-        114638      1 8a0b3b0f6bc9a2033d6be28b5c935a7bde71f42e     0 content/vrmonitor/translations/vrmonitor_schinese.txt
-        175052      1 814454dcbb5b627c0a7383e1d3862e7b1b0457a9     0 content/vrmonitor/translations/vrmonitor_spanish.txt
-        163518      1 d01baba9c193bf6021d49d35be2d08ebb9cda950     0 content/vrmonitor/translations/vrmonitor_swedish.txt
-        117030      1 b593c0570fa05f3f24a59ac14bc91d0c76efaee5     0 content/vrmonitor/translations/vrmonitor_tchinese.txt
-        161888      1 3510ca99aa71c5572c45ac60b345ce045da94e06     0 content/vrmonitor/translations/vrmonitor_thai.txt
-        167100      1 09c86be321eba4a16b71adfa0788a73c1e6fbb4c     0 content/vrmonitor/translations/vrmonitor_turkish.txt
-        168506      1 85ae2738642dc4808b6f467a0e5576f17eb31c8e     0 content/vrmonitor/translations/vrmonitor_ukrainian.txt
-        162678      1 f44b95b21883dabd49641bd881bdf923ba65c515     0 content/vrmonitor/translations/vrmonitor_vietnamese.txt
+        176330      1 e143cf0360bdd5ce014d2757e7166197d7fb1a84     0 content/vrmonitor/translations/vrmonitor_romanian.txt
+        167382      1 0a40f30b0eeda1ea4c285eac4603b8d6306482b3     0 content/vrmonitor/translations/vrmonitor_russian.txt
+        114340      1 1d757c09a227085000ba9ba352bdbd7b9120b1ee     0 content/vrmonitor/translations/vrmonitor_schinese.txt
+        174608      1 570b4b394ed9829091e58b5e8ab209d51c500810     0 content/vrmonitor/translations/vrmonitor_spanish.txt
+        163136      1 143544864c155cb5db3c86394a99a82bf6f4e9a4     0 content/vrmonitor/translations/vrmonitor_swedish.txt
+        116726      1 8d52227ffe3b015a7ace7f50d53753ffe2731a89     0 content/vrmonitor/translations/vrmonitor_tchinese.txt
+        161484      1 7f93676ebff69fba68d92911bb92ac0a0743b26f     0 content/vrmonitor/translations/vrmonitor_thai.txt
+        166716      1 32a99ab01b9c2d8729b5e9e3577c6aefb14c580c     0 content/vrmonitor/translations/vrmonitor_turkish.txt
+        168124      1 eef76c4633bd77260cae37ee3a2b7357b677cdae     0 content/vrmonitor/translations/vrmonitor_ukrainian.txt
+        162288      1 6bd58929de9c59a046337e61e14808ec104869c3     0 content/vrmonitor/translations/vrmonitor_vietnamese.txt
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/welcome
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/welcome/en
           2406      1 b549275a119f1f15b508c80b1b7a2e3055c00a1a     0 content/vrmonitor/welcome/en/index.html
@@ -301,8 +301,6 @@ Total bytes compressed : 269348240
              0      0 0000000000000000000000000000000000000000    40 drivers/indexcontroller/resources/firmware/indexcontroller
         137982      1 936ef771d72bdf104c426122259c8fca91a7b88e     0 drivers/indexcontroller/resources/firmware/indexcontroller/indexcontroller_app_20190621_v1561139887.fw
         138107      1 91334d93dd83e9e01810e95f9b804f5f9d146e06     0 drivers/indexcontroller/resources/firmware/indexcontroller/indexcontroller_app_20190712_v1562916277.fw
-        138645      1 2552cd5dc8dd7b5aa194031c34899850c89ef08e     0 drivers/indexcontroller/resources/firmware/indexcontroller/indexcontroller_app_20230902_v1693638519.fw
-        139185      1 cf0340d7b27720e1ad9adc40b7034b84b89f2afe     0 drivers/indexcontroller/resources/firmware/indexcontroller/indexcontroller_app_ev_20231013_v1697193759.fw
          78219      1 c3010bf5446bd8e10c7fb58c97ac77079ee07bc6     0 drivers/indexcontroller/resources/firmware/indexcontroller/indexcontroller_fpga_2_26.fw
          34756      1 32c8877e3bced515cafa673568b6f0984038bd3d     0 drivers/indexcontroller/resources/firmware/indexcontroller/indexcontroller_radio_20190612_v1560372213.fw
          34844      1 8ebb99ecc59d608c891f8db915d0174e8dd7d997     0 drivers/indexcontroller/resources/firmware/indexcontroller/indexcontroller_radio_20190711_v1562882729.fw
@@ -310,7 +308,7 @@ Total bytes compressed : 269348240
          36824      1 50ef4a8720e165bd944cea720331a73f05c3f8c0     0 drivers/indexcontroller/resources/firmware/knuckles_ev1_3/knuckles_ice40_263_20160908.bin.gz
          26700      1 41e3a01ab59ba8bd65a498e01c0c981782115b18     0 drivers/indexcontroller/resources/firmware/knuckles_ev1_3/knuckles_radio_1518811657.bin
         199356      1 264ad2a9d72f396629d0c93fd5c7e25baf4fe73d     0 drivers/indexcontroller/resources/firmware/knuckles_ev1_3/knuckles_vrc_1520993164.bin
-          3157      1 d9a8a567289dfb2d321857522783114844e87924     0 drivers/indexcontroller/resources/firmware/manifest.vrfirmware
+          2504      1 cf30ae932e9f36927a047a0ca2c5f791fd1af97e     0 drivers/indexcontroller/resources/firmware/manifest.vrfirmware
              0      0 0000000000000000000000000000000000000000    40 drivers/indexcontroller/resources/icons
          94945      1 81d4f58bf832763f57efc4a15bbe7153a9a4c161     0 drivers/indexcontroller/resources/icons/indexcontroller_left.svg
          96443      1 510de1672a35de89b2088636a1ed161d3c93b308     0 drivers/indexcontroller/resources/icons/indexcontroller_right.svg
@@ -782,7 +780,7 @@ Total bytes compressed : 269348240
            268      1 c2d7485f00585db205e3d7b351fa8771354e6676     0 drivers/lighthouse/resources/webhelperoverlays.json
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/css
-         25853      1 e7db6356f6c802412796ef15368c455d42cdf3e3     0 drivers/lighthouse/resources/webinterface/css/base.css
+         22917      1 f821b78b2fa60d55209fdf77a0e1b4d661c7c143     0 drivers/lighthouse/resources/webinterface/css/base.css
              0      0 0000000000000000000000000000000000000000     0 drivers/lighthouse/resources/webinterface/css/empty.dir
          13953      1 a958fd6edfc75e0249340eabb7e593a0912bafbd     0 drivers/lighthouse/resources/webinterface/css/pairing.css
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/fonts
@@ -802,7 +800,7 @@ Total bytes compressed : 269348240
          34324      1 957e1681db23ab89f68dd7f93c725eacb519cfd9     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand.svg
           5707      1 44f43289f6e2f1f15b3f8c778e6687289206db10     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand_callouts.svg
           6043      1 7ecb337cfd5795f7e0ff416225080f05797c35a4     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand_callouts_text.svg
-        215199      1 718db03718f9722a9c3e59e8ce596f60d5d40f65     0 drivers/lighthouse/resources/webinterface/libraries.js
+        215199      1 94cb9a1ca54090e8392dc4bd86362ffc63b2a5ac     0 drivers/lighthouse/resources/webinterface/libraries.js
           2045      1 c7a144974a9a3961929f2d078236aa6fcb3c7698     0 drivers/lighthouse/resources/webinterface/libraries.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/localization
              0      0 0000000000000000000000000000000000000000     0 drivers/lighthouse/resources/webinterface/localization/empty.dir
@@ -834,15 +832,15 @@ Total bytes compressed : 269348240
           2873      1 8c4d7efbb7b1d73b8001765ae5c3999801ef0613     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_turkish.json
           3570      1 df5830bbf45f712892f465b9485cc3555d0e3afb     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_ukrainian.json
           3107      1 9720cf264a2f461590a5801d66acd1a650631599     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_vietnamese.json
-           508      1 dd243dfc149a325715047b3738dfa73e2120455d     0 drivers/lighthouse/resources/webinterface/pairing.html
-        207716      1 038344133ee39c05475ef90fe979108f64f998fa     0 drivers/lighthouse/resources/webinterface/pairing.js
+           508      1 fb517fdbf0cc944d397195f951e4d86fd0b91005     0 drivers/lighthouse/resources/webinterface/pairing.html
+        205849      1 1888dd081b07a8e8219810dc725f489f32aafd10     0 drivers/lighthouse/resources/webinterface/pairing.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 drivers/lighthouse/resources/webinterface/pairing.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/sounds
         147172      1 d3ed1d7f8fef28dbc0371ffe9ed607a6b9734429     0 drivers/lighthouse/resources/webinterface/sounds/activation.wav
         112784      1 0e03d4e424300113a4578b466626b7aa8e029d34     0 drivers/lighthouse/resources/webinterface/sounds/activation_change_fail.wav
              0      0 0000000000000000000000000000000000000000     0 drivers/lighthouse/resources/webinterface/sounds/empty.dir
          68408      1 9f7f8ae7a37023d2417efffa5ce793dd5bfe5948     0 drivers/lighthouse/resources/webinterface/sounds/volume_change.wav
-          2853      1 e3bd51155580527ccd4d96c98c2ac61758e8cef4     0 drivers/lighthouse/resources/webinterface/vrwebui_shared.js
+          2765      1 3ec7ab05b2ddec0f0853f69e73e2da4bd74068cf     0 drivers/lighthouse/resources/webinterface/vrwebui_shared.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 drivers/lighthouse/resources/webinterface/vrwebui_shared.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 drivers/null/bin
            136      1 22eb5482a4d344a6fe9a4ac2298639a76ce841a9     0 drivers/null/driver.vrdrivermanifest
@@ -1088,7 +1086,7 @@ Total bytes compressed : 269348240
           1617      1 b9232d7eb7ab79aa3831ff4780ebe10efa2e5869     0 drivers/oculus/resources/input/rift_profile.json
           2917      1 2287eca89c2d7e3108ce092b0b834c6f6dfe115b     0 drivers/oculus/resources/input/touch_controller_remapping.json
           4131      1 3d4dad152f7f511576d0365a9f74891711d9085a     0 drivers/oculus/resources/input/touch_profile.json
-         11287      1 7996476d503338f0535a9de280ec2d0bb11b136b     0 drivers/oculus/resources/input/vrcompositor_bindings_touch.json
+         10638      1 fe1afa3d33cc2ec05c805cdb61349a7077942760     0 drivers/oculus/resources/input/vrcompositor_bindings_touch.json
              0      0 0000000000000000000000000000000000000000    40 drivers/oculus/resources/localization
            583      1 5551251442f41e4cd109a742a23becc9d6827399     0 drivers/oculus/resources/localization/localization.json
              0      0 0000000000000000000000000000000000000000    40 drivers/oculus_legacy/bin
@@ -1216,10 +1214,10 @@ Total bytes compressed : 269348240
            608      1 b97389b6a3246237f6c3af7074343c66018aa955     0 resources/config/vrcompositor_bindings_generic_hmd.json
          16535      1 c9d08b367676c1f092e5f90a82cc56cd341999a3     0 resources/config/vrcompositor_bindings_holographic.json
          11455      1 05db120591cf98a6f4229f0f797427263d8b7e18     0 resources/config/vrcompositor_bindings_hpmotioncontroller.json
-         16327      1 be79eae09e77ee6e30aff9e89bc2060350051b68     0 resources/config/vrcompositor_bindings_knuckles.json
+         16327      1 ee13ff602a10546d9e471766ed2625ac6740cff6     0 resources/config/vrcompositor_bindings_knuckles.json
          15101      1 8342cd85d9c97ec03b0ba679be68a85ff3012683     0 resources/config/vrcompositor_bindings_knuckles_ev1.json
           1475      1 0c74a272baa1df66c202a7837f9e78c1247120e5     0 resources/config/vrcompositor_bindings_vive.json
-         14295      1 8297acf8f468294e60dcd2dde9219d98b4a3b2a6     0 resources/config/vrcompositor_bindings_vive_controller.json
+         14295      1 d41be7d9542e15c61a8f7816a38384f4865c1ef5     0 resources/config/vrcompositor_bindings_vive_controller.json
           2341      1 d527afd191c459daa37a07facd75c136fdcdc9af     0 resources/config/vrcompositor_bindings_vive_pro.json
            156      1 70ac2d42dfbbf38e661c302e2caad309d1f7609b     0 resources/darkgrey.png
              0      0 0000000000000000000000000000000000000000    40 resources/distort
@@ -1281,8 +1279,6 @@ Total bytes compressed : 269348240
          15150      1 86ca8a44413daeb2179ba712c58249c91be930b6     0 resources/icons/tracker_status_searching_alert.gif
           1361      1 96b6d50ceb48be59bf746e10230712de4a87e6ca     0 resources/icons/tracker_status_standby.png
          26003      1 f7b18896388afec59edbacd6fa5bcafb161f4f77     0 resources/icon_steamvr_desktop.png
-          7828      1 5e8ea11098a94ec97f625241bbfba73218feb98a     0 resources/icon_steamvr_desktopgame.png
-           354      1 1a8c50d0ca79c33e377802f655b42f3936a0b457     0 resources/icon_steamvr_desktopgame.svg
          18154      1 225eb2cde0417573d15df8b38b07ddb4a615da39     0 resources/ignore.png
              0      0 0000000000000000000000000000000000000000    40 resources/input
           7403      1 ccc19fcf3f31dcbac0919988b8dcee982203394a     0 resources/input/default_holographic_controller_remapping.json
@@ -1505,98 +1501,6 @@ Total bytes compressed : 269348240
          43674      1 d773c5198ebdb04eb27748513e17974355718e19     0 resources/rendermodels/oculus_quest_controller_right/thumbstick.obj
            169      1 6c3eb750379b8764a22ef97800ea310f69a1e729     0 resources/rendermodels/oculus_quest_controller_right/trigger.mtl
          34253      1 1cc22a412be8774affd7b783c96e0df12b2e24c8     0 resources/rendermodels/oculus_quest_controller_right/trigger.obj
-             0      0 0000000000000000000000000000000000000000    40 resources/rendermodels/oculus_quest_plus_controller_left
-          5305      1 22ada6214892944be05341df868a2808ff585674     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left.json
-           164      1 42f4a437cfdb322e269f0da6c6523d23066a566c     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left.mtl
-        951409      1 e4f7e573c1853134ac328b41083c6334197c916d     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left.obj
-        595520      1 438ca890bc48a193675afb085eb10e31640dfc28     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_ao.png
-           164      1 42f4a437cfdb322e269f0da6c6523d23066a566c     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_body.mtl
-        582070      1 10e8707e8eff32c3511ccd701529bfd8ce4dd95e     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_body.obj
-           164      1 42f4a437cfdb322e269f0da6c6523d23066a566c     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_button_menu.mtl
-         25055      1 1bcb1396ae04bc0fb093704af276cca5e913ba57     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_button_menu.obj
-           164      1 42f4a437cfdb322e269f0da6c6523d23066a566c     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_button_x.mtl
-         24898      1 6e3c5356cb53eaa1bca66823c6031ff04887ec3c     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_button_x.obj
-           164      1 42f4a437cfdb322e269f0da6c6523d23066a566c     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_button_y.mtl
-         24990      1 26becc7da204b46e2905b45d9110dbaa6cd8e2c8     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_button_y.obj
-       1602120      2 b68fa6f5167fcee72b41bff614a1b7fc2e6b1681     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_color.png
-           164      1 42f4a437cfdb322e269f0da6c6523d23066a566c     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_grip.mtl
-         42003      1 cedebd7e680c6ed0bb29d7fdea87601fa8dbbfc8     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_grip.obj
-          4166      1 706f2182543ca7a7d5991e0ec0d50a1c819e1594     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_metal.png
-       3280294      4 230f33ed0d566dbcd3b76ec47cce60cbe196d30b     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_normal.png
-       1570762      2 872892d1bf4b8bdf56704107dd585efd7fda4142     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_rough.png
-           164      1 42f4a437cfdb322e269f0da6c6523d23066a566c     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_thumbstick.mtl
-        168776      1 df08f73732795b31371728c717af2f5d5f9433da     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_thumbstick.obj
-           164      1 42f4a437cfdb322e269f0da6c6523d23066a566c     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_trigger.mtl
-         42182      1 52f26d318e33df37c9ca3fa18c5b8942de9a2c49     0 resources/rendermodels/oculus_quest_plus_controller_left/oculus_quest_plus_controller_left_trigger.obj
-             0      0 0000000000000000000000000000000000000000    40 resources/rendermodels/oculus_quest_plus_controller_right
-          5313      1 c3edee4116576fc0db6274d5c08f4036ed372d0c     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right.json
-           166      1 f718044af536d094f1e6bf0ed79a0dffe999f6d0     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right.mtl
-        951635      1 f24e3baba958abcfe96f3eeb0a2ed542db3ee96c     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right.obj
-        595520      1 438ca890bc48a193675afb085eb10e31640dfc28     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_ao.png
-           166      1 f718044af536d094f1e6bf0ed79a0dffe999f6d0     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_body.mtl
-        582243      1 107a3cc2454e199895319aed71dda01cca715a5f     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_body.obj
-           166      1 f718044af536d094f1e6bf0ed79a0dffe999f6d0     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_button_a.mtl
-         25069      1 3d83e7371472c4510d9195ce70d03ff81267f42b     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_button_a.obj
-           166      1 f718044af536d094f1e6bf0ed79a0dffe999f6d0     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_button_b.mtl
-         25158      1 c349fc25d8a983db8718d9c60411c82dd93893fa     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_button_b.obj
-           166      1 f718044af536d094f1e6bf0ed79a0dffe999f6d0     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_button_menu.mtl
-         24911      1 385c847ac529ba6eba540a39ecc24f799c139e41     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_button_menu.obj
-       1604924      2 0cd0570d41b196a54a8aa2c3a347b4ff8247a784     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_color.png
-           166      1 f718044af536d094f1e6bf0ed79a0dffe999f6d0     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_grip.mtl
-         42465      1 596ac238947431145b9f4e7b27ba7d96c20ba1eb     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_grip.obj
-          4166      1 706f2182543ca7a7d5991e0ec0d50a1c819e1594     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_metal.png
-       3280294      4 230f33ed0d566dbcd3b76ec47cce60cbe196d30b     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_normal.png
-       1570543      2 619fba45655ff286afca8908a65d99f2865c7a31     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_rough.png
-           166      1 f718044af536d094f1e6bf0ed79a0dffe999f6d0     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_thumbstick.mtl
-        167982      1 38b31acf86515c4523a8adc343d06cdc6b6f85a7     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_thumbstick.obj
-           166      1 f718044af536d094f1e6bf0ed79a0dffe999f6d0     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_trigger.mtl
-         42399      1 568a3ff1b97c08f7e6d6d2a2010ff72fb488fb06     0 resources/rendermodels/oculus_quest_plus_controller_right/oculus_quest_plus_controller_right_trigger.obj
-             0      0 0000000000000000000000000000000000000000    40 resources/rendermodels/oculus_quest_pro_controller_left
-          5297      1 088afedb169ef20f103a094d51166697c4bdcc50     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left.json
-           174      1 15ae2510c5933a8a1b0eb6e30bf94f1114c54aa4     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left.mtl
-       1008267      1 d0b53a129e524ea89fbf04735fdc8fb3c028e810     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left.obj
-        902218      1 85014db9019f385b591be86ff6b4163b4a0b7222     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_ao.png
-           174      1 15ae2510c5933a8a1b0eb6e30bf94f1114c54aa4     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_body.mtl
-        758365      1 bb01bda8bec65444f31b23cee1c15c2495a036de     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_body.obj
-           174      1 15ae2510c5933a8a1b0eb6e30bf94f1114c54aa4     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_button_menu.mtl
-         19622      1 a73785eba0ad9c67e4dd16ee00479ced71c87095     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_button_menu.obj
-           174      1 15ae2510c5933a8a1b0eb6e30bf94f1114c54aa4     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_button_x.mtl
-         25234      1 971d5d91699ffe992630570163eb2e7edf4f2ef9     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_button_x.obj
-           174      1 15ae2510c5933a8a1b0eb6e30bf94f1114c54aa4     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_button_y.mtl
-         24893      1 42076dd4de85fba80ce7b9fa191e54bdd3491a6b     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_button_y.obj
-       1085460      2 94b4c1d3114d523f77e69016f122302bbb976387     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_color.png
-           174      1 15ae2510c5933a8a1b0eb6e30bf94f1114c54aa4     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_grip.mtl
-         39605      1 0d9fc293d268bb3efea27e72c8534b43ad6fde3c     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_grip.obj
-          6031      1 ce27c6ff9d9f52cd8ad6d957bf7951a0cd6d4e66     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_metal.png
-       4032930      4 1ea70278a72d2cb1b8c95292e75c3da898ed0672     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_normal.png
-       1670626      2 f12e2d2a372e0a9f09c0d00dddfee11a761fdf9b     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_rough.png
-           174      1 15ae2510c5933a8a1b0eb6e30bf94f1114c54aa4     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_thumbstick.mtl
-         88219      1 e551d865b3f5a79a38addecb42b91451e67a0f13     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_thumbstick.obj
-           174      1 15ae2510c5933a8a1b0eb6e30bf94f1114c54aa4     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_trigger.mtl
-         48054      1 82ff8ace3fd53f7b2b4bec12cf71d201283571a2     0 resources/rendermodels/oculus_quest_pro_controller_left/oculus_quest_pro_controller_left_trigger.obj
-             0      0 0000000000000000000000000000000000000000    40 resources/rendermodels/oculus_quest_pro_controller_right
-          5305      1 73afa19557149e1ac35bb1bbab5f1eae2c844d42     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right.json
-           176      1 022a1db0480b4edd1a0d18032e426a289124740b     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right.mtl
-       1009417      1 f7452346ea573d78e995fb2ad3d4f81f3c2e8f5c     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right.obj
-        907268      1 1d6b61e9b3a5fc95088a2fbf95e9e6b957a5eb85     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_ao.png
-           176      1 022a1db0480b4edd1a0d18032e426a289124740b     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_body.mtl
-        759168      1 16337b8182e11fcf7b068ca1d197bb69ca248ed5     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_body.obj
-           176      1 022a1db0480b4edd1a0d18032e426a289124740b     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_button_a.mtl
-         25389      1 b83da9b0b1823df7083e486f67f88c28a6db3a29     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_button_a.obj
-           176      1 022a1db0480b4edd1a0d18032e426a289124740b     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_button_b.mtl
-         25048      1 9455b502bf8ecdfd2b8329be4e240cb119efd8ce     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_button_b.obj
-           176      1 022a1db0480b4edd1a0d18032e426a289124740b     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_button_menu.mtl
-         19482      1 e9d55d9b6584cc2f9a26c02213034c23f0e5b4af     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_button_menu.obj
-       1084138      2 f46f87daea4d7ffbcdf899f01f953b8ed38dd080     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_color.png
-           176      1 022a1db0480b4edd1a0d18032e426a289124740b     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_grip.mtl
-         40061      1 4785a31b29045748e3fe0e23f857c01c6664c9bd     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_grip.obj
-          6031      1 ce27c6ff9d9f52cd8ad6d957bf7951a0cd6d4e66     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_metal.png
-       4032145      4 1c0027e4fc4ebb3aee9e46b5d4dfd297f56daaa5     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_normal.png
-       1670655      2 fbf376eba11ef66c7480ea1802297122088960cf     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_rough.png
-           176      1 022a1db0480b4edd1a0d18032e426a289124740b     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_thumbstick.mtl
-         87863      1 a62a5dfe917fbc6c1ab4b5f7a638b6e02367b4a4     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_thumbstick.obj
-           176      1 022a1db0480b4edd1a0d18032e426a289124740b     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_trigger.mtl
-         48306      1 f9ad58132ae4cc5a9e712bcb0dbe61f5b5157c25     0 resources/rendermodels/oculus_quest_pro_controller_right/oculus_quest_pro_controller_right_trigger.obj
              0      0 0000000000000000000000000000000000000000    40 resources/rendermodels/oculus_rifts_controller_left
            164      1 c42e5a45732e80977e918d408820064333e1f7e2     0 resources/rendermodels/oculus_rifts_controller_left/body.mtl
         426317      1 fef17a0b2b948f1fbc8e7090061a00f69b1791d8     0 resources/rendermodels/oculus_rifts_controller_left/body.obj
@@ -1756,10 +1660,10 @@ Total bytes compressed : 269348240
         762744      1 5a1251449ec0efcdc31ee0a78905b36ed963fc97     0 resources/rendermodels/vr_glove/vr_glove_right_model_slim.glb
            118      1 d3407ee179c1133e8701f9d59d95bcfb069afb36     0 resources/safe_mode_driver_whitelist.json
              0      0 0000000000000000000000000000000000000000    40 resources/settings
-          8608      1 ccc02ad0eabdae13b1fc0fd2f24f094b970a14ac     0 resources/settings/default.vrsettings
-           152      1 98362289962150995fb50d5cb7b34afc72585bc1     0 resources/settings/default_main.vrsettings
+          7699      1 b16ca49fa5020f4cd15bdc587605234e59dc90e3     0 resources/settings/default.vrsettings
+           117      1 db463b5bb30a9940d94dca8e3517c43ce2f874d7     0 resources/settings/default_main.vrsettings
             86      1 5ff9ce16fa428129585d01c2de4ff47c5c9206c3     0 resources/settings/driver_defaults.vrsettings
-         13102      1 3120a7acdaf11e2790748495e1881098d893c7cf     0 resources/settingsschema.vrsettings
+         12396      1 50b4e05e6e50816871845b10193546233bf5dfe4     0 resources/settingsschema.vrsettings
              0      0 0000000000000000000000000000000000000000    40 resources/shaders
              0      0 0000000000000000000000000000000000000000    40 resources/shaders/d3d11
          14876      1 16c773cec0e8cd25aff8a8a49ff35c940b6dfd68     0 resources/shaders/d3d11/distort_cs.fxo
@@ -1787,14 +1691,14 @@ Total bytes compressed : 269348240
           3520      1 cd3f5996622aa7f2968f4f1b688cfcc0104975a0     0 resources/shaders/d3d11/distort_geom_drawregion_reflect_ps.fxo
           6396      1 51ffe13e70a09fed24c9f83fa4f0ddedd1c2cf04     0 resources/shaders/d3d11/distort_geom_drawregion_uvs_embedded_vs.fxo
           3232      1 c030841d1e954cf751ae4a72b566fb814d4e467b     0 resources/shaders/d3d11/distort_geom_drawregion_vs.fxo
-          2916      1 06df18884de447e9e21109e4231b1c2b367178b3     0 resources/shaders/d3d11/distort_geom_floor_ps.fxo
-          3624      1 f1478d2424abe2a7418563762b9a275d52337f46     0 resources/shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
-          3152      1 ec469339ab2ca972ec4c5610de2286f9e9f5d609     0 resources/shaders/d3d11/distort_geom_floor_reflect_ps.fxo
+          2948      1 ffd7e86599e2c25f129ea3f3d66c39556863b39e     0 resources/shaders/d3d11/distort_geom_floor_ps.fxo
+          3656      1 8952e12b056abb6b5c4133c8328d24da048a317f     0 resources/shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
+          3184      1 566cf498da5a340fb3eeffc37443f096f8acb754     0 resources/shaders/d3d11/distort_geom_floor_reflect_ps.fxo
           4792      1 44c0a26469678ef7acfa7e6fd40576c821dbc614     0 resources/shaders/d3d11/distort_geom_floor_vs.fxo
           3012      1 8bcb501f7ea4d7140d0e44787dfad99ca2f8b2de     0 resources/shaders/d3d11/distort_geom_fresnel_ps.fxo
           3728      1 06edef2d184a8471feaccce232b16c5cb5b5ee46     0 resources/shaders/d3d11/distort_geom_fresnel_vs.fxo
-          4728      1 7c5f6cc8ccf58d546eb8591bea23766d9170d596     0 resources/shaders/d3d11/distort_geom_grid_ps.fxo
-          3160      1 a20230eab4d829aafd1841bf02295a35635c89d2     0 resources/shaders/d3d11/distort_geom_grid_vs.fxo
+          4728      1 f2061842b6f384500bc292c417f682afe67ddfd1     0 resources/shaders/d3d11/distort_geom_grid_ps.fxo
+          3204      1 cd53edbefbad050d49cf12cf74a39f2d31532d91     0 resources/shaders/d3d11/distort_geom_grid_vs.fxo
           3908      1 d97862887e1d566d63d2c21f95cce7076f8e2ca8     0 resources/shaders/d3d11/distort_geom_hard_bounds_aa_lines_ps.fxo
           3260      1 2d10a98fbccbbb3404bdf68f7d857f288aacb461     0 resources/shaders/d3d11/distort_geom_hard_bounds_aa_lines_vs.fxo
           4124      1 77b3e8ef7297840f5a2a59872f81b455564b082e     0 resources/shaders/d3d11/distort_geom_hard_bounds_aa_squares_ps.fxo
@@ -1825,11 +1729,11 @@ Total bytes compressed : 269348240
           3148      1 863192a1432990b9bd6f411c598649cec95bbc69     0 resources/shaders/d3d11/distort_geom_vs.fxo
            772      1 74cbd80bf9437dd3f40f789b4fce42b03cae635b     0 resources/shaders/d3d11/distort_geom_write_norm_ps.fxo
           4852      1 457070476e0aa7c9ac4ebf94645736558f7250a2     0 resources/shaders/d3d11/distort_geom_write_norm_vs.fxo
-          3140      1 17df1719d81bebd1a7b697935abbcaf8463144d0     0 resources/shaders/d3d11/distort_grid_ds.fxo
+          3184      1 91d807204ae779f2b2023e910bdf1724b5f134a5     0 resources/shaders/d3d11/distort_grid_ds.fxo
           3264      1 162a8e124e95cc7b1d0a6f54f94f3fe97b54f1bd     0 resources/shaders/d3d11/distort_grid_gs.fxo
           1404      1 5cd7fa8431cb09b4eb642671df2666f46c0a4d44     0 resources/shaders/d3d11/distort_grid_hs.fxo
           1356      1 2e1470402ea3bb22cb64e3d5223d9e42ce856962     0 resources/shaders/d3d11/distort_hs.fxo
-          3092      1 adcc232389dbf9a616b7b19ca14a4d9265f6448c     0 resources/shaders/d3d11/distort_line_grid_gs.fxo
+          3136      1 829fdb3281e48242ff0e95187cef98083dd321ee     0 resources/shaders/d3d11/distort_line_grid_gs.fxo
           3008      1 2d578a71278fcd45add501dbc52e7bba2862cb51     0 resources/shaders/d3d11/distort_line_gs.fxo
           3216      1 e5031ed08237b08f920931648245a9acfaaf8bbe     0 resources/shaders/d3d11/distort_line_ptnorm_gs.fxo
           1304      1 3d5b6ed1c20261ae05fead358f38cbb125f1f519     0 resources/shaders/d3d11/distort_none_ps.fxo
@@ -1840,7 +1744,7 @@ Total bytes compressed : 269348240
           7736      1 024eeecd295ca9ab664484d0c053782e1fee795d     0 resources/shaders/d3d11/distort_panorama_dome_radius_ps.fxo
           4852      1 eb51e3a79da36395db330da09e8e3aa3f6cd480e     0 resources/shaders/d3d11/distort_panorama_ps.fxo
            616      1 0649027e4bbb27ae73193d941ce7c29f90affff2     0 resources/shaders/d3d11/distort_panorama_vs.fxo
-          2824      1 31d60ef493ec6c283dc80c8b02dc694ca410dda8     0 resources/shaders/d3d11/distort_point_grid_gs.fxo
+          2868      1 61cedf0a5822673c9fabf7d0e7dad34a99d81b12     0 resources/shaders/d3d11/distort_point_grid_gs.fxo
           2764      1 d5847881a5f46d8a0ecc915db23af6d14070620c     0 resources/shaders/d3d11/distort_point_gs.fxo
           2948      1 0a818720d7c87ce472572e52a347abcfa8df4f67     0 resources/shaders/d3d11/distort_point_ptnorm_gs.fxo
           4488      1 4df8a49449d1eb03536270fc301bd446de2528b3     0 resources/shaders/d3d11/distort_ps.fxo
@@ -1867,7 +1771,7 @@ Total bytes compressed : 269348240
           3344      1 59b8184a922b14bd6052b82f9747ded3d809b6c2     0 resources/shaders/d3d11/distort_ptnorm_gs.fxo
           1452      1 a1714a9eea203fcf35dfbc2579c0418925b458f4     0 resources/shaders/d3d11/distort_ptnorm_hs.fxo
           3824      1 50b2ba1ca9ac1ca58356f47ba28ec85f4e1c545d     0 resources/shaders/d3d11/distort_tri_floor_gs.fxo
-          3360      1 5db389763fedae6af0697ea78dd61d4eab3b2ebe     0 resources/shaders/d3d11/distort_tri_grid_gs.fxo
+          3404      1 3a3786c81fed58b2fb938d05742b2bced979978d     0 resources/shaders/d3d11/distort_tri_grid_gs.fxo
           3252      1 27785ec9dc006272c5141e237cb2b346714f421e     0 resources/shaders/d3d11/distort_tri_gs.fxo
           3484      1 13ab926469473f33376fc2e6932716aeb9f952d1     0 resources/shaders/d3d11/distort_tri_ptnorm_gs.fxo
           3948      1 cc93402fda6d419fcbd4c6880116b27dc0d1b378     0 resources/shaders/d3d11/distort_tri_tan_gs.fxo
@@ -1943,8 +1847,8 @@ Total bytes compressed : 269348240
            832      1 03d8ba7aa3b5b4d4cb68b3f0935d5388aaf8d9dd     0 resources/shaders/d3d11/unlit_sint16_ps.fxo
            648      1 bd4d2ccf45aace8208ad06e55258975037dcae66     0 resources/shaders/d3d11/unlit_vs.fxo
              0      0 0000000000000000000000000000000000000000    40 resources/shaders/vulkan
-         15860      1 788249bbf235b719d56ee28f2758de96de098f18     0 resources/shaders/vulkan/distort_cs.spv
-         18384      1 636f4f814d7d33abe4600886a2f7797d2aa4f19d     0 resources/shaders/vulkan/distort_cs_mc.spv
+         15860      1 bdb1ab3b8b5e485ace1a5088d06a1de8837133c1     0 resources/shaders/vulkan/distort_cs.spv
+         18384      1 7948174200d07670dc4bcc483fd292699aa221d6     0 resources/shaders/vulkan/distort_cs_mc.spv
           3008      1 c929aa0ccfa6b724cfd7a90353976665c5dfd6d3     0 resources/shaders/vulkan/distort_ds.spv
           2072      1 7cf0c755079496993a8f3779bd3cacdac10f2b33     0 resources/shaders/vulkan/distort_geom_aa_circles_ps.spv
           2556      1 8c9d4d30dd9708d11390926b3be58dcf8897edd3     0 resources/shaders/vulkan/distort_geom_aa_circles_vs.spv
@@ -1968,14 +1872,14 @@ Total bytes compressed : 269348240
           4176      1 d779a2836853ef972bc2b4c76074df35a527aeff     0 resources/shaders/vulkan/distort_geom_drawregion_reflect_ps.spv
           8744      1 8e472967a8fba2c8e0b44f39e9924fcaf664a3d4     0 resources/shaders/vulkan/distort_geom_drawregion_uvs_embedded_vs.spv
           2724      1 30500a4712feb57928e4d9a7bfdee6fd31837fa7     0 resources/shaders/vulkan/distort_geom_drawregion_vs.spv
-          3196      1 11e7d91bb04dd4287b5f6d1d85a29779e2346b18     0 resources/shaders/vulkan/distort_geom_floor_ps.spv
-          4176      1 936293b4ed15c682e745c5edc39da538049894f1     0 resources/shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
-          3740      1 ba90daeeb96b372de31197ed05334cacf04ed8b8     0 resources/shaders/vulkan/distort_geom_floor_reflect_ps.spv
+          3300      1 7ca03e27783c256f19af3c0cb81d7604a215d4a1     0 resources/shaders/vulkan/distort_geom_floor_ps.spv
+          4264      1 719d853846be80a6d624ffaaccae7b61897ae234     0 resources/shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
+          3828      1 20115f22245db584db4799a3e4a0678f2538b0b0     0 resources/shaders/vulkan/distort_geom_floor_reflect_ps.spv
           3268      1 86eb5fbe3904b356e546926ea839d4ce22f08358     0 resources/shaders/vulkan/distort_geom_floor_vs.spv
           3360      1 ca23616f72b078c8625443fd0eff4409301667b4     0 resources/shaders/vulkan/distort_geom_fresnel_ps.spv
           3196      1 4296f16a3a408d441fdedabe2201903592fd439c     0 resources/shaders/vulkan/distort_geom_fresnel_vs.spv
-          3888      1 f53c55816d4051fe0a095d3d49ea3d7c4e6a9b25     0 resources/shaders/vulkan/distort_geom_grid_ps.spv
-          2628      1 8ceecc67b25eb93de7f8d028b248a236338fa81e     0 resources/shaders/vulkan/distort_geom_grid_vs.spv
+          3824      1 112ce1d2217721c9c8001fc3c2de3107bd024cda     0 resources/shaders/vulkan/distort_geom_grid_ps.spv
+          2652      1 51239ba71aee48d53e1dfe0995338eb2833cab42     0 resources/shaders/vulkan/distort_geom_grid_vs.spv
           3592      1 6e1d02221385477c12c8bf0be88cba6cca95ed77     0 resources/shaders/vulkan/distort_geom_hard_bounds_aa_lines_ps.spv
           2732      1 f0aa1f4c43bcc8aabdbedb7189ba60f59af026ce     0 resources/shaders/vulkan/distort_geom_hard_bounds_aa_lines_vs.spv
           4096      1 4acba47a5b7bd5a26d5e1ef6cb711cbffcf9c767     0 resources/shaders/vulkan/distort_geom_hard_bounds_aa_squares_ps.spv
@@ -2006,11 +1910,11 @@ Total bytes compressed : 269348240
           2556      1 09a6e00f819b5845f51c5d110819f3f478a947ce     0 resources/shaders/vulkan/distort_geom_vs.spv
           1036      1 ebf4e5588bb2253db5804e84af0963d827a276cf     0 resources/shaders/vulkan/distort_geom_write_norm_ps.spv
           3316      1 bdf8b4ce0429c8ab5c4dc267526b7f36094ced77     0 resources/shaders/vulkan/distort_geom_write_norm_vs.spv
-          3384      1 76e6bbdc4826cd01d9f164bd7ba1609bcaf9123a     0 resources/shaders/vulkan/distort_grid_ds.spv
+          3408      1 196c391d30102425594659ed645a3f2bc0dc903d     0 resources/shaders/vulkan/distort_grid_ds.spv
           3596      1 47df7f21f53be262439bad374f146ae9ec9889be     0 resources/shaders/vulkan/distort_grid_gs.spv
           2684      1 dd6048918e191cc863a4f2456e80f18942fed76a     0 resources/shaders/vulkan/distort_grid_hs.spv
           2324      1 15ea887746dbe8c9333ceb1fe3390c54a33f27f4     0 resources/shaders/vulkan/distort_hs.spv
-          3076      1 3a74a204e349ad4061e6d2cbac5ac7a85d0c9162     0 resources/shaders/vulkan/distort_line_grid_gs.spv
+          3100      1 42c358174fe95f727ece6381265efaf5ca001d52     0 resources/shaders/vulkan/distort_line_grid_gs.spv
           2852      1 a48fe3432104aca377ea2432a822469209982885     0 resources/shaders/vulkan/distort_line_gs.spv
           3268      1 27161181631a873385bff1d3bf7678a0a79ee457     0 resources/shaders/vulkan/distort_line_ptnorm_gs.spv
           2064      1 165a3c509beed3fbfdc72c3ccfd76d32870a8be7     0 resources/shaders/vulkan/distort_none_ps.spv
@@ -2021,7 +1925,7 @@ Total bytes compressed : 269348240
           5788      1 c067f421618cd59ea63da6d80a5f934a50b4ae2d     0 resources/shaders/vulkan/distort_panorama_dome_radius_ps.spv
           3732      1 1c532727cd4cdb92edabf4a16eda70f97ba9becc     0 resources/shaders/vulkan/distort_panorama_ps.spv
            452      1 f6eec5cc056633685284cad9b2235e247ed7f7c6     0 resources/shaders/vulkan/distort_panorama_vs.spv
-          2476      1 37af7db184075906b7c8e786c0ae7dda5d8f824c     0 resources/shaders/vulkan/distort_point_grid_gs.spv
+          2500      1 cbd29861a39e1107116d9ddc9951d2f486680d5d     0 resources/shaders/vulkan/distort_point_grid_gs.spv
           2300      1 94ca7741304edf703c1b184a4e17b82c1edf8c82     0 resources/shaders/vulkan/distort_point_gs.spv
           2620      1 29286a3d8766048607ee0aeacfa32b9acfb4df33     0 resources/shaders/vulkan/distort_point_ptnorm_gs.spv
           5884      1 850906193a838e2c78e24d592f1506068ff5b515     0 resources/shaders/vulkan/distort_ps.spv
@@ -2049,7 +1953,7 @@ Total bytes compressed : 269348240
           3812      1 ebb43416c35c6bf40f93bcd2d877e76af475de6b     0 resources/shaders/vulkan/distort_ptnorm_gs.spv
           2948      1 2b47e1d9c0351218fffb6130f097f8509e8b4b4d     0 resources/shaders/vulkan/distort_ptnorm_hs.spv
           4536      1 667a8d6c9d5973b6f217c498eb39c22a0fe33b1b     0 resources/shaders/vulkan/distort_tri_floor_gs.spv
-          3672      1 6dfb4bb78c4e98f16cf379dbe97947262c0bcf9a     0 resources/shaders/vulkan/distort_tri_grid_gs.spv
+          3696      1 107f0f710e28f08c138f1e1213093833c6234fdd     0 resources/shaders/vulkan/distort_tri_grid_gs.spv
           3400      1 a85245e9c11befc63f7d80af43fe56430ae0288d     0 resources/shaders/vulkan/distort_tri_gs.spv
           3912      1 8bff2caa9c68e5ff792274c64d37edc6d0d61d4c     0 resources/shaders/vulkan/distort_tri_ptnorm_gs.spv
           4208      1 ee3b3109c6406cc06d582fe3bb728d1c87535d3a     0 resources/shaders/vulkan/distort_tri_tan_gs.spv
@@ -2072,9 +1976,9 @@ Total bytes compressed : 269348240
           4628      1 d957a500b656a7a03b637030a1334dcfc10f2929     0 resources/shaders/vulkan/frame_hallucination_vs.spv
          12400      1 cb03fb2282ef49badbf6d88383d59a69b23983f9     0 resources/shaders/vulkan/gpu_measurement_ps.spv
           5040      1 58c85f3e3753ea7ceb331cf958ac8df67130a2cf     0 resources/shaders/vulkan/gpu_measurement_vs.spv
-         11976      1 0c284c4667315c4817406c36da2075d43fd3ee22     0 resources/shaders/vulkan/linepixelsim2_cs.spv
-          7268      1 79edd821b494f0922cb346a6eab40c61add063df     0 resources/shaders/vulkan/linepixelsim_cs.spv
-          1112      1 c93269997e6c8acb1d82d7a8ac78d631d7ae69e1     0 resources/shaders/vulkan/motionvector_cost_cs.spv
+         11976      1 9a6b165885f6942c311b740bd49bdcccd184ab2a     0 resources/shaders/vulkan/linepixelsim2_cs.spv
+          7268      1 c74a5487849b2d06b3941b710d1035617e4bac04     0 resources/shaders/vulkan/linepixelsim_cs.spv
+          1112      1 fecb571d7bdefa5664f380baca2ebcff09a649b0     0 resources/shaders/vulkan/motionvector_cost_cs.spv
           4228      1 2c56c77549b7e4630ea800ee5fc2b156df2d7440     0 resources/shaders/vulkan/motion_attenuation_ps.spv
            568      1 23cb0fd2aedfa86ee46c1d49ef761b2bb96315ff     0 resources/shaders/vulkan/motion_attenuation_vs.spv
           5652      1 54fb3d3cd9637abf4cde735f6ef545aa23fee123     0 resources/shaders/vulkan/motion_filter_attenuation_ps.spv
@@ -2093,8 +1997,8 @@ Total bytes compressed : 269348240
           1156      1 ffd6db3d78203bf520c4465b42c51952359e2dd7     0 resources/shaders/vulkan/overlay_viewer_vs.spv
            544      1 b6a04656d152330c1b7094f929dc8b0cfdf2c35b     0 resources/shaders/vulkan/panel_mask_ps.spv
           1840      1 c5adfb7100d527bd8ac867e4958414e56c64d81d     0 resources/shaders/vulkan/panel_mask_vs.spv
-           968      1 57a7cd5e2bf450bfcee2144159dd309cde910308     0 resources/shaders/vulkan/testgrid2_cs.spv
-          2432      1 3f5925c09ee649386f29a58b2755e8ff8c1792b0     0 resources/shaders/vulkan/testgrid_cs.spv
+           968      1 76d85159a4cfcebeada0c3305586bb83bc1330d1     0 resources/shaders/vulkan/testgrid2_cs.spv
+          2432      1 06bbb99ae00840fb1bd97c4dc09d9ff7f6b1a5a2     0 resources/shaders/vulkan/testgrid_cs.spv
           2616      1 c0c4b43e38c36916ff79268fba70245b70487fe0     0 resources/shaders/vulkan/tracked_camera_edgefilter_ps.spv
            532      1 048bfc9fb97260d00773094d2a346d6bcfd1afd9     0 resources/shaders/vulkan/tracked_camera_edgefilter_vs.spv
           1968      1 4ecd855b972f55512808a973e85d0be5985c53cb     0 resources/shaders/vulkan/tracked_camera_lines_ps.spv
@@ -2140,15 +2044,15 @@ Total bytes compressed : 269348240
            985      1 e40938f3cce2387e1b2d9b22056e66574f508731     0 resources/webinterface/console/console_colors.js
           2021      1 bd3b80338a12c2e5f06e6ec8d22f157cbde8060b     0 resources/webinterface/console/index.html
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard
-          1752      1 5fc100f91882d2c4dbea9557712c92c7106f3142     0 resources/webinterface/dashboard/bindingcallouts.html
-        234368      1 a48392ed8ab69fbd796a67c65dca2259e15d2db5     0 resources/webinterface/dashboard/bindingcallouts.js
+          1752      1 9960d639febd49021b1131473f413c963653099f     0 resources/webinterface/dashboard/bindingcallouts.html
+        219149      1 69953c00a1e7cdf981f24e90c7b92a4b95bc6713     0 resources/webinterface/dashboard/bindingcallouts.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/bindingcallouts.js.LICENSE.txt
-          1782      1 110363a342889b2dcce31d316d7a85c6fe289f09     0 resources/webinterface/dashboard/controllerbinding.html
+          1782      1 937153321e0dc0421105091ea14d68b97b8466a9     0 resources/webinterface/dashboard/controllerbinding.html
           5226      1 bfa89383b4e7f29cdd1baed9fc5ec4660f17c3c8     0 resources/webinterface/dashboard/controllerbinding.js
-        402392      1 17e94bcd52987fbb491cd4df16cc9a3e7488b079     0 resources/webinterface/dashboard/controllerbindingui.js
+        386078      1 278c8f650944c78450ac63133a58353a8494a969     0 resources/webinterface/dashboard/controllerbindingui.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/controllerbindingui.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/css
-         25853      1 e7db6356f6c802412796ef15368c455d42cdf3e3     0 resources/webinterface/dashboard/css/base.css
+         22917      1 f821b78b2fa60d55209fdf77a0e1b4d661c7c143     0 resources/webinterface/dashboard/css/base.css
           3071      1 bc9a2556a0d38583ae4cf0ab2a96488156b2c804     0 resources/webinterface/dashboard/css/bindinglist.css
          37738      1 f8a9e1f2c3e5cdbd409be698d3b8bc9eea38821d     0 resources/webinterface/dashboard/css/controllerbinding.css
          10059      1 61f3cf51a7c275c58fafc8a08291d0067fa2771c     0 resources/webinterface/dashboard/css/debugcommands.css
@@ -2159,16 +2063,16 @@ Total bytes compressed : 269348240
           4750      1 cd04f56990ee7405342d4bdf98a9aa7620cf0caa     0 resources/webinterface/dashboard/css/quicklaunch.css
              0      0 0000000000000000000000000000000000000000     0 resources/webinterface/dashboard/css/quickstart.css
           9422      1 a3e1cde858df3bba564fcc1a2071703df74e777b     0 resources/webinterface/dashboard/css/systemreportviewer.css
-         61316      1 41e33394036a368c352190480489032b3bd158da     0 resources/webinterface/dashboard/css/systemui.css
+         61106      1 bbebdc42bec447cb00431be479093da8bc529013     0 resources/webinterface/dashboard/css/systemui.css
           2364      1 569353a1c2996848f91ab166c699f21fb033aa59     0 resources/webinterface/dashboard/css/vrkeyboard.css
           6377      1 e6af1c03c5c6f1738433278713c90ac55b40d0ef     0 resources/webinterface/dashboard/css/vrmonitor.css
-         49554      1 7df418a236063d041d9399474af976c25d86a3b9     0 resources/webinterface/dashboard/css/vrsettings.css
+         48726      1 aedd7c5a9c6a4fb76e1338b854c00c43ea67c5ca     0 resources/webinterface/dashboard/css/vrsettings.css
            752      1 56e02bdbb44405fe8e4cdb4c0d2d4197b93ec5ec     0 resources/webinterface/dashboard/css/vrwebui_shared.css
-          1628      1 7fa2bcc34cc351578852d19e455ddc47559a179f     0 resources/webinterface/dashboard/debugcommands.html
-        226861      1 f9890ecd23a880ea829ecdd0389eebe5d1a6a061     0 resources/webinterface/dashboard/debugcommands.js
+          1628      1 8d310470bdd0a5d8d814a586f25c341d213549ac     0 resources/webinterface/dashboard/debugcommands.html
+        211128      1 6b3d0eb401e9825fccf4e75e4a7c1e4ac209a655     0 resources/webinterface/dashboard/debugcommands.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/debugcommands.js.LICENSE.txt
-          2685      1 ff8cc6df47b9e2e549342f21d6619f53e643d936     0 resources/webinterface/dashboard/fallback.html
-         61231      1 3f6159f491da120bac8c16e49acc9f19f548710e     0 resources/webinterface/dashboard/fallback.js
+          2685      1 a8a11b753dd86739b9c3e20ad71e7a8b0e911281     0 resources/webinterface/dashboard/fallback.html
+         61325      1 141b8f24d301e53e75594fda62b673e78c3dfc84     0 resources/webinterface/dashboard/fallback.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/fallback.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/images
         161535      1 be0971632f9eeb21c69f21bca2e07b94e7689489     0 resources/webinterface/dashboard/images/appimage_default.png
@@ -2280,8 +2184,6 @@ Total bytes compressed : 269348240
           3415      1 6271f1c54548a7582780872f9a27da383466564d     0 resources/webinterface/dashboard/images/icons/icon_globe.png
           1530      1 2f4dac1ae0ee92b6db996bd3929d921f38c0ffcd     0 resources/webinterface/dashboard/images/icons/icon_home.png
           2410      1 183140fdcbb7356663bc6c5b13f4af12e6fae983     0 resources/webinterface/dashboard/images/icons/icon_move.png
-           724      1 f0e5057f4dd92fc51c284a5559fe5c080f0a4397     0 resources/webinterface/dashboard/images/icons/icon_multitasking_view.png
-           619      1 64e81c665d1c92050fd3d04efaa9a216cc9a40b6     0 resources/webinterface/dashboard/images/icons/icon_multitasking_view.svg
           4138      1 cb6fb504a99ecbabb4a7b169678ae544494747bd     0 resources/webinterface/dashboard/images/icons/icon_power.png
           1663      1 f69180d0b1877df5ecd2f5912a777f7099206524     0 resources/webinterface/dashboard/images/icons/icon_quit.png
           4019      1 c8d55960c5cd7d3fd75eff0e10e68f9018a318b6     0 resources/webinterface/dashboard/images/icons/icon_return.png
@@ -2389,8 +2291,8 @@ Total bytes compressed : 269348240
            296      1 0563127707cce8b0f9db0e6fd9f00ddb37b4a876     0 resources/webinterface/dashboard/index.html
           1391      1 8cc630938b4ab4d8464e0c74a00942c2efe5416b     0 resources/webinterface/dashboard/ipd.html
          16220      1 3d9030f41d4556d1458a77e51069e77d93f59183     0 resources/webinterface/dashboard/ipd.js
-          1807      1 6fd0d13959e0865c16ada0e37a48c82cc568829d     0 resources/webinterface/dashboard/keyboard.html
-        228327      1 a80f9ae0d738b174cf862566e80afea426d53a2e     0 resources/webinterface/dashboard/keyboard.js
+          1807      1 53bb9caa5c808d650462a8393042b5ebc18e2074     0 resources/webinterface/dashboard/keyboard.html
+        212816      1 845ac191f90aa3d06ff54d282d4ec668f06ab3f6     0 resources/webinterface/dashboard/keyboard.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/keyboard.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/keyboards
           3481      1 53406bba10a649542c44da02b3e69e2c4cb3541f     0 resources/webinterface/dashboard/keyboards/layout_base_overlay.json
@@ -2412,7 +2314,7 @@ Total bytes compressed : 269348240
           7063      1 b56921655ae9014c0aad496cffc8f2a9b211f94c     0 resources/webinterface/dashboard/keyboards/layout_swedish_overlay.json
           7065      1 24ed81cb282a08a0c670f4762d9d5cc67f0b3412     0 resources/webinterface/dashboard/keyboards/layout_turkish_overlay.json
           7123      1 af317dd439c8c7bff954a1de199a988fbd588541     0 resources/webinterface/dashboard/keyboards/layout_ukranian_overlay.json
-        545364      1 75c8c358372aee4cb64e2024e0bb1021a8651e99     0 resources/webinterface/dashboard/libraries.js
+        292991      1 67ebfb30d053fc20f177dbb603746e775ed2a5a1     0 resources/webinterface/dashboard/libraries.js
           3535      1 cd6d70c5d2b97000416fec8417e070a2baa5d7a1     0 resources/webinterface/dashboard/libraries.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/localization
          40959      1 f56cf231e209e096f98161bc64e2c21d8a233f4a     0 resources/webinterface/dashboard/localization/bindingui_brazilian.json
@@ -2420,7 +2322,7 @@ Total bytes compressed : 269348240
          42842      1 71912e41299ac3a1635231132aa1cf353d361e8e     0 resources/webinterface/dashboard/localization/bindingui_czech.json
          40006      1 2b09e5cfe32629b204c22b8782cfb835a1421305     0 resources/webinterface/dashboard/localization/bindingui_danish.json
          41144      1 0dc77702ea5355660d2d34681fae11606038cd24     0 resources/webinterface/dashboard/localization/bindingui_dutch.json
-         38777      1 b92f828c5ef17f06febd5ccc6af02a3185b1e070     0 resources/webinterface/dashboard/localization/bindingui_english.json
+         38247      1 3f123d34558b8acc74acbeeac8a97d5e4cea7932     0 resources/webinterface/dashboard/localization/bindingui_english.json
          40410      1 c60a6caef1a2d4eebe7919c98ce0807d7b8a2654     0 resources/webinterface/dashboard/localization/bindingui_finnish.json
          43225      1 4fda6cba09916154ff64e195b69648cd555fd310     0 resources/webinterface/dashboard/localization/bindingui_french.json
          43034      1 0b7e47545ae22d1db57af09c5393d809960a0ff5     0 resources/webinterface/dashboard/localization/bindingui_german.json
@@ -2433,7 +2335,7 @@ Total bytes compressed : 269348240
          39055      1 014803197dfb341ba8ace4e0d70c21ddada248bb     0 resources/webinterface/dashboard/localization/bindingui_norwegian.json
          42093      1 628d4f3dc98b568164fc38eb76b0e4bef4baacf4     0 resources/webinterface/dashboard/localization/bindingui_polish.json
          41275      1 fd5256ec5a57e7cdf90a52e46799fdbb59f71752     0 resources/webinterface/dashboard/localization/bindingui_portuguese.json
-         42753      1 6eb0fdeeee51508b52cdf3b5ffad5dd76058e025     0 resources/webinterface/dashboard/localization/bindingui_romanian.json
+         42757      1 0b83431c9c072ee6a611a223f80c3d391724491b     0 resources/webinterface/dashboard/localization/bindingui_romanian.json
          55821      1 5970fa0d9bcbc8ca8c2c3e41d3ff6ac006a523d8     0 resources/webinterface/dashboard/localization/bindingui_russian.json
          36340      1 11eb1ba6303857d797060a9a965153935e31b496     0 resources/webinterface/dashboard/localization/bindingui_schinese.json
          42398      1 12d29296f6433e96b0b00814e59d24d770815d31     0 resources/webinterface/dashboard/localization/bindingui_spanish.json
@@ -2448,28 +2350,28 @@ Total bytes compressed : 269348240
           3266      1 4b93b01f6ef6b4b06b7c2bf8c3e9e7356920ac3a     0 resources/webinterface/dashboard/localization/dashboard_czech.json
           3141      1 98b478b28602edfa074435c5be1281d387acacf0     0 resources/webinterface/dashboard/localization/dashboard_danish.json
           3265      1 ee0a1ed5cf0e2ee5ab01dcaeca9fb50a3bee466c     0 resources/webinterface/dashboard/localization/dashboard_dutch.json
-          2981      1 a6a2bb4d333154bdd5cf998b6d73314a7bd9eecf     0 resources/webinterface/dashboard/localization/dashboard_english.json
+          2937      1 befdfcd6a5a2843e4dd4d414c3826259f35bf9e5     0 resources/webinterface/dashboard/localization/dashboard_english.json
           3292      1 36146754a610efc537273cee569c1f8ab47ef7a9     0 resources/webinterface/dashboard/localization/dashboard_finnish.json
           3384      1 57440cb06309ed7dfa71cae195f57375e47f4327     0 resources/webinterface/dashboard/localization/dashboard_french.json
           3328      1 f1c5ab0548e12f9a2b2b69557114286e89c8c06b     0 resources/webinterface/dashboard/localization/dashboard_german.json
-          4605      1 2e520ab31f02ce4968962a0ccc720dba6413b47c     0 resources/webinterface/dashboard/localization/dashboard_greek.json
+          4605      1 d7fc1e80af56772279e928b4e397647ee98bc02b     0 resources/webinterface/dashboard/localization/dashboard_greek.json
           3465      1 915a15ad37c8606ce7ab0d94cdd4482d582fdc12     0 resources/webinterface/dashboard/localization/dashboard_hungarian.json
           3229      1 6f9ef2f1c232aee5408cc652f63a16e4e58bb64c     0 resources/webinterface/dashboard/localization/dashboard_italian.json
-          3800      1 0c93def7108ecbd75c30a1bb4bdaf284dc7feadd     0 resources/webinterface/dashboard/localization/dashboard_japanese.json
+          3791      1 7ad8d334f740a12bd2a0c9b9be47a06810e1ab80     0 resources/webinterface/dashboard/localization/dashboard_japanese.json
           3401      1 f421679144beaf452bffb5ca7dc6701fe594036e     0 resources/webinterface/dashboard/localization/dashboard_korean.json
          15477      1 6adf3dba852a540e9bea9fdd8501eb31621825c7     0 resources/webinterface/dashboard/localization/dashboard_koreana.json
           3356      1 bf672bf1805326f76b5a2e9be73cf1dc427c7763     0 resources/webinterface/dashboard/localization/dashboard_latam.json
           3118      1 802578eceece6f03f3a42f5dd7561ae790996b1c     0 resources/webinterface/dashboard/localization/dashboard_norwegian.json
           5256      1 3445e18c4864c9687daaac0d32fd8d261f0403a6     0 resources/webinterface/dashboard/localization/dashboard_pirate.json
           3309      1 09db360397edac9af563a059b0283e80bbaef09e     0 resources/webinterface/dashboard/localization/dashboard_polish.json
-          3266      1 4c0a947c0851b2257ac1ec52bc6d145fc45872e7     0 resources/webinterface/dashboard/localization/dashboard_portuguese.json
+          3266      1 f34d68e95b4e8b5614bbc0fa50d1ff780410aa81     0 resources/webinterface/dashboard/localization/dashboard_portuguese.json
          14498      1 2d17369479fe75190ea2e7aa7a0e9cd84b8366a6     0 resources/webinterface/dashboard/localization/dashboard_pseudo.json
           3477      1 4f45a5e2ae479229994d5e9fa1b312bb77e5966e     0 resources/webinterface/dashboard/localization/dashboard_romanian.json
-          4518      1 a578f363e23cac1bd55d25ee93abcdd882d937eb     0 resources/webinterface/dashboard/localization/dashboard_russian.json
+          4501      1 da3e89d8129e1f180914889381ec912acc89f051     0 resources/webinterface/dashboard/localization/dashboard_russian.json
           3002      1 710db0c6c49e78b696fbe4b37f31c3db6c773511     0 resources/webinterface/dashboard/localization/dashboard_schinese.json
-          3325      1 bba37d62c2a5b01d85600997bf7805460c9d8096     0 resources/webinterface/dashboard/localization/dashboard_spanish.json
+          3342      1 7a019940017c7ea5b2fe27ec0d33b42f99224a50     0 resources/webinterface/dashboard/localization/dashboard_spanish.json
           3135      1 086a565f37fd6b16525706f5557a0980839b2398     0 resources/webinterface/dashboard/localization/dashboard_swedish.json
-          3065      1 c041a8fd195141c278e05f11d8214d18c7c62363     0 resources/webinterface/dashboard/localization/dashboard_tchinese.json
+          3059      1 32c416f5c08c4599a106b2da9cd424fb731f6ae3     0 resources/webinterface/dashboard/localization/dashboard_tchinese.json
           5191      1 da99c1b68a3fa1f2030726b26a5f80e30f95b365     0 resources/webinterface/dashboard/localization/dashboard_thai.json
           3278      1 8903fcb9ecb6e4996ffac93c677cf53ab09ecfb3     0 resources/webinterface/dashboard/localization/dashboard_turkish.json
           4489      1 548b0140a246139c17ef22d4580f350593bd1045     0 resources/webinterface/dashboard/localization/dashboard_ukrainian.json
@@ -2483,7 +2385,7 @@ Total bytes compressed : 269348240
          26575      1 da6359b078017ddcfce1d6fed54ea28e64ad4d20     0 resources/webinterface/dashboard/localization/vrmonitor_english.json
          28511      1 919409787b2d9351b5a8529f3250af166338c141     0 resources/webinterface/dashboard/localization/vrmonitor_finnish.json
          30103      1 7d0ed936ca5ce6fcc517df97e490997c73aa508f     0 resources/webinterface/dashboard/localization/vrmonitor_french.json
-         28888      1 ddf7501164403fad8f403cb8b9a69c3261aaaee7     0 resources/webinterface/dashboard/localization/vrmonitor_german.json
+         28891      1 98edcc4e7b4c6b52a3d419110506a88574419c01     0 resources/webinterface/dashboard/localization/vrmonitor_german.json
          39160      1 88ccea6eedda513829434df109aa4dbdac372d3b     0 resources/webinterface/dashboard/localization/vrmonitor_greek.json
          29500      1 9e8d39f86c4c7805266867a6a1d9cd40388fcb45     0 resources/webinterface/dashboard/localization/vrmonitor_hungarian.json
          28997      1 f3d8ac91c937ab9a9cfde8553fd9bda09a1223c7     0 resources/webinterface/dashboard/localization/vrmonitor_italian.json
@@ -2491,14 +2393,14 @@ Total bytes compressed : 269348240
          28863      1 05450f5466e04e864b31b3c66d753dbdfb365984     0 resources/webinterface/dashboard/localization/vrmonitor_korean.json
          29479      1 279226b6530a11c866118a6677e0b506d8c915a0     0 resources/webinterface/dashboard/localization/vrmonitor_latam.json
          27239      1 5cb91e7a13ba8b37c0046cd41c2bdf7440a111a0     0 resources/webinterface/dashboard/localization/vrmonitor_norwegian.json
-         28667      1 404a79897b5a92627ed27d606f2af13bf7b58c81     0 resources/webinterface/dashboard/localization/vrmonitor_polish.json
+         28669      1 a14be0614e95806b8c1fb2627f2ba30f5ac70d2f     0 resources/webinterface/dashboard/localization/vrmonitor_polish.json
          28400      1 ace9655639f92e53e1d6f3c380ea95a1a2693a8f     0 resources/webinterface/dashboard/localization/vrmonitor_portuguese.json
          29885      1 6caf4ba8ce09d9ecd7ad551d157eda329a2761cb     0 resources/webinterface/dashboard/localization/vrmonitor_romanian.json
          37874      1 bbfbdb6ac4f3a93a7baad7ea6334398f069bd992     0 resources/webinterface/dashboard/localization/vrmonitor_russian.json
          25791      1 4055837a8c241ee6797b7790aba2c21d2ed53313     0 resources/webinterface/dashboard/localization/vrmonitor_schinese.json
          29448      1 96cafe521d18d8b0f0a4ffeafd5dd3469435dcc0     0 resources/webinterface/dashboard/localization/vrmonitor_spanish.json
          27929      1 9d934721a2c7efa7c84a3fa3a907be773f05784e     0 resources/webinterface/dashboard/localization/vrmonitor_swedish.json
-         25836      1 69849c5f29edae6aec5a4ecedcfab905d761fb42     0 resources/webinterface/dashboard/localization/vrmonitor_tchinese.json
+         25836      1 db467804d4bb80c3475afef45c4b9da8228f5eb7     0 resources/webinterface/dashboard/localization/vrmonitor_tchinese.json
          46745      1 bb2cde69e8eb045675542646eb65c27220b7b938     0 resources/webinterface/dashboard/localization/vrmonitor_thai.json
          28690      1 89631841dd8d6fc42425639875d29d736977afa1     0 resources/webinterface/dashboard/localization/vrmonitor_turkish.json
          38140      1 ea9415e4ba6f27621f4d5615f910493714178908     0 resources/webinterface/dashboard/localization/vrmonitor_ukrainian.json
@@ -2509,45 +2411,45 @@ Total bytes compressed : 269348240
           2937      1 c0a4d3c574131696c763dba7051a1c56178802cf     0 resources/webinterface/dashboard/localization/webhelper_danish.json
           3002      1 5379ba668120e9aced503e0e629da2cbd573f415     0 resources/webinterface/dashboard/localization/webhelper_dutch.json
           2953      1 5b4cde9ad8d44f66f5cd5ed9660d5bbef8c1d592     0 resources/webinterface/dashboard/localization/webhelper_english.json
-          2956      1 aff0a69d786c4a5e6f5c954fb6c13315351b0d5d     0 resources/webinterface/dashboard/localization/webhelper_finnish.json
+          2853      1 dcec42865e1b6069d1ad84309859c0f1fbe4a958     0 resources/webinterface/dashboard/localization/webhelper_finnish.json
           3104      1 3f3c58ad0b3e95392e3a455b07a7dd05a429c6d6     0 resources/webinterface/dashboard/localization/webhelper_french.json
           3027      1 361ec91f4bad9c25a93c73fd378d051bb0fec42c     0 resources/webinterface/dashboard/localization/webhelper_german.json
           3785      1 fbac7cb76be25adb91182182bb49407f64cc368a     0 resources/webinterface/dashboard/localization/webhelper_greek.json
           3072      1 37ac6658b4a6a7af581a19dc8daae55e441055e4     0 resources/webinterface/dashboard/localization/webhelper_hungarian.json
           3083      1 916057b3be1b4c2e4cb01ce310edd26238736d1a     0 resources/webinterface/dashboard/localization/webhelper_italian.json
           3260      1 96f47612c796852c2936215c53e60fcb6b672271     0 resources/webinterface/dashboard/localization/webhelper_japanese.json
-          2974      1 2c971b99d83dd86d4d0a545a747f2c9ee612f2c9     0 resources/webinterface/dashboard/localization/webhelper_korean.json
+          2869      1 84e950eb4b2729792d482a5c8404c11d4ea4f1d8     0 resources/webinterface/dashboard/localization/webhelper_korean.json
           3070      1 2a3c78bf8bfb1bd8cbb53c82232c002b0908ce3e     0 resources/webinterface/dashboard/localization/webhelper_latam.json
           2984      1 fc048c6d5d9b91aff9e9090512c9fbb7a6f580b1     0 resources/webinterface/dashboard/localization/webhelper_norwegian.json
-          3041      1 67550211254e1a34943558968c1cc3b26fbdf7c8     0 resources/webinterface/dashboard/localization/webhelper_polish.json
+          2836      1 4af7f1ad1564c922b12f20b0ae12a8d7da6e8eb3     0 resources/webinterface/dashboard/localization/webhelper_polish.json
           3025      1 c5e6c42d6a101595607a3ed83ea2648d5d47b44e     0 resources/webinterface/dashboard/localization/webhelper_portuguese.json
-          2945      1 476371ad5c3caf522471e8a38b58e6531f41a2a3     0 resources/webinterface/dashboard/localization/webhelper_romanian.json
+          2917      1 af8af30d66091037c26b3ce338618763e5be5d0e     0 resources/webinterface/dashboard/localization/webhelper_romanian.json
           3718      1 f5621ef177faa0e636d51fd4f3fe265209821418     0 resources/webinterface/dashboard/localization/webhelper_russian.json
           2643      1 a1e3647f989e9b16b16cd488fcdd95c609f4b1d8     0 resources/webinterface/dashboard/localization/webhelper_schinese.json
           3081      1 cc3ddb26dc10b68d51161049a9b62f6d7243b87d     0 resources/webinterface/dashboard/localization/webhelper_spanish.json
           2952      1 a51da127ff05b48179623c1c8ad471c5d336d70c     0 resources/webinterface/dashboard/localization/webhelper_swedish.json
-          2851      1 36f8f390d25bf0048e09de6bd43e82ef067fff39     0 resources/webinterface/dashboard/localization/webhelper_tchinese.json
+          2668      1 d94fb6e5d8e1241445c1205906643768bce62373     0 resources/webinterface/dashboard/localization/webhelper_tchinese.json
           4199      1 d248bb2598bb7904d410beed841f81c5162e5b6a     0 resources/webinterface/dashboard/localization/webhelper_thai.json
           2975      1 32f05eb1708fe0771e3875f278dd701c5226f9bb     0 resources/webinterface/dashboard/localization/webhelper_turkish.json
           3680      1 2b2fe328907fd186b63e4b4fb86f0d71c174ccc0     0 resources/webinterface/dashboard/localization/webhelper_ukrainian.json
           3186      1 9956647ef972bab740afd352048da9825b1fda11     0 resources/webinterface/dashboard/localization/webhelper_vietnamese.json
-          1754      1 711259065def8624fabae6d479e53caeec9546a4     0 resources/webinterface/dashboard/messageoverlay.html
-        219406      1 6a827ed761b6b062b883af7ef1affff6c381e6f9     0 resources/webinterface/dashboard/messageoverlay.js
+          1754      1 d0c887d3f107a9f720cda957c0493e0cc973cee0     0 resources/webinterface/dashboard/messageoverlay.html
+        203697      1 7de83fe561aeb5f808bf6f5d5e529322623805fa     0 resources/webinterface/dashboard/messageoverlay.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/messageoverlay.js.LICENSE.txt
-          1761      1 87a6bec0d0719b8e4c6c27f8c6486fc76e44f26b     0 resources/webinterface/dashboard/notificationtoast.html
-        217184      1 bbafbcaf1b260dbd7b8afd7122706038fbc27cfc     0 resources/webinterface/dashboard/notificationtoast.js
+          1761      1 a8bbfa9c68f44727b3b2410ec1491306f9ba6a7a     0 resources/webinterface/dashboard/notificationtoast.html
+        201337      1 c60707f605cb1470c66bd72d82f1b374ae096167     0 resources/webinterface/dashboard/notificationtoast.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/notificationtoast.js.LICENSE.txt
           1787      1 f62b158400fe8827a0ff82e77e2591ec108bc874     0 resources/webinterface/dashboard/powermenu.html
          55386      1 225a15a2379386930714565e072c827ef39d5c46     0 resources/webinterface/dashboard/powermenu.js
           2418      1 f0cc36dab2d0676bb1a7e481100c7971a13f8587     0 resources/webinterface/dashboard/progressindicator.html
          55960      1 0d1838e59d0cf2b92cd0b647f98aff366e5c73fd     0 resources/webinterface/dashboard/progressindicator.js
-           512      1 cfe33bdb258795fe38072bf717315c684d57ba16     0 resources/webinterface/dashboard/scenegraphtest.html
-         70657      1 17e381bf9b770c0bc4521bcdf1d83f0723014b2b     0 resources/webinterface/dashboard/scenegraphtest.js
+           379      1 8f7c1a16bd1c95e425e1df46a344e90d5e8f8e66     0 resources/webinterface/dashboard/scenegraphtest.html
+         68195      1 299d5fbe9756ef22ea4a4699d8e0a65e08ecd1ab     0 resources/webinterface/dashboard/scenegraphtest.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/scenegraphtest.js.LICENSE.txt
           1822      1 cda5140be34b4036be4aeb88d8256192e14a851f     0 resources/webinterface/dashboard/settings.html
         147622      1 2d58100e19503d4badc52382d576bde40194d442     0 resources/webinterface/dashboard/settings.js
-          1004      1 e431c5f74597907733b6a9d9c70acd024f4ce3a1     0 resources/webinterface/dashboard/settings_desktop.html
-        216214      1 a709d7fd61bd36404f2674228f49ec125202ff1b     0 resources/webinterface/dashboard/settings_desktop.js
+          1766      1 adb779ab7328265b4c4d7682cf65b8ad1eb2391f     0 resources/webinterface/dashboard/settings_desktop.html
+        200458      1 990a29e1c8bfadd7efee095d3e7908aaabf0f0f3     0 resources/webinterface/dashboard/settings_desktop.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/settings_desktop.js.LICENSE.txt
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/sounds
         151956      1 caf6737eafb496dc300b7d7e0ec7a9e8f87f799e     0 resources/webinterface/dashboard/sounds/activation.wav
@@ -2583,8 +2485,6 @@ Total bytes compressed : 269348240
          74594      1 901537c1953115921ec9983c0d40ddbcafb49af1     0 resources/webinterface/dashboard/sounds/dash_key_press_01.wav
          69990      1 2fd43d704d24eabf07654c8c38fda8f479e35f18     0 resources/webinterface/dashboard/sounds/dash_key_press_02.wav
          96744      1 6940e73b8c5ab24d4c0d5541e6cf4f713a639e56     0 resources/webinterface/dashboard/sounds/dash_key_press_03.wav
-         69880      1 aaa4be7cbc80068d353f87557432e57742ec10eb     0 resources/webinterface/dashboard/sounds/deck_ui_misc_10.wav
-        144052      1 787e72771f3e3783e09038cd0f24d84d0f2fda24     0 resources/webinterface/dashboard/sounds/deck_ui_navigation.wav
          73192      1 ee1b4bd1df3b2cca384e33caae510a86041f3f09     0 resources/webinterface/dashboard/sounds/volume_change.wav
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/suggestions
        1885743      2 ffbf69c71627c640da1360b02a8be51f22f78985     0 resources/webinterface/dashboard/suggestions/brazilian_compiled_words.dict
@@ -2601,17 +2501,17 @@ Total bytes compressed : 269348240
        2089014      2 e57e3548b85061188a27d73ef3f6c222db732d61     0 resources/webinterface/dashboard/suggestions/russian_compiled_words.dict
        1899183      2 ea052b25ca43011621259565e168992670d09030     0 resources/webinterface/dashboard/suggestions/spanish_compiled_words.dict
        1844461      2 ba84b935f9aef2457d8e030f3e97ab663924c442     0 resources/webinterface/dashboard/suggestions/swedish_compiled_words.dict
-           392      1 7c4f5ecd77cf4fa1d43eae4813520cbbfbec7b81     0 resources/webinterface/dashboard/systemreportviewer.html
-         17124      1 a643304ca9d34b9f933616f5e91d44411cac225f     0 resources/webinterface/dashboard/systemreportviewer.js
+           392      1 4e503cb7ea92097805b7e552349fd7ca2e62d636     0 resources/webinterface/dashboard/systemreportviewer.html
+         17109      1 0a840449fb72ccbed1ce34cef30e2d24cd2d8f20     0 resources/webinterface/dashboard/systemreportviewer.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/systemreportviewer.js.LICENSE.txt
-           831      1 281312efc19bc52e3189dd489c6e41c67cde5209     0 resources/webinterface/dashboard/systemui.html
-        253802      1 be3b13f568c413476776225ec5284d6a860ec53d     0 resources/webinterface/dashboard/systemui.js
+          1801      1 c20bced470f7493871842d558259ac12bd1cdb9d     0 resources/webinterface/dashboard/systemui.html
+        238105      1 6038733dda6c0c3ec824295def2fc3c8d4e67b0c     0 resources/webinterface/dashboard/systemui.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/systemui.js.LICENSE.txt
-          1743      1 c2339165c24feffa21e8399d89d61500d0171eaf     0 resources/webinterface/dashboard/vrmonitor.html
-        228672      1 13738cf717e6c3d91ea13af2a88080524cc7d631     0 resources/webinterface/dashboard/vrmonitor.js
+          1743      1 00cce18dd14e2cc400764fc07d646b04037a2987     0 resources/webinterface/dashboard/vrmonitor.html
+        212945      1 00e4129a6d2911da8a6cfa371c9fa4b40c2130c8     0 resources/webinterface/dashboard/vrmonitor.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/vrmonitor.js.LICENSE.txt
         189046      1 708662e7f08d479c9564bf2001df6c958056f98e     0 resources/webinterface/dashboard/vrwebui_core.js
-        419552      1 d4c20b4394b883c75af0e2c0791b457d446be59c     0 resources/webinterface/dashboard/vrwebui_shared.js
+        381518      1 868073e04c13c1e38f01d2f36570ed2eb8b65eb5     0 resources/webinterface/dashboard/vrwebui_shared.js
            157      1 eaa26bf97848cc7ec7dc050b10a0bbc858d5ff17     0 resources/webinterface/dashboard/vrwebui_shared.js.LICENSE.txt
           1406      1 57477c2180cc7b6b9e3064a46cf8da4ad7555540     0 resources/webinterface/favicon.ico
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/fonts
@@ -2640,9 +2540,13 @@ Total bytes compressed : 269348240
           1038      1 5742f603784df62e22cdd16692f299b55c6e296e     0 resources/webinterface/shared/images/triangle_down.png
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/shared/js
          86713      1 042dd055cd289215835a58507c9531f808e1648a     0 resources/webinterface/shared/js/jquery-3.1.1.min.js
+             0      0 0000000000000000000000000000000000000000    40 resources/webinterface/sounds
+        147172      1 d3ed1d7f8fef28dbc0371ffe9ed607a6b9734429     0 resources/webinterface/sounds/activation.wav
+        112784      1 0e03d4e424300113a4578b466626b7aa8e029d34     0 resources/webinterface/sounds/activation_change_fail.wav
+         68408      1 9f7f8ae7a37023d2417efffa5ce793dd5bfe5948     0 resources/webinterface/sounds/volume_change.wav
            170      1 b3ef450f5d820f683f5e78f3faf0eaec406c4fc4     0 resources/white.png
-        249596      1 467a392d9b18b236e2a622252d3e7dd3b2f28b9d     0 third_party_legal_notices.txt
-         83649      1 9bda7f690a5a2cc5c5677f78859f549a8fbcc7f0     0 third_party_legal_notices_web.txt
+        246438      1 865318c81cd2ec9aacaefd20766ddbf6060b9b21     0 third_party_legal_notices.txt
+         81883      1 1c39584a61ac025c861dcddd9ee8adb0e3377983     0 third_party_legal_notices_web.txt
          40914      1 eb69e6fe39e150874909cf6657adde02ed04a880     0 tools/content/game_theater_capsule_main.png
          64954      1 56538caa6bf7850953f3126aed94d8870ef6f97c     0 tools/content/media_player_capsule_main.png
         117517      1 c2b6fffb2484abff1453824f5ca13f4e1c833e33     0 tools/content/room_setup_capsule_main.png

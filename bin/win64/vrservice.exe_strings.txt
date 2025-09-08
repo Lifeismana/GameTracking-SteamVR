@@ -269,7 +269,6 @@ $d`D-laM
 .?AVCVRMsg_DestroySwapTextureSet@@
 .?AVCVRMsg_DriverDebugRequest@@
 .?AVCVRMsg_DriverDebugResponse@@
-.?AVCVRMsg_ExchangeCapabilities@@
 .?AVCVRMsg_GetApplicationInfo@@
 .?AVCVRMsg_GetApplicationLaunchArguments@@
 .?AVCVRMsg_GetApplicationLaunchArgumentsResponse@@
@@ -489,8 +488,8 @@ $d`D-laM
 0`P0
 0pp@5tqE?|sO541
 1!1'1-191C1E1K1]1a1g1m1s1
+11:32:39
 11M|
-13:59:37
 14 (default)
 1H@H
 1\v5#d
@@ -792,6 +791,7 @@ Any Extended Key Usage
 Any Purpose
 Any language
 Attempted to read payload of %d bytes from pipe but failed\n
+Aug 31 2023
 AuthANY
 AuthDSS
 AuthECDSA
@@ -1190,7 +1190,6 @@ CVRMsg_DefaultBinding
 CVRMsg_DestroySwapTextureSet
 CVRMsg_DriverDebugRequest
 CVRMsg_DriverDebugResponse
-CVRMsg_ExchangeCapabilities
 CVRMsg_GetApplicationInfo
 CVRMsg_GetApplicationLaunchArguments
 CVRMsg_GetApplicationLaunchArgumentsResponse
@@ -2168,7 +2167,6 @@ Oakley-EC2N-4
 Object Signer
 Object Signing
 Object Signing CA
-Oct 24 2023
 OnStartDashboard skipping startup: VR Dashboard already started.
 OnStartDashboard skipping startup: VR Dashboard files failed to copy.
 Only Some Reasons
@@ -2505,7 +2503,7 @@ RSA_sign_ASN1_OCTET_STRING
 RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
-RSDS
+RSDSEk
 RaiseException
 Rbg.E
 ReadConsoleA
@@ -2901,7 +2899,7 @@ WTSQueryUserToken failed: %s.\n
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 WakeAllConditionVariable
 Warning
@@ -5923,7 +5921,6 @@ rK99
 rUUT
 rZlN
 r\tU[B
-r\vpd
 r_32_12_16_init_key
 raise
 rand_drbg_enable_locking

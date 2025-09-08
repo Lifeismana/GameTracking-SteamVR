@@ -249,7 +249,6 @@ Loader does not support simultaneous XrInstances
 LoaderInstance::CreateInstance chained CreateInstance call failed
 LoaderInstance::CreateInstance succeeded with 
 LoaderInstance::CreateInstance, no support found for requested extension: 
-M18e
 MSVCP140.dll
 ManifestFile::IsValidJson - JSON "file_format_version" 
 ManifestFile::IsValidJson - JSON file missing "file_format_version"
@@ -266,7 +265,7 @@ OpenXR-Loader
 OutputDebugStringA
 PERF
 QueryPerformanceCounter
-RSDSOv
+RSDS
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 

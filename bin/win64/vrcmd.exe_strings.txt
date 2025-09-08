@@ -56,9 +56,6 @@
 --resetroomheight
 --resetroomsetup
 --rewind
---set-settings-bool
---set-settings-float
---set-settings-string
 --set-vsync-to-photons-offset-ms
 --settings-bool
 --settings-float
@@ -106,7 +103,6 @@
 .?AV<lambda_5bb49cc7e122936b34195f22a654d27b>@@
 .?AV<lambda_6010c80f147b9df2ed84dd2933f5472f>@@
 .?AV<lambda_61a40b0f56387bf547ce7c42ad09251b>@@
-.?AV<lambda_655ab12a61fb059c0c4cdfd3d1a25a39>@@
 .?AV<lambda_662d8de06dabd83193f2cb18a12f4766>@@
 .?AV<lambda_6c2755de9fb7d8850408403750a840df>@@
 .?AV<lambda_7cb099c713b848ca291f3e208cc0287b>@@
@@ -119,7 +115,6 @@
 .?AV<lambda_9419479e3d5f3c24366fde96dba7df74>@@
 .?AV<lambda_998b4afba503e94740d40371c93a4e4d>@@
 .?AV<lambda_9b0dc4f84d45b56b7f3cfe7be5478459>@@
-.?AV<lambda_9b6f868e8953b7be2410ff255d0f29ed>@@
 .?AV<lambda_9e57f0071be9d2cbe6309f36f9d626e3>@@
 .?AV<lambda_9e6a11d1c334dc36457ad997b7190350>@@
 .?AV<lambda_a142662abcfbd8a963751f2124b39437>@@
@@ -141,7 +136,6 @@
 .?AV<lambda_edf9f69b0c44727a123859a9517011c6>@@
 .?AV<lambda_f35fa42e3ec6b827bacfafab3fd3409d>@@
 .?AV<lambda_f5d684d35a6244c517b692a5d1247e8f>@@
-.?AV<lambda_f732dc18c0106a35fb3a429c1a139939>@@
 .?AV<lambda_f8ad05e5702ae749a1d9b3e58d1a2c0d>@@
 .?AV?$_Func_base@PEAXPEBD@std@@
 .?AV?$_Func_base@X$$V@std@@
@@ -166,7 +160,6 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_5bb49cc7e122936b34195f22a654d27b>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6010c80f147b9df2ed84dd2933f5472f>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_61a40b0f56387bf547ce7c42ad09251b>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_655ab12a61fb059c0c4cdfd3d1a25a39>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_662d8de06dabd83193f2cb18a12f4766>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6c2755de9fb7d8850408403750a840df>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7cb099c713b848ca291f3e208cc0287b>@@X$$V@std@@
@@ -179,7 +172,6 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_9419479e3d5f3c24366fde96dba7df74>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_998b4afba503e94740d40371c93a4e4d>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9b0dc4f84d45b56b7f3cfe7be5478459>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_9b6f868e8953b7be2410ff255d0f29ed>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9e57f0071be9d2cbe6309f36f9d626e3>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9e6a11d1c334dc36457ad997b7190350>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a142662abcfbd8a963751f2124b39437>@@X$$V@std@@
@@ -201,7 +193,6 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_edf9f69b0c44727a123859a9517011c6>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f35fa42e3ec6b827bacfafab3fd3409d>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f5d684d35a6244c517b692a5d1247e8f>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_f732dc18c0106a35fb3a429c1a139939>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f8ad05e5702ae749a1d9b3e58d1a2c0d>@@X$$V@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P6AXXZ@std@@U?$default_delete@V?$tuple@P6AXXZ@std@@@2@@std@@@std@@
@@ -325,7 +316,6 @@
 2 Button Caption!
 3 Button Caption!
 4 button caption!
-728e
 : exception thrown in JSON library
 <unknown>
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -456,7 +446,6 @@ Error finding overlay %s : %s\n
 Error getting overlay flag %s\n
 Error getting own appkey, assuming steam appkey: %s\n
 Error reading default application\n
-Error setting %s\n
 Error setting default application: %s\n
 Error setting overlay flag %s\n
 Error: Display ID %s for %d on driver %s is %d characters, which breaks the promise in the interface documentation.\n
@@ -474,7 +463,7 @@ Extra non-whitespace after JSON value.
 Failed creating auto reset event %s (GLE: %u)\n
 Failed creating file mapping %s: %u\n
 Failed creating mutex %s (GLE: %u)\n
-Failed mapping view for %s; Error code: 0x%08x\n
+Failed mapping view for %s\n
 Failed to WaitForConnection on pipe %s because %s\n
 Failed to connect to pipe %s because %s\n
 Failed to get runtime path\n
@@ -621,7 +610,6 @@ Payload
 PeekNamedPipe
 PerformApplicationPrelaunchCheck( %s ) return %s\n
 Polling Controllers. Press ctrl-C to exit\n
-Prop_ActualTrackingSystemName_String
 Prop_AdditionalDeviceSettingsPath_String
 Prop_AdditionalRadioFeatures_Uint64
 Prop_AdditionalSystemReportData_String
@@ -707,7 +695,6 @@ Prop_DistortionMeshResolution_Int32
 Prop_DoNotApplyPrediction_Bool
 Prop_DongleVersion_Uint64
 Prop_DriverDirectModeSendsVsyncEvents_Bool
-Prop_DriverDisplaysIPDChanges_Bool
 Prop_DriverIsDrawingControllers_Bool
 Prop_DriverProvidedChaperoneJson_String
 Prop_DriverProvidedChaperonePath_String
@@ -832,8 +819,8 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
-R\vpNh
+RSDS)
+R\vp~O
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1017,7 +1004,6 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
-VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -1183,7 +1169,7 @@ WaitForConnection got an already-disconnected pipe on %s. Recreating listener\n
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 Waiting for 5 seconds for vrdashboard to startup.\n
 Waiting for message overlay to be dismissed.\n
@@ -1318,7 +1304,6 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-b}M15I
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcpipe.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp

@@ -532,7 +532,6 @@ strstr
 strtol
 sv_sv
 swedish
-t08e
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha

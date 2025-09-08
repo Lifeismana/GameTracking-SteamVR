@@ -104,6 +104,7 @@
 "e" must be followed by exponent.
 "r\n\nCImuSample
 "z\n\rMethodOptions
+#@TAO
 #bML"
 $0  extend .$1 {\n
 $0  extensions $1 to $2;\n
@@ -131,7 +132,6 @@ $0option $1;\n
 %s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total\n
 %s: Attached device ID not set.  No controller input available.\n
 %s: Connected to receiver %s\n
-%s: Controller subprotocol changed version %d\n
 %s: Device does not have a stored config\n
 %s: Disconnected from receiver %s\n
 %s: ERROR: could not query version from watchman board.\n
@@ -139,7 +139,6 @@ $0option $1;\n
 %s: Expected %u bytes of config but only found %d. Rejecting config\n
 %s: Firmware Version %s\n
 %s: Not loading device config because its size is too large: 0x%X bytes\n
-%s: Optical subprotocol changed version %d\n
 %s: Packet received after %.3fs, keepalive (%d/%d)\n
 %s: Protocol versioning supported, requesting %d\n
 %s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes\n
@@ -1139,7 +1138,6 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RPCRT4.dll
 RSDS
 Radio Version: %i\n
 RaiseException
@@ -1161,7 +1159,6 @@ ResetEvent
 Restart
 ResumeThread
 Rotors on basestation out of 180-degree phase lock.\n
-RpcStringFreeA
 S-%d%s %c %2d %4d 
 SETUPAPI.dll
 SKyu
@@ -1322,8 +1319,6 @@ User reset
 UserData Error: Data request is out of range, request starting:0x%x, ending:0x%x, max address:0x%x\n
 UserData Error: Unable to request user data from device (%s), bytesRead %d, bytesRemaining %d\n
 UserData Error: Unable to send start user data feature report \n
-UuidCreate
-UuidToStringA
 VBus: 
 VCRUNTIME140.dll
 VDEST
@@ -1624,7 +1619,7 @@ device_serial_number_watchman
 device_vid
 deviceinfo
 deviceinfo\tPrint information about all connected lighthouse_devices.\n
-devicescannermsgwindow-
+devicescannermsgwindow
 direct_mode_edid_pid
 direct_mode_edid_vid
 dis [<type=auto>]\tToggle disambiguation. types={ auto, tdm, framer, synconbeam }\n
@@ -1855,7 +1850,6 @@ ispdiv <divisor>\tSet the camera ISP sync signal divisor\n
 isps
 it_it
 italian
-j3Bt
 ja_jp
 japanese
 java_generate_equals_and_hash

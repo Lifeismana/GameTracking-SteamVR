@@ -3,7 +3,6 @@
  !?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
  (VID:%04X PID:%04X)
  (current)
- - %dx%d format=%d refresh=%d/%d scan=%d scale=%d dsc: mode=%d version=%d slice=%d out16=%d
  /name 
  /page 
  <font color=#eeeeee>%1%</font><br><br>
@@ -69,13 +68,13 @@
 !\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
 !\r?host@QUrl@@QEBA?AVQString@@V?$QFlags@W4ComponentFormattingOption@QUrl@@@@@Z
 !systeminfo,os,gpu,cpu,cores,osmajor,osminor,osspversion
+"%/28;=#$019:>?
 "Language
 "Tokens
 "[english]
 "\n?dragMoveEvent@QAbstractScrollArea@@MEAAXPEAVQDragMoveEvent@@@Z
 "\r?indexOf@QLayout@@UEBAHPEAVQWidget@@@Z
 "lang
-#007acc
 #81b818
 #999999
 #\f?getSaveFileName@QFileDialog@@SA?AVQString@@PEAVQWidget@@AEBV2@11PEAV2@V?$QFlags@W4Option@QFileDialog@@@@@Z
@@ -143,6 +142,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 &\t?contains@QSettings@@QEBA_NAEBVQString@@@Z
 &\v?end@QListData@@QEBAPEAPEAXXZ
 ' is not a number.
+'.5<=6/7>????????????????
 '\v?extension@QGraphicsEllipseItem@@MEBA?AVQVariant@@AEBV2@@Z
 (<Device\d*_Additional>.*<\/Device\d*_Additional>\n)*
 (?<DATE>.*) - (=*\n.*)
@@ -241,7 +241,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_686bfc32f4bcce44b88d49e75aaf1c75>@@
 .?AV<lambda_687bbe8aaa1e7a7d821b415aa811bb6e>@@
-.?AV<lambda_7257f74de7e96abf43452d9052201b09>@@
+.?AV<lambda_8af19e25c4fa73da7a1cf7f0071ed417>@@
 .?AV<lambda_b7b9ce01fc30bd3f000c47ae1d1582d3>@@
 .?AV<lambda_d1112e822f5ee38cbf54224532a6fefc>@@
 .?AV<lambda_f616c03a6102f2dea4d043e167000184>@@
@@ -273,7 +273,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_686bfc32f4bcce44b88d49e75aaf1c75>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_687bbe8aaa1e7a7d821b415aa811bb6e>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_7257f74de7e96abf43452d9052201b09>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8af19e25c4fa73da7a1cf7f0071ed417>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b7b9ce01fc30bd3f000c47ae1d1582d3>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d1112e822f5ee38cbf54224532a6fefc>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f616c03a6102f2dea4d043e167000184>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
@@ -578,7 +578,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVWin32SharedMemory@IPC@@
 .?AVWriter@Json@@
 .?AV_Facet_base@std@@
-.?AV_com_error@@
 .?AVbad_alloc@std@@
 .?AVbad_array_new_length@std@@
 .?AVbad_cast@std@@
@@ -666,9 +665,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 /Uninstall
 /Windows8
 /WindowsAeroDisabled
-/add
 /best_alias_path
-/bigscreenbeyond
 /device_path
 /disable
 /enable
@@ -710,7 +707,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 /systemreport
 /systemreport/s2bug
 /total_component_updates
-/transferlatencymslong
 /uninstall
 /user/ankle/left
 /user/ankle/right
@@ -740,7 +736,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-13:59:37
+11:32:39
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -1380,7 +1376,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 </Device%1_Additional>\n
 </Devices>\n\n
 </Displays>\n\n
-</Driver
 </LighthouseDB>
 </LighthouseDB>\n\n
 </Report>\n\n
@@ -1394,7 +1389,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 <BR><B>${Header_NotCheckingIssuesAtThisTime}</B><BR>
 <BR><B>Displays</B> - %1<BR>
 <BR><B>No chaperone file available.</B></BR>
-<BR><B>No driver specific file available.</B></BR>
 <BR><B>No lighthouse db file available.</B></BR>
 <BR><B>System</B><BR>
 <Chaperone>\n
@@ -1404,7 +1398,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 <Device%1_Additional>\n
 <Devices>\n
 <Displays>\n
-<Driver
 <LighthouseDB>
 <LighthouseDB>\n
 <Logs>\n
@@ -1421,7 +1414,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 <font color=#f4d330>- 
 <font color=#ff3333>
 <font color=#ff38ff>- 
-<font color=%1>%2 ms</font>
 <font color=%1>%2</font> <font color=#999999> of %3 ms (%4 Hz)</font>
 <font color=%1>%2</font> <font color=#999999> of %3 ms (%4 Hz)</font> <font color=%5> Bus=%6%</font>
 <font color=%1>%2</font> <font color=#999999>of %3 ms (%4 Hz)</font>
@@ -1460,7 +1452,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ??0QChar@@QEAA@UQLatin1Char@@@Z
 ??0QCheckBox@@QEAA@AEBVQString@@PEAVQWidget@@@Z
 ??0QCheckBox@@QEAA@PEAVQWidget@@@Z
-??0QColor@@QEAA@I@Z
 ??0QColor@@QEAA@W4GlobalColor@Qt@@@Z
 ??0QComboBox@@QEAA@PEAVQWidget@@@Z
 ??0QCursor@@QEAA@W4CursorShape@Qt@@@Z
@@ -3110,6 +3101,7 @@ Audio Firmware: \t%1 / %2 %3\n
 AudioBridge
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
 AudioWorker
+Aug 31 2023
 Autoplaying loaded playlist\n
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
@@ -3133,6 +3125,7 @@ AxisType
 AxisTypes
 BAction
 BETA
+BINORMAL
 BS20_ConfigureChannel_Apply
 BS20_ConfigureChannel_AutoConfigContinue
 BS20_ConfigureChannel_AutoConfig_Incomplete
@@ -3524,7 +3517,6 @@ CQVRMonitorHeadsetWarning
 CQVRMonitorURLHandler
 CQVRMonitorURLHandler::OnDebugCommands
 CQVRMonitorURLHandler::OnDirectMode
-CQVRMonitorURLHandler::OnFirewall
 CQVRMonitorURLHandler::OnOpenXr
 CQVRMonitorURLHandler::OnRefreshRate
 CQVRMonitorURLHandler::OnSafeMode
@@ -3666,11 +3658,8 @@ ClientFrameIntervalMs
 CloseHandle
 CloseServiceHandle
 Closing pipe %s because it was broken from the other end\n
-CoCreateGuid
 CoCreateInstance
 CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x\n
-CoCreateInstance failed: 0x%08lx\n
-CoCreateInstance for INetFwPolicy2 failed: 0x%08lx\n
 CoInitializeEx
 CoInitializeEx, hr = 0x%08x\n
 CoTaskMemFree
@@ -3774,7 +3763,6 @@ CreateWellKnownSid
 CreateWellKnownSid failed for WinBuiltinAnyPackageSid\n
 CreateWindowExW
 Creating playback mirror thread for device %s\n
-CsupersampleManualOverride
 Culdn't duplicate handle
 Current Universe ID:
 Current Universe ID:\t%1\n\n
@@ -3875,12 +3863,10 @@ DismissableWarning_DevelopmentHardwareNotSupported
 DismissableWarning_DismissButton
 DismissableWarning_DisplayInExtendedMode
 DismissableWarning_EnableAppContainers
-DismissableWarning_FirewallRulesNeedConfiguration
 DismissableWarning_HDCPError
 DismissableWarning_HDCPErrorWithToggleOption
 DismissableWarning_HeadsetDisplayDisconnected
 DismissableWarning_HeadsetTetherDisconnected
-DismissableWarning_InstallBigscreenBeyondPrompt
 DismissableWarning_InstallVivePro2Prompt
 DismissableWarning_InstallWMRPrompt
 DismissableWarning_IssuesWithOneDongle
@@ -3894,11 +3880,9 @@ DismissableWarning_OpticalBasestationSyncWarning
 DismissableWarning_OutOfVideoMemory
 DismissableWarning_PowerSchemeIsNotHighPerformance
 DismissableWarning_RequestDisconnectReconnect
-DismissableWarning_RequiresSteamUpdate
 DismissableWarning_RunTutorialAgain
 DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter
 DismissableWarning_SomeDisplaysAreMirroring
-DismissableWarning_SteamBetaNeeded
 DismissableWarning_SteamVRInSafeMode
 DismissableWarning_SteamVRUpdated
 DismissableWarning_TimeFormat
@@ -3944,12 +3928,12 @@ Dongle Version:
 Dongle Version: \t%1 / %2 %3 %4\n
 Dongle Version: \t%1 Version: %2 / %3 %4 %5\n
 DongleV2
+Dpu"@
 Driver Failed (200)
 Driver Not Known (201)
 Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
 Driver runtime is out of date (204)
-Driver unable to initialize video encoder (499)
 Driver%1:
 Driver%1:\t(?<VALUE>.*)
 Driver:\t(?<VALUE>.*)
@@ -4051,12 +4035,10 @@ Failed To Start.
 Failed creating auto reset event %s (GLE: %u)\n
 Failed creating file mapping %s: %u\n
 Failed creating mutex %s (GLE: %u)\n
-Failed mapping view for %s; Error code: 0x%08x\n
+Failed mapping view for %s\n
 Failed to add OGS row because of parse errors\n
 Failed to add OGS row because request had no fields field\n
-Failed to add OGS row because request had no table field\n
 Failed to add OGS row because request's fields field was not an object\n
-Failed to add OGS session row because of parse errors\n
 Failed to allocate memory
 Failed to connect to pipe %s because %s\n
 Failed to create WinBuiltinAnyPackageSid\n
@@ -4756,7 +4738,6 @@ KnockKnock_Button
 KnockKnock_Notification_Text
 KnockKnock_Text
 KnockKnock_Title
-L09n
 L?isActive@QPainter@@QEBA_NXZ
 L?isNull@QImage@@QEBA_NXZ
 L?isNull@QPixmap@@QEBA_NXZ
@@ -5044,10 +5025,10 @@ N?mouseButtons@QGuiApplication@@SA?AV?$QFlags@W4MouseButton@Qt@@@@XZ
 N?moveTo@QPainterPath@@QEAAXAEBVQPointF@@@Z
 N?name@QColor@@QEBA?AVQString@@XZ
 NAME
+NORMAL
 NOTPRESENT
 NRFSerLib_GetBaseStationWirelessInterface
 NULL
-NVAPI_DEBUG_DISPLAY_MODES
 NVIDIA
 N\f?freeNodeAndRebalance@QMapDataBase@@QEAAXPEAUQMapNodeBase@@@Z
 NaggingTextContent
@@ -5125,7 +5106,6 @@ NumReprojectedFramesTimedOut: %d\n
 NumTimedOut
 NumTimedOut: %d\n
 NvAPI
-NvAPI DisplayModes:
 NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!\n
 NvAPI: DirectModeGetDisplayModes trying again with older API!\n
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!\n
@@ -5134,7 +5114,6 @@ O?normalized@QVector2D@@QEBA?AV1@XZ
 O?paintEngine@QPixmap@@UEBAPEAVQPaintEngine@@XZ
 O?pen@QPainter@@QEBAAEBVQPen@@XZ
 OKButton
-OLEAUT32.dll
 OPENGL32.dll
 OS Version:
 OS Version:\t(?<VALUE>.*)
@@ -5144,7 +5123,6 @@ OSBuild
 OSType
 OW?size@QOffscreenSurface@@UEBA?AVQSize@@XZ
 O\f?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
-Oct 24 2023
 Old Style single quad\n
 On laptop, HMD detected over USB, but Monitor not found (213)
 OnAboutAction
@@ -5314,7 +5292,6 @@ OnEntryPostrollEdited
 OnEntryPrerollEdited
 OnExitClicked
 OnFileDownloaded
-OnFirewall
 OnFirmwareUpdate
 OnFirmwareWizardAction
 OnFirstCheck
@@ -5729,8 +5706,6 @@ Parsing of JSON string "%s" failed: %s\n
 Passed formatCode is empty
 Passed vector sizes aren't equal:
 Path Registry(.|\n)*?Config Directory:.*
-PathCchAppend
-PathRemoveFileSpecW
 PauseOnStandbyCheckBox
 PauseRequested
 Paused
@@ -6067,7 +6042,7 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS
+RSDSc
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
 Radio
@@ -6183,7 +6158,6 @@ SERIAL
 SETUPAPI.dll
 SHELL32.dll
 SHGetFolderPathW
-SHLWAPI.dll
 SIG_AcquireData
 SIG_AcquiringDone
 SIG_ActivationStateChangeCompleted
@@ -6507,7 +6481,6 @@ SharedMem access invalid: %x\n
 Shell32.dll
 ShellExecuteA
 ShellExecuteExA
-ShellExecuteExW
 Show %L1 frames
 ShowBaseStationPowerManagementTip
 ShowFileBrowserMainFile
@@ -6610,7 +6583,6 @@ SteamMatchMaking009
 SteamMatchMakingServers002
 SteamNetworking005
 SteamPath
-SteamStreaming
 SteamUniverse_Beta
 SteamUniverse_Dev
 SteamUniverse_Internal
@@ -6682,14 +6654,12 @@ SystemReport_DiscoverChaperone
 SystemReport_DiscoverConfiguration
 SystemReport_DiscoverDevices
 SystemReport_DiscoverDisplays
-SystemReport_DiscoverDriverSpecific
 SystemReport_DiscoverLighthouseDB
 SystemReport_DiscoverUSB
 SystemReport_Issues
 SystemReport_LighthouseDB
 SystemReport_Logs
 SystemReport_Main
-SystemReport_Other
 SystemReport_PrepareLogs
 SystemReport_PrepareReport
 SystemReport_Progress_ParseReport
@@ -6704,6 +6674,7 @@ SystemTimeInSeconds
 SystemTimeToFileTime
 T?setJoinStyle@QPen@@QEAAXW4PenJoinStyle@Qt@@@Z
 T?setMajorVersion@QSurfaceFormat@@QEAAXH@Z
+TANGENT
 TEXCOORD
 TdhEnumerateManifestProviderEvents
 Tech
@@ -6814,7 +6785,6 @@ Unable to get default from IMMDevice, hr = 0x%08x\n
 Unable to get overlay interface\n
 Unable to get shared openGL context when initializing overlay bridge\n
 Unable to get to IMMDevice %s, hr = 0x%08x\n
-Unable to initialize Tracking shared state\n
 Unable to initialize VRWebHelper shared state\n
 Unable to load avrt.dll\n
 Unable to load bind mfplat.dll and/or avrt.dll\n
@@ -6980,7 +6950,6 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
-VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -7161,9 +7130,7 @@ VR_PATHREG_OVERRIDE
 VR_SETTINGS_FILE
 VR_SettingsMutex
 VR_SettingsState
-VR_SharedMutex
 VR_ShutdownInternal
-VR_TrackingState
 VR_WebHelperMutex
 VR_WebHelperState
 VSync to Photons:
@@ -7210,7 +7177,7 @@ WaitForSingleObjectEx
 WaitGetPoses Called
 WaitGetPosesCalledMs
 WaitNamedPipe %s failed because %s\n
-WaitNamedPipe %s failed because no one is listening at that name (Error 0x%08x)\n
+WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
 WaitNamedPipeW
 WaitingForShutdownVRApps
@@ -7413,12 +7380,6 @@ Zjz\v
 [Dismissable Warning Added] %s\n
 [Dismissable Warning Removed] %s\n
 [Dismissable Warning] %s not shown: the warning is dismissed.\n
-[FirewallTools] Calling vrserverhelper failed with error code %d\n
-[FirewallTools] Could not build path to file, is the directory name too long?
-[FirewallTools] Could not build path to vrserver, is the directory name too long?
-[FirewallTools] Could not initialize COM: %d
-[FirewallTools] Could not initialize firewall: %d
-[FirewallTools] Could not query %s (%d) firewall rules: %d
 [HostController]
 [HostController] 
 [KnockKnock]  Do some knocking\n
@@ -7745,6 +7706,7 @@ Zjz\v
 \t?done@QDialog@@UEAAXH@Z
 \tD/observed_basestations
 \t\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\v?eventFilter@QStyledItemDelegate@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 \tvid=0x%x, pid=0x%x, sn=%ls\n
 \v?devType@QPixmap@@UEBAHXZ
@@ -7820,7 +7782,6 @@ _Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock
-_NoCameraPose
 _NoPose
 _NotReady
 _Off
@@ -7853,7 +7814,6 @@ __std_exception_copy
 __std_exception_destroy
 __std_terminate
 __stdio_common_vfprintf
-__stdio_common_vfwprintf
 __stdio_common_vsnprintf_s
 __stdio_common_vsprintf
 __stdio_common_vsprintf_s
@@ -7865,7 +7825,6 @@ _cexit
 _configthreadlocale
 _configure_narrow_argv
 _crt_atexit
-_debug.json
 _dtest
 _errno
 _exit
@@ -7918,7 +7877,6 @@ adddismissablewarning
 additional six characters expected to parse unicode surrogate pair.
 addressList
 afterReplot
-allow
 allowComments
 allowDisplayLockedMode
 allowDroppedNullPlaceholders
@@ -7936,7 +7894,6 @@ antialiasedFill
 antialiasedScatters
 antialiasedSubGrid
 antialiasedZeroLine
-api-ms-win-core-path-l1-1-0.dll
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-filesystem-l1-1-0.dll
@@ -8033,13 +7990,11 @@ battery_empty_pixmap
 battery_low_pixmap
 beforeReplot
 bg_bg
-bigscreenbeyond
 bin/vrclient_x64.dll
 bin\win64\restarthelper.exe
 bin\win64\vrmonitor.exe
 bin\win64\vrservice.exe
 bin\win64\vrstartup.exe
-block
 bool __cdecl QCPAxisRect::removeAxis(class QCPAxis *)
 bool __cdecl QCPColorScale::rangeDrag(void) const
 bool __cdecl QCPColorScale::rangeZoom(void) const
@@ -8286,6 +8241,7 @@ fakeHtcHmdMainboard
 fake_default
 false
 fclose
+feof
 ffffff
 fflush
 fgetc
@@ -8295,7 +8251,6 @@ fields
 file://
 filename
 finnish
-firewall
 firmware
 firmware.bin
 firmware2.bin
@@ -8334,9 +8289,6 @@ gamepad
 german
 getDeviceProperty returned empty\n
 getDeviceProperty returned wrong type %d\n
-get_CurrentProfile failed: 0x%08lx\n
-get_LocalPolicy failed: 0x%08lx\n
-get_Rules failed: 0x%08lx\n
 glClear
 glClearColor
 global
@@ -8925,8 +8877,6 @@ selectionTolerance
 separator
 separator_color
 server
-session_id_field_name
-session_ogs_row
 setDataRange
 setDataScaleType
 setGradient
@@ -8955,8 +8905,162 @@ setup-runroomsetup
 setup-showui
 setupwindow
 setvbuf
+shaders/d3d11/distort_cs.fxo
+shaders/d3d11/distort_cs_mc.fxo
+shaders/d3d11/distort_geom_aa_circles_ps.fxo
+shaders/d3d11/distort_geom_aa_circles_vs.fxo
+shaders/d3d11/distort_geom_aa_lines_ps.fxo
+shaders/d3d11/distort_geom_aa_lines_vs.fxo
+shaders/d3d11/distort_geom_aa_quads_ps.fxo
+shaders/d3d11/distort_geom_aa_quads_vs.fxo
+shaders/d3d11/distort_geom_colormap_lines_ps.fxo
+shaders/d3d11/distort_geom_constant_ps.fxo
+shaders/d3d11/distort_geom_curved_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_curved_vs.fxo
+shaders/d3d11/distort_geom_drawregion_curved_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_drawregion_curved_vs.fxo
+shaders/d3d11/distort_geom_drawregion_multitap_ps.fxo
+shaders/d3d11/distort_geom_drawregion_ps.fxo
+shaders/d3d11/distort_geom_drawregion_ptnorm_curved_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_drawregion_ptnorm_curved_vs.fxo
+shaders/d3d11/distort_geom_drawregion_ptnorm_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_drawregion_ptnorm_vs.fxo
+shaders/d3d11/distort_geom_drawregion_reflect_multitap_ps.fxo
+shaders/d3d11/distort_geom_drawregion_reflect_ps.fxo
+shaders/d3d11/distort_geom_drawregion_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_drawregion_vs.fxo
+shaders/d3d11/distort_geom_floor_ps.fxo
+shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
+shaders/d3d11/distort_geom_floor_reflect_ps.fxo
+shaders/d3d11/distort_geom_floor_vs.fxo
+shaders/d3d11/distort_geom_fresnel_ps.fxo
+shaders/d3d11/distort_geom_fresnel_vs.fxo
+shaders/d3d11/distort_geom_grid_ps.fxo
+shaders/d3d11/distort_geom_grid_vs.fxo
+shaders/d3d11/distort_geom_hard_bounds_aa_lines_ps.fxo
+shaders/d3d11/distort_geom_hard_bounds_aa_lines_vs.fxo
+shaders/d3d11/distort_geom_hard_bounds_aa_squares_ps.fxo
+shaders/d3d11/distort_geom_hard_bounds_aa_squares_vs.fxo
+shaders/d3d11/distort_geom_horizon_ps.fxo
+shaders/d3d11/distort_geom_ltc_diff_ps.fxo
+shaders/d3d11/distort_geom_ltc_ps.fxo
+shaders/d3d11/distort_geom_ltc_spec_ps.fxo
+shaders/d3d11/distort_geom_motes_ps.fxo
+shaders/d3d11/distort_geom_motes_vs.fxo
+shaders/d3d11/distort_geom_multitap_ps.fxo
+shaders/d3d11/distort_geom_pbr_ps.fxo
+shaders/d3d11/distort_geom_ps.fxo
+shaders/d3d11/distort_geom_ptnorm_curved_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_ptnorm_curved_vs.fxo
+shaders/d3d11/distort_geom_ptnorm_ortho_out_vs.fxo
+shaders/d3d11/distort_geom_ptnorm_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_ptnorm_vs.fxo
+shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
+shaders/d3d11/distort_geom_reflect_ps.fxo
+shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
+shaders/d3d11/distort_geom_simplified_ps.fxo
+shaders/d3d11/distort_geom_simplified_reflect_ps.fxo
+shaders/d3d11/distort_geom_tan_vs.fxo
+shaders/d3d11/distort_geom_uvs_embedded_vs.fxo
+shaders/d3d11/distort_geom_vignette_ps.fxo
+shaders/d3d11/distort_geom_vignette_vs.fxo
+shaders/d3d11/distort_geom_vs.fxo
+shaders/d3d11/distort_geom_write_norm_ps.fxo
+shaders/d3d11/distort_geom_write_norm_vs.fxo
+shaders/d3d11/distort_none_ps.fxo
+shaders/d3d11/distort_none_ps_gamma.fxo
+shaders/d3d11/distort_none_ps_layered.fxo
+shaders/d3d11/distort_none_vs.fxo
+shaders/d3d11/distort_panorama_dome_ps.fxo
+shaders/d3d11/distort_panorama_dome_radius_ps.fxo
+shaders/d3d11/distort_panorama_ps.fxo
+shaders/d3d11/distort_panorama_vs.fxo
+shaders/d3d11/distort_ps.fxo
+shaders/d3d11/distort_ps_achromatic.fxo
+shaders/d3d11/distort_ps_achromatic_alphaed.fxo
+shaders/d3d11/distort_ps_achromatic_layered.fxo
+shaders/d3d11/distort_ps_achromatic_se2.fxo
+shaders/d3d11/distort_ps_gamma.fxo
+shaders/d3d11/distort_ps_gamma_mc.fxo
+shaders/d3d11/distort_ps_gamma_mc_nd.fxo
+shaders/d3d11/distort_ps_gamma_nd.fxo
+shaders/d3d11/distort_ps_layered.fxo
+shaders/d3d11/distort_ps_layered_mc.fxo
+shaders/d3d11/distort_ps_layered_mc_nd.fxo
+shaders/d3d11/distort_ps_layered_nd.fxo
+shaders/d3d11/distort_ps_mc.fxo
+shaders/d3d11/distort_ps_mc_nd.fxo
+shaders/d3d11/distort_ps_nd.fxo
+shaders/d3d11/distort_ps_scene.fxo
+shaders/d3d11/distort_ps_scene0.fxo
+shaders/d3d11/distort_ps_scene_blur.fxo
+shaders/d3d11/distort_vs.fxo
+shaders/d3d11/distort_vs_latest_nd.fxo
+shaders/d3d11/distort_vs_layered.fxo
+shaders/d3d11/distort_vs_layered_nd.fxo
+shaders/d3d11/distort_vs_nd.fxo
+shaders/d3d11/distort_vs_reproject.fxo
+shaders/d3d11/distort_vs_reproject_mv.fxo
+shaders/d3d11/distort_vs_reproject_nd.fxo
+shaders/d3d11/downsample_filter_x_ps.fxo
+shaders/d3d11/downsample_filter_x_srgb_ps.fxo
+shaders/d3d11/downsample_filter_y_ps.fxo
+shaders/d3d11/downsample_filter_y_srgb_ps.fxo
+shaders/d3d11/downsample_ps.fxo
+shaders/d3d11/downsample_srgb_ps.fxo
+shaders/d3d11/downsample_vs.fxo
+shaders/d3d11/frame_hallucination_ps.fxo
+shaders/d3d11/frame_hallucination_vs.fxo
+shaders/d3d11/gpu_measurement_ps.fxo
+shaders/d3d11/gpu_measurement_vs.fxo
+shaders/d3d11/linepixelsim2_cs.fxo
+shaders/d3d11/linepixelsim_cs.fxo
+shaders/d3d11/motion_filter_attenuation_ps.fxo
+shaders/d3d11/motion_filter_blur_ps.fxo
+shaders/d3d11/motion_filter_cost_ps.fxo
+shaders/d3d11/motion_filter_early_out_vs.fxo
+shaders/d3d11/motion_filter_median_ps.fxo
+shaders/d3d11/motion_filter_vs.fxo
+shaders/d3d11/motion_smoothing_debug_ps.fxo
+shaders/d3d11/motion_smoothing_debug_vs.fxo
+shaders/d3d11/motionvector_cost_cs.fxo
+shaders/d3d11/msaa_resolve_2x_ps.fxo
+shaders/d3d11/msaa_resolve_4x_ps.fxo
+shaders/d3d11/msaa_resolve_8x_ps.fxo
+shaders/d3d11/msaa_resolve_vs.fxo
 shaders/d3d11/overlay_viewer_ps.fxo
 shaders/d3d11/overlay_viewer_vs.fxo
+shaders/d3d11/panel_mask_ps.fxo
+shaders/d3d11/panel_mask_vs.fxo
+shaders/d3d11/testgrid2_cs.fxo
+shaders/d3d11/tracked_camera_edgefilter_ps.fxo
+shaders/d3d11/tracked_camera_edgefilter_vs.fxo
+shaders/d3d11/tracked_camera_lines_ps.fxo
+shaders/d3d11/tracked_camera_lines_vs.fxo
+shaders/d3d11/tracked_camera_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_devignette_vs.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_devignette_nv12_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_devignette_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_nv12_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_rgb_nv12_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_vs.fxo
+shaders/d3d11/tracked_camera_reprojection_vs.fxo
+shaders/d3d11/tracked_camera_undistort_ps.fxo
+shaders/d3d11/tracked_camera_undistort_vs.fxo
+shaders/d3d11/tracked_camera_vs.fxo
+shaders/d3d11/unlit_convert_to_nv12_ps.fxo
+shaders/d3d11/unlit_gaussian_blur_u_ps.fxo
+shaders/d3d11/unlit_gaussian_blur_v_ps.fxo
+shaders/d3d11/unlit_motion_attenuation_ps.fxo
+shaders/d3d11/unlit_motion_color_diff_ps.fxo
+shaders/d3d11/unlit_motion_cost_ps.fxo
+shaders/d3d11/unlit_motion_vector_diff_ps.fxo
+shaders/d3d11/unlit_motion_vectors_ps.fxo
+shaders/d3d11/unlit_ps.fxo
+shaders/d3d11/unlit_sint16_ps.fxo
+shaders/d3d11/unlit_vs.fxo
 showIssues
 showMirrorView
 showPerfGraph
@@ -8999,7 +9103,6 @@ start
 startMonitorFromAppLaunch
 startsteam
 startup
-startup_reason
 state
 statesimulator
 status
@@ -9017,7 +9120,6 @@ status_warning_top
 status_warning_width
 statusreport
 steam://install/1635730
-steam://install/2467050
 steam://install/719950
 steam://url/CommunityFilePage/%llu
 steam://url/SteamWorkshopPage/%u
@@ -9093,6 +9195,7 @@ subTickLengthIn
 subTickLengthOut
 subTickPen
 successful
+supersampleManualOverride
 supersampleScale
 supporttool
 supporttool/lastFile

@@ -349,7 +349,6 @@ Driver Not Known (201)
 Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
 Driver runtime is out of date (204)
-Driver unable to initialize video encoder (499)
 Duplicate key: '
 DuplicateHandle
 DynamicProgressFeedback
@@ -727,7 +726,6 @@ VRInitError_Compositor_FailedToCreateVirtualDisplayBackbuffer
 VRInitError_Compositor_FailedToFindDisplayMode
 VRInitError_Compositor_FailedToGetBackBuffer
 VRInitError_Compositor_FailedToGetDXGIDeviceInterface
-VRInitError_Compositor_FailedToInitializeEncoder
 VRInitError_Compositor_FailedToShowWindow
 VRInitError_Compositor_FailedtoGetDXGI2BackBuffer
 VRInitError_Compositor_FirmwareRequiresUpdate
@@ -925,7 +923,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-`08e
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -1124,7 +1121,7 @@ protocol error
 protocol not supported
 r7Yr7=
 rLp>B
-raB3G
+raB3GD
 read only file system
 rejectDupKeys
 resource deadlock would occur

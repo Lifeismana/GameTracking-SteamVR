@@ -1,6 +1,5 @@
 {
     "dashboard": {
-        "allowVRGamepadUI": true,
         "enableWindowView": true
     },
     "version": "1",
