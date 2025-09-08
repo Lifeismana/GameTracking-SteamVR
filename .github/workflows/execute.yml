@@ -8,6 +8,11 @@ on:
                 required: false
                 default: 'beta'
                 type: string
+            manifest:
+                description: 'Steam VR Manifests'
+                required: false
+                default: ''
+                type: string
     repository_dispatch:
 
 concurrency:
@@ -33,7 +38,7 @@ jobs:
               env:
                 GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
             - name: Execute script
-              uses: docker://ghcr.io/lifeismana/gametracking-steamvr:latest
+              uses: docker://ghcr.io/lifeismana/gametracking-steamvr:experimental
               env:
                 GIT_NAME: ${{ secrets.GIT_NAME }}
                 GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
@@ -44,6 +49,7 @@ jobs:
                 GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
                 GITHUB_APP_ID: ${{ secrets.GH_APP_ID }}
                 STEAM_BRANCH: ${{ github.event.inputs.branch }}
+                STEAM_MANIFESTS: ${{ github.event.inputs.manifest }}
             - name: Dispatch svg script
               run: |
                 curl \
