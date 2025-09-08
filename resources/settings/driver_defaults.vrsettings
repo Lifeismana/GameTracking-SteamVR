@@ -1,7 +1,0 @@
-{
-    "enable": true,
-    "blocked_by_safe_mode": false,
-    "loadPriority": 0,
-    "hmdAllowsClientToControlTextureIndex" : true,
-    "forceSystemLayerUseAppPoses" : true
-}

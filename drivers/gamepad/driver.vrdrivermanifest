@@ -1,8 +1,0 @@
-{
-	"alwaysActivate": true,
-	"name" : "gamepad",
-	"directory" : "",
-	"resourceOnly" : false,
-	"prefersUpperDeviceIndices" :  true,
-	"hmd_presence" : []
-}
