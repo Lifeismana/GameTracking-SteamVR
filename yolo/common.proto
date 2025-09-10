@@ -18,18 +18,26 @@ message CClientMetrics_ReportClientError_Notification_Error {
 message CVRGamepadUI_Frame {
 	optional uint32 frame_id = 1;
 	optional .CVRGamepadUI_Frame_FrameMenu menu = 2;
+	repeated .CVRGamepadUIShared_Action defined_actions = 3;
 	optional string tmp_title = 1000;
 }
 
 // Used by: common.proto
 message CVRGamepadUI_Frame_FrameMenu {
-	repeated .CVRGamepadUI_Frame_FrameMenu_Item items = 1;
+	repeated .CVRGamepadUI_Frame_FrameMenu_Item items_for_left_frame_menu = 1;
+	repeated .CVRGamepadUI_Frame_FrameMenu_Item items_for_tab_frame_menu = 2;
 }
 
 // Used by: common.proto
 message CVRGamepadUI_Frame_FrameMenu_Item {
-	optional .CVRGamepadUIShared_Icon tmp_icon = 1000;
-	optional string tmp_label = 1001;
+	optional int32 type = 1 [(.description) = "enum"];
+	optional uint32 action_id = 2;
+	optional .CVRGamepadUI_Frame_FrameMenu_Item_SteamMainMenuOptions steam_main_menu_options = 3;
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Frame_FrameMenu_Item_SteamMainMenuOptions {
+	optional bool allow_show_as_active = 1;
 }
 
 message CVRGamepadUI_Message_DashboardActionInvoked_Request {
@@ -163,6 +171,8 @@ message CVRGamepadUI_Message_ShowOverlay_Response {
 message CVRGamepadUI_Message_UpdateFrameUIs_Request {
 	repeated .CVRGamepadUI_Frame updated_frames = 1;
 	repeated uint32 deleted_frames = 2;
+	repeated uint32 shown_frames = 3;
+	repeated uint32 hidden_frames = 4;
 }
 
 message CVRGamepadUI_Message_UpdateFrameUIs_Response {
@@ -176,14 +186,30 @@ message CVRGamepadUI_Message_UpdateFrameUIs_Response_FrameUpdateResult {
 }
 
 // Used by: common.proto
-message CVRGamepadUIShared_DashboardAction {
+message CVRGamepadUIShared_Action {
+	optional uint32 action_id = 1;
+	optional string display_name = 2;
+	optional int32 invocation = 3 [(.description) = "enum"];
+	optional .CVRGamepadUIShared_Icon icon = 4;
+	optional .CVRGamepadUIShared_Icon icon_active = 5;
+	optional bool enabled = 6;
+	optional bool active = 7;
+}
+
+// Used by: common.proto
+message CVRGamepadUIShared_DEPRECATED_DashboardActionIcon {
+	optional int32 enum = 1 [(.description) = "enum"];
+}
+
+// Used by: common.proto
+message CVRGamepadUIShared_DEPRECATED_DashboardBarAction {
 	optional uint32 action_id = 1;
 	optional bool visible_in_dashboard_bar = 2;
 	optional bool enabled = 3;
 	optional string display_name = 4;
 	optional .CVRGamepadUIShared_DEPRECATED_DashboardActionIcon deprecated_icon = 5;
 	optional .CVRGamepadUIShared_DEPRECATED_DashboardActionIcon deprecated_icon_active = 6;
-	optional int32 invocation = 7 [default = 1, (.description) = "enum"];
+	optional int32 invocation = 7 [(.description) = "enum"];
 	optional bool active = 8;
 	optional int32 special_invocation = 9 [(.description) = "enum"];
 	optional bool visible_in_menu = 10;
@@ -191,11 +217,6 @@ message CVRGamepadUIShared_DashboardAction {
 	optional uint32 parent_menu_action_id = 12;
 	optional .CVRGamepadUIShared_Icon icon = 13;
 	optional .CVRGamepadUIShared_Icon icon_active = 14;
-}
-
-// Used by: common.proto
-message CVRGamepadUIShared_DEPRECATED_DashboardActionIcon {
-	optional int32 enum = 1 [(.description) = "enum"];
 }
 
 // Used by: common.proto
@@ -214,14 +235,31 @@ message CVRGamepadUIShared_Icon {
 	optional uint32 hwnd = 4;
 }
 
-message CVRGamepadUIShared_PathProperty_DashboardActions {
-	repeated .CVRGamepadUIShared_DashboardAction actions = 1;
+message CVRGamepadUIShared_PathProperty_DashboardBarActions {
+	repeated .CVRGamepadUIShared_DEPRECATED_DashboardBarAction deprecated_actions = 1;
+	repeated .CVRGamepadUIShared_Action defined_actions = 2;
+	repeated .CVRGamepadUIShared_PathProperty_DashboardBarActions_BarButton bar_buttons = 3;
+	repeated .CVRGamepadUIShared_PathProperty_DashboardBarActions_BarMenuItem bar_menu_items = 4;
+}
+
+// Used by: common.proto
+message CVRGamepadUIShared_PathProperty_DashboardBarActions_BarButton {
+	optional int32 type = 1 [(.description) = "enum"];
+	optional uint32 action_id = 2;
+	optional bool is_main_hamburger_menu = 3;
+}
+
+// Used by: common.proto
+message CVRGamepadUIShared_PathProperty_DashboardBarActions_BarMenuItem {
+	optional int32 type = 1 [(.description) = "enum"];
+	optional uint32 parent_menu_action_id = 2;
+	optional uint32 action_id = 3;
 }
 
 message CVRGamepadUIShared_PathProperty_DashboardTabs {
 	repeated .CVRGamepadUIShared_PathProperty_DashboardTabs_Tab tabs = 1;
 	optional uint32 selected_tab_id = 2;
-	optional uint32 vr_settings_tab_id = 3;
+	optional uint32 deprecated_vr_settings_tab_id = 3;
 	optional uint32 vr_steam_tab_id = 4;
 }
 
@@ -231,8 +269,9 @@ message CVRGamepadUIShared_PathProperty_DashboardTabs_Tab {
 	optional bool visible_in_dashboard_bar = 2;
 	optional string display_name = 3;
 	optional .CVRGamepadUIShared_DEPRECATED_DashboardTabIcon deprecated_icon = 4;
-	optional bool visible_in_dashboard_menu = 5;
+	optional bool visible_in_dashboard_bar_hamburger_menu = 5;
 	optional .CVRGamepadUIShared_Icon icon = 6;
+	optional uint32 associated_frame_id = 7;
 }
 
 message CVRGamepadUIShared_PathProperty_DesktopWindows {
