@@ -978,12 +978,6 @@ enum UnnamedEnumf05301e70f30d754
 	Unknown = 100;
 }
 
-enum UnnamedEnumf07d35c4d8d49a89
-{
-	Persistent = 0;
-	OnDemand = 1;
-}
-
 enum UnnamedEnumf9026a77d9370b25
 {
 	SingleLine = 0;
