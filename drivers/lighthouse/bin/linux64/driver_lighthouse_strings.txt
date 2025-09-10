@@ -946,6 +946,7 @@ $3br
 20CVkCommandBufferPool
 20IVRAudioNotification
 20IVRVirtualDisplay001
+21:12:45
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
@@ -956,7 +957,6 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
-23:21:24
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -1184,7 +1184,6 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Attempting HID Open %s: %s\n
 Audio
 AudioBridge
-Aug 29 2025
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)\n
@@ -3462,8 +3461,10 @@ CVkDevice::Initialize(void (*(*)(VkInstance_T*, char const*))())
 CVkDevice::IsCompatibleVulkanVersion(unsigned int)
 CVkDevice::IsCompatibleVulkanVersion(unsigned int) (.part.0)
 CVkDevice::IsDeviceExtensionAvailable(char const*)
+CVkDevice::IsDeviceExtensionAvailableLocked(char const*)
 CVkDevice::IsDeviceExtensionEnabled(char const*)
 CVkDevice::IsDeviceExtensionEnabled(char const*) (.cold)
+CVkDevice::IsDeviceExtensionEnabledLocked(char const*)
 CVkDevice::IsExtensionAvailableLocked(std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>&, char const*)
 CVkDevice::IsGlobalPriorityQuerySupported(VkPhysicalDevice_T*)
 CVkDevice::IsInstanceExtensionAvailable(char const*)
@@ -3492,7 +3493,7 @@ CVkDevice::SetDebugName(unsigned long, VkObjectType, std::string const&)
 CVkDevice::Shutdown()
 CVkDevice::UseDevice(VkDevice_T*)
 CVkDevice::UseInstance(VkInstance_T*)
-CVkDevice::UsePhysicalDevice(VkPhysicalDevice_T*)
+CVkDevice::UsePhysicalDevice(VkPhysicalDevice_T*, bool)
 CVkDevice::~CVkDevice()
 CVkGarbageCollector: %s
 CVkGarbageCollector::Acquire(CVkResourceBase*)
@@ -6428,6 +6429,7 @@ SelectVideoConfig: driver_lighthouse.forceSoloEdid=true\n
 Selected existing universe %llu (%08X is %s)\n
 Self queried namespace: %u\n
 Sent message id %u, received %u (%s). Rejecting response.\n
+Sep  8 2025
 September
 ServiceDescriptorProto
 ServiceOptions

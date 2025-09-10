@@ -142,6 +142,7 @@ $3br
 .?AUToBase_t@Detail@Reflection@@
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_054ec0d90128816f29bca28af468a816>@@
+.?AV<lambda_0624edd98049f3ae9789e360a827f5a6>@@
 .?AV<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@
 .?AV<lambda_0881c9906f05f503e42109ac226d18eb>@@
 .?AV<lambda_088be9d629c529e04e66f668ef48a2de>@@
@@ -153,6 +154,7 @@ $3br
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_3775199eb374ee8b8777545cef56c745>@@
 .?AV<lambda_3fd6e5ca82e0518e289160675f532929>@@
+.?AV<lambda_464f3c09c62c7563fe9e8d0867be1607>@@
 .?AV<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@
 .?AV<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@
 .?AV<lambda_76b893375c6dd71409cfaed387a60af4>@@
@@ -163,7 +165,6 @@ $3br
 .?AV<lambda_876f99566db85b37b4813643d63fd007>@@
 .?AV<lambda_8af3af333305e3d84f47041b3014cca5>@@
 .?AV<lambda_8c41f96c9266656aa778846b9a081afc>@@
-.?AV<lambda_9787ee15003acd9f7960fadc995d16b7>@@
 .?AV<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@
 .?AV<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@
 .?AV<lambda_a3e50aa671c83e58801967e93e8597ee>@@
@@ -212,6 +213,7 @@ $3br
 .?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_054ec0d90128816f29bca28af468a816>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0624edd98049f3ae9789e360a827f5a6>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0881c9906f05f503e42109ac226d18eb>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_088be9d629c529e04e66f668ef48a2de>@@XW4ValueTransportID@@_N@std@@
@@ -223,6 +225,7 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3775199eb374ee8b8777545cef56c745>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3fd6e5ca82e0518e289160675f532929>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_464f3c09c62c7563fe9e8d0867be1607>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_76b893375c6dd71409cfaed387a60af4>@@XW4ValueTransportID@@_N@std@@
@@ -233,7 +236,6 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_876f99566db85b37b4813643d63fd007>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8af3af333305e3d84f47041b3014cca5>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8c41f96c9266656aa778846b9a081afc>@@XW4EControlConnectMessageType@@PEBX_K@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_9787ee15003acd9f7960fadc995d16b7>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a3e50aa671c83e58801967e93e8597ee>@@XAEBVValue@Json@@@std@@
@@ -510,7 +512,6 @@ $3br
 /input/y/touch
 /install /add-driver "
 /is_link_environment
-/is_server_dashboard_visible
 /link_stream_packet_time
 /output/haptic
 /pose/grip
@@ -1747,6 +1748,7 @@ RPCRT4.dll
 RRvM;;
 RSDS
 RX Fail:%d
+R\vp\e
 RaiseException
 Received 0 byte message on control connection. Disconnecting
 Received GPU Architecture %d\n
@@ -2221,12 +2223,12 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 Warning: packet received with wrong identifier. Expected 0x02...... got: %08x
 Warning: received packet ID %d in frame %d, but packet id exceeded max frame size\n
 Warning: received packet with invalid session ID (%08x/%08x/%08x)\n
+Warning: remote_dashboard_open received during unified dashboard mode.  TODO: implement
 Warning: res field incorrect [clear mode] %04x\n
 Warning: res field incorrect [encryption mode] %08x on packet size %d\n
 Warning: retransmit request for unknown message %d (frame number=%d\n
 Warning: unMaxBitRate (%u) over m_nMaxMBPerSecond (%u)\n
 Warning: unVbvBufferSizeBits (%u) over m_unMaxBitsPerFrame (%u)\n
-We lost the HMD wars -- another HMD activated\n
 WideCharToMultiByte
 WiredSession
 WirelessHost
@@ -2321,6 +2323,7 @@ Zjz\v
 [vrlink] !!!! ReleaseSync FAILED with E_FAIL
 [vrlink] !!!! ReleaseSync FAILED with unknown hr
 \44h
+\fpxu
 \frrrrrrrrrrrrrrrr
 \mfpmp.exe
 \nbad png sig
@@ -2670,6 +2673,7 @@ dTargetBW
 dV22tN::
 da_dk
 danish
+dashboard
 dashboard_transform
 dashboard_tutorial_dismissed
 data
@@ -3110,6 +3114,7 @@ rolloffFactor
 romanian
 rotation
 roughnessFactor
+roundf
 rtus_test
 ru_ru
 runas
@@ -3244,6 +3249,7 @@ uk_ua
 ukrainian
 unexpected 
 ungetc
+unifiedDashboard
 universeID
 universes
 unknown BMP

@@ -175,6 +175,7 @@ $Ib?s
 ?qBJ
 ?rAj
 ?ysB
+@LLD PDB.
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
@@ -1047,7 +1048,6 @@ N>O=I9
 N>VF
 NAN(IND)
 NAN(SNAN)
-NLLD PDB.
 NQ?s
 NULL pointer passed into vkGetPhysicalDeviceSurfaceCapabilitiesKHR for pSurfaceCapabilities!
 NULL pointer passed into vkGetPhysicalDeviceSurfaceFormatsKHR for pSurfaceFormatCount!
@@ -1089,7 +1089,7 @@ QueueSubmit
 QueueSubmit2
 QueueSubmit2KHR
 QueueWaitIdle
-RSDS2
+RSDS/
 R\fpH,
 R\n0\tP
 R\n0\tp
@@ -1317,6 +1317,7 @@ Z\>z8
 \tkE>fvw
 \vA03>A|
 ^<V7w
+^JGg
 ^RfN>
 __based(
 __cdecl

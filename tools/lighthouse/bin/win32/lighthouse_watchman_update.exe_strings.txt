@@ -259,7 +259,7 @@
 ??_7ctype_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?ITrackedDeviceServerDriver_005
+?NRF52
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@GG@Z
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
 ?_BADOFF@std@@3_JB
@@ -487,6 +487,7 @@ ICE40
 ISP-ETRON-776
 ISP-ETRON-876
 IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
@@ -540,7 +541,6 @@ Max watchdog reset count
 MbP?
 NEO_VRC
 NJ2"v
-NRF52
 NRF52 DTM
 New App Version
 New BL Version
@@ -565,7 +565,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS
+RSDS8r
 Radio version:      
 RaiseException
 ReadFile

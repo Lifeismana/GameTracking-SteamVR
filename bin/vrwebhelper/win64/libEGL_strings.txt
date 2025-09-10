@@ -17,6 +17,7 @@
 &Sgw
 (null)
 *StO9>T
+-HLLD PDB.
 ..\..\third_party\libc++\src\include\__memory\construct_at.h:40: assertion __location != nullptr failed: null pointer given to construct_at\n
 ..\..\third_party\libc++\src\include\__memory\construct_at.h:66: assertion __loc != nullptr failed: null pointer given to destroy_at\n
 ..\..\third_party\libc++\src\include\__string\char_traits.h:145: assertion !std::__is_pointer_in_range(__s1, __s1 + __n, __s2) failed: char_traits::copy: source and destination ranges overlap\n
@@ -357,7 +358,6 @@ L>ev
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
-LLD PDB.
 LeaveCriticalSection
 LoadLibraryExW
 LoadLibraryW

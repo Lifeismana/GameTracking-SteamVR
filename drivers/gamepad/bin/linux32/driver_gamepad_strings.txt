@@ -730,6 +730,7 @@ DriverLogString(char const*)
 DriverLogVarArgs(char const*, char*)
 Enable multithreading to use std::thread
 Error: failed to load dynamic SDL
+FW~g<
 Failed to init scheduler: failed to get rlimit\n
 Failed to init scheduler: failed to get sched params %d\n
 Failed to init scheduler: failed to set rlimit\n

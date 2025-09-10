@@ -1897,11 +1897,12 @@ $tI(knN
 /x/touch
 /y/click
 /y/touch
-0 B3
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789ABCDEF
+04g3
+0@J3
 0\tFAJ
 1.0.3.16
 1/2/4/8/16-bit only
@@ -3701,7 +3702,7 @@ OrthographicCamera
 Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
-P B3
+P@J3
 PATH_TO_LOCAL_STRING failed with %s
 PC_%08llx
 PICT
@@ -3960,7 +3961,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS\r
+RSDS
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -6370,6 +6371,7 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
+`4g3
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
@@ -7422,7 +7424,8 @@ overlay_handle
 overlay_key
 override_device_class
 overwrite.vrsettings
-p B3
+p4g3
+p@J3
 pBuffer != nullptr
 pClient
 pCmdBuf

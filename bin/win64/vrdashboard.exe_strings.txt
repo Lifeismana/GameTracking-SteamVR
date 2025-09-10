@@ -133,7 +133,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-16:20:31
+14:16:57
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -198,7 +198,6 @@ Aborting due to fatal assertion failure.
 Alert
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 Assert( %s ) %s(%d)\n
-Aug 29 2025
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -405,6 +404,7 @@ STEAMVR_ENABLE_THREAD_WATCHDOGS
 STEAMVR_GPUVIS_ON_ASSERT
 See 
 Sending device changed event.\n
+Sep  8 2025
 Set thread %p priority to: %d\n
 SetEnvironmentVariableA
 SetEvent

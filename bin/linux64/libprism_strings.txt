@@ -463,7 +463,7 @@
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-23:21:24
+21:12:45
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 30CSharedResourceNamespaceServer
@@ -499,7 +499,6 @@ Apply median filter
 April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
-Aug 29 2025
 August
 Automatically quitting due to idle time > %f seconds.
 BCreateDirectory(char const*)
@@ -514,7 +513,6 @@ BSharedResourceNamespaceAvailable() (.cold)
 BSharedResourceNamespaceInTestMode()
 BSharedResourceNamespaceTryOneInit()
 BSharedResourceNamespaceTryOneInit() (.cold)
-BTc8
 Bad Access flag on shared mem create: %s: %u\n
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
@@ -1142,8 +1140,10 @@ CVkDevice::Initialize(void (*(*)(VkInstance_T*, char const*))())
 CVkDevice::IsCompatibleVulkanVersion(unsigned int)
 CVkDevice::IsCompatibleVulkanVersion(unsigned int) (.part.0)
 CVkDevice::IsDeviceExtensionAvailable(char const*)
+CVkDevice::IsDeviceExtensionAvailableLocked(char const*)
 CVkDevice::IsDeviceExtensionEnabled(char const*)
 CVkDevice::IsDeviceExtensionEnabled(char const*) (.cold)
+CVkDevice::IsDeviceExtensionEnabledLocked(char const*)
 CVkDevice::IsExtensionAvailableLocked(std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>&, char const*)
 CVkDevice::IsGlobalPriorityQuerySupported(VkPhysicalDevice_T*)
 CVkDevice::IsInstanceExtensionAvailable(char const*)
@@ -1172,7 +1172,7 @@ CVkDevice::SetDebugName(unsigned long, VkObjectType, std::string const&)
 CVkDevice::Shutdown()
 CVkDevice::UseDevice(VkDevice_T*)
 CVkDevice::UseInstance(VkInstance_T*)
-CVkDevice::UsePhysicalDevice(VkPhysicalDevice_T*)
+CVkDevice::UsePhysicalDevice(VkPhysicalDevice_T*, bool)
 CVkDevice::~CVkDevice()
 CVkGarbageCollector: %s
 CVkGarbageCollector::Acquire(CVkResourceBase*)
@@ -2329,6 +2329,7 @@ Saturday
 SecondsToSystemTicks(double)
 See 
 Self queried namespace: %u\n
+Sep  8 2025
 September
 Set thread %p priority to: %d\n
 SetCurrentProcessExplicitAppUserModelID()

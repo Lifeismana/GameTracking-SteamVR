@@ -59,6 +59,7 @@
 .?AVbad_array_new_length@std@@
 .?AVbad_exception@std@@
 .?AVbad_optional_access@std@@
+.?AVbad_variant_access@std@@
 .?AVcharNode@@
 .?AVdomain_error@std@@
 .?AVerror_category@std@@
@@ -176,20 +177,19 @@
 /TMCache
 /UDTSRCLINEUNDONE
 /names
-08FP
 0LtER
 0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
+1.2.13
 11Y@
-14.42.34433.0
+14.42.34436.0
 1YT[
 1vJ9c
 2*iZ
-2\vp\U
-3333333333333333UUUUUUUUUUUUUUUU0123456789abcdefMicrosoft
+3333333333333333UUUUUUUUUUUUUUUU0123456789abcdef
 37>k
 3>N;kU
 3>fvw
@@ -201,15 +201,14 @@
 7Q;P
 7aw=
 7w+z
-8@B0?
+8@B N
 8@HJ
 8@HPXZ
 8@HPX`hpx
-8@HPX`hvP
-8@HPXfP
-8@HP^P
-8@HVP
-8@NP
+8@HPX`hv
+8@HPXf
+8@HP^
+8@HV
 9:D1k
 9a&g
 9tcN
@@ -232,8 +231,6 @@
 ?qBJ
 ?ysB
 @/LinkInfo
-@1.2.13
-@HVP
 @ILT
 @ILT+%d(%s)EnC
 @Range error during SafeInt constructor
@@ -576,6 +573,7 @@ MapViewOfFile
 MapViewOfFileEx
 March
 Method.#%X
+Microsoft
 Microsoft (R) LINK
 Microsoft (R) Optimizing Compiler
 Microsoft C/C++ MSF 7.00\r\n
@@ -597,7 +595,8 @@ OZQ%
 October
 OfiD
 OutputDebugStringA
-P8@HJ0?
+P2`2
+P8@HJ
 PathFileExistsW
 PathFindFileNameW
 Prev
@@ -942,11 +941,8 @@ __swift_3
 __thiscall
 __unaligned
 __vectorcall
-`8@HPXfP
-`8@HP^P
-`8@HVP
-`8@NP
-`8FP
+`8@HPXf
+`8@HV
 `P9A
 `RTTI
 `adjustor{
@@ -963,7 +959,6 @@ __vectorcall
 `generic-class-parameter-
 `generic-method-parameter-
 `generic-type-
-`hFP
 `hpx
 `hxB
 `le_3
@@ -1033,6 +1028,7 @@ bad array new length
 bad exception
 bad file descriptor
 bad message
+bad variant access
 bool
 broken pipe
 buffer error
@@ -1738,11 +1734,10 @@ operator co_await
 operator<=>
 owM&
 owner dead
-p20?
-p2P=
-p8>P
-p8@HPXfP
-p8@NP
+p2 N
+p6@k
+p8@HPXf
+p8@N
 permission denied
 phxB
 pjn]+
@@ -1775,7 +1770,6 @@ put_loadAddress
 put_relativeVirtualAddressEnabled
 qER@
 r\tVr.>T
-r\vp`Q
 read only file system
 resource deadlock would occur
 resource unavailable try again

@@ -303,6 +303,7 @@ $Ib?s
 11eU%
 127.0.0.1
 2\n0\tP
+2\vpL
 37>k
 3>N;kU
 3>fvw
@@ -310,6 +311,7 @@ $Ib?s
 6..\..\base\values.cc
 6NK>
 6\fXO>\ntA
+6be31344d9e3c3145db9bc86aba2c0773bf6bac4
 7>I0
 7?GX
 7~xh
@@ -371,6 +373,7 @@ $Ib?s
 ?qBJ
 ?rAj
 ?ysB
+@testSendProcessMessage
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABNORMAL_TERMINATION
@@ -518,7 +521,7 @@ D3D11CreateDevice
 D3DCompile
 D7q"
 D7q/;M
-DNASYXOB0
+DNASYXOB@
 DUMMY_HISTOGRAM
 Dark
 Debug
@@ -1037,9 +1040,10 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryThreadCycleTime
 REPLACE_THIS_STRING
-RSDS
+RSDSE
 R\n0\tP
 R\n0\tp
+R\vpL
 Radio Item 1
 Radio Item 2
 Radio Item 3
@@ -1443,7 +1447,6 @@ atan2
 attributes
 audio
 ax_tree_id
-b611b6b1705046c6b004a392498da212206045ab
 background-color
 bad allocation
 bad array new length
@@ -2201,7 +2204,6 @@ terminate_handler unexpectedly returned\n
 terminate_handler unexpectedly threw an exception\n
 test string
 testId
-testSendProcessMessage
 testSendProcessMessageResult(
 testSendSMRProcessMessage
 test_gpu

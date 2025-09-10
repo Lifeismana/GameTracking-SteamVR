@@ -3998,6 +3998,7 @@ Override with -verbose=none except for specified functions
 OverrideCoverageNV
 PA..\..\third_party\swiftshader\src\Vulkan\VkSemaphore.cpp
 PNaCl bitcode file
+PPR=U
 PackDouble2x32
 PackHalf2x16
 PackSnorm2x16

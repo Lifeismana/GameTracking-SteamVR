@@ -246,7 +246,6 @@ L>ev
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
-LLD PDB.
 LeaveCriticalSection
 LoadLibraryExW
 LocaleNameToLCID
@@ -272,7 +271,7 @@ October
 Operation not permitted
 Permission denied
 QueryPerformanceCounter
-RSDS
+RSDS\n
 R\fph
 R\n0\tP
 R\n0\tp
@@ -700,6 +699,7 @@ WideCharToMultiByte
 WriteConsoleW
 WriteFile
 X/4B
+[LLD PDB.
 [aOni*{
 \fp\vPT
 \tcQr

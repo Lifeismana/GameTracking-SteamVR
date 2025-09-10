@@ -219,7 +219,6 @@ $0enum $1 {\n
 $0option $1;\n
 $3br
 $tAUUPE
-$tIh
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %02x
 %04X
@@ -1074,7 +1073,6 @@ $tIh
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899P
 0123456789abcdef
 0\tFAJ
-0a\v6<h
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -2535,7 +2533,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDSR
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3363,7 +3361,6 @@ Zjz\v
 [packed = true] can only be specified for repeated primitive fields.
 \%03o
 \U%08x
-\fpHK
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 

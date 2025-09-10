@@ -768,7 +768,6 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
-qMiE
 realloc
 runas
 space

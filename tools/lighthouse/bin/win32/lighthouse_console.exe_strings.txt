@@ -905,6 +905,7 @@ GLOG_vmodule
 GOOGLE_ALSOLOGTOSTDERR
 GOOGLE_LOGTOSTDERR
 GOOGLE_LOG_DIR
+GRhG
 General reset
 GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for all controllers\n
 GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
@@ -1141,7 +1142,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS2n
+RSDS
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):

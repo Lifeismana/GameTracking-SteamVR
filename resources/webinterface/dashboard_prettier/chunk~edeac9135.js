@@ -1,54 +1,16 @@
-var CLSTAMP = "10029581";
+var CLSTAMP = "10050451";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [906, 458],
   {
     9864: (e, t, r) => {
-      r.d(t, { m: () => a });
+      r(6540);
       var o,
-        i = r(6540),
-        n = r(3496);
+        i = r(3496);
       !(function (e) {
         (e[(e.LockedToParent = 0)] = "LockedToParent"),
           (e[(e.LockedToWorld = 1)] = "LockedToWorld");
       })(o || (o = {}));
-      class a extends n._J {
-        constructor(e) {
-          super(e);
-        }
-        internalRender() {
-          let e = this.props.start_angle_threshold
-              ? (this.props.start_angle_threshold * Math.PI) / 180
-              : null,
-            t = this.props.stop_angle_threshold
-              ? (this.props.stop_angle_threshold * Math.PI) / 180
-              : null,
-            r = this.props.ease_out_angle_threshold
-              ? (this.props.ease_out_angle_threshold * Math.PI) / 180
-              : null,
-            o = this.props.min_angular_velocity
-              ? (this.props.min_angular_velocity * Math.PI) / 180
-              : null,
-            n = this.props.max_angular_velocity
-              ? (this.props.max_angular_velocity * Math.PI) / 180
-              : null;
-          return i.createElement(
-            "vsg-elastic-head-transform",
-            {
-              "start-angle-threshold": e,
-              "stop-angle-threshold": t,
-              "ease-in-time": this.props.ease_in_time,
-              "ease-in-power": this.props.ease_in_power,
-              "ease-out-angle-threshold": r,
-              "ease-out-power": this.props.ease_out_power,
-              "min-angular-velocity": o,
-              "max-angular-velocity": n,
-              "lock-to-horizon": this.props.lock_to_horizon,
-              "translation-behavior": this.props.translation_behavior,
-            },
-            this.props.children,
-          );
-        }
-      }
+      i._J;
     },
     7019: (e, t, r) => {
       r.d(t, {
@@ -70,8 +32,8 @@ var CLSTAMP = "10029581";
         d = r(5178),
         u = r(3236),
         c = r(5723),
-        h = r(7600);
-      function m(e) {
+        m = r(7600);
+      function h(e) {
         if (e) return [e.u, e.v];
       }
       function g(e) {
@@ -274,8 +236,8 @@ var CLSTAMP = "10029581";
               currentPanel: this,
             }),
             u = this.createSgNode(t),
-            h = { x: 0, y: 0 };
-          h =
+            m = { x: 0, y: 0 };
+          m =
             "object" == typeof this.props.origin
               ? (0, p.PG)(this.props.origin, { x: 0, y: 0 })
               : g(this.props.origin);
@@ -288,9 +250,9 @@ var CLSTAMP = "10029581";
                 ? (u.properties.key = y)
                 : (u.properties.overlay_handle = (0, c.X4)()),
             (u.properties.uv_min =
-              null !== (r = m(this.m_UVsMin)) && void 0 !== r ? r : void 0),
+              null !== (r = h(this.m_UVsMin)) && void 0 !== r ? r : void 0),
             (u.properties.uv_max =
-              null !== (o = m(this.m_UVsMax)) && void 0 !== o ? o : void 0),
+              null !== (o = h(this.m_UVsMax)) && void 0 !== o ? o : void 0),
             (u.properties.width =
               null !== (i = this.props.width) && void 0 !== i ? i : void 0),
             (u.properties.height =
@@ -332,7 +294,7 @@ var CLSTAMP = "10029581";
               this.props.make_overlays_interactive_if_visible),
             (u.properties["is-grab-handle"] = this.props.is_grab_handle),
             (u.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
-            (u.properties.origin = (0, p.Hm)(h)),
+            (u.properties.origin = (0, p.Hm)(m)),
             (u.properties.debug_name = this.props.debug_name),
             (u.properties.sampler = this.props.sampler),
             (u.properties.reflect = this.props.reflect),
@@ -377,7 +339,7 @@ var CLSTAMP = "10029581";
           return _.createElement(
             "vsg-node",
             { style: { display: this.visibility == a.Hidden ? "none" : null } },
-            _.createElement(h.tH, null, this.props.children),
+            _.createElement(m.tH, null, this.props.children),
           );
         }
       }

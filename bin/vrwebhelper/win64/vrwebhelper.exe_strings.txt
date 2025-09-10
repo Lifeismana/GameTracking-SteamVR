@@ -565,7 +565,6 @@
 /dashboard_head_pose_from_standing
 /device_path
 /is_link_environment
-/is_server_dashboard_visible
 /link_stream_packet_time
 /system/wakingbasestations
 /user/ankle/left
@@ -586,12 +585,13 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-126.0.0-HEAD.3085+ge0e0e36+chromium-126.0.6478.183
+126.0.0-HEAD.3109+gad2e2ba+chromium-126.0.6478.183
 127.0.0.1
-16:20:31
+14:16:57
 1e+9999
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
+6be31344d9e3c3145db9bc86aba2c0773bf6bac4
 7^d[L
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -702,7 +702,6 @@ ArrayBuffer
 Assert( %s ) %s(%d)\n
 Attempt to init shared state %s twice
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug 29 2025
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
@@ -1322,9 +1321,6 @@ QuitOpenVR
 QuitSceneApp
 RPCRT4.dll
 RSDS
-R\f0L
-R\v0L
-R\vpL
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1436,6 +1432,7 @@ Searching for LUID:
 Second argument must be a TransformTRS
 Second argument must be a string
 See 
+Sep  8 2025
 SetCurrentProcessExplicitAppUserModelID
 SetEnvironmentVariableA
 SetEvent
@@ -2084,10 +2081,8 @@ Zjz\v
 [vrwebhelper] RunSingleFrame
 [vrwebhelper] RunSystemFrame
 \ApiLayers\
-\f0\vPL
 \n\t\t\t\t{\n\t\t\t\t\t"type" : "show_tracker_ui"\n\t\t\t\t}\n\t\t\t
 \n\t\t\t{\n\t\t\t\t"type" : "show_app_select"\n\t\t\t}\n\t\t
-\rp\f0\vPL
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -2175,7 +2170,6 @@ atoi
 audio
 autoplay-policy
 avrt.dll
-b611b6b1705046c6b004a392498da212206045ab
 bAllowCameraToggle
 bAllowLightSourceFrequency
 bHasCamera
@@ -2502,7 +2496,6 @@ pt_br
 pt_pt
 punct
 qMFCreateMediaType failed hr = 0x%08x\n
-r\fpL
 realloc
 reject
 rejectDupKeys

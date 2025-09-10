@@ -731,7 +731,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-16:20:31
+14:16:57
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -3064,7 +3064,6 @@ Audio Firmware: \t%1 / %2 %3\n
 AudioBridge
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
 AudioWorker
-Aug 29 2025
 Autoplaying loaded playlist\n
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
@@ -4022,6 +4021,7 @@ Failed to save mirror view display mode setting: %s\n
 Failed to save mirror view eye setting: %s\n
 Failed to save mirror view visibility setting: %s\n
 Failed to save perf graph visibility setting: %s\n
+Failed to set SteamVR as an available runtime
 Failed to set SteamVR as the default OpenXR Runtime\n
 Failed to set app container permissions on SteamVR\n
 Failed to set master process because control panel interface couldn't be retrieved\n
@@ -5927,7 +5927,7 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS
+RSDS8
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
 Radio
@@ -5972,6 +5972,7 @@ Reconnection allowed: %d
 Refreshing audio devices\n
 RegCloseKey
 RegCreateKeyExW
+RegDeleteValueA
 RegDeleteValueW
 RegDisableReflectionKey
 RegEnumKeyExA
@@ -5983,6 +5984,7 @@ RegOpenKeyExW
 RegQueryInfoKeyA
 RegQueryValueExA
 RegQueryValueExW
+RegSetValueExA
 RegSetValueExW
 RegisterHotKey
 Rejecting Base station incompatible rollback: Existing:%llu, Required:%llu\n
@@ -6215,6 +6217,7 @@ See
 Select System Report
 SelectablePart
 SelectableParts
+Sep  8 2025
 Serial: %1\n
 SessionID
 SessionTime
@@ -7273,10 +7276,13 @@ Zjz\v
 [NRF (Ext)] 
 [NRF (HMD)] 
 [Oxrtools] Aborting attempt to set SteamVR as the active runtime, it is already set.
+[Oxrtools] Unable to create the OpenXR available runtimes registry key %d
 [Oxrtools] Unable to disable key reflection for the OpenXR available runtime registry key %d
+[Oxrtools] Unable to disable key reflection for the OpenXR available runtimes registry key %d
 [Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for read %d
 [Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for writing %d
 [Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
+[Oxrtools] Unable to write into the OpenXR available runtimes registry key %d
 [Oxrtools] Unable to write the OpenXR ActiveRuntime registry key %d
 [PROBLEM] Basestation %#.8X sending strong signals from one laser and not the other.\n
 [PROBLEM] Saving Path Registry failed: 

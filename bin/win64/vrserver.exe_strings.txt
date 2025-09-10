@@ -625,7 +625,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$DriverSettingsInterfaceRegistration@VCVRSettings_001@@@@
 .?AV?$DriverSettingsInterfaceRegistration@VCVRSettings_002@@@@
 .?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_001@@@@
-.?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_002@@@@
 .?AV?$IPCResourceManagerClientInterfaceRegistration@VCVRIPCResourceManagerClient_001@@@@
 .?AV?$IVRPathsInterfaceRegistration@VCVRPaths_001@@@@
 .?AV?$ServerDriverHostInterfaceRegistration@VCVRServerDriverHost_004@@@@
@@ -863,7 +862,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCVRDriverSpatialAnchorsLatest@@
 .?AVCVRIOBuffer@@
 .?AVCVRIOBuffer_001@@
-.?AVCVRIOBuffer_002@@
 .?AVCVRIPCResourceManager@@
 .?AVCVRIPCResourceManagerBase@@
 .?AVCVRIPCResourceManagerClient_001@@
@@ -1634,21 +1632,25 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899PV9@
 0123456789ABCDEF
 0123456789abcdef
-065@
-089@
-0E8@
-0a8@
-0f8@
+018@
+068@
+0A9@
+0R8@
+0S9@
+0T9@
+0W8@
+0e2@
+0p9@
+0t9@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-16:20:31
+14:16:57
 1A26b
 1\f514
 1e+9999
@@ -1668,20 +1670,22 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-8A8@
-8F8@
+828@
+878@
+8D9@
+8S8@
+8W9@
+8X8@
+8Z9@
 8\n\textension
-8b8@
+8a9@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-8g8@
 8giP9giP9giP9giP9
-8j9@
 8k9@
-8l9@
-8u9@
-8w8@
+8o9@
+8x8@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1925,7 +1929,6 @@ Attempted to change property type from %d to %d
 Attempted to read payload of %d bytes from pipe but failed\n
 Attempting to start home app %s\n
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug 29 2025
 Auto launch dashboard %s has not started after %u checks. Giving up waiting.\n
 Autobinding role for device path: %s
 AutosaveURL
@@ -2838,14 +2841,10 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
-H59@
+H48@
+H98@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
-HC8@
 HEAD
-HH8@
-HK9@
-HL9@
-HM9@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2867,8 +2866,7 @@ HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
 HMDSerialNumber
-HN9@
-HO9@
+HTA@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2883,19 +2881,22 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
+HU8@
+HZ8@
 Hang the server for the specified number of seconds (default 3600)
 HasField
-Hd8@
 Hex and octal numbers must be integers.
+Hg2@
+Hl9@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
+Ho8@
 HostController
 How did we get here with a non-position slot?
-Hs9@
-Hv9@
+Hp8@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3432,19 +3433,15 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P39@
-P65@
+P58@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
-PD8@
-PF9@
-PI8@
 PICT
 PID_
-PJ9@
 PLACEHOLDER_VALUE
 PNG\r\n
 POST
+PQ9@
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
@@ -3472,8 +3469,7 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-PS4@
-PW9@
+PV8@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3485,7 +3481,6 @@ Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
 Pe6^
-Pe8@
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
@@ -3732,6 +3727,7 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
+Pv9@
 QkkXa
 Qkkbal
 Query failed
@@ -3754,7 +3750,9 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS7
+RSDS
+R\npP
+R\vpP
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3918,6 +3916,7 @@ See
 See Other
 Self queried namespace: %u\n
 Sending Quit event to process %s\n
+Sep  8 2025
 Server
 Server could not create read event %s\n
 Server somehow created read event before reader %s\n
@@ -5181,17 +5180,21 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-XE8@
-XJ8@
-XS9@
-XUA@
+X19@
+X68@
+X69@
+X79@
+X89@
+X99@
+XA9@
+XE9@
+XF9@
+XR9@
+XW8@
 XXXX PNG chunk not known
-Xf8@
-Xq9@
-Xr9@
+Xb9@
+Xi2@
 XsBI
-Xw9@
-Xz8@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -6378,10 +6381,11 @@ grip
 grip_limit_transforms
 group
 guid
-hB9@
-hG8@
-hL8@
+h45@
+h88@
 hPU3
+hTA@
+hY8@
 half_thresholds
 hand_interaction_ext
 hand_priority
@@ -6406,12 +6410,9 @@ hlvr/webui
 hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_settings_key
-ho9@
 holographic
 holographic_controller
-hp9@
 hpmotioncontroller
-hq8@
 html
 http:
 http://
@@ -6420,7 +6421,6 @@ https:
 https://
 hu_hu
 hungarian
-hx9@
 i91k
 i]Wb
 iauds
@@ -7015,10 +7015,9 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
+p98@
 pBegin == pEnd
 pEnd > pBegin
-pH8@
-pM8@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
@@ -7027,9 +7026,9 @@ pOutModifierCount MUST not be NULL.
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
-pT9@
 pUrl != nullptr
 pWebSocketMessage
+pZ8@
 package
 packed
 param1
@@ -7046,17 +7045,16 @@ path_handle
 path_handles
 paths
 payload
-pb9@
 pbrMetallicRoughness
 pending_file_saved
 perfcheck
 personal
 perspective
+pg9@
 pico_controller
 pinch
 pinchgrab
 pivot
-pj2@
 pl_pl
 playAreaColor
 play_area
@@ -7091,6 +7089,7 @@ positional
 positive_int_value
 power
 powf
+pp8@
 precision
 prediction
 prediction parameter out of range
@@ -7125,6 +7124,7 @@ publishedfileid
 pull
 punct
 putchar
+px9@
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
@@ -7686,18 +7686,11 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x39@
-x49@
-x99@
-xH9@
-xI8@
-xN8@
+x35@
 x_path
-xa9@
-xd9@
 xdigit
+xf9@
 xmag
-xy9@
 y9*O
 y_path
 yfov

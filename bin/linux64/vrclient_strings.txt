@@ -1289,6 +1289,7 @@ $tI(kn
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:12:45
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1341,7 +1342,6 @@ $tI(kn
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
-23:21:24
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -2026,7 +2026,6 @@ Attempted to read payload of %d bytes from pipe but failed\n
 Attempted to unmap un-allocated BO\n
 Attempted to unmap unmapped BO\n
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
-Aug 29 2025
 August
 AuthenticAMD
 AutosaveURL
@@ -2160,8 +2159,8 @@ BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
 C.71.340283
-C.77.214148
-C.9.216038
+C.77.214196
+C.9.216086
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -2713,6 +2712,10 @@ CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned 
 CHmdSystemLatest::GetProperties()
 CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*)
 CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*) (.cold)
+CHmdSystemLatest::GetRemoteTransformsRx(vr::RemoteTransforms_t*)
+CHmdSystemLatest::GetRemoteTransformsRx(vr::RemoteTransforms_t*) (.cold)
+CHmdSystemLatest::GetRemoteTransformsTx(vr::RemoteTransforms_t*)
+CHmdSystemLatest::GetRemoteTransformsTx(vr::RemoteTransforms_t*) (.cold)
 CHmdSystemLatest::GetResourceFullPath(std::string const&, std::string const&)
 CHmdSystemLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string>>*, std::string const&)
 CHmdSystemLatest::GetResources()
@@ -2772,6 +2775,10 @@ CHmdSystemLatest::SetMasterProcessRestartHint()
 CHmdSystemLatest::SetMasterProcessRestartHint() (.cold)
 CHmdSystemLatest::SetMasterProcessToThis()
 CHmdSystemLatest::SetMasterProcessToThis() (.cold)
+CHmdSystemLatest::SetRemoteTransformsRx(vr::RemoteTransforms_t const*)
+CHmdSystemLatest::SetRemoteTransformsRx(vr::RemoteTransforms_t const*) (.cold)
+CHmdSystemLatest::SetRemoteTransformsTx(vr::RemoteTransforms_t const*)
+CHmdSystemLatest::SetRemoteTransformsTx(vr::RemoteTransforms_t const*) (.cold)
 CHmdSystemLatest::SetVRMonitorState(vr::EVRState)
 CHmdSystemLatest::SetVRMonitorState(vr::EVRState) (.cold)
 CHmdSystemLatest::ShouldDisableWatchdogs()
@@ -4058,8 +4065,8 @@ CSxrCompositorOpenVR::WaitFrame(CFrameData*, CFrameData*, XrFrameState*)
 CSxrCompositorOpenVR::~CSxrCompositorOpenVR()
 CSxrCompositorOpenVRGetVulkanGRaphicsDevice error: failed to determine output device\n
 CSxrCompositorPrism::BeginFrame(CFrameData*)
-CSxrCompositorPrism::CSxrCompositorPrism(CSxrInstance*, CSxrSession*)
-CSxrCompositorPrism::CSxrCompositorPrism(CSxrInstance*, CSxrSession*) (.cold)
+CSxrCompositorPrism::CSxrCompositorPrism(CSxrInstance*, CSxrSession*, std::shared_ptr<IXrBinding>, std::shared_ptr<facet::CCompositionClient>)
+CSxrCompositorPrism::CSxrCompositorPrism(CSxrInstance*, CSxrSession*, std::shared_ptr<IXrBinding>, std::shared_ptr<facet::CCompositionClient>) (.cold)
 CSxrCompositorPrism::ComposeLayerProjection(CFrameData*, XrCompositionLayerProjection const*, long)
 CSxrCompositorPrism::ComposeLayerQuad(CFrameData*, XrCompositionLayerQuad const*, long)
 CSxrCompositorPrism::ComposeLayerQuad(CFrameData*, XrCompositionLayerQuad const*, long) (.cold)
@@ -17107,8 +17114,10 @@ CVkDevice::Initialize(void (*(*)(VkInstance_T*, char const*))())
 CVkDevice::IsCompatibleVulkanVersion(unsigned int)
 CVkDevice::IsCompatibleVulkanVersion(unsigned int) (.part.0)
 CVkDevice::IsDeviceExtensionAvailable(char const*)
+CVkDevice::IsDeviceExtensionAvailableLocked(char const*)
 CVkDevice::IsDeviceExtensionEnabled(char const*)
 CVkDevice::IsDeviceExtensionEnabled(char const*) (.cold)
+CVkDevice::IsDeviceExtensionEnabledLocked(char const*)
 CVkDevice::IsExtensionAvailableLocked(std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>&, char const*)
 CVkDevice::IsGlobalPriorityQuerySupported(VkPhysicalDevice_T*)
 CVkDevice::IsInstanceExtensionAvailable(char const*)
@@ -17137,7 +17146,7 @@ CVkDevice::SetDebugName(unsigned long, VkObjectType, std::string const&)
 CVkDevice::Shutdown()
 CVkDevice::UseDevice(VkDevice_T*)
 CVkDevice::UseInstance(VkInstance_T*)
-CVkDevice::UsePhysicalDevice(VkPhysicalDevice_T*)
+CVkDevice::UsePhysicalDevice(VkPhysicalDevice_T*, bool)
 CVkDevice::~CVkDevice()
 CVkGarbageCollector: %s
 CVkGarbageCollector::Acquire(CVkResourceBase*)
@@ -23122,6 +23131,7 @@ NSt8__detail15_BracketMatcherISt12regex_traitsIcELb1ELb1EEE
 NSt8ios_base7failureB5cxx11E
 NSt8ios_base7failureE
 NULL
+NV12
 NanosecondsFromSystemTicks(unsigned long)
 NeedToUpdateAutosave
 Neither required `bufferView` nor `uri` defined for image[
@@ -23283,6 +23293,7 @@ OverlayViewInterfaceRegistration<CVROverlayView_002>::GetInterface()
 OverlayViewInterfaceRegistration<CVROverlayView_002>::~OverlayViewInterfaceRegistration()
 OxrApiLayer_t& std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t>>::emplace_back<OxrApiLayer_t>(OxrApiLayer_t&&)
 OxrApiLayer_t::~OxrApiLayer_t()
+P010
 PATH_TO_LOCAL_STRING failed with %s
 PC_%08lx
 PFSsRKSsPvE
@@ -23832,6 +23843,7 @@ Self queried namespace: %u\n
 Sending focus captured event\n
 Sending focus released event\n
 Sent message id %u, received %u (%s). Rejecting response.\n
+Sep  8 2025
 September
 Server
 Server could not create read event %s\n
@@ -30193,6 +30205,8 @@ non-virtual thunk to CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin
 non-virtual thunk to CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
 non-virtual thunk to CHmdSystemLatest::GetProperties()
 non-virtual thunk to CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*)
+non-virtual thunk to CHmdSystemLatest::GetRemoteTransformsRx(vr::RemoteTransforms_t*)
+non-virtual thunk to CHmdSystemLatest::GetRemoteTransformsTx(vr::RemoteTransforms_t*)
 non-virtual thunk to CHmdSystemLatest::GetResourceFullPath(std::string const&, std::string const&)
 non-virtual thunk to CHmdSystemLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string>>*, std::string const&)
 non-virtual thunk to CHmdSystemLatest::GetResources()
@@ -30230,6 +30244,8 @@ non-virtual thunk to CHmdSystemLatest::SetHeadsetViewMode(vr::HeadsetViewMode_t)
 non-virtual thunk to CHmdSystemLatest::SetHeadsetViewSize(unsigned int, unsigned int)
 non-virtual thunk to CHmdSystemLatest::SetMasterProcessRestartHint()
 non-virtual thunk to CHmdSystemLatest::SetMasterProcessToThis()
+non-virtual thunk to CHmdSystemLatest::SetRemoteTransformsRx(vr::RemoteTransforms_t const*)
+non-virtual thunk to CHmdSystemLatest::SetRemoteTransformsTx(vr::RemoteTransforms_t const*)
 non-virtual thunk to CHmdSystemLatest::SetVRMonitorState(vr::EVRState)
 non-virtual thunk to CHmdSystemLatest::ShouldDisableWatchdogs()
 non-virtual thunk to CHmdSystemLatest::ShouldShowTrackerUI()

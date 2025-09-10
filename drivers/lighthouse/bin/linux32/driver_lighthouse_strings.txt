@@ -2832,6 +2832,7 @@ $3br
 20CVRTrackedDevice_004
 20IVRAudioNotification
 20IVRVirtualDisplay001
+21:12:36
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
@@ -2842,7 +2843,6 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
-23:21:19
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -3060,7 +3060,6 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Attempting HID Open %s: %s\n
 Audio
 AudioBridge
-Aug 29 2025
 August
 AuthenticAMD
 Available samples not sufficient for booting (%s)\n
@@ -7957,6 +7956,7 @@ SelectVideoConfig: driver_lighthouse.forceSoloEdid=true\n
 Selected existing universe %llu (%08X is %s)\n
 Self queried namespace: %u\n
 Sent message id %u, received %u (%s). Rejecting response.\n
+Sep  8 2025
 September
 ServiceDescriptorProto
 ServiceOptions

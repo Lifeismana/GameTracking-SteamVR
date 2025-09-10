@@ -1,7 +1,15 @@
-var CLSTAMP = "10029581";
+var CLSTAMP = "10050451";
 (() => {
   var e,
     t = {
+      9256: (e) => {
+        e.exports = {
+          FrameMainContent: "framedevui_FrameMainContent_3yJ1O",
+          DevUI: "framedevui_DevUI_2_sz9",
+          DevUIFrames: "framedevui_DevUIFrames_RVL9n",
+          DevUIFrame: "framedevui_DevUIFrame_3toDs",
+        };
+      },
       5572: (e) => {
         e.exports = {
           PersistentNotificationsContainer:
@@ -20,19 +28,19 @@ var CLSTAMP = "10029581";
       6090: (e, t, n) => {
         "use strict";
         n.d(t, {
-          $: () => I.$,
+          $: () => V.$,
           $Z: () => k.$Z,
-          Ay: () => D,
+          Ay: () => H,
           B4: () => v.B,
           CU: () => i.CU,
-          Ci: () => f.C,
+          Ci: () => b.C,
           Cw: () => r.C,
           Ee: () => k.Ee,
-          Em: () => p.Em,
-          FN: () => S.F,
+          Em: () => m.Em,
+          FN: () => y.F,
           Fb: () => i.Fb,
-          Fi: () => b.Fi,
-          GM: () => m.GM,
+          Fi: () => L.Fi,
+          GM: () => p.GM,
           GQ: () => k.GQ,
           Gz: () => k.Gz,
           HW: () => k.HW,
@@ -40,9 +48,9 @@ var CLSTAMP = "10029581";
           IS: () => d.I,
           JK: () => c.J,
           JZ: () => i.JZ,
-          KI: () => I.KI,
+          KI: () => V.KI,
           Ld: () => i.Ld,
-          MQ: () => b.MQ,
+          MQ: () => L.MQ,
           MV: () => k.MV,
           N: () => a.e,
           N1: () => C.N,
@@ -52,10 +60,10 @@ var CLSTAMP = "10029581";
           O5: () => h.O,
           O6: () => i.O6,
           OH: () => k.OH,
-          Oi: () => b.Oi,
+          Oi: () => L.Oi,
           QB: () => i.QB,
-          QR: () => I.QR,
-          Qc: () => V.Q,
+          QR: () => V.QR,
+          Qc: () => D.Q,
           R$: () => k.R$,
           Rk: () => k.Rk,
           Se: () => i.Se,
@@ -64,11 +72,11 @@ var CLSTAMP = "10029581";
           Xl: () => k.Xl,
           Y4: () => l.Y,
           Yu: () => k.Yu,
-          Zk: () => b.Zk,
-          _$: () => V._,
+          Zk: () => L.Zk,
+          _$: () => D._,
           _1: () => k._1,
           _F: () => i._F,
-          _h: () => b._h,
+          _h: () => L._h,
           _n: () => o._n,
           aX: () => g.a,
           b: () => k.b,
@@ -76,23 +84,23 @@ var CLSTAMP = "10029581";
           cB: () => x.L,
           dL: () => u.d,
           e_: () => i.e_,
-          en: () => I.en,
-          ey: () => L.e,
-          fD: () => I.fD,
+          en: () => V.en,
+          ey: () => f.e,
+          fD: () => V.fD,
           gN: () => k.gN,
           k2: () => k.k2,
           kG: () => k.kG,
           ku: () => k.ku,
           lq: () => _.l,
-          m$: () => y.m,
+          m$: () => S.m,
           mS: () => M.m,
           mX: () => o.mX,
           mo: () => k.mo,
           mu: () => k.mu,
-          nX: () => p.nX,
+          nX: () => m.nX,
           ne: () => k.ne,
-          nq: () => w.n,
-          o3: () => b.o3,
+          nq: () => R.n,
+          o3: () => L.o3,
           oN: () => i.oN,
           o_: () => i.o_,
           oi: () => s.o,
@@ -102,10 +110,10 @@ var CLSTAMP = "10029581";
           qF: () => i.qF,
           rF: () => d.H,
           rx: () => k.rx,
-          sJ: () => R.$,
+          sJ: () => w.$,
           sk: () => o.sk,
           tx: () => i.tx,
-          uC: () => H.u,
+          uC: () => I.u,
           vx: () => i.vx,
           vz: () => s.v,
         });
@@ -118,29 +126,29 @@ var CLSTAMP = "10029581";
           d = n(6186),
           u = n(3361),
           c = n(111),
-          p = n(5723),
-          m = n(3496),
+          m = n(5723),
+          p = n(3496),
           h = n(5178),
           v = (n(428), n(9011)),
           g = n(7350),
           _ = n(6847),
           C = n(5227),
-          L = n(10),
-          f = n(1808),
-          b = n(7019),
-          y = (n(1988), n(2527), n(9864)),
-          S = n(4189),
+          f = n(10),
+          b = n(1808),
+          L = n(7019),
+          S = (n(1988), n(2527), n(9864)),
+          y = n(4189),
           M = n(322),
           E = n(1977),
-          R = n(6417),
-          w = n(2303),
+          w = n(6417),
+          R = n(2303),
           x = n(8715),
           T = (n(4397), n(5459)),
-          H = n(8472),
-          V = n(1184),
+          I = n(8472),
+          D = n(1184),
           k = n(3725),
-          I = n(4367);
-        const D = VRHTML;
+          V = n(4367);
+        const H = VRHTML;
       },
       1977: (e, t, n) => {
         "use strict";
@@ -412,8 +420,8 @@ var CLSTAMP = "10029581";
           d = n(6540),
           u = n(3496),
           c = n(5178),
-          p = n(3236),
-          m = n(5723),
+          m = n(3236),
+          p = n(5723),
           h = n(7600);
         function v(e) {
           if (e) return [e.u, e.v];
@@ -622,81 +630,81 @@ var CLSTAMP = "10029581";
                 bInsideReparentedPanel: !1,
                 currentPanel: this,
               }),
-              p = this.createSgNode(t),
+              m = this.createSgNode(t),
               h = { x: 0, y: 0 };
             h =
               "object" == typeof this.props.origin
                 ? (0, u.PG)(this.props.origin, { x: 0, y: 0 })
                 : g(this.props.origin);
             const _ = this.props.overlay_key,
-              C = (0, m.w5)();
+              C = (0, p.w5)();
             return (
               _ && _.length > 0
-                ? (p.properties.key = _)
+                ? (m.properties.key = _)
                 : C
-                  ? (p.properties.key = C)
-                  : (p.properties.overlay_handle = (0, m.X4)()),
-              (p.properties.uv_min =
+                  ? (m.properties.key = C)
+                  : (m.properties.overlay_handle = (0, p.X4)()),
+              (m.properties.uv_min =
                 null !== (n = v(this.m_UVsMin)) && void 0 !== n ? n : void 0),
-              (p.properties.uv_max =
+              (m.properties.uv_max =
                 null !== (o = v(this.m_UVsMax)) && void 0 !== o ? o : void 0),
-              (p.properties.width =
+              (m.properties.width =
                 null !== (i = this.props.width) && void 0 !== i ? i : void 0),
-              (p.properties.height =
+              (m.properties.height =
                 null !== (r = this.props.height) && void 0 !== r ? r : void 0),
-              (p.properties["scale-index"] =
+              (m.properties["scale-index"] =
                 null !== (a = this.props.scale_index) && void 0 !== a ? a : 0),
-              (p.properties["min-width"] =
+              (m.properties["min-width"] =
                 null !== (l = this.props.min_width) && void 0 !== l
                   ? l
                   : void 0),
-              (p.properties["target-width-anchor-id"] = (0, m.bl)(
+              (m.properties["target-width-anchor-id"] = (0, p.bl)(
                 this.props.target_width_anchor_id,
               )),
-              (p.properties["target-dpi-panel-id"] = (0, m.bl)(
+              (m.properties["target-dpi-panel-id"] = (0, p.bl)(
                 this.props.target_dpi_panel_id,
               )),
-              (p.properties["target-dpi-multiplier"] =
+              (m.properties["target-dpi-multiplier"] =
                 this.props.target_dpi_multiplier),
-              (p.properties["meters-per-pixel"] = this.props.meters_per_pixel),
-              (p.properties["subview-parent-panel-key"] =
+              (m.properties["meters-per-pixel"] = this.props.meters_per_pixel),
+              (m.properties["subview-parent-panel-key"] =
                 this.props.subview_parent_panel_key),
-              (p.properties.curvature = this.props.curvature),
-              (p.properties["curvature-origin-id"] = (0, m.bl)(
+              (m.properties.curvature = this.props.curvature),
+              (m.properties["curvature-origin-id"] = (0, p.bl)(
                 this.props.curvature_origin_id,
               )),
-              (p.properties.spherical = this.props.spherical),
-              (p.properties.interactive = this.props.interactive),
-              (p.properties.scrollable = this.props.scrollable),
-              (p.properties.undocked = this.props.undocked),
-              (p.properties.modal = this.props.modal),
-              (p.properties["requires-laser"] = this.props.requires_laser),
-              (p.properties["allow-input-capture"] =
+              (m.properties.spherical = this.props.spherical),
+              (m.properties.interactive = this.props.interactive),
+              (m.properties.scrollable = this.props.scrollable),
+              (m.properties.undocked = this.props.undocked),
+              (m.properties.modal = this.props.modal),
+              (m.properties["requires-laser"] = this.props.requires_laser),
+              (m.properties["allow-input-capture"] =
                 this.props.allow_input_capture),
-              (p.properties["lasermouse-filtering"] =
+              (m.properties["lasermouse-filtering"] =
                 null === (d = this.props) || void 0 === d
                   ? void 0
                   : d.lasermouse_filtering),
-              (p.properties["hide-laser-when-clicking"] =
+              (m.properties["hide-laser-when-clicking"] =
                 this.props.hide_lasermouse_when_clicking),
-              (p.properties["make-overlays-interactive-if-visible"] =
+              (m.properties["make-overlays-interactive-if-visible"] =
                 this.props.make_overlays_interactive_if_visible),
-              (p.properties["is-grab-handle"] = this.props.is_grab_handle),
-              (p.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
-              (p.properties.origin = (0, u.Hm)(h)),
-              (p.properties.debug_name = this.props.debug_name),
-              (p.properties.sampler = this.props.sampler),
-              (p.properties.reflect = this.props.reflect),
-              (p.properties.stereoscopy = this.props.stereoscopy),
-              (p.properties.rendermodel_component_device_index =
+              (m.properties["is-grab-handle"] = this.props.is_grab_handle),
+              (m.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
+              (m.properties.origin = (0, u.Hm)(h)),
+              (m.properties.debug_name = this.props.debug_name),
+              (m.properties.sampler = this.props.sampler),
+              (m.properties.reflect = this.props.reflect),
+              (m.properties.stereoscopy = this.props.stereoscopy),
+              (m.properties.rendermodel_component_device_index =
                 this.props.rendermodel_component_device_index),
-              (p.properties.rendermodel_component_name =
+              (m.properties.rendermodel_component_name =
                 this.props.rendermodel_component_name),
-              (p.properties["texture-id"] = (0, m.bl)(this.props.texture_id)),
-              (p.properties["sort-order"] = this.props.sort_order),
-              (p.properties["sort-depth-bias"] = this.props.sort_depth_bias),
-              (p.properties.visibility = this.visibility),
-              [c, p]
+              (m.properties["texture-id"] = (0, p.bl)(this.props.texture_id)),
+              (m.properties["sort-order"] = this.props.sort_order),
+              (m.properties["sort-depth-bias"] = this.props.sort_depth_bias),
+              (m.properties.visibility = this.visibility),
+              [c, m]
             );
           }
           scaleLocalUVToGlobal(e) {
@@ -738,10 +746,10 @@ var CLSTAMP = "10029581";
           }
         }
         (_.s_bPanelsAreDirty = !1),
-          (0, l.Cg)([p.o], _.prototype, "onResizeObserved", null),
-          (0, l.Cg)([p.o], _.prototype, "onPanelMouseDown", null),
-          (0, l.Cg)([p.o], _.prototype, "onWindowMouseUp", null),
-          (0, l.Cg)([p.o], _.prototype, "buildNode", null);
+          (0, l.Cg)([m.o], _.prototype, "onResizeObserved", null),
+          (0, l.Cg)([m.o], _.prototype, "onPanelMouseDown", null),
+          (0, l.Cg)([m.o], _.prototype, "onWindowMouseUp", null),
+          (0, l.Cg)([m.o], _.prototype, "buildNode", null);
       },
       1808: (e, t, n) => {
         "use strict";
@@ -865,7 +873,7 @@ var CLSTAMP = "10029581";
             return "playspace-floorheight-adjust";
           }
           buildNode(e, t) {
-            var n, o, i, r, s, a, l, d, u, c, p, m, h;
+            var n, o, i, r, s, a, l, d, u, c, m, p, h;
             const v = this.createSgNode(t);
             return (
               (v.properties["target-id"] = this.props.target_id),
@@ -910,13 +918,13 @@ var CLSTAMP = "10029581";
                   ? void 0
                   : c.rings_color_hsv),
               (v.properties["rings-hue-amplitude"] =
-                null === (p = this.props) || void 0 === p
-                  ? void 0
-                  : p.rings_hue_amplitude),
-              (v.properties["rings-hue-speed"] =
                 null === (m = this.props) || void 0 === m
                   ? void 0
-                  : m.rings_hue_speed),
+                  : m.rings_hue_amplitude),
+              (v.properties["rings-hue-speed"] =
+                null === (p = this.props) || void 0 === p
+                  ? void 0
+                  : p.rings_hue_speed),
               (v.properties["rings-half-width"] =
                 null === (h = this.props) || void 0 === h
                   ? void 0
@@ -1502,7 +1510,7 @@ var CLSTAMP = "10029581";
         function c(e) {
           return Math.sqrt(e.x * e.x + e.y * e.y + e.z * e.z);
         }
-        function p(e) {
+        function m(e) {
           if (void 0 === e) return;
           let t = 0.5 * e.x,
             n = 0.5 * e.y,
@@ -1520,7 +1528,7 @@ var CLSTAMP = "10029581";
             z: i * r * d - a * l * s,
           };
         }
-        function m(e) {
+        function p(e) {
           let t = e[0][0] + e[1][1] + e[2][2];
           if (t > 0) {
             let n = 2 * Math.sqrt(t + 1);
@@ -1590,19 +1598,19 @@ var CLSTAMP = "10029581";
             z: e.x * t.y - e.y * t.x,
           };
         }
-        function L(e) {
+        function f(e) {
           const t = { x: 0, y: 1, z: 0 };
           let n = g(e);
           (n.y = 0), (n = _(n));
           const o = v(_(C(n, t)), t, { x: -(i = n).x, y: -i.y, z: -i.z });
           var i;
-          return { translation: e.translation, rotation: m(o), scale: e.scale };
+          return { translation: e.translation, rotation: p(o), scale: e.scale };
         }
         n.d(t, {
           CU: () => i,
-          Fb: () => p,
+          Fb: () => m,
           JZ: () => a,
-          Ld: () => m,
+          Ld: () => p,
           NH: () => u,
           O6: () => l,
           QB: () => s,
@@ -1612,7 +1620,7 @@ var CLSTAMP = "10029581";
           e_: () => _,
           oN: () => C,
           o_: () => g,
-          p0: () => L,
+          p0: () => f,
           qF: () => v,
           tx: () => d,
           vx: () => o,
@@ -1633,8 +1641,8 @@ var CLSTAMP = "10029581";
         }
         n.d(t, {
           $Z: () => c,
-          Ee: () => S,
-          GQ: () => I,
+          Ee: () => y,
+          GQ: () => V,
           Gz: () => d,
           HW: () => C,
           MV: () => r,
@@ -1642,15 +1650,15 @@ var CLSTAMP = "10029581";
           OH: () => o,
           R$: () => a,
           Rk: () => v,
-          Xl: () => f,
+          Xl: () => b,
           Yu: () => M,
-          _1: () => V,
+          _1: () => D,
           _E: () => l,
-          b: () => b,
+          b: () => L,
           gN: () => E,
           k2: () => x,
-          kG: () => R,
-          ku: () => m,
+          kG: () => w,
+          ku: () => p,
           mo: () => g,
           mu: () => s,
           ne: () => u,
@@ -1691,7 +1699,7 @@ var CLSTAMP = "10029581";
         let l = 0,
           d = 0,
           u = 4294967295;
-        var c, p, m, h, v, g, _, C, L, f, b, y, S, M, E, R, w, x, T, H, V, k, I;
+        var c, m, p, h, v, g, _, C, f, b, L, S, y, M, E, w, R, x, T, I, D, k, V;
         !(function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
@@ -1717,11 +1725,11 @@ var CLSTAMP = "10029581";
               (e[(e.Close = 14)] = "Close"),
               (e[(e.TakeFocus = 15)] = "TakeFocus"),
               (e[(e.HitTest = 16)] = "HitTest");
-          })(p || (p = {})),
+          })(m || (m = {})),
           (function (e) {
             (e[(e.Activated = 0)] = "Activated"),
               (e[(e.Deactivated = 1)] = "Deactivated");
-          })(m || (m = {})),
+          })(p || (p = {})),
           (function (e) {
             (e[(e.NoDashboardTab = 8)] = "NoDashboardTab"),
               (e[(e.AcceptsGamepadEvents = 16)] = "AcceptsGamepadEvents"),
@@ -1791,16 +1799,16 @@ var CLSTAMP = "10029581";
               (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
                 "CouldntFindOrCreateClientOverlay"),
               (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-          })(L || (L = {})),
+          })(f || (f = {})),
           (function (e) {
             (e[(e.Normal = 0)] = "Normal"),
               (e[(e.Password = 1)] = "Password"),
               (e[(e.Submit = 2)] = "Submit");
-          })(f || (f = {})),
+          })(b || (b = {})),
           (function (e) {
             (e[(e.SingleLine = 0)] = "SingleLine"),
               (e[(e.MultipleLines = 1)] = "MultipleLines");
-          })(b || (b = {})),
+          })(L || (L = {})),
           (function (e) {
             (e[(e.LaserMouse = 1)] = "LaserMouse"),
               (e[(e.Keyboard = 2)] = "Keyboard"),
@@ -1813,7 +1821,7 @@ var CLSTAMP = "10029581";
                 "DriverRequestsApplicationPause"),
               (e[(e.DriverRequestsReducedRendering = 128)] =
                 "DriverRequestsReducedRendering");
-          })(y || (y = {})),
+          })(S || (S = {})),
           (function (e) {
             (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
               (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -1830,7 +1838,7 @@ var CLSTAMP = "10029581";
               (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
               (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
               (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-          })(S || (S = {})),
+          })(y || (y = {})),
           (function (e) {
             (e[(e.ECameraExposure_Unknown = 0)] = "ECameraExposure_Unknown"),
               (e[(e.ECameraExposure_Nominal = 1)] = "ECameraExposure_Nominal"),
@@ -1857,7 +1865,7 @@ var CLSTAMP = "10029581";
                 "TrackedControllerRole_Treadmill"),
               (e[(e.TrackedControllerRole_Max = 5)] =
                 "TrackedControllerRole_Max");
-          })(R || (R = {})),
+          })(w || (w = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -1869,7 +1877,7 @@ var CLSTAMP = "10029581";
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(w || (w = {})),
+          })(R || (R = {})),
           (function (e) {
             e[(e.Hostname = 0)] = "Hostname";
           })(x || (x = {})),
@@ -1880,7 +1888,7 @@ var CLSTAMP = "10029581";
           })(T || (T = {})),
           (function (e) {
             (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
-          })(H || (H = {})),
+          })(I || (I = {})),
           (function (e) {
             (e[(e.Inactive = 0)] = "Inactive"),
               (e[(e.PendingReset = 1)] = "PendingReset"),
@@ -1888,7 +1896,7 @@ var CLSTAMP = "10029581";
               (e[(e.Default = 3)] = "Default"),
               (e[(e.CV = 4)] = "CV"),
               (e[(e.Manual = 5)] = "Manual");
-          })(V || (V = {})),
+          })(D || (D = {})),
           (function (e) {
             (e[(e.OK = 1)] = "OK"),
               (e[(e.Warning = 100)] = "Warning"),
@@ -1913,174 +1921,411 @@ var CLSTAMP = "10029581";
               (e[(e.Large = 2)] = "Large"),
               (e[(e.Gigantic = 3)] = "Gigantic"),
               (e[(e.Standing = 4)] = "Standing");
-          })(I || (I = {}));
+          })(V || (V = {}));
       },
       3606: (e, t, n) => {
         "use strict";
         n.d(t, {
-          $Z: () => ge,
-          Bf: () => X,
-          Bn: () => T,
-          Bz: () => v,
-          C6: () => L,
-          D1: () => te,
-          Ec: () => _e,
-          El: () => ve,
+          $Z: () => Ce,
+          Bf: () => q,
+          Bn: () => I,
+          Bz: () => g,
+          C6: () => b,
+          D1: () => oe,
+          Ec: () => fe,
+          El: () => _e,
           Eo: () => i,
-          F2: () => K,
-          Fl: () => ce,
+          F2: () => $,
+          Fl: () => pe,
           GM: () => j,
-          GO: () => g,
-          Hh: () => oe,
-          Ju: () => Q,
-          Kh: () => l,
-          MM: () => s,
-          NX: () => P,
-          Ni: () => z,
-          P: () => H,
-          Pi: () => Ce,
-          Qv: () => S,
-          R_: () => he,
-          So: () => M,
-          Sp: () => D,
-          Sx: () => d,
+          GO: () => _,
+          Hh: () => re,
+          Ju: () => J,
+          Kh: () => d,
+          MM: () => a,
+          NX: () => F,
+          Ni: () => U,
+          P: () => D,
+          Pi: () => be,
+          Qv: () => M,
+          R_: () => ge,
+          So: () => E,
+          Sp: () => P,
+          Sx: () => u,
           Ul: () => p,
-          Uv: () => _,
-          Vv: () => ee,
-          Vx: () => w,
-          WS: () => W,
+          Uv: () => C,
+          Vv: () => ne,
+          Vx: () => x,
+          WS: () => G,
           Wm: () => y,
-          Wt: () => f,
-          XO: () => $,
-          Xk: () => c,
-          Y: () => G,
-          Zw: () => b,
-          aD: () => U,
-          au: () => de,
-          bl: () => E,
-          cb: () => C,
-          dw: () => u,
-          gS: () => h,
-          ge: () => k,
-          i8: () => pe,
-          iZ: () => I,
-          j5: () => Z,
-          kk: () => r,
+          Wt: () => L,
+          XO: () => X,
+          Xk: () => m,
+          Y: () => K,
+          Zw: () => S,
+          aD: () => W,
+          au: () => ce,
+          bl: () => w,
+          cb: () => f,
+          dw: () => c,
+          gS: () => v,
+          ge: () => V,
+          i8: () => he,
+          iZ: () => H,
+          j5: () => z,
+          kk: () => s,
           kx: () => N,
-          lP: () => re,
-          mB: () => m,
-          md: () => q,
-          nY: () => x,
+          l3: () => r,
+          lP: () => ae,
+          mB: () => h,
+          md: () => Q,
+          nJ: () => ee,
+          nY: () => T,
           np: () => o,
           qf: () => O,
-          qt: () => ue,
-          rG: () => se,
+          qt: () => me,
+          rG: () => le,
           tZ: () => Le,
-          ui: () => le,
-          uv: () => V,
-          v0: () => a,
-          vo: () => J,
-          w5: () => F,
+          ui: () => ue,
+          uv: () => k,
+          v0: () => l,
+          vo: () => Y,
+          w5: () => Z,
           wi: () => R,
           wt: () => B,
-          xP: () => ae,
-          xY: () => Y,
-          x_: () => me,
-          xz: () => ne,
-          yl: () => ie,
+          xP: () => de,
+          xY: () => te,
+          x_: () => ve,
+          xz: () => ie,
+          yl: () => se,
           zM: () => A,
         });
         const o = "openvr.tool.steamvr_environments",
           i = "system.generated.steam.exe",
-          r = "steam.app.",
-          s = r + "250820",
-          a = r + "330050",
-          l = "system.dashboard.",
-          d = "system.dashboard.quicklaunch",
-          u = "system.dashboard.nowplaying",
-          c = "system.dashboard.desktop",
+          r = "vrlink.client",
+          s = "steam.app.",
+          a = s + "250820",
+          l = s + "330050",
+          d = "system.dashboard.",
+          u = "system.dashboard.quicklaunch",
+          c = "system.dashboard.nowplaying",
+          m = "system.dashboard.desktop",
           p = 0.25,
-          m = 2,
-          h = 0.03,
-          v = "current.scene.app.binding.list",
-          g = "system.desktop",
-          _ = "system.window",
-          C = "system.standalone",
-          L = "system.systemui",
-          f = "system.settings",
-          b = "system.keyboard",
+          h = 2,
+          v = 0.03,
+          g = "current.scene.app.binding.list",
+          _ = "system.desktop",
+          C = "system.window",
+          f = "system.standalone",
+          b = "system.systemui",
+          L = "system.settings",
+          S = "system.keyboard",
           y = "system.vrwebhelper.controllerbinding",
-          S = "system.messageoverlay",
-          M = "valve.steam",
-          E = "valve.steam.desktopgame",
+          M = "system.messageoverlay",
+          E = "valve.steam",
+          w = "valve.steam.desktopgame",
           R = "valve.steam.gamepadui.main",
-          w = "valve.steam.gamepadui.bar",
-          x = "valve.steam.gamepadui.keyboard",
-          T = "valve.steam.desktop",
-          H = "steamlink_openvr-overlay",
-          V = "DashboardCurvatureOrigin",
-          k = L + "::" + V,
-          I = 2.667 / 1694,
-          D = "DashboardControlStripTransform",
-          P = "DashboardGrabHandleTransform",
+          x = "valve.steam.gamepadui.bar",
+          T = "valve.steam.gamepadui.keyboard",
+          I = "valve.steam.desktop",
+          D = "steamlink_openvr-overlay",
+          k = "DashboardCurvatureOrigin",
+          V = b + "::" + k,
+          H = 2.667 / 1694,
+          P = "DashboardControlStripTransform",
+          F = "DashboardGrabHandleTransform",
           A = "DashboardOverlayControlBarOrigin",
           N = "DashboardGrabHandleTransform_Legacy",
           O = "/settings/steamvr/enableHomeApp",
           B = "/settings/steamvr/supersampleManualOverride",
-          F = "/settings/steamvr/supersampleScale",
-          Z = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
-          z = "/settings/camera/roomViewStyle",
-          U = "/settings/steamvr/backgroundCameraHeight",
-          W = "/settings/steamvr/backgroundDomeRadius",
-          G = "/settings/steamvr/analogGain",
+          Z = "/settings/steamvr/supersampleScale",
+          z = "/settings/GpuSpeed/gpuSpeedRenderTargetScale",
+          U = "/settings/camera/roomViewStyle",
+          W = "/settings/steamvr/backgroundCameraHeight",
+          G = "/settings/steamvr/backgroundDomeRadius",
+          K = "/settings/steamvr/analogGain",
           j = "/settings/driver_lighthouse/indexHmdColumnCorrection",
-          K = "/settings/steamvr/showAdvancedSettings",
-          $ = "/settings/dashboard/lastAccessedExternalOverlayKey",
-          X = "/settings/internal/dashboardInitialOverlay",
-          q = "/settings/dashboard/position_2",
-          Q = "/settings/dashboard/theaterCurvature",
-          J = "/settings/dashboard/theaterScreenSize",
-          Y = "/settings/dashboard/theaterScreenAlignment",
-          ee = "/settings/collisionBounds/CollisionBoundsFadeDistance",
-          te = "/settings/camera/roomView",
-          ne = "/settings/camera/enableCamera",
-          oe = "/settings/camera/enableConstructRoomView",
-          ie = "/settings/dashboard/enableWindowView",
-          re = "/settings/dashboard/maxInlineTabs",
-          se = "/settings/steamvr/maxRecommendedResolution",
-          ae = "/settings/steamvr/disableKeyboardPrivacy",
-          le = "/settings/camera/lightSourceFrequency",
-          de = "/settings/steamvr/ipdHUD",
-          ue = "/settings/dashboard/expectSteam",
-          ce = "/settings/dashboard/allowLegacyControlBar",
-          pe = "/settings/openxr/metaUnityPluginCompatibility",
-          me = "/settings/input/overlayFilteringEnabled",
-          he = "/settings/input/overlayFilteringMinCutoff",
-          ve = "/settings/input/overlayFilteringBeta",
-          ge = "/settings/input/overlayFilteringDerivCutoff",
-          _e = "/settings/input/overlayMagnetismEnabled",
-          Ce = "/settings/input/overlayMagnetismLockDistance",
+          $ = "/settings/steamvr/showAdvancedSettings",
+          X = "/settings/dashboard/lastAccessedExternalOverlayKey",
+          q = "/settings/internal/dashboardInitialOverlay",
+          Q = "/settings/dashboard/position_2",
+          J = "/settings/dashboard/theaterCurvature",
+          Y = "/settings/dashboard/theaterScreenSize",
+          ee = "/settings/dashboard/unifiedDashboard",
+          te = "/settings/dashboard/theaterScreenAlignment",
+          ne = "/settings/collisionBounds/CollisionBoundsFadeDistance",
+          oe = "/settings/camera/roomView",
+          ie = "/settings/camera/enableCamera",
+          re = "/settings/camera/enableConstructRoomView",
+          se = "/settings/dashboard/enableWindowView",
+          ae = "/settings/dashboard/maxInlineTabs",
+          le = "/settings/steamvr/maxRecommendedResolution",
+          de = "/settings/steamvr/disableKeyboardPrivacy",
+          ue = "/settings/camera/lightSourceFrequency",
+          ce = "/settings/steamvr/ipdHUD",
+          me = "/settings/dashboard/expectSteam",
+          pe = "/settings/dashboard/allowLegacyControlBar",
+          he = "/settings/openxr/metaUnityPluginCompatibility",
+          ve = "/settings/input/overlayFilteringEnabled",
+          ge = "/settings/input/overlayFilteringMinCutoff",
+          _e = "/settings/input/overlayFilteringBeta",
+          Ce = "/settings/input/overlayFilteringDerivCutoff",
+          fe = "/settings/input/overlayMagnetismEnabled",
+          be = "/settings/input/overlayMagnetismLockDistance",
           Le = "/settings/input/overlayMagnetismDeadZone";
+      },
+      3481: (e, t, n) => {
+        "use strict";
+        n.d(t, { J: () => m, h: () => o });
+        var o,
+          i = n(1635),
+          r = n(7813),
+          s = n(3236),
+          a = n(1835),
+          l = n(1909),
+          d = n(1295),
+          u = n(3514);
+        !(function (e) {
+          (e[(e.Disconnected = 0)] = "Disconnected"),
+            (e[(e.Pending = 1)] = "Pending"),
+            (e[(e.Connected = 2)] = "Connected");
+        })(o || (o = {}));
+        class c {
+          get canTryConnectingToSteam() {
+            return a.SW.isVRGamepadUIReady && d.H.BHasMutualCapability(15);
+          }
+          get steamConnectionState() {
+            return this.m_eSteamConnectionState;
+          }
+          get supportedFrameFeatures() {
+            return this.steamConnectionState != o.Connected
+              ? {}
+              : { frameMenus: !0 };
+          }
+          constructor() {
+            var e, t;
+            (this.m_nNextFrameID = Number.parseInt(
+              null !==
+                (e = sessionStorage.getItem(c.k_strNextFrameIDStorageKey)) &&
+                void 0 !== e
+                ? e
+                : "1",
+            )),
+              (this.m_mapLastSentFrameUpdate = new Map()),
+              (this.m_mapLastSentFrameVisibility = new Map()),
+              (this.m_mapFrames = new Map()),
+              (this.m_eSteamConnectionState = o.Disconnected),
+              (this.m_mapTabIDForTabMapping = new Map()),
+              (this.m_mapTabMappingForTabID = new Map()),
+              (this.m_unNextTabId = Number.parseInt(
+                null !==
+                  (t = sessionStorage.getItem(c.k_strNextTabIDStorageKey)) &&
+                  void 0 !== t
+                  ? t
+                  : (2).toString(),
+              )),
+              (0, r.makeObservable)(this);
+          }
+          Init() {
+            return (0, i.sH)(this, void 0, void 0, function* () {
+              (0, r.reaction)(
+                () => this.canTryConnectingToSteam,
+                (e) => {
+                  e && this.m_eSteamConnectionState == o.Disconnected
+                    ? this.InitSteamConnection()
+                    : e || (this.m_eSteamConnectionState = o.Disconnected);
+                },
+                { fireImmediately: !0 },
+              ),
+                (0, r.reaction)(
+                  () => this.frames.filter((e) => e.state == u.Iu.Destroyed),
+                  this.OnFramesDestroyed,
+                ),
+                (0, r.autorun)(this.SendUpdatesToSteam, { delay: 1e-4 });
+            });
+          }
+          InitSteamConnection() {
+            return (0, i.sH)(this, void 0, void 0, function* () {
+              (this.m_eSteamConnectionState = o.Pending),
+                this.m_mapLastSentFrameUpdate.clear(),
+                this.m_mapLastSentFrameVisibility.clear();
+              try {
+                yield l.p.Steam.InitFrameSystem({ destroy_all_frames: !1 });
+                this.m_eSteamConnectionState = o.Connected;
+              } catch (e) {
+                console.error(
+                  "CFrameStore failed to init Steam connection:",
+                  e,
+                ),
+                  (this.m_eSteamConnectionState = o.Disconnected);
+              }
+            });
+          }
+          SendUpdatesToSteam() {
+            var e;
+            if (!this.supportedFrameFeatures.frameMenus) return;
+            const t = this.frames.map((e) => e.protoForSteam).filter(Boolean),
+              n = new Set(t.map((e) => e.frame_id)),
+              o = t.filter(
+                (e) => this.m_mapLastSentFrameUpdate.get(e.frame_id) !== e,
+              ),
+              i = Array.from(this.m_mapLastSentFrameUpdate.keys()).filter(
+                (e) => !n.has(e),
+              );
+            for (const e of o) this.m_mapLastSentFrameUpdate.set(e.frame_id, e);
+            for (const e of i) this.m_mapLastSentFrameUpdate.delete(e);
+            const s = [];
+            for (const t of this.frames)
+              t.isCurrentlyVisible !=
+                (null !==
+                  (e = this.m_mapLastSentFrameVisibility.get(t.frameID)) &&
+                  void 0 !== e &&
+                  e) &&
+                (s.push(t),
+                this.m_mapLastSentFrameVisibility.set(
+                  t.frameID,
+                  t.isCurrentlyVisible,
+                ));
+            const a = {
+              updated_frames: o,
+              deleted_frames: i,
+              shown_frames: s
+                .filter((e) => e.isCurrentlyVisible)
+                .map((e) => e.frameID),
+              hidden_frames: s
+                .filter((e) => !e.isCurrentlyVisible)
+                .map((e) => e.frameID),
+            };
+            l.p.Steam.UpdateFrameUIs(a).then(
+              (0, r.action)((e) => {
+                var t, n;
+                for (const o of null !== (t = e.results) && void 0 !== t
+                  ? t
+                  : [])
+                  null === (n = this.GetFrame(o.frame_id)) ||
+                    void 0 === n ||
+                    n.OnFrameUpdateResultFromSteam(o);
+              }),
+            );
+          }
+          OnFramesDestroyed(e) {
+            e.forEach((e) => {
+              this.m_mapFrames.delete(e.frameID);
+            });
+          }
+          CreateFrame() {
+            const e = new u.HC(this.m_nNextFrameID++);
+            return (
+              sessionStorage.setItem(
+                c.k_strNextFrameIDStorageKey,
+                this.m_nNextFrameID.toString(),
+              ),
+              this.m_mapFrames.set(e.frameID, e),
+              e
+            );
+          }
+          get frames() {
+            return Array.from(this.m_mapFrames.values());
+          }
+          GetFrame(e) {
+            return this.m_mapFrames.get(e);
+          }
+          GetFramesWithAssociatedSummonKeys(e) {
+            return this.frames.filter((t) =>
+              t.associatedSummonOverlayKeys.includes(e),
+            );
+          }
+          HasFramesWithAssociatedSummonKeys(e) {
+            return this.GetFramesWithAssociatedSummonKeys(e).length > 0;
+          }
+          GetTabIDForFrame(e) {
+            return this.GetTabIdForTabMapping(`frame:${e.frameID}`);
+          }
+          GetTabIDForDesktop(e) {
+            return this.GetTabIdForTabMapping(`desktop:${e}`);
+          }
+          GetTabIDForWindow(e) {
+            return this.GetTabIdForTabMapping(`window:${e}`);
+          }
+          GetTabIdForTabMapping(e) {
+            if (!this.m_mapTabIDForTabMapping.has(e)) {
+              const t = this.m_unNextTabId;
+              this.m_unNextTabId++,
+                sessionStorage.setItem(
+                  c.k_strNextTabIDStorageKey,
+                  this.m_unNextTabId.toString(),
+                ),
+                this.m_mapTabIDForTabMapping.set(e, t),
+                this.m_mapTabMappingForTabID.set(t, e);
+            }
+            return this.m_mapTabIDForTabMapping.get(e);
+          }
+          GetTabMappingForTabID(e) {
+            const t = this.m_mapTabMappingForTabID.get(e);
+            if (!t) return;
+            const [n, o] = t.split(":"),
+              i = Number.parseInt(o);
+            switch (n) {
+              case "frame":
+                return { type: n, frame: this.GetFrame(i) };
+              case "desktop":
+                return { type: n, unDesktopID: i };
+              case "window":
+                return { type: n, unWindowID: i };
+              default:
+                return;
+            }
+          }
+        }
+        (c.k_strNextFrameIDStorageKey = "next_frame_id"),
+          (c.k_strNextTabIDStorageKey = "next_tab_id"),
+          (0, i.Cg)([r.observable], c.prototype, "m_mapFrames", void 0),
+          (0, i.Cg)(
+            [r.observable],
+            c.prototype,
+            "m_eSteamConnectionState",
+            void 0,
+          ),
+          (0, i.Cg)([r.computed], c.prototype, "canTryConnectingToSteam", null),
+          (0, i.Cg)([r.computed], c.prototype, "steamConnectionState", null),
+          (0, i.Cg)([r.computed], c.prototype, "supportedFrameFeatures", null),
+          (0, i.Cg)([r.action.bound], c.prototype, "InitSteamConnection", null),
+          (0, i.Cg)([s.o], c.prototype, "SendUpdatesToSteam", null),
+          (0, i.Cg)([r.action.bound], c.prototype, "OnFramesDestroyed", null),
+          (0, i.Cg)([r.action], c.prototype, "CreateFrame", null),
+          (0, i.Cg)([s.o], c.prototype, "GetFrame", null),
+          (0, i.Cg)(
+            [s.o],
+            c.prototype,
+            "GetFramesWithAssociatedSummonKeys",
+            null,
+          ),
+          (0, i.Cg)(
+            [s.o],
+            c.prototype,
+            "HasFramesWithAssociatedSummonKeys",
+            null,
+          );
+        const m = new c();
+        window.FrameStore = m;
       },
       2563: (e, t, n) => {
         "use strict";
         n.d(t, {
-          DE: () => z,
-          DN: () => U,
-          Fu: () => F,
-          HA: () => V,
-          Hz: () => k,
-          L_: () => x,
-          MA: () => Z,
-          N2: () => K,
-          OR: () => N,
-          R0: () => A,
-          Te: () => O,
-          Tr: () => j,
-          WO: () => B,
-          bR: () => H,
-          gZ: () => P,
-          oZ: () => $,
+          DE: () => N,
+          DN: () => O,
+          Hz: () => I,
+          L_: () => R,
+          N2: () => U,
+          OR: () => P,
+          R0: () => H,
+          Te: () => F,
+          Tr: () => z,
+          WO: () => A,
+          bR: () => T,
+          gZ: () => V,
+          oZ: () => W,
+          vX: () => k,
         });
         var o,
           i = n(1635),
@@ -2091,29 +2336,28 @@ var CLSTAMP = "10029581";
           d = n(6540),
           u = n(6138),
           c = n(6731),
-          p = n(5615),
-          m = n(917),
+          m = n(5615),
+          p = n(917),
           h = n(4963),
           v = n(924),
           g = n(3606),
           _ = n(3714),
           C = n(6575),
-          L = n(1139),
-          f = n(3473),
-          b = n(1333),
-          y = n(5735),
-          S = n.n(y),
-          M = n(998),
-          E = n(9283),
-          R = n(1835),
-          w = n(2975);
-        const x = (0, l.PA)(function (e) {
+          f = n(1139),
+          b = n(3473),
+          L = n(1333),
+          S = n(5735),
+          y = n.n(S),
+          M = n(9283),
+          E = n(1835),
+          w = n(795);
+        const R = (0, l.PA)(function (e) {
             return d.createElement(
-              T,
-              Object.assign({}, e, { VRGamepadUI: R.SW.isVRGamepadUI }),
+              x,
+              Object.assign({}, e, { VRGamepadUI: E.SW.isVRGamepadUI }),
             );
           }),
-          T = (e) => {
+          x = (e) => {
             var t, n, o;
             const i = e.VRGamepadUI,
               s = (d.useRef(null), d.useRef(null)),
@@ -2122,9 +2366,9 @@ var CLSTAMP = "10029581";
                 null !== (n = e.foregroundReflectMultiplier) && void 0 !== n
                   ? n
                   : g.gS,
-              m =
+              p =
                 null ===
-                  (o = b.HR.settings.get(
+                  (o = L.HR.settings.get(
                     "/settings/dashboard/allowCurvature",
                   )) ||
                 void 0 === o ||
@@ -2143,7 +2387,7 @@ var CLSTAMP = "10029581";
                     id: "dashboard_widget_panel_id",
                     visibility: e.visible ? r.Fi.Visible : r.Fi.Hidden,
                     debug_name: e.debugName,
-                    curvature_origin_id: m,
+                    curvature_origin_id: p,
                     origin: r.Oi.BottomCenter,
                     interactive: !0,
                     scrollable: a,
@@ -2159,10 +2403,10 @@ var CLSTAMP = "10029581";
                       u.W,
                       null,
                       d.createElement(
-                        p.M,
+                        m.M,
                         {
-                          scrollDirection: a ? p.D.Vertical : p.D.None,
-                          className: (0, L.FH)(
+                          scrollDirection: a ? m.D.Vertical : m.D.None,
+                          className: (0, f.FH)(
                             "DashboardPanel",
                             e.additionalClassNames,
                           ),
@@ -2176,7 +2420,7 @@ var CLSTAMP = "10029581";
               ),
             );
           };
-        function H() {
+        function T() {
           return d.createElement(
             "div",
             { className: "ActivitySpinner" },
@@ -2185,53 +2429,7 @@ var CLSTAMP = "10029581";
             d.createElement("div", { className: "Bar" }),
           );
         }
-        class V extends d.Component {
-          constructor(e) {
-            super(e), (this.state = { time: new Date() });
-          }
-          componentDidMount() {
-            let e = 60 - (new Date().getSeconds() % 60) + 0.01;
-            this.m_clockUpdateTimeout = window.setTimeout(
-              this.updateTime,
-              1e3 * e,
-            );
-          }
-          componentWillUnmount() {
-            clearTimeout(this.m_clockUpdateTimeout);
-          }
-          updateTime() {
-            this.setState({ time: new Date() }),
-              (this.m_clockUpdateTimeout = window.setTimeout(
-                this.updateTime,
-                6e4,
-              ));
-          }
-          render() {
-            const e = _.A0.GetLocale();
-            let t = this.state.time.toLocaleTimeString(e, {
-                hour: "numeric",
-                minute: "2-digit",
-              }),
-              n = null;
-            const o = t.toLowerCase(),
-              i = Math.max(o.lastIndexOf("am"), o.lastIndexOf("pm"));
-            return (
-              i >= 0 && ((n = t.substring(i)), (t = t.substring(0, i - 1))),
-              d.createElement(
-                "div",
-                { className: "ClockContainer" },
-                d.createElement(
-                  "div",
-                  { className: "Clock" },
-                  t,
-                  " ",
-                  d.createElement("span", { className: "Suffix" }, n),
-                ),
-              )
-            );
-          }
-        }
-        function k(e) {
+        function I(e) {
           return d.createElement(
             u.$,
             { className: "PowerMenuButton", onClick: e.onClick },
@@ -2241,20 +2439,19 @@ var CLSTAMP = "10029581";
             e.lineBelow && d.createElement("div", { className: "LineBelow" }),
           );
         }
-        (0, i.Cg)([s.o], V.prototype, "updateTime", null);
-        let I = class extends d.Component {
+        let D = class extends d.Component {
           constructor(e) {
             super(e), (0, a.makeObservable)(this);
           }
           get isShowingTooltip() {
-            return R.SW.s_ControlBarCurrentlyShownTooltip === this;
+            return E.SW.s_ControlBarCurrentlyShownTooltip === this;
           }
           show() {
-            R.SW.s_ControlBarCurrentlyShownTooltip = this;
+            E.SW.s_ControlBarCurrentlyShownTooltip = this;
           }
           hide() {
             this.isShowingTooltip &&
-              (R.SW.s_ControlBarCurrentlyShownTooltip = null);
+              (E.SW.s_ControlBarCurrentlyShownTooltip = null);
           }
           render() {
             var e;
@@ -2265,7 +2462,7 @@ var CLSTAMP = "10029581";
                 : { x: 0, y: -0.2, z: 0.05 },
               o =
                 null ===
-                  (e = b.HR.settings.get(
+                  (e = L.HR.settings.get(
                     "/settings/dashboard/allowCurvature",
                   )) ||
                 void 0 === e ||
@@ -2300,27 +2497,27 @@ var CLSTAMP = "10029581";
             );
           }
         };
-        (0, i.Cg)([a.computed], I.prototype, "isShowingTooltip", null),
-          (0, i.Cg)([a.action.bound], I.prototype, "show", null),
-          (0, i.Cg)([a.action.bound], I.prototype, "hide", null),
-          (I = (0, i.Cg)([l.PA], I));
-        class D extends d.Component {
+        (0, i.Cg)([a.computed], D.prototype, "isShowingTooltip", null),
+          (0, i.Cg)([a.action.bound], D.prototype, "show", null),
+          (0, i.Cg)([a.action.bound], D.prototype, "hide", null),
+          (D = (0, i.Cg)([l.PA], D));
+        class k extends d.Component {
           static ShouldInvertThumbnail(e) {
             if (!e) return !1;
-            if (((e = e.toLowerCase()), !D.s_mapShouldInvertThumbnail.has(e))) {
+            if (((e = e.toLowerCase()), !k.s_mapShouldInvertThumbnail.has(e))) {
               let t = !1;
               e.endsWith(".svg") && (t = !0),
                 e.startsWith("data:") &&
-                  D.k_rsThumbnailHashesToInvert.indexOf(S().hash(e)) >= 0 &&
+                  k.k_rsThumbnailHashesToInvert.indexOf(y().hash(e)) >= 0 &&
                   (t = !0),
-                D.s_mapShouldInvertThumbnail.set(e, t);
+                k.s_mapShouldInvertThumbnail.set(e, t);
             }
-            return D.s_mapShouldInvertThumbnail.get(e);
+            return k.s_mapShouldInvertThumbnail.get(e);
           }
           render() {
             var e;
             const t = null !== (e = this.props.shadow) && void 0 !== e && e,
-              n = D.ShouldInvertThumbnail(this.props.src);
+              n = k.ShouldInvertThumbnail(this.props.src);
             return d.createElement(
               "div",
               { className: "Icon" },
@@ -2330,35 +2527,35 @@ var CLSTAMP = "10029581";
                   src: this.props.src,
                 }),
               d.createElement("img", {
-                className: (0, L.FH)(["BlackToWhite", n]),
+                className: (0, f.FH)(["BlackToWhite", n]),
                 src: this.props.src,
               }),
             );
           }
         }
-        var P, A;
-        (D.k_rsThumbnailHashesToInvert = [
+        var V, H;
+        (k.k_rsThumbnailHashesToInvert = [
           "5cbd0ebd6459cdaf75fdcafc5051f4e0",
           "c77452e60fc29227b33773ff6e74f8a1",
           "44b62220b39ba717fbfc65e3b4225491",
           "86bbab56235b55f6e5e7d288342931d7",
         ]),
-          (D.s_mapShouldInvertThumbnail = new Map()),
+          (k.s_mapShouldInvertThumbnail = new Map()),
           (function (e) {
             (e[(e.Large = 0)] = "Large"),
               (e[(e.Small = 1)] = "Small"),
               (e[(e.App = 2)] = "App");
-          })(P || (P = {})),
+          })(V || (V = {})),
           (function (e) {
             (e[(e.Center = 0)] = "Center"), (e[(e.Fill = 1)] = "Fill");
-          })(A || (A = {}));
-        const N = (e) =>
+          })(H || (H = {}));
+        const P = (e) =>
           d.createElement(
             "div",
-            { className: (0, L.FH)("ControlBarGroup", P[e.style]) },
+            { className: (0, f.FH)("ControlBarGroup", V[e.style]) },
             e.children,
           );
-        let O = class extends d.Component {
+        let F = class extends d.Component {
           constructor(e) {
             super(e), (this.m_refTooltip = d.createRef());
           }
@@ -2385,13 +2582,13 @@ var CLSTAMP = "10029581";
             return d.createElement(
               u.$,
               {
-                className: (0, L.FH)(
+                className: (0, f.FH)(
                   "ControlBarButton",
                   this.props.additionalClassNames,
-                  A[
+                  H[
                     null !== (e = this.props.imageStyle) && void 0 !== e
                       ? e
-                      : A.Center
+                      : H.Center
                   ] + "Image",
                   ["Disabled", !1 === this.props.enabled],
                   ["Active", !!this.props.active],
@@ -2416,168 +2613,25 @@ var CLSTAMP = "10029581";
                     panelAnchorID: this.props.centerPanelAnchorID,
                   }),
                 ),
-              d.createElement(I, {
+              d.createElement(D, {
                 text: this.props.label,
                 ref: this.m_refTooltip,
               }),
-              d.createElement(D, { src: this.props.imageUrl }),
+              d.createElement(k, { src: this.props.imageUrl }),
             );
           }
         };
-        (0, i.Cg)([s.o], O.prototype, "onMouseEnter", null),
-          (0, i.Cg)([s.o], O.prototype, "onMouseLeave", null),
-          (O = (0, i.Cg)([l.PA], O));
-        const B = (e) =>
+        (0, i.Cg)([s.o], F.prototype, "onMouseEnter", null),
+          (0, i.Cg)([s.o], F.prototype, "onMouseLeave", null),
+          (F = (0, i.Cg)([l.PA], F));
+        const A = (e) =>
           d.createElement(
-            N,
+            P,
             { style: e.style },
-            d.createElement(O, Object.assign({}, e)),
+            d.createElement(F, Object.assign({}, e)),
           );
-        class F extends d.Component {
-          constructor(e) {
-            super(e),
-              (this.m_BatteryStateChangedCallbackHandle = null),
-              (this.m_DeviceRoleChangedCallbackHandle = null),
-              (this.m_DeviceEventCallbackHandle = null),
-              (this.deviceIndex = r.ne),
-              (this.batteryLevelStable = null),
-              (this.devicePowerUsage = null),
-              (this.state = { batteryIconPath: null });
-          }
-          componentDidMount() {
-            (this.m_BatteryStateChangedCallbackHandle =
-              null === VRHTML || void 0 === VRHTML
-                ? void 0
-                : VRHTML.RegisterForBatteryStateChangedEvents(
-                    this.onBatteryStateChanged,
-                  )),
-              (this.m_DeviceRoleChangedCallbackHandle =
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.RegisterForDeviceRoleChangedEvents(
-                      this.onDeviceRoleChanged,
-                    )),
-              (this.m_DeviceEventCallbackHandle =
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.RegisterForDeviceEvents(this.onDeviceEvent)),
-              this.update();
-          }
-          componentWillUnmount() {
-            var e, t, n;
-            null === (e = this.m_BatteryStateChangedCallbackHandle) ||
-              void 0 === e ||
-              e.unregister(),
-              null === (t = this.m_DeviceRoleChangedCallbackHandle) ||
-                void 0 === t ||
-                t.unregister(),
-              null === (n = this.m_DeviceEventCallbackHandle) ||
-                void 0 === n ||
-                n.unregister();
-          }
-          updateControllerStatus() {
-            if (!VRHTML) return;
-            let e = !1,
-              t = !1,
-              n = r.ne;
-            if (
-              (void 0 !== this.props.role
-                ? (n = VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
-                    this.props.role,
-                  ))
-                : void 0 !== this.props.deviceIndex &&
-                  (n = this.props.deviceIndex),
-              n != this.deviceIndex &&
-                ((this.batteryLevelStable = null),
-                (this.devicePowerUsage = null),
-                (this.deviceIndex = n)),
-              n != r.ne)
-            ) {
-              if (
-                ((e = VRHTML.VRProperties.GetBoolProperty(
-                  n,
-                  r.fD.DeviceProvidesBatteryStatus_Bool,
-                )),
-                e)
-              ) {
-                const e = VRHTML.VRProperties.GetFloatProperty(
-                  n,
-                  r.fD.DeviceBatteryPercentage_Float,
-                );
-                (t = VRHTML.VRProperties.GetBoolProperty(
-                  n,
-                  r.fD.DeviceIsCharging_Bool,
-                )),
-                  null == this.batteryLevelStable ||
-                  0 == this.batteryLevelStable
-                    ? (this.batteryLevelStable = e)
-                    : ((this.batteryLevelStable = Math.min(
-                        this.batteryLevelStable,
-                        e + F.kBatteryLevelHysteresis,
-                        1,
-                      )),
-                      (this.batteryLevelStable = Math.max(
-                        this.batteryLevelStable,
-                        e - F.kBatteryLevelHysteresis,
-                        0,
-                      )));
-              }
-              this.devicePowerUsage = VRHTML.VRProperties.GetFloatProperty(
-                n,
-                r.fD.DevicePowerUsage_Float,
-              );
-            }
-            let o = M.C.GetBatteryIcon(
-              e,
-              t,
-              this.batteryLevelStable,
-              this.props.style,
-            );
-            o != this.state.batteryIconPath &&
-              this.setState({ batteryIconPath: o });
-          }
-          update() {
-            window.setTimeout(this.updateControllerStatus, 0);
-          }
-          onBatteryStateChanged(e) {
-            this.update();
-          }
-          onDeviceRoleChanged() {
-            this.update();
-          }
-          onDeviceEvent(e, t, n) {
-            (e != r.ku.Activated && e != r.ku.Deactivated) || this.update();
-          }
-          render() {
-            return d.createElement(
-              "div",
-              { className: "BatteryStatus" },
-              this.devicePowerUsage &&
-                d.createElement(
-                  "div",
-                  { className: "Label" },
-                  " ",
-                  Math.round(10 * this.devicePowerUsage) / 10,
-                  " W ",
-                ),
-              d.createElement("img", { src: this.state.batteryIconPath }),
-            );
-          }
-        }
-        (F.kBatteryLevelHysteresis = 0.02),
-          (0, i.Cg)([s.o], F.prototype, "updateControllerStatus", null),
-          (0, i.Cg)([s.o], F.prototype, "onBatteryStateChanged", null),
-          (0, i.Cg)([s.o], F.prototype, "onDeviceRoleChanged", null),
-          (0, i.Cg)([s.o], F.prototype, "onDeviceEvent", null);
         d.Component;
-        const Z = (e) =>
-          d.createElement(
-            "div",
-            { className: "Title" },
-            e.iconUrl && d.createElement(D, { src: e.iconUrl, shadow: !0 }),
-            d.createElement("span", { className: "NoWrapText" }, e.name),
-          );
-        class z extends d.Component {
+        class N extends d.Component {
           constructor() {
             super(...arguments),
               (this.m_sAnchorID = Math.round(1e7 * Math.random()).toString()),
@@ -2675,7 +2729,7 @@ var CLSTAMP = "10029581";
                         d.createElement(
                           "div",
                           {
-                            className: (0, L.FH)(
+                            className: (0, f.FH)(
                               "ControlBarTray",
                               this.props.additionalClassNames,
                             ),
@@ -2720,10 +2774,10 @@ var CLSTAMP = "10029581";
             );
           }
         }
-        (0, i.Cg)([s.o], z.prototype, "onResizeObserved", null),
-          (0, i.Cg)([s.o], z.prototype, "updateBackgroundSize", null),
-          (0, i.Cg)([s.o], z.prototype, "onPortalDidMount", null);
-        let U = class extends d.Component {
+        (0, i.Cg)([s.o], N.prototype, "onResizeObserved", null),
+          (0, i.Cg)([s.o], N.prototype, "updateBackgroundSize", null),
+          (0, i.Cg)([s.o], N.prototype, "onPortalDidMount", null);
+        let O = class extends d.Component {
           constructor() {
             super(...arguments),
               (this.m_refSlider = d.createRef()),
@@ -2748,13 +2802,13 @@ var CLSTAMP = "10029581";
           }
           get showAudioMirrorControls() {
             return (
-              b.HR.settings.get(
+              L.HR.settings.get(
                 "/settings/audio/enablePlaybackMirrorIndependentVolume",
-              ) && b.HR.settings.get("/settings/audio/enablePlaybackMirror")
+              ) && L.HR.settings.get("/settings/audio/enablePlaybackMirror")
             );
           }
           get enableAudioMirrorControls() {
-            return !!b.HR.settings.get(
+            return !!L.HR.settings.get(
               "/settings/audio/activePlaybackMirrorDevice",
             );
           }
@@ -2764,7 +2818,7 @@ var CLSTAMP = "10029581";
                 ? 0
                 : this.props.position;
             return d.createElement(
-              z,
+              N,
               Object.assign({}, this.props, {
                 position: e,
                 ref: this.m_refTray,
@@ -2774,32 +2828,32 @@ var CLSTAMP = "10029581";
                 "div",
                 { className: "Section" },
                 d.createElement(
-                  G,
+                  Z,
                   {
-                    onClick: f.f.Instance.toggleMicrophoneMute,
-                    title: f.f.Instance.microphoneMuted
+                    onClick: b.f.Instance.toggleMicrophoneMute,
+                    title: b.f.Instance.microphoneMuted
                       ? (0, _.we)("#UnmuteMicrophone")
                       : (0, _.we)("#MuteMicrophone"),
                   },
                   d.createElement("img", {
                     className: "BlackToWhite",
-                    src: f.f.Instance.microphoneMuted
+                    src: b.f.Instance.microphoneMuted
                       ? "/dashboard/images/icons/svr_mic_mute.svg"
                       : "/dashboard/images/icons/svr_mic_active.svg",
                   }),
                 ),
-                d.createElement(W, {
+                d.createElement(B, {
                   title: (0, _.we)("#MicrophoneVolume"),
-                  value: f.f.Instance.microphoneVolume,
-                  onChange: f.f.Instance.setMicrophoneVolume,
+                  value: b.f.Instance.microphoneVolume,
+                  onChange: b.f.Instance.setMicrophoneVolume,
                   onMouseEnter: this.onSliderMouseEnter,
                   onMouseLeave: this.onSliderMouseLeave,
                   onFinalChange: this.onSliderFinalChange,
                   renderValue: (e) => Math.round(100 * e) + "%",
-                  valueStyleVariant: m.Te.OnHandle,
-                  additionalClassName: (0, L.FH)([
+                  valueStyleVariant: p.Te.OnHandle,
+                  additionalClassName: (0, f.FH)([
                     "Muted",
-                    f.f.Instance.microphoneMuted,
+                    b.f.Instance.microphoneMuted,
                   ]),
                   interactionEndSoundEffect: h.j.VolumePreview,
                 }),
@@ -2809,34 +2863,34 @@ var CLSTAMP = "10029581";
                   "div",
                   { className: "Section" },
                   d.createElement(
-                    G,
+                    Z,
                     {
-                      onClick: f.f.Instance.toggleMirrorMute,
+                      onClick: b.f.Instance.toggleMirrorMute,
                       enabled: this.enableAudioMirrorControls,
-                      title: f.f.Instance.mirrorMuted
+                      title: b.f.Instance.mirrorMuted
                         ? (0, _.we)("#UnmuteAudioMirror")
                         : (0, _.we)("#MuteAudioMirror"),
                     },
                     d.createElement("img", {
                       className: "BlackToWhite",
-                      src: f.f.Instance.mirrorMuted
+                      src: b.f.Instance.mirrorMuted
                         ? "/dashboard/images/icons/svr_volume_mirror_mute.svg"
                         : "/dashboard/images/icons/svr_volume_mirror.svg",
                     }),
                   ),
-                  d.createElement(W, {
+                  d.createElement(B, {
                     title: (0, _.we)("#AudioMirrorVolume"),
-                    value: f.f.Instance.mirrorVolume,
+                    value: b.f.Instance.mirrorVolume,
                     enabled: this.enableAudioMirrorControls,
-                    onChange: f.f.Instance.setMirrorVolume,
+                    onChange: b.f.Instance.setMirrorVolume,
                     onMouseEnter: this.onSliderMouseEnter,
                     onMouseLeave: this.onSliderMouseLeave,
                     onFinalChange: this.onSliderFinalChange,
                     renderValue: (e) => Math.round(100 * e) + "%",
-                    valueStyleVariant: m.Te.OnHandle,
-                    additionalClassName: (0, L.FH)([
+                    valueStyleVariant: p.Te.OnHandle,
+                    additionalClassName: (0, f.FH)([
                       "Muted",
-                      f.f.Instance.mirrorMuted,
+                      b.f.Instance.mirrorMuted,
                     ]),
                     interactionEndSoundEffect: h.j.VolumePreview,
                   }),
@@ -2845,49 +2899,49 @@ var CLSTAMP = "10029581";
                 "div",
                 { className: "Section" },
                 d.createElement(
-                  G,
+                  Z,
                   {
-                    onClick: f.f.Instance.toggleMute,
-                    title: f.f.Instance.muted
+                    onClick: b.f.Instance.toggleMute,
+                    title: b.f.Instance.muted
                       ? (0, _.we)("#Unmute_Headset")
                       : (0, _.we)("#Mute_Headset"),
                   },
                   d.createElement("img", {
                     className: "BlackToWhite",
-                    src: f.f.Instance.muted
+                    src: b.f.Instance.muted
                       ? "/dashboard/images/icons/svr_volume_mute.svg"
                       : "/dashboard/images/icons/svr_volume.svg",
                   }),
                 ),
-                d.createElement(W, {
+                d.createElement(B, {
                   title: (0, _.we)("#HeadsetVolume"),
                   sliderRef: this.m_refSlider,
-                  value: f.f.Instance.volume,
-                  onChange: f.f.Instance.setVolume,
+                  value: b.f.Instance.volume,
+                  onChange: b.f.Instance.setVolume,
                   onMouseEnter: this.onSliderMouseEnter,
                   onMouseLeave: this.onSliderMouseLeave,
                   onFinalChange: this.onSliderFinalChange,
                   renderValue: (e) => Math.round(100 * e) + "%",
-                  valueStyleVariant: m.Te.OnHandle,
-                  additionalClassName: (0, L.FH)(["Muted", f.f.Instance.muted]),
+                  valueStyleVariant: p.Te.OnHandle,
+                  additionalClassName: (0, f.FH)(["Muted", b.f.Instance.muted]),
                   interactionEndSoundEffect: h.j.VolumePreview,
                 }),
               ),
             );
           }
         };
-        (0, i.Cg)([s.o], U.prototype, "onSliderMouseEnter", null),
-          (0, i.Cg)([s.o], U.prototype, "onSliderMouseLeave", null),
-          (0, i.Cg)([s.o], U.prototype, "onSliderFinalChange", null),
-          (0, i.Cg)([a.computed], U.prototype, "showAudioMirrorControls", null),
+        (0, i.Cg)([s.o], O.prototype, "onSliderMouseEnter", null),
+          (0, i.Cg)([s.o], O.prototype, "onSliderMouseLeave", null),
+          (0, i.Cg)([s.o], O.prototype, "onSliderFinalChange", null),
+          (0, i.Cg)([a.computed], O.prototype, "showAudioMirrorControls", null),
           (0, i.Cg)(
             [a.computed],
-            U.prototype,
+            O.prototype,
             "enableAudioMirrorControls",
             null,
           ),
-          (U = (0, i.Cg)([l.PA], U));
-        let W = class extends d.Component {
+          (O = (0, i.Cg)([l.PA], O));
+        let B = class extends d.Component {
           constructor(e) {
             super(e), (this.state = { bSliding: !1, bHover: !1 });
           }
@@ -2925,12 +2979,12 @@ var CLSTAMP = "10029581";
               "div",
               { className: "SliderContainer" },
               this.props.title &&
-                d.createElement(I, {
+                d.createElement(D, {
                   text: this.props.title,
                   shown: this.state.bHover || this.state.bSliding,
                 }),
               d.createElement(
-                m.Ap,
+                p.Ap,
                 Object.assign({}, e, {
                   onMouseEnter: this.onMouseEnter,
                   onMouseLeave: this.onMouseLeave,
@@ -2942,12 +2996,12 @@ var CLSTAMP = "10029581";
             );
           }
         };
-        (0, i.Cg)([s.o], W.prototype, "onMouseEnter", null),
-          (0, i.Cg)([s.o], W.prototype, "onMouseLeave", null),
-          (0, i.Cg)([s.o], W.prototype, "onInteractionStart", null),
-          (0, i.Cg)([s.o], W.prototype, "onInteractionEnd", null),
-          (W = (0, i.Cg)([l.PA], W));
-        let G = class extends d.Component {
+        (0, i.Cg)([s.o], B.prototype, "onMouseEnter", null),
+          (0, i.Cg)([s.o], B.prototype, "onMouseLeave", null),
+          (0, i.Cg)([s.o], B.prototype, "onInteractionStart", null),
+          (0, i.Cg)([s.o], B.prototype, "onInteractionEnd", null),
+          (B = (0, i.Cg)([l.PA], B));
+        let Z = class extends d.Component {
           constructor(e) {
             super(e), (this.m_refTooltip = d.createRef());
           }
@@ -2973,7 +3027,7 @@ var CLSTAMP = "10029581";
             return d.createElement(
               u.$,
               Object.assign({}, this.props, {
-                className: (0, L.FH)(
+                className: (0, f.FH)(
                   "ButtonControl",
                   "Round",
                   this.props.className,
@@ -2982,7 +3036,7 @@ var CLSTAMP = "10029581";
                 onMouseLeave: this.onMouseLeave,
               }),
               this.props.title &&
-                d.createElement(I, {
+                d.createElement(D, {
                   text: this.props.title,
                   ref: this.m_refTooltip,
                 }),
@@ -2990,10 +3044,10 @@ var CLSTAMP = "10029581";
             );
           }
         };
-        (0, i.Cg)([s.o], G.prototype, "onMouseEnter", null),
-          (0, i.Cg)([s.o], G.prototype, "onMouseLeave", null),
-          (G = (0, i.Cg)([l.PA], G));
-        let j = (o = class extends d.Component {
+        (0, i.Cg)([s.o], Z.prototype, "onMouseEnter", null),
+          (0, i.Cg)([s.o], Z.prototype, "onMouseLeave", null),
+          (Z = (0, i.Cg)([l.PA], Z));
+        let z = (o = class extends d.Component {
           constructor() {
             super(...arguments), (this.m_vecOriginalMousePosition = null);
           }
@@ -3055,8 +3109,8 @@ var CLSTAMP = "10029581";
                 o.stopExternalSliding();
           }
           render() {
-            return d.createElement(O, {
-              imageUrl: f.f.Instance.muted
+            return d.createElement(F, {
+              imageUrl: b.f.Instance.muted
                 ? "/dashboard/images/icons/svr_volume_mute.svg"
                 : "/dashboard/images/icons/svr_volume.svg",
               active: this.props.active,
@@ -3067,18 +3121,18 @@ var CLSTAMP = "10029581";
             });
           }
         });
-        (j.MIN_DRAG_THRESHOLD = 35),
-          (0, i.Cg)([s.o], j.prototype, "onButtonMouseDown", null),
-          (0, i.Cg)([s.o], j.prototype, "onWindowMouseMove", null),
-          (0, i.Cg)([s.o], j.prototype, "onWindowMouseUp", null),
-          (j = o = (0, i.Cg)([l.PA], j));
-        const K = (e) => {
+        (z.MIN_DRAG_THRESHOLD = 35),
+          (0, i.Cg)([s.o], z.prototype, "onButtonMouseDown", null),
+          (0, i.Cg)([s.o], z.prototype, "onWindowMouseMove", null),
+          (0, i.Cg)([s.o], z.prototype, "onWindowMouseUp", null),
+          (z = o = (0, i.Cg)([l.PA], z));
+        const U = (e) => {
             var t;
             const n = d.useRef(void 0);
             return d.createElement(
               u.$,
               {
-                className: (0, L.FH)(
+                className: (0, f.FH)(
                   "ButtonControl",
                   ["Active", e.active],
                   ["WithIcon", !!e.iconUrl || !!e.icon],
@@ -3100,7 +3154,7 @@ var CLSTAMP = "10029581";
                 enabled: e.enabled,
               },
               e.title &&
-                d.createElement(I, {
+                d.createElement(D, {
                   text: e.title,
                   translation: e.tooltipTranslation,
                   ref: n,
@@ -3108,7 +3162,7 @@ var CLSTAMP = "10029581";
               e.label && d.createElement("span", null, e.label),
               e.iconUrl &&
                 d.createElement("img", {
-                  className: (0, E.A)(
+                  className: (0, M.A)(
                     "Icon",
                     (null === (t = e.iconIsInverted) || void 0 === t || t) &&
                       "BlackToWhite",
@@ -3118,11 +3172,11 @@ var CLSTAMP = "10029581";
               !e.iconUrl && e.icon,
             );
           },
-          $ = (0, l.PA)(function (e) {
+          W = (0, l.PA)(function (e) {
             var t;
             const n =
-                R.SW.m_bKeyboardVisible &&
-                R.SW.m_sKeyboardOverlayKey == e.overlayKey,
+                E.SW.m_bKeyboardVisible &&
+                E.SW.m_sKeyboardOverlayKey == e.overlayKey,
               o =
                 null === (t = e.showTooltip) || void 0 === t || t
                   ? n
@@ -3130,13 +3184,13 @@ var CLSTAMP = "10029581";
                     : (0, _.we)("#ShowKeyboardTooltip")
                   : void 0;
             return d.createElement(
-              K,
+              U,
               Object.assign(
                 {
                   key: n ? "hidebtn" : "showbtn",
                   iconUrl: "/dashboard/images/icons/svr_keyboard.svg",
                   title: o,
-                  additionalClassNames: (0, L.FH)(
+                  additionalClassNames: (0, f.FH)(
                     "Keyboard",
                     e.additionalClassNames,
                   ),
@@ -3204,13 +3258,13 @@ var CLSTAMP = "10029581";
             ? i.createElement(o.dL, { translation: s }, t)
             : i.createElement(i.Fragment, null, t);
         }
-        function p(e) {
+        function m(e) {
           const { children: t, rotation: n } = e;
           return null != n && (0 != n.x || 0 != n.y || 0 != n.z)
             ? i.createElement(o.dL, { rotation: n }, t)
             : i.createElement(i.Fragment, null, t);
         }
-        function m(e) {
+        function p(e) {
           return 1 == (null == e ? void 0 : e.parent_enum) ? 0 : l.gS;
         }
         function h(e) {
@@ -3222,35 +3276,35 @@ var CLSTAMP = "10029581";
             g,
             _,
             C,
-            L,
             f,
             b,
-            y,
+            L,
             S,
+            y,
             M,
             E,
-            R,
             w,
+            R,
             x,
             T,
-            H,
-            V,
-            k,
             I,
             D,
+            k,
+            V,
+            H,
             P,
+            F,
             A,
             N,
             O,
             B,
-            F,
             Z,
             z,
             U,
             W,
             G,
-            j,
             K,
+            j,
             $;
           const {
               forceReparentToCurrentPanel: X = !1,
@@ -3290,32 +3344,32 @@ var CLSTAMP = "10029581";
                   : 0,
               y:
                 null !==
-                  (L =
+                  (f =
                     null === (C = null == J ? void 0 : J.origin_on_popup) ||
                     void 0 === C
                       ? void 0
-                      : C.y) && void 0 !== L
-                  ? L
+                      : C.y) && void 0 !== f
+                  ? f
                   : 0,
             },
             te = {
               u:
                 null !==
-                  (b =
-                    null === (f = null == J ? void 0 : J.clip_rect) ||
-                    void 0 === f
+                  (L =
+                    null === (b = null == J ? void 0 : J.clip_rect) ||
+                    void 0 === b
                       ? void 0
-                      : f.u_min) && void 0 !== b
-                  ? b
+                      : b.u_min) && void 0 !== L
+                  ? L
                   : 0,
               v:
                 null !==
-                  (S =
-                    null === (y = null == J ? void 0 : J.clip_rect) ||
-                    void 0 === y
+                  (y =
+                    null === (S = null == J ? void 0 : J.clip_rect) ||
+                    void 0 === S
                       ? void 0
-                      : y.v_min) && void 0 !== S
-                  ? S
+                      : S.v_min) && void 0 !== y
+                  ? y
                   : 0,
             },
             ne = {
@@ -3330,12 +3384,12 @@ var CLSTAMP = "10029581";
                   : 1,
               v:
                 null !==
-                  (w =
-                    null === (R = null == J ? void 0 : J.clip_rect) ||
-                    void 0 === R
+                  (R =
+                    null === (w = null == J ? void 0 : J.clip_rect) ||
+                    void 0 === w
                       ? void 0
-                      : R.v_max) && void 0 !== w
-                  ? w
+                      : w.v_max) && void 0 !== R
+                  ? R
                   : 1,
             },
             oe = {
@@ -3349,55 +3403,55 @@ var CLSTAMP = "10029581";
                   : 0,
               y:
                 null !==
-                  (V =
-                    null === (H = null == J ? void 0 : J.offset) || void 0 === H
+                  (D =
+                    null === (I = null == J ? void 0 : J.offset) || void 0 === I
                       ? void 0
-                      : H.y_pixels) && void 0 !== V
-                  ? V
+                      : I.y_pixels) && void 0 !== D
+                  ? D
                   : 0,
               z:
                 null !==
-                  (I =
+                  (V =
                     null === (k = null == J ? void 0 : J.offset) || void 0 === k
                       ? void 0
-                      : k.z_pixels) && void 0 !== I
-                  ? I
+                      : k.z_pixels) && void 0 !== V
+                  ? V
                   : 0,
             },
             ie = {
               x:
                 null !==
                   (P =
-                    null === (D = null == J ? void 0 : J.offset) || void 0 === D
+                    null === (H = null == J ? void 0 : J.offset) || void 0 === H
                       ? void 0
-                      : D.x_meters) && void 0 !== P
+                      : H.x_meters) && void 0 !== P
                   ? P
                   : 0,
               y:
                 null !==
-                  (N =
-                    null === (A = null == J ? void 0 : J.offset) || void 0 === A
+                  (A =
+                    null === (F = null == J ? void 0 : J.offset) || void 0 === F
                       ? void 0
-                      : A.y_meters) && void 0 !== N
-                  ? N
+                      : F.y_meters) && void 0 !== A
+                  ? A
                   : 0,
               z:
                 null !==
-                  (B =
-                    null === (O = null == J ? void 0 : J.offset) || void 0 === O
+                  (O =
+                    null === (N = null == J ? void 0 : J.offset) || void 0 === N
                       ? void 0
-                      : O.z_meters) && void 0 !== B
-                  ? B
+                      : N.z_meters) && void 0 !== O
+                  ? O
                   : 0,
             },
             re = {
               x:
                 null !==
                   (Z =
-                    null === (F = null == J ? void 0 : J.rotation) ||
-                    void 0 === F
+                    null === (B = null == J ? void 0 : J.rotation) ||
+                    void 0 === B
                       ? void 0
-                      : F.pitch_degrees) && void 0 !== Z
+                      : B.pitch_degrees) && void 0 !== Z
                   ? Z
                   : 0,
               y:
@@ -3419,13 +3473,13 @@ var CLSTAMP = "10029581";
               void 0 === G ||
               G,
             le =
-              null === (j = null == J ? void 0 : J.interactive) ||
-              void 0 === j ||
-              j,
-            de =
-              null !== (K = null == J ? void 0 : J.requires_laser) &&
-              void 0 !== K &&
+              null === (K = null == J ? void 0 : J.interactive) ||
+              void 0 === K ||
               K,
+            de =
+              null !== (j = null == J ? void 0 : J.requires_laser) &&
+              void 0 !== j &&
+              j,
             ue =
               1 ==
               (null !== ($ = null == J ? void 0 : J.sort_order) && void 0 !== $
@@ -3455,14 +3509,14 @@ var CLSTAMP = "10029581";
             () => o.O5.Current().forceLayoutUpdate(),
             [te.u, te.v, ne.u, ne.v],
           );
-          const pe = i.createElement(
+          const me = i.createElement(
             u,
             { invertParentPanelPitch: !se },
             i.createElement(
               c,
               { offsetPixels: oe, offsetMeters: ie },
               i.createElement(
-                p,
+                m,
                 { rotation: re },
                 i.createElement(o.Zk, {
                   debug_name: `VRGamepadUI-PooledPopup-${null == J ? void 0 : J.dashboard_popup_id}`,
@@ -3472,7 +3526,7 @@ var CLSTAMP = "10029581";
                   overlay_key: null == J ? void 0 : J.popup_overlay_key,
                   origin: ee,
                   meters_per_pixel: a.SW.m_fVRGamepadUI_MetersPerPixel,
-                  reflect: m(J),
+                  reflect: p(J),
                   sort_depth_bias: ce,
                   uv_min: te,
                   uv_max: ne,
@@ -3481,14 +3535,14 @@ var CLSTAMP = "10029581";
               ),
             ),
           );
-          let me;
+          let pe;
           return (
             X
-              ? (me = i.createElement(o.Ci, { location: Y }, pe))
+              ? (pe = i.createElement(o.Ci, { location: Y }, me))
               : q
-                ? (me = i.createElement(o.dL, { parent_id: q }, pe))
+                ? (pe = i.createElement(o.dL, { parent_id: q }, me))
                 : (null == J ? void 0 : J.parent_overlay_key)
-                  ? (me = i.createElement(
+                  ? (pe = i.createElement(
                       o.b$,
                       {
                         parent_overlay_key:
@@ -3497,11 +3551,11 @@ var CLSTAMP = "10029581";
                       i.createElement(
                         o.Ci,
                         { key: J.dashboard_popup_id, location: Y },
-                        pe,
+                        me,
                       ),
                     ))
                   : 1 == (null == J ? void 0 : J.parent_enum)
-                    ? (me = i.createElement(
+                    ? (pe = i.createElement(
                         o.dL,
                         {
                           parent_path: "/user/head",
@@ -3509,18 +3563,18 @@ var CLSTAMP = "10029581";
                           scale: { x: 0.4, y: 0.4, z: 0.4 },
                           rotation: { x: -20 },
                         },
-                        pe,
+                        me,
                       ))
                     : (null == J ? void 0 : J.parent_device_path) &&
-                      (me = i.createElement(
+                      (pe = i.createElement(
                         o.dL,
                         {
                           parent_path:
                             null == J ? void 0 : J.parent_device_path,
                         },
-                        pe,
+                        me,
                       )),
-            me
+            pe
           );
         }
         const v = (0, s.PA)((e) =>
@@ -3533,7 +3587,7 @@ var CLSTAMP = "10029581";
           ),
         );
       },
-      4950: (e, t, n) => {
+      2853: (e, t, n) => {
         "use strict";
         var o = n(1635),
           i = n(6540),
@@ -3541,16 +3595,14 @@ var CLSTAMP = "10029581";
           s = n(3236),
           a = n(6090),
           l = n(1370),
-          d = n(1333),
-          u = n(9728),
-          c = n(3696),
-          p = n(3606),
-          m = n(6138),
-          h = n(9471),
-          v = n(8313),
-          g = n(5237),
-          _ = n(1139);
-        function C(e) {
+          d = n(3696),
+          u = n(3606),
+          c = n(6138),
+          m = n(9471),
+          p = n(8313),
+          h = n(5237),
+          v = n(1139);
+        function g(e) {
           const t = 0.04,
             [n, o] = i.useState(2.5);
           if (
@@ -3568,16 +3620,16 @@ var CLSTAMP = "10029581";
           return i.createElement(
             "div",
             { className: "ProgressContainer" },
-            i.createElement(g.QF, {
+            i.createElement(h.QF, {
               background: !0,
               backgroundPadding: 2,
               counterClockwise: !0,
               value: r,
             }),
-            i.createElement(h.hU, null),
+            i.createElement(m.hU, null),
           );
         }
-        function L(e) {
+        function _(e) {
           return i.createElement(
             a.dL,
             { parent_path: "/user/head" },
@@ -3588,16 +3640,16 @@ var CLSTAMP = "10029581";
             ),
           );
         }
-        function f(e) {
-          return L(
+        function C(e) {
+          return _(
             i.createElement(
               a.Zk,
               { width: 0.08, debug_name: "recenter_countdown" },
-              i.createElement(C, Object.assign({}, e)),
+              i.createElement(g, Object.assign({}, e)),
             ),
           );
         }
-        class b extends i.Component {
+        class f extends i.Component {
           constructor(e) {
             super(e),
               (this.m_deviceEventHandle = null),
@@ -3671,13 +3723,13 @@ var CLSTAMP = "10029581";
                 { width: 0.08, debug_name: "progressindicator" },
                 i.createElement(
                   "div",
-                  { className: (0, _.FH)("ProgressContainer", ["Throb", l]) },
-                  i.createElement(g.QF, {
+                  { className: (0, v.FH)("ProgressContainer", ["Throb", l]) },
+                  i.createElement(h.QF, {
                     background: !0,
                     backgroundPadding: 2,
                     value: r,
                   }),
-                  s && i.createElement(h.hU, null),
+                  s && i.createElement(m.hU, null),
                   !s &&
                     i.createElement("img", {
                       src: "/shared/images/steam_logo.svg",
@@ -3686,7 +3738,7 @@ var CLSTAMP = "10029581";
                 ),
               );
               return o
-                ? L(d)
+                ? _(d)
                 : i.createElement(
                     "div",
                     null,
@@ -3721,9 +3773,9 @@ var CLSTAMP = "10029581";
             }
           }
         }
-        (0, o.Cg)([s.o], b.prototype, "onProgressIndicatorEvent", null),
-          (0, o.Cg)([s.o], b.prototype, "onDeviceEvent", null);
-        const y = (0, l.PA)(function (e) {
+        (0, o.Cg)([s.o], f.prototype, "onProgressIndicatorEvent", null),
+          (0, o.Cg)([s.o], f.prototype, "onDeviceEvent", null);
+        const b = (0, l.PA)(function (e) {
             const { bCommitOnAccept: t = !0, bShowCancel: n = !0 } = e;
             return i.createElement(
               "div",
@@ -3744,7 +3796,7 @@ var CLSTAMP = "10029581";
                 { className: "ButtonRow" },
                 n &&
                   i.createElement(
-                    m.$,
+                    c.$,
                     {
                       className: "ButtonControl",
                       onClick: () => {
@@ -3756,12 +3808,12 @@ var CLSTAMP = "10029581";
                           null == e || e.onCancel();
                       },
                     },
-                    i.createElement(h.bm, null),
+                    i.createElement(m.bm, null),
                     " ",
                     "Cancel",
                   ),
                 i.createElement(
-                  m.$,
+                  c.$,
                   {
                     className: "ButtonControl",
                     onClick: () => {
@@ -3775,7 +3827,7 @@ var CLSTAMP = "10029581";
                   "Reset",
                 ),
                 i.createElement(
-                  m.$,
+                  c.$,
                   {
                     className: "ButtonControl Colorful",
                     onClick: () => {
@@ -3791,7 +3843,7 @@ var CLSTAMP = "10029581";
               ),
             );
           }),
-          S = (0, l.PA)(function (e) {
+          L = (0, l.PA)(function (e) {
             const { bShowCancel: t = !0 } = e;
             return i.createElement(
               "div",
@@ -3811,18 +3863,18 @@ var CLSTAMP = "10029581";
                 { className: "ButtonRow" },
                 t &&
                   i.createElement(
-                    m.$,
+                    c.$,
                     {
                       className: "ButtonControl",
                       onClick: null == e ? void 0 : e.onCancel,
                     },
-                    i.createElement(h.bm, null),
+                    i.createElement(m.bm, null),
                     " ",
                     "Cancel",
                   ),
                 !!(null == e ? void 0 : e.onBack) &&
                   i.createElement(
-                    m.$,
+                    c.$,
                     {
                       className: "ButtonControl",
                       onClick: null == e ? void 0 : e.onBack,
@@ -3830,7 +3882,7 @@ var CLSTAMP = "10029581";
                     "Back",
                   ),
                 i.createElement(
-                  m.$,
+                  c.$,
                   {
                     className: "ButtonControl Colorful",
                     onClick: () => {
@@ -3848,19 +3900,19 @@ var CLSTAMP = "10029581";
                 { className: "ButtonRow" },
                 !!(null == e ? void 0 : e.onAdvanced) &&
                   i.createElement(
-                    m.$,
+                    c.$,
                     {
                       className: "ButtonControl",
                       onClick: null == e ? void 0 : e.onAdvanced,
                     },
-                    i.createElement(h.DO, null),
+                    i.createElement(m.DO, null),
                     " ",
                     "Advanced",
                   ),
               ),
             );
           }),
-          M = (0, l.PA)(function (e) {
+          S = (0, l.PA)(function (e) {
             const { bShowCancel: t = !0 } = e;
             return i.createElement(
               "div",
@@ -3880,17 +3932,17 @@ var CLSTAMP = "10029581";
                 { className: "ButtonRow" },
                 t &&
                   i.createElement(
-                    m.$,
+                    c.$,
                     {
                       className: "ButtonControl",
                       onClick: null == e ? void 0 : e.onCancel,
                     },
-                    i.createElement(h.bm, null),
+                    i.createElement(m.bm, null),
                     " ",
                     "Cancel",
                   ),
                 i.createElement(
-                  m.$,
+                  c.$,
                   {
                     className: "ButtonControl",
                     onClick: () => {
@@ -3903,7 +3955,7 @@ var CLSTAMP = "10029581";
                 ),
                 !!(null == e ? void 0 : e.onBack) &&
                   i.createElement(
-                    m.$,
+                    c.$,
                     {
                       className: "ButtonControl",
                       onClick: null == e ? void 0 : e.onBack,
@@ -3911,7 +3963,7 @@ var CLSTAMP = "10029581";
                     "Back",
                   ),
                 i.createElement(
-                  m.$,
+                  c.$,
                   {
                     className: "ButtonControl Colorful",
                     onClick: () => {
@@ -3926,72 +3978,72 @@ var CLSTAMP = "10029581";
               ),
             );
           }),
-          E = (0, l.PA)(function (e) {
-            if (0 == c.H.roomSetupStep) return null;
+          y = (0, l.PA)(function (e) {
+            if (0 == d.H.roomSetupStep) return null;
             const t = () => {
                 console.assert(
-                  c.H.roomSetupAllowsCancel,
+                  d.H.roomSetupAllowsCancel,
                   "RoomSetupPanel onCancel triggered even though roomsetup mode doesn't allow it",
                 ),
-                  c.H.setRoomSetupStep(0, !0);
+                  d.H.setRoomSetupStep(0, !0);
               },
-              n = 1 != c.H.roomSetupStep;
+              n = 1 != d.H.roomSetupStep;
             return i.createElement(
               a.Zk,
               {
                 id: null == e ? void 0 : e.id,
-                meters_per_pixel: 0.5 * p.iZ,
+                meters_per_pixel: 0.5 * u.iZ,
                 interactive: n,
                 scrollable: !1,
                 debug_name: "room-setup-ui",
               },
-              2 == c.H.roomSetupStep &&
-                i.createElement(y, {
+              2 == d.H.roomSetupStep &&
+                i.createElement(b, {
                   onAccept: () => {
-                    c.H.setRoomSetupStep(0);
+                    d.H.setRoomSetupStep(0);
                   },
                   onCancel: t,
                   bCommitOnAccept: !0,
-                  bShowCancel: c.H.roomSetupAllowsCancel,
+                  bShowCancel: d.H.roomSetupAllowsCancel,
                 }),
-              3 == c.H.roomSetupStep &&
-                i.createElement(y, {
+              3 == d.H.roomSetupStep &&
+                i.createElement(b, {
                   onAccept: () => {
-                    c.H.setRoomSetupStep(4);
+                    d.H.setRoomSetupStep(4);
                   },
                   onCancel: t,
                   bCommitOnAccept: !1,
-                  bShowCancel: c.H.roomSetupAllowsCancel,
+                  bShowCancel: d.H.roomSetupAllowsCancel,
                 }),
-              4 == c.H.roomSetupStep &&
-                i.createElement(S, {
+              4 == d.H.roomSetupStep &&
+                i.createElement(L, {
                   onCancel: t,
                   onAccept: () => {
-                    c.H.setRoomSetupStep(0);
+                    d.H.setRoomSetupStep(0);
                   },
                   onBack: () => {
-                    c.H.setRoomSetupStep(3);
+                    d.H.setRoomSetupStep(3);
                   },
                   onAdvanced: () => {
                     VRHTML.VRChaperoneSetup.ResetPlayspaceBoundsDrawing(),
-                      c.H.setRoomSetupStep(5);
+                      d.H.setRoomSetupStep(5);
                   },
-                  bShowCancel: c.H.roomSetupAllowsCancel,
+                  bShowCancel: d.H.roomSetupAllowsCancel,
                 }),
-              5 == c.H.roomSetupStep &&
-                i.createElement(M, {
+              5 == d.H.roomSetupStep &&
+                i.createElement(S, {
                   onCancel: t,
                   onAccept: () => {
-                    c.H.setRoomSetupStep(0);
+                    d.H.setRoomSetupStep(0);
                   },
                   onBack: () => {
-                    c.H.setRoomSetupStep(4);
+                    d.H.setRoomSetupStep(4);
                   },
-                  bShowCancel: c.H.roomSetupAllowsCancel,
+                  bShowCancel: d.H.roomSetupAllowsCancel,
                 }),
             );
           }),
-          R = (0, l.PA)(function () {
+          M = (0, l.PA)(function () {
             return i.createElement(
               "div",
               { className: "RoomSetupUI Slim" },
@@ -3999,42 +4051,40 @@ var CLSTAMP = "10029581";
                 "div",
                 { className: "ButtonRow" },
                 i.createElement(
-                  m.$,
+                  c.$,
                   {
                     className: "ButtonControl",
                     onClick: () => {
-                      c.H.m_bOkOutsideOfPlayspace = !0;
+                      d.H.m_bOkOutsideOfPlayspace = !0;
                     },
                   },
-                  i.createElement(h.bm, null),
+                  i.createElement(m.bm, null),
                 ),
                 i.createElement(
-                  m.$,
+                  c.$,
                   {
                     className: "ButtonControl Colorful",
                     onClick: () => {
-                      c.H.setRoomSetupStep(3);
+                      d.H.setRoomSetupStep(3);
                     },
                   },
-                  i.createElement(h.DO, null),
+                  i.createElement(m.DO, null),
                   " ",
                   "Setup Playspace",
                 ),
               ),
             );
           }),
-          w = (0, l.PA)(function () {
-            var e;
-            return null !==
-              (e = d.HR.settings.get(
-                "/settings/internal/enableSafeChaperone",
-              )) &&
-              void 0 !== e &&
-              e
-              ? u.G.Instance.SceneApplicationState == a.HW.None ||
-                !c.H.m_bHmdOutOfBoundsStrict ||
-                c.H.m_bOkOutsideOfPlayspace ||
-                0 != c.H.roomSetupStep
+          E = (0, l.PA)(function () {
+            return !!(null === VRHTML || void 0 === VRHTML
+              ? void 0
+              : VRHTML.VRProperties.GetBoolProperty(
+                  "/user/head",
+                  a.fD.VRLinkClientHMDSupportsRoomSetupRequests_Bool,
+                ))
+              ? !d.H.m_bHmdOutOfBoundsStrict ||
+                d.H.m_bOkOutsideOfPlayspace ||
+                0 != d.H.roomSetupStep
                 ? null
                 : i.createElement(
                     a.dL,
@@ -4058,11 +4108,11 @@ var CLSTAMP = "10029581";
                           i.createElement(
                             a.Zk,
                             {
-                              meters_per_pixel: 0.4 * p.iZ,
+                              meters_per_pixel: 0.4 * u.iZ,
                               interactive: !0,
                               debug_name: "chaperone-popup",
                             },
-                            i.createElement(R, null),
+                            i.createElement(M, null),
                           ),
                         ),
                       ),
@@ -4070,26 +4120,26 @@ var CLSTAMP = "10029581";
                   )
               : null;
           }),
-          x = (0, l.PA)(function () {
-            if (0 == c.H.roomSetupStep) return null;
-            if (1 == c.H.roomSetupStep)
-              return i.createElement(f, {
+          w = (0, l.PA)(function () {
+            if (0 == d.H.roomSetupStep) return null;
+            if (1 == d.H.roomSetupStep)
+              return i.createElement(C, {
                 onTrigger: () => {
-                  c.H.setRoomSetupStep(0),
+                  d.H.setRoomSetupStep(0),
                     null === VRHTML ||
                       void 0 === VRHTML ||
                       VRHTML.VRChaperone.ResetZeroPose();
                 },
               });
             {
-              const e = 3 == c.H.roomSetupStep || 2 == c.H.roomSetupStep,
-                t = 4 == c.H.roomSetupStep || 5 == c.H.roomSetupStep,
+              const e = 3 == d.H.roomSetupStep || 2 == d.H.roomSetupStep,
+                t = 4 == d.H.roomSetupStep || 5 == d.H.roomSetupStep,
                 n = 1,
                 o = 20,
-                r = (0, a.nX)(p.C6, "Floor-AdjustPlayspace-Receiver"),
+                r = (0, a.nX)(u.C6, "Floor-AdjustPlayspace-Receiver"),
                 s = 1.25,
                 l = 0.547,
-                d = 0.55;
+                c = 0.55;
               return i.createElement(
                 i.Fragment,
                 null,
@@ -4109,7 +4159,7 @@ var CLSTAMP = "10029581";
                     i.createElement(
                       a.dL,
                       { translation: { y: -0.15 * s, z: -1 * s } },
-                      i.createElement(E, null),
+                      i.createElement(y, null),
                     ),
                   ),
                   i.createElement(
@@ -4146,40 +4196,40 @@ var CLSTAMP = "10029581";
                   ),
                 ),
                 e &&
-                  i.createElement(v.pF, {
+                  i.createElement(p.pF, {
                     target_id: r,
                     head_interaction_radius: 2.5,
                     inactive_alpha_scale: 0.5,
                     dot_radius: 0.04,
-                    dot_color_hsv: [l, d, 0.8],
+                    dot_color_hsv: [l, c, 0.8],
                     dot_inner_alpha: 1,
                     dot_outer_alpha: 0.2,
                     axis_radius: 0.001,
-                    axis_color_hsv: [l, d, 1],
-                    rings_color_hsv: [l, d, 0.8],
+                    axis_color_hsv: [l, c, 1],
+                    rings_color_hsv: [l, c, 0.8],
                     rings_radius: 0.004,
                     rings_half_width: 0.001,
                     rings_hue_amplitude: 0,
                     rings_hue_speed: 1,
                   }),
                 t &&
-                  i.createElement(v.rm, {
+                  i.createElement(p.rm, {
                     target_id: r,
                     radius_range: [n, o],
                     center_selection_radius: 0.1,
                   }),
                 t &&
-                  i.createElement(v.$6, {
+                  i.createElement(p.$6, {
                     "generic-geo": [0.001, 0.01],
                     "outline-color-hsv": [0.5, 0.95, 0.8],
                     "hue-amplitude": 0.1,
-                    "hue-speed": 4 == c.H.roomSetupStep ? 2 : 1.25,
+                    "hue-speed": 4 == d.H.roomSetupStep ? 2 : 1.25,
                     "outline-shadow-alpha": [1, 0.5],
                     "shadow-radius-delta": 0.01,
-                    "center-dot-radius": 4 == c.H.roomSetupStep ? 0.1 : 0.04,
+                    "center-dot-radius": 4 == d.H.roomSetupStep ? 0.1 : 0.04,
                     "center-color-hsv": [l, 1, 0.65],
                   }),
-                i.createElement(v.VJ, {
+                i.createElement(p.VJ, {
                   "clip-to-playspace": !!t,
                   "tile-size": 0.075 * 1.5,
                   "dot-half-size": 0.004,
@@ -4193,12 +4243,13 @@ var CLSTAMP = "10029581";
               );
             }
           });
-        var T = n(4640),
-          H = n(3714);
-        function V(e, t, n, o, i) {
+        var R = n(5349),
+          x = n(1333),
+          T = n(3714);
+        function I(e, t, n, o, i) {
           return t == n ? 0 : ((e - t) / (n - t)) * (i - o) + o;
         }
-        class k extends i.Component {
+        class D extends i.Component {
           constructor(e) {
             super(e),
               (this.m_fadeStartTimeout = void 0),
@@ -4226,7 +4277,7 @@ var CLSTAMP = "10029581";
               window.clearTimeout(this.m_fadeFinishTimeout),
               (this.m_fadeFinishTimeout = window.setTimeout(
                 this.HideOverlay,
-                k.kFadeDurationMs,
+                D.kFadeDurationMs,
               )),
               this.setState({ fading: !0 });
           }
@@ -4240,7 +4291,7 @@ var CLSTAMP = "10029581";
               (window.clearTimeout(this.m_fadeStartTimeout),
               (this.m_fadeStartTimeout = window.setTimeout(
                 this.StartFade,
-                k.kFadeDelayMs,
+                D.kFadeDelayMs,
               )),
               window.clearTimeout(this.m_fadeFinishTimeout),
               (this.m_fadeFinishTimeout = 0),
@@ -4254,7 +4305,7 @@ var CLSTAMP = "10029581";
           }
           render() {
             var e, t, n;
-            let o = d.HR.settings.get(p.au);
+            let o = x.HR.settings.get(u.au);
             if (!this.state.visible || !o) return null;
             let r = ["IPDParent"];
             this.state.fading && r.push("Fading");
@@ -4282,7 +4333,7 @@ var CLSTAMP = "10029581";
                         )) && void 0 !== t
                   ? t
                   : 0.058),
-              u =
+              d =
                 1e3 *
                 (null !==
                   (n =
@@ -4311,10 +4362,10 @@ var CLSTAMP = "10029581";
                   d = 10 * l,
                   u = d - 5 * l,
                   c = d - 10 * l,
-                  p = d + 10 * l,
-                  m = d + 5 * l;
+                  m = d + 10 * l,
+                  p = d + 5 * l;
                 for (let t = o; t <= r; t += 0.5) {
-                  const n = V(t, o, r, s, e - s);
+                  const n = I(t, o, r, s, e - s);
                   a.push(
                     i.createElement("circle", {
                       key: "pip" + t,
@@ -4327,7 +4378,7 @@ var CLSTAMP = "10029581";
                   );
                 }
                 for (let t = o; t <= r; t += 2) {
-                  const n = V(t, o, r, s, e - s);
+                  const n = I(t, o, r, s, e - s);
                   a.push(
                     i.createElement("line", {
                       key: "line" + t,
@@ -4340,7 +4391,7 @@ var CLSTAMP = "10029581";
                   );
                 }
                 {
-                  let t = V(64, o, r, s, e - s);
+                  let t = I(64, o, r, s, e - s);
                   a.push(
                     i.createElement("line", {
                       key: "centraltick",
@@ -4353,20 +4404,20 @@ var CLSTAMP = "10029581";
                   );
                 }
                 {
-                  let t = V(n - 0.5, o, r, s, e - s),
-                    l = V(n + 0.5, o, r, s, e - s),
+                  let t = I(n - 0.5, o, r, s, e - s),
+                    l = I(n + 0.5, o, r, s, e - s),
                     d =
                       t +
                       "," +
-                      p +
+                      m +
                       " " +
                       l +
                       "," +
-                      p +
+                      m +
                       " " +
                       0.5 * (t + l) +
                       "," +
-                      m;
+                      p;
                   a.push(
                     i.createElement("polygon", {
                       key: "triangle",
@@ -4384,7 +4435,7 @@ var CLSTAMP = "10029581";
                   { width: e, height: t, viewBox: [0, 0, e, t].join(" ") },
                   a,
                 );
-              })(240, 50, this.state.ipdValue, l, u);
+              })(240, 50, this.state.ipdValue, l, d);
             return i.createElement(
               a.dL,
               { parent_path: "/user/head" },
@@ -4399,14 +4450,14 @@ var CLSTAMP = "10029581";
                   a.Zk,
                   {
                     width: void 0,
-                    height: k.kPanelHeight,
+                    height: D.kPanelHeight,
                     interactive: !1,
                     sort_order: 1e3,
                     debug_name: "ipd",
                   },
                   i.createElement(
                     "div",
-                    { className: r.join(" "), style: { width: k.kPixelWidth } },
+                    { className: r.join(" "), style: { width: D.kPixelWidth } },
                     i.createElement(
                       "div",
                       { className: "FlexColumn" },
@@ -4427,7 +4478,7 @@ var CLSTAMP = "10029581";
                       i.createElement(
                         "div",
                         { className: "IPDSettingTextDesc" },
-                        (0, H.we)("#IPD_Description"),
+                        (0, T.we)("#IPD_Description"),
                       ),
                       i.createElement(
                         "div",
@@ -4455,23 +4506,23 @@ var CLSTAMP = "10029581";
             );
           }
         }
-        (k.kPanelHeight = 0.16),
-          (k.kPixelWidth = 600),
-          (k.kFadeDelayMs = 1e3),
-          (k.kFadeDurationMs = 1e3),
-          (0, o.Cg)([s.o], k.prototype, "StartFade", null),
-          (0, o.Cg)([s.o], k.prototype, "HideOverlay", null),
-          (0, o.Cg)([s.o], k.prototype, "IPDChanged", null);
-        var I,
-          D,
-          P = n(2563),
-          A = n(1835);
+        (D.kPanelHeight = 0.16),
+          (D.kPixelWidth = 600),
+          (D.kFadeDelayMs = 1e3),
+          (D.kFadeDurationMs = 1e3),
+          (0, o.Cg)([s.o], D.prototype, "StartFade", null),
+          (0, o.Cg)([s.o], D.prototype, "HideOverlay", null),
+          (0, o.Cg)([s.o], D.prototype, "IPDChanged", null);
+        var k,
+          V,
+          H = n(2563),
+          P = n(1835);
         !(function (e) {
           (e[(e.Opaque = 0)] = "Opaque"),
             (e[(e.FadingIn = 1)] = "FadingIn"),
             (e[(e.FadingOut = 2)] = "FadingOut");
-        })(D || (D = {}));
-        let N = (I = class extends i.Component {
+        })(V || (V = {}));
+        let F = (k = class extends i.Component {
           constructor(e) {
             super(e),
               (this.m_hideTimeout = void 0),
@@ -4481,13 +4532,13 @@ var CLSTAMP = "10029581";
               (this.m_mountedTime = void 0),
               (this.state = {
                 visible: !1,
-                opacity: D.Opaque,
+                opacity: V.Opaque,
                 latchedAppName: "",
                 latchedAppKey: "",
                 latchedSceneApplicationState: null,
                 alreadyHidDashboard: !1,
               }),
-              d.HR.Init(!1);
+              x.HR.Init(!1);
           }
           componentDidMount() {
             (this.m_sceneApplicationStateChangedEventHandle =
@@ -4522,7 +4573,7 @@ var CLSTAMP = "10029581";
             if (this.state.alreadyHidDashboard) return;
             const t = a.Ay.VRApplications.GetStartingApplicationKey();
             t &&
-              t != I.k_sHomeAppKey &&
+              t != k.k_sHomeAppKey &&
               (a.Ay.VRDashboardManager.HideDashboard(e),
               this.setState({ alreadyHidDashboard: !0 }));
           }
@@ -4560,7 +4611,7 @@ var CLSTAMP = "10029581";
             null == this.m_unresponsiveTimeout &&
               (this.m_unresponsiveTimeout = window.setTimeout(
                 this.onUnresponsiveTimeout,
-                I.kUnresponsiveDelayMs,
+                k.kUnresponsiveDelayMs,
               ));
           }
           cancelUnresponsiveTimeout() {
@@ -4598,8 +4649,8 @@ var CLSTAMP = "10029581";
             this.cancelFadeOutTimers(),
               e
                 ? this.state.visible ||
-                  this.setState({ visible: !0, opacity: D.FadingIn })
-                : this.setState({ visible: !0, opacity: D.Opaque });
+                  this.setState({ visible: !0, opacity: V.FadingIn })
+                : this.setState({ visible: !0, opacity: V.Opaque });
           }
           cancelFadeOutTimers() {
             this.m_fadeTimeout && window.clearTimeout(this.m_fadeTimeout),
@@ -4612,17 +4663,17 @@ var CLSTAMP = "10029581";
               this.m_fadeTimeout ||
               (this.m_fadeTimeout = window.setTimeout(
                 this.startFadeOut,
-                I.kHideDelayMs,
+                k.kHideDelayMs,
               ));
           }
           startFadeOut() {
             this.m_fadeTimeout &&
               (window.clearTimeout(this.m_fadeTimeout),
               (this.m_fadeTimeout = void 0)),
-              this.setState({ opacity: D.FadingOut }),
+              this.setState({ opacity: V.FadingOut }),
               (this.m_hideTimeout = window.setTimeout(
                 this.hideAndResetLatchedValues,
-                I.kFadeoutTimeMs,
+                k.kFadeoutTimeMs,
               ));
           }
           resetLatchedValued() {
@@ -4637,13 +4688,13 @@ var CLSTAMP = "10029581";
               this.resetLatchedValued(),
               this.setState({
                 visible: !1,
-                opacity: D.Opaque,
+                opacity: V.Opaque,
                 alreadyHidDashboard: !1,
               });
           }
           render() {
             if (!this.state.visible) return null;
-            if (A.SW.m_bDashboardVisible) return null;
+            if (P.SW.m_bDashboardVisible) return null;
             let e = "",
               t = "";
             if (
@@ -4673,26 +4724,26 @@ var CLSTAMP = "10029581";
               )
                 return null;
             }
-            let n = this.state.latchedAppKey === I.k_sHomeAppKey,
+            let n = this.state.latchedAppKey === k.k_sHomeAppKey,
               o = !1,
               r = "";
             switch (this.state.latchedSceneApplicationState) {
               case a.HW.Quitting:
-                r = (0, H.we)("#Now_Quitting");
+                r = (0, T.we)("#Now_Quitting");
                 break;
               case a.HW.Starting:
-                r = (0, H.we)(n ? "" : "#Now_Starting");
+                r = (0, T.we)(n ? "" : "#Now_Starting");
                 break;
               case a.HW.Waiting:
-                (r = (0, H.we)("#Now_Waiting")), (o = !0);
+                (r = (0, T.we)("#Now_Waiting")), (o = !0);
             }
             let s = r.length > 0,
               l = ["TransitionAppImage"],
               d = ["TransitionAppLabels"],
               u = ["TransitionAppSpinner"];
-            this.state.opacity == D.FadingIn
+            this.state.opacity == V.FadingIn
               ? (l.push("FadingIn"), d.push("FadingIn"), u.push("FadingIn"))
-              : this.state.opacity == D.FadingOut &&
+              : this.state.opacity == V.FadingOut &&
                 (l.push("FadingOut"), d.push("FadingOut"), u.push("FadingOut")),
               o && l.push("Waiting");
             let c = null;
@@ -4704,7 +4755,7 @@ var CLSTAMP = "10029581";
                 i.createElement(
                   a.dL,
                   {
-                    translation: { y: -0.1125, z: -A.SW.dashboardDistance },
+                    translation: { y: -0.1125, z: -P.SW.dashboardDistance },
                     scale: 0.244,
                   },
                   i.createElement(
@@ -4766,7 +4817,7 @@ var CLSTAMP = "10029581";
                         i.createElement(
                           "div",
                           { className: u.join(" ") },
-                          i.createElement(P.bR, null),
+                          i.createElement(H.bR, null),
                         ),
                       ),
                     ),
@@ -4775,45 +4826,45 @@ var CLSTAMP = "10029581";
             );
           }
         });
-        (N.k_sHomeAppKey = "openvr.tool.steamvr_environments"),
-          (N.kHideDelayMs = 5e3),
-          (N.kUnresponsiveDelayMs = 2e3),
-          (N.kFadeoutTimeMs = 550),
-          (0, o.Cg)([s.o], N.prototype, "startUnresponsiveTimer", null),
-          (0, o.Cg)([s.o], N.prototype, "cancelUnresponsiveTimeout", null),
-          (0, o.Cg)([s.o], N.prototype, "onUnresponsiveTimeout", null),
-          (0, o.Cg)([s.o], N.prototype, "updateLatchedValues", null),
-          (0, o.Cg)([s.o], N.prototype, "onSceneApplicationStateChanged", null),
-          (0, o.Cg)([s.o], N.prototype, "show", null),
-          (0, o.Cg)([s.o], N.prototype, "cancelFadeOutTimers", null),
-          (0, o.Cg)([s.o], N.prototype, "hideSoon", null),
-          (0, o.Cg)([s.o], N.prototype, "startFadeOut", null),
-          (0, o.Cg)([s.o], N.prototype, "resetLatchedValued", null),
-          (0, o.Cg)([s.o], N.prototype, "hideAndResetLatchedValues", null),
-          (N = I = (0, o.Cg)([l.PA], N));
-        var O = n(7813),
-          B = n(998),
-          F = n(4963),
-          Z = n(9118),
-          z = n(5802),
-          U = n(1532),
-          W = n(6646),
-          G = (n(9569), n(5572)),
-          j = n.n(G),
+        (F.k_sHomeAppKey = "openvr.tool.steamvr_environments"),
+          (F.kHideDelayMs = 5e3),
+          (F.kUnresponsiveDelayMs = 2e3),
+          (F.kFadeoutTimeMs = 550),
+          (0, o.Cg)([s.o], F.prototype, "startUnresponsiveTimer", null),
+          (0, o.Cg)([s.o], F.prototype, "cancelUnresponsiveTimeout", null),
+          (0, o.Cg)([s.o], F.prototype, "onUnresponsiveTimeout", null),
+          (0, o.Cg)([s.o], F.prototype, "updateLatchedValues", null),
+          (0, o.Cg)([s.o], F.prototype, "onSceneApplicationStateChanged", null),
+          (0, o.Cg)([s.o], F.prototype, "show", null),
+          (0, o.Cg)([s.o], F.prototype, "cancelFadeOutTimers", null),
+          (0, o.Cg)([s.o], F.prototype, "hideSoon", null),
+          (0, o.Cg)([s.o], F.prototype, "startFadeOut", null),
+          (0, o.Cg)([s.o], F.prototype, "resetLatchedValued", null),
+          (0, o.Cg)([s.o], F.prototype, "hideAndResetLatchedValues", null),
+          (F = k = (0, o.Cg)([l.PA], F));
+        var A = n(7813),
+          N = n(998),
+          O = n(4963),
+          B = n(9118),
+          Z = n(5802),
+          z = n(1532),
+          U = n(6646),
+          W = (n(9569), n(5572)),
+          G = n.n(W),
           K = n(6379);
         (0, l.PA)(function () {
           return null;
         });
-        const $ = (0, l.PA)(function () {
-          return A.SW.m_bTrackingRecording
+        const j = (0, l.PA)(function () {
+          return P.SW.m_bTrackingRecording
             ? i.createElement(
                 "div",
-                { className: j().TrackingDataRecordingNotification },
-                i.createElement(h.Kj, null),
+                { className: G().TrackingDataRecordingNotification },
+                i.createElement(m.Kj, null),
               )
             : null;
         });
-        function X() {
+        function $() {
           return i.createElement(
             a.dL,
             { parent_path: "/user/head" },
@@ -4827,21 +4878,22 @@ var CLSTAMP = "10029581";
               i.createElement(
                 a.Zk,
                 {
-                  meters_per_pixel: p.iZ,
+                  meters_per_pixel: u.iZ,
                   sort_order: 1e3,
                   debug_name: "persistent_notifications",
                   key: "persistent_notifications",
                 },
                 i.createElement(
                   "div",
-                  { className: j().PersistentNotificationsContainer },
+                  { className: G().PersistentNotificationsContainer },
                   !1,
-                  i.createElement($, null),
+                  i.createElement(j, null),
                 ),
               ),
             ),
           );
         }
+        var X = n(9728);
         class q {
           constructor() {
             (this.m_audioContext = new AudioContext()),
@@ -5019,46 +5071,46 @@ var CLSTAMP = "10029581";
             var e, t, n, o;
             const r =
                 null !==
-                  (e = d.HR.settings.get(
+                  (e = x.HR.settings.get(
                     "/settings/dashboard/enableLTCReflections",
                   )) &&
                 void 0 !== e &&
                 e,
               s =
                 null !==
-                  (t = d.HR.settings.get(
+                  (t = x.HR.settings.get(
                     "/settings/dashboard/theaterModeReflection",
                   )) && void 0 !== t
                   ? t
                   : 0.5,
               l =
                 null !==
-                  (n = d.HR.settings.get(
+                  (n = x.HR.settings.get(
                     "/settings/dashboard/theaterModeBrightness",
                   )) && void 0 !== n
                   ? n
                   : 0.5,
-              p = Math.pow(s, 2.2),
-              m = Math.pow(l, 2.2),
-              h = u.G.Instance.SceneApplicationState !== a.HW.None,
-              v = A.SW.sceneAppDimmingActive,
-              g = A.SW.isGroupMode;
-            let _, C;
+              u = Math.pow(s, 2.2),
+              c = Math.pow(l, 2.2),
+              m = X.G.Instance.SceneApplicationState !== a.HW.None,
+              p = P.SW.sceneAppDimmingActive,
+              h = P.SW.isGroupMode;
+            let v, g;
             K.c.m_eCameraExposure == a.Yu.ECameraExposure_HighExposure
-              ? ((C = [0.06, 0.08, 0.3]),
-                (_ = A.SW.m_bDashboardVisible
+              ? ((g = [0.06, 0.08, 0.3]),
+                (v = P.SW.m_bDashboardVisible
                   ? [0.35, 0.35, 0.35]
                   : [0.6, 0.6, 0.6]))
-              : ((C = [0.09, 0.12, 0.6 * 0.75]),
-                (_ = A.SW.m_bDashboardVisible ? [0.6, 0.6, 0.6] : [1, 1, 1]));
-            let L,
-              f = [];
+              : ((g = [0.09, 0.12, 0.6 * 0.75]),
+                (v = P.SW.m_bDashboardVisible ? [0.6, 0.6, 0.6] : [1, 1, 1]));
+            let _,
+              C = [];
             if (
-              (0 == c.H.roomSetupStep
-                ? f.push(a.vz.QuickRecenter)
-                : (2 != c.H.roomSetupStep && 3 != c.H.roomSetupStep) ||
-                  f.push(a.vz.RoomSetupFloor),
-              0 != c.H.roomSetupStep && 1 != c.H.roomSetupStep)
+              (0 == d.H.roomSetupStep
+                ? C.push(a.vz.QuickRecenter)
+                : (2 != d.H.roomSetupStep && 3 != d.H.roomSetupStep) ||
+                  C.push(a.vz.RoomSetupFloor),
+              0 != d.H.roomSetupStep && 1 != d.H.roomSetupStep)
             )
               return i.createElement(
                 i.Fragment,
@@ -5068,8 +5120,8 @@ var CLSTAMP = "10029581";
                   "floor-color-mult": 1,
                   "skydome-mult": 1,
                   "scene-reflection-mult": 0.25,
-                  "roomview-mult": { to: _ },
-                  "allowed-action-sets": f,
+                  "roomview-mult": { to: v },
+                  "allowed-action-sets": C,
                   "inhibit-bounds-rendering": !0,
                   "pause-notifications": !0,
                   "roomview-enable-override": !0,
@@ -5078,22 +5130,22 @@ var CLSTAMP = "10029581";
                 }),
               );
             if (
-              ((L = h
-                ? v
+              ((_ = m
+                ? p
                   ? 0.15
                   : 1
                 : {
                     channel: a.KI.TheaterSlow,
                     from: 1,
-                    to: m,
+                    to: c,
                     interp: a.$.SmoothStep,
                   }),
-              !c.H.m_bShowFloor)
+              !d.H.m_bShowFloor)
             ) {
               const e =
                 0.2 *
                 (null !==
-                  (o = d.HR.settings.get(
+                  (o = x.HR.settings.get(
                     "/settings/dashboard/theaterModeSharpness",
                   )) && void 0 !== o
                   ? o
@@ -5102,20 +5154,20 @@ var CLSTAMP = "10029581";
                 i.Fragment,
                 null,
                 i.createElement(a.oi, {
-                  "scene-color-mult": L,
-                  "floor-color-mult": L,
+                  "scene-color-mult": _,
+                  "floor-color-mult": _,
                   "skydome-mult": 1,
                   "scene-reflection-mult": {
                     channel: a.KI.TheaterSlow,
                     from: 1,
-                    to: p,
+                    to: u,
                     interp: a.$.SmoothStep,
                   },
                   "roomview-mult": { to: [1, 1, 1] },
-                  "allowed-action-sets": f,
+                  "allowed-action-sets": C,
                 }),
                 r &&
-                  A.SW.isTheaterMode &&
+                  P.SW.isTheaterMode &&
                   i.createElement(a.B4, {
                     "tile-size": 0.05588,
                     "tile-gap": Y,
@@ -5142,8 +5194,8 @@ var CLSTAMP = "10029581";
               "div",
               { className: "Construct" },
               i.createElement(a.oi, {
-                "scene-color-mult": L,
-                "floor-color-mult": L,
+                "scene-color-mult": _,
+                "floor-color-mult": _,
                 "skydome-mult": {
                   channel: a.KI.TheaterSlow,
                   from: 1,
@@ -5153,25 +5205,25 @@ var CLSTAMP = "10029581";
                 "scene-reflection-mult": {
                   channel: a.KI.TheaterSlow,
                   from: 1,
-                  to: p,
+                  to: u,
                   interp: a.$.SmoothStep,
                 },
                 "roomview-mult": {
                   channel: a.KI.TheaterSlow,
-                  from: _,
-                  to: C,
+                  from: v,
+                  to: g,
                   interp: a.$.SmoothStep,
                 },
-                "allowed-action-sets": f,
+                "allowed-action-sets": C,
               }),
               i.createElement(
                 a.dL,
-                { parent_path: g ? "/system/locomotion/inverse" : void 0 },
+                { parent_path: h ? "/system/locomotion/inverse" : void 0 },
                 i.createElement(
                   a.dL,
-                  { transform_path: g ? "/remote/spawn/inverse" : void 0 },
+                  { transform_path: h ? "/remote/spawn/inverse" : void 0 },
                   r &&
-                    c.H.m_bShowFloor &&
+                    d.H.m_bShowFloor &&
                     i.createElement(a.B4, {
                       "tile-size": J,
                       "tile-gap": 0,
@@ -5193,17 +5245,17 @@ var CLSTAMP = "10029581";
                       "floor-aa-shader": !0,
                     }),
                   r &&
-                    c.H.m_bShowFloorFar &&
-                    !A.SW.isTheaterMode &&
+                    d.H.m_bShowFloorFar &&
+                    !P.SW.isTheaterMode &&
                     i.createElement(a.B4, {
                       "tile-size": 1.016,
                       "tile-gap": 3 * Y,
-                      "outer-radius": c.H.m_fBackgroundDomeRadius - 0.5,
+                      "outer-radius": d.H.m_fBackgroundDomeRadius - 0.5,
                       "fade-distance": 1,
                       height: 0,
                       offset: {
-                        x: c.H.m_fBackgroundOffsetX,
-                        y: c.H.m_fBackgroundOffsetZ,
+                        x: d.H.m_fBackgroundOffsetX,
+                        y: d.H.m_fBackgroundOffsetZ,
                       },
                       "center-randomization": 0,
                       "luma-randomization": {
@@ -5228,16 +5280,147 @@ var CLSTAMP = "10029581";
           }
         };
         ee = (0, o.Cg)([l.PA], ee);
-        var te,
-          ne = n(3246),
-          oe = n(6943),
-          ie = n(1909),
-          re = n(2156),
-          se = n(7600),
-          ae = n(2975),
-          le = n(582);
-        (0, O.configure)({ enforceActions: "never" });
-        class de extends i.Component {
+        var te = n(3246),
+          ne = n(4007),
+          oe = n(1909),
+          ie = n(2156),
+          re = n(7600),
+          se = n(9125);
+        function ae() {
+          return i.createElement(
+            "div",
+            { className: "LoadingThrobberContainer" },
+            i.createElement("div", { className: "LoadingThrobber" }),
+          );
+        }
+        function le() {
+          return i.createElement(
+            "div",
+            { className: "RoomSetupUI" },
+            i.createElement(
+              "div",
+              { className: "Title" },
+              '"Error Loading Steam"',
+            ),
+            i.createElement(
+              "div",
+              { className: "Body" },
+              "Steam timed out while starting.",
+              i.createElement("p", null),
+              "Please reboot your headset to try again, and contact support if the problem persists.",
+            ),
+            !1,
+          );
+        }
+        const de = (0, l.PA)(function () {
+          const [e, t] = i.useState(!1),
+            n = P.SW.getBootOverlay(),
+            o = P.SW.showLoadingThrobberOrBootOverlay,
+            r = i.useRef(null),
+            s = i.useRef(null != n),
+            l = i.useCallback(() => {
+              r.current && clearTimeout(r.current),
+                t(!1),
+                (r.current = setTimeout(() => {
+                  console.error(
+                    "SteamLoadingThrobber timed out after",
+                    120,
+                    "seconds",
+                  ),
+                    t(!0);
+                }, 12e4));
+            }, [120]),
+            d = i.useCallback(() => {
+              t(!1), r.current && (clearTimeout(r.current), (r.current = null));
+            }, []);
+          return (
+            i.useEffect(
+              () => (
+                o && !n && l(),
+                () => {
+                  r.current && clearTimeout(r.current);
+                }
+              ),
+              [o, n, l],
+            ),
+            i.useEffect(() => {
+              const e = s.current,
+                t = null != n;
+              t ? d() : !t && e && l(), (s.current = t);
+            }, [n, d, l]),
+            i.useEffect(() => {
+              o ? n || r.current || l() : d();
+            }, [o, n, d, l]),
+            o
+              ? i.createElement(
+                  re.tH,
+                  null,
+                  i.createElement(
+                    a.dL,
+                    { parent_path: "/user/head" },
+                    i.createElement(
+                      a.m$,
+                      {
+                        start_angle_threshold: 10,
+                        stop_angle_threshold: 5,
+                        ease_out_angle_threshold: 20,
+                        min_angular_velocity: 75,
+                        ease_in_power: 1.5,
+                        lock_to_horizon: !1,
+                      },
+                      i.createElement(
+                        a.dL,
+                        { translation: P.SW.dashboardTranslation },
+                        i.createElement(
+                          a.dL,
+                          { scale: P.SW.dashboardScale },
+                          !n &&
+                            i.createElement(
+                              a.Zk,
+                              {
+                                meters_per_pixel: u.iZ,
+                                interactive: e,
+                                debug_name: "steam-loading-throbber",
+                              },
+                              !e && i.createElement(ae, null),
+                              e && i.createElement(le, null),
+                            ),
+                          n &&
+                            i.createElement(a.Zk, {
+                              overlay_key: n,
+                              meters_per_pixel: u.iZ,
+                              interactive: !1,
+                              debug_name: "steam-loading-boot-overlay",
+                            }),
+                        ),
+                      ),
+                    ),
+                  ),
+                )
+              : null
+          );
+        });
+        var ue = n(3689),
+          ce = n(795),
+          me = n(296);
+        n(9256), n(3481), n(3514), n(9383), n(5323);
+        (0, me.PA)(function (e) {
+          var t;
+          const n = "num_test_frames",
+            [o, r] = i.useState(
+              Number.parseInt(
+                null !== (t = sessionStorage.getItem(n)) && void 0 !== t
+                  ? t
+                  : "0",
+              ),
+            );
+          i.useEffect(() => sessionStorage.setItem(n, o.toString()), [o]);
+          const [s, a] = i.useState(!0);
+          return null;
+        });
+        var pe;
+        (0, A.configure)({ enforceActions: "never" });
+        class he extends i.Component {
           constructor(e) {
             var t;
             super(e),
@@ -5322,7 +5505,7 @@ var CLSTAMP = "10029581";
                         i.createElement(
                           "h1",
                           null,
-                          (0, H.we)("#WakingUpBaseStations"),
+                          (0, T.we)("#WakingUpBaseStations"),
                         ),
                       ),
                     ),
@@ -5333,12 +5516,12 @@ var CLSTAMP = "10029581";
         }
         (0, o.Cg)(
           [s.o],
-          de.prototype,
+          he.prototype,
           "onWakingBaseStationsStateChanged",
           null,
         ),
-          (0, o.Cg)([s.o], de.prototype, "onImageLoaded", null);
-        let ue = (te = class extends i.Component {
+          (0, o.Cg)([s.o], he.prototype, "onImageLoaded", null);
+        let ve = (pe = class extends i.Component {
           static bootstrap(e) {
             return (0, o.sH)(this, void 0, void 0, function* () {
               console.log("Bootstrap START");
@@ -5346,7 +5529,7 @@ var CLSTAMP = "10029581";
               if (t)
                 if ((0, a.R$)() == a.OH.Overlay) {
                   console.log("Bootstrapping " + e, t),
-                    F.u.Instance.preloadSounds(),
+                    O.u.Instance.preloadSounds(),
                     null === VRHTML ||
                       void 0 === VRHTML ||
                       VRHTML.VROverlay.SetFlag(
@@ -5362,35 +5545,36 @@ var CLSTAMP = "10029581";
                       );
                   try {
                     yield Promise.all([
-                      (0, H.uV)(
+                      (0, T.uV)(
                         ["vrmonitor", "dashboard", "bindingui"],
                         null === VRHTML || void 0 === VRHTML
                           ? void 0
                           : VRHTML.GetSteamLanguage(),
                       ),
-                      d.HR.Init(!0),
-                      Z.W.Init(!0),
-                      z.B$.Init(),
-                      U.s.Init(),
-                      W.X.Init(),
+                      x.HR.Init(!0),
+                      B.W.Init(!0),
+                      Z.B$.Init(),
+                      z.s.Init(),
+                      U.X.Init(),
                     ]),
                       yield Promise.all([
-                        oe.Q.Init(),
-                        A.SW.Init(),
-                        ne.r.Init(),
+                        ne.Q.Init(),
+                        ue.g.Init(),
+                        P.SW.Init(),
+                        te.r.Init(),
                         K.c.Init(),
-                        c.H.Init(),
-                        ae.JJ.Init(),
+                        d.H.Init(),
+                        ce.JJ.Init(),
                       ]),
-                      yield (0, ie.I)();
+                      yield (0, oe.I)();
                   } catch (e) {
                     console.error("Failed to initialize systemui:", e);
                   }
-                  (0, le.aj)().Init("SteamVR", CLSTAMP, (0, le.d4)()),
+                  (0, se.aj)().Init("SteamVR", CLSTAMP, (0, se.d4)()),
                     r
                       .H(t)
                       .render(
-                        i.createElement(a.O5, null, i.createElement(te, null)),
+                        i.createElement(a.O5, null, i.createElement(pe, null)),
                       );
                 } else
                   console.error(
@@ -5441,23 +5625,30 @@ var CLSTAMP = "10029581";
             let e = [];
             e.push(
               i.createElement(
-                se.tH,
-                { key: "dashboard" },
-                i.createElement(T.cQ, { ref: this.m_DashboardRef }),
+                re.tH,
+                { key: "loading" },
+                i.createElement(de, null),
               ),
             ),
               e.push(
                 i.createElement(
-                  se.tH,
-                  { key: "transition" },
-                  i.createElement(N, null),
+                  re.tH,
+                  { key: "dashboard" },
+                  i.createElement(R.cQ, { ref: this.m_DashboardRef }),
                 ),
               ),
               e.push(
                 i.createElement(
-                  se.tH,
+                  re.tH,
+                  { key: "transition" },
+                  i.createElement(F, null),
+                ),
+              ),
+              e.push(
+                i.createElement(
+                  re.tH,
                   { key: "basestationstatus" },
-                  i.createElement(de, null),
+                  i.createElement(he, null),
                 ),
               );
             let t = 0;
@@ -5468,9 +5659,9 @@ var CLSTAMP = "10029581";
                     (t++,
                     e.push(
                       i.createElement(
-                        se.tH,
+                        re.tH,
                         { key: "controllerstatus_" + n.unIndex },
-                        i.createElement(B.C, { trackedDeviceIndex: n.unIndex }),
+                        i.createElement(N.C, { trackedDeviceIndex: n.unIndex }),
                       ),
                     )),
                   t >= 8
@@ -5484,61 +5675,61 @@ var CLSTAMP = "10029581";
                   )) ||
                 e.push(
                   i.createElement(
-                    se.tH,
+                    re.tH,
                     { key: "ipd" },
-                    i.createElement(k, null),
+                    i.createElement(D, null),
                   ),
                 ),
               e.push(
                 i.createElement(
-                  se.tH,
+                  re.tH,
                   { key: "progressindicator" },
-                  i.createElement(b, null),
+                  i.createElement(f, null),
                 ),
               ),
               e.push(
                 i.createElement(
-                  se.tH,
+                  re.tH,
                   { key: "chaperonesafety" },
-                  i.createElement(w, null),
+                  i.createElement(E, null),
                 ),
               ),
               e.push(
                 i.createElement(
-                  se.tH,
+                  re.tH,
                   { key: "pooledpopups" },
-                  i.createElement(re.F, null),
+                  i.createElement(ie.F, null),
                 ),
               ),
               e.push(
                 i.createElement(
-                  se.tH,
+                  re.tH,
                   { key: "construct" },
                   i.createElement(ee, null),
                 ),
               ),
               e.push(
                 i.createElement(
-                  se.tH,
+                  re.tH,
                   { key: "roomsetup" },
-                  i.createElement(x, null),
+                  i.createElement(w, null),
                 ),
               ),
               e.push(
                 i.createElement(
-                  se.tH,
+                  re.tH,
                   { key: "persistentnotifications" },
-                  i.createElement(X, null),
+                  i.createElement($, null),
                 ),
               ),
               i.createElement("span", null, e)
             );
           }
         });
-        (0, o.Cg)([s.o], ue.prototype, "DeviceEvent", null),
-          (ue = te = (0, o.Cg)([l.PA], ue)),
+        (0, o.Cg)([s.o], ve.prototype, "DeviceEvent", null),
+          (ve = pe = (0, o.Cg)([l.PA], ve)),
           console.log("systemui.tsx is running CL", CLSTAMP),
-          ue.bootstrap("#root");
+          ve.bootstrap("#root");
       },
       9471: (e, t, n) => {
         "use strict";
@@ -5549,8 +5740,8 @@ var CLSTAMP = "10029581";
           DO: () => c,
           FG: () => d,
           YN: () => u,
-          hU: () => p,
-          WM: () => m,
+          hU: () => m,
+          WM: () => p,
           fr: () => g,
           Kj: () => C,
         });
@@ -5636,7 +5827,7 @@ var CLSTAMP = "10029581";
             }),
           );
         }
-        function p(e) {
+        function m(e) {
           return i.createElement(
             "svg",
             Object.assign(
@@ -5662,7 +5853,7 @@ var CLSTAMP = "10029581";
             }),
           );
         }
-        function m(e) {
+        function p(e) {
           return i.createElement(
             "svg",
             Object.assign(
@@ -6086,7 +6277,7 @@ var CLSTAMP = "10029581";
   var i = o.O(
     void 0,
     [967, 991, 267, 305, 527, 452, 537, 500, 554, 458, 17],
-    () => o(4950),
+    () => o(2853),
   );
   i = o.O(i);
 })(); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/systemui.js.map

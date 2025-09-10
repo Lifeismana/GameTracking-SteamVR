@@ -180,6 +180,7 @@ $3br
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE10_
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE11_
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE12_
+*ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE13_
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE1_
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE2_
 *ZN12SVLHMDDriverC4EP9SVLDriverEUl16ValueTransportIDbE3_
@@ -336,7 +337,6 @@ $3br
 /input/y/click
 /input/y/touch
 /is_link_environment
-/is_server_dashboard_visible
 /link_stream_packet_time
 /output/haptic
 /pose/grip
@@ -546,11 +546,11 @@ $3br
 1e+9999
 20BinaryBlendPoseMaker
 20PassThroughPoseMaker
+21:12:45
 21CSharedSemaphoreLinux
 21SVLHandTrackingDriver
 22CKeyframedDataResource
 22IControlConnectionImpl
-23:21:24
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -667,7 +667,6 @@ Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 Audio
 Audio/Sink
 Audio/Source
-Aug 29 2025
 August
 Auto
 Autodetected %s
@@ -698,8 +697,6 @@ BIsHapticLoggingEnabled()::s_bNeedsRecheck
 BIsLinkClient()
 BIsLinkServer()
 BIsLinkStreamActive()
-BIsServerDashboardVisible()
-BIsServerDashboardVisible() (.cold)
 BIsStreamingModeOnDemand()
 BIsStreamingModeOnDemand() (.cold)
 BIsTrackedDevicePropertyMandantory(vr::ETrackedDeviceProperty)
@@ -3185,6 +3182,7 @@ PackStringProperty(char*, unsigned long, unsigned int*, unsigned int, vr::ETrack
 PackVTEProps(VTE_ClientStreamingInfo_t*, LaunchOptions const&)
 PackVTEProps(VTE_HostDefaults_t*)
 PackVTEProps(VTE_PowerProps_t*, unsigned int)
+PackVTEProps(VTE_RemoteTransforms_t*, vr::RemoteTransforms_t const&)
 PackVTEProps(VTE_StaticProps_t*, unsigned int)
 PackVTEProps(VTE_StreamingInfo_t*)
 Pack_SNORM_Uint8(float)
@@ -4059,10 +4057,10 @@ SVLHMDDriver::ReceivedHMDStaticProps(VTE_StaticProps_t&)::k_pathDriverVrlinkGotE
 SVLHMDDriver::ResourceCheck()
 SVLHMDDriver::SVLHMDDriver(SVLDriver*)
 SVLHMDDriver::SVLHMDDriver(SVLDriver*) (.cold)
-SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const::k_pathDriverVrlinkClientVersion
+SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const
+SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const::k_pathDriverVrlinkClientVersion
 SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda5'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const (.constprop.0)
 SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda5'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const (.constprop.0) (.cold)
-SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda9'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const
 SVLHMDDriver::SendUpdatedFramerateRequest()
 SVLHMDDriver::SetAudioPlaybackDeviceId(std::string const&)
 SVLHMDDriver::SetAudioRecordingDeviceId(std::string const&)
@@ -4086,6 +4084,8 @@ SVLHMDDriverVulkan::Activate(unsigned int)
 SVLHMDDriverVulkan::Activate(unsigned int) (.cold)
 SVLHMDDriverVulkan::CompositeLayer(int, bool, SVLHMDDriver::Layer_t const&)
 SVLHMDDriverVulkan::CompositeLayer(int, bool, SVLHMDDriver::Layer_t const&) (.cold)
+SVLHMDDriverVulkan::CreateEncodeBackbuffer(SVLVideoVulkanEncodeImage_t&)
+SVLHMDDriverVulkan::CreateEncodeBackbuffer(SVLVideoVulkanEncodeImage_t&) (.cold)
 SVLHMDDriverVulkan::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
 SVLHMDDriverVulkan::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*) (.cold)
 SVLHMDDriverVulkan::CreateVulkanBuffers()
@@ -4095,17 +4095,17 @@ SVLHMDDriverVulkan::CreateVulkanInstance()
 SVLHMDDriverVulkan::CreateVulkanInstance() (.cold)
 SVLHMDDriverVulkan::CreateVulkanPipelines()
 SVLHMDDriverVulkan::CreateVulkanPipelines() (.cold)
-SVLHMDDriverVulkan::CreateYUVBackbuffer(SVLVideoVulkanYUVImage_t&)
-SVLHMDDriverVulkan::CreateYUVBackbuffer(SVLVideoVulkanYUVImage_t&) (.cold)
 SVLHMDDriverVulkan::Deactivate()
 SVLHMDDriverVulkan::DestroyAllSwapTextureSets(unsigned int)
 SVLHMDDriverVulkan::DestroyAllSwapTextureSets(unsigned int) (.cold)
+SVLHMDDriverVulkan::DestroyEncodeBackbuffers()
 SVLHMDDriverVulkan::DestroySwapTextureSet(unsigned long)
 SVLHMDDriverVulkan::DestroySwapTextureSet(unsigned long) (.cold)
-SVLHMDDriverVulkan::DestroyYUVBackbuffers()
 SVLHMDDriverVulkan::GetBufferTexture() const
 SVLHMDDriverVulkan::GetCurrentChromaFormat()
+SVLHMDDriverVulkan::GetCurrentEncodeFormat()
 SVLHMDDriverVulkan::GetCurrentLumaFormat()
+SVLHMDDriverVulkan::GetCurrentRGBFormat()
 SVLHMDDriverVulkan::GetCurrentYUVFormat()
 SVLHMDDriverVulkan::GetFreeBackbufferIndex()
 SVLHMDDriverVulkan::GetRecommendedEncodeWidth(int&)
@@ -4303,6 +4303,7 @@ SendUpdatedFramerateRequest: Preferred refresh rate was available. Using %.2f
 SendUpdatedFramerateRequest: Requesting client use %.2f Hz
 Sending quit event because SteamVR launched for streaming and client has quit.
 Sent message id %u, received %u (%s). Rejecting response.\n
+Sep  8 2025
 September
 SerialNumber %s\n
 SessionID
@@ -4320,8 +4321,6 @@ SetDashboardVisibleInternal(bool) (.cold)
 SetDashboardVisibleInternal(bool)::k_pathDashboardVisible
 SetEnvironmentVariable(char const*, char const*)
 SetInitErrorIfHigherPriority(vr::EVRInitError*, int*, vr::EVRInitError)
-SetIsServerDashboardVisible(bool)
-SetIsServerDashboardVisible(bool) (.cold)
 SetKeyboardImplementationOverlay(VRSystemLayerState_t*, vr::EVRKeyboardImplementation, unsigned long)
 SetLinkClient()
 SetLinkClientHandlesDashboardState(bool)
@@ -4787,6 +4786,7 @@ UnpackStringProperty(char const*, unsigned int, unsigned long, vr::ETrackedDevic
 UnpackVTEProps(unsigned long, VTE_ClientStreamingInfo_t const&)
 UnpackVTEProps(unsigned long, VTE_PowerProps_t const&)
 UnpackVTEProps(unsigned long, VTE_StaticProps_t const&)
+UnpackVTEProps(vr::RemoteTransforms_t*, VTE_RemoteTransforms_t const&, unsigned long)
 Unpack_SNORM_Uint8(unsigned char)
 Unsupported Prop_ControllerType_String "%s"\n
 Unsupported `type` for accessor object. Got "
@@ -4824,6 +4824,7 @@ VK_KHR_video_encode_queue
 VK_KHR_video_queue
 VK_LAYER_KHRONOS_validation
 VK_STD_vulkan_video_codec_h265_encode
+VK_VALVE_video_encode_rgb_conversion
 VR Path Registry node %s is not an array\n
 VRApplicationError_AppKeyAlreadyExists
 VRApplicationError_ApplicationAlreadyRunning
@@ -5085,6 +5086,7 @@ VRLinkTX
 VRLink_BitstreamBuffer
 VRLink_BufferMemory
 VRLink_ChromaImageView
+VRLink_ColorImageView
 VRLink_ComputeCommandBuffer
 VRLink_ComputeCommandPool
 VRLink_ComputeQueue
@@ -5093,6 +5095,7 @@ VRLink_ConstantBuffer
 VRLink_DPBImage
 VRLink_DPBImageView
 VRLink_DpbImagesMemory
+VRLink_EncodeBackbuffer
 VRLink_LumaImageView
 VRLink_VideoCommandBuffer
 VRLink_VideoCommandPool
@@ -5102,9 +5105,7 @@ VRLink_VideoSemaphore
 VRLink_VideoSession
 VRLink_VideoSessionMemory
 VRLink_VideoSessionParams
-VRLink_YUVBackbuffer
-VRLink_YUVImageMemory
-VRLink_YUVImageView
+VRLink_encodeImageMemory
 VRMsg_AbortApplicationTransition
 VRMsg_AcknowledgeQuit_Exiting
 VRMsg_AddApplicationManifest
@@ -5490,11 +5491,11 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 Warning: packet received with wrong identifier. Expected 0x02...... got: %08x
 Warning: received packet ID %d in frame %d, but packet id exceeded max frame size\n
 Warning: received packet with invalid session ID (%08x/%08x/%08x)\n
+Warning: remote_dashboard_open received during unified dashboard mode.  TODO: implement
 Warning: res field incorrect [clear mode] %04x\n
 Warning: res field incorrect [encryption mode] %08x on packet size %d\n
 Warning: retransmit request for unknown message %d (frame number=%d\n
 Watchdog namespace: %u\n
-We lost the HMD wars -- another HMD activated\n
 Wednesday
 WillLog(ELogLevel)
 WiredSession
@@ -5555,7 +5556,7 @@ Zjz\v
 [HMDVulkan] AcquireSync: Failed waiting for backbuffer. This should never happen!
 [HMDVulkan] Activate()
 [HMDVulkan] Activate: Done!
-[HMDVulkan] Attempting to allocate YUV image with size: %ux%u
+[HMDVulkan] Attempting to allocate %s image with size: %ux%u
 [HMDVulkan] CreateSwapTextureSet: %dx%d(%d) %d
 [HMDVulkan] CreateSwapTextureSet: Created texture: 0x%llx
 [HMDVulkan] CreateSwapTextureSet: Failed to create shared texture for CreateSwapTextureSet
@@ -5566,8 +5567,8 @@ Zjz\v
 [HMDVulkan] Created instance
 [HMDVulkan] Deactivate()
 [HMDVulkan] DestroyAllSwapTextureSets()
+[HMDVulkan] DestroyEncodeBackbuffers
 [HMDVulkan] DestroySwapTextureSet()
-[HMDVulkan] DestroyYUVBackbuffers
 [HMDVulkan] Done...
 [HMDVulkan] Enabling validation layers
 [HMDVulkan] Failed to alloc descriptor sets: %d
@@ -6288,6 +6289,7 @@ centerCrossText
 channels
 char const* std::(anonymous namespace)::ucs4_span<char>(char const*, char const*, unsigned long, char32_t, std::codecvt_mode)
 char const* std::(anonymous namespace)::utf16_span<char>(char const*, char const*, unsigned long, char32_t, std::codecvt_mode)
+char const*& std::vector<char const*, std::allocator<char const*>>::emplace_back<char const*>(char const*&&)
 char& std::vector<char, std::allocator<char>>::emplace_back<char>(char&&)
 char* std::__add_grouping<char>(char*, char, char const*, unsigned long, char const*, char const*)
 char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char const*, std::string>>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
@@ -6387,6 +6389,7 @@ dTXQ
 dTargetBW
 da_dk
 danish
+dashboard
 dashboard_overlay_destroyed
 dashboard_transform
 dashboard_tutorial_dismissed
@@ -6732,7 +6735,7 @@ guard variable for PackHmdInput(PackedHmdInput_t*)::k_pathInputSystemClick
 guard variable for SDLDynamic()::m_instance
 guard variable for SVLHMDDriver::HandleNetworkTestReportFromClient()::k_pathDriverVrlinkNetworkTestedBandwidth
 guard variable for SVLHMDDriver::ReceivedHMDStaticProps(VTE_StaticProps_t&)::k_pathDriverVrlinkGotEyeAndExpression
-guard variable for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const::k_pathDriverVrlinkClientVersion
+guard variable for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const::k_pathDriverVrlinkClientVersion
 guard variable for SVLServer::SetRequestedConnectionInfoInternal(std::vector<char, std::allocator<char>>&, int)::k_pathSteamVrConnectionReady
 guard variable for SetDashboardVisibleInternal(bool)::k_pathDashboardVisible
 guard variable for SetLinkEnvironment(ELinkEnvironment)::k_pathIsLinkEnvironment
@@ -7858,6 +7861,7 @@ std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lamb
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda13'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda2'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda3'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda4'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
@@ -7932,9 +7936,10 @@ std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda1'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&) (.cold)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
-std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&) (.cold)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&) (.cold)
+std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda13'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
+std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda13'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&) (.cold)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda2'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda3'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
 std::_Function_handler<void (ValueTransportID, bool), SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda4'(ValueTransportID, bool)>::_M_invoke(std::_Any_data const&, ValueTransportID&&, bool&&)
@@ -11685,6 +11690,7 @@ typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda1'(ValueTransportID,
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)
+typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda13'(ValueTransportID, bool)
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda2'(ValueTransportID, bool)
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda3'(ValueTransportID, bool)
 typeinfo for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda4'(ValueTransportID, bool)
@@ -12060,6 +12066,7 @@ typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda1'(ValueTranspo
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda11'(ValueTransportID, bool)
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)
+typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda13'(ValueTransportID, bool)
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda2'(ValueTransportID, bool)
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda3'(ValueTransportID, bool)
 typeinfo name for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda4'(ValueTransportID, bool)
@@ -12339,6 +12346,7 @@ unMyPID == data
 unexpected 
 ungetc
 ungetwc
+unifiedDashboard
 uninitialized __any_string
 universeID
 universes
@@ -12526,12 +12534,12 @@ vkAcquireNextImageKHR
 vkAcquirePerformanceConfigurationINTEL
 vkAcquireProfilingLockKHR
 vkAllocateCommandBuffers
-vkAllocateCommandBuffers( m_State.pVkDevice, &cmdBufAllocInfo, &yuvImage.pVkComputeCommandBuffer ) failed! (VkResult: %d)
+vkAllocateCommandBuffers( m_State.pVkDevice, &cmdBufAllocInfo, &encodeImage.pVkComputeCommandBuffer ) failed! (VkResult: %d)
 vkAllocateCommandBuffers( m_pState->pVkDevice, &cmdbufAllocInfo, &m_vecFrames[ i ].pVkCommandBuffer ) failed! (VkResult: %d)
 vkAllocateDescriptorSets
 vkAllocateMemory
 vkAllocateMemory( m_State.pVkDevice, &allocInfo, nullptr, &m_pVkBufferMemory ) failed! (VkResult: %d)
-vkAllocateMemory( m_State.pVkDevice, &imageAllocInfo, nullptr, &yuvImage.pVkImageMemory ) failed! (VkResult: %d)
+vkAllocateMemory( m_State.pVkDevice, &imageAllocInfo, nullptr, &encodeImage.pVkImageMemory ) failed! (VkResult: %d)
 vkAllocateMemory( m_pState->pVkDevice, &bitstreamAllocInfo, nullptr, &m_pVkBitstreamMemory ) failed! (VkResult: %d)
 vkAllocateMemory( m_pState->pVkDevice, &dpbImageAllocInfo, nullptr, &m_pVkDpbImageMemories[i] ) failed! (VkResult: %d)
 vkAllocateMemory( m_pState->pVkDevice, &sessionMemoryAllocInfo, nullptr, &pVkVideoSessionMemory ) failed! (VkResult: %d)
@@ -12546,7 +12554,7 @@ vkBindBufferMemory2
 vkBindBufferMemory2KHR
 vkBindDataGraphPipelineSessionMemoryARM
 vkBindImageMemory
-vkBindImageMemory( m_State.pVkDevice, yuvImage.pVkImage, yuvImage.pVkImageMemory, 0 ) failed! (VkResult: %d)
+vkBindImageMemory( m_State.pVkDevice, encodeImage.pVkImage, encodeImage.pVkImageMemory, 0 ) failed! (VkResult: %d)
 vkBindImageMemory( m_pState->pVkDevice, m_pVkDpbImages[i], m_pVkDpbImageMemories[i], 0 ) failed! (VkResult: %d)
 vkBindImageMemory2
 vkBindImageMemory2KHR
@@ -12871,13 +12879,13 @@ vkCreateFramebuffer
 vkCreateGraphicsPipelines
 vkCreateHeadlessSurfaceEXT
 vkCreateImage
-vkCreateImage( m_State.pVkDevice, &imageCreateInfo, nullptr, &yuvImage.pVkImage ) failed! (VkResult: %d)
+vkCreateImage( m_State.pVkDevice, &imageCreateInfo, nullptr, &encodeImage.pVkImage ) failed! (VkResult: %d)
 vkCreateImage( m_pState->pVkDevice, &dpbImageCreateInfo, nullptr, &m_pVkDpbImages[i] ) failed! (VkResult: %d)
 vkCreateImageView
-vkCreateImageView( m_State.pVkDevice, &chromaImageViewCreateInfo, nullptr, &yuvImage.pVkChromaImageView ) failed! (VkResult: %d)
+vkCreateImageView( m_State.pVkDevice, &chromaImageViewCreateInfo, nullptr, &encodeImage.pVkChromaImageView ) failed! (VkResult: %d)
+vkCreateImageView( m_State.pVkDevice, &colorImageViewCreateInfo, nullptr, &encodeImage.pVkColorImageView ) failed! (VkResult: %d)
 vkCreateImageView( m_State.pVkDevice, &imageViewCreateInfo, nullptr, &pResources->pImageView[ nEye ] ) failed! (VkResult: %d)
-vkCreateImageView( m_State.pVkDevice, &lumaImageViewCreateInfo, nullptr, &yuvImage.pVkLumaImageView ) failed! (VkResult: %d)
-vkCreateImageView( m_State.pVkDevice, &yuvImageViewCreateInfo, nullptr, &yuvImage.pVkYUVImageView ) failed! (VkResult: %d)
+vkCreateImageView( m_State.pVkDevice, &lumaImageViewCreateInfo, nullptr, &encodeImage.pVkLumaImageView ) failed! (VkResult: %d)
 vkCreateImageView( m_pState->pVkDevice, &imageViewCreateInfo, nullptr, &m_pVkDbpImageViews[ i ] ) failed! (VkResult: %d)
 vkCreateIndirectCommandsLayoutEXT
 vkCreateIndirectCommandsLayoutNV
@@ -12902,11 +12910,12 @@ vkCreateSampler( m_State.pVkDevice, &samplerInfo, nullptr, &m_pVkSampler ) faile
 vkCreateSamplerYcbcrConversion
 vkCreateSamplerYcbcrConversionKHR
 vkCreateSemaphore
-vkCreateSemaphore( m_State.pVkDevice, &semaphoreCreateInfo, nullptr, &yuvImage.pVkComputeToVideoQueueSemaphore ) failed! (VkResult: %d)
+vkCreateSemaphore( m_State.pVkDevice, &semaphoreCreateInfo, nullptr, &encodeImage.pVkComputeToVideoQueueSemaphore ) failed! (VkResult: %d)
 vkCreateSemaphore( m_pState->pVkDevice, &semaphoreCreateInfo, nullptr, &m_pVkVideoSemaphore ) failed! (VkResult: %d)
 vkCreateShaderModule
 vkCreateShaderModule( m_State.pVkDevice, &computeChromaShaderModuleInfo, nullptr, &m_ChromaComputeModule ) failed! (VkResult: %d)
 vkCreateShaderModule( m_State.pVkDevice, &computeLumaShaderModuleInfo, nullptr, &m_LumaComputeModule ) failed! (VkResult: %d)
+vkCreateShaderModule( m_State.pVkDevice, &computeRGBShaderModuleInfo, nullptr, &m_RGBComputeModule ) failed! (VkResult: %d)
 vkCreateShadersEXT
 vkCreateSharedSwapchainsKHR
 vkCreateSwapchainKHR
@@ -13937,6 +13946,7 @@ znear
 {vrlink}/shaders/cursor.vert
 {vrlink}/shaders/genforencode_comp_chroma.spv
 {vrlink}/shaders/genforencode_comp_luma.spv
+{vrlink}/shaders/genforencode_comp_rgb.spv
 {vrlink}/shaders/override_shader_params.json
 }/localization/localization.json
 ~%d~%d~%d,%d,%d~~~~

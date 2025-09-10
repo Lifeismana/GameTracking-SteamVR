@@ -425,6 +425,7 @@ $4DTdt
 .?AVCPlayspaceFloorHeightAdjust@sg@@
 .?AVCPlayspaceOutline@sg@@
 .?AVCPresentThread@LiquidVR@@
+.?AVCRemoteTransform@sg@@
 .?AVCRenderModel@sg@@
 .?AVCRenderThread@@
 .?AVCReparentToPanel@sg@@
@@ -710,6 +711,7 @@ $4DTdt
 .?AVIVRIPCResourceManagerClient@vr@@
 .?AVIVRRenderer@@
 .?AVIVRSceneInfo@CSceneGraphRenderer@@
+.?AVIVRSceneResult@CSceneGraphRenderer@@
 .?AVIVRSettings@vr@@
 .?AVIVRSettingsInternal@vr@@
 .?AVIVRSystemLayerInternal@@
@@ -721,6 +723,7 @@ $4DTdt
 .?AVOurCharReader@Json@@
 .?AVRuntimeError@Json@@
 .?AVSceneInfo@?O@??ComputeSystemLayerParams@CSystemLayer@vr@@QEAAXAEBURenderFrameParams_t@CGraphicsDevice@@AEAURenderSystemLayerParams_t@5@PEBUTrackedDevicePose_t@3@@Z@
+.?AVSceneResult@?O@??ComputeSystemLayerParams@CSystemLayer@vr@@QEAAXAEBURenderFrameParams_t@CGraphicsDevice@@AEAURenderSystemLayerParams_t@5@PEBUTrackedDevicePose_t@3@@Z@
 .?AVStringOutputStream@io@protobuf@google@@
 .?AVStyledWriter@Json@@
 .?AVWin32Event@IPC@@
@@ -869,7 +872,6 @@ $4DTdt
 /frame_time_monotonic
 /height
 /is_link_environment
-/is_server_dashboard_visible
 /lighthouse/camera/raw_frames
 /lighthouse/depthAugmentedPassthrough/leftMeshElementCount
 /lighthouse/depthAugmentedPassthrough/meshHeight
@@ -922,7 +924,7 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
-16:20:31
+14:16:57
 1A26b
 1e+9999
 1wsHp
@@ -1067,7 +1069,6 @@ Attempted to read payload of %d bytes from pipe but failed\n
 Audio Transform Quad Debug
 Audio devices initialized
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug 29 2025
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
@@ -2293,7 +2294,6 @@ IsValidSid
 IsWindowVisible
 IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d\n
 It shouldn't be possible to add a child twice because of move semantics
-JAS Internal Section Changed
 JFIF
 Journaling %s\n
 KERNEL32.dll
@@ -2748,7 +2748,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS*Q!G
+RSDS
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -2860,6 +2860,7 @@ Seated
 See 
 Selected: width=%d height=%d refresh=%d/%d\n
 SendHmdDebugRequest resp: %s\n
+Sep  8 2025
 Server
 Set local video recording to: %s\n
 Set thread %p priority to: %d\n
@@ -4625,7 +4626,6 @@ danish
 dashboard
 dashboardInitialOverlay
 dashboard_overlay_destroyed
-dashboard_scale
 dashboard_transform
 dashboard_tutorial_dismissed
 dashboardtransform
@@ -4831,6 +4831,7 @@ i11 <= UINT16_MAX
 i91k
 iFailed to create mirror window swap chain with DXGI_SWAP_EFFECT_FLIP_DISCARD! Trying DXGI_SWAP_EFFECT_DISCARD instead.\n
 iParams < tileFloorParams.size()
+i\o<F
 i]Wb
 iauds
 if HasVirtualDisplayPlugin
@@ -5177,6 +5178,9 @@ refresh_rate_change
 rejectDupKeys
 relatch
 relatchDashboardTransform
+remote-transform
+remote-transform-rx
+remote-transform-tx
 remote_perf_stats: dropped %d frames
 renderRoomViewGeo
 renderSystemLayerInDistortPass
@@ -5602,6 +5606,7 @@ unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
 uncbVREvent <= sizeof( vr::VREvent_t )
 undocked
 ungetc
+unifiedDashboard
 unknown
 unknown BMP
 unknown code

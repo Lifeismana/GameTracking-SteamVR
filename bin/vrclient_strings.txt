@@ -2591,6 +2591,7 @@ $3br
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:12:36
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -2631,7 +2632,6 @@ $3br
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
-23:21:19
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -3218,7 +3218,6 @@ Attempted to read payload of %d bytes from pipe but failed\n
 Attempted to unmap un-allocated BO\n
 Attempted to unmap unmapped BO\n
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
-Aug 29 2025
 August
 AuthenticAMD
 AutosaveURL
@@ -3878,6 +3877,10 @@ CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned 
 CHmdSystemLatest::GetProperties()
 CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*)
 CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*) (.cold)
+CHmdSystemLatest::GetRemoteTransformsRx(vr::RemoteTransforms_t*)
+CHmdSystemLatest::GetRemoteTransformsRx(vr::RemoteTransforms_t*) (.cold)
+CHmdSystemLatest::GetRemoteTransformsTx(vr::RemoteTransforms_t*)
+CHmdSystemLatest::GetRemoteTransformsTx(vr::RemoteTransforms_t*) (.cold)
 CHmdSystemLatest::GetResourceFullPath(std::string const&, std::string const&)
 CHmdSystemLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string>>*, std::string const&)
 CHmdSystemLatest::GetResources()
@@ -3937,6 +3940,10 @@ CHmdSystemLatest::SetMasterProcessRestartHint()
 CHmdSystemLatest::SetMasterProcessRestartHint() (.cold)
 CHmdSystemLatest::SetMasterProcessToThis()
 CHmdSystemLatest::SetMasterProcessToThis() (.cold)
+CHmdSystemLatest::SetRemoteTransformsRx(vr::RemoteTransforms_t const*)
+CHmdSystemLatest::SetRemoteTransformsRx(vr::RemoteTransforms_t const*) (.cold)
+CHmdSystemLatest::SetRemoteTransformsTx(vr::RemoteTransforms_t const*)
+CHmdSystemLatest::SetRemoteTransformsTx(vr::RemoteTransforms_t const*) (.cold)
 CHmdSystemLatest::SetVRMonitorState(vr::EVRState)
 CHmdSystemLatest::SetVRMonitorState(vr::EVRState) (.cold)
 CHmdSystemLatest::ShouldDisableWatchdogs()
@@ -23348,6 +23355,7 @@ NSt8__detail15_BracketMatcherISt12regex_traitsIcELb1ELb1EEE
 NSt8ios_base7failureB5cxx11E
 NSt8ios_base7failureE
 NULL
+NV12
 NanosecondsFromSystemTicks(unsigned long long)
 NeedToUpdateAutosave
 Neither required `bufferView` nor `uri` defined for image[
@@ -23506,6 +23514,7 @@ OverlayViewInterfaceRegistration<CVROverlayView_002>::GetInterface()
 OverlayViewInterfaceRegistration<CVROverlayView_002>::~OverlayViewInterfaceRegistration()
 OxrApiLayer_t& std::vector<OxrApiLayer_t, std::allocator<OxrApiLayer_t>>::emplace_back<OxrApiLayer_t>(OxrApiLayer_t&&)
 OxrApiLayer_t::~OxrApiLayer_t()
+P010
 PC_%08llx
 PFSsRKSsPvE
 PFbPKSsS0_PKN8tinygltf5ImageEbPKNS1_11FsCallbacksEPKNS1_12URICallbacksEPSsPvE
@@ -23847,6 +23856,7 @@ QuaternionAligned::qIdentity
 QuickCalibratePlayspace %d\n
 QuickCalibratePlayspace %f %f %f
 QuickCalibratePlayspace couldn't get a pose from the HMD\n
+R<L8b
 RADV
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
@@ -24019,6 +24029,7 @@ Self queried namespace: %u\n
 Sending focus captured event\n
 Sending focus released event\n
 Sent message id %u, received %u (%s). Rejecting response.\n
+Sep  8 2025
 September
 Server
 Server could not create read event %s\n
@@ -29070,6 +29081,8 @@ non-virtual thunk to CHmdSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin
 non-virtual thunk to CHmdSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
 non-virtual thunk to CHmdSystemLatest::GetProperties()
 non-virtual thunk to CHmdSystemLatest::GetRawPose(unsigned int, VRTrackingState_Pose_t*)
+non-virtual thunk to CHmdSystemLatest::GetRemoteTransformsRx(vr::RemoteTransforms_t*)
+non-virtual thunk to CHmdSystemLatest::GetRemoteTransformsTx(vr::RemoteTransforms_t*)
 non-virtual thunk to CHmdSystemLatest::GetResourceFullPath(std::string const&, std::string const&)
 non-virtual thunk to CHmdSystemLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string>>*, std::string const&)
 non-virtual thunk to CHmdSystemLatest::GetResources()
@@ -29107,6 +29120,8 @@ non-virtual thunk to CHmdSystemLatest::SetHeadsetViewMode(vr::HeadsetViewMode_t)
 non-virtual thunk to CHmdSystemLatest::SetHeadsetViewSize(unsigned int, unsigned int)
 non-virtual thunk to CHmdSystemLatest::SetMasterProcessRestartHint()
 non-virtual thunk to CHmdSystemLatest::SetMasterProcessToThis()
+non-virtual thunk to CHmdSystemLatest::SetRemoteTransformsRx(vr::RemoteTransforms_t const*)
+non-virtual thunk to CHmdSystemLatest::SetRemoteTransformsTx(vr::RemoteTransforms_t const*)
 non-virtual thunk to CHmdSystemLatest::SetVRMonitorState(vr::EVRState)
 non-virtual thunk to CHmdSystemLatest::ShouldDisableWatchdogs()
 non-virtual thunk to CHmdSystemLatest::ShouldShowTrackerUI()

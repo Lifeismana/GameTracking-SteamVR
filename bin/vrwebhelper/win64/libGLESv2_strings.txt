@@ -587,6 +587,7 @@ $yNp
 (IsAndroid() && !(isARM || isQualcomm)) || isSwiftShader
 (IsAndroid() && isARM) || mFeatures.supportsRasterizationOrderAttachmentAccess.enabled
 (IsAndroid() && isSwiftShader)
+(IsApple() && Has9thGenIntelGPU(systemInfo)) || (IsLinux() && IsARM64())
 (IsApple() && functions->standard == STANDARD_GL_DESKTOP) || (IsLinux() && isAMD)
 (IsLinux() && isVMWare) || (IsAndroid() && isNvidia) || (IsAndroid() && GetAndroidSDKVersion() < 27 && IsAdreno5xxOrOlder(functions)) || (!isMesa && IsMaliT8xxOrOlder(functions)) || (!isMesa && IsMaliG31OrOlder(functions))
 (MqO
@@ -1076,6 +1077,7 @@ $yNp
 0CgY
 0E>X
 0H>qr
+0LLD PDB.
 0X8b?~
 0YF2\
 0[o5
@@ -1113,6 +1115,7 @@ $yNp
 1xVb7[
 2.1.23105 git hash: 5d4df51d1d7d
 21+%3
+2565c3f3ad52163d0ecc7ebf7ee3a166
 27s]{n
 2D && imageIndex < 
 2DArray
@@ -5148,7 +5151,6 @@ IsAndroid() || isAMD || !functions->hasExtension("GL_KHR_robust_buffer_access_be
 IsAndroid() || isIntel || (IsWindows() && isAMD) || IsFuchsia() || isSamsung || nativeWindowSystem == angle::NativeWindowSystem::Wayland
 IsAndroid() || isNvidia
 IsApple()
-IsApple() && Has9thGenIntelGPU(systemInfo)
 IsApple() && IsIntel(vendor) && !IsHaswell(device)
 IsApple() && functions->standard == STANDARD_GL_DESKTOP && GetMacOSVersion() < OSVersion(10, 11, 0)
 IsApple() && functions->standard == STANDARD_GL_ES && !(isAMD && IsWindows())
@@ -5250,7 +5252,6 @@ LCMapStringEx
 LCMapStringW
 LGRo
 LK$TG
-LLD PDB.
 LMc\t
 LOOP
 LWG>
@@ -5812,7 +5813,7 @@ RDEFp
 RGBA4IsNotSupportedForColorRendering
 RGBDXT1TexturesSampleZeroAlpha
 RONOS_validationVK_LAYER_KHRONOSCommand successfully completed
-RSDS+&
+RSDS5
 RTT?
 RW2DArray_float4_
 RW2DArray_int4_
@@ -7566,7 +7567,6 @@ bvec4
 bvec4 isnan_emu(vec4 x)\n{\n    bvec4 isnan;\n    for (int i = 0; i < 4; i++)\n    {\n        isnan[i] = (x[i] > 0.0 || x[i] < 0.0) ? false : x[i] != 0.0;\n    }\n    return isnan;\n}\n
 bz<f
 c)v3
-c305f85c30d08eb336217101d9372b67
 c9gt
 c<\vT3
 c?FA@s}

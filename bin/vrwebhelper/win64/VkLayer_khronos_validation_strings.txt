@@ -67,7 +67,6 @@
  Input Block {\n
  Instance Index = 
  Invocation ID = 
- LLD PDB.
  OpTypeVector. Found Op
  Output Block {\n
  Pointer <id> 
@@ -13679,7 +13678,7 @@ RND_CONV_ODD
 RND_INF
 RND_MIN_INF
 RND_ZERO
-RSDS
+RSDS<
 R\n0\tP
 R\n0\tp
 R\vpD
@@ -40810,6 +40809,7 @@ Zig Software Foundation Zig Compiler
 [VUID-WorldToObjectKHR-WorldToObjectKHR-04435] 
 [VUID-WorldToObjectKHR-WorldToObjectKHR-04436] 
 [aOni*{
+\nKULLD PDB.
 \nPpR
 \nh?oT
 \nk>oB
