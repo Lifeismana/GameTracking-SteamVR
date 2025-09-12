@@ -1650,7 +1650,7 @@ $\n k_EProtoServiceTypeSteamMessages
 11eU%
 127.0.0.1
 127.0.0.1:
-14:16:57
+16:35:50
 1A26b
 1\f514
 1e+9999
@@ -3751,8 +3751,6 @@ R1h58
 RGBG
 RPCRT4.dll
 RSDS
-R\npP
-R\vpP
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3916,7 +3914,7 @@ See
 See Other
 Self queried namespace: %u\n
 Sending Quit event to process %s\n
-Sep  8 2025
+Sep 11 2025
 Server
 Server could not create read event %s\n
 Server somehow created read event before reader %s\n

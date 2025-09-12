@@ -131,7 +131,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:16:57
+16:35:50
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -387,7 +387,7 @@ OutputDebugStringA
 Platform handles tutorial / initial home app launch %s. Starting Event Polling...
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSo58
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey
@@ -413,7 +413,7 @@ STEAMVR_ENABLE_THREAD_WATCHDOGS
 STEAMVR_GPUVIS_ON_ASSERT
 STEAMVR_VKVALIDATION
 See 
-Sep  8 2025
+Sep 11 2025
 SetEnvironmentVariableA
 SetEvent
 SetFileAttributesW

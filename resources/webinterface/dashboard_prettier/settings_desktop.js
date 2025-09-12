@@ -1,4 +1,4 @@
-var CLSTAMP = "10050451";
+var CLSTAMP = "10062820";
 (() => {
   "use strict";
   var e,
@@ -11,8 +11,8 @@ var CLSTAMP = "10050451";
           i = Symbol.for("react.profiler"),
           a = Symbol.for("react.provider"),
           c = Symbol.for("react.context"),
-          f = Symbol.for("react.forward_ref"),
-          l = Symbol.for("react.suspense"),
+          l = Symbol.for("react.forward_ref"),
+          f = Symbol.for("react.suspense"),
           s = Symbol.for("react.memo"),
           p = Symbol.for("react.lazy"),
           y = Symbol.iterator;
@@ -70,8 +70,8 @@ var CLSTAMP = "10050451";
           var c = arguments.length - 2;
           if (1 === c) u.children = n;
           else if (1 < c) {
-            for (var f = Array(c), l = 0; l < c; l++) f[l] = arguments[l + 2];
-            u.children = f;
+            for (var l = Array(c), f = 0; f < c; f++) l[f] = arguments[f + 2];
+            u.children = l;
           }
           if (e && e.defaultProps)
             for (o in (c = e.defaultProps)) void 0 === u[o] && (u[o] = c[o]);
@@ -152,22 +152,22 @@ var CLSTAMP = "10050451";
               1
             );
           if (((c = 0), (u = "" === u ? "." : u + ":"), g(e)))
-            for (var f = 0; f < e.length; f++) {
-              var l = u + $((a = e[f]), f);
-              c += C(a, t, o, l, i);
+            for (var l = 0; l < e.length; l++) {
+              var f = u + $((a = e[l]), l);
+              c += C(a, t, o, f, i);
             }
           else if (
-            ((l = (function (e) {
+            ((f = (function (e) {
               return null === e || "object" != typeof e
                 ? null
                 : "function" == typeof (e = (y && e[y]) || e["@@iterator"])
                   ? e
                   : null;
             })(e)),
-            "function" == typeof l)
+            "function" == typeof f)
           )
-            for (e = l.call(e), f = 0; !(a = e.next()).done; )
-              c += C((a = a.value), t, o, (l = u + $(a, f++)), i);
+            for (e = f.call(e), l = 0; !(a = e.next()).done; )
+              c += C((a = a.value), t, o, (f = u + $(a, l++)), i);
           else if ("object" === a)
             throw (
               ((t = String(e)),
@@ -262,7 +262,7 @@ var CLSTAMP = "10050451";
           (t.Profiler = i),
           (t.PureComponent = _),
           (t.StrictMode = u),
-          (t.Suspense = l),
+          (t.Suspense = f),
           (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = A),
           (t.act = V),
           (t.cloneElement = function (e, t, n) {
@@ -283,16 +283,16 @@ var CLSTAMP = "10050451";
                 e.type && e.type.defaultProps)
               )
                 var c = e.type.defaultProps;
-              for (f in t)
-                w.call(t, f) &&
-                  !E.hasOwnProperty(f) &&
-                  (o[f] = void 0 === t[f] && void 0 !== c ? c[f] : t[f]);
+              for (l in t)
+                w.call(t, l) &&
+                  !E.hasOwnProperty(l) &&
+                  (o[l] = void 0 === t[l] && void 0 !== c ? c[l] : t[l]);
             }
-            var f = arguments.length - 2;
-            if (1 === f) o.children = n;
-            else if (1 < f) {
-              c = Array(f);
-              for (var l = 0; l < f; l++) c[l] = arguments[l + 2];
+            var l = arguments.length - 2;
+            if (1 === l) o.children = n;
+            else if (1 < l) {
+              c = Array(l);
+              for (var f = 0; f < l; f++) c[f] = arguments[f + 2];
               o.children = c;
             }
             return {
@@ -328,7 +328,7 @@ var CLSTAMP = "10050451";
             return { current: null };
           }),
           (t.forwardRef = function (e) {
-            return { $$typeof: f, render: e };
+            return { $$typeof: l, render: e };
           }),
           (t.isValidElement = j),
           (t.lazy = function (e) {
@@ -397,46 +397,50 @@ var CLSTAMP = "10050451";
           (t.version = "18.3.1");
       },
       292: (e, t, r) => {
-        var n = r(6540),
-          o = r(5338),
-          u = r(6090),
-          i = r(3714),
-          a = r(1333),
-          c = r(9118),
+        var n = r(1635),
+          o = r(6540),
+          u = r(5338),
+          i = r(6090),
+          a = r(3714),
+          c = r(1333),
+          l = r(9118),
           f = r(1532),
-          l = r(5802),
-          s = r(6646),
-          p = r(5818),
-          y = r(1835),
-          d = r(4007),
-          v = r(7813),
-          h = r(9125);
-        (0, v.configure)({ enforceActions: "never" }),
-          Promise.all([
-            (0, i.uV)(
-              ["vrmonitor", "bindingui"],
-              null === u.Ay || void 0 === u.Ay
-                ? void 0
-                : u.Ay.GetSteamLanguage(),
-            ),
-            a.HR.Init(!0),
-            c.W.Init(!0),
-            l.B$.Init(),
-            f.s.Init(),
-            s.X.Init(),
-            d.Q.Init(),
-            y.SW.Init(),
-          ])
-            .then(() => {
-              (0, h.aj)().Init("SteamVR", CLSTAMP, (0, h.d4)()),
-                (document.title = (0, i.we)("#Settings_Header_SteamVR")),
-                o
+          s = r(5802),
+          p = r(6646),
+          y = r(5818),
+          d = r(1835),
+          v = r(4007),
+          h = r(7813),
+          b = r(9125),
+          m = r(6379);
+        (0, h.configure)({ enforceActions: "never" }),
+          (function () {
+            (0, n.sH)(this, void 0, void 0, function* () {
+              try {
+                yield Promise.all([
+                  (0, a.uV)(
+                    ["vrmonitor", "bindingui"],
+                    null === i.Ay || void 0 === i.Ay
+                      ? void 0
+                      : i.Ay.GetSteamLanguage(),
+                  ),
+                  c.HR.Init(!0),
+                  l.W.Init(!0),
+                  s.B$.Init(),
+                  f.s.Init(),
+                  p.X.Init(),
+                ]),
+                  yield Promise.all([v.Q.Init(), d.SW.Init(), m.c.Init()]);
+              } catch (e) {
+                console.error("Failed to initialize desktop settings:", e);
+              }
+              (0, b.aj)().Init("SteamVR", CLSTAMP, (0, b.d4)()),
+                (document.title = (0, a.we)("#Settings_Header_SteamVR")),
+                u
                   .H(document.getElementById("root"))
-                  .render(n.createElement(p.z, { env: "desktop-window" }));
-            })
-            .catch((e) =>
-              console.error("Failed to initialize vr settings:", e),
-            );
+                  .render(o.createElement(y.z, { env: "desktop-window" }));
+            });
+          })();
       },
     },
     r = {};
@@ -451,22 +455,22 @@ var CLSTAMP = "10050451";
     (n.O = (t, r, o, u) => {
       if (!r) {
         var i = 1 / 0;
-        for (l = 0; l < e.length; l++) {
-          for (var [r, o, u] = e[l], a = !0, c = 0; c < r.length; c++)
+        for (f = 0; f < e.length; f++) {
+          for (var [r, o, u] = e[f], a = !0, c = 0; c < r.length; c++)
             (!1 & u || i >= u) && Object.keys(n.O).every((e) => n.O[e](r[c]))
               ? r.splice(c--, 1)
               : ((a = !1), u < i && (i = u));
           if (a) {
-            e.splice(l--, 1);
-            var f = o();
-            void 0 !== f && (t = f);
+            e.splice(f--, 1);
+            var l = o();
+            void 0 !== l && (t = l);
           }
         }
         return t;
       }
       u = u || 0;
-      for (var l = e.length; l > 0 && e[l - 1][2] > u; l--) e[l] = e[l - 1];
-      e[l] = [r, o, u];
+      for (var f = e.length; f > 0 && e[f - 1][2] > u; f--) e[f] = e[f - 1];
+      e[f] = [r, o, u];
     }),
     (n.n = (e) => {
       var t = e && e.__esModule ? () => e.default : () => e;
@@ -500,14 +504,14 @@ var CLSTAMP = "10050451";
           var o,
             u,
             [i, a, c] = r,
-            f = 0;
+            l = 0;
           if (i.some((t) => 0 !== e[t])) {
             for (o in a) n.o(a, o) && (n.m[o] = a[o]);
-            if (c) var l = c(n);
+            if (c) var f = c(n);
           }
-          for (t && t(r); f < i.length; f++)
-            (u = i[f]), n.o(e, u) && e[u] && e[u][0](), (e[u] = 0);
-          return n.O(l);
+          for (t && t(r); l < i.length; l++)
+            (u = i[l]), n.o(e, u) && e[u] && e[u][0](), (e[u] = 0);
+          return n.O(f);
         },
         r = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
       r.forEach(t.bind(null, 0)), (r.push = t.bind(null, r.push.bind(r)));

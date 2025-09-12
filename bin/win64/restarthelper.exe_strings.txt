@@ -1,5 +1,4 @@
  !?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
-"n9E
 -\n?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z
 .00cfg
 .?AVCQRestartHelperMainWindow@@
@@ -139,7 +138,7 @@ QLabel { background-color: rgb( 38, 38, 38);border-width: 1px;border-style: soli
 Qt5Core.dll
 Qt5Widgets.dll
 QueryPerformanceCounter
-RSDSk
+RSDSE
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind

@@ -1,0 +1,276 @@
+{
+   "bindings" : {
+      "/actions/dualanalog" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/leftclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/leftclick"
+                  },
+                  "position" : {
+                     "output" : "/actions/dualanalog/in/leftvalue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/dualanalog/in/lefttouch"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/left/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/modeswitch1"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/rightclick"
+                  },
+                  "position" : {
+                     "output" : "/actions/dualanalog/in/rightvalue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/dualanalog/in/righttouch"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/right/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/modeswitch2"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/dualanalog/in/rightclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            }
+         ]
+      },
+      "/actions/lasermouse" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/leftclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/leftclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/rightclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/x"
+            },
+            {
+               "inputs" : {},
+               "mode" : "none",
+               "path" : "/user/hand/right/input/x"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/home"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/rightclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/home"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/b"
+            },
+            {
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/lasermouse/in/trackpadvalue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/lasermouse/in/trackpadtouch"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/left/input/joystick"
+            }
+         ],
+	"poses":
+	[
+		{
+			"output": "/actions/lasermouse/in/Pointer",
+			"path": "/user/hand/left/pose/tip"
+		},
+		{
+			"output": "/actions/lasermouse/in/Pointer",
+			"path": "/user/hand/right/pose/tip"
+		}
+
+	]
+      },
+      "/actions/lasermouse_secondary" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse_secondary/in/switchlaserhand"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse_secondary/in/switchlaserhand"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {},
+               "mode" : "none",
+               "path" : "/user/hand/right/input/joystick"
+            }
+         ]
+      },
+      "/actions/scroll_discrete": {
+         "sources": [
+            {
+               "path": "/user/hand/left/input/joystick",
+               "mode": "scroll",
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_discrete/in/scroll"
+                  }
+               }
+            },
+            {
+               "path": "/user/hand/right/input/joystick",
+               "mode": "scroll",
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_discrete/in/scroll"
+                  }
+               }
+            }
+         ]
+      },
+      "/actions/scroll_smooth": {
+         "sources": [
+            {
+               "path": "/user/hand/left/input/joystick",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
+                  }
+               }
+            },
+            {
+               "path": "/user/hand/right/input/joystick",
+               "mode": "scroll",
+               "parameters": {
+                  "scroll_mode": "smooth"
+               },
+               "inputs": {
+                  "scroll": {
+                     "output": "/actions/scroll_smooth/in/scroll"
+                  }
+               }
+            }
+         ]
+      },
+      "/actions/system" : {
+         "chords" : [
+            {
+               "inputs" : [
+                  [ "/user/hand/left/input/system", "held" ],
+                  [ "/user/hand/left/input/trigger", "click" ]
+               ],
+               "output" : "/actions/system/in/TakeScreenshot"
+            }
+         ],
+         "sources" : [
+            {
+               "inputs" : {
+                  "long" : {
+                     "output" : "/actions/system/in/showpowermenu"
+                  },
+                  "single" : {
+                     "output" : "/actions/system/in/toggledashboard"
+                  }
+               },
+               "mode" : "complex_button",
+               "path" : "/user/hand/left/input/system"
+            },
+            {
+               "inputs" : {},
+               "mode" : "none",
+               "path" : "/user/hand/right/input/system"
+            },
+            {
+               "inputs" : {},
+               "mode" : "button",
+               "path" : "/user/hand/left/input/trigger"
+            }
+         ]
+      }
+   },
+   "controller_type" : "vive_focus3_controller",
+   "description" : "",
+   "name" : "Vive Focus3 Controller System Bindings"
+}

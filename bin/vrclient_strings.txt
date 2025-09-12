@@ -2591,7 +2591,6 @@ $3br
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:12:36
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -2632,6 +2631,7 @@ $3br
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:36:47
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -23856,7 +23856,6 @@ QuaternionAligned::qIdentity
 QuickCalibratePlayspace %d\n
 QuickCalibratePlayspace %f %f %f
 QuickCalibratePlayspace couldn't get a pose from the HMD\n
-R<L8b
 RADV
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
@@ -24029,7 +24028,7 @@ Self queried namespace: %u\n
 Sending focus captured event\n
 Sending focus released event\n
 Sent message id %u, received %u (%s). Rejecting response.\n
-Sep  8 2025
+Sep 11 2025
 September
 Server
 Server could not create read event %s\n

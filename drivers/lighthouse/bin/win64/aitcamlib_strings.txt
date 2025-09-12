@@ -240,7 +240,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSr
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent

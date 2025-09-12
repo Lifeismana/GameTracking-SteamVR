@@ -1517,6 +1517,7 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
+a40rN
 abort
 acc_bias
 acc_scale

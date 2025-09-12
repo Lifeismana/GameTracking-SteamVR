@@ -369,7 +369,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS}
+RSDSc~q
 RaiseException
 Reinitializing output duplication for desktop %d.\n
 ResetEvent

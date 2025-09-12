@@ -46,6 +46,7 @@ $3br
 %a %b %d %Y %H:%M:%S.%%06u
 %c%sFailFuzz
 %c8814%s
+%d %d %d %d %d\n
 %d ms
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
@@ -546,11 +547,11 @@ $3br
 1e+9999
 20BinaryBlendPoseMaker
 20PassThroughPoseMaker
-21:12:45
 21CSharedSemaphoreLinux
 21SVLHandTrackingDriver
 22CKeyframedDataResource
 22IControlConnectionImpl
+23:36:55
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -4303,7 +4304,7 @@ SendUpdatedFramerateRequest: Preferred refresh rate was available. Using %.2f
 SendUpdatedFramerateRequest: Requesting client use %.2f Hz
 Sending quit event because SteamVR launched for streaming and client has quit.
 Sent message id %u, received %u (%s). Rejecting response.\n
-Sep  8 2025
+Sep 11 2025
 September
 SerialNumber %s\n
 SessionID

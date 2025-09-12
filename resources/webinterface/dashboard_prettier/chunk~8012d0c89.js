@@ -1,4 +1,4 @@
-var CLSTAMP = "10050451";
+var CLSTAMP = "10062820";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -4341,7 +4341,7 @@ var CLSTAMP = "10050451";
           }),
           c.createElement(_.WZ, {
             label: (0, h.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(175736597e4).toLocaleString(),
+            value: new Date(1757633806e3).toLocaleString(),
           }),
         );
       });
@@ -8016,47 +8016,95 @@ var CLSTAMP = "10050451";
           }
         }
         render() {
-          var e, t, r, n;
-          let a = "",
-            s = "",
-            l = !1,
-            m = !1;
-          try {
-            this.state.currentBinding &&
-              ((l =
-                this.state.currentBinding.options.compatibility_mode ||
-                this.state.currentBinding.controller_type !=
-                  this.state.currentControllerType.controller_type),
-              (m =
-                (null === (e = this.state.currentActionManifest) || void 0 === e
-                  ? void 0
-                  : e.current_binding_url[
-                      this.state.currentControllerType.controller_type
-                    ]) ==
-                (null === (t = this.state.currentActionManifest) || void 0 === t
-                  ? void 0
-                  : t.best_binding_url[
-                      this.state.currentControllerType.controller_type
-                    ]))),
-              (a =
-                this.state.currentActionManifest.current_binding_url[
-                  this.state.currentControllerType.controller_type
-                ]),
-              (s =
-                this.state.currentActionManifest.default_bindings[
-                  this.state.currentControllerType.controller_type
-                ]);
-          } catch (e) {}
-          null == s && a.startsWith("file://") && (l = !0);
-          let h = !1;
-          (!this.state.bForceToggleToCustom && s && s == a) || (h = !0),
-            l && m && !this.state.bForceToggleToCustom && (h = !1);
-          const g =
-              (null === (r = this.state.currentActionManifest) || void 0 === r
+          var e, t, r, n, a, s, l, m, h, g, v, _, b, S, y, f, R, w;
+          let C =
+              null ===
+                (t =
+                  null === (e = this.state.currentActionManifest) ||
+                  void 0 === e
+                    ? void 0
+                    : e.current_binding_url) || void 0 === t
                 ? void 0
-                : r.supports_dominant_hand_setting) &&
+                : t[
+                    null === (r = this.state.currentControllerType) ||
+                    void 0 === r
+                      ? void 0
+                      : r.controller_type
+                  ],
+            M =
+              null ===
+                (a =
+                  null === (n = this.state.currentActionManifest) ||
+                  void 0 === n
+                    ? void 0
+                    : n.default_bindings) || void 0 === a
+                ? void 0
+                : a[
+                    null === (s = this.state.currentControllerType) ||
+                    void 0 === s
+                      ? void 0
+                      : s.controller_type
+                  ];
+          if (null == M && this.currentRouteAppKey) {
+            const e =
+              null === (l = this.state.currentControllerType) || void 0 === l
+                ? void 0
+                : l.default_bindings;
+            if (e)
+              for (let t of e)
+                if (t.app_key === this.currentRouteAppKey) {
+                  M = t.binding_url;
+                  break;
+                }
+          }
+          const T =
+              null ===
+                (h =
+                  null === (m = this.state.currentBinding) || void 0 === m
+                    ? void 0
+                    : m.options) || void 0 === h
+                ? void 0
+                : h.compatibility_mode,
+            E =
+              (null === (g = this.state.currentBinding) || void 0 === g
+                ? void 0
+                : g.controller_type) !=
+              (null === (v = this.state.currentControllerType) || void 0 === v
+                ? void 0
+                : v.controller_type),
+            V = null == M && (null == C ? void 0 : C.startsWith("file://")),
+            D = T || E || V,
+            k =
+              (null === (_ = this.state.currentActionManifest) || void 0 === _
+                ? void 0
+                : _.current_binding_url[
+                    null === (b = this.state.currentControllerType) ||
+                    void 0 === b
+                      ? void 0
+                      : b.controller_type
+                  ]) ==
+              (null ===
+                (y =
+                  null === (S = this.state.currentActionManifest) ||
+                  void 0 === S
+                    ? void 0
+                    : S.best_binding_url) || void 0 === y
+                ? void 0
+                : y[
+                    null === (f = this.state.currentControllerType) ||
+                    void 0 === f
+                      ? void 0
+                      : f.controller_type
+                  ]),
+            A =
+              (this.state.bForceToggleToCustom || !M || M != C) &&
+              !(D && k && !this.state.bForceToggleToCustom),
+            O =
+              (null === (R = this.state.currentActionManifest) || void 0 === R
+                ? void 0
+                : R.supports_dominant_hand_setting) &&
               null != this.state.eDominantHand,
-            v =
+            I =
               this.state.eDominantHand == d.kG.TrackedControllerRole_RightHand;
           return i.createElement(
             i.Fragment,
@@ -8088,8 +8136,8 @@ var CLSTAMP = "10050451";
                     i.createElement(c.mi, {
                       ref: this.m_refAppSelectDropdown,
                       defaultAppKey:
-                        null !== (n = this.currentRouteAppKey) && void 0 !== n
-                          ? n
+                        null !== (w = this.currentRouteAppKey) && void 0 !== w
+                          ? w
                           : null === VRHTML || void 0 === VRHTML
                             ? void 0
                             : VRHTML.VRApplications.GetSceneApplicationKey(),
@@ -8124,7 +8172,7 @@ var CLSTAMP = "10050451";
                       ),
                     ),
                   ),
-                l &&
+                D &&
                   i.createElement(
                     "span",
                     { className: "RemappedInfoSpan" },
@@ -8156,17 +8204,17 @@ var CLSTAMP = "10050451";
                     offLabel: (0, o.we)("#Settings_Controller_DefaultBinding"),
                     onLabel: (0, o.we)("#Settings_Controller_CustomBinding"),
                     onChange: this.onToggleDefaultCustomBinding,
-                    value: h,
+                    value: A,
                     onSubsection: i.createElement(
                       i.Fragment,
                       null,
-                      (!a || !this.state.currentBinding) &&
+                      (!C || !this.state.currentBinding) &&
                         i.createElement(
                           "div",
                           { className: "SettingsItem Label" },
                           (0, o.we)("#Settings_Loading_CurrentBinding"),
                         ),
-                      h &&
+                      A &&
                         i.createElement(
                           "div",
                           {
@@ -8177,7 +8225,7 @@ var CLSTAMP = "10050451";
                             c.CS,
                             {
                               icon: c.Xb.PopOut,
-                              enabled: p.W.IsSteamAvailable && Boolean(a),
+                              enabled: p.W.IsSteamAvailable && Boolean(C),
                               onClick: this.showBindingDetail.bind(this, !0),
                             },
                             (0, o.we)("#Settings_EditBinding"),
@@ -8199,13 +8247,13 @@ var CLSTAMP = "10050451";
                   i.createElement(W, {
                     appKey: this.state.currentBindingApp.key,
                   }),
-                g &&
+                O &&
                   i.createElement(c.Al, {
                     label: (0, o.we)("#Settings_DominantHand"),
                     offLabel: (0, o.we)("#Settings_DominantHand_Left"),
                     onLabel: (0, o.we)("#Settings_DominantHand_Right"),
                     onChange: this.onToggleDominantHand,
-                    value: v,
+                    value: I,
                   }),
               ),
           );
@@ -17465,7 +17513,7 @@ var CLSTAMP = "10050451";
               ? void 0
               : e.call(VRHTML),
           ),
-            t.set_webpack_build_timestamp(1757365970),
+            t.set_webpack_build_timestamp(1757633806),
             (0, h.Z)(t);
         }
         LoadSessionDevData() {

@@ -563,7 +563,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDS3
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile

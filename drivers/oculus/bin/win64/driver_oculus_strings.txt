@@ -702,7 +702,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSAp
+RSDS$&
 RaiseException
 ResetEvent
 RootNode

@@ -924,7 +924,7 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
-14:16:57
+16:35:50
 1A26b
 1e+9999
 1wsHp
@@ -2748,7 +2748,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDSPd
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -2860,7 +2860,7 @@ Seated
 See 
 Selected: width=%d height=%d refresh=%d/%d\n
 SendHmdDebugRequest resp: %s\n
-Sep  8 2025
+Sep 11 2025
 Server
 Set local video recording to: %s\n
 Set thread %p priority to: %d\n
@@ -4831,7 +4831,6 @@ i11 <= UINT16_MAX
 i91k
 iFailed to create mirror window swap chain with DXGI_SWAP_EFFECT_FLIP_DISCARD! Trying DXGI_SWAP_EFFECT_DISCARD instead.\n
 iParams < tileFloorParams.size()
-i\o<F
 i]Wb
 iauds
 if HasVirtualDisplayPlugin
