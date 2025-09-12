@@ -924,7 +924,7 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
-16:35:50
+18:31:16
 1A26b
 1e+9999
 1wsHp
@@ -1039,6 +1039,7 @@ ACTIVE
 ADVAPI32.dll
 ALVRDisplayInit
 ALVRInit
+AMQ[C
 ASSERT: "%s" at %s:%d.\n
 AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY\n
 AUDIO: 
@@ -2748,7 +2749,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSPd
+RSDSzZ
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors

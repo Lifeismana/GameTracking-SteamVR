@@ -1145,7 +1145,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS
+RSDSs
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1517,7 +1517,6 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
-a40rN
 abort
 acc_bias
 acc_scale

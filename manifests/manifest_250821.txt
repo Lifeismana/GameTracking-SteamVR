@@ -1,17 +1,17 @@
 Content Manifest for Depot 250821 
 
-Manifest ID / date     : 2217664614915112571 / 09/12/2025 00:04:56 
+Manifest ID / date     : 8450111391806591358 / 09/12/2025 01:50:05 
 Total number of files  : 669 
 Total number of chunks : 1523 
 Total bytes on disk    : 1134200202 
-Total bytes compressed : 428904768 
+Total bytes compressed : 428904720 
 
 
           Size Chunks File SHA                                 Flags Name
-       2715288      3 191c3f686cf2ae442ba19124d2a12068c3f7080b     0 bin/vrclient.dll
-          1450      1 6a34c98b3942b09346df5193f2b656275e948162     0 bin/vrclient.dll.sig
-       4818584      5 ea748d7ad4b9945cc8552c28c082d9e69af73f70     0 bin/vrclient_x64.dll
-          1450      1 a405fb368ffbd4b3456cb0f9318017c787e92f2a     0 bin/vrclient_x64.dll.sig
+       2715288      3 302be118543855747dbdc271652ec3eb41af3387     0 bin/vrclient.dll
+          1450      1 e6479f4cd0928f7ab0258d21e4cc86af157f9e0e     0 bin/vrclient.dll.sig
+       4818584      5 65135a2c6c496634a2cf877771581e51d0dc83c8     0 bin/vrclient_x64.dll
+          1450      1 e788e8f9dd80ac7907533efed998a1a046bf8e2e     0 bin/vrclient_x64.dll.sig
        2499584      3 52f7542414a1dda9258aa320e41ce40888090b6c     0 bin/vrwebhelper/win64/cefclient.exe
        1619968      2 0697127b87dc6f22d0a1178c3a08148a88aa24cc     0 bin/vrwebhelper/win64/cefsimple.exe
         681818      1 d3cc1139e276bce735c6335e6b8eabf95c15e783     0 bin/vrwebhelper/win64/chrome_100_percent.pak
@@ -85,7 +85,7 @@ Total bytes compressed : 428904768
         483559      1 6bc30b6529069df8c76672c9e0e0ec6697e566e7     0 bin/vrwebhelper/win64/locales/zh-TW.pak
        2245784      3 10bc7f15531c6968d217d03daff988e38cfe6b51     0 bin/vrwebhelper/win64/msdia140.dll
         566424      1 4a01fafe3622429c82d2598a919d57729e667d09     0 bin/vrwebhelper/win64/msvcp140.dll
-        837272      1 bd17e698ef057ea6d40b2123ecf6d5d153d807e6     0 bin/vrwebhelper/win64/openvr_api.dll
+        837272      1 2ea7a2094609892af81a4a769481603604a0a491     0 bin/vrwebhelper/win64/openvr_api.dll
        8669330      9 938b489d9f61c52e5445b6c0b31139b4a40f7796     0 bin/vrwebhelper/win64/resources.pak
        1077200      2 3b54db23cb00cfeb385b223dab5834784752c352     0 bin/vrwebhelper/win64/SDL2.dll
         301928      1 0c67ff54afa0e53f82659abeeea0d8ab1dcad1ed     0 bin/vrwebhelper/win64/steam_api64.dll
@@ -96,8 +96,8 @@ Total bytes compressed : 428904768
       16662680     16 f95154b8f83f91aa8a1910630b7c10c6c2ed3833     0 bin/vrwebhelper/win64/VkLayer_khronos_validation.dll
        5307032      6 be63d301e5e17c7ea2a52b202b304aa6133aa510     0 bin/vrwebhelper/win64/vk_swiftshader.dll
            106      1 9c06735c31cec00600fd763a92f8112d085bd12a     0 bin/vrwebhelper/win64/vk_swiftshader_icd.json
-       1407128      2 584613184c476db6e26f1b00940f9e31f4df20b7     0 bin/vrwebhelper/win64/vrwebhelper.exe
-          1450      1 4719ecc78ee668c01806bb6abb928be3e33edad4     0 bin/vrwebhelper/win64/vrwebhelper.exe.sig
+       1407128      2 290fb8029d6ca3425a543785b45797ec71ca54b3     0 bin/vrwebhelper/win64/vrwebhelper.exe
+          1450      1 77432a46d50cd52e34be48667ba5b0f83fe89f92     0 bin/vrwebhelper/win64/vrwebhelper.exe.sig
         963224      1 99b7edac29f7be2c4bf7a46c014ab1eb28723fc8     0 bin/vrwebhelper/win64/vulkan-1.dll
         163104      1 b687d48e4b63cc632dacc13dce5b6b153b7536d2     0 bin/win32/audio.dll
         376096      1 d87f362c4ab51c0be44b626d2021223d22c3beee     0 bin/win32/crashhandler.dll
@@ -107,8 +107,8 @@ Total bytes compressed : 428904768
        2056704      2 f10dc15d4db5b9eb3501ebcb62cdbbd5b70aa0db     0 bin/win32/icuin54.dll
        1214240      2 43f604801117b0583dde283407fe6fc6ac4eb9a7     0 bin/win32/icuuc.dll
        1425408      2 646037efe371b911e791cdab50db257f1e8d525f     0 bin/win32/icuuc54.dll
-       4573848      5 a68d1642afd97c7d2a7cbb0bd87fedd759877c38     0 bin/win32/imagetool.dll
-          1450      1 3e99ebcf5559734a1303f482d104aa1fb51babe9     0 bin/win32/imagetool.dll.sig
+       4573848      5 8b8bcf131e069691665c0ca306bd01e073e86431     0 bin/win32/imagetool.dll
+          1450      1 d0a0cd302167971789abb57af9e99c9c65829331     0 bin/win32/imagetool.dll.sig
        2396672      3 1525c00138d226e58e0785d0dcb9efff5c21cd5d     0 bin/win32/libavcodec-56.dll
         479744      1 458464b431b5d23e2ac64ade16bb23c74f95cf19     0 bin/win32/libavformat-56.dll
         332800      1 8931fe6b4014838e4afa2db8de93d66e3a33ad44     0 bin/win32/libavresample-2.dll
@@ -117,25 +117,25 @@ Total bytes compressed : 428904768
         440320      1 e12800f2bf9e09e6ae9dda5ac2f4b775781993f2     0 bin/win32/mss32.dll
         421200      1 79bcaad3714433e01c7f153b05b781f8d7cb318d     0 bin/win32/msvcp100.dll
         773968      1 4e880fc7625ccf8d9ca799d5b94ce2b1e7597335     0 bin/win32/msvcr100.dll
-        532120      1 8ec6dc207941e0e99d7ef308b51667652ce402ae     0 bin/win32/nrfserlib.dll
-          1450      1 f29c41f9b62c5f9a4abeecdc0e827b2b6e63ae3f     0 bin/win32/nrfserlib.dll.sig
-        631960      1 2827c3f2800d8cb47d35fbb1cb9f5e63a8a804f6     0 bin/win32/openvr_api.dll
-        144536      1 2e77ff3ef6dcec8503aec5979c6ea3f9cae7454b     0 bin/win32/removeusbhelper.exe
-          1450      1 a23ee22848c716e3674c6527b44116043835423c     0 bin/win32/removeusbhelper.exe.sig
+        532120      1 0515f301639fc43b3463bef414427d76d11551a3     0 bin/win32/nrfserlib.dll
+          1450      1 9f880c3bb87ffbcebc4e8b3b1df8cf3a4f77d190     0 bin/win32/nrfserlib.dll.sig
+        631960      1 41a840bc0e785e1f62dba9c4c6debb4f4347be26     0 bin/win32/openvr_api.dll
+        144536      1 e9dd6cd41e164e13582fb29bb552153791076b20     0 bin/win32/removeusbhelper.exe
+          1450      1 916dde276af2fb58a80924881c4d15d00d0400ed     0 bin/win32/removeusbhelper.exe.sig
         898000      1 d3ee802766ee8a9e6666b30c5842deb667953c7b     0 bin/win32/SDL2.dll
         268136      1 a45a97d3cc60792df9946bccbba5e095d033e2ec     0 bin/win32/steam_api.dll
         278208      1 68fdbed948d51b909c405a4c5cbc9df05cfa5ad4     0 bin/win32/tier0_s.dll
         317216      1 b3a6e1cbd3cfb0159e69724e6abcbef2a0132f12     0 bin/win32/tier0_vr.dll
        4950304      5 b94701a8a994b6bd1c53873807477556ab3ef8c8     0 bin/win32/v8.dll
        2548512      3 45e7ecd243376d8a5888011d0806e612e6739e2f     0 bin/win32/video.dll
-        267416      1 0e271b35019108053131730805833937da95840d     0 bin/win32/vivelinklib.dll
-          1450      1 5eba00461090f42f364c65c6108f7bc6a8d222e4     0 bin/win32/vivelinklib.dll.sig
-        621720      1 bbb00a1f72cc918d7594a9757d594f685fec9d32     0 bin/win32/vrpathreg.exe
-          1450      1 4dbeec032a96b9f58a3e50f2475ca8f73b4abbef     0 bin/win32/vrpathreg.exe.sig
-         34456      1 d38639fa96fe4e0cdf9aba5cc22e7d041150ab00     0 bin/win32/vrserverhelper.exe
-          1450      1 f14318c3c0a34e195f922e4d7f593b82757459bf     0 bin/win32/vrserverhelper.exe.sig
-        169624      1 4924b51feb1124247adc2af39daa8e1e82f4a159     0 bin/win32/vrurlhandler.exe
-          1450      1 77446d2f643595e0f884231834566a9b68af4f86     0 bin/win32/vrurlhandler.exe.sig
+        267416      1 eea8af1fcdeca556060be2b20f26dd303ced33b1     0 bin/win32/vivelinklib.dll
+          1450      1 7ea8c7eff5f74fabf6a24d215240068779e6b080     0 bin/win32/vivelinklib.dll.sig
+        621720      1 c3b3c50efa7b896158023923f7998edc419b259c     0 bin/win32/vrpathreg.exe
+          1450      1 c1b56c0869a6bf026038bf19442409d864889b8d     0 bin/win32/vrpathreg.exe.sig
+         34456      1 53c4da6c02792b3a45cc157cb9c8102a8cbbdbf4     0 bin/win32/vrserverhelper.exe
+          1450      1 dc78736257a11f014e0b1e76a0fa2c6d6fb8d732     0 bin/win32/vrserverhelper.exe.sig
+        169624      1 8f23af60032981a3150f4d3b159d040ef6fc2aac     0 bin/win32/vrurlhandler.exe
+          1450      1 f6ece63b1f4ed05c40f4ba7e2b0a5b2fd6ed8f90     0 bin/win32/vrurlhandler.exe.sig
         266944      1 5d214815518e0825f432dbd77966653c9fdff479     0 bin/win32/vstdlib_s.dll
         317216      1 61e0847261ee822e041577ad93ea7fadf3713f84     0 bin/win32/vstdlib_vr.dll
              0      0 0000000000000000000000000000000000000000    40 bin/win64/audio
@@ -166,16 +166,16 @@ Total bytes compressed : 428904768
          83456      1 2a22475e6f6d08a88b628eb183df9ff9446e310e     0 bin/win64/imageformats/qwbmpd.dll
         371712      1 dd614c6f6ca52c2bc56fb2ba084945d79be32ecf     0 bin/win64/imageformats/qwebp.dll
         793088      1 f97679079ee0243f5625dcb215e3a96eaf554f33     0 bin/win64/imageformats/qwebpd.dll
-       5296280      6 5e65919d5033b9b6e62b7d8375c0e5838b2a5938     0 bin/win64/imagetool.dll
-          1450      1 097acb6ef7148113e030d2f9ab36cc43417285e9     0 bin/win64/imagetool.dll.sig
+       5296280      6 be2dec29978c244ecf1d34fe9b90b2b19b866991     0 bin/win64/imagetool.dll
+          1450      1 5515f927deb73e6439f0dba199866afb8d49f8b1     0 bin/win64/imagetool.dll.sig
         608080      1 a0b6de44255ce7bfade9a5b559dd04f2972bfdc8     0 bin/win64/msvcp100.dll
         829264      1 50db750522b9630757f91b53df377fd4ed4e2d66     0 bin/win64/msvcr100.dll
-        678040      1 6e9efb5ee416c63cb2ce130f01560ee85f37e1e5     0 bin/win64/nrfserlib.dll
-          1450      1 fc4afc0705eff8c671698319a032b424a767908e     0 bin/win64/nrfserlib.dll.sig
-        837272      1 bd17e698ef057ea6d40b2123ecf6d5d153d807e6     0 bin/win64/openvr_api.dll
-        415384      1 687fcf66dbf2c4ab62105abf1b1973f99cd76f87     0 bin/win64/openxr_loader.dll
-        306328      1 305ed81f89c353b9bb4a8b4391ddbc0100254208     0 bin/win64/overlay_viewer.exe
-          1450      1 44cac1f3d36f64794f755792d370618c398842f2     0 bin/win64/overlay_viewer.exe.sig
+        678040      1 fa0fb80fcb90b61c11cd9b1d5a0844121b1138c6     0 bin/win64/nrfserlib.dll
+          1450      1 24f05a004490c56a6f5deea5802cd1ef8523073d     0 bin/win64/nrfserlib.dll.sig
+        837272      1 2ea7a2094609892af81a4a769481603604a0a491     0 bin/win64/openvr_api.dll
+        415384      1 f661e5536e8d54d3851a633c6b9ff6aefdab0521     0 bin/win64/openxr_loader.dll
+        306328      1 19d3ae79b99843ca4d1af43fdfd497eac8a26a08     0 bin/win64/overlay_viewer.exe
+          1450      1 6fc1680357af6c6468ce349bdb6496948a6d978b     0 bin/win64/overlay_viewer.exe.sig
              0      0 0000000000000000000000000000000000000000    40 bin/win64/platforms
          35328      1 2c902b10a86a0b2168c27818938abaccedfdad45     0 bin/win64/platforms/qminimal.dll
         102400      1 14e8774c04357ace3f3fd0acbf05cb311ab3824c     0 bin/win64/platforms/qminimald.dll
@@ -183,8 +183,8 @@ Total bytes compressed : 428904768
        1281024      2 17de51f09e2cacf5d698952d7a857a4d9f3c72c8     0 bin/win64/platforms/qoffscreend.dll
        1178112      2 12f3dd3d8438ec073ec413595e06e65a1b8903b5     0 bin/win64/platforms/qwindows.dll
        2510848      3 0c4d6e9bf3fe4c365c7fdef456aea4045cbda0fa     0 bin/win64/platforms/qwindowsd.dll
-        668824      1 b038bb4b7d31ee349a74d0b1a06d780c31204445     0 bin/win64/prism.dll
-          1450      1 d8ffc5c1c286118fa2fe6ac6329d17178cffb0b6     0 bin/win64/prism.dll.sig
+        668824      1 528ef3f21393866785f45c08897a8af0ed47a4b4     0 bin/win64/prism.dll
+          1450      1 622a02ae67d78562df9b3d564a21ff1248263838     0 bin/win64/prism.dll.sig
        5677568      6 e0cec60a865631c64647497038398f8d4e031a93     0 bin/win64/Qt5Core.dll
        5945856      6 45c967a76971c309e3439635e64f00e86d3940e5     0 bin/win64/Qt5Gui.dll
         746496      1 e1f0c414c5863c520b7852c94a9ce2cf62e265da     0 bin/win64/Qt5Multimedia.dll
@@ -192,98 +192,98 @@ Total bytes compressed : 428904768
        2890752      3 4756cbe485af6b5cc09a22aa6b4100ee93bd8f0c     0 bin/win64/Qt5Network.dll
         327168      1 9daed7734d71dd3793ad658b7a402b011c906644     0 bin/win64/Qt5OpenGL.dll
        5520896      6 fdf9999635e1183208379342a2596a7f13708f23     0 bin/win64/Qt5Widgets.dll
-        187032      1 19aa8ca140f1f83b1705470dc5a40da2816e8f85     0 bin/win64/removeusbhelper.exe
-          1450      1 3e6e17663515f4f89c8b5aac1a1bd4a3ee9d4f0f     0 bin/win64/removeusbhelper.exe.sig
-         38552      1 121c3986ba9cfa3e504dfd0b0316b90f8cf04920     0 bin/win64/restarthelper.exe
-          1450      1 9a491162efb083b49a8f444c4725d387f2cd6e2e     0 bin/win64/restarthelper.exe.sig
+        187032      1 b6fbfd8e446525fc41b878dcf5397fdadfdc9cdc     0 bin/win64/removeusbhelper.exe
+          1450      1 8b0bdac4ab1f3254b6edb78a5c9539c76ace0837     0 bin/win64/removeusbhelper.exe.sig
+         38552      1 5c80a97542d6b28521f967ba83b53b704d1dceac     0 bin/win64/restarthelper.exe
+          1450      1 e0afb6f2de22f59eaafc90eaaf590594e117de13     0 bin/win64/restarthelper.exe.sig
        1077200      2 3b54db23cb00cfeb385b223dab5834784752c352     0 bin/win64/SDL2.dll
         301928      1 0c67ff54afa0e53f82659abeeea0d8ab1dcad1ed     0 bin/win64/steam_api64.dll
         333736      1 a5ae475b77fe75b47dd09e3d83f018c9d7dcf0cb     0 bin/win64/tier0_s64.dll
-        335512      1 50fc5e18ef00a733616c04918be9f0d6f83f751d     0 bin/win64/vivelinklib.dll
-          1450      1 4fd2db5c765a266e9d2a24be6f0c3c863cc9aae7     0 bin/win64/vivelinklib.dll.sig
-        376472      1 2959c29c83f07e1b0d4094040d55790f0efa1780     0 bin/win64/vrcmd.exe
-          1450      1 139892b1edeeb061031e114bbf822b1f01247e09     0 bin/win64/vrcmd.exe.sig
-       2657432      3 182b18ae67c829ceba28a52d1189082f35b95c96     0 bin/win64/vrcompositor.exe
-          1450      1 6a36a3ab98d5dc9700f77b9d9845eee7b63abdcf     0 bin/win64/vrcompositor.exe.sig
-        258200      1 da09493445c6b40bc395b428c076fea9b372a3cc     0 bin/win64/vrdashboard.exe
-          1450      1 a54a4fd3e8d2cd291f152b05c3aa116604ced861     0 bin/win64/vrdashboard.exe.sig
-        221336      1 72156fd511865f9ab73eba887279960929109734     0 bin/win64/vrdesktop.dll
-          1450      1 91768b3b8860cff17738968a7ae3c22bbd06489e     0 bin/win64/vrdesktop.dll.sig
-        273560      1 37a4ece62531ec6959028adac71c17934677f6d6     0 bin/win64/vrdesktop_graphics_capture.dll
-          1450      1 546049a06373e03676d04ed262f864b285a40502     0 bin/win64/vrdesktop_graphics_capture.dll.sig
-       2701464      3 96ff06c0baeeef380286bb7a50dab93a8e7adf93     0 bin/win64/vrmonitor.exe
-          1450      1 d2046a3db46eb8753b181bf8ede68fa0132c76c9     0 bin/win64/vrmonitor.exe.sig
-        840344      1 6815d40ef42d5af66e1670c24f15f69dc6c941ca     0 bin/win64/vrpathreg.exe
-          1450      1 a6c082a9cf298f8e391e5972f3d1358ea492be9d     0 bin/win64/vrpathreg.exe.sig
-        337048      1 97e8806e926a220de58cfa4d283e01eeef532039     0 bin/win64/vrprismhost.exe
-          1450      1 9c85705aab08b2eb4f81f9f35a76579efb23d2fc     0 bin/win64/vrprismhost.exe.sig
-       4603544      5 145806821f9b01484710b6d3131c425dbd0b6efb     0 bin/win64/vrserver.exe
-          1450      1 8fc4e3bb562726e9efa3733de3e60d33c19b890c     0 bin/win64/vrserver.exe.sig
-         37528      1 f4644e91242f60fd67a70af52f292f03e6ecc160     0 bin/win64/vrserverhelper.exe
-          1450      1 8b10eea64bbb4e63b97bb123eb8d463f0a5070cd     0 bin/win64/vrserverhelper.exe.sig
-       2325144      3 339dccb3aefc5eb9af41fe31626ecafe18af8110     0 bin/win64/vrservice.exe
-          1450      1 fee659ec2f8355f6c371fa65be123eff96a0e7ad     0 bin/win64/vrservice.exe.sig
-        255128      1 709c1f3f612f5bf2234e8b9666f65227480c27d7     0 bin/win64/vrstartup.exe
-          1450      1 a6f0a48fc987e7e8d089b28db6e5b22f36c19cfd     0 bin/win64/vrstartup.exe.sig
+        335512      1 026f75551dface37fa4b54af59e0edc21086a705     0 bin/win64/vivelinklib.dll
+          1450      1 c65c05ecab95b1eaa9dda500b292ff310423e275     0 bin/win64/vivelinklib.dll.sig
+        376472      1 32f07140b495c947206720e3dce60af81d287227     0 bin/win64/vrcmd.exe
+          1450      1 a7522ca0a0ca8e58b01f26f38f16f2ed2f261c7f     0 bin/win64/vrcmd.exe.sig
+       2657432      3 279231f814407377abd5131170a531fd65888a41     0 bin/win64/vrcompositor.exe
+          1450      1 e304943eacafeae876514a2572b76274cb36d6a3     0 bin/win64/vrcompositor.exe.sig
+        258200      1 c6ae1b4c996818e836bbf2302b6bd1d7eddd88b1     0 bin/win64/vrdashboard.exe
+          1450      1 65f03e1054bdecf4847363662f020d3f9f7d51c9     0 bin/win64/vrdashboard.exe.sig
+        221336      1 964136fe36fd8beee6451ab3ea7b2b3afb453ca1     0 bin/win64/vrdesktop.dll
+          1450      1 bd7a35f5e63d401c0f6346b3817b8e562c58883e     0 bin/win64/vrdesktop.dll.sig
+        273560      1 c5c87fcb43e4340778ca3c1b02731f9d9242a00d     0 bin/win64/vrdesktop_graphics_capture.dll
+          1450      1 e9d850dc932dfea2db50b7afc58689eb66294cb7     0 bin/win64/vrdesktop_graphics_capture.dll.sig
+       2701464      3 bbc4fbc80a653aab887822b846e9fa399aefffd0     0 bin/win64/vrmonitor.exe
+          1450      1 a84bb993696cd8e9b5ae94b9cdae935ee7c68912     0 bin/win64/vrmonitor.exe.sig
+        840344      1 f79bce8c13425063a303b8eeedffa225ab6ff1fc     0 bin/win64/vrpathreg.exe
+          1450      1 bd575f6b958fda4e1c6cd38ddc4d466b9cac1442     0 bin/win64/vrpathreg.exe.sig
+        337048      1 e6ca09900cb143cbaf25e4d9c52b43f0b0583cce     0 bin/win64/vrprismhost.exe
+          1450      1 6d70848a5f87df71af7d2fe6413cbf04f5252409     0 bin/win64/vrprismhost.exe.sig
+       4603544      5 2ac340ee1e96bb92436091f259af53bf85069eb0     0 bin/win64/vrserver.exe
+          1450      1 ea01ebcd9d9d9f30b656ffd3d29959291fc5a8c2     0 bin/win64/vrserver.exe.sig
+         37528      1 8fc9aa87343f7ad822a2b8e6bd36a6724978f372     0 bin/win64/vrserverhelper.exe
+          1450      1 b04d29ef501a4acf3c0c11c08e1b0c89d3e37ec4     0 bin/win64/vrserverhelper.exe.sig
+       2325144      3 bbcaaaa0a03aff2d84ee5114c9996b44af9902f2     0 bin/win64/vrservice.exe
+          1450      1 85b57df7d5eab376c757800440537b1ac28c1add     0 bin/win64/vrservice.exe.sig
+        255128      1 b95da3bb5afc546399002f6f33b8915855ae01f1     0 bin/win64/vrstartup.exe
+          1450      1 ead048a941033689158ef5a0d110eace0fb8f268     0 bin/win64/vrstartup.exe.sig
         106496      1 dfda2f90fac30ebd2d3aa1cab9bac0958f7dbd65     0 bin/win64/vrtest_api_x64.dll
-        215704      1 bde40b83a69cb07695686d8e34e54453c31b1317     0 bin/win64/vrurlhandler.exe
-          1450      1 b70740e82fe243f508e952dca5421ff39b6d50f0     0 bin/win64/vrurlhandler.exe.sig
+        215704      1 f229333b3fa06cf7e009c7ae78d64071164e7dfe     0 bin/win64/vrurlhandler.exe
+          1450      1 87db55f7fb459583a9700097d9ac1118e464c52f     0 bin/win64/vrurlhandler.exe.sig
         324008      1 f977a9d1fdc3219539c36bbd02451e4956c1a376     0 bin/win64/vstdlib_s64.dll
-         75416      1 c3aec3093d61a824105d475c851d631f58322db5     0 bin/win64/winrtdisplay.dll
-          1450      1 1742d618f4914c3cff705df3fb3215a565e9e444     0 bin/win64/winrtdisplay.dll.sig
-         49304      1 e7f67b9c52c5140186df9f224963944f67b0ce37     0 drivers/gamepad/bin/win32/driver_gamepad.dll
-          1450      1 7a083237868cf31155cbfac8b1cc04058827fcb0     0 drivers/gamepad/bin/win32/driver_gamepad.dll.sig
-         54424      1 d6f8436fbf478e5de0edcb8ea88655a7255c3c93     0 drivers/gamepad/bin/win64/driver_gamepad.dll
-          1450      1 f10fb87aad479e13b6b597834b5d0d5e7588e4f0     0 drivers/gamepad/bin/win64/driver_gamepad.dll.sig
-        168088      1 eb1ddf225e12141eabffba3a7ffc9277967f0945     0 drivers/lighthouse/bin/win32/aitcamlib.dll
-          1450      1 bbfe71777ffe796655654fa6fbe9ed479eb5775f     0 drivers/lighthouse/bin/win32/aitcamlib.dll.sig
+         75416      1 8a0a2279bfc0285db64fc69825853744dc21d6a3     0 bin/win64/winrtdisplay.dll
+          1450      1 09f676d6a3107d70cbc03a92a3993e838bf85c87     0 bin/win64/winrtdisplay.dll.sig
+         49304      1 cd3c94318fee1a80c2270d5b82b977afd69afcac     0 drivers/gamepad/bin/win32/driver_gamepad.dll
+          1450      1 555238185c7004a210eb9ca59a9c415f2032bef0     0 drivers/gamepad/bin/win32/driver_gamepad.dll.sig
+         54424      1 c6945ff80686c43b7e9b87b48d5b3d3c2cebd18f     0 drivers/gamepad/bin/win64/driver_gamepad.dll
+          1450      1 13d6ee179a5b888037bdff975da3877766f6aeba     0 drivers/gamepad/bin/win64/driver_gamepad.dll.sig
+        168088      1 20ce942abcc0604ab0112858ceab083444462e7e     0 drivers/lighthouse/bin/win32/aitcamlib.dll
+          1450      1 b218dc5ff6be8ca57b8e37bbb9c15b4eae03b332     0 drivers/lighthouse/bin/win32/aitcamlib.dll.sig
         322560      1 1046d0e850053772cb73507ce6e15b364af34d07     0 drivers/lighthouse/bin/win32/AitH264Capture.dll
         167936      1 1a8b690adeddee3ef185cd1bad1a7db1af619779     0 drivers/lighthouse/bin/win32/AitUVCExtApi.dll
-       2146968      3 c35146d6038f3f448ad4b50967ded0de927526f3     0 drivers/lighthouse/bin/win32/driver_lighthouse.dll
-          1450      1 5a3584b55dde0023a8467e21dd1289830080aa6e     0 drivers/lighthouse/bin/win32/driver_lighthouse.dll.sig
+       2146968      3 6d3d9fe5ffbe327666b77bb25187710b2a7605cd     0 drivers/lighthouse/bin/win32/driver_lighthouse.dll
+          1450      1 3f0796fc01917c72064bc1f92cf34669de223828     0 drivers/lighthouse/bin/win32/driver_lighthouse.dll.sig
         114176      1 44cc9bf6c9e539d5c992b26ccbf9a2064bc39ff5     0 drivers/lighthouse/bin/win32/EZDUMP.ax
         136192      1 6dfeea5ef31778dd719cde5c6a8d0da0570d33a2     0 drivers/lighthouse/bin/win32/VideoSinkFilter.ax
-        487576      1 1902fc8adaa7b9527c7000104f31cae08cad902a     0 drivers/lighthouse/bin/win32/vrcamera_api.dll
-          1450      1 6ae9f0208a849cc992da21568f975766720fe84f     0 drivers/lighthouse/bin/win32/vrcamera_api.dll.sig
-        199320      1 a0259d5c14a582f78acda00df613338e81774b11     0 drivers/lighthouse/bin/win64/aitcamlib.dll
-          1450      1 906362380ab069b5741c434ac694df9ae5ee6288     0 drivers/lighthouse/bin/win64/aitcamlib.dll.sig
+        487576      1 8b14d25c7dcef51f8d3a421cb6525463f9b1c88f     0 drivers/lighthouse/bin/win32/vrcamera_api.dll
+          1450      1 eeed5fffa1fbf8506a72bc32a92a43d6a50c2e9e     0 drivers/lighthouse/bin/win32/vrcamera_api.dll.sig
+        199320      1 0576a5ce5086dfcd91f99d518cd92516ab46077f     0 drivers/lighthouse/bin/win64/aitcamlib.dll
+          1450      1 9d4cce9b9159583f789a0b6f58125eb25d44ecae     0 drivers/lighthouse/bin/win64/aitcamlib.dll.sig
        2597376      3 6330265da37b0705ae6d10857d26ae1f9d715dcd     0 drivers/lighthouse/bin/win64/AitH264Capture.dll
          94720      1 81d04150a17cee6cbef114c63f8284d26143319c     0 drivers/lighthouse/bin/win64/AitUVCExtApi.dll
        6910464      7 00695192ec254e777bb6d0510c7f58768f569de1     0 drivers/lighthouse/bin/win64/ArcturusPerception.dll
-       2992280      3 8c24ab9c40e5c8bb217fbd6097dc242222b0f227     0 drivers/lighthouse/bin/win64/driver_lighthouse.dll
-          1450      1 0186f9530f33cb81c47e52ab0d6f718f65aa7f07     0 drivers/lighthouse/bin/win64/driver_lighthouse.dll.sig
+       2992280      3 0c7dae62393a65ee81920e8e2495a00244038049     0 drivers/lighthouse/bin/win64/driver_lighthouse.dll
+          1450      1 585e06989014a00d4fc3d8ae9b7793a226637551     0 drivers/lighthouse/bin/win64/driver_lighthouse.dll.sig
          77824      1 70731f9ec92d64e737638fdce449c3d6d7172ad1     0 drivers/lighthouse/bin/win64/EZDUMP.ax
          77312      1 07493b194262e1badb49c6f9ea74c2194b5ed447     0 drivers/lighthouse/bin/win64/VideoSinkFilter.ax
-        682648      1 9808548e9eaae109840e4e354ad85f38a256900f     0 drivers/lighthouse/bin/win64/vrcamera_api.dll
-          1450      1 dd1bfba4f1f18d6429cdd7ff17d4380d61a0e7b2     0 drivers/lighthouse/bin/win64/vrcamera_api.dll.sig
-         33432      1 8e49fbd6aa4f2f2d3772271b00a32d0fedb4a37e     0 drivers/null/bin/win32/driver_null.dll
-          1450      1 0ae9e485750c4c8f0a7d80b5bc25f905c0480945     0 drivers/null/bin/win32/driver_null.dll.sig
-         35992      1 661eba83434823a0c89832e94b6db559d9d72cde     0 drivers/null/bin/win64/driver_null.dll
-          1450      1 4e1c0a3c903dea16166f4c5ac0971a6add7cb5b5     0 drivers/null/bin/win64/driver_null.dll.sig
-        704152      1 94dd1206863d9e5b5b065dc725319ed82ce1ab91     0 drivers/oculus/bin/win32/driver_oculus.dll
-          1450      1 78489748c2eabcaf2fb18f493cfbcdfe01d23ef1     0 drivers/oculus/bin/win32/driver_oculus.dll.sig
+        682648      1 54871880fbfe498f40c1a6b27910dbbbbd2b46d8     0 drivers/lighthouse/bin/win64/vrcamera_api.dll
+          1450      1 3548edcaf23255be196cc15a06366c9226c80df3     0 drivers/lighthouse/bin/win64/vrcamera_api.dll.sig
+         33432      1 2766d7378e316c26d4901cf308a92a387de8cf7f     0 drivers/null/bin/win32/driver_null.dll
+          1450      1 4442b1854d02aa1b834b6c1fcf9c16a77a9ba0bf     0 drivers/null/bin/win32/driver_null.dll.sig
+         35992      1 b51974c6fbd214b56712cf69f5a2fa0ebc28fec6     0 drivers/null/bin/win64/driver_null.dll
+          1450      1 00788b57cf7178fe43ea41579e841309773f6b94     0 drivers/null/bin/win64/driver_null.dll.sig
+        704152      1 ae6c1b2ebbe9373db5a711e9bc8f17382b6cb49b     0 drivers/oculus/bin/win32/driver_oculus.dll
+          1450      1 6612fedf936ade779915873991de557f77dfe583     0 drivers/oculus/bin/win32/driver_oculus.dll.sig
         898000      1 d3ee802766ee8a9e6666b30c5842deb667953c7b     0 drivers/oculus/bin/win32/SDL2.dll
-        926360      1 e8850d7b37e953348e17e9cb7f70fd856ee38c21     0 drivers/oculus/bin/win64/driver_oculus.dll
-          1450      1 9aa7a3f5aa774ccdb303bc33fd4f1d927f1ebb64     0 drivers/oculus/bin/win64/driver_oculus.dll.sig
+        926360      1 b8427c42190ab1d1903fcd5b827544e58672b0b2     0 drivers/oculus/bin/win64/driver_oculus.dll
+          1450      1 b9c59e16e5ea43375021f5ac66c8555f34895b1d     0 drivers/oculus/bin/win64/driver_oculus.dll.sig
        1077200      2 3b54db23cb00cfeb385b223dab5834784752c352     0 drivers/oculus/bin/win64/SDL2.dll
-         69784      1 eccf1a2942ffac01f52898bbe5d1df66064cb345     0 drivers/oculus_legacy/bin/win32/driver_oculus_legacy.dll
-          1450      1 d6315815a0469e4dcbeecec5cd6e3df3e35f2875     0 drivers/oculus_legacy/bin/win32/driver_oculus_legacy.dll.sig
+         69784      1 9273f422f5a0252acc8ab78969a4a6836b9b1e46     0 drivers/oculus_legacy/bin/win32/driver_oculus_legacy.dll
+          1450      1 081cec64fa298baaa3b7d6a058a0756a630a5c60     0 drivers/oculus_legacy/bin/win32/driver_oculus_legacy.dll.sig
         778752      1 b3a82f1c5004468cd96ce65a07885bc37858de13     0 drivers/oculus_legacy/bin/win32/SDL2.dll
-         84120      1 708280211a29a3fc44aab28dbc03d433e414cf8a     0 drivers/oculus_legacy/bin/win64/driver_oculus_legacy.dll
-          1450      1 13a13c1f2021891bbfd09b72886062d9fdc1a90a     0 drivers/oculus_legacy/bin/win64/driver_oculus_legacy.dll.sig
+         84120      1 c09fa651ad326dc30a32dc582a667c9df0dbdabe     0 drivers/oculus_legacy/bin/win64/driver_oculus_legacy.dll
+          1450      1 7afd5823cb99c52d7995f711ba40418f90845286     0 drivers/oculus_legacy/bin/win64/driver_oculus_legacy.dll.sig
         979456      1 c7e8f5ff29d876a8762a0db45a6c16a034a77d05     0 drivers/oculus_legacy/bin/win64/SDL2.dll
-      12062360     12 0696bb732ecdc8ddaa994bc5f32934f65827ec5f     0 drivers/vrlink/bin/win64/driver_vrlink.dll
-          1450      1 535db1cf5a4422bb174474175fd89818db654bd6     0 drivers/vrlink/bin/win64/driver_vrlink.dll.sig
+      12062360     12 833b071e85b159846d2bf06a433463aada78e4ac     0 drivers/vrlink/bin/win64/driver_vrlink.dll
+          1450      1 0f8eae5e1b104b4aa3b56469d9d77b23393dd1ca     0 drivers/vrlink/bin/win64/driver_vrlink.dll.sig
            416      1 30bf44c9d9a06cbd5f2b977ce1f6aa568c1b7182   100 installscript_817940.vdf
            168      1 054a144c22c9162f1f13bb43ad3449a47b7629fc     0 steamxr_win64.json
-       1126040      2 2de962cf3fea3d191985c7b54858dfe68f225a51     0 tools/lighthouse/bin/win32/lighthouse_console.exe
-        243864      1 7d3caaec00f76a0506ca906f8324359e468286f3     0 tools/lighthouse/bin/win32/lighthouse_watchman_update.exe
-          1450      1 6809c4479c3e85a394dd0aaadd250f76d82b33fa     0 tools/lighthouse/bin/win32/lighthouse_watchman_update.exe.sig
+       1126040      2 b4f5425591388be1ec9d10900df4b41a254fcbbc     0 tools/lighthouse/bin/win32/lighthouse_console.exe
+        243864      1 96695431c58c6aa48ec89b024f0f653890677120     0 tools/lighthouse/bin/win32/lighthouse_watchman_update.exe
+          1450      1 d52f96ff01cdd5983449a525fb17cec58e105245     0 tools/lighthouse/bin/win32/lighthouse_watchman_update.exe.sig
       11403584     11 65b73bf6bee7f601e3906dd4c2efe38c47833fd1     0 tools/lighthouse/bin/win32/nrfutil.exe
-        487576      1 1902fc8adaa7b9527c7000104f31cae08cad902a     0 tools/lighthouse/bin/win32/vrcamera_api.dll
+        487576      1 8b14d25c7dcef51f8d3a421cb6525463f9b1c88f     0 tools/lighthouse/bin/win32/vrcamera_api.dll
          23729      1 f02ac01aee4f14f8a582757c362a3f02aba8c0f1     0 tools/lighthouse/bin/win64/btui_cfg.txt
         184320      1 d01c88889a09b0ac77f02e55f45bf19c33e2db25     0 tools/lighthouse/bin/win64/CameraTasker-X64.dll
-       1421976      2 0cf2f157d825da785bbdadbc227bb1fcff399dbd     0 tools/lighthouse/bin/win64/lighthouse_console.exe
+       1421976      2 2edd4849f176ca02bc9b5e82a48a1a0b193aed8d     0 tools/lighthouse/bin/win64/lighthouse_console.exe
        2761480      3 0021b0953a1cce10fb3da83eebc4f186fc8747dd     0 tools/lighthouse/bin/win64/vivebtdriver.exe
        2820360      3 696e2c936c020ba73816a44f43090e1fbef8e1bf     0 tools/lighthouse/bin/win64/vivebtdriver_win10.exe
        6329408      7 cfb665a90b1ec71fa63b7eb727e3a455cd21764a     0 tools/lighthouse/bin/win64/vivelink.exe

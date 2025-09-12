@@ -2060,7 +2060,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSt\n
+RSDS
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
