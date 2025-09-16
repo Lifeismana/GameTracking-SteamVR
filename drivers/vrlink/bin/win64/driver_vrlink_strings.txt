@@ -60,7 +60,6 @@ $3br
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %c%sFailFuzz
-%d %d %d %d %d\n
 %d ms
 %d,%d,%d,%d
 %d.%d.%d.%d:%u
@@ -1749,6 +1748,7 @@ RPCRT4.dll
 RRvM;;
 RSDS
 RX Fail:%d
+R\vp\ff
 RaiseException
 Received 0 byte message on control connection. Disconnecting
 Received GPU Architecture %d\n
@@ -2323,7 +2323,6 @@ Zjz\v
 [vrlink] !!!! ReleaseSync FAILED with E_FAIL
 [vrlink] !!!! ReleaseSync FAILED with unknown hr
 \44h
-\fp8v
 \frrrrrrrrrrrrrrrr
 \mfpmp.exe
 \nbad png sig

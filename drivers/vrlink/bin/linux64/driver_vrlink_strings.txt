@@ -46,7 +46,6 @@ $3br
 %a %b %d %Y %H:%M:%S.%%06u
 %c%sFailFuzz
 %c8814%s
-%d %d %d %d %d\n
 %d ms
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
@@ -507,7 +506,6 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
-01:32:16
 1 Sec
 1/2/4/8/16-bit only
 10.35.78
@@ -538,6 +536,7 @@ $3br
 16SVLAudioPipewire
 17CBoneMaskResource
 17CSharedImageLinux
+18:14:41
 18CSharedBufferLinux
 18IUsbDeviceCallback
 18SVLFECRAID6RXFrame
@@ -4304,7 +4303,7 @@ SendUpdatedFramerateRequest: Preferred refresh rate was available. Using %.2f
 SendUpdatedFramerateRequest: Requesting client use %.2f Hz
 Sending quit event because SteamVR launched for streaming and client has quit.
 Sent message id %u, received %u (%s). Rejecting response.\n
-Sep 12 2025
+Sep 16 2025
 September
 SerialNumber %s\n
 SessionID
@@ -5464,6 +5463,7 @@ VerifyTidIntegrity()
 Version
 VersionIsLess(std::string const&, std::string const&)
 VersionIsLess(std::string const&, std::string const&) (.cold)
+Vhqf
 VideoDataTXBuffer
 Vive Focus 3 (Left Controller)
 Vive Focus 3 (Right Controller)

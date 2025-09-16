@@ -1865,7 +1865,6 @@ operator new[](unsigned int)
 operator new[](unsigned int, std::nothrow_t const&)
 operator new[](unsigned int, std::nothrow_t const&) (.cold)
 operator"" 
-ovs`
 parse_lsda_header(_Unwind_Context*, unsigned char const*, lsda_header_info*)
 poll
 print

@@ -448,7 +448,6 @@ french
 fseek
 german
 greek
-hcY5k
 hu_hu
 hungarian
 illegal code in raster

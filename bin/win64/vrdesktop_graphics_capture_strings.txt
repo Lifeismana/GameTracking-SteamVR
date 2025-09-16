@@ -422,7 +422,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSQ
 R\npd
 RaiseException
 Recreate CaptureFramePool

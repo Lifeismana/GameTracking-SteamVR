@@ -2060,7 +2060,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDS^
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3292,6 +3292,7 @@ eye_target_height_in_pixels
 eye_target_width_in_pixels
 eye_to_head
 eye_tracking
+f09/
 fP~V
 failIfExtra
 failed

@@ -1,4 +1,4 @@
-var CLSTAMP = "10063405";
+var CLSTAMP = "10072902";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [554],
   {
@@ -148,9 +148,9 @@ var CLSTAMP = "10063405";
       const p =
         window.addEventListener || (r.g && r.g.addEventListener) || (() => {});
       let g,
-        h = [],
-        f = (e, t, r) =>
-          h.push({ error: e, cCallsitesToIgnore: t, strComponentStack: r });
+        f = [],
+        h = (e, t, r) =>
+          f.push({ error: e, cCallsitesToIgnore: t, strComponentStack: r });
       const _ = !0;
       class b extends Error {
         constructor(...e) {
@@ -162,32 +162,31 @@ var CLSTAMP = "10063405";
         console.assert = (t, r, ...n) => {
           if (!t) {
             const e = R();
-            f(new b(I(r, ...n)), 2, e);
+            h(new b(I(r, ...n)), 2, e);
           }
           e.apply(console, [t, r, ...n]);
         };
         const t = console.error;
         (console.error = (e, ...r) => {
           const n = R();
-          f(new Error(I(e, ...r)), 1, n), t.apply(console, [e, ...r]);
+          h(new Error(I(e, ...r)), 1, n), t.apply(console, [e, ...r]);
         }),
           (console.clogerror = (e, r, ...n) => {
             const i = R();
-            f(new Error(I(r, ...n)), e + 1, i), t.apply(console, [r, ...n]);
+            h(new Error(I(r, ...n)), e + 1, i), t.apply(console, [r, ...n]);
           }),
           p("error", (e) => {
-            f(e.error, 0);
+            h(e.error, 0);
           }),
           p("unhandledrejection", (e) => {
-            f(e.reason, 0);
+            h(e.reason, 0);
           }),
           (g = window.setTimeout(() => {
-            (h = []), (f = () => {});
+            (f = []), (h = () => {});
           }, 3e4));
       }
       const S = { cCallsitesToIgnore: 0, bIncludeMessageInIdentifier: !1 },
         w = [
-          "(localhost|127.0.0.1):(?!(80|443))",
           "chrome-extension://",
           "HTMLDivElement.onreset \\(/market",
           "/.millennium/Dist",
@@ -227,20 +226,20 @@ var CLSTAMP = "10063405";
             (this.m_bEnabled = !0),
             (this.m_bInitialized = !1),
             e
-              ? (h.forEach(
+              ? (f.forEach(
                   ({ error: e, cCallsitesToIgnore: t, strComponentStack: r }) =>
                     this.ReportError(e, {
                       cCallsitesToIgnore: t,
                       strComponentStack: r,
                     }),
                 ),
-                (f = (e, t, r) =>
+                (h = (e, t, r) =>
                   this.ReportError(e, {
                     cCallsitesToIgnore: t,
                     strComponentStack: r,
                   })))
-              : (f = () => {}),
-            (h = []),
+              : (h = () => {}),
+            (f = []),
             clearTimeout(g),
             window.setTimeout(() => {
               this.m_bInitialized ||

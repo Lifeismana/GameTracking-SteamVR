@@ -136,7 +136,7 @@ MSVCP140.dll
 MainThrd
 Out of thread local storage!\n
 QueryPerformanceCounter
-RSDSJ
+RSDS2
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry

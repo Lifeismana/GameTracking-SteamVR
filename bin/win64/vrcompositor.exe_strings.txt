@@ -923,8 +923,8 @@ $4DTdt
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
+11:13:43
 123456789
-18:31:16
 1A26b
 1e+9999
 1wsHp
@@ -1039,7 +1039,6 @@ ACTIVE
 ADVAPI32.dll
 ALVRDisplayInit
 ALVRInit
-AMQ[C
 ASSERT: "%s" at %s:%d.\n
 AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY\n
 AUDIO: 
@@ -2749,7 +2748,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSzZ
+RSDS
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -2861,7 +2860,7 @@ Seated
 See 
 Selected: width=%d height=%d refresh=%d/%d\n
 SendHmdDebugRequest resp: %s\n
-Sep 11 2025
+Sep 16 2025
 Server
 Set local video recording to: %s\n
 Set thread %p priority to: %d\n

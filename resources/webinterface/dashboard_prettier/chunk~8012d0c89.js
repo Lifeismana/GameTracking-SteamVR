@@ -1,4 +1,4 @@
-var CLSTAMP = "10063405";
+var CLSTAMP = "10072902";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -2778,7 +2778,7 @@ var CLSTAMP = "10063405";
     },
     5818: (e, t, r) => {
       "use strict";
-      r.d(t, { z: () => Ve });
+      r.d(t, { z: () => ke });
       var n = r(1635),
         i = r(6090),
         a = r(3236),
@@ -4341,7 +4341,7 @@ var CLSTAMP = "10063405";
           }),
           c.createElement(_.WZ, {
             label: (0, h.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1757640733e3).toLocaleString(),
+            value: new Date(1758046478e3).toLocaleString(),
           }),
         );
       });
@@ -4732,8 +4732,9 @@ var CLSTAMP = "10063405";
         (0, n.Cg)([a.o], $.prototype, "SetEyeTrackingVisualization", null),
         ($ = (0, n.Cg)([l.PA], $));
       var X = r(2505),
-        Z = r.n(X);
-      function J() {
+        Z = r.n(X),
+        J = r(7600);
+      function Q() {
         const [e, t] = c.useState();
         return c.createElement(
           _.YO,
@@ -4761,7 +4762,7 @@ var CLSTAMP = "10063405";
           e && c.createElement("div", { className: "Subsection Label" }, e),
         );
       }
-      const Q = (0, l.PA)(() =>
+      const Y = (0, l.PA)(() =>
           c.createElement(
             _.YO,
             { className: "SettingsItem" },
@@ -4785,7 +4786,7 @@ var CLSTAMP = "10063405";
             }),
           ),
         ),
-        Y = (e) => {
+        ee = (e) => {
           const [t, r] = c.useState(1),
             [n, i] = c.useState(1),
             [a, s] = c.useState(1),
@@ -4850,7 +4851,7 @@ var CLSTAMP = "10063405";
             }),
           );
         },
-        ee = (e) => {
+        te = (e) => {
           const [t, r] = c.useState(1);
           return c.createElement(
             c.Fragment,
@@ -4868,7 +4869,7 @@ var CLSTAMP = "10063405";
             }),
           );
         },
-        te = (e) => {
+        re = (e) => {
           const [t, r] = c.useState(1);
           return c.createElement(
             c.Fragment,
@@ -4886,7 +4887,7 @@ var CLSTAMP = "10063405";
             }),
           );
         },
-        re = (0, l.PA)(() => {
+        ne = (0, l.PA)(() => {
           const e = "settingscontrolzoo",
             t = v.HR.routePageSection == e;
           return c.createElement(
@@ -4911,15 +4912,15 @@ var CLSTAMP = "10063405";
                   header: "Settings Controls",
                   onDismissRequested: () => v.HR.setRoutePageSection(null),
                 },
-                c.createElement(Y, null),
-                c.createElement("hr", null),
                 c.createElement(ee, null),
                 c.createElement("hr", null),
                 c.createElement(te, null),
+                c.createElement("hr", null),
+                c.createElement(re, null),
               ),
           );
         });
-      function ne(e) {
+      function ie(e) {
         return c.createElement(
           c.Fragment,
           null,
@@ -4945,7 +4946,7 @@ var CLSTAMP = "10063405";
           }),
         );
       }
-      function ie(e) {
+      function ae(e) {
         return c.createElement(
           c.Fragment,
           null,
@@ -4978,7 +4979,7 @@ var CLSTAMP = "10063405";
           }),
         );
       }
-      function ae(e) {
+      function se(e) {
         return c.createElement(_.Al, {
           name: m.Ec,
           label: (0, h.we)("#Settings_ControllerOverlayMagnetismEnabled"),
@@ -5010,7 +5011,7 @@ var CLSTAMP = "10063405";
           ),
         });
       }
-      function se(e) {
+      function oe(e) {
         return c.createElement(_.Al, {
           name: m.x_,
           label: (0, h.we)("#Settings_ControllerOverlayFilteringEnabled"),
@@ -5049,7 +5050,7 @@ var CLSTAMP = "10063405";
           ),
         });
       }
-      function oe() {
+      function le() {
         return c.createElement(
           c.Fragment,
           null,
@@ -5076,7 +5077,29 @@ var CLSTAMP = "10063405";
           }),
         );
       }
-      let le = class extends _.yO {
+      function ce() {
+        const [e, t] = c.useState(!1);
+        return c.createElement(
+          _.YO,
+          { className: "SettingsItem" },
+          c.createElement(
+            u.$,
+            {
+              className: "ButtonControl Spanning",
+              onClick: () => {
+                t(!0);
+              },
+            },
+            "Enable Bugged Component (In Error Boundary)",
+          ),
+          !1,
+          e &&
+            c.createElement(J.cb, {
+              errorStr: "Test Error in settings_internal render component",
+            }),
+        );
+      }
+      let ue = class extends _.yO {
         constructor(e) {
           super(e),
             (this.m_mailbox = new i._n()),
@@ -5137,11 +5160,11 @@ var CLSTAMP = "10063405";
             !1,
             !1,
             !1,
-            c.createElement(ie, null),
             c.createElement(ae, null),
             c.createElement(se, null),
-            c.createElement("hr", null),
             c.createElement(oe, null),
+            c.createElement("hr", null),
+            c.createElement(le, null),
             c.createElement("hr", null),
             c.createElement(_.tE, {
               name: "/settings/dashboard/verticalOffsetCm_2",
@@ -5176,20 +5199,21 @@ var CLSTAMP = "10063405";
             }),
             !1,
             !1,
-            c.createElement(ne, null),
+            c.createElement(ie, null),
+            c.createElement(Y, null),
+            c.createElement(ce, null),
             c.createElement(Q, null),
-            c.createElement(J, null),
-            c.createElement(re, null),
+            c.createElement(ne, null),
             this.makeResetToDefaultButton(),
           );
         }
       };
-      (le.Name = "internal_settings"),
-        (0, n.Cg)([a.o], le.prototype, "configSoftAP", null),
-        (0, n.Cg)([a.o], le.prototype, "onSapStatusUpdate", null),
-        (le = (0, n.Cg)([l.PA], le));
-      var ce = r(9118);
-      let ue = class extends c.Component {
+      (ue.Name = "internal_settings"),
+        (0, n.Cg)([a.o], ue.prototype, "configSoftAP", null),
+        (0, n.Cg)([a.o], ue.prototype, "onSapStatusUpdate", null),
+        (ue = (0, n.Cg)([l.PA], ue));
+      var de = r(9118);
+      let pe = class extends c.Component {
         constructor(e) {
           super(e),
             (this.m_refSelectedButton = c.createRef()),
@@ -5293,7 +5317,7 @@ var CLSTAMP = "10063405";
                   onDismissRequested: this.hideModal,
                   className: "Backgrounds",
                   header: (0, h.we)("#Settings_Appearance_Background"),
-                  subheader: ce.W.IsSteamAvailable
+                  subheader: de.W.IsSteamAvailable
                     ? null
                     : (0, h.we)("#Settings_Appearance_Background_NoSteam"),
                 },
@@ -5322,13 +5346,13 @@ var CLSTAMP = "10063405";
           );
         }
       };
-      (0, n.Cg)([a.o], ue.prototype, "updateUGCItems", null),
-        (0, n.Cg)([a.o], ue.prototype, "setBackground", null),
-        (0, n.Cg)([a.o], ue.prototype, "hideModal", null),
-        (0, n.Cg)([a.o], ue.prototype, "showModal", null),
-        (0, n.Cg)([o.computed], ue.prototype, "currentBackgroundPath", null),
-        (ue = (0, n.Cg)([l.PA], ue));
-      class de extends c.Component {
+      (0, n.Cg)([a.o], pe.prototype, "updateUGCItems", null),
+        (0, n.Cg)([a.o], pe.prototype, "setBackground", null),
+        (0, n.Cg)([a.o], pe.prototype, "hideModal", null),
+        (0, n.Cg)([a.o], pe.prototype, "showModal", null),
+        (0, n.Cg)([o.computed], pe.prototype, "currentBackgroundPath", null),
+        (pe = (0, n.Cg)([l.PA], pe));
+      class me extends c.Component {
         constructor() {
           super(...arguments),
             (this.m_sUniqueIdForForceBoundsVisible = Math.random().toString());
@@ -5351,7 +5375,7 @@ var CLSTAMP = "10063405";
           return null;
         }
       }
-      function pe() {
+      function he() {
         const [e, t] = c.useState({ x: 1, y: 1 }),
           r = c.useCallback(() => {
             try {
@@ -5384,7 +5408,7 @@ var CLSTAMP = "10063405";
           )
         );
       }
-      let me = class extends _.yO {
+      let ge = class extends _.yO {
         constructor(e) {
           super(e);
         }
@@ -5406,8 +5430,8 @@ var CLSTAMP = "10063405";
             c.createElement(
               c.Fragment,
               null,
-              c.createElement(de, null),
-              c.createElement(pe, null),
+              c.createElement(me, null),
+              c.createElement(he, null),
               c.createElement(_.xS, {
                 name: "/settings/collisionBounds/CollisionBoundsStyle",
                 label: (0, h.we)("#Settings_Chaperone_Style"),
@@ -5487,7 +5511,7 @@ var CLSTAMP = "10063405";
                 label: (0, h.we)("#Settings_Appearance_PlayArea_FloorColor"),
                 name: "/settings/steamvr/playAreaColor",
               }),
-              c.createElement(ue, null),
+              c.createElement(pe, null),
               r &&
                 c.createElement(_.Al, {
                   name: "/settings/steamvr/backgroundUseDomeProjection",
@@ -5541,9 +5565,9 @@ var CLSTAMP = "10063405";
           );
         }
       };
-      var he;
-      (me.Name = "playarea_settings"), (me = (0, n.Cg)([l.PA], me));
-      class ge {
+      var ve;
+      (ge.Name = "playarea_settings"), (ge = (0, n.Cg)([l.PA], ge));
+      class _e {
         constructor() {
           (this.driverList = []),
             (this.driverNameToIdMap = new Map()),
@@ -5559,7 +5583,7 @@ var CLSTAMP = "10063405";
             (0, o.makeObservable)(this);
         }
         prettyName(e) {
-          return ge.driverPrettyNames[e] || e;
+          return _e.driverPrettyNames[e] || e;
         }
         unBlock(e) {
           v.HR.SetRestartRequired(),
@@ -5597,7 +5621,7 @@ var CLSTAMP = "10063405";
           ).length;
         }
       }
-      (ge.driverPrettyNames = {
+      (_e.driverPrettyNames = {
         lighthouse: "Lighthouse (Index, Vive, ...)",
         oculus: "Oculus (Rift, Rift S, Quest)",
         oculus_legacy: "Legacy Oculus (DK1, DK2)",
@@ -5615,18 +5639,18 @@ var CLSTAMP = "10063405";
         VirtualDesktop: "Virtual Desktop Streamer (Quest)",
         vrlink: "Steam Link",
       }),
-        (0, n.Cg)([o.observable], ge.prototype, "driverList", void 0),
-        (0, n.Cg)([o.computed], ge.prototype, "visibleDriverList", null),
-        (0, n.Cg)([o.computed], ge.prototype, "numBlockedDrivers", null),
-        (0, n.Cg)([o.computed], ge.prototype, "numDisabledDrivers", null),
+        (0, n.Cg)([o.observable], _e.prototype, "driverList", void 0),
+        (0, n.Cg)([o.computed], _e.prototype, "visibleDriverList", null),
+        (0, n.Cg)([o.computed], _e.prototype, "numBlockedDrivers", null),
+        (0, n.Cg)([o.computed], _e.prototype, "numDisabledDrivers", null),
         (0, n.Cg)(
           [o.computed],
-          ge.prototype,
+          _e.prototype,
           "numUserManuallyDisenabledDrivers",
           null,
         );
-      const ve = new ge(),
-        _e = (0, l.PA)(() =>
+      const be = new _e(),
+        Se = (0, l.PA)(() =>
           c.createElement(
             u.$,
             {
@@ -5634,16 +5658,16 @@ var CLSTAMP = "10063405";
               title: (0, h.we)("#Settings_Drivers_UnblockAllTip"),
               onClick: () =>
                 (0, n.sH)(void 0, void 0, void 0, function* () {
-                  const e = ve.driverList
+                  const e = be.driverList
                     .filter((e) => e.blocked_by_safe_mode)
                     .map((e) => e.manifest.name);
-                  for (let t = 0; t < e.length; ++t) yield ve.unBlock(e[t]);
+                  for (let t = 0; t < e.length; ++t) yield be.unBlock(e[t]);
                 }),
             },
             (0, h.we)("#Settings_Drivers_UnblockAll"),
           ),
         );
-      function be(e) {
+      function ye(e) {
         return e.blocked
           ? c.createElement(
               _.YO,
@@ -5666,41 +5690,41 @@ var CLSTAMP = "10063405";
               value: e.enabled,
             });
       }
-      const Se = (0, l.PA)(() =>
+      const fe = (0, l.PA)(() =>
         c.createElement(
           c.Fragment,
           null,
-          ve.visibleDriverList.map((e) =>
-            c.createElement(be, {
+          be.visibleDriverList.map((e) =>
+            c.createElement(ye, {
               key: e.manifest.name,
-              label: ve.prettyName(e.manifest.name),
+              label: be.prettyName(e.manifest.name),
               title: e.manifest.name,
               blocked: e.blocked_by_safe_mode,
               enabled: e.enabled,
               onToggleEnable: (t) => {
-                return (r = e.manifest.name), (n = t), void ve.setEnabled(r, n);
+                return (r = e.manifest.name), (n = t), void be.setEnabled(r, n);
                 var r, n;
               },
               onUnblock: () => {
-                return (t = e.manifest.name), void ve.unBlock(t);
+                return (t = e.manifest.name), void be.unBlock(t);
                 var t;
               },
             }),
           ),
         ),
       );
-      let ye = (he = class extends c.Component {
+      let Re = (ve = class extends c.Component {
         constructor(e) {
           super(e);
         }
         render() {
-          const e = ve.numBlockedDrivers,
-            t = ve.numDisabledDrivers,
+          const e = be.numBlockedDrivers,
+            t = be.numDisabledDrivers,
             r =
               v.HR.showAdvancedSettings ||
               e ||
-              ve.numUserManuallyDisenabledDrivers,
-            n = v.HR.routePageSection == he.PAGE_SECTION;
+              be.numUserManuallyDisenabledDrivers,
+            n = v.HR.routePageSection == ve.PAGE_SECTION;
           return c.createElement(
             c.Fragment,
             null,
@@ -5712,7 +5736,7 @@ var CLSTAMP = "10063405";
                   u.$,
                   {
                     className: "ButtonControl",
-                    onClick: () => v.HR.setRoutePageSection(he.PAGE_SECTION),
+                    onClick: () => v.HR.setRoutePageSection(ve.PAGE_SECTION),
                   },
                   (0, h.we)("#Settings_Drivers_ShowDriverManagerUI"),
                   0 != e &&
@@ -5731,7 +5755,7 @@ var CLSTAMP = "10063405";
                 ),
               ),
             n &&
-              ve.driverList &&
+              be.driverList &&
               c.createElement(
                 _.bB,
                 {
@@ -5747,17 +5771,17 @@ var CLSTAMP = "10063405";
                             { className: "Label" },
                             (0, h.we)("#Settings_Drivers_SomeBlocked"),
                           ),
-                          c.createElement(_e, null),
+                          c.createElement(Se, null),
                         ),
                   onDismissRequested: () => v.HR.setRoutePageSection(null),
                 },
-                c.createElement(Se, null),
+                c.createElement(fe, null),
               ),
           );
         }
       });
-      (ye.PAGE_SECTION = "drivermanager"), (ye = he = (0, n.Cg)([l.PA], ye));
-      let fe = class extends c.Component {
+      (Re.PAGE_SECTION = "drivermanager"), (Re = ve = (0, n.Cg)([l.PA], Re));
+      let we = class extends c.Component {
         constructor(e) {
           super(e), (this.state = { bShowingModal: !1 });
         }
@@ -5826,10 +5850,10 @@ var CLSTAMP = "10063405";
           );
         }
       };
-      (0, n.Cg)([a.o], fe.prototype, "show", null),
-        (0, n.Cg)([a.o], fe.prototype, "hide", null),
-        (fe = (0, n.Cg)([l.PA], fe));
-      let Re = class extends _.yO {
+      (0, n.Cg)([a.o], we.prototype, "show", null),
+        (0, n.Cg)([a.o], we.prototype, "hide", null),
+        (we = (0, n.Cg)([l.PA], we));
+      let Ce = class extends _.yO {
         constructor(e) {
           super(e);
         }
@@ -5838,8 +5862,8 @@ var CLSTAMP = "10063405";
             ? c.createElement(
                 c.Fragment,
                 null,
-                c.createElement(fe, null),
-                c.createElement(ye, null),
+                c.createElement(we, null),
+                c.createElement(Re, null),
                 c.createElement("hr", null),
                 this.schemaComponents,
                 this.makeResetToDefaultButton(),
@@ -5847,12 +5871,12 @@ var CLSTAMP = "10063405";
             : null;
         }
       };
-      (Re.Name = "startupshutdown_settings"), (Re = (0, n.Cg)([l.PA], Re));
-      var we,
-        Ce = r(4963),
-        Me = r(795);
-      const Te = "vr_settings_top_center";
-      class Ee extends c.Component {
+      (Ce.Name = "startupshutdown_settings"), (Ce = (0, n.Cg)([l.PA], Ce));
+      var Me,
+        Te = r(4963),
+        Ee = r(795);
+      const Ve = "vr_settings_top_center";
+      class De extends c.Component {
         constructor(e) {
           super(e),
             (this.state = {
@@ -5969,7 +5993,7 @@ var CLSTAMP = "10063405";
                 ? null
                 : c.createElement(
                     i.dL,
-                    { parent_id: Te, translation: { y: 0.2, z: -0.05 } },
+                    { parent_id: Ve, translation: { y: 0.2, z: -0.05 } },
                     c.createElement(
                       i.Zk,
                       {
@@ -5987,11 +6011,11 @@ var CLSTAMP = "10063405";
           );
         }
       }
-      (0, n.Cg)([a.o], Ee.prototype, "onExitApp", null),
-        (0, n.Cg)([a.o], Ee.prototype, "onRestartSteamVR", null),
-        (0, n.Cg)([a.o], Ee.prototype, "onRestartRequired", null),
-        (0, n.Cg)([a.o], Ee.prototype, "onAppRestartRequired", null);
-      let Ve = (we = class extends c.Component {
+      (0, n.Cg)([a.o], De.prototype, "onExitApp", null),
+        (0, n.Cg)([a.o], De.prototype, "onRestartSteamVR", null),
+        (0, n.Cg)([a.o], De.prototype, "onRestartRequired", null),
+        (0, n.Cg)([a.o], De.prototype, "onAppRestartRequired", null);
+      let ke = (Me = class extends c.Component {
         constructor(e) {
           super(e),
             (this.m_refSettingsPageContainer = c.createRef()),
@@ -6003,7 +6027,7 @@ var CLSTAMP = "10063405";
             v.HR.routePage
               ? this.setState({ sActiveSettingSection: v.HR.routePage })
               : v.HR.setRoutePage(
-                  v.HR.settingsSchema.filter(we.shouldShowSection)[0]
+                  v.HR.settingsSchema.filter(Me.shouldShowSection)[0]
                     .controller,
                 );
           })),
@@ -6037,9 +6061,9 @@ var CLSTAMP = "10063405";
             (r =
               "frame-page" == this.props.env
                 ? c.createElement(
-                    Me.P9,
+                    Ee.P9,
                     { summonOverlayKey: m.Wt, ref: this.props.pageRef },
-                    t && c.createElement(Ee, { standalonePanel: !0 }),
+                    t && c.createElement(De, { standalonePanel: !0 }),
                     t &&
                       c.createElement(
                         s.L_,
@@ -6049,7 +6073,7 @@ var CLSTAMP = "10063405";
                           additionalClassNames: "Settings",
                         },
                         c.createElement(i.Ci, {
-                          id: Te,
+                          id: Ve,
                           location: i.Oi.TopCenter,
                         }),
                         t,
@@ -6070,11 +6094,11 @@ var CLSTAMP = "10063405";
           );
         }
         renderSettingsPanelContents() {
-          const e = v.HR.settingsSchema.filter(we.shouldShowSection);
+          const e = v.HR.settingsSchema.filter(Me.shouldShowSection);
           return c.createElement(
             u.W,
             { className: "SettingsMainPanel" },
-            c.createElement(Ee, { standalonePanel: !1 }),
+            c.createElement(De, { standalonePanel: !1 }),
             c.createElement(
               "div",
               { className: "SettingsSidebarPageModalContainer" },
@@ -6130,7 +6154,7 @@ var CLSTAMP = "10063405";
                 key: e.title,
                 className: t.join(" "),
                 onClick: () => v.HR.setRoutePage(e.controller),
-                releaseSoundEffect: Ce.j.PagedSettingsNavigation,
+                releaseSoundEffect: Te.j.PagedSettingsNavigation,
               },
               c.createElement(
                 "div",
@@ -6144,7 +6168,7 @@ var CLSTAMP = "10063405";
           const t = e.controller ? e.controller : "generic",
             r = this.state.sActiveSettingSection === e.controller,
             n =
-              [S, Re, me, q.a5, D, j, B, P, G, le, k.$].find(
+              [S, Ce, ge, q.a5, D, j, B, P, G, ue, k.$].find(
                 (e) => e.Name === t,
               ) || _.yO;
           return c.createElement(n, { key: e.title, section: e, active: r });
@@ -6153,13 +6177,13 @@ var CLSTAMP = "10063405";
           if (
             e.internal_only &&
             !v.HR.showInternalSettings &&
-            !v.HR.settings.get(we.k_sShowInternalSettings)
+            !v.HR.settings.get(Me.k_sShowInternalSettings)
           )
             return !1;
           if (
             e.controller == P.Name &&
             (0, i.R$)() == i.OH.Overlay &&
-            !v.HR.settings.get(we.k_sForceShowOpenXRSettings)
+            !v.HR.settings.get(Me.k_sForceShowOpenXRSettings)
           )
             return !1;
           if (
@@ -6180,7 +6204,7 @@ var CLSTAMP = "10063405";
           if (e.desktop_only && (0, i.R$)() == i.OH.Overlay) return !1;
           let t =
             e.controller == B.Name &&
-            v.HR.settings.get(we.k_sShowDashboardSettings);
+            v.HR.settings.get(Me.k_sShowDashboardSettings);
           if (e.advanced_only && !v.HR.showAdvancedSettings && !t) return !1;
           if (
             e.controller == D.Name &&
@@ -6217,14 +6241,14 @@ var CLSTAMP = "10063405";
           });
         }
       });
-      (Ve.k_sForceShowOpenXRSettings =
+      (ke.k_sForceShowOpenXRSettings =
         "/settings/steamvr/forceShowOpenXRSettings"),
-        (Ve.k_sShowInternalSettings = "/settings/steamvr/showInternalSettings"),
-        (Ve.k_sShowDashboardSettings =
+        (ke.k_sShowInternalSettings = "/settings/steamvr/showInternalSettings"),
+        (ke.k_sShowDashboardSettings =
           "/settings/steamvr/showDashboardSettings"),
-        (0, n.Cg)([a.o], Ve.prototype, "renderSectionButton", null),
-        (0, n.Cg)([a.o], Ve.prototype, "renderSectionPage", null),
-        (Ve = we = (0, n.Cg)([l.PA], Ve));
+        (0, n.Cg)([a.o], ke.prototype, "renderSectionButton", null),
+        (0, n.Cg)([a.o], ke.prototype, "renderSectionPage", null),
+        (ke = Me = (0, n.Cg)([l.PA], ke));
     },
     2928: (e, t, r) => {
       "use strict";
@@ -12851,12 +12875,24 @@ var CLSTAMP = "10063405";
     },
     7600: (e, t, r) => {
       "use strict";
-      r.d(t, { tH: () => o });
+      r.d(t, { cb: () => o, tH: () => c });
       var n = r(1635),
         i = r(6540),
         a = r(6090),
         s = r(3236);
-      class o extends i.Component {
+      const o =
+        ((l = (e) => {
+          throw new Error(e.errorStr);
+        }),
+        function (e) {
+          return i.createElement(
+            c,
+            null,
+            i.createElement(l, Object.assign({}, e)),
+          );
+        });
+      var l;
+      class c extends i.Component {
         constructor(e) {
           super(e), (this.state = {}), (this.state.lastErrorKey = e.errorKey);
         }
@@ -12864,7 +12900,7 @@ var CLSTAMP = "10063405";
           this.sm_ErrorReportingStore = e;
         }
         componentDidCatch(e, t) {
-          const r = o.sm_ErrorReportingStore;
+          const r = c.sm_ErrorReportingStore;
           r
             ? r
                 .ReportError(e, {
@@ -12893,19 +12929,19 @@ var CLSTAMP = "10063405";
               ? "function" == typeof t
                 ? t(n.error)
                 : t
-              : o.sm_ErrorReportingStore &&
-                  o.sm_ErrorReportingStore.reporting_enabled
-                ? i.createElement(u, {
+              : c.sm_ErrorReportingStore &&
+                  c.sm_ErrorReportingStore.reporting_enabled
+                ? i.createElement(p, {
                     error: n,
                     identifierHash: a,
-                    store: o.sm_ErrorReportingStore,
+                    store: c.sm_ErrorReportingStore,
                     onRefresh: this.Reset,
                   })
-                : i.createElement(c, { error: n, onDismiss: this.Reset })
+                : i.createElement(d, { error: n, onDismiss: this.Reset })
             : e || null;
         }
       }
-      function l(e) {
+      function u(e) {
         const { enabled: t } = e,
           [r, n] = i.useState(t),
           [a, s] = i.useState(5);
@@ -12940,7 +12976,7 @@ var CLSTAMP = "10063405";
                   i.Fragment,
                   null,
                   i.createElement(
-                    m,
+                    g,
                     null,
                     "Reloading UI in ",
                     a,
@@ -12960,7 +12996,7 @@ var CLSTAMP = "10063405";
               : i.createElement(
                   i.Fragment,
                   null,
-                  i.createElement(m, null, "Auto-reload canceled."),
+                  i.createElement(g, null, "Auto-reload canceled."),
                   "   ",
                   i.createElement(
                     "span",
@@ -12975,16 +13011,16 @@ var CLSTAMP = "10063405";
             : null
         );
       }
-      (0, n.Cg)([s.o], o.prototype, "Reset", null);
-      const c = ({ error: e, onDismiss: t }) => {
+      (0, n.Cg)([s.o], c.prototype, "Reset", null);
+      const d = ({ error: e, onDismiss: t }) => {
           let r = e.error ? e.error.stack : "Stack missing",
             n = e.info ? e.info.componentStack : "",
             s = (e.error && e.error.message) || "unknown error";
           const o = i.useContext(a.GM);
           return i.createElement(
-            d,
+            m,
             null,
-            i.createElement(m, null, 'Error: "', s, '"'),
+            i.createElement(g, null, 'Error: "', s, '"'),
             "   ",
             i.createElement(
               "span",
@@ -12995,21 +13031,21 @@ var CLSTAMP = "10063405";
               "(x) Dismiss",
             ),
             i.createElement("br", null),
-            i.createElement(l, { enabled: null == o }),
-            i.createElement(h, null, r),
-            i.createElement(h, null, "The error occurred while rendering:", n),
+            i.createElement(u, { enabled: null == o }),
+            i.createElement(v, null, r),
+            i.createElement(v, null, "The error occurred while rendering:", n),
           );
         },
-        u = (e) => {
+        p = (e) => {
           const { error: t, onRefresh: r, identifierHash: n, store: s } = e,
             o = (t.error && t.error.message) || "unknown error",
-            c = `${s.product}_${s.version}_${n}`,
-            u = i.useContext(a.GM);
+            l = `${s.product}_${s.version}_${n}`,
+            c = i.useContext(a.GM);
           return i.createElement(
-            d,
+            m,
             null,
             i.createElement(
-              m,
+              g,
               null,
               "Something went wrong while displaying this content. ",
               i.createElement(
@@ -13021,14 +13057,14 @@ var CLSTAMP = "10063405";
                 "Refresh",
               ),
             ),
-            i.createElement(l, { enabled: null == u }),
-            i.createElement(h, null, "Error Reference: ", c),
-            i.createElement(h, null, o),
+            i.createElement(u, { enabled: null == c }),
+            i.createElement(v, null, "Error Reference: ", l),
+            i.createElement(v, null, o),
           );
         };
-      function d(e) {
-        return i.useContext(a.GM)
-          ? i.createElement(p, Object.assign({}, e))
+      function m(e) {
+        return i.useContext(a.GM) || (0, a.R$)() != a.OH.Overlay
+          ? i.createElement(h, Object.assign({}, e))
           : i.createElement(
               a.dL,
               {
@@ -13044,11 +13080,11 @@ var CLSTAMP = "10063405";
                   origin: { x: -0.5, y: -1 },
                   interactive: !0,
                 },
-                i.createElement(p, Object.assign({}, e)),
+                i.createElement(h, Object.assign({}, e)),
               ),
             );
       }
-      const p = ({ children: e }) =>
+      const h = ({ children: e }) =>
           i.createElement(
             "div",
             {
@@ -13064,7 +13100,7 @@ var CLSTAMP = "10063405";
             },
             e,
           ),
-        m = ({ children: e }) =>
+        g = ({ children: e }) =>
           i.createElement(
             "h1",
             {
@@ -13077,7 +13113,7 @@ var CLSTAMP = "10063405";
             },
             e,
           ),
-        h = ({ children: e }) =>
+        v = ({ children: e }) =>
           i.createElement(
             "pre",
             { style: { marginTop: "15px", opacity: 0.7, userSelect: "auto" } },
@@ -17510,7 +17546,7 @@ var CLSTAMP = "10063405";
               ? void 0
               : e.call(VRHTML),
           ),
-            t.set_webpack_build_timestamp(1757640733),
+            t.set_webpack_build_timestamp(1758046478),
             (0, h.Z)(t);
         }
         LoadSessionDevData() {
@@ -20568,7 +20604,18 @@ var CLSTAMP = "10063405";
           null === (t = q.Q.GetOverlayInfo(e)) || void 0 === t
             ? void 0
             : t.sHandle;
-        return r ? VRHTML.VROverlay.GetVisibleTimeInSeconds(r) : 0;
+        try {
+          return r ? VRHTML.VROverlay.GetVisibleTimeInSeconds(r) : 0;
+        } catch (t) {
+          return (
+            console.warn(
+              "Invalid overlayHandle returned from GetOverlayInfo",
+              e,
+              r,
+            ),
+            0
+          );
+        }
       }
       function Ie(e, t, r) {
         var n;
@@ -21254,7 +21301,9 @@ var CLSTAMP = "10063405";
         initializeOverlayState(e) {
           b.HR.GetAppInfo(e).then((t) => {
             var r, n, i, a, l, c;
-            const u =
+            let u;
+            try {
+              u =
                 null === (n = (r = VRHTML.VROverlay).GetOverlayName) ||
                 void 0 === n
                   ? void 0
@@ -21264,10 +21313,12 @@ var CLSTAMP = "10063405";
                         void 0 === a
                         ? void 0
                         : a.call(i, e),
-                    ),
-              d =
-                e.startsWith("valve.steam.desktopgame.") &&
-                u.toLowerCase().startsWith("steam");
+                    );
+            } catch (e) {}
+            const d =
+              e &&
+              e.startsWith("valve.steam.desktopgame.") &&
+              u.toLowerCase().startsWith("steam");
             let m = 1;
             if (e.startsWith("system.desktop.")) {
               let t = "/settings/dashboard/desktopScale" + e.split(".")[2];

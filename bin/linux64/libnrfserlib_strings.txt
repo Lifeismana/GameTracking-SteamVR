@@ -2746,7 +2746,6 @@ guard variable for std::time_get<char, std::istreambuf_iterator<char, std::char_
 guard variable for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>>::id
 guard variable for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char>>>::id
 guard variable for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>>::id
-h(wUp
 half
 hidden alias for 
 http://
@@ -2828,6 +2827,7 @@ iostream
 iostream error
 isalpha
 isxdigit
+j6'wU
 java Class for 
 java resource 
 keylength >= 2^30

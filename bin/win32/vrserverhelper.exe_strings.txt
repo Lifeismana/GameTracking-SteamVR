@@ -78,6 +78,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
 L09n
+LIk|
 LeaveCriticalSection
 LocalFree
 MSVCP140.dll

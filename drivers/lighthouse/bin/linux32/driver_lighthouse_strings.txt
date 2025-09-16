@@ -2764,7 +2764,6 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:32:10
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -2820,6 +2819,7 @@ $3br
 17CFirmwareManifest
 17CImuTrackerThread
 17CLinuxVideoStream
+18:14:37
 18CPropertyContainer
 18IUsbDeviceCallback
 19CWirelessDecoderWv2
@@ -7956,7 +7956,7 @@ SelectVideoConfig: driver_lighthouse.forceSoloEdid=true\n
 Selected existing universe %llu (%08X is %s)\n
 Self queried namespace: %u\n
 Sent message id %u, received %u (%s). Rejecting response.\n
-Sep 12 2025
+Sep 16 2025
 September
 ServiceDescriptorProto
 ServiceOptions

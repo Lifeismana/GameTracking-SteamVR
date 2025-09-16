@@ -450,18 +450,17 @@
 /u%d-Shm_%x
 0123456789
 0123456789ABCDEF
-01:32:16
 11CVkTimeline
 12CNonCopyable
 15CVkResourceBase
 15CVkResourcePoolI16CVkCommandBufferE
 16CVkCommandBuffer
+18:14:41
 18CPrismDisplay_Null
 18IPrismPoseProvider
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
-2$hF[
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
@@ -2330,7 +2329,7 @@ Saturday
 SecondsToSystemTicks(double)
 See 
 Self queried namespace: %u\n
-Sep 12 2025
+Sep 16 2025
 September
 Set thread %p priority to: %d\n
 SetCurrentProcessExplicitAppUserModelID()
