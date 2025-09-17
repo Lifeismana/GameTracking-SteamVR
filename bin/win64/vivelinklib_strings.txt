@@ -449,7 +449,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDSZ
+RSDSZ-{
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -639,7 +639,6 @@ Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
 Zjz\v
-Zvr\
 [DFU]
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus

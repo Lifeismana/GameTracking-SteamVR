@@ -1,4 +1,4 @@
-var CLSTAMP = "10072902";
+var CLSTAMP = "10075201";
 (() => {
   var e,
     t = {
@@ -4578,7 +4578,10 @@ var CLSTAMP = "10072902";
               this.setState({ alreadyHidDashboard: !0 }));
           }
           updateTransitionState() {
-            if (!a.Ay) return;
+            if (
+              !(null === a.Ay || void 0 === a.Ay ? void 0 : a.Ay.VRApplications)
+            )
+              return;
             let e = a.Ay.VRApplications.GetSceneApplicationState();
             e == a.HW.Starting
               ? (this.state.latchedSceneApplicationState == a.HW.Quitting &&
@@ -4627,7 +4630,7 @@ var CLSTAMP = "10072902";
               this.updateLatchedValues();
           }
           updateLatchedValues() {
-            if (a.Ay)
+            if (null === a.Ay || void 0 === a.Ay ? void 0 : a.Ay.VRApplications)
               if (
                 a.Ay.VRApplications.GetSceneApplicationState() == a.HW.Starting
               ) {

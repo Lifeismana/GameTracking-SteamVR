@@ -1746,7 +1746,7 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS
+RSDSp
 RX Fail:%d
 R\vp\ff
 RaiseException

@@ -504,6 +504,7 @@ $3br
 0-pixel image
 0.0.0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:56:50
 0123456789
 0123456789ABCDEF
 1 Sec
@@ -536,7 +537,6 @@ $3br
 16SVLAudioPipewire
 17CBoneMaskResource
 17CSharedImageLinux
-18:14:41
 18CSharedBufferLinux
 18IUsbDeviceCallback
 18SVLFECRAID6RXFrame
@@ -4303,7 +4303,7 @@ SendUpdatedFramerateRequest: Preferred refresh rate was available. Using %.2f
 SendUpdatedFramerateRequest: Requesting client use %.2f Hz
 Sending quit event because SteamVR launched for streaming and client has quit.
 Sent message id %u, received %u (%s). Rejecting response.\n
-Sep 16 2025
+Sep 17 2025
 September
 SerialNumber %s\n
 SessionID
@@ -5463,7 +5463,6 @@ VerifyTidIntegrity()
 Version
 VersionIsLess(std::string const&, std::string const&)
 VersionIsLess(std::string const&, std::string const&) (.cold)
-Vhqf
 VideoDataTXBuffer
 Vive Focus 3 (Left Controller)
 Vive Focus 3 (Right Controller)
@@ -12339,6 +12338,7 @@ typeinfo name for vr::IVRSharedImage
 typeinfo name for vr::IVRSharedResource
 typeinfo name for vr::IVRSharedSemaphore
 uArraySize == 1u
+ui@GX
 uk_ua
 ukrainian
 umask

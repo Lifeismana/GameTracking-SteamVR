@@ -1,4 +1,4 @@
-var CLSTAMP = "10072902";
+var CLSTAMP = "10075201";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -4341,7 +4341,7 @@ var CLSTAMP = "10072902";
           }),
           c.createElement(_.WZ, {
             label: (0, h.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1758046478e3).toLocaleString(),
+            value: new Date(1758070587e3).toLocaleString(),
           }),
         );
       });
@@ -12478,6 +12478,11 @@ var CLSTAMP = "10072902";
         }
       }
     },
+    1286: (e, t, r) => {
+      "use strict";
+      r.d(t, { b: () => n });
+      const n = 6;
+    },
     6138: (e, t, r) => {
       "use strict";
       r.d(t, { $: () => u, W: () => d });
@@ -12875,24 +12880,25 @@ var CLSTAMP = "10072902";
     },
     7600: (e, t, r) => {
       "use strict";
-      r.d(t, { cb: () => o, tH: () => c });
+      r.d(t, { cb: () => l, tH: () => u });
       var n = r(1635),
         i = r(6540),
         a = r(6090),
-        s = r(3236);
-      const o =
-        ((l = (e) => {
+        s = r(1286),
+        o = r(3236);
+      const l =
+        ((c = (e) => {
           throw new Error(e.errorStr);
         }),
         function (e) {
           return i.createElement(
-            c,
+            u,
             null,
-            i.createElement(l, Object.assign({}, e)),
+            i.createElement(c, Object.assign({}, e)),
           );
         });
-      var l;
-      class c extends i.Component {
+      var c;
+      class u extends i.Component {
         constructor(e) {
           super(e), (this.state = {}), (this.state.lastErrorKey = e.errorKey);
         }
@@ -12900,7 +12906,7 @@ var CLSTAMP = "10072902";
           this.sm_ErrorReportingStore = e;
         }
         componentDidCatch(e, t) {
-          const r = c.sm_ErrorReportingStore;
+          const r = u.sm_ErrorReportingStore;
           r
             ? r
                 .ReportError(e, {
@@ -12929,27 +12935,27 @@ var CLSTAMP = "10072902";
               ? "function" == typeof t
                 ? t(n.error)
                 : t
-              : c.sm_ErrorReportingStore &&
-                  c.sm_ErrorReportingStore.reporting_enabled
-                ? i.createElement(p, {
+              : u.sm_ErrorReportingStore &&
+                  u.sm_ErrorReportingStore.reporting_enabled
+                ? i.createElement(m, {
                     error: n,
                     identifierHash: a,
-                    store: c.sm_ErrorReportingStore,
+                    store: u.sm_ErrorReportingStore,
                     onRefresh: this.Reset,
                   })
-                : i.createElement(d, { error: n, onDismiss: this.Reset })
+                : i.createElement(p, { error: n, onDismiss: this.Reset })
             : e || null;
         }
       }
-      function u(e) {
+      function d(e) {
         const { enabled: t } = e,
           [r, n] = i.useState(t),
-          [a, s] = i.useState(5);
+          [a, o] = i.useState(s.b);
         i.useEffect(() => {
           const e = setTimeout(() => {
             r &&
               (a > 1
-                ? s(a - 1)
+                ? o(a - 1)
                 : (console.warn(
                     "Auto-reloading due to triggered ErrorBoundary...",
                   ),
@@ -12957,26 +12963,26 @@ var CLSTAMP = "10072902";
           }, 1e3);
           return () => clearTimeout(e);
         }, [r, a]);
-        const o = i.useCallback(() => {
+        const l = i.useCallback(() => {
           console.log("Auto-reload canceled."), n(!1);
         }, []);
         return (
           i.useEffect(() => {
             const e = () => {
-              o();
+              l();
             };
             return (
               document.addEventListener("click", e),
               () => document.removeEventListener("click", e)
             );
-          }, [o]),
+          }, [l]),
           t
             ? r
               ? i.createElement(
                   i.Fragment,
                   null,
                   i.createElement(
-                    g,
+                    v,
                     null,
                     "Reloading UI in ",
                     a,
@@ -12987,7 +12993,7 @@ var CLSTAMP = "10072902";
                     "span",
                     {
                       style: { textDecoration: "underline", cursor: "pointer" },
-                      onClick: o,
+                      onClick: l,
                     },
                     "Cancel",
                   ),
@@ -12996,7 +13002,7 @@ var CLSTAMP = "10072902";
               : i.createElement(
                   i.Fragment,
                   null,
-                  i.createElement(g, null, "Auto-reload canceled."),
+                  i.createElement(v, null, "Auto-reload canceled."),
                   "   ",
                   i.createElement(
                     "span",
@@ -13011,16 +13017,16 @@ var CLSTAMP = "10072902";
             : null
         );
       }
-      (0, n.Cg)([s.o], c.prototype, "Reset", null);
-      const d = ({ error: e, onDismiss: t }) => {
+      (0, n.Cg)([o.o], u.prototype, "Reset", null);
+      const p = ({ error: e, onDismiss: t }) => {
           let r = e.error ? e.error.stack : "Stack missing",
             n = e.info ? e.info.componentStack : "",
             s = (e.error && e.error.message) || "unknown error";
           const o = i.useContext(a.GM);
           return i.createElement(
-            m,
+            h,
             null,
-            i.createElement(g, null, 'Error: "', s, '"'),
+            i.createElement(v, null, 'Error: "', s, '"'),
             "   ",
             i.createElement(
               "span",
@@ -13031,21 +13037,21 @@ var CLSTAMP = "10072902";
               "(x) Dismiss",
             ),
             i.createElement("br", null),
-            i.createElement(u, { enabled: null == o }),
-            i.createElement(v, null, r),
-            i.createElement(v, null, "The error occurred while rendering:", n),
+            i.createElement(d, { enabled: null == o }),
+            i.createElement(_, null, r),
+            i.createElement(_, null, "The error occurred while rendering:", n),
           );
         },
-        p = (e) => {
+        m = (e) => {
           const { error: t, onRefresh: r, identifierHash: n, store: s } = e,
             o = (t.error && t.error.message) || "unknown error",
             l = `${s.product}_${s.version}_${n}`,
             c = i.useContext(a.GM);
           return i.createElement(
-            m,
+            h,
             null,
             i.createElement(
-              g,
+              v,
               null,
               "Something went wrong while displaying this content. ",
               i.createElement(
@@ -13057,14 +13063,14 @@ var CLSTAMP = "10072902";
                 "Refresh",
               ),
             ),
-            i.createElement(u, { enabled: null == c }),
-            i.createElement(v, null, "Error Reference: ", l),
-            i.createElement(v, null, o),
+            i.createElement(d, { enabled: null == c }),
+            i.createElement(_, null, "Error Reference: ", l),
+            i.createElement(_, null, o),
           );
         };
-      function m(e) {
+      function h(e) {
         return i.useContext(a.GM) || (0, a.R$)() != a.OH.Overlay
-          ? i.createElement(h, Object.assign({}, e))
+          ? i.createElement(g, Object.assign({}, e))
           : i.createElement(
               a.dL,
               {
@@ -13080,11 +13086,11 @@ var CLSTAMP = "10072902";
                   origin: { x: -0.5, y: -1 },
                   interactive: !0,
                 },
-                i.createElement(h, Object.assign({}, e)),
+                i.createElement(g, Object.assign({}, e)),
               ),
             );
       }
-      const h = ({ children: e }) =>
+      const g = ({ children: e }) =>
           i.createElement(
             "div",
             {
@@ -13100,7 +13106,7 @@ var CLSTAMP = "10072902";
             },
             e,
           ),
-        g = ({ children: e }) =>
+        v = ({ children: e }) =>
           i.createElement(
             "h1",
             {
@@ -13113,7 +13119,7 @@ var CLSTAMP = "10072902";
             },
             e,
           ),
-        v = ({ children: e }) =>
+        _ = ({ children: e }) =>
           i.createElement(
             "pre",
             { style: { marginTop: "15px", opacity: 0.7, userSelect: "auto" } },
@@ -14871,7 +14877,8 @@ var CLSTAMP = "10072902";
         }
         OnControllerTypeChanged(e) {
           this.UpdateControllerTypes(e.controller_types),
-            (this.m_InputState.controller_types = e.controller_types),
+            this.m_InputState &&
+              (this.m_InputState.controller_types = e.controller_types),
             this.m_bUpdateInputStateOnControllerTypChange &&
               this.GetInputState();
         }
@@ -15551,36 +15558,45 @@ var CLSTAMP = "10072902";
             (0, a.makeObservable)(this);
         }
         updateTransitionState() {
-          if (!VRHTML) return;
-          let e = VRHTML.VRApplications.GetSceneApplicationState();
-          e == i.HW.Starting
+          var e;
+          if (
+            !(null === VRHTML || void 0 === VRHTML
+              ? void 0
+              : VRHTML.VRApplications)
+          )
+            return;
+          let t =
+            null === (e = VRHTML.VRApplications) || void 0 === e
+              ? void 0
+              : e.GetSceneApplicationState();
+          t == i.HW.Starting
             ? (this.m_sceneApplicationState == i.HW.Quitting &&
                 this.resetLatchedValued(),
-              (this.m_sceneApplicationState = e),
+              (this.m_sceneApplicationState = t),
               this.updateLatchedValues(),
               this.cancelUnresponsiveTimeout(),
               this.cancelNoAppTimeout())
-            : e == i.HW.Quitting
+            : t == i.HW.Quitting
               ? (this.m_sceneApplicationState == i.HW.Starting &&
                   this.resetLatchedValued(),
-                (this.m_sceneApplicationState = e),
+                (this.m_sceneApplicationState = t),
                 this.updateLatchedValues(),
                 this.cancelUnresponsiveTimeout(),
                 this.cancelNoAppTimeout())
-              : e == i.HW.Running
-                ? ((this.m_sceneApplicationState = e),
+              : t == i.HW.Running
+                ? ((this.m_sceneApplicationState = t),
                   this.cancelUnresponsiveTimeout(),
                   this.cancelNoAppTimeout(),
                   this.updateLatchedValues())
-                : e == i.HW.None
+                : t == i.HW.None
                   ? (this.cancelUnresponsiveTimeout(),
                     this.m_sceneApplicationState != i.HW.None &&
                       this.startNoAppTimer())
-                  : e == i.HW.Waiting &&
+                  : t == i.HW.Waiting &&
                     (this.m_sceneApplicationState != i.HW.Waiting &&
                       this.startUnresponsiveTimer(),
                     this.cancelNoAppTimeout()),
-            this.log("updateTransitionState: " + i.HW[e]),
+            this.log("updateTransitionState: " + i.HW[t]),
             this.log("this.m_sceneAppKey: " + this.m_sceneAppKey),
             this.log("this.m_sceneAppName: " + this.m_sceneAppName),
             this.log(
@@ -15596,11 +15612,18 @@ var CLSTAMP = "10072902";
         onNoAppTimeout() {
           window.clearTimeout(this.m_noAppTimeout),
             (this.m_noAppTimeout = void 0),
-            VRHTML.VRApplications.GetSceneApplicationState() == i.HW.None &&
+            ((null === VRHTML || void 0 === VRHTML
+              ? void 0
+              : VRHTML.VRApplications) &&
+              VRHTML.VRApplications.GetSceneApplicationState() != i.HW.None) ||
               this.resetLatchedValued();
         }
         updateLatchedValues() {
-          if (VRHTML)
+          if (
+            null === VRHTML || void 0 === VRHTML
+              ? void 0
+              : VRHTML.VRApplications
+          )
             if (
               VRHTML.VRApplications.GetSceneApplicationState() == i.HW.Starting
             ) {
@@ -16132,7 +16155,7 @@ var CLSTAMP = "10072902";
             (this.settings = o.observable.map()),
             (this.systemInfo = void 0),
             (this.audioDevices = void 0),
-            (this.apps = void 0),
+            (this.apps = []),
             (this.probablyOwnedAppkeys = new Set()),
             (this.showInternalSettings = !1),
             (this.workshopStateChangedCanary = 1),
@@ -17546,7 +17569,7 @@ var CLSTAMP = "10072902";
               ? void 0
               : e.call(VRHTML),
           ),
-            t.set_webpack_build_timestamp(1758046478),
+            t.set_webpack_build_timestamp(1758070587),
             (0, h.Z)(t);
         }
         LoadSessionDevData() {
@@ -21318,6 +21341,7 @@ var CLSTAMP = "10072902";
             const d =
               e &&
               e.startsWith("valve.steam.desktopgame.") &&
+              u &&
               u.toLowerCase().startsWith("steam");
             let m = 1;
             if (e.startsWith("system.desktop.")) {

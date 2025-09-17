@@ -78,7 +78,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
 L09n
-LIk|
 LeaveCriticalSection
 LocalFree
 MSVCP140.dll
@@ -86,7 +85,7 @@ OLEAUT32.dll
 PathCchAppend
 PathRemoveFileSpecW
 QueryPerformanceCounter
-RSDS
+RSDS$
 ResetEvent
 SHLWAPI.dll
 SetEvent

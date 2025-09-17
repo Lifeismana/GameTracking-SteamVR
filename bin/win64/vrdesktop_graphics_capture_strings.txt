@@ -422,7 +422,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSQ
+RSDSqlQ
 R\npd
 RaiseException
 Recreate CaptureFramePool
@@ -674,6 +674,7 @@ nb_no
 nl_nl
 norwegian
 null
+o0TC
 ole32.dll
 openvr_api.dll
 overlay_key

@@ -3961,7 +3961,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDSp
+RSDS
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n

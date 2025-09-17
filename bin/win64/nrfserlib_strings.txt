@@ -1055,7 +1055,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSG
+RSDSGez
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n

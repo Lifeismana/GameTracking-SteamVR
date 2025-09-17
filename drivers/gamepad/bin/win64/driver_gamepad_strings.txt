@@ -136,7 +136,7 @@ MSVCP140.dll
 MainThrd
 Out of thread local storage!\n
 QueryPerformanceCounter
-RSDS2
+RSDSKg
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -219,6 +219,7 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
+f80(
 free
 malloc
 map/set<T> too long

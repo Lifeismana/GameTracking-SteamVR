@@ -131,7 +131,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-11:13:43
+17:55:31
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -387,7 +387,7 @@ OutputDebugStringA
 Platform handles tutorial / initial home app launch %s. Starting Event Polling...
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSQ\v
+RSDS
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey
