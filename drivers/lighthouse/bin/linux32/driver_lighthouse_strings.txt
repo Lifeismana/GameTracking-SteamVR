@@ -2761,7 +2761,6 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00:56:30
 0123456789
 0123456789ABCDEF
 0123456789abcdef
@@ -2822,6 +2821,7 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
+19:17:11
 19CWirelessDecoderWv2
 1e+9999
 2#.google.protobuf.FieldOptions.CType:
@@ -6229,7 +6229,7 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIOBuffer_002
-IVRIPCResourceManagerClient_002
+IVRIPCResourceManagerClient_003
 IVRInputInternal_002
 IVRInput_010
 IVRMCStore_001
@@ -7381,6 +7381,7 @@ OPAQUE
 OTGT timed out\n
 O\tu~w
 Object
+Oct  7 2025
 October
 Old Normal: %f %f %f \n
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -7956,7 +7957,6 @@ SelectVideoConfig: driver_lighthouse.forceSoloEdid=true\n
 Selected existing universe %llu (%08X is %s)\n
 Self queried namespace: %u\n
 Sent message id %u, received %u (%s). Rejecting response.\n
-Sep 17 2025
 September
 ServiceDescriptorProto
 ServiceOptions
@@ -22600,6 +22600,8 @@ vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda4'()::operator()
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda5'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda6'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda7'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda8'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda9'()::operator()() const::encrypted
 vortex::ComputePoseDifference(math::PoseT<float> const&, math::PoseT<float> const&, float*, float*)
 vortex::CreateDisambiguator(vortex::Disambiguator_t, vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)
 vortex::CreateDisambiguator_Framer(vortex::ILighthouseSource::Options_s const&, vortex::lighthouse::ESensorType)

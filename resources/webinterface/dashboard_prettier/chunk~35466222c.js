@@ -1,22 +1,24 @@
-var CLSTAMP = "10075201";
+var CLSTAMP = "10128440";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [537],
   {
     2824: (e, t, s) => {
       s.d(t, {
-        I0: () => a,
-        _n: () => h,
+        I0: () => l,
+        _n: () => c,
         mX: () => r,
         pg: () => i,
-        sk: () => l,
+        sk: () => h,
+        sn: () => a,
       });
       var n = s(1635),
         o = s(3236);
       const i = "vrcompositor_systemlayer",
         r = "input_server",
-        a = "binding_callouts/main",
-        l = "driver_hmd";
-      class h {
+        a = "desktop_store",
+        l = "binding_callouts/main",
+        h = "driver_hmd";
+      class c {
         constructor() {
           (this.m_wsWebSocketToServer = void 0),
             (this.m_oHandlers = {}),
@@ -56,7 +58,7 @@ var CLSTAMP = "10075201";
         Init(e, t) {
           return (0, n.sH)(this, void 0, void 0, function* () {
             return (
-              (this.m_sMailboxName = h.EnsureUniqueName(e)),
+              (this.m_sMailboxName = c.EnsureUniqueName(e)),
               (this.m_sWebSecret = t),
               (this.connected = !1),
               this.OpenWebSocketToHost()
@@ -161,12 +163,12 @@ var CLSTAMP = "10075201";
           (s.message_id = e.message_id), this.SendMessage(e.returnAddress, s);
         }
       }
-      (h.s_nNextMailboxNumber = 1),
-        (0, n.Cg)([o.o], h.prototype, "OpenWebSocketToHost", null),
-        (0, n.Cg)([o.o], h.prototype, "OnWebSocketOpen", null),
-        (0, n.Cg)([o.o], h.prototype, "OnWebSocketClose", null),
-        (0, n.Cg)([o.o], h.prototype, "WebSocketSend", null),
-        (0, n.Cg)([o.o], h.prototype, "OnWebSocketMessage", null);
+      (c.s_nNextMailboxNumber = 1),
+        (0, n.Cg)([o.o], c.prototype, "OpenWebSocketToHost", null),
+        (0, n.Cg)([o.o], c.prototype, "OnWebSocketOpen", null),
+        (0, n.Cg)([o.o], c.prototype, "OnWebSocketClose", null),
+        (0, n.Cg)([o.o], c.prototype, "WebSocketSend", null),
+        (0, n.Cg)([o.o], c.prototype, "OnWebSocketMessage", null);
     },
     3714: (e, t, s) => {
       s.d(t, { A0: () => i, uV: () => l, we: () => r });
@@ -330,4 +332,4 @@ var CLSTAMP = "10075201";
       window.LocalizationManager = a;
     },
   },
-]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~35466222c.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~35466222c.js.map

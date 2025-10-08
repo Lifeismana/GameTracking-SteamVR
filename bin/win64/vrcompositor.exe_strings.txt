@@ -23,6 +23,7 @@
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !1AQaq
 !AxU
+!pDepth || pDepth->createInfo.nSampleCount == m_pBackbufferDepthStencil->createInfo.nSampleCount
 !params.m_vecSortedOverlays.empty()
 !params.m_videoCaptureQuads.empty()
 " because it is missing required fields: 
@@ -125,6 +126,7 @@ $4DTdt
 -IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 -L.png
 -Layer.png
+-Mips
 -R.png
 -crash
 -debug
@@ -270,6 +272,7 @@ $4DTdt
 .?AV<lambda_97e897445855b5c257ab424cdd8c8578>@@
 .?AV<lambda_a39f2cc505b7b9cc297f215ca1aa9b4b>@@
 .?AV<lambda_a4a964ec4ce785b696b1db23877b2efa>@@
+.?AV<lambda_aaaca516f2f91fc8de09669bb2e69866>@@
 .?AV<lambda_b2db90e26f16d2df5d837253529ec0cb>@@
 .?AV<lambda_b6a49a309ad208974985388b8cfa7310>@@
 .?AV<lambda_b999e20ffa6154705556996545c644f8>@@
@@ -293,6 +296,7 @@ $4DTdt
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
 .?AV?$_Func_base@X$$V@std@@
+.?AV?$_Func_base@XAEBUPendingOverlayLoad_t@vr@@@std@@
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
 .?AV?$_Func_base@XPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -330,6 +334,7 @@ $4DTdt
 .?AV?$_Func_impl_no_alloc@V<lambda_97e897445855b5c257ab424cdd8c8578>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a39f2cc505b7b9cc297f215ca1aa9b4b>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a4a964ec4ce785b696b1db23877b2efa>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_aaaca516f2f91fc8de09669bb2e69866>@@XAEBUPendingOverlayLoad_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b2db90e26f16d2df5d837253529ec0cb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b6a49a309ad208974985388b8cfa7310>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b999e20ffa6154705556996545c644f8>@@XAEBVValue@Json@@@std@@
@@ -422,6 +427,7 @@ $4DTdt
 .?AVCPlayspaceDots@sg@@
 .?AVCPlayspaceDrawInteraction@sg@@
 .?AVCPlayspaceFloorAdjustInteractionState@CSceneGraphRenderer@@
+.?AVCPlayspaceFloorDetectionGeo@sg@@
 .?AVCPlayspaceFloorHeightAdjust@sg@@
 .?AVCPlayspaceOutline@sg@@
 .?AVCPresentThread@LiquidVR@@
@@ -849,6 +855,7 @@ $4DTdt
 /audiosource/
 /audiosource/count
 /channel
+/chaperone/bounds_hash
 /chaperone/collision_radius
 /chaperone/is_default_perimeter
 /chaperone/perimeter
@@ -863,6 +870,7 @@ $4DTdt
 /chaperone/tracking_anchored
 /client_streaming_mode_on_demand
 /client_will_handle_dashboard_state
+/dashboard/visible
 /dashboard_head_pose_from_standing
 /delivery_rate
 /elapsed_time
@@ -924,7 +932,7 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
-17:55:31
+12:17:30
 1A26b
 1e+9999
 1wsHp
@@ -947,7 +955,6 @@ $4DTdt
 =333>333?
 ================================================================================================\n
 ====> Detected GPU deadlock.. breaking cycle: %llu\n
-?/dashboard/visible
 ?/device_was_drawn
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -1438,6 +1445,8 @@ Clearing disable all reprojection (pid=%d)\n
 Clearing forced always-on reprojection (pid=%d)\n
 Clearing forced interleaved reprojection off (pid=%d)\n
 Clearing forced interleaved reprojection on (pid=%d)\n
+Clearing present fence (pid=%d)\n
+Clearing splash overlay (received scenegraph update)
 Client
 Client (%s) app container state: %d
 CloseHandle
@@ -1519,6 +1528,7 @@ CreateThread
 CreateThread for playback failed: last error is %u\n
 CreateWellKnownSid
 CreateWindowExW
+Created splash overlay
 Created static resources for tracked camera complete
 Creating camera roomview. Using %d quads...\n
 Creating camera roomview...\n
@@ -1737,6 +1747,8 @@ Failed to create camera decode sampler state!\n
 Failed to create clamp to border sampler state!\n
 Failed to create compute hmd pose constant buffer!\n
 Failed to create constant buffer (geom)!\n
+Failed to create cursor overlay
+Failed to create cursor overlay, no loadOverlayFcn provided
 Failed to create default blend state!\n
 Failed to create depth stencil state (compositor)!\n
 Failed to create depth stencil state no depth test (compositor)!\n
@@ -1923,6 +1935,7 @@ Failed to send dashboard tutorial response (%d)\n
 Failed to set display mode for NvAPI display in direct mode.\n
 Failed to set process priority!\n
 Failed to set thread %p priority: invalid priority %d\n
+Failed to setup cursor overlay
 Failed to setup splash overlay
 Failed to show window\n
 Failed to signal gpu fence %llu!\n
@@ -2374,6 +2387,7 @@ MeasureGpuMegaPixelsPerSecond(%d): Returning %d MP/sec. Total CPU time %.2f seco
 MeasureGpuMegaPixelsPerSecond(): Error! Initialize() failed! Skipping GPU measurement.\n
 MessageBoxA
 Minidump comment truncated
+Mip downsample
 Mirror Window
 MirrorOverlayTexture
 Mirroring from %s to %ls\n
@@ -2462,6 +2476,7 @@ NvOpticalFlow Quality: %d\n
 NvOptimusEnablement
 O*9y]
 OZw3(?
+Oct  7 2025
 On laptop, HMD detected over USB, but Monitor not found (213)
 OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
 OnDeviceAdded: device = %s\n
@@ -2748,7 +2763,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDS1(~
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -2860,9 +2875,7 @@ Seated
 See 
 Selected: width=%d height=%d refresh=%d/%d\n
 SendHmdDebugRequest resp: %s\n
-Sep 16 2025
 Server
-Set local video recording to: %s\n
 Set thread %p priority to: %d\n
 SetCursor
 SetEnvironmentVariableA
@@ -2884,7 +2897,6 @@ SetUnhandledExceptionFilter
 SetWindowPos
 SetWindowTextW
 Setting MSAA: %dx
-Setting MSAA: Off
 Setting debug from command line\n
 Setting keepalive from command line\n
 Setting nodistort from command line\n
@@ -2997,7 +3009,6 @@ TextureGpuMeasurementNormal
 TextureGpuMeasurementResolve
 TextureGpuMeasurementShadow
 TextureGpuMeasurementSpec
-TextureGradient
 TextureHallucinatedFrameColor
 TextureHallucinatedFrameDepth
 TextureLayerColor4xMSAA
@@ -3090,8 +3101,6 @@ Unable to get default from IMMDevice, hr = 0x%08x\n
 Unable to get hmd property container\n
 Unable to get properties interface\n
 Unable to get to IMMDevice %s, hr = 0x%08x\n
-Unable to load %s after allocating memory\n
-Unable to load %s texture\n
 Unable to load avrt.dll\n
 Unable to load bind mfplat.dll and/or avrt.dll\n
 Unable to load compositor plugin for driver %s: %s\n
@@ -3103,7 +3112,6 @@ Unable to open current process for duplicating handles because %s\n
 Unable to open lasermouse mailbox
 Unable to open process id=%d from pipe %s after connecting because %s\n
 Unable to parse 
-Unable to parse %s texture\n
 Unable to parse driver manifest %s\n
 Unable to parse init info. Options will be ignored\n
 Unable to parse presence entry '%s' in %s\n
@@ -3880,7 +3888,11 @@ XR_ENVIRONMENT_DEPTH_NOT_AVAILABLE_META
 XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
 XR_ERROR_ACTIONSET_NOT_ATTACHED
 XR_ERROR_ACTION_TYPE_MISMATCH
+XR_ERROR_ANCHOR_ALREADY_PERSISTED_ANDROID
+XR_ERROR_ANCHOR_ID_NOT_FOUND_ANDROID
+XR_ERROR_ANCHOR_NOT_OWNED_BY_CALLER_ANDROID
 XR_ERROR_ANCHOR_NOT_SUPPORTED_FOR_ENTITY_BD
+XR_ERROR_ANCHOR_NOT_TRACKING_ANDROID
 XR_ERROR_ANDROID_THREAD_SETTINGS_FAILURE_KHR
 XR_ERROR_ANDROID_THREAD_SETTINGS_ID_INVALID_KHR
 XR_ERROR_API_LAYER_NOT_PRESENT
@@ -3934,6 +3946,7 @@ XR_ERROR_MARKER_DETECTOR_PERMISSION_DENIED_ML
 XR_ERROR_MARKER_ID_INVALID_VARJO
 XR_ERROR_MARKER_INVALID_ML
 XR_ERROR_MARKER_NOT_TRACKED_VARJO
+XR_ERROR_MISMATCHING_TRACKABLE_TYPE_ANDROID
 XR_ERROR_NAME_DUPLICATED
 XR_ERROR_NAME_INVALID
 XR_ERROR_NOT_AN_ANCHOR_HTC
@@ -3946,6 +3959,7 @@ XR_ERROR_PATH_FORMAT_INVALID
 XR_ERROR_PATH_INVALID
 XR_ERROR_PATH_UNSUPPORTED
 XR_ERROR_PERMISSION_INSUFFICIENT
+XR_ERROR_PERSISTED_DATA_NOT_READY_ANDROID
 XR_ERROR_PLANE_DETECTION_PERMISSION_DENIED_EXT
 XR_ERROR_POSE_INVALID
 XR_ERROR_REFERENCE_SPACE_UNSUPPORTED
@@ -3975,11 +3989,18 @@ XR_ERROR_SPACE_COMPONENT_NOT_SUPPORTED_FB
 XR_ERROR_SPACE_COMPONENT_STATUS_ALREADY_SET_FB
 XR_ERROR_SPACE_COMPONENT_STATUS_PENDING_FB
 XR_ERROR_SPACE_GROUP_NOT_FOUND_META
+XR_ERROR_SPACE_INSUFFICIENT_RESOURCES_META
+XR_ERROR_SPACE_INSUFFICIENT_VIEW_META
 XR_ERROR_SPACE_LOCALIZATION_FAILED_FB
 XR_ERROR_SPACE_MAPPING_INSUFFICIENT_FB
 XR_ERROR_SPACE_NETWORK_REQUEST_FAILED_FB
 XR_ERROR_SPACE_NETWORK_TIMEOUT_FB
 XR_ERROR_SPACE_NOT_LOCATABLE_EXT
+XR_ERROR_SPACE_PERMISSION_INSUFFICIENT_META
+XR_ERROR_SPACE_RATE_LIMITED_META
+XR_ERROR_SPACE_STORAGE_AT_CAPACITY_META
+XR_ERROR_SPACE_TOO_BRIGHT_META
+XR_ERROR_SPACE_TOO_DARK_META
 XR_ERROR_SPATIAL_ANCHORS_ANCHOR_NOT_FOUND_ML
 XR_ERROR_SPATIAL_ANCHORS_NOT_LOCALIZED_ML
 XR_ERROR_SPATIAL_ANCHORS_OUT_OF_MAP_BOUNDS_ML
@@ -4009,6 +4030,7 @@ XR_ERROR_SYSTEM_INVALID
 XR_ERROR_SYSTEM_NOTIFICATION_INCOMPATIBLE_SKU_ML
 XR_ERROR_SYSTEM_NOTIFICATION_PERMISSION_DENIED_ML
 XR_ERROR_TIME_INVALID
+XR_ERROR_TRACKABLE_TYPE_NOT_SUPPORTED_ANDROID
 XR_ERROR_UNEXPECTED_STATE_PASSTHROUGH_FB
 XR_ERROR_UNKNOWN_PASSTHROUGH_FB
 XR_ERROR_VALIDATION_FAILURE
@@ -4089,6 +4111,7 @@ Zjz\v
 [Compositor] Flush: %s
 [Compositor] Frame used before expected: %d (last=%d)
 [Compositor] GPU work finished
+[Compositor] GroundLoop
 [Compositor] HallucinatedTextureIndex:%d
 [Compositor] Id=%d Finished readyForUse=%d firstUse=%d numPresents=%d totalGpu=%fms
 [Compositor] Inject Clear Query
@@ -4106,6 +4129,7 @@ Zjz\v
 [Compositor] NvAPI::WaitForPresent failed!
 [Compositor] Overlays
 [Compositor] Poses Ready for Client
+[Compositor] PreRender
 [Compositor] Predict++: Predict=%d Throttle=%d
 [Compositor] Predict--: Predict=%d Throttle=%d
 [Compositor] Predicting for client:%fms Next:%fms Predict:%d Throttle:%d
@@ -4127,6 +4151,7 @@ Zjz\v
 [Compositor] TimeSinceLastVSync: %f(%d)
 [Compositor] TotalRenderGpuMs: %f (Last=%f)
 [Compositor] UpdateAudioSourcePaths
+[Compositor] UpdateCollisionBounds
 [Compositor] UpdateReprojectionDepth
 [Compositor] VirtualDisplay AcquireSync - Begin
 [Compositor] VirtualDisplay AcquireSync - End
@@ -4140,6 +4165,7 @@ Zjz\v
 [Compositor] VisitNodes
 [Compositor] Wait For Present
 [Compositor] Wait query
+[Compositor] WallGeo
 [Compositor] Warp: %s
 [Compositor] WinRT::WaitForPresent failed!
 [Compositor] frameTimeout( %d ms )
@@ -4701,7 +4727,6 @@ enableCameraForCollisionBounds
 enableCameraSurfaces
 enableConstructRoomView
 enableDashboard
-enableDriverBoundsImport
 enableHomeApp
 enableIOBuffers
 enableMJPEGMode
@@ -4709,6 +4734,7 @@ enableRawMode
 enableScanoutScaling
 enableSharedResourceJournaling
 enableSimplifiedShaders
+enableSteamInput
 enabled
 end-buffer
 english
@@ -5009,7 +5035,6 @@ mountable_id
 mountedscenegraph
 multiple IHDR
 mura_correction_toggle
-nCursorDepth == 4
 nNumIndices
 nNumVertices
 nV0 != nV1 && nV1 != nV2
@@ -5084,6 +5109,8 @@ overlayFilteringMinCutoff
 overlayMagnetismDeadZone
 overlayMagnetismEnabled
 overlayMagnetismLockDistance
+overlayMipbias
+overlayMips
 overlayRenderQuality_2
 overlay_handle
 overlay_key
@@ -5098,6 +5125,7 @@ pHallucinatedFrameSource
 pIntersectedOverlay != nullptr
 pNext == ( m_buffer.data() + m_buffer.size() )
 pOutPose != nullptr
+pOverlay->pTexture != nullptr
 pOverlayData->eType == VROverlayTransform_Subview
 pOverlayData->pCursorAnchor
 pOverlayData->pCursorInverseTransform
@@ -5108,7 +5136,6 @@ pResolved && pResolved->AsD3D11()->pTexture
 pResources
 pSharedState != nullptr
 pSystemLayerState
-pTexture != nullptr
 pTileFloorLightmap != nullptr
 panel
 panel-anchor
@@ -5135,6 +5162,7 @@ pl_pl
 playAreaColor
 playspace-dots
 playspace-draw-interaction
+playspace-floordetection-geo
 playspace-floorheight-adjust
 playspace-outline
 png_write_info was never called before png_write_row
@@ -5194,6 +5222,7 @@ request_dashboard_tutorial
 request_handlers
 request_handlers_response
 requires-laser
+reset-on-recenter
 reset_playspace_bounds_drawing
 reset_playspace_floorheight
 reset_playspace_radius
@@ -5253,7 +5282,6 @@ set_background
 set_camera_roomview_enabled_forsceneapps
 set_dashboard_visibility
 set_eye_tracking_debug_mode
-set_local_video_record
 set_notification_image
 set_notification_image_response
 set_overlay
@@ -5423,6 +5451,7 @@ shaders/d3d11/tracked_camera_reprojection_vs.fxo
 shaders/d3d11/tracked_camera_undistort_ps.fxo
 shaders/d3d11/tracked_camera_undistort_vs.fxo
 shaders/d3d11/tracked_camera_vs.fxo
+shaders/d3d11/unlit_2x_downsample_ps.fxo
 shaders/d3d11/unlit_convert_to_nv12_ps.fxo
 shaders/d3d11/unlit_gaussian_blur_u_ps.fxo
 shaders/d3d11/unlit_gaussian_blur_v_ps.fxo
@@ -5472,6 +5501,7 @@ start-angle
 start-angle-threshold
 start-buffer
 start-quat-difference
+startColor
 startup
 statusicons
 steam.app.469630
@@ -5634,6 +5664,7 @@ value_source
 valve.steam.bigpicture
 valve.steam.desktop
 valve.steam.desktopgame.
+valve.steam.gamepadui.
 valve.steam.gamepadui.main
 vector<T> too long
 vector<bool> too long

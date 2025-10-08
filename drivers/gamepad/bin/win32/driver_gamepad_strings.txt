@@ -117,7 +117,7 @@ IVRDriverDirectModeComponent_009
 IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
-IVRIPCResourceManagerClient_002
+IVRIPCResourceManagerClient_003
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -134,7 +134,7 @@ MSVCP140.dll
 MainThrd
 Out of thread local storage!\n
 QueryPerformanceCounter
-RSDSW_
+RSDS
 RaiseException
 SDL2.dll
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD

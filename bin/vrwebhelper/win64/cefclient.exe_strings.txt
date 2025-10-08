@@ -1040,7 +1040,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryThreadCycleTime
 REPLACE_THIS_STRING
-RSDSE
+RSDS
 R\n0\tP
 R\n0\tp
 R\vpL

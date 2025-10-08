@@ -1,4 +1,4 @@
-var CLSTAMP = "10075201";
+var CLSTAMP = "10128440";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [454],
   {
@@ -9,8 +9,8 @@ var CLSTAMP = "10075201";
         a = o(6540),
         i = o(3815),
         l = o(4452),
-        u = "function" == typeof Symbol && Symbol.for,
-        s =
+        s = "function" == typeof Symbol && Symbol.for,
+        u =
           null !==
             (r =
               null ===
@@ -20,13 +20,13 @@ var CLSTAMP = "10075201";
                 : t.configurable) &&
           void 0 !== r &&
           r,
-        d = u
+        d = s
           ? Symbol.for("react.forward_ref")
           : "function" == typeof a.forwardRef &&
             (0, a.forwardRef)(function (e) {
               return null;
             }).$$typeof,
-        c = u
+        c = s
           ? Symbol.for("react.memo")
           : "function" == typeof a.memo &&
             (0, a.memo)(function (e) {
@@ -44,7 +44,7 @@ var CLSTAMP = "10075201";
             void 0 !== o &&
             o,
           r = e,
-          u = e.displayName || e.name;
+          s = e.displayName || e.name;
         if (
           d &&
           e.$$typeof === d &&
@@ -58,11 +58,11 @@ var CLSTAMP = "10075201";
           R = function (e, n) {
             return (0, l.q)(function () {
               return r(e, n);
-            }, u);
+            }, s);
           };
         return (
           (R.displayName = e.displayName),
-          s &&
+          u &&
             Object.defineProperty(R, "name", {
               value: e.name,
               writable: !0,
@@ -99,8 +99,8 @@ var CLSTAMP = "10075201";
         a = o(6356),
         i = o(3815),
         l = o(7380),
-        u = o(9888);
-      function s(e) {
+        s = o(9888);
+      function u(e) {
         e.reaction = new t.Reaction("observer".concat(e.name), function () {
           var n;
           (e.stateVersion = Symbol()),
@@ -120,7 +120,7 @@ var CLSTAMP = "10075201";
               return (
                 l.Y.unregister(t),
                 (t.onStoreChange = e),
-                t.reaction || (s(t), (t.stateVersion = Symbol())),
+                t.reaction || (u(t), (t.stateVersion = Symbol())),
                 function () {
                   var e;
                   (t.onStoreChange = null),
@@ -139,9 +139,9 @@ var CLSTAMP = "10075201";
           c,
           S = o.current;
         if (
-          (S.reaction || (s(S), l.Y.register(o, S, S)),
+          (S.reaction || (u(S), l.Y.register(o, S, S)),
           r.useDebugValue(S.reaction, a.E),
-          (0, u.useSyncExternalStore)(
+          (0, s.useSyncExternalStore)(
             S.subscribe,
             S.getSnapshot,
             S.getSnapshot,
@@ -179,7 +179,7 @@ var CLSTAMP = "10075201";
         Gz: () => h.Gz,
         HW: () => h.HW,
         I0: () => t.I0,
-        IS: () => u.I,
+        IS: () => s.I,
         JZ: () => r.JZ,
         KI: () => k.KI,
         Ld: () => r.Ld,
@@ -209,7 +209,7 @@ var CLSTAMP = "10075201";
         b: () => h.b,
         b$: () => O.b,
         cB: () => C.L,
-        dL: () => s.d,
+        dL: () => u.d,
         e_: () => r.e_,
         en: () => k.en,
         fD: () => k.fD,
@@ -230,10 +230,11 @@ var CLSTAMP = "10075201";
         pM: () => h.pM,
         pg: () => t.pg,
         qF: () => r.qF,
-        rF: () => u.H,
+        rF: () => s.H,
         rx: () => h.rx,
         sJ: () => g.$,
         sk: () => t.sk,
+        sn: () => t.sn,
         tx: () => r.tx,
         uC: () => b.u,
         vx: () => r.vx,
@@ -243,8 +244,8 @@ var CLSTAMP = "10075201";
         a = o(3389),
         i = (o(4120), o(1230)),
         l = o(5830),
-        u = o(6186),
-        s = o(3361),
+        s = o(6186),
+        u = o(3361),
         d = (o(111), o(5723)),
         c = o(3496),
         S = o(5178),
@@ -278,7 +279,7 @@ var CLSTAMP = "10075201";
         $Z: () => c,
         Ee: () => h,
         GQ: () => B,
-        Gz: () => s,
+        Gz: () => u,
         HW: () => g,
         MV: () => a,
         NB: () => m,
@@ -286,7 +287,7 @@ var CLSTAMP = "10075201";
         R$: () => l,
         Xl: () => C,
         _1: () => w,
-        _E: () => u,
+        _E: () => s,
         b: () => O,
         gN: () => y,
         k2: () => E,
@@ -329,8 +330,8 @@ var CLSTAMP = "10075201";
             (e[(e.Standing = 1)] = "Standing"),
             (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
         })(i || (i = {}));
-      let u = 0,
-        s = 0,
+      let s = 0,
+        u = 0,
         d = 4294967295;
       var c, S, _, m, R, f, p, g, v, C, O, b, h, k, y, M, P, E, I, T, w, A, B;
       !(function (e) {
@@ -554,4 +555,4 @@ var CLSTAMP = "10075201";
         })(B || (B = {}));
     },
   },
-]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~90cf3e499.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~90cf3e499.js.map

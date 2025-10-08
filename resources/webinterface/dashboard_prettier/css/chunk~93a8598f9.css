@@ -44,7 +44,6 @@
   padding: var(--settings-control-button-min-padding-v)
     var(--settings-control-button-min-padding-h);
   box-sizing: border-box;
-  text-transform: uppercase;
   width: 100%;
   text-align: center;
   border: none;
@@ -1611,6 +1610,20 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .ControlBarTray .Section.Grow {
   flex-grow: 1;
 }
+.DashboardMain .ControlBarTray .DesktopAndWindowList {
+  --mask-size-left: 20px;
+  --mask-size-right: 80px;
+  padding-left: 10px;
+  padding-right: 50px;
+  scroll-padding: 250px;
+  position: relative;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black var(--mask-size-left) calc(100% - var(--mask-size-right)),
+    transparent 100%
+  );
+}
 .DashboardMain .ControlBarTray .Section .Label {
   font-size: 1rem;
   margin-top: auto;
@@ -1620,6 +1633,19 @@ div.BindingCalloutModifierIcon {
   --side-padding: 2em;
   width: fit-content;
   white-space: nowrap;
+}
+.DashboardMain .ControlBarTray .DesktopAndWindowList .ButtonControl {
+  max-width: 450px;
+  overflow: hidden;
+}
+.DashboardMain .ControlBarTray .DesktopAndWindowList .ButtonControl > span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.DashboardMain .ControlBarTray .Section .ButtonControl.ViewButton:not(.Fixed) {
+  display: flex;
+  align-items: center;
 }
 .DashboardMain .ControlBarTray .Section .ButtonControl.ViewButton.Fixed {
   width: 82px;
@@ -2325,4 +2351,4 @@ div.BindingCalloutModifierIcon {
   border-radius: 50%;
   z-index: 0;
 }
-/*# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~93a8598f9.css.map*/
+/*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~93a8598f9.css.map*/

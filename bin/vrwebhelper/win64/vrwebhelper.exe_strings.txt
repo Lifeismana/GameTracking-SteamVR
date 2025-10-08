@@ -184,6 +184,7 @@
 .?AV<lambda_df3578dc3e336868daed87623b1d2b80>@@
 .?AV<lambda_e0bf802a76bfd596fba9270c54069ee1>@@
 .?AV<lambda_e2768c0833937298ae306d99e6637bba>@@
+.?AV<lambda_e2e7573ef02822cf68ee7c8e5fde3670>@@
 .?AV<lambda_e3d05a95bfdcd7eba19fd26392a0b40a>@@
 .?AV<lambda_e5bd33ab3dd65513af7db98e5c8ae35f>@@
 .?AV<lambda_e784f3845fcefe99c960730736f6c604>@@
@@ -364,6 +365,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_df3578dc3e336868daed87623b1d2b80>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e0bf802a76bfd596fba9270c54069ee1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e2768c0833937298ae306d99e6637bba>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e2e7573ef02822cf68ee7c8e5fde3670>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e3d05a95bfdcd7eba19fd26392a0b40a>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e5bd33ab3dd65513af7db98e5c8ae35f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e784f3845fcefe99c960730736f6c604>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
@@ -548,6 +550,7 @@
 .xdata$x
 //==============================================================================================\n
 /best_alias_path
+/chaperone/bounds_hash
 /chaperone/collision_radius
 /chaperone/is_default_perimeter
 /chaperone/perimeter
@@ -585,9 +588,9 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-126.0.0-HEAD.3109+gad2e2ba+chromium-126.0.6478.183
+126.0.0-HEAD.3110+gb3b025e+chromium-126.0.6478.183
 127.0.0.1
-17:55:31
+12:17:30
 1e+9999
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
@@ -717,7 +720,7 @@ Browser context created for browser "%s" (overlay key: "%s")\n
 CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
 CAudioEndpointVolumeCallback::Register
 CCefClientHandler::BStartup: Unknown type %s\n
-CCefClientHandler::StartShutdown %d
+CCefClientHandler::StartShutdown
 CEF %s Resource Load Error: %s -> %d%s\n
 CEF Shutdown...
 CEF Version %s
@@ -1247,6 +1250,7 @@ LocalAlloc
 LocalFree
 LocalizationManager
 Log path could not be located (112)
+Long resource load time: %s (%f seconds)
 Low Power Watchdog Not Supported (129)
 MFCreateMediaType
 MFCreateMemoryBuffer
@@ -1288,6 +1292,7 @@ Not calling InitVRAndLogging() since VR is already initialized.\n
 Not starting vrserver for background app (121)
 Num Lock
 Num Lock Toggle
+Oct  7 2025
 On laptop, HMD detected over USB, but Monitor not found (213)
 OnAcceleratedPaint error, no valid d3d11 device
 OnBeforeClose %d, browser shutdown complete
@@ -1320,7 +1325,7 @@ QueryPerformanceFrequency
 QuitOpenVR
 QuitSceneApp
 RPCRT4.dll
-RSDS
+RSDSQ
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1346,8 +1351,6 @@ RegisterForBatteryStateChangedEvents
 RegisterForBindingSubscriptionChangedEvents
 RegisterForChaperoneChangedEvents
 RegisterForChaperoneStatusEvents
-RegisterForDesktopViewReadyEvents
-RegisterForDesktopViewUpdatingEvents
 RegisterForDeviceEvents
 RegisterForDeviceRoleChangedEvents
 RegisterForDisplayModeNotSupportedEvents
@@ -1432,7 +1435,6 @@ Searching for LUID:
 Second argument must be a TransformTRS
 Second argument must be a string
 See 
-Sep 16 2025
 SetCurrentProcessExplicitAppUserModelID
 SetEnvironmentVariableA
 SetEvent
@@ -1613,6 +1615,7 @@ VRAudioDevices_Init
 VRChaperone.ForceBoundsVisible
 VRChaperone.GetCalibrationState
 VRChaperone.GetPlayAreaSize
+VRChaperone.IsUsingDriverProvidedChaperone
 VRChaperone.ResetZeroPose
 VRChaperone.SetOkOutsidePlayspace
 VRChaperoneSetup.ClearRoomSetup
@@ -2122,6 +2125,7 @@ _dtest
 _errno
 _exit
 _get_narrow_winmain_command_line
+_getpid
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -2423,6 +2427,7 @@ log-severity
 log_console_message
 log_file_name
 lower
+m_Browser Identifier=%d
 m_MouseTracking[mouseCode].m_PointDown.x >= 0 && m_MouseTracking[mouseCode].m_PointDown.y >= 0
 m_nMaxLogBufferingSize > 0
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -2481,6 +2486,7 @@ password
 persist_layout
 persist_visibility
 persisted
+pid %d
 pixel_size
 pl_pl
 polish
@@ -2491,7 +2497,6 @@ preload
 preload_setting
 print
 property container key or path must not be empty
-proxy-auto-detect
 pt_br
 pt_pt
 punct

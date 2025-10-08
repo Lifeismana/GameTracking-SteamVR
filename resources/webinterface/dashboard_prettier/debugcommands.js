@@ -1,4 +1,4 @@
-var CLSTAMP = "10075201";
+var CLSTAMP = "10128440";
 (() => {
   "use strict";
   var e,
@@ -631,6 +631,7 @@ var CLSTAMP = "10075201";
           rx: () => w.rx,
           sJ: () => g.$,
           sk: () => r.sk,
+          sn: () => r.sn,
           tx: () => o.tx,
           uC: () => C.u,
           vx: () => o.vx,
@@ -661,21 +662,23 @@ var CLSTAMP = "10075201";
       },
       2824: (e, t, n) => {
         n.d(t, {
-          I0: () => u,
+          I0: () => c,
           Wq: () => a,
-          _n: () => l,
+          _n: () => d,
           mX: () => i,
           pg: () => s,
-          sk: () => c,
+          sk: () => l,
+          sn: () => u,
         });
         var r = n(1635),
           o = n(3236);
         const s = "vrcompositor_systemlayer",
           a = "vrcompositor_mailbox",
           i = "input_server",
-          u = "binding_callouts/main",
-          c = "driver_hmd";
-        class l {
+          u = "desktop_store",
+          c = "binding_callouts/main",
+          l = "driver_hmd";
+        class d {
           constructor() {
             (this.m_wsWebSocketToServer = void 0),
               (this.m_oHandlers = {}),
@@ -717,7 +720,7 @@ var CLSTAMP = "10075201";
           Init(e, t) {
             return (0, r.sH)(this, void 0, void 0, function* () {
               return (
-                (this.m_sMailboxName = l.EnsureUniqueName(e)),
+                (this.m_sMailboxName = d.EnsureUniqueName(e)),
                 (this.m_sWebSecret = t),
                 (this.connected = !1),
                 this.OpenWebSocketToHost()
@@ -823,12 +826,12 @@ var CLSTAMP = "10075201";
             (n.message_id = e.message_id), this.SendMessage(e.returnAddress, n);
           }
         }
-        (l.s_nNextMailboxNumber = 1),
-          (0, r.Cg)([o.o], l.prototype, "OpenWebSocketToHost", null),
-          (0, r.Cg)([o.o], l.prototype, "OnWebSocketOpen", null),
-          (0, r.Cg)([o.o], l.prototype, "OnWebSocketClose", null),
-          (0, r.Cg)([o.o], l.prototype, "WebSocketSend", null),
-          (0, r.Cg)([o.o], l.prototype, "OnWebSocketMessage", null);
+        (d.s_nNextMailboxNumber = 1),
+          (0, r.Cg)([o.o], d.prototype, "OpenWebSocketToHost", null),
+          (0, r.Cg)([o.o], d.prototype, "OnWebSocketOpen", null),
+          (0, r.Cg)([o.o], d.prototype, "OnWebSocketClose", null),
+          (0, r.Cg)([o.o], d.prototype, "WebSocketSend", null),
+          (0, r.Cg)([o.o], d.prototype, "OnWebSocketMessage", null);
       },
       3725: (e, t, n) => {
         var r, o, s, a;
@@ -1864,4 +1867,4 @@ var CLSTAMP = "10075201";
     })();
   var o = r.O(void 0, [967, 991, 305, 452, 170, 797, 906], () => r(9513));
   o = r.O(o);
-})(); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/debugcommands.js.map
+})(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/debugcommands.js.map

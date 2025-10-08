@@ -422,8 +422,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSqlQ
-R\npd
+RSDS=
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.\n
@@ -485,7 +484,6 @@ Unable to interact with foreground window. Displaying window switcher.\n
 Unable to open desktopview mailbox.\n
 Unable to send updated window list to the dashboard UI.\n
 Unable to send window view created message to the dashboard UI.\n
-Unable to send window view destroyed message to the dashboard UI.\n
 Unable to spawn window view - HWND not found in window map.\n
 Unable to spawn window view - invalid HWND.\n
 Unable to start window view for %s.\n
@@ -611,6 +609,7 @@ danish
 dashboard
 de_de
 deque<T> too long
+desktop_store
 desktopview
 dutch
 dwmapi.dll
@@ -636,7 +635,6 @@ hu_hu
 hungarian
 hwnd
 i]Wb
-icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -674,7 +672,6 @@ nb_no
 nl_nl
 norwegian
 null
-o0TC
 ole32.dll
 openvr_api.dll
 overlay_key
@@ -715,7 +712,6 @@ system.cursor.ibeam
 system.desktop.%d
 system.desktop.pointer
 system.window.%llu
-systemui_dashboard_private
 tchinese
 terminate
 th_th
@@ -751,7 +747,6 @@ vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
 window_view_created
-window_view_destroyed
 windows
 wn>Jj
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.\n

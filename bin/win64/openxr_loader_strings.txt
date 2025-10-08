@@ -187,6 +187,7 @@ A valid JSON document must be either an array or an object value.
 ADVAPI32.dll
 Active XrInstance handle already exists
 ActiveRuntime
+An active instance currently exists while trying to reinitialize the loader
 ApiLayerInterface being destroyed for layer 
 ApiLayerInterface::GetApiLayerProperties - failed searching for API layer manifest files
 ApiLayerInterface::GetApiLayerProperties - too many API layers found
@@ -246,6 +247,7 @@ Infinity
 Info [
 InitializeConditionVariable
 InitializeCriticalSectionAndSpinCount
+InitializeLoaderInitData
 InitializeSListHead
 Instance handle is XR_NULL_HANDLE.
 Invalid Function pointer
@@ -279,7 +281,7 @@ OpenXR-Loader
 OutputDebugStringA
 PERF
 QueryPerformanceCounter
-RSDS
+RSDSP
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 
@@ -321,6 +323,7 @@ Unknown error occurred calling down chain
 Unknown exception
 Unknown failure
 Unknown failure: 
+Unloading any previously loaded runtime
 VCRUNTIME140.dll
 VUID-XrApiLayerProperties-type-type: unknown type in api_layer_properties
 VUID-XrApplicationInfo-applicationName-parameter

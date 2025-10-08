@@ -1,4 +1,3 @@
-      %s (%d)\n
     %d pose jumps > 0.5 cm\n
     %d,  %lf %lf %lf, %lf %lf %lf\n
     (Previous: %llu)
@@ -35,6 +34,7 @@
 --cmdasync
 --cmdhmd
 --compositorcmd
+--dock-overlay
 --dumpapps
 --dumpoverlays
 --dumpsensors
@@ -86,6 +86,7 @@
 --testmessageoverlay
 --testpipe
 --toggle-overlay-flag
+--toggle-theater-stereo
 --universe
 --util
 --waitforpose
@@ -99,12 +100,14 @@
 .?AV<lambda_035b20e2072e45b6dd970733f8369903>@@
 .?AV<lambda_041ee88a809af1d97d17062a5ac7fcfc>@@
 .?AV<lambda_076f0acee9e6b14b08cad2ce3c484fd4>@@
-.?AV<lambda_0c0b48d99839362e9b025b745f422f35>@@
+.?AV<lambda_099b98a67f727678d8deef3b05f99bf7>@@
+.?AV<lambda_0f1c2df097fdebec82bd0a2df7b17557>@@
 .?AV<lambda_124ad2de1529221a6014ff59603fe040>@@
 .?AV<lambda_1ecd3b48a05adf783036af8718bb8837>@@
 .?AV<lambda_20b84b0fb08762a3063e740444e60d61>@@
+.?AV<lambda_20de32b3bbe03e3f544eb33d3470af25>@@
 .?AV<lambda_24ee0f64233c465d2a374777ebcfa21d>@@
-.?AV<lambda_30f3dcc7434776044341948b68d44605>@@
+.?AV<lambda_27f4ed82cb84a113c590671ccc572ec7>@@
 .?AV<lambda_323e7ed949adb52c6683dcf639e5bbdb>@@
 .?AV<lambda_3333ef97faf1700ff9f6955fd786b689>@@
 .?AV<lambda_360280414641a81bf48c7e62f497588d>@@
@@ -114,9 +117,8 @@
 .?AV<lambda_4736900c61264c7caf6969cd7c553d6c>@@
 .?AV<lambda_4d24869e5a32c024a264592d28302e95>@@
 .?AV<lambda_51de58ccfc1afb1c6b5d6767d3a2105b>@@
-.?AV<lambda_51e6e166e2dc6ed753e067242cbb8bed>@@
+.?AV<lambda_536d1c23a9d3a04c40fede17489789ab>@@
 .?AV<lambda_56e39f268d4d29d1a86e3a0f2645c73e>@@
-.?AV<lambda_57d355bbac78b4a8d24872e98f99e048>@@
 .?AV<lambda_58c8a025649506b61407a3f07341a591>@@
 .?AV<lambda_5bb49cc7e122936b34195f22a654d27b>@@
 .?AV<lambda_6010c80f147b9df2ed84dd2933f5472f>@@
@@ -125,6 +127,7 @@
 .?AV<lambda_655ab12a61fb059c0c4cdfd3d1a25a39>@@
 .?AV<lambda_662d8de06dabd83193f2cb18a12f4766>@@
 .?AV<lambda_6c2755de9fb7d8850408403750a840df>@@
+.?AV<lambda_6d3f394044cef1a80f7334bc4353c1a7>@@
 .?AV<lambda_7cb099c713b848ca291f3e208cc0287b>@@
 .?AV<lambda_82610c45fca5831ca8de7e67900a0450>@@
 .?AV<lambda_82718e71fdbaf4bf9b10319ce37f1374>@@
@@ -134,12 +137,12 @@
 .?AV<lambda_8f83f30f8bacffad7a17bcbe661024c4>@@
 .?AV<lambda_91c85b1eebb65f255555085a8d94698c>@@
 .?AV<lambda_9419479e3d5f3c24366fde96dba7df74>@@
+.?AV<lambda_945dc9df9df31930d9ec2b50b70487f4>@@
 .?AV<lambda_998b4afba503e94740d40371c93a4e4d>@@
 .?AV<lambda_9b0dc4f84d45b56b7f3cfe7be5478459>@@
 .?AV<lambda_9b6f868e8953b7be2410ff255d0f29ed>@@
 .?AV<lambda_9e57f0071be9d2cbe6309f36f9d626e3>@@
 .?AV<lambda_9e6a11d1c334dc36457ad997b7190350>@@
-.?AV<lambda_a142662abcfbd8a963751f2124b39437>@@
 .?AV<lambda_a991c486431129b130d474cee8315ef4>@@
 .?AV<lambda_b2e2b59415f74b00435676ba1f2a0fa1>@@
 .?AV<lambda_b5a92a15dd7b8a006437df6e1efdb5cc>@@
@@ -154,9 +157,9 @@
 .?AV<lambda_d58f9ed69eb6bdc327cc6d01f98feb15>@@
 .?AV<lambda_df55db696fc4d0c4b4dba4e54be8d9ac>@@
 .?AV<lambda_df970b094ce62bc9bfd1fe81907a95f5>@@
-.?AV<lambda_e59d5363093d924115538bdcec467da0>@@
 .?AV<lambda_e851dcb9cee0e428921b7843b5af9377>@@
 .?AV<lambda_edf9f69b0c44727a123859a9517011c6>@@
+.?AV<lambda_ef1b45a28d00815ba34414025471de0a>@@
 .?AV<lambda_f35fa42e3ec6b827bacfafab3fd3409d>@@
 .?AV<lambda_f5d684d35a6244c517b692a5d1247e8f>@@
 .?AV<lambda_f732dc18c0106a35fb3a429c1a139939>@@
@@ -166,12 +169,14 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_035b20e2072e45b6dd970733f8369903>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_041ee88a809af1d97d17062a5ac7fcfc>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_076f0acee9e6b14b08cad2ce3c484fd4>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_0c0b48d99839362e9b025b745f422f35>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_099b98a67f727678d8deef3b05f99bf7>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0f1c2df097fdebec82bd0a2df7b17557>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_124ad2de1529221a6014ff59603fe040>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1ecd3b48a05adf783036af8718bb8837>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_20b84b0fb08762a3063e740444e60d61>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_20de32b3bbe03e3f544eb33d3470af25>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_24ee0f64233c465d2a374777ebcfa21d>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_30f3dcc7434776044341948b68d44605>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_27f4ed82cb84a113c590671ccc572ec7>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_323e7ed949adb52c6683dcf639e5bbdb>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3333ef97faf1700ff9f6955fd786b689>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_360280414641a81bf48c7e62f497588d>@@X$$V@std@@
@@ -181,9 +186,8 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_4736900c61264c7caf6969cd7c553d6c>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4d24869e5a32c024a264592d28302e95>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_51de58ccfc1afb1c6b5d6767d3a2105b>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_51e6e166e2dc6ed753e067242cbb8bed>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_536d1c23a9d3a04c40fede17489789ab>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_56e39f268d4d29d1a86e3a0f2645c73e>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_57d355bbac78b4a8d24872e98f99e048>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_58c8a025649506b61407a3f07341a591>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5bb49cc7e122936b34195f22a654d27b>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6010c80f147b9df2ed84dd2933f5472f>@@X$$V@std@@
@@ -192,6 +196,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_655ab12a61fb059c0c4cdfd3d1a25a39>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_662d8de06dabd83193f2cb18a12f4766>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6c2755de9fb7d8850408403750a840df>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6d3f394044cef1a80f7334bc4353c1a7>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7cb099c713b848ca291f3e208cc0287b>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_82610c45fca5831ca8de7e67900a0450>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_82718e71fdbaf4bf9b10319ce37f1374>@@X$$V@std@@
@@ -201,12 +206,12 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_8f83f30f8bacffad7a17bcbe661024c4>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_91c85b1eebb65f255555085a8d94698c>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9419479e3d5f3c24366fde96dba7df74>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_945dc9df9df31930d9ec2b50b70487f4>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_998b4afba503e94740d40371c93a4e4d>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9b0dc4f84d45b56b7f3cfe7be5478459>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9b6f868e8953b7be2410ff255d0f29ed>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9e57f0071be9d2cbe6309f36f9d626e3>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9e6a11d1c334dc36457ad997b7190350>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_a142662abcfbd8a963751f2124b39437>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a991c486431129b130d474cee8315ef4>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b2e2b59415f74b00435676ba1f2a0fa1>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b5a92a15dd7b8a006437df6e1efdb5cc>@@X$$V@std@@
@@ -221,9 +226,9 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_d58f9ed69eb6bdc327cc6d01f98feb15>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_df55db696fc4d0c4b4dba4e54be8d9ac>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_df970b094ce62bc9bfd1fe81907a95f5>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_e59d5363093d924115538bdcec467da0>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e851dcb9cee0e428921b7843b5af9377>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_edf9f69b0c44727a123859a9517011c6>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ef1b45a28d00815ba34414025471de0a>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f35fa42e3ec6b827bacfafab3fd3409d>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f5d684d35a6244c517b692a5d1247e8f>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f732dc18c0106a35fb3a429c1a139939>@@X$$V@std@@
@@ -467,6 +472,7 @@ Device %d is not present\n
 Driver %s : %d displays\n
 Duplicate key: '
 DuplicateHandle
+ERROR: --mailboxcmd is no longer supported.\nFor docking overlays to theater mode etc, use --dock-overlay <location> [overlay_key].\nFor toggling stereo theater mode to theater mode etc, use --toggle-theater-stereo.\n
 Empty escape sequence in string
 Encountered error 
 Encountered unexpected delayed initialization of CPropertyManager\n
@@ -590,6 +596,7 @@ InitializeSecurityDescriptor
 Inserting took %lf seconds (%llu ticks): %lf microsecond average\n
 Invalid
 Invalid Arguments
+Invalid dock location "%s". Possible values are: 
 IsDebuggerPresent
 IsHmdPresent time=%lf\n
 IsProcessorFeaturePresent
@@ -850,7 +857,7 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS=
+RSDS>b
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -874,6 +881,7 @@ SETUPAPI.dll
 SHELL32.dll
 SHGetFolderPathW
 See 
+Sent command.\n
 Sent compositor mailbox command: %s\n
 Sent mailbox (%s) command: %s\n
 Set Overlay flag %d to value %d\n
@@ -955,7 +963,6 @@ Unable to read event salt from pipe %s after connecting because %s\n
 Unable to read pid from pipe %s after connecting because %s\n
 Unable to write %u bytes to offset %u in %s\n
 UnhandledExceptionFilter
-Unknown Overlay flag (%d)
 Unknown VRApplicationsError (%d)
 Unknown class (%d)
 Unknown command '%s'\n
@@ -1208,29 +1215,6 @@ VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
-VROverlayFlags_EnableClickStabilization
-VROverlayFlags_EnableControlBar
-VROverlayFlags_EnableControlBarClose
-VROverlayFlags_EnableControlBarKeyboard
-VROverlayFlags_HideLaserIntersection
-VROverlayFlags_IgnoreTextureAlpha
-VROverlayFlags_IsPremultiplied
-VROverlayFlags_MakeOverlaysInteractiveIfVisible
-VROverlayFlags_MultiCursor
-VROverlayFlags_NoDashboardTab
-VROverlayFlags_Panorama
-VROverlayFlags_ProtectedContent
-VROverlayFlags_SendVRDiscreteScrollEvents
-VROverlayFlags_SendVRSmoothScrollEvents
-VROverlayFlags_SendVRTouchpadEvents
-VROverlayFlags_ShowTouchPadScrollWheel
-VROverlayFlags_SideBySide_Crossed
-VROverlayFlags_SideBySide_Parallel
-VROverlayFlags_SortWithNonSceneOverlays
-VROverlayFlags_StereoPanorama
-VROverlayFlags_TransferOwnershipToInternalProcess
-VROverlayFlags_VisibleInDashboard
-VROverlayFlags_WantsModalBehavior
 VRPaths
 VRSystem is null in watchdog mode\n
 VR_CONFIG_PATH
@@ -1249,6 +1233,8 @@ VR_LOG_PATH
 VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 VR_ShutdownInternal
+WARNING: This command is deprecated and will stop working in the future.\nUse vrcmd --dock-overlay "%s" "%s"\n\n
+WARNING: This command is deprecated and will stop working in the future.\nUse vrcmd --toggle-theater-stereo\n\n
 Wait done, commencing load.\n
 WaitForConnection got an already-disconnected pipe on %s. Recreating listener\n
 WaitForSingleObject
@@ -1292,6 +1278,7 @@ WriteFile
 [IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
+\n     flags=0x%08X %s
 \nDevice %d - %s.%s - %s - %s - %s\n
 \t%s (Serial number %s)\n
 \t%u pulses\n
@@ -1384,6 +1371,7 @@ _table%llu
 _wfsopen
 _wgetcwd
 _wstat64i32
+activity_level
 additional six characters expected to parse unicode surrogate pair.
 allowComments
 allowDroppedNullPlaceholders
@@ -1436,10 +1424,13 @@ currentUnit -l centimeter -a degree -t ntsc;\n
 czech
 da_dk
 danish
+dashboard
 de_de
 deque<T> too long
 descriptor len %u\n
 device pose is not valid\n
+dock_location
+dock_overlay_requested
 dropped_frames
 dropped_frames_loading
 dropped_frames_on_startup
@@ -1504,6 +1495,7 @@ keylength >= 2^30
 ko_kr
 koreana
 latam
+lefthand
 lighthouse:
 lighthousedriver:
 live
@@ -1530,7 +1522,7 @@ openvr_api.dll
 openvrpaths.vrpath
 operation
 output_path
-overlayflags=0x%08X 
+overlay_key
 params
 path
 pid_%04x
@@ -1549,6 +1541,7 @@ reprojected_frames_on_startup
 reprojected_frames_timed_out
 response: %s\n
 rewind
+righthand
 ro_ro
 romanian
 ru_ru
@@ -1582,13 +1575,18 @@ sv_se
 svl.pcap
 svlserver:
 swedish
+systemui_dashboard
+systemui_dashboard_private
 tchinese
 terminate
 testing notifications
 testpipe%llu
 th_th
 thai
+theater
 timed_out
+toggle_theater_stereo
+tolower
 tr_tr
 true
 turkish
@@ -1607,6 +1605,8 @@ vietnamese
 vr/game_theater
 vrcmd
 vrcmd.test.notifications
+vrcmd_dock_overlay
+vrcmd_toggle_theater_stereo
 vrcompositor_mailbox
 vrcompositor_systemlayer
 vrdashboard.exe
@@ -1616,5 +1616,6 @@ vrwebhelper
 waiting for update event...\n
 win64
 working
+world
 zh_cn
 zh_tw

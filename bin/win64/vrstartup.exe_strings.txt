@@ -12,6 +12,7 @@
 -crash
 -disablewatchdogs
 -hang
+-keepalive
 -mutesettings
 -restart
 -shutdown
@@ -131,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-17:55:31
+12:17:30
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -380,6 +381,7 @@ None
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
+Oct  7 2025
 On laptop, HMD detected over USB, but Monitor not found (213)
 OpenProcess
 Out of thread local storage!\n
@@ -413,7 +415,6 @@ STEAMVR_ENABLE_THREAD_WATCHDOGS
 STEAMVR_GPUVIS_ON_ASSERT
 STEAMVR_VKVALIDATION
 See 
-Sep 16 2025
 SetEnvironmentVariableA
 SetEvent
 SetFileAttributesW
@@ -891,6 +892,7 @@ italian
 ja_jp
 japanese
 jsonid
+keepalive
 keyboard
 keylength >= 2^30
 ko_kr

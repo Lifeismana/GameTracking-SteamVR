@@ -1,9 +1,9 @@
-var CLSTAMP = "10075201";
+var CLSTAMP = "10128440";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [554],
   {
-    9125: (e, t, r) => {
-      r.d(t, { aj: () => N, d4: () => W });
+    582: (e, t, r) => {
+      r.d(t, { aj: () => k, d4: () => P });
       var n = r(1635),
         i = r(6540),
         s = r(5339),
@@ -144,16 +144,15 @@ var CLSTAMP = "10075201";
           var s;
         });
       }
-      var m = r(7600),
-        p = r(4728);
-      const g =
+      var m = r(7600);
+      const p =
         window.addEventListener || (r.g && r.g.addEventListener) || (() => {});
-      let f,
+      let g,
         h = [],
-        _ = (e, t, r) =>
+        f = (e, t, r) =>
           h.push({ error: e, cCallsitesToIgnore: t, strComponentStack: r });
-      const b = !0;
-      class S extends Error {
+      const _ = !0;
+      class b extends Error {
         constructor(...e) {
           super(...e), (this.name = "Assertion Failed");
         }
@@ -162,38 +161,38 @@ var CLSTAMP = "10075201";
         const e = console.assert;
         console.assert = (t, r, ...n) => {
           if (!t) {
-            const e = y();
-            _(new S(v(r, ...n)), 2, e);
+            const e = R();
+            f(new b(I(r, ...n)), 2, e);
           }
           e.apply(console, [t, r, ...n]);
         };
         const t = console.error;
         (console.error = (e, ...r) => {
-          const n = y();
-          _(new Error(v(e, ...r)), 1, n), t.apply(console, [e, ...r]);
+          const n = R();
+          f(new Error(I(e, ...r)), 1, n), t.apply(console, [e, ...r]);
         }),
           (console.clogerror = (e, r, ...n) => {
-            const i = y();
-            _(new Error(v(r, ...n)), e + 1, i), t.apply(console, [r, ...n]);
+            const i = R();
+            f(new Error(I(r, ...n)), e + 1, i), t.apply(console, [r, ...n]);
           }),
-          g("error", (e) => {
-            _(e.error, 0);
+          p("error", (e) => {
+            f(e.error, 0);
           }),
-          g("unhandledrejection", (e) => {
-            _(e.reason, 0);
+          p("unhandledrejection", (e) => {
+            f(e.reason, 0);
           }),
-          (f = window.setTimeout(() => {
-            (h = []), (_ = () => {});
+          (g = window.setTimeout(() => {
+            (h = []), (f = () => {});
           }, 3e4));
       }
-      const w = { cCallsitesToIgnore: 0, bIncludeMessageInIdentifier: !1 },
-        R = [
+      const S = { cCallsitesToIgnore: 0, bIncludeMessageInIdentifier: !1 },
+        w = [
           "chrome-extension://",
           "HTMLDivElement.onreset \\(/market",
           "/.millennium/Dist",
           "Refused unauthorized RPC command",
         ];
-      function y() {
+      function R() {
         try {
           const e = i.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
             t =
@@ -216,14 +215,14 @@ var CLSTAMP = "10075201";
           }
         } catch (e) {}
       }
-      class I {
+      class y {
         constructor(e = !0) {
           (this.m_transport = null),
             (this.m_rgErrorQueue = []),
             (this.m_sendTimer = null),
             (this.m_bReportingPaused = !1),
             (this.m_pauseTimer = void 0),
-            (this.m_fnGetReportingInterval = j),
+            (this.m_fnGetReportingInterval = z),
             (this.m_bEnabled = !0),
             (this.m_bInitialized = !1),
             e
@@ -234,14 +233,14 @@ var CLSTAMP = "10075201";
                       strComponentStack: r,
                     }),
                 ),
-                (_ = (e, t, r) =>
+                (f = (e, t, r) =>
                   this.ReportError(e, {
                     cCallsitesToIgnore: t,
                     strComponentStack: r,
                   })))
-              : (_ = () => {}),
+              : (f = () => {}),
             (h = []),
-            clearTimeout(f),
+            clearTimeout(g),
             window.setTimeout(() => {
               this.m_bInitialized ||
                 ((this.m_bEnabled = !1), (this.m_rgErrorQueue = []));
@@ -273,12 +272,12 @@ var CLSTAMP = "10075201";
                 null
               );
             try {
-              const r = Object.assign(Object.assign({}, w), t);
+              const r = Object.assign(Object.assign({}, S), t);
               if (!this.m_bEnabled) return null;
               0;
               const i = yield (function (e, t) {
                 try {
-                  return e.stack && e.stack.match(E)
+                  return e.stack && e.stack.match(v)
                     ? (function (e, t) {
                         return (0, n.sH)(this, void 0, void 0, function* () {
                           var r, n;
@@ -294,7 +293,7 @@ var CLSTAMP = "10075201";
                                     : r.split("\n")) && void 0 !== n
                                 ? n
                                 : [];
-                          let a = M(o.filter((e) => !!e.match(E))[i]);
+                          let a = M(o.filter((e) => !!e.match(v))[i]);
                           s && (a = `${a} ${e.message}`);
                           const c = o
                             .map((e) => {
@@ -311,12 +310,12 @@ var CLSTAMP = "10075201";
                             .filter((e) => !!e);
                           return {
                             identifier: a,
-                            identifierHash: yield z(a),
+                            identifierHash: yield O(a),
                             message: c,
                           };
                         });
                       })(e, t)
-                    : e.stack && e.stack.match(C)
+                    : e.stack && e.stack.match(E)
                       ? (function (e, t) {
                           return (0, n.sH)(this, void 0, void 0, function* () {
                             var r, n;
@@ -332,7 +331,7 @@ var CLSTAMP = "10075201";
                                       : r.split("\n")) && void 0 !== n
                                   ? n
                                   : [];
-                            let a = M(o.filter((e) => !!e.match(C))[i]);
+                            let a = M(o.filter((e) => !!e.match(E))[i]);
                             s && (a = `${a} ${e.message}`);
                             const c = o
                               .map((e) => {
@@ -350,12 +349,12 @@ var CLSTAMP = "10075201";
                               .filter((e) => !!e);
                             return {
                               identifier: a,
-                              identifierHash: yield z(a),
+                              identifierHash: yield O(a),
                               message: [e.message, ...c],
                             };
                           });
                         })(e, t)
-                      : e.stack && e.stack.match(T)
+                      : e.stack && e.stack.match(C)
                         ? (function (e, t) {
                             return (0, n.sH)(
                               this,
@@ -397,18 +396,18 @@ var CLSTAMP = "10075201";
                                   .filter((e) => !!e);
                                 return {
                                   identifier: l,
-                                  identifierHash: yield z(l),
+                                  identifierHash: yield O(l),
                                   message: [e.message, ...u],
                                 };
                               },
                             );
                           })(e, t)
-                        : (k ||
+                        : (B ||
                             (console.warn(
                               "Error reporter does not know how to parse generated stack:",
                             ),
                             console.warn(e.stack),
-                            (k = !0)),
+                            (B = !0)),
                           null);
                 } catch (e) {
                   return (
@@ -448,7 +447,7 @@ var CLSTAMP = "10075201";
         BIsBlacklisted(e) {
           for (let t of e.message) {
             let r = JSON.stringify(t);
-            for (let t of R) {
+            for (let t of w) {
               const n = new RegExp(t);
               if (r.match(n))
                 return console.warn("Report", e, "matched regex", t), !0;
@@ -515,10 +514,10 @@ var CLSTAMP = "10075201";
           return this.m_strProduct;
         }
         get reporting_enabled() {
-          return b;
+          return _;
         }
       }
-      function v(e, ...t) {
+      function I(e, ...t) {
         if ("string" == typeof e && 0 === t.length) return e;
         return [e, ...t]
           .map((e) => {
@@ -531,11 +530,11 @@ var CLSTAMP = "10075201";
           })
           .join(", ");
       }
-      const E = /^\s*at .*(\S+:\d+|\(native\))/m,
-        C = /(^|@)\S+:\d+/,
-        T = /.*\/bundle-[a-zA-Z0-9]+:\d+:\d+/;
-      let B,
-        k = !1;
+      const v = /^\s*at .*(\S+:\d+|\(native\))/m,
+        E = /(^|@)\S+:\d+/,
+        C = /.*\/bundle-[a-zA-Z0-9]+:\d+:\d+/;
+      let T,
+        B = !1;
       function M(e) {
         return (function (e) {
           const t = "https://",
@@ -552,11 +551,11 @@ var CLSTAMP = "10075201";
           })(e),
         );
       }
-      const N = () => (B || O(new I()), B),
-        O = (e) => {
-          (B = e), m.tH.InstallErrorReportingStore(B);
+      const k = () => (T || N(new y()), T),
+        N = (e) => {
+          (T = e), m.tH.InstallErrorReportingStore(T);
         };
-      function z(e) {
+      function O(e) {
         return (0, n.sH)(this, void 0, void 0, function* () {
           try {
             return (yield d(e)).slice(0, 16);
@@ -565,10 +564,18 @@ var CLSTAMP = "10075201";
           }
         });
       }
-      function j() {
-        return 1e3 * (0, p.Tg)(1, u.b - 1);
+      function z() {
+        return (
+          1e3 *
+          ((e = 1),
+          (t = u.b - 1),
+          (e = Math.ceil(e)),
+          (t = Math.floor(t)),
+          Math.floor(Math.random() * (t - e + 1)) + e)
+        );
+        var e, t;
       }
-      class F {
+      class j {
         constructor(e) {
           this.m_strWebAPIBaseURL = e;
         }
@@ -588,8 +595,8 @@ var CLSTAMP = "10075201";
               .catch((e) => {});
         }
       }
-      let P;
-      const W = () => (P || (P = new F("https://api.steampowered.com/")), P);
+      let F;
+      const P = () => (F || (F = new j("https://api.steampowered.com/")), F);
     },
   },
-]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~56fe39318.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~56fe39318.js.map

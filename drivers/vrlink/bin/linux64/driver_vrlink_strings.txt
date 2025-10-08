@@ -49,7 +49,7 @@ $3br
 %d ms
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
-%d/%d hw max [%d], %d in\nPair: %s
+%d/%d hw max [%d]\n%d in (%d bits)\nPair: %s
 %llu
 %s %s (Steam Link)
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
@@ -109,6 +109,7 @@ $3br
 (anonymous namespace)::io_error_category::message[abi:cxx11](int) const (.cold)
 (anonymous namespace)::io_error_category::name() const
 (anonymous namespace)::io_error_category::~io_error_category()
+(anonymous namespace)::k_pathVRGamepadUIDashboardTabs
 (anonymous namespace)::messages_c
 (anonymous namespace)::messages_w
 (anonymous namespace)::money_get_c
@@ -500,11 +501,11 @@ $3br
 /user/hand/secondary
 /user/head
 /user/head/input/system/click
+/vrgamepadui/steamvr/dashboard_tabs
 0 width
 0-pixel image
 0.0.0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00:56:50
 0123456789
 0123456789ABCDEF
 1 Sec
@@ -543,6 +544,7 @@ $3br
 18SVLFECRAID6TXFrame
 18SVLHMDDriverVulkan
 18SVLHmdNotConnected
+19:17:17
 19SVLControllerDriver
 1e+9999
 20BinaryBlendPoseMaker
@@ -1234,7 +1236,7 @@ CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
 CSWTCH.127
 CSWTCH.216
-CSWTCH.408
+CSWTCH.409
 CSWTCH.91
 CScopedEventDuration::CScopedEventDuration(char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -1282,6 +1284,8 @@ CSharedImageLinux::GetArraySize() const
 CSharedImageLinux::GetArraySize() const (.cold)
 CSharedImageLinux::GetDeviceSize() const
 CSharedImageLinux::GetDeviceSize() const (.cold)
+CSharedImageLinux::GetFlags() const
+CSharedImageLinux::GetFlags() const (.cold)
 CSharedImageLinux::GetFormat() const
 CSharedImageLinux::GetFormat() const (.cold)
 CSharedImageLinux::GetHeight() const
@@ -1319,9 +1323,9 @@ CSharedImageLinux::IsRenderable() const
 CSharedImageLinux::IsRenderable() const (.cold)
 CSharedImageLinux::PrepareForInterop()
 CSharedImageLinux::PrepareVulkanImageForExport Invalid texture, width: %d height: %d mipLevels: %d arraySize: %d
-CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
-CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*) (.cold)
-CSharedImageLinux::RequestSharedVulkanImage(VkFormat, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned int)
+CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
+CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*) (.cold)
+CSharedImageLinux::RequestSharedVulkanImage(VkFormat, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned int, unsigned int, unsigned int)
 CSharedImageLinux::SetVulkanLayout(VkImageLayout)
 CSharedImageLinux::SetVulkanLayout(VkImageLayout) (.cold)
 CSharedImageLinux::SetVulkanQueueIndex(unsigned int)
@@ -1740,6 +1744,7 @@ ComputeOverlayIdentity(char const*)
 ComputeOverlayIdentity(char const*)::k_desktopViewPrefix
 ComputeOverlayIdentity(char const*)::k_desktopWindowViewPrefix
 ComputeOverlayIdentity(char const*)::k_gamescopeSteamAppPrefix
+ComputeOverlayIdentity(char const*)::k_gamescopeSteamWindowPrefix
 ComputeOverlayIdentity(char const*)::k_steamDesktopViewPrefix
 ComputeOverlayIntersectionInternal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, bool*, float*, vr::HmdVector2_t*, vr::HmdVector3_t*, vr::HmdVector3_t*)
 ComputeOverlayIntersectionNormal(OverlayTransformDetails_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&)
@@ -2319,7 +2324,7 @@ IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
-IVRIPCResourceManagerClient_002
+IVRIPCResourceManagerClient_003
 IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
@@ -3106,6 +3111,7 @@ OSCInPort
 OSCOutPort
 OUT %d
 Object
+Oct  7 2025
 October
 Oculus Quest Pro
 Oculus Quest Pro (Left Controller)
@@ -3541,7 +3547,7 @@ Reflection::TypeInfo::IsDerivedFrom(unsigned int) const
 Reflection::TypeInfo::IsDerivedFromInternal(unsigned int) const
 Reflection::TypeInfo::TypeInfo(Reflection::TypeInfo const&)
 Reflection::TypeInfo::TypeInfo(char const*, unsigned int)
-RegisterForOverlayEventPolling(unsigned long)
+RegisterForOverlayEventPolling(unsigned long, bool)
 ReinitEncoderClick(SVLCanvas*, svl_canvas_canned_gui_element_t const*, int, int, precanned_event, int)
 Rejecting ShowKeyboard call from app because the dashboard is visible\n
 Release
@@ -3815,6 +3821,9 @@ SVLDataLink::InitCrypt(std::vector<char, std::allocator<char>>&, int, SVLTranspo
 SVLDataLink::InitCrypt(std::vector<char, std::allocator<char>>&, int, SVLTransportMode) (.cold)
 SVLDataLink::PrepareForPossibleShutdown()
 SVLDataLink::ProcessEvent(vr::VREvent_t const&)
+SVLDataLink::PullFromIDAndTimeQueue(std::queue<SVLDataLink::IDAndTime, std::deque<SVLDataLink::IDAndTime, std::allocator<SVLDataLink::IDAndTime>>>&, SVLDataLink::IDAndTime&)
+SVLDataLink::PushOntoIDAndTimeQueue(std::queue<SVLDataLink::IDAndTime, std::deque<SVLDataLink::IDAndTime, std::allocator<SVLDataLink::IDAndTime>>>&, SVLDataLink::IDAndTime)
+SVLDataLink::PushOntoIDAndTimeQueue(std::queue<SVLDataLink::IDAndTime, std::deque<SVLDataLink::IDAndTime, std::allocator<SVLDataLink::IDAndTime>>>&, SVLDataLink::IDAndTime) (.cold)
 SVLDataLink::ReceiveTimedOut()
 SVLDataLink::ReceivedData(dataset*)
 SVLDataLink::Reconnect()
@@ -3931,6 +3940,8 @@ SVLDriver::OnNewSession(unsigned long)
 SVLDriver::RunFrame()
 SVLDriver::RunFrame() (.cold)
 SVLDriver::SVLDriver()
+SVLDriver::SendDashboardTabs(bool)
+SVLDriver::SendDashboardTabs(bool) (.cold)
 SVLDriver::ShouldBlockStandbyMode()
 SVLDriver::TrackedDeviceIdFromCompactDeviceIndex(unsigned int)
 SVLDriver::TrackedDeviceIdFromCompactDeviceIndex(unsigned int) (.part.0)
@@ -4064,6 +4075,7 @@ SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda5'(ValueTransportID, bool)::opera
 SVLHMDDriver::SendUpdatedFramerateRequest()
 SVLHMDDriver::SetAudioPlaybackDeviceId(std::string const&)
 SVLHMDDriver::SetAudioRecordingDeviceId(std::string const&)
+SVLHMDDriver::SetFramePacingProfile(EFramePacingProfile)
 SVLHMDDriver::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
 SVLHMDDriver::UpdateAudioProperties()
 SVLHMDDriver::UpdateAudioProperties() (.cold)
@@ -4303,7 +4315,6 @@ SendUpdatedFramerateRequest: Preferred refresh rate was available. Using %.2f
 SendUpdatedFramerateRequest: Requesting client use %.2f Hz
 Sending quit event because SteamVR launched for streaming and client has quit.
 Sent message id %u, received %u (%s). Rejecting response.\n
-Sep 17 2025
 September
 SerialNumber %s\n
 SessionID
@@ -5759,6 +5770,7 @@ _GLOBAL__sub_I_reflection.cpp
 _GLOBAL__sub_I_sharedresource_linux.cpp
 _GLOBAL__sub_I_sharedresourcenamespace.cpp
 _GLOBAL__sub_I_steamvrlink.cpp
+_GLOBAL__sub_I_steamvrlink.cpp.cold
 _GLOBAL__sub_I_strtools_public.cpp
 _GLOBAL__sub_I_system_error.cc
 _GLOBAL__sub_I_threadtools.cpp
@@ -6535,6 +6547,7 @@ futex robust_list not initialized by pthreads
 futex robust_list not pthreads-compatible
 fwrite
 gLimitMBPS
+g_FramePacingSettingsProfiles
 g_LoggingMutex
 g_SIMD_0123
 g_SIMD_AllOnesMask
@@ -7496,6 +7509,7 @@ s_bCurrentMiniDumpIsFatal
 s_bMinidumpCommentAlreadySet
 s_bShouldDumpBitstream
 s_bTaintFileTimeMap
+s_bTrackingEventsForAllOverlays
 s_fnPreCrashCallback
 s_mapFileTimeMap
 s_pInstance
@@ -7833,6 +7847,8 @@ std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo
 std::_Deque_base<Json::Value*, std::allocator<Json::Value*>>::_M_initialize_map(unsigned long)
 std::_Deque_base<Json::Value*, std::allocator<Json::Value*>>::~_Deque_base()
 std::_Deque_base<LoggableTimingEvent_t, std::allocator<LoggableTimingEvent_t>>::~_Deque_base()
+std::_Deque_base<SVLDataLink::IDAndTime, std::allocator<SVLDataLink::IDAndTime>>::_M_initialize_map(unsigned long)
+std::_Deque_base<SVLDataLink::IDAndTime, std::allocator<SVLDataLink::IDAndTime>>::~_Deque_base()
 std::_Deque_base<std::tuple<unsigned char*, int, TransportFrameMetadata_t, int, bool>, std::allocator<std::tuple<unsigned char*, int, TransportFrameMetadata_t, int, bool>>>::~_Deque_base()
 std::_Fnv_hash_bytes(void const*, unsigned long, unsigned long)
 std::_Function_base::_Base_manager<ByteLogger::SetRoot(SVLRoot*)::'lambda'(ValueTransportID, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
@@ -12338,7 +12354,6 @@ typeinfo name for vr::IVRSharedImage
 typeinfo name for vr::IVRSharedResource
 typeinfo name for vr::IVRSharedSemaphore
 uArraySize == 1u
-ui@GX
 uk_ua
 ukrainian
 umask
@@ -12387,6 +12402,7 @@ value
 values
 valve.steam.desktop
 valve.steam.desktopgame.
+valve.steam.gamepadui.
 valve.steam.gamepadui.main
 vector::_M_default_append
 vector::_M_fill_insert
@@ -12458,6 +12474,7 @@ virtual thunk to CSharedCountingSemaphoreLinux::Wait(unsigned long, vr::VRNative
 virtual thunk to CSharedCountingSemaphoreLinux::~CSharedCountingSemaphoreLinux()
 virtual thunk to CSharedImageLinux::GetArraySize() const
 virtual thunk to CSharedImageLinux::GetDeviceSize() const
+virtual thunk to CSharedImageLinux::GetFlags() const
 virtual thunk to CSharedImageLinux::GetFormat() const
 virtual thunk to CSharedImageLinux::GetHeight() const
 virtual thunk to CSharedImageLinux::GetMipLevels() const
@@ -12479,7 +12496,7 @@ virtual thunk to CSharedImageLinux::IsDedicated() const
 virtual thunk to CSharedImageLinux::IsMappable() const
 virtual thunk to CSharedImageLinux::IsRenderable() const
 virtual thunk to CSharedImageLinux::PrepareForInterop()
-virtual thunk to CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
+virtual thunk to CSharedImageLinux::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
 virtual thunk to CSharedImageLinux::SetVulkanLayout(VkImageLayout)
 virtual thunk to CSharedImageLinux::SetVulkanQueueIndex(unsigned int)
 virtual thunk to CSharedImageLinux::~CSharedImageLinux()
@@ -13335,6 +13352,7 @@ void std::__introsort_loop<__gnu_cxx::__normal_iterator<int*, std::vector<int, s
 void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
 void std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_push_back_aux<Json::Reader::ErrorInfo const&>(Json::Reader::ErrorInfo const&)
 void std::deque<LoggableTimingEvent_t, std::allocator<LoggableTimingEvent_t>>::_M_push_back_aux<LoggableTimingEvent_t const&>(LoggableTimingEvent_t const&)
+void std::deque<SVLDataLink::IDAndTime, std::allocator<SVLDataLink::IDAndTime>>::_M_push_back_aux<SVLDataLink::IDAndTime const&>(SVLDataLink::IDAndTime const&)
 void std::deque<std::tuple<unsigned char*, int, TransportFrameMetadata_t, int, bool>, std::allocator<std::tuple<unsigned char*, int, TransportFrameMetadata_t, int, bool>>>::_M_push_back_aux<std::tuple<unsigned char*, int, TransportFrameMetadata_t, int, bool>>(std::tuple<unsigned char*, int, TransportFrameMetadata_t, int, bool>&&)
 void std::vector<BufferedLogMessage_t, std::allocator<BufferedLogMessage_t>>::_M_realloc_insert<BufferedLogMessage_t const&>(__gnu_cxx::__normal_iterator<BufferedLogMessage_t*, std::vector<BufferedLogMessage_t, std::allocator<BufferedLogMessage_t>>>, BufferedLogMessage_t const&)
 void std::vector<CAnimState, std::allocator<CAnimState>>::_M_realloc_insert<CAnimState>(__gnu_cxx::__normal_iterator<CAnimState*, std::vector<CAnimState, std::allocator<CAnimState>>>, CAnimState&&)
@@ -13435,6 +13453,7 @@ volkLoadDeviceTable
 volkLoadInstance
 volkLoadInstanceOnly
 vr-input-workshop://
+vr::CVRPathHelpers::GetStringPath(unsigned long, unsigned long, vr::ETrackedPropertyError*)
 vr::IVRDriverDirectModeComponent::DestroyAllSwapTextureSets(unsigned int)
 vr::IVRDriverDirectModeComponent::DestroySwapTextureSet(unsigned long)
 vr::IVRSharedBuffer::GetVulkanBuffer() const
@@ -13450,7 +13469,7 @@ vr::IVRSharedImage::GetVulkanImageMemory() const
 vr::IVRSharedImage::GetVulkanMemoryHandleType() const
 vr::IVRSharedImage::ImportOGLImage(unsigned long)
 vr::IVRSharedImage::ImportVulkanImage(VkDevice_T*, unsigned long)
-vr::IVRSharedImage::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
+vr::IVRSharedImage::PrepareVulkanImageForExport(VkDevice_T*, VkImage_T*, VkDeviceMemory_T*, VkFormat, VkSharingMode, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool, bool, bool, bool, unsigned int, unsigned int const*)
 vr::IVRSharedResource::CreateFD()
 vr::IVRSharedSemaphore::GetOGLSemaphore(bool)
 vr::IVRSharedSemaphore::GetVulkanSemaphore() const

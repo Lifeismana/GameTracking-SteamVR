@@ -448,7 +448,6 @@
 /tmp/.steam-sem-names
 /u%d-%s-ValveIPCSharedObj-SteamVR
 /u%d-Shm_%x
-00:56:50
 0123456789
 0123456789ABCDEF
 11CVkTimeline
@@ -458,6 +457,7 @@
 16CVkCommandBuffer
 18CPrismDisplay_Null
 18IPrismPoseProvider
+19:17:17
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
@@ -1025,7 +1025,8 @@ CVkAllocator::CVkAllocator(CVkDevice*, char const*)
 CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&, VkBuffer_T*)
 CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&, VkBuffer_T*) (.cold)
 CVkAllocator::CreateImage(unsigned int, unsigned int, VkFormat, unsigned int, char const*, VkImageAllocationDetails_t const&, VkImage_T*)
-CVkAllocator::CreateImage(unsigned int, unsigned int, VkFormat, unsigned int, char const*, VkImageAllocationDetails_t const&, VkImage_T*) (.cold)
+CVkAllocator::CreateImageWithFlags(unsigned int, unsigned int, VkFormat, unsigned int, unsigned int, char const*, VkImageAllocationDetails_t const&, VkImage_T*)
+CVkAllocator::CreateImageWithFlags(unsigned int, unsigned int, VkFormat, unsigned int, unsigned int, char const*, VkImageAllocationDetails_t const&, VkImage_T*) (.cold)
 CVkAllocator::EnumerateMemoryTypes()
 CVkAllocator::GetCompatibleMemoryType(VkAllocationDetails_t const&, VkMemoryRequirements2 const&)
 CVkAllocator::GetCompatibleMemoryTypes(VkAllocationDetails_t const&, VkMemoryRequirements2 const&)
@@ -1299,7 +1300,7 @@ CreateDefaultSampler
 CreateDepthImage
 CreateDevice
 CreateFramebuffer
-CreateImage
+CreateImageWithFlags
 CreateInstance
 CreateNullClientUniformBuffer
 CreateRenderPass
@@ -2136,6 +2137,7 @@ None
 November
 Null
 Null Client
+Oct  7 2025
 October
 OnPreSubmit
 Out of thread local storage!\n
@@ -2329,7 +2331,6 @@ Saturday
 SecondsToSystemTicks(double)
 See 
 Self queried namespace: %u\n
-Sep 17 2025
 September
 Set thread %p priority to: %d\n
 SetCurrentProcessExplicitAppUserModelID()
@@ -3739,7 +3740,6 @@ pure virtual method called\n
 putc
 puts
 putwc
-q1d2
 random_device::random_device(const std::string&)
 read
 read_encoded_value_with_base

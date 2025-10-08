@@ -1,4 +1,4 @@
-var CLSTAMP = "10075201";
+var CLSTAMP = "10128440";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [797],
   {
@@ -149,6 +149,7 @@ var CLSTAMP = "10075201";
           return m.s_Current;
         }
         constructor(e) {
+          var t;
           super(e),
             (this.m_DomRef = null),
             (this.m_scalingDomRef = null),
@@ -171,7 +172,11 @@ var CLSTAMP = "10075201";
               bFontsLoaded: !1,
               nForcedUpdateNumber: 0,
               bShowDebugPointer: !1,
-              eRenderMode: VRHTML.VRUtil.BSupportsCEFCanvas()
+              eRenderMode: (
+                null === (t = VRHTML.VRUtil) || void 0 === t
+                  ? void 0
+                  : t.BSupportsCEFCanvas()
+              )
                 ? i.Canvas
                 : i.Image,
             }),
@@ -289,16 +294,19 @@ var CLSTAMP = "10075201";
           this.updateAllPanelBounds();
         }
         createEmbeddedData() {
+          var e;
           this.state.eRenderMode == i.Image
             ? ((this.m_EmbeddedDataImgRef.current.width =
                 this.m_nEmbeddedDataWidth),
               this.m_EmbeddedDataImgRGBBuffer ||
                 (this.m_EmbeddedDataImgRGBBuffer =
-                  VRHTML.VRUtil.CreateEmbeddedRGBScanline(
-                    this.m_nEmbeddedDataWidth,
-                    1,
-                    4,
-                  )))
+                  null === (e = VRHTML.VRUtil) || void 0 === e
+                    ? void 0
+                    : e.CreateEmbeddedRGBScanline(
+                        this.m_nEmbeddedDataWidth,
+                        1,
+                        4,
+                      )))
             : this.state.eRenderMode == i.Canvas &&
               ((this.m_CanvasRef.current.width = this.m_nEmbeddedDataWidth),
               (this.m_CanvasContext =
@@ -335,6 +343,7 @@ var CLSTAMP = "10075201";
               this.updateEmbeddedData());
         }
         updateEmbeddedData() {
+          var e;
           if (!this.m_EmbeddedDataImgRef && !this.m_CanvasRef) return;
           this.setPixel(
             0,
@@ -376,12 +385,15 @@ var CLSTAMP = "10075201";
             }),
             this.m_EmbeddedDataImgRef && this.state.eRenderMode == i.Image)
           ) {
-            const e = VRHTML.VRUtil.GetEmbeddedScanlineAsURIImage(
-              this.m_nEmbeddedDataWidth,
-              1,
-              4,
-            );
-            this.m_EmbeddedDataImgRef.current.src = e;
+            const t =
+              null === (e = VRHTML.VRUtil) || void 0 === e
+                ? void 0
+                : e.GetEmbeddedScanlineAsURIImage(
+                    this.m_nEmbeddedDataWidth,
+                    1,
+                    4,
+                  );
+            this.m_EmbeddedDataImgRef.current.src = t;
           } else if (this.m_CanvasRef && this.state.eRenderMode == i.Canvas) {
             let e = this.m_nDirtyXMax - this.m_nDirtyXMin + 1;
             this.m_CanvasContext.putImageData(
@@ -428,4 +440,4 @@ var CLSTAMP = "10075201";
         (0, a.Cg)([d.o], m.prototype, "onMutation", null);
     },
   },
-]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~7f75cbff5.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~7f75cbff5.js.map

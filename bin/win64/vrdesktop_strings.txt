@@ -114,6 +114,7 @@
 /user/wrist/left
 /user/wrist/right
 1e+9999
+2O41>
 9a&g
 <unknown>
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -369,7 +370,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSD
+RSDS
 RaiseException
 Reinitializing output duplication for desktop %d.\n
 ResetEvent
@@ -533,7 +534,6 @@ handlers
 hu_hu
 hungarian
 i]Wb
-icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer

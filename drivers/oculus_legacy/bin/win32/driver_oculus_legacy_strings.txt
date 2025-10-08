@@ -128,7 +128,7 @@ IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
-IVRIPCResourceManagerClient_002
+IVRIPCResourceManagerClient_003
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -156,7 +156,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS|
+RSDS
 RaiseException
 SDL2.dll
 SDL_CreateWindow
@@ -253,6 +253,7 @@ map/set<T> too long
 memcpy
 memmove
 memset
+n8DI
 oculus
 ovrHmd_ConfigureTracking failed for %d\n
 ovrHmd_Create failed\n

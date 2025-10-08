@@ -769,7 +769,7 @@ IVRDriverDirectModeComponent_009
 IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
-IVRIPCResourceManagerClient_002
+IVRIPCResourceManagerClient_003
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -1827,6 +1827,7 @@ long double
 long long
 lower
 lseek64
+mPd8
 malloc
 marker.8730
 mbrtowc

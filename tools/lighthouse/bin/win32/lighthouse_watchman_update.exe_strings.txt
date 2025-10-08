@@ -259,7 +259,7 @@
 ??_7ctype_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?NRF52
+?MAX10
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@GG@Z
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
 ?_BADOFF@std@@3_JB
@@ -493,7 +493,7 @@ IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverManager_001
-IVRIPCResourceManagerClient_002
+IVRIPCResourceManagerClient_003
 IVRResources_001
 IVRSettings_003
 IVRVirtualDisplay_002
@@ -527,7 +527,6 @@ Log Erase
 Looking for %u bootloaders\n
 Looking for serial number 
 M8MF
-MAX10
 MGiI
 MIPI Init
 MIPI Init Error
@@ -541,6 +540,7 @@ Max watchdog reset count
 MbP?
 NEO_VRC
 NJ2"v
+NRF52
 NRF52 DTM
 New App Version
 New BL Version
@@ -565,7 +565,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS-
+RSDS
 Radio version:      
 RaiseException
 ReadFile

@@ -112,7 +112,6 @@
 /user/wrist/left
 /user/wrist/right
 1e+9999
-7W\vL
 : exception thrown in JSON library
 <unknown>
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
@@ -291,7 +290,7 @@ Out of thread local storage!\n
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
 QueryPerformanceCounter
-RSDS=
+RSDSB\f
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

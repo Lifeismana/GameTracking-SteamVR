@@ -1,4 +1,4 @@
-var CLSTAMP = "10075201";
+var CLSTAMP = "10128440";
 (() => {
   "use strict";
   var e,
@@ -236,6 +236,7 @@ var CLSTAMP = "10075201";
           rx: () => V.rx,
           sJ: () => v.$,
           sk: () => n.sk,
+          sn: () => n.sn,
           tx: () => a.tx,
           uC: () => R.u,
           vx: () => a.vx,
@@ -279,7 +280,7 @@ var CLSTAMP = "10075201";
           y = s(1532),
           m = s(6138),
           c = s(7813),
-          f = s(9125);
+          f = s(582);
         (0, c.configure)({ enforceActions: "never" });
         class p extends a.Component {
           constructor(e) {
@@ -446,6 +447,7 @@ var CLSTAMP = "10075201";
                 return void this.m_keyTypeToHandler.get(s.type)(s);
             }
             if (
+              this.m_curShiftPlane &&
               e < this.m_curShiftPlane.rows.length &&
               t < this.m_curShiftPlane.rows[e].length
             ) {
@@ -977,4 +979,4 @@ var CLSTAMP = "10075201";
     () => n(7511),
   );
   a = n.O(a);
-})(); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/keyboard.js.map
+})(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/keyboard.js.map

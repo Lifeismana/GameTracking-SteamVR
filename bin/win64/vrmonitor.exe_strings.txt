@@ -581,6 +581,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVrange_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
+.AHe
 .CRT$XCA
 .CRT$XCAA
 .CRT$XCL
@@ -731,7 +732,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-17:55:31
+12:17:30
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -5055,6 +5056,7 @@ OSBuild
 OSType
 OW?size@QOffscreenSurface@@UEBA?AVQSize@@XZ
 O\f?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
+Oct  7 2025
 Old Style single quad\n
 On laptop, HMD detected over USB, but Monitor not found (213)
 OnAboutAction
@@ -5927,9 +5929,10 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS2
+RSDSTBX
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
+R\vpD
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n
@@ -6217,7 +6220,6 @@ See
 Select System Report
 SelectablePart
 SelectableParts
-Sep 16 2025
 Serial: %1\n
 SessionID
 SessionTime
@@ -6328,6 +6330,7 @@ ShutdownWhileAppRunning_Format
 ShutdownWhileAppRunning_Title
 Skipping OpenXR prompt because another runtime is set\n
 Skipping OpenXR prompt because it's been dismissed\n
+Skipping OpenXR prompt because streaming launch will force it automatically\n
 Skipping OpenXR prompt because we are set\n
 Skipping add_ogs_row field %s because we don't support that type of field\n
 Skipping version update notice because we notified about %s, which is newer than our current version of %s\n
@@ -8067,7 +8070,6 @@ enable
 enableBluetooth
 enableCamera
 enableCameraSurfaces
-enableDriverBoundsImport
 enableHomeApp
 enableSafeMode
 enableYAMLCompatibility
@@ -8538,6 +8540,7 @@ o\r?inputMethodEvent@QLineEdit@@MEAAXPEAVQInputMethodEvent@@@Z
 o\t?create@QSharedMemory@@QEAA_NHW4AccessMode@1@@Z
 oasis
 oculus
+oculus_virtualdesktop
 offline
 offset
 offsetX

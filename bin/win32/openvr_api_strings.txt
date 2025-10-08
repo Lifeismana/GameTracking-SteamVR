@@ -351,7 +351,6 @@ Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
 Driver runtime is out of date (204)
 Driver unable to initialize video encoder (499)
-DsQK
 Duplicate key: '
 DuplicateHandle
 DynamicProgressFeedback
@@ -550,7 +549,7 @@ PeekNamedPipe
 Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDS
+RSDSjjo
 RaiseException
 ReadConsoleW
 ReadFile

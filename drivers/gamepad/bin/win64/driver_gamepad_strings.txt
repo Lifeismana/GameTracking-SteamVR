@@ -119,7 +119,7 @@ IVRDriverDirectModeComponent_009
 IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
-IVRIPCResourceManagerClient_002
+IVRIPCResourceManagerClient_003
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -136,7 +136,7 @@ MSVCP140.dll
 MainThrd
 Out of thread local storage!\n
 QueryPerformanceCounter
-RSDSKg
+RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -219,7 +219,6 @@ bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_win64\build\src\drivers\gamepad\Retail\win64\2017\driver_gamepad.pdb
 driver_gamepad.dll
-f80(
 free
 malloc
 map/set<T> too long

@@ -41,11 +41,15 @@
 (anonymous namespace)::DebugUtilsLogRecorder::LogMessage(unsigned long, unsigned long, XrLoaderLogMessengerCallbackData const*)
 (anonymous namespace)::DebugUtilsLogRecorder::LogMessage(unsigned long, unsigned long, XrLoaderLogMessengerCallbackData const*) (.cold)
 (anonymous namespace)::DebugUtilsLogRecorder::~DebugUtilsLogRecorder()
+(anonymous namespace)::GetOverrideProperties()
+(anonymous namespace)::GetOverrideProperties()::override_properties
+(anonymous namespace)::GetOverridePropertiesMutex()::override_properties_mutex
 (anonymous namespace)::GetSetCurrentLoaderInstance()
 (anonymous namespace)::GetSetCurrentLoaderInstance()::current_loader_instance
 (anonymous namespace)::OstreamLoaderLogRecorder::LogMessage(unsigned long, unsigned long, XrLoaderLogMessengerCallbackData const*)
 (anonymous namespace)::OstreamLoaderLogRecorder::LogMessage(unsigned long, unsigned long, XrLoaderLogMessengerCallbackData const*) (.cold)
 (anonymous namespace)::OstreamLoaderLogRecorder::~OstreamLoaderLogRecorder()
+(anonymous namespace)::TryGetPropertyOverride(std::string const&)
 (anonymous namespace)::__io_category_instance()::__ec
 (anonymous namespace)::__new_handler
 (anonymous namespace)::c_locale
@@ -186,6 +190,7 @@ ActiveLoaderInstance::Set(std::unique_ptr<LoaderInstance, std::default_delete<Lo
 AddEnvironmentApiLayers(std::vector<std::string, std::allocator<std::string>>&) (.constprop.0)
 AddEnvironmentApiLayers(std::vector<std::string, std::allocator<std::string>>&) (.constprop.0) (.cold)
 AddIfJson(std::string const&, std::vector<std::string, std::allocator<std::string>>&)
+An active instance currently exists while trying to reinitialize the loader
 ApiLayerInterface being destroyed for layer 
 ApiLayerInterface::ApiLayerInterface(std::string const&, void*, std::vector<std::string, std::allocator<std::string>>&, XrResult (*)(XrInstance_T*, char const*, void (**)()), XrResult (*)(XrInstanceCreateInfo const*, XrApiLayerCreateInfo const*, XrInstance_T**))
 ApiLayerInterface::ApiLayerInterface(std::string const&, void*, std::vector<std::string, std::allocator<std::string>>&, XrResult (*)(XrInstance_T*, char const*, void (**)()), XrResult (*)(XrInstanceCreateInfo const*, XrApiLayerCreateInfo const*, XrInstance_T**)) (.cold)
@@ -298,6 +303,9 @@ HOME
 Implicit layer 
 Infinity
 Info [
+InitializeLoaderInitData
+InitializeLoaderInitData(XrLoaderInitInfoBaseHeaderKHR const*)
+InitializeLoaderInitData(XrLoaderInitInfoBaseHeaderKHR const*) (.cold)
 Instance handle is XR_NULL_HANDLE.
 Invalid Function pointer
 Invalid Name pointer
@@ -793,6 +801,10 @@ LargestUInt out of Int64 range
 LargestUInt out of UInt range
 Line %d, Column %d
 Loader does not support simultaneous XrInstances
+LoaderInitData::initialize(XrLoaderInitInfoBaseHeaderKHR const*)
+LoaderInitData::initializeProperties(XrLoaderInitInfoBaseHeaderKHR const*)
+LoaderInitData::initializeProperties(XrLoaderInitInfoBaseHeaderKHR const*) (.cold)
+LoaderInitData::instance()::obj
 LoaderInstance::CreateInstance chained CreateInstance call failed
 LoaderInstance::CreateInstance succeeded with 
 LoaderInstance::CreateInstance(XrResult (*)(XrInstance_T*, char const*, void (**)()), XrResult (*)(XrInstanceCreateInfo const*, XrInstance_T**), XrResult (*)(XrInstanceCreateInfo const*, XrApiLayerCreateInfo const*, XrInstance_T**), std::vector<std::unique_ptr<ApiLayerInterface, std::default_delete<ApiLayerInterface>>, std::allocator<std::unique_ptr<ApiLayerInterface, std::default_delete<ApiLayerInterface>>>>, XrInstanceCreateInfo const*, std::unique_ptr<LoaderInstance, std::default_delete<LoaderInstance>>*)
@@ -836,6 +848,14 @@ LoaderLogger::RemoveLogRecorder(unsigned long)
 LoaderLogger::RemoveLogRecordersForXrInstance(XrInstance_T*)
 LoaderLogger::RemoveLogRecordersForXrInstance(XrInstance_T*) (.cold)
 LoaderLogger::~LoaderLogger()
+LoaderProperty::ClearOverrides()
+LoaderProperty::Get(std::string const&)
+LoaderProperty::Get(std::string const&) (.cold)
+LoaderProperty::GetSecure(std::string const&)
+LoaderProperty::GetSecure(std::string const&) (.cold)
+LoaderProperty::IsSet(std::string const&)
+LoaderProperty::SetOverride(std::string, std::string)
+LoaderProperty::SetOverride(std::string, std::string) (.cold)
 LoaderTrampolineCreateDebugUtilsMessengerEXT(XrInstance_T*, XrDebugUtilsMessengerCreateInfoEXT const*, XrDebugUtilsMessengerEXT_T**)
 LoaderTrampolineCreateDebugUtilsMessengerEXT(XrInstance_T*, XrDebugUtilsMessengerCreateInfoEXT const*, XrDebugUtilsMessengerEXT_T**) (.cold)
 LoaderTrampolineDestroyDebugUtilsMessengerEXT(XrDebugUtilsMessengerEXT_T*)
@@ -860,6 +880,8 @@ LoaderXrEnumerateInstanceExtensionProperties(char const*, unsigned int, unsigned
 LoaderXrEnumerateInstanceExtensionProperties(char const*, unsigned int, unsigned int*, XrExtensionProperties*) (.cold)
 LoaderXrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)())
 LoaderXrGetInstanceProcAddr(XrInstance_T*, char const*, void (**)()) (.cold)
+LoaderXrInitializeLoaderKHR(XrLoaderInitInfoBaseHeaderKHR const*)
+LoaderXrInitializeLoaderKHR(XrLoaderInitInfoBaseHeaderKHR const*) (.cold)
 LoaderXrTermCreateApiLayerInstance(XrInstanceCreateInfo const*, XrApiLayerCreateInfo const*, XrInstance_T**)
 LoaderXrTermCreateDebugUtilsMessengerEXT(XrInstance_T*, XrDebugUtilsMessengerCreateInfoEXT const*, XrDebugUtilsMessengerEXT_T**)
 LoaderXrTermCreateDebugUtilsMessengerEXT(XrInstance_T*, XrDebugUtilsMessengerCreateInfoEXT const*, XrDebugUtilsMessengerEXT_T**) (.cold)
@@ -982,8 +1004,6 @@ October
 OpenXR-Loader
 PERF
 POSIX
-PlatformUtilsGetSecureEnv(char const*)
-PlatformUtilsGetSecureEnv(char const*) (.cold)
 RuntimeInterface being destroyed.
 RuntimeInterface::CreateInstance(XrInstanceCreateInfo const*, XrInstance_T**)
 RuntimeInterface::CreateInstance(XrInstanceCreateInfo const*, XrInstance_T**) (.cold)
@@ -1166,6 +1186,7 @@ Unknown error
 Unknown error occurred calling down chain
 Unknown failure
 Unknown failure: 
+Unloading any previously loaded runtime
 VTT for 
 VTT for std::basic_fstream<char, std::char_traits<char>>
 VTT for std::basic_fstream<wchar_t, std::char_traits<wchar_t>>
@@ -1247,9 +1268,11 @@ _GLOBAL__sub_I_filesystem_utils.cpp
 _GLOBAL__sub_I_json_reader.cpp
 _GLOBAL__sub_I_json_value.cpp
 _GLOBAL__sub_I_loader_core.cpp
+_GLOBAL__sub_I_loader_init_data.cpp
 _GLOBAL__sub_I_loader_instance.cpp
 _GLOBAL__sub_I_loader_logger.cpp
 _GLOBAL__sub_I_loader_logger_recorders.cpp
+_GLOBAL__sub_I_loader_properties.cpp
 _GLOBAL__sub_I_locale_inst.cc
 _GLOBAL__sub_I_manifest_file.cpp
 _GLOBAL__sub_I_runtime_interface.cpp
@@ -1792,6 +1815,7 @@ global constructors keyed to
 global destructors keyed to 
 graph
 guard variable for 
+guard variable for (anonymous namespace)::GetOverrideProperties()::override_properties
 guard variable for (anonymous namespace)::GetSetCurrentLoaderInstance()::current_loader_instance
 guard variable for (anonymous namespace)::__io_category_instance()::__ec
 guard variable for (anonymous namespace)::get_locale_cache_mutex()::locale_cache_mutex
@@ -2066,6 +2090,7 @@ std::_Hashtable<XrSession_T*, std::pair<XrSession_T* const, std::unique_ptr<std:
 std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_find_before_node(unsigned long, std::string const&, unsigned long) const
 std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::string const, std::string>, true>*, unsigned long)
 std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_rehash(unsigned long, unsigned long const&)
+std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::clear()
 std::_Hashtable<std::string, std::string, std::allocator<std::string>, std::__detail::_Identity, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::string, true>*, unsigned long)
 std::_Hashtable<std::string, std::string, std::allocator<std::string>, std::__detail::_Identity, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true>>::_M_rehash(unsigned long, unsigned long const&)
 std::_Hashtable<std::string, std::string, std::allocator<std::string>, std::__detail::_Identity, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true>>::~_Hashtable()
@@ -4766,6 +4791,7 @@ std::pair<Json::Value::CZString const, Json::Value>::~pair()
 std::pair<std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value>>, bool> std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_emplace_unique<unsigned int, Json::Value>(unsigned int&&, Json::Value&&)
 std::pair<std::__detail::_Node_iterator<std::pair<std::string const, std::string>, false, true>, bool> std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_emplace<std::string&, std::string&>(std::integral_constant<bool, true>, std::string&, std::string&)
 std::pair<std::string const, std::string>::~pair()
+std::pair<std::string, std::string>::~pair()
 std::piecewise_construct
 std::random_device::_M_init(std::string const&)
 std::random_device::_M_init_pretr1(std::string const&)
@@ -5053,6 +5079,7 @@ std::unique_ptr<RuntimeInterface, std::default_delete<RuntimeInterface>>::~uniqu
 std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel>>& std::vector<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel>>, std::allocator<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel>>>>::emplace_back<std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel>>>(std::unique_ptr<XrSdkSessionLabel, std::default_delete<XrSdkSessionLabel>>&&)
 std::unique_ptr<std::array<std::string, 3ul>, std::default_delete<std::array<std::string, 3ul>>> Json::cloneUnique<std::array<std::string, 3ul>>(std::unique_ptr<std::array<std::string, 3ul>, std::default_delete<std::array<std::string, 3ul>>> const&)
 std::unique_ptr<std::array<std::string, 3ul>, std::default_delete<std::array<std::string, 3ul>>> Json::cloneUnique<std::array<std::string, 3ul>>(std::unique_ptr<std::array<std::string, 3ul>, std::default_delete<std::array<std::string, 3ul>>> const&) (.cold)
+std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string>>>::~unordered_map()
 std::vector<XrExtensionProperties, std::allocator<XrExtensionProperties>>::_M_fill_insert(__gnu_cxx::__normal_iterator<XrExtensionProperties*, std::vector<XrExtensionProperties, std::allocator<XrExtensionProperties>>>, unsigned long, XrExtensionProperties const&)
 std::vector<XrSdkLogObjectInfo, std::allocator<XrSdkLogObjectInfo>>::~vector()
 std::vector<std::Catalog_info*, std::allocator<std::Catalog_info*>>::_M_realloc_insert(__gnu_cxx::__normal_iterator<std::Catalog_info**, std::vector<std::Catalog_info*, std::allocator<std::Catalog_info*>>>, std::Catalog_info* const&)
@@ -5598,7 +5625,6 @@ uw_update_context
 uw_update_context.cold
 uw_update_context_1
 uw_update_context_1.cold
-vDX)
 vector::_M_fill_insert
 vector::_M_realloc_insert
 vector::reserve
@@ -5997,6 +6023,7 @@ xrGetSystemProperties.cold
 xrGetViewConfigurationProperties
 xrGetViewConfigurationProperties.cold
 xrInitializeLoaderKHR
+xrInitializeLoaderKHR(XrLoaderInitInfoBaseHeaderKHR const*)
 xrLocateSpace
 xrLocateSpace.cold
 xrLocateSpaces

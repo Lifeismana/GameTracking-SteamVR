@@ -209,6 +209,10 @@
   "BindingUI_ChordsButton_tooltip": "Bindings that combine two components or types of input to execute one action.",
   "BindingUI_SimulatingControllerInfo_tooltip": "Controller simulations allows a controller to appear as a different type of controller to an application. You can change this in Options.",
 
+  "BindingUI_Options_simulate_rendermodel_type_full_tooltip": "Use the 3D model and 3D model name of the compatibility controller type instead of your physical controller.",
+  "BindingUI_Options_simulate_rendermodel_type_name_only_tooltip": "Use the 3D model name of the compatibility controller type but use the 3D model of your physical controller. This is usually enough for most games.",
+  "BindingUI_Options_simulate_rendermodel_type_none_tooltip": "Do not simulate any 3D model or 3D model name data.",
+
   "SourceInputMode_ScrollMode": "Scroll mode:",
   "SourceInputMode_ScrollMode_Smooth": "Smooth (Like a trackpad)",
   "SourceInputMode_ScrollMode_Discrete": "Discrete (Like a mouse wheel)",
@@ -368,6 +372,9 @@
   "BindingUI_Options_simulate_rendermodel_Label": "Simulate Render Model",
   "BindingUI_Options_simulate_hmd_Label": "Simulate HMD",
   "BindingUI_Options_ControllerOffsets_Label": "Controller Offsets",
+  "BindingUI_Options_simulate_rendermodel_type_full_Label": "Full",
+  "BindingUI_Options_simulate_rendermodel_type_name_only_Label": "Name Only",
+  "BindingUI_Options_simulate_rendermodel_type_none_Label": "None",
 
   "BindingUI_MirrorMode": "Mirror Mode",
   "BindingUI_LeftHandController": "Left %1$s",

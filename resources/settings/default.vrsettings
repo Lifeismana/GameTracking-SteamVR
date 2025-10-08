@@ -81,7 +81,8 @@
         "hmdDisplayColorGainB": 1.0,
         "customIconStyle": "gradientCorners:#5CBD76,#07AB9C,#6053F6,#0973FA",
         "customOffIconStyle": "gradient:#514f54-#424449",
-        "trackingLossColor": "#4D6680",
+        "trackingLossColor": "#4F5a64",
+        "startColor": "#4F5a64",
         "analogGain": 1.3,
         "globalActionSetPriority": false,
         "noEdgeExitHaptics": true,
@@ -89,9 +90,11 @@
         "blockOculusSDKOnOpenVRLaunchOption": false,
         "blockOculusSDKOnAllLaunches": false,
         "overlayRenderQuality_2": 0,
+        "overlayMips": 0,
+        "overlayMipbias": 0.0,
         "displayPortTrainingMode": 0,
         "disableKeyboardPrivacy": false,
-		"advpredictweights": "advpredict.weights"
+        "advpredictweights": "advpredict.weights"
     },
     "openxr": {
         "metaUnityPluginCompatibility": 0

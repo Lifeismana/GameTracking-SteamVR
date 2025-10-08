@@ -349,6 +349,25 @@ $tI(knN
 **** JUDDER **** expected %u got %u\n
 ***** Reloading Shaders Begin\n
 ***** Reloading Shaders End\n
++2cursor
++clickstab
++close
++dash
++interactive
++keyboard
++modal
++pano
++premult
++protect
++sbsc
++sbsp
++scroll
++scrollwheel
++smoothscroll
++sortns
++stereo
++touch
++xown
 , binary size = 
 , but got 
 , column 
@@ -359,8 +378,12 @@ $tI(knN
 -IPCWrapper
 -Infinity
 -Unable to create shared state %s because namespace wasn't available\n
+-alpha
+-bar
+-dash
 -disablewatchdogs
 -lang="
+-laser
 -nokillprocess
 -personality_distort
 -preloadonly -preloadvpks_all
@@ -587,6 +610,7 @@ $tI(knN
 .?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_001@@@@
 .?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_002@@@@
 .?AV?$IPCResourceManagerClientInterfaceRegistration@VCVRIPCResourceManagerClient_001@@@@
+.?AV?$IPCResourceManagerClientInterfaceRegistration@VCVRIPCResourceManagerClient_002@@@@
 .?AV?$InputInterfaceRegistration@VCVRInput_001@@@@
 .?AV?$InputInterfaceRegistration@VCVRInput_002@@@@
 .?AV?$InputInterfaceRegistration@VCVRInput_003@@@@
@@ -659,6 +683,7 @@ $tI(knN
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_021@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_022@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_023@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_024@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -953,6 +978,7 @@ $tI(knN
 .?AVCVRIOBuffer_002@@
 .?AVCVRIPCResourceManagerBase@@
 .?AVCVRIPCResourceManagerClient_001@@
+.?AVCVRIPCResourceManagerClient_002@@
 .?AVCVRInputLatest@@
 .?AVCVRInput_001@@
 .?AVCVRInput_002@@
@@ -1240,6 +1266,7 @@ $tI(knN
 .?AVCVRSteamPrivate_021@@
 .?AVCVRSteamPrivate_022@@
 .?AVCVRSteamPrivate_023@@
+.?AVCVRSteamPrivate_024@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1388,6 +1415,7 @@ $tI(knN
 .?AVIVRSteamPrivate_022@vr@@
 .?AVIVRSteamPrivate_023@vr@@
 .?AVIVRSteamPrivate_024@vr@@
+.?AVIVRSteamPrivate_025@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -1538,6 +1566,7 @@ $tI(knN
 /best_alias_path
 /block_id
 /blocks
+/chaperone/bounds_hash
 /chaperone/collision_radius
 /chaperone/is_default_perimeter
 /chaperone/perimeter
@@ -1901,8 +1930,6 @@ $tI(knN
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789ABCDEF
-04g3
-0@J3
 0\tFAJ
 1.0.3.16
 1/2/4/8/16-bit only
@@ -2261,6 +2288,7 @@ CSxrSpace
 CSxrSpace::Init
 CSxrSwapchainBase
 CSxrSwapchainBase::EndFrame
+CSxrSwapchainBase::UpdateSwapchainFB
 CSxrSwapchainD3D11Direct::GetPresentableDepthTexture
 CSxrSwapchainD3D11Direct::GetPresentableTexture
 CSxrSwapchainD3D11Direct::GetPresentableTextureHandle
@@ -2500,7 +2528,7 @@ CVRSteamPrivate::SwitchToDashboardOverlay
 CVkAllocator::AllocateMemory
 CVkAllocator::AllocateMemoryFromType
 CVkAllocator::CreateBuffer
-CVkAllocator::CreateImage
+CVkAllocator::CreateImageWithFlags
 CVkAllocator::GetCompatibleMemoryType
 CVkCommandBuffer::Begin
 CVkCommandBuffer::End
@@ -3327,6 +3355,7 @@ IVRIOBuffer_001
 IVRIOBuffer_002
 IVRIPCResourceManagerClient_001
 IVRIPCResourceManagerClient_002
+IVRIPCResourceManagerClient_003
 IVRInputInternal_002
 IVRInput_001
 IVRInput_002
@@ -3428,6 +3457,7 @@ IVRSteamPrivate_021
 IVRSteamPrivate_022
 IVRSteamPrivate_023
 IVRSteamPrivate_024
+IVRSteamPrivate_025
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID\n
@@ -3545,6 +3575,7 @@ Invalid response to connect message. Connect failed\n
 Invalid target queue mode during image transition: %d\n
 Invalid texture bounds( %f, %f, %f, %f ) from application\n
 Invalid type in  '
+Invalid value for 'simulate_rendermodel' in binding options: %s. Treated as false.
 IsDebuggerPresent
 IsDepthFormat( eVkFormat )
 IsDepthFormat( nTextureFormat )
@@ -3702,7 +3733,6 @@ OrthographicCamera
 Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
-P@J3
 PATH_TO_LOCAL_STRING failed with %s
 PC_%08llx
 PICT
@@ -4015,8 +4045,8 @@ RenderStart
 RendermodelManager: 'components' json entry must be key/value map\n
 RendermodelManager: Both grip and aim are at 0, couldn't guess which direction is outwards for poke/pinch creation.\n
 RendermodelManager: Failed GetOriginalComponentPath(%llu, %s, %s) \n
-RendermodelManager: Failed to create openxr_pinch because no 'openxr_aim' or 'tip' pose was found.\n
-RendermodelManager: Failed to create openxr_pinch because no 'openxr_grip' or 'grip' pose was found.\n
+RendermodelManager: Failed to create openxr_pinch because no 'openxr_aim', 'tip', or 'aim' pose was found.\n
+RendermodelManager: Failed to create openxr_pinch because no 'openxr_grip', 'grip', or 'handgrip' pose was found.\n
 RendermodelManager: Finished setting up render model template: %s.\n
 RendermodelManager: Model info file %s was empty.\n
 RendermodelManager: Reading data for: '%s' from '%s'\n
@@ -5149,7 +5179,11 @@ XR_ENVIRONMENT_DEPTH_NOT_AVAILABLE_META
 XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
 XR_ERROR_ACTIONSET_NOT_ATTACHED
 XR_ERROR_ACTION_TYPE_MISMATCH
+XR_ERROR_ANCHOR_ALREADY_PERSISTED_ANDROID
+XR_ERROR_ANCHOR_ID_NOT_FOUND_ANDROID
+XR_ERROR_ANCHOR_NOT_OWNED_BY_CALLER_ANDROID
 XR_ERROR_ANCHOR_NOT_SUPPORTED_FOR_ENTITY_BD
+XR_ERROR_ANCHOR_NOT_TRACKING_ANDROID
 XR_ERROR_ANDROID_THREAD_SETTINGS_FAILURE_KHR
 XR_ERROR_ANDROID_THREAD_SETTINGS_ID_INVALID_KHR
 XR_ERROR_API_LAYER_NOT_PRESENT
@@ -5203,6 +5237,7 @@ XR_ERROR_MARKER_DETECTOR_PERMISSION_DENIED_ML
 XR_ERROR_MARKER_ID_INVALID_VARJO
 XR_ERROR_MARKER_INVALID_ML
 XR_ERROR_MARKER_NOT_TRACKED_VARJO
+XR_ERROR_MISMATCHING_TRACKABLE_TYPE_ANDROID
 XR_ERROR_NAME_DUPLICATED
 XR_ERROR_NAME_INVALID
 XR_ERROR_NOT_AN_ANCHOR_HTC
@@ -5215,6 +5250,7 @@ XR_ERROR_PATH_FORMAT_INVALID
 XR_ERROR_PATH_INVALID
 XR_ERROR_PATH_UNSUPPORTED
 XR_ERROR_PERMISSION_INSUFFICIENT
+XR_ERROR_PERSISTED_DATA_NOT_READY_ANDROID
 XR_ERROR_PLANE_DETECTION_PERMISSION_DENIED_EXT
 XR_ERROR_POSE_INVALID
 XR_ERROR_REFERENCE_SPACE_UNSUPPORTED
@@ -5244,11 +5280,18 @@ XR_ERROR_SPACE_COMPONENT_NOT_SUPPORTED_FB
 XR_ERROR_SPACE_COMPONENT_STATUS_ALREADY_SET_FB
 XR_ERROR_SPACE_COMPONENT_STATUS_PENDING_FB
 XR_ERROR_SPACE_GROUP_NOT_FOUND_META
+XR_ERROR_SPACE_INSUFFICIENT_RESOURCES_META
+XR_ERROR_SPACE_INSUFFICIENT_VIEW_META
 XR_ERROR_SPACE_LOCALIZATION_FAILED_FB
 XR_ERROR_SPACE_MAPPING_INSUFFICIENT_FB
 XR_ERROR_SPACE_NETWORK_REQUEST_FAILED_FB
 XR_ERROR_SPACE_NETWORK_TIMEOUT_FB
 XR_ERROR_SPACE_NOT_LOCATABLE_EXT
+XR_ERROR_SPACE_PERMISSION_INSUFFICIENT_META
+XR_ERROR_SPACE_RATE_LIMITED_META
+XR_ERROR_SPACE_STORAGE_AT_CAPACITY_META
+XR_ERROR_SPACE_TOO_BRIGHT_META
+XR_ERROR_SPACE_TOO_DARK_META
 XR_ERROR_SPATIAL_ANCHORS_ANCHOR_NOT_FOUND_ML
 XR_ERROR_SPATIAL_ANCHORS_NOT_LOCALIZED_ML
 XR_ERROR_SPATIAL_ANCHORS_OUT_OF_MAP_BOUNDS_ML
@@ -5278,6 +5321,7 @@ XR_ERROR_SYSTEM_INVALID
 XR_ERROR_SYSTEM_NOTIFICATION_INCOMPATIBLE_SKU_ML
 XR_ERROR_SYSTEM_NOTIFICATION_PERMISSION_DENIED_ML
 XR_ERROR_TIME_INVALID
+XR_ERROR_TRACKABLE_TYPE_NOT_SUPPORTED_ANDROID
 XR_ERROR_UNEXPECTED_STATE_PASSTHROUGH_FB
 XR_ERROR_UNKNOWN_PASSTHROUGH_FB
 XR_ERROR_VALIDATION_FAILURE
@@ -5327,6 +5371,7 @@ XR_KHR_win32_convert_performance_counter_time
 XR_META_foveation_eye_tracked
 XR_META_performance_metrics
 XR_META_recommended_layer_resolution
+XR_META_vulkan_swapchain_create_info
 XR_MND_headless
 XR_RENDER_MODEL_UNAVAILABLE_FB
 XR_RESULT_MAX_ENUM
@@ -5359,6 +5404,9 @@ XR_TYPE_ACTION_STATE_GET_INFO
 XR_TYPE_ACTION_STATE_POSE
 XR_TYPE_ACTION_STATE_VECTOR2F
 XR_TYPE_ACTIVE_ACTION_SET_PRIORITIES_EXT
+XR_TYPE_ANCHOR_SHARING_INFO_ANDROID
+XR_TYPE_ANCHOR_SHARING_TOKEN_ANDROID
+XR_TYPE_ANCHOR_SPACE_CREATE_INFO_ANDROID
 XR_TYPE_ANCHOR_SPACE_CREATE_INFO_BD
 XR_TYPE_ANDROID_SURFACE_SWAPCHAIN_CREATE_INFO_FB
 XR_TYPE_API_LAYER_PROPERTIES
@@ -5375,6 +5423,8 @@ XR_TYPE_BODY_SKELETON_HTC
 XR_TYPE_BODY_TRACKER_CREATE_INFO_BD
 XR_TYPE_BODY_TRACKER_CREATE_INFO_FB
 XR_TYPE_BODY_TRACKER_CREATE_INFO_HTC
+XR_TYPE_BODY_TRACKING_CALIBRATION_INFO_META
+XR_TYPE_BODY_TRACKING_CALIBRATION_STATUS_META
 XR_TYPE_BOUNDARY_2D_FB
 XR_TYPE_BOUND_SOURCES_FOR_ACTION_ENUMERATE_INFO
 XR_TYPE_COLOCATION_ADVERTISEMENT_START_INFO_META
@@ -5416,6 +5466,7 @@ XR_TYPE_DEBUG_UTILS_LABEL_EXT
 XR_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT
 XR_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT
 XR_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT
+XR_TYPE_DEVICE_ANCHOR_PERSISTENCE_CREATE_INFO_ANDROID
 XR_TYPE_DEVICE_PCM_SAMPLE_RATE_STATE_FB
 XR_TYPE_DIGITAL_LENS_CONTROL_ALMALENCE
 XR_TYPE_ENVIRONMENT_DEPTH_HAND_REMOVAL_SET_INFO_META
@@ -5448,6 +5499,10 @@ XR_TYPE_EVENT_DATA_SENSE_DATA_PROVIDER_STATE_CHANGED_BD
 XR_TYPE_EVENT_DATA_SENSE_DATA_UPDATED_BD
 XR_TYPE_EVENT_DATA_SESSION_STATE_CHANGED
 XR_TYPE_EVENT_DATA_SHARE_SPACES_COMPLETE_META
+XR_TYPE_EVENT_DATA_SPACES_ERASE_RESULT_META
+XR_TYPE_EVENT_DATA_SPACES_SAVE_RESULT_META
+XR_TYPE_EVENT_DATA_SPACE_DISCOVERY_COMPLETE_META
+XR_TYPE_EVENT_DATA_SPACE_DISCOVERY_RESULTS_AVAILABLE_META
 XR_TYPE_EVENT_DATA_SPACE_ERASE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_LIST_SAVE_COMPLETE_FB
 XR_TYPE_EVENT_DATA_SPACE_QUERY_COMPLETE_FB
@@ -5561,6 +5616,7 @@ XR_TYPE_INTERACTION_RENDER_MODEL_TOP_LEVEL_USER_PATH_GET_INFO_EXT
 XR_TYPE_KEYBOARD_SPACE_CREATE_INFO_FB
 XR_TYPE_KEYBOARD_TRACKING_QUERY_FB
 XR_TYPE_LOADER_INIT_INFO_ANDROID_KHR
+XR_TYPE_LOADER_INIT_INFO_PROPERTIES_EXT
 XR_TYPE_LOCALIZATION_ENABLE_EVENTS_INFO_ML
 XR_TYPE_LOCALIZATION_MAP_IMPORT_INFO_ML
 XR_TYPE_LOCALIZATION_MAP_ML
@@ -5577,6 +5633,7 @@ XR_TYPE_MARKER_SPACE_CREATE_INFO_ML
 XR_TYPE_MARKER_SPACE_CREATE_INFO_VARJO
 XR_TYPE_NEW_SCENE_COMPUTE_INFO_MSFT
 XR_TYPE_PASSTHROUGH_BRIGHTNESS_CONTRAST_SATURATION_FB
+XR_TYPE_PASSTHROUGH_CAMERA_STATE_GET_INFO_ANDROID
 XR_TYPE_PASSTHROUGH_COLOR_HTC
 XR_TYPE_PASSTHROUGH_COLOR_LUT_CREATE_INFO_META
 XR_TYPE_PASSTHROUGH_COLOR_LUT_UPDATE_INFO_META
@@ -5593,6 +5650,8 @@ XR_TYPE_PASSTHROUGH_PREFERENCES_META
 XR_TYPE_PASSTHROUGH_STYLE_FB
 XR_TYPE_PERFORMANCE_METRICS_COUNTER_META
 XR_TYPE_PERFORMANCE_METRICS_STATE_META
+XR_TYPE_PERSISTED_ANCHOR_SPACE_CREATE_INFO_ANDROID
+XR_TYPE_PERSISTED_ANCHOR_SPACE_INFO_ANDROID
 XR_TYPE_PERSIST_SPATIAL_ENTITY_COMPLETION_EXT
 XR_TYPE_PLANE_DETECTOR_BEGIN_INFO_EXT
 XR_TYPE_PLANE_DETECTOR_CREATE_INFO_EXT
@@ -5602,6 +5661,8 @@ XR_TYPE_PLANE_DETECTOR_LOCATION_EXT
 XR_TYPE_PLANE_DETECTOR_POLYGON_BUFFER_EXT
 XR_TYPE_QUERIED_SENSE_DATA_BD
 XR_TYPE_QUERIED_SENSE_DATA_GET_INFO_BD
+XR_TYPE_RAYCAST_HIT_RESULTS_ANDROID
+XR_TYPE_RAYCAST_INFO_ANDROID
 XR_TYPE_RECOMMENDED_LAYER_RESOLUTION_GET_INFO_META
 XR_TYPE_RECOMMENDED_LAYER_RESOLUTION_META
 XR_TYPE_REFERENCE_SPACE_CREATE_INFO
@@ -5671,12 +5732,19 @@ XR_TYPE_SHARE_SPACES_INFO_META
 XR_TYPE_SHARE_SPACES_RECIPIENT_GROUPS_META
 XR_TYPE_SIMULTANEOUS_HANDS_AND_CONTROLLERS_TRACKING_PAUSE_INFO_META
 XR_TYPE_SIMULTANEOUS_HANDS_AND_CONTROLLERS_TRACKING_RESUME_INFO_META
+XR_TYPE_SPACES_ERASE_INFO_META
 XR_TYPE_SPACES_LOCATE_INFO
+XR_TYPE_SPACES_SAVE_INFO_META
 XR_TYPE_SPACE_COMPONENT_FILTER_INFO_FB
 XR_TYPE_SPACE_COMPONENT_STATUS_FB
 XR_TYPE_SPACE_COMPONENT_STATUS_SET_INFO_FB
 XR_TYPE_SPACE_CONTAINER_FB
+XR_TYPE_SPACE_DISCOVERY_INFO_META
+XR_TYPE_SPACE_DISCOVERY_RESULTS_META
+XR_TYPE_SPACE_DISCOVERY_RESULT_META
 XR_TYPE_SPACE_ERASE_INFO_FB
+XR_TYPE_SPACE_FILTER_COMPONENT_META
+XR_TYPE_SPACE_FILTER_UUID_META
 XR_TYPE_SPACE_GROUP_UUID_FILTER_INFO_META
 XR_TYPE_SPACE_LIST_SAVE_INFO_FB
 XR_TYPE_SPACE_LOCATION
@@ -5784,11 +5852,13 @@ XR_TYPE_SWAPCHAIN_STATE_FOVEATION_FB
 XR_TYPE_SWAPCHAIN_STATE_SAMPLER_OPENGL_ES_FB
 XR_TYPE_SWAPCHAIN_STATE_SAMPLER_VULKAN_FB
 XR_TYPE_SYSTEM_ANCHOR_PROPERTIES_HTC
+XR_TYPE_SYSTEM_ANCHOR_SHARING_EXPORT_PROPERTIES_ANDROID
 XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_BD
 XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_FB
 XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_HTC
 XR_TYPE_SYSTEM_COLOCATION_DISCOVERY_PROPERTIES_META
 XR_TYPE_SYSTEM_COLOR_SPACE_PROPERTIES_FB
+XR_TYPE_SYSTEM_DEVICE_ANCHOR_PERSISTENCE_PROPERTIES_ANDROID
 XR_TYPE_SYSTEM_ENVIRONMENT_DEPTH_PROPERTIES_META
 XR_TYPE_SYSTEM_EYE_GAZE_INTERACTION_PROPERTIES_EXT
 XR_TYPE_SYSTEM_EYE_TRACKING_PROPERTIES_FB
@@ -5804,17 +5874,22 @@ XR_TYPE_SYSTEM_HAND_TRACKING_MESH_PROPERTIES_MSFT
 XR_TYPE_SYSTEM_HAND_TRACKING_PROPERTIES_EXT
 XR_TYPE_SYSTEM_HEADSET_ID_PROPERTIES_META
 XR_TYPE_SYSTEM_KEYBOARD_TRACKING_PROPERTIES_FB
+XR_TYPE_SYSTEM_MARKER_TRACKING_PROPERTIES_ANDROID
 XR_TYPE_SYSTEM_MARKER_TRACKING_PROPERTIES_VARJO
 XR_TYPE_SYSTEM_MARKER_UNDERSTANDING_PROPERTIES_ML
 XR_TYPE_SYSTEM_NOTIFICATIONS_SET_INFO_ML
+XR_TYPE_SYSTEM_PASSTHROUGH_CAMERA_STATE_PROPERTIES_ANDROID
 XR_TYPE_SYSTEM_PASSTHROUGH_COLOR_LUT_PROPERTIES_META
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES2_FB
 XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES_FB
 XR_TYPE_SYSTEM_PLANE_DETECTION_PROPERTIES_EXT
 XR_TYPE_SYSTEM_PROPERTIES
+XR_TYPE_SYSTEM_PROPERTIES_BODY_TRACKING_CALIBRATION_META
 XR_TYPE_SYSTEM_PROPERTIES_BODY_TRACKING_FULL_BODY_META
 XR_TYPE_SYSTEM_RENDER_MODEL_PROPERTIES_FB
 XR_TYPE_SYSTEM_SIMULTANEOUS_HANDS_AND_CONTROLLERS_PROPERTIES_META
+XR_TYPE_SYSTEM_SPACE_DISCOVERY_PROPERTIES_META
+XR_TYPE_SYSTEM_SPACE_PERSISTENCE_PROPERTIES_META
 XR_TYPE_SYSTEM_SPACE_WARP_PROPERTIES_FB
 XR_TYPE_SYSTEM_SPATIAL_ANCHOR_PROPERTIES_BD
 XR_TYPE_SYSTEM_SPATIAL_ANCHOR_SHARING_PROPERTIES_BD
@@ -5825,9 +5900,17 @@ XR_TYPE_SYSTEM_SPATIAL_MESH_PROPERTIES_BD
 XR_TYPE_SYSTEM_SPATIAL_PLANE_PROPERTIES_BD
 XR_TYPE_SYSTEM_SPATIAL_SCENE_PROPERTIES_BD
 XR_TYPE_SYSTEM_SPATIAL_SENSING_PROPERTIES_BD
+XR_TYPE_SYSTEM_TRACKABLES_PROPERTIES_ANDROID
 XR_TYPE_SYSTEM_USER_PRESENCE_PROPERTIES_EXT
 XR_TYPE_SYSTEM_VIRTUAL_KEYBOARD_PROPERTIES_META
 XR_TYPE_TIMING_UTILS_LABEL_INFO_VALVE
+XR_TYPE_TRACKABLE_GET_INFO_ANDROID
+XR_TYPE_TRACKABLE_MARKER_ANDROID
+XR_TYPE_TRACKABLE_MARKER_CONFIGURATION_ANDROID
+XR_TYPE_TRACKABLE_OBJECT_ANDROID
+XR_TYPE_TRACKABLE_OBJECT_CONFIGURATION_ANDROID
+XR_TYPE_TRACKABLE_PLANE_ANDROID
+XR_TYPE_TRACKABLE_TRACKER_CREATE_INFO_ANDROID
 XR_TYPE_TRIANGLE_MESH_CREATE_INFO_FB
 XR_TYPE_UNKNOWN
 XR_TYPE_UNPERSIST_SPATIAL_ENTITY_COMPLETION_EXT
@@ -5919,6 +6002,8 @@ ZvFailed to create fence %ls.\n
 [CVRCVTrackedHmdInternal] Driver inactive, request of type %d cannot be sent
 [CVRCVTrackedHmdInternal] Failed to set the new-request event (error code %d)
 [CVRCVTrackedHmdInternal] Failed to wait for the request to be processed (error code: %d).
+[CVRCVTrackedHmdInternal] GetRemoteDongleTimeForDevice failed with error %d
+[CVRCVTrackedHmdInternal] GetXRTimeFromDongleDeviceTime failed with error %d
 [CVRCVTrackedHmdInternal] Invalid application type.
 [CVRCVTrackedHmdInternal] Invalid driver state, we cannot send the request of type %d. (active:%d processing:%d valid seq:%d)
 [CVRCVTrackedHmdInternal] New-request event initialization failed
@@ -5992,7 +6077,6 @@ ZvFailed to create fence %ls.\n
 [IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
-[Input] Action Manifest Path set to '%s'\n
 [Input] After initial config load, app appears to be using legacy input\n
 [Input] After initial config load, app appears to not be using SteamVR Input\n
 [Input] After initial config load, app appears to not be using input\n
@@ -6024,7 +6108,6 @@ ZvFailed to create fence %ls.\n
 [Input] Failed to load simulation settings for %s. Input profile does not have a simulation_settings item.\n
 [Input] Failed to load simulation settings for %s. Input profile has a simulation_settings item but it is not an object.\n
 [Input] Failed to parse action binding config: %s\n
-[Input] Failed to set action manifest path to '%s'. Error: %s\n
 [Input] GetActionBindingInfo failed. Buffer too small. Got: %u. Needed: %zu
 [Input] GetActionBindingInfo failed. Error with current frame
 [Input] GetActionBindingInfo failed. Invalid parameter punReturnedBindingInfoCount.
@@ -6157,6 +6240,7 @@ ZvFailed to create fence %ls.\n
 [Input] Handle not found for action set path: %s\n
 [Input] Initial config load timed out\n
 [Input] Input is disabled. [app: %s]\n
+[Input] Input was disabled but we got a good manifest. Reenabling. [app: %s]\n
 [Input] Invalid active action set priority. %s apps must provide a priority of no more than %d\n
 [Input] Invalid pHandle in GetActionSetHandle for %s\n
 [Input] Invalid path in GetActionSetHandle\n
@@ -6170,9 +6254,10 @@ ZvFailed to create fence %ls.\n
 [Input] Pose position offset value has been clamped from '%f' to '%f'.
 [Input] Pose rotation offset value has been clamped from '%f' to '%f'.
 [Input] Previous frame overflowed per-device vector by %u actions (to %u total) Bumping up the high water mark.\n
-[Input] SetActionManifestPath failed waiting for a response from the server. Path: '%s'\n
-[Input] SetActionManifestPath failed. Input is disabled. Path: '%s'\n
-[Input] SetActionManifestPath requires an absolute path. '%s' is not absolute.\n
+[Input] SetActionManifest: Action Manifest Path set to '%s'\n
+[Input] SetActionManifest: Failed to set action manifest path to '%s'. Error: %s\n
+[Input] SetActionManifestPath: Failed waiting for a response from the server. Path: '%s'\n
+[Input] SetActionManifestPath: Requires an absolute path. '%s' is not absolute.\n
 [Input] SetDominantHand failed. App does not support dominant hand setting.
 [Input] SetDominantHand failed. Invalid parameter eDominantHand.
 [Input] SetXrInputConfig failed. Did not get response from VRMsg_Input_SetXrInputConfig quick enough.
@@ -6371,7 +6456,6 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
-`4g3
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
@@ -6951,6 +7035,7 @@ frequency
 fseek
 fsetpos
 ftell
+full
 fwrite
 gain
 gamepad
@@ -7008,6 +7093,7 @@ grip
 gripLimitData
 hand_interaction_ext
 hand_right_poses.glb
+handgrip
 hangInit
 haptic
 haptic_amplitude
@@ -7219,6 +7305,7 @@ long_press_delay
 long_press_expiry
 loop
 lower
+lrintf
 mSx@
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
@@ -7331,6 +7418,7 @@ nProcessId == data->m_nSceneFocusProcessId
 nSampleCount > 0 && nSampleCount <= 64
 nSizeInBytes <= m_unSizeInBytes
 name
+name_only
 nb_no
 new_pid
 newmtl
@@ -7424,8 +7512,6 @@ overlay_handle
 overlay_key
 override_device_class
 overwrite.vrsettings
-p4g3
-p@J3
 pBuffer != nullptr
 pClient
 pCmdBuf
@@ -7769,6 +7855,7 @@ shaders/d3d11/tracked_camera_reprojection_vs.fxo
 shaders/d3d11/tracked_camera_undistort_ps.fxo
 shaders/d3d11/tracked_camera_undistort_vs.fxo
 shaders/d3d11/tracked_camera_vs.fxo
+shaders/d3d11/unlit_2x_downsample_ps.fxo
 shaders/d3d11/unlit_convert_to_nv12_ps.fxo
 shaders/d3d11/unlit_gaussian_blur_u_ps.fxo
 shaders/d3d11/unlit_gaussian_blur_v_ps.fxo
@@ -7941,6 +8028,7 @@ shaders/vulkan/tracked_camera_reprojection_vs.spv
 shaders/vulkan/tracked_camera_undistort_ps.spv
 shaders/vulkan/tracked_camera_undistort_vs.spv
 shaders/vulkan/tracked_camera_vs.spv
+shaders/vulkan/unlit_2x_downsample_ps.spv
 shaders/vulkan/unlit_convert_to_nv12_ps.spv
 shaders/vulkan/unlit_gaussian_blur_u_ps.spv
 shaders/vulkan/unlit_gaussian_blur_v_ps.spv

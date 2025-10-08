@@ -548,7 +548,7 @@ CSharedResourceNamespaceClient::InitIfNeeded
 CVkAllocator::AllocateMemory
 CVkAllocator::AllocateMemoryFromType
 CVkAllocator::CreateBuffer
-CVkAllocator::CreateImage
+CVkAllocator::CreateImageWithFlags
 CVkAllocator::GetCompatibleMemoryType
 CVkAllocator::ImportBuffer
 CVkAllocator::ImportImage
@@ -916,7 +916,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDSg
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

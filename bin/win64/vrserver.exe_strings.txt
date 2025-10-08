@@ -626,6 +626,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$DriverSettingsInterfaceRegistration@VCVRSettings_002@@@@
 .?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_001@@@@
 .?AV?$IPCResourceManagerClientInterfaceRegistration@VCVRIPCResourceManagerClient_001@@@@
+.?AV?$IPCResourceManagerClientInterfaceRegistration@VCVRIPCResourceManagerClient_002@@@@
 .?AV?$IVRPathsInterfaceRegistration@VCVRPaths_001@@@@
 .?AV?$ServerDriverHostInterfaceRegistration@VCVRServerDriverHost_004@@@@
 .?AV?$ServerDriverHostInterfaceRegistration@VCVRServerDriverHost_005@@@@
@@ -865,6 +866,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCVRIPCResourceManager@@
 .?AVCVRIPCResourceManagerBase@@
 .?AVCVRIPCResourceManagerClient_001@@
+.?AVCVRIPCResourceManagerClient_002@@
 .?AVCVRInputContext@@
 .?AVCVRInputServer@@
 .?AVCVRInputWorkshopCallback_InputContextDelegate@@
@@ -1398,6 +1400,7 @@ $\n k_EProtoServiceTypeSteamMessages
 /bound_tracker_path
 /bound_tracker_role
 /camera_compatibility.action
+/chaperone/bounds_hash
 /chaperone/collision_radius
 /chaperone/is_default_perimeter
 /chaperone/perimeter
@@ -1632,25 +1635,22 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990
 0123456789ABCDEF
 0123456789abcdef
-018@
+058@
 068@
-0A9@
-0R8@
-0S9@
-0T9@
-0W8@
-0e2@
-0p9@
-0t9@
+0M9@
+0U9@
+0c8@
+0n9@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-17:55:31
+12:17:30
 1A26b
 1\f514
 1e+9999
@@ -1661,6 +1661,7 @@ $\n k_EProtoServiceTypeSteamMessages
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
 4\f54d
+4c5@
 52F*
 5I)7
 5JCy7
@@ -1670,22 +1671,17 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-828@
-878@
-8D9@
-8S8@
-8W9@
-8X8@
-8Z9@
+8E9@
+8N8@
+8T5@
 8\n\textension
-8a9@
+8b5@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d8@
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
+8f5@
 8giP9giP9giP9giP9
-8k9@
-8o9@
-8x8@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1693,7 +1689,6 @@ $\n k_EProtoServiceTypeSteamMessages
 : Tried to merge from a message with a different type.  to: 
 : exception thrown in JSON library
 : one or more FS callback not set
-:unity
 ; expected 
 ; img-src * data:; style-src 'unsafe-inline' 'self'; connect-src 'self' ws://localhost:* https://steamcommunity.com
 ; last read: '
@@ -2467,6 +2462,7 @@ DXT2
 DXT3
 DXT4
 DXT5
+Db5@
 DebuggerEnabled
 Default
 Default audio endpoint restored\n
@@ -2841,9 +2837,9 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
-H48@
-H98@
+HA8@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
+HD9@
 HEAD
 HMD Not Known (202)
 HMD already in use by another application (205)
@@ -2866,7 +2862,7 @@ HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
 HMDSerialNumber
-HTA@
+HR9@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2881,22 +2877,20 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
-HU8@
-HZ8@
+HU5@
+Ha8@
 Hang the server for the specified number of seconds (default 3600)
 HasField
+Hc5@
 Hex and octal numbers must be integers.
-Hg2@
-Hl9@
+Hf8@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
-Ho8@
 HostController
 How did we get here with a non-position slot?
-Hp8@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3015,6 +3009,7 @@ IVRIOBuffer_002
 IVRIPCResourceManagerClient_
 IVRIPCResourceManagerClient_001
 IVRIPCResourceManagerClient_002
+IVRIPCResourceManagerClient_003
 IVRInputInternal_002
 IVRInput_010
 IVRMCStore_001
@@ -3203,6 +3198,7 @@ LaunchingApp_ExternalLaunch
 LaunchingApp_Key
 LaunchingApp_None
 LaunchingApp_Process
+Lb5@
 LeaveCriticalSection
 LeftController
 Length Required
@@ -3398,6 +3394,7 @@ OPAQUE
 OS made HMD audio %s endpoint default (%s). Taking responsibility for restoring the previous default. %s\n
 OZw3(?
 Object
+Oct  7 2025
 OculusSDKStart for %s\n
 Old connection found for pid %d. Forcing it to disconnect before processing Msg_Connect\n
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -3433,15 +3430,14 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P58@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
+PF8@
 PICT
 PID_
 PLACEHOLDER_VALUE
 PNG\r\n
 POST
-PQ9@
 PRISM_AcquireDisplay
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
@@ -3469,7 +3465,9 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-PV8@
+PT5@
+PV5@
+PW5@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3480,12 +3478,16 @@ Path not found
 Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
+Pb8@
+PbA@
 Pe6^
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
+Pf5@
+Pg8@
 Playback devices:\n
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
@@ -3727,7 +3729,7 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
-Pv9@
+Py9@
 QkkXa
 Qkkbal
 Query failed
@@ -3750,7 +3752,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS\v
+RSDS
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3815,8 +3817,8 @@ RenderModel::Load
 RendermodelManager: 'components' json entry must be key/value map\n
 RendermodelManager: Both grip and aim are at 0, couldn't guess which direction is outwards for poke/pinch creation.\n
 RendermodelManager: Failed GetOriginalComponentPath(%llu, %s, %s) \n
-RendermodelManager: Failed to create openxr_pinch because no 'openxr_aim' or 'tip' pose was found.\n
-RendermodelManager: Failed to create openxr_pinch because no 'openxr_grip' or 'grip' pose was found.\n
+RendermodelManager: Failed to create openxr_pinch because no 'openxr_aim', 'tip', or 'aim' pose was found.\n
+RendermodelManager: Failed to create openxr_pinch because no 'openxr_grip', 'grip', or 'handgrip' pose was found.\n
 RendermodelManager: Finished setting up render model template: %s.\n
 RendermodelManager: Model info file %s was empty.\n
 RendermodelManager: Reading data for: '%s' from '%s'\n
@@ -3914,7 +3916,6 @@ See
 See Other
 Self queried namespace: %u\n
 Sending Quit event to process %s\n
-Sep 16 2025
 Server
 Server could not create read event %s\n
 Server somehow created read event before reader %s\n
@@ -4102,6 +4103,8 @@ Symbol name "
 Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
+Tb5@
+Tc5@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -5178,21 +5181,21 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X19@
-X68@
-X69@
-X79@
-X89@
-X99@
-XA9@
-XE9@
-XF9@
-XR9@
-XW8@
+XH9@
+XM9@
 XXXX PNG chunk not known
-Xb9@
-Xi2@
+XZ9@
+Xc8@
+Xh8@
+Xn9@
+Xo9@
 XsBI
+Xt9@
+Xu9@
+Xv9@
+Xw9@
+Xx1@
+Xx9@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -6102,6 +6105,7 @@ data:image/gif;base64,
 data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
+db5@
 de_de
 deactivateStandbyOverride
 deactivate_threshold
@@ -6379,15 +6383,19 @@ grip
 grip_limit_transforms
 group
 guid
-h45@
-h88@
+h09@
+h19@
+h29@
+hG9@
+hH1@
+hI8@
 hPU3
-hTA@
-hY8@
+hT5@
 half_thresholds
 hand_interaction_ext
 hand_priority
 hand_right_poses.glb
+handgrip
 handle
 handlers
 hang_server
@@ -6396,13 +6404,16 @@ haptic_amplitude
 haptics
 has_click
 has_touch
+he8@
 header
 header crc mismatch
 height
 held
 hex_property
+hh9@
 hidden
 hide_callout
+hj8@
 hlvr/mailbox
 hlvr/webui
 hmdAllowsClientToControlTextureIndex
@@ -6744,6 +6755,7 @@ k_unUint64PropertyTag
 k_unUnknownPropertyTag_
 k_unWildcardPropertyTag
 keep-alive
+keepalive
 kernel32.dll
 keyboard
 keylength >= 2^30
@@ -6767,6 +6779,8 @@ latch
 launch_type
 layouts
 lazy
+lb5@
+lc5@
 ldexp
 ldiv
 leading_comments
@@ -6800,6 +6814,7 @@ logmessage
 long
 loop
 lower
+lrintf
 mSx@
 m_bIsInitialized
 m_cameraPassthroughSharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed\n
@@ -7013,9 +7028,10 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p98@
+pB7@
 pBegin == pEnd
 pEnd > pBegin
+pL8@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
@@ -7023,10 +7039,10 @@ pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
+pR1@
 pSharedState != nullptr
 pUrl != nullptr
 pWebSocketMessage
-pZ8@
 package
 packed
 param1
@@ -7048,11 +7064,13 @@ pending_file_saved
 perfcheck
 personal
 perspective
-pg9@
+pf8@
+pi9@
 pico_controller
 pinch
 pinchgrab
 pivot
+pk8@
 pl_pl
 playAreaColor
 play_area
@@ -7087,7 +7105,6 @@ positional
 positive_int_value
 power
 powf
-pp8@
 precision
 prediction
 prediction parameter out of range
@@ -7122,7 +7139,7 @@ publishedfileid
 pull
 punct
 putchar
-px9@
+px1@
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
@@ -7426,12 +7443,14 @@ systemreport_
 systemreport_*.html
 systemreport_template.html
 systemui_dashboard_private
+tP7@
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
 tags
 target
 targets
+tb5@
 tchinese
 tcps:
 tdh.dll
@@ -7526,6 +7545,7 @@ unexpected
 ungetc
 ungetwc
 uninterpreted_option
+unity
 universeID
 universes
 unknown
@@ -7684,10 +7704,19 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x35@
+xF8@
+xK9@
+xU5@
+xV5@
+xW5@
 x_path
+xb9@
+xc5@
+xc9@
 xdigit
-xf9@
+xg8@
+xj9@
+xl8@
 xmag
 y9*O
 y_path
