@@ -402,6 +402,12 @@ enum UnnamedEnum5af0a572f6ecc3f6
 	Error_CollisionBoundsInvalid = 204;
 }
 
+enum UnnamedEnum630e76abaca189fa
+{
+	LegacyFloatingSteamMainMenu_VRSettings = BinaryExpression;
+	BaseIncrementingIDOffset = BinaryExpression;
+}
+
 enum UnnamedEnum64d35f6c1483de1d
 {
 	Center = 0;

@@ -103,6 +103,13 @@ message CVRGamepadUI_Message_RemoteVideoStream_Request {
 message CVRGamepadUI_Message_RemoteVideoStream_Response {
 }
 
+message CVRGamepadUI_Message_SetDisplayBrightness_Request {
+	optional float user_brightness_value = 1;
+}
+
+message CVRGamepadUI_Message_SetDisplayBrightness_Response {
+}
+
 message CVRGamepadUI_Message_ShowDashboardPopup_Request {
 	optional uint32 dashboard_popup_id = 1;
 	optional string popup_overlay_key = 2;
@@ -119,6 +126,7 @@ message CVRGamepadUI_Message_ShowDashboardPopup_Request {
 	optional string parent_device_path = 13;
 	optional int32 sort_order = 14 [(.description) = "enum"];
 	optional int32 parent_enum = 15 [(.description) = "enum"];
+	optional int32 special_identifier = 16 [(.description) = "enum"];
 }
 
 // Used by: common.proto
@@ -240,6 +248,7 @@ message CVRGamepadUIShared_PathProperty_DashboardBarActions {
 	repeated .CVRGamepadUIShared_Action defined_actions = 2;
 	repeated .CVRGamepadUIShared_PathProperty_DashboardBarActions_BarButton bar_buttons = 3;
 	repeated .CVRGamepadUIShared_PathProperty_DashboardBarActions_BarMenuItem bar_menu_items = 4;
+	repeated uint32 playspace_actions = 5;
 }
 
 // Used by: common.proto
@@ -284,6 +293,12 @@ message CVRGamepadUIShared_PathProperty_DesktopWindows_Window {
 	optional uint32 hwnd = 2;
 	optional string title = 3;
 	optional uint32 tab_id = 4;
+}
+
+message CVRGamepadUIShared_PathProperty_HMDSettings {
+	optional float display_brightness_user_value = 1;
+	optional float display_brightness_min = 2;
+	optional float display_brightness_max = 3;
 }
 
 message CVRGamepadUIShared_PathProperty_PowerOptions {
