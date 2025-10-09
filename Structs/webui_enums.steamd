@@ -163,13 +163,6 @@ enum UnnamedEnum118261f6c7849b98
 	BottomRight = 8;
 }
 
-enum UnnamedEnum140aef605f64d2a9
-{
-	Disconnected = 0;
-	Pending = 1;
-	Connected = 2;
-}
-
 enum UnnamedEnum1b2e013c09afd423
 {
 	Success = 0;
@@ -261,13 +254,6 @@ enum UnnamedEnum305ecb99a14e3d59
 {
 	Canvas = 0;
 	Image = 1;
-}
-
-enum UnnamedEnum3214b5410bf09881
-{
-	Large = 0;
-	Small = 1;
-	App = 2;
 }
 
 enum UnnamedEnum347c25282ff52ed7
@@ -402,12 +388,6 @@ enum UnnamedEnum5af0a572f6ecc3f6
 	Error_CollisionBoundsInvalid = 204;
 }
 
-enum UnnamedEnum64d35f6c1483de1d
-{
-	Center = 0;
-	Fill = 1;
-}
-
 enum UnnamedEnum67c41e660ca567fa
 {
 	DEFAULT = 0;
@@ -516,13 +496,6 @@ enum UnnamedEnum8ca6e05196a6a6df
 	Seated = 0;
 	Standing = 1;
 	Raw = 2;
-}
-
-enum UnnamedEnum8d44830b419688bf
-{
-	Opaque = 0;
-	FadingIn = 1;
-	FadingOut = 2;
 }
 
 enum UnnamedEnum903d132a40b274ea
@@ -989,13 +962,6 @@ enum UnnamedEnumfae04dc9baea04ba
 	Auto = 0;
 	Power60hz = 1;
 	Power50hz = 2;
-}
-
-enum UnnamedEnumfcccf67285d7b76c
-{
-	None = 0;
-	Circle = 1;
-	Drawn = 2;
 }
 
 enum UnnamedEnumfce20aaa16bf4fee
