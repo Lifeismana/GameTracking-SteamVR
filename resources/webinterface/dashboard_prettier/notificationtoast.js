@@ -1,4 +1,4 @@
-var CLSTAMP = "10128440";
+var CLSTAMP = "10151575";
 (() => {
   "use strict";
   var e,
@@ -24,35 +24,35 @@ var CLSTAMP = "10128440";
             enqueueReplaceState: function () {},
             enqueueSetState: function () {},
           },
-          m = Object.assign,
-          h = {};
-        function v(e, t, r) {
+          v = Object.assign,
+          m = {};
+        function h(e, t, r) {
           (this.props = e),
             (this.context = t),
-            (this.refs = h),
+            (this.refs = m),
             (this.updater = r || y);
         }
         function b() {}
         function _(e, t, r) {
           (this.props = e),
             (this.context = t),
-            (this.refs = h),
+            (this.refs = m),
             (this.updater = r || y);
         }
-        (v.prototype.isReactComponent = {}),
-          (v.prototype.setState = function (e, t) {
+        (h.prototype.isReactComponent = {}),
+          (h.prototype.setState = function (e, t) {
             if ("object" != typeof e && "function" != typeof e && null != e)
               throw Error(
                 "setState(...): takes an object of state variables to update or a function which returns an object of state variables.",
               );
             this.updater.enqueueSetState(this, e, t, "setState");
           }),
-          (v.prototype.forceUpdate = function (e) {
+          (h.prototype.forceUpdate = function (e) {
             this.updater.enqueueForceUpdate(this, e, "forceUpdate");
           }),
-          (b.prototype = v.prototype);
+          (b.prototype = h.prototype);
         var g = (_.prototype = new b());
-        (g.constructor = _), m(g, v.prototype), (g.isPureReactComponent = !0);
+        (g.constructor = _), v(g, h.prototype), (g.isPureReactComponent = !0);
         var S = Array.isArray,
           R = Object.prototype.hasOwnProperty,
           E = { current: null },
@@ -257,7 +257,7 @@ var CLSTAMP = "10128440";
             return e;
           },
         }),
-          (t.Component = v),
+          (t.Component = h),
           (t.Fragment = o),
           (t.Profiler = u),
           (t.PureComponent = _),
@@ -272,7 +272,7 @@ var CLSTAMP = "10128440";
                   e +
                   ".",
               );
-            var o = m({}, e.props),
+            var o = v({}, e.props),
               a = e.key,
               u = e.ref,
               i = e._owner;
@@ -420,14 +420,22 @@ var CLSTAMP = "10128440";
               c.HR.Init(!1);
           }
           OnRenderToast(e) {
-            let t = i.Ay.VROverlayInternal.GetToastInfo(e.notification_id);
-            t
+            var t;
+            let r =
+              null ===
+                (t =
+                  null === i.Ay || void 0 === i.Ay
+                    ? void 0
+                    : i.Ay.VROverlayInternal) || void 0 === t
+                ? void 0
+                : t.GetToastInfo(e.notification_id);
+            r
               ? this.setState({
                   visible: !0,
-                  title: t.sTitle,
-                  header: t.sHeader || "",
-                  text: t.sText,
-                  image: t.sImageData,
+                  title: r.sTitle,
+                  header: r.sHeader || "",
+                  text: r.sText,
+                  image: r.sImageData,
                 })
               : this.setState({
                   visible: !1,

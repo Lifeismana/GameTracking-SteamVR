@@ -590,7 +590,7 @@
 /user/wrist/right
 126.0.0-HEAD.3110+gb3b025e+chromium-126.0.6478.183
 127.0.0.1
-12:17:30
+13:58:02
 1e+9999
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
@@ -1292,7 +1292,7 @@ Not calling InitVRAndLogging() since VR is already initialized.\n
 Not starting vrserver for background app (121)
 Num Lock
 Num Lock Toggle
-Oct  7 2025
+Oct 15 2025
 On laptop, HMD detected over USB, but Monitor not found (213)
 OnAcceleratedPaint error, no valid d3d11 device
 OnBeforeClose %d, browser shutdown complete
@@ -1325,7 +1325,7 @@ QueryPerformanceFrequency
 QuitOpenVR
 QuitSceneApp
 RPCRT4.dll
-RSDSQ
+RSDS.
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

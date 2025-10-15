@@ -1,4 +1,4 @@
-var CLSTAMP = "10128440";
+var CLSTAMP = "10151575";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -4527,7 +4527,7 @@ var CLSTAMP = "10128440";
           }),
           c.createElement(_.WZ, {
             label: (0, h.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1759864666e3).toLocaleString(),
+            value: new Date(1760561629e3).toLocaleString(),
           }),
         );
       });
@@ -6430,16 +6430,14 @@ var CLSTAMP = "10128440";
             !(null === a.Ay || void 0 === a.Ay ? void 0 : a.Ay.HasHMD())
           )
             return !1;
-          if (
-            !e.show_without_hmd &&
-            e.driver &&
-            e.driver !==
-              a.Ay.VRProperties.GetStringProperty(
+          if (!e.show_without_hmd && e.driver)
+            try {
+              const t = a.Ay.VRProperties.GetStringProperty(
                 "/user/head",
                 a.fD.ActualTrackingSystemName_String,
-              )
-          )
-            return !1;
+              );
+              if (e.driver !== t) return !1;
+            } catch (e) {}
           if (e.desktop_only && (0, a.R$)() == a.OH.Overlay) return !1;
           let t =
             e.controller == k.Name &&
@@ -16236,10 +16234,21 @@ var CLSTAMP = "10128440";
             : t.includes(e);
         }
         UpdateCapabilities() {
-          this.m_rgMutualCapabilities =
-            null === VRHTML || void 0 === VRHTML
-              ? void 0
-              : VRHTML.VRClientInternal.GetMutualSteamCapabilities();
+          var e;
+          (this.m_rgMutualCapabilities =
+            null !==
+              (e =
+                null === VRHTML || void 0 === VRHTML
+                  ? void 0
+                  : VRHTML.VRClientInternal.GetMutualSteamCapabilities()) &&
+            void 0 !== e
+              ? e
+              : []),
+            this.m_rgMutualCapabilities.length > 0 &&
+              console.log(
+                "VR Mutual Capabilities: " +
+                  this.m_rgMutualCapabilities.join(", "),
+              );
         }
       }
       (0, n.Cg)([a.observable], s.prototype, "m_rgMutualCapabilities", void 0),
@@ -18108,7 +18117,7 @@ var CLSTAMP = "10128440";
               ? void 0
               : e.call(VRHTML),
           ),
-            t.set_webpack_build_timestamp(1759864666),
+            t.set_webpack_build_timestamp(1760561629),
             (0, h.Z)(t);
         }
         LoadSessionDevData() {

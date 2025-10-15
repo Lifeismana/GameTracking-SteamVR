@@ -916,7 +916,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSg
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

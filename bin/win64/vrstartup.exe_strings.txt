@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-12:17:30
+13:58:02
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -381,7 +381,7 @@ None
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
-Oct  7 2025
+Oct 15 2025
 On laptop, HMD detected over USB, but Monitor not found (213)
 OpenProcess
 Out of thread local storage!\n

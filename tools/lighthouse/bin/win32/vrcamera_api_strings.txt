@@ -596,7 +596,7 @@ OLEAUT32.dll
 QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS3
+RSDS
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -800,6 +800,7 @@ function not supported
 fwrite
 generic
 graph
+h/WiC
 host unreachable
 identifier removed
 illegal byte sequence

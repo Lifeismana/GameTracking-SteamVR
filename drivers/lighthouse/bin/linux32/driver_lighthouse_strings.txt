@@ -2821,13 +2821,13 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
-19:17:11
 19CWirelessDecoderWv2
 1e+9999
 2#.google.protobuf.FieldOptions.CType:
 2).google.protobuf.FileOptions.OptimizeMode:
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
+20:53:16
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20CVRTrackedDevice_004
@@ -7381,7 +7381,7 @@ OPAQUE
 OTGT timed out\n
 O\tu~w
 Object
-Oct  7 2025
+Oct 15 2025
 October
 Old Normal: %f %f %f \n
 On laptop, HMD detected over USB, but Monitor not found (213)

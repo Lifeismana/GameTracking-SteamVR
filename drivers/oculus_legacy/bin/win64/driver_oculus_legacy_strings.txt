@@ -158,7 +158,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS
+RSDSD
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry

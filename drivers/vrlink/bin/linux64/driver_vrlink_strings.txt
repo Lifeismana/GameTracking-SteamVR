@@ -544,9 +544,9 @@ $3br
 18SVLFECRAID6TXFrame
 18SVLHMDDriverVulkan
 18SVLHmdNotConnected
-19:17:17
 19SVLControllerDriver
 1e+9999
+20:53:25
 20BinaryBlendPoseMaker
 20PassThroughPoseMaker
 21CSharedSemaphoreLinux
@@ -3111,7 +3111,7 @@ OSCInPort
 OSCOutPort
 OUT %d
 Object
-Oct  7 2025
+Oct 15 2025
 October
 Oculus Quest Pro
 Oculus Quest Pro (Left Controller)

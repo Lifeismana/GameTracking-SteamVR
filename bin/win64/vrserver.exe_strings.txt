@@ -1650,7 +1650,7 @@ $\n k_EProtoServiceTypeSteamMessages
 11eU%
 127.0.0.1
 127.0.0.1:
-12:17:30
+13:58:02
 1A26b
 1\f514
 1e+9999
@@ -3394,7 +3394,7 @@ OPAQUE
 OS made HMD audio %s endpoint default (%s). Taking responsibility for restoring the previous default. %s\n
 OZw3(?
 Object
-Oct  7 2025
+Oct 15 2025
 OculusSDKStart for %s\n
 Old connection found for pid %d. Forcing it to disconnect before processing Msg_Connect\n
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -3752,7 +3752,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS
+RSDSK
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE

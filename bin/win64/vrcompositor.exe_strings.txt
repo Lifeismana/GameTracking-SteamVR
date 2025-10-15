@@ -932,7 +932,7 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
-12:17:30
+13:58:02
 1A26b
 1e+9999
 1wsHp
@@ -2476,7 +2476,7 @@ NvOpticalFlow Quality: %d\n
 NvOptimusEnablement
 O*9y]
 OZw3(?
-Oct  7 2025
+Oct 15 2025
 On laptop, HMD detected over USB, but Monitor not found (213)
 OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
 OnDeviceAdded: device = %s\n
@@ -2763,7 +2763,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS1(~
+RSDSv
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors

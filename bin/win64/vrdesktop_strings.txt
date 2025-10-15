@@ -114,7 +114,6 @@
 /user/wrist/left
 /user/wrist/right
 1e+9999
-2O41>
 9a&g
 <unknown>
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ

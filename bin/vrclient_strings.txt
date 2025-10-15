@@ -2558,7 +2558,6 @@ $3br
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
-19:17:11
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -2608,6 +2607,7 @@ $3br
 19CVRWatchdogHost_001
 19InMemoryInputStream
 1e+9999
+20:53:16
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CVRBlockQueueManager
@@ -23537,7 +23537,7 @@ NvAPI::WaitForVBlank(void*, unsigned int)
 OPAQUE
 OSWaitForDebugger()
 Object
-Oct  7 2025
+Oct 15 2025
 October
 OculusSDKStart
 OldAppQuitSent

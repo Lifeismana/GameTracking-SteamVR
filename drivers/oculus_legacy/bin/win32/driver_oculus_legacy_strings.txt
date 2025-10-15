@@ -253,7 +253,6 @@ map/set<T> too long
 memcpy
 memmove
 memset
-n8DI
 oculus
 ovrHmd_ConfigureTracking failed for %d\n
 ovrHmd_Create failed\n
