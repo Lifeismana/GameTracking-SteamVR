@@ -170,6 +170,13 @@
 		"show_without_hmd": true,
 		"values": [
 			{
+				"name": "/settings/power/overrideWindowsPowerScheme",
+				"control": "toggle",
+				"label": "#Settings_Power_OverrideWindowsPowerScheme",
+				"advanced_only": true,
+				"windows_only": true
+			},
+			{
 				"name": "/settings/power/turnOffScreensTimeout",
 				"control": "select",
 				"label": "#Settings_Power_TurnOffScreensTimeout",

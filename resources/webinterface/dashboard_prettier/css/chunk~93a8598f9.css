@@ -44,7 +44,6 @@
   padding: var(--settings-control-button-min-padding-v)
     var(--settings-control-button-min-padding-h);
   box-sizing: border-box;
-  text-transform: uppercase;
   width: 100%;
   text-align: center;
   border: none;
@@ -188,21 +187,6 @@
 .VolumePopup {
   padding-left: 20px;
   padding-right: 20px;
-}
-.panel.DevPanel {
-  width: 30em;
-  display: flex;
-  flex-direction: column;
-  background-color: var(--background-color);
-  background-image: var(--background-image);
-  background-size: 100% 100%;
-  border-radius: 10px;
-}
-.panel.DevPanel h1 {
-  margin-left: 10px;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  margin: 0.5rem auto;
 }
 .RoomSetupControls {
   width: 100%;
@@ -813,6 +797,7 @@ div.BindingCalloutModifierIcon {
   overflow-x: hidden;
   overflow-y: hidden;
   position: relative;
+  background: var(--gamepadui-darkest-grey);
   animation-fill-mode: both;
   animation-iteration-count: 1;
   animation-delay: calc(0.5 * var(--dashboard-home-fade-in-duration));
@@ -861,31 +846,6 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .DashboardTabButton.Active .DashboardTabLabel > div {
   transform: none;
 }
-.DashboardMain .DashboardPanelBackground {
-  --background-resolution-scale: 0.5;
-  width: calc(
-    var(--background-resolution-scale) *
-    var(--dashboard-primary-width)
-  );
-  height: calc(
-    var(--background-resolution-scale) *
-    var(--dashboard-primary-width) /
-    var(--dashboard-primary-aspect-ratio)
-  );
-  background-size: stretch;
-  border-radius: calc(
-    var(--background-resolution-scale) *
-    var(--settings-border-radius)
-  );
-  box-sizing: content-box;
-  animation-fill-mode: both;
-  animation-iteration-count: 1;
-  background: var(--gamepadui-darkest-grey);
-}
-.DashboardMain .DashboardPanelBackground .WithControlBar {
-  border-bottom-left-radius: 0%;
-  border-bottom-right-radius: 0%;
-}
 .DashboardMain .DashboardPanel .DashboardTabList {
   display: flex;
   flex-direction: row;
@@ -911,8 +871,8 @@ div.BindingCalloutModifierIcon {
   background-color: #fff;
 }
 .ResizeHandleBar {
-  width: 10px;
-  height: 280px;
+  width: 280px;
+  height: 10px;
   background-color: var(--dashboard-control-bar-button-color-b);
   border-radius: 20px;
   transition: background-color var(--settings-control-hover-fade-duration);
@@ -1656,6 +1616,20 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .ControlBarTray .Section.Grow {
   flex-grow: 1;
 }
+.DashboardMain .ControlBarTray .DesktopAndWindowList {
+  --mask-size-left: 20px;
+  --mask-size-right: 80px;
+  padding-left: 10px;
+  padding-right: 50px;
+  scroll-padding: 250px;
+  position: relative;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black var(--mask-size-left) calc(100% - var(--mask-size-right)),
+    transparent 100%
+  );
+}
 .DashboardMain .ControlBarTray .Section .Label {
   font-size: 1rem;
   margin-top: auto;
@@ -1665,6 +1639,19 @@ div.BindingCalloutModifierIcon {
   --side-padding: 2em;
   width: fit-content;
   white-space: nowrap;
+}
+.DashboardMain .ControlBarTray .DesktopAndWindowList .ButtonControl {
+  max-width: 450px;
+  overflow: hidden;
+}
+.DashboardMain .ControlBarTray .DesktopAndWindowList .ButtonControl > span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.DashboardMain .ControlBarTray .Section .ButtonControl.ViewButton:not(.Fixed) {
+  display: flex;
+  align-items: center;
 }
 .DashboardMain .ControlBarTray .Section .ButtonControl.ViewButton.Fixed {
   width: 82px;
@@ -1860,17 +1847,11 @@ div.BindingCalloutModifierIcon {
   padding: 0;
   overflow: visible !important;
 }
-.DashboardMain .DashboardPanelBackground.Settings {
-  position: relative;
-}
 .DashboardMain .DashboardPanel.NowPlaying {
   align-items: center;
   display: flex;
   flex-direction: row;
   padding: var(--dashboard-panel-padding) 6rem;
-  position: relative;
-}
-.DashboardMain .DashboardPanelBackground.NowPlaying {
   position: relative;
 }
 .DashboardMain .NowPlaying .HeroBackground {
@@ -2376,4 +2357,4 @@ div.BindingCalloutModifierIcon {
   border-radius: 50%;
   z-index: 0;
 }
-/*# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~93a8598f9.css.map*/
+/*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~93a8598f9.css.map*/

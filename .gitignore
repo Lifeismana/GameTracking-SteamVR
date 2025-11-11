@@ -15,6 +15,7 @@ node_modules/
 package-lock.json
 
 # Ignore all translations
+**/*_arabic*.txt
 **/*_brazilian*.json
 **/*_brazilian*.txt
 **/*_bulgarian*.json

@@ -1681,6 +1681,7 @@ input.ActionAliasUserSuppliedName {
 .DebuggerMain .DebuggerState {
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 .DebuggerMain .Error {
   background: darkred;
@@ -1689,11 +1690,15 @@ input.ActionAliasUserSuppliedName {
 .DebuggerMain .ActionContainer {
   display: flex;
   flex-direction: row;
+  overflow-y: auto;
+  height: 100%;
 }
 .DebuggerMain .ActionSetButtons {
   display: flex;
   flex-direction: column;
   width: 20%;
+  overflow-y: auto;
+  height: 100%;
 }
 .DebuggerMain .ActionSetButtons .Selected {
   background: #789;
@@ -1714,6 +1719,9 @@ input.ActionAliasUserSuppliedName {
   grid-auto-columns: max-content;
   grid-auto-rows: min-content;
   gap: 5px;
+}
+.DebuggerMain .ActionCanvas {
+  position: static;
 }
 .DebuggerMain .Action {
   display: contents;
@@ -1836,6 +1844,14 @@ input.ActionAliasUserSuppliedName {
 .tippy-tooltip.ControllerBindingToolTip-theme[data-placement^="right"]
   .tippy-arrow {
   border-right-color: #24272d;
+}
+.AxisWrapper {
+  position: relative;
+}
+.AxisCanvas {
+  position: absolute;
+  left: 11rem;
+  top: -2.4rem;
 }
 .BindingListSectionHeader {
   font-size: 1.4em;
@@ -2408,4 +2424,4 @@ input.ActionAliasUserSuppliedName {
 .svg_library_recordingCircle_2ovZQ {
   animation: svg_library_AnimationFadeOutIn_1lEwX 5s infinite linear;
 }
-/*# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/controllerbindingui.css.map*/
+/*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/controllerbindingui.css.map*/

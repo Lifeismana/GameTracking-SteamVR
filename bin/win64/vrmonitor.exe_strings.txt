@@ -581,6 +581,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVrange_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
+.AHe
 .CRT$XCA
 .CRT$XCAA
 .CRT$XCL
@@ -731,7 +732,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-12:33:55
+17:48:08
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -943,6 +944,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnPlaylistRemoteControllerTimeout()
 1OnPowerManagementClicked()
 1OnPowerOffController()
+1OnPowerSettingsHaveChanged()
 1OnPreviewReport()
 1OnProbeForBaseStationDrives()
 1OnProbeForControllerWithSerialNumberTarget()
@@ -1254,6 +1256,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 2SIG_VREvent_Monitor_HideHeadsetView()
 2SIG_VREvent_Monitor_ShowHeadsetView()
 2SIG_VREvent_PerfSectionSettingChanged()
+2SIG_VREvent_PowerSettingsHaveChanged()
 2SIG_VREvent_PropertyChanged( vr::TrackedDeviceIndex_t, vr::ETrackedDeviceProperty )
 2SIG_VREvent_Quit( bool, bool)
 2SIG_VREvent_RestartRequested( const QString &, const QString &, const QString &, const QString &, const QString & )
@@ -3062,7 +3065,6 @@ Audio Firmware: \t%1 / %2 %3\n
 AudioBridge
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
 AudioWorker
-Aug 15 2025
 Autoplaying loaded playlist\n
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
@@ -4020,6 +4022,7 @@ Failed to save mirror view display mode setting: %s\n
 Failed to save mirror view eye setting: %s\n
 Failed to save mirror view visibility setting: %s\n
 Failed to save perf graph visibility setting: %s\n
+Failed to set SteamVR as an available runtime
 Failed to set SteamVR as the default OpenXR Runtime\n
 Failed to set app container permissions on SteamVR\n
 Failed to set master process because control panel interface couldn't be retrieved\n
@@ -4546,6 +4549,7 @@ IVRBlockQueue_005
 IVRCameraComponent_
 IVRCameraComponent_001
 IVRCameraComponent_002
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -4572,8 +4576,8 @@ IVRNotifications_002
 IVROverlayInternal_XXX
 IVROverlayView_003
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -4749,6 +4753,7 @@ Linux 3.2
 Linux 3.5
 Linux 3.6
 LiquidVR
+LiquidVR did not return a factory function\n
 Load File
 LoadLibraryA
 LoadLibraryExW
@@ -4999,6 +5004,7 @@ Not yet implemented
 NotReady
 Nothing set.
 NotificationCount
+Nov 10 2025
 Null element passed
 NumDroppedFrames
 NumDroppedFrames: %d\n
@@ -5292,6 +5298,7 @@ OnPlaylistRemoteControllerTimeout
 OnPowerManagementClicked
 OnPowerOff
 OnPowerOffController
+OnPowerSettingsHaveChanged
 OnPreviewReport
 OnProbeForBaseStationDrives
 OnProbeForControllerWithSerialNumberTarget
@@ -5554,7 +5561,11 @@ OpenMutexA
 OpenProcess
 OpenProcessToken
 OpenProcessToken failed. GetLastError returned: %d\n
+OpenSCManager failed: %s
+OpenSCManagerA
 OpenSCManagerW
+OpenService failed: %s
+OpenServiceA
 OpenServiceW
 OpenVR Playlist (*.vrpl *.json *.txt)
 Operating System
@@ -5902,6 +5913,8 @@ QtMetaTypePrivate::QSequentialIterableImpl
 QueryDosDeviceA
 QueryPerformanceCounter
 QueryPerformanceFrequency
+QueryServiceConfig failed: %s\n
+QueryServiceConfigA
 QueryServiceConfigW
 Quitting SteamVR at the request of a driver\n
 R?restore@QPainter@@QEAAXXZ
@@ -5916,9 +5929,10 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS7
+RSDS
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
+R\vpD
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n
@@ -5961,6 +5975,7 @@ Reconnection allowed: %d
 Refreshing audio devices\n
 RegCloseKey
 RegCreateKeyExW
+RegDeleteValueA
 RegDeleteValueW
 RegDisableReflectionKey
 RegEnumKeyExA
@@ -5972,6 +5987,7 @@ RegOpenKeyExW
 RegQueryInfoKeyA
 RegQueryValueExA
 RegQueryValueExW
+RegSetValueExA
 RegSetValueExW
 RegisterHotKey
 Rejecting Base station incompatible rollback: Existing:%llu, Required:%llu\n
@@ -6142,6 +6158,7 @@ SIG_VREvent_PerfSectionSettingChanged
 SIG_VREvent_PerformanceTest_DisableCapture
 SIG_VREvent_PerformanceTest_EnableCapture
 SIG_VREvent_PerformanceTest_FidelityLevel
+SIG_VREvent_PowerSettingsHaveChanged
 SIG_VREvent_PropertyChanged
 SIG_VREvent_Quit
 SIG_VREvent_RestartRequested
@@ -6179,6 +6196,7 @@ STEAMSCREENSHOTS_INTERFACE_VERSION003
 STEAMUGC_INTERFACE_VERSION018
 STEAMUSERSTATS_INTERFACE_VERSION012
 STEAMVIDEO_INTERFACE_V002
+STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_GPUVIS_ON_ASSERT
@@ -6312,6 +6330,7 @@ ShutdownWhileAppRunning_Format
 ShutdownWhileAppRunning_Title
 Skipping OpenXR prompt because another runtime is set\n
 Skipping OpenXR prompt because it's been dismissed\n
+Skipping OpenXR prompt because streaming launch will force it automatically\n
 Skipping OpenXR prompt because we are set\n
 Skipping add_ogs_row field %s because we don't support that type of field\n
 Skipping version update notice because we notified about %s, which is newer than our current version of %s\n
@@ -6422,6 +6441,7 @@ SteamVR
 SteamVR Date:
 SteamVR Exiting...
 SteamVR Reboot
+SteamVR Service
 SteamVR System Report
 SteamVR System Report (*.txt)
 SteamVR System Report created %1\n\n
@@ -6919,9 +6939,13 @@ VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
 VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
 VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoVideoSupport
+VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
+VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
 VRManifest_Imported_Message
 VRManifest_Imported_Title
@@ -7255,10 +7279,13 @@ Zjz\v
 [NRF (Ext)] 
 [NRF (HMD)] 
 [Oxrtools] Aborting attempt to set SteamVR as the active runtime, it is already set.
+[Oxrtools] Unable to create the OpenXR available runtimes registry key %d
 [Oxrtools] Unable to disable key reflection for the OpenXR available runtime registry key %d
+[Oxrtools] Unable to disable key reflection for the OpenXR available runtimes registry key %d
 [Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for read %d
 [Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for writing %d
 [Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
+[Oxrtools] Unable to write into the OpenXR available runtimes registry key %d
 [Oxrtools] Unable to write the OpenXR ActiveRuntime registry key %d
 [PROBLEM] Basestation %#.8X sending strong signals from one laser and not the other.\n
 [PROBLEM] Saving Path Registry failed: 
@@ -7333,13 +7360,11 @@ Zjz\v
 [System] OnBluetoothDriverNeedsInstallation( %d )\n
 [System] Path Registry contains invalid data, sanitizing: 
 [System] Path Registry not found, initializing: 
-[System] Prepare operating system environment\n
 [System] Quit gracefully: Failed, force quit now.\n
 [System] Quit gracefully: Restarting, force quit now.\n
 [System] Quit gracefully: Waiting for process quitting...\n
 [System] Quit gracefully: force quit now.\n
 [System] Removed all relevant USB devices with %d remaining devices\n
-[System] Restore operating system environment\n
 [System] Restore power settings to previous power savings.\n
 [System] Runtime: %d %d %s %s\n
 [System] Setting High Performance power mode
@@ -7885,13 +7910,14 @@ bugreport.zip
 bugsub
 bulgarian
 c ?updateEditorGeometry@QStyledItemDelegate@@UEBAXPEAVQWidget@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\Retail\win64\2017\vrmonitor.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\imagetool.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrserviceclient.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrmonitor\Retail\win64\2017\vrmonitor.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrmonitor\imagetool.cpp
 cR?reset@QTransform@@QEAAXXZ
 c\n?dropEvent@QListWidget@@UEAAXPEAVQDropEvent@@@Z
 c\v?finished@QDialog@@QEAAXH@Z
@@ -8044,7 +8070,6 @@ enable
 enableBluetooth
 enableCamera
 enableCameraSurfaces
-enableDriverBoundsImport
 enableHomeApp
 enableSafeMode
 enableYAMLCompatibility
@@ -8513,7 +8538,9 @@ o\f?fromPercentEncoding@QUrl@@SA?AVQString@@AEBVQByteArray@@@Z
 o\f?header@QTreeView@@QEBAPEAVQHeaderView@@XZ
 o\r?inputMethodEvent@QLineEdit@@MEAAXPEAVQInputMethodEvent@@@Z
 o\t?create@QSharedMemory@@QEAA_NHW4AccessMode@1@@Z
+oasis
 oculus
+oculus_virtualdesktop
 offline
 offset
 offsetX
@@ -8528,6 +8555,7 @@ opacity
 open
 opengl32.dll
 openvr
+openvr.component.vrmonitor
 openvr.tool.steamvr_desktop_gametheatre
 openvr.tool.steamvr_environments
 openvr.tool.steamvr_environments_tools
@@ -8543,6 +8571,7 @@ outliers
 output buffer too small for in-memory compression
 overlay_name
 overrideVolume
+overrideWindowsPowerScheme
 overwrite.vrsettings
 p!?write@QTreeWidgetItem@@UEBAXAEAVQDataStream@@@Z
 pBrowser
@@ -8816,6 +8845,7 @@ statusreport
 steam://install/1635730
 steam://install/1649260
 steam://install/2467050
+steam://install/3824490
 steam://install/719950
 steam://url/CommunityFilePage/%llu
 steam://url/SteamWorkshopPage/%u
@@ -9119,6 +9149,7 @@ vrmonitor://play/gotofirst
 vrmonitor://play/next
 vrmonitor://play/pause
 vrmonitor://poweroff/?index=%1
+vrmonitor://vrservice/uninstall
 vrmonitor_common.qss
 vrmonitor_controller
 vrmonitor_desktop.qss

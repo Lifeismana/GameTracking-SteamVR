@@ -265,6 +265,7 @@ Executable: %s\n
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Terminating.\n
 Failed Watchdog timeout in thread %s after %f seconds\n
 Failed calling AcquireNextFrame.\n
 Failed to create IShellDispatch instance.
@@ -352,6 +353,7 @@ HeapFree
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -369,8 +371,8 @@ IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -420,7 +422,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSOW
+RSDSNR
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.\n
@@ -482,7 +484,6 @@ Unable to interact with foreground window. Displaying window switcher.\n
 Unable to open desktopview mailbox.\n
 Unable to send updated window list to the dashboard UI.\n
 Unable to send window view created message to the dashboard UI.\n
-Unable to send window view destroyed message to the dashboard UI.\n
 Unable to spawn window view - HWND not found in window map.\n
 Unable to spawn window view - invalid HWND.\n
 Unable to start window view for %s.\n
@@ -595,11 +596,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdesktop\vrdesktop.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\Retail_gc\win64\2017\vrdesktop_graphics_capture.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdesktop\vrdesktop.cpp
 cs_cz
 czech
 d3d11.dll
@@ -608,6 +609,7 @@ danish
 dashboard
 de_de
 deque<T> too long
+desktop_store
 desktopview
 dutch
 dwmapi.dll
@@ -633,7 +635,6 @@ hu_hu
 hungarian
 hwnd
 i]Wb
-icon_steamvr_desktop.png
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -711,7 +712,6 @@ system.cursor.ibeam
 system.desktop.%d
 system.desktop.pointer
 system.window.%llu
-systemui_dashboard
 tchinese
 terminate
 th_th
@@ -747,7 +747,6 @@ vr::VROverlay()->SetOverlayTextureBounds( m_ulOverlayPointerHandle, &bounds )
 vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot )
 vrdesktop_graphics_capture.dll
 window_view_created
-window_view_destroyed
 windows
 wn>Jj
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.\n

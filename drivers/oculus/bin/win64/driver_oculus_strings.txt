@@ -7,7 +7,6 @@
  at line 
  exceeds maximum allowed file size 
  in Buffer\n
-!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 " not found in the scene.
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
@@ -283,6 +282,7 @@ $3br
 /output/haptic
 /pose/raw
 /proximity
+/skeleton/hand/left
 /skeleton/hand/right
 /user/ankle/left
 /user/ankle/right
@@ -310,6 +310,7 @@ $3br
 11eU%
 1e+9999
 2.5.4.3
+7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -321,7 +322,6 @@ $3br
 <parse error>
 <uninitialized>
 <unknown>
-?/skeleton/hand/left
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -553,6 +553,7 @@ IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
 IVRCameraComponent_003
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -569,15 +570,15 @@ IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
-IVRIPCResourceManagerClient_002
+IVRIPCResourceManagerClient_003
 IVRInputInternal_002
 IVRInput_010
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -700,7 +701,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS|~
+RSDS
 RaiseException
 ResetEvent
 RootNode
@@ -992,13 +993,13 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\oculusdirect.cpp
 camera
 cameras
 can't merge dc and ac
@@ -1534,6 +1535,7 @@ shaders/d3d11/geom_drawregion_ptnorm_uvs_embedded_vs.fxo
 shaders/d3d11/geom_drawregion_ptnorm_vs.fxo
 shaders/d3d11/geom_drawregion_uvs_embedded_vs.fxo
 shaders/d3d11/geom_drawregion_vs.fxo
+shaders/d3d11/geom_floor_edge_vs.fxo
 shaders/d3d11/geom_floor_vs.fxo
 shaders/d3d11/geom_fresnel_vs.fxo
 shaders/d3d11/geom_motes_vs.fxo
@@ -1584,6 +1586,7 @@ shaders/d3d11/tracked_camera_reprojection_vs.fxo
 shaders/d3d11/tracked_camera_undistort_ps.fxo
 shaders/d3d11/tracked_camera_undistort_vs.fxo
 shaders/d3d11/tracked_camera_vs.fxo
+shaders/d3d11/unlit_2x_downsample_ps.fxo
 shaders/d3d11/unlit_convert_to_nv12_ps.fxo
 shaders/d3d11/unlit_gaussian_blur_u_ps.fxo
 shaders/d3d11/unlit_gaussian_blur_v_ps.fxo

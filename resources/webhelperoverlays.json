@@ -61,7 +61,7 @@
 		"url": "/dashboard/systemui.html",
 		"overlay_key": "system.systemui",
 		"type": "overlay",
-		"pixel_size": [ 2048, 3072 ]
+		"pixel_size": [ 1860, 2048 ]
 	},
 	"bindingcallouts": {
 		"url": "/dashboard/bindingcallouts.html",
@@ -79,6 +79,7 @@
 		"url": "/dashboard/keyboard.html",
 		"overlay_key": "system.keyboard",
 		"type": "overlay",
+		"create_from_mailbox":  [ "keyboard_vrwebui/main" ],
 		"pixel_size": [ 1920, 1080 ]
 	},
 	"debugcommands_desktop": {

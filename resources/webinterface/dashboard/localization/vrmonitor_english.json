@@ -174,6 +174,8 @@
 	"Settings_LockedModeDesc": "Allow rendering to headset while computer is locked.",
 	"Settings_PauseOnStandby": "Pause VR when headset is idle",
 	"Settings_PauseOnLocked": "Pause VR when computer is locked",
+	"Settings_IpdHUD": "IPD HUD",
+	"Settings_IpdHUDDesc": "Show the IPD heads-up display, when IPD changes",
 	"Settings_OverlayRenderQuality": "Overlay Render Quality",
 	"Settings_Auto_Parenthesized": "Auto (%1$s)",
 	"Settings_Auto": "Auto",
@@ -357,6 +359,7 @@
 	"Settings_Appearance_PlayArea_FloorColor": "Play Area Floor Color",
 	"Settings_Appearance_MoreEnvironments": "Get more SteamVR Home Environments",
 
+	"Settings_Power_OverrideWindowsPowerScheme": "Override Windows Power Scheme",
 	"Settings_Power_ReturnToWatchdogTimeout": "Exit SteamVR after",
 	"Settings_Power_TurnOffScreensTimeout": "Turn off displays after",
 	"Settings_Power_TurnOffControllersTimeout": "Turn off controllers after",

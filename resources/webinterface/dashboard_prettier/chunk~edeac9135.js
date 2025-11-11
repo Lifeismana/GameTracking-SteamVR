@@ -1,62 +1,24 @@
-var CLSTAMP = "9981652";
+var CLSTAMP = "10223590";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [906],
+  [906, 458],
   {
     9864: (e, t, r) => {
-      r.d(t, { m: () => a });
+      r(6540);
       var o,
-        i = r(6540),
-        n = r(3496);
+        i = r(3496);
       !(function (e) {
         (e[(e.LockedToParent = 0)] = "LockedToParent"),
           (e[(e.LockedToWorld = 1)] = "LockedToWorld");
       })(o || (o = {}));
-      class a extends n._J {
-        constructor(e) {
-          super(e);
-        }
-        internalRender() {
-          let e = this.props.start_angle_threshold
-              ? (this.props.start_angle_threshold * Math.PI) / 180
-              : null,
-            t = this.props.stop_angle_threshold
-              ? (this.props.stop_angle_threshold * Math.PI) / 180
-              : null,
-            r = this.props.ease_out_angle_threshold
-              ? (this.props.ease_out_angle_threshold * Math.PI) / 180
-              : null,
-            o = this.props.min_angular_velocity
-              ? (this.props.min_angular_velocity * Math.PI) / 180
-              : null,
-            n = this.props.max_angular_velocity
-              ? (this.props.max_angular_velocity * Math.PI) / 180
-              : null;
-          return i.createElement(
-            "vsg-elastic-head-transform",
-            {
-              "start-angle-threshold": e,
-              "stop-angle-threshold": t,
-              "ease-in-time": this.props.ease_in_time,
-              "ease-in-power": this.props.ease_in_power,
-              "ease-out-angle-threshold": r,
-              "ease-out-power": this.props.ease_out_power,
-              "min-angular-velocity": o,
-              "max-angular-velocity": n,
-              "lock-to-horizon": this.props.lock_to_horizon,
-              "translation-behavior": this.props.translation_behavior,
-            },
-            this.props.children,
-          );
-        }
-      }
+      i._J;
     },
     7019: (e, t, r) => {
       r.d(t, {
         Fi: () => a,
-        Lr: () => m,
+        Lr: () => g,
         MQ: () => n,
         Oi: () => o,
-        Zk: () => g,
+        Zk: () => v,
         _h: () => i,
       });
       var o,
@@ -69,11 +31,12 @@ var CLSTAMP = "9981652";
         p = r(3496),
         d = r(5178),
         u = r(3236),
-        c = r(5723);
+        c = r(5723),
+        m = r(7600);
       function h(e) {
         if (e) return [e.u, e.v];
       }
-      function m(e) {
+      function g(e) {
         switch (e) {
           case o.TopLeft:
             return { x: -1, y: 1 };
@@ -128,7 +91,7 @@ var CLSTAMP = "9981652";
             (e[(e.Disabled = 1)] = "Disabled"),
             (e[(e.Low = 2)] = "Low");
         })(s || (s = {}));
-      class g extends p._J {
+      class v extends p._J {
         constructor(e) {
           super(e),
             (this.m_Rect = { x: 0, y: 0, width: 0, height: 0 }),
@@ -170,14 +133,14 @@ var CLSTAMP = "9981652";
           return this.m_nEmbeddedIndex;
         }
         componentWillReceiveProps_UNSAFE() {
-          g.s_bPanelsAreDirty = !0;
+          v.s_bPanelsAreDirty = !0;
         }
         componentDidMount() {
           super.componentDidMount(),
             (this.m_resizeObserver = new ResizeObserver(this.onResizeObserved)),
             this.m_resizeObserver.observe(this.getCurrentRootElement()),
             (this.m_nEmbeddedIndex = d.O.Current().addEmbeddedPanelUVs(this)),
-            (g.s_bPanelsAreDirty = !0),
+            (v.s_bPanelsAreDirty = !0),
             this.getCurrentRootElement().addEventListener(
               "mousedown",
               this.onPanelMouseDown,
@@ -196,7 +159,7 @@ var CLSTAMP = "9981652";
               "mousedown",
               this.onPanelMouseDown,
             ),
-            (g.s_bPanelsAreDirty = !0),
+            (v.s_bPanelsAreDirty = !0),
             d.O.Current().removeEmbeddedPanelUVs(this),
             super.componentWillUnmount();
         }
@@ -273,11 +236,11 @@ var CLSTAMP = "9981652";
               currentPanel: this,
             }),
             u = this.createSgNode(t),
-            g = { x: 0, y: 0 };
-          g =
+            m = { x: 0, y: 0 };
+          m =
             "object" == typeof this.props.origin
               ? (0, p.PG)(this.props.origin, { x: 0, y: 0 })
-              : m(this.props.origin);
+              : g(this.props.origin);
           const v = this.props.overlay_key,
             y = (0, c.w5)();
           return (
@@ -331,7 +294,7 @@ var CLSTAMP = "9981652";
               this.props.make_overlays_interactive_if_visible),
             (u.properties["is-grab-handle"] = this.props.is_grab_handle),
             (u.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
-            (u.properties.origin = (0, p.Hm)(g)),
+            (u.properties.origin = (0, p.Hm)(m)),
             (u.properties.debug_name = this.props.debug_name),
             (u.properties.sampler = this.props.sampler),
             (u.properties.reflect = this.props.reflect),
@@ -369,19 +332,22 @@ var CLSTAMP = "9981652";
               v: (this.m_Rect.y + this.m_Rect.height) / e.innerHeight,
             });
         }
+        PanelContextValue() {
+          return this;
+        }
         internalRender() {
           return _.createElement(
             "vsg-node",
             { style: { display: this.visibility == a.Hidden ? "none" : null } },
-            this.props.children,
+            _.createElement(m.tH, null, this.props.children),
           );
         }
       }
-      (g.s_bPanelsAreDirty = !1),
-        (0, l.Cg)([u.o], g.prototype, "onResizeObserved", null),
-        (0, l.Cg)([u.o], g.prototype, "onPanelMouseDown", null),
-        (0, l.Cg)([u.o], g.prototype, "onWindowMouseUp", null),
-        (0, l.Cg)([u.o], g.prototype, "buildNode", null);
+      (v.s_bPanelsAreDirty = !1),
+        (0, l.Cg)([u.o], v.prototype, "onResizeObserved", null),
+        (0, l.Cg)([u.o], v.prototype, "onPanelMouseDown", null),
+        (0, l.Cg)([u.o], v.prototype, "onWindowMouseUp", null),
+        (0, l.Cg)([u.o], v.prototype, "buildNode", null);
     },
     3361: (e, t, r) => {
       r.d(t, { d: () => s });
@@ -873,4 +839,4 @@ var CLSTAMP = "9981652";
         })(p || (p = {}));
     },
   },
-]); //# sourceMappingURL=file:///c:/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~edeac9135.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~edeac9135.js.map

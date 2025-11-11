@@ -12,6 +12,7 @@
 -crash
 -disablewatchdogs
 -hang
+-keepalive
 -mutesettings
 -restart
 -shutdown
@@ -131,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-12:33:55
+17:48:08
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -201,7 +202,6 @@ Aborting due to fatal assertion failure.
 Another app was already launching (117)
 App info manager init failed (114)
 Assert( %s ) %s(%d)\n
-Aug 15 2025
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -301,6 +301,7 @@ IVRBlockQueue_005
 IVRCameraComponent_
 IVRCameraComponent_001
 IVRCameraComponent_002
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -324,8 +325,8 @@ IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -380,13 +381,15 @@ None
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
+Nov 10 2025
 On laptop, HMD detected over USB, but Monitor not found (213)
 OpenProcess
 Out of thread local storage!\n
 OutputDebugStringA
+Platform handles tutorial / initial home app launch %s. Starting Event Polling...
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDS=
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey
@@ -405,6 +408,7 @@ S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-378
 SHELL32.dll
 SHGetFolderPathW
 SOFTWARE\Valve\Steam
+STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_ENABLE_THREAD_WATCHDOGS
@@ -697,9 +701,13 @@ VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
 VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
 VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoVideoSupport
+VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
+VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
 VRMonitorArgs
 VR_COMBINED_LOGGING
@@ -810,9 +818,9 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
 camera
 collectComments
 collisionBounds
@@ -873,6 +881,7 @@ in Json::Value::operator[](int index): index cannot be negative
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 indentation
+internal
 internet
 invalid string position
 is_system_process
@@ -883,6 +892,7 @@ italian
 ja_jp
 japanese
 jsonid
+keepalive
 keyboard
 keylength >= 2^30
 ko_kr
@@ -906,6 +916,7 @@ notifications
 null
 openvr
 openvr.component.vrmonitor
+openvr.component.vrstartup
 openvr.tool.steamvr_environments
 openvr.tool.steamvr_tutorial
 openvr_api.dll

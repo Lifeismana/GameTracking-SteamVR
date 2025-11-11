@@ -15,7 +15,7 @@
 	"Setting_useOSCFace": "Gesichtserfassungsdaten mit anderen Anwendungen auf diesem PC über OSC teilen",
 	"Setting_OSCOutPort": "OSC-Ausgabeport",
 	"Setting_shareEyeTrackingData": "Blickerfassungsdaten mit anderen Anwendungen auf diesem PC teilen",
-	"Setting_enableHandTracking": "Hand-Tracking-Pass-Through aktivieren",
+	"Setting_enableHandTracking": "Hand-Tracking-Passthrough aktivieren",
 	"Setting_WirelessShutdownTimeout": "Bei Verbindungsabbruch SteamVR beenden",
 	"Setting_AllowVolumeControlSync": "VR-Headset-Lautstärke und Stummschalten mit SteamVR steuern",
 	"Setting_DisableQoS": "QoS deaktivieren",

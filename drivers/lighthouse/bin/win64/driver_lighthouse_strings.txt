@@ -698,7 +698,7 @@ $tAUUPE
 .?AVCDepthAugmentedPassthrough@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xdd5c741a@vortex@@
+.?AVCDisambiguatorTDM@?A0xf3883f88@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCFirmwareManifest@@
 .?AVCHandPoseLogic_IndexController@vortex@@
@@ -1073,7 +1073,6 @@ $tAUUPE
 000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990
 0123456789abcdef
 0\tFAJ
-0a\v6<
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -1483,7 +1482,7 @@ CVec3
 CVkAllocator::AllocateMemory
 CVkAllocator::AllocateMemoryFromType
 CVkAllocator::CreateBuffer
-CVkAllocator::CreateImage
+CVkAllocator::CreateImageWithFlags
 CVkAllocator::GetCompatibleMemoryType
 CVkCommandBuffer::Begin
 CVkCommandBuffer::End
@@ -1815,6 +1814,7 @@ Facet
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Terminating.\n
 Failed Watchdog timeout in thread %s after %f seconds\n
 Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d\n
 Failed to connect to pipe %s because %s... retrying
@@ -2120,6 +2120,7 @@ IVRCameraComponent_
 IVRCameraComponent_001
 IVRCameraComponent_002
 IVRCameraComponent_003
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -2141,7 +2142,7 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIOBuffer_002
-IVRIPCResourceManagerClient_002
+IVRIPCResourceManagerClient_003
 IVRInputInternal_002
 IVRInput_010
 IVRMCStore_001
@@ -2149,8 +2150,8 @@ IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -2292,6 +2293,7 @@ LighthouseUSB
 Line %d, Column %d
 Line: 
 LiquidVR
+LiquidVR did not return a factory function\n
 LoadLibraryA
 LoadLibraryExW
 LoadLibraryW
@@ -2928,6 +2930,7 @@ VK_EXT_validation_features
 VK_KHR_external_memory_win32
 VK_KHR_external_semaphore_win32
 VK_KHR_present_id
+VK_KHR_win32_keyed_mutex
 VK_LAYER_KHRONOS_validation
 VK_NV_compute_shader_derivatives
 VR Path Registry node %s is not an array\n
@@ -3145,9 +3148,13 @@ VRInitError_VendorSpecific_HmdFound_UnableToSendUserDataStart
 VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1
 VRInitError_VendorSpecific_HmdFound_UserDataAddressRange
 VRInitError_VendorSpecific_HmdFound_UserDataError
+VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoVideoSupport
+VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
+VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
 VR_CONFIG_PATH
 VR_FIRMWARE_MANIFEST_FILE
@@ -3354,6 +3361,7 @@ Zjz\v
 [packed = true] can only be specified for repeated primitive fields.
 \%03o
 \U%08x
+\fp8P
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -3657,6 +3665,8 @@ bit_offset
 bit_width
 bl_ctl
 black_clamp
+blue_dest
+blue_src
 bodnok
 bonemask_fingeraux.txt
 bonemask_grip.txt
@@ -3680,34 +3690,34 @@ byteLength
 byteOffset
 byteStride
 bytes
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
-c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\compositionclient.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkinterop_d3d11.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\prismdirect.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\stereo_setup.cpp
 cal_method
 calloc
 camera
@@ -4133,6 +4143,7 @@ insufficient memory
 int32
 int64
 intensity
+internal
 internet
 interpolation
 intrinsics
@@ -4513,6 +4524,8 @@ recorded
 recorder
 recorder + 
 recording\n
+red_dest
+red_src
 refDistance
 registered: 
 registered_device_type_prefix
@@ -4563,6 +4576,7 @@ samples
 sc_schinese
 scalar
 scale
+scanout_scaling
 scene
 scenes
 schinese
@@ -4802,20 +4816,24 @@ vkAcquireWinrtDisplayNV
 vkAllocateCommandBuffers
 vkAllocateDescriptorSets
 vkAllocateMemory
+vkAntiLagUpdateAMD
 vkBeginCommandBuffer
 vkBindAccelerationStructureMemoryNV
 vkBindBufferMemory
 vkBindBufferMemory2
 vkBindBufferMemory2KHR
+vkBindDataGraphPipelineSessionMemoryARM
 vkBindImageMemory
 vkBindImageMemory2
 vkBindImageMemory2KHR
 vkBindOpticalFlowSessionImageNV
+vkBindTensorMemoryARM
 vkBindVideoSessionMemoryKHR
 vkBuildAccelerationStructuresKHR
 vkBuildMicromapsEXT
 vkCmdBeginConditionalRenderingEXT
 vkCmdBeginDebugUtilsLabelEXT
+vkCmdBeginPerTileExecutionQCOM
 vkCmdBeginQuery
 vkCmdBeginQueryIndexedEXT
 vkCmdBeginRenderPass
@@ -4829,14 +4847,17 @@ vkCmdBindDescriptorBufferEmbeddedSamplers2EXT
 vkCmdBindDescriptorBufferEmbeddedSamplersEXT
 vkCmdBindDescriptorBuffersEXT
 vkCmdBindDescriptorSets
+vkCmdBindDescriptorSets2
 vkCmdBindDescriptorSets2KHR
 vkCmdBindIndexBuffer
+vkCmdBindIndexBuffer2
 vkCmdBindIndexBuffer2KHR
 vkCmdBindInvocationMaskHUAWEI
 vkCmdBindPipeline
 vkCmdBindPipelineShaderGroupNV
 vkCmdBindShadersEXT
 vkCmdBindShadingRateImageNV
+vkCmdBindTileMemoryQCOM
 vkCmdBindTransformFeedbackBuffersEXT
 vkCmdBindVertexBuffers
 vkCmdBindVertexBuffers2
@@ -4847,11 +4868,14 @@ vkCmdBlitImage2KHR
 vkCmdBuildAccelerationStructureNV
 vkCmdBuildAccelerationStructuresIndirectKHR
 vkCmdBuildAccelerationStructuresKHR
+vkCmdBuildClusterAccelerationStructureIndirectNV
 vkCmdBuildMicromapsEXT
+vkCmdBuildPartitionedAccelerationStructuresNV
 vkCmdClearAttachments
 vkCmdClearColorImage
 vkCmdClearDepthStencilImage
 vkCmdControlVideoCodingKHR
+vkCmdConvertCooperativeVectorMatrixNV
 vkCmdCopyAccelerationStructureKHR
 vkCmdCopyAccelerationStructureNV
 vkCmdCopyAccelerationStructureToMemoryKHR
@@ -4874,8 +4898,8 @@ vkCmdCopyMemoryToMicromapEXT
 vkCmdCopyMicromapEXT
 vkCmdCopyMicromapToMemoryEXT
 vkCmdCopyQueryPoolResults
+vkCmdCopyTensorARM
 vkCmdCuLaunchKernelNVX
-vkCmdCudaLaunchKernelNV
 vkCmdDebugMarkerBeginEXT
 vkCmdDebugMarkerEndEXT
 vkCmdDebugMarkerInsertEXT
@@ -4885,7 +4909,9 @@ vkCmdDecompressMemoryNV
 vkCmdDispatch
 vkCmdDispatchBase
 vkCmdDispatchBaseKHR
+vkCmdDispatchDataGraphARM
 vkCmdDispatchIndirect
+vkCmdDispatchTileQCOM
 vkCmdDraw
 vkCmdDrawClusterHUAWEI
 vkCmdDrawClusterIndirectHUAWEI
@@ -4910,16 +4936,19 @@ vkCmdDrawMultiIndexedEXT
 vkCmdEncodeVideoKHR
 vkCmdEndConditionalRenderingEXT
 vkCmdEndDebugUtilsLabelEXT
+vkCmdEndPerTileExecutionQCOM
 vkCmdEndQuery
 vkCmdEndQueryIndexedEXT
 vkCmdEndRenderPass
 vkCmdEndRenderPass2
 vkCmdEndRenderPass2KHR
 vkCmdEndRendering
+vkCmdEndRendering2EXT
 vkCmdEndRenderingKHR
 vkCmdEndTransformFeedbackEXT
 vkCmdEndVideoCodingKHR
 vkCmdExecuteCommands
+vkCmdExecuteGeneratedCommandsEXT
 vkCmdExecuteGeneratedCommandsNV
 vkCmdFillBuffer
 vkCmdInsertDebugUtilsLabelEXT
@@ -4930,11 +4959,17 @@ vkCmdOpticalFlowExecuteNV
 vkCmdPipelineBarrier
 vkCmdPipelineBarrier2
 vkCmdPipelineBarrier2KHR
+vkCmdPreprocessGeneratedCommandsEXT
 vkCmdPreprocessGeneratedCommandsNV
 vkCmdPushConstants
+vkCmdPushConstants2
 vkCmdPushConstants2KHR
+vkCmdPushDescriptorSet
+vkCmdPushDescriptorSet2
 vkCmdPushDescriptorSet2KHR
 vkCmdPushDescriptorSetKHR
+vkCmdPushDescriptorSetWithTemplate
+vkCmdPushDescriptorSetWithTemplate2
 vkCmdPushDescriptorSetWithTemplate2KHR
 vkCmdPushDescriptorSetWithTemplateKHR
 vkCmdResetEvent
@@ -4972,6 +5007,7 @@ vkCmdSetDepthBounds
 vkCmdSetDepthBoundsTestEnable
 vkCmdSetDepthBoundsTestEnableEXT
 vkCmdSetDepthClampEnableEXT
+vkCmdSetDepthClampRangeEXT
 vkCmdSetDepthClipEnableEXT
 vkCmdSetDepthClipNegativeOneToOneEXT
 vkCmdSetDepthCompareOp
@@ -4998,8 +5034,10 @@ vkCmdSetFragmentShadingRateKHR
 vkCmdSetFrontFace
 vkCmdSetFrontFaceEXT
 vkCmdSetLineRasterizationModeEXT
+vkCmdSetLineStipple
 vkCmdSetLineStippleEXT
 vkCmdSetLineStippleEnableEXT
+vkCmdSetLineStippleKHR
 vkCmdSetLineWidth
 vkCmdSetLogicOpEXT
 vkCmdSetLogicOpEnableEXT
@@ -5018,6 +5056,10 @@ vkCmdSetRasterizationStreamEXT
 vkCmdSetRasterizerDiscardEnable
 vkCmdSetRasterizerDiscardEnableEXT
 vkCmdSetRayTracingPipelineStackSizeKHR
+vkCmdSetRenderingAttachmentLocations
+vkCmdSetRenderingAttachmentLocationsKHR
+vkCmdSetRenderingInputAttachmentIndices
+vkCmdSetRenderingInputAttachmentIndicesKHR
 vkCmdSetRepresentativeFragmentTestEnableNV
 vkCmdSetSampleLocationsEXT
 vkCmdSetSampleLocationsEnableEXT
@@ -5061,11 +5103,15 @@ vkCmdWriteTimestamp
 vkCmdWriteTimestamp2
 vkCmdWriteTimestamp2KHR
 vkCompileDeferredNV
+vkConvertCooperativeVectorMatrixNV
 vkCopyAccelerationStructureKHR
 vkCopyAccelerationStructureToMemoryKHR
+vkCopyImageToImage
 vkCopyImageToImageEXT
+vkCopyImageToMemory
 vkCopyImageToMemoryEXT
 vkCopyMemoryToAccelerationStructureKHR
+vkCopyMemoryToImage
 vkCopyMemoryToImageEXT
 vkCopyMemoryToMicromapEXT
 vkCopyMicromapEXT
@@ -5078,8 +5124,8 @@ vkCreateCommandPool
 vkCreateComputePipelines
 vkCreateCuFunctionNVX
 vkCreateCuModuleNVX
-vkCreateCudaFunctionNV
-vkCreateCudaModuleNV
+vkCreateDataGraphPipelineSessionARM
+vkCreateDataGraphPipelinesARM
 vkCreateDebugReportCallbackEXT
 vkCreateDebugUtilsMessengerEXT
 vkCreateDeferredOperationKHR
@@ -5091,16 +5137,20 @@ vkCreateDevice
 vkCreateDisplayModeKHR
 vkCreateDisplayPlaneSurfaceKHR
 vkCreateEvent
+vkCreateExternalComputeQueueNV
 vkCreateFence
 vkCreateFramebuffer
 vkCreateGraphicsPipelines
 vkCreateHeadlessSurfaceEXT
 vkCreateImage
 vkCreateImageView
+vkCreateIndirectCommandsLayoutEXT
 vkCreateIndirectCommandsLayoutNV
+vkCreateIndirectExecutionSetEXT
 vkCreateInstance
 vkCreateMicromapEXT
 vkCreateOpticalFlowSessionNV
+vkCreatePipelineBinariesKHR
 vkCreatePipelineCache
 vkCreatePipelineLayout
 vkCreatePrivateDataSlot
@@ -5119,6 +5169,8 @@ vkCreateShaderModule
 vkCreateShadersEXT
 vkCreateSharedSwapchainsKHR
 vkCreateSwapchainKHR
+vkCreateTensorARM
+vkCreateTensorViewARM
 vkCreateValidationCacheEXT
 vkCreateVideoSessionKHR
 vkCreateVideoSessionParametersKHR
@@ -5134,8 +5186,7 @@ vkDestroyBufferView
 vkDestroyCommandPool
 vkDestroyCuFunctionNVX
 vkDestroyCuModuleNVX
-vkDestroyCudaFunctionNV
-vkDestroyCudaModuleNV
+vkDestroyDataGraphPipelineSessionARM
 vkDestroyDebugReportCallbackEXT
 vkDestroyDebugUtilsMessengerEXT
 vkDestroyDeferredOperationKHR
@@ -5145,15 +5196,19 @@ vkDestroyDescriptorUpdateTemplate
 vkDestroyDescriptorUpdateTemplateKHR
 vkDestroyDevice
 vkDestroyEvent
+vkDestroyExternalComputeQueueNV
 vkDestroyFence
 vkDestroyFramebuffer
 vkDestroyImage
 vkDestroyImageView
+vkDestroyIndirectCommandsLayoutEXT
 vkDestroyIndirectCommandsLayoutNV
+vkDestroyIndirectExecutionSetEXT
 vkDestroyInstance
 vkDestroyMicromapEXT
 vkDestroyOpticalFlowSessionNV
 vkDestroyPipeline
+vkDestroyPipelineBinaryKHR
 vkDestroyPipelineCache
 vkDestroyPipelineLayout
 vkDestroyPrivateDataSlot
@@ -5168,6 +5223,8 @@ vkDestroyShaderEXT
 vkDestroyShaderModule
 vkDestroySurfaceKHR
 vkDestroySwapchainKHR
+vkDestroyTensorARM
+vkDestroyTensorViewARM
 vkDestroyValidationCacheEXT
 vkDestroyVideoSessionKHR
 vkDestroyVideoSessionParametersKHR
@@ -5203,7 +5260,11 @@ vkGetBufferOpaqueCaptureAddressKHR
 vkGetBufferOpaqueCaptureDescriptorDataEXT
 vkGetCalibratedTimestampsEXT
 vkGetCalibratedTimestampsKHR
-vkGetCudaModuleCacheNV
+vkGetClusterAccelerationStructureBuildSizesNV
+vkGetDataGraphPipelineAvailablePropertiesARM
+vkGetDataGraphPipelinePropertiesARM
+vkGetDataGraphPipelineSessionBindPointRequirementsARM
+vkGetDataGraphPipelineSessionMemoryRequirementsARM
 vkGetDeferredOperationMaxConcurrencyKHR
 vkGetDeferredOperationResultKHR
 vkGetDescriptorEXT
@@ -5226,6 +5287,7 @@ vkGetDeviceImageMemoryRequirements
 vkGetDeviceImageMemoryRequirementsKHR
 vkGetDeviceImageSparseMemoryRequirements
 vkGetDeviceImageSparseMemoryRequirementsKHR
+vkGetDeviceImageSubresourceLayout
 vkGetDeviceImageSubresourceLayoutKHR
 vkGetDeviceMemoryCommitment
 vkGetDeviceMemoryOpaqueCaptureAddress
@@ -5235,6 +5297,7 @@ vkGetDeviceProcAddr
 vkGetDeviceQueue
 vkGetDeviceQueue2
 vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI
+vkGetDeviceTensorMemoryRequirementsARM
 vkGetDisplayModeProperties2KHR
 vkGetDisplayModePropertiesKHR
 vkGetDisplayPlaneCapabilities2KHR
@@ -5244,10 +5307,12 @@ vkGetDrmDisplayEXT
 vkGetDynamicRenderingTilePropertiesQCOM
 vkGetEncodedVideoSessionParametersKHR
 vkGetEventStatus
+vkGetExternalComputeQueueDataNV
 vkGetFenceFdKHR
 vkGetFenceStatus
 vkGetFenceWin32HandleKHR
 vkGetFramebufferTilePropertiesQCOM
+vkGetGeneratedCommandsMemoryRequirementsEXT
 vkGetGeneratedCommandsMemoryRequirementsNV
 vkGetImageDrmFormatModifierPropertiesEXT
 vkGetImageMemoryRequirements
@@ -5258,9 +5323,11 @@ vkGetImageSparseMemoryRequirements
 vkGetImageSparseMemoryRequirements2
 vkGetImageSparseMemoryRequirements2KHR
 vkGetImageSubresourceLayout
+vkGetImageSubresourceLayout2
 vkGetImageSubresourceLayout2EXT
 vkGetImageSubresourceLayout2KHR
 vkGetImageViewAddressNVX
+vkGetImageViewHandle64NVX
 vkGetImageViewHandleNVX
 vkGetImageViewOpaqueCaptureDescriptorDataEXT
 vkGetInstanceProcAddr
@@ -5273,12 +5340,15 @@ vkGetMemoryWin32HandleKHR
 vkGetMemoryWin32HandleNV
 vkGetMemoryWin32HandlePropertiesKHR
 vkGetMicromapBuildSizesEXT
+vkGetPartitionedAccelerationStructuresBuildSizesNV
 vkGetPastPresentationTimingGOOGLE
 vkGetPerformanceParameterINTEL
 vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
 vkGetPhysicalDeviceCalibrateableTimeDomainsKHR
+vkGetPhysicalDeviceCooperativeMatrixFlexibleDimensionsPropertiesNV
 vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR
 vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
+vkGetPhysicalDeviceCooperativeVectorPropertiesNV
 vkGetPhysicalDeviceDisplayPlaneProperties2KHR
 vkGetPhysicalDeviceDisplayPlanePropertiesKHR
 vkGetPhysicalDeviceDisplayProperties2KHR
@@ -5290,6 +5360,7 @@ vkGetPhysicalDeviceExternalFencePropertiesKHR
 vkGetPhysicalDeviceExternalImageFormatPropertiesNV
 vkGetPhysicalDeviceExternalSemaphoreProperties
 vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
+vkGetPhysicalDeviceExternalTensorPropertiesARM
 vkGetPhysicalDeviceFeatures
 vkGetPhysicalDeviceFeatures2
 vkGetPhysicalDeviceFeatures2KHR
@@ -5309,6 +5380,8 @@ vkGetPhysicalDevicePresentRectanglesKHR
 vkGetPhysicalDeviceProperties
 vkGetPhysicalDeviceProperties2
 vkGetPhysicalDeviceProperties2KHR
+vkGetPhysicalDeviceQueueFamilyDataGraphProcessingEnginePropertiesARM
+vkGetPhysicalDeviceQueueFamilyDataGraphPropertiesARM
 vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR
 vkGetPhysicalDeviceQueueFamilyProperties
 vkGetPhysicalDeviceQueueFamilyProperties2
@@ -5331,12 +5404,14 @@ vkGetPhysicalDeviceVideoCapabilitiesKHR
 vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR
 vkGetPhysicalDeviceVideoFormatPropertiesKHR
 vkGetPhysicalDeviceWin32PresentationSupportKHR
+vkGetPipelineBinaryDataKHR
 vkGetPipelineCacheData
 vkGetPipelineExecutableInternalRepresentationsKHR
 vkGetPipelineExecutablePropertiesKHR
 vkGetPipelineExecutableStatisticsKHR
 vkGetPipelineIndirectDeviceAddressNV
 vkGetPipelineIndirectMemoryRequirementsNV
+vkGetPipelineKeyKHR
 vkGetPipelinePropertiesEXT
 vkGetPrivateData
 vkGetPrivateDataEXT
@@ -5349,6 +5424,7 @@ vkGetRayTracingShaderGroupHandlesNV
 vkGetRayTracingShaderGroupStackSizeKHR
 vkGetRefreshCycleDurationGOOGLE
 vkGetRenderAreaGranularity
+vkGetRenderingAreaGranularity
 vkGetRenderingAreaGranularityKHR
 vkGetSamplerOpaqueCaptureDescriptorDataEXT
 vkGetSemaphoreCounterValue
@@ -5362,6 +5438,9 @@ vkGetShaderModuleIdentifierEXT
 vkGetSwapchainCounterEXT
 vkGetSwapchainImagesKHR
 vkGetSwapchainStatusKHR
+vkGetTensorMemoryRequirementsARM
+vkGetTensorOpaqueCaptureDescriptorDataARM
+vkGetTensorViewOpaqueCaptureDescriptorDataARM
 vkGetValidationCacheDataEXT
 vkGetVideoSessionMemoryRequirementsKHR
 vkGetWinrtDisplayNV
@@ -5373,6 +5452,7 @@ vkInitializePerformanceApiINTEL
 vkInvalidateMappedMemoryRanges
 vkLatencySleepNV
 vkMapMemory
+vkMapMemory2
 vkMapMemory2KHR
 vkMergePipelineCaches
 vkMergeValidationCachesEXT
@@ -5389,11 +5469,13 @@ vkQueueSubmit2KHR
 vkQueueWaitIdle
 vkRegisterDeviceEventEXT
 vkRegisterDisplayEventEXT
+vkReleaseCapturedPipelineDataKHR
 vkReleaseDisplayEXT
 vkReleaseFullScreenExclusiveModeEXT
 vkReleasePerformanceConfigurationINTEL
 vkReleaseProfilingLockKHR
 vkReleaseSwapchainImagesEXT
+vkReleaseSwapchainImagesKHR
 vkResetCommandBuffer
 vkResetCommandPool
 vkResetDescriptorPool
@@ -5414,17 +5496,22 @@ vkSetPrivateDataEXT
 vkSignalSemaphore
 vkSignalSemaphoreKHR
 vkSubmitDebugUtilsMessageEXT
+vkTransitionImageLayout
 vkTransitionImageLayoutEXT
 vkTrimCommandPool
 vkTrimCommandPoolKHR
 vkUninitializePerformanceApiINTEL
 vkUnmapMemory
+vkUnmapMemory2
 vkUnmapMemory2KHR
 vkUpdateDescriptorSetWithTemplate
 vkUpdateDescriptorSetWithTemplateKHR
 vkUpdateDescriptorSets
+vkUpdateIndirectExecutionSetPipelineEXT
+vkUpdateIndirectExecutionSetShaderEXT
 vkUpdateVideoSessionParametersKHR
 vkWaitForFences
+vkWaitForPresent2KHR
 vkWaitForPresentKHR
 vkWaitSemaphores
 vkWaitSemaphoresKHR

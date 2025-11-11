@@ -1,4 +1,10 @@
 {
+	"automap_default_parameters" : {
+		"touch_activate_threshold" : "0.1",
+		"touch_deactivate_threshold" : "0.05",
+		"click_activate_threshold" : "0.7",
+		"click_deactivate_threshold" : "0.65"
+	},
     "automap_templates" : [
         {
             "fromType" : "button",
@@ -1076,7 +1082,7 @@
             ]
         },
         {
-            "fromType" : "force", 
+            "fromType" : "force",
             "toType" : "trigger",
             "remappings" : [
                 {

@@ -502,6 +502,26 @@
 "VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_Action" " "
 "VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1_ActionURL" " "
 
+"VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA_Header" "Update Graphics Drivers"
+"VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA_Description" "Steam Link requires a Mesa version of 25.2.1 or newer. Please update your graphics drivers."
+"VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA_Action" " "
+"VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA_ActionURL" " "
+
+"VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA_Header" "Update Graphics Drivers"
+"VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA_Description" "Steam Link requires NVIDIA driver version 575.64.5 or newer. Please update your graphics drivers."
+"VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA_Action" " "
+"VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA_ActionURL" " "
+
+"VRInitError_VendorSpecific_VRLink_NoVideoSupport_Header" "No Video Encode Support"
+"VRInitError_VendorSpecific_VRLink_NoVideoSupport_Description" "Your GPU supports video encoding, but your graphics drivers have this feature disabled. Please install graphics drivers that have video encoding enabled."
+"VRInitError_VendorSpecific_VRLink_NoVideoSupport_Action" " "
+"VRInitError_VendorSpecific_VRLink_NoVideoSupport_ActionURL" " "
+
+"VRInitError_VendorSpecific_Oasis_UnlockRequired_Header" "Oasis Driver Requires Unlock"
+"VRInitError_VendorSpecific_Oasis_UnlockRequired_Description" "Every Mixed Reality headset and controller must be unlocked prior to using the Oasis driver. Follow the steps at the link below."
+"VRInitError_VendorSpecific_Oasis_UnlockRequired_Action" "Unlock Instructions"
+"VRInitError_VendorSpecific_Oasis_UnlockRequired_ActionURL" "https://github.com/mbucchia/Oasis-Driver-for-Windows-Mixed-Reality/wiki/Procedure-to-unlock-headset-and-controllers-for-Oasis"
+
 "VRInitError_Steam_SteamInstallationNotFound_Header" "SteamVR Error"
 "VRInitError_Steam_SteamInstallationNotFound_Description" "Steam must be installed for SteamVR to work correctly."
 "VRInitError_Steam_SteamInstallationNotFound_Action" "Install Steam"

@@ -128,7 +128,6 @@
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
-@LocalizationManager
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -182,6 +181,7 @@ H264
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -199,8 +199,8 @@ IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -222,6 +222,7 @@ JFIF
 KERNEL32.dll
 LeaveCriticalSection
 LoadLibraryA
+LocalizationManager
 MSVCP140.dll
 MainThrd
 MbP?{
@@ -410,10 +411,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\work_thread.cpp
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate

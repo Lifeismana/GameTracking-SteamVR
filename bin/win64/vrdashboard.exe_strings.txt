@@ -133,7 +133,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-12:33:55
+17:48:08
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -198,7 +198,6 @@ Aborting due to fatal assertion failure.
 Alert
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 Assert( %s ) %s(%d)\n
-Aug 15 2025
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -254,6 +253,7 @@ FATAL: Failed to open log file %s, failing out!\n
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
+Failed Watchdog timeout in thread %s after %f seconds. Terminating.\n
 Failed Watchdog timeout in thread %s after %f seconds\n
 Failed to initialize vrdesktop. Exiting.\n
 Failed to load vrdesktop implementation. Exiting.\n
@@ -294,6 +294,7 @@ GpuPreference=
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -312,8 +313,8 @@ IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -353,6 +354,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 MoveFileExW
 NULL
+Nov 10 2025
 Out of thread local storage!\n
 OutputDebugStringA
 PeekMessageA
@@ -360,7 +362,7 @@ Process VR events.
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSq
 RaiseException
 ReadFile
 RegCloseKey
@@ -605,11 +607,11 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\vrdashboard_main.cpp
 collectComments
 config
 cs_cz

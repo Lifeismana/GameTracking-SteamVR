@@ -2,7 +2,6 @@
  formatting error code 
 %s: failed with error '%s' (%d)
 ' is not a number.
-'mCZ
 , last executing in 
 -1e+9999
 -IPCWrapper
@@ -291,7 +290,7 @@ Out of thread local storage!\n
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
 QueryPerformanceCounter
-RSDS
+RSDSa
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -478,9 +477,9 @@ backgroundUseDomeProjection
 bad allocation
 bad array new length
 bad conversion
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win32\build\src\vrurlhandler\Retail\win32\2017\vrurlhandler.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vrurlhandler\Retail\win32\2017\vrurlhandler.pdb
 camera
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -530,6 +529,7 @@ in Json::Value::operator[](ArrayIndex)const: requires arrayValue
 in Json::Value::operator[](int index): index cannot be negative
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
+internal
 internet
 invalid string position
 isspace

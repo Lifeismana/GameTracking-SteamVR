@@ -655,6 +655,7 @@ IPCPipe(%s): Wrote %u bytes of total message length\n
 IVRApplicationsInternal_XXX
 IVRApplications_007
 IVRBlockQueue_005
+IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
@@ -673,8 +674,8 @@ IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlayView_003
 IVROverlay_028
-IVRPathsInternal_001
-IVRPaths_001
+IVRPathsInternal_XXX
+IVRPaths_002
 IVRPropertiesInternal_001
 IVRProperties_001
 IVRRenderModelsInternal_XXX
@@ -700,6 +701,7 @@ IsValidSid
 J?green@QColor@@QEBAHXZ
 K?invalidate@QColor@@AEAAXXZ
 KERNEL32.dll
+La\rn
 LeaveCriticalSection
 Line %d, Column %d
 Linear
@@ -1059,9 +1061,9 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\Retail\win64\2017\overlay_viewer.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\overlay_viewer\Retail\win64\2017\overlay_viewer.pdb
 captureMouse
 client
 collectComments

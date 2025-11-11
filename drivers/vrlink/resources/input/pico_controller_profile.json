@@ -6,6 +6,7 @@
   "driver_name": "vrlink",
   "input_bindingui_mode": "controller_handed",
   "should_show_binding_errors": true,
+  "legacy_binding" :  "{vrlink}/input/legacy_bindings_pico_controller.json",
   "remapping" : "{vrlink}/input/pico_controller_remapping.json",
   "input_bindingui_left": {
     "image": "{vrlink}/icons/pico4ultracontroller_left.svg"
@@ -111,5 +112,11 @@
       "type": "pose",
       "binding_image_point": [ 25, 25 ]
     }
-  }
+  },
+  "default_bindings": [
+    {
+      "app_key": "openvr.component.vrcompositor",
+      "binding_url" : "vrcompositor_bindings_pico_controller.json"
+    }
+  ]
 }

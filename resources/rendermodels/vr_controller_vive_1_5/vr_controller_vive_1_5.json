@@ -194,6 +194,30 @@
                 "rotate_xyz" : [1.282, 0.0, 0.0]
              }
         },
+        "openxr_pinch": {
+            "component_local" : {
+                "origin": [0.01, 0.0125, 0.07],
+                "rotate_xyz" : [45.00, 0.00, 0.00]
+            }
+        },
+        "openxr_pinch_r": {
+            "component_local" : {
+                "origin": [-0.01, 0.0125, 0.07],
+                "rotate_xyz" : [45.00, 0.00, 0.00]
+            }
+        },
+        "openxr_poke": {
+            "component_local" : {
+                "origin": [-0.038, -0.058, 0.005],
+                "rotate_xyz" : [45.00, 0.00, 0.00]
+            }
+        },
+        "openxr_poke_r": {
+            "component_local" : {
+                "origin": [0.038, -0.058, 0.005],
+                "rotate_xyz" : [45.00, 0.00, 0.00]
+            }
+        },
         "scroll_wheel": {
             "filename": "scroll_wheel.obj",
             "motion":{
