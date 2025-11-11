@@ -565,7 +565,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDSW
+RSDS}
 Radio version:      
 RaiseException
 ReadFile
@@ -767,7 +767,7 @@ bad cast
 bad conversion
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win32\build\src\lighthouse_watchman_update\Retail\win32\2017\lighthouse_watchman_update.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\lighthouse_watchman_update\Retail\win32\2017\lighthouse_watchman_update.pdb
 calloc
 dQy/
 data error

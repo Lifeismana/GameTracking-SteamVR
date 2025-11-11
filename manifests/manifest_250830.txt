@@ -1,10 +1,10 @@
 Content Manifest for Depot 250830 
 
-Manifest ID / date     : 1874458903680892192 / 08/15/2025 18:50:31 
+Manifest ID / date     : 7391958373704501609 / 05/28/2024 01:08:46 
 Total number of files  : 2179 
-Total number of chunks : 5293 
-Total bytes on disk    : 3359372759 
-Total bytes compressed : 1109881680 
+Total number of chunks : 5288 
+Total bytes on disk    : 3356665389 
+Total bytes compressed : 1108877024 
 
 
           Size Chunks File SHA                                 Flags Name
@@ -2157,14 +2157,14 @@ Total bytes compressed : 1109881680
      103512836    107 7e2712e9c31dea58dfc8a53a0d7ece944c6cf2fd     0 tools/steamvr_environments/game/steamtours/pak01_010.vpk
      104873636    106 a136f951f369a82537d34af6671d45c174e4d7ef     0 tools/steamvr_environments/game/steamtours/pak01_011.vpk
      120724204    126 887dae5325119ecb0a769645596c7f384d78fb91     0 tools/steamvr_environments/game/steamtours/pak01_012.vpk
-     104817008    115 1a7a2c74e93ac11bb2650c929f106e3a0a8e62ac     0 tools/steamvr_environments/game/steamtours/pak01_013.vpk
+     119320612    127 f459d978267972569544792f58430103249ad179     0 tools/steamvr_environments/game/steamtours/pak01_013.vpk
      100292593    102 88913c942c2bdb4b207f6cbc4a2349e0be5841d1     0 tools/steamvr_environments/game/steamtours/pak01_014.vpk
      104804112    106 23b2ec46d206052e3d83a60cc81bcff9f939afd0     0 tools/steamvr_environments/game/steamtours/pak01_015.vpk
      104005132    104 b9cf5425543db4461bf2faebbf4dbf7260bfc197     0 tools/steamvr_environments/game/steamtours/pak01_016.vpk
-     104796340    107 3cbeb54df9b20f0eaf8c3de24877205ebc60eeed     0 tools/steamvr_environments/game/steamtours/pak01_017.vpk
+     101930886    107 bba6f20c0efa508efb89f96d732dcd9bd2b4736b     0 tools/steamvr_environments/game/steamtours/pak01_017.vpk
      102131132    105 807ffd0f63e8eabd4a0784c4346a446b98b48377     0 tools/steamvr_environments/game/steamtours/pak01_018.vpk
-      78438770     83 b4deaf830e0a6b93af1eb75c2e4b790e228115cd     0 tools/steamvr_environments/game/steamtours/pak01_019.vpk
-        190991      1 322edf41cd52612349f44854b77618fd382ebacf     0 tools/steamvr_environments/game/steamtours/pak01_dir.vpk
+      64093250     66 77489a75e0972f5156641728b261f2b456c06a83     0 tools/steamvr_environments/game/steamtours/pak01_019.vpk
+        190991      1 498b8ba0b544e9b4438f16f7a6b16a11dbe2736b     0 tools/steamvr_environments/game/steamtours/pak01_dir.vpk
      104888980    107 9e534070df8cba41692857751d3cebafb1f33f5e     0 tools/steamvr_environments/game/steamtours/pak02_000.vpk
      100034564    100 ec24bfc2622baf4544e457391293ebccc8bdce5a     0 tools/steamvr_environments/game/steamtours/pak02_001.vpk
          18986      1 aa89cc8f9f084ff84167eb3ec750422d1e007e35     0 tools/steamvr_environments/game/steamtours/pak02_dir.vpk
@@ -2173,7 +2173,7 @@ Total bytes compressed : 1109881680
        8368828      8 9c4de9ee9fb2713c7694cde7d5a36380ac08e411     0 tools/steamvr_environments/game/steamtours/panorama/fonts/notosanssc-regular.otf
        5648604      6 849a4197595b4384b0572e09414a4b3f8777ad67     0 tools/steamvr_environments/game/steamtours/panorama/fonts/notosanstc-regular.otf
        1267938      3 6c7894b13ec1e24d6eef1e08c5efca310081938e     0 tools/steamvr_environments/game/steamtours/panorama/fonts/tenfoot.uifont
-           152      1 82b82a4bcf7d9dbc46235a096866f00ff89048a0     0 tools/steamvr_environments/game/steamtours/steam.inf
+           152      1 e90a844b8757b4f38a11981e56e3ce6a92ac1d5f     0 tools/steamvr_environments/game/steamtours/steam.inf
             55      1 738073a80ac0d19345fb32281a93268845b5599a     0 tools/steamvr_environments/game/steamtours_addons/addon_template/addoninfo.txt
             17      1 a50e077debdc3c819168bab85e29297e323f170e     0 tools/steamvr_environments/game/steamtours_addons/addon_template/panorama/localization/addon_english.txt
           1138      1 9d423f1902bb1a219027d32b7894ce7a52d1968d     0 tools/steamvr_environments/game/steamtours_addons/addon_template/readonly_tools_asset_info.bin

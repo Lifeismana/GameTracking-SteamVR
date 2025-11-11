@@ -176,7 +176,7 @@ $ORIGIN
 // Reloading all shaders -----------------------------------------------------\n
 //---------------------------------------------------------------------------//\n
 //-----------------------------------\n
-/data/src/vfx/compiletargetexpr.g
+/home/buildbot/buildslave/destinations_staging_linuxsteamrt64/build/src/vfx/compiletargetexpr.g
 /panorama/fonts/
 0.075 0.15 0.3
 00000000-0000-0000-0000-000000000000
@@ -847,7 +847,7 @@ FontManager_001
 FormatV
 GAME
 GAMEROOT
-GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt2) 5.4.1 20160803
+GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GLIBCXX_3.4.14
 GLIBC_2.14
 GLIBC_2.2.5

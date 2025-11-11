@@ -1,4 +1,4 @@
-var CLSTAMP = "10151575";
+var CLSTAMP = "10223590";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -4527,7 +4527,7 @@ var CLSTAMP = "10151575";
           }),
           c.createElement(_.WZ, {
             label: (0, h.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1760561629e3).toLocaleString(),
+            value: new Date(1762825704e3).toLocaleString(),
           }),
         );
       });
@@ -18117,7 +18117,7 @@ var CLSTAMP = "10151575";
               ? void 0
               : e.call(VRHTML),
           ),
-            t.set_webpack_build_timestamp(1760561629),
+            t.set_webpack_build_timestamp(1762825704),
             (0, h.Z)(t);
         }
         LoadSessionDevData() {
@@ -25714,4 +25714,4 @@ var CLSTAMP = "10151575";
       l = (0, n.Cg)([i.PA], l);
     },
   },
-]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~8012d0c89.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~8012d0c89.js.map

@@ -866,7 +866,7 @@ G channel not found
 G channel not found!\n
 GAMECONSOLE
 GAMEROOT
-GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt2) 5.4.1 20160803
+GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
 GCC: (Ubuntu 4.8.4-1ubuntu15~12.04+steamrt1+srt2) 4.8.4
 GCC: (crosstool-NG 1.17.0) 4.6.3
 GL ERROR: %s\n
@@ -3187,7 +3187,6 @@ KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 KeyValuesSystem
 LE_BGRA8888
 LE_BGRX8888
-LIBUDEV_183
 LINEAR_ABGR8888
 LINEAR_ARGB8888
 LINEAR_BGR888
@@ -4825,7 +4824,7 @@ libpthread.so.0
 librendersystemgl.so
 libstdc++.so.6
 libtier0.so
-libudev.so.1
+libudev.so.0
 libvstdlib.so
 lineOrder
 lineartogamma

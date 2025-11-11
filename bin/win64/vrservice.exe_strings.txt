@@ -501,8 +501,8 @@ $d`D-laM
 0pp@5tqE?|sO541
 1!1'1-191C1E1K1]1a1g1m1s1
 11M|
-13:58:02
 14 (default)
+17:48:08
 1H@H
 1\v5#d
 1bS1
@@ -2077,6 +2077,7 @@ Nonce
 Not After: 
 Not Before: 
 Not a regular file
+Nov 10 2025
 NrZl
 Nwh\v
 O/lc\r=<1\r-,!@
@@ -2177,7 +2178,6 @@ Oakley-EC2N-4
 Object Signer
 Object Signing
 Object Signing CA
-Oct 15 2025
 OnStartDashboard skipping startup: VR Dashboard already started.
 OnStartDashboard skipping startup: VR Dashboard files failed to copy.
 Only Some Reasons
@@ -3221,7 +3221,6 @@ a2i_ASN1_STRING
 a2i_GENERAL_NAME
 a5<p
 a5j_5W
-a7'hm
 a8Bk
 aI)h
 aRecord
@@ -3586,14 +3585,14 @@ c2tnb239v2
 c2tnb239v3
 c2tnb359v1
 c2tnb431r1
-c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\valvepesignature.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_win64\build\src\vrservice\Retail\win64\2017\vrservice.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\valvepesignature.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrservice\Retail\win64\2017\vrservice.pdb
 cACertificate
 cNAMERecord
 cRLSign
