@@ -1,4 +1,4 @@
-var CLSTAMP = "10223590";
+var CLSTAMP = "10231550";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [452],
   {
@@ -1114,6 +1114,21 @@ var CLSTAMP = "10223590";
               (this.m_bIsMissingRequiredActions = !1),
             this.m_mapUnoundActions
           );
+        }
+        get UnboundRequiredActionStrings() {
+          this.UnboundActions;
+          let e = [];
+          for (let t of this.ActionSets) {
+            const i = t.localized_name ? t.localized_name : t.name;
+            let o = this.m_mapUnoundActions.get(t.name);
+            o &&
+              o.vecRequired.length > 0 &&
+              o.vecRequired.forEach((t) => {
+                const o = t.localized_name ? t.localized_name : t.name;
+                e.push(`${i}: ${o}`);
+              });
+          }
+          return e;
         }
         get HasUnboundActions() {
           return this.UnboundActions, this.m_bIsMissingRequiredActions;
@@ -2513,9 +2528,9 @@ var CLSTAMP = "10223590";
         }
         SaveCurrentBinding(e, t, i) {
           return (0, n.sH)(this, void 0, void 0, function* () {
-            if (this.HasUnboundActions)
-              throw new Error("#SaveError_BindingMissingRequiredActions");
-            (this.m_sName = e), (this.m_sDescription = t);
+            this.HasUnboundActions,
+              (this.m_sName = e),
+              (this.m_sDescription = t);
             let o = this.m_sInteractionProfile.trim(),
               n = {
                 app_key: this.SelectedApp,
@@ -3747,4 +3762,4 @@ var CLSTAMP = "10223590";
         (0, o.Cg)([s.o], c.prototype, "onScrollStopTimeout", null);
     },
   },
-]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~bd288592d.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~bd288592d.js.map

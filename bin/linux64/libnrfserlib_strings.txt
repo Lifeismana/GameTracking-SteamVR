@@ -1387,6 +1387,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
+JsonValueToESimulateRenderModel(Json::Value const&)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
 July
@@ -2658,6 +2659,7 @@ fseek
 fseeko64
 ftell
 ftello64
+full
 futimes
 fwrite
 g_ConnectionParameters
@@ -2831,6 +2833,7 @@ java Class for
 java resource 
 keylength >= 2^30
 kill
+kwW|\r
 lasterrorU
 ld-linux-x86-64.so.2
 left-curly-bracket
@@ -2887,6 +2890,7 @@ mkdir
 mktime
 modf
 mt19937
+name_only
 nanosleep
 need dictionary
 new 
@@ -2917,6 +2921,7 @@ non-virtual thunk to std::basic_iostream<char, std::char_traits<char>>::~basic_i
 non-virtual thunk to std::basic_iostream<wchar_t, std::char_traits<wchar_t>>::~basic_iostream()
 non-virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_stringstream()
 non-virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_stringstream()
+none
 not enough space for format expansion (Please submit full bug report at https://gcc.gnu.org/bugs
 null
 number-sign

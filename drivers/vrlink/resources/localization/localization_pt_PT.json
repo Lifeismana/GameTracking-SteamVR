@@ -19,6 +19,7 @@
 	"Setting_WirelessShutdownTimeout": "Ao desconectar, sair do SteamVR",
 	"Setting_AllowVolumeControlSync": "Controlar volume do headset e silêncio a partir do SteamVR",
 	"Setting_DisableQoS": "Desativar QoS",
+	"Setting_EnableQoS": "Ativar QoS",
 	"svl_hand_interaction_augmented": "Comando de deteção das mãos",
 	"/input/index_pinch": "Beliscar - indicador",
 	"/input/middle_pinch": "Beliscar - dedo médio",

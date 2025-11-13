@@ -14,8 +14,6 @@
 !m_displayImages.empty()
 !m_stackFreeResources.empty()
 !std::isnan( flSystemTimeInSeconds )
-%s begin_ctx=%llu
-%s end_ctx=%llu
 %s(%s): concurrent batches not allowed
 %s-CommandBuffer-%d
 %s-Depth
@@ -264,6 +262,7 @@
 %s: unknown vulkan message severity
 %s: unsupported format
 %s: usage must be specified when allocating images
+%s[%s] %s file=%s
 ( nVertexCount % 3 ) == 0
 ********** Blue ( nLoopCount++ > 1000 )!\n
 ********** Green ( nLoopCount++ > 1000 )!\n
@@ -328,11 +327,11 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fda7136264a0c7f426abb06c45333a48>@@_NW4EVREye@vr@@MMPEAUDistortionCoordinates_t@3@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@U?$default_delete@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@@2@@std@@@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_abc6602877629f1c56e45bba60c70b19>@@UPrismRunParameters_t@@@std@@U?$default_delete@V?$tuple@V<lambda_abc6602877629f1c56e45bba60c70b19>@@UPrismRunParameters_t@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_ad411c34508d3fca01cb19636afa7601>@@UPrismRunParameters_t@@@std@@U?$default_delete@V?$tuple@V<lambda_ad411c34508d3fca01cb19636afa7601>@@UPrismRunParameters_t@@@std@@@2@@std@@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
-.?AVCDestinationFrameInfo@CFrameHallucinationPrivate@?A0xb41460a2@@
+.?AVCDestinationFrameInfo@CFrameHallucinationPrivate@?A0x9ac02b30@@
 .?AVCMotionEstimator_LiquidVR@@
 .?AVCMotionEstimator_NvEncode@@
 .?AVCNonCopyable@@
@@ -482,11 +481,13 @@ CFrameHallucination::SetFov
 CLIENT: I:%6dC:%6dS:%6dP:%6d[%d|%d]
 CMotionEstimation::CRenderPipeline::CreateFramebuffer
 CMotionEstimation::CRenderPipeline::CreateRenderPass
+CMotionEstimation::CopyOutput
 CMotionEstimation::CreateCachedResources
 CMotionEstimation::CreateSampler
 CMotionEstimation::CreateVisibleAreaMask
 CMotionEstimation::InitVisibleAreaResources
 CMotionEstimation::SubmitAndWait
+CMotionEstimation::Update
 CMotionEstimation::Usage
 CMotionEstimator_LiquidVR::CopyOutput
 CMotionEstimator_LiquidVR::CreateImages
@@ -767,7 +768,6 @@ LocalAlloc
 LocalFree
 ME%d-Downsampled-%s
 ME%d-MaskedRgb-%s-%s
-ME-CopyOutput
 ME-CreateVisibleAreaMask
 ME-Downsampler
 ME-Downsampler-Frag
@@ -916,7 +916,7 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS.
+RSDSO
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -965,7 +965,7 @@ SetupDiGetDeviceInterfaceDetailW
 SetupDiGetDevicePropertyW
 SetupDiGetDeviceRegistryPropertyW
 SetupGetInfDriverStoreLocationW
-Signal[%d]:%llu
+Signal nClientId=%d nMaxWaitFrameIndex=%llu
 Skipping CalculateMotion (%llu)
 Skipping CalculateMotion (swapchain mismatch)
 Sleep
@@ -974,7 +974,6 @@ Software\Valve\Steam\ActiveProcess
 Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
 Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
 Somebody locked a non-leaf shared memory %s while %s was already locked
-Submit: %s
 Swapchain
 TdhEnumerateManifestProviderEvents
 TerminateProcess
@@ -1028,9 +1027,10 @@ Valve Corporation
 VerQueryValueA
 VerSetConditionMask
 VerifyVersionInfoW
+VirtualQuery
 Vulkan
 WINMM.dll
-Wait:%llu
+Wait=%llu
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
@@ -1058,7 +1058,7 @@ YUV conversion - %s
 [IPC] Failed creating auto reset event %s (GLE: %u)\n
 [IPC] Failed creating file mapping %s: %u\n
 [IPC] Failed creating mutex %s (GLE: %u)\n
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d/%d); Error code: 0x%08x\n
 [IPC] Failed to open event %s because access was denied\n
 [IPC] Failed to open file mapping %s because access was denied\n
 [IPC] Failed to open mutex %s because access was denied\n
@@ -1074,6 +1074,7 @@ YUV conversion - %s
 [IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
+[IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 \mfpmp.exe
 _Cnd_broadcast
 _Cnd_destroy
@@ -1156,46 +1157,53 @@ atoi
 bad allocation
 bad array new length
 bad conversion
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkcommand.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkquery.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\meshutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\panelmask.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommandbatch.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcuda.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdescriptors.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkimagehistory.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkshaderpipeline.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\Retail\win64\2017\prism.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\clientswapchain.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\framehallucination.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimation.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimator_liquidvr.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimator_nvencode.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionsmoothing.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism_capi.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_liquidvr.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_nvapi.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_vulkan.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismpanelmask.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismposeprovider_null.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkcommand.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkquery.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\meshutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\panelmask.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp:308
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommandbatch.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcuda.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdescriptors.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkimagehistory.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkshaderpipeline.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\Retail\win64\2017\prism.pdb
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\clientswapchain.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\framehallucination.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimation.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimation.cpp:1090
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimation.cpp:1113
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimator_liquidvr.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimator_nvencode.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionsmoothing.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:1064
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:1191
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:1688
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism_capi.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_liquidvr.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_nvapi.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismdisplay_vulkan.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismpanelmask.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismposeprovider_null.cpp
 client
 computeCommandSet.Valid()
 createInfo.pComputeDistortion
@@ -1264,6 +1272,7 @@ m_pCommandBufferPool
 m_pCommandBufferPool != nullptr
 m_pCommandBufferPool->QueueFamilyIndex() == m_pQueue->FamilyIndex()
 m_pCuda != nullptr
+m_pData
 m_pDevice
 m_pDevice != nullptr
 m_pDevice == VK_NULL_HANDLE
@@ -1291,6 +1300,7 @@ memcpy
 memmove
 memset
 multiple signals per batch not allowed
+nExistingSize >= nSize
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nImageIndex < ARRAY_SIZE( m_descriptorClientImages )
 nSizeInBytes <= m_unSizeInBytes

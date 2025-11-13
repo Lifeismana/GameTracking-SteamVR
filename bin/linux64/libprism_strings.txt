@@ -33,10 +33,6 @@
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
 %llu
-%s begin_ctx=%lu
-%s dtime=%d begin_ctx=%lu
-%s dtime=%d end_ctx=%lu
-%s end_ctx=%lu
 %s(%s): concurrent batches not allowed
 %s-CommandBuffer-%d
 %s-Depth
@@ -415,6 +411,7 @@
 /data/src/facet/src/panelmask.cpp
 /data/src/facet/src/vkalloc.cpp
 /data/src/facet/src/vkcommand.cpp
+/data/src/facet/src/vkcommand.cpp:308
 /data/src/facet/src/vkcommandbatch.cpp
 /data/src/facet/src/vkdescriptors.cpp
 /data/src/facet/src/vkdevice.cpp
@@ -426,8 +423,13 @@
 /data/src/prism/src/clientswapchain.cpp
 /data/src/prism/src/framehallucination.cpp
 /data/src/prism/src/motionestimation.cpp
+/data/src/prism/src/motionestimation.cpp:1090
+/data/src/prism/src/motionestimation.cpp:1113
 /data/src/prism/src/motionsmoothing.cpp
 /data/src/prism/src/prism.cpp
+/data/src/prism/src/prism.cpp:1064
+/data/src/prism/src/prism.cpp:1191
+/data/src/prism/src/prism.cpp:1688
 /data/src/prism/src/prism_capi.cpp
 /data/src/prism/src/prismclient.cpp
 /data/src/prism/src/prismdisplay_vulkan.cpp
@@ -448,9 +450,9 @@
 /tmp/.steam-sem-names
 /u%d-%s-ValveIPCSharedObj-SteamVR
 /u%d-Shm_%x
+00:36:00
 0123456789
 0123456789ABCDEF
-01:48:01
 11CVkTimeline
 12CNonCopyable
 15CVkResourceBase
@@ -481,6 +483,7 @@
 ?23ISwapchainImageProvider
 A valid JSON document must be either an array or an object value.
 AKST
+ALBasename(char const*)
 ASCII
 ASCII//TRANSLIT
 ASSERT: "%s" at %s:%d.\n
@@ -536,8 +539,6 @@ CAutoLockAndDrainLogOnExit::~CAutoLockAndDrainLogOnExit()
 CClientSwapchain::Import(CVkDevice*, CVkAllocator*, SwapchainState_t const&, unsigned int)
 CClientSwapchain::Import(CVkDevice*, CVkAllocator*, SwapchainState_t const&, unsigned int) (.cold)
 CClientSwapchain::ImportSampler(CVkDevice*, VkSamplerCreateInfo const&)
-CConditionalScopedEventDuration::CConditionalScopedEventDuration(char const*, ...)
-CConditionalScopedEventDuration::~CConditionalScopedEventDuration()
 CCountedMutexWithLogCache::Log(char const*, ...)
 CCountedMutexWithLogCache::Log(char const*, ...) (.cold)
 CDirIterator::BCurrentIsDir() const
@@ -847,7 +848,7 @@ CSWTCH.141
 CSWTCH.16
 CSWTCH.216
 CSWTCH.23
-CScopedEventDuration::CScopedEventDuration(char const*, ...)
+CScopedEventDuration::CScopedEventDuration(char const*, char const*, char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CSharedResourceNamespaceClient::Init(): failed connect\n
 CSharedResourceNamespaceClient::Init(): failed to get server response\n
@@ -1289,6 +1290,7 @@ Compute Timeline
 Connected to RenderDoc.
 ConstIterator to Iterator should never be allowed.
 CopyLayers
+CopyOutput
 Cost reduction pass
 Create
 CreateBlankImage
@@ -1341,9 +1343,9 @@ Error reading from socket\n
 Error: failed to load dynamic SDL
 EventWriteString(char const*, EVRTraceEvent)
 EventWriteString(char const*, EVRTraceEvent) (.cold)
-EventWriteStringBegin(char const*, unsigned long)
-EventWriteStringDurationF(int, char const*, ...)
-EventWriteStringEnd(char const*, unsigned long)
+EventWriteStringBegin(char const*, char const*, char const*, unsigned long)
+EventWriteStringBeginEnd(bool, char const*, char const*, char const*, unsigned long)
+EventWriteStringEnd(char const*, char const*, char const*, unsigned long)
 EventWriteStringF(char const*, ...)
 Exceeded stackLimit in readValue().
 Executable: %s\n
@@ -2008,7 +2010,6 @@ LogHelper(ELogLevel, char const*, __va_list_tag (&) [1])
 Looking for direct display through RandR2
 ME%d-Downsampled-%s
 ME%d-MaskedRgb-%s-%s
-ME-CopyOutput
 ME-CreateVisibleAreaMask
 ME-Downsampler
 ME-Downsampler-Frag
@@ -2134,7 +2135,7 @@ NewBatch
 NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t>> const&)
 NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t>> const&) (.cold)
 None
-Nov 11 2025
+Nov 13 2025
 November
 Null
 Null Client
@@ -2344,7 +2345,7 @@ SharedLib_Unload(void*)
 SharedObjMgr().Init() failed
 Shutdown
 Signal
-Signal[%d]:%lu
+Signal nClientId=%d nMaxWaitFrameIndex=%lu
 Skipping CalculateMotion (%lu)
 Skipping CalculateMotion (swapchain mismatch)
 Socket closed\n
@@ -2499,7 +2500,6 @@ StringToUint64(std::string const&)
 StringToUpper(std::string const&)
 StringToUpper(std::string const&) (.cold)
 Submit
-Submit: %s
 SubmitAndWait
 Sunday
 Swapchain
@@ -2611,6 +2611,7 @@ UnixTimeToDateAndTimeString(unsigned long)
 UnixTimeToDateString(unsigned long)
 Unknown error
 Unknown priority class!\n
+Update
 Update attenuation texture
 UpdatePanelMask
 UpdateResults
@@ -2695,7 +2696,7 @@ VkLayerProperties* std::__uninitialized_default_n_1<true>::__uninit_default_n<Vk
 VrInitGpuProfiling()
 Vulkan
 VulkanDisplay_t
-Wait:%lu
+Wait=%lu
 WaitForPresent
 WaitForWork
 WaitMultiple
@@ -2712,6 +2713,7 @@ XGetXCBConnection
 XOpenDisplay
 YUV conversion - %s
 Zjz\v
+[%s] %s=%lu tgid=%d file=%s %s
 [abi:
 _.stapsdt.base
 _Accum
@@ -3049,6 +3051,7 @@ basic_string::insert
 basic_string::replace
 basic_string::resize
 basic_string::substr
+begin_ctx
 bind
 bind_textdomain_codeset
 bindtextdomain
@@ -3259,6 +3262,7 @@ drawInfo.pVertexBuffer != nullptr
 dropNullPlaceholders
 dynamic_cast
 enableYAMLCompatibility
+end_ctx
 execute_cfa_program
 execute_cfa_program.cold
 execute_native_thread_routine

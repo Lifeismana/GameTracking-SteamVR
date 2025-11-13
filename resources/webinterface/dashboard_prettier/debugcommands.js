@@ -1,4 +1,4 @@
-var CLSTAMP = "10223590";
+var CLSTAMP = "10231550";
 (() => {
   "use strict";
   var e,
@@ -57,34 +57,34 @@ var CLSTAMP = "10223590";
               "[mobx-react-lite] `render` property of ForwardRef was not a function",
             );
           var m,
-            f,
-            p = function (e, t) {
+            p,
+            f = function (e, t) {
               return (0, i.q)(function () {
                 return o(e, t);
               }, u);
             };
           return (
-            (p.displayName = e.displayName),
+            (f.displayName = e.displayName),
             c &&
-              Object.defineProperty(p, "name", {
+              Object.defineProperty(f, "name", {
                 value: e.name,
                 writable: !0,
                 configurable: !0,
               }),
-            e.contextTypes && (p.contextTypes = e.contextTypes),
-            r && (p = (0, s.forwardRef)(p)),
-            (p = (0, s.memo)(p)),
+            e.contextTypes && (f.contextTypes = e.contextTypes),
+            r && (f = (0, s.forwardRef)(f)),
+            (f = (0, s.memo)(f)),
             (m = e),
-            (f = p),
+            (p = f),
             Object.keys(m).forEach(function (e) {
               h[e] ||
                 Object.defineProperty(
-                  f,
+                  p,
                   e,
                   Object.getOwnPropertyDescriptor(m, e),
                 );
             }),
-            p
+            f
           );
         }
         var h = {
@@ -175,7 +175,7 @@ var CLSTAMP = "10223590";
           d = Symbol.for("react.memo"),
           m = Symbol.for("react.lazy"),
           h = Symbol.iterator;
-        var f = {
+        var p = {
             isMounted: function () {
               return !1;
             },
@@ -183,20 +183,20 @@ var CLSTAMP = "10223590";
             enqueueReplaceState: function () {},
             enqueueSetState: function () {},
           },
-          p = Object.assign,
+          f = Object.assign,
           _ = {};
         function S(e, t, n) {
           (this.props = e),
             (this.context = t),
             (this.refs = _),
-            (this.updater = n || f);
+            (this.updater = n || p);
         }
         function g() {}
         function b(e, t, n) {
           (this.props = e),
             (this.context = t),
             (this.refs = _),
-            (this.updater = n || f);
+            (this.updater = n || p);
         }
         (S.prototype.isReactComponent = {}),
           (S.prototype.setState = function (e, t) {
@@ -211,7 +211,7 @@ var CLSTAMP = "10223590";
           }),
           (g.prototype = S.prototype);
         var y = (b.prototype = new g());
-        (y.constructor = b), p(y, S.prototype), (y.isPureReactComponent = !0);
+        (y.constructor = b), f(y, S.prototype), (y.isPureReactComponent = !0);
         var v = Array.isArray,
           C = Object.prototype.hasOwnProperty,
           w = { current: null },
@@ -431,7 +431,7 @@ var CLSTAMP = "10223590";
                   e +
                   ".",
               );
-            var o = p({}, e.props),
+            var o = f({}, e.props),
               s = e.key,
               a = e.ref,
               i = e._owner;
@@ -582,7 +582,7 @@ var CLSTAMP = "10223590";
           MQ: () => S.MQ,
           MV: () => w.MV,
           N: () => a.e,
-          N1: () => p.N,
+          N1: () => f.N,
           NB: () => w.NB,
           NH: () => o.NH,
           O5: () => m.O,
@@ -614,7 +614,7 @@ var CLSTAMP = "10223590";
           k2: () => w.k2,
           kG: () => w.kG,
           ku: () => w.ku,
-          lq: () => f.l,
+          lq: () => p.l,
           mX: () => r.mX,
           mo: () => w.mo,
           mu: () => w.mu,
@@ -647,8 +647,8 @@ var CLSTAMP = "10223590";
           d = n(3496),
           m = n(5178),
           h = (n(428), n(9011), n(7350)),
-          f = n(6847),
-          p = n(5227),
+          p = n(6847),
+          f = n(5227),
           _ = (n(10), n(1808)),
           S = n(7019),
           g = (n(1988), n(2527), n(9864), n(4189), n(322), n(1977), n(6417)),
@@ -662,30 +662,33 @@ var CLSTAMP = "10223590";
       },
       2824: (e, t, n) => {
         n.d(t, {
-          I0: () => c,
-          Wq: () => a,
-          _n: () => d,
-          mX: () => i,
-          pg: () => s,
-          sk: () => l,
-          sn: () => u,
+          I0: () => l,
+          Wq: () => i,
+          _n: () => m,
+          mX: () => u,
+          pg: () => a,
+          sk: () => d,
+          sn: () => c,
         });
         var r = n(1635),
-          o = n(3236);
-        const s = "vrcompositor_systemlayer",
-          a = "vrcompositor_mailbox",
-          i = "input_server",
-          u = "desktop_store",
-          c = "binding_callouts/main",
-          l = "driver_hmd";
-        class d {
+          o = n(7813),
+          s = n(3236);
+        const a = "vrcompositor_systemlayer",
+          i = "vrcompositor_mailbox",
+          u = "input_server",
+          c = "desktop_store",
+          l = "binding_callouts/main",
+          d = "driver_hmd";
+        class m {
           constructor() {
             (this.m_wsWebSocketToServer = void 0),
+              (this.connected = !1),
               (this.m_oHandlers = {}),
               (this.m_oWaits = {}),
               (this.m_oConnectWaits = []),
               (this.m_fnConnectResolve = void 0),
-              (this.m_nNextMessageNumber = 1);
+              (this.m_nNextMessageNumber = 1),
+              (0, o.makeObservable)(this);
           }
           OpenWebSocketToHost() {
             return new Promise((e, t) => {
@@ -720,7 +723,7 @@ var CLSTAMP = "10223590";
           Init(e, t) {
             return (0, r.sH)(this, void 0, void 0, function* () {
               return (
-                (this.m_sMailboxName = d.EnsureUniqueName(e)),
+                (this.m_sMailboxName = m.EnsureUniqueName(e)),
                 (this.m_sWebSecret = t),
                 (this.connected = !1),
                 this.OpenWebSocketToHost()
@@ -826,12 +829,13 @@ var CLSTAMP = "10223590";
             (n.message_id = e.message_id), this.SendMessage(e.returnAddress, n);
           }
         }
-        (d.s_nNextMailboxNumber = 1),
-          (0, r.Cg)([o.o], d.prototype, "OpenWebSocketToHost", null),
-          (0, r.Cg)([o.o], d.prototype, "OnWebSocketOpen", null),
-          (0, r.Cg)([o.o], d.prototype, "OnWebSocketClose", null),
-          (0, r.Cg)([o.o], d.prototype, "WebSocketSend", null),
-          (0, r.Cg)([o.o], d.prototype, "OnWebSocketMessage", null);
+        (m.s_nNextMailboxNumber = 1),
+          (0, r.Cg)([o.observable], m.prototype, "connected", void 0),
+          (0, r.Cg)([s.o], m.prototype, "OpenWebSocketToHost", null),
+          (0, r.Cg)([s.o], m.prototype, "OnWebSocketOpen", null),
+          (0, r.Cg)([s.o], m.prototype, "OnWebSocketClose", null),
+          (0, r.Cg)([s.o], m.prototype, "WebSocketSend", null),
+          (0, r.Cg)([s.o], m.prototype, "OnWebSocketMessage", null);
       },
       3725: (e, t, n) => {
         var r, o, s, a;
@@ -852,7 +856,7 @@ var CLSTAMP = "10223590";
           Gz: () => c,
           HW: () => g,
           MV: () => s,
-          NB: () => f,
+          NB: () => p,
           OH: () => r,
           R$: () => i,
           Xl: () => y,
@@ -903,7 +907,7 @@ var CLSTAMP = "10223590";
         let u = 0,
           c = 0,
           l = 4294967295;
-        var d, m, h, f, p, _, S, g, b, y, v, C, w, k, R, E, O, M, T, I, F, P, N;
+        var d, m, h, p, f, _, S, g, b, y, v, C, w, k, R, E, O, M, T, I, F, P, N;
         !(function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
@@ -969,10 +973,10 @@ var CLSTAMP = "10223590";
               (e[(e.EnableClickStabilization = 134217728)] =
                 "EnableClickStabilization"),
               (e[(e.MultiCursor = 268435456)] = "MultiCursor");
-          })(f || (f = {})),
+          })(p || (p = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-          })(p || (p = {})),
+          })(f || (f = {})),
           (function (e) {
             (e[(e.Invalid = 0)] = "Invalid"),
               (e[(e.HMD = 1)] = "HMD"),
@@ -1535,7 +1539,7 @@ var CLSTAMP = "10223590";
           }),
           (0, r.Cg)([a.o], h.prototype, "dumpShortcuts", null),
           (0, r.Cg)([a.o], h.prototype, "resetCommandShortcut", null);
-        let f = class extends o.Component {
+        let p = class extends o.Component {
           constructor(e) {
             super(e),
               (this.previousOnKeyDown = null),
@@ -1779,16 +1783,16 @@ var CLSTAMP = "10223590";
             );
           }
         };
-        (0, r.Cg)([a.o], f.prototype, "onWindowFocus", null),
-          (0, r.Cg)([a.o], f.prototype, "onWindowBlur", null),
-          (0, r.Cg)([a.o], f.prototype, "endEdit", null),
-          (0, r.Cg)([a.o], f.prototype, "onKeyDown", null),
-          (0, r.Cg)([u.computed], f.prototype, "isEditing", null),
-          (0, r.Cg)([a.o], f.prototype, "onSearchChanged", null),
-          (0, r.Cg)([a.o], f.prototype, "clearSearch", null),
-          (0, r.Cg)([a.o], f.prototype, "onResetShortcuts", null),
-          (f = (0, r.Cg)([c.PA], f)),
-          s.H(document.getElementById("root")).render(o.createElement(f, null)),
+        (0, r.Cg)([a.o], p.prototype, "onWindowFocus", null),
+          (0, r.Cg)([a.o], p.prototype, "onWindowBlur", null),
+          (0, r.Cg)([a.o], p.prototype, "endEdit", null),
+          (0, r.Cg)([a.o], p.prototype, "onKeyDown", null),
+          (0, r.Cg)([u.computed], p.prototype, "isEditing", null),
+          (0, r.Cg)([a.o], p.prototype, "onSearchChanged", null),
+          (0, r.Cg)([a.o], p.prototype, "clearSearch", null),
+          (0, r.Cg)([a.o], p.prototype, "onResetShortcuts", null),
+          (p = (0, r.Cg)([c.PA], p)),
+          s.H(document.getElementById("root")).render(o.createElement(p, null)),
           (window.document.title = "Debug Commands");
       },
     },
@@ -1867,4 +1871,4 @@ var CLSTAMP = "10223590";
     })();
   var o = r.O(void 0, [967, 991, 305, 452, 170, 797, 906], () => r(9513));
   o = r.O(o);
-})(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/debugcommands.js.map
+})(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/debugcommands.js.map

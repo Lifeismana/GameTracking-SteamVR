@@ -273,6 +273,24 @@ $Ib?s
 .xdata
 .xdata$x
 /2GG>!B
+/user/ankle/left
+/user/ankle/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/user/wrist/left
+/user/wrist/right
 0123456789-
 0123456789-+Ee
 0123456789ABCDEFabcdef-+Xx
@@ -775,7 +793,7 @@ bad function call
 bad locale name
 bad message
 broken pipe
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrpathreg\Retail\win64\2017\vrpathreg.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrpathreg\Retail\win64\2017\vrpathreg.pdb
 c?FA@s}
 ceil
 collectComments

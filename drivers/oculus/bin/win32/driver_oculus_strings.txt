@@ -31,8 +31,7 @@ $3br
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %llu
-%s begin_ctx=%llu
-%s end_ctx=%llu
+%s[%s] %s file=%s
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
 ' property is missing
@@ -300,7 +299,7 @@ $3br
 /user/wrist/right
 0 width
 0-pixel image
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899<
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
@@ -437,9 +436,15 @@ CD3D11VRRenderer::Signal
 CD3D11VRRenderer::UnampTexture: dangling data pointer\n
 CKeyframedDataResource
 COLOR
+COculusDirect::AcquireSync
+COculusDirect::PostPresent
+COculusDirect::Present
+COculusDirect::ReleaseSync
+COculusDirect::WaitForRunningStart
 COculusHmdLatest::UpdateThread
 COculusState::CreateSession
 CServerDriver_Oculus::Cleanup
+CSignalThread::WaitUntil
 Camera
 CertGetNameStringW
 Chaperone updated with universe ID %d\n
@@ -552,6 +557,7 @@ IVRBlockQueue_005
 IVRCameraComponent_003
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -698,7 +704,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDShK
+RSDSA
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -786,7 +792,6 @@ XXXX PNG chunk not known
 Zjz\v
 [AnimSkeleton] Failed to load GLTF file: %s
 [KeyFramedDataResource] Failed to load GLTF file: %s
-[OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
 [OculusDirect] !!!! AcquireSync FAILED with WAIT_ABANDONED
 [OculusDirect] !!!! AcquireSync FAILED with WAIT_TIMEOUT
@@ -794,11 +799,7 @@ Zjz\v
 [OculusDirect] !!!! ReleaseSync FAILED with E_FAIL
 [OculusDirect] !!!! ReleaseSync FAILED with unknown hr
 [OculusDirect] PostPresent:%lli th=%d pr=%d(%d)
-[OculusDirect] ReleaseSync
 [OculusDirect] Vsync: %.2f(%.2f) th=%d pf=%d qa=%.2fms pt=%.2f asw=%d
-[OculusDirect] ovr_BeginFrame:%lli
-[OculusDirect] ovr_EndFrame:%lli
-[OculusDirect] ovr_WaitToBeginFrame:%lli
 [json.exception.
 \nbad png sig
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
@@ -812,7 +813,7 @@ Zjz\v
 ] invalid bufferView
 ] is not a JSON object.
 ],"subtype":
-][OculusDirect] AquireSync
+]c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:982
 _CIacos
 _CIfmod
 _CIpow
@@ -989,13 +990,18 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1041
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1068
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1166
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1197
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:294
 camera
 cameras
 can't merge dc and ac
@@ -1215,6 +1221,7 @@ missing color table
 mode
 modf
 multiple IHDR
+nIndex=%lli
 name
 nb_no
 nl_nl
@@ -1503,6 +1510,7 @@ shaders/d3d11/distort_vs_latest_nd.fxo
 shaders/d3d11/distort_vs_layered.fxo
 shaders/d3d11/distort_vs_layered_nd.fxo
 shaders/d3d11/distort_vs_nd.fxo
+shaders/d3d11/distort_vs_reproject_fv.fxo
 shaders/d3d11/distort_vs_reproject_layered.fxo
 shaders/d3d11/distort_vs_reproject_layered_nd.fxo
 shaders/d3d11/distort_vs_reproject_mv.fxo

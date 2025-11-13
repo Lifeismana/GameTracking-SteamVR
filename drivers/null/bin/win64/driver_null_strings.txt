@@ -64,7 +64,6 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-4GuK
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPEBD@Z
 DisableThreadLibraryCalls
@@ -132,7 +131,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
 displayFrequency
 driver_null
 driver_null.dll

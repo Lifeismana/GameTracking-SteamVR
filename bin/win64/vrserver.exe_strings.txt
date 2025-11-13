@@ -208,9 +208,7 @@ $\n k_EProtoServiceTypeSteamMessages
 %s - No root object when parsing manifest file\n
 %s - Unable to read app config from \n
 %s - Unable to read manifest. Removing that file for the next startup\n
-%s begin_ctx=%llu
 %s contains one or more NaNs. Discarding pose for %u from %s
-%s end_ctx=%llu
 %s parameter out of range
 %s.gz
 %s: %p port=%d
@@ -232,6 +230,7 @@ $\n k_EProtoServiceTypeSteamMessages
 %s: failed to unzip data (%s)
 %s: failed with error '%s' (%d)
 %s: too many verts; aborting
+%s[%s] %s file=%s
 %u.%u.%u.%u
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
@@ -423,7 +422,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_Settings_SetNumeric@@VCVRMsg_Settings_SetValue_Response@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_Settings_SetString@@VCVRMsg_Settings_SetValue_Response@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ShouldKillTheaterPancakeProcess@@VCVRMsg_ShouldKillTheaterPancakeProcessResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
-.?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ShutdownSystem@@VCVRMsg_ShutdownSystemResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_StartAutolaunchOverlays@@VCVRMsg_NoResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_StartDashboard@@VCVRMsg_StartDashboardResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_TrackedCamera_Enable@@VCVRMsg_TrackedCamera_EnableResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
@@ -490,7 +488,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_Settings_SetNumeric@@VCVRMsg_Settings_SetValue_Response@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_Settings_SetString@@VCVRMsg_Settings_SetValue_Response@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ShouldKillTheaterPancakeProcess@@VCVRMsg_ShouldKillTheaterPancakeProcessResponse@@@CConnectionThread@@
-.?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ShutdownSystem@@VCVRMsg_ShutdownSystemResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_StartDashboard@@VCVRMsg_StartDashboardResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_TrackedCamera_Enable@@VCVRMsg_TrackedCamera_EnableResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_TrackedCamera_GetDistortion@@VCVRMsg_TrackedCamera_GetDistortionResponse@@@CConnectionThread@@
@@ -639,7 +636,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Binder@U_Unforced@std@@P8CVRInputServer@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
-.?AV?$_Func_base@UResult_t@?A0x531250b2@@AEBU12@@std@@
+.?AV?$_Func_base@UResult_t@?A0x94e1095d@@AEBU12@@std@@
 .?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
 .?AV?$_Func_base@VValue@Json@@PEBE@std@@
 .?AV?$_Func_base@X$$QEAUBindingFileOption_t@@_N@std@@
@@ -676,7 +673,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@UResult_t@?A0x531250b2@@AEBU23@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_11d26080b3820719662302cdf688baf3>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1a546cd75712cd813bcecece4aff05b0>@@XV?$shared_ptr@VCVRClientContext@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
@@ -690,7 +687,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_69d7cfdb26c0e9f64e7ad3a53e04b1be>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7207bd48646ee98f0ccd3edd2a23475f>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7279be59127ec4c7605f4ea650037eca>@@XAEBVCSteamVR_AudioSettings_RegisterForSettings_Request@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_7ae16b2637cba7bd77168fd784026ad4>@@UResult_t@?A0x531250b2@@AEBU23@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7ae16b2637cba7bd77168fd784026ad4>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_819d6e727c32014dc6eae969efe567db>@@_NGGG@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_86ef558310816f2df58623fa9115c944>@@XV?$shared_ptr@VCVRClientContext@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_97a9cdda7ab58672ccc551d0827e40cc>@@VValue@Json@@PEBE@std@@
@@ -702,7 +699,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_bd1a83319b220d7e34be44617ed4547e>@@X$$QEAUBindingFileOption_t@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ce3fbf3c947ad2e658381da75700eeba>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d4ea458dafa46560c4bdc7db4653ba2d>@@UResult_t@?A0x531250b2@@AEBU23@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_d4ea458dafa46560c4bdc7db4653ba2d>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9c8d5500ac3dfddb02459f8a53a1949>@@X$$QEAUBindingFileOption_t@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
@@ -1027,8 +1024,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCVRMsg_Settings_SetValue_Response@@
 .?AVCVRMsg_ShouldKillTheaterPancakeProcess@@
 .?AVCVRMsg_ShouldKillTheaterPancakeProcessResponse@@
-.?AVCVRMsg_ShutdownSystem@@
-.?AVCVRMsg_ShutdownSystemResponse@@
 .?AVCVRMsg_StartAutolaunchOverlays@@
 .?AVCVRMsg_StartDashboard@@
 .?AVCVRMsg_StartDashboardResponse@@
@@ -1161,6 +1156,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVIVRCameraComponent001@@
 .?AVIVRCameraComponent002@@
 .?AVIVRCameraComponent@vr@@
+.?AVIVRChaperoneServerDriver@@
 .?AVIVRChaperoneSetup@vr@@
 .?AVIVRCompositorPluginProvider@vr@@
 .?AVIVRControllerComponent@vr@@
@@ -1403,6 +1399,7 @@ $\n k_EProtoServiceTypeSteamMessages
 /chaperone/bounds_hash
 /chaperone/collision_radius
 /chaperone/is_default_perimeter
+/chaperone/last_relocalization_time
 /chaperone/perimeter
 /chaperone/play_area
 /chaperone/room_setup_done
@@ -1412,7 +1409,6 @@ $\n k_EProtoServiceTypeSteamMessages
 /chaperone/standing/transform
 /chaperone/state
 /chaperone/temporary_playing_outside_playspace_time
-/chaperone/tracking_anchored
 /click
 /client_info/app_key
 /client_info/app_type
@@ -1567,9 +1563,9 @@ $\n k_EProtoServiceTypeSteamMessages
 /skeleton/hand/left
 /skeleton/hand/right
 /startup_reason
-/steam/connected
 /steam/vr_connection_ready
 /steam/was_running_at_startup
+/steam/websocketconnected
 /steamvr_launch_application.action
 /supersampling_metrics.action
 /system.json
@@ -1635,22 +1631,21 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+003@
 0123456789ABCDEF
 0123456789abcdef
-0C7@
-0M8@
-0c5@
-0d5@
-0g8@
-0j9@
-0l8@
+023@
+0B8@
+0c9@
+0h9@
+0w8@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-17:48:08
+16:36:13
 1A26b
 1\f514
 1e+9999
@@ -1660,7 +1655,6 @@ $\n k_EProtoServiceTypeSteamMessages
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
-4Q7@
 4\f54d
 52F*
 5I)7
@@ -1671,21 +1665,21 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-8G8@
-8H5@
-8L9@
-8U5@
+821@
+823@
+8A8@
+8R8@
+8Y1@
+8Z9@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
-8c9@
-8d5@
 8d8f13b1-60eb-4b6a-a433-de86104115ac
-8d9@
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8h8@
-8k9@
-8m8@
+8j9@
+8l8@
+8x8@
+8y5@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -2064,6 +2058,7 @@ CSharedResourceNamespaceServer sent namespace data: %u\n
 CSharedResourceNamespaceServer shutting down\n
 CSharedResourceNamespaceServer starting up\n
 CSharedResourceNamespaceServer timed out waiting for client message\n
+CSteamInfo::RunSteamFrame
 CSteamVR_AudioSettings_ChangeSettings_Request
 CSteamVR_AudioSettings_RegisterForSettings_Request
 CSteamVR_AudioSettings_Settings
@@ -2074,6 +2069,7 @@ CSteamVR_Settings_SetValue_Request
 CSteamVR_Settings_SetValue_Response
 CSteamVR_VRGamepadUI_Message
 CSteamWorker::ReleaseCurrentThreadMemory
+CSteamWorker::RunFrame
 CType
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
 CVRAudioDeviceImpl::EnumAudioDevices
@@ -2250,8 +2246,6 @@ CVRMsg_Settings_SetString
 CVRMsg_Settings_SetValue_Response
 CVRMsg_ShouldKillTheaterPancakeProcess
 CVRMsg_ShouldKillTheaterPancakeProcessResponse
-CVRMsg_ShutdownSystem
-CVRMsg_ShutdownSystemResponse
 CVRMsg_StartAutolaunchOverlays
 CVRMsg_StartDashboard
 CVRMsg_StartDashboardResponse
@@ -2453,7 +2447,6 @@ D3DKMTQueryAdapterInfo
 D7q/;M
 DELEGATE 
 DISABLED
-DQ7@
 DXGI VSync Thread ended\n
 DXGI VSync Thread started\n
 DXGI thread failed to get SDL display index. This will happen if you are not on a direct mode display.\n
@@ -2521,6 +2514,7 @@ Duplicate action '
 Duplicate key: '
 Duplicate mailbox name %s. Make one of those unique.\n
 DuplicateHandle
+Dv7@
 EProtoExecutionSite
 EProtoServiceType
 ERROR
@@ -2663,6 +2657,7 @@ Failed to parse chaperone file because universes was not an array\n
 Failed to parse chaperone file because version was %u\n
 Failed to parse malformed CSteamVR_VRGamepadUI_Message
 Failed to parse malformed mailbox vrgamepadui_message
+Failed to presiste chaperone data
 Failed to read chaperone file from %s\n
 Failed to read file: 
 Failed to read font file %s. File is too small or too large. Size = %d.\n
@@ -2688,7 +2683,6 @@ Failed to unregister message notification for %s
 Failed to update shared data
 Failed to write action manifest to %s. Maybe it needs to be checked out?\n
 Failed to write app container status to pipe %s after connecting because %s\n
-Failed to write chaperone data to %s\n
 Failed to write event handles after a new connection on pipe %s because %s\n
 Failed to write event process handle after connecting because %s\n
 Failed to write event salt value after a new connection on pipe %s because: %s\n
@@ -2841,11 +2835,32 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
-H48@
+H09@
+H19@
+H29@
+H34@
+H39@
+H49@
+H59@
+H69@
+H79@
+H89@
+H99@
 HA9@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
+HB9@
+HC9@
+HD9@
+HE9@
 HEAD
+HF9@
+HG9@
+HH9@
+HI9@
+HJ9@
 HK9@
+HL9@
+HM9@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2867,6 +2882,12 @@ HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
 HMDSerialNumber
+HN9@
+HO9@
+HP9@
+HQ9@
+HR9@
+HS9@
 HT9@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
@@ -2882,19 +2903,25 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
+HU9@
+HV9@
+HW9@
+HY8@
 Hang the server for the specified number of seconds (default 3600)
 HasField
-Hc5@
 Hex and octal numbers must be integers.
-Hj8@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
-Ho8@
+Hn9@
 HostController
 How did we get here with a non-position slot?
+Hq8@
+Hs9@
+Hz5@
+Hz8@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -2986,6 +3013,7 @@ IVRCameraComponent_001
 IVRCameraComponent_002
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -3185,11 +3213,11 @@ KHR_lights_punctual
 Kernel32.dll
 Kill process %s because it didn't quit in time\n
 Kill process?
+L03@
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
 LINEAR
-LQ7@
 Label
 Language
 LastKnown
@@ -3203,7 +3231,6 @@ LaunchingApp_ExternalLaunch
 LaunchingApp_Key
 LaunchingApp_None
 LaunchingApp_Process
-Ld5@
 LeaveCriticalSection
 LeftController
 Length Required
@@ -3255,6 +3282,7 @@ Lost master process %u due to pipe corruption. Quitting all in %g seconds if it 
 Lost master process %u due to restart hint. Quitting all in %g seconds if it doesn't reconnect. \n
 Lost master process %u for an unknown reason. Quitting all immediately. \n
 Low Power Watchdog Not Supported (129)
+Lv7@
 LwH'
 M8MF
 MAT2
@@ -3386,7 +3414,7 @@ Not starting vrserver for background app (121)
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Notification_BasestationsTooFarApart
 Notification_Detected
-Nov 10 2025
+Nov 12 2025
 Numbers starting with leading zero must be in octal.
 NvAPI
 NvAPI DisplayModes:
@@ -3435,13 +3463,16 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P99@
+P03@
+P13@
+P34@
+P88@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
-PI8@
 PICT
 PID_
 PLACEHOLDER_VALUE
+PN8@
 PNG\r\n
 POST
 PRISM_AcquireDisplay
@@ -3481,26 +3512,23 @@ Path not found
 Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
-PbA@
-Pc5@
 Pe6^
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Pf5@
-Pg9@
-Ph9@
-Pk8@
+Ph7@
+Pk9@
+Pl5@
 Playback devices:\n
+Pm8@
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
 Positional emitter description not found.
 PowerOffTrackedDevice for %d - Could not find driver\n
 PowerOffTrackedDevice for %d\n
-Pp8@
-Pq5@
+Pr8@
 Precondition Failed
 Precondition Required
 PreviousURL
@@ -3703,7 +3731,7 @@ Prop_OverrideContainer_Uint64
 Prop_ParentContainer
 Prop_ParentDriver_Uint64
 Prop_PeripheralApplicationVersion_Uint64
-Prop_PreviousUniverseId_Uint64
+Prop_PreviousUniverseId_Uint64_deprecated
 Prop_RadioVersion_Uint64
 Prop_RegisteredDeviceType_String
 Prop_RenderModelName_String
@@ -3736,6 +3764,7 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
+Py5@
 QkkXa
 Qkkbal
 Query failed
@@ -3758,7 +3787,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDSH
+RSDS\=
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3848,6 +3877,7 @@ Restart SteamVR
 Restart: Unable to find VRStartup at %s
 Restart: VRStartup (%s) could not be started: %s
 RestartRequest requires arguments and a working directory when an executable is specified.\n
+Restored chaperone universe %lu
 Restoring default audio %s %s endpoint to %s\n
 Restoring default audio %s endpoint (%s) to %s\n
 Return to watchdog timeout of %lf seconds exceeded. Quitting everything.\n
@@ -4013,7 +4043,6 @@ Shared IPC State Init Failed (302)
 ShellExecuteA
 ShowDashboard on app exit\n
 Shutdown SteamVR
-ShutdownSystem not implemented on this architecture
 Shutting down server after %0.1f seconds. Recent Disconnect: %s; Waiting for connection statuses: Foreground: %d Monitor: %d Web: %d\n
 Simulated action 
 Skin
@@ -4104,12 +4133,12 @@ SubmitFrame thread joined\n
 SubmitFrameThread
 Succesfully turned IGNORE_TIMER_RESOLUTION throttling off.
 Swap
+Switched to initial chaperone universe %lu
 Switching Protocols
 Symbol name "
 Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
-Td5@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -4203,6 +4232,7 @@ Tried to start binary process %s %s (working directory %s) as app %s but it fail
 Tried to start internal process %s %s (working directory %s) from app %s, pid %u but it failed\n
 True
 Ts\ne
+Tv7@
 Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
@@ -5102,6 +5132,7 @@ VirtualDisplayThread
 VirtualDisplay_AllQueued
 VirtualDisplay_NewFrame
 VirtualDisplay_Presented
+VirtualQuery
 WARNING
 WARNING! CThread::Terminate: %s\n
 WINRT_AcquireDisplay
@@ -5186,22 +5217,17 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-XH5@
-XP8@
-XQ7@
-XW9@
+X13@
+X34@
+XV1@
 XXXX PNG chunk not known
-Xc5@
-Xl8@
-Xq8@
+Xm9@
 XsBI
-Xx1@
+Xv9@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
 [AnimSkeleton] Failed to load GLTF file: %s
-[CSteamInfo] RunSteamFrame
-[CSteamWorker] CSteamWorkerRunFrame
 [Console] 
 [Controller Setup] Adding controller type %s\n
 [Controller Setup] AssignActiveIndicatorForInput failed. Input %s specified %s as its input_activity_path, but that component doesn't exist\n
@@ -5280,7 +5306,7 @@ Zjz\v
 [IPC] Failed creating auto reset event %s (GLE: %u)\n
 [IPC] Failed creating file mapping %s: %u\n
 [IPC] Failed creating mutex %s (GLE: %u)\n
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d/%d); Error code: 0x%08x\n
 [IPC] Failed to open event %s because access was denied\n
 [IPC] Failed to open file mapping %s because access was denied\n
 [IPC] Failed to open mutex %s because access was denied\n
@@ -5296,6 +5322,7 @@ Zjz\v
 [IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
+[IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 [Init] %d: (%d, %d) %dx%d "%s" refresh %d\n
 [Init] Attached Displays:\n
 [Init] Chaperone server failed with %s\n
@@ -5387,16 +5414,20 @@ Zjz\v
 [Remapping] Binding remapped and checking for others from:\n\t%s  to:  %s.\n\t%s  to:  %s.\n
 [Remapping] Completed remapping from controller type: %s to controller type: %s.\n
 [Remapping] Component remapped from:\n\t%s  to:  %s.\n\t%s  to:  %s.\n
+[Remapping] Condition '%s' is not recognized. It will be ignored.
 [Remapping] Did not find suitable replacement for pose '%s' on controller type '%s'
 [Remapping] Ending search for more multiples of path::mode: %s::%s\n
 [Remapping] HandleRemappedBinding failed. Unknown remapping_mode for component: %s. remapping_mode: %s.\n
 [Remapping] LoadAutomapTemplates failed. Could not find remapping templates json at input/remapping_templates.json\n
 [Remapping] LoadAutomapTemplates failed. Could not read json from remapping templates file input/remapping_templates.json\n
+[Remapping] LoadGlobalRemappings failed. Could not find global remappings json at input/remapping_global.json\n
+[Remapping] LoadGlobalRemappings failed. Could not read json from global remappings file input/remapping_global.json\n
 [Remapping] LoadRemappingFromJSON failed. 'inputs' member specified in 'to' section of remapping data but is not an array. Layout from controller: %s to controller: %s.\n
 [Remapping] LoadRemappingFromJSON failed. No 'from' member specified in layout from controller: %s to controller: %s.\n
 [Remapping] LoadRemappingFromJSON failed. No 'path' member specified in 'from' section of remapping data in layout from controller: %s to controller: %s.\n
 [Remapping] LoadRemappingFromJSON failed. No 'path' member specified in 'to' section of remapping data in layout from controller: %s to controller: %s.\n
 [Remapping] LoadRemappingFromJSON failed. No 'to' member specified in layout from controller: %s to controller: %s.\n
+[Remapping] Loaded %zu global remappings.
 [Remapping] Loading automap templates.
 [Remapping] ParseRemappingData failed. Could not find input profile for controller type: %s\n
 [Remapping] ParseRemappingData failed. No layouts specified in remapping file for controller: %s.\n
@@ -5945,44 +5976,47 @@ byteOffset
 byteStride
 bytes
 bytes=
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\steammessages_unified_base.steamclient.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vrshared_audiosettings.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vrshared_base.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vrshared_vrmessages.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\actionbindingconfig.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\blockqueue.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\drivermanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\ilockablepropertycontainer.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\propertymanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\remoteperfstats.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\rendermodelmanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailboxserver.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrserviceclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystem.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcpipe.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\mongoose\mongoose.c
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\Retail\win64\2017\vrserver.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\appinfomanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\vrinputserver.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\vrserver.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_input.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_mailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_server_thread.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_steam.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_steam.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrserver\webinterface\web_steam_audiosettings.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\steammessages_unified_base.steamclient.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vrshared_audiosettings.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vrshared_base.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vrshared_vrmessages.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\actionbindingconfig.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\blockqueue.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\drivermanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\ilockablepropertycontainer.h
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\remoteperfstats.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\rendermodelmanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\steam_worker_thread.cpp:171
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\steam_worker_thread.cpp:267
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailboxserver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrserviceclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystem.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcpipe.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadtools.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\mongoose\mongoose.c
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\Retail\win64\2017\vrserver.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\appinfomanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrinputserver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_input.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_mailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_server_thread.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.h
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam_audiosettings.cpp
 cache_path
 calloc
 camera
@@ -6092,6 +6126,7 @@ current_transforms
 current_transforms_without_controller
 current_user_persona_name
 czech
+d03@
 dQy/
 da_dk
 danish
@@ -6105,7 +6140,6 @@ data:image/gif;base64,
 data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
-dc5@
 de_de
 deactivateStandbyOverride
 deactivate_threshold
@@ -6346,6 +6380,7 @@ fseek
 fsetpos
 ftell
 fu`z
+full
 fwrite
 g_QuickLinks.ActivateKnockKnock()
 g_QuickLinks.ActivateRoomSetup()
@@ -6361,6 +6396,7 @@ german
 getDeviceProperty returned empty\n
 getDeviceProperty returned wrong type %d\n
 global
+global_remappings
 google.protobuf"G\n
 google.protobuf.Empty
 google.protobuf.EnumOptions
@@ -6383,12 +6419,7 @@ grip
 grip_limit_transforms
 group
 guid
-hD9@
-hH1@
 hPU3
-hQ7@
-hR8@
-hU5@
 half_thresholds
 hand_interaction_ext
 hand_priority
@@ -6401,28 +6432,27 @@ haptic
 haptic_amplitude
 haptics
 has_click
+has_force
+has_ready_ext
 has_touch
-hb9@
-hd5@
+has_value
 header
 header crc mismatch
 height
 held
 hex_property
-hf5@
 hidden
 hide_callout
+hl5@
 hlvr/mailbox
 hlvr/webui
 hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_settings_key
-hn8@
 holographic
 holographic_controller
 hpmotioncontroller
 hq9@
-hs8@
 html
 http:
 http://
@@ -6431,6 +6461,9 @@ https:
 https://
 hu_hu
 hungarian
+hv7@
+hy5@
+hy9@
 i91k
 i]Wb
 iauds
@@ -6486,6 +6519,7 @@ input/generic_hmd.png
 input/hand_interaction_ext.json
 input/khr_generic_controller.json
 input/khr_simple_controller.json
+input/remapping_global.json
 input/remapping_templates.json
 input_active_state
 input_activity_path
@@ -6766,6 +6800,7 @@ knuckles
 knuckles_ev1
 ko_kr
 koreana
+l13@
 l6qnk
 lDa>
 label
@@ -6820,6 +6855,7 @@ m_cameraPassthroughSharedState.BInit(...) failed. Returning VRInitError_IPC_Shar
 m_compositorSharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed\n
 m_eventSharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed\n
 m_nMaxLogBufferingSize > 0
+m_pData
 m_pProperties->CreatePropertyContainer( k_ulPathAliasInfoContainer ) Failed
 m_pProperties->CreatePropertyContainer( k_ulRootPathContainer ) Failed
 m_pWebSteam != nullptr
@@ -6927,6 +6963,7 @@ multimedia
 multiple
 multiple IHDR
 multiple_group
+nExistingSize >= nSize
 nMaxMode
 nMode
 nPendingSize == 0
@@ -6934,6 +6971,7 @@ nPublishedFileId
 nSizeHdr <= 0xFF && nSizeHdr >= 0
 nTimestamp
 name
+name_only
 nb_no
 need dictionary
 negative_int_value
@@ -6952,9 +6990,11 @@ no longer available
 no preset dict
 no settings available
 no_click
+no_force
 no_ready_ext
 no_standard_descriptor_accessor
 no_touch
+no_value
 noapp
 nocontroller
 node
@@ -7027,30 +7067,23 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p58@
-p68@
-p78@
-pA9@
+p03@
+p13@
 pBegin == pEnd
 pEnd > pBegin
-pF8@
-pH5@
+pL8@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
 pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
+pP8@
 pProcessId
-pQ7@
 pQueue->GetMetaContainerHandle() == ulExistingQueue
-pR1@
-pS8@
 pSharedState != nullptr
-pT9@
 pUrl != nullptr
-pV5@
-pW5@
 pWebSocketMessage
+pZ8@
 package
 packed
 param1
@@ -7068,8 +7101,6 @@ path_handles
 paths
 payload
 pbrMetallicRoughness
-pc5@
-pd5@
 pending_file_saved
 perfcheck
 personal
@@ -7078,6 +7109,7 @@ pico_controller
 pinch
 pinchgrab
 pivot
+pk8@
 pl_pl
 playAreaColor
 play_area
@@ -7088,7 +7120,7 @@ playbackMirrorDevice
 playbackMirrorDeviceName
 playback_devices
 playing
-po8@
+pn9@
 polish
 portrait
 portuguese
@@ -7113,7 +7145,6 @@ positional
 positive_int_value
 power
 powf
-pq5@
 precision
 prediction
 prediction parameter out of range
@@ -7140,7 +7171,6 @@ property_containers
 property_contents
 property_number
 proximity
-pt8@
 pt_br
 pt_pt
 public
@@ -7149,8 +7179,9 @@ publishedfileid
 pull
 punct
 putchar
-px1@
+pv7@
 py_generic_services
+pz5@
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
 quarter_thresholds
@@ -7315,6 +7346,9 @@ setup_standing2
 setvbuf
 sfixed32
 sfixed64
+sharpening
+sharpening parameter out of range
+sharpeningOverride
 short_name
 should_show_binding_errors
 showEnableInSettings
@@ -7491,6 +7525,7 @@ time
 tls:
 toType
 to_controller_type
+to_profile_missing_from_component
 toggle_button
 tolower
 too large
@@ -7712,23 +7747,13 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x49@
-x88@
-xC9@
-xK8@
-xO8@
-xQ7@
-xQ9@
-xT5@
-xT8@
+xI8@
 x_path
-xc5@
-xd5@
+xa9@
 xdigit
-xf5@
+xf9@
 xmag
-xp8@
-xu8@
+xv7@
 y9*O
 y_path
 yfov

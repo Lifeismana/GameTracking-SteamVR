@@ -354,8 +354,6 @@ $d`D-laM
 .?AVCVRMsg_Settings_SetValue_Response@@
 .?AVCVRMsg_ShouldKillTheaterPancakeProcess@@
 .?AVCVRMsg_ShouldKillTheaterPancakeProcessResponse@@
-.?AVCVRMsg_ShutdownSystem@@
-.?AVCVRMsg_ShutdownSystemResponse@@
 .?AVCVRMsg_StartAutolaunchOverlays@@
 .?AVCVRMsg_StartDashboard@@
 .?AVCVRMsg_StartDashboardResponse@@
@@ -502,7 +500,7 @@ $d`D-laM
 1!1'1-191C1E1K1]1a1g1m1s1
 11M|
 14 (default)
-17:48:08
+16:36:13
 1H@H
 1\v5#d
 1bS1
@@ -1281,8 +1279,6 @@ CVRMsg_Settings_SetString
 CVRMsg_Settings_SetValue_Response
 CVRMsg_ShouldKillTheaterPancakeProcess
 CVRMsg_ShouldKillTheaterPancakeProcessResponse
-CVRMsg_ShutdownSystem
-CVRMsg_ShutdownSystemResponse
 CVRMsg_StartAutolaunchOverlays
 CVRMsg_StartDashboard
 CVRMsg_StartDashboardResponse
@@ -2077,7 +2073,7 @@ Nonce
 Not After: 
 Not Before: 
 Not a regular file
-Nov 10 2025
+Nov 12 2025
 NrZl
 Nwh\v
 O/lc\r=<1\r-,!@
@@ -2514,7 +2510,7 @@ RSA_sign_ASN1_OCTET_STRING
 RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
-RSDS
+RSDS\n
 RaiseException
 Rbg.E
 ReadConsoleA
@@ -3585,14 +3581,14 @@ c2tnb239v2
 c2tnb239v3
 c2tnb359v1
 c2tnb431r1
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\valvepesignature.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrservice\Retail\win64\2017\vrservice.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\valvepesignature.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win64\build\src\vrservice\Retail\win64\2017\vrservice.pdb
 cACertificate
 cNAMERecord
 cRLSign

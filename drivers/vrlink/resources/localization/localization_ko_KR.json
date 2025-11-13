@@ -19,6 +19,7 @@
 	"Setting_WirelessShutdownTimeout": "연결 해제 시 SteamVR 종료",
 	"Setting_AllowVolumeControlSync": "SteamVR에서 헤드셋 음량 및 음소거 제어",
 	"Setting_DisableQoS": "QoS 비활성화",
+	"Setting_EnableQoS": "QoS 활성화",
 	"svl_hand_interaction_augmented": "핸드 트래킹 컨트롤러",
 	"/input/index_pinch": "엄지와 검지로 집기",
 	"/input/middle_pinch": "엄지와 중지로 집기",

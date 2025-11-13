@@ -275,6 +275,9 @@
 						}
 					},
 					"mode": "scroll",
+               "parameters" : {
+                  "scroll_mode" : "smooth"
+               },
 					"path": "/user/hand/left/input/joystick"
 				},
 				{
@@ -284,6 +287,9 @@
 						}
 					},
 					"mode": "scroll",
+               "parameters" : {
+                  "scroll_mode" : "smooth"
+               },
 					"path": "/user/hand/right/input/joystick"
 				}
 			]
@@ -307,6 +313,22 @@
 			],
 			"sources": [
 				{
+					"inputs": {},
+					"mode": "button",
+					"parameters": {
+						"haptic_amplitude": "0"
+					},
+					"path": "/user/hand/left/input/trigger"
+				},
+				{
+					"inputs": {},
+					"mode": "button",
+					"parameters": {
+						"haptic_amplitude": "0"
+					},
+					"path": "/user/hand/right/input/trigger"
+				},
+				{
 					"inputs": {
 						"click": {
 							"output": "/actions/system/in/ToggleDashboard"
@@ -326,6 +348,36 @@
 						"held": {
 							"output": "/actions/system/in/SystemButtonChord"
 						}
+					},
+					"mode": "button",
+					"path": "/user/hand/right/input/system"
+				}
+			]
+		},
+		"/actions/quickrecenter": {
+			"sources": [
+				{
+					"inputs": {
+						"long": {
+							"output": "/actions/quickrecenter/in/Recenter"
+						}
+					},
+					"parameters": {
+						"long_press_delay": 1.0,
+						"long_press_expiry": 3.0
+					},
+					"mode": "button",
+					"path": "/user/hand/left/input/system"
+				},
+				{
+					"inputs": {
+						"long": {
+							"output": "/actions/quickrecenter/in/Recenter"
+						}
+					},
+					"parameters": {
+						"long_press_delay": 1.0,
+						"long_press_expiry": 3.0
 					},
 					"mode": "button",
 					"path": "/user/hand/right/input/system"

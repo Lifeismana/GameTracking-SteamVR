@@ -12,6 +12,8 @@
  Parameter to BackUp() can't be negative.
  St12ctype_bynameIcE
  URI handler</comment>\n\t</mime-type>\n</mime-info>\n\t
+ [CVRChaperoneClient] ClearRoomSetup \n
+ [CVRChaperoneClient] NotifyRoomSetupStep\n
  [clone 
  __vector(
  at line 
@@ -122,12 +124,9 @@ $3br
 %s %d universe %s
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s (%X)-> %s\n
-%s begin_ctx=%llu
 %s contains an empty %s
-%s dtime=%d begin_ctx=%llu
-%s dtime=%d end_ctx=%llu
-%s end_ctx=%llu
 %s is not a valid api layer json. Missing %s member.
+%s nEvent=%u
 %s( %s, %u )
 %s-Depth
 %s/.steam/steam
@@ -349,12 +348,9 @@ $3br
 ./obj_vrclient_linux32/release/vrclient.so
 .L10
 .L100
-.L1009
 .L101
-.L1010
 .L1012
 .L1013
-.L1014
 .L1015
 .L1016
 .L1017
@@ -372,15 +368,18 @@ $3br
 .L1028
 .L1029
 .L103
+.L1030
 .L10306
 .L10307
 .L10309
+.L1031
 .L10310
 .L10311
 .L10312
 .L10313
 .L1032
 .L10326
+.L1035
 .L10353
 .L10354
 .L10356
@@ -388,9 +387,7 @@ $3br
 .L10358
 .L10359
 .L10360
-.L1037
 .L10373
-.L1039
 .L10394
 .L10395
 .L10397
@@ -400,7 +397,6 @@ $3br
 .L1040
 .L10400
 .L10401
-.L1041
 .L10414
 .L1042
 .L1043
@@ -427,14 +423,15 @@ $3br
 .L1055
 .L1056
 .L1057
+.L1058
 .L1059
 .L106
+.L1060
 .L1062
 .L10625
 .L10627
 .L10628
 .L10629
-.L1063
 .L10630
 .L10631
 .L10632
@@ -443,19 +440,18 @@ $3br
 .L10635
 .L1065
 .L1066
-.L1067
+.L1068
 .L1069
 .L107
+.L1070
+.L1072
 .L1074
 .L1075
 .L1077
 .L1078
 .L1079
 .L108
-.L1081
-.L1083
 .L1084
-.L1085
 .L1086
 .L1087
 .L1088
@@ -470,9 +466,12 @@ $3br
 .L1096
 .L1097
 .L1098
+.L1099
 .L11
 .L110
 .L1100
+.L1101
+.L1103
 .L111
 .L112
 .L113
@@ -492,24 +491,24 @@ $3br
 .L1179
 .L118
 .L1180
-.L11803
-.L11806
-.L11808
-.L11809
 .L1181
-.L11810
-.L11811
-.L11812
-.L11813
-.L11814
-.L11815
-.L11816
-.L11817
 .L1182
 .L1183
 .L1184
 .L1185
+.L11850
+.L11853
+.L11855
+.L11856
+.L11857
+.L11858
+.L11859
 .L1186
+.L11860
+.L11861
+.L11862
+.L11863
+.L11864
 .L1187
 .L1188
 .L1189
@@ -529,24 +528,24 @@ $3br
 .L1200
 .L1201
 .L1202
-.L12028
 .L1203
-.L12030
-.L12032
-.L12033
-.L12034
-.L12035
-.L12036
-.L12037
-.L12038
-.L12039
 .L1204
-.L12040
-.L12041
 .L1205
 .L1206
 .L1207
+.L12075
+.L12077
+.L12079
 .L1208
+.L12080
+.L12081
+.L12082
+.L12083
+.L12084
+.L12085
+.L12086
+.L12087
+.L12088
 .L1209
 .L121
 .L1210
@@ -590,17 +589,20 @@ $3br
 .L125
 .L126
 .L127
+.L1277
+.L1278
 .L128
+.L1280
+.L1281
+.L1282
+.L1283
 .L1286
-.L1287
 .L1289
 .L129
-.L1290
 .L1291
 .L1292
 .L1293
 .L1294
-.L1295
 .L13
 .L130
 .L131
@@ -615,19 +617,19 @@ $3br
 .L134
 .L1340
 .L1341
-.L1347
 .L1348
+.L1349
 .L135
-.L1350
 .L1351
 .L1352
 .L1353
 .L1354
 .L1355
-.L1359
+.L1356
 .L136
-.L1362
-.L1365
+.L1361
+.L1364
+.L1367
 .L137
 .L138
 .L139
@@ -817,16 +819,16 @@ $3br
 .L1659
 .L166
 .L1660
-.L16691
-.L16692
-.L16694
-.L16695
-.L16696
-.L16697
-.L16698
-.L16699
 .L167
-.L16700
+.L16734
+.L16735
+.L16737
+.L16738
+.L16739
+.L16740
+.L16741
+.L16742
+.L16743
 .L168
 .L1684
 .L169
@@ -982,15 +984,8 @@ $3br
 .L1994
 .L1995
 .L1996
-.L1998
-.L1999
 .L20
 .L200
-.L2001
-.L2002
-.L2003
-.L2004
-.L2005
 .L201
 .L2011
 .L2012
@@ -1180,50 +1175,59 @@ $3br
 .L30
 .L300
 .L301
+.L30138
+.L30139
+.L30141
+.L30142
+.L30143
+.L30144
+.L30145
+.L30146
+.L30147
+.L30148
+.L30149
+.L30150
+.L30151
+.L30152
 .L302
+.L30255
+.L30256
+.L30258
+.L30259
+.L30260
+.L30261
+.L30262
 .L303
-.L30306
-.L30307
-.L30309
-.L30310
-.L30311
-.L30312
-.L30313
-.L30314
-.L30315
-.L30316
-.L30317
-.L30318
-.L30319
-.L30320
+.L30368
+.L30369
+.L30371
+.L30372
+.L30373
+.L30374
+.L30375
+.L30376
 .L304
-.L30423
-.L30424
-.L30426
-.L30427
-.L30428
-.L30429
-.L30430
 .L305
-.L30536
-.L30537
-.L30539
-.L30540
-.L30541
-.L30542
-.L30543
-.L30544
 .L306
 .L307
+.L30726
+.L30727
+.L30729
+.L30730
+.L30731
+.L30732
+.L30733
 .L308
-.L30894
-.L30895
-.L30897
-.L30898
-.L30899
+.L30853
+.L30854
+.L30856
+.L30857
+.L30858
+.L30859
+.L30860
+.L30861
+.L30862
 .L309
-.L30900
-.L30901
 .L3095
 .L3096
 .L3098
@@ -1233,16 +1237,7 @@ $3br
 .L3100
 .L3101
 .L3102
-.L31021
-.L31022
-.L31024
-.L31025
-.L31026
-.L31027
-.L31028
-.L31029
 .L3103
-.L31030
 .L3104
 .L3105
 .L3106
@@ -1298,62 +1293,62 @@ $3br
 .L326
 .L327
 .L328
+.L32847
+.L32848
+.L32850
+.L32851
+.L32852
+.L32853
+.L32854
 .L329
 .L33
 .L330
-.L33071
-.L33072
-.L33074
-.L33075
-.L33076
-.L33077
-.L33078
 .L331
 .L332
+.L33299
 .L333
+.L33300
+.L33302
+.L33303
+.L33304
+.L33305
+.L33306
 .L334
+.L33429
+.L33430
+.L33432
+.L33433
+.L33434
+.L33435
+.L33436
+.L33437
+.L33438
 .L335
-.L33523
-.L33524
-.L33526
-.L33527
-.L33528
-.L33529
-.L33530
+.L33559
+.L33560
+.L33562
+.L33563
+.L33564
+.L33565
+.L33566
 .L336
-.L33653
-.L33654
-.L33656
-.L33657
-.L33658
-.L33659
-.L33660
-.L33661
-.L33662
 .L337
-.L33783
-.L33784
-.L33786
-.L33787
-.L33788
-.L33789
-.L33790
 .L338
+.L33834
+.L33835
+.L33837
+.L33838
+.L33839
+.L33840
+.L33841
+.L33842
+.L33843
+.L33844
+.L33845
+.L33846
 .L339
 .L34
 .L340
-.L34058
-.L34059
-.L34061
-.L34062
-.L34063
-.L34064
-.L34065
-.L34066
-.L34067
-.L34068
-.L34069
-.L34070
 .L341
 .L342
 .L343
@@ -1362,51 +1357,52 @@ $3br
 .L346
 .L347
 .L348
+.L34881
+.L34882
+.L34884
+.L34885
+.L34886
+.L34887
+.L34888
+.L34889
+.L34890
+.L34891
+.L34892
+.L34893
+.L34894
+.L34895
+.L34896
+.L34897
+.L34899
 .L349
+.L34900
+.L34902
+.L34903
+.L34904
+.L34905
+.L34906
+.L34907
+.L34908
+.L34909
+.L34910
+.L34911
+.L34912
 .L35
 .L350
 .L351
-.L35105
-.L35106
-.L35108
-.L35109
-.L35110
-.L35111
-.L35112
-.L35113
-.L35114
-.L35115
-.L35116
-.L35117
-.L35118
-.L35119
-.L35120
-.L35121
-.L35123
-.L35124
-.L35126
-.L35127
-.L35128
-.L35129
-.L35130
-.L35131
-.L35132
-.L35133
-.L35134
-.L35135
-.L35136
 .L352
+.L3525
+.L3527
+.L3528
+.L3529
 .L353
 .L354
 .L3540
-.L3542
-.L3543
 .L3544
 .L3545
 .L3547
 .L3548
 .L355
-.L3555
 .L356
 .L357
 .L358
@@ -1419,13 +1415,12 @@ $3br
 .L364
 .L365
 .L3650
+.L3651
+.L3653
+.L3654
+.L3655
 .L366
-.L3665
-.L3666
-.L3668
-.L3669
 .L367
-.L3670
 .L368
 .L369
 .L37
@@ -1443,16 +1438,16 @@ $3br
 .L380
 .L381
 .L382
+.L38292
+.L38293
+.L38295
+.L38296
+.L38297
+.L38298
+.L38299
 .L383
 .L384
 .L385
-.L38516
-.L38517
-.L38519
-.L38520
-.L38521
-.L38522
-.L38523
 .L386
 .L387
 .L388
@@ -1461,23 +1456,25 @@ $3br
 .L390
 .L391
 .L392
+.L393
 .L394
 .L395
 .L396
+.L397
+.L39729
+.L39730
+.L39732
+.L39733
+.L39734
+.L39735
+.L39736
+.L39737
+.L39738
+.L39739
+.L39740
+.L39741
 .L398
 .L399
-.L39953
-.L39954
-.L39956
-.L39957
-.L39958
-.L39959
-.L39960
-.L39961
-.L39962
-.L39963
-.L39964
-.L39965
 .L40
 .L401
 .L402
@@ -1489,8 +1486,11 @@ $3br
 .L408
 .L409
 .L41
+.L410
+.L411
 .L413
 .L414
+.L415
 .L416
 .L417
 .L418
@@ -1523,9 +1523,11 @@ $3br
 .L439
 .L44
 .L440
+.L441
 .L442
 .L443
 .L4439
+.L444
 .L4441
 .L4442
 .L4443
@@ -1547,6 +1549,7 @@ $3br
 .L456
 .L457
 .L4575
+.L458
 .L4580
 .L459
 .L46
@@ -1733,10 +1736,14 @@ $3br
 .L615
 .L616
 .L617
+.L618
 .L619
 .L62
 .L620
+.L621
+.L623
 .L624
+.L625
 .L626
 .L627
 .L628
@@ -1760,12 +1767,16 @@ $3br
 .L644
 .L645
 .L646
+.L647
 .L648
 .L649
 .L65
 .L650
 .L651
+.L652
+.L653
 .L654
+.L655
 .L656
 .L657
 .L658
@@ -1776,6 +1787,7 @@ $3br
 .L662
 .L663
 .L664
+.L665
 .L666
 .L667
 .L668
@@ -1814,6 +1826,7 @@ $3br
 .L6734
 .L6735
 .L674
+.L675
 .L676
 .L6763
 .L6764
@@ -1823,6 +1836,7 @@ $3br
 .L68
 .L680
 .L681
+.L682
 .L683
 .L684
 .L685
@@ -2076,7 +2090,6 @@ $3br
 .L9277
 .L9293
 .L93
-.L934
 .L9352
 .L9353
 .L9355
@@ -2084,9 +2097,7 @@ $3br
 .L9357
 .L9358
 .L9359
-.L936
 .L937
-.L938
 .L939
 .L94
 .L940
@@ -2101,6 +2112,7 @@ $3br
 .L949
 .L9499
 .L95
+.L950
 .L9500
 .L9502
 .L9503
@@ -2109,8 +2121,8 @@ $3br
 .L9506
 .L951
 .L9515
+.L952
 .L954
-.L955
 .L957
 .L9576
 .L9577
@@ -2120,7 +2132,6 @@ $3br
 .L9581
 .L9582
 .L9583
-.L959
 .L9592
 .L96
 .L960
@@ -2134,14 +2145,14 @@ $3br
 .L9616
 .L962
 .L9625
+.L963
 .L964
-.L968
+.L965
+.L967
 .L97
-.L970
 .L971
 .L9718
 .L9719
-.L972
 .L9721
 .L9722
 .L9723
@@ -2150,7 +2161,10 @@ $3br
 .L973
 .L9734
 .L974
+.L975
 .L976
+.L977
+.L979
 .L98
 .L9825
 .L9826
@@ -2207,6 +2221,7 @@ $3br
 /chaperone/bounds_hash
 /chaperone/collision_radius
 /chaperone/is_default_perimeter
+/chaperone/last_relocalization_time
 /chaperone/perimeter
 /chaperone/play_area
 /chaperone/room_setup_done
@@ -2216,7 +2231,6 @@ $3br
 /chaperone/standing/transform
 /chaperone/state
 /chaperone/temporary_playing_outside_playspace_time
-/chaperone/tracking_anchored
 /click
 /controller_type/
 /dashboard/visible
@@ -2226,6 +2240,7 @@ $3br
 /data/src/common/vrcommon/blockqueue.cpp
 /data/src/common/vrcommon/computedsettings.cpp
 /data/src/common/vrcommon/drivermanager.cpp
+/data/src/common/vrcommon/gputiming_vulkan.cpp:300
 /data/src/common/vrcommon/ilockablepropertycontainer.h
 /data/src/common/vrcommon/ipcresourcemanager.cpp
 /data/src/common/vrcommon/openvr_internal.cpp
@@ -2236,7 +2251,11 @@ $3br
 /data/src/common/vrcommon/vrmailbox.cpp
 /data/src/common/vrcommon/vrrenderer/ivrrenderer.h
 /data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp
+/data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp:1815
+/data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp:1846
 /data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4395
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4479
 /data/src/common/vrcommon/vrrenderer/vulkantools.cpp
 /data/src/common/vrcommon/vrsystem.cpp
 /data/src/common/vrcommon/vrsystemlayersharedstate.cpp
@@ -2258,11 +2277,27 @@ $3br
 /data/src/thirdparty/libvcetoy/src/entrypoints.cpp
 /data/src/thirdparty/protobuf-2.6.1/src/google/protobuf/repeated_field.h
 /data/src/vrclient/hmdlatest.cpp
+/data/src/vrclient/legacyinput.cpp:542
 /data/src/vrclient/skeletalinpututils.cpp
 /data/src/vrclient/vrclientcore.cpp
 /data/src/vrclient/vrcompositorclient.cpp
+/data/src/vrclient/vrcompositorclient.cpp:1513
+/data/src/vrclient/vrcompositorclient.cpp:1769
+/data/src/vrclient/vrcompositorclient.cpp:2555
+/data/src/vrclient/vrcompositorclient.cpp:546
 /data/src/vrclient/vrcompositorsharedtextures.cpp
+/data/src/vrclient/vrcompositorsharedtextures.cpp:2473
+/data/src/vrclient/vrcompositorsharedtextures.cpp:2701
+/data/src/vrclient/vrcompositorsharedtextures.cpp:2898
+/data/src/vrclient/vrcompositorsharedtextures.cpp:2902
+/data/src/vrclient/vrcompositorsharedtextures.cpp:3007
+/data/src/vrclient/vrcompositorsharedtextures.cpp:4268
+/data/src/vrclient/vrdebug.cpp:49
+/data/src/vrclient/vrdebug.cpp:60
+/data/src/vrclient/vrinput.cpp:1596
 /data/src/vrclient/vrmailboxclient.cpp
+/data/src/vrclient/vroverlay.cpp:1014
+/data/src/vrclient/vroverlay.cpp:1210
 /dev/null
 /dev/random
 /dev/urandom
@@ -2364,14 +2399,17 @@ $3br
 /user/hand/left/input/dpad_left/click
 /user/hand/left/input/dpad_right/click
 /user/hand/left/input/dpad_up/click
+/user/hand/left/input/grip/click
 /user/hand/left/input/grip/value
 /user/hand/left/input/skeleton/left/data
 /user/hand/left/input/skeleton/left/tracking_level
 /user/hand/left/input/skeleton/left/without_controller_data
 /user/hand/left/input/system/click
 /user/hand/left/input/thumbstick/click
+/user/hand/left/input/thumbstick/touch
 /user/hand/left/input/thumbstick/x
 /user/hand/left/input/thumbstick/y
+/user/hand/left/input/trigger/click
 /user/hand/left/input/trigger/value
 /user/hand/left/input/view/click
 /user/hand/left/input/x
@@ -2383,6 +2421,7 @@ $3br
 /user/hand/right/input/a/click
 /user/hand/right/input/b
 /user/hand/right/input/b/click
+/user/hand/right/input/grip/click
 /user/hand/right/input/grip/value
 /user/hand/right/input/menu/click
 /user/hand/right/input/skeleton/right/data
@@ -2390,8 +2429,10 @@ $3br
 /user/hand/right/input/skeleton/right/without_controller_data
 /user/hand/right/input/system/click
 /user/hand/right/input/thumbstick/click
+/user/hand/right/input/thumbstick/touch
 /user/hand/right/input/thumbstick/x
 /user/hand/right/input/thumbstick/y
+/user/hand/right/input/trigger/click
 /user/hand/right/input/trigger/value
 /user/hand/right/input/x/click
 /user/hand/right/input/y/click
@@ -2405,9 +2446,9 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:35:56
 0123456789
 0123456789ABCDEF
-01:47:51
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -2640,7 +2681,6 @@ $3br
 21CVRMsg_OculusSDKStart
 21CVRMsg_SendWebMessage
 21CVRMsg_ServiceConnect
-21CVRMsg_ShutdownSystem
 21CVRMsg_StartDashboard
 21CVRMsg_UpdateZeroPose
 21CVirtualDisplayClient
@@ -2667,7 +2707,6 @@ $3br
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
 23CSimulatedTrackpadClick
-23CVRCVTrackedHmdInternal
 23CVRCompositorClientBase
 23CVRDashboardManager_001
 23CVRDisplayComponent_001
@@ -2822,7 +2861,6 @@ $3br
 29CVRMsg_Input_SetXrInputConfig
 29CVRMsg_ServiceConnectResponse
 29CVRMsg_Settings_RemoveSection
-29CVRMsg_ShutdownSystemResponse
 29CVRMsg_StartDashboardResponse
 29IOBufferInterfaceRegistrationI15CVRIOBuffer_001E
 29IOBufferInterfaceRegistrationI15CVRIOBuffer_002E
@@ -3156,6 +3194,7 @@ AB24
 AB30
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 AKST
+ALBasename(char const*)
 AR24
 AR30\t
 ASCII
@@ -3165,6 +3204,7 @@ AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Aborting due to fatal assertion failure.
 Aborting due to ignoring Quit event after %.1f seconds!
 Accessor
+AcquireSync
 Action %s reading %0.5f time %llu\n
 Action %s reading %0.5f, %0.5f time %llu, %llu\n
 Action %s reading %0.5f, %0.5f, %0.5f time %llu, %llu, %llu\n
@@ -3338,6 +3378,8 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Begin
+BeginCommandBuffer
+BeginVrProfilerEvent
 Binding config missing required 'bindings' member
 Binding config missing required 'controller_type' member
 Binding missing required "action" member
@@ -3372,8 +3414,8 @@ BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType)
 BuildFadeToColorRequest(float, vr::HmdColor_t const&, FadeType) (.cold)
 BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_t const&, vr::HmdVector4_t const&, vr::VRTextureBounds_t const&, unsigned int)
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-C.1181.232812
-C.73.341431
+C.1181.232811
+C.73.341430
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -3639,8 +3681,6 @@ CCompositorPluginProvider_Latest::GetInterfaceVersions()
 CCompositorPluginProvider_Latest::GetSourceVersion()
 CCompositorPluginProvider_Latest::Init(vr::IVRDriverContext*)
 CCompositorPluginProvider_Latest::~CCompositorPluginProvider_Latest()
-CConditionalScopedEventDuration::CConditionalScopedEventDuration(char const*, ...)
-CConditionalScopedEventDuration::~CConditionalScopedEventDuration()
 CCountedMutexWithLogCache::Log(char const*, ...)
 CCountedMutexWithLogCache::Log(char const*, ...) (.cold)
 CDampedFloat::Update(float, float, float)
@@ -3994,7 +4034,6 @@ CHmdSystemLatest::ShowUI(vr::EShowUIType) (.cold)
 CHmdSystemLatest::Shutdown(bool)
 CHmdSystemLatest::Shutdown(bool) (.cold)
 CHmdSystemLatest::ShutdownSystem()
-CHmdSystemLatest::ShutdownSystem() (.cold)
 CHmdSystemLatest::StartAutolaunchOverlays()
 CHmdSystemLatest::StartAutolaunchOverlays() (.cold)
 CHmdSystemLatest::StartHomeApp()
@@ -4655,15 +4694,19 @@ CPropertyManager::CreateFixedSizeContainerForRead(unsigned long long*, void cons
 CPropertyManager::CreateFixedSizeContainerForWrite(unsigned long long*, void*, unsigned int)
 CPropertyManager::CreateFixedSizeContainerForWrite(unsigned long long*, void*, unsigned int) (.cold)
 CPropertyManager::CreatePropertyContainer(unsigned long long)
+CPropertyManager::CreatePropertyContainer(unsigned long long) (.cold)
 CPropertyManager::CreatePropertyContainerInternal(unsigned long long, bool)
 CPropertyManager::CreatePropertyContainerInternal(unsigned long long, bool) (.cold)
 CPropertyManager::DestroyPropertyContainer(unsigned long long)
 CPropertyManager::EnableChangeNotifications(unsigned long long, bool)
-CPropertyManager::FindOrAddContainer(unsigned long long, bool)
+CPropertyManager::EnableChangeNotifications(unsigned long long, bool) (.cold)
+CPropertyManager::FindOrAddContainer(unsigned long long, std::unique_lock<std::mutex>&, bool)
 CPropertyManager::GetAllContainers()
 CPropertyManager::GetAllContainers() (.cold)
 CPropertyManager::GetAllProperties(unsigned long long, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>*)
+CPropertyManager::GetAllProperties(unsigned long long, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>*) (.cold)
 CPropertyManager::GetAllPropertiesWithTag(unsigned long long, unsigned int, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>*)
+CPropertyManager::GetAllPropertiesWithTag(unsigned long long, unsigned int, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>*) (.cold)
 CPropertyManager::GetContainerReader(unsigned long long)
 CPropertyManager::GetContainerReader(unsigned long long) (.cold)
 CPropertyManager::GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
@@ -4780,13 +4823,15 @@ CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.111
+CSWTCH.146
+CSWTCH.147
 CSWTCH.218
 CSWTCH.28
 CSWTCH.413
 CSWTCH.780
 CSWTCH.826
 CS_MAIN
-CScopedEventDuration::CScopedEventDuration(char const*, ...)
+CScopedEventDuration::CScopedEventDuration(char const*, char const*, char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CServerDriverHost_002::GetDeviceFromIndex(unsigned int)
 CServerDriverHost_002::GetSettings(char const*)
@@ -4966,11 +5011,9 @@ CSharedCountingSemaphoreLinux::GetType() const
 CSharedCountingSemaphoreLinux::ImportVulkanCountingSemaphore(VkDevice_T*, unsigned long long)
 CSharedCountingSemaphoreLinux::Signal(unsigned long long, vr::VRNativeDevice_t const*)
 CSharedCountingSemaphoreLinux::Signal(unsigned long long, vr::VRNativeDevice_t const*) (.cold)
-CSharedCountingSemaphoreLinux::Signal: %llu
 CSharedCountingSemaphoreLinux::Wait(unsigned long long, vr::VRNativeDevice_t const*)
 CSharedCountingSemaphoreLinux::Wait(unsigned long long, vr::VRNativeDevice_t const*) (.cold)
 CSharedCountingSemaphoreLinux::Wait(unsigned long long, vr::VRNativeDevice_t const*)::s_bDisableTimelineSemaphoreWait
-CSharedCountingSemaphoreLinux::Wait: %llu
 CSharedCountingSemaphoreLinux::~CSharedCountingSemaphoreLinux()
 CSharedImageLinux::CSharedImageLinux(vr::IVRIPCResourceManagerClient*)
 CSharedImageLinux::CreateVulkanImage(VkDevice_T*, VkFormat, unsigned int, unsigned int, bool, bool, bool, unsigned int, unsigned int)
@@ -5480,19 +5523,6 @@ CVRBlockQueue_004::QueueHasReader(unsigned long long, bool*)
 CVRBlockQueue_004::ReleaseReadOnlyBlock(unsigned long long, unsigned long long)
 CVRBlockQueue_004::ReleaseWriteOnlyBlock(unsigned long long, unsigned long long)
 CVRBlockQueue_004::WaitAndAcquireReadOnlyBlock(unsigned long long, unsigned long long*, void const**, vr::EBlockQueueReadType, unsigned int)
-CVRCVTrackedHmdInternal::AddFutureControllerCameraExposureTimings(double, double)
-CVRCVTrackedHmdInternal::CVRCVTrackedHmdInternal()
-CVRCVTrackedHmdInternal::Cleanup()
-CVRCVTrackedHmdInternal::CustomCommand(char const*, bool)
-CVRCVTrackedHmdInternal::CustomCommand(char const*, bool) (.part.0)
-CVRCVTrackedHmdInternal::GetRemoteDongleTimeForDevice(double, char const*)
-CVRCVTrackedHmdInternal::GetXRTimeFromDongleDeviceTime(unsigned int)
-CVRCVTrackedHmdInternal::Init(IVRClientInternal*)
-CVRCVTrackedHmdInternal::Init(IVRClientInternal*) (.cold)
-CVRCVTrackedHmdInternal::OnTrackerStateUpdate(vr::TrackerState_t const&)
-CVRCVTrackedHmdInternal::SendRequest(EVRCVTrackedHmdRequestType, RequestArguments_t, bool, RequestResponse_t*)
-CVRCVTrackedHmdInternal::SendRequest(EVRCVTrackedHmdRequestType, RequestArguments_t, bool, RequestResponse_t*) (.cold)
-CVRCVTrackedHmdInternal::~CVRCVTrackedHmdInternal()
 CVRCameraComponentAdapter* CVRCameraComponentAdapter::Create<CCompositorPluginProvider>(CCompositorPluginProvider*, std::set<std::string, std::less<std::string>, std::allocator<std::string>> const&)
 CVRCameraComponentAdapter* CVRCameraComponentAdapter::Create<vr::ITrackedDeviceServerDriver>(vr::ITrackedDeviceServerDriver*, std::set<std::string, std::less<std::string>, std::allocator<std::string>> const&)
 CVRCameraComponent_001::GetCameraCompatibilityMode(vr::ECameraCompatibilityMode*)
@@ -5862,6 +5892,7 @@ CVRCompositorClient::GetFrameTimeRemaining() (.cold)
 CVRCompositorClient::GetFrameTimingState(vr::FrameTimingState_t*)
 CVRCompositorClient::GetFrameTimingState(vr::FrameTimingState_t*) (.cold)
 CVRCompositorClient::GetLastPosePredictionIDs(unsigned int*, unsigned int*)
+CVRCompositorClient::GetLastSubmittedFrameExtents(vr::EVREye, unsigned int*, unsigned int*)
 CVRCompositorClient::GetMirrorTextureD3D11(vr::EVREye, void*, void**)
 CVRCompositorClient::GetMirrorTextureD3D11(vr::EVREye, void*, void**) (.cold)
 CVRCompositorClient::GetMirrorTextureGL(vr::EVREye, unsigned int*, void**)
@@ -7223,8 +7254,6 @@ CVRControllerTypeBindings::AddPerInputTutorialActions(Json::Value const&, CInput
 CVRControllerTypeBindings::AddPerInputTutorialActions(Json::Value const&, CInputActionManifest&, CActionBindingConfig&) (.cold)
 CVRControllerTypeBindings::AppliesToDeviceContainer(unsigned long long)
 CVRControllerTypeBindings::AppliesToDevicePath(unsigned long long)
-CVRControllerTypeBindings::EraseOverridePropertiesForDevice(unsigned long long)
-CVRControllerTypeBindings::EraseSimulatedOverrides()
 CVRControllerTypeBindings::GetBindingInfo(unsigned long long) const
 CVRControllerTypeBindings::GetBindingInfo(unsigned long long) const (.cold)
 CVRControllerTypeBindings::GetBoolFromOptions(std::map<std::string, Json::Value, std::less<std::string>, std::allocator<std::pair<std::string const, Json::Value>>> const&, std::string, bool)
@@ -7496,6 +7525,10 @@ CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const
 CVRInputLatest::DoAttachedControllersSupportXrHandTracking() const (.cold)
 CVRInputLatest::DoesActionHaveOrigin(unsigned long long, unsigned long long, bool&)
 CVRInputLatest::DoesActionHaveOrigin(unsigned long long, unsigned long long, bool&) (.cold)
+CVRInputLatest::EraseOverridePropertiesForAllDevices() const
+CVRInputLatest::EraseOverridePropertiesForDevice(unsigned int) const
+CVRInputLatest::EraseOverridePropertiesForDevice(unsigned int) const (.cold)
+CVRInputLatest::EraseOverridePropertiesForDevice(unsigned int) const::eraseProperty
 CVRInputLatest::GetActionBindingInfo(unsigned long long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*)
 CVRInputLatest::GetActionBindingInfo(unsigned long long, vr::InputBindingInfo_t*, unsigned int, unsigned int, unsigned int*) (.cold)
 CVRInputLatest::GetActionHandle(char const*, unsigned long long*)
@@ -12550,56 +12583,6 @@ CVRMsg_ShouldKillTheaterPancakeProcessResponse::Swap(CVRMsg_ShouldKillTheaterPan
 CVRMsg_ShouldKillTheaterPancakeProcessResponse::default_instance()
 CVRMsg_ShouldKillTheaterPancakeProcessResponse::default_instance_
 CVRMsg_ShouldKillTheaterPancakeProcessResponse::~CVRMsg_ShouldKillTheaterPancakeProcessResponse()
-CVRMsg_ShutdownSystem
-CVRMsg_ShutdownSystem::ByteSize() const
-CVRMsg_ShutdownSystem::CVRMsg_ShutdownSystem()
-CVRMsg_ShutdownSystem::CVRMsg_ShutdownSystem(CVRMsg_ShutdownSystem const&)
-CVRMsg_ShutdownSystem::CVRMsg_ShutdownSystem(CVRMsg_ShutdownSystem const&) (.cold)
-CVRMsg_ShutdownSystem::CheckTypeAndMergeFrom(google::protobuf::MessageLite const&)
-CVRMsg_ShutdownSystem::Clear()
-CVRMsg_ShutdownSystem::CopyFrom(CVRMsg_ShutdownSystem const&)
-CVRMsg_ShutdownSystem::GetCachedSize() const
-CVRMsg_ShutdownSystem::GetTypeName() const
-CVRMsg_ShutdownSystem::InitAsDefaultInstance()
-CVRMsg_ShutdownSystem::IsInitialized() const
-CVRMsg_ShutdownSystem::MergeFrom(CVRMsg_ShutdownSystem const&)
-CVRMsg_ShutdownSystem::MergeFrom(CVRMsg_ShutdownSystem const&) (.cold)
-CVRMsg_ShutdownSystem::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*)
-CVRMsg_ShutdownSystem::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (.cold)
-CVRMsg_ShutdownSystem::New() const
-CVRMsg_ShutdownSystem::SerializeWithCachedSizes(google::protobuf::io::CodedOutputStream*) const
-CVRMsg_ShutdownSystem::SetCachedSize(int) const
-CVRMsg_ShutdownSystem::SharedCtor()
-CVRMsg_ShutdownSystem::SharedDtor()
-CVRMsg_ShutdownSystem::Swap(CVRMsg_ShutdownSystem*)
-CVRMsg_ShutdownSystem::default_instance()
-CVRMsg_ShutdownSystem::default_instance_
-CVRMsg_ShutdownSystem::~CVRMsg_ShutdownSystem()
-CVRMsg_ShutdownSystemResponse
-CVRMsg_ShutdownSystemResponse::ByteSize() const
-CVRMsg_ShutdownSystemResponse::CVRMsg_ShutdownSystemResponse()
-CVRMsg_ShutdownSystemResponse::CVRMsg_ShutdownSystemResponse(CVRMsg_ShutdownSystemResponse const&)
-CVRMsg_ShutdownSystemResponse::CVRMsg_ShutdownSystemResponse(CVRMsg_ShutdownSystemResponse const&) (.cold)
-CVRMsg_ShutdownSystemResponse::CheckTypeAndMergeFrom(google::protobuf::MessageLite const&)
-CVRMsg_ShutdownSystemResponse::Clear()
-CVRMsg_ShutdownSystemResponse::CopyFrom(CVRMsg_ShutdownSystemResponse const&)
-CVRMsg_ShutdownSystemResponse::GetCachedSize() const
-CVRMsg_ShutdownSystemResponse::GetTypeName() const
-CVRMsg_ShutdownSystemResponse::InitAsDefaultInstance()
-CVRMsg_ShutdownSystemResponse::IsInitialized() const
-CVRMsg_ShutdownSystemResponse::MergeFrom(CVRMsg_ShutdownSystemResponse const&)
-CVRMsg_ShutdownSystemResponse::MergeFrom(CVRMsg_ShutdownSystemResponse const&) (.cold)
-CVRMsg_ShutdownSystemResponse::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*)
-CVRMsg_ShutdownSystemResponse::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (.cold)
-CVRMsg_ShutdownSystemResponse::New() const
-CVRMsg_ShutdownSystemResponse::SerializeWithCachedSizes(google::protobuf::io::CodedOutputStream*) const
-CVRMsg_ShutdownSystemResponse::SetCachedSize(int) const
-CVRMsg_ShutdownSystemResponse::SharedCtor()
-CVRMsg_ShutdownSystemResponse::SharedDtor()
-CVRMsg_ShutdownSystemResponse::Swap(CVRMsg_ShutdownSystemResponse*)
-CVRMsg_ShutdownSystemResponse::default_instance()
-CVRMsg_ShutdownSystemResponse::default_instance_
-CVRMsg_ShutdownSystemResponse::~CVRMsg_ShutdownSystemResponse()
 CVRMsg_StartAutolaunchOverlays
 CVRMsg_StartAutolaunchOverlays::ByteSize() const
 CVRMsg_StartAutolaunchOverlays::CVRMsg_StartAutolaunchOverlays()
@@ -13912,8 +13895,8 @@ CVROverlayLatest::SetOverlayTextureBounds(unsigned long long, vr::VRTextureBound
 CVROverlayLatest::SetOverlayTextureBounds(unsigned long long, vr::VRTextureBounds_t const*) (.cold)
 CVROverlayLatest::SetOverlayTextureColorSpace(unsigned long long, vr::EColorSpace)
 CVROverlayLatest::SetOverlayTextureColorSpace(unsigned long long, vr::EColorSpace) (.cold)
-CVROverlayLatest::SetOverlayTextureXR(unsigned long long, vr::Texture_t const*, unsigned int, vr::EVRSubmitFlags)
-CVROverlayLatest::SetOverlayTextureXR(unsigned long long, vr::Texture_t const*, unsigned int, vr::EVRSubmitFlags) (.cold)
+CVROverlayLatest::SetOverlayTextureXR(unsigned long long, vr::Texture_t const*, vr::VRTextureBounds_t const*, unsigned int, vr::EVRSubmitFlags)
+CVROverlayLatest::SetOverlayTextureXR(unsigned long long, vr::Texture_t const*, vr::VRTextureBounds_t const*, unsigned int, vr::EVRSubmitFlags) (.cold)
 CVROverlayLatest::SetOverlayTransformAbsolute(unsigned long long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*)
 CVROverlayLatest::SetOverlayTransformAbsolute(unsigned long long, vr::ETrackingUniverseOrigin, vr::HmdMatrix34_t const*) (.cold)
 CVROverlayLatest::SetOverlayTransformCursor(unsigned long long, vr::HmdVector2_t const*)
@@ -16585,6 +16568,7 @@ CVRSystemLatest::GetEyeToHeadTransform(vr::EVREye) (.cold)
 CVRSystemLatest::GetEyeToHeadTransformCompositorResidual(vr::EVREye)
 CVRSystemLatest::GetEyeToHeadTransformCompositorResidual(vr::EVREye) (.cold)
 CVRSystemLatest::GetEyeTrackedFoveationCenter(vr::HmdVector2_t*, vr::HmdVector2_t*)
+CVRSystemLatest::GetEyeTrackedFoveationCenterForProjection(vr::HmdMatrix44_t const&, vr::HmdVector2_t*)
 CVRSystemLatest::GetFloatTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
 CVRSystemLatest::GetHiddenAreaMesh(vr::EVREye, vr::EHiddenAreaMeshType)
 CVRSystemLatest::GetHiddenAreaMesh(vr::EVREye, vr::EHiddenAreaMeshType) (.cold)
@@ -16602,11 +16586,14 @@ CVRSystemLatest::GetPoseAtTime(vr::ETrackingUniverseOrigin, double, unsigned int
 CVRSystemLatest::GetPredictedPose(vr::ETrackingUniverseOrigin, float, unsigned int, vr::TrackedDevicePose_t*)
 CVRSystemLatest::GetProjectionMatrix(vr::EVREye, float, float)
 CVRSystemLatest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+CVRSystemLatest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*) (.cold)
+CVRSystemLatest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)::s_bDisableFovJitter
 CVRSystemLatest::GetProjectionRawWithScale(vr::EVREye, float*, float*, float*, float*, CVRSystemLatest::FovScale_t const*)
 CVRSystemLatest::GetProjectionRawWithScale(vr::EVREye, float*, float*, float*, float*, CVRSystemLatest::FovScale_t const*) (.cold)
 CVRSystemLatest::GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
 CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float)
-CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float) (.cold)
+CVRSystemLatest::GetRawProjectionTanAngles(vr::EVREye, float*, float*, float*, float*)
+CVRSystemLatest::GetRawProjectionTanAngles(vr::EVREye, float*, float*, float*, float*) (.cold)
 CVRSystemLatest::GetRawZeroPoseToStandingAbsoluteTrackingPose()
 CVRSystemLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
 CVRSystemLatest::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*) (.cold)
@@ -18101,7 +18088,6 @@ ComputeReadEventName(std::string const&, unsigned int) (.cold)
 ComputeSphereRayIntersection(vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, float, vr::HmdVector3_t*)
 ComputeStandingFromInverseOverlayUV(OverlayTransformDetails_t const&, vr::HmdVector2_t const&)
 ComputeStandingFromOverlayUV(OverlayTransformDetails_t const&, vr::HmdVector2_t const&)
-ComputeSubresourceRegion(vr::VRTextureBounds_t*, unsigned int, unsigned int, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
 ComputeTransformDetails(vr::HmdMatrix34_t const&, vr::HmdVector2_t const&, float, float, float, float, float, vr::HmdVector2_t const&, vr::VRTextureBounds_t const&, vr::HmdMatrix34_t const*)
 ComputedBoolSettingForString(std::string const&)
 Config path could not be located (111)
@@ -18125,8 +18111,10 @@ ControllerAvailabilityState::BPathAvailable(std::string const&) const
 ControllerAvailabilityState::ControllerAvailabilityState(std::string const&)
 ControllerButtonsToMouseButtons(unsigned long long)
 ConvertPublicEventToTrackingEvent(VRSharedEvent_t*, vr::VREvent_t const&)
+ConvertStringToUUID(std::string const&, unsigned char*)
 ConvertToV1EventStruct(Old_VREvent_t*, vr::VREvent_t const*)
 ConvertTrackingEventToPublicEvent(vr::VREvent_t*, VRSharedEvent_t const&, unsigned int)
+ConvertUUIDToString(unsigned char const*, std::string&)
 CopyText(char const*, char*, unsigned int)
 Could not create interface in driver %s from %s.\n
 Could not find factor function in driver %s from %s.\n
@@ -18249,6 +18237,7 @@ EVRSceneApplicationState_Starting
 EVRSceneApplicationState_Waiting
 EXCESSIVE ERRORS FOR GetSkeletalTrackingLevelForHandError (%d). NO LONGER LOGGING ERRORS FOR THIS.
 EXCESSIVE ERRORS FOR GetSkeletonBoneDataForHandError (%d). NO LONGER LOGGING ERRORS FOR THIS.
+EXCESSIVE ERRORS FOR eraseProperty (%d). NO LONGER LOGGING ERRORS FOR THIS.
 EXPOSURE=          1.0000000000000\n\n-Y %d +X %d\n
 EXTRASYSCONFDIR
 Element in "action_sets" is not a string
@@ -18265,6 +18254,7 @@ Error %d getting shared memory size
 Error %d growing shared object manager file.
 Error %d locking shared memory file
 Error calling m_pDownsampleRenderer->Draw()!\n
+Error erasing properties for device (%d): %s
 Error from reader: %s
 Error initializing CDownsampleRenderer\n
 Error initializing CVulkanVRRenderer\n
@@ -18277,9 +18267,9 @@ Error: failed to load dynamic SDL
 Event: %s device %u timestamp %f  data 0x%llx 0x%llx\n
 EventWriteString(char const*, EVRTraceEvent)
 EventWriteString(char const*, EVRTraceEvent) (.cold)
-EventWriteStringBegin(char const*, unsigned long long)
-EventWriteStringDurationF(int, char const*, ...)
-EventWriteStringEnd(char const*, unsigned long long)
+EventWriteStringBegin(char const*, char const*, char const*, unsigned long long)
+EventWriteStringBeginEnd(bool, char const*, char const*, char const*, unsigned long long)
+EventWriteStringEnd(char const*, char const*, char const*, unsigned long long)
 EventWriteStringF(char const*, ...)
 Exceeded stackLimit in readValue().
 Executable: %s\n
@@ -18553,8 +18543,11 @@ FindLanguageTag(Json::Value const&, std::string const&)
 FindLanguageTag(Json::Value const&, std::string const&) (.cold)
 FindOverlayByKey(VRSystemLayerState_t const*, char const*, unsigned long long*)
 FindOverlayTextureReadLock(VRCompositor_OverlayState_t const&, unsigned int, unsigned int*, unsigned int*)
+FinishOpenCommandBuffer (Vulkan)
+FinishVrProfilerEvent
 Firmware Recovery In Progress (139)
 Firmware Update In Progress (138)
+Flush
 FnTable:
 FnTable:%s
 FnTable:IVRApplications_004
@@ -18693,6 +18686,7 @@ GenSessionId()::sNextSessionId
 GenerateChangeNotifications
 GenerateLinuxManifest(std::string, std::string)
 GenerateLinuxManifest(std::string, std::string) (.cold)
+GenerateUUID(unsigned char*)
 GenericInterfaceRegistration::GetInterface()
 GenericInterfaceRegistration::~GenericInterfaceRegistration()
 GetActionBindingCategoryEnumFromName(std::string const&)
@@ -18732,10 +18726,13 @@ GetFilenameTimeString()
 GetFragmentDensityMapData(XrFoveationLevelFB, unsigned int, unsigned int, std::vector<unsigned char, std::allocator<unsigned char>>&)
 GetFragmentDensityMapData(XrFoveationLevelFB, unsigned int, unsigned int, std::vector<unsigned char, std::allocator<unsigned char>>&) (.cold)
 GetFragmentDensityMapData(XrFoveationLevelFB, unsigned int, unsigned int, std::vector<unsigned char, std::allocator<unsigned char>>&)::bSquare
+GetFrameTiming
 GetGMUnixTime()
 GetGMUnixTimeAtNextLocalTime(unsigned long long, int, int, int)
 GetGenericInterfaceInternal(char const*, vr::EVRInitError*)
 GetHMDLatestInterfaceInternal()
+GetHiddenAreaMeshData: failed to invert projectin matrix\n
+GetHiddenAreaMeshData: no hidden area mesh data available\n
 GetHmdErrorPriority(vr::EVRInitError)
 GetIDForVRInitError(vr::EVRInitError)
 GetIDForVRInitError(vr::EVRInitError)::buf
@@ -19188,8 +19185,6 @@ IVRBlockQueue_002
 IVRBlockQueue_003
 IVRBlockQueue_004
 IVRBlockQueue_005
-IVRCVTrackedHmdInternal_
-IVRCVTrackedHmdInternal_XXX
 IVRCameraComponent001_Version
 IVRCameraComponent002::GetCameraDistortion(float, float, float*, float*)
 IVRCameraComponent002::GetCameraIntrinsics(vr::EVRTrackedCameraFrameType, vr::HmdVector2_t*, vr::HmdVector2_t*)
@@ -19201,6 +19196,7 @@ IVRCameraComponent_002
 IVRCameraPassthroughInternal_
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_001
 IVRChaperoneSetup_002
 IVRChaperoneSetup_003
@@ -22433,7 +22429,6 @@ InitializeInterfaceAdapters()
 InitializeInterfaceFnTables()
 Initialized Vulkan transfer ring buffer, mapped at offset 0x%p.\n
 Initializing CVulkanVRRenderer\n
-Initializing IRVCVTrackedHmdInternal interface
 Initializing internal camera passthrough interface
 Initializing the limited version of CVRCompositorClient\n
 InputActionRequirementToEnum(std::string const&)
@@ -22547,7 +22542,6 @@ Invalid special open parenthesis.
 Invalid target queue mode during image transition: %d\n
 Invalid texture bounds( %f, %f, %f, %f ) from application\n
 Invalid type in  '
-Invalid value for 'simulate_rendermodel' in binding options: %s. Treated as false.
 Invalid wildcard root %s. Must match an alias\n
 IpAndPortToString(unsigned int, unsigned short)
 IpToString(unsigned int)
@@ -23047,6 +23041,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
+JsonValueToESimulateRenderModel(Json::Value const&)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
 JsonValuesToHMDVector3s(Json::Value const&, Json::Value const&, vr::HmdMatrix34_t&, vr::HmdMatrix34_t&)
@@ -23336,7 +23331,6 @@ N2vr22CVRNotificationsLatestE
 N2vr22IVRControllerComponentE
 N2vr22IVRExternalEventSourceE
 N2vr23IVRApplicationsInternalE
-N2vr23IVRCVTrackedHmdInternalE
 N2vr23IVRDriverDirectInternalE
 N2vr23IVRRenderModelsInternalE
 N2vr24CVROverlayInternalLatestE
@@ -23502,7 +23496,7 @@ Not writing scalar value because it didn't change\n
 Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
-Nov 11 2025
+Nov 13 2025
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t>>*)
@@ -23738,6 +23732,7 @@ PointMaskIntersectionTest(float, float, vr::VROverlayIntersectionMaskPrimitive_t
 PolygonCentroid(int, float const*, float const*, unsigned int, unsigned int)
 Pose
 Positional emitter description not found.
+PostPresentHandoff
 PredictRawPose(double, vr::HmdMatrix34_t const&, VRTrackingState_DeviceInfo_t const&, VRTrackingState_Pose_t const&, vr::TrackedDevicePose_t*, double, double)
 Preparing to start vrcompositor at host level for elevated capatibilities via Steam's launcher service.\n
 PreviousURL
@@ -23928,7 +23923,7 @@ Prop_OverrideContainer_Uint64
 Prop_ParentContainer
 Prop_ParentDriver_Uint64
 Prop_PeripheralApplicationVersion_Uint64
-Prop_PreviousUniverseId_Uint64
+Prop_PreviousUniverseId_Uint64_deprecated
 Prop_RadioVersion_Uint64
 Prop_RegisteredDeviceType_String
 Prop_RenderModelName_String
@@ -24030,6 +24025,7 @@ Rejecting attempt to ForceQuitProcess with 0\n
 Rejecting degenerate image.
 Rejecting watchdog mode because vrmonitor is already running\n
 Rejecting watchdog mode because vrserver is already running\n
+ReleaseSync
 ReleaseThreadHandle
 Releasing OS object failed: invalid parameter\n
 Releasing ref on rendermodel %s. New ref count %d\n
@@ -24086,6 +24082,7 @@ Ring Buffer Wrapped!\n
 Root element is not a JSON object\n
 RootNode
 RoundExtendedStorage(unsigned int)
+RunInputFrame
 RunWithAdminPrompt(std::string const&, std::string const&)
 Running_OK
 Running_OutOfRange
@@ -24101,6 +24098,7 @@ STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_DMABUF_MODIFIERS
+STEAMVR_DISABLE_FVTAA
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
 STEAMVR_GPUVIS_ON_ASSERT
@@ -24121,6 +24119,7 @@ Scene create OpenGL,
 Scene create Vulkan, 
 Scene resize OpenGL, 
 Scene resize Vulkan, 
+Scene[%d:%d]: %p [%dx%d]
 Screenshot: GetScreenshotDetails requested handle %u error returning %d\n
 Screenshot: GetScreenshotPropertyFilename requested handle=%u filenameType=%d returning filename="%s"\n
 Screenshot: GetScreenshotPropertyType requested handle=%u returning type=%d\n
@@ -24194,6 +24193,7 @@ SharedObjMgr().Init() failed
 ShouldKillTheaterProcessHack
 ShouldUpdateInputDebuggerForThisProcess()::k_pathInputDebuggerPid
 ShowDashboard( %s )\n
+Signal
 Simulated action 
 SkeletalCompression::CalcReferencePose(CAnimSkeleton const*)
 SkeletalCompression::CalcReferencePose(CAnimSkeleton const*) (.cold)
@@ -24490,7 +24490,9 @@ StringToUint64(std::string const&)
 StringToUpper(std::string const&)
 StringToUpper(std::string const&) (.cold)
 Submit
+SubmitExplicitTimingData
 SubmitExplicitTimingData - Explicit timing mode not enabled, must be enabled to submit explicit timing data.\n
+SubmitEyeInternal
 SubmitTextureSetInfo
 Subview overlays may only be created for overlays created by the same process.
 Successfully changed app type
@@ -24708,6 +24710,7 @@ UTF8to16(char const*) (.cold)
 UTF8to16(std::string const&)
 UTF8to16(std::string const&) (.cold)
 UTF8to16(std::string const&)::s_convert
+UUID_1.0
 Uint64ToString(unsigned long long)
 Unable to bind server socket errno=%d\n
 Unable to connect to Oculus Runtime (1000)
@@ -24862,6 +24865,7 @@ UnlinkFile(char const*)
 Unnamed simulated action failed to parse: 
 Unsupported Vulkan texture format: %d\n
 Unsupported `type` for accessor object. Got "
+UpdateActionState
 UpdateSharedTexture: Texture of %d x %d won't fit in CVRSharedVulkanTexture of size %d x %d\n
 Upresing %s from %d to %d tris
 UseKeyboardImplementation(VRSystemLayerState_t*, vr::EVRKeyboardImplementation)
@@ -25711,10 +25715,6 @@ VR_Compositor_OverlayVSync0
 VR_Compositor_OverlayVSync1
 VR_Compositor_VulkanSyncClientAndCompositor
 VR_Compositor_VulkanSyncClientAndCompositor_SharedMem
-VR_CvTrackedHmdInternalNewRequestEvent
-VR_CvTrackedHmdInternalRequestProcessedEvent
-VR_CvTrackedHmdMutex
-VR_CvTrackedHmdState
 VR_DriverDirectMutex
 VR_DriverDirectState
 VR_EventMutex
@@ -26139,6 +26139,7 @@ VR_VirtualDisplayState
 VR_WebServerMutex
 VR_WebServerState
 VS_DISTORT
+VS_FOVEATED
 VS_GEOM
 VS_MAIN
 VS_MOTION
@@ -26324,7 +26325,12 @@ VulkanVRRenderer::pixelShaderDefs
 VulkanVRRenderer::vertexShaderDefs
 WARNING
 WARNING: NOT running in a Steam for Linux pressure-vessel container runtime. Your SteamVR installation is misconfigured.
+Wait
 WaitEvent
+WaitFrameSync
+WaitGetPoses
+WaitGetPoses ThreadId=%d
+WaitSemaphore LastSignaledFrameIndex=%llu
 Waiting for shared fd client failed\n
 WaitingForExternalLaunch
 Warning
@@ -26363,6 +26369,743 @@ XDG_DATA_DIRS
 XDG_DATA_HOME
 XR24
 XR30\t
+XR_COLOCATION_DISCOVERY_ALREADY_ADVERTISING_META
+XR_COLOCATION_DISCOVERY_ALREADY_DISCOVERING_META
+XR_ENVIRONMENT_DEPTH_NOT_AVAILABLE_META
+XR_ERROR_ACTIONSETS_ALREADY_ATTACHED
+XR_ERROR_ACTIONSET_NOT_ATTACHED
+XR_ERROR_ACTION_TYPE_MISMATCH
+XR_ERROR_ANCHOR_ALREADY_PERSISTED_ANDROID
+XR_ERROR_ANCHOR_ID_NOT_FOUND_ANDROID
+XR_ERROR_ANCHOR_NOT_OWNED_BY_CALLER_ANDROID
+XR_ERROR_ANCHOR_NOT_SUPPORTED_FOR_ENTITY_BD
+XR_ERROR_ANCHOR_NOT_TRACKING_ANDROID
+XR_ERROR_ANDROID_THREAD_SETTINGS_FAILURE_KHR
+XR_ERROR_ANDROID_THREAD_SETTINGS_ID_INVALID_KHR
+XR_ERROR_API_LAYER_NOT_PRESENT
+XR_ERROR_API_VERSION_UNSUPPORTED
+XR_ERROR_CALL_ORDER_INVALID
+XR_ERROR_COLOCATION_DISCOVERY_NETWORK_FAILED_META
+XR_ERROR_COLOCATION_DISCOVERY_NO_DISCOVERY_METHOD_META
+XR_ERROR_COLOR_SPACE_UNSUPPORTED_FB
+XR_ERROR_COMPUTE_NEW_SCENE_NOT_COMPLETED_MSFT
+XR_ERROR_CONTROLLER_MODEL_KEY_INVALID_MSFT
+XR_ERROR_CREATE_SPATIAL_ANCHOR_FAILED_MSFT
+XR_ERROR_DISPLAY_REFRESH_RATE_UNSUPPORTED_FB
+XR_ERROR_ENVIRONMENT_BLEND_MODE_UNSUPPORTED
+XR_ERROR_EXTENSION_DEPENDENCY_NOT_ENABLED
+XR_ERROR_EXTENSION_NOT_PRESENT
+XR_ERROR_FACIAL_EXPRESSION_PERMISSION_DENIED_ML
+XR_ERROR_FEATURE_ALREADY_CREATED_PASSTHROUGH_FB
+XR_ERROR_FEATURE_REQUIRED_PASSTHROUGH_FB
+XR_ERROR_FEATURE_UNSUPPORTED
+XR_ERROR_FILE_ACCESS_ERROR
+XR_ERROR_FILE_CONTENTS_INVALID
+XR_ERROR_FORM_FACTOR_UNAVAILABLE
+XR_ERROR_FORM_FACTOR_UNSUPPORTED
+XR_ERROR_FUNCTION_UNSUPPORTED
+XR_ERROR_FUTURE_INVALID_EXT
+XR_ERROR_FUTURE_PENDING_EXT
+XR_ERROR_GRAPHICS_DEVICE_INVALID
+XR_ERROR_GRAPHICS_REQUIREMENTS_CALL_MISSING
+XR_ERROR_HANDLE_INVALID
+XR_ERROR_HINT_ALREADY_SET_QCOM
+XR_ERROR_INDEX_OUT_OF_RANGE
+XR_ERROR_INITIALIZATION_FAILED
+XR_ERROR_INSTANCE_LOST
+XR_ERROR_INSUFFICIENT_RESOURCES_PASSTHROUGH_FB
+XR_ERROR_LAYER_INVALID
+XR_ERROR_LAYER_LIMIT_EXCEEDED
+XR_ERROR_LIMIT_REACHED
+XR_ERROR_LOCALIZATION_MAP_ALREADY_EXISTS_ML
+XR_ERROR_LOCALIZATION_MAP_CANNOT_EXPORT_CLOUD_MAP_ML
+XR_ERROR_LOCALIZATION_MAP_FAIL_ML
+XR_ERROR_LOCALIZATION_MAP_IMPORT_EXPORT_PERMISSION_DENIED_ML
+XR_ERROR_LOCALIZATION_MAP_INCOMPATIBLE_ML
+XR_ERROR_LOCALIZATION_MAP_PERMISSION_DENIED_ML
+XR_ERROR_LOCALIZATION_MAP_UNAVAILABLE_ML
+XR_ERROR_LOCALIZED_NAME_DUPLICATED
+XR_ERROR_LOCALIZED_NAME_INVALID
+XR_ERROR_MARKER_DETECTOR_INVALID_CREATE_INFO_ML
+XR_ERROR_MARKER_DETECTOR_INVALID_DATA_QUERY_ML
+XR_ERROR_MARKER_DETECTOR_LOCATE_FAILED_ML
+XR_ERROR_MARKER_DETECTOR_PERMISSION_DENIED_ML
+XR_ERROR_MARKER_ID_INVALID_VARJO
+XR_ERROR_MARKER_INVALID_ML
+XR_ERROR_MARKER_NOT_TRACKED_VARJO
+XR_ERROR_MISMATCHING_TRACKABLE_TYPE_ANDROID
+XR_ERROR_NAME_DUPLICATED
+XR_ERROR_NAME_INVALID
+XR_ERROR_NOT_AN_ANCHOR_HTC
+XR_ERROR_NOT_INTERACTION_RENDER_MODEL_EXT
+XR_ERROR_NOT_PERMITTED_PASSTHROUGH_FB
+XR_ERROR_OUT_OF_MEMORY
+XR_ERROR_PASSTHROUGH_COLOR_LUT_BUFFER_SIZE_MISMATCH_META
+XR_ERROR_PATH_COUNT_EXCEEDED
+XR_ERROR_PATH_FORMAT_INVALID
+XR_ERROR_PATH_INVALID
+XR_ERROR_PATH_UNSUPPORTED
+XR_ERROR_PERMISSION_INSUFFICIENT
+XR_ERROR_PERSISTED_DATA_NOT_READY_ANDROID
+XR_ERROR_PLANE_DETECTION_PERMISSION_DENIED_EXT
+XR_ERROR_POSE_INVALID
+XR_ERROR_REFERENCE_SPACE_UNSUPPORTED
+XR_ERROR_RENDER_MODEL_ASSET_UNAVAILABLE_EXT
+XR_ERROR_RENDER_MODEL_GLTF_EXTENSION_REQUIRED_EXT
+XR_ERROR_RENDER_MODEL_ID_INVALID_EXT
+XR_ERROR_RENDER_MODEL_KEY_INVALID_FB
+XR_ERROR_REPROJECTION_MODE_UNSUPPORTED_MSFT
+XR_ERROR_RUNTIME_FAILURE
+XR_ERROR_RUNTIME_UNAVAILABLE
+XR_ERROR_SCENE_CAPTURE_FAILURE_BD
+XR_ERROR_SCENE_COMPONENT_ID_INVALID_MSFT
+XR_ERROR_SCENE_COMPONENT_TYPE_MISMATCH_MSFT
+XR_ERROR_SCENE_COMPUTE_CONSISTENCY_MISMATCH_MSFT
+XR_ERROR_SCENE_COMPUTE_FEATURE_INCOMPATIBLE_MSFT
+XR_ERROR_SCENE_MESH_BUFFER_ID_INVALID_MSFT
+XR_ERROR_SECONDARY_VIEW_CONFIGURATION_TYPE_NOT_ENABLED_MSFT
+XR_ERROR_SERVICE_NOT_READY_ANDROID
+XR_ERROR_SESSION_LOST
+XR_ERROR_SESSION_NOT_READY
+XR_ERROR_SESSION_NOT_RUNNING
+XR_ERROR_SESSION_NOT_STOPPING
+XR_ERROR_SESSION_RUNNING
+XR_ERROR_SIZE_INSUFFICIENT
+XR_ERROR_SPACE_CLOUD_STORAGE_DISABLED_FB
+XR_ERROR_SPACE_COMPONENT_NOT_ENABLED_FB
+XR_ERROR_SPACE_COMPONENT_NOT_SUPPORTED_FB
+XR_ERROR_SPACE_COMPONENT_STATUS_ALREADY_SET_FB
+XR_ERROR_SPACE_COMPONENT_STATUS_PENDING_FB
+XR_ERROR_SPACE_GROUP_NOT_FOUND_META
+XR_ERROR_SPACE_INSUFFICIENT_RESOURCES_META
+XR_ERROR_SPACE_INSUFFICIENT_VIEW_META
+XR_ERROR_SPACE_LOCALIZATION_FAILED_FB
+XR_ERROR_SPACE_MAPPING_INSUFFICIENT_FB
+XR_ERROR_SPACE_NETWORK_REQUEST_FAILED_FB
+XR_ERROR_SPACE_NETWORK_TIMEOUT_FB
+XR_ERROR_SPACE_NOT_LOCATABLE_EXT
+XR_ERROR_SPACE_PERMISSION_INSUFFICIENT_META
+XR_ERROR_SPACE_RATE_LIMITED_META
+XR_ERROR_SPACE_STORAGE_AT_CAPACITY_META
+XR_ERROR_SPACE_TOO_BRIGHT_META
+XR_ERROR_SPACE_TOO_DARK_META
+XR_ERROR_SPATIAL_ANCHORS_ANCHOR_NOT_FOUND_ML
+XR_ERROR_SPATIAL_ANCHORS_NOT_LOCALIZED_ML
+XR_ERROR_SPATIAL_ANCHORS_OUT_OF_MAP_BOUNDS_ML
+XR_ERROR_SPATIAL_ANCHORS_PERMISSION_DENIED_ML
+XR_ERROR_SPATIAL_ANCHORS_SPACE_NOT_LOCATABLE_ML
+XR_ERROR_SPATIAL_ANCHOR_NAME_INVALID_MSFT
+XR_ERROR_SPATIAL_ANCHOR_NAME_NOT_FOUND_MSFT
+XR_ERROR_SPATIAL_ANCHOR_NOT_FOUND_BD
+XR_ERROR_SPATIAL_ANCHOR_SHARING_AUTHENTICATION_FAILURE_BD
+XR_ERROR_SPATIAL_ANCHOR_SHARING_LOCALIZATION_FAIL_BD
+XR_ERROR_SPATIAL_ANCHOR_SHARING_MAP_INSUFFICIENT_BD
+XR_ERROR_SPATIAL_ANCHOR_SHARING_NETWORK_FAILURE_BD
+XR_ERROR_SPATIAL_ANCHOR_SHARING_NETWORK_TIMEOUT_BD
+XR_ERROR_SPATIAL_BUFFER_ID_INVALID_EXT
+XR_ERROR_SPATIAL_CAPABILITY_CONFIGURATION_INVALID_EXT
+XR_ERROR_SPATIAL_CAPABILITY_UNSUPPORTED_EXT
+XR_ERROR_SPATIAL_COMPONENT_NOT_ENABLED_EXT
+XR_ERROR_SPATIAL_COMPONENT_UNSUPPORTED_FOR_CAPABILITY_EXT
+XR_ERROR_SPATIAL_ENTITY_ID_INVALID_BD
+XR_ERROR_SPATIAL_ENTITY_ID_INVALID_EXT
+XR_ERROR_SPATIAL_PERSISTENCE_SCOPE_INCOMPATIBLE_EXT
+XR_ERROR_SPATIAL_PERSISTENCE_SCOPE_UNSUPPORTED_EXT
+XR_ERROR_SPATIAL_SENSING_SERVICE_UNAVAILABLE_BD
+XR_ERROR_SWAPCHAIN_FORMAT_UNSUPPORTED
+XR_ERROR_SWAPCHAIN_RECT_INVALID
+XR_ERROR_SYSTEM_INVALID
+XR_ERROR_SYSTEM_NOTIFICATION_INCOMPATIBLE_SKU_ML
+XR_ERROR_SYSTEM_NOTIFICATION_PERMISSION_DENIED_ML
+XR_ERROR_TIME_INVALID
+XR_ERROR_TRACKABLE_TYPE_NOT_SUPPORTED_ANDROID
+XR_ERROR_UNEXPECTED_STATE_PASSTHROUGH_FB
+XR_ERROR_UNKNOWN_PASSTHROUGH_FB
+XR_ERROR_VALIDATION_FAILURE
+XR_ERROR_VIEW_CONFIGURATION_TYPE_UNSUPPORTED
+XR_ERROR_WORLD_MESH_DETECTOR_PERMISSION_DENIED_ML
+XR_ERROR_WORLD_MESH_DETECTOR_SPACE_NOT_LOCATABLE_ML
+XR_EVENT_UNAVAILABLE
+XR_FRAME_DISCARDED
+XR_RENDER_MODEL_UNAVAILABLE_FB
+XR_RESULT_MAX_ENUM
+XR_SCENE_MARKER_DATA_NOT_STRING_MSFT
+XR_SESSION_LOSS_PENDING
+XR_SESSION_NOT_FOCUSED
+XR_SPACE_BOUNDS_UNAVAILABLE
+XR_STRUCTURE_TYPE_MAX_ENUM
+XR_SUCCESS
+XR_TIMEOUT_EXPIRED
+XR_TYPE_ACTIONS_SYNC_INFO
+XR_TYPE_ACTION_CREATE_INFO
+XR_TYPE_ACTION_SET_CREATE_INFO
+XR_TYPE_ACTION_SPACE_CREATE_INFO
+XR_TYPE_ACTION_STATE_BOOLEAN
+XR_TYPE_ACTION_STATE_FLOAT
+XR_TYPE_ACTION_STATE_GET_INFO
+XR_TYPE_ACTION_STATE_POSE
+XR_TYPE_ACTION_STATE_VECTOR2F
+XR_TYPE_ACTIVE_ACTION_SET_PRIORITIES_EXT
+XR_TYPE_ANCHOR_SHARING_INFO_ANDROID
+XR_TYPE_ANCHOR_SHARING_TOKEN_ANDROID
+XR_TYPE_ANCHOR_SPACE_CREATE_INFO_ANDROID
+XR_TYPE_ANCHOR_SPACE_CREATE_INFO_BD
+XR_TYPE_ANDROID_SURFACE_SWAPCHAIN_CREATE_INFO_FB
+XR_TYPE_API_LAYER_PROPERTIES
+XR_TYPE_BATTERY_STATE_DISPLAY_EXT
+XR_TYPE_BINDING_MODIFICATIONS_KHR
+XR_TYPE_BODY_JOINTS_LOCATE_INFO_BD
+XR_TYPE_BODY_JOINTS_LOCATE_INFO_FB
+XR_TYPE_BODY_JOINTS_LOCATE_INFO_HTC
+XR_TYPE_BODY_JOINT_LOCATIONS_BD
+XR_TYPE_BODY_JOINT_LOCATIONS_FB
+XR_TYPE_BODY_JOINT_LOCATIONS_HTC
+XR_TYPE_BODY_SKELETON_FB
+XR_TYPE_BODY_SKELETON_HTC
+XR_TYPE_BODY_TRACKER_CREATE_INFO_BD
+XR_TYPE_BODY_TRACKER_CREATE_INFO_FB
+XR_TYPE_BODY_TRACKER_CREATE_INFO_HTC
+XR_TYPE_BODY_TRACKING_CALIBRATION_INFO_META
+XR_TYPE_BODY_TRACKING_CALIBRATION_STATUS_META
+XR_TYPE_BOUNDARY_2D_FB
+XR_TYPE_BOUND_SOURCES_FOR_ACTION_ENUMERATE_INFO
+XR_TYPE_COLOCATION_ADVERTISEMENT_START_INFO_META
+XR_TYPE_COLOCATION_ADVERTISEMENT_STOP_INFO_META
+XR_TYPE_COLOCATION_DISCOVERY_START_INFO_META
+XR_TYPE_COLOCATION_DISCOVERY_STOP_INFO_META
+XR_TYPE_COMPOSITION_LAYER_ALPHA_BLEND_FB
+XR_TYPE_COMPOSITION_LAYER_COLOR_SCALE_BIAS_KHR
+XR_TYPE_COMPOSITION_LAYER_CUBE_KHR
+XR_TYPE_COMPOSITION_LAYER_CYLINDER_KHR
+XR_TYPE_COMPOSITION_LAYER_DEPTH_INFO_KHR
+XR_TYPE_COMPOSITION_LAYER_DEPTH_TEST_FB
+XR_TYPE_COMPOSITION_LAYER_DEPTH_TEST_VARJO
+XR_TYPE_COMPOSITION_LAYER_EQUIRECT2_KHR
+XR_TYPE_COMPOSITION_LAYER_EQUIRECT_KHR
+XR_TYPE_COMPOSITION_LAYER_IMAGE_LAYOUT_FB
+XR_TYPE_COMPOSITION_LAYER_PASSTHROUGH_FB
+XR_TYPE_COMPOSITION_LAYER_PASSTHROUGH_HTC
+XR_TYPE_COMPOSITION_LAYER_PROJECTION
+XR_TYPE_COMPOSITION_LAYER_PROJECTION_VIEW
+XR_TYPE_COMPOSITION_LAYER_QUAD
+XR_TYPE_COMPOSITION_LAYER_REPROJECTION_INFO_MSFT
+XR_TYPE_COMPOSITION_LAYER_REPROJECTION_PLANE_OVERRIDE_MSFT
+XR_TYPE_COMPOSITION_LAYER_SECURE_CONTENT_FB
+XR_TYPE_COMPOSITION_LAYER_SETTINGS_FB
+XR_TYPE_COMPOSITION_LAYER_SPACE_WARP_INFO_FB
+XR_TYPE_CONTROLLER_MODEL_KEY_STATE_MSFT
+XR_TYPE_CONTROLLER_MODEL_NODE_PROPERTIES_MSFT
+XR_TYPE_CONTROLLER_MODEL_NODE_STATE_MSFT
+XR_TYPE_CONTROLLER_MODEL_PROPERTIES_MSFT
+XR_TYPE_CONTROLLER_MODEL_STATE_MSFT
+XR_TYPE_COORDINATE_SPACE_CREATE_INFO_ML
+XR_TYPE_CREATE_SPATIAL_ANCHORS_COMPLETION_ML
+XR_TYPE_CREATE_SPATIAL_CONTEXT_COMPLETION_EXT
+XR_TYPE_CREATE_SPATIAL_DISCOVERY_SNAPSHOT_COMPLETION_EXT
+XR_TYPE_CREATE_SPATIAL_DISCOVERY_SNAPSHOT_COMPLETION_INFO_EXT
+XR_TYPE_CREATE_SPATIAL_PERSISTENCE_CONTEXT_COMPLETION_EXT
+XR_TYPE_DEBUG_UTILS_LABEL_EXT
+XR_TYPE_DEBUG_UTILS_MESSENGER_CALLBACK_DATA_EXT
+XR_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT
+XR_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT
+XR_TYPE_DEVICE_ANCHOR_PERSISTENCE_CREATE_INFO_ANDROID
+XR_TYPE_DEVICE_PCM_SAMPLE_RATE_STATE_FB
+XR_TYPE_DIGITAL_LENS_CONTROL_ALMALENCE
+XR_TYPE_ENVIRONMENT_DEPTH_HAND_REMOVAL_SET_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_IMAGE_ACQUIRE_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_IMAGE_META
+XR_TYPE_ENVIRONMENT_DEPTH_IMAGE_VIEW_META
+XR_TYPE_ENVIRONMENT_DEPTH_PROVIDER_CREATE_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_SWAPCHAIN_CREATE_INFO_META
+XR_TYPE_ENVIRONMENT_DEPTH_SWAPCHAIN_STATE_META
+XR_TYPE_EVENT_DATA_BUFFER
+XR_TYPE_EVENT_DATA_COLOCATION_ADVERTISEMENT_COMPLETE_META
+XR_TYPE_EVENT_DATA_COLOCATION_DISCOVERY_COMPLETE_META
+XR_TYPE_EVENT_DATA_COLOCATION_DISCOVERY_RESULT_META
+XR_TYPE_EVENT_DATA_DISPLAY_REFRESH_RATE_CHANGED_FB
+XR_TYPE_EVENT_DATA_EVENTS_LOST
+XR_TYPE_EVENT_DATA_EYE_CALIBRATION_CHANGED_ML
+XR_TYPE_EVENT_DATA_HEADSET_FIT_CHANGED_ML
+XR_TYPE_EVENT_DATA_INSTANCE_LOSS_PENDING
+XR_TYPE_EVENT_DATA_INTERACTION_PROFILE_CHANGED
+XR_TYPE_EVENT_DATA_INTERACTION_RENDER_MODELS_CHANGED_EXT
+XR_TYPE_EVENT_DATA_LOCALIZATION_CHANGED_ML
+XR_TYPE_EVENT_DATA_MAIN_SESSION_VISIBILITY_CHANGED_EXTX
+XR_TYPE_EVENT_DATA_MARKER_TRACKING_UPDATE_VARJO
+XR_TYPE_EVENT_DATA_PASSTHROUGH_LAYER_RESUMED_META
+XR_TYPE_EVENT_DATA_PASSTHROUGH_STATE_CHANGED_FB
+XR_TYPE_EVENT_DATA_PERF_SETTINGS_EXT
+XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING
+XR_TYPE_EVENT_DATA_SCENE_CAPTURE_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SENSE_DATA_PROVIDER_STATE_CHANGED_BD
+XR_TYPE_EVENT_DATA_SENSE_DATA_UPDATED_BD
+XR_TYPE_EVENT_DATA_SESSION_STATE_CHANGED
+XR_TYPE_EVENT_DATA_SHARE_SPACES_COMPLETE_META
+XR_TYPE_EVENT_DATA_SPACES_ERASE_RESULT_META
+XR_TYPE_EVENT_DATA_SPACES_SAVE_RESULT_META
+XR_TYPE_EVENT_DATA_SPACE_DISCOVERY_COMPLETE_META
+XR_TYPE_EVENT_DATA_SPACE_DISCOVERY_RESULTS_AVAILABLE_META
+XR_TYPE_EVENT_DATA_SPACE_ERASE_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SPACE_LIST_SAVE_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SPACE_QUERY_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SPACE_QUERY_RESULTS_AVAILABLE_FB
+XR_TYPE_EVENT_DATA_SPACE_SAVE_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SPACE_SET_STATUS_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SPACE_SHARE_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SPATIAL_ANCHOR_CREATE_COMPLETE_FB
+XR_TYPE_EVENT_DATA_SPATIAL_DISCOVERY_RECOMMENDED_EXT
+XR_TYPE_EVENT_DATA_START_COLOCATION_ADVERTISEMENT_COMPLETE_META
+XR_TYPE_EVENT_DATA_START_COLOCATION_DISCOVERY_COMPLETE_META
+XR_TYPE_EVENT_DATA_STOP_COLOCATION_ADVERTISEMENT_COMPLETE_META
+XR_TYPE_EVENT_DATA_STOP_COLOCATION_DISCOVERY_COMPLETE_META
+XR_TYPE_EVENT_DATA_USER_PRESENCE_CHANGED_EXT
+XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_BACKSPACE_META
+XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_COMMIT_TEXT_META
+XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_ENTER_META
+XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_HIDDEN_META
+XR_TYPE_EVENT_DATA_VIRTUAL_KEYBOARD_SHOWN_META
+XR_TYPE_EVENT_DATA_VISIBILITY_MASK_CHANGED_KHR
+XR_TYPE_EVENT_DATA_VIVE_TRACKER_CONNECTED_HTCX
+XR_TYPE_EXTENSION_PROPERTIES
+XR_TYPE_EXTERNAL_CAMERA_OCULUS
+XR_TYPE_EYE_GAZES_FB
+XR_TYPE_EYE_GAZES_INFO_FB
+XR_TYPE_EYE_GAZE_SAMPLE_TIME_EXT
+XR_TYPE_EYE_TRACKER_CREATE_INFO_FB
+XR_TYPE_FACE_EXPRESSION_INFO2_FB
+XR_TYPE_FACE_EXPRESSION_INFO_FB
+XR_TYPE_FACE_EXPRESSION_WEIGHTS2_FB
+XR_TYPE_FACE_EXPRESSION_WEIGHTS_FB
+XR_TYPE_FACE_STATE_ANDROID
+XR_TYPE_FACE_STATE_GET_INFO_ANDROID
+XR_TYPE_FACE_TRACKER_CREATE_INFO2_FB
+XR_TYPE_FACE_TRACKER_CREATE_INFO_ANDROID
+XR_TYPE_FACE_TRACKER_CREATE_INFO_BD
+XR_TYPE_FACE_TRACKER_CREATE_INFO_FB
+XR_TYPE_FACIAL_EXPRESSIONS_HTC
+XR_TYPE_FACIAL_EXPRESSION_BLEND_SHAPE_GET_INFO_ML
+XR_TYPE_FACIAL_EXPRESSION_BLEND_SHAPE_PROPERTIES_ML
+XR_TYPE_FACIAL_EXPRESSION_CLIENT_CREATE_INFO_ML
+XR_TYPE_FACIAL_SIMULATION_DATA_BD
+XR_TYPE_FACIAL_SIMULATION_DATA_GET_INFO_BD
+XR_TYPE_FACIAL_TRACKER_CREATE_INFO_HTC
+XR_TYPE_FORCE_FEEDBACK_CURL_APPLY_LOCATIONS_MNDX
+XR_TYPE_FOVEATED_VIEW_CONFIGURATION_VIEW_VARJO
+XR_TYPE_FOVEATION_APPLY_INFO_HTC
+XR_TYPE_FOVEATION_CUSTOM_MODE_INFO_HTC
+XR_TYPE_FOVEATION_DYNAMIC_MODE_INFO_HTC
+XR_TYPE_FOVEATION_EYE_TRACKED_PROFILE_CREATE_INFO_META
+XR_TYPE_FOVEATION_EYE_TRACKED_STATE_META
+XR_TYPE_FOVEATION_LEVEL_PROFILE_CREATE_INFO_FB
+XR_TYPE_FOVEATION_PROFILE_CREATE_INFO_FB
+XR_TYPE_FRAME_BEGIN_INFO
+XR_TYPE_FRAME_COMPOSITION_REPORT_EXT
+XR_TYPE_FRAME_END_INFO
+XR_TYPE_FRAME_END_INFO_ML
+XR_TYPE_FRAME_STATE
+XR_TYPE_FRAME_SYNTHESIS_CONFIG_VIEW_EXT
+XR_TYPE_FRAME_SYNTHESIS_INFO_EXT
+XR_TYPE_FRAME_WAIT_INFO
+XR_TYPE_FUTURE_CANCEL_INFO_EXT
+XR_TYPE_FUTURE_COMPLETION_EXT
+XR_TYPE_FUTURE_POLL_INFO_EXT
+XR_TYPE_FUTURE_POLL_RESULT_EXT
+XR_TYPE_FUTURE_POLL_RESULT_PROGRESS_BD
+XR_TYPE_GEOMETRY_INSTANCE_CREATE_INFO_FB
+XR_TYPE_GEOMETRY_INSTANCE_TRANSFORM_FB
+XR_TYPE_GLOBAL_DIMMER_FRAME_END_INFO_ML
+XR_TYPE_GRAPHICS_BINDING_D3D11_KHR
+XR_TYPE_GRAPHICS_BINDING_D3D12_KHR
+XR_TYPE_GRAPHICS_BINDING_EGL_MNDX
+XR_TYPE_GRAPHICS_BINDING_METAL_KHR
+XR_TYPE_GRAPHICS_BINDING_OPENGL_ES_ANDROID_KHR
+XR_TYPE_GRAPHICS_BINDING_OPENGL_WAYLAND_KHR
+XR_TYPE_GRAPHICS_BINDING_OPENGL_WIN32_KHR
+XR_TYPE_GRAPHICS_BINDING_OPENGL_XCB_KHR
+XR_TYPE_GRAPHICS_BINDING_OPENGL_XLIB_KHR
+XR_TYPE_GRAPHICS_BINDING_VULKAN_KHR
+XR_TYPE_GRAPHICS_REQUIREMENTS_D3D11_KHR
+XR_TYPE_GRAPHICS_REQUIREMENTS_D3D12_KHR
+XR_TYPE_GRAPHICS_REQUIREMENTS_METAL_KHR
+XR_TYPE_GRAPHICS_REQUIREMENTS_OPENGL_ES_KHR
+XR_TYPE_GRAPHICS_REQUIREMENTS_OPENGL_KHR
+XR_TYPE_GRAPHICS_REQUIREMENTS_VULKAN_KHR
+XR_TYPE_HAND_JOINTS_LOCATE_INFO_EXT
+XR_TYPE_HAND_JOINTS_MOTION_RANGE_INFO_EXT
+XR_TYPE_HAND_JOINT_LOCATIONS_EXT
+XR_TYPE_HAND_JOINT_VELOCITIES_EXT
+XR_TYPE_HAND_MESH_MSFT
+XR_TYPE_HAND_MESH_SPACE_CREATE_INFO_MSFT
+XR_TYPE_HAND_MESH_UPDATE_INFO_MSFT
+XR_TYPE_HAND_POSE_TYPE_INFO_MSFT
+XR_TYPE_HAND_TRACKER_CREATE_INFO_EXT
+XR_TYPE_HAND_TRACKING_AIM_STATE_FB
+XR_TYPE_HAND_TRACKING_CAPSULES_STATE_FB
+XR_TYPE_HAND_TRACKING_DATA_SOURCE_INFO_EXT
+XR_TYPE_HAND_TRACKING_DATA_SOURCE_STATE_EXT
+XR_TYPE_HAND_TRACKING_MESH_FB
+XR_TYPE_HAND_TRACKING_SCALE_FB
+XR_TYPE_HAPTIC_ACTION_INFO
+XR_TYPE_HAPTIC_AMPLITUDE_ENVELOPE_VIBRATION_FB
+XR_TYPE_HAPTIC_PCM_VIBRATION_FB
+XR_TYPE_HAPTIC_VIBRATION
+XR_TYPE_HOLOGRAPHIC_WINDOW_ATTACHMENT_MSFT
+XR_TYPE_INPUT_SOURCE_LOCALIZED_NAME_GET_INFO
+XR_TYPE_INSTANCE_CREATE_INFO
+XR_TYPE_INSTANCE_CREATE_INFO_ANDROID_KHR
+XR_TYPE_INSTANCE_PROPERTIES
+XR_TYPE_INTERACTION_PROFILE_ANALOG_THRESHOLD_VALVE
+XR_TYPE_INTERACTION_PROFILE_DPAD_BINDING_EXT
+XR_TYPE_INTERACTION_PROFILE_STATE
+XR_TYPE_INTERACTION_PROFILE_SUGGESTED_BINDING
+XR_TYPE_INTERACTION_RENDER_MODEL_IDS_ENUMERATE_INFO_EXT
+XR_TYPE_INTERACTION_RENDER_MODEL_SUBACTION_PATH_INFO_EXT
+XR_TYPE_INTERACTION_RENDER_MODEL_TOP_LEVEL_USER_PATH_GET_INFO_EXT
+XR_TYPE_KEYBOARD_SPACE_CREATE_INFO_FB
+XR_TYPE_KEYBOARD_TRACKING_QUERY_FB
+XR_TYPE_LIP_EXPRESSION_DATA_BD
+XR_TYPE_LOADER_INIT_INFO_ANDROID_KHR
+XR_TYPE_LOADER_INIT_INFO_PROPERTIES_EXT
+XR_TYPE_LOCALIZATION_ENABLE_EVENTS_INFO_ML
+XR_TYPE_LOCALIZATION_MAP_IMPORT_INFO_ML
+XR_TYPE_LOCALIZATION_MAP_ML
+XR_TYPE_LOCAL_DIMMING_FRAME_END_INFO_META
+XR_TYPE_MAP_LOCALIZATION_REQUEST_INFO_ML
+XR_TYPE_MARKER_DETECTOR_APRIL_TAG_INFO_ML
+XR_TYPE_MARKER_DETECTOR_ARUCO_INFO_ML
+XR_TYPE_MARKER_DETECTOR_CREATE_INFO_ML
+XR_TYPE_MARKER_DETECTOR_CUSTOM_PROFILE_INFO_ML
+XR_TYPE_MARKER_DETECTOR_SIZE_INFO_ML
+XR_TYPE_MARKER_DETECTOR_SNAPSHOT_INFO_ML
+XR_TYPE_MARKER_DETECTOR_STATE_ML
+XR_TYPE_MARKER_SPACE_CREATE_INFO_ML
+XR_TYPE_MARKER_SPACE_CREATE_INFO_VARJO
+XR_TYPE_NEW_SCENE_COMPUTE_INFO_MSFT
+XR_TYPE_PASSTHROUGH_BRIGHTNESS_CONTRAST_SATURATION_FB
+XR_TYPE_PASSTHROUGH_CAMERA_STATE_GET_INFO_ANDROID
+XR_TYPE_PASSTHROUGH_COLOR_HTC
+XR_TYPE_PASSTHROUGH_COLOR_LUT_CREATE_INFO_META
+XR_TYPE_PASSTHROUGH_COLOR_LUT_UPDATE_INFO_META
+XR_TYPE_PASSTHROUGH_COLOR_MAP_INTERPOLATED_LUT_META
+XR_TYPE_PASSTHROUGH_COLOR_MAP_LUT_META
+XR_TYPE_PASSTHROUGH_COLOR_MAP_MONO_TO_MONO_FB
+XR_TYPE_PASSTHROUGH_COLOR_MAP_MONO_TO_RGBA_FB
+XR_TYPE_PASSTHROUGH_CREATE_INFO_FB
+XR_TYPE_PASSTHROUGH_CREATE_INFO_HTC
+XR_TYPE_PASSTHROUGH_KEYBOARD_HANDS_INTENSITY_FB
+XR_TYPE_PASSTHROUGH_LAYER_CREATE_INFO_FB
+XR_TYPE_PASSTHROUGH_MESH_TRANSFORM_INFO_HTC
+XR_TYPE_PASSTHROUGH_PREFERENCES_META
+XR_TYPE_PASSTHROUGH_STYLE_FB
+XR_TYPE_PERFORMANCE_METRICS_COUNTER_META
+XR_TYPE_PERFORMANCE_METRICS_STATE_META
+XR_TYPE_PERSISTED_ANCHOR_SPACE_CREATE_INFO_ANDROID
+XR_TYPE_PERSISTED_ANCHOR_SPACE_INFO_ANDROID
+XR_TYPE_PERSIST_SPATIAL_ENTITY_COMPLETION_EXT
+XR_TYPE_PLANE_DETECTOR_BEGIN_INFO_EXT
+XR_TYPE_PLANE_DETECTOR_CREATE_INFO_EXT
+XR_TYPE_PLANE_DETECTOR_GET_INFO_EXT
+XR_TYPE_PLANE_DETECTOR_LOCATIONS_EXT
+XR_TYPE_PLANE_DETECTOR_LOCATION_EXT
+XR_TYPE_PLANE_DETECTOR_POLYGON_BUFFER_EXT
+XR_TYPE_QUERIED_SENSE_DATA_BD
+XR_TYPE_QUERIED_SENSE_DATA_GET_INFO_BD
+XR_TYPE_RAYCAST_HIT_RESULTS_ANDROID
+XR_TYPE_RAYCAST_INFO_ANDROID
+XR_TYPE_RECOMMENDED_LAYER_RESOLUTION_GET_INFO_META
+XR_TYPE_RECOMMENDED_LAYER_RESOLUTION_META
+XR_TYPE_REFERENCE_SPACE_CREATE_INFO
+XR_TYPE_RENDER_MODEL_ASSET_CREATE_INFO_EXT
+XR_TYPE_RENDER_MODEL_ASSET_DATA_EXT
+XR_TYPE_RENDER_MODEL_ASSET_DATA_GET_INFO_EXT
+XR_TYPE_RENDER_MODEL_ASSET_PROPERTIES_EXT
+XR_TYPE_RENDER_MODEL_ASSET_PROPERTIES_GET_INFO_EXT
+XR_TYPE_RENDER_MODEL_BUFFER_FB
+XR_TYPE_RENDER_MODEL_CAPABILITIES_REQUEST_FB
+XR_TYPE_RENDER_MODEL_CREATE_INFO_EXT
+XR_TYPE_RENDER_MODEL_LOAD_INFO_FB
+XR_TYPE_RENDER_MODEL_PATH_INFO_FB
+XR_TYPE_RENDER_MODEL_PROPERTIES_EXT
+XR_TYPE_RENDER_MODEL_PROPERTIES_FB
+XR_TYPE_RENDER_MODEL_PROPERTIES_GET_INFO_EXT
+XR_TYPE_RENDER_MODEL_SPACE_CREATE_INFO_EXT
+XR_TYPE_RENDER_MODEL_STATE_EXT
+XR_TYPE_RENDER_MODEL_STATE_GET_INFO_EXT
+XR_TYPE_ROOM_LAYOUT_FB
+XR_TYPE_SCENE_CAPTURE_INFO_BD
+XR_TYPE_SCENE_CAPTURE_REQUEST_INFO_FB
+XR_TYPE_SCENE_COMPONENTS_GET_INFO_MSFT
+XR_TYPE_SCENE_COMPONENTS_LOCATE_INFO_MSFT
+XR_TYPE_SCENE_COMPONENTS_MSFT
+XR_TYPE_SCENE_COMPONENT_LOCATIONS_MSFT
+XR_TYPE_SCENE_COMPONENT_PARENT_FILTER_INFO_MSFT
+XR_TYPE_SCENE_CREATE_INFO_MSFT
+XR_TYPE_SCENE_DESERIALIZE_INFO_MSFT
+XR_TYPE_SCENE_MARKERS_MSFT
+XR_TYPE_SCENE_MARKER_QR_CODES_MSFT
+XR_TYPE_SCENE_MARKER_TYPE_FILTER_MSFT
+XR_TYPE_SCENE_MESHES_MSFT
+XR_TYPE_SCENE_MESH_BUFFERS_GET_INFO_MSFT
+XR_TYPE_SCENE_MESH_BUFFERS_MSFT
+XR_TYPE_SCENE_MESH_INDICES_UINT16_MSFT
+XR_TYPE_SCENE_MESH_INDICES_UINT32_MSFT
+XR_TYPE_SCENE_MESH_VERTEX_BUFFER_MSFT
+XR_TYPE_SCENE_OBJECTS_MSFT
+XR_TYPE_SCENE_OBJECT_TYPES_FILTER_INFO_MSFT
+XR_TYPE_SCENE_OBSERVER_CREATE_INFO_MSFT
+XR_TYPE_SCENE_PLANES_MSFT
+XR_TYPE_SCENE_PLANE_ALIGNMENT_FILTER_INFO_MSFT
+XR_TYPE_SECONDARY_VIEW_CONFIGURATION_FRAME_END_INFO_MSFT
+XR_TYPE_SECONDARY_VIEW_CONFIGURATION_FRAME_STATE_MSFT
+XR_TYPE_SECONDARY_VIEW_CONFIGURATION_LAYER_INFO_MSFT
+XR_TYPE_SECONDARY_VIEW_CONFIGURATION_SESSION_BEGIN_INFO_MSFT
+XR_TYPE_SECONDARY_VIEW_CONFIGURATION_STATE_MSFT
+XR_TYPE_SECONDARY_VIEW_CONFIGURATION_SWAPCHAIN_CREATE_INFO_MSFT
+XR_TYPE_SEMANTIC_LABELS_FB
+XR_TYPE_SEMANTIC_LABELS_SUPPORT_INFO_FB
+XR_TYPE_SENSE_DATA_FILTER_PLANE_ORIENTATION_BD
+XR_TYPE_SENSE_DATA_FILTER_SEMANTIC_BD
+XR_TYPE_SENSE_DATA_FILTER_UUID_BD
+XR_TYPE_SENSE_DATA_PROVIDER_CREATE_INFO_BD
+XR_TYPE_SENSE_DATA_PROVIDER_CREATE_INFO_SPATIAL_MESH_BD
+XR_TYPE_SENSE_DATA_PROVIDER_START_INFO_BD
+XR_TYPE_SENSE_DATA_QUERY_COMPLETION_BD
+XR_TYPE_SENSE_DATA_QUERY_INFO_BD
+XR_TYPE_SERIALIZED_SCENE_FRAGMENT_DATA_GET_INFO_MSFT
+XR_TYPE_SESSION_ACTION_SETS_ATTACH_INFO
+XR_TYPE_SESSION_BEGIN_INFO
+XR_TYPE_SESSION_CREATE_INFO
+XR_TYPE_SESSION_CREATE_INFO_OVERLAY_EXTX
+XR_TYPE_SHARED_SPATIAL_ANCHOR_DOWNLOAD_INFO_BD
+XR_TYPE_SHARE_SPACES_INFO_META
+XR_TYPE_SHARE_SPACES_RECIPIENT_GROUPS_META
+XR_TYPE_SIMULTANEOUS_HANDS_AND_CONTROLLERS_TRACKING_PAUSE_INFO_META
+XR_TYPE_SIMULTANEOUS_HANDS_AND_CONTROLLERS_TRACKING_RESUME_INFO_META
+XR_TYPE_SPACES_ERASE_INFO_META
+XR_TYPE_SPACES_LOCATE_INFO
+XR_TYPE_SPACES_SAVE_INFO_META
+XR_TYPE_SPACE_COMPONENT_FILTER_INFO_FB
+XR_TYPE_SPACE_COMPONENT_STATUS_FB
+XR_TYPE_SPACE_COMPONENT_STATUS_SET_INFO_FB
+XR_TYPE_SPACE_CONTAINER_FB
+XR_TYPE_SPACE_DISCOVERY_INFO_META
+XR_TYPE_SPACE_DISCOVERY_RESULTS_META
+XR_TYPE_SPACE_DISCOVERY_RESULT_META
+XR_TYPE_SPACE_ERASE_INFO_FB
+XR_TYPE_SPACE_FILTER_COMPONENT_META
+XR_TYPE_SPACE_FILTER_UUID_META
+XR_TYPE_SPACE_GROUP_UUID_FILTER_INFO_META
+XR_TYPE_SPACE_LIST_SAVE_INFO_FB
+XR_TYPE_SPACE_LOCATION
+XR_TYPE_SPACE_LOCATIONS
+XR_TYPE_SPACE_QUERY_INFO_FB
+XR_TYPE_SPACE_QUERY_RESULTS_FB
+XR_TYPE_SPACE_SAVE_INFO_FB
+XR_TYPE_SPACE_SHARE_INFO_FB
+XR_TYPE_SPACE_STORAGE_LOCATION_FILTER_INFO_FB
+XR_TYPE_SPACE_TRIANGLE_MESH_GET_INFO_META
+XR_TYPE_SPACE_TRIANGLE_MESH_META
+XR_TYPE_SPACE_USER_CREATE_INFO_FB
+XR_TYPE_SPACE_UUID_FILTER_INFO_FB
+XR_TYPE_SPACE_VELOCITIES
+XR_TYPE_SPACE_VELOCITY
+XR_TYPE_SPATIAL_ANCHORS_CREATE_INFO_FROM_POSE_ML
+XR_TYPE_SPATIAL_ANCHORS_CREATE_INFO_FROM_UUIDS_ML
+XR_TYPE_SPATIAL_ANCHORS_CREATE_STORAGE_INFO_ML
+XR_TYPE_SPATIAL_ANCHORS_DELETE_COMPLETION_DETAILS_ML
+XR_TYPE_SPATIAL_ANCHORS_DELETE_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_DELETE_INFO_ML
+XR_TYPE_SPATIAL_ANCHORS_PUBLISH_COMPLETION_DETAILS_ML
+XR_TYPE_SPATIAL_ANCHORS_PUBLISH_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_PUBLISH_INFO_ML
+XR_TYPE_SPATIAL_ANCHORS_QUERY_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_QUERY_INFO_RADIUS_ML
+XR_TYPE_SPATIAL_ANCHORS_UPDATE_EXPIRATION_COMPLETION_DETAILS_ML
+XR_TYPE_SPATIAL_ANCHORS_UPDATE_EXPIRATION_COMPLETION_ML
+XR_TYPE_SPATIAL_ANCHORS_UPDATE_EXPIRATION_INFO_ML
+XR_TYPE_SPATIAL_ANCHOR_CREATE_COMPLETION_BD
+XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_BD
+XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_EXT
+XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_FB
+XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_HTC
+XR_TYPE_SPATIAL_ANCHOR_CREATE_INFO_MSFT
+XR_TYPE_SPATIAL_ANCHOR_FROM_PERSISTED_ANCHOR_CREATE_INFO_MSFT
+XR_TYPE_SPATIAL_ANCHOR_PERSISTENCE_INFO_MSFT
+XR_TYPE_SPATIAL_ANCHOR_PERSIST_INFO_BD
+XR_TYPE_SPATIAL_ANCHOR_SHARE_INFO_BD
+XR_TYPE_SPATIAL_ANCHOR_SPACE_CREATE_INFO_MSFT
+XR_TYPE_SPATIAL_ANCHOR_STATE_ML
+XR_TYPE_SPATIAL_ANCHOR_UNPERSIST_INFO_BD
+XR_TYPE_SPATIAL_BUFFER_GET_INFO_EXT
+XR_TYPE_SPATIAL_CAPABILITY_COMPONENT_TYPES_EXT
+XR_TYPE_SPATIAL_CAPABILITY_CONFIGURATION_ANCHOR_EXT
+XR_TYPE_SPATIAL_CAPABILITY_CONFIGURATION_APRIL_TAG_EXT
+XR_TYPE_SPATIAL_CAPABILITY_CONFIGURATION_ARUCO_MARKER_EXT
+XR_TYPE_SPATIAL_CAPABILITY_CONFIGURATION_MICRO_QR_CODE_EXT
+XR_TYPE_SPATIAL_CAPABILITY_CONFIGURATION_PLANE_TRACKING_EXT
+XR_TYPE_SPATIAL_CAPABILITY_CONFIGURATION_QR_CODE_EXT
+XR_TYPE_SPATIAL_COMPONENT_ANCHOR_LIST_EXT
+XR_TYPE_SPATIAL_COMPONENT_BOUNDED_2D_LIST_EXT
+XR_TYPE_SPATIAL_COMPONENT_BOUNDED_3D_LIST_EXT
+XR_TYPE_SPATIAL_COMPONENT_DATA_QUERY_CONDITION_EXT
+XR_TYPE_SPATIAL_COMPONENT_DATA_QUERY_RESULT_EXT
+XR_TYPE_SPATIAL_COMPONENT_MARKER_LIST_EXT
+XR_TYPE_SPATIAL_COMPONENT_MESH_2D_LIST_EXT
+XR_TYPE_SPATIAL_COMPONENT_MESH_3D_LIST_EXT
+XR_TYPE_SPATIAL_COMPONENT_PARENT_LIST_EXT
+XR_TYPE_SPATIAL_COMPONENT_PERSISTENCE_LIST_EXT
+XR_TYPE_SPATIAL_COMPONENT_PLANE_ALIGNMENT_LIST_EXT
+XR_TYPE_SPATIAL_COMPONENT_PLANE_SEMANTIC_LABEL_LIST_EXT
+XR_TYPE_SPATIAL_COMPONENT_POLYGON_2D_LIST_EXT
+XR_TYPE_SPATIAL_CONTEXT_CREATE_INFO_EXT
+XR_TYPE_SPATIAL_CONTEXT_PERSISTENCE_CONFIG_EXT
+XR_TYPE_SPATIAL_DISCOVERY_PERSISTENCE_UUID_FILTER_EXT
+XR_TYPE_SPATIAL_DISCOVERY_SNAPSHOT_CREATE_INFO_EXT
+XR_TYPE_SPATIAL_ENTITY_ANCHOR_CREATE_INFO_BD
+XR_TYPE_SPATIAL_ENTITY_COMPONENT_DATA_BOUNDING_BOX_2D_BD
+XR_TYPE_SPATIAL_ENTITY_COMPONENT_DATA_BOUNDING_BOX_3D_BD
+XR_TYPE_SPATIAL_ENTITY_COMPONENT_DATA_LOCATION_BD
+XR_TYPE_SPATIAL_ENTITY_COMPONENT_DATA_PLANE_ORIENTATION_BD
+XR_TYPE_SPATIAL_ENTITY_COMPONENT_DATA_POLYGON_BD
+XR_TYPE_SPATIAL_ENTITY_COMPONENT_DATA_SEMANTIC_BD
+XR_TYPE_SPATIAL_ENTITY_COMPONENT_DATA_TRIANGLE_MESH_BD
+XR_TYPE_SPATIAL_ENTITY_COMPONENT_GET_INFO_BD
+XR_TYPE_SPATIAL_ENTITY_FROM_ID_CREATE_INFO_EXT
+XR_TYPE_SPATIAL_ENTITY_LOCATION_GET_INFO_BD
+XR_TYPE_SPATIAL_ENTITY_PERSIST_INFO_EXT
+XR_TYPE_SPATIAL_ENTITY_STATE_BD
+XR_TYPE_SPATIAL_ENTITY_UNPERSIST_INFO_EXT
+XR_TYPE_SPATIAL_FILTER_TRACKING_STATE_EXT
+XR_TYPE_SPATIAL_GRAPH_NODE_BINDING_PROPERTIES_GET_INFO_MSFT
+XR_TYPE_SPATIAL_GRAPH_NODE_BINDING_PROPERTIES_MSFT
+XR_TYPE_SPATIAL_GRAPH_NODE_SPACE_CREATE_INFO_MSFT
+XR_TYPE_SPATIAL_GRAPH_STATIC_NODE_BINDING_CREATE_INFO_MSFT
+XR_TYPE_SPATIAL_MARKER_SIZE_EXT
+XR_TYPE_SPATIAL_MARKER_STATIC_OPTIMIZATION_EXT
+XR_TYPE_SPATIAL_PERSISTENCE_CONTEXT_CREATE_INFO_EXT
+XR_TYPE_SPATIAL_UPDATE_SNAPSHOT_CREATE_INFO_EXT
+XR_TYPE_SWAPCHAIN_CREATE_INFO
+XR_TYPE_SWAPCHAIN_CREATE_INFO_FOVEATION_FB
+XR_TYPE_SWAPCHAIN_IMAGE_ACQUIRE_INFO
+XR_TYPE_SWAPCHAIN_IMAGE_D3D11_KHR
+XR_TYPE_SWAPCHAIN_IMAGE_D3D12_KHR
+XR_TYPE_SWAPCHAIN_IMAGE_FOVEATION_VULKAN_FB
+XR_TYPE_SWAPCHAIN_IMAGE_METAL_KHR
+XR_TYPE_SWAPCHAIN_IMAGE_OPENGL_ES_KHR
+XR_TYPE_SWAPCHAIN_IMAGE_OPENGL_KHR
+XR_TYPE_SWAPCHAIN_IMAGE_RELEASE_INFO
+XR_TYPE_SWAPCHAIN_IMAGE_VULKAN_KHR
+XR_TYPE_SWAPCHAIN_IMAGE_WAIT_INFO
+XR_TYPE_SWAPCHAIN_STATE_ANDROID_SURFACE_DIMENSIONS_FB
+XR_TYPE_SWAPCHAIN_STATE_FOVEATION_FB
+XR_TYPE_SWAPCHAIN_STATE_SAMPLER_OPENGL_ES_FB
+XR_TYPE_SWAPCHAIN_STATE_SAMPLER_VULKAN_FB
+XR_TYPE_SYSTEM_ANCHOR_PROPERTIES_HTC
+XR_TYPE_SYSTEM_ANCHOR_SHARING_EXPORT_PROPERTIES_ANDROID
+XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_BD
+XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_FB
+XR_TYPE_SYSTEM_BODY_TRACKING_PROPERTIES_HTC
+XR_TYPE_SYSTEM_COLOCATION_DISCOVERY_PROPERTIES_META
+XR_TYPE_SYSTEM_COLOR_SPACE_PROPERTIES_FB
+XR_TYPE_SYSTEM_DEVICE_ANCHOR_PERSISTENCE_PROPERTIES_ANDROID
+XR_TYPE_SYSTEM_ENVIRONMENT_DEPTH_PROPERTIES_META
+XR_TYPE_SYSTEM_EYE_GAZE_INTERACTION_PROPERTIES_EXT
+XR_TYPE_SYSTEM_EYE_TRACKING_PROPERTIES_FB
+XR_TYPE_SYSTEM_FACE_TRACKING_PROPERTIES2_FB
+XR_TYPE_SYSTEM_FACE_TRACKING_PROPERTIES_ANDROID
+XR_TYPE_SYSTEM_FACE_TRACKING_PROPERTIES_FB
+XR_TYPE_SYSTEM_FACIAL_EXPRESSION_PROPERTIES_ML
+XR_TYPE_SYSTEM_FACIAL_SIMULATION_PROPERTIES_BD
+XR_TYPE_SYSTEM_FACIAL_TRACKING_PROPERTIES_HTC
+XR_TYPE_SYSTEM_FORCE_FEEDBACK_CURL_PROPERTIES_MNDX
+XR_TYPE_SYSTEM_FOVEATED_RENDERING_PROPERTIES_VARJO
+XR_TYPE_SYSTEM_FOVEATION_EYE_TRACKED_PROPERTIES_META
+XR_TYPE_SYSTEM_GET_INFO
+XR_TYPE_SYSTEM_HAND_TRACKING_MESH_PROPERTIES_MSFT
+XR_TYPE_SYSTEM_HAND_TRACKING_PROPERTIES_EXT
+XR_TYPE_SYSTEM_HEADSET_ID_PROPERTIES_META
+XR_TYPE_SYSTEM_KEYBOARD_TRACKING_PROPERTIES_FB
+XR_TYPE_SYSTEM_MARKER_TRACKING_PROPERTIES_ANDROID
+XR_TYPE_SYSTEM_MARKER_TRACKING_PROPERTIES_VARJO
+XR_TYPE_SYSTEM_MARKER_UNDERSTANDING_PROPERTIES_ML
+XR_TYPE_SYSTEM_NOTIFICATIONS_SET_INFO_ML
+XR_TYPE_SYSTEM_PASSTHROUGH_CAMERA_STATE_PROPERTIES_ANDROID
+XR_TYPE_SYSTEM_PASSTHROUGH_COLOR_LUT_PROPERTIES_META
+XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES2_FB
+XR_TYPE_SYSTEM_PASSTHROUGH_PROPERTIES_FB
+XR_TYPE_SYSTEM_PLANE_DETECTION_PROPERTIES_EXT
+XR_TYPE_SYSTEM_PROPERTIES
+XR_TYPE_SYSTEM_PROPERTIES_BODY_TRACKING_CALIBRATION_META
+XR_TYPE_SYSTEM_PROPERTIES_BODY_TRACKING_FULL_BODY_META
+XR_TYPE_SYSTEM_RENDER_MODEL_PROPERTIES_FB
+XR_TYPE_SYSTEM_SIMULTANEOUS_HANDS_AND_CONTROLLERS_PROPERTIES_META
+XR_TYPE_SYSTEM_SPACE_DISCOVERY_PROPERTIES_META
+XR_TYPE_SYSTEM_SPACE_PERSISTENCE_PROPERTIES_META
+XR_TYPE_SYSTEM_SPACE_WARP_PROPERTIES_FB
+XR_TYPE_SYSTEM_SPATIAL_ANCHOR_PROPERTIES_BD
+XR_TYPE_SYSTEM_SPATIAL_ANCHOR_SHARING_PROPERTIES_BD
+XR_TYPE_SYSTEM_SPATIAL_ENTITY_GROUP_SHARING_PROPERTIES_META
+XR_TYPE_SYSTEM_SPATIAL_ENTITY_PROPERTIES_FB
+XR_TYPE_SYSTEM_SPATIAL_ENTITY_SHARING_PROPERTIES_META
+XR_TYPE_SYSTEM_SPATIAL_MESH_PROPERTIES_BD
+XR_TYPE_SYSTEM_SPATIAL_PLANE_PROPERTIES_BD
+XR_TYPE_SYSTEM_SPATIAL_SCENE_PROPERTIES_BD
+XR_TYPE_SYSTEM_SPATIAL_SENSING_PROPERTIES_BD
+XR_TYPE_SYSTEM_TRACKABLES_PROPERTIES_ANDROID
+XR_TYPE_SYSTEM_USER_PRESENCE_PROPERTIES_EXT
+XR_TYPE_SYSTEM_VIRTUAL_KEYBOARD_PROPERTIES_META
+XR_TYPE_TIMING_UTILS_LABEL_INFO_VALVE
+XR_TYPE_TRACKABLE_GET_INFO_ANDROID
+XR_TYPE_TRACKABLE_MARKER_ANDROID
+XR_TYPE_TRACKABLE_MARKER_CONFIGURATION_ANDROID
+XR_TYPE_TRACKABLE_OBJECT_ANDROID
+XR_TYPE_TRACKABLE_OBJECT_CONFIGURATION_ANDROID
+XR_TYPE_TRACKABLE_PLANE_ANDROID
+XR_TYPE_TRACKABLE_TRACKER_CREATE_INFO_ANDROID
+XR_TYPE_TRIANGLE_MESH_CREATE_INFO_FB
+XR_TYPE_UNKNOWN
+XR_TYPE_UNPERSIST_SPATIAL_ENTITY_COMPLETION_EXT
+XR_TYPE_USER_CALIBRATION_ENABLE_EVENTS_INFO_ML
+XR_TYPE_VIEW
+XR_TYPE_VIEW_CONFIGURATION_DEPTH_RANGE_EXT
+XR_TYPE_VIEW_CONFIGURATION_PROPERTIES
+XR_TYPE_VIEW_CONFIGURATION_VIEW
+XR_TYPE_VIEW_CONFIGURATION_VIEW_FOV_EPIC
+XR_TYPE_VIEW_LOCATE_FOVEATED_RENDERING_VARJO
+XR_TYPE_VIEW_LOCATE_INFO
+XR_TYPE_VIEW_STATE
+XR_TYPE_VIRTUAL_KEYBOARD_ANIMATION_STATE_META
+XR_TYPE_VIRTUAL_KEYBOARD_CREATE_INFO_META
+XR_TYPE_VIRTUAL_KEYBOARD_INPUT_INFO_META
+XR_TYPE_VIRTUAL_KEYBOARD_LOCATION_INFO_META
+XR_TYPE_VIRTUAL_KEYBOARD_MODEL_ANIMATION_STATES_META
+XR_TYPE_VIRTUAL_KEYBOARD_MODEL_VISIBILITY_SET_INFO_META
+XR_TYPE_VIRTUAL_KEYBOARD_SPACE_CREATE_INFO_META
+XR_TYPE_VIRTUAL_KEYBOARD_TEXTURE_DATA_META
+XR_TYPE_VIRTUAL_KEYBOARD_TEXT_CONTEXT_CHANGE_INFO_META
+XR_TYPE_VISIBILITY_MASK_KHR
+XR_TYPE_VISUAL_MESH_COMPUTE_LOD_INFO_MSFT
+XR_TYPE_VIVE_TRACKER_PATHS_HTCX
+XR_TYPE_VULKAN_DEVICE_CREATE_INFO_KHR
+XR_TYPE_VULKAN_GRAPHICS_DEVICE_GET_INFO_KHR
+XR_TYPE_VULKAN_INSTANCE_CREATE_INFO_KHR
+XR_TYPE_VULKAN_SWAPCHAIN_CREATE_INFO_META
+XR_TYPE_VULKAN_SWAPCHAIN_FORMAT_LIST_CREATE_INFO_KHR
+XR_TYPE_WORLD_MESH_BLOCK_ML
+XR_TYPE_WORLD_MESH_BLOCK_REQUEST_ML
+XR_TYPE_WORLD_MESH_BLOCK_STATE_ML
+XR_TYPE_WORLD_MESH_BUFFER_ML
+XR_TYPE_WORLD_MESH_BUFFER_RECOMMENDED_SIZE_INFO_ML
+XR_TYPE_WORLD_MESH_BUFFER_SIZE_ML
+XR_TYPE_WORLD_MESH_DETECTOR_CREATE_INFO_ML
+XR_TYPE_WORLD_MESH_GET_INFO_ML
+XR_TYPE_WORLD_MESH_REQUEST_COMPLETION_INFO_ML
+XR_TYPE_WORLD_MESH_REQUEST_COMPLETION_ML
+XR_TYPE_WORLD_MESH_STATE_REQUEST_COMPLETION_ML
+XR_TYPE_WORLD_MESH_STATE_REQUEST_INFO_ML
+XR_UNKNOWN_FAILURE_%d
+XR_UNKNOWN_STRUCTURE_TYPE_%d
+XR_UNKNOWN_SUCCESS_%d
 XXXX PNG chunk not known
 XrProto:CPU Pred %.1f Total Pred:%.1f Last CPU %d Now %d Next CPU %d Next GPU %d Sim %d%s [Last CPU %.4f GPU %.4f]\n
 XrProto:NewFrameIdx=%d Id=%d Vsync=%d
@@ -26376,6 +27119,7 @@ XrProto:event:timeout!
 XrProto:loop:timeout!
 XrProto:suspended
 Zjz\v
+[%s] %s=%llu tgid=%d file=%s %s
 [AnimSkeleton] Failed to load GLTF file: %s
 [CDownsampleRenderer] Allocated MSAA Temp texture %dx%d\n
 [CDownsampleRenderer] Allocated MSAA resolve texture %dx%d\n
@@ -26397,17 +27141,6 @@ Zjz\v
 [CMsaaResolveRenderer] Failed to create rasterizer state!\n
 [CMsaaResolveRenderer] Failed to create sampler state!\n
 [CMsaaResolveRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!\n
-[CVRCVTrackedHmdInternal] Driver inactive, request of type %d cannot be sent
-[CVRCVTrackedHmdInternal] Failed to set the new-request event (error code %d)
-[CVRCVTrackedHmdInternal] Failed to wait for the request to be processed (error code: %d).
-[CVRCVTrackedHmdInternal] GetRemoteDongleTimeForDevice failed with error %d
-[CVRCVTrackedHmdInternal] GetXRTimeFromDongleDeviceTime failed with error %d
-[CVRCVTrackedHmdInternal] Invalid application type.
-[CVRCVTrackedHmdInternal] Invalid driver state, we cannot send the request of type %d. (active:%d processing:%d valid seq:%d)
-[CVRCVTrackedHmdInternal] New-request event initialization failed
-[CVRCVTrackedHmdInternal] Request-processed event initialization failed
-[CVRCVTrackedHmdInternal] Shared state initialization failed
-[CVRCVTrackedHmdInternal] Timeout reached when waiting for the request to be processed. The driver might have become unreachable.
 [CVRCameraPassthroughInternal] Failed to create the CSharedImageLinux
 [CVRCameraPassthroughInternal] Failed to receive the shared image resource file descriptor.
 [CVRCameraPassthroughInternal] Failed to reference the shared image resource.
@@ -26416,16 +27149,10 @@ Zjz\v
 [Compatibility Mode] Could not get overlay interface. %d\n
 [Compatibility Mode] Notification failed: %d\n
 [Compatibility Mode] Overlay creation failed: %s\n
-[Compositor Client] AcquireSync
 [Compositor Client] ClientToCompositorSyncSignal:%d(%s)
 [Compositor Client] CompositorToClientSyncWait:%d(%s)
-[Compositor Client] EndCommandBuffer
-[Compositor Client] Flush (Vulkan)
-[Compositor Client] GetFrameTiming
 [Compositor Client] Large mismatch between render (%d) and simulation (%d) poses!\n
-[Compositor Client] PostPresentHandoff
 [Compositor Client] Received Idx=%d Id=%d
-[Compositor Client] ReleaseSync
 [Compositor Client] Repredicting render poses (%d) to match simulation (%d)\n
 [Compositor Client] SceneTextureIndex=%d Id=%d Target=%d Predicted=%d Flags=(%d|%d)
 [Compositor Client] Submit (suspended)
@@ -26434,11 +27161,8 @@ Zjz\v
 [Compositor Client] Submit Left (duplicate)
 [Compositor Client] Submit Right
 [Compositor Client] Submit Right (duplicate)
-[Compositor Client] SubmitExplicitTimingData
 [Compositor Client] SubmitTextureSetInfo: %d[%llx] pid=%d
 [Compositor Client] Timed out waiting for handoff!
-[Compositor Client] WaitGetPoses ThreadId=%d
-[Compositor Client] WaitSemaphore: %llu
 [Desktop Entry]\nName=
 [GetVideoStreamFrame] Read (%d)
 [GetVideoStreamTextureGL] Read (%d)
@@ -26640,7 +27364,6 @@ Zjz\v
 [Input] UpdateActionState cannot execute because we don't have a config yet.\n
 [Input] Wanted to store %u global priority inputs, but only had space for %u\n
 [KeyFramedDataResource] Failed to load GLTF file: %s
-[Overlay] WaitFrameSync[%d]
 [Oxrtools] Aborting attempt to set SteamVR as the active runtime, it is already set.
 [PROBLEM] Saving Path Registry failed: 
 [Settings] %s %s unknown type\n
@@ -26653,7 +27376,7 @@ Zjz\v
 [Settings] Unable to load driver defaults from %s\n
 [Settings] Unable to read path registry...\n
 [Settings] Using default values. No Json Settings available at %s\n
-[Simulation] Clearing device %d override properties\n
+[Simulation] Clearing overridden properties for all devices\n
 [Simulation] Could not resolve %%LocalAppData%% in input profile simulation settings for %s. Skipping %s override. \n 
 [Simulation] Error in input profile simulation settings for %s. Missing property: %s \n 
 [Simulation] Error in input profile simulation settings. Likely invalid controller type. Aborting simulation. \n 
@@ -26672,12 +27395,11 @@ Zjz\v
 [Tutorial] Adding tutorial action set %s twice!\n
 [Tutorial] Failed to generate action set handle for per-input tutorial action set\n
 [Tutorial] Found input path with unexpected prefix: %s\n
+[UUID] Failed to convert string to UUID
 [VirtualDisplay] Present took to long!
 [abi:
 [json.exception.
 [libprotobuf %s %s:%d] %s\n
-[vrclient] CLegacyInput::RunInputFrame
-[vrclient] CVRInputLatest::UpdateActionState
 \nComment=Application for the 
 \nComment=URI handler for 
 \nDDS 
@@ -26822,8 +27544,8 @@ _Unwind_Resume_or_Rethrow.cold
 _Unwind_SetGR
 _Unwind_SetGR.cold
 _Unwind_SetIP
-_ZGRZN25CVRControllerTypeBindings32EraseOverridePropertiesForDeviceEyE13intProperties_
-_ZGRZN25CVRControllerTypeBindings32EraseOverridePropertiesForDeviceEyE16stringProperties_
+_ZGRZNK14CVRInputLatest32EraseOverridePropertiesForDeviceEjE13intProperties_
+_ZGRZNK14CVRInputLatest32EraseOverridePropertiesForDeviceEjE16stringProperties_
 __FRAME_END__
 __TMC_END__
 __TMC_LIST__
@@ -26907,7 +27629,6 @@ __fprintf_chk
 __frame_dummy_init_array_entry
 __frame_state_for
 __freelocale
-__fxstat
 __fxstat64
 __gcclibcxx_demangle_callback
 __gmon_start__
@@ -27038,7 +27759,6 @@ __x86.get_pc_thunk.cx
 __x86.get_pc_thunk.di
 __x86.get_pc_thunk.dx
 __x86.get_pc_thunk.si
-__xstat
 __xstat64
 _edata
 _end
@@ -27119,7 +27839,7 @@ alnum
 alpha
 alphaCutoff
 alphaMode
-alphasort
+alphasort64
 alse
 alwaysActivate
 alwaysEnableSteamInput
@@ -27288,6 +28008,7 @@ basic_string::insert
 basic_string::replace
 basic_string::resize
 basic_string::substr
+begin_ctx
 bf_read::CheckReadUBitLong(int)
 bf_read::CompareBitsAt(int, bf_read*, int, int)
 bf_read::ExciseBits(int, int)
@@ -27423,7 +28144,6 @@ bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Settings_GetString_Response>(unsign
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Settings_GetValueType_Response>(unsigned int, unsigned int, CVRMsg_Settings_GetValueType_Response&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_Settings_SetValue_Response>(unsigned int, unsigned int, CVRMsg_Settings_SetValue_Response&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ShouldKillTheaterPancakeProcessResponse>(unsigned int, unsigned int, CVRMsg_ShouldKillTheaterPancakeProcessResponse&, unsigned int)
-bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_ShutdownSystemResponse>(unsigned int, unsigned int, CVRMsg_ShutdownSystemResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse>(unsigned int, unsigned int, CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_TrackedCamera_EnableResponse>(unsigned int, unsigned int, CVRMsg_TrackedCamera_EnableResponse&, unsigned int)
 bool CIPCPipe::ReceiveProtobufMessage<CVRMsg_TrackedCamera_GetDistortionResponse>(unsigned int, unsigned int, CVRMsg_TrackedCamera_GetDistortionResponse&, unsigned int)
@@ -27588,6 +28308,7 @@ capsense_enable_threshold
 capsense_source
 carriage-return
 category
+ceilf
 center
 center_click
 center_region
@@ -27900,6 +28621,7 @@ enableLegacyGameTheater
 enableYAMLCompatibility
 enabled
 end of input
+end_ctx
 english
 entries
 equals-sign
@@ -27969,6 +28691,7 @@ five
 float
 float __gnu_cxx::__stoa<float, float, char>(float (*)(char const*, char**), char const*, char const*, unsigned int*)
 flock
+floorf
 fmodf
 fopen
 fopen64
@@ -28009,8 +28732,8 @@ fseek
 fseeko64
 ftell
 ftello64
-ftruncate
 ftruncate of %s, %d, %u failed: %d
+ftruncate64
 full
 futex robust_list not initialized by pthreads
 futex robust_list not pthreads-compatible
@@ -28212,6 +28935,7 @@ g_pVRBlockQueue
 g_pVRCameraPassthroughInternal
 g_pVRChaperone
 g_pVRChaperoneInternal
+g_pVRChaperoneServerDriver
 g_pVRChaperoneSetup
 g_pVRClientInternal
 g_pVRControlPanel
@@ -28259,7 +28983,7 @@ getpid
 getppid
 getpriority
 getpwnam_r
-getrlimit
+getrlimit64
 gettext
 gettimeofday
 getuid
@@ -28604,6 +29328,7 @@ guard variable for CVRInputLatest::GetSkeletonBoneDataForHand(vr::EVRHandSide, v
 guard variable for CVRInputLatest::UpdateActionState(vr::VRActiveActionSet_t*, unsigned int, unsigned int)::k_pathActiveActionSets
 guard variable for CVRLog::InitLog(char const*, char const*, bool, unsigned int)::sb_combinedLogging
 guard variable for CVRScreenshotsLatest::UpdateScreenshotProgress(unsigned int, float)::sflLastLog
+guard variable for CVRSystemLatest::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)::s_bDisableFovJitter
 guard variable for CVRSystemLatest::GetRuntimeVersion()::s_sVersion
 guard variable for CVRSystemLatest::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)::k_ulHapticRequestEnforcedDelayMS
 guard variable for CVulkanVRRenderer::GetDmabufModifiers(vr::EVRApplicationType, unsigned int) const::k_InvalidMod
@@ -28901,6 +29626,7 @@ k_eControllerAxis_Trigger
 k_pathChaperoneBoundsHash
 k_pathChaperoneCollisionRadius
 k_pathChaperoneIsDefaultPerimeter
+k_pathChaperoneLastRelocalizationTime
 k_pathChaperonePerimeter
 k_pathChaperonePlayArea
 k_pathChaperoneRoomSetupDone
@@ -28910,7 +29636,6 @@ k_pathChaperoneShowingWorkingPid
 k_pathChaperoneStandingTransform
 k_pathChaperoneState
 k_pathChaperoneTemporaryPlayingOutsidePlayspaceTime
-k_pathChaperoneTrackingAnchored
 k_pchCameraComponentPrefix
 k_pchControllerComponentPrefix
 k_pchDisplayComponentPrefix
@@ -28976,6 +29701,7 @@ libm.so.6
 libpthread.so.0
 library_path
 librt.so.1
+libuuid.so.1
 libvulkan.so
 libvulkan.so.1
 light
@@ -29072,8 +29798,8 @@ missing controller_type in default binding
 mkdir
 mkdtemp
 mktime
-mmap
 mmap of %s failed: %d
+mmap64
 mode
 modelnumber
 modelskins
@@ -29084,13 +29810,18 @@ mt19937
 mtllib
 multiple IHDR
 munmap
+nFenceValue=%llu
+nHeight <= extents.m_nHeight
 nMaxLatency < MAX_BLOCKING_VSYNC_INTERVALS
 nNumCoordinates > 0
+nOverlayVSyncIndex=%d
 nParentBoneIndex != k_unInvalidBoneIndex
 nProcessId == data->m_nSceneFocusProcessId
+nWidth <= extents.m_nWidth
 name
 name_only
 nanosleep
+nativeTexture != nullptr
 nb_no
 new 
 new[]
@@ -29488,11 +30219,13 @@ non-virtual thunk to CVRSystemLatest::GetDriverRecommendedRenderTargetSize(unsig
 non-virtual thunk to CVRSystemLatest::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
 non-virtual thunk to CVRSystemLatest::GetEyeToHeadTransformCompositorResidual(vr::EVREye)
 non-virtual thunk to CVRSystemLatest::GetEyeTrackedFoveationCenter(vr::HmdVector2_t*, vr::HmdVector2_t*)
+non-virtual thunk to CVRSystemLatest::GetEyeTrackedFoveationCenterForProjection(vr::HmdMatrix44_t const&, vr::HmdVector2_t*)
 non-virtual thunk to CVRSystemLatest::GetHoverTargetOverlay()
 non-virtual thunk to CVRSystemLatest::GetLastQueriedApplicationProjectionMatrix(vr::EVREye)
 non-virtual thunk to CVRSystemLatest::GetLatestGazePoint(vr::HmdVector3_t*, vr::ETrackingUniverseOrigin) const
 non-virtual thunk to CVRSystemLatest::GetMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int)
 non-virtual thunk to CVRSystemLatest::GetRawProjectionMatrix(vr::EVREye, float, float)
+non-virtual thunk to CVRSystemLatest::GetRawProjectionTanAngles(vr::EVREye, float*, float*, float*, float*)
 non-virtual thunk to CVRSystemLatest::GetRemoteFrameTimings(vr::Compositor_FrameTiming*, unsigned int)
 non-virtual thunk to CVRSystemLatest::GetTrackedDeviceClassUnmodified(unsigned int)
 non-virtual thunk to CVRSystemLatest::GetTrackingRecordingPath(char*, unsigned int) const
@@ -29614,7 +30347,7 @@ on/x
 on/y
 once_regsizes.9076
 only 8-bit
-open
+open64
 opendir
 openvr
 openvr.component.vrserver
@@ -29829,7 +30562,7 @@ read_encoded_value_with_base
 read_encoded_value_with_base(unsigned char, unsigned int, unsigned char const*, unsigned int*)
 read_encoded_value_with_base(unsigned char, unsigned int, unsigned char const*, unsigned int*) (.cold)
 read_encoded_value_with_base.cold
-readdir
+readdir64
 readlink
 realloc
 realpath
@@ -29943,7 +30676,7 @@ scalar_scaleandoffset
 scalar_translation
 scale
 scale_sao_%s%s%s
-scandir
+scandir64
 scene
 scenes
 sched_get_priority_max
@@ -29982,7 +30715,7 @@ set_overlay_from_file_response
 setenv
 setlocale
 setpriority
-setrlimit
+setrlimit64
 setsid
 settings
 settings/desktop
@@ -29991,6 +30724,7 @@ setvbuf
 seven
 sg_bAcquireSyncInPresent
 sg_bAcquireSyncInSubmit
+shaders/vulkan/contrast_cs.spv
 shaders/vulkan/distort_bounds_color_ps.spv
 shaders/vulkan/distort_cs.spv
 shaders/vulkan/distort_cs_mc.spv
@@ -30072,6 +30806,7 @@ shaders/vulkan/distort_vs_latest_nd.spv
 shaders/vulkan/distort_vs_layered.spv
 shaders/vulkan/distort_vs_layered_nd.spv
 shaders/vulkan/distort_vs_nd.spv
+shaders/vulkan/distort_vs_reproject_fv.spv
 shaders/vulkan/distort_vs_reproject_layered.spv
 shaders/vulkan/distort_vs_reproject_layered_nd.spv
 shaders/vulkan/distort_vs_reproject_mv.spv
@@ -30649,13 +31384,13 @@ std::_Rb_tree<CVRControllerTypeBindings*, std::pair<CVRControllerTypeBindings* c
 std::_Rb_tree<CVRControllerTypeBindings*, std::pair<CVRControllerTypeBindings* const, std::set<std::string, std::less<std::string>, std::allocator<std::string>>>, std::_Select1st<std::pair<CVRControllerTypeBindings* const, std::set<std::string, std::less<std::string>, std::allocator<std::string>>>>, std::less<CVRControllerTypeBindings*>, std::allocator<std::pair<CVRControllerTypeBindings* const, std::set<std::string, std::less<std::string>, std::allocator<std::string>>>>>::_M_get_insert_unique_pos(CVRControllerTypeBindings* const&)
 std::_Rb_tree<CVulkanVRRenderer::FramebufferState_t, std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long>, std::_Select1st<std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long>>, std::less<CVulkanVRRenderer::FramebufferState_t>, std::allocator<std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long>>>::_M_erase(std::_Rb_tree_node<std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long>>*)
 std::_Rb_tree<CVulkanVRRenderer::RenderPassState_t, std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long>, std::_Select1st<std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long>>, std::less<CVulkanVRRenderer::RenderPassState_t>, std::allocator<std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long>>>::_M_erase(std::_Rb_tree_node<std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long>>*)
+std::_Rb_tree<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t, std::pair<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t const, VulkanVRRenderer::Texture*>, std::_Select1st<std::pair<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t const, VulkanVRRenderer::Texture*>>, CVulkanVRRenderer::VulkanNativeTextureCompare_t, std::allocator<std::pair<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t const, VulkanVRRenderer::Texture*>>>::_M_erase(std::_Rb_tree_node<std::pair<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t const, VulkanVRRenderer::Texture*>>*)
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_erase(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value>>*)
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value>>)
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value>>, Json::Value::CZString const&)
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_get_insert_unique_pos(Json::Value::CZString const&)
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value>>*)
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::find(Json::Value::CZString const&)
-std::_Rb_tree<VRRenderer::VulkanNativeTexture_t, std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>, std::_Select1st<std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>>, CVulkanVRRenderer::VulkanNativeTextureCompare_t, std::allocator<std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>>>::_M_erase(std::_Rb_tree_node<std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>>*)
 std::_Rb_tree<VkDevice_T*, std::pair<VkDevice_T* const, VulkanFunctionPointers_t>, std::_Select1st<std::pair<VkDevice_T* const, VulkanFunctionPointers_t>>, std::less<VkDevice_T*>, std::allocator<std::pair<VkDevice_T* const, VulkanFunctionPointers_t>>>::_M_erase(std::_Rb_tree_node<std::pair<VkDevice_T* const, VulkanFunctionPointers_t>>*)
 std::_Rb_tree<VkDevice_T*, std::pair<VkDevice_T* const, VulkanFunctionPointers_t>, std::_Select1st<std::pair<VkDevice_T* const, VulkanFunctionPointers_t>>, std::less<VkDevice_T*>, std::allocator<std::pair<VkDevice_T* const, VulkanFunctionPointers_t>>>::_M_get_insert_unique_pos(VkDevice_T* const&)
 std::_Rb_tree<VkDevice_T*, std::pair<VkDevice_T* const, VulkanFunctionPointers_t>, std::_Select1st<std::pair<VkDevice_T* const, VulkanFunctionPointers_t>>, std::less<VkDevice_T*>, std::allocator<std::pair<VkDevice_T* const, VulkanFunctionPointers_t>>>::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<VkDevice_T* const, VulkanFunctionPointers_t>>*)
@@ -33717,7 +34452,7 @@ std::pair<char, char>& std::vector<std::pair<char, char>, std::allocator<std::pa
 std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>>>& std::vector<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>>>, std::allocator<std::pair<long, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>>>>>::emplace_back<long&, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>> const&>(long&, std::vector<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>> const&)
 std::pair<std::_Rb_tree_iterator<std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long>>, bool> std::_Rb_tree<CVulkanVRRenderer::FramebufferState_t, std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long>, std::_Select1st<std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long>>, std::less<CVulkanVRRenderer::FramebufferState_t>, std::allocator<std::pair<CVulkanVRRenderer::FramebufferState_t const, unsigned long long>>>::_M_emplace_unique<std::pair<CVulkanVRRenderer::FramebufferState_t, unsigned long long>>(std::pair<CVulkanVRRenderer::FramebufferState_t, unsigned long long>&&)
 std::pair<std::_Rb_tree_iterator<std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long>>, bool> std::_Rb_tree<CVulkanVRRenderer::RenderPassState_t, std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long>, std::_Select1st<std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long>>, std::less<CVulkanVRRenderer::RenderPassState_t>, std::allocator<std::pair<CVulkanVRRenderer::RenderPassState_t const, unsigned long long>>>::_M_emplace_unique<std::pair<CVulkanVRRenderer::RenderPassState_t, unsigned long long>>(std::pair<CVulkanVRRenderer::RenderPassState_t, unsigned long long>&&)
-std::pair<std::_Rb_tree_iterator<std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>>, bool> std::_Rb_tree<VRRenderer::VulkanNativeTexture_t, std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>, std::_Select1st<std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>>, CVulkanVRRenderer::VulkanNativeTextureCompare_t, std::allocator<std::pair<VRRenderer::VulkanNativeTexture_t const, VulkanVRRenderer::Texture*>>>::_M_emplace_unique<std::pair<VRRenderer::VulkanNativeTexture_t, VulkanVRRenderer::Texture*>>(std::pair<VRRenderer::VulkanNativeTexture_t, VulkanVRRenderer::Texture*>&&)
+std::pair<std::_Rb_tree_iterator<std::pair<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t const, VulkanVRRenderer::Texture*>>, bool> std::_Rb_tree<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t, std::pair<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t const, VulkanVRRenderer::Texture*>, std::_Select1st<std::pair<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t const, VulkanVRRenderer::Texture*>>, CVulkanVRRenderer::VulkanNativeTextureCompare_t, std::allocator<std::pair<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t const, VulkanVRRenderer::Texture*>>>::_M_insert_unique<std::pair<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t const, VulkanVRRenderer::Texture*>>(std::pair<CVulkanVRRenderer::VulkanNativeTextureWithIndex_t const, VulkanVRRenderer::Texture*>&&)
 std::pair<std::_Rb_tree_iterator<std::pair<std::string const, double>>, bool> std::_Rb_tree<std::string, std::pair<std::string const, double>, std::_Select1st<std::pair<std::string const, double>>, std::less<std::string>, std::allocator<std::pair<std::string const, double>>>::_M_emplace_unique<std::string, double&>(std::string&&, double&)
 std::pair<std::_Rb_tree_iterator<std::pair<std::string const, int>>, bool> std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int>>, std::less<std::string>, std::allocator<std::pair<std::string const, int>>>::_M_emplace_unique<std::pair<std::string, int>>(std::pair<std::string, int>&&)
 std::pair<std::_Rb_tree_iterator<std::pair<std::string const, std::string>>, bool> std::_Rb_tree<std::string, std::pair<std::string const, std::string>, std::_Select1st<std::pair<std::string const, std::string>>, std::less<std::string>, std::allocator<std::pair<std::string const, std::string>>>::_M_emplace_unique<std::pair<std::string, std::string>>(std::pair<std::string, std::string>&&)
@@ -34138,6 +34873,7 @@ std::vector<unsigned char, std::allocator<unsigned char>>::_M_default_append(uns
 std::vector<unsigned char, std::allocator<unsigned char>>::_M_fill_insert(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, unsigned int, unsigned char const&)
 std::vector<unsigned char, std::allocator<unsigned char>>::operator=(std::vector<unsigned char, std::allocator<unsigned char>> const&)
 std::vector<unsigned char, std::allocator<unsigned char>>::resize(unsigned int)
+std::vector<unsigned int, std::allocator<unsigned int>>::_M_fill_insert(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int>>>, unsigned int, unsigned int const&)
 std::vector<unsigned long long, std::allocator<unsigned long long>>::reserve(unsigned int)
 std::vector<unsigned long long, std::allocator<unsigned long long>>::~vector()
 std::vector<vr::ETrackedDeviceProperty, std::allocator<vr::ETrackedDeviceProperty>>::~vector()
@@ -34221,6 +34957,39 @@ suppressedByPriority
 sv_se
 swedish
 switch_dashboard_overlay_requested
+sxu::ApplyTransformToPose(XrPosef&, XrVector3f&, XrVector3f&, XrPosef const&, XrVector3f const&, XrVector3f const&, XrPosef const&)
+sxu::BIsQuaternionValid(XrQuaternionf const&)
+sxu::BIsXrRect2DiValid(XrRect2Di const&, XrExtent2Di const&)
+sxu::ComputeBoundingTexel(float, unsigned int, float (*)(float))
+sxu::ComputeSubresourceRegion(vr::VRTextureBounds_t const*, unsigned int, unsigned int, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+sxu::GLMFromPose(XrPosef const&)
+sxu::GenerateXrUuid(XrUuid&)
+sxu::GetBoneIndexForJoint(XrHandJointEXT)
+sxu::GetHiddenAreaMeshData(vr::HiddenAreaMesh_t const&, XrVisibilityMaskTypeKHR, std::vector<XrVector2f, std::allocator<XrVector2f>>&, std::vector<unsigned int, std::allocator<unsigned int>>&, vr::HmdMatrix44_t const&)
+sxu::HmdMatrixFromPose(XrPosef const&)
+sxu::HmdQuatFromXrQuat(XrQuaternionf const&)
+sxu::IdentityPose()
+sxu::InvertPose(XrPosef const&)
+sxu::IsValidInPathComponent(char)
+sxu::MultiplyPoses(XrPosef const&, XrPosef const&)
+sxu::PoseFromHmdMatrix(vr::HmdMatrix34_t const&)
+sxu::PoseFromTransform(vr::VRBoneTransform_t const&)
+sxu::ProjectionFromXrFov(XrFovf const&, float*, float*, float*, float*)
+sxu::ProjectionFromXrFov(XrFovf const&, float, float)
+sxu::ResultToString(XrResult, char*)
+sxu::ScalePose(XrPosef&, float)
+sxu::StringToValidPath(std::string&)
+sxu::StringToValidPath(std::string&) (.cold)
+sxu::StringToXrUuid(std::string const&, XrUuid&)
+sxu::StructureTypeToString(XrStructureType, char*)
+sxu::TextureBoundsFromXrRect(XrRect2Di const&, XrExtent2Di const&)
+sxu::ToXrVector3f(vr::HmdVector3_t const&)
+sxu::XrQuatFromHmdQuat(vr::HmdQuaternion_t const&)
+sxu::XrUuidToString(XrUuid const&, std::string&)
+sxu::XrVector_IsZero(XrVector3f const&)
+sxu::XrVector_Length(XrVector3f const&)
+sxu::flattenStringArray(char const* const*, unsigned int)
+sxu::flattenStringArray(char const* const*, unsigned int) (.cold)
 symlink
 syntax error 
 syscall
@@ -34761,7 +35530,6 @@ typeinfo for CVRBlockQueue_001
 typeinfo for CVRBlockQueue_002
 typeinfo for CVRBlockQueue_003
 typeinfo for CVRBlockQueue_004
-typeinfo for CVRCVTrackedHmdInternal
 typeinfo for CVRCameraComponentAdapter
 typeinfo for CVRCameraComponent_001
 typeinfo for CVRCameraComponent_002
@@ -35020,8 +35788,6 @@ typeinfo for CVRMsg_Settings_SetString
 typeinfo for CVRMsg_Settings_SetValue_Response
 typeinfo for CVRMsg_ShouldKillTheaterPancakeProcess
 typeinfo for CVRMsg_ShouldKillTheaterPancakeProcessResponse
-typeinfo for CVRMsg_ShutdownSystem
-typeinfo for CVRMsg_ShutdownSystemResponse
 typeinfo for CVRMsg_StartAutolaunchOverlays
 typeinfo for CVRMsg_StartDashboard
 typeinfo for CVRMsg_StartDashboardResponse
@@ -35802,7 +36568,6 @@ typeinfo for vr::ITrackedDeviceServerDriver
 typeinfo for vr::IVRApplications
 typeinfo for vr::IVRApplicationsInternal
 typeinfo for vr::IVRBlockQueue
-typeinfo for vr::IVRCVTrackedHmdInternal
 typeinfo for vr::IVRCameraComponent
 typeinfo for vr::IVRCameraPassthroughInternal
 typeinfo for vr::IVRChaperone
@@ -36007,7 +36772,6 @@ typeinfo name for CVRBlockQueue_001
 typeinfo name for CVRBlockQueue_002
 typeinfo name for CVRBlockQueue_003
 typeinfo name for CVRBlockQueue_004
-typeinfo name for CVRCVTrackedHmdInternal
 typeinfo name for CVRCameraComponentAdapter
 typeinfo name for CVRCameraComponent_001
 typeinfo name for CVRCameraComponent_002
@@ -36266,8 +37030,6 @@ typeinfo name for CVRMsg_Settings_SetString
 typeinfo name for CVRMsg_Settings_SetValue_Response
 typeinfo name for CVRMsg_ShouldKillTheaterPancakeProcess
 typeinfo name for CVRMsg_ShouldKillTheaterPancakeProcessResponse
-typeinfo name for CVRMsg_ShutdownSystem
-typeinfo name for CVRMsg_ShutdownSystemResponse
 typeinfo name for CVRMsg_StartAutolaunchOverlays
 typeinfo name for CVRMsg_StartDashboard
 typeinfo name for CVRMsg_StartDashboardResponse
@@ -37052,7 +37814,6 @@ typeinfo name for vr::ITrackedDeviceServerDriver
 typeinfo name for vr::IVRApplications
 typeinfo name for vr::IVRApplicationsInternal
 typeinfo name for vr::IVRBlockQueue
-typeinfo name for vr::IVRCVTrackedHmdInternal
 typeinfo name for vr::IVRCameraComponent
 typeinfo name for vr::IVRCameraPassthroughInternal
 typeinfo name for vr::IVRChaperone
@@ -37185,6 +37946,9 @@ useSpecialFloats
 usemtl
 userinterface
 usleep
+uuid_generate
+uuid_parse
+uuid_unparse_lower
 uw_frame_state_for
 uw_frame_state_for.cold
 uw_init_context_1
@@ -37824,7 +38588,7 @@ vkGetExternalComputeQueueDataNV
 vkGetFenceFdKHR
 vkGetFenceStatus
 vkGetFenceStatus failed with %d
-vkGetFenceStatus: %d
+vkGetFenceStatus=%d
 vkGetFramebufferTilePropertiesQCOM
 vkGetGeneratedCommandsMemoryRequirementsEXT
 vkGetGeneratedCommandsMemoryRequirementsNV
@@ -37977,7 +38741,7 @@ vkQueueSubmit
 vkQueueSubmit to wait on counting semaphores failed with result %d Value: %llx
 vkQueueSubmit2
 vkQueueSubmit2KHR
-vkQueueSubmit: %d
+vkQueueSubmit=%d
 vkQueueWaitIdle
 vkRegisterDeviceEventEXT
 vkRegisterDisplayEventEXT
@@ -38281,6 +39045,7 @@ void std::vector<VkPipelineColorBlendAttachmentState, std::allocator<VkPipelineC
 void std::vector<VkVertexInputAttributeDescription, std::allocator<VkVertexInputAttributeDescription>>::_M_realloc_insert<VkVertexInputAttributeDescription const&>(__gnu_cxx::__normal_iterator<VkVertexInputAttributeDescription*, std::vector<VkVertexInputAttributeDescription, std::allocator<VkVertexInputAttributeDescription>>>, VkVertexInputAttributeDescription const&)
 void std::vector<VkWriteDescriptorSet, std::allocator<VkWriteDescriptorSet>>::_M_realloc_insert<VkWriteDescriptorSet const&>(__gnu_cxx::__normal_iterator<VkWriteDescriptorSet*, std::vector<VkWriteDescriptorSet, std::allocator<VkWriteDescriptorSet>>>, VkWriteDescriptorSet const&)
 void std::vector<VulkanVRRenderer::Texture*, std::allocator<VulkanVRRenderer::Texture*>>::_M_realloc_insert<VulkanVRRenderer::Texture* const&>(__gnu_cxx::__normal_iterator<VulkanVRRenderer::Texture**, std::vector<VulkanVRRenderer::Texture*, std::allocator<VulkanVRRenderer::Texture*>>>, VulkanVRRenderer::Texture* const&)
+void std::vector<XrVector2f, std::allocator<XrVector2f>>::_M_realloc_insert<XrVector2f>(__gnu_cxx::__normal_iterator<XrVector2f*, std::vector<XrVector2f, std::allocator<XrVector2f>>>, XrVector2f&&)
 void std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*>>::_M_realloc_insert<amdgpu_bo*>(__gnu_cxx::__normal_iterator<amdgpu_bo**, std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*>>>, amdgpu_bo*&&)
 void std::vector<bool*, std::allocator<bool*>>::_M_realloc_insert<bool*>(__gnu_cxx::__normal_iterator<bool**, std::vector<bool*, std::allocator<bool*>>>, bool*&&)
 void std::vector<char const*, std::allocator<char const*>>::_M_realloc_insert<char const*>(__gnu_cxx::__normal_iterator<char const**, std::vector<char const*, std::allocator<char const*>>>, char const*&&)
@@ -38554,7 +39319,7 @@ vr::CVROverlayInternalLatest::SetOverlayInteractionAffordance(unsigned long long
 vr::CVROverlayInternalLatest::SetOverlayInteractionAffordance(unsigned long long, vr::VROverlayInteractionAffordances, bool) (.cold)
 vr::CVROverlayInternalLatest::SetOverlayStereoscopy(unsigned long long, vr::EOverlayStereoscopy)
 vr::CVROverlayInternalLatest::SetOverlayStereoscopy(unsigned long long, vr::EOverlayStereoscopy) (.cold)
-vr::CVROverlayInternalLatest::SetOverlayTextureXR(unsigned long long, vr::Texture_t const*, unsigned int, vr::EVRSubmitFlags)
+vr::CVROverlayInternalLatest::SetOverlayTextureXR(unsigned long long, vr::Texture_t const*, vr::VRTextureBounds_t const*, unsigned int, vr::EVRSubmitFlags)
 vr::CVROverlayInternalLatest::SetPassthroughPortalEnabled(bool)
 vr::CVROverlayInternalLatest::SetPassthroughPortalEnabled(bool) (.cold)
 vr::CVROverlayInternalLatest::SetSubviewPosition(unsigned long long, int, int)
@@ -38825,10 +39590,10 @@ vr_internal::Localize(std::string const&, std::string const&, std::string const&
 vr_internal::VRApplications()
 vr_internal::VRApplicationsInternal()
 vr_internal::VRBlockQueue()
-vr_internal::VRCVTrackedHmdInternal()
 vr_internal::VRCameraPassthroughInternal()
 vr_internal::VRChaperone()
 vr_internal::VRChaperoneInternal()
+vr_internal::VRChaperoneServerDriver()
 vr_internal::VRChaperoneSetup()
 vr_internal::VRClientInternal()
 vr_internal::VRCompositorSystemInternal()
@@ -39178,7 +39943,6 @@ vtable for CVRBlockQueue_001
 vtable for CVRBlockQueue_002
 vtable for CVRBlockQueue_003
 vtable for CVRBlockQueue_004
-vtable for CVRCVTrackedHmdInternal
 vtable for CVRCameraComponent_001
 vtable for CVRCameraComponent_002
 vtable for CVRCameraComponent_Latest
@@ -39424,8 +40188,6 @@ vtable for CVRMsg_Settings_SetString
 vtable for CVRMsg_Settings_SetValue_Response
 vtable for CVRMsg_ShouldKillTheaterPancakeProcess
 vtable for CVRMsg_ShouldKillTheaterPancakeProcessResponse
-vtable for CVRMsg_ShutdownSystem
-vtable for CVRMsg_ShutdownSystemResponse
 vtable for CVRMsg_StartAutolaunchOverlays
 vtable for CVRMsg_StartDashboard
 vtable for CVRMsg_StartDashboardResponse

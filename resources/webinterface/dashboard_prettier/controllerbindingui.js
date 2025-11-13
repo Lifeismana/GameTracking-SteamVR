@@ -1,4 +1,4 @@
-var CLSTAMP = "10223590";
+var CLSTAMP = "10231550";
 (() => {
   "use strict";
   var e,
@@ -140,7 +140,7 @@ var CLSTAMP = "10223590";
           mu: () => r,
           ne: () => c,
           pM: () => i,
-          rx: () => w,
+          rx: () => M,
         }),
           (function (e) {
             (e[(e.Desktop = 1)] = "Desktop"),
@@ -176,7 +176,7 @@ var CLSTAMP = "10223590";
         let a = 0,
           d = 0,
           c = 4294967295;
-        var p, h, u, m, g, S, _, C, y, f, b, v, A, B, I, E, M, O, w, k, N, P, T;
+        var p, h, u, m, g, S, _, C, y, f, b, v, A, B, I, E, w, O, M, k, N, P, T;
         !(function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
@@ -354,7 +354,7 @@ var CLSTAMP = "10223590";
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(M || (M = {})),
+          })(w || (w = {})),
           (function (e) {
             e[(e.Hostname = 0)] = "Hostname";
           })(O || (O = {})),
@@ -362,7 +362,7 @@ var CLSTAMP = "10223590";
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(w || (w = {})),
+          })(M || (M = {})),
           (function (e) {
             (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
           })(k || (k = {})),
@@ -547,7 +547,7 @@ var CLSTAMP = "10223590";
             return this.x + "," + this.y;
           }
         }
-        class M {
+        class w {
           constructor(e, t, o, n, i) {
             (this.m_BindingUISource = void 0),
               (this.m_ControllerProfile = void 0),
@@ -1014,99 +1014,99 @@ var CLSTAMP = "10223590";
             );
           }
         }
-        (0, i.Cg)([a.observable], M.prototype, "m_BindingUISource", void 0),
-          (0, i.Cg)([a.observable], M.prototype, "m_ControllerProfile", void 0),
-          (0, i.Cg)([a.observable], M.prototype, "m_sDeviceInputPath", void 0),
-          (0, i.Cg)([a.observable], M.prototype, "m_eButtonSide", void 0),
-          (0, i.Cg)([a.observable], M.prototype, "m_sInputPath", void 0),
-          (0, i.Cg)([a.observable], M.prototype, "m_sActionSet", void 0),
-          (0, i.Cg)([l.o], M.prototype, "cancelWatcher", null),
-          (0, i.Cg)([a.action], M.prototype, "UpdateBindingSource", null),
-          (0, i.Cg)([a.computed], M.prototype, "GetFullInputPath", null),
-          (0, i.Cg)([l.o], M.prototype, "GetSVGEndPoint", null),
-          (0, i.Cg)([a.computed], M.prototype, "GetButtonSide", null),
-          (0, i.Cg)([a.computed], M.prototype, "GetNumModes", null),
-          (0, i.Cg)([l.o], M.prototype, "GetActionForInputType", null),
-          (0, i.Cg)([l.o], M.prototype, "GetClickAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetTouchAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetPositionAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetHeldAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetLongAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetSingleAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetDoubleAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetNorthAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetEastAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetSouthAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetWestAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetCenterAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetScrollAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetPullAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetForceAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetConstantAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetGrabAction", null),
-          (0, i.Cg)([l.o], M.prototype, "GetValueAction", null),
-          (0, i.Cg)([a.computed], M.prototype, "GetControllerInputName", null),
-          (0, i.Cg)([a.computed], M.prototype, "GetModes", null),
-          (0, i.Cg)([l.o], M.prototype, "GetMode", null),
-          (0, i.Cg)([a.computed], M.prototype, "GetInputSourceType", null),
-          (0, i.Cg)([a.computed], M.prototype, "GetInputSource", null),
+        (0, i.Cg)([a.observable], w.prototype, "m_BindingUISource", void 0),
+          (0, i.Cg)([a.observable], w.prototype, "m_ControllerProfile", void 0),
+          (0, i.Cg)([a.observable], w.prototype, "m_sDeviceInputPath", void 0),
+          (0, i.Cg)([a.observable], w.prototype, "m_eButtonSide", void 0),
+          (0, i.Cg)([a.observable], w.prototype, "m_sInputPath", void 0),
+          (0, i.Cg)([a.observable], w.prototype, "m_sActionSet", void 0),
+          (0, i.Cg)([l.o], w.prototype, "cancelWatcher", null),
+          (0, i.Cg)([a.action], w.prototype, "UpdateBindingSource", null),
+          (0, i.Cg)([a.computed], w.prototype, "GetFullInputPath", null),
+          (0, i.Cg)([l.o], w.prototype, "GetSVGEndPoint", null),
+          (0, i.Cg)([a.computed], w.prototype, "GetButtonSide", null),
+          (0, i.Cg)([a.computed], w.prototype, "GetNumModes", null),
+          (0, i.Cg)([l.o], w.prototype, "GetActionForInputType", null),
+          (0, i.Cg)([l.o], w.prototype, "GetClickAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetTouchAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetPositionAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetHeldAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetLongAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetSingleAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetDoubleAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetNorthAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetEastAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetSouthAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetWestAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetCenterAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetScrollAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetPullAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetForceAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetConstantAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetGrabAction", null),
+          (0, i.Cg)([l.o], w.prototype, "GetValueAction", null),
+          (0, i.Cg)([a.computed], w.prototype, "GetControllerInputName", null),
+          (0, i.Cg)([a.computed], w.prototype, "GetModes", null),
+          (0, i.Cg)([l.o], w.prototype, "GetMode", null),
+          (0, i.Cg)([a.computed], w.prototype, "GetInputSourceType", null),
+          (0, i.Cg)([a.computed], w.prototype, "GetInputSource", null),
           (0, i.Cg)(
             [a.computed],
-            M.prototype,
+            w.prototype,
             "GetInputSourceClickSupport",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            M.prototype,
+            w.prototype,
             "GetInputSourceTouchSupport",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            M.prototype,
+            w.prototype,
             "GetInputSourceForceSupport",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            M.prototype,
+            w.prototype,
             "GetInputSourceDefaultDeadzone",
             null,
           ),
-          (0, i.Cg)([a.action], M.prototype, "SetInputMode", null),
-          (0, i.Cg)([a.action], M.prototype, "AddInputMode", null),
-          (0, i.Cg)([a.action], M.prototype, "DeleteInputMode", null),
-          (0, i.Cg)([l.o], M.prototype, "ClearNewModeIfSet", null),
-          (0, i.Cg)([l.o], M.prototype, "BHasModeSelectionPending", null),
-          (0, i.Cg)([a.action], M.prototype, "SetClickAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetTouchAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetHeldAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetLongAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetSingleAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetDoubleAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetPositionAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetNorthAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetEastAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetSouthAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetWestAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetCenterAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetScrollAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetPullAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetForceAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetGrabAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetValueAction", null),
-          (0, i.Cg)([a.action], M.prototype, "SetConstantAction", null),
-          (0, i.Cg)([a.action], M.prototype, "CopyActions", null),
-          (0, i.Cg)([l.o], M.prototype, "BindingsMatch", null),
-          (0, i.Cg)([a.action], M.prototype, "SetClickParameter", null),
-          (0, i.Cg)([a.action], M.prototype, "SetTouchParameter", null),
-          (0, i.Cg)([a.action], M.prototype, "SetParameter", null),
-          (0, i.Cg)([a.action], M.prototype, "GetClickParameter", null),
-          (0, i.Cg)([a.action], M.prototype, "GetTouchParameter", null),
-          (0, i.Cg)([a.action], M.prototype, "GetParameter", null),
-          (0, i.Cg)([l.o], M.prototype, "GetTrackpadInvertState", null),
-          (0, i.Cg)([a.action], M.prototype, "SetTrackpadInvertState", null);
+          (0, i.Cg)([a.action], w.prototype, "SetInputMode", null),
+          (0, i.Cg)([a.action], w.prototype, "AddInputMode", null),
+          (0, i.Cg)([a.action], w.prototype, "DeleteInputMode", null),
+          (0, i.Cg)([l.o], w.prototype, "ClearNewModeIfSet", null),
+          (0, i.Cg)([l.o], w.prototype, "BHasModeSelectionPending", null),
+          (0, i.Cg)([a.action], w.prototype, "SetClickAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetTouchAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetHeldAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetLongAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetSingleAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetDoubleAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetPositionAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetNorthAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetEastAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetSouthAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetWestAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetCenterAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetScrollAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetPullAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetForceAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetGrabAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetValueAction", null),
+          (0, i.Cg)([a.action], w.prototype, "SetConstantAction", null),
+          (0, i.Cg)([a.action], w.prototype, "CopyActions", null),
+          (0, i.Cg)([l.o], w.prototype, "BindingsMatch", null),
+          (0, i.Cg)([a.action], w.prototype, "SetClickParameter", null),
+          (0, i.Cg)([a.action], w.prototype, "SetTouchParameter", null),
+          (0, i.Cg)([a.action], w.prototype, "SetParameter", null),
+          (0, i.Cg)([a.action], w.prototype, "GetClickParameter", null),
+          (0, i.Cg)([a.action], w.prototype, "GetTouchParameter", null),
+          (0, i.Cg)([a.action], w.prototype, "GetParameter", null),
+          (0, i.Cg)([l.o], w.prototype, "GetTrackpadInvertState", null),
+          (0, i.Cg)([a.action], w.prototype, "SetTrackpadInvertState", null);
         class O {
           constructor(e, t, o) {
             (this.m_sSaveType = e),
@@ -1134,7 +1134,7 @@ var CLSTAMP = "10223590";
               (e[(e.eWebSocketState_Connected = 3)] =
                 "eWebSocketState_Connected");
           })(n || (n = {}));
-        class w {
+        class M {
           constructor() {
             (this.m_wsWebSocketToServer = void 0),
               (this.m_eWebSocketState = n.eWebSocketState_Unknown),
@@ -1550,6 +1550,21 @@ var CLSTAMP = "10223590";
                 (this.m_bIsMissingRequiredActions = !1),
               this.m_mapUnoundActions
             );
+          }
+          get UnboundRequiredActionStrings() {
+            this.UnboundActions;
+            let e = [];
+            for (let t of this.ActionSets) {
+              const o = t.localized_name ? t.localized_name : t.name;
+              let n = this.m_mapUnoundActions.get(t.name);
+              n &&
+                n.vecRequired.length > 0 &&
+                n.vecRequired.forEach((t) => {
+                  const n = t.localized_name ? t.localized_name : t.name;
+                  e.push(`${o}: ${n}`);
+                });
+            }
+            return e;
           }
           get HasUnboundActions() {
             return this.UnboundActions, this.m_bIsMissingRequiredActions;
@@ -2998,9 +3013,9 @@ var CLSTAMP = "10223590";
           }
           SaveCurrentBinding(e, t, o) {
             return (0, i.sH)(this, void 0, void 0, function* () {
-              if (this.HasUnboundActions)
-                throw new Error("#SaveError_BindingMissingRequiredActions");
-              (this.m_sName = e), (this.m_sDescription = t);
+              this.HasUnboundActions,
+                (this.m_sName = e),
+                (this.m_sDescription = t);
               let n = this.m_sInteractionProfile.trim(),
                 i = {
                   app_key: this.SelectedApp,
@@ -3413,7 +3428,7 @@ var CLSTAMP = "10223590";
                       e,
                     );
               }
-              this.m_ControllerWatchers.set(i, new M(l, e, t, o, n));
+              this.m_ControllerWatchers.set(i, new w(l, e, t, o, n));
             }
             return this.m_ControllerWatchers.get(i);
           }
@@ -3493,350 +3508,350 @@ var CLSTAMP = "10223590";
             };
           }
         }
-        (0, i.Cg)([a.observable], w.prototype, "m_eWebSocketState", void 0),
-          (0, i.Cg)([a.observable], w.prototype, "m_sLoadedBindingURI", void 0),
-          (0, i.Cg)([a.observable], w.prototype, "m_LoadedBinding", void 0),
+        (0, i.Cg)([a.observable], M.prototype, "m_eWebSocketState", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_sLoadedBindingURI", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_LoadedBinding", void 0),
           (0, i.Cg)(
             [a.observable],
-            w.prototype,
+            M.prototype,
             "m_ModifiedBindingSet",
             void 0,
           ),
-          (0, i.Cg)([a.observable], w.prototype, "m_ModifiedOptions", void 0),
-          (0, i.Cg)([a.observable], w.prototype, "m_ModifiedAliases", void 0),
-          (0, i.Cg)([a.observable], w.prototype, "m_sName", void 0),
-          (0, i.Cg)([a.observable], w.prototype, "m_sDescription", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_ModifiedOptions", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_ModifiedAliases", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_sName", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_sDescription", void 0),
           (0, i.Cg)(
             [a.observable],
-            w.prototype,
+            M.prototype,
             "m_sInteractionProfile",
             void 0,
           ),
-          (0, i.Cg)([a.observable], w.prototype, "m_SelectedApp", void 0),
+          (0, i.Cg)([a.observable], M.prototype, "m_SelectedApp", void 0),
           (0, i.Cg)(
             [a.observable],
-            w.prototype,
+            M.prototype,
             "m_SelectedAppActions",
             void 0,
           ),
           (0, i.Cg)(
             [a.observable],
-            w.prototype,
+            M.prototype,
             "m_sSelectedActionSet",
             void 0,
           ),
           (0, i.Cg)(
             [a.observable],
-            w.prototype,
+            M.prototype,
             "m_sSelectedControllerType",
             void 0,
           ),
           (0, i.Cg)(
             [a.observable],
-            w.prototype,
+            M.prototype,
             "m_TrackerBindingSetup",
             void 0,
           ),
           (0, i.Cg)(
             [a.observable],
-            w.prototype,
+            M.prototype,
             "m_OutstandingSaveBindingCalls",
             void 0,
           ),
           (0, i.Cg)(
             [a.observable],
-            w.prototype,
+            M.prototype,
             "m_ModifiedSimulatedActions",
             void 0,
           ),
           (0, i.Cg)(
             [a.observable],
-            w.prototype,
+            M.prototype,
             "m_nBindingSubscriptionChangedCanary",
             void 0,
           ),
-          (0, i.Cg)([l.o], w.prototype, "OpenWebSocketToHost", null),
-          (0, i.Cg)([a.computed], w.prototype, "SteamVRUnavailable", null),
-          (0, i.Cg)([a.computed], w.prototype, "ActionSets", null),
-          (0, i.Cg)([a.computed], w.prototype, "ManifestOptions", null),
+          (0, i.Cg)([l.o], M.prototype, "OpenWebSocketToHost", null),
+          (0, i.Cg)([a.computed], M.prototype, "SteamVRUnavailable", null),
+          (0, i.Cg)([a.computed], M.prototype, "ActionSets", null),
+          (0, i.Cg)([a.computed], M.prototype, "ManifestOptions", null),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "SecondaryControllerOptions",
             null,
           ),
-          (0, i.Cg)([a.action], w.prototype, "SetOptionValue", null),
-          (0, i.Cg)([a.action], w.prototype, "AddSimulatedAction", null),
+          (0, i.Cg)([a.action], M.prototype, "SetOptionValue", null),
+          (0, i.Cg)([a.action], M.prototype, "AddSimulatedAction", null),
           (0, i.Cg)(
             [a.action],
-            w.prototype,
+            M.prototype,
             "DeleteSimulatedActionByPath",
             null,
           ),
-          (0, i.Cg)([a.computed], w.prototype, "SelectedApp", null),
-          (0, i.Cg)([a.computed], w.prototype, "SelectedAppActions", null),
+          (0, i.Cg)([a.computed], M.prototype, "SelectedApp", null),
+          (0, i.Cg)([a.computed], M.prototype, "SelectedAppActions", null),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "CurrentAppCanAccessPrivateInputs",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "SelectedControllerTypeInfo",
             null,
           ),
-          (0, i.Cg)([a.computed], w.prototype, "CurrentBindingSaveType", null),
+          (0, i.Cg)([a.computed], M.prototype, "CurrentBindingSaveType", null),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "CurrentBindingActionManifestVersion",
             null,
           ),
-          (0, i.Cg)([a.computed], w.prototype, "SelectedActionSet", null),
+          (0, i.Cg)([a.computed], M.prototype, "SelectedActionSet", null),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "SelectedActionSetDetails",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "SelectedActionSetActions",
             null,
           ),
-          (0, i.Cg)([l.o], w.prototype, "GetSelectedAppDefaultBinding", null),
-          (0, i.Cg)([l.o], w.prototype, "GetActionByName", null),
-          (0, i.Cg)([a.computed], w.prototype, "SelectedActionSetPoses", null),
+          (0, i.Cg)([l.o], M.prototype, "GetSelectedAppDefaultBinding", null),
+          (0, i.Cg)([l.o], M.prototype, "GetActionByName", null),
+          (0, i.Cg)([a.computed], M.prototype, "SelectedActionSetPoses", null),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "SelectedActionSetHaptics",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "SelectedActionSetSkeletons",
             null,
           ),
-          (0, i.Cg)([a.computed], w.prototype, "SelectedActionSetChords", null),
+          (0, i.Cg)([a.computed], M.prototype, "SelectedActionSetChords", null),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "SelectedActionSetChordCount",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "SelectedActionSetSources",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "BSelectedActionSetHasPoses",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "BSelectedActionSetHasBoundPoses",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "BSelectedActionSetHasHaptics",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "BSelectedActionSetHasBoundHaptics",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "BSelectedActionSetHasSkeletons",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "BSelectedActionSetHasBoundSkeletons",
             null,
           ),
-          (0, i.Cg)([a.action], w.prototype, "ClearSelectedApp", null),
-          (0, i.Cg)([a.action], w.prototype, "SetSelectedApp", null),
-          (0, i.Cg)([a.action], w.prototype, "SetSelectedController", null),
-          (0, i.Cg)([a.action], w.prototype, "SetSelectedActionSet", null),
+          (0, i.Cg)([a.action], M.prototype, "ClearSelectedApp", null),
+          (0, i.Cg)([a.action], M.prototype, "SetSelectedApp", null),
+          (0, i.Cg)([a.action], M.prototype, "SetSelectedController", null),
+          (0, i.Cg)([a.action], M.prototype, "SetSelectedActionSet", null),
           (0, i.Cg)(
             [l.o],
-            w.prototype,
+            M.prototype,
             "LocalizeStringForSelectedControllerType",
             null,
           ),
           (0, i.Cg)(
             [l.o],
-            w.prototype,
+            M.prototype,
             "LocalizePathNameForSelectedControllerType",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "SelectedControllerTypeLocalizedName",
             null,
           ),
-          (0, i.Cg)([a.action], w.prototype, "RegisterBindingWatcher", null),
-          (0, i.Cg)([a.action], w.prototype, "UnregisterBindingWatcher", null),
-          (0, i.Cg)([a.action], w.prototype, "GetActionBinding", null),
-          (0, i.Cg)([l.o], w.prototype, "GetInputModesForSourceType", null),
-          (0, i.Cg)([l.o], w.prototype, "GetBooleanInputOptionsForMode", null),
-          (0, i.Cg)([l.o], w.prototype, "GetActionBindingsOfType", null),
+          (0, i.Cg)([a.action], M.prototype, "RegisterBindingWatcher", null),
+          (0, i.Cg)([a.action], M.prototype, "UnregisterBindingWatcher", null),
+          (0, i.Cg)([a.action], M.prototype, "GetActionBinding", null),
+          (0, i.Cg)([l.o], M.prototype, "GetInputModesForSourceType", null),
+          (0, i.Cg)([l.o], M.prototype, "GetBooleanInputOptionsForMode", null),
+          (0, i.Cg)([l.o], M.prototype, "GetActionBindingsOfType", null),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "GetBooleanActionBindings",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "GetVector1ActionBindings",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "GetLiteralVector1ActionBindings",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "GetVector2ActionBindings",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "GetVector3ActionBindings",
             null,
           ),
-          (0, i.Cg)([a.computed], w.prototype, "GetPoseActionBindings", null),
+          (0, i.Cg)([a.computed], M.prototype, "GetPoseActionBindings", null),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "GetHapticsActionBindings",
             null,
           ),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "GetSkeletonActionBindings",
             null,
           ),
-          (0, i.Cg)([a.computed], w.prototype, "ConfigName", null),
-          (0, i.Cg)([a.computed], w.prototype, "ConfigDescription", null),
-          (0, i.Cg)([l.o], w.prototype, "GetPoseAction", null),
-          (0, i.Cg)([l.o], w.prototype, "GetPoseActionByPath", null),
-          (0, i.Cg)([l.o], w.prototype, "GetHapticsAction", null),
-          (0, i.Cg)([l.o], w.prototype, "GetHapticsActionByPath", null),
-          (0, i.Cg)([l.o], w.prototype, "GetSkeletonAction", null),
-          (0, i.Cg)([l.o], w.prototype, "GetSkeletonActionByPath", null),
-          (0, i.Cg)([l.o], w.prototype, "NotifyWatchersOfChange", null),
-          (0, i.Cg)([a.action], w.prototype, "SetActionForInputModeType", null),
+          (0, i.Cg)([a.computed], M.prototype, "ConfigName", null),
+          (0, i.Cg)([a.computed], M.prototype, "ConfigDescription", null),
+          (0, i.Cg)([l.o], M.prototype, "GetPoseAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetPoseActionByPath", null),
+          (0, i.Cg)([l.o], M.prototype, "GetHapticsAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetHapticsActionByPath", null),
+          (0, i.Cg)([l.o], M.prototype, "GetSkeletonAction", null),
+          (0, i.Cg)([l.o], M.prototype, "GetSkeletonActionByPath", null),
+          (0, i.Cg)([l.o], M.prototype, "NotifyWatchersOfChange", null),
+          (0, i.Cg)([a.action], M.prototype, "SetActionForInputModeType", null),
           (0, i.Cg)(
             [a.action],
-            w.prototype,
+            M.prototype,
             "SetParameterForInputModeType",
             null,
           ),
-          (0, i.Cg)([l.o], w.prototype, "AddActionSetIfRequired", null),
-          (0, i.Cg)([a.action], w.prototype, "AddInputModeForSource", null),
-          (0, i.Cg)([a.action], w.prototype, "DeleteInputModeForSource", null),
+          (0, i.Cg)([l.o], M.prototype, "AddActionSetIfRequired", null),
+          (0, i.Cg)([a.action], M.prototype, "AddInputModeForSource", null),
+          (0, i.Cg)([a.action], M.prototype, "DeleteInputModeForSource", null),
           (0, i.Cg)(
             [a.action],
-            w.prototype,
+            M.prototype,
             "SetInputModeForInputSource",
             null,
           ),
-          (0, i.Cg)([a.action], w.prototype, "ClearModesForInputPath", null),
-          (0, i.Cg)([a.action], w.prototype, "SetInputPathForPose", null),
-          (0, i.Cg)([a.action], w.prototype, "SetPoseForInputPath", null),
-          (0, i.Cg)([a.action], w.prototype, "AddDefaultPose", null),
-          (0, i.Cg)([a.action], w.prototype, "SetInputPathForHaptics", null),
-          (0, i.Cg)([a.action], w.prototype, "SetHapticsForInputPath", null),
-          (0, i.Cg)([a.action], w.prototype, "AddDefaultHaptics", null),
-          (0, i.Cg)([a.action], w.prototype, "SetInputPathForSkeleton", null),
-          (0, i.Cg)([a.action], w.prototype, "SetSkeletonForInputPath", null),
-          (0, i.Cg)([a.action], w.prototype, "AddDefaultSkeleton", null),
-          (0, i.Cg)([a.action], w.prototype, "SetActionForChord", null),
-          (0, i.Cg)([a.action], w.prototype, "DeleteChord", null),
-          (0, i.Cg)([a.action], w.prototype, "AddChord", null),
-          (0, i.Cg)([a.action], w.prototype, "DeleteSourceFromChord", null),
-          (0, i.Cg)([a.action], w.prototype, "SetInputTypeForChord", null),
-          (0, i.Cg)([a.action], w.prototype, "SetInputSourceForChord", null),
-          (0, i.Cg)([a.action], w.prototype, "LoadActionManifest", null),
-          (0, i.Cg)([a.computed], w.prototype, "SelectedBindingURL", null),
-          (0, i.Cg)([a.computed], w.prototype, "LoadedBindingURL", null),
-          (0, i.Cg)([a.computed], w.prototype, "SelectedBindingIsLegacy", null),
-          (0, i.Cg)([a.computed], w.prototype, "SelectedBindingIsOpenXR", null),
-          (0, i.Cg)([a.computed], w.prototype, "IsSecondaryController", null),
-          (0, i.Cg)([a.computed], w.prototype, "TrackerBindings", null),
-          (0, i.Cg)([a.action], w.prototype, "GetTrackerBindings", null),
-          (0, i.Cg)([l.o], w.prototype, "SetTrackerBinding", null),
-          (0, i.Cg)([l.o], w.prototype, "PulseHaptics", null),
-          (0, i.Cg)([a.computed], w.prototype, "KnownControllerTypes", null),
-          (0, i.Cg)([l.o], w.prototype, "AutosaveBinding", null),
-          (0, i.Cg)([l.o], w.prototype, "OnWebSocketOpen", null),
-          (0, i.Cg)([l.o], w.prototype, "OnWebSocketClose", null),
-          (0, i.Cg)([l.o], w.prototype, "WebSocketSend", null),
+          (0, i.Cg)([a.action], M.prototype, "ClearModesForInputPath", null),
+          (0, i.Cg)([a.action], M.prototype, "SetInputPathForPose", null),
+          (0, i.Cg)([a.action], M.prototype, "SetPoseForInputPath", null),
+          (0, i.Cg)([a.action], M.prototype, "AddDefaultPose", null),
+          (0, i.Cg)([a.action], M.prototype, "SetInputPathForHaptics", null),
+          (0, i.Cg)([a.action], M.prototype, "SetHapticsForInputPath", null),
+          (0, i.Cg)([a.action], M.prototype, "AddDefaultHaptics", null),
+          (0, i.Cg)([a.action], M.prototype, "SetInputPathForSkeleton", null),
+          (0, i.Cg)([a.action], M.prototype, "SetSkeletonForInputPath", null),
+          (0, i.Cg)([a.action], M.prototype, "AddDefaultSkeleton", null),
+          (0, i.Cg)([a.action], M.prototype, "SetActionForChord", null),
+          (0, i.Cg)([a.action], M.prototype, "DeleteChord", null),
+          (0, i.Cg)([a.action], M.prototype, "AddChord", null),
+          (0, i.Cg)([a.action], M.prototype, "DeleteSourceFromChord", null),
+          (0, i.Cg)([a.action], M.prototype, "SetInputTypeForChord", null),
+          (0, i.Cg)([a.action], M.prototype, "SetInputSourceForChord", null),
+          (0, i.Cg)([a.action], M.prototype, "LoadActionManifest", null),
+          (0, i.Cg)([a.computed], M.prototype, "SelectedBindingURL", null),
+          (0, i.Cg)([a.computed], M.prototype, "LoadedBindingURL", null),
+          (0, i.Cg)([a.computed], M.prototype, "SelectedBindingIsLegacy", null),
+          (0, i.Cg)([a.computed], M.prototype, "SelectedBindingIsOpenXR", null),
+          (0, i.Cg)([a.computed], M.prototype, "IsSecondaryController", null),
+          (0, i.Cg)([a.computed], M.prototype, "TrackerBindings", null),
+          (0, i.Cg)([a.action], M.prototype, "GetTrackerBindings", null),
+          (0, i.Cg)([l.o], M.prototype, "SetTrackerBinding", null),
+          (0, i.Cg)([l.o], M.prototype, "PulseHaptics", null),
+          (0, i.Cg)([a.computed], M.prototype, "KnownControllerTypes", null),
+          (0, i.Cg)([l.o], M.prototype, "AutosaveBinding", null),
+          (0, i.Cg)([l.o], M.prototype, "OnWebSocketOpen", null),
+          (0, i.Cg)([l.o], M.prototype, "OnWebSocketClose", null),
+          (0, i.Cg)([l.o], M.prototype, "WebSocketSend", null),
           (0, i.Cg)(
             [a.action.bound],
-            w.prototype,
+            M.prototype,
             "OnWorkshopUploadComplete",
             null,
           ),
-          (0, i.Cg)([l.o], w.prototype, "OnPendingFileSaved", null),
-          (0, i.Cg)([a.computed], w.prototype, "SaveNoticeText", null),
-          (0, i.Cg)([l.o], w.prototype, "QueryBindingList", null),
-          (0, i.Cg)([l.o], w.prototype, "DeleteBinding", null),
-          (0, i.Cg)([l.o], w.prototype, "OnBindingDeleteComplete", null),
+          (0, i.Cg)([l.o], M.prototype, "OnPendingFileSaved", null),
+          (0, i.Cg)([a.computed], M.prototype, "SaveNoticeText", null),
+          (0, i.Cg)([l.o], M.prototype, "QueryBindingList", null),
+          (0, i.Cg)([l.o], M.prototype, "DeleteBinding", null),
+          (0, i.Cg)([l.o], M.prototype, "OnBindingDeleteComplete", null),
           (0, i.Cg)(
             [l.o],
-            w.prototype,
+            M.prototype,
             "ShouldShowBindingFailureForControllerType",
             null,
           ),
-          (0, i.Cg)([l.o], w.prototype, "OnQueryResults", null),
-          (0, i.Cg)([l.o], w.prototype, "SelectConfig", null),
-          (0, i.Cg)([l.o], w.prototype, "OnSelectConfigComplete", null),
-          (0, i.Cg)([l.o], w.prototype, "OnTrackersBindingChanged", null),
-          (0, i.Cg)([l.o], w.prototype, "OnActionManifestReloaded", null),
-          (0, i.Cg)([l.o], w.prototype, "SetBindingURL", null),
-          (0, i.Cg)([l.o], w.prototype, "OnActionBindingsReloaded", null),
+          (0, i.Cg)([l.o], M.prototype, "OnQueryResults", null),
+          (0, i.Cg)([l.o], M.prototype, "SelectConfig", null),
+          (0, i.Cg)([l.o], M.prototype, "OnSelectConfigComplete", null),
+          (0, i.Cg)([l.o], M.prototype, "OnTrackersBindingChanged", null),
+          (0, i.Cg)([l.o], M.prototype, "OnActionManifestReloaded", null),
+          (0, i.Cg)([l.o], M.prototype, "SetBindingURL", null),
+          (0, i.Cg)([l.o], M.prototype, "OnActionBindingsReloaded", null),
           (0, i.Cg)(
             [l.o],
-            w.prototype,
+            M.prototype,
             "GetControllerWatcherForSourceFromControllerType",
             null,
           ),
-          (0, i.Cg)([l.o], w.prototype, "OnWebSocketMessage", null),
-          (0, i.Cg)([a.computed], w.prototype, "BindingConfig", null),
+          (0, i.Cg)([l.o], M.prototype, "OnWebSocketMessage", null),
+          (0, i.Cg)([a.computed], M.prototype, "BindingConfig", null),
           (0, i.Cg)(
             [a.computed],
-            w.prototype,
+            M.prototype,
             "BindingSubscriptionChangedCanary",
             null,
           );
-        const k = new w();
+        const k = new M();
         window.controllerBindingStore = k;
       },
       6795: (e, t, o) => {
@@ -5178,7 +5193,7 @@ var CLSTAMP = "10223590";
             );
           }
         }
-        class M extends i.Component {
+        class w extends i.Component {
           render() {
             return i.createElement(
               "div",
@@ -5512,7 +5527,7 @@ var CLSTAMP = "10223590";
                 t,
                 o,
                 l.length > 1 &&
-                  i.createElement(M, {
+                  i.createElement(w, {
                     labelName: "#SourceInputMode_ButtonModeInputForce_Click",
                     elementId: a,
                     vecValues: l,
@@ -5607,7 +5622,7 @@ var CLSTAMP = "10223590";
           (0, n.Cg)([g.computed], O.prototype, "BShowClickOptions", null),
           (0, n.Cg)([g.computed], O.prototype, "BShowTouchOptions", null),
           (O = (0, n.Cg)([r.PA], O));
-        let w = class extends v {
+        let M = class extends v {
           constructor(e) {
             super(e),
               (this.defaultProperties = [
@@ -5922,7 +5937,7 @@ var CLSTAMP = "10223590";
                 t,
                 o,
                 r.length > 1 &&
-                  i.createElement(M, {
+                  i.createElement(w, {
                     labelName: "#SourceInputMode_ButtonModeInputForce_Click",
                     elementId: d,
                     vecValues: r,
@@ -6150,18 +6165,18 @@ var CLSTAMP = "10223590";
             );
           }
         };
-        (0, n.Cg)([g.computed], w.prototype, "IsComplex", null),
-          (0, n.Cg)([g.computed], w.prototype, "BShowClickOptions", null),
-          (0, n.Cg)([g.computed], w.prototype, "BShowTouchOptions", null),
-          (0, n.Cg)([g.computed], w.prototype, "RInputOptions", null),
-          (0, n.Cg)([h.o], w.prototype, "OnHeldActionChanged", null),
-          (0, n.Cg)([h.o], w.prototype, "OnLongActionChanged", null),
-          (0, n.Cg)([h.o], w.prototype, "OnSingleActionChanged", null),
-          (0, n.Cg)([h.o], w.prototype, "OnDoubleActionChanged", null),
-          (0, n.Cg)([h.o], w.prototype, "OnClickActionChanged", null),
-          (0, n.Cg)([h.o], w.prototype, "OnTouchActionChanged", null),
-          (0, n.Cg)([h.o], w.prototype, "OnToggleComplex", null),
-          (w = (0, n.Cg)([r.PA], w));
+        (0, n.Cg)([g.computed], M.prototype, "IsComplex", null),
+          (0, n.Cg)([g.computed], M.prototype, "BShowClickOptions", null),
+          (0, n.Cg)([g.computed], M.prototype, "BShowTouchOptions", null),
+          (0, n.Cg)([g.computed], M.prototype, "RInputOptions", null),
+          (0, n.Cg)([h.o], M.prototype, "OnHeldActionChanged", null),
+          (0, n.Cg)([h.o], M.prototype, "OnLongActionChanged", null),
+          (0, n.Cg)([h.o], M.prototype, "OnSingleActionChanged", null),
+          (0, n.Cg)([h.o], M.prototype, "OnDoubleActionChanged", null),
+          (0, n.Cg)([h.o], M.prototype, "OnClickActionChanged", null),
+          (0, n.Cg)([h.o], M.prototype, "OnTouchActionChanged", null),
+          (0, n.Cg)([h.o], M.prototype, "OnToggleComplex", null),
+          (M = (0, n.Cg)([r.PA], M));
         let k = class extends v {
           constructor(e) {
             super(e),
@@ -7221,7 +7236,7 @@ var CLSTAMP = "10223590";
               i.createElement(
                 "div",
                 { className: "InputSettingsScrollablePanel" },
-                i.createElement(M, {
+                i.createElement(w, {
                   labelName: "#SourceInputMode_ScrollMode",
                   elementId: e,
                   vecValues: t,
@@ -8240,7 +8255,7 @@ var CLSTAMP = "10223590";
               i.createElement(
                 "div",
                 { className: "FlexColumn" },
-                i.createElement(M, {
+                i.createElement(w, {
                   labelName: "#SourceInputMode_StaticBool_Value",
                   elementId: e,
                   vecValues: t,
@@ -8885,7 +8900,7 @@ var CLSTAMP = "10223590";
               case "complex_button":
                 return i.createElement(k, Object.assign({}, e));
               case "button":
-                return i.createElement(w, Object.assign({}, e));
+                return i.createElement(M, Object.assign({}, e));
               case "dpad":
               case "dpad_touch":
               case "dpad_click":
@@ -12102,8 +12117,13 @@ var CLSTAMP = "10223590";
                     p.B$.SetBindingURL(e.uri), this.CloseSaveDialog();
                   })
                   .catch((e) => {
-                    console.log("Save failed:", e),
-                      this.setState({ sError: e });
+                    const t = (null == e ? void 0 : e.message)
+                      ? null == e
+                        ? void 0
+                        : e.message
+                      : e;
+                    console.log("Save failed: ", t),
+                      this.setState({ sError: t });
                   })
               : console.error("Invalid save type: ", this.props.eSaveType);
           }
@@ -12167,24 +12187,6 @@ var CLSTAMP = "10223590";
                       { className: "BindingSaveErrorMessage" },
                       (0, c.we)(this.state.sError),
                     ),
-                    p.B$.HasUnboundActions &&
-                      i.createElement(
-                        "div",
-                        { className: "MissingBindingsErrorSection" },
-                        i.createElement(
-                          "div",
-                          null,
-                          i.createElement(
-                            "b",
-                            null,
-                            (0, c.we)("#SaveError_BindingMissingActionsList"),
-                            ":",
-                          ),
-                        ),
-                        this.GetUnboundActionItems().map((e, t) =>
-                          i.createElement("div", { key: t }, e),
-                        ),
-                      ),
                   ),
                 this.props.eSaveType == ge.Personal &&
                   i.createElement(
@@ -12342,6 +12344,8 @@ var CLSTAMP = "10223590";
                 bShowUnboundActionsOverlay: !1,
                 vecUnboundActions: { vecRequired: [], vecSuggested: [] },
                 eTabType: ye.ActionSet,
+                bShowConfirmSaveWithUnbound: !1,
+                bHasConfirmedSaveWithUnbound: !1,
               });
           }
           OnAppDropdownChanged(e) {
@@ -12388,15 +12392,26 @@ var CLSTAMP = "10223590";
             this.setState({ eSaveType: ge.None });
           }
           ShowPublicModal() {
-            this.setState({ eSaveType: ge.Public });
+            p.B$.HasUnboundActions && !this.state.bHasConfirmedSaveWithUnbound
+              ? this.setState({ bShowConfirmSaveWithUnbound: !0 })
+              : this.setState({ eSaveType: ge.Public });
           }
           ShowPersonalModal() {
-            this.setState({ eSaveType: ge.Personal });
+            p.B$.HasUnboundActions &&
+              !this.state.bHasConfirmedSaveWithUnbound &&
+              this.setState({ bShowConfirmSaveWithUnbound: !0 }),
+              this.setState({ eSaveType: ge.Personal });
           }
           ShowExportModal() {
-            this.setState({ eSaveType: ge.LocalFile });
+            p.B$.HasUnboundActions &&
+              !this.state.bHasConfirmedSaveWithUnbound &&
+              this.setState({ bShowConfirmSaveWithUnbound: !0 }),
+              this.setState({ eSaveType: ge.LocalFile });
           }
           ShowReplaceDefaultModal() {
+            p.B$.HasUnboundActions &&
+              !this.state.bHasConfirmedSaveWithUnbound &&
+              this.setState({ bShowConfirmSaveWithUnbound: !0 });
             let e =
               null !=
               p.B$.GetSelectedAppDefaultBinding(
@@ -12565,6 +12580,104 @@ var CLSTAMP = "10223590";
                   ),
               )
             );
+          }
+          renderSaveWithUnboundModal() {
+            let e = "";
+            p.B$.UnboundRequiredActionStrings.forEach((t) => {
+              e += `${t}\n`;
+            });
+            const t = Math.max(p.B$.UnboundRequiredActionStrings.length, 4);
+            return i.createElement(
+              s.A,
+              {
+                visible: this.state.bShowConfirmSaveWithUnbound,
+                onClose: this.OnConfirmUnboundCancel,
+                showCloseButton: !1,
+                animation: "fade",
+                className: "BindingChordsModal",
+                closeOnEsc: !0,
+                customStyles: { height: "fit-content", width: "60%" },
+              },
+              i.createElement(
+                "div",
+                { className: "SaveDialogWrapper FlexColumn" },
+                i.createElement(
+                  "div",
+                  { className: "FlexRow SaveTitleBar" },
+                  i.createElement("img", {
+                    className:
+                      "ActionButtonImage ActionButtonImageLarge ChordManageTopButton",
+                    src: "images/bindingui/icon_download.svg",
+                  }),
+                  i.createElement(
+                    "div",
+                    { className: "Label Title TitleCenter AllCaps" },
+                    (0, c.we)("#BindingUI_ConfirmSaveWithUnbound_Title"),
+                  ),
+                ),
+                i.createElement(
+                  "label",
+                  { className: "Label" },
+                  (0, c.we)("#BindingUI_ConfirmSaveWithUnbound_Description"),
+                  " ",
+                ),
+                i.createElement("br", null),
+                i.createElement(
+                  "label",
+                  { className: "Label" },
+                  (0, c.we)("#BindingUI_ConfirmSaveWithUnbound_ListUnbound"),
+                  " ",
+                ),
+                i.createElement("textarea", {
+                  cols: 80,
+                  rows: t,
+                  style: { resize: "none", color: "#FF0000" },
+                  readOnly: !0,
+                  defaultValue: e,
+                }),
+                i.createElement("br", null),
+                i.createElement(
+                  "label",
+                  { className: "Label" },
+                  (0, c.we)("#BindingUI_ConfirmSaveWithUnbound_AreYouSure"),
+                  " ",
+                ),
+                i.createElement(
+                  "div",
+                  { className: "FlexRow SaveBottomButtonRow" },
+                  i.createElement(
+                    "div",
+                    {
+                      className: "ButtonControl",
+                      onClick: this.OnConfirmUnboundSave,
+                    },
+                    (0, c.we)(
+                      "#BindingUI_ConfirmSaveWithUnbound_ConfirmButton",
+                    ),
+                  ),
+                  i.createElement(
+                    "div",
+                    {
+                      className: "ButtonControl",
+                      onClick: this.OnConfirmUnboundCancel,
+                    },
+                    (0, c.we)("#Button_Cancel"),
+                  ),
+                ),
+              ),
+            );
+          }
+          OnConfirmUnboundSave() {
+            this.setState({
+              bShowConfirmSaveWithUnbound: !1,
+              bHasConfirmedSaveWithUnbound: !0,
+            });
+          }
+          OnConfirmUnboundCancel() {
+            this.setState({
+              bShowConfirmSaveWithUnbound: !1,
+              eSaveType: ge.None,
+            });
           }
           OnSaveClicked() {
             let e = p.B$.LoadedBindingURL;
@@ -12991,13 +13104,16 @@ var CLSTAMP = "10223590";
                     }),
                 ),
               ),
-              this.state.eSaveType != ge.None &&
+              !this.state.bShowConfirmSaveWithUnbound &&
+                this.state.eSaveType != ge.None &&
                 i.createElement(_e, {
                   sDescription: p.B$.ConfigDescription,
                   eSaveType: this.state.eSaveType,
                   ParentClose: this.CloseSaveModal,
                 }),
-              this.renderSelectConfirmModal(),
+              !this.state.bShowConfirmSaveWithUnbound &&
+                this.renderSelectConfirmModal(),
+              this.renderSaveWithUnboundModal(),
             );
           }
         };
@@ -13028,6 +13144,9 @@ var CLSTAMP = "10223590";
           (0, n.Cg)([h.o], fe.prototype, "OnSelectDone", null),
           (0, n.Cg)([h.o], fe.prototype, "OnSaveCurrentBinding", null),
           (0, n.Cg)([h.o], fe.prototype, "renderSelectConfirmModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "renderSaveWithUnboundModal", null),
+          (0, n.Cg)([h.o], fe.prototype, "OnConfirmUnboundSave", null),
+          (0, n.Cg)([h.o], fe.prototype, "OnConfirmUnboundCancel", null),
           (0, n.Cg)([h.o], fe.prototype, "OnSaveClicked", null),
           (0, n.Cg)([h.o], fe.prototype, "OnLegacySetup", null),
           (0, n.Cg)([h.o], fe.prototype, "OnSecondaryControllerSetup", null),
@@ -13182,7 +13301,7 @@ var CLSTAMP = "10223590";
         };
         (0, n.Cg)([h.o], Ee.prototype, "CloseDialog", null),
           (Ee = (0, n.Cg)([r.PA], Ee));
-        let Me = class extends i.Component {
+        let we = class extends i.Component {
           constructor(e) {
             super(e);
             let t = p.B$.SelectedAppActions;
@@ -13445,13 +13564,13 @@ var CLSTAMP = "10223590";
             );
           }
         };
-        (0, n.Cg)([h.o], Me.prototype, "OnDelete", null),
-          (0, n.Cg)([h.o], Me.prototype, "OnDeleteConfirmed", null),
-          (0, n.Cg)([h.o], Me.prototype, "OnDeleteCancel", null),
-          (0, n.Cg)([h.o], Me.prototype, "renderDeleteConfirmModal", null),
-          (0, n.Cg)([h.o], Me.prototype, "OnView", null),
-          (0, n.Cg)([h.o], Me.prototype, "OnSelect", null),
-          (Me = (0, n.Cg)([r.PA], Me));
+        (0, n.Cg)([h.o], we.prototype, "OnDelete", null),
+          (0, n.Cg)([h.o], we.prototype, "OnDeleteConfirmed", null),
+          (0, n.Cg)([h.o], we.prototype, "OnDeleteCancel", null),
+          (0, n.Cg)([h.o], we.prototype, "renderDeleteConfirmModal", null),
+          (0, n.Cg)([h.o], we.prototype, "OnView", null),
+          (0, n.Cg)([h.o], we.prototype, "OnSelect", null),
+          (we = (0, n.Cg)([r.PA], we));
         let Oe = class extends i.Component {
           constructor(e) {
             super(e), (this.state = { bIsBindingsLoading: !0 });
@@ -13521,7 +13640,7 @@ var CLSTAMP = "10223590";
               (n = o
                 .filter(t)
                 .map((e, t) =>
-                  i.createElement(Me, {
+                  i.createElement(we, {
                     key: t,
                     currentBinding: u.n.CurrentBinding,
                     result: e,
@@ -13636,7 +13755,7 @@ var CLSTAMP = "10223590";
                       (0, c.we)("#BindingUI_List_CurrentSection"),
                     ),
                     o &&
-                      i.createElement(Me, {
+                      i.createElement(we, {
                         result: o,
                         currentBinding: u.n.CurrentBinding,
                         fnViewBinding: this.ViewBinding,
@@ -13739,7 +13858,7 @@ var CLSTAMP = "10223590";
           (0, n.Cg)([h.o], Oe.prototype, "ComputeResultsSection", null),
           (0, n.Cg)([h.o], Oe.prototype, "CreateControllerTypeDropdown", null),
           (Oe = (0, n.Cg)([r.PA], Oe));
-        let we = class extends i.Component {
+        let Me = class extends i.Component {
           constructor(e) {
             super(e),
               (this.state = {
@@ -13773,7 +13892,7 @@ var CLSTAMP = "10223590";
             );
           }
         };
-        we = (0, n.Cg)([r.PA], we);
+        Me = (0, n.Cg)([r.PA], Me);
         let ke = class extends i.Component {
           constructor(e) {
             super(e),
@@ -13805,7 +13924,7 @@ var CLSTAMP = "10223590";
                       "div",
                       { className: "AppSelectListItems" },
                       o.map((e, t) =>
-                        i.createElement(we, {
+                        i.createElement(Me, {
                           key: t,
                           app: e,
                           fnSelectApp: this.SelectApplication,
@@ -13831,17 +13950,17 @@ var CLSTAMP = "10223590";
                     "div",
                     { className: "AppSelectListItems" },
                     l &&
-                      i.createElement(we, {
+                      i.createElement(Me, {
                         app: l,
                         fnSelectApp: this.SelectApplication,
                       }),
                     e &&
-                      i.createElement(we, {
+                      i.createElement(Me, {
                         app: e,
                         fnSelectApp: this.SelectApplication,
                       }),
                     t &&
-                      i.createElement(we, {
+                      i.createElement(Me, {
                         app: t,
                         fnSelectApp: this.SelectApplication,
                       }),
@@ -15080,4 +15199,4 @@ var CLSTAMP = "10223590";
     n(6313),
   );
   i = n.O(i);
-})(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/controllerbindingui.js.map
+})(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/controllerbindingui.js.map

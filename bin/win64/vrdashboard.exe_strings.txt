@@ -4,8 +4,7 @@
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
-%s begin_ctx=%llu
-%s end_ctx=%llu
+%s[%s] %s file=%s
 ' is not a number.
 , last executing in 
 -1e+9999
@@ -133,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-17:48:08
+16:36:13
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -202,6 +201,11 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Better GPU preference is available, scheduling restart.\n
+CSteamWorker::RunFrame
+CVRDashboardScreenshotManager::OnScreenshotSubmitted
+CVRDashboardScreenshotManager::OnScreenshotTaken
+CVRDashboardScreenshotManager::OnScreenshotTriggered
+CVRDashboardScreenshotManager::SubmitScreenShotToSteam
 CVRLog::LogDirect
 Cannot initialize crash handling in a project without the Steam API available
 Checking if GPU preference is still valid...\n
@@ -296,6 +300,7 @@ IVRApplications_007
 IVRBlockQueue_005
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -354,17 +359,19 @@ Missing ':' after object member name
 Missing '}' or object member name
 MoveFileExW
 NULL
-Nov 10 2025
+Nov 12 2025
 Out of thread local storage!\n
 OutputDebugStringA
 PeekMessageA
 Process VR events.
+ProcessVREvents
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSq
+RSDS
 RaiseException
 ReadFile
+RealMain
 RegCloseKey
 RegCreateKeyExA
 RegOpenKeyExA
@@ -382,6 +389,7 @@ RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 Run Steam Frame.
+RunSteamFrame
 SHELL32.dll
 SHGetFolderPathW
 STEAMAPPLIST_INTERFACE_VERSION001
@@ -513,16 +521,9 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 WideCharToMultiByte
 Windows message pump.
 WriteFile
-[CSteamWorker] CSteamWorkerRunFrame
 [Steam] Steam INIT.\n
 [Steam] Steam SHUTDOWN.\n
 [Steam] SteamAppID mismatch: got %d, expected %d\n
-[Vrdashboard] OnScreenshotSubmitted
-[Vrdashboard] OnScreenshotTaken
-[Vrdashboard] OnScreenshotTriggered
-[Vrdashboard] ProcessVREvents
-[Vrdashboard] RunSteamFrame
-[Vrdashboard] SubmitScreenShotToSteam
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -607,11 +608,18 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\vrdashboard_main.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\steam_worker_thread.cpp:171
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:131
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:157
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:30
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:89
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp:816
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp:823
 collectComments
 config
 cs_cz

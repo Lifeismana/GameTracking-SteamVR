@@ -20,9 +20,8 @@
 "\r?indexOf@QLayout@@UEBAHPEAVQWidget@@@Z
 "iTXtXML:com.adobe.xmp
 %010lu:%010lu
-%s begin_ctx=%llu
-%s end_ctx=%llu
 %s: failed with error '%s' (%d)
+%s[%s] %s file=%s
 ' is not a number.
 *** Blank Key ***
 +!?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
@@ -553,7 +552,7 @@ Background Color
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-CD3D11::WaitForPresent
+CD3D11::EndScene
 CD3DRenderer::CreateShaders: Failed to constant buffer!\n
 CD3DRenderer::CreateShaders: Failed to create input layout for vertex shader %s!\n
 CD3DRenderer::CreateShaders: Failed to create pixel shader %s!\n
@@ -657,6 +656,7 @@ IVRApplications_007
 IVRBlockQueue_005
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -701,7 +701,6 @@ IsValidSid
 J?green@QColor@@QEBAHXZ
 K?invalidate@QColor@@AEAAXXZ
 KERNEL32.dll
-La\rn
 LeaveCriticalSection
 Line %d, Column %d
 Linear
@@ -884,8 +883,10 @@ Value
 Valve
 VerSetConditionMask
 VerifyVersionInfoW
+VirtualQuery
 Visibility details
 Visible
+WaitForPresent
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
@@ -908,7 +909,7 @@ Z\f?hasHeightForWidth@QBoxLayout@@UEBA_NXZ
 [IPC] Failed creating auto reset event %s (GLE: %u)\n
 [IPC] Failed creating file mapping %s: %u\n
 [IPC] Failed creating mutex %s (GLE: %u)\n
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d/%d); Error code: 0x%08x\n
 [IPC] Failed to open event %s because access was denied\n
 [IPC] Failed to open file mapping %s because access was denied\n
 [IPC] Failed to open mutex %s because access was denied\n
@@ -924,6 +925,7 @@ Z\f?hasHeightForWidth@QBoxLayout@@UEBA_NXZ
 [IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
+[IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 \f?fromUtf8@QString@@SA?AV1@PEBDH@Z
 \f?fromWCharArray@QString@@SA?AV1@PEB_WH@Z
 \f?getColor@QColorDialog@@SA?AVQColor@@AEBV2@PEAVQWidget@@AEBVQString@@V?$QFlags@W4ColorDialogOption@QColorDialog@@@@@Z
@@ -1061,9 +1063,12 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\overlay_viewer\Retail\win64\2017\overlay_viewer.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\Retail\win64\2017\overlay_viewer.pdb
+c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:414
+c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:421
 captureMouse
 client
 collectComments
@@ -1106,7 +1111,7 @@ h\r?inputMethodEvent@QAbstractItemView@@MEAAXPEAVQInputMethodEvent@@@Z
 horizontalSplitterSizes
 hu_hu
 hungarian
-iCD3D11::Present
+iPresent
 icons
 icons:not_visible.png
 icons:visible.png
@@ -1132,6 +1137,7 @@ l ?updateGeometries@QTableView@@MEAAXXZ
 latam
 linear
 m\n?dropMimeData@QTableWidget@@MEAA_NHHPEBVQMimeData@@W4DropAction@Qt@@@Z
+m_pData
 malloc
 map/set<T> too long
 memcmp
@@ -1139,6 +1145,7 @@ memcpy
 memmove
 memset
 modf
+nExistingSize >= nSize
 nb_no
 nfinity
 nl_nl

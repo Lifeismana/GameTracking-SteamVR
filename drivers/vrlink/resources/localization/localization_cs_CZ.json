@@ -19,6 +19,7 @@
 	"Setting_WirelessShutdownTimeout": "Po odpojení ukončit režim SteamVR za",
 	"Setting_AllowVolumeControlSync": "Ovládat hlasitost a ztlumení headsetu z režimu SteamVR",
 	"Setting_DisableQoS": "Vypnout QoS",
+	"Setting_EnableQoS": "Zapnout QoS",
 	"svl_hand_interaction_augmented": "Ovladač se sledováním dlaní",
 	"/input/index_pinch": "Sevření ukazováčku a palce",
 	"/input/middle_pinch": "Sevření prostředníčku a palce",

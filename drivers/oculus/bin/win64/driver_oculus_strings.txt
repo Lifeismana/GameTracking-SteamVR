@@ -7,6 +7,7 @@
  at line 
  exceeds maximum allowed file size 
  in Buffer\n
+!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 " not found in the scene.
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
@@ -31,8 +32,7 @@ $3br
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %llu
-%s begin_ctx=%llu
-%s end_ctx=%llu
+%s[%s] %s file=%s
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
 ' property is missing
@@ -305,12 +305,12 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899P&\f
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 1e+9999
 2.5.4.3
-7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -440,9 +440,15 @@ CD3D11VRRenderer::Signal
 CD3D11VRRenderer::UnampTexture: dangling data pointer\n
 CKeyframedDataResource
 COLOR
+COculusDirect::AcquireSync
+COculusDirect::PostPresent
+COculusDirect::Present
+COculusDirect::ReleaseSync
+COculusDirect::WaitForRunningStart
 COculusHmdLatest::UpdateThread
 COculusState::CreateSession
 CServerDriver_Oculus::Cleanup
+CSignalThread::WaitUntil
 Camera
 CertGetNameStringW
 Chaperone updated with universe ID %d\n
@@ -555,6 +561,7 @@ IVRBlockQueue_005
 IVRCameraComponent_003
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -701,7 +708,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDS)\v
 RaiseException
 ResetEvent
 RootNode
@@ -793,7 +800,6 @@ XXXX PNG chunk not known
 Zjz\v
 [AnimSkeleton] Failed to load GLTF file: %s
 [KeyFramedDataResource] Failed to load GLTF file: %s
-[OVRSignalThread] Wait
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
 [OculusDirect] !!!! AcquireSync FAILED with WAIT_ABANDONED
 [OculusDirect] !!!! AcquireSync FAILED with WAIT_TIMEOUT
@@ -801,11 +807,7 @@ Zjz\v
 [OculusDirect] !!!! ReleaseSync FAILED with E_FAIL
 [OculusDirect] !!!! ReleaseSync FAILED with unknown hr
 [OculusDirect] PostPresent:%lli th=%d pr=%d(%d)
-[OculusDirect] ReleaseSync
 [OculusDirect] Vsync: %.2f(%.2f) th=%d pf=%d qa=%.2fms pt=%.2f asw=%d
-[OculusDirect] ovr_BeginFrame:%lli
-[OculusDirect] ovr_EndFrame:%lli
-[OculusDirect] ovr_WaitToBeginFrame:%lli
 [json.exception.
 \nbad png sig
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
@@ -819,7 +821,6 @@ Zjz\v
 ] invalid bufferView
 ] is not a JSON object.
 ],"subtype":
-][OculusDirect] AquireSync
 _Camera
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -993,13 +994,19 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\Retail\win64\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp:1041
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp:1068
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp:1166
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp:1197
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp:294
+c:\buildslave\steamvr_rel_win64\build\src\drivers\oculus\oculusdirect.cpp:982
 camera
 cameras
 can't merge dc and ac
@@ -1221,6 +1228,7 @@ missing color table
 mode
 modf
 multiple IHDR
+nIndex=%lli
 name
 nb_no
 nl_nl
@@ -1511,6 +1519,7 @@ shaders/d3d11/distort_vs_latest_nd.fxo
 shaders/d3d11/distort_vs_layered.fxo
 shaders/d3d11/distort_vs_layered_nd.fxo
 shaders/d3d11/distort_vs_nd.fxo
+shaders/d3d11/distort_vs_reproject_fv.fxo
 shaders/d3d11/distort_vs_reproject_layered.fxo
 shaders/d3d11/distort_vs_reproject_layered_nd.fxo
 shaders/d3d11/distort_vs_reproject_mv.fxo

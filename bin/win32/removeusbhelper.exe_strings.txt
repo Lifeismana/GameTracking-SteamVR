@@ -99,6 +99,24 @@
 .txt
 .xdata$x
 //==============================================================================================\n
+/user/ankle/left
+/user/ankle/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/user/wrist/left
+/user/wrist/right
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -159,13 +177,14 @@
 A valid JSON document must be either an array or an object value.
 ADVAPI32.dll
 ASSERT: "%s" at %s:%d.\n
-Added ALL_APPCONTAINER_ACCESS to %s
+Added SID to %s
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 CVRLog::LogDirect
 CloseHandle
 Commands:\n
+ConvertStringSidToSidA
 CreateDirectoryW
 CreateEventW
 CreateFileW
@@ -184,8 +203,10 @@ Exceeded stackLimit in readValue().
 Explicit
 Extra non-whitespace after JSON value.
 FATAL: Failed to open log file %s, failing out!\n
+Failed to create AllApplicationPackagesSid\n
+Failed to create AllRestrictedApplicationPackagesSid\n
 Failed to create WinBuiltinAnyPackageSid\n
-Failed to set ALL_APPCONTAINER_ACCESS on %s\n
+Failed to set SID on %s\n
 Fatal
 Found %d SteamVR endpoints, %d already have %s disabled.
 Found %d devices.\n
@@ -245,7 +266,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS`i5H
+RSDS
 RaiseException
 RegCloseKey
 RegCreateKeyExW
@@ -264,6 +285,8 @@ RegSetValueExA
 RegSetValueExW
 Removing SteamVR USB Devices:\n
 ResetEvent
+S-1-15-2-1
+S-1-15-2-2
 SETUPAPI.dll
 SHELL32.dll
 SHGetFolderPathW
@@ -416,9 +439,9 @@ bad allocation
 bad array new length
 bad conversion
 bin/vrclient_x64.dll
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\app_containers.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\removeusbhelper\Retail\win32\2017\removeusbhelper.pdb
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\app_containers.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win32\build\src\removeusbhelper\Retail\win32\2017\removeusbhelper.pdb
 collectComments
 config
 deque<T> too long

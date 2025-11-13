@@ -30,7 +30,7 @@
       "priority" : 95,
       "from_controller_type" : "oculus_touch",
       "simulate_controller_type" : true,
-      "simulate_render_model" : true,
+      "simulate_render_model" : "full",
       "simulate_HMD" : true,
       "autoremappings" : [
         {
@@ -57,7 +57,7 @@
       "priority" : 90,
       "from_controller_type" : "knuckles",
       "simulate_controller_type" : true,
-      "simulate_render_model" : true,
+      "simulate_render_model" : "full",
       "simulate_HMD" : true,
       "autoremappings" : [
         {
@@ -78,7 +78,7 @@
       "priority" : 70,
       "from_controller_type" : "hand_interaction_ext",
       "simulate_controller_type" : false,
-      "simulate_render_model" : false,
+      "simulate_render_model" : "full",
       "simulate_HMD" : false,
       "autoremappings" : [
         {

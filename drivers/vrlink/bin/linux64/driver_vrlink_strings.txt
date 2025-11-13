@@ -53,10 +53,6 @@ $3br
 %llu
 %s %s (Steam Link)
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
-%s begin_ctx=%lu
-%s dtime=%d begin_ctx=%lu
-%s dtime=%d end_ctx=%lu
-%s end_ctx=%lu
 %s/.steam/steam
 %s: __pos (which is %zu) > this->size() (which is %zu)
 %u of %u datalinks failed to initialize. Returning the last failure.
@@ -264,6 +260,8 @@ $3br
 /data/src/common/vrcommon/vrkeyboard.cpp
 /data/src/common/vrcommon/vrmailbox.cpp
 /data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp
+/data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp:1815
+/data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp:1846
 /data/src/common/vrcommon/vrsystemlayersharedstate.cpp
 /data/src/common/vrcore/src/ipcpipe.cpp
 /data/src/common/vrcore/src/ipcposix.cpp
@@ -274,6 +272,9 @@ $3br
 /data/src/common/vrcore/src/threadwatchdog.cpp
 /data/src/common/vrcore/src/vrcrash.cpp
 /data/src/common/vrcore/src/vripcsharedstate.cpp
+/data/src/vrlink/driver_vrlink/hmd.cpp:2059
+/data/src/vrlink/driver_vrlink/hmd.cpp:2299
+/data/src/vrlink/driver_vrlink/hmd.cpp:2411
 /data/src/vrlink/driver_vrlink/hmdvulkan.cpp
 /data/src/vrlink/driver_vrlink/steamvrlink.cpp
 /data/src/vrlink/driver_vrlink/videovulkan.cpp
@@ -444,6 +445,11 @@ $3br
 /user/hand/left
 /user/hand/left/input/bumper/click
 /user/hand/left/input/bumper/touch
+/user/hand/left/input/capsense/bumper
+/user/hand/left/input/capsense/grip
+/user/hand/left/input/capsense/pinky
+/user/hand/left/input/capsense/ring
+/user/hand/left/input/capsense/trigger
 /user/hand/left/input/dpad_down/click
 /user/hand/left/input/dpad_down/touch
 /user/hand/left/input/dpad_left/click
@@ -477,6 +483,11 @@ $3br
 /user/hand/right/input/b/touch
 /user/hand/right/input/bumper/click
 /user/hand/right/input/bumper/touch
+/user/hand/right/input/capsense/bumper
+/user/hand/right/input/capsense/grip
+/user/hand/right/input/capsense/pinky
+/user/hand/right/input/capsense/ring
+/user/hand/right/input/capsense/trigger
 /user/hand/right/input/grip/click
 /user/hand/right/input/grip/touch
 /user/hand/right/input/grip/value
@@ -506,12 +517,13 @@ $3br
 0-pixel image
 0.0.0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:36:00
 0123456789
 0123456789ABCDEF
-01:48:01
 1 Sec
 1/2/4/8/16-bit only
 10.35.78
+10.35.78.0
 10CVRMailbox
 10bit
 11 4 22 44 44 22 444444
@@ -558,11 +570,14 @@ $3br
 23CUsbDeviceScannerThread
 23SVLBaseControllerDriver
 24CSharedResourceBaseLinux
+255.255.255.0
 26CHandPoseLogic_OculusTouch
 29CSharedCountingSemaphoreLinux
+30CHandPoseLogic_IndexController
 30CSharedResourceNamespaceServer
 4fff>fff>fff>fff>
 4gTMHV
+5"lw{
 6SVLFEC
 7CThread
 7SVLRoot
@@ -586,6 +601,7 @@ $3br
 <uninitialized>
 <unknown>
 ================================================================================================\n
+>KPm?
 ?*Z33InitInternalInterfacesNonStandardPFPvPKcEEUlS1_E_
 ?ffffff
 A valid JSON document must be either an array or an object value.
@@ -593,6 +609,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
 AES0
 AKST
+ALBasename(char const*)
 APing
 ASCII
 ASCII//TRANSLIT
@@ -902,8 +919,6 @@ CBoneMaskResource::MyTypeID()::sID
 CBoneMaskResource::MyTypeInfo()
 CBoneMaskResource::m_typeInfoCBoneMaskResource
 CBoneMaskResource::~CBoneMaskResource()
-CConditionalScopedEventDuration::CConditionalScopedEventDuration(char const*, ...)
-CConditionalScopedEventDuration::~CConditionalScopedEventDuration()
 CControlConnection::CControlConnection(SVLRoot*, std::unique_ptr<IControlConnectionImpl, std::default_delete<IControlConnectionImpl>>&&)
 CControlConnection::Disconnect()
 CControlConnection::OnConnect(unsigned int, unsigned short)
@@ -951,6 +966,33 @@ CHandAnimEvaluator::RunThread()
 CHandAnimEvaluator::Update(float)
 CHandAnimEvaluator::Update(float) (.part.0)
 CHandAnimEvaluator::~CHandAnimEvaluator()
+CHandPoseLogic_IndexController::AddFingerCurl(CPoseRecipe&, unsigned char) const
+CHandPoseLogic_IndexController::AddHandleSqueeze(CPoseRecipe&, unsigned char, bool) const
+CHandPoseLogic_IndexController::AddJoyStickPress(CPoseRecipe&, unsigned char) const
+CHandPoseLogic_IndexController::AddThumbPose(CPoseRecipe&) const
+CHandPoseLogic_IndexController::AddThumbPoseEmptyHand(CPoseRecipe&, unsigned char) const
+CHandPoseLogic_IndexController::CHandPoseLogic_IndexController()
+CHandPoseLogic_IndexController::CHandPoseLogic_IndexController() (.cold)
+CHandPoseLogic_IndexController::CalcNewThumbState() const
+CHandPoseLogic_IndexController::CreateGripLimitRecipe(CPoseRecipe&)
+CHandPoseLogic_IndexController::CreatePoseRecipe(CPoseRecipe&) const
+CHandPoseLogic_IndexController::CreatePoseRecipeWithoutController(CPoseRecipe&) const
+CHandPoseLogic_IndexController::GetIDForButton(CHandPoseLogic_IndexController::EButton) const
+CHandPoseLogic_IndexController::GetTrackingLevel() const
+CHandPoseLogic_IndexController::InitResources(CAnimSkeleton const*, vr::EVRHandSide)
+CHandPoseLogic_IndexController::InitResources(CAnimSkeleton const*, vr::EVRHandSide) (.cold)
+CHandPoseLogic_IndexController::IsPressed(CHandPoseLogic_IndexController::EButton) const
+CHandPoseLogic_IndexController::IsPressedOrTouched(CHandPoseLogic_IndexController::EButton) const
+CHandPoseLogic_IndexController::IsTouched(CHandPoseLogic_IndexController::EButton) const
+CHandPoseLogic_IndexController::SetButtonStatus(unsigned long, unsigned long, unsigned long)
+CHandPoseLogic_IndexController::SetFingerCurl(float, float, float, float)
+CHandPoseLogic_IndexController::SetHandleSqueeze(float)
+CHandPoseLogic_IndexController::SetJoyStickPosition(float, float)
+CHandPoseLogic_IndexController::SetOrientation(vr::HmdQuaternion_t const&)
+CHandPoseLogic_IndexController::SetTrackPadPosition(float, float)
+CHandPoseLogic_IndexController::SetTriggerSqueeze(float)
+CHandPoseLogic_IndexController::Update(float)
+CHandPoseLogic_IndexController::~CHandPoseLogic_IndexController()
 CHandPoseLogic_OculusTouch::AddGripButton(CPoseRecipe&, unsigned char) const
 CHandPoseLogic_OculusTouch::AddJoyStickPress(CPoseRecipe&, unsigned char) const
 CHandPoseLogic_OculusTouch::AddJoyStickPress(CPoseRecipe&, unsigned char) const (.part.0)
@@ -1234,11 +1276,12 @@ CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
-CSWTCH.127
+CSWTCH.128
+CSWTCH.143
 CSWTCH.216
 CSWTCH.409
 CSWTCH.91
-CScopedEventDuration::CScopedEventDuration(char const*, ...)
+CScopedEventDuration::CScopedEventDuration(char const*, char const*, char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CScopedWatchdogDetailStringViaIVRServer::CScopedWatchdogDetailStringViaIVRServer(char const*)
 CScopedWatchdogDetailStringViaIVRServer::~CScopedWatchdogDetailStringViaIVRServer()
@@ -1271,11 +1314,9 @@ CSharedCountingSemaphoreLinux::GetType() const
 CSharedCountingSemaphoreLinux::ImportVulkanCountingSemaphore(VkDevice_T*, unsigned long)
 CSharedCountingSemaphoreLinux::Signal(unsigned long, vr::VRNativeDevice_t const*)
 CSharedCountingSemaphoreLinux::Signal(unsigned long, vr::VRNativeDevice_t const*) (.cold)
-CSharedCountingSemaphoreLinux::Signal: %lu
 CSharedCountingSemaphoreLinux::Wait(unsigned long, vr::VRNativeDevice_t const*)
 CSharedCountingSemaphoreLinux::Wait(unsigned long, vr::VRNativeDevice_t const*) (.cold)
 CSharedCountingSemaphoreLinux::Wait(unsigned long, vr::VRNativeDevice_t const*)::s_bDisableTimelineSemaphoreWait
-CSharedCountingSemaphoreLinux::Wait: %lu
 CSharedCountingSemaphoreLinux::~CSharedCountingSemaphoreLinux()
 CSharedImageLinux*& std::vector<CSharedImageLinux*, std::allocator<CSharedImageLinux*>>::emplace_back<CSharedImageLinux*>(CSharedImageLinux*&&)
 CSharedImageLinux::CSharedImageLinux(vr::IVRIPCResourceManagerClient*)
@@ -1891,9 +1932,9 @@ Error: m_fec not initialized!\n
 EstBW
 EventWriteString(char const*, EVRTraceEvent)
 EventWriteString(char const*, EVRTraceEvent) (.cold)
-EventWriteStringBegin(char const*, unsigned long)
-EventWriteStringDurationF(int, char const*, ...)
-EventWriteStringEnd(char const*, unsigned long)
+EventWriteStringBegin(char const*, char const*, char const*, unsigned long)
+EventWriteStringBeginEnd(bool, char const*, char const*, char const*, unsigned long)
+EventWriteStringEnd(char const*, char const*, char const*, unsigned long)
 EventWriteStringF(char const*, ...)
 EventsThread
 Exceeded stackLimit in readValue().
@@ -2309,6 +2350,7 @@ IVRBlockQueue_005
 IVRCameraComponent_003
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -2889,6 +2931,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
+JsonValueToESimulateRenderModel(Json::Value const&)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
 July
@@ -3084,7 +3127,7 @@ Node has extension MSFT_lod, but does not reference other nodes via their ids.\n
 None
 NormalTextureInfo
 Note
-Nov 11 2025
+Nov 13 2025
 November
 OGCancelThread
 OGCreateMutex
@@ -3471,7 +3514,7 @@ Prop_OverrideContainer_Uint64
 Prop_ParentContainer
 Prop_ParentDriver_Uint64
 Prop_PeripheralApplicationVersion_Uint64
-Prop_PreviousUniverseId_Uint64
+Prop_PreviousUniverseId_Uint64_deprecated
 Prop_RadioVersion_Uint64
 Prop_RegisteredDeviceType_String
 Prop_RenderModelName_String
@@ -3777,6 +3820,7 @@ SVLControllerDriver::PowerOff()
 SVLControllerDriver::ProcessEvent(vr::VREvent_t const&)
 SVLControllerDriver::ProcessEvent(vr::VREvent_t const&) (.cold)
 SVLControllerDriver::SVLControllerDriver(int, SVLDriver*)
+SVLControllerDriver::UpdateRoyHandPose(int, WaitGetPosesPacket_t const*, vr::DriverPose_t const&)
 SVLControllerDriver::m_sendHapticsPacket
 SVLControllerDriver::~SVLControllerDriver()
 SVLCrypt::AES128SetKey(std::vector<char, std::allocator<char>>&)
@@ -3796,6 +3840,7 @@ SVLCryptSoft::AES128SetKeyInternal(unsigned char const*, unsigned char const*)
 SVLCryptSoft::~SVLCryptSoft()
 SVLDataLink::BIsLinkActiveCheck()
 SVLDataLink::BIsLinkPossible()
+SVLDataLink::BIsUsingRealtekDongle()
 SVLDataLink::ChangeQoSState(bool)
 SVLDataLink::CheckUpdateCounters()
 SVLDataLink::CheckUpdateCounters() (.cold)
@@ -4053,6 +4098,7 @@ SVLHMDDriver::InitializeOSC: OSC was disabled
 SVLHMDDriver::IsDisplayOnDesktop()
 SVLHMDDriver::IsDisplayRealDisplay()
 SVLHMDDriver::OnConnectionStatusChanged(bool)
+SVLHMDDriver::OnDriverSettingsChange()
 SVLHMDDriver::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
 SVLHMDDriver::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*) (.cold)
 SVLHMDDriver::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)::nIncrementedResetID
@@ -4361,6 +4407,7 @@ SharedObjMgr().Init() failed
 Shutdown
 ShutdownLPP()
 Sideband Err
+Signal
 Skin
 Slerp(CTransform const&, CTransform const&, float)
 Socket bound to port %d\n
@@ -5488,6 +5535,7 @@ WARNING: Packet was XMITTed that was too big. [%d %d %d %d / %d]\n
 WARNING: Too many bytes in TX Audio aggregate.  This should be impossible.\n
 WGPRX
 WM_DELETE_WINDOW
+Wait
 Waiting for shared fd client failed\n
 Warning
 Warning on network test item #%d (Insufficient ping tests)
@@ -5551,6 +5599,7 @@ XSetWMProtocols
 XXXX PNG chunk not known
 YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
 Zjz\v
+[%s] %s=%lu tgid=%d file=%s %s
 [AnimSkeleton] Failed to load GLTF file: %s
 [Audio] Attempt to set audio rx channels to %d.
 [Audio] frame rate change, reinitializing: %d %d to %d %d\n
@@ -6150,6 +6199,7 @@ basic_string::insert
 basic_string::replace
 basic_string::resize
 basic_string::substr
+begin_ctx
 bg_bg
 binary
 bind
@@ -6159,13 +6209,18 @@ bindtextdomain
 blank
 blaum_roth_coding_bitmatrix
 blue
+bonemask_fingeraux.txt
 bonemask_grip.txt
 bonemask_index.txt
 bonemask_indexcurl.txt
 bonemask_indexnocarpal.txt
 bonemask_middle.txt
 bonemask_middlenocarpal.txt
+bonemask_pinky.txt
+bonemask_ring.txt
+bonemask_squeeze.txt
 bonemask_thumb.txt
+bonemask_thumb_and_wrist.txt
 bool __gnu_cxx::operator==<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>(__gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>> const&, __gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>> const&)
 bool __gnu_cxx::operator==<char const*, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string> const&, __gnu_cxx::__normal_iterator<char const*, std::string> const&)
 bool __gnu_cxx::operator==<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>> const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>> const&)
@@ -6270,7 +6325,6 @@ cAudFwd
 cAudOvf
 cAudRew
 cAudUnd
-cDegateAdj
 cFramePhase
 cIntToHexDigit(int)
 cPingAMS
@@ -6419,6 +6473,7 @@ dbgStartEnc
 dbgSyncOff
 dbgTXWaitMS
 de_de
+debugRegionColoring
 default
 default_menu2
 deque::_M_new_elements_at_back
@@ -6427,7 +6482,6 @@ dest
 device.icon-name
 dgettext
 digit
-disableQoS
 discarded
 displayFrequency
 distanceModel
@@ -6460,6 +6514,7 @@ enableQoS
 enableTimedRetry
 enableYAMLCompatibility
 end of input
+end_ctx
 english
 error
 error.png
@@ -6543,6 +6598,7 @@ ftell
 ftello64
 ftruncate
 ftruncate of %s, %d, %u failed: %d
+full
 futex robust_list not initialized by pthreads
 futex robust_list not pthreads-compatible
 fwrite
@@ -6595,6 +6651,7 @@ g_pVRBlockQueue
 g_pVRCameraPassthroughInternal
 g_pVRChaperone
 g_pVRChaperoneInternal
+g_pVRChaperoneServerDriver
 g_pVRChaperoneSetup
 g_pVRClientInternal
 g_pVRControlPanel
@@ -6803,6 +6860,7 @@ guard variable for tinygltf::Value::Get(unsigned long) const::null_value
 guard variable for videoenc::UpdateBWMux()::k_pathDriverVrlinkNetworkTestedBandwidth
 guard variable for videovulkan::CreateVideoSessionParamaters()::uMaxTransformHeirarchyDepth
 guest
+hand_right_closeanim.glb
 hand_right_poses.glb
 handle_recenter
 handlers
@@ -6849,9 +6907,12 @@ inactive
 incomplete UTF-8 string; last byte: 0x
 indentation
 index
+indexcontroller
+indexcontroller_anim_closesqueeze.glb
 indices
 inet_addr
 inet_ntop
+inet_pton
 info.png
 init_dwarf_reg_size_table
 innerConeAngle
@@ -7137,11 +7198,13 @@ mt19937
 mult_type
 multiple IHDR
 munmap
+nFenceValue=%lu
 nFramesSkippedPS
 nKeyLen + sConnectionInfo.length() < vPassKey.size() - 1
 nLayerCount
 nPrimaryLayer
 name
+name_only
 nanosleep
 nb_no
 network-wireless
@@ -7233,6 +7296,7 @@ non-virtual thunk to std::basic_iostream<char, std::char_traits<char>>::~basic_i
 non-virtual thunk to std::basic_iostream<wchar_t, std::char_traits<wchar_t>>::~basic_iostream()
 non-virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_stringstream()
 non-virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_stringstream()
+none
 normalTexture
 normalized
 norwegian
@@ -11619,6 +11683,7 @@ typeinfo for CControlConnection::OnConnect(unsigned int, unsigned short)::'lambd
 typeinfo for CControlConnection::OnConnect(unsigned int, unsigned short)::'lambda0'(Json::Value const&)
 typeinfo for CControlConnection::OnData(void*, unsigned long)::'lambda'(void const*, unsigned long)
 typeinfo for CControlConnection::SendMessageToRemote(std::string const&, Json::Value const&)::'lambda'(void const*, unsigned long)
+typeinfo for CHandPoseLogic_IndexController
 typeinfo for CHandPoseLogic_OculusTouch
 typeinfo for CKeyframedDataResource
 typeinfo for CLogBuffer::CLogBuffer()::'lambda'(ELogLevel, char const*, void*)
@@ -11995,6 +12060,7 @@ typeinfo name for CControlConnection::OnConnect(unsigned int, unsigned short)::'
 typeinfo name for CControlConnection::OnConnect(unsigned int, unsigned short)::'lambda0'(Json::Value const&)
 typeinfo name for CControlConnection::OnData(void*, unsigned long)::'lambda'(void const*, unsigned long)
 typeinfo name for CControlConnection::SendMessageToRemote(std::string const&, Json::Value const&)::'lambda'(void const*, unsigned long)
+typeinfo name for CHandPoseLogic_IndexController
 typeinfo name for CHandPoseLogic_OculusTouch
 typeinfo name for CKeyframedDataResource
 typeinfo name for CLogBuffer::CLogBuffer()::'lambda'(ELogLevel, char const*, void*)
@@ -13481,6 +13547,7 @@ vr::VRDriverContext()::pHost
 vr::k_DefaultPathWriteOptions
 vr::k_InterfaceVersions
 vr_glove_left_skeleton.glb
+vr_glove_right_poses.glb
 vr_glove_right_skeleton.glb
 vr_internal::CVRPathHandle::~CVRPathHandle()
 vr_internal::CVRPathReads::IsValid() const
@@ -13518,10 +13585,10 @@ vr_internal::Localize(std::string const&, std::string const&, std::string const&
 vr_internal::VRApplications()
 vr_internal::VRApplicationsInternal()
 vr_internal::VRBlockQueue()
-vr_internal::VRCVTrackedHmdInternal()
 vr_internal::VRCameraPassthroughInternal()
 vr_internal::VRChaperone()
 vr_internal::VRChaperoneInternal()
+vr_internal::VRChaperoneServerDriver()
 vr_internal::VRChaperoneSetup()
 vr_internal::VRClientInternal()
 vr_internal::VRCompositorSystemInternal()
@@ -13583,6 +13650,7 @@ vtable for CAnimFactoryBaseT<CAnimResource>::CFactoryMakerT<CKeyframedDataResour
 vtable for CAnimResource
 vtable for CAnimSkeleton
 vtable for CBoneMaskResource
+vtable for CHandPoseLogic_IndexController
 vtable for CHandPoseLogic_OculusTouch
 vtable for CKeyframedDataResource
 vtable for CSharedBufferLinux

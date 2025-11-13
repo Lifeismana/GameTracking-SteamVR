@@ -293,7 +293,7 @@ Out of thread local storage!\n
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
 QueryPerformanceCounter
-RSDS
+RSDS}
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -361,6 +361,7 @@ VR_PATHREG_OVERRIDE
 VR_SETTINGS_FILE
 VR_SettingsMutex
 VR_SettingsState
+VirtualQuery
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
@@ -382,7 +383,7 @@ WriteFile
 [IPC] Failed creating auto reset event %s (GLE: %u)\n
 [IPC] Failed creating file mapping %s: %u\n
 [IPC] Failed creating mutex %s (GLE: %u)\n
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d/%d); Error code: 0x%08x\n
 [IPC] Failed to open event %s because access was denied\n
 [IPC] Failed to open file mapping %s because access was denied\n
 [IPC] Failed to open mutex %s because access was denied\n
@@ -398,6 +399,7 @@ WriteFile
 [IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
+[IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 [Settings] %s %s unknown type\n
 [Settings] Load Default Json Settings from %s\n
 [Settings] Load Json Settings from %s\n
@@ -480,9 +482,10 @@ backgroundUseDomeProjection
 bad allocation
 bad array new length
 bad conversion
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrurlhandler\Retail\win64\2017\vrurlhandler.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrurlhandler\Retail\win64\2017\vrurlhandler.pdb
 camera
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
@@ -538,6 +541,7 @@ invalid string position
 isspace
 keyboard
 keylength >= 2^30
+m_pData
 malloc
 map/set<T> too long
 memcmp
@@ -547,6 +551,7 @@ memset
 modelskins
 modf
 motionSmoothing
+nExistingSize >= nSize
 nfinity
 notifications
 openvr

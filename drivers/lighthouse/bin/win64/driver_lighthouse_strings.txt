@@ -226,11 +226,9 @@ $tAUUPE
 %llu
 %s - Unable to init\n
 %s - Unable to start replay of "%s"\n
-%s begin_ctx=%llu
 %s called without first releasing previous slot!
 %s created to play "%s"\n
 %s disambiguator provided base configuration. Rotor count: %d\n
-%s end_ctx=%llu
 %s pitch ~%0.1f deg roll ~%0.1f deg 
 %s%s%s%s%s%s%s
 %s-CommandBuffer-%d
@@ -458,6 +456,7 @@ $tAUUPE
 %s:ForceAcquireImageTimeline
 %s:SyncTexture
 %s:Timeline
+%s[%s] %s file=%s
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -661,7 +660,7 @@ $tAUUPE
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CLighthousePairing@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_636292ec0dcdb162c491278084ee9b55>@@@std@@U?$default_delete@V?$tuple@V<lambda_636292ec0dcdb162c491278084ee9b55>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_242c27bc71bb2387b77685fbfac46091>@@@std@@U?$default_delete@V?$tuple@V<lambda_242c27bc71bb2387b77685fbfac46091>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@U?$default_delete@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@U?$default_delete@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@@2@@std@@@std@@
 .?AV?$_Ref_count@UMultiCameraColorFrame@ST@@@std@@
@@ -698,10 +697,10 @@ $tAUUPE
 .?AVCDepthAugmentedPassthrough@@
 .?AVCDisambiguatorFramer@vortex@@
 .?AVCDisambiguatorSyncOnBeam@vortex@@
-.?AVCDisambiguatorTDM@?A0xf3883f88@vortex@@
+.?AVCDisambiguatorTDM@?A0xdd5c741a@vortex@@
 .?AVCDynamicState@pb@lighthouse@@
 .?AVCFirmwareManifest@@
-.?AVCHandPoseLogic_IndexController@vortex@@
+.?AVCHandPoseLogic_IndexController@@
 .?AVCHandPoseLogic_ViveWand@vortex@@
 .?AVCHeader@pb@lighthouse@@
 .?AVCHidDevice@vortex@@
@@ -1070,9 +1069,9 @@ $tAUUPE
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990
 0123456789abcdef
 0\tFAJ
+0a\v6<
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -1454,6 +1453,9 @@ CPPTYPE_UINT64
 CPrismDirect::CreateSwapTextureSet
 CPrismDirect::GetNextSwapTextureSetIndex
 CPrismDirect::Initialize
+CPrismDirect::PostPresent
+CPrismDirect::Present
+CPrismDirect::SubmitLayer
 CRecord
 CSharedResourceNamespaceClient::Init(): failed connect\n
 CSharedResourceNamespaceClient::Init(): failed to get server response\n
@@ -1539,27 +1541,14 @@ Client Device
 Client Graphics
 Client-AcquireSync
 Client-BeginFrame:%d
-Client-CreateSwapchain
 Client-DiscardFrame
-Client-DoMaintenance
 Client-ForcedTransitionFromPrism-Compute
 Client-ForcedTransitionFromPrism-Graphics
-Client-FrameAddLayerProjection
-Client-FrameBeginRendering
-Client-FrameDiscard
-Client-FrameEnd
-Client-FrameEndRendering
-Client-FrameStart
-Client-FrameSubmit:%d|%d
-Client-FrameWait
-Client-GetDeltaMs
 Client-InitSwapchainLayout
 Client-InitUBO
 Client-ReleaseAccess
 Client-ReleaseSync
 Client-SubmitLayers
-Client-WaitForBegin
-Client-WaitForRunningStart:%d|%d
 ClientBuffer:%u
 ClientBufferStaging-%llu:%d
 ClientQueryPool-%llu:%d
@@ -1576,7 +1565,6 @@ CoUninitialize
 CompositionState
 CompositionStateMutex
 Compute Client
-ConnectToPrism
 Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x\n
 ConvertStringSidToSidA
 CopySid
@@ -1711,7 +1699,6 @@ Enabling Prism Correction... overriding loaded device JSON
 Encountered error 
 End-of-file inside block comment.
 EndFrame called w/ incorrect client frame index.
-EndSession
 Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x\n
 Endpoint topology GetConnector(0) failed: hr = 0x%08x\n
 EnterCriticalSection
@@ -1950,6 +1937,7 @@ GetDXGISharedHandle
 GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x\n
 GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x\n
 GetDefaultAudioEndpoint failed: hr = 0x%08x\n
+GetDeltaMs
 GetDouble
 GetEnum
 GetEnvironmentVariableA
@@ -2122,6 +2110,7 @@ IVRCameraComponent_002
 IVRCameraComponent_003
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -2512,10 +2501,6 @@ Positional emitter description not found.
 Primitive
 Prism only supports DPOLY3 and DPOLY3_SCALED distortiong functions
 Prism%s: %s
-PrismDirect GetNextSwapTextureSetIndex
-PrismDirect PostPresent
-PrismDirect Present
-PrismDirect SubmitLayer
 PrismDirect Swapchain-%d:%d
 PrismTimeline:%llu
 Pro Audio
@@ -2533,7 +2518,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDSu0
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -2730,7 +2715,6 @@ Standby toggled
 Standby unknown hmd\n
 Start
 Start test failed\n
-StartSession
 Started pairing dongle serial=%s timeout=%f\n
 Starting test\n
 SteamPath
@@ -2743,14 +2727,12 @@ Stopping recording...\n
 String literals cannot cross line boundaries.
 StringOutputStream.
 Submit
-Submit: %s
 Success
 Success: 
 Successfully parsed Lighthouse DB rev %u from %s\n
 SwSyncDetect %s, primary: %s, alt: %s.  SensorType %d\n
 SwSyncDetect selected %s\n
 Swap
-Swapchain-WaitImage
 Switching IMU Only -> Lighthouse\n
 Switching Lighthouse -> IMU Only\n
 Symbol name "
@@ -3201,6 +3183,7 @@ VerifyVersionInfoW
 Version
 Video Failure
 Video state: 
+VirtualQuery
 Vive
 Vive 2.0
 Vive 2.0 DVT
@@ -3242,7 +3225,9 @@ WINRT_SetDisplayMode
 WINRT_WaitForPresent
 Wait
 Wait For Sync
+WaitForBegin
 WaitForMultipleObjects
+WaitForRunningStart nLastFrameIndex=%d nNextPrismWaitIndex=%d
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
@@ -3335,7 +3320,7 @@ Zjz\v
 [IPC] Failed creating auto reset event %s (GLE: %u)\n
 [IPC] Failed creating file mapping %s: %u\n
 [IPC] Failed creating mutex %s (GLE: %u)\n
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d/%d); Error code: 0x%08x\n
 [IPC] Failed to open event %s because access was denied\n
 [IPC] Failed to open file mapping %s because access was denied\n
 [IPC] Failed to open mutex %s because access was denied\n
@@ -3351,6 +3336,7 @@ Zjz\v
 [IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
+[IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 [KeyFramedDataResource] Failed to load GLTF file: %s
 [System] No OS path for logs available\n
 [System] No Steam Path available.\n
@@ -3361,7 +3347,6 @@ Zjz\v
 [packed = true] can only be specified for repeated primitive fields.
 \%03o
 \U%08x
-\fp8P
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -3690,34 +3675,59 @@ byteLength
 byteOffset
 byteStride
 bytes
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvrtools.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\distortion.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\prismdirect.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:106
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1107
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1544
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1599
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1615
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1791
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:612
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:633
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:658
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:682
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:704
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:726
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:77
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:830
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:852
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:898
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:964
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp:308
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:282
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:334
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp:503
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp:538
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp:591
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp:607
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
 cal_method
 calloc
 camera
@@ -3930,8 +3940,10 @@ facet::CCompositionClient::ConnectToPrism
 facet::CCompositionClient::CreateSwapchain
 facet::CCompositionClient::CreateVulkanResources
 facet::CCompositionClient::DiscardFrameLocked
+facet::CCompositionClient::DoMaintenance
 facet::CCompositionClient::EndFrameRendering
 facet::CCompositionClient::EndFrameRenderingLocked
+facet::CCompositionClient::EndSession
 facet::CCompositionClient::ForceAcquireImage
 facet::CCompositionClient::InitDevice
 facet::CCompositionClient::InitVulkan
@@ -4304,6 +4316,7 @@ m_nMapCount > 0
 m_nMaxLogBufferingSize > 0
 m_nSwapchainSlot < CompositionState_t::k_nMaxSwapchains
 m_pClient != nullptr
+m_pData
 m_pDevice
 m_pDevice == VK_NULL_HANDLE
 m_pInstance == VK_NULL_HANDLE
@@ -4365,6 +4378,8 @@ multiple IHDR
 multiple signals per batch not allowed
 muteMicMonitor
 nClientFrameIndex != k_nInvalidClientFrameIndex
+nClientFrameIndex=%d nPrismFrameStartIndex=%d
+nExistingSize >= nSize
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nNextPrismWaitIndex >= nNextPrismFrameIndex
 nSampleCount > 0 && nSampleCount <= 64
@@ -4460,6 +4475,7 @@ pTextureSet->pSwapchain
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
+p\r`\f0\vPtS
 package
 packed
 pairing_result
@@ -4632,7 +4648,7 @@ stackLimit
 start
 start tracking from base
 start_pairing
-start_tracking_recording
+start_tracking_recording %d %d %d
 startup
 stby
 steamvr

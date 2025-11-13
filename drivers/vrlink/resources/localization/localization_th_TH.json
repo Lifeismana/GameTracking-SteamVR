@@ -19,6 +19,7 @@
 	"Setting_WirelessShutdownTimeout": "ออกจาก SteamVR หลังตัดการเชื่อมต่อ",
 	"Setting_AllowVolumeControlSync": "ควบคุมระดับเสียงของเครื่องสวมศีรษะและปิดเสียงจาก SteamVR",
 	"Setting_DisableQoS": "ปิดการใช้งาน QoS",
+	"Setting_EnableQoS": "เปิดใช้งาน QoS",
 	"svl_hand_interaction_augmented": "คอนโทรลเลอร์ติดตามมือ",
 	"/input/index_pinch": "จีบนิ้วชี้",
 	"/input/middle_pinch": "จีบนิ้วกลาง",

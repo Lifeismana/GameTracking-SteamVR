@@ -126,8 +126,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 %d: Probe for headset with serial %s. Found headsets: %d\n
 %d: Probe for tracker with serial %s. Found trackers: %d\n
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
-%s begin_ctx=%llu
-%s end_ctx=%llu
 %s failed.\n
 %s%c%04i%02i%02i-%02i%02i%02i-%s
 %s%s: Existing:%llu, Required:%llu\n
@@ -139,6 +137,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 %s: failed to get ActualTrackingSystemName: %s
 %s: failed with error '%s' (%d)
 %s: no system interface!
+%s[%s] %s file=%s
 %u.%u.%u.%u
 &\f?first@?$QVector@VQPointF@@@@QEAAAEAVQPointF@@XZ
 &\t?contains@QSettings@@QEBA_NAEBVQString@@@Z
@@ -581,7 +580,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVrange_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
-.AHe
 .CRT$XCA
 .CRT$XCAA
 .CRT$XCL
@@ -732,7 +730,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-17:48:08
+16:36:13
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -3256,7 +3254,7 @@ Button1
 ButtonRow
 CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
 CAudioEndpointVolumeCallback::Register
-CD3D11::WaitForPresent
+CD3D11::EndScene
 CD3DRenderer::CreateShaders: Failed to constant buffer!\n
 CD3DRenderer::CreateShaders: Failed to create input layout for vertex shader %s!\n
 CD3DRenderer::CreateShaders: Failed to create pixel shader %s!\n
@@ -3677,6 +3675,8 @@ Controller Enter Bootloader Mode: %s\n
 Controller Exit Bootloader Mode: %s\n
 Controller Peripheral MCU Update: %s\n
 Controller Radio Update: %s\n
+Controller Type:
+Controller Type: \t%1\n
 Controller VRC Update: %s\n
 Controller Watchman FPGA Update: %s\n
 ControllerButtonPresses
@@ -3989,6 +3989,8 @@ Failed to add OGS session row because of parse errors\n
 Failed to allocate memory
 Failed to connect to pipe %s because %s... retrying
 Failed to connect to pipe %s because %s\n
+Failed to create AllApplicationPackagesSid\n
+Failed to create AllRestrictedApplicationPackagesSid\n
 Failed to create WinBuiltinAnyPackageSid\n
 Failed to create the overlay bridge\n
 Failed to find entrypoint WINRT_AcquireDisplay
@@ -4551,6 +4553,7 @@ IVRCameraComponent_001
 IVRCameraComponent_002
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -5004,7 +5007,7 @@ Not yet implemented
 NotReady
 Nothing set.
 NotificationCount
-Nov 10 2025
+Nov 12 2025
 Null element passed
 NumDroppedFrames
 NumDroppedFrames: %d\n
@@ -5932,7 +5935,7 @@ RPCRT4.dll
 RSDS
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
-R\vpD
+R\vpd
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n
@@ -6022,6 +6025,8 @@ Runtime Directory:\t(?<VALUE>.*)
 Runtime Version:\t(?<VALUE>.*)
 Runtime:\t%1\n
 S ?update@QWidget@@QEAAXXZ
+S-1-15-2-1
+S-1-15-2-2
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
@@ -6992,7 +6997,7 @@ VR_TrackingState
 VR_WebHelperMutex
 VR_WebHelperState
 VSync to Photons:
-VSync to Photons: \t%1\nDisplay Frequency:\t%2\nUser IPD (m):\t%3\nCurrent Universe ID:\t%4\nPrevious Universe ID:\t%5\n
+VSync to Photons: \t%1\nDisplay Frequency:\t%2\nUser IPD (m):\t%3\nCurrent Universe ID:\t%4\n
 VW?size@QPixmap@@QEBA?AVQSize@@XZ
 Valve
 VendorNumberID
@@ -7003,6 +7008,7 @@ VerifyVersionInfoW
 Version
 Version:\t(?<VALUE>.*)
 VersionLabel
+VirtualQuery
 ViveLinkLib_GetBaseStationWirelessInterface
 ViveUSBHCI
 ViveUSBHCI_date
@@ -7028,6 +7034,7 @@ WINRT_WaitForPresent
 WU?setOverrideCursor@QGuiApplication@@SAXAEBVQCursor@@@Z
 W\r?indexOfMethod@QMetaObject@@QEBAHPEBD@Z
 WaitForMultipleObjects
+WaitForPresent
 WaitForPresent Spin
 WaitForPresentCpuMs
 WaitForSingleObject
@@ -7255,7 +7262,7 @@ Zjz\v
 [IPC] Failed creating auto reset event %s (GLE: %u)\n
 [IPC] Failed creating file mapping %s: %u\n
 [IPC] Failed creating mutex %s (GLE: %u)\n
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d/%d); Error code: 0x%08x\n
 [IPC] Failed to open event %s because access was denied\n
 [IPC] Failed to open file mapping %s because access was denied\n
 [IPC] Failed to open mutex %s because access was denied\n
@@ -7271,6 +7278,7 @@ Zjz\v
 [IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
+[IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 [KnockKnock]  Do some knocking\n
 [KnockKnock] Notification failed with error %d \n
 [KnockKnock] Register Hotkey 'F1' for KnockKnock (%d)\n
@@ -7910,14 +7918,17 @@ bugreport.zip
 bugsub
 bulgarian
 c ?updateEditorGeometry@QStyledItemDelegate@@UEBAXPEAVQWidget@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrserviceclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrmonitor\Retail\win64\2017\vrmonitor.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrmonitor\imagetool.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrserviceclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:414
+c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:421
+c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\Retail\win64\2017\vrmonitor.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\imagetool.cpp
 cR?reset@QTransform@@QEAAXXZ
 c\n?dropEvent@QListWidget@@UEAAXPEAVQDropEvent@@@Z
 c\v?finished@QDialog@@QEAAXH@Z
@@ -8258,7 +8269,7 @@ https://developer.valvesoftware.com/wiki/SteamVR/Environments/
 https://steamcommunity.com/ogg/250820/announcements/detail/
 hu_hu
 hungarian
-iCD3D11::Present
+iPresent
 i\f?fromMSecsSinceEpoch@QDateTime@@SA?AV1@_J@Z
 i\r?inputMethodEvent@QComboBox@@MEAAXPEAVQInputMethodEvent@@@Z
 i]Wb
@@ -8442,6 +8453,7 @@ m\v?fixup@QDoubleSpinBox@@UEBAXAEAVQString@@@Z
 m_client_handle is NULL!!\n
 m_nMaxLogBufferingSize > 0
 m_pAdjustIcon != nullptr
+m_pData
 m_pIsValidStyle != nullptr
 m_ulHandle != vr::k_ulInvalidMailbox
 main
@@ -8488,6 +8500,7 @@ nCurrentRow
 nDeviceIndex
 nError
 nEventType
+nExistingSize >= nSize
 nHardwareId
 nIndex
 nLevel

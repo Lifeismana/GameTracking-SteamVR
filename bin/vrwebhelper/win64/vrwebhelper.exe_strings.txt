@@ -11,12 +11,11 @@
 %a %b %d %Y %H:%M:%S.%%03u
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s - SDL could not initialize! SDL Error: %s\n
-%s begin_ctx=%llu
 %s contains an empty %s
-%s end_ctx=%llu
 %s is not a valid api layer json. Missing %s member.
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
 %s: failed with error '%s' (%d)
+%s[%s] %s file=%s
 &Open DevTools
 ' is not a number.
 ()$^.*+?[]|\-{},:=!\n\r
@@ -36,6 +35,7 @@
 .?AU_cef_urlparts_t@@
 .?AU_cef_window_info_t@@
 .?AV<lambda_01d7d5b8902562eab3836f1974cc9178>@@
+.?AV<lambda_0596dde48d56396bb1913331e6d99b1f>@@
 .?AV<lambda_07bef8d2b6dc00f052b4582b4367b137>@@
 .?AV<lambda_0926d84e96a77d161b2cf7c0d012b08f>@@
 .?AV<lambda_09f7e144ce9938989ca28c5b7110a3e5>@@
@@ -48,6 +48,7 @@
 .?AV<lambda_118cd2c4a0434f8d24ec45f60f63c725>@@
 .?AV<lambda_125275d086589113a882df8225e12797>@@
 .?AV<lambda_145bcd60ec70cf2f21e447709ec45beb>@@
+.?AV<lambda_164ec3fbe81006adbc7c4915938f130f>@@
 .?AV<lambda_16e04bbe30bb075511af69f5de90e1ab>@@
 .?AV<lambda_17e6836f8e08eaaf62b1049ed60bc2da>@@
 .?AV<lambda_1b8edbaa4066f0462e9b2efbf3c190ff>@@
@@ -79,12 +80,13 @@
 .?AV<lambda_38d38bfddb555b270d38f4b782d231fb>@@
 .?AV<lambda_3a876d9be558f476e76fb3ffe8cdda63>@@
 .?AV<lambda_3bdcde219d18b3c7b48ebd0fcd361066>@@
+.?AV<lambda_3c48f84074b566369c943fabcab1228a>@@
 .?AV<lambda_3c95b7d6369798d4a794b994ec339304>@@
 .?AV<lambda_3d3786fa3c7f660203e22c8b3a1b51e1>@@
 .?AV<lambda_3e476d2d9ae40c76e890d1dd4de92c5b>@@
-.?AV<lambda_3e87cbf4fae4f31d5424592eeaba41e0>@@
 .?AV<lambda_3f0ce9751658e2311d314701a0eced2e>@@
 .?AV<lambda_3f343c65bb281e3301beb912cf74b306>@@
+.?AV<lambda_3fcb0468d4f24072d9120e24a7a74ebc>@@
 .?AV<lambda_436deb9d46bc374db70e4eb6173c0935>@@
 .?AV<lambda_446a8c222d5fa728179a01fbd883376e>@@
 .?AV<lambda_467ff707e481f8c35977ff4d5c0fbff0>@@
@@ -111,7 +113,6 @@
 .?AV<lambda_6015c3e0662ca25518b687a80ed025cc>@@
 .?AV<lambda_62da47c4b482eba254c74ec0fc047df5>@@
 .?AV<lambda_67b46cd3e7698cd9bed827984b014151>@@
-.?AV<lambda_68a799ed6dae502422f72cb8e5b455e7>@@
 .?AV<lambda_6a66b434122a29bc74c64aa3c6c73f16>@@
 .?AV<lambda_6dd27e7418e2b41151885cf3d03f0c77>@@
 .?AV<lambda_6f029beb228678461315f19f63f9d6c4>@@
@@ -152,6 +153,7 @@
 .?AV<lambda_acb3ac979427cf624c891347cc78eb9b>@@
 .?AV<lambda_ad8b549bf106c909edae0c26da3c2021>@@
 .?AV<lambda_aefc5b63f979e025b679d963235ba3c4>@@
+.?AV<lambda_af2dd9caec514f43b7cd561023e99399>@@
 .?AV<lambda_b0f07ea4be948c71b777975a76136485>@@
 .?AV<lambda_b1123d374b93a9ad01ea2c8a18a19eaa>@@
 .?AV<lambda_b120bd3d892b7b7d222473d38c56a415>@@
@@ -166,6 +168,7 @@
 .?AV<lambda_c63dd26c798fcbc1b06a7d19bfe11ed1>@@
 .?AV<lambda_c7c0155de03492ca7b82a57c669f8662>@@
 .?AV<lambda_cadb675f3a1699254eba718bac6e6da0>@@
+.?AV<lambda_cc6d46f14a8a24aa248f0873a061b36a>@@
 .?AV<lambda_cd8568277da73421538537cb3a24a08a>@@
 .?AV<lambda_ce80b3ee5169636a6ba438fc8b8c0eba>@@
 .?AV<lambda_cf2ba2085589cdc18cef2483e0d1e3d5>@@
@@ -217,6 +220,7 @@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_01d7d5b8902562eab3836f1974cc9178>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0596dde48d56396bb1913331e6d99b1f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_07bef8d2b6dc00f052b4582b4367b137>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0926d84e96a77d161b2cf7c0d012b08f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_09f7e144ce9938989ca28c5b7110a3e5>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
@@ -229,6 +233,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_118cd2c4a0434f8d24ec45f60f63c725>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_125275d086589113a882df8225e12797>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_145bcd60ec70cf2f21e447709ec45beb>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_164ec3fbe81006adbc7c4915938f130f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_16e04bbe30bb075511af69f5de90e1ab>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_17e6836f8e08eaaf62b1049ed60bc2da>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1b8edbaa4066f0462e9b2efbf3c190ff>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
@@ -260,12 +265,13 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_38d38bfddb555b270d38f4b782d231fb>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3a876d9be558f476e76fb3ffe8cdda63>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3bdcde219d18b3c7b48ebd0fcd361066>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3c48f84074b566369c943fabcab1228a>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3c95b7d6369798d4a794b994ec339304>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3d3786fa3c7f660203e22c8b3a1b51e1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3e476d2d9ae40c76e890d1dd4de92c5b>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_3e87cbf4fae4f31d5424592eeaba41e0>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3f0ce9751658e2311d314701a0eced2e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3f343c65bb281e3301beb912cf74b306>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_3fcb0468d4f24072d9120e24a7a74ebc>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_436deb9d46bc374db70e4eb6173c0935>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_446a8c222d5fa728179a01fbd883376e>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_467ff707e481f8c35977ff4d5c0fbff0>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
@@ -292,7 +298,6 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_6015c3e0662ca25518b687a80ed025cc>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_62da47c4b482eba254c74ec0fc047df5>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_67b46cd3e7698cd9bed827984b014151>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_68a799ed6dae502422f72cb8e5b455e7>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6a66b434122a29bc74c64aa3c6c73f16>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6dd27e7418e2b41151885cf3d03f0c77>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6f029beb228678461315f19f63f9d6c4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
@@ -333,6 +338,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_acb3ac979427cf624c891347cc78eb9b>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ad8b549bf106c909edae0c26da3c2021>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_aefc5b63f979e025b679d963235ba3c4>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_af2dd9caec514f43b7cd561023e99399>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b0f07ea4be948c71b777975a76136485>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b1123d374b93a9ad01ea2c8a18a19eaa>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b120bd3d892b7b7d222473d38c56a415>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
@@ -347,6 +353,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_c63dd26c798fcbc1b06a7d19bfe11ed1>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c7c0155de03492ca7b82a57c669f8662>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cadb675f3a1699254eba718bac6e6da0>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_cc6d46f14a8a24aa248f0873a061b36a>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cd8568277da73421538537cb3a24a08a>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ce80b3ee5169636a6ba438fc8b8c0eba>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cf2ba2085589cdc18cef2483e0d1e3d5>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
@@ -408,11 +415,9 @@
 .?AVCJSFunctionGetStartingAppName@@
 .?AVCJSFunctionGetSteamLanguage@@
 .?AVCJSFunctionIsAvailable@@
-.?AVCJSFunctionQuitOpenVR@@
 .?AVCJSFunctionQuitSceneApp@@
 .?AVCJSFunctionSceneAppRunning@@
 .?AVCJSFunctionShowKeyboard@@
-.?AVCJSFunctionShutdownSystem@@
 .?AVCJSFunctionTurnOffVRController@@
 .?AVCJSFunctionUpdateSceneGraph@@
 .?AVCJSFunctionVRCompositorGetTrackingSpace@@
@@ -553,6 +558,7 @@
 /chaperone/bounds_hash
 /chaperone/collision_radius
 /chaperone/is_default_perimeter
+/chaperone/last_relocalization_time
 /chaperone/perimeter
 /chaperone/play_area
 /chaperone/room_setup_done
@@ -562,7 +568,6 @@
 /chaperone/standing/transform
 /chaperone/state
 /chaperone/temporary_playing_outside_playspace_time
-/chaperone/tracking_anchored
 /client_streaming_mode_on_demand
 /client_will_handle_dashboard_state
 /dashboard_head_pose_from_standing
@@ -588,15 +593,16 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-126.0.0-HEAD.3110+gb3b025e+chromium-126.0.6478.183
+126.0.0-HEAD.3131+g8482cf1+chromium-126.0.6478.183
 127.0.0.1
-17:48:08
+16:36:13
 1e+9999
+4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
-6be31344d9e3c3145db9bc86aba2c0773bf6bac4
 7^d[L
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e4d334971e43b4e56c93030410b02d735d99c8b
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 9a&g
 : LUID=
@@ -684,7 +690,6 @@
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A"QT
-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ACTIVE
 ADVAPI32.dll
 ASSERT: "%s" at %s:%d.\n
@@ -696,6 +701,7 @@ Adapter pointer is null
 AddAccessAllowedAce
 Added %d overlays from %d configurations. %d have been opened.\n
 Added overlay (%s)\n
+AdjustTokenPrivileges
 Alert
 Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
@@ -748,6 +754,10 @@ CVRAudioDevices::GetDefaultAudioDevice
 CVRAudioDevices::Refresh
 CVRLog::LogDirect
 CVRWebHelperApp::Init
+CVRWebHelperApp::RunSystemFrame
+CVRWebHelperRendererHandler::ProcessEventCallbacks
+CVRWebHelperRendererHandler::ProcessPollingCallbacks
+CVRWebHelperRendererHandler::RunSingleFrame
 CallWindowProcW
 Cannot initialize crash handling in a project without the Steam API available
 Caps Lock
@@ -861,13 +871,13 @@ EventWriteTransfer
 Exceeded stackLimit in readValue().
 Exception %08x\n
 Executable: %s\n
+ExitWindowsEx
 Explicit
 External
 Extra non-whitespace after JSON value.
 FATAL: Failed to open log file %s, failing out!\n
 Factory Function Not Found (104)
 Failed InitD3DDevice, VRSystem() not available
-Failed to ShutdownSystem (%d)
 Failed to allocate browser info in VRWebHelperSharedMemory for new browser.
 Failed to connect to SteamVR: %s
 Failed to connect to pipe %s because %s... retrying
@@ -1037,6 +1047,7 @@ IVRApplications_007
 IVRBlockQueue_005
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -1251,6 +1262,7 @@ LocalFree
 LocalizationManager
 Log path could not be located (112)
 Long resource load time: %s (%f seconds)
+LookupPrivilegeValueA
 Low Power Watchdog Not Supported (129)
 MFCreateMediaType
 MFCreateMemoryBuffer
@@ -1290,7 +1302,7 @@ Not Initialized (109)
 Not available to watchdog apps (131)
 Not calling InitVRAndLogging() since VR is already initialized.\n
 Not starting vrserver for background app (121)
-Nov 10 2025
+Nov 12 2025
 Num Lock
 Num Lock Toggle
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -1322,8 +1334,8 @@ PropVariantClear
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-QuitOpenVR
 QuitSceneApp
+QuitSteamVR
 RPCRT4.dll
 RSDS
 RaiseException
@@ -1431,6 +1443,7 @@ STEAMVR_GPU_LUID
 SceneAppRunning
 Scroll Lock
 Scroll Lock Toggle
+SeShutdownPrivilege
 Searching for LUID: 
 Second argument must be a TransformTRS
 Second argument must be a string
@@ -1466,7 +1479,6 @@ ShowBindingUI
 ShowBindingUIAppSelect
 ShowSettingsUI
 ShowTrackerUI
-ShutdownSystem
 Skipped desktop overlay (%s) because omitDesktopWebhelpers is enabled\n
 Skipped overlay (%s) because no HMD is present. Set valid_without_hmd to true to create it anyway.\n
 Skipped overlay (%s) because setting "%s" is False\n
@@ -1499,6 +1511,8 @@ Stopping playback mirror thread\n
 SuspendThread
 SwitchToThread
 Syntax error: value, object or array expected.
+SystemRestartMachine
+SystemShutdownMachine
 SystemTimeToFileTime
 TdhEnumerateManifestProviderEvents
 TerminateProcess
@@ -1983,6 +1997,7 @@ VRSystem.GetControllerRoleForTrackedDeviceIndex
 VRSystem.GetTrackedDeviceClasses
 VRSystem.GetTrackedDeviceIndexForControllerRole
 VRSystem.IsDevicePathValid
+VRSystem.SetDebugCameraViewEnabled
 VRSystem.StartTrackingRecording
 VRSystem.StopTrackingRecording
 VRTrackedCameraInternal.GetCameraTestFrame
@@ -2022,6 +2037,7 @@ VirtualAlloc
 VirtualFree
 VirtualProtect
 VirtualQuery
+VkKG
 WARNING: InitD3DDevice, failed to GetAdapter by luid %llu %s
 WARNING: InitD3DDevice, no AdapterLuid specified
 WaitForMultipleObjects
@@ -2056,7 +2072,7 @@ Zjz\v
 [IPC] Failed creating auto reset event %s (GLE: %u)\n
 [IPC] Failed creating file mapping %s: %u\n
 [IPC] Failed creating mutex %s (GLE: %u)\n
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d/%d); Error code: 0x%08x\n
 [IPC] Failed to open event %s because access was denied\n
 [IPC] Failed to open file mapping %s because access was denied\n
 [IPC] Failed to open mutex %s because access was denied\n
@@ -2072,6 +2088,7 @@ Zjz\v
 [IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
+[IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 [Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for read %d
 [Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
 [RRRR[[[[w|w
@@ -2079,10 +2096,6 @@ Zjz\v
 [VRWebHelper] Launching %s\n
 [VRWebHelper] Launching template %s -> %s\n
 [[[[[[[[[[[[js
-[vrwebhelper] ProcessEventCallbacks
-[vrwebhelper] ProcessPollingCallbacks
-[vrwebhelper] RunSingleFrame
-[vrwebhelper] RunSystemFrame
 \ApiLayers\
 \n\t\t\t\t{\n\t\t\t\t\t"type" : "show_tracker_ui"\n\t\t\t\t}\n\t\t\t
 \n\t\t\t{\n\t\t\t\t"type" : "show_app_select"\n\t\t\t}\n\t\t
@@ -2146,6 +2159,7 @@ _time64
 _wfopen_s
 _wfsopen
 _wstat64i32
+aCbf
 abort
 activePlaybackMirrorDevice
 additional six characters expected to parse unicode surrogate pair.
@@ -2154,6 +2168,9 @@ allowDroppedNullPlaceholders
 allowNumericKeys
 allowSingleQuotes
 allowSpecialFloats
+allowTrackingAudioRecording
+allowTrackingCameraRecording
+allowTrackingScreenRecording
 alnum
 alpha
 alse
@@ -2201,18 +2218,23 @@ browser_size
 bulgarian
 button
 c++ NewPromise
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\commonkeycode.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\computedsettings.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\Retail\win64\2017\vrwebhelper.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\cefclient_handler.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\cefexecuteprocess_handler.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\vrwebhelper_app.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\commonkeycode.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\computedsettings.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\Retail\win64\2017\vrwebhelper.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\cefclient_handler.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\cefexecuteprocess_handler.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_app.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_app.cpp:677
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp:4495
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp:4605
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp:5039
 cefMaxFrameRate
 cef_api_hash
 cef_browser_host_create_browser
@@ -2430,6 +2452,7 @@ lower
 m_Browser Identifier=%d
 m_MouseTracking[mouseCode].m_PointDown.x >= 0 && m_MouseTracking[mouseCode].m_PointDown.y >= 0
 m_nMaxLogBufferingSize > 0
+m_pData
 m_ulHandle != vr::k_ulInvalidMailbox
 mailbox_name
 mailbox_unhandled_message
@@ -2449,6 +2472,7 @@ mode
 modf
 month
 nBytesPerPixel invalid
+nExistingSize >= nSize
 nHeightInPixels must be positive
 nNumCameras
 nWidthInPixels must be positive
@@ -2565,7 +2589,7 @@ show_window
 space
 spanish
 stackLimit
-start_tracking_recording
+start_tracking_recording %d %d %d
 startup
 steam_api64
 steam_api64.dll

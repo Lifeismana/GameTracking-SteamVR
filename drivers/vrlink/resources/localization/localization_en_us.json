@@ -20,6 +20,7 @@
 	"Setting_WirelessShutdownTimeout": "On disconnect, exit SteamVR after",
 	"Setting_AllowVolumeControlSync": "Control headset volume and mute from SteamVR",
 	"Setting_DisableQoS" : "Disable QoS",
+	"Setting_EnableQoS" : "Enable QoS",
 
 	"svl_hand_interaction_augmented": "Hand Tracking Controller",
 	"/input/index_pinch": "Index Pinch",

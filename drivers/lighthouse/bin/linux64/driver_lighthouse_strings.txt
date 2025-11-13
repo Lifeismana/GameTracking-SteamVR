@@ -287,13 +287,9 @@ $3br
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s - Unable to init\n
 %s - Unable to start replay of "%s"\n
-%s begin_ctx=%lu
 %s called without first releasing previous slot!
 %s created to play "%s"\n
 %s disambiguator provided base configuration. Rotor count: %d\n
-%s dtime=%d begin_ctx=%lu
-%s dtime=%d end_ctx=%lu
-%s end_ctx=%lu
 %s pitch ~%0.1f deg roll ~%0.1f deg 
 %s%s%s%s%s%s%s
 %s-CommandBuffer-%d
@@ -752,9 +748,28 @@ $3br
 /data/src/facet/include/facet/vkresourcepool.h
 /data/src/facet/include/facet/vktimelinepoint.h
 /data/src/facet/src/compositionclient.cpp
+/data/src/facet/src/compositionclient.cpp:106
+/data/src/facet/src/compositionclient.cpp:1107
+/data/src/facet/src/compositionclient.cpp:1544
+/data/src/facet/src/compositionclient.cpp:1599
+/data/src/facet/src/compositionclient.cpp:1615
+/data/src/facet/src/compositionclient.cpp:1791
+/data/src/facet/src/compositionclient.cpp:612
+/data/src/facet/src/compositionclient.cpp:633
+/data/src/facet/src/compositionclient.cpp:658
+/data/src/facet/src/compositionclient.cpp:682
+/data/src/facet/src/compositionclient.cpp:704
+/data/src/facet/src/compositionclient.cpp:726
+/data/src/facet/src/compositionclient.cpp:77
+/data/src/facet/src/compositionclient.cpp:779
+/data/src/facet/src/compositionclient.cpp:830
+/data/src/facet/src/compositionclient.cpp:852
+/data/src/facet/src/compositionclient.cpp:898
+/data/src/facet/src/compositionclient.cpp:964
 /data/src/facet/src/facetutils.cpp
 /data/src/facet/src/vkalloc.cpp
 /data/src/facet/src/vkcommand.cpp
+/data/src/facet/src/vkcommand.cpp:308
 /data/src/facet/src/vkdevice.cpp
 /data/src/facet/src/vkresource.cpp
 /data/src/facet/src/vksync.cpp
@@ -769,6 +784,10 @@ $3br
 /data/src/vortexlib/distortion.cpp
 /data/src/vortexlib/generated_proto/lighthouse_debug.pb.cc
 /data/src/vortexlib/prismdirect.cpp
+/data/src/vortexlib/prismdirect.cpp:503
+/data/src/vortexlib/prismdirect.cpp:538
+/data/src/vortexlib/prismdirect.cpp:591
+/data/src/vortexlib/prismdirect.cpp:607
 /data/src/vortexlib/stereo_setup.cpp
 /data/src/vortexlib/thread.cpp
 /delivery_rate
@@ -865,10 +884,10 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00:36:00
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-01:48:01
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -983,6 +1002,7 @@ $3br
 28ComponentAdapterBaseNoParentIN2vr22IVRControllerComponentEXadL_Z30k_pchControllerComponentPrefixEELi1E29CVRControllerComponent_LatestE
 29CVRControllerComponentAdapter
 29CVRControllerComponent_Latest
+30CHandPoseLogic_IndexController
 30CSharedResourceNamespaceServer
 30CVRVirtualDisplayComponent_001
 30CWatchdogTrackedDeviceProvider
@@ -1040,6 +1060,7 @@ $3br
 6\n\fmessage_type
 7CThread
 7\n\tenum_type
+7fff?
 8CVkImage
 8\n\textension
 9CRefCount
@@ -1098,6 +1119,7 @@ AITAPI_IspCommand(void*, unsigned char*, unsigned char*)
 AITAPI_MmpCommand(void*, unsigned char*, unsigned char*)
 AITAPI_OpenDeviceEx(unsigned int, void**, unsigned int, unsigned int)
 AKST
+ALBasename(char const*)
 ASCII
 ASCII//TRANSLIT
 ASSERT: "%s" at %s:%d.\n
@@ -1701,8 +1723,6 @@ CCompositorPluginProvider_Latest::GetInterfaceVersions()
 CCompositorPluginProvider_Latest::GetSourceVersion()
 CCompositorPluginProvider_Latest::Init(vr::IVRDriverContext*)
 CCompositorPluginProvider_Latest::~CCompositorPluginProvider_Latest()
-CConditionalScopedEventDuration::CConditionalScopedEventDuration(char const*, ...)
-CConditionalScopedEventDuration::~CConditionalScopedEventDuration()
 CCountedMutexWithLogCache::Log(char const*, ...)
 CCountedMutexWithLogCache::Log(char const*, ...) (.cold)
 CDampedFloat::Update(float, float, float)
@@ -2053,6 +2073,33 @@ CHandAnimEvaluator::RunThread()
 CHandAnimEvaluator::Update(float)
 CHandAnimEvaluator::Update(float) (.part.0)
 CHandAnimEvaluator::~CHandAnimEvaluator()
+CHandPoseLogic_IndexController::AddFingerCurl(CPoseRecipe&, unsigned char) const
+CHandPoseLogic_IndexController::AddHandleSqueeze(CPoseRecipe&, unsigned char, bool) const
+CHandPoseLogic_IndexController::AddJoyStickPress(CPoseRecipe&, unsigned char) const
+CHandPoseLogic_IndexController::AddThumbPose(CPoseRecipe&) const
+CHandPoseLogic_IndexController::AddThumbPoseEmptyHand(CPoseRecipe&, unsigned char) const
+CHandPoseLogic_IndexController::CHandPoseLogic_IndexController()
+CHandPoseLogic_IndexController::CHandPoseLogic_IndexController() (.cold)
+CHandPoseLogic_IndexController::CalcNewThumbState() const
+CHandPoseLogic_IndexController::CreateGripLimitRecipe(CPoseRecipe&)
+CHandPoseLogic_IndexController::CreatePoseRecipe(CPoseRecipe&) const
+CHandPoseLogic_IndexController::CreatePoseRecipeWithoutController(CPoseRecipe&) const
+CHandPoseLogic_IndexController::GetIDForButton(CHandPoseLogic_IndexController::EButton) const
+CHandPoseLogic_IndexController::GetTrackingLevel() const
+CHandPoseLogic_IndexController::InitResources(CAnimSkeleton const*, vr::EVRHandSide)
+CHandPoseLogic_IndexController::InitResources(CAnimSkeleton const*, vr::EVRHandSide) (.cold)
+CHandPoseLogic_IndexController::IsPressed(CHandPoseLogic_IndexController::EButton) const
+CHandPoseLogic_IndexController::IsPressedOrTouched(CHandPoseLogic_IndexController::EButton) const
+CHandPoseLogic_IndexController::IsTouched(CHandPoseLogic_IndexController::EButton) const
+CHandPoseLogic_IndexController::SetButtonStatus(unsigned long, unsigned long, unsigned long)
+CHandPoseLogic_IndexController::SetFingerCurl(float, float, float, float)
+CHandPoseLogic_IndexController::SetHandleSqueeze(float)
+CHandPoseLogic_IndexController::SetJoyStickPosition(float, float)
+CHandPoseLogic_IndexController::SetOrientation(vr::HmdQuaternion_t const&)
+CHandPoseLogic_IndexController::SetTrackPadPosition(float, float)
+CHandPoseLogic_IndexController::SetTriggerSqueeze(float)
+CHandPoseLogic_IndexController::Update(float)
+CHandPoseLogic_IndexController::~CHandPoseLogic_IndexController()
 CHeader
 CHidDevice: Can't open USB device VID %08x, PID %08x %s %d\n
 CIPCPipe::CIPCPipe()
@@ -2599,15 +2646,19 @@ CPropertyManager::CreateFixedSizeContainerForRead(unsigned long*, void const*, u
 CPropertyManager::CreateFixedSizeContainerForWrite(unsigned long*, void*, unsigned int)
 CPropertyManager::CreateFixedSizeContainerForWrite(unsigned long*, void*, unsigned int) (.cold)
 CPropertyManager::CreatePropertyContainer(unsigned long)
+CPropertyManager::CreatePropertyContainer(unsigned long) (.cold)
 CPropertyManager::CreatePropertyContainerInternal(unsigned long, bool)
 CPropertyManager::CreatePropertyContainerInternal(unsigned long, bool) (.cold)
 CPropertyManager::DestroyPropertyContainer(unsigned long)
 CPropertyManager::EnableChangeNotifications(unsigned long, bool)
-CPropertyManager::FindOrAddContainer(unsigned long, bool)
+CPropertyManager::EnableChangeNotifications(unsigned long, bool) (.cold)
+CPropertyManager::FindOrAddContainer(unsigned long, std::unique_lock<std::mutex>&, bool)
 CPropertyManager::GetAllContainers()
 CPropertyManager::GetAllContainers() (.cold)
 CPropertyManager::GetAllProperties(unsigned long, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>*)
+CPropertyManager::GetAllProperties(unsigned long, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>*) (.cold)
 CPropertyManager::GetAllPropertiesWithTag(unsigned long, unsigned int, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>*)
+CPropertyManager::GetAllPropertiesWithTag(unsigned long, unsigned int, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>*) (.cold)
 CPropertyManager::GetContainerReader(unsigned long)
 CPropertyManager::GetContainerReader(unsigned long) (.cold)
 CPropertyManager::GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
@@ -2642,7 +2693,7 @@ CSWTCH.216
 CSWTCH.221
 CSWTCH.23
 CSWTCH.876
-CScopedEventDuration::CScopedEventDuration(char const*, ...)
+CScopedEventDuration::CScopedEventDuration(char const*, char const*, char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CScopedWatchdogDetailStringViaIVRServer::CScopedWatchdogDetailStringViaIVRServer(char const*)
 CScopedWatchdogDetailStringViaIVRServer::~CScopedWatchdogDetailStringViaIVRServer()
@@ -3650,28 +3701,14 @@ Client Device
 Client Graphics
 Client-AcquireSync
 Client-BeginFrame:%d
-Client-CreateSwapchain
 Client-DiscardFrame
-Client-DoMaintenance
 Client-ForcedTransitionFromPrism-Compute
 Client-ForcedTransitionFromPrism-Graphics
-Client-FrameAddLayerProjection
-Client-FrameAddLayerQuad
-Client-FrameBeginRendering
-Client-FrameDiscard
-Client-FrameEnd
-Client-FrameEndRendering
-Client-FrameStart
-Client-FrameSubmit:%d|%d
-Client-FrameWait
-Client-GetDeltaMs
 Client-InitSwapchainLayout
 Client-InitUBO
 Client-ReleaseAccess
 Client-ReleaseSync
 Client-SubmitLayers
-Client-WaitForBegin
-Client-WaitForRunningStart:%d|%d
 ClientBuffer:%u
 ClientBufferStaging-%lu:%d
 ClientQueryPool-%lu:%d
@@ -3837,6 +3874,7 @@ Distortion_Model::to_json() const
 Distortion_Model::to_json() const (.cold)
 Distortion_Type
 Distortion_TypeFromName(char const*)
+DoMaintenance
 Don't lookup extension types if they aren't present (1). 
 Don't lookup extension types if they aren't present (2). 
 Dongle
@@ -4028,9 +4066,9 @@ EstimateIndexColumnCorrection(vortex::panel_stats_t const&, int)
 Etron_%d_%d_v%d
 EventWriteString(char const*, EVRTraceEvent)
 EventWriteString(char const*, EVRTraceEvent) (.cold)
-EventWriteStringBegin(char const*, unsigned long)
-EventWriteStringDurationF(int, char const*, ...)
-EventWriteStringEnd(char const*, unsigned long)
+EventWriteStringBegin(char const*, char const*, char const*, unsigned long)
+EventWriteStringBeginEnd(bool, char const*, char const*, char const*, unsigned long)
+EventWriteStringEnd(char const*, char const*, char const*, unsigned long)
 EventWriteStringF(char const*, ...)
 Exceeded stackLimit in readValue().
 Executable: %s\n
@@ -4355,6 +4393,7 @@ GetCommandLineArguments(std::vector<std::string, std::allocator<std::string>>&) 
 GetCommandOutput(std::string const&, std::string*, std::string*)
 GetCommandOutput(std::string const&, std::string*, std::string*) (.cold)
 GetCompatibleMemoryType
+GetDeltaMs
 GetDouble
 GetEnglishStringForHmdError(vr::EVRInitError)
 GetEnum
@@ -4636,6 +4675,7 @@ IVRCameraComponent_002
 IVRCameraComponent_003
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -5304,6 +5344,7 @@ Json::valueToString(unsigned long long)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&)
 Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold)
 JsonValueToBoolOrDefault(Json::Value const&, bool)
+JsonValueToESimulateRenderModel(Json::Value const&)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*)
 JsonValueToHMDVector3(Json::Value const&, vr::HmdVector3_t&, std::string*) (.cold)
 July
@@ -5697,7 +5738,6 @@ N6vortex24CLighthouseOpticalThreadE
 N6vortex25CLighthouseRecorderThreadE
 N6vortex26CVrControllerHapticWrapperE
 N6vortex28CLighthouseBaseStationDriverE
-N6vortex30CHandPoseLogic_IndexControllerE
 N6vortex33ICVrControllerHapticWrapperClientE
 N6vortex36ILighthouseTrackedDeviceServerDriverE
 N8nlohmann6detail10type_errorE
@@ -5791,7 +5831,7 @@ Not starting vrserver for background app (121)
 Not the preferred basestation\n
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
-Nov 11 2025
+Nov 13 2025
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
@@ -6016,14 +6056,11 @@ Plat_IsInDebugSession
 Plat_IsInDebugSession::fp
 PoolGC
 Positional emitter description not found.
+PostPresent
 Present
 Primitive
 Prism only supports DPOLY3 and DPOLY3_SCALED distortiong functions
 Prism%s: %s
-PrismDirect GetNextSwapTextureSetIndex
-PrismDirect PostPresent
-PrismDirect Present
-PrismDirect SubmitLayer
 PrismDirect Swapchain-%d:%d
 PrismResultToInitError(PrismResult_t)
 PrismTimeline:%lu
@@ -6212,7 +6249,7 @@ Prop_OverrideContainer_Uint64
 Prop_ParentContainer
 Prop_ParentDriver_Uint64
 Prop_PeripheralApplicationVersion_Uint64
-Prop_PreviousUniverseId_Uint64
+Prop_PreviousUniverseId_Uint64_deprecated
 Prop_RadioVersion_Uint64
 Prop_RegisteredDeviceType_String
 Prop_RenderModelName_String
@@ -6716,7 +6753,7 @@ StringToUint64(std::string const&)
 StringToUpper(std::string const&)
 StringToUpper(std::string const&) (.cold)
 Submit
-Submit: %s
+SubmitLayer
 SubmitLayers
 Success
 Success: 
@@ -6725,7 +6762,6 @@ Sunday
 SwSyncDetect %s, primary: %s, alt: %s.  SensorType %d\n
 SwSyncDetect selected %s\n
 Swap
-Swapchain-WaitImage
 Switching IMU Only -> Lighthouse\n
 Switching Lighthouse -> IMU Only\n
 Symbol name "
@@ -8093,6 +8129,8 @@ WARNING: Speculative Start Collision for base %0X (removing %s)\n
 WARNING: large time gap between IMU samples (%f -> %f diff=%f)\n
 Wait
 Wait For Sync
+WaitForBegin
+WaitForRunningStart nLastFrameIndex=%d nNextPrismWaitIndex=%d
 WaitForWork
 WaitFrame
 WaitImage
@@ -8163,6 +8201,7 @@ WriteTrackedDeviceConfigToString(CTrackedDeviceConfig const&, bool) (.cold)
 XDG_CONFIG_HOME
 XXXX PNG chunk not known
 Zjz\v
+[%s] %s=%lu tgid=%d file=%s %s
 [AnimSkeleton] Failed to load GLTF file: %s
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
@@ -8860,6 +8899,7 @@ basic_string::replace
 basic_string::resize
 basic_string::substr
 bcdDevice
+begin_ctx
 best
 bg_bg
 bigscreenbeyond
@@ -9486,6 +9526,7 @@ enableMJPEGMode
 enableRawMode
 enableYAMLCompatibility
 end of input
+end_ctx
 english
 enum
 error
@@ -9790,6 +9831,7 @@ ftell
 ftello64
 ftruncate
 ftruncate of %s, %d, %u failed: %d
+full
 futex robust_list not initialized by pthreads
 futex robust_list not pthreads-compatible
 fwrite
@@ -9847,6 +9889,7 @@ g_pVRBlockQueue
 g_pVRCameraPassthroughInternal
 g_pVRChaperone
 g_pVRChaperoneInternal
+g_pVRChaperoneServerDriver
 g_pVRChaperoneSetup
 g_pVRClientInternal
 g_pVRControlPanel
@@ -13297,12 +13340,14 @@ multiple signals per batch not allowed
 munmap
 muteMicMonitor
 nClientFrameIndex != k_nInvalidClientFrameIndex
+nClientFrameIndex=%d nPrismFrameStartIndex=%d
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nNextPrismWaitIndex >= nNextPrismFrameIndex
 nSampleCount > 0 && nSampleCount <= 64
 nSizeInBytes <= m_unSizeInBytes
 nSplineCtrlPts
 name
+name_only
 name_part
 nanosleep
 nb_no
@@ -14088,7 +14133,7 @@ standard_subs
 start
 start tracking from base
 start_pairing
-start_tracking_recording
+start_tracking_recording %d %d %d
 startup
 static const uint32_t CAnimResource::MyTypeID()
 static const uint32_t CBoneMaskResource::MyTypeID()
@@ -18374,6 +18419,7 @@ typeinfo for CDriverManager
 typeinfo for CEtronCamera
 typeinfo for CFirmwareManifest
 typeinfo for CFixedSizePropertyContainer
+typeinfo for CHandPoseLogic_IndexController
 typeinfo for CImuTrackerThread
 typeinfo for CKalmanQuaternion
 typeinfo for CKeyframedDataResource
@@ -18941,7 +18987,6 @@ typeinfo for void*
 typeinfo for vortex::(anonymous namespace)::CDisambiguatorTDM
 typeinfo for vortex::CDisambiguatorFramer
 typeinfo for vortex::CDisambiguatorSyncOnBeam
-typeinfo for vortex::CHandPoseLogic_IndexController
 typeinfo for vortex::CHandPoseLogic_ViveWand
 typeinfo for vortex::CHidDevice
 typeinfo for vortex::CImuOnlyTracker
@@ -19060,6 +19105,7 @@ typeinfo name for CDriverManager
 typeinfo name for CEtronCamera
 typeinfo name for CFirmwareManifest
 typeinfo name for CFixedSizePropertyContainer
+typeinfo name for CHandPoseLogic_IndexController
 typeinfo name for CImuTrackerThread
 typeinfo name for CKalmanQuaternion
 typeinfo name for CKeyframedDataResource
@@ -19629,7 +19675,6 @@ typeinfo name for void*
 typeinfo name for vortex::(anonymous namespace)::CDisambiguatorTDM
 typeinfo name for vortex::CDisambiguatorFramer
 typeinfo name for vortex::CDisambiguatorSyncOnBeam
-typeinfo name for vortex::CHandPoseLogic_IndexController
 typeinfo name for vortex::CHandPoseLogic_ViveWand
 typeinfo name for vortex::CHidDevice
 typeinfo name for vortex::CImuOnlyTracker
@@ -21073,33 +21118,6 @@ vortex::CDisambiguatorSyncOnBeam::SetOptions(vortex::ILighthouseSource::Options_
 vortex::CDisambiguatorSyncOnBeam::SetSensorType(vortex::lighthouse::ESensorType)
 vortex::CDisambiguatorSyncOnBeam::k_fBaseIdleTimeout
 vortex::CDisambiguatorSyncOnBeam::~CDisambiguatorSyncOnBeam()
-vortex::CHandPoseLogic_IndexController::AddFingerCurl(CPoseRecipe&, unsigned char) const
-vortex::CHandPoseLogic_IndexController::AddHandleSqueeze(CPoseRecipe&, unsigned char, bool) const
-vortex::CHandPoseLogic_IndexController::AddJoyStickPress(CPoseRecipe&, unsigned char) const
-vortex::CHandPoseLogic_IndexController::AddThumbPose(CPoseRecipe&) const
-vortex::CHandPoseLogic_IndexController::AddThumbPoseEmptyHand(CPoseRecipe&, unsigned char) const
-vortex::CHandPoseLogic_IndexController::CHandPoseLogic_IndexController()
-vortex::CHandPoseLogic_IndexController::CHandPoseLogic_IndexController() (.cold)
-vortex::CHandPoseLogic_IndexController::CalcNewThumbState() const
-vortex::CHandPoseLogic_IndexController::CreateGripLimitRecipe(CPoseRecipe&)
-vortex::CHandPoseLogic_IndexController::CreatePoseRecipe(CPoseRecipe&) const
-vortex::CHandPoseLogic_IndexController::CreatePoseRecipeWithoutController(CPoseRecipe&) const
-vortex::CHandPoseLogic_IndexController::GetIDForButton(vortex::CHandPoseLogic_IndexController::EButton) const
-vortex::CHandPoseLogic_IndexController::GetTrackingLevel() const
-vortex::CHandPoseLogic_IndexController::InitResources(CAnimSkeleton const*, vr::EVRHandSide)
-vortex::CHandPoseLogic_IndexController::InitResources(CAnimSkeleton const*, vr::EVRHandSide) (.cold)
-vortex::CHandPoseLogic_IndexController::IsPressed(vortex::CHandPoseLogic_IndexController::EButton) const
-vortex::CHandPoseLogic_IndexController::IsPressedOrTouched(vortex::CHandPoseLogic_IndexController::EButton) const
-vortex::CHandPoseLogic_IndexController::IsTouched(vortex::CHandPoseLogic_IndexController::EButton) const
-vortex::CHandPoseLogic_IndexController::SetButtonStatus(unsigned long, unsigned long, unsigned long)
-vortex::CHandPoseLogic_IndexController::SetFingerCurl(float, float, float, float)
-vortex::CHandPoseLogic_IndexController::SetHandleSqueeze(float)
-vortex::CHandPoseLogic_IndexController::SetJoyStickPosition(float, float)
-vortex::CHandPoseLogic_IndexController::SetOrientation(vr::HmdQuaternion_t const&)
-vortex::CHandPoseLogic_IndexController::SetTrackPadPosition(float, float)
-vortex::CHandPoseLogic_IndexController::SetTriggerSqueeze(float)
-vortex::CHandPoseLogic_IndexController::Update(float)
-vortex::CHandPoseLogic_IndexController::~CHandPoseLogic_IndexController()
 vortex::CHandPoseLogic_ViveWand::AddGripButton(CPoseRecipe&, unsigned char, unsigned char) const
 vortex::CHandPoseLogic_ViveWand::AddThumbPose(CPoseRecipe&, unsigned char) const
 vortex::CHandPoseLogic_ViveWand::AddThumbPoseEmptyHand(CPoseRecipe&, unsigned char) const
@@ -22440,10 +22458,10 @@ vr_internal::Localize(std::string const&, std::string const&, std::string const&
 vr_internal::VRApplications()
 vr_internal::VRApplicationsInternal()
 vr_internal::VRBlockQueue()
-vr_internal::VRCVTrackedHmdInternal()
 vr_internal::VRCameraPassthroughInternal()
 vr_internal::VRChaperone()
 vr_internal::VRChaperoneInternal()
+vr_internal::VRChaperoneServerDriver()
 vr_internal::VRChaperoneSetup()
 vr_internal::VRClientInternal()
 vr_internal::VRCompositorSystemInternal()
@@ -22550,6 +22568,7 @@ vtable for CDriverManager
 vtable for CEtronCamera
 vtable for CFirmwareManifest
 vtable for CFixedSizePropertyContainer
+vtable for CHandPoseLogic_IndexController
 vtable for CImuTrackerThread
 vtable for CKalmanQuaternion
 vtable for CKeyframedDataResource
@@ -22931,7 +22950,6 @@ vtable for std::underflow_error
 vtable for vortex::(anonymous namespace)::CDisambiguatorTDM
 vtable for vortex::CDisambiguatorFramer
 vtable for vortex::CDisambiguatorSyncOnBeam
-vtable for vortex::CHandPoseLogic_IndexController
 vtable for vortex::CHandPoseLogic_ViveWand
 vtable for vortex::CHidDevice
 vtable for vortex::CImuOnlyTracker

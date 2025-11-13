@@ -10,6 +10,7 @@
         "007": "these defaults."
     },
     "steamvr": {
+        "contrast": 0.0,
         "requireHmd": true,
         "forcedDriver": "",
         "forcedHmd": "",
@@ -92,8 +93,13 @@
         "overlayRenderQuality_2": 0,
         "overlayMips": 0,
         "overlayMipbias": 0.0,
+        "edgeSharpness": 1.0,
+        "sharpeningAlpha": 1.0,
         "displayPortTrainingMode": 0,
         "disableKeyboardPrivacy": false,
+        "allowTrackingCameraRecording": false,
+        "allowTrackingScreenRecording": false,
+        "allowTrackingAudioRecording": false,
         "advpredictweights": "advpredict.weights"
     },
     "openxr": {

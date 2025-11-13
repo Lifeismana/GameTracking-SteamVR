@@ -19,6 +19,7 @@
 	"Setting_WirelessShutdownTimeout": "При отключении выходить из SteamVR через",
 	"Setting_AllowVolumeControlSync": "Управлять громкостью и выключением звука в шлеме через SteamVR",
 	"Setting_DisableQoS": "Отключить QoS",
+	"Setting_EnableQoS": "Включить QoS",
 	"svl_hand_interaction_augmented": "Контроллер для отслеживания движений рук",
 	"/input/index_pinch": "Сведение указательного и большого пальцев",
 	"/input/middle_pinch": "Сведение среднего и большого пальцев",

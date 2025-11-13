@@ -67,9 +67,8 @@ $3br
 %dx%d
 %f %d %d %d %08x\n
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
-%s begin_ctx=%llu
-%s end_ctx=%llu
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
+%s[%s] %s file=%s
 %u of %u datalinks failed to initialize. Returning the last failure.
 %u,%u,%u,%u
 &&Lj66lZ??~A
@@ -293,6 +292,7 @@ $3br
 .?AVCAnimSkeleton@@
 .?AVCAudioEndpointVolumeCallback@@
 .?AVCBoneMaskResource@@
+.?AVCHandPoseLogic_IndexController@@
 .?AVCHandPoseLogic_OculusTouch@@
 .?AVCKeyframedDataResource@@
 .?AVCMMNotificationClient@@
@@ -634,13 +634,14 @@ $3br
 00P`00P`
 0\v2;i
 0`P0
-0a\v6<X
+0a\v6<x
 0n\n&pa
 0x%I64x
 1 Sec
 1/2/4/8/16-bit only
 10-bit format isn't supported by H264 encoder(NV_ENC_ERR_INVALID_PARAM)\n
 10.35.78
+10.35.78.0
 10bit
 11 4 22 44 44 22 444444
 11Sb11Sb""fD""fD77Yn77Yn66Zl66Zl
@@ -649,6 +650,7 @@ $3br
 1bS1
 1e+9999
 2+ss
+255.255.255.0
 2Ht\l
 2dV2:tN:\n
 2dataCount too high (%u)\n
@@ -793,7 +795,6 @@ $3br
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@Fatal
 @fff>fff>fff>fff>
 @jAjB
 @option requires an argument -- %c
@@ -1268,6 +1269,7 @@ Failed to send OGS row update\n
 Failed to send link bandwidth measurement\n
 Failed to set thread %p priority: invalid priority %d\n
 False
+Fatal
 Fatal: Bad server address with -c [server] : %s\n
 Fault, SVLFEC Received ExperiencedAnUnrecoverableError()\n
 File is empty : 
@@ -1409,6 +1411,7 @@ IVRBlockQueue_005
 IVRCameraComponent_003
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -1595,7 +1598,6 @@ NV_ENC_CAPS_LEVEL_MIN
 NV_ENC_CAPS_MB_NUM_MAX
 NV_ENC_CAPS_MB_PER_SEC_MAX
 NV_ENC_CAPS_NUM_ENCODER_ENGINES
-NV_ENC_CAPS_NUM_MAX_BFRAMES
 NV_ENC_CAPS_NUM_MAX_LTR_FRAMES
 NV_ENC_CAPS_NUM_MAX_TEMPORAL_LAYERS
 NV_ENC_CAPS_PREPROC_SUPPORT
@@ -1654,6 +1656,7 @@ Node has extension KHR_lights_punctual, but does not reference a light source.\n
 Node has extension MSFT_lod, but does not reference other nodes via their ids.\n
 None
 NormalTextureInfo
+Not updating dongle driver (prevented by settings)\n
 Note
 NotifyRouteChange
 NrZl
@@ -1694,6 +1697,7 @@ OutputDebugStringA
 OutputDebugStringW
 P00`
 P<xD<
+PCGNV_ENC_CAPS_NUM_MAX_BFRAMES
 PCHoption requires an argument -- %c
 PICO 4
 PICO 4 (Left Controller)
@@ -1749,7 +1753,6 @@ RPCRT4.dll
 RRvM;;
 RSDS
 RX Fail:%d
-R\vpLo
 RaiseException
 Received 0 byte message on control connection. Disconnecting
 Received GPU Architecture %d\n
@@ -1920,6 +1923,7 @@ SVLHMDDriver::InitializeOSC: OSC was disabled
 SVLHMDDriver::PostPresent
 SVLHMDDriver::Present
 SVLHMDDriver::ProcessEvent
+SVLHMDDriverD3D11::AcquireSync
 SVLHMDDriverD3D11::Activate() D3D11CreateDevice(...) = %d\n
 SVLHMDDriverD3D11::CreateSwapTextureSet() completed.
 SVLHMDDriverD3D11::ReleaseSync
@@ -1991,10 +1995,12 @@ SetupDiEnumDriverInfoA
 SetupDiGetClassDevs: %u\n
 SetupDiGetClassDevsA
 SetupDiGetClassDevsW
+SetupDiGetDeviceInstallParamsA
 SetupDiGetDeviceInstanceIdA
 SetupDiGetDeviceInterfaceDetailW
 SetupDiGetDevicePropertyW
 SetupDiGetDeviceRegistryPropertyW
+SetupDiSetDeviceInstallParamsA
 SetupGetInfDriverStoreLocationW
 ShellExecuteA
 ShellExecuteExA
@@ -2215,6 +2221,7 @@ Warning: Failed to set microphone out mute\n
 Warning: Failed to set microphone out volume\n
 Warning: Failed to set microphone volume\n
 Warning: HMD does not support 10bit.
+Warning: No dongle driver found + not installing a driver.\n
 Warning: Overflow: Frame %d not in expected state. Expecting: %d. Got: %d. Waiting 100 and trying again.
 Warning: Received empty frame size from NVENC. Reallocating next frame.\n
 Warning: Skipping ResetVideoStream because we have one pending.
@@ -2324,11 +2331,10 @@ Zjz\v
 [vrlink] !!!! ReleaseSync FAILED with E_FAIL
 [vrlink] !!!! ReleaseSync FAILED with unknown hr
 \44h
-\fpLo
 \frrrrrrrrrrrrrrrr
 \mfpmp.exe
 \nbad png sig
-\ncbuffer VS_CONSTANT_BUFFER : register(b2)\n{\n\tfloat4 g_uvAppSubmittedMinMax;// uMin, vMin, uMax, vMax;\n\tfloat2 g_unused; // Formerly squinch\n\tfloat  g_presentNumber;\n\tfloat  g_atlasMode;\n\tfloat2  g_RBSize;\n\tfloat   g_extraFlags;\n\tfloat   g_nEye;\n\tfloat2  g_GameTexSize; //NOT GAME TEXT SIZE!!!! OUTPUT TEXT SIZE!!!\n\tfloat2  g_CenterAreaOffsetXY;\n\tfloat2  g_GameSubmittedSizeXY;\n\tfloat   g_SpatialEncodingMode;\n\tfloat   g_bDirectFoveatedSample;\n};\n\n\nstruct vs_in\n{\n\tfloat3 position_local : POS;\n\tfloat3 texture_local : TEX;\n};\n\nstruct vs_out\n{\n\tfloat4 position_clip : SV_POSITION;\n\tfloat4 position_scr : TEXCOORD0;\n};\n\nvs_out vs_main( vs_in input )\n{\n\tvs_out output = (vs_out)0;\n\toutput.position_clip = float4( input.position_local, 1.0 );\n\toutput.position_scr = float4( input.texture_local.x, input.texture_local.y, input.texture_local.z, 0.0 );\n\treturn output;\n}\n\nTexture2D  Texture0;\n\nSamplerState SampleType;\n\nfloat3 SrgbLinearToGamma( float3 vLinearColor )\n{\n\t// 15 asm instructions\n\tfloat3 vLinearSegment = vLinearColor.rgb * 12.92;\n\tfloat3 vExpSegment = ( 1.055 * pow( vLinearColor.rgb, float3( 1.0 / 2.4, 1.0 / 2.4, 1.0 / 2.4 ) ) ) - 0.055;\n\n\tfloat3 vGammaColor = float3( ( vLinearColor.r <= 0.0031308 ) ? vLinearSegment.r : vExpSegment.r,\n\t\t\t\t\t\t\t\t ( vLinearColor.g <= 0.0031308 ) ? vLinearSegment.g : vExpSegment.g,\n\t\t\t\t\t\t\t\t ( vLinearColor.b <= 0.0031308 ) ? vLinearSegment.b : vExpSegment.b );\n\treturn vGammaColor.rgb;\n}\n\n#define B 0.0\n#define C 0.5\n\nfloat CatmullRom( float x )\n{\n\tfloat f = abs( x );\n\tfloat f2 = f * f;\n\tfloat f3 = f2 * f;\n\n\tif ( f < 1.0 )\n\t{\n\t\treturn ( ( 12 - 9 * B - 6 * C ) * f3 +\n\t\t\t\t ( -18 + 12 * B + 6 * C ) * f2 +\n\t\t\t\t ( 6 - 2 * B ) ) / 6.0;\n\t}\n\telse if ( f >= 1.0 && f < 2.0 )\n\t{\n\t\treturn ( ( -B - 6 * C ) * f3\n\t\t\t\t + ( 6 * B + 30 * C ) * f2 +\n\t\t\t\t ( -( 12 * B ) - 48 * C ) * f +\n\t\t\t\t 8 * B + 24 * C ) / 6.0;\n\t}\n\telse\n\t{\n\t\treturn 0.0;\n\t}\n}\n\n#define _KernelFcn CatmullRom\n#define _KernelScale 1.0\n#define _MinRadius2 1.0\n\nfloat4 Kernel_Iso_Circle( Texture2D tex, SamplerState samplerState, float2 textureSize, float2 invTextureSize,\n\t\t\t\t\t\t  float2 vTexCoord, float2 vDdx, float2 vDdy )\n{\n\tvTexCoord *= textureSize;\n\tvDdx *= textureSize;\n\tvDdy *= textureSize;\n\tfloat2 baseNearestTexelCenter = floor( vTexCoord ) + 0.5;\n\tfloat4 total_samp = float4( 0.0, 0.0, 0.0, 0.0 );\n\tfloat total_weight = 0;\n\tfloat ddxyRadius2 = 0.5 * ( dot( vDdx, vDdx ) + dot( vDdy, vDdy ) );\n\tddxyRadius2 = max( _MinRadius2, ddxyRadius2 );\n\tfloat ddxyRadiusInv = 1.0 / sqrt( ddxyRadius2 );\n#define DIM 2\n\tfor ( int m = -DIM; m <= DIM; m++ )\n\t{\n\t\tfor ( int n = -DIM; n <= DIM; n++ )\n\t\t{\n#undef DIM\n\t\t\tfloat2 texelCenter = baseNearestTexelCenter + float2( m, n );\n\t\t\tfloat2 pixel_offset = texelCenter - vTexCoord;\n\t\t\tfloat2 rel = pixel_offset * ddxyRadiusInv * _KernelScale;\n\t\t\tfloat r2 = dot( rel, rel );\n\t\t\tfloat weight = _KernelFcn( sqrt( r2 ) );\n\t\t\ttotal_samp += weight * tex.SampleLevel( samplerState, texelCenter * invTextureSize, 0 );\n\t\t\ttotal_weight += weight;\n\t\t}\n\t}\n\n\ttotal_samp *= 1.0 / total_weight;\n\treturn total_samp;\n}\n\n#undef _KernelScale\n#undef _MinRadius2\n\nfloat4 FoveatedSample( vs_out input, float SampleScale )\n{\n\tfloat2 uv = input.position_scr.xy;\n\tfloat4 samp;\n\t\n\t#if PRECODE == 0\n\tif( uv.y < 0.5 )\n\t#elif PRECODE == 1\n\tif( uv.x < 0.5 )\n\t#else\n\tif( true )\n\t#endif\n\t{\n\t\t#if PRECODE == 0\n\t\t\t// Bottom Image (Fit) (Works the way for scene app + overlays)\n\t\t\tuv.y = uv.y * 2.0;\n\t\t#elif PRECODE == 1\n\t\t\tuv.x = uv.x * 2.0;\n\t\t#else\n\t\t\t// Don't do anything if 1:1\n\t\t#endif\n\t\n\t\tfloat2 rv = float2( uv.x, 1.0 - uv.y ); // Flip so we're in normal UV space. (the UV going in is flipped)\n\n\t\t// I think this is the right way to do this conversion, back into the soruce image's UVs.\n\t\trv.xy = rv.xy * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy) + g_uvAppSubmittedMinMax.xy;\n\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t\t//samp.rgba *= float4( 0.0, 0.75, 1.0, 1.0 );\n\t}\n\telse if ( g_bDirectFoveatedSample > 0 )\n\t{\n\t\t// Top Image (Foveated), Luma\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t\n\t\t#if PRECODE == 0\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#elif PRECODE == 1\t\t\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t\n\t\t// Address it so (0,0) is in the top left\n\t\trv += g_CenterAreaOffsetXY;\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\n\t\t// We have to add 0.1 because if we do 0.0 then the floating point math will sometimes end us up on the wrong side of the pixel and we'll get crunchy pixels.\n\t\t// There's also occasionally an issue at 0.5, since that bumps us into the next pixels, so we're going to do +0.1\n\t\tint2 SampleCoordFromSubmittedTexture = int2( rv * texsizelevels.xy + 0.1 );\n\n\t\tsamp = Texture0.Load( int3( SampleCoordFromSubmittedTexture, 0 )  );\n\n\t\tif ( ( ( ( uint ) g_extraFlags ) & 0x100 ) ) // 256\n\t\t{\n\t\t\tfloat2 uvcx = (uv - float2(0.5,0.75)) * float2(1.0,2.0);\n\t\t\tuvcx = abs( uvcx );\n\t\t\tfloat centert = 0.;\n\t\t\t// Only show pip if filtering is off.\n\t\t\tif( !( ( ( uint ) g_extraFlags ) & 0x200 ) ) // 512\n\t\t\t{\n\t\t\t\tfloat r = length( uvcx );\n\t\t\t\tcentert =  saturate(sin(r*400.0+0.1)*0.5+0.5-r*30.);\n\t\t\t}\n\t\t\tfloat outert = max(uvcx.x, uvcx.y) > 0.48;\n\t\t\tsamp = lerp( samp, float( 1.0 ), max( centert, outert ) );\n\t\t}\n\t}\n\telse\n\t{\n\t\t// Chroma for foveated region.\n\t\t\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\t#if PRECODE == 0\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#else\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t// rv is in 0...g_RBSize space.\n\n\t\trv += g_CenterAreaOffsetXY;\n\n\t\t// Now it's in [gamesubmittedxy] space, where top corner of box is 0,0.\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t}\n\tsamp.rgb = SrgbLinearToGamma( samp.rgb );\n\t//samp.rgb = float3( 1000.0/1023.0, 100.0/1023.0, 100.0/1023.0 );\n\treturn samp;\n}\n\nfloat3 RGB709_to_YUV( float3 rgb )\n{\n\tfloat a = 0.2126;\n\tfloat b = 0.7152;\n\tfloat c = 0.0722;\n\tfloat d_inv = 0.5389092476826902;\n\tfloat e_inv = 0.63500127000254;\n\tfloat midpoint = 512.0/1023.0;\n\tfloat Y = a * rgb.r + b * rgb.g + c * rgb.b;\n\tfloat cb = ( rgb.b - Y ) * d_inv;\n\tfloat cr = ( rgb.r - Y ) * e_inv;\n\treturn saturate( float3( Y, cb + midpoint, cr + midpoint ) );\n}\n\nfloat4 ps_main( vs_out input, float4 screenSpace : SV_Position ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 1.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.r, 0, 0, samp.a );\n}\n\nfloat4 ps_main_chroma( vs_out input ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 2.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.g, fYUV.b, 0, samp.a );\n}\n
+\ncbuffer VS_CONSTANT_BUFFER : register(b2)\n{\n\tfloat4 g_uvAppSubmittedMinMax;// uMin, vMin, uMax, vMax;\n\tfloat4  g_nonFovealColor;\n\tfloat2  g_RBSize;\n\tfloat   g_extraFlags;\n\tfloat   g_nEye;\n\tfloat2  g_GameTexSize; //NOT GAME TEXT SIZE!!!! OUTPUT TEXT SIZE!!!\n\tfloat2  g_CenterAreaOffsetXY;\n\tfloat2  g_GameSubmittedSizeXY;\n\tfloat   g_unused; // g_SpatialEncodingMode\n\tfloat   g_bDirectFoveatedSample;\n};\n\n\nstruct vs_in\n{\n\tfloat3 position_local : POS;\n\tfloat3 texture_local : TEX;\n};\n\nstruct vs_out\n{\n\tfloat4 position_clip : SV_POSITION;\n\tfloat4 position_scr : TEXCOORD0;\n};\n\nvs_out vs_main( vs_in input )\n{\n\tvs_out output = (vs_out)0;\n\toutput.position_clip = float4( input.position_local, 1.0 );\n\toutput.position_scr = float4( input.texture_local.x, input.texture_local.y, input.texture_local.z, 0.0 );\n\treturn output;\n}\n\nTexture2D  Texture0;\n\nSamplerState SampleType;\n\nfloat3 SrgbLinearToGamma( float3 vLinearColor )\n{\n\t// 15 asm instructions\n\tfloat3 vLinearSegment = vLinearColor.rgb * 12.92;\n\tfloat3 vExpSegment = ( 1.055 * pow( vLinearColor.rgb, float3( 1.0 / 2.4, 1.0 / 2.4, 1.0 / 2.4 ) ) ) - 0.055;\n\n\tfloat3 vGammaColor = float3( ( vLinearColor.r <= 0.0031308 ) ? vLinearSegment.r : vExpSegment.r,\n\t\t\t\t\t\t\t\t ( vLinearColor.g <= 0.0031308 ) ? vLinearSegment.g : vExpSegment.g,\n\t\t\t\t\t\t\t\t ( vLinearColor.b <= 0.0031308 ) ? vLinearSegment.b : vExpSegment.b );\n\treturn vGammaColor.rgb;\n}\n\n#define B 0.0\n#define C 0.5\n\nfloat CatmullRom( float x )\n{\n\tfloat f = abs( x );\n\tfloat f2 = f * f;\n\tfloat f3 = f2 * f;\n\n\tif ( f < 1.0 )\n\t{\n\t\treturn ( ( 12 - 9 * B - 6 * C ) * f3 +\n\t\t\t\t ( -18 + 12 * B + 6 * C ) * f2 +\n\t\t\t\t ( 6 - 2 * B ) ) / 6.0;\n\t}\n\telse if ( f >= 1.0 && f < 2.0 )\n\t{\n\t\treturn ( ( -B - 6 * C ) * f3\n\t\t\t\t + ( 6 * B + 30 * C ) * f2 +\n\t\t\t\t ( -( 12 * B ) - 48 * C ) * f +\n\t\t\t\t 8 * B + 24 * C ) / 6.0;\n\t}\n\telse\n\t{\n\t\treturn 0.0;\n\t}\n}\n\n#define _KernelFcn CatmullRom\n#define _KernelScale 1.0\n#define _MinRadius2 1.0\n\nfloat4 Kernel_Iso_Circle( Texture2D tex, SamplerState samplerState, float2 textureSize, float2 invTextureSize,\n\t\t\t\t\t\t  float2 vTexCoord, float2 vDdx, float2 vDdy )\n{\n\tvTexCoord *= textureSize;\n\tvDdx *= textureSize;\n\tvDdy *= textureSize;\n\tfloat2 baseNearestTexelCenter = floor( vTexCoord ) + 0.5;\n\tfloat4 total_samp = float4( 0.0, 0.0, 0.0, 0.0 );\n\tfloat total_weight = 0;\n\tfloat ddxyRadius2 = 0.5 * ( dot( vDdx, vDdx ) + dot( vDdy, vDdy ) );\n\tddxyRadius2 = max( _MinRadius2, ddxyRadius2 );\n\tfloat ddxyRadiusInv = 1.0 / sqrt( ddxyRadius2 );\n#define DIM 2\n\tfor ( int m = -DIM; m <= DIM; m++ )\n\t{\n\t\tfor ( int n = -DIM; n <= DIM; n++ )\n\t\t{\n#undef DIM\n\t\t\tfloat2 texelCenter = baseNearestTexelCenter + float2( m, n );\n\t\t\tfloat2 pixel_offset = texelCenter - vTexCoord;\n\t\t\tfloat2 rel = pixel_offset * ddxyRadiusInv * _KernelScale;\n\t\t\tfloat r2 = dot( rel, rel );\n\t\t\tfloat weight = _KernelFcn( sqrt( r2 ) );\n\t\t\ttotal_samp += weight * tex.SampleLevel( samplerState, texelCenter * invTextureSize, 0 );\n\t\t\ttotal_weight += weight;\n\t\t}\n\t}\n\n\ttotal_samp *= 1.0 / total_weight;\n\treturn total_samp;\n}\n\n#undef _KernelScale\n#undef _MinRadius2\n\nfloat4 FoveatedSample( vs_out input, float SampleScale )\n{\n\tfloat2 uv = input.position_scr.xy;\n\tfloat4 samp;\n\t\n\t#if PRECODE == 0\n\tif( uv.y < 0.5 )\n\t#elif PRECODE == 1\n\tif( uv.x < 0.5 )\n\t#else\n\tif( true )\n\t#endif\n\t{\n\t\t#if PRECODE == 0\n\t\t\t// Bottom Image (Fit) (Works the way for scene app + overlays)\n\t\t\tuv.y = uv.y * 2.0;\n\t\t#elif PRECODE == 1\n\t\t\tuv.x = uv.x * 2.0;\n\t\t#else\n\t\t\t// Don't do anything if 1:1\n\t\t#endif\n\t\n\t\tfloat2 rv = float2( uv.x, 1.0 - uv.y ); // Flip so we're in normal UV space. (the UV going in is flipped)\n\n\t\t// I think this is the right way to do this conversion, back into the soruce image's UVs.\n\t\trv.xy = rv.xy * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy) + g_uvAppSubmittedMinMax.xy;\n\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t\tsamp.rgba *= g_nonFovealColor;\n\t}\n\telse if ( g_bDirectFoveatedSample > 0 )\n\t{\n\t\t// Top Image (Foveated), Luma\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t\n\t\t#if PRECODE == 0\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#elif PRECODE == 1\t\t\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t\n\t\t// Address it so (0,0) is in the top left\n\t\trv += g_CenterAreaOffsetXY;\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\n\t\t// We have to add 0.1 because if we do 0.0 then the floating point math will sometimes end us up on the wrong side of the pixel and we'll get crunchy pixels.\n\t\t// There's also occasionally an issue at 0.5, since that bumps us into the next pixels, so we're going to do +0.1\n\t\tint2 SampleCoordFromSubmittedTexture = int2( rv * texsizelevels.xy + 0.1 );\n\n\t\tsamp = Texture0.Load( int3( SampleCoordFromSubmittedTexture, 0 )  );\n\n\t\tif ( ( ( ( uint ) g_extraFlags ) & 0x100 ) ) // 256\n\t\t{\n\t\t\tfloat2 uvcx = (uv - float2(0.5,0.75)) * float2(1.0,2.0);\n\t\t\tuvcx = abs( uvcx );\n\t\t\tfloat centert = 0.;\n\t\t\t// Only show pip if filtering is off.\n\t\t\tif( !( ( ( uint ) g_extraFlags ) & 0x200 ) ) // 512\n\t\t\t{\n\t\t\t\tfloat r = length( uvcx );\n\t\t\t\tcentert =  saturate(sin(r*400.0+0.1)*0.5+0.5-r*30.);\n\t\t\t}\n\t\t\tfloat outert = max(uvcx.x, uvcx.y) > 0.48;\n\t\t\tsamp = lerp( samp, float( 1.0 ), max( centert, outert ) );\n\t\t}\n\t}\n\telse\n\t{\n\t\t// Chroma for foveated region.\n\t\t\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\t#if PRECODE == 0\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#else\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t// rv is in 0...g_RBSize space.\n\n\t\trv += g_CenterAreaOffsetXY;\n\n\t\t// Now it's in [gamesubmittedxy] space, where top corner of box is 0,0.\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t}\n\tsamp.rgb = SrgbLinearToGamma( samp.rgb );\n\t//samp.rgb = float3( 1000.0/1023.0, 100.0/1023.0, 100.0/1023.0 );\n\treturn samp;\n}\n\nfloat3 RGB709_to_YUV( float3 rgb )\n{\n\tfloat a = 0.2126;\n\tfloat b = 0.7152;\n\tfloat c = 0.0722;\n\tfloat d_inv = 0.5389092476826902;\n\tfloat e_inv = 0.63500127000254;\n\tfloat midpoint = 512.0/1023.0;\n\tfloat Y = a * rgb.r + b * rgb.g + c * rgb.b;\n\tfloat cb = ( rgb.b - Y ) * d_inv;\n\tfloat cr = ( rgb.r - Y ) * e_inv;\n\treturn saturate( float3( Y, cb + midpoint, cr + midpoint ) );\n}\n\nfloat4 ps_main( vs_out input, float4 screenSpace : SV_Position ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 1.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.r, 0, 0, samp.a );\n}\n\nfloat4 ps_main_chroma( vs_out input ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 2.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.g, fYUV.b, 0, samp.a );\n}\n
 \ncbuffer VS_CONSTANT_BUFFER : register(b2)\n{\n\tfloat4 uvMinMax;\n\tfloat4 clockParameters; // clockParameters[01] = coordinate of clock 0,0; clockParameters[2] = clock\n};\n\n/* vertex attributes go here to input to the vertex shader */\nstruct vs_in {\n    float3 position_local : POS;\n    float3 texture_local : TEX;\n};\n\n/* outputs from vertex shader go here. can be interpolated to pixel shader */\nstruct vs_out {\n    float4 position_clip : SV_POSITION; // required output of VS\n    float4 position_tex   : TEXCOORD0;\n};\n\nvs_out vs_main(vs_in input) {\n  //vs_out output = (vs_out)0; // zero the memory first\n  vs_out output;\n  output.position_clip = float4(input.position_local, 1.0);\n  output.position_tex = float4(input.texture_local, 1.0);\n\n  float4 muvMinMax = uvMinMax;\n  output.position_tex = float4( \n\tinput.texture_local.x * ( muvMinMax.z - muvMinMax.x ) + muvMinMax.x,\n\tinput.texture_local.y * ( muvMinMax.y - muvMinMax.w ) + muvMinMax.w,\n\t0. , 0. );\n\n  return output;\n}\n\nTexture2D  Texture0;\n\nSamplerState SampleType;\n\n#define CLOCKX 8\n#define CLOCKY 8\n\n#define CLOCK_CURSOR_SIZE (8.)\n#define CLOCK_TIME_STEP (1.)\n\nfloat4 ps_main(vs_out input, float4 Pos : SV_Position ) : SV_TARGET {\n\tint2 fragpos = (Pos.xy-clockParameters.xy)/CLOCK_CURSOR_SIZE;\n\tint fid = floor(clockParameters.z/CLOCK_TIME_STEP + 0.5 );\n\tint frameid = floor(clockParameters.z + 0.5);\n\tint fidx = 0;\n\tint fidy = (fid % (CLOCKX*CLOCKY)) / CLOCKX;\n\tif( fidy & 1 )\n\t{\n\t\tfidx = (CLOCKX-1) - fid % CLOCKX;\n\t}\n\telse\n\t{\n\t\tfidx = fid % CLOCKX;\n\t}\n\n\tfloat cx = fragpos.x%CLOCKX;\n\tfloat cy = (fragpos.y%CLOCKY);\n\t//float col;\n\tfloat col_r;\n\tfloat col_g;\n\tfloat col_b;\n\tint redpixel_at_zero_pos = 0; //used for debugging\n\t\n\t//if (redpixel_at_zero_pos && (!fidx && !fidy && !cx && !cy)) {\n\tif (redpixel_at_zero_pos && !(frameid % 64)) {\n\t\tcol_r = 1.0;\n\t\tcol_g = 0.0;\n\t\tcol_b = 0.0;\n\t}\n\telse {\n\t\tcol_r = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t\tcol_g = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t\tcol_b = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t}\n\n\treturn float4(col_r, col_g, col_b, 1.);\n}\n\n\nfloat4 ps_main_chroma(vs_out input, float4 Pos : SV_Position ) : SV_TARGET {\n\treturn 0.5;\n}\n\n
 \r8STs\ne
 \r8STs\neTs\neTs\neTs\ne
@@ -2358,14 +2364,13 @@ Zjz\v
 \u%04x\u%04x
 \ufffd
 \vCreateSwapTextureSet: %dx%d(%d) %d
-\vpLo
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
 ],"subtype":
 ]1bO
-]SVLHMDDriverD3D11::AcquireSync
+]c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1644
 ^lX8k
 _55j
 _Cnd_broadcast
@@ -2517,7 +2522,6 @@ atan2f
 atlasMode
 atof
 atoi
-atoll
 attributes
 auto
 automaticBandwidth
@@ -2572,13 +2576,18 @@ baseColorFactor
 baseColorTexture
 bg_bg
 bind failed with error: %d\n
+bonemask_fingeraux.txt
 bonemask_grip.txt
 bonemask_index.txt
 bonemask_indexcurl.txt
 bonemask_indexnocarpal.txt
 bonemask_middle.txt
 bonemask_middlenocarpal.txt
+bonemask_pinky.txt
+bonemask_ring.txt
+bonemask_squeeze.txt
 bonemask_thumb.txt
+bonemask_thumb_and_wrist.txt
 brazilian
 buffer
 bufferFrameCount = %d, samples per sec = %d, channels = %d bits_per_sample=%d nBlockAlign=%d\n
@@ -2591,12 +2600,17 @@ byteLength
 byteOffset
 byteStride
 c!!B0
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2059
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2299
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2411
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1615
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1386
 c=qx
 cAudBufAvg
 cAudBufMax
@@ -2609,7 +2623,6 @@ cAudFwd
 cAudOvf
 cAudRew
 cAudUnd
-cDegateAdj
 cFramePhase
 cPingAMS
 cRXFailFuzz
@@ -2693,10 +2706,10 @@ dbgStartEnc
 dbgSyncOff
 dbgTXWaitMS
 de_de
+debugRegionColoring
 deque<T> too long
 dest
 devicescannermsgwindow-
-disableQoS
 displayFrequency
 distanceModel
 doubleSided
@@ -2806,6 +2819,7 @@ h8,4$
 hHpX
 hOM/
 h\44Q
+hand_right_closeanim.glb
 hand_right_poses.glb
 handle_recenter
 handlers
@@ -2838,8 +2852,11 @@ in Json::Value::setComment(): Comments must start with /
 inactive
 indentation
 index
+indexcontroller
+indexcontroller_anim_closesqueeze.glb
 indices
 inet_ntop
+inet_pton
 info.png
 innerConeAngle
 input
@@ -2911,6 +2928,7 @@ ja_jp
 japanese
 joints
 k22Vd22Vd
+k?KPm?
 kZ3nT]
 keylength >= 2^30
 ko_kr
@@ -3069,6 +3087,7 @@ powf
 pp|B>>q
 precision
 preferredRefreshRate
+preventDongleDriverUpdate
 primitive indices accessor out of bounds
 primitives
 ps_5_0
@@ -3098,7 +3117,6 @@ rejectDupKeys
 remote_dashboard_open
 renderHeight
 renderWidth
-repeating AMF SubmitInput() [ %s ]\n
 reqEncMode
 request_dashboard_tutorial
 request_handlers
@@ -3281,6 +3299,7 @@ vector<bool> too long
 version
 vi_vn
 videoamfenc first frame or reset in SubmitFrame():  %d  %d  %d  %d  %d  %d\n
+videoamfenc: Failed on SubmitInput() error [ %s ]\n
 videoamfenc: Terminate encoder for restart\n
 videoamfenc: failed to force idr frame [ %s ]\n
 videoamfenc: failed to insert aud [ %s ]\n
@@ -3297,6 +3316,7 @@ videoamfenc::Resize( %d, %d )\n
 videonvenc->nvEncEncodePicture
 videonvenc::GetEncodedDataThread
 videonvenc::ManageFramesThread
+videonvenc::StartEncodeData
 videonvenc::StartEncodeDataThread
 vietnamese
 vive_focus3_controller
@@ -3309,6 +3329,7 @@ vivefocusvision_ready.png
 vivefocusvision_ready_low.png
 vivefocusvision_searching.gif
 vr_glove_left_skeleton.glb
+vr_glove_right_poses.glb
 vr_glove_right_skeleton.glb
 vrcombined_log.previous.txt
 vrcombined_log.txt
