@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-16:36:13
+10:40:48
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -414,7 +414,7 @@ NoDisplayFound
 NoValidDisplays
 NoValidMotionEstimators
 NotSupported
-Nov 12 2025
+Nov 13 2025
 OpenEventA
 OpenFileMappingA
 OpenMutexA
@@ -458,7 +458,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSj
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

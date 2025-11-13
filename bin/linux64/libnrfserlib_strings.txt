@@ -2833,7 +2833,6 @@ java Class for
 java resource 
 keylength >= 2^30
 kill
-kwW|\r
 lasterrorU
 ld-linux-x86-64.so.2
 left-curly-bracket

@@ -2612,6 +2612,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1615
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1386
 c=qx
+cAoption requires an argument -- %c
 cAudBufAvg
 cAudBufMax
 cAudBufMin

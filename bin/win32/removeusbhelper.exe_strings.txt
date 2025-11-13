@@ -266,7 +266,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSXM=
 RaiseException
 RegCloseKey
 RegCreateKeyExW

@@ -1641,11 +1641,11 @@ $\n k_EProtoServiceTypeSteamMessages
 0w8@
 1.2.5
 1/2/4/8/16-bit only
+10:40:48
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-16:36:13
 1A26b
 1\f514
 1e+9999
@@ -3414,7 +3414,7 @@ Not starting vrserver for background app (121)
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Notification_BasestationsTooFarApart
 Notification_Detected
-Nov 12 2025
+Nov 13 2025
 Numbers starting with leading zero must be in octal.
 NvAPI
 NvAPI DisplayModes:
@@ -3787,7 +3787,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS\=
+RSDS
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE

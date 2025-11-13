@@ -463,7 +463,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDS
+RSDS$
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -786,7 +786,6 @@ oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 print
 punct
-r[|RmG
 realloc
 runas
 space

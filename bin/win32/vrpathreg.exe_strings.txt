@@ -516,7 +516,7 @@ PeekNamedPipe
 Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDSv7E
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -849,6 +849,7 @@ pEvents
 pExecutionResource
 pScheduler
 pThreadProxy
+pab 
 permission denied
 pnJ=
 ppVirtualProcessorRoots

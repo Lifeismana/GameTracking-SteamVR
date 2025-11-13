@@ -933,8 +933,8 @@ $4DTdt
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
+10:40:48
 123456789
-16:36:13
 1A26b
 1e+9999
 1wsHp
@@ -2473,7 +2473,7 @@ Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
 Not writing %s because the texture was null
 Notification mailbox init failed with %d\n
-Nov 12 2025
+Nov 13 2025
 NvAPI
 NvAPI DisplayModes:
 NvAPI: DirectModeCreateSurface trying again with older API!\n
@@ -4277,6 +4277,7 @@ Zjz\v
 [h1R
 [libprotobuf %s %s:%d] %s\n
 [no zlib message]
+\fpTy
 \gpuvis.exe
 \mfpmp.exe
 \nbad png sig
@@ -5240,6 +5241,7 @@ qsort
 quad
 quickMouseMode
 quick_reset_room_setup
+r\vPTy
 radius-range
 rand
 rawCaptureNumberOfFrames

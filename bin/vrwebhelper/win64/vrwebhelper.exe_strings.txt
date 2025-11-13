@@ -593,9 +593,9 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
+10:40:48
 126.0.0-HEAD.3131+g8482cf1+chromium-126.0.6478.183
 127.0.0.1
-16:36:13
 1e+9999
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
@@ -1302,7 +1302,7 @@ Not Initialized (109)
 Not available to watchdog apps (131)
 Not calling InitVRAndLogging() since VR is already initialized.\n
 Not starting vrserver for background app (121)
-Nov 12 2025
+Nov 13 2025
 Num Lock
 Num Lock Toggle
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -1337,7 +1337,7 @@ QueryPerformanceFrequency
 QuitSceneApp
 QuitSteamVR
 RPCRT4.dll
-RSDS
+RSDSpv
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -2037,7 +2037,6 @@ VirtualAlloc
 VirtualFree
 VirtualProtect
 VirtualQuery
-VkKG
 WARNING: InitD3DDevice, failed to GetAdapter by luid %llu %s
 WARNING: InitD3DDevice, no AdapterLuid specified
 WaitForMultipleObjects
@@ -2159,7 +2158,6 @@ _time64
 _wfopen_s
 _wfsopen
 _wstat64i32
-aCbf
 abort
 activePlaybackMirrorDevice
 additional six characters expected to parse unicode surrogate pair.
