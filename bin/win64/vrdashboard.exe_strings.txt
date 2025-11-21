@@ -13,9 +13,9 @@
 -skip_duplication_gpu_check
 .00cfg
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_76601e243a234ec783a81fb8fba74a92>@@
-.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_e5730e69a408f2c881c006e24b983b82>@@
 .?AV?$CCallback@VCSteamWorker@@USteamShutdown_t@@$0A@@@
 .?AV?$CCallbackImpl@$00@@
@@ -23,9 +23,9 @@
 .?AV?$_Func_base@XPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_76601e243a234ec783a81fb8fba74a92>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e5730e69a408f2c881c006e24b983b82>@@PEAXPEBD@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@U?$default_delete@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@@2@@std@@@std@@
@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-10:40:48
+13:51:20
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -275,6 +275,7 @@ GetCurrentThread
 GetCurrentThreadId
 GetEnvironmentVariableA
 GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
+GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
 GetFileVersionInfoA
@@ -359,7 +360,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 MoveFileExW
 NULL
-Nov 13 2025
+Nov 21 2025
 Out of thread local storage!\n
 OutputDebugStringA
 PeekMessageA
@@ -368,7 +369,7 @@ ProcessVREvents
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS"
+RSDSD
 RaiseException
 ReadFile
 RealMain

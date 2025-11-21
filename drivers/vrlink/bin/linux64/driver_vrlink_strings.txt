@@ -550,7 +550,6 @@ $3br
 16SVLAudioPipewire
 17CBoneMaskResource
 17CSharedImageLinux
-18:35:02
 18CSharedBufferLinux
 18IUsbDeviceCallback
 18SVLFECRAID6RXFrame
@@ -561,6 +560,7 @@ $3br
 1e+9999
 20BinaryBlendPoseMaker
 20PassThroughPoseMaker
+21:51:11
 21CSharedSemaphoreLinux
 21SVLHandTrackingDriver
 22CKeyframedDataResource
@@ -3126,7 +3126,7 @@ Node has extension MSFT_lod, but does not reference other nodes via their ids.\n
 None
 NormalTextureInfo
 Note
-Nov 13 2025
+Nov 21 2025
 November
 OGCancelThread
 OGCreateMutex
@@ -3791,20 +3791,9 @@ SVLCodec::~SVLCodec()
 SVLCompressSkeleton(std::array<vr::VRBoneTransform_t, 31ul> const&, unsigned char*)
 SVLControllerDriver::Activate(unsigned int)
 SVLControllerDriver::Activate(unsigned int) (.cold)
+SVLControllerDriver::Activate(unsigned int)::'lambda'()::operator()() const::encrypted
 SVLControllerDriver::Activate(unsigned int)::'lambda0'()::operator()() const::encrypted
 SVLControllerDriver::Activate(unsigned int)::'lambda1'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda11'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda12'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda13'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda14'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda2'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda3'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda4'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda5'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda6'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda7'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda8'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda9'()::operator()() const::encrypted
 SVLControllerDriver::Deactivate()
 SVLControllerDriver::DebugRequest(char const*, char*, unsigned int)
 SVLControllerDriver::EnterStandby()
@@ -5671,7 +5660,6 @@ Zjz\v
 [SVLControllerHand] Error activating controller, Prop_ModelNumber_String not set\n
 [SVLControllerHand] Error activating controller, VTE_StaticProps_t not available\n
 [SVLController] Activate Error: Unsupported controller type "%s"\n
-[SVLController] Activate Warning: Unknown render model name "%s", using default "%s"\n
 [SVLController] Activating controller on TrackedDeviceIndex_t %d\n
 [SVLController] Error activating controller, Prop_ControllerType_String not set\n
 [SVLController] Error activating controller, Prop_ModelNumber_String not set\n
@@ -6579,6 +6567,7 @@ fputc
 fputs
 fr_fr
 frameDeadlineText
+frame_controller
 frame_downheap
 frame_dummy
 frame_hdr_cache
@@ -7327,7 +7316,6 @@ oculus_quest_pro
 oculus_quest_pro_controller
 oculus_touch
 off.png
-ojeak
 once_regsizes.9477
 only 8-bit
 open
@@ -7350,7 +7338,6 @@ operator new[](unsigned long, std::nothrow_t const&)
 operator new[](unsigned long, std::nothrow_t const&) (.cold)
 orthographic
 other_error
-oti`w
 out_of_range
 outerConeAngle
 outofdata
@@ -7527,6 +7514,8 @@ rolloffFactor
 romanian
 rotation
 roughnessFactor
+roy_k2
+roy_k2v3
 rsbox
 rtus_test
 ru_ru
@@ -13994,6 +13983,8 @@ znear
 {oculus}/icons/rifts_right_controller_searching_alert.png
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
+{roy}frame_controller_left
+{roy}frame_controller_right
 {vrlink}
 {vrlink}/icons/
 {vrlink}/icons/headset_pico4_error.png

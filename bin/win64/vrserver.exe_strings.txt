@@ -544,6 +544,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AUMessageHandler_t@CConnectionThread@@
 .?AUToBase_t@Detail@Reflection@@
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@
 .?AV<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@
 .?AV<lambda_11d26080b3820719662302cdf688baf3>@@
@@ -574,7 +575,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_d4ea458dafa46560c4bdc7db4653ba2d>@@
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
 .?AV<lambda_d9c8d5500ac3dfddb02459f8a53a1949>@@
-.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_dcd68f11e779e636b3af35198369d081>@@
 .?AV<lambda_e8ce496b76c74e3642517b6b1e5cdb64>@@
 .?AV<lambda_f4f5e2f072afd4a5de41e85075878c7c>@@
@@ -672,6 +672,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@Z_NPEAV12@PEAV32@AEBV32@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_11d26080b3820719662302cdf688baf3>@@XAEBVValue@Json@@@std@@
@@ -702,7 +703,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_d4ea458dafa46560c4bdc7db4653ba2d>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9c8d5500ac3dfddb02459f8a53a1949>@@X$$QEAUBindingFileOption_t@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dcd68f11e779e636b3af35198369d081>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e8ce496b76c74e3642517b6b1e5cdb64>@@VValue@Json@@PEBE@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f4f5e2f072afd4a5de41e85075878c7c>@@X$$QEAUBindingFileOption_t@@_N@std@@
@@ -1641,11 +1641,11 @@ $\n k_EProtoServiceTypeSteamMessages
 0w8@
 1.2.5
 1/2/4/8/16-bit only
-10:40:48
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
+13:51:20
 1A26b
 1\f514
 1e+9999
@@ -3414,7 +3414,7 @@ Not starting vrserver for background app (121)
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Notification_BasestationsTooFarApart
 Notification_Detected
-Nov 13 2025
+Nov 21 2025
 Numbers starting with leading zero must be in octal.
 NvAPI
 NvAPI DisplayModes:
@@ -3788,6 +3788,8 @@ R1h58
 RGBG
 RPCRT4.dll
 RSDS
+R\npp
+R\vpp
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE

@@ -35,6 +35,7 @@
 .?AU_cef_urlparts_t@@
 .?AU_cef_window_info_t@@
 .?AV<lambda_01d7d5b8902562eab3836f1974cc9178>@@
+.?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_0596dde48d56396bb1913331e6d99b1f>@@
 .?AV<lambda_07bef8d2b6dc00f052b4582b4367b137>@@
 .?AV<lambda_0926d84e96a77d161b2cf7c0d012b08f>@@
@@ -178,7 +179,6 @@
 .?AV<lambda_d39b8d91d6a5425c8ed901792a2035ac>@@
 .?AV<lambda_d3c99d21be5bb27e8ed1d7ca4d210e37>@@
 .?AV<lambda_d97ce55800323e68a79d1ea062d00c47>@@
-.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_db49121a47510ebd610870b0826a2366>@@
 .?AV<lambda_dbb3a36e4330c634a1c6870e37289b02>@@
 .?AV<lambda_dcadde22ae82e6e22da92f5f5b7c9b53>@@
@@ -220,6 +220,7 @@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_01d7d5b8902562eab3836f1974cc9178>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0596dde48d56396bb1913331e6d99b1f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_07bef8d2b6dc00f052b4582b4367b137>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0926d84e96a77d161b2cf7c0d012b08f>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
@@ -363,7 +364,6 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_d39b8d91d6a5425c8ed901792a2035ac>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d3c99d21be5bb27e8ed1d7ca4d210e37>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d97ce55800323e68a79d1ea062d00c47>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_db49121a47510ebd610870b0826a2366>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dbb3a36e4330c634a1c6870e37289b02>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dcadde22ae82e6e22da92f5f5b7c9b53>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
@@ -593,9 +593,9 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-10:40:48
 126.0.0-HEAD.3131+g8482cf1+chromium-126.0.6478.183
 127.0.0.1
+13:51:20
 1e+9999
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
@@ -917,6 +917,7 @@ GetDefaultAudioEndpoint failed: hr = 0x%08x\n
 GetEnvironmentVariableA
 GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetExitCodeProcess
+GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
 GetHostInfo
@@ -1302,7 +1303,7 @@ Not Initialized (109)
 Not available to watchdog apps (131)
 Not calling InitVRAndLogging() since VR is already initialized.\n
 Not starting vrserver for background app (121)
-Nov 13 2025
+Nov 21 2025
 Num Lock
 Num Lock Toggle
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -1337,7 +1338,10 @@ QueryPerformanceFrequency
 QuitSceneApp
 QuitSteamVR
 RPCRT4.dll
-RSDSpv
+RSDSWN)
+R\f0l
+R\v0l
+R\vpl
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -2096,8 +2100,10 @@ Zjz\v
 [VRWebHelper] Launching template %s -> %s\n
 [[[[[[[[[[[[js
 \ApiLayers\
+\f0\vPl
 \n\t\t\t\t{\n\t\t\t\t\t"type" : "show_tracker_ui"\n\t\t\t\t}\n\t\t\t
 \n\t\t\t{\n\t\t\t\t"type" : "show_app_select"\n\t\t\t}\n\t\t
+\rp\f0\vPl
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -2523,6 +2529,7 @@ pt_br
 pt_pt
 punct
 qMFCreateMediaType failed hr = 0x%08x\n
+r\fpl
 realloc
 reject
 rejectDupKeys

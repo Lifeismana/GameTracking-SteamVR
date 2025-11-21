@@ -237,12 +237,12 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AUIUnknown@@
 .?AULiquidVRDll@LiquidVR@@
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_3fd6e5ca82e0518e289160675f532929>@@
 .?AV<lambda_686bfc32f4bcce44b88d49e75aaf1c75>@@
 .?AV<lambda_687bbe8aaa1e7a7d821b415aa811bb6e>@@
 .?AV<lambda_7257f74de7e96abf43452d9052201b09>@@
-.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_f616c03a6102f2dea4d043e167000184>@@
 .?AV?$CCallResult@VCQVRWorkshopUploadDialog@@UCreateItemResult_t@@@@
 .?AV?$CCallResult@VCQVRWorkshopUploadDialog@@USteamUGCQueryCompleted_t@@@@
@@ -269,12 +269,12 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AV?$_Func_base@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_impl_no_alloc@P6A_ND@Z_ND@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3fd6e5ca82e0518e289160675f532929>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_686bfc32f4bcce44b88d49e75aaf1c75>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_687bbe8aaa1e7a7d821b415aa811bb6e>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7257f74de7e96abf43452d9052201b09>@@PEAXPEBD@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f616c03a6102f2dea4d043e167000184>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRStatsTracker@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
@@ -580,6 +580,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVrange_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
+.A8e
 .CRT$XCA
 .CRT$XCAA
 .CRT$XCL
@@ -730,7 +731,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-10:40:48
+13:51:20
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -4334,6 +4335,7 @@ GetEffectiveRightsFromAclW Error %u for %s\n
 GetEnvironmentVariableA
 GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetExitCodeProcess
+GetFileAttributesExW
 GetFileAttributesW
 GetFileInformationByHandle
 GetFileSize
@@ -5007,7 +5009,7 @@ Not yet implemented
 NotReady
 Nothing set.
 NotificationCount
-Nov 13 2025
+Nov 21 2025
 Null element passed
 NumDroppedFrames
 NumDroppedFrames: %d\n
@@ -5935,7 +5937,6 @@ RPCRT4.dll
 RSDS
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
-R\vpd
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n

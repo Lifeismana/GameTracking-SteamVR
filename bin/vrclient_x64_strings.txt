@@ -463,6 +463,7 @@ $tI(knN
 .?AUVertexBufferBase@VRRenderer@@
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_01092690e00c40e7464d5f51ac884483>@@
+.?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@
 .?AV<lambda_1fd16216e62d16080da99169d98a6b3a>@@
 .?AV<lambda_212c477849f693b06327af67ea9d66dd>@@
@@ -485,7 +486,6 @@ $tI(knN
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
 .?AV<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
-.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_e0c476e382b8c6d6bc44d302313eca83>@@
 .?AV<lambda_ed12992c0ea69eee0aca5c025cd138f3>@@
 .?AV<lambda_fe4534035025238df2ae3b6f7285121d>@@
@@ -740,6 +740,7 @@ $tI(knN
 .?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_01092690e00c40e7464d5f51ac884483>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1fd16216e62d16080da99169d98a6b3a>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_212c477849f693b06327af67ea9d66dd>@@_NAEBUHiddenAreaMesh_t@vr@@AEAU23@@std@@
@@ -762,7 +763,6 @@ $tI(knN
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e0c476e382b8c6d6bc44d302313eca83>@@_NPEBUXrInteractionProfileDpadBindingEXT@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ed12992c0ea69eee0aca5c025cd138f3>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStatePose@@PEA_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fe4534035025238df2ae3b6f7285121d>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateVector2f@@PEA_K@std@@
@@ -3149,6 +3149,7 @@ GetEnvironmentVariableA
 GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetExitCodeProcess
 GetExitCodeThread
+GetFileAttributesExW
 GetFileAttributesW
 GetFileInformationByHandleEx
 GetFileSizeEx
@@ -3746,7 +3747,6 @@ PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
 PS_main
-P\r0D
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n

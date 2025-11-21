@@ -1067,7 +1067,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS
+RSDS}
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n
@@ -1224,6 +1224,7 @@ Write to Power Control Point.\n
 Write to SOB Channel.\n
 WriteFile
 XX.XX.XXXXXXX
+Yz$I
 Zip Error: %s\n
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed

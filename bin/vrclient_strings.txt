@@ -2591,7 +2591,6 @@ $3br
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
-18:34:59
 18CPropertyContainer
 18CSharedBufferLinux
 18CVRChaperoneClient
@@ -2664,6 +2663,7 @@ $3br
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
+21:51:05
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -23494,7 +23494,7 @@ Not writing scalar value because it didn't change\n
 Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
-Nov 13 2025
+Nov 21 2025
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t>>*)

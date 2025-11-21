@@ -1,3 +1,4 @@
+(79cw
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -101,6 +102,7 @@ UnhandledExceptionFilter
 Unknown exception
 Using settings values\n
 VCRUNTIME140.dll
+\tkEJ
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ

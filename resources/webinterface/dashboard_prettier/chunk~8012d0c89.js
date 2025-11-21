@@ -1,4 +1,4 @@
-var CLSTAMP = "10233197";
+var CLSTAMP = "10258017";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -4666,7 +4666,7 @@ var CLSTAMP = "10233197";
           }),
           l.createElement(v.WZ, {
             label: (0, p.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1763058929e3).toLocaleString(),
+            value: new Date(1763761896e3).toLocaleString(),
           }),
           l.createElement(v.WZ, {
             label: (0, p.we)("#Settings_VersionInfo_SteamVRHmdTrackingInfo"),
@@ -18714,7 +18714,7 @@ var CLSTAMP = "10233197";
               ? void 0
               : e.call(VRHTML),
           ),
-            r.set_webpack_build_timestamp(1763058929);
+            r.set_webpack_build_timestamp(1763761896);
           try {
             const e =
               null ===

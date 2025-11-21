@@ -140,6 +140,7 @@ $3br
 .?AUIUnknown@@
 .?AUToBase_t@Detail@Reflection@@
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_054ec0d90128816f29bca28af468a816>@@
 .?AV<lambda_0624edd98049f3ae9789e360a827f5a6>@@
 .?AV<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@
@@ -179,7 +180,6 @@ $3br
 .?AV<lambda_cdd09464f928a2ad6955ebdee1b202cb>@@
 .?AV<lambda_d857d3a3f83f65394e24abd4b6b43fde>@@
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
-.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@
 .?AV<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@
 .?AV?$TypeInfoT@VCAnimResource@@@Detail@Reflection@@
@@ -211,6 +211,7 @@ $3br
 .?AV?$_Func_impl_no_alloc@P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@Z_NPEAV12@PEAV32@AEBV32@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_054ec0d90128816f29bca28af468a816>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0624edd98049f3ae9789e360a827f5a6>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@XW4ValueTransportID@@_N@std@@
@@ -250,7 +251,6 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_cdd09464f928a2ad6955ebdee1b202cb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d857d3a3f83f65394e24abd4b6b43fde>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
@@ -634,7 +634,7 @@ $3br
 00P`00P`
 0\v2;i
 0`P0
-0a\v6<x
+0a\v6<
 0n\n&pa
 0x%I64x
 1 Sec
@@ -1310,6 +1310,7 @@ GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x\n
 GetDefaultAudioEndpoint failed: hr = 0x%08x\n
 GetEnvironmentVariableA
 GetExitCodeThread
+GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
 GetFileTime
@@ -2305,7 +2306,6 @@ Zjz\v
 [SVLControllerHand] Error activating controller, Prop_ModelNumber_String not set\n
 [SVLControllerHand] Error activating controller, VTE_StaticProps_t not available\n
 [SVLController] Activate Error: Unsupported controller type "%s"\n
-[SVLController] Activate Warning: Unknown render model name "%s", using default "%s"\n
 [SVLController] Activating controller on TrackedDeviceIndex_t %d\n
 [SVLController] Error activating controller, Prop_ControllerType_String not set\n
 [SVLController] Error activating controller, Prop_ModelNumber_String not set\n
@@ -2383,6 +2383,7 @@ _Cnd_signal
 _Cnd_timedwait
 _Cnd_wait
 _CxxThrowException
+_HL[L
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -2793,6 +2794,7 @@ forceBaselineVideoFEC
 fputc
 fputs
 fr_fr
+frame_controller
 fread
 free
 freeaddrinfo
@@ -3034,7 +3036,6 @@ oculus_quest_pro
 oculus_quest_pro_controller
 oculus_touch
 off.png
-ojeak
 ole32.dll
 only 8-bit
 open
@@ -3048,7 +3049,6 @@ option doesn't take an argument -- %.*s
 option requires an argument -- %c
 option requires an argument -- %s
 orthographic
-oti`w
 out_of_range
 outerConeAngle
 outofdata
@@ -3136,6 +3136,8 @@ romanian
 rotation
 roughnessFactor
 roundf
+roy_k2
+roy_k2v3
 rtus_test
 ru_ru
 runas
@@ -3398,6 +3400,8 @@ znear
 {oculus}/icons/rifts_right_controller_searching_alert.png
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
+{roy}frame_controller_left
+{roy}frame_controller_right
 {vrlink}
 {vrlink}/icons/
 {vrlink}/icons/headset_pico4_error.png

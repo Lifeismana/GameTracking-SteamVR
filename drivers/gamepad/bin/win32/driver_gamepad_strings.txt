@@ -132,9 +132,10 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 MainThrd
+O[OR
 Out of thread local storage!\n
 QueryPerformanceCounter
-RSDS
+RSDS\t
 RaiseException
 SDL2.dll
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD

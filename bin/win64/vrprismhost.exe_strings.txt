@@ -19,20 +19,20 @@
 ../../screenshots
 .00cfg
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_0f6303ecc7136d050eeb4d9528f10b2c>@@
 .?AV<lambda_1a5b1a927b03a96daaa523192e1096fb>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
-.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV?$_Binder@U_Unforced@std@@AEAP8CPrismHost@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6AXW4ELogLevel@@PEBDPEAX@ZXW41@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0f6303ecc7136d050eeb4d9528f10b2c>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1a5b1a927b03a96daaa523192e1096fb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@AEAP8CPrismHost@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-10:40:48
+13:51:20
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -312,6 +312,7 @@ GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
 GetEnvironmentVariableA
+GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
 GetLastError
@@ -414,7 +415,7 @@ NoDisplayFound
 NoValidDisplays
 NoValidMotionEstimators
 NotSupported
-Nov 13 2025
+Nov 21 2025
 OpenEventA
 OpenFileMappingA
 OpenMutexA
@@ -458,7 +459,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSj
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

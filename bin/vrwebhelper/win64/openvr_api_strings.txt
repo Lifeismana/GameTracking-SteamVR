@@ -582,7 +582,6 @@ Lock already taken
 Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 MM/dd/yy
-MSF<
 March
 MaxConcurrency
 MaxPolicyElementKey
@@ -614,7 +613,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDSaEk
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile

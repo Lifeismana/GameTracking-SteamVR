@@ -948,7 +948,6 @@ $3br
 17CFirmwareManifest
 17CImuTrackerThread
 17CLinuxVideoStream
-18:35:02
 18CPropertyContainer
 18IUsbDeviceCallback
 19CVkGarbageCollector
@@ -966,6 +965,7 @@ $3br
 20CVkCommandBufferPool
 20IVRAudioNotification
 20IVRVirtualDisplay001
+21:51:11
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
@@ -5831,7 +5831,7 @@ Not starting vrserver for background app (121)
 Not the preferred basestation\n
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
-Nov 13 2025
+Nov 21 2025
 November
 Numbers starting with leading zero must be in octal.
 NvAPI

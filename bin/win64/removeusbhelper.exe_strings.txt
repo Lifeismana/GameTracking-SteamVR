@@ -22,11 +22,11 @@
 -show
 .00cfg
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
-.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
@@ -219,6 +219,7 @@ Found device entry: %s\n
 GetCurrentProcessId
 GetCurrentThreadId
 GetEnvironmentVariableA
+GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
 GetLastError
@@ -270,8 +271,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS7wz9
-R\vpn
+RSDSN<
 RaiseException
 RegCloseKey
 RegCreateKeyExW

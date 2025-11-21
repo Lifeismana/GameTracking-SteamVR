@@ -22,16 +22,16 @@
 .00cfg
 .?AUBuiltStyledStreamWriter@Json@@
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_47c3209da383d7794c817309de1026a4>@@
-.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV?$_Func_base@PEAXPEBD@std@@
 .?AV?$_Func_base@XPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_47c3209da383d7794c817309de1026a4>@@PEAXPEBD@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-10:40:48
+13:51:20
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -254,6 +254,7 @@ GetCurrentThreadId
 GetEnvironmentVariableA
 GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetExitCodeProcess
+GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
 GetLastError
@@ -382,7 +383,7 @@ None
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
-Nov 13 2025
+Nov 21 2025
 On laptop, HMD detected over USB, but Monitor not found (213)
 OpenProcess
 Out of thread local storage!\n
@@ -390,7 +391,7 @@ OutputDebugStringA
 Platform handles tutorial / initial home app launch %s. Starting Event Polling...
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSS
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey

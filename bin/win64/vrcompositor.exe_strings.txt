@@ -242,6 +242,7 @@ $4DTdt
 .?AUVertexBuffer@D3D11VRRenderer@@
 .?AUVertexBufferBase@VRRenderer@@
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_04be740f024804fb868cffe8d6a1b559>@@
 .?AV<lambda_06f7f03917f813d4acaea219b2a15de1>@@
 .?AV<lambda_0870fc504d47f5b280eab8c30f8eab23>@@
@@ -282,7 +283,6 @@ $4DTdt
 .?AV<lambda_c64c1a9cc02f8aeec11a8ac013daf78e>@@
 .?AV<lambda_cc402e3e286a8766195cab2d89453386>@@
 .?AV<lambda_d16db97e62c2efde03fd6ec893e59571>@@
-.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV<lambda_de316f43b8d0f26b94370bf11e74008f>@@
 .?AV<lambda_e0a7300d03579af9117ce96f7cfc1e03>@@
 .?AV<lambda_ebfb3060989199463f5c1ef7bf995d6c>@@
@@ -305,6 +305,7 @@ $4DTdt
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_base@_NW4EVREye@vr@@MMPEAUDistortionCoordinates_t@2@@std@@
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_04be740f024804fb868cffe8d6a1b559>@@_NW4EVREye@vr@@MMPEAUDistortionCoordinates_t@3@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_06f7f03917f813d4acaea219b2a15de1>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0870fc504d47f5b280eab8c30f8eab23>@@XAEBVValue@Json@@@std@@
@@ -345,7 +346,6 @@ $4DTdt
 .?AV?$_Func_impl_no_alloc@V<lambda_c64c1a9cc02f8aeec11a8ac013daf78e>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cc402e3e286a8766195cab2d89453386>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d16db97e62c2efde03fd6ec893e59571>@@XAEBVValue@Json@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_de316f43b8d0f26b94370bf11e74008f>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e0a7300d03579af9117ce96f7cfc1e03>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ebfb3060989199463f5c1ef7bf995d6c>@@XAEBVValue@Json@@@std@@
@@ -933,8 +933,8 @@ $4DTdt
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
-10:40:48
 123456789
+13:51:20
 1A26b
 1e+9999
 1wsHp
@@ -2041,6 +2041,7 @@ GetDeviceRemovedReason: 0x%X
 GetEnvironmentVariableA
 GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetExitCodeThread
+GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
 GetFileVersionInfoSizeW
@@ -2473,7 +2474,7 @@ Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
 Not writing %s because the texture was null
 Notification mailbox init failed with %d\n
-Nov 13 2025
+Nov 21 2025
 NvAPI
 NvAPI DisplayModes:
 NvAPI: DirectModeCreateSurface trying again with older API!\n
@@ -2786,7 +2787,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDS?j
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -4277,7 +4278,6 @@ Zjz\v
 [h1R
 [libprotobuf %s %s:%d] %s\n
 [no zlib message]
-\fpTy
 \gpuvis.exe
 \mfpmp.exe
 \nbad png sig
@@ -5241,7 +5241,6 @@ qsort
 quad
 quickMouseMode
 quick_reset_room_setup
-r\vPTy
 radius-range
 rand
 rawCaptureNumberOfFrames

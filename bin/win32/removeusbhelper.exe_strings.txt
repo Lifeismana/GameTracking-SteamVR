@@ -20,10 +20,10 @@
 -disableepm
 .00cfg
 .?AU_Crt_new_delete@std@@
-.?AV<lambda_5ed75766bf6d8aa008bf4894f0f72fc8>@@
+.?AV<lambda_bc50e576d0bc6fea7481e7450bdb83e7>@@
 .?AV<lambda_cd3c8c075303f1fe60b03a012376e9e6>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_5ed75766bf6d8aa008bf4894f0f72fc8>@@XW4ELogLevel@@PBDPAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_bc50e576d0bc6fea7481e7450bdb83e7>@@XW4ELogLevel@@PBDPAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cd3c8c075303f1fe60b03a012376e9e6>@@XW4ELogLevel@@PBDPAX@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
@@ -215,6 +215,7 @@ GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
 GetEnvironmentVariableA
+GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
 GetLastError
@@ -266,7 +267,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSXM=
+RSDSN
 RaiseException
 RegCloseKey
 RegCreateKeyExW
@@ -347,6 +348,7 @@ WakeAllConditionVariable
 Warning
 Warning: Watchdog %s not properly cleaned up%s%s\n
 WideCharToMultiByte
+YUs 
 [Oxrtools] Aborting attempt to set SteamVR as the active runtime, it is already set.
 [Oxrtools] Unable to create the OpenXR available runtimes registry key %d
 [Oxrtools] Unable to disable key reflection for the OpenXR available runtime registry key %d

@@ -152,6 +152,7 @@ LoadLibraryW
 MSVCP140.dll
 MainThrd
 NULL
+N\fPd
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
