@@ -1,0 +1,152 @@
+import "protos/perfetto/trace/track_event/debug_annotation.proto";
+import "protos/perfetto/trace/track_event/log_message.proto";
+import "protos/perfetto/trace/track_event/task_execution.proto";
+import "protos/perfetto/trace/track_event/chrome_active_processes.proto";
+import "protos/perfetto/trace/track_event/chrome_application_state_info.proto";
+import "protos/perfetto/trace/track_event/chrome_compositor_scheduler_state.proto";
+import "protos/perfetto/trace/track_event/chrome_content_settings_event_info.proto";
+import "protos/perfetto/trace/track_event/chrome_frame_reporter.proto";
+import "protos/perfetto/trace/track_event/chrome_histogram_sample.proto";
+import "protos/perfetto/trace/track_event/chrome_keyed_service.proto";
+import "protos/perfetto/trace/track_event/chrome_latency_info.proto";
+import "protos/perfetto/trace/track_event/chrome_legacy_ipc.proto";
+import "protos/perfetto/trace/track_event/chrome_message_pump.proto";
+import "protos/perfetto/trace/track_event/chrome_mojo_event_info.proto";
+import "protos/perfetto/trace/track_event/chrome_renderer_scheduler_state.proto";
+import "protos/perfetto/trace/track_event/chrome_user_event.proto";
+import "protos/perfetto/trace/track_event/chrome_window_handle_event_info.proto";
+import "protos/perfetto/trace/track_event/pixel_modem.proto";
+import "protos/perfetto/trace/track_event/screenshot.proto";
+import "protos/perfetto/trace/track_event/source_location.proto";
+
+package perfetto.protos;
+
+message TrackEvent {
+	message LegacyEvent {
+		enum FlowDirection {
+			FLOW_UNSPECIFIED = 0;
+			FLOW_IN = 1;
+			FLOW_OUT = 2;
+			FLOW_INOUT = 3;
+		}
+
+		enum InstantEventScope {
+			SCOPE_UNSPECIFIED = 0;
+			SCOPE_GLOBAL = 1;
+			SCOPE_PROCESS = 2;
+			SCOPE_THREAD = 3;
+		}
+
+		optional uint64 name_iid = 1 [json_name = "nameIid"];
+		optional int32 phase = 2 [json_name = "phase"];
+		optional int64 duration_us = 3 [json_name = "durationUs"];
+		optional int64 thread_duration_us = 4 [json_name = "threadDurationUs"];
+		optional int64 thread_instruction_delta = 15 [json_name = "threadInstructionDelta"];
+		optional string id_scope = 7 [json_name = "idScope"];
+		optional bool use_async_tts = 9 [json_name = "useAsyncTts"];
+		optional uint64 bind_id = 8 [json_name = "bindId"];
+		optional bool bind_to_enclosing = 12 [json_name = "bindToEnclosing"];
+		optional .perfetto.protos.TrackEvent.LegacyEvent.FlowDirection flow_direction = 13 [default = FLOW_UNSPECIFIED, json_name = "flowDirection"];
+		optional .perfetto.protos.TrackEvent.LegacyEvent.InstantEventScope instant_event_scope = 14 [default = SCOPE_UNSPECIFIED, json_name = "instantEventScope"];
+		optional int32 pid_override = 18 [json_name = "pidOverride"];
+		optional int32 tid_override = 19 [json_name = "tidOverride"];
+
+		oneof id {
+			uint64 unscoped_id = 6 [json_name = "unscopedId"];
+			uint64 local_id = 10 [json_name = "localId"];
+			uint64 global_id = 11 [json_name = "globalId"];
+		}
+	}
+
+	enum Type {
+		TYPE_UNSPECIFIED = 0;
+		TYPE_SLICE_BEGIN = 1;
+		TYPE_SLICE_END = 2;
+		TYPE_INSTANT = 3;
+		TYPE_COUNTER = 4;
+	}
+
+	repeated uint64 category_iids = 3 [json_name = "categoryIids"];
+	repeated string categories = 22 [json_name = "categories"];
+	optional .perfetto.protos.TrackEvent.Type type = 9 [default = TYPE_UNSPECIFIED, json_name = "type"];
+	optional uint64 track_uuid = 11 [json_name = "trackUuid"];
+	repeated uint64 extra_counter_track_uuids = 31 [json_name = "extraCounterTrackUuids"];
+	repeated int64 extra_counter_values = 12 [json_name = "extraCounterValues"];
+	repeated uint64 extra_double_counter_track_uuids = 45 [json_name = "extraDoubleCounterTrackUuids"];
+	repeated double extra_double_counter_values = 46 [json_name = "extraDoubleCounterValues"];
+	repeated uint64 flow_ids_old = 36 [json_name = "flowIdsOld", deprecated = true];
+	repeated fixed64 flow_ids = 47 [json_name = "flowIds"];
+	repeated uint64 terminating_flow_ids_old = 42 [json_name = "terminatingFlowIdsOld", deprecated = true];
+	repeated fixed64 terminating_flow_ids = 48 [json_name = "terminatingFlowIds"];
+	repeated .perfetto.protos.DebugAnnotation debug_annotations = 4 [json_name = "debugAnnotations"];
+	optional .perfetto.protos.TaskExecution task_execution = 5 [json_name = "taskExecution"];
+	optional .perfetto.protos.LogMessage log_message = 21 [json_name = "logMessage"];
+	optional .perfetto.protos.ChromeCompositorSchedulerState cc_scheduler_state = 24 [json_name = "ccSchedulerState"];
+	optional .perfetto.protos.ChromeUserEvent chrome_user_event = 25 [json_name = "chromeUserEvent"];
+	optional .perfetto.protos.ChromeKeyedService chrome_keyed_service = 26 [json_name = "chromeKeyedService"];
+	optional .perfetto.protos.ChromeLegacyIpc chrome_legacy_ipc = 27 [json_name = "chromeLegacyIpc"];
+	optional .perfetto.protos.ChromeHistogramSample chrome_histogram_sample = 28 [json_name = "chromeHistogramSample"];
+	optional .perfetto.protos.ChromeLatencyInfo chrome_latency_info = 29 [json_name = "chromeLatencyInfo"];
+	optional .perfetto.protos.ChromeFrameReporter chrome_frame_reporter = 32 [json_name = "chromeFrameReporter"];
+	optional .perfetto.protos.ChromeApplicationStateInfo chrome_application_state_info = 39 [json_name = "chromeApplicationStateInfo"];
+	optional .perfetto.protos.ChromeRendererSchedulerState chrome_renderer_scheduler_state = 40 [json_name = "chromeRendererSchedulerState"];
+	optional .perfetto.protos.ChromeWindowHandleEventInfo chrome_window_handle_event_info = 41 [json_name = "chromeWindowHandleEventInfo"];
+	optional .perfetto.protos.ChromeContentSettingsEventInfo chrome_content_settings_event_info = 43 [json_name = "chromeContentSettingsEventInfo"];
+	optional .perfetto.protos.ChromeActiveProcesses chrome_active_processes = 49 [json_name = "chromeActiveProcesses"];
+	optional .perfetto.protos.Screenshot screenshot = 50 [json_name = "screenshot"];
+	optional .perfetto.protos.PixelModemEventInsight pixel_modem_event_insight = 51 [json_name = "pixelModemEventInsight"];
+	optional .perfetto.protos.ChromeMessagePump chrome_message_pump = 35 [json_name = "chromeMessagePump"];
+	optional .perfetto.protos.ChromeMojoEventInfo chrome_mojo_event_info = 38 [json_name = "chromeMojoEventInfo"];
+	optional .perfetto.protos.TrackEvent.LegacyEvent legacy_event = 6 [json_name = "legacyEvent"];
+
+	oneof name_field {
+		uint64 name_iid = 10 [json_name = "nameIid"];
+		string name = 23 [json_name = "name"];
+	}
+
+	oneof counter_value_field {
+		int64 counter_value = 30 [json_name = "counterValue"];
+		double double_counter_value = 44 [json_name = "doubleCounterValue"];
+	}
+
+	oneof source_location_field {
+		.perfetto.protos.SourceLocation source_location = 33 [json_name = "sourceLocation"];
+		uint64 source_location_iid = 34 [json_name = "sourceLocationIid"];
+	}
+
+	oneof timestamp {
+		int64 timestamp_delta_us = 1 [json_name = "timestampDeltaUs"];
+		int64 timestamp_absolute_us = 16 [json_name = "timestampAbsoluteUs"];
+	}
+
+	oneof thread_time {
+		int64 thread_time_delta_us = 2 [json_name = "threadTimeDeltaUs"];
+		int64 thread_time_absolute_us = 17 [json_name = "threadTimeAbsoluteUs"];
+	}
+
+	oneof thread_instruction_count {
+		int64 thread_instruction_count_delta = 8 [json_name = "threadInstructionCountDelta"];
+		int64 thread_instruction_count_absolute = 20 [json_name = "threadInstructionCountAbsolute"];
+	}
+
+	extensions 1000 to 2000;
+	extensions 2000 to 2001;
+	extensions 2001 to 9900;
+	extensions 9900 to 10001;
+}
+
+message TrackEventDefaults {
+	optional uint64 track_uuid = 11 [json_name = "trackUuid"];
+	repeated uint64 extra_counter_track_uuids = 31 [json_name = "extraCounterTrackUuids"];
+	repeated uint64 extra_double_counter_track_uuids = 45 [json_name = "extraDoubleCounterTrackUuids"];
+}
+
+message EventCategory {
+	optional uint64 iid = 1 [json_name = "iid"];
+	optional string name = 2 [json_name = "name"];
+}
+
+message EventName {
+	optional uint64 iid = 1 [json_name = "iid"];
+	optional string name = 2 [json_name = "name"];
+}

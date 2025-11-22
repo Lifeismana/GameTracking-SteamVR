@@ -1,0 +1,5 @@
+package perfetto.protos;
+
+message ChromeContentSettingsEventInfo {
+	optional uint32 number_of_exceptions = 1 [json_name = "numberOfExceptions"];
+}

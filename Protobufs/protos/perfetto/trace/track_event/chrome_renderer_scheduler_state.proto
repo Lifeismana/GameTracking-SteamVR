@@ -1,0 +1,15 @@
+package perfetto.protos;
+
+enum ChromeRAILMode {
+	RAIL_MODE_NONE = 0;
+	RAIL_MODE_RESPONSE = 1;
+	RAIL_MODE_ANIMATION = 2;
+	RAIL_MODE_IDLE = 3;
+	RAIL_MODE_LOAD = 4;
+}
+
+message ChromeRendererSchedulerState {
+	optional .perfetto.protos.ChromeRAILMode rail_mode = 1 [default = RAIL_MODE_NONE, json_name = "railMode"];
+	optional bool is_backgrounded = 2 [json_name = "isBackgrounded"];
+	optional bool is_hidden = 3 [json_name = "isHidden"];
+}

@@ -1,0 +1,11 @@
+package perfetto.protos;
+
+message ChromeMojoEventInfo {
+	optional string watcher_notify_interface_tag = 1 [json_name = "watcherNotifyInterfaceTag"];
+	optional uint32 ipc_hash = 2 [json_name = "ipcHash"];
+	optional string mojo_interface_tag = 3 [json_name = "mojoInterfaceTag"];
+	optional uint64 mojo_interface_method_iid = 4 [json_name = "mojoInterfaceMethodIid"];
+	optional bool is_reply = 5 [json_name = "isReply"];
+	optional uint64 payload_size = 6 [json_name = "payloadSize"];
+	optional uint64 data_num_bytes = 7 [json_name = "dataNumBytes"];
+}

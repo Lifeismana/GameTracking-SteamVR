@@ -1,0 +1,5 @@
+package perfetto.protos;
+
+message ChromeKeyedService {
+	optional string name = 1 [json_name = "name"];
+}

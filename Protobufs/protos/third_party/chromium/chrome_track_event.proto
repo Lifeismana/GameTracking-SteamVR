@@ -1,0 +1,1429 @@
+import public "protos/perfetto/trace/track_event/track_event.proto";
+import public "protos/perfetto/trace/track_event/debug_annotation.proto";
+import public "protos/perfetto/trace/track_event/source_location.proto";
+
+package perfetto.protos;
+
+enum ChromeAppState {
+	APP_STATE_FOREGROUND = 1;
+	APP_STATE_BACKGROUND = 2;
+}
+
+enum MemoryPressureLevel {
+	MEMORY_PRESSURE_LEVEL_NONE = 0;
+	MEMORY_PRESSURE_LEVEL_MODERATE = 1;
+	MEMORY_PRESSURE_LEVEL_CRITICAL = 2;
+}
+
+enum FrameDeleteIntention {
+	FRAME_DELETE_INTENTION_NOT_MAIN_FRAME = 0;
+	FRAME_DELETE_INTENTION_SPECULATIVE_MAIN_FRAME_FOR_SHUTDOWN = 1;
+	FRAME_DELETE_INTENTION_SPECULATIVE_MAIN_FRAME_FOR_NAVIGATION_CANCELLED = 2;
+}
+
+enum ShouldSwapBrowsingInstance {
+	SHOULD_SWAP_BROWSING_INSTANCE_NO = 0;
+	SHOULD_SWAP_BROWSING_INSTANCE_YES_FORCE_SWAP = 1;
+	SHOULD_SWAP_BROWSING_INSTANCE_YES_CROSS_SITE_PROACTIVE_SWAP = 2;
+	SHOULD_SWAP_BROWSING_INSTANCE_YES_SAME_SITE_PROACTIVE_SWAP = 3;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_PROACTIVE_SWAP_DISABLED = 4;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_NOT_MAIN_FRAME = 5;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_HAS_RELATED_ACTIVE_CONTENTS = 6;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_DOES_NOT_HAVE_SITE = 7;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_SOURCE_URL_SCHEME_NOT_HTTP_OR_HTTPS = 8;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_DESTINATION_URL_SCHEME_NOT_HTTP_OR_HTTPS = 9;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_SAME_SITE_NAVIGATION = 10;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_RELOADING_ERROR_PAGE = 11;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_ALREADY_HAS_MATCHING_BROWSING_INSTANCE = 12;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_RENDERER_DEBUG_URL = 13;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_NOT_NEEDED_FOR_BACK_FORWARD_CACHE = 14;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_SAME_DOCUMENT_NAVIGATION = 15;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_SAME_URL_NAVIGATION = 16;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_WILL_REPLACE_ENTRY = 17;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_RELOAD = 18;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_GUEST = 19;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_HAS_NOT_COMMITTED_ANY_NAVIGATION = 20;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_UNLOAD_HANDLER_EXISTS_ON_SAME_SITE_NAVIGATION = 21;
+	SHOULD_SWAP_BROWSING_INSTANCE_NO_NOT_PRIMARY_MAIN_FRAME = 22;
+}
+
+enum DeviceThermalState {
+	DEVICE_THERMAL_STATE_UNKNOWN = 0;
+	DEVICE_THERMAL_STATE_NOMINAL = 1;
+	DEVICE_THERMAL_STATE_FAIR = 2;
+	DEVICE_THERMAL_STATE_SERIOUS = 3;
+	DEVICE_THERMAL_STATE_CRITICAL = 4;
+}
+
+enum ChromeCompositorSchedulerActionV2 {
+	CC_SCHEDULER_ACTION_V2_UNSPECIFIED = 0;
+	CC_SCHEDULER_ACTION_V2_NONE = 1;
+	CC_SCHEDULER_ACTION_V2_SEND_BEGIN_MAIN_FRAME = 2;
+	CC_SCHEDULER_ACTION_V2_COMMIT = 3;
+	CC_SCHEDULER_ACTION_V2_POST_COMMIT = 14;
+	CC_SCHEDULER_ACTION_V2_ACTIVATE_SYNC_TREE = 4;
+	CC_SCHEDULER_ACTION_V2_DRAW_IF_POSSIBLE = 5;
+	CC_SCHEDULER_ACTION_V2_DRAW_FORCED = 6;
+	CC_SCHEDULER_ACTION_V2_DRAW_ABORT = 7;
+	CC_SCHEDULER_ACTION_V2_BEGIN_LAYER_TREE_FRAME_SINK_CREATION = 8;
+	CC_SCHEDULER_ACTION_V2_PREPARE_TILES = 9;
+	CC_SCHEDULER_ACTION_V2_INVALIDATE_LAYER_TREE_FRAME_SINK = 10;
+	CC_SCHEDULER_ACTION_V2_PERFORM_IMPL_SIDE_INVALIDATION = 11;
+	CC_SCHEDULER_ACTION_V2_NOTIFY_BEGIN_MAIN_FRAME_NOT_EXPECTED_UNTIL = 12;
+	CC_SCHEDULER_ACTION_V2_NOTIFY_BEGIN_MAIN_FRAME_NOT_EXPECTED_SOON = 13;
+}
+
+message ChromeMemoryPressureNotification {
+	optional .perfetto.protos.MemoryPressureLevel level = 1 [default = MEMORY_PRESSURE_LEVEL_NONE, json_name = "level"];
+	optional uint64 creation_location_iid = 2 [json_name = "creationLocationIid"];
+}
+
+message BlinkTaskScope {
+	enum TaskScopeType {
+		TASK_SCOPE_UNKNOWN = 0;
+		TASK_SCOPE_CALLBACK = 1;
+		TASK_SCOPE_SCHEDULED_ACTION = 2;
+		TASK_SCOPE_SCRIPT_EXECUTION = 3;
+		TASK_SCOPE_POST_MESSAGE = 4;
+		TASK_SCOPE_POP_STATE = 5;
+		TASK_SCOPE_SCHEDULER_POST_TASK = 6;
+		TASK_SCOPE_REQUEST_IDLE_CALLBACK = 7;
+		TASK_SCOPE_XML_HTTP_REQUEST = 8;
+	}
+
+	optional .perfetto.protos.BlinkTaskScope.TaskScopeType type = 1 [default = TASK_SCOPE_UNKNOWN, json_name = "type"];
+	optional int64 scope_task_id = 2 [json_name = "scopeTaskId"];
+	optional int64 running_task_id_to_be_restored = 3 [json_name = "runningTaskIdToBeRestored"];
+}
+
+message ChromeTaskAnnotator {
+	enum DelayPolicy {
+		FLEXIBLE_NO_SOONER = 0;
+		FLEXIBLE_PREFER_EARLY = 1;
+		PRECISE = 2;
+	}
+
+	optional uint32 ipc_hash = 1 [json_name = "ipcHash"];
+	optional uint64 task_delay_us = 2 [json_name = "taskDelayUs"];
+	optional .perfetto.protos.ChromeTaskAnnotator.DelayPolicy delay_policy = 3 [default = FLEXIBLE_NO_SOONER, json_name = "delayPolicy"];
+}
+
+message ChromeBrowserContext {
+	optional string id = 2 [json_name = "id"];
+}
+
+message ChromeProfileDestroyer {
+	optional fixed64 profile_ptr = 1 [json_name = "profilePtr"];
+	optional bool is_off_the_record = 2 [json_name = "isOffTheRecord"];
+	optional string otr_profile_id = 3 [json_name = "otrProfileId"];
+	optional uint32 host_count_at_creation = 4 [json_name = "hostCountAtCreation"];
+	optional uint32 host_count_at_destruction = 5 [json_name = "hostCountAtDestruction"];
+	optional fixed64 render_process_host_ptr = 6 [json_name = "renderProcessHostPtr"];
+}
+
+message ChromeTaskPostedToDisabledQueue {
+	optional string task_queue_name = 1 [json_name = "taskQueueName"];
+	optional uint64 time_since_disabled_ms = 2 [json_name = "timeSinceDisabledMs"];
+	optional uint32 ipc_hash = 3 [json_name = "ipcHash"];
+	optional uint64 source_location_iid = 4 [json_name = "sourceLocationIid"];
+}
+
+message ChromeRasterTask {
+	optional int64 source_frame_number = 1 [json_name = "sourceFrameNumber"];
+}
+
+message ChromeMessagePumpForUI {
+	optional uint32 message_id = 1 [json_name = "messageId"];
+	optional uint32 wait_for_object_result = 2 [json_name = "waitForObjectResult"];
+}
+
+message RenderFrameImplDeletion {
+	optional .perfetto.protos.FrameDeleteIntention intent = 1 [default = FRAME_DELETE_INTENTION_NOT_MAIN_FRAME, json_name = "intent"];
+	optional bool has_pending_commit = 2 [json_name = "hasPendingCommit"];
+	optional bool has_pending_cross_document_commit = 3 [json_name = "hasPendingCrossDocumentCommit"];
+	optional uint64 frame_tree_node_id = 4 [json_name = "frameTreeNodeId"];
+}
+
+message ShouldSwapBrowsingInstancesResult {
+	optional uint64 frame_tree_node_id = 1 [json_name = "frameTreeNodeId"];
+	optional .perfetto.protos.ShouldSwapBrowsingInstance result = 2 [default = SHOULD_SWAP_BROWSING_INSTANCE_NO, json_name = "result"];
+}
+
+message FrameTreeNodeInfo {
+	enum FrameType {
+		UNSPECIFIED_FRAME_TYPE = 0;
+		SUBFRAME = 1;
+		PRIMARY_MAIN_FRAME = 2;
+		PRERENDER_MAIN_FRAME = 3;
+		FENCED_FRAME_ROOT = 4;
+	}
+
+	optional uint64 frame_tree_node_id = 1 [json_name = "frameTreeNodeId"];
+	optional bool is_main_frame = 2 [json_name = "isMainFrame"];
+	optional bool has_speculative_render_frame_host = 3 [json_name = "hasSpeculativeRenderFrameHost"];
+	optional .perfetto.protos.RenderFrameHost current_frame_host = 4 [json_name = "currentFrameHost"];
+	optional .perfetto.protos.RenderFrameHost speculative_frame_host = 5 [json_name = "speculativeFrameHost"];
+	optional .perfetto.protos.FrameTreeNodeInfo.FrameType frame_type = 6 [default = UNSPECIFIED_FRAME_TYPE, json_name = "frameType"];
+	repeated .perfetto.protos.DebugAnnotation debug_annotations = 99 [json_name = "debugAnnotations"];
+}
+
+message ChromeHashedPerformanceMark {
+	optional uint32 site_hash = 1 [json_name = "siteHash"];
+	optional string site = 2 [json_name = "site"];
+	optional uint32 mark_hash = 3 [json_name = "markHash"];
+	optional string mark = 4 [json_name = "mark"];
+	optional uint32 execution_context_id = 5 [json_name = "executionContextId"];
+	optional uint32 sequence_number = 6 [json_name = "sequenceNumber"];
+}
+
+message ChromeSqlDiagnostics {
+	optional int32 reported_sqlite_error_code = 1 [json_name = "reportedSqliteErrorCode"];
+	optional int32 error_code = 2 [json_name = "errorCode"];
+	optional int32 last_errno = 3 [json_name = "lastErrno"];
+	optional string sql_statement = 4 [json_name = "sqlStatement"];
+	optional int32 version = 5 [json_name = "version"];
+	repeated string schema_sql_rows = 6 [json_name = "schemaSqlRows"];
+	repeated string schema_other_row_names = 7 [json_name = "schemaOtherRowNames"];
+	optional bool has_valid_header = 8 [json_name = "hasValidHeader"];
+	optional bool has_valid_schema = 9 [json_name = "hasValidSchema"];
+	optional string error_message = 10 [json_name = "errorMessage"];
+}
+
+message ChromeWebAppBadNavigate {
+	optional bool is_kiosk = 1 [json_name = "isKiosk"];
+	optional bool has_hosted_app_controller = 2 [json_name = "hasHostedAppController"];
+	optional string app_name = 3 [json_name = "appName"];
+	optional uint32 system_app_type = 4 [json_name = "systemAppType"];
+	optional bool web_app_provider_registry_ready = 5 [json_name = "webAppProviderRegistryReady"];
+	optional bool system_web_app_manager_synchronized = 6 [json_name = "systemWebAppManagerSynchronized"];
+}
+
+message ResourceBundle {
+	optional uint32 resource_id = 1 [json_name = "resourceId"];
+}
+
+message RenderProcessHost {
+	optional uint32 id = 1 [json_name = "id"];
+	optional string process_lock = 2 [json_name = "processLock"];
+	optional int32 child_process_id = 3 [json_name = "childProcessId"];
+	optional .perfetto.protos.ChromeBrowserContext browser_context = 4 [json_name = "browserContext"];
+	repeated .perfetto.protos.DebugAnnotation debug_annotations = 99 [json_name = "debugAnnotations"];
+}
+
+message RenderProcessHostListener {
+	optional uint32 routing_id = 1 [json_name = "routingId"];
+}
+
+message RenderProcessHostCleanup {
+	optional uint32 listener_count = 1 [json_name = "listenerCount"];
+	optional uint32 keep_alive_ref_count = 2 [json_name = "keepAliveRefCount"];
+	optional uint32 shutdown_delay_ref_count = 3 [json_name = "shutdownDelayRefCount"];
+	optional uint32 worker_ref_count = 4 [json_name = "workerRefCount"];
+	optional uint32 pending_reuse_ref_count = 5 [json_name = "pendingReuseRefCount"];
+	optional uint32 navigation_state_keepalive_count = 6 [json_name = "navigationStateKeepaliveCount"];
+}
+
+message ChildProcessLauncherPriority {
+	enum Importance {
+		IMPORTANCE_NORMAL = 1;
+		IMPORTANCE_MODERATE = 2;
+		IMPORTANCE_IMPORTANT = 3;
+	}
+
+	optional bool is_backgrounded = 1 [json_name = "isBackgrounded"];
+	optional bool has_pending_views = 2 [json_name = "hasPendingViews"];
+	optional .perfetto.protos.ChildProcessLauncherPriority.Importance importance = 3 [default = IMPORTANCE_NORMAL, json_name = "importance"];
+}
+
+message ChromeExtensionId {
+	optional string extension_id = 1 [json_name = "extensionId"];
+	optional uint32 pseudonymized_extension_id = 2 [json_name = "pseudonymizedExtensionId"];
+}
+
+message SiteInstance {
+	optional int32 site_instance_id = 1 [json_name = "siteInstanceId"];
+	optional int32 browsing_instance_id = 2 [json_name = "browsingInstanceId"];
+	optional bool is_default = 3 [json_name = "isDefault"];
+	optional bool has_process = 4 [json_name = "hasProcess"];
+	optional int32 related_active_contents_count = 5 [json_name = "relatedActiveContentsCount"];
+	optional int32 active_rfh_count = 6 [json_name = "activeRfhCount"];
+	optional .perfetto.protos.SiteInstanceGroup site_instance_group = 7 [json_name = "siteInstanceGroup"];
+	repeated .perfetto.protos.DebugAnnotation debug_annotations = 99 [json_name = "debugAnnotations"];
+}
+
+message SiteInstanceGroup {
+	optional int32 site_instance_group_id = 1 [json_name = "siteInstanceGroupId"];
+	optional int32 active_frame_count = 2 [json_name = "activeFrameCount"];
+	optional .perfetto.protos.RenderProcessHost process = 3 [json_name = "process"];
+	repeated .perfetto.protos.DebugAnnotation debug_annotations = 99 [json_name = "debugAnnotations"];
+}
+
+message RenderViewHost {
+	optional int32 rvh_map_id = 1 [json_name = "rvhMapId"];
+	optional int32 routing_id = 2 [json_name = "routingId"];
+	optional int32 process_id = 3 [json_name = "processId"];
+	optional .perfetto.protos.RenderProcessHost process = 6 [json_name = "process"];
+	optional bool is_in_back_forward_cache = 4 [json_name = "isInBackForwardCache"];
+	optional bool renderer_view_created = 5 [json_name = "rendererViewCreated"];
+	repeated .perfetto.protos.DebugAnnotation debug_annotations = 99 [json_name = "debugAnnotations"];
+}
+
+message RenderFrameProxyHost {
+	optional int32 routing_id = 1 [json_name = "routingId"];
+	optional int32 process_id = 2 [json_name = "processId"];
+	optional int32 rvh_map_id = 3 [json_name = "rvhMapId"];
+	optional int32 site_instance_id = 4 [json_name = "siteInstanceId"];
+	optional bool is_render_frame_proxy_live = 5 [json_name = "isRenderFrameProxyLive"];
+	optional int32 site_instance_group_id = 6 [json_name = "siteInstanceGroupId"];
+	repeated .perfetto.protos.DebugAnnotation debug_annotations = 99 [json_name = "debugAnnotations"];
+}
+
+message AndroidView {
+	optional int32 id = 1 [json_name = "id"];
+	optional int32 parent_id = 2 [json_name = "parentId"];
+	optional bool is_shown = 3 [json_name = "isShown"];
+	optional bool is_dirty = 4 [json_name = "isDirty"];
+	optional string class_name = 5 [json_name = "className"];
+	optional string resource_name = 6 [json_name = "resourceName"];
+}
+
+message AndroidActivity {
+	optional string name = 1 [json_name = "name"];
+	repeated .perfetto.protos.AndroidView view = 2 [json_name = "view"];
+}
+
+message AndroidViewDump {
+	repeated .perfetto.protos.AndroidActivity activity = 1 [json_name = "activity"];
+}
+
+message ParkableStringCompressInBackground {
+	optional int32 size_bytes = 1 [json_name = "sizeBytes"];
+}
+
+message ParkableStringUnpark {
+	optional int32 size_bytes = 1 [json_name = "sizeBytes"];
+	optional int32 time_since_last_disk_write_sec = 2 [json_name = "timeSinceLastDiskWriteSec"];
+}
+
+message ChromeSamplingProfilerSampleCollected {
+	enum WriteStatus {
+		WRITE_STATUS_NONE = 0;
+		WRITE_STATUS_BUFFERING_SAMPLE = 1;
+		WRITE_STATUS_WRITING_BUFFERED = 2;
+		WRITE_STATUS_WRITING_TO_TRACE = 3;
+	}
+
+	optional int32 frame_count = 1 [json_name = "frameCount"];
+	optional .perfetto.protos.ChromeSamplingProfilerSampleCollected.WriteStatus write_status = 2 [default = WRITE_STATUS_NONE, json_name = "writeStatus"];
+	optional int32 sampled_thread_id = 3 [json_name = "sampledThreadId"];
+}
+
+message SendBeginMainFrameToCommitBreakdown {
+	optional uint64 handle_input_events_us = 1 [json_name = "handleInputEventsUs"];
+	optional uint64 animate_us = 2 [json_name = "animateUs"];
+	optional uint64 style_update_us = 3 [json_name = "styleUpdateUs"];
+	optional uint64 layout_update_us = 4 [json_name = "layoutUpdateUs"];
+	optional uint64 accessibility_update_us = 12 [json_name = "accessibilityUpdateUs"];
+	optional uint64 prepaint_us = 5 [json_name = "prepaintUs"];
+	optional uint64 compositing_inputs_us = 6 [json_name = "compositingInputsUs"];
+	optional uint64 compositing_assignments_us = 7 [json_name = "compositingAssignmentsUs"];
+	optional uint64 paint_us = 8 [json_name = "paintUs"];
+	optional uint64 composite_commit_us = 9 [json_name = "compositeCommitUs"];
+	optional uint64 update_layers_us = 10 [json_name = "updateLayersUs"];
+	optional uint64 begin_main_sent_to_started_us = 11 [json_name = "beginMainSentToStartedUs"];
+}
+
+message GlobalRenderFrameHostId {
+	optional int32 routing_id = 1 [json_name = "routingId"];
+	optional int32 process_id = 2 [json_name = "processId"];
+}
+
+message BrowsingContextState {
+	optional int32 browsing_instance_id = 1 [json_name = "browsingInstanceId"];
+	optional int32 coop_related_group_id = 2 [json_name = "coopRelatedGroupId", deprecated = true];
+	optional string coop_related_group_token = 3 [json_name = "coopRelatedGroupToken"];
+	repeated .perfetto.protos.DebugAnnotation debug_annotations = 99 [json_name = "debugAnnotations"];
+}
+
+message RenderFrameHost {
+	enum LifecycleState {
+		UNSPECIFIED = 0;
+		SPECULATIVE = 1;
+		PENDING_COMMIT = 2;
+		PRERENDERING = 3;
+		ACTIVE = 4;
+		IN_BACK_FORWARD_CACHE = 5;
+		RUNNING_UNLOAD_HANDLERS = 6;
+		READY_TO_BE_DELETED = 7;
+	}
+
+	optional .perfetto.protos.RenderProcessHost process = 1 [json_name = "process"];
+	optional .perfetto.protos.GlobalRenderFrameHostId render_frame_host_id = 2 [json_name = "renderFrameHostId"];
+	optional .perfetto.protos.RenderFrameHost.LifecycleState lifecycle_state = 3 [default = UNSPECIFIED, json_name = "lifecycleState"];
+	optional string origin = 4 [json_name = "origin"];
+	optional string url = 5 [json_name = "url"];
+	optional uint64 frame_tree_node_id = 6 [json_name = "frameTreeNodeId"];
+	optional .perfetto.protos.SiteInstance site_instance = 7 [json_name = "siteInstance"];
+	optional .perfetto.protos.RenderFrameHost parent = 8 [json_name = "parent"];
+	optional .perfetto.protos.RenderFrameHost outer_document = 9 [json_name = "outerDocument"];
+	optional .perfetto.protos.RenderFrameHost embedder = 10 [json_name = "embedder"];
+	optional .perfetto.protos.BrowsingContextState browsing_context_state = 11 [json_name = "browsingContextState"];
+	optional .perfetto.protos.FrameTreeNodeInfo.FrameType frame_type = 12 [default = UNSPECIFIED_FRAME_TYPE, json_name = "frameType"];
+	repeated .perfetto.protos.DebugAnnotation debug_annotations = 99 [json_name = "debugAnnotations"];
+}
+
+message ChromeThreadPoolTask {
+	enum Priority {
+		PRIORITY_UNSPECIFIED = 0;
+		PRIORITY_BEST_EFFORT = 1;
+		PRIORITY_USER_VISIBLE = 2;
+		PRIORITY_USER_BLOCKING = 3;
+	}
+
+	enum ExecutionMode {
+		EXECTUION_MODE_UNSPECIFIED = 0;
+		EXECUTION_MODE_PARALLEL = 1;
+		EXECUTION_MODE_SEQUENCED = 2;
+		EXECUTION_MODE_SINGLE_THREAD = 3;
+		EXECUTION_MODE_JOB = 4;
+	}
+
+	enum ShutdownBehavior {
+		SHUTDOWN_BEHAVIOR_UNSPECIFIED = 0;
+		SHUTDOWN_BEHAVIOR_CONTINUE_ON_SHUTDOWN = 1;
+		SHUTDOWN_BEHAVIOR_SKIP_ON_SHUTDOWN = 2;
+		SHUTDOWN_BEHAVIOR_BLOCK_SHUTDOWN = 3;
+	}
+
+	optional .perfetto.protos.ChromeThreadPoolTask.Priority task_priority = 1 [default = PRIORITY_UNSPECIFIED, json_name = "taskPriority"];
+	optional .perfetto.protos.ChromeThreadPoolTask.ExecutionMode execution_mode = 2 [default = EXECTUION_MODE_UNSPECIFIED, json_name = "executionMode"];
+	optional int64 sequence_token = 3 [json_name = "sequenceToken"];
+	optional .perfetto.protos.ChromeThreadPoolTask.ShutdownBehavior shutdown_behavior = 4 [default = SHUTDOWN_BEHAVIOR_UNSPECIFIED, json_name = "shutdownBehavior"];
+}
+
+message BackForwardCacheCanStoreDocumentResult {
+	enum BackForwardCacheNotRestoredReason {
+		NOT_MAIN_FRAME = 1;
+		BACK_FORWARD_CACHE_DISABLED = 2;
+		RELATED_ACTIVE_CONTENTS_EXIST = 3;
+		HTTP_STATUS_NOT_OK = 4;
+		SCHEME_NOT_HTTP_OR_HTTPS = 5;
+		LOADING = 6;
+		WAS_GRANTED_MEDIA_ACCESS = 7;
+		BLOCKLISTED_FEATURES = 8;
+		DISABLE_FOR_RENDER_FRAME_HOST_CALLED = 9;
+		DOMAIN_NOT_ALLOWED = 10;
+		HTTP_METHOD_NOT_GET = 11;
+		SUBFRAME_IS_NAVIGATING = 12;
+		TIMEOUT = 13;
+		CACHE_LIMIT = 14;
+		JAVASCRIPT_EXECUTION = 15;
+		RENDERER_PROCESS_KILLED = 16;
+		RENDERER_PROCESS_CRASHED = 17;
+		GRANTED_MEDIA_STREAM_ACCESS = 19;
+		SCHEDULER_TRACKED_FEATURE_USED = 20;
+		CONFLICTING_BROWSING_INSTANCE = 21;
+		CACHE_FLUSHED = 22;
+		SERVICE_WORKER_VERSION_ACTIVATION = 23;
+		SESSION_RESTORED = 24;
+		UNKNOWN = 25;
+		SERVICE_WORKER_POST_MESSAGE = 26;
+		ENTERED_BACK_FORWARD_CACHE_BEFORE_SERVICE_WORKER_HOST_ADDED = 27;
+		NOT_MOST_RECENT_NAVIGATION_ENTRY = 28;
+		SERVICE_WORKER_CLAIM = 29;
+		IGNORE_EVENT_AND_EVICT = 30;
+		HAVE_INNER_CONTENTS = 31;
+		TIMEOUT_PUTTING_IN_CACHE = 32;
+		BACK_FORWARD_CACHE_DISABLED_BY_LOW_MEMORY = 33;
+		BACK_FORWARD_CACHE_DISABLED_BY_COMMAND_LINE = 34;
+		NETWORK_REQUEST_REDIRECTED = 35;
+		NETWORK_REQUEST_TIMEOUT = 36;
+		NETWORK_EXCEEDS_BUFFER_LIMIT = 37;
+		NAVIGATION_CANCELLED_WHILE_RESTORING = 38;
+		BACK_FORWARD_CACHE_DISABLED_FOR_PRERENDER = 39;
+		USER_AGENT_OVERRIDE_DIFFERS = 40;
+		NETWORK_REQUEST_DATAPIPE_DRAINED_AS_BYTES_CONSUMER = 41;
+		FOREGROUND_CACHE_LIMIT = 42;
+		BROWSING_INSTANCE_NOT_SWAPPED = 43;
+		BACK_FORWARD_CACHE_DISABLED_FOR_DELEGATE = 44;
+		OPT_IN_UNLOAD_HEADER_NOT_PRESENT = 45;
+		UNLOAD_HANDLER_EXISTS_IN_MAIN_FRAME = 46;
+		UNLOAD_HANDLER_EXISTS_IN_SUBFRAME = 47;
+		SERVICE_WORKER_UNREGISTRATION = 48;
+		CACHE_CONTROL_NO_STORE = 49;
+		CACHE_CONTROL_NO_STORE_COOKIE_MODIFIED = 50;
+		CACHE_CONTROL_NO_STORE_HTTP_ONLY_COOKIE_MODIFIED = 51;
+		NO_RESPONSE_HEAD = 52;
+		ACTIVATION_NAVIGATION_DISALLOWED_FOR_BUG_1234857 = 53;
+		ERROR_DOCUMENT = 54;
+		FENCED_FRAMES_EMBEDDER = 55;
+		COOKIE_DISABLED = 56;
+		HTTP_AUTH_REQUIRED = 57;
+		COOKIE_FLUSHED = 58;
+		BROADCAST_CHANNEL_ON_MESSAGE = 59;
+	}
+
+	optional .perfetto.protos.BackForwardCacheCanStoreDocumentResult.BackForwardCacheNotRestoredReason back_forward_cache_not_restored_reason = 1 [default = NOT_MAIN_FRAME, json_name = "backForwardCacheNotRestoredReason"];
+}
+
+message RendererMainThreadTaskExecution {
+	enum TaskType {
+		TASK_TYPE_UNKNOWN = 0;
+		TASK_TYPE_DOM_MANIPULATION = 1;
+		TASK_TYPE_USER_INTERACTION = 2;
+		TASK_TYPE_NETWORKING = 3;
+		TASK_TYPE_NETWORKING_CONTROL = 4;
+		TASK_TYPE_HISTORY_TRAVERSAL = 5;
+		TASK_TYPE_EMBED = 6;
+		TASK_TYPE_MEDIA_ELEMENT_EVENT = 7;
+		TASK_TYPE_CANVAS_BLOB_SERIALIZATION = 8;
+		TASK_TYPE_MICROTASK = 9;
+		TASK_TYPE_JAVASCRIPT_TIMER_DELAYED_HIGH_NESTING = 10;
+		TASK_TYPE_REMOTE_EVENT = 11;
+		TASK_TYPE_WEB_SOCKET = 12;
+		TASK_TYPE_POSTED_MESSAGE = 13;
+		TASK_TYPE_UNSHIPPED_PORT_MESSAGE = 14;
+		TASK_TYPE_FILE_READING = 15;
+		TASK_TYPE_DATABASE_ACCESS = 16;
+		TASK_TYPE_PRESENTATION = 17;
+		TASK_TYPE_SENSOR = 18;
+		TASK_TYPE_PERFORMANCE_TIMELINE = 19;
+		TASK_TYPE_WEB_GL = 20;
+		TASK_TYPE_IDLE_TASK = 21;
+		TASK_TYPE_MISC_PLATFORM_API = 22;
+		TASK_TYPE_INTERNAL_DEFAULT = 23;
+		TASK_TYPE_INTERNAL_LOADING = 24;
+		TASK_TYPE_INTERNAL_TEST = 26;
+		TASK_TYPE_INTERNAL_WEB_CRYPTO = 27;
+		TASK_TYPE_INTERNAL_MEDIA = 29;
+		TASK_TYPE_INTERNAL_MEDIA_REALTIME = 30;
+		TASK_TYPE_INTERNAL_USER_INTERACTION = 32;
+		TASK_TYPE_INTERNAL_INSPECTOR = 33;
+		TASK_TYPE_MAIN_THREAD_TASK_QUEUE_V8 = 37;
+		TASK_TYPE_MAIN_THREAD_TASK_QUEUE_COMPOSITOR = 38;
+		TASK_TYPE_MAIN_THREAD_TASK_QUEUE_DEFAULT = 39;
+		TASK_TYPE_MAIN_THREAD_TASK_QUEUE_INPUT = 40;
+		TASK_TYPE_MAIN_THREAD_TASK_QUEUE_IDLE = 41;
+		TASK_TYPE_MAIN_THREAD_TASK_QUEUE_CONTROL = 43;
+		TASK_TYPE_INTERNAL_INTERSECTION_OBSERVER = 44;
+		TASK_TYPE_COMPOSITOR_THREAD_TASK_QUEUE_DEFAULT = 45;
+		TASK_TYPE_WORKER_THREAD_TASK_QUEUE_DEFAULT = 46;
+		TASK_TYPE_WORKER_THREAD_TASK_QUEUE_V8 = 47;
+		TASK_TYPE_WORKER_THREAD_TASK_QUEUE_COMPOSITOR = 48;
+		TASK_TYPE_COMPOSITOR_THREAD_TASK_QUEUE_INPUT = 49;
+		TASK_TYPE_NETWORKING_WITH_URL_LOADER_ANNOTATION = 50;
+		TASK_TYPE_WORKER_ANIMATION = 51;
+		TASK_TYPE_INTERNAL_TRANSLATION = 55;
+		TASK_TYPE_FONT_LOADING = 56;
+		TASK_TYPE_APPLICATION_LIFECYCLE = 57;
+		TASK_TYPE_BACKGROUND_FETCH = 58;
+		TASK_TYPE_PERMISSION = 59;
+		TASK_TYPE_SERVICE_WORKER_CLIENT_MESSAGE = 60;
+		TASK_TYPE_INTERNAL_CONTENT_CAPTURE = 61;
+		TASK_TYPE_MAIN_THREAD_TASK_QUEUE_MEMORY_PURGE = 62;
+		TASK_TYPE_INTERNAL_NAVIGATION_ASSOCIATED = 63;
+		TASK_TYPE_INTERNAL_NAVIGATION_ASSOCIATED_UNFREEZABLE = 64;
+		TASK_TYPE_INTERNAL_CONTINUE_SCRIPT_LOADING = 65;
+		TASK_TYPE_WEB_LOCKS = 66;
+		TASK_TYPE_WEB_SCHEDULING_POSTED_TASK = 67;
+		TASK_TYPE_INTERNAL_FRAME_LIFE_CYCLE_CONTROL = 68;
+		TASK_TYPE_MAIN_THREAD_TASK_QUEUE_NON_WAKING = 69;
+		TASK_TYPE_INTERNAL_FIND_IN_PAGE = 70;
+		TASK_TYPE_INTERNAL_HIGH_PRIORITY_LOCAL_FRAME = 71;
+		TASK_TYPE_JAVASCRIPT_TIMER_IMMEDIATE = 72;
+		TASK_TYPE_JAVASCRIPT_TIMER_DELAYED_LOW_NESTING = 73;
+		TASK_TYPE_MAIN_THREAD_TASK_QUEUE_IPC_TRACKING = 74;
+		TASK_TYPE_NETWORKING_UNFREEZABLE = 75;
+		TASK_TYPE_WAKE_LOCK = 76;
+		TASK_TYPE_INTERNAL_INPUT_BLOCKING = 77;
+		TASK_TYPE_WEB_GPU = 78;
+		TASK_TYPE_INTERNAL_POST_MESSAGE_FORWARDING = 79;
+		TASK_TYPE_INTERNAL_NAVIGATION_CANCELLATION = 80;
+		TASK_TYPE_LOW_PRIORITY_SCRIPT_EXECUTION = 81;
+		TASK_TYPE_STORAGE = 82;
+		TASK_TYPE_NETWORKING_UNFREEZABLE_RENDER_BLOCKING_LOADING = 83;
+		TASK_TYPE_MAIN_THREAD_TASK_QUEUE_V8_LOW_PRIORITY = 84;
+		TASK_TYPE_CLIPBOARD = 85;
+	}
+
+	enum FrameType {
+		FRAME_TYPE_UNSPECIFIED = 0;
+		FRAME_TYPE_MAIN_FRAME = 1;
+		FRAME_TYPE_SAME_ORIGIN_SUBFRAME = 2;
+		FRAME_TYPE_CROSS_ORIGIN_SUBFRAME = 3;
+	}
+
+	optional .perfetto.protos.RendererMainThreadTaskExecution.TaskType task_type = 1 [default = TASK_TYPE_UNKNOWN, json_name = "taskType"];
+	optional bool frame_visible = 2 [json_name = "frameVisible"];
+	optional bool page_visible = 3 [json_name = "pageVisible"];
+	optional .perfetto.protos.RendererMainThreadTaskExecution.FrameType frame_type = 4 [default = FRAME_TYPE_UNSPECIFIED, json_name = "frameType"];
+	optional bool is_ad_frame = 5 [json_name = "isAdFrame"];
+}
+
+message EventLatency {
+	enum EventType {
+		EVENT_TYPE_UNSPECIFIED = 0;
+		MOUSE_PRESSED = 1;
+		MOUSE_RELEASED = 2;
+		MOUSE_WHEEL = 3;
+		KEY_PRESSED = 4;
+		KEY_RELEASED = 5;
+		TOUCH_PRESSED = 6;
+		TOUCH_RELEASED = 7;
+		TOUCH_MOVED = 8;
+		GESTURE_SCROLL_BEGIN = 9;
+		GESTURE_SCROLL_UPDATE = 10;
+		GESTURE_SCROLL_END = 11;
+		GESTURE_DOUBLE_TAP = 12;
+		GESTURE_LONG_PRESS = 13;
+		GESTURE_LONG_TAP = 14;
+		GESTURE_SHOW_PRESS = 15;
+		GESTURE_TAP = 16;
+		GESTURE_TAP_CANCEL = 17;
+		GESTURE_TAP_DOWN = 18;
+		GESTURE_TAP_UNCONFIRMED = 19;
+		GESTURE_TWO_FINGER_TAP = 20;
+		FIRST_GESTURE_SCROLL_UPDATE = 21;
+		MOUSE_DRAGGED = 22;
+		GESTURE_PINCH_BEGIN = 23;
+		GESTURE_PINCH_END = 24;
+		GESTURE_PINCH_UPDATE = 25;
+		INERTIAL_GESTURE_SCROLL_UPDATE = 26;
+		MOUSE_MOVED_EVENT = 27;
+	}
+
+	optional .perfetto.protos.EventLatency.EventType event_type = 1 [default = EVENT_TYPE_UNSPECIFIED, json_name = "eventType"];
+	optional bool has_high_latency = 2 [json_name = "hasHighLatency"];
+	repeated string high_latency_stage = 3 [json_name = "highLatencyStage"];
+	optional int64 event_latency_id = 4 [json_name = "eventLatencyId"];
+	optional bool is_janky_scrolled_frame = 5 [json_name = "isJankyScrolledFrame"];
+	optional double vsync_interval_ms = 6 [json_name = "vsyncIntervalMs"];
+}
+
+message ProcessSingleton {
+	enum RemoteProcessInteractionResult {
+		INTERACTION_RESULT_UNSPECIFIED = 0;
+		TERMINATE_FAILED = 1;
+		REMOTE_PROCESS_NOT_FOUND = 2;
+		TERMINATE_WAIT_TIMEOUT = 3;
+		RUNNING_PROCESS_NOTIFY_ERROR = 4;
+		TERMINATE_NOT_ENOUGH_PERMISSIONS = 5;
+		REMOTE_PROCESS_SHUTTING_DOWN = 6;
+		PROFILE_UNLOCKED = 7;
+		PROFILE_UNLOCKED_BEFORE_KILL = 8;
+		SAME_BROWSER_INSTANCE = 9;
+		SAME_BROWSER_INSTANCE_BEFORE_KILL = 10;
+		FAILED_TO_EXTRACT_PID = 11;
+		INVALID_LOCK_FILE = 12;
+		ORPHANED_LOCK_FILE = 13;
+		USER_REFUSED_TERMINATION = 14;
+		TERMINATE_SUCCEEDED = 100;
+	}
+
+	enum RemoteHungProcessTerminateReason {
+		TERMINATE_REASON_UNSPECIFIED = 0;
+		USER_ACCEPTED_TERMINATION = 1;
+		NO_VISIBLE_WINDOW_FOUND = 2;
+		NOTIFY_ATTEMPTS_EXCEEDED = 3;
+		SOCKET_WRITE_FAILED = 4;
+		SOCKET_READ_FAILED = 5;
+	}
+
+	optional .perfetto.protos.ProcessSingleton.RemoteProcessInteractionResult remote_process_interaction_result = 1 [default = INTERACTION_RESULT_UNSPECIFIED, json_name = "remoteProcessInteractionResult"];
+	optional .perfetto.protos.ProcessSingleton.RemoteHungProcessTerminateReason remote_process_terminate_reason = 2 [default = TERMINATE_REASON_UNSPECIFIED, json_name = "remoteProcessTerminateReason"];
+}
+
+message NavigationHandle {
+	optional int64 navigation_id = 1 [json_name = "navigationId"];
+	optional bool has_committed = 2 [json_name = "hasCommitted"];
+	optional bool is_error_page = 3 [json_name = "isErrorPage"];
+	optional .perfetto.protos.FrameTreeNodeInfo frame_tree_node = 4 [json_name = "frameTreeNode"];
+	optional .perfetto.protos.RenderFrameHost render_frame_host = 5 [json_name = "renderFrameHost"];
+	repeated .perfetto.protos.DebugAnnotation debug_annotations = 99 [json_name = "debugAnnotations"];
+}
+
+message AndroidIPC {
+	optional string name = 1 [json_name = "name"];
+	optional int64 dur_ms = 2 [json_name = "durMs"];
+}
+
+message SequenceManagerTask {
+	enum Priority {
+		UNKNOWN = 0;
+		CONTROL_PRIORITY = 1;
+		HIGHEST_PRIORITY = 2;
+		VERY_HIGH_PRIORITY = 3;
+		HIGH_PRIORITY = 4;
+		NORMAL_PRIORITY = 5;
+		LOW_PRIORITY = 6;
+		BEST_EFFORT_PRIORITY = 7;
+		HIGH_PRIORITY_CONTINUATION = 8;
+		NORMAL_PRIORITY_CONTINUATION = 9;
+		LOW_PRIORITY_CONTINUATION = 10;
+		EXTREMELY_HIGH_PRIORITY = 11;
+	}
+
+	enum QueueName {
+		UNKNOWN_TQ = 0;
+		DEFAULT_TQ = 1;
+		TASK_ENVIRONMENT_DEFAULT_TQ = 2;
+		TEST2_TQ = 3;
+		TEST_TQ = 4;
+		CONTROL_TQ = 5;
+		SUBTHREAD_CONTROL_TQ = 6;
+		SUBTHREAD_DEFAULT_TQ = 7;
+		SUBTHREAD_INPUT_TQ = 8;
+		UI_BEST_EFFORT_TQ = 9;
+		UI_BOOTSTRAP_TQ = 10;
+		UI_CONTROL_TQ = 11;
+		UI_DEFAULT_TQ = 12;
+		UI_NAVIGATION_NETWORK_RESPONSE_TQ = 13;
+		UI_RUN_ALL_PENDING_TQ = 14;
+		UI_SERVICE_WORKER_STORAGE_CONTROL_RESPONSE_TQ = 15;
+		UI_THREAD_TQ = 16;
+		UI_USER_BLOCKING_TQ = 17;
+		UI_USER_INPUT_TQ = 18;
+		UI_USER_VISIBLE_TQ = 19;
+		IO_BEST_EFFORT_TQ = 20;
+		IO_BOOTSTRAP_TQ = 21;
+		IO_CONTROL_TQ = 22;
+		IO_DEFAULT_TQ = 23;
+		IO_NAVIGATION_NETWORK_RESPONSE_TQ = 24;
+		IO_RUN_ALL_PENDING_TQ = 25;
+		IO_SERVICE_WORKER_STORAGE_CONTROL_RESPONSE_TQ = 26;
+		IO_THREAD_TQ = 27;
+		IO_USER_BLOCKING_TQ = 28;
+		IO_USER_INPUT_TQ = 29;
+		IO_USER_VISIBLE_TQ = 30;
+		COMPOSITOR_TQ = 31;
+		DETACHED_TQ = 32;
+		FRAME_DEFERRABLE_TQ = 33;
+		FRAME_LOADING_CONTROL_TQ = 34;
+		FRAME_LOADING_TQ = 35;
+		FRAME_PAUSABLE_TQ = 36;
+		FRAME_THROTTLEABLE_TQ = 37;
+		FRAME_UNPAUSABLE_TQ = 38;
+		IDLE_TQ = 39;
+		INPUT_TQ = 40;
+		IPC_TRACKING_FOR_CACHED_PAGES_TQ = 41;
+		NON_WAKING_TQ = 42;
+		OTHER_TQ = 43;
+		V8_TQ = 44;
+		WEB_SCHEDULING_TQ = 45;
+		WORKER_IDLE_TQ = 46;
+		WORKER_PAUSABLE_TQ = 47;
+		WORKER_THREAD_INTERNAL_TQ = 48;
+		WORKER_THROTTLEABLE_TQ = 49;
+		WORKER_UNPAUSABLE_TQ = 50;
+		WORKER_WEB_SCHEDULING_TQ = 51;
+		UI_USER_BLOCKING_DEFERRABLE_TQ = 52;
+		IO_USER_BLOCKING_DEFERRABLE_TQ = 53;
+		UI_BEFORE_UNLOAD_BROWSER_RESPONSE_TQ = 54;
+		IO_BEFORE_UNLOAD_BROWSER_RESPONSE_TQ = 55;
+		V8_LOW_PRIORITY_TQ = 56;
+	}
+
+	optional .perfetto.protos.SequenceManagerTask.Priority priority = 1 [default = UNKNOWN, json_name = "priority"];
+	optional .perfetto.protos.SequenceManagerTask.QueueName queue_name = 2 [default = UNKNOWN_TQ, json_name = "queueName"];
+}
+
+message AndroidToolbar {
+	enum BlockCaptureReason {
+		BLOCKED_UNKNOWN = 0;
+		BLOCKED_TOOLBAR_OR_RESULT_NULL = 1;
+		BLOCKED_VIEW_NOT_DIRTY = 2;
+		BLOCKED_SNAPSHOT_SAME = 3;
+		BLOCKED_URL_BAR_HAS_FOCUS = 4;
+		BLOCKED_URL_BAR_FOCUS_IN_PROGRESS = 5;
+		BLOCKED_OPTIONAL_BUTTON_ANIMATION_IN_PROGRESS = 6;
+		BLOCKED_STATUS_ICON_ANIMATION_IN_PROGRESS = 7;
+		BLOCKED_SCROLL_ABLATION = 8;
+		BLOCKED_BROWSER_CONTROLS_LOCKED = 9;
+		BLOCKED_TAB_SWITCHER_MODE = 10;
+		BLOCKED_COMPOSITOR_IN_MOTION = 11;
+		BLOCKED_NTP_Y_TRANSLATION = 12;
+		BLOCKED_FULLSCREEN = 13;
+	}
+
+	enum AllowCaptureReason {
+		ALLOWED_UNKNOWN = 0;
+		ALLOWED_FORCE_CAPTURE = 1;
+		ALLOWED_SNAPSHOT_DIFFERENCE = 2;
+	}
+
+	enum SnapshotDifference {
+		DIFF_NONE = 0;
+		DIFF_NULL = 1;
+		DIFF_TINT = 2;
+		DIFF_TAB_COUNT = 3;
+		DIFF_OPTIONAL_BUTTON = 4;
+		DIFF_VISUAL_STATE = 5;
+		DIFF_SECURITY_ICON = 6;
+		DIFF_SHOWING_UPDATE_BADGE = 7;
+		DIFF_PAINT_PREVIEW = 8;
+		DIFF_PROGRESS = 9;
+		DIFF_LOCATION_BAR_WIDTH = 10;
+		DIFF_URL_TEXT = 11;
+		DIFF_HOME_BUTTON = 12;
+		DIFF_TITLE_TEXT = 13;
+		DIFF_CCT_ANIMATION = 14;
+		DIFF_BOOKMARK_BUTTON = 15;
+		DIFF_BACK_BUTTON = 16;
+		DIFF_FORWARD_BUTTON = 17;
+		DIFF_RELOAD_BUTTON = 18;
+	}
+
+	optional .perfetto.protos.AndroidToolbar.BlockCaptureReason block_capture_reason = 1 [default = BLOCKED_UNKNOWN, json_name = "blockCaptureReason"];
+	optional .perfetto.protos.AndroidToolbar.AllowCaptureReason allow_capture_reason = 2 [default = ALLOWED_UNKNOWN, json_name = "allowCaptureReason"];
+	optional .perfetto.protos.AndroidToolbar.SnapshotDifference snapshot_difference = 3 [default = DIFF_NONE, json_name = "snapshotDifference"];
+}
+
+message ActiveProcesses {
+	repeated int32 pid = 1 [json_name = "pid"];
+}
+
+message UkmPageLoadTimingUpdate {
+	optional int64 ukm_source_id = 1 [json_name = "ukmSourceId"];
+	optional string latest_url = 2 [json_name = "latestUrl"];
+	optional float latest_cumulative_layout_shift = 3 [json_name = "latestCumulativeLayoutShift"];
+	optional double latest_largest_contentful_paint_ms = 4 [json_name = "latestLargestContentfulPaintMs"];
+	optional double first_contentful_paint_ms = 5 [json_name = "firstContentfulPaintMs"];
+}
+
+message V8StackFrame {
+	message ScriptLocation {
+		optional string source_url = 1 [json_name = "sourceUrl"];
+		optional int64 line_number = 2 [json_name = "lineNumber"];
+		optional int64 column_number = 3 [json_name = "columnNumber"];
+	}
+
+	optional string function_name = 1 [json_name = "functionName"];
+	optional .perfetto.protos.V8StackFrame.ScriptLocation script_location = 2 [json_name = "scriptLocation"];
+}
+
+message BlinkExecutionContext {
+	enum ContextType {
+		UNKNOWN_CONTEXT = 0;
+		WINDOW = 1;
+		WORKLET = 2;
+		DEDICATED_WORKER = 3;
+		SHARED_WORKER = 4;
+		SERVICE_WORKER = 5;
+	}
+
+	enum WorldType {
+		WORLD_UNKNOWN = 0;
+		WORLD_MAIN = 1;
+		WORLD_ISOLATED = 2;
+		WORLD_INSPECTOR_ISOLATED = 3;
+		WORLD_REG_EXP = 4;
+		WORLD_FOR_V8_CONTEXT_SNAPSHOT_NON_MAIN = 5;
+		WORLD_WORKER = 6;
+		WORLD_SHADOW_REALM = 7;
+	}
+
+	optional .perfetto.protos.BlinkExecutionContext.ContextType type = 1 [default = UNKNOWN_CONTEXT, json_name = "type"];
+	optional string url = 2 [json_name = "url"];
+	optional string origin = 3 [json_name = "origin"];
+	optional .perfetto.protos.BlinkExecutionContext.WorldType world_type = 4 [default = WORLD_UNKNOWN, json_name = "worldType"];
+}
+
+message BlinkSourceLocation {
+	optional string function_name = 1 [json_name = "functionName"];
+	optional int32 script_id = 2 [json_name = "scriptId"];
+	optional string url = 3 [json_name = "url"];
+	optional int32 line_number = 4 [json_name = "lineNumber"];
+	optional int32 column_number = 5 [json_name = "columnNumber"];
+	optional string stack_trace = 6 [json_name = "stackTrace"];
+	repeated .perfetto.protos.V8StackFrame stack_frames = 7 [json_name = "stackFrames"];
+}
+
+message BlinkHighEntropyAPI {
+	message JSFunctionArgument {
+		enum ArgumentType {
+			UNKNOWN_TYPE = 0;
+			NULL_TYPE = 1;
+			UNDEFINED = 2;
+			BIGINT = 3;
+			BOOLEAN = 4;
+			FUNCTION = 5;
+			NUMBER = 6;
+			STRING = 7;
+			SYMBOL = 8;
+			OBJECT = 9;
+		}
+
+		optional .perfetto.protos.BlinkHighEntropyAPI.JSFunctionArgument.ArgumentType type = 1 [default = UNKNOWN_TYPE, json_name = "type"];
+		optional string value = 2 [json_name = "value"];
+	}
+
+	message CalledJsApi {
+		optional string identifier = 1 [json_name = "identifier"];
+		repeated .perfetto.protos.BlinkHighEntropyAPI.JSFunctionArgument func_arguments = 2 [json_name = "funcArguments"];
+		optional .perfetto.protos.BlinkSourceLocation source_location = 3 [json_name = "sourceLocation", deprecated = true];
+	}
+
+	message FontLookup {
+		enum FontLookupType {
+			FONT_LOOKUP_UNKNOWN_TYPE = 0;
+			FONT_LOOKUP_UNIQUE_OR_FAMILY_NAME = 1;
+			FONT_LOOKUP_UNIQUE_NAME_ONLY = 2;
+		}
+
+		optional .perfetto.protos.BlinkHighEntropyAPI.FontLookup.FontLookupType type = 1 [default = FONT_LOOKUP_UNKNOWN_TYPE, json_name = "type"];
+		optional string name = 2 [json_name = "name"];
+		optional uint64 weight = 3 [json_name = "weight"];
+		optional uint64 width = 4 [json_name = "width"];
+		optional uint64 slope = 5 [json_name = "slope"];
+	}
+
+	optional .perfetto.protos.BlinkExecutionContext execution_context = 1 [json_name = "executionContext"];
+	optional .perfetto.protos.BlinkHighEntropyAPI.CalledJsApi called_api = 2 [json_name = "calledApi"];
+	optional .perfetto.protos.BlinkSourceLocation source_location = 3 [json_name = "sourceLocation"];
+	optional .perfetto.protos.BlinkHighEntropyAPI.FontLookup font_lookup = 4 [json_name = "fontLookup"];
+}
+
+message TabSwitchMeasurement {
+	enum Result {
+		RESULT_UNSPECIFIED = 0;
+		RESULT_SUCCESS = 1;
+		RESULT_INCOMPLETE = 2;
+		RESULT_MISSED_TAB_HIDE = 3;
+	}
+
+	enum TabState {
+		STATE_UNSPECIFIED = 0;
+		STATE_WITH_SAVED_FRAMES = 1;
+		STATE_LOADED_NO_SAVED_FRAMES = 2;
+		STATE_NOT_LOADED_NO_SAVED_FRAMES = 3;
+	}
+
+	optional .perfetto.protos.TabSwitchMeasurement.Result result = 1 [default = RESULT_UNSPECIFIED, json_name = "result"];
+	optional .perfetto.protos.TabSwitchMeasurement.TabState tab_state = 2 [default = STATE_UNSPECIFIED, json_name = "tabState"];
+}
+
+message ScrollDeltas {
+	optional int64 trace_id = 1 [json_name = "traceId"];
+	optional float original_delta_x = 2 [json_name = "originalDeltaX"];
+	optional float original_delta_y = 3 [json_name = "originalDeltaY"];
+	optional int64 coalesced_to_trace_id = 4 [json_name = "coalescedToTraceId"];
+	optional float provided_to_compositor_delta_x = 5 [json_name = "providedToCompositorDeltaX"];
+	optional float provided_to_compositor_delta_y = 6 [json_name = "providedToCompositorDeltaY"];
+	optional int64 visual_offset_x = 7 [json_name = "visualOffsetX"];
+	optional int64 visual_offset_y = 8 [json_name = "visualOffsetY"];
+	optional int32 event_count_in_gpu_frame = 9 [json_name = "eventCountInGpuFrame"];
+	repeated int64 trace_ids_in_gpu_frame = 10 [json_name = "traceIdsInGpuFrame"];
+	optional float original_delta_in_gpu_frame_y = 11 [json_name = "originalDeltaInGpuFrameY"];
+	optional float predicted_delta_in_gpu_frame_y = 12 [json_name = "predictedDeltaInGpuFrameY"];
+	repeated float segregated_original_deltas_in_gpu_frame_y = 13 [json_name = "segregatedOriginalDeltasInGpuFrameY"];
+	repeated float segregated_predicted_deltas_in_gpu_frame_y = 14 [json_name = "segregatedPredictedDeltasInGpuFrameY"];
+}
+
+message WinRenderAudioFromSource {
+	optional uint32 iaudioclient_buffer_size_frames = 1 [json_name = "iaudioclientBufferSizeFrames"];
+	optional uint32 iaudioclient_buffer_unfilled_frames = 2 [json_name = "iaudioclientBufferUnfilledFrames"];
+	optional uint32 packet_size_frames = 3 [json_name = "packetSizeFrames"];
+	optional uint64 num_written_frames = 4 [json_name = "numWrittenFrames"];
+	optional uint64 num_played_out_frames = 5 [json_name = "numPlayedOutFrames"];
+	optional uint64 iaudioclock_device_frequency = 6 [json_name = "iaudioclockDeviceFrequency"];
+	optional uint64 iaudioclock_stream_position = 7 [json_name = "iaudioclockStreamPosition"];
+	optional uint64 iaudioclock_qpc_position = 8 [json_name = "iaudioclockQpcPosition"];
+	optional int64 iaudioclock_stream_position_increase_ms = 9 [json_name = "iaudioclockStreamPositionIncreaseMs"];
+	optional int64 iaudioclock_qpc_position_increase_ms = 10 [json_name = "iaudioclockQpcPositionIncreaseMs"];
+	optional int64 playout_delay_ms = 11 [json_name = "playoutDelayMs"];
+}
+
+message MacAUHALStream {
+	optional int32 input_buffer_size = 1 [json_name = "inputBufferSize"];
+	optional uint32 output_buffer_size = 2 [json_name = "outputBufferSize"];
+	optional int32 sample_rate = 3 [json_name = "sampleRate"];
+	optional int64 os_request_playout_timeticks_us = 4 [json_name = "osRequestPlayoutTimeticksUs"];
+	optional int32 source_request_frames = 5 [json_name = "sourceRequestFrames"];
+	optional int64 source_request_playout_delay_us = 6 [json_name = "sourceRequestPlayoutDelayUs"];
+	optional int64 source_request_playout_timeticks_us = 7 [json_name = "sourceRequestPlayoutTimeticksUs"];
+	optional int64 source_request_current_timeticks_us = 8 [json_name = "sourceRequestCurrentTimeticksUs"];
+	optional int64 hardware_latency_us = 9 [json_name = "hardwareLatencyUs"];
+	optional bool audiotimestamp_host_time_valid = 10 [json_name = "audiotimestampHostTimeValid"];
+	optional int64 audiotimestamp_mach_timeticks_us = 11 [json_name = "audiotimestampMachTimeticksUs"];
+	optional double audiotimestamp_sample_time_frames = 12 [json_name = "audiotimestampSampleTimeFrames"];
+	optional double audiotimestamp_last_sample_time_frames = 13 [json_name = "audiotimestampLastSampleTimeFrames"];
+	optional int64 lost_audio_duration_us = 14 [json_name = "lostAudioDurationUs"];
+}
+
+message LinuxAlsaOutput {
+	optional int64 source_request_playout_delay_us = 1 [json_name = "sourceRequestPlayoutDelayUs"];
+	optional int32 forward_bytes = 2 [json_name = "forwardBytes"];
+	optional int32 sample_rate = 3 [json_name = "sampleRate"];
+	optional int32 getcurrentdelay_pcm_delay_frames = 4 [json_name = "getcurrentdelayPcmDelayFrames"];
+	optional int32 getcurrentdelay_alsa_buffer_frames = 5 [json_name = "getcurrentdelayAlsaBufferFrames"];
+	optional int32 getcurrentdelay_available_frames = 6 [json_name = "getcurrentdelayAvailableFrames"];
+	optional int32 getcurrentdelay_final_delay_frames = 7 [json_name = "getcurrentdelayFinalDelayFrames"];
+}
+
+message LinuxPulseOutput {
+	optional int64 source_request_playout_delay_us = 1 [json_name = "sourceRequestPlayoutDelayUs"];
+	optional int32 sample_rate = 2 [json_name = "sampleRate"];
+	optional int32 input_buffer_size_frames = 3 [json_name = "inputBufferSizeFrames"];
+	optional uint32 stream_request_bytes = 4 [json_name = "streamRequestBytes"];
+	optional uint32 frame_size_bytes = 5 [json_name = "frameSizeBytes"];
+}
+
+message CrasUnified {
+	optional int64 underrun_duration_us = 1 [json_name = "underrunDurationUs"];
+	optional int64 last_underrun_duration_us = 2 [json_name = "lastUnderrunDurationUs"];
+	optional int64 underrun_glitch_duration_us = 3 [json_name = "underrunGlitchDurationUs"];
+	optional int64 latency_us = 4 [json_name = "latencyUs"];
+	optional int32 requested_frames = 5 [json_name = "requestedFrames"];
+	optional uint32 filled_frames = 6 [json_name = "filledFrames"];
+	optional int32 sample_rate = 7 [json_name = "sampleRate"];
+}
+
+message ChromeUnguessableToken {
+	optional uint64 low_token = 1 [json_name = "lowToken"];
+	optional uint64 high_token = 2 [json_name = "highToken"];
+}
+
+message FrameSinkId {
+	optional uint32 frame_sink_client_id = 1 [json_name = "frameSinkClientId"];
+	optional uint32 frame_sink_id = 2 [json_name = "frameSinkId"];
+}
+
+message LocalSurfaceId {
+	optional uint32 parent_sequence_number = 1 [json_name = "parentSequenceNumber"];
+	optional uint32 child_sequence_number = 2 [json_name = "childSequenceNumber"];
+	optional .perfetto.protos.ChromeUnguessableToken unguessable_token = 3 [json_name = "unguessableToken"];
+}
+
+message ChromeGraphicsPipeline {
+	enum StepName {
+		STEP_UNKNOWN = 0;
+		STEP_DID_NOT_PRODUCE_FRAME = 1;
+		STEP_GENERATE_COMPOSITOR_FRAME = 2;
+		STEP_GENERATE_RENDER_PASS = 3;
+		STEP_ISSUE_BEGIN_FRAME = 4;
+		STEP_RECEIVE_COMPOSITOR_FRAME = 5;
+		STEP_RECEIVE_BEGIN_FRAME = 6;
+		STEP_RECEIVE_BEGIN_FRAME_DISCARD = 7;
+		STEP_SEND_BEGIN_MAIN_FRAME = 8;
+		STEP_SUBMIT_COMPOSITOR_FRAME = 9;
+		STEP_SURFACE_AGGREGATION = 10;
+		STEP_SEND_BUFFER_SWAP = 11;
+		STEP_BUFFER_SWAP_POST_SUBMIT = 12;
+		STEP_FINISH_BUFFER_SWAP = 13;
+		STEP_SWAP_BUFFERS_ACK = 14;
+		STEP_EXO_CONSTRUCT_COMPOSITOR_FRAME = 15;
+		STEP_EXO_SUBMIT_COMPOSITOR_FRAME = 16;
+		STEP_EXO_DISCARD_COMPOSITOR_FRAME = 17;
+		STEP_BACKEND_SEND_BUFFER_SWAP = 18;
+		STEP_BACKEND_SEND_BUFFER_POST_SUBMIT = 19;
+		STEP_BACKEND_FINISH_BUFFER_SWAP = 20;
+	}
+
+	enum FrameSkippedReason {
+		SKIPPED_REASON_UNKNOWN = 0;
+		SKIPPED_REASON_RECOVER_LATENCY = 1;
+		SKIPPED_REASON_NO_DAMAGE = 2;
+		SKIPPED_REASON_WAITING_ON_MAIN = 3;
+		SKIPPED_REASON_DRAW_THROTTLED = 4;
+	}
+
+	optional .perfetto.protos.ChromeGraphicsPipeline.StepName step = 1 [default = STEP_UNKNOWN, json_name = "step"];
+	optional .perfetto.protos.FrameSinkId frame_sink_id = 2 [json_name = "frameSinkId"];
+	optional int64 display_trace_id = 3 [json_name = "displayTraceId"];
+	optional .perfetto.protos.LocalSurfaceId local_surface_id = 4 [json_name = "localSurfaceId"];
+	optional int64 frame_sequence = 5 [json_name = "frameSequence"];
+	optional .perfetto.protos.ChromeGraphicsPipeline.FrameSkippedReason frame_skipped_reason = 6 [default = SKIPPED_REASON_UNKNOWN, json_name = "frameSkippedReason"];
+	optional int64 backend_frame_id = 7 [json_name = "backendFrameId"];
+}
+
+message LibunwindstackUnwinder {
+	enum ErrorCode {
+		ERROR_NONE = 0;
+		ERROR_MEMORY_INVALID = 1;
+		ERROR_UNWIND_INFO = 2;
+		ERROR_UNSUPPORTED = 3;
+		ERROR_INVALID_MAP = 4;
+		ERROR_MAX_FRAMES_EXCEEDED = 5;
+		ERROR_REPEATED_FRAME = 6;
+		ERROR_INVALID_ELF = 7;
+		ERROR_THREAD_DOES_NOT_EXIST = 8;
+		ERROR_THREAD_TIMEOUT = 9;
+		ERROR_SYSTEM_CALL = 10;
+		ERROR_BAD_ARCH = 11;
+		ERROR_MAPS_PARSE = 12;
+		ERROR_INVALID_PARAMETER_LIBUNWINDSTACK = 13;
+		ERROR_PTRACE_CALL = 14;
+	}
+
+	optional .perfetto.protos.LibunwindstackUnwinder.ErrorCode error_code = 1 [default = ERROR_NONE, json_name = "errorCode"];
+	optional int32 num_frames = 2 [json_name = "numFrames"];
+}
+
+message ScrollPredictorMetrics {
+	message EventFrameValue {
+		optional int64 event_trace_id = 1 [json_name = "eventTraceId"];
+		optional float delta_value_pixels = 2 [json_name = "deltaValuePixels"];
+	}
+
+	optional .perfetto.protos.ScrollPredictorMetrics.EventFrameValue prev_event_frame_value = 1 [json_name = "prevEventFrameValue"];
+	optional .perfetto.protos.ScrollPredictorMetrics.EventFrameValue cur_event_frame_value = 2 [json_name = "curEventFrameValue"];
+	optional .perfetto.protos.ScrollPredictorMetrics.EventFrameValue next_event_frame_value = 3 [json_name = "nextEventFrameValue"];
+	optional float janky_value_pixels = 4 [json_name = "jankyValuePixels"];
+	optional bool has_missed_vsyncs = 5 [json_name = "hasMissedVsyncs"];
+	optional bool is_slow_scroll = 6 [json_name = "isSlowScroll"];
+}
+
+message PageLoad {
+	optional int64 navigation_id = 1 [json_name = "navigationId"];
+	optional string url = 2 [json_name = "url"];
+}
+
+message StartUp {
+	enum LaunchCauseType {
+		OTHER = 0;
+		CUSTOM_TAB = 1;
+		TWA = 2;
+		RECENTS = 3;
+		RECENTS_OR_BACK = 4;
+		FOREGROUND_WHEN_LOCKED = 5;
+		MAIN_LAUNCHER_ICON = 6;
+		MAIN_LAUNCHER_ICON_SHORTCUT = 7;
+		HOME_SCREEN_WIDGET = 8;
+		OPEN_IN_BROWSER_FROM_MENU = 9;
+		EXTERNAL_SEARCH_ACTION_INTENT = 10;
+		NOTIFICATION = 11;
+		EXTERNAL_VIEW_INTENT = 12;
+		OTHER_CHROME = 13;
+		WEBAPK_CHROME_DISTRIBUTOR = 14;
+		WEBAPK_OTHER_DISTRIBUTOR = 15;
+		HOME_SCREEN_SHORTCUT = 16;
+		SHARE_INTENT = 17;
+		NFC = 18;
+	}
+
+	optional int64 activity_id = 1 [json_name = "activityId"];
+	optional .perfetto.protos.StartUp.LaunchCauseType launch_cause = 3 [default = OTHER, json_name = "launchCause"];
+}
+
+message WebContentInteraction {
+	enum Type {
+		INTERACTION_UNSPECIFIED = 0;
+		INTERACTION_KEYBOARD = 1;
+		INTERACTION_CLICK_TAP = 2;
+		INTERACTION_DRAG = 3;
+	}
+
+	optional .perfetto.protos.WebContentInteraction.Type type = 1 [default = INTERACTION_UNSPECIFIED, json_name = "type"];
+	optional int64 total_duration_ms = 2 [json_name = "totalDurationMs"];
+}
+
+message EventForwarder {
+	optional int32 history_size = 1 [json_name = "historySize"];
+	optional int64 oldest_time_ns = 2 [json_name = "oldestTimeNs"];
+	optional int64 latest_time_ns = 5 [json_name = "latestTimeNs"];
+	optional float x_pixel = 3 [json_name = "xPixel"];
+	optional float y_pixel = 4 [json_name = "yPixel"];
+	optional bool has_x_movement = 6 [json_name = "hasXMovement"];
+	optional bool has_y_movement = 7 [json_name = "hasYMovement"];
+}
+
+message TouchDispositionGestureFilter {
+	optional int32 gesture_count = 1 [json_name = "gestureCount"];
+}
+
+message ViewClassName {
+	optional string name = 1 [json_name = "name"];
+}
+
+message ChromeCompositorSchedulerStateV2 {
+	enum BeginImplFrameDeadlineMode {
+		DEADLINE_MODE_UNSPECIFIED = 0;
+		DEADLINE_MODE_NONE = 1;
+		DEADLINE_MODE_IMMEDIATE = 2;
+		DEADLINE_MODE_REGULAR = 3;
+		DEADLINE_MODE_LATE = 4;
+		DEADLINE_MODE_BLOCKED = 5;
+	}
+
+	optional .perfetto.protos.ChromeCompositorStateMachineV2 state_machine = 1 [json_name = "stateMachine"];
+	optional bool observing_begin_frame_source = 2 [json_name = "observingBeginFrameSource"];
+	optional bool begin_impl_frame_deadline_task = 3 [json_name = "beginImplFrameDeadlineTask"];
+	optional bool pending_begin_frame_task = 4 [json_name = "pendingBeginFrameTask"];
+	optional bool skipped_last_frame_missed_exceeded_deadline = 5 [json_name = "skippedLastFrameMissedExceededDeadline"];
+	optional .perfetto.protos.ChromeCompositorSchedulerActionV2 inside_action = 7 [default = CC_SCHEDULER_ACTION_V2_UNSPECIFIED, json_name = "insideAction"];
+	optional .perfetto.protos.ChromeCompositorSchedulerStateV2.BeginImplFrameDeadlineMode deadline_mode = 8 [default = DEADLINE_MODE_UNSPECIFIED, json_name = "deadlineMode"];
+	optional int64 deadline_us = 9 [json_name = "deadlineUs"];
+	optional int64 deadline_scheduled_at_us = 10 [json_name = "deadlineScheduledAtUs"];
+	optional int64 now_us = 11 [json_name = "nowUs"];
+	optional int64 now_to_deadline_delta_us = 12 [json_name = "nowToDeadlineDeltaUs"];
+	optional int64 now_to_deadline_scheduled_at_delta_us = 13 [json_name = "nowToDeadlineScheduledAtDeltaUs"];
+	optional .perfetto.protos.BeginImplFrameArgsV2 begin_impl_frame_args = 14 [json_name = "beginImplFrameArgs"];
+	optional .perfetto.protos.BeginFrameObserverStateV2 begin_frame_observer_state = 15 [json_name = "beginFrameObserverState"];
+	optional .perfetto.protos.BeginFrameSourceStateV2 begin_frame_source_state = 16 [json_name = "beginFrameSourceState"];
+	optional .perfetto.protos.CompositorTimingHistoryV2 compositor_timing_history = 17 [json_name = "compositorTimingHistory"];
+}
+
+message ChromeCompositorStateMachineV2 {
+	message MajorStateV2 {
+		enum BeginImplFrameState {
+			BEGIN_IMPL_FRAME_UNSPECIFIED = 0;
+			BEGIN_IMPL_FRAME_IDLE = 1;
+			BEGIN_IMPL_FRAME_INSIDE_BEGIN_FRAME = 2;
+			BEGIN_IMPL_FRAME_INSIDE_DEADLINE = 3;
+		}
+
+		enum BeginMainFrameState {
+			BEGIN_MAIN_FRAME_UNSPECIFIED = 0;
+			BEGIN_MAIN_FRAME_IDLE = 1;
+			BEGIN_MAIN_FRAME_SENT = 2;
+			BEGIN_MAIN_FRAME_READY_TO_COMMIT = 3;
+		}
+
+		enum LayerTreeFrameSinkState {
+			LAYER_TREE_FRAME_UNSPECIFIED = 0;
+			LAYER_TREE_FRAME_NONE = 1;
+			LAYER_TREE_FRAME_ACTIVE = 2;
+			LAYER_TREE_FRAME_CREATING = 3;
+			LAYER_TREE_FRAME_WAITING_FOR_FIRST_COMMIT = 4;
+			LAYER_TREE_FRAME_WAITING_FOR_FIRST_ACTIVATION = 5;
+		}
+
+		enum ForcedRedrawOnTimeoutState {
+			FORCED_REDRAW_UNSPECIFIED = 0;
+			FORCED_REDRAW_IDLE = 1;
+			FORCED_REDRAW_WAITING_FOR_COMMIT = 2;
+			FORCED_REDRAW_WAITING_FOR_ACTIVATION = 3;
+			FORCED_REDRAW_WAITING_FOR_DRAW = 4;
+		}
+
+		optional .perfetto.protos.ChromeCompositorSchedulerActionV2 next_action = 1 [default = CC_SCHEDULER_ACTION_V2_UNSPECIFIED, json_name = "nextAction"];
+		optional .perfetto.protos.ChromeCompositorStateMachineV2.MajorStateV2.BeginImplFrameState begin_impl_frame_state = 2 [default = BEGIN_IMPL_FRAME_UNSPECIFIED, json_name = "beginImplFrameState"];
+		optional .perfetto.protos.ChromeCompositorStateMachineV2.MajorStateV2.BeginMainFrameState begin_main_frame_state = 3 [default = BEGIN_MAIN_FRAME_UNSPECIFIED, json_name = "beginMainFrameState"];
+		optional .perfetto.protos.ChromeCompositorStateMachineV2.MajorStateV2.LayerTreeFrameSinkState layer_tree_frame_sink_state = 4 [default = LAYER_TREE_FRAME_UNSPECIFIED, json_name = "layerTreeFrameSinkState"];
+		optional .perfetto.protos.ChromeCompositorStateMachineV2.MajorStateV2.ForcedRedrawOnTimeoutState forced_redraw_state = 5 [default = FORCED_REDRAW_UNSPECIFIED, json_name = "forcedRedrawState"];
+	}
+
+	message MinorStateV2 {
+		enum TreePriority {
+			TREE_PRIORITY_UNSPECIFIED = 0;
+			TREE_PRIORITY_SAME_PRIORITY_FOR_BOTH_TREES = 1;
+			TREE_PRIORITY_SMOOTHNESS_TAKES_PRIORITY = 2;
+			TREE_PRIORITY_NEW_CONTENT_TAKES_PRIORITY = 3;
+		}
+
+		enum ScrollHandlerState {
+			SCROLL_HANDLER_UNSPECIFIED = 0;
+			SCROLL_AFFECTS_SCROLL_HANDLER = 1;
+			SCROLL_DOES_NOT_AFFECT_SCROLL_HANDLER = 2;
+		}
+
+		optional int32 commit_count = 1 [json_name = "commitCount"];
+		optional int32 current_frame_number = 2 [json_name = "currentFrameNumber"];
+		optional int32 last_frame_number_submit_performed = 3 [json_name = "lastFrameNumberSubmitPerformed"];
+		optional int32 last_frame_number_draw_performed = 4 [json_name = "lastFrameNumberDrawPerformed"];
+		optional int32 last_frame_number_begin_main_frame_sent = 5 [json_name = "lastFrameNumberBeginMainFrameSent"];
+		optional bool did_draw = 6 [json_name = "didDraw"];
+		optional bool did_send_begin_main_frame_for_current_frame = 7 [json_name = "didSendBeginMainFrameForCurrentFrame"];
+		optional bool did_notify_begin_main_frame_not_expected_until = 8 [json_name = "didNotifyBeginMainFrameNotExpectedUntil"];
+		optional bool did_notify_begin_main_frame_not_expected_soon = 9 [json_name = "didNotifyBeginMainFrameNotExpectedSoon"];
+		optional bool wants_begin_main_frame_not_expected = 10 [json_name = "wantsBeginMainFrameNotExpected"];
+		optional bool did_commit_during_frame = 11 [json_name = "didCommitDuringFrame"];
+		optional bool did_invalidate_layer_tree_frame_sink = 12 [json_name = "didInvalidateLayerTreeFrameSink"];
+		optional bool did_perform_impl_side_invalidaion = 13 [json_name = "didPerformImplSideInvalidaion"];
+		optional bool did_prepare_tiles = 14 [json_name = "didPrepareTiles"];
+		optional int32 consecutive_checkerboard_animations = 15 [json_name = "consecutiveCheckerboardAnimations"];
+		optional int32 pending_submit_frames = 16 [json_name = "pendingSubmitFrames"];
+		optional int32 submit_frames_with_current_layer_tree_frame_sink = 17 [json_name = "submitFramesWithCurrentLayerTreeFrameSink"];
+		optional bool needs_redraw = 18 [json_name = "needsRedraw"];
+		optional bool needs_prepare_tiles = 19 [json_name = "needsPrepareTiles"];
+		optional bool needs_begin_main_frame = 20 [json_name = "needsBeginMainFrame"];
+		optional bool needs_one_begin_impl_frame = 21 [json_name = "needsOneBeginImplFrame"];
+		optional bool visible = 22 [json_name = "visible"];
+		optional bool begin_frame_source_paused = 23 [json_name = "beginFrameSourcePaused"];
+		optional bool can_draw = 24 [json_name = "canDraw"];
+		optional bool resourceless_draw = 25 [json_name = "resourcelessDraw"];
+		optional bool has_pending_tree = 26 [json_name = "hasPendingTree"];
+		optional bool pending_tree_is_ready_for_activation = 27 [json_name = "pendingTreeIsReadyForActivation"];
+		optional bool active_tree_needs_first_draw = 28 [json_name = "activeTreeNeedsFirstDraw"];
+		optional bool active_tree_is_ready_to_draw = 29 [json_name = "activeTreeIsReadyToDraw"];
+		optional bool did_create_and_initialize_first_layer_tree_frame_sink = 30 [json_name = "didCreateAndInitializeFirstLayerTreeFrameSink"];
+		optional .perfetto.protos.ChromeCompositorStateMachineV2.MinorStateV2.TreePriority tree_priority = 31 [default = TREE_PRIORITY_UNSPECIFIED, json_name = "treePriority"];
+		optional .perfetto.protos.ChromeCompositorStateMachineV2.MinorStateV2.ScrollHandlerState scroll_handler_state = 32 [default = SCROLL_HANDLER_UNSPECIFIED, json_name = "scrollHandlerState"];
+		optional bool critical_begin_main_frame_to_activate_is_fast = 33 [json_name = "criticalBeginMainFrameToActivateIsFast"];
+		optional bool main_thread_missed_last_deadline = 34 [json_name = "mainThreadMissedLastDeadline"];
+		optional bool video_needs_begin_frames = 36 [json_name = "videoNeedsBeginFrames"];
+		optional bool defer_begin_main_frame = 37 [json_name = "deferBeginMainFrame"];
+		optional bool last_commit_had_no_updates = 38 [json_name = "lastCommitHadNoUpdates"];
+		optional bool did_draw_in_last_frame = 39 [json_name = "didDrawInLastFrame"];
+		optional bool did_submit_in_last_frame = 40 [json_name = "didSubmitInLastFrame"];
+		optional bool needs_impl_side_invalidation = 41 [json_name = "needsImplSideInvalidation"];
+		optional bool current_pending_tree_is_impl_side = 42 [json_name = "currentPendingTreeIsImplSide"];
+		optional bool previous_pending_tree_was_impl_side = 43 [json_name = "previousPendingTreeWasImplSide"];
+		optional bool processing_animation_worklets_for_active_tree = 44 [json_name = "processingAnimationWorkletsForActiveTree"];
+		optional bool processing_animation_worklets_for_pending_tree = 45 [json_name = "processingAnimationWorkletsForPendingTree"];
+		optional bool processing_paint_worklets_for_pending_tree = 46 [json_name = "processingPaintWorkletsForPendingTree"];
+	}
+
+	optional .perfetto.protos.ChromeCompositorStateMachineV2.MajorStateV2 major_state = 1 [json_name = "majorState"];
+	optional .perfetto.protos.ChromeCompositorStateMachineV2.MinorStateV2 minor_state = 2 [json_name = "minorState"];
+}
+
+message BeginFrameArgsV2 {
+	enum BeginFrameArgsType {
+		BEGIN_FRAME_ARGS_TYPE_UNSPECIFIED = 0;
+		BEGIN_FRAME_ARGS_TYPE_INVALID = 1;
+		BEGIN_FRAME_ARGS_TYPE_NORMAL = 2;
+		BEGIN_FRAME_ARGS_TYPE_MISSED = 3;
+	}
+
+	optional .perfetto.protos.BeginFrameArgsV2.BeginFrameArgsType type = 1 [default = BEGIN_FRAME_ARGS_TYPE_UNSPECIFIED, json_name = "type"];
+	optional uint64 source_id = 2 [json_name = "sourceId"];
+	optional uint64 sequence_number = 3 [json_name = "sequenceNumber"];
+	optional int64 frame_time_us = 4 [json_name = "frameTimeUs"];
+	optional int64 deadline_us = 5 [json_name = "deadlineUs"];
+	optional int64 interval_delta_us = 6 [json_name = "intervalDeltaUs"];
+	optional bool on_critical_path = 7 [json_name = "onCriticalPath"];
+	optional bool animate_only = 8 [json_name = "animateOnly"];
+	optional int64 frames_throttled_since_last = 11 [json_name = "framesThrottledSinceLast"];
+
+	oneof created_from {
+		uint64 source_location_iid = 9 [json_name = "sourceLocationIid"];
+		.perfetto.protos.SourceLocation source_location = 10 [json_name = "sourceLocation"];
+	}
+}
+
+message BeginImplFrameArgsV2 {
+	message TimestampsInUs {
+		optional int64 interval_delta = 1 [json_name = "intervalDelta"];
+		optional int64 now_to_deadline_delta = 2 [json_name = "nowToDeadlineDelta"];
+		optional int64 frame_time_to_now_delta = 3 [json_name = "frameTimeToNowDelta"];
+		optional int64 frame_time_to_deadline_delta = 4 [json_name = "frameTimeToDeadlineDelta"];
+		optional int64 now = 5 [json_name = "now"];
+		optional int64 frame_time = 6 [json_name = "frameTime"];
+		optional int64 deadline = 7 [json_name = "deadline"];
+	}
+
+	enum State {
+		BEGIN_FRAME_FINISHED = 0;
+		BEGIN_FRAME_USING = 1;
+	}
+
+	optional int64 updated_at_us = 1 [json_name = "updatedAtUs"];
+	optional int64 finished_at_us = 2 [json_name = "finishedAtUs"];
+	optional .perfetto.protos.BeginImplFrameArgsV2.State state = 3 [default = BEGIN_FRAME_FINISHED, json_name = "state"];
+	optional .perfetto.protos.BeginImplFrameArgsV2.TimestampsInUs timestamps_in_us = 6 [json_name = "timestampsInUs"];
+
+	oneof args {
+		.perfetto.protos.BeginFrameArgsV2 current_args = 4 [json_name = "currentArgs"];
+		.perfetto.protos.BeginFrameArgsV2 last_args = 5 [json_name = "lastArgs"];
+	}
+}
+
+message BeginFrameObserverStateV2 {
+	optional int64 dropped_begin_frame_args = 1 [json_name = "droppedBeginFrameArgs"];
+	optional .perfetto.protos.BeginFrameArgsV2 last_begin_frame_args = 2 [json_name = "lastBeginFrameArgs"];
+}
+
+message BeginFrameSourceStateV2 {
+	optional uint32 source_id = 1 [json_name = "sourceId"];
+	optional bool paused = 2 [json_name = "paused"];
+	optional uint32 num_observers = 3 [json_name = "numObservers"];
+	optional .perfetto.protos.BeginFrameArgsV2 last_begin_frame_args = 4 [json_name = "lastBeginFrameArgs"];
+}
+
+message CompositorTimingHistoryV2 {
+	optional int64 begin_main_frame_queue_critical_estimate_delta_us = 1 [json_name = "beginMainFrameQueueCriticalEstimateDeltaUs"];
+	optional int64 begin_main_frame_queue_not_critical_estimate_delta_us = 2 [json_name = "beginMainFrameQueueNotCriticalEstimateDeltaUs"];
+	optional int64 begin_main_frame_start_to_ready_to_commit_estimate_delta_us = 3 [json_name = "beginMainFrameStartToReadyToCommitEstimateDeltaUs"];
+	optional int64 commit_to_ready_to_activate_estimate_delta_us = 4 [json_name = "commitToReadyToActivateEstimateDeltaUs"];
+	optional int64 prepare_tiles_estimate_delta_us = 5 [json_name = "prepareTilesEstimateDeltaUs"];
+	optional int64 activate_estimate_delta_us = 6 [json_name = "activateEstimateDeltaUs"];
+	optional int64 draw_estimate_delta_us = 7 [json_name = "drawEstimateDeltaUs"];
+}
+
+message WebViewStartup {
+	enum CallSite {
+		GET_AW_TRACING_CONTROLLER = 0;
+		GET_AW_PROXY_CONTROLLER = 1;
+		WEBVIEW_INSTANCE = 2;
+		GET_STATICS = 3;
+		GET_DEFAULT_GEOLOCATION_PERMISSIONS = 4;
+		GET_DEFAULT_SERVICE_WORKER_CONTROLLER = 5;
+		GET_WEB_ICON_DATABASE = 6;
+		GET_DEFAULT_WEB_STORAGE = 7;
+		GET_DEFAULT_WEBVIEW_DATABASE = 8;
+		GET_TRACING_CONTROLLER = 9;
+	}
+
+	optional bool from_ui_thread = 1 [json_name = "fromUiThread"];
+	optional .perfetto.protos.WebViewStartup.CallSite call_site = 2 [default = GET_AW_TRACING_CONTROLLER, json_name = "callSite"];
+}
+
+message ChromeTrackEvent {
+	extend .perfetto.protos.TrackEvent {
+		optional .perfetto.protos.ChromeAppState chrome_app_state = 1000 [default = APP_STATE_FOREGROUND, json_name = "chromeAppState"];
+		optional .perfetto.protos.ChromeMemoryPressureNotification chrome_memory_pressure_notification = 1001 [json_name = "chromeMemoryPressureNotification"];
+		optional .perfetto.protos.ChromeTaskAnnotator chrome_task_annotator = 1002 [json_name = "chromeTaskAnnotator"];
+		optional .perfetto.protos.ChromeBrowserContext chrome_browser_context = 1003 [json_name = "chromeBrowserContext"];
+		optional .perfetto.protos.ChromeProfileDestroyer chrome_profile_destroyer = 1004 [json_name = "chromeProfileDestroyer"];
+		optional .perfetto.protos.ChromeTaskPostedToDisabledQueue chrome_task_posted_to_disabled_queue = 1005 [json_name = "chromeTaskPostedToDisabledQueue"];
+		optional .perfetto.protos.ChromeRasterTask chrome_raster_task = 1006 [json_name = "chromeRasterTask"];
+		optional .perfetto.protos.ChromeMessagePumpForUI chrome_message_pump_for_ui = 1007 [json_name = "chromeMessagePumpForUi"];
+		optional .perfetto.protos.RenderFrameImplDeletion render_frame_impl_deletion = 1008 [json_name = "renderFrameImplDeletion"];
+		optional .perfetto.protos.ShouldSwapBrowsingInstancesResult should_swap_browsing_instances_result = 1009 [json_name = "shouldSwapBrowsingInstancesResult"];
+		optional .perfetto.protos.FrameTreeNodeInfo frame_tree_node_info = 1010 [json_name = "frameTreeNodeInfo"];
+		optional .perfetto.protos.ChromeHashedPerformanceMark chrome_hashed_performance_mark = 1011 [json_name = "chromeHashedPerformanceMark"];
+		optional .perfetto.protos.RenderProcessHost render_process_host = 1012 [json_name = "renderProcessHost"];
+		optional .perfetto.protos.RenderProcessHostCleanup render_process_host_cleanup = 1013 [json_name = "renderProcessHostCleanup"];
+		optional .perfetto.protos.RenderProcessHostListener render_process_host_listener_changed = 1014 [json_name = "renderProcessHostListenerChanged"];
+		optional .perfetto.protos.ChildProcessLauncherPriority child_process_launcher_priority = 1015 [json_name = "childProcessLauncherPriority"];
+		optional .perfetto.protos.ResourceBundle resource_bundle = 1016 [json_name = "resourceBundle"];
+		optional .perfetto.protos.ChromeWebAppBadNavigate chrome_web_app_bad_navigate = 1017 [json_name = "chromeWebAppBadNavigate"];
+		optional .perfetto.protos.ChromeExtensionId chrome_extension_id = 1018 [json_name = "chromeExtensionId"];
+		optional .perfetto.protos.SiteInstance site_instance = 1019 [json_name = "siteInstance"];
+		optional .perfetto.protos.RenderViewHost render_view_host = 1020 [json_name = "renderViewHost"];
+		optional .perfetto.protos.RenderFrameProxyHost render_frame_proxy_host = 1021 [json_name = "renderFrameProxyHost"];
+		optional .perfetto.protos.AndroidViewDump android_view_dump = 1022 [json_name = "androidViewDump"];
+		optional .perfetto.protos.ParkableStringCompressInBackground parkable_string_compress_in_background = 1023 [json_name = "parkableStringCompressInBackground"];
+		optional .perfetto.protos.ParkableStringUnpark parkable_string_unpark = 1024 [json_name = "parkableStringUnpark"];
+		optional .perfetto.protos.ChromeSamplingProfilerSampleCollected chrome_sampling_profiler_sample_completed = 1025 [json_name = "chromeSamplingProfilerSampleCompleted"];
+		optional .perfetto.protos.SendBeginMainFrameToCommitBreakdown send_begin_mainframe_to_commit_breakdown = 1026 [json_name = "sendBeginMainframeToCommitBreakdown"];
+		optional .perfetto.protos.GlobalRenderFrameHostId global_render_frame_host_id = 1027 [json_name = "globalRenderFrameHostId"];
+		optional .perfetto.protos.RenderFrameHost render_frame_host = 1028 [json_name = "renderFrameHost"];
+		optional .perfetto.protos.ChromeThreadPoolTask thread_pool_task = 1029 [json_name = "threadPoolTask"];
+		optional .perfetto.protos.BackForwardCacheCanStoreDocumentResult back_forward_cache_can_store_document_result = 1030 [json_name = "backForwardCacheCanStoreDocumentResult"];
+		optional .perfetto.protos.RendererMainThreadTaskExecution renderer_main_thread_task_execution = 1031 [json_name = "rendererMainThreadTaskExecution"];
+		optional .perfetto.protos.EventLatency event_latency = 1032 [json_name = "eventLatency"];
+		optional .perfetto.protos.ProcessSingleton process_singleton = 1033 [json_name = "processSingleton"];
+		optional .perfetto.protos.SiteInstanceGroup site_instance_group = 1034 [json_name = "siteInstanceGroup"];
+		optional .perfetto.protos.BrowsingContextState browsing_context_state = 1035 [json_name = "browsingContextState"];
+		optional .perfetto.protos.DeviceThermalState device_thermal_state = 1036 [default = DEVICE_THERMAL_STATE_UNKNOWN, json_name = "deviceThermalState"];
+		optional .perfetto.protos.NavigationHandle navigation = 1037 [json_name = "navigation"];
+		optional .perfetto.protos.AndroidIPC android_ipc = 1038 [json_name = "androidIpc"];
+		optional .perfetto.protos.ChromeSqlDiagnostics sql_diagnostics = 1039 [json_name = "sqlDiagnostics"];
+		optional .perfetto.protos.SequenceManagerTask sequence_manager_task = 1040 [json_name = "sequenceManagerTask"];
+		optional .perfetto.protos.AndroidToolbar android_toolbar = 1041 [json_name = "androidToolbar"];
+		optional .perfetto.protos.ActiveProcesses active_processes = 1042 [json_name = "activeProcesses"];
+		optional .perfetto.protos.BlinkTaskScope blink_task_scope = 1043 [json_name = "blinkTaskScope"];
+		optional .perfetto.protos.UkmPageLoadTimingUpdate ukm_page_load_timing_update = 1044 [json_name = "ukmPageLoadTimingUpdate"];
+		optional .perfetto.protos.BlinkHighEntropyAPI high_entropy_api = 1045 [json_name = "highEntropyApi"];
+		optional .perfetto.protos.TabSwitchMeasurement tab_switch_measurement = 1046 [json_name = "tabSwitchMeasurement"];
+		optional .perfetto.protos.ScrollDeltas scroll_deltas = 1047 [json_name = "scrollDeltas"];
+		optional .perfetto.protos.WinRenderAudioFromSource win_render_audio_from_source = 1048 [json_name = "winRenderAudioFromSource"];
+		optional .perfetto.protos.MacAUHALStream mac_auhal_stream = 1049 [json_name = "macAuhalStream"];
+		optional .perfetto.protos.LinuxAlsaOutput linux_alsa_output = 1050 [json_name = "linuxAlsaOutput"];
+		optional .perfetto.protos.LinuxPulseOutput linux_pulse_output = 1051 [json_name = "linuxPulseOutput"];
+		optional .perfetto.protos.ChromeGraphicsPipeline chrome_graphics_pipeline = 1052 [json_name = "chromeGraphicsPipeline"];
+		optional .perfetto.protos.CrasUnified chromeos_cras_unified = 1053 [json_name = "chromeosCrasUnified"];
+		optional .perfetto.protos.LibunwindstackUnwinder libunwindstack_unwinder = 1054 [json_name = "libunwindstackUnwinder"];
+		optional .perfetto.protos.ScrollPredictorMetrics scroll_predictor_metrics = 1055 [json_name = "scrollPredictorMetrics"];
+		optional .perfetto.protos.PageLoad page_load = 1056 [json_name = "pageLoad"];
+		optional .perfetto.protos.StartUp startup = 1057 [json_name = "startup"];
+		optional .perfetto.protos.WebContentInteraction web_content_interaction = 1058 [json_name = "webContentInteraction"];
+		optional .perfetto.protos.EventForwarder event_forwarder = 1059 [json_name = "eventForwarder"];
+		optional .perfetto.protos.TouchDispositionGestureFilter touch_disposition_gesture_filter = 1060 [json_name = "touchDispositionGestureFilter"];
+		optional .perfetto.protos.ViewClassName view_class_name = 1061 [json_name = "viewClassName"];
+		optional .perfetto.protos.ChromeCompositorSchedulerStateV2 cc_scheduler_state = 1062 [json_name = "ccSchedulerState"];
+		optional .perfetto.protos.WebViewStartup webview_startup = 1063 [json_name = "webviewStartup"];
+	}
+}

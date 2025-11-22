@@ -1,0 +1,13 @@
+package perfetto.protos;
+
+message HistogramName {
+	optional uint64 iid = 1 [json_name = "iid"];
+	optional string name = 2 [json_name = "name"];
+}
+
+message ChromeHistogramSample {
+	optional uint64 name_hash = 1 [json_name = "nameHash"];
+	optional string name = 2 [json_name = "name"];
+	optional int64 sample = 3 [json_name = "sample"];
+	optional uint64 name_iid = 4 [json_name = "nameIid"];
+}

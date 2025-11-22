@@ -1,0 +1,226 @@
+import "protos/perfetto/trace/track_event/source_location.proto";
+
+package perfetto.protos;
+
+enum ChromeCompositorSchedulerAction {
+	CC_SCHEDULER_ACTION_UNSPECIFIED = 0;
+	CC_SCHEDULER_ACTION_NONE = 1;
+	CC_SCHEDULER_ACTION_SEND_BEGIN_MAIN_FRAME = 2;
+	CC_SCHEDULER_ACTION_COMMIT = 3;
+	CC_SCHEDULER_ACTION_ACTIVATE_SYNC_TREE = 4;
+	CC_SCHEDULER_ACTION_DRAW_IF_POSSIBLE = 5;
+	CC_SCHEDULER_ACTION_DRAW_FORCED = 6;
+	CC_SCHEDULER_ACTION_DRAW_ABORT = 7;
+	CC_SCHEDULER_ACTION_BEGIN_LAYER_TREE_FRAME_SINK_CREATION = 8;
+	CC_SCHEDULER_ACTION_PREPARE_TILES = 9;
+	CC_SCHEDULER_ACTION_INVALIDATE_LAYER_TREE_FRAME_SINK = 10;
+	CC_SCHEDULER_ACTION_PERFORM_IMPL_SIDE_INVALIDATION = 11;
+	CC_SCHEDULER_ACTION_NOTIFY_BEGIN_MAIN_FRAME_NOT_EXPECTED_UNTIL = 12;
+	CC_SCHEDULER_ACTION_NOTIFY_BEGIN_MAIN_FRAME_NOT_EXPECTED_SOON = 13;
+}
+
+message ChromeCompositorSchedulerState {
+	enum BeginImplFrameDeadlineMode {
+		DEADLINE_MODE_UNSPECIFIED = 0;
+		DEADLINE_MODE_NONE = 1;
+		DEADLINE_MODE_IMMEDIATE = 2;
+		DEADLINE_MODE_REGULAR = 3;
+		DEADLINE_MODE_LATE = 4;
+		DEADLINE_MODE_BLOCKED = 5;
+	}
+
+	optional .perfetto.protos.ChromeCompositorStateMachine state_machine = 1 [json_name = "stateMachine"];
+	optional bool observing_begin_frame_source = 2 [json_name = "observingBeginFrameSource"];
+	optional bool begin_impl_frame_deadline_task = 3 [json_name = "beginImplFrameDeadlineTask"];
+	optional bool pending_begin_frame_task = 4 [json_name = "pendingBeginFrameTask"];
+	optional bool skipped_last_frame_missed_exceeded_deadline = 5 [json_name = "skippedLastFrameMissedExceededDeadline"];
+	optional .perfetto.protos.ChromeCompositorSchedulerAction inside_action = 7 [default = CC_SCHEDULER_ACTION_UNSPECIFIED, json_name = "insideAction"];
+	optional .perfetto.protos.ChromeCompositorSchedulerState.BeginImplFrameDeadlineMode deadline_mode = 8 [default = DEADLINE_MODE_UNSPECIFIED, json_name = "deadlineMode"];
+	optional int64 deadline_us = 9 [json_name = "deadlineUs"];
+	optional int64 deadline_scheduled_at_us = 10 [json_name = "deadlineScheduledAtUs"];
+	optional int64 now_us = 11 [json_name = "nowUs"];
+	optional int64 now_to_deadline_delta_us = 12 [json_name = "nowToDeadlineDeltaUs"];
+	optional int64 now_to_deadline_scheduled_at_delta_us = 13 [json_name = "nowToDeadlineScheduledAtDeltaUs"];
+	optional .perfetto.protos.BeginImplFrameArgs begin_impl_frame_args = 14 [json_name = "beginImplFrameArgs"];
+	optional .perfetto.protos.BeginFrameObserverState begin_frame_observer_state = 15 [json_name = "beginFrameObserverState"];
+	optional .perfetto.protos.BeginFrameSourceState begin_frame_source_state = 16 [json_name = "beginFrameSourceState"];
+	optional .perfetto.protos.CompositorTimingHistory compositor_timing_history = 17 [json_name = "compositorTimingHistory"];
+}
+
+message ChromeCompositorStateMachine {
+	message MajorState {
+		enum BeginImplFrameState {
+			BEGIN_IMPL_FRAME_UNSPECIFIED = 0;
+			BEGIN_IMPL_FRAME_IDLE = 1;
+			BEGIN_IMPL_FRAME_INSIDE_BEGIN_FRAME = 2;
+			BEGIN_IMPL_FRAME_INSIDE_DEADLINE = 3;
+		}
+
+		enum BeginMainFrameState {
+			BEGIN_MAIN_FRAME_UNSPECIFIED = 0;
+			BEGIN_MAIN_FRAME_IDLE = 1;
+			BEGIN_MAIN_FRAME_SENT = 2;
+			BEGIN_MAIN_FRAME_READY_TO_COMMIT = 3;
+		}
+
+		enum LayerTreeFrameSinkState {
+			LAYER_TREE_FRAME_UNSPECIFIED = 0;
+			LAYER_TREE_FRAME_NONE = 1;
+			LAYER_TREE_FRAME_ACTIVE = 2;
+			LAYER_TREE_FRAME_CREATING = 3;
+			LAYER_TREE_FRAME_WAITING_FOR_FIRST_COMMIT = 4;
+			LAYER_TREE_FRAME_WAITING_FOR_FIRST_ACTIVATION = 5;
+		}
+
+		enum ForcedRedrawOnTimeoutState {
+			FORCED_REDRAW_UNSPECIFIED = 0;
+			FORCED_REDRAW_IDLE = 1;
+			FORCED_REDRAW_WAITING_FOR_COMMIT = 2;
+			FORCED_REDRAW_WAITING_FOR_ACTIVATION = 3;
+			FORCED_REDRAW_WAITING_FOR_DRAW = 4;
+		}
+
+		optional .perfetto.protos.ChromeCompositorSchedulerAction next_action = 1 [default = CC_SCHEDULER_ACTION_UNSPECIFIED, json_name = "nextAction"];
+		optional .perfetto.protos.ChromeCompositorStateMachine.MajorState.BeginImplFrameState begin_impl_frame_state = 2 [default = BEGIN_IMPL_FRAME_UNSPECIFIED, json_name = "beginImplFrameState"];
+		optional .perfetto.protos.ChromeCompositorStateMachine.MajorState.BeginMainFrameState begin_main_frame_state = 3 [default = BEGIN_MAIN_FRAME_UNSPECIFIED, json_name = "beginMainFrameState"];
+		optional .perfetto.protos.ChromeCompositorStateMachine.MajorState.LayerTreeFrameSinkState layer_tree_frame_sink_state = 4 [default = LAYER_TREE_FRAME_UNSPECIFIED, json_name = "layerTreeFrameSinkState"];
+		optional .perfetto.protos.ChromeCompositorStateMachine.MajorState.ForcedRedrawOnTimeoutState forced_redraw_state = 5 [default = FORCED_REDRAW_UNSPECIFIED, json_name = "forcedRedrawState"];
+	}
+
+	message MinorState {
+		enum TreePriority {
+			TREE_PRIORITY_UNSPECIFIED = 0;
+			TREE_PRIORITY_SAME_PRIORITY_FOR_BOTH_TREES = 1;
+			TREE_PRIORITY_SMOOTHNESS_TAKES_PRIORITY = 2;
+			TREE_PRIORITY_NEW_CONTENT_TAKES_PRIORITY = 3;
+		}
+
+		enum ScrollHandlerState {
+			SCROLL_HANDLER_UNSPECIFIED = 0;
+			SCROLL_AFFECTS_SCROLL_HANDLER = 1;
+			SCROLL_DOES_NOT_AFFECT_SCROLL_HANDLER = 2;
+		}
+
+		optional int32 commit_count = 1 [json_name = "commitCount"];
+		optional int32 current_frame_number = 2 [json_name = "currentFrameNumber"];
+		optional int32 last_frame_number_submit_performed = 3 [json_name = "lastFrameNumberSubmitPerformed"];
+		optional int32 last_frame_number_draw_performed = 4 [json_name = "lastFrameNumberDrawPerformed"];
+		optional int32 last_frame_number_begin_main_frame_sent = 5 [json_name = "lastFrameNumberBeginMainFrameSent"];
+		optional bool did_draw = 6 [json_name = "didDraw"];
+		optional bool did_send_begin_main_frame_for_current_frame = 7 [json_name = "didSendBeginMainFrameForCurrentFrame"];
+		optional bool did_notify_begin_main_frame_not_expected_until = 8 [json_name = "didNotifyBeginMainFrameNotExpectedUntil"];
+		optional bool did_notify_begin_main_frame_not_expected_soon = 9 [json_name = "didNotifyBeginMainFrameNotExpectedSoon"];
+		optional bool wants_begin_main_frame_not_expected = 10 [json_name = "wantsBeginMainFrameNotExpected"];
+		optional bool did_commit_during_frame = 11 [json_name = "didCommitDuringFrame"];
+		optional bool did_invalidate_layer_tree_frame_sink = 12 [json_name = "didInvalidateLayerTreeFrameSink"];
+		optional bool did_perform_impl_side_invalidaion = 13 [json_name = "didPerformImplSideInvalidaion"];
+		optional bool did_prepare_tiles = 14 [json_name = "didPrepareTiles"];
+		optional int32 consecutive_checkerboard_animations = 15 [json_name = "consecutiveCheckerboardAnimations"];
+		optional int32 pending_submit_frames = 16 [json_name = "pendingSubmitFrames"];
+		optional int32 submit_frames_with_current_layer_tree_frame_sink = 17 [json_name = "submitFramesWithCurrentLayerTreeFrameSink"];
+		optional bool needs_redraw = 18 [json_name = "needsRedraw"];
+		optional bool needs_prepare_tiles = 19 [json_name = "needsPrepareTiles"];
+		optional bool needs_begin_main_frame = 20 [json_name = "needsBeginMainFrame"];
+		optional bool needs_one_begin_impl_frame = 21 [json_name = "needsOneBeginImplFrame"];
+		optional bool visible = 22 [json_name = "visible"];
+		optional bool begin_frame_source_paused = 23 [json_name = "beginFrameSourcePaused"];
+		optional bool can_draw = 24 [json_name = "canDraw"];
+		optional bool resourceless_draw = 25 [json_name = "resourcelessDraw"];
+		optional bool has_pending_tree = 26 [json_name = "hasPendingTree"];
+		optional bool pending_tree_is_ready_for_activation = 27 [json_name = "pendingTreeIsReadyForActivation"];
+		optional bool active_tree_needs_first_draw = 28 [json_name = "activeTreeNeedsFirstDraw"];
+		optional bool active_tree_is_ready_to_draw = 29 [json_name = "activeTreeIsReadyToDraw"];
+		optional bool did_create_and_initialize_first_layer_tree_frame_sink = 30 [json_name = "didCreateAndInitializeFirstLayerTreeFrameSink"];
+		optional .perfetto.protos.ChromeCompositorStateMachine.MinorState.TreePriority tree_priority = 31 [default = TREE_PRIORITY_UNSPECIFIED, json_name = "treePriority"];
+		optional .perfetto.protos.ChromeCompositorStateMachine.MinorState.ScrollHandlerState scroll_handler_state = 32 [default = SCROLL_HANDLER_UNSPECIFIED, json_name = "scrollHandlerState"];
+		optional bool critical_begin_main_frame_to_activate_is_fast = 33 [json_name = "criticalBeginMainFrameToActivateIsFast"];
+		optional bool main_thread_missed_last_deadline = 34 [json_name = "mainThreadMissedLastDeadline"];
+		optional bool video_needs_begin_frames = 36 [json_name = "videoNeedsBeginFrames"];
+		optional bool defer_begin_main_frame = 37 [json_name = "deferBeginMainFrame"];
+		optional bool last_commit_had_no_updates = 38 [json_name = "lastCommitHadNoUpdates"];
+		optional bool did_draw_in_last_frame = 39 [json_name = "didDrawInLastFrame"];
+		optional bool did_submit_in_last_frame = 40 [json_name = "didSubmitInLastFrame"];
+		optional bool needs_impl_side_invalidation = 41 [json_name = "needsImplSideInvalidation"];
+		optional bool current_pending_tree_is_impl_side = 42 [json_name = "currentPendingTreeIsImplSide"];
+		optional bool previous_pending_tree_was_impl_side = 43 [json_name = "previousPendingTreeWasImplSide"];
+		optional bool processing_animation_worklets_for_active_tree = 44 [json_name = "processingAnimationWorkletsForActiveTree"];
+		optional bool processing_animation_worklets_for_pending_tree = 45 [json_name = "processingAnimationWorkletsForPendingTree"];
+		optional bool processing_paint_worklets_for_pending_tree = 46 [json_name = "processingPaintWorkletsForPendingTree"];
+	}
+
+	optional .perfetto.protos.ChromeCompositorStateMachine.MajorState major_state = 1 [json_name = "majorState"];
+	optional .perfetto.protos.ChromeCompositorStateMachine.MinorState minor_state = 2 [json_name = "minorState"];
+}
+
+message BeginFrameArgs {
+	enum BeginFrameArgsType {
+		BEGIN_FRAME_ARGS_TYPE_UNSPECIFIED = 0;
+		BEGIN_FRAME_ARGS_TYPE_INVALID = 1;
+		BEGIN_FRAME_ARGS_TYPE_NORMAL = 2;
+		BEGIN_FRAME_ARGS_TYPE_MISSED = 3;
+	}
+
+	optional .perfetto.protos.BeginFrameArgs.BeginFrameArgsType type = 1 [default = BEGIN_FRAME_ARGS_TYPE_UNSPECIFIED, json_name = "type"];
+	optional uint64 source_id = 2 [json_name = "sourceId"];
+	optional uint64 sequence_number = 3 [json_name = "sequenceNumber"];
+	optional int64 frame_time_us = 4 [json_name = "frameTimeUs"];
+	optional int64 deadline_us = 5 [json_name = "deadlineUs"];
+	optional int64 interval_delta_us = 6 [json_name = "intervalDeltaUs"];
+	optional bool on_critical_path = 7 [json_name = "onCriticalPath"];
+	optional bool animate_only = 8 [json_name = "animateOnly"];
+	optional int64 frames_throttled_since_last = 12 [json_name = "framesThrottledSinceLast"];
+
+	oneof created_from {
+		uint64 source_location_iid = 9 [json_name = "sourceLocationIid"];
+		.perfetto.protos.SourceLocation source_location = 10 [json_name = "sourceLocation"];
+	}
+}
+
+message BeginImplFrameArgs {
+	message TimestampsInUs {
+		optional int64 interval_delta = 1 [json_name = "intervalDelta"];
+		optional int64 now_to_deadline_delta = 2 [json_name = "nowToDeadlineDelta"];
+		optional int64 frame_time_to_now_delta = 3 [json_name = "frameTimeToNowDelta"];
+		optional int64 frame_time_to_deadline_delta = 4 [json_name = "frameTimeToDeadlineDelta"];
+		optional int64 now = 5 [json_name = "now"];
+		optional int64 frame_time = 6 [json_name = "frameTime"];
+		optional int64 deadline = 7 [json_name = "deadline"];
+	}
+
+	enum State {
+		BEGIN_FRAME_FINISHED = 0;
+		BEGIN_FRAME_USING = 1;
+	}
+
+	optional int64 updated_at_us = 1 [json_name = "updatedAtUs"];
+	optional int64 finished_at_us = 2 [json_name = "finishedAtUs"];
+	optional .perfetto.protos.BeginImplFrameArgs.State state = 3 [default = BEGIN_FRAME_FINISHED, json_name = "state"];
+	optional .perfetto.protos.BeginImplFrameArgs.TimestampsInUs timestamps_in_us = 6 [json_name = "timestampsInUs"];
+
+	oneof args {
+		.perfetto.protos.BeginFrameArgs current_args = 4 [json_name = "currentArgs"];
+		.perfetto.protos.BeginFrameArgs last_args = 5 [json_name = "lastArgs"];
+	}
+}
+
+message BeginFrameObserverState {
+	optional int64 dropped_begin_frame_args = 1 [json_name = "droppedBeginFrameArgs"];
+	optional .perfetto.protos.BeginFrameArgs last_begin_frame_args = 2 [json_name = "lastBeginFrameArgs"];
+}
+
+message BeginFrameSourceState {
+	optional uint32 source_id = 1 [json_name = "sourceId"];
+	optional bool paused = 2 [json_name = "paused"];
+	optional uint32 num_observers = 3 [json_name = "numObservers"];
+	optional .perfetto.protos.BeginFrameArgs last_begin_frame_args = 4 [json_name = "lastBeginFrameArgs"];
+}
+
+message CompositorTimingHistory {
+	optional int64 begin_main_frame_queue_critical_estimate_delta_us = 1 [json_name = "beginMainFrameQueueCriticalEstimateDeltaUs"];
+	optional int64 begin_main_frame_queue_not_critical_estimate_delta_us = 2 [json_name = "beginMainFrameQueueNotCriticalEstimateDeltaUs"];
+	optional int64 begin_main_frame_start_to_ready_to_commit_estimate_delta_us = 3 [json_name = "beginMainFrameStartToReadyToCommitEstimateDeltaUs"];
+	optional int64 commit_to_ready_to_activate_estimate_delta_us = 4 [json_name = "commitToReadyToActivateEstimateDeltaUs"];
+	optional int64 prepare_tiles_estimate_delta_us = 5 [json_name = "prepareTilesEstimateDeltaUs"];
+	optional int64 activate_estimate_delta_us = 6 [json_name = "activateEstimateDeltaUs"];
+	optional int64 draw_estimate_delta_us = 7 [json_name = "drawEstimateDeltaUs"];
+}

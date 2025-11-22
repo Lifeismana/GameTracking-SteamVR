@@ -1,0 +1,56 @@
+package perfetto.protos;
+
+message DebugAnnotation {
+	message NestedValue {
+		enum NestedType {
+			UNSPECIFIED = 0;
+			DICT = 1;
+			ARRAY = 2;
+		}
+
+		optional .perfetto.protos.DebugAnnotation.NestedValue.NestedType nested_type = 1 [default = UNSPECIFIED, json_name = "nestedType"];
+		repeated string dict_keys = 2 [json_name = "dictKeys"];
+		repeated .perfetto.protos.DebugAnnotation.NestedValue dict_values = 3 [json_name = "dictValues"];
+		repeated .perfetto.protos.DebugAnnotation.NestedValue array_values = 4 [json_name = "arrayValues"];
+		optional int64 int_value = 5 [json_name = "intValue"];
+		optional double double_value = 6 [json_name = "doubleValue"];
+		optional bool bool_value = 7 [json_name = "boolValue"];
+		optional string string_value = 8 [json_name = "stringValue"];
+	}
+
+	optional bytes proto_value = 14 [json_name = "protoValue"];
+	repeated .perfetto.protos.DebugAnnotation dict_entries = 11 [json_name = "dictEntries"];
+	repeated .perfetto.protos.DebugAnnotation array_values = 12 [json_name = "arrayValues"];
+
+	oneof name_field {
+		uint64 name_iid = 1 [json_name = "nameIid"];
+		string name = 10 [json_name = "name"];
+	}
+
+	oneof value {
+		bool bool_value = 2 [json_name = "boolValue"];
+		uint64 uint_value = 3 [json_name = "uintValue"];
+		int64 int_value = 4 [json_name = "intValue"];
+		double double_value = 5 [json_name = "doubleValue"];
+		uint64 pointer_value = 7 [json_name = "pointerValue"];
+		.perfetto.protos.DebugAnnotation.NestedValue nested_value = 8 [json_name = "nestedValue"];
+		string legacy_json_value = 9 [json_name = "legacyJsonValue"];
+		string string_value = 6 [json_name = "stringValue"];
+		uint64 string_value_iid = 17 [json_name = "stringValueIid"];
+	}
+
+	oneof proto_type_descriptor {
+		string proto_type_name = 16 [json_name = "protoTypeName"];
+		uint64 proto_type_name_iid = 13 [json_name = "protoTypeNameIid"];
+	}
+}
+
+message DebugAnnotationName {
+	optional uint64 iid = 1 [json_name = "iid"];
+	optional string name = 2 [json_name = "name"];
+}
+
+message DebugAnnotationValueTypeName {
+	optional uint64 iid = 1 [json_name = "iid"];
+	optional string name = 2 [json_name = "name"];
+}

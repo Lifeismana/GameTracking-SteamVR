@@ -1,0 +1,5 @@
+package perfetto.protos;
+
+message PixelModemEventInsight {
+	optional string detokenized_message = 1 [json_name = "detokenizedMessage"];
+}

@@ -1,0 +1,6 @@
+package perfetto.protos;
+
+message ChromeMessagePump {
+	optional bool sent_messages_in_queue = 1 [json_name = "sentMessagesInQueue"];
+	optional uint64 io_handler_location_iid = 2 [json_name = "ioHandlerLocationIid"];
+}

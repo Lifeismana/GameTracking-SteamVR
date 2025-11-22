@@ -1,0 +1,7 @@
+package perfetto.protos;
+
+message ChromeWindowHandleEventInfo {
+	optional uint32 dpi = 1 [json_name = "dpi"];
+	optional uint32 message_id = 2 [json_name = "messageId"];
+	optional fixed64 hwnd_ptr = 3 [json_name = "hwndPtr"];
+}

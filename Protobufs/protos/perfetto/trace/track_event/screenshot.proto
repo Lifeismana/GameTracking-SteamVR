@@ -1,0 +1,5 @@
+package perfetto.protos;
+
+message Screenshot {
+	optional bytes jpg_image = 1 [json_name = "jpgImage"];
+}

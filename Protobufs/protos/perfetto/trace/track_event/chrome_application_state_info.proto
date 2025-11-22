@@ -1,0 +1,13 @@
+package perfetto.protos;
+
+message ChromeApplicationStateInfo {
+	enum ChromeApplicationState {
+		APPLICATION_STATE_UNKNOWN = 0;
+		APPLICATION_STATE_HAS_RUNNING_ACTIVITIES = 1;
+		APPLICATION_STATE_HAS_PAUSED_ACTIVITIES = 2;
+		APPLICATION_STATE_HAS_STOPPED_ACTIVITIES = 3;
+		APPLICATION_STATE_HAS_DESTROYED_ACTIVITIES = 4;
+	}
+
+	optional .perfetto.protos.ChromeApplicationStateInfo.ChromeApplicationState application_state = 1 [default = APPLICATION_STATE_UNKNOWN, json_name = "applicationState"];
+}

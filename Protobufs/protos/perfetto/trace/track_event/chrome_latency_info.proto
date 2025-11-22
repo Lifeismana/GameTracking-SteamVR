@@ -1,0 +1,49 @@
+package perfetto.protos;
+
+message ChromeLatencyInfo {
+	message ComponentInfo {
+		optional .perfetto.protos.ChromeLatencyInfo.LatencyComponentType component_type = 1 [default = COMPONENT_UNSPECIFIED, json_name = "componentType"];
+		optional uint64 time_us = 2 [json_name = "timeUs"];
+	}
+
+	enum Step {
+		STEP_UNSPECIFIED = 0;
+		STEP_SEND_INPUT_EVENT_UI = 3;
+		STEP_HANDLE_INPUT_EVENT_IMPL = 5;
+		STEP_DID_HANDLE_INPUT_AND_OVERSCROLL = 8;
+		STEP_HANDLE_INPUT_EVENT_MAIN = 4;
+		STEP_MAIN_THREAD_SCROLL_UPDATE = 2;
+		STEP_HANDLE_INPUT_EVENT_MAIN_COMMIT = 1;
+		STEP_HANDLED_INPUT_EVENT_MAIN_OR_IMPL = 9;
+		STEP_HANDLED_INPUT_EVENT_IMPL = 10;
+		STEP_SWAP_BUFFERS = 6;
+		STEP_DRAW_AND_SWAP = 7;
+		STEP_FINISHED_SWAP_BUFFERS = 11;
+	}
+
+	enum LatencyComponentType {
+		COMPONENT_UNSPECIFIED = 0;
+		COMPONENT_INPUT_EVENT_LATENCY_BEGIN_RWH = 1;
+		COMPONENT_INPUT_EVENT_LATENCY_SCROLL_UPDATE_ORIGINAL = 2;
+		COMPONENT_INPUT_EVENT_LATENCY_FIRST_SCROLL_UPDATE_ORIGINAL = 3;
+		COMPONENT_INPUT_EVENT_LATENCY_ORIGINAL = 4;
+		COMPONENT_INPUT_EVENT_LATENCY_UI = 5;
+		COMPONENT_INPUT_EVENT_LATENCY_RENDERER_MAIN = 6;
+		COMPONENT_INPUT_EVENT_LATENCY_RENDERING_SCHEDULED_MAIN = 7;
+		COMPONENT_INPUT_EVENT_LATENCY_RENDERING_SCHEDULED_IMPL = 8;
+		COMPONENT_INPUT_EVENT_LATENCY_SCROLL_UPDATE_LAST_EVENT = 9;
+		COMPONENT_INPUT_EVENT_LATENCY_ACK_RWH = 10;
+		COMPONENT_INPUT_EVENT_LATENCY_RENDERER_SWAP = 11;
+		COMPONENT_DISPLAY_COMPOSITOR_RECEIVED_FRAME = 12;
+		COMPONENT_INPUT_EVENT_GPU_SWAP_BUFFER = 13;
+		COMPONENT_INPUT_EVENT_LATENCY_FRAME_SWAP = 14;
+	}
+
+	optional int64 trace_id = 1 [json_name = "traceId"];
+	optional .perfetto.protos.ChromeLatencyInfo.Step step = 2 [default = STEP_UNSPECIFIED, json_name = "step"];
+	optional int32 frame_tree_node_id = 3 [json_name = "frameTreeNodeId"];
+	repeated .perfetto.protos.ChromeLatencyInfo.ComponentInfo component_info = 4 [json_name = "componentInfo"];
+	optional bool is_coalesced = 5 [json_name = "isCoalesced"];
+	optional int64 gesture_scroll_id = 6 [json_name = "gestureScrollId"];
+	optional int64 touch_id = 7 [json_name = "touchId"];
+}
