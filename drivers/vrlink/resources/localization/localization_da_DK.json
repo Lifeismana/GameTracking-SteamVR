@@ -19,6 +19,7 @@
 	"Setting_WirelessShutdownTimeout": "Afslut SteamVR efter afbrydelse",
 	"Setting_AllowVolumeControlSync": "Styring af headsetlydstyrke og dæmpning fra SteamVR",
 	"Setting_DisableQoS": "Slå QoS fra",
+	"Setting_EnableQoS": "Slå QoS til",
 	"svl_hand_interaction_augmented": "Controller med håndsporing",
 	"/input/index_pinch": "Klem med pegefinger",
 	"/input/middle_pinch": "Klem med langfinger",

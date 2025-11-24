@@ -19,6 +19,7 @@
 	"Setting_WirelessShutdownTimeout": "SteamVR afsluiten na het verbreken van de verbinding",
 	"Setting_AllowVolumeControlSync": "Volume en dempen van de headset regelen via SteamVR",
 	"Setting_DisableQoS": "QoS uitschakelen",
+	"Setting_EnableQoS": "QoS inschakelen",
 	"svl_hand_interaction_augmented": "Controller met handvolging",
 	"/input/index_pinch": "Knijpen met wijsvinger",
 	"/input/middle_pinch": "Knijpen met middelvinger",

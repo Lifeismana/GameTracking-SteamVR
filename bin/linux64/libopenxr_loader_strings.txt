@@ -6023,7 +6023,6 @@ xrGetSystemProperties.cold
 xrGetViewConfigurationProperties
 xrGetViewConfigurationProperties.cold
 xrInitializeLoaderKHR
-xrInitializeLoaderKHR(XrLoaderInitInfoBaseHeaderKHR const*)
 xrLocateSpace
 xrLocateSpace.cold
 xrLocateSpaces

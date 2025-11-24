@@ -19,6 +19,7 @@
 	"Setting_WirelessShutdownTimeout": "Bağlantı kesilince SteamVR'dan çık",
 	"Setting_AllowVolumeControlSync": "Başlık sesini ve susturmayı SteamVR'dan kontrol et",
 	"Setting_DisableQoS": "QoS'i devre dışı bırak",
+	"Setting_EnableQoS": "QoS'i etkinleştir",
 	"svl_hand_interaction_augmented": "El İzleme Kontrolcüsü",
 	"/input/index_pinch": "Parmak Birleşimi (Baş ve İşaret)",
 	"/input/middle_pinch": "Parmak Birleşimi (Baş ve Orta)",

@@ -35,7 +35,6 @@
 		"OSCOutPort": 9000,
 		"shareEyeTrackingData": false,
         "allowVolumeSync" : true,
-		"disableQoS" : false,
 		"asyncStartEncode" : true,
         "enableHandTracking" : true
     }

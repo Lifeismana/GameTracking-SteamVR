@@ -259,7 +259,7 @@
 ??_7ctype_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?MAX10
+?Unknown
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@GG@Z
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
 ?_BADOFF@std@@3_JB
@@ -527,6 +527,7 @@ Log Erase
 Looking for %u bootloaders\n
 Looking for serial number 
 M8MF
+MAX10
 MGiI
 MIPI Init
 MIPI Init Error
@@ -565,7 +566,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS}
+RSDS
 Radio version:      
 RaiseException
 ReadFile
@@ -647,7 +648,6 @@ Unable to read image %s\n
 Unable to read version from watchman device vid %04X pid %04X serial %s. Skipping\n
 Unable to write size of config\n
 UnhandledExceptionFilter
-Unknown
 Unknown exception
 Update completed but device reconnected in the wrong mode
 Updating device: 
@@ -767,7 +767,7 @@ bad cast
 bad conversion
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\lighthouse_watchman_update\Retail\win32\2017\lighthouse_watchman_update.pdb
+c:\buildslave\steamvr_rel_win32\build\src\lighthouse_watchman_update\Retail\win32\2017\lighthouse_watchman_update.pdb
 calloc
 dQy/
 data error

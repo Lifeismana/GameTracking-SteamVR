@@ -124,6 +124,10 @@
 	"Advanced_RecordTrackingData": "Record Tracking Data",
 	"Advanced_TrackingRecordingStart": "Start",
 	"Advanced_TrackingRecordingStop": "Stop",
+	"Advanced_TrackingRecording_AllowCameraRecording": "Allow Camera Recording",
+	"Advanced_TrackingRecording_AllowScreenRecording": "Allow Screen Recording",
+	"Advanced_TrackingRecording_AllowAudioRecording": "Allow Audio Recording",
+	"Advanced_ShowDebugCameraViews": "Show Debug Camera Views",
 	"Advanced_ArcadeMode": "Arcade Mode",
 	"Advanced_FrameTiming": "Frame Timing",
 	"Settings_EnableWebHelperDebuggerDesc": "Enables debugging server for attaching Chromium dev tools and debugger to embedded Chromium pages. It's always enabled on Perforce builds.",
@@ -246,6 +250,9 @@
 	"Settings_Advanced_MotionSmoothing_Disabled": "Motion smoothing not supported on this GPU / driver version (requires asynchronous reprojection support).",
 	"Settings_Advanced_MotionSmoothing_Disabled_Win7": "Motion Smoothing is not supported on older versions of Windows.",
 
+	"Settings_Advanced_FoveatedSharpening_Header": "Foveated Sharpening",
+	"Settings_Advanced_FoveatedSharpening_Description": "Sharpens the view of the running application where you are looking.",
+
 	"Settings_Advanced_Supersampling_Auto": "Auto",
 	"Settings_Advanced_Supersampling_Custom": "Custom",
 	"Settings_Advanced_Supersampling_Header": "Render Resolution",
@@ -265,13 +272,20 @@
 	"Settings_PerApplication_DashboardSuffix": "(Overlay Application)",
 	"Settings_PerApplication_CustomSuffix": "(Custom)",
 	"Settings_PerApplication_MotionSmoothing_Header": "Motion Smoothing",
-	"Settings_PerApplication_MotionSmoothing_Description": "Use the checkbox below to override the global setting for Motion Smoothing for this application. (Global setting for Motion Smoothing is <font color=#eeeeee>%1</font>)",
+	"Settings_PerApplication_MotionSmoothing_Description": "Use the dropdown below to override the global setting for Motion Smoothing for this application. (Global setting for Motion Smoothing is <font color=#eeeeee>%1</font>)",
 	"Settings_PerApplication_MotionSmoothing_Global": "Use global setting",
 	"Settings_PerApplication_MotionSmoothing_On": "Enabled",
 	"Settings_PerApplication_MotionSmoothing_Off": "Disabled",
 	"Settings_PerApplication_MotionSmoothing_AlwaysOn": "Force Always-On",
 	"Settings_PerApplication_MotionSmoothing_AlwaysOn_Desc": "Warning: Application will run at half framerate",
 	"Settings_PerApplication_MotionSmoothing_Checkbox": "Enable motion smoothing for this application",
+
+	"Settings_PerApplication_FoveatedSharpening_Header": "Foveated Sharpening",
+	"Settings_PerApplication_FoveatedSharpening_Description": "Use the dropdown below to override the global setting for Foveated Sharpening for this application. (Global setting for Foveated Sharpening is <font color=#eeeeee>%1</font>)",
+	"Settings_PerApplication_FoveatedSharpening_Global": "Use global setting",
+	"Settings_PerApplication_FoveatedSharpening_On": "Force on",
+	"Settings_PerApplication_FoveatedSharpening_Off": "Force off",
+
 	"Settings_PerApplication_Reprojection_Header": "Reprojection",
 	"Settings_PerApplication_Reprojection_Checkbox": "Use Legacy Reprojection Mode",
 	"Settings_PerApplication_Reprojection_Description": "Checking this option will disable asynchronous reprojection for this title.",
@@ -506,6 +520,7 @@
 
 	"Settings_VersionInfo_SteamVRVersion": "SteamVR Version",
 	"Settings_VersionInfo_WebpackBuildTime": "SteamVR Web Build Date",
+	"Settings_VersionInfo_SteamVRHmdTrackingInfo": "SteamVR HMD Tracking Info",
 
 	"OpenXR_AnotherSteamVR": "Another copy of SteamVR",
 	"OpenXR_SteamVR": "SteamVR",

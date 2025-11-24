@@ -19,6 +19,7 @@
 	"Setting_WirelessShutdownTimeout": "Bei Verbindungsabbruch SteamVR beenden",
 	"Setting_AllowVolumeControlSync": "VR-Headset-Lautstärke und Stummschalten mit SteamVR steuern",
 	"Setting_DisableQoS": "QoS deaktivieren",
+	"Setting_EnableQoS": "QoS aktivieren",
 	"svl_hand_interaction_augmented": "Hand-Tracking-Controller",
 	"/input/index_pinch": "Kneifen: Daumen- und Zeigefinger",
 	"/input/middle_pinch": "Kneifen: Daumen und Mittelfinger",

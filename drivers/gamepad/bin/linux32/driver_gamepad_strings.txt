@@ -1720,7 +1720,7 @@ getenv
 getpid
 getppid
 getpriority
-getrlimit
+getrlimit64
 gettext
 gettimeofday
 getwc
@@ -1905,7 +1905,7 @@ read_encoded_value_with_base
 read_encoded_value_with_base(unsigned char, unsigned int, unsigned char const*, unsigned int*)
 read_encoded_value_with_base(unsigned char, unsigned int, unsigned char const*, unsigned int*) (.cold)
 read_encoded_value_with_base.cold
-readdir
+readdir64
 realloc
 reference temporary #
 reinterpret_cast
@@ -1927,7 +1927,7 @@ semop
 setenv
 setlocale
 setpriority
-setrlimit
+setrlimit64
 setvbuf
 short
 sigaction

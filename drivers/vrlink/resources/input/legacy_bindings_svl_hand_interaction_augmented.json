@@ -323,7 +323,7 @@
 	"options": {
 		"mirror_actions": false,
 		"simulate_hmd": true,
-		"simulate_rendermodel": true,
+		"simulate_rendermodel": "full",
 		"simulated_controller_type": "oculus_touch"
 	},
 	"simulated_actions": []

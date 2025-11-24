@@ -481,6 +481,12 @@
   "BindingUI_ErrorLoadingBindingTitle": "Binding file failed to load",
   "BindingUI_WorkshopBindingLoadFailed": "Failed to load workshop bindings",
 
+  "BindingUI_ConfirmSaveWithUnbound_Title": "Required actions are unbound",
+  "BindingUI_ConfirmSaveWithUnbound_Description": "The developer of this application has marked specific actions as required. You are currently missing bindings for some of these actions. This application may not work without these bindings.",
+  "BindingUI_ConfirmSaveWithUnbound_ListUnbound": "Actions missing bindings:",
+  "BindingUI_ConfirmSaveWithUnbound_AreYouSure": "Are you sure you want to continue saving?",
+  "BindingUI_ConfirmSaveWithUnbound_ConfirmButton": "Yes",
+
   "input_binding_load_failed": "Failed to load input bindings for %1$s. Please select another binding option.",
   "input_binding_load_failed_no_url": "%2$s binding for %1$s was not set. Please select a binding option from the list or create a new one.",
   "input_binding_load_below_minimum_version": "%2$s binding for %1$s was from older version of %1$s. Your bindings have been set back to the default.",

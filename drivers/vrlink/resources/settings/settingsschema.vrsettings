@@ -126,9 +126,9 @@
                 "advanced_only": true
             },
             {
-                "name": "/settings/driver_vrlink/disableQoS",
+                "name": "/settings/driver_vrlink/enableQoS",
                 "control": "toggle",
-                "label": "#{vrlink}Setting_DisableQoS",
+                "label": "#{vrlink}Setting_EnableQoS",
                 "advanced_only": true
             },
             {
@@ -136,6 +136,10 @@
                 "control": "label",
                 "label": "#{vrlink}Setting_clientVersion",
                 "advanced_only": false
+            },
+            {
+                "name": "/settings/driver_vrlink/*",
+                "type": "wildcard"
             }
         ]
     }

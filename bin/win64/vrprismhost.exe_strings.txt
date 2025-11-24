@@ -19,20 +19,20 @@
 ../../screenshots
 .00cfg
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_0f6303ecc7136d050eeb4d9528f10b2c>@@
 .?AV<lambda_1a5b1a927b03a96daaa523192e1096fb>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
-.?AV<lambda_da04ffe45169aef5731a304f055ad461>@@
 .?AV?$_Binder@U_Unforced@std@@AEAP8CPrismHost@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6AXW4ELogLevel@@PEBDPEAX@ZXW41@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0f6303ecc7136d050eeb4d9528f10b2c>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1a5b1a927b03a96daaa523192e1096fb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_da04ffe45169aef5731a304f055ad461>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@AEAP8CPrismHost@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
@@ -49,7 +49,7 @@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCNonCopyable@@
 .?AVCPrismHost@@
-.?AVCPrismPoseProvider@?A0xbb7f8539@@
+.?AVCPrismPoseProvider@?A0x6c9f2405@@
 .?AVCVRMailbox@@
 .?AVCVRMailboxBase@@
 .?AVCharReader@Json@@
@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-17:48:08
+13:51:20
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -312,6 +312,7 @@ GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
 GetEnvironmentVariableA
+GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
 GetLastError
@@ -338,6 +339,7 @@ IVRApplications_007
 IVRBlockQueue_005
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
+IVRChaperoneServerDriver_XXX
 IVRChaperoneSetup_006
 IVRChaperone_004
 IVRClientInternal_XXX
@@ -413,7 +415,7 @@ NoDisplayFound
 NoValidDisplays
 NoValidMotionEstimators
 NotSupported
-Nov 10 2025
+Nov 21 2025
 OpenEventA
 OpenFileMappingA
 OpenMutexA
@@ -782,6 +784,7 @@ VR_PATHREG_OVERRIDE
 VR_ShutdownInternal
 VerSetConditionMask
 VerifyVersionInfoW
+VirtualQuery
 VulkanCreateInstanceFailed
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -805,7 +808,7 @@ Zjz\v
 [IPC] Failed creating auto reset event %s (GLE: %u)\n
 [IPC] Failed creating file mapping %s: %u\n
 [IPC] Failed creating mutex %s (GLE: %u)\n
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d); Error code: 0x%08x\n
+[IPC] Failed mapping view for %llu with 0x%08x for %s (%d/%d); Error code: 0x%08x\n
 [IPC] Failed to open event %s because access was denied\n
 [IPC] Failed to open file mapping %s because access was denied\n
 [IPC] Failed to open mutex %s because access was denied\n
@@ -821,6 +824,7 @@ Zjz\v
 [IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
+[IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -905,15 +909,16 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\Retail\win64\2017\vrprismhost.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\prismhost.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\vrprismhost.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\Retail\win64\2017\vrprismhost.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\prismhost.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\vrprismhost.cpp
 client
 collectComments
 command
@@ -981,6 +986,7 @@ koreana
 latam
 list<T> too long
 m_nMaxLogBufferingSize > 0
+m_pData
 m_ulHandle != vr::k_ulInvalidMailbox
 mailbox
 main
@@ -993,6 +999,7 @@ memset
 message_id
 modf
 motionSmoothing
+nExistingSize >= nSize
 nb_no
 nfinity
 nl_nl

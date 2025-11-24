@@ -1,3 +1,4 @@
+(79cw
 .00cfg
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
@@ -64,7 +65,6 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-4GuK
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPEBD@Z
 DisableThreadLibraryCalls
@@ -102,6 +102,7 @@ UnhandledExceptionFilter
 Unknown exception
 Using settings values\n
 VCRUNTIME140.dll
+\tkEJ
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -132,7 +133,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
+c:\buildslave\steamvr_rel_win64\build\src\drivers\null\Retail\win64\2017\driver_null.pdb
 displayFrequency
 driver_null
 driver_null.dll
