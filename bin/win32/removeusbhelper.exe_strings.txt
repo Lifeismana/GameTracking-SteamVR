@@ -267,7 +267,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSN
+RSDSP
 RaiseException
 RegCloseKey
 RegCreateKeyExW
@@ -348,7 +348,6 @@ WakeAllConditionVariable
 Warning
 Warning: Watchdog %s not properly cleaned up%s%s\n
 WideCharToMultiByte
-YUs 
 [Oxrtools] Aborting attempt to set SteamVR as the active runtime, it is already set.
 [Oxrtools] Unable to create the OpenXR available runtimes registry key %d
 [Oxrtools] Unable to disable key reflection for the OpenXR available runtime registry key %d

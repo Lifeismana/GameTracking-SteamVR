@@ -28,6 +28,7 @@
 !!! WARNING !!! Environment variable 
 ' is not a number.
 ' will NOT be used.
+(Q2i
 (unknown)
 , OpenXR version returned not compatible with this loader
 , failed to load with message "

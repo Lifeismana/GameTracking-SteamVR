@@ -934,7 +934,7 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
-13:51:20
+19:24:40
 1A26b
 1e+9999
 1wsHp
@@ -1583,6 +1583,7 @@ Dashboard Gaussian Blur V
 Dashboard View (Mirror Overlay)
 Dashboard tutorial requested\n
 Debug lines
+Dec  4 2025
 DefWindowProcW
 DeleteCriticalSection
 DeleteFileW
@@ -2474,7 +2475,6 @@ Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
 Not writing %s because the texture was null
 Notification mailbox init failed with %d\n
-Nov 21 2025
 NvAPI
 NvAPI DisplayModes:
 NvAPI: DirectModeCreateSurface trying again with older API!\n
@@ -2787,7 +2787,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS?j
+RSDS
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -4269,7 +4269,6 @@ Zjz\v
 [RenderThread] Layer render completing out of vsync
 [RenderThread] Skipped layer wait
 [Settings] %s %s unknown type\n
-[Settings] Load Default Json Settings from %s\n
 [Settings] Load Json Settings from %s\n
 [Settings] Parsing of json from "%s" failed: \n
 [Settings] Unable to load driver defaults from %s\n
@@ -4278,6 +4277,7 @@ Zjz\v
 [h1R
 [libprotobuf %s %s:%d] %s\n
 [no zlib message]
+\fpdz
 \gpuvis.exe
 \mfpmp.exe
 \nbad png sig
@@ -5241,6 +5241,7 @@ qsort
 quad
 quickMouseMode
 quick_reset_room_setup
+r\vPdz
 radius-range
 rand
 rawCaptureNumberOfFrames

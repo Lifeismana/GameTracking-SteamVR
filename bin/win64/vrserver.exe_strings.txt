@@ -1634,18 +1634,15 @@ $\n k_EProtoServiceTypeSteamMessages
 003@
 0123456789ABCDEF
 0123456789abcdef
-023@
+013@
 0B8@
-0c9@
-0h9@
-0w8@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-13:51:20
+19:24:40
 1A26b
 1\f514
 1e+9999
@@ -1656,6 +1653,7 @@ $\n k_EProtoServiceTypeSteamMessages
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
 4\f54d
+4v7@
 52F*
 5I)7
 5JCy7
@@ -1665,21 +1663,18 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
+813@
 821@
-823@
 8A8@
-8R8@
 8Y1@
-8Z9@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8j9@
-8l8@
-8x8@
-8y5@
+8l5@
+8l9@
+8q9@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -2321,7 +2316,7 @@ CWebThread::OnMongooseEvent
 CWebThread::OnMongooseTimer
 CWebThread::OnMsg_RegisterExternalWebRoot
 CWebThread::WriteStringToWebSocket
-Caching webfont %s.\n
+Caching webfonts.\n
 Camera
 Can't 
 Can't add a second HMD
@@ -2442,6 +2437,7 @@ Creating Builtin AppInfo for %s (%s). %s, %s, %d\n
 Creating playback mirror thread for device %s\n
 Creating webui for %s=%s
 CurrentURL
+D13@
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D7q/;M
@@ -2461,6 +2457,7 @@ DXT3
 DXT4
 DXT5
 DebuggerEnabled
+Dec  4 2025
 Default
 Default audio endpoint restored\n
 Default endpoint is correct. Skipping restore.\n
@@ -2514,7 +2511,6 @@ Duplicate action '
 Duplicate key: '
 Duplicate mailbox name %s. Make one of those unique.\n
 DuplicateHandle
-Dv7@
 EProtoExecutionSite
 EProtoServiceType
 ERROR
@@ -2568,7 +2564,7 @@ Exceeded path size
 Exceeded stackLimit in readValue().
 Exception %08x\n
 Excessive binding loads from %s: crc=%u lc=%u Reload=%s res=%d\n
-Exchange capabilities (ESteamVRMutualCapability) w/Steam Client
+Exchange capabilities (ESteamVRMutualCapability) w/Steam Client: %s
 Executable: %s\n
 Expect a decimal number.
 Expectation Failed
@@ -2836,9 +2832,9 @@ Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
 H09@
+H13@
 H19@
 H29@
-H34@
 H39@
 H49@
 H59@
@@ -2905,23 +2901,21 @@ HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
 HU9@
 HV9@
-HW9@
 HY8@
 Hang the server for the specified number of seconds (default 3600)
 HasField
 Hex and octal numbers must be integers.
+Hk9@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
-Hn9@
 HostController
 How did we get here with a non-position slot?
 Hq8@
-Hs9@
-Hz5@
-Hz8@
+Hv7@
+Hy5@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3204,6 +3198,7 @@ Item in "source" array is not an object
 Item in "source" array missing output parameter in input node
 Item in "source" array missing path or mode\n
 JFIF
+JR2i
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
@@ -3213,7 +3208,6 @@ KHR_lights_punctual
 Kernel32.dll
 Kill process %s because it didn't quit in time\n
 Kill process?
-L03@
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
@@ -3282,7 +3276,6 @@ Lost master process %u due to pipe corruption. Quitting all in %g seconds if it 
 Lost master process %u due to restart hint. Quitting all in %g seconds if it doesn't reconnect. \n
 Lost master process %u for an unknown reason. Quitting all immediately. \n
 Low Power Watchdog Not Supported (129)
-Lv7@
 LwH'
 M8MF
 MAT2
@@ -3414,7 +3407,6 @@ Not starting vrserver for background app (121)
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Notification_BasestationsTooFarApart
 Notification_Detected
-Nov 21 2025
 Numbers starting with leading zero must be in octal.
 NvAPI
 NvAPI DisplayModes:
@@ -3464,9 +3456,6 @@ OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
 P03@
-P13@
-P34@
-P88@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
@@ -3502,6 +3491,7 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
+PX8@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3518,17 +3508,14 @@ PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Ph7@
-Pk9@
 Pl5@
 Playback devices:\n
-Pm8@
+Po8@
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
 Positional emitter description not found.
 PowerOffTrackedDevice for %d - Could not find driver\n
 PowerOffTrackedDevice for %d\n
-Pr8@
 Precondition Failed
 Precondition Required
 PreviousURL
@@ -3764,7 +3751,7 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
-Py5@
+Pz5@
 QkkXa
 Qkkbal
 Query failed
@@ -3788,8 +3775,6 @@ R1h58
 RGBG
 RPCRT4.dll
 RSDS
-R\npp
-R\vpp
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4141,6 +4126,7 @@ Symbol name "
 Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
+T13@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -4234,7 +4220,6 @@ Tried to start binary process %s %s (working directory %s) as app %s but it fail
 Tried to start internal process %s %s (working directory %s) from app %s, pid %u but it failed\n
 True
 Ts\ne
-Tv7@
 Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
@@ -5219,19 +5204,19 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrote chaperone data to %s\n
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X13@
-X34@
+X03@
 XV1@
 XXXX PNG chunk not known
-Xm9@
+Xo9@
+Xr8@
 XsBI
-Xv9@
+Xv7@
+Xx5@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
 [AnimSkeleton] Failed to load GLTF file: %s
 [Console] 
-[Controller Setup] Adding controller type %s\n
 [Controller Setup] AssignActiveIndicatorForInput failed. Input %s specified %s as its input_activity_path, but that component doesn't exist\n
 [Controller Setup] CreateControllerTypeFromPath failed. Unable to load default input profile %s: %s
 [Controller Setup] CreateControllerTypeFromPathIfDriverPresent failed. Not creating controller type '%s' because driver '%s' isn't present.\n
@@ -5454,7 +5439,6 @@ Zjz\v
 [Remapping] Skipped remapping of chord with path::input: %s::%s\n
 [Remapping] Skipped remapping of path::mode: %s::%s\n
 [Settings] %s %s unknown type\n
-[Settings] Load Default Json Settings from %s\n
 [Settings] Load Json Settings from %s\n
 [Settings] No or invalid additional device settings at '%s'\n
 [Settings] Parsing of json from "%s" failed: \n
@@ -6128,7 +6112,6 @@ current_transforms
 current_transforms_without_controller
 current_user_persona_name
 czech
-d03@
 dQy/
 da_dk
 danish
@@ -6268,7 +6251,6 @@ end of input
 english
 entries
 enum
-enum:%d steamvr_support: %d mutual_support: %d
 enum_description
 enum_value_description
 environment
@@ -6421,6 +6403,7 @@ grip
 grip_limit_transforms
 group
 guid
+hK8@
 hPU3
 half_thresholds
 hand_interaction_ext
@@ -6438,6 +6421,7 @@ has_force
 has_ready_ext
 has_touch
 has_value
+hd9@
 header
 header crc mismatch
 height
@@ -6445,16 +6429,16 @@ held
 hex_property
 hidden
 hide_callout
-hl5@
+hk8@
 hlvr/mailbox
 hlvr/webui
 hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_settings_key
+hn9@
 holographic
 holographic_controller
 hpmotioncontroller
-hq9@
 html
 http:
 http://
@@ -6463,9 +6447,7 @@ https:
 https://
 hu_hu
 hungarian
-hv7@
-hy5@
-hy9@
+hw9@
 i91k
 i]Wb
 iauds
@@ -7023,6 +7005,7 @@ number literal
 number overflow parsing '
 nvapi_QueryInterface
 nvapi_pepQueryInterface
+oP'32@C
 object
 object key
 object separator
@@ -7069,17 +7052,14 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p03@
 p13@
 pBegin == pEnd
 pEnd > pBegin
-pL8@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
 pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
-pP8@
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
@@ -7111,7 +7091,6 @@ pico_controller
 pinch
 pinchgrab
 pivot
-pk8@
 pl_pl
 playAreaColor
 play_area
@@ -7122,7 +7101,6 @@ playbackMirrorDevice
 playbackMirrorDeviceName
 playback_devices
 playing
-pn9@
 polish
 portrait
 portuguese
@@ -7181,9 +7159,9 @@ publishedfileid
 pull
 punct
 putchar
-pv7@
+px5@
+py5@
 py_generic_services
-pz5@
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
 quarter_thresholds
@@ -7489,6 +7467,7 @@ systemreport_
 systemreport_*.html
 systemreport_template.html
 systemui_dashboard_private
+t03@
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -7749,13 +7728,15 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-xI8@
+x03@
+xH8@
 x_path
-xa9@
+xd8@
 xdigit
-xf9@
 xmag
-xv7@
+xn8@
+xz5@
+xz9@
 y9*O
 y_path
 yfov

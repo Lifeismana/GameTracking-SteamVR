@@ -7,6 +7,7 @@
 %s[%s] %s file=%s
 ' is not a number.
 , last executing in 
+,R2i
 -1e+9999
 -Infinity
 -duplication_gpu_check
@@ -132,7 +133,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-13:51:20
+19:24:40
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -232,6 +233,7 @@ DBT_DEVNODES_CHANGED: A device has been added to or removed from the system.\n
 DBT_QUERYCHANGECONFIG: Permission is requested to change the current configuration (dock or undock).\n
 DBT_USERDEFINED: The meaning of this message is user-defined.\n
 Dashboard Main
+Dec  4 2025
 DefWindowProcA
 DeleteCriticalSection
 DeleteFileW
@@ -360,7 +362,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 MoveFileExW
 NULL
-Nov 21 2025
 Out of thread local storage!\n
 OutputDebugStringA
 PeekMessageA
@@ -369,7 +370,7 @@ ProcessVREvents
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSD
+RSDS
 RaiseException
 ReadFile
 RealMain

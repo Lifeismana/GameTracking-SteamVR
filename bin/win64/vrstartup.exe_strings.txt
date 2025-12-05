@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-13:51:20
+19:24:40
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -220,6 +220,7 @@ CreateDirectoryW
 CreateEventW
 CreateFileW
 CreateProcessA
+Dec  4 2025
 DeleteCriticalSection
 DeleteFileW
 Detail
@@ -383,7 +384,6 @@ None
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
-Nov 21 2025
 On laptop, HMD detected over USB, but Monitor not found (213)
 OpenProcess
 Out of thread local storage!\n
@@ -391,7 +391,7 @@ OutputDebugStringA
 Platform handles tutorial / initial home app launch %s. Starting Event Polling...
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSS
+RSDS
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey

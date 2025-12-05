@@ -458,7 +458,6 @@ CreateTimerQueue
 CreateTimerQueueTimer
 CreateUmsCompletionList
 CreateUmsThreadContext
-D:hO
 DFailed to EnumPins.
 DecodePointer
 DeleteCriticalSection
@@ -614,7 +613,7 @@ QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-RSDS!\f
+RSDS
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject

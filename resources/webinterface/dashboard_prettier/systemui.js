@@ -1,4 +1,4 @@
-var CLSTAMP = "10258017";
+var CLSTAMP = "10288717";
 (() => {
   var e,
     t = {
@@ -3105,55 +3105,49 @@ var CLSTAMP = "10258017";
             );
           }),
           R = (0, l.PA)(function () {
-            try {
-              if (
-                !!!(null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.VRProperties.GetBoolProperty(
-                      "/user/head",
-                      s.fD.VRLinkClientHMDSupportsRoomSetupRequests_Bool,
-                    ))
-              )
-                return null;
-            } catch (e) {
-              return null;
-            }
-            return !d.H.m_bHmdOutOfBoundsStrict ||
-              d.H.m_bOkOutsideOfPlayspace ||
-              0 != d.H.roomSetupStep
-              ? null
-              : o.createElement(
-                  s.dL,
-                  { parent_path: "/user/head" },
-                  o.createElement(
-                    s.m$,
-                    {
-                      start_angle_threshold: 10,
-                      stop_angle_threshold: 5,
-                      ease_out_angle_threshold: 20,
-                      min_angular_velocity: 75,
-                      ease_in_power: 1.5,
-                      lock_to_horizon: !0,
-                    },
+            return !!(null === VRHTML || void 0 === VRHTML
+              ? void 0
+              : VRHTML.VRProperties.GetBoolProperty(
+                  "/user/head",
+                  s.fD.VRLinkClientHMDSupportsRoomSetupRequests_Bool,
+                ))
+              ? !d.H.m_bHmdOutOfBoundsStrict ||
+                d.H.m_bOkOutsideOfPlayspace ||
+                0 != d.H.roomSetupStep
+                ? null
+                : o.createElement(
+                    s.dL,
+                    { parent_path: "/user/head" },
                     o.createElement(
-                      s.dL,
-                      { translation: { x: 0, y: -0.75, z: -0.9 } },
+                      s.m$,
+                      {
+                        start_angle_threshold: 10,
+                        stop_angle_threshold: 5,
+                        ease_out_angle_threshold: 20,
+                        min_angular_velocity: 75,
+                        ease_in_power: 1.5,
+                        lock_to_horizon: !0,
+                      },
                       o.createElement(
-                        s.FN,
-                        null,
+                        s.dL,
+                        { translation: { x: 0, y: -0.75, z: -0.9 } },
                         o.createElement(
-                          s.Zk,
-                          {
-                            meters_per_pixel: 0.4 * c.iZ,
-                            interactive: !0,
-                            debug_name: "chaperone-popup",
-                          },
-                          o.createElement(E, null),
+                          s.FN,
+                          null,
+                          o.createElement(
+                            s.Zk,
+                            {
+                              meters_per_pixel: 0.4 * c.iZ,
+                              interactive: !0,
+                              debug_name: "chaperone-popup",
+                            },
+                            o.createElement(E, null),
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                );
+                  )
+              : null;
           }),
           M = (0, l.PA)(function () {
             if (0 == d.H.roomSetupStep) return null;
@@ -4522,7 +4516,7 @@ var CLSTAMP = "10258017";
                     s.OH[(0, s.R$)()],
                 );
               console.log("Bootstrapping " + e, i);
-              const a = 1e3 * (null !== (t = 1763761896) ? t : 0);
+              const a = 1e3 * (null !== (t = 1764905098) ? t : 0);
               console.log(
                 "SteamVR Version Info: " +
                   JSON.stringify({

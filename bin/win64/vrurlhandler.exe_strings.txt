@@ -401,7 +401,6 @@ WriteFile
 [IPC] The owner SID is invalid.\n
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 [Settings] %s %s unknown type\n
-[Settings] Load Default Json Settings from %s\n
 [Settings] Load Json Settings from %s\n
 [Settings] Parsing of json from "%s" failed: \n
 [Settings] Unable to load driver defaults from %s\n

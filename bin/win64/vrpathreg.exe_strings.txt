@@ -581,7 +581,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDS/
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -936,6 +936,7 @@ owner dead
 pContext
 pEvents
 pExecutionResource
+pR2i
 pScheduler
 pThreadProxy
 permission denied

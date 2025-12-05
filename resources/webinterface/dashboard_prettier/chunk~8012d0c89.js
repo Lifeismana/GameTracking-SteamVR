@@ -1,4 +1,4 @@
-var CLSTAMP = "10258017";
+var CLSTAMP = "10288717";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -4127,61 +4127,66 @@ var CLSTAMP = "10258017";
         (0, n.Cg)([i.o], H.prototype, "OnSetAsOpenXRRuntime", null),
         (H = (0, n.Cg)([o.PA], H));
       const P = (0, o.PA)(function () {
-        const [e, t] = l.useState(a.GQ.Medium),
-          [r, n] = l.useState(!1),
-          [i, s] = l.useState(""),
-          [o, u] = l.useState(!1),
-          d = l.useCallback((e) => {
-            s(e);
+        var e;
+        const [t, r] = l.useState(a.GQ.Medium),
+          [n, i] = l.useState(!1),
+          [s, o] = l.useState(""),
+          [u, d] = l.useState(!1),
+          m = l.useCallback((e) => {
+            o(e);
           }, []);
         l.useEffect(() => {
           const e =
             null === VRHTML || void 0 === VRHTML
               ? void 0
-              : VRHTML.RegisterForTrackingRecordingPathChangedEvent(d);
+              : VRHTML.RegisterForTrackingRecordingPathChangedEvent(m);
           return null == e ? void 0 : e.unregister;
-        }, [d]);
-        let m = [];
-        m.push({
+        }, [m]);
+        let h = [];
+        h.push({
           value: a.GQ.Small,
           sLabel: (0, p.we)("#Advanced_SmallSpace"),
         }),
-          m.push({
+          h.push({
             value: a.GQ.Medium,
             sLabel: (0, p.we)("#Advanced_MediumSpace"),
           }),
-          m.push({
+          h.push({
             value: a.GQ.Large,
             sLabel: (0, p.we)("#Advanced_LargeSpace"),
           }),
-          m.push({
+          h.push({
             value: a.GQ.Gigantic,
             sLabel: (0, p.we)("#Advanced_GiganticSpace"),
           }),
-          m.push({
+          h.push({
             value: a.GQ.Standing,
             sLabel: (0, p.we)("#Advanced_StandingSpace"),
           });
-        const h = (0, p.we)(
-          g()
+        const g = (0, p.we)(
+          b()
             ? "#Advanced_TrackingRecordingStop"
             : "#Advanced_TrackingRecordingStart",
         );
-        function g() {
+        function b() {
           return B.SW.m_bTrackingRecording;
         }
-        function b() {
-          g()
-            ? (VRHTML.VRSystem.StopTrackingRecording(), n(!0))
-            : (VRHTML.VRSystem.StartTrackingRecording(), n(!1));
+        function S() {
+          b()
+            ? (VRHTML.VRSystem.StopTrackingRecording(), i(!0))
+            : (VRHTML.VRSystem.StartTrackingRecording(), i(!1));
         }
-        const S =
-          null === VRHTML || void 0 === VRHTML
-            ? void 0
-            : VRHTML.VRProperties.GetBoolProperty(
-                "/user/head",
-                a.fD.SupportsInHMDRoomSetup_Bool,
-              );
+        const y =
+          null !==
+            (e =
+              null === VRHTML || void 0 === VRHTML
+                ? void 0
+                : VRHTML.VRProperties.GetBoolProperty(
+                    "/user/head",
+                    a.fD.SupportsInHMDRoomSetup_Bool,
+                  )) &&
+          void 0 !== e &&
+          e;
         return l.createElement(
           l.Fragment,
           null,
@@ -4211,18 +4216,18 @@ var CLSTAMP = "10258017";
               {
                 className: "ButtonControl",
                 onClick: () => {
-                  VRHTML.VRChaperoneSetup.QuickCalibratePlayspace(e);
+                  VRHTML.VRChaperoneSetup.QuickCalibratePlayspace(t);
                 },
               },
               (0, p.we)("#Advanced_QuickCalibrate"),
             ),
-            l.createElement(_.ms, { items: m, onChange: t, value: e }),
+            l.createElement(_.ms, { items: h, onChange: r, value: t }),
           ),
           VRHTML.VRSystem &&
             l.createElement(
               l.Fragment,
               null,
-              !S &&
+              !y &&
                 l.createElement(
                   "div",
                   { className: "SettingsItem" },
@@ -4233,11 +4238,11 @@ var CLSTAMP = "10258017";
                   ),
                   l.createElement(
                     c.$,
-                    { className: "ButtonControl", onClick: b },
-                    h,
+                    { className: "ButtonControl", onClick: S },
+                    g,
                   ),
                 ),
-              S &&
+              y &&
                 l.createElement(
                   v.YO,
                   { className: "SettingsItem", title: "title?" },
@@ -4251,8 +4256,8 @@ var CLSTAMP = "10258017";
                     { className: "SubsectionStem" },
                     l.createElement(
                       c.$,
-                      { className: "ButtonControl", onClick: b },
-                      h,
+                      { className: "ButtonControl", onClick: S },
+                      g,
                     ),
                   ),
                   l.createElement(
@@ -4279,23 +4284,23 @@ var CLSTAMP = "10258017";
                   ),
                 ),
             ),
-          S &&
+          y &&
             l.createElement(v.Al, {
               label: (0, p.we)("#Advanced_ShowDebugCameraViews"),
-              value: o,
+              value: u,
               onChange: function (e) {
-                u(e), VRHTML.VRSystem.SetDebugCameraViewEnabled(e);
+                d(e), VRHTML.VRSystem.SetDebugCameraViewEnabled(e);
               },
             }),
-          r &&
-            !g() &&
+          n &&
+            !b() &&
             l.createElement(
               v.bB,
               {
                 className: "TrackingSavedModalButton",
                 header: (0, p.we)("#Settings_Developer_TrackingDataHeader"),
                 onDismissRequested: function () {
-                  n(!1);
+                  i(!1);
                 },
               },
               l.createElement(
@@ -4305,7 +4310,7 @@ var CLSTAMP = "10258017";
                 " ",
                 l.createElement("br", null),
                 " ",
-                i,
+                s,
                 " ",
               ),
             ),
@@ -4633,23 +4638,22 @@ var CLSTAMP = "10258017";
       };
       (z.Name = "developer_settings"), (z = (0, n.Cg)([o.PA], z));
       const G = (0, o.PA)(function (e) {
-        var t, r;
-        let n = null;
-        try {
-          n =
-            null ===
-              (t =
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.VRProperties) || void 0 === t
-              ? void 0
-              : t.GetStringProperty(
-                  "/user/head",
-                  a.fD.TrackingSystemName_String,
-                );
-        } catch (e) {
-          n = "";
-        }
+        var t, r, n;
+        const i =
+          null !==
+            (r =
+              null ===
+                (t =
+                  null === VRHTML || void 0 === VRHTML
+                    ? void 0
+                    : VRHTML.VRProperties) || void 0 === t
+                ? void 0
+                : t.GetStringProperty(
+                    "/user/head",
+                    a.fD.TrackingSystemName_String,
+                  )) && void 0 !== r
+            ? r
+            : "";
         return l.createElement(
           l.Fragment,
           null,
@@ -4657,20 +4661,20 @@ var CLSTAMP = "10258017";
             label: (0, p.we)("#Settings_VersionInfo_SteamVRVersion"),
             value:
               null ===
-                (r =
+                (n =
                   null === VRHTML || void 0 === VRHTML
                     ? void 0
-                    : VRHTML.SteamVRVersion) || void 0 === r
+                    : VRHTML.SteamVRVersion) || void 0 === n
                 ? void 0
-                : r.call(VRHTML),
+                : n.call(VRHTML),
           }),
           l.createElement(v.WZ, {
             label: (0, p.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1763761896e3).toLocaleString(),
+            value: new Date(1764905098e3).toLocaleString(),
           }),
           l.createElement(v.WZ, {
             label: (0, p.we)("#Settings_VersionInfo_SteamVRHmdTrackingInfo"),
-            value: n,
+            value: i,
           }),
         );
       });
@@ -6636,14 +6640,13 @@ var CLSTAMP = "10258017";
             !(null === a.Ay || void 0 === a.Ay ? void 0 : a.Ay.HasHMD())
           )
             return !1;
-          if (!e.show_without_hmd && e.driver)
-            try {
-              const t = a.Ay.VRProperties.GetStringProperty(
-                "/user/head",
-                a.fD.ActualTrackingSystemName_String,
-              );
-              if (e.driver !== t) return !1;
-            } catch (e) {}
+          if (!e.show_without_hmd && e.driver) {
+            const t = a.Ay.VRProperties.GetStringProperty(
+              "/user/head",
+              a.fD.ActualTrackingSystemName_String,
+            );
+            if (t && e.driver != t) return !1;
+          }
           if (e.desktop_only && (0, a.R$)() == a.OH.Overlay) return !1;
           let t =
             e.controller == I.Name &&
@@ -18714,19 +18717,16 @@ var CLSTAMP = "10258017";
               ? void 0
               : e.call(VRHTML),
           ),
-            r.set_webpack_build_timestamp(1763761896);
-          try {
-            const e =
-              null ===
-                (t =
-                  null === VRHTML || void 0 === VRHTML
-                    ? void 0
-                    : VRHTML.VRProperties) || void 0 === t
-                ? void 0
-                : t.GetStringProperty("/user/head", a.fD.DriverVersion_String);
-            r.set_hmd_tracking_info(e);
-          } catch (e) {}
-          (0, h.Z)(r);
+            r.set_webpack_build_timestamp(1764905098);
+          const n =
+            null ===
+              (t =
+                null === VRHTML || void 0 === VRHTML
+                  ? void 0
+                  : VRHTML.VRProperties) || void 0 === t
+              ? void 0
+              : t.GetStringProperty("/user/head", a.fD.DriverVersion_String);
+          n && r.set_hmd_tracking_info(n), (0, h.Z)(r);
         }
         LoadSessionDevData() {
           return (0, n.sH)(this, void 0, void 0, function* () {

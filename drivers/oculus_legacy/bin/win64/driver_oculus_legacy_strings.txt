@@ -152,7 +152,6 @@ LoadLibraryW
 MSVCP140.dll
 MainThrd
 NULL
-N\fPd
 OVR Runtime Init
 OVRRuntimeWindowThread
 Oculus
@@ -199,6 +198,7 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
+\tQ2i
 \vUnable to create texture set for pid %u: %s\n
 ][OculusDirect] Begin AcquireSync
 _Camera

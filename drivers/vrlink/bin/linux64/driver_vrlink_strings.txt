@@ -235,6 +235,7 @@ $3br
 .config
 .json
 .previous.txt
+.steam/exportedsettings.json
 .tmp
 .txt
 //==============================================================================================\n
@@ -272,9 +273,9 @@ $3br
 /data/src/common/vrcore/src/threadwatchdog.cpp
 /data/src/common/vrcore/src/vrcrash.cpp
 /data/src/common/vrcore/src/vripcsharedstate.cpp
-/data/src/vrlink/driver_vrlink/hmd.cpp:2059
-/data/src/vrlink/driver_vrlink/hmd.cpp:2299
-/data/src/vrlink/driver_vrlink/hmd.cpp:2411
+/data/src/vrlink/driver_vrlink/hmd.cpp:2135
+/data/src/vrlink/driver_vrlink/hmd.cpp:2375
+/data/src/vrlink/driver_vrlink/hmd.cpp:2487
 /data/src/vrlink/driver_vrlink/hmdvulkan.cpp
 /data/src/vrlink/driver_vrlink/steamvrlink.cpp
 /data/src/vrlink/driver_vrlink/videovulkan.cpp
@@ -519,6 +520,7 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
+03:24:42
 1 Sec
 1/2/4/8/16-bit only
 10.35.78
@@ -560,7 +562,6 @@ $3br
 1e+9999
 20BinaryBlendPoseMaker
 20PassThroughPoseMaker
-21:51:11
 21CSharedSemaphoreLinux
 21SVLHandTrackingDriver
 22CKeyframedDataResource
@@ -691,7 +692,6 @@ Autodetected %s
 Autodetected Headset, using Oculus Quest 3 profile
 Autodetected Headset, using Oculus Quest Pro profile
 Autodetected Headset, using Pico 4x profile
-Autodetected Headset: %d
 Autodetected Oculus Quest 2
 B?333>
 BCreateDirectory(char const*)
@@ -1839,6 +1839,7 @@ DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*) (.cold)
+Dec  5 2025
 December
 DeclareCurrentThreadIsMainThread
 DecodeCtbSizeFlag(unsigned int) (.part.0)
@@ -2059,6 +2060,8 @@ Forced create but already created for SharedObjectEvent\n
 Format string parse failure
 Format(char const*, ...)
 Format(char const*, ...) (.cold)
+Found properties for unknown hmd. Attempting to load.
+Found settings for unknown hmd. Attempting to load.
 Four_2PIs
 Four_2ToThe21s
 Four_2ToThe22s
@@ -2179,6 +2182,7 @@ GetSerialNumber(VTE_StaticProps_t const&)
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() (.cold)
 GetSteamLanguage(ISteamUtils*)
+GetSteamLanguage(ISteamUtils*) (.cold)
 GetStringForCompositorError(vr::EVRCompositorError)
 GetStringForCompositorError(vr::EVRCompositorError)::buf
 GetStringForInputActionType(EInputActionType)
@@ -2940,6 +2944,8 @@ KHR_lights_punctual
 Key setup failure in transport subsystem. RX Status: %d
 Key setup failure in transport subsystem. TX Status: %d
 KeyExpansion(unsigned char*, unsigned char const*)
+Khronos Generic (Left Controller)
+Khronos Generic (Right Controller)
 LC_ADDRESS
 LC_COLLATE
 LC_CTYPE
@@ -3126,7 +3132,6 @@ Node has extension MSFT_lod, but does not reference other nodes via their ids.\n
 None
 NormalTextureInfo
 Note
-Nov 21 2025
 November
 OGCancelThread
 OGCreateMutex
@@ -3563,7 +3568,7 @@ ReadLocalizationFile(std::string const&, std::string const&, Json::Value&) (.col
 ReapChildProcesses(int)
 Received 0 byte message on control connection. Disconnecting
 Received frame outside of backtrack window.  Resetting.\n
-ReceivedHMDStaticProps.  Model Number: %s (%d)
+ReceivedHMDStaticProps. Model Number: %s, Serial Number: %s (%d)
 Reflection::Detail::ToBaseT<CBoneMaskResource, CAnimResource>::operator()(void const*)
 Reflection::Detail::ToBaseT<CBoneMaskResource, CAnimResource>::operator()(void*)
 Reflection::Detail::ToBaseT<CKeyframedDataResource, CAnimResource>::operator()(void const*)
@@ -3808,6 +3813,8 @@ SVLControllerDriver::PowerOff()
 SVLControllerDriver::ProcessEvent(vr::VREvent_t const&)
 SVLControllerDriver::ProcessEvent(vr::VREvent_t const&) (.cold)
 SVLControllerDriver::SVLControllerDriver(int, SVLDriver*)
+SVLControllerDriver::SetPropertyFromHMDSettingIfPresent(std::string const&, std::string const&, vr::ETrackedDeviceProperty)
+SVLControllerDriver::SetPropertyFromHMDSettingIfPresent(std::string const&, std::string const&, vr::ETrackedDeviceProperty) (.cold)
 SVLControllerDriver::UpdateRoyHandPose(int, WaitGetPosesPacket_t const*, vr::DriverPose_t const&)
 SVLControllerDriver::m_sendHapticsPacket
 SVLControllerDriver::~SVLControllerDriver()
@@ -4064,6 +4071,10 @@ SVLHMDDriver::GetComponent(char const*)
 SVLHMDDriver::GetDebugEyeData(float*, int) const
 SVLHMDDriver::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
 SVLHMDDriver::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
+SVLHMDDriver::GetHMDSpecificBoolSetting(std::string const&, bool)
+SVLHMDDriver::GetHMDSpecificBoolSetting(std::string const&, bool) (.cold)
+SVLHMDDriver::GetHMDSpecificIntSetting(std::string const&, bool)
+SVLHMDDriver::GetHMDSpecificIntSetting(std::string const&, bool) (.cold)
 SVLHMDDriver::GetNextSwapTextureSetIndex(unsigned long*, unsigned int (*) [2])
 SVLHMDDriver::GetPose()
 SVLHMDDriver::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
@@ -4843,6 +4854,7 @@ UpdateNetworkInfo
 UpdateOGSStatistics
 UseKeyboardImplementation(VRSystemLayerState_t*, vr::EVRKeyboardImplementation)
 UseKeyboardImplementationInternal(VRSystemLayerState_t*, unsigned long)
+Using defaults as unknown headset: %d
 VALVE
 VEC2
 VEC3
@@ -5669,6 +5681,7 @@ Zjz\v
 [SVLController] Overriding Quest specific properties for %s\n
 [SVLController] Reported HMD model is %d\n
 [SVLController] Setting up HTC Vive Focus Controller: %s
+[SVLController] Unable to find override properties for unknown key: %s:%s
 [SVLFEC] Saw a re-accept in InternalAcceptFrameFromRX.
 [SVLFEC] accepting a frame for submission without metadata [ %d ]
 [SVLFEC] received late metadata for frame [ %d ]
@@ -6024,6 +6037,7 @@ __wctype_l
 __xstat
 __xstat64
 _abw3
+_controller_
 _edata
 _end
 _exit
@@ -6410,6 +6424,7 @@ construction vtable for vr::IVRSharedBuffer-in-CSharedBufferLinux
 construction vtable for vr::IVRSharedCountingSemaphore-in-CSharedCountingSemaphoreLinux
 construction vtable for vr::IVRSharedImage-in-CSharedImageLinux
 construction vtable for vr::IVRSharedSemaphore-in-CSharedSemaphoreLinux
+controllerType
 controller_path
 copyright
 corrupt
@@ -6494,12 +6509,14 @@ emitter
 emitters
 en_US
 en_us
+enable
 enableEncryption
 enableEventDebugging
 enableHandTracking
 enableQoS
 enableTimedRetry
 enableYAMLCompatibility
+encodeWidth
 end of input
 end_ctx
 english
@@ -6852,6 +6869,7 @@ hand_right_closeanim.glb
 hand_right_poses.glb
 handle_recenter
 handlers
+hasEyeTracking
 height
 hist
 hostShowDebugWindow
@@ -6905,6 +6923,7 @@ info.png
 init_dwarf_reg_size_table
 innerConeAngle
 input
+inputProfilePath
 int std::__facet_shims::__collate_compare<char>(std::integral_constant<bool, false>, std::locale::facet const*, char const*, char const*, char const*, char const*)
 int std::__facet_shims::__collate_compare<char>(std::integral_constant<bool, true>, std::locale::facet const*, char const*, char const*, char const*, char const*)
 int std::__facet_shims::__collate_compare<wchar_t>(std::integral_constant<bool, false>, std::locale::facet const*, wchar_t const*, wchar_t const*, wchar_t const*, wchar_t const*)
@@ -7076,6 +7095,7 @@ keylength >= 2^30
 kill
 ko_kr
 koreana
+language
 language_tag
 latam
 ld-linux-x86-64.so.2
@@ -7181,6 +7201,7 @@ mktime
 mmap
 mmap of %s failed: %d
 mode
+modelNumber
 modf
 mt19937
 mult_type
@@ -7487,6 +7508,7 @@ relfovtext
 remote_dashboard_open
 rename
 renderHeight
+renderModelName
 renderWidth
 reqEncMode
 reqcphasetext
@@ -7497,6 +7519,7 @@ request_handlers
 request_handlers_response
 requestedDashboardTutorialForHands
 resample_row_1(unsigned char*, unsigned char*, unsigned char*, int, int)
+resourceRoot
 resources
 result
 result failed! (VkResult: %d)
@@ -7611,6 +7634,7 @@ sendto
 sendto error %d (return value: %d)\n
 sent VTE_DASHBOARD_EVENT EVTYPE_CLOSE_DASHBOARD
 sequence
+serialNumber
 serverTCPEnable
 serverUDPEnable
 session_id_field_name
@@ -11585,6 +11609,7 @@ too many codes
 touch_poses_right.glb
 toupper
 tr_tr
+trackingSystemName
 transaction clone for operator delete(void*)
 transaction clone for operator new[](unsigned long)
 transaction clone for std::bad_exception::what() const
@@ -13508,6 +13533,8 @@ volkLoadInstance
 volkLoadInstanceOnly
 vr-input-workshop://
 vr::CVRPathHelpers::GetStringPath(unsigned long, unsigned long, vr::ETrackedPropertyError*)
+vr::CVRPropertyHelpers::SetStringProperty(unsigned long, vr::ETrackedDeviceProperty, char const*) (.part.0) (.constprop.0)
+vr::CVRSettingHelper::GetString(std::string const&, std::string const&, vr::EVRSettingsError*)
 vr::IVRDriverDirectModeComponent::DestroyAllSwapTextureSets(unsigned int)
 vr::IVRDriverDirectModeComponent::DestroySwapTextureSet(unsigned long)
 vr::IVRSharedBuffer::GetVulkanBuffer() const
@@ -13532,6 +13559,7 @@ vr::IVRSharedSemaphore::PrepareVulkanSemaphoreForExport(VkDevice_T*, VkSemaphore
 vr::OpenVRInternal_ModuleServerDriverContext()::ctx
 vr::PathRead_t& std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t>>::emplace_back<vr::PathRead_t>(vr::PathRead_t&&)
 vr::VRDriverContext()::pHost
+vr::VRProperties() (.part.0)
 vr::k_DefaultPathWriteOptions
 vr::k_InterfaceVersions
 vr_glove_left_skeleton.glb
@@ -13616,6 +13644,7 @@ vrcore::crc32(unsigned int, void const*, unsigned long)::crcTable
 vrlink
 vrlink-encwait
 vrlink-pw
+vrlink_
 vrlink_client/
 vrlink_debug.json
 vrlink_device

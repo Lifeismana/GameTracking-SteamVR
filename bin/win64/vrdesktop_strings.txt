@@ -113,6 +113,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
+0R2i
 1e+9999
 9a&g
 <unknown>
@@ -213,6 +214,7 @@ Destroying pointer overlay for desktop.\n
 DisableThreadLibraryCalls
 DwmGetDxSharedSurface
 DwmGetWindowAttribute
+E!R4or
 Empty escape sequence in string
 Encountered a fatal error updating desktop views.\n
 Encountered error 

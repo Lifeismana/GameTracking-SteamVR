@@ -2193,6 +2193,7 @@ $3br
 .json
 .obj
 .previous.txt
+.steam/exportedsettings.json
 .thumb
 .tmp
 .txt
@@ -2448,6 +2449,7 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
+03:24:29
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -2663,7 +2665,6 @@ $3br
 20CVRTrackedDevice_004
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:51:05
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -3890,7 +3891,7 @@ CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType) (.cold)
 CHmdSystemLatest::Cleanup()
 CHmdSystemLatest::CurrentAppTypeExpectsCompositor()
 CHmdSystemLatest::CurrentAppTypeRequiresHmd()
-CHmdSystemLatest::CurrentAppTypeShouldStartVRMonitor()
+CHmdSystemLatest::CurrentAppTypeShouldStartVRMonitor(bool)
 CHmdSystemLatest::EnsureCompositorImplementationsInitialized()
 CHmdSystemLatest::ForceQuitProcess(unsigned int)
 CHmdSystemLatest::ForceQuitProcess(unsigned int) (.cold)
@@ -18146,6 +18147,7 @@ Debug utils: disabled, missing entrypoints
 Debug utils: enabled
 DebugDriverLog(char const*, ...)
 DebuggerEnabled
+Dec  5 2025
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -18778,6 +18780,7 @@ GetSetupStandingFromStanding(vr::HmdMatrix34_t*)
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() (.cold)
 GetSteamLanguage(ISteamUtils*)
+GetSteamLanguage(ISteamUtils*) (.cold)
 GetStringForCompositorError(vr::EVRCompositorError)
 GetStringForCompositorError(vr::EVRCompositorError)::buf
 GetStringForInputActionType(EInputActionType)
@@ -23494,7 +23497,6 @@ Not writing scalar value because it didn't change\n
 Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
-Nov 21 2025
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t>>*)
@@ -27364,7 +27366,6 @@ Zjz\v
 [Oxrtools] Aborting attempt to set SteamVR as the active runtime, it is already set.
 [PROBLEM] Saving Path Registry failed: 
 [Settings] %s %s unknown type\n
-[Settings] Load Default Json Settings from %s\n
 [Settings] Load Json Settings from %s\n
 [Settings] No or invalid additional device settings at '%s'\n
 [Settings] Parsing of json from "%s" failed: \n
@@ -29666,6 +29667,7 @@ kill
 knuckles
 ko_kr
 koreana
+language
 language_tag
 latam
 latch

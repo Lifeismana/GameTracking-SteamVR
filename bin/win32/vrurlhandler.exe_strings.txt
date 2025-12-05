@@ -237,6 +237,7 @@ IPCPipe(%s): Next message type %u, seq %u, len %u\n
 IPCPipe(%s): Sending simple message type %u, seq %u\n
 IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal\n
 IPCPipe(%s): Wrote %u bytes of total message length\n
+IQ2i
 IServerTrackedDeviceProvider_002
 IServerTrackedDeviceProvider_003
 IServerTrackedDeviceProvider_004
@@ -290,7 +291,7 @@ Out of thread local storage!\n
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
 QueryPerformanceCounter
-RSDSh
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -396,7 +397,6 @@ WriteFile
 [IPC] The owner SID is invalid.\n
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 [Settings] %s %s unknown type\n
-[Settings] Load Default Json Settings from %s\n
 [Settings] Load Json Settings from %s\n
 [Settings] Parsing of json from "%s" failed: \n
 [Settings] Unable to load driver defaults from %s\n

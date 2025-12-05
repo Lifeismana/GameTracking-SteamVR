@@ -1146,7 +1146,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS
+RSDS2
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1771,6 +1771,7 @@ gyro
 gyro_bias
 gyro_scale
 hPU3
+hQ2i
 haptic
 haptic [<duration_us>] [<interval_us>] [<repeat_count>]\tTrigger haptic pulse\n
 haptic2
