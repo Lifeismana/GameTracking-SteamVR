@@ -209,7 +209,9 @@
     var(--settings-control-background-new-rgb),
     var(--settings-control-background-new-a)
   );
-  --settings-control-background-new-hover-rgb: var(--gamepadui-darkish-grey-rgb);
+  --settings-control-background-new-hover-rgb: var(
+    --gamepadui-darkish-grey-rgb
+  );
   --settings-control-background-new-hover-a: 1;
   --settings-control-background-new-hover: rgba(
     var(--settings-control-background-new-hover-rgb),
@@ -577,7 +579,9 @@ vsg-node[vsg-type="panel"] > .ButtonControl {
   --handle-springiness: calc(0.8 - var(--drag-elapsed-seconds));
   --track-thickness: 0.4em;
   --detent-length: 3px;
-  --handle-background-fade-duration: var(--settings-control-hover-fade-duration);
+  --handle-background-fade-duration: var(
+    --settings-control-hover-fade-duration
+  );
   --handle-circle-size: calc(var(--handle-length) * 0.5);
   cursor: pointer;
   display: flex;
@@ -886,4 +890,4 @@ img.BlackToWhite {
   filter: invert(100%) sepia(40%) saturate(2%) hue-rotate(196deg)
     brightness(105%) contrast(101%);
 }
-/*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~66c0d1388.css.map*/
+/*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~66c0d1388.css.map*/

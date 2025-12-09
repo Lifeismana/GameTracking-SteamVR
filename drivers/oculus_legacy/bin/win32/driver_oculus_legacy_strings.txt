@@ -62,6 +62,7 @@
 .tls$
 .tls$ZZZ
 .xdata$x
+.z8i
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -156,7 +157,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS>F|
+RSDS~
 RaiseException
 SDL2.dll
 SDL_CreateWindow
@@ -238,7 +239,7 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
-c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus_legacy\Retail\win32\2017\driver_oculus_legacy.pdb
 camera
 ceil
 d3d11.dll

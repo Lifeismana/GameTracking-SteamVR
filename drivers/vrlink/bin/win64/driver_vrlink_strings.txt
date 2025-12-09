@@ -903,7 +903,6 @@ Autodetected %s
 Autodetected Headset, using Oculus Quest 3 profile
 Autodetected Headset, using Oculus Quest Pro profile
 Autodetected Headset, using Pico 4x profile
-Autodetected Headset: %d
 Autodetected Oculus Quest 2
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
@@ -1287,6 +1286,8 @@ Forced Stream reset has failed. Code: 0x13
 Format string parse failure
 Found installed dongle device.\n
 Found installed dongle driver.\n
+Found properties for unknown hmd. Attempting to load.
+Found settings for unknown hmd. Attempting to load.
 FreeLibrary
 Full Reinit
 F~Tb
@@ -1507,6 +1508,8 @@ KHR_audio
 KHR_lights_punctual
 Key setup failure in transport subsystem. RX Status: %d
 Key setup failure in transport subsystem. TX Status: %d
+Khronos Generic (Left Controller)
+Khronos Generic (Right Controller)
 KwZi
 LINEAR
 LZsYCB
@@ -1752,7 +1755,7 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS
+RSDSz
 RX Fail:%d
 RaiseException
 Received 0 byte message on control connection. Disconnecting
@@ -1762,7 +1765,7 @@ Received mirror reset event after %u passes, %llu samples\n
 Received mirror reset event\n
 Received mirror stop event after %u passes, %llu samples\n
 Received mirror stop event\n
-ReceivedHMDStaticProps.  Model Number: %s (%d)
+ReceivedHMDStaticProps. Model Number: %s, Serial Number: %s (%d)
 Refreshing audio devices\n
 RegCloseKey
 RegEnumValueW
@@ -2125,6 +2128,7 @@ Using AVX2\n
 Using AVX\n
 Using NOAESNI\n
 Using SSE\n
+Using defaults as unknown headset: %d
 UuidCreate
 UuidFromStringA
 UuidToStringA
@@ -2315,6 +2319,7 @@ Zjz\v
 [SVLController] Overriding Quest specific properties for %s\n
 [SVLController] Reported HMD model is %d\n
 [SVLController] Setting up HTC Vive Focus Controller: %s
+[SVLController] Unable to find override properties for unknown key: %s:%s
 [SVLFEC] Saw a re-accept in InternalAcceptFrameFromRX.
 [SVLFEC] accepting a frame for submission without metadata [ %d ]
 [SVLFEC] received late metadata for frame [ %d ]
@@ -2370,7 +2375,7 @@ Zjz\v
 ] is not a JSON object.
 ],"subtype":
 ]1bO
-]c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1644
+]c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1644
 ^lX8k
 _55j
 _Cnd_broadcast
@@ -2383,7 +2388,6 @@ _Cnd_signal
 _Cnd_timedwait
 _Cnd_wait
 _CxxThrowException
-_HL[L
 _Mtx_current_owns
 _Mtx_destroy
 _Mtx_destroy_in_situ
@@ -2423,6 +2427,7 @@ _callnewh
 _cexit
 _configthreadlocale
 _configure_narrow_argv
+_controller_
 _crt_atexit
 _dsign
 _dtest
@@ -2601,17 +2606,17 @@ byteLength
 byteOffset
 byteStride
 c!!B0
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2059
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2299
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2411
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1615
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1386
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2135
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2375
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2487
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1615
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1386
 c=qx
 cAoption requires an argument -- %c
 cAudBufAvg
@@ -2660,6 +2665,7 @@ const unsigned int __cdecl CAnimResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
+controllerType
 controller_path
 copyright
 corrupt
@@ -2735,6 +2741,7 @@ emissiveTexture
 emitter
 emitters
 en_us
+enable
 enableAmfEncoder
 enableEncryption
 enableEventDebugging
@@ -2744,6 +2751,7 @@ enableTimedRetry
 enableYAMLCompatibility
 encResets
 encSubmitFrameMS
+encodeWidth
 end of input
 english
 error
@@ -2826,6 +2834,7 @@ hand_right_closeanim.glb
 hand_right_poses.glb
 handle_recenter
 handlers
+hasEyeTracking
 height
 hist
 hu_hu
@@ -2863,6 +2872,7 @@ inet_pton
 info.png
 innerConeAngle
 input
+inputProfilePath
 intensity
 interpolation
 invalid
@@ -2984,6 +2994,7 @@ minFilter
 minVersion
 missing color table
 mode
+modelNumber
 modf
 multiple IHDR
 muted
@@ -3117,12 +3128,14 @@ refDistance
 rejectDupKeys
 remote_dashboard_open
 renderHeight
+renderModelName
 renderWidth
 reqEncMode
 request_dashboard_tutorial
 request_handlers
 request_handlers_response
 requestedDashboardTutorialForHands
+resourceRoot
 result
 returnAddress
 rexmitReq
@@ -3174,6 +3187,7 @@ send_to_remote message received with an invalid payload
 sendto error %d (return value: %d)\n
 sent VTE_DASHBOARD_EVENT EVTYPE_CLOSE_DASHBOARD
 sequence
+serialNumber
 serverTCPEnable
 serverUDPEnable
 session_id_field_name
@@ -3258,6 +3272,7 @@ too many codes
 touch_poses_right.glb
 toupper
 tr_tr
+trackingSystemName
 translation
 true
 true literal
@@ -3293,6 +3308,7 @@ useOSCFace
 usePool
 useSpecialFloats
 user_interaction_click_info
+uz8i
 vRQ>
 value
 values
@@ -3338,6 +3354,7 @@ vrcombined_log.previous.txt
 vrcombined_log.txt
 vrcompositor_systemlayer
 vrlink
+vrlink_
 vrlink_client/
 vrlink_debug.json
 vrlink_device

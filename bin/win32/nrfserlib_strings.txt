@@ -1067,7 +1067,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS}
+RSDS
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n
@@ -1224,7 +1224,6 @@ Write to Power Control Point.\n
 Write to SOB Channel.\n
 WriteFile
 XX.XX.XXXXXXX
-Yz$I
 Zip Error: %s\n
 Zip-bug: an internal error during flation
 Zip-bug: internal initialisation not completed
@@ -1328,7 +1327,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\nrfserlib\Retail\win32\2017\nrfserlib.pdb
 calloc
 ceil
 close

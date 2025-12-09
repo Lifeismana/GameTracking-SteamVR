@@ -573,6 +573,7 @@ $tI(kn
 .json
 .obj
 .previous.txt
+.steam/exportedsettings.json
 .thumb
 .tmp
 .txt
@@ -1386,6 +1387,7 @@ $tI(kn
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
+19:34:21
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -1457,7 +1459,6 @@ $tI(kn
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:51:11
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -2821,7 +2822,7 @@ CHmdSystemLatest::ChangeAppType(vr::EVRApplicationType) (.cold)
 CHmdSystemLatest::Cleanup()
 CHmdSystemLatest::CurrentAppTypeExpectsCompositor()
 CHmdSystemLatest::CurrentAppTypeRequiresHmd()
-CHmdSystemLatest::CurrentAppTypeShouldStartVRMonitor()
+CHmdSystemLatest::CurrentAppTypeShouldStartVRMonitor(bool)
 CHmdSystemLatest::EnsureCompositorImplementationsInitialized()
 CHmdSystemLatest::ForceQuitProcess(unsigned int)
 CHmdSystemLatest::ForceQuitProcess(unsigned int) (.cold)
@@ -17852,6 +17853,7 @@ DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebuggerEnabled
+Dec  9 2025
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -18583,6 +18585,7 @@ GetSetupStandingFromStanding(vr::HmdMatrix34_t*)
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() (.cold)
 GetSteamLanguage(ISteamUtils*)
+GetSteamLanguage(ISteamUtils*) (.cold)
 GetStringForCompositorError(vr::EVRCompositorError)
 GetStringForCompositorError(vr::EVRCompositorError)::buf
 GetStringForInputActionType(EInputActionType)
@@ -23352,7 +23355,6 @@ Not writing scalar value because it didn't change\n
 Nothing to repeat before a quantifier.
 NotificationsInterfaceRegistration<CVRNotifications_001>::GetInterface()
 NotificationsInterfaceRegistration<CVRNotifications_001>::~NotificationsInterfaceRegistration()
-Nov 21 2025
 November
 Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
 NvAPI::AcquireHiddenDisplay(int, unsigned int, unsigned int, void*, void**, std::vector<NvAPI::DisplayMode_t, std::allocator<NvAPI::DisplayMode_t>>*)
@@ -27431,7 +27433,6 @@ Zjz\v
 [RenderModelConverter] Was provided component that was not renderable: %s
 [RenderModelConverter] created node: %s
 [Settings] %s %s unknown type\n
-[Settings] Load Default Json Settings from %s\n
 [Settings] Load Json Settings from %s\n
 [Settings] No or invalid additional device settings at '%s'\n
 [Settings] Parsing of json from "%s" failed: \n
@@ -30150,6 +30151,7 @@ knuckles
 knuckles_ev1
 ko_kr
 koreana
+language
 language_tag
 latam
 latch

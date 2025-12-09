@@ -717,6 +717,7 @@ $3br
 .lighthouse.pb.CVec3
 .placeholder.proto
 .previous.txt
+.steam/exportedsettings.json
 .tmp
 .txt
 .vrstats
@@ -950,6 +951,7 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
+19:34:21
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
@@ -965,7 +967,6 @@ $3br
 20CVkCommandBufferPool
 20IVRAudioNotification
 20IVRVirtualDisplay001
-21:51:11
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
@@ -3807,6 +3808,7 @@ Data len %d\r\n
 DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
+Dec  9 2025
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -4442,6 +4444,7 @@ GetResourceBaseDir() (.cold)
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() (.cold)
 GetSteamLanguage(ISteamUtils*)
+GetSteamLanguage(ISteamUtils*) (.cold)
 GetString
 GetStringForCompositorError(vr::EVRCompositorError)
 GetStringForCompositorError(vr::EVRCompositorError)::buf
@@ -5831,7 +5834,6 @@ Not starting vrserver for background app (121)
 Not the preferred basestation\n
 NotFound
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
-Nov 21 2025
 November
 Numbers starting with leading zero must be in octal.
 NvAPI
@@ -8211,7 +8213,6 @@ Zjz\v
 [KeyFramedDataResource] Failed to load GLTF file: %s
 [PROBLEM] Saving Path Registry failed: 
 [Settings] %s %s unknown type\n
-[Settings] Load Default Json Settings from %s\n
 [Settings] Load Json Settings from %s\n
 [Settings] No or invalid additional device settings at '%s'\n
 [Settings] Parsing of json from "%s" failed: \n
@@ -12363,6 +12364,7 @@ koreana
 l?Nb0?
 lEyeFile:%s width:%d height:%d components:%d\n
 label
+language
 language_tag
 lastChaperoneCommit
 last_eye

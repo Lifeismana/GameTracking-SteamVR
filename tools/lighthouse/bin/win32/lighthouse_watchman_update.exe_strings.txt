@@ -483,6 +483,7 @@ HidD_GetProductString
 HidD_GetSerialNumberString
 HidD_SetFeature
 HidP_GetCaps
+Hz8i
 ICE40
 ISP-ETRON-776
 ISP-ETRON-876
@@ -767,7 +768,7 @@ bad cast
 bad conversion
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_win32\build\src\lighthouse_watchman_update\Retail\win32\2017\lighthouse_watchman_update.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\lighthouse_watchman_update\Retail\win32\2017\lighthouse_watchman_update.pdb
 calloc
 dQy/
 data error

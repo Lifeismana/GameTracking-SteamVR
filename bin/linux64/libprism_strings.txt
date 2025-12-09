@@ -459,13 +459,13 @@
 16CVkCommandBuffer
 18CPrismDisplay_Null
 18IPrismPoseProvider
+19:34:21
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-21:51:11
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 30CSharedResourceNamespaceServer
@@ -1317,6 +1317,7 @@ DW.ref._ZTISt9exception
 DW.ref.__gxx_personality_v0
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
+Dec  9 2025
 December
 DeclareCurrentThreadIsMainThread
 Destroying a held mutex\n
@@ -2135,7 +2136,6 @@ NewBatch
 NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t>> const&)
 NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t>> const&) (.cold)
 None
-Nov 21 2025
 November
 Null
 Null Client

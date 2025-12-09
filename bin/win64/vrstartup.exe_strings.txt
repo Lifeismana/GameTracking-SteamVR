@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-13:51:20
+11:34:36
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -220,6 +220,7 @@ CreateDirectoryW
 CreateEventW
 CreateFileW
 CreateProcessA
+Dec  9 2025
 DeleteCriticalSection
 DeleteFileW
 Detail
@@ -383,7 +384,6 @@ None
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
-Nov 21 2025
 On laptop, HMD detected over USB, but Monitor not found (213)
 OpenProcess
 Out of thread local storage!\n
@@ -391,7 +391,7 @@ OutputDebugStringA
 Platform handles tutorial / initial home app launch %s. Starting Event Polling...
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSS
+RSDSO0O
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey
@@ -732,6 +732,7 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 Watchdog disabled in settings (132)
 WebInterface
 WideCharToMultiByte
+Y\zE
 [PROBLEM] Saving Path Registry failed: 
 [System] New Config Path: 
 [System] New Log Path: 
@@ -820,9 +821,9 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
 camera
 collectComments
 collisionBounds
@@ -987,6 +988,7 @@ vrserver internal error (124)
 vrserver.exe
 vrurlhandler.exe
 vrwebhelper
+wDuJ
 win64
 zh_cn
 zh_tw

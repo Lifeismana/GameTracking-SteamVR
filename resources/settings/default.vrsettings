@@ -258,6 +258,7 @@
         "enable": false
     },
     "driver_gamepad": {
+        "enable": false,
         "loadPriority": -50
     },
     "driver_ivry": {

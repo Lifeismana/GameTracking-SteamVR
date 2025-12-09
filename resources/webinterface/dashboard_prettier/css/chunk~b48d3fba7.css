@@ -1323,11 +1323,8 @@ body.SGApp .SettingsSidebarButton .Label {
   top: var(--settings-control-image-padding);
   bottom: var(--settings-control-image-padding);
   border-radius: var(--settings-button-image-border-radius);
-  background-image: linear-gradient(
-      to right,
-      var(--color-value),
-      var(--color-value)
-    ),
+  background-image:
+    linear-gradient(to right, var(--color-value), var(--color-value)),
     linear-gradient(
       to right,
       var(--checker-color-a) 50%,
@@ -1860,4 +1857,4 @@ body.SGApp .SettingsSidebarButton .Label {
   align-items: center;
   margin-bottom: 0.25rem;
 }
-/*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~b48d3fba7.css.map*/
+/*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~b48d3fba7.css.map*/

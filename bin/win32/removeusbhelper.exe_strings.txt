@@ -267,7 +267,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSN
+RSDS
 RaiseException
 RegCloseKey
 RegCreateKeyExW
@@ -348,7 +348,6 @@ WakeAllConditionVariable
 Warning
 Warning: Watchdog %s not properly cleaned up%s%s\n
 WideCharToMultiByte
-YUs 
 [Oxrtools] Aborting attempt to set SteamVR as the active runtime, it is already set.
 [Oxrtools] Unable to create the OpenXR available runtimes registry key %d
 [Oxrtools] Unable to disable key reflection for the OpenXR available runtime registry key %d
@@ -441,9 +440,9 @@ bad allocation
 bad array new length
 bad conversion
 bin/vrclient_x64.dll
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\app_containers.cpp
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win32\build\src\removeusbhelper\Retail\win32\2017\removeusbhelper.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\app_containers.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\removeusbhelper\Retail\win32\2017\removeusbhelper.pdb
 collectComments
 config
 deque<T> too long
@@ -470,6 +469,7 @@ fseek
 ftell
 fwrite
 getenv
+hz8i
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer

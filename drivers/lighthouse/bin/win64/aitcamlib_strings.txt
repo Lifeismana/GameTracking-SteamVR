@@ -319,6 +319,7 @@ XXXX PNG chunk not known
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
+\fz8i
 \nbad png sig
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 _Cnd_destroy_in_situ
@@ -412,10 +413,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_win64\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\Retail\win64\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\aitcamlib\work_thread.cpp
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
