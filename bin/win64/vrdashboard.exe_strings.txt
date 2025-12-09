@@ -7,7 +7,6 @@
 %s[%s] %s file=%s
 ' is not a number.
 , last executing in 
-,R2i
 -1e+9999
 -Infinity
 -duplication_gpu_check
@@ -133,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-19:24:40
+11:34:36
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -233,7 +232,7 @@ DBT_DEVNODES_CHANGED: A device has been added to or removed from the system.\n
 DBT_QUERYCHANGECONFIG: Permission is requested to change the current configuration (dock or undock).\n
 DBT_USERDEFINED: The meaning of this message is user-defined.\n
 Dashboard Main
-Dec  4 2025
+Dec  9 2025
 DefWindowProcA
 DeleteCriticalSection
 DeleteFileW
@@ -610,18 +609,18 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\steam_worker_thread.cpp:171
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:131
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:157
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:30
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:89
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp:816
-c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp:823
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\steam_worker_thread.cpp:171
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\dashboard.cpp:131
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\dashboard.cpp:157
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\dashboard.cpp:30
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\dashboard.cpp:89
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\vrdashboard_main.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\vrdashboard_main.cpp:816
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\vrdashboard_main.cpp:823
 collectComments
 config
 cs_cz

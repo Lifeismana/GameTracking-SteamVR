@@ -237,7 +237,6 @@ IPCPipe(%s): Next message type %u, seq %u, len %u\n
 IPCPipe(%s): Sending simple message type %u, seq %u\n
 IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal\n
 IPCPipe(%s): Wrote %u bytes of total message length\n
-IQ2i
 IServerTrackedDeviceProvider_002
 IServerTrackedDeviceProvider_003
 IServerTrackedDeviceProvider_004
@@ -479,10 +478,10 @@ backgroundUseDomeProjection
 bad allocation
 bad array new length
 bad conversion
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\ipcwin32.cpp
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win32\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win32\build\src\vrurlhandler\Retail\win32\2017\vrurlhandler.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\vrurlhandler\Retail\win32\2017\vrurlhandler.pdb
 camera
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime

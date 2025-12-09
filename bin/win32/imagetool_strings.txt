@@ -2687,6 +2687,7 @@ $wtpt
 4x3+2+1:-,1,1,0 -,1,1,- 0,1,1,-
 4x3+2+1:0,1,1,- -,1,1,- -,1,1,0
 4xccV6
+4z8i
 5!z2
 5$Ci
 5+eS
@@ -11024,7 +11025,7 @@ c 92
 c&fs&Y
 c0s(
 c4=P
-c:\buildslave\steamvr_rel_win32\build\src\imagetool\Retail\win32\2017\imagetool.pdb
+c:\buildslave\steamvr_rel_hotfix_win32\build\src\imagetool\Retail\win32\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\cairo\src\cairo-error.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gdir.c

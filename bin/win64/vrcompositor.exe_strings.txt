@@ -20,7 +20,6 @@
  of the Protocol Buffer runtime library, but the installed version is 
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
 !! refusing to trigger minidump with debugger attached\n
-!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 !1AQaq
 !AxU
 !bMultiTap
@@ -933,8 +932,8 @@ $4DTdt
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
+11:34:36
 123456789
-19:24:40
 1A26b
 1e+9999
 1wsHp
@@ -944,6 +943,7 @@ $4DTdt
 416.16
 52F*
 5I)7
+7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 7^d[L
 7~8A
 8c8f13b1-60eb-4b6a-a433-de86104115ac
@@ -1037,7 +1037,6 @@ $4DTdt
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@Scene graph visited panel %s that did not have a valid overlay.\n
 A GrabTransform raycast did not find any intersections. %.3f
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
@@ -1583,7 +1582,7 @@ Dashboard Gaussian Blur V
 Dashboard View (Mirror Overlay)
 Dashboard tutorial requested\n
 Debug lines
-Dec  4 2025
+Dec  9 2025
 DefWindowProcW
 DeleteCriticalSection
 DeleteFileW
@@ -2869,6 +2868,7 @@ STEAMVR_VRCOMPOSITOR_RENDERDOC
 SUCCEEDED
 Scene
 Scene / Lens Distortion
+Scene graph visited panel %s that did not have a valid overlay.\n
 Scene graph visited panel %s whose parent panel %s did not have a valid overlay.\n
 Scene graph visited panel %s whose target DPI panel overlay didn't have an overlay index.\n
 Scene graph visited panel anchor %s that did not have a panel as an ancestor.\n
@@ -4510,80 +4510,80 @@ body
 brazilian
 buffer error
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\drivermanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\gputiming_d3d11.cpp:273
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\nvopticalflow.cpp:195
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvr_internal.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\remoteperfstats.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrkeyboard.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystem.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.h
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcpipe.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadtools.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\panelmask.cpp
-c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\Retail\win64\2017\vrcompositor.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\framemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\geometry.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10475
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10485
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10633
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11158
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11183
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11401
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:15009
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16080
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16635
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17433
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17639
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3890
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3937
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:471
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4836
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6578
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6620
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6923
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8083
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8953
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\lasermouse.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:429
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:478
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\rendererutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraph.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp:427
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp:534
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp:596
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\simpledraw.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp:36
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:1218
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:796
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:28
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:297
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1042
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1289
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1299
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1358
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1630
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1867
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:232
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:437
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:5520
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:794
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\drivermanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\gputiming_d3d11.cpp:273
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\nvopticalflow.cpp:195
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\openvr_internal.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\remoteperfstats.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrkeyboard.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystem.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrsystemlayersharedstate.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcpipe.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadtools.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\panelmask.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\Retail\win64\2017\vrcompositor.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\framemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\geometry.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:10475
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:10485
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:10633
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:11158
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:11183
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:11401
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:15009
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:16080
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:16635
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:17433
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:17639
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:3890
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:3937
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:471
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:4836
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:6578
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:6620
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:6923
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:8083
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\graphicsdevice.cpp:8953
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\lasermouse.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\newframehandler.cpp:429
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\newframehandler.cpp:478
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\rendererutils.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\scenegraph.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\scenegraphrenderer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\scenegraphrenderer.cpp:427
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\scenegraphrenderer.cpp:534
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\scenegraphrenderer.cpp:596
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\simpledraw.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\standaloneoverlays.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\standaloneoverlays.cpp:36
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\systemlayer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\systemlayer.cpp:1218
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\systemlayer.cpp:796
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:28
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:297
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\vrcompositor.cpp:1042
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\vrcompositor.cpp:1289
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\vrcompositor.cpp:1299
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\vrcompositor.cpp:1358
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\vrcompositor.cpp:1630
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\vrcompositor.cpp:1867
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\vrcompositor.cpp:232
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\vrcompositor.cpp:437
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\vrcompositor.cpp:5520
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcompositor\vrcompositor.cpp:794
 cached.last.poseIsValid
 callout-transform
 camera

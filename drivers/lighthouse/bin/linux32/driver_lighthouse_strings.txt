@@ -2764,7 +2764,6 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-03:24:29
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -2822,6 +2821,7 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
+19:34:16
 19CWirelessDecoderWv2
 1e+9999
 2#.google.protobuf.FieldOptions.CType:
@@ -5393,7 +5393,7 @@ DXGI2::WaitForVBlank(void*)
 Data Invalid
 Data len %d\r\n
 DebugDriverLog(char const*, ...)
-Dec  5 2025
+Dec  9 2025
 December
 DeclareCurrentThreadIsMainThread
 Default

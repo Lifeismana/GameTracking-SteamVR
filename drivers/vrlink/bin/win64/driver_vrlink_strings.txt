@@ -1755,7 +1755,7 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS |F
+RSDSz
 RX Fail:%d
 RaiseException
 Received 0 byte message on control connection. Disconnecting
@@ -2375,7 +2375,7 @@ Zjz\v
 ] is not a JSON object.
 ],"subtype":
 ]1bO
-]c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1644
+]c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1644
 ^lX8k
 _55j
 _Cnd_broadcast
@@ -2606,17 +2606,17 @@ byteLength
 byteOffset
 byteStride
 c!!B0
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2135
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2375
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2487
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1615
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1386
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2135
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2375
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2487
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1615
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
+c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1386
 c=qx
 cAoption requires an argument -- %c
 cAudBufAvg
@@ -3308,6 +3308,7 @@ useOSCFace
 usePool
 useSpecialFloats
 user_interaction_click_info
+uz8i
 vRQ>
 value
 values

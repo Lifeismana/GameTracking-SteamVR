@@ -452,7 +452,6 @@
 /u%d-Shm_%x
 0123456789
 0123456789ABCDEF
-03:24:42
 11CVkTimeline
 12CNonCopyable
 15CVkResourceBase
@@ -460,6 +459,7 @@
 16CVkCommandBuffer
 18CPrismDisplay_Null
 18IPrismPoseProvider
+19:34:21
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
@@ -1317,7 +1317,7 @@ DW.ref._ZTISt9exception
 DW.ref.__gxx_personality_v0
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
-Dec  5 2025
+Dec  9 2025
 December
 DeclareCurrentThreadIsMainThread
 Destroying a held mutex\n
