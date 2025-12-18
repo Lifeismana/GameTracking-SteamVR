@@ -54,7 +54,6 @@ $3br
 (Unable to load LibOVR)
 ***** Reloading Shaders Begin\n
 ***** Reloading Shaders End\n
-*z8i
 , binary size = 
 , but got 
 , column 
@@ -1090,6 +1089,7 @@ generator
 german
 global
 greek
+h=Ci
 hand_right_poses.glb
 handlers
 headset

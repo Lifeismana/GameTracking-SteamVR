@@ -255,7 +255,6 @@ memcmp
 memcpy
 memmove
 memset
-mz8i
 oculus
 ovrHmd_ConfigureTracking failed for %d\n
 ovrHmd_Create failed\n

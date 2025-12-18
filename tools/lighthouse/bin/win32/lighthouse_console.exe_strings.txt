@@ -628,7 +628,6 @@ Batt:
 Boolean default must be true or false.
 Boot to app
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-Bz8i
 C-Yn
 CBaseConfigAndDynamicState
 CDisambiguatorFramer: Non monotonicity in ProcessSensorHit\n
@@ -1143,7 +1142,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDSLz
+RSDS
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1970,7 +1969,6 @@ putchar
 py_generic_services
 queue_overflow
 quit\tQuit\n
-qzPb6
 r2max
 reboot
 reboot\tReboot the connected watchman device.\n

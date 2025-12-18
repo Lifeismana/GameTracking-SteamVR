@@ -557,6 +557,7 @@
 1e+9999
 2.0.0
 32-bit
+4=Ci
 8EC90001F3154F609FB8838830DAEA50
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
@@ -1067,7 +1068,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS
+RSDS3
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n

@@ -212,7 +212,9 @@ Failed to create AllApplicationPackagesSid\n
 Failed to create AllRestrictedApplicationPackagesSid\n
 Failed to create WinBuiltinAnyPackageSid\n
 Failed to set SID on %s\n
+Failed to set a vrlink device registry key.\n
 Fatal
+Fixed a key.\n
 Found %d SteamVR endpoints, %d already have %s disabled.
 Found %d devices.\n
 Found device entry: %s\n
@@ -253,6 +255,7 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 MoveFileExW
+No keys to update.
 Out of thread local storage!\n
 OutputDebugStringA
 PID_2000
@@ -279,6 +282,7 @@ RegDeleteValueA
 RegDeleteValueW
 RegDisableReflectionKey
 RegEnumKeyExA
+RegEnumKeyExW
 RegEnumValueA
 RegGetValueA
 RegGetValueW
@@ -363,6 +367,19 @@ WideCharToMultiByte
 [Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
 [Oxrtools] Unable to write into the OpenXR available runtimes registry key %d
 [Oxrtools] Unable to write the OpenXR ActiveRuntime registry key %d
+[vrlink winregistry] Did not find registry value inside key, this is probably fine.
+[vrlink winregistry] Registry value is already good
+[vrlink winregistry] Registry value is bad, adding to list.
+[vrlink winregistry] Unable to disable key reflection for the device key %d
+[vrlink winregistry] Unable to disable key reflection for the driver key %d %s
+[vrlink winregistry] Unable to disable key reflection for the network class key %d
+[vrlink winregistry] Unable to open a driver key for enumeration %d %s
+[vrlink winregistry] Unable to open the device key for writing %d
+[vrlink winregistry] Unable to open the network class key for enumeration %d
+[vrlink winregistry] While enumerating the network class key children, an error occured %d
+[vrlink winregistry] Writing vrlink driver registry value failed %d
+[vrlink winregistry] Writing vrlink driver registry value succeeded
+[vrlink winregistry] failed to query registry value inside key %d
 \ApiLayers\
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
@@ -465,6 +482,7 @@ failIfExtra
 false
 fclose
 fflush
+fixvrlinkdriverregistry
 fopen
 fputs
 fread
@@ -484,6 +502,7 @@ in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 invalid string position
 keylength >= 2^30
+lstrlenW
 m_nMaxLogBufferingSize > 0
 malloc
 map/set<T> too long

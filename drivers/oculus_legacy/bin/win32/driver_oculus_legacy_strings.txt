@@ -62,7 +62,6 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-.z8i
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -157,7 +156,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS~
+RSDS
 RaiseException
 SDL2.dll
 SDL_CreateWindow
@@ -249,6 +248,7 @@ free
 getenv
 headset
 invalid string position
+l=Ci
 malloc
 map/set<T> too long
 memcpy

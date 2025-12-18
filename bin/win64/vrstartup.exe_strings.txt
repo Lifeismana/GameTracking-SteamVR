@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-11:34:36
+15:31:29
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -220,7 +220,7 @@ CreateDirectoryW
 CreateEventW
 CreateFileW
 CreateProcessA
-Dec  9 2025
+Dec 17 2025
 DeleteCriticalSection
 DeleteFileW
 Detail
@@ -391,7 +391,7 @@ OutputDebugStringA
 Platform handles tutorial / initial home app launch %s. Starting Event Polling...
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSO0O
+RSDS
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey
@@ -732,7 +732,6 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 Watchdog disabled in settings (132)
 WebInterface
 WideCharToMultiByte
-Y\zE
 [PROBLEM] Saving Path Registry failed: 
 [System] New Config Path: 
 [System] New Log Path: 
@@ -988,7 +987,6 @@ vrserver internal error (124)
 vrserver.exe
 vrurlhandler.exe
 vrwebhelper
-wDuJ
 win64
 zh_cn
 zh_tw

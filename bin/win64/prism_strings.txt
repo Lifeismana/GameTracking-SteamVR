@@ -263,7 +263,6 @@
 %s: unsupported format
 %s: usage must be specified when allocating images
 %s[%s] %s file=%s
-%z8i
 ( nVertexCount % 3 ) == 0
 ********** Blue ( nLoopCount++ > 1000 )!\n
 ********** Green ( nLoopCount++ > 1000 )!\n

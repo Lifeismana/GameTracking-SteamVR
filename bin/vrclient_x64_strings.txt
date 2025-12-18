@@ -7801,7 +7801,6 @@ roundf
 ru_ru
 runtime
 russian
-r{8i
 sButtonTexts
 sCaptionText
 sMessageText

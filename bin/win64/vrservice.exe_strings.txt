@@ -498,9 +498,9 @@ $d`D-laM
 0`P0
 0pp@5tqE?|sO541
 1!1'1-191C1E1K1]1a1g1m1s1
-11:34:36
 11M|
 14 (default)
+15:31:29
 1H@H
 1\v5#d
 1bS1
@@ -1484,7 +1484,7 @@ DSTU curve 9
 DVCS
 Data Encipherment
 DcO/lcK+hSK
-Dec  9 2025
+Dec 17 2025
 Decipher Only
 DeleteCriticalSection
 DeleteFiber
@@ -2736,6 +2736,7 @@ T*8U
 T0.S
 T00`P
 T61STRING
+T?Ci
 TELETEXSTRING
 TLS Feature
 TLS Web Client Authentication

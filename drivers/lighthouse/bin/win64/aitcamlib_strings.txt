@@ -104,6 +104,7 @@
 0-pixel image
 1/2/4/8/16-bit only
 5\vqB
+7#\fnR
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -319,7 +320,6 @@ XXXX PNG chunk not known
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
 [Camera] etron::VideoFrameCallbackNoTimestamp(%d,%d)
-\fz8i
 \nbad png sig
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 _Cnd_destroy_in_situ

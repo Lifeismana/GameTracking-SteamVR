@@ -707,7 +707,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS\t
+RSDS
 RaiseException
 ResetEvent
 RootNode
@@ -1184,7 +1184,6 @@ inverseBindMatrices
 isalnum
 it_it
 italian
-iz8i
 ja_jp
 japanese
 joints
