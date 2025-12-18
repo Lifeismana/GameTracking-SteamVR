@@ -92,7 +92,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDS!
+RSDS
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -142,7 +142,6 @@ driver_null: Render Target: %d %d\n
 driver_null: Seconds from Vsync to Photons: %f\n
 driver_null: Serial Number: %s\n
 driver_null: Window: %d %d %d %d\n
-ez8i
 free
 malloc
 memcpy

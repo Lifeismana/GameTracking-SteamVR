@@ -139,7 +139,7 @@ MultiByteToWideChar
 OLEAUT32.dll
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDS\r
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException
@@ -178,6 +178,7 @@ WindowsDeleteString
 WindowsGetStringRawBuffer
 WindowsPreallocateStringBuffer
 WindowsPromoteStringBuffer
+X=Ci
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ

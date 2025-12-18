@@ -2600,7 +2600,6 @@ $3br
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
-19:34:16
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -2704,6 +2703,7 @@ $3br
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:29:52
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -18147,7 +18147,7 @@ Debug utils: disabled, missing entrypoints
 Debug utils: enabled
 DebugDriverLog(char const*, ...)
 DebuggerEnabled
-Dec  9 2025
+Dec 17 2025
 December
 DeclareCurrentThreadIsMainThread
 Default

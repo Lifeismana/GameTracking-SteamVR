@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-11:34:36
+15:31:29
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -262,7 +262,7 @@ CreateFileMappingA
 CreateFileW
 CreateMutexA
 CreateWellKnownSid
-Dec  9 2025
+Dec 17 2025
 DeleteCriticalSection
 DeleteFileW
 Detail
@@ -396,6 +396,7 @@ LoadLibraryA
 LocalAlloc
 LocalFree
 LocalizationManager
+M?Ci
 MGiI
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
@@ -459,7 +460,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSy
+RSDSBmA
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

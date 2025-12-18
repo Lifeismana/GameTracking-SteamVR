@@ -557,7 +557,6 @@ $3br
 18SVLFECRAID6TXFrame
 18SVLHMDDriverVulkan
 18SVLHmdNotConnected
-19:34:21
 19SVLControllerDriver
 1e+9999
 20BinaryBlendPoseMaker
@@ -566,6 +565,7 @@ $3br
 21SVLHandTrackingDriver
 22CKeyframedDataResource
 22IControlConnectionImpl
+23:29:57
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -1839,7 +1839,7 @@ DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*) (.cold)
-Dec  9 2025
+Dec 17 2025
 December
 DeclareCurrentThreadIsMainThread
 DecodeCtbSizeFlag(unsigned int) (.part.0)
@@ -3086,7 +3086,7 @@ NSt6locale5facetE
 NSt6thread11_State_implINS_8_InvokerISt5tupleIJM14SVLDataLinkUDPFPvvEPS3_EEEEEE
 NSt6thread11_State_implINS_8_InvokerISt5tupleIJM6SVLFECFvvEPS3_EEEEEE
 NSt6thread11_State_implINS_8_InvokerISt5tupleIJM7SVLRootFvvEPS3_EEEEEE
-NSt6thread11_State_implINS_8_InvokerISt5tupleIJM9SVLDriverFvvEPS3_EEEEEE
+NSt6thread11_State_implINS_8_InvokerISt5tupleIJM9SVLDriverFvbEPS3_bEEEEEE
 NSt6thread6_StateE
 NSt7__cxx1110moneypunctIcLb0EEE
 NSt7__cxx1110moneypunctIcLb1EEE
@@ -3958,7 +3958,7 @@ SVLDriver::CheckForMissingDrivers()
 SVLDriver::Cleanup()
 SVLDriver::Cleanup() (.cold)
 SVLDriver::DebugRequest(char const*, char*, unsigned int)
-SVLDriver::DongleDriverInstallThreadFunc()
+SVLDriver::DongleDriverAndSettingsUpdateThread(bool)
 SVLDriver::EnterStandby()
 SVLDriver::EventWriteStringNetwork(char*)
 SVLDriver::EventWriteStringNetworkF(char*, ...)
@@ -3973,8 +3973,11 @@ SVLDriver::Init() failed. Returning failure from init so we'll be unloaded.
 SVLDriver::Init()\n
 SVLDriver::Init(vr::IVRDriverContext*)
 SVLDriver::Init(vr::IVRDriverContext*) (.cold)
+SVLDriver::InstallDongleDriver()
 SVLDriver::InternalInitiailizationThread()
 SVLDriver::InternalInitiailizationThread() (.cold)
+SVLDriver::LaunchDongleDriverAndSettingsUpdateThread(bool)
+SVLDriver::LaunchDongleDriverAndSettingsUpdateThread(bool) (.cold)
 SVLDriver::LeaveStandby()
 SVLDriver::OnNewSession(unsigned long)
 SVLDriver::RunFrame()
@@ -3985,10 +3988,9 @@ SVLDriver::SendDashboardTabs(bool) (.cold)
 SVLDriver::ShouldBlockStandbyMode()
 SVLDriver::TrackedDeviceIdFromCompactDeviceIndex(unsigned int)
 SVLDriver::TrackedDeviceIdFromCompactDeviceIndex(unsigned int) (.part.0)
-SVLDriver::TriggerDongleDriverInstall()
-SVLDriver::TriggerDongleDriverInstall() (.cold)
 SVLDriver::UpdateConnectionQuitEvent()
 SVLDriver::UpdateConnectionQuitEvent() (.cold)
+SVLDriver::UpdateDongleDriverSettings()
 SVLDriver::UpdateNetworkInfo()
 SVLDriver::UpdateOGSStatistics()
 SVLDriver::UpdateOGSStatistics() (.cold)
@@ -11101,8 +11103,8 @@ std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDriver::Init(vr::IV
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDriver::Init(vr::IVRDriverContext*)::'lambda0'()>>>::~_State_impl()
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<videovulkan::SetupEncoder()::'lambda'()>>>::_M_run()
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<videovulkan::SetupEncoder()::'lambda'()>>>::~_State_impl()
-std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLDriver::*)(), SVLDriver*>>>::_M_run()
-std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLDriver::*)(), SVLDriver*>>>::~_State_impl()
+std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLDriver::*)(bool), SVLDriver*, bool>>>::_M_run()
+std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLDriver::*)(bool), SVLDriver*, bool>>>::~_State_impl()
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLFEC::*)(), SVLFEC*>>>::_M_run()
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLFEC::*)(), SVLFEC*>>>::~_State_impl()
 std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLRoot::*)(), SVLRoot*>>>::_M_run()
@@ -12028,7 +12030,7 @@ typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioP
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDebugPane::Update()::'lambda'()>>>
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDriver::Init(vr::IVRDriverContext*)::'lambda0'()>>>
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<videovulkan::SetupEncoder()::'lambda'()>>>
-typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLDriver::*)(), SVLDriver*>>>
+typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLDriver::*)(bool), SVLDriver*, bool>>>
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLFEC::*)(), SVLFEC*>>>
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLRoot::*)(), SVLRoot*>>>
 typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void* (SVLDataLinkUDP::*)(), SVLDataLinkUDP*>>>
@@ -12406,7 +12408,7 @@ typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLA
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDebugPane::Update()::'lambda'()>>>
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDriver::Init(vr::IVRDriverContext*)::'lambda0'()>>>
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<videovulkan::SetupEncoder()::'lambda'()>>>
-typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLDriver::*)(), SVLDriver*>>>
+typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLDriver::*)(bool), SVLDriver*, bool>>>
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLFEC::*)(), SVLFEC*>>>
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLRoot::*)(), SVLRoot*>>>
 typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void* (SVLDataLinkUDP::*)(), SVLDataLinkUDP*>>>
@@ -13923,7 +13925,7 @@ vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLAudioPip
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDebugPane::Update()::'lambda'()>>>
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<SVLDriver::Init(vr::IVRDriverContext*)::'lambda0'()>>>
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<videovulkan::SetupEncoder()::'lambda'()>>>
-vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLDriver::*)(), SVLDriver*>>>
+vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLDriver::*)(bool), SVLDriver*, bool>>>
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLFEC::*)(), SVLFEC*>>>
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (SVLRoot::*)(), SVLRoot*>>>
 vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void* (SVLDataLinkUDP::*)(), SVLDataLinkUDP*>>>

@@ -593,9 +593,9 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-11:34:36
 126.0.0-HEAD.3131+g8482cf1+chromium-126.0.6478.183
 127.0.0.1
+15:31:29
 1e+9999
 5I)7
 7^d[L
@@ -832,7 +832,7 @@ DXGI1: Failed to find matching adapter!\n\n
 Debug
 DebuggerEnabled
 DebuggerPort
-Dec  9 2025
+Dec 17 2025
 Default
 DeleteCriticalSection
 DeleteFileW
@@ -1338,7 +1338,7 @@ QueryPerformanceFrequency
 QuitSceneApp
 QuitSteamVR
 RPCRT4.dll
-RSDS6y
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -2314,6 +2314,7 @@ create_overlays
 cs_cz
 czech
 d3d11.dll
+d9]5I
 da_dk
 danish
 dashboard
@@ -2525,6 +2526,7 @@ pt_br
 pt_pt
 punct
 qMFCreateMediaType failed hr = 0x%08x\n
+r?Ci
 realloc
 reject
 rejectDupKeys

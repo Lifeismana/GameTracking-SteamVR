@@ -95,6 +95,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
+<7OH
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -136,7 +137,7 @@ MSVCP140.dll
 MainThrd
 Out of thread local storage!\n
 QueryPerformanceCounter
-RSDS
+RSDS<
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -174,7 +175,6 @@ TlsAlloc
 TlsFree
 UnhandledExceptionFilter
 Unknown exception
-Uz8i
 VCRUNTIME140.dll
 WakeAllConditionVariable
 _Cnd_destroy

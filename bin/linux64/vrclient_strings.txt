@@ -1387,7 +1387,6 @@ $tI(kn
 18CVRResourcesLatest
 18CVRScreenshots_001
 18CVRSharedGLTexture
-19:34:21
 19CDownsampleRenderer
 19CInputFilter_XRDPad
 19CPathManager_Client
@@ -1510,6 +1509,7 @@ $tI(kn
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:29:57
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -17853,7 +17853,7 @@ DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebuggerEnabled
-Dec  9 2025
+Dec 17 2025
 December
 DeclareCurrentThreadIsMainThread
 Default

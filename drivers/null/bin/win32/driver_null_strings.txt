@@ -1,4 +1,3 @@
-%z8i
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -91,7 +90,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDSP
+RSDS
 SetUnhandledExceptionFilter
 TerminateProcess
 UnhandledExceptionFilter
@@ -132,6 +131,7 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
+d=Ci
 displayFrequency
 driver_null
 driver_null.dll

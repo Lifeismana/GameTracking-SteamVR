@@ -257,7 +257,7 @@ $3br
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLAudioWSAPI@@EAAPEAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLAudioWSAPI@@EAAPEAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLDataLinkUDP@@EAAPEAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLDataLinkUDP@@EAAPEAXXZPEAV1@@std@@@2@@std@@@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLDriver@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLDriver@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLDriver@@EAAX_N@ZPEAV1@_N@std@@U?$default_delete@V?$tuple@P8SVLDriver@@EAAX_N@ZPEAV1@_N@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLFEC@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLFEC@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLRoot@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLRoot@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8videoamfenc@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8videoamfenc@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
@@ -670,6 +670,7 @@ $3br
 5I)7
 6-nn
 6666666666666666\\\\\\\\\\\\\\\\
+7[4ka
 7^d[L
 7nY7m
 7~iz
@@ -795,6 +796,7 @@ $3br
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@Tjepf
 @fff>fff>fff>fff>
 @jAjB
 @option requires an argument -- %c
@@ -1755,7 +1757,7 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDSz
+RSDS
 RX Fail:%d
 RaiseException
 Received 0 byte message on control connection. Disconnecting
@@ -1768,7 +1770,10 @@ Received mirror stop event\n
 ReceivedHMDStaticProps. Model Number: %s, Serial Number: %s (%d)
 Refreshing audio devices\n
 RegCloseKey
+RegDisableReflectionKey
+RegEnumKeyExW
 RegEnumValueW
+RegGetValueW
 RegOpenKeyExW
 RegQueryValueExW
 RegisterClassA
@@ -2145,6 +2150,7 @@ VR Path Registry node %s is not an array\n
 VRAudioDevices_Init
 VRLINK_EVENT_QUIT
 VRLink Driver Install
+VRLink Driver Settings
 VRLink Hand Tracker (Left Hand)
 VRLink Hand Tracker (Right Hand)
 VRLinkRX
@@ -2332,9 +2338,25 @@ Zjz\v
 [SVL] !!!! AcquireSync FAILED with WAIT_TIMEOUT
 [SVL] !!!! AcquireSync FAILED with unknown hr
 [System] Calling %s %s failed with error code %d\n
+[System] Calling %s %s succeeded, but log file was empty\n
 [json.exception.
+[vrlink winregistry] Did not find registry value inside key, this is probably fine.
+[vrlink winregistry] Registry value is already good
+[vrlink winregistry] Registry value is bad, adding to list.
+[vrlink winregistry] Unable to disable key reflection for the driver key %d %s
+[vrlink winregistry] Unable to disable key reflection for the network class key %d
+[vrlink winregistry] Unable to open a driver key for enumeration %d %s
+[vrlink winregistry] Unable to open the network class key for enumeration %d
+[vrlink winregistry] While enumerating the network class key children, an error occured %d
+[vrlink winregistry] failed to query registry value inside key %d
 [vrlink] !!!! ReleaseSync FAILED with E_FAIL
 [vrlink] !!!! ReleaseSync FAILED with unknown hr
+[vrlink] Confirmed all dongle driver entries had their settings updated correctly.
+[vrlink] Did not find network device class keys to update.
+[vrlink] Driver settings update declined by the user.\n
+[vrlink] Found %d driver class keys to update.
+[vrlink] Not all dongle driver entries had their settings updated correctly. %d/%d
+[vrlink] RunRemoveUsbHelper exited with %d
 \44h
 \frrrrrrrrrrrrrrrr
 \mfpmp.exe
@@ -2795,6 +2817,7 @@ fi_fi
 fields
 finnish
 first not IHDR
+fixvrlinkdriverregistry
 fminf
 fopen
 force10bit
@@ -3127,6 +3150,8 @@ recv failed with error: %d\n
 refDistance
 rejectDupKeys
 remote_dashboard_open
+removeusbhelper.exe
+removeusbhelper.exe.log
 renderHeight
 renderModelName
 renderWidth
@@ -3308,7 +3333,6 @@ useOSCFace
 usePool
 useSpecialFloats
 user_interaction_click_info
-uz8i
 vRQ>
 value
 values

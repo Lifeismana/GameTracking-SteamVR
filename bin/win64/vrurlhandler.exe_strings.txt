@@ -201,7 +201,6 @@ CreateFileMappingA
 CreateMutexA
 CreateProcessA
 CreateWellKnownSid
-DK([P
 DeleteCriticalSection
 DismissedWarnings
 Duplicate key: '
@@ -294,7 +293,7 @@ Out of thread local storage!\n
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
 QueryPerformanceCounter
-RSDSGl`
+RSDS}
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -567,6 +566,7 @@ rejectDupKeys
 resources
 round
 runtime
+s3(5;
 server
 settings
 stackLimit

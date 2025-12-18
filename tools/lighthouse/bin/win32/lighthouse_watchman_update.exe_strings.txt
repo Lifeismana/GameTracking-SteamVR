@@ -483,7 +483,6 @@ HidD_GetProductString
 HidD_GetSerialNumberString
 HidD_SetFeature
 HidP_GetCaps
-Hz8i
 ICE40
 ISP-ETRON-776
 ISP-ETRON-876
