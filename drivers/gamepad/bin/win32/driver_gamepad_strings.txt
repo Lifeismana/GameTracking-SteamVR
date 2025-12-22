@@ -134,7 +134,7 @@ MSVCP140.dll
 MainThrd
 Out of thread local storage!\n
 QueryPerformanceCounter
-RSDS=
+RSDS8V|R-
 RaiseException
 SDL2.dll
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD
@@ -165,7 +165,6 @@ SetEnvironmentVariableA
 SetUnhandledExceptionFilter
 Skipping controller %d because it has the Valve VID\n
 SleepConditionVariableCS
-T=Ci
 TerminateProcess
 TlsAlloc
 TlsFree

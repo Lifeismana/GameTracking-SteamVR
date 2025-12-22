@@ -485,6 +485,7 @@ $d`D-laM
 /Update
 /Update "%s" "%s"
 0 Umv
+00:42:27
 0123456789
 0123456789.
 0123456789.:abcdefABCDEF
@@ -500,7 +501,6 @@ $d`D-laM
 1!1'1-191C1E1K1]1a1g1m1s1
 11M|
 14 (default)
-15:31:29
 1H@H
 1\v5#d
 1bS1
@@ -1484,7 +1484,7 @@ DSTU curve 9
 DVCS
 Data Encipherment
 DcO/lcK+hSK
-Dec 17 2025
+Dec 22 2025
 Decipher Only
 DeleteCriticalSection
 DeleteFiber
@@ -2736,7 +2736,6 @@ T*8U
 T0.S
 T00`P
 T61STRING
-T?Ci
 TELETEXSTRING
 TLS Feature
 TLS Web Client Authentication

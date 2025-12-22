@@ -634,7 +634,6 @@ Boolean default must be true or false.
 Boot to app
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C-Yn
-C>Ci
 CBaseConfigAndDynamicState
 CDisambiguatorFramer: Non monotonicity in ProcessSensorHit\n
 CHECK failed: !coded_out.HadError(): 
@@ -1148,7 +1147,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS
+RSDS5<b
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1396,7 +1395,6 @@ Writing... %s\n
 Wrote %d bytes to %s\n
 Wrote 0x%X to 0x%X\n
 Wrote the contents of %s as the config on the device\n
-Xj9d.
 XsBI
 Zjz\v
 [h1R

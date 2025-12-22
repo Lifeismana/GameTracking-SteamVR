@@ -1,4 +1,4 @@
-var CLSTAMP = "10326473";
+var CLSTAMP = "10334134";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [170],
   {
@@ -411,7 +411,7 @@ var CLSTAMP = "10326473";
       "use strict";
       i.d(t, {
         $Z: () => ge,
-        Bf: () => q,
+        Bf: () => K,
         Bn: () => M,
         Bz: () => h,
         C6: () => y,
@@ -427,7 +427,7 @@ var CLSTAMP = "10326473";
         Ju: () => Y,
         Kh: () => d,
         MM: () => a,
-        NX: () => D,
+        NX: () => E,
         Ni: () => T,
         P: () => H,
         Pi: () => _e,
@@ -460,8 +460,8 @@ var CLSTAMP = "10326473";
         l3: () => n,
         lP: () => ne,
         mB: () => m,
-        md: () => K,
-        nJ: () => X,
+        md: () => q,
+        nJ: () => Q,
         nY: () => I,
         np: () => o,
         qf: () => z,
@@ -472,7 +472,7 @@ var CLSTAMP = "10326473";
         ui: () => le,
         uv: () => N,
         v0: () => l,
-        vo: () => Q,
+        vo: () => X,
         w5: () => G,
         wi: () => F,
         wt: () => B,
@@ -481,7 +481,7 @@ var CLSTAMP = "10326473";
         x_: () => me,
         xz: () => ie,
         yl: () => re,
-        zM: () => E,
+        zM: () => D,
       });
       const o = "openvr.tool.steamvr_environments",
         r = "system.generated.steam.exe",
@@ -514,8 +514,8 @@ var CLSTAMP = "10326473";
         L = y + "::" + N,
         R = 2.667 / 1694,
         k = "DashboardControlStripTransform",
-        D = "DashboardGrabHandleTransform",
-        E = "DashboardOverlayControlBarOrigin",
+        E = "DashboardGrabHandleTransform",
+        D = "DashboardOverlayControlBarOrigin",
         O = "DashboardGrabHandleTransform_Legacy",
         z = "/settings/steamvr/enableHomeApp",
         B = "/settings/steamvr/supersampleManualOverride",
@@ -528,11 +528,11 @@ var CLSTAMP = "10326473";
         J = "/settings/driver_lighthouse/indexHmdColumnCorrection",
         A = "/settings/steamvr/showAdvancedSettings",
         j = "/settings/dashboard/lastAccessedExternalOverlayKey",
-        q = "/settings/internal/dashboardInitialOverlay",
-        K = "/settings/dashboard/position_2",
+        K = "/settings/internal/dashboardInitialOverlay",
+        q = "/settings/dashboard/position_2",
         Y = "/settings/dashboard/theaterCurvature",
-        Q = "/settings/dashboard/theaterScreenSize",
-        X = "/settings/dashboard/unifiedDashboard",
+        X = "/settings/dashboard/theaterScreenSize",
+        Q = "/settings/dashboard/unifiedDashboard",
         $ = "/settings/dashboard/theaterScreenAlignment",
         ee = "/settings/collisionBounds/CollisionBoundsFadeDistance",
         te = "/settings/camera/roomView",
@@ -608,6 +608,12 @@ var CLSTAMP = "10326473";
                         scale_index: (0, d.HX)(p.$z.Dashboard),
                       },
                       s.createElement(a.gU, null),
+                      s.createElement(o.rF, {
+                        mountedId: (0, o.nX)(
+                          l.cb,
+                          t.overlay.sOverlayKey + ".cursor",
+                        ),
+                      }),
                     ),
                   ),
                 )
@@ -916,8 +922,8 @@ var CLSTAMP = "10326473";
           L,
           R,
           k,
-          D,
           E,
+          D,
           O,
           z,
           B,
@@ -930,14 +936,14 @@ var CLSTAMP = "10326473";
           J,
           A,
           j,
-          q;
-        const { popupRequest: K, children: Y } = e,
-          Q = (0, o.Tt)(e, ["popupRequest", "children"]),
-          X = {
+          K;
+        const { popupRequest: q, children: Y } = e,
+          X = (0, o.Tt)(e, ["popupRequest", "children"]),
+          Q = {
             x:
               null !==
                 (i =
-                  null === (t = null == K ? void 0 : K.origin_on_parent) ||
+                  null === (t = null == q ? void 0 : q.origin_on_parent) ||
                   void 0 === t
                     ? void 0
                     : t.x) && void 0 !== i
@@ -946,7 +952,7 @@ var CLSTAMP = "10326473";
             y:
               null !==
                 (d =
-                  null === (a = null == K ? void 0 : K.origin_on_parent) ||
+                  null === (a = null == q ? void 0 : q.origin_on_parent) ||
                   void 0 === a
                     ? void 0
                     : a.y) && void 0 !== d
@@ -957,7 +963,7 @@ var CLSTAMP = "10326473";
             x:
               null !==
                 (h =
-                  null === (p = null == K ? void 0 : K.origin_on_popup) ||
+                  null === (p = null == q ? void 0 : q.origin_on_popup) ||
                   void 0 === p
                     ? void 0
                     : p.x) && void 0 !== h
@@ -966,7 +972,7 @@ var CLSTAMP = "10326473";
             y:
               null !==
                 (C =
-                  null === (g = null == K ? void 0 : K.origin_on_popup) ||
+                  null === (g = null == q ? void 0 : q.origin_on_popup) ||
                   void 0 === g
                     ? void 0
                     : g.y) && void 0 !== C
@@ -977,7 +983,7 @@ var CLSTAMP = "10326473";
             u:
               null !==
                 (y =
-                  null === (_ = null == K ? void 0 : K.clip_rect) ||
+                  null === (_ = null == q ? void 0 : q.clip_rect) ||
                   void 0 === _
                     ? void 0
                     : _.u_min) && void 0 !== y
@@ -986,7 +992,7 @@ var CLSTAMP = "10326473";
             v:
               null !==
                 (S =
-                  null === (f = null == K ? void 0 : K.clip_rect) ||
+                  null === (f = null == q ? void 0 : q.clip_rect) ||
                   void 0 === f
                     ? void 0
                     : f.v_min) && void 0 !== S
@@ -997,7 +1003,7 @@ var CLSTAMP = "10326473";
             u:
               null !==
                 (w =
-                  null === (b = null == K ? void 0 : K.clip_rect) ||
+                  null === (b = null == q ? void 0 : q.clip_rect) ||
                   void 0 === b
                     ? void 0
                     : b.u_max) && void 0 !== w
@@ -1006,7 +1012,7 @@ var CLSTAMP = "10326473";
             v:
               null !==
                 (V =
-                  null === (x = null == K ? void 0 : K.clip_rect) ||
+                  null === (x = null == q ? void 0 : q.clip_rect) ||
                   void 0 === x
                     ? void 0
                     : x.v_max) && void 0 !== V
@@ -1017,7 +1023,7 @@ var CLSTAMP = "10326473";
             x:
               null !==
                 (I =
-                  null === (F = null == K ? void 0 : K.offset) || void 0 === F
+                  null === (F = null == q ? void 0 : q.offset) || void 0 === F
                     ? void 0
                     : F.x_pixels) && void 0 !== I
                 ? I
@@ -1025,7 +1031,7 @@ var CLSTAMP = "10326473";
             y:
               null !==
                 (H =
-                  null === (M = null == K ? void 0 : K.offset) || void 0 === M
+                  null === (M = null == q ? void 0 : q.offset) || void 0 === M
                     ? void 0
                     : M.y_pixels) && void 0 !== H
                 ? H
@@ -1033,7 +1039,7 @@ var CLSTAMP = "10326473";
             z:
               null !==
                 (L =
-                  null === (N = null == K ? void 0 : K.offset) || void 0 === N
+                  null === (N = null == q ? void 0 : q.offset) || void 0 === N
                     ? void 0
                     : N.z_pixels) && void 0 !== L
                 ? L
@@ -1043,23 +1049,23 @@ var CLSTAMP = "10326473";
             x:
               null !==
                 (k =
-                  null === (R = null == K ? void 0 : K.offset) || void 0 === R
+                  null === (R = null == q ? void 0 : q.offset) || void 0 === R
                     ? void 0
                     : R.x_meters) && void 0 !== k
                 ? k
                 : 0,
             y:
               null !==
-                (E =
-                  null === (D = null == K ? void 0 : K.offset) || void 0 === D
+                (D =
+                  null === (E = null == q ? void 0 : q.offset) || void 0 === E
                     ? void 0
-                    : D.y_meters) && void 0 !== E
-                ? E
+                    : E.y_meters) && void 0 !== D
+                ? D
                 : 0,
             z:
               null !==
                 (z =
-                  null === (O = null == K ? void 0 : K.offset) || void 0 === O
+                  null === (O = null == q ? void 0 : q.offset) || void 0 === O
                     ? void 0
                     : O.z_meters) && void 0 !== z
                 ? z
@@ -1069,7 +1075,7 @@ var CLSTAMP = "10326473";
             x:
               null !==
                 (G =
-                  null === (B = null == K ? void 0 : K.rotation) || void 0 === B
+                  null === (B = null == q ? void 0 : q.rotation) || void 0 === B
                     ? void 0
                     : B.pitch_degrees) && void 0 !== G
                 ? G
@@ -1077,40 +1083,40 @@ var CLSTAMP = "10326473";
             y:
               null !==
                 (T =
-                  null === (P = null == K ? void 0 : K.rotation) || void 0 === P
+                  null === (P = null == q ? void 0 : q.rotation) || void 0 === P
                     ? void 0
                     : P.yaw_degrees) && void 0 !== T
                 ? T
                 : 0,
           },
           ne =
-            null === (U = null == K ? void 0 : K.inherit_parent_pitch) ||
+            null === (U = null == q ? void 0 : q.inherit_parent_pitch) ||
             void 0 === U ||
             U,
           se =
-            null === (Z = null == K ? void 0 : K.inherit_parent_curvature) ||
+            null === (Z = null == q ? void 0 : q.inherit_parent_curvature) ||
             void 0 === Z ||
             Z,
           ae =
-            null === (W = null == K ? void 0 : K.interactive) ||
+            null === (W = null == q ? void 0 : q.interactive) ||
             void 0 === W ||
             W,
           le =
-            null !== (J = null == K ? void 0 : K.requires_laser) &&
+            null !== (J = null == q ? void 0 : q.requires_laser) &&
             void 0 !== J &&
             J;
         let de =
           null !==
             (j =
-              null === (A = null == K ? void 0 : K.scale) || void 0 === A
+              null === (A = null == q ? void 0 : q.scale) || void 0 === A
                 ? void 0
                 : A.scaler_value) && void 0 !== j
             ? j
             : 1;
         const pe =
             1 ==
-            (null !== (q = null == K ? void 0 : K.sort_order) && void 0 !== q
-              ? q
+            (null !== (K = null == q ? void 0 : q.sort_order) && void 0 !== K
+              ? K
               : 0)
               ? 101
               : null,
@@ -1133,7 +1139,7 @@ var CLSTAMP = "10326473";
               n >= 0
               ? -0.5
               : 0;
-          })(K);
+          })(q);
         n.useLayoutEffect(
           () => r.O5.Current().forceLayoutUpdate(),
           [ee.u, ee.v, te.u, te.v],
@@ -1151,40 +1157,40 @@ var CLSTAMP = "10326473";
                 r.Zk,
                 Object.assign(
                   {
-                    debug_name: `VRGamepadUI-PooledPopup-${null == K ? void 0 : K.dashboard_popup_id}`,
+                    debug_name: `VRGamepadUI-PooledPopup-${null == q ? void 0 : q.dashboard_popup_id}`,
                     interactive: ae,
                     requires_laser: le,
                     curvature: se ? "inherit-from-parent-panel" : void 0,
-                    overlay_key: null == K ? void 0 : K.popup_overlay_key,
+                    overlay_key: null == q ? void 0 : q.popup_overlay_key,
                     origin: $,
                     meters_per_pixel: l.SW.m_fVRGamepadUI_MetersPerPixel * de,
-                    reflect: v(K),
+                    reflect: v(q),
                     sort_depth_bias: ue,
                     uv_min: ee,
                     uv_max: te,
                     sort_order: pe,
                   },
-                  Q,
+                  X,
                 ),
                 Y,
               ),
             ),
           ),
         );
-        return (null == K ? void 0 : K.parent_overlay_key)
+        return (null == q ? void 0 : q.parent_overlay_key)
           ? n.createElement(
               r.b$,
-              { parent_overlay_key: null == K ? void 0 : K.parent_overlay_key },
+              { parent_overlay_key: null == q ? void 0 : q.parent_overlay_key },
               n.createElement(
                 r.Ci,
-                { key: K.dashboard_popup_id, location: X },
+                { key: q.dashboard_popup_id, location: Q },
                 ce,
               ),
             )
-          : (null == K ? void 0 : K.parent_device_path)
+          : (null == q ? void 0 : q.parent_device_path)
             ? n.createElement(
                 r.dL,
-                { parent_path: null == K ? void 0 : K.parent_device_path },
+                { parent_path: null == q ? void 0 : q.parent_device_path },
                 ce,
               )
             : ce;

@@ -723,6 +723,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 /vivehub
 /vivepro2
 /wmr
+00:42:27
 0123456789ABCDEF
 0:00
 0x%016llx
@@ -731,7 +732,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-15:31:29
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -1335,7 +1335,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 6\n?data@QMimeData@@QEBA?AVQByteArray@@AEBVQString@@@Z
 7\n?data@QModelIndex@@QEBA?AVQVariant@@H@Z
 7^d[L
-8?Ci
 8\t?convert@QVariant@@QEBA_NHPEAX@Z
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -3741,7 +3740,7 @@ D\t?boundingRect@QRegion@@QEBA?AVQRect@@XZ
 D\v?endsWith@QByteArray@@QEBA_ND@Z
 DashboardVisibleTime
 DebuggerEnabled
-Dec 17 2025
+Dec 22 2025
 Default Playback Audio Devices: %s, %s (Comm)\n
 Default Record Audio Device: %s, %s (Comm)\n
 Delay done\n
@@ -5935,7 +5934,7 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS
+RSDSc
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
 R\vpt

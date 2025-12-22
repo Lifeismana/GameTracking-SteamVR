@@ -888,6 +888,7 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+08:42:34
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -976,7 +977,6 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
-23:29:57
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -3808,7 +3808,7 @@ Data len %d\r\n
 DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
-Dec 17 2025
+Dec 22 2025
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -13990,7 +13990,6 @@ roughnessFactor
 ru_ru
 runtime
 russian
-s'Z\1
 s_Distortion_Type
 s_Eye
 s_FirmwarePropertyKeys
