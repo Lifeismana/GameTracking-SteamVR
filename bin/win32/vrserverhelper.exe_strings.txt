@@ -85,7 +85,7 @@ OLEAUT32.dll
 PathCchAppend
 PathRemoveFileSpecW
 QueryPerformanceCounter
-RSDS+
+RSDSD
 ResetEvent
 SHLWAPI.dll
 SetEvent
@@ -170,3 +170,4 @@ string too long
 strstr
 terminate
 vector<T> too long
+~Uwc

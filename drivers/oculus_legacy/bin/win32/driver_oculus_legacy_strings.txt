@@ -156,7 +156,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS
+RSDS-^c[
 RaiseException
 SDL2.dll
 SDL_CreateWindow
@@ -248,7 +248,6 @@ free
 getenv
 headset
 invalid string position
-l=Ci
 malloc
 map/set<T> too long
 memcpy

@@ -85,11 +85,10 @@ LeaveCriticalSection
 LocalFree
 MSVCP140.dll
 OLEAUT32.dll
-P?Ci
 PathCchAppend
 PathRemoveFileSpecW
 QueryPerformanceCounter
-RSDS.3
+RSDS]Q1Qy>
 ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry

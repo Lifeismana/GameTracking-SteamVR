@@ -90,7 +90,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDS
+RSDS|
 SetUnhandledExceptionFilter
 TerminateProcess
 UnhandledExceptionFilter
@@ -131,7 +131,6 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\null\Retail\win32\2017\driver_null.pdb
-d=Ci
 displayFrequency
 driver_null
 driver_null.dll

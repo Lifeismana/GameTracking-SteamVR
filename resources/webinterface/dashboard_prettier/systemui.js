@@ -1,4 +1,4 @@
-var CLSTAMP = "10326473";
+var CLSTAMP = "10334134";
 (() => {
   var e,
     t = {
@@ -1995,6 +1995,12 @@ var CLSTAMP = "10326473";
                             scale_index: (0, c.HX)(u.$z.Dashboard),
                           },
                           s.createElement(l.gU, null),
+                          s.createElement(i.rF, {
+                            mountedId: (0, i.nX)(
+                              d.cb,
+                              t.overlay.sOverlayKey + ".cursor",
+                            ),
+                          }),
                         ),
                       ),
                     )
@@ -4516,7 +4522,7 @@ var CLSTAMP = "10326473";
                     s.OH[(0, s.R$)()],
                 );
               console.log("Bootstrapping " + e, i);
-              const a = 1e3 * (null !== (t = 1766014229) ? t : 0);
+              const a = 1e3 * (null !== (t = 1766392966) ? t : 0);
               console.log(
                 "SteamVR Version Info: " +
                   JSON.stringify({

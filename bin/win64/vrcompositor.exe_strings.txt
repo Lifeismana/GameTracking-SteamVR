@@ -926,6 +926,7 @@ $4DTdt
 0 width
 0-pixel image
 00003333
+00:42:27
 0123456789ABCDEF
 0123456789ABCDEFundefined
 0x%02x 
@@ -933,7 +934,6 @@ $4DTdt
 1.5.26
 1/2/4/8/16-bit only
 123456789
-15:31:29
 1A26b
 1e+9999
 1wsHp
@@ -1582,7 +1582,7 @@ Dashboard Gaussian Blur V
 Dashboard View (Mirror Overlay)
 Dashboard tutorial requested\n
 Debug lines
-Dec 17 2025
+Dec 22 2025
 DefWindowProcW
 DeleteCriticalSection
 DeleteFileW
