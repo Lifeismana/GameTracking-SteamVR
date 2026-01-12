@@ -19,13 +19,26 @@ message CVRGamepadUI_Frame {
 	optional uint32 frame_id = 1;
 	optional .CVRGamepadUI_Frame_FrameMenu menu = 2;
 	repeated .CVRGamepadUIShared_Action defined_actions = 3;
+	optional .CVRGamepadUI_Frame_FrameControls controls = 4;
 	optional string tmp_title = 1000;
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Frame_FrameControls {
+	repeated .CVRGamepadUI_Frame_FrameControls_Item items_for_bottom_frame_controls = 1;
+	repeated .CVRGamepadUI_Frame_FrameControls_Item items_for_tab_hover_menu = 2;
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Frame_FrameControls_Item {
+	optional int32 type = 1 [(.description) = "enum"];
+	optional uint32 action_id = 2;
 }
 
 // Used by: common.proto
 message CVRGamepadUI_Frame_FrameMenu {
 	repeated .CVRGamepadUI_Frame_FrameMenu_Item items_for_left_frame_menu = 1;
-	repeated .CVRGamepadUI_Frame_FrameMenu_Item items_for_tab_frame_menu = 2;
+	repeated .CVRGamepadUI_Frame_FrameMenu_Item items_for_tab_hover_menu = 2;
 }
 
 // Used by: common.proto
@@ -63,9 +76,10 @@ message CVRGamepadUI_Message_DashboardTabClicked_Response {
 }
 
 message CVRGamepadUI_Message_Error_Response {
-	optional int32 error = 1 [(.description) = "enum"];
-	optional string description = 2;
+	optional int32 error_code = 1 [(.description) = "enum"];
+	optional string error_description = 2;
 	optional int32 origin = 3 [(.description) = "enum"];
+	optional bool was_transmitted = 4;
 }
 
 message CVRGamepadUI_Message_ExecuteSteamURL_Request {
@@ -103,6 +117,13 @@ message CVRGamepadUI_Message_RemoteVideoStream_Request {
 message CVRGamepadUI_Message_RemoteVideoStream_Response {
 }
 
+message CVRGamepadUI_Message_SetCurrentLanguage_Request {
+	optional string language = 1;
+}
+
+message CVRGamepadUI_Message_SetCurrentLanguage_Response {
+}
+
 message CVRGamepadUI_Message_SetDisplayBrightness_Request {
 	optional float user_brightness_value = 1;
 }
@@ -127,6 +148,7 @@ message CVRGamepadUI_Message_ShowDashboardPopup_Request {
 	optional int32 sort_order = 14 [(.description) = "enum"];
 	optional int32 parent_enum = 15 [(.description) = "enum"];
 	optional int32 special_identifier = 16 [(.description) = "enum"];
+	optional .CVRGamepadUI_Message_ShowDashboardPopup_Request_Scale scale = 17;
 }
 
 // Used by: common.proto
@@ -157,6 +179,11 @@ message CVRGamepadUI_Message_ShowDashboardPopup_Request_Rect {
 message CVRGamepadUI_Message_ShowDashboardPopup_Request_Rotation {
 	optional float pitch_degrees = 1;
 	optional float yaw_degrees = 2;
+}
+
+// Used by: common.proto
+message CVRGamepadUI_Message_ShowDashboardPopup_Request_Scale {
+	optional float scaler_value = 1;
 }
 
 message CVRGamepadUI_Message_ShowDashboardPopup_Response {
@@ -311,5 +338,6 @@ message CVRGamepadUIShared_PathProperty_PowerOptions {
 message CVRGamepadUIShared_PathProperty_VRVersionInfo {
 	optional string version = 1;
 	optional uint32 webpack_build_timestamp = 2;
+	optional string hmd_tracking_info = 3;
 }
 

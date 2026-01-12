@@ -277,6 +277,31 @@ enum UnnamedEnum347c25282ff52ed7
 	QuickRecenter = 4;
 }
 
+enum UnnamedEnum35e460cd47e8a963
+{
+	UseGlobal = 0;
+	ForceOn = 1;
+	ForceOff = 2;
+}
+
+enum UnnamedEnum370fea7da2f80997
+{
+	Debug = 0;
+	Info = 1;
+	Warning = 2;
+	Error = 3;
+}
+
+enum UnnamedEnum38d08ba2abd77269
+{
+	Invalid = 0;
+	RecenterCountdown = 1;
+	FloorAdjustExisting = 2;
+	RoomSetupFloor = 3;
+	ClearRoomSetup = 4;
+	RoomSetupFull = 5;
+}
+
 enum UnnamedEnum3bb59186658bc83b
 {
 	Off = 0;
@@ -408,12 +433,6 @@ enum UnnamedEnum630e76abaca189fa
 	BaseIncrementingIDOffset = BinaryExpression;
 }
 
-enum UnnamedEnum64d35f6c1483de1d
-{
-	Center = 0;
-	Fill = 1;
-}
-
 enum UnnamedEnum67c41e660ca567fa
 {
 	DEFAULT = 0;
@@ -472,6 +491,14 @@ enum UnnamedEnum77eda7ea77305d07
 	Middle = 1;
 	Far = 2;
 	VRGamepadUI = 3;
+}
+
+enum UnnamedEnum7be95ff064342b83
+{
+	None = 0;
+	Circle = 1;
+	Drawn = 2;
+	Full = 3;
 }
 
 enum UnnamedEnum7d2ed42d502bc719
@@ -552,6 +579,12 @@ enum UnnamedEnum92e98869ec1045b4
 	Failure = 2;
 }
 
+enum UnnamedEnum97b9784b51946a4e
+{
+	Parent = 0;
+	World = 1;
+}
+
 enum UnnamedEnum9c58af1a5b59aa9f
 {
 	HorizontalPips = 0;
@@ -597,188 +630,7 @@ enum UnnamedEnumaa7aedb528305bef
 	Horizontal = 2;
 }
 
-enum UnnamedEnumb0f99e67f3ec880b
-{
-	NONE = 0;
-	LOG = 1;
-	BREAK = 2;
-}
-
-enum UnnamedEnumb2e68253b585c6cd
-{
-	Default = 0;
-	MouseDown = 1;
-	Dragging = 2;
-	Thrown = 3;
-}
-
-enum UnnamedEnumb4fc6272ecae30fa
-{
-	Default = 1;
-	Floor = 2;
-}
-
-enum UnnamedEnumb823418b6aa42cc0
-{
-	Uninitialized = 0;
-	ShowInstructions = 1;
-	Searching = 2;
-	Timeout = 3;
-	Success = 4;
-	Success_NoMoreDongles = 5;
-}
-
-enum UnnamedEnumb860abf0191b3e22
-{
-	WaitingForReport = 0;
-	Parsing = 1;
-	Error = 2;
-	Viewing = 3;
-}
-
-enum UnnamedEnumbaa564634490e0ce
-{
-	Normal = 0;
-	Password = 1;
-	Submit = 2;
-}
-
-enum UnnamedEnumbc33628c90ff4f15
-{
-	Hidden = 0;
-	Showing = 1;
-	Shown = 2;
-	Hiding = 3;
-}
-
-enum UnnamedEnumbebd0257903ce773
-{
-	None = 0;
-	Shown = 1;
-	Hidden = 2;
-	Exposed = 3;
-	Moved = 4;
-	Resized = 5;
-	SizeChanged = 6;
-	Minimized = 7;
-	Maximized = 8;
-	Restored = 9;
-	Enter = 10;
-	Leave = 11;
-	FocusGained = 12;
-	FocusLost = 13;
-	Close = 14;
-	TakeFocus = 15;
-	HitTest = 16;
-}
-
-enum UnnamedEnumc4e5e4812c04650b
-{
-	Alive = 0;
-	Destroyed = 1;
-}
-
-enum UnnamedEnumc5ad9ff397e76037
-{
-	Invalid = 0;
-	HMD = 1;
-	Controller = 2;
-	GenericTracker = 3;
-	TrackingReference = 4;
-	DisplayRedirect = 5;
-}
-
-enum UnnamedEnumc7f1efe7b096147c
-{
-	Normal = 0;
-	Advanced = 1;
-	Desktop = 2;
-	VR = 3;
-}
-
-enum UnnamedEnumcbc7c2626df83f27
-{
-	None = 0;
-	Power = 1;
-	ExternalOverlays = 2;
-	Volume = 3;
-	Windows = 4;
-}
-
-enum UnnamedEnumce47e025623bf115
-{
-	Unknown = 0;
-	NVIDIA = 1;
-	AMD = 2;
-}
-
-enum UnnamedEnumd100a79ca34972c3
-{
-	ButtonPress_0 = 0;
-	ButtonPress_1 = 1;
-	ButtonPress_2 = 2;
-	ButtonPress_3 = 3;
-	CouldntFindSystemOverlay = 4;
-	CouldntFindOrCreateClientOverlay = 5;
-	ApplicationQuit = 6;
-}
-
-enum UnnamedEnumd2b4522526c2b206
-{
-	Dashboard = 0;
-	LeftHand = 1;
-	RightHand = 2;
-	World = 3;
-	Theater = 4;
-	Boot = 5;
-}
-
-enum UnnamedEnumd3dde09c34ccd726
-{
-	None = 0;
-	Boolean = 1;
-	Vector1 = 2;
-	Vector2 = 3;
-	Vector3 = 4;
-	Pose = 20;
-	SimpleHaptic = 21;
-	Skeleton = 22;
-	EyeTracking = 23;
-}
-
-enum UnnamedEnumdea6b0019127a66c
-{
-	Large = 0;
-	Medium = 1;
-}
-
-enum UnnamedEnume090f5859a2f770f
-{
-	None = 0;
-	List = 1;
-	ViewBinding = 2;
-	EditBinding = 3;
-	AppSelect = 4;
-	Debugger = 5;
-}
-
-enum UnnamedEnumed91888afd388320
-{
-	Value = 0;
-	Color = 1;
-}
-
-enum UnnamedEnumee13fc02f2c6851d
-{
-	None = 0;
-	ButtonEnter = 1;
-	ButtonLeave = 2;
-	Snap = 3;
-	Sliding = 4;
-	SlidingEdge = 5;
-}
-
-enum UnnamedEnumf02a8fd03bc3315a
+enum UnnamedEnumb036427e5070710e
 {
 	Invalid = 0;
 	TrackingSystemName_String = 1000;
@@ -828,6 +680,7 @@ enum UnnamedEnumf02a8fd03bc3315a
 	ActualTrackingSystemName_String = 1054;
 	AllowCameraToggle_Bool = 1055;
 	AllowLightSourceFrequency_Bool = 1056;
+	HasEyeTracker_Bool = 1060;
 	ReportsTimeSinceVSync_Bool = 2000;
 	SecondsFromVsyncToPhotons_Float = 2001;
 	DisplayFrequency_Float = 2002;
@@ -977,6 +830,178 @@ enum UnnamedEnumf02a8fd03bc3315a
 	TrackedDeviceProperty_Max = 1000000;
 }
 
+enum UnnamedEnumb0f99e67f3ec880b
+{
+	NONE = 0;
+	LOG = 1;
+	BREAK = 2;
+}
+
+enum UnnamedEnumb2e68253b585c6cd
+{
+	Default = 0;
+	MouseDown = 1;
+	Dragging = 2;
+	Thrown = 3;
+}
+
+enum UnnamedEnumb4fc6272ecae30fa
+{
+	Default = 1;
+	Floor = 2;
+}
+
+enum UnnamedEnumb823418b6aa42cc0
+{
+	Uninitialized = 0;
+	ShowInstructions = 1;
+	Searching = 2;
+	Timeout = 3;
+	Success = 4;
+	Success_NoMoreDongles = 5;
+}
+
+enum UnnamedEnumb860abf0191b3e22
+{
+	WaitingForReport = 0;
+	Parsing = 1;
+	Error = 2;
+	Viewing = 3;
+}
+
+enum UnnamedEnumbaa564634490e0ce
+{
+	Normal = 0;
+	Password = 1;
+	Submit = 2;
+}
+
+enum UnnamedEnumbc33628c90ff4f15
+{
+	Hidden = 0;
+	Showing = 1;
+	Shown = 2;
+	Hiding = 3;
+}
+
+enum UnnamedEnumbebd0257903ce773
+{
+	None = 0;
+	Shown = 1;
+	Hidden = 2;
+	Exposed = 3;
+	Moved = 4;
+	Resized = 5;
+	SizeChanged = 6;
+	Minimized = 7;
+	Maximized = 8;
+	Restored = 9;
+	Enter = 10;
+	Leave = 11;
+	FocusGained = 12;
+	FocusLost = 13;
+	Close = 14;
+	TakeFocus = 15;
+	HitTest = 16;
+}
+
+enum UnnamedEnumc4e5e4812c04650b
+{
+	Alive = 0;
+	Destroyed = 1;
+}
+
+enum UnnamedEnumc5ad9ff397e76037
+{
+	Invalid = 0;
+	HMD = 1;
+	Controller = 2;
+	GenericTracker = 3;
+	TrackingReference = 4;
+	DisplayRedirect = 5;
+}
+
+enum UnnamedEnumc7f1efe7b096147c
+{
+	Normal = 0;
+	Advanced = 1;
+	Desktop = 2;
+	VR = 3;
+}
+
+enum UnnamedEnumce47e025623bf115
+{
+	Unknown = 0;
+	NVIDIA = 1;
+	AMD = 2;
+}
+
+enum UnnamedEnumd100a79ca34972c3
+{
+	ButtonPress_0 = 0;
+	ButtonPress_1 = 1;
+	ButtonPress_2 = 2;
+	ButtonPress_3 = 3;
+	CouldntFindSystemOverlay = 4;
+	CouldntFindOrCreateClientOverlay = 5;
+	ApplicationQuit = 6;
+}
+
+enum UnnamedEnumd2b4522526c2b206
+{
+	Dashboard = 1;
+	LeftHand = 2;
+	RightHand = 3;
+	World = 4;
+	Theater = 5;
+	Boot = 6;
+}
+
+enum UnnamedEnumd3dde09c34ccd726
+{
+	None = 0;
+	Boolean = 1;
+	Vector1 = 2;
+	Vector2 = 3;
+	Vector3 = 4;
+	Pose = 20;
+	SimpleHaptic = 21;
+	Skeleton = 22;
+	EyeTracking = 23;
+}
+
+enum UnnamedEnumdea6b0019127a66c
+{
+	Large = 0;
+	Medium = 1;
+}
+
+enum UnnamedEnume090f5859a2f770f
+{
+	None = 0;
+	List = 1;
+	ViewBinding = 2;
+	EditBinding = 3;
+	AppSelect = 4;
+	Debugger = 5;
+}
+
+enum UnnamedEnumed91888afd388320
+{
+	Value = 0;
+	Color = 1;
+}
+
+enum UnnamedEnumee13fc02f2c6851d
+{
+	None = 0;
+	ButtonEnter = 1;
+	ButtonLeave = 2;
+	Snap = 3;
+	Sliding = 4;
+	SlidingEdge = 5;
+}
+
 enum UnnamedEnumf05301e70f30d754
 {
 	Desktop = 1;
@@ -995,13 +1020,6 @@ enum UnnamedEnumfae04dc9baea04ba
 	Auto = 0;
 	Power60hz = 1;
 	Power50hz = 2;
-}
-
-enum UnnamedEnumfcccf67285d7b76c
-{
-	None = 0;
-	Circle = 1;
-	Drawn = 2;
 }
 
 enum UnnamedEnumfce20aaa16bf4fee
